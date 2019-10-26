@@ -11,49 +11,47 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+* Diplom-Mathematics (Minor: Physics), Technische Universität München, 2005
+* academic year, Université de Nice – Sophia Antipolis (Nice, FR), 2003
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Since Oct. 2015 Mycelium
+  * Lead Android Developer as freelancer
+  * Bitcoin, Android, git, Linux Server
+* Nov. 2014 – Sep. 2015 *thisApp
+  * Lead developer
+  * Bitcoin, Cordova, AngularJS, Mongo, Jasmine, NaCl, bitcore, gulp, karma, express
+* Aug. 2014 – Nov. 2014 Universidad San Sebastian
+  * Workshop on Android development for 4th year students (Topics: Android, VCS, SCRUM, TDD, CI)
+* Since February 2014 FluxCards.de
+  * Founder and developer
+  * SCRUM Master for distributed team of 5, GIT, Mongo, Play! Framework, HTML5, jQuery
+* May 2013 – Oct. 2013 Cia. Molinera Villarrica Ltda.
+  * Developer
+  * Linux, Python 2.7, GIT, SQL-Alchemy, Alembic, GIS, Qt
+Aug. 2011 – April 2012 Rapa Zapp
+  * Founding member
+  * our "Facebook Social Game Engine" won $40k from Start-Up Chile
+* since Dec. 2010 Self-employed Android developer
+  * Linux, Android, AndEngine, ANT, JPA, Eclipse, SQLite, JSON, up to 11,000 active users on FluxCards Android
+* June 2008 – Nov. 2010 Travian Games
+  * Game development 1.5 years Java Server
+  * one year Flash Client developer
+  * Linux, Java, JPA, ANT, Maven, Spring-Integration, Terracotta, Hudson (Jenkins), Liquibase, JUnit, DBMS, Flex, PureMVC, AS-Mock, SCRUM
+* Feb. 2006 – June 2008 trixi informationssysteme GmbH
+  * Development of assistance software for insurance agents
+  * C#, VB.NET, ASP.NET, XML, MS-SQL Server, PHP, CSS, JAVA-Script, MS-Access 97, IIS
+1998 – 2005 Siemens AG
+  * 5 terms as a working student.
+  * Development of MS-Access and MS-Excel tools and support for all MS-Office products. VBA, Access, Excel
+* 2003 – 2005 Studentenwerk München
+  * Contact person for foreign students. Organization of cultural activities
+* 2003 – 2005 Kulturleben in der Studentenstadt e.V.
+  * Organizational responsibility for an annual festival ["StuStaCulum"](https://www.stustaculum.de/)
+* 2001 LabA9 GmbH
+  * Developer
+  * PHP, MySQL, Postgres, JavaScript, C++
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
