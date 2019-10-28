@@ -3,6 +3,9 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
+  - title: "Methodology"
+    url: /methodology/
+
   - title: "Team"
     url: /team/
 
