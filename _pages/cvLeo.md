@@ -18,20 +18,20 @@ Education
 Work experience
 ======
 
-* Since Oct. 2015 Mycelium
+* Since Oct. 2015 [Mycelium Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.mycelium.wallet)
   * Lead Android Developer as freelancer
-  * Bitcoin, Android, git, Linux Server
-* Nov. 2014 – Sep. 2015 *thisApp
+  * Bitcoin, Android, git, Java, Kotlin, Linux Server
+* Nov. 2014 – Sep. 2015 [*thisApp](https://thisapp.io/)
   * Lead developer
   * Bitcoin, Cordova, AngularJS, Mongo, Jasmine, NaCl, bitcore, gulp, karma, express
-* Aug. 2014 – Nov. 2014 Universidad San Sebastian
+* Aug. 2014 – Nov. 2014 [Universidad San Sebastian](http://www.uss.cl/)
   * Workshop on Android development for 4th year students (Topics: Android, VCS, SCRUM, TDD, CI)
-* Since February 2014 FluxCards.de
+* Since February 2014 [FluxCards.de](https://fluxcards.de/) and [FluxCards Android](https://play.google.com/store/apps/details?id=de.leowandersleb.fluxcards)
   * Founder and developer
   * SCRUM Master for distributed team of 5, GIT, Mongo, Play! Framework, HTML5, jQuery
 * May 2013 – Oct. 2013 Cia. Molinera Villarrica Ltda.
   * Developer
-  * Linux, Python 2.7, GIT, SQL-Alchemy, Alembic, GIS, Qt
+  * Linux, Python, GIT, SQL-Alchemy, Alembic, GIS, Qt
 * Aug. 2011 – April 2012 Rapa Zapp
   * Founding member
   * our "Facebook Social Game Engine" won $40k from Start-Up Chile
@@ -40,11 +40,11 @@ Work experience
 * June 2008 – Nov. 2010 Travian Games
   * Game development 1.5 years Java Server
   * one year Flash Client developer
-  * Linux, Java, JPA, ANT, Maven, Spring-Integration, Terracotta, Hudson (Jenkins), Liquibase, JUnit, DBMS, Flex, PureMVC, AS-Mock, SCRUM
+  * Linux, Java, JPA, ANT, Maven, Spring-Integration, Terracotta, Jenkins, Liquibase, JUnit, DBMS, Flex, PureMVC, AS-Mock, SCRUM
 * Feb. 2006 – June 2008 trixi informationssysteme GmbH
   * Development of assistance software for insurance agents
   * C#, VB.NET, ASP.NET, XML, MS-SQL Server, PHP, CSS, JAVA-Script, MS-Access 97, IIS
-1998 – 2005 Siemens AG
+* 1998 – 2005 Siemens AG
   * 5 terms as a working student.
   * Development of MS-Access and MS-Excel tools and support for all MS-Office products. VBA, Access, Excel
 * 2003 – 2005 Studentenwerk München
