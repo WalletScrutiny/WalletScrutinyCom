@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Leo Wandersleb"
+title                    : "Wallet Security Guard"
 title_separator          : "-"
 name                     : &name "Leo Wandersleb"
-description              : &description ""
-url                      : https://giszmo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "A project to improve Bitcoin wallet security"
+url                      : https://walletsecurityguard.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "giszmo/giszmo.github.io"
+repository               : "Giszmo/walletSecurityGuard"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Leo Wandersleb"
-  avatar           : "profile.jpg"
-  bio              : "Mathematician, Developer, Bitcoin Expert"
-  location         : "Germnany, Chile, NZ, ..."
+  name             : "by Leo Wandersleb & Kristina Tezieva"
+  avatar           : "logo.png"
+  bio              : 
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -94,25 +94,25 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : leo.wandersleb
+  facebook         : 
   foursquare       :
-  github           : giszmo
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : leo-wandersleb-66905545/
+  linkedin         : 
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : 969478/giszmo
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
   vine             :
   weibo            :
-  xing             : Leo_Wandersleb
+  xing             : 
   youtube          :
   wikipedia        :
 

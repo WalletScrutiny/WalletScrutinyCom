@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "CV Leo Wandersleb"
+permalink: /cv/leo/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+<div class="author__avatar">
+<img src="/images/leo.jpg" class="author__avatar" alt="photo of Leo Wandersleb">
+</div>
 
 Education
 ======
@@ -32,7 +32,7 @@ Work experience
 * May 2013 – Oct. 2013 Cia. Molinera Villarrica Ltda.
   * Developer
   * Linux, Python 2.7, GIT, SQL-Alchemy, Alembic, GIS, Qt
-Aug. 2011 – April 2012 Rapa Zapp
+* Aug. 2011 – April 2012 Rapa Zapp
   * Founding member
   * our "Facebook Social Game Engine" won $40k from Start-Up Chile
 * since Dec. 2010 Self-employed Android developer

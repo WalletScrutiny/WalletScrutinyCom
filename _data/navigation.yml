@@ -2,7 +2,9 @@
 main:
   - title: "Blog Posts"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
 
+  - title: "Team"
+    url: /team/
+
+  - title: "Glossary"
+    url: /glossary/
