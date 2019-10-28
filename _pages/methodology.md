@@ -27,7 +27,7 @@ of all the users at once. Could the provider of the wallet with enough criminal
 energy defraud all its users at once, without this being detected before it is
 too late?
 
-This horror scenario is possible whenver the provider has a copy of your wallet
+This horror scenario is possible whenever the provider has a copy of your wallet
 and thus access to your funds. He could at a certain date empty all the wallets.
 
 Seeing that some wallets have millions of users it is plausible to assume that
