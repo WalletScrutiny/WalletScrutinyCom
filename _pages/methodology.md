@@ -91,7 +91,7 @@ Wrap it up
 
 In the end we report our findings. All wallets that fail at any of the above
 questions is considered high risk in our estimate. We might contact the wallet
-provider and try to find out what went wrong. We will report on the respective
+provider, try to find out what went wrong and report on the respective
 communication. We will list bug bounties and other observations that might
 influence the wallet security.
 
