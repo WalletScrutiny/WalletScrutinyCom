@@ -1,6 +1,6 @@
 ---
 title: 'A little investigation into Android Wallet Security'
-date: 2019-11-01
+date: 2019-10-27
 permalink: /posts/2019/11/investigation-into-android-wallet-security/
 tags:
   - Android
@@ -8,10 +8,12 @@ tags:
   - Security
 ---
 
+(by Leo Wandersleb)
+
 Obvious lack of security bugs me and since working at Mycelium I pushed to put
 an emphasize on deterministic builds - only if the app on Google Play can be
 verified to match the code on GitHub, users can assume the public source code to be
-relevant for their security. 
+relevant for their security.
 
 The Problem
 ===========
@@ -29,7 +31,7 @@ all the coins means no attractive target to attack. The attacker would have to s
 the coins from each user individually.
 
 Unfortunately there is many points to attack even if the keys are not on a
-central server by design or necesity of the business model.
+central server by design or necessity of the business model.
 
 * The wallet could claim to be a wallet but in reality be a bitcoin bank, with the keys being stored on the server
   * While there were wallets that claimed to do more than they actually did in terms of Bitcoin crypto, I am not aware of this having happened yet to the degree where they claimed to not have the keys while holding them for normal operations.
@@ -49,14 +51,14 @@ Given that the two issues linked did affect open source wallets already shows
 that the open source nature is no 100% protection but in these cases it clearly
 was part of the quick discovery and fix.
 
-Unfortunately even open source wallet devs can maliciously release apps that do
+Unfortunately even open source wallet developers can maliciously release apps that do
 not match the published code.
 
-A necesary but underappreciated part of the Solution: Reproducible Builds
+A necessary but underappreciated part of the Solution: Reproducible Builds
 ====================================================
 
 [Reproducible Builds](https://reproducible-builds.org/) means that the binary compiled from the source code
-can be reproduced by following the exact recipy. Bitcoin Core for example uses
+can be reproduced by following the exact recipe. Bitcoin Core for example uses
 [gitian builds](https://github.com/bitcoin-core/docs/blob/master/gitian-building.md)
 and always multiple users verify the signed release actually is based on a
 tagged revision of the public code repository by reproducing the binary from the code.
@@ -78,12 +80,12 @@ Are Android apps verifiable?
 ============================
 
 Unfortunately Android never had the tools in place to deterministically
-build binaries. For example 
+build binaries. For example
 
 * The binary the end user receives, is an APK file which contains a signature, which naturally cannot be reproduced by the end user.
   * The APK will always differ.
   * So ... we have to unwrap the APK.
-* Build tools nowerdays are meant to be deterministic but often are not
+* Build tools nowadays are meant to be deterministic but often are not
   * Bugs like [this](https://issuetracker.google.com/issues/120255763) getting through QA look like deterministic builds are not a top priority at Google.
   * F-Droid was probably one of the earliest projects to [work with reproducible builds](https://f-droid.org/docs/Reproducible_Builds/?title=Deterministic,_Reproducible_Builds) but pngcrunch and NDK can cause issues.
 
@@ -146,44 +148,6 @@ their apps from Google Play and describe the process and results.
 
 I will skip looking into verifiable builds if it's not an actual wallet.
 
-Depending on feeback, this might turn into a permanent project monitoring
+Depending on feedback, this might turn into a permanent project monitoring
 all wallets and providing in depth security audits or it might just be a blog
 about a few wallets and their state around the end of 2019.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
