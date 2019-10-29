@@ -2,6 +2,8 @@
 title: 'A little investigation into Android Wallet Security'
 date: 2019-10-27
 permalink: /posts/2019/11/investigation-into-android-wallet-security/
+redirect_from:
+  - /first-post/
 tags:
   - Android
   - Deterministic Builds
