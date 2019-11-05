@@ -15,7 +15,7 @@ What we do not do
 
 * We do not provide a security audit of the source code.
 * We do not approve of the security of any wallet.
-* We do not guarantee that your version of the wallet is verified to match the public code.
+* We do not guarantee that your version of the wallet is verified to match the public code or the version that we investigated.
 
 
 
@@ -36,13 +36,30 @@ inclined employees, even if the wallet was not set up to scam its users from the
 start, which certainly is the case for some wallets.
 
 
+Our steps of verification
+=========================
+
+We take the perspective of a curious potential user of the respective app.
+We take all information from publicly available sources and do not assume that
+potential users would sign NDAs prior to using a wallet. We also do not consider
+hard to find information. Our verdict therefore is based on what we can find
+within a few clicks from the playstore description.
+
+Once we find the wallet's website, we try to answer the following questions:
+
+
 Is the wallet custodial?
 ------------------------
 
 A custodial wallet - a wallet where all the funds are in custody of the
 provider - can at any point steal all the funds of all the users at the
 provider's discretion. Our investigations stop there if the wallet is custodial
-(and by our definition not a wallet).
+(and by our definition not a wallet). Some wallets might claim their setup is
+super secure, that they don't actually have access to the funds or that the
+access is shared between multiple parties. For the evaluation if it is a wallet,
+these details are irrelevant. They might be a good Bitcoin bank and they might
+be a better fit for certain users than being your own bank but our investigation
+still stop there as we are only interested in wallets.
 
 
 Is the wallet open source?
@@ -51,12 +68,13 @@ Is the wallet open source?
 A wallet that claims to not give the provider the means to steal the users'
 funds might actually be lying. In the spirit of "Don't trust - verify!"
 you don't want to take the provider by his word but trust that people hunting
-for fame could actually find flaws and backdoors in the wallet so the provider
+for fame could actually find flaws and back-doors in the wallet so the provider
 doesn't dare to put these in.
 
-Backdoors and flaws are found in closed source products all the time but some
-remain hidden for years, even in
-[open source security software](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71).
+Back-doors and flaws are found in closed source products all the time but some
+remain hidden for years. And even in open source security software there there
+might be
+[catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71).
 
 An evil wallet provider would certainly prefer not to publish the code, as that
 would make audits orders of magnitude easier.
@@ -64,6 +82,8 @@ would make audits orders of magnitude easier.
 For your security you thus want the code to be available for review.
 
 If the wallet provider doesn't share up to date code, our analysis stops here.
+The wallet might steal your funds at any time and all we have to assume
+otherwise is the provider's word.
 
 We do not care about the license as long as it allows us to perform the further
 analysis. For a security audit it is not necessary that the provider allows
@@ -81,8 +101,9 @@ verify the app. We
 1. obtain the app from Google Play
 2. compile the app from the published source code
 3. compare the two apps
+4. spend some time working around [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
 
-If the last step fails, we might search if other revisions match or if we can
+If this fails, we might search if other revisions match or if we can
 deduct the source of the mismatch.
 
 
@@ -99,9 +120,3 @@ In the end, even if we conclude not to trust a wallet this doesn't mean the
 wallet was out to steal your coins. It just means that we are confident that
 with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.
-
-
-
-
-
-
