@@ -13,7 +13,7 @@ Education
 ======
 
 * Diplom-Mathematics (Minor: Physics), Technische Universität München, 2005
-* academic year, Université de Nice – Sophia Antipolis (Nice, FR), 2003
+* Academic year, Université de Nice – Sophia Antipolis (Nice, FR), 2003
 
 Work experience
 ======

@@ -24,7 +24,7 @@ Many wallets boast to be open source but do not provide even the claim of being
 verifiable, with some even hiding the team in secrecy, making them the perfect
 candidates for exit scams.
 
-How can we raise awarenes to the issue of released binaries not being what the
+How can we raise awareness to the issue of released binaries not being what the
 authors claim they are? Do we need a few wallets exit-scamming or can we
 protect at least the cautious users? And lastly, are the cautious users willing
 to chip in to improve the situation in one form or another?

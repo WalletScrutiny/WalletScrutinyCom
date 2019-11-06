@@ -12,7 +12,7 @@ Leo Wandersleb
 <img src="/images/leo.jpg" class="author__avatar" alt="photo of Leo Wandersleb">
 </div>
 
-Leo is "into Bitcoin" since 2012 and since October 2015 Bitcoin developer for the
+Leo is "into Bitcoin" since 2012 and since October 2015 a Bitcoin developer for the
 [Mycelium Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.mycelium.wallet).
 He holds a diploma in Mathematics from [TU München](https://www.tum.de/), was a
 game developer for [Travian](https://www.traviangames.com/en/), did
