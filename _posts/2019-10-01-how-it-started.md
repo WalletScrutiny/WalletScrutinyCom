@@ -10,7 +10,7 @@ tags:
   - Security
 ---
 
-(by Leo Wandersleb)
+(by [Leo Wandersleb](/cv/leo/))
 
 Obvious lack of security bugs me and since working at Mycelium I pushed to put
 an emphasize on deterministic builds - only if the app on Google Play can be
@@ -88,7 +88,7 @@ build binaries. For example
   * The APK will always differ.
   * So ... we have to unwrap the APK.
 * Build tools nowadays are meant to be deterministic but often are not
-  * Bugs like [this](https://issuetracker.google.com/issues/120255763) getting through QA look like deterministic builds are not a top priority at Google.
+  * Bugs like [this](https://issuetracker.google.com/issues/120255763) and more recently [this](https://issuetracker.google.com/issues/110237303) getting through QA look like deterministic builds are not a top priority at Google.
   * F-Droid was probably one of the earliest projects to [work with reproducible builds](https://f-droid.org/docs/Reproducible_Builds/?title=Deterministic,_Reproducible_Builds) but pngcrunch and NDK can cause issues.
 
 So in principle, APKs can be inspected but the signature and occasionally other

@@ -1,6 +1,6 @@
 ---
 title: "Schildbach's Bitcoin Wallet"
-date: 2019-10-29
+date: 2019-10-31
 permalink: /posts/2019/10/schildbach/
 redirect_from:
   - /schildbach/
