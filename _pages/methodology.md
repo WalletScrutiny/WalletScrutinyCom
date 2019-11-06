@@ -14,7 +14,7 @@ What we do not do
 =================
 
 * We do not provide a security audit of the source code.
-* We do not approve of the security of any wallet.
+* We do not endorse the security of any wallet.
 * We do not guarantee that your version of the wallet is verified to match the public code or the version that we investigated.
 
 
@@ -59,7 +59,7 @@ super secure, that they don't actually have access to the funds or that the
 access is shared between multiple parties. For the evaluation if it is a wallet,
 these details are irrelevant. They might be a good Bitcoin bank and they might
 be a better fit for certain users than being your own bank but our investigation
-still stop there as we are only interested in wallets.
+still stops there as we are only interested in wallets.
 
 
 Is the wallet open source?
@@ -72,7 +72,7 @@ for fame could actually find flaws and back-doors in the wallet so the provider
 doesn't dare to put these in.
 
 Back-doors and flaws are found in closed source products all the time but some
-remain hidden for years. And even in open source security software there there
+remain hidden for years. And even in open source security software there
 might be
 [catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71).
 
@@ -85,7 +85,7 @@ If the wallet provider doesn't share up to date code, our analysis stops here.
 The wallet might steal your funds at any time and all we have to assume
 otherwise is the provider's word.
 
-We do not care about the license as long as it allows us to perform the further
+We do not care about the license as long as it allows us to perform further
 analysis. For a security audit it is not necessary that the provider allows
 others to use their code for a competing wallet.
 
