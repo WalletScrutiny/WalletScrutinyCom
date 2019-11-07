@@ -1,5 +1,6 @@
 ---
 title: 'A little investigation into Android Wallet Security'
+excerpt: "Obvious lack of security is all too common in today's wallets and we set out to do something about it."
 date: 2019-10-27
 permalink: /posts/2019/11/investigation-into-android-wallet-security/
 redirect_from:

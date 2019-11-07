@@ -8,13 +8,13 @@
 
 {% assign theBad = "none" %}
 {% unless post.verifiable %}
-  {% assign theBad = "NOT VERIFIABLE!" %}
+  {% assign theBad = "This app is not easily verifiable!" %}
 {% endunless %}
 {% unless post.opensource %}
-  {% assign theBad = "NO PUBLIC SOURCE!" %}
+  {% assign theBad = "Without public source available, this app cannot be verified!" %}
 {% endunless %}
 {% if post.custodial %}
-  {% assign theBad = "CUSTODIAL!" %}
+  {% assign theBad = "As the provider of this app holds the users' coins, verifiability is not relevant!" %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -23,24 +23,37 @@
       <div class="app_logo">
         <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
       </div>
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+      <div class="app_info_box">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+        <span style="font-size: smaller">
+          <br>
+          {{ post.users }} total downloads.
+          <br>
+          {% if post.wip %}
+            We still have to analyze this wallet.
+          {% elsif theBad != "none" %}
+            <font style="color: red">{{ theBad }}</font>
+          {% else %}
+            {% if post.verifiable %}
+              <font style="color: green">This app can be verified!</font>
+              {% if post.bugbounty %}
+                <br>
+                <font style="color: green">Bug bounty program</font>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+          <br>Links:
+          <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
+          {% if post.repository %}
+            , <a href="{{ post.repository }}">source code</a>
+          {% endif %}
+        </span>
+      </div>
     </h2>
-    {% if post.wip %}
-      <p>Work in progress. We will look into this wallet later.</p>
-    {% elsif theBad != "none" %}
-      <p style="color: red">{{ theBad }}</p>
-    {% else %}
-      {% if post.verifiable %}
-        <p style="color: green">Verifiable</p>
-      {% endif %}
-      {% if post.bugbounty %}
-        <p style="color: green">Bug Bounty</p>
-      {% endif %}
-    {% endif %}
   </article>
 </div>

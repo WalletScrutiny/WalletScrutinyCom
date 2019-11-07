@@ -4,6 +4,8 @@ excerpt: "One of the top two wallets but is it verifiable?"
 
 wallet: true
 users: 5000000
+appId: piuk.blockchain.android
+repository: https://github.com/blockchain/My-Wallet-V3-Android
 icon: "images/wallet_icons/blockchainwallet.png"
 custodial: false
 opensource: true

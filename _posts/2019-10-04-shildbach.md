@@ -3,6 +3,8 @@ title: "Schildbach's Bitcoin Wallet"
 
 wallet: true
 users: 1000000
+appId: de.schildbach.wallet
+repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 icon: "images/wallet_icons/schildbach.png"
 custodial: false
 opensource: true
