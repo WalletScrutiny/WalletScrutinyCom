@@ -1,0 +1,46 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% assign theBad = "none" %}
+{% unless post.verifiable %}
+  {% assign theBad = "NOT VERIFIABLE!" %}
+{% endunless %}
+{% unless post.opensource %}
+  {% assign theBad = "NO PUBLIC SOURCE!" %}
+{% endunless %}
+{% if post.custodial %}
+  {% assign theBad = "CUSTODIAL!" %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <div class="app_logo">
+        <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+      </div>
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% if post.wip %}
+      <p>Work in progress. We will look into this wallet later.</p>
+    {% elsif theBad != "none" %}
+      <p style="color: red">{{ theBad }}</p>
+    {% else %}
+      {% if post.verifiable %}
+        <p style="color: green">Verifiable</p>
+      {% endif %}
+      {% if post.bugbounty %}
+        <p style="color: green">Bug Bounty</p>
+      {% endif %}
+    {% endif %}
+  </article>
+</div>

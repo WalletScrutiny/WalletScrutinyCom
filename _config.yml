@@ -80,39 +80,39 @@ analytics:
 
 # Site Author
 author:
-  name             : "by Leo Wandersleb & Kristina Tezieva"
+  name             : "Leo Wandersleb & Kristina Tezieva"
   avatar           : "logo.png"
-  bio              : 
-  location         : 
+  bio              :
+  location         :
   employer         :
-  pubmed           : 
-  googlescholar    : 
-  email            : 
-  researchgate     : 
+  pubmed           :
+  googlescholar    :
+  email            :
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 
+  facebook         :
   foursquare       :
-  github           : 
+  github           :
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : 
+  impactstory      :
   lastfm           :
-  linkedin         : 
-  orcid            : 
+  linkedin         :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
-  xing             : 
+  xing             :
   youtube          :
   wikipedia        :
 

@@ -3,7 +3,7 @@ permalink: /
 title: "About"
 excerpt: "What made us start this project"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -29,3 +29,4 @@ authors claim they are? Do we need a few wallets exit-scamming or can we
 protect at least the cautious users? And lastly, are the cautious users willing
 to chip in to improve the situation in one form or another?
 
+{% include list_of_wallets.html %}

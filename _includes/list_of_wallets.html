@@ -1,0 +1,7 @@
+{% include base_path %}
+
+{% for post in site.posts reversed %}
+  {% if post.wallet %}
+    {% include list_of_wallets_item.html %}
+  {% endif %}
+{% endfor %}

@@ -1,5 +1,15 @@
 ---
 title: "Blockchain Wallet"
+excerpt: "One of the top two wallets but is it verifiable?"
+
+wallet: true
+users: 5000000
+icon: "images/wallet_icons/blockchainwallet.png"
+custodial: false
+opensource: true
+verifiable: false
+bugbounty: true
+
 date: 2019-10-29
 permalink: /posts/2019/11/blockchainwallet/
 redirect_from:

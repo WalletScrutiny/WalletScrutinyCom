@@ -1,5 +1,14 @@
 ---
 title: "Schildbach's Bitcoin Wallet"
+
+wallet: true
+users: 1000000
+icon: "images/wallet_icons/schildbach.png"
+custodial: false
+opensource: true
+verifiable: true
+bugbounty: false
+
 date: 2019-10-31
 permalink: /posts/2019/10/schildbach/
 redirect_from:

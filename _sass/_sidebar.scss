@@ -235,3 +235,25 @@
     }
   }
 }
+
+.app_logo {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+
+  @include breakpoint($large) {
+    display: inline;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 36px;
+    border-radius: 25%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
+    }
+  }
+}
