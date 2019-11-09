@@ -47,18 +47,19 @@ does:
 
 We ran `gradle clean build` with all the dependencies installed and then
 
-```
-$ diffoscope wallet/build/outputs/apk/release/bitcoin-wallet-release-unsigned.apk ~/base.apk
-W: Cant find 9patch chunk in file: "drawable-hdpi-v4/toast_frame.9.png". Renaming it to *.png.                                                                  |    0%                             ETA:  --:--:--
-W: Cant find 9patch chunk in file: "drawable-hdpi-v4/toast_frame.9.png". Renaming it to *.png.
+<div class="language-plaintext highlighter-rouge">
+<div class="highlight">
+<pre class="highlight">$ diffoscope wallet/build/outputs/apk/release/bitcoin-wallet-release-unsigned.apk ~/base.apk
+W: Cant find 9patch chunk in file: &quot;drawable-hdpi-v4/toast_frame.9.png&quot;. Renaming it to *.png.                                                                  |    0%                             ETA:  --:--:--
+W: Cant find 9patch chunk in file: &quot;drawable-hdpi-v4/toast_frame.9.png&quot;. Renaming it to *.png.
 --- wallet/build/outputs/apk/release/bitcoin-wallet-release-unsigned.apk
 +++ /home/leo/base.apk
 ├── zipinfo /dev/stdin
-│ @@ -1,10 +1,9 @@
-│ -Zip file size: 2990104 bytes, number of entries: 205
-│ +Zip file size: 3010878 bytes, number of entries: 207
+│ <font color="#06989A">@@ -1,10 +1,9 @@</font>
+│ <font color="#CC0000">-Zip file size: 2990104 bytes, number of entries: 205</font>
+│ <font color="#4E9A06">+Zip file size: 3010878 bytes, number of entries: 207</font>
 │  -rw----     2.0 fat    15456 bx defN 80-000-00 00:00 AndroidManifest.xml
-│ --rw----     2.4 fat       87 b- defN 80-000-00 00:00 META-INF/MANIFEST.MF
+│ <font color="#CC0000">--rw----     2.4 fat       87 b- defN 80-000-00 00:00 META-INF/MANIFEST.MF</font>
 │  -rw----     2.0 fat      112 b- defN 80-000-00 00:00 META-INF/services/java.security.Provider
 │  -rw----     2.4 fat    13116 b- defN 80-000-00 00:00 assets/bip39-wordlist.txt
 │  -rw----     2.4 fat   100773 b- defN 80-000-00 00:00 assets/checkpoints-testnet.txt
@@ -66,7 +67,7 @@ W: Cant find 9patch chunk in file: "drawable-hdpi-v4/toast_frame.9.png". Renamin
 │  -rw----     2.4 fat      325 b- defN 80-000-00 00:00 assets/electrum-servers.txt
 │  -rw----     2.4 fat       42 b- defN 80-000-00 00:00 assets/fees-testnet.txt
 │  -rw----     2.4 fat       95 b- defN 80-000-00 00:00 assets/fees.txt
-│ @@ -200,8 +199,11 @@
+│ <font color="#06989A">@@ -200,8 +199,11 @@</font>
 │  -rw----     2.0 fat     4116 b- defN 80-000-00 00:00 res/xml/preference_about.xml
 │  -rw----     2.0 fat      592 b- defN 80-000-00 00:00 res/xml/preference_diagnostics.xml
 │  -rw----     2.0 fat      764 b- defN 80-000-00 00:00 res/xml/preference_headers.xml
@@ -74,33 +75,37 @@ W: Cant find 9patch chunk in file: "drawable-hdpi-v4/toast_frame.9.png". Renamin
 │  -rw----     2.0 fat     1152 b- defN 80-000-00 00:00 res/xml/shortcuts.xml
 │  -rw----     2.0 fat      544 b- defN 80-000-00 00:00 res/xml/wallet_balance_widget.xml
 │  -rw----     1.0 fat  1001356 bx stor 80-000-00 00:00 resources.arsc
-│ -205 files, 5489790 bytes uncompressed, 2957584 bytes compressed:  46.1%
-│ +-rw----     2.0 fat    23138 b- defN 80-000-00 00:00 META-INF/BITCOIN-.SF
-│ +-rw----     2.0 fat     1335 b- defN 80-000-00 00:00 META-INF/BITCOIN-.RSA
-│ +-rw----     2.0 fat    23076 b- defN 80-000-00 00:00 META-INF/MANIFEST.MF
-│ +207 files, 5537252 bytes uncompressed, 2976358 bytes compressed:  46.3%
+│ <font color="#CC0000">-205 files, 5489790 bytes uncompressed, 2957584 bytes compressed:  46.1%</font>
+│ <font color="#4E9A06">+-rw----     2.0 fat    23138 b- defN 80-000-00 00:00 META-INF/BITCOIN-.SF</font>
+│ <font color="#4E9A06">+-rw----     2.0 fat     1335 b- defN 80-000-00 00:00 META-INF/BITCOIN-.RSA</font>
+│ <font color="#4E9A06">+-rw----     2.0 fat    23076 b- defN 80-000-00 00:00 META-INF/MANIFEST.MF</font>
+│ <font color="#4E9A06">+207 files, 5537252 bytes uncompressed, 2976358 bytes compressed:  46.3%</font>
 ├── original/META-INF/MANIFEST.MF
-│ @@ -1,4 +1,616 @@
+│ <font color="#06989A">@@ -1,4 +1,616 @@</font>
 │  Manifest-Version: 1.0
 │  Built-By: Generated-by-ADT
 │  Created-By: Android Gradle 3.1.0
 │  
-│ +Name: AndroidManifest.xml
-│ +SHA-256-Digest: SNSZDGeJA8OW+pooYWJtGeJZ3o4gHcQuOgyR98hZL00=
-│ +
-│ +Name: META-INF/services/java.security.Provider
-│ +SHA-256-Digest: tQoHBUCrFboIZe48gchWFvVN/Ox53Piv2CIFeI9FLaw=
-│ +
-│ +Name: assets/bip39-wordlist.txt
-│ +SHA-256-Digest: L17tU6Rye0v4iA2PPxme/JDlhQNkbZ/47/Oi7Tsk29o=
-│ +
-│ +Name: assets/checkpoints-testnet.txt
-│ +SHA-256-Digest: GKCG5t8AQ3iu7hEnNDnO4WoNHEJgPv61AbJO9IE2dTg=
-│ +
-│ +Name: assets/checkpoints.txt
-│ +SHA-256-Digest: SkJAWThF1kn6PZiKQhUsH7bQYPETp1tccjH21bhC8A4=
-│ +
-```
+│ <font color="#4E9A06">+Name: AndroidManifest.xml</font>
+│ <font color="#4E9A06">+SHA-256-Digest: SNSZDGeJA8OW+pooYWJtGeJZ3o4gHcQuOgyR98hZL00=</font>
+│ <font color="#4E9A06">+</font>
+│ <font color="#4E9A06">+Name: META-INF/services/java.security.Provider</font>
+│ <font color="#4E9A06">+SHA-256-Digest: tQoHBUCrFboIZe48gchWFvVN/Ox53Piv2CIFeI9FLaw=</font>
+│ <font color="#4E9A06">+</font>
+│ <font color="#4E9A06">+Name: assets/bip39-wordlist.txt</font>
+│ <font color="#4E9A06">+SHA-256-Digest: L17tU6Rye0v4iA2PPxme/JDlhQNkbZ/47/Oi7Tsk29o=</font>
+│ <font color="#4E9A06">+</font>
+│ <font color="#4E9A06">+Name: assets/checkpoints-testnet.txt</font>
+│ <font color="#4E9A06">+SHA-256-Digest: GKCG5t8AQ3iu7hEnNDnO4WoNHEJgPv61AbJO9IE2dTg=</font>
+│ <font color="#4E9A06">+</font>
+│ <font color="#4E9A06">+Name: assets/checkpoints.txt</font>
+│ <font color="#4E9A06">+SHA-256-Digest: SkJAWThF1kn6PZiKQhUsH7bQYPETp1tccjH21bhC8A4=</font>
+│ <font color="#4E9A06">+</font>
+│ <font color="#4E9A06">+Name: assets/electrum-servers.txt</font>
+│ <font color="#4E9A06">+SHA-256-Digest: GJdSqKZmZWNGasMrj9ruKoQFvcHgO8gFnykwSoNNF5Q=</font>
+</pre>
+</div>
+</div>
 
 (... 600 more lines from `original/META-INF/MANIFEST.MF`)
 

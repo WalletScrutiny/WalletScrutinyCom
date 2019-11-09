@@ -2,7 +2,7 @@
 title: "Blockfolio - Bitcoin and Cryptocurrency Tracker"
 excerpt: "We still have to write up something about this wallet"
 
-wallet: true
+wallet: false
 users: 1000000
 appId: com.blockfolio.blockfolio
 repository:
@@ -11,9 +11,8 @@ custodial:
 opensource:
 verifiable:
 bugbounty:
-wip: true
 
-date: 2019-11-02
+date: 2019-11-10
 permalink: /posts/2019/11/blockfolio/
 redirect_from:
   - /blockfolio/
