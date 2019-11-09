@@ -1,5 +1,5 @@
 ---
-title: "Cryptonator crypto monedero"
+title: "Cryptonator cryptocurrency wallet"
 excerpt: "We still have to write up something about this wallet"
 
 wallet: true
