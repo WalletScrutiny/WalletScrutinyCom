@@ -17,6 +17,15 @@
   {% assign theBad = "As the provider of this app holds the users' coins, verifiability is not relevant!" %}
 {% endif %}
 
+{% comment %}
+  Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
+  here have only one significant digit, getting number grouping can be achieved
+  by replacing "000" with " 000" from the right and to avoid a space in that
+  string, the first replacement zero gets a margin instead of a space.
+{% endcomment %}
+{% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
+{% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <h2 class="archive__item-title" itemprop="headline">
@@ -32,7 +41,7 @@
         {% endif %}
         <span style="font-size: smaller">
           <br>
-          {{ post.users }} total downloads.
+          {{ prettyUserCount }} total downloads.
           <br>
           {% if post.wip %}
             We still have to analyze this wallet.
