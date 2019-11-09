@@ -1,6 +1,7 @@
 {% include base_path %}
 
-{% for post in site.posts reversed %}
+{% assign posts_by_users = site.posts | sort: "users" | reverse %}
+{% for post in posts_by_users %}
   {% if post.wallet %}
     {% include list_of_wallets_item.html %}
   {% endif %}
