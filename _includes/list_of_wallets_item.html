@@ -6,16 +6,65 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% assign theBad = "none" %}
-{% unless post.verifiable %}
-  {% assign theBad = "This app is not easily verifiable!" %}
-{% endunless %}
-{% unless post.opensource %}
-  {% assign theBad = "Without public source available, this app cannot be verified!" %}
-{% endunless %}
-{% if post.custodial %}
-  {% assign theBad = "As the provider of this app holds the users' coins, verifiability is not relevant!" %}
-{% endif %}
+{% case post.verdict %}
+  {% when "wip" %}
+    {% assign verdict = '<span class="wip tooltip">
+      WIP
+      <span class="tooltiptext">
+        Work in progress. We still have to analyze this wallet.
+      </span>
+    </span>' %}
+  {% when "custodial" %}
+    {% assign verdict = '<span class="custodial tooltip">
+      Custodial!
+      <span class="tooltiptext">
+        As the provider of this app holds the users coins, verifiability of
+        the app is not relevant wether or not the funds are secure!
+      </span>
+    </span>' %}
+  {% when "nosource" %}
+    {% assign verdict = '<span class="nosource tooltip">
+      No source!
+      <span class="tooltiptext">
+        Without public source available, this app cannot be verified!
+      </span>
+    </span>' %}
+  {% when "nonverifiable" %}
+    {% assign verdict = '<span class="nonverifiable tooltip">
+      Not verifiable!
+      <span class="tooltiptext">
+        The app provider also shares code but we could so far not verify that
+        the published code matches the published app!
+      </span>
+    </span>' %}
+  {% when "verifiable" %}
+    {% assign verdict = '<span class="verifiable tooltip">
+      Verifiable!
+      <span class="tooltiptext">
+        At the time of this analysis, the app on Google Play was reproducible
+        from the code provided by the developers!
+      </span>
+    </span>' %}
+  {% when "bounty" %}
+    {% assign verdict = '<span class="bounty tooltip">
+      Bounty!
+      <span class="tooltiptext">
+        This app was not only verifiable at the time of this analysis but also
+        provides an incentive for third parties to find bugs and weaknesses!
+      </span>
+    </span>' %}
+  {% when "cert1" %}
+    {% assign verdict = '<span class="cert1 tooltip">cert1<span class="tooltiptext">As the provider of this app holds the users coins, verifiability is not relevant!</span></span>' %}
+  {% when "cert2" %}
+    {% assign verdict = '<span class="cert2 tooltip">cert2<span class="tooltiptext">As the provider of this app holds the users coins, verifiability is not relevant!</span></span>' %}
+  {% else %}
+    {% assign verdict = '<span class="wip tooltip">
+      WIP
+      <span class="tooltiptext">
+        Work in progress. We still have to analyze this wallet.
+      </span>
+    </span>' %}
+{% endcase %}
 
 {% comment %}
   Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
@@ -26,43 +75,31 @@
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">
+<tr>
+  <td>
       <div class="app_logo">
         <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
       </div>
-      <div class="app_info_box">
-        {% if post.link %}
-          <a href="{{ post.link }}">{{ title }}</a>
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-        {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        {% endif %}
-        <span style="font-size: smaller">
-          <br>
-          {{ prettyUserCount }} total downloads.
-          <br>
-          {% if post.wip %}
-            We still have to analyze this wallet.
-          {% elsif theBad != "none" %}
-            <font style="color: red">{{ theBad }}</font>
-          {% else %}
-            {% if post.verifiable %}
-              <font style="color: green">This app can be verified!</font>
-              {% if post.bugbounty %}
-                <br>
-                <font style="color: green">Bug bounty program</font>
-              {% endif %}
-            {% endif %}
-          {% endif %}
-          <br>Links:
-          <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-          {% if post.repository %}
-            , <a href="{{ post.repository }}">source code</a>
-          {% endif %}
-        </span>
-      </div>
-    </h2>
-  </article>
-</div>
+  </td><td>
+    <div class="app_info_box">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </div>
+  </td><td>
+    <span style="font-size: smaller">
+      {{ prettyUserCount }}
+    </span>
+  </td><td>
+    <strong>{{ verdict }}</strong>
+  </td><td>
+    <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
+  </td><td>
+    {% if post.repository %}
+      <a href="{{ post.repository }}">source code</a>
+    {% endif %}
+  </td>
+</tr>

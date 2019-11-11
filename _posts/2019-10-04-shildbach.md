@@ -10,6 +10,7 @@ custodial: false
 opensource: true
 verifiable: true
 bugbounty: false
+verdict: verifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-10-31
 permalink: /posts/2019/10/schildbach/

@@ -1,8 +1,10 @@
 {% include base_path %}
 
 {% assign posts_by_users = site.posts | sort: "users" | reverse %}
+<table>
 {% for post in posts_by_users %}
   {% if post.wallet %}
     {% include list_of_wallets_item.html %}
   {% endif %}
 {% endfor %}
+</table>
