@@ -431,14 +431,12 @@
   }
 }
 
-/* Tooltip container */
 .tooltip {
  position: relative;
  display: inline-block;
- border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+ border-bottom: 1px dotted black;
 }
 
-/* Tooltip text */
 .tooltip .tooltiptext {
  visibility: hidden;
  width: 120px;
@@ -448,14 +446,12 @@
  padding: 5px 0;
  border-radius: 6px;
 
- /* Position the tooltip text */
  position: absolute;
  z-index: 1;
  bottom: 125%;
  left: 50%;
  margin-left: -60px;
 
- /* Fade in tooltip */
  opacity: 0;
  transition: opacity 0.3s;
 }
@@ -516,4 +512,8 @@
 
 .cert3 {
   color: green;
+}
+
+thead {
+  font-weight: bold;
 }

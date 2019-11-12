@@ -22,6 +22,14 @@
         the app is not relevant wether or not the funds are secure!
       </span>
     </span>' %}
+  {% when "nowallet" %}
+    {% assign verdict = '<span class="nowallet tooltip">
+      Not a wallet
+      <span class="tooltiptext">
+        We could not find this to be an app meant to store receive and send
+        coins.
+      </span>
+    </span>' %}
   {% when "nosource" %}
     {% assign verdict = '<span class="nosource tooltip">
       No source!
@@ -75,12 +83,11 @@
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 
-<tr>
+<tr class="{{ post.verdict }}">
   <td>
-      <div class="app_logo">
-        <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
-      </div>
-  </td><td>
+    <div class="app_logo">
+      <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+    </div>
     <div class="app_info_box">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
@@ -97,9 +104,8 @@
     <strong>{{ verdict }}</strong>
   </td><td>
     <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-  </td><td>
     {% if post.repository %}
-      <a href="{{ post.repository }}">source code</a>
+      , <a href="{{ post.repository }}">source code</a>
     {% endif %}
   </td>
 </tr>

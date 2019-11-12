@@ -7,10 +7,7 @@ users: 1000000
 appId: com.bitcoin.mwallet
 repository:
 icon: "images/wallet_icons/bitcoincom.png"
-custodial: false
-opensource: false
-verifiable: false
-bugbounty: false
+bugbounty: 
 verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-11-09

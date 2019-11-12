@@ -7,11 +7,7 @@ users: 100000
 appId: com.cryptonator.android
 repository:
 icon: "images/wallet_icons/cryptonator.png"
-custodial:
-opensource:
-verifiable:
 bugbounty:
-wip: true
 verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-11-12

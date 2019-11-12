@@ -7,9 +7,6 @@ users: 5000000
 appId: piuk.blockchain.android
 repository: https://github.com/blockchain/My-Wallet-V3-Android
 icon: "images/wallet_icons/blockchainwallet.png"
-custodial: false
-opensource: true
-verifiable: false
 bugbounty: https://hackerone.com/blockchain
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 

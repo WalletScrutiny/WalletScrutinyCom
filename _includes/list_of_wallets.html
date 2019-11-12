@@ -1,10 +1,46 @@
 {% include base_path %}
 
 {% assign posts_by_users = site.posts | sort: "users" | reverse %}
+
+<select id="categorySelect" onchange = "filterList()">
+  <option value="wip">Show all</option>
+  <option value="nowallet">Show analized only</option>
+  <option value="custodial">Show wallets only</option>
+  <option value="nosource">Show non-custodial only</option>
+  <option value="nonverifiable">Show open source only</option>
+  <option value="verifiable">Show verifiable only</option>
+  <option value="bounty">Show verifiable with bug bounty only</option>
+  <option value="cert">Show certified only</option>
+</select>
 <table>
-{% for post in posts_by_users %}
-  {% if post.wallet %}
-    {% include list_of_wallets_item.html %}
-  {% endif %}
-{% endfor %}
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Installs</td>
+      <td>Verdict</td>
+      <td>Links</td>
+    </tr>
+  </thead>
+  {% for post in posts_by_users %}
+    {% if post.wallet %}
+      {% include list_of_wallets_item.html %}
+    {% endif %}
+  {% endfor %}
 </table>
+<script>
+function filterList() {
+  var allCategories = "wip nowallet custodial nosource nonverifiable verifiable bounty cert".split(" ");
+  var selectedCategory = $('#categorySelect')[0].value;
+  var visible = false; // hide all categories until the selected one
+  allCategories.forEach(function(category){
+    if (category == selectedCategory) {
+      visible = true;
+    }
+    if (visible) {
+      $('.' + category).show();
+    } else {
+      $('.' + category).hide();
+    }
+  })
+}
+</script>

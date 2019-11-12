@@ -6,10 +6,7 @@ users: 1000000
 appId: de.schildbach.wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 icon: "images/wallet_icons/schildbach.png"
-custodial: false
-opensource: true
-verifiable: true
-bugbounty: false
+bugbounty: 
 verdict: verifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-10-31
