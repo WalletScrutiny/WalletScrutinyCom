@@ -478,39 +478,43 @@
     color: gray;
 }
 
-.nowallet {
+.verdict {
+  font-weight: bold;
+}
+
+.verdict .nowallet {
   color: gray;
 }
 
-.custodial {
+.verdict .custodial {
   color: red;
 }
 
-.nosource {
+.verdict .nosource {
   color: red;
 }
 
-.nonverifiable {
+.verdict .nonverifiable {
   color: #533;
 }
 
-.verifiable {
+.verdict .verifiable {
   color: green;
 }
 
-.bounty {
+.verdict .bounty {
   color: green;
 }
 
-.cert1 {
+.verdict .cert1 {
   color: green;
 }
 
-.cert2 {
+.verdict .cert2 {
   color: green;
 }
 
-.cert3 {
+.verdict .cert3 {
   color: green;
 }
 

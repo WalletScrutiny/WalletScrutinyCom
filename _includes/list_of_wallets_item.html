@@ -100,8 +100,8 @@
     <span style="font-size: smaller">
       {{ prettyUserCount }}
     </span>
-  </td><td>
-    <strong>{{ verdict }}</strong>
+  </td><td class="verdict">
+    {{ verdict }}
   </td><td>
     <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
     {% if post.repository %}
