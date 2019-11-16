@@ -104,7 +104,7 @@
     <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">G</a>{% if post.repository %}, <a href="{{ post.repository }}">S</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">W</a>
     {% endif %}
   </td><td>
-    {{ post.latestUpdate }}
+    {{ post.latestUpdate | date: '%B %Y' }}
   </td><td>
     {{ post.apkVersionName }}
   </td><td>
