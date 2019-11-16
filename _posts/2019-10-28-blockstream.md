@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 50000
 appId: com.greenaddress.greenbits_android_wallet
+launchDate:
+latestUpdate: 2019-11-13
+apkVersionName: 3.2.7
+stars: 4.0
+commentCount: 439
+permissions:
+website: https://blockstream.com/green
 repository:
 icon: "images/wallet_icons/greenwallet.png"
 bugbounty:

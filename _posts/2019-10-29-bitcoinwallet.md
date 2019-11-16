@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 50000
 appId: com.polehin.android
+launchDate:
+latestUpdate: 2019-11-14
+apkVersionName: 3.0.0
+stars: 4.3
+commentCount: 909
+permissions:
+website: https://polehin.com/
 repository:
 icon: "images/wallet_icons/bitcoinwallet.png"
 bugbounty:

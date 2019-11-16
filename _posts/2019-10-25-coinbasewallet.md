@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 100000
 appId: org.toshi
+launchDate:
+latestUpdate: 2019-10-18
+apkVersionName: 18.3.222
+stars: 4.4
+commentCount: 3990
+permissions:
+website: https://wallet.coinbase.com/
 repository:
 icon: "images/wallet_icons/coinbasewallet.png"
 bugbounty:

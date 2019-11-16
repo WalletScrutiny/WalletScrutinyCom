@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 10000
 appId: com.lightning.walletapp
+launchDate:
+latestUpdate: 2019-09-09
+apkVersionName: 0.3
+stars: 4.5
+commentCount: 254
+permissions:
+website: http://lightning-wallet.com/
 repository:
 icon: "images/wallet_icons/bitcoinlightingwallet.png"
 bugbounty:

@@ -103,9 +103,19 @@
   </td><td class="verdict">
     {{ verdict }}
   </td><td>
-    <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-    {% if post.repository %}
-      , <a href="{{ post.repository }}">source code</a>
+    <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">G</a>{% if post.repository %}, <a href="{{ post.repository }}">S</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">W</a>
     {% endif %}
+  </td><td>
+    {{ post.launchDate }}
+  </td><td>
+    {{ post.latestUpdate }}
+  </td><td>
+    {{ post.apkVersionName }}
+  </td><td>
+    {{ post.stars }}
+  </td><td>
+    {{ post.commentCount }}
+  </td><td>
+    {{ post.permissions }}
   </td>
 </tr>

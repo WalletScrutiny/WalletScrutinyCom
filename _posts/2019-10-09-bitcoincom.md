@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 1000000
 appId: com.bitcoin.mwallet
+launchDate:
+latestUpdate: 2019-10-18
+apkVersionName: 5.13.3
+stars: 4.0
+commentCount: 9016
+permissions:
+website: https://www.bitcoin.com/
 repository:
 icon: "images/wallet_icons/bitcoincom.png"
 bugbounty: 

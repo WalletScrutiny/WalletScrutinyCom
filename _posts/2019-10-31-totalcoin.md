@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 50000
 appId: io.totalcoin.wallet
+launchDate:
+latestUpdate: 2019-10-24
+apkVersionName:  4.4.1
+stars: 4.7
+commentCount: 1,734
+permissions:
+website: http://totalcoin.io/
 repository:
 icon: "images/wallet_icons/totalcoin.png"
 bugbounty:

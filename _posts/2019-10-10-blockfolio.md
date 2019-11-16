@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 1000000
 appId: com.blockfolio.blockfolio
+launchDate:
+latestUpdate: 2019-10-28
+apkVersionName: 2.5.2
+stars: 4.8
+commentCount: 102194
+permissions:
+website: https://www.blockfolio.com/
 repository:
 icon: "images/wallet_icons/blockfolio.png"
 bugbounty:

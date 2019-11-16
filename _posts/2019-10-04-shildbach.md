@@ -4,6 +4,13 @@ title: "Schildbach's Bitcoin Wallet"
 wallet: true
 users: 1000000
 appId: de.schildbach.wallet
+launchDate:
+latestUpdate: 2019-11-14
+apkVersionName: 7.31
+stars: 4.0
+commentCount: 21173
+permissions:
+website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 icon: "images/wallet_icons/schildbach.png"
 bugbounty: 

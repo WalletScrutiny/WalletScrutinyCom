@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 100000
 appId: com.cryptonator.android
+launchDate:
+latestUpdate: 2019-11-03
+apkVersionName: 3.0.1
+stars: 4.6
+commentCount: 3223
+permissions:
+website: https://www.cryptonator.com/
 repository:
 icon: "images/wallet_icons/cryptonator.png"
 bugbounty:

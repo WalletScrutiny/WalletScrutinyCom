@@ -5,6 +5,13 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 10000
 appId: com.bitcoin.wallet.btc
+launchDate:
+latestUpdate: 2019-09-09
+apkVersionName: 1.8.1
+stars:
+commentCount:
+permissions:
+website: https://bitcoin-wallet.flycricket.io/
 repository:
 icon: "images/wallet_icons/bitcoinblockchainwallet.png"
 bugbounty:
