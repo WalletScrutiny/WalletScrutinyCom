@@ -30,17 +30,25 @@ too late?
 This horror scenario is possible whenever the provider has a copy of your wallet
 and thus access to your funds. He could at a certain date empty all the wallets.
 
+In a slightly milder scenario, the wallet could start sending funds to the
+hacker. This is slightly milder as it would not work when your phone is switched
+off or you are without internet.
+
+Also if the wallet would start emptying your funds right after a malicious
+update, some users would probably quickly alert Google and others to stop the
+rollout.
+
 Seeing that some wallets have millions of users it is plausible to assume that
 some wallets manage billions of dollars. A huge incentive for criminally
 inclined employees, even if the wallet was not set up to scam its users from the
-start, which certainly is the case for some wallets.
+start, which certainly is the case for many wallets.
 
 
 Our steps of verification
 =========================
 
 We take the perspective of a curious potential user of the respective app.
-We take all information from publicly available sources and do not assume that
+We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
 within a few clicks from the playstore description.
@@ -48,21 +56,30 @@ within a few clicks from the playstore description.
 Once we find the wallet's website, we try to answer the following questions:
 
 
-Is the wallet custodial?
+Is it a wallet?
+---------------
+
+If it's called "wallet" but actually is only a portfolio tracker, we don't look
+deeper. If this portfolio tracker asks you for your 12 words backup, sorry, this
+is certainly something we would miss to warn you about. If we call it "not a
+wallet" we assume it's not meant to be entrusted with access to bitcoins.
+
+
+Is it custodial?
 ------------------------
 
-A custodial wallet - a wallet where all the funds are in custody of the
+A custodial service - a service where all the funds are in custody of the
 provider - can at any point steal all the funds of all the users at the
-provider's discretion. Our investigations stop there if the wallet is custodial
-(and by our definition not a wallet). Some wallets might claim their setup is
+provider's discretion. Our investigations stop there if the service is custodial
+(and by our definition not a wallet). Some services might claim their setup is
 super secure, that they don't actually have access to the funds or that the
 access is shared between multiple parties. For the evaluation if it is a wallet,
 these details are irrelevant. They might be a good Bitcoin bank and they might
 be a better fit for certain users than being your own bank but our investigation
-still stops there as we are only interested in wallets.
+still stops there as we are only interested in non-custodial wallets.
 
 
-Is the wallet open source?
+Is it open source?
 --------------------------
 
 A wallet that claims to not give the provider the means to steal the users'
@@ -74,7 +91,8 @@ doesn't dare to put these in.
 Back-doors and flaws are found in closed source products all the time but some
 remain hidden for years. And even in open source security software there
 might be
-[catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71).
+[catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71)
+undiscovered for years.
 
 An evil wallet provider would certainly prefer not to publish the code, as that
 would make audits orders of magnitude easier.
@@ -85,12 +103,12 @@ If the wallet provider doesn't share up to date code, our analysis stops here.
 The wallet might steal your funds at any time and all we have to assume
 otherwise is the provider's word.
 
-We do not care about the license as long as it allows us to perform further
+We do not care about the license as long as it allows us to perform our
 analysis. For a security audit it is not necessary that the provider allows
 others to use their code for a competing wallet.
 
 
-Does the published app match the published code?
+Is the published app matching the published code?
 ------------------------------------------------
 
 Published code doesn't help much if it is not what the published app was
@@ -111,7 +129,7 @@ Wrap it up
 ----------
 
 In the end we report our findings. All wallets that fail at any of the above
-questions is considered high risk in our estimate. We might contact the wallet
+questions are considered high risk in our estimate. We might contact the wallet
 provider, try to find out what went wrong and report on the respective
 communication. We will list bug bounties and other observations that might
 influence the wallet security.
@@ -120,3 +138,57 @@ In the end, even if we conclude not to trust a wallet this doesn't mean the
 wallet was out to steal your coins. It just means that we are confident that
 with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.
+
+
+Further considerations
+---------------------
+
+We will list as we stumble into them things like
+
+* Bug bounties
+* External audits
+* Past and present serious flaws
+* Security relevant observations. While this might be comments on the code, this is not a complete code review. It's only what we see when looking at the code for some minutes. A full code review takes man-months.
+
+
+What could still go wrong?
+--------------------------
+
+The classification "verifiable" unfortunately means very little. It means that
+at the random point in time that we decided to verify the code to match the
+app, the code actually did match the app. It does not mean that the next update
+will or that the prior one did and it does not mean that the verifiable code is
+not doing evil things.
+
+In fact, we believe the most likely scenario for an exit scam is that the wallet
+would bait-and-switch. It would see to how many users it could grow the app or
+even buy out a successful wallet to then introduce the fund-diverting feature.
+The evil code would not be present until the app is losing users (or funds under
+management) for whatever other reason.
+
+Any stamp of approval. Any past security audit or build verification would be
+obsolete. Therefore we don't see our mission as fulfilled when all wallets are
+verifiable. There is a long road ahead from there. For users running verified
+wallets, the verifiable wallets would need actual code verification. Code
+audits. Before releasing the app to its users.
+
+To put things into perspective, reviewing the code some 5 developers put out is
+a full time job. Testing the verifiability of a wallet is an hour of work the
+first time and can be automated.
+
+To achieve a situation where most users are running verified apps, the release
+process would have to be massively decelerated and there would have to be strong
+incentives in place for security researchers to find issues.
+
+Often users are in a big hurry to get bug-fixes and wallet managers are in a
+hurry to roll out new features but this hurry is standing against the security
+of all wallet users. Wallet developers "screw up" all the time and almost always
+it's just some crash affecting some corner case they didn't anticipate when
+writing the code and these crashes while highly inconvenient for the user who
+expected to use his wallet today, they usually do not put at risk any funds in the
+wallet. This hurry does however put reviewers in the uncomfortable position of
+having to approve something that would need more review. Most reviewers are
+reviewing the work of their colleagues and trusting them is kind of expected at
+least by the colleagues themselves but all it takes is one slip up and the code
+might be compromised. And compromising code in ways that go unnoticed by an
+auditor is [kind of a sport](https://en.wikipedia.org/wiki/Underhanded_C_Contest).
