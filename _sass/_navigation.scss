@@ -474,48 +474,52 @@
  opacity: 1;
 }
 
-.wip {
-    color: gray;
-}
-
 .verdict {
   font-weight: bold;
+  .wip {
+      color: gray;
+  }
+
+  .nowallet {
+    color: gray;
+  }
+
+  .custodial {
+    color: red;
+  }
+
+  .nosource {
+    color: red;
+  }
+
+  .nonverifiable {
+    color: #533;
+  }
+
+  .verifiable {
+    color: green;
+  }
+
+  .bounty {
+    color: green;
+  }
+
+  .cert1 {
+    color: green;
+  }
+
+  .cert2 {
+    color: green;
+  }
+
+  .cert3 {
+    color: green;
+  }
 }
 
-.verdict .nowallet {
-  color: gray;
-}
-
-.verdict .custodial {
-  color: red;
-}
-
-.verdict .nosource {
-  color: red;
-}
-
-.verdict .nonverifiable {
-  color: #533;
-}
-
-.verdict .verifiable {
-  color: green;
-}
-
-.verdict .bounty {
-  color: green;
-}
-
-.verdict .cert1 {
-  color: green;
-}
-
-.verdict .cert2 {
-  color: green;
-}
-
-.verdict .cert3 {
-  color: green;
+.userCount {
+    font-size: smalller;
+    text-align: right;
 }
 
 thead {
