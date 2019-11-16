@@ -104,8 +104,6 @@
     <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">G</a>{% if post.repository %}, <a href="{{ post.repository }}">S</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">W</a>
     {% endif %}
   </td><td>
-    {{ post.launchDate }}
-  </td><td>
     {{ post.latestUpdate }}
   </td><td>
     {{ post.apkVersionName }}
@@ -113,7 +111,5 @@
     {{ post.stars }}
   </td><td>
     {{ post.commentCount }}
-  </td><td>
-    {{ post.permissions }}
   </td>
 </tr>
