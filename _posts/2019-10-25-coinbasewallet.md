@@ -27,7 +27,7 @@ tags:
 ---
 
 
-[Coinbase Wallet — Crypto Wallet & DApp Browser](https://play.google.com/store/apps/details?id=org.toshi)
+Coinbase Wallet — Crypto Wallet & DApp Browser
 certainly sounds a lot like this other Coinbase wallet we reviewed
 [here](/coinbase/) but this is actually a second wallet
 [endorsed by the same Coinbase](https://wallet.coinbase.com/).

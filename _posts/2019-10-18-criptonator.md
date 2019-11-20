@@ -26,6 +26,6 @@ tags:
 ---
 
 
-[Cryptonator cryptocurrency wallet](https://play.google.com/store/apps/details?id=com.cryptonator.android)
+Cryptonator cryptocurrency wallet
 makes no clear claims about it not being custodial or not but absent source code
 we cannot verify it anyway. This wallet is **not verifiable**.

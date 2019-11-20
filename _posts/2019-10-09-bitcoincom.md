@@ -26,7 +26,7 @@ tags:
 ---
 
 
-[Bitcoin.com Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.bitcoin.mwallet)
+Bitcoin.com Bitcoin Wallet
 claims to be non-custodial on their Playstore description:
 
 > Our **non-custodial wallet** app lets nobody but you access the coins you own.

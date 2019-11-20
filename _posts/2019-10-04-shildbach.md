@@ -26,8 +26,7 @@ tags:
   - Security
 ---
 
-Schildbach's
-[Bitcoin Wallet](https://play.google.com/store/apps/details?id=de.schildbach.wallet)
+Schildbach's "Bitcoin Wallet"
 was the first mobile bitcoin wallet and the first in this series to claim to be
 verifiable. On [its website](https://wallet.schildbach.de/) we read:
 

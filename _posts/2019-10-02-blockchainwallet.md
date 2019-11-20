@@ -27,8 +27,7 @@ tags:
   - Security
 ---
 
-[Blockchain Wallet](https://play.google.com/store/apps/details?id=piuk.blockchain.android)
-is not custodial.
+Blockchain Wallet is not custodial.
 
 It **doesn't claim to be verifiable**.
 

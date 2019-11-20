@@ -25,4 +25,4 @@ tags:
   - Security
 ---
 
-This is not a wallet. Not even custodial.
+This is not a wallet.
