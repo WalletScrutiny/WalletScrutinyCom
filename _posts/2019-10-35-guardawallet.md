@@ -5,7 +5,7 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 10000
 appId: com.crypto.multiwallet
-launchDate:
+launchDate: 2018-11-01
 latestUpdate: 2019-11-13
 apkVersionName: 1.9.17
 stars: 4.4

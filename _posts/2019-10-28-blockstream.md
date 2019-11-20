@@ -5,7 +5,7 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 50000
 appId: com.greenaddress.greenbits_android_wallet
-launchDate:
+launchDate: 2015-01-01
 latestUpdate: 2019-11-13
 apkVersionName: 3.2.7
 stars: 4.0

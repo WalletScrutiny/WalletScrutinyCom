@@ -4,7 +4,7 @@ title: "Bitcoin.com Bitcoin Wallet"
 wallet: true
 users: 1000000
 appId: com.bitcoin.mwallet
-launchDate:
+launchDate: 2017-06-01
 latestUpdate: 2019-10-18
 apkVersionName: 5.13.3
 stars: 4.0

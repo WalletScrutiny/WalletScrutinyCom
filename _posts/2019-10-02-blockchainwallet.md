@@ -5,7 +5,7 @@ excerpt: "One of the top two wallets but is it verifiable?"
 wallet: true
 users: 5000000
 appId: piuk.blockchain.android
-launchDate: 
+launchDate: 2013-02-01
 latestUpdate: 2019-11-14
 apkVersionName: 6.29.5
 stars: 4.4

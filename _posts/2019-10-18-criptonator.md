@@ -4,7 +4,7 @@ title: "Cryptonator cryptocurrency wallet"
 wallet: true
 users: 100000
 appId: com.cryptonator.android
-launchDate:
+launchDate: 2018-11-01
 latestUpdate: 2019-11-03
 apkVersionName: 3.0.1
 stars: 4.6

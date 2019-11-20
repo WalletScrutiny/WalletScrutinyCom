@@ -5,7 +5,7 @@ excerpt: "We still have to write up something about this wallet"
 wallet: true
 users: 50000
 appId: com.polehin.android
-launchDate:
+launchDate: 2019-01-01
 latestUpdate: 2019-11-14
 apkVersionName: 3.0.0
 stars: 4.3

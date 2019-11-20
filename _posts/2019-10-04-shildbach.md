@@ -4,7 +4,7 @@ title: "Schildbach's Bitcoin Wallet"
 wallet: true
 users: 1000000
 appId: de.schildbach.wallet
-launchDate:
+launchDate: 2011-03-01
 latestUpdate: 2019-11-14
 apkVersionName: 7.31
 stars: 4.0
@@ -13,7 +13,7 @@ permissions:
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 icon: "images/wallet_icons/schildbach.png"
-bugbounty: 
+bugbounty:
 verdict: verifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-10-31

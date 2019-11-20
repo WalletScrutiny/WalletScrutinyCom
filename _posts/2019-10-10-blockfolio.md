@@ -4,7 +4,7 @@ title: "Blockfolio - Bitcoin and Cryptocurrency Tracker"
 wallet: true
 users: 1000000
 appId: com.blockfolio.blockfolio
-launchDate:
+launchDate: 2015-10-01
 latestUpdate: 2019-10-28
 apkVersionName: 2.5.2
 stars: 4.8

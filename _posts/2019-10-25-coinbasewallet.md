@@ -5,7 +5,7 @@ excerpt: "certainly sounds a lot like this other Coinbase wallet we reviewed"
 wallet: true
 users: 100000
 appId: org.toshi
-launchDate:
+launchDate: 2017-09-20
 latestUpdate: 2019-10-18
 apkVersionName: 18.3.222
 stars: 4.4
