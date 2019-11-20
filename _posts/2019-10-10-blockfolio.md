@@ -1,6 +1,5 @@
 ---
 title: "Blockfolio - Bitcoin and Cryptocurrency Tracker"
-excerpt: "We still have to write up something about this wallet"
 
 wallet: true
 users: 1000000

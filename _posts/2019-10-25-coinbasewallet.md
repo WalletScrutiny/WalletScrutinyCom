@@ -1,6 +1,6 @@
 ---
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
-excerpt: "Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like this other Coinbase wallet we reviewed"
+excerpt: "certainly sounds a lot like this other Coinbase wallet we reviewed"
 
 wallet: true
 users: 100000

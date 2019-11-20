@@ -1,6 +1,5 @@
 ---
 title: "Bitcoin.com Bitcoin Wallet"
-excerpt: "We still have to write up something about this wallet"
 
 wallet: true
 users: 1000000
@@ -14,7 +13,7 @@ permissions:
 website: https://www.bitcoin.com/
 repository:
 icon: "images/wallet_icons/bitcoincom.png"
-bugbounty: 
+bugbounty:
 verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-11-09
