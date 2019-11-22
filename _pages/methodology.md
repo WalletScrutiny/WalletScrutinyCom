@@ -166,7 +166,7 @@ even buy out a successful wallet to then introduce the fund-diverting feature.
 The evil code would not be present until the app is losing users (or funds under
 management) for whatever other reason.
 
-Any stamp of approval. Any past security audit or build verification would be
+Any stamp of approval, any past security audit or build verification would be
 obsolete. Therefore we don't see our mission as fulfilled when all wallets are
 verifiable. There is a long road ahead from there. For users running verified
 wallets, the verifiable wallets would need actual code verification. Code
@@ -185,8 +185,8 @@ hurry to roll out new features but this hurry is standing against the security
 of all wallet users. Wallet developers "screw up" all the time and almost always
 it's just some crash affecting some corner case they didn't anticipate when
 writing the code and these crashes while highly inconvenient for the user who
-expected to use his wallet today, they usually do not put at risk any funds in the
-wallet. This hurry does however put reviewers in the uncomfortable position of
+expected to use his wallet today, usually do not put at risk any funds in the
+wallet. This hurry does, however, put reviewers in the uncomfortable position of
 having to approve something that would need more review. Most reviewers are
 reviewing the work of their colleagues and trusting them is kind of expected at
 least by the colleagues themselves but all it takes is one slip up and the code
