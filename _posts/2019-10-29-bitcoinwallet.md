@@ -15,9 +15,9 @@ website: https://polehin.com/
 repository:
 icon: "images/wallet_icons/bitcoinwallet.png"
 bugbounty:
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
+verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
-date: 2019-11-02
+date: 2019-11-22
 permalink: /posts/2019/11/bitcoinwallet/
 redirect_from:
   - /bitcoinwallet/
@@ -25,3 +25,8 @@ tags:
   - Android
   - Security
 ---
+
+This wallet has no mention of source code on their website or the Google Play
+description.
+[Searching on GitHub](https://github.com/search?q=com.polehin.android) wasn't
+helpful neither. Our verdict: **not verifiable**.
