@@ -54,12 +54,10 @@ install of the app I find "App version 0.4-141". When was that introduced? In
 [this commit](https://github.com/btcontract/lnwallet/commit/91e65f52f0e75f37590fba47ab6f8e1d9f3d7c3f).
 So ... we try to go from there:
 
-```
-$ git checkout 91e65f52f0e7
-```
 <div class="language-plaintext highlighter-rouge">
 <div class="highlight">
-<pre class="highlight">$ ./gradlew build
+<pre class="highlight">$ git checkout 91e65f52f0e7
+$ ./gradlew build
 Parallel execution is an incubating feature.
 Incremental java compilation is an incubating feature.
 
