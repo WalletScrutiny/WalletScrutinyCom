@@ -8,6 +8,6 @@ a {{ page.stars }} stars rating,
 the latest APK (version {{ page.apkVersionName }})
 was from {{ page.latestUpdate | date: '%B %Y' }}.
 We did our analysis from data found on their <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
-and their <a href="{{ https://paxful.com/mobile-wallet-app }}">website</a>.
-{% if post.repository %}We found <a href="{{ page.repository }}">this</a> to
+and their <a href="{{ page.website }}">website</a>.
+{% if page.repository %}We found <a href="{{ page.repository }}">this</a> to
 be the app's repository.{% endif %}
