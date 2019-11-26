@@ -115,9 +115,9 @@ trust any of them without compiling them ourselves?
 Reviewing the changes that go into a wallet is a full time job and
 security considerations are a common reason to reject changes at Mycelium.
 
-Many wallets boast to be open source but do not provide even the claim of being
-verifiable, with some even hiding the team in secrecy, making them the perfect
-candidates for exit scams.
+Many wallets say that they are open source but do not provide even the claim of being
+verifiable. Just open source is not enough.
+Some of them hide the team in secrecy, which might suggest upcoming exit scams.
 
 How can we raise awareness to the issue of released binaries not being what the
 authors claim they are? Do we need a few wallets exit-scamming or can we
