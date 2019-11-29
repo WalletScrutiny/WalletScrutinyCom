@@ -253,7 +253,7 @@ Now that looks promising. Let's see what diffoscope finds:
 │ <font color="#CC0000">--rw----     2.0 fat      796 b- defN 80-000-00 00:00 res/animator/design_fab_hide_motion_spec.xml</font>
 │ <font color="#CC0000">--rw----     2.0 fat      796 b- defN 80-000-00 00:00 res/animator/design_fab_show_motion_spec.xml</font>
 │ <font color="#CC0000">--rw----     2.0 fat     2664 b- defN 80-000-00 00:00 res/animator/mtrl_btn_state_list_anim.xml</font>
-...
+... 500 more lines like this ...
 </pre>
 </div>
 </div>

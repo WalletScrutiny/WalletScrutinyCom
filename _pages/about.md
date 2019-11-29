@@ -30,7 +30,7 @@ bank, with little to no knowledge of what could go wrong.
 
 By now, most involved bitcoiners have learned **"Not your keys - not your bitcoins!"**.
 Every time a big custodial service "got hacked", those who did not lose
-money in the incidence were quick to blame the victims for trusting their
+money in the incident were quick to blame the victims for trusting their
 coins to some "random guy on the internet", the logic being that in a custodial
 service the user only sees numbers on a screen but with a real wallet he ownes the
 keys and thus the security is pushed to the periphery. No central server holding
@@ -97,7 +97,7 @@ build binaries. For example
   * F-Droid was probably one of the earliest projects to [work with reproducible builds](https://f-droid.org/docs/Reproducible_Builds/?title=Deterministic,_Reproducible_Builds) but pngcrunch and NDK can cause issues.
 
 So in principle, APKs can be inspected but the signature and occasionally other
-details have to be ignored or otherwise be handled manually
+details have to be ignored or otherwise be handled manually.
 
 Where do Android Bitcoin Wallets stand today?
 =============================================
