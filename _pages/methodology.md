@@ -9,6 +9,30 @@ We concentrate on a tiny aspect of wallet security and to better understand
 what we do and do not do, this page explains the rough process of how we work.
 
 
+What we do
+==========
+
+To put it dramatically, we search for the obvious potential to empty all the wallets
+of all the users at once. Could the provider of the wallet, with enough criminal
+energy, defraud all its users at once, without this being detected before it is
+too late?
+
+This horror scenario is possible whenever the provider has a copy of your wallet
+and thus access to your funds. He could at a certain date empty all the wallets.
+
+In a slightly milder scenario, your wallet could start sending funds to the
+hacker. This is slightly milder as it would not work when your phone is switched
+off or you are without internet.
+
+Also, if the wallet started emptying funds right after a malicious
+update, some users would probably immediately alert Google and others to stop the
+rollout.
+
+Seeing that some wallets have millions of users, it is plausible to assume that
+some wallets manage billions of dollars. This would be a huge incentive for criminally
+inclined employees, even if the wallet was not set up to scam its users from the
+start, which certainly is the case for many wallets.
+
 
 What we do not do
 =================
@@ -18,32 +42,6 @@ What we do not do
 * We do not guarantee that your version of the wallet is verified to match the public code or the version that we investigated.
 
 
-
-What we do
-==========
-
-To put it dramatic, we search for the obvious potential to empty all the wallets
-of all the users at once. Could the provider of the wallet with enough criminal
-energy defraud all its users at once, without this being detected before it is
-too late?
-
-This horror scenario is possible whenever the provider has a copy of your wallet
-and thus access to your funds. He could at a certain date empty all the wallets.
-
-In a slightly milder scenario, the wallet could start sending funds to the
-hacker. This is slightly milder as it would not work when your phone is switched
-off or you are without internet.
-
-Also if the wallet would start emptying your funds right after a malicious
-update, some users would probably quickly alert Google and others to stop the
-rollout.
-
-Seeing that some wallets have millions of users it is plausible to assume that
-some wallets manage billions of dollars. A huge incentive for criminally
-inclined employees, even if the wallet was not set up to scam its users from the
-start, which certainly is the case for many wallets.
-
-
 Our steps of verification
 =========================
 
@@ -51,7 +49,7 @@ We take the perspective of a curious potential user of the respective app.
 We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
-within a few clicks from the playstore description.
+within a few clicks from the Playstore description.
 
 Once we find the wallet's website, we try to answer the following questions:
 
@@ -59,22 +57,20 @@ Once we find the wallet's website, we try to answer the following questions:
 Is it a wallet?
 ---------------
 
-If it's called "wallet" but actually is only a portfolio tracker, we don't look
-deeper. If this portfolio tracker asks you for your 12 words backup, sorry, this
-is certainly something we would miss to warn you about. If we call it "not a
-wallet" we assume it's not meant to be entrusted with access to bitcoins.
+If it's called "wallet" but is actually only a portfolio tracker, we don't look
+any deeper, assuming it is not meant to control funds.
 
 
 Is it custodial?
 ------------------------
 
-A custodial service - a service where all the funds are in custody of the
-provider - can at any point steal all the funds of all the users at the
-provider's discretion. Our investigations stop there if the service is custodial
+A custodial service is a service where all the funds are in custody of the
+provider. The custodial service can at any point steal all the funds of all the users at the
+provider's discretion. Our investigations stop there, if the service is custodial
 (and by our definition not a wallet). Some services might claim their setup is
-super secure, that they don't actually have access to the funds or that the
-access is shared between multiple parties. For the evaluation if it is a wallet,
-these details are irrelevant. They might be a good Bitcoin bank and they might
+super secure, that they don't actually have access to the funds, or that the
+access is shared between multiple parties. For our evaluation, if it is a wallet,
+these details are irrelevant. They might be a trustworthy Bitcoin bank and they might
 be a better fit for certain users than being your own bank but our investigation
 still stops there as we are only interested in non-custodial wallets.
 
@@ -84,11 +80,11 @@ Is it open source?
 
 A wallet that claims to not give the provider the means to steal the users'
 funds might actually be lying. In the spirit of "Don't trust - verify!"
-you don't want to take the provider by his word but trust that people hunting
+you don't want to take the provider at his word, but trust that people hunting
 for fame could actually find flaws and back-doors in the wallet so the provider
 doesn't dare to put these in.
 
-Back-doors and flaws are found in closed source products all the time but some
+Back-doors and flaws are frequently found in closed source products but some
 remain hidden for years. And even in open source security software there
 might be
 [catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71)
@@ -97,14 +93,14 @@ undiscovered for years.
 An evil wallet provider would certainly prefer not to publish the code, as that
 would make audits orders of magnitude easier.
 
-For your security you thus want the code to be available for review.
+For your security, you thus want the code to be available for review.
 
-If the wallet provider doesn't share up to date code, our analysis stops here.
-The wallet might steal your funds at any time and all we have to assume
-otherwise is the provider's word.
+If the wallet provider doesn't share up to date code, our analysis stops there.
+The wallet could steal your funds at any time, and there is no protection except
+the provider's word.
 
-We do not care about the license as long as it allows us to perform our
-analysis. For a security audit it is not necessary that the provider allows
+We are not concerned about the license as long as it allows us to perform our
+analysis. For a security audit, it is not necessary that the provider allows
 others to use their code for a competing wallet.
 
 

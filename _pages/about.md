@@ -1,14 +1,14 @@
 ---
 permalink: /
-title: "About"
-excerpt: "What made us start this project"
+title: "Wallet Scrutiny"
+excerpt: "Many wallets are not open to public scrutiny"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-**Wallet Security Guard** is a project aimed at improving the security of the
+**Wallet Scrutiny** is a project aimed at improving the security of the
 major Bitcoin wallets.
 
 
