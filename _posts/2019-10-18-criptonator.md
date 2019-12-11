@@ -27,5 +27,5 @@ tags:
 
 
 Cryptonator cryptocurrency wallet
-makes no clear claims about it not being custodial or not but absent source code
+makes no clear claims about it being custodial or not but absent source code
 we cannot verify it anyway. This wallet is **not verifiable**.
