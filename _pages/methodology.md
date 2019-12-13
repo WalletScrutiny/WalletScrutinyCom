@@ -158,7 +158,8 @@ not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
 would bait-and-switch. It would see to how many users it could grow the app or
-even buy out a successful wallet to then introduce the fund-diverting feature.
+even buy out a successful wallet in financial trouble to then introduce the
+fund-diverting "feature".
 The evil code would not be present until the app is losing users (or funds under
 management) for whatever other reason.
 

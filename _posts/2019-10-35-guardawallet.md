@@ -17,7 +17,7 @@ icon: "images/wallet_icons/guardawallet.png"
 bugbounty:
 verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
-date: 2019-11-02
+date: 2019-11-15
 permalink: /posts/2019/11/guardawallet/
 redirect_from:
   - /guardawallet/

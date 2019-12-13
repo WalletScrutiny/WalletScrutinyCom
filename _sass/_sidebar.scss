@@ -238,7 +238,7 @@
 
 .app_logo {
   display: table-cell;
-  width: 36px;
+  width: 72px;
 
   @include breakpoint($large) {
     display: inline;
@@ -247,7 +247,7 @@
   }
 
   img {
-    max-width: 36px;
+    max-width: 72px;
     border-radius: 25%;
 
     @include breakpoint($large) {

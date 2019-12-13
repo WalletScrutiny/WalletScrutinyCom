@@ -20,10 +20,6 @@ game developer for [Travian](https://www.traviangames.com/en/), did
 at doing his own apps and [contributed](https://github.com/Giszmo/)
 to several open source projects.
 
-For more details, here you find his [CV](/cv/leo/),
-[LinkedIn](https://www.linkedin.com/in/leo-wandersleb-66905545/),
-[GitHub](https://github.com/Giszmo/) and
-[StackOverflow](https://stackoverflow.com/users/969478/giszmo).
 
 Kristina Tezieva
 ----------------
@@ -31,4 +27,3 @@ Kristina Tezieva
 <div class="author__avatar">
 <img src="/images/kristina.jpg" class="author__avatar" alt="photo of Kristina Tezieva">
 </div>
-

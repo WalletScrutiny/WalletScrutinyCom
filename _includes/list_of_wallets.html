@@ -2,34 +2,27 @@
 
 {% assign posts_by_users = site.posts | sort: "users" | reverse %}
 
-<select id="categorySelect" onchange = "filterList()">
-  <option value="wip">Show all</option>
-  <option value="nowallet">Show analized only</option>
-  <option value="custodial">Show wallets only</option>
-  <option value="nosource">Show non-custodial only</option>
-  <option value="nonverifiable">Show open source only</option>
-  <option value="verifiable">Show verifiable only</option>
-  <option value="bounty">Show verifiable with bug bounty only</option>
-  <option value="cert">Show certified only</option>
-</select>
 <table>
   <thead>
     <tr>
       <td>Name</td>
+      <td>Reviewed</td>
       <td>Installs</td>
-      <td>Verdict</td>
-      <td>Links</td>
       <td>Launch</td>
       <td>Update</td>
       <td>Version</td>
       <td>Rating</td>
-      <td>Comments</td>
+      <td>Ratings</td>
+      <td>Verdict</td>
     </tr>
   </thead>
-  {% for post in posts_by_users %}
-    {% if post.wallet %}
-      {% include list_of_wallets_item.html %}
-    {% endif %}
+  {% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet" | split: "," %}
+  {% for v in verdicts %}
+    {% for post in posts_by_users %}
+      {% if post.wallet and post.verdict and post.verdict == v %}
+        {% include list_of_wallets_item.html %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </table>
 <script>

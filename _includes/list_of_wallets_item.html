@@ -83,26 +83,30 @@
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 
-<tr class="{{ post.verdict }}">
-  <td>
+<tr>
+  <td rowSpan="2">
     <div class="app_logo">
-      <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+        <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+      </a>
     </div>
-    <div class="app_info_box">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </div>
+  </td><td colSpan="8">
+    <nobr>
+      <div class="app_info_box">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          Analysis of <strong>{{ title }}</strong>
+        </a>
+      </div>
+      (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>{% if post.repository %}, <a href="{{ post.repository }}">Source Code</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">Website</a>
+      {% endif %})
+    </nobr>
+  </td>
+</tr>
+<tr>
+  <td>
+    {{ post.date | date: '%b %y' }}
   </td><td class="userCount">
     {{ prettyUserCount }}
-  </td><td class="verdict">
-    {{ verdict }}
-  </td><td>
-    <a href="https://play.google.com/store/apps/details?id={{ post.appId }}">G</a>{% if post.repository %}, <a href="{{ post.repository }}">S</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">W</a>
-    {% endif %}
   </td><td>
     {{ post.launchDate | date: '%b %y' }}
   </td><td>
@@ -113,5 +117,7 @@
     {{ post.stars }}
   </td><td>
     {{ post.commentCount }}
+  </td><td class="verdict">
+    {{ verdict }}
   </td>
 </tr>
