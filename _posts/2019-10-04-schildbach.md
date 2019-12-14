@@ -122,4 +122,4 @@ only the 3 files related to app signing `META-INF/BITCOIN-.SF`,
 
 Schildbach's
 [Bitcoin Wallet](https://play.google.com/store/apps/details?id=de.schildbach.wallet)
-is verifiable!
+is **verifiable**!

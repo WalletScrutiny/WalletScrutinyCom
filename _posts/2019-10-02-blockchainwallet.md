@@ -64,4 +64,4 @@ Interpretation
 --------------
 
 [Blockchain Wallet](https://play.google.com/store/apps/details?id=piuk.blockchain.android)
-cannot easily be verified to match its available public code.
+**cannot be verified** to match its available public code.

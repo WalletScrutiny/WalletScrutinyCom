@@ -22,10 +22,10 @@ What protects your Bitcoins?
 
 Do you own your Bitcoins or do you trust that your app allows you to use "your"
 coins while they are actually controlled by "them"? Do you have a backup? Do
-"they" have a backup, too? Did anybody check the wallet for deliberate backdoors
+"they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate backdoors
 or vulnerabilities? Could anybody check the wallet for those?
 
-We try to answer these questions for the main Bitcoin wallets on Android.
+We try to answer these questions for Bitcoin wallets on Android.
 
 Read about [our methodology](/methodology/) to understand in more detail or just
 see what we have to say about your wallet:

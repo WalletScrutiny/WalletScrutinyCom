@@ -3,11 +3,13 @@
 launched in {{ page.launchDate | date: '%B %Y' }}
 and at the time of our analysis ({{ page.date | date_to_long_string: "ordinal" }})
 had more than {{ page.users }} downloads,
-a {{ page.stars }} stars rating,
-{{ page.commentCount }} comments and
+a {{ page.stars }} stars rating from
+{{ page.commentCount }} users and
 the latest APK (version {{ page.apkVersionName }})
 was from {{ page.latestUpdate | date: '%B %Y' }}.
-We did our analysis from data found on their <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
-and their <a href="{{ page.website }}">website</a>.
-{% if page.repository %}We found <a href="{{ page.repository }}">this</a> to
-be the app's repository.{% endif %}
+
+We did our analysis from data found on their
+<a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
+and <a href="{{ page.website }}">their website</a>.
+{% if page.repository %}The source code we considered can be found
+<a href="{{ page.repository }}">here</a>.{% endif %}
