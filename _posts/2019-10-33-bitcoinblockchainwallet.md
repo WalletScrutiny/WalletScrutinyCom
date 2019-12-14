@@ -10,9 +10,9 @@ latestUpdate: 2019-11-09
 apkVersionName: 1.8.1
 stars: 4.4
 commentCount: 61
-permissions: https://github.com/hoanghiephui/Bitcoin-Wallet
+permissions:
 website: https://bitcoin-wallet.flycricket.io/
-repository:
+repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 icon: "images/wallet_icons/bitcoinblockchainwallet.png"
 bugbounty:
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
