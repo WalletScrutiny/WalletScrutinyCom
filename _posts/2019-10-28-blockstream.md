@@ -41,7 +41,7 @@ Is it verifiable?
 Nowhere (description on google play, github readme, website) we were able to
 find any mentions about verifiability or deterministic builds but as the wallet
 [is on F-Droid](https://f-droid.org/en/packages/com.greenaddress.greenbits_android_wallet)
-we expect it to be verifiable. All apps on F-Droid have to be verifiable.
+we expect it to be fully buildable from open source at least.
 
 On their GitHub the latest release is 3.2.7 from November, 13, same version as
 on Google Play. So we can try to reproduce the build.
