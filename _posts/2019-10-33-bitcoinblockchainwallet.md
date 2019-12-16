@@ -13,6 +13,7 @@ commentCount: 61
 permissions:
 website: https://bitcoin-wallet.flycricket.io/
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
+issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: "images/wallet_icons/bitcoinblockchainwallet.png"
 bugbounty:
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3

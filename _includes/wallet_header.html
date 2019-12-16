@@ -12,4 +12,6 @@ We did our analysis from data found on their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
 and <a href="{{ page.website }}">their website</a>.
 {% if page.repository %}The source code we considered can be found
-<a href="{{ page.repository }}">here</a>.{% endif %}
+<a href="{{ page.repository }}">here</a>.{% endif %}{%if page.issue %} We
+discuss the issue with verification with the provider
+<a href="{{ page.issue }}">here</a>.{% endif %}

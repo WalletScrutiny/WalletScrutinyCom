@@ -97,8 +97,10 @@
           Analysis of <strong>{{ title }}</strong>
         </a>
       </div>
-      (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>{% if post.repository %}, <a href="{{ post.repository }}">Source Code</a>{% endif %}{% if post.website %}, <a href="{{ post.website }}">Website</a>
-      {% endif %})
+      (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>{%
+        if post.repository %}, <a href="{{ post.repository }}">Source Code</a>{% endif %}{%
+        if post.issue %}, <a href="{{ post.issue }}">Issue</a>{% endif %}{%
+        if post.website %}, <a href="{{ post.website }}">Website</a>{% endif %})
     </nobr>
   </td>
 </tr>

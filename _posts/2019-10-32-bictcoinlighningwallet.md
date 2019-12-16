@@ -13,6 +13,7 @@ commentCount: 256
 permissions:
 website: http://lightning-wallet.com/
 repository: https://github.com/btcontract/lnwallet
+issue: https://github.com/btcontract/lnwallet/issues/158
 icon: "images/wallet_icons/bitcoinlightingwallet.png"
 bugbounty:
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3

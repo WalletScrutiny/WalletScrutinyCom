@@ -12,6 +12,7 @@ commentCount: 295
 permissions:
 website: https://bluewallet.io/
 repository: https://github.com/bluewallet/bluewallet
+issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: "images/wallet_icons/bluewallet.png"
 bugbounty:
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3

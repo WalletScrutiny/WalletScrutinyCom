@@ -13,6 +13,7 @@ commentCount: 68329
 permissions:
 website: https://www.blockchain.com/
 repository: https://github.com/blockchain/My-Wallet-V3-Android
+issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1250
 icon: "images/wallet_icons/blockchainwallet.png"
 bugbounty: https://hackerone.com/blockchain
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
