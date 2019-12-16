@@ -57,7 +57,7 @@ We ran `gradle clean build` with all the dependencies installed and then
 W: Cant find 9patch chunk in file: &quot;drawable-hdpi-v4/toast_frame.9.png&quot;. Renaming it to *.png.                                                                  |    0%                             ETA:  --:--:--
 W: Cant find 9patch chunk in file: &quot;drawable-hdpi-v4/toast_frame.9.png&quot;. Renaming it to *.png.
 --- wallet/build/outputs/apk/release/bitcoin-wallet-release-unsigned.apk
-+++ /home/leo/base.apk
++++ /home/user/base.apk
 ├── zipinfo /dev/stdin
 │ <font color="#06989A">@@ -1,10 +1,9 @@</font>
 │ <font color="#CC0000">-Zip file size: 2990104 bytes, number of entries: 205</font>
