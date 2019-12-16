@@ -34,7 +34,7 @@ verifiable. On [its website](https://wallet.schildbach.de/) we read:
 > for each release, and it can be verified by anyone else e.g. by using
 > `fdroid build --server de.schildbach.wallet`.
 
-As mentioned in our [first post](/first-post/), [F-Droid](https://f-droid.org/)
+[F-Droid](https://f-droid.org/)
 was probably one of the earliest projects to work with
 [reproducible builds](https://f-droid.org/docs/Reproducible_Builds/?title=Deterministic,_Reproducible_Builds)
 for Android.

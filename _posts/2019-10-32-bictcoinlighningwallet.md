@@ -19,9 +19,9 @@ bugbounty:
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-11-23
-permalink: /posts/2019/11/bictcoinlighningwallet/
+permalink: /posts/2019/11/bictcoinlightningwallet/
 redirect_from:
-  - /bictcoinlighningwallet/
+  - /bictcoinlightningwallet/
 tags:
   - Android
   - Security
