@@ -10,6 +10,8 @@ div.highlighter-rouge, figure.highlight {
   border-radius: $border-radius;
   background-color: $code-background-color;
   box-shadow: $box-shadow;
+  max-height: 24em;
+  overflow: auto;
 
   &:before {
     position: absolute;
