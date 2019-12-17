@@ -25,20 +25,3 @@
     {% endfor %}
   {% endfor %}
 </table>
-<script>
-function filterList() {
-  var allCategories = "wip nowallet custodial nosource nonverifiable verifiable bounty cert".split(" ");
-  var selectedCategory = $('#categorySelect')[0].value;
-  var visible = false; // hide all categories until the selected one
-  allCategories.forEach(function(category){
-    if (category == selectedCategory) {
-      visible = true;
-    }
-    if (visible) {
-      $('.' + category).show();
-    } else {
-      $('.' + category).hide();
-    }
-  })
-}
-</script>

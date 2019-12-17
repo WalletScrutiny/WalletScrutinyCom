@@ -260,3 +260,18 @@
 .app_info_box {
   display: inline-block;
 }
+
+#sidebarWalletListShowButton {
+  margin: 1em 1em 1em 0em;
+  display: block;
+  @include breakpoint($medium-wide) {
+    display: none;
+  }
+}
+
+#sidebarWalletList {
+  display: none;
+  @include breakpoint($medium-wide) {
+    display: block;
+  }
+}
