@@ -8,7 +8,7 @@ launchDate: 2017-06-01
 latestUpdate: 2019-10-18
 apkVersionName: 5.13.3
 stars: 4.0
-commentCount: 9016
+ratings: 9016
 permissions:
 website: https://www.bitcoin.com/
 repository:

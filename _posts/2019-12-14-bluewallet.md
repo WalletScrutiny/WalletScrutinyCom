@@ -8,7 +8,7 @@ launchDate: 2018-11-01
 latestUpdate: 2019-12-03
 apkVersionName: 4.8.1
 stars: 4.1
-commentCount: 295
+ratings: 295
 permissions:
 website: https://bluewallet.io/
 repository: https://github.com/bluewallet/bluewallet

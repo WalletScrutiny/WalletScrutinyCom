@@ -9,7 +9,7 @@ launchDate: 2013-02-01
 latestUpdate: 2019-11-14
 apkVersionName: 6.29.5
 stars: 4.4
-commentCount: 68329
+ratings: 68329
 permissions:
 website: https://www.blockchain.com/
 repository: https://github.com/blockchain/My-Wallet-V3-Android

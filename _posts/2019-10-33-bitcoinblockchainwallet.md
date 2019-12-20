@@ -9,7 +9,7 @@ launchDate: 2019-05-01
 latestUpdate: 2019-11-09
 apkVersionName: 1.8.1
 stars: 4.4
-commentCount: 61
+ratings: 61
 permissions:
 website: https://bitcoin-wallet.flycricket.io/
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

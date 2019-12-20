@@ -8,7 +8,7 @@ launchDate: 2015-10-01
 latestUpdate: 2019-10-28
 apkVersionName: 2.5.2
 stars: 4.8
-commentCount: 102194
+ratings: 102194
 permissions:
 website: https://www.blockfolio.com/
 repository:

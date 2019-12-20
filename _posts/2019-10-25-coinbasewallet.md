@@ -9,7 +9,7 @@ launchDate: 2017-09-20
 latestUpdate: 2019-10-18
 apkVersionName: 18.3.222
 stars: 4.4
-commentCount: 3990
+ratings: 3990
 permissions:
 website: https://wallet.coinbase.com/
 repository:

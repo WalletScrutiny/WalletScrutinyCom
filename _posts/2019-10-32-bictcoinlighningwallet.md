@@ -9,7 +9,7 @@ launchDate: 2018-05-01
 latestUpdate: 2019-09-09
 apkVersionName: 0.4
 stars: 4.4
-commentCount: 256
+ratings: 256
 permissions:
 website: http://lightning-wallet.com/
 repository: https://github.com/btcontract/lnwallet
