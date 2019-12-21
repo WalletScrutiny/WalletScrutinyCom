@@ -17,7 +17,7 @@ repository:
 issue:
 icon: images/wallet_icons/exodusmovement.exodus.png
 bugbounty:
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
+verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
 date: 2019-12-20
 permalink: /posts/exodusmovement.exodus/
@@ -25,7 +25,21 @@ redirect_from:
 - /exodusmovement.exodus/
 ---
 
-This page was created by a script from the appId exodusmovement.exodus and information found
-[here](https://play.google.com/store/apps/details?id=exodusmovement.exodus).
 
-Probably an engineer will soon have a deeper look at this app.
+This app certainly sounds like it is non-custodial:
+
+> Don’t give control of your private keys to centralized wallets and exchanges
+that can suffer from hacks and lose your funds. Exodus encrypts your private
+keys and transaction data on your device so that no one can access your
+cryptocurrency but you. You can also Enable Face or Touch ID to conveniently
+secure your wallet without having to type your passcode.
+
+Is it open source though? ...
+
+No word about a repository on the description but the website links to
+[this GitHub](https://github.com/ExodusMovement) but there is no repository name
+suggesting there to be an Android wallet and as none of the company's
+repositories contains the appId or at least [GitHub can't find it](https://github.com/search?q=org%3AExodusMovement+%22exodusmovement.exodus%22&type=Code),
+we conclude that this app is closed source.
+
+Our verdict: This app is **not verifiable**.
