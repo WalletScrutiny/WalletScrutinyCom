@@ -1,5 +1,5 @@
-{% assign notVerifiable = '<p>
-  The app cannot be independently verified. If the provider puts your funds at
+{% assign notVerifiable =
+  '<p>The app cannot be independently verified. If the provider puts your funds at
   risk on purpose or by accident, you will probably not know about the issue
   before people start losing money. If the provider is more criminally inclined
   he might have collected all the backups of all the wallets, ready to be
@@ -14,18 +14,28 @@
     maybe some more details but we have not really looked much into it yet.</p>
   {% when "custodial" %}
     <p><strong>Not verifiable</strong>: Custodial</p>
-
     <p>This verdict means that the app might or might not be open source and maybe
     it is even possible to reproduce the build from the source code but as it is
     custodial, the provider already has exclusive control over the funds, so it
     is not a wallet where you would be in sole control of your funds.</p>
+    <p>Custodial wallets might not be the worst option for all users.<ul>
+      <li>Do your own research if the provider is trust-worthy.</li>
+      <li>Do you know at least enough about them so you can sue them when you have to?</li>
+      <li>Is the provider under a jurisdiction that will allow them to release
+        your funds when you need them?</li>
+      <li>Is the provider taking security measures proportional to the amount of
+        funds secured? If they have a million users and don't use cold storage,
+        that hot wallet is a million times more valuable for hackers to attack.
+        A million times more effort will be taken by hackers to infiltrate their
+        security systems. Will they detect when for some software error a hacker
+        is spending other people's money before the losses are unrecoverable?</li>
+    </ul></p>
     {{ notVerifiable }}
   {% when "nowallet" %}
     <p>This appears to not be an app to send and receive bitcoins.</p>
   {% when "nosource" %}
     <p><strong>Not verifiable</strong>: No Open Source Code found</p>
-
-    <p>This verdict means that we could not find any source to compile the app.
+    <p>This verdict means that we could not find any source to compile the app from.
     Internally the company might do everything right but as we can't verify it,
     there is nothing protecting the user from an exit-scam where the provider
     releases an app that leaks the keys to the servers.</p>
@@ -33,20 +43,22 @@
   {% when "nonverifiable" %}
     <p><strong>Not verifiable</strong>: The provided Open Source Code could not
     be verified to match the app released on Google Play</p>
-
-    <p>This verdict means that the provider did provide source code but that we
+    <p>This verdict means that the provider did share some source code but that we
     could not verify that this source code matches the released app. This might
     be due to the source being released later than the app or due to the
     provided instructions on how to compile the app not being sufficient or
     due to the provider excluding parts from the public source code. In any
     case, the result is a discrepancy between the app we can create and the app
     we can find on GooglePlay and any discrepancy might leak your backup to the
-    server.</p>
+    server on purpose or by accident.</p>
+    <p>As we cannot verify that the source provided is the source the app was
+    compiled from, this category is only slightly better than <strong>closed
+    source</strong> but for now we have hope projects come around and fix
+    verifiability issues.</p>
     {{ notVerifiable }}
   {% when "verifiable" %}
     <p><strong>Verifiable</strong>: The provided Open Source Code matches the
     app released on Google Play</p>
-
     <p>The app can be independently verified. If the provider puts your funds at
     risk on purpose or by accident, security researchers can see this if they care
     to look. It also means that inside the company engineers can verify that the
@@ -55,7 +67,8 @@
     have to work under the potential eyes of security researchers. He would have
     to take more effort in hiding any exploit.</p>
     <p>"Verifiable" does not mean "verified". There is good reason to believe that
-    there are by far not enough security researchers to investigate all the
-    changes in verifiable apps.</p>
+    security researchers as of today would not detect very blatant backdoors in
+    the open source code before it gets exploited, much less if the attacker
+    takes moderate efforts to hide it.</p>
   {% else %}
 {% endcase %}
