@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-![digital fortress by driver Photographer https://www.flickr.com/photos/72334647@N03/44546614212/in/photostream/](/images/fortress.jpg)
+![hacker](/images/hacker.jpg)
 
 **Wallet Scrutiny** is a project aimed at improving the security of
 Android Bitcoin Wallets.
@@ -18,7 +18,7 @@ Android Bitcoin Wallets.
 What protects your Bitcoins?
 ============================
 
-![hacker](/images/hacker.jpg)
+![digital fortress by driver Photographer https://www.flickr.com/photos/72334647@N03/44546614212/in/photostream/](/images/fortress.jpg)
 
 Do you own your Bitcoins or do you trust that your app allows you to use "your"
 coins while they are actually controlled by "them"? Do you have a backup? Do
