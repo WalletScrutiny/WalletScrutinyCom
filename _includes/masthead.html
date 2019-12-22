@@ -1,6 +1,10 @@
 {% include base_path %}
 
-<div class="masthead">
+<div class="masthead"
+{% if "http://localhost:4000" == base_path %}
+  style="background-color: lightgoldenrodyellow"
+{% endif %})
+>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
