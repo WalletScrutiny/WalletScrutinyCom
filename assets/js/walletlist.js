@@ -1,6 +1,9 @@
 $(document).ready(function(){
   $("#showWallets").on("click", function() {
-    $("#sidebarWalletList").show()
+    console.log("clicked here")
+    $("#sidebarWalletList")
+      .css('height', 'auto')
+      .css('overflow-y', 'auto')
     $("#sidebarWalletListShowButton").hide()
   });
 });

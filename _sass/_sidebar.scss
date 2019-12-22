@@ -270,8 +270,10 @@
 }
 
 #sidebarWalletList {
-  display: none;
+  overflow-y: hidden;
+  height: 15em;
   @include breakpoint($medium-wide) {
-    display: block;
+    overflow-y: auto;
+    height: auto;
   }
 }
