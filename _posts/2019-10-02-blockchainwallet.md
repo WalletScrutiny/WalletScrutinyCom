@@ -18,6 +18,12 @@ icon: "images/wallet_icons/blockchainwallet.png"
 bugbounty: https://hackerone.com/blockchain
 verdict: nonverifiable # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
+# internal stuff that should only be rendered during jekyll serve.
+internalIssue: 2
+providerTwitter: blockchain
+providerLinkedIn: company/blockchain
+providerFacebook: blockchain
+
 date: 2019-10-29
 permalink: /posts/2019/11/blockchainwallet/
 redirect_from:
