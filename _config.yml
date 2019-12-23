@@ -13,7 +13,7 @@ name                     : &name "Leo Wandersleb"
 description              : &description "A project to improve wallet security"
 url                      : https://walletscrutiny.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
+repository               : "Giszmo/walletSecurityGuard" # TODO: figure out how to make this work with the gitlab repository
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 100
