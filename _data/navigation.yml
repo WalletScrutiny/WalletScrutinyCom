@@ -6,5 +6,8 @@ main:
   - title: "Glossary"
     url: /glossary/
 
-  - title: "Get involved"
+  - title: "Contribute"
+    url: "https://gitlab.com/walletscrutiny/walletScrutinyCom"
+
+  - title: "Discuss"
     url: "https://www.reddit.com/r/WalletScrutiny/"
