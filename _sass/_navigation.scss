@@ -476,46 +476,48 @@
 
 .verdict {
   font-weight: bold;
-  .wip {
-      color: gray;
-  }
-
-  .nowallet {
-    color: gray;
-  }
-
-  .custodial {
-    color: red;
-  }
-
-  .nosource {
-    color: red;
-  }
-
-  .nonverifiable {
-    color: #533;
-  }
-
-  .verifiable {
-    color: green;
-  }
-
-  .bounty {
-    color: green;
-  }
-
-  .cert1 {
-    color: green;
-  }
-
-  .cert2 {
-    color: green;
-  }
-
-  .cert3 {
-    color: green;
-  }
 }
+
+.wip {
+    color: gray;
+}
+
+.nowallet {
+  color: gray;
+}
+
+.custodial {
+  color: red;
+}
+
+.nosource {
+  color: red;
+}
+
+.nonverifiable {
+  color: #533;
+}
+
+.verifiable {
+  color: green;
+}
+
+.bounty {
+  color: green;
+}
+
+.cert1 {
+  color: green;
+}
+
+.cert2 {
+  color: green;
+}
+
+.cert3 {
+  color: green;
+}
+
 
 .userCount {
     font-size: smalller;

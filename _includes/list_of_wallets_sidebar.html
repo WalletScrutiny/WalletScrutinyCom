@@ -4,60 +4,19 @@
 
 {% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet" | split: "," %}
 <div id="sidebarWalletList">
-{% for v in verdicts %}
-  {% case v %}
-    {% when "custodial" %}
-      {% assign verdict = '<span class="custodial tooltip">
-        Custodial Wallets
-        <span class="tooltiptext">
-          As the provider of this app holds the users coins, verifiability of
-          the app is not relevant wether or not the funds are secure!
-        </span>
-      </span>' %}
-    {% when "nowallet" %}
-      {% assign verdict = '<span class="nowallet tooltip">
-        No Wallets
-        <span class="tooltiptext">
-          We could not find this to be an app meant to store receive and send
-          coins.
-        </span>
-      </span>' %}
-    {% when "nosource" %}
-      {% assign verdict = '<span class="nosource tooltip">
-        Closed Source Wallets
-        <span class="tooltiptext">
-          Without public source available, this app cannot be verified!
-        </span>
-      </span>' %}
-    {% when "nonverifiable" %}
-      {% assign verdict = '<span class="nonverifiable tooltip">
-        Not verifiable wallets
-        <span class="tooltiptext">
-          The app provider also shares code but we could so far not verify that
-          the published code matches the published app!
-        </span>
-      </span>' %}
-    {% when "verifiable" %}
-      {% assign verdict = '<span class="verifiable tooltip">
-        Verifiable Wallets
-        <span class="tooltiptext">
-          At the time of this analysis, the app on Google Play was reproducible
-          from the code provided by the developers!
-        </span>
-      </span>' %}
-    {% else %}
-      {% assign verdict = '<span class="wip tooltip">
-        WIP
-        <span class="tooltiptext">
-          Work in progress. We still have to analyze this wallet.
-        </span>
-      </span>' %}
+{% for verdict in verdicts %}
+  {% case verdict %}
+    {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
+    {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
+    {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
+    {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
+    {% when "verifiable" %}    {% assign verdictLabel = "Verifiable" %}
+    {% else %}                 {% assign verdictLabel = "WIP" %}
   {% endcase %}
-  <div class="verdict" style="margin:1em 0em 0.5em 0em">{{ verdict }}</div>
-  {% for post in posts_by_users %}
-    {% if post.wallet and post.verdict and post.verdict == v %}
-      {% include list_of_wallets_sidebar_item.html %}
-    {% endif %}
+  {% assign thisVerdictPosts = posts_by_users | where: "verdict", verdict %}
+  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }} ({{ thisVerdictPosts.size }})</div>
+  {% for post in thisVerdictPosts %}
+    {% include list_of_wallets_sidebar_item.html %}
   {% endfor %}
 {% endfor %}
 </div>
