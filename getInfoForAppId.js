@@ -4,7 +4,7 @@ const https = require('https')
 const fs = require('fs')
 const req = require('request')
 const sync = require('sync-request')
-var exec = require('child_process').exec
+const exec = require('child_process').exec
 
 appId = process.argv[2]
 
@@ -48,13 +48,13 @@ This app was added because it came up searching the playstore for wallet apps.`)
 }
 
 gplay.app({appId: appId}).then(function(app){
-  var iconPath = `images/wallet_icons/${appId}`
+  const iconPath = `images/wallet_icons/${appId}`
   const iconFile = fs.createWriteStream(iconPath)
   const request = https.get(app.icon, function(response) {
     response.pipe(iconFile)
     response.on('end', function() {
-      var child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
-        var mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
+      const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
+        const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
         if (mimetype == "image/png") {
           iconExtension = "png"
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
@@ -62,6 +62,7 @@ gplay.app({appId: appId}).then(function(app){
         } else {
           throw Error(`wrong mime type ${mimetype}`)
         }
+        if (app.released == undefined) app.released = Date()
         writeResult(app, iconExtension)
         fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
           if ( err ) console.log('ERROR: ' + err);
