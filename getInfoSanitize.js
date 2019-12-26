@@ -10,7 +10,9 @@ const sync = require('sync-request')
 const exec = require('child_process').exec
 const yaml = require('js-yaml')
 
+var allHeaders = new Set()
 const walletsFolder = "/mnt/_posts/"
+var i = 0
 fs.readdir(walletsFolder, function (err, files) {
   if (err) {
     console.error("Could not list the directory _posts.", err)
@@ -22,33 +24,37 @@ fs.readdir(walletsFolder, function (err, files) {
     const headerStr = parts[1]
     const body = parts[2]
     const header = yaml.safeLoad(headerStr)
+    allHeaders = new Set([ ...allHeaders, ...Object.keys(header)])
     const correctFile = `2019-12-20-${header.appId}.md`
     if(file != correctFile) {
       const correctFilePath = path.join(walletsFolder, correctFile)
       fs.rename(filePath, correctFilePath, function (error) {
         if (error) {
-          console.error("File moving error.", error);
+          console.error("File moving error.", error)
         }
-      });
+      })
     }
-  });
-});
+    i = i + 1
+    if (i == files.length) {
+      console.log(Array.from(allHeaders).join(":\n")+":")
+    }
+  })
+})
 
 return
 console.log(`---
 title: "${header.title}"
 
-wallet: ${header.wallet}
-users: ${header.users}
 appId: ${header.appId}
+date: ${dateFormat(header.date, "yyyy-mm-dd")}
 launchDate: ${dateFormat(header.launchDate, "yyyy-mm-dd")}
 latestUpdate: ${dateFormat(header.latestUpdate, "yyyy-mm-dd")}
 apkVersionName: ${header.apkVersionName}
+users: ${header.users}
 stars: ${header.stars}
 ratings: ${header.ratings}
 reviews: ${header.reviews}
 size: ${header.size}
-permissions: ${header.permissions || ""}
 website: ${header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
@@ -56,10 +62,15 @@ icon: ${header.icon}
 bugbounty: ${header.bugbounty || ""}
 verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
 
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
+internalIssue:
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 permalink: ${header.permalink}
 redirect_from:
 - /${header.appId}/
+tags:
 ---
 
 
