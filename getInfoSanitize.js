@@ -4,9 +4,70 @@ const gplay = require('google-play-scraper')
 const dateFormat = require('dateformat')
 const https = require('https')
 const fs = require('fs')
+const path = require('path')
 const req = require('request')
 const sync = require('sync-request')
 const exec = require('child_process').exec
+const yaml = require('js-yaml')
+
+const walletsFolder = "/mnt/_posts/"
+fs.readdir(walletsFolder, function (err, files) {
+  if (err) {
+    console.error("Could not list the directory _posts.", err)
+    process.exit(1);
+  }
+  files.forEach(function (file, index) {
+    const filePath = path.join(walletsFolder, file)
+    const parts = fs.readFileSync(filePath, 'utf8').split("---")
+    const headerStr = parts[1]
+    const body = parts[2]
+    const header = yaml.safeLoad(headerStr)
+    const correctFile = `2019-12-20-${header.appId}.md`
+    if(file != correctFile) {
+      const correctFilePath = path.join(walletsFolder, correctFile)
+      fs.rename(filePath, correctFilePath, function (error) {
+        if (error) {
+          console.error("File moving error.", error);
+        }
+      });
+    }
+  });
+});
+
+return
+console.log(`---
+title: "${header.title}"
+
+wallet: ${header.wallet}
+users: ${header.users}
+appId: ${header.appId}
+launchDate: ${dateFormat(header.launchDate, "yyyy-mm-dd")}
+latestUpdate: ${dateFormat(header.latestUpdate, "yyyy-mm-dd")}
+apkVersionName: ${header.apkVersionName}
+stars: ${header.stars}
+ratings: ${header.ratings}
+reviews: ${header.reviews}
+size: ${header.size}
+permissions: ${header.permissions || ""}
+website: ${header.website || ""}
+repository: ${header.repository || ""}
+issue: ${header.issue || ""}
+icon: ${header.icon}
+bugbounty: ${header.bugbounty || ""}
+verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+
+date: ${dateFormat(header.date, "yyyy-mm-dd")}
+permalink: ${header.permalink}
+redirect_from:
+- /${header.appId}/
+---
+
+
+${body}`)
+
+exit()
+
+
 
 appId = process.argv[2]
 
