@@ -19,6 +19,12 @@ icon: images/wallet_icons/engineering.lightning.LightningMainnet.png
 bugbounty:
 verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 
+# internal stuff that should only be rendered during jekyll serve.
+internalIssue: 83
+providerTwitter: lightning
+providerLinkedIn:
+providerFacebook:
+
 date: 2019-12-25
 permalink: /posts/engineering.lightning.LightningMainnet/
 redirect_from:
