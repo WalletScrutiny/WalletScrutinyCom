@@ -17,7 +17,6 @@ altTitle,reviewStale".split(","))
 
 var allHeaders = new Set()
 const postsFolder = "/mnt/_posts/"
-var i = 0
 fs.readdir(postsFolder, function (err, files) {
   if (err) {
     console.error("Could not list the directory _posts.", err)
