@@ -5,11 +5,10 @@ const dateFormat = require('dateformat')
 const https = require('https')
 const fs = require('fs')
 const path = require('path')
-const req = require('request')
-const sync = require('sync-request')
 const exec = require('child_process').exec
 const yaml = require('js-yaml')
 const sleep = require('sleep').sleep
+
 const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
 repository,issue,icon,bugbounty,verdict,internalIssue,providerTwitter,\
@@ -111,7 +110,7 @@ providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}
 providerReddit: ${header.providerReddit || ""}
 
-permalink: ${header.permalink}
+permalink: /posts/${header.appId}/
 redirect_from:
 ${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
