@@ -1,28 +1,34 @@
 ---
 title: "Exodus Crypto Wallet"
+altTitle: 
 
-wallet: true
 users: 100000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
-latestUpdate: 2019-12-13
-apkVersionName: 19.12.12
-stars: 4.8
-ratings: 2615
-reviews: 1047
+latestUpdate: 2019-12-19
+apkVersionName: 19.12.19
+stars: 4.7
+ratings: 2839
+reviews: 1141
 size: 33M
-permissions:
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
-issue:
-icon: images/wallet_icons/exodusmovement.exodus.png
-bugbounty:
-verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
-
+issue: 
+icon: exodusmovement.exodus.png
+bugbounty: 
+verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
 date: 2019-12-20
+reviewStale: true
+
+internalIssue: 
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
 permalink: /posts/exodusmovement.exodus/
 redirect_from:
-- /exodusmovement.exodus/
+  - /exodusmovement.exodus/
 ---
 
 

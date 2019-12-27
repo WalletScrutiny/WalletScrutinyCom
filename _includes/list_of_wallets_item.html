@@ -1,9 +1,13 @@
 {% include base_path %}
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% if post.altTitle %}
+  {% assign title = post.altTitle %}
 {% else %}
   {% assign title = post.title %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
 {% case post.verdict %}
@@ -87,7 +91,7 @@
   <td rowSpan="2">
     <div class="app_logo">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-        <img src="{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+        <img src="/images/wallet_icons/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
       </a>
     </div>
   </td><td colSpan="8">
@@ -107,19 +111,22 @@
           {% if post.providerReddit %}/ <a href="https://www.reddit.com/r/{{ post.providerReddit }}">Re</a>{% endif %}
           {% if post.providerLinkedIn %}/ <a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">Li</a>{% endif %}
           {% if post.internalIssue %}/ <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/issues/{{ post.internalIssue }}">Gl</a>{% endif %}
+          {% if post.reviewStale %}/ <font color="red">stale</font>{% endif %}
         {% endif %})
     </nobr>
   </td>
 </tr>
-<tr>
-  <td>
-    {{ post.date | date: '%b %y' }}
-  </td><td class="userCount">
+<tr {% if post.reviewStale %} class="reviewStale"{% endif %}>
+  <td class="userCount">
     {{ prettyUserCount }}
   </td><td>
-    {{ post.launchDate | date: '%b %y' }}
+    {{ post.launchDate | date: '%Y-%m-%d' }}
   </td><td>
-    {{ post.latestUpdate | date: '%b %y' }}
+    {{ post.latestUpdate | date: '%Y-%m-%d' }}
+  </td><td class="reviewDate">
+    {% if post.verdict != "wip" %}
+      {{ post.date | date: '%Y-%m-%d' }}
+    {% endif %}
   </td><td class="verdict">
     {{ verdict }}
   </td>

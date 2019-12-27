@@ -33,6 +33,9 @@
   "dependencies": {
     "dateformat": "^3.0.3",
     "google-play-scraper": "^7.1.1",
-    "sync-request": "^6.1.0"
+    "js-yaml": "^3.13.1",
+    "sleep": "^6.1.0",
+    "sync-request": "^6.1.0",
+    "yaml-ast-parser": "0.0.43"
   }
 }

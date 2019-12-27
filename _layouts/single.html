@@ -52,13 +52,13 @@ layout: default
         </header>
       {% endunless %}
 
-      {% if page.wallet %}
+      {% if page.verdict %}
         {% include wallet_header.html %}
       {% endif %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.wallet %}
+        {% if page.verdict %}
           {% include verdict_explained.html %}
         {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

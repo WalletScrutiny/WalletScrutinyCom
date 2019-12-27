@@ -9,139 +9,113 @@ const req = require('request')
 const sync = require('sync-request')
 const exec = require('child_process').exec
 const yaml = require('js-yaml')
+const sleep = require('sleep').sleep
+const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
+latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
+repository,issue,icon,bugbounty,verdict,internalIssue,providerTwitter,\
+providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
+altTitle,reviewStale".split(","))
 
 var allHeaders = new Set()
-const walletsFolder = "/mnt/_posts/"
+const postsFolder = "/mnt/_posts/"
 var i = 0
-fs.readdir(walletsFolder, function (err, files) {
+fs.readdir(postsFolder, function (err, files) {
   if (err) {
     console.error("Could not list the directory _posts.", err)
     process.exit(1);
   }
   files.forEach(function (file, index) {
-    const filePath = path.join(walletsFolder, file)
-    const parts = fs.readFileSync(filePath, 'utf8').split("---")
+    sleep(1)
+    const postPath = path.join(postsFolder, file)
+    var parts = fs.readFileSync(postPath, 'utf8').split("---")
     const headerStr = parts[1]
-    const body = parts[2]
+    const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
     const header = yaml.safeLoad(headerStr)
-    allHeaders = new Set([ ...allHeaders, ...Object.keys(header)])
-    const correctFile = `2019-12-20-${header.appId}.md`
+    const appId = header.appId
+    for(var i of Object.keys(header)) {
+      if(!allowedHeaders.has(i)) {
+        console.error("losing property " + i + " in " + postPath)
+      }
+    }
+    const correctFile = `2019-12-20-${appId}.md`
     if(file != correctFile) {
-      const correctFilePath = path.join(walletsFolder, correctFile)
+      const correctFilePath = path.join(postsFolder, correctFile)
       fs.rename(filePath, correctFilePath, function (error) {
         if (error) {
           console.error("File moving error.", error)
         }
       })
     }
-    i = i + 1
-    if (i == files.length) {
-      console.log(Array.from(allHeaders).join(":\n")+":")
-    }
+    gplay.app({appId: appId}).then(function(app){
+      const iconPath = `images/wallet_icons/${appId}`
+      const iconFile = fs.createWriteStream(iconPath)
+      const request = https.get(app.icon, function(response) {
+        response.pipe(iconFile)
+        response.on('end', function() {
+          const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
+            const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
+            if (mimetype == "image/png") {
+              iconExtension = "png"
+            } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
+              iconExtension = "jpg"
+            } else {
+              throw Error(`wrong mime type ${mimetype}`)
+            }
+            if (app.released == undefined) app.released = Date()
+            writeResult(app, header, iconExtension, body)
+            fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
+              if ( err ) console.log('ERROR: ' + err);
+            })
+          });
+        });
+      });
+    }, console.log);
   })
 })
 
-return
-console.log(`---
-title: "${header.title}"
+function writeResult(app, header, iconExtension, body) {
+  var altTitle = header.altTitle || ""
+  if (altTitle.length > 0) altTitle = `"${altTitle}"`
+  var apkVersionName = app.version || "various"
+  var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
+  const redirects = new Set(header.redirect_from)
+  redirects.add("/" + header.appId + "/")
+  const path = `_posts/2019-12-20-${header.appId}.md`
+  const file = fs.createWriteStream(path)
+  console.log("Writing results to " + path)
+  file.write(`---
+title: "${app.title}"
+altTitle: ${altTitle}
 
+users: ${app.minInstalls}
 appId: ${header.appId}
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
 launchDate: ${dateFormat(header.launchDate, "yyyy-mm-dd")}
-latestUpdate: ${dateFormat(header.latestUpdate, "yyyy-mm-dd")}
-apkVersionName: ${header.apkVersionName}
-users: ${header.users}
-stars: ${header.stars}
-ratings: ${header.ratings}
-reviews: ${header.reviews}
-size: ${header.size}
-website: ${header.website || ""}
+latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
+apkVersionName: ${ apkVersionName }
+stars: ${app.scoreText || ""}
+ratings: ${app.ratings || ""}
+reviews: ${app.reviews || ""}
+size: ${app.size}
+website: ${app.website || header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
-icon: ${header.icon}
+icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: ${header.verdict} # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+date: ${dateFormat(header.date, "yyyy-mm-dd")}
+reviewStale: ${stale}
 
-internalIssue:
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+internalIssue: ${header.internalIssue || ""}
+providerTwitter: ${header.providerTwitter || ""}
+providerLinkedIn: ${header.providerLinkedIn || ""}
+providerFacebook: ${header.providerFacebook || ""}
+providerReddit: ${header.providerReddit || ""}
+
 permalink: ${header.permalink}
 redirect_from:
-- /${header.appId}/
-tags:
+${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
 
 
 ${body}`)
-
-exit()
-
-
-
-appId = process.argv[2]
-
-function writeResult(app, iconExtension) {
-  const path = `_posts/2019-12-20-${appId}.md`
-  const file = fs.createWriteStream(path)
-  file.write(`---
-title: "${app.title}"
-
-wallet: true
-users: ${app.minInstalls}
-appId: ${appId}
-launchDate: ${dateFormat(new Date(app.released), "yyyy-mm-dd")}
-latestUpdate: ${dateFormat(new Date(app.updated), "yyyy-mm-dd")}
-apkVersionName: ${app.version}
-stars: ${app.scoreText}
-ratings: ${app.ratings}
-reviews: ${app.reviews}
-size: ${app.size}
-permissions:
-website: ${app.developerWebsite}
-repository:
-issue:
-icon: images/wallet_icons/${appId}.${iconExtension}
-bugbounty:
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
-
-date: ${dateFormat(new Date(), "yyyy-mm-dd")}
-permalink: /posts/${appId}/
-redirect_from:
-- /${appId}/
----
-
-This page was created by a script from the **appId** "${appId}" and public
-information found
-[here](https://play.google.com/store/apps/details?id=${appId}).
-
-Probably an engineer will soon have a deeper look at this app.
-
-This app was added because it came up searching the playstore for wallet apps.`)
 }
-
-gplay.app({appId: appId}).then(function(app){
-  const iconPath = `images/wallet_icons/${appId}`
-  const iconFile = fs.createWriteStream(iconPath)
-  const request = https.get(app.icon, function(response) {
-    response.pipe(iconFile)
-    response.on('end', function() {
-      const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
-        const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
-        if (mimetype == "image/png") {
-          iconExtension = "png"
-        } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
-          iconExtension = "jpg"
-        } else {
-          throw Error(`wrong mime type ${mimetype}`)
-        }
-        if (app.released == undefined) app.released = Date()
-        writeResult(app, iconExtension)
-        fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
-          if ( err ) console.log('ERROR: ' + err);
-        })
-      });
-    });
-  });
-}, console.log);

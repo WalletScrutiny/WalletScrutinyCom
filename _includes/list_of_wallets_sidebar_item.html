@@ -1,9 +1,13 @@
 {% include base_path %}
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% if post.altTitle %}
+  {% assign title = post.altTitle %}
 {% else %}
   {% assign title = post.title %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
 {% comment %}
@@ -17,7 +21,7 @@
 
 <div style="width:100%;text-overflow:ellipsis;overflow:hidden;width:100%;white-space:nowrap">
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-    <img src="/{{ post.icon }}" class="app_logo" alt="Wallet Logo" style="height:1em;width:auto;float:left;margin-right:0.5em">
+    <img src="/images/wallet_icons/{{ post.icon }}" class="app_logo" alt="Wallet Logo" style="height:1em;width:auto;float:left;margin-right:0.5em">
     {{ title  }}
   </a>
 </div>

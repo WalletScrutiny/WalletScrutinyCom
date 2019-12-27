@@ -6,17 +6,17 @@
   <thead>
     <tr>
       <td>Name</td>
-      <td>Reviewed</td>
       <td>Installs</td>
       <td>Launch</td>
       <td>Update</td>
+      <td>Reviewed</td>
       <td>Verdict</td>
     </tr>
   </thead>
   {% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet" | split: "," %}
   {% for v in verdicts %}
     {% for post in posts_by_users %}
-      {% if post.wallet and post.verdict and post.verdict == v %}
+      {% if post.verdict and post.verdict == v %}
         {% include list_of_wallets_item.html %}
       {% endif %}
     {% endfor %}

@@ -30,7 +30,7 @@ permissions:
 website: ${app.developerWebsite}
 repository:
 issue:
-icon: images/wallet_icons/${appId}.${iconExtension}
+icon: ${appId}.${iconExtension}
 bugbounty:
 verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty, cert1, cert2, cert3
 

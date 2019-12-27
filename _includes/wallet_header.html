@@ -1,12 +1,20 @@
-<img src="/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-<strong><a href="https://play.google.com/store/apps/details?id={{ page.appId }}">{{ page.title }}</a></strong> was first
-launched in {{ page.launchDate | date: '%B %Y' }}
+
+{% if page.altTitle %}
+  {% assign title = page.altTitle %}
+{% else %}
+  {% assign title = page.title %}
+{% endif %}
+
+<img src="/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+<strong><a href="https://play.google.com/store/apps/details?id={{ page.appId }}">{{ title }}</a></strong> was first
+launched in {{ page.launchDate | date_to_long_string: "ordinal" }}
 and at the time of our analysis ({{ page.date | date_to_long_string: "ordinal" }})
 had more than {{ page.users }} downloads,
 a {{ page.stars }} stars rating from
 {{ page.ratings }} users and
 the latest APK (version {{ page.apkVersionName }})
-was from {{ page.latestUpdate | date: '%B %Y' }}.
+was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{% if page.reviewStale %}<font color="red">
+and is newer than the below reviewed version of the app</font>{% endif %}.
 
 We did our analysis from data found on their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
