@@ -17,3 +17,5 @@ done
 echo "Cleaning up"
 
 node getInfoSanitize.js
+
+echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
