@@ -90,7 +90,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 launchDate: ${dateFormat(header.launchDate, "yyyy-mm-dd")}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: ${ apkVersionName }
+apkVersionName: "${ apkVersionName }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}
