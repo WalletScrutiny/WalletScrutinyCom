@@ -31,3 +31,10 @@ Read about [our methodology](/methodology/) to understand in more detail or just
 see what we have to say about your wallet:
 
 {% include list_of_wallets.html %}
+
+How many users are in each category?
+====================================
+
+The following grid shows wallets by download count and category:
+
+{% include grid_of_wallets.html %}
