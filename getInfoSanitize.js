@@ -99,7 +99,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: ${header.verdict} # May be any of: wip, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 reviewStale: ${stale}
 
@@ -109,7 +109,7 @@ providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}
 providerReddit: ${header.providerReddit || ""}
 
-permalink: /posts/${header.appId}/
+permalink: ${header.permalink || "/posts/" + header.appId + "/"}
 redirect_from:
 ${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
