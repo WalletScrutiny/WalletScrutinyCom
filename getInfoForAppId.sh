@@ -9,9 +9,13 @@ cd /mnt
 
 echo "adding wallets from command line parameters"
 for appId in "$@"; do
-  echo getting info for app $appId
-
-  node getInfoForAppId.js $appId
+  path=_posts/2019-12-20-$appId.md
+  if [ ! -f $path ]; then
+    echo getting info for app $appId
+    node getInfoForAppId.js $appId
+  else
+    echo $appId already present in $path
+  fi
 done
 
 echo "Cleaning up"
