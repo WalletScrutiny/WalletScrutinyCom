@@ -6,17 +6,17 @@ users: 100000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
 latestUpdate: 2019-12-19
-apkVersionName: 19.12.19
+apkVersionName: "19.12.19"
 stars: 4.7
-ratings: 2839
-reviews: 1141
+ratings: 2878
+reviews: 1153
 size: 33M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: nosource # May be any of: wip, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
 date: 2019-12-20
 reviewStale: true
 

@@ -6,7 +6,7 @@ users: 1000
 appId: zapsolutions.zap
 launchDate: 2019-12-25
 latestUpdate: 2019-12-02
-apkVersionName: Varies with device
+apkVersionName: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: zapsolutions.zap.png
 bugbounty: 
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: wip # May be any of: wip, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
 date: 2019-12-25
 reviewStale: false
 
