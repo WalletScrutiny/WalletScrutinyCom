@@ -13,7 +13,7 @@
       <td>Verdict</td>
     </tr>
   </thead>
-  {% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet" | split: "," %}
+  {% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet,nobtc" | split: "," %}
   {% for v in verdicts %}
     {% for post in posts_by_users %}
       {% if post.verdict and post.verdict == v %}

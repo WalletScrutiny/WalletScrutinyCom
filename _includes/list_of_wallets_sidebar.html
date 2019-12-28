@@ -2,12 +2,13 @@
 
 {% assign posts_by_users = site.posts | sort: "users" | reverse %}
 
-{% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet" | split: "," %}
+{% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet,nobtc" | split: "," %}
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
   {% case verdict %}
     {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
     {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
+    {% when "nobtc" %}         {% assign verdictLabel = "Non-BTC" %}
     {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
     {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
     {% when "verifiable" %}    {% assign verdictLabel = "Verifiable" %}

@@ -26,6 +26,14 @@
         the app is not relevant wether or not the funds are secure!
       </span>
     </span>' %}
+  {% when "nobtc" %}
+    {% assign verdict = '<span class="nobtc tooltip">
+      Non-BTC
+      <span class="tooltiptext">
+        The app cannot send and receive BTC. We currently do not investigate
+        other cryptocurrencies.
+      </span>
+    </span>' %}
   {% when "nowallet" %}
     {% assign verdict = '<span class="nowallet tooltip">
       Not&nbsp;a&nbsp;wallet
