@@ -1,7 +1,7 @@
 {% include base_path %}
 
 {% assign verdicts = "verifiable,nonverifiable,nosource,custodial" | split: "," %}
-{% assign counts = "100,500,1000,5000,10000,50000,100000,500000,1000000,5000000,10000000" | split: "," | reverse %}
+{% assign counts = "1000,5000,10000,50000,100000,500000,1000000,5000000,10000000" | split: "," | reverse %}
 <table>
   <thead>
     <tr>
@@ -11,7 +11,20 @@
       <td>open source</td>
       <td>closed source</td>
       <td>custodial</td>
-      <td>non-btc</td>
+    </tr>
+    <tr>
+      <td>Total:</td><td></td>
+      {% for v in verdicts %}
+        {% assign total = 0 %}
+        {% for post in site.posts %}
+          {% if post.verdict == v %}
+            {% assign total = total | plus: post.users %}
+          {% endif %}
+        {% endfor %}
+        <td>
+          {{ total }}
+        </td>
+      {% endfor %}
     </tr>
   </thead>
   {% for c in counts %}
@@ -22,9 +35,11 @@
         {% assign d = c | plus: 0 %}
         {% assign users = post.users | plus: 0 %}
         {% if post.verdict == v and users == d %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="/images/wallet_icons/{{ post.icon }}" class="app_logo" alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
-        </a> 
+          {% assign total[v] = total[v] | plus: users %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+            <img src="/images/wallet_icons/{{ post.icon }}" class="app_logo"
+              alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
+          </a> 
         {% endif %}
       {% endfor %}
       </td>
