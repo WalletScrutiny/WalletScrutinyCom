@@ -18,6 +18,13 @@
         Work in progress. We still have to analyze this wallet.
       </span>
     </span>' %}
+  {% when "fewusers" %}
+    {% assign verdict = '<span class="fewusers tooltip">
+      Few&nbsp;users
+      <span class="tooltiptext">
+        This app has too few users for now to be reviewed in detail.
+      </span>
+    </span>' %}
   {% when "custodial" %}
     {% assign verdict = '<span class="custodial tooltip">
       Custodial!
@@ -74,15 +81,12 @@
       </span>
     </span>' %}
   {% when "cert1" %}
-    {% assign verdict = '<span class="cert1 tooltip">cert1<span class="tooltiptext">As the provider of this app holds the users coins, verifiability is not relevant!</span></span>' %}
+    {% assign verdict = '<span class="cert1 tooltip">cert1<span class="tooltiptext">This is just an idea so far</span></span>' %}
   {% when "cert2" %}
-    {% assign verdict = '<span class="cert2 tooltip">cert2<span class="tooltiptext">As the provider of this app holds the users coins, verifiability is not relevant!</span></span>' %}
+    {% assign verdict = '<span class="cert2 tooltip">cert2<span class="tooltiptext">This is just an idea so far</span></span>' %}
   {% else %}
     {% assign verdict = '<span class="wip tooltip">
-      WIP
-      <span class="tooltiptext">
-        Work in progress. We still have to analyze this wallet.
-      </span>
+      ???
     </span>' %}
 {% endcase %}
 

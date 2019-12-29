@@ -2,17 +2,19 @@
 
 {% assign posts_by_users = site.posts | sort: "users" | reverse %}
 
-{% assign verdicts = "verifiable,nonverifiable,nosource,custodial,wip,nowallet,nobtc" | split: "," %}
+{% assign verdicts = "verifiable,nonverifiable,nosource,custodial" | split: "," %}
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
   {% case verdict %}
-    {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
-    {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
-    {% when "nobtc" %}         {% assign verdictLabel = "Non-BTC" %}
-    {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
-    {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
     {% when "verifiable" %}    {% assign verdictLabel = "Verifiable" %}
-    {% else %}                 {% assign verdictLabel = "WIP" %}
+    {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
+    {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
+    {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
+    {% when "wip" %}           {% assign verdictLabel = "WIP" %}
+    {% when "fewusers" %}      {% assign verdictLabel = "Few users" %}
+    {% when "nobtc" %}         {% assign verdictLabel = "Non-BTC" %}
+    {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
+    {% else %}                 {% assign verdictLabel = "???" %}
   {% endcase %}
   {% assign thisVerdictPosts = posts_by_users | where: "verdict", verdict %}
   <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }} ({{ thisVerdictPosts.size }})</div>
