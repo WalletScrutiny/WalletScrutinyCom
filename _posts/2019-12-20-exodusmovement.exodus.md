@@ -8,8 +8,8 @@ launchDate: 2019-06-06
 latestUpdate: 2019-12-19
 apkVersionName: "19.12.19"
 stars: 4.7
-ratings: 2878
-reviews: 1153
+ratings: 2914
+reviews: 1162
 size: 33M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
