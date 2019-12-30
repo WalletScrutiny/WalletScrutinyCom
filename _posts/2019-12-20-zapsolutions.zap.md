@@ -13,7 +13,7 @@ reviews:
 size: Varies with device
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android
-issue: 
+issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
@@ -108,6 +108,3 @@ contains more than the expected two to three files about the signature, this is
 not a clean reproducible build.
 
 Our verdict: **not verifiable**.
-
-
-

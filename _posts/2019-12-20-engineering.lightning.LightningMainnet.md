@@ -13,7 +13,7 @@ reviews:
 size: Varies with device
 website: https://lightning.engineering
 repository: https://github.com/lightninglabs/lightning-app
-issue: 
+issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
