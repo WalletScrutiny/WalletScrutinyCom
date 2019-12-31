@@ -6,20 +6,30 @@
 {% endif %}
 
 <img src="/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-<strong><a href="https://play.google.com/store/apps/details?id={{ page.appId }}">{{ title }}</a></strong> was first
-launched in {{ page.launchDate | date_to_long_string: "ordinal" }}
-and at the time of our analysis ({{ page.date | date_to_long_string: "ordinal" }})
-had more than {{ page.users }} downloads,
-a {{ page.stars }} stars rating from
-{{ page.ratings }} users and
+<p>This app was first
+launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and currently
+has more than {{ page.users }} downloads, a {{ page.stars }} stars rating from {{ page.ratings }} users and
 the latest APK (version {{ page.apkVersionName }})
 was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{% if page.reviewStale %}<font color="red">
-and is newer than the below reviewed version of the app</font>{% endif %}.
+and is newer than the below reviewed version of the app</font>{% endif %}.</p>
 
-We did our analysis from data found on their
+<p>Our analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
+based on data found in their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
-and <a href="{{ page.website }}">their website</a>.
-{% if page.repository %}The source code we considered can be found
-<a href="{{ page.repository }}">here</a>.{% endif %}{%if page.issue %} We
-discuss the issue with verification with the provider
+and <a href="{{ page.website }}">their website</a>
+{% if page.repository %}and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
+{%if page.issue %} We discuss the issue with verification with the provider
 <a href="{{ page.issue }}">here</a>.{% endif %}
+{% if page.internalIssue %} In our GitLab this app is discussed in
+<a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/issues/{{ page.internalIssue }}">Issue #{{ page.internalIssue }}</a>.{% endif %}</p>
+
+<p>We found these ways of contacting the developers:
+<ul>
+{% if page.website          %}<li><a href="{{ page.website                                   }}">{{ page.website | replace: "http://", "" | replace: "https://", ""  | replace: "/", "" }}</a></li>{% endif %}
+{% if page.providerTwitter  %}<li><a href="https://twitter.com/{{      page.providerTwitter  }}">Twitter</a></li>{% endif %}
+{% if page.providerFacebook %}<li><a href="https://www.facebook.com/{{ page.providerFacebook }}">Facebook</a></li>{% endif %}
+{% if page.providerReddit   %}<li><a href="https://www.reddit.com/r/{{ page.providerReddit   }}">Reddit</a></li>{% endif %}
+{% if page.providerLinkedIn %}<li><a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">LinkedIn</a></li>{% endif %}
+</ul></p>
+
+<h1>The Analysis</h1>

@@ -12,82 +12,37 @@
 
 {% case post.verdict %}
   {% when "wip" %}
-    {% assign verdict = '<span class="wip tooltip">
-      WIP
-      <span class="tooltiptext">
-        Work in progress. We still have to analyze this wallet.
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'WIP' %}
+    {% assign vTooltip = 'Work in progress. We still have to analyze this wallet' %}
   {% when "fewusers" %}
-    {% assign verdict = '<span class="fewusers tooltip">
-      Few&nbsp;users
-      <span class="tooltiptext">
-        This app has too few users for now to be reviewed in detail.
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'Few&nbsp;users' %}
+    {% assign vTooltip = 'This app has too few users for now to be reviewed in detail.' %}
   {% when "custodial" %}
-    {% assign verdict = '<span class="custodial tooltip">
-      Custodial!
-      <span class="tooltiptext">
-        As the provider of this app holds the users coins, verifiability of
-        the app is not relevant wether or not the funds are secure!
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'Custodial!' %}
+    {% assign vTooltip = 'As the provider of this app holds the users coins,
+      verifiability of the app is not relevant wether or not the funds are secure!' %}
   {% when "nobtc" %}
-    {% assign verdict = '<span class="nobtc tooltip">
-      Non-BTC
-      <span class="tooltiptext">
-        The app cannot send and receive BTC. We currently do not investigate
-        other cryptocurrencies.
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'Non-BTC' %}
+    {% assign vTooltip = 'The app cannot send and receive BTC. We currently do
+      not investigate other cryptocurrencies.' %}
   {% when "nowallet" %}
-    {% assign verdict = '<span class="nowallet tooltip">
-      Not&nbsp;a&nbsp;wallet
-      <span class="tooltiptext">
-        We could not find this to be an app meant to store receive and send
-        coins.
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'Not&nbsp;a&nbsp;wallet' %}
+    {% assign vTooltip = 'We could not find this to be an app meant to store
+      receive and send coins.' %}
   {% when "nosource" %}
-    {% assign verdict = '<span class="nosource tooltip">
-      No&nbsp;source!
-      <span class="tooltiptext">
-        Without public source available, this app cannot be verified!
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'No&nbsp;source!' %}
+    {% assign vTooltip = 'Without public source available, this app cannot be verified!' %}
   {% when "nonverifiable" %}
-    {% assign verdict = '<span class="nonverifiable tooltip">
-      Not&nbsp;verifiable!
-      <span class="tooltiptext">
-        The app provider also shares code but we could so far not verify that
-        the published code matches the published app!
-      </span>
-    </span>' %}
+    {% assign vLabel   = 'Not&nbsp;verifiable!' %}
+    {% assign vTooltip = 'The app provider also shares code but we could so far
+      not verify that the published code matches the published app!' %}
   {% when "verifiable" %}
-    {% assign verdict = '<span class="verifiable tooltip">
-      Verifiable!
-      <span class="tooltiptext">
-        At the time of this analysis, the app on Google Play was reproducible
-        from the code provided by the developers!
-      </span>
-    </span>' %}
-  {% when "bounty" %}
-    {% assign verdict = '<span class="bounty tooltip">
-      Bounty!
-      <span class="tooltiptext">
-        This app was not only verifiable at the time of this analysis but also
-        provides an incentive for third parties to find bugs and weaknesses!
-      </span>
-    </span>' %}
-  {% when "cert1" %}
-    {% assign verdict = '<span class="cert1 tooltip">cert1<span class="tooltiptext">This is just an idea so far</span></span>' %}
-  {% when "cert2" %}
-    {% assign verdict = '<span class="cert2 tooltip">cert2<span class="tooltiptext">This is just an idea so far</span></span>' %}
+    {% assign vLabel   = 'Verifiable' %}
+    {% assign vTooltip = 'At the time of this analysis, the app on Google Play
+      was reproducible from the code provided by the developers!' %}
   {% else %}
-    {% assign verdict = '<span class="wip tooltip">
-      ???
-    </span>' %}
+    {% assign vLabel   = '???' %}
+    {% assign vTooltip = '???' %}
 {% endcase %}
 
 {% comment %}
@@ -140,6 +95,11 @@
       {{ post.date | date: '%Y-%m-%d' }}
     {% endif %}
   </td><td class="verdict">
-    {{ verdict }}
+    <span class="{{ post.verdict }} tooltip">
+      {{ vLabel }}
+      <span class="tooltiptext">
+        {{ vTooltip }}
+      </span>
+    </span>
   </td>
 </tr>
