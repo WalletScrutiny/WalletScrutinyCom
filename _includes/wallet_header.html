@@ -6,9 +6,17 @@
 {% endif %}
 
 <img src="/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-<p>This app was first
-launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and currently
-has more than {{ page.users }} downloads, a {{ page.stars }} stars rating from {{ page.ratings }} users and
+<p>This
+{% if page.launchDate %}
+  app was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
+{% else %}
+  relatively new app
+{% endif %}
+currently
+has more than {{ page.users }} downloads{%
+  if page.stars %}, a {{ page.stars }} stars rating from {{ page.ratings }} users
+{% endif %}
+and
 the latest APK (version {{ page.apkVersionName }})
 was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{% if page.reviewStale %}<font color="red">
 and is newer than the below reviewed version of the app</font>{% endif %}.</p>
@@ -18,7 +26,7 @@ based on data found in their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
 and <a href="{{ page.website }}">their website</a>
 {% if page.repository %}and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
-{%if page.issue %} We discuss the issue with verification with the provider
+{% if page.issue %} We discuss the issue with verification with the provider
 <a href="{{ page.issue }}">here</a>.{% endif %}
 {% if page.internalIssue %} In our GitLab this app is discussed in
 <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/issues/{{ page.internalIssue }}">Issue #{{ page.internalIssue }}</a>.{% endif %}</p>
@@ -31,5 +39,15 @@ and <a href="{{ page.website }}">their website</a>
 {% if page.providerReddit   %}<li><a href="https://www.reddit.com/r/{{ page.providerReddit   }}">Reddit</a></li>{% endif %}
 {% if page.providerLinkedIn %}<li><a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">LinkedIn</a></li>{% endif %}
 </ul></p>
+{% if page.reviews %}
+<h1>Older reviews</h1>
+  <ul>
+  {% for review in page.reviews %}
+    <li><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRev }}/_posts/2019-12-20-{{ page.appId }}.md">{{ review.version }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+
 
 <h1>The Analysis</h1>

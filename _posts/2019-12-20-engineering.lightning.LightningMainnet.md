@@ -4,7 +4,7 @@ altTitle:
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
-launchDate: 2019-12-25
+launchDate: 
 latestUpdate: 2019-12-04
 apkVersionName: "Varies with device"
 stars: 
