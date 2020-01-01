@@ -39,10 +39,10 @@ and <a href="{{ page.website }}">their website</a>
 {% if page.providerReddit   %}<li><a href="https://www.reddit.com/r/{{ page.providerReddit   }}">Reddit</a></li>{% endif %}
 {% if page.providerLinkedIn %}<li><a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">LinkedIn</a></li>{% endif %}
 </ul></p>
-{% if page.reviews %}
+{% if page.reviewArchive %}
 <h1>Older reviews</h1>
   <ul>
-  {% for review in page.reviews %}
+  {% for review in page.reviewArchive %}
     <li><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRev }}/_posts/2019-12-20-{{ page.appId }}.md">{{ review.version }}</a></li>
   {% endfor %}
   </ul>
