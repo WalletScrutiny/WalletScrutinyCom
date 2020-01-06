@@ -6,7 +6,7 @@
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
   {% case verdict %}
-    {% when "verifiable" %}    {% assign verdictLabel = "Verifiable" %}
+    {% when "verifiable" %}    {% assign verdictLabel = "Verifiable when tested" %}
     {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
     {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
     {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
