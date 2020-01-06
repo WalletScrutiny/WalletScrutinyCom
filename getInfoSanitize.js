@@ -59,7 +59,6 @@ fs.readdir(postsFolder, function (err, files) {
             } else {
               throw Error(`wrong mime type ${mimetype}`)
             }
-            if (app.released == undefined) app.released = Date()
             writeResult(app, header, iconExtension, body)
             fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
               if ( err ) console.log('ERROR: ' + err);
@@ -75,7 +74,11 @@ function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
   var apkVersionName = app.version || "various"
+  const launchDate = header.launchDate || app.release
+  var launchDateString = ""
+  if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
+  const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
   redirects.add("/" + header.appId + "/")
   const path = `_posts/2019-12-20-${header.appId}.md`
@@ -87,7 +90,7 @@ altTitle: ${altTitle}
 
 users: ${app.minInstalls}
 appId: ${header.appId}
-launchDate: ${dateFormat(header.launchDate, "yyyy-mm-dd")}
+launchDate: ${launchDateString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
 apkVersionName: "${ apkVersionName }"
 stars: ${app.scoreText || ""}
@@ -102,6 +105,8 @@ bugbounty: ${header.bugbounty || ""}
 verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 reviewStale: ${stale}
+reviewArchive:
+${[...reviewArchive].map((item) => "  - " + item).join("\n")}
 
 internalIssue: ${header.internalIssue || ""}
 providerTwitter: ${header.providerTwitter || ""}
