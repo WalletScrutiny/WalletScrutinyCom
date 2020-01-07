@@ -41,11 +41,11 @@ and <a href="{{ page.website }}">their website</a>
 </ul></p>
 {% if page.reviewArchive %}
 <h1>Older reviews</h1>
-  <ul>
+<ul>
   {% for review in page.reviewArchive %}
     <li><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">Review of version {{ review.version }} on {{ review.date | date_to_long_string: "ordinal" }}</a> (verdict: {{  review.verdict }})</li>
   {% endfor %}
-  </ul>
+</ul>
 {% endif %}
 
 
