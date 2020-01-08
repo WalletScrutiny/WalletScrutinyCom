@@ -106,7 +106,11 @@ verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, cust
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 reviewStale: ${stale}
 reviewArchive:
-${[...reviewArchive].map((item) => "  - " + item).join("\n")}
+${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
+  version: "${item.version}"
+  apkHash: ${item.apkHash || ""}
+  gitRevision: ${item.gitRevision}
+  verdict: ${item.verdict}`).join("\n")}
 
 internalIssue: ${header.internalIssue || ""}
 providerTwitter: ${header.providerTwitter || ""}
