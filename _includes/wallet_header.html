@@ -48,13 +48,31 @@ and <a href="{{ page.website }}">their website</a>
 </ul>
 {% endif %}
 
+{% if page.providerTwitter  %}
+  <h1>Help spread awareness for build verifiability</h1>
+  <p><img src="/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+  {% if page.verdict == "verifiable" %}
+    Please follow {{ title }} and thank them for being verifiable
+  {% else if page.verdict == nonverifiable %}
+    Please help us spread the word, asking {{ title }} to support verifiable builds
+  {% else if page.verdict == nosource %}
+    Please help us spread the word discussing transparency with {{ title }}
+  {% else if page.verdict == custodial %}
+    Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+  {% else %}
+    Please help us spread the word discussing build verifiability with {{ title }}
+  {% endif %}
+  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via their Twitter</a>!</p>
+ {% endif %}
 
-<p><strong>Disclaimer:</strong> The following Analysis is not a full code review!
+<h1>Disclaimer</h1> 
+<p>The following Analysis is not a full code review!
 We plan to make code reviews available in the future but even then it will never
 be a stamp of approval but rather a list of incidents and bad coding practice.
 We cannot find and tell you all the dark secrets the wallet providers might have.</p>
 
-<p><strong>Do your own research!</strong> Try out searching
+<h1>Do your own research!</h1> 
+<p>Try out searching
 for "lost bitcoins", "stole my money" or "scammers" together with the wallet's
 name, even if you
 think the wallet is generally trustworthy. For all the bigger wallets you will
