@@ -69,7 +69,7 @@
         </a>
       </div>
       (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-      / <a href="{{ post.website }}">Website</a>
+        {% if post.website %}/ <a href="{{ post.website }}">Website</a>{% endif %}
         {% if "http://localhost:4000" == base_path %}
           {% if post.repository %}/ <a href="{{ post.repository }}">SRC</a>{% endif %}
           {% if post.issue %}/ <a href="{{ post.issue }}">Iss</a>{% endif %}
