@@ -26,7 +26,7 @@ rm -rf /tmp/fromPlayTmp
 echo "Extracting APK content ..."
 apktool d -o /tmp/fromPlayTmp "$downloadedApp" || exit 1
 appId=$( cat /tmp/fromPlayTmp/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
-versionName=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionName | sed 's/.*\: //g' )
+versionName=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
 apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
 fromPlayUnpacked=/tmp/fromPlay_"$appId"_"$versionCode"
@@ -130,12 +130,53 @@ Diff:
 Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
+testSchildbach() {
+  echo "Testing Schildbach's Bitcoin Wallet ..."
+  
+  # preparation
+  sudo rm -rf /tmp/testSchildbach
+  mkdir /tmp/testSchildbach
+  cd /tmp/testSchildbach
+  git clone https://github.com/bitcoin-wallet/bitcoin-wallet
+  cd bitcoin-wallet
+  echo "Trying to checkout version $versionName ..."
+  git tag | grep $versionName || exit 1
+  git checkout $( git tag | grep $versionName | tail -n 1 )
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
+      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
+      apt update && apt install gradle -y; \
+      gradle clean :wallet:assProdRel'
+      
+  # collect results
+  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
+  rm -rf $fromBuildUnpacked
+  apktool d -o $fromBuildUnpacked wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
+  echo "Results for
+appId: $appId
+apkVersionName: \"$versionName\"
+apkHash: $apkHash
+
+Diff:
+"
+  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
+  echo "
+
+Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
+}
+
+
+
 case "$appId" in
   "com.mycelium.wallet")
     testMycelium
     ;;
   "com.greenaddress.greenbits_android_wallet")
     testGreen
+    ;;
+  "de.schildbach.wallet")
+    testSchildbach
     ;;
   *)
     echo "Unknown appId $appId"
