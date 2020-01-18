@@ -23,6 +23,7 @@ if [ ! -f "$downloadedApp" ]; then
 fi
 
 rm -rf /tmp/fromPlayTmp
+echo "Extracting APK content ..."
 apktool d -o /tmp/fromPlayTmp "$downloadedApp" || exit 1
 appId=$( cat /tmp/fromPlayTmp/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionName | sed 's/.*\: //g' )
@@ -38,12 +39,12 @@ if [ -z $appId ]; then
 fi
 
 if [ -z $versionName ]; then
-  echo "versionName could not be tetermined"
+  echo "versionName could not be determined"
   exit 1
 fi
 
 if [ -z $versionCode ]; then
-  echo "versionCode could not be tetermined"
+  echo "versionCode could not be determined"
   exit 1
 fi
 
@@ -53,8 +54,8 @@ echo
 
 testMycelium() {
   echo "Testing Mycelium ..."
-  sudo umount /tmp/sorted
-  sudo rm -rf /tmp/sorted
+  
+  # preparation
   sudo rm -rf /tmp/testMycelium
   mkdir /tmp/testMycelium
   cd /tmp/testMycelium
@@ -66,11 +67,19 @@ testMycelium() {
   git submodule update --init --recursive || echo "ERROR: The submodule requires a GitHub account with public key configured. Cloning manually ..."
   git clone https://github.com/mycelium-com/wallet-android-modularization-tools.git
   git submodule update --init --recursive
+
+  # build
+  sudo umount /tmp/sorted
+  sudo rm -rf /tmp/sorted
   mkdir /tmp/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/sorted
   docker run --volume /tmp/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
       bash -c 'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;28.0.3" ; ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease'
-  apktool d -o fromBuild mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
+      
+  # collect results
+  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
+  rm -rf $fromBuildUnpacked
+  apktool d -o $fromBuildUnpacked mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
   echo "Results for
 appId: $appId
 apkVersionName: \"$versionName\"
@@ -78,14 +87,47 @@ apkHash: $apkHash
 
 Diff:
 "
-  diff --brief --recursive $fromPlayUnpacked fromBuild
+  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
   echo "
 
-Run a full diff --recursive or meld $fromPlayUnpacked ${PWD}/fromBuild for more details."
+Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
 testGreen() {
-  echo "TODO: Implement!"
+  echo "Testing Green Wallet ..."
+  
+  # preparation
+  sudo rm -rf /tmp/testGreen
+  mkdir /tmp/testGreen
+  cd /tmp/testGreen
+  git clone https://github.com/Blockstream/green_android/
+  cd green_android
+  echo "Trying to checkout version $versionName ..."
+  git tag | grep $versionName || exit 1
+  git checkout $( git tag | grep $versionName | tail -n 1 )
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c 'apt update; \
+      apt install -y curl; \
+      ./app/fetch_gdk_binaries.sh; \
+      yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
+      ./gradlew -x test clean assembleProductionRelease'
+      
+  # collect results
+  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
+  rm -rf $fromBuildUnpacked
+  apktool d -o $fromBuildUnpacked app/build/outputs/apk/production/release/app-production-release-unsigned.apk
+  echo "Results for
+appId: $appId
+apkVersionName: \"$versionName\"
+apkHash: $apkHash
+
+Diff:
+"
+  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
+  echo "
+
+Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
 case "$appId" in
