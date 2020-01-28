@@ -131,7 +131,7 @@ Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for mor
 }
 
 testSchildbach() {
-  echo "Testing Schildbach's Bitcoin Wallet ..."
+  echo "Testing Bitcoin Wallet (Schildbach) ..."
   
   # preparation
   sudo rm -rf /tmp/testSchildbach
