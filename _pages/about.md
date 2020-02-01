@@ -38,3 +38,7 @@ How many users are in each category?
 The following grid shows wallets by download count and category:
 
 {% include grid_of_wallets.html %}
+
+... and the same but with wallet icons scaled proportionally to downloads:
+
+{% include grid_of_wallets_proportional.html %}
