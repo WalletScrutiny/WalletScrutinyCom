@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: engineering.lightning.LightningMainnet
 launchDate: 
-latestUpdate: 2019-12-04
+latestUpdate: 2020-02-09
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -18,7 +18,7 @@ icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
 date: 2019-12-30
-reviewStale: false
+reviewStale: true
 reviewArchive:
 
 
