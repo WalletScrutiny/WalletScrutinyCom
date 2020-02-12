@@ -31,8 +31,9 @@
     "build:js": "npm run uglify"
   },
   "dependencies": {
+    "btcpay": "^0.2.4",
     "dateformat": "^3.0.3",
-    "google-play-scraper": "^7.1.1",
+    "google-play-scraper": "^7.1.2",
     "js-yaml": "^3.13.1",
     "sleep": "^6.1.0",
     "sync-request": "^6.1.0",

@@ -28,8 +28,6 @@ lightning Bitcoin wallets.
 var orderId = Math.random().toString(36).substring(7);
 
 function update() {
-  var aspect = document.getElementsByName('aspect')[0].value
-  document.getElementsByName('checkoutDesc')[0].value = "Donation WalletScrutiny - " + aspect
   var amount = document.getElementById('btcpay-input-price_7826565').value
   if (!amount.match(/^[\.0-9]+$/)) {
     var showAlert = 'block'
@@ -43,7 +41,7 @@ function update() {
 <form name="payForm" method="POST" action="https://pos.btcpay.nz/api/v1/invoices" class="btcpay-form btcpay-form--block" style="display:flex">
   <input type="hidden" name="storeId" value="7WhWPWK41yURwAUoY8SiAsrvVzkSXyndHfLJKX2aanAK" />
   <input type="hidden" name="orderId" value="" />
-  <input type="hidden" name="checkoutDesc" value="Donation WalletScrutiny - " />
+  <input type="hidden" name="checkoutDesc" value="Donation WalletScrutiny - Any" />
   <input type="hidden" name="serverIpn" value="https://walletscrutiny.com/invoiceCB">
   <input type="hidden" name="browserRedirect" value="https://walletscrutiny.com/thanks/">
   <div>
@@ -58,16 +56,16 @@ function update() {
       </select>
     </div>
     <div id="enterAmount" style="color:red;text-align:center">(please enter amount)</div>
-    <select name="aspect" onChange="update()">
+    <select name="aspect" onChange="document.getElementsByName('checkoutDesc')[0].value = 'Donation WalletScrutiny - ' + this.value">
       <option value="Any" selected>Select aspect you want to support with your donation!</option>
-      <option value="Wallets">More Android Wallets</option>
-      <option value="FastUpdates">More frequent updates</option>
-      <option value="Ads">Run Ad campaigns</option>
-      <option value="OS">More operating systems (iPhone, Windows, Mac)</option>
-      <option value="CodeReview">Actual code reviews</option>
-      <option value="Coins">Non-Bitcoin wallets</option>
+      <option value="MoreWallets">More Android Wallets</option>
+      <option value="FrequentUpdates">More frequent updates</option>
+      <option value="AdCampaign">Run Ad campaigns</option>
+      <option value="MoreOS">More operating systems (iPhone, Windows, Mac)</option>
+      <option value="CodeReviews">Actual code reviews</option>
+      <option value="NonBitcoinWallets">Non-Bitcoin wallets</option>
       <option value="Alerts">Alerts when issues are found</option>
-      <option value="OtherApps">Non-Wallet apps</option>
+      <option value="NonWalletApps">Non-Wallet apps</option>
     </select>
   </div>
   <input type="image" class="submit" name="submit" src="https://pos.btcpay.nz/img/paybutton/pay.svg" style="width:209px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
@@ -76,3 +74,5 @@ function update() {
 The above donation form only allows anonymous donations. If you want to sponsor
 the project or wan personal recognition for your contribution, please
 contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>, [GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom) or [Reddit](https://www.reddit.com/r/WalletScrutiny/).
+
+{% include donationSummary.html %}
