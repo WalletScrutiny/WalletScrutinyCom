@@ -25,8 +25,6 @@ If you like what we are doing, you can donate below using traditional or
 lightning Bitcoin wallets.
 
 <script type="text/javascript">
-var orderId = Math.random().toString(36).substring(7);
-
 function update() {
   var amount = document.getElementById('btcpay-input-price_7826565').value
   if (!amount.match(/^[\.0-9]+$/)) {
@@ -37,7 +35,6 @@ function update() {
   document.getElementById('enterAmount').style.display = showAlert
 }
 </script>
-
 <form name="payForm" method="POST" action="https://pos.btcpay.nz/api/v1/invoices" class="btcpay-form btcpay-form--block" style="display:flex">
   <input type="hidden" name="storeId" value="7WhWPWK41yURwAUoY8SiAsrvVzkSXyndHfLJKX2aanAK" />
   <input type="hidden" name="orderId" value="" />
@@ -72,7 +69,9 @@ function update() {
 </form>
 
 The above donation form only allows anonymous donations. If you want to sponsor
-the project or wan personal recognition for your contribution, please
-contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>, [GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom) or [Reddit](https://www.reddit.com/r/WalletScrutiny/).
+the project or want personal recognition for your contribution, please
+contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>,
+[GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom) or
+[Reddit](https://www.reddit.com/r/WalletScrutiny/).
 
 {% include donationSummary.html %}
