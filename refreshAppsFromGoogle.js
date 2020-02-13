@@ -23,7 +23,6 @@ fs.readdir(postsFolder, function (err, files) {
     process.exit(1);
   }
   files.forEach(function (file, index) {
-    sleep(1)
     const postPath = path.join(postsFolder, file)
     var parts = fs.readFileSync(postPath, 'utf8').split("---")
     const headerStr = parts[1]
@@ -66,7 +65,9 @@ fs.readdir(postsFolder, function (err, files) {
           });
         });
       });
-    }, console.log);
+    }, function(err){
+      console.error(`Error with appId ${appId}: ${err}`)
+    });
   })
 })
 
