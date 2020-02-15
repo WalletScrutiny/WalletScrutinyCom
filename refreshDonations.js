@@ -56,9 +56,7 @@ function getCategory(itemDesc) {
 function getAmount(invoice) {
   var btc = 0
   invoice.cryptoInfo.forEach(ci =>
-    ci.payments.forEach(payment =>
-      btc += Number(payment.value)
-    )
+    btc += Number(ci.cryptoPaid)
   )
   return btc
 }
