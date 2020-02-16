@@ -67,13 +67,13 @@ testMycelium() {
   git submodule update --init --recursive || echo "ERROR: The submodule requires a GitHub account with public key configured. Cloning manually ..."
   git clone https://github.com/mycelium-com/wallet-android-modularization-tools.git
   git submodule update --init --recursive
-
+  
   # build
-  sudo umount /tmp/sorted
-  sudo rm -rf /tmp/sorted
-  mkdir /tmp/sorted
-  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/sorted
-  docker run --volume /tmp/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
+  sudo umount /tmp/testMycelium/sorted
+  sudo rm -rf /tmp/testMycelium/sorted
+  mkdir /tmp/testMycelium/sorted
+  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/testMycelium/sorted
+  docker run --volume /tmp/testMycelium/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
       bash -c 'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;28.0.3" ; ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease'
       
   # collect results
