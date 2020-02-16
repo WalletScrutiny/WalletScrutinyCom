@@ -166,7 +166,15 @@ Diff:
 Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
+testAirgapVault() {
+  echo "not implemented yet"
+  exit 1
+}
 
+testUnstoppable() {
+  echo "not implemented yet"
+  exit 1
+}
 
 case "$appId" in
   "com.mycelium.wallet")
@@ -177,6 +185,12 @@ case "$appId" in
     ;;
   "de.schildbach.wallet")
     testSchildbach
+    ;;
+  "it.airgap.vault")
+    testAirgapVault
+    ;;
+  "io.horizontalsystems.bankwallet")
+    testUnstoppable
     ;;
   *)
     echo "Unknown appId $appId"
