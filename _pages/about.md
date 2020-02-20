@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Is your wallet secure?"
+title: "Is your Bitcoin wallet secure?"
 excerpt: "Many wallets are not open to public scrutiny"
 author_profile: true
 redirect_from:
@@ -9,17 +9,14 @@ redirect_from:
 ---
 
 
-![hacker](/images/hacker.jpg)
-
 **Wallet Scrutiny** is a project aimed at improving the security of
 Android Bitcoin Wallets.
 
 
-What protects your Bitcoins?
+What protects your Bitcoins from Hackers?
 ============================
 
-![digital fortress by driver Photographer https://www.flickr.com/photos/72334647@N03/44546614212/in/photostream/](/images/fortress.jpg)
-
+<img src="/images/hacker.jpg" alt="hacker" style="height:10em;float:left;margin:0 1em 1em 0" />
 Do you own your Bitcoins or do you trust that your app allows you to use "your"
 coins while they are actually controlled by "them"? Do you have a backup? Do
 "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate backdoors
@@ -29,6 +26,9 @@ We try to answer these questions for Bitcoin wallets on Android.
 
 Read about [our methodology](/methodology/) to understand in more detail or just
 see what we have to say about your wallet:
+
+All wallets ordered by verifiability and downloads on Google Play
+=================================================================
 
 {% include list_of_wallets.html %}
 

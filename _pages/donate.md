@@ -53,7 +53,7 @@ function update() {
   <input type="hidden" name="storeId" value="7WhWPWK41yURwAUoY8SiAsrvVzkSXyndHfLJKX2aanAK" />
   <input type="hidden" name="orderId" value="" />
   <input type="hidden" name="checkoutDesc" value="Donation WalletScrutiny - Any" />
-  <input type="hidden" name="serverIpn" value="https://walletscrutiny.com/invoiceCB">
+  <!-- input type="hidden" name="serverIpn" value="https://walletscrutiny.com/invoiceCB" -->
   <input type="hidden" name="browserRedirect" value="https://walletscrutiny.com/thanks/">
   <div>
     <p>Please select aspect you want to support with your donation!:</p>
