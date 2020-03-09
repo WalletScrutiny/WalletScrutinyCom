@@ -17,6 +17,9 @@
   {% when "fewusers" %}
     {% assign vLabel   = 'Few&nbsp;users' %}
     {% assign vTooltip = 'This app has too few users for now to be reviewed in detail.' %}
+  {% when "defunct" %}
+    {% assign vLabel   = 'Defunct' %}
+    {% assign vTooltip = 'This app went out of business.' %}
   {% when "custodial" %}
     {% assign vLabel   = 'Custodial!' %}
     {% assign vTooltip = 'As the provider of this app holds the users coins,
