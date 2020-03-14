@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
-latestUpdate: 2020-03-03
-apkVersionName: "20.3.3"
+latestUpdate: 2020-03-12
+apkVersionName: "20.3.12"
 stars: 4.7
-ratings: 5454
-reviews: 2036
+ratings: 5620
+reviews: 2096
 size: 34M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
 date: 2019-12-20
 reviewStale: true
 reviewArchive:
