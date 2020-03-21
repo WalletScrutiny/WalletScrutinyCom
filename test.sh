@@ -172,8 +172,37 @@ testAirgapVault() {
 }
 
 testUnstoppable() {
-  echo "not implemented yet"
-  exit 1
+  echo "Testing Unstoppable Wallet"
+  
+  # preparation
+  sudo rm -rf /tmp/testUnstoppable
+  mkdir /tmp/testUnstoppable
+  cd /tmp/testUnstoppable
+  git clone https://github.com/horizontalsystems/unstoppable-wallet-android
+  cd unstoppable-wallet-android
+  echo "Trying to checkout version $versionName ..."
+  git tag | grep $versionName || exit 1
+  git checkout $( git tag | grep $versionName | tail -n 1 )
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
+      './gradlew clean :app:assembleProductionMainnetRelease'
+      
+  # collect results
+  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
+  rm -rf $fromBuildUnpacked
+  apktool d -o $fromBuildUnpacked wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
+  echo "Results for
+appId: $appId
+apkVersionName: \"$versionName\"
+apkHash: $apkHash
+
+Diff:
+"
+  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
+  echo "
+
+Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
 case "$appId" in
