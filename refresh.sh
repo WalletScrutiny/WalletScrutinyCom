@@ -1,8 +1,7 @@
 #!/bin/sh
 
 # run this using Docker:
-# docker run -it -v$PWD:/mnt node bash /mnt/getInfoForAppId.sh com.company1.wallet com.company2.wallet
-
+# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY -n "com.binance.dev"
 
 while getopts k:n:s: option
 do
