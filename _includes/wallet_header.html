@@ -18,7 +18,8 @@ has more than {{ page.users }} downloads{%
 {% endif %}
 and
 the latest APK (version {{ page.apkVersionName }})
-was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{% if page.reviewStale %}<font color="red">
+was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{%
+  if page.reviewStale and page.verdict == "verifiable" %}<font color="red">
 and is newer than the below reviewed version of the app</font>{% endif %}.</p>
 
 <p>Our analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
