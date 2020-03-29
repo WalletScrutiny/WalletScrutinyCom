@@ -43,31 +43,33 @@ fs.readdir(postsFolder, function (err, files) {
         }
       })
     }
-    gplay.app({appId: appId}).then(function(app){
-      const iconPath = `images/wallet_icons/${appId}`
-      const iconFile = fs.createWriteStream(iconPath)
-      const request = https.get(app.icon, function(response) {
-        response.pipe(iconFile)
-        response.on('end', function() {
-          const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
-            const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
-            if (mimetype == "image/png") {
-              iconExtension = "png"
-            } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
-              iconExtension = "jpg"
-            } else {
-              throw Error(`wrong mime type ${mimetype}`)
-            }
-            writeResult(app, header, iconExtension, body)
-            fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
-              if ( err ) console.log('ERROR: ' + err);
-            })
+    if (header.verdict != "defunct") {
+      gplay.app({appId: appId, throttle: 5}).then(function(app){
+        const iconPath = `images/wallet_icons/${appId}`
+        const iconFile = fs.createWriteStream(iconPath)
+        const request = https.get(app.icon, function(response) {
+          response.pipe(iconFile)
+          response.on('end', function() {
+            const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {
+              const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
+              if (mimetype == "image/png") {
+                iconExtension = "png"
+              } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
+                iconExtension = "jpg"
+              } else {
+                throw Error(`wrong mime type ${mimetype}`)
+              }
+              writeResult(app, header, iconExtension, body)
+              fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
+                if ( err ) console.log('ERROR: ' + err);
+              })
+            });
           });
         });
+      }, function(err){
+        console.error(`Error with appId ${appId}: ${err}`)
       });
-    }, function(err){
-      console.error(`Error with appId ${appId}: ${err}`)
-    });
+    }
   })
 })
 
