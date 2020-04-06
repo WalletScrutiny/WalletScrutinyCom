@@ -18,10 +18,10 @@ const sum = {
 }
 
 client.get_invoices({status: "complete"}).then( invoices => {
-  const newTen = invoices.slice(0, 10)
-  file.write(`<h3>10 most recent donations</h3>\n<table>`)
+  const historyCount = 20
+  file.write(`<h3>${historyCount} most recent donations</h3>\n<table>`)
   file.write(`<tr><th>Date</th><th>Amount</th><th>Category</th></tr>\n`)
-  newTen.forEach(invoice => {
+  invoices.slice(0, historyCount).forEach(invoice => {
     file.write(`<tr><td>${new Date(invoice.invoiceTime).toLocaleDateString()}</td><td>${getPrettyAmount(getAmount(invoice))}</td><td>${getCategory(invoice.itemDesc)}</td></tr>\n`)
   })
   file.write(`<tr><td>...</td><td>...</td><td>...</td></tr>\n</table>\n`)
