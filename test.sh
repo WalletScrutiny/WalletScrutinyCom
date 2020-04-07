@@ -139,9 +139,9 @@ testSchildbach() {
   cd /tmp/testSchildbach
   git clone https://github.com/bitcoin-wallet/bitcoin-wallet
   cd bitcoin-wallet
-  echo "Trying to checkout version $versionName ..."
+  echo "Trying to checkout version $versionName assuming tag v$versionName ..."
   git tag | grep $versionName || exit 1
-  git checkout $( git tag | grep $versionName | tail -n 1 )
+  git checkout v$versionName
 
   # build
   docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
