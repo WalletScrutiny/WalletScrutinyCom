@@ -16,7 +16,7 @@
         {% assign total = 0 %}
         {% for post in site.posts %}
           {% if post.verdict == v %}
-            {% assign total = total | plus: post.users %}
+            {% assign total = total | plus: 1 %}
           {% endif %}
         {% endfor %}
         <td>
