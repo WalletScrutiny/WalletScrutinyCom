@@ -167,8 +167,43 @@ Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for mor
 }
 
 testAirgapVault() {
-  echo "not implemented yet"
-  exit 1
+  name=AirGapVault
+  repo=https://github.com/airgap-it/airgap-vault
+  echo "Testing $name ..."
+  
+  # preparation
+  sudo rm -rf /tmp/test$name
+  mkdir /tmp/test$name
+  cd /tmp/test$name
+  git clone $repo $name
+  cd $name
+  echo "Trying to checkout version $versionName assuming tag v$versionName ..."
+  git tag | grep $versionName || exit 1
+  git checkout v$versionName
+
+  sed -i -e "s/version=\"0.0.0\"/version=\"$versionName\"/g" config.xml
+  docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
+  docker run --name "airgap-vault-build" airgap-vault echo "container ran."
+  docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
+  docker rmi airgap-vault-build -f
+  docker image prune -f
+  apktool d -o fromBuild airgap-vault-release-unsigned.apk
+  diff --brief --recursive from*
+  
+  # collect results
+  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
+  rm -rf $fromBuildUnpacked
+  apktool d -o $fromBuildUnpacked fromBuild airgap-vault-release-unsigned.apk
+  echo "Results for
+appId: $appId
+apkVersionName: \"$versionName\"
+apkHash: $apkHash
+
+Diff:
+
+$( diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked )
+
+Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
 testUnstoppable() {
