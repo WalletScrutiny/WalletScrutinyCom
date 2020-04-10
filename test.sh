@@ -10,9 +10,9 @@ SYNOPSIS
        test.sh downloadedApp
 
 DESCRIPTION
-       This command runs what we know to have verified a build before.
+       This command tries to verify builds of apps that we verified before.
        
-       downloadedApp  The app we try to verify'
+       downloadedApp  The apk file we want to test.'
 }
 
 if [ ! -f "$downloadedApp" ]; then
@@ -22,16 +22,17 @@ if [ ! -f "$downloadedApp" ]; then
   exit 1
 fi
 
-rm -rf /tmp/fromPlayTmp
-echo "Extracting APK content ..."
-apktool d -o /tmp/fromPlayTmp "$downloadedApp" || exit 1
-appId=$( cat /tmp/fromPlayTmp/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
-versionName=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
-versionCode=$( cat /tmp/fromPlayTmp/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
 apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
+fromPlayFolder=/tmp/fromPlay$apkHash
+rm -rf $fromPlayFolder
+echo "Extracting APK content ..."
+apktool d -o $fromPlayFolder "$downloadedApp" || exit 1
+appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
+versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
+versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
 fromPlayUnpacked=/tmp/fromPlay_"$appId"_"$versionCode"
 rm -rf $fromPlayUnpacked
-mv /tmp/fromPlayTmp $fromPlayUnpacked
+mv $fromPlayFolder $fromPlayUnpacked
 
 if [ -z $appId ]; then
   echo "appId could not be tetermined"
@@ -52,152 +53,30 @@ echo
 echo "Testing \"$downloadedApp\" ($appId version $versionName)"
 echo
 
-testMycelium() {
-  echo "Testing Mycelium ..."
-  
-  # preparation
-  sudo rm -rf /tmp/testMycelium
-  mkdir /tmp/testMycelium
-  cd /tmp/testMycelium
-  git clone https://github.com/mycelium-com/wallet-android
-  cd wallet-android
-  echo "Trying to checkout version $versionName ..."
-  git tag | grep $versionName || exit 1
-  git checkout $( git tag | grep $versionName | tail -n 1 )
-  git submodule update --init --recursive || echo "ERROR: The submodule requires a GitHub account with public key configured. Cloning manually ..."
-  git clone https://github.com/mycelium-com/wallet-android-modularization-tools.git
-  git submodule update --init --recursive
-  
-  # build
-  sudo umount /tmp/testMycelium/sorted
-  sudo rm -rf /tmp/testMycelium/sorted
-  mkdir /tmp/testMycelium/sorted
-  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/testMycelium/sorted
-  docker run --volume /tmp/testMycelium/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
-      bash -c 'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;28.0.3" ; ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease'
-      
-  # collect results
-  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
-  rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
-  echo "Results for
-appId: $appId
-apkVersionName: \"$versionName\"
-apkHash: $apkHash
-
-Diff:
-"
-  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
-  echo "
-
-Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
+prepare() {
+  echo "Testing $appId from $repo revision $tag ..."
+  # cleanup
+  sudo rm -rf /tmp/test$appId
+  # get uinque folder
+  mkdir /tmp/test$appId
+  cd /tmp/test$appId
+  # clone
+  git clone $repo app
+  cd app
+  echo "Trying to checkout version $tag ..."
+  git checkout $tag || exit 1
 }
 
-testGreen() {
-  echo "Testing Green Wallet ..."
-  
-  # preparation
-  sudo rm -rf /tmp/testGreen
-  mkdir /tmp/testGreen
-  cd /tmp/testGreen
-  git clone https://github.com/Blockstream/green_android/
-  cd green_android
-  echo "Trying to checkout version $versionName ..."
-  git tag | grep $versionName || exit 1
-  git checkout $( git tag | grep $versionName | tail -n 1 )
-
-  # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c 'apt update; \
-      apt install -y curl; \
-      ./app/fetch_gdk_binaries.sh; \
-      yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      ./gradlew -x test clean assembleProductionRelease'
-      
+result() {
   # collect results
   fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
   rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked app/build/outputs/apk/production/release/app-production-release-unsigned.apk
-  echo "Results for
-appId: $appId
-apkVersionName: \"$versionName\"
-apkHash: $apkHash
-
-Diff:
-"
-  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
-  echo "
-
-Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
-}
-
-testSchildbach() {
-  echo "Testing Bitcoin Wallet (Schildbach) ..."
-  
-  # preparation
-  sudo rm -rf /tmp/testSchildbach
-  mkdir /tmp/testSchildbach
-  cd /tmp/testSchildbach
-  git clone https://github.com/bitcoin-wallet/bitcoin-wallet
-  cd bitcoin-wallet
-  echo "Trying to checkout version $versionName assuming tag v$versionName ..."
-  git tag | grep $versionName || exit 1
-  git checkout v$versionName
-
-  # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
-      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      apt update && apt install gradle -y; \
-      gradle clean :wallet:assProdRel'
-      
-  # collect results
-  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
-  rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
-  echo "Results for
-appId: $appId
-apkVersionName: \"$versionName\"
-apkHash: $apkHash
-
-Diff:
-"
-  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
-  echo "
-
-Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
-}
-
-testAirgapVault() {
-  name=AirGapVault
-  repo=https://github.com/airgap-it/airgap-vault
-  echo "Testing $name ..."
-  
-  # preparation
-  sudo rm -rf /tmp/test$name
-  mkdir /tmp/test$name
-  cd /tmp/test$name
-  git clone $repo $name
-  cd $name
-  echo "Trying to checkout version $versionName assuming tag v$versionName ..."
-  git tag | grep $versionName || exit 1
-  git checkout v$versionName
-
-  sed -i -e "s/version=\"0.0.0\"/version=\"$versionName\"/g" config.xml
-  docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
-  docker run --name "airgap-vault-build" airgap-vault echo "container ran."
-  docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
-  docker rmi airgap-vault-build -f
-  docker image prune -f
-  apktool d -o fromBuild airgap-vault-release-unsigned.apk
-  diff --brief --recursive from*
-  
-  # collect results
-  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
-  rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked fromBuild airgap-vault-release-unsigned.apk
-  echo "Results for
-appId: $appId
-apkVersionName: \"$versionName\"
-apkHash: $apkHash
+  apktool d -o $fromBuildUnpacked $builtApk
+  echo "Results for $appName
+appId:          $appId
+apkVersionName: $versionName
+apkVersionCode: $versionCode
+apkHash:        $apkHash
 
 Diff:
 
@@ -206,38 +85,93 @@ $( diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked )
 Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
 }
 
-testUnstoppable() {
-  echo "Testing Unstoppable Wallet"
+testMycelium() {
+  repo=https://github.com/mycelium-com/wallet-android
+  tag=v$versionName
+  builtApk=mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
+
+  prepare
+
+  git submodule update --init --recursive || echo "ERROR: The submodule requires a GitHub account with public key configured. Cloning manually ..."
+  git clone https://github.com/mycelium-com/wallet-android-modularization-tools.git
+  git submodule update --init --recursive
   
-  # preparation
-  sudo rm -rf /tmp/testUnstoppable
-  mkdir /tmp/testUnstoppable
-  cd /tmp/testUnstoppable
-  git clone https://github.com/horizontalsystems/unstoppable-wallet-android
-  cd unstoppable-wallet-android
-  echo "Trying to checkout version $versionName ..."
-  git tag | grep $versionName || exit 1
-  git checkout $( git tag | grep $versionName | tail -n 1 )
+  # build
+  sudo umount /tmp/test$appId/sorted
+  sudo rm -rf /tmp/test$appId/sorted
+  mkdir /tmp/test$appId/sorted
+  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/test$appId/sorted
+  docker run --volume /tmp/test$appId/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
+      bash -c 'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;28.0.3" ; ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease'
+
+  result
+}
+
+testGreen() {
+  repo=https://github.com/Blockstream/green_android/
+  tag=release_$versionName
+  builtApk=app/build/outputs/apk/production/release/app-production-release-unsigned.apk
+  
+  prepare
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c 'apt update; \
+      apt install -y curl; \
+      ./app/fetch_gdk_binaries.sh; \
+      yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
+      ./gradlew -x test clean assembleProductionRelease'
+      
+  result
+}
+
+testSchildbach() {
+  repo=https://github.com/bitcoin-wallet/bitcoin-wallet
+  tag=v$versionName
+  builtApk=wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
+  
+  prepare
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
+      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
+      apt update && apt install gradle -y; \
+      gradle clean :wallet:assProdRel'
+      
+  result
+}
+
+testAirgapVault() {
+  repo=https://github.com/airgap-it/airgap-vault
+  tag=v$versionName
+  builtApk=airgap-vault-release-unsigned.apk
+  
+  prepare
+
+  # build
+  sed -i -e "s/version=\"0.0.0\"/version=\"$versionName\"/g" config.xml
+  docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
+  docker run --name "airgap-vault-build" airgap-vault echo "container ran."
+  docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
+  docker rmi airgap-vault-build -f
+  docker image prune -f
+  apktool d -o fromBuild airgap-vault-release-unsigned.apk
+  
+  result
+}
+
+testUnstoppable() {
+  repo=https://github.com/horizontalsystems/unstoppable-wallet-android
+  tag=$versionName
+  builtApk=wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
+  
+  prepare
 
   # build
   docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
       './gradlew clean :app:assembleProductionMainnetRelease'
       
   # collect results
-  fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
-  rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
-  echo "Results for
-appId: $appId
-apkVersionName: \"$versionName\"
-apkHash: $apkHash
-
-Diff:
-"
-  diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked
-  echo "
-
-Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
+  result
 }
 
 case "$appId" in
