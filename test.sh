@@ -153,6 +153,7 @@ testAirgapVault() {
   docker run --name "airgap-vault-build" airgap-vault echo "container ran."
   docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
   docker rmi airgap-vault-build -f
+  docker rmi airgap-vault -f
   docker image prune -f
   apktool d -o fromBuild airgap-vault-release-unsigned.apk
   
