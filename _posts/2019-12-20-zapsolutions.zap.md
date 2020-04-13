@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: zapsolutions.zap
 launchDate: 
-latestUpdate: 2019-12-02
+latestUpdate: 2020-04-07
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -18,7 +18,7 @@ icon: zapsolutions.zap.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
 date: 2019-12-30
-reviewStale: false
+reviewStale: true
 reviewArchive:
 
 
