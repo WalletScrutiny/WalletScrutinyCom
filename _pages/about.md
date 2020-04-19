@@ -24,8 +24,14 @@ or vulnerabilities? Could anybody check the wallet for those?
 
 We try to answer these questions for Bitcoin wallets on Android.
 
-Read about [our methodology](/methodology/) to understand in more detail or just
-see what we have to say about your wallet:
+Read about [our methodology](/methodology/) to understand in more detail.
+
+As featured on ...
+==================
+
+<a href="https://www.unhashedpodcast.com/episodes/2020/4/15/ep-81-that-episode-with-leo-wandersleb-in-it">
+  <img src="/images/unhashed-logo.jpg" alt="unhashed podcast" style="height:10em" />
+</a>
 
 All wallets ordered by verifiability and downloads on Google Play
 =================================================================
