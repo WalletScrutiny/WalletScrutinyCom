@@ -88,3 +88,7 @@ contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>,
 [Reddit](https://www.reddit.com/r/WalletScrutiny/).
 
 {% include donationSummary.html %}
+
+(Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in
+BtcPay-Server, at least 5mBTC of more recent donations are missing from the list
+above. Sorry for that.)

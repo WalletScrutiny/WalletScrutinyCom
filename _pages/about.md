@@ -30,7 +30,10 @@ As featured on ...
 ==================
 
 <a href="https://www.unhashedpodcast.com/episodes/2020/4/15/ep-81-that-episode-with-leo-wandersleb-in-it">
-  <img src="/images/unhashed-logo.jpg" alt="unhashed podcast" style="height:10em" />
+  <img src="/images/unhashed-logo.jpg" alt="unhashed podcast" style="height:10em;border:dotted black 1px" />
+</a>
+<a href="https://www.youtube.com/watch?v=CuohgbKo-3U">
+  <img src="/images/BSatoshi21.png" alt="Munich Bitcoin Meetup" style="height:10em;border:dotted black 1px" />
 </a>
 
 All wallets ordered by verifiability and downloads on Google Play
