@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
-latestUpdate: 2020-04-14
-apkVersionName: "20.4.14"
+latestUpdate: 2020-04-23
+apkVersionName: "20.4.23"
 stars: 4.7
-ratings: 7295
-reviews: 2632
+ratings: 7505
+reviews: 2704
 size: 35M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
