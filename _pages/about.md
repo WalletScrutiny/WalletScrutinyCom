@@ -36,8 +36,8 @@ As featured on ...
   <img src="/images/BSatoshi21.png" alt="Munich Bitcoin Meetup" style="height:10em;border:dotted black 1px" />
 </a>
 
-All wallets ordered by verifiability and downloads on Google Play
-=================================================================
+All wallets ordered by verifiability, downloads and ratings
+===========================================================
 
 {% include list_of_wallets.html %}
 

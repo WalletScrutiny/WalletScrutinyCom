@@ -1,7 +1,7 @@
 {% include base_path %}
 
-{% assign posts_by_users = site.posts | sort: "users" | reverse %}
-
+{% assign posts_by_ratings = site.posts | sort: "ratings" | reverse %}
+{% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
 {% assign verdicts = "verifiable,nonverifiable,nosource,custodial" | split: "," %}
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
@@ -17,10 +17,13 @@
     {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
     {% else %}                 {% assign verdictLabel = "???" %}
   {% endcase %}
-  {% assign thisVerdictPosts = posts_by_users | where: "verdict", verdict %}
-  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }} ({{ thisVerdictPosts.size }})</div>
-  {% for post in thisVerdictPosts %}
-    {% include list_of_wallets_sidebar_item.html %}
+  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }}</div>
+  {% assign verdictPosts = posts_by_ratings | where: "verdict", verdict %}
+  {% for d in downloads %}
+    {% assign downloadsPosts = verdictPosts | where: "users", d %}
+    {% for post in downloadsPosts %}
+      {% include list_of_wallets_sidebar_item.html %}
+    {% endfor %}
   {% endfor %}
 {% endfor %}
 </div>
