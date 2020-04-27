@@ -98,6 +98,7 @@ testMycelium() {
   
   # build
   sudo umount /tmp/test$appId/sorted
+  sync
   sudo rm -rf /tmp/test$appId/sorted
   mkdir /tmp/test$appId/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/test$appId/sorted
