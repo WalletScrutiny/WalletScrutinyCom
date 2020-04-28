@@ -35,6 +35,9 @@ As featured on ...
 <a href="https://www.youtube.com/watch?v=CuohgbKo-3U">
   <img src="/images/BSatoshi21.png" alt="Munich Bitcoin Meetup" style="height:10em;border:dotted black 1px" />
 </a>
+<a href="https://coinspondent.de/2020/04/18/honigdachs-51-das-ende-ist-nahe/">
+  <img src="/images/honeybadger.png" alt="Honigdachs" style="height:10em;border:dotted black 1px" />
+</a>
 
 All wallets ordered by verifiability, downloads and ratings
 ===========================================================
