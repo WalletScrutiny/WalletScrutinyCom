@@ -13,7 +13,7 @@ do
   esac
 done
 
-echo "Running with parameters key=$btcPayKey and newApps=$apps and skipGP=$skipGP."
+echo "Running with parameters newApps=$apps and skipGP=$skipGP."
 echo "adding wallets from command line parameters: $apps"
 
 echo "installing missing stuff"
