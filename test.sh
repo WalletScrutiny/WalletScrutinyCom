@@ -79,10 +79,12 @@ apkVersionCode: $versionCode
 apkHash:        $apkHash
 
 Diff:
-
 $( diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked )
 
-Run a full diff --recursive or meld $fromPlayUnpacked $fromBuildUnpacked for more details."
+Run a full
+diff --recursive $fromPlayUnpacked $fromBuildUnpacked
+meld $fromPlayUnpacked $fromBuildUnpacked
+for more details."
 }
 
 testMycelium() {
