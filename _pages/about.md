@@ -41,6 +41,9 @@ As featured on ...
 <a href="https://www.youtube.com/watch?v=hxmkdlAYfP0?t=3223">
   <img src="/images/DeBitcoinShow.jpg" alt="De Bitcoin Show" style="height:10em;border:dotted black 1px" />
 </a>
+<a href="https://bitcoin-takeover.com/s5-e2-leo-wandersleb-on-walletscrutiny-why-samourai-isnt-that-great/">
+  <img src="/images/BitcoinTakeoverPodcasts05e02.png" alt="Bitcoin Takeover Podcast" style="height:10em;border:dotted black 1px" />
+</a>
 
 All wallets ordered by verifiability, downloads and ratings
 ===========================================================
