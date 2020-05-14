@@ -29,30 +29,14 @@ Read about [our methodology](/methodology/) to understand in more detail.
 As featured on ...
 ==================
 
-<a href="https://www.unhashedpodcast.com/episodes/2020/4/15/ep-81-that-episode-with-leo-wandersleb-in-it">
-  <img src="/images/press/unhashed-logo.jpg" alt="unhashed podcast" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://www.youtube.com/watch?v=CuohgbKo-3U">
-  <img src="/images/press/BSatoshi21.png" alt="Munich Bitcoin Meetup" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://coinspondent.de/2020/04/18/honigdachs-51-das-ende-ist-nahe/">
-  <img src="/images/press/honeybadger.png" alt="Honigdachs" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://www.youtube.com/watch?v=hxmkdlAYfP0?t=3223">
-  <img src="/images/press/DeBitcoinShow.jpg" alt="De Bitcoin Show" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://bitcoin-takeover.com/s5-e2-leo-wandersleb-on-walletscrutiny-why-samourai-isnt-that-great/">
-  <img src="/images/press/BitcoinTakeoverPodcasts05e02.png" alt="Bitcoin Takeover Podcast" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://anchor.fm/thehoneybadgerdiaries/episodes/Episode-33-Leo-Wandersleb--Via-del-Mar-Chile-eds331">
-  <img src="/images/press/THBD.jpg" alt="The Honey Badger Diaries" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://www.criptonoticias.com/podcasts/leo-wandersleb-seguridad-carteras-mejorara-usuarios/">
-  <img src="/images/press/EnConsenso.png" alt="Cryto Noticias - En Consenso - por Elena Cazes" style="height:10em;border:dotted black 1px" />
-</a>
-<a href="https://bitcoinundco.com/en/leo-wandersleb">
-  <img src="/images/press/AnitaPosch.jpg" alt="Bitcoin und Co. With Anita Posch: Leo Wandersleb. Bitcoin Wallet Security to Avoid Exit Scams" style="height:10em;border:dotted black 1px" />
-</a>
+{% for p in site.press
+  %}<a href="{{ p.link }}"
+    title="{{ p.platform }}{{ p.publicationName }}"><img
+      src="/images/press/{{ p.image }}"
+      alt="{{ p.platform }}{{ p.publicationName }}"
+      title="{{ p.platform }}{{ p.publicationName }}"
+      style="height:10em;border:dotted black 1px;margin:0.2em" /></a>{%
+endfor %}
 
 All wallets ordered by verifiability, downloads and ratings
 ===========================================================

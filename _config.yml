@@ -176,6 +176,7 @@ kramdown:
 
 # Collections
 collections:
+  press:
   teaching:
     output: false
     permalink: /:collection/:path/
