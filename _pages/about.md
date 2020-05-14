@@ -50,6 +50,9 @@ As featured on ...
 <a href="https://www.criptonoticias.com/podcasts/leo-wandersleb-seguridad-carteras-mejorara-usuarios/">
   <img src="/images/press/EnConsenso.png" alt="Cryto Noticias - En Consenso - por Elena Cazes" style="height:10em;border:dotted black 1px" />
 </a>
+<a href="https://bitcoinundco.com/en/leo-wandersleb">
+  <img src="/images/press/AnitaPosch.jpg" alt="Bitcoin und Co. With Anita Posch: Leo Wandersleb. Bitcoin Wallet Security to Avoid Exit Scams" style="height:10em;border:dotted black 1px" />
+</a>
 
 All wallets ordered by verifiability, downloads and ratings
 ===========================================================
