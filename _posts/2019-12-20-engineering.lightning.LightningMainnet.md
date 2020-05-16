@@ -107,4 +107,4 @@ build verification will be fully automated as it needs to be reevaluated after
 each release.
 
 So for now we hope for better build instructions so we can soon give it another
-try and conclude this app is probably open source but **not verifiable**.
+try and conclude this provider probably shares the source but it's **not verifiable**.

@@ -29,7 +29,7 @@
     something.</p>
   {% when "custodial" %}
     <p><strong>Not verifiable</strong>: Custodial</p>
-    <p>This verdict means that the app might or might not be open source and maybe
+    <p>This verdict means that the app might or might not publish source code and maybe
     it is even possible to reproduce the build from the source code but as it is
     custodial, the provider already has exclusive control over the funds, so it
     is not a wallet where you would be in sole control of your funds.</p>
@@ -50,14 +50,14 @@
     <p>This appears to not be an app to send and receive bitcoins. We will
     probably remove this app from the project.</p>
   {% when "nosource" %}
-    <p><strong>Not verifiable</strong>: No Open Source Code found</p>
+    <p><strong>Not verifiable</strong>: No Source Code found</p>
     <p>This verdict means that we could not find any source to compile the app from.
     Internally the company might do everything right but as we can't verify it,
     there is nothing protecting the user from an exit-scam where the provider
     releases an app that leaks the keys to the servers.</p>
     {{ notVerifiable }}
   {% when "nonverifiable" %}
-    <p><strong>Not verifiable</strong>: The provided Open Source Code could not
+    <p><strong>Not verifiable</strong>: The provided Source Code could not
     be verified to match the app released on Google Play</p>
     <p>This verdict means that the provider did share some source code but that we
     could not verify that this source code matches the released app. This might
@@ -73,7 +73,7 @@
     verifiability issues.</p>
     {{ notVerifiable }}
   {% when "verifiable" %}
-    <p><strong>Verifiable</strong>: The provided Open Source Code matches the
+    <p><strong>Verifiable</strong>: The provided Source Code matches the
     app released on Google Play</p>
     <p>The app can be independently verified. If the provider puts your funds at
     risk on purpose or by accident, security researchers can see this if they care
@@ -84,7 +84,7 @@
     to take more effort in hiding any exploit.</p>
     <p>"Verifiable" does not mean "verified". There is good reason to believe that
     security researchers as of today would not detect very blatant backdoors in
-    the open source code before it gets exploited, much less if the attacker
+    the public source code before it gets exploited, much less if the attacker
     takes moderate efforts to hide it.</p>
     <p>To understand why some lines of difference are ok and others not one has
     to consider how app signing works. Android supports currently 3 signing

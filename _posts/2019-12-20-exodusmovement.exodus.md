@@ -42,7 +42,7 @@ keys and transaction data on your device so that no one can access your
 cryptocurrency but you. You can also Enable Face or Touch ID to conveniently
 secure your wallet without having to type your passcode.
 
-Is it open source though? ...
+Can we find the source code though? ...
 
 No word about a repository on the description but the website links to
 [this GitHub](https://github.com/ExodusMovement) but there is no repository name

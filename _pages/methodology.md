@@ -101,7 +101,7 @@ still stops there as we are only interested in non-custodial wallets.
 Those apps get tagged *"Custodial!"*.
 
 
-Is it open source?
+Is it the source code public?
 --------------------------
 
 A wallet that claims to not give the provider the means to steal the users'
