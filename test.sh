@@ -166,7 +166,7 @@ testAirgapVault() {
 testUnstoppable() {
   repo=https://github.com/horizontalsystems/unstoppable-wallet-android
   tag=$versionName
-  builtApk=wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
+  builtApk=app/build/outputs/apk/productionMainnet/release/app-productionMainnet-release-unsigned.apk
   
   prepare
 
