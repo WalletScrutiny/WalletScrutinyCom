@@ -1,0 +1,36 @@
+
+<input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
+<input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
+<input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
+<input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
+<script>
+  function fpress(el) {
+    $( "#press_button_" + el ).toggleClass( 'activated' );
+    $( ".press." + el ).toggleClass( 'hidden' );
+  }
+</script>
+<style>
+  .activated {
+    background: lightgreen;
+  }
+  .press {
+    height: 8.1em;
+    width: 8em;
+    border: dotted black 1px;
+    margin: 0.2em;
+    float: left;
+  }
+</style>
+
+<div style="overflow:auto;width:100%">
+{% for p in site.press
+  %}<div class="press {{ p.language }} {{ p.format }}"><a href="{{ p.link }}"
+    title="{{ p.platform }}{{ p.publicationName }}"><img
+      src="/images/press/{{ p.image }}"
+      alt="{{ p.platform }}{{ p.publicationName }}"
+      title="{{ p.platform }}{{ p.publicationName }}"
+      style="height:8em;" /></a></div>{%
+endfor %}
+</div>
+
+

@@ -29,14 +29,7 @@ Read about [our methodology](/methodology/) to understand in more detail.
 As featured on ...
 ==================
 
-{% for p in site.press
-  %}<a href="{{ p.link }}"
-    title="{{ p.platform }}{{ p.publicationName }}"><img
-      src="/images/press/{{ p.image }}"
-      alt="{{ p.platform }}{{ p.publicationName }}"
-      title="{{ p.platform }}{{ p.publicationName }}"
-      style="height:10em;border:dotted black 1px;margin:0.2em" /></a>{%
-endfor %}
+{% include press.html %}
 
 All wallets ordered by verifiability, downloads and ratings
 ===========================================================
