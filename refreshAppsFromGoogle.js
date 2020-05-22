@@ -44,7 +44,11 @@ fs.readdir(postsFolder, function (err, files) {
       })
     }
     if (header.verdict != "defunct") {
-      gplay.app({appId: appId, throttle: 5}).then(function(app){
+      gplay.app({
+          appId: appId,
+          lang: 'en',
+          country: 'cl',
+          throttle: 5}).then(function(app){
         const iconPath = `images/wallet_icons/${appId}`
         const iconFile = fs.createWriteStream(iconPath)
         const request = https.get(app.icon, function(response) {
