@@ -22,7 +22,6 @@ reviewStale: true
 reviewArchive:
 
 
-internalIssue: 90
 providerTwitter: ln_zap
 providerLinkedIn: 
 providerFacebook: 

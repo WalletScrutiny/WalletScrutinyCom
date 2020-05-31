@@ -22,7 +22,6 @@ reviewStale: true
 reviewArchive:
 
 
-internalIssue: 
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 

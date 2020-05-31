@@ -22,7 +22,6 @@ reviewStale: true
 reviewArchive:
 
 
-internalIssue: 83
 providerTwitter: lightning
 providerLinkedIn: 
 providerFacebook: 
