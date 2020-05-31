@@ -6,11 +6,9 @@
 {% endif %}
 
 <img src="/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-<p>This
+<p>This app
 {% if page.launchDate %}
-  app was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
-{% else %}
-  relatively new app
+  was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
 {% endif %}
 currently
 has more than {{ page.users }} downloads{%
