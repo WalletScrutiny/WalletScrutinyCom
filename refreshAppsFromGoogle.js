@@ -11,7 +11,7 @@ const sleep = require('sleep').sleep
 
 const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,internalIssue,providerTwitter,\
+repository,issue,icon,bugbounty,verdict,providerTwitter,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
 altTitle,reviewStale,reviewArchive".split(","))
 
@@ -119,7 +119,6 @@ ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd"
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
 
-internalIssue: ${header.internalIssue || ""}
 providerTwitter: ${header.providerTwitter || ""}
 providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}
