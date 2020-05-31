@@ -1,6 +1,11 @@
-{% include base_path %}
+---
+layout: archive
+title: "More Apps"
+permalink: /moreApps/
+author_profile: true
+---
 
-<table id="tableofwallets">
+<table>
   <thead>
     <tr>
       <td>Name</td>
@@ -11,7 +16,7 @@
       <td>Verdict</td>
     </tr>
   </thead>
-  {% assign verdicts = "verifiable,nonverifiable,nosource,custodial" | split: "," %}
+  {% assign verdicts = "nobtc,fewusers,defunct,wip,nowallet" | split: "," %}
   {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
   {% assign posts_by_ratings = site.posts | sort: "ratings" | reverse %}
   {% for v in verdicts %}
@@ -28,4 +33,4 @@
   {% endfor %}
 </table>
 
-(<a href="/moreApps">more apps</a>)
+(<a href="/">main list</a>)

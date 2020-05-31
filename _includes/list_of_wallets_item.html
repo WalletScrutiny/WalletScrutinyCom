@@ -10,7 +10,6 @@
   {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
-{% assign topCategory = "false" %}
 {% case post.verdict %}
   {% when "wip" %}
     {% assign vLabel   = 'WIP' %}
@@ -22,7 +21,6 @@
     {% assign vLabel   = 'Defunct' %}
     {% assign vTooltip = 'This app went out of business ... or so. Read the analysis for details.' %}
   {% when "custodial" %}
-    {% assign topCategory = "true" %}
     {% assign vLabel   = 'Custodial!' %}
     {% assign vTooltip = 'As the provider of this app holds the users coins,
       verifiability of the app is not relevant wether or not the funds are secure!' %}
@@ -35,16 +33,13 @@
     {% assign vTooltip = 'We could not find this to be an app meant to store
       receive and send coins.' %}
   {% when "nosource" %}
-    {% assign topCategory = "true" %}
     {% assign vLabel   = 'No&nbsp;source!' %}
     {% assign vTooltip = 'Without public source available, this app cannot be verified!' %}
   {% when "nonverifiable" %}
-    {% assign topCategory = "true" %}
     {% assign vLabel   = 'Not&nbsp;verifiable!' %}
     {% assign vTooltip = 'The app provider also shares code but we could so far
       not verify that the published code matches the published app!' %}
   {% when "verifiable" %}
-    {% assign topCategory = "true" %}
     {% assign vLabel   = 'Verifiable when tested' %}
     {% assign vTooltip = 'At the time of this analysis, the app on Google Play
       was reproducible from the code provided by the developers!' %}
@@ -62,80 +57,52 @@
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 
-{% if topCategory == "true" %}
-  <tr>
-    <td rowSpan="2">
-      <div class="app_logo">
+<tr>
+  <td rowSpan="2">
+    <div class="app_logo">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+        <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+      </a>
+    </div>
+  </td><td colSpan="5">
+    <nobr>
+      <div class="app_info_box">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+          Analysis of <strong>{{ title }}</strong>
         </a>
       </div>
-    </td><td colSpan="5">
-      <nobr>
-        <div class="app_info_box">
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-            Analysis of <strong>{{ title }}</strong>
-          </a>
-        </div>
-        (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-          {% if post.website %}/ <a href="{{ post.website }}">Website</a>{% endif %}
-          {% if "http://localhost:4000" == base_path %}
-            {% if post.repository %}/ <a href="{{ post.repository }}">SRC</a>{% endif %}
-            {% if post.issue %}/ <a href="{{ post.issue }}">Iss</a>{% endif %}
-            {% if post.providerTwitter %}/ <a href="https://twitter.com/{{ post.providerTwitter }}">Tw</a>{% endif %}
-            {% if post.providerFacebook %}/ <a href="https://www.facebook.com/{{ post.providerFacebook }}">Fb</a>{% endif %}
-            {% if post.providerReddit %}/ <a href="https://www.reddit.com/r/{{ post.providerReddit }}">Re</a>{% endif %}
-            {% if post.providerLinkedIn %}/ <a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">Li</a>{% endif %}
-            {% if post.internalIssue %}/ <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/issues/{{ post.internalIssue }}">Gl</a>{% endif %}
-            {% if post.reviewStale %}/ <font color="red">stale</font>{% endif %}
-          {% endif %})
-      </nobr>
-    </td>
-  </tr>
-  <tr {% if post.reviewStale %}class="reviewStale"{% endif %}>
-    <td class="userCount">
-      {{ prettyUserCount }}
-    </td><td>
-      {{ post.launchDate | date: '%Y-%m-%d' }}
-    </td><td>
-      {{ post.latestUpdate | date: '%Y-%m-%d' }}
-    </td><td class="reviewDate">
-      {% if post.verdict != "wip" %}
-        {{ post.date | date: '%Y-%m-%d' }}
-      {% endif %}
-    </td><td class="verdict">
-      <span class="{{ post.verdict }} tooltip">
-        {{ vLabel }}
-        <span class="tooltiptext">
-          {{ vTooltip }}
-        </span>
+      (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
+        {% if post.website %}/ <a href="{{ post.website }}">Website</a>{% endif %}
+        {% if "http://localhost:4000" == base_path %}
+          {% if post.repository %}/ <a href="{{ post.repository }}">SRC</a>{% endif %}
+          {% if post.issue %}/ <a href="{{ post.issue }}">Iss</a>{% endif %}
+          {% if post.providerTwitter %}/ <a href="https://twitter.com/{{ post.providerTwitter }}">Tw</a>{% endif %}
+          {% if post.providerFacebook %}/ <a href="https://www.facebook.com/{{ post.providerFacebook }}">Fb</a>{% endif %}
+          {% if post.providerReddit %}/ <a href="https://www.reddit.com/r/{{ post.providerReddit }}">Re</a>{% endif %}
+          {% if post.providerLinkedIn %}/ <a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">Li</a>{% endif %}
+          {% if post.internalIssue %}/ <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/issues/{{ post.internalIssue }}">Gl</a>{% endif %}
+          {% if post.reviewStale %}/ <font color="red">stale</font>{% endif %}
+        {% endif %})
+    </nobr>
+  </td>
+</tr>
+<tr {% if post.reviewStale %}class="reviewStale"{% endif %}>
+  <td class="userCount">
+    {{ prettyUserCount }}
+  </td><td>
+    {{ post.launchDate | date: '%Y-%m-%d' }}
+  </td><td>
+    {{ post.latestUpdate | date: '%Y-%m-%d' }}
+  </td><td class="reviewDate">
+    {% if post.verdict != "wip" %}
+      {{ post.date | date: '%Y-%m-%d' }}
+    {% endif %}
+  </td><td class="verdict">
+    <span class="{{ post.verdict }} tooltip">
+      {{ vLabel }}
+      <span class="tooltiptext">
+        {{ vTooltip }}
       </span>
-    </td>
-  </tr>
-{% else %}
-  <tr>
-    <td>
-      <div class="app_logo">
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="/images/wallet_icons/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
-        </a>
-      </div>
-    </td><td colSpan="4" style="text-overflow:ellipsis;overflow:hidden;white-space:nowrap">
-      <nobr>
-        <div class="app_info_box">
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-            {{ title }}
-          </a>
-        </div>
-        (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>)
-      </nobr>
-    </td><td class="verdict">
-      <span class="{{ post.verdict }} tooltip">
-        {{ vLabel }}
-        <span class="tooltiptext">
-          {{ vTooltip }}
-        </span>
-      </span>
-    </td>
-  </tr>
-{% endif %}
+    </span>
+  </td>
+</tr>
