@@ -11,20 +11,20 @@ stars: 2.5
 ratings: 306
 reviews: 232
 size: 8.2M
-website: 
+website: https://coinsquare.com/
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
 date: 2020-05-29
 reviewStale: true
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: https://twitter.com/coinsquare
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: https://www.facebook.com/coinsquare.io/
 providerReddit: 
 
 permalink: /posts/coinsquare.io.coinsquare/
@@ -33,10 +33,9 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "coinsquare.io.coinsquare" and public
-information found
-[here](https://play.google.com/store/apps/details?id=coinsquare.io.coinsquare).
+This is the interface for an exchange. In the description we read:
 
-Probably an engineer will soon have a deeper look at this app.
+> We are SSL and 2FA enabled, with a 95% cold storage policy on all digital
+  currency, and run multiple encrypted and distributed backups every day.
 
-So far we are not even sure it is a wallet ... Please check back later.
+which means this is a custodial service and thus **not verifiable**.
