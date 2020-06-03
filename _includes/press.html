@@ -23,12 +23,17 @@
 </style>
 
 <div style="overflow:auto;width:100%">
-{% for p in site.press
+{% for p in site.press | sort: "date" | reverse
   %}<div class="press {{ p.language }} {{ p.format }}"><a href="{{ p.link }}"
-    title="{{ p.platform }}{{ p.publicationName }}"><img
+    title="{{ p.platform }} {{ p.publicationName }}"><img
       src="/images/press/{{ p.image }}"
-      alt="{{ p.platform }}{{ p.publicationName }}"
-      title="{{ p.platform }}{{ p.publicationName }}"
+      alt="{{ p.platform }} {{ p.publicationName }}"
+      title="{{ p.platform }}
+{{ p.publicationName }}
+{{ p.date  | date: '%Y-%m-%d' }}
+published by {{ p.author }}
+language: {{ p.language }}
+format: {{ p.format }}"
       style="height:8em;" /></a></div>{%
 endfor %}
 </div>

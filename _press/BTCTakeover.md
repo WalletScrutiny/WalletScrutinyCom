@@ -1,5 +1,6 @@
 ---
 platform: "Bitcoin Takeover Podcast"
+date: 2020-05-03
 publicationName: "S5 E2: Leo Wandersleb on WalletScrutiny & Why Samourai Isn’t That Great"
 author: "Vlad Costea"
 image: BitcoinTakeoverPodcasts05e02.png
