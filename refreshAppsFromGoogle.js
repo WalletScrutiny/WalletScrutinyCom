@@ -13,7 +13,7 @@ const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
 repository,issue,icon,bugbounty,verdict,providerTwitter,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-altTitle,reviewStale,reviewArchive".split(","))
+altTitle,reviewStale,reviewArchive,signer".split(","))
 
 var allHeaders = new Set()
 const postsFolder = "/mnt/_posts/"
