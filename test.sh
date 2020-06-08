@@ -25,6 +25,7 @@ fi
 apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
 fromPlayFolder=/tmp/fromPlay$apkHash
 rm -rf $fromPlayFolder
+signer=$( apksigner verify --print-certs "$downloadedApp" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
 echo "Extracting APK content ..."
 apktool d -o $fromPlayFolder "$downloadedApp" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
@@ -74,6 +75,7 @@ result() {
   apktool d -o $fromBuildUnpacked $builtApk
   echo "Results for $appName
 appId:          $appId
+signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
 apkHash:        $apkHash
@@ -166,13 +168,13 @@ testAirgapVault() {
 testUnstoppable() {
   repo=https://github.com/horizontalsystems/unstoppable-wallet-android
   tag=$versionName
-  builtApk=app/build/outputs/apk/productionMainnet/release/app-productionMainnet-release-unsigned.apk
+  builtApk=app/build/outputs/apk/release/app-release-unsigned.apk
   
   prepare
 
   # build
   docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
-      './gradlew clean :app:assembleProductionMainnetRelease'
+      './gradlew clean :app:assembleRelease'
       
   # collect results
   result
