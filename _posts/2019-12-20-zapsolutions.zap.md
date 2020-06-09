@@ -19,6 +19,7 @@ bugbounty:
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
 date: 2019-12-30
 reviewStale: true
+signer: 
 reviewArchive:
 
 

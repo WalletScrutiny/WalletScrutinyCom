@@ -112,6 +112,7 @@ bugbounty: ${header.bugbounty || ""}
 verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 reviewStale: ${stale}
+signer: ${header.signer || ""}
 reviewArchive:
 ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   version: "${item.version}"
