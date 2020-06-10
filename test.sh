@@ -57,12 +57,12 @@ echo
 prepare() {
   echo "Testing $appId from $repo revision $tag ..."
   # cleanup
-  sudo rm -rf /tmp/test$appId
+  sudo rm -rf /tmp/test$appId || exit 1
   # get uinque folder
   mkdir /tmp/test$appId
   cd /tmp/test$appId
   # clone
-  git clone $repo app
+  git clone $repo app || exit 1
   cd app
   echo "Trying to checkout version $tag ..."
   git checkout $tag || exit 1
@@ -72,7 +72,7 @@ result() {
   # collect results
   fromBuildUnpacked=/tmp/fromBuild_"$appId"_"$versionCode"
   rm -rf $fromBuildUnpacked
-  apktool d -o $fromBuildUnpacked $builtApk
+  apktool d -o $fromBuildUnpacked $builtApk || exit 1
   echo "Results for $appName
 appId:          $appId
 signer:         $signer
@@ -90,24 +90,36 @@ for more details."
 }
 
 testMycelium() {
-  repo=https://github.com/mycelium-com/wallet-android
+  repo=/home/leo/StudioProjects/android-wallet/
   tag=v$versionName
   builtApk=mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
 
   prepare
 
-  git submodule update --init --recursive || echo "ERROR: The submodule requires a GitHub account with public key configured. Cloning manually ..."
-  git clone https://github.com/mycelium-com/wallet-android-modularization-tools.git
+  git clone /home/leo/StudioProjects/android-wallet/wallet-android-modularization-tools/
   git submodule update --init --recursive
   
   # build
-  sudo umount /tmp/test$appId/sorted
-  sync
   sudo rm -rf /tmp/test$appId/sorted
   mkdir /tmp/test$appId/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/test$appId/sorted
-  docker run --volume /tmp/test$appId/sorted:/mnt --workdir /mnt --rm mycelium-wallet \
-      bash -c 'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;28.0.3" ; ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease'
+  docker run --volume /tmp/test$appId/sorted:/mnt -it --rm ubuntu:19.10 \
+      bash -c 'apt update && \
+        apt install -y wget \
+            openjdk-8-jre-headless=8u252-b09-1~19.10 \
+            openjdk-8-jdk-headless=8u252-b09-1~19.10 \
+            git unzip && \
+        mkdir -p /opt/android-sdk/cmdline-tools && \
+        cd /opt/android-sdk/cmdline-tools && \
+        wget -q https://dl.google.com/android/repository/commandlinetools-linux-6514223_latest.zip && \
+        unzip *tools*linux*.zip && \
+        export ANDROID_HOME=/opt/android-sdk && \
+        yes | /opt/android-sdk/cmdline-tools/tools/bin/sdkmanager --licenses && \
+        /opt/android-sdk/cmdline-tools/tools/bin/sdkmanager "build-tools;28.0.3" && \
+        cd /mnt
+        ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
+        bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet'
+  sudo umount /tmp/test$appId/sorted
 
   result
 }
