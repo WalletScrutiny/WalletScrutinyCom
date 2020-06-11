@@ -103,21 +103,8 @@ testMycelium() {
   sudo rm -rf /tmp/test$appId/sorted
   mkdir /tmp/test$appId/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $PWD /tmp/test$appId/sorted
-  docker run --volume /tmp/test$appId/sorted:/mnt -it --rm ubuntu:19.10 \
-      bash -c 'apt update && \
-        apt install -y wget \
-            openjdk-8-jre-headless=8u252-b09-1~19.10 \
-            openjdk-8-jdk-headless=8u252-b09-1~19.10 \
-            git unzip && \
-        mkdir -p /opt/android-sdk/cmdline-tools && \
-        cd /opt/android-sdk/cmdline-tools && \
-        wget -q https://dl.google.com/android/repository/commandlinetools-linux-6514223_latest.zip && \
-        unzip *tools*linux*.zip && \
-        export ANDROID_HOME=/opt/android-sdk && \
-        yes | /opt/android-sdk/cmdline-tools/tools/bin/sdkmanager --licenses && \
-        /opt/android-sdk/cmdline-tools/tools/bin/sdkmanager "build-tools;28.0.3" && \
-        cd /mnt
-        ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
+  docker run --volume /tmp/test$appId/sorted:/mnt --workdir /mnt -it --rm walletscrutiny/android:1 \
+      bash -c './gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
         bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet'
   sudo umount /tmp/test$appId/sorted
 
@@ -132,7 +119,7 @@ testGreen() {
   prepare
 
   # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c 'apt update; \
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm walletscrutiny/android:1 bash -x -c 'apt update; \
       apt install -y curl; \
       ./app/fetch_gdk_binaries.sh; \
       yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
@@ -149,7 +136,7 @@ testSchildbach() {
   prepare
 
   # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm walletscrutiny/android:1 bash -x -c \
       'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
       apt update && apt install gradle -y; \
       gradle clean :wallet:assProdRel'
@@ -185,7 +172,7 @@ testUnstoppable() {
   prepare
 
   # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash -x -c \
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm walletscrutiny/android:1 bash -x -c \
       './gradlew clean :app:assembleRelease'
       
   # collect results
