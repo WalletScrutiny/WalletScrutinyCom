@@ -118,7 +118,7 @@ testMycelium() {
 
   prepare
 
-  git clone /home/leo/StudioProjects/android-wallet/wallet-android-modularization-tools/
+  git clone https://github.com/mycelium-com/wallet-android-modularization-tools
   git submodule update --init --recursive
   
   # build
