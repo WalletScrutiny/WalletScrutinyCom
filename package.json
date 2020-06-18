@@ -33,7 +33,7 @@
   "dependencies": {
     "btcpay": "^0.2.4",
     "dateformat": "^3.0.3",
-    "google-play-scraper": "^7.1.2",
+    "google-play-scraper": "^7.1.3",
     "js-yaml": "^3.14.0",
     "sleep": "^6.2.0",
     "sync-request": "^6.1.0",

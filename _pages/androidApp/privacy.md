@@ -1,7 +1,9 @@
 ---
-permalink: /androidApp/privacy
+permalink: /androidApp/privacy/
 title: "Privacy Policy for WalletScrutiny.com Android app"
 author_profile: true
+redirect_from:
+  - /androidApp/privacy.html
 ---
 
 We take your privacy seriously.
