@@ -30,7 +30,7 @@ and <a href="{{ page.website }}">their website</a>
 
 <p>We found these ways of contacting the developers:
 <ul>
-{% if page.website          %}<li>Website:  <a href="{{ page.website                                   }}">{{ page.website | replace: "http://", "" | replace: "https://", ""  | replace: "/", "" }}</a></li>{% endif %}
+{% if page.website          %}<li>Website:  <a href="{{ page.website                                   }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
 {% if page.providerTwitter  %}<li>Twitter:  <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{ page.providerTwitter }}</a></li>{% endif %}
 {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{ page.providerFacebook }}</a></li>{% endif %}
 {% if page.providerReddit   %}<li>Reddit:   <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{ page.providerReddit   }}</a></li>{% endif %}
