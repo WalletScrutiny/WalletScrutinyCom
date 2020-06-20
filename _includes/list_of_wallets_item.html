@@ -39,8 +39,8 @@
     {% assign vLabel   = 'Not&nbsp;verifiable!' %}
     {% assign vTooltip = 'The app provider also shares code but we could so far
       not verify that the published code matches the published app!' %}
-  {% when "verifiable" %}
-    {% assign vLabel   = 'Verifiable when tested' %}
+  {% when "reproducible" %}
+    {% assign vLabel   = 'Reproducible when tested' %}
     {% assign vTooltip = 'At the time of this analysis, the app on Google Play
       was reproducible from the code provided by the developers!' %}
   {% else %}

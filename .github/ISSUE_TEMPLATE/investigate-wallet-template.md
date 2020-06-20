@@ -14,13 +14,13 @@ Check the following items.
 
 If the wallet is custodial, we do not investigate further.
 
-- [ ] Investigate if the wallet claims to be verifiable.
+- [ ] Investigate if the wallet claims to be reproducible.
 
 It might advertise it. It might have documentation on how to build and verify it. Absence of a claim does not mean it's not possible to verify the build but it's worth noting for our readers.
 
 - [ ] Try to verify the build found on the playstore.
 
-If the wallet claims to be verifiable, we are strict and test their instructions.
+If the wallet claims to be reproducible, we are strict and test their instructions.
 
 - [ ] Document further observations.
 

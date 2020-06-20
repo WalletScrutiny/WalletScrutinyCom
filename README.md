@@ -20,5 +20,5 @@ Pull Requests welcome.
 1. Configure Docker: `sudo groupadd docker; sudo usermod -aG docker $USER`
 1. Clone this repository `git clone https://gitlab.com/walletscrutiny/walletScrutinyCom`
 1. Go into the new folder `cd walletScrutinyCom`
-1. Get an APK file (this will only work if the file is of one of the few verifiable apps)
+1. Get an APK file (this will only work if the file is of one of the few reproducible apps)
 1. Run the test script using an absolute path: `./test.sh /path/to/wallet.apk`

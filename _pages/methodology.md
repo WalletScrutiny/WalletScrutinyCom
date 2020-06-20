@@ -153,8 +153,7 @@ provide the correct source code and build instructions to reproduce the build,
 so we usually open a ticket in their git repository (all GitHub so far) and
 classify the wallet as *"Not verifiable!"*.
 
-If we managed to reproduce the build, we classify it as *"Verifiable when
-tested"*.
+If we managed to reproduce the build, we classify it as *"Reproducible"*.
 
 
 Priorities
@@ -165,11 +164,12 @@ still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
 
-1. Re-evaluate new releases of verifiable wallets as they become available. If
-   users opt for a wallet because it is verifiable, they **should be waiting for
+1. Re-evaluate new releases of reproducible wallets as they become available. If
+   users opt for a wallet because it is reproducible, they **should be waiting for
    this re-evaluation** before updating.
 1. Check if any of the "Not verifiable!" wallets updated their issues on their
    repository.
+1. Fix general issues with the platform
 1. Evaluate "WIP" and "Few users" with +1000 downloads
 
 
@@ -203,10 +203,10 @@ We will list as we stumble into them things like
 What could still go wrong?
 --------------------------
 
-The classification "verifiable" unfortunately means very little. It means that
+The classification "reproducible" unfortunately means very little. It means that
 at the random point in time that we decided to verify the code to match the
 app, the code actually did match the app. It does not mean that the next update
-will or that the prior one did and it does not mean that the verifiable code is
+will or that the prior one did and it does not mean that the reproducible code is
 not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
@@ -218,9 +218,9 @@ management) for whatever other reason.
 
 Any stamp of approval, any past security audit or build verification would be
 obsolete. Therefore we don't see our mission as fulfilled when all wallets are
-verifiable. There is a long road ahead from there. For users running verified
-wallets, the verifiable wallets would need actual code verification. Code
-audits. Before releasing the app to its users.
+reproducible. There is a long road ahead from there. For users running reproducible
+wallets, the wallets would need actual code audits.
+Before releasing the app to its users.
 
 To put things into perspective, reviewing the code some 5 developers put out is
 a full time job. Testing the verifiability of a wallet is an hour of work the

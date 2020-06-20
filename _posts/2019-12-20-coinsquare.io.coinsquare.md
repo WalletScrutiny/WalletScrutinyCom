@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

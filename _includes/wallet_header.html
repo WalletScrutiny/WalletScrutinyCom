@@ -17,7 +17,7 @@ has more than {{ page.users }} downloads{%
 and
 the latest APK (version {{ page.apkVersionName }})
 was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{%
-  if page.reviewStale and page.verdict == "verifiable" %}<font color="red">
+  if page.reviewStale and page.verdict == "reproducible" %}<font color="red">
 and is newer than the below reviewed version of the app</font>{% endif %}.</p>
 
 <p>Our analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
@@ -48,10 +48,10 @@ and <a href="{{ page.website }}">their website</a>
 {% if page.providerTwitter  %}
   <h1>Help spread awareness for build verifiability</h1>
   <p><img src="/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
-  {% if page.verdict == "verifiable" %}
-    Please follow {{ title }} and thank them for being verifiable
+  {% if page.verdict == "reproducible" %}
+    Please follow {{ title }} and thank them for being reproducible
   {% else if page.verdict == nonverifiable %}
-    Please help us spread the word, asking {{ title }} to support verifiable builds
+    Please help us spread the word, asking {{ title }} to support reproducible builds
   {% else if page.verdict == nosource %}
     Please help us spread the word discussing transparency with {{ title }}
   {% else if page.verdict == custodial %}

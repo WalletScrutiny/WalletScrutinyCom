@@ -16,7 +16,7 @@ repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, verifiable, bounty, defunct
+verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2019-12-20
 reviewStale: true
 signer: 

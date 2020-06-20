@@ -7,7 +7,7 @@ const path = `_posts/2019-12-20-${appId}.md`
 const file = fs.createWriteStream(path)
 file.write(`---
 appId: ${appId}
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, verifiable, bounty
+verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, reproducible, bounty
 ---
 
 This page was created by a script from the **appId** "${appId}" and public
