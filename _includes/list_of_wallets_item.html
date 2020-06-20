@@ -64,14 +64,14 @@
         <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
       </a>
     </div>
-  </td><td colSpan="5">
+  </td><td colSpan="4">
     <nobr>
       <div class="app_info_box">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          Analysis of <strong>{{ title }}</strong>
+          <strong>{{ title }}</strong>
         </a>
       </div>
-      (<a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
+      <br><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
         {% if post.website %}/ <a href="{{ post.website }}">Website</a>{% endif %}
         {% if "http://localhost:4000" == base_path %}
           {% if post.repository %}/ <a href="{{ post.repository }}">SRC</a>{% endif %}
@@ -81,7 +81,7 @@
           {% if post.providerReddit %}/ <a href="https://www.reddit.com/r/{{ post.providerReddit }}">Re</a>{% endif %}
           {% if post.providerLinkedIn %}/ <a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">Li</a>{% endif %}
           {% if post.reviewStale %}/ <font color="red">stale</font>{% endif %}
-        {% endif %})
+        {% endif %}
     </nobr>
   </td>
 </tr>
@@ -90,8 +90,6 @@
     {{ prettyUserCount }}
   </td><td>
     {{ post.launchDate | date: '%Y-%m-%d' }}
-  </td><td>
-    {{ post.latestUpdate | date: '%Y-%m-%d' }}
   </td><td class="reviewDate">
     {% if post.verdict != "wip" %}
       {{ post.date | date: '%Y-%m-%d' }}
