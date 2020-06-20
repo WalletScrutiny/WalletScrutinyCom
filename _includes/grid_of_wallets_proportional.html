@@ -1,69 +1,66 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign posts = site.posts | sort: "users" | reverse %}
 <table id="gridOfWallets2">
-  <thead>
-    <tr>
-      <td>verified</td>
-      <td>reproducible</td>
-      <td>not verifiable</td>
-      <td>closed source</td>
-      <td>custodial</td>
-    </tr>
-    <tr>
-      <td>0?</td>
-      {% for v in verdicts %}
-        {% assign total = 0 %}
-        {% for post in site.posts %}
-          {% if post.verdict == v %}
-            {% assign total = total | plus: post.users %}
-          {% endif %}
-        {% endfor %}
-        <td>
-          {{ total }}
-        </td>
-      {% endfor %}
-    </tr>
-  </thead>
-  <tr><td></td>
-  {% for v in verdicts %}
+  <tr>
+    <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">
+      0<br>Audited?
+    </td>
     <td>
-    {% assign posts = site.posts | sort: "users" | reverse %}
-    {% for post in posts %}
-      {% case post.users %}
-        {% when 500000000 %}
-          {% assign height = 70 %}
-        {% when 100000000 %}
-          {% assign height = 32 %}
-        {% when 50000000 %}
-          {% assign height = 22 %}
-        {% when 10000000 %}
-          {% assign height = 10 %}
-        {% when 5000000 %}
-          {% assign height = 7 %}
-        {% when 1000000 %}
-          {% assign height = 3.2 %}
-        {% when 500000 %}
-          {% assign height = 2.2 %}
-        {% when 100000 %}
-          {% assign height = 1 %}
-        {% when 50000 %}
-          {% assign height = 0.7 %}
-        {% when 10000 %}
-          {% assign height = 0.3 %}
-        {% when 5000 %}
-          {% assign height = 0.2 %}
-        {% else %}
-          {% assign height = 0.1 %}
-      {% endcase %}
+    </td>
+  </tr>
+  {% for v in verdicts %}
+    {% case v %}
+      {% when "reproducible" %}  {% assign vLabel = "Reproducible" %}
+      {% when "nonverifiable" %} {% assign vLabel = "Not&nbsp;Verifiable" %}
+      {% when "nosource" %}      {% assign vLabel = "Closed&nbsp;Source" %}
+      {% when "custodial" %}     {% assign vLabel = "Custodial" %}
+    {% endcase %}
+    {% assign total = 0 %}
+    {% for post in site.posts %}
       {% if post.verdict == v %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-            alt="Wallet Logo" style="height:{{ height }}em;width:auto;float:left;margin:0.3em;border:2px solid black">
-        </a> 
+        {% assign total = total | plus: post.users %}
       {% endif %}
     {% endfor %}
-    </td>
+    <tr>
+      <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">{{ total }}<br>{{ vLabel }}</td>
+      <td>
+        {% for post in posts %}
+          {% case post.users %}
+            {% when 500000000 %}
+              {% assign height = 70 %}
+            {% when 100000000 %}
+              {% assign height = 32 %}
+            {% when 50000000 %}
+              {% assign height = 22 %}
+            {% when 10000000 %}
+              {% assign height = 10 %}
+            {% when 5000000 %}
+              {% assign height = 7 %}
+            {% when 1000000 %}
+              {% assign height = 3.2 %}
+            {% when 500000 %}
+              {% assign height = 2.2 %}
+            {% when 100000 %}
+              {% assign height = 1 %}
+            {% when 50000 %}
+              {% assign height = 0.7 %}
+            {% when 10000 %}
+              {% assign height = 0.3 %}
+            {% when 5000 %}
+              {% assign height = 0.2 %}
+            {% else %}
+              {% assign height = 0.1 %}
+          {% endcase %}
+          {% if post.verdict == v %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+              <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
+                alt="Wallet Logo" style="height:{{ height }}em;width:auto;float:left;margin:0.3em;border:2px solid black">
+            </a> 
+          {% endif %}
+        {% endfor %}
+      </td>
+    </tr>
   {% endfor %}
-  </tr>
 </table>

@@ -1,43 +1,42 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign posts = site.posts | sort: "users" | reverse %}
 <table id="gridOfWallets1">
-  <thead>
+  <tr>
+    <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">
+      0<br>Audited?
+    </td>
+    <td>
+    </td>
+  </tr>
+  {% for v in verdicts %}
+    {% case v %}
+      {% when "reproducible" %}  {% assign vLabel = "Reproducible" %}
+      {% when "nonverifiable" %} {% assign vLabel = "Not&nbsp;Verifiable" %}
+      {% when "nosource" %}      {% assign vLabel = "Closed&nbsp;Source" %}
+      {% when "custodial" %}     {% assign vLabel = "Custodial" %}
+    {% endcase %}
     <tr>
-      <td>verified</td>
-      <td>reproducible</td>
-      <td>not verifiable</td>
-      <td>closed source</td>
-      <td>custodial</td>
-    </tr>
-    <tr>
-      <td>0?</td>
-      {% for v in verdicts %}
-        {% assign total = 0 %}
-        {% for post in site.posts %}
+      {% assign total = 0 %}
+      {% for post in site.posts %}
+        {% if post.verdict == v %}
+          {% assign total = total | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">
+        {{ total }}<br>{{ vLabel }}
+      </td>
+      <td>
+        {% for post in posts %}
           {% if post.verdict == v %}
-            {% assign total = total | plus: 1 %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+              <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
+                alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
+            </a> 
           {% endif %}
         {% endfor %}
-        <td>
-          {{ total }}
-        </td>
-      {% endfor %}
+      </td>
     </tr>
-  </thead>
-  <tr><td></td>
-  {% for v in verdicts %}
-    <td>
-    {% assign posts = site.posts | sort: "users" | reverse %}
-    {% for post in posts %}
-      {% if post.verdict == v %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-            alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
-        </a> 
-      {% endif %}
-    {% endfor %}
-    </td>
   {% endfor %}
-  </tr>
 </table>
