@@ -15,22 +15,20 @@ has more than {{ page.users }} downloads{%
   if page.stars %}, a {{ page.stars }} stars rating from {{ page.ratings }} users
 {% endif %}
 and
-the latest APK (version {{ page.apkVersionName }})
-was from {{ page.latestUpdate | date_to_long_string: "ordinal" }}{%
-  if page.reviewStale and page.verdict == "reproducible" %}<font color="red">
-and is newer than the below reviewed version of the app</font>{% endif %}.</p>
+the latest APK is version {{ page.apkVersionName }}.</p>
 
-<p>Our analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
+<p>Our last analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
 based on data found in their
-<a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Playstore description</a>
+<a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
+  Play description</a>
 and <a href="{{ page.website }}">their website</a>
 {% if page.repository %}and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
-{% if page.issue %} We discuss the issue with verification with the provider
-<a href="{{ page.issue }}">here</a>.{% endif %}</p>
+{% if page.issue %} We discuss verification with the provider in
+<a href="{{ page.issue }}">this issue</a>.{% endif %}</p>
 
 <p>We found these ways of contacting the developers:
 <ul>
-{% if page.website          %}<li>Website:  <a href="{{ page.website                                   }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
+{% if page.website          %}<li>Website:  <a href="{{                          page.website          }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
 {% if page.providerTwitter  %}<li>Twitter:  <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{ page.providerTwitter }}</a></li>{% endif %}
 {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{ page.providerFacebook }}</a></li>{% endif %}
 {% if page.providerReddit   %}<li>Reddit:   <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{ page.providerReddit   }}</a></li>{% endif %}
