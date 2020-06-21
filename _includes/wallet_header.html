@@ -21,8 +21,8 @@ the latest APK is version {{ page.apkVersionName }}.</p>
 based on data found in their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
   Play description</a>
-and <a href="{{ page.website }}">their website</a>
-{% if page.repository %}and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
+and <a href="{{ page.website }}">their website</a>{%
+  if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
 {% if page.issue %} We discuss verification with the provider in
 <a href="{{ page.issue }}">this issue</a>.{% endif %}</p>
 
@@ -44,7 +44,7 @@ and <a href="{{ page.website }}">their website</a>
 {% endif %}
 
 {% if page.providerTwitter  %}
-  <h1>Help spread awareness for build verifiability</h1>
+  <h1>Help spread awareness for build reproducibility</h1>
   <p><img src="/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
   {% if page.verdict == "reproducible" %}
     Please follow {{ title }} and thank them for being reproducible
@@ -55,7 +55,7 @@ and <a href="{{ page.website }}">their website</a>
   {% else if page.verdict == custodial %}
     Please help us spread the word discussing the risks of centralized custodians with {{ title }}
   {% else %}
-    Please help us spread the word discussing build verifiability with {{ title }}
+    Please help us spread the word discussing build reproducibility with {{ title }}
   {% endif %}
   <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via their Twitter</a>!</p>
  {% endif %}

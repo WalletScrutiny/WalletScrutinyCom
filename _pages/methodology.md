@@ -223,7 +223,7 @@ wallets, the wallets would need actual code audits.
 Before releasing the app to its users.
 
 To put things into perspective, reviewing the code some 5 developers put out is
-a full time job. Testing the verifiability of a wallet is an hour of work the
+a full time job. Testing the reproducibility of a wallet is an hour of work the
 first time and can be automated.
 
 To achieve a situation where most users are running verified apps, the release
