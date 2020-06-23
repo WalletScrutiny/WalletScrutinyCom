@@ -43,7 +43,7 @@ fs.readdir(postsFolder, function (err, files) {
         }
       })
     }
-    if (header.verdict != "defunct") {
+    if (!"defunct,nowallet,nobtc".includes(header.verdict)) {
       gplay.app({
           appId: appId,
           lang: 'en',
