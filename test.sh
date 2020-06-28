@@ -1,6 +1,10 @@
 #!/bin/bash
 
 downloadedApp="$1"
+# make sure path is absolute
+if ! [[ $downloadedApp =~ ^/.* ]]; then
+  downloadedApp="$PWD/$downloadedApp"
+fi
 wsDocker="walletscrutiny/android:3"
 
 set -x
