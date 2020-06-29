@@ -239,6 +239,7 @@
 .app_logo {
   display: table-cell;
   width: 72px;
+  border-radius: 25%;
 
   @include breakpoint($large) {
     display: inline;
