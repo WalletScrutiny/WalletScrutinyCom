@@ -550,13 +550,12 @@ thead {
     z-index: 100;
     font-size: 0.7em;
     overflow: hidden;
-}
-
-.AppDisplayCard td,table {
-    border: transparent;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    td,table {
+        border: transparent;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
 
 .app_logo_big {
