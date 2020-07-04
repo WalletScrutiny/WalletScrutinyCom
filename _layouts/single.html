@@ -5,68 +5,309 @@ layout: default
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% include page__hero.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+
+  {% if page.url == "/" %}
+  {% unless page.header.overlay_color or page.header.overlay_image %}
+  <header>
+    {% if page.title %}
+    <div class="hero-parent">
+      <img src="/images/hero.png" class="hero-banner" />
+      <div class="hero-cta">
+        <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% if page.summary %}
+        <p>{{page.summary}}<br><a href="#all-wallets-ordered-by-verifiability-downloads-and-ratings" class="cta-learn-more"><i class="fas fa-info-circle"></i>&nbsp;Learn more.</a></p>
+        <div class="wallet-search-placeholder"></div>
+        <a href="#tableofwallets" class="cta-button primary">
+          <i class="fas fa-wallet"></i>
+          &nbsp;
+          Checkout the list
+        </a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% endif %}
+
+    <script>
+      window.onload = function () {
+        window.wallets = Array();
+        for (i = 0; i < document.querySelectorAll(".AppDisplayCard").length; i++) {
+          var n = document.querySelectorAll(".AppDisplayCard")[i].querySelectorAll(".app_info_box > strong")[0].innerHTML;
+
+          var l = document.querySelectorAll(".AppDisplayCard")[i].querySelectorAll(".app_logo")[0].querySelectorAll("img")[0].getAttribute("src");
+
+          var u = document.querySelectorAll(".AppDisplayCard")[i].getAttribute("href");
+
+          var w = { img: l, name: n, url: u };
+          wallets.push(w);
+        }
+
+        if (document.querySelectorAll(".hero-cta").length > 0) {
+          var p = document.querySelectorAll(".hero-cta")[0];
+
+
+          var t = document.createElement("div");
+          var r = document.createElement("ul");
+          r.classList.add("results-list");
+          t.classList.add("walletSearch-parent")
+          var s = document.createElement("input");
+          s.setAttribute("oninput", "searchCatalogue(this)");
+          s.setAttribute("onkeyup", "focusResults(event)");
+          s.setAttribute("placeholder", "Search wallets...");
+          s.classList.add("walletSearch");
+          t.append(s);
+          t.append(r);
+          document.querySelectorAll(".wallet-search-placeholder")[0].replaceWith(t);
+        }
+      }
+function focusResults(e){
+  e.preventDefault();
+  if(e.keyCode === "40"){
+    document.querySelectorAll(".results-list")[0].querySelectorAll(".li")[0].focus();
+  }
+}
+      function searchCatalogue(t) {
+        var result = document.createElement("ul");
+        result.classList.add("results-list");
+        var v = t.value.toUpperCase();
+        var filter = String("COIN").indexOf(v) !== -1 ? 4 : 2;
+        if (v.length > filter) {
+          var f = 0;
+          for (i = 0; i < window.wallets.length; i++) {
+            var r = window.wallets[i];
+            var n = r.name;
+            if(f<1){
+              result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
+            }else{
+              result.innerHTML = "";
+            }
+            if (n.toUpperCase().indexOf(v) !== -1) {
+              var l = document.createElement("li");
+              l.innerHTML = "<a href='"+ r.url +"'><img src='" + r.img + "' class='results-list-wallet-icon' />" + n + "</a>";
+              result.append(l);
+              f++;
+            }
+          }
+        }else if(v.length!=0){
+              var l = document.createElement("li");
+              var rem = (filter+1)-v.length;
+              var s = rem > 1 ? "s" : "";
+              l.innerHTML = "<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter " + rem + " more character"+s+" to search " + window.wallets.length + " records</a>";
+              result.append(l);
+        }
+          document.querySelectorAll(".results-list")[0].replaceWith(result);
+      }
+
+    </script>
+
+    <style>
+      .results-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    max-height: 40vh;
+    position: absolute;
+    overflow: scroll;
+    background: var(--white, #fff);
+    box-shadow: 0px 30px 40px var(--shadow-2, rgba(0,0,0,0.2));
+    border-radius: 5px;
+}
+.results-list li {
+    padding: 20px;
+    margin: 0;
+    transition: .2s ease;
+}
+.results-list li:not(:last-child) {
+    box-shadow: 0px 1px 0px 0px var(--shadow-2, rgba(0,0,0,0.2));
+}
+.results-list-wallet-icon {
+    max-height: 2rem;
+    max-width: 2rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.walletSearch {
+    padding: 20px;
+    width: auto;
+}
+
+.walletSearch::placeholder {
+
+}
+
+.results-list li a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+}
+
+.results-list li:hover, .results-list li:active, .results-list li:focus {
+    background: lightgreen;
+}
+
+.cta-button.primary {
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: inset 0px 0px 0px 1px;
+    border-radius: 3px;
+    color: var(--accent-text, #61c861);
+    transition: .2s ease;
+}
+
+.cta-button.primary:hover {
+    background: var(--accent-text);
+    color: #fff;
+}
+
+#gridOfWallets1, #gridOfWallets2, #gridOfWallets1 tr, #gridOfWallets2 tr, #gridOfWallets1 tr td, #gridOfWallets2 tr td {
+    border: 0 !important;
+}
+
+#gridOfWallets1 tr, #gridOfWallets2 tr {
+    margin: 1rem 0 1rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 1px var(--shadow-3, rgba(0,0,0,0.3));
+    display: flex;
+    transition: .2s ease;
+}
+
+#gridOfWallets1 tr:hover, 
+#gridOfWallets2 tr:hover {
+
+    box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0,0,0,0.3));
+
+}
+
+@media (max-width:756px){
+  .hero-banner {
+    display: none;
+}
+
+.hero-cta {
+    grid-column: 1/4;
+}
+
+.hero-parent {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.results-list {
+    max-width: 90%;
+}
+
+
+/* move these to appropriate media saas section when complete */
+#gridOfWallets1 tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#gridOfWallets1 tr td, #gridOfWallets2 tr td {
+    width: 100%;
+}
+#gridOfWallets1 tr, #gridOfWallets2 tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+}
+
+    </style>
+
+  </header>
+  {% endunless %}
+  {% endif %}
+
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.title %}
+    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.excerpt %}
+    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+    <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}
+    <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
+      {% if page.url != "/" %}
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
+      <header>
+        {% if page.title %}<h1 class="page__title" itemprop="headline">
+          {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        {% if page.read_time %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+        {% endif %}
         {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
+            datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
+            datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+        </p>
         {% endif %}
 
 
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+        <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+        <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
-        </header>
+      </header>
       {% endunless %}
+      {% endif %}
 
       {% if page.verdict %}
-        {% include wallet_header.html %}
+      {% include wallet_header.html %}
       {% endif %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.verdict %}
-          {% include verdict_explained.html %}
+        {% include verdict_explained.html %}
         {% endif %}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}<div><a href="{{ page.link }}"
+            class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
@@ -77,21 +318,23 @@ layout: default
     </div>
 
     {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
+    {% include comments.html %}
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% comment %}
+  <!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      {% if site.data.ui-text[site.locale].related_label %}
-        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      {% endif %}
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
+  <div class="page__related">
+    {% if site.data.ui-text[site.locale].related_label %}
+    <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}
+    </h4>
+    {% endif %}
+    <div class="grid__wrapper">
+      {% for post in site.related_posts limit:4 %}
+      {% include archive-single.html type="grid" %}
+      {% endfor %}
     </div>
+  </div>
   {% endif %}
 </div>
