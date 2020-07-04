@@ -3,7 +3,7 @@ platform: "Unhashed Podcast"
 date: 2020-04-15
 publicationName: "Ep. 81 That Episode with Leo Wandersleb In It"
 author: "Somsen * Gibney * Aulds * Aulds"
-image: unhashed-logo.jpg
+image: unhashed-logo-81.jpg
 language: EN
 format: audio
 transcript: 
