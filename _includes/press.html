@@ -25,69 +25,7 @@
     $( ".press." + el ).toggleClass( 'hidden' );
   }
 </script>
-<style>
-  .press-button-holder > .check{
-    display: none;
-    transition: .4s ease;
-    opacity: 0;
-    transform-origin: center;
-    transform: scale(0);
-  }
-  .press-button-holder.activated > .check{
-    /* background: lightgreen; */
-    display: inline-block;
-    opacity: 1;
-    transform: scale(1);
-    color: var(--accent, lightgreen);
-  }
-  .press-button-holder {
-    /* display: inline-flex; */
-    border-radius: 5px;
-    padding: 4px 8px;
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 4px;
-    margin-right: 0.5rem;
-    margin-bottom: .5rem;
-    /* font-size: .75rem; */
-}
-.press-button-holder:not(.activated) {
-    box-shadow: 0px 0px 0px 1px;
-    opacity: .8;
-}
-.press-button-holder.activated {
-    box-shadow: 0px 0px 0px 2px var(--accent, lightgreen);
-    opacity: 1;
-}
-.press-button-holder input.activated {
-    color: var(--accent-text);
-}
-.press-button-holder > input {
-    border: 0;
-    box-shadow: unset;
-    margin: 0;
-}
-  .press, .press > img {
-    height: 8em;
-    width: 8em;
-    /* border: dotted black 1px; */
-    /* float: left; */
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 3px 10px -4px var(--shadow-3, rgba(0,0,0,0.3));
-  }
-  .press-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 2rem;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-}
 
-</style>
 
 <div class="press-container">
 {% for p in site.press | sort: "date" | reverse

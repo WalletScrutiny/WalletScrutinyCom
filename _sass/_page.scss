@@ -2,15 +2,7 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-:root{
-  --accent: rgb(97, 200, 97);
-  --accent-text: #4da84d;
-  --rust: #d33100;
-}
 
-a{
-  color: var(--accent-text);
-}
 
 #main {
   @include container;
@@ -20,88 +12,10 @@ a{
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+  max-width: 1200px !important;
+  width: 90vw !important;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
-
-.help-text{
-  font-size: 12px;
-  font-weight: 500;
-  opacity:.9;
-}
-
-.page-section {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto 200px auto;
-}
-
-.hero-parent {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  margin-top: -4rem;
-  grid-template-rows: 1fr 2fr 2fr;
-  grid-template-columns: 1fr 3fr 2fr;
-}
-
-.hero-banner {
-  grid-column: 1/4;
-  grid-row: 1/4;
-  margin: auto;
-}
-
-
-
-.hero-cta{
-  grid-column: 2/3;
-  grid-row: 2/4;
-}
-
-.hero-cta .page__title {
-  font-size: 2.5rem;
-}
-
-.cta-learn-more {
-  color: inherit;
-  font-size: 1rem;
-}
-
-h2.section-label{
-  text-align: center;
-}
-
-
-
-.press::before {
-  position: absolute;
-  font-size: 0.5rem;
-  background: var(--accent-text, rgb(97, 200, 97));
-  padding: .1rem .5rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 4px;
-  border-radius: 100px;
-  color: #fff;
-}
-.press.EN::before{
-content: "English";
-}
-.press.DE::before{
-  content: "Deutsch";
-}
-.press.NL::before{
-  content: "Nederlands";
-}
-.press.ES::before{
-  content: "Español";
-}
-      
 
 
 .page {

@@ -176,6 +176,7 @@
   position: relative;
   min-width: 250px;
   // background: $background-color;
+  background: #222;
   font-size: 16px;
   color: #fff;
   width: 100%;
@@ -205,6 +206,7 @@
     outline: none;
     color: #fff;
     cursor: pointer;
+    background: #222;
   }
 
   .visible-links {

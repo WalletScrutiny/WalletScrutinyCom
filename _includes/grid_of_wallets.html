@@ -5,7 +5,7 @@
 {% assign posts = site.posts | sort: "users" | reverse %}
 <table id="gridOfWallets1">
   <tr>
-    <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">
+    <td style="font-weight:bold;background-color:#222;color:#fff;">
       0<br>Audited?
     </td>
     <td>
@@ -25,7 +25,7 @@
           {% assign total = total | plus: 1 %}
         {% endif %}
       {% endfor %}
-      <td style="font-weight:bold;background-color:#f2f3f3;border-right:1px solid #bdc1c4;">
+      <td style="font-weight:bold;background-color:#222;color:#fff;">
         {{ total }}<br>{{ vLabel }}
       </td>
       <td>
