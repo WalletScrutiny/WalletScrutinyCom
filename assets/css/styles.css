@@ -11,6 +11,10 @@
 a{
   color: var(--accent-text);
 }
+
+@media screen and (max-width:756px){
+  #main{width: 100vw !important;}
+}
 /* END GENEERAL STYLES */
 
 /* PRESS */
@@ -35,7 +39,12 @@ a{
   align-items: baseline;
   flex-direction: row;
   flex-wrap: wrap;
+  -webkit-column-gap: 4px;
+  -moz-column-gap: 4px;
   column-gap: 4px;
+  -webkit-row-gap: 4px;
+  -moz-row-gap: 4px;
+  row-gap: 4px;
   margin-right: 0.5rem;
   margin-bottom: .5rem;
   background: #fff;
@@ -71,7 +80,11 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
   column-gap: 15px;
+  -webkit-row-gap: 2rem;
+  -moz-row-gap: 2rem;
   row-gap: 2rem;
   justify-content: space-evenly;
   margin-top: 1rem;
@@ -200,7 +213,12 @@ content: "English";
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px;
+  -webkit-row-gap: 10px;
+  -moz-row-gap: 10px;
+  row-gap: 10px;
   justify-content: start;
   align-items: center;
   text-decoration: none;
@@ -299,6 +317,9 @@ content: "English";
   animation: intro 0.3s both;
   position: relative;
   z-index: 51;
+}
+.icon-row{
+  width: 100%;
 }
 
 input.verdict-d-d-reproducible:checked ~ #tableofwallets div.row-identifier-reproducible,
@@ -403,7 +424,12 @@ input.verdict-d-d-all:checked ~ .label-all i{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px;
+  -webkit-row-gap: 10px;
+  -moz-row-gap: 10px;
+  row-gap: 10px;
 }
 
 .card-expand-close {
@@ -516,8 +542,13 @@ input.verdict-d-d-all:checked ~ .label-all i{
 .AppDisplayCard.opened {
   position: fixed !important;
   z-index: 54;
-  top: 0 !important;
+  top: 100px !important;
   background: #fff;
+  max-width: 90vw;
+}
+
+.item-detail-container {
+  max-width: calc(90vw - 2rem);
 }
 
 .AppDisplayCard.opened .card-expand-close {
@@ -546,3 +577,51 @@ pointer-events: none;
 /* END LIST OF WALLETS */
 
 
+/* SIDEBAR LIST */
+
+.logo_name_bundle{
+  position: relative;
+  border-radius: 100px;
+  transition: .2s ease;
+}
+
+.logo_name_bundle:hover a span{
+  color: #fff;
+}
+.logo_name_bundle:hover{
+  background: #222;;
+}
+
+#sidebarWalletList .app_logo {
+  display: inline-block;
+  border-radius: 100px;
+  background-color: #222;
+  height: 1rem;
+  width: auto;
+  margin-right: 0.5em;
+}
+
+#sidebarWalletList .app_name{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:100%;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  width:100%;
+  white-space:nowrap
+}
+
+
+#sidebarWalletList a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  color: #222;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  padding: 2px 5%;
+}
+
+/* END SIDEBAR LIST */
