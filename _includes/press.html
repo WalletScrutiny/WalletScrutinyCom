@@ -16,8 +16,8 @@
   <i class="fas fa-check check"></i>
 <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
 </div>
-<br>
-<span class="help-text">Filter grid by publication language.</span>
+
+<span style="width: 100%;text-align: center;margin-bottom: 1rem;" class="help-text">Filter grid by publication language.</span>
 <script>
   function fpress(el) {
     $( ".press-button-holder-" + el ).toggleClass( 'activated' );
@@ -50,7 +50,7 @@
     column-gap: 4px;
     margin-right: 0.5rem;
     margin-bottom: .5rem;
-    font-size: .75rem;
+    /* font-size: .75rem; */
 }
 .press-button-holder:not(.activated) {
     box-shadow: 0px 0px 0px 1px;
