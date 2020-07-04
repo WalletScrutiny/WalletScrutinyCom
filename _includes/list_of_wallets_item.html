@@ -10,44 +10,6 @@
   {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
-{% case post.verdict %}
-  {% when "wip" %}
-    {% assign vLabel   = 'WIP' %}
-    {% assign vTooltip = 'Work in progress. We still have to analyze this wallet' %}
-  {% when "fewusers" %}
-    {% assign vLabel   = 'Few&nbsp;users' %}
-    {% assign vTooltip = 'This app has too few users for now to be reviewed in detail.' %}
-  {% when "defunct" %}
-    {% assign vLabel   = 'Defunct' %}
-    {% assign vTooltip = 'This app went out of business ... or so. Read the analysis for details.' %}
-  {% when "custodial" %}
-    {% assign vLabel   = 'Custodial!' %}
-    {% assign vTooltip = 'As the provider of this app holds the users coins,
-      verifiability of the app is not relevant wether or not the funds are secure!' %}
-  {% when "nobtc" %}
-    {% assign vLabel   = 'Non-BTC' %}
-    {% assign vTooltip = 'The app cannot send and receive BTC. We currently do
-      not investigate other cryptocurrencies.' %}
-  {% when "nowallet" %}
-    {% assign vLabel   = 'Not&nbsp;a&nbsp;wallet' %}
-    {% assign vTooltip = 'We could not find this to be an app meant to store
-      receive and send coins.' %}
-  {% when "nosource" %}
-    {% assign vLabel   = 'No&nbsp;source!' %}
-    {% assign vTooltip = 'Without public source available, this app cannot be verified!' %}
-  {% when "nonverifiable" %}
-    {% assign vLabel   = 'Not&nbsp;verifiable!' %}
-    {% assign vTooltip = 'The app provider also shares code but we could so far
-      not verify that the published code matches the published app!' %}
-  {% when "reproducible" %}
-    {% assign vLabel   = 'Reproducible when tested' %}
-    {% assign vTooltip = 'At the time of this analysis, the app on Google Play
-      was reproducible from the code provided by the developers!' %}
-  {% else %}
-    {% assign vLabel   = '???' %}
-    {% assign vTooltip = '???' %}
-{% endcase %}
-
 {% comment %}
   Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
   here have only one significant digit, getting number grouping can be achieved
@@ -56,50 +18,57 @@
 {% endcomment %}
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
+{% assign simpleAppId = post.appId | replace: '.', '' %}
 
-<tr>
-  <td rowSpan="2">
-    <div class="app_logo">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-        <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
-      </a>
+
+<div id="card_{{ simpleAppId }}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="{{ post.url }}">
+  <div style="width:8em;position: relative;" onclick="toggleZIndex('{{ simpleAppId }}');toggleApp('{{ simpleAppId }}')">
+    <div id="show_{{ simpleAppId }}" class="card-expand-close">
+      <i class="fas fa-plus-square"></i>
     </div>
-  </td><td colSpan="4">
-    <nobr>
-      <div class="app_info_box">
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <strong>{{ title }}</strong>
-        </a>
+    <div id="hide_{{ simpleAppId }}" style="display:none" class="card-expand-close">
+      <i class="fas fa-minus-square"></i>
+    </div>
+    <div style="position:relative">
+      <div class="flex-r">
+        <div class="app_logo">
+          <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+        </div>
+        <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
       </div>
-      <br><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">Google Play</a>
-        {% if post.website %}/ <a href="{{ post.website }}">Website</a>{% endif %}
-        {% if "http://localhost:4000" == base_path %}
-          {% if post.repository %}/ <a href="{{ post.repository }}">SRC</a>{% endif %}
-          {% if post.issue %}/ <a href="{{ post.issue }}">Iss</a>{% endif %}
-          {% if post.providerTwitter %}/ <a href="https://twitter.com/{{ post.providerTwitter }}">Tw</a>{% endif %}
-          {% if post.providerFacebook %}/ <a href="https://www.facebook.com/{{ post.providerFacebook }}">Fb</a>{% endif %}
-          {% if post.providerReddit %}/ <a href="https://www.reddit.com/r/{{ post.providerReddit }}">Re</a>{% endif %}
-          {% if post.providerLinkedIn %}/ <a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">Li</a>{% endif %}
-          {% if post.reviewStale %}/ <font color="red">stale</font>{% endif %}
-        {% endif %}
-    </nobr>
-  </td>
-</tr>
-<tr {% if post.reviewStale %}class="reviewStale"{% endif %}>
-  <td class="userCount">
-    {{ prettyUserCount }}
-  </td><td>
-    {{ post.launchDate | date: '%Y-%m-%d' }}
-  </td><td class="reviewDate">
-    {% if post.verdict != "wip" %}
-      {{ post.date | date: '%Y-%m-%d' }}
-    {% endif %}
-  </td><td class="verdict">
-    <span class="{{ post.verdict }} tooltip">
-      {{ vLabel }}
-      <span class="tooltiptext">
-        {{ vTooltip }}
-      </span>
-    </span>
-  </td>
-</tr>
+    </div>
+    <div class="app_info_box">
+      <strong>{{ title }}</strong>
+    </div>
+  </div>
+  <div id="details_{{ simpleAppId }}" class="item-detail-container" style="width:20em;display:none">
+    <table>
+      <tr><td>Verdict</td>
+        <td class="verdict">
+          <span class="{{ post.verdict }} tooltip">
+            {{ vLabel }}
+            <span class="tooltiptext">
+              {{ vTooltip }}
+            </span>
+          </span>
+        </td>
+      </tr>
+      <tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>
+      <tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>
+      <tr><td>App size</td><td>{{ post.size }}B</td></tr>
+      <tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>
+      <tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>
+      <tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>
+      {% if post.website %}<tr><td>Website</td><td><a href="{{ post.website }}">{{ post.website }}</a></td></tr>{% endif %}
+      {% if post.repository %}<tr><td>Source Code</td><td><a href="{{ post.repository }}">{{ post.repository }}</a></td></tr>{% endif %}
+      {% if post.issue %}<tr><td>Open Issue</td><td><a href="{{ post.issue }}">{{ post.issue }}</a></td></tr>{% endif %}
+      {% if post.providerTwitter %}<tr><td>Twitter</td><td><a href="https://twitter.com/{{ post.providerTwitter }}">@{{ post.providerTwitter }}</a></td></tr>{% endif %}
+      {% if post.providerFacebook %}<tr><td>Facebook</td><td><a href="https://www.facebook.com/{{ post.providerFacebook }}">{{ post.providerFacebook }}</a></td></tr>{% endif %}
+      {% if post.providerReddit %}<tr><td>Reddit</td><td><a href="https://www.reddit.com/r/{{ post.providerReddit }}">r/{{ post.providerReddit }}</a></td></tr>{% endif %}
+      {% if post.providerLinkedIn %}<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">{{ post.providerLinkedIn }}</a></td></tr>{% endif %}
+    </table>
+    <p><a href="{{ base_path }}{{ post.url }}" rel="permalink">
+      <strong style="float:right">Full Analysis …</strong>
+    </a></p>
+  </div>
+</div>
