@@ -250,6 +250,13 @@ content: "English";
   border: 0 !important;
 }
 
+#gridOfWallets1 tr > td:first-of-type, #gridOfWallets2 tr > td:first-of-type {
+  min-width: 100px;
+  font-weight:bold;
+  background-color:#222;
+  color:#fff;
+}
+
 #gridOfWallets1 tr, #gridOfWallets2 tr {
   margin: 1rem 0 1rem 0;
   border-radius: 8px;
@@ -264,6 +271,15 @@ content: "English";
 
   box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0,0,0,0.3));
 
+}
+
+#gridOfWallets2 img.app_logo {
+  border-radius: 3px;
+  border: 0 !important;
+  box-shadow: 0 0 0 1px #222;
+  width:auto;
+  float:left;
+  margin:0.3em;
 }
 
 @media (max-width:756px){
@@ -594,8 +610,8 @@ pointer-events: none;
 
 #sidebarWalletList .app_logo {
   display: inline-block;
-  border-radius: 100px;
-  background-color: #222;
+  border-radius: 2px;
+  /* background-color: #222; */
   height: 1rem;
   width: auto;
   margin-right: 0.5em;

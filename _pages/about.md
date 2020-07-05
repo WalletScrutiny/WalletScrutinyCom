@@ -15,11 +15,11 @@ Android Bitcoin Wallets. -->
 
 
 
-<div class="page-section" style="background-image: url(/images/question-bg.png);background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;">
+<div class="page-section">
 
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
 
-<img src="/images/hacker-bg.png" alt="hacker" style="height:10em;float:left;margin:0 1em 1em 0" />
+<img src="/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 0em 1em 0" />
 <p>
 Do <h>you</h> own your Bitcoins or do you <h>trust</h> that your app allows you to use "your"
 coins while they are actually controlled by <h>"them"</h>? Do you have a backup? Do

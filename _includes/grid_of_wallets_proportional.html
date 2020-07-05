@@ -5,7 +5,7 @@
 {% assign posts = site.posts | sort: "users" | reverse %}
 <table id="gridOfWallets2">
   <tr>
-    <td style="font-weight:bold;background-color:#222;color:#fff;">
+    <td>
       0<br>Audited?
     </td>
     <td>
@@ -25,7 +25,7 @@
       {% endif %}
     {% endfor %}
     <tr>
-      <td style="font-weight:bold;background-color:#222;color:#fff;">{{ total }}<br>{{ vLabel }}</td>
+      <td>{{ total }}<br>{{ vLabel }}</td>
       <td>
         {% for post in posts %}
           {% case post.users %}
@@ -57,7 +57,7 @@
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;width:auto;float:left;margin:0.3em;border:2px solid black">
+                alt="Wallet Logo" style="height:{{ height }}em;">
             </a> 
           {% endif %}
         {% endfor %}
