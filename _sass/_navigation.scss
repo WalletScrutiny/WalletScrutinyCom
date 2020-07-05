@@ -549,10 +549,36 @@ thead {
   font-size: larger;
 }
 
+.AppDisplayCard {
+    min-height: 14em;
+    border: solid darkgray 1px;
+    border-radius: 15px;
+    background: #eee;
+    margin: 3px;
+    padding: 5px;
+    z-index: 100;
+    font-size: 0.7em;
+    overflow: hidden;
+    td,table {
+        border: transparent;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
 .app_logo_big {
   float: left;
   width: 10em;
   margin: 0em 1em 1em 0em;
+  border-radius: 25%;
+}
+
+.stamp {
+  width: 45px;
+  position: absolute;
+  top: 10px;
+  left: 55px;
 }
 
 #donateButton {

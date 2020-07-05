@@ -1,5 +1,7 @@
 # main links links
 main:
+  - title: "<div id=\"donateButton\">Donate</div>"
+    url: /donate/
   - title: "Methodology"
     url: /methodology/
   - title: "Glossary"
@@ -8,5 +10,3 @@ main:
     url: "https://gitlab.com/walletscrutiny/walletScrutinyCom"
   - title: "Discuss"
     url: "https://www.reddit.com/r/WalletScrutiny/"
-  - title: "<div id=\"donateButton\">Donate</div>"
-    url: /donate/

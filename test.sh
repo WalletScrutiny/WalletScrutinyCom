@@ -1,6 +1,10 @@
 #!/bin/bash
 
 downloadedApp="$1"
+# make sure path is absolute
+if ! [[ $downloadedApp =~ ^/.* ]]; then
+  downloadedApp="$PWD/$downloadedApp"
+fi
 wsDocker="walletscrutiny/android:3"
 
 set -x
@@ -87,7 +91,7 @@ prepare() {
   git clone $repo app || exit 1
   cd app
   echo "Trying to checkout version $tag ..."
-  git checkout $tag || exit 1
+  git checkout \"$tag\" || exit 1
 }
 
 result() {
@@ -200,6 +204,21 @@ testUnstoppable() {
   result
 }
 
+testBlockchain() {
+  repo=https://github.com/blockchain/My-Wallet-V3-Android
+  tag="v$versionName($versionCode)"
+  builtApk=$workDir/app/build/outputs/apk/envProd/release/blockchain-${versionName}-envProd-release-unsigned.apk
+  
+  prepare
+
+  # build
+  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
+      './gradlew :app:assembleEnvProdRelease -x :app:lintVitalEnvProdRelease'
+      
+  # collect results
+  result
+}
+
 case "$appId" in
   "com.mycelium.wallet")
     testMycelium
@@ -215,6 +234,9 @@ case "$appId" in
     ;;
   "io.horizontalsystems.bankwallet")
     testUnstoppable
+    ;;
+  "piuk.blockchain.android")
+    testBlockchain
     ;;
   *)
     echo "Unknown appId $appId"
