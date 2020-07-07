@@ -18,9 +18,11 @@ Education
 Work experience
 ======
 
+* Since Nov. 2019 [Wallet Scrutiny](https://walletscrutiny.com)
+  * Founder and main contributor
 * Since Oct. 2015 [Mycelium Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.mycelium.wallet)
-  * Lead Android Developer as freelancer
-  * Bitcoin, Android, git, Java, Kotlin, Linux Server
+  * Lead Android Developer and Release Manager
+  * Software Security, Bitcoin, Android, git, Java, Kotlin, Linux
 * Nov. 2014 – Sep. 2015 [*thisApp](https://thisapp.io/)
   * Lead developer
   * Bitcoin, Cordova, AngularJS, Mongo, Jasmine, NaCl, bitcore, gulp, karma, express
@@ -54,4 +56,3 @@ Work experience
 * 2001 LabA9 GmbH
   * Developer
   * PHP, MySQL, Postgres, JavaScript, C++
-
