@@ -3,6 +3,7 @@
   --accent: rgb(97, 200, 97);
   --accent-text: #4da84d;
   --rust: #d33100;
+  --indifferent:#3d506d;
   --shadow-3: rgba(0,0,0,0.3);
   --shadow-2: rgba(0,0,0,0.2);
 
@@ -402,11 +403,7 @@ input.verdict-d-d-all:checked ~ .label-all i{
 }
 
 
-.stamp-reproducible::before,
-.stamp-nonverifiable::before,
-.stamp-nosource::before,
-.stamp-custodial::before,
-.stamp-all::before{
+.AppDisplayCard .stamp::before{
   font-size: 10px;
   padding: 3px 10px;
   border-radius: 100px;
@@ -434,6 +431,27 @@ input.verdict-d-d-all:checked ~ .label-all i{
 .stamp-all::before{
   background: var(--rust);
   content: "all";
+}
+
+.stamp-nobtc::before{
+  background: var(--indifferent);
+  content: "non-btc";
+}
+.stamp-wip::before{
+  background: var(--indifferent);
+  content: "development";
+}
+.stamp-fewusers::before{
+  background: var(--indifferent);
+  content: "few users";
+}
+.stamp-defunct::before{
+  background: var(--rust);
+  content: "defunct";
+}
+.stamp-nowallet::before{
+  background: var(--indifferent);
+  content: "not a wallet";
 }
 
 .flex-r {
