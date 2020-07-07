@@ -1,5 +1,6 @@
-window.onload = function () {
-  window.wallets = Array();
+window.wallets = Array();
+window.onload = function () { 
+
   for (i = 0; i < document.querySelectorAll(".AppDisplayCard").length; i++) {
     var n = document.querySelectorAll(".AppDisplayCard")[i].querySelectorAll(".app_info_box > strong")[0].innerHTML;
 
@@ -10,6 +11,37 @@ window.onload = function () {
     var w = { img: l, name: n, url: u };
     wallets.push(w);
   }
+
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/moreApps', true);
+  xhr.onload = function () {
+    if (200 === xhr.status && xhr.responseText.length < 1) {
+    } else if (200 !== xhr.status) {
+    } else {
+      try {
+        var p = xhr.responseText;
+        var f = document.createElement("div");
+        f.innerHTML = p;
+        if (f.querySelectorAll(".AppDisplayCard").length > 0) {
+          for (i = 0; i < f.querySelectorAll(".AppDisplayCard").length; i++) {
+            var n = f.querySelectorAll(".AppDisplayCard")[i].querySelectorAll(".app_info_box > strong")[0].innerHTML;
+        
+            var l = f.querySelectorAll(".AppDisplayCard")[i].querySelectorAll(".app_logo")[0].querySelectorAll("img")[0].getAttribute("src");
+        
+            var u = f.querySelectorAll(".AppDisplayCard")[i].getAttribute("href");
+        
+            var w = { img: l, name: n, url: u };
+            wallets.push(w);
+          }
+        }
+      } catch (e) {
+      }
+    }
+  };
+  xhr.send()
+
+
 
   if (document.querySelectorAll(".hero-cta").length > 0) {
     var p = document.querySelectorAll(".hero-cta")[0];
@@ -45,7 +77,6 @@ function searchCatalogue(t) {
     for (i = 0; i < window.wallets.length; i++) {
       var r = window.wallets[i];
       var n = r.name;
-      console.log(f)
       if(f<1){
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
