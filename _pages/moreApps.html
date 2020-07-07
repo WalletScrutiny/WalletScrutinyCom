@@ -50,22 +50,37 @@ author_profile: true
         {% assign vTooltip = '???' %}
     {% endcase %}
     <div class="icon-row row-identifier-{{ v }}">
-    <h2 class="verdict {{ v }}">{{ vLabel }}</h2><br style="clear:both">
-    <div class="flexi-list">
-    {% for d in downloads %}
-      {% for post in posts_by_ratings %}
-        {% assign users = post.users | downcase %}
-        {% if post.verdict == v %}
-          {% if users == d %}
-            {% include list_of_wallets_item.html %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </div>
+      <h2 class="verdict {{ v }}">{{ vLabel }}</h2><br style="clear:both">
+      <div class="flexi-list">
+        {% for d in downloads %}
+          {% for post in posts_by_ratings %}
+            {% assign users = post.users | downcase %}
+            {% if post.verdict == v %}
+              {% if users == d %}
+                {% include list_of_wallets_item.html %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   {% endfor %}
+  <div id="modal" style="background:#999d;position:absolute;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId)">&nbsp;</div>
 
+  <br style="clear:both">
 
-
-(<a href="/">main list</a>)
+    (<a href="/">main list</a>)
+  <script>
+    function toggleZIndex(t_){
+      var t = document.getElementById("card_" + t_)
+      var p = t.parentNode;
+      if(!t.classList.contains("opened")){
+        t.classList.add("opened")
+        p.classList.add("opened")
+      }else{
+        t.classList.remove("opened")
+        p.classList.remove("opened")
+      }
+    }
+  </script>
+</div>
