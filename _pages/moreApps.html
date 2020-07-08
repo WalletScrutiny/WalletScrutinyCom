@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="page-section">
-  <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);toggleZIndex(lastId)">&nbsp;</div>
+  <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
 
   {% assign verdicts = "wip,nobtc,fewusers,defunct,nowallet" | split: "," %}
   {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
@@ -70,17 +70,5 @@ author_profile: true
   <br style="clear:both">
 
     (<a href="/">main list</a>)
-  <script>
-    function toggleZIndex(t_){
-      var t = document.getElementById("card_" + t_)
-      var p = t.parentNode;
-      if(!t.classList.contains("opened")){
-        t.classList.add("opened")
-        p.classList.add("opened")
-      }else{
-        t.classList.remove("opened")
-        p.classList.remove("opened")
-      }
-    }
-  </script>
+
 </div>

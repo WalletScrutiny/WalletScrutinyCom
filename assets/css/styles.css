@@ -13,6 +13,10 @@ a{
   color: var(--accent-text);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 @media screen and (max-width:756px){
   #main{width: 100vw !important;}
 }
@@ -574,11 +578,12 @@ input.verdict-d-d-all:checked ~ .label-all i{
   z-index: 1 !important;
 }
 .AppDisplayCard.opened {
-  position: fixed !important;
-  z-index: 54;
-  top: 100px !important;
   background: #fff;
   max-width: 90vw;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 50px var(--shadow-3);
 }
 
 .item-detail-container {
@@ -589,8 +594,37 @@ input.verdict-d-d-all:checked ~ .label-all i{
   position: absolute;
   right: 0;
 }
+.AppDisplayCard.opened .card-expand-close:first-child {
+  display:none !important;
+}
+.AppDisplayCard.opened .card-expand-close.card-close {
+  display:block !important;
+  z-index: 99999;
+}
 .AppDisplayCard.opened > div:first-of-type {
   width: 100% !important;
+}
+
+.AppDisplayCard.opened .item-detail-container{
+  display:block !important;
+}
+
+.temp_card {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--shadow-3);
+  background-image: radial-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7) 50%,transparent 50%);
+  background-size: 3px 3px;
+  z-index: 999;
 }
 
 .flexi-list.opened::after{

@@ -10,34 +10,31 @@ $(document).ready(function(){
 var lastId = ""
 
 function toggleApp(id) {
-  if ($('#details_' + id + ':visible').length) {
-    // hide
-    $('#modal').hide()
-    $('#card_' + id)
-      .css('left', '')
-      .css('top', '')
-      .css('righ', '')
-      .css('margin-left', '')
-      .css('margin-right', '')
-      .css('width', '')
-      .css('position', '')
-    $('#details_' + id).hide()
-    $('#show_' + id).show()
-    $('#hide_' + id).hide()
-  } else {
-    // show
-    $('#modal').show()
-    $('#card_' + id)
-      .css('top', $('#card_' + id).position().top)
-      .css('left', 0)
-      .css('right', 0)
-      .css('margin-left', 'auto')
-      .css('margin-right', 'auto')
-      .css('width', '25em')
-      .css('position', 'absolute')
-    $('#details_' + id).show()
-    $('#show_' + id).hide()
-    $('#hide_' + id).show()
+  if (!id) { 
+    document.querySelectorAll(".temp_card")[0].remove();
+      document.body.classList.remove("modal-open");
   }
-  lastId = id
+  else {
+    lastId = id
+
+    var t = document.getElementById("card_" + id)
+    if (document.querySelectorAll(".temp_card_" + id).length > 0) {
+      document.querySelectorAll(".temp_card_" + id)[0].remove();
+      document.body.classList.remove("modal-open");
+    } else {
+      var temp = document.createElement("div");
+      var tempInner = document.createElement("div");
+      tempInner.classList.add("opened");
+      tempInner.classList.add("AppDisplayCard");
+      tempInner.innerHTML = String(t.innerHTML).replace("onclick=", "_disabled=");
+      tempInner.setAttribute("onclick", "event.stopPropagation()");
+      temp.classList.add("temp_card_" + id);
+      temp.classList.add("temp_card");
+      temp.append(tempInner);
+      temp.setAttribute("onclick", "toggleApp()");
+      document.body.append(temp);
+      if (screen.width > 756) { document.body.classList.add("modal-open"); }
+    }
+  }
+
 }
