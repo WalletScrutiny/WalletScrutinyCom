@@ -285,6 +285,7 @@ content: "English";
   width:auto;
   float:left;
   margin:0.3em;
+  border-radius: 25%;
 }
 
 @media (max-width:756px){

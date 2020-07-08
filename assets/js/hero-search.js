@@ -14,7 +14,7 @@ window.onload = function () {
 
 
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', '/moreApps', true);
+  xhr.open('GET', '/moreApps', false);
   xhr.onload = function () {
     if (200 === xhr.status && xhr.responseText.length < 1) {
     } else if (200 !== xhr.status) {
@@ -54,7 +54,7 @@ window.onload = function () {
     var s = document.createElement("input");
     s.setAttribute("oninput", "searchCatalogue(this)");
     s.setAttribute("onkeyup", "focusResults(event)");
-    s.setAttribute("placeholder", "Search wallets...");
+    s.setAttribute("placeholder", "Search " + window.wallets.length + " wallets...");
     s.classList.add("walletSearch");
     t.append(s);
     t.append(r);
