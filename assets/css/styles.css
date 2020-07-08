@@ -557,7 +557,7 @@ input.verdict-d-d-all:checked ~ .label-all i{
 
 .flexi-list > div {
   margin: .5rem .5rem;
-  padding: 1rem;
+  padding: .75rem;
   background: #fff;
   border-radius: 10px;
   transition: .2s ease;
