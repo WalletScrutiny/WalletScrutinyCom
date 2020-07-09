@@ -19,6 +19,10 @@ body.modal-open {
 
 @media screen and (max-width:756px){
   #main{width: 100vw !important;}
+  .walletSearch {
+    width: 100%;
+    border-radius: 10px;
+}
 }
 /* END GENEERAL STYLES */
 
