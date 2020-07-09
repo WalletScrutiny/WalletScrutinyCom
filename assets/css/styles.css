@@ -17,10 +17,10 @@ body.modal-open {
   overflow: hidden;
 }
 
-@media screen and (max-width:756px){
+@media (max-width:756px){
   #main{width: 100vw !important;}
   .walletSearch {
-    width: 100%;
+    width: 100% !important;
     border-radius: 10px;
 }
 }
@@ -190,7 +190,7 @@ content: "English";
   border-radius: 5px;
 }
 .results-list li {
-  padding: 20px;
+  padding: 10px 20px 10px 10px;
   margin: 0;
   transition: .2s ease;
 }
@@ -202,6 +202,7 @@ content: "English";
   max-width: 2rem;
   border-radius: 2rem;
   background-color: #fff;
+  margin: 10px;
 }
 
 .walletSearch {
@@ -217,12 +218,6 @@ content: "English";
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  -webkit-column-gap: 10px;
-  -moz-column-gap: 10px;
-  column-gap: 10px;
-  -webkit-row-gap: 10px;
-  -moz-row-gap: 10px;
-  row-gap: 10px;
   justify-content: start;
   align-items: center;
   text-decoration: none;
