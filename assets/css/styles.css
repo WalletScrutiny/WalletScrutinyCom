@@ -17,8 +17,12 @@ body.modal-open {
   overflow: hidden;
 }
 
-@media screen and (max-width:756px){
+@media (max-width:756px){
   #main{width: 100vw !important;}
+  .walletSearch {
+    width: 100% !important;
+    border-radius: 10px;
+}
 }
 /* END GENEERAL STYLES */
 
@@ -75,6 +79,7 @@ body.modal-open {
   overflow: hidden;
   box-shadow: 0px 6px 10px -6px var(--shadow-3, rgba(0,0,0,0.3));
   background-color: #222;
+  margin: .75rem;
 }
 
 .press:hover, .press:hover > img {
@@ -85,13 +90,7 @@ body.modal-open {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  -webkit-column-gap: 15px;
-  -moz-column-gap: 15px;
-  column-gap: 15px;
-  -webkit-row-gap: 2rem;
-  -moz-row-gap: 2rem;
-  row-gap: 2rem;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 1rem;
 }
 
@@ -191,7 +190,7 @@ content: "English";
   border-radius: 5px;
 }
 .results-list li {
-  padding: 20px;
+  padding: 10px 20px 10px 10px;
   margin: 0;
   transition: .2s ease;
 }
@@ -203,6 +202,7 @@ content: "English";
   max-width: 2rem;
   border-radius: 2rem;
   background-color: #fff;
+  margin: 10px;
 }
 
 .walletSearch {
@@ -218,12 +218,6 @@ content: "English";
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  -webkit-column-gap: 10px;
-  -moz-column-gap: 10px;
-  column-gap: 10px;
-  -webkit-row-gap: 10px;
-  -moz-row-gap: 10px;
-  row-gap: 10px;
   justify-content: start;
   align-items: center;
   text-decoration: none;
