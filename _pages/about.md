@@ -9,12 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-
-<!-- **Wallet Scrutiny** is a project aimed at improving the security of
-Android Bitcoin Wallets. -->
-
-
-
 <div class="page-section">
 
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
