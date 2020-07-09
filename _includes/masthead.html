@@ -2,15 +2,16 @@
 
 <div class="masthead"
 {% if "http://localhost:4000" == base_path %}
-  style="background-color: lightgoldenrodyellow"
+  style="background-color: #013a6c"
 {% endif %})
 >
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+        <a class="masthead-logo-link" href="/" alt="{{ site.title }}"><img class="masthead-logo" src="/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

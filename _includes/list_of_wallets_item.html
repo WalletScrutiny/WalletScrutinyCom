@@ -20,36 +20,38 @@
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 {% assign simpleAppId = post.appId | replace: '.', '' %}
 
-<div id="card_{{ simpleAppId }}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left">
-  <div style="width:10em" onclick="toggleApp('{{ simpleAppId }}')">
-    <div id="show_{{ simpleAppId }}" style="float:right">
-      [+]
+<div id="card_{{ simpleAppId }}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="{{ post.url }}">
+  <div style="width:7em;position: relative;" onclick="toggleApp('{{ simpleAppId }}')">
+    <div id="show_{{ simpleAppId }}" class="card-expand-close">
+      <i class="fas fa-plus-square"></i>
     </div>
-    <div id="hide_{{ simpleAppId }}" style="float:right;display:none">
-      [–]
+    <div id="hide_{{ simpleAppId }}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
+      <i class="fas fa-minus-square"></i>
     </div>
     <div style="position:relative">
-      <div class="app_logo">
+      <div class="flex-r">
+    <div class="app_logo">
         <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+    </div>
+        <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
       </div>
-      <img src="/images/stamp_{{ post.verdict }}.png" class="stamp" alt="">
     </div>
-    <div class="app_info_box">
-      <strong>{{ title }}</strong>
-    </div>
+      <div class="app_info_box">
+          <strong>{{ title }}</strong>
+      </div>
   </div>
-  <div id="details_{{ simpleAppId }}" style="width:20em;display:none">
+  <div id="details_{{ simpleAppId }}" class="item-detail-container" style="width:20em;display:none">
     <table>
       <tr><td>Verdict</td>
         <td class="verdict">
-          <span class="{{ post.verdict }} tooltip">
-            {{ vLabel }}
-            <span class="tooltiptext">
-              {{ vTooltip }}
-            </span>
-          </span>
-        </td>
-      </tr>
+    <span class="{{ post.verdict }} tooltip">
+      {{ vLabel }}
+      <span class="tooltiptext">
+        {{ vTooltip }}
+      </span>
+    </span>
+  </td>
+</tr>
       <tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>
       <tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>
       <tr><td>App size</td><td>{{ post.size }}B</td></tr>

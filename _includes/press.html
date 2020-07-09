@@ -1,28 +1,33 @@
 
-<input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
+<div class="page-section">
+<div class="press-button-holder press-button-holder-EN activated">
+  <i class="fas fa-check check"></i>
+  <input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
+</div>
+<div class="press-button-holder press-button-holder-DE activated">
+  <i class="fas fa-check check"></i>
 <input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
+</div>
+<div class="press-button-holder press-button-holder-NL activated">
+  <i class="fas fa-check check"></i>
 <input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
+</div>
+<div class="press-button-holder press-button-holder-ES activated">
+  <i class="fas fa-check check"></i>
 <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
+</div>
+
+<span style="width: 100%;text-align: center;margin-bottom: 1rem;" class="help-text">Filter grid by publication language.</span>
 <script>
   function fpress(el) {
+    $( ".press-button-holder-" + el ).toggleClass( 'activated' );
     $( "#press_button_" + el ).toggleClass( 'activated' );
     $( ".press." + el ).toggleClass( 'hidden' );
   }
 </script>
-<style>
-  .activated {
-    background: lightgreen;
-  }
-  .press {
-    height: 8.1em;
-    width: 8em;
-    border: dotted black 1px;
-    margin: 0.2em;
-    float: left;
-  }
-</style>
 
-<div style="overflow:auto;width:100%">
+
+<div class="press-container">
 {% for p in site.press | sort: "date" | reverse
   %}<div class="press {{ p.language }} {{ p.format }}"><a href="{{ p.link }}"
     title="{{ p.platform }} {{ p.publicationName }}"><img
@@ -39,3 +44,4 @@ endfor %}
 </div>
 
 
+</div>

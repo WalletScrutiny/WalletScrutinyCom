@@ -19,10 +19,10 @@
 {% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
 {% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
 
-<div style="width:100%;text-overflow:ellipsis;overflow:hidden;width:100%;white-space:nowrap"
+<div class="logo_name_bundle"
   title="{{ title  }}">
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-    <img src="/images/wallet_icons/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo" style="height:1em;width:auto;float:left;margin-right:0.5em">
-    {{ title  }}
+    <img src="/images/wallet_icons/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+    <span class="app_name">{{ title  }}</span>
   </a>
 </div>
