@@ -17,7 +17,6 @@ layout: default
 <div id="main" role="main">
 
   {% if page.url == "/" %}
-  {% assign float = "unset" %}
   {% unless page.header.overlay_color or page.header.overlay_image %}
   <header>
     {% if page.title %}
@@ -49,10 +48,9 @@ layout: default
 
   {% if page.url != "/" %}
     {% include sidebar.html %}
-    {% assign float = "right" %}
   {% endif %}
 
-<article class="page" style="float:{{ float }}" itemscope itemtype="http://schema.org/CreativeWork">
+<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}
     <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
     {% endif %}
