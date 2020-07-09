@@ -91,7 +91,7 @@ prepare() {
   git clone $repo app || exit 1
   cd app
   echo "Trying to checkout version $tag ..."
-  git checkout \"$tag\" || exit 1
+  git checkout $tag || exit 1
 }
 
 result() {
