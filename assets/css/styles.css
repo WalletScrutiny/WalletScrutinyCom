@@ -328,6 +328,12 @@ content: "English";
 
 /* LIST OF WALLETS */
 
+.app_info_box, .app_info_box strong {
+  display: block;
+  word-wrap: break-word;
+}
+
+
 .row-identifier{
   display: none;
   animation: intro 0.3s both;
@@ -602,6 +608,15 @@ input.verdict-d-d-all:checked ~ .label-all i{
 
 .AppDisplayCard.opened .item-detail-container{
   display:block !important;
+  margin: 1rem auto;
+}
+
+.AppDisplayCard.opened .item-detail-container table td, .AppDisplayCard.opened .item-detail-container table {
+  border: 0;
+}
+
+.AppDisplayCard.opened .item-detail-container table tr:not(:last-of-type) {
+  box-shadow: inset 0px -1px 0 var(--shadow-2);
 }
 
 .temp_card {
