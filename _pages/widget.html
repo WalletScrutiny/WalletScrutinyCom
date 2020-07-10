@@ -1,0 +1,56 @@
+---
+layout: compress
+permalink: /widget/
+---
+
+<html><head></head>
+<body style="margin:0;padding:0;">
+  <script>
+    window.onload = function () { 
+      var wallets = {% include allAppList.html %}
+      var c = window.location.hash.split("#")[1].split("/")
+      var appId = c[0]
+      var style = c[1]
+      var w = wallets[appId]
+      switch (w.verdict) {
+        case "reproducible":
+          c="4da84d"
+        break
+        default: 
+          c="d33100"
+      }
+      var b = document.createElement("div")
+      b.setAttribute("style", "position:relative;background: #eee;")
+
+      switch (style) {
+        case "small":
+          b.innerHTML = `
+          <a style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: start;align-items: center;padding:1rem;font-family:Helvetica Neue, Arial, sans-serif;text-decoration: none;color: #222;" href="/${appId}/">
+            <img style="box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);height: 3rem;width: auto;padding: .5rem;border-radius: 25%;background: #fff;" src="/images/wallet_icons/small/${w.icon}" alt="Wallet Logo">
+            <div style="display: flex;flex-direction: column; margin:1rem">
+              <strong style="font-size: 18px;">${w.title}</strong>
+              <span style="font-size: 10px;opacity: .6;">APK: ${w.apkVersionName}</span>
+              <span style="background:#4da84d;font-size: 10px;padding: 3px 10px;border-radius: 100px;color: #fff;text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${w.verdict}</span>
+            </div>
+          </a>
+          <div style="padding: 0 1rem 1rem 1rem;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: end;">
+            <a title="Verifiability data provided by Wallet Scrutiny" href="https://walletscrutiny.com" style="text-decoration: none;font-family: sans-serif;font-size: 11px;margin-right: 10px;color: #0064ff;display: block;">WalletScrutiny.com</a>
+            
+            <span onclick="document.getElementById(\'info\').style.display=\'block\';" style="font-size: 12px;font-family: Courier New, Courier, serif;width: 16px;height: 16px;display: block;color: #fff;background: #0064ff;text-align: center;line-height: 16px;border-radius: 16px;cursor:pointer;">i</span>
+          </div>
+          <div id="info" style="display:none;position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;background: #0064ff;color: #fff;font-family: sans-serif;">
+            <p style="padding: 1rem;">Data on app verifiability is provided by Wallet Scrutiny.<br><a>Find out more about embedding a widget into your site here.</a></p>
+          <p style="padding: 1rem;text-align: right;"><span onclick="document.getElementById(\'info\').style.display=\'none\';" style="display: inline-block;background: rgba(0,0,0,0.3);cursor:pointer;padding: 4px 8px;font-size: 12px;border-radius: 100px;">close</span></p>
+          </div>
+          `
+          break
+          default:
+      }
+
+      document.body.append(b)
+    }()
+  </script>
+
+
+</body>
+</html>
