@@ -91,7 +91,7 @@ prepare() {
   git clone $repo app || exit 1
   cd app
   echo "Trying to checkout version $tag ..."
-  git checkout \"$tag\" || exit 1
+  git checkout "$tag" || exit 1
 }
 
 result() {
@@ -207,13 +207,13 @@ testUnstoppable() {
 testBlockchain() {
   repo=https://github.com/blockchain/My-Wallet-V3-Android
   tag="v$versionName($versionCode)"
-  builtApk=$workDir/app/build/outputs/apk/envProd/release/blockchain-${versionName}-envProd-release-unsigned.apk
+  builtApk=$workDir/app/app/build/outputs/apk/envProd/release/blockchain-${versionName}-envProd-release-unsigned.apk
   
   prepare
 
   # build
   docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      './gradlew :app:assembleEnvProdRelease -x :app:lintVitalEnvProdRelease'
+      './scripts/quick_start.sh; ./gradlew :app:assembleEnvProdRelease -x :app:lintVitalEnvProdRelease'
       
   # collect results
   result
