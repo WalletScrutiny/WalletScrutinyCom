@@ -122,9 +122,9 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include embed.html %}
+      {% if page.share %}{% include social-share.html %}
+        {% if page.appId %}{% include embed.html %}{% endif %}
+      {% endif %}
 
       {% include post_pagination.html %}
     </div>
