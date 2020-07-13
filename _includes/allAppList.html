@@ -1,0 +1,27 @@
+{
+  {% for post in site.posts %}
+    "{{ post.appId }}": {
+      "appId": "{{ post.appId }}",
+      "title": "{{ post.title }}",
+      "users": "{{ post.users }}",
+      "launchDate": "{{ post.launchDate | date: '%Y-%m-%d' }}",
+      "latestUpdate": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
+      "apkVersionName": "{{ post.apkVersionName }}",
+      "stars": "{{ post.stars }}",
+      "ratings": "{{ post.ratings }}",
+      "reviews": "{{ post.reviews }}",
+      "size": "{{ post.size }}",
+      "website": "{{ post.website }}",
+      "repository": "{{ post.repository }}",
+      "issue": "{{ post.issue }}",
+      "icon": "{{ post.icon }}",
+      "verdict": "{{ post.verdict }}",
+      "date": "{{ post.date | date: '%Y-%m-%d' }}",
+      "signer": "{{ post.signer }}",
+      "providerTwitter": "{{ post.providerTwitter }}",
+      "providerLinkedIn": "{{ post.providerLinkedIn }}",
+      "providerFacebook": "{{ post.providerFacebook }}",
+      "providerReddit": "{{ post.providerReddit }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

@@ -1,0 +1,96 @@
+---
+layout: compress
+permalink: /widget/
+---
+
+<html>
+<head></head>
+<body style="margin:0;padding:0;">
+  <script>
+    var verdictColor = {
+      "reproducible": "#4da84d",
+      "nonverifiable": "#d33100",
+      "nosource": "#d33100",
+      "custodial": "#d33100",
+      "nobtc": "#3d506d",
+      "nowallet": "#3d506d",
+      "fewusers": "#3d506d",
+      "wip": "#3d506d"
+    }
+    window.onload = function () { 
+      var wallets = {% include allAppList.html %}
+      var appId, style, appList, verdict, limit, wallet
+      window.location.hash.split("#")[1].split("&").forEach(function(item) {
+        var kv = item.split("=")
+        switch (kv[0]) {
+          case "appId": appId = kv[1]; wallet = wallets[appId]; break
+          case "style": style = kv[1]; break
+          case "appList": appList = kv[1].split(","); break
+          case "verdict": verdict = kv[1]; break
+          case "limit": limit = kv[1]; break
+        }
+      })
+      console.log(`appId = ${appId}`)
+      console.log(`style = ${style}`)
+      console.log(`appList = ${appList}`)
+      console.log(`verdict = ${verdict}`)
+      console.log(`limit = ${limit}`)
+      var b = document.createElement("div")
+      b.setAttribute("style", "position:relative;background: #eee;")
+      switch (style) {
+        case "short":
+          b.innerHTML = getWidgetShort(wallet)
+          break
+        case "long":
+          b.innerHTML = getWidgetLong(wallet)
+          break
+        default:
+      }
+      document.body.append(b)
+    }()
+    function getWidgetShort(wallet) {
+      return getWidgetHtml(wallet, false)
+    }
+    function getWidgetLong(wallet) {
+      return getWidgetHtml(wallet, true)
+    }
+    function getWidgetHtml(wallet, includeDetails) {
+      var details = (includeDetails) ? `
+        <table style="margin:1em">
+          <tr><td>Downloads</td><td>${wallet.users}</td></tr>
+          <tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.ratings} users</td></tr>
+          <tr><td>App size</td><td>${wallet.size}B</td></tr>
+          <tr><td>Launched</td><td>${wallet.launchDate}</td></tr>
+          <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
+          <tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id=${wallet.appId}">${wallet.appId}</a></td></tr>
+          ${ (wallet.website != "") ? `<tr><td>Website</td><td><a href="${wallet.website}">${wallet.website}</a></td></tr>` : ``}
+          ${ (wallet.repository != "") ? `<tr><td>Source Code</td><td><a href="${wallet.repository}">${wallet.repository}</a></td></tr>` : ``}
+          ${ (wallet.issue != "") ? `<tr><td>Open Issue</td><td><a href="${wallet.issue}">${wallet.issue}</a></td></tr>` : ``}
+          ${ (wallet.providerTwitter != "") ? `<tr><td>Twitter</td><td><a href="https://twitter.com/${wallet.providerTwitter}">@${wallet.providerTwitter}</a></td></tr>` : ``}
+          ${ (wallet.providerFacebook != "") ? `<tr><td>Facebook</td><td><a href="https://www.facebook.com/${wallet.providerFacebook}">${wallet.providerFacebook}</a></td></tr>` : ``}
+          ${ (wallet.providerReddit != "") ? `<tr><td>Reddit</td><td><a href="https://www.reddit.com/r/${wallet.providerReddit}">r/${wallet.providerReddit}</a></td></tr>` : ``}
+          ${ (wallet.providerLinkedIn != "") ? `<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/${wallet.providerLinkedIn}">${wallet.providerLinkedIn}</a></td></tr>` : ``}
+        </table>` : ``
+      return `
+      <a style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: start;align-items: center;padding:1rem;font-family:Helvetica Neue, Arial, sans-serif;text-decoration: none;color: #222;" href="/${wallet.appId}/">
+        <img style="box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);height: 3rem;width: auto;padding: .5rem;border-radius: 25%;background: #fff;" src="/images/wallet_icons/small/${wallet.icon}" alt="Wallet Logo">
+        <div style="display: flex;flex-direction: column; margin:1rem">
+          <strong style="font-size: 18px;">${wallet.title}</strong>
+          <span style="font-size: 10px;opacity: .6;">APK: ${wallet.apkVersionName}</span>
+          <span style="background:${verdictColor[wallet.verdict]};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: #fff;text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${wallet.verdict}</span>
+        </div>
+      </a>
+      ${details}
+      <div style="padding: 0 1rem 1rem 1rem;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: end;">
+        <a title="Verifiability data provided by Wallet Scrutiny" href="https://walletscrutiny.com" style="text-decoration: none;font-family: sans-serif;font-size: 11px;margin-right: 10px;color: #0064ff;display: block;">WalletScrutiny.com</a>
+        
+        <span onclick="document.getElementById('info').style.display=\'block\';" style="font-size: 12px;font-family: Courier New, Courier, serif;width: 16px;height: 16px;display: block;color: #fff;background: #0064ff;text-align: center;line-height: 16px;border-radius: 16px;cursor:pointer;">i</span>
+      </div>
+      <div id="info" style="display:none;position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;background: #0064ff;color: #fff;font-family: sans-serif;">
+        <p style="padding: 1rem;">Data on app verifiability is provided by Wallet Scrutiny.<br><a>Find out more about embedding a widget into your site here.</a></p>
+      <p style="padding: 1rem;text-align: right;"><span onclick="document.getElementById(\'info\').style.display=\'none\';" style="display: inline-block;background: rgba(0,0,0,0.3);cursor:pointer;padding: 4px 8px;font-size: 12px;border-radius: 100px;">close</span></p>
+      </div>`
+    }
+  </script>
+</body>
+</html>
