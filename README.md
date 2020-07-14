@@ -7,8 +7,6 @@ Pull Requests welcome.
 
 ## To run locally
 
-### Install
-
 1. Clone the repository: `git clone https://gitlab.com/walletscrutiny/walletScrutinyCom; cd walletScrutinyCom`
 1. Install global dependencies: `apt update; apt install nodejs npm ruby-dev ruby-bundler -y`
 1. Install more global dependencies: `npm i --global npm@latest`
@@ -17,7 +15,7 @@ Pull Requests welcome.
 1. Install bundler: `gem install bundler:2.1.4`
 1. Install bundler stuff: `bundler install`
 
-### Run for local development
+### For local development
 
 This is for you if you want to make changes. It starts a server that you can
 reach at localhost:4000 and when you change a source file, it automatically
@@ -29,13 +27,13 @@ Each build takes around 7s.
 npx gulp serve
 ```
 
-### Build for production deployment
+### For production deployment
 
-This will also minify the html, css and js which takes all in all about 40s. The
+This will also minify the html, css and js which takes all in all about 50s. The
 result can be found in the `_site/` folder and uploaded to your web server.
 
 ```
-npx gulp serve
+npx gulp
 ```
 
 ## Run the wallet apk test script
