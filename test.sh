@@ -16,14 +16,30 @@ dockerApktool() {
   targetFolderBase=$(basename "$targetFolder")
   appFolder=$(dirname "$app")
   appFile=$(basename "$app")
-  docker run --rm --volume $targetFolderParent:/tfp --volume $appFolder:/af:ro $wsDocker sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\"; chown $(id -u):$(id -g) -R /tfp/"
+  # Run apktool in a docker container so apktool doesn't need to be installed.
+  # The folder with the apk file is mounted read only and only the output folder
+  # is mounted with write permission.
+  # If docker is running as root, change the owner of the output to the current
+  # user. If that fails, ignore it.
+  docker run \
+    --rm \
+    --volume $targetFolderParent:/tfp \
+    --volume $appFolder:/af:ro \
+    $wsDocker \
+    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\"; chown $(id -u):$(id -g) -R /tfp/ || true"
   return $?
 }
 
 getSigner() {
   DIR=$(dirname "$1")
   BASE=$(basename "$1")
-  s=$( docker run --rm --volume $DIR:/mnt:ro --workdir /mnt $wsDocker apksigner verify --print-certs "$BASE" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
+  s=$(
+    docker run \
+      --rm \
+      --volume $DIR:/mnt:ro \
+      --workdir /mnt \
+      $wsDocker \
+      apksigner verify --print-certs "$BASE" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
   echo $s
 }
 
