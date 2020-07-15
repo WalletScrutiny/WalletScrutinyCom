@@ -52,3 +52,15 @@ Read about <a title="our methodology" href="/methodology/">our methodology</a> t
 <h2 class="section-label">How many users (downloads) are in each category?</h2>
 
 {% include grid_of_wallets_proportional.html %}
+
+
+<h2 class="section-label">Comparing the popularity of categories</h2>
+
+This chart shows for each category, starting on the outer doughnut:
+
+* \# of wallets
+* \# of users
+* \# of ratings
+* average star rating
+
+{% include chart_of_wallets.html %}

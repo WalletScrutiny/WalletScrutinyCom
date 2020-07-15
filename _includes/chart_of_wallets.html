@@ -1,0 +1,67 @@
+<div class="page-section">
+{% include base_path %}
+
+<div style="width:400px;height:400px">
+  <canvas id="myChart"></canvas>
+</div>
+<script>
+  window.addEventListener("load", function() {
+    var counter = {}
+    Object.keys(wallets).forEach(function(k) {
+      var wallet = wallets[k]
+      if (counter[wallet.verdict] == undefined) {
+        counter[wallet.verdict] = {
+          apps: 0,
+          users: 0,
+          appsWithRatings: 0,
+          ratings: 0,
+          stars: 0
+        }
+      }
+      var c = counter[wallet.verdict]
+      c.apps += 1
+      c.users += Number(wallet.users)
+      if (Number(wallet.ratings) > 0) {
+        c.appsWithRatings += 1
+        c.ratings += Number(wallet.ratings)
+        c.stars += Number(wallet.stars)
+      }
+    })
+    Array("custodial", "nosource", "nonverifiable", "reproducible").forEach(function(v) {
+      counter[v].avgRating = Math.round( counter[v].stars / counter[v].appsWithRatings * 100 ) / 100
+    })
+    var datasets = []
+    var labels = {
+      apps: "# of wallets",
+      users: "# of users",
+      ratings: "# of ratings",
+      avgRating: ""
+    }
+    Object.keys(labels).forEach(function(d) {
+      datasets.push({
+        data: [counter.custodial[d], counter.nosource[d], counter.nonverifiable[d], counter.reproducible[d]],
+        backgroundColor: [
+            'rgba(160, 0, 0, 1)',
+            'rgba(200, 0, 0, 1)',
+            'rgba(0, 0, 140, 1)',
+            'rgba(99, 255, 132, 1)'
+          ],
+        borderColor: 'rgba(255, 255, 255, 1)',
+        borderWidth: 3
+      })
+    })
+    var ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Custodial', 'Closed Source', 'Not Verifiable', 'Reproducible'],
+        datasets: datasets
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    });
+  }, false)
+</script>
+</div>
