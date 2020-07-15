@@ -16,7 +16,6 @@ function toggleApp(id) {
   }
   else {
     lastId = id
-
     var t = document.getElementById("card_" + id)
     if (document.querySelectorAll(".temp_card_" + id).length > 0) {
       document.querySelectorAll(".temp_card_" + id)[0].remove();
@@ -36,5 +35,4 @@ function toggleApp(id) {
       if (screen.width > 756) { document.body.classList.add("modal-open"); }
     }
   }
-
 }
