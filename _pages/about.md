@@ -9,6 +9,10 @@ redirect_from:
   - /about.html
 ---
 
+<script>
+  window.wallets = {% include allAppList.html %}
+</script>
+
 <div class="page-section">
 
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
