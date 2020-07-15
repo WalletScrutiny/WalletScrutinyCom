@@ -21,7 +21,7 @@ the latest APK is version {{ page.apkVersionName }}.</p>
 based on data found in their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
   Play description</a>
-and <a href="{{ page.website }}">their website</a>{%
+{% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
   if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
 {% if page.issue %} We discuss verification with the provider in
 <a href="{{ page.issue }}">this issue</a>.{% endif %}</p>
