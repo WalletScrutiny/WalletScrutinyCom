@@ -47,7 +47,7 @@ function searchCatalogue(t) {
       if (n.toUpperCase().indexOf(v) !== -1) {
         if(f==0){result.innerHTML = "";}
         var l = document.createElement("li");
-        l.innerHTML = `<a href='/posts/${r.appId}'><img src='/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
+        l.innerHTML = `<a href='/${r.appId}'><img src='/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
         result.append(l)
         f++
       }
