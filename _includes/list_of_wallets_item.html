@@ -30,14 +30,15 @@
     </div>
     <div style="position:relative">
       <div class="flex-r">
-    <div class="app_logo">
-        <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
-    </div>
-        <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
+        <div class="app_logo">
+          <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+        </div>
+        <span class="stamp stamp-{{ post.verdict }}" alt="{{ post.verdict }}"></span>
       </div>
     </div>
       <div class="app_info_box">
-          <strong>{{ title }}</strong>
+        {% for w in post.warnings %}<span class="warning {{ w.severity }} tooltip"><span class="tooltiptext">Warning of {{ w.severity }} severity!</span></span>{% endfor %}
+        <strong>{{ title }}</strong>
       </div>
   </div>
   <div id="details_{{ simpleAppId }}" class="item-detail-container" style="width:20em;display:none">
@@ -52,9 +53,12 @@
           </span>
         </td>
       </tr>
+      {% for w in post.warnings %}
+        <tr><td><span class="warning {{ w.severity }}">Warning</span></td><td>{{ w.short }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more ...</a></td></tr>
+      {% endfor %}
       <tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>
       <tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>
-      <tr><td>App size</td><td>{{ post.size }}B</td></tr>
+      <tr><td>App size</td><td>{{ post.size }}</td></tr>
       <tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>
       <tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>
       <tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>

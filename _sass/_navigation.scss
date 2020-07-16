@@ -484,6 +484,27 @@
  opacity: 1;
 }
 
+.warning.high::before {
+  content: "⚠";
+  margin: 0 .1em 0 .1em;
+  font-weight: bold;
+  color: red;
+}
+
+.warning.medium::before {
+  content: "⚠";
+  margin: 0 .1em 0 .1em;
+  font-weight: bold;
+  color: orange;
+}
+
+.warning.low::before {
+  content: "⚠";
+  margin: 0 .1em 0 .1em;
+  font-weight: bold;
+  color: gray;
+}
+
 .verdict {
   font-weight: bold;
 }

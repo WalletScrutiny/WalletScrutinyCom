@@ -20,20 +20,33 @@ the latest APK is version {{ page.apkVersionName }}.</p>
 <p>Our last analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
 based on data found in their
 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
-  Play description</a>
+Play description</a>
 {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
   if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
 {% if page.issue %} We discuss verification with the provider in
 <a href="{{ page.issue }}">this issue</a>.{% endif %}</p>
 
-<p>We found these ways of contacting the developers:
+<h1>Contact the developers</h1>
 <ul>
 {% if page.website          %}<li>Website:  <a href="{{                          page.website          }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
 {% if page.providerTwitter  %}<li>Twitter:  <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{ page.providerTwitter }}</a></li>{% endif %}
 {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{ page.providerFacebook }}</a></li>{% endif %}
 {% if page.providerReddit   %}<li>Reddit:   <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{ page.providerReddit   }}</a></li>{% endif %}
 {% if page.providerLinkedIn %}<li>LinkedIn: <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">{{ page.providerLinkedIn }}</a></li>{% endif %}
-</ul></p>
+</ul>
+{% if page.warnings %}
+  <div style="border:solid 2px black;border-radius:5px;margin:20px 0 20px;background-color:#0002"><div style="margin:20px">
+    <h1>Warnings</h1>
+    Warnings are added to wallets when the verdict gets called in question by some
+    reviewers or users. We still stand by our verdict but want the reader to give
+    special attention to those warnings as they might mean that for the intended
+    use of the wallet, the verdict is not correct although it might be correct for
+    other users.
+    {% for w in page.warnings %}
+      <p class="warning {{ w.severity }}"><strong>Warning with {{ w.severity }} severity:</strong> {{ w.message | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endfor %}
+  </div></div>
+{% endif %}
 {% if page.reviewArchive %}
 <h1>Older reviews</h1>
 <ul>
