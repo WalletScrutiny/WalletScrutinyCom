@@ -195,13 +195,16 @@ testAirgapVault() {
   
   prepare
 
+  # cleanup
+  docker rmi airgap-vault -f
+  docker rm airgap-vault-build -f
+  docker image prune -f
   # build
-  sed -i -e "s/version=\"0.0.0\"/version=\"$versionName\"/g" config.xml
   docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
   docker run --name "airgap-vault-build" airgap-vault echo "container ran."
   docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
-  docker rmi airgap-vault-build -f
   docker rmi airgap-vault -f
+  docker rm airgap-vault-build -f
   docker image prune -f
   
   result
