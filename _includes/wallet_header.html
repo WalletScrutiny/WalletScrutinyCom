@@ -1,4 +1,3 @@
-
 {% if page.altTitle %}
   {% assign title = page.altTitle %}
 {% else %}
@@ -37,11 +36,16 @@ Play description</a>
 {% if page.warnings %}
   <div style="border:solid 2px black;border-radius:5px;margin:20px 0 20px;background-color:#0002"><div style="margin:20px">
     <h1>Warnings</h1>
-    Warnings are added to wallets when the verdict gets called in question by some
-    reviewers or users. We still stand by our verdict but want the reader to give
-    special attention to those warnings as they might mean that for the intended
-    use of the wallet, the verdict is not correct although it might be correct for
-    other users.
+    <p>Warnings are listed if there are reservations about a wallet that might
+      make it unsuitable for certain users or when the verdict only aplies to
+      parts of a wallet. A wallet that has non-custodial and custodial accounts
+      for example will get the verdict "non-custodial" and a warning about it
+      also having custodial features.</p>
+    <p>Warnings are listed on a best-effort basis. If you think we missed to
+      warn about an aspect or should tune down a warning, please open an issue
+      on <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/new">
+        our GitLab repository</a>.</p>
+    
     {% for w in page.warnings %}
       <p class="warning {{ w.severity }}"><strong>Warning with {{ w.severity }} severity:</strong> {{ w.message | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endfor %}
@@ -76,8 +80,10 @@ Play description</a>
 <h1>Disclaimer</h1> 
 <p>The following Analysis is not a full code review!
 We plan to make code reviews available in the future but even then it will never
-be a stamp of approval but rather a list of incidents and bad coding practice.
-We cannot find and tell you all the dark secrets the wallet providers might have.</p>
+be a stamp of approval but rather a list of observations.
+It's impossible to know for sure if a wallet is free of bugs and backdoors but
+some observations might shed light on whether this wallet is secure enough for
+your use.</p>
 
 <h1>Do your own research!</h1> 
 <p>Try out searching
