@@ -104,10 +104,9 @@ prepare() {
   mkdir $workDir
   cd $workDir
   # clone
-  git clone $repo app || exit 1
+  echo "Trying to clone version $tag ..."
+  git clone --quiet --branch "$tag" --depth 1 $repo app || exit 1
   cd app
-  echo "Trying to checkout version $tag ..."
-  git checkout "$tag" || exit 1
 }
 
 result() {
@@ -124,6 +123,9 @@ apkHash:        $apkHash
 
 Diff:
 $( diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked )
+
+Revision, tag (and its signature):
+$( git tag -v "$tag" )
 
 Run a full
 diff --recursive $fromPlayUnpacked $fromBuildUnpacked
@@ -193,13 +195,16 @@ testAirgapVault() {
   
   prepare
 
+  # cleanup
+  docker rmi airgap-vault -f
+  docker rm airgap-vault-build -f
+  docker image prune -f
   # build
-  sed -i -e "s/version=\"0.0.0\"/version=\"$versionName\"/g" config.xml
   docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
   docker run --name "airgap-vault-build" airgap-vault echo "container ran."
   docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
-  docker rmi airgap-vault-build -f
   docker rmi airgap-vault -f
+  docker rm airgap-vault-build -f
   docker image prune -f
   
   result
