@@ -13,7 +13,7 @@ const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
 repository,issue,icon,bugbounty,verdict,providerTwitter,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-altTitle,reviewStale,reviewArchive,signer".split(","))
+altTitle,reviewStale,reviewArchive,signer,warnings".split(","))
 
 var allHeaders = new Set()
 const postsFolder = "/mnt/_posts/"
@@ -85,51 +85,48 @@ function writeResult(app, header, iconExtension, body) {
   var launchDateString = ""
   if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
-  const reviewArchive = new Set(header.reviewArchive)
-  const redirects = new Set(header.redirect_from)
-  redirects.add("/" + header.appId + "/")
+  const reviewArchive = header.reviewArchive
+  const redirects = header.redirect_from
+  if (!redirects.includes("/" + header.appId + "/")) {
+    redirects.push("/" + header.appId + "/")
+  }
   const path = `_posts/2019-12-20-${header.appId}.md`
   const file = fs.createWriteStream(path)
   console.log("Writing results to " + path)
+  const newHeader = {
+    title: app.title,
+    alttitle: altTitle,
+    users: app.minInstalls,
+    appId: header.appId,
+    launchDate: launchDateString,
+    latestUpdate: dateFormat(app.updated, "yyyy-mm-dd"),
+    apkVersionName: apkVersionName,
+    stars: app.scoreText || "",
+    ratings: app.ratings || "",
+    reviews: app.reviews || "",
+    size: app.size,
+    website: app.website || header.website || "",
+    repository: header.repository || "",
+    issue: header.issue || "",
+    icon: `${header.appId}.${iconExtension}`,
+    bugbounty: header.bugbounty || "",
+    verdict: header.verdict,
+    warnings: header.warnings,
+    date: dateFormat(header.date, "yyyy-mm-dd"),
+    reviewStale: stale,
+    signer: header.signer || "",
+    reviewArchive: reviewArchive,
+    providerTwitter: header.providerTwitter || "",
+    providerLinkedIn: header.providerLinkedIn || "",
+    providerFacebook: header.providerFacebook || "",
+    providerReddit: header.providerReddit || "",
+    permalink: header.permalink || `/posts/${header.appId}/`,
+    redirect_from: redirects
+  }
+
   file.write(`---
-title: "${app.title}"
-altTitle: ${altTitle}
-
-users: ${app.minInstalls}
-appId: ${header.appId}
-launchDate: ${launchDateString}
-latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: "${ apkVersionName }"
-stars: ${app.scoreText || ""}
-ratings: ${app.ratings || ""}
-reviews: ${app.reviews || ""}
-size: ${app.size}
-website: ${app.website || header.website || ""}
-repository: ${header.repository || ""}
-issue: ${header.issue || ""}
-icon: ${header.appId}.${iconExtension}
-bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
-signer: ${header.signer || ""}
-reviewArchive:
-${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
-  version: "${item.version}"
-  apkHash: ${item.apkHash || ""}
-  gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")}
-
-providerTwitter: ${header.providerTwitter || ""}
-providerLinkedIn: ${header.providerLinkedIn || ""}
-providerFacebook: ${header.providerFacebook || ""}
-providerReddit: ${header.providerReddit || ""}
-
-permalink: ${header.permalink || "/posts/" + header.appId + "/"}
-redirect_from:
-${[...redirects].map((item) => "  - " + item).join("\n")}
+${yaml.safeDump(newHeader)}
 ---
-
 
 ${body}`)
 }
