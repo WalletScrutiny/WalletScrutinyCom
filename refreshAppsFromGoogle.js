@@ -9,11 +9,12 @@ const exec = require('child_process').exec
 const yaml = require('js-yaml')
 const sleep = require('sleep').sleep
 
-const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
-latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,\
-providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-altTitle,reviewStale,reviewArchive,signer".split(","))
+// these headers get initialized in this order for new apps
+const defaultHeaders = "title altTitle users appId launchDate latestUpdate \
+apkVersionName stars ratings reviews size website repository issue icon \
+bugbounty verdict date reviewStale signer reviewArchive \
+providerTwitter providerLinkedIn providerFacebook providerReddit permalink \
+redirect_from".split(" ")
 
 var allHeaders = new Set()
 const postsFolder = "/mnt/_posts/"
@@ -30,7 +31,7 @@ fs.readdir(postsFolder, function (err, files) {
     const header = yaml.safeLoad(headerStr)
     const appId = header.appId
     for(var i of Object.keys(header)) {
-      if(!allowedHeaders.has(i)) {
+      if(!defaultHeaders.includes(i)) {
         console.error("losing property " + i + " in " + postPath)
       }
     }
@@ -78,56 +79,57 @@ fs.readdir(postsFolder, function (err, files) {
 })
 
 function writeResult(app, header, iconExtension, body) {
-  var altTitle = header.altTitle || ""
-  if (altTitle.length > 0) altTitle = `"${altTitle}"`
   var apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
-  var launchDateString = ""
+  var launchDateString = null
   if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
-  const reviewArchive = new Set(header.reviewArchive)
-  const redirects = new Set(header.redirect_from)
-  redirects.add("/" + header.appId + "/")
+  const redirects = header.redirect_from
+  if (!redirects.includes("/" + header.appId + "/")) {
+    redirects.push("/" + header.appId + "/")
+  }
   const path = `_posts/2019-12-20-${header.appId}.md`
   const file = fs.createWriteStream(path)
   console.log("Writing results to " + path)
+  header.title = app.title
+  header.users = app.minInstalls
+  header.launchDate = launchDateString
+  header.latestUpdate = dateFormat(app.updated, "yyyy-mm-dd")
+  header.apkVersionName = apkVersionName
+  header.stars = app.scoreText || null
+  header.ratings = app.ratings || null
+  header.reviews = app.reviews || null
+  header.size = app.size
+  header.website = app.website || header.website
+  header.icon = `${header.appId}.${iconExtension}`
+  header.reviewStale = stale
+  header.permalink = header.permalink || `/posts/${header.appId}/`
+  header.redirect_from = redirects
+
+  // make sure we have all properties for new apps or new properties
+  // clean up undefineds
+  defaultHeaders.forEach(function(h){
+    if (!(h in header)) {
+      header[h] = null
+    }
+  })
+
+  const schema = yaml.DEFAULT_SAFE_SCHEMA
+  schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function() { return '' }
   file.write(`---
-title: "${app.title}"
-altTitle: ${altTitle}
-
-users: ${app.minInstalls}
-appId: ${header.appId}
-launchDate: ${launchDateString}
-latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: "${ apkVersionName }"
-stars: ${app.scoreText || ""}
-ratings: ${app.ratings || ""}
-reviews: ${app.reviews || ""}
-size: ${app.size}
-website: ${app.website || header.website || ""}
-repository: ${header.repository || ""}
-issue: ${header.issue || ""}
-icon: ${header.appId}.${iconExtension}
-bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
-signer: ${header.signer || ""}
-reviewArchive:
-${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
-  version: "${item.version}"
-  apkHash: ${item.apkHash || ""}
-  gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")}
-
-providerTwitter: ${header.providerTwitter || ""}
-providerLinkedIn: ${header.providerLinkedIn || ""}
-providerFacebook: ${header.providerFacebook || ""}
-providerReddit: ${header.providerReddit || ""}
-
-permalink: ${header.permalink || "/posts/" + header.appId + "/"}
-redirect_from:
-${[...redirects].map((item) => "  - " + item).join("\n")}
+${yaml.safeDump(header, {
+  noArrayIndent: true,
+  schema: schema,
+  sortKeys: function(a, b) {
+    const mainIndexA = defaultHeaders.indexOf(a)
+    const mainIndexB = defaultHeaders.indexOf(b)
+    if (mainIndexA < 0 || mainIndexB < 0) {
+      // don't touch sorting except for top level elements. for now.
+      return 0
+    }
+    return defaultHeaders.indexOf(a) - defaultHeaders.indexOf(b)
+  }
+})}
 ---
 
 
