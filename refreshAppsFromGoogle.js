@@ -93,39 +93,26 @@ function writeResult(app, header, iconExtension, body) {
   const path = `_posts/2019-12-20-${header.appId}.md`
   const file = fs.createWriteStream(path)
   console.log("Writing results to " + path)
-  const newHeader = {
-    title: app.title,
-    alttitle: altTitle,
-    users: app.minInstalls,
-    appId: header.appId,
-    launchDate: launchDateString,
-    latestUpdate: dateFormat(app.updated, "yyyy-mm-dd"),
-    apkVersionName: apkVersionName,
-    stars: app.scoreText || "",
-    ratings: app.ratings || "",
-    reviews: app.reviews || "",
-    size: app.size,
-    website: app.website || header.website || "",
-    repository: header.repository || "",
-    issue: header.issue || "",
-    icon: `${header.appId}.${iconExtension}`,
-    bugbounty: header.bugbounty || "",
-    verdict: header.verdict,
-    warnings: header.warnings,
-    date: dateFormat(header.date, "yyyy-mm-dd"),
-    reviewStale: stale,
-    signer: header.signer || "",
-    reviewArchive: reviewArchive,
-    providerTwitter: header.providerTwitter || "",
-    providerLinkedIn: header.providerLinkedIn || "",
-    providerFacebook: header.providerFacebook || "",
-    providerReddit: header.providerReddit || "",
-    permalink: header.permalink || `/posts/${header.appId}/`,
-    redirect_from: redirects
-  }
+  header.title = app.title
+  header.users = app.minInstalls
+  header.launchDate = launchDateString
+  header.latestUpdate = dateFormat(app.updated, "yyyy-mm-dd")
+  header.apkVersionName = apkVersionName
+  header.stars = app.scoreText || ""
+  header.ratings = app.ratings || ""
+  header.reviews = app.reviews || ""
+  header.size = app.size
+  header.website = app.website || header.website || ""
+  header.icon = `${header.appId}.${iconExtension}`
+  header.reviewStale = stale
+  header.reviewArchive = reviewArchive
+  header.permalink = header.permalink || `/posts/${header.appId}/`
+  header.redirect_from = redirects
 
   file.write(`---
-${yaml.safeDump(newHeader)}
+${yaml.safeDump(header, {
+  noArrayIndent: true
+})}
 ---
 
 ${body}`)
