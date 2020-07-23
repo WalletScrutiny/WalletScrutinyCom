@@ -9,11 +9,12 @@ const exec = require('child_process').exec
 const yaml = require('js-yaml')
 const sleep = require('sleep').sleep
 
-const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
-latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,\
-providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-altTitle,reviewStale,reviewArchive,signer,warnings".split(","))
+// these headers get initialized in this order for new apps
+const defaultHeaders = "title altTitle users appId launchDate latestUpdate \
+apkVersionName stars ratings reviews size website repository issue icon \
+bugbounty verdict warnings date reviewStale signer reviewArchive \
+providerTwitter providerLinkedIn providerFacebook providerReddit permalink \
+redirect_from".split(" ")
 
 var allHeaders = new Set()
 const postsFolder = "/mnt/_posts/"
@@ -30,7 +31,7 @@ fs.readdir(postsFolder, function (err, files) {
     const header = yaml.safeLoad(headerStr)
     const appId = header.appId
     for(var i of Object.keys(header)) {
-      if(!allowedHeaders.has(i)) {
+      if(!defaultHeaders.includes(i)) {
         console.error("losing property " + i + " in " + postPath)
       }
     }
@@ -78,14 +79,11 @@ fs.readdir(postsFolder, function (err, files) {
 })
 
 function writeResult(app, header, iconExtension, body) {
-  var altTitle = header.altTitle || ""
-  if (altTitle.length > 0) altTitle = `"${altTitle}"`
   var apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
-  var launchDateString = ""
+  var launchDateString = null
   if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
-  const reviewArchive = header.reviewArchive
   const redirects = header.redirect_from
   if (!redirects.includes("/" + header.appId + "/")) {
     redirects.push("/" + header.appId + "/")
@@ -98,20 +96,33 @@ function writeResult(app, header, iconExtension, body) {
   header.launchDate = launchDateString
   header.latestUpdate = dateFormat(app.updated, "yyyy-mm-dd")
   header.apkVersionName = apkVersionName
-  header.stars = app.scoreText || ""
-  header.ratings = app.ratings || ""
-  header.reviews = app.reviews || ""
+  header.stars = app.scoreText || null
+  header.ratings = app.ratings || null
+  header.reviews = app.reviews || null
   header.size = app.size
-  header.website = app.website || header.website || ""
+  header.website = app.website || header.website
   header.icon = `${header.appId}.${iconExtension}`
   header.reviewStale = stale
-  header.reviewArchive = reviewArchive
   header.permalink = header.permalink || `/posts/${header.appId}/`
   header.redirect_from = redirects
+  
+  // make sure we have all properties for new apps or new properties
+  // clean up undefineds
+  defaultHeaders.forEach(function(h){
+    if (!(h in header)) {
+      header[h] = null
+    }
+  })
 
+  const schema = yaml.DEFAULT_SAFE_SCHEMA
+  schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function() { return '' }
   file.write(`---
 ${yaml.safeDump(header, {
-  noArrayIndent: true
+  noArrayIndent: true,
+  schema: schema,
+  sortKeys: function(a, b) {
+    return defaultHeaders.indexOf(a) - defaultHeaders.indexOf(b)
+  }
 })}
 ---
 
