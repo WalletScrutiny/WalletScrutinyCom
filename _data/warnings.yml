@@ -1,4 +1,5 @@
 notProductionReady:
+  verdictAlert: null
   securityAlert: high
   privacyAlert: null
   uxAlert: null

@@ -1,0 +1,31 @@
+---
+permalink: /warnings/
+title: "Issues to look for when choosing a wallet"
+---
+
+{% include base_path %}
+
+The following is a list of aspects to consider when choosing a wallet or using
+a feature of a wallet:
+
+{% for warning in site.data.warnings %}
+  {% assign w = warning[1] %}
+  <h3>{{ w.short }}</h3>
+
+  <ul>
+    {% if w.verdictAlert %}
+      <li>Verdict alert of {{ w.verdictAlert }} severity</li>
+    {% endif %}
+    {% if w.securityAlert %}
+      <li>Security alert of {{ w.securityAlert }} severity</li>
+    {% endif %}
+    {% if w.privacyAlert %}
+      <li>Privacy alert of {{ w.privacyAlert }} severity</li>
+    {% endif %}
+    {% if w.uxAlert %}
+      <li>UX alert of {{ w.uxAlert }} severity</li>
+    {% endif %}
+  </ul>
+
+  {{ w.message | markdownify }}
+{% endfor %}
