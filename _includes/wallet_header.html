@@ -47,7 +47,14 @@ Play description</a>
         our GitLab repository</a>.</p>
     
     {% for w in page.warnings %}
-      <p class="warning {{ w.severity }}"><strong>Warning with {{ w.severity }} severity:</strong> {{ w.message | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% if w.short %}
+        {% assign warning = w %}
+      {% else %}
+        {% assign warning = site.data.warnings[w] %}
+      {% endif %}
+      {% if warning.verdictAlert %}
+        <p class="warning {{ warning.verdictAlert }}"><strong>Warning with {{ warning.verdictAlert }} severity:</strong> {{ warning.message | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
     {% endfor %}
   </div></div>
 {% endif %}
