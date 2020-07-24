@@ -1,0 +1,105 @@
+notProductionReady:
+  securityAlert: high
+  privacyAlert: null
+  uxAlert: null
+  short: Not recommended as wallet by the provider!
+  message: The provider describes the product as not ready for use as a wallet.
+highDataUse:
+  uxAlert: medium
+  short: High data usage!
+  message: >
+    This app might download hundreds of GB of data and thus is not suited for
+    use on a metered internet connection. Depending on your network speed, you
+    might also have to wait a long time for certain interactions.
+defaultProviderApi:
+  privacyAlert: medium
+  short: Weak privacy!
+  message: >
+    By default, this wallet connects to servers of the provider to query
+    transactions and balances. The provider can log all addresses of all your
+    accounts. Although providers normally promise not to do so, it is hard to
+    know for sure. Things that can be done about this issue:
+    
+    ### Use compact block filters
+    
+    Compact block filters (for example
+    [BIP158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki))
+    allow you to download an "index" of all transactions that allows you to then
+    download only full blocks relevant to you. This is slower than asking a
+    powerful server for your balance and transactions but if done right, it is
+    very private.
+    
+    ### Use your own backend server
+    
+    Some providers let you configure your own bitcoin full node, electrum server
+    or other product that can make quick transaction look-ups for you. Using
+    your own server, you can control what gets logged and what not.
+defaultSPV:
+  privacyAlert: high
+  uxAlert: low
+  short: Weak privacy and a bit slow!
+  message: >
+    By default this wallet queries random full nodes for your transactions. For
+    this to work, it has to send all your addresses to those full nodes. By some
+    estimates, half of publicly reachable full nodes are run by Blockchain
+    Analysis companies. These companies collect data on Bitcoin transactions and
+    sell those to interested parties like exchanges, tax authorities, law
+    enforcement etc. To improve your privacy
+    
+    ### Use compact block filters
+    
+    Compact block filters (for example
+    [BIP158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki))
+    allow you to download an "index" of all transactions that allows you to then
+    download only full blocks relevant to you. This is slower than asking a
+    powerful server for your balance and transactions but if done right, it is
+    very private.
+    
+    ### Use your own backend server
+    
+    Some providers let you configure your own bitcoin full node, electrum server
+    or other product that can make quick transaction look-ups for you. Using
+    your own server, you can control what gets logged and what not.
+liquid:
+  verdictAlert: low
+  securityAlert: medium
+  short: Liquid might not be as trust-less as advertised!
+  message: >
+    The supported liquid network might degrade to a quasi custodial wallet [as
+    has happened in the
+    past](https://twitter.com/_prestwich/status/1276318599410364416)!
+    
+    Educate yourself about the risks and benefits of this protocol.
+2of2timeoutSig:
+  privacyAlert: medium
+  short: 2of2 signature feature has negative side effects
+  message: >
+    The wallet provides a security feature that allows you to define spending
+    limits so a thief cannot empty your wallet without a server of the provider
+    approving this transaction. While this feature can help save your funds, it
+    also comes at a cost:
+    
+    * Your transaction history is necessarily known to the provider.
+    
+    * Your transaction history is mostly visible on the blockchain as your
+    change output goes to this very special script again.
+      
+    * Your funds might be temporarily locked when you urgently need them.
+    
+    * The feature only works if you roll funds over: If you go without doing any
+    transactions for a while, you also lose the benefits until you do a new
+    transaction.
+      
+    * Transactions are more expensive as the more complicated script requires
+    more space on the blockchain.
+      
+    * Funds protected by this feature cannot be discovered by any other wallet.
+    As the wallet is fully transparent, this could be worked around in case that
+    the provider went away from one day to the other.
+      
+    There is a misconception that this feature would allow the provider to hold
+    the users' funds ransom but to our knowledge this is not the case as it is
+    a 2-of-2 script with a timeout after which the server's key is not needed
+    anymore.
+
+
