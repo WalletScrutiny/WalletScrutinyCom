@@ -1,11 +1,11 @@
-
+{% include base_path %}
 {% if page.altTitle %}
   {% assign title = page.altTitle %}
 {% else %}
   {% assign title = page.title %}
 {% endif %}
 
-<img src="/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+<img src="{{ base_path }}/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
 <p>This app
 {% if page.launchDate %}
   was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
@@ -45,7 +45,7 @@ based on data found in their
 
 {% if page.providerTwitter  %}
   <h1>Help spread awareness for build reproducibility</h1>
-  <p><img src="/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+  <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
   {% if page.verdict == "reproducible" %}
     Please follow {{ title }} and thank them for being reproducible
   {% else if page.verdict == nonverifiable %}

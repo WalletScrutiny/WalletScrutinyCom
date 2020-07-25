@@ -5,6 +5,7 @@ permalink: /moreApps/
 author_profile: true
 ---
 
+{% include base_path %}
 <div class="page-section">
   <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
 
@@ -69,6 +70,6 @@ author_profile: true
 
   <br style="clear:both">
 
-  (<a href="/">main list</a>)
+  (<a href="{{ base_path }}/">main list</a>)
 
 </div>

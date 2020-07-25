@@ -3,6 +3,7 @@ layout: compress
 permalink: /widget/
 ---
 
+{% include base_path %}
 <html>
 <head></head>
 <body style="margin:0;padding:0;">
@@ -70,8 +71,8 @@ permalink: /widget/
           ${ (wallet.providerLinkedIn != "") ? `<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/${wallet.providerLinkedIn}">${wallet.providerLinkedIn}</a></td></tr>` : ``}
         </table>` : ``
       return `
-      <a style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: start;align-items: center;padding:1rem;font-family:Helvetica Neue, Arial, sans-serif;text-decoration: none;color: #222;" href="/${wallet.appId}/">
-        <img style="box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);height: 3rem;width: auto;padding: .5rem;border-radius: 25%;background: #fff;" src="/images/wallet_icons/small/${wallet.icon}" alt="Wallet Logo">
+      <a style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: start;align-items: center;padding:1rem;font-family:Helvetica Neue, Arial, sans-serif;text-decoration: none;color: #222;" href="{{ base_path }}/${wallet.appId}/">
+        <img style="box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);height: 3rem;width: auto;padding: .5rem;border-radius: 25%;background: #fff;" src="{{ base_path }}/images/wallet_icons/small/${wallet.icon}" alt="Wallet Logo">
         <div style="display: flex;flex-direction: column; margin:1rem">
           <strong style="font-size: 18px;">${wallet.title}</strong>
           <span style="font-size: 10px;opacity: .6;">APK: ${wallet.apkVersionName}</span>

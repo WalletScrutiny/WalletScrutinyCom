@@ -22,7 +22,7 @@ layout: default
   <header>
     {% if page.title %}
     <div class="hero-parent">
-      <img src="/images/hero.png" class="hero-banner" />
+      <img src="{{ base_path }}/images/hero.png" class="hero-banner" />
       <div class="hero-cta">
         <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
         {% if page.summary %}
@@ -38,11 +38,7 @@ layout: default
     </div>
 
     {% endif %}
-
-
-<script src="/assets/js/hero-search.js"></script>
-
-
+    <script src="{{ base_path }}/assets/js/hero-search.js"></script>
   </header>
   {% endunless %}
   {% endif %}
