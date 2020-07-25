@@ -1,0 +1,67 @@
+fullSegwit:
+  short: Full SegWit Support
+  description: >
+    SegWit which is short for "Segregated Witness" was an upgrade to the Bitcoin
+    protocol which came with new address types.
+    **Full SegWit Support** means that the wallet can both send to and receive
+    to all SegWit address types, including bech32.
+  benefit: >
+    * *Receiving to SegWit addresses* provides fee savings, as the sending these
+    funds is possible using less base-block space. In Bitcoin, transaction fees
+    are proportional to the transaction size in bytes.
+    
+    * *Receiving to bech32 addresses* provides more fee savings than P2SH
+    Segwit addresses.
+    
+    * *Sending to SegWit addresses* is sometimes required to use more modern
+    tools that dropped support for legacy addresses, often because of another
+    core property of SegWit transactions: They are not malleable, meaning that
+    the transaction ID cannot be changed "in transit" (on unconfirmed
+    transactions).
+  drawback: null
+payLN:
+  short: Send lightning network transactions
+  description: >
+    The lightning Network (LN) is a layer two protocol that promises instant,
+    low fee micro payments. As receiving payments is more complicated than
+    sending them, some wallets only implement sending.
+  benefit: >
+    Transactions on LN are
+    
+    * *instant*: It usually takes less than five seconds to finish a
+    transaction.
+    
+    * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+    transferred amount and might also be free.
+    
+    * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+    or 0.00000000001 BTC.
+  drawback:
+    LN is still in early development and several very feasible attacks are known
+    that can cost users money or disrupt the network.
+receiveLN:
+  short: Receive lightning network transactions
+  description: >
+    The lightning Network (LN) is a layer two protocol that promises instant,
+    low fee micro payments. As receiving payments is more complicated than
+    sending them, some wallets only implement sending.
+  benefit: >
+    Transactions on LN are
+    
+    * *instant*: It usually takes less than five seconds to finish a
+    transaction.
+    
+    * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+    transferred amount and might also be free.
+    
+    * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+    or 0.00000000001 BTC.
+  drawback:
+    LN is still in early development and several very feasible attacks are known
+    that can cost users money or disrupt the network.    
+bip37spv:
+  short: SPV using bloom filters
+  description: >
+    Simple Payment Verification (SPV) means the app connects to regular Bitcoin
+    full nodes but it does not download the full blockchain. Only the
+    transactions relevant to the own wallets.

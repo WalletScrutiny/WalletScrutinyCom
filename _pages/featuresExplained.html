@@ -1,0 +1,27 @@
+---
+permalink: /features/
+title: "Features to look for when choosing a wallet"
+---
+
+{% include base_path %}
+
+The following is a list of features Bitcoin wallets might have:
+
+{% for feature in site.data.features %}
+  {% assign k = feature[0] %}
+  {% assign f = feature[1] %}
+  <div style="border:solid gray 3px;border-radius:10px;margin:12px">
+    <div style="margin:0 1em 0 1em">
+      <h2 id="{{ k }}"><a href="/features/#{{ k }}">→</a>{{ f.short }} <span style="color:#0004">(key: {{ k }})</span></h2>
+      {{ f.description | markdownify }}
+      {% if f.benefit %}
+        <h3>Benefits</h3>
+        {{ f.benefit | markdownify }}
+      {% endif %}
+      {% if f.drawback %}
+        <h3>Drawbacks</h3>
+        {{ f.drawback | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
