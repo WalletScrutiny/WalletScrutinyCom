@@ -5,15 +5,42 @@ title: "Features to look for when choosing a wallet"
 
 {% include base_path %}
 
-The following is a list of features Bitcoin wallets might have:
+<h1>Aspects features in Bitcoin wallets affect</h1>
 
-{% for feature in site.data.features %}
+<p>Features can be visible or invisible to the user and their relevance might
+  not appear clear from day one but cause regret if being ignored later on. Here
+  is a list of aspects features may touch on:</p>
+
+{% for aspect in site.data.features.aspects %}
+  {% assign k = aspect[0] %}
+  {% assign a = aspect[1] %}
+  <div style="border:solid gray 3px;border-radius:10px;margin:12px">
+    <div style="margin:0 1em 0 1em">
+      <h2 id="{{ k }}"><a href="#{{ k }}">→</a>{{ a.title }} <span style="color:#0004">(key: {{ k }})</span></h2>
+      {{ a.description | markdownify }}
+    </div>
+  </div>
+{% endfor %}
+
+<h1>List of features Bitcoin wallets might have</h1>
+
+{% for feature in site.data.features.items %}
   {% assign k = feature[0] %}
   {% assign f = feature[1] %}
   <div style="border:solid gray 3px;border-radius:10px;margin:12px">
     <div style="margin:0 1em 0 1em">
-      <h2 id="{{ k }}"><a href="/features/#{{ k }}">→</a>{{ f.short }} <span style="color:#0004">(key: {{ k }})</span></h2>
+      <h2 id="{{ k }}"><a href="#{{ k }}">→</a>{{ f.short }} <span style="color:#0004">(key: {{ k }})</span></h2>
       {{ f.description | markdownify }}
+      {% if f.aspects %}
+        <h3>Aspects</h3>
+        <ul>
+          {% for aspect in f.aspects %}
+            {% assign a = site.data.features.aspects[aspect] %}
+            <li><a href="#{{ aspect }}">{{ a.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
       {% if f.benefit %}
         <h3>Benefits</h3>
         {{ f.benefit | markdownify }}

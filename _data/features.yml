@@ -1,67 +1,118 @@
-fullSegwit:
-  short: Full SegWit Support
-  description: >
-    SegWit which is short for "Segregated Witness" was an upgrade to the Bitcoin
-    protocol which came with new address types.
-    **Full SegWit Support** means that the wallet can both send to and receive
-    to all SegWit address types, including bech32.
-  benefit: >
-    * *Receiving to SegWit addresses* provides fee savings, as the sending these
-    funds is possible using less base-block space. In Bitcoin, transaction fees
-    are proportional to the transaction size in bytes.
-    
-    * *Receiving to bech32 addresses* provides more fee savings than P2SH
-    Segwit addresses.
-    
-    * *Sending to SegWit addresses* is sometimes required to use more modern
-    tools that dropped support for legacy addresses, often because of another
-    core property of SegWit transactions: They are not malleable, meaning that
-    the transaction ID cannot be changed "in transit" (on unconfirmed
-    transactions).
-  drawback: null
-payLN:
-  short: Send lightning network transactions
-  description: >
-    The lightning Network (LN) is a layer two protocol that promises instant,
-    low fee micro payments. As receiving payments is more complicated than
-    sending them, some wallets only implement sending.
-  benefit: >
-    Transactions on LN are
-    
-    * *instant*: It usually takes less than five seconds to finish a
-    transaction.
-    
-    * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
-    transferred amount and might also be free.
-    
-    * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
-    or 0.00000000001 BTC.
-  drawback:
-    LN is still in early development and several very feasible attacks are known
-    that can cost users money or disrupt the network.
-receiveLN:
-  short: Receive lightning network transactions
-  description: >
-    The lightning Network (LN) is a layer two protocol that promises instant,
-    low fee micro payments. As receiving payments is more complicated than
-    sending them, some wallets only implement sending.
-  benefit: >
-    Transactions on LN are
-    
-    * *instant*: It usually takes less than five seconds to finish a
-    transaction.
-    
-    * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
-    transferred amount and might also be free.
-    
-    * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
-    or 0.00000000001 BTC.
-  drawback:
-    LN is still in early development and several very feasible attacks are known
-    that can cost users money or disrupt the network.    
-bip37spv:
-  short: SPV using bloom filters
-  description: >
-    Simple Payment Verification (SPV) means the app connects to regular Bitcoin
-    full nodes but it does not download the full blockchain. Only the
-    transactions relevant to the own wallets.
+aspects:
+  security:
+    title: Security
+    description: >
+      This aspect encompasses all aspects of keeping one's coins safe. This is
+      primarily about keeping the user in control over his coins.
+      
+      Privacy issues can also affect the security of coins as prospecting
+      attackers might find a user due to poor privacy practices but privacy is
+      its own aspect.
+  onChainPrivacy:
+    title: Privacy against on-chain analysis
+    description: >
+      Blockchain Analysis is a field several companies have specialized in. They
+      look at publicly available data - the blockchain - to gain information
+      about financial activity. The main interest of on-chain analysis is to
+      determine which transactions were done by the same wallet or which wallets
+      belong to the same individual. They also track and categorize those
+      wallets to provide risk analysis to their clients. In some countries,
+      having transactions to or from online casinos might be considered high
+      risk, in others transactions to companies that are in the wrong country
+      might raise suspicion.
+  networkPrivacy:
+    title: Privacy against network observers
+    description: >
+      Analysis companies are known to provide Bitcoin full nodes for the purpose
+      of gathering extra information from the wallets that connect to full nodes
+      to update their transaction history or to broadcast transactions.
+      
+      Network observers can also be normal routers on the internet, observing
+      unencrypted data.
+  providerPrivacy:
+    title: Privacy against wallet provider
+    description: >
+      The wallet provider might know more about the wallet users than is
+      knowable from outside. Provider privacy covers features that protect the
+      user even against the provider of the wallet.
+  savings:
+    title: Financial savings
+    description: >
+      Some features provide direct financial savings by making transactions
+      cheaper.
+  ux:
+    title: User experience
+    description: >
+      This aspect covers all usability features that are not primarily about
+      security or privacy.
+items:
+  fullSegwit:
+    short: Full SegWit Support
+    description: >
+      SegWit which is short for "Segregated Witness" was an upgrade to the Bitcoin
+      protocol which came with new address types.
+      **Full SegWit Support** means that the wallet can both send to and receive
+      to all SegWit address types, including bech32.
+    aspects:
+      - savings
+      - ux
+    benefit: >
+      * *Receiving to SegWit addresses* provides fee savings, as the sending these
+      funds is possible using less base-block space. In Bitcoin, transaction fees
+      are proportional to the transaction size in bytes.
+      
+      * *Receiving to bech32 addresses* provides more fee savings than P2SH
+      Segwit addresses.
+      
+      * *Sending to SegWit addresses* is sometimes required to use more modern
+      tools that dropped support for legacy addresses, often because of another
+      core property of SegWit transactions: They are not malleable, meaning that
+      the transaction ID cannot be changed "in transit" (on unconfirmed
+      transactions).
+    drawback: null
+  payLN:
+    short: Send lightning network transactions
+    description: >
+      The lightning Network (LN) is a layer two protocol that promises instant,
+      low fee micro payments. As receiving payments is more complicated than
+      sending them, some wallets only implement sending.
+    benefit: >
+      Transactions on LN are
+      
+      * *instant*: It usually takes less than five seconds to finish a
+      transaction.
+      
+      * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+      transferred amount and might also be free.
+      
+      * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+      or 0.00000000001 BTC.
+    drawback:
+      LN is still in early development and several very feasible attacks are known
+      that can cost users money or disrupt the network.
+  receiveLN:
+    short: Receive lightning network transactions
+    description: >
+      The lightning Network (LN) is a layer two protocol that promises instant,
+      low fee micro payments. As receiving payments is more complicated than
+      sending them, some wallets only implement sending.
+    benefit: >
+      Transactions on LN are
+      
+      * *instant*: It usually takes less than five seconds to finish a
+      transaction.
+      
+      * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+      transferred amount and might also be free.
+      
+      * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+      or 0.00000000001 BTC.
+    drawback:
+      LN is still in early development and several very feasible attacks are known
+      that can cost users money or disrupt the network.    
+  bip37spv:
+    short: SPV using bloom filters
+    description: >
+      Simple Payment Verification (SPV) means the app connects to regular Bitcoin
+      full nodes but it does not download the full blockchain. Only the
+      transactions relevant to the own wallets.
