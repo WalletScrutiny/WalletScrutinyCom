@@ -9,23 +9,28 @@ The following is a list of aspects to consider when choosing a wallet or using
 a feature of a wallet:
 
 {% for warning in site.data.warnings %}
+  {% assign k = warning[0] %}
   {% assign w = warning[1] %}
-  <h3>{{ w.short }}</h3>
+  <div style="border:solid gray 3px;border-radius:10px;margin:12px">
+    <div style="margin:0 1em 0 1em">
+      <h3 id="{{ k }}"><a href="/warnings/#{{ k }}">→</a>{{ w.short }} <span style="color:#0004">(key: {{ k }})</span></h3>
 
-  <ul>
-    {% if w.verdictAlert %}
-      <li>Verdict alert of {{ w.verdictAlert }} severity</li>
-    {% endif %}
-    {% if w.securityAlert %}
-      <li>Security alert of {{ w.securityAlert }} severity</li>
-    {% endif %}
-    {% if w.privacyAlert %}
-      <li>Privacy alert of {{ w.privacyAlert }} severity</li>
-    {% endif %}
-    {% if w.uxAlert %}
-      <li>UX alert of {{ w.uxAlert }} severity</li>
-    {% endif %}
-  </ul>
+      <ul>
+        {% if w.verdictAlert %}
+          <li><span class="warning {{ w.verdictAlert }}">{{ w.verdictAlert }} verdict issue</span></li>
+        {% endif %}
+        {% if w.securityAlert %}
+          <li><span class="warning {{ w.securityAlert }}">{{ w.securityAlert }} security issue</span></li>
+        {% endif %}
+        {% if w.privacyAlert %}
+          <li><span class="warning {{ w.privacyAlert }}">{{ w.privacyAlert }} privacy issue</span></li>
+        {% endif %}
+        {% if w.uxAlert %}
+          <li><span class="warning {{ w.uxAlert }}">{{ w.uxAlert }} UX issue</span></li>
+        {% endif %}
+      </ul>
 
-  {{ w.message | markdownify }}
+      {{ w.message | markdownify }}
+    </div>
+  </div>
 {% endfor %}
