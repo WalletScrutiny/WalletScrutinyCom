@@ -206,7 +206,7 @@ items:
     description: >
       [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)
       is a widely used standard for hierarchically deterministic (HD) wallets.
-    aspect:
+    aspects:
       - security
       - ux
     benefit: >
@@ -218,7 +218,7 @@ items:
       [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki)
       accounts are using some of the benefits of SegWit while being compatible
       with old wallets that do not understand bech32 addresses yet.
-    aspect:
+    aspects:
       - security
       - ux
       - saving
