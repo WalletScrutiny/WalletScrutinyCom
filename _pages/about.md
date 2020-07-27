@@ -9,6 +9,7 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
 <script>
   window.wallets = {% include allAppList.html %}
 </script>
@@ -17,7 +18,7 @@ redirect_from:
 
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
 
-<img src="/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 0em 1em 0" />
+<img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 0em 1em 0" />
 <p>
 Do <h>you</h> own your Bitcoins or do you <h>trust</h> that your app allows you to use "your"
 coins while they are actually controlled by <h>"them"</h>? Do you have a backup? Do
@@ -28,7 +29,7 @@ or <h>vulnerabilities</h>? Could anybody check the wallet for those?
 We try to answer these questions for Bitcoin wallets on Android.
 </p>
 <p>
-Read about <a title="our methodology" href="/methodology/">our methodology</a> to understand in more detail.
+Read about <a title="our methodology" href="{{ base_path }}/methodology/">our methodology</a> to understand in more detail.
 </p>
 
 </div>
