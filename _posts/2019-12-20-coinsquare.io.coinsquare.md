@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: coinsquare.io.coinsquare
 launchDate: 
-latestUpdate: 2020-05-11
-apkVersionName: "2.13.6"
+latestUpdate: 2020-07-29
+apkVersionName: "2.13.8"
 stars: 2.5
-ratings: 313
-reviews: 239
+ratings: 314
+reviews: 240
 size: 8.2M
 website: https://coinsquare.com/
 repository: 
