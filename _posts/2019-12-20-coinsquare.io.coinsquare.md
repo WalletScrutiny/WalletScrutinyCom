@@ -23,9 +23,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: https://twitter.com/coinsquare
+providerTwitter: coinsquare
 providerLinkedIn: 
-providerFacebook: https://www.facebook.com/coinsquare.io/
+providerFacebook: coinsquare.io
 providerReddit: 
 
 permalink: /posts/coinsquare.io.coinsquare/
