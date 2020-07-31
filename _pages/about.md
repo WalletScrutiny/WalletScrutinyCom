@@ -42,7 +42,10 @@ Read about <a title="our methodology" href="{{ base_path }}/methodology/">our me
 
 <h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
 
+{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign showVerdictFilter = true %}
 {% include list_of_wallets.html %}
+<a href="{{ base_path }}/moreApps">more apps</a>
 
 
 <h2 class="section-label">How many wallets are in each category?</h2>

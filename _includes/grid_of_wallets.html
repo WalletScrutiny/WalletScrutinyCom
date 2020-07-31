@@ -12,12 +12,6 @@
     </td>
   </tr>
   {% for v in verdicts %}
-    {% case v %}
-      {% when "reproducible" %}  {% assign vLabel = "Reproducible" %}
-      {% when "nonverifiable" %} {% assign vLabel = "Not&nbsp;Verifiable" %}
-      {% when "nosource" %}      {% assign vLabel = "Closed&nbsp;Source" %}
-      {% when "custodial" %}     {% assign vLabel = "Custodial" %}
-    {% endcase %}
     <tr>
       {% assign total = 0 %}
       {% for post in site.android %}
@@ -26,7 +20,7 @@
         {% endif %}
       {% endfor %}
       <td>
-        {{ total }}<br>{{ vLabel }}
+        {{ total }}<br>{{ site.data.verdicts[v].short }}
       </td>
       <td>
         {% for post in posts %}

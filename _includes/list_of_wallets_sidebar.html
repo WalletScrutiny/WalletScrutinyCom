@@ -5,19 +5,7 @@
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
-  {% case verdict %}
-    {% when "reproducible" %}  {% assign verdictLabel = "Reproducible when tested" %}
-    {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
-    {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
-    {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
-    {% when "wip" %}           {% assign verdictLabel = "WIP" %}
-    {% when "fewusers" %}      {% assign verdictLabel = "Few users" %}
-    {% when "defunct" %}       {% assign verdictLabel = "Defunct" %}
-    {% when "nobtc" %}         {% assign verdictLabel = "Non-BTC" %}
-    {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
-    {% else %}                 {% assign verdictLabel = "???" %}
-  {% endcase %}
-  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }}</div>
+  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ site.data.verdicts[verdict].short }}</div>
   {% assign verdictPosts = posts_by_ratings | where: "verdict", verdict %}
   {% for d in downloads %}
     {% assign downloadsPosts = verdictPosts | where: "users", d %}
