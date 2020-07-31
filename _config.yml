@@ -180,7 +180,9 @@ collections:
   android:
     output: true
     permalink: /:collection/:path/
-    layout: single
+  linux:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -189,7 +191,18 @@ defaults:
       path: ""
       type: "android"
     values:
-      layout: single
+      layout: reviewAndroid
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _linux
+  - scope:
+      path: ""
+      type: "linux"
+    values:
+      layout: reviewLinux
       author_profile: true
       read_time: false
       comments: false
