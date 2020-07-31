@@ -177,6 +177,10 @@ kramdown:
 # Collections
 collections:
   press:
+  android:
+    output: true
+    permalink: /:collection/:path/
+    layout: single
   teaching:
     output: false
     permalink: /:collection/:path/
@@ -193,6 +197,17 @@ collections:
 
 # Defaults
 defaults:
+  # _android
+  - scope:
+      path: ""
+      type: "android"
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
   # _posts
   - scope:
       path: ""
