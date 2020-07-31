@@ -2,7 +2,7 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign posts = site.posts | sort: "users" | reverse %}
+{% assign posts = site.android | sort: "users" | reverse %}
 <table id="gridOfWallets2">
   <tr>
     <td>
@@ -19,7 +19,7 @@
       {% when "custodial" %}     {% assign vLabel = "Custodial" %}
     {% endcase %}
     {% assign total = 0 %}
-    {% for post in site.posts %}
+    {% for post in site.android %}
       {% if post.verdict == v %}
         {% assign total = total | plus: post.users %}
       {% endif %}
