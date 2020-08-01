@@ -16,8 +16,8 @@ repository:
 issue: 
 icon: com.satsapp.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-14
+verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-07-31
 reviewStale: false
 signer: 
 reviewArchive:
@@ -34,7 +34,4 @@ redirect_from:
 ---
 
 
-This app might not actually be a wallet as it can/must be paired with the
-company's [Keymaster](/casa.keymaster/) but we suspect it is the lightning
-wallet by Casa and just like with Keymaster we fail to find any source code and
-assume it is **not verifiable**.
+This app was removed from Google Play.
