@@ -1,0 +1,150 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  {% assign float = "" %}
+
+  <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}
+    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.excerpt %}
+    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+    <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}
+    <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% if page.url != "/" %}
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+      <header>
+        {% if page.title %}<h1 class="page__title" itemprop="headline">
+          {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        {% if page.read_time %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+        {% endif %}
+        {% if page.modified %}
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
+            datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+
+        {% if page.date %}
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
+            datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+        </p>
+        {% endif %}
+      </header>
+      {% endunless %}
+      {% endif %}
+
+      <img src="{{ base_path }}/images/wallet_icons/linux/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+      <p>This application
+      {% if page.launchDate %}
+        was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
+      {% endif %}
+      currently
+      has more than {{ page.users }} downloads{%
+        if page.stars %}, a {{ page.stars }} stars rating from {{ page.ratings }} users
+      {% endif %}
+      and the latest release is version {{ page.apkVersionName }}.</p>
+
+      <p>Our last analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
+      based on data found in their
+      <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
+        Play description</a>
+      {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
+        if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
+      {% if page.issue %} We discuss issues with the provider
+      <a href="{{ page.issue }}">here</a>.{% endif %}</p>
+
+      <p>We found these ways of contacting the developers:
+      <ul>
+      {% if page.website          %}<li>Website:  <a href="{{                          page.website          }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
+      {% if page.providerTwitter  %}<li>Twitter:  <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{ page.providerTwitter }}</a></li>{% endif %}
+      {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{ page.providerFacebook }}</a></li>{% endif %}
+      {% if page.providerReddit   %}<li>Reddit:   <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{ page.providerReddit   }}</a></li>{% endif %}
+      {% if page.providerLinkedIn %}<li>LinkedIn: <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">{{ page.providerLinkedIn }}</a></li>{% endif %}
+      </ul></p>
+      {% if page.reviewArchive %}
+      <h1>Older reviews</h1>
+      <ul>
+        {% for review in page.reviewArchive %}
+          <li><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">Review of version {{ review.version }} on {{ review.date | date_to_long_string: "ordinal" }}</a> (verdict: {{  review.verdict }})</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if page.providerTwitter  %}
+        <h1>Help spread awareness for build reproducibility</h1>
+        <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+        {% if page.verdict == "reproducible" %}
+          Please follow {{ title }} and thank them for being reproducible
+        {% else if page.verdict == nonverifiable %}
+          Please help us spread the word, asking {{ title }} to support reproducible builds
+        {% else if page.verdict == nosource %}
+          Please help us spread the word discussing transparency with {{ title }}
+        {% else if page.verdict == custodial %}
+          Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+        {% else %}
+          Please help us spread the word discussing build reproducibility with {{ title }}
+        {% endif %}
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via their Twitter</a>!</p>
+       {% endif %}
+
+      <h1>Disclaimer</h1> 
+      <p>The following Analysis is not a full code review!
+      We plan to make code reviews available in the future but even then it will never
+      be a stamp of approval but rather a list of incidents and questionable coding practice.
+      Nasa sends probes to space that
+      <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">crash
+      due to software bugs</a> despite a huge budget and stringent scrutiny.</p>
+
+      <h1>Do your own research!</h1> 
+      <p>Try out searching
+      for "lost bitcoins", "stole my money" or "scammers" together with the wallet's
+      name, even if you
+      think the wallet is generally trustworthy. For all the bigger wallets you will
+      find accusations. Make sure you understand why they were made and if you are
+      comfortable with the provider's reaction.</p>
+
+      <h1>The Analysis</h1>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+        {% include verdict_explained.html %}
+        {% if page.link %}<div><a href="{{ page.link }}"
+            class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+        <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+      </footer>
+
+      {% if page.share %}
+        {% include social-share.html %}
+        {% include embed.html %}
+      {% endif %}
+    </div>
+  </article>
+</div>

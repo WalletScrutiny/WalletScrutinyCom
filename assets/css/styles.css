@@ -250,7 +250,7 @@ content: "English";
 }
 
 #gridOfWallets1 tr > td:first-of-type, #gridOfWallets2 tr > td:first-of-type {
-  min-width: 100px;
+  min-width: 120px;
   font-weight:bold;
   background-color:#222;
   color:#fff;
@@ -333,13 +333,13 @@ content: "English";
   word-wrap: break-word;
 }
 
-
 .row-identifier{
   display: none;
   animation: intro 0.3s both;
   position: relative;
   z-index: 51;
 }
+
 .icon-row{
   width: 100%;
 }
@@ -348,6 +348,11 @@ input.verdict-d-d-reproducible:checked ~ #tableofwallets div.row-identifier-repr
 input.verdict-d-d-nonverifiable:checked ~ #tableofwallets div.row-identifier-nonverifiable,
 input.verdict-d-d-nosource:checked ~ #tableofwallets div.row-identifier-nosource,
 input.verdict-d-d-custodial:checked ~ #tableofwallets div.row-identifier-custodial,
+input.verdict-d-d-wip:checked ~ #tableofwallets div.row-identifier-wip,
+input.verdict-d-d-nobtc:checked ~ #tableofwallets div.row-identifier-nobtc,
+input.verdict-d-d-fewusers:checked ~ #tableofwallets div.row-identifier-fewusers,
+input.verdict-d-d-defunct:checked ~ #tableofwallets div.row-identifier-defunct,
+input.verdict-d-d-nowallet:checked ~ #tableofwallets div.row-identifier-nowallet,
 input.verdict-d-d-all:checked ~ #tableofwallets div.row-identifier{
   display: table-row !important;
 }
@@ -356,6 +361,11 @@ input.verdict-d-d-all:checked ~ #tableofwallets div.row-identifier{
 .verdict-d-d-nonverifiable:checked ~ .label-nonverifiable,
 .verdict-d-d-nosource:checked ~ .label-nosource,
 .verdict-d-d-custodial:checked ~ .label-custodial,
+.verdict-d-d-wip:checked ~ .label-wip,
+.verdict-d-d-nobtc:checked ~ .label-nobtc,
+.verdict-d-d-fewusers:checked ~ .label-fewusers,
+.verdict-d-d-defunct:checked ~ .label-defunct,
+.verdict-d-d-nowallet:checked ~ .label-nowallet,
 .verdict-d-d-all:checked ~ .label-all {
   background: var(--accent);
   border-radius: 4px;
@@ -400,6 +410,26 @@ input.verdict-d-d-nosource:checked ~ .label-nosource i{
 }
 
 input.verdict-d-d-custodial:checked ~ .label-custodial i{
+  display: inline-block !important;
+}
+
+input.verdict-d-d-wip:checked ~ .label-wip i{
+  display: inline-block !important;
+}
+
+input.verdict-d-d-nobtc:checked ~ .label-nobtc i{
+  display: inline-block !important;
+}
+
+input.verdict-d-d-fewusers:checked ~ .label-fewusers i{
+  display: inline-block !important;
+}
+
+input.verdict-d-d-defunct:checked ~ .label-defunct i{
+  display: inline-block !important;
+}
+
+input.verdict-d-d-nowallet:checked ~ .label-nowallet i{
   display: inline-block !important;
 }
 

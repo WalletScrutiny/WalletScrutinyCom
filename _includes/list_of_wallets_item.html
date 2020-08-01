@@ -45,9 +45,9 @@
       <tr><td>Verdict</td>
         <td class="verdict">
           <span class="{{ post.verdict }} tooltip">
-            {{ vLabel }}
+            {{ site.data.verdicts[post.verdict].title }}
             <span class="tooltiptext">
-              {{ vTooltip }}
+              {{ site.data.verdicts[post.verdict].message }}
             </span>
           </span>
         </td>
