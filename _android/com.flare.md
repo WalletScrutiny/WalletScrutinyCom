@@ -5,8 +5,8 @@ altTitle:
 users: 500
 appId: com.flare
 launchDate: 2020-02-22
-latestUpdate: 2020-07-27
-apkVersionName: "1.2.31"
+latestUpdate: 2020-07-31
+apkVersionName: "1.2.32"
 stars: 4.6
 ratings: 182
 reviews: 145

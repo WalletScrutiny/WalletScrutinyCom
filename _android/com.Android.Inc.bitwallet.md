@@ -7,7 +7,7 @@ appId: com.Android.Inc.bitwallet
 launchDate: 
 latestUpdate: 2020-07-07
 apkVersionName: "1.4.7"
-stars: 4
+stars: 4.0
 ratings: 352
 reviews: 242
 size: 26M

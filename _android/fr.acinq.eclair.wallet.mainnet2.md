@@ -7,7 +7,7 @@ appId: fr.acinq.eclair.wallet.mainnet2
 launchDate: 2018-04-12
 latestUpdate: 2020-06-18
 apkVersionName: "0.4.12"
-stars: 4
+stars: 4.0
 ratings: 341
 reviews: 160
 size: 28M

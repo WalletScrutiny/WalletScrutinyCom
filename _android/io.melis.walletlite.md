@@ -7,7 +7,7 @@ appId: io.melis.walletlite
 launchDate: 2019-06-03
 latestUpdate: 2019-06-03
 apkVersionName: "0.4.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 16M
