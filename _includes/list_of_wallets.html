@@ -7,7 +7,7 @@
       <input type="radio" name="verdict" class="verdict-d-d verdict-d-d-all" value="All" checked="true">
       <label class="label-all" for="verdict" value="All" ><i class="fas fa-check check"></i>&nbsp;All</label>
       {% for v in verdicts %}
-        <input type="radio" name="verdict" class="verdict-d-d verdict-d-d-{{ v }}" value="{{ v }}">
+        <input type="radio" name="verdict" class="verdict-d-d verdict-d-d-{{ v }}" value="{{ v }}" {% if v == selectedVerdict %}checked="true"{% endif %}>
         <label class="label-{{ v }}" for="verdict" value="{{ v }}"><i class="fas fa-check check"></i>&nbsp;{{ site.data.verdicts[v].short }}</label>
       {% endfor %}
       <br style="clear:both">
