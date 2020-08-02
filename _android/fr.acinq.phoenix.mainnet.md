@@ -5,8 +5,8 @@ altTitle: "Phoenix : The Bitcoin wallet from the future"
 users: 1000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
-latestUpdate: 2020-07-20
-apkVersionName: "1.3.2"
+latestUpdate: 2020-08-01
+apkVersionName: "1.3.3"
 stars: 4.6
 ratings: 119
 reviews: 60

@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.pumapay.pumawallet
 launchDate: 
-latestUpdate: 2020-07-13
-apkVersionName: "3.8.2"
+latestUpdate: 2020-07-31
+apkVersionName: "3.8.4"
 stars: 4.1
 ratings: 191
 reviews: 113

@@ -8,8 +8,8 @@ launchDate: 2016-10-01
 latestUpdate: 2020-07-13
 apkVersionName: "10.0.10"
 stars: 4.1
-ratings: 6764
-reviews: 3231
+ratings: 6775
+reviews: 3234
 size: 27M
 website: https://bitpay.com/
 repository: https://github.com/bitpay/copay

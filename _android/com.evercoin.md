@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-07-30
 apkVersionName: "2.8.3"
 stars: 3.9
-ratings: 168
-reviews: 117
+ratings: 169
+reviews: 118
 size: 40M
 website: https://evercoin.com
 repository: 

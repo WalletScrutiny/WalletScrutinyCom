@@ -8,7 +8,7 @@ launchDate: 2019-05-01
 latestUpdate: 2020-06-15
 apkVersionName: "1.9.4"
 stars: 4.4
-ratings: 243
+ratings: 242
 reviews: 90
 size: 8.2M
 website: https://bitcoin-wallet.flycricket.io/
