@@ -7,7 +7,7 @@ appId: org.coinid.vault
 launchDate: 2018-10-14
 latestUpdate: 2020-05-21
 apkVersionName: "1.5.5"
-stars: 5
+stars: 5.0
 ratings: 7
 reviews: 4
 size: 34M

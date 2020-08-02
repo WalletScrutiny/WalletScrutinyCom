@@ -7,7 +7,7 @@ appId: com.kisswallet
 launchDate: 
 latestUpdate: 2020-05-30
 apkVersionName: "0.3.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: Varies with device

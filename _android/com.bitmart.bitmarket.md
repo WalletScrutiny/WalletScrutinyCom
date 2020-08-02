@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.bitmart.bitmarket
 launchDate: 
-latestUpdate: 2020-07-09
-apkVersionName: "2.2.6"
+latestUpdate: 2020-07-31
+apkVersionName: "2.2.8"
 stars: 3.7
-ratings: 453
+ratings: 454
 reviews: 274
-size: 26M
+size: 27M
 website: https://www.bitmart.com/
 repository: 
 issue: 
