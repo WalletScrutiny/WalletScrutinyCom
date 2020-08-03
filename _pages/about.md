@@ -38,13 +38,11 @@ redirect_from:
 {% include press.html %}
 
 
-<h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
+<h2 class="section-label">All reproducible wallets</h2>
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = true %}
+{% assign verdicts = "reproducible" | split: "," %}
 {% include list_of_wallets.html %}
-<a href="{{ base_path }}/moreApps">more apps</a>
+<a href="{{ base_path }}/allApps">all apps</a>
 
 
 <h2 class="section-label">How many wallets are in each category?</h2>
