@@ -12,18 +12,18 @@ ratings:
 reviews: 
 size: Varies with device
 website: https://samouraiwallet.com/
-repository: https://github.com/Samourai-Wallet/samourai-wallet-android
-issue: https://github.com/Samourai-Wallet/samourai-wallet-android/issues/376
+repository: https://code.samourai.io/wallet/samourai-wallet-android
+issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
 icon: com.samourai.wallet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-23
-reviewStale: true
+date: 2020-08-03
+reviewStale: false
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 
 
-providerTwitter: samouraiwallet
+providerTwitter: SamouraiWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -35,6 +35,15 @@ redirect_from:
   - /posts/com.samourai.wallet/
 ---
 
+
+**Update**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1289942465047396352)
+
+> You can verify that the built APK is indeed built from the provided source
+
+which is a direct claim of falsehood of our findings. No other neutral party
+party supported this claim so far and neither did the provider explain how such
+a verification should work or where our findings are wrong. This is so far the
+clearest lie and thus red flag about this wallet.
 
 **Update**: Samourai
 [tweeted](https://twitter.com/SamouraiWallet/status/1206521035689996291) in
