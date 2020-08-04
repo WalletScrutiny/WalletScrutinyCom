@@ -18,7 +18,7 @@ altTitle,reviewStale,reviewArchive,signer".split(","))
 const androidFolder = "/mnt/_android/"
 fs.readdir(androidFolder, function (err, files) {
   if (err) {
-    console.error("Could not list the directory _posts.", err)
+    console.error("Could not list the directory _android.", err)
     process.exit(1);
   }
   files.forEach(function (file, index) {

@@ -20,7 +20,7 @@ echo "installing missing stuff"
 npm install google-play-scraper dateformat js-yaml sleep btcpay
 
 for appId in $apps; do
-  path=_posts/2019-12-20-$appId.md
+  path=_android/$appId.md
   if [ ! -f $path ]; then
     echo Adding skeleton for app $appId
     node refreshNewApp.js $appId
