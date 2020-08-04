@@ -11,32 +11,55 @@ stars: 4.0
 ratings: 354
 reviews: 156
 size: 95M
-website: 
+website: https://gethaven.app/
 repository: 
 issue: 
 icon: io.ob1.nativeandroid.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-08-04
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HavenPrivacy
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: 
+providerReddit: havenapp
 
 redirect_from:
   - /io.ob1.nativeandroid/
 ---
 
 
-This page was created by a script from the **appId** "io.ob1.nativeandroid" and public
-information found
-[here](https://play.google.com/store/apps/details?id=io.ob1.nativeandroid).
+This app is also a
 
-Probably an engineer will soon have a deeper look at this app.
+> **Cryptocurrency Wallet**
+> 
+> Send and receive payments via Bitcoin, Bitcoin Cash, Litecoin and Zcash all
+  from one wallet. Earn and spend crypto in the OpenBazaar marketplace.
 
-So far we are not even sure it is a wallet ... Please check back later.
+so ... is it non-custodial?
+
+The [FAQ](https://gethaven.app/faq/) is not explicit neither but
+
+> **How is my data protected?**
+> 
+> Your data is protected by being hosted on your own mobile device.
+
+and
+
+> **Who can access my data?**
+> 
+> No one can access your data without access to your device.
+
+kind of implicitly claim that your private keys are also on your device, only.
+A more explicit claim would certainly be reassuring.
+
+But how about source code? On their website we can't find any link to a
+repository.
+
+Also on GitHub [there is no clear candidate for a repository](https://github.com/search?q=%22io.ob1.nativeandroid%22).
+
+We conclude the app is closed source and thus **not verifiable**.
