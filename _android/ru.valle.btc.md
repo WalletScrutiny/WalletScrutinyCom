@@ -177,4 +177,10 @@ does look a bit scary.
 In summary, this app is **not verifiable**.
 
 For later reference, the app from Google Play had the sha256sum
-`ce90b2c62cae520a0f643a34b5a2a2a6b6961d5d194d06b07c21f2dd22748dea`.
+`ce90b2c62cae520a0f643a34b5a2a2a6b6961d5d194d06b07c21f2dd22748dea` and the use
+of App Bundle can be detected in `META-INF/MANIFEST.MF`:
+
+```
+$ cat fromGoogle/original/META-INF/MANIFEST.MF | grep Built-By
+Built-By: BundleTool
+```
