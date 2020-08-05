@@ -4,7 +4,7 @@ altTitle:
 
 users: 10000
 appId: ru.valle.btc
-launchDate: 
+launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
 stars: 4.2
