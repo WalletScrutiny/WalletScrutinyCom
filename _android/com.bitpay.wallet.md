@@ -5,12 +5,12 @@ altTitle:
 users: 500000
 appId: com.bitpay.wallet
 launchDate: 2016-10-01
-latestUpdate: 2020-07-13
-apkVersionName: "10.0.10"
+latestUpdate: 2020-08-04
+apkVersionName: "10.1.1"
 stars: 4.1
-ratings: 6796
+ratings: 6798
 reviews: 3250
-size: 27M
+size: 28M
 website: https://bitpay.com/
 repository: https://github.com/bitpay/copay
 issue: https://github.com/bitpay/copay/issues/10425

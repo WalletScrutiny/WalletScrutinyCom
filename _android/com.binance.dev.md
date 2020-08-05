@@ -8,8 +8,8 @@ launchDate: 2017-10-25
 latestUpdate: 2020-07-28
 apkVersionName: "1.27.2"
 stars: 4.5
-ratings: 48100
-reviews: 19854
+ratings: 48109
+reviews: 19856
 size: Varies with device
 website: https://www.binance.com/
 repository: 
