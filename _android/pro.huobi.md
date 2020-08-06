@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-07-23
 apkVersionName: "5.8.1"
 stars: 4.0
-ratings: 4890
+ratings: 4891
 reviews: 1656
 size: 45M
 website: https://www.huobi.com/en-us/

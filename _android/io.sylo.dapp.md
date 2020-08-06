@@ -5,8 +5,8 @@ altTitle:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2020-07-14
-apkVersionName: "2.0.14"
+latestUpdate: 2020-08-06
+apkVersionName: "2.0.16"
 stars: 3.4
 ratings: 477
 reviews: 250
