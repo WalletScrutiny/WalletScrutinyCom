@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
 launchDate: 
-latestUpdate: 2019-12-06
-apkVersionName: "1.0.8"
+latestUpdate: 2020-08-05
+apkVersionName: "1.0.9"
 stars: 4.3
 ratings: 149
 reviews: 98
-size: 1.5M
+size: 2.0M
 website: https://www.bithumbsg.com/
 repository: 
 issue: 
