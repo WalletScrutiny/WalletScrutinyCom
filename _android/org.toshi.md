@@ -8,8 +8,8 @@ launchDate: 2017-09-20
 latestUpdate: 2020-08-03
 apkVersionName: "22.3.311"
 stars: 3.8
-ratings: 6480
-reviews: 2846
+ratings: 6498
+reviews: 2853
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

@@ -1,5 +1,5 @@
 ---
-title: "Currency.com Trading platform"
+title: "Trading platform - Currency.com"
 altTitle: 
 
 users: 10000
@@ -7,9 +7,9 @@ appId: com.currency.exchange.prod2
 launchDate: 
 latestUpdate: 2020-07-21
 apkVersionName: "1.0.338"
-stars: 4.0
-ratings: 893
-reviews: 310
+stars: 4.1
+ratings: 897
+reviews: 312
 size: Varies with device
 website: https://currency.com/
 repository: 
