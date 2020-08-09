@@ -8,7 +8,7 @@ launchDate: 2018-12-10
 latestUpdate: 2019-12-15
 apkVersionName: "0.0.0"
 stars: 4.6
-ratings: 7
+ratings: 8
 reviews: 3
 size: 6.5M
 website: https://github.com/shesek/spark-wallet

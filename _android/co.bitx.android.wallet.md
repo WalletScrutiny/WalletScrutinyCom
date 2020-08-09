@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: co.bitx.android.wallet
 launchDate: 2014-11-01
-latestUpdate: 2020-08-03
+latestUpdate: 2020-08-07
 apkVersionName: "6.17.0"
-stars: 4.0
-ratings: 34861
-reviews: 20385
+stars: 4.1
+ratings: 35418
+reviews: 20709
 size: 65M
 website: https://www.luno.com/
 repository: 

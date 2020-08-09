@@ -8,8 +8,8 @@ launchDate: 2018-06-13
 latestUpdate: 2020-07-31
 apkVersionName: "1.8.74"
 stars: 4.5
-ratings: 134
-reviews: 82
+ratings: 135
+reviews: 83
 size: 15M
 website: https://stasis.net/wallet/
 repository: https://github.com/stasisnet
