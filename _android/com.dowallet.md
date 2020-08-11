@@ -2,13 +2,13 @@
 title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.dowallet
 launchDate: 2019-01-01
 latestUpdate: 2020-07-27
 apkVersionName: "1.1.30"
 stars: 4.2
-ratings: 722
+ratings: 723
 reviews: 387
 size: 31M
 website: https://www.dowallet.app/

@@ -8,8 +8,8 @@ launchDate: 2018-11-01
 latestUpdate: 2020-01-17
 apkVersionName: "3.0.1"
 stars: 4.0
-ratings: 4224
-reviews: 2453
+ratings: 4230
+reviews: 2456
 size: 8.6M
 website: https://www.cryptonator.com/
 repository: 

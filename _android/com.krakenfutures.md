@@ -7,9 +7,9 @@ appId: com.krakenfutures
 launchDate: 
 latestUpdate: 2019-11-29
 apkVersionName: "4.0.13"
-stars: 3.4
-ratings: 40
-reviews: 17
+stars: 3.3
+ratings: 41
+reviews: 18
 size: 5.5M
 website: https://futures.kraken.com/
 repository: 

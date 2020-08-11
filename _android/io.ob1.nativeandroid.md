@@ -5,10 +5,10 @@ altTitle:
 users: 100000
 appId: io.ob1.nativeandroid
 launchDate: 
-latestUpdate: 2020-07-10
-apkVersionName: "1.3.5"
-stars: 4.0
-ratings: 356
+latestUpdate: 2020-08-10
+apkVersionName: "1.3.7"
+stars: 3.9
+ratings: 357
 reviews: 157
 size: 95M
 website: https://gethaven.app/
@@ -18,7 +18,7 @@ icon: io.ob1.nativeandroid.png
 bugbounty: 
 verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-08-04
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -7,9 +7,9 @@ appId: com.onebit.app
 launchDate: 2017-11-23
 latestUpdate: 2020-07-10
 apkVersionName: "3.22.0"
-stars: 4.5
-ratings: 884
-reviews: 479
+stars: 4.6
+ratings: 886
+reviews: 478
 size: 82M
 website: https://www.tenx.tech/
 repository: 
