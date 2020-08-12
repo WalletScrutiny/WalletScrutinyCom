@@ -7,9 +7,9 @@ appId: com.sf.monarch
 launchDate: 2018-10-19
 latestUpdate: 2020-07-27
 apkVersionName: "2.1.3"
-stars: 4.3
-ratings: 545
-reviews: 281
+stars: 4.4
+ratings: 589
+reviews: 288
 size: 18M
 website: https://monarchwallet.com
 repository: 

@@ -5,7 +5,7 @@ altTitle:
 users: 500
 appId: com.spark.wallet
 launchDate: 2018-12-10
-latestUpdate: 2020-08-06
+latestUpdate: 2020-08-11
 apkVersionName: "0.0.0"
 stars: 4.6
 ratings: 8
