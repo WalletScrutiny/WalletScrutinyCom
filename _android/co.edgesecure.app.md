@@ -8,8 +8,8 @@ launchDate: 2018-03-01
 latestUpdate: 2020-08-05
 apkVersionName: "1.16.4"
 stars: 4.2
-ratings: 1306
-reviews: 747
+ratings: 1307
+reviews: 748
 size: 64M
 website: https://edge.app/
 repository: https://github.com/EdgeApp/edge-react-gui
