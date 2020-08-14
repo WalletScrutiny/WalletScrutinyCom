@@ -7,7 +7,7 @@ appId: io.sylo.dapp
 launchDate: 
 latestUpdate: 2020-08-06
 apkVersionName: "2.0.16"
-stars: 3.4
+stars: 3.5
 ratings: 478
 reviews: 249
 size: 68M

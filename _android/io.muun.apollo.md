@@ -8,7 +8,7 @@ launchDate: 2017-04-25
 latestUpdate: 2020-07-17
 apkVersionName: "beta-39.4"
 stars: 4.3
-ratings: 58
+ratings: 59
 reviews: 35
 size: 27M
 website: https://muun.com
