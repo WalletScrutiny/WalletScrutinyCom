@@ -20,7 +20,7 @@ layout: default
 
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}
-    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    <meta itemprop="headline" content="{{ page.title }}">
     {% endif %}
     {% if page.excerpt %}
     <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -35,7 +35,7 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
       <header>
         {% if page.title %}<h1 class="page__title" itemprop="headline">
-          {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {{ page.title }}</h1>{% endif %}
         {% if page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
         {% endif %}
