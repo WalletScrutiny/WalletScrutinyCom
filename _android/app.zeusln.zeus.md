@@ -2,13 +2,13 @@
 title: "Zeus: Bitcoin/Lightning Wallet"
 altTitle: 
 
-users: 50
+users: 100
 appId: app.zeusln.zeus
 launchDate: 
 latestUpdate: 2020-07-14
 apkVersionName: "0.3.0"
-stars: 4.8
-ratings: 5
+stars: 4.9
+ratings: 7
 reviews: 4
 size: 11M
 website: 

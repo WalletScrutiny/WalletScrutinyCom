@@ -2,13 +2,13 @@
 title: "Phoenix | The Bitcoin wallet from the future"
 altTitle: "Phoenix : The Bitcoin wallet from the future"
 
-users: 1000
+users: 5000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
-latestUpdate: 2020-07-20
-apkVersionName: "1.3.2"
+latestUpdate: 2020-08-01
+apkVersionName: "1.3.3"
 stars: 4.6
-ratings: 119
+ratings: 126
 reviews: 60
 size: 33M
 website: https://phoenix.acinq.co
@@ -16,12 +16,16 @@ repository: https://github.com/ACINQ/phoenix
 issue: https://github.com/ACINQ/phoenix/issues/20
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-01-13
+verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-08-14
 reviewStale: true
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
-
+- date: 2020-01-13
+  version: "1.3.1"
+  apkHash: 0c91c5f118f88b9715d20323799d5002b722115d01c95d11f20f088521f76ada
+  gitRevision: 9abba57f047955e9991baa269f2082e8f3374f95
+  verdict: nonverifiable
 
 providerTwitter: PhoenixWallet
 providerLinkedIn: 
@@ -34,99 +38,73 @@ redirect_from:
 ---
 
 
-This app recently achieved 1000 downloads, so this is the first time we actually
-look at it in detail.
+After failing to reproduce the build on Google Play in the past, the provider
+[invited us to try again](https://twitter.com/PhoenixWallet/status/1294324386418262016)
+with their latest release and updated build instructions. So ... here we go:
 
-The PlayStore description, below in its entirety:
-
-> Phoenix is a next-generation Bitcoin wallet that lets you send and receive Bitcoin easily.
-> 
-> Phoenix natively supports Lightning for fast and cheap transactions.
-
-So it's a Bitcoin wallet but no word whether it is custodial or has public
-source code.
-
-The website is more clear about those doubts:
-
-> ⚡ Native Lightning support
-> 
-> 🛡 Non custodial
-> 
-> 👍 Intuitive and simple UX
-
-and a [link to their GitHub](https://github.com/ACINQ/phoenix).
-
-There, the [build instructions](https://github.com/ACINQ/phoenix/blob/master/BUILD.md)
-though are rather vague. Let's see how far we get, as always without using
-AndroidStudio and searching for relevant revisions:
+The [updated build instructions](https://github.com/ACINQ/phoenix/blob/master/BUILD.md#build-the-apk)
+are, as they should be, linked on their
+[repository's landing page](https://github.com/ACINQ/phoenix). Let's see if we
+can reproduce the build for version `1.3.3` which we got from Google Play:
 
 ```
-$ git clone https://github.com/ACINQ/eclair
-$ cd eclair
-$ git checkout android-phoenix
+$ git clone https://github.com/ACINQ/phoenix
+$ cd phoenix/
+$ git tag | grep "1\.3\.3"
+v1.3.3
+$ git checkout v1.3.3 
+HEAD is now at fbbf261 Release v1.3.3 (code 14)
+$ docker build -t phoenix_build .
+...
+Successfully built 39f2d4a51567
+Successfully tagged phoenix_build:latest
+$ docker run --rm -v $(pwd):/home/ubuntu/phoenix/app/build/outputs -w /home/ubuntu/phoenix phoenix_build ./gradlew assemble
+...
+BUILD SUCCESSFUL in 6m 38s
+$ ll apk/release/
+-rw-r--r-- 1 root root 1.7K Aug 14 17:23 output.json
+-rw-r--r-- 1 root root  23M Aug 14 17:23 phoenix-14-1.3.3-mainnet-arm64-v8a-release.apk
+-rw-r--r-- 1 root root  23M Aug 14 17:23 phoenix-14-1.3.3-mainnet-armeabi-v7a-release.apk
+-rw-r--r-- 1 root root  33M Aug 14 17:23 phoenix-14-1.3.3-mainnet-universal-release.apk
+-rw-r--r-- 1 root root  23M Aug 14 17:23 phoenix-14-1.3.3-mainnet-x86_64-release.apk
+-rw-r--r-- 1 root root  23M Aug 14 17:23 phoenix-14-1.3.3-mainnet-x86-release.apk
 ```
 
-Unfortunately this is as far as get as there is no hint at to which revision
-might be relevant to our Phoenix `1.0.1` release:
+Ok, cool. Compilation is now really convenient. But there is five apps, not one.
+Let's see which one we have ...
 
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">
-$ tig
-<font color="#3465A4">2020-01-10 15:53 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">M</font><font color="#C4A000">─┐</font> <font color="#06989A"><b>[android-phoenix]</b></font> <font color="#C4A000"><b>{origin/android-phoenix}</b></font> Merge branch &apos;android&apos; into android-phoenix
-<font color="#3465A4">2020-01-10 14:38 +0100 </font><font color="#4E9A06">sstone              </font><font color="#75507B">│</font><font color="#3465A4"> M</font><font color="#06989A">─┐</font> <font color="#C4A000">{origin/android}</font> Merge branch &apos;master&apos; into android
-<font color="#3465A4">2020-01-10 14:37 +0100 </font><font color="#4E9A06">Fabrice Drouin      </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Restore missing &apos;db.close()&apos; methods (#1272)
-<font color="#3465A4">2020-01-10 14:56 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Remove feature graph validation in payment request
-<font color="#3465A4">2020-01-10 11:53 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">M</font><font color="#C4A000">─│</font><font color="#06989A">─│</font><font color="#C4A000">─┐</font> Merge branch &apos;android&apos; into android-phoenix
-<font color="#3465A4">2020-01-09 18:07 +0100 </font><font color="#4E9A06">sstone              </font><font color="#75507B">│</font><font color="#3465A4"> M</font><font color="#06989A">─│</font><font color="#C4A000">─┤</font> Merge branch &apos;master&apos; into android
-<font color="#3465A4">2020-01-09 13:47 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font><font color="#06989A">─┘</font> Flat features (#1253)
-<font color="#3465A4">2020-01-08 16:47 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Disable Trampoline-MPP to non-Phoenix recipients (#1271)
-<font color="#3465A4">2020-01-09 19:39 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">M</font><font color="#C4A000">─│</font><font color="#06989A">─│</font><font color="#C4A000">─┐</font> Merge branch &apos;android&apos; into android-phoenix
-<font color="#3465A4">2020-01-08 14:09 +0100 </font><font color="#4E9A06">Fabrice Drouin      </font><font color="#75507B">│</font><font color="#3465A4"> o</font><font color="#06989A">─│</font><font color="#C4A000">─┘</font> Fix Outpoint JSON serialization (#1270)
-<font color="#3465A4">2020-01-08 12:08 +0100 </font><font color="#4E9A06">sstone              </font><font color="#75507B">│</font><font color="#3465A4"> o</font><font color="#06989A"> │</font> Fix dependency conflict in eclair-node
-<font color="#3465A4">2020-01-08 11:46 +0100 </font><font color="#4E9A06">sstone              </font><font color="#75507B">│</font><font color="#3465A4"> M</font><font color="#06989A">─│─┐</font> Merge branch &apos;master&apos; into android
-<font color="#3465A4">2020-01-07 16:49 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font><font color="#06989A">─┘</font> Remove mockito from switchboard tests (#1267)
-<font color="#3465A4">2020-01-07 16:44 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> More consistency in sending messages during sync (#1268)
-<font color="#3465A4">2020-01-06 14:00 +0100 </font><font color="#4E9A06">sstone              </font><font color="#75507B">│</font><font color="#3465A4"> M</font><font color="#06989A">─│─┐</font> Merge branch &apos;master&apos; into android
-<font color="#3465A4">2019-12-24 14:06 +0200 </font><font color="#4E9A06">Anton Kumaigorodski </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font><font color="#06989A">─┘</font> Remove repeated code (#1265)
-<font color="#3465A4">2019-12-24 02:11 -0600 </font><font color="#4E9A06">Mike W. Erwin       </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Added some instructions for TOR auth (#1262)
-<font color="#3465A4">2019-12-18 16:39 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Improve CommandSend type (#1260)
-<font color="#3465A4">2019-12-18 14:34 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Relay Trampoline payments (#1220)
-<font color="#3465A4">2019-12-17 10:41 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Update Maven (3.6.3) (#1259)
-<font color="#3465A4">2019-12-12 09:22 +0100 </font><font color="#4E9A06">Dominique           </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Add synchronization when locking database connection (#1200)
-<font color="#3465A4">2019-12-11 15:40 +0200 </font><font color="#4E9A06">Anton Kumaigorodski </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Add HasHtlcIdCommand trait (#1245)
-<font color="#3465A4">2019-12-11 14:16 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Better randomization of reconnection delay (#1250)
-<font color="#3465A4">2019-12-11 14:03 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Minor: missing log category in peer (#1241)
-<font color="#3465A4">2019-12-11 13:53 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> MPP: don&apos;t retry if failure comes from final recipient (#1246)
-<font color="#3465A4">2019-12-10 13:40 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Minor: ignore &quot;disconnecting&quot; message in Channel (#1231)
-<font color="#3465A4">2019-12-09 16:18 +0100 </font><font color="#4E9A06">Fabrice Drouin      </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Add a configurable time-out to onchain fee provider requests (#1244)
-<font color="#3465A4">2019-12-09 14:12 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Fix MPP flaky test (#1243)
-<font color="#3465A4">2019-12-06 14:23 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> added blank lines to minimize conflicts (#1236)
-<font color="#3465A4">2019-12-06 13:57 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Set `akka.loglevel` to `DEBUG` (#1235)
-<font color="#3465A4">2019-12-04 17:29 +0100 </font><font color="#4E9A06">Dominique           </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Fix outgoing payments order in payments overview (#1232)
-<font color="#3465A4">2019-12-04 14:17 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#C4A000"> │</font><font color="#3465A4"> o</font> Added a &apos;category&apos; in logs (#1227)
-<font color="#3465A4">2019-12-23 15:03 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Keep connection to peer even with no channels
-<font color="#3465A4">2019-12-23 12:25 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Back to development version
-<font color="#3465A4">2019-12-05 15:17 +0100 </font><font color="#4E9A06">dpad85              </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Release v0.3.4-android-phoenix
-<font color="#3465A4">2019-12-09 17:24 +0100 </font><font color="#4E9A06">pm47                </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> peer-backup: use a tlv-ready encoding
-<font color="#3465A4">2019-12-09 16:18 +0100 </font><font color="#4E9A06">Fabrice Drouin      </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Add a configurable time-out to onchain fee provider requests (#1244)
-<font color="#3465A4">2019-12-05 19:36 +0100 </font><font color="#4E9A06">pm47                </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> write channel state in db on restore
-<font color="#3465A4">2019-12-05 10:58 +0100 </font><font color="#4E9A06">pm47                </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> support phoenix features
-<font color="#3465A4">2019-12-04 17:29 +0100 </font><font color="#4E9A06">Dominique           </font><font color="#3465A4">o</font><font color="#C4A000"> │</font><font color="#06989A"> │</font> Fix outgoing payments order in payments overview (#1232)
-<font color="#3465A4">2019-12-02 16:26 +0100 </font><font color="#4E9A06">pm47                </font><font color="#3465A4">M</font><font color="#C4A000">─┤</font><font color="#06989A">  </font> Merge branch &apos;master&apos; into android
-<font color="#3465A4">2019-12-02 16:15 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#3465A4"> o</font> Handle chain re-org in balance computation (#1228)
-<font color="#3465A4">2019-12-02 11:40 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#3465A4"> o</font> Fix onion codec test (#1229)
-<font color="#3465A4">2019-12-02 11:35 +0100 </font><font color="#4E9A06">Dominique           </font><font color="#75507B">│</font><font color="#3465A4"> o</font> High level payments overview method (#1225)
-<font color="#3465A4">2019-12-02 11:06 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#3465A4"> o</font> Rework truncated integers codecs (#1212)
-<font color="#3465A4">2019-11-29 17:03 +0100 </font><font color="#4E9A06">Pierre-Marie Padiou </font><font color="#75507B">│</font><font color="#3465A4"> o</font> Extended doHandle to other messages in MultiPartHandler (#1226)
-<font color="#3465A4">2019-11-29 10:43 +0100 </font><font color="#4E9A06">Bastien Teinturier  </font><font color="#75507B">│</font><font color="#3465A4"> o</font> Avoid incoherent payment request features. (#1222)
-<font color="#3465A4">2019-11-29 15:54 +0100 </font><font color="#4E9A06">sstone              </font><font color="#3465A4">M</font><font color="#C4A000">─│─┐</font> Merge branch &apos;master&apos; into android
-</pre>
-</div>
-</div>
+```
+$ apktool d -o fromGoogle fromGoogle.apk 
+$ ls fromGoogle/lib/
+arm64-v8a  armeabi-v7a  x86  x86_64
+```
 
-To avoid issues like this, the app repository should reference the library
-repository as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+So with libs for all architectures, we probably have the "universal" which also
+happens to be the biggest in above folder listing. So ...
 
-As we won't try out compiling many times the library to try and guess, we
-conclude this analysis with the verdict **not verifiable**.
+```
+$ apktool d -o fromBuild apk/release/phoenix-14-1.3.3-mainnet-universal-release.apk
+$ diff --recursive --brief from{Build,Google}
+Files fromBuild/apktool.yml and fromGoogle/apktool.yml differ
+Only in fromGoogle/original/META-INF: MAINNET.RSA
+Only in fromGoogle/original/META-INF: MAINNET.SF
+Files fromBuild/original/META-INF/MANIFEST.MF and fromGoogle/original/META-INF/MANIFEST.MF differ
+```
+
+This looks good. Some more data for the record:
+
+```
+$ git log --show-signature -n 1
+commit fbbf261eb1e3be75535de41833524ac73cf8e24e (HEAD, tag: v1.3.3, origin/mainnet)
+gpg: Signature made Sat 01 Aug 2020 10:25:31 AM -04
+gpg:                using RSA key 87537DE9B6EABCCFB6CCA3A6574C8C6A1673E987
+gpg: Can't check signature: No public key
+Author: dpad85 <5765435+dpad85@users.noreply.github.com>
+Date:   Sat Aug 1 16:25:30 2020 +0200
+
+    Release v1.3.3 (code 14)
+$ sha256sum fromGoogle.apk 
+29211695f12c794d0e5edc883315810cf29d22e7ad8fdcd1da7755abec6aff4d  fromGoogle.apk
+```
+
+This is exactly what we want to see for the verdict: **reproducible**

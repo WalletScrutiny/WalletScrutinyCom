@@ -1,4 +1,6 @@
+{% include base_path %}
 {
+  "base_path": "{{ base_path }}",
   {% for post in site.android %}
     "{{ post.appId }}": {
       "appId": "{{ post.appId }}",

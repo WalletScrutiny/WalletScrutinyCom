@@ -4,11 +4,11 @@ altTitle:
 
 users: 10000
 appId: ru.valle.btc
-launchDate: 
+launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
-stars: 4.2
-ratings: 131
+stars: 4.3
+ratings: 132
 reviews: 45
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov/
@@ -17,7 +17,7 @@ issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-31
+date: 2020-08-04
 reviewStale: false
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
@@ -33,6 +33,13 @@ redirect_from:
   - /posts/ru.valle.btc/
 ---
 
+
+**Update:** After
+[feedback from the developer](https://github.com/ValleZ/Paper-Wallet/issues/42#issuecomment-668759686)
+we removed the mention of `disable 'TrulyRandom', "GoogleAppIndexingWarning"`,
+added more files to the list of worry-some binaries and hope for feedback
+regarding App Bundles as this appears to be the first Bitcoin Wallet we came
+across that uses this new format promoted by Google.
 
 This app is an open source paper wallet generator but can we reproduce the build
 `3.2.0` from Google Play?
@@ -66,10 +73,9 @@ a deeper look:
 
 1. [This binary blob](https://github.com/ValleZ/Paper-Wallet/blob/master/app/libs/classes.jar)
    is not accounted for. Where does it come from? Can it be reproduced?
-1. [Disabling globally any warnings about poor randomness](https://github.com/ValleZ/Paper-Wallet/blob/master/app/build.gradle#L74)
-   is exactly what one would never do for a Bitcoin wallet. When used completely
-   offline, keys are still at risk if they were generated from a poor random
-   source.
+1. The developer pointed us to more binary blobs in
+   [these folders](https://github.com/ValleZ/Paper-Wallet/blob/master/app/src/main/jniLibs/),
+   too.
 
 Anyway ... back to reproducibility:
 
@@ -114,4 +120,67 @@ Only in fromBuild/res: values-ru
 Only in fromGoogle/res/xml: splits0.xml
 ```
 
-That is a big diff. This app is **not verifiable**.
+That is a big diff but on a closer look after the developer told us this was the
+result of an App Bundle it actually does not look that bad:
+
+Extra "stuff" is mainly in what we built, not in the app we got from Google
+Play. Let's remove that and the other known benign files from the list:
+
+```
+$ diff --recursive --brief from* | grep -v "Only in fromBuild" | grep -v "META-INF" | grep -v apktool
+Files fromBuild/AndroidManifest.xml and fromGoogle/AndroidManifest.xml differ
+Files fromBuild/original/AndroidManifest.xml and fromGoogle/original/AndroidManifest.xml differ
+Files fromBuild/res/layout/main.xml and fromGoogle/res/layout/main.xml differ
+Files fromBuild/res/layout-v22/main.xml and fromGoogle/res/layout-v22/main.xml differ
+Files fromBuild/res/menu/main.xml and fromGoogle/res/menu/main.xml differ
+Files fromBuild/res/menu-v11/main.xml and fromGoogle/res/menu-v11/main.xml differ
+Files fromBuild/res/values/public.xml and fromGoogle/res/values/public.xml differ
+Only in fromGoogle/res: values-anydpi-v21
+Only in fromGoogle/res/xml: splits0.xml
+```
+
+Now looking into some of those diffs they look harmless. UI components with
+different labels. An extra `res/values-anydpi-v21/drawables.xml` and
+`res/xml/splits0.xml` for example:
+
+```
+$ cat fromGoogle/res/values-anydpi-v21/drawables.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="APKTOOL_DUMMY_0">false</item>
+</resources>
+$ cat fromGoogle/res/xml/splits0.xml
+$ cat fromGoogle/res/xml/splits0.xml
+<?xml version="1.0" encoding="utf-8"?>
+<splits>
+    <module name="">
+        <language>
+            <entry key="ja" split="config.ja" />
+            <entry key="pt" split="config.pt" />
+            <entry key="ru" split="config.ru" />
+        </language>
+    </module>
+</splits>
+```
+
+All that looks like it is following some automatism by Google but until we have
+a deterministic way of reproducing this, can we not reproduce this build and
+don't feel comfortable dismissing the possibility of missing something. After
+all,
+
+```
+Binary files fromBuild/original/AndroidManifest.xml and fromGoogle/original/AndroidManifest.xml differ
+```
+
+does look a bit scary.
+
+In summary, this app is **not verifiable**.
+
+For later reference, the app from Google Play had the sha256sum
+`ce90b2c62cae520a0f643a34b5a2a2a6b6961d5d194d06b07c21f2dd22748dea` and the use
+of App Bundle can be detected in `META-INF/MANIFEST.MF`:
+
+```
+$ cat fromGoogle/original/META-INF/MANIFEST.MF | grep Built-By
+Built-By: BundleTool
+```

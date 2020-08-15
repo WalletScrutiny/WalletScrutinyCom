@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2019-11-29
 apkVersionName: "4.0.13"
 stars: 3.4
-ratings: 39
-reviews: 17
+ratings: 43
+reviews: 18
 size: 5.5M
 website: https://futures.kraken.com/
 repository: 

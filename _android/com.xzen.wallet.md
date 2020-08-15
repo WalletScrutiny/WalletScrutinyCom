@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2019-09-19
 apkVersionName: "1.2.6.0"
 stars: 3.9
-ratings: 37
+ratings: 38
 reviews: 29
 size: 26M
 website: http://www.xzen.io/app

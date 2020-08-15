@@ -6,11 +6,11 @@ users: 1000000
 appId: com.xapo
 launchDate: 2014-04-01
 latestUpdate: 2020-07-29
-apkVersionName: "5.29"
-stars: 4.0
-ratings: 44874
-reviews: 21095
-size: 97M
+apkVersionName: "5.30"
+stars: 3.9
+ratings: 44910
+reviews: 21119
+size: 93M
 website: https://xapo.com/
 repository: 
 issue: 

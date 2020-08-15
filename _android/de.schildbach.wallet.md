@@ -8,8 +8,8 @@ launchDate: 2011-03-01
 latestUpdate: 2020-07-28
 apkVersionName: "Varies with device"
 stars: 4.0
-ratings: 23602
-reviews: 7436
+ratings: 23811
+reviews: 7525
 size: 2.8M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -17,10 +17,15 @@ issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-20
-reviewStale: true
+date: 2020-08-04
+reviewStale: false
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2020-06-20
+  version: "8.03"
+  apkHash: 09b78cea4be8ca41661b0a9ab3d4a2ed16c8947c2aaceeb39c931ee8e2d3f653
+  gitRevision: ab2bf7d33112394ed2a62d7efb2a07c1dd931091
+  verdict: reproducible
 - date: 2020-05-03
   version: "8.02"
   apkHash: f01e4028778bc2036902af2253522b7de0eb40ca3bff50f51a8c0918737fd6b4
@@ -97,16 +102,16 @@ came to these results:
 ```
 Results:
 appId:          de.schildbach.wallet
-signer:         
-apkVersionName: 8.03
-apkVersionCode: 803
-apkHash:        09b78cea4be8ca41661b0a9ab3d4a2ed16c8947c2aaceeb39c931ee8e2d3f653
+signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+apkVersionName: 8.05
+apkVersionCode: 805
+apkHash:        64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_803/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_803/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_803/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_803/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_803/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_803/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_de.schildbach.wallet_805/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_805/apktool.yml differ
+Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF differ
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.

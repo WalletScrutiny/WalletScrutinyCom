@@ -7,9 +7,9 @@ appId: com.kraken.trade
 launchDate: 
 latestUpdate: 2020-07-30
 apkVersionName: "1.5.3-5300"
-stars: 4.6
-ratings: 2333
-reviews: 884
+stars: 4.5
+ratings: 2697
+reviews: 990
 size: 45M
 website: https://www.kraken.com/
 repository: 

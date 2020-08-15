@@ -18,6 +18,10 @@ if (document.querySelectorAll(".hero-cta").length > 0) {
   var s = document.createElement("input")
   s.setAttribute("oninput", "searchCatalogue(this)")
   s.setAttribute("onkeyup", "focusResults(event)")
+  // TODO: the search results should disappear immediately if the user clicks
+  // outside the search box but clicking a link should still work. This 1s delay
+  // is a hack for slow clickers.
+  s.setAttribute("onblur", "x=this;setTimeout(function(){x.value=''; searchCatalogue(x)}, 1000)")
   s.setAttribute("placeholder", "Search wallets...")
   s.classList.add("walletSearch")
   t.append(s)
@@ -47,7 +51,7 @@ function searchCatalogue(t) {
       if (n.toUpperCase().indexOf(v) !== -1) {
         if(f==0){result.innerHTML = "";}
         var l = document.createElement("li");
-        l.innerHTML = `<a href='/${r.appId}'><img src='/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
+        l.innerHTML = `<a href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
         result.append(l)
         f++
       }

@@ -2,30 +2,30 @@
 title: "Flare Wallet"
 altTitle: 
 
-users: 500
+users: 1000
 appId: com.flare
 launchDate: 2020-02-22
 latestUpdate: 2020-07-31
 apkVersionName: "1.2.32"
 stars: 4.6
-ratings: 182
-reviews: 145
+ratings: 189
+reviews: 153
 size: 10M
-website: 
+website: https://flarewallet.io/
 repository: 
 issue: 
 icon: com.flare.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-04-07
-reviewStale: true
+verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-08-04
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: flarewallet
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: FlareWallet
 providerReddit: 
 
 redirect_from:
@@ -34,10 +34,11 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.flare" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.flare).
+This app claims to be non-custodial:
 
-Probably an engineer will soon have a deeper look at this app.
+> Non-Custodial
+> 
+> Retain complete control over all of your private keys.
 
-So far we are not even sure it is a wallet ... Please check back later.
+but we cannot find any mention of source code on their website or Google Play
+description so the app is **not verifiable**.
