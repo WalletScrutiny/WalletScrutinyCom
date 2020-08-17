@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2020-08-07
-apkVersionName: "2.25.1"
+latestUpdate: 2020-08-15
+apkVersionName: "2.25.2"
 stars: 3.9
 ratings: 25
 reviews: 10
