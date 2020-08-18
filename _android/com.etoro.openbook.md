@@ -2,14 +2,14 @@
 title: "eToro"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: com.etoro.openbook
 launchDate: 2013-11-05
-latestUpdate: 2020-08-12
-apkVersionName: "266.0.0"
+latestUpdate: 2020-08-18
+apkVersionName: "267.0.0"
 stars: 4.1
-ratings: 39241
-reviews: 14509
+ratings: 39390
+reviews: 14586
 size: 41M
 website: 
 repository: 

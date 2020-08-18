@@ -5,12 +5,12 @@ altTitle:
 users: 100
 appId: app.zeusln.zeus
 launchDate: 
-latestUpdate: 2020-07-14
-apkVersionName: "0.3.0"
-stars: 4.9
-ratings: 8
+latestUpdate: 2020-08-16
+apkVersionName: "0.3.1"
+stars: 4.7
+ratings: 10
 reviews: 4
-size: 11M
+size: 26M
 website: 
 repository: 
 issue: 

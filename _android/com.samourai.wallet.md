@@ -5,7 +5,7 @@ altTitle:
 users: 50000
 appId: com.samourai.wallet
 launchDate: 
-latestUpdate: 2020-07-14
+latestUpdate: 2020-08-18
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -18,7 +18,7 @@ icon: com.samourai.wallet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-08-03
-reviewStale: false
+reviewStale: true
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 
