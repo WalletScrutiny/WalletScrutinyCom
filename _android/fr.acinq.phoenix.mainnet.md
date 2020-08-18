@@ -1,6 +1,6 @@
 ---
 title: "Phoenix | The Bitcoin wallet from the future"
-altTitle: "Phoenix : The Bitcoin wallet from the future"
+altTitle: 
 
 users: 5000
 appId: fr.acinq.phoenix.mainnet

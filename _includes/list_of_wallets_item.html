@@ -6,10 +6,6 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.id %}
-  {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% endif %}
-
 {% comment %}
   Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
   here have only one significant digit, getting number grouping can be achieved
