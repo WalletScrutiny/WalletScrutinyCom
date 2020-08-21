@@ -7,9 +7,9 @@ appId: com.remitano.remitano
 launchDate: 
 latestUpdate: 2020-08-03
 apkVersionName: "5.1.0"
-stars: 4.5
-ratings: 7919
-reviews: 3729
+stars: 4.6
+ratings: 7945
+reviews: 3741
 size: 30M
 website: https://remitano.com
 repository: 

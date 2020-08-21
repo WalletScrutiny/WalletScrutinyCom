@@ -1,5 +1,5 @@
 ---
-title: "BRD Bitcoin Wallet. Cryptocurrency, Bitcoin Cash"
+title: "BRD Bitcoin Wallet. Buy BTC Bitcoin Cash, Ethereum"
 altTitle: 
 
 users: 1000000
@@ -8,8 +8,8 @@ launchDate: 2016-07-21
 latestUpdate: 2020-08-04
 apkVersionName: "4.4.3"
 stars: 4.0
-ratings: 12772
-reviews: 5459
+ratings: 12840
+reviews: 5486
 size: 23M
 website: https://brd.com/
 repository: https://github.com/breadwallet/breadwallet-android

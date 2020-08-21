@@ -8,8 +8,8 @@ launchDate: 2018-12-07
 latestUpdate: 2019-01-30
 apkVersionName: "0.0.7"
 stars: 4.8
-ratings: 93
-reviews: 57
+ratings: 94
+reviews: 58
 size: 11M
 website: https://ebc.eco
 repository: 
