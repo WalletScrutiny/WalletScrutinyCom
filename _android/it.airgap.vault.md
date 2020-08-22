@@ -17,10 +17,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/23
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-22
-reviewStale: true
+date: 2020-08-21
+reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2020-07-22
+  version: "3.3.0"
+  apkHash: caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316
+  gitRevision: e0c3c00e6c5db1d4467c0c8049db15b59d1dbf2a
+  verdict: reproducible
 - date: 2020-07-17
   version: "3.3.0"
   apkHash: caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316
@@ -66,23 +71,23 @@ came to this conclusion:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.3.0
-apkVersionCode: 20379
-apkHash:        caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316
+apkVersionName: 3.4.0
+apkVersionCode: 21383
+apkHash:        de51c80653019c3d31814daeb0aabdbe09ce4e4a5e340372c502d26dde57d045
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_20379/apktool.yml and /tmp/fromBuild_it.airgap.vault_20379/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_20379/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_20379/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_20379/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_20379/original/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_21383/apktool.yml and /tmp/fromBuild_it.airgap.vault_21383/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_21383/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_21383/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_21383/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_21383/original/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 453b522dbbe53a603ccbfd01d07bf24f85ad838b
+object be57a4bf4fba96fdf9848b3d38110462dab1aba7
 type commit
-tag v3.3.0
-tagger Andreas Gassmann <a.gassmann@papers.ch> 1595232900 +0200
+tag v3.4.0
+tagger AndreasGassmann <andreas@andreasgassmann.ch> 1598026500 +0200
 
-Version Code: 20379
+AirGap Vault version 3.4.0
 ```
 
 which is what we expect to see for the verdict: **reproducible**.
