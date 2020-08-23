@@ -7,8 +7,8 @@ appId: io.ob1.nativeandroid
 launchDate: 
 latestUpdate: 2020-08-10
 apkVersionName: "1.3.7"
-stars: 3.9
-ratings: 361
+stars: 3.8
+ratings: 362
 reviews: 156
 size: 95M
 website: https://gethaven.app/

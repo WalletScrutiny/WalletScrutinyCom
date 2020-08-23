@@ -8,7 +8,7 @@ launchDate: 2018-07-01
 latestUpdate: 2020-08-12
 apkVersionName: "4.21"
 stars: 3.6
-ratings: 3876
+ratings: 3877
 reviews: 2370
 size: 48M
 website: https://cobo.com/

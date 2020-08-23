@@ -5,7 +5,7 @@ altTitle:
 users: 5000
 appId: zapsolutions.zap
 launchDate: 
-latestUpdate: 2020-08-06
+latestUpdate: 2020-08-21
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
