@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-08-13
 apkVersionName: "1.0.10"
 stars: 4.1
-ratings: 363
-reviews: 169
+ratings: 367
+reviews: 171
 size: 20M
 website: https://www.crypto.com/
 repository: 

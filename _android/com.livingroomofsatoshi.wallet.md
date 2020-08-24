@@ -7,9 +7,9 @@ appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
 latestUpdate: 2020-06-12
 apkVersionName: "1.8.2"
-stars: 3.7
-ratings: 162
-reviews: 104
+stars: 3.6
+ratings: 164
+reviews: 103
 size: 10M
 website: http://www.walletofsatoshi.com/
 repository: 

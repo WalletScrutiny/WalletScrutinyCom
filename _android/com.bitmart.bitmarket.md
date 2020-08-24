@@ -2,14 +2,14 @@
 title: "BitMart - Cryptocurrency Exchange"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.bitmart.bitmarket
 launchDate: 
 latestUpdate: 2020-08-04
 apkVersionName: "2.2.9"
-stars: 3.4
-ratings: 471
-reviews: 288
+stars: 3.5
+ratings: 490
+reviews: 301
 size: 27M
 website: https://www.bitmart.com/
 repository: 

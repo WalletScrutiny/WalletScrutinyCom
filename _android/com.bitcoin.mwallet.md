@@ -8,8 +8,8 @@ launchDate: 2017-06-19
 latestUpdate: 2020-08-11
 apkVersionName: "6.7.3"
 stars: 3.8
-ratings: 11623
-reviews: 5106
+ratings: 11634
+reviews: 5111
 size: 40M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

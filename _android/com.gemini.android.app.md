@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-08-21
 apkVersionName: "2.16.3"
 stars: 3.3
-ratings: 1817
+ratings: 1819
 reviews: 917
 size: Varies with device
 website: https://gemini.com/

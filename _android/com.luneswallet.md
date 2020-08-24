@@ -8,7 +8,7 @@ launchDate: 2018-01-31
 latestUpdate: 2018-12-06
 apkVersionName: "2.1"
 stars: 4.1
-ratings: 192
+ratings: 193
 reviews: 127
 size: 7.3M
 website: https://luneswallet.app/
