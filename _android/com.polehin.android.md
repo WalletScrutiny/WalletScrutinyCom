@@ -7,9 +7,9 @@ appId: com.polehin.android
 launchDate: 2019-01-01
 latestUpdate: 2020-08-15
 apkVersionName: "3.2.9"
-stars: 4.5
-ratings: 6786
-reviews: 4275
+stars: 4.4
+ratings: 6883
+reviews: 4325
 size: 6.6M
 website: https://polehin.com/
 repository: 
