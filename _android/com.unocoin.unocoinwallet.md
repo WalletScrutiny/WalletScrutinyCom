@@ -8,8 +8,8 @@ launchDate: 2016-11-30
 latestUpdate: 2020-07-27
 apkVersionName: "3.2.9"
 stars: 4.3
-ratings: 13663
-reviews: 7245
+ratings: 13674
+reviews: 7256
 size: 12M
 website: https://www.unocoin.com
 repository: 

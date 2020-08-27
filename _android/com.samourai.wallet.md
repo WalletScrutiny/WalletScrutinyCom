@@ -2,7 +2,7 @@
 title: "Samourai Wallet"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.samourai.wallet
 launchDate: 
 latestUpdate: 2020-08-24
