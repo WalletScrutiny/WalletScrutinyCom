@@ -2,15 +2,15 @@
 title: "YouHodler - Crypto and Bitcoin Wallet"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.youhodler.youhodler
 launchDate: 
-latestUpdate: 2020-08-06
-apkVersionName: "2.7.0"
+latestUpdate: 2020-08-27
+apkVersionName: "2.8.0"
 stars: 3.7
-ratings: 274
-reviews: 105
-size: 67M
+ratings: 278
+reviews: 106
+size: 59M
 website: https://youhodler.com/
 repository: 
 issue: 

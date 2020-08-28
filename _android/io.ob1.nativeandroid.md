@@ -22,11 +22,10 @@ reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-08-04
-  version: 
+  version: "null"
   apkHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
-
 
 providerTwitter: HavenPrivacy
 providerLinkedIn: 

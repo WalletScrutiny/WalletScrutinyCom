@@ -5,12 +5,12 @@ altTitle:
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
 launchDate: 2014-12-05
-latestUpdate: 2020-05-25
-apkVersionName: "1.14.1"
+latestUpdate: 2020-08-27
+apkVersionName: "1.14.2"
 stars: 3.5
 ratings: 2976
 reviews: 817
-size: 11M
+size: 12M
 website: https://spectrocoin.com
 repository: 
 issue: 
