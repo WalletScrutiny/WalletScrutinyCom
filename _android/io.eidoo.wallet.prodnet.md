@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: io.eidoo.wallet.prodnet
 launchDate: 2017-09-25
-latestUpdate: 2020-08-21
-apkVersionName: "2.12.8"
-stars: 3.7
-ratings: 1474
-reviews: 717
+latestUpdate: 2020-08-28
+apkVersionName: "2.12.9"
+stars: 3.8
+ratings: 1476
+reviews: 718
 size: 12M
 website: https://eidoo.io
 repository: 

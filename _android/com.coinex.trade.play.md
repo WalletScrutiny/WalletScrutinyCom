@@ -7,8 +7,8 @@ appId: com.coinex.trade.play
 launchDate: 
 latestUpdate: 2020-08-03
 apkVersionName: "1.8.9"
-stars: 4.7
-ratings: 778
+stars: 4.6
+ratings: 780
 reviews: 408
 size: 9.8M
 website: https://www.coinex.co/
