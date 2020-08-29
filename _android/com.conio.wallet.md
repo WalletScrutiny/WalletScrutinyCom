@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.conio.wallet
 launchDate: 
-latestUpdate: 2020-07-17
-apkVersionName: "3.3.1"
+latestUpdate: 2020-08-26
+apkVersionName: "3.3.2"
 stars: 3.5
-ratings: 309
-reviews: 213
-size: 70M
+ratings: 320
+reviews: 217
+size: 69M
 website: https://www.conio.com/en/
 repository: 
 issue: 

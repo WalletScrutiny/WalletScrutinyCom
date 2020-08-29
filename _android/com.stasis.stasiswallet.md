@@ -5,12 +5,12 @@ altTitle:
 users: 5000
 appId: com.stasis.stasiswallet
 launchDate: 2018-06-13
-latestUpdate: 2020-07-31
-apkVersionName: "1.8.74"
+latestUpdate: 2020-08-21
+apkVersionName: "1.8.77"
 stars: 4.5
-ratings: 135
+ratings: 136
 reviews: 83
-size: 15M
+size: 18M
 website: https://stasis.net/wallet/
 repository: https://github.com/stasisnet
 issue: 

@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.plunien.poloniex
 launchDate: 
-latestUpdate: 2020-08-06
-apkVersionName: "1.21.3"
-stars: 4.2
-ratings: 2021
-reviews: 1162
-size: 38M
+latestUpdate: 2020-08-25
+apkVersionName: "1.21.6"
+stars: 4.4
+ratings: 2194
+reviews: 1232
+size: 39M
 website: https://support.poloniex.com/
 repository: 
 issue: 

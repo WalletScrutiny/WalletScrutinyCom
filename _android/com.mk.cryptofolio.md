@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: com.mk.cryptofolio
 launchDate: 
-latestUpdate: 2019-10-20
-apkVersionName: "1.0.50"
+latestUpdate: 2020-08-19
+apkVersionName: "1.0.51"
 stars: 4.7
 ratings: 17
 reviews: 10
@@ -18,7 +18,7 @@ icon: com.mk.cryptofolio.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-06-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

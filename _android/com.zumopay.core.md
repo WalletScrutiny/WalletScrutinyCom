@@ -2,15 +2,15 @@
 title: "Zumo - Bitcoin Wallet App - Buy, Store, & Transfer"
 altTitle: 
 
-users: 100
+users: 500
 appId: com.zumopay.core
 launchDate: 
-latestUpdate: 2020-08-06
-apkVersionName: "2.6.1"
+latestUpdate: 2020-08-19
+apkVersionName: "2.7.0"
 stars: 4.5
 ratings: 20
 reviews: 12
-size: 45M
+size: 46M
 website: https://zumo.money/
 repository: 
 issue: 

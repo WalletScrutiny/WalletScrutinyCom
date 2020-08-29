@@ -1,24 +1,24 @@
 ---
-title: "Zeus: Bitcoin/Lightning Wallet"
+title: "BitBoxApp"
 altTitle: 
 
 users: 100
-appId: app.zeusln.zeus
+appId: ch.shiftcrypto.bitboxapp
 launchDate: 
-latestUpdate: 2020-08-16
-apkVersionName: "0.3.1"
-stars: 4.7
-ratings: 10
-reviews: 4
-size: 26M
+latestUpdate: 2020-08-19
+apkVersionName: "android-4.21.1"
+stars: 0.0
+ratings: 
+reviews: 
+size: 64M
 website: 
 repository: 
 issue: 
-icon: app.zeusln.zeus.png
+icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
 verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-15
-reviewStale: true
+date: 2020-08-28
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -29,9 +29,7 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /app.zeusln.zeus/
-  - /posts/app.zeusln.zeus/
+  - /ch.shiftcrypto.bitboxapp/
 ---
 
 
-This app is the continuation of [this app](/com.zeusln.zeus/).

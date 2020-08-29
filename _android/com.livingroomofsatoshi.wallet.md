@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
-latestUpdate: 2020-06-12
-apkVersionName: "1.8.2"
-stars: 3.8
-ratings: 158
-reviews: 101
+latestUpdate: 2020-08-24
+apkVersionName: "1.9.7"
+stars: 3.7
+ratings: 166
+reviews: 103
 size: 10M
 website: http://www.walletofsatoshi.com/
 repository: 
