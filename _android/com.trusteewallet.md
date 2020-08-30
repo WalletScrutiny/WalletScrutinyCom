@@ -8,7 +8,7 @@ launchDate: 2019-05-01
 latestUpdate: 2020-08-20
 apkVersionName: "1.30.436"
 stars: 4.1
-ratings: 690
+ratings: 691
 reviews: 437
 size: 15M
 website: https://trustee.deals/
