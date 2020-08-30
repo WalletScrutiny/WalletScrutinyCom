@@ -3,8 +3,10 @@ title: "Bitcoin Core"
 website: https://bitcoin.org
 repository: https://github.com/bitcoin/bitcoin
 binarySources:
-  - directDownload
-  - snapStore
+  directDownload: 
+  snapStore: 
+  debian: 
+  ubuntu: 
 launchDate: 2009-01-09
 latestUpdate: 2020-06-03
 latestVersion: "0.20.0"
