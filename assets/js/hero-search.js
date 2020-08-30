@@ -51,7 +51,7 @@ function searchCatalogue(t) {
       if (n.toUpperCase().indexOf(v) !== -1) {
         if(f==0){result.innerHTML = "";}
         var l = document.createElement("li");
-        l.innerHTML = `<a href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
+        l.innerHTML = `<a href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/android/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
         result.append(l)
         f++
       }

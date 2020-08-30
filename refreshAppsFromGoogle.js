@@ -48,7 +48,7 @@ fs.readdir(androidFolder, function (err, files) {
           lang: 'en',
           country: 'cl',
           throttle: 5}).then(function(app){
-        const iconPath = `images/wallet_icons/${appId}`
+        const iconPath = `images/wallet_icons/android/${appId}`
         const iconFile = fs.createWriteStream(iconPath)
         const request = https.get(app.icon, function(response) {
           response.pipe(iconFile)
