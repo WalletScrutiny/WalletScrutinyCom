@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-08-26
 apkVersionName: "3.3.2"
 stars: 3.5
-ratings: 320
-reviews: 217
+ratings: 322
+reviews: 218
 size: 69M
 website: https://www.conio.com/en/
 repository: 

@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
-latestUpdate: 2020-07-09
-apkVersionName: "3.3.8"
+latestUpdate: 2020-08-31
+apkVersionName: "3.3.9"
 stars: 4.0
-ratings: 603
-reviews: 331
+ratings: 606
+reviews: 333
 size: 27M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
@@ -18,7 +18,7 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-07-11
-reviewStale: false
+reviewStale: true
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2020-05-06

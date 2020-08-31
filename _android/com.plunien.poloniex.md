@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-08-25
 apkVersionName: "1.21.6"
 stars: 4.5
-ratings: 2194
-reviews: 1232
+ratings: 2218
+reviews: 1238
 size: 39M
 website: https://support.poloniex.com/
 repository: 

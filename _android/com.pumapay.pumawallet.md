@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.pumapay.pumawallet
 launchDate: 
-latestUpdate: 2020-08-12
-apkVersionName: "3.8.8"
+latestUpdate: 2020-08-28
+apkVersionName: "3.8.9"
 stars: 4.2
-ratings: 218
-reviews: 138
+ratings: 222
+reviews: 142
 size: 50M
 website: https://pumapay.io/
 repository: 

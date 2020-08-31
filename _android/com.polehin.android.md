@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: com.polehin.android
 launchDate: 2019-01-01
-latestUpdate: 2020-08-15
+latestUpdate: 2020-08-30
 apkVersionName: "3.2.9"
 stars: 4.4
-ratings: 7088
-reviews: 4445
+ratings: 7177
+reviews: 4496
 size: 6.6M
 website: https://polehin.com/
 repository: 
