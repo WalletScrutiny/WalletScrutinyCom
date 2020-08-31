@@ -40,19 +40,22 @@ What we do not do
   the public code or the version that we investigated. A tool for that is under
   development. If version 3.4.5 of your wallet is reproducible according to us
   then you might still have received a different version 3.4.5 than the one we
-  reviewed. Google lets the developers slice the market by country, device brand
-  and even individual users. You would have to compare the fingerprint of the
+  reviewed.
+  You would have to compare the fingerprint of the
   app on your device with the one reported here.
+  Google lets the developers slice the market by country, device brand
+  and even individual users. Other app repositories might have similar
+  "flexibility".
 
 
 Our steps when reviewing a new app
 ==================================
 
-Some of the information is collected automatically from Google Play. Apps tagged
+Apps tagged
 **"WIP"** are work in progress and might have nothing to do with wallets. We have
 not had the time to look into it yet.
 
-If the app has less than 1000 downloads, we do not bother investigating it
+If an Android app has less than 1000 downloads, we do not bother investigating it
 further and keep tracking its downloads until it does. Those get tagged **"Few
 users"**.
 
@@ -62,13 +65,13 @@ We take the perspective of a curious potential user of the respective app.
 We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
-within a *few clicks* from the Playstore description. We occasionally search
+within a *few clicks* from the app's website. We occasionally search
 GitHub for the identifiers but without endorsement from the official website,
 any repository we find this way is not very promising to provide reproducible
 builds but we are happy to leave an issue on a source code repository about our
 findings.
 
-Once we find the wallet's website, we try to answer the following questions:
+We try to answer the following questions:
 
 
 Is it a wallet?
@@ -78,7 +81,7 @@ If it's called "wallet" but is actually only a portfolio tracker, we don't look
 any deeper, assuming it is not meant to control funds. What has no funds, can't
 lose your coins. *It might still leak your financial history!*
 
-If not, we tag it **"Not a wallet"**.
+Those apps we tag as **"Not a wallet"**.
 
 
 Is it for Bitcoins?
@@ -89,11 +92,11 @@ is not the case, the wallet is tagged **"Non-BTC"**.
 
 
 Is it custodial?
-------------------------
+----------------
 
-A custodial service is a service where the funds are held by a third party like the
+A service is custodial when the funds are held by a trusted party like the
 provider. The custodial service can at any point steal all the funds of all the users at the
-custodian's discretion. Our investigations stop there.
+custodian's discretion. Our investigation stops there.
 
 Some services might claim their setup is
 super secure, that they don't actually have access to the funds, or that the
@@ -106,11 +109,11 @@ Those apps get tagged **"Custodial!"**.
 
 Apps that claim to be non-custodial but feature custodial accounts without very
 clearly marking those as custodial are also considered "custodial" as a whole to
-avoid trusting users following our assessment to fall for this important
+avoid users following our assessment to fall for this important
 limitation of said apps.
 
 
-Is it the source code public?
+Is the source code public?
 --------------------------
 
 A wallet that claims to not give the provider the means to steal the users'
@@ -151,26 +154,26 @@ built from. At this point we review if the wallet provider claims that the
 wallet can be verified to match the published code. We then go on and try to
 reproduce the app. We
 
-1. obtain the app from Google Play
+1. obtain the compiled app as the user would obtain it
 1. compile the app from the published source code using the published build
    instructions
 1. compare the two apps
-1. spend some time working around
-   [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
 
-If this fails, we might search if other revisions match or if we can
+If the apps differ, we might search if other code revisions match or if we can
 deduct the source of the mismatch but generally consider it on the provider to
 provide the correct source code and build instructions to reproduce the build,
-so we usually open a ticket in their git repository (all on GitHub so far) and
+so we usually open a ticket in their source code repository and
 classify the wallet as **"Not reproducible!"**.
 
 If we managed to reproduce the build, we classify it as **"Reproducible"**.
+
+We then automate the check for reproducibility and check with every update.
 
 
 Priorities
 ----------
 
-We cannot re-evaluate all the +160 apps every hour and as this is a side-project
+We cannot re-evaluate all the apps every hour and as this is a side-project
 still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
@@ -187,7 +190,7 @@ But when we update reviews, we try to proceed as follows:
 Wrap it up
 ----------
 
-In the end we report our findings. All wallets that fail at any of the above
+We report our findings. All wallets that fail at any of the above
 questions are considered high risk in our estimate. We might contact the wallet
 provider, try to find out what went wrong and report on the respective
 communication.
@@ -222,9 +225,8 @@ not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
 would bait-and-switch. It would see to how many users it could grow the app or
-even buy out a successful wallet in financial trouble to then introduce a
-code to leak the backups.
-
+even buy out a successful wallet in financial trouble to then introduce an
+update to leak the backups.
 The evil code would not be present until the app is losing users (or funds under
 management) for whatever other reason.
 
@@ -240,12 +242,12 @@ first time and can be automated.
 
 To achieve a situation where most users are running verified apps, the release
 process would have to be massively decelerated and there would have to be strong
-incentives in place for security researchers to find issues.
+incentives in place for security researchers to look for issues.
 
 Often users are in a big hurry to get bug-fixes and wallet managers are in a
 hurry to roll out new features but this hurry is standing against the security
 of all wallet users. Wallet developers "screw up" all the time and almost always
-it's just some crash affecting some corner case they didn't anticipate when
+it's "just" some crash affecting some corner case they didn't anticipate when
 writing the code and these crashes while highly inconvenient for the users who
 expected to use their wallet today, usually do not put at risk any funds in the
 wallet. This hurry does, however, put reviewers in the uncomfortable position of
