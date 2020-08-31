@@ -1,6 +1,6 @@
 {% include base_path %}
 {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
-{% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
+{% assign wallets_by_title = site.linux | sort: "title" %}
 <div class="page-section">
   <div class="input-org">
     {% if showVerdictFilter %}
@@ -17,18 +17,13 @@
       {% for v in verdicts %}
         <div class="{% if showVerdictFilter %}row-identifier row-identifier-{{ v }}{% endif %}">
         <h2 class="verdict {{ v }}">{{ site.data.verdicts[v].title }}</h2><br style="clear:both">
-        <div class="flexi-list">
-        {% for d in downloads %}
-          {% for post in posts_by_ratings %}
-            {% assign users = post.users | downcase %}
-            {% if post.verdict == v %}
-              {% if users == d %}
-                {% include list_of_wallets_item.html %}
-              {% endif %}
+          <div class="flexi-list">
+          {% for wallet in wallets_by_title %}
+            {% if wallet.verdict == v %}
+              {% include list_of_wallets_linux_item.html %}
             {% endif %}
           {% endfor %}
-        {% endfor %}
-        </div>
+          </div>
         </div>
       {% endfor %}
     </div>

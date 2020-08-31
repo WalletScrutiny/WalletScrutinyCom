@@ -1,0 +1,51 @@
+{% include base_path %}
+
+{% assign simpleAppId = wallet.appId | replace: '.', '' %}
+
+<div id="card_{{ simpleAppId }}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="{{ wallet.url }}">
+  <div style="width:7em;position: relative;" onclick="toggleApp('{{ simpleAppId }}')">
+    <div id="show_{{ simpleAppId }}" class="card-expand-close">
+      <i class="fas fa-plus-square"></i>
+    </div>
+    <div id="hide_{{ simpleAppId }}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
+      <i class="fas fa-minus-square"></i>
+    </div>
+    <div style="position:relative">
+      <div class="flex-r">
+    <div class="app_logo">
+        <img src="{{ base_path }}/images/wallet_icons/linux/small/{{ wallet.icon }}" class="app_logo" alt="Wallet Logo">
+    </div>
+        <span class="stamp stamp-{{ wallet.verdict }}" alt=""></span>
+      </div>
+    </div>
+      <div class="app_info_box">
+          <strong>{{ wallet.title }}</strong>
+      </div>
+  </div>
+  <div id="details_{{ simpleAppId }}" class="item-detail-container" style="width:20em;display:none">
+    <table>
+      <tr><td>Verdict</td>
+        <td class="verdict">
+          <span class="{{ wallet.verdict }} tooltip">
+            {{ site.data.verdicts[wallet.verdict].title }}
+            <span class="tooltiptext">
+              {{ site.data.verdicts[wallet.verdict].message }}
+            </span>
+          </span>
+        </td>
+      </tr>
+      <tr><td>Launched</td><td>{{ wallet.launchDate | date: '%Y-%m-%d' }}</td></tr>
+      <tr><td>Reviewed</td><td>{{ wallet.date | date: '%Y-%m-%d' }}</td></tr>
+      {% if wallet.website %}<tr><td>Website</td><td><a href="{{ wallet.website }}">{{ wallet.website }}</a></td></tr>{% endif %}
+      {% if wallet.repository %}<tr><td>Source Code</td><td><a href="{{ wallet.repository }}">{{ wallet.repository }}</a></td></tr>{% endif %}
+      {% if wallet.issue %}<tr><td>Open Issue</td><td><a href="{{ wallet.issue }}">{{ wallet.issue }}</a></td></tr>{% endif %}
+      {% if wallet.providerTwitter %}<tr><td>Twitter</td><td><a href="https://twitter.com/{{ wallet.providerTwitter }}">@{{ wallet.providerTwitter }}</a></td></tr>{% endif %}
+      {% if wallet.providerFacebook %}<tr><td>Facebook</td><td><a href="https://www.facebook.com/{{ wallet.providerFacebook }}">{{ wallet.providerFacebook }}</a></td></tr>{% endif %}
+      {% if wallet.providerReddit %}<tr><td>Reddit</td><td><a href="https://www.reddit.com/r/{{ wallet.providerReddit }}">r/{{ wallet.providerReddit }}</a></td></tr>{% endif %}
+      {% if wallet.providerLinkedIn %}<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/{{ wallet.providerLinkedIn }}">{{ wallet.providerLinkedIn }}</a></td></tr>{% endif %}
+    </table>
+    <p><a href="{{ base_path }}{{ wallet.url }}" rel="permalink">
+      <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
+    </a></p>
+  </div>
+</div>
