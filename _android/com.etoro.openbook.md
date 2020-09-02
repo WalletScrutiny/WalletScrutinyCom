@@ -5,11 +5,11 @@ altTitle:
 users: 5000000
 appId: com.etoro.openbook
 launchDate: 2013-11-05
-latestUpdate: 2020-08-25
-apkVersionName: "268.0.0"
+latestUpdate: 2020-09-01
+apkVersionName: "269.0.0"
 stars: 4.2
-ratings: 40062
-reviews: 14856
+ratings: 40209
+reviews: 14927
 size: 41M
 website: 
 repository: 

@@ -7,9 +7,9 @@ appId: net.bitstamp.app
 launchDate: 
 latestUpdate: 2020-07-06
 apkVersionName: "1.5.4"
-stars: 4.5
-ratings: 5919
-reviews: 1677
+stars: 4.6
+ratings: 5943
+reviews: 1684
 size: 12M
 website: https://www.bitstamp.net/
 repository: 

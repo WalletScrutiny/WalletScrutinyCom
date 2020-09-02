@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: it.airgap.vault
 launchDate: 2018-08-06
-latestUpdate: 2020-08-18
-apkVersionName: "3.4.0"
+latestUpdate: 2020-09-01
+apkVersionName: "3.5.0"
 stars: 3.8
 ratings: 39
 reviews: 17
@@ -18,7 +18,7 @@ icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-08-21
-reviewStale: false
+reviewStale: true
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2020-07-22
