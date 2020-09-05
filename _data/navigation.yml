@@ -1,9 +1,11 @@
 # main links links
 main:
-  - title: "<div id=\"donateButton\">Donate</div>"
+  - title: "<div id=\"newTitle\">Wallet Support</div>"
     url: /donate/
   - title: "Methodology"
     url: /methodology/
+  - title: "<div id=\"donateButton\">Donate</div>"
+    url: /donate/
   - title: "Glossary"
     url: /glossary/
   - title: "Contribute"
