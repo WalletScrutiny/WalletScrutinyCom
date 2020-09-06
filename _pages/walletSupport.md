@@ -27,10 +27,10 @@ backup with the support team.</p>
 <p><strong>Be aware of impersonators!</strong> Every wallet is struggling with
 scammers running "support groups". If you search your wallet's name on Telegram
 you might find "support groups" with 10.000 members but the first thing you will
-get asked when sharing your problem there is your backup. Share your problem on
+get asked for when sharing your problem there is your backup. Share your problem on
 Reddit and you will get approached by scammers! Scammers will often use the
 profile pictures and names of Bitcoiners but if you cannot find a link from the
-service to the support channel, the support channel is probably not affiliated.</p>
+service to the support channel, the support channel is probably not affiliated!</p>
 </div>
 </div>
 
@@ -53,6 +53,14 @@ $500 in the wallet, so you decide recovering that would be worth $200. You pay
 do a second payment over $160. If we worked on your case but could not help you,
 you do lose the $40. If we do not get to look into your case within 24h after
 your payment confirmed, you get your $40 back.
+
+**To get support:**
+
+1. Fill in what you are willing to pay for our support below.
+1. Click "Pay with BTCpay", following the instructions there. You will get sent
+   back here.
+1. Once the payment is confirmed, contact us here in the chat on this page.
+1. An agent will get back with you depending on payment and availability.
 
 <script type="text/javascript">
   var orderId = "c" + (100000000000 * Math.random()).toFixed();
@@ -183,6 +191,14 @@ Usually one of the following situations applies:
 
 In any case **do not delete or re-install anything**!
 
+# Our agents are international
+
+Our team is still small but we already can help you in:
+
+* English
+* Deutsch
+* Español
+
 # Limitations
 
 While we will try to help you with whatever you ask us, there are some things we
@@ -206,7 +222,7 @@ PIN etc. won't help. Those coins are probably
 
 ## Corrupted Backup
 
-If you have a backup but it "doesn't work", we probably **can** help. That is if
+If you have a backup but it "doesn't work", **we probably can help**. That is if
 you have 12 words or your backup is otherwise basically intact. We probably can
 help you if you lost a tiny part of your backup but judging what constitutes
 "tiny" is difficult. If you lost for example 6 of your 12 words, we can't help
@@ -215,10 +231,11 @@ brute forcing the keys is feasible. We certainly can assist in feasibility
 evaluations.
 
 To re-iterate on the [Security Notice](#security), this "Wallet Support" will
-never ask for your backup or part of backup. If the feasibility evaluation
+never ask for your backup or part of your backup. If the feasibility evaluation
 suggests that brute forcing on specialized hardware makes sense then we will
 recommend experts that will assist with this. It is your responsibility to then
 evaluate if the service of your choice is trustworthy and we recommend to make
 clear contractual agreements and check the identity with whoever you are about
-to share what you hope to be the keys to your riches. In doubt, involve a lawyer
-or seek an expert in your city or at least your country.
+to share what you hope to be the keys to your Bitcoins. In doubt, involve a lawyer
+and seek out an expert in your city or at least your country so legal recourse
+becomes easier in case you are not satisfied with his work.
