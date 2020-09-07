@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-08-10
 apkVersionName: "1.3.7"
 stars: 3.8
-ratings: 367
+ratings: 369
 reviews: 158
 size: 95M
 website: https://gethaven.app/
