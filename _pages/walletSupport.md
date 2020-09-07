@@ -36,22 +36,22 @@ service to the support channel, the support channel is probably not affiliated!<
 
 # How we work
 
-You can reach us via the chat here on this site and we will try our best to help
-but we have our day jobs and families to support, too. Our dream is to grow this
-offering so all can get quick, top quality support when they have trouble with
-any Bitcoin wallet but for that, we have to charge a fee. At this time, we do
+You can reach us via the chat here on this site and we will try our best to help,
+but we have our day jobs and families to support also. Our dream is to grow this
+offering so everybody can get quick, top quality support when they have trouble with
+any Bitcoin wallet, but for that, we have to charge a fee. At this time, we do
 not charge a fixed fee or a percentage of funds recovered but we will attend to
-those first, that paid us the most. Should we not get to help you, you will get
+those first, those that pay the most. Should we not get to help you, you will get
 your payment reimbursed. The idea is that you make up your mind about what it
 would be worth if we could help you with your issue. You then pay us 20% of that
-up front to get our attention. Once your issue was resolved, you pay the
+up front to get our attention. Once your issue is resolved, you pay the
 remaining 80%.
 
 Let's say you have a backup but the wallet stopped working. You think there is
 $500 in the wallet, so you decide recovering that would be worth $200. You pay
 20% or $40 via the form below. If we manage to help you restore your $500, you
 do a second payment over $160. If we worked on your case but could not help you,
-you do lose the $40. If we do not get to look into your case within 24h after
+you do spend the $40. If we do not get to look into your case within 48h after
 your payment confirmed, you get your $40 back.
 
 **To get support:**
@@ -198,6 +198,7 @@ Our team is still small but we already can help you in:
 * English
 * Deutsch
 * Español
+* Česky
 
 # Limitations
 
