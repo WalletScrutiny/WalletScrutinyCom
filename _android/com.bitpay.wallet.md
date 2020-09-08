@@ -8,7 +8,7 @@ launchDate: 2016-10-01
 latestUpdate: 2020-08-07
 apkVersionName: "10.1.3"
 stars: 4.0
-ratings: 6987
+ratings: 6992
 reviews: 3339
 size: 28M
 website: https://bitpay.com/

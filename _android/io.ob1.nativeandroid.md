@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-08-10
 apkVersionName: "1.3.7"
 stars: 3.8
-ratings: 369
-reviews: 158
+ratings: 370
+reviews: 159
 size: 95M
 website: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven

@@ -7,7 +7,7 @@ appId: com.onebit.app
 launchDate: 2017-11-23
 latestUpdate: 2020-08-21
 apkVersionName: "3.24.0"
-stars: 4.5
+stars: 4.4
 ratings: 946
 reviews: 502
 size: 82M
