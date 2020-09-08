@@ -108,7 +108,7 @@ your payment confirmed, you get your $40 back.
     })
   }
 
-  window.addEventListener("load", async function () {
+  window.addEventListener("load", function() {
     $("[name='orderId']")[0].value = orderId;
     addFormSubmitInterception()
   })
