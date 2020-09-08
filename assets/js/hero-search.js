@@ -1,13 +1,10 @@
 var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet"
-var sortedWallets = []
-window.addEventListener("load", function () { 
-  sortedWallets = Object.values(window.wallets).sort(function( a, b) {
-    if (a.verdict != b.verdict)
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
-    if (a.users != b.users)
-      return Number(b.users) - Number(a.users)
-    return Number(b.ratings) - Number(a.ratings)
-  })
+var sortedWallets = Object.values(window.wallets).sort(function( a, b) {
+  if (a.verdict != b.verdict)
+    return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+  if (a.users != b.users)
+    return Number(b.users) - Number(a.users)
+  return Number(b.ratings) - Number(a.ratings)
 })
 if (document.querySelectorAll(".hero-cta").length > 0) {
   var p = document.querySelectorAll(".hero-cta")[0]
