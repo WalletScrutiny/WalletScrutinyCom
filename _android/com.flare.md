@@ -5,12 +5,12 @@ altTitle:
 users: 1000
 appId: com.flare
 launchDate: 2020-02-22
-latestUpdate: 2020-07-31
-apkVersionName: "1.2.32"
+latestUpdate: 2020-09-07
+apkVersionName: "1.3.0"
 stars: 4.5
-ratings: 195
-reviews: 158
-size: 10M
+ratings: 196
+reviews: 159
+size: 9.9M
 website: https://flarewallet.io/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.flare.png
 bugbounty: 
 verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-08-04
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

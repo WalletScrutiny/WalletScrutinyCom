@@ -5,12 +5,12 @@ altTitle:
 users: 50000
 appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
-latestUpdate: 2020-08-24
-apkVersionName: "2.8.8"
+latestUpdate: 2020-09-03
+apkVersionName: "2.8.9"
 stars: 4.0
-ratings: 282
-reviews: 156
-size: 9.8M
+ratings: 293
+reviews: 163
+size: 10M
 website: https://hitbtc.com/
 repository: 
 issue: 

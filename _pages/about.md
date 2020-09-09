@@ -4,15 +4,13 @@ title: "Is your Bitcoin wallet secure?"
 summary: "The aim of this project is to improve the security of Bitcoin wallets by examining the application code for possible back-doors and other vulnerabilities."
 excerpt: "Many wallets are not open to public scrutiny"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 {% include base_path %}
 <script>
   window.wallets = {% include allAppList.html %}
 </script>
+<script src="{{ base_path }}/assets/js/hero-search.js"></script>
 
 <div class="page-section">
 

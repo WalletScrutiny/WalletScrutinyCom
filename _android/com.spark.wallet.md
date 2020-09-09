@@ -5,12 +5,12 @@ altTitle:
 users: 500
 appId: com.spark.wallet
 launchDate: 2018-12-10
-latestUpdate: 2020-08-11
+latestUpdate: 2020-09-03
 apkVersionName: "0.0.0"
 stars: 4.6
 ratings: 8
 reviews: 3
-size: 6.7M
+size: 8.0M
 website: https://github.com/shesek/spark-wallet
 repository: 
 issue: 

@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: com.polispay.copay
 launchDate: 2018-02-21
-latestUpdate: 2020-08-05
-apkVersionName: "8.6.2"
+latestUpdate: 2020-09-04
+apkVersionName: "8.6.3"
 stars: 4.3
 ratings: 112
 reviews: 64

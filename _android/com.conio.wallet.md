@@ -7,9 +7,9 @@ appId: com.conio.wallet
 launchDate: 
 latestUpdate: 2020-08-26
 apkVersionName: "3.3.2"
-stars: 3.6
-ratings: 323
-reviews: 219
+stars: 3.5
+ratings: 326
+reviews: 221
 size: 69M
 website: https://www.conio.com/en/
 repository: 
