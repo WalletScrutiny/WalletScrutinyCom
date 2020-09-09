@@ -5,7 +5,7 @@ downloadedApp="$1"
 if ! [[ $downloadedApp =~ ^/.* ]]; then
   downloadedApp="$PWD/$downloadedApp"
 fi
-wsDocker="walletscrutiny/android:3"
+wsDocker="walletscrutiny/android:4"
 
 set -x
 
@@ -180,10 +180,6 @@ testSchildbach() {
   prepare
 
   # build
-  docker run -it --volume $workDir/app:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      apt update && apt install gradle -y; \
-      gradle clean :wallet:assProdRel'
       
   result
 }
@@ -200,6 +196,7 @@ testAirgapVault() {
   docker rm airgap-vault-build -f
   docker image prune -f
   # build
+  sed -i -e "s/versionName \"0.0.0\"/versionName \"$versionName\"/g" android/app/build.gradle
   docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
   docker run --name "airgap-vault-build" airgap-vault echo "container ran."
   docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk

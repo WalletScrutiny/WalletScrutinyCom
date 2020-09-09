@@ -6,10 +6,6 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.id %}
-  {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% endif %}
-
 {% comment %}
   Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
   here have only one significant digit, getting number grouping can be achieved
@@ -22,7 +18,7 @@
 <div class="logo_name_bundle"
   title="{{ title  }}">
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-    <img src="/images/wallet_icons/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+    <img src="{{ base_path }}/images/wallet_icons/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
     <span class="app_name">{{ title  }}</span>
   </a>
 </div>
