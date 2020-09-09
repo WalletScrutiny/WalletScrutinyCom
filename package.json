@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "btcpay": "^0.2.4",
+    "chart.js": "^2.9.3",
     "core-js": "^3.6.5",
     "dateformat": "^3.0.3",
     "del": "^5.1.0",
