@@ -19,6 +19,8 @@ bugbounty:
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-05-11
 reviewStale: true
+warnings:
+- defaultSPV
 signer: 
 reviewArchive:
 - date: 2019-11-23

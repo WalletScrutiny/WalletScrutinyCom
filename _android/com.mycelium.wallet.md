@@ -17,6 +17,19 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+warnings:
+- custom:
+  privacyAlert: high
+  short: Weak privacy!
+  message: >
+    This wallet advertises connection using TOR but does not connect through TOR
+    anymore. If you rely on your IP address not being knowable by the servers
+    of the provider, use a TOR proxy configured as VPN for the whole app.
+    [Orbot](https://play.google.com/store/apps/details?id=org.torproject.android)
+    has this feature.
+    This warning is "high severity" as the wallet specifically claims to connect
+    through TOR when it doesn't.
+- defaultProviderApi
 date: 2020-07-13
 reviewStale: true
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e

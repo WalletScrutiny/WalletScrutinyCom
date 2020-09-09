@@ -17,6 +17,9 @@ issue:
 icon: com.greenaddress.abcore.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+warnings:
+- notProductionReady
+- highDataUse
 date: 2020-03-02
 reviewStale: false
 signer: 
@@ -67,10 +70,3 @@ Files fromGoogle/original/META-INF/MANIFEST.MF and fromBuild/original/META-INF/M
 ```
 
 This looks good. This app is **reproducible**.
-
-(As the provider doesn't recommend using this app as a wallet and as it uses
-tons of resources, please investigate well if you want to use this as an actual
-wallet on your phone or maybe better only as a bitcoin full node on your Android
-TV.)
-
-

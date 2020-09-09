@@ -17,8 +17,42 @@ issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+<<<<<<< HEAD:_android/piuk.blockchain.android.md
 date: 2020-07-11
 reviewStale: true
+=======
+warnings:
+- custom:
+  verdictAlert: high
+  securityAlert: high
+  short: Very weak key security!
+  message: >
+    Your private keys are stored online, encrypted with a password of your
+    choosing while the app allows weak passwords. Humans are terrible at
+    choosing secure passwords, so whoever has access to that database probably
+    also has access to many if not most of the accounts' funds. Or in
+    [the provider's own words](https://www.blockchain.com/learning-portal/security):
+    
+    > ### How can I make sure my password is secure?
+    
+    > 
+    
+    > Our recommendations for having a secure password are:
+    
+    > 
+    
+    > * Be at least 16 characters
+    
+    > * Be unique. Never use the same password twice
+    
+    > * Be diverse. Passwords are case-sensitive, so choose a healthy variety of
+        upper and lowercase letters, numbers, and don’t forget to throw in some 
+        %,#,!,*, or &
+    
+    yet the password "password" is acceptable for the app.
+date: 2020-07-15
+reviewStale: false
+>>>>>>> leosWS/warnings:_posts/2019-12-20-piuk.blockchain.android.md
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
 

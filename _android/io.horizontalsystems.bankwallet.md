@@ -17,6 +17,9 @@ issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/23
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+warnings:
+- defaultSPV
+- defaultProviderApi
 date: 2020-07-15
 reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b

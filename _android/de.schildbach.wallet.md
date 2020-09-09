@@ -17,8 +17,15 @@ issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+<<<<<<< HEAD:_android/de.schildbach.wallet.md
 date: 2020-08-04
 reviewStale: false
+=======
+warnings:
+- defaultSPV
+date: 2020-06-20
+reviewStale: true
+>>>>>>> leosWS/warnings:_posts/2019-12-20-de.schildbach.wallet.md
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2020-06-20
