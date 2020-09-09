@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir images/wallet_icons/tiny/ images/wallet_icons/small/ 2> /dev/null
+mkdir images/wallet_icons/{android,linux}/{tiny,small}/ 2> /dev/null
 
 resizeDeterministically() {
   filename=$1
@@ -8,14 +8,17 @@ resizeDeterministically() {
   target=$3/$filename
   size=$4
   tmp=/tmp/$filename
-  convert -background none $source -resize ${size}x $tmp \
+  convert -quiet -background none $source -resize ${size}x $tmp \
     && compare -metric AE $tmp $target NULL: || cp -f $tmp $target
   rm $tmp
 }
 
 export -f resizeDeterministically
 
-files=$( ls images/wallet_icons/*.* )
-parallel resizeDeterministically {/} images/wallet_icons images/wallet_icons/small 100 ::: $files
-parallel resizeDeterministically {/} images/wallet_icons images/wallet_icons/tiny 25 ::: $files
+for baseFolder in images/wallet_icons/{android,linux}; do
+  files=$( ls $baseFolder/*.* )
+  parallel resizeDeterministically {/} $baseFolder $baseFolder/small 100 ::: $files
+  parallel resizeDeterministically {/} $baseFolder $baseFolder/tiny 25 ::: $files
+done
 resizeDeterministically hacker.jpg resSources images 300
+echo

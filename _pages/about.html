@@ -7,10 +7,23 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include scripts.html %}
+<link rel="stylesheet" type="text/css" href="{{ base_path }}/assets/js/vendor/slick-1.8.1/slick/slick.css"/>
 <script>
   window.wallets = {% include allAppList.html %}
 </script>
-<script src="{{ base_path }}/assets/js/hero-search.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.platform-carousel').slick({
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 5000
+    });
+  });
+</script>
 
 <div class="page-section">
 
@@ -36,13 +49,23 @@ author_profile: true
 {% include press.html %}
 
 
-<h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
+<h2 class="section-label">All reproducible wallets</h2>
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = true %}
-{% include list_of_wallets.html %}
-<a href="{{ base_path }}/moreApps">more apps</a>
+<div class="platform-carousel">
+  <div>
+    <h3>Android</h3>
+    <p>{% assign verdicts = "reproducible" | split: "," %}
+    {% include list_of_wallets_android.html %}</p>
+  </div>
+  <div>
+    <h3>Linux</h3>
+    <p>{% assign verdicts = "wip" | split: "," %}
+    {% include list_of_wallets_linux.html %}</p>
+  </div>
+</div>
+
+
+<a href="{{ base_path }}/allApps">all apps</a>
 
 
 <h2 class="section-label">How many wallets are in each category?</h2>
@@ -53,15 +76,3 @@ author_profile: true
 <h2 class="section-label">How many users (downloads) are in each category?</h2>
 
 {% include grid_of_wallets_proportional.html %}
-
-
-<h2 class="section-label">Comparing the popularity of categories</h2>
-
-This chart shows for each category, starting on the outer doughnut:
-
-* \# of wallets
-* \# of users
-* \# of ratings
-* average star rating
-
-{% include chart_of_wallets.html %}
