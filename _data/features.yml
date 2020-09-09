@@ -1,0 +1,445 @@
+aspects:
+  security:
+    title: Security
+    description: >
+      This aspect encompasses all aspects of keeping one's coins safe. This is
+      primarily about keeping the user in control over his coins.
+      
+      Privacy issues can also affect the security of coins as prospecting
+      attackers might find a user due to poor privacy practices but privacy is
+      its own aspect.
+  onChainPrivacy:
+    title: Privacy against on-chain analysis
+    description: >
+      Blockchain Analysis is a field several companies have specialized in. They
+      look at publicly available data - the blockchain - to gain information
+      about financial activity. The main interest of on-chain analysis is to
+      determine which transactions were done by the same wallet or which wallets
+      belong to the same individual. They also track and categorize those
+      wallets to provide risk analysis to their clients. In some countries,
+      having transactions to or from online casinos might be considered high
+      risk, in others transactions to companies that are in the wrong country
+      might raise suspicion.
+  networkPrivacy:
+    title: Privacy against network observers
+    description: >
+      Analysis companies are known to provide Bitcoin full nodes for the purpose
+      of gathering extra information from the wallets that connect to full nodes
+      to update their transaction history or to broadcast transactions.
+      
+      Network observers can also be normal routers on the internet, observing
+      unencrypted data.
+  providerPrivacy:
+    title: Privacy against wallet provider
+    description: >
+      The wallet provider might know more about the wallet users than is
+      knowable from outside. Provider privacy covers features that protect the
+      user even against the provider of the wallet.
+  savings:
+    title: Financial savings
+    description: >
+      Some features provide direct financial savings by making transactions
+      cheaper.
+  ux:
+    title: User experience
+    description: >
+      This aspect covers all usability features that are not primarily about
+      security or privacy.
+items:
+  fullSegwit:
+    short: Full SegWit Support
+    description: >
+      SegWit which is short for "Segregated Witness" was an upgrade to the Bitcoin
+      protocol which came with new address types.
+      **Full SegWit Support** means that the wallet can both send to and receive
+      to all SegWit address types, including bech32.
+    aspects:
+      - savings
+      - ux
+    benefit: >
+      * *Receiving to SegWit addresses* provides fee savings, as the sending these
+      funds is possible using less base-block space. In Bitcoin, transaction fees
+      are proportional to the transaction size in bytes.
+      
+      * *Receiving to bech32 addresses* provides more fee savings than P2SH
+      Segwit addresses.
+      
+      * *Sending to SegWit addresses* is sometimes required to use more modern
+      tools that dropped support for legacy addresses, often because of another
+      core property of SegWit transactions: They are not malleable, meaning that
+      the transaction ID cannot be changed "in transit" (on unconfirmed
+      transactions).
+    drawback: null
+  payLN:
+    short: Send lightning network transactions
+    description: >
+      The lightning Network (LN) is a layer two protocol that promises instant,
+      low fee micro payments. As receiving payments is more complicated than
+      sending them, some wallets only implement sending.
+    benefit: >
+      Transactions on LN are
+      
+      * *instant*: It usually takes less than five seconds to finish a
+      transaction.
+      
+      * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+      transferred amount and might also be free.
+      
+      * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+      or 0.00000000001 BTC.
+    drawback:
+      LN is still in early development and several very feasible attacks are known
+      that can cost users money or disrupt the network.
+  receiveLN:
+    short: Receive lightning network transactions
+    description: >
+      The lightning Network (LN) is a layer two protocol that promises instant,
+      low fee micro payments. As receiving payments is more complicated than
+      sending them, some wallets only implement sending.
+    benefit: >
+      Transactions on LN are
+      
+      * *instant*: It usually takes less than five seconds to finish a
+      transaction.
+      
+      * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+      transferred amount and might also be free.
+      
+      * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+      or 0.00000000001 BTC.
+    drawback:
+      LN is still in early development and several very feasible attacks are known
+      that can cost users money or disrupt the network.    
+  bip37spv:
+    short: SPV using bloom filters
+    description: >
+      Simple Payment Verification (SPV) means the app connects to regular Bitcoin
+      full nodes but it does not download the full blockchain. Only the
+      transactions relevant to the own wallets.
+  bip158spv:
+    short: SPV using compact block filters
+    description: >
+      Compact block filters as in
+      [BIP158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki)
+      are relatively tiny, probabilistic representation of the full
+      blockchain which tell the client which block contains transactions
+      relevant to specific addresses
+    aspects:
+      - networkPrivacy
+    benefit: >
+      Compared to SPV using bloom filters:
+      
+      * Avoid the leak of the client's addresses to the full nodes it talks to.
+      If the blocks are downloaded through TOR with new TOR identities for each
+      request from different nodes, the privacy of this mode is almost as good
+      as running a full node. An attacker would have to control a big part of
+      the TOR network to still learn about which addresses are of interes.
+      
+      * No re-scan of the full chain needed when importing a wallet.
+      
+      Compared to using an indexing server of the provider, it leaks no data to
+      the provider
+    drawback: >
+      Compared to using an indexing server it is slower and more bandwidth is
+      needed.
+  apiServer:
+    title: API server provided
+    description: >
+      The provider runs indexing servers that provide quick access to the state
+      of the blockchain.
+    aspects:
+      - networkPrivacy
+      - providerPrivacy
+      - ux
+    benefit: >
+      * Quick access to blockchain data. This wallet probably supports cold
+      wallet spending or importing accounts
+      
+      * Low bandwidth requirements. The servers can deliver data tailored to the
+      client's needs without overhead.
+      
+      * Low CPU and storage requirements. As the server does the heavy-lifting,
+      the client doesn't have to.
+      
+      * Random full nodes cannot spy on the user.
+    drawback: >
+      The provider can spy on the user.
+  TOR:
+    title: TOR - The Onion Router
+    description: >
+      TOR is a tool to shield the IP address of communicating parties. When
+      communicating with a node on the TOR network, the communication is also
+      necessarily end to end encrypted but not when communicating to a server
+      on the internet that does neither use TOR nor ssl (https).
+      
+      *Modern Androids allow to put apps behind a local TOR node independently of
+      the provider offering TOR features. While this can be desirable to shield
+      one's IP address, it also might expose unencrypted data to different,
+      probably more aware third parties. It also does not replace more advanced
+      TOR features in which the wallet creates multiple TOR identities for
+      different requests.*
+    aspects:
+      - networkPrivacy
+      - providerPrivacy
+    benefit: >
+      TOR shields the client's IP address and thus his real world location or
+      identity from servers it talks to.
+    drawback: >
+      TOR means bouncing messages around a bit more with extra encryption.
+      That makes it slower.
+  lnWatchTowers:
+    title: Lightning Watch Towers
+    description: >
+      **Non-custodial** Lightning Network wallets that **can receive payments**
+      have to be on guard about all transactions happening on the Bitcoin
+      blockchain to avoid financial loss. With Watch Towers, this can be
+      outsourced in a very private and efficient way.
+    aspects:
+      - security
+      - ux
+    benefit: >
+      The wallet can remain offline for extended periods.
+  own lightning node configurable:
+  full node configurable:
+  bip44account:
+    title: BIP-44 Accounts
+    description: >
+      [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)
+      is a widely used standard for hierarchically deterministic (HD) wallets.
+    aspects:
+      - security
+      - ux
+    benefit: >
+      Accounts can be restored on any BIP-44 compatible wallet, avoiding
+      financial loss if the wallet stops working for any reason.
+  bip49account:
+    title: Compatible SegWit, BIP-49 Accounts
+    description: >
+      [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki)
+      accounts are using some of the benefits of SegWit while being compatible
+      with old wallets that do not understand bech32 addresses yet.
+    aspects:
+      - security
+      - ux
+      - saving
+    benefit: >
+      * Accounts can be restored on any BIP-49 compatible wallet, avoiding
+      financial loss if the wallet stops working for any reason.
+      
+      * Funds received to a BIP-49 account can be spent cheaper than funds in
+      legacy accounts.
+  bip84account:
+    title: bech32 SegWit, BIP-84 Accounts
+    description: >
+      [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki)
+      accounts are using some of the benefits of SegWit while being compatible
+      with old wallets that do not understand bech32 addresses yet.
+    aspects:
+      - security
+      - ux
+      - savings
+    benefit: >
+      * Accounts can be restored on any BIP-84 compatible wallet, avoiding
+      financial loss if the wallet stops working for any reason.
+      
+      * Funds received to a BIP-84 account can be spent cheaper than funds in
+      BIP-49 or legacy accounts.
+    drawback: >
+      In some wallets, switching to an account type that is compatible with
+      legacy wallets is not trivial. This can result in some friction when
+      trying to receive funds from a user of a wallet that does not yet
+      understand bech32 addresses.
+  RBF:
+    title: Replace By Fee (RBF)
+    description: >
+      This wallet can create transactions that can be replaced until it is
+      confirmed by the network.
+
+      Transactions marked as RBF signal the network that they might be replaced
+      but with a higher fee per byte.
+    aspects:
+      - security
+      - savings
+      - ux
+    benefit: >
+      * Transactions can be sent with very low fee and if later a soon
+      confirmation is desired, the fee can be increased which allows the user to
+      use lower fees with more confidence and thus results in fee savings.
+      
+      * RBF in combination with batching allows the wallet to batch transactions
+      [transparent to the
+      user](https://en.wikipedia.org/wiki/Transparency_%28human%E2%80%93computer_interaction%29),
+      making the individual payment cheaper in transaction fees.
+    drawback: >
+      * Services will normally not accept a payment with RBF until it has a
+      confirmation on the blockchain. Wallets that support RBF therefore always
+      allow to send transactions without RBF, too but the user might not notice
+      this detail while waiting for the recipient to confirm the payment. If
+      this happens, a finalizing replacement transaction can be sent.
+      
+      * RBF sparked some controversy among users portraing RBF transactions as
+      double-spend attempts.
+      
+      * Some wallets that are not aware of the mechanism still might get
+      confused and stick to the first transaction seen, ignoring the later
+      replacement transaction for longer than necessary.
+  batching:
+    title: Transaction Batching
+    description: >
+      Batching allows to aggregate multiple payments into one Bitcoin
+      transaction.
+    aspects:
+      - savings
+      - ux
+      - onChainPrivacy
+    benefit: >
+      In Bitcoin, transactions always empty the output of received, prior
+      transactions, so called "unspent transaction outputs" or UTXOs. Without
+      batching, sending to five recipients requires the creation of five
+      transactions with their change outputs - if you don't have the exact
+      amount you want to send to the recipient, you send "change" to yourself.
+      This change UTXO gets then immediately spent in the next transaction and
+      so on, building a chain of transactions.
+      
+      * Batching avoids creating intermediate outputs, making the transaction
+      smaller and thus cheaper in terms of mining fees.
+      
+      * Batching avoids building chains of transactions. If one were to pay
+      more than ten recipients, the network would probably not broadcast the
+      later transactions as only short chains of unconfirmed transactions are
+      being handled by full nodes. Batching fixes that.
+    drawback: >
+      Batching makes multiple payments more obvious to originate from the same
+      sender, although the chain of transactions confirming in the same block
+      also leads to similar conclusions.
+  multiSignature:
+    title: Multi Signature
+    description: >
+      Bitcoin allows to define addresses controlled by more than one private
+      key. Two-of-three for example would mean that any two of a list of three
+      private keys would be required to send coins from this address.
+    aspects:
+      - ux
+      - security
+      - onChainPrivacy
+      - savings
+    benefit: >
+      With keys from distinct devices or users, an attacker would have to
+      compromise multiple devices or users at once. Multi signature thus allows
+      to protect against one device catching a virus, one wallet having a
+      backdoor (if the multi signature works across different providers'
+      wallets), one hardware wallet not being trusted (if hardware wallets can
+      be used for multi signature), etc.
+    drawback: >
+      * There are no good standards yet for multi signature accounts. This might
+      mean that an account that works with one provider's wallet won't load in
+      any other wallet which can complicate recovery should that wallet go out
+      of business.
+      
+      * Using Multi Signature results in bigger and thus more expensive
+      transactions.
+      
+      * Using Multi Signature accounts makes it easy for blockchain analysis
+      companies to follow the trail of a wallet.
+  liquidSidechain:
+    title: Liquid Network Accounts
+    description: >
+      The [Liquid Network](https://www.blockstream.com/liquid/) in the words of
+      its developer:
+      
+      > Liquid is a sidechain-based settlement network for traders and
+      exchanges, enabling faster, more confidential Bitcoin transactions and the
+      issuance of digital assets.
+      
+      
+      A "federated sidechain" is a blockchain that is not mining with proof of
+      work but it has a federation of members that can by majority decide what
+      to do with assets under their control. The promise is that sufficient
+      competing parties will keep each other honest.
+      
+      
+      A bitcoin sent to the liquid network is sent to a script address of the
+      federation with the promise that it can be "sent back to the bitcoin
+      network" with an according liquid transaction that will trigger the
+      federation to do an according Bitcoin on-chain transaction on behalf of
+      the sender of that Liquid transaction.
+    aspects:
+      - security
+      - onChainPrivacy
+      - savings
+      - ux
+    benefit: >
+      * Confidential transactions: Liquid transactions by default shield the
+      amounts of transactions from the public. Only parties to transactions can
+      see amounts relevant to their addresses. This can massively improve the
+      on-chain privacy.
+      
+      * Quicker settlement: Transaction finality is promised after two minutes.
+      
+      * Many and own custom assets: Liquid allows to issue own assets with the
+      same features as for "Liquid Bitcoins".
+      
+      * Atomic swaps: Tokens on Liquid can be atomically exchanged. If you have
+      a "Liquid Bitcoin" and want to exchange it for someone's "Liquid Dogecoin"
+      then you can do that in one transaction without the need of a middle man
+      or one of the parties going first.
+    drawback: >
+      * Liquid might not be as trust-less as advertised. It might degrade to a
+      quasi custodial wallet [as has happened in the
+      past](https://twitter.com/_prestwich/status/1276318599410364416).
+      
+      * The federation is less decentralized than Bitcoin and can in theory stop
+      honoring the users' transactions and spend the Bitcoins that were
+      transferred to Liquid otherwise.
+  tradeAlts:
+    title: Trade from and to other crypto currencies
+    description: >
+      Many wallets have services integrated that allow you to easily exchange
+      one crypto currency for another. You "receive Xcoin to your Ycoin account"
+      while in the background the wallet sends your Ycoin address to a service
+      provider which gives it an Xcoin address which it then displays. Funds
+      sent to that Xcoin address - to that service provider - are then sold for
+      Ycoin and the returns are sent to the wallet's Ycoin address.
+    aspects:
+      - ux
+      - providerPrivacy
+      - savings
+    benefit: If you want to exchange those coins, it won't get easier.
+    drawback: >
+      * Sometimes the service is less favorable in its fees when used through a
+      wallet integration than when using the service's website.
+      
+      * Some of those services require registration which links your
+      transactions to your ID.
+  buyWithCC:
+    title: Buy with Credit Card
+    description: >
+      Many wallets have services integrated that allow you to easily buy coins
+      with your credit card.
+    aspects:
+      - ux
+  coinJoin:
+  feeOptions:
+  customTimelock:
+  PSBT:
+  airGapped:
+    title: "Air Gapped: App works without internet"
+    description: >
+      Some apps mimic hardware wallets in that they don't request permission to
+      connect to the internet but instead they communicate through a companion
+      app which has internet. That companion app might be on the same phone but
+      with internet permission or it might be on a secondary phone such that the
+      Air Gapped app can run on a phone that has no mobile or wifi internet
+      configured at all.
+    aspects:
+      - ux
+      - security
+    benefit: >
+      Splitting an app into a part that keeps the keys safe without access to
+      leak them online and an app that has internet and all the rest can reduce
+      the attack surface for the private keys. In theory this setup can be
+      much more secure than the usual app that has both the private keys and
+      internet access in one.
+    drawback: >
+      Having to handle two apps or even two phones is less convenient for
+      regular payments.
