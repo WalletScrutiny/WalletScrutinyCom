@@ -12,36 +12,32 @@ const sleep = require('sleep').sleep
 // these headers get initialized in this order for new apps
 const defaultHeaders = "title altTitle users appId launchDate latestUpdate \
 apkVersionName stars ratings reviews size website repository issue icon \
-bugbounty verdict warnings date reviewStale signer reviewArchive \
+bugbounty verdict date reviewStale signer reviewArchive \
 providerTwitter providerLinkedIn providerFacebook providerReddit permalink \
 redirect_from".split(" ")
 
-const androidFolder = "/mnt/_android/"
-fs.readdir(androidFolder, function (err, files) {
+var allHeaders = new Set()
+const postsFolder = "/mnt/_posts/"
+fs.readdir(postsFolder, function (err, files) {
   if (err) {
-    console.error("Could not list the directory _android.", err)
+    console.error("Could not list the directory _posts.", err)
     process.exit(1);
   }
   files.forEach(function (file, index) {
-    const appPath = path.join(androidFolder, file)
-    var parts = fs.readFileSync(appPath, 'utf8').split("---")
+    const postPath = path.join(postsFolder, file)
+    var parts = fs.readFileSync(postPath, 'utf8').split("---")
     const headerStr = parts[1]
     const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
     const header = yaml.safeLoad(headerStr)
     const appId = header.appId
     for(var i of Object.keys(header)) {
-<<<<<<< HEAD
-      if(!allowedHeaders.has(i)) {
-        console.error(`Losing property ${i} in ${appPath}.`)
-=======
       if(!defaultHeaders.includes(i)) {
         console.error("losing property " + i + " in " + postPath)
->>>>>>> leosWS/warnings
       }
     }
-    const correctFile = `${appId}.md`
+    const correctFile = `2019-12-20-${appId}.md`
     if(file != correctFile) {
-      const correctFilePath = path.join(androidFolder, correctFile)
+      const correctFilePath = path.join(postsFolder, correctFile)
       fs.rename(filePath, correctFilePath, function (error) {
         if (error) {
           console.error("File moving error.", error)
@@ -54,7 +50,7 @@ fs.readdir(androidFolder, function (err, files) {
           lang: 'en',
           country: 'cl',
           throttle: 5}).then(function(app){
-        const iconPath = `images/wallet_icons/android/${appId}`
+        const iconPath = `images/wallet_icons/${appId}`
         const iconFile = fs.createWriteStream(iconPath)
         const request = https.get(app.icon, function(response) {
           response.pipe(iconFile)
@@ -85,55 +81,6 @@ fs.readdir(androidFolder, function (err, files) {
 function writeResult(app, header, iconExtension, body) {
   var apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
-<<<<<<< HEAD
-  var launchDateString = ""
-  if (launchDate != undefined) {
-    launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
-  }
-  var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
-  const reviewArchive = new Set(header.reviewArchive)
-  const redirects = new Set(header.redirect_from)
-  redirects.add(`/${header.appId}/`)
-  const p = `_android/${header.appId}.md`
-  const f = fs.createWriteStream(p)
-  console.log(`Writing results to ${p}`)
-  f.write(`---
-title: "${app.title}"
-altTitle: ${altTitle}
-
-users: ${app.minInstalls}
-appId: ${header.appId}
-launchDate: ${launchDateString}
-latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: "${ apkVersionName }"
-stars: ${app.scoreText || ""}
-ratings: ${app.ratings || ""}
-reviews: ${app.reviews || ""}
-size: ${app.size}
-website: ${app.website || header.website || ""}
-repository: ${header.repository || ""}
-issue: ${header.issue || ""}
-icon: ${header.appId}.${iconExtension}
-bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
-signer: ${header.signer || ""}
-reviewArchive:
-${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
-  version: "${item.version}"
-  apkHash: ${item.apkHash || ""}
-  gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")}
-
-providerTwitter: ${header.providerTwitter || ""}
-providerLinkedIn: ${header.providerLinkedIn || ""}
-providerFacebook: ${header.providerFacebook || ""}
-providerReddit: ${header.providerReddit || ""}
-
-redirect_from:
-${[...redirects].map((item) => "  - " + item).join("\n")}
-=======
   var launchDateString = null
   if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
@@ -158,7 +105,7 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
   header.reviewStale = stale
   header.permalink = header.permalink || `/posts/${header.appId}/`
   header.redirect_from = redirects
-  
+
   // make sure we have all properties for new apps or new properties
   // clean up undefineds
   defaultHeaders.forEach(function(h){
@@ -174,11 +121,17 @@ ${yaml.safeDump(header, {
   noArrayIndent: true,
   schema: schema,
   sortKeys: function(a, b) {
+    const mainIndexA = defaultHeaders.indexOf(a)
+    const mainIndexB = defaultHeaders.indexOf(b)
+    if (mainIndexA < 0 || mainIndexB < 0) {
+      // don't touch sorting except for top level elements. for now.
+      return 0
+    }
     return defaultHeaders.indexOf(a) - defaultHeaders.indexOf(b)
   }
 })}
->>>>>>> leosWS/warnings
 ---
+
 
 ${body}`)
 }
