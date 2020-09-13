@@ -1,0 +1,73 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: relative;
+  // border-bottom: 1px solid $border-color;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  z-index: 20;
+  background-color:var(--nav);
+  
+
+  &__inner-wrap {
+    @include container;
+    @include clearfix;
+    // padding: 1em 1em 1em;
+    font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.masthead__menu {
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  max-width: 100vw;
+  // justify-content: end;
+  
+  ul {
+    margin: 0 0 0 auto;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+
+.masthead-logo {
+  display: block;
+  padding: 10px;
+  height: 90px;
+  min-width: 120px;
+}
+
+.masthead-logo-link:hover{
+  border: 0;
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}

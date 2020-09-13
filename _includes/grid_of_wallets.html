@@ -1,0 +1,39 @@
+<div class="page-section">
+{% include base_path %}
+
+{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign posts = site.android | sort: "users" | reverse %}
+<table id="gridOfWallets1">
+  <tr>
+    <td>
+      <count>0</count><label>Audited?</label>
+    </td>
+    <td>
+    </td>
+  </tr>
+  {% for v in verdicts %}
+    <tr>
+      {% assign total = 0 %}
+      {% for post in site.android %}
+        {% if post.verdict == v %}
+          {% assign total = total | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <td>
+        <count>{{ total }}</count>
+        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+      </td>
+      <td>
+        {% for post in posts %}
+          {% if post.verdict == v %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+              <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
+                alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
+            </a> 
+          {% endif %}
+        {% endfor %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
+</div>
