@@ -505,7 +505,7 @@ table tr td label{
 }
 
 #gridOfWallets1 tr > td:first-of-type, #gridOfWallets2 tr > td:first-of-type {
-  min-width: 100px;
+  min-width: 120px;
   max-width: 20%;
   font-weight:bold;
   background-color:var(--permanent-black);
