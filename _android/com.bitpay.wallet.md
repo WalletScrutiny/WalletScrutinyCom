@@ -1,5 +1,5 @@
 ---
-title: "BitPay – Secure Bitcoin & Crypto Wallet ."
+title: "BitPay -A Instant Virtual Card to spend crypto now"
 altTitle: 
 
 users: 500000
@@ -8,8 +8,8 @@ launchDate: 2016-10-01
 latestUpdate: 2020-08-07
 apkVersionName: "10.1.3"
 stars: 4.0
-ratings: 6992
-reviews: 3339
+ratings: 7009
+reviews: 3344
 size: 28M
 website: https://bitpay.com/
 repository: https://github.com/bitpay/copay
