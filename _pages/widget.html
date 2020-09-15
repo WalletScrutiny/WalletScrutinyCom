@@ -3,8 +3,11 @@ layout: compress
 permalink: /widget/
 ---
 
+{% include base_path %}
 <html>
+
 <head></head>
+
 <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
   <script>
     var verdictColor = {
@@ -12,100 +15,96 @@ permalink: /widget/
       "nonverifiable": "#d33100",
       "nosource": "#d33100",
       "custodial": "#d33100",
+      "defunct": "#d33100",
       "nobtc": "#3d506d",
       "nowallet": "#3d506d",
       "fewusers": "#3d506d",
       "wip": "#3d506d"
     }
-    window.addEventListener("load", function () { 
+    window.addEventListener("load", function () {
       var wallets = {% include allAppList.html %}
       var appId, style, appList, verdict, limit, wallet, theme
-      window.location.hash.split("#")[1].split("&").forEach(function(item) {
-        var kv = item.split("=")
-        switch (kv[0]) {
-          case "appId": appId = kv[1]; wallet = wallets[appId]; break
-          case "style": style = kv[1]; break
-          case "appList": appList = kv[1].split(","); break
-          case "verdict": verdict = kv[1]; break
-          case "limit": limit = kv[1]; break
-          case "theme": theme = kv[1]; break
-        }
-      })
+    window.location.hash.split("#")[1].split("&").forEach(function (item) {
+      var kv = item.split("=")
+      switch (kv[0]) {
+        case "appId": appId = kv[1]; wallet = wallets[appId]; break
+        case "style": style = kv[1]; break
+        case "appList": appList = kv[1].split(","); break
+        case "verdict": verdict = kv[1]; break
+        case "limit": limit = kv[1]; break
+        case "theme": theme = kv[1]; break
+      }
+    })
 
-// THEME
-      var stylebase = document.documentElement;
+    var stylebase = document.documentElement;
 
-      // function autoTheme(){
-        if(!theme || theme.length < 1){
-          if(!localStorage.getItem('theme')){
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-              localStorage.setItem('theme','dark');
-            }else{
-              localStorage.setItem('theme','light');
-            }
-          }
-        }else{
-          localStorage.setItem('theme', theme);
+    if (!theme || theme.length < 1) {
+      if (!localStorage.getItem('theme')) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          localStorage.setItem('theme', 'dark');
+        } else {
+          localStorage.setItem('theme', 'light');
         }
-        theme = localStorage.getItem('theme');
-      // }
-        function setThemeDark(){
-          stylebase.style.setProperty('--white', "#222");
-          stylebase.style.setProperty('--blue', "#0064ff");
-          stylebase.style.setProperty('--light-grey', "#000");
-          stylebase.style.setProperty('--text', "#fff");
-          stylebase.style.setProperty('--gauze', "rgba(255,255,255,0.3");
-        }
+      }
+    } else {
+      localStorage.setItem('theme', theme);
+    }
+    theme = localStorage.getItem('theme');
+    function setThemeDark() {
+      stylebase.style.setProperty('--white', "#222");
+      stylebase.style.setProperty('--blue', "#0064ff");
+      stylebase.style.setProperty('--light-grey', "#000");
+      stylebase.style.setProperty('--text', "#fff");
+      stylebase.style.setProperty('--gauze', "rgba(255,255,255,0.3");
+    }
 
-        function setThemeLight(){
-          stylebase.style.setProperty('--white', "#fff");
-          stylebase.style.setProperty('--blue', "#003395");
-          stylebase.style.setProperty('--light-grey', "#fafafa");
-          stylebase.style.setProperty('--text', "#222");
-          stylebase.style.setProperty('--gauze', "rgba(0,0,0,0.3");
-        }
+    function setThemeLight() {
+      stylebase.style.setProperty('--white', "#fff");
+      stylebase.style.setProperty('--blue', "#003395");
+      stylebase.style.setProperty('--light-grey', "#fafafa");
+      stylebase.style.setProperty('--text', "#222");
+      stylebase.style.setProperty('--gauze', "rgba(0,0,0,0.3");
+    }
 
-      switch(theme){
-        case "auto":
+    switch (theme) {
+      case "dark":
+        setThemeDark()
+        break;
+      case "light":
+        setThemeLight()
+        break;
+
+      case "auto":
+      default:
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
           setThemeDark()
         }
-        else{
+        else {
           setThemeLight()
         }
-        break;
-        case "dark":
-        setThemeDark()
-        break;
-        case "light":
-        setThemeLight()
-        break;
-        default:
-        setThemeLight()
-      }
+    }
 
-// END THEME
 
-      var b = document.createElement("div")
-      var s = "";
-      switch (style) {
-        case "short":
-          b.innerHTML = getWidgetHtml(wallet, false)
-          s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;";
-          break
-        case "long":
-          b.innerHTML = getWidgetHtml(wallet, true)
-          s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;display: grid;grid-auto-flow: row;grid-template-rows: auto 1fr;height: calc(100vh - 1.75rem);";
-          break
-        default:
-      }
-      b.setAttribute("style", s)
-      document.body.append(b)
-      document.querySelectorAll("strong").length > 0 && (
-        document.querySelectorAll("strong")[0].innerHTML.length > 20 && (
-          document.querySelectorAll("strong")[0].style['font-size'] = "15px"
-        )
+    var b = document.createElement("div")
+    var s = "";
+    switch (style) {
+      case "short":
+        b.innerHTML = getWidgetHtml(wallet, false)
+        s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;";
+        break
+      case "long":
+        b.innerHTML = getWidgetHtml(wallet, true)
+        s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;display: grid;grid-auto-flow: row;grid-template-rows: auto 1fr;height: calc(100vh - 1.75rem);";
+        break
+      default:
+    }
+    b.setAttribute("style", s)
+    document.body.append(b)
+    document.querySelectorAll("strong").length > 0 && (
+      document.querySelectorAll("strong")[0].innerHTML.length > 20 && (
+        document.querySelectorAll("strong")[0].style['font-size'] = "15px"
       )
+    )
     }, false)
 
 
@@ -150,4 +149,5 @@ permalink: /widget/
     }
   </script>
 </body>
+
 </html>
