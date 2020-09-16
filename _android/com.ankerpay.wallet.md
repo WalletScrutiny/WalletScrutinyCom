@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: com.ankerpay.wallet
 launchDate: 
-latestUpdate: 2020-09-08
-apkVersionName: "v1.0.11.21"
+latestUpdate: 2020-09-15
+apkVersionName: "v1.0.11.22"
 stars: 4.3
 ratings: 86
 reviews: 75

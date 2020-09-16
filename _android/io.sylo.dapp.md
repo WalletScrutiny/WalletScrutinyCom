@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-09-11
 apkVersionName: "2.0.22-global-scanner-cennznet-address-0"
 stars: 4.1
-ratings: 507
+ratings: 508
 reviews: 268
 size: 69M
 website: https://www.sylo.io/wallet/

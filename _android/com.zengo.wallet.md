@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2020-08-04
-apkVersionName: "2.15.0"
+latestUpdate: 2020-09-15
+apkVersionName: "2.16.1"
 stars: 4.4
-ratings: 644
-reviews: 383
-size: 46M
+ratings: 658
+reviews: 391
+size: 47M
 website: https://www.zengo.com/
 repository: https://www.github.com/kzen-networks
 issue: 

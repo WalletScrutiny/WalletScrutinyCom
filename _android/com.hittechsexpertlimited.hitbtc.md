@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-09-03
 apkVersionName: "2.8.9"
 stars: 4.2
-ratings: 307
-reviews: 165
+ratings: 312
+reviews: 168
 size: 10M
 website: https://hitbtc.com/
 repository: 
