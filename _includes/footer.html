@@ -36,9 +36,13 @@
       })
     }
   })(document,"script");
+
   window.addEventListener("load", function() {
     setTimeout(function() {
-      if (!$chatwoot.isOpen) $chatwoot.toggle()
+      if (!$chatwoot.isOpen && !window.matchMedia("only screen and (max-width: 760px)").matches) {
+        // only on big screens, open the chat window
+        $chatwoot.toggle()
+      }
     }, 3000)
   })
 </script>
