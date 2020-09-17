@@ -96,7 +96,7 @@ your payment confirmed, you get your $40 back.
           amount: amount
         }
         console.log(v)
-        chatAPI.setLabel("maybepaid")
+        chatAPI.setLabel("paid")
         chatAPI.setCustomAttributes(v)
         setTimeout(function() {
           $('#payForm').off('submit')

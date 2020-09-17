@@ -36,4 +36,9 @@
       })
     }
   })(document,"script");
+  window.addEventListener("load", function() {
+    setTimeout(function() {
+      if (!$chatwoot.isOpen) $chatwoot.toggle()
+    }, 3000)
+  })
 </script>
