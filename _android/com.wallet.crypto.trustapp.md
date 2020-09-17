@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2020-09-03
-apkVersionName: "1.15.5"
-stars: 4.4
-ratings: 84270
-reviews: 38968
+latestUpdate: 2020-09-16
+apkVersionName: "1.16.13"
+stars: 4.5
+ratings: 89707
+reviews: 39876
 size: 32M
 website: https://trustwallet.com/
 repository: 

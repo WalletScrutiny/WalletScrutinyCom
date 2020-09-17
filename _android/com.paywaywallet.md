@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.paywaywallet
 launchDate: 2019-02-13
-latestUpdate: 2020-05-26
-apkVersionName: "3.0.2 (build: #1014/20200526140535)"
-stars: 3.7
-ratings: 155
-reviews: 98
-size: 14M
+latestUpdate: 2020-09-11
+apkVersionName: "3.1.2 (build: #1092/20200911164630)"
+stars: 3.8
+ratings: 164
+reviews: 104
+size: 19M
 website: http://www.payway.ug
 repository: 
 issue: 

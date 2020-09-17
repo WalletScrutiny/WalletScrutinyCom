@@ -65,13 +65,13 @@ your payment confirmed, you get your $40 back.
 <script type="text/javascript">
   var orderId = "c" + (100000000000 * Math.random()).toFixed();
 
-  function getOnlineTawk_API() {
+  function getOnlineChatAPI() {
     return new Promise(resolve => {
-      if (window.Tawk_API && window.Tawk_API.getStatus() == "online") {
-        resolve(window.Tawk_API)
+      if (window.$chatwoot && window.$chatwoot.hasLoaded) {
+        resolve(window.$chatwoot)
       } else {
         setTimeout(function() {
-          resolve(getOnlineTawk_API())
+          resolve(getOnlineChatAPI())
         }, 100)
       }
     })
@@ -79,32 +79,31 @@ your payment confirmed, you get your $40 back.
 
   // intercept payment form submit. Validate if amount is provided and show
   // warning if not.
-  // tag the tawk chat with the orderId that also gets submitted to btcPayServer
+  // tag the chat with the orderId that also gets submitted to btcPayServer
   // treat failure to tag as warning. We have the user's email address and can
   // provide support either way.
   function addFormSubmitInterception() {
     $('#payForm').submit(async function(e) {
       // we have to prevent default before going async with "await"
       e.preventDefault()
-      var isValid = update(1)
-      if (isValid) {
-        var Tawk_API = await getOnlineTawk_API();
-        if(Tawk_API.getStatus() == "online") {
-          console.log("adding tag " + orderId)
-          Tawk_API.addTags([orderId], function(e) {
-            if (e) {
-              alert("Tawk.io: Tagging failed: " + e)
-            } else {
-              // restore normal submit behavior
-              $('#payForm').off('submit')
-              $('#payForm').submit()
-            }
-          })
-        } else {
-          alert("Tawk.io not loaded!")  
+      if (update(1)) {
+        var amount = $("#btcpay-input-price_7826565_1")[0].value
+        var chatAPI = await getOnlineChatAPI()
+        console.log("adding orderId " + orderId)
+        var v = {
+          orderId: orderId,
+          state: "invoiced",
+          amount: amount
         }
+        console.log(v)
+        chatAPI.setLabel("paid")
+        chatAPI.setCustomAttributes(v)
+        setTimeout(function() {
+          $('#payForm').off('submit')
+          $('#payForm').submit()
+        }, 300)
       }
-      return false;
+      return false
     })
   }
 

@@ -5,16 +5,16 @@ altTitle:
 users: 50000
 appId: com.getchange.wallet.cordova
 launchDate: 
-latestUpdate: 2020-09-07
-apkVersionName: "10.9.43"
+latestUpdate: 2020-09-11
+apkVersionName: "10.9.49"
 stars: 4.3
-ratings: 877
-reviews: 444
+ratings: 884
+reviews: 446
 size: 31M
 website: https://getchange.com
 repository: 
 issue: 
-icon: com.getchange.wallet.cordova.png
+icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-05-29
