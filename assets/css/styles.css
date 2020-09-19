@@ -547,13 +547,10 @@ table tr td label{
 }
 
 #gridOfWallets2 img.app_logo {
-  border-radius: 3px;
-  border: 0 !important;
-  box-shadow: 0 0 0 1px var(--text);
   width:auto;
   float:left;
-  margin:0.3em;
-  border-radius: 25%;
+  margin: 0.3em;
+  border-radius: 20%;
 }
 
 @media (max-width:756px){
