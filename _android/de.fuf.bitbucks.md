@@ -1,5 +1,5 @@
 ---
-title: "BitBucks -  Bitcoin Wallet for Instant Payments"
+title: "Bitcoin Wallet BitBucks"
 altTitle: 
 
 users: 5000
