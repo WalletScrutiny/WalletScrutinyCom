@@ -239,7 +239,7 @@
 .app_logo {
   display: table-cell;
   width: 72px;
-  border-radius: 25%;
+  border-radius: 20%;
 
   @include breakpoint($large) {
     display: inline;
@@ -249,11 +249,10 @@
 
   img {
     max-width: 72px;
-    border-radius: 25%;
+    border-radius: 20%;
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
     }
   }
 }

@@ -6,9 +6,3 @@ main:
     url: /methodology/
   - title: "<div id=\"donateButton\">Donate</div>"
     url: /donate/
-  - title: "Glossary"
-    url: /glossary/
-  - title: "Contribute"
-    url: "https://gitlab.com/walletscrutiny/walletScrutinyCom"
-  - title: "Discuss"
-    url: "https://www.reddit.com/r/WalletScrutiny/"

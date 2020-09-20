@@ -8,8 +8,8 @@ launchDate: 2018-09-01
 latestUpdate: 2020-08-26
 apkVersionName: "2.4.6"
 stars: 3.9
-ratings: 3584
-reviews: 2014
+ratings: 3596
+reviews: 2021
 size: 17M
 website: https://jaxx.io/
 repository: 

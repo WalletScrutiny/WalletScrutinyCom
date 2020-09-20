@@ -512,7 +512,7 @@ table tr td count {
   /* margin-right: auto; */
 }
 
-table tr td label {
+table tr td label{
   display: block;
   color: var(--permanent-white);
   opacity: .7;
@@ -553,74 +553,77 @@ table tr td label {
   background-color: var(--white);
 }
 
-#gridOfWallets1 tr:hover, #gridOfWallets2 tr:hover {
-  box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0, 0, 0, 0.3));
+#gridOfWallets1 tr:hover, 
+#gridOfWallets2 tr:hover {
+  box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0,0,0,0.3));
 }
 
 #gridOfWallets2 img.app_logo {
-  border-radius: 3px;
-  border: 0 !important;
-  box-shadow: 0 0 0 1px var(--text);
-  width: auto;
-  float: left;
+  width:auto;
+  float:left;
   margin: 0.3em;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 
-@media (max-width:756px) {
-  .page {
-    padding-left: 0% !important;
-    padding-right: 0% !important;
-  }
-  .hero-banner {
-    display: none;
-  }
-  .hero-cta {
-    grid-column: 1/4;
-  }
-  .hero-parent {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-  .walletSearch-parent {
-    grid-template-columns: 1fr auto;
-  }
-  .results-list {
-    max-width: 90vw;
-    max-height: calc(90vh - 60px);
-  }
-  #gridOfWallets1 tr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  #gridOfWallets1 tr td, #gridOfWallets2 tr td {
-    width: 100%;
-  }
-  #gridOfWallets1 tr, #gridOfWallets2 tr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+@media (max-width:756px){
+.page {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+.hero-banner {
+  display: none;
 }
 
+.hero-cta {
+  grid-column: 1/4;
+}
+
+.hero-parent {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.walletSearch-parent {
+  grid-template-columns: 1fr auto;
+}
+
+.results-list {
+  max-width: 90vw;
+  max-height: calc(90vh - 60px);
+}
+
+#gridOfWallets1 tr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#gridOfWallets1 tr td, #gridOfWallets2 tr td {
+  width: 100%;
+}
+
+#gridOfWallets1 tr, #gridOfWallets2 tr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}
 /* END HERO */
 
 /* LIST OF WALLETS */
-
 .app_info_box, .app_info_box strong {
   display: block;
   word-wrap: break-word;
 }
 
-.row-identifier {
+.row-identifier{
   display: none;
   animation: intro 0.3s both;
   position: relative;
   z-index: 51;
 }
 
-.icon-row {
+.icon-row{
   width: 100%;
 }
 
@@ -688,7 +691,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-weight: 800;
 }
 
-.stamp-Reproducible::before, .stamp-Non.verifiable::before, .stamp-Custodial::before, .stamp-All::before {}
+.stamp-Reproducible::before,
+.stamp-Non.verifiable::before,
+.stamp-Custodial::before,
+.stamp-All::before{
+}
 
 .stamp-reproducible::before {
   content: "reproducible";

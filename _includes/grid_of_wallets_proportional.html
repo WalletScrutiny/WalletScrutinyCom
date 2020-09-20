@@ -54,7 +54,7 @@
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;">
+                alt="Wallet Logo" style="height:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
             </a> 
           {% endif %}
         {% endfor %}

@@ -49,12 +49,13 @@ Our steps when reviewing a new app
 ==================================
 
 Some of the information is collected automatically from Google Play. Apps tagged
-**"WIP"** are work in progress and might have nothing to do with wallets. We have
+{% include verdictBadge.html verdict="wip" type='short' %}
+are work in progress and might have nothing to do with wallets. We have
 not had the time to look into it yet.
 
 If the app has less than 1000 downloads, we do not bother investigating it
-further and keep tracking its downloads until it does. Those get tagged **"Few
-users"**.
+further and keep tracking its downloads until it does. Those get tagged 
+{% include verdictBadge.html verdict="fewusers" type='short' %}.
 
 Our manual review goes as follows:
 
@@ -78,14 +79,15 @@ If it's called "wallet" but is actually only a portfolio tracker, we don't look
 any deeper, assuming it is not meant to control funds. What has no funds, can't
 lose your coins. *It might still leak your financial history!*
 
-If not, we tag it **"Not a wallet"**.
+If not, we tag it {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
 
 Is it for Bitcoins?
 -------------------
 
 At this point we only look into wallets that at least also support BTC. If this
-is not the case, the wallet is tagged **"Non-BTC"**.
+is not the case, the wallet is tagged
+{% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 
 Is it custodial?
@@ -102,7 +104,7 @@ these details are irrelevant. They might be a trustworthy Bitcoin bank and they 
 be a better fit for certain users than being your own bank but our investigation
 still stops there as we are only interested in wallets.
 
-Those apps get tagged **"Custodial!"**.
+Those apps get tagged {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 Apps that claim to be non-custodial but feature custodial accounts without very
 clearly marking those as custodial are also considered "custodial" as a whole to
@@ -140,7 +142,7 @@ analysis. For a security audit, it is not necessary that the provider allows
 others to use their code for a competing wallet.
 
 If no code is found or the code found is clearly outdated, the wallet is
-classified as **"No source!"**.
+classified as {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 
 Is the published app matching the published code?
@@ -162,9 +164,11 @@ If this fails, we might search if other revisions match or if we can
 deduct the source of the mismatch but generally consider it on the provider to
 provide the correct source code and build instructions to reproduce the build,
 so we usually open a ticket in their git repository (all on GitHub so far) and
-classify the wallet as **"Not reproducible!"**.
+classify the wallet as
+{% include verdictBadge.html verdict="nonverifiable" type='short' %}.
 
-If we managed to reproduce the build, we classify it as **"Reproducible"**.
+If we managed to reproduce the build, we classify it as 
+{% include verdictBadge.html verdict="reproducible" type='short' %}.
 
 
 Priorities
