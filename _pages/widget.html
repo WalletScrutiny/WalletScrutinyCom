@@ -11,15 +11,15 @@ permalink: /widget/
 <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
   <script>
     var verdictColor = {
-      "reproducible": "#4da84d",
-      "nonverifiable": "#d33100",
-      "nosource": "#d33100",
-      "custodial": "#d33100",
-      "defunct": "#d33100",
-      "nobtc": "#3d506d",
-      "nowallet": "#3d506d",
-      "fewusers": "#3d506d",
-      "wip": "#3d506d"
+      "reproducible": '{{ site.data.verdicts["reproducible"].color }}',
+      "nonverifiable": '{{ site.data.verdicts["nonverifiable"].color }}',
+      "nosource": '{{ site.data.verdicts["nosource"].color }}',
+      "custodial": '{{ site.data.verdicts["custodial"].color }}',
+      "defunct": '{{ site.data.verdicts["defunct"].color }}',
+      "nobtc": '{{ site.data.verdicts["nobtc"].color }}',
+      "nowallet": '{{ site.data.verdicts["nowallet"].color }}',
+      "fewusers": '{{ site.data.verdicts["fewusers"].color }}',
+      "wip": '{{ site.data.verdicts["wip"].color }}'
     }
     window.addEventListener("load", function () {
       var wallets = {% include allAppList.html %}
@@ -73,7 +73,6 @@ permalink: /widget/
       case "light":
         setThemeLight()
         break;
-
       case "auto":
       default:
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -83,7 +82,6 @@ permalink: /widget/
           setThemeLight()
         }
     }
-
 
     var b = document.createElement("div")
     var s = "";

@@ -418,16 +418,17 @@ content: "English";
   scroll-snap-type: inline;
 }
 
-
 .results-list li {
   padding: 10px 20px 10px 10px;
   margin: 0;
   transition: .2s ease;
   scroll-snap-align: start;
 }
+
 .results-list li:not(:last-child) {
   box-shadow: 0px 1px 0px 0px var(--shadow-2, rgba(0,0,0,0.2));
 }
+
 .results-list-wallet-icon {
   max-height: calc(2rem + 4px);
   max-width: calc(2rem + 4px);
@@ -447,8 +448,6 @@ content: "English";
   color: var(--text);
   background: var(--shadow-3); 
 }
-
-
 
 .results-list li a {
   display: grid;
@@ -498,6 +497,7 @@ table tr td count {
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
+
 table tr td label{
   display: block;
   color: var(--permanent-white);
@@ -541,9 +541,7 @@ table tr td label{
 
 #gridOfWallets1 tr:hover, 
 #gridOfWallets2 tr:hover {
-
   box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0,0,0,0.3));
-
 }
 
 #gridOfWallets2 img.app_logo {
@@ -585,30 +583,24 @@ table tr td label{
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 #gridOfWallets1 tr td, #gridOfWallets2 tr td {
   width: 100%;
 }
+
 #gridOfWallets1 tr, #gridOfWallets2 tr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-
 }
-
-
 /* END HERO */
 
-
-
 /* LIST OF WALLETS */
-
 .app_info_box, .app_info_box strong {
   display: block;
   word-wrap: break-word;
 }
-
 
 .row-identifier{
   display: none;
@@ -616,6 +608,7 @@ table tr td label{
   position: relative;
   z-index: 51;
 }
+
 .icon-row{
   width: 100%;
 }
@@ -697,7 +690,6 @@ label.stamp::before,
 .stamp-Non.verifiable::before,
 .stamp-Custodial::before,
 .stamp-All::before{
-
 }
 
 .stamp-reproducible::before{
