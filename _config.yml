@@ -177,31 +177,35 @@ kramdown:
 # Collections
 collections:
   press:
-  teaching:
-    output: false
+  android:
+    output: true
     permalink: /:collection/:path/
-  publications:
-    output: false
+  linux:
+    output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
-  # _posts
+  # _android
   - scope:
       path: ""
-      type: posts
+      type: "android"
     values:
-      layout: single
+      layout: reviewAndroid
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _linux
+  - scope:
+      path: ""
+      type: "linux"
+    values:
+      layout: reviewLinux
+      author_profile: true
+      read_time: false
+      comments: false
       share: true
       related: false
   # _pages
@@ -211,41 +215,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

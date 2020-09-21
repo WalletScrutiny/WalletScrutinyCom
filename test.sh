@@ -5,7 +5,7 @@ downloadedApp="$1"
 if ! [[ $downloadedApp =~ ^/.* ]]; then
   downloadedApp="$PWD/$downloadedApp"
 fi
-wsDocker="walletscrutiny/android:3"
+wsDocker="walletscrutiny/android:4"
 
 set -x
 
@@ -180,10 +180,6 @@ testSchildbach() {
   prepare
 
   # build
-  docker run -it --volume $workDir/app:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      apt update && apt install gradle -y; \
-      gradle clean :wallet:assProdRel'
       
   result
 }

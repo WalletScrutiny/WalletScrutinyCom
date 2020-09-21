@@ -2,31 +2,26 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign posts = site.posts | sort: "users" | reverse %}
+{% assign posts = site.android | sort: "users" | reverse %}
 <table id="gridOfWallets1">
   <tr>
     <td>
-      0<br>Audited?
+      <count>0</count><label>Audited?</label>
     </td>
     <td>
     </td>
   </tr>
   {% for v in verdicts %}
-    {% case v %}
-      {% when "reproducible" %}  {% assign vLabel = "Reproducible" %}
-      {% when "nonverifiable" %} {% assign vLabel = "Not&nbsp;Verifiable" %}
-      {% when "nosource" %}      {% assign vLabel = "Closed&nbsp;Source" %}
-      {% when "custodial" %}     {% assign vLabel = "Custodial" %}
-    {% endcase %}
     <tr>
       {% assign total = 0 %}
-      {% for post in site.posts %}
+      {% for post in site.android %}
         {% if post.verdict == v %}
           {% assign total = total | plus: 1 %}
         {% endif %}
       {% endfor %}
       <td>
-        {{ total }}<br>{{ vLabel }}
+        <count>{{ total }}</count>
+        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
       </td>
       <td>
         {% for post in posts %}
