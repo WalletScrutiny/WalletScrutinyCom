@@ -2,30 +2,27 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign posts = site.posts | sort: "users" | reverse %}
+{% assign posts = site.android | sort: "users" | reverse %}
 <table id="gridOfWallets2">
   <tr>
     <td>
-      0<br>Audited?
+      <count>0</count><label>Audited?</label>
     </td>
     <td>
     </td>
   </tr>
   {% for v in verdicts %}
-    {% case v %}
-      {% when "reproducible" %}  {% assign vLabel = "Reproducible" %}
-      {% when "nonverifiable" %} {% assign vLabel = "Not&nbsp;Verifiable" %}
-      {% when "nosource" %}      {% assign vLabel = "Closed&nbsp;Source" %}
-      {% when "custodial" %}     {% assign vLabel = "Custodial" %}
-    {% endcase %}
     {% assign total = 0 %}
-    {% for post in site.posts %}
+    {% for post in site.android %}
       {% if post.verdict == v %}
         {% assign total = total | plus: post.users %}
       {% endif %}
     {% endfor %}
     <tr>
-      <td>{{ total }}<br>{{ vLabel }}</td>
+      <td>
+        <count>{{ total }}</count>
+        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+      </td>
       <td>
         {% for post in posts %}
           {% case post.users %}
@@ -56,8 +53,8 @@
           {% endcase %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img src="/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;">
+              <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
+                alt="Wallet Logo" style="height:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
             </a> 
           {% endif %}
         {% endfor %}

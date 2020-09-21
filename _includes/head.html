@@ -16,8 +16,19 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/lato.css">
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/styles.css">
+<script>
+  if(!localStorage.getItem('colour-scheme')){
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      localStorage.setItem('colour-scheme','dark');
+    }else{
+      localStorage.setItem('colour-scheme','light');
+    }    
+  }
+window.theme = localStorage.getItem('colour-scheme');
+</script>
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/lato.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css">
 
 <meta http-equiv="cleartype" content="on">

@@ -16,28 +16,27 @@ bugbounty verdict warnings date reviewStale signer reviewArchive \
 providerTwitter providerLinkedIn providerFacebook providerReddit permalink \
 redirect_from".split(" ")
 
-var allHeaders = new Set()
-const postsFolder = "/mnt/_posts/"
-fs.readdir(postsFolder, function (err, files) {
+const androidFolder = "/mnt/_android/"
+fs.readdir(androidFolder, function (err, files) {
   if (err) {
-    console.error("Could not list the directory _posts.", err)
+    console.error("Could not list the directory _android.", err)
     process.exit(1);
   }
   files.forEach(function (file, index) {
-    const postPath = path.join(postsFolder, file)
-    var parts = fs.readFileSync(postPath, 'utf8').split("---")
+    const appPath = path.join(androidFolder, file)
+    var parts = fs.readFileSync(appPath, 'utf8').split("---")
     const headerStr = parts[1]
     const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
     const header = yaml.safeLoad(headerStr)
     const appId = header.appId
     for(var i of Object.keys(header)) {
       if(!defaultHeaders.includes(i)) {
-        console.error("losing property " + i + " in " + postPath)
+        console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    const correctFile = `2019-12-20-${appId}.md`
+    const correctFile = `${appId}.md`
     if(file != correctFile) {
-      const correctFilePath = path.join(postsFolder, correctFile)
+      const correctFilePath = path.join(androidFolder, correctFile)
       fs.rename(filePath, correctFilePath, function (error) {
         if (error) {
           console.error("File moving error.", error)
@@ -82,11 +81,8 @@ function writeResult(app, header, iconExtension, body) {
   var apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
   var launchDateString = null
-  if (launchDate != undefined) { launchDateString = dateFormat(launchDate, "yyyy-mm-dd") }
-  var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
-  const redirects = header.redirect_from
-  if (!redirects.includes("/" + header.appId + "/")) {
-    redirects.push("/" + header.appId + "/")
+  if (launchDate != undefined) {
+    launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
   }
   const path = `_posts/2019-12-20-${header.appId}.md`
   const file = fs.createWriteStream(path)
@@ -105,7 +101,7 @@ function writeResult(app, header, iconExtension, body) {
   header.reviewStale = stale
   header.permalink = header.permalink || `/posts/${header.appId}/`
   header.redirect_from = redirects
-  
+
   // make sure we have all properties for new apps or new properties
   // clean up undefineds
   defaultHeaders.forEach(function(h){
@@ -125,6 +121,7 @@ ${yaml.safeDump(header, {
   }
 })}
 ---
+
 
 ${body}`)
 }

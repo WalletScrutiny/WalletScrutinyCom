@@ -6,12 +6,13 @@ div.highlighter-rouge, figure.highlight {
   position: relative;
   margin-bottom: 1em;
   padding: 1em;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background-color: $code-background-color;
+  border: 1px solid var(--shadow-3);
+  border-radius: 4px;
+  background-color: var(--indifferent);
   box-shadow: $box-shadow;
   max-height: 24em;
   overflow: auto;
+  color: var(--permanent-white);
 
   &:before {
     position: absolute;
