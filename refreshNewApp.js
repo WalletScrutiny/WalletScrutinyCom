@@ -3,11 +3,11 @@
 const fs = require('fs')
 
 const appId = process.argv[2]
-const path = `_posts/2019-12-20-${appId}.md`
+const path = `_android/${appId}.md`
 const file = fs.createWriteStream(path)
 file.write(`---
 appId: ${appId}
-verdict: wip # May be any of: wip, nowallet, custodial, nosource, nonverifiable, reproducible, bounty
+verdict: wip
 ---
 
 This page was created by a script from the **appId** "${appId}" and public

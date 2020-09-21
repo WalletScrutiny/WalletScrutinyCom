@@ -1,0 +1,7 @@
+<span
+style="background:{{ site.data.verdicts[include.verdict].color }};padding:5px 10px 3px;border-radius:100px;color:var(--white, #fff);text-transform:uppercase;font-weight:600;">{% case include.type %}
+  {% when "short" %}{{ site.data.verdicts[include.verdict].short }}
+  {% when "medium" %}{{ site.data.verdicts[include.verdict].title }}
+  {% when "long" %}{{ site.data.verdicts[include.verdict].message }}
+  {% else %}error2: {{ include.verdict }}
+{% endcase %}</span>

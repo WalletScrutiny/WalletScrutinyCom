@@ -1,4 +1,4 @@
-
+{% include base_path %}
 <div class="page-section">
 <div class="press-button-holder press-button-holder-EN activated">
   <i class="fas fa-check check"></i>
@@ -26,12 +26,11 @@
   }
 </script>
 
-
 <div class="press-container">
 {% for p in site.press | sort: "date" | reverse
   %}<div class="press {{ p.language }} {{ p.format }}"><a href="{{ p.link }}"
     title="{{ p.platform }} {{ p.publicationName }}"><img
-      src="/images/press/{{ p.image }}"
+      src="{{ base_path }}/images/press/{{ p.image }}"
       alt="{{ p.platform }} {{ p.publicationName }}"
       title="{{ p.platform }}
 {{ p.publicationName }}
@@ -42,6 +41,5 @@ format: {{ p.format }}"
       style="height:8em;" /></a></div>{%
 endfor %}
 </div>
-
 
 </div>
