@@ -7,9 +7,9 @@ appId: com.bcoiner.webviewapp
 launchDate: 2014-12-01
 latestUpdate: 2018-01-05
 apkVersionName: "1.3.2"
-stars: 4.3
-ratings: 1736
-reviews: 845
+stars: 4.1
+ratings: 1753
+reviews: 856
 size: 2.2M
 website: https://bcoiner.com/
 repository: 
