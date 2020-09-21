@@ -1,4 +1,4 @@
-var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet", searchInput;
+var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet", searchInput, pauseForInput;
 var sortedWallets = Object.values(window.wallets).sort(function (a, b) {
   if (a.verdict != b.verdict)
     return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
@@ -19,11 +19,7 @@ if (document.querySelectorAll(".hero-cta").length > 0) {
   c.innerHTML = '<i class="fas fa-times"></i>';
   s.setAttribute("oninput", "searchCatalogue(this)")
   s.setAttribute("onkeyup", "focusResults(event)")
-  s.setAttribute("onfocus", "heroUX(this)")
-  // TODO: the search results should disappear immediately if the user clicks
-  // outside the search box but clicking a link should still work. This 1s delay
-  // is a hack for slow clickers.
-  // s.setAttribute("onblur", "x=this;setTimeout(function(){x.value=''; searchCatalogue(x)}, 1000)")
+  s.setAttribute("onfocus", "heroUX(this)");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -53,10 +49,11 @@ function focusResults(e) {
 }
 
 function searchCatalogue(t) {
+  var bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
   var result = document.createElement("ul")
   result.classList.add("results-list")
   var v = t.value.toUpperCase()
-  var filter = String("COIN").indexOf(v) !== -1 ? 4 : 2
+  var filter = 1;//String("COIN").indexOf(v) !== -1 ? 4 : String("WALLET").indexOf(v) !== -1 ? 6 : 0;
   if (v.length > filter) {
     var f = 0
     sortedWallets.forEach(function (r) {
@@ -66,7 +63,11 @@ function searchCatalogue(t) {
       }
       if (n.toUpperCase().indexOf(v) !== -1) {
         if (f == 0) { result.innerHTML = ""; }
+        bi.classList.remove("fa-times")
+          bi.classList.add("fa-circle-notch");
         var l = document.createElement("li");
+        l.style['animation-delay'] = f * .1 + 's';
+        l.classList.add("actionable");
         l.innerHTML = `<a onclick="window.location.href = '${window.wallets.base_path}${r.url}';" href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
         result.append(l)
         f++
@@ -79,8 +80,13 @@ function searchCatalogue(t) {
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
   }
-  document.querySelectorAll(".exit-search")[0].style.display = "inline-block";
-  document.querySelectorAll(".results-list")[0].replaceWith(result)
+  clearTimeout(pauseForInput);
+  pauseForInput = setTimeout(function () {
+    bi.classList.remove("fa-circle-notch")
+      bi.classList.add("fa-times");
+    document.querySelectorAll(".exit-search")[0].style.display = "inline-block";
+    document.querySelectorAll(".results-list")[0].replaceWith(result)
+  }, 500);
   heroSearchScrollToTop(t);
 }
 
