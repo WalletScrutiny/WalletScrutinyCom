@@ -1,13 +1,9 @@
 ---
-title: "All Apps"
-permalink: /allApps/
-redirect_from:
-  - /moreApps/
+title: "More Apps"
+permalink: /moreApps/
 ---
 
 {% include base_path %}
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet" | split: "," %}
-{% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = true %}
+{% assign verdicts = "wip,nobtc,fewusers,defunct,nowallet" | split: "," %}
 {% include list_of_wallets_linux.html %}
 {% include list_of_wallets_android.html %}

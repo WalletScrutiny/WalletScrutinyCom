@@ -5,10 +5,10 @@ altTitle:
 users: 10000
 appId: com.zelcash.zelcore
 launchDate: 2018-09-21
-latestUpdate: 2020-08-26
-apkVersionName: "3.5.0"
-stars: 3.8
-ratings: 301
+latestUpdate: 2020-09-15
+apkVersionName: "3.6.0"
+stars: 3.9
+ratings: 303
 reviews: 205
 size: 16M
 website: https://zel.network/project/zelcore/

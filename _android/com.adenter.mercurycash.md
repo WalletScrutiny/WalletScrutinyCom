@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
-latestUpdate: 2020-08-11
-apkVersionName: "4.2.3"
-stars: 4.4
-ratings: 144
-reviews: 102
-size: 38M
+latestUpdate: 2020-09-02
+apkVersionName: "4.2.4"
+stars: 4.3
+ratings: 151
+reviews: 108
+size: 39M
 website: http://mercury.cash/
 repository: 
 issue: 

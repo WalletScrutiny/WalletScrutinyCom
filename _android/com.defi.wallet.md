@@ -1,16 +1,16 @@
 ---
-title: "Crypto.com Wallet: Bitcoin, Ethereum, XRP"
+title: "Crypto.com l DeFi Wallet"
 altTitle: 
 
 users: 50000
 appId: com.defi.wallet
 launchDate: 
-latestUpdate: 2020-08-13
-apkVersionName: "1.0.10"
-stars: 4.0
-ratings: 384
-reviews: 179
-size: 20M
+latestUpdate: 2020-09-11
+apkVersionName: "1.1.1"
+stars: 3.8
+ratings: 461
+reviews: 207
+size: 21M
 website: https://www.crypto.com/
 repository: 
 issue: 

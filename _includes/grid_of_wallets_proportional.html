@@ -6,7 +6,7 @@
 <table id="gridOfWallets2">
   <tr>
     <td>
-      0<br>Audited?
+      <count>0</count><label>Audited?</label>
     </td>
     <td>
     </td>
@@ -19,7 +19,10 @@
       {% endif %}
     {% endfor %}
     <tr>
-      <td>{{ total }}<br>{{ site.data.verdicts[v].short }}</td>
+      <td>
+        <count>{{ total }}</count>
+        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+      </td>
       <td>
         {% for post in posts %}
           {% case post.users %}
@@ -51,7 +54,7 @@
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;">
+                alt="Wallet Logo" style="height:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
             </a> 
           {% endif %}
         {% endfor %}

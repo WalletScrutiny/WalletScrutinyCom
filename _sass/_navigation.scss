@@ -92,7 +92,7 @@
       }
 
       &.current {
-        color: #fff;
+        color: var(--white);
         background: $primary-color;
       }
 
@@ -174,11 +174,11 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 240px;
   // background: $background-color;
-  background: #222;
+  background: var(--nav);
   font-size: 16px;
-  color: #fff;
+  color: var(--white);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -205,9 +205,9 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    color: #fff;
+    color: var(--white);
     cursor: pointer;
-    background: #222;
+    background: var(--nav);
   }
 
   .visible-links {
@@ -267,7 +267,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--white);
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
@@ -302,7 +302,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: var(--white) transparent;
       display: block;
       z-index: 1;
     }
@@ -344,13 +344,13 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #fff;
+    color: var(--white);
     font-weight: bold;
     background: $primary-color;
     border-radius: $border-radius;
 
     &:hover {
-      color: #fff;
+      color: var(--white);
     }
   }
 }
@@ -384,13 +384,13 @@
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: var(--white);
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;
@@ -451,7 +451,7 @@
  visibility: hidden;
  width: 120px;
  background-color: #555;
- color: #fff;
+ color: var(--white);
  text-align: center;
  padding: 5px 0;
  border-radius: 6px;
@@ -554,7 +554,7 @@ thead {
   float: left;
   width: 10em;
   margin: 0em 1em 1em 0em;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 
 #donateButton {
@@ -646,5 +646,5 @@ thead {
     margin: auto;
     border-radius: 5px;
     line-height: 35px;
-    background: #fff;
+    background: var(--white);
 }

@@ -81,7 +81,9 @@ layout: default
       {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
         if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
       {% if page.issue %} We discuss issues with the provider
-      <a href="{{ page.issue }}">here</a>.{% endif %}</p>
+      <a href="{{ page.issue }}">here</a>.{% endif %} Our verdict was <span
+      style="background:{{ site.data.verdicts[page.verdict].color }};padding:3px 10px;border-radius:100px;color:var(--white, #fff);text-transform:uppercase;font-weight:600;">
+      {{ site.data.verdicts[page.verdict].title }}</span> (<a href="#verdictExplained">details below</a>).</p>
 
       <p>We found these ways of contacting the developers:
       <ul>
@@ -92,12 +94,28 @@ layout: default
       {% if page.providerLinkedIn %}<li>LinkedIn: <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">{{ page.providerLinkedIn }}</a></li>{% endif %}
       </ul></p>
       {% if page.reviewArchive %}
+      <div id="reviews" style="display:none">
       <h1>Older reviews</h1>
-      <ul>
+      <table>
+      {% assign total = 0 %}
+      {% assign good = 0 %}
+        <tr><th>Date</th><th>Version</th><th>Verdict</th><th>Links</th></tr>
         {% for review in page.reviewArchive %}
-          <li><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">Review of version {{ review.version }} on {{ review.date | date_to_long_string: "ordinal" }}</a> (verdict: {{  review.verdict }})</li>
+          {% if review.verdict == "reproducible" %}
+            {% assign good = good | plus:1 %}
+          {% endif %}
+          {% assign total = total | plus:1 %}
+          <tr>
+            <td>{{ review.date | date_to_long_string: "ordinal" }}</td>
+            <td>{{ review.version }}</td>
+            <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
+            <td><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">[1]</a>
+              <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_android/{{ page.appId }}.md">[2]</a></td>
+          </tr>
         {% endfor %}
-      </ul>
+      </table>
+      </div>
+      <h1 id="collapsedReviews">Older reviews <a onclick="$('#reviews').show();$('#collapsedReviews').hide()">(show {{ good }} of {{ total }} reproducible)</a></h1>
       {% endif %}
 
       {% if page.providerTwitter  %}
@@ -115,8 +133,9 @@ layout: default
           Please help us spread the word discussing build reproducibility with {{ title }}
         {% endif %}
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via their Twitter</a>!</p>
-       {% endif %}
+      {% endif %}
 
+      {% if page.verdict == "reproducible" %} 
       <h1>Disclaimer</h1> 
       <p>The following Analysis is not a full code review!
       We plan to make code reviews available in the future but even then it will never
@@ -124,6 +143,7 @@ layout: default
       Nasa sends probes to space that
       <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">crash
       due to software bugs</a> despite a huge budget and stringent scrutiny.</p>
+      {% endif %}
 
       <h1>Do your own research!</h1> 
       <p>Try out searching

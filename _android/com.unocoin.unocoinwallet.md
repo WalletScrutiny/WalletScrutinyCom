@@ -5,12 +5,12 @@ altTitle:
 users: 1000000
 appId: com.unocoin.unocoinwallet
 launchDate: 2016-11-30
-latestUpdate: 2020-07-27
-apkVersionName: "3.2.9"
-stars: 4.3
-ratings: 13705
-reviews: 7280
-size: 12M
+latestUpdate: 2020-09-05
+apkVersionName: "3.2.12"
+stars: 4.4
+ratings: 13802
+reviews: 7359
+size: 8.6M
 website: https://www.unocoin.com
 repository: 
 issue: 

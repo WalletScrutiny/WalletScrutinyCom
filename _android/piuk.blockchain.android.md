@@ -1,15 +1,15 @@
 ---
-title: "Blockchain Wallet. Bitcoin, Bitcoin Cash, Ethereum"
+title: "Blockchain Wallet: Buy and Sell Bitcoin & Crypto"
 altTitle: 
 
 users: 5000000
 appId: piuk.blockchain.android
 launchDate: 2013-02-01
-latestUpdate: 2020-08-18
+latestUpdate: 2020-09-14
 apkVersionName: "Varies with device"
 stars: 4.0
-ratings: 89119
-reviews: 43323
+ratings: 90633
+reviews: 44137
 size: Varies with device
 website: https://www.blockchain.com/
 repository: https://github.com/blockchain/My-Wallet-V3-Android

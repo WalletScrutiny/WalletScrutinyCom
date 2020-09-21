@@ -6,7 +6,7 @@
 <table id="gridOfWallets1">
   <tr>
     <td>
-      0<br>Audited?
+      <count>0</count><label>Audited?</label>
     </td>
     <td>
     </td>
@@ -20,7 +20,8 @@
         {% endif %}
       {% endfor %}
       <td>
-        {{ total }}<br>{{ site.data.verdicts[v].short }}
+        <count>{{ total }}</count>
+        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
       </td>
       <td>
         {% for post in posts %}

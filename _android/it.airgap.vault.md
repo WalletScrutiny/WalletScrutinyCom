@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: it.airgap.vault
 launchDate: 2018-08-06
-latestUpdate: 2020-08-18
-apkVersionName: "3.4.0"
+latestUpdate: 2020-09-01
+apkVersionName: "3.5.0"
 stars: 3.8
 ratings: 39
 reviews: 17
@@ -17,10 +17,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/23
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-08-21
+date: 2020-09-02
 reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2020-08-21
+  version: "3.4.0"
+  apkHash: de51c80653019c3d31814daeb0aabdbe09ce4e4a5e340372c502d26dde57d045
+  gitRevision: 6b6dfd6c7f4bb944e2c8ad4c0711e41848da569a
+  verdict: reproducible
 - date: 2020-07-22
   version: "3.3.0"
   apkHash: caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316
@@ -71,23 +76,23 @@ came to this conclusion:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.4.0
-apkVersionCode: 21383
-apkHash:        de51c80653019c3d31814daeb0aabdbe09ce4e4a5e340372c502d26dde57d045
+apkVersionName: 3.5.0
+apkVersionCode: 21975
+apkHash:        ec1ffc9b88898084eb66852b46c9460922401bd16b80ce20532c6a5548467aaa
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_21383/apktool.yml and /tmp/fromBuild_it.airgap.vault_21383/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_21383/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_21383/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_21383/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_21383/original/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_21975/apktool.yml and /tmp/fromBuild_it.airgap.vault_21975/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_21975/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_21975/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_21975/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_21975/original/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object be57a4bf4fba96fdf9848b3d38110462dab1aba7
+object 6b5aec1aba2003a8337122dde6c1da4257209aef
 type commit
-tag v3.4.0
-tagger AndreasGassmann <andreas@andreasgassmann.ch> 1598026500 +0200
+tag v3.5.0
+tagger AndreasGassmann <andreas@andreasgassmann.ch> 1598961958 +0200
 
-AirGap Vault version 3.4.0
+AirGap Vault version 3.5.0
 ```
 
 which is what we expect to see for the verdict: **reproducible**.
