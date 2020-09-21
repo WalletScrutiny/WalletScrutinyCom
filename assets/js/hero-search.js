@@ -80,36 +80,36 @@ function searchCatalogue(t) {
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
   }
-  clearTimeout(pauseForInput);
+  clearTimeout(pauseForInput)
   pauseForInput = setTimeout(function () {
     bi.classList.remove("fa-circle-notch")
-      bi.classList.add("fa-times");
-    document.querySelectorAll(".exit-search")[0].style.display = "inline-block";
+    bi.classList.add("fa-times")
+    document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
     document.querySelectorAll(".results-list")[0].replaceWith(result)
-  }, 500);
-  heroSearchScrollToTop(t);
+  }, 500)
+  heroSearchScrollToTop(t)
 }
 
 function heroUX(t) {
-  t.focus();
-  t.select();
+  t.focus()
+  t.select()
 
-  heroSearchScrollToTop(t);
+  heroSearchScrollToTop(t)
 
-  t.value.length > 0 && (
+  if (t.value.length > 0) {
     searchCatalogue(t)
-  )
-  document.getElementById("exitSearchTrigger").style.display = "block";
+  }
+  document.getElementById("exitSearchTrigger").style.display = "block"
 }
 
 function heroSearchScrollToTop(t) {
-  var s = window.pageYOffset + t.getBoundingClientRect().top;
-    window.innerWidth <= 700 && (
+  var s = window.pageYOffset + t.getBoundingClientRect().top
+  if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
       behavior: 'smooth'
-    }),
-    window.scrollTo(0, s),
+    })
+    window.scrollTo(0, s)
     document.body.scrollTop = s
-  )
+  }
 }
