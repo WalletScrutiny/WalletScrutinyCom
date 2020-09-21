@@ -1,23 +1,11 @@
 {% include base_path %}
 
-{% assign posts_by_ratings = site.posts | sort: "ratings" | reverse %}
+{% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
 {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
 <div id="sidebarWalletList">
 {% for verdict in verdicts %}
-  {% case verdict %}
-    {% when "reproducible" %}  {% assign verdictLabel = "Reproducible when tested" %}
-    {% when "nonverifiable" %} {% assign verdictLabel = "Not verifiable" %}
-    {% when "nosource" %}      {% assign verdictLabel = "Closed Source" %}
-    {% when "custodial" %}     {% assign verdictLabel = "Custodial" %}
-    {% when "wip" %}           {% assign verdictLabel = "WIP" %}
-    {% when "fewusers" %}      {% assign verdictLabel = "Few users" %}
-    {% when "defunct" %}       {% assign verdictLabel = "Defunct" %}
-    {% when "nobtc" %}         {% assign verdictLabel = "Non-BTC" %}
-    {% when "nowallet" %}      {% assign verdictLabel = "No Wallets" %}
-    {% else %}                 {% assign verdictLabel = "???" %}
-  {% endcase %}
-  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ verdictLabel }}</div>
+  <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ site.data.verdicts[verdict].short }}</div>
   {% assign verdictPosts = posts_by_ratings | where: "verdict", verdict %}
   {% for d in downloads %}
     {% assign downloadsPosts = verdictPosts | where: "users", d %}
@@ -26,7 +14,7 @@
     {% endfor %}
   {% endfor %}
 {% endfor %}
-(<a href="/moreApps">more apps</a>)
+(<a href="{{ base_path }}/moreApps">more apps</a>)
 </div>
 <div id="sidebarWalletListShowButton">
   <button class="btn" id="showWallets">Show more ...</button>

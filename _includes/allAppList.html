@@ -1,5 +1,7 @@
+{% include base_path %}
 {
-  {% for post in site.posts %}
+  "base_path": "{{ base_path }}",
+  {% for post in site.android %}
     "{{ post.appId }}": {
       "appId": "{{ post.appId }}",
       "title": "{{ post.title }}",
@@ -21,7 +23,8 @@
       "providerTwitter": "{{ post.providerTwitter }}",
       "providerLinkedIn": "{{ post.providerLinkedIn }}",
       "providerFacebook": "{{ post.providerFacebook }}",
-      "providerReddit": "{{ post.providerReddit }}"
+      "providerReddit": "{{ post.providerReddit }}",
+      "url": "{{ post.url }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 }
