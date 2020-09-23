@@ -8,7 +8,7 @@ launchDate: 2019-12-10
 latestUpdate: 2020-08-01
 apkVersionName: "1.3.3"
 stars: 4.5
-ratings: 134
+ratings: 135
 reviews: 61
 size: 33M
 website: https://phoenix.acinq.co

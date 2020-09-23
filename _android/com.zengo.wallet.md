@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-09-15
 apkVersionName: "2.16.1"
 stars: 4.5
-ratings: 696
+ratings: 698
 reviews: 400
 size: 47M
 website: https://www.zengo.com/

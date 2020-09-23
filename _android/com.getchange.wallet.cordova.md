@@ -8,13 +8,13 @@ launchDate:
 latestUpdate: 2020-09-21
 apkVersionName: "10.9.54"
 stars: 4.2
-ratings: 893
+ratings: 894
 reviews: 451
 size: 32M
 website: https://getchange.com
 repository: 
 issue: 
-icon: com.getchange.wallet.cordova.png
+icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-05-29
