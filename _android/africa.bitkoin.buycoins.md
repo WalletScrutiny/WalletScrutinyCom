@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: africa.bitkoin.buycoins
 launchDate: 
-latestUpdate: 2020-09-18
-apkVersionName: "5.0.6"
+latestUpdate: 2020-09-22
+apkVersionName: "5.0.7"
 stars: 3.3
-ratings: 456
-reviews: 328
+ratings: 457
+reviews: 329
 size: 11M
 website: https://buycoins.africa/
 repository: 

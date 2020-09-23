@@ -5,12 +5,12 @@ altTitle:
 users: 1000
 appId: com.flare
 launchDate: 2020-02-22
-latestUpdate: 2020-09-08
-apkVersionName: "1.3.1"
-stars: 4.6
+latestUpdate: 2020-09-22
+apkVersionName: "1.3.3"
+stars: 4.5
 ratings: 204
 reviews: 167
-size: 9.9M
+size: 11M
 website: https://flarewallet.io/
 repository: 
 issue: 
