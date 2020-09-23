@@ -38,10 +38,10 @@ redirect_from:
 
 **Update**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1289942465047396352)
 
-> You can verify that the built APK is indeed built from the provided source
+![](/images/samouraiTweetLie.png)
 
 which is a direct claim of falsehood of our findings. No other neutral party
-party supported this claim so far and neither did the provider explain how such
+supported this claim so far and neither did the provider explain how such
 a verification should work or where our findings are wrong. This is so far the
 clearest lie and thus red flag about this wallet.
 
