@@ -8,7 +8,7 @@ launchDate: 2018-12-18
 latestUpdate: 2020-09-22
 apkVersionName: "0.16.0"
 stars: 4.6
-ratings: 232
+ratings: 233
 reviews: 204
 size: 33M
 website: https://unstoppable.money/

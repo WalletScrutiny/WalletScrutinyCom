@@ -8,8 +8,8 @@ launchDate: 2014-10-01
 latestUpdate: 2020-09-18
 apkVersionName: "3.4.5"
 stars: 3.8
-ratings: 77479
-reviews: 34809
+ratings: 77491
+reviews: 34815
 size: 48M
 website: https://coins.ph/
 repository: 

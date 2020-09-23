@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
-latestUpdate: 2020-08-24
-apkVersionName: "1.9.7"
+latestUpdate: 2020-09-23
+apkVersionName: "1.9.11"
 stars: 3.7
 ratings: 183
 reviews: 114
