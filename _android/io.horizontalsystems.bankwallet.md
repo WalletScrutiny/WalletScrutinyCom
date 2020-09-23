@@ -13,7 +13,7 @@ reviews: 204
 size: 33M
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2326
+issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2597
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
