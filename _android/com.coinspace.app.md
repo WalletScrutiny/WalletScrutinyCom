@@ -8,8 +8,8 @@ launchDate: 2015-05-01
 latestUpdate: 2020-09-11
 apkVersionName: "2.20.4"
 stars: 3.9
-ratings: 516
-reviews: 273
+ratings: 519
+reviews: 274
 size: 5.6M
 website: https://www.coin.space/
 repository: https://github.com/CoinSpace/CoinSpace

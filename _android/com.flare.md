@@ -5,9 +5,9 @@ altTitle:
 users: 1000
 appId: com.flare
 launchDate: 2020-02-22
-latestUpdate: 2020-09-22
-apkVersionName: "1.3.3"
-stars: 4.5
+latestUpdate: 2020-09-24
+apkVersionName: "1.3.4"
+stars: 4.6
 ratings: 204
 reviews: 167
 size: 11M
