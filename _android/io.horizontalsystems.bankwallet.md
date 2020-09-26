@@ -18,7 +18,7 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-07-24
-reviewStale: true
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2020-07-22
@@ -77,6 +77,7 @@ redirect_from:
   - /posts/io.horizontalsystems.bankwallet/
 ---
 
+**Update**: Version 0.16.1 is now also on Google Play.
 
 After we failed to reproduce version `0.16.0` we opened an
 [issue on their GitHub](https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2597)
