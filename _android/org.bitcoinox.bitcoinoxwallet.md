@@ -2,7 +2,7 @@
 title: "Bitcoin OX Wallet — Exchange Wallet for Crypto"
 altTitle: 
 
-users: 500
+users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
 launchDate: 
 latestUpdate: 2020-05-19

@@ -1,5 +1,5 @@
 ---
-title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Litecoin"
+title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
 altTitle: 
 
 users: 50000
@@ -8,7 +8,7 @@ launchDate: 2018-11-01
 latestUpdate: 2020-09-18
 apkVersionName: "2.5.3"
 stars: 4.4
-ratings: 1273
+ratings: 1272
 reviews: 713
 size: 34M
 website: http://guarda.co/
