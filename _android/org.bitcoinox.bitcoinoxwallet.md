@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-09-27
 reviewStale: false
 signer: 
