@@ -8,8 +8,8 @@ launchDate: 2019-01-01
 latestUpdate: 2020-07-27
 apkVersionName: "1.1.30"
 stars: 4.3
-ratings: 743
-reviews: 394
+ratings: 744
+reviews: 395
 size: 31M
 website: https://www.dowallet.app/
 repository: 

@@ -5,10 +5,10 @@ altTitle:
 users: 50000
 appId: com.bitpie
 launchDate: 2016-10-23
-latestUpdate: 2020-09-24
-apkVersionName: "4.9.6"
-stars: 4.1
-ratings: 641
+latestUpdate: 2020-09-26
+apkVersionName: "4.9.7"
+stars: 4.0
+ratings: 643
 reviews: 330
 size: 51M
 website: http://bitpie.com
