@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-09-25
 apkVersionName: "2.3.1"
 stars: 3.8
-ratings: 550
-reviews: 333
+ratings: 551
+reviews: 334
 size: 28M
 website: https://www.bitmart.com/
 repository: 

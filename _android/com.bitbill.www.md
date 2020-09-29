@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: com.bitbill.www
 launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "4.22.1"
+latestUpdate: 2020-09-28
+apkVersionName: "4.22.2"
 stars: 4.2
 ratings: 40
 reviews: 24
