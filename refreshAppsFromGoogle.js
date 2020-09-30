@@ -59,8 +59,15 @@ fs.readdir(androidFolder, function (err, files) {
                 iconExtension = "png"
               } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
                 iconExtension = "jpg"
+              } else if (mimetype == "text/html" || mimetype == "text/plain") {
+                console.error(`Not writing results to _android/${header.appId}.md`)
+                console.error(`wrong mime type ${mimetype}. Skipping.`)
+                console.error(body)
+                return
               } else {
-                throw Error(`wrong mime type ${mimetype}`)
+                console.error(`Not writing results to _android/${header.appId}.md`)
+                console.error(`wrong mime type ${mimetype}. Skipping.`)
+                return
               }
               writeResult(app, header, iconExtension, body)
               fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {

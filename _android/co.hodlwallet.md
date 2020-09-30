@@ -8,7 +8,7 @@ launchDate: 2018-09-24
 latestUpdate: 2020-05-18
 apkVersionName: "3.3.5"
 stars: 3.8
-ratings: 83
+ratings: 84
 reviews: 47
 size: 12M
 website: https://hodlwallet.com

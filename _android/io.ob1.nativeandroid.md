@@ -7,7 +7,7 @@ appId: io.ob1.nativeandroid
 launchDate: 
 latestUpdate: 2020-09-27
 apkVersionName: "1.3.7"
-stars: 3.7
+stars: 3.8
 ratings: 375
 reviews: 163
 size: 95M
