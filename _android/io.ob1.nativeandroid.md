@@ -13,7 +13,7 @@ reviews: 163
 size: 95M
 website: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven
-issue: 
+issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
