@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-06-10
 apkVersionName: "1.36.1"
 stars: 2.9
-ratings: 160
+ratings: 161
 reviews: 110
 size: 5.0M
 website: https://bit2me.com/

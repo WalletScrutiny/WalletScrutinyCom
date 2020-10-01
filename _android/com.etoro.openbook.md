@@ -8,8 +8,8 @@ launchDate: 2013-11-05
 latestUpdate: 2020-09-29
 apkVersionName: "273.0.0"
 stars: 4.2
-ratings: 41933
-reviews: 15535
+ratings: 41983
+reviews: 15551
 size: 41M
 website: 
 repository: 

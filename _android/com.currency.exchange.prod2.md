@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-09-28
 apkVersionName: "1.0.379"
 stars: 4.3
-ratings: 1041
+ratings: 1044
 reviews: 369
 size: 17M
 website: https://currency.com/
