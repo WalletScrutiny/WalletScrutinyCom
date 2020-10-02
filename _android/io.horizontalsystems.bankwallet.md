@@ -17,10 +17,15 @@ issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/25
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-24
+date: 2020-10-02
 reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2020-09-24
+  version: "0.16.1"
+  apkHash: ceb4d72b8ae2358c8779b5e0bba5e08bae08e1524eb9b6c0b2ca86889cc91adc
+  gitRevision: f4ef07e88dfb7de43bdd0a7a3eadb6c46c0c3000
+  verdict: reproducible
 - date: 2020-07-22
   version: "0.16.0"
   apkHash: 6dc469ed865d0fe2cd855c7b227b54692877e4b09f6dc765d56fae80c20a2524
@@ -78,40 +83,23 @@ redirect_from:
 ---
 
 
-**Update**: Version 0.16.1 is now also on Google Play.
-
-After we failed to reproduce version `0.16.0` we opened an
-[issue on their GitHub](https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2597)
-and they quickly reacted and shared a new release. At the time of writing this,
-that release was not yet available on Google Play but if you chose to use it,
-you can check the provided sha256 hash to make sure it's not yet another binary.
-In any case we will also repeat this exercise once we get the update from Google
-Play.
-
 Here is the output using our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-on the binary provided in above issue:
+on the binary from Google Play:
 
 ```
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.16.1
-apkVersionCode: 31
-apkHash:        ceb4d72b8ae2358c8779b5e0bba5e08bae08e1524eb9b6c0b2ca86889cc91adc
+apkVersionName: 0.16.2
+apkVersionCode: 32
+apkHash:        6a4bb767a47990feaa3a844a9b84c0c674b7b575a9d1f9699e0a8bd4152ab4ed
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_31/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_31/apktool.yml differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_31/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_31/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_31/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_31/original/META-INF: RELEASEK.SF
-
-Revision, tag (and its signature):
-object ce3dd60770915278a523e64f8a9dd49eb2878ef2
-type commit
-tag 0.16.1
-tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1600935873 +0600
-
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_32/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_32/apktool.yml differ
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_32/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF: RELEASEK.SF
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
