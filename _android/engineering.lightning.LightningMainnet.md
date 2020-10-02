@@ -1,11 +1,11 @@
 ---
-title: "Lightning: Fast Bitcoin Wallet"
+title: "Lightning (Remove Funds by Dec 31st)"
 altTitle: 
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
 launchDate: 
-latestUpdate: 2020-04-30
+latestUpdate: 2020-10-02
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
