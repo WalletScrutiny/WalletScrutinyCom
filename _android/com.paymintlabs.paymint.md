@@ -12,13 +12,13 @@ ratings:
 reviews: 
 size: 25M
 website: 
-repository: 
+repository: https://github.com/Paymint-Labs/Paymint
 issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-03
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -32,11 +32,3 @@ redirect_from:
   - /com.paymintlabs.paymint/
 ---
 
-
-This page was created by a script from the **appId** "com.paymintlabs.paymint" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.paymintlabs.paymint).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
