@@ -7,7 +7,7 @@ appId: com.airbitz
 launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
-stars: 3.6
+stars: 3.7
 ratings: 1133
 reviews: 479
 size: 16M

@@ -7,8 +7,8 @@ appId: it.airgap.vault
 launchDate: 2018-08-06
 latestUpdate: 2020-09-01
 apkVersionName: "3.5.0"
-stars: 3.8
-ratings: 39
+stars: 3.9
+ratings: 40
 reviews: 17
 size: 9.6M
 website: https://airgap.it/

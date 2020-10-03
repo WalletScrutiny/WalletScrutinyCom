@@ -7,7 +7,7 @@ appId: com.coinbase.pro
 launchDate: 
 latestUpdate: 2020-09-21
 apkVersionName: "1.0.47"
-stars: 3.4
+stars: 3.3
 ratings: 1710
 reviews: 1216
 size: 31M
