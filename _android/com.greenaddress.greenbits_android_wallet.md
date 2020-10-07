@@ -16,7 +16,7 @@ repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/75
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-07
 reviewStale: false
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
