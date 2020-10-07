@@ -4,7 +4,7 @@ altTitle:
 
 users: 100
 appId: com.paymintlabs.paymint
-launchDate: 
+launchDate: 2020-06-29
 latestUpdate: 2020-10-05
 apkVersionName: "1.2.2"
 stars: 4.8
@@ -23,7 +23,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: paymint_wallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
