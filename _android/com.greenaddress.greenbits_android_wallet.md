@@ -17,10 +17,15 @@ issue: https://github.com/Blockstream/green_android/issues/75
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-08-31
-reviewStale: true
+date: 2020-10-07
+reviewStale: false
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2020-08-31
+  version: "3.3.9"
+  apkHash: 6a4a4bb05c0c087c4b85486f01982a8bf1bde91a70c587e22929e9faed3eb6ed
+  gitRevision: ea0cf3403d57a0e33f7d7627d9854b737fc0d62e
+  verdict: nonverifiable
 - date: 2020-07-11
   version: "3.3.8"
   apkHash: 3a0a02ea8ccd791ab3ec24bac4d45249164f5c53366538b5befcbd4df3f6edb3
@@ -83,33 +88,23 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.3.9
-apkVersionCode: 22000339
-apkHash:        6a4a4bb05c0c087c4b85486f01982a8bf1bde91a70c587e22929e9faed3eb6ed
+apkVersionName: 3.4.0
+apkVersionCode: 22000340
+apkHash:        fb7d9611ad878ef4116b525a50255f3b16725ec673a5c717f14c5d021b242188
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000339/apktool.yml differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/original/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/original/META-INF: GREENADD.SF
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000339/original/META-INF/MANIFEST.MF differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/res/drawable-hdpi/ic_testnet_btc_no_padding.png and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000339/res/drawable-hdpi/ic_testnet_btc_no_padding.png differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000339/res/drawable-ldpi/ic_sent.png and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000339/res/drawable-ldpi/ic_sent.png differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000340/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000340/apktool.yml differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000340/original/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000340/original/META-INF: GREENADD.SF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000340/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000340/original/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 0194942842702d3944bd0dd32407bf506f10a3bf
+object 91fafd8ddd94427f05f89cbf129a4c190221f493
 type commit
-tag release_3.3.9
-tagger Luca Vaccaro <me@lvaccaro.com> 1598555237 +0200
+tag release_3.4.0
+tagger Luca Vaccaro <me@lvaccaro.com> 1601631600 +0200
 
-Release 3.3.9
+Release 3.4.0
 ```
 
-And unfortunately there is more diff than we would hope for.
-`ic_testnet_btc_no_padding.png` and `ic_sent.png` should not differ and although
-this is probably not a wallet stealing backdoor as both of those images are less
-than 1kB, differ by 2B in size and actually have some pixels different but
-look equal to the eye, we have to give it the verdict: **not verifiable**.
-
-As those files are generated from vector files of similar name, this is probably
-the result of non-deterministic or differing build tools. In the latter case,
-different build instructions might result in successful rebuilds.
+which is what we want to see to give this wallet the verdict: **reproducible**
