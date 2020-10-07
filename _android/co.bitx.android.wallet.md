@@ -2,14 +2,14 @@
 title: "Luno: Buy Bitcoin, Ethereum and Cryptocurrency"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: co.bitx.android.wallet
 launchDate: 2014-11-01
-latestUpdate: 2020-09-28
-apkVersionName: "6.21.0"
+latestUpdate: 2020-10-05
+apkVersionName: "7.0.1"
 stars: 4.2
-ratings: 43038
-reviews: 24999
+ratings: 43317
+reviews: 25165
 size: 17M
 website: https://www.luno.com/
 repository: 

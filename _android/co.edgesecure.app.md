@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: co.edgesecure.app
 launchDate: 2018-03-01
-latestUpdate: 2020-09-22
-apkVersionName: "1.17.1"
+latestUpdate: 2020-10-06
+apkVersionName: "1.17.2"
 stars: 4.2
-ratings: 1553
-reviews: 890
-size: 64M
+ratings: 1561
+reviews: 894
+size: 58M
 website: https://edge.app/
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748

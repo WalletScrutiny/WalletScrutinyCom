@@ -2,7 +2,7 @@
 title: "Vega - Lightning Wallet"
 altTitle: 
 
-users: 10
+users: 50
 appId: app.getvega
 launchDate: 
 latestUpdate: 2019-05-22

@@ -7,8 +7,8 @@ appId: com.bitcoin.wallet.btc
 launchDate: 2019-05-01
 latestUpdate: 2020-06-15
 apkVersionName: "1.9.4"
-stars: 4.2
-ratings: 301
+stars: 4.1
+ratings: 304
 reviews: 106
 size: 8.2M
 website: https://bitcoin-wallet.flycricket.io/
