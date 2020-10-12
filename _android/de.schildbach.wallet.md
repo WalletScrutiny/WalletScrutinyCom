@@ -17,10 +17,15 @@ issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-08-04
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2020-08-04
+  version: "8.05"
+  apkHash: 64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0
+  gitRevision: b683aac93debae97df50251e2c4a975cdb9d5ba6
+  verdict: reproducible
 - date: 2020-06-20
   version: "8.03"
   apkHash: 09b78cea4be8ca41661b0a9ab3d4a2ed16c8947c2aaceeb39c931ee8e2d3f653
@@ -103,15 +108,23 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.05
-apkVersionCode: 805
-apkHash:        64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0
+apkVersionName: 8.06
+apkVersionCode: 806
+apkHash:        7c68050e0e746d9a7ea984ac2aa4d9541e5a140a073254f5c88036d1aa7430ab
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_805/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_805/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_de.schildbach.wallet_806/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_806/apktool.yml differ
+Only in /tmp/fromPlay_de.schildbach.wallet_806/original/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_806/original/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_806/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_806/original/META-INF/MANIFEST.MF differ
+
+Revision, tag (and its signature):
+object 7a8bd45dee48676b4dc94a6ede7387b2c9678b59
+type commit
+tag v8.06
+tagger Andreas Schildbach <andreas@schildbach.de> 1601980121 +0200
+
+8.06 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
