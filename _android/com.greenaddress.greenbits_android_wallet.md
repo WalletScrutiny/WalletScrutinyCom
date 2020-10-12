@@ -7,9 +7,9 @@ appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
 latestUpdate: 2020-10-05
 apkVersionName: "3.4.0"
-stars: 3.9
-ratings: 623
-reviews: 343
+stars: 4.0
+ratings: 627
+reviews: 345
 size: 27M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/

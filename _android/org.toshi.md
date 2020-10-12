@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: org.toshi
 launchDate: 2017-09-20
-latestUpdate: 2020-10-06
-apkVersionName: "22.4.315"
+latestUpdate: 2020-10-09
+apkVersionName: "22.4.322"
 stars: 4.2
-ratings: 7736
-reviews: 3398
+ratings: 7848
+reviews: 3448
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

@@ -1,5 +1,5 @@
 ---
-title: "Lumi Bitcoin and Crypto Wallet"
+title: "Lumi Crypto and Bitcoin Wallet"
 altTitle: 
 
 users: 100000
@@ -7,9 +7,9 @@ appId: com.lumiwallet.android
 launchDate: 2018-01-15
 latestUpdate: 2020-09-28
 apkVersionName: "3.2"
-stars: 4.8
-ratings: 2990
-reviews: 996
+stars: 4.2
+ratings: 1963
+reviews: 699
 size: 7.6M
 website: https://lumiwallet.com
 repository: 

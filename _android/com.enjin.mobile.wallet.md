@@ -5,12 +5,12 @@ altTitle:
 users: 500000
 appId: com.enjin.mobile.wallet
 launchDate: 2018-01-01
-latestUpdate: 2020-08-26
-apkVersionName: "1.9.2-r"
+latestUpdate: 2020-10-12
+apkVersionName: "1.10.0-r"
 stars: 4.3
-ratings: 5999
-reviews: 3641
-size: 32M
+ratings: 6029
+reviews: 3657
+size: 35M
 website: https://enjin.io/products/wallet
 repository: 
 issue: 

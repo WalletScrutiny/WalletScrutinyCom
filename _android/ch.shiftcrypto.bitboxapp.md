@@ -2,7 +2,7 @@
 title: "BitBoxApp"
 altTitle: 
 
-users: 100
+users: 500
 appId: ch.shiftcrypto.bitboxapp
 launchDate: 
 latestUpdate: 2020-09-22

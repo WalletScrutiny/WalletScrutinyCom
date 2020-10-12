@@ -2,14 +2,14 @@
 title: "Trustee Wallet - best bitcoin and crypto wallet"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.trusteewallet
 launchDate: 2019-05-01
-latestUpdate: 2020-10-02
+latestUpdate: 2020-10-09
 apkVersionName: "Varies with device"
 stars: 4.2
-ratings: 810
-reviews: 509
+ratings: 812
+reviews: 512
 size: Varies with device
 website: https://trustee.deals/
 repository: https://github.com/trustee-wallet/trusteeWallet

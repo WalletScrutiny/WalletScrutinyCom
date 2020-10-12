@@ -7,9 +7,9 @@ appId: com.ankerpay.wallet
 launchDate: 
 latestUpdate: 2020-09-25
 apkVersionName: "v1.0.11.25"
-stars: 4.3
-ratings: 87
-reviews: 76
+stars: 4.4
+ratings: 88
+reviews: 77
 size: 4.9M
 website: https://ankerid.com/mobile-wallet/
 repository: 
