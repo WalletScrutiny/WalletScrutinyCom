@@ -11,21 +11,21 @@ stars: 3.4
 ratings: 8065
 reviews: 4412
 size: 54M
-website: 
+website: https://uphold.com/
 repository: 
 issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: UpholdInc
+providerLinkedIn: company/upholdinc
+providerFacebook: UpholdInc
 providerReddit: 
 
 redirect_from:

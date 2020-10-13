@@ -17,16 +17,16 @@ issue:
 icon: com.paxful.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-20
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: paxful
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: paxful
+providerReddit: r/paxful/
 
 redirect_from:
   - /paxful/

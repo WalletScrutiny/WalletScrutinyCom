@@ -17,8 +17,8 @@ issue:
 icon: co.bitx.android.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-03-28
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-11-14
@@ -27,9 +27,9 @@ reviewArchive:
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: LunoGlobal
+providerLinkedIn: company/lunoglobal
+providerFacebook: luno
 providerReddit: 
 
 redirect_from:

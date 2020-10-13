@@ -17,15 +17,15 @@ issue:
 icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: spectrocoin
+providerLinkedIn: company/spectrocoin
+providerFacebook: spectrocoin
 providerReddit: 
 
 redirect_from:

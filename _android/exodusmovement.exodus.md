@@ -17,15 +17,15 @@ issue:
 icon: exodusmovement.exodus.png
 bugbounty: 
 verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: exodus_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: exodus.io
 providerReddit: 
 
 redirect_from:

@@ -17,15 +17,15 @@ issue:
 icon: com.xapo.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-15
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: xapo
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: xapoapp
 providerReddit: 
 
 redirect_from:

@@ -17,16 +17,16 @@ issue:
 icon: btc.org.freewallet.app.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: freewalletorg
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: freewallet.org
+providerReddit: r/Freewallet_org
 
 redirect_from:
   - /btc.org.freewallet.app/
