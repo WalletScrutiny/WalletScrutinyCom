@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: co.mona.android
 launchDate: 2017-08-30
-latestUpdate: 2020-09-25
-apkVersionName: "3.69"
+latestUpdate: 2020-10-09
+apkVersionName: "3.70"
 stars: 4.1
-ratings: 36630
-reviews: 13669
+ratings: 36825
+reviews: 13784
 size: 81M
 website: https://www.crypto.com/
 repository: 

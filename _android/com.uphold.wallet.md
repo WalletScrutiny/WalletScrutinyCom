@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: com.uphold.wallet
 launchDate: 
-latestUpdate: 2020-10-02
+latestUpdate: 2020-10-09
 apkVersionName: "4.12.3"
 stars: 3.4
-ratings: 8065
-reviews: 4412
+ratings: 8132
+reviews: 4444
 size: 54M
 website: https://uphold.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.uphold.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -5,12 +5,12 @@ altTitle:
 users: 5000000
 appId: asia.coins.mobile
 launchDate: 2014-10-01
-latestUpdate: 2020-10-11
-apkVersionName: "3.5.2"
-stars: 3.8
-ratings: 77994
-reviews: 35054
-size: 49M
+latestUpdate: 2020-10-14
+apkVersionName: "3.5.6"
+stars: 4.0
+ratings: 79795
+reviews: 35594
+size: 50M
 website: https://coins.ph/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: asia.coins.mobile.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-17

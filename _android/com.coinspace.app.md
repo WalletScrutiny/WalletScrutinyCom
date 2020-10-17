@@ -5,10 +5,10 @@ altTitle:
 users: 100000
 appId: com.coinspace.app
 launchDate: 2015-05-01
-latestUpdate: 2020-09-11
-apkVersionName: "2.20.4"
+latestUpdate: 2020-10-15
+apkVersionName: "3.0.0"
 stars: 4.0
-ratings: 534
+ratings: 537
 reviews: 275
 size: 5.6M
 website: https://www.coin.space/

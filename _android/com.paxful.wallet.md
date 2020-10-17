@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: com.paxful.wallet
 launchDate: 2019-04-30
-latestUpdate: 2020-10-12
-apkVersionName: "1.6.5.492"
+latestUpdate: 2020-10-15
+apkVersionName: "1.6.6.501"
 stars: 3.5
-ratings: 10440
-reviews: 6598
+ratings: 10490
+reviews: 6623
 size: 33M
 website: https://paxful.com/mobile-wallet-app
 repository: 
@@ -18,7 +18,7 @@ icon: com.paxful.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

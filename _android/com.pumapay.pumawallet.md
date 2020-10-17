@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-08-31
 apkVersionName: "3.8.9"
 stars: 4.4
-ratings: 248
-reviews: 163
+ratings: 251
+reviews: 164
 size: 50M
 website: https://pumapay.io/
 repository: 

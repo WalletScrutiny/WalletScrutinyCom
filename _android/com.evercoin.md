@@ -7,9 +7,9 @@ appId: com.evercoin
 launchDate: 
 latestUpdate: 2020-09-06
 apkVersionName: "2.8.7"
-stars: 3.9
-ratings: 175
-reviews: 123
+stars: 3.8
+ratings: 176
+reviews: 124
 size: 40M
 website: https://evercoin.com
 repository: 

@@ -5,7 +5,7 @@ altTitle:
 users: 100000
 appId: com.samourai.wallet
 launchDate: 
-latestUpdate: 2020-08-24
+latestUpdate: 2020-10-16
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
