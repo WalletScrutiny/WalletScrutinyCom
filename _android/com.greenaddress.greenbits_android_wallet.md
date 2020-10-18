@@ -7,7 +7,7 @@ appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
 latestUpdate: 2020-10-13
 apkVersionName: "3.4.1"
-stars: 4.0
+stars: 3.9
 ratings: 633
 reviews: 350
 size: 27M
