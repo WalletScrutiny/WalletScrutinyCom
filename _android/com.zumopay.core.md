@@ -5,11 +5,11 @@ altTitle:
 users: 1000
 appId: com.zumopay.core
 launchDate: 
-latestUpdate: 2020-10-07
-apkVersionName: "2.9.1"
-stars: 3.9
-ratings: 36
-reviews: 27
+latestUpdate: 2020-10-19
+apkVersionName: "2.10.1"
+stars: 3.8
+ratings: 40
+reviews: 29
 size: 45M
 website: https://zumo.money/
 repository: 
@@ -18,7 +18,7 @@ icon: com.zumopay.core.png
 bugbounty: 
 verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

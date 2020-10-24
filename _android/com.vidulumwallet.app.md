@@ -7,9 +7,9 @@ appId: com.vidulumwallet.app
 launchDate: 
 latestUpdate: 2019-04-05
 apkVersionName: "1.2"
-stars: 4.7
-ratings: 54
-reviews: 44
+stars: 4.6
+ratings: 55
+reviews: 45
 size: 174k
 website: https://vidulum.app/
 repository: https://github.com/vidulum/vidulum.app

@@ -7,9 +7,9 @@ appId: io.hexawallet.hexa
 launchDate: 
 latestUpdate: 2020-10-12
 apkVersionName: "1.2.1"
-stars: 4.2
-ratings: 6
-reviews: 2
+stars: 3.9
+ratings: 7
+reviews: 3
 size: 35M
 website: 
 repository: 

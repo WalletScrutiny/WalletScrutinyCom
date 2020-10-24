@@ -8,7 +8,7 @@ launchDate: 2017-09-25
 latestUpdate: 2020-09-22
 apkVersionName: "2.12.13"
 stars: 3.7
-ratings: 1498
+ratings: 1499
 reviews: 724
 size: 12M
 website: https://eidoo.io
