@@ -134,8 +134,9 @@ for more details."
 }
 
 testMycelium() {
+  buildTarget=$1
   repo=https://github.com/mycelium-com/wallet-android
-  tag=v$versionName
+  tag=$( echo "v$versionName" | sed 's/-TESTNET//g' )
   builtApk=$workDir/app/mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
 
   prepare
@@ -148,7 +149,7 @@ testMycelium() {
   mkdir $workDir/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $workDir/app $workDir/sorted
   docker run --volume $workDir/sorted:/mnt --workdir /mnt -it --rm $wsDocker \
-      bash -c "./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;chown $(id -u):$(id -g) -R /mnt/;
+      bash -c "./gradlew -x lint -x test clean $buildTarget;chown $(id -u):$(id -g) -R /mnt/;
         bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet"
   sudo umount $workDir/sorted
 
@@ -243,7 +244,10 @@ testBlockchain() {
 
 case "$appId" in
   "com.mycelium.wallet")
-    testMycelium
+    testMycelium ":mbw:assembleProdnetRelease"
+    ;;
+  "com.mycelium.testnetwallet")
+    testMycelium ":mbw:assembleBtctestnetRelease"
     ;;
   "com.greenaddress.greenbits_android_wallet")
     testGreen
