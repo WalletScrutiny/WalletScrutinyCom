@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-10-21
 apkVersionName: "1.6.20"
 stars: 4.4
-ratings: 1373
+ratings: 1375
 reviews: 759
 size: 75M
 website: https://shakepay.com/
