@@ -7,9 +7,9 @@ appId: io.totalcoin.wallet
 launchDate: 2018-04-01
 latestUpdate: 2020-09-15
 apkVersionName: "4.5.7"
-stars: 4.2
-ratings: 4134
-reviews: 2091
+stars: 4.3
+ratings: 4204
+reviews: 2116
 size: 10M
 website: http://totalcoin.io/
 repository: 

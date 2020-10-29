@@ -5,12 +5,12 @@ altTitle:
 users: 500
 appId: com.hebeblock.hebewallet
 launchDate: 
-latestUpdate: 2020-08-14
-apkVersionName: "1.2.0"
+latestUpdate: 2020-10-28
+apkVersionName: "1.2.1"
 stars: 0.0
 ratings: 
 reviews: 
-size: 16M
+size: 17M
 website: 
 repository: 
 issue: 

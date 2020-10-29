@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: com.plutus.wallet
 launchDate: 2015-03-04
-latestUpdate: 2020-10-05
+latestUpdate: 2020-10-26
 apkVersionName: "Varies with device"
 stars: 4.0
-ratings: 7775
-reviews: 4433
+ratings: 7826
+reviews: 4457
 size: Varies with device
 website: https://www.abra.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.plutus.wallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
