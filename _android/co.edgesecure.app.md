@@ -7,8 +7,8 @@ appId: co.edgesecure.app
 launchDate: 2018-03-01
 latestUpdate: 2020-10-19
 apkVersionName: "1.17.4"
-stars: 4.0
-ratings: 1644
+stars: 4.1
+ratings: 1645
 reviews: 937
 size: 60M
 website: https://edge.app/

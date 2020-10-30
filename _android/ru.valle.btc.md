@@ -8,7 +8,7 @@ launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 138
+ratings: 139
 reviews: 46
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov/

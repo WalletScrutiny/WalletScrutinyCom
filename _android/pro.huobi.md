@@ -9,7 +9,7 @@ latestUpdate: 2020-10-20
 apkVersionName: "5.9.4"
 stars: 3.9
 ratings: 5274
-reviews: 1829
+reviews: 1830
 size: 51M
 website: https://www.huobi.com/en-us/
 repository: 
