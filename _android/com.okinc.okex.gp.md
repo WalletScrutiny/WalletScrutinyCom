@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-09-22
 apkVersionName: "4.3.0"
 stars: 4.9
-ratings: 29598
+ratings: 29597
 reviews: 22607
 size: 112M
 website: https://www.okex.com/

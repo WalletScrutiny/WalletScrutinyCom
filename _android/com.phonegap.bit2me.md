@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.phonegap.bit2me
 launchDate: 
-latestUpdate: 2020-10-19
-apkVersionName: "2.0.38"
+latestUpdate: 2020-10-30
+apkVersionName: "2.0.39"
 stars: 5.0
-ratings: 287
-reviews: 235
-size: 14M
+ratings: 288
+reviews: 236
+size: 15M
 website: https://bit2me.com/
 repository: 
 issue: 
