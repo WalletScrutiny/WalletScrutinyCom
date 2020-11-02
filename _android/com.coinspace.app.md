@@ -9,7 +9,7 @@ latestUpdate: 2020-10-15
 apkVersionName: "3.0.0"
 stars: 4.0
 ratings: 551
-reviews: 278
+reviews: 279
 size: 5.6M
 website: https://www.coin.space/
 repository: https://github.com/CoinSpace/CoinSpace

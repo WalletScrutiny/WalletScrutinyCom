@@ -2,14 +2,14 @@
 title: "Shakepay: Buy Bitcoin in Canada"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.shaketh
 launchDate: 
 latestUpdate: 2020-10-29
 apkVersionName: "1.6.25"
 stars: 4.3
-ratings: 1391
-reviews: 769
+ratings: 1404
+reviews: 775
 size: 75M
 website: https://shakepay.com/
 repository: 
