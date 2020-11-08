@@ -2,7 +2,7 @@
 title: "BitWallet - Buy & Sell Bitcoin"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.Android.Inc.bitwallet
 launchDate: 
 latestUpdate: 2020-10-01

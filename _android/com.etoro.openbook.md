@@ -1,5 +1,5 @@
 ---
-title: "eToro"
+title: "eToro - Smart crypto trading made easy"
 altTitle: 
 
 users: 5000000
@@ -8,8 +8,8 @@ launchDate: 2013-11-05
 latestUpdate: 2020-10-21
 apkVersionName: "278.0.0"
 stars: 4.3
-ratings: 44155
-reviews: 16289
+ratings: 44460
+reviews: 16397
 size: 42M
 website: 
 repository: 

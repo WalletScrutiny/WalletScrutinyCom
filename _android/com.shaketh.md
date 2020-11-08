@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.shaketh
 launchDate: 
-latestUpdate: 2020-10-29
-apkVersionName: "1.6.25"
+latestUpdate: 2020-11-04
+apkVersionName: "1.6.27"
 stars: 4.3
-ratings: 1404
-reviews: 775
+ratings: 1415
+reviews: 782
 size: 75M
 website: https://shakepay.com/
 repository: 
