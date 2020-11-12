@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.krakenfutures
 launchDate: 
-latestUpdate: 2019-11-29
-apkVersionName: "4.0.13"
+latestUpdate: 2020-11-11
+apkVersionName: "5.22.1"
 stars: 3.5
-ratings: 50
-reviews: 19
-size: 5.5M
+ratings: 52
+reviews: 20
+size: 12M
 website: https://futures.kraken.com/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.krakenfutures.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-06-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

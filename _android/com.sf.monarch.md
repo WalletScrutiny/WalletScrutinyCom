@@ -7,7 +7,7 @@ appId: com.sf.monarch
 launchDate: 2018-10-19
 latestUpdate: 2020-09-18
 apkVersionName: "2.1.6"
-stars: 3.6
+stars: 3.5
 ratings: 734
 reviews: 372
 size: 18M

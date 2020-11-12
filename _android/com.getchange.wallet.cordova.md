@@ -1,5 +1,5 @@
 ---
-title: "Change: Crypto Wallet to Buy Sell & Trade Bitcoin"
+title: "Change: Beginner-Friendly Trading & Investment App"
 altTitle: 
 
 users: 50000
@@ -7,9 +7,9 @@ appId: com.getchange.wallet.cordova
 launchDate: 
 latestUpdate: 2020-11-04
 apkVersionName: "10.9.96"
-stars: 4.3
-ratings: 957
-reviews: 483
+stars: 4.4
+ratings: 973
+reviews: 492
 size: 32M
 website: https://getchange.com
 repository: 

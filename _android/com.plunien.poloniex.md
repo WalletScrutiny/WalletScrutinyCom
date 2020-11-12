@@ -7,9 +7,9 @@ appId: com.plunien.poloniex
 launchDate: 
 latestUpdate: 2020-11-03
 apkVersionName: "1.22.3"
-stars: 4.3
-ratings: 2428
-reviews: 1322
+stars: 4.4
+ratings: 2444
+reviews: 1331
 size: 36M
 website: https://support.poloniex.com/
 repository: 
