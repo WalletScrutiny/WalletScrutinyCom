@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-09-21
 apkVersionName: "1.0.47"
 stars: 3.5
-ratings: 1847
-reviews: 1283
+ratings: 1864
+reviews: 1292
 size: 31M
 website: https://pro.coinbase.com/
 repository: 

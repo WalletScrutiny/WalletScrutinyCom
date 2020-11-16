@@ -2,14 +2,14 @@
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
 altTitle: 
 
-users: 500000
+users: 1000000
 appId: org.toshi
 launchDate: 2017-09-20
 latestUpdate: 2020-11-06
 apkVersionName: "23.0.331"
 stars: 4.6
-ratings: 10466
-reviews: 4414
+ratings: 10744
+reviews: 4548
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

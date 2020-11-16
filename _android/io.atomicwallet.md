@@ -8,8 +8,8 @@ launchDate: 2019-01-30
 latestUpdate: 2020-11-12
 apkVersionName: "0.67.0"
 stars: 4.4
-ratings: 17305
-reviews: 9218
+ratings: 17362
+reviews: 9256
 size: 13M
 website: https://atomicwallet.io/
 repository: 

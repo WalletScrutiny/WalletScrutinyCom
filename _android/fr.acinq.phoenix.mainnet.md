@@ -5,11 +5,11 @@ altTitle:
 users: 5000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
-latestUpdate: 2020-10-19
-apkVersionName: "1.4.0"
-stars: 4.2
-ratings: 158
-reviews: 74
+latestUpdate: 2020-11-12
+apkVersionName: "1.4.1"
+stars: 4.3
+ratings: 160
+reviews: 75
 size: 34M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -18,7 +18,7 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-24
-reviewStale: false
+reviewStale: true
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2020-08-14

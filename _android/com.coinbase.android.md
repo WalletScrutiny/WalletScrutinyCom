@@ -5,11 +5,11 @@ altTitle:
 users: 10000000
 appId: com.coinbase.android
 launchDate: 2013-03-01
-latestUpdate: 2020-10-23
+latestUpdate: 2020-11-10
 apkVersionName: "9.2.14"
-stars: 4.1
-ratings: 210813
-reviews: 94025
+stars: 4.2
+ratings: 212383
+reviews: 94344
 size: 33M
 website: https://coinbase.com/
 repository: 

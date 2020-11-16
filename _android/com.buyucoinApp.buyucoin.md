@@ -5,12 +5,12 @@ altTitle:
 users: 5000
 appId: com.buyucoinApp.buyucoin
 launchDate: 
-latestUpdate: 2019-02-26
-apkVersionName: "2.0"
-stars: 2.2
-ratings: 65
-reviews: 52
-size: 7.2M
+latestUpdate: 2020-11-12
+apkVersionName: "3.0"
+stars: 4.9
+ratings: 185
+reviews: 163
+size: 10M
 website: https://www.buyucoin.com/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-06-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

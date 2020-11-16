@@ -5,11 +5,11 @@ altTitle: "Bitcoin Wallet (Schildbach)"
 users: 5000000
 appId: de.schildbach.wallet
 launchDate: 2011-03-01
-latestUpdate: 2020-10-07
+latestUpdate: 2020-11-13
 apkVersionName: "Varies with device"
 stars: 3.9
-ratings: 24866
-reviews: 7986
+ratings: 24897
+reviews: 7999
 size: 2.8M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -18,7 +18,7 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2020-08-04

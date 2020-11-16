@@ -2,14 +2,14 @@
 title: "BlueWallet Bitcoin Wallet"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: io.bluewallet.bluewallet
 launchDate: 2018-11-01
-latestUpdate: 2020-11-07
-apkVersionName: "5.6.4"
+latestUpdate: 2020-11-14
+apkVersionName: "5.6.5"
 stars: 4.4
-ratings: 599
-reviews: 286
+ratings: 605
+reviews: 288
 size: 56M
 website: https://bluewallet.io/
 repository: https://github.com/bluewallet/bluewallet

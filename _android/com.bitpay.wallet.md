@@ -2,14 +2,14 @@
 title: "BitPay - Buy Crypto"
 altTitle: 
 
-users: 500000
+users: 1000000
 appId: com.bitpay.wallet
 launchDate: 2016-10-01
 latestUpdate: 2020-09-24
 apkVersionName: "11.0.4"
 stars: 4.0
-ratings: 7385
-reviews: 3511
+ratings: 7404
+reviews: 3518
 size: 28M
 website: https://bitpay.com/
 repository: https://github.com/bitpay/copay
