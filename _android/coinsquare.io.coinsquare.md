@@ -2,7 +2,7 @@
 title: "Coinsquare"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: coinsquare.io.coinsquare
 launchDate: 
 latestUpdate: 2020-07-29
