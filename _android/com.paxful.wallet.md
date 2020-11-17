@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: paxful
 providerLinkedIn: 
 providerFacebook: paxful
-providerReddit: r/paxful/
+providerReddit: paxful
 
 redirect_from:
   - /paxful/

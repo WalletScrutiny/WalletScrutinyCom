@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: freewalletorg
 providerLinkedIn: 
 providerFacebook: freewallet.org
-providerReddit: r/Freewallet_org
+providerReddit: Freewallet_org
 
 redirect_from:
   - /btc.org.freewallet.app/

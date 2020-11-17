@@ -11,32 +11,32 @@ stars: 4.2
 ratings: 4265
 reviews: 1955
 size: 48M
-website: 
+website: https://nexo.io/
 repository: 
 issue: 
 icon: com.nexowallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-11-17
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: NexoFinance
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: nexofinance
+providerReddit: Nexo
 
 redirect_from:
   - /com.nexowallet/
 ---
 
 
-This page was created by a script from the **appId** "com.nexowallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.nexowallet).
+In the description on Google Play we read:
 
-Probably an engineer will soon have a deeper look at this app.
+> • 100% Secured by Leading Audited Custodian BitGo
 
-So far we are not even sure it is a wallet ... Please check back later.
+which makes it a custodial app. The custodian is claimed to be "BitGo" so as a
+user you have to trust BitGo to not lose the coins and Nexo to actually not hold
+all or part of the coins. In any case this app is **not verifiable**.

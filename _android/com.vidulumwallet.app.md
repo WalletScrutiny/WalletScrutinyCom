@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: VidulumApp
 providerLinkedIn: 
 providerFacebook: VidulumTeam
-providerReddit: r/VidulumOfficial
+providerReddit: VidulumOfficial
 
 redirect_from:
   - /com.vidulumwallet.app/

@@ -68,5 +68,5 @@ download another Bitcoin wallet:
 
 As the website is not about the app, the Google Play description does not
 point to any source code and neither can we
-[find a relevant project on GitHub](https://github.com/search?q=com.tronwallet2&type=code),
+[find a relevant project on GitHub](https://github.com/search?q=%22com.tronwallet2%22&type=code),
 we assume this app is closed source and thus **not verifiable**.
