@@ -17,10 +17,15 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-13
-reviewStale: true
+date: 2020-11-17
+reviewStale: false
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2020-07-13
+  version: "3.5.3.0"
+  apkHash: 847f61d6d6f24a459cba720adf0d9e1fd052431a2b49565ca424c13860a29f59
+  gitRevision: 2caf243a5a30d549f351017369501795825d9759
+  verdict: reproducible
 - date: 2020-07-13
   version: "3.5.2.0"
   apkHash: 4e5cd2d3d13a06e11a0d4ecf4c4528bfea8f232dc60a1a344124cedae86b8430
@@ -123,13 +128,15 @@ was not resolved yet, so the following results were obtained on a
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.5.3.0
-apkVersionCode: 3050300
-apkHash:        847f61d6d6f24a459cba720adf0d9e1fd052431a2b49565ca424c13860a29f59
+apkVersionName: 3.7.0.1
+apkVersionCode: 3070001
+apkHash:        f504ec63d60584a7d850dfe79ce586fd97a72a5c844967d83c642fb9e1bf0c0c
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3050300/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3050300/apktool.yml differ
-Files /tmp/fromPlay_com.mycelium.wallet_3050300/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3050300/original/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3070001/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3070001/apktool.yml differ
+Files /tmp/fromPlay_com.mycelium.wallet_3070001/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3070001/original/META-INF/CERT.RSA differ
+
+Revision, tag (and its signature):
 ```
 
 This diff is what we want to see to call it **reproducible**.
