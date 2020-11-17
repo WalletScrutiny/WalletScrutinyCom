@@ -8,7 +8,7 @@ launchDate: 2017-11-15
 latestUpdate: 2020-11-04
 apkVersionName: "2.33.2"
 stars: 4.1
-ratings: 2057
+ratings: 2058
 reviews: 978
 size: 60M
 website: https://www.infinitowallet.io

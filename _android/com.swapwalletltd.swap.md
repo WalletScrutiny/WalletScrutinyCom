@@ -7,9 +7,9 @@ appId: com.swapwalletltd.swap
 launchDate: 
 latestUpdate: 2020-11-14
 apkVersionName: "Varies with device"
-stars: 5.0
-ratings: 890
-reviews: 679
+stars: 4.9
+ratings: 926
+reviews: 715
 size: Varies with device
 website: 
 repository: 

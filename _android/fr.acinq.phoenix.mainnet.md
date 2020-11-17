@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
-latestUpdate: 2020-11-12
-apkVersionName: "1.4.1"
+latestUpdate: 2020-11-16
+apkVersionName: "1.4.2"
 stars: 4.3
 ratings: 160
 reviews: 75
@@ -18,7 +18,7 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2020-10-24

@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.medishares.android
 launchDate: 
-latestUpdate: 2020-11-08
-apkVersionName: "3.8.0"
+latestUpdate: 2020-11-17
+apkVersionName: "3.8.4"
 stars: 4.1
 ratings: 637
 reviews: 337

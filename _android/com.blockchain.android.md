@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.blockchain.android
 launchDate: 
-latestUpdate: 2020-11-16
-apkVersionName: "1.0.5.6"
-stars: 4.4
-ratings: 1805
-reviews: 358
+latestUpdate: 2020-11-17
+apkVersionName: "1.0.5.8"
+stars: 4.3
+ratings: 1836
+reviews: 368
 size: 21M
 website: 
 repository: 
@@ -18,7 +18,7 @@ icon: com.blockchain.android.png
 bugbounty: 
 verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-16
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.bitnovo.app
 launchDate: 
-latestUpdate: 2020-09-24
-apkVersionName: "2.7.1"
+latestUpdate: 2020-11-16
+apkVersionName: "2.7.2"
 stars: 2.8
-ratings: 207
+ratings: 208
 reviews: 151
-size: 13M
+size: 34M
 website: 
 repository: 
 issue: 

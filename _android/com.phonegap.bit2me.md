@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-10-30
 apkVersionName: "2.0.39"
 stars: 4.9
-ratings: 325
-reviews: 272
+ratings: 344
+reviews: 291
 size: 15M
 website: https://bit2me.com/
 repository: 

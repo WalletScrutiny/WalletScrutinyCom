@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-08-27
 apkVersionName: "2.8.0"
 stars: 3.9
-ratings: 478
+ratings: 479
 reviews: 185
 size: 59M
 website: https://youhodler.com/

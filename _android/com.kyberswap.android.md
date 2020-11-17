@@ -7,9 +7,9 @@ appId: com.kyberswap.android
 launchDate: 
 latestUpdate: 2020-10-16
 apkVersionName: "1.1.33"
-stars: 4.2
-ratings: 1701
-reviews: 820
+stars: 4.3
+ratings: 1704
+reviews: 821
 size: 19M
 website: 
 repository: 
