@@ -23,3 +23,5 @@ providerReddit:
 
 Armory was originally created by Alan Reiner in 2011 but development was taken
 over by [goatpig](https://github.com/goatpig) in 2016.
+
+[//]: # "goatpig commented on development happening not in the master branch https://bitcointalk.org/index.php?topic=5088934.msg55099111#msg55099111"
