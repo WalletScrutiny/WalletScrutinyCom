@@ -16,16 +16,16 @@ repository:
 issue: 
 icon: com.ledger.live.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-11-17
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Ledger
+providerLinkedIn: company/ledgerhq
+providerFacebook: Ledger
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,8 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.ledger.live" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.ledger.live).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This is the companion app for the Ledger hardware wallets. As we fail to start
+the app without connecting a hardware wallet, it is very likely this app is not
+designed to store private keys or in other words it is probably impossible to
+spend with this app without confirming each and every transaction on the
+hardware wallet itself and is thus **not a wallet** itself.
