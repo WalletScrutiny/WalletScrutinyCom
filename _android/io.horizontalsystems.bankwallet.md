@@ -13,14 +13,19 @@ reviews: 286
 size: 43M
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2597
+issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-10-02
-reviewStale: true
+date: 2020-11-17
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2020-10-02
+  version: "0.16.2"
+  apkHash: 6a4bb767a47990feaa3a844a9b84c0c674b7b575a9d1f9699e0a8bd4152ab4ed
+  gitRevision: b70c52974e5c4c1979662517cc2835ff58375316
+  verdict: reproducible
 - date: 2020-09-24
   version: "0.16.1"
   apkHash: ceb4d72b8ae2358c8779b5e0bba5e08bae08e1524eb9b6c0b2ca86889cc91adc
@@ -91,15 +96,17 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.16.2
-apkVersionCode: 32
-apkHash:        6a4bb767a47990feaa3a844a9b84c0c674b7b575a9d1f9699e0a8bd4152ab4ed
+apkVersionName: 0.17.0
+apkVersionCode: 34
+apkHash:        80aab3a32f9cdd580331e7414e1229ced5a8ed9eea2f64068a51aa6bf1a70df3
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_32/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_32/apktool.yml differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_32/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_32/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_34/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_34/apktool.yml differ
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_34/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF: RELEASEK.SF
+
+Revision, tag (and its signature):
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
