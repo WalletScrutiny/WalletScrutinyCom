@@ -11,21 +11,21 @@ stars: 3.3
 ratings: 1678
 reviews: 1014
 size: 91M
-website: 
+website: https://celsius.network/
 repository: 
 issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: celsiusnetwork
+providerLinkedIn: company/celsiusnetwork
+providerFacebook: CelsiusNetwork
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,14 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "network.celsius.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=network.celsius.wallet).
+> Use our fully functioning & secure crypto wallet & crypto lending platform to
+  transfer and withdraw your Ethereum, Bitcoin, and over 30 other
+  cryptocurrencies, free.
 
-Probably an engineer will soon have a deeper look at this app.
+sounds like also a Bitcoin wallet.
 
-So far we are not even sure it is a wallet ... Please check back later.
+The focus on "lending platform" doesn't make us hope for non-custodial parts to
+it though ...
+
+And sure enough, nowhere on the website can we find about this app being
+non-custodial. As a custodial app, it is **not verifiable**.
