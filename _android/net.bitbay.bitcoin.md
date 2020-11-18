@@ -11,21 +11,21 @@ stars: 4.0
 ratings: 637
 reviews: 327
 size: 16M
-website: 
+website: https://bitbay.net
 repository: 
 issue: 
 icon: net.bitbay.bitcoin.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-11-17
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: BitBay
+providerLinkedIn: company/bitbay
+providerFacebook: BitBay
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,12 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "net.bitbay.bitcoin" and public
-information found
-[here](https://play.google.com/store/apps/details?id=net.bitbay.bitcoin).
+BitPay is an old player in the space and is best known as a payment processor.
+This app's description loses no word on who holds the keys to your coins but on
+their website we can read:
 
-Probably an engineer will soon have a deeper look at this app.
+> Funds safety
+> We keep all cryptocurrency funds on so called cold wallets. It means they are
+  not connected to exchange servers directly.
 
-So far we are not even sure it is a wallet ... Please check back later.
+which means this app is a custodial offering and therefore **not verifiable**.

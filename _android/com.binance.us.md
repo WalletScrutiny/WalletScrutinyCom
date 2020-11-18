@@ -11,21 +11,21 @@ stars: 3.1
 ratings: 652
 reviews: 443
 size: Varies with device
-website: 
+website: https://www.binance.us
 repository: 
 issue: 
 icon: com.binance.us.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-11-17
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: binanceus
+providerLinkedIn: company/binance-us
+providerFacebook: BinanceUS
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,7 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.binance.us" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.binance.us).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+Binance being a big exchange, the description on Google Play only mentions
+security features like FDIC insurance for USD balance but no word on
+self-custody. Their website is not providing more information neither. We
+assume the app is a custodial offering and therefore **not verifiable**.

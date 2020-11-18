@@ -11,21 +11,21 @@ stars: 3.9
 ratings: 968
 reviews: 623
 size: 35M
-website: 
+website: https://www.bitrue.com/
 repository: 
 issue: 
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-11-17
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BitrueOfficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: BitrueOfficial
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,10 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.bitrue.currency.exchange" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.bitrue.currency.exchange).
+This app is heavily focused on the "exchange" part which is also in its name.
+Nowhere in Google Play can we find claims about self-custody but things like
 
-Probably an engineer will soon have a deeper look at this app.
+> - Applies the advanced multi-layer clustered system and the hot/cold wallet
+  isolation technology to ensure system security.
 
-So far we are not even sure it is a wallet ... Please check back later.
+only make sense for custodial apps. As a custodial app it is **not verifiable**.
