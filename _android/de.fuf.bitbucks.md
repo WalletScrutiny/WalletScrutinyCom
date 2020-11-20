@@ -8,8 +8,8 @@ launchDate: 2019-09-03
 latestUpdate: 2020-05-20
 apkVersionName: "1.1.7"
 stars: 4.2
-ratings: 27
-reviews: 10
+ratings: 28
+reviews: 11
 size: 8.9M
 website: https://www.bitbucks.io/
 repository: 

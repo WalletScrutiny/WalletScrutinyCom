@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-14
 apkVersionName: "1.3.0"
 stars: 3.1
-ratings: 652
-reviews: 443
+ratings: 654
+reviews: 442
 size: Varies with device
 website: https://www.binance.us
 repository: 

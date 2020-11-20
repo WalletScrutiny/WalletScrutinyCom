@@ -8,8 +8,8 @@ launchDate: 2019-05-15
 latestUpdate: 2020-11-11
 apkVersionName: "2.1.9"
 stars: 4.6
-ratings: 143
-reviews: 60
+ratings: 145
+reviews: 61
 size: 49M
 website: https://viawallet.com
 repository: 

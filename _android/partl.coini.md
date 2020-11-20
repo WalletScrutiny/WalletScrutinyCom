@@ -5,10 +5,10 @@ altTitle:
 users: 1000
 appId: partl.coini
 launchDate: 
-latestUpdate: 2020-11-16
-apkVersionName: "1.8.29"
+latestUpdate: 2020-11-19
+apkVersionName: "1.9.0"
 stars: 4.5
-ratings: 126
+ratings: 127
 reviews: 68
 size: 94M
 website: 
@@ -18,7 +18,7 @@ icon: partl.coini.png
 bugbounty: 
 verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-16
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

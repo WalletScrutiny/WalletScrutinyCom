@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.spot.spot
 launchDate: 
-latestUpdate: 2020-11-12
-apkVersionName: "4.13.1.2346-620e8696"
+latestUpdate: 2020-11-17
+apkVersionName: "4.14.0.2349-c562d416"
 stars: 4.2
-ratings: 3144
-reviews: 1567
+ratings: 3152
+reviews: 1568
 size: 63M
 website: 
 repository: 

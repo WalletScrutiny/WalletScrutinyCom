@@ -5,11 +5,11 @@ altTitle:
 users: 5000
 appId: com.moonlet
 launchDate: 
-latestUpdate: 2020-11-17
-apkVersionName: "1.4.18"
+latestUpdate: 2020-11-18
+apkVersionName: "1.4.20"
 stars: 4.2
-ratings: 104
-reviews: 73
+ratings: 107
+reviews: 76
 size: 8.9M
 website: 
 repository: 

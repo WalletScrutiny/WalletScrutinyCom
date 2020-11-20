@@ -2,14 +2,14 @@
 title: "Swap Wallet - BTC, Bitcoin wallet"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.swapwalletltd.swap
 launchDate: 
 latestUpdate: 2020-11-14
 apkVersionName: "Varies with device"
-stars: 4.9
-ratings: 926
-reviews: 715
+stars: 4.8
+ratings: 1021
+reviews: 809
 size: Varies with device
 website: 
 repository: 

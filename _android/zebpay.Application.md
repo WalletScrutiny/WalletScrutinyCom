@@ -8,8 +8,8 @@ launchDate: 2014-12-23
 latestUpdate: 2020-11-03
 apkVersionName: "3.11.00"
 stars: 4.0
-ratings: 64572
-reviews: 29931
+ratings: 64679
+reviews: 29986
 size: 11M
 website: https://www.zebpay.com/
 repository: 
