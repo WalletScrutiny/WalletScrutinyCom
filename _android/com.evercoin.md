@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.evercoin
 launchDate: 
-latestUpdate: 2020-09-06
-apkVersionName: "2.8.7"
+latestUpdate: 2020-11-22
+apkVersionName: "2.8.8"
 stars: 3.9
 ratings: 180
 reviews: 127

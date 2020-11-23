@@ -7,8 +7,8 @@ appId: com.flutter.litebit
 launchDate: 
 latestUpdate: 2020-11-16
 apkVersionName: "2.11.0"
-stars: 3.2
-ratings: 180
+stars: 3.3
+ratings: 181
 reviews: 116
 size: 78M
 website: 

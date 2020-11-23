@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.nexowallet
 launchDate: 
-latestUpdate: 2020-10-28
-apkVersionName: "1.0.59"
-stars: 4.3
-ratings: 4306
-reviews: 1972
-size: 48M
+latestUpdate: 2020-11-19
+apkVersionName: "1.1.0"
+stars: 4.2
+ratings: 4369
+reviews: 1996
+size: 50M
 website: https://nexo.io/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.nexowallet.png
 bugbounty: 
 verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

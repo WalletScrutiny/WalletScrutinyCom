@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: io.atomicwallet
 launchDate: 2019-01-30
-latestUpdate: 2020-11-12
-apkVersionName: "0.67.0"
+latestUpdate: 2020-11-20
+apkVersionName: "0.67.1"
 stars: 4.4
-ratings: 17419
-reviews: 9289
-size: 13M
+ratings: 17489
+reviews: 9328
+size: 14M
 website: https://atomicwallet.io/
 repository: 
 issue: 

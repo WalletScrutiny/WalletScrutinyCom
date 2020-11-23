@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-06
 apkVersionName: "4.4.0"
 stars: 4.8
-ratings: 29924
-reviews: 22669
+ratings: 29982
+reviews: 22679
 size: 106M
 website: https://www.okex.com/
 repository: 

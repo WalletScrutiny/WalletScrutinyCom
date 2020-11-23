@@ -7,9 +7,9 @@ appId: com.spot.spot
 launchDate: 
 latestUpdate: 2020-11-17
 apkVersionName: "4.14.0.2349-c562d416"
-stars: 4.2
-ratings: 3152
-reviews: 1568
+stars: 4.3
+ratings: 3165
+reviews: 1576
 size: 63M
 website: 
 repository: 

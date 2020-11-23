@@ -5,8 +5,8 @@ altTitle:
 users: 500
 appId: paydeepp.elegro.io
 launchDate: 
-latestUpdate: 2020-11-04
-apkVersionName: "5.0.1"
+latestUpdate: 2020-11-20
+apkVersionName: "5.0.2"
 stars: 4.2
 ratings: 20
 reviews: 8

@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: co.okex.app
 launchDate: 
-latestUpdate: 2020-11-16
-apkVersionName: "2.5.13"
+latestUpdate: 2020-11-21
+apkVersionName: "2.5.16"
 stars: 3.9
-ratings: 513
-reviews: 227
+ratings: 517
+reviews: 228
 size: 12M
 website: 
 repository: 
@@ -18,7 +18,7 @@ icon: co.okex.app.png
 bugbounty: 
 verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-16
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.blockchain.android
 launchDate: 
-latestUpdate: 2020-11-19
-apkVersionName: "1.0.6.1"
+latestUpdate: 2020-11-22
+apkVersionName: "1.0.6.6"
 stars: 4.3
-ratings: 1923
-reviews: 380
+ratings: 2012
+reviews: 399
 size: 21M
 website: 
 repository: 

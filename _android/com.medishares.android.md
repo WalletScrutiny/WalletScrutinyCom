@@ -7,9 +7,9 @@ appId: com.medishares.android
 launchDate: 
 latestUpdate: 2020-11-17
 apkVersionName: "3.8.4"
-stars: 4.1
-ratings: 636
-reviews: 336
+stars: 4.0
+ratings: 640
+reviews: 339
 size: 49M
 website: 
 repository: 
