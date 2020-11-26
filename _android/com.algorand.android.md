@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.algorand.android
 launchDate: 
-latestUpdate: 2020-10-07
-apkVersionName: "4.4.3"
+latestUpdate: 2020-11-25
+apkVersionName: "4.5.2"
 stars: 4.5
-ratings: 164
+ratings: 166
 reviews: 96
-size: 32M
+size: 34M
 website: 
 repository: 
 issue: 

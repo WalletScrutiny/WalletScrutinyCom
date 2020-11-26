@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.shapeshift.droid_shapeshift
 launchDate: 
-latestUpdate: 2020-11-06
-apkVersionName: "2.7.1"
-stars: 3.3
-ratings: 1818
-reviews: 1159
+latestUpdate: 2020-11-19
+apkVersionName: "2.8.0"
+stars: 3.1
+ratings: 1826
+reviews: 1166
 size: 51M
 website: https://shapeshift.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

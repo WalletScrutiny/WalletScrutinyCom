@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: cloud.peer2.pungo_wallet
 launchDate: 
-latestUpdate: 2020-11-19
-apkVersionName: "1.22"
+latestUpdate: 2020-11-23
+apkVersionName: "1.23"
 stars: 0.0
 ratings: 
 reviews: 

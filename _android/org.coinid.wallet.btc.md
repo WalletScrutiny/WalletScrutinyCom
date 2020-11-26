@@ -8,8 +8,8 @@ launchDate: 2018-10-14
 latestUpdate: 2020-05-16
 apkVersionName: "1.7.9"
 stars: 4.3
-ratings: 12
-reviews: 4
+ratings: 11
+reviews: 3
 size: 34M
 website: https://coinid.org/
 repository: https://github.com/COINiD/COINiDWallet

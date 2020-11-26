@@ -9,7 +9,7 @@ latestUpdate: 2020-09-24
 apkVersionName: "1.14.3"
 stars: 3.4
 ratings: 2994
-reviews: 827
+reviews: 829
 size: 12M
 website: https://spectrocoin.com
 repository: 

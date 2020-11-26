@@ -2,14 +2,14 @@
 title: "Blockchain"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.blockchain.android
 launchDate: 
-latestUpdate: 2020-11-22
-apkVersionName: "1.0.6.6"
-stars: 4.3
-ratings: 2012
-reviews: 399
+latestUpdate: 2020-11-25
+apkVersionName: "1.0.6.7"
+stars: 4.4
+ratings: 2045
+reviews: 404
 size: 21M
 website: 
 repository: 

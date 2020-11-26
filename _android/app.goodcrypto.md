@@ -9,7 +9,7 @@ latestUpdate: 2020-11-05
 apkVersionName: "1.5"
 stars: 4.5
 ratings: 113
-reviews: 65
+reviews: 63
 size: 17M
 website: 
 repository: 

@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: partl.coini
 launchDate: 
-latestUpdate: 2020-11-22
-apkVersionName: "1.9.2"
+latestUpdate: 2020-11-24
+apkVersionName: "1.9.5"
 stars: 4.5
 ratings: 131
 reviews: 70

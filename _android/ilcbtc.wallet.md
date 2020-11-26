@@ -7,9 +7,9 @@ appId: ilcbtc.wallet
 launchDate: 2018-02-27
 latestUpdate: 2020-09-22
 apkVersionName: "4.19"
-stars: 4.8
-ratings: 213
-reviews: 120
+stars: 4.7
+ratings: 215
+reviews: 122
 size: 20M
 website: https://www.ilcoincrypto.com/
 repository: 

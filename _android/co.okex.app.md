@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: co.okex.app
 launchDate: 
-latestUpdate: 2020-11-21
-apkVersionName: "2.5.16"
-stars: 3.9
-ratings: 517
-reviews: 228
+latestUpdate: 2020-11-23
+apkVersionName: "2.5.17"
+stars: 3.8
+ratings: 524
+reviews: 229
 size: 12M
 website: 
 repository: 
