@@ -7,8 +7,8 @@ appId: ch.shiftcrypto.bitboxapp
 launchDate: 
 latestUpdate: 2020-10-20
 apkVersionName: "android-4.23.0"
-stars: 4.4
-ratings: 10
+stars: 4.5
+ratings: 11
 reviews: 5
 size: 64M
 website: 

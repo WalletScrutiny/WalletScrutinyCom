@@ -5,10 +5,10 @@ altTitle:
 users: 5000
 appId: com.viabtc.wallet
 launchDate: 2019-05-15
-latestUpdate: 2020-11-20
-apkVersionName: "2.2.0"
-stars: 4.6
-ratings: 147
+latestUpdate: 2020-11-27
+apkVersionName: "2.2.1"
+stars: 4.7
+ratings: 150
 reviews: 63
 size: 49M
 website: https://viawallet.com

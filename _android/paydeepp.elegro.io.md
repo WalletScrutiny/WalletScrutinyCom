@@ -2,7 +2,7 @@
 title: "elegro Wallet: instant crypto-fiat payments"
 altTitle: 
 
-users: 500
+users: 1000
 appId: paydeepp.elegro.io
 launchDate: 
 latestUpdate: 2020-11-20

@@ -5,8 +5,8 @@ altTitle:
 users: 5000
 appId: io.horizontalsystems.bankwallet
 launchDate: 2018-12-18
-latestUpdate: 2020-11-16
-apkVersionName: "0.17.0"
+latestUpdate: 2020-11-26
+apkVersionName: "0.17.1"
 stars: 4.6
 ratings: 308
 reviews: 277
@@ -18,7 +18,7 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2020-10-02

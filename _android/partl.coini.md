@@ -7,8 +7,8 @@ appId: partl.coini
 launchDate: 
 latestUpdate: 2020-11-24
 apkVersionName: "1.9.5"
-stars: 4.5
-ratings: 131
+stars: 4.6
+ratings: 132
 reviews: 70
 size: 45M
 website: 

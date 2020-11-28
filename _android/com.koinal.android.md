@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.koinal.android
 launchDate: 
-latestUpdate: 2020-11-14
-apkVersionName: "1.1.0"
+latestUpdate: 2020-11-21
+apkVersionName: "1.1.1"
 stars: 4.9
-ratings: 819
-reviews: 341
+ratings: 641
+reviews: 301
 size: 27M
 website: 
 repository: 
