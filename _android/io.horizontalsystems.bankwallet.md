@@ -17,10 +17,15 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-17
-reviewStale: true
+date: 2020-11-27
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2020-11-17
+  version: "0.17.0"
+  apkHash: 80aab3a32f9cdd580331e7414e1229ced5a8ed9eea2f64068a51aa6bf1a70df3
+  gitRevision: ed3510cd95d59dc9d71907059dcca63c2539d261
+  verdict: reproducible
 - date: 2020-10-02
   version: "0.16.2"
   apkHash: 6a4bb767a47990feaa3a844a9b84c0c674b7b575a9d1f9699e0a8bd4152ab4ed
@@ -96,17 +101,21 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.17.0
-apkVersionCode: 34
-apkHash:        80aab3a32f9cdd580331e7414e1229ced5a8ed9eea2f64068a51aa6bf1a70df3
+apkVersionName: 0.17.1
+apkVersionCode: 35
+apkHash:        78e49a893c9e413f56be9717126a53bcb8dc34ccddcdded1a9a0b0f53505c4ec
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_34/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_34/apktool.yml differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_34/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_34/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_35/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_35/apktool.yml differ
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_35/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
+object a9ebd7e5262ac305e32b18415f9b6e81b36fac54
+type commit
+tag 0.17.1
+tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1606303059 +0600
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
