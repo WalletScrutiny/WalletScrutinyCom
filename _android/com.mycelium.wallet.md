@@ -5,10 +5,10 @@ altTitle:
 users: 1000000
 appId: com.mycelium.wallet
 launchDate: 2013-07-01
-latestUpdate: 2020-11-23
+latestUpdate: 2020-11-26
 apkVersionName: "3.7.0.2"
 stars: 4.1
-ratings: 9161
+ratings: 9164
 reviews: 4214
 size: 23M
 website: https://wallet.mycelium.com/

@@ -7,9 +7,9 @@ appId: co.okex.app
 launchDate: 
 latestUpdate: 2020-11-23
 apkVersionName: "2.5.17"
-stars: 3.8
-ratings: 525
-reviews: 228
+stars: 3.9
+ratings: 528
+reviews: 231
 size: 12M
 website: 
 repository: 

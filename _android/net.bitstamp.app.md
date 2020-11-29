@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-12
 apkVersionName: "1.5.8"
 stars: 4.6
-ratings: 6819
-reviews: 1918
+ratings: 6838
+reviews: 1923
 size: 12M
 website: https://www.bitstamp.net/
 repository: 

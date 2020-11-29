@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-19
 apkVersionName: "1.10.7"
 stars: 4.5
-ratings: 1555
-reviews: 966
+ratings: 1571
+reviews: 972
 size: 41M
 website: https://mercuryo.io/
 repository: 

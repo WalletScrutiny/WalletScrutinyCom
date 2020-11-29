@@ -8,8 +8,8 @@ launchDate: 2015-03-04
 latestUpdate: 2020-11-20
 apkVersionName: "Varies with device"
 stars: 4.5
-ratings: 8723
-reviews: 4660
+ratings: 8754
+reviews: 4671
 size: Varies with device
 website: https://www.abra.com/
 repository: 

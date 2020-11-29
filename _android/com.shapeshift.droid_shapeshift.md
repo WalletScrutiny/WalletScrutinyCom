@@ -9,7 +9,7 @@ latestUpdate: 2020-11-19
 apkVersionName: "2.8.0"
 stars: 3.1
 ratings: 1833
-reviews: 1170
+reviews: 1171
 size: 51M
 website: https://shapeshift.com/
 repository: 

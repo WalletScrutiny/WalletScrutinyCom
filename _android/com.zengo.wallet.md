@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-10
 apkVersionName: "2.17.2"
 stars: 4.4
-ratings: 1048
-reviews: 499
+ratings: 1052
+reviews: 500
 size: 48M
 website: https://www.zengo.com/
 repository: https://www.github.com/kzen-networks

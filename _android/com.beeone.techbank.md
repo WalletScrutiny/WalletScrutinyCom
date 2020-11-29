@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-12
 apkVersionName: "3.7.9"
 stars: 4.5
-ratings: 250
+ratings: 253
 reviews: 106
 size: 41M
 website: 

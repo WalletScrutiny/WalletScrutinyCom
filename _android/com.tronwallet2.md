@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-07-23
 apkVersionName: "3.4.5"
 stars: 3.8
-ratings: 8063
-reviews: 4427
+ratings: 8083
+reviews: 4437
 size: Varies with device
 website: https://www.tronwallet.me/
 repository: 

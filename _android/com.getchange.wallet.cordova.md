@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-24
 apkVersionName: "10.9.108"
 stars: 4.5
-ratings: 1013
-reviews: 517
+ratings: 1018
+reviews: 518
 size: 33M
 website: https://getchange.com
 repository: 
