@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.digifinex.app
 launchDate: 
-latestUpdate: 2020-11-27
-apkVersionName: "2.3.20201125"
+latestUpdate: 2020-12-01
+apkVersionName: "2.3.20201130"
 stars: 4.4
-ratings: 2829
-reviews: 2123
+ratings: 2832
+reviews: 2125
 size: 63M
 website: https://www.digifinex.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.digifinex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

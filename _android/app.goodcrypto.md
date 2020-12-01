@@ -7,9 +7,9 @@ appId: app.goodcrypto
 launchDate: 
 latestUpdate: 2020-11-05
 apkVersionName: "1.5"
-stars: 4.5
-ratings: 116
-reviews: 63
+stars: 4.4
+ratings: 117
+reviews: 64
 size: 17M
 website: 
 repository: 

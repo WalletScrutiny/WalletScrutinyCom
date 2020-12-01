@@ -5,11 +5,11 @@ altTitle:
 users: 500
 appId: com.wasabiwallet.dev
 launchDate: 
-latestUpdate: 2020-11-19
-apkVersionName: "1.0.0"
-stars: 2.7
-ratings: 7
-reviews: 5
+latestUpdate: 2020-12-01
+apkVersionName: "2.0"
+stars: 2.6
+ratings: 10
+reviews: 8
 size: 22M
 website: 
 repository: 
@@ -18,7 +18,7 @@ icon: com.wasabiwallet.dev.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-30
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

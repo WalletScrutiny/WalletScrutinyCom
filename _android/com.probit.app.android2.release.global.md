@@ -5,10 +5,10 @@ altTitle:
 users: 50000
 appId: com.probit.app.android2.release.global
 launchDate: 
-latestUpdate: 2020-11-06
-apkVersionName: "1.27.1"
+latestUpdate: 2020-12-01
+apkVersionName: "1.27.2"
 stars: 4.0
-ratings: 2612
+ratings: 2614
 reviews: 1764
 size: 17M
 website: https://www.probit.com/
@@ -18,7 +18,7 @@ icon: com.probit.app.android2.release.global.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

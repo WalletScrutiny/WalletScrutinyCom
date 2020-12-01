@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-10-07
 apkVersionName: "1.1.5"
 stars: 4.6
-ratings: 157
-reviews: 62
+ratings: 159
+reviews: 63
 size: 28M
 website: 
 repository: 

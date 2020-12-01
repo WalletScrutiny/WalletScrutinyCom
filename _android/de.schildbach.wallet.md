@@ -8,8 +8,8 @@ launchDate: 2011-03-01
 latestUpdate: 2020-11-13
 apkVersionName: "Varies with device"
 stars: 3.9
-ratings: 25118
-reviews: 8092
+ratings: 25139
+reviews: 8099
 size: 2.8M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet

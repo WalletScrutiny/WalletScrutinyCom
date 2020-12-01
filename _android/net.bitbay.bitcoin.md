@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-05
 apkVersionName: "1.1.15"
 stars: 4.0
-ratings: 645
+ratings: 647
 reviews: 329
 size: 16M
 website: https://bitbay.net

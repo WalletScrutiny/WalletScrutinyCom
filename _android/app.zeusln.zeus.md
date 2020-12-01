@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-10-31
 apkVersionName: "0.4.0"
 stars: 4.8
-ratings: 12
-reviews: 5
+ratings: 13
+reviews: 6
 size: 26M
 website: 
 repository: 
@@ -32,4 +32,5 @@ redirect_from:
   - /app.zeusln.zeus/
   - /posts/app.zeusln.zeus/
 ---
+
 

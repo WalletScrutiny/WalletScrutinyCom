@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-25
 apkVersionName: "1.3.3"
 stars: 4.4
-ratings: 963
-reviews: 386
+ratings: 969
+reviews: 388
 size: Varies with device
 website: 
 repository: 
