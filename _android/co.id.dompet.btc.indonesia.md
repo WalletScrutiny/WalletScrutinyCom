@@ -11,14 +11,14 @@ stars: 3.8
 ratings: 4399
 reviews: 2513
 size: Varies with device
-website: 
+website: https://www.indodax.com/
 repository: 
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,12 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "co.id.dompet.btc.indonesia" and public
-information found
-[here](https://play.google.com/store/apps/details?id=co.id.dompet.btc.indonesia).
+This app looks like a terminal for a website:
 
-Probably an engineer will soon have a deeper look at this app.
+> Dompet Bitcoin Indonesia is a bitcoin wallet that is fully integrated with
+  Indodax.com. You can now easily access every feature that is available in
+  Indodax.com website through your smartphones only with a few clicks of your
+  fingers.
 
-So far we are not even sure it is a wallet ... Please check back later.
+and that website is an exchange(?). We assume that like in many such cases the
+app is a custodial offering and thus **not verifiable**.

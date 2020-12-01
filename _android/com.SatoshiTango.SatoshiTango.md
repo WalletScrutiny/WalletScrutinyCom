@@ -11,21 +11,21 @@ stars: 4.4
 ratings: 3345
 reviews: 1844
 size: 64M
-website: 
+website: http://www.satoshitango.com/
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: satoshitango
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: satoshitangoargentina
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,14 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.SatoshiTango.SatoshiTango" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.SatoshiTango.SatoshiTango).
+> Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and transactions.
+> 
+> Pay in local currency and hold a balance in fiat currency.
+> 
+> Store your cryptos and much more!
 
-Probably an engineer will soon have a deeper look at this app.
+sounds like a wallet that also supports Bitcoin but there is not much
+information on who gets to control the keys. They explain what a private keys is
+in the FAQ though :)
 
-So far we are not even sure it is a wallet ... Please check back later.
+We have to assume this is a custodial offering and thus **not verifiable**.

@@ -11,21 +11,21 @@ stars: 4.2
 ratings: 5185
 reviews: 2814
 size: 33M
-website: 
+website: https://crypterium.com/
 repository: 
 issue: 
 icon: com.crypterium.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: crypterium
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: crypterium.org
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,5 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.crypterium" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.crypterium).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app is a custodial offering with many many users complaining about never
+having been able to get their funds out. The app is **not verifiable**.

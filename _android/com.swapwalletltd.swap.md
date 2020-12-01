@@ -11,13 +11,13 @@ stars: 5.0
 ratings: 1517
 reviews: 1302
 size: Varies with device
-website: 
+website: http://swapwallet.com/
 repository: 
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:
@@ -33,10 +33,6 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.swapwalletltd.swap" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.swapwalletltd.swap).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+We can find no information on security. Also their links to Knowledge Base and
+FAQ are broken. Like this we have to assume it's a custodial wallet and thus
+**not verifiable**.

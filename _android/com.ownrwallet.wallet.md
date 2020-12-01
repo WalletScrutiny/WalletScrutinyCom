@@ -11,32 +11,48 @@ stars: 4.7
 ratings: 612
 reviews: 541
 size: 65M
-website: 
+website: https://ownrwallet.com/
 repository: 
 issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ownrwallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ownrwallet
+providerReddit: ownrwallet
 
 redirect_from:
   - /com.ownrwallet.wallet/
 ---
 
 
-This page was created by a script from the **appId** "com.ownrwallet.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.ownrwallet.wallet).
 
-Probably an engineer will soon have a deeper look at this app.
+So this app claims to be a partner of Bitfinex, one of the biggest exchanges:
 
-So far we are not even sure it is a wallet ... Please check back later.
+> - OWNR is an official partner of Bitfinex. 
+
+yet we can't find anywhere that Bitfinex would link to this app. Bitfinex has
+[their own app](https://play.google.com/store/apps/details?id=com.bitfinex.mobileapp)
+which we will also review shortly.
+
+Bitfinex' Twitter account gets spammed "ownr" **at them** a lot but there is no
+mention of that name **by them**. That looks fishy. Maybe they reply to
+[this tweet](https://twitter.com/LeoWandersleb/status/1333912501378048002).
+
+In the light of the above, we take the claims:
+
+> - Restore HD-wallets with any seed phrase length (12/15/18/21/24 words)
+> 
+> - Only you sign the transactions and own your keys – we do no store them on our servers
+> 
+> Your seed phrase is stored on your device only
+
+with a lot of skepticism and assume this app to be custodial until further
+notice from Bitfinex.

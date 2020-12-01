@@ -11,21 +11,21 @@ stars: 4.3
 ratings: 3158
 reviews: 2005
 size: 26M
-website: 
+website: http://www.quicrypto.com/
 repository: 
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: quicrypto
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Quicrypto
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,19 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.quicrypto" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.quicrypto).
+This app "pays" you in Bitcoin and Nano for tasks
 
-Probably an engineer will soon have a deeper look at this app.
+> What is Quicrypto?
+> 
+> Quicrypto is a “reward app” that allows its users to earn money (in the form of the Nano cryptocurrency) by watching ads and completeing offers.
 
-So far we are not even sure it is a wallet ... Please check back later.
+and one of the early tasks appears to be to give a five star rating:
+
+> Filip Zdravkovic
+> 
+> What a scam.Unfortunatelly people still fall for it and the only reason it has
+  a good rating is because they promise you a some coins for it.Do not download
+  this useless virus app.
+
+They also have instructions on how to get a wallet, so ... it's not a wallet
+itself.
