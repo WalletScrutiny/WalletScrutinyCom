@@ -33,5 +33,3 @@ redirect_from:
   - /posts/app.zeusln.zeus/
 ---
 
-
-This app is the continuation of [this app](/com.zeusln.zeus/).
