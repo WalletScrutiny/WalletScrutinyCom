@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-10-25
 apkVersionName: "1.99"
 stars: 4.7
-ratings: 381
-reviews: 226
+ratings: 383
+reviews: 227
 size: 5.7M
 website: 
 repository: 
 issue: 
 icon: io.changenow.changenow.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

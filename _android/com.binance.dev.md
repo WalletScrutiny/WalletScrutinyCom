@@ -8,15 +8,15 @@ launchDate: 2017-10-25
 latestUpdate: 2020-11-26
 apkVersionName: "1.32.2"
 stars: 4.4
-ratings: 65079
-reviews: 25075
+ratings: 65150
+reviews: 25103
 size: Varies with device
 website: https://www.binance.com/
 repository: 
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-15
 reviewStale: true
 signer: 

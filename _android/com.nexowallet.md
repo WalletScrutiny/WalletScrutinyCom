@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-24
 apkVersionName: "1.1.1"
 stars: 4.2
-ratings: 4480
-reviews: 2058
+ratings: 4505
+reviews: 2071
 size: 50M
 website: https://nexo.io/
 repository: 
 issue: 
 icon: com.nexowallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
 signer: 

@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
 reviewStale: true
 signer: 

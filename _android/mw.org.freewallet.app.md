@@ -8,15 +8,15 @@ launchDate: 2017-08-10
 latestUpdate: 2020-10-28
 apkVersionName: "1.14.1"
 stars: 4.0
-ratings: 6711
-reviews: 4293
+ratings: 6721
+reviews: 4302
 size: 12M
 website: https://freewallet.org/
 repository: 
 issue: 
 icon: mw.org.freewallet.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
 reviewStale: true
 signer: 

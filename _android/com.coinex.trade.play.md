@@ -7,16 +7,16 @@ appId: com.coinex.trade.play
 launchDate: 
 latestUpdate: 2020-11-20
 apkVersionName: "1.9.2"
-stars: 4.7
-ratings: 1204
-reviews: 544
+stars: 4.8
+ratings: 1208
+reviews: 545
 size: 13M
 website: https://www.coinex.co/
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
 signer: 

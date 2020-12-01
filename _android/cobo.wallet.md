@@ -8,15 +8,15 @@ launchDate: 2018-07-01
 latestUpdate: 2020-11-27
 apkVersionName: "4.25"
 stars: 3.6
-ratings: 3903
-reviews: 2377
+ratings: 3905
+reviews: 2378
 size: 48M
 website: https://cobo.com/
 repository: 
 issue: 
 icon: cobo.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-18
 reviewStale: true
 signer: 

@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-24
 apkVersionName: "2.3.5"
 stars: 3.7
-ratings: 574
+ratings: 575
 reviews: 349
 size: 31M
 website: https://www.bitmart.com/
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

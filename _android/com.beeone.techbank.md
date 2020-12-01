@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-12
 apkVersionName: "3.7.9"
 stars: 4.5
-ratings: 253
-reviews: 106
+ratings: 254
+reviews: 108
 size: 41M
 website: 
 repository: 
 issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

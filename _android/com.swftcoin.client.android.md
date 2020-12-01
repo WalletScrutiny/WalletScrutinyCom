@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-25
 apkVersionName: "5.0.5"
 stars: 4.4
-ratings: 1111
+ratings: 1109
 reviews: 680
 size: 32M
 website: http://www.swft.pro/
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
 signer: 

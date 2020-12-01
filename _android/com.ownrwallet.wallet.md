@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-25
 apkVersionName: "1.0.54"
 stars: 4.6
-ratings: 598
-reviews: 527
+ratings: 601
+reviews: 530
 size: 65M
 website: 
 repository: 
 issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

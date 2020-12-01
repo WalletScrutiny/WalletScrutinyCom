@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-19
 apkVersionName: "2.8.0"
 stars: 3.1
-ratings: 1833
+ratings: 1834
 reviews: 1171
 size: 51M
 website: https://shapeshift.com/
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
 signer: 

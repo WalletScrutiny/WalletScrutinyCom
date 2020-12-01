@@ -5,18 +5,18 @@ altTitle:
 users: 1000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2020-11-26
-apkVersionName: "1.22.9"
+latestUpdate: 2020-11-30
+apkVersionName: "1.22.16"
 stars: 4.5
-ratings: 129038
-reviews: 46026
+ratings: 129378
+reviews: 46085
 size: 32M
 website: https://trustwallet.com/
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-20
 reviewStale: true
 signer: 

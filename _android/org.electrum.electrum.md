@@ -8,15 +8,15 @@ launchDate: 2016-03-02
 latestUpdate: 2020-11-18
 apkVersionName: "4.0.5.0"
 stars: 3.4
-ratings: 1900
-reviews: 1154
+ratings: 1901
+reviews: 1155
 size: 20M
 website: https://electrum.org/
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/5839
 icon: org.electrum.electrum.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-11
 reviewStale: true
 signer: 

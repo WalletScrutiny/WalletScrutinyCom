@@ -9,14 +9,14 @@ latestUpdate: 2020-03-20
 apkVersionName: "1.0.1209"
 stars: 4.4
 ratings: 307
-reviews: 225
+reviews: 224
 size: 6.4M
 website: 
 repository: 
 issue: 
 icon: com.ptpwallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

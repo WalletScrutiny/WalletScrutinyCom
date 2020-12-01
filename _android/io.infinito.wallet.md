@@ -8,15 +8,15 @@ launchDate: 2017-11-15
 latestUpdate: 2020-11-24
 apkVersionName: "2.34.1"
 stars: 4.0
-ratings: 2067
-reviews: 983
+ratings: 2068
+reviews: 984
 size: 75M
 website: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-30
 reviewStale: true
 signer: 

@@ -8,7 +8,7 @@ launchDate: 2018-06-20
 latestUpdate: 2020-07-06
 apkVersionName: "1.37.0"
 stars: 4.2
-ratings: 728
+ratings: 730
 reviews: 380
 size: 6.4M
 website: http://www.paytomat.com
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.paytomat.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
 reviewStale: true
 signer: 

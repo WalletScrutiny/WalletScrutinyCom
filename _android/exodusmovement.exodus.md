@@ -8,15 +8,15 @@ launchDate: 2019-06-06
 latestUpdate: 2020-11-25
 apkVersionName: "20.11.24"
 stars: 4.6
-ratings: 21335
-reviews: 7534
+ratings: 21463
+reviews: 7571
 size: 35M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
 signer: 

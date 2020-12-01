@@ -8,15 +8,15 @@ launchDate: 2019-05-01
 latestUpdate: 2020-11-25
 apkVersionName: "1.40.644"
 stars: 4.3
-ratings: 912
-reviews: 583
+ratings: 918
+reviews: 586
 size: 55M
 website: https://trustee.deals/
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-01-24
 reviewStale: true
 signer: 

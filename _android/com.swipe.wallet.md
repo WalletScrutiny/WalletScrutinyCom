@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-13
 apkVersionName: "1.518"
 stars: 3.0
-ratings: 1535
-reviews: 942
+ratings: 1541
+reviews: 946
 size: 53M
 website: 
 repository: 
 issue: 
 icon: com.swipe.wallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

@@ -16,7 +16,7 @@ repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-29
 reviewStale: false
 signer: 

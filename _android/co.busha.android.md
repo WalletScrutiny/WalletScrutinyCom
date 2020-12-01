@@ -8,15 +8,15 @@ launchDate: 2019-01-21
 latestUpdate: 2020-11-20
 apkVersionName: "2.6.1"
 stars: 4.3
-ratings: 1320
-reviews: 1044
+ratings: 1327
+reviews: 1047
 size: 17M
 website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
 reviewStale: true
 signer: 

@@ -8,15 +8,15 @@ launchDate: 2018-10-19
 latestUpdate: 2020-09-18
 apkVersionName: "2.1.6"
 stars: 3.5
-ratings: 738
-reviews: 374
+ratings: 739
+reviews: 375
 size: 18M
 website: https://monarchwallet.com
 repository: 
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-12
 reviewStale: true
 signer: 

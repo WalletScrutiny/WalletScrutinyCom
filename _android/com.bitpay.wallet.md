@@ -8,15 +8,15 @@ launchDate: 2016-10-01
 latestUpdate: 2020-09-24
 apkVersionName: "11.0.4"
 stars: 4.1
-ratings: 7465
-reviews: 3544
+ratings: 7469
+reviews: 3543
 size: 28M
 website: https://bitpay.com/
 repository: https://github.com/bitpay/copay
 issue: https://github.com/bitpay/copay/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-29
 reviewStale: true
 signer: 

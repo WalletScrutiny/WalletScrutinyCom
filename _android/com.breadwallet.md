@@ -8,15 +8,15 @@ launchDate: 2016-07-21
 latestUpdate: 2020-11-11
 apkVersionName: "4.5.5"
 stars: 4.2
-ratings: 15407
-reviews: 6334
+ratings: 15487
+reviews: 6361
 size: 23M
 website: https://brd.com/
 repository: https://github.com/breadwallet/breadwallet-android
 issue: https://github.com/breadwallet/breadwallet-android/issues/117
 icon: com.breadwallet.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-16
 reviewStale: true
 signer: 

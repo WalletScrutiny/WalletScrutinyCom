@@ -8,15 +8,15 @@ launchDate: 2019-05-19
 latestUpdate: 2020-09-23
 apkVersionName: "1.9.11"
 stars: 3.8
-ratings: 219
-reviews: 128
+ratings: 220
+reviews: 129
 size: 10M
 website: http://www.walletofsatoshi.com/
 repository: 
 issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-19
 reviewStale: true
 signer: 

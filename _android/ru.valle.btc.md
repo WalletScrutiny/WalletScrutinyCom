@@ -16,7 +16,7 @@ repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-04
 reviewStale: false
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f

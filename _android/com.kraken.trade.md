@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-09-02
 apkVersionName: "1.5.6-5378"
 stars: 4.5
-ratings: 4353
-reviews: 1552
+ratings: 4377
+reviews: 1562
 size: 45M
 website: https://www.kraken.com/
 repository: 
 issue: 
 icon: com.kraken.trade.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

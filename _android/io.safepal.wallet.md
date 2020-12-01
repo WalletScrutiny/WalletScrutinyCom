@@ -9,14 +9,14 @@ latestUpdate: 2020-11-06
 apkVersionName: "2.3.0"
 stars: 4.5
 ratings: 128
-reviews: 81
+reviews: 80
 size: 26M
 website: 
 repository: 
 issue: 
 icon: io.safepal.wallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

@@ -7,16 +7,16 @@ appId: com.tronwallet2
 launchDate: 
 latestUpdate: 2020-07-23
 apkVersionName: "3.4.5"
-stars: 3.8
-ratings: 8083
-reviews: 4437
+stars: 3.9
+ratings: 8108
+reviews: 4447
 size: Varies with device
 website: https://www.tronwallet.me/
 repository: 
 issue: 
 icon: com.tronwallet2.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: false
 signer: 

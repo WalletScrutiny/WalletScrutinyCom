@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-05
 apkVersionName: "1.5"
 stars: 4.5
-ratings: 114
+ratings: 116
 reviews: 63
 size: 17M
 website: 
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: app.goodcrypto.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

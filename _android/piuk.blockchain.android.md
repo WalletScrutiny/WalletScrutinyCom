@@ -8,15 +8,15 @@ launchDate: 2013-02-01
 latestUpdate: 2020-11-26
 apkVersionName: "Varies with device"
 stars: 3.9
-ratings: 94628
-reviews: 46377
+ratings: 94685
+reviews: 46413
 size: Varies with device
 website: https://www.blockchain.com/
 repository: https://github.com/blockchain/My-Wallet-V3-Android
 issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-11
 reviewStale: true
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0

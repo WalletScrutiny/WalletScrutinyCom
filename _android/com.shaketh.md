@@ -7,16 +7,16 @@ appId: com.shaketh
 launchDate: 
 latestUpdate: 2020-11-26
 apkVersionName: "1.6.33"
-stars: 4.4
-ratings: 1547
-reviews: 857
+stars: 4.5
+ratings: 1553
+reviews: 858
 size: 75M
 website: https://shakepay.com/
 repository: 
 issue: 
 icon: com.shaketh.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

@@ -8,15 +8,15 @@ launchDate: 2019-04-30
 latestUpdate: 2020-11-25
 apkVersionName: "1.6.8.510"
 stars: 3.9
-ratings: 11701
-reviews: 7222
+ratings: 11749
+reviews: 7240
 size: 26M
 website: https://paxful.com/mobile-wallet-app
 repository: 
 issue: 
 icon: com.paxful.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
 signer: 

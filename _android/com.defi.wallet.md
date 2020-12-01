@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-18
 apkVersionName: "1.3.0"
 stars: 4.0
-ratings: 693
+ratings: 700
 reviews: 276
 size: 23M
 website: https://www.crypto.com/
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-14
 reviewStale: true
 signer: 

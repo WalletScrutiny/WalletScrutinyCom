@@ -8,15 +8,15 @@ launchDate: 2013-11-05
 latestUpdate: 2020-10-21
 apkVersionName: "278.0.0"
 stars: 4.4
-ratings: 46819
-reviews: 17224
+ratings: 46938
+reviews: 17265
 size: 42M
 website: 
 repository: 
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-10-16
 apkVersionName: "1.1.33"
 stars: 4.2
-ratings: 1712
+ratings: 1713
 reviews: 824
 size: 19M
 website: 
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.kyberswap.android.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

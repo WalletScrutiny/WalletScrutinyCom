@@ -7,16 +7,16 @@ appId: casa.keymaster
 launchDate: 
 latestUpdate: 2020-11-25
 apkVersionName: "2.27.10"
-stars: 4.1
-ratings: 34
-reviews: 11
+stars: 4.2
+ratings: 37
+reviews: 12
 size: 29M
 website: https://keys.casa/
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-23
 reviewStale: true
 signer: 

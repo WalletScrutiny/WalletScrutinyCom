@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-05
 apkVersionName: "1.1.15"
 stars: 4.0
-ratings: 643
-reviews: 328
+ratings: 645
+reviews: 329
 size: 16M
 website: https://bitbay.net
 repository: 
 issue: 
 icon: net.bitbay.bitcoin.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: false
 signer: 

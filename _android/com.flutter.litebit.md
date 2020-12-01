@@ -7,16 +7,16 @@ appId: com.flutter.litebit
 launchDate: 
 latestUpdate: 2020-11-16
 apkVersionName: "2.11.0"
-stars: 3.1
-ratings: 187
-reviews: 122
+stars: 3.2
+ratings: 188
+reviews: 123
 size: 78M
 website: 
 repository: 
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: false
 signer: 

@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-14
 apkVersionName: "Varies with device"
 stars: 4.9
-ratings: 1405
-reviews: 1191
+ratings: 1458
+reviews: 1243
 size: Varies with device
 website: 
 repository: 
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

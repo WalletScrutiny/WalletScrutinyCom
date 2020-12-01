@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-23
 apkVersionName: "2.8.2"
 stars: 2.7
-ratings: 213
-reviews: 155
+ratings: 215
+reviews: 156
 size: 34M
 website: 
 repository: 
 issue: 
 icon: com.bitnovo.app.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

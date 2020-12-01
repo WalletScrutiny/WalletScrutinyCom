@@ -8,15 +8,15 @@ launchDate: 2017-09-20
 latestUpdate: 2020-11-24
 apkVersionName: "23.0.331"
 stars: 4.5
-ratings: 11725
-reviews: 4923
+ratings: 11799
+reviews: 4948
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 
 issue: 
 icon: org.toshi.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-20
 reviewStale: true
 signer: 

@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-10
 apkVersionName: "1.0.381"
 stars: 4.5
-ratings: 1261
-reviews: 439
+ratings: 1266
+reviews: 441
 size: 17M
 website: https://currency.com/
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

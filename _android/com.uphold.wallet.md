@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-17
 apkVersionName: "4.13.2"
 stars: 3.4
-ratings: 8604
-reviews: 4687
+ratings: 8613
+reviews: 4691
 size: 42M
 website: https://uphold.com/
 repository: 
 issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
 signer: 

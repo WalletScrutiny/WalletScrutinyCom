@@ -7,16 +7,16 @@ appId: cash.klever.blockchain.wallet
 launchDate: 
 latestUpdate: 2020-11-23
 apkVersionName: "4.0.11"
-stars: 4.5
-ratings: 2242
-reviews: 1201
+stars: 4.6
+ratings: 2254
+reviews: 1207
 size: Varies with device
 website: https://www.tronwallet.me/
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
 signer: 

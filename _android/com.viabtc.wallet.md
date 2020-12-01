@@ -8,7 +8,7 @@ launchDate: 2019-05-15
 latestUpdate: 2020-11-27
 apkVersionName: "2.2.1"
 stars: 4.7
-ratings: 151
+ratings: 150
 reviews: 63
 size: 49M
 website: https://viawallet.com
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.viabtc.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
 reviewStale: true
 signer: 

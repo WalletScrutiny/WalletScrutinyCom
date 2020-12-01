@@ -8,15 +8,15 @@ launchDate: 2019-01-30
 latestUpdate: 2020-11-25
 apkVersionName: "0.68.0"
 stars: 4.3
-ratings: 17594
-reviews: 9380
+ratings: 17624
+reviews: 9402
 size: 14M
 website: https://atomicwallet.io/
 repository: 
 issue: 
 icon: io.atomicwallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
 signer: 

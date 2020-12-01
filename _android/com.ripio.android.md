@@ -8,15 +8,15 @@ launchDate: 2015-06-01
 latestUpdate: 2020-11-19
 apkVersionName: "3.9.7"
 stars: 1.8
-ratings: 8998
-reviews: 5009
+ratings: 9074
+reviews: 5066
 size: 29M
 website: https://www.ripio.com/ar/wallet/
 repository: 
 issue: 
 icon: com.ripio.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-28
 reviewStale: true
 signer: 

@@ -9,14 +9,14 @@ latestUpdate: 2020-11-25
 apkVersionName: "4.5.2"
 stars: 4.5
 ratings: 169
-reviews: 97
+reviews: 98
 size: 34M
 website: 
 repository: 
 issue: 
 icon: com.algorand.android.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

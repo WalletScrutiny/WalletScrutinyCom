@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-10-21
 apkVersionName: "v1.0.11.26"
 stars: 4.3
-ratings: 86
-reviews: 75
+ratings: 87
+reviews: 76
 size: 4.9M
 website: https://ankerid.com/mobile-wallet/
 repository: 
 issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
 signer: 

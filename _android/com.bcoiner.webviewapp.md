@@ -8,15 +8,15 @@ launchDate: 2014-12-01
 latestUpdate: 2018-01-05
 apkVersionName: "1.3.2"
 stars: 4.6
-ratings: 2188
-reviews: 1145
+ratings: 2216
+reviews: 1170
 size: 2.2M
 website: https://bcoiner.com/
 repository: 
 issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-28
 reviewStale: false
 signer: 

@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-24
 apkVersionName: "3.27.2"
 stars: 4.2
-ratings: 274689
-reviews: 106119
+ratings: 275242
+reviews: 106284
 size: 32M
 website: https://cash.app/
 repository: 
 issue: 
 icon: com.squareup.cash.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
 reviewStale: true
 signer: 

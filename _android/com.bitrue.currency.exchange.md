@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-04
 apkVersionName: "4.3.2"
 stars: 3.9
-ratings: 984
+ratings: 985
 reviews: 637
 size: 35M
 website: https://www.bitrue.com/
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: false
 signer: 

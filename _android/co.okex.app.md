@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-23
 apkVersionName: "2.5.17"
 stars: 3.9
-ratings: 528
-reviews: 231
+ratings: 530
+reviews: 232
 size: 12M
 website: 
 repository: 
 issue: 
 icon: co.okex.app.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

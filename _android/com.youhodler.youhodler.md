@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-08-27
 apkVersionName: "2.8.0"
 stars: 4.1
-ratings: 519
-reviews: 199
+ratings: 529
+reviews: 204
 size: 59M
 website: https://youhodler.com/
 repository: 
 issue: 
 icon: com.youhodler.youhodler.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
 signer: 

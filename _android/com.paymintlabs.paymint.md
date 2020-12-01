@@ -16,7 +16,7 @@ repository: https://github.com/Paymint-Labs/Paymint
 issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-03
 reviewStale: true
 signer: 

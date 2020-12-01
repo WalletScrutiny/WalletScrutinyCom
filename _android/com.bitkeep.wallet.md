@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-27
 apkVersionName: "4.6.5"
 stars: 4.2
-ratings: 168
-reviews: 71
+ratings: 167
+reviews: 70
 size: 27M
 website: 
 repository: 
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

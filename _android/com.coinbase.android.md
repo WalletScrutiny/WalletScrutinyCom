@@ -8,15 +8,15 @@ launchDate: 2013-03-01
 latestUpdate: 2020-11-18
 apkVersionName: "9.3.4"
 stars: 4.4
-ratings: 223678
-reviews: 96376
+ratings: 224264
+reviews: 96487
 size: Varies with device
 website: https://coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-10-30
 reviewStale: true
 signer: 

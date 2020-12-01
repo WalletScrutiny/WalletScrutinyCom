@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-10-07
 apkVersionName: "1.1.5"
 stars: 4.6
-ratings: 153
-reviews: 61
+ratings: 157
+reviews: 62
 size: 28M
 website: 
 repository: 
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

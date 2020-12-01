@@ -7,16 +7,16 @@ appId: com.arzjoo
 launchDate: 
 latestUpdate: 2020-11-25
 apkVersionName: "1.3.3"
-stars: 4.5
-ratings: 959
-reviews: 383
+stars: 4.4
+ratings: 963
+reviews: 386
 size: Varies with device
 website: 
 repository: 
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

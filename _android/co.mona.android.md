@@ -8,15 +8,15 @@ launchDate: 2017-08-30
 latestUpdate: 2020-11-24
 apkVersionName: "3.75.0"
 stars: 4.0
-ratings: 39817
-reviews: 15286
+ratings: 39964
+reviews: 15321
 size: 84M
 website: https://www.crypto.com/
 repository: 
 issue: 
 icon: co.mona.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: true
 signer: 

@@ -8,15 +8,15 @@ launchDate: 2018-11-01
 latestUpdate: 2020-11-19
 apkVersionName: "2.11.1"
 stars: 4.6
-ratings: 1555
-reviews: 860
+ratings: 1563
+reviews: 867
 size: 33M
 website: http://guarda.co/
 repository: 
 issue: 
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-15
 reviewStale: true
 signer: 

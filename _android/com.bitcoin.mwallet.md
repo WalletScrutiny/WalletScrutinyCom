@@ -8,15 +8,15 @@ launchDate: 2017-06-19
 latestUpdate: 2020-11-21
 apkVersionName: "6.9.6"
 stars: 4.2
-ratings: 13435
-reviews: 5721
+ratings: 13485
+reviews: 5731
 size: 41M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
 reviewStale: true
 signer: 

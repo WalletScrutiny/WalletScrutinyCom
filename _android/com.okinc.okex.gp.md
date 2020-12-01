@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-06
 apkVersionName: "4.4.0"
 stars: 4.8
-ratings: 30088
-reviews: 22692
+ratings: 30216
+reviews: 22697
 size: 106M
 website: https://www.okex.com/
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

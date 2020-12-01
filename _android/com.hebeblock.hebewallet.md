@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: true
 signer: 

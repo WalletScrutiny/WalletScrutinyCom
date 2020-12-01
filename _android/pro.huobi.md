@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-11-27
 apkVersionName: "6.0.2"
 stars: 3.9
-ratings: 5409
-reviews: 1894
+ratings: 5423
+reviews: 1903
 size: 55M
 website: https://www.huobi.com/en-us/
 repository: 
 issue: 
 icon: pro.huobi.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

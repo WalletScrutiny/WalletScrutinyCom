@@ -8,15 +8,15 @@ launchDate: 2018-03-01
 latestUpdate: 2020-11-28
 apkVersionName: "1.18.0"
 stars: 4.0
-ratings: 1796
-reviews: 1018
+ratings: 1816
+reviews: 1030
 size: 59M
 website: https://edge.app/
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
 reviewStale: true
 signer: 

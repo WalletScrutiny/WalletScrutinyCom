@@ -8,15 +8,15 @@ launchDate: 2018-04-10
 latestUpdate: 2019-09-28
 apkVersionName: "1.28.9"
 stars: 4.3
-ratings: 341
-reviews: 200
+ratings: 342
+reviews: 201
 size: 5.2M
 website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
 reviewStale: false
 signer: 

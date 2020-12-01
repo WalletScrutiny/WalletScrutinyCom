@@ -8,15 +8,15 @@ launchDate: 2016-11-30
 latestUpdate: 2020-11-25
 apkVersionName: "3.4.4"
 stars: 4.6
-ratings: 14193
-reviews: 7666
+ratings: 14201
+reviews: 7673
 size: 11M
 website: https://www.unocoin.com
 repository: 
 issue: 
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

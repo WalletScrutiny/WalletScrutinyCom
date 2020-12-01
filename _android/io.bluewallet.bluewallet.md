@@ -7,16 +7,16 @@ appId: io.bluewallet.bluewallet
 launchDate: 2018-11-01
 latestUpdate: 2020-11-20
 apkVersionName: "5.6.6"
-stars: 4.4
-ratings: 628
-reviews: 296
+stars: 4.3
+ratings: 632
+reviews: 298
 size: 56M
 website: https://bluewallet.io/
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-14
 reviewStale: true
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f

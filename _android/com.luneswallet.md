@@ -16,7 +16,7 @@ repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/8
 icon: com.luneswallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-29
 reviewStale: false
 signer: 

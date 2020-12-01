@@ -7,16 +7,16 @@ appId: network.celsius.wallet
 launchDate: 
 latestUpdate: 2020-10-19
 apkVersionName: "4.6.0"
-stars: 3.4
-ratings: 1724
-reviews: 1046
+stars: 3.3
+ratings: 1732
+reviews: 1051
 size: 91M
 website: https://celsius.network/
 repository: 
 issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 

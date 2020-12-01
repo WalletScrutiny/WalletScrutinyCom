@@ -8,15 +8,15 @@ launchDate: 2014-12-23
 latestUpdate: 2020-11-03
 apkVersionName: "3.11.00"
 stars: 4.0
-ratings: 65217
-reviews: 30232
+ratings: 65284
+reviews: 30260
 size: 11M
 website: https://www.zebpay.com/
 repository: 
 issue: 
 icon: zebpay.Application.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

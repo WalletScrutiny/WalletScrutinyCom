@@ -9,14 +9,14 @@ latestUpdate: 2020-11-24
 apkVersionName: "1.22.5"
 stars: 4.2
 ratings: 2488
-reviews: 1353
+reviews: 1351
 size: 36M
 website: https://support.poloniex.com/
 repository: 
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 
