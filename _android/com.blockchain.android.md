@@ -4,20 +4,20 @@ altTitle:
 
 users: 50000
 appId: com.blockchain.android
-launchDate: 
-latestUpdate: 2020-11-25
-apkVersionName: "1.0.6.7"
+launchDate: 2020-06-15
+latestUpdate: 2020-11-28
+apkVersionName: "1.0.6.8"
 stars: 4.4
-ratings: 2078
-reviews: 416
+ratings: 2088
+reviews: 420
 size: 21M
 website: 
-repository: 
+repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.android.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
+verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-11-28
 reviewStale: true
 signer: 
 reviewArchive:
@@ -33,10 +33,54 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.blockchain.android" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.blockchain.android).
+This app looks shady and might try to imitate
+[this popular wallet](/piuk.blockchain.android/).
 
-Probably an engineer will soon have a deeper look at this app.
+As of writing this analysis, their names and logos resemble one another and even
+the app id looks better than the "original":
 
-So far we are not even sure it is a wallet ... Please check back later.
+<table>
+<tr><td>Name:</td><td>Blockchain Wallet: Buy and Sell Bitcoin & Crypto</td><td>Blockchain</td></tr>
+<tr><td>Logo:</td><td><img src="/images/wallet_icons/small/piuk.blockchain.android.png"></td><td><img src="/images/wallet_icons/small/com.blockchain.android.png"></td></tr>
+<tr><td>Launched:</td><td>2013-02-01</td><td>2020-06-15</td></tr>
+<tr><td>App ID:</td><td>piuk.blockchain.android</td><td>com.blockchain.android</td></tr>
+<tr><td>Website:</td><td>blockchain.com</td><td>none (Google? Since when is that possible?)</td></tr>
+<tr><td>Downloads</td><td>5,000,000</td><td>50,000</td></tr>
+<tr><td>Stars:</td><td>3.9</td><td>4.4</td></tr>
+</table>
+
+Now "blockchain" is a generic term and any wallet might use it but their app ID
+is "com.blockchain.android" which is the canonical way of naming blockchain.com's
+first/only android product. Also the app description:
+
+> Use the most popular block explorer to search and verify transactions on the
+  Bitcoin, Ethereum, and Bitcoin Cash blockchain.
+> 
+> Especially, this is the standard Bitcoin Wallet, easy and safe to use. Because
+  it is cold wallet
+
+* "the most popular block explorer" is blockchain.com and many users confuse
+  "look it up on the blockchain" with an invitation to check on blockchain.com.
+  One is a technical term describing Satoshi's invention although he never used
+  that term in his [whitepaper](https://bitcoin.org/bitcoin.pdf). The other is a
+  brand name.
+* "this is the standard Bitcoin Wallet" ... pardon what? "this" is a newcomer
+  with 100 times fewer downloads so far.
+* "*safe to use*" isn't blockchain.com's reputation neither :)
+* "Because it is cold wallet": What? How does that make sense?
+
+The provider claims this wallet to be open source and indeed there is a
+[link to their GitHub](https://github.com/hoanghiephui/Bitcoin-Wallet) but in
+contrast to all reproducible wallets, this one
+[uses obfuscation](https://github.com/hoanghiephui/Bitcoin-Wallet/blob/master/mobile/build.gradle#L43)
+meaning that the app is very hard to reverse engineer if not reproducible.
+
+As the latest update was only days ago, yet the latest code change on GitHub was
+published months ago, there is no point in trying to reproduce the build.
+
+And here it gets a bit wild: This repository is nothing new. It is also
+referenced in the [Bitcoin Wallet Blockchain](/com.bitcoin.wallet.btc/)!
+Both apps are by the same provider: InvoVN Solutions. Read up on that other
+wallet as it's not really reassuring.
+
+**We strongly urge you to not use this app!**

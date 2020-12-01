@@ -8,24 +8,24 @@ launchDate:
 latestUpdate: 2020-11-17
 apkVersionName: "4.14.0.2349-c562d416"
 stars: 4.3
-ratings: 3191
-reviews: 1588
+ratings: 3196
+reviews: 1590
 size: 63M
-website: 
+website: https://www.spot-bitcoin.com/
 repository: 
 issue: 
 icon: com.spot.spot.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: spot_bitcoin
+providerLinkedIn: company/spot-bitcoin
+providerFacebook: spot.bitcoin
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,13 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.spot.spot" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.spot.spot).
+On their website we read:
 
-Probably an engineer will soon have a deeper look at this app.
+> **You control your Bitcoins.**
+> 
+> PayPal, Coinbase & Binance control your funds. We don't. You have entire
+  control over your Bitcoins. We use the best technologies to ensure that your
+  funds are always safe.
 
-So far we are not even sure it is a wallet ... Please check back later.
+but as we cannot find any source code to check this claim, the wallet gets the
+verdict **not verifiable**.

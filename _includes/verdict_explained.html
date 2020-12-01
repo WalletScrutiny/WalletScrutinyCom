@@ -8,7 +8,7 @@
   point on, with nobody outside ever knowing before it is too late.</p>' %}
 
 <h1 id="verdictExplained">Verdict Explained</h1>
-<p>{% include verdictBadge.html verdict=page.verdict type='medium' %}
+<p>{% include verdictBadge.html verdict=page.verdict type='medium' %}<br>
 {{ site.data.verdicts[page.verdict].message }}</p>
 {% case page.verdict %}
   {% when "wip" %}
@@ -55,6 +55,14 @@
     Internally the company might do everything right but as we can't verify it,
     there is nothing protecting the user from an exit-scam where the provider
     releases an app that leaks the keys to the servers.</p>
+    {{ notVerifiable }}
+  {% when "obfuscated" %}
+    <p>This verdict means that the app on Google Play could not be decompiled.
+    In benign cases code symbols are replaced by short strings to make the app
+    smaller but for the sake of transparency this should not be done for 
+    non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the
+    app for size improvements as the reproducibility would assure the
+    auditability.)</p>
     {{ notVerifiable }}
   {% when "nonverifiable" %}
     <p>This verdict means that the provider did share some source code but that we

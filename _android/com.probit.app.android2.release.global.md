@@ -8,24 +8,24 @@ launchDate:
 latestUpdate: 2020-11-06
 apkVersionName: "1.27.1"
 stars: 4.0
-ratings: 2610
-reviews: 1762
+ratings: 2612
+reviews: 1764
 size: 17M
-website: 
+website: https://www.probit.com/
 repository: 
 issue: 
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-11-28
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ProBit_Exchange
+providerLinkedIn: company/probit-exchange
+providerFacebook: probitexchange
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,5 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.probit.app.android2.release.global" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.probit.app.android2.release.global).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+Probit appears to also and mainly be an exchange and as we can't find claims to
+the contrary, we assume this app is a custodial offering and thus **not verifiable**.

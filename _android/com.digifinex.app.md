@@ -8,35 +8,33 @@ launchDate:
 latestUpdate: 2020-11-27
 apkVersionName: "2.3.20201125"
 stars: 4.4
-ratings: 2828
+ratings: 2829
 reviews: 2123
 size: 63M
-website: 
+website: https://www.digifinex.com/
 repository: 
 issue: 
 icon: com.digifinex.app.png
 bugbounty: 
-verdict: wip # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-11-28
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: DigiFinex
+providerLinkedIn: company/digifinex-global
+providerFacebook: digifinex.global
+providerReddit: DigiFinex
 
 redirect_from:
   - /com.digifinex.app/
 ---
 
 
-This page was created by a script from the **appId** "com.digifinex.app" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.digifinex.app).
+> DigiFinex is a world’s leading crypto finance exchange
 
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+doesn't sound like "wallet" is their primary business and as we can't find any
+claims to the contrary, we have to assume this is a custodial offering and thus
+**not verifiable**.

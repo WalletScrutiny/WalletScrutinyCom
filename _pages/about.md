@@ -45,11 +45,11 @@ author_profile: true
 <a href="{{ base_path }}/moreApps">more apps</a>
 
 
-<h2 class="section-label">How many wallets are in each category?</h2>
+<h2 class="section-label">How many wallets are in each category?<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets.html %}
 
 
-<h2 class="section-label">How many users (downloads) are in each category?</h2>
+<h2 class="section-label">How many users (downloads) are in each category?<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets_proportional.html %}
