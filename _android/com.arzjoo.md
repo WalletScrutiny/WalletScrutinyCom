@@ -11,19 +11,19 @@ stars: 4.4
 ratings: 969
 reviews: 388
 size: Varies with device
-website: 
+website: https://arzjoo.com/
 repository: 
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: arzjoo
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,10 +33,15 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.arzjoo" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.arzjoo).
+This provider is from Iran and its website is in Farsi, only. Google Translate
+[helps to read it in English](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Farzjoo.com%2F)
+and according to the translation, the only thing they say about the security of
+the wallet is that it's super secure:
 
-Probably an engineer will soon have a deeper look at this app.
+> high security
+> 
+> The security of this wallet is guaranteed by Arzjoo and you can trust it to
+  keep the currency password.
 
-So far we are not even sure it is a wallet ... Please check back later.
+As there are no claims to the contrary, we assume this is a custodial offering
+and thus **not verifiable**.
