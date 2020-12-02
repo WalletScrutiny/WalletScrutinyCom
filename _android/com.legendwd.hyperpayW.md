@@ -11,21 +11,21 @@ stars: 4.4
 ratings: 706
 reviews: 566
 size: 106M
-website: 
+website: https://hyperpay.tech/
 repository: 
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-02
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HyperPay_tech
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: hyperpayofficial
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,36 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.legendwd.hyperpayW" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.legendwd.hyperpayW).
+> **Is HyperPay Wallet Safe?**<br>
+> Yes, of course. HyperPay wallet supports both on-chain & off-chain and both are absolutely safe.
 
-Probably an engineer will soon have a deeper look at this app.
+Ok?
 
-So far we are not even sure it is a wallet ... Please check back later.
+>Our security system for off-chain wallet is robust with 24/7 abnormal data monitoring, orchestrated code quality and vulnerability scanning in CI/CD cycle system. Our security team is safeguarding your assets 24/7.
+
+That sounds like a custodial offering if a security team is safeguarding your
+assets.
+
+> Our on-chain wallet is protected by routine coding check and vetting. You control your own Mnemonic and private key. We provide you with the safest infrastructure, you shoulld  take care of your own Mnemonic and private key.<br>
+> Attention: you will lose your wallet assets and never find them back if you forget your mnemonic words. Be sure to write them on the paper and keep in a safe place.
+
+This is a rather explicit claim of being non-custodial.
+
+We find no way to verify the claims made and moreover notice in their
+[Audit report](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/HyperPay_APP_Security_Audit_Report.pdf)
+these items:
+
+> **Open-source intelligence collection -> Collection of personnel and organization structure -> Passed**
+
+We read this as the team not being on public record which also means that should
+they disappear, you won't know who did it.
+
+> **Open-source intelligence collection -> GitHub source code leakage detection -> Passed**
+
+We read this as this wallet absolutely not being open source. Public audits are
+not welcome here.
+
+> **Mobile App audit -> Disable code decompilation -> Passed**
+
+We take this as a confirmation that the app is obfuscated and thus file it as
+**not verifiable**.
