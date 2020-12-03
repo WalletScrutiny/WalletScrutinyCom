@@ -11,19 +11,19 @@ stars: 3.8
 ratings: 647
 reviews: 342
 size: 51M
-website: 
+website: https://mathwallet.org
 repository: 
 issue: 
 icon: com.medishares.android.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-03
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Mathwallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,10 +33,25 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.medishares.android" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.medishares.android).
+This wallet claims:
 
-Probably an engineer will soon have a deeper look at this app.
+> - Secure your assets with Private Keys, Mnemonic Phrases, 2-Factor Authentication, and more
 
-So far we are not even sure it is a wallet ... Please check back later.
+which kind of sort of sounds like a non-custodial wallet but also doesn't make
+much sense. The private keys are what you want to protect. They are not a tool
+to protect something.
+
+[Their website](http://www.medishares.org/)
+as per the dedicated data field on Google Play appears to not link
+back to the wallet but in the description they mention a different website:
+[mathwallet.org](https://mathwallet.org).
+
+There we find no further claims about who holds the keys or public source code.
+
+As they also promote a [Math Cloud Wallet](https://mathwallet.org/mathcloud/en/)
+which is
+
+> Convenient, safe and easy to use custodial wallet
+
+we assume the wallet here is meant to be non-custodial but as it's closed source,
+it is **not verifiable**.

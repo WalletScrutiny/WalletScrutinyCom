@@ -55,7 +55,9 @@ these items:
 > **Open-source intelligence collection -> Collection of personnel and organization structure -> Passed**
 
 We read this as the team not being on public record which also means that should
-they disappear, you won't know who did it.
+they disappear, you won't know who did it. They have a
+[team page](https://hyperpay.tech/team) though. It's Jacob, Gary, Sebastian and
+Nick. No last names. 
 
 > **Open-source intelligence collection -> GitHub source code leakage detection -> Passed**
 
