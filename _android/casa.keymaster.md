@@ -34,9 +34,11 @@ redirect_from:
 ---
 
 
-**Update 2020-12-03**: This app is not obfuscated, so not open-sourcing it, only
-stops non-criminally minded people from not copying it. Making the code public
-would allow audits and reproducible builds with no change for criminals.
+**Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
+least version `2.27.10` and inspect the code or modify it to compile it back
+into an app. Clearly licensing stops honest people from publishing the result to
+any users but we don't see any argument left to not publish the code under a
+non-permissive license.
 
 **Update 2019-12-20**: This app and its review here were also discussed in a
 [great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust).
