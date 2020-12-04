@@ -37,7 +37,9 @@
 {{ p.date  | date: '%Y-%m-%d' }}
 published by {{ p.author }}
 language: {{ p.language }}
-format: {{ p.format }}"
+format: {{ p.format }}
+
+{{ p.content | strip_html }}"
       style="height:8em;" /></a></div>{%
 endfor %}
 </div>
