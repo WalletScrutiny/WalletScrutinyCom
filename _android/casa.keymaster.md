@@ -34,7 +34,11 @@ redirect_from:
 ---
 
 
-**Update**: This app and its review here were also discussed in a
+**Update 2020-12-03**: This app is not obfuscated, so not open-sourcing it, only
+stops non-criminally minded people from not copying it. Making the code public
+would allow audits and reproducible builds with no change for criminals.
+
+**Update 2019-12-20**: This app and its review here were also discussed in a
 [great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust).
 
 This app follows an interesting concept with a multi-signature setup.

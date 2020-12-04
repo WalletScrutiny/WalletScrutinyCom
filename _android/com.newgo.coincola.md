@@ -11,32 +11,30 @@ stars: 3.0
 ratings: 541
 reviews: 248
 size: 31M
-website: 
+website: https://www.coincola.com/
 repository: 
 issue: 
 icon: com.newgo.coincola.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-03
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: CoinCola_Global
+providerLinkedIn: company/coincola
+providerFacebook: CoinCola
+providerReddit: coincolaofficial
 
 redirect_from:
   - /com.newgo.coincola/
 ---
 
 
-This page was created by a script from the **appId** "com.newgo.coincola" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.newgo.coincola).
+> SAFE AND SECURE<br>
+> Our team uses bank-level encryption, cold storage and SSL for the highest level of security.
 
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+Cold storage has only a meaning in the context of a custodial app. As such it
+is **not verifiable**.

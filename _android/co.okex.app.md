@@ -11,12 +11,12 @@ stars: 3.9
 ratings: 532
 reviews: 234
 size: 12M
-website: 
+website: https://ok-ex.co/
 repository: 
 issue: 
 icon: co.okex.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 
@@ -33,10 +33,9 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "co.okex.app" and public
-information found
-[here](https://play.google.com/store/apps/details?id=co.okex.app).
+> The okex app is a digital currency trading platform
 
-Probably an engineer will soon have a deeper look at this app.
+as such, this is probably a custodial offering.
 
-So far we are not even sure it is a wallet ... Please check back later.
+As the website is broken, we can't find any contrary claims and conclude, this
+app is **not verifiable**.
