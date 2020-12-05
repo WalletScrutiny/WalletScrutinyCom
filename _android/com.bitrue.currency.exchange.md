@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.bitrue.currency.exchange
 launchDate: 
-latestUpdate: 2020-11-04
-apkVersionName: "4.3.2"
-stars: 3.9
-ratings: 987
-reviews: 639
+latestUpdate: 2020-12-04
+apkVersionName: "4.3.4"
+stars: 3.8
+ratings: 991
+reviews: 640
 size: 35M
 website: https://www.bitrue.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.bitrue.currency.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

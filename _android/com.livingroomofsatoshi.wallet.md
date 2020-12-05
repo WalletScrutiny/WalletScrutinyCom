@@ -8,8 +8,8 @@ launchDate: 2019-05-19
 latestUpdate: 2020-09-23
 apkVersionName: "1.9.11"
 stars: 3.8
-ratings: 220
-reviews: 129
+ratings: 223
+reviews: 130
 size: 10M
 website: http://www.walletofsatoshi.com/
 repository: 

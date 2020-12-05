@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.defi.wallet
 launchDate: 
-latestUpdate: 2020-11-29
-apkVersionName: "1.3.1"
+latestUpdate: 2020-12-03
+apkVersionName: "1.4.0"
 stars: 4.0
-ratings: 703
-reviews: 277
+ratings: 711
+reviews: 282
 size: 23M
 website: https://www.crypto.com/
 repository: 

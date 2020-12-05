@@ -1,16 +1,16 @@
 ---
-title: "Bitcoin Wallet & Ethereum Ripple Tron EOS"
+title: "Bitcoin Wallet & Ethereum Ripple ZIL DOT"
 altTitle: 
 
 users: 100000
 appId: io.atomicwallet
 launchDate: 2019-01-30
-latestUpdate: 2020-11-25
-apkVersionName: "0.68.0"
+latestUpdate: 2020-12-04
+apkVersionName: "0.68.5"
 stars: 4.3
-ratings: 17645
-reviews: 9416
-size: 14M
+ratings: 17691
+reviews: 9442
+size: 13M
 website: https://atomicwallet.io/
 repository: 
 issue: 

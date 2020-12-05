@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: com.polehin.android
 launchDate: 2019-01-01
-latestUpdate: 2020-11-28
+latestUpdate: 2020-12-02
 apkVersionName: "3.4.0"
 stars: 4.3
-ratings: 11263
-reviews: 6551
+ratings: 11401
+reviews: 6628
 size: 6.7M
 website: https://polehin.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.polehin.android.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-30
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-03-30

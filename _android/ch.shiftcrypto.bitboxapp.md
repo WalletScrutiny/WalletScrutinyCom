@@ -5,12 +5,12 @@ altTitle:
 users: 500
 appId: ch.shiftcrypto.bitboxapp
 launchDate: 
-latestUpdate: 2020-10-20
-apkVersionName: "android-4.23.0"
+latestUpdate: 2020-12-03
+apkVersionName: "android-4.24.0"
 stars: 4.5
-ratings: 11
-reviews: 5
-size: 64M
+ratings: 12
+reviews: 6
+size: 63M
 website: 
 repository: 
 issue: 

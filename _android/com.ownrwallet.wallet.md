@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-27
 apkVersionName: "1.0.55"
 stars: 4.7
-ratings: 612
-reviews: 541
+ratings: 621
+reviews: 548
 size: 65M
 website: https://ownrwallet.com/
 repository: 
@@ -31,7 +31,6 @@ providerReddit: ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---
-
 
 
 So this app claims to be a partner of Bitfinex, one of the biggest exchanges:

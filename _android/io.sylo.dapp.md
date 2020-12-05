@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2020-10-21
-apkVersionName: "2.0.26-1"
-stars: 4.1
-ratings: 529
+latestUpdate: 2020-12-03
+apkVersionName: "3.0.5"
+stars: 4.2
+ratings: 531
 reviews: 276
-size: 69M
+size: 336M
 website: https://www.sylo.io/wallet/
 repository: 
 issue: 

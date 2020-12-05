@@ -7,9 +7,9 @@ appId: com.wasabiwallet.dev
 launchDate: 
 latestUpdate: 2020-12-01
 apkVersionName: "2.0"
-stars: 2.6
-ratings: 10
-reviews: 8
+stars: 3.6
+ratings: 25
+reviews: 15
 size: 22M
 website: 
 repository: 

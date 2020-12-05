@@ -5,12 +5,12 @@ altTitle:
 users: 1000000
 appId: com.breadwallet
 launchDate: 2016-07-21
-latestUpdate: 2020-11-11
-apkVersionName: "4.5.5"
+latestUpdate: 2020-12-03
+apkVersionName: "4.5.6"
 stars: 4.2
-ratings: 15510
-reviews: 6365
-size: 23M
+ratings: 15516
+reviews: 6371
+size: 24M
 website: https://brd.com/
 repository: https://github.com/breadwallet/breadwallet-android
 issue: https://github.com/breadwallet/breadwallet-android/issues/117

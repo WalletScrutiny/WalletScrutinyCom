@@ -8,7 +8,7 @@ launchDate: 2019-04-23
 latestUpdate: 2019-08-29
 apkVersionName: "1.0.12"
 stars: 3.8
-ratings: 195
+ratings: 196
 reviews: 138
 size: 3.0M
 website: https://magnumwallet.co/

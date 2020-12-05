@@ -7,9 +7,9 @@ appId: co.edgesecure.app
 launchDate: 2018-03-01
 latestUpdate: 2020-11-28
 apkVersionName: "1.18.0"
-stars: 4.0
-ratings: 1824
-reviews: 1034
+stars: 4.1
+ratings: 1841
+reviews: 1045
 size: 59M
 website: https://edge.app/
 repository: https://github.com/EdgeApp/edge-react-gui

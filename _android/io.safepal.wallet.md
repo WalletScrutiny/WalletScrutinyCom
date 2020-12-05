@@ -5,11 +5,11 @@ altTitle:
 users: 5000
 appId: io.safepal.wallet
 launchDate: 
-latestUpdate: 2020-11-06
-apkVersionName: "2.3.0"
+latestUpdate: 2020-11-30
+apkVersionName: "2.4.0"
 stars: 4.6
-ratings: 132
-reviews: 82
+ratings: 135
+reviews: 84
 size: 26M
 website: 
 repository: 

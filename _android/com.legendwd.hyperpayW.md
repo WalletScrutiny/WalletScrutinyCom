@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.legendwd.hyperpayW
 launchDate: 
-latestUpdate: 2020-12-01
-apkVersionName: "4.0.6"
+latestUpdate: 2020-12-03
+apkVersionName: "4.0.8"
 stars: 4.4
-ratings: 706
-reviews: 566
-size: 106M
+ratings: 709
+reviews: 567
+size: 107M
 website: https://hyperpay.tech/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.legendwd.hyperpayW.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-02
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
