@@ -7,9 +7,9 @@ appId: cash.klever.blockchain.wallet
 launchDate: 
 latestUpdate: 2020-11-23
 apkVersionName: "4.0.11"
-stars: 4.6
-ratings: 2354
-reviews: 1271
+stars: 4.5
+ratings: 2365
+reviews: 1273
 size: Varies with device
 website: https://www.tronwallet.me/
 repository: 

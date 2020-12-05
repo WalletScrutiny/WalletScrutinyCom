@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.coolbitx.cwsapp
 launchDate: 
-latestUpdate: 2020-11-20
-apkVersionName: "2.7.3"
+latestUpdate: 2020-12-04
+apkVersionName: "2.8.0"
 stars: 4.6
-ratings: 483
-reviews: 230
-size: 66M
+ratings: 484
+reviews: 231
+size: 63M
 website: 
 repository: 
 issue: 
