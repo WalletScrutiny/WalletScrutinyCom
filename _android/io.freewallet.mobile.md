@@ -13,7 +13,7 @@ reviews: 28
 size: 6.7M
 website: https://freewallet.io/
 repository: https://github.com/jdogresorg/freewallet-mobile
-issue: 
+issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
