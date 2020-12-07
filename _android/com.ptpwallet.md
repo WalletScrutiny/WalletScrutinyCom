@@ -11,32 +11,36 @@ stars: 4.4
 ratings: 305
 reviews: 224
 size: 6.4M
-website: 
+website: https://ptpwallet.com
 repository: 
 issue: 
 icon: com.ptpwallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-06
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: PtpWallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: PTPWalletPage
+providerReddit: perkscoin
 
 redirect_from:
   - /com.ptpwallet/
 ---
 
 
-This page was created by a script from the **appId** "com.ptpwallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.ptpwallet).
+There are no very explicit claims made about where the private keys are stored
+but reading between the lines:
 
-Probably an engineer will soon have a deeper look at this app.
+> PTPWallet has low transaction fees when withdrawing crypto coins like Bitcoin,
+  Ethereum, Litecoin, Ripple, Ethereum Cash, Ethereum Classic, and other digital
+  assets.
 
-So far we are not even sure it is a wallet ... Please check back later.
+"withdrawing crypto" only makes sense when you don't control them coins yet.
+
+On the website their is no claims to the contrary and so we assume this is a
+custodial offering and thus **not verifiable**.

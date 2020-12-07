@@ -11,32 +11,34 @@ stars: 4.7
 ratings: 394
 reviews: 228
 size: 5.7M
-website: 
+website: http://changenow.io
 repository: 
 issue: 
 icon: io.changenow.changenow.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ChangeNOW_io
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ChangeNOW.io
+providerReddit: ChangeNOW_io
 
 redirect_from:
   - /io.changenow.changenow/
 ---
 
 
-This page was created by a script from the **appId** "io.changenow.changenow" and public
-information found
-[here](https://play.google.com/store/apps/details?id=io.changenow.changenow).
+> We focus on simplicity and safety — the service is registration-free and non-custodial.
 
-Probably an engineer will soon have a deeper look at this app.
+> With ChangeNOW, you remain in full control over your digital assets.
 
-So far we are not even sure it is a wallet ... Please check back later.
+That's a claim. Let's see if it is verifiable ...
+
+There is no claim of public source anywhere and
+[neither does GitHub know](https://github.com/search?q=%22io.changenow.changenow%22)
+this app, so it's at best closed source and thus **not verifiable**.
