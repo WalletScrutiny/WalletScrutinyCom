@@ -5,10 +5,10 @@ altTitle:
 users: 10000
 appId: co.okex.app
 launchDate: 
-latestUpdate: 2020-11-23
-apkVersionName: "2.5.17"
+latestUpdate: 2020-12-06
+apkVersionName: "2.6.0"
 stars: 3.9
-ratings: 536
+ratings: 537
 reviews: 235
 size: 12M
 website: https://ok-ex.co

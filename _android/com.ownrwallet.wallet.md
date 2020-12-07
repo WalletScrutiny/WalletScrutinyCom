@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.ownrwallet.wallet
 launchDate: 
-latestUpdate: 2020-11-27
-apkVersionName: "1.0.55"
+latestUpdate: 2020-12-04
+apkVersionName: "1.0.56"
 stars: 4.7
-ratings: 618
-reviews: 546
+ratings: 619
+reviews: 547
 size: 65M
 website: https://ownrwallet.com
 repository: 

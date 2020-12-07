@@ -2,14 +2,14 @@
 title: "Ripio Bitcoin Wallet: the new digital economy"
 altTitle: 
 
-users: 500000
+users: 1000000
 appId: com.ripio.android
 launchDate: 2015-06-01
 latestUpdate: 2020-11-19
 apkVersionName: "3.9.7"
 stars: 1.9
-ratings: 9384
-reviews: 5310
+ratings: 9419
+reviews: 5326
 size: 29M
 website: https://www.ripio.com/ar/wallet
 repository: 

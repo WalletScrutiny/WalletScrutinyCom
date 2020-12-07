@@ -5,12 +5,12 @@ altTitle:
 users: 5000
 appId: com.buyucoinApp.buyucoin
 launchDate: 
-latestUpdate: 2020-11-12
-apkVersionName: "3.0"
+latestUpdate: 2020-12-06
+apkVersionName: "3.1"
 stars: 4.8
-ratings: 192
-reviews: 167
-size: 10M
+ratings: 194
+reviews: 169
+size: 11M
 website: https://www.buyucoin.com
 repository: 
 issue: 

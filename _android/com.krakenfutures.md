@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.krakenfutures
 launchDate: 
-latestUpdate: 2020-11-11
-apkVersionName: "5.22.1"
-stars: 3.4
-ratings: 56
-reviews: 23
+latestUpdate: 2020-12-04
+apkVersionName: "5.23.2"
+stars: 3.5
+ratings: 58
+reviews: 24
 size: 12M
 website: https://futures.kraken.com
 repository: 
