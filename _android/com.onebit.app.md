@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 1030
 reviews: 546
 size: 82M
-website: https://www.tenx.tech/
+website: https://www.tenx.tech
 repository: 
 issue: 
 icon: com.onebit.app.png

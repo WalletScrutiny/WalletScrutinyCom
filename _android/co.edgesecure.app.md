@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 1843
 reviews: 1045
 size: 59M
-website: https://edge.app/
+website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg

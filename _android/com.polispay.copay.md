@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 115
 reviews: 65
 size: 10M
-website: https://www.polispay.com/
+website: https://www.polispay.com
 repository: 
 issue: 
 icon: com.polispay.copay.png

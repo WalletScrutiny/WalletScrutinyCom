@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 281
 reviews: 250
 size: 43M
-website: https://unstoppable.money/
+website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
 icon: io.horizontalsystems.bankwallet.png

@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 5238
 reviews: 2849
 size: 33M
-website: https://crypterium.com/
+website: https://crypterium.com
 repository: 
 issue: 
 icon: com.crypterium.png

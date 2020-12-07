@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 593
 reviews: 295
 size: 5.6M
-website: https://www.coin.space/
+website: https://www.coin.space
 repository: https://github.com/CoinSpace/CoinSpace
 issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png

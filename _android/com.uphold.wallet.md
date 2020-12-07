@@ -11,7 +11,7 @@ stars: 3.4
 ratings: 8659
 reviews: 4720
 size: 42M
-website: https://uphold.com/
+website: https://uphold.com
 repository: 
 issue: 
 icon: com.uphold.wallet.png

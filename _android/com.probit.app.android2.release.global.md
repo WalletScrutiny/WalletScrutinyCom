@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 2623
 reviews: 1768
 size: 17M
-website: https://www.probit.com/
+website: https://www.probit.com
 repository: 
 issue: 
 icon: com.probit.app.android2.release.global.png

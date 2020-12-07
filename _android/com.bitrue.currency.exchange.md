@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 991
 reviews: 640
 size: 35M
-website: https://www.bitrue.com/
+website: https://www.bitrue.com
 repository: 
 issue: 
 icon: com.bitrue.currency.exchange.png

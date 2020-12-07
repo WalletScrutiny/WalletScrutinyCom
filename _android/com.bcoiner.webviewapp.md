@@ -11,7 +11,7 @@ stars: 4.6
 ratings: 2286
 reviews: 1231
 size: 2.2M
-website: https://bcoiner.com/
+website: https://bcoiner.com
 repository: 
 issue: 
 icon: com.bcoiner.webviewapp.png

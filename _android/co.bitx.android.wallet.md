@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 50391
 reviews: 28855
 size: 18M
-website: https://www.luno.com/
+website: https://www.luno.com
 repository: 
 issue: 
 icon: co.bitx.android.wallet.png

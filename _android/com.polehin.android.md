@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 11426
 reviews: 6651
 size: 6.7M
-website: https://polehin.com/
+website: https://polehin.com
 repository: 
 issue: 
 icon: com.polehin.android.png

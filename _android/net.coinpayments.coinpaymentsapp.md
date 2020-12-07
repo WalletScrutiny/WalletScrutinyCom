@@ -11,7 +11,7 @@ stars: 3.7
 ratings: 1738
 reviews: 903
 size: Varies with device
-website: https://www.coinpayments.net/
+website: https://www.coinpayments.net
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.png

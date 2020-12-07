@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 317
 reviews: 218
 size: 18M
-website: https://zel.network/project/zelcore/
+website: https://zel.network/project/zelcore
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png

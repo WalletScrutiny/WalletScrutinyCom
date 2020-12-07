@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 83296
 reviews: 36926
 size: 51M
-website: https://coins.ph/
+website: https://coins.ph
 repository: 
 issue: 
 icon: asia.coins.mobile.png

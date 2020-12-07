@@ -11,7 +11,7 @@ stars: 4.7
 ratings: 618
 reviews: 546
 size: 65M
-website: https://ownrwallet.com/
+website: https://ownrwallet.com
 repository: 
 issue: 
 icon: com.ownrwallet.wallet.png

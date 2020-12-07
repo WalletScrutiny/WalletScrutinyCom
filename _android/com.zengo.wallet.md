@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 1090
 reviews: 512
 size: 75M
-website: https://www.zengo.com/
+website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 
 icon: com.zengo.wallet.png

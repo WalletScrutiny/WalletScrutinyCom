@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 131211
 reviews: 46369
 size: 32M
-website: https://trustwallet.com/
+website: https://trustwallet.com
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png

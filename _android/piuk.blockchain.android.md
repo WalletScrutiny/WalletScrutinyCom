@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 95007
 reviews: 46607
 size: Varies with device
-website: https://www.blockchain.com/
+website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
 issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
 icon: piuk.blockchain.android.png

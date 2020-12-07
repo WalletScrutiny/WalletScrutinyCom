@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 8202
 reviews: 4506
 size: Varies with device
-website: https://www.tronwallet.me/
+website: https://www.tronwallet.me
 repository: 
 issue: 
 icon: com.tronwallet2.png

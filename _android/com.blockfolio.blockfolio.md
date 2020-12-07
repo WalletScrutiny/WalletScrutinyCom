@@ -11,7 +11,7 @@ stars: 4.7
 ratings: 109461
 reviews: 33350
 size: 49M
-website: https://www.blockfolio.com/
+website: https://www.blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png

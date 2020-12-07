@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 4518
 reviews: 1613
 size: 45M
-website: https://www.kraken.com/
+website: https://www.kraken.com
 repository: 
 issue: 
 icon: com.kraken.trade.png

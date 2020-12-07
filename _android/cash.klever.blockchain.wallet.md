@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 2365
 reviews: 1273
 size: Varies with device
-website: https://www.tronwallet.me/
+website: https://www.tronwallet.me
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png

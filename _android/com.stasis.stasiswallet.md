@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 147
 reviews: 89
 size: 18M
-website: https://stasis.net/wallet/
+website: https://stasis.net/wallet
 repository: https://github.com/stasisnet
 issue: 
 icon: com.stasis.stasiswallet.png

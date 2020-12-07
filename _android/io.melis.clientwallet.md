@@ -11,7 +11,7 @@ stars: 4.1
 ratings: 18
 reviews: 10
 size: 6.9M
-website: https://www.melis.io/
+website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png

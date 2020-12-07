@@ -11,7 +11,7 @@ stars: 3.7
 ratings: 383
 reviews: 168
 size: 95M
-website: https://gethaven.app/
+website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png

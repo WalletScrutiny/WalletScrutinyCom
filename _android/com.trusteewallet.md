@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 928
 reviews: 592
 size: 55M
-website: https://trustee.deals/
+website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png

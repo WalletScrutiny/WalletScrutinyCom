@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 27905
 reviews: 16630
 size: Varies with device
-website: https://www.coinomi.com/
+website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.png

@@ -11,7 +11,7 @@ stars: 4.7
 ratings: 17
 reviews: 10
 size: 8.0M
-website: http://www.thecryptofolioapp.com/
+website: http://www.thecryptofolioapp.com
 repository: 
 issue: 
 icon: com.mk.cryptofolio.png

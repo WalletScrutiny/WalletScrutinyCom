@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 65578
 reviews: 30420
 size: 11M
-website: https://www.zebpay.com/
+website: https://www.zebpay.com
 repository: 
 issue: 
 icon: zebpay.Application.png

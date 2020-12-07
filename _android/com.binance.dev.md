@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 61812
 reviews: 24830
 size: Varies with device
-website: https://www.binance.com/
+website: https://www.binance.com
 repository: 
 issue: 
 icon: com.binance.dev.png

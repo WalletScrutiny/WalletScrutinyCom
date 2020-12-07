@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 4618
 reviews: 2122
 size: 50M
-website: https://nexo.io/
+website: https://nexo.io
 repository: 
 issue: 
 icon: com.nexowallet.png

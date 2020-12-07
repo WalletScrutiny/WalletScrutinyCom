@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 278168
 reviews: 107214
 size: 32M
-website: https://cash.app/
+website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.png

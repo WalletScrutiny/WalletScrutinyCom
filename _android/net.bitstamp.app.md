@@ -11,7 +11,7 @@ stars: 4.6
 ratings: 7012
 reviews: 1966
 size: 12M
-website: https://www.bitstamp.net/
+website: https://www.bitstamp.net
 repository: 
 issue: 
 icon: net.bitstamp.app.png

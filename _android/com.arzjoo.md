@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 975
 reviews: 389
 size: Varies with device
-website: https://arzjoo.com/
+website: https://arzjoo.com
 repository: 
 issue: 
 icon: com.arzjoo.png

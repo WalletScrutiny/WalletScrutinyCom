@@ -11,7 +11,7 @@ stars: 2.4
 ratings: 987
 reviews: 717
 size: 18M
-website: https://www.bitcoin-india.org/
+website: https://www.bitcoin-india.org
 repository: 
 issue: 
 icon: com.bitcoinindia.Btciapp.png

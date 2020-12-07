@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 429
 reviews: 155
 size: 21M
-website: https://bitcoin-wallet.flycricket.io/
+website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png

@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 1601
 reviews: 882
 size: 75M
-website: https://shakepay.com/
+website: https://shakepay.com
 repository: 
 issue: 
 icon: com.shaketh.png

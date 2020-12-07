@@ -11,7 +11,7 @@ stars: 4.8
 ratings: 18
 reviews: 14
 size: Varies with device
-website: https://bitcoinox.com/
+website: https://bitcoinox.com
 repository: 
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png

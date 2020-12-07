@@ -11,7 +11,7 @@ stars: 4.1
 ratings: 9254
 reviews: 4252
 size: 23M
-website: https://wallet.mycelium.com/
+website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
 issue: 
 icon: com.mycelium.wallet.png

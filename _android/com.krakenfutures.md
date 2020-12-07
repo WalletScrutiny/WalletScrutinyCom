@@ -11,7 +11,7 @@ stars: 3.4
 ratings: 56
 reviews: 23
 size: 12M
-website: https://futures.kraken.com/
+website: https://futures.kraken.com
 repository: 
 issue: 
 icon: com.krakenfutures.png

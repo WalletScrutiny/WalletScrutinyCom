@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 6777
 reviews: 4335
 size: 12M
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: mw.org.freewallet.app.png

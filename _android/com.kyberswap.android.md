@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 1714
 reviews: 824
 size: 19M
-website: https://kyberswap.com/
+website: https://kyberswap.com
 repository: 
 issue: 
 icon: com.kyberswap.android.png

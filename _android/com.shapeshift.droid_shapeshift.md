@@ -11,7 +11,7 @@ stars: 3.1
 ratings: 1854
 reviews: 1180
 size: 51M
-website: https://shapeshift.com/
+website: https://shapeshift.com
 repository: 
 issue: 
 icon: com.shapeshift.droid_shapeshift.png

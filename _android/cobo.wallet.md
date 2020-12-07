@@ -11,7 +11,7 @@ stars: 3.6
 ratings: 3910
 reviews: 2384
 size: 48M
-website: https://cobo.com/
+website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.png

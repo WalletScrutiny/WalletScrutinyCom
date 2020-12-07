@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 12005
 reviews: 5036
 size: Varies with device
-website: https://wallet.coinbase.com/
+website: https://wallet.coinbase.com
 repository: 
 issue: 
 icon: org.toshi.png

@@ -11,7 +11,7 @@ stars: 2.8
 ratings: 1142
 reviews: 862
 size: 53M
-website: https://swipe.io/
+website: https://swipe.io
 repository: 
 issue: 
 icon: com.swipe.wallet.png

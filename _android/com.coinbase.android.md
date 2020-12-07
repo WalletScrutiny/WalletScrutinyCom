@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 227727
 reviews: 97140
 size: Varies with device
-website: https://coinbase.com/
+website: https://coinbase.com
 repository: 
 issue: 
 icon: com.coinbase.android.png

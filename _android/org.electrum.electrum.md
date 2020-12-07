@@ -11,7 +11,7 @@ stars: 3.4
 ratings: 1906
 reviews: 1158
 size: 20M
-website: https://electrum.org/
+website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/5839
 icon: org.electrum.electrum.png

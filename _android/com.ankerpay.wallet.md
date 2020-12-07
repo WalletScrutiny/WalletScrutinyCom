@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 88
 reviews: 77
 size: 4.9M
-website: https://ankerid.com/mobile-wallet/
+website: https://ankerid.com/mobile-wallet
 repository: 
 issue: 
 icon: com.ankerpay.wallet.png

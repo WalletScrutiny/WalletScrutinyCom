@@ -11,7 +11,7 @@ stars: 4.6
 ratings: 58
 reviews: 48
 size: 174k
-website: https://vidulum.app/
+website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png

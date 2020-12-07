@@ -11,7 +11,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://samouraiwallet.com/
+website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android
 issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
 icon: com.samourai.wallet.png

@@ -11,7 +11,7 @@ stars: 4.8
 ratings: 192
 reviews: 167
 size: 10M
-website: https://www.buyucoin.com/
+website: https://www.buyucoin.com
 repository: 
 issue: 
 icon: com.buyucoinApp.buyucoin.png

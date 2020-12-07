@@ -11,7 +11,7 @@ stars: 4.6
 ratings: 1603
 reviews: 989
 size: 41M
-website: https://mercuryo.io/
+website: https://mercuryo.io
 repository: 
 issue: 
 icon: com.mercuryo.app.png

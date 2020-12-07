@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 75
 reviews: 61
 size: 27M
-website: https://www.chainzilla.io/
+website: https://www.chainzilla.io
 repository: 
 issue: 
 icon: com.chameleon.wallet.png

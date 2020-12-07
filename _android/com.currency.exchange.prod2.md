@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 1299
 reviews: 453
 size: 17M
-website: https://currency.com/
+website: https://currency.com
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.png

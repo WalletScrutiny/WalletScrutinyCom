@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 715
 reviews: 283
 size: 23M
-website: https://www.crypto.com/
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: com.defi.wallet.png

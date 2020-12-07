@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 500
 reviews: 347
 size: 11M
-website: https://www.counos.io/
+website: https://www.counos.io
 repository: 
 issue: 
 icon: com.counos.png

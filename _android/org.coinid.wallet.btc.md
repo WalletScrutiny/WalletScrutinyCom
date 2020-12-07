@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 11
 reviews: 3
 size: 34M
-website: https://coinid.org/
+website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png

@@ -11,7 +11,7 @@ stars: 4.6
 ratings: 1596
 reviews: 892
 size: 33M
-website: http://guarda.co/
+website: http://guarda.co
 repository: 
 issue: 
 icon: com.crypto.multiwallet.jpg

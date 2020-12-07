@@ -11,7 +11,7 @@ stars: 3.6
 ratings: 4441
 reviews: 2593
 size: 8.6M
-website: https://www.cryptonator.com/
+website: https://www.cryptonator.com
 repository: 
 issue: 
 icon: com.cryptonator.android.png

@@ -11,7 +11,7 @@ stars: 4.8
 ratings: 1222
 reviews: 553
 size: 13M
-website: https://www.coinex.co/
+website: https://www.coinex.co
 repository: 
 issue: 
 icon: com.coinex.trade.play.png

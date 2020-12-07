@@ -11,7 +11,7 @@ stars: 5.0
 ratings: 8
 reviews: 4
 size: 34M
-website: https://coinid.org/
+website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png

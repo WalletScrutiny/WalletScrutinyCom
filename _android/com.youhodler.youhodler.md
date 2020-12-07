@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 537
 reviews: 208
 size: 59M
-website: https://youhodler.com/
+website: https://youhodler.com
 repository: 
 issue: 
 icon: com.youhodler.youhodler.png

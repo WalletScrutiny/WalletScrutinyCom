@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 212
 reviews: 141
 size: 7.3M
-website: https://luneswallet.app/
+website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/8
 icon: com.luneswallet.png

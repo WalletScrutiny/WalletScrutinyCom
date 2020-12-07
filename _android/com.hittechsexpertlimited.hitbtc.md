@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 490
 reviews: 247
 size: 11M
-website: https://hitbtc.com/
+website: https://hitbtc.com
 repository: 
 issue: 
 icon: com.hittechsexpertlimited.hitbtc.png

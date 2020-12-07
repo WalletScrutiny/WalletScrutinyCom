@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 284
 reviews: 193
 size: 51M
-website: https://pumapay.io/
+website: https://pumapay.io
 repository: 
 issue: 
 icon: com.pumapay.pumawallet.png

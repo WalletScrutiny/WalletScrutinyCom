@@ -11,7 +11,7 @@ stars: 3.0
 ratings: 541
 reviews: 248
 size: 31M
-website: https://www.coincola.com/
+website: https://www.coincola.com
 repository: 
 issue: 
 icon: com.newgo.coincola.png

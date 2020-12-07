@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 30
 reviews: 11
 size: 8.9M
-website: https://www.bitbucks.io/
+website: https://www.bitbucks.io
 repository: 
 issue: 
 icon: de.fuf.bitbucks.png

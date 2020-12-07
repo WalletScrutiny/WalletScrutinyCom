@@ -11,7 +11,7 @@ stars: 3.5
 ratings: 1137
 reviews: 483
 size: 16M
-website: https://airbitz.co/
+website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png

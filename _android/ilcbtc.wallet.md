@@ -11,7 +11,7 @@ stars: 4.8
 ratings: 228
 reviews: 128
 size: 13M
-website: https://www.ilcoincrypto.com/
+website: https://www.ilcoincrypto.com
 repository: 
 issue: 
 icon: ilcbtc.wallet.png

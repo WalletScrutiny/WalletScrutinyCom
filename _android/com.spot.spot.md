@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 3221
 reviews: 1608
 size: 63M
-website: https://www.spot-bitcoin.com/
+website: https://www.spot-bitcoin.com
 repository: 
 issue: 
 icon: com.spot.spot.png

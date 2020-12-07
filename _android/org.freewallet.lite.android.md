@@ -11,7 +11,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: org.freewallet.lite.android.png

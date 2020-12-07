@@ -11,7 +11,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: http://abco.re/
+website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png

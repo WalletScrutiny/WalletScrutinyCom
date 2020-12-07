@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 2502
 reviews: 1360
 size: 36M
-website: https://support.poloniex.com/
+website: https://support.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.poloniex.png

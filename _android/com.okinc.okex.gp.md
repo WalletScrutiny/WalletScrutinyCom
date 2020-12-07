@@ -11,7 +11,7 @@ stars: 4.7
 ratings: 25320
 reviews: 21258
 size: 109M
-website: https://www.okex.com/
+website: https://www.okex.com
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png

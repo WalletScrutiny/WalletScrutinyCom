@@ -11,7 +11,7 @@ stars: 4.8
 ratings: 498
 reviews: 441
 size: 15M
-website: https://bit2me.com/
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.phonegap.bit2me.png

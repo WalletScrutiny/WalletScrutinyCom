@@ -11,7 +11,7 @@ stars: 4.1
 ratings: 7492
 reviews: 3554
 size: 28M
-website: https://bitpay.com/
+website: https://bitpay.com
 repository: https://github.com/bitpay/copay
 issue: https://github.com/bitpay/copay/issues/10425
 icon: com.bitpay.wallet.png

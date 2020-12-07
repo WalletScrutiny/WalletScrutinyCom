@@ -11,7 +11,7 @@ stars: 3.7
 ratings: 404
 reviews: 264
 size: 70M
-website: https://www.conio.com/en/
+website: https://www.conio.com/en
 repository: 
 issue: 
 icon: com.conio.wallet.png

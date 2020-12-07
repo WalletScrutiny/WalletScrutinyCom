@@ -11,7 +11,7 @@ stars: 5.0
 ratings: 967
 reviews: 486
 size: 57M
-website: https://bitshieldwallet.com/
+website: https://bitshieldwallet.com
 repository: 
 issue: 
 icon: com.bitshield.bitshieldwallet.png

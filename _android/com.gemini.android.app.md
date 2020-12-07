@@ -11,7 +11,7 @@ stars: 3.3
 ratings: 2007
 reviews: 1025
 size: Varies with device
-website: https://gemini.com/
+website: https://gemini.com
 repository: 
 issue: 
 icon: com.gemini.android.app.png

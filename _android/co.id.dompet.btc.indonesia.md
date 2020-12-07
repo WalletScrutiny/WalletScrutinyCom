@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 4407
 reviews: 2522
 size: Varies with device
-website: https://www.indodax.com/
+website: https://www.indodax.com
 repository: 
 issue: 
 icon: co.id.dompet.btc.indonesia.png

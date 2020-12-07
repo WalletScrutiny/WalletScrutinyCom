@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 533
 reviews: 277
 size: 336M
-website: https://www.sylo.io/wallet/
+website: https://www.sylo.io/wallet
 repository: 
 issue: 
 icon: io.sylo.dapp.png

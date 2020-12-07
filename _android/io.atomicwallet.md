@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 17703
 reviews: 9445
 size: 13M
-website: https://atomicwallet.io/
+website: https://atomicwallet.io
 repository: 
 issue: 
 icon: io.atomicwallet.png

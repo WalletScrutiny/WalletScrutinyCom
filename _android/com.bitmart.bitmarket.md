@@ -11,7 +11,7 @@ stars: 3.7
 ratings: 579
 reviews: 351
 size: 31M
-website: https://www.bitmart.com/
+website: https://www.bitmart.com
 repository: 
 issue: 
 icon: com.bitmart.bitmarket.png

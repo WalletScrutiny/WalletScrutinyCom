@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 3885
 reviews: 2158
 size: 17M
-website: https://jaxx.io/
+website: https://jaxx.io
 repository: 
 issue: 
 icon: com.liberty.jaxx.png

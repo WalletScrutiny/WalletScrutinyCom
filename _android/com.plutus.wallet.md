@@ -11,7 +11,7 @@ stars: 4.5
 ratings: 9035
 reviews: 4735
 size: Varies with device
-website: https://www.abra.com/
+website: https://www.abra.com
 repository: 
 issue: 
 icon: com.plutus.wallet.png

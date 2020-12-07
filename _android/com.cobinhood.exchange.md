@@ -11,7 +11,7 @@ stars: 2.2
 ratings: 635
 reviews: 373
 size: 7.7M
-website: https://cobinhood.com/
+website: https://cobinhood.com
 repository: 
 issue: 
 icon: com.cobinhood.exchange.png

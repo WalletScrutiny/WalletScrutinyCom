@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 15520
 reviews: 6374
 size: 24M
-website: https://brd.com/
+website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android
 issue: https://github.com/breadwallet/breadwallet-android/issues/117
 icon: com.breadwallet.jpg

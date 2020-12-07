@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 45099
 reviews: 21277
 size: 93M
-website: https://xapo.com/
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.xapo.png

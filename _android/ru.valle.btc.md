@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 142
 reviews: 46
 size: Varies with device
-website: https://www.linkedin.com/in/vkonovalov/
+website: https://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png

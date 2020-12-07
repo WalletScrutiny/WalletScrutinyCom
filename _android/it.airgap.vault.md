@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 42
 reviews: 19
 size: 10M
-website: https://airgap.it/
+website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/32
 icon: it.airgap.vault.png

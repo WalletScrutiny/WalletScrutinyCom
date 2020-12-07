@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 38
 reviews: 12
 size: 29M
-website: https://keys.casa/
+website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png

@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 770
 reviews: 407
 size: 31M
-website: https://www.dowallet.app/
+website: https://www.dowallet.app
 repository: 
 issue: 
 icon: com.dowallet.png

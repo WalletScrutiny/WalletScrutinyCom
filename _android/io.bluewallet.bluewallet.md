@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 641
 reviews: 304
 size: 56M
-website: https://bluewallet.io/
+website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.png

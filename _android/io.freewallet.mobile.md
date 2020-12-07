@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 50
 reviews: 28
 size: 6.7M
-website: https://freewallet.io/
+website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg

@@ -11,7 +11,7 @@ stars: 4.4
 ratings: 711
 reviews: 569
 size: 107M
-website: https://hyperpay.tech/
+website: https://hyperpay.tech
 repository: 
 issue: 
 icon: com.legendwd.hyperpayW.png

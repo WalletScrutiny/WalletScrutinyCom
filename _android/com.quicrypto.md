@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 3158
 reviews: 2005
 size: 26M
-website: http://www.quicrypto.com/
+website: http://www.quicrypto.com
 repository: 
 issue: 
 icon: com.quicrypto.png

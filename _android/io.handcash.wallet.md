@@ -11,7 +11,7 @@ stars: 4.2
 ratings: 226
 reviews: 167
 size: 31M
-website: https://handcash.io/
+website: https://handcash.io
 repository: 
 issue: 
 icon: io.handcash.wallet.png

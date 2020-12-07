@@ -11,7 +11,7 @@ stars: 4.3
 ratings: 151
 reviews: 98
 size: 2.0M
-website: https://www.bithumbsg.com/
+website: https://www.bithumbsg.com
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png

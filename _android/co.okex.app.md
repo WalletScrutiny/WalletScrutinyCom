@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 536
 reviews: 235
 size: 12M
-website: https://ok-ex.co/
+website: https://ok-ex.co
 repository: 
 issue: 
 icon: co.okex.app.png

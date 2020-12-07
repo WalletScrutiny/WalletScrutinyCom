@@ -11,7 +11,7 @@ stars: 1.9
 ratings: 9384
 reviews: 5310
 size: 29M
-website: https://www.ripio.com/ar/wallet/
+website: https://www.ripio.com/ar/wallet
 repository: 
 issue: 
 icon: com.ripio.android.png

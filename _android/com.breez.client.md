@@ -11,7 +11,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://breez.technology/
+website: https://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png

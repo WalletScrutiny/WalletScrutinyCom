@@ -11,7 +11,7 @@ stars: 4.0
 ratings: 3861
 reviews: 1784
 size: 7.2M
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: btc.org.freewallet.app.png

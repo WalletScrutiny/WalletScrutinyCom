@@ -11,7 +11,7 @@ stars: 3.2
 ratings: 1772
 reviews: 1079
 size: 91M
-website: https://celsius.network/
+website: https://celsius.network
 repository: 
 issue: 
 icon: network.celsius.wallet.png

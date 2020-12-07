@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 5494
 reviews: 1941
 size: 55M
-website: https://www.huobi.com/en-us/
+website: https://www.huobi.com/en-us
 repository: 
 issue: 
 icon: pro.huobi.png

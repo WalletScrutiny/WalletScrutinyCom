@@ -11,7 +11,7 @@ stars: 3.9
 ratings: 2053
 reviews: 1329
 size: 63M
-website: https://www.digifinex.com/
+website: https://www.digifinex.com
 repository: 
 issue: 
 icon: com.digifinex.app.png

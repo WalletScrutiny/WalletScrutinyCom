@@ -11,7 +11,7 @@ stars: 3.7
 ratings: 197
 reviews: 139
 size: 3.0M
-website: https://magnumwallet.co/
+website: https://magnumwallet.co
 repository: 
 issue: 
 icon: com.magnum.wallet.png
