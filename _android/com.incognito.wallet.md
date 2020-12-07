@@ -11,19 +11,19 @@ stars: 4.2
 ratings: 169
 reviews: 102
 size: 52M
-website: 
-repository: 
-issue: 
+website: https://incognito.org
+repository: https://github.com/incognitochain/incognito-wallet
+issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: incognitochain
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,10 +33,17 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.incognito.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.incognito.wallet).
+After many many reviews of custodial wallets, this one makes a promising claim:
 
-Probably an engineer will soon have a deeper look at this app.
+> Don’t leave yourself exposed. Go Incognito. It’s non-custodial, decentralized,
+  and completely open-source.
 
-So far we are not even sure it is a wallet ... Please check back later.
+And indeed there is [a repository](https://github.com/incognitochain/incognito-wallet)
+with 3647 commits by 16 contributors with recent commits. That looks solid!
+
+Unfortunately the project appears to not share the needed `.env` file for
+reproducible builds or otherwise build instructions for that purpose.
+
+We reached out to them in
+[this issue](https://github.com/incognitochain/incognito-wallet/issues/1422)
+and hope to get feedback, soon but for now the app is **not verifiable**.

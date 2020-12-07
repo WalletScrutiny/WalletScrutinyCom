@@ -11,21 +11,21 @@ stars: 3.1
 ratings: 194
 reviews: 128
 size: 78M
-website: 
+website: https://www.litebit.eu
 repository: 
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-06
 reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: litebiteu
+providerLinkedIn: company/litebit
+providerFacebook: litebiteu
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,9 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.flutter.litebit" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.flutter.litebit).
+> All you need is a LiteBit account.
 
-Probably an engineer will soon have a deeper look at this app.
+If you need an account, it's probably custodial.
 
-So far we are not even sure it is a wallet ... Please check back later.
+On their website there is no contrary claims so we assume this app is
+**not verifiable**.
