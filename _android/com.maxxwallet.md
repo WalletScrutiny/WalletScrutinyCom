@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2019-06-12
 apkVersionName: "3.7.3"
 stars: 3.2
-ratings: 12
-reviews: 9
+ratings: 13
+reviews: 10
 size: 14M
 website: 
 repository: 

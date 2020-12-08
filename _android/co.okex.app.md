@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-06
 apkVersionName: "2.6.0"
 stars: 3.9
-ratings: 537
-reviews: 235
+ratings: 539
+reviews: 236
 size: 12M
 website: https://ok-ex.co
 repository: 

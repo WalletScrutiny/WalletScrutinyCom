@@ -2,7 +2,7 @@
 title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
 altTitle: 
 
-users: 100
+users: 500
 appId: jb.tech.bitpiewallet
 launchDate: 
 latestUpdate: 2020-10-22

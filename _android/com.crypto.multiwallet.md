@@ -8,8 +8,8 @@ launchDate: 2018-11-01
 latestUpdate: 2020-12-06
 apkVersionName: "2.14.0"
 stars: 4.5
-ratings: 1601
-reviews: 896
+ratings: 1617
+reviews: 905
 size: 33M
 website: http://guarda.co
 repository: 

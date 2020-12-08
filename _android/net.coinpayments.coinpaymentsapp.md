@@ -8,7 +8,7 @@ launchDate: 2016-11-15
 latestUpdate: 2020-08-03
 apkVersionName: "Varies with device"
 stars: 3.6
-ratings: 1738
+ratings: 1739
 reviews: 903
 size: Varies with device
 website: https://www.coinpayments.net

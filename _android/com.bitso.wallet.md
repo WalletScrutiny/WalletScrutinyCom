@@ -6,10 +6,10 @@ users: 1000000
 appId: com.bitso.wallet
 launchDate: 
 latestUpdate: 2020-12-01
-apkVersionName: "2.17.2"
+apkVersionName: "2.17.3"
 stars: 4.0
-ratings: 5172
-reviews: 2966
+ratings: 5196
+reviews: 2982
 size: 27M
 website: https://bitso.com/app
 repository: 

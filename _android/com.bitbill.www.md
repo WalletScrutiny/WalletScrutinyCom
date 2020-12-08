@@ -2,7 +2,7 @@
 title: "Ownbit - Blockchain Wallet"
 altTitle: 
 
-users: 1000
+users: 5000
 appId: com.bitbill.www
 launchDate: 
 latestUpdate: 2020-12-04

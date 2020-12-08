@@ -2,7 +2,7 @@
 title: "Azara Crypto & Bitcoin Wallet"
 altTitle: 
 
-users: 10
+users: 50
 appId: ai.azara.wallet
 launchDate: 
 latestUpdate: 2020-11-11

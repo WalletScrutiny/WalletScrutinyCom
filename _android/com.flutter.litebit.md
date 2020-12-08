@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.flutter.litebit
 launchDate: 
-latestUpdate: 2020-11-16
-apkVersionName: "2.11.0"
+latestUpdate: 2020-12-07
+apkVersionName: "2.12.0"
 stars: 3.1
 ratings: 194
 reviews: 128
@@ -18,7 +18,7 @@ icon: com.flutter.litebit.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
