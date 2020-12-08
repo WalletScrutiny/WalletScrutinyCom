@@ -11,14 +11,14 @@ stars: 4.3
 ratings: 101
 reviews: 70
 size: 28M
-website: 
+website: https://qcan.com
 repository: 
 issue: 
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,8 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.qcan.mobile.bitcoin.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.qcan.mobile.bitcoin.wallet).
+> **Complete Control**<br>
+  Your Bitcoin, 100% Under Your Control. You hold the key. No intermediary.
 
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+That is a clear claim to be non-custodial but neither on Google Play nor the
+website can we find a link to source code. This app is thus **not verifiable**.

@@ -11,32 +11,28 @@ stars: 4.4
 ratings: 123
 reviews: 67
 size: 17M
-website: 
+website: https://goodcrypto.app
 repository: 
 issue: 
 icon: app.goodcrypto.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: GoodCryptoApp
+providerLinkedIn: company/goodcrypto
+providerFacebook: GoodCryptoApp
+providerReddit: GoodCrypto
 
 redirect_from:
   - /app.goodcrypto/
 ---
 
 
-This page was created by a script from the **appId** "app.goodcrypto" and public
-information found
-[here](https://play.google.com/store/apps/details?id=app.goodcrypto).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app allows you to connect to accounts on trading platforms and does not
+work as a wallet as such. We assume that you cannot receive Bitcoins to and send
+them from this app.

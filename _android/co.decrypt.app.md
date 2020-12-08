@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,4 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "co.decrypt.app" and public
-information found
-[here](https://play.google.com/store/apps/details?id=co.decrypt.app).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app only provides news about Bitcoin but no wallet itself.

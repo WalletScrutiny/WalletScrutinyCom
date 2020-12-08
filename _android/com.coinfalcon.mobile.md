@@ -11,32 +11,43 @@ stars: 3.4
 ratings: 76
 reviews: 51
 size: 64M
-website: 
+website: https://coinfalcon.com
 repository: 
 issue: 
 icon: com.coinfalcon.mobile.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-07
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinfalcon
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: CoinFalcon
+providerReddit: CoinFalcon
 
 redirect_from:
   - /com.coinfalcon.mobile/
 ---
 
 
-This page was created by a script from the **appId** "com.coinfalcon.mobile" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.coinfalcon.mobile).
+On Google Play we read:
 
-Probably an engineer will soon have a deeper look at this app.
+> **SECURE YOUR WEALTH**<br>
+  Don’t give control of your private keys to centralized wallets and exchanges
+  that can suffer from hacks and lose your funds. **Exodus** encrypts your
+  private keys and transaction data on your device so that no one can access
+  your cryptocurrency but you. You can also Enable Face or Touch ID to
+  conveniently secure your wallet without having to type your passcode.
 
-So far we are not even sure it is a wallet ... Please check back later.
+This is confusing. Are they inviting the user to use Exodus or did they copy
+Exodus promo texts? Cause below that we read:
+
+> **State-of-the-Art Security**<br>
+  CoinFalcon stores 98% of digital funds in an offline, secure wallet, while the
+  rest is protected by high-grade security systems. We are committed to the
+  highest safety standards both here on the app and our web platform.
+
+which is clearly about a custodial offering.
