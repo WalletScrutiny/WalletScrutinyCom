@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: com.wasabiwallet.dev.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -32,6 +32,9 @@ redirect_from:
   - /com.wasabiwallet.dev/
 ---
 
+
+**Update:** This wallet was removed from Google Play. Discussions of it happened
+a bit on Twitter but it was an obvious scam.
 
 **Do not use this app! We expect it to be removed from Google Play. More details
 soon.**
