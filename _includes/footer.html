@@ -28,12 +28,17 @@
     }
   })(document,"script");
 
-  window.addEventListener("load", function() {
-    setTimeout(function() {
-      if (!$chatwoot.isOpen && !window.matchMedia("only screen and (max-width: 760px)").matches) {
-        // only on big screens, open the chat window
-        $chatwoot.toggle()
-      }
-    }, 3000)
-  })
+  if (document.cookie.search("chatwoot_popup") < 0) {
+    window.addEventListener("load", function() {
+      setTimeout(function() {
+        if (!$chatwoot.isOpen && !window.matchMedia("only screen and (max-width: 760px)").matches) {
+          // only on big screens, open the chat window
+          $chatwoot.toggle()
+          setTimeout(function() {
+            document.cookie = "chatwoot_popup=false"
+          }, 2000)
+        }
+      }, 10000)
+    })
+  }
 </script>
