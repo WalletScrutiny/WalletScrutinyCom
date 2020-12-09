@@ -7,8 +7,8 @@ appId: com.magnum.wallet
 launchDate: 2019-04-23
 latestUpdate: 2019-08-29
 apkVersionName: "1.0.12"
-stars: 3.7
-ratings: 197
+stars: 3.8
+ratings: 198
 reviews: 139
 size: 3.0M
 website: https://magnumwallet.co

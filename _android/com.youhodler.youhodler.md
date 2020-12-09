@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.youhodler.youhodler
 launchDate: 
-latestUpdate: 2020-08-27
-apkVersionName: "2.8.0"
+latestUpdate: 2020-12-08
+apkVersionName: "2.9.0"
 stars: 4.0
-ratings: 541
-reviews: 212
-size: 59M
+ratings: 547
+reviews: 213
+size: 46M
 website: https://youhodler.com
 repository: 
 issue: 

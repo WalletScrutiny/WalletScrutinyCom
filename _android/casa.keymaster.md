@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-12-03
 apkVersionName: "2.28.0"
 stars: 4.2
-ratings: 38
+ratings: 40
 reviews: 12
 size: 29M
 website: https://keys.casa
