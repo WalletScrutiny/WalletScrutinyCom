@@ -17,10 +17,15 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-27
-reviewStale: true
+date: 2020-12-11
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2020-11-27
+  version: "0.17.1"
+  apkHash: 78e49a893c9e413f56be9717126a53bcb8dc34ccddcdded1a9a0b0f53505c4ec
+  gitRevision: 4fb7db792d0f8c31c80b1c3cc358e106c73b7535
+  verdict: reproducible
 - date: 2020-11-17
   version: "0.17.0"
   apkHash: 80aab3a32f9cdd580331e7414e1229ced5a8ed9eea2f64068a51aa6bf1a70df3
@@ -82,10 +87,10 @@ reviewArchive:
   gitRevision: 92e4a67ecc626220965114cd6a4cd67497e3be9f
   verdict: nonverifiable
 
-providerTwitter: 
+providerTwitter: unstoppablebyhs
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: 
+providerReddit: UNSTOPPABLEWallet
 
 redirect_from:
   - /io.horizontalsystems.bankwallet/
@@ -101,21 +106,24 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.17.1
-apkVersionCode: 35
-apkHash:        78e49a893c9e413f56be9717126a53bcb8dc34ccddcdded1a9a0b0f53505c4ec
+apkVersionName: 0.18.0
+apkVersionCode: 36
+apkHash:        9c91d011f3817f35a27276103fea0eae3c6e073e38f148019d53cd7a46371c34
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_35/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_35/apktool.yml differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF/MANIFEST.MF and /tmp/fromBuild_io.horizontalsystems.bankwallet_35/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_35/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_36/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_36/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
-object a9ebd7e5262ac305e32b18415f9b6e81b36fac54
+object e1176fce6be021b96c9e7c601f7257136552fe0f
 type commit
-tag 0.17.1
-tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1606303059 +0600
+tag 0.18.0
+tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1607516672 +0600
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
+
+Thank you to Horizontal Systems for a
+[donation of $200](https://twitter.com/WalletScrutiny/status/1336651531442155522).
