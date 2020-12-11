@@ -1,15 +1,15 @@
 ---
-title: "Bitcoin Wallet Blockchain: Ethereum, Crypto, BTC"
+title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
 altTitle: 
 
 users: 50000
 appId: com.ownrwallet.wallet
 launchDate: 
-latestUpdate: 2020-12-04
-apkVersionName: "1.0.56"
-stars: 4.7
-ratings: 640
-reviews: 566
+latestUpdate: 2020-12-10
+apkVersionName: "1.0.57"
+stars: 4.8
+ratings: 645
+reviews: 571
 size: 65M
 website: https://ownrwallet.com
 repository: 

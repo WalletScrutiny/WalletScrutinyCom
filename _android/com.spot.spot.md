@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.spot.spot
 launchDate: 
-latestUpdate: 2020-11-17
+latestUpdate: 2020-12-09
 apkVersionName: "4.14.0.2349-c562d416"
-stars: 4.2
-ratings: 3241
-reviews: 1618
+stars: 4.3
+ratings: 3255
+reviews: 1627
 size: 63M
 website: https://www.spot-bitcoin.com
 repository: 
@@ -18,7 +18,7 @@ icon: com.spot.spot.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

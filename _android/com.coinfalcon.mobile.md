@@ -5,7 +5,7 @@ altTitle:
 users: 10000
 appId: com.coinfalcon.mobile
 launchDate: 
-latestUpdate: 2020-10-22
+latestUpdate: 2020-12-11
 apkVersionName: "2.1.11"
 stars: 3.4
 ratings: 77
@@ -18,7 +18,7 @@ icon: com.coinfalcon.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

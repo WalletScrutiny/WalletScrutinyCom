@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
 launchDate: 
-latestUpdate: 2020-05-19
-apkVersionName: "2.2.26"
+latestUpdate: 2020-12-10
+apkVersionName: "2.3.5"
 stars: 4.8
 ratings: 18
 reviews: 14
@@ -18,7 +18,7 @@ icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-09-27
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

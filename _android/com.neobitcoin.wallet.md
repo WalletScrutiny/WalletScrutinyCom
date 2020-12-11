@@ -7,9 +7,9 @@ appId: com.neobitcoin.wallet
 launchDate: 
 latestUpdate: 2020-07-03
 apkVersionName: "1.0.0"
-stars: 1.5
-ratings: 112
-reviews: 100
+stars: 1.4
+ratings: 113
+reviews: 102
 size: 48M
 website: 
 repository: 

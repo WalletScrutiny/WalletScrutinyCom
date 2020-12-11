@@ -2,14 +2,14 @@
 title: "Bitcoin Wallet Hexa"
 altTitle: 
 
-users: 100
+users: 500
 appId: io.hexawallet.hexa
 launchDate: 
 latestUpdate: 2020-12-02
 apkVersionName: "1.3.2"
-stars: 3.9
-ratings: 7
-reviews: 3
+stars: 3.4
+ratings: 14
+reviews: 10
 size: 39M
 website: 
 repository: 

@@ -7,9 +7,9 @@ appId: co.busha.android
 launchDate: 2019-01-21
 latestUpdate: 2020-12-02
 apkVersionName: "2.6.2"
-stars: 4.4
-ratings: 1411
-reviews: 1109
+stars: 4.5
+ratings: 1428
+reviews: 1123
 size: 16M
 website: https://busha.co
 repository: 

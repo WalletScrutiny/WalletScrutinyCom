@@ -2,14 +2,14 @@
 title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.crypto.multiwallet
 launchDate: 2018-11-01
 latestUpdate: 2020-12-06
 apkVersionName: "2.14.0"
 stars: 4.5
-ratings: 1621
-reviews: 909
+ratings: 1636
+reviews: 916
 size: 33M
 website: http://guarda.co
 repository: 

@@ -8,7 +8,7 @@ launchDate: 2013-07-01
 latestUpdate: 2020-11-26
 apkVersionName: "3.7.0.5"
 stars: 4.1
-ratings: 9264
+ratings: 9267
 reviews: 4258
 size: 23M
 website: https://wallet.mycelium.com

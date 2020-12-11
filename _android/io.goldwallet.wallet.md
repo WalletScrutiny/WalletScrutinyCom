@@ -1,23 +1,23 @@
 ---
-title: "SafePal - Crypto wallet BTC ETH LTC BNB Tron EOS"
+title: "GoldWallet - Bitcoin Vault Wallet"
 altTitle: 
 
-users: 5000
-appId: io.safepal.wallet
+users: 10000
+appId: io.goldwallet.wallet
 launchDate: 
-latestUpdate: 2020-11-30
-apkVersionName: "2.4.0"
-stars: 4.6
-ratings: 143
-reviews: 88
-size: 26M
+latestUpdate: 2020-11-26
+apkVersionName: "6.0.1"
+stars: 4.5
+ratings: 395
+reviews: 218
+size: 35M
 website: 
 repository: 
 issue: 
-icon: io.safepal.wallet.png
+icon: io.goldwallet.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+date: 2020-12-09
 reviewStale: true
 signer: 
 reviewArchive:
@@ -29,13 +29,13 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /io.safepal.wallet/
+  - /io.goldwallet.wallet/
 ---
 
 
-This page was created by a script from the **appId** "io.safepal.wallet" and public
+This page was created by a script from the **appId** "io.goldwallet.wallet" and public
 information found
-[here](https://play.google.com/store/apps/details?id=io.safepal.wallet).
+[here](https://play.google.com/store/apps/details?id=io.goldwallet.wallet).
 
 Probably an engineer will soon have a deeper look at this app.
 
