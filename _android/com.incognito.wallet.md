@@ -7,8 +7,8 @@ appId: com.incognito.wallet
 launchDate: 
 latestUpdate: 2020-10-05
 apkVersionName: "3.10.0"
-stars: 4.1
-ratings: 170
+stars: 4.2
+ratings: 169
 reviews: 102
 size: 52M
 website: https://incognito.org

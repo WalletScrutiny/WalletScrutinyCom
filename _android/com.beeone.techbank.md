@@ -7,9 +7,9 @@ appId: com.beeone.techbank
 launchDate: 
 latestUpdate: 2020-11-12
 apkVersionName: "3.7.9"
-stars: 4.5
-ratings: 260
-reviews: 108
+stars: 4.6
+ratings: 265
+reviews: 112
 size: 41M
 website: 
 repository: 
