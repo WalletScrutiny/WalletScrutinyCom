@@ -11,14 +11,14 @@ stars: 4.5
 ratings: 400
 reviews: 222
 size: 35M
-website: 
+website: https://bitcoinvault.global
 repository: 
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-09
-reviewStale: true
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,4 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "io.goldwallet.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=io.goldwallet.wallet).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app appears to not be a vault for Bitcoin but something for Bitcoin Vault.
