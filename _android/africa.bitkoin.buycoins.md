@@ -7,7 +7,7 @@ appId: africa.bitkoin.buycoins
 launchDate: 
 latestUpdate: 2020-11-17
 apkVersionName: "5.2.1"
-stars: 3.1
+stars: 3.2
 ratings: 519
 reviews: 364
 size: 11M

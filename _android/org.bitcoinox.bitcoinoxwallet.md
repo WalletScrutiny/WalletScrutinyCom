@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-12-10
 apkVersionName: "2.3.5"
 stars: 4.8
-ratings: 18
+ratings: 19
 reviews: 14
 size: Varies with device
 website: https://bitcoinox.com

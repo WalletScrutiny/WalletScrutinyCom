@@ -7,9 +7,9 @@ appId: com.xzen.wallet
 launchDate: 
 latestUpdate: 2019-09-19
 apkVersionName: "1.2.6.0"
-stars: 3.8
-ratings: 40
-reviews: 30
+stars: 3.7
+ratings: 41
+reviews: 31
 size: 26M
 website: http://www.xzen.io/app
 repository: 

@@ -7,9 +7,9 @@ appId: it.airgap.vault
 launchDate: 2018-08-06
 latestUpdate: 2020-11-06
 apkVersionName: "3.5.1"
-stars: 4.3
-ratings: 122
-reviews: 42
+stars: 4.1
+ratings: 73
+reviews: 28
 size: 10M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
@@ -81,7 +81,7 @@ came to this conclusion:
 fatal: Remote branch v3.5.1 not found in upstream origin
 ```
 
-which means the the code might be their but the provider did not tag the
+which means the the code might be there but the provider did not tag the
 revision that was used for this release.
 
 We assume this can be sorted out but in the interim suggest to not update this
