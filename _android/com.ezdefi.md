@@ -11,21 +11,21 @@ stars: 4.8
 ratings: 23
 reviews: 17
 size: 15M
-website: 
+website: https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ezDeFi
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ezdefi
 providerReddit: 
 
 redirect_from:
@@ -33,10 +33,14 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.ezdefi" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.ezdefi).
+Features like
 
-Probably an engineer will soon have a deeper look at this app.
+> By eliminating encryption phrase, new users can simply make purchases with
+  just a wallet password or biometric.
 
-So far we are not even sure it is a wallet ... Please check back later.
+sound very custodial. Althogh this is
+
+> A new Ez Mode [...] to make cryptocurrencies accessible to new users.
+
+there are no explicit claims about the app being non-custodial otherwise, which
+is why we have to assume it's custodial all the way and thus **not verifiable**.

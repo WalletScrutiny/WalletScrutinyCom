@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: partl.coini.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,4 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "partl.coini" and public
-information found
-[here](https://play.google.com/store/apps/details?id=partl.coini).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app is for portfolio tracking but probably is not in control of private keys.

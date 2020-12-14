@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,6 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.thinkdevs.cryptomarket" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.thinkdevs.cryptomarket).
+This is not a wallet:
 
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+> Crypto Wallet gives you quick and easy access to cryptocurrency prices, details.

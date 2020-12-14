@@ -11,14 +11,14 @@ stars: 2.7
 ratings: 37
 reviews: 26
 size: 1.5M
-website: 
+website: http://www.yeswallet.io
 repository: 
 issue: 
 icon: com.yes.yeswallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,8 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.yes.yeswallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.yes.yeswallet).
+This app is **very likely a scam** judging by the reviews and the website being
+down and the last update being almost two years old.
 
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+For what we know, we know little but the coins are probably under the control of
+the provider, so the app is also **not verifiable**.

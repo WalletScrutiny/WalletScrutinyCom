@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: com.moonlet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,5 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.moonlet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.moonlet).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+This app appears to only support ETH tokens. Neither the description, nor the
+website claim otherwise.

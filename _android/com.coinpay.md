@@ -11,14 +11,14 @@ stars: 4.3
 ratings: 11
 reviews: 9
 size: 5.4M
-website: 
+website: https://www.coinpayapp.com
 repository: 
 issue: 
 icon: com.coinpay.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,11 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.coinpay" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.coinpay).
+> We are a non-custodial wallet, so users can send Bitcoin and other
+  cryptocurrencies globally with direct access to the blockchain.
 
-Probably an engineer will soon have a deeper look at this app.
+... so this is (claiming to be) a non-custodial Bitcoin wallet. Can we verify
+this?
 
-So far we are not even sure it is a wallet ... Please check back later.
+The answer is "no". There is no source code linked on their website or Google
+Play description. This app is closed source and thus **not verifiable**.

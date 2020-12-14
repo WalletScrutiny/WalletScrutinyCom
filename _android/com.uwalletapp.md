@@ -11,32 +11,33 @@ stars: 4.3
 ratings: 104
 reviews: 57
 size: 80M
-website: 
+website: https://utrust.com
 repository: 
 issue: 
 icon: com.uwalletapp.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: utrust
+providerLinkedIn: company/utrust-payments
+providerFacebook: utrust.io
+providerReddit: UTRUST_Official
 
 redirect_from:
   - /com.uwalletapp/
 ---
 
 
-This page was created by a script from the **appId** "com.uwalletapp" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.uwalletapp).
+> The Utrust Wallet processes transactions instantly within our platform, which
+  allows us to cut on blockchain validation waiting times.
 
-Probably an engineer will soon have a deeper look at this app.
+and
 
-So far we are not even sure it is a wallet ... Please check back later.
+> Instant transactions to Utrust Wallet users
+
+are clear features of a custodial app. This wallet is **not verifiable**.

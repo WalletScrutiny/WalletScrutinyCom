@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: btcmine.btcwallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,11 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "btcmine.btcwallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=btcmine.btcwallet).
+This app features no website or claims about the custody of coins. Its
+description starts with:
 
-Probably an engineer will soon have a deeper look at this app.
+> Download share and win. If your friends download app and send btc to their own
+  wallet, you and your friends will win 0,001 BTC!!
 
-So far we are not even sure it is a wallet ... Please check back later.
+and continues with more not so meaningful words. This app is probably a scam and
+absent claims of being non-custodial we file it as **not verifiable**.
