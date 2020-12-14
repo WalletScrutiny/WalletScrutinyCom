@@ -11,19 +11,19 @@ stars: 4.5
 ratings: 145
 reviews: 90
 size: 26M
-website: 
+website: https://www.safepal.io
 repository: 
 issue: 
 icon: io.safepal.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: iSafePal
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,10 +33,26 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "io.safepal.wallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=io.safepal.wallet).
+On Google Play they claim
 
-Probably an engineer will soon have a deeper look at this app.
+> SafePal is one of the earliest crypto wallet brands invested and backed by
+  Binance
 
-So far we are not even sure it is a wallet ... Please check back later.
+While Binance did review some SafePal hardware wallet, we can't find Binance
+supporting the claim of investment. In particular, SafePal links to
+[this Binance site](https://labs.binance.com/) where we find a list of
+investments but no mention of SafePal.
+
+On their website there is a whole list of "global leaders" that backed them but
+here, the "Binance labs" link is a different one and
+[dead](https://www.binancelabs.co/),
+[this sponsor's website](https://bittemple.io/) uses a totally wrong ssl
+certificate and none of the other supposed backers mentions SafePal on the
+linked pages.
+
+> SafePal cryptocurrency wallet application is a decentralized application.
+  The mnemonic phrase is stored by users. SafePal does not read or store
+  sensitive account information including private key and mnemonic phrase.
+
+So they do claim to be non-custodial but there is no source code anywhere to be
+found which makes the app **not verifiable**.

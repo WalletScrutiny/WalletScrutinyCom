@@ -11,14 +11,14 @@ stars: 4.6
 ratings: 267
 reviews: 114
 size: 41M
-website: 
+website: https://techbank.finance
 repository: 
 issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,10 +33,6 @@ redirect_from:
 ---
 
 
-This page was created by a script from the **appId** "com.beeone.techbank" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.beeone.techbank).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+Neither on Google Play nor their website do we found claims about this app being
+a non-custodial wallet and as the name Tech**Bank** sounds rather custodial, we
+file it as such and conclude this app is **not verifiable**.
