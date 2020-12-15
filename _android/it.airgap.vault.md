@@ -17,7 +17,7 @@ issue: https://github.com/airgap-it/airgap-vault/issues/32
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2020-12-15
 reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
@@ -73,16 +73,102 @@ redirect_from:
 ---
 
 
-For the latest version our
+**Update:** So the provider added the missing tag from our last try but
+unfortunately the verdict did not change.
+
+We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
-came to this conclusion:
+again which delivered these results:
 
 ```
-fatal: Remote branch v3.5.1 not found in upstream origin
+Results:
+appId:          it.airgap.vault
+signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+apkVersionName: 3.5.1
+apkVersionCode: 23940
+apkHash:        f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823
+
+Diff:
+Files /tmp/fromPlay_it.airgap.vault_23940/apktool.yml and /tmp/fromBuild_it.airgap.vault_23940/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_23940/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_23940/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_23940/assets/public: main.48c0b1291dc2c9240100.js
+Only in /tmp/fromPlay_it.airgap.vault_23940/assets/public: main.cd4034adbb37067a0b90.js
+Files /tmp/fromPlay_it.airgap.vault_23940/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_23940/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.SF
+
+Revision, tag (and its signature):
+object 32c980cd295c3976b5a4350cec30d8b10e00e650
+type commit
+tag v3.5.1
+tagger Mike Godenzi <m.godenzi@papers.ch> 1605788380 +0100
+
+version 3.5.1
 ```
 
-which means the the code might be there but the provider did not tag the
-revision that was used for this release.
+which means the build is **not verifiable**.
 
-We assume this can be sorted out but in the interim suggest to not update this
-app.
+**Digging deeper** we looked at what's going on and found:
+
+* `index.html` differs in its reference to the `main.*.js`
+* meld didn't like comparing those `main.*.js` consisting of one line
+  with 5,206,447 characters each
+
+After unfolding this **obfuscated** JS code with `js-beautify`, the diff became
+more manageable. Turns out the obfuscator "invented" a different name for one
+function name replacement and listed the functions in a different order:
+
+The diff became a long list of essentially this:
+
+```
+...
+82387c82387
+<             var jt = Ht("N+aw"),
+---
+>             var jt = Ht("AQYT"),
+87698c87698
+<             var jt = Ht("N+aw"),
+---
+>             var jt = Ht("AQYT"),
+88540c88540
+<                 var jt = Ht("N+aw"),
+---
+>                 var jt = Ht("AQYT"),
+90380c90380
+<             var Jt = Ht("N+aw"),
+---
+>             var Jt = Ht("AQYT"),
+...
+```
+
+and these function definitions in different lines:
+
+```
+55407,56453d56453
+<         "N+aw": function(Qt, Ft, Ht) {
+<             (function(Qt) {
+<                 ! function(Qt, Ft) {
+```
+
+vs.
+
+```
+21489a21490,22536
+>         AQYT: function(Qt, Ft, Ht) {
+>             (function(Qt) {
+>                 ! function(Qt, Ft) {
+```
+
+We
+could replace one string with the other in one of the files, move a code block
+and come to the same result. This does **not** count as reproducible as nobody
+can be burdened with these steps but neither did we find a smoking gun. If the
+code on GitHub is fine then so is the app we got from Google Play.
+
+Lastly we recently introduced a new category for
+[obfuscated apps](https://walletscrutiny.com/moreApps/#obfuscated) and will have
+to move this app there if the problem cannot be resolved with the next release.
+
+Obfuscation/Minification is not a problem as long as the app is reproducible but
+a diff in obfuscated code makes analysis significantly harder as we had to
+experience today.
