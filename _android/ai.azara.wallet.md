@@ -1,5 +1,5 @@
 ---
-title: "Azara Crypto & Bitcoin Wallet"
+title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
 altTitle: 
 
 users: 50

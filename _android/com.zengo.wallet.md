@@ -2,14 +2,14 @@
 title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.zengo.wallet
 launchDate: 
 latestUpdate: 2020-12-02
 apkVersionName: "2.18.1"
 stars: 4.5
-ratings: 1135
-reviews: 528
+ratings: 1155
+reviews: 536
 size: 75M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

@@ -5,12 +5,12 @@ altTitle:
 users: 500000
 appId: com.enjin.mobile.wallet
 launchDate: 2018-01-01
-latestUpdate: 2020-10-12
-apkVersionName: "1.10.0-r"
+latestUpdate: 2020-12-14
+apkVersionName: "1.11.0-r"
 stars: 4.4
-ratings: 6398
-reviews: 3875
-size: 35M
+ratings: 6420
+reviews: 3885
+size: 31M
 website: https://enjin.io/products/wallet
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.enjin.mobile.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

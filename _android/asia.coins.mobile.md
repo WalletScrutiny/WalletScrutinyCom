@@ -5,11 +5,11 @@ altTitle:
 users: 5000000
 appId: asia.coins.mobile
 launchDate: 2014-10-01
-latestUpdate: 2020-12-11
+latestUpdate: 2020-12-15
 apkVersionName: "3.5.15"
 stars: 4.3
-ratings: 85246
-reviews: 37604
+ratings: 85431
+reviews: 37678
 size: 51M
 website: https://coins.ph
 repository: 

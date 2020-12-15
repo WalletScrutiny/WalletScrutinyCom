@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2018-11-14
 apkVersionName: "0.0.3e"
 stars: 4.0
-ratings: 69
-reviews: 36
+ratings: 70
+reviews: 37
 size: 11M
 website: 
 repository: 

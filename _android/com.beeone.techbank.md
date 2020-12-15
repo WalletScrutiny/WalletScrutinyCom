@@ -5,11 +5,11 @@ altTitle:
 users: 5000
 appId: com.beeone.techbank
 launchDate: 
-latestUpdate: 2020-11-12
-apkVersionName: "3.7.9"
+latestUpdate: 2020-12-14
+apkVersionName: "3.8"
 stars: 4.6
-ratings: 267
-reviews: 114
+ratings: 273
+reviews: 118
 size: 41M
 website: https://techbank.finance
 repository: 
@@ -18,7 +18,7 @@ icon: com.beeone.techbank.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

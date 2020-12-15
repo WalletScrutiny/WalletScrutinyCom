@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
-latestUpdate: 2020-12-08
-apkVersionName: "3.4.3"
+latestUpdate: 2020-12-15
+apkVersionName: "3.4.4"
 stars: 3.8
-ratings: 665
-reviews: 369
+ratings: 667
+reviews: 370
 size: 34M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/

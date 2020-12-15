@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.probit.app.android2.release.global
 launchDate: 
-latestUpdate: 2020-12-01
-apkVersionName: "1.27.2"
+latestUpdate: 2020-12-14
+apkVersionName: "1.28"
 stars: 4.0
-ratings: 2633
-reviews: 1772
-size: 17M
+ratings: 2636
+reviews: 1776
+size: 18M
 website: https://www.probit.com
 repository: 
 issue: 
