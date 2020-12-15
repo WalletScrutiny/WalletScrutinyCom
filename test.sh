@@ -5,7 +5,7 @@ downloadedApp="$1"
 if ! [[ $downloadedApp =~ ^/.* ]]; then
   downloadedApp="$PWD/$downloadedApp"
 fi
-wsDocker="walletscrutiny/android:4"
+wsDocker="walletscrutiny/android:5"
 
 set -x
 
