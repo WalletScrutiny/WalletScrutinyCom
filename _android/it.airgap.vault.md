@@ -16,7 +16,7 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/32
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-15
 reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
@@ -73,12 +73,41 @@ redirect_from:
 ---
 
 
-**Update:** So the provider added the missing tag from our last try but
-unfortunately the verdict did not change.
+**Update:** Version 3.5.1 had its issues. First, the version was not tagged,
+when that was fixed, the build was not reproducible and then, when we
+ran the same script on the same file a third time ... maybe the dice fell lucky?
+In any case we got the exact same result as what we got from Google Play.
 
 We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
 again which delivered these results:
+
+```
+Results:
+appId:          it.airgap.vault
+signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+apkVersionName: 3.5.1
+apkVersionCode: 23940
+apkHash:        f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823
+
+Diff:
+Files /tmp/fromPlay_it.airgap.vault_23940/apktool.yml and /tmp/fromBuild_it.airgap.vault_23940/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_23940/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_23940/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.SF
+
+Revision, tag (and its signature):
+object 32c980cd295c3976b5a4350cec30d8b10e00e650
+type commit
+tag v3.5.1
+tagger Mike Godenzi <m.godenzi@papers.ch> 1605788380 +0100
+
+version 3.5.1
+```
+
+Which means the build is **reproducible**.
+
+# Prior script run on the same file
 
 ```
 Results:
@@ -172,3 +201,8 @@ to move this app there if the problem cannot be resolved with the next release.
 Obfuscation/Minification is not a problem as long as the app is reproducible but
 a diff in obfuscated code makes analysis significantly harder as we had to
 experience today.
+
+In theory, if only one of 100 attempts of reproducing an app succeeds,
+succeeding once is proof that the binary is derived from the source, so failing
+to reproduce one and succeeding once should be good enough. We just won't re-run
+many times in the future. The provider has to fix the setup.
