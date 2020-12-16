@@ -5,12 +5,12 @@ altTitle:
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
 launchDate: 2014-12-05
-latestUpdate: 2020-09-24
-apkVersionName: "1.14.3"
+latestUpdate: 2020-12-16
+apkVersionName: "1.15.0"
 stars: 3.3
-ratings: 3003
-reviews: 838
-size: 12M
+ratings: 3002
+reviews: 837
+size: 11M
 website: https://spectrocoin.com
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

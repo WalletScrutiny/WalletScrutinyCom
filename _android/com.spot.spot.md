@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-09
 apkVersionName: "4.14.0.2349-c562d416"
 stars: 4.3
-ratings: 3288
-reviews: 1641
+ratings: 3291
+reviews: 1642
 size: 63M
 website: https://www.spot-bitcoin.com
 repository: 

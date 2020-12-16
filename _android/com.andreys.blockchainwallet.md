@@ -7,9 +7,9 @@ appId: com.andreys.blockchainwallet
 launchDate: 
 latestUpdate: 2020-08-30
 apkVersionName: "21"
-stars: 4.1
-ratings: 1110
-reviews: 275
+stars: 4.2
+ratings: 1108
+reviews: 274
 size: 12M
 website: 
 repository: 
