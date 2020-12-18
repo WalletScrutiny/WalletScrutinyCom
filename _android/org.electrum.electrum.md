@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: org.electrum.electrum
 launchDate: 2016-03-02
-latestUpdate: 2020-12-09
-apkVersionName: "4.0.7.0"
-stars: 3.4
-ratings: 1925
-reviews: 1167
+latestUpdate: 2020-12-17
+apkVersionName: "4.0.8.0"
+stars: 3.5
+ratings: 1930
+reviews: 1171
 size: 20M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

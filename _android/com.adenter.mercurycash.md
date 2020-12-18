@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-11-17
 apkVersionName: "4.2.7"
 stars: 4.4
-ratings: 158
+ratings: 159
 reviews: 112
 size: 82M
 website: http://mercury.cash

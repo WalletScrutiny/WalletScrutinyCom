@@ -5,10 +5,10 @@ altTitle:
 users: 10000
 appId: com.XcelTrip.XcelPay
 launchDate: 
-latestUpdate: 2020-12-03
-apkVersionName: "2.12.2"
+latestUpdate: 2020-12-17
+apkVersionName: "2.13.0"
 stars: 4.0
-ratings: 332
+ratings: 333
 reviews: 217
 size: 24M
 website: http://www.xcelpay.io
@@ -18,7 +18,7 @@ icon: com.XcelTrip.XcelPay.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

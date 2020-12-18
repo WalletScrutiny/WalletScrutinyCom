@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.bitrue.currency.exchange
 launchDate: 
-latestUpdate: 2020-12-04
-apkVersionName: "4.3.4"
-stars: 3.8
-ratings: 1006
-reviews: 650
-size: 35M
+latestUpdate: 2020-12-17
+apkVersionName: "4.3.5"
+stars: 3.9
+ratings: 1012
+reviews: 655
+size: 36M
 website: https://www.bitrue.com
 repository: 
 issue: 

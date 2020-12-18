@@ -7,9 +7,9 @@ appId: com.bitmart.bitmarket
 launchDate: 
 latestUpdate: 2020-12-04
 apkVersionName: "2.3.5"
-stars: 3.6
-ratings: 582
-reviews: 352
+stars: 3.5
+ratings: 583
+reviews: 353
 size: 31M
 website: https://www.bitmart.com
 repository: 

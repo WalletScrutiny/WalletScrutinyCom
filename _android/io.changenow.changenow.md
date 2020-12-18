@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-10-25
 apkVersionName: "1.99"
 stars: 4.7
-ratings: 411
-reviews: 236
+ratings: 414
+reviews: 239
 size: 5.7M
 website: http://changenow.io
 repository: 

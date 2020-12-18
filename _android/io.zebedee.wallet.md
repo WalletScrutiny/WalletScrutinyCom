@@ -5,7 +5,7 @@ altTitle:
 users: 100
 appId: io.zebedee.wallet
 launchDate: 
-latestUpdate: 2020-11-18
+latestUpdate: 2020-12-17
 apkVersionName: "11.0.0"
 stars: 0.0
 ratings: 
@@ -18,7 +18,7 @@ icon: io.zebedee.wallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

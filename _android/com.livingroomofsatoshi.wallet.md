@@ -2,14 +2,14 @@
 title: "Wallet of Satoshi"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
 latestUpdate: 2020-12-16
 apkVersionName: "1.10.4"
-stars: 3.8
-ratings: 233
-reviews: 135
+stars: 3.9
+ratings: 231
+reviews: 134
 size: 10M
 website: http://www.walletofsatoshi.com
 repository: 

@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.crypto.multiwallet
 launchDate: 2018-11-01
-latestUpdate: 2020-12-14
-apkVersionName: "2.14.3"
-stars: 4.4
-ratings: 1655
-reviews: 927
+latestUpdate: 2020-12-16
+apkVersionName: "2.14.5"
+stars: 4.5
+ratings: 1664
+reviews: 931
 size: 34M
 website: http://guarda.co
 repository: 
@@ -18,7 +18,7 @@ icon: com.crypto.multiwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
