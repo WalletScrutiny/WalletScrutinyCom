@@ -13,12 +13,12 @@ reviews: 927
 size: 34M
 website: http://guarda.co
 repository: 
-issue: 
+issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-15
-reviewStale: true
+date: 2019-12-17
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -39,6 +39,7 @@ redirect_from:
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google
 Play and "Guarda Wallet – for Bitcoin, Ethereum, etc." according to the app name -
+
 
 doesn't have access to your private keys ...
 
