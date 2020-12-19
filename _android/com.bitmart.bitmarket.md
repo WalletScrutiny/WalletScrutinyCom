@@ -6,11 +6,11 @@ users: 50000
 appId: com.bitmart.bitmarket
 launchDate: 
 latestUpdate: 2020-12-04
-apkVersionName: "2.3.5"
-stars: 3.5
-ratings: 583
-reviews: 353
-size: 31M
+apkVersionName: "2.3.8"
+stars: 3.6
+ratings: 584
+reviews: 354
+size: 33M
 website: https://www.bitmart.com
 repository: 
 issue: 

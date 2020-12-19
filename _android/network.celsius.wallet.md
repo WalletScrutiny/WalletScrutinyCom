@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-10
 apkVersionName: "4.6.1"
 stars: 4.8
-ratings: 2757
-reviews: 2054
+ratings: 2915
+reviews: 2205
 size: 94M
 website: https://celsius.network
 repository: 

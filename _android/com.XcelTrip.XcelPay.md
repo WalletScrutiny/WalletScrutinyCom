@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.XcelTrip.XcelPay
 launchDate: 
-latestUpdate: 2020-12-17
-apkVersionName: "2.13.0"
+latestUpdate: 2020-12-18
+apkVersionName: "2.13.2"
 stars: 4.0
 ratings: 333
 reviews: 217
-size: 24M
+size: 31M
 website: http://www.xcelpay.io
 repository: 
 issue: 

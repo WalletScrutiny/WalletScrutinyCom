@@ -7,8 +7,8 @@ appId: com.trusteewallet
 launchDate: 2019-05-01
 latestUpdate: 2020-11-25
 apkVersionName: "1.40.644"
-stars: 4.4
-ratings: 950
+stars: 4.2
+ratings: 952
 reviews: 606
 size: 55M
 website: https://trustee.deals

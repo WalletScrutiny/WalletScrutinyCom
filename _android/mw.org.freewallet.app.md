@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: mw.org.freewallet.app
 launchDate: 2017-08-10
-latestUpdate: 2020-12-03
-apkVersionName: "1.14.15"
+latestUpdate: 2020-12-18
+apkVersionName: "1.14.17"
 stars: 4.1
-ratings: 6900
-reviews: 4429
+ratings: 6917
+reviews: 4440
 size: 12M
 website: https://freewallet.org
 repository: 
