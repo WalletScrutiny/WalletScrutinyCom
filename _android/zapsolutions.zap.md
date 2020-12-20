@@ -21,6 +21,11 @@ date: 2019-12-30
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2019-12-30
+  version: "0.2.11"
+  apkHash: 
+  gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
+  verdict: nonverifiable
 
 
 providerTwitter: ln_zap

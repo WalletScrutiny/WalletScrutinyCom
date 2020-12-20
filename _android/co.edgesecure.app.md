@@ -23,8 +23,8 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
+providerTwitter: edgewallet
+providerLinkedIn: company/3609678
 providerFacebook: 
 providerReddit: 
 

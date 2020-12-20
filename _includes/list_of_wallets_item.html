@@ -27,7 +27,7 @@
     <div style="position:relative">
       <div class="flex-r">
         <div class="app_logo">
-            <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+            <img src="{{ base_path }}/images/wallet_icons/{{ platform }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
         </div>
         <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
       </div>
@@ -48,13 +48,19 @@
           </span>
         </td>
       </tr>
-      <tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>
-      <tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>
-      <tr><td>App size</td><td>{{ post.size }}B</td></tr>
-      <tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>
-      <tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>
-      <tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>
+      {% if prettyUserCount %}<tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>{% endif %}
+      {% if post.stars %}<tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>{% endif %}
+      {% if post.score %}<tr><td>Rating</td><td>{{ post.score }} stars by {{ post.reviews }} users</td></tr>{% endif %}
+      {% if post.size %}<tr><td>App size</td><td>{{ post.size }}B</td></tr>{% endif %}
+      {% if post.released %}<tr><td>Launched</td><td>{{ post.released | date: '%Y-%m-%d' }}</td></tr>{% endif %}
+      {% if post.launchDate %}<tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>{% endif %}
+      {% if post.updated %}<tr><td>Updated</td><td>{{ post.updated | date: '%Y-%m-%d' }}</td></tr>{% endif %}
+      {% if post.date %}<tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>{% endif %}
+      {% if platform == "android" %}<tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>
+      {% elsif platform == "iphone" %}<tr><td>App Store</td><td><a href="https://apps.apple.com/us/app/id{{ post.idd }}">{{ post.appId }}</a></td></tr>
+      {% endif %}
       {% if post.website %}<tr><td>Website</td><td><a href="{{ post.website }}">{{ post.website }}</a></td></tr>{% endif %}
+      {% if post.developerWebsite %}<tr><td>Website</td><td><a href="{{ post.developerWebsite }}">{{ post.developerWebsite }}</a></td></tr>{% endif %}
       {% if post.repository %}<tr><td>Source Code</td><td><a href="{{ post.repository }}">{{ post.repository }}</a></td></tr>{% endif %}
       {% if post.issue %}<tr><td>Open Issue</td><td><a href="{{ post.issue }}">{{ post.issue }}</a></td></tr>{% endif %}
       {% if post.providerTwitter %}<tr><td>Twitter</td><td><a href="https://twitter.com/{{ post.providerTwitter }}">@{{ post.providerTwitter }}</a></td></tr>{% endif %}

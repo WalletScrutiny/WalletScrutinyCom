@@ -1,6 +1,12 @@
 {% include base_path %}
 {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5,0" | split: "," %}
-{% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
+
+{% if platform == "android" %}
+  {% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
+{% elsif platform == "iphone" %}
+  {% assign posts_by_ratings = site.iphone | sort: "reviews" | reverse %}
+{% endif %}
+
 <div class="page-section">
   <div class="input-org">
     {% if showVerdictFilter %}
@@ -20,11 +26,13 @@
         <div class="flexi-list">
         {% for d in downloads %}
           {% for post in posts_by_ratings %}
-            {% assign users = post.users | downcase %}
-            {% if post.verdict == v %}
-              {% if users == d %}
-                {% include list_of_wallets_item.html %}
-              {% endif %}
+            {% if post.users %}
+              {% assign users = post.users | downcase %}
+            {% else %}
+              {% assign users = "0" %}
+            {% endif %}
+            {% if post.verdict == v and users == d %}
+              {% include list_of_wallets_item.html %}
             {% endif %}
           {% endfor %}
         {% endfor %}

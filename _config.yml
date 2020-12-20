@@ -180,6 +180,9 @@ collections:
   android:
     output: true
     permalink: /:collection/:path/
+  iphone:
+    output: true
+    permalink: /:collection/:path/
   linux:
     output: true
     permalink: /:collection/:path/
@@ -192,6 +195,17 @@ defaults:
       type: "android"
     values:
       layout: reviewAndroid
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # iPhone
+  - scope:
+      path: ""
+      type: "iphone"
+    values:
+      layout: reviewIPhone
       author_profile: true
       read_time: false
       comments: false

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir images/wallet_icons/tiny/ images/wallet_icons/small/ 2> /dev/null
+mkdir images/wallet_icons/{android,iphone}/{small,tiny}/ 2> /dev/null
 
 resizeDeterministically() {
   filename=$1
@@ -15,7 +15,9 @@ resizeDeterministically() {
 
 export -f resizeDeterministically
 
-files=$( ls images/wallet_icons/*.* )
-parallel resizeDeterministically {/} images/wallet_icons images/wallet_icons/small 100 ::: $files
-parallel resizeDeterministically {/} images/wallet_icons images/wallet_icons/tiny 25 ::: $files
-resizeDeterministically hacker.jpg resSources images 300
+files=$( ls images/wallet_icons/android/*.* )
+parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/small 100 ::: $files
+parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/tiny 25 ::: $files
+files=$( ls images/wallet_icons/iphone/*.* )
+parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/small 100 ::: $files
+parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 ::: $files

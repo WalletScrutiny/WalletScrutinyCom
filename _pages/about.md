@@ -38,6 +38,7 @@ author_profile: true
 
 <h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
 
+{% assign platform = "android" %}
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
 {% assign selectedVerdict = "reproducible" %}
 {% assign showVerdictFilter = true %}
