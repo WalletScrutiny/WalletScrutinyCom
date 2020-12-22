@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.koinal.android
 launchDate: 
-latestUpdate: 2020-11-29
-apkVersionName: "1.1.2"
+latestUpdate: 2020-12-21
+apkVersionName: "1.1.3"
 stars: 4.2
-ratings: 242
-reviews: 176
+ratings: 243
+reviews: 175
 size: 27M
 website: https://www.koinal.io
 repository: 
@@ -18,7 +18,7 @@ icon: com.koinal.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

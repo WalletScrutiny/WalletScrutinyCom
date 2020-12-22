@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-06-08
 apkVersionName: "1.4.2"
 stars: 4.3
-ratings: 104
+ratings: 105
 reviews: 57
 size: 80M
 website: https://utrust.com

@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-14
 apkVersionName: "Varies with device"
 stars: 5.0
-ratings: 2173
-reviews: 1956
+ratings: 2198
+reviews: 1982
 size: Varies with device
 website: http://swapwallet.com
 repository: 

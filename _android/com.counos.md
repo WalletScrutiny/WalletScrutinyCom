@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-05-01
 apkVersionName: "1.9.2"
 stars: 4.0
-ratings: 502
-reviews: 347
+ratings: 503
+reviews: 348
 size: 11M
 website: https://www.counos.io
 repository: 

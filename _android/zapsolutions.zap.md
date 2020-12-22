@@ -5,7 +5,7 @@ altTitle:
 users: 5000
 appId: zapsolutions.zap
 launchDate: 
-latestUpdate: 2020-12-05
+latestUpdate: 2020-12-18
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -26,7 +26,6 @@ reviewArchive:
   apkHash: 
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
-
 
 providerTwitter: ln_zap
 providerLinkedIn: 

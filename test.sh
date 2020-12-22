@@ -143,12 +143,13 @@ testMycelium() {
 
   git clone https://github.com/mycelium-com/wallet-android-modularization-tools
   git submodule update --init --recursive
+  docker build -t mycelium_builder .
   
   # build
   sudo rm -rf $workDir/sorted
   mkdir $workDir/sorted
   sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $workDir/app $workDir/sorted
-  docker run --volume $workDir/sorted:/mnt --workdir /mnt -it --rm $wsDocker \
+  docker run --volume $workDir/sorted:/mnt --workdir /mnt -it --rm mycelium_builder \
       bash -c "./gradlew -x lint -x test clean $buildTarget;chown $(id -u):$(id -g) -R /mnt/;
         bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet"
   sudo umount $workDir/sorted

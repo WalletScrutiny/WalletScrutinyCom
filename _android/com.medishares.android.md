@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-12-18
 apkVersionName: "3.8.9"
 stars: 4.2
-ratings: 681
+ratings: 680
 reviews: 356
 size: 54M
 website: https://mathwallet.org

@@ -5,10 +5,10 @@ altTitle:
 users: 50000
 appId: com.getchange.wallet.cordova
 launchDate: 
-latestUpdate: 2020-12-10
-apkVersionName: "10.9.115"
-stars: 4.7
-ratings: 1070
+latestUpdate: 2020-12-21
+apkVersionName: "10.9.118"
+stars: 4.6
+ratings: 1078
 reviews: 540
 size: 33M
 website: https://getchange.com

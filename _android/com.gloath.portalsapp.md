@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.gloath.portalsapp
 launchDate: 
-latestUpdate: 2018-11-14
-apkVersionName: "0.0.3e"
+latestUpdate: 2020-12-20
+apkVersionName: "0.0.4a"
 stars: 4.0
 ratings: 70
 reviews: 37
@@ -18,7 +18,7 @@ icon: com.gloath.portalsapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

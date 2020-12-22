@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.binance.us
 launchDate: 
-latestUpdate: 2020-11-14
-apkVersionName: "1.3.0"
-stars: 3.0
-ratings: 717
-reviews: 481
+latestUpdate: 2020-12-20
+apkVersionName: "2.0.0"
+stars: 3.1
+ratings: 750
+reviews: 501
 size: Varies with device
 website: https://www.binance.us
 repository: 
@@ -18,7 +18,7 @@ icon: com.binance.us.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
