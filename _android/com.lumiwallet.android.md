@@ -7,9 +7,9 @@ appId: com.lumiwallet.android
 launchDate: 2018-01-15
 latestUpdate: 2020-12-21
 apkVersionName: "3.2.5"
-stars: 4.9
-ratings: 4147
-reviews: 796
+stars: 4.8
+ratings: 3361
+reviews: 789
 size: 7.7M
 website: https://lumiwallet.com
 repository: 

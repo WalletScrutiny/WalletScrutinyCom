@@ -5,10 +5,10 @@ altTitle:
 users: 50000
 appId: com.sf.monarch
 launchDate: 2018-10-19
-latestUpdate: 2020-09-18
-apkVersionName: "2.1.6"
+latestUpdate: 2020-12-18
+apkVersionName: "2.1.7"
 stars: 3.5
-ratings: 725
+ratings: 727
 reviews: 375
 size: 18M
 website: https://monarchwallet.com

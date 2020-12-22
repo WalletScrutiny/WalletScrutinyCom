@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-09-05
 apkVersionName: "3.1.24"
 stars: 2.5
-ratings: 989
-reviews: 720
+ratings: 990
+reviews: 721
 size: 18M
 website: https://www.bitcoin-india.org
 repository: 

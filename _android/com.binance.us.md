@@ -1,15 +1,15 @@
 ---
-title: "Binance.US: Buy Bitcoin with USD.  Crypto Wallet"
+title: "Binance.US"
 altTitle: 
 
 users: 100000
 appId: com.binance.us
 launchDate: 
-latestUpdate: 2020-12-20
-apkVersionName: "2.0.0"
-stars: 3.1
-ratings: 750
-reviews: 501
+latestUpdate: 2020-12-22
+apkVersionName: "2.0.1"
+stars: 2.9
+ratings: 773
+reviews: 518
 size: Varies with device
 website: https://www.binance.us
 repository: 

@@ -5,10 +5,10 @@ altTitle:
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2020-12-02
+latestUpdate: 2020-12-17
 apkVersionName: "2.18.1"
 stars: 4.6
-ratings: 1193
+ratings: 1196
 reviews: 547
 size: 75M
 website: https://www.zengo.com
