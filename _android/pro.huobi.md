@@ -7,9 +7,9 @@ appId: pro.huobi
 launchDate: 
 latestUpdate: 2020-12-17
 apkVersionName: "6.0.5"
-stars: 3.9
-ratings: 5584
-reviews: 1981
+stars: 4.0
+ratings: 5585
+reviews: 1982
 size: 56M
 website: https://www.huobi.com/en-us
 repository: 

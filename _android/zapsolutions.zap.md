@@ -38,6 +38,13 @@ redirect_from:
 ---
 
 
+This app is a remote control for lnd, the lightning network daemon. As such it
+is not exactly a wallet in the sense of many other wallets here as the lnd
+connected to, also has control over the funds but in a setup where you connect
+to your own lnd, Zap gets into the position of being able to steal your funds.
+If you have strong objections with the classification as a wallet, please open
+an issue on our GitLab.
+
 This app was not reproducible but the provider recently
 [let us know](https://github.com/LN-Zap/zap-android/issues/161#issuecomment-748204880)
 that version `0.3.8` would be reproducible.

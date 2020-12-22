@@ -8,7 +8,7 @@ launchDate: 2016-07-21
 latestUpdate: 2020-12-20
 apkVersionName: "4.6.0"
 stars: 4.2
-ratings: 16148
+ratings: 16150
 reviews: 6572
 size: 24M
 website: https://brd.com
