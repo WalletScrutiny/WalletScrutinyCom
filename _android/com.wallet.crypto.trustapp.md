@@ -1,15 +1,15 @@
 ---
-title: "Trust Crypto Wallet: Bitcoin Ethereum Tron XRP PAX"
+title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
 
 users: 1000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2020-12-14
+latestUpdate: 2020-12-21
 apkVersionName: "1.22.24"
 stars: 4.5
-ratings: 138859
-reviews: 47758
+ratings: 139021
+reviews: 47777
 size: 32M
 website: https://trustwallet.com
 repository: 

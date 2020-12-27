@@ -12,7 +12,7 @@ newAppIds.forEach(function(appId) {
       if (!fileExists) {
         const file = fs.createWriteStream(path)
         file.write(`---
-appId: ${app.appId}
+appId: ${appId}
 verdict: wip
 ---
 `)
