@@ -7,8 +7,8 @@ idd: 943912290
 released: 2014-12-17
 updated: 2020-12-15
 version: "1.15"
-score: 2.23571
-reviews: 280
+score: 2.24735
+reviews: 283
 size: 7646208
 developerWebsite: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios

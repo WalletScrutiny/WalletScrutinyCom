@@ -16,9 +16,9 @@ repository:
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-26
+reviewStale: false
 signer: 
 reviewArchive:
 

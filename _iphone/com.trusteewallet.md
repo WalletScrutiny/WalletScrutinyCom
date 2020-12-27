@@ -5,11 +5,11 @@ altTitle:
 appId: com.trusteewallet
 idd: 1462924276
 released: 2019-06-14
-updated: 2020-11-09
-version: "1.40.639"
+updated: 2020-12-22
+version: "1.40.654"
 score: 5
 reviews: 3
-size: 64093184
+size: 66259968
 developerWebsite: https://trustee.deals/
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.trusteewallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

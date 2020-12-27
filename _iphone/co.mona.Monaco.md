@@ -5,11 +5,11 @@ altTitle:
 appId: co.mona.Monaco
 idd: 1262148500
 released: 2017-08-31
-updated: 2020-12-14
-version: "3.77"
-score: 4.4271
-reviews: 6022
-size: 274484224
+updated: 2020-12-23
+version: "3.78"
+score: 4.42354
+reviews: 6101
+size: 275334144
 developerWebsite: https://crypto.com/
 repository: 
 issue: 

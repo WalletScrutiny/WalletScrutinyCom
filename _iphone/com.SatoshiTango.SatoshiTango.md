@@ -5,11 +5,11 @@ altTitle:
 appId: com.SatoshiTango.SatoshiTango
 idd: 1002555958
 released: 2015-07-08
-updated: 2020-10-20
-version: "3.4.14"
+updated: 2020-12-24
+version: "3.4.15"
 score: 4.32258
 reviews: 31
-size: 119396352
+size: 128783360
 developerWebsite: http://www.satoshitango.com
 repository: 
 issue: 

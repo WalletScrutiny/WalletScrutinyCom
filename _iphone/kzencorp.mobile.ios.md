@@ -5,11 +5,11 @@ altTitle:
 appId: kzencorp.mobile.ios
 idd: 1440147115
 released: 2019-06-07
-updated: 2020-12-02
-version: "2.18.1"
-score: 4.65835
-reviews: 802
-size: 79447040
+updated: 2020-12-24
+version: "2.19.0"
+score: 4.64619
+reviews: 814
+size: 79810560
 developerWebsite: https://www.zengo.com
 repository: 
 issue: 

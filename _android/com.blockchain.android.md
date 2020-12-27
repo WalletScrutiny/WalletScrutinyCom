@@ -8,8 +8,8 @@ launchDate: 2020-06-15
 latestUpdate: 2020-12-15
 apkVersionName: "1.0.7.5"
 stars: 4.5
-ratings: 2337
-reviews: 472
+ratings: 2376
+reviews: 481
 size: 21M
 website: 
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

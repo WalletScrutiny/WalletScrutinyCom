@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.coinbase.pro
 launchDate: 
-latestUpdate: 2020-12-13
-apkVersionName: "1.0.54"
-stars: 2.6
-ratings: 2140
-reviews: 1484
+latestUpdate: 2020-12-24
+apkVersionName: "1.0.55"
+stars: 2.9
+ratings: 2174
+reviews: 1501
 size: 32M
 website: https://pro.coinbase.com
 repository: 

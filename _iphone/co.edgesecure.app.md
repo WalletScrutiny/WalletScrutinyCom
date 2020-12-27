@@ -5,11 +5,11 @@ altTitle:
 appId: co.edgesecure.app
 idd: 1344400091
 released: 2018-02-09
-updated: 2020-12-11
-version: "1.18.1"
-score: 4.32338
-reviews: 402
-size: 43928576
+updated: 2020-12-24
+version: "1.19.0"
+score: 4.33007
+reviews: 409
+size: 56725504
 developerWebsite: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
@@ -17,7 +17,7 @@ icon: co.edgesecure.app.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

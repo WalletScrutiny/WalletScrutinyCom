@@ -5,8 +5,8 @@ altTitle:
 appId: com.quppy.wallet
 idd: 1417802076
 released: 2018-08-09
-updated: 2020-12-19
-version: "1.0.40"
+updated: 2020-12-23
+version: "1.0.41"
 score: 4.94564
 reviews: 368
 size: 45872128

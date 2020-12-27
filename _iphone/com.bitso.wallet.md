@@ -5,11 +5,11 @@ altTitle:
 appId: com.bitso.wallet
 idd: 1292836438
 released: 2018-02-19
-updated: 2020-11-10
-version: "2.14.0"
+updated: 2020-12-25
+version: "2.16.0"
 score: 4.07143
 reviews: 28
-size: 89245696
+size: 93405184
 developerWebsite: https://bitso.com/app
 repository: 
 issue: 

@@ -5,10 +5,10 @@ altTitle:
 appId: net.bitstamp
 idd: 1406825640
 released: 2019-01-30
-updated: 2020-12-22
-version: "1.6"
-score: 4.81853
-reviews: 3276
+updated: 2020-12-23
+version: "1.6.1"
+score: 4.81859
+reviews: 3335
 size: 82379776
 developerWebsite: https://www.bitstamp.net/
 repository: 
@@ -17,7 +17,7 @@ icon: net.bitstamp.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

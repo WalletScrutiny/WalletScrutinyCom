@@ -5,11 +5,11 @@ altTitle:
 appId: tech.spotapp.spot
 idd: 1390560448
 released: 2018-08-07
-updated: 2020-12-18
-version: "3.0.1"
-score: 4.60249
-reviews: 1766
-size: 82743296
+updated: 2020-12-23
+version: "3.0.2"
+score: 4.599
+reviews: 1803
+size: 82833408
 developerWebsite: https://spot-bitcoin.com
 repository: 
 issue: 

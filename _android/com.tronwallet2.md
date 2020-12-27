@@ -1,5 +1,5 @@
 ---
-title: "TronWallet: Bitcoin Blockchain Wallet"
+title: "TronWallet"
 altTitle: 
 
 users: 1000000
@@ -7,9 +7,9 @@ appId: com.tronwallet2
 launchDate: 
 latestUpdate: 2020-07-23
 apkVersionName: "3.4.5"
-stars: 3.9
-ratings: 8466
-reviews: 4632
+stars: 3.8
+ratings: 8524
+reviews: 4665
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

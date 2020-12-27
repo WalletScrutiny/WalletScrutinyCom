@@ -7,9 +7,9 @@ appId: com.cobinhood.exchange
 launchDate: 
 latestUpdate: 2019-04-29
 apkVersionName: "3.50.1"
-stars: 2.2
-ratings: 636
-reviews: 373
+stars: 2.1
+ratings: 637
+reviews: 374
 size: 7.7M
 website: https://cobinhood.com
 repository: 

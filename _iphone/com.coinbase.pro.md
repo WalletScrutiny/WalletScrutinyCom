@@ -5,11 +5,11 @@ altTitle:
 appId: com.coinbase.pro
 idd: 1446636681
 released: 2019-10-10
-updated: 2020-12-13
-version: "1.0.54"
-score: 4.71059
-reviews: 20034
-size: 44040192
+updated: 2020-12-24
+version: "1.0.55"
+score: 4.71074
+reviews: 20808
+size: 44122112
 developerWebsite: https://pro.coinbase.com
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.coinbase.pro.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

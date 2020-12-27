@@ -2,21 +2,21 @@
 title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
 altTitle: 
 
-users: 500
+users: 1000
 appId: jb.tech.bitpiewallet
 launchDate: 
 latestUpdate: 2020-10-22
 apkVersionName: "1.2"
-stars: 4.6
-ratings: 64
-reviews: 64
+stars: 4.7
+ratings: 93
+reviews: 93
 size: 11M
 website: 
 repository: 
 issue: 
 icon: jb.tech.bitpiewallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
 reviewStale: true
 signer: 

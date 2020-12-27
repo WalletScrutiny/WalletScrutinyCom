@@ -5,12 +5,12 @@ altTitle:
 users: 50000
 appId: com.SatoshiTango.SatoshiTango
 launchDate: 
-latestUpdate: 2020-10-20
-apkVersionName: "3.4.14"
+latestUpdate: 2020-12-22
+apkVersionName: "3.4.15"
 stars: 4.3
-ratings: 3358
-reviews: 1854
-size: 64M
+ratings: 3386
+reviews: 1870
+size: 70M
 website: http://www.satoshitango.com
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

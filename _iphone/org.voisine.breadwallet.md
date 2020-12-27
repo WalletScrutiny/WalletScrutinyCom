@@ -1,15 +1,15 @@
 ---
-title: "BRD Bitcoin Wallet BTC BCH ETH"
+title: "BRD Bitcoin Wallet. Crypto BTC"
 altTitle: 
 
 appId: org.voisine.breadwallet
 idd: 885251393
 released: 2014-06-22
-updated: 2020-11-11
-version: "4.5.4"
-score: 4.56527
-reviews: 8555
-size: 31759360
+updated: 2020-12-23
+version: "4.6"
+score: 4.56511
+reviews: 8609
+size: 32517120
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios
 issue: 
@@ -17,7 +17,7 @@ icon: org.voisine.breadwallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

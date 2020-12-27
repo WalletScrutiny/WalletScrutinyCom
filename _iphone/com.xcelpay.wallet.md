@@ -5,10 +5,10 @@ altTitle:
 appId: com.xcelpay.wallet
 idd: 1461215417
 released: 2019-05-26
-updated: 2020-12-19
-version: "2.13.2"
-score: 5
-reviews: 8
+updated: 2020-12-23
+version: "2.13.6"
+score: 4.88889
+reviews: 9
 size: 41398272
 developerWebsite: http://xcelpay.io
 repository: 

@@ -7,8 +7,8 @@ idd: 1318395690
 released: 2019-08-19
 updated: 2020-09-28
 version: "1.3.8"
-score: 4.57297
-reviews: 185
+score: 4.57527
+reviews: 186
 size: 82487296
 developerWebsite: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven

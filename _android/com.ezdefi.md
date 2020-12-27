@@ -5,11 +5,11 @@ altTitle:
 users: 1000
 appId: com.ezdefi
 launchDate: 
-latestUpdate: 2020-11-22
-apkVersionName: "0.2.6"
-stars: 4.8
-ratings: 28
-reviews: 22
+latestUpdate: 2020-12-16
+apkVersionName: "0.2.8"
+stars: 4.9
+ratings: 34
+reviews: 25
 size: 15M
 website: https://ezdefi.com/
 repository: 
@@ -18,7 +18,7 @@ icon: com.ezdefi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

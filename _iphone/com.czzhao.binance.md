@@ -5,11 +5,11 @@ altTitle:
 appId: com.czzhao.binance
 idd: 1436799971
 released: 2018-10-06
-updated: 2020-12-20
-version: "2.23.0"
-score: 4.74626
-reviews: 19625
-size: 368844800
+updated: 2020-12-22
+version: "2.23.1"
+score: 4.71705
+reviews: 20325
+size: 368881664
 developerWebsite: https://www.binance.com
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.czzhao.binance.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
