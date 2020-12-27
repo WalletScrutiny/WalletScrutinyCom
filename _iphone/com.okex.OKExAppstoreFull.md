@@ -10,24 +10,32 @@ version: "4.5.2"
 score: 4.9885
 reviews: 16254
 size: 241772544
-developerWebsite: 
+developerWebsite: https://www.okex.com
 repository: 
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-23
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: OKEx
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: okexofficial
+providerReddit: OKEx
 
 redirect_from:
 
 ---
 
+On their website we find:
+
+> **Institutional-grade Security**<br>
+  Cold wallet technology developed by the world's top security team adopts a
+  multi-security-layer mechanism to safeguard your assets
+
+"Cold wallet technology" means this is a custodial offering and therefore
+**not verifiable**.

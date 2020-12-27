@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: binance
 providerLinkedIn: 
 providerFacebook: binance
-providerReddit: 
+providerReddit: binance
 
 redirect_from:
   - /binance/

@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: trustwalletapp
 providerLinkedIn: 
 providerFacebook: trustwalletapp
-providerReddit: 
+providerReddit: trustapp
 
 redirect_from:
   - /trust/

@@ -15,14 +15,14 @@ repository:
 issue: 
 icon: com.squareup.cash.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: cashapp
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -31,3 +31,9 @@ redirect_from:
 
 ---
 
+On their website the provider claims:
+
+> **Coin Storage**<br>
+  Your Bitcoin balance is securely stored in our offline system
+
+which means it is custodial.

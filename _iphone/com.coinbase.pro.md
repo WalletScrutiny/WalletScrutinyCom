@@ -15,19 +15,26 @@ repository:
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CoinbasePro
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: coinbase
 providerReddit: 
 
 redirect_from:
 
 ---
 
+On the website we read:
+
+> **Insurance protection**<br>
+  All digital assets held in online storage are fully insured. All USD balances
+  are covered by FDIC insurance, up to a maximum of $250,000 per customer.
+
+which look purely custodial. This app is **not verifiable**.

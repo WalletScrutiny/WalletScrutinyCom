@@ -15,19 +15,25 @@ repository:
 issue: 
 icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinbase
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: coinbase
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This app's provider claims:
+
+> Over 98% of cryptocurrency is stored securely offline and the rest is
+  protected by industry-leading online security.
+
+which clearly means it is a custodial offering.

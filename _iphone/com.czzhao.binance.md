@@ -15,19 +15,25 @@ repository:
 issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: binance
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: binance
+providerReddit: binance
 
 redirect_from:
 
 ---
 
+In the description the provider claims:
+
+> Your funds are protected by our Secure Asset Fund for Users (SAFU Funds) which
+  means we have your back.
+
+which sounds very custodial and as such the app is **not verifiable**.
