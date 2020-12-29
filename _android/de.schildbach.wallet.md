@@ -17,10 +17,15 @@ issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
-reviewStale: true
+date: 2020-12-29
+reviewStale: false
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2020-11-17
+  version: "8.07"
+  apkHash: c6cc907735d141b9f6cfaced1d14d2dc715bace78232ec7ff14682aad9fe2788
+  gitRevision: 8398bca6bf2ea88f668c85a1db5c3847c3df1139
+  verdict: reproducible
 - date: 2020-10-12
   version: "8.06"
   apkHash: 7c68050e0e746d9a7ea984ac2aa4d9541e5a140a073254f5c88036d1aa7430ab
@@ -113,23 +118,23 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.07
-apkVersionCode: 807
-apkHash:        c6cc907735d141b9f6cfaced1d14d2dc715bace78232ec7ff14682aad9fe2788
+apkVersionName: 8.08
+apkVersionCode: 808
+apkHash:        c16a1e33ae3b6b1f66e0029a3385323d8e3d3ccf8e58394284c96c4268ba6625
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_807/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_807/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_807/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_807/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_807/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_807/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_de.schildbach.wallet_808/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_808/apktool.yml differ
+Only in /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_808/original/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object a029c07c6217211ceff210996aa6bc9edd0ff2a8
+object 67c1b8ce0d7747fb6c36da823e0afef4dfd8352f
 type commit
-tag v8.07
-tagger Andreas Schildbach <andreas@schildbach.de> 1605228393 +0100
+tag v8.08
+tagger Andreas Schildbach <andreas@schildbach.de> 1607080536 +0100
 
-8.07 release
+8.08 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
