@@ -4,5 +4,6 @@ permalink: /moreApps/
 ---
 
 {% include base_path %}
+{% assign platform = "android" %}
 {% assign verdicts = "wip,nobtc,fewusers,obfuscated,defunct,nowallet" | split: "," %}
 {% include list_of_wallets.html %}

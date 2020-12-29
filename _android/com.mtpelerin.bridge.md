@@ -24,8 +24,8 @@ reviewArchive:
 
 
 providerTwitter: mtpelerin
-providerLinkedIn: company/mt-pelerin/
-providerFacebook: mtpelerin/
+providerLinkedIn: company/mt-pelerin
+providerFacebook: mtpelerin
 providerReddit: MtPelerin
 
 redirect_from:
