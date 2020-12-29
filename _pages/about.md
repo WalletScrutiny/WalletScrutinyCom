@@ -36,14 +36,17 @@ author_profile: true
 {% include press.html %}
 
 
-<h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
+<h2 class="section-label">All reproducible wallets</h2>
 
 {% assign platform = "android" %}
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign verdicts = "reproducible" | split: "," %}
 {% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = true %}
+{% assign showVerdictFilter = false %}
 {% include list_of_wallets.html %}
-<a href="{{ base_path }}/moreApps">more apps</a>
+
+<a href="{{ base_path }}/moreApps">more Android Play Store apps</a>
+
+<a href="{{ base_path }}/apple">more Apple App Store apps</a>
 
 
 <h2 class="section-label">How many wallets are in each category?<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
