@@ -8,8 +8,8 @@ launchDate: 2018-02-27
 latestUpdate: 2020-11-30
 apkVersionName: "4.20"
 stars: 4.8
-ratings: 233
-reviews: 132
+ratings: 234
+reviews: 133
 size: 13M
 website: https://www.ilcoincrypto.com
 repository: 

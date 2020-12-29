@@ -77,7 +77,7 @@ fs.readdir(iPhoneFolder, function (err, files) {
           });
         });
       }, function(err){
-        console.error(`Error with appId ${appId}: ${err}`)
+        console.error(`Error with ${appId} https://apps.apple.com/us/app/id${idd} : ${err}`)
       });
     }
   })

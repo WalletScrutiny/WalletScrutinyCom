@@ -5,11 +5,11 @@ altTitle:
 appId: com.bit2me.flutter-ios
 idd: 1459809738
 released: 2019-06-04
-updated: 2020-11-26
-version: "2.0.41"
+updated: 2020-12-28
+version: "2.0.44"
 score: 3
 reviews: 2
-size: 88304640
+size: 90874880
 developerWebsite: https://bit2me.com
 repository: 
 issue: 

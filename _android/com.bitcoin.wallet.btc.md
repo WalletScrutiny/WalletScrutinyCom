@@ -2,14 +2,14 @@
 title: "Bitcoin Wallet Blockchain"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.bitcoin.wallet.btc
 launchDate: 2019-05-01
 latestUpdate: 2020-11-30
 apkVersionName: "2.0.1"
 stars: 4.4
-ratings: 599
-reviews: 198
+ratings: 608
+reviews: 200
 size: 21M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

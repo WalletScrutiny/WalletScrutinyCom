@@ -7,8 +7,8 @@ appId: com.blockchain.android
 launchDate: 2020-06-15
 latestUpdate: 2020-12-15
 apkVersionName: "1.0.7.5"
-stars: 4.5
-ratings: 2385
+stars: 4.4
+ratings: 2403
 reviews: 482
 size: 21M
 website: 

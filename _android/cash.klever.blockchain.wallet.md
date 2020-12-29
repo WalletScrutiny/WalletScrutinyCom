@@ -1,5 +1,5 @@
 ---
-title: "Klever Wallet"
+title: "Klever: Bitcoin Wallet"
 altTitle: 
 
 users: 100000
@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-19
 apkVersionName: "4.1.1"
 stars: 4.5
-ratings: 2895
-reviews: 1570
+ratings: 2923
+reviews: 1584
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

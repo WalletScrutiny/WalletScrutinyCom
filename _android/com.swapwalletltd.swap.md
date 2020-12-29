@@ -16,12 +16,16 @@ repository:
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-28
+reviewStale: false
 signer: 
 reviewArchive:
-
+- date: 2020-12-01
+  version: 
+  apkHash: 
+  gitRevision: eceaf4f532a049d544a5f7ce8eda0f29b30e6fcf
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +36,12 @@ redirect_from:
   - /com.swapwalletltd.swap/
 ---
 
+
+**Update:** We can't find the app on Google Play anymore and assume it stopped
+to exist. With 50k downloads there might be many users wondering how to recover
+their coins. Please let us know if you know more!
+
+## Old review
 
 We can find no information on security. Also their links to Knowledge Base and
 FAQ are broken. Like this we have to assume it's a custodial wallet and thus

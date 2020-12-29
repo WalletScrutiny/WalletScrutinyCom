@@ -77,7 +77,7 @@ fs.readdir(androidFolder, function (err, files) {
           });
         });
       }, function(err){
-        console.error(`Error with appId ${appId}: ${err}`)
+        console.error(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
       });
     }
   })

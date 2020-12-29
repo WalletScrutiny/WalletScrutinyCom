@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-11-05
 apkVersionName: "1.3.2"
 stars: 4.2
-ratings: 67
-reviews: 62
+ratings: 68
+reviews: 63
 size: 4.9M
 website: https://visionwallet.com/en
 repository: 

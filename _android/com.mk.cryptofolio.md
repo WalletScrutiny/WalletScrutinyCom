@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-08-19
 apkVersionName: "1.0.51"
 stars: 4.7
-ratings: 17
+ratings: 18
 reviews: 10
 size: 8.0M
 website: http://www.thecryptofolioapp.com

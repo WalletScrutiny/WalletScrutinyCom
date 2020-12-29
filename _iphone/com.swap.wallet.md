@@ -15,11 +15,16 @@ repository:
 issue: 
 icon: com.swap.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-28
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2020-12-22
+  version: 
+  apkHash: 
+  gitRevision: eceaf4f532a049d544a5f7ce8eda0f29b30e6fcf
+  verdict: custodial
 
 
 providerTwitter: 
@@ -31,3 +36,5 @@ redirect_from:
 
 ---
 
+We can't find the app on the App Store anymore and assume it stopped
+to exist.

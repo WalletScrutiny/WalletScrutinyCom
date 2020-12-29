@@ -7,8 +7,8 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2020-12-19
 version: "20.12.18"
-score: 4.75708
-reviews: 4553
+score: 4.75518
+reviews: 4587
 size: 26094592
 developerWebsite: https://www.exodus.io/mobile
 repository: 
