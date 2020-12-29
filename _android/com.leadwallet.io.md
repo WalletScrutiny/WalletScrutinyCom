@@ -1,22 +1,23 @@
 ---
-title: "OWNR crypto wallet for PC"
+title: "Lead Wallet (BETA) - Store & Swap Cryptocurrencies"
 altTitle: 
 
-appId: com.ownrwallet.desktop
-idd: 1520395378
-released: 2020-08-13
-updated: 2020-12-29
-version: "1.3.3"
-score: 
+users: 500
+appId: com.leadwallet.io
+launchDate: 
+latestUpdate: 2020-12-12
+apkVersionName: "Varies with device"
+stars: 
+ratings: 
 reviews: 
-size: 120658046
-developerWebsite: https://ownrwallet.com
+size: Varies with device
+website: 
 repository: 
 issue: 
-icon: com.ownrwallet.desktop.png
+icon: com.leadwallet.io.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-29
 reviewStale: true
 signer: 
 reviewArchive:
@@ -28,6 +29,7 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-
+  - /com.leadwallet.io/
 ---
+
 
