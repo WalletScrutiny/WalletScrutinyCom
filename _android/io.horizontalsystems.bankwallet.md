@@ -17,10 +17,15 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-11
-reviewStale: true
+date: 2020-12-29
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2020-12-11
+  version: "0.18.0"
+  apkHash: 9c91d011f3817f35a27276103fea0eae3c6e073e38f148019d53cd7a46371c34
+  gitRevision: 15caae034be8a16e851cea5c4bc452ab56341b0f
+  verdict: reproducible
 - date: 2020-11-27
   version: "0.17.1"
   apkHash: 78e49a893c9e413f56be9717126a53bcb8dc34ccddcdded1a9a0b0f53505c4ec
@@ -106,21 +111,21 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.18.0
-apkVersionCode: 36
-apkHash:        9c91d011f3817f35a27276103fea0eae3c6e073e38f148019d53cd7a46371c34
+apkVersionName: 0.18.1
+apkVersionCode: 37
+apkHash:        be565a137aa46f4777ab4d7ee56045a531fdc55de5826104d73bd413852709e3
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_36/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_36/apktool.yml differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_36/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_37/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_37/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_37/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_37/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_37/original/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
-object e1176fce6be021b96c9e7c601f7257136552fe0f
+object 17d3f2866a5ae3636a7edcf829a64ac7697bcbc1
 type commit
-tag 0.18.0
-tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1607516672 +0600
+tag 0.18.1
+tagger Rafael Muhamedzyanov <rafaelekol@mail.ru> 1608709396 +0600
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
