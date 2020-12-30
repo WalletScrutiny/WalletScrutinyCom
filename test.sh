@@ -133,158 +133,38 @@ meld $fromPlayUnpacked $fromBuildUnpacked
 for more details."
 }
 
-testMycelium() {
-  buildTarget=$1
-  repo=https://github.com/mycelium-com/wallet-android
-  tag=$( echo "v$versionName" | sed 's/-TESTNET//g' )
-  builtApk=$workDir/app/mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
-
-  prepare
-
-  git clone https://github.com/mycelium-com/wallet-android-modularization-tools
-  git submodule update --init --recursive
-  docker build -t mycelium_builder .
-  
-  # build
-  sudo rm -rf $workDir/sorted
-  mkdir $workDir/sorted
-  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $workDir/app $workDir/sorted
-  docker run --volume $workDir/sorted:/mnt --workdir /mnt -it --rm mycelium_builder \
-      bash -c "./gradlew -x lint -x test clean $buildTarget;chown $(id -u):$(id -g) -R /mnt/;
-        bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet"
-  sudo umount $workDir/sorted
-
-  result
-}
-
-testGreen() {
-  repo=https://github.com/Blockstream/green_android/
-  tag=release_$versionName
-  builtApk=$workDir/app/app/build/outputs/apk/production/release/app-production-release-unsigned.apk
-  
-  prepare
-
-  # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c 'apt update; \
-      apt install -y curl; \
-      ./app/fetch_gdk_binaries.sh; \
-      yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      ./gradlew -x test clean assembleProductionRelease'
-      
-  result
-}
-
-testSchildbach() {
-  repo=https://github.com/bitcoin-wallet/bitcoin-wallet
-  tag=v$versionName
-  builtApk=$workDir/app/wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
-  
-  prepare
-
-  # build
-  docker run -it --volume $workDir/app:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
-      apt update && apt install gradle -y; \
-      gradle clean :wallet:assProdRel'
-      
-  result
-}
-
-testAirgapVault() {
-  repo=https://github.com/airgap-it/airgap-vault
-  tag=v$versionName
-  builtApk=$workDir/app/airgap-vault-release-unsigned.apk
-  
-  prepare
-
-  # cleanup
-  docker rmi airgap-vault -f
-  docker rm airgap-vault-build -f
-  docker image prune -f
-  # build
-  sed -i -e "s/versionName \"0.0.0\"/versionName \"$versionName\"/g" android/app/build.gradle
-  docker build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
-  docker run --name "airgap-vault-build" airgap-vault echo "container ran."
-  docker cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
-  docker rmi airgap-vault -f
-  docker rm airgap-vault-build -f
-  docker image prune -f
-  
-  result
-}
-
-testUnstoppable() {
-  repo=https://github.com/horizontalsystems/unstoppable-wallet-android
-  tag=$versionName
-  builtApk=$workDir/app/app/build/outputs/apk/release/app-release-unsigned.apk
-  
-  prepare
-
-  # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      './gradlew clean :app:assembleRelease'
-      
-  # collect results
-  result
-}
-
-testBlockchain() {
-  repo=https://github.com/blockchain/My-Wallet-V3-Android
-  tag="v$versionName($versionCode)"
-  builtApk=$workDir/app/app/build/outputs/apk/envProd/release/blockchain-${versionName}-envProd-release-unsigned.apk
-  
-  prepare
-
-  # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
-      './scripts/quick_start.sh; ./gradlew :app:assembleEnvProdRelease -x :app:lintVitalEnvProdRelease'
-      
-  # collect results
-  result
-}
-
-testPhoenix() {
-  repo=https://github.com/ACINQ/phoenix
-  tag="v$versionName"
-  builtApk="$workDir/app/apk/release/phoenix-$versionCode-$versionName-mainnet-universal-release.apk"
-  
-  prepare
-
-  # build
-  docker build -t phoenix_build .
-  docker run -it --rm --volume $PWD:/home/ubuntu/phoenix/app/build/outputs \
-      --workdir /home/ubuntu/phoenix phoenix_build \
-      bash -x -c './gradlew assemble;
-      bash # just in case the compilation needs fixing, stop here and do not throw the docker container away just yet'
-      
-  # collect results
-  result
-}
-
 case "$appId" in
   "com.mycelium.wallet")
-    testMycelium ":mbw:assembleProdnetRelease"
+    source testMycelium.sh
+    test ":mbw:assembleProdnetRelease"
     ;;
   "com.mycelium.testnetwallet")
-    testMycelium ":mbw:assembleBtctestnetRelease"
+    source testMycelium.sh
+    test ":mbw:assembleBtctestnetRelease"
     ;;
   "com.greenaddress.greenbits_android_wallet")
-    testGreen
+    source testGreen.sh
+    test
     ;;
   "de.schildbach.wallet")
-    testSchildbach
+    source testSchildbach.sh
+    test
     ;;
   "it.airgap.vault")
-    testAirgapVault
+    source testAirgapVault.sh
+    test
     ;;
   "io.horizontalsystems.bankwallet")
-    testUnstoppable
+    source testUnstoppable.sh
+    test
     ;;
   "piuk.blockchain.android")
-    testBlockchain
+    source testBlockchain.sh
+    test
     ;;
   "fr.acinq.phoenix.mainnet")
-    testPhoenix
+    source testPhoenix.sh
+    test
     ;;
   *)
     echo "Unknown appId $appId"
