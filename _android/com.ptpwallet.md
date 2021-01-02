@@ -40,7 +40,7 @@ but reading between the lines:
   Ethereum, Litecoin, Ripple, Ethereum Cash, Ethereum Classic, and other digital
   assets.
 
-"withdrawing crypto" only makes sense when you don't control them coins yet.
+"withdrawing crypto" only makes sense when you don't control the coins yet.
 
-On the website their is no claims to the contrary and so we assume this is a
+On the website there is no claims to the contrary and so we assume this is a
 custodial offering and thus **not verifiable**.
