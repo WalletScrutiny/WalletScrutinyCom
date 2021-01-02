@@ -7,8 +7,8 @@ idd: 1288339409
 released: 2017-09-27
 updated: 2020-12-04
 version: "5.9"
-score: 4.78777
-reviews: 15135
+score: 4.78762
+reviews: 15425
 size: 39789568
 developerWebsite: https://trustwallet.com
 repository: 

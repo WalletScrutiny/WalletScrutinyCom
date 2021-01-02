@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.crypterium
 launchDate: 
-latestUpdate: 2020-12-22
+latestUpdate: 2020-12-29
 apkVersionName: "2.6.34.10"
 stars: 4.1
-ratings: 5490
-reviews: 2979
+ratings: 5518
+reviews: 2995
 size: 38M
 website: https://crypterium.com
 repository: 

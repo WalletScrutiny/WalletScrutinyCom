@@ -5,11 +5,11 @@ altTitle:
 appId: com.anbi.safepal
 idd: 1449232593
 released: 2019-03-01
-updated: 2020-12-03
-version: "2.4.0"
-score: 3.6875
-reviews: 16
-size: 103581696
+updated: 2020-12-30
+version: "2.5.1"
+score: 3.72222
+reviews: 18
+size: 111534080
 developerWebsite: https://www.safepal.io/
 repository: 
 issue: 

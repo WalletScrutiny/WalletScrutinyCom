@@ -6,10 +6,10 @@ users: 10000
 appId: com.medishares.android
 launchDate: 
 latestUpdate: 2020-12-22
-apkVersionName: "3.8.9"
+apkVersionName: "3.9.0"
 stars: 4.2
-ratings: 685
-reviews: 359
+ratings: 698
+reviews: 364
 size: 54M
 website: https://mathwallet.org
 repository: 

@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.swftcoin.client.android
 launchDate: 
-latestUpdate: 2020-12-21
-apkVersionName: "5.5.11"
+latestUpdate: 2020-12-30
+apkVersionName: "5.5.13"
 stars: 4.4
-ratings: 1125
-reviews: 691
+ratings: 1128
+reviews: 693
 size: 32M
 website: http://www.swft.pro
 repository: 

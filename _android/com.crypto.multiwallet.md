@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.crypto.multiwallet
 launchDate: 2018-11-01
-latestUpdate: 2020-12-16
-apkVersionName: "2.14.5"
+latestUpdate: 2020-12-31
+apkVersionName: "2.15.4"
 stars: 4.3
-ratings: 1703
-reviews: 951
+ratings: 1722
+reviews: 963
 size: 34M
 website: http://guarda.co
 repository: 

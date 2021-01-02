@@ -7,8 +7,8 @@ idd: 1314586706
 released: 2018-08-02
 updated: 2020-12-26
 version: "2.29"
-score: 4.93077
-reviews: 130
+score: 4.93233
+reviews: 133
 size: 41627648
 developerWebsite: https://keys.casa
 repository: 

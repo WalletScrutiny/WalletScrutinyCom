@@ -5,11 +5,11 @@ altTitle:
 appId: org.voisine.breadwallet
 idd: 885251393
 released: 2014-06-22
-updated: 2020-12-23
-version: "4.6"
-score: 4.56545
-reviews: 8632
-size: 32517120
+updated: 2020-12-30
+version: "4.6.1"
+score: 4.56677
+reviews: 8693
+size: 32521216
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios
 issue: 

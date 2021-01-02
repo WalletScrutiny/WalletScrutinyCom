@@ -7,8 +7,8 @@ idd: 1446533733
 released: 2019-02-08
 updated: 2020-12-28
 version: "1.52"
-score: 4.82927
-reviews: 82
+score: 4.84615
+reviews: 91
 size: 55856128
 developerWebsite: https://mercuryo.io/
 repository: 

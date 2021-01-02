@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.dowallet
 launchDate: 2019-01-01
-latestUpdate: 2020-10-01
-apkVersionName: "1.1.31"
-stars: 4.3
-ratings: 780
-reviews: 412
+latestUpdate: 2020-12-29
+apkVersionName: "1.1.32"
+stars: 4.2
+ratings: 786
+reviews: 418
 size: 31M
 website: https://www.dowallet.app
 repository: 

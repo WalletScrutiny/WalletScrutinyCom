@@ -2,7 +2,7 @@
 title: "Lead Wallet (BETA) - Store & Swap Cryptocurrencies"
 altTitle: 
 
-users: 500
+users: 1000
 appId: com.leadwallet.io
 launchDate: 
 latestUpdate: 2020-12-12

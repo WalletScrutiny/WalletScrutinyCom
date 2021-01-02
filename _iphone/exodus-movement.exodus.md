@@ -5,11 +5,11 @@ altTitle:
 appId: exodus-movement.exodus
 idd: 1414384820
 released: 2019-03-23
-updated: 2020-12-19
-version: "20.12.18"
-score: 4.75534
-reviews: 4590
-size: 26094592
+updated: 2020-12-31
+version: "20.12.31"
+score: 4.75727
+reviews: 4676
+size: 27087872
 developerWebsite: https://www.exodus.io/mobile
 repository: 
 issue: 

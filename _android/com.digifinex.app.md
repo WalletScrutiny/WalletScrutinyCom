@@ -2,14 +2,14 @@
 title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.digifinex.app
 launchDate: 
 latestUpdate: 2020-12-24
 apkVersionName: "2.3.20201224"
 stars: 4.0
-ratings: 2103
-reviews: 1348
+ratings: 2115
+reviews: 1352
 size: 64M
 website: https://www.digifinex.com
 repository: 

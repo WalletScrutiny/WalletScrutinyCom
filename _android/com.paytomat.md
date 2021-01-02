@@ -7,9 +7,9 @@ appId: com.paytomat
 launchDate: 2018-06-20
 latestUpdate: 2020-07-06
 apkVersionName: "1.37.0"
-stars: 4.0
-ratings: 740
-reviews: 386
+stars: 4.1
+ratings: 741
+reviews: 387
 size: 6.4M
 website: http://www.paytomat.com
 repository: 

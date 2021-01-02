@@ -7,9 +7,9 @@ appId: com.polispay.copay
 launchDate: 2018-02-21
 latestUpdate: 2020-12-24
 apkVersionName: "8.8.0"
-stars: 4.4
-ratings: 118
-reviews: 67
+stars: 4.3
+ratings: 119
+reviews: 68
 size: 10M
 website: https://www.polispay.com
 repository: 

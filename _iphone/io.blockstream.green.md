@@ -7,8 +7,8 @@ idd: 1402243590
 released: 2019-03-22
 updated: 2020-12-08
 version: "3.4.3"
-score: 4.08108
-reviews: 74
+score: 4.09333
+reviews: 75
 size: 31570944
 developerWebsite: https://blockstream.green
 repository: 

@@ -7,8 +7,8 @@ idd: 1278383455
 released: 2017-09-27
 updated: 2020-12-18
 version: "23.2"
-score: 4.71298
-reviews: 14173
+score: 4.71126
+reviews: 14428
 size: 99290112
 developerWebsite: https://wallet.coinbase.com
 repository: 

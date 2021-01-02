@@ -2,15 +2,15 @@
 title: "SafePal - Crypto wallet BTC ETH LTC BNB Tron EOS"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: io.safepal.wallet
 launchDate: 
-latestUpdate: 2020-11-30
-apkVersionName: "2.4.0"
-stars: 4.6
-ratings: 151
-reviews: 92
-size: 26M
+latestUpdate: 2020-12-29
+apkVersionName: "2.5.1"
+stars: 4.4
+ratings: 438
+reviews: 308
+size: 28M
 website: https://www.safepal.io
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: io.safepal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

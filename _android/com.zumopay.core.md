@@ -2,7 +2,7 @@
 title: "Zumo - Bitcoin Wallet App - Buy, Store, & Transfer"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.zumopay.core
 launchDate: 
 latestUpdate: 2020-12-17
