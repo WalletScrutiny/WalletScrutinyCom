@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-14
 apkVersionName: "3.8"
 stars: 4.6
-ratings: 307
-reviews: 128
+ratings: 310
+reviews: 131
 size: 41M
 website: https://techbank.finance
 repository: 

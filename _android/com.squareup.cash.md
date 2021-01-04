@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-14
 apkVersionName: "3.29.2"
 stars: 4.2
-ratings: 291918
-reviews: 111593
+ratings: 293039
+reviews: 111956
 size: 31M
 website: https://cash.app
 repository: 

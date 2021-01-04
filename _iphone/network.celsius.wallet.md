@@ -7,8 +7,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2020-12-10
 version: "4.6.1"
-score: 4.36526
-reviews: 616
+score: 4.37037
+reviews: 621
 size: 79927296
 developerWebsite: https://celsius.network/app
 repository: 

@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-10
 apkVersionName: "2.5.8"
 stars: 3.8
-ratings: 357
-reviews: 201
+ratings: 359
+reviews: 200
 size: 48M
 website: https://www.investvoyager.com/
 repository: 

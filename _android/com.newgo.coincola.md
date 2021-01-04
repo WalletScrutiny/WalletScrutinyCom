@@ -7,9 +7,9 @@ appId: com.newgo.coincola
 launchDate: 
 latestUpdate: 2020-12-16
 apkVersionName: "4.6.7"
-stars: 3.1
-ratings: 548
-reviews: 253
+stars: 3.2
+ratings: 552
+reviews: 255
 size: 31M
 website: https://www.coincola.com
 repository: 

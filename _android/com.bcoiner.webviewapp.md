@@ -8,8 +8,8 @@ launchDate: 2014-12-01
 latestUpdate: 2018-01-05
 apkVersionName: "1.3.2"
 stars: 4.4
-ratings: 2435
-reviews: 1325
+ratings: 2455
+reviews: 1342
 size: 2.2M
 website: https://bcoiner.com
 repository: 

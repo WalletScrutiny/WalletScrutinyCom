@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2019-04-29
 apkVersionName: "3.50.1"
 stars: 2.1
-ratings: 637
-reviews: 374
+ratings: 638
+reviews: 375
 size: 7.7M
 website: https://cobinhood.com
 repository: 

@@ -5,11 +5,11 @@ altTitle:
 appId: com.polispay.polispay
 idd: 1351572060
 released: 2019-02-20
-updated: 2020-12-02
-version: "8.7.1"
+updated: 2021-01-03
+version: "8.8.0"
 score: 4.4
 reviews: 5
-size: 33530880
+size: 34923520
 developerWebsite: 
 repository: 
 issue: 

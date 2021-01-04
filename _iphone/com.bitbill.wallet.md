@@ -5,11 +5,11 @@ altTitle:
 appId: com.bitbill.wallet
 idd: 1321798216
 released: 2018-02-07
-updated: 2020-12-13
-version: "4.24.2"
+updated: 2021-01-02
+version: "4.25.0"
 score: 4.53191
 reviews: 47
-size: 106192896
+size: 106387456
 developerWebsite: 
 repository: 
 issue: 

@@ -5,11 +5,11 @@ altTitle:
 appId: com.unocoin.mainapp.production
 idd: 1030422972
 released: 2016-05-12
-updated: 2020-11-27
-version: "6.0.0"
+updated: 2021-01-04
+version: "6.0.1"
 score: 2.29999
 reviews: 20
-size: 206206976
+size: 206219264
 developerWebsite: 
 repository: 
 issue: 
