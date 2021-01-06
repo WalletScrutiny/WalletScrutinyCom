@@ -18,6 +18,7 @@
   --permanent-black: #333;
   --permanent-white: #fafafa;
   --red-notify-background: #fdb5b5;
+  --gold: #ff9b00;
 }
 
 .light {
@@ -45,6 +46,7 @@
   --permanent-black: #000;
   --permanent-white: #e2e2e2;
   --red-notify-background: #b90000;
+  --gold: #ffb300
 }
 
 body, input {
@@ -57,7 +59,6 @@ body, input {
 }
 
 .theme-parent>i>label {
-  /* text-align: center; */
   font-family: "Lato", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   display: inline;
   color: #7a8288;
@@ -278,7 +279,6 @@ pre.highlight code {
 
 /* HERO */
 
-
 .exit-search {
   display: none;
   padding: 1rem;
@@ -294,12 +294,13 @@ pre.highlight code {
   box-shadow: inset 0px 0px 0px 1px;
 }
 
-.exit-search > .fa-circle-notch{
+.exit-search>.fa-circle-notch {
   transform-origin: center;
   animation: loader-spin 1s linear forwards infinite;
 }
-@keyframes loader-spin{
-  to{
+
+@keyframes loader-spin {
+  to {
     transform: rotate(360deg);
   }
 }
@@ -501,18 +502,11 @@ h2.section-label {
 table tr td count {
   display: block;
   font-size: .9rem;
-  /* padding: .05rem .25rem; */
-  /* background: var(--permanent-white); */
   color: var(--permanent-white);
-  /* color: var(--permanent-black); */
-  /* text-align: center; */
   border-radius: 5px;
-  /* margin-bottom: 5px; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
-table tr td label{
+table tr td label {
   display: block;
   color: var(--permanent-white);
   opacity: .7;
@@ -553,77 +547,71 @@ table tr td label{
   background-color: var(--white);
 }
 
-#gridOfWallets1 tr:hover, 
-#gridOfWallets2 tr:hover {
-  box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0,0,0,0.3));
+#gridOfWallets1 tr:hover, #gridOfWallets2 tr:hover {
+  box-shadow: 0px 5px 15px -3px var(--shadow-3, rgba(0, 0, 0, 0.3));
 }
 
 #gridOfWallets2 img.app_logo {
-  width:auto;
-  float:left;
+  width: auto;
+  float: left;
   margin: 0.3em;
   border-radius: 20%;
 }
 
-@media (max-width:756px){
-.page {
-  padding-left: 0% !important;
-  padding-right: 0% !important;
-}
-.hero-banner {
-  display: none;
+@media (max-width:756px) {
+  .page {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .hero-banner {
+    display: none;
+  }
+  .hero-cta {
+    grid-column: 1/4;
+  }
+  .hero-parent {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .walletSearch-parent {
+    grid-template-columns: 1fr auto;
+  }
+  .results-list {
+    max-width: 90vw;
+    max-height: calc(90vh - 60px);
+  }
+  #gridOfWallets1 tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #gridOfWallets1 tr td, #gridOfWallets2 tr td {
+    width: 100%;
+  }
+  #gridOfWallets1 tr, #gridOfWallets2 tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
-.hero-cta {
-  grid-column: 1/4;
-}
-
-.hero-parent {
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-.walletSearch-parent {
-  grid-template-columns: 1fr auto;
-}
-
-.results-list {
-  max-width: 90vw;
-  max-height: calc(90vh - 60px);
-}
-
-#gridOfWallets1 tr {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#gridOfWallets1 tr td, #gridOfWallets2 tr td {
-  width: 100%;
-}
-
-#gridOfWallets1 tr, #gridOfWallets2 tr {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-}
 /* END HERO */
 
 /* LIST OF WALLETS */
+
 .app_info_box, .app_info_box strong {
   display: block;
   word-wrap: break-word;
 }
 
-.row-identifier{
+.row-identifier {
   display: none;
   animation: intro 0.3s both;
   position: relative;
   z-index: 51;
 }
 
-.icon-row{
+.icon-row {
   width: 100%;
 }
 
@@ -691,11 +679,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-weight: 800;
 }
 
-.stamp-Reproducible::before,
-.stamp-Non.verifiable::before,
-.stamp-Custodial::before,
-.stamp-All::before{
-}
+.stamp-Reproducible::before, .stamp-Non.verifiable::before, .stamp-Custodial::before, .stamp-All::before {}
 
 .stamp-reproducible::before {
   content: "reproducible";
@@ -961,7 +945,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 #sidebarWalletList .app_logo {
   display: inline-block;
   border-radius: 2px;
-  /* background-color: var(--dark-grey); */
   height: 1rem;
   width: auto;
   margin-right: 0.5em;
@@ -990,3 +973,88 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 /* END SIDEBAR LIST */
+
+/* APP ANALYSIS */
+
+.app-summary-table {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  row-gap: .5rem;
+  column-gap: 1.5rem;
+  align-items: center;
+}
+
+.app-summary-table>span:nth-child(odd) {
+  grid-column: 1/2;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr auto;
+  text-align: center;
+  row-gap: 4px;
+  background: var(--light-grey);
+  position: relative;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.app-summary-table>span:nth-child(odd)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-width: 0.5rem;
+  border-color: transparent;
+  border-left-color: var(--light-grey);
+  right: -1rem;
+  top: 0;
+  left: auto;
+  bottom: 0;
+  margin: auto;
+  border-style: solid;
+  height: 0px;
+  width: 0px;
+}
+
+.app-summary-table>span:nth-child(even) {
+  grid-column: 2/3;
+}
+
+.app-summary-table>span:nth-child(odd)>sub {
+  font-size: 9px;
+  line-height: 9px;
+  bottom: unset;
+  opacity: .5;
+}
+
+.badge-col {
+  border-radius: 100px;
+  padding: 2px 13px;
+  font-size: .8rem;
+  position: relative;
+  overflow: hidden;
+  color: var(--white, #fff);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.badge-col span {
+  position: relative;
+  z-index: 2;
+}
+
+.star-rating {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  margin-right: auto;
+}
+
+@media (max-width:550px) {
+  .app_logo_big {
+    float: none;
+    min-width: 50vw;
+    margin: 2rem auto;
+    display: block;
+  }
+}
