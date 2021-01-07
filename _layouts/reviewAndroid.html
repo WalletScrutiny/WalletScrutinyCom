@@ -34,8 +34,14 @@ layout: default
       {% if page.url != "/" %}
       {% unless page.header.overlay_color or page.header.overlay_image %}
       <header>
-        {% if page.title %}<h1 class="page__title" itemprop="headline">
-          {{ page.title }}</h1>{% endif %}
+        {% if page.title %}<h1 class="page__title -va-c" itemprop="headline">
+          <span>{{ page.title }}</span>
+          &nbsp;&nbsp;
+          <div class="badge">
+            <i class="fab fa-android"></i>
+            <sub>Android</sub>
+          </div>
+        </h1>{% endif %}
         {% if page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
         {% endif %}
@@ -69,60 +75,57 @@ layout: default
 
       <div class="app-summary-table">
         <div>
-          <i class="fab fa-android"></i>
-          <sub>package</sub>
-        </div>
-        <div>
-          <span>Android app</span>
-          <span><i class="fas fa-history"></i> latest release: {{ page.apkVersionName }}</span>
-        </div>
-
-        {% if page.launchDate %}
-        <div>
-          <i class="fas fa-rocket"></i>
-          <sub>launched on</sub>
-        </div>
-
-        <div>
-          <span>{{ page.launchDate | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed"
-              data="{{ page.launchDate }}"></small></span>
-        </div>
-        {% endif %}
-
-        <div>
           <i class="fas fa-download"></i>
           <sub>downloads</sub>
         </div>
-        <div>
-          <span>>{{ page.users }}</span>
+        <div title="Downloaded over {{ page.users }} times. The latest version released is: {{ page.apkVersionName }}">
+            <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
+              {% assign s = page.users %}
+              {% if s > 999999999 %}
+                {% assign a = s | split: '000000000' %}
+                {{ a[0] }}{{ a[1] }}
+                <n>billion</n>
+              {% elsif s > 999999 %}
+                {% assign a = s | split: '000000' %}
+                {{ a[0] }}{{ a[1] }}
+                <n>million</n>  
+              {% elsif s > 999 %}
+                {% assign a = s | split: '000' %}
+                {{ a[0] }}{{ a[1] }}
+                <n>thousand</n>   
+              {% else %}
+                {{ s }}
+              {% endif %}
+            </span>
+          <span><i class="fas fa-history"></i> latest release: {{ page.apkVersionName }}</span>
         </div>
 
         {% if page.stars %}
         <div>
           <i class="fab fa-google-play"></i>
-          <sub>store rating</sub>
+          <sub>Google Play</sub>
         </div>
 
-        <div>
+        <div title="Rated {{ page.stars }}/5 stars on the Goolge Play store by ~{{ page.ratings }} users.">
           <span>
             <span class="star-rating"
-              style="background-image: linear-gradient(90deg,var(--gold, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </span>
+              style="background-image: linear-gradient(90deg,var(--gold, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
             <small>({{ page.stars }})</small>
           </span>
+          <span><i class="fas fa-user"></i>&nbsp;{{ page.ratings }} users</span>
+        </div>
+        {% endif %}
+
+        {% if page.launchDate %}
+        <div>
+          <i class="fas fa-rocket"></i>
+          <sub>launched</sub>
         </div>
 
         <div>
-          <i class="fas fa-fire"></i>
-          <sub>popularity</sub>
-        </div>
-        <div>
-          <span>{{ page.ratings }} <small>users</small></span>
+          <span title='{{ page.launchDate | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed" data="{{ page.launchDate }}">
+            {{ page.launchDate | date_to_long_string: "ordinal" }}
+          </span>
         </div>
         {% endif %}
 
@@ -131,7 +134,9 @@ layout: default
           <sub>last analysed</sub>
         </div>
         <div>
-          <span>{{ page.date | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed" data="{{ page.date }}"></small></span>
+          <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed" data="{{ page.date }}">
+            {{ page.date | date_to_long_string: "ordinal" }}
+          </span>
         </div>
 
         <div>
@@ -143,6 +148,65 @@ layout: default
             class="badge-col"><span>{{ site.data.verdicts[page.verdict].title
               }}</span></span>
         </div>
+
+        <div>
+          <i class="fas fa-address-book"></i>
+          <sub>developers</sub>
+        </div>
+        <div>
+          <div class="social-row">
+            <ul>
+              {% if page.website %}
+              <li title='Link to developer website : {{ page.website | replace: "http://", "" | replace: "https://", "" }}'>
+                <a href="{{ page.website }}" class="link-web">
+                  <i class="fas fa-external-link-alt"></i>
+                  {% assign u = page.website | replace: "http://", "" | replace: "https://", "" %}
+                  {% assign uc = u | split: "/" %}
+                  <span>{{ uc[0] }}</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerTwitter %}
+              <li title='Link to developer Twitter profile: @{{ page.providerTwitter }}'>
+                
+                <a href="https://twitter.com/{{ page.providerTwitter }}" class="link-twitter">
+                  <i class="fab fa-twitter"></i> 
+                  <span>@{{ page.providerTwitter }}</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerFacebook %}
+              <li title='Link to developer Facebook profile: {{ page.providerFacebook }}'>
+                <a href="https://www.facebook.com/{{ page.providerFacebook }}" class="link-facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span>{{ page.providerFacebook }}</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerReddit %}
+              <li title='Link to developer subreddit: r/{{ page.providerReddit }}'>
+                <a href="https://www.reddit.com/r/{{ page.providerReddit }}" class="link-reddit">
+                <i class="fab fa-reddit"></i>
+                  <span>r/{{ page.providerReddit }}</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerLinkedIn %}
+              <li title='Link to developer Linkedin profile: {{ page.providerLinkedIn }}'>
+                <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">
+                  <i class="fab fa-linkedin-in" class="link-linkedin"></i>
+                  <span>{{ page.providerLinkedIn }}</span>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+
 
       </div>
 
@@ -159,20 +223,7 @@ layout: default
         <a href="#verdictExplained">details below&nbsp;<i class="fas fa-arrow-down"></i></a>
       </p>
 
-      <p>We found these ways of contacting the developers:
-      <ul>
-        {% if page.website %}<li>Website: <a href="{{                          page.website          }}">{{ page.website
-            | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
-        {% if page.providerTwitter %}<li>Twitter: <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{
-            page.providerTwitter }}</a></li>{% endif %}
-        {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{
-            page.providerFacebook }}</a></li>{% endif %}
-        {% if page.providerReddit %}<li>Reddit: <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{
-            page.providerReddit }}</a></li>{% endif %}
-        {% if page.providerLinkedIn %}<li>LinkedIn: <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">{{
-            page.providerLinkedIn }}</a></li>{% endif %}
-      </ul>
-      </p>
+
       {% if page.reviewArchive %}
       <div id="reviews" style="display:none">
         <h1>Older reviews</h1>

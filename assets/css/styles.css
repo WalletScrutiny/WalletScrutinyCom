@@ -65,11 +65,36 @@ body, input {
   font-weight: 600;
 }
 
+.woot-widget-bubble.woot-elements--right.woot-widget--expanded, .woot-elements--right.woot-widget-bubble.woot--close {
+  background: var(--accent-text) !important;
+}
+
+.page__date {
+  margin-top: .25rem;
+  opacity: .5;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+
 #newTitle {
   color: var(--accent-text);
   box-shadow: inset 0px 0px 0px 1px var(--accent-text);
   padding: .15rem .5rem;
   border-radius: 4px;
+  position: relative;
+  transition: .1s ease;
+}
+
+#newTitle::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  background: var(--nav);
+  bottom: -9px;
+  left: 0;
+  z-index: 2;
 }
 
 #newTitle:hover, #newTitle:active {
@@ -99,6 +124,9 @@ body.modal-open #main {
 }
 
 @media (max-width:756px) {
+  #newTitle::after {
+    display: none;
+  }
   #main {
     width: 100vw !important;
   }
@@ -963,13 +991,13 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 #sidebarWalletList a {
   text-decoration: none;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 13px;
   color: var(--dark-grey);
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   width: 90%;
-  padding: 2px 5%;
+  padding: 6px 5%;
 }
 
 /* END SIDEBAR LIST */
@@ -985,7 +1013,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-items: center;
 }
 
-.app-summary-table>div{
+.app-summary-table>div {
   display: grid;
   grid-auto-flow: row;
   grid-template-rows: 1fr auto;
@@ -995,7 +1023,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-size: .7rem;
   opacity: .6;
 }
- 
+
 .app-summary-table>div:nth-child(odd) {
   grid-column: 1/2;
   text-align: center;
@@ -1020,17 +1048,35 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   margin: auto;
   border-style: solid;
   height: 0px;
-  width: 0px; 
+  width: 0px;
 }
 
-.app-summary-table>div:nth-child(odd)>i {
+.app-summary-table>div:nth-child(odd)>i, .badge>i {
   font-size: 1.1rem;
 }
-.app-summary-table>div:nth-child(odd)>sub {
+
+.app-summary-table>div:nth-child(odd)>sub, .badge>sub {
   font-size: 9px;
   line-height: 9px;
   bottom: unset;
   opacity: .5;
+}
+
+.page__title.-va-c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.badge {
+  display: inline-grid;
+  text-align: center;
+  row-gap: 4px;
+  box-shadow: 0 0 0 2px var(--light-grey);
+  position: relative;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 .badge-col {
@@ -1052,10 +1098,86 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 .star-rating {
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   background-repeat: no-repeat;
   margin-right: auto;
+  font-size: 1.4rem;
 }
+
+.humanised-numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.humanised-numbers>i {
+  margin-right: .25rem;
+  opacity: .5;
+}
+
+.humanised-numbers>n {
+  margin-left: .5rem;
+  opacity: .5;
+}
+
+.social-row ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.social-row ul li{
+  margin: 0;
+}
+
+.social-row ul li a {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  text-decoration: none;
+  color: unset;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 4px;
+  row-gap: 3px;
+}
+
+.social-row ul li a i {
+  font-size: 1.2rem;
+}
+
+.social-row ul li a>span {
+  font-size: 11px;
+  opacity: .3;
+}
+
+.social-row ul li a:hover>span {
+  opacity: 1;
+}
+
+.link-web:hover {
+  color: var(--gold);
+}
+.link-twitter:hover {
+  color:  #00aeff;
+}
+.link-facebook:hover {
+  color:  #0044ff;
+}
+.link-reddit:hover {
+  color:  #ff7b00;
+}
+.link-linkedin:hover {
+  color: #003cff;
+}
+
+
 
 @media (max-width:550px) {
   .app_logo_big {

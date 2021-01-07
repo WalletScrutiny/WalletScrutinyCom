@@ -33,10 +33,10 @@ function elapsedTime(d) {
 
   let max = "";
   Object.keys(options).forEach(function (k) {
-    if (Number(options[k]) > 0 && String(max).length < 1) {
-      let c = Math.ceil(options[k]);
-      let s = c > 1 ? "s" : "";
-        max +=  " (~" + c + " " + k + s + " ago)";  
+    let r = Math.round(options[k])
+    if (r > 0 && String(max).length < 1) {
+      let s = r > 1 ? "s" : "";
+        max +=  "~ " + r + " " + k + s + " ago";  
       }
   });
   
