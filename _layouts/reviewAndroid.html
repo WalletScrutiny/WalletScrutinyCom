@@ -68,67 +68,81 @@ layout: default
 
 
       <div class="app-summary-table">
-        <span>
+        <div>
           <i class="fab fa-android"></i>
-          <sub>android package</sub>
-        </span>
-        <span>Android app</span>
+          <sub>package</sub>
+        </div>
+        <div>
+          <span>Android app</span>
+          <span><i class="fas fa-history"></i> latest release: {{ page.apkVersionName }}</span>
+        </div>
 
         {% if page.launchDate %}
-        <span>
+        <div>
           <i class="fas fa-rocket"></i>
           <sub>launched on</sub>
-        </span>
-        <span>{{ page.launchDate | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed" data="{{ page.launchDate }}"></small></span>
+        </div>
+
+        <div>
+          <span>{{ page.launchDate | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed"
+              data="{{ page.launchDate }}"></small></span>
+        </div>
         {% endif %}
 
-        <span>
+        <div>
           <i class="fas fa-download"></i>
           <sub>downloads</sub>
-        </span>
-        <span>>{{ page.users }}</span>
+        </div>
+        <div>
+          <span>>{{ page.users }}</span>
+        </div>
 
         {% if page.stars %}
-        <span>
+        <div>
           <i class="fab fa-google-play"></i>
           <sub>store rating</sub>
-        </span>
-        <span>
-        <span class="star-rating" style="background-image: linear-gradient(90deg,var(--gold, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </span>
-      <small>({{ page.stars }})</small>
-      </span>
+        </div>
 
-        <span>
+        <div>
+          <span>
+            <span class="star-rating"
+              style="background-image: linear-gradient(90deg,var(--gold, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <small>({{ page.stars }})</small>
+          </span>
+        </div>
+
+        <div>
           <i class="fas fa-fire"></i>
           <sub>popularity</sub>
-        </span>
-        <span>{{ page.ratings }} <small>users</small></span>
+        </div>
+        <div>
+          <span>{{ page.ratings }} <small>users</small></span>
+        </div>
         {% endif %}
 
-        <span>
-          <i class="fas fa-history"></i>
-          <sub>latest release</sub>
-        </span>
-        <span>{{ page.apkVersionName }}</span>
-
-        <span>
+        <div>
           <i class="fas fa-flask"></i>
           <sub>last analysed</sub>
-        </span>
-        <span>{{ page.date | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed" data="{{ page.date }}"></small></span>
+        </div>
+        <div>
+          <span>{{ page.date | date_to_long_string: "ordinal" }} <small class="calculate-time-elapsed" data="{{ page.date }}"></small></span>
+        </div>
 
-        <span>
+        <div>
           <i class="fas fa-gavel"></i>
           <sub>verdict</sub>
-        </span>
-        <span style="background:{{ site.data.verdicts[page.verdict].color }}; margin-right: auto;" class="badge-col"><span>{{ site.data.verdicts[page.verdict].title
-          }}</span></span>
+        </div>
+        <div>
+          <span style="background:{{ site.data.verdicts[page.verdict].color }}; margin-right: auto;"
+            class="badge-col"><span>{{ site.data.verdicts[page.verdict].title
+              }}</span></span>
+        </div>
 
       </div>
 

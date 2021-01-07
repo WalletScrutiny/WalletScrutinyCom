@@ -29,12 +29,14 @@ function elapsedTime(d) {
   
   let sec = n; 
 
-  let options = { "years": year, "months": month, "weeks": week, "days": day, "hours": hour };
+  let options = { "year": year, "month": month, "week": week, "day": day, "hour": hour };
 
   let max = "";
   Object.keys(options).forEach(function (k) {
     if (Number(options[k]) > 0 && String(max).length < 1) {
-        max +=  " (~" + Math.ceil(options[k]) + " " + k + " ago)";  
+      let c = Math.ceil(options[k]);
+      let s = c > 1 ? "s" : "";
+        max +=  " (~" + c + " " + k + s + " ago)";  
       }
   });
   

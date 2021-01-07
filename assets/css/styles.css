@@ -985,11 +985,19 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-items: center;
 }
 
-.app-summary-table>span:nth-child(odd) {
-  grid-column: 1/2;
+.app-summary-table>div{
   display: grid;
   grid-auto-flow: row;
   grid-template-rows: 1fr auto;
+}
+
+.app-summary-table>div:nth-child(even)>span:nth-child(even) {
+  font-size: .7rem;
+  opacity: .6;
+}
+ 
+.app-summary-table>div:nth-child(odd) {
+  grid-column: 1/2;
   text-align: center;
   row-gap: 4px;
   background: var(--light-grey);
@@ -998,7 +1006,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   padding: 4px;
 }
 
-.app-summary-table>span:nth-child(odd)::after {
+.app-summary-table>div:nth-child(odd)::after {
   content: "";
   display: block;
   position: absolute;
@@ -1012,14 +1020,13 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   margin: auto;
   border-style: solid;
   height: 0px;
-  width: 0px;
+  width: 0px; 
 }
 
-.app-summary-table>span:nth-child(even) {
-  grid-column: 2/3;
+.app-summary-table>div:nth-child(odd)>i {
+  font-size: 1.1rem;
 }
-
-.app-summary-table>span:nth-child(odd)>sub {
+.app-summary-table>div:nth-child(odd)>sub {
   font-size: 9px;
   line-height: 9px;
   bottom: unset;
