@@ -36,7 +36,7 @@ function elapsedTime(d) {
     let r = Math.round(options[k])
     if (r > 0 && String(max).length < 1) {
       let s = r > 1 ? "s" : "";
-        max +=  "~ " + r + " " + k + s + " ago";  
+        max +=  r + " " + k + s + " ago";  
       }
   });
   
