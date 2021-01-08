@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: pro.huobi
 launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "6.0.6"
+latestUpdate: 2021-01-04
+apkVersionName: "6.0.8"
 stars: 3.9
-ratings: 5650
-reviews: 2013
+ratings: 5691
+reviews: 2037
 size: 56M
 website: https://www.huobi.com/en-us
 repository: 

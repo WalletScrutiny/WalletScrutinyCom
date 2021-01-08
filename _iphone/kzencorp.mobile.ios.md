@@ -7,8 +7,8 @@ idd: 1440147115
 released: 2019-06-07
 updated: 2020-12-24
 version: "2.19.0"
-score: 4.66187
-reviews: 834
+score: 4.65371
+reviews: 849
 size: 79810560
 developerWebsite: https://www.zengo.com
 repository: 

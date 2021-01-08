@@ -6,10 +6,10 @@ appId: com.plunien.app.Poloniex
 idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
-version: "1.13.7"
+version: "1.13.8"
 score: 4.61428
 reviews: 1947
-size: 104047616
+size: 104064000
 developerWebsite: https://www.poloniex.com
 repository: 
 issue: 

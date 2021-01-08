@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 launchDate: 2018-04-12
-latestUpdate: 2020-06-18
-apkVersionName: "0.4.12"
+latestUpdate: 2021-01-05
+apkVersionName: "0.4.13"
 stars: 4.0
-ratings: 347
-reviews: 162
+ratings: 346
+reviews: 161
 size: 28M
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile

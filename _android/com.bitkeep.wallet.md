@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.bitkeep.wallet
 launchDate: 
-latestUpdate: 2020-11-27
-apkVersionName: "4.6.5"
+latestUpdate: 2021-01-05
+apkVersionName: "5.0.0"
 stars: 4.2
 ratings: 176
 reviews: 74
@@ -18,7 +18,7 @@ icon: com.bitkeep.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

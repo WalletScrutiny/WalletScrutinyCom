@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-12-21
 apkVersionName: "3.0.6-1"
 stars: 4.3
-ratings: 540
+ratings: 538
 reviews: 279
 size: 336M
 website: https://www.sylo.io/wallet

@@ -2,7 +2,7 @@
 title: "elegro Exchange - Bitcoin and crypto exchange"
 altTitle: 
 
-users: 100
+users: 500
 appId: cryptoex.elegro.io
 launchDate: 
 latestUpdate: 2020-07-07

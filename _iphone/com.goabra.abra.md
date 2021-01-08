@@ -7,8 +7,8 @@ idd: 966301394
 released: 2015-03-12
 updated: 2020-11-23
 version: "87.1.0"
-score: 4.57043
-reviews: 11826
+score: 4.5705
+reviews: 11914
 size: 124721152
 developerWebsite: 
 repository: 
@@ -30,7 +30,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the iPhone version of the
 [Android Abra Bitcoin Crypto Wallet Buy Trade Earn Interest](/android/com.plutus.wallet).

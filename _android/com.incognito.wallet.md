@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.incognito.wallet
 launchDate: 
-latestUpdate: 2020-10-05
-apkVersionName: "3.10.0"
+latestUpdate: 2020-12-28
+apkVersionName: "3.11.0"
 stars: 4.1
-ratings: 180
-reviews: 109
-size: 52M
+ratings: 181
+reviews: 110
+size: 44M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
@@ -18,7 +18,7 @@ icon: com.incognito.wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-07
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

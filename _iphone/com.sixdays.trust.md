@@ -5,11 +5,11 @@ altTitle:
 appId: com.sixdays.trust
 idd: 1288339409
 released: 2017-09-27
-updated: 2020-12-04
-version: "5.9"
-score: 4.78724
-reviews: 15586
-size: 39789568
+updated: 2021-01-04
+version: "5.10"
+score: 4.7869
+reviews: 15988
+size: 40035328
 developerWebsite: https://trustwallet.com
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.sixdays.trust.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

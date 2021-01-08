@@ -2,13 +2,13 @@
 title: "STASIS Stablecoin Wallet"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.stasis.stasiswallet
 launchDate: 2018-06-13
 latestUpdate: 2020-12-15
 apkVersionName: "1.8.85"
 stars: 4.5
-ratings: 149
+ratings: 150
 reviews: 89
 size: 24M
 website: https://stasis.net/wallet

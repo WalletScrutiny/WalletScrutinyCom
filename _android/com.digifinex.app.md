@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.digifinex.app
 launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "2.3.20201224"
-stars: 4.0
-ratings: 2116
-reviews: 1353
+latestUpdate: 2021-01-05
+apkVersionName: "2021.01.05"
+stars: 3.9
+ratings: 2130
+reviews: 1361
 size: 64M
 website: https://www.digifinex.com
 repository: 

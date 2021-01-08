@@ -7,9 +7,9 @@ appId: app.zeusln.zeus
 launchDate: 
 latestUpdate: 2020-10-31
 apkVersionName: "0.4.0"
-stars: 4.8
-ratings: 13
-reviews: 6
+stars: 4.2
+ratings: 14
+reviews: 8
 size: 26M
 website: 
 repository: 
