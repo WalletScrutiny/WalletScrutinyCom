@@ -15,14 +15,14 @@ repository:
 issue: 
 icon: org.toshi.distribution.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-04
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CoinbaseWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -31,3 +31,7 @@ redirect_from:
 
 ---
 
+This is the iPhone version of the
+[Android Coinbase Wallet — Crypto Wallet & DApp Browser](/android/org.toshi).
+
+Just like the Android version, this wallet is **not verifiable**.

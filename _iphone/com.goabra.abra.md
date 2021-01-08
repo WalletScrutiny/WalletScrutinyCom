@@ -15,19 +15,24 @@ repository:
 issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-04
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: AbraGlobal
+providerLinkedIn: company/abra
+providerFacebook: GoAbraGlobal
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+This is the iPhone version of the
+[Android Abra Bitcoin Crypto Wallet Buy Trade Earn Interest](/android/com.plutus.wallet).
+
+Just like the Android version, this wallet is **not verifiable**.

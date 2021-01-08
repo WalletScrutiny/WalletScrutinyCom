@@ -26,7 +26,7 @@ reviewArchive:
 providerTwitter: AbraGlobal
 providerLinkedIn: company/abra
 providerFacebook: GoAbraGlobal
-providerReddit: user/AbraGlobal
+providerReddit: 
 
 redirect_from:
   - /com.plutus.wallet/
