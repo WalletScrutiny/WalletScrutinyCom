@@ -19,6 +19,7 @@
   --permanent-white: #fafafa;
   --red-notify-background: #fdb5b5;
   --gold: #ff9b00;
+  --reproducible-badge: url(/images/reproducible-badge-dark.svg);
 }
 
 .light {
@@ -46,7 +47,8 @@
   --permanent-black: #000;
   --permanent-white: #e2e2e2;
   --red-notify-background: #b90000;
-  --gold: #ffb300
+  --gold: #ffb300;
+  --reproducible-badge: url(/images/reproducible-badge-light.svg);
 }
 
 body, input {
@@ -1202,7 +1204,7 @@ margin: 0;
     grid-template-columns: 1fr 1fr;
 }
 
-.app-payload-flex > svg {
+.app-payload-flex > svg, .app-payload-flex > .svg {
   display: none;
 }
 
@@ -1230,10 +1232,16 @@ margin: 0;
   font-size: 1.2rem;
 }
 
-.app-payload-flex > svg{
-  height: auto;
-  width: auto;
+.app-payload-flex > svg, .app-payload-flex > .svg{
+  height: 90px;
+  width: 90px;
   max-height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.svg.reproducible{
+  background-image: var(--reproducible-badge);
 }
 
 .app-payload-flex > div > span{
