@@ -5,11 +5,11 @@ altTitle:
 users: 10000000
 appId: com.squareup.cash
 launchDate: 
-latestUpdate: 2020-12-14
+latestUpdate: 2021-01-08
 apkVersionName: "3.29.2"
 stars: 4.2
-ratings: 293039
-reviews: 111956
+ratings: 294964
+reviews: 112554
 size: 31M
 website: https://cash.app
 repository: 

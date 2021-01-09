@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: ilcbtc.wallet
 launchDate: 2018-02-27
-latestUpdate: 2020-11-30
-apkVersionName: "4.20"
+latestUpdate: 2021-01-06
+apkVersionName: "4.21"
 stars: 4.8
 ratings: 234
 reviews: 133

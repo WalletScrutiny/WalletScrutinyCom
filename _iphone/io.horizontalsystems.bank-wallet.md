@@ -7,8 +7,8 @@ idd: 1447619907
 released: 2019-01-10
 updated: 2020-12-11
 version: "0.18"
-score: 4.73514
-reviews: 185
+score: 4.73797
+reviews: 187
 size: 45149184
 developerWebsite: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios

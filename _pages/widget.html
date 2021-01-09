@@ -109,13 +109,15 @@ permalink: /widget/
     function getWidgetHtml(wallet, includeDetails) {
       var details = (includeDetails) ? `
         <table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
-          <tr><td>Downloads</td><td>${wallet.users}</td></tr>
-          <tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.ratings} users</td></tr>
+          ${ (wallet.users) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ``}
+          ${ (wallet.stars) ? `<tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.ratings} users</td></tr>` : ``}
+          ${ (wallet.score) ? `<tr><td>Rating</td><td>${wallet.score} stars by ${wallet.reviews} users</td></tr>` : ``}
           <tr><td>App size</td><td>${wallet.size}B</td></tr>
           <tr><td>Launched</td><td>${wallet.launchDate}</td></tr>
           <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
           <tr><td>Google Play</td><td><a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}">${wallet.appId}</a></td></tr>
           ${ (wallet.website != "") ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.website}">${wallet.website}</a></td></tr>` : ``}
+          ${ (wallet.developerWebsite != "") ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.developerWebsite}">${wallet.developerWebsite}</a></td></tr>` : ``}
           ${ (wallet.repository != "") ? `<tr><td>Source Code</td><td><a target="_blank" href="${wallet.repository}">${wallet.repository}</a></td></tr>` : ``}
           ${ (wallet.issue != "") ? `<tr><td>Open Issue</td><td><a target="_blank" href="${wallet.issue}">${wallet.issue}</a></td></tr>` : ``}
           ${ (wallet.providerTwitter != "") ? `<tr><td>Twitter</td><td><a target="_blank" href="https://twitter.com/${wallet.providerTwitter}">@${wallet.providerTwitter}</a></td></tr>` : ``}
@@ -125,7 +127,8 @@ permalink: /widget/
         </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>` : ``
       return `
       <a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="/${wallet.appId}/">
-        <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;" src="/images/wallet_icons/android/small/${wallet.icon}" alt="Wallet Logo">
+        <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
+          src="/images/wallet_icons/${ (wallet.idd) ? `iphone` : `android` }/small/${wallet.icon}" alt="Wallet Logo">
         <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
           <strong style="font-size: 18px;">${wallet.title}</strong>
           <span style="font-size: 10px;opacity: .6;">APK: ${wallet.apkVersionName}</span>

@@ -1,22 +1,23 @@
 ---
-title: "Crypterium | Bitcoin Wallet"
+title: "Strike: Bitcoin & Lightning Payments"
 altTitle: 
 
-appId: com.Crypterium.Crypterium
-idd: 1360632912
-released: 2018-03-26
-updated: 2020-12-30
-version: "1.14.4"
-score: 4.541
-reviews: 878
-size: 247984128
-developerWebsite: https://cards.crypterium.com/visa
+users: 1000
+appId: zapsolutions.strike
+launchDate: 
+latestUpdate: 2021-01-07
+apkVersionName: "v54"
+stars: 4.8
+ratings: 121
+reviews: 37
+size: 8.5M
+website: 
 repository: 
 issue: 
-icon: com.Crypterium.Crypterium.jpg
+icon: zapsolutions.strike.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2021-01-08
 reviewStale: true
 signer: 
 reviewArchive:
@@ -28,6 +29,7 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-
+  - /zapsolutions.strike/
 ---
+
 

@@ -5,11 +5,11 @@ altTitle:
 appId: io.blockstream.green
 idd: 1402243590
 released: 2019-03-22
-updated: 2020-12-08
-version: "3.4.3"
-score: 4.09333
-reviews: 75
-size: 31570944
+updated: 2021-01-04
+version: "3.4.6"
+score: 4.05263
+reviews: 76
+size: 31587328
 developerWebsite: https://blockstream.green
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: io.blockstream.green.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-19
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,5 +1,5 @@
 ---
-title: "Klever: Blockchain Wallet for BTC, ETH, TRX, XRP"
+title: "Klever: Bitcoin Blockchain Wallet"
 altTitle: 
 
 users: 100000
@@ -7,9 +7,9 @@ appId: cash.klever.blockchain.wallet
 launchDate: 
 latestUpdate: 2020-12-19
 apkVersionName: "4.1.1"
-stars: 4.4
-ratings: 3047
-reviews: 1644
+stars: 4.3
+ratings: 3321
+reviews: 1791
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

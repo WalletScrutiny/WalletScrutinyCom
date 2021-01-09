@@ -5,11 +5,11 @@ altTitle:
 users: 1000000
 appId: zebpay.Application
 launchDate: 2014-12-23
-latestUpdate: 2020-12-23
-apkVersionName: "3.12.00"
-stars: 3.9
-ratings: 67156
-reviews: 31266
+latestUpdate: 2021-01-05
+apkVersionName: "3.12.01"
+stars: 3.8
+ratings: 67758
+reviews: 31642
 size: 11M
 website: https://www.zebpay.com
 repository: 

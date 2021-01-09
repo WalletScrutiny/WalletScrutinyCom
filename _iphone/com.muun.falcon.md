@@ -5,11 +5,11 @@ altTitle:
 appId: com.muun.falcon
 idd: 1482037683
 released: 2019-10-11
-updated: 2020-12-02
-version: "0.6.3"
+updated: 2021-01-06
+version: "0.7.1"
 score: 4.81818
 reviews: 11
-size: 58700800
+size: 78821376
 developerWebsite: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
@@ -17,7 +17,7 @@ icon: com.muun.falcon.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

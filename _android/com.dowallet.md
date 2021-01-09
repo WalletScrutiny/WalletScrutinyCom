@@ -5,8 +5,8 @@ altTitle:
 users: 50000
 appId: com.dowallet
 launchDate: 2019-01-01
-latestUpdate: 2020-12-29
-apkVersionName: "1.1.32"
+latestUpdate: 2021-01-07
+apkVersionName: "1.1.33"
 stars: 4.2
 ratings: 788
 reviews: 419

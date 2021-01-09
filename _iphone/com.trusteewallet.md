@@ -5,11 +5,11 @@ altTitle:
 appId: com.trusteewallet
 idd: 1462924276
 released: 2019-06-14
-updated: 2020-12-30
-version: "1.40.713"
+updated: 2021-01-07
+version: "1.40.728"
 score: 5
 reviews: 3
-size: 66888704
+size: 66892800
 developerWebsite: https://trustee.deals/
 repository: 
 issue: 
