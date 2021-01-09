@@ -117,6 +117,10 @@ a {
   color: var(--accent-text);
 }
 
+a.sl {
+  text-decoration: none;
+}
+
 body.modal-open {
   overflow: hidden;
 }
@@ -132,7 +136,7 @@ body.modal-open #main {
   #main {
     width: 100vw !important;
   }
-  #main.app-review{
+  #main.app-review {
     margin-top: 0;
   }
   .walletSearch {
@@ -596,9 +600,9 @@ table tr td label {
     padding-left: 0% !important;
     padding-right: 0% !important;
   }
-  .app-review .page{
+  .app-review .page {
     margin-top: 1rem;
-}
+  }
   .hero-banner {
     display: none;
   }
@@ -996,7 +1000,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   white-space: nowrap
 }
 
-#sidebarWalletList a {
+#sidebarWalletList>div a {
   text-decoration: none;
   font-weight: 300;
   font-size: 13px;
@@ -1010,12 +1014,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 /* END SIDEBAR LIST */
 
-
-
-
-
 /* APP ANALYSIS */
-
 
 .page__title.-va-c {
   display: flex;
@@ -1083,11 +1082,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.social-row ul li{
+.social-row ul li {
   margin: 0;
 }
 
@@ -1110,7 +1109,7 @@ margin: 0;
 }
 
 .social-row ul li a>span {
-  display:none;
+  display: none;
   font-size: 11px;
   opacity: .3;
 }
@@ -1122,30 +1121,26 @@ margin: 0;
 .link-web:hover {
   color: var(--gold);
 }
+
 .link-twitter:hover {
-  color:  #00aeff;
+  color: #00aeff;
 }
+
 .link-facebook:hover {
-  color:  #0044ff;
+  color: #0044ff;
 }
+
 .link-reddit:hover {
-  color:  #ff7b00;
+  color: #ff7b00;
 }
+
 .link-linkedin:hover {
   color: #003cff;
 }
 
-
-
-
-
-
-
-
-
 /* APP ANALYSIS NEW */
 
-.app-summary-grid{
+.app-summary-grid {
   display: grid;
   row-gap: 1rem;
   column-gap: 1rem;
@@ -1153,12 +1148,12 @@ margin: 0;
   margin-bottom: 2rem;
 }
 
-.app-summary-grid > .app_logo_big{
+.app-summary-grid>.app_logo_big {
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
-.app-summary-grid .app-sum-head{
+.app-summary-grid .app-sum-head {
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
@@ -1166,28 +1161,28 @@ margin: 0;
   grid-row-gap: .5rem;
 }
 
-
-.verdict > span {
+.verdict>span {
   display: inline-block;
   text-align: center;
 }
 
-.app-summary-grid .social-row ul li a i{
- font-size: .9rem;
+.app-summary-grid .social-row ul li a i {
+  font-size: .9rem;
 }
 
-.app-summary-grid > .app-payload-flex{
+.app-summary-grid>.app-payload-flex {
   grid-column: 1/3;
   grid-row: 2/3;
 }
 
-.app-payload-flex{
+.app-payload-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
-.app-payload-flex > div{
+
+.app-payload-flex>div {
   display: grid;
   grid-auto-flow: row;
   grid-template-rows: auto 1fr auto;
@@ -1197,9 +1192,8 @@ margin: 0;
   margin: 0;
 }
 
-@media (max-width: 500px){
-
-  .app-summary-grid > .app-payload-flex {
+@media (max-width: 500px) {
+  .app-summary-grid>.app-payload-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -1217,7 +1211,7 @@ margin: 0;
 }
 }
 
-.app-payload-flex > div > label{
+.app-payload-flex>div>label {
   grid-column: 1/2;
   grid-row: 1/2;
   font-size: .75rem;
@@ -1225,11 +1219,11 @@ margin: 0;
   cursor: unset;
 }
 
-.app-payload-flex > div > div{
+.app-payload-flex>div>div {
   position: relative;
 }
 
-.app-payload-flex > div > div * {
+.app-payload-flex>div>div * {
   font-size: 1.2rem;
 }
 
@@ -1245,7 +1239,74 @@ margin: 0;
   background-image: var(--reproducible-badge);
 }
 
-.app-payload-flex > div > span{
+.app-payload-flex>div>span {
   font-size: .75rem;
 }
 
+/* SIDEBAR UI MOBILE */
+
+@media (max-width: 930px) {
+  .sidebar-container {
+    margin: 2rem 0;
+  }
+  #sidebarWalletList.mobile-compact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 2rem;
+    position: relative;
+  }
+  #sidebarWalletList.mobile-compact::after {
+    /* content: "\f138"; */
+    content: "";
+    display: block;
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(90deg, transparent 60%, var(--body));
+    height: 4rem;
+    width: 100%;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    line-height: 4rem;
+    text-align: right;
+    font-family: 'Font Awesome 5 Free';
+    color: var(--nav);
+    font-size: 1.5rem;
+  }
+  #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
+    background: none;
+    padding: 0;
+    margin: 0;
+    color: var(--accent) !important;
+    font-weight: 700;
+  }
+  #sidebarWalletList.mobile-compact .verdict {
+    display: block;
+    margin: auto 1rem !important;
+  }
+  .mobile-compact .app_name {
+    display: none;
+  }
+  #sidebarWalletList.mobile-compact>div a {
+    display: block;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+  }
+  #sidebarWalletList.mobile-compact .logo_name_bundle:hover {
+    background: none !important;
+  }
+  #sidebarWalletList.mobile-compact>div .app_logo {
+    width: 2rem;
+    display: block;
+    height: 2rem;
+    border-radius: 25%;
+    margin: 0;
+  }
+  #main.app-review {
+    margin-top: 0;
+  }
+}

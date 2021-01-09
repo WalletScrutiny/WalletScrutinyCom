@@ -26,8 +26,6 @@
   .footer-links{
     display: inline-flex;
     flex-direction: row;
-    column-gap: 1rem;
-    row-gap:1rem;
     flex-wrap: wrap;
 
     a {
@@ -36,6 +34,8 @@
       background: #333;
       padding: 4px 8px;
       border-radius: 8px;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
   
       &:hover {
         background: #444;
@@ -62,7 +62,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
     }
   }
 
