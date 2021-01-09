@@ -1213,6 +1213,7 @@ margin: 0;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
     min-height: 90px;
+    height: 100%;
 }
 }
 
