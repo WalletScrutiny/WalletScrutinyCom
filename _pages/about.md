@@ -31,7 +31,7 @@ author_profile: true
 </div>
 
 
-<h2 class="section-label">As featured on:</h2>
+<h2 id="featuredOn" class="section-label">As featured on:</h2>
 
 {% include press.html %}
 
