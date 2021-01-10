@@ -120,9 +120,44 @@ function heroSearchScrollToTop(termInput) {
   if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
+      left: 0,
       behavior: 'smooth'
     })
-    window.scrollTo(0, s)
-    document.body.scrollTop = s
   }
+}
+
+
+
+
+function showInitialSuggestion() {
+  var reproducibleKeysIcons = '';
+  // CAN BE MOVED OUTSIDE THIS FUNCTION TO PREVENT RE-BUILD
+  var k_ = [], base = window.wallets.base_path;
+  document.querySelectorAll(".results-list")[0].classList.add("quick-link");
+  if (reproducibleKeysIcons.length < 1) {
+    Object.keys(window.wallets).forEach(key => {
+      window.wallets[key].verdict && (k_.push(key));
+    })
+    var a = k_;
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    for (i = 0; i < k_.length; i++) {
+      var k = window.wallets[k_[i]];
+      reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/android/small/${k.icon}' class='results-list-wallet-icon' /><span>${k.title}</span></a>`
+    }
+  }
+  document.querySelectorAll(".results-list")[0].innerHTML = `<div class="-pl">${reproducibleKeysIcons}</div>`;
+  document.querySelectorAll(".results-list")[0].style.display = "";
+  document.querySelectorAll(".-pl")[0].scrollTo({left: 500})
+  
+  setTimeout(function () {
+    document.querySelectorAll(".-pl")[0].scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }, 100);
+ 
 }
