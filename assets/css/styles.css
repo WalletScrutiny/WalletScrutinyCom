@@ -12,6 +12,7 @@
   --dark-grey: #222;
   --nav: #222;
   --body: #eee;
+  --transparent: rgba(238, 238, 238, 0);
   --text: #424242;
   --gauze: rgba(255, 255, 255, 0.7);
   --cb-red: #880000;
@@ -39,6 +40,7 @@
   --white: #222;
   --dark-grey: #fafafa;
   --body: #111;
+  --transparent: rgba(17, 17, 17, 0);
   --text: #eee;
   --hide-dark: none;
   --hide-light: unset;
@@ -315,6 +317,76 @@ pre.highlight code {
 /* END PRESS */
 
 /* HERO */
+
+.results-list.quick-link::before {
+  content: 'Quick links';
+  display: block;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  pointer-events: none;
+  z-index: 3;
+  font-size: 10px;
+  font-weight: 400;
+  opacity: .4;
+  font-family: 'Lato', sans-serif;
+}
+
+.results-list.quick-link::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, var(--transparent) 70%, var(--light-grey));
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.results-list.quick-link {
+  position: relative;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.results-list.quick-link .-pl {
+  display: flex;
+  position: relative;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-top: -10px;
+  padding-bottom: 35px;
+  transform: translateY(30px);
+  overflow-y: hidden;
+}
+
+.results-list.quick-link .-pl::-webkit-scrollbar {
+  display: none;
+}
+
+.results-list.quick-link .-pl>a {
+  display: inline-grid;
+  grid-template-columns: 1fr auto;
+  text-decoration: none;
+  scroll-snap-align: start;
+  align-items: center;
+}
+
+.results-list.quick-link .-pl>a>span {
+  font-size: 11px;
+  text-align: left;
+  width: 100px;
+  max-width: 30vw;
+  max-height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1rem;
+  display: block;
+  color: var(--text);
+  opacity: .8;
+}
 
 .exit-search {
   display: none;
@@ -1035,7 +1107,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 .badge-col {
-  border-radius: 100px;
+  border-radius: 1rem;
   padding: 2px 13px;
   font-size: .8rem;
   position: relative;
@@ -1245,9 +1317,15 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 /* SIDEBAR UI MOBILE */
 
+#collapseWalletList {
+  display: none
+}
+
 @media (max-width: 930px) {
   .sidebar-container {
     margin: 2rem 0;
+    box-shadow: 0px 10px 10px -13px;
+    padding-bottom: 5px;
   }
   #sidebarWalletList.mobile-compact {
     display: flex;
@@ -1255,7 +1333,23 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     flex-wrap: nowrap;
     align-items: center;
     height: 2rem;
-    position: relative;
+  }
+  #sidebarWalletList.mobile-compact::before {
+    content: "Expand list below or swipe across apps \f0d9 \f0da";
+    font-family: 'Font Awesome 5 Free', 'Lato', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: -1.25rem;
+    z-index: 2;
+    color: var(--grey);
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
+    opacity: .5;
   }
   #sidebarWalletList.mobile-compact::after {
     /* content: "\f138"; */
@@ -1263,8 +1357,8 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     display: block;
     position: fixed;
     z-index: 1;
-    background: linear-gradient(90deg, transparent 60%, var(--body));
-    height: 4rem;
+    background: linear-gradient(90deg, var(--transparent) 60%, var(--body));
+    height: calc(4rem - 4px);
     width: 100%;
     right: 0;
     top: 0;
@@ -1275,7 +1369,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     color: var(--nav);
     font-size: 1.5rem;
   }
-  #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
+  #collapseWalletList, #collapseWalletList button, #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
     background: none;
     padding: 0;
     margin: 0;
@@ -1285,6 +1379,12 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   #sidebarWalletList.mobile-compact .verdict {
     display: block;
     margin: auto 1rem !important;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .6;
+  }
+  #sidebarWalletList.mobile-compact .verdict::after {
+    content: '>';
   }
   .mobile-compact .app_name {
     display: none;
