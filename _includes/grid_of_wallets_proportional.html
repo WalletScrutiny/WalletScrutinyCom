@@ -6,7 +6,7 @@
 <table id="gridOfWallets2">
   <tr>
     <td>
-      <count>0</count><label>Audited?</label>
+      <count><span class="humanised-numbers -bold"><l>0</l></span></count><label>Audited?</label>
     </td>
     <td>
     </td>
@@ -20,7 +20,26 @@
     {% endfor %}
     <tr>
       <td>
-        <count>{{ total }}</count>
+        <count title="{{ total }} downloads">
+          <span class="humanised-numbers -bold">
+            {% assign s = total %}
+            {% if s > 999999999 %}
+              {% assign a = s | divided_by: 1000000000 %}
+              <l>{{ a }}</l>
+              <n>billion&nbsp;<i class="fas fa-plus"></i></n>
+            {% elsif s > 999999 %}
+              {% assign a = s | divided_by: 1000000 %}
+              <l>{{ a }}</l>
+              <n>million&nbsp;<i class="fas fa-plus"></i></n>
+            {% elsif s > 999 %}
+              {% assign a = s | divided_by: 1000 %}
+              <l>{{ a }}</l>
+              <n>thousand&nbsp;<i class="fas fa-plus"></i></n>
+            {% else %}
+              {{ s }}
+            {% endif %}
+          </span>
+        </count>
         <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
       </td>
       <td>
