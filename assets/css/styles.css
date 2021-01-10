@@ -1268,6 +1268,12 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   .app-summary-grid>.app-payload-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> merge madness
 }
 
 .app-payload-flex > svg, .app-payload-flex > .svg {
@@ -1275,12 +1281,39 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
   .app-payload-flex > div {
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+  }
+  .app-payload-flex>svg {
+    display: none;
+  }
+  .app-payload-flex>div {
+<<<<<<< Updated upstream
+=======
+>>>>>>> general-ui-improvements-5
+>>>>>>> Stashed changes
+>>>>>>> merge madness
     text-align: left;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
     min-height: 90px;
+<<<<<<< HEAD
     height: 100%;
 }
+=======
+<<<<<<< Updated upstream
+  }
+=======
+<<<<<<< HEAD
+    height: 100%;
+}
+=======
+  }
+>>>>>>> general-ui-improvements-5
+>>>>>>> Stashed changes
+>>>>>>> merge madness
 }
 
 .app-payload-flex>div>label {
@@ -1299,9 +1332,27 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 .app-payload-flex > svg, .app-payload-flex > .svg{
   height: 90px;
   width: 90px;
+=======
+<<<<<<< Updated upstream
+.app-payload-flex>svg {
+  height: auto;
+  width: auto;
+=======
+<<<<<<< HEAD
+.app-payload-flex > svg, .app-payload-flex > .svg{
+  height: 90px;
+  width: 90px;
+=======
+.app-payload-flex>svg {
+  height: auto;
+  width: auto;
+>>>>>>> general-ui-improvements-5
+>>>>>>> Stashed changes
+>>>>>>> merge madness
   max-height: 90px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1315,12 +1366,25 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-size: .75rem;
 }
 
+<<<<<<< Updated upstream
 /* SIDEBAR UI MOBILE */
 
 #collapseWalletList {
   display: none
 }
 
+=======
+.app-payload-flex>div>span {
+  font-size: .75rem;
+}
+
+/* SIDEBAR UI MOBILE */
+
+#collapseWalletList {
+  display: none
+}
+
+>>>>>>> Stashed changes
 @media (max-width: 930px) {
   .sidebar-container {
     margin: 2rem 0;
