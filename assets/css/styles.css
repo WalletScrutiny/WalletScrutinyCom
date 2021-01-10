@@ -1269,6 +1269,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     display: grid;
     grid-template-columns: 1fr 1fr;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 =======
@@ -1285,21 +1286,27 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> restore styles
   }
   .app-payload-flex>svg {
     display: none;
   }
   .app-payload-flex>div {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> general-ui-improvements-5
 >>>>>>> Stashed changes
 >>>>>>> merge madness
+=======
+>>>>>>> restore styles
     text-align: left;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
     min-height: 90px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 100%;
 }
 =======
@@ -1314,6 +1321,9 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 >>>>>>> general-ui-improvements-5
 >>>>>>> Stashed changes
 >>>>>>> merge madness
+=======
+  }
+>>>>>>> restore styles
 }
 
 .app-payload-flex>div>label {
@@ -1333,6 +1343,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .app-payload-flex > svg, .app-payload-flex > .svg{
   height: 90px;
   width: 90px;
@@ -1353,6 +1364,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 >>>>>>> general-ui-improvements-5
 >>>>>>> Stashed changes
 >>>>>>> merge madness
+=======
+.app-payload-flex>svg {
+  height: auto;
+  width: auto;
+>>>>>>> restore styles
   max-height: 90px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1366,25 +1382,12 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-size: .75rem;
 }
 
-<<<<<<< Updated upstream
 /* SIDEBAR UI MOBILE */
 
 #collapseWalletList {
   display: none
 }
 
-=======
-.app-payload-flex>div>span {
-  font-size: .75rem;
-}
-
-/* SIDEBAR UI MOBILE */
-
-#collapseWalletList {
-  display: none
-}
-
->>>>>>> Stashed changes
 @media (max-width: 930px) {
   .sidebar-container {
     margin: 2rem 0;
