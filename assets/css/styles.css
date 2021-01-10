@@ -642,6 +642,7 @@ table tr td label {
   row-gap: .1rem;
   column-gap: 1rem;
   align-content: start;
+  text-align: center;
 }
 
 @media (max-width:756px) {
@@ -649,6 +650,11 @@ table tr td label {
     grid-auto-flow: column;
     max-width: unset;
     grid-template-columns: auto 1fr;
+    text-align: left;
+    align-items: center;
+  }
+  table tr td label {
+    font-size: 1.2rem;
   }
 }
 
@@ -1144,6 +1150,17 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-items: center;
 }
 
+.humanised-numbers.-bold {
+  flex-direction: column;
+  text-align: center;
+}
+
+.humanised-numbers.-bold>l {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
 .humanised-numbers>i {
   margin-right: .25rem;
   opacity: .5;
@@ -1275,6 +1292,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     grid-template-columns: 1fr 1fr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 =======
@@ -1306,6 +1324,13 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 >>>>>>> merge madness
 =======
 >>>>>>> restore styles
+=======
+  }
+  .app-payload-flex>svg, .app-payload-flex>.svg {
+    display: none;
+  }
+  .app-payload-flex>div {
+>>>>>>> change wallet grid label text + supporting styles
     text-align: left;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
@@ -1313,6 +1338,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 <<<<<<< HEAD
 <<<<<<< HEAD
     height: 100%;
+<<<<<<< HEAD
 }
 =======
 <<<<<<< Updated upstream
@@ -1329,6 +1355,9 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 =======
   }
 >>>>>>> restore styles
+=======
+  }
+>>>>>>> change wallet grid label text + supporting styles
 }
 
 .app-payload-flex>div>label {
@@ -1349,7 +1378,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .app-payload-flex > svg, .app-payload-flex > .svg{
+=======
+.app-payload-flex>svg, .app-payload-flex>.svg {
+>>>>>>> change wallet grid label text + supporting styles
   height: 90px;
   width: 90px;
 =======
@@ -1379,7 +1412,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   background-repeat: no-repeat;
 }
 
-.svg.reproducible{
+.svg.reproducible {
   background-image: var(--reproducible-badge);
 }
 
