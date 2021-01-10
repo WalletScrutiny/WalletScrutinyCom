@@ -1,24 +1,23 @@
-// $(document).ready(function(){
-//   $("#showWallets").on("click", function() {
-//     $("#sidebarWalletList")
-//       .css('height', 'auto')
-//       .css('overflow-y', 'auto')
-//     $("#sidebarWalletListShowButton").hide()
-//   });
-// });
+if (document.getElementById("showWallets") && document.getElementById("collapseWalletList")) {
+  document.getElementById("showWallets").addEventListener("click", function () {
+    toggleWalletList();
+  });
+  document.getElementById("collapseWalletList").addEventListener("click", function () {
+    toggleWalletList();
+  });
+}
 
-
-
-document.getElementById("showWallets").addEventListener("click", function () {
+function toggleWalletList() {
   if (document.getElementById("sidebarWalletList").classList.contains("mobile-compact")) { 
     document.getElementById("sidebarWalletList").classList.remove("mobile-compact");
     document.getElementById("showWallets").innerHTML = 'Collapse list&nbsp;<i class="fas fa-chevron-up"></i>';
+    document.getElementById("collapseWalletList").style.display = "unset";
   }else{
     document.getElementById("sidebarWalletList").classList.add("mobile-compact");
     document.getElementById("showWallets").innerHTML = 'Expand list&nbsp;<i class="fas fa-chevron-down"></i>';
+    document.getElementById("collapseWalletList").style.display = "none";
   }
-
-});
+}
 
 var lastId = ""
 
