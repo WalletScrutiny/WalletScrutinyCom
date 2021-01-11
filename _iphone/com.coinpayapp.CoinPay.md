@@ -7,8 +7,8 @@ idd: 1477731032
 released: 2019-12-04
 updated: 2020-08-29
 version: "2020.08.28"
-score: 4.24615
-reviews: 65
+score: 4.14492
+reviews: 69
 size: 21357568
 developerWebsite: https://www.coinpayapp.com
 repository: 

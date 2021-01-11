@@ -6,11 +6,11 @@ users: 1000
 appId: zapsolutions.strike
 launchDate: 
 latestUpdate: 2021-01-07
-apkVersionName: "v54"
+apkVersionName: "v55"
 stars: 4.8
-ratings: 121
-reviews: 37
-size: 8.5M
+ratings: 127
+reviews: 40
+size: 8.6M
 website: 
 repository: 
 issue: 

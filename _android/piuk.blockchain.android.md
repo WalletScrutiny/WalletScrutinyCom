@@ -1,5 +1,5 @@
 ---
-title: "Blockchain Wallet: Buy and Sell Bitcoin & Crypto"
+title: "Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 
 users: 5000000
@@ -8,8 +8,8 @@ launchDate: 2013-02-01
 latestUpdate: 2020-12-17
 apkVersionName: "Varies with device"
 stars: 3.7
-ratings: 96991
-reviews: 47813
+ratings: 97218
+reviews: 47956
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

@@ -5,11 +5,11 @@ altTitle:
 appId: com.mycelium.wallet-ios
 idd: 943912290
 released: 2014-12-17
-updated: 2020-12-15
-version: "1.15"
-score: 2.24296
-reviews: 284
-size: 7646208
+updated: 2021-01-09
+version: "1.16"
+score: 2.22837
+reviews: 289
+size: 7785472
 developerWebsite: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
 issue: 
@@ -17,7 +17,7 @@ icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-19
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

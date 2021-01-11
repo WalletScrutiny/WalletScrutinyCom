@@ -5,11 +5,11 @@ altTitle:
 appId: com.viabtc.trader
 idd: 1264462812
 released: 2017-08-23
-updated: 2020-11-24
-version: "2.8.9"
+updated: 2021-01-11
+version: "2.9.0"
 score: 4.46358
 reviews: 151
-size: 111695872
+size: 120242176
 developerWebsite: https://www.coinex.com
 repository: 
 issue: 

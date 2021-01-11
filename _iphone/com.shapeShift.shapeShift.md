@@ -7,8 +7,8 @@ idd: 996569075
 released: 2015-06-09
 updated: 2020-12-30
 version: "2.9.0"
-score: 3.62295
-reviews: 244
+score: 3.61111
+reviews: 252
 size: 78036992
 developerWebsite: https://shapeshift.com
 repository: 

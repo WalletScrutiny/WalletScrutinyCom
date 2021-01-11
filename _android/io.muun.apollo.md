@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: io.muun.apollo
 launchDate: 2017-04-25
-latestUpdate: 2021-01-07
-apkVersionName: "42.4"
+latestUpdate: 2021-01-08
+apkVersionName: "42.5"
 stars: 4.5
 ratings: 72
 reviews: 41

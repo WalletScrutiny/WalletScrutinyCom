@@ -7,8 +7,8 @@ idd: 1279896253
 released: 2017-09-23
 updated: 2020-12-21
 version: "2.15.0"
-score: 3.92537
-reviews: 67
+score: 3.89706
+reviews: 68
 size: 36187136
 developerWebsite: https://eidoo.io
 repository: 

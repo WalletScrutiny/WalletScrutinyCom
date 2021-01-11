@@ -5,11 +5,11 @@ altTitle:
 appId: com.czzhao.binance
 idd: 1436799971
 released: 2018-10-06
-updated: 2020-12-22
-version: "2.23.1"
-score: 4.68028
-reviews: 22157
-size: 368881664
+updated: 2021-01-08
+version: "2.24.0"
+score: 4.66336
+reviews: 22953
+size: 410848256
 developerWebsite: https://www.binance.com
 repository: 
 issue: 
