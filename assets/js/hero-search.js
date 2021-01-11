@@ -48,34 +48,37 @@ function focusResults(e) {
   }
 }
 
-function searchCatalogue(t) {
-  var bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
-  var result = document.createElement("ul")
+function searchCatalogue(termInput) {
+  const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
+  const result = document.createElement("ul")
   result.classList.add("results-list")
-  var v = t.value.toUpperCase()
-  var filter = 1;//String("COIN").indexOf(v) !== -1 ? 4 : String("WALLET").indexOf(v) !== -1 ? 6 : 0;
-  if (v.length > filter) {
-    var f = 0
-    sortedWallets.forEach(function (r) {
-      var n = `${r.title} ${r.appId} ${r.website}`
-      if (f < 1) {
+  const term = termInput.value.toUpperCase()
+  const minTermLength = 1
+  const basePath = window.wallets.base_path
+  if (term.length > minTermLength) {
+    var matchCounter = 0
+    sortedWallets.forEach(function (wallet) {
+      var n = `${wallet.title} ${wallet.appId} ${wallet.website}`
+      if (matchCounter < 1) {
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
-      if (n.toUpperCase().indexOf(v) !== -1) {
-        if (f == 0) { result.innerHTML = ""; }
+      if (n.toUpperCase().indexOf(term) !== -1) {
+        if (matchCounter == 0) {
+          result.innerHTML = ""
+        }
         bi.classList.remove("fa-times")
-          bi.classList.add("fa-circle-notch");
-        var l = document.createElement("li");
-        l.style['animation-delay'] = f * .1 + 's';
-        l.classList.add("actionable");
-        l.innerHTML = `<a onclick="window.location.href = '${window.wallets.base_path}${r.url}';" href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/android/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
+        bi.classList.add("fa-circle-notch")
+        var l = document.createElement("li")
+        l.style['animation-delay'] = matchCounter * .1 + 's'
+        l.classList.add("actionable")
+        l.innerHTML = `<a onclick="window.location.href = '${basePath}${wallet.url}';" href='${basePath}${wallet.url}'><img src='${basePath}/images/wallet_icons/android/small/${wallet.icon}' class='results-list-wallet-icon' />${wallet.title}</a>`
         result.append(l)
-        f++
+        matchCounter++
       }
     })
-  } else if (v.length != 0) {
+  } else if (term.length != 0) {
     var l = document.createElement("li")
-    var rem = (filter + 1) - v.length
+    var rem = (minTermLength + 1) - term.length
     var s = rem > 1 ? "s" : ""
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
@@ -87,23 +90,23 @@ function searchCatalogue(t) {
     document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
     document.querySelectorAll(".results-list")[0].replaceWith(result)
   }, 500)
-  heroSearchScrollToTop(t)
+  heroSearchScrollToTop(termInput)
 }
 
-function heroUX(t) {
-  t.focus()
-  t.select()
+function heroUX(termInput) {
+  termInput.focus()
+  termInput.select()
 
-  heroSearchScrollToTop(t)
+  heroSearchScrollToTop(termInput)
 
-  if (t.value.length > 0) {
-    searchCatalogue(t)
+  if (termInput.value.length > 0) {
+    searchCatalogue(termInput)
   }
   document.getElementById("exitSearchTrigger").style.display = "block"
 }
 
-function heroSearchScrollToTop(t) {
-  var s = window.pageYOffset + t.getBoundingClientRect().top
+function heroSearchScrollToTop(termInput) {
+  var s = window.pageYOffset + termInput.getBoundingClientRect().top
   if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
