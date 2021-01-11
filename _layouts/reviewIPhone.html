@@ -68,10 +68,10 @@ layout: default
           page.providerLinkedIn %}
           <div class="social-row">
             <ul>
-              {% if page.website %}
+              {% if page.developerWebsite %}
               <li
-                title='Link to developer website : {{ page.website | replace: "http://", "" | replace: "https://", "" }}'>
-                <a href="{{ page.website }}" class="link-web">
+                title='Link to developer website : {{ page.developerWebsite | replace: "http://", "" | replace: "https://", "" }}'>
+                <a href="{{ page.developerWebsite }}" class="link-web">
                   <i class="fas fa-globe"></i>
                 </a>
               </li>
