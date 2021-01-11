@@ -58,21 +58,31 @@ function searchCatalogue(termInput) {
   if (term.length > minTermLength) {
     var matchCounter = 0
     sortedWallets.forEach(function (wallet) {
-      var n = `${wallet.title} ${wallet.appId} ${wallet.website}`
+      const searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite}`
       if (matchCounter < 1) {
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
-      if (n.toUpperCase().indexOf(term) !== -1) {
+      if (searchableTerms.toUpperCase().indexOf(term) !== -1) {
         if (matchCounter == 0) {
           result.innerHTML = ""
         }
         bi.classList.remove("fa-times")
         bi.classList.add("fa-circle-notch")
-        var l = document.createElement("li")
-        l.style['animation-delay'] = matchCounter * .1 + 's'
-        l.classList.add("actionable")
-        l.innerHTML = `<a onclick="window.location.href = '${basePath}${wallet.url}';" href='${basePath}${wallet.url}'><img src='${basePath}/images/wallet_icons/android/small/${wallet.icon}' class='results-list-wallet-icon' />${wallet.title}</a>`
-        result.append(l)
+        const walletRow = document.createElement("li")
+        walletRow.style['animation-delay'] = matchCounter * .1 + 's'
+        walletRow.classList.add("actionable")
+        const platform = (wallet.idd) ? `iphone` : `android`
+        const analysisUrl = `${basePath}${wallet.url}`
+        walletRow.innerHTML = `<a 
+            onclick="window.location.href = '${analysisUrl}';"
+            href='${analysisUrl}'>
+          <img
+              src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
+              class='results-list-wallet-icon'
+            /><i
+                class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
+                style="margin: 0 0.4em 0 auto"></i> ${wallet.title}</a>`
+        result.append(walletRow)
         matchCounter++
       }
     })
