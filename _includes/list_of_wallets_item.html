@@ -48,10 +48,10 @@
           </span>
         </td>
       </tr>
-      {% if prettyUserCount %}<tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>{% endif %}
+      {% if post.users %}<tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>{% endif %}
       {% if post.stars %}<tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>{% endif %}
-      {% if post.score %}<tr><td>Rating</td><td>{{ post.score }} stars by {{ post.reviews }} users</td></tr>{% endif %}
-      {% if post.size %}<tr><td>App size</td><td>{{ post.size }}B</td></tr>{% endif %}
+      {% if post.score %}<tr><td>Rating</td><td>{{ post.score | round: 1 }} stars by {{ post.reviews }} users</td></tr>{% endif %}
+      {% if post.size %}<tr><td>App size</td><td>{{ post.size | divided_by: 1000000.0 | round:1 }}MB</td></tr>{% endif %}
       {% if post.released %}<tr><td>Launched</td><td>{{ post.released | date: '%Y-%m-%d' }}</td></tr>{% endif %}
       {% if post.launchDate %}<tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>{% endif %}
       {% if post.updated %}<tr><td>Updated</td><td>{{ post.updated | date: '%Y-%m-%d' }}</td></tr>{% endif %}
