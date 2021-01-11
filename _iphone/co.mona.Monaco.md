@@ -5,29 +5,31 @@ altTitle:
 appId: co.mona.Monaco
 idd: 1262148500
 released: 2017-08-31
-updated: 2021-01-05
-version: "3.79"
-score: 4.40817
-reviews: 6267
-size: 275809280
+updated: 2021-01-10
+version: "3.80"
+score: 4.39855
+reviews: 6333
+size: 276660224
 developerWebsite: https://crypto.com/
 repository: 
 issue: 
 icon: co.mona.Monaco.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-11
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: cryptocom
+providerLinkedIn: company/cryptocom
+providerFacebook: CryptoComOfficial
+providerReddit: Crypto_com
 
 redirect_from:
 
 ---
 
+As their [version for Android](/android/co.mona.android) this app is custodial
+and thus **not verifiable**.

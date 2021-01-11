@@ -15,19 +15,21 @@ repository:
 issue: 
 icon: us.binance.fiat.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-10
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: binanceus
+providerLinkedIn: company/binance-us
+providerFacebook: BinanceUS
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This is the iPhone version of [this Android app](/android/com.binance.us) and we
+come to the same conclusion for the same reasons. This app is **not verifiable**.

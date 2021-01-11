@@ -2,23 +2,22 @@
 title: "Crypto.com l DeFi Wallet"
 altTitle: 
 
-users: 100000
 appId: com.defi.wallet
-launchDate: 2020-05-11
-latestUpdate: 2020-12-21
-apkVersionName: "1.5.1"
-stars: 4.0
-ratings: 904
-reviews: 352
-size: 23M
-website: https://crypto.com/en/defi/
+idd: 1512048310
+released: 2020-05-20
+updated: 2020-12-23
+version: "1.5.1"
+score: 3.176
+reviews: 125
+size: 60526592
+developerWebsite: https://crypto.com/en/defi/wallet/
 repository: 
 issue: 
-icon: com.defi.wallet.png
+icon: com.defi.wallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -29,10 +28,8 @@ providerFacebook: CryptoComOfficial
 providerReddit: Crypto_com
 
 redirect_from:
-  - /com.defi.wallet/
-  - /posts/com.defi.wallet/
----
 
+---
 
 This app's description is promising:
 
