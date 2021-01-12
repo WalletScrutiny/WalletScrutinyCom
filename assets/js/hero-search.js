@@ -106,7 +106,7 @@ function searchCatalogue(termInput) {
 function heroUX(termInput) {
   termInput.focus()
   termInput.select()
-
+  showInitialSuggestion()
   heroSearchScrollToTop(termInput)
 
   if (termInput.value.length > 0) {
@@ -116,7 +116,7 @@ function heroUX(termInput) {
 }
 
 function heroSearchScrollToTop(termInput) {
-  var s = window.pageYOffset + termInput.getBoundingClientRect().top
+  var s = window.pageYOffset + t.getBoundingClientRect().top - 15
   if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
