@@ -111,7 +111,7 @@ permalink: /widget/
           ${ (hasValue(wallet.users)) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ``}
           ${ (hasValue(wallet.stars)) ? `<tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.ratings} users</td></tr>` : ``}
           ${ (hasValue(wallet.score)) ? `<tr><td>Rating</td><td>${wallet.score} stars by ${wallet.reviews} users</td></tr>` : ``}
-          <tr><td>App size</td><td>${ Math.round(wallet.size / 100000 ) / 10 }MB</td></tr>
+          <tr><td>App size</td><td>${ (hasValue(wallet.idd)) ? `${ Math.round(wallet.size / 100000 ) / 10 }MB` : `${wallet.size}B`}</td></tr>
           ${ (hasValue(wallet.launchDate)) ? `<tr><td>Launched</td><td>${wallet.launchDate}</td></tr>` : ``}
           ${ (hasValue(wallet.released)) ? `<tr><td>Released</td><td>${wallet.released}</td></tr>` : ``}
           <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
