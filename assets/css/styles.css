@@ -616,13 +616,13 @@ h2.section-label {
 table tr td count {
   display: block;
   font-size: .9rem;
-  color: var(--permanent-white);
+  color: var(--text);
   border-radius: 5px;
 }
 
 table tr td label {
   display: block;
-  color: var(--permanent-white);
+  color: var(--text);
   opacity: .7;
   line-break: anywhere;
 }
@@ -635,8 +635,7 @@ table tr td label {
   min-width: 130px;
   max-width: 20%;
   font-weight: bold;
-  background-color: var(--permanent-black);
-  color: var(--permanent-white);
+  color: var(--text);
   display: grid;
   grid-auto-flow: row;
   row-gap: .1rem;
@@ -663,8 +662,9 @@ table tr td label {
   border-radius: 8px;
   overflow: hidden;
   display: flex;
-  transition: .2s ease;
+  transition: .2s linear;
   background-color: var(--white);
+  box-shadow: 0 1px 5px -3px;
 }
 
 #gridOfWallets1 tr:hover, #gridOfWallets2 tr:hover {
