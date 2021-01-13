@@ -6,10 +6,10 @@ users: 10000
 appId: io.changenow.changenow
 launchDate: 
 latestUpdate: 2021-01-04
-apkVersionName: "1.99"
+apkVersionName: "1.102"
 stars: 4.5
-ratings: 471
-reviews: 263
+ratings: 477
+reviews: 264
 size: 5.7M
 website: http://changenow.io
 repository: 

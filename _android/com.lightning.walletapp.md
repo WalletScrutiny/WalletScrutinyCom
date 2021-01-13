@@ -8,8 +8,8 @@ launchDate: 2018-05-01
 latestUpdate: 2021-01-09
 apkVersionName: "0.4.5"
 stars: 4.0
-ratings: 330
-reviews: 217
+ratings: 331
+reviews: 218
 size: 4.9M
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet

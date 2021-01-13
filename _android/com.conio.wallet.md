@@ -2,14 +2,14 @@
 title: "Conio Bitcoin Wallet"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.conio.wallet
 launchDate: 
 latestUpdate: 2020-12-14
 apkVersionName: "3.3.5"
 stars: 3.5
-ratings: 439
-reviews: 282
+ratings: 444
+reviews: 285
 size: 70M
 website: https://www.conio.com/en
 repository: 

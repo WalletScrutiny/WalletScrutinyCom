@@ -2,14 +2,14 @@
 title: "HitBTC – Cryptocurrency Exchange & Trading BTC App"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
-latestUpdate: 2020-12-14
-apkVersionName: "3.0.4"
+latestUpdate: 2021-01-11
+apkVersionName: "3.0.5"
 stars: 4.1
-ratings: 664
-reviews: 334
+ratings: 669
+reviews: 337
 size: 11M
 website: https://hitbtc.com
 repository: 

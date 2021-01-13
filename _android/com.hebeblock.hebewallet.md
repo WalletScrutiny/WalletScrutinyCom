@@ -2,7 +2,7 @@
 title: "Hebe Wallet"
 altTitle: 
 
-users: 500
+users: 1000
 appId: com.hebeblock.hebewallet
 launchDate: 
 latestUpdate: 2021-01-07

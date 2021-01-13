@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-30
 apkVersionName: "1.2.0"
 stars: 4.6
-ratings: 673
-reviews: 597
+ratings: 678
+reviews: 602
 size: 66M
 website: https://ownrwallet.com
 repository: 

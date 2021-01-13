@@ -7,9 +7,9 @@ appId: com.blockchain.android
 launchDate: 2020-06-15
 latestUpdate: 2021-01-04
 apkVersionName: "1.0.7.5"
-stars: 4.3
-ratings: 2652
-reviews: 521
+stars: 4.4
+ratings: 2697
+reviews: 527
 size: 21M
 website: 
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
