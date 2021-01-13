@@ -79,9 +79,11 @@ function searchCatalogue(termInput) {
           <img
               src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
               class='results-list-wallet-icon'
-            /><i
-                class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
-                style="margin: 0 0.4em 0 auto"></i> ${wallet.title}</a>`
+            /><span>${wallet.title}</span>
+            <i class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
+            style="margin: 0 0.4em 0 auto"></i>
+            <span class="badge ${wallet.verdict}">${wallet.verdict}</span>
+            </a>`
         result.append(walletRow)
         matchCounter++
       }
@@ -145,7 +147,13 @@ function showInitialSuggestion() {
     }
     for (i = 0; i < k_.length; i++) {
       var k = window.wallets[k_[i]];
-      reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/android/small/${k.icon}' class='results-list-wallet-icon' /><span>${k.title}</span></a>`
+      reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/android/small/${k.icon}' class='results-list-wallet-icon' />
+      <span>
+      <span class="badge ${k.verdict}">${k.verdict}</span>
+      <i class="fab fa-${(k.idd) ? `app-store` : `google-play`}"></i>
+      <br>
+      ${k.title}</span>
+      </a>`
     }
   }
   document.querySelectorAll(".results-list")[0].innerHTML = `<div class="-pl">${reproducibleKeysIcons}</div>`;

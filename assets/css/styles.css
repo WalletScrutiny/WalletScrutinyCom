@@ -374,12 +374,24 @@ pre.highlight code {
   align-items: center;
 }
 
+.-pl .badge {
+  overflow: hidden;
+  height: 10px;
+  width: 10px;
+  padding: 0 !important;
+  position: absolute;
+  box-shadow: inset 0 0 0 10px !important;
+  z-index: 2;
+  transform: translate(calc(-2rem - 16px), 6px);
+}
+
 .results-list.quick-link .-pl>a>span {
   font-size: 11px;
   text-align: left;
-  width: 100px;
+  text-align: left;
+  width: 150px;
   max-width: 30vw;
-  max-height: 2rem;
+  max-height: 4rem;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1rem;
@@ -582,6 +594,19 @@ h2.section-label {
   color: inherit;
   font-weight: 300;
   text-align: left;
+  grid-template-columns: auto 1fr auto auto;
+  column-gap: 5px;
+}
+
+.results-list .badge {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: .6rem;
+  box-shadow: 0 0 2px 0;
+  padding: 1px .5rem;
+  text-align: center;
+  border-radius: 100px;
+  background: var(--white);
 }
 
 .results-list li:hover, .results-list li:active {
@@ -1290,228 +1315,140 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   .app-summary-grid>.app-payload-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> merge madness
-}
-
-.app-payload-flex > svg, .app-payload-flex > .svg {
-  display: none;
-}
-
-  .app-payload-flex > div {
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> restore styles
+  }
+  .app-payload-flex>svg, .app-payload-flex>.svg {
+    display: none;
   }
   .app-payload-flex>svg {
     display: none;
-  }
-  .app-payload-flex>div {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> general-ui-improvements-5
->>>>>>> Stashed changes
->>>>>>> merge madness
-=======
->>>>>>> restore styles
-=======
   }
   .app-payload-flex>svg, .app-payload-flex>.svg {
     display: none;
   }
   .app-payload-flex>div {
->>>>>>> change wallet grid label text + supporting styles
     text-align: left;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
     min-height: 90px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 100%;
-<<<<<<< HEAD
-}
-=======
-<<<<<<< Updated upstream
   }
-=======
-<<<<<<< HEAD
-    height: 100%;
-}
-=======
+  .app-payload-flex>div>label {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: .75rem;
+    font-weight: bold;
+    cursor: unset;
   }
->>>>>>> general-ui-improvements-5
->>>>>>> Stashed changes
->>>>>>> merge madness
-=======
+  .app-payload-flex>div>div {
+    position: relative;
   }
->>>>>>> restore styles
-=======
+  .app-payload-flex>div>div * {
+    font-size: 1.2rem;
   }
->>>>>>> change wallet grid label text + supporting styles
-}
-
-.app-payload-flex>div>label {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  font-size: .75rem;
-  font-weight: bold;
-  cursor: unset;
-}
-
-.app-payload-flex>div>div {
-  position: relative;
-}
-
-.app-payload-flex>div>div * {
-  font-size: 1.2rem;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.app-payload-flex > svg, .app-payload-flex > .svg{
-=======
-.app-payload-flex>svg, .app-payload-flex>.svg {
->>>>>>> change wallet grid label text + supporting styles
-  height: 90px;
-  width: 90px;
-=======
-<<<<<<< Updated upstream
-.app-payload-flex>svg {
-  height: auto;
-  width: auto;
-=======
-<<<<<<< HEAD
-.app-payload-flex > svg, .app-payload-flex > .svg{
-  height: 90px;
-  width: 90px;
-=======
-.app-payload-flex>svg {
-  height: auto;
-  width: auto;
->>>>>>> general-ui-improvements-5
->>>>>>> Stashed changes
->>>>>>> merge madness
-=======
-.app-payload-flex>svg {
-  height: auto;
-  width: auto;
->>>>>>> restore styles
-  max-height: 90px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.svg.reproducible {
-  background-image: var(--reproducible-badge);
-}
-
-.app-payload-flex>div>span {
-  font-size: .75rem;
-}
-
-/* SIDEBAR UI MOBILE */
-
-#collapseWalletList {
-  display: none
-}
-
-@media (max-width: 930px) {
-  .sidebar-container {
-    margin: 2rem 0;
-    box-shadow: 0px 10px 10px -13px;
-    padding-bottom: 5px;
+  .app-payload-flex>svg, .app-payload-flex>.svg {
+    height: auto;
+    width: auto;
+    max-height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  #sidebarWalletList.mobile-compact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: 2rem;
+  .svg.reproducible {
+    background-image: var(--reproducible-badge);
   }
-  #sidebarWalletList.mobile-compact::before {
-    content: "Expand list below or swipe across apps \f0d9 \f0da";
-    font-family: 'Font Awesome 5 Free', 'Lato', sans-serif;
-    font-size: 10px;
-    position: absolute;
-    top: -1.25rem;
-    z-index: 2;
-    color: var(--grey);
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    font-weight: 900;
-    opacity: .5;
-  }
-  #sidebarWalletList.mobile-compact::after {
-    /* content: "\f138"; */
-    content: "";
-    display: block;
-    position: fixed;
-    z-index: 1;
-    background: linear-gradient(90deg, var(--transparent) 60%, var(--body));
-    height: calc(4rem - 4px);
-    width: 100%;
-    right: 0;
-    top: 0;
-    pointer-events: none;
-    line-height: 4rem;
-    text-align: right;
-    font-family: 'Font Awesome 5 Free';
-    color: var(--nav);
-    font-size: 1.5rem;
-  }
-  #collapseWalletList, #collapseWalletList button, #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
-    background: none;
-    padding: 0;
-    margin: 0;
-    color: var(--accent) !important;
-    font-weight: 700;
-  }
-  #sidebarWalletList.mobile-compact .verdict {
-    display: block;
-    margin: auto 1rem !important;
-    font-size: 12px;
-    font-weight: 400;
-    opacity: .6;
-  }
-  #sidebarWalletList.mobile-compact .verdict::after {
-    content: '>';
-  }
-  .mobile-compact .app_name {
-    display: none;
-  }
-  #sidebarWalletList.mobile-compact>div a {
-    display: block;
-    padding: 0;
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.75rem;
-  }
-  #sidebarWalletList.mobile-compact .logo_name_bundle:hover {
-    background: none !important;
-  }
-  #sidebarWalletList.mobile-compact>div .app_logo {
-    width: 2rem;
-    display: block;
-    height: 2rem;
-    border-radius: 25%;
-    margin: 0;
-  }
-  #main.app-review {
-    margin-top: 0;
+  .app-payload-flex>div>span {
+    font-size: .75rem;
   }
 }
+  /* SIDEBAR UI MOBILE */
+  #collapseWalletList {
+    display: none
+  }
+  @media (max-width: 930px) {
+    .sidebar-container {
+      margin: 2rem 0;
+      box-shadow: 0px 10px 10px -13px;
+      padding-bottom: 5px;
+    }
+    #sidebarWalletList.mobile-compact {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      height: 2rem;
+    }
+    #sidebarWalletList.mobile-compact::before {
+      content: "Expand list below or swipe across apps \f0d9 \f0da";
+      font-family: 'Font Awesome 5 Free', 'Lato', sans-serif;
+      font-size: 10px;
+      position: absolute;
+      top: -1.25rem;
+      z-index: 2;
+      color: var(--grey);
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      font-weight: 900;
+      opacity: .5;
+    }
+    #sidebarWalletList.mobile-compact::after {
+      /* content: "\f138"; */
+      content: "";
+      display: block;
+      position: fixed;
+      z-index: 1;
+      background: linear-gradient(90deg, var(--transparent) 60%, var(--body));
+      height: calc(4rem - 4px);
+      width: 100%;
+      right: 0;
+      top: 0;
+      pointer-events: none;
+      line-height: 4rem;
+      text-align: right;
+      font-family: 'Font Awesome 5 Free';
+      color: var(--nav);
+      font-size: 1.5rem;
+    }
+    #collapseWalletList, #collapseWalletList button, #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
+      background: none;
+      padding: 0;
+      margin: 0;
+      color: var(--accent) !important;
+      font-weight: 700;
+    }
+    #sidebarWalletList.mobile-compact .verdict {
+      display: block;
+      margin: auto 1rem !important;
+      font-size: 12px;
+      font-weight: 400;
+      opacity: .6;
+    }
+    #sidebarWalletList.mobile-compact .verdict::after {
+      content: '>';
+    }
+    .mobile-compact .app_name {
+      display: none;
+    }
+    #sidebarWalletList.mobile-compact>div a {
+      display: block;
+      padding: 0;
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.75rem;
+    }
+    #sidebarWalletList.mobile-compact .logo_name_bundle:hover {
+      background: none !important;
+    }
+    #sidebarWalletList.mobile-compact>div .app_logo {
+      width: 2rem;
+      display: block;
+      height: 2rem;
+      border-radius: 25%;
+      margin: 0;
+    }
+    #main.app-review {
+      margin-top: 0;
+    }
+  }
