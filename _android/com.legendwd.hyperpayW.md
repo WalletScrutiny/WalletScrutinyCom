@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.legendwd.hyperpayW
 launchDate: 
-latestUpdate: 2021-01-09
-apkVersionName: "4.0.11"
+latestUpdate: 2021-01-13
+apkVersionName: "4.0.12"
 stars: 4.3
 ratings: 735
 reviews: 577

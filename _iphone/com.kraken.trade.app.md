@@ -5,10 +5,10 @@ altTitle:
 appId: com.kraken.trade.app
 idd: 1473024338
 released: 2019-11-12
-updated: 2020-12-23
-version: "1.5.9"
-score: 4.74224
-reviews: 1773
+updated: 2021-01-13
+version: "1.5.10"
+score: 4.7412
+reviews: 1789
 size: 33844224
 developerWebsite: 
 repository: 

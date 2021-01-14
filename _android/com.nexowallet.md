@@ -2,14 +2,14 @@
 title: "Nexo - Crypto Banking Account"
 altTitle: 
 
-users: 100000
+users: 500000
 appId: com.nexowallet
 launchDate: 
 latestUpdate: 2020-12-18
 apkVersionName: "1.3.0"
 stars: 4.1
-ratings: 5391
-reviews: 2494
+ratings: 5404
+reviews: 2496
 size: 50M
 website: https://nexo.io
 repository: 

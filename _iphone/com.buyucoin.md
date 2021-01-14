@@ -5,11 +5,11 @@ altTitle:
 appId: com.buyucoin
 idd: 1539456610
 released: 2020-11-17
-updated: 2020-12-12
-version: "1.2"
+updated: 2021-01-13
+version: "1.3"
 score: 
 reviews: 
-size: 35079168
+size: 35185664
 developerWebsite: https://www.buyucoin.com
 repository: 
 issue: 
