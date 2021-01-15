@@ -7,8 +7,8 @@ idd: 1415300709
 released: 2018-08-12
 updated: 2020-07-06
 version: "1.37"
-score: 4.52632
-reviews: 19
+score: 4.55
+reviews: 20
 size: 67512320
 developerWebsite: https://paytomat.com
 repository: 

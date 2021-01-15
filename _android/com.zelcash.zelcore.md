@@ -8,7 +8,7 @@ launchDate: 2018-09-21
 latestUpdate: 2020-12-28
 apkVersionName: "4.2.0"
 stars: 4.1
-ratings: 357
+ratings: 358
 reviews: 255
 size: 19M
 website: https://zel.network/project/zelcore

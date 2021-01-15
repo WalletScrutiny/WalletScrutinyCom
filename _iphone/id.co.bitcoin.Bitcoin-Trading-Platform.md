@@ -5,11 +5,11 @@ altTitle:
 appId: id.co.bitcoin.Bitcoin-Trading-Platform
 idd: 1349104693
 released: 2018-03-29
-updated: 2020-12-02
-version: "2.2.2"
-score: 1
-reviews: 1
-size: 73454592
+updated: 2021-01-14
+version: "2.2.3"
+score: 
+reviews: 
+size: 74417152
 developerWebsite: https://indodax.com
 repository: 
 issue: 

@@ -7,9 +7,9 @@ appId: com.ezdefi
 launchDate: 
 latestUpdate: 2020-12-30
 apkVersionName: "0.2.9"
-stars: 4.7
-ratings: 50
-reviews: 38
+stars: 4.6
+ratings: 52
+reviews: 39
 size: 48M
 website: https://ezdefi.com/
 repository: 

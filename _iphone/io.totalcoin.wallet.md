@@ -5,11 +5,11 @@ altTitle:
 appId: io.totalcoin.wallet
 idd: 1392398906
 released: 2018-07-05
-updated: 2021-01-12
-version: "2.9.4"
+updated: 2021-01-14
+version: "2.9.5"
 score: 4.59016
 reviews: 61
-size: 55371776
+size: 55375872
 developerWebsite: 
 repository: 
 issue: 

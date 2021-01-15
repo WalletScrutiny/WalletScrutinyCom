@@ -8,13 +8,13 @@ launchDate: 2018-01-15
 latestUpdate: 2020-12-21
 apkVersionName: "3.2.5"
 stars: 4.7
-ratings: 3434
-reviews: 814
+ratings: 3440
+reviews: 818
 size: 7.7M
 website: https://lumiwallet.com
 repository: 
 issue: 
-icon: com.lumiwallet.android.jpg
+icon: com.lumiwallet.android.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-15

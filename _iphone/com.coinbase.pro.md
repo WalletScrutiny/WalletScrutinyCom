@@ -5,11 +5,11 @@ altTitle:
 appId: com.coinbase.pro
 idd: 1446636681
 released: 2019-10-10
-updated: 2020-12-24
-version: "1.0.55"
-score: 4.70511
-reviews: 27651
-size: 44122112
+updated: 2021-01-14
+version: "1.0.57"
+score: 4.70439
+reviews: 27966
+size: 44617728
 developerWebsite: https://pro.coinbase.com
 repository: 
 issue: 

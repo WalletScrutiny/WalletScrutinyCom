@@ -5,11 +5,11 @@ altTitle:
 users: 1000
 appId: io.muun.apollo
 launchDate: 2017-04-25
-latestUpdate: 2021-01-08
-apkVersionName: "42.5"
+latestUpdate: 2021-01-14
+apkVersionName: "42.6"
 stars: 4.5
-ratings: 81
-reviews: 47
+ratings: 82
+reviews: 48
 size: 39M
 website: https://muun.com
 repository: https://github.com/muun/apollo

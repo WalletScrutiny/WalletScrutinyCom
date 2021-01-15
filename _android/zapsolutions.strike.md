@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2021-01-07
 apkVersionName: "v55"
 stars: 4.8
-ratings: 129
+ratings: 130
 reviews: 40
 size: 8.6M
 website: 
