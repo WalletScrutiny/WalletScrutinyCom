@@ -37,7 +37,7 @@ fs.readdir(androidFolder, function (err, files) {
     const correctFile = `${appId}.md`
     if(file != correctFile) {
       const correctFilePath = path.join(androidFolder, correctFile)
-      fs.rename(filePath, correctFilePath, function (error) {
+      fs.rename(file, correctFilePath, function (error) {
         if (error) {
           console.error("File moving error.", error)
         }
@@ -85,12 +85,10 @@ fs.readdir(androidFolder, function (err, files) {
 })
 
 function writeResult(app, header, iconExtension, body) {
-  var apkVersionName = app.version || "various"
+  const apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
-  var launchDateString = null
-  if (launchDate != undefined) {
-    launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
-  }
+  const launchDateString = (launchDate != undefined) ? dateFormat(launchDate, "yyyy-mm-dd") : null
+  const stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
   const path = `_android/${header.appId}.md`
   const file = fs.createWriteStream(path)
   console.log("Writing results to " + path)
@@ -98,15 +96,15 @@ function writeResult(app, header, iconExtension, body) {
   header.users = app.minInstalls
   header.launchDate = launchDateString
   header.latestUpdate = dateFormat(app.updated, "yyyy-mm-dd")
+  header.date = (header.date) ? dateFormat(header.date, "yyyy-mm-dd") : null
   header.apkVersionName = apkVersionName
   header.stars = app.scoreText || null
   header.ratings = app.ratings || null
   header.reviews = app.reviews || null
-  header.size = app.size
+  header.size = (app.size === "Varies with device") ? null : app.size
   header.website = app.website || header.website
   header.icon = `${header.appId}.${iconExtension}`
   header.reviewStale = stale
-  header.redirect_from = redirects
 
   // make sure we have all properties for new apps or new properties
   // clean up undefineds
@@ -120,7 +118,7 @@ function writeResult(app, header, iconExtension, body) {
   schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function() { return '' }
   file.write(`---
 ${yaml.safeDump(header, {
-  noArrayIndent: true,
+  noArrayIndent: false,
   schema: schema,
   sortKeys: function(a, b) {
     const mainIndexA = defaultHeaders.indexOf(a)
