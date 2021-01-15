@@ -7,16 +7,16 @@ appId: net.coinpayments.coinpaymentsapp
 launchDate: 2016-11-15
 latestUpdate: 2020-08-03
 apkVersionName: "Varies with device"
-stars: 3.8
-ratings: 1664
-reviews: 866
+stars: 3.5
+ratings: 1794
+reviews: 930
 size: Varies with device
-website: https://www.coinpayments.net/
+website: https://www.coinpayments.net
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
 reviewStale: true
 signer: 

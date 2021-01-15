@@ -7,16 +7,16 @@ appId: com.cryptonator.android
 launchDate: 2018-11-01
 latestUpdate: 2020-01-17
 apkVersionName: "3.0.1"
-stars: 3.8
-ratings: 4312
-reviews: 2511
+stars: 3.5
+ratings: 4528
+reviews: 2643
 size: 8.6M
-website: https://www.cryptonator.com/
+website: https://www.cryptonator.com
 repository: 
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-17
 reviewStale: false
 signer: 

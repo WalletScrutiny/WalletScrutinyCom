@@ -5,18 +5,18 @@ altTitle:
 users: 1000000
 appId: pro.huobi
 launchDate: 
-latestUpdate: 2020-09-18
-apkVersionName: "5.9.1"
-stars: 3.9
-ratings: 5080
-reviews: 1744
-size: 51M
-website: https://www.huobi.com/en-us/
+latestUpdate: 2021-01-08
+apkVersionName: "6.0.9"
+stars: 4.0
+ratings: 5756
+reviews: 2068
+size: 57M
+website: https://www.huobi.com/en-us
 repository: 
 issue: 
 icon: pro.huobi.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

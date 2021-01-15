@@ -5,18 +5,18 @@ altTitle:
 users: 500000
 appId: com.gemini.android.app
 launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "2.20.1"
-stars: 3.2
-ratings: 1865
-reviews: 944
+latestUpdate: 2021-01-07
+apkVersionName: "2.30.2"
+stars: 2.9
+ratings: 2238
+reviews: 1165
 size: Varies with device
-website: https://gemini.com/
+website: https://gemini.com
 repository: 
 issue: 
 icon: com.gemini.android.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

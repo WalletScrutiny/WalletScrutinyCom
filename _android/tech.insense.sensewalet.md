@@ -7,8 +7,8 @@ appId: tech.insense.sensewalet
 launchDate: 2018-09-27
 latestUpdate: 2019-06-21
 apkVersionName: "0.0068beta"
-stars: 4.1
-ratings: 19
+stars: 3.9
+ratings: 20
 reviews: 11
 size: 14M
 website: http://InSense.tech
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-30
 reviewStale: false
 signer: 

@@ -7,16 +7,16 @@ appId: com.magnum.wallet
 launchDate: 2019-04-23
 latestUpdate: 2019-08-29
 apkVersionName: "1.0.12"
-stars: 3.8
-ratings: 181
-reviews: 128
+stars: 3.6
+ratings: 211
+reviews: 148
 size: 3.0M
-website: https://magnumwallet.co/
+website: https://magnumwallet.co
 repository: 
 issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: false
 signer: 

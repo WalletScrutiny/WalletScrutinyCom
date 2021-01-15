@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: com.pumapay.pumawallet
 launchDate: 
-latestUpdate: 2020-08-31
-apkVersionName: "3.8.9"
-stars: 4.5
-ratings: 243
-reviews: 163
-size: 50M
-website: https://pumapay.io/
+latestUpdate: 2020-12-11
+apkVersionName: "3.9.0"
+stars: 4.2
+ratings: 289
+reviews: 194
+size: 56M
+website: https://pumapay.io
 repository: 
 issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

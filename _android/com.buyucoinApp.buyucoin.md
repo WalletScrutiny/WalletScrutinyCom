@@ -1,24 +1,24 @@
 ---
-title: "BuyUcoin - Popular Indian Crypto Currency Exchange"
+title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.buyucoinApp.buyucoin
 launchDate: 
-latestUpdate: 2019-02-26
-apkVersionName: "2.0"
-stars: 2.2
-ratings: 52
-reviews: 41
-size: 7.2M
-website: https://www.buyucoin.com/
+latestUpdate: 2021-01-11
+apkVersionName: "3.3"
+stars: 4.1
+ratings: 236
+reviews: 185
+size: 17M
+website: https://www.buyucoin.com
 repository: 
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

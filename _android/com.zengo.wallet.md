@@ -2,21 +2,21 @@
 title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2020-09-15
-apkVersionName: "2.16.1"
-stars: 4.4
-ratings: 674
-reviews: 395
-size: 47M
-website: https://www.zengo.com/
+latestUpdate: 2020-12-17
+apkVersionName: "2.19.0"
+stars: 4.3
+ratings: 1386
+reviews: 604
+size: 75M
+website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 
 icon: com.zengo.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
 signer: 

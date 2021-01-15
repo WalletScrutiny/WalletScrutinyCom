@@ -2,21 +2,21 @@
 title: "Monedero: Wallet Bitcoin, Ethereum, Dash"
 altTitle: 
 
-users: 100
+users: 500
 appId: com.monederoapp
 launchDate: 
-latestUpdate: 2020-09-08
-apkVersionName: "1.6.0"
-stars: 0.0
-ratings: 
-reviews: 
+latestUpdate: 2020-09-29
+apkVersionName: "1.6.1"
+stars: 3.7
+ratings: 6
+reviews: 4
 size: 12M
 website: 
 repository: 
 issue: 
 icon: com.monederoapp.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-30
 reviewStale: true
 signer: 

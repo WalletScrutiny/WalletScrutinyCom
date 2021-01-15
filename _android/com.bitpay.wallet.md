@@ -2,21 +2,21 @@
 title: "BitPay - Buy Crypto"
 altTitle: 
 
-users: 500000
+users: 1000000
 appId: com.bitpay.wallet
 launchDate: 2016-10-01
-latestUpdate: 2020-09-16
-apkVersionName: "11.0.3"
+latestUpdate: 2020-12-30
+apkVersionName: "11.2.13"
 stars: 4.0
-ratings: 7042
-reviews: 3364
+ratings: 7739
+reviews: 3673
 size: 28M
-website: https://bitpay.com/
+website: https://bitpay.com
 repository: https://github.com/bitpay/copay
 issue: https://github.com/bitpay/copay/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-29
 reviewStale: true
 signer: 

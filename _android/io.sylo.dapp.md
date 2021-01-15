@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2020-09-11
-apkVersionName: "2.0.22-global-scanner-cennznet-address-0"
-stars: 4.1
-ratings: 508
-reviews: 268
-size: 69M
-website: https://www.sylo.io/wallet/
+latestUpdate: 2020-12-21
+apkVersionName: "3.0.6-1"
+stars: 4.3
+ratings: 541
+reviews: 280
+size: 336M
+website: https://www.sylo.io/wallet
 repository: 
 issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-10
 reviewStale: true
 signer: 

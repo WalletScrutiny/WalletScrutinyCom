@@ -2,23 +2,23 @@
 title: "BitBoxApp"
 altTitle: 
 
-users: 100
+users: 1000
 appId: ch.shiftcrypto.bitboxapp
 launchDate: 
-latestUpdate: 2020-08-19
-apkVersionName: "android-4.21.1"
-stars: 4.2
-ratings: 5
-reviews: 3
-size: 64M
+latestUpdate: 2020-12-12
+apkVersionName: "android-4.24.1"
+stars: 4.6
+ratings: 14
+reviews: 8
+size: 63M
 website: 
 repository: 
 issue: 
 icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-28
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

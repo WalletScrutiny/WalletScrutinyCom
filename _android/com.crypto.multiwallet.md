@@ -1,23 +1,23 @@
 ---
-title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Litecoin"
+title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.crypto.multiwallet
 launchDate: 2018-11-01
-latestUpdate: 2020-08-26
-apkVersionName: "2.3.14"
-stars: 4.5
-ratings: 1262
-reviews: 705
-size: 32M
-website: http://guarda.co/
+latestUpdate: 2020-12-31
+apkVersionName: "2.15.4"
+stars: 4.4
+ratings: 1792
+reviews: 1001
+size: 34M
+website: http://guarda.co
 repository: 
-issue: 
+issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-15
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2019-12-17
 reviewStale: true
 signer: 
 reviewArchive:
@@ -39,6 +39,7 @@ redirect_from:
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google
 Play and "Guarda Wallet – for Bitcoin, Ethereum, etc." according to the app name -
+
 
 doesn't have access to your private keys ...
 

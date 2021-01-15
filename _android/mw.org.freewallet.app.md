@@ -1,22 +1,22 @@
 ---
-title: "Bitcoin and Crypto Blockchain Wallet by Freewallet"
+title: "Bitcoin & Crypto Blockchain Wallet: Freewallet"
 altTitle: 
 
 users: 100000
 appId: mw.org.freewallet.app
 launchDate: 2017-08-10
-latestUpdate: 2020-08-05
-apkVersionName: "1.12.1"
+latestUpdate: 2020-12-29
+apkVersionName: "1.15.0"
 stars: 4.1
-ratings: 6076
-reviews: 3856
+ratings: 7175
+reviews: 4620
 size: 12M
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: mw.org.freewallet.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
 reviewStale: true
 signer: 

@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: com.remitano.remitano
 launchDate: 
-latestUpdate: 2020-09-17
-apkVersionName: "5.2.1"
-stars: 4.6
-ratings: 8426
-reviews: 3975
+latestUpdate: 2021-01-15
+apkVersionName: "5.4.1"
+stars: 4.4
+ratings: 9874
+reviews: 4620
 size: 30M
 website: https://remitano.com
 repository: 
 issue: 
 icon: com.remitano.remitano.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

@@ -5,18 +5,18 @@ altTitle:
 users: 10000000
 appId: com.squareup.cash
 launchDate: 
-latestUpdate: 2020-09-14
-apkVersionName: "3.23.0"
+latestUpdate: 2021-01-08
+apkVersionName: "3.30.0"
 stars: 4.2
-ratings: 235578
-reviews: 94003
-size: 32M
-website: https://cash.app/
+ratings: 298764
+reviews: 113733
+size: 25M
+website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
 reviewStale: true
 signer: 

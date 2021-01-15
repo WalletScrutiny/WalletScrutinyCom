@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: ilcbtc.wallet
 launchDate: 2018-02-27
-latestUpdate: 2020-09-08
-apkVersionName: "4.17"
-stars: 4.6
-ratings: 181
-reviews: 102
-size: 20M
-website: https://www.ilcoincrypto.com/
+latestUpdate: 2021-01-08
+apkVersionName: "4.23"
+stars: 4.7
+ratings: 250
+reviews: 142
+size: 13M
+website: https://www.ilcoincrypto.com
 repository: 
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: true
 signer: 

@@ -1,4 +1,4 @@
-var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet", searchInput;
+var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet", searchInput, pauseForInput;
 var sortedWallets = Object.values(window.wallets).sort(function (a, b) {
   if (a.verdict != b.verdict)
     return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
@@ -19,11 +19,7 @@ if (document.querySelectorAll(".hero-cta").length > 0) {
   c.innerHTML = '<i class="fas fa-times"></i>';
   s.setAttribute("oninput", "searchCatalogue(this)")
   s.setAttribute("onkeyup", "focusResults(event)")
-  s.setAttribute("onfocus", "heroUX(this)")
-  // TODO: the search results should disappear immediately if the user clicks
-  // outside the search box but clicking a link should still work. This 1s delay
-  // is a hack for slow clickers.
-  // s.setAttribute("onblur", "x=this;setTimeout(function(){x.value=''; searchCatalogue(x)}, 1000)")
+  s.setAttribute("onfocus", "heroUX(this)");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -52,58 +48,81 @@ function focusResults(e) {
   }
 }
 
-function searchCatalogue(t) {
-  var result = document.createElement("ul")
+function searchCatalogue(termInput) {
+  const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
+  const result = document.createElement("ul")
   result.classList.add("results-list")
-  var v = t.value.toUpperCase()
-  var filter = String("COIN").indexOf(v) !== -1 ? 4 : 2
-  if (v.length > filter) {
-    var f = 0
-    sortedWallets.forEach(function (r) {
-      var n = `${r.title} ${r.appId} ${r.website}`
-      if (f < 1) {
+  const term = termInput.value.toUpperCase()
+  const minTermLength = 1
+  const basePath = window.wallets.base_path
+  if (term.length > minTermLength) {
+    var matchCounter = 0
+    sortedWallets.forEach(function (wallet) {
+      const searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite}`
+      if (matchCounter < 1) {
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
-      if (n.toUpperCase().indexOf(v) !== -1) {
-        if (f == 0) { result.innerHTML = ""; }
-        var l = document.createElement("li");
-        l.innerHTML = `<a onclick="window.location.href = '${window.wallets.base_path}${r.url}';" href='${window.wallets.base_path}${r.url}'><img src='${window.wallets.base_path}/images/wallet_icons/small/${r.icon}' class='results-list-wallet-icon' />${r.title}</a>`
-        result.append(l)
-        f++
+      if (searchableTerms.toUpperCase().indexOf(term) !== -1) {
+        if (matchCounter == 0) {
+          result.innerHTML = ""
+        }
+        bi.classList.remove("fa-times")
+        bi.classList.add("fa-circle-notch")
+        const walletRow = document.createElement("li")
+        walletRow.style['animation-delay'] = matchCounter * .1 + 's'
+        walletRow.classList.add("actionable")
+        const platform = (wallet.idd) ? `iphone` : `android`
+        const analysisUrl = `${basePath}${wallet.url}`
+        walletRow.innerHTML = `<a 
+            onclick="window.location.href = '${analysisUrl}';"
+            href='${analysisUrl}'>
+          <img
+              src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
+              class='results-list-wallet-icon'
+            /><i
+                class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
+                style="margin: 0 0.4em 0 auto"></i> ${wallet.title}</a>`
+        result.append(walletRow)
+        matchCounter++
       }
     })
-  } else if (v.length != 0) {
+  } else if (term.length != 0) {
     var l = document.createElement("li")
-    var rem = (filter + 1) - v.length
+    var rem = (minTermLength + 1) - term.length
     var s = rem > 1 ? "s" : ""
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
   }
-  document.querySelectorAll(".exit-search")[0].style.display = "inline-block";
-  document.querySelectorAll(".results-list")[0].replaceWith(result)
-  heroSearchScrollToTop(t);
+  clearTimeout(pauseForInput)
+  pauseForInput = setTimeout(function () {
+    bi.classList.remove("fa-circle-notch")
+    bi.classList.add("fa-times")
+    document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
+    document.querySelectorAll(".results-list")[0].replaceWith(result)
+  }, 500)
+  heroSearchScrollToTop(termInput)
 }
 
-function heroUX(t) {
-  t.focus();
-  t.select();
+function heroUX(termInput) {
+  termInput.focus()
+  termInput.select()
 
-  heroSearchScrollToTop(t);
+  heroSearchScrollToTop(termInput)
 
-  t.value.length > 0 && (
-    searchCatalogue(t)
-  )
-  document.getElementById("exitSearchTrigger").style.display = "block";
+  if (termInput.value.length > 0) {
+    searchCatalogue(termInput)
+  }
+  document.getElementById("exitSearchTrigger").style.display = "block"
 }
 
-function heroSearchScrollToTop(t) {
-  var s = window.pageYOffset + t.getBoundingClientRect().top;
-    window.innerWidth <= 700 && (
+function heroSearchScrollToTop(termInput) {
+  var s = window.pageYOffset + termInput.getBoundingClientRect().top
+  if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
       behavior: 'smooth'
-    }),
-    window.scrollTo(0, s),
+    })
+    window.scrollTo(0, s)
     document.body.scrollTop = s
-  )
+  }
 }

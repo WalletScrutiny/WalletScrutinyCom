@@ -2,13 +2,13 @@
 title: "elegro Exchange - Bitcoin and crypto exchange"
 altTitle: 
 
-users: 100
+users: 500
 appId: cryptoex.elegro.io
 launchDate: 
 latestUpdate: 2020-07-07
 apkVersionName: "1.0.3"
 stars: 4.9
-ratings: 106
+ratings: 105
 reviews: 12
 size: 12M
 website: 
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

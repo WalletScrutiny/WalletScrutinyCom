@@ -5,20 +5,20 @@ altTitle:
 users: 1000
 appId: cloud.peer2.pungo_wallet
 launchDate: 
-latestUpdate: 2020-07-23
-apkVersionName: "1.16"
-stars: 0.0
-ratings: 
-reviews: 
-size: 5.8M
+latestUpdate: 2020-12-31
+apkVersionName: "1.25"
+stars: 4.2
+ratings: 5
+reviews: 4
+size: 6.1M
 website: https://pungowallet.com
 repository: 
 issue: 
 icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-29
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

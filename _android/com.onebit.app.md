@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: com.onebit.app
 launchDate: 2017-11-23
-latestUpdate: 2020-08-21
-apkVersionName: "3.24.0"
-stars: 4.5
-ratings: 961
-reviews: 509
+latestUpdate: 2020-11-11
+apkVersionName: "3.25.1"
+stars: 3.8
+ratings: 1031
+reviews: 546
 size: 82M
-website: https://www.tenx.tech/
+website: https://www.tenx.tech
 repository: 
 issue: 
 icon: com.onebit.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
 reviewStale: true
 signer: 

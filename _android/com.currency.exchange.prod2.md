@@ -2,21 +2,21 @@
 title: "Crypto Exchange Currency.com"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.currency.exchange.prod2
 launchDate: 
-latestUpdate: 2020-08-19
-apkVersionName: "1.0.351"
-stars: 4.3
-ratings: 1011
-reviews: 358
+latestUpdate: 2020-12-24
+apkVersionName: "1.0.381"
+stars: 4.0
+ratings: 1598
+reviews: 561
 size: 17M
-website: https://currency.com/
+website: https://currency.com
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

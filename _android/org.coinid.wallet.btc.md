@@ -7,16 +7,16 @@ appId: org.coinid.wallet.btc
 launchDate: 2018-10-14
 latestUpdate: 2020-05-16
 apkVersionName: "1.7.9"
-stars: 4.1
-ratings: 9
-reviews: 2
+stars: 4.3
+ratings: 11
+reviews: 3
 size: 34M
-website: https://coinid.org/
+website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-01-29
 reviewStale: true
 signer: 

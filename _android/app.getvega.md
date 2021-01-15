@@ -2,7 +2,7 @@
 title: "Vega - Lightning Wallet"
 altTitle: 
 
-users: 10
+users: 50
 appId: app.getvega
 launchDate: 
 latestUpdate: 2019-05-22
@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: app.getvega.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-29
 reviewStale: false
 signer: 

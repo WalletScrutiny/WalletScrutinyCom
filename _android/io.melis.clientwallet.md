@@ -11,12 +11,12 @@ stars: 4.1
 ratings: 18
 reviews: 10
 size: 6.9M
-website: https://www.melis.io/
+website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: false
 signer: 

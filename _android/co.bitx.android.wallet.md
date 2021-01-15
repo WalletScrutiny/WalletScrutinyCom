@@ -2,22 +2,22 @@
 title: "Luno: Buy Bitcoin, Ethereum and Cryptocurrency"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: co.bitx.android.wallet
 launchDate: 2014-11-01
-latestUpdate: 2020-09-17
-apkVersionName: "6.20.0"
-stars: 4.2
-ratings: 41734
-reviews: 24240
-size: 17M
-website: https://www.luno.com/
+latestUpdate: 2020-12-10
+apkVersionName: "7.5.0"
+stars: 4.3
+ratings: 57711
+reviews: 32609
+size: 18M
+website: https://www.luno.com
 repository: 
 issue: 
 icon: co.bitx.android.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-03-28
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-10-12
 reviewStale: true
 signer: 
 reviewArchive:
@@ -27,9 +27,9 @@ reviewArchive:
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: LunoGlobal
+providerLinkedIn: company/lunoglobal
+providerFacebook: luno
 providerReddit: 
 
 redirect_from:

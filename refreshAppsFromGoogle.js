@@ -49,7 +49,7 @@ fs.readdir(androidFolder, function (err, files) {
           lang: 'en',
           country: 'cl',
           throttle: 5}).then(function(app){
-        const iconPath = `images/wallet_icons/${appId}`
+        const iconPath = `images/wallet_icons/android/${appId}`
         const iconFile = fs.createWriteStream(iconPath)
         const request = https.get(app.icon, function(response) {
           response.pipe(iconFile)
@@ -60,8 +60,15 @@ fs.readdir(androidFolder, function (err, files) {
                 iconExtension = "png"
               } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
                 iconExtension = "jpg"
+              } else if (mimetype == "text/html" || mimetype == "text/plain") {
+                console.error(`Not writing results to _android/${header.appId}.md`)
+                console.error(`wrong mime type ${mimetype}. Skipping.`)
+                console.error(body)
+                return
               } else {
-                throw Error(`wrong mime type ${mimetype}`)
+                console.error(`Not writing results to _android/${header.appId}.md`)
+                console.error(`wrong mime type ${mimetype}. Skipping.`)
+                return
               }
               writeResult(app, header, iconExtension, body)
               fs.rename(iconPath, `${iconPath}.${iconExtension}`, function(err) {
@@ -71,7 +78,7 @@ fs.readdir(androidFolder, function (err, files) {
           });
         });
       }, function(err){
-        console.error(`Error with appId ${appId}: ${err}`)
+        console.error(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
       });
     }
   })

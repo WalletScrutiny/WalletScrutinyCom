@@ -1,0 +1,301 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" class="app-review" role="main">
+  {% assign float = "" %}
+
+  <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}
+    <meta itemprop="headline" content="{{ page.title }}">
+    {% endif %}
+    {% if page.excerpt %}
+    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+    <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
+    {% if page.updated %}
+    <meta itemprop="dateModified" content="{{ page.updated | date: " %B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% if page.url != "/" %}
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+        </header>
+        {% endunless %}
+      {% endif %}
+
+
+
+      <div class="app-summary-grid">
+        <img src="{{ base_path }}/images/wallet_icons/iphone/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+        {% if page.title %}
+
+        <div class="app-sum-head">
+
+          <h1 class="page__title -va-c" itemprop="headline">
+            {{ page.title }}
+          </h1>
+          {% endif %}
+
+          <span><i class="fas fa-history"></i> latest release: {{ page.version }}</span>
+
+          <span>last analysed&nbsp;
+            <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+              data="{{ page.date }}">
+              {{ page.date | date_to_long_string: "ordinal" }}
+            </span></span>
+
+          <div class="verdict">
+            <span style="background:{{ site.data.verdicts[page.verdict].color }}; margin-right: auto;"
+              class="badge-col"><span>{{ site.data.verdicts[page.verdict].title
+                }}</span></span>
+          </div>
+
+          {% if page.website or page.providerTwitter or page.providerFacebook or page.providerReddit or
+          page.providerLinkedIn %}
+          <div class="social-row">
+            <ul>
+              {% if page.developerWebsite %}
+              <li
+                title='Link to developer website : {{ page.developerWebsite | replace: "http://", "" | replace: "https://", "" }}'>
+                <a href="{{ page.developerWebsite }}" class="link-web">
+                  <i class="fas fa-globe"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerTwitter %}
+              <li title='Link to developer Twitter profile: @{{ page.providerTwitter }}'>
+
+                <a href="https://twitter.com/{{ page.providerTwitter }}" class="link-twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerFacebook %}
+              <li title='Link to developer Facebook profile: {{ page.providerFacebook }}'>
+                <a href="https://www.facebook.com/{{ page.providerFacebook }}" class="link-facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerReddit %}
+              <li title='Link to developer subreddit: r/{{ page.providerReddit }}'>
+                <a href="https://www.reddit.com/r/{{ page.providerReddit }}" class="link-reddit">
+                  <i class="fab fa-reddit"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if page.providerLinkedIn %}
+              <li title='Link to developer Linkedin profile: {{ page.providerLinkedIn }}'>
+                <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}" class="link-linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="app-payload-flex">
+
+          {% if page.verdict == "reproducible" %}
+
+          <div class="svg {{ page.verdict }}"></div> 
+
+          {% endif %}
+
+          {% if page.score %}
+          <div title="Rated {{ page.score }}/5 stars on App Store by {{ page.reviews }} users.">
+
+            <label>
+              <i class="fab fa-app-store"></i>&nbsp;App Store
+            </label>
+
+            <div>
+              {{ page.score  | round: 1 }}
+              <span class="star-rating"
+                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.score }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+            </div>
+          </div>
+          {% endif %}
+
+          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.apkVersionName }})">
+          </div>
+
+          {% if page.released %}
+          <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
+
+            <label>
+              <i class="fas fa-rocket"></i>&nbsp;Launched
+            </label>
+
+            <div>
+              <span class="calculate-time-elapsed" data="{{ page.released }}">
+                {{ page.released | date_to_long_string: "ordinal" }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+
+
+
+      {% include base_path %}
+      {% if page.altTitle %}
+        {% assign title = page.altTitle %}
+      {% else %}
+        {% assign title = page.title %}
+      {% endif %}
+
+
+
+      {% if page.modified %}
+      <p class="page__date"><small><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].date_label | default: "Published:" }} <time
+            datetime="{{ page.modified | date: " %Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></small>
+      </p>
+      {% endif %}
+
+      {% if page.date %}
+      <p class="page__date"><small><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].date_label | default: "Published:" }} <time
+            datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y"
+            }}</time></small>
+      </p>
+      {% endif %}
+
+
+      {% if page.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+
+
+      <p>Our last analysis is based on data found in their
+        <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
+          Play description</a>
+        {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
+        if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
+        {% if page.issue %} We discuss issues with the provider
+        <a href="{{ page.issue }}">here</a>.{% endif %} <br>
+        <a href="#verdictExplained">details below&nbsp;<i class="fas fa-arrow-down"></i></a>
+      </p>
+
+
+      {% if page.reviewArchive %}
+      <div id="reviews" style="display:none">
+        <h1>Older reviews</h1>
+        <table>
+          {% assign total = 0 %}
+          {% assign good = 0 %}
+          <tr>
+            <th>Date</th>
+            <th>Version</th>
+            <th>Verdict</th>
+            <th>Links</th>
+          </tr>
+          {% for review in page.reviewArchive %}
+          {% if review.verdict == "reproducible" %}
+            {% assign good = good | plus:1 %}
+          {% endif %}
+          {% assign total = total | plus:1 %}
+          <tr>
+            <td>{{ review.date | date_to_long_string: "ordinal" }}</td>
+            <td>{{ review.version }}</td>
+            <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
+            <td><a
+                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">[1]</a>
+              <a
+                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_iphone/{{ page.appId }}.md">[2]</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+      <h1 id="collapsedReviews">Older reviews <a onclick="$('#reviews').show();$('#collapsedReviews').hide()">(show {{
+          good }} of {{ total }} reproducible)</a></h1>
+      {% endif %}
+
+      {% if page.providerTwitter %}
+      <h1>Help spread awareness for build reproducibility</h1>
+      <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+        {% if page.verdict == "reproducible" %}
+        Please follow {{ title }} and thank them for being reproducible
+        {% else if page.verdict == nonverifiable %}
+        Please help us spread the word, asking {{ title }} to support reproducible builds
+        {% else if page.verdict == nosource %}
+        Please help us spread the word discussing transparency with {{ title }}
+        {% else if page.verdict == custodial %}
+        Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+        {% else %}
+        Please help us spread the word discussing build reproducibility with {{ title }}
+        {% endif %}
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
+          their Twitter</a>!
+      </p>
+      {% endif %}
+
+      {% if page.verdict == "reproducible" %}
+      <h1>Disclaimer</h1>
+      <p>The following Analysis is not a full code review!
+        We plan to make code reviews available in the future but even then it will never
+        be a stamp of approval but rather a list of incidents and questionable coding practice.
+        Nasa sends probes to space that
+        <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">crash
+          due to software bugs</a> despite a huge budget and stringent scrutiny.
+      </p>
+      {% endif %}
+
+      <h1>Do your own research!</h1>
+      <p>Try out searching
+        for "lost bitcoins", "stole my money" or "scammers" together with the wallet's
+        name, even if you
+        think the wallet is generally trustworthy. For all the bigger wallets you will
+        find accusations. Make sure you understand why they were made and if you are
+        comfortable with the provider's reaction.</p>
+
+      <h1>The Analysis</h1>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+        {% include verdict_explained.html %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label |
+            default: "Direct Link" }}</a></div>
+        {% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+        <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+      </footer>
+
+      {% if page.share %}
+        {% include social-share.html %}
+        {% include embed.html %}
+      {% endif %}
+    </div>
+  </article>
+</div>
+
+<script src="{{ base_path }}/assets/js/review.js"></script>

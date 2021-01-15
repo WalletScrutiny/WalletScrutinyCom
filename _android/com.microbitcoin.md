@@ -11,7 +11,7 @@ stars: 3.8
 ratings: 34
 reviews: 20
 size: 9.9M
-website: https://microbitcoin.org/
+website: https://microbitcoin.org
 repository: 
 issue: 
 icon: com.microbitcoin.png

@@ -2,21 +2,21 @@
 title: "Coinsquare"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: coinsquare.io.coinsquare
 launchDate: 
 latestUpdate: 2020-07-29
 apkVersionName: "2.13.8"
-stars: 2.8
-ratings: 334
-reviews: 248
+stars: 2.9
+ratings: 361
+reviews: 269
 size: 8.2M
-website: https://coinsquare.com/
+website: https://coinsquare.com
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

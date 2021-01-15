@@ -8,15 +8,15 @@ launchDate: 2018-12-07
 latestUpdate: 2019-01-30
 apkVersionName: "0.0.7"
 stars: 4.8
-ratings: 94
-reviews: 58
+ratings: 95
+reviews: 59
 size: 11M
 website: https://ebc.eco
 repository: 
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: false
 signer: 

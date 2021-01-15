@@ -11,14 +11,14 @@ stars: 4.5
 ratings: 75
 reviews: 61
 size: 27M
-website: https://www.chainzilla.io/
+website: https://www.chainzilla.io
 repository: 
 issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-04-07
-reviewStale: true
+verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+date: 2020-12-08
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ redirect_from:
   - /posts/com.chameleon.wallet/
 ---
 
+
+**Update:** The app is not available on Google Play anymore.
 
 This app claims to be "Non-Custodial" as their main key feature but is it open
 source?

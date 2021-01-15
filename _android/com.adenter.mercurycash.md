@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
-latestUpdate: 2020-09-02
-apkVersionName: "4.2.4"
-stars: 4.3
-ratings: 151
-reviews: 108
-size: 39M
-website: http://mercury.cash/
+latestUpdate: 2020-12-20
+apkVersionName: "4.2.8"
+stars: 4.2
+ratings: 164
+reviews: 116
+size: 82M
+website: http://mercury.cash
 repository: 
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
 reviewStale: true
 signer: 

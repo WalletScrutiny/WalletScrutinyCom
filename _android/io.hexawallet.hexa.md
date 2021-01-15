@@ -2,21 +2,21 @@
 title: "Bitcoin Wallet Hexa"
 altTitle: 
 
-users: 50
+users: 500
 appId: io.hexawallet.hexa
 launchDate: 
-latestUpdate: 2020-08-26
-apkVersionName: "1.1.1"
-stars: 4.0
-ratings: 5
-reviews: 1
-size: 35M
+latestUpdate: 2021-01-11
+apkVersionName: "1.4.1"
+stars: 3.5
+ratings: 17
+reviews: 11
+size: 39M
 website: 
 repository: 
 issue: 
 icon: io.hexawallet.hexa.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-10
 reviewStale: true
 signer: 

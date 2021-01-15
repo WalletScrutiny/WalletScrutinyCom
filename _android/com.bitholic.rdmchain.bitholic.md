@@ -8,15 +8,15 @@ launchDate:
 latestUpdate: 2020-08-05
 apkVersionName: "1.0.9"
 stars: 4.3
-ratings: 149
-reviews: 98
+ratings: 153
+reviews: 100
 size: 2.0M
-website: https://www.bithumbsg.com/
+website: https://www.bithumbsg.com
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

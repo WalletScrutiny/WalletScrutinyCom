@@ -2,21 +2,21 @@
 title: "STASIS Stablecoin Wallet"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.stasis.stasiswallet
 launchDate: 2018-06-13
-latestUpdate: 2020-08-21
-apkVersionName: "1.8.77"
+latestUpdate: 2021-01-11
+apkVersionName: "1.8.86"
 stars: 4.5
-ratings: 137
-reviews: 83
-size: 18M
-website: https://stasis.net/wallet/
+ratings: 152
+reviews: 90
+size: 24M
+website: https://stasis.net/wallet
 repository: https://github.com/stasisnet
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-03
 reviewStale: true
 signer: 

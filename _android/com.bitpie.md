@@ -5,18 +5,18 @@ altTitle:
 users: 50000
 appId: com.bitpie
 launchDate: 2016-10-23
-latestUpdate: 2020-09-13
-apkVersionName: "4.9.5"
-stars: 4.2
-ratings: 639
-reviews: 329
-size: 51M
+latestUpdate: 2021-01-06
+apkVersionName: "5.0.007"
+stars: 3.8
+ratings: 668
+reviews: 340
+size: 57M
 website: http://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
 reviewStale: true
 signer: 

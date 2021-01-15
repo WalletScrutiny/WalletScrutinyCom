@@ -1,31 +1,31 @@
 ---
-title: "Bitcoin Wallet & Ethereum Ripple Tron EOS"
+title: "Bitcoin Wallet & Ethereum Ripple ZIL DOT"
 altTitle: 
 
-users: 100000
+users: 500000
 appId: io.atomicwallet
 launchDate: 2019-01-30
-latestUpdate: 2020-09-01
-apkVersionName: "0.63.0"
-stars: 4.4
-ratings: 14026
-reviews: 7562
-size: 11M
-website: https://atomicwallet.io/
+latestUpdate: 2021-01-13
+apkVersionName: "0.70.2"
+stars: 4.0
+ratings: 18308
+reviews: 9831
+size: 13M
+website: https://atomicwallet.io
 repository: 
 issue: 
 icon: io.atomicwallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-16
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-10-12
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: atomicwallet
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: atomicwallet
 providerReddit: 
 
 redirect_from:

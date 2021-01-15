@@ -7,16 +7,16 @@ appId: com.cobinhood.exchange
 launchDate: 
 latestUpdate: 2019-04-29
 apkVersionName: "3.50.1"
-stars: 2.3
-ratings: 633
-reviews: 372
+stars: 2.1
+ratings: 637
+reviews: 374
 size: 7.7M
-website: https://cobinhood.com/
+website: https://cobinhood.com
 repository: 
 issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

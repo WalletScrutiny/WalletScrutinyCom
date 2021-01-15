@@ -2,21 +2,21 @@
 title: "Wallet of Satoshi"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
-latestUpdate: 2020-08-24
-apkVersionName: "1.9.7"
-stars: 3.7
-ratings: 180
-reviews: 112
+latestUpdate: 2020-12-16
+apkVersionName: "1.10.4"
+stars: 3.8
+ratings: 239
+reviews: 138
 size: 10M
-website: http://www.walletofsatoshi.com/
+website: http://www.walletofsatoshi.com
 repository: 
 issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-19
 reviewStale: true
 signer: 

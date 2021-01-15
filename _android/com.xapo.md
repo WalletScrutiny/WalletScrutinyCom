@@ -7,25 +7,25 @@ appId: com.xapo
 launchDate: 2014-04-01
 latestUpdate: 2020-07-29
 apkVersionName: "5.30"
-stars: 3.9
-ratings: 44958
-reviews: 21155
+stars: 3.8
+ratings: 45224
+reviews: 21375
 size: 93M
-website: https://xapo.com/
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.xapo.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-15
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-10-12
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: xapo
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: xapoapp
 providerReddit: 
 
 redirect_from:

@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: com.plunien.poloniex
 launchDate: 
-latestUpdate: 2020-09-09
-apkVersionName: "1.21.7"
-stars: 4.4
-ratings: 2321
-reviews: 1272
-size: 39M
-website: https://support.poloniex.com/
+latestUpdate: 2021-01-12
+apkVersionName: "1.23.4"
+stars: 4.2
+ratings: 2723
+reviews: 1463
+size: 37M
+website: https://support.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

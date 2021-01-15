@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: com.okinc.okex.gp
 launchDate: 
-latestUpdate: 2020-09-03
-apkVersionName: "4.2.7"
-stars: 5.0
-ratings: 33174
-reviews: 25548
-size: 99M
-website: https://www.okex.com/
+latestUpdate: 2020-12-02
+apkVersionName: "4.4.8"
+stars: 4.7
+ratings: 34120
+reviews: 23989
+size: 109M
+website: https://www.okex.com
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

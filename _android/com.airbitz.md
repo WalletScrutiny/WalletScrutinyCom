@@ -7,16 +7,16 @@ appId: com.airbitz
 launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
-stars: 3.6
-ratings: 1132
-reviews: 479
+stars: 3.5
+ratings: 1140
+reviews: 485
 size: 16M
-website: https://airbitz.co/
+website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
 reviewStale: true
 signer: 

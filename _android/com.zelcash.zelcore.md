@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: com.zelcash.zelcore
 launchDate: 2018-09-21
-latestUpdate: 2020-09-15
-apkVersionName: "3.6.0"
-stars: 3.9
-ratings: 303
-reviews: 205
-size: 16M
-website: https://zel.network/project/zelcore/
+latestUpdate: 2020-12-28
+apkVersionName: "4.2.0"
+stars: 4.1
+ratings: 358
+reviews: 255
+size: 19M
+website: https://zel.network/project/zelcore
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: true
 signer: 

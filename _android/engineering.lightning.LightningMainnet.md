@@ -1,11 +1,11 @@
 ---
-title: "Lightning: Fast Bitcoin Wallet"
+title: "Lightning (Remove Funds by Dec 31st)"
 altTitle: 
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
 launchDate: 
-latestUpdate: 2020-04-30
+latestUpdate: 2020-10-02
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -16,7 +16,7 @@ repository: https://github.com/lightninglabs/lightning-app
 issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-30
 reviewStale: true
 signer: 

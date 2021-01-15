@@ -2,21 +2,21 @@
 title: "CoinEx"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.coinex.trade.play
 launchDate: 
-latestUpdate: 2020-09-07
-apkVersionName: "1.9.0"
-stars: 4.4
-ratings: 875
-reviews: 440
-size: 9.8M
-website: https://www.coinex.co/
+latestUpdate: 2020-12-24
+apkVersionName: "1.9.3"
+stars: 4.5
+ratings: 1585
+reviews: 670
+size: 13M
+website: https://www.coinex.co
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
 signer: 

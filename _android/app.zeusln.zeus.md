@@ -2,21 +2,21 @@
 title: "Zeus: Bitcoin/Lightning Wallet"
 altTitle: 
 
-users: 100
+users: 500
 appId: app.zeusln.zeus
 launchDate: 
-latestUpdate: 2020-08-16
-apkVersionName: "0.3.1"
-stars: 4.7
-ratings: 11
-reviews: 4
+latestUpdate: 2020-10-31
+apkVersionName: "0.4.0"
+stars: 4.2
+ratings: 14
+reviews: 8
 size: 26M
 website: 
 repository: 
 issue: 
 icon: app.zeusln.zeus.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-15
 reviewStale: true
 signer: 
@@ -34,4 +34,3 @@ redirect_from:
 ---
 
 
-This app is the continuation of [this app](/com.zeusln.zeus/).

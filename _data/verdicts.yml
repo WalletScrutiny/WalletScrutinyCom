@@ -54,3 +54,10 @@ nowallet:
   message: >
     We could not find this to be an app meant to store, receive and send
     coins. 
+obfuscated:
+  title: 'Obfuscated'
+  short: 'Obfuscated'
+  color: '#d33100'
+  message: >
+    The app on Google Play contains active obfuscation which makes it
+    significantly harder to analyze what it is doing.

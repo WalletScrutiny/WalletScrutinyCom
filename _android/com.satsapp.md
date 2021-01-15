@@ -11,7 +11,7 @@ stars: 3.1
 ratings: 14
 reviews: 8
 size: 29M
-website: https://keys.casa/
+website: https://keys.casa
 repository: 
 issue: 
 icon: com.satsapp.png

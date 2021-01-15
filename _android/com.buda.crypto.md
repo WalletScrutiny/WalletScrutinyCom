@@ -2,21 +2,21 @@
 title: "Buda.com - Bitcoin wallet. Compra, vende, almacena"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: com.buda.crypto
 launchDate: 
 latestUpdate: 2020-06-02
 apkVersionName: "1.9.10"
-stars: 3.1
-ratings: 228
-reviews: 152
+stars: 2.9
+ratings: 278
+reviews: 189
 size: 12M
 website: https://www.buda.com
 repository: 
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

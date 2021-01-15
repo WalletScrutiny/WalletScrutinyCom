@@ -7,16 +7,16 @@ appId: de.fuf.bitbucks
 launchDate: 2019-09-03
 latestUpdate: 2020-05-20
 apkVersionName: "1.1.7"
-stars: 4.3
-ratings: 26
-reviews: 10
+stars: 4.2
+ratings: 31
+reviews: 12
 size: 8.9M
-website: https://www.bitbucks.io/
+website: https://www.bitbucks.io
 repository: 
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-30
 reviewStale: true
 signer: 

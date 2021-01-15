@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: com.swftcoin.client.android
 launchDate: 
-latestUpdate: 2020-09-09
-apkVersionName: "4.10.5"
-stars: 4.3
-ratings: 1069
-reviews: 659
-size: 31M
-website: http://www.swft.pro/
+latestUpdate: 2020-12-30
+apkVersionName: "5.5.13"
+stars: 4.4
+ratings: 1135
+reviews: 695
+size: 32M
+website: http://www.swft.pro
 repository: 
 issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
 signer: 

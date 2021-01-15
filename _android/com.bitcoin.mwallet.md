@@ -5,18 +5,18 @@ altTitle: "Bitcoin Wallet by Bitcoin.com"
 users: 1000000
 appId: com.bitcoin.mwallet
 launchDate: 2017-06-19
-latestUpdate: 2020-08-11
-apkVersionName: "6.7.3"
-stars: 3.8
-ratings: 11849
-reviews: 5196
-size: 40M
+latestUpdate: 2021-01-13
+apkVersionName: "6.9.10"
+stars: 4.5
+ratings: 16161
+reviews: 6293
+size: 47M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
 reviewStale: true
 signer: 

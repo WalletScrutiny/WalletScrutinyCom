@@ -11,7 +11,7 @@ stars: 2.8
 ratings: 165
 reviews: 120
 size: 33M
-website: https://dropbit.app/
+website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
 issue: https://github.com/coinninjadev/dropbit-android/issues/1
 icon: com.coinninja.coinkeeper.png

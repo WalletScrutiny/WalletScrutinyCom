@@ -2,23 +2,23 @@
 title: "Crypto.com l DeFi Wallet"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.defi.wallet
-launchDate: 
-latestUpdate: 2020-09-11
-apkVersionName: "1.1.1"
-stars: 3.8
-ratings: 461
-reviews: 207
-size: 21M
-website: https://www.crypto.com/
+launchDate: 2020-05-11
+latestUpdate: 2020-12-21
+apkVersionName: "1.5.1"
+stars: 4.0
+ratings: 926
+reviews: 357
+size: 23M
+website: https://crypto.com/en/defi/
 repository: 
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-14
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-10
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -39,8 +39,7 @@ This app's description is promising:
 > Decentralized:
 > - Gain full control of your crypto and private keys [...]
 
-On their website though we find only links to
-[their other app](/co.mona.android/) and no source code.
+On their website though we cannot find any links to source code.
 
 Searching their `appId` on GitHub,
 [yields nothing](https://github.com/search?q=%22com.defi.wallet%22) neither.

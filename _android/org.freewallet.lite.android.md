@@ -11,12 +11,12 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-29
 reviewStale: false
 signer: 

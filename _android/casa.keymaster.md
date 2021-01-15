@@ -5,18 +5,18 @@ altTitle:
 users: 1000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2020-09-17
-apkVersionName: "2.26.4"
-stars: 3.8
-ratings: 26
-reviews: 11
-size: 30M
-website: https://keys.casa/
+latestUpdate: 2021-01-12
+apkVersionName: "2.29.2"
+stars: 4.4
+ratings: 58
+reviews: 14
+size: 29M
+website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-23
 reviewStale: true
 signer: 
@@ -34,7 +34,13 @@ redirect_from:
 ---
 
 
-**Update**: This app and its review here were also discussed in a
+**Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
+least version `2.27.10` and inspect the code or modify it to compile it back
+into an app. Clearly licensing stops honest people from publishing the result to
+any users but we don't see any argument left to not publish the code under a
+non-permissive license.
+
+**Update 2019-12-20**: This app and its review here were also discussed in a
 [great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust).
 
 This app follows an interesting concept with a multi-signature setup.

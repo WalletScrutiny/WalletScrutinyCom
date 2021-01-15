@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: net.bitstamp.app
 launchDate: 
-latestUpdate: 2020-09-03
-apkVersionName: "1.5.5"
+latestUpdate: 2021-01-11
+apkVersionName: "1.6.2"
 stars: 4.6
-ratings: 6061
-reviews: 1719
+ratings: 7978
+reviews: 2194
 size: 12M
-website: https://www.bitstamp.net/
+website: https://www.bitstamp.net
 repository: 
 issue: 
 icon: net.bitstamp.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

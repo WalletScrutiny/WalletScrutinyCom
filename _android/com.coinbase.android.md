@@ -5,18 +5,18 @@ altTitle:
 users: 10000000
 appId: com.coinbase.android
 launchDate: 2013-03-01
-latestUpdate: 2020-09-14
-apkVersionName: "8.0.0"
-stars: 3.7
-ratings: 198137
-reviews: 89764
-size: 38M
-website: https://coinbase.com/
+latestUpdate: 2021-01-09
+apkVersionName: "9.5.1"
+stars: 4.3
+ratings: 264930
+reviews: 104012
+size: Varies with device
+website: https://coinbase.com
 repository: 
 issue: 
 icon: com.coinbase.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-10-30
 reviewStale: true
 signer: 

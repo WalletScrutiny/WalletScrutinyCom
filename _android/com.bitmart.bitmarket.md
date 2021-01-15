@@ -5,18 +5,18 @@ altTitle:
 users: 50000
 appId: com.bitmart.bitmarket
 launchDate: 
-latestUpdate: 2020-08-28
-apkVersionName: "2.3.0"
-stars: 3.9
-ratings: 545
-reviews: 331
-size: 27M
-website: https://www.bitmart.com/
+latestUpdate: 2021-01-07
+apkVersionName: "2.4.0"
+stars: 3.8
+ratings: 647
+reviews: 376
+size: 33M
+website: https://www.bitmart.com
 repository: 
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

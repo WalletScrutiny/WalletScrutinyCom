@@ -5,18 +5,18 @@ altTitle:
 users: 100000
 appId: io.totalcoin.wallet
 launchDate: 2018-04-01
-latestUpdate: 2020-09-15
-apkVersionName: "4.5.7"
-stars: 4.3
-ratings: 3944
-reviews: 1989
+latestUpdate: 2020-12-26
+apkVersionName: "4.6.1"
+stars: 4.5
+ratings: 4792
+reviews: 2372
 size: 10M
-website: http://totalcoin.io/
+website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-23
 reviewStale: true
 signer: 

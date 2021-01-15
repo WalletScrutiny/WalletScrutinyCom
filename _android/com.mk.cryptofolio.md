@@ -7,16 +7,16 @@ appId: com.mk.cryptofolio
 launchDate: 
 latestUpdate: 2020-08-19
 apkVersionName: "1.0.51"
-stars: 4.7
-ratings: 17
-reviews: 10
+stars: 4.5
+ratings: 19
+reviews: 11
 size: 8.0M
-website: http://www.thecryptofolioapp.com/
+website: http://www.thecryptofolioapp.com
 repository: 
 issue: 
 icon: com.mk.cryptofolio.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
 signer: 

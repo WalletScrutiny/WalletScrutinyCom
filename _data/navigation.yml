@@ -4,5 +4,7 @@ main:
     url: /walletSupport/
   - title: "Methodology"
     url: /methodology/
+  - title: "Apple"
+    url: /apple/
   - title: "<div id=\"donateButton\">Donate</div>"
     url: /donate/

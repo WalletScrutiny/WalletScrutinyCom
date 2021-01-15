@@ -2,21 +2,21 @@
 title: "BuyCoins - Buy & Sell Bitcoin, Ethereum, Litecoin"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: africa.bitkoin.buycoins
 launchDate: 
-latestUpdate: 2020-09-18
-apkVersionName: "5.0.6"
-stars: 3.5
-ratings: 454
-reviews: 327
+latestUpdate: 2020-12-16
+apkVersionName: "5.3.0"
+stars: 3.1
+ratings: 531
+reviews: 373
 size: 11M
-website: https://buycoins.africa/
+website: https://buycoins.africa
 repository: 
 issue: 
 icon: africa.bitkoin.buycoins.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

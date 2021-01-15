@@ -5,18 +5,18 @@ altTitle:
 users: 50000
 appId: com.dowallet
 launchDate: 2019-01-01
-latestUpdate: 2020-07-27
-apkVersionName: "1.1.30"
-stars: 4.3
-ratings: 743
-reviews: 394
+latestUpdate: 2021-01-07
+apkVersionName: "1.1.33"
+stars: 4.2
+ratings: 795
+reviews: 422
 size: 31M
-website: https://www.dowallet.app/
+website: https://www.dowallet.app
 repository: 
 issue: 
 icon: com.dowallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-23
 reviewStale: true
 signer: 

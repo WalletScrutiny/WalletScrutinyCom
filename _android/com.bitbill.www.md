@@ -2,21 +2,21 @@
 title: "Ownbit - Blockchain Wallet"
 altTitle: 
 
-users: 1000
+users: 5000
 appId: com.bitbill.www
 launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "4.22.1"
-stars: 4.3
-ratings: 39
-reviews: 23
-size: 28M
+latestUpdate: 2021-01-13
+apkVersionName: "4.25.3"
+stars: 4.1
+ratings: 45
+reviews: 26
+size: 30M
 website: http://www.bitbill.com
 repository: 
 issue: 
 icon: com.bitbill.www.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
 signer: 

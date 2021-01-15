@@ -7,16 +7,16 @@ appId: com.luneswallet
 launchDate: 2018-01-31
 latestUpdate: 2018-12-06
 apkVersionName: "2.1"
-stars: 4.1
-ratings: 203
-reviews: 135
+stars: 4.0
+ratings: 217
+reviews: 146
 size: 7.3M
-website: https://luneswallet.app/
+website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/8
 icon: com.luneswallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-29
 reviewStale: false
 signer: 

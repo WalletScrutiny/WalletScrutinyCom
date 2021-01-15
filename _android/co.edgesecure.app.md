@@ -5,26 +5,26 @@ altTitle:
 users: 100000
 appId: co.edgesecure.app
 launchDate: 2018-03-01
-latestUpdate: 2020-09-06
-apkVersionName: "1.16.7"
-stars: 4.1
-ratings: 1485
-reviews: 847
-size: 64M
-website: https://edge.app/
+latestUpdate: 2021-01-03
+apkVersionName: "1.19.1"
+stars: 4.0
+ratings: 2040
+reviews: 1144
+size: 36M
+website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
+providerTwitter: edgewallet
+providerLinkedIn: company/3609678
 providerFacebook: 
 providerReddit: 
 

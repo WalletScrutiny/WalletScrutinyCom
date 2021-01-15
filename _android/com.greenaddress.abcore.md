@@ -11,12 +11,12 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: http://abco.re/
+website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-02
 reviewStale: false
 signer: 

@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 launchDate: 2018-04-12
-latestUpdate: 2020-06-18
-apkVersionName: "0.4.12"
+latestUpdate: 2021-01-05
+apkVersionName: "0.4.13"
 stars: 4.0
-ratings: 344
+ratings: 348
 reviews: 162
 size: 28M
-website: https://acinq.co/
+website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
 reviewStale: true
 signer: 

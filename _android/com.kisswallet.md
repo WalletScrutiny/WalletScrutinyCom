@@ -11,12 +11,12 @@ stars: 0.0
 ratings: 
 reviews: 
 size: Varies with device
-website: moonshinewallet.com
+website: https://moonshinewallet.com
 repository: https://github.com/coreyphillips/moonshine
 issue: 
 icon: com.kisswallet.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-02-18
 reviewStale: true
 signer: 

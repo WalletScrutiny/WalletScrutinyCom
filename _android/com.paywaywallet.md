@@ -7,16 +7,16 @@ appId: com.paywaywallet
 launchDate: 2019-02-13
 latestUpdate: 2020-09-11
 apkVersionName: "3.1.2 (build: #1092/20200911164630)"
-stars: 3.8
-ratings: 166
-reviews: 106
+stars: 3.9
+ratings: 206
+reviews: 123
 size: 19M
 website: http://www.payway.ug
 repository: 
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
 reviewStale: true
 signer: 

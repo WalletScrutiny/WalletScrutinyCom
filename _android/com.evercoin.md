@@ -5,18 +5,18 @@ altTitle:
 users: 10000
 appId: com.evercoin
 launchDate: 
-latestUpdate: 2020-09-06
-apkVersionName: "2.8.7"
-stars: 3.9
-ratings: 171
-reviews: 120
+latestUpdate: 2020-11-22
+apkVersionName: "2.8.8"
+stars: 3.8
+ratings: 182
+reviews: 128
 size: 40M
 website: https://evercoin.com
 repository: 
 issue: 
 icon: com.evercoin.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
 signer: 

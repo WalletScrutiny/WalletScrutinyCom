@@ -2,21 +2,21 @@
 title: "Busha: Buy & Sell Bitcoin, Ethereum. Crypto Wallet"
 altTitle: 
 
-users: 10000
+users: 50000
 appId: co.busha.android
 launchDate: 2019-01-21
-latestUpdate: 2020-09-02
-apkVersionName: "2.5.7"
-stars: 4.2
-ratings: 762
-reviews: 626
+latestUpdate: 2021-01-06
+apkVersionName: "2.6.4"
+stars: 4.3
+ratings: 1680
+reviews: 1322
 size: 16M
 website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
 reviewStale: true
 signer: 

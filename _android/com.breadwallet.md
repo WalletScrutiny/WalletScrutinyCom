@@ -1,22 +1,22 @@
 ---
-title: "BRD Bitcoin Wallet. Buy BTC Bitcoin Cash, Ethereum"
+title: "BRD Bitcoin Wallet. Bitcoin BTC, Bitcoin Cash BCH"
 altTitle: 
 
 users: 1000000
 appId: com.breadwallet
 launchDate: 2016-07-21
-latestUpdate: 2020-09-18
-apkVersionName: "4.5.0"
-stars: 4.1
-ratings: 13548
-reviews: 5678
-size: 23M
-website: https://brd.com/
+latestUpdate: 2020-12-20
+apkVersionName: "4.6.0"
+stars: 4.2
+ratings: 17009
+reviews: 6891
+size: 24M
+website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android
 issue: https://github.com/breadwallet/breadwallet-android/issues/117
 icon: com.breadwallet.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-16
 reviewStale: true
 signer: 

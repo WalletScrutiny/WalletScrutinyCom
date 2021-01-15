@@ -5,18 +5,18 @@ altTitle:
 users: 50000
 appId: com.sf.monarch
 launchDate: 2018-10-19
-latestUpdate: 2020-09-14
-apkVersionName: "2.1.5"
-stars: 4.1
-ratings: 694
-reviews: 353
+latestUpdate: 2021-01-08
+apkVersionName: "2.1.8"
+stars: 3.4
+ratings: 732
+reviews: 378
 size: 18M
 website: https://monarchwallet.com
 repository: 
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-12
 reviewStale: true
 signer: 

@@ -5,22 +5,37 @@ altTitle: "Bitcoin Wallet (Schildbach)"
 users: 5000000
 appId: de.schildbach.wallet
 launchDate: 2011-03-01
-latestUpdate: 2020-07-28
+latestUpdate: 2020-12-05
 apkVersionName: "Varies with device"
 stars: 3.9
-ratings: 24261
-reviews: 7708
+ratings: 25705
+reviews: 8348
 size: 2.8M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
 icon: de.schildbach.wallet.png
 bugbounty: 
-verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-08-04
+verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2020-12-29
 reviewStale: false
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2020-11-17
+  version: "8.07"
+  apkHash: c6cc907735d141b9f6cfaced1d14d2dc715bace78232ec7ff14682aad9fe2788
+  gitRevision: 8398bca6bf2ea88f668c85a1db5c3847c3df1139
+  verdict: reproducible
+- date: 2020-10-12
+  version: "8.06"
+  apkHash: 7c68050e0e746d9a7ea984ac2aa4d9541e5a140a073254f5c88036d1aa7430ab
+  gitRevision: 5e569f89c217deb79d15d78603ca71b3e2702200
+  verdict: reproducible
+- date: 2020-08-04
+  version: "8.05"
+  apkHash: 64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0
+  gitRevision: b683aac93debae97df50251e2c4a975cdb9d5ba6
+  verdict: reproducible
 - date: 2020-06-20
   version: "8.03"
   apkHash: 09b78cea4be8ca41661b0a9ab3d4a2ed16c8947c2aaceeb39c931ee8e2d3f653
@@ -103,15 +118,23 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.05
-apkVersionCode: 805
-apkHash:        64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0
+apkVersionName: 8.08
+apkVersionCode: 808
+apkHash:        c16a1e33ae3b6b1f66e0029a3385323d8e3d3ccf8e58394284c96c4268ba6625
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_805/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_805/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_805/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_de.schildbach.wallet_808/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_808/apktool.yml differ
+Only in /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_808/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_808/original/META-INF/MANIFEST.MF differ
+
+Revision, tag (and its signature):
+object 67c1b8ce0d7747fb6c36da823e0afef4dfd8352f
+type commit
+tag v8.08
+tagger Andreas Schildbach <andreas@schildbach.de> 1607080536 +0100
+
+8.08 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.

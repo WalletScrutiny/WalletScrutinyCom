@@ -1,42 +1,44 @@
 #!/bin/sh
 
 # run this using Docker:
-# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY -n "com.binance.dev"
+# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY -a "com.binance.dev com.binance.dev" -i "12345 12345" -s
 
-while getopts k:n:s: option
+while getopts k:a:i:s: option
 do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;
-    n) apps=${OPTARG};;
-    s) skipGP=${OPTARG};;
+    a) aapps=${OPTARG};;
+    i) iapps=${OPTARG};;
+    s) skip=${OPTARG};;
   esac
 done
 
-echo "Running with parameters newApps=$apps and skipGP=$skipGP."
-echo "adding wallets from command line parameters: $apps"
+echo "Running with parameters"
+echo "  - new Android Apps: $aapps"
+echo "  - new iPhone Apps: $iapps"
+echo "  - skip refresh: $skip"
 
 echo "installing missing stuff"
-npm install google-play-scraper dateformat js-yaml sleep btcpay
+npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpay
 
-for appId in $apps; do
-  path=_android/$appId.md
-  if [ ! -f $path ]; then
-    echo Adding skeleton for app $appId
-    node refreshNewApp.js $appId
-  else
-    echo $appId already present in $path
-  fi
-done
+node refreshNewAndroidApps.js $aapps
+node refreshNewIphoneApps.js $iapps
+
+wait
 
 echo "Refreshing donations page ..."
 node refreshDonations.js $btcPayKey &
 if [ "$skipGP" != "true" ]; then
-  echo "Updating from Google ..."
-  node refreshAppsFromGoogle.js
+  echo "Updating from Google and Apple ..." &
+  node refreshAppsFromGoogle.js &
+  node refreshAppsFromApple.js
 fi
 
 wait
+
+echo
+echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
 echo "Reproducible wallets with version changes (need analysis):"
 for f in $( git diff -G'apkVersionName' --name-only ); do if grep -q "verdict: reproducible" $f; then echo $f changed to $( grep apkVersionName $f ); fi; done

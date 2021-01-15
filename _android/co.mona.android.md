@@ -5,18 +5,18 @@ altTitle:
 users: 1000000
 appId: co.mona.android
 launchDate: 2017-08-30
-latestUpdate: 2020-09-09
-apkVersionName: "3.67"
-stars: 4.1
-ratings: 33979
-reviews: 12639
-size: 80M
-website: https://www.crypto.com/
+latestUpdate: 2021-01-09
+apkVersionName: "3.80.0"
+stars: 4.0
+ratings: 44724
+reviews: 17352
+size: 85M
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: co.mona.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: true
 signer: 

@@ -21,7 +21,7 @@ author_profile: true
   Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your app allows you to use "your"
   coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
   "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate backdoors
-  or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
+  or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?<a rel="me" href="https://bitcoinhackers.org/@giszmo">&nbsp;</a>
 </p><p>
   We try to answer these questions for Bitcoin wallets on Android.
 </p><p>
@@ -36,20 +36,24 @@ author_profile: true
 {% include press.html %}
 
 
-<h2 class="section-label">All wallets ordered by verifiability, downloads and ratings</h2>
+<h2 class="section-label">All reproducible wallets</h2>
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
+{% assign platform = "android" %}
+{% assign verdicts = "reproducible" | split: "," %}
 {% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = true %}
+{% assign showVerdictFilter = false %}
 {% include list_of_wallets.html %}
-<a href="{{ base_path }}/moreApps">more apps</a>
+
+<a href="{{ base_path }}/moreApps">more Android Play Store apps</a>
+
+<a href="{{ base_path }}/apple">more Apple App Store apps</a>
 
 
-<h2 class="section-label">How many wallets are in each category?</h2>
+<h2 class="section-label">How many wallets are in each category?<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets.html %}
 
 
-<h2 class="section-label">How many users (downloads) are in each category?</h2>
+<h2 class="section-label">How many users (downloads) are in each category?<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets_proportional.html %}

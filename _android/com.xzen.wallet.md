@@ -7,16 +7,16 @@ appId: com.xzen.wallet
 launchDate: 
 latestUpdate: 2019-09-19
 apkVersionName: "1.2.6.0"
-stars: 3.9
-ratings: 38
-reviews: 29
+stars: 3.7
+ratings: 41
+reviews: 31
 size: 26M
 website: http://www.xzen.io/app
 repository: 
 issue: 
 icon: com.xzen.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
 signer: 
