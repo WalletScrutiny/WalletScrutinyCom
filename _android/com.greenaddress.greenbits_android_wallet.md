@@ -17,10 +17,15 @@ issue: https://github.com/Blockstream/green_android/issues/75
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-03
-reviewStale: true
+date: 2021-01-18
+reviewStale: false
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-01-03
+  version: "3.4.5"
+  apkHash: efa5e3e56b1081bb66ca99d3fea7d5b1375a8f30696acf0938a324ba12c5458c
+  gitRevision: 6f2db0822de5b16cad4f1a7459068a27a50c4896
+  verdict: reproducible
 - date: 2020-12-15
   version: "3.4.4"
   apkHash: d54f84856c25c302978ed5c23ad01c3c0c89930f8f9cd2098558563d9f8b1a3e
@@ -108,23 +113,26 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.4.5
-apkVersionCode: 22000345
-apkHash:        efa5e3e56b1081bb66ca99d3fea7d5b1375a8f30696acf0938a324ba12c5458c
+apkVersionName: 3.4.8
+apkVersionCode: 22000348
+apkHash:        ef539fe60af20a538eb4bdaad37a8cde12cb873cca97800749a71a5add0e9ff7
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000345/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000345/apktool.yml differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000345/original/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000345/original/META-INF: GREENADD.SF
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000345/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000345/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000348/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000348/apktool.yml differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000348/original/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000348/original/META-INF: GREENADD.SF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000348/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000348/original/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 5cb9f586ec91463d59ed23c51ca2d0b13a2390fe
+object ffa9c826cc1a627121c947fcfd235b0452fb845d
 type commit
-tag release_3.4.5
-tagger Luca Vaccaro <me@lvaccaro.com> 1609618980 +0100
+tag release_3.4.8
+tagger Domenico Gabriele <domenico@blockstream.com> 1610730834 +0100
 
-Release 3.4.5
+Release 3.4.8
+
+Add support for Blockstream Jade via usb and bluetooth.
+
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
