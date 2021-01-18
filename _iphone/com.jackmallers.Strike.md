@@ -1,20 +1,19 @@
 ---
-title: "Strike: Bitcoin & Lightning Payments"
+title: "Strike: Send and Spend Bitcoin"
 altTitle: 
 
-users: 5000
-appId: zapsolutions.strike
-launchDate: 
-latestUpdate: 2021-01-15
-apkVersionName: "v56"
-stars: 4.7
-ratings: 136
-reviews: 44
-size: 8.5M
-website: 
+appId: com.jackmallers.Strike
+idd: 1488724463
+released: 2020-08-10
+updated: 2021-01-14
+version: "1.0.14"
+score: 4.82847
+reviews: 274
+size: 21236736
+developerWebsite: https://beta.strike.me/
 repository: 
 issue: 
-icon: zapsolutions.strike.png
+icon: com.jackmallers.Strike.jpg
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-18
@@ -29,9 +28,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /zapsolutions.strike/
----
 
+---
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets
 in that you can send to and receive from Bitcoin wallets but your balance is

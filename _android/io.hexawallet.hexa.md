@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: io.hexawallet.hexa.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-10
 reviewStale: true
 signer: 
