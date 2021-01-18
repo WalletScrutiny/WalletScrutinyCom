@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.binance.us
 launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "2.0.4"
-stars: 2.1
-ratings: 1061
-reviews: 752
+latestUpdate: 2021-01-15
+apkVersionName: "2.2.1"
+stars: 2.4
+ratings: 1086
+reviews: 766
 size: Varies with device
 website: https://www.binance.us
 repository: 

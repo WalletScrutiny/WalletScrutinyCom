@@ -5,11 +5,11 @@ altTitle:
 appId: com.getchange.dev
 idd: 1442085358
 released: 2018-11-15
-updated: 2021-01-13
-version: "10.9.130"
-score: 4.16667
-reviews: 12
-size: 128299008
+updated: 2021-01-16
+version: "10.9.132"
+score: 4.28571
+reviews: 14
+size: 128389120
 developerWebsite: 
 repository: 
 issue: 

@@ -5,10 +5,10 @@ altTitle:
 appId: com.swipe.wallet
 idd: 1476726454
 released: 2019-09-10
-updated: 2021-01-14
-version: "1.526"
-score: 4.79594
-reviews: 1181
+updated: 2021-01-15
+version: "1.527"
+score: 4.79645
+reviews: 1184
 size: 140695552
 developerWebsite: https://swipe.io
 repository: 

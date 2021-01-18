@@ -5,11 +5,11 @@ altTitle:
 appId: com.bitkeep.os
 idd: 1395301115
 released: 2018-09-26
-updated: 2021-01-12
-version: "5.0.2"
+updated: 2021-01-18
+version: "5.0.5"
 score: 3.66667
 reviews: 6
-size: 59671552
+size: 59446272
 developerWebsite: https://bitkeep.com
 repository: 
 issue: 

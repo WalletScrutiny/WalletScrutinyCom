@@ -5,11 +5,11 @@ altTitle:
 appId: com.mercuryo.app
 idd: 1446533733
 released: 2019-02-08
-updated: 2021-01-05
-version: "1.53"
-score: 4.89796
-reviews: 147
-size: 56669184
+updated: 2021-01-15
+version: "1.54"
+score: 4.90909
+reviews: 165
+size: 64330752
 developerWebsite: https://mercuryo.io/
 repository: 
 issue: 

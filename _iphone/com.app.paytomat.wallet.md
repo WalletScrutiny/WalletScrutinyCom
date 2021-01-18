@@ -5,11 +5,11 @@ altTitle:
 appId: com.app.paytomat.wallet
 idd: 1415300709
 released: 2018-08-12
-updated: 2020-07-06
-version: "1.37"
+updated: 2021-01-17
+version: "1.37.1"
 score: 4.55
 reviews: 20
-size: 67512320
+size: 66301952
 developerWebsite: https://paytomat.com
 repository: 
 issue: 

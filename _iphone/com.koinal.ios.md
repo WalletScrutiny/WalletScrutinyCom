@@ -5,11 +5,11 @@ altTitle:
 appId: com.koinal.ios
 idd: 1442764361
 released: 2020-06-08
-updated: 2020-12-23
-version: "1.1.3"
+updated: 2021-01-15
+version: "1.1.4"
 score: 3.66667
 reviews: 3
-size: 40079360
+size: 46041088
 developerWebsite: https://www.koinal.io
 repository: 
 issue: 

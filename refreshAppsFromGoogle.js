@@ -95,7 +95,6 @@ function writeResult(app, header, iconExtension, body) {
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
   const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
-  redirects.add(`/${header.appId}/`)
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
   console.log(`Writing results to ${p}`)

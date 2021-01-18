@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.bitkeep.wallet
 launchDate: 
-latestUpdate: 2021-01-10
-apkVersionName: "5.0.1"
-stars: 4.2
-ratings: 178
-reviews: 75
+latestUpdate: 2021-01-17
+apkVersionName: "5.0.5"
+stars: 4.1
+ratings: 180
+reviews: 77
 size: 27M
 website: https://bitkeep.com
 repository: 
