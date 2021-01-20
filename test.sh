@@ -135,35 +135,35 @@ for more details."
 
 case "$appId" in
   "com.mycelium.wallet")
-    source testMycelium.sh
+    source scripts/testMycelium.sh
     test ":mbw:assembleProdnetRelease"
     ;;
   "com.mycelium.testnetwallet")
-    source testMycelium.sh
+    source scripts/testMycelium.sh
     test ":mbw:assembleBtctestnetRelease"
     ;;
   "com.greenaddress.greenbits_android_wallet")
-    source testGreen.sh
+    source scripts/testGreen.sh
     test
     ;;
   "de.schildbach.wallet")
-    source testSchildbach.sh
+    source scripts/testSchildbach.sh
     test
     ;;
   "it.airgap.vault")
-    source testAirgapVault.sh
+    source scripts/testAirgapVault.sh
     test
     ;;
   "io.horizontalsystems.bankwallet")
-    source testUnstoppable.sh
+    source scripts/testUnstoppable.sh
     test
     ;;
   "piuk.blockchain.android")
-    source testBlockchain.sh
+    source scripts/testBlockchain.sh
     test
     ;;
   "fr.acinq.phoenix.mainnet")
-    source testPhoenix.sh
+    source scripts/testPhoenix.sh
     test
     ;;
   *)
