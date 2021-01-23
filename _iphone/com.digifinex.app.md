@@ -5,11 +5,11 @@ altTitle:
 appId: com.digifinex.app
 idd: 1397735851
 released: 2018-08-25
-updated: 2021-01-06
-version: "2021.01.06"
+updated: 2021-01-23
+version: "2021.01.21"
 score: 4.40625
 reviews: 32
-size: 339225600
+size: 340302848
 developerWebsite: 
 repository: 
 issue: 

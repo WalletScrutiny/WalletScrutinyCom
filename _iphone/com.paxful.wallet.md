@@ -5,11 +5,11 @@ altTitle:
 appId: com.paxful.wallet
 idd: 1443813253
 released: 2019-05-09
-updated: 2020-12-31
-version: "1.7.3"
-score: 3.99399
-reviews: 2163
-size: 69441536
+updated: 2021-01-22
+version: "1.7.4"
+score: 3.9871
+reviews: 2170
+size: 62111744
 developerWebsite: https://paxful.com/
 repository: 
 issue: 

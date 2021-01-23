@@ -5,10 +5,10 @@ altTitle:
 appId: mw.org.freewallet.app
 idd: 1274003898
 released: 2017-09-01
-updated: 2020-12-09
-version: "1.14.15"
-score: 4.16055
-reviews: 654
+updated: 2021-01-19
+version: "1.15.0"
+score: 4.16183
+reviews: 655
 size: 45145088
 developerWebsite: https://freewallet.org
 repository: 

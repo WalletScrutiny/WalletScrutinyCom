@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-13
 apkVersionName: "4.3.6"
 stars: 3.5
-ratings: 1060
-reviews: 685
+ratings: 1064
+reviews: 690
 size: 36M
 website: https://www.bitrue.com
 repository: 

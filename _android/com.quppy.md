@@ -5,11 +5,11 @@ altTitle:
 users: 50000
 appId: com.quppy
 launchDate: 
-latestUpdate: 2020-12-22
-apkVersionName: "1.0.41"
+latestUpdate: 2021-01-22
+apkVersionName: "1.0.44"
 stars: 4.3
-ratings: 2000
-reviews: 951
+ratings: 1998
+reviews: 949
 size: 15M
 website: https://quppy.com
 repository: 

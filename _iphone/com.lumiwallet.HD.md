@@ -1,15 +1,15 @@
 ---
-title: "Lumi Wallet"
+title: "Bitcoin Wallet by Lumi Wallet"
 altTitle: 
 
 appId: com.lumiwallet.HD
 idd: 1316477906
 released: 2017-12-08
-updated: 2020-12-19
-version: "3.9.1"
-score: 4.8267
-reviews: 2188
-size: 67126272
+updated: 2021-01-21
+version: "3.9.2"
+score: 4.83253
+reviews: 2287
+size: 72545280
 developerWebsite: https://lumiwallet.com/
 repository: 
 issue: 

@@ -5,10 +5,10 @@ altTitle:
 appId: com.muun.falcon
 idd: 1482037683
 released: 2019-10-11
-updated: 2021-01-08
-version: "2.0.0"
-score: 4.81818
-reviews: 11
+updated: 2021-01-20
+version: "2.0.1"
+score: 4.83333
+reviews: 12
 size: 78841856
 developerWebsite: https://www.muun.com
 repository: https://github.com/muun/falcon

@@ -5,11 +5,11 @@ altTitle:
 appId: com.goabra.abra
 idd: 966301394
 released: 2015-03-12
-updated: 2021-01-12
-version: "89.0.0"
-score: 4.56759
-reviews: 12100
-size: 125519872
+updated: 2021-01-21
+version: "90.1.0"
+score: 4.56792
+reviews: 12146
+size: 124192768
 developerWebsite: 
 repository: 
 issue: 

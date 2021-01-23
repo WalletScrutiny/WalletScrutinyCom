@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: io.safepal.wallet
 launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "2.5.2"
-stars: 4.4
-ratings: 1202
-reviews: 735
+latestUpdate: 2021-01-21
+apkVersionName: "2.5.4"
+stars: 4.5
+ratings: 1315
+reviews: 800
 size: 29M
 website: https://www.safepal.io
 repository: 

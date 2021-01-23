@@ -7,9 +7,9 @@ appId: io.bluewallet.bluewallet
 launchDate: 2018-11-01
 latestUpdate: 2021-01-18
 apkVersionName: "6.0.3"
-stars: 4.4
-ratings: 755
-reviews: 335
+stars: 4.2
+ratings: 770
+reviews: 341
 size: 56M
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

@@ -2,15 +2,15 @@
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2021-01-11
-apkVersionName: "1.24.11"
-stars: 4.5
-ratings: 152832
-reviews: 49908
-size: 33M
+latestUpdate: 2021-01-19
+apkVersionName: "1.25.9"
+stars: 4.6
+ratings: 156641
+reviews: 50626
+size: 34M
 website: https://trustwallet.com
 repository: 
 issue: 

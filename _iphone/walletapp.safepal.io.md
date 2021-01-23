@@ -5,11 +5,11 @@ altTitle:
 appId: walletapp.safepal.io
 idd: 1548297139
 released: 2021-01-11
-updated: 2021-01-12
-version: "2.5.3"
+updated: 2021-01-21
+version: "2.5.4"
 score: 5
 reviews: 3
-size: 111915008
+size: 112021504
 developerWebsite: https://www.safepal.io/
 repository: 
 issue: 

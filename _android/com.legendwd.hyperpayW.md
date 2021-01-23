@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.legendwd.hyperpayW
 launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "4.0.12"
-stars: 4.4
-ratings: 742
-reviews: 578
-size: 108M
+latestUpdate: 2021-01-21
+apkVersionName: "4.0.14"
+stars: 4.3
+ratings: 752
+reviews: 582
+size: 101M
 website: https://hyperpay.tech
 repository: 
 issue: 

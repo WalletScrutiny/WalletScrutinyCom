@@ -5,11 +5,11 @@ altTitle:
 appId: atomicwallet
 idd: 1478257827
 released: 2019-11-05
-updated: 2021-01-13
-version: "0.70.2"
-score: 4.56013
-reviews: 3351
-size: 54727680
+updated: 2021-01-21
+version: "0.71.0"
+score: 4.55936
+reviews: 3479
+size: 48571392
 developerWebsite: https://atomicwallet.io/
 repository: 
 issue: 
