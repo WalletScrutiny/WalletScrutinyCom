@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.counos
 launchDate: 
-latestUpdate: 2020-05-01
-apkVersionName: "1.9.2"
+latestUpdate: 2021-01-23
+apkVersionName: "1.9.3"
 stars: 4.0
-ratings: 504
-reviews: 348
-size: 11M
+ratings: 505
+reviews: 349
+size: 10M
 website: https://www.counos.io
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.counos.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-05
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

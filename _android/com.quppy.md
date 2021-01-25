@@ -7,8 +7,8 @@ appId: com.quppy
 launchDate: 
 latestUpdate: 2021-01-22
 apkVersionName: "1.0.44"
-stars: 4.3
-ratings: 1998
+stars: 4.2
+ratings: 1972
 reviews: 949
 size: 15M
 website: https://quppy.com

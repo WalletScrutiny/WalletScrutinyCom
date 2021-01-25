@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-11
 apkVersionName: "1.6.3"
 stars: 4.5
-ratings: 8143
-reviews: 2235
+ratings: 8168
+reviews: 2241
 size: 13M
 website: https://www.bitstamp.net
 repository: 
@@ -29,8 +29,7 @@ providerFacebook: Bitstamp
 providerReddit: 
 
 redirect_from:
-  - /net.bitstamp.app/
-  - /posts/net.bitstamp.app/
+
 ---
 
 

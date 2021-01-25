@@ -7,27 +7,29 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2021-01-15
 version: "21.1.15"
-score: 4.73998
-reviews: 5469
+score: 4.73733
+reviews: 5528
 size: 27214848
 developerWebsite: https://www.exodus.io/mobile
 repository: 
 issue: 
 icon: exodus-movement.exodus.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-23
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: exodus_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: exodus.io
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Just like [their Android wallet](/android/exodusmovement.exodus/), this app is
+closed source and thus **not verifiable**.

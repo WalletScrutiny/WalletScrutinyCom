@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-15
 apkVersionName: "5.4.1"
 stars: 4.4
-ratings: 10005
-reviews: 4685
+ratings: 10028
+reviews: 4699
 size: 30M
 website: https://remitano.com
 repository: 
@@ -29,7 +29,6 @@ providerFacebook: remitano
 providerReddit: 
 
 redirect_from:
-  - /com.remitano.remitano/
   - /posts/com.remitano.remitano/
 ---
 

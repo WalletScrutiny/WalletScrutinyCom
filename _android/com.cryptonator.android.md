@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.cryptonator.android
 launchDate: 2018-11-01
-latestUpdate: 2021-01-18
+latestUpdate: 2021-01-22
 apkVersionName: "4.0"
-stars: 3.6
-ratings: 4582
-reviews: 2669
+stars: 3.7
+ratings: 4597
+reviews: 2672
 size: 8.7M
 website: https://www.cryptonator.com
 repository: 

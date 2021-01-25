@@ -11,33 +11,32 @@ stars: 3.0
 ratings: 6
 reviews: 4
 size: 39M
-website: 
+website: https://hebe.cc/
 repository: 
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-07
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-23
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BlockHebe
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
 
 redirect_from:
-  - /com.hebeblock.hebewallet/
   - /posts/com.hebeblock.hebewallet/
 ---
 
 
-This page was created by a script from the **appId** "com.hebeblock.hebewallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.hebeblock.hebewallet).
+In the description the provider claims:
 
-Probably an engineer will soon have a deeper look at this app.
+> Hebe Wallet is a decentralized wallet that supports local transaction
+  signatures, so your mnemonics will never be sent over the internet.
 
-So far we are not even sure it is a wallet ... Please check back later.
+so it's not custodial but we can't find any source code. This app is
+**not verifiable**.

@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-12-16
 apkVersionName: "5.3.0"
 stars: 3.1
-ratings: 535
+ratings: 536
 reviews: 375
 size: 11M
 website: https://buycoins.africa
