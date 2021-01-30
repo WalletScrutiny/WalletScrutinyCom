@@ -7,9 +7,9 @@ appId: com.visionwallet.app
 launchDate: 
 latestUpdate: 2020-11-05
 apkVersionName: "1.3.2"
-stars: 4.0
-ratings: 72
-reviews: 67
+stars: 3.9
+ratings: 73
+reviews: 68
 size: 4.9M
 website: https://visionwallet.com/en
 repository: 

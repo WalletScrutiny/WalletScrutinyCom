@@ -5,11 +5,11 @@ altTitle:
 appId: com.lumiwallet.HD
 idd: 1316477906
 released: 2017-12-08
-updated: 2021-01-21
-version: "3.9.2"
-score: 4.83253
-reviews: 2287
-size: 72545280
+updated: 2021-01-29
+version: "3.9.3"
+score: 4.83866
+reviews: 2374
+size: 72549376
 developerWebsite: https://lumiwallet.com/
 repository: 
 issue: 

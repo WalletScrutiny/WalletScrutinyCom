@@ -5,11 +5,11 @@ altTitle:
 appId: com.cryptonator.ios
 idd: 1463793201
 released: 2019-06-11
-updated: 2021-01-23
-version: "4.1.3"
+updated: 2021-01-27
+version: "4.1.4"
 score: 3.71429
 reviews: 7
-size: 79895552
+size: 79916032
 developerWebsite: https://www.cryptonator.com
 repository: 
 issue: 

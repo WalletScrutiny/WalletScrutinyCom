@@ -5,11 +5,11 @@ altTitle:
 appId: com.SwftBlockChain.client
 idd: 1435569339
 released: 2018-09-28
-updated: 2021-01-22
-version: "5.10.2"
+updated: 2021-01-30
+version: "5.10.3"
 score: 4.57463
 reviews: 134
-size: 112033792
+size: 112076800
 developerWebsite: 
 repository: 
 issue: 

@@ -2,14 +2,14 @@
 title: "Muun - Bitcoin and Lightning Wallet"
 altTitle: 
 
-users: 1000
+users: 5000
 appId: io.muun.apollo
 launchDate: 2017-04-25
 latestUpdate: 2021-01-19
 apkVersionName: "42.7"
-stars: 4.4
-ratings: 87
-reviews: 53
+stars: 4.5
+ratings: 90
+reviews: 54
 size: 39M
 website: https://muun.com
 repository: https://github.com/muun/apollo

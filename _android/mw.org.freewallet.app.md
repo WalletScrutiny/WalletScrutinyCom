@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin & Crypto Blockchain Wallet: Freewallet"
+title: "Freewallet: Bitcoin & Crypto Blockchain Wallet"
 altTitle: 
 
 users: 100000
@@ -7,9 +7,9 @@ appId: mw.org.freewallet.app
 launchDate: 2017-08-10
 latestUpdate: 2020-12-29
 apkVersionName: "1.15.0"
-stars: 4.1
-ratings: 7273
-reviews: 4678
+stars: 4.0
+ratings: 7358
+reviews: 4748
 size: 12M
 website: https://freewallet.org
 repository: 

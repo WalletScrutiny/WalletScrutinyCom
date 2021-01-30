@@ -5,11 +5,11 @@ altTitle:
 appId: za.co.Bitx
 idd: 927362479
 released: 2014-11-03
-updated: 2020-12-11
-version: "7.5.1"
-score: 4.41163
-reviews: 2580
-size: 111756288
+updated: 2021-01-27
+version: "7.6.0"
+score: 4.41821
+reviews: 2649
+size: 75157504
 developerWebsite: https://www.luno.com
 repository: 
 issue: 

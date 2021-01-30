@@ -5,10 +5,10 @@ altTitle:
 users: 1000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2021-01-19
-apkVersionName: "2.30.1"
+latestUpdate: 2021-01-28
+apkVersionName: "2.31.0"
 stars: 4.4
-ratings: 61
+ratings: 63
 reviews: 15
 size: 29M
 website: https://keys.casa

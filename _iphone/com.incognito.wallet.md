@@ -5,11 +5,11 @@ altTitle:
 appId: com.incognito.wallet
 idd: 1475631606
 released: 2019-08-21
-updated: 2021-01-21
-version: "4.0.0"
-score: 4.25926
-reviews: 54
-size: 51134464
+updated: 2021-01-30
+version: "4.1.0"
+score: 4.27273
+reviews: 55
+size: 51150848
 developerWebsite: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: 

@@ -5,12 +5,12 @@ altTitle:
 users: 5000
 appId: com.bitbill.www
 launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "4.25.3"
+latestUpdate: 2021-01-24
+apkVersionName: "4.26.0"
 stars: 4.0
-ratings: 45
-reviews: 26
-size: 30M
+ratings: 47
+reviews: 28
+size: 31M
 website: http://www.bitbill.com
 repository: 
 issue: 

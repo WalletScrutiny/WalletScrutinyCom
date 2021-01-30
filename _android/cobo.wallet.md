@@ -9,7 +9,7 @@ latestUpdate: 2020-12-16
 apkVersionName: "4.26"
 stars: 3.5
 ratings: 3887
-reviews: 2365
+reviews: 2366
 size: 47M
 website: https://cobo.com
 repository: 

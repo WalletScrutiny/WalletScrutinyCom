@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: network.celsius.wallet
 launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "4.6.1"
+latestUpdate: 2021-01-20
+apkVersionName: "4.7.0"
 stars: 3.8
-ratings: 3568
-reviews: 2745
-size: 94M
+ratings: 3657
+reviews: 2791
+size: 85M
 website: https://celsius.network
 repository: 
 issue: 

@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-20
 apkVersionName: "1.26"
 stars: 4.3
-ratings: 6
-reviews: 5
+ratings: 7
+reviews: 6
 size: 6.2M
 website: https://pungowallet.com
 repository: 

@@ -8,7 +8,7 @@ launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
 stars: 3.5
-ratings: 1139
+ratings: 1138
 reviews: 485
 size: 16M
 website: https://airbitz.co

@@ -5,8 +5,8 @@ altTitle:
 appId: com.viabtc.ViaWallet
 idd: 1462031389
 released: 2019-05-21
-updated: 2021-01-21
-version: "2.2.4"
+updated: 2021-01-25
+version: "2.2.5"
 score: 4
 reviews: 12
 size: 77724672

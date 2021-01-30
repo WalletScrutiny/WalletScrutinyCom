@@ -5,11 +5,11 @@ altTitle:
 appId: com.remitano.remitano
 idd: 1116327021
 released: 2016-05-28
-updated: 2020-10-30
-version: "5.3.1"
-score: 4.76281
-reviews: 5700
-size: 24547328
+updated: 2021-01-28
+version: "5.5.1"
+score: 4.76319
+reviews: 5743
+size: 24289280
 developerWebsite: https://remitano.com
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.remitano.remitano.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

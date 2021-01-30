@@ -2,7 +2,7 @@
 title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
 altTitle: 
 
-users: 50
+users: 100
 appId: ai.azara.wallet
 launchDate: 
 latestUpdate: 2020-11-11

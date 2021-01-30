@@ -5,11 +5,11 @@ altTitle:
 appId: com.Crypterium.Crypterium
 idd: 1360632912
 released: 2018-03-26
-updated: 2020-12-30
-version: "1.14.4"
-score: 4.53599
-reviews: 903
-size: 247984128
+updated: 2021-01-25
+version: "1.14.5"
+score: 4.5289
+reviews: 917
+size: 247956480
 developerWebsite: https://cards.crypterium.com/visa
 repository: 
 issue: 

@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.arzjoo
 launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "1.3.4"
+latestUpdate: 2021-01-26
+apkVersionName: "1.3.5"
 stars: 3.4
-ratings: 1137
-reviews: 458
+ratings: 1150
+reviews: 466
 size: Varies with device
 website: https://arzjoo.com
 repository: 

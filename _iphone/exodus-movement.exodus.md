@@ -5,11 +5,11 @@ altTitle:
 appId: exodus-movement.exodus
 idd: 1414384820
 released: 2019-03-23
-updated: 2021-01-15
-version: "21.1.15"
-score: 4.73733
-reviews: 5528
-size: 27214848
+updated: 2021-01-28
+version: "21.1.28"
+score: 4.73695
+reviews: 5672
+size: 28420096
 developerWebsite: https://www.exodus.io/mobile
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: exodus-movement.exodus.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -7,9 +7,9 @@ appId: io.eidoo.wallet.prodnet
 launchDate: 2017-09-25
 latestUpdate: 2021-01-22
 apkVersionName: "2.15.2"
-stars: 3.5
-ratings: 1534
-reviews: 749
+stars: 3.4
+ratings: 1537
+reviews: 751
 size: 13M
 website: https://eidoo.io
 repository: 

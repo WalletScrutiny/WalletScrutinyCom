@@ -5,11 +5,11 @@ altTitle:
 appId: com.defi.wallet
 idd: 1512048310
 released: 2020-05-20
-updated: 2021-01-20
-version: "1.5.2"
-score: 3.14173
-reviews: 127
-size: 61052928
+updated: 2021-01-28
+version: "1.6.0"
+score: 3.15625
+reviews: 128
+size: 63419392
 developerWebsite: https://crypto.com/en/defi/wallet/
 repository: 
 issue: 
