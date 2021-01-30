@@ -8,7 +8,7 @@ released: 2019-05-09
 updated: 2021-01-22
 version: "1.7.4"
 score: 3.98118
-reviews: 2177
+reviews: 2178
 size: 62111744
 developerWebsite: https://paxful.com/
 repository: 
