@@ -5,12 +5,12 @@ altTitle:
 users: 1000
 appId: com.hebeblock.hebewallet
 launchDate: 
-latestUpdate: 2021-01-07
-apkVersionName: "1.2.41"
+latestUpdate: 2021-01-30
+apkVersionName: "1.2.51"
 stars: 2.7
 ratings: 7
 reviews: 5
-size: 39M
+size: 37M
 website: https://hebe.cc/
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: com.hebeblock.hebewallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

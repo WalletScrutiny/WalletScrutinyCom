@@ -8,7 +8,7 @@ resizeDeterministically() {
   source=$2/$filename
   target=$3/$filename
   size=$4
-  tmp=/tmp/$filename
+  tmp=/tmp/$size$filename
   # convert source to target size but to a temporary file, first
   # copy temp file to target if pixels actually changed in the resized file
   # delete temp file

@@ -8,7 +8,7 @@ released: 2019-02-13
 updated: 2021-01-28
 version: "2.9.9"
 score: 4.81002
-reviews: 8401
+reviews: 8248
 size: 58822656
 developerWebsite: https://www.investvoyager.com/
 repository: 

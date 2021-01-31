@@ -2,7 +2,7 @@
 title: "ZEBEDEE Wallet"
 altTitle: 
 
-users: 100
+users: 500
 appId: io.zebedee.wallet
 launchDate: 
 latestUpdate: 2020-12-17
