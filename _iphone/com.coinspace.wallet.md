@@ -7,7 +7,7 @@ idd: 980719434
 released: 2015-12-14
 updated: 2021-01-15
 version: "3.0.6"
-score: 4.48148
+score: 4.46914
 reviews: 81
 size: 29154304
 developerWebsite: https://coin.space/

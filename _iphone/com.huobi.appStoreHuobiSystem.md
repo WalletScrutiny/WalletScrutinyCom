@@ -5,11 +5,11 @@ altTitle:
 appId: com.huobi.appStoreHuobiSystem
 idd: 1023263342
 released: 2015-08-19
-updated: 2021-01-21
-version: "6.1.1"
-score: 4.82102
-reviews: 2816
-size: 204953600
+updated: 2021-01-30
+version: "6.1.2"
+score: 4.81709
+reviews: 2821
+size: 206827520
 developerWebsite: http://www.hbg.com
 repository: 
 issue: 

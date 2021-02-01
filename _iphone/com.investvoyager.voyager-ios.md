@@ -5,10 +5,10 @@ altTitle:
 appId: com.investvoyager.voyager-ios
 idd: 1396178579
 released: 2019-02-13
-updated: 2021-01-28
-version: "2.9.9"
-score: 4.81002
-reviews: 8248
+updated: 2021-01-30
+version: "2.9.10"
+score: 4.70666
+reviews: 10111
 size: 58822656
 developerWebsite: https://www.investvoyager.com/
 repository: 
