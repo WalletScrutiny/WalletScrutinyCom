@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.paytomat
 launchDate: 2018-06-20
-latestUpdate: 2021-01-14
-apkVersionName: "1.37.1"
+latestUpdate: 2021-02-01
+apkVersionName: "1.37.2"
 stars: 4.1
 ratings: 748
 reviews: 391

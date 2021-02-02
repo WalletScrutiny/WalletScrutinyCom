@@ -2,14 +2,14 @@
 title: "Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 
-users: 5000000
+users: 10000000
 appId: piuk.blockchain.android
 launchDate: 2013-02-01
 latestUpdate: 2021-01-25
 apkVersionName: "Varies with device"
 stars: 3.6
-ratings: 98773
-reviews: 48787
+ratings: 98834
+reviews: 48827
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

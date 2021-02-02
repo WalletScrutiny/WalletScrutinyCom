@@ -5,11 +5,11 @@ altTitle:
 appId: com.enjin.mobile.wallet
 idd: 1349078375
 released: 2018-03-12
-updated: 2020-12-15
-version: "1.11.0"
+updated: 2021-02-01
+version: "1.11.1"
 score: 4.62824
 reviews: 425
-size: 42930176
+size: 42934272
 developerWebsite: https://enjin.io/products/wallet
 repository: 
 issue: 

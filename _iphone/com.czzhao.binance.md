@@ -7,8 +7,8 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2021-01-29
 version: "2.25.0"
-score: 4.57559
-reviews: 26677
+score: 4.57039
+reviews: 26915
 size: 450230272
 developerWebsite: https://www.binance.com
 repository: 

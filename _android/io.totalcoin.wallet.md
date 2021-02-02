@@ -6,11 +6,11 @@ users: 100000
 appId: io.totalcoin.wallet
 launchDate: 2018-04-01
 latestUpdate: 2021-01-29
-apkVersionName: "4.6.1"
+apkVersionName: "4.6.2"
 stars: 4.6
-ratings: 4875
-reviews: 2440
-size: 10M
+ratings: 4880
+reviews: 2444
+size: 11M
 website: http://totalcoin.io
 repository: 
 issue: 

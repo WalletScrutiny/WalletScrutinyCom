@@ -5,11 +5,11 @@ altTitle:
 appId: org.toshi.distribution
 idd: 1278383455
 released: 2017-09-27
-updated: 2021-01-19
-version: "23.3"
-score: 4.69986
-reviews: 16649
-size: 136262656
+updated: 2021-02-01
+version: "23.4"
+score: 4.69843
+reviews: 16789
+size: 136258560
 developerWebsite: https://wallet.coinbase.com
 repository: 
 issue: 

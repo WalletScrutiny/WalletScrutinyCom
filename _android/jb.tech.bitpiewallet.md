@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: jb.tech.bitpiewallet
 launchDate: 
-latestUpdate: 2020-10-22
-apkVersionName: "1.2"
+latestUpdate: 2021-02-01
+apkVersionName: "1.3"
 stars: 4.2
 ratings: 58
 reviews: 58
@@ -18,7 +18,7 @@ icon: jb.tech.bitpiewallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

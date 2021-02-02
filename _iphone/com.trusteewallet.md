@@ -7,8 +7,8 @@ idd: 1462924276
 released: 2019-06-14
 updated: 2021-01-15
 version: "1.40.741"
-score: 4.75
-reviews: 4
+score: 4.2
+reviews: 5
 size: 65532928
 developerWebsite: https://trustee.deals/
 repository: 

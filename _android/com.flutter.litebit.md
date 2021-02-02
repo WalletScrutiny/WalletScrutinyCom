@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-29
 apkVersionName: "2.15.1"
 stars: 2.3
-ratings: 257
-reviews: 176
+ratings: 259
+reviews: 178
 size: 78M
 website: https://www.litebit.eu
 repository: 
