@@ -5,11 +5,11 @@ altTitle:
 appId: com.liberty.jaxx
 idd: 1435383184
 released: 2018-10-03
-updated: 2020-08-27
-version: "2.4.6"
-score: 4.52266
-reviews: 1081
-size: 55321600
+updated: 2021-02-02
+version: "2.5.0"
+score: 4.51287
+reviews: 1088
+size: 45841408
 developerWebsite: https://jaxx.io
 repository: 
 issue: 

@@ -5,8 +5,8 @@ altTitle:
 users: 1000
 appId: io.hexawallet.hexa
 launchDate: 
-latestUpdate: 2021-01-11
-apkVersionName: "1.4.1"
+latestUpdate: 2021-02-03
+apkVersionName: "1.4.3"
 stars: 3.6
 ratings: 16
 reviews: 11
@@ -18,7 +18,7 @@ icon: io.hexawallet.hexa.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-21
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

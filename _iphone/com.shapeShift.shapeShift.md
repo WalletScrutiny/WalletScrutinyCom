@@ -5,11 +5,11 @@ altTitle:
 appId: com.shapeShift.shapeShift
 idd: 996569075
 released: 2015-06-09
-updated: 2021-01-26
-version: "2.9.1"
-score: 3.2069
-reviews: 319
-size: 78221312
+updated: 2021-02-03
+version: "2.10.0"
+score: 3.17284
+reviews: 324
+size: 76918784
 developerWebsite: https://shapeshift.com
 repository: 
 issue: 

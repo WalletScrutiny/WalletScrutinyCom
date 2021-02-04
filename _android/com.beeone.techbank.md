@@ -2,14 +2,14 @@
 title: "TechBank"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.beeone.techbank
 launchDate: 
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
 stars: 4.5
-ratings: 369
-reviews: 150
+ratings: 372
+reviews: 151
 size: 41M
 website: https://techbank.finance
 repository: 

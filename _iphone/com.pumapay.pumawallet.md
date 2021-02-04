@@ -5,11 +5,11 @@ altTitle:
 appId: com.pumapay.pumawallet
 idd: 1376601366
 released: 2018-06-05
-updated: 2021-01-19
-version: "2.89"
+updated: 2021-02-03
+version: "2.90"
 score: 4.07692
 reviews: 13
-size: 110584832
+size: 110553088
 developerWebsite: https://pumapay.io
 repository: 
 issue: 

@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.lightning.walletapp
 launchDate: 2018-05-01
-latestUpdate: 2021-02-01
-apkVersionName: "0.4.5"
+latestUpdate: 2021-02-03
+apkVersionName: "0.4.7"
 stars: 3.9
 ratings: 335
 reviews: 220

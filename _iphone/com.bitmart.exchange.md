@@ -7,8 +7,8 @@ idd: 1396382871
 released: 2018-08-02
 updated: 2021-01-26
 version: "2.4.4"
-score: 3.6383
-reviews: 47
+score: 3.58333
+reviews: 48
 size: 183459840
 developerWebsite: https://www.bitmart.com/
 repository: 

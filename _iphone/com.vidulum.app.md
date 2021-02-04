@@ -5,11 +5,11 @@ altTitle:
 appId: com.vidulum.app
 idd: 1505859171
 released: 2020-07-28
-updated: 2020-12-15
-version: "1.1.4"
+updated: 2021-02-02
+version: "1.1.5"
 score: 5
 reviews: 3
-size: 58508288
+size: 60455936
 developerWebsite: https://vidulum.app
 repository: 
 issue: 

@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-12-08
 apkVersionName: "Varies with device"
 stars: 3.7
-ratings: 4475
-reviews: 2565
+ratings: 4479
+reviews: 2567
 size: Varies with device
 website: https://www.indodax.com
 repository: 

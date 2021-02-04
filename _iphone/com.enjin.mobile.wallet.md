@@ -7,8 +7,8 @@ idd: 1349078375
 released: 2018-03-12
 updated: 2021-02-01
 version: "1.11.1"
-score: 4.62824
-reviews: 425
+score: 4.62763
+reviews: 427
 size: 42934272
 developerWebsite: https://enjin.io/products/wallet
 repository: 

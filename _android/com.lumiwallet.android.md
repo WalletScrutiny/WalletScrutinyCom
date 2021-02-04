@@ -1,5 +1,5 @@
 ---
-title: "Crypto and Bitcoin Wallet by Lumi Wallet"
+title: "Bitcoin Wallet by Lumi Wallet"
 altTitle: 
 
 users: 100000
@@ -8,8 +8,8 @@ launchDate: 2018-01-15
 latestUpdate: 2021-01-21
 apkVersionName: "3.2.6"
 stars: 4.6
-ratings: 3491
-reviews: 846
+ratings: 3505
+reviews: 855
 size: 11M
 website: https://lumiwallet.com
 repository: 
