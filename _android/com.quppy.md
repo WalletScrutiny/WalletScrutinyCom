@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-22
 apkVersionName: "1.0.44"
 stars: 4.2
-ratings: 1977
-reviews: 953
+ratings: 1978
+reviews: 954
 size: 15M
 website: https://quppy.com
 repository: 

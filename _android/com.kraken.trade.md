@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.kraken.trade
 launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "1.5.10-5427"
-stars: 3.3
-ratings: 8727
-reviews: 3128
+latestUpdate: 2021-02-02
+apkVersionName: "1.5.11-5438"
+stars: 3.4
+ratings: 8899
+reviews: 3190
 size: 45M
 website: https://www.kraken.com
 repository: 

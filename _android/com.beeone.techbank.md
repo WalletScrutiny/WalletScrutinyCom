@@ -7,9 +7,9 @@ appId: com.beeone.techbank
 launchDate: 
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
-stars: 4.5
-ratings: 372
-reviews: 151
+stars: 4.4
+ratings: 375
+reviews: 152
 size: 41M
 website: https://techbank.finance
 repository: 

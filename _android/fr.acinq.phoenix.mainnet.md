@@ -2,7 +2,7 @@
 title: "Phoenix | The Bitcoin wallet from the future"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
 latestUpdate: 2021-01-25
