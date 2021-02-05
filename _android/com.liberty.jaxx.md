@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.liberty.jaxx
 launchDate: 2018-09-01
-latestUpdate: 2020-08-26
-apkVersionName: "2.4.6"
+latestUpdate: 2021-02-01
+apkVersionName: "2.5.0"
 stars: 3.7
-ratings: 4198
-reviews: 2339
+ratings: 4203
+reviews: 2341
 size: 17M
 website: https://jaxx.io
 repository: 

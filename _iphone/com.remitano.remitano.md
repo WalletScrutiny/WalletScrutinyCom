@@ -5,10 +5,10 @@ altTitle:
 appId: com.remitano.remitano
 idd: 1116327021
 released: 2016-05-28
-updated: 2021-02-03
-version: "5.6.0"
-score: 4.76358
-reviews: 5782
+updated: 2021-02-05
+version: "5.6.1"
+score: 4.76266
+reviews: 5806
 size: 57526272
 developerWebsite: https://remitano.com
 repository: 
