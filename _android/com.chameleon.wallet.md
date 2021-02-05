@@ -40,6 +40,6 @@ This app claims to be "Non-Custodial" as their main key feature but is it open
 source?
 
 We find no such claim and while the company has a 
-GitHub](https://github.com/ChainZilla), the app's source code
+[GitHub](https://github.com/ChainZilla), the app's source code
 [cannot be found](https://github.com/search?q=org%3AChainZilla+%22com.chameleon.wallet%22&type=Code)
 there. This wallet is therefore **not verifiable**.
