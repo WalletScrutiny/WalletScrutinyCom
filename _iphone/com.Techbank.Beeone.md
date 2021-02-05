@@ -5,11 +5,11 @@ altTitle:
 appId: com.Techbank.Beeone
 idd: 1473120022
 released: 2019-07-19
-updated: 2021-01-07
-version: "1.0.34"
+updated: 2021-02-04
+version: "1.0.35"
 score: 4.2
 reviews: 5
-size: 83843072
+size: 83318784
 developerWebsite: https://techbank.finance/
 repository: 
 issue: 

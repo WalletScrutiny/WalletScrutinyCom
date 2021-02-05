@@ -5,11 +5,11 @@ altTitle:
 appId: com.iwallet.iwallet
 idd: 1479545928
 released: 2019-09-14
-updated: 2021-01-26
-version: "2.31"
+updated: 2021-02-04
+version: "2.32"
 score: 4.44444
 reviews: 36
-size: 52289536
+size: 52285440
 developerWebsite: 
 repository: 
 issue: 
