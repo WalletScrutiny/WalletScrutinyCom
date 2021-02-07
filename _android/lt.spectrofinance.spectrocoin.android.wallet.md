@@ -8,8 +8,8 @@ launchDate: 2014-12-05
 latestUpdate: 2021-02-05
 apkVersionName: "1.15.3"
 stars: 3.1
-ratings: 3046
-reviews: 866
+ratings: 3050
+reviews: 870
 size: 12M
 website: https://spectrocoin.com
 repository: 

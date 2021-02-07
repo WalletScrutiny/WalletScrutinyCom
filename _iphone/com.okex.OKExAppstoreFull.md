@@ -5,11 +5,11 @@ altTitle:
 appId: com.okex.OKExAppstoreFull
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-02-02
-version: "4.6.4"
-score: 4.98648
-reviews: 16574
-size: 256191488
+updated: 2021-02-07
+version: "4.6.6"
+score: 4.9865
+reviews: 16592
+size: 272896000
 developerWebsite: https://www.okex.com
 repository: 
 issue: 

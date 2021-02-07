@@ -5,11 +5,11 @@ altTitle:
 appId: com.ezdefi.nexty
 idd: 1492046549
 released: 2019-12-18
-updated: 2020-12-30
-version: "0.2.9"
+updated: 2021-02-06
+version: "0.3.1"
 score: 5
 reviews: 3
-size: 58009600
+size: 59666432
 developerWebsite: https://ezdefi.com/
 repository: 
 issue: 

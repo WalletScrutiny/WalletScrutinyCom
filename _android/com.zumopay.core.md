@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-27
 apkVersionName: "2.15.0"
 stars: 3.7
-ratings: 112
-reviews: 75
+ratings: 119
+reviews: 77
 size: 85M
 website: https://zumo.money
 repository: 

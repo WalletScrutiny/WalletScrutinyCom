@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-29
 apkVersionName: "4.1.0"
 stars: 3.8
-ratings: 215
-reviews: 126
+ratings: 216
+reviews: 125
 size: 45M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet

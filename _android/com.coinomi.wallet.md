@@ -8,8 +8,8 @@ launchDate: 2014-01-31
 latestUpdate: 2020-10-20
 apkVersionName: "Varies with device"
 stars: 4.5
-ratings: 29877
-reviews: 17450
+ratings: 29930
+reviews: 17478
 size: Varies with device
 website: https://www.coinomi.com
 repository: 

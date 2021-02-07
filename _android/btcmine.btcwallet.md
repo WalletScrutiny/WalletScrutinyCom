@@ -7,8 +7,8 @@ appId: btcmine.btcwallet
 launchDate: 
 latestUpdate: 2017-08-13
 apkVersionName: "1.1"
-stars: 3.8
-ratings: 12
+stars: 3.6
+ratings: 13
 reviews: 7
 size: 2.3M
 website: 
