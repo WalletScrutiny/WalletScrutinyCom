@@ -31,6 +31,10 @@ redirect_from:
 
 ---
 
+**Update:** This wallet
+[has its issues](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/3514) you
+might want to take into consideration, too.
+
 On the App Store the provider claims:
 
 > NON-CUSTODIAL<br>
