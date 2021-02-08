@@ -8,8 +8,8 @@ launchDate: 2013-03-01
 latestUpdate: 2021-02-05
 apkVersionName: "9.9.1"
 stars: 4.2
-ratings: 290522
-reviews: 109557
+ratings: 291769
+reviews: 109836
 size: Varies with device
 website: https://coinbase.com
 repository: 

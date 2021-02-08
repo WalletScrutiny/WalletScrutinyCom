@@ -5,11 +5,11 @@ altTitle:
 appId: gctp.Coins
 idd: 972324049
 released: 2015-04-04
-updated: 2021-01-18
-version: "2.14.0"
-score: 4.72767
-reviews: 2486
-size: 180848640
+updated: 2021-02-08
+version: "2.14.1"
+score: 4.72789
+reviews: 2488
+size: 183631872
 developerWebsite: https://coins.ph/
 repository: 
 issue: 

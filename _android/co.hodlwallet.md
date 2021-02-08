@@ -8,8 +8,8 @@ launchDate: 2018-09-24
 latestUpdate: 2020-05-18
 apkVersionName: "3.3.5"
 stars: 3.9
-ratings: 96
-reviews: 53
+ratings: 97
+reviews: 54
 size: 12M
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android

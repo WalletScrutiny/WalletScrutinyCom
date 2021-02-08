@@ -8,7 +8,7 @@ released: 2017-06-06
 updated: 2021-01-20
 version: "4.7.0"
 score: 4.65568
-reviews: 273
+reviews: 274
 size: 148663296
 developerWebsite: https://www.coincola.com
 repository: 

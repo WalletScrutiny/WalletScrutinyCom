@@ -5,7 +5,7 @@ altTitle:
 users: 5000
 appId: com.breez.client
 launchDate: 
-latestUpdate: 2021-01-19
+latestUpdate: 2021-02-07
 apkVersionName: "Varies with device"
 stars: 
 ratings: 

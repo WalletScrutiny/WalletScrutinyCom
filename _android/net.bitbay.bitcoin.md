@@ -7,9 +7,9 @@ appId: net.bitbay.bitcoin
 launchDate: 
 latestUpdate: 2020-11-05
 apkVersionName: "1.1.15"
-stars: 3.5
-ratings: 708
-reviews: 367
+stars: 3.4
+ratings: 711
+reviews: 369
 size: 16M
 website: https://bitbay.net
 repository: 
