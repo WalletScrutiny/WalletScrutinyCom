@@ -8,8 +8,8 @@ launchDate: 2018-04-01
 latestUpdate: 2021-01-29
 apkVersionName: "4.6.2"
 stars: 4.6
-ratings: 4938
-reviews: 2473
+ratings: 4960
+reviews: 2481
 size: 11M
 website: http://totalcoin.io
 repository: 

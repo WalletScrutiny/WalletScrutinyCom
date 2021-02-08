@@ -8,8 +8,8 @@ launchDate: 2018-12-18
 latestUpdate: 2021-01-11
 apkVersionName: "0.18.2"
 stars: 4.3
-ratings: 312
-reviews: 271
+ratings: 314
+reviews: 273
 size: 42M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android

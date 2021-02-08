@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2020-06-02
 apkVersionName: "1.9.10"
 stars: 2.7
-ratings: 307
-reviews: 208
+ratings: 310
+reviews: 210
 size: 12M
 website: https://www.buda.com
 repository: 

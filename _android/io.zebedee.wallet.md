@@ -2,14 +2,14 @@
 title: "ZEBEDEE Wallet"
 altTitle: 
 
-users: 500
+users: 1000
 appId: io.zebedee.wallet
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "11.0.0"
-stars: 5.0
-ratings: 8
-reviews: 5
+stars: 4.9
+ratings: 9
+reviews: 6
 size: 59M
 website: 
 repository: 

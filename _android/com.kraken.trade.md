@@ -2,14 +2,14 @@
 title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
 altTitle: 
 
-users: 100000
+users: 500000
 appId: com.kraken.trade
 launchDate: 
 latestUpdate: 2021-02-02
 apkVersionName: "1.5.11-5438"
-stars: 4.3
-ratings: 9596
-reviews: 3444
+stars: 4.4
+ratings: 9834
+reviews: 3504
 size: 45M
 website: https://www.kraken.com
 repository: 
