@@ -8,7 +8,7 @@ launchDate: 2017-06-19
 latestUpdate: 2021-01-13
 apkVersionName: "6.9.10"
 stars: 4.4
-ratings: 18093
+ratings: 18096
 reviews: 6715
 size: 47M
 website: https://www.bitcoin.com
