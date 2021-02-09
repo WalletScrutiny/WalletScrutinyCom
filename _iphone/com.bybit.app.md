@@ -31,7 +31,6 @@ redirect_from:
 
 ---
 
-
 > "Bybit is the World's fastest-growing and one of the largest crypto
   derivatives exchanges to trade Bitcoin and crypto.
 

@@ -7,8 +7,8 @@ idd: 1162855939
 released: 2019-02-07
 updated: 2021-01-21
 version: "2.2.1"
-score: 4.2
-reviews: 30
+score: 4.19355
+reviews: 31
 size: 133352448
 developerWebsite: https://www.coinpayments.net/
 repository: 

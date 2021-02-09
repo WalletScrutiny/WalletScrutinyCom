@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-28
 apkVersionName: "5.10.3"
 stars: 4.6
-ratings: 1196
-reviews: 733
+ratings: 1199
+reviews: 734
 size: 32M
 website: http://www.swft.pro
 repository: 

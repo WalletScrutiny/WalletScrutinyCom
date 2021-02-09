@@ -8,7 +8,7 @@ released: 2017-12-08
 updated: 2021-02-06
 version: "3.9.4"
 score: 4.85494
-reviews: 2735
+reviews: 2737
 size: 73356288
 developerWebsite: https://lumiwallet.com/
 repository: 

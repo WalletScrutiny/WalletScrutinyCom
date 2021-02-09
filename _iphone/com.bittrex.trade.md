@@ -7,8 +7,8 @@ idd: 1465314783
 released: 2019-12-19
 updated: 2021-02-02
 version: "1.13.1"
-score: 2.5849
-reviews: 159
+score: 2.55555
+reviews: 162
 size: 62560256
 developerWebsite: https://global.bittrex.com
 repository: 
@@ -30,7 +30,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is an interface to a trading platform:
 

@@ -31,7 +31,6 @@ redirect_from:
 
 ---
 
-
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin
   securely.
 
