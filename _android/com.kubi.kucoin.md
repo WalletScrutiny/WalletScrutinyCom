@@ -1,0 +1,40 @@
+---
+title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
+altTitle: 
+
+users: 100000
+appId: com.kubi.kucoin
+launchDate: 
+latestUpdate: 2021-02-07
+apkVersionName: "3.27.0"
+stars: 3.2
+ratings: 3477
+reviews: 1906
+size: 45M
+website: 
+repository: 
+issue: 
+icon: com.kubi.kucoin.png
+bugbounty: 
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-02-09
+reviewStale: false
+signer: 
+reviewArchive:
+
+
+providerTwitter: KuCoinCom
+providerLinkedIn: company/kucoin
+providerFacebook: KuCoinOfficial
+providerReddit: kucoin
+
+redirect_from:
+
+---
+
+
+> KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin
+  securely.
+
+This app is the interface to an exchange. Exchanges are all custodial which
+makes the app **not verifiable**.
