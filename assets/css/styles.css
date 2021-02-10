@@ -633,6 +633,10 @@ h2.section-label {
   color: var(--accent-text, #61c861);
 }
 
+.cta-button:hover {
+  background: var(--white);
+}
+
 .cta-button.primary:hover {
   background: var(--accent-text);
   color: var(--white);
@@ -1298,7 +1302,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items:baseline;
 }
 
 .app-payload-flex>div {

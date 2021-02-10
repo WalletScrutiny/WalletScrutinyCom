@@ -146,8 +146,9 @@ function showInitialSuggestion() {
       [a[i], a[j]] = [a[j], a[i]];
     }
     for (i = 0; i < k_.length; i++) {
-      var k = window.wallets[k_[i]];
-      reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/android/small/${k.icon}' class='results-list-wallet-icon' />
+      var k = window.wallets[k_[i]],
+        p = k.idd ? 'iphone' : 'android';
+      reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/${p}/small/${k.icon}' class='results-list-wallet-icon' />
       <span>
       <span class="badge ${k.verdict}">${k.verdict}</span>
       <i class="fab fa-${(k.idd) ? `app-store` : `google-play`}"></i>
