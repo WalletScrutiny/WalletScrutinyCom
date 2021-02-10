@@ -7,8 +7,8 @@ idd: 1179360399
 released: 2017-08-07
 updated: 2020-11-12
 version: "0.8.848"
-score: 4.35714
-reviews: 28
+score: 4.24138
+reviews: 29
 size: 91131904
 developerWebsite: https://qcan.com
 repository: 

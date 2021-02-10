@@ -5,11 +5,11 @@ altTitle:
 appId: org.toshi.distribution
 idd: 1278383455
 released: 2017-09-27
-updated: 2020-12-18
-version: "23.2"
-score: 4.7064
-reviews: 15160
-size: 99290112
+updated: 2021-02-01
+version: "23.4"
+score: 4.68979
+reviews: 17569
+size: 136258560
 developerWebsite: https://wallet.coinbase.com
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: org.toshi.distribution.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

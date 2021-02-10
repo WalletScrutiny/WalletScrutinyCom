@@ -2,14 +2,14 @@
 title: "Quppy Wallet - bitcoin, crypto and euro payments"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.quppy
 launchDate: 
-latestUpdate: 2020-12-22
-apkVersionName: "1.0.41"
+latestUpdate: 2021-01-22
+apkVersionName: "1.0.44"
 stars: 4.2
-ratings: 1970
-reviews: 947
+ratings: 1978
+reviews: 954
 size: 15M
 website: https://quppy.com
 repository: 

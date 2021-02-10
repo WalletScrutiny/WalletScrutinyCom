@@ -5,12 +5,12 @@ altTitle:
 appId: com.coinspace.wallet
 idd: 980719434
 released: 2015-12-14
-updated: 2020-12-23
-version: "3.0.5"
-score: 4.49333
-reviews: 75
-size: 29162496
-developerWebsite: https://coin.space
+updated: 2021-02-04
+version: "3.0.7"
+score: 4.48913
+reviews: 92
+size: 29129728
+developerWebsite: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
 issue: 
 icon: com.coinspace.wallet.jpg

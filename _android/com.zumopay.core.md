@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.zumopay.core
 launchDate: 
-latestUpdate: 2020-12-17
-apkVersionName: "2.13.0"
-stars: 3.8
-ratings: 83
-reviews: 64
-size: 64M
+latestUpdate: 2021-01-27
+apkVersionName: "2.15.0"
+stars: 3.6
+ratings: 128
+reviews: 80
+size: 85M
 website: https://zumo.money
 repository: 
 issue: 

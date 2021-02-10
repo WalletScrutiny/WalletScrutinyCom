@@ -5,11 +5,11 @@ altTitle:
 appId: com.btckorea.bithumb
 idd: 1299421592
 released: 2017-12-05
-updated: 2020-11-18
-version: "1.4.5"
-score: 2.5
-reviews: 12
-size: 14885888
+updated: 2021-01-29
+version: "1.4.6"
+score: 2.38462
+reviews: 13
+size: 14799872
 developerWebsite: https://en.bithumb.com
 repository: 
 issue: 

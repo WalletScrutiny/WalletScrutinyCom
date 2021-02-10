@@ -1,20 +1,20 @@
 ---
-title: "Lumi Crypto and Bitcoin Wallet"
+title: "Bitcoin Wallet by Lumi Wallet"
 altTitle: 
 
 users: 100000
 appId: com.lumiwallet.android
 launchDate: 2018-01-15
-latestUpdate: 2020-12-21
-apkVersionName: "3.2.5"
-stars: 4.7
-ratings: 3422
-reviews: 807
-size: 7.7M
+latestUpdate: 2021-02-05
+apkVersionName: "3.3"
+stars: 4.5
+ratings: 3524
+reviews: 864
+size: 11M
 website: https://lumiwallet.com
 repository: 
 issue: 
-icon: com.lumiwallet.android.jpg
+icon: com.lumiwallet.android.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-15

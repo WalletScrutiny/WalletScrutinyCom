@@ -5,12 +5,12 @@ altTitle:
 users: 50000
 appId: com.currency.exchange.prod2
 launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "1.0.381"
-stars: 4.0
-ratings: 1569
-reviews: 552
-size: 17M
+latestUpdate: 2021-02-08
+apkVersionName: "1.9.9"
+stars: 4.2
+ratings: 1772
+reviews: 635
+size: Varies with device
 website: https://currency.com
 repository: 
 issue: 

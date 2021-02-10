@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.okinc.okex.gp
 launchDate: 
-latestUpdate: 2020-12-02
-apkVersionName: "4.4.8"
+latestUpdate: 2021-02-09
+apkVersionName: "4.6.6"
 stars: 4.8
-ratings: 33548
-reviews: 23775
-size: 109M
+ratings: 40535
+reviews: 25301
+size: 126M
 website: https://www.okex.com
 repository: 
 issue: 

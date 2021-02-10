@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.newgo.coincola
 launchDate: 
-latestUpdate: 2020-12-31
-apkVersionName: "4.7.0"
+latestUpdate: 2021-02-08
+apkVersionName: "4.7.1"
 stars: 3.2
-ratings: 553
-reviews: 253
+ratings: 560
+reviews: 256
 size: 31M
 website: https://www.coincola.com
 repository: 

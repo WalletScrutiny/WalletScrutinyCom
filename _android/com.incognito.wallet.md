@@ -5,12 +5,12 @@ altTitle:
 users: 10000
 appId: com.incognito.wallet
 launchDate: 
-latestUpdate: 2020-12-28
-apkVersionName: "3.11.0"
-stars: 4.1
-ratings: 190
-reviews: 110
-size: 44M
+latestUpdate: 2021-01-29
+apkVersionName: "4.1.0"
+stars: 3.8
+ratings: 216
+reviews: 126
+size: 45M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422

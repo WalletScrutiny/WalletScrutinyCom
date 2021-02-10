@@ -77,7 +77,7 @@ fs.readdir(iPhoneFolder, function (err, files) {
           });
         });
       }, function(err){
-        console.error(`Error with ${appId} https://apps.apple.com/us/app/id${idd} : ${err}`)
+        console.error(`\nError with ${appId} https://apps.apple.com/us/app/id${idd} : ${err}`)
       });
     }
   })
@@ -97,7 +97,8 @@ function writeResult(app, header, iconExtension, body) {
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  console.log(`Writing results to ${p}`)
+  //console.log(`Writing results to ${p}`)
+  process.stdout.write("🍎")
   f.write(`---
 title: "${app.title}"
 altTitle: ${altTitle}

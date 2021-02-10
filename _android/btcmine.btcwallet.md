@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2017-08-13
 apkVersionName: "1.1"
 stars: 3.6
-ratings: 10
-reviews: 6
+ratings: 13
+reviews: 7
 size: 2.3M
 website: 
 repository: 

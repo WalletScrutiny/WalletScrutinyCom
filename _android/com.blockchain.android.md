@@ -7,20 +7,25 @@ appId: com.blockchain.android
 launchDate: 2020-06-15
 latestUpdate: 2021-01-04
 apkVersionName: "1.0.7.5"
-stars: 4.3
-ratings: 2652
-reviews: 521
+stars: 4.4
+ratings: 2737
+reviews: 532
 size: 21M
 website: 
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.android.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-15
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2020-11-28
+  version: "1.0.7.5"
+  apkHash: 
+  gitRevision: deed03beb86d7c7aa7d4078d9c13d1501ce35bd6
+  verdict: obfuscated
 
 
 providerTwitter: 
@@ -29,9 +34,11 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /com.blockchain.android/
 ---
 
+
+**Update:** This wallet is no more but never looked too likely to stay around
+for long:
 
 This app looks shady and might try to imitate
 [this popular wallet](/piuk.blockchain.android/).

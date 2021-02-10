@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: co.nayuta.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-29
 reviewStale: false
 signer: 
@@ -29,8 +29,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /co.nayuta.wallet/
-  - /posts/co.nayuta.wallet/
 ---
 
 
+This app disappeared from Google Play before we got to have a look at it. With
+500 downloads it was not due yet.

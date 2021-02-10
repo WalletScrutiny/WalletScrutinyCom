@@ -5,11 +5,11 @@ altTitle:
 appId: io.eidoo.wallet.prodnet
 idd: 1279896253
 released: 2017-09-23
-updated: 2020-12-21
-version: "2.15.0"
-score: 3.89706
-reviews: 68
-size: 36187136
+updated: 2021-02-03
+version: "2.15.3"
+score: 3.91304
+reviews: 69
+size: 37594112
 developerWebsite: https://eidoo.io
 repository: 
 issue: 

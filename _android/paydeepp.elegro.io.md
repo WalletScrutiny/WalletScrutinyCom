@@ -5,12 +5,12 @@ altTitle:
 users: 1000
 appId: paydeepp.elegro.io
 launchDate: 
-latestUpdate: 2020-12-03
-apkVersionName: "5.0.4"
+latestUpdate: 2021-02-01
+apkVersionName: "5.0.6"
 stars: 4.2
 ratings: 20
 reviews: 8
-size: 8.3M
+size: 11M
 website: https://elegro.eu
 repository: 
 issue: 
@@ -18,7 +18,7 @@ icon: paydeepp.elegro.io.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

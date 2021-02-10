@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: io.changenow.changenow
 launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "1.99"
-stars: 4.5
-ratings: 471
-reviews: 263
+latestUpdate: 2021-02-08
+apkVersionName: "1.102"
+stars: 4.1
+ratings: 551
+reviews: 301
 size: 5.7M
 website: http://changenow.io
 repository: 

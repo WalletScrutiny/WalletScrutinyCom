@@ -1,15 +1,15 @@
 ---
-title: "Klever: Bitcoin Blockchain Wallet"
+title: "Klever Wallet: Buy Bitcoin, Ethereum, Tron, Crypto"
 altTitle: 
 
 users: 100000
 appId: cash.klever.blockchain.wallet
 launchDate: 
-latestUpdate: 2020-12-19
-apkVersionName: "4.1.1"
-stars: 4.3
-ratings: 3519
-reviews: 1898
+latestUpdate: 2021-01-26
+apkVersionName: "4.1.3"
+stars: 4.2
+ratings: 4717
+reviews: 2595
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

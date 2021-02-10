@@ -5,11 +5,11 @@ altTitle:
 appId: net.coinpayments.coinpaymentsapp
 idd: 1162855939
 released: 2019-02-07
-updated: 2020-07-27
-version: "2.2.0"
-score: 4.4074
-reviews: 27
-size: 134762496
+updated: 2021-01-21
+version: "2.2.1"
+score: 4.19355
+reviews: 31
+size: 133352448
 developerWebsite: https://www.coinpayments.net/
 repository: 
 issue: 

@@ -5,10 +5,10 @@ altTitle:
 users: 500
 appId: com.monederoapp
 launchDate: 
-latestUpdate: 2020-09-29
-apkVersionName: "1.6.1"
-stars: 3.7
-ratings: 6
+latestUpdate: 2021-02-05
+apkVersionName: "2.1.0"
+stars: 4.0
+ratings: 9
 reviews: 4
 size: 12M
 website: 

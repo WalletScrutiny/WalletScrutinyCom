@@ -5,11 +5,11 @@ altTitle:
 appId: com.bitmart.exchange
 idd: 1396382871
 released: 2018-08-02
-updated: 2021-01-08
-version: "2.4.3"
-score: 3.88095
-reviews: 42
-size: 183453696
+updated: 2021-02-05
+version: "2.4.5"
+score: 3.57447
+reviews: 47
+size: 176228352
 developerWebsite: https://www.bitmart.com/
 repository: 
 issue: 

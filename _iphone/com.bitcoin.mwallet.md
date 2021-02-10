@@ -7,10 +7,10 @@ idd: 1252903728
 released: 2017-07-11
 updated: 2020-12-15
 version: "6.10.4"
-score: 4.09522
-reviews: 2825
+score: 4.21056
+reviews: 3657
 size: 94086144
-developerWebsite: 
+developerWebsite: https://www.bitcoin.com
 repository: 
 issue: 
 icon: com.bitcoin.mwallet.jpg

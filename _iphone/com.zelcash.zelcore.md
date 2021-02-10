@@ -5,11 +5,11 @@ altTitle:
 appId: com.zelcash.zelcore
 idd: 1436296839
 released: 2018-09-23
-updated: 2020-12-31
-version: "v4.2.0"
+updated: 2021-01-29
+version: "v4.4.0"
 score: 4.5625
 reviews: 48
-size: 73672704
+size: 62200832
 developerWebsite: https://zel.network/zelcore
 repository: 
 issue: 

@@ -5,11 +5,11 @@ altTitle:
 appId: com.coincola.beta
 idd: 1234231551
 released: 2017-06-06
-updated: 2020-12-16
-version: "4.6.1"
-score: 4.66912
-reviews: 272
-size: 165395456
+updated: 2021-01-20
+version: "4.7.0"
+score: 4.64234
+reviews: 274
+size: 148663296
 developerWebsite: https://www.coincola.com
 repository: 
 issue: 

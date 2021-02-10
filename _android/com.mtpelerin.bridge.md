@@ -5,11 +5,11 @@ altTitle:
 users: 1000
 appId: com.mtpelerin.bridge
 launchDate: 
-latestUpdate: 2020-09-21
-apkVersionName: "1.9"
+latestUpdate: 2021-01-27
+apkVersionName: "1.11"
 stars: 4.8
-ratings: 33
-reviews: 18
+ratings: 36
+reviews: 20
 size: 76M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
@@ -18,7 +18,7 @@ icon: com.mtpelerin.bridge.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-27
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

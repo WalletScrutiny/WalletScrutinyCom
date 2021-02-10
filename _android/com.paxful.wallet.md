@@ -2,15 +2,15 @@
 title: "Paxful Bitcoin Wallet"
 altTitle: 
 
-users: 500000
+users: 1000000
 appId: com.paxful.wallet
 launchDate: 2019-04-30
-latestUpdate: 2021-01-05
-apkVersionName: "1.7.0.528"
-stars: 3.8
-ratings: 12656
-reviews: 7715
-size: 29M
+latestUpdate: 2021-01-29
+apkVersionName: "1.7.1.534"
+stars: 3.6
+ratings: 13716
+reviews: 8285
+size: 28M
 website: https://paxful.com/mobile-wallet-app
 repository: 
 issue: 

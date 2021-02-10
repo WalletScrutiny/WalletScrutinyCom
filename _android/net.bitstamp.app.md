@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: net.bitstamp.app
 launchDate: 
-latestUpdate: 2020-12-30
-apkVersionName: "1.6.2"
-stars: 4.6
-ratings: 7857
-reviews: 2165
-size: 12M
+latestUpdate: 2021-01-11
+apkVersionName: "1.6.3"
+stars: 4.4
+ratings: 8605
+reviews: 2370
+size: 13M
 website: https://www.bitstamp.net
 repository: 
 issue: 
@@ -29,8 +29,7 @@ providerFacebook: Bitstamp
 providerReddit: 
 
 redirect_from:
-  - /net.bitstamp.app/
-  - /posts/net.bitstamp.app/
+
 ---
 
 

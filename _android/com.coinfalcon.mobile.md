@@ -5,8 +5,8 @@ altTitle:
 users: 10000
 appId: com.coinfalcon.mobile
 launchDate: 
-latestUpdate: 2020-12-11
-apkVersionName: "2.1.11"
+latestUpdate: 2021-02-08
+apkVersionName: "2.1.13"
 stars: 3.4
 ratings: 78
 reviews: 52

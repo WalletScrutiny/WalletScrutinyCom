@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2020-09-27
 apkVersionName: "1.3.7"
 stars: 3.7
-ratings: 391
+ratings: 394
 reviews: 173
 size: 95M
 website: https://gethaven.app
@@ -16,13 +16,18 @@ repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-27
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-23
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2020-08-27
+  version: "1.3.7"
+  apkHash: 
+  gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
+  verdict: nonverifiable
 - date: 2020-08-04
-  version: "null"
+  version: ""
   apkHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource

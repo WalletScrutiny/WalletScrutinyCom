@@ -5,11 +5,11 @@ altTitle:
 appId: com.investvoyager.voyager-ios
 idd: 1396178579
 released: 2019-02-13
-updated: 2020-12-31
-version: "2.9.8"
-score: 4.78598
-reviews: 5864
-size: 58777600
+updated: 2021-01-30
+version: "2.9.10"
+score: 4.69651
+reviews: 12024
+size: 58822656
 developerWebsite: https://www.investvoyager.com/
 repository: 
 issue: 
@@ -17,7 +17,7 @@ icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

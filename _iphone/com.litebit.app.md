@@ -5,11 +5,11 @@ altTitle:
 appId: com.litebit.app
 idd: 1448841440
 released: 2019-08-20
-updated: 2020-12-29
-version: "2.13.0"
-score: 4
-reviews: 4
-size: 125878272
+updated: 2021-02-03
+version: "2.15.2"
+score: 4.2
+reviews: 5
+size: 126650368
 developerWebsite: https://www.litebit.eu/en/
 repository: 
 issue: 

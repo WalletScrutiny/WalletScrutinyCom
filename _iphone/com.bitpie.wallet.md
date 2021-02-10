@@ -5,11 +5,11 @@ altTitle:
 appId: com.bitpie.wallet
 idd: 1481314229
 released: 2019-10-01
-updated: 2020-12-31
-version: "5.0.008"
-score: 3.5625
-reviews: 16
-size: 286953472
+updated: 2021-02-08
+version: "5.0.014"
+score: 3.47059
+reviews: 17
+size: 275794944
 developerWebsite: 
 repository: 
 issue: 

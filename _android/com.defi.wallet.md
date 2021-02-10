@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.defi.wallet
 launchDate: 2020-05-11
-latestUpdate: 2020-12-21
-apkVersionName: "1.5.1"
-stars: 4.0
-ratings: 904
-reviews: 352
+latestUpdate: 2021-01-27
+apkVersionName: "1.6.0"
+stars: 3.5
+ratings: 1124
+reviews: 447
 size: 23M
 website: https://crypto.com/en/defi/
 repository: 
@@ -18,7 +18,7 @@ icon: com.defi.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -5,11 +5,11 @@ altTitle:
 appId: com.trusteewallet
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-01-07
-version: "1.40.728"
-score: 5
-reviews: 3
-size: 66892800
+updated: 2021-02-05
+version: "1.40.753"
+score: 4.33333
+reviews: 6
+size: 65217536
 developerWebsite: https://trustee.deals/
 repository: 
 issue: 
@@ -30,6 +30,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update:** This wallet
+[has its issues](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/3514) you
+might want to take into consideration, too.
 
 On the App Store the provider claims:
 

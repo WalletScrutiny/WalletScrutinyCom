@@ -2,15 +2,15 @@
 title: "Coinbase Pro – Bitcoin & Crypto Trading"
 altTitle: 
 
-users: 100000
+users: 500000
 appId: com.coinbase.pro
 launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "1.0.55"
-stars: 1.6
-ratings: 2518
-reviews: 1763
-size: 32M
+latestUpdate: 2021-02-02
+apkVersionName: "1.0.62"
+stars: 4.2
+ratings: 3779
+reviews: 2227
+size: 35M
 website: https://pro.coinbase.com
 repository: 
 issue: 

@@ -16,11 +16,16 @@ repository:
 issue: 
 icon: com.uwalletapp.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-23
 reviewStale: false
 signer: 
 reviewArchive:
+- date: 2020-12-14
+  version: "1.4.2"
+  apkHash: 
+  gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
+  verdict: custodial
 
 
 providerTwitter: utrust
@@ -32,6 +37,8 @@ redirect_from:
   - /com.uwalletapp/
 ---
 
+
+**Update:** This app is not available on Google Play anymore
 
 > The Utrust Wallet processes transactions instantly within our platform, which
   allows us to cut on blockchain validation waiting times.

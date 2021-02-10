@@ -15,14 +15,14 @@ repository:
 issue: 
 icon: com.anbi.safepal.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-15
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: iSafePal
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -31,3 +31,8 @@ redirect_from:
 
 ---
 
+This app appears to have disappeared from the App Store but
+* we reviewed the [Android version](/android/io.safepal.wallet)
+* their website links to
+  [a different wallet on the App Store](/iphone/walletapp.safepal.io), so they
+  probably had to switch for some technical reasons. If you know, let us know.

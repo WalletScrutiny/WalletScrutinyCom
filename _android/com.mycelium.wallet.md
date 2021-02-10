@@ -7,20 +7,25 @@ appId: com.mycelium.wallet
 launchDate: 2013-07-01
 latestUpdate: 2020-12-30
 apkVersionName: "3.8.6.1"
-stars: 3.9
-ratings: 9400
-reviews: 4345
+stars: 3.8
+ratings: 9520
+reviews: 4412
 size: 24M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
 issue: 
 icon: com.mycelium.wallet.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
-reviewStale: true
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-20
+reviewStale: false
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2020-11-17
+  version: "3.7.0.1"
+  apkHash: f504ec63d60584a7d850dfe79ce586fd97a72a5c844967d83c642fb9e1bf0c0c
+  gitRevision: 270462bfed32768ce4dcce4dd23d93e8588caf0f
+  verdict: reproducible
 - date: 2020-07-13
   version: "3.5.3.0"
   apkHash: 847f61d6d6f24a459cba720adf0d9e1fd052431a2b49565ca424c13860a29f59
@@ -116,27 +121,51 @@ confirmed Mycelium's verifiability
 [here](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566466894)
 for a past version. Independent tests would be highly welcome!
 
-Here we test if the latest version also can be verified, following the known
+Here we test if the latest version also can be reproduced, following the known
 procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
 
 As the [reproducibility issue](https://github.com/docker/for-linux/issues/1018)
-was not resolved yet, so the following results were obtained on a
+was not resolved yet, the following results were obtained on a
 [DigitalOcean](https://m.do.co/c/a0f4504a8b58) server:
 
 ```
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.7.0.1
-apkVersionCode: 3070001
-apkHash:        f504ec63d60584a7d850dfe79ce586fd97a72a5c844967d83c642fb9e1bf0c0c
+apkVersionName: 3.8.6.1
+apkVersionCode: 3080601
+apkHash:        7184f13e4f45df3dadf4f3bd6c3a1f9cde0375dbd81f784535b4884f55101048
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3070001/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3070001/apktool.yml differ
-Files /tmp/fromPlay_com.mycelium.wallet_3070001/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3070001/original/META-INF/CERT.RSA differ
-
-Revision, tag (and its signature):
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/arm64-v8a/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/arm64-v8a/libabieos-lib.so differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/armeabi-v7a/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/armeabi-v7a/libabieos-lib.so differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/x86/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/x86/libabieos-lib.so differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/x86_64/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/x86_64/libabieos-lib.so differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/CERT.SF differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/MANIFEST.MF differ
 ```
 
-This diff is what we want to see to call it **reproducible**.
+This diff unfortunately contains those four `libabieos-lib.so` which makes the
+app **not verifiable**.
+
+Leo Wandersleb:
+> As I'm both the author of this analysis and the release manager
+  of the app discussed, I'm in a clear conflict of interest and feel the need to
+  explain some more. Obviously reproducing a build on the machine of the original
+  release manager is not proving anything if it succeeds and with virtualization
+  I failed to run successfully the WalletScrutiny
+  [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
+  [since some time now](https://github.com/docker/for-linux/issues/1018), so a
+  colleague checking the reproducibility was the better assurance that everything
+  is ok than me checking on a rented server but all those are kind of bad options
+  until a neutral tester does the testing which in a year nobody volunteered to
+  do.
+> 
+  In the opposite case of reproduction failing though, the app should get at
+  least a third opinion before getting back its verdict "reproducible".
+> 
+  At Mycelium we will investigate the matter and hope to both be back
+  reproducible soon and find a neutral person willing to look through a few
+  lines of test setup to then attest the reproducibility again.

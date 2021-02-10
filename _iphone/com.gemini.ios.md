@@ -5,11 +5,11 @@ altTitle:
 appId: com.gemini.ios
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-01-07
-version: "2.30.2"
-score: 4.6809
-reviews: 10091
-size: 174768128
+updated: 2021-02-06
+version: "3.2.1"
+score: 4.67587
+reviews: 11958
+size: 107013120
 developerWebsite: http://gemini.com
 repository: 
 issue: 

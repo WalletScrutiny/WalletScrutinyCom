@@ -1,15 +1,15 @@
 ---
-title: "DigiFinex - Bitcoin Exchange"
+title: "DigiFinex"
 altTitle: 
 
 appId: com.digifinex.app
 idd: 1397735851
 released: 2018-08-25
-updated: 2021-01-06
-version: "2021.01.06"
-score: 4.40625
-reviews: 32
-size: 339225600
+updated: 2021-02-08
+version: "2021.02.08"
+score: 4.42424
+reviews: 33
+size: 368902144
 developerWebsite: 
 repository: 
 issue: 

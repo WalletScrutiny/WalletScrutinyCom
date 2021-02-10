@@ -5,11 +5,11 @@ altTitle:
 appId: com.squareup.cash
 idd: 711923939
 released: 2013-10-16
-updated: 2021-01-08
-version: "3.30"
-score: 4.64595
-reviews: 751928
-size: 195400704
+updated: 2021-02-03
+version: "3.32.2"
+score: 4.72213
+reviews: 1260764
+size: 207197184
 developerWebsite: https://cash.app
 repository: 
 issue: 

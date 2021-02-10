@@ -10,7 +10,7 @@ test() {
 
   git clone https://github.com/mycelium-com/wallet-android-modularization-tools
   git submodule update --init --recursive
-  docker build -t mycelium_builder .
+  docker build --tag mycelium_builder .
   
   # build
   sudo rm -rf $workDir/sorted

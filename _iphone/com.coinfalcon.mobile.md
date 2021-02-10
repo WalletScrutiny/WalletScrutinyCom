@@ -5,11 +5,11 @@ altTitle:
 appId: com.coinfalcon.mobile
 idd: 1396963260
 released: 2018-10-05
-updated: 2020-12-12
-version: "2.1.12"
-score: 4
-reviews: 8
-size: 52435968
+updated: 2021-02-09
+version: "2.1.13"
+score: 3.66667
+reviews: 9
+size: 52423680
 developerWebsite: 
 repository: 
 issue: 

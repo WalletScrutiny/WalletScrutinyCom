@@ -15,8 +15,8 @@ repository: https://github.com/OpenBazaar/haven
 issue: 
 icon: io.ob1.native-ios.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-01-15
 reviewStale: false
 signer: 
 reviewArchive:
@@ -30,6 +30,8 @@ providerReddit: havenapp
 redirect_from:
 
 ---
+
+**Update:** As of now, this app is not to be found on the App Store.
 
 This provider had tweeted us a link to their source code after reviewing the
 android version but in the App Store description or their website there is still
