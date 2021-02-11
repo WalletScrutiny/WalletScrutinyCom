@@ -57,6 +57,7 @@
       {% if post.updated %}<tr><td>Updated</td><td>{{ post.updated | date: '%Y-%m-%d' }}</td></tr>{% endif %}
       {% if post.date %}<tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>{% endif %}
       {% if platform == "android" %}<tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>
+      {% elsif platform == "fdroid" %}<tr><td>F-Droid</td><td><a href="https://f-droid.org/en/packages/{{ post.appId }}/">{{ post.appId }}</a></td></tr>
       {% elsif platform == "iphone" %}<tr><td>App Store</td><td><a href="https://apps.apple.com/us/app/id{{ post.idd }}">{{ post.appId }}</a></td></tr>
       {% endif %}
       {% if post.website %}<tr><td>Website</td><td><a href="{{ post.website }}">{{ post.website }}</a></td></tr>{% endif %}

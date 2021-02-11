@@ -180,6 +180,9 @@ collections:
   android:
     output: true
     permalink: /:collection/:path/
+  fdroid:
+    output: true
+    permalink: /:collection/:path/
   iphone:
     output: true
     permalink: /:collection/:path/
@@ -195,6 +198,17 @@ defaults:
       type: "android"
     values:
       layout: reviewAndroid
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # fdroid
+  - scope:
+      path: ""
+      type: "fdroid"
+    values:
+      layout: reviewFDroid
       author_profile: true
       read_time: false
       comments: false

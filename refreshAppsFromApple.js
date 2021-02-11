@@ -33,15 +33,6 @@ fs.readdir(iPhoneFolder, function (err, files) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    const correctFile = `${appId}.md`
-    if(file != correctFile) {
-      const correctFilePath = path.join(iPhoneFolder, correctFile)
-      fs.rename(appPath, correctFilePath, function (error) {
-        if (error) {
-          console.error("File moving error.", error)
-        }
-      })
-    }
     if (!"defunct,nowallet,nobtc".includes(header.verdict)) {
       apple.app({
           id: idd,
@@ -50,7 +41,7 @@ fs.readdir(iPhoneFolder, function (err, files) {
           throttle: 5}).then(function(app){
         const iconPath = `images/wallet_icons/iphone/${appId}`
         const iconFile = fs.createWriteStream(iconPath)
-        const request = https.get(`${app.icon}`, function(response) {
+        https.get(`${app.icon}`, function(response) {
           response.pipe(iconFile)
           response.on('end', function() {
             const child = exec(`file --mime-type ${iconPath}`, function (err, stdout, stderr) {

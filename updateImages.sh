@@ -29,5 +29,8 @@ parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_i
 files=$( ls images/wallet_icons/iphone/*.* )
 parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/small 100 ::: $files
 parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 ::: $files
+files=$( ls images/wallet_icons/fdroid/*.* )
+parallel resizeDeterministically {/} images/wallet_icons/fdroid images/wallet_icons/fdroid/small 100 ::: $files
+parallel resizeDeterministically {/} images/wallet_icons/fdroid images/wallet_icons/fdroid/tiny 25 ::: $files
 
 git checkout HEAD $( cat /tmp/revert.txt | paste -sd ' ' )

@@ -3,6 +3,8 @@
 
 {% if platform == "android" %}
   {% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
+{% elsif platform == "fdroid" %}
+  {% assign posts_by_ratings = site.fdroid %}
 {% elsif platform == "iphone" %}
   {% assign posts_by_ratings = site.iphone | sort: "reviews" | reverse %}
 {% endif %}

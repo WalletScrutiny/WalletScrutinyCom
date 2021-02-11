@@ -3,6 +3,10 @@
 
 {% if page.idd %}
   {% assign prefix = "iphone/" %}
+{% else-if page.users %}
+  {% assign prefix = "" %}
+{% else %}
+  {% assign prefix = "fdroid/" %}
 {% endif %}
 <section class="page__share">
     <h4 class="page__share-title">Or embed a widget in your website</h4>

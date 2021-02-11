@@ -26,6 +26,26 @@
       "url": "{{ post.url }}"
     },
   {% endfor %}
+  {% for post in site.fdroid %}
+    "fdroid/{{ post.appId }}": {
+      "appId": "{{ post.appId }}",
+      "title": "{{ post.title }}",
+      "latestUpdate": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
+      "apkVersionName": "{{ post.versionName }}",
+      "website": "{{ post.website }}",
+      "repository": "{{ post.repository }}",
+      "issue": "{{ post.issue }}",
+      "icon": "{{ post.icon }}",
+      "verdict": "{{ post.verdict }}",
+      "date": "{{ post.date | date: '%Y-%m-%d' }}",
+      "signer": "{{ post.signer }}",
+      "providerTwitter": "{{ post.providerTwitter }}",
+      "providerLinkedIn": "{{ post.providerLinkedIn }}",
+      "providerFacebook": "{{ post.providerFacebook }}",
+      "providerReddit": "{{ post.providerReddit }}",
+      "url": "{{ post.url }}"
+    },
+  {% endfor %}
   {% for post in site.android %}
     "{{ post.appId }}": {
       "appId": "{{ post.appId }}",

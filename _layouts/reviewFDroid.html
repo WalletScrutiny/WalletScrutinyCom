@@ -37,10 +37,8 @@ layout: default
         {% endunless %}
       {% endif %}
 
-
-
       <div class="app-summary-grid">
-        <img src="{{ base_path }}/images/wallet_icons/android/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+        <img src="{{ base_path }}/images/wallet_icons/fdroid/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
         {% if page.title %}
 
         <div class="app-sum-head">
@@ -142,10 +140,6 @@ layout: default
           </div>
           {% endif %}
 
-
-
-
-
           <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.apkVersionName }})">
 
             <label>
@@ -192,16 +186,12 @@ layout: default
         </div>
       </div>
 
-
-
       {% include base_path %}
       {% if page.altTitle %}
         {% assign title = page.altTitle %}
       {% else %}
         {% assign title = page.title %}
       {% endif %}
-
-
 
       {% if page.modified %}
       <p class="page__date"><small><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
@@ -223,7 +213,6 @@ layout: default
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
 
-
       <p>Our last analysis is based on data found in their
         <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
           Play description</a>
@@ -233,7 +222,6 @@ layout: default
         <a href="{{ page.issue }}">here</a>.{% endif %} <br>
         <a href="#verdictExplained">details below&nbsp;<i class="fas fa-arrow-down"></i></a>
       </p>
-
 
       {% if page.reviewArchive %}
       <div id="reviews" style="display:none">
@@ -256,10 +244,9 @@ layout: default
             <td>{{ review.date | date_to_long_string: "ordinal" }}</td>
             <td>{{ review.version }}</td>
             <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
-            <td><a
-                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">[1]</a>
+            <td>
               <a
-                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_android/{{ page.appId }}.md">[2]</a>
+                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_fdroid/{{ page.appId }}.md">[2]</a>
             </td>
           </tr>
           {% endfor %}

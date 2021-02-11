@@ -71,7 +71,18 @@ function searchCatalogue(termInput) {
         const walletRow = document.createElement("li")
         walletRow.style['animation-delay'] = matchCounter * .1 + 's'
         walletRow.classList.add("actionable")
-        const platform = (wallet.idd) ? `iphone` : `android`
+        var platform
+        var faClass
+        if (wallet.idd) {
+          platform = 'iphone'
+          faClass = 'app-store'
+        } else if (wallet.users) {
+          platform = 'android'
+          faClass = 'google-play'
+        } else {
+          platform = 'fdroid'
+          faClass = 'square' // TODO: get the actual FDroid icon to show here
+        }
         const analysisUrl = `${basePath}${wallet.url}`
         walletRow.innerHTML = `<a 
             onclick="window.location.href = '${analysisUrl}';"
@@ -80,7 +91,7 @@ function searchCatalogue(termInput) {
               src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
               class='results-list-wallet-icon'
             /><i
-                class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
+                class="fab fa-${faClass}"
                 style="margin: 0 0.4em 0 auto"></i> ${wallet.title}</a>`
         result.append(walletRow)
         matchCounter++
