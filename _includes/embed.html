@@ -1,13 +1,14 @@
 {% include base_path %}
 
 
-{% if page.idd %}
+{% case page.collection %}
+{% when "iphone" %}
   {% assign prefix = "iphone/" %}
-{% else-if page.users %}
+{% when "android" %}
   {% assign prefix = "" %}
-{% else %}
+{% when "fdroid" %}
   {% assign prefix = "fdroid/" %}
-{% endif %}
+{% endcase %}
 <section class="page__share">
     <h4 class="page__share-title">Or embed a widget in your website</h4>
     <div class="code-block-holder">
