@@ -2,14 +2,14 @@
 title: "Electrum Bitcoin Wallet"
 altTitle: 
 
-users: 100000
+users: 500000
 appId: org.electrum.electrum
 launchDate: 2016-03-02
 latestUpdate: 2020-12-18
 apkVersionName: "4.0.9.0"
-stars: 3.4
-ratings: 2023
-reviews: 1225
+stars: 3.3
+ratings: 2027
+reviews: 1228
 size: 20M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

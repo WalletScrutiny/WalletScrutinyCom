@@ -5,11 +5,11 @@ altTitle:
 users: 10000
 appId: com.cakewallet.cake_wallet
 launchDate: 
-latestUpdate: 2021-02-02
-apkVersionName: "4.1.0"
+latestUpdate: 2021-02-10
+apkVersionName: "4.1.1"
 stars: 4.2
-ratings: 289
-reviews: 190
+ratings: 292
+reviews: 193
 size: 62M
 website: 
 repository: 

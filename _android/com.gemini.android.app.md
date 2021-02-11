@@ -5,11 +5,11 @@ altTitle:
 users: 500000
 appId: com.gemini.android.app
 launchDate: 
-latestUpdate: 2021-02-05
-apkVersionName: "3.2.1"
+latestUpdate: 2021-02-10
+apkVersionName: "3.3.0"
 stars: 4.3
-ratings: 2881
-reviews: 1390
+ratings: 3016
+reviews: 1420
 size: Varies with device
 website: https://gemini.com
 repository: 

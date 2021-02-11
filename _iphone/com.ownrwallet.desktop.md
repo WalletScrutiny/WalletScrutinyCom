@@ -5,11 +5,11 @@ altTitle:
 appId: com.ownrwallet.desktop
 idd: 1520395378
 released: 2020-08-13
-updated: 2021-01-25
-version: "1.3.5"
+updated: 2021-02-10
+version: "1.3.6"
 score: 
 reviews: 
-size: 122331181
+size: 122484433
 developerWebsite: https://ownrwallet.com
 repository: 
 issue: 

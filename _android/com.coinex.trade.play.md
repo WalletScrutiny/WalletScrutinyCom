@@ -2,14 +2,14 @@
 title: "CoinEx"
 altTitle: 
 
-users: 50000
+users: 100000
 appId: com.coinex.trade.play
 launchDate: 
 latestUpdate: 2021-02-05
 apkVersionName: "1.9.4"
-stars: 4.8
-ratings: 2370
-reviews: 903
+stars: 4.6
+ratings: 2408
+reviews: 913
 size: 14M
 website: https://www.coinex.co
 repository: 

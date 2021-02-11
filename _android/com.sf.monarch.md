@@ -5,8 +5,8 @@ altTitle:
 users: 50000
 appId: com.sf.monarch
 launchDate: 2018-10-19
-latestUpdate: 2021-01-08
-apkVersionName: "2.1.8"
+latestUpdate: 2021-02-09
+apkVersionName: "2.1.9"
 stars: 3.3
 ratings: 741
 reviews: 385

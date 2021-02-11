@@ -7,8 +7,8 @@ idd: 1389966202
 released: 2018-08-02
 updated: 2020-12-16
 version: "5.3.0"
-score: 3.96
-reviews: 25
+score: 3.91667
+reviews: 24
 size: 59158528
 developerWebsite: https://buycoins.africa
 repository: 
