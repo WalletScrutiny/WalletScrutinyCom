@@ -7,9 +7,9 @@ appId: co.mona.android
 launchDate: 2017-08-30
 latestUpdate: 2021-02-04
 apkVersionName: "3.84.0"
-stars: 4.1
-ratings: 52814
-reviews: 20908
+stars: 4.2
+ratings: 53132
+reviews: 21073
 size: 86M
 website: https://www.crypto.com
 repository: 

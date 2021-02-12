@@ -5,11 +5,11 @@ altTitle:
 appId: com.quppy.wallet
 idd: 1417802076
 released: 2018-08-09
-updated: 2021-01-22
-version: "1.0.43"
+updated: 2021-02-11
+version: "1.0.45"
 score: 4.94564
 reviews: 368
-size: 46083072
+size: 46089216
 developerWebsite: https://quppy.com
 repository: 
 issue: 

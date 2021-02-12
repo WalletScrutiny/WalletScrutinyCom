@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-02-04
 apkVersionName: "2.6.38.7"
 stars: 4.0
-ratings: 5952
-reviews: 3212
+ratings: 5960
+reviews: 3215
 size: 38M
 website: https://crypterium.com
 repository: 

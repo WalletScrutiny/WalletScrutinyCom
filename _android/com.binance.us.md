@@ -7,9 +7,9 @@ appId: com.binance.us
 launchDate: 
 latestUpdate: 2021-02-10
 apkVersionName: "2.3.2"
-stars: 1.8
-ratings: 1606
-reviews: 1189
+stars: 1.9
+ratings: 1632
+reviews: 1211
 size: Varies with device
 website: https://www.binance.us
 repository: 

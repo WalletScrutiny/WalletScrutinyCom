@@ -8,7 +8,7 @@ launchDate: 2016-03-02
 latestUpdate: 2020-12-18
 apkVersionName: "4.0.9.0"
 stars: 3.3
-ratings: 2027
+ratings: 2028
 reviews: 1228
 size: 20M
 website: https://electrum.org

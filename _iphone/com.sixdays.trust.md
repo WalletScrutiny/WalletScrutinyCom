@@ -5,11 +5,11 @@ altTitle:
 appId: com.sixdays.trust
 idd: 1288339409
 released: 2017-09-27
-updated: 2021-01-18
-version: "5.11"
-score: 4.79631
-reviews: 19192
-size: 40117248
+updated: 2021-02-11
+version: "5.13"
+score: 4.79671
+reviews: 19376
+size: 39921664
 developerWebsite: https://trustwallet.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-02-11
 apkVersionName: "3.0.8-inbox-processing.7"
 stars: 4.3
-ratings: 549
-reviews: 283
+ratings: 548
+reviews: 282
 size: 339M
 website: https://www.sylo.io/wallet
 repository: 
