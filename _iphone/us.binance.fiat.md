@@ -5,11 +5,11 @@ altTitle:
 appId: us.binance.fiat
 idd: 1492670702
 released: 2020-01-05
-updated: 2021-02-05
-version: "2.3.1"
-score: 4.25176
-reviews: 13866
-size: 118929408
+updated: 2021-02-11
+version: "2.3.2"
+score: 4.23928
+reviews: 15225
+size: 118355968
 developerWebsite: https://www.binance.us
 repository: 
 issue: 

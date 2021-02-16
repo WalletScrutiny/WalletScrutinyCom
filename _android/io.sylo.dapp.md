@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2020-12-21
-apkVersionName: "3.0.6-1"
+latestUpdate: 2021-02-11
+apkVersionName: "3.0.8-inbox-processing.7"
 stars: 4.3
-ratings: 549
-reviews: 283
-size: 336M
+ratings: 548
+reviews: 282
+size: 339M
 website: https://www.sylo.io/wallet
 repository: 
 issue: 

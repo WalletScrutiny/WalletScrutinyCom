@@ -2,14 +2,14 @@
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: co.mona.android
 launchDate: 2017-08-30
 latestUpdate: 2021-02-04
 apkVersionName: "3.84.0"
-stars: 4.0
-ratings: 51805
-reviews: 20502
+stars: 4.2
+ratings: 53132
+reviews: 21073
 size: 86M
 website: https://www.crypto.com
 repository: 

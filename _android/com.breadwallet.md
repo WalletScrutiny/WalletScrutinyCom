@@ -2,14 +2,14 @@
 title: "BRD Bitcoin Wallet. Bitcoin BTC, Bitcoin Cash BCH"
 altTitle: 
 
-users: 1000000
+users: 5000000
 appId: com.breadwallet
 launchDate: 2016-07-21
 latestUpdate: 2021-01-15
 apkVersionName: "4.7.0"
 stars: 4.2
-ratings: 17791
-reviews: 7164
+ratings: 17874
+reviews: 7196
 size: 24M
 website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android

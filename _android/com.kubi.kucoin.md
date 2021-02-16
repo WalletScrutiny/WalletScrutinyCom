@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.kubi.kucoin
 launchDate: 
-latestUpdate: 2021-02-07
-apkVersionName: "3.27.0"
-stars: 3.2
-ratings: 3491
-reviews: 1918
+latestUpdate: 2021-02-09
+apkVersionName: "3.27.1"
+stars: 3.5
+ratings: 3550
+reviews: 1957
 size: 45M
 website: 
 repository: 
@@ -18,7 +18,7 @@ icon: com.kubi.kucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

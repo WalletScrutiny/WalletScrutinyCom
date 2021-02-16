@@ -8,7 +8,7 @@ launchDate: 2020-02-22
 latestUpdate: 2021-01-01
 apkVersionName: "1.3.8"
 stars: 4.1
-ratings: 219
+ratings: 218
 reviews: 182
 size: 9.8M
 website: https://flarewallet.io

@@ -6,10 +6,10 @@ users: 1000000
 appId: com.uphold.wallet
 launchDate: 
 latestUpdate: 2021-02-04
-apkVersionName: "4.15.4"
-stars: 2.7
-ratings: 10148
-reviews: 5687
+apkVersionName: "4.15.7"
+stars: 2.6
+ratings: 10257
+reviews: 5765
 size: 44M
 website: https://uphold.com
 repository: 

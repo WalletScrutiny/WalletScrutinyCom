@@ -7,9 +7,9 @@ appId: com.SatoshiTango.SatoshiTango
 launchDate: 
 latestUpdate: 2021-01-08
 apkVersionName: "3.4.15"
-stars: 4.0
-ratings: 3460
-reviews: 1916
+stars: 3.9
+ratings: 3465
+reviews: 1920
 size: 70M
 website: http://www.satoshitango.com
 repository: 
