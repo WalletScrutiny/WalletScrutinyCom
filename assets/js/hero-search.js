@@ -30,6 +30,26 @@ if (document.querySelectorAll(".hero-cta").length > 0) {
 }
 
 
+var reader = [];
+var readerRec = [];
+sortedWallets.forEach(function (e) {
+
+  var n = String(e.appId).replace('-ios', '');
+  if (n) {
+    var i = readerRec.indexOf(n);
+    if (i <0) {
+      reader.push(e)
+      readerRec.push(n)
+    } else {
+      reader[i]['test'] = 'hello';
+      reader[i]['versions'] = reader[i]['versions']? reader[i]['versions'].push(e) : [e];
+      reader[i]['ignore'] = true;
+    }
+  }
+})
+
+
+
 
 function exitSearch() {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
@@ -48,6 +68,33 @@ function focusResults(e) {
   }
 }
 
+function determineIconTag(e) {
+  if (!e) { return false; }
+  
+  var css;
+  switch (e) {
+    case 'iphone':
+      css = 'app-store';
+      break;
+    case 'android':
+      css = 'google-play';
+      break;
+    case 'fdroid':
+      css = 'f-droid';
+      break;
+      case 'windows':
+        css = 'windows';
+      break;
+    default:
+  }
+  return css;
+}
+
+function verdictHumanise(e) {
+  //wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+  e = e.replace("wip", "work in progress").replace();
+}
+
 function searchCatalogue(termInput) {
   const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
   const result = document.createElement("ul")
@@ -57,12 +104,34 @@ function searchCatalogue(termInput) {
   const basePath = window.wallets.base_path
   if (term.length > minTermLength) {
     var matchCounter = 0
-    sortedWallets.forEach(function (wallet) {
-      const searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite}`
+    reader.forEach(function (wallet) {
+      if (wallet.title) {
+      let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite} ${wallet.category} ${wallet.verdict}`
+
+
+      var more = wallet.versions && wallet.versions.length > 0 ? "<br><sub>(multiple versions)</sub>" : ""
+      var imgEx = '', lnkEx = '';
+      if (wallet.versions && wallet.versions.length > 0) {
+        for (i = 0; i < wallet.versions.length; i++) {
+          searchableTerms+=`${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
+          var aURL = basePath + wallet.versions[i].url;
+          imgEx += `<a onclick="window.location.href = '${aURL}';"
+          href='${aURL}'><img
+          src='${basePath}/images/wallet_icons/${wallet.versions[i].category}/small/${wallet.versions[i].icon}'
+          class='results-list-wallet-icon'/></a>`;
+
+          lnkEx += `<a onclick="window.location.href = '${aURL}';" href='${aURL}' class="${wallet.versions[i].verdict}">
+          <i class="fab fa-${determineIconTag(wallet.versions[i].category)} lnk-bdg-btn"></i>
+          <span>${wallet.versions[i].verdict}</span>
+        </a>`
+        }
+      }
       if (matchCounter < 1) {
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
-      if (searchableTerms.toUpperCase().indexOf(term) !== -1) {
+      let index = searchableTerms.toLocaleUpperCase().indexOf(term);
+      // console.log(searchableTerms, searchableTerms.toLocaleUpperCase().substr(index-3, 3));
+      if (index !== -1) {
         if (matchCounter == 0) {
           result.innerHTML = ""
         }
@@ -71,22 +140,34 @@ function searchCatalogue(termInput) {
         const walletRow = document.createElement("li")
         walletRow.style['animation-delay'] = matchCounter * .1 + 's'
         walletRow.classList.add("actionable")
-        const platform = (wallet.idd) ? `iphone` : `android`
+        const platform = wallet.category
         const analysisUrl = `${basePath}${wallet.url}`
-        walletRow.innerHTML = `<a 
-            onclick="window.location.href = '${analysisUrl}';"
-            href='${analysisUrl}'>
-          <img
+        walletRow.innerHTML = `<div>
+            <span class="icon-overlap">
+              <a onclick="window.location.href = '${analysisUrl}';"
+              href='${analysisUrl}'><img
               src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
               class='results-list-wallet-icon'
-            /><span>${wallet.title}</span>
-            <i class="fab fa-${(wallet.idd) ? `app-store` : `google-play`}"
-            style="margin: 0 0.4em 0 auto"></i>
-            <span class="badge ${wallet.verdict}">${wallet.verdict}</span>
-            </a>`
+              /></a>
+              ${imgEx}
+            </span>
+
+            <span>${wallet.title}${more}</span>
+            
+            <div class="link-grid">
+
+              <a onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}' class="${wallet.verdict}">
+                <i class="fab fa-${determineIconTag(wallet.category)} lnk-bdg-btn"></i>
+                <span>${wallet.verdict}</span>
+              </a>
+              ${lnkEx}
+            </div>
+
+            </div>`
         result.append(walletRow)
         matchCounter++
       }
+    }
     })
   } else if (term.length != 0) {
     var l = document.createElement("li")
@@ -108,7 +189,7 @@ function searchCatalogue(termInput) {
 function heroUX(termInput) {
   termInput.focus()
   termInput.select()
-  showInitialSuggestion()
+  // showInitialSuggestion()
   heroSearchScrollToTop(termInput)
 
   if (termInput.value.length > 0) {
@@ -138,7 +219,7 @@ function showInitialSuggestion() {
   document.querySelectorAll(".results-list")[0].classList.add("quick-link");
   if (reproducibleKeysIcons.length < 1) {
     Object.keys(window.wallets).forEach(key => {
-      window.wallets[key].verdict && (k_.push(key));
+      window.wallets[key].verdict && window.wallets[key].verdict == 'reproducible' && (k_.push(key));
     })
     var a = k_;
     for (let i = a.length - 1; i > 0; i--) {
@@ -147,11 +228,11 @@ function showInitialSuggestion() {
     }
     for (i = 0; i < k_.length; i++) {
       var k = window.wallets[k_[i]],
-        p = k.idd ? 'iphone' : 'android';
+        p = k.category;
       reproducibleKeysIcons += `<a onclick="window.location.href = '${k.url}';" href='${k.url}'><img src='${base}/images/wallet_icons/${p}/small/${k.icon}' class='results-list-wallet-icon' />
       <span>
       <span class="badge ${k.verdict}">${k.verdict}</span>
-      <i class="fab fa-${(k.idd) ? `app-store` : `google-play`}"></i>
+      <i class="fab fa-${determineIconTag(k.category)}"></i>
       <br>
       ${k.title}</span>
       </a>`

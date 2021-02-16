@@ -48,6 +48,8 @@ author_profile: true
 
 <a href="{{ base_path }}/apple">more Apple App Store apps</a>
 
+<script src="{{ base_path }}/assets/js/scripts.js"></script>
+
 
 <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 
