@@ -5,16 +5,17 @@ layout: default
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% include page__hero.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
 {% endif %}
 
 <div id="main" class="app-review" role="main">
+  {% include sidebar.html %}
   {% assign float = "" %}
 
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
@@ -31,10 +32,10 @@ layout: default
 
     <div class="page__inner-wrap">
       {% if page.url != "/" %}
-        {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-        </header>
-        {% endunless %}
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+      <header>
+      </header>
+      {% endunless %}
       {% endif %}
 
 
@@ -118,7 +119,7 @@ layout: default
 
           {% if page.verdict == "reproducible" %}
 
-          <div class="svg {{ page.verdict }}"></div> 
+          <div class="svg {{ page.verdict }}"></div>
 
           {% endif %}
 
@@ -130,7 +131,7 @@ layout: default
             </label>
 
             <div>
-              {{ page.score  | round: 1 }}
+              {{ page.score | round: 1 }}
               <span class="star-rating"
                 style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.score }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
             </div>
@@ -162,9 +163,9 @@ layout: default
 
       {% include base_path %}
       {% if page.altTitle %}
-        {% assign title = page.altTitle %}
+      {% assign title = page.altTitle %}
       {% else %}
-        {% assign title = page.title %}
+      {% assign title = page.title %}
       {% endif %}
 
 
@@ -214,7 +215,7 @@ layout: default
           </tr>
           {% for review in page.reviewArchive %}
           {% if review.verdict == "reproducible" %}
-            {% assign good = good | plus:1 %}
+          {% assign good = good | plus:1 %}
           {% endif %}
           {% assign total = total | plus:1 %}
           <tr>
@@ -235,23 +236,25 @@ layout: default
       {% endif %}
 
       {% if page.providerTwitter %}
-      <h1>Help spread awareness for build reproducibility</h1>
-      <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
-        {% if page.verdict == "reproducible" %}
-        Please follow {{ title }} and thank them for being reproducible
-        {% else if page.verdict == nonverifiable %}
-        Please help us spread the word, asking {{ title }} to support reproducible builds
-        {% else if page.verdict == nosource %}
-        Please help us spread the word discussing transparency with {{ title }}
-        {% else if page.verdict == custodial %}
-        Please help us spread the word discussing the risks of centralized custodians with {{ title }}
-        {% else %}
-        Please help us spread the word discussing build reproducibility with {{ title }}
-        {% endif %}
-        <a target="_blank" rel="noopener noreferrer"
-          href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
-          their Twitter</a>!
-      </p>
+      <div class="subsect">
+        <h1>Help spread awareness for build reproducibility</h1>
+        <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+          {% if page.verdict == "reproducible" %}
+          Please follow {{ title }} and thank them for being reproducible
+          {% else if page.verdict == nonverifiable %}
+          Please help us spread the word, asking {{ title }} to support reproducible builds
+          {% else if page.verdict == nosource %}
+          Please help us spread the word discussing transparency with {{ title }}
+          {% else if page.verdict == custodial %}
+          Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+          {% else %}
+          Please help us spread the word discussing build reproducibility with {{ title }}
+          {% endif %}
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
+            their Twitter</a>!
+        </p>
+      </div>
       {% endif %}
 
       {% if page.verdict == "reproducible" %}
@@ -290,8 +293,8 @@ layout: default
       </footer>
 
       {% if page.share %}
-        {% include social-share.html %}
-        {% include embed.html %}
+      {% include social-share.html %}
+      {% include embed.html %}
       {% endif %}
     </div>
   </article>

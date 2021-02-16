@@ -3,6 +3,7 @@
   "base_path": "{{ base_path }}",
   {% for post in site.iphone %}
     "iphone/{{ post.appId }}": {
+      "category": "iphone",
       "appId": "{{ post.appId }}",
       "idd": "{{ post.idd }}",
       "title": "{{ post.title }}",
@@ -17,6 +18,7 @@
       "issue": "{{ post.issue }}",
       "icon": "{{ post.icon }}",
       "verdict": "{{ post.verdict }}",
+      "verdictText": "{{ site.data.verdicts[post.verdict].title }}",
       "date": "{{ post.date | date: '%Y-%m-%d' }}",
       "signer": "{{ post.signer }}",
       "providerTwitter": "{{ post.providerTwitter }}",
@@ -28,6 +30,7 @@
   {% endfor %}
   {% for post in site.android %}
     "{{ post.appId }}": {
+      "category": "android",
       "appId": "{{ post.appId }}",
       "title": "{{ post.title }}",
       "users": "{{ post.users }}",
@@ -43,6 +46,7 @@
       "issue": "{{ post.issue }}",
       "icon": "{{ post.icon }}",
       "verdict": "{{ post.verdict }}",
+      "verdictText": "{{ site.data.verdicts[post.verdict].title }}",
       "date": "{{ post.date | date: '%Y-%m-%d' }}",
       "signer": "{{ post.signer }}",
       "providerTwitter": "{{ post.providerTwitter }}",

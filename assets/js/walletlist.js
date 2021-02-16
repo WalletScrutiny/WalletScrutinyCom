@@ -1,11 +1,23 @@
-$(document).ready(function(){
-  $("#showWallets").on("click", function() {
-    $("#sidebarWalletList")
-      .css('height', 'auto')
-      .css('overflow-y', 'auto')
-    $("#sidebarWalletListShowButton").hide()
+if (document.getElementById("showWallets") && document.getElementById("collapseWalletList")) {
+  document.getElementById("showWallets").addEventListener("click", function () {
+    toggleWalletList();
   });
-});
+  document.getElementById("collapseWalletList").addEventListener("click", function () {
+    toggleWalletList();
+  });
+}
+
+function toggleWalletList() {
+  if (document.getElementById("sidebarWalletList").classList.contains("mobile-compact")) { 
+    document.getElementById("sidebarWalletList").classList.remove("mobile-compact");
+    document.getElementById("showWallets").innerHTML = 'Collapse list&nbsp;<i class="fas fa-chevron-up"></i>';
+    document.getElementById("collapseWalletList").style.display = "unset";
+  }else{
+    document.getElementById("sidebarWalletList").classList.add("mobile-compact");
+    document.getElementById("showWallets").innerHTML = 'Expand list&nbsp;<i class="fas fa-chevron-down"></i>';
+    document.getElementById("collapseWalletList").style.display = "none";
+  }
+}
 
 var lastId = ""
 
@@ -33,6 +45,25 @@ function toggleApp(id) {
       temp.setAttribute("onclick", "toggleApp()");
       document.body.append(temp);
       if (screen.width > 756) { document.body.classList.add("modal-open"); }
+    }
+  }
+}
+
+
+if (document.querySelectorAll(".-bold").length > 0) {
+  let c = document.querySelectorAll(".-bold");
+  for (i = 0; i < c.length; i++){
+    let t = c[i];
+    let p = t.parentNode.parentNode;
+    let pw = p.getBoundingClientRect().width * .9;
+    if (t.getBoundingClientRect().width > pw) {
+      let l = t.querySelectorAll("l")[0];
+      for (j = 5; j > 0; j--){
+        l.style['font-size'] = j + 'rem';
+        if (l.parentNode.getBoundingClientRect().width < p.getBoundingClientRect().width) {
+          break;
+        }
+      }
     }
   }
 }

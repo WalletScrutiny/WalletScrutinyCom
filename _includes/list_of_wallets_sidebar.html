@@ -3,7 +3,11 @@
 {% assign posts_by_ratings = site.android | sort: "ratings" | reverse %}
 {% assign downloads = "100000000,50000000,10000000,5000000,1000000,500000,100000,50000,10000,5000,1000,500,100,50,10,5" | split: "," %}
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-<div id="sidebarWalletList">
+<div class="sidebar-container">
+  <div id="collapseWalletList">
+    <button class="btn">Collapse list&nbsp;<i class="fas fa-chevron-up"></i></button>
+  </div>
+<div id="sidebarWalletList" class="mobile-compact">
 {% for verdict in verdicts %}
   <div class="verdict {{ verdict }}" style="margin:1em 0em 0.5em 0em">{{ site.data.verdicts[verdict].short }}</div>
   {% assign verdictPosts = posts_by_ratings | where: "verdict", verdict %}
@@ -14,8 +18,10 @@
     {% endfor %}
   {% endfor %}
 {% endfor %}
-(<a href="{{ base_path }}/moreApps">more apps</a>)
+<a class="sl" href="{{ base_path }}/moreApps">more apps&nbsp;<i class="fas fa-arrow-right"></i></a>
 </div>
 <div id="sidebarWalletListShowButton">
-  <button class="btn" id="showWallets">Show more ...</button>
+  <button class="btn" id="showWallets">Expand list&nbsp;<i class="fas fa-chevron-down"></i></button>
+</div>
+
 </div>

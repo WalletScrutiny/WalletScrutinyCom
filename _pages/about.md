@@ -31,7 +31,7 @@ author_profile: true
 </div>
 
 
-<h2 class="section-label">As featured on:</h2>
+<h2 id="featuredOn" class="section-label">As featured on:</h2>
 
 {% include press.html %}
 
@@ -48,12 +48,14 @@ author_profile: true
 
 <a href="{{ base_path }}/apple">more Apple App Store apps</a>
 
+<script src="{{ base_path }}/assets/js/scripts.js"></script>
 
-<h2 class="section-label">How many wallets are in each category?<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
+
+<h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets.html %}
 
 
-<h2 class="section-label">How many users (downloads) are in each category?<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
+<h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets_proportional.html %}

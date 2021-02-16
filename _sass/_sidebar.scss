@@ -271,7 +271,7 @@
 
 #sidebarWalletList {
   overflow-y: hidden;
-  height: 14.5em;
+  // height: 14.5em;
   @include breakpoint($medium-wide) {
     overflow-y: auto;
     height: auto;
