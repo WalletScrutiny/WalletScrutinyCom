@@ -15,9 +15,9 @@ repository:
 issue: 
 icon: com.getchange.dev.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -30,4 +30,5 @@ providerReddit:
 redirect_from:
 
 ---
-
+**Update:** We did not get to review this app before it was removed from the App
+Store.

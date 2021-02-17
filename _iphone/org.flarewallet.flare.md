@@ -15,9 +15,9 @@ repository:
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-02-17
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -31,3 +31,5 @@ redirect_from:
 
 ---
 
+**Update:** We did not get to review this app before it was removed from the App
+Store.
