@@ -58,7 +58,7 @@ function searchCatalogue(termInput) {
   if (term.length > minTermLength) {
     var matchCounter = 0
     sortedWallets.forEach(function (wallet) {
-      const searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite}`
+      const searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite} ${wallet.idd}`
       if (matchCounter < 1) {
         result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>";
       }
