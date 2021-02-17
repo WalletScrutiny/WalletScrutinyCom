@@ -7,8 +7,8 @@ idd: 1382342568
 released: 2018-08-01
 updated: 2020-05-19
 version: "1.12"
-score: 4.44186
-reviews: 86
+score: 4.44827
+reviews: 87
 size: 42128384
 developerWebsite: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios

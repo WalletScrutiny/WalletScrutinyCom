@@ -5,11 +5,11 @@ altTitle:
 appId: io.bluewallet.bluewallet
 idd: 1376878040
 released: 2018-05-27
-updated: 2021-01-18
-version: "6.0.3"
-score: 4.19209
-reviews: 177
-size: 54352896
+updated: 2021-02-12
+version: "6.0.4"
+score: 4.2
+reviews: 180
+size: 65783808
 developerWebsite: 
 repository: 
 issue: 

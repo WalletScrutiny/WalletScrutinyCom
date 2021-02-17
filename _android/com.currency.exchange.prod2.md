@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-02-08
 apkVersionName: "1.9.9"
 stars: 4.2
-ratings: 1783
-reviews: 640
+ratings: 1799
+reviews: 644
 size: Varies with device
 website: https://currency.com
 repository: 

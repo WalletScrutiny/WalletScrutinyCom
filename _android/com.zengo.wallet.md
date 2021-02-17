@@ -5,12 +5,12 @@ altTitle:
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2021-01-14
-apkVersionName: "2.20.0"
-stars: 4.1
-ratings: 1629
-reviews: 707
-size: 68M
+latestUpdate: 2021-02-10
+apkVersionName: "2.21.0"
+stars: 4.0
+ratings: 1683
+reviews: 732
+size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 
@@ -36,8 +36,7 @@ redirect_from:
 
 This app claims on Google Play:
 
-> ** Never worry about losing your private keys again **
-> 
+> **Never worry about losing your private keys again**<br>
 > With ZenGo’s advanced cryptography, there is no private key. Instead, the
   responsibility of signing transactions is divided between us and our
   customers, so that neither party sees the other's secret information. It also
@@ -50,8 +49,7 @@ them? If they lose them or go out of business, can you still use your money?
 Also if they don't use established standards, can you still spend your coins if
 their wallet stops working? They [claim you can](https://zengo.com/?p=1268).
 
-> ** Stay in control **
-> 
+> **Stay in control**<br>
 > ZenGo does not have access to your funds. All transactions happen directly on
   the blockchain. With securely encrypted biometrics and our password-free
   security, only you control your funds.

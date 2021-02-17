@@ -5,11 +5,11 @@ altTitle:
 appId: com.casa.vault
 idd: 1314586706
 released: 2018-08-02
-updated: 2021-02-05
-version: "2.32"
-score: 4.92893
-reviews: 197
-size: 42529792
+updated: 2021-02-12
+version: "2.32.1"
+score: 4.93069
+reviews: 202
+size: 42533888
 developerWebsite: https://keys.casa
 repository: 
 issue: 

@@ -5,19 +5,19 @@ altTitle:
 appId: io.horizontalsystems.bank-wallet
 idd: 1447619907
 released: 2019-01-10
-updated: 2020-12-11
-version: "0.18"
-score: 4.72276
-reviews: 202
-size: 45149184
-developerWebsite: https://horizontalsystems.io/
+updated: 2021-02-16
+version: "0.19"
+score: 4.72248
+reviews: 209
+size: 43611136
+developerWebsite: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-19
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

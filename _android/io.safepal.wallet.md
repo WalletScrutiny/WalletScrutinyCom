@@ -7,9 +7,9 @@ appId: io.safepal.wallet
 launchDate: 
 latestUpdate: 2021-02-04
 apkVersionName: "2.5.5"
-stars: 4.9
-ratings: 3111
-reviews: 1931
+stars: 4.8
+ratings: 3250
+reviews: 2005
 size: 29M
 website: https://www.safepal.io
 repository: 
