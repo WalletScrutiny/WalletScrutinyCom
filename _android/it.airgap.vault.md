@@ -16,7 +16,7 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-18
 reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
@@ -78,16 +78,48 @@ redirect_from:
 ---
 
 
+**Update:** After an initial issue with a missing tag, now the issue is an
+actual reproducibility issue from the supposed right commit. In the best case,
+the wrong revision was tagged but until we figure this out, we can't recommend
+updating to version 3.6.1.
+
 We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
 which delivered these results:
 
 ```
-fatal: Remote branch v3.6.1 not found in upstream origin
+Results:
+appId:          it.airgap.vault
+signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+apkVersionName: 3.6.1
+apkVersionCode: 26485
+apkHash:        6068c88b2dbbc0033531f0237c77ea08b1d73d9fae5ea699ea7f551ae51a1920
+
+Diff:
+Files /tmp/fromPlay_it.airgap.vault_26485/apktool.yml and /tmp/fromBuild_it.airgap.vault_26485/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_26485/assets/public/3rdpartylicenses.txt and /tmp/fromBuild_it.airgap.vault_26485/assets/public/3rdpartylicenses.txt differ
+Files /tmp/fromPlay_it.airgap.vault_26485/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_26485/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_26485/assets/public: main.30370a138a2aeee7f14f.js
+Only in /tmp/fromPlay_it.airgap.vault_26485/assets/public: main.b45c2c54936a9801f503.js
+Files /tmp/fromPlay_it.airgap.vault_26485/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_26485/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_26485/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_26485/original/META-INF: PAPERS.SF
+
+Revision, tag (and its signature):
+object 5767fd3c74b810c06f91cdc4c6a18f9f30d0ae6c
+type commit
+tag v3.6.1
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1613650888 +0000
+
+AirGap Vault v3.6.1
 ```
 
-Which means the build is not reproducible due to lack of source code or tagging
-of that source code. The provider might have forgotten to share which revision
-of the source code matches its latest version 3.6.1 or might have not shared the
-code at all. Stay tuned. We recommend to not use this version until we figured
-out what's wrong as the current version is **not verifiable**.
+The diff in `3rdpartylicenses.txt` is 4 (harmless) lines present in Google Play
+that do not come from the supposed source code.
+
+The difference between
+`fromBuild_it.airgap.vault_26485/assets/public/main.30370a138a2aeee7f14f.js` and
+`fromPlay_it.airgap.vault_26485/assets/public/main.b45c2c54936a9801f503.js`
+though is not just the name and as this is actually executed and obfuscated code
+we cannot attribute to code on their repository, we sadly have to give the
+verdict **not verifiable**.
