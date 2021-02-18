@@ -225,6 +225,8 @@ layout: default
       {% endif %}
 
 
+      <div id="versions"></div>
+
       <p>Our last analysis is based on data found in their
         <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
           Play description</a>
@@ -272,6 +274,7 @@ layout: default
 
       {% if page.providerTwitter %}
       <div class="subsect">
+        <div class="subsect">
         <h1>Help spread awareness for build reproducibility</h1>
         <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
           {% if page.verdict == "reproducible" %}
@@ -289,7 +292,7 @@ layout: default
             href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
             their Twitter</a>!
         </p>
-      </div>
+      </div></div>
       {% endif %}
 
       {% if page.verdict == "reproducible" %}

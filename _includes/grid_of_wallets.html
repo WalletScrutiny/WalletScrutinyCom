@@ -3,7 +3,7 @@
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
 {% assign posts = site.android | sort: "users" | reverse %}
-<div id="platformFilterContainer">
+<div class="platformFilterContainer">
 
   <input name="platform-filter" class="-filter-trigger -android" type="radio" checked="true">
   <label class="-android"><i class="fab fa-google-play"></i>&nbsp;Play Store</label>
@@ -40,7 +40,7 @@
         {% for post in site.iphone %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="app_logo"
+              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/iphone/small/{{ post.icon }}" class="app_logo"
                 alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
             </a> 
           {% endif %}
@@ -63,7 +63,7 @@
         {% for post in site.android %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="app_logo"
+              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="app_logo"
                 alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
             </a> 
           {% endif %}

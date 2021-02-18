@@ -3,10 +3,12 @@
   "base_path": "{{ base_path }}",
   {% for post in site.iphone %}
     "iphone/{{ post.appId }}": {
-      "category": "iphone",
+      "category": "app store",
+      "folder": "iphone",
       "appId": "{{ post.appId }}",
       "idd": "{{ post.idd }}",
-      "title": "{{ post.title }}",
+      "title": "{{ post.title }}",      
+      "message": {{ site.data.verdicts[post.verdict].message | jsonify }},
       "released": "{{ post.released | date: '%Y-%m-%d' }}",
       "updated": "{{ post.updated | date: '%Y-%m-%d' }}",
       "version": "{{ post.version }}",
@@ -30,9 +32,11 @@
   {% endfor %}
   {% for post in site.android %}
     "{{ post.appId }}": {
-      "category": "android",
+      "folder": "android",
+      "category": "play store",
       "appId": "{{ post.appId }}",
       "title": "{{ post.title }}",
+      "message": {{ site.data.verdicts[post.verdict].message | jsonify }},
       "users": "{{ post.users }}",
       "launchDate": "{{ post.launchDate | date: '%Y-%m-%d' }}",
       "latestUpdate": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",

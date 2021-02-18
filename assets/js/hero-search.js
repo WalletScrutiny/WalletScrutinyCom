@@ -1,4 +1,4 @@
-var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet", searchInput, pauseForInput;
+var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet,obfuscated", searchInput, pauseForInput;
 var sortedWallets = Object.values(window.wallets).sort(function (a, b) {
   if (a.verdict != b.verdict)
     return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
@@ -29,21 +29,24 @@ if (document.querySelectorAll(".hero-cta").length > 0) {
   document.querySelectorAll(".wallet-search-placeholder")[0].replaceWith(t)
 }
 
-
-var reader = [];
+window.verdictOrder = verdictOrder.split(",");
+window.platformObs = [];
+window.orderedObs = [];
 var readerRec = [];
 sortedWallets.forEach(function (e) {
-
+  if (e.category && window.platformObs.indexOf(e.category) < 0) { 
+    window.platformObs.push(e.category)
+  }
   var n = String(e.appId).replace('-ios', '');
   if (n) {
     var i = readerRec.indexOf(n);
     if (i <0) {
-      reader.push(e)
+      window.orderedObs.push(e)
       readerRec.push(n)
     } else {
-      reader[i]['test'] = 'hello';
-      reader[i]['versions'] = reader[i]['versions']? reader[i]['versions'].push(e) : [e];
-      reader[i]['ignore'] = true;
+      window.orderedObs[i]['test'] = 'hello';
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions']? window.orderedObs[i]['versions'].push(e) : [e];
+      window.orderedObs[i]['ignore'] = true;
     }
   }
 })
@@ -73,13 +76,13 @@ function determineIconTag(e) {
   
   var css;
   switch (e) {
-    case 'iphone':
+    case 'app store':
       css = 'app-store';
       break;
-    case 'android':
+    case 'play store':
       css = 'google-play';
       break;
-    case 'fdroid':
+    case 'fdroid catalogue':
       css = 'f-droid';
       break;
       case 'windows':
@@ -90,10 +93,6 @@ function determineIconTag(e) {
   return css;
 }
 
-function verdictHumanise(e) {
-  //wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-  e = e.replace("wip", "work in progress").replace();
-}
 
 function searchCatalogue(termInput) {
   const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
@@ -104,7 +103,7 @@ function searchCatalogue(termInput) {
   const basePath = window.wallets.base_path
   if (term.length > minTermLength) {
     var matchCounter = 0
-    reader.forEach(function (wallet) {
+    window.orderedObs.forEach(function (wallet) {
       if (wallet.title) {
       let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite} ${wallet.category} ${wallet.verdict}`
 
@@ -117,7 +116,7 @@ function searchCatalogue(termInput) {
           var aURL = basePath + wallet.versions[i].url;
           imgEx += `<a onclick="window.location.href = '${aURL}';"
           href='${aURL}'><img
-          src='${basePath}/images/wallet_icons/${wallet.versions[i].category}/small/${wallet.versions[i].icon}'
+          src='${basePath}/images/wallet_icons/${wallet.versions[i].folder}/small/${wallet.versions[i].icon}'
           class='results-list-wallet-icon'/></a>`;
 
           lnkEx += `<a onclick="window.location.href = '${aURL}';" href='${aURL}' class="${wallet.versions[i].verdict}">
@@ -140,13 +139,12 @@ function searchCatalogue(termInput) {
         const walletRow = document.createElement("li")
         walletRow.style['animation-delay'] = matchCounter * .1 + 's'
         walletRow.classList.add("actionable")
-        const platform = wallet.category
         const analysisUrl = `${basePath}${wallet.url}`
         walletRow.innerHTML = `<div>
             <span class="icon-overlap">
               <a onclick="window.location.href = '${analysisUrl}';"
               href='${analysisUrl}'><img
-              src='${basePath}/images/wallet_icons/${platform}/small/${wallet.icon}'
+              src='${basePath}/images/wallet_icons/${wallet.folder}/small/${wallet.icon}'
               class='results-list-wallet-icon'
               /></a>
               ${imgEx}

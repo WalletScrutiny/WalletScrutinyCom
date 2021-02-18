@@ -10,16 +10,6 @@
 {% endif %}
 
 <div class="page-section">
-  <div class="input-org">
-    {% if showVerdictFilter %}
-      <input type="radio" name="verdict" class="verdict-d-d verdict-d-d-all" value="All" checked="true">
-      <label class="label-all" for="verdict" value="All" ><i class="fas fa-check check"></i>&nbsp;All</label>
-      {% for v in verdicts %}
-        <input type="radio" name="verdict" class="verdict-d-d verdict-d-d-{{ v }}" value="{{ v }}" {% if v == selectedVerdict %}checked="true"{% endif %}>
-        <label class="label-{{ v }}" for="verdict" value="{{ v }}"><i class="fas fa-check check"></i>&nbsp;{{ site.data.verdicts[v].short }}</label>
-      {% endfor %}
-      <br style="clear:both">
-    {% endif %}
     <div id="tableofwallets">
       <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
       {% for v in verdicts %}
@@ -42,5 +32,4 @@
         </div>
       {% endfor %}
     </div>
-  </div>
 </div>
