@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "2.17.0"
 stars: 4.2
-ratings: 385
-reviews: 245
+ratings: 386
+reviews: 246
 size: 32M
 website: http://www.xcelpay.io
 repository: 

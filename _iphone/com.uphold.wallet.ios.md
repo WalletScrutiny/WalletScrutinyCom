@@ -7,8 +7,8 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2021-02-13
 version: "4.15.9"
-score: 4.13277
-reviews: 3570
+score: 4.12472
+reviews: 3584
 size: 63809536
 developerWebsite: 
 repository: 

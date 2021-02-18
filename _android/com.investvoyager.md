@@ -5,11 +5,11 @@ altTitle:
 users: 100000
 appId: com.investvoyager
 launchDate: 
-latestUpdate: 2021-01-29
-apkVersionName: "2.5.11"
-stars: 2.1
-ratings: 1503
-reviews: 1002
+latestUpdate: 2021-02-18
+apkVersionName: "2.5.12"
+stars: 2.2
+ratings: 1514
+reviews: 1008
 size: 48M
 website: https://www.investvoyager.com/
 repository: 

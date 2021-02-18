@@ -5,22 +5,27 @@ altTitle:
 users: 5000
 appId: it.airgap.vault
 launchDate: 2018-08-06
-latestUpdate: 2021-02-12
-apkVersionName: "3.6.0"
+latestUpdate: 2021-02-17
+apkVersionName: "3.6.1"
 stars: 4.0
 ratings: 73
 reviews: 29
 size: 10M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/32
+issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-15
-reviewStale: true
+verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-02-18
+reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2020-12-15
+  version: "3.5.1"
+  apkHash: f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823
+  gitRevision: 51b7e569c45fbaea30f26e1eda580fb68cf546c9
+  verdict: reproducible
 - date: 2020-09-02
   version: "3.5.0"
   apkHash: ec1ffc9b88898084eb66852b46c9460922401bd16b80ce20532c6a5548467aaa
@@ -73,136 +78,48 @@ redirect_from:
 ---
 
 
-**Update:** Version 3.5.1 had its issues. First, the version was not tagged,
-when that was fixed, the build was not reproducible and then, when we
-ran the same script on the same file a third time ... maybe the dice fell lucky?
-In any case we got the exact same result as what we got from Google Play.
+**Update:** After an initial issue with a missing tag, now the issue is an
+actual reproducibility issue from the supposed right commit. In the best case,
+the wrong revision was tagged but until we figure this out, we can't recommend
+updating to version 3.6.1.
 
 We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
-again which delivered these results:
+which delivered these results:
 
 ```
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.5.1
-apkVersionCode: 23940
-apkHash:        f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823
+apkVersionName: 3.6.1
+apkVersionCode: 26485
+apkHash:        6068c88b2dbbc0033531f0237c77ea08b1d73d9fae5ea699ea7f551ae51a1920
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_23940/apktool.yml and /tmp/fromBuild_it.airgap.vault_23940/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_23940/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_23940/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_26485/apktool.yml and /tmp/fromBuild_it.airgap.vault_26485/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_26485/assets/public/3rdpartylicenses.txt and /tmp/fromBuild_it.airgap.vault_26485/assets/public/3rdpartylicenses.txt differ
+Files /tmp/fromPlay_it.airgap.vault_26485/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_26485/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_26485/assets/public: main.30370a138a2aeee7f14f.js
+Only in /tmp/fromPlay_it.airgap.vault_26485/assets/public: main.b45c2c54936a9801f503.js
+Files /tmp/fromPlay_it.airgap.vault_26485/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_26485/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_26485/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_26485/original/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 32c980cd295c3976b5a4350cec30d8b10e00e650
+object 5767fd3c74b810c06f91cdc4c6a18f9f30d0ae6c
 type commit
-tag v3.5.1
-tagger Mike Godenzi <m.godenzi@papers.ch> 1605788380 +0100
+tag v3.6.1
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1613650888 +0000
 
-version 3.5.1
+AirGap Vault v3.6.1
 ```
 
-Which means the build is **reproducible**.
+The diff in `3rdpartylicenses.txt` is 4 (harmless) lines present in Google Play
+that do not come from the supposed source code.
 
-# Prior script run on the same file
-
-```
-Results:
-appId:          it.airgap.vault
-signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.5.1
-apkVersionCode: 23940
-apkHash:        f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823
-
-Diff:
-Files /tmp/fromPlay_it.airgap.vault_23940/apktool.yml and /tmp/fromBuild_it.airgap.vault_23940/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_23940/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_23940/assets/public/index.html differ
-Only in /tmp/fromBuild_it.airgap.vault_23940/assets/public: main.48c0b1291dc2c9240100.js
-Only in /tmp/fromPlay_it.airgap.vault_23940/assets/public: main.cd4034adbb37067a0b90.js
-Files /tmp/fromPlay_it.airgap.vault_23940/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_23940/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_23940/original/META-INF: PAPERS.SF
-
-Revision, tag (and its signature):
-object 32c980cd295c3976b5a4350cec30d8b10e00e650
-type commit
-tag v3.5.1
-tagger Mike Godenzi <m.godenzi@papers.ch> 1605788380 +0100
-
-version 3.5.1
-```
-
-which means the build is **not verifiable**.
-
-**Digging deeper** we looked at what's going on and found:
-
-* `index.html` differs in its reference to the `main.*.js`
-* meld didn't like comparing those `main.*.js` consisting of one line
-  with 5,206,447 characters each
-
-After unfolding this **obfuscated** JS code with `js-beautify`, the diff became
-more manageable. Turns out the obfuscator "invented" a different name for one
-function name replacement and listed the functions in a different order:
-
-The diff became a long list of essentially this:
-
-```
-...
-82387c82387
-<             var jt = Ht("N+aw"),
----
->             var jt = Ht("AQYT"),
-87698c87698
-<             var jt = Ht("N+aw"),
----
->             var jt = Ht("AQYT"),
-88540c88540
-<                 var jt = Ht("N+aw"),
----
->                 var jt = Ht("AQYT"),
-90380c90380
-<             var Jt = Ht("N+aw"),
----
->             var Jt = Ht("AQYT"),
-...
-```
-
-and these function definitions in different lines:
-
-```
-55407,56453d56453
-<         "N+aw": function(Qt, Ft, Ht) {
-<             (function(Qt) {
-<                 ! function(Qt, Ft) {
-```
-
-vs.
-
-```
-21489a21490,22536
->         AQYT: function(Qt, Ft, Ht) {
->             (function(Qt) {
->                 ! function(Qt, Ft) {
-```
-
-We
-could replace one string with the other in one of the files, move a code block
-and come to the same result. This does **not** count as reproducible as nobody
-can be burdened with these steps but neither did we find a smoking gun. If the
-code on GitHub is fine then so is the app we got from Google Play.
-
-Lastly we recently introduced a new category for
-[obfuscated apps](https://walletscrutiny.com/moreApps/#obfuscated) and will have
-to move this app there if the problem cannot be resolved with the next release.
-
-Obfuscation/Minification is not a problem as long as the app is reproducible but
-a diff in obfuscated code makes analysis significantly harder as we had to
-experience today.
-
-In theory, if only one of 100 attempts of reproducing an app succeeds,
-succeeding once is proof that the binary is derived from the source, so failing
-to reproduce one and succeeding once should be good enough. We just won't re-run
-many times in the future. The provider has to fix the setup.
+The difference between
+`fromBuild_it.airgap.vault_26485/assets/public/main.30370a138a2aeee7f14f.js` and
+`fromPlay_it.airgap.vault_26485/assets/public/main.b45c2c54936a9801f503.js`
+though is not just the name and as this is actually executed and obfuscated code
+we cannot attribute to code on their repository, we sadly have to give the
+verdict **not verifiable**.

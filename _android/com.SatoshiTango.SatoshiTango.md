@@ -8,8 +8,8 @@ launchDate:
 latestUpdate: 2021-01-08
 apkVersionName: "3.4.15"
 stars: 3.9
-ratings: 3475
-reviews: 1926
+ratings: 3478
+reviews: 1929
 size: 70M
 website: http://www.satoshitango.com
 repository: 
