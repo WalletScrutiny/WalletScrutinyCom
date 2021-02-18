@@ -15,8 +15,9 @@ author_profile: true
 <div class="page-section">
 
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
-
-<img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 0em 1em 0" />
+<div style="width:100%;text-align:center;">
+<img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
+</div>
 <p style="text-align:center">
   Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your app allows you to use "your"
   coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
@@ -36,19 +37,21 @@ author_profile: true
 {% include press.html %}
 
 
-<h2 class="section-label">All reproducible wallets</h2>
+<h2 class="section-label" id="modularWalletControl">Showing <span id="modularVerdictPH">reproducible</span> wallets from 
+<span id="modularPlatformPH"></span></h2>
 
-{% assign platform = "android" %}
-{% assign verdicts = "reproducible" | split: "," %}
-{% assign selectedVerdict = "reproducible" %}
-{% assign showVerdictFilter = false %}
-{% include list_of_wallets.html %}
+<div id="modularWalletPayload">
 
-<a href="{{ base_path }}/moreApps">more Android Play Store apps</a>
+  {% assign platform = "android" %}
+  {% assign verdicts = "reproducible" | split: "," %}
+  {% assign selectedVerdict = "reproducible" %}
+  {% include list_of_wallets.html %}
 
-<a href="{{ base_path }}/apple">more Apple App Store apps</a>
+  <!-- <a href="{{ base_path }}/moreApps">more Android Play Store apps</a> -->
 
-<script src="{{ base_path }}/assets/js/scripts.js"></script>
+  <!-- <a href="{{ base_path }}/apple">more Apple App Store apps</a> -->
+
+</div>
 
 
 <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
@@ -59,3 +62,6 @@ author_profile: true
 <h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets_proportional.html %}
+
+<script src="{{ base_path }}/assets/js/scripts.js"></script>
+

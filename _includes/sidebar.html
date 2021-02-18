@@ -6,7 +6,7 @@
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
-        <img src=
+        <img loading="lazy" src=
         {% if s.image contains "://" %}
           "{{ s.image }}"
         {% else %}
