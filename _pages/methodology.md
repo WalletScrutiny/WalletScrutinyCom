@@ -48,7 +48,7 @@ What we do not do
 Our steps when reviewing a new app
 ==================================
 
-Some of the information is collected automatically from Google Play. Apps tagged
+Some of the information is collected automatically from the platforms. Apps tagged
 {% include verdictBadge.html verdict="wip" type='short' %}
 are work in progress and might have nothing to do with wallets. We have
 not had the time to look into it yet.
@@ -153,7 +153,7 @@ built from. At this point we review if the wallet provider claims that the
 wallet can be verified to match the published code. We then go on and try to
 reproduce the app. We
 
-1. obtain the app from Google Play
+1. obtain the app from platform
 1. compile the app from the published source code using the published build
    instructions
 1. compare the two apps
