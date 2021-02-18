@@ -10,6 +10,7 @@ author_profile: true
 <script>
   window.wallets = {% include allAppList.html %}
 </script>
+<script src="{{ base_path }}/assets/js/wallets.js"></script>
 <script src="{{ base_path }}/assets/js/hero-search.js"></script>
 
 <div class="page-section">

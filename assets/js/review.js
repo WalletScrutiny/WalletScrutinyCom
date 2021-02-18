@@ -43,3 +43,31 @@ function elapsedTime(d) {
   return max;
 
 }
+var s = String(window.location).split("/");
+var cVId = s[s.length-1].length > 0 ? s[s.length-1] : s[s.length - 2];
+
+window.orderedObs.forEach(function (e) {
+  if (e.appId === cVId) {
+    if (e.versions) {
+      // console.log(e)
+      e.versions.forEach(function (v) {
+        // console.log(v)
+        var a = document.createElement("a");
+        a.setAttribute("href", v.url)
+        a.innerHTML = `${v.category.toUpperCase()} version review available here.`;
+        document.getElementById("versions").append(a);
+      })
+    }
+  } else {
+    if (e.versions) {
+      e.versions.forEach(function (v) {
+        if (v.appId === cVId) {
+          var a = document.createElement("a");
+          a.setAttribute("href", e.url)
+          a.innerHTML = `${e.category.toUpperCase()} version review available here.`;
+          document.getElementById("versions").append(a);
+        } 
+      })
+    }
+  }
+})
