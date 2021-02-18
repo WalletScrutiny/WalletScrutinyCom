@@ -5,11 +5,11 @@ altTitle:
 appId: io.changenow
 idd: 1518003605
 released: 2020-06-29
-updated: 2020-11-22
-version: "1.3.0"
-score: 4.53333
-reviews: 90
-size: 20734976
+updated: 2021-02-15
+version: "1.4.1"
+score: 4.47368
+reviews: 95
+size: 29969408
 developerWebsite: 
 repository: 
 issue: 

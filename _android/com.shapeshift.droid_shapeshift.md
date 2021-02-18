@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.shapeshift.droid_shapeshift
 launchDate: 
-latestUpdate: 2021-01-27
-apkVersionName: "2.10.0"
-stars: 2.2
-ratings: 2244
-reviews: 1435
-size: 52M
+latestUpdate: 2021-02-11
+apkVersionName: "2.11.0"
+stars: 2.3
+ratings: 2273
+reviews: 1453
+size: 48M
 website: https://shapeshift.com
 repository: 
 issue: 

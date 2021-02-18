@@ -5,11 +5,11 @@ altTitle:
 users: 5000
 appId: it.airgap.vault
 launchDate: 2018-08-06
-latestUpdate: 2020-11-06
-apkVersionName: "3.5.1"
+latestUpdate: 2021-02-12
+apkVersionName: "3.6.0"
 stars: 4.0
-ratings: 72
-reviews: 28
+ratings: 73
+reviews: 29
 size: 10M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
@@ -18,7 +18,7 @@ icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-15
-reviewStale: false
+reviewStale: true
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2020-09-02

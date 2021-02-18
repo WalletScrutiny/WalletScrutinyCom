@@ -5,12 +5,12 @@ altTitle:
 users: 100000
 appId: com.lumiwallet.android
 launchDate: 2018-01-15
-latestUpdate: 2021-02-05
-apkVersionName: "3.3"
+latestUpdate: 2021-02-17
+apkVersionName: "3.3.2"
 stars: 4.5
-ratings: 3537
-reviews: 870
-size: 11M
+ratings: 3556
+reviews: 884
+size: 12M
 website: https://lumiwallet.com
 repository: 
 issue: 

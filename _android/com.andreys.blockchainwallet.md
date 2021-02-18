@@ -16,8 +16,8 @@ repository:
 issue: 
 icon: com.andreys.blockchainwallet.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-02-17
 reviewStale: false
 signer: 
 reviewArchive:
@@ -32,6 +32,8 @@ redirect_from:
   - /com.andreys.blockchainwallet/
 ---
 
+
+**Update:** This app is not on Google Play anymore
 
 This app is ... a game ... turned into a tool to collect your blockchain.com
 wallet credentials?

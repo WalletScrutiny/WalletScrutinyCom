@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: com.leadwallet.io
 launchDate: 
-latestUpdate: 2020-12-12
+latestUpdate: 2021-02-14
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -18,7 +18,7 @@ icon: com.leadwallet.io.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,7 +8,7 @@ launchDate:
 latestUpdate: 2021-01-23
 apkVersionName: "1.9.3"
 stars: 4.0
-ratings: 505
+ratings: 506
 reviews: 349
 size: 10M
 website: https://www.counos.io

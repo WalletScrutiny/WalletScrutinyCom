@@ -16,8 +16,8 @@ repository:
 issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-28
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-02-17
 reviewStale: false
 signer: 
 reviewArchive:
@@ -39,6 +39,8 @@ redirect_from:
   - /posts/com.bcoiner.webviewapp/
 ---
 
+
+**Update:** This app is not on Google Play anymore
 
 Bcoiner - Free Bitcoin Wallet
 does not share clear information it looks custodial and absent source code it is
