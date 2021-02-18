@@ -123,7 +123,7 @@ function updateModularPayload() {
                 
                 
               </tbody></table>
-              <p><a href="/${obj.category}/${obj.appId}/" rel="permalink">
+              <p><a href="/${obj.folder}/${obj.appId}/" rel="permalink">
                 <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
               </a></p>
             </div>
