@@ -1673,11 +1673,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
       border-radius: 25%;
       margin: 3px auto;
   }
-  .app-border-fx_logo.border-reproducible {
-    box-shadow: 0 0 0 2px var(--accent);
-}
 .-border-fx {
   box-shadow: 0 0 0 2px var(--rust);
+}
+  .app-border-fx_logo.border-reproducible {
+    box-shadow: 0 0 0 2px var(--accent);
 }
     #main.app-review {
       margin-top: 0;
