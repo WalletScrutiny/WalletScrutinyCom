@@ -537,6 +537,7 @@ pre.highlight code {
 .sidebar-search-container .walletSearch {
   padding: 10px;
   width: 100%;
+  font-size: .75rem;
 }
 
 .sidebar-search-container .walletSearch-parent {
@@ -831,7 +832,6 @@ table tr td label {
   text-align: center;
 }
 
-
 .platformFilterContainer .-filter-trigger:nth-of-type(1), .platformFilterContainer>label:nth-of-type(1) {
   grid-column: 1/2;
 }
@@ -905,7 +905,7 @@ table tr td label {
   border-radius: 20%;
 }
 
-@media (max-width:756px) {
+@media (max-width: 920px) {
   .page {
     padding-left: 0% !important;
     padding-right: 0% !important;
@@ -973,7 +973,6 @@ table tr td label {
 .-fdroid:checked~#gridOfWallets1 tr.-fdroid {
   display: var(--grid-display-0, flex) !important;
 }
-
 
 .-android:checked~.-android, .-iphone:checked~.-iphone, .-fdroid:checked~.-fdroid {
   color: var(--accent-text);
@@ -1612,6 +1611,8 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   max-width: calc(90px + 2rem);
   background-size: contain;
   background-repeat: no-repeat;
+  min-height: calc(90px + 2rem);
+  min-width: calc(90px + 2rem);
 }
 
 .svg.reproducible {
@@ -1628,7 +1629,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   display: none
 }
 
-@media (max-width: 930px) {
+@media (max-width: 920px) {
   #sidebarWalletList {
     display: none;
   }
