@@ -1,8 +1,4 @@
-
-
-
-if (document.querySelectorAll(".hero-cta").length > 0) {
-  var p = document.querySelectorAll(".hero-cta")[0]
+if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   var t = document.createElement("div")
   var r = document.createElement("ul")
   r.classList.add("results-list")
@@ -121,13 +117,13 @@ function searchCatalogue(termInput) {
     document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
     document.querySelectorAll(".results-list")[0].replaceWith(result)
   }, 500)
-  heroSearchScrollToTop(termInput)
+  searchScrollToTop(termInput)
 }
 
 function heroUX(termInput) {
   termInput.focus()
   termInput.select()
-  heroSearchScrollToTop(termInput)
+  searchScrollToTop(termInput)
 
   if (termInput.value.length > 0) {
     searchCatalogue(termInput)
@@ -135,7 +131,7 @@ function heroUX(termInput) {
   document.getElementById("exitSearchTrigger").style.display = "block"
 }
 
-function heroSearchScrollToTop(termInput) {
+function searchScrollToTop(termInput) {
   var s = window.pageYOffset + t.getBoundingClientRect().top - 15
   if (window.innerWidth <= 700) {
     window.scrollTo({
