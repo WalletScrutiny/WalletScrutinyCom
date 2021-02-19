@@ -18,7 +18,8 @@
 <div class="logo_name_bundle"
   title="{{ title  }}">
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-    <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/tiny/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+    <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/tiny/{{ post.icon }}" class="app_logo -border-fx border-{{ post.verdict }} -img-sz" alt="Wallet Logo">
     <span class="app_name">{{ title  }}</span>
   </a>
 </div>
+<script src="{{ base_path }}/assets/js/sidebar-wallets.js"></script>
