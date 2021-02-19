@@ -874,6 +874,7 @@ table tr td label {
   .page {
     padding-left: 0% !important;
     padding-right: 0% !important;
+    width: 90vw !important;
   }
   .app-review .page {
     margin-top: 1rem;
@@ -1536,6 +1537,10 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 @media (max-width: 500px) {
+  .app-summary-grid{
+    display: flex !important;
+    flex-direction: column;
+  }
   .app-summary-grid>.app-payload-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1646,14 +1651,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
       font-weight: 700;
     }
     #sidebarWalletList.mobile-compact .verdict {
-      display: block;
-      margin: auto 1rem !important;
-      font-size: 12px;
-      font-weight: 400;
-      opacity: .6;
-    }
-    #sidebarWalletList.mobile-compact .verdict::after {
-      content: '>';
+      display: none;
     }
     .mobile-compact .app_name {
       display: none;
@@ -1668,13 +1666,19 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     #sidebarWalletList.mobile-compact .logo_name_bundle:hover {
       background: none !important;
     }
-    #sidebarWalletList.mobile-compact>div .app_logo {
-      width: 2rem;
+    #sidebarWalletList.mobile-compact > div .app_logo {
+      width: calc(2rem - 6px);
       display: block;
-      height: 2rem;
+      height: calc(2rem - 6px);
       border-radius: 25%;
-      margin: 0;
-    }
+      margin: 3px auto;
+  }
+.-border-fx {
+  box-shadow: 0 0 0 2px var(--rust);
+}
+  .app-border-fx_logo.border-reproducible {
+    box-shadow: 0 0 0 2px var(--accent);
+}
     #main.app-review {
       margin-top: 0;
     }
