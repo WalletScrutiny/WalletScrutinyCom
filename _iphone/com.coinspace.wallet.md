@@ -1,4 +1,5 @@
 ---
+wsId: coinspace
 title: "Coin Bitcoin Wallet"
 altTitle: 
 

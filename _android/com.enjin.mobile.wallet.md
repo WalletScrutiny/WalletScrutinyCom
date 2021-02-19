@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Enjin: Bitcoin, Ethereum, Blockchain Crypto Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-01-01
 latestUpdate: 2021-02-17
 apkVersionName: "1.12.1-r"
 stars: 4.4
-ratings: 6927
-reviews: 4159
+ratings: 6939
+reviews: 4165
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 

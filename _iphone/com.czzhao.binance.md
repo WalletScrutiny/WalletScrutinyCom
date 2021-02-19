@@ -1,4 +1,5 @@
 ---
+wsId: binance
 title: "Binance: Buy Bitcoin Securely"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2021-02-09
 version: "2.25.2"
-score: 4.53341
-reviews: 31338
+score: 4.52726
+reviews: 32134
 size: 450238464
 developerWebsite: https://www.binance.com
 repository: 

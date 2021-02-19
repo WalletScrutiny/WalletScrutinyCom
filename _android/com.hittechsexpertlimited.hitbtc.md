@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "HitBTC – Cryptocurrency Exchange & Trading BTC App"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-22
 apkVersionName: "3.0.6"
 stars: 3.8
-ratings: 1026
-reviews: 500
+ratings: 1049
+reviews: 516
 size: 11M
 website: https://hitbtc.com
 repository: 

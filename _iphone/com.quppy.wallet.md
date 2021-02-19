@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Quppy – Secure Bitcoin Wallet"
 altTitle: 
 

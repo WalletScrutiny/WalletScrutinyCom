@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "COINiD Vault"
 altTitle: 
 

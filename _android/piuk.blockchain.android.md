@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2013-02-01
 latestUpdate: 2021-02-11
 apkVersionName: "Varies with device"
 stars: 3.5
-ratings: 100131
-reviews: 49572
+ratings: 100243
+reviews: 49644
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

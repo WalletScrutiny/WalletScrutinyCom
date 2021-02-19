@@ -1,15 +1,16 @@
 ---
+wsId: btciapp
 title: "Bitcoin India Wallet & Exchange"
 altTitle: 
 
 users: 50000
 appId: com.bitcoinindia.Btciapp
 launchDate: 
-latestUpdate: 2021-01-18
-apkVersionName: "3.1.30"
+latestUpdate: 2021-02-19
+apkVersionName: "3.1.33"
 stars: 2.3
 ratings: 1056
-reviews: 770
+reviews: 771
 size: 11M
 website: https://www.bitcoin-india.org
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Infinito Wallet - Crypto Wallet & DApp Browser"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate: 2017-11-15
 latestUpdate: 2020-12-16
 apkVersionName: "2.35.0"
 stars: 3.8
-ratings: 2053
+ratings: 2054
 reviews: 962
 size: 64M
 website: https://www.infinitowallet.io

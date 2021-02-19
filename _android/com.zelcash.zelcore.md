@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ZelCore - Multi Asset Crypto Wallet"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.zelcash.zelcore
 launchDate: 2018-09-21
 latestUpdate: 2021-02-16
 apkVersionName: "4.5.0"
-stars: 3.8
-ratings: 381
-reviews: 273
+stars: 3.7
+ratings: 385
+reviews: 275
 size: 17M
 website: https://zel.network/project/zelcore
 repository: 

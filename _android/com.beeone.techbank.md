@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "TechBank"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
 stars: 4.5
-ratings: 414
-reviews: 170
+ratings: 415
+reviews: 171
 size: 41M
 website: https://techbank.finance
 repository: 

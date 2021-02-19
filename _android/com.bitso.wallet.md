@@ -1,4 +1,5 @@
 ---
+wsId: bitso
 title: "Bitso - Buy and sell bitcoin"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-12
 apkVersionName: "2.19.4"
 stars: 3.1
-ratings: 7163
-reviews: 4245
+ratings: 7221
+reviews: 4287
 size: 28M
 website: https://bitso.com/app
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "YouHodler - Bitcoin Wallet"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1469351696
 released: 2019-07-25
 updated: 2021-02-15
 version: "2.10.0"
-score: 2.2
-reviews: 10
+score: 2.66667
+reviews: 12
 size: 35258368
 developerWebsite: https://www.youhodler.com/
 repository: 

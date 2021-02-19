@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "XcelPay - Secure Bitcoin & Ethereum Wallet"
 altTitle: 
 

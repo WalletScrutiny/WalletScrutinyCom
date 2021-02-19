@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Voyager - Buy Bitcoin & Crypto"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1396178579
 released: 2019-02-13
 updated: 2021-02-09
 version: "2.9.11"
-score: 4.69845
-reviews: 13424
+score: 4.70465
+reviews: 14007
 size: 58839040
 developerWebsite: https://www.investvoyager.com/
 repository: 

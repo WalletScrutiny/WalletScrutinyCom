@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "SWFT Blockchain"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-28
 apkVersionName: "5.10.3"
 stars: 4.6
-ratings: 1214
-reviews: 740
+ratings: 1216
+reviews: 741
 size: 32M
 website: http://www.swft.pro
 repository: 

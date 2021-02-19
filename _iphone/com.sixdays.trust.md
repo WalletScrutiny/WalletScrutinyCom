@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
 
 appId: com.sixdays.trust
 idd: 1288339409
 released: 2017-09-27
-updated: 2021-02-11
-version: "5.13"
-score: 4.79793
-reviews: 20237
-size: 39921664
+updated: 2021-02-19
+version: "5.14"
+score: 4.79817
+reviews: 20646
+size: 39942144
 developerWebsite: https://trustwallet.com
 repository: 
 issue: 

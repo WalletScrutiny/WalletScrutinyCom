@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Jaxx Liberty: Blockchain Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-09-01
 latestUpdate: 2021-02-01
 apkVersionName: "2.5.0"
 stars: 3.5
-ratings: 4386
-reviews: 2438
+ratings: 4396
+reviews: 2443
 size: 17M
 website: https://jaxx.io
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ShapeShift: Buy & Trade Crypto"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 996569075
 released: 2015-06-09
 updated: 2021-02-12
 version: "2.11.0"
-score: 3.06497
-reviews: 354
+score: 3.03601
+reviews: 361
 size: 77678592
 developerWebsite: https://shapeshift.com
 repository: 

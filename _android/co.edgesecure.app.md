@@ -1,4 +1,5 @@
 ---
+wsId: edge
 title: "Edge - Bitcoin, Ethereum, Monero, Ripple Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-03-01
 latestUpdate: 2021-02-12
 apkVersionName: "2.0.3"
 stars: 3.9
-ratings: 2365
-reviews: 1337
+ratings: 2373
+reviews: 1344
 size: 39M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

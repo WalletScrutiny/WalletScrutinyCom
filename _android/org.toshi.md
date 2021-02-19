@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2017-09-20
 latestUpdate: 2021-02-12
 apkVersionName: "23.3.358"
 stars: 4.0
-ratings: 15536
-reviews: 6548
+ratings: 15598
+reviews: 6575
 size: Varies with device
 website: https://wallet.coinbase.com
 repository: 

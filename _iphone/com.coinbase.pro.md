@@ -1,4 +1,5 @@
 ---
+wsId: coinbasepro
 title: "Coinbase Pro"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1446636681
 released: 2019-10-10
 updated: 2021-02-12
 version: "1.0.63"
-score: 4.71068
-reviews: 40976
+score: 4.71143
+reviews: 42084
 size: 46750720
 developerWebsite: https://pro.coinbase.com
 repository: 

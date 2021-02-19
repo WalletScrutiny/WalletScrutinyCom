@@ -1,4 +1,5 @@
 ---
+wsId: binance
 title: "Binance: Bitcoin Marketplace & Crypto Wallet"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.binance.dev
 launchDate: 2017-10-25
 latestUpdate: 2021-02-07
 apkVersionName: "1.36.3"
-stars: 4.3
-ratings: 86273
-reviews: 35368
+stars: 4.2
+ratings: 87161
+reviews: 35897
 size: Varies with device
 website: https://www.binance.com
 repository: 

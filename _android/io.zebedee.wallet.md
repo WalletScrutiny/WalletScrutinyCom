@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ZEBEDEE Wallet"
 altTitle: 
 

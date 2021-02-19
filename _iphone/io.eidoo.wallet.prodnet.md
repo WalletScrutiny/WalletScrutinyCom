@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Eidoo Ethereum Bitcoin Wallet"
 altTitle: 
 

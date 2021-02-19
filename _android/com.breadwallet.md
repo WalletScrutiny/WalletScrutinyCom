@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "BRD Bitcoin Wallet. Bitcoin Cash BCH, Bitcoin BTC"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2016-07-21
 latestUpdate: 2021-02-18
 apkVersionName: "4.7.0"
 stars: 4.2
-ratings: 18279
-reviews: 7334
+ratings: 18354
+reviews: 7367
 size: 24M
 website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android

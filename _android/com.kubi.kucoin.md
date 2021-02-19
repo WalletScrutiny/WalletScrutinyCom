@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "3.27.1"
 stars: 3.6
-ratings: 3655
-reviews: 2021
+ratings: 3684
+reviews: 2041
 size: 45M
 website: 
 repository: 

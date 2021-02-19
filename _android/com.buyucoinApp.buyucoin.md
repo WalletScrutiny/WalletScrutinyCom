@@ -1,4 +1,5 @@
 ---
+wsId: buyucoin
 title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-11
 apkVersionName: "3.3"
 stars: 4.0
-ratings: 395
-reviews: 323
+ratings: 398
+reviews: 325
 size: 17M
 website: https://www.buyucoin.com
 repository: 

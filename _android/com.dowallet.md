@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
 altTitle: 
 

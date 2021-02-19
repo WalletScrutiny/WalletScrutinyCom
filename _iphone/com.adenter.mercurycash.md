@@ -1,4 +1,5 @@
 ---
+wsId: mercurycash
 title: "Mercury Cash"
 altTitle: 
 

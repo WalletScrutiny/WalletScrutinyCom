@@ -1,4 +1,5 @@
 ---
+wsId: coinbasepro
 title: "Coinbase Pro – Bitcoin & Crypto Trading"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-12
 apkVersionName: "1.0.64"
 stars: 4.1
-ratings: 4407
-reviews: 2383
+ratings: 4495
+reviews: 2406
 size: 35M
 website: https://pro.coinbase.com
 repository: 

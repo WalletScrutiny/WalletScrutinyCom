@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Wallet by SpectroCoin"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "FTX Pro"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
 stars: 3.1
-ratings: 1209
-reviews: 836
+ratings: 1220
+reviews: 844
 size: 46M
 website: https://ftx.com
 repository: 

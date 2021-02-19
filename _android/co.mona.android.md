@@ -1,4 +1,5 @@
 ---
+wsId: mona
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2017-08-30
 latestUpdate: 2021-02-04
 apkVersionName: "3.84.0"
 stars: 3.9
-ratings: 54552
-reviews: 21862
+ratings: 54823
+reviews: 22015
 size: 86M
 website: https://www.crypto.com
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: coinomi
 title: "Coinomi Wallet"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2021-02-11
 version: "1.9.3"
-score: 4.37169
-reviews: 643
+score: 4.37973
+reviews: 661
 size: 115743744
 developerWebsite: https://www.coinomi.com
 repository: 

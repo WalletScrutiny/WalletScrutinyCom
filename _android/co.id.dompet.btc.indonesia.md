@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Dompet Bitcoin Indonesia"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate:
 latestUpdate: 2020-12-08
 apkVersionName: "Varies with device"
 stars: 3.5
-ratings: 4527
+ratings: 4528
 reviews: 2597
 size: Varies with device
 website: https://www.indodax.com

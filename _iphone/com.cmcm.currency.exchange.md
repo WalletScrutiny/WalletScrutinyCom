@@ -1,4 +1,5 @@
 ---
+wsId: bitrue
 title: "Bitrue"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1435877386
 released: 2018-09-16
 updated: 2021-01-13
 version: "4.3.6"
-score: 3.32051
-reviews: 78
+score: 3.27711
+reviews: 83
 size: 91925504
 developerWebsite: 
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: hodl
 title: "HODL Wallet : Bitcoin Wallet"
 altTitle: 
 

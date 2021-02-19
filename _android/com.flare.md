@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Flare Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "HyperPay Mobile wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "4.0.15"
 stars: 4.0
-ratings: 794
-reviews: 598
+ratings: 797
+reviews: 599
 size: 101M
 website: https://hyperpay.tech
 repository: 

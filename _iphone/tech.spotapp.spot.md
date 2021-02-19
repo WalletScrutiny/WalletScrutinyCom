@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Buy Bitcoin - Spot Wallet app"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1390560448
 released: 2018-08-07
 updated: 2021-02-16
 version: "3.1"
-score: 4.61623
-reviews: 2538
+score: 4.61843
+reviews: 2571
 size: 83738624
 developerWebsite: https://spot-bitcoin.com
 repository: 

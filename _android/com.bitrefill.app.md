@@ -1,4 +1,5 @@
 ---
+wsId: bitrefill
 title: "Bitrefill - Use Bitcoin to buy Gift Cards & Topups"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-04-10
 latestUpdate: 2019-09-28
 apkVersionName: "1.28.9"
 stars: 4.2
-ratings: 425
-reviews: 248
+ratings: 426
+reviews: 249
 size: 5.2M
 website: https://www.bitrefill.com
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Celsius - Crypto Wallet"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2021-01-25
 version: "4.7.0"
-score: 4.26612
-reviews: 729
+score: 4.2721
+reviews: 735
 size: 43788288
 developerWebsite: https://celsius.network/app
 repository: 

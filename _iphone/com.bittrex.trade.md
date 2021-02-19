@@ -1,4 +1,5 @@
 ---
+wsId: bittrex
 title: "Bittrex"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1465314783
 released: 2019-12-19
 updated: 2021-02-02
 version: "1.13.1"
-score: 2.40703
-reviews: 199
+score: 2.3913
+reviews: 207
 size: 62560256
 developerWebsite: https://global.bittrex.com
 repository: 

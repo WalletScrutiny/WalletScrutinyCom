@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Wallet of Satoshi"
 altTitle: 
 
 appId: com.livingroomofsatoshi.wallet
 idd: 1438599608
 released: 2019-05-20
-updated: 2020-12-16
-version: "1.10.4"
-score: 4.15789
-reviews: 19
-size: 32997376
+updated: 2021-02-19
+version: "1.10.5"
+score: 4
+reviews: 20
+size: 33001472
 developerWebsite: https://www.walletofsatoshi.com
 repository: 
 issue: 

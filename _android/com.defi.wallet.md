@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Crypto.com l DeFi Wallet"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.defi.wallet
 launchDate: 2020-05-11
 latestUpdate: 2021-01-27
 apkVersionName: "1.6.0"
-stars: 3.4
-ratings: 1247
-reviews: 499
+stars: 3.2
+ratings: 1268
+reviews: 511
 size: 23M
 website: https://crypto.com/en/defi/
 repository: 

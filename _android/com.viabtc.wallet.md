@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ViaWallet - Multi-chain Wallet"
 altTitle: 
 

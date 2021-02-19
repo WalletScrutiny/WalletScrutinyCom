@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "LiteBit - Buy & sell Bitcoin"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-10
 apkVersionName: "2.15.3"
 stars: 2.4
-ratings: 303
-reviews: 208
+ratings: 309
+reviews: 212
 size: 78M
 website: https://www.litebit.eu
 repository: 

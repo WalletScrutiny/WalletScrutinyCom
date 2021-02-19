@@ -1,4 +1,5 @@
 ---
+wsId: paytomat
 title: "Paytomat Wallet"
 altTitle: 
 

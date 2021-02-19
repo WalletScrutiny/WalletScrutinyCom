@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Lunes Wallet  - Lunes, Bitcoin, Litecoin,  Buy BTC"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate: 2018-01-31
 latestUpdate: 2018-12-06
 apkVersionName: "2.1"
 stars: 3.9
-ratings: 223
+ratings: 222
 reviews: 148
 size: 7.3M
 website: https://luneswallet.app

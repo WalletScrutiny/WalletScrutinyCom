@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Mycelium Bitcoin Wallet"
 altTitle: 
 

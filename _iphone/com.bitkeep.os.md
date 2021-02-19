@@ -1,4 +1,5 @@
 ---
+wsId: bitkeep
 title: "BitKeep"
 altTitle: 
 

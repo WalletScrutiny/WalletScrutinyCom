@@ -1,15 +1,16 @@
 ---
-title: "BRD Bitcoin Wallet. BTC, Ether"
+wsId: 
+title: "BRD Bitcoin Wallet BTC BCH ETH"
 altTitle: 
 
 appId: org.voisine.breadwallet
 idd: 885251393
 released: 2014-06-22
-updated: 2021-01-13
-version: "4.7"
-score: 4.58205
-reviews: 9592
-size: 38657024
+updated: 2021-02-18
+version: "4.8"
+score: 4.5833
+reviews: 9640
+size: 38648832
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios
 issue: 

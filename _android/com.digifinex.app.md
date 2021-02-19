@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "2021.02.05"
 stars: 3.9
-ratings: 2207
+ratings: 2208
 reviews: 1399
 size: 70M
 website: https://www.digifinex.com

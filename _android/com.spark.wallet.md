@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Spark Lightning Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "iWallet - blockchain wallet for Bitcoin, Ethereum"
 altTitle: 
 

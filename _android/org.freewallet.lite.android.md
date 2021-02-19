@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Lite HD Wallet – Your Coin Base"
 altTitle: 
 

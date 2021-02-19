@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Huobi Global"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: pro.huobi
 launchDate: 
 latestUpdate: 2021-02-08
 apkVersionName: "6.1.5"
-stars: 4.5
-ratings: 7673
-reviews: 2865
+stars: 4.7
+ratings: 7960
+reviews: 2918
 size: 63M
 website: https://www.huobi.com/en-us
 repository: 

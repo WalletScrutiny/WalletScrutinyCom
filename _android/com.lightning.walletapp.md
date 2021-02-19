@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "BLW: Bitcoin and Lightning Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-05-01
 latestUpdate: 2021-02-13
 apkVersionName: "0.4.7"
 stars: 3.9
-ratings: 336
-reviews: 221
+ratings: 335
+reviews: 220
 size: 4.9M
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet

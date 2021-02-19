@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Swipe Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "1.530"
 stars: 3.5
-ratings: 1320
-reviews: 942
+ratings: 1330
+reviews: 951
 size: 57M
 website: https://swipe.io
 repository: 

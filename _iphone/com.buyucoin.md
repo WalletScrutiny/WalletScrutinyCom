@@ -1,4 +1,5 @@
 ---
+wsId: buyucoin
 title: "BuyUcoin"
 altTitle: 
 

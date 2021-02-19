@@ -1,4 +1,5 @@
 ---
+wsId: guarda
 title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-11-01
 latestUpdate: 2021-02-10
 apkVersionName: "2.20.7"
 stars: 4.1
-ratings: 2066
-reviews: 1145
+ratings: 2080
+reviews: 1152
 size: 34M
 website: http://guarda.co
 repository: 

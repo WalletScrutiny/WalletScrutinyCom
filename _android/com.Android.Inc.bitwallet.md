@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "BitWallet - Buy & Sell Bitcoin"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-07
 apkVersionName: "1.4.11"
 stars: 4.9
-ratings: 583
-reviews: 466
+ratings: 565
+reviews: 448
 size: 26M
 website: https://www.bitwallet.org
 repository: 

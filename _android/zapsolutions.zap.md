@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Zap: Bitcoin Lightning Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Luno Bitcoin & Cryptocurrency"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 927362479
 released: 2014-11-03
 updated: 2021-02-10
 version: "7.7.0"
-score: 4.43133
-reviews: 3051
+score: 4.43552
+reviews: 3086
 size: 89106432
 developerWebsite: https://www.luno.com
 repository: 

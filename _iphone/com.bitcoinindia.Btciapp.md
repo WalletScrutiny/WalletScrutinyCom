@@ -1,4 +1,5 @@
 ---
+wsId: btciapp
 title: "Bitcoin India Wallet &Exchange"
 altTitle: 
 

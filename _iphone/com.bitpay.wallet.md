@@ -1,4 +1,5 @@
 ---
+wsId: bitpaywallet
 title: "BitPay – Buy Crypto"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1149581638
 released: 2016-10-24
 updated: 2021-02-12
 version: "12.1.0"
-score: 4.05659
-reviews: 1025
+score: 4.04951
+reviews: 1030
 size: 82147328
 developerWebsite: https://bitpay.com
 repository: 

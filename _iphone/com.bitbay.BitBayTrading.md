@@ -1,4 +1,5 @@
 ---
+wsId: bitpaytrading
 title: "BitBay - Bitcoin & Crypto"
 altTitle: 
 

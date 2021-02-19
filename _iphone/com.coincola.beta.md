@@ -1,4 +1,5 @@
 ---
+wsId: coincola
 title: "CoinCola – Buy Bitcoin"
 altTitle: 
 

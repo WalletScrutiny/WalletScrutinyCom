@@ -1,15 +1,16 @@
 ---
+wsId: africa
 title: "BuyCoins - Buy Bitcoin & More"
 altTitle: 
 
 appId: africa.bitkoin.buycoins
 idd: 1389966202
 released: 2018-08-02
-updated: 2021-02-16
-version: "5.5.1"
-score: 3.9
-reviews: 40
-size: 42119168
+updated: 2021-02-17
+version: "5.5.2"
+score: 3.92683
+reviews: 41
+size: 59447296
 developerWebsite: https://buycoins.africa
 repository: 
 issue: 

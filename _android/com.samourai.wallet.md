@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Samourai Wallet"
 altTitle: 
 

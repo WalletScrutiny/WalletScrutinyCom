@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Green: Bitcoin Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ChangeNOW – Limitless Crypto Exchange"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-08
 apkVersionName: "1.104"
 stars: 3.9
-ratings: 579
-reviews: 319
+ratings: 584
+reviews: 322
 size: 5.8M
 website: http://changenow.io
 repository: 

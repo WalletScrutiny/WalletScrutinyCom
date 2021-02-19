@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
 altTitle: 
 

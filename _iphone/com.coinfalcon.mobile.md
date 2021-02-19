@@ -1,4 +1,5 @@
 ---
+wsId: coinfalcon
 title: "CoinFalcon – Buy Bitcoin"
 altTitle: 
 

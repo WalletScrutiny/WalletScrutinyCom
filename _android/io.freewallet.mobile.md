@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "FreeWallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2016-09-01
 latestUpdate: 2019-03-17
 apkVersionName: "0.1.9"
 stars: 4.1
-ratings: 56
-reviews: 29
+ratings: 57
+reviews: 30
 size: 6.7M
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile

@@ -1,4 +1,5 @@
 ---
+wsId: busha
 title: "Busha - Buy and Sell Bitcoins"
 altTitle: 
 

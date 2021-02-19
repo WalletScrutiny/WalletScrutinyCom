@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "elegro Wallet: instant crypto-fiat payments"
 altTitle: 
 

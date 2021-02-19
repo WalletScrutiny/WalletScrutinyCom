@@ -1,4 +1,5 @@
 ---
+wsId: counos
 title: "Counos Bitcoin Wallet"
 altTitle: 
 

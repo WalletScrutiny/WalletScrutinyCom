@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "STASIS Stablecoin Wallet"
 altTitle: 
 

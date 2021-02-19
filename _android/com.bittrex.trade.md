@@ -1,4 +1,5 @@
 ---
+wsId: bittrex
 title: "Bittrex Global"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-01
 apkVersionName: "1.13.1"
 stars: 2.5
-ratings: 971
-reviews: 633
+ratings: 975
+reviews: 637
 size: 53M
 website: https://global.bittrex.com
 repository: 

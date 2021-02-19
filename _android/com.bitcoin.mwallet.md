@@ -1,4 +1,5 @@
 ---
+wsId: mwallet
 title: "Bitcoin Wallet"
 altTitle: "Bitcoin Wallet by Bitcoin.com"
 
@@ -8,8 +9,8 @@ launchDate: 2017-06-19
 latestUpdate: 2021-01-13
 apkVersionName: "6.9.10"
 stars: 4.4
-ratings: 18897
-reviews: 6885
+ratings: 19017
+reviews: 6908
 size: 47M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

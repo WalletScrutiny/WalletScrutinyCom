@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-11
 apkVersionName: "2.11.0"
 stars: 2.3
-ratings: 2281
-reviews: 1457
+ratings: 2288
+reviews: 1463
 size: 48M
 website: https://shapeshift.com
 repository: 

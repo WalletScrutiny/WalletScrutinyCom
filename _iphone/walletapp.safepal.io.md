@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "SafePal Wallet"
 altTitle: 
 

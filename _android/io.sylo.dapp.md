@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Sylo - Smart Wallet & Messenger"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate:
 latestUpdate: 2021-02-16
 apkVersionName: "3.0.9-buy-crypto"
 stars: 4.3
-ratings: 553
+ratings: 554
 reviews: 285
 size: 339M
 website: https://www.sylo.io/wallet

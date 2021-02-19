@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
 

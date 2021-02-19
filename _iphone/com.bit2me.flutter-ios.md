@@ -1,4 +1,5 @@
 ---
+wsId: bit2me
 title: "Bit2Me - Comprar Bitcoins"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1459809738
 released: 2019-06-04
 updated: 2021-02-10
 version: "2.0.51"
-score: 4.81818
-reviews: 55
+score: 4.82143
+reviews: 56
 size: 99208192
 developerWebsite: https://bit2me.com
 repository: 

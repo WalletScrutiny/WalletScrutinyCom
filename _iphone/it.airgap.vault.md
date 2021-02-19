@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "AirGap Vault - Secure Secrets"
 altTitle: 
 
 appId: it.airgap.vault
 idd: 1417126841
 released: 2018-08-24
-updated: 2021-02-15
-version: "3.6.0"
+updated: 2021-02-18
+version: "3.6.1"
 score: 5
 reviews: 1
-size: 29872128
+size: 29876224
 developerWebsite: 
 repository: 
 issue: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Poloniex Crypto Exchange"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
 version: "1.14.1"
-score: 4.60724
-reviews: 1958
+score: 4.60612
+reviews: 1960
 size: 98255872
 developerWebsite: https://www.poloniex.com
 repository: 

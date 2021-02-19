@@ -1,4 +1,5 @@
 ---
+wsId: bybit
 title: "Bybit: Bitcoin Crypto Trading"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Wallet - MaxWallet"
 altTitle: 
 

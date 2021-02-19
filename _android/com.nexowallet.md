@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Nexo - Crypto Banking Account"
 altTitle: 
 
 users: 500000
 appId: com.nexowallet
 launchDate: 
-latestUpdate: 2021-02-08
-apkVersionName: "1.3.2"
+latestUpdate: 2021-02-17
+apkVersionName: "1.3.3"
 stars: 4.1
-ratings: 6286
-reviews: 2959
+ratings: 6349
+reviews: 2990
 size: 50M
 website: https://nexo.io
 repository: 

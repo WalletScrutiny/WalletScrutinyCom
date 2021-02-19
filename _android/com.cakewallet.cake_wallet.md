@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Cake Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-13
 apkVersionName: "4.1.2"
 stars: 4.2
-ratings: 316
-reviews: 208
+ratings: 317
+reviews: 209
 size: 62M
 website: 
 repository: 

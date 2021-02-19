@@ -1,4 +1,5 @@
 ---
+wsId: cryptonator
 title: "Cryptonator"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1463793201
 released: 2019-06-11
 updated: 2021-01-27
 version: "4.1.4"
-score: 3.55556
-reviews: 9
+score: 3.7
+reviews: 10
 size: 79916032
 developerWebsite: https://www.cryptonator.com
 repository: 

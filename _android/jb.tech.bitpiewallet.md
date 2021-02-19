@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-01
 apkVersionName: "1.3"
 stars: 4.2
-ratings: 71
-reviews: 71
+ratings: 70
+reviews: 70
 size: 11M
 website: 
 repository: 

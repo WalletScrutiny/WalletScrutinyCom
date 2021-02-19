@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Paper Wallet"
 altTitle: 
 
