@@ -1,1 +1,0 @@
-// window.innerWidth <= 500 && (document.querySelectorAll(".-img-sz").forEach(function (e) { e.setAttribute("src", String(e.getAttribute("src")).replace("/tiny/", "/small/")) }));
