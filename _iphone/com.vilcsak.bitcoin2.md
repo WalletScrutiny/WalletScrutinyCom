@@ -6,11 +6,11 @@ altTitle:
 appId: com.vilcsak.bitcoin2
 idd: 886427730
 released: 2014-06-22
-updated: 2021-02-18
-version: "9.12.0"
-score: 4.6771
-reviews: 1011098
-size: 69056512
+updated: 2021-02-20
+version: "9.12.2"
+score: 4.67715
+reviews: 1012618
+size: 68261888
 developerWebsite: http://www.coinbase.com
 repository: 
 issue: 

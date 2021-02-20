@@ -9,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "2.0.51"
 stars: 4.4
-ratings: 909
-reviews: 543
+ratings: 916
+reviews: 546
 size: 17M
 website: https://bit2me.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: "ezDeFi - Crypto & Bitcoin Wallet"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.ezdefi
 launchDate: 
 latestUpdate: 2021-02-11

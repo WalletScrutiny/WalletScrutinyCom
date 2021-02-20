@@ -9,7 +9,7 @@ released: 2018-10-02
 updated: 2020-01-23
 version: "1.5.4"
 score: 5
-reviews: 4
+reviews: 5
 size: 12781568
 developerWebsite: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault

@@ -9,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-18
 apkVersionName: "1.9.4.3"
 stars: 4.6
-ratings: 3372
-reviews: 1222
+ratings: 3394
+reviews: 1230
 size: 14M
 website: https://www.coinex.co
 repository: 

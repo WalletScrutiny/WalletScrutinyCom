@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bithumbko
 title: "빗썸 트레이더"
 altTitle: 
 
@@ -12,19 +12,19 @@ stars: 2.6
 ratings: 338
 reviews: 181
 size: 19M
-website: 
+website: https://www.bithumb.com
 repository: 
 issue: 
 icon: com.btckorea.bithumba.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-19
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BithumbOfficial
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -34,3 +34,6 @@ redirect_from:
 ---
 
 
+This app appears to be the korean version of
+[this app](/android/com.btckorea.bithumb/). Google Translate doesn't reveal any
+substantial difference. We conclude it is a custodial offering and **not verifiable**.

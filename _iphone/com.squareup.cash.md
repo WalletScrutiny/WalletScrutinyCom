@@ -8,8 +8,8 @@ idd: 711923939
 released: 2013-10-16
 updated: 2021-02-18
 version: "3.33.1"
-score: 4.73452
-reviews: 1409449
+score: 4.73506
+reviews: 1416182
 size: 212092928
 developerWebsite: https://cash.app
 repository: 

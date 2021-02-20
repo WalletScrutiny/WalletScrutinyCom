@@ -3,23 +3,22 @@ wsId: cake
 title: "Cake Wallet"
 altTitle: 
 
-users: 10000
-appId: com.cakewallet.cake_wallet
-launchDate: 
-latestUpdate: 2021-02-13
-apkVersionName: "4.1.2"
-stars: 4.1
-ratings: 318
-reviews: 210
-size: 62M
-website: https://cakewallet.com
+appId: com.fotolockr.cakewallet
+idd: 1334702542
+released: 2018-01-19
+updated: 2021-02-13
+version: "4.1.2"
+score: 3.74576
+reviews: 177
+size: 131943424
+developerWebsite: http://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: 
-icon: com.cakewallet.cake_wallet.png
+icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-07
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -32,7 +31,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Cake Wallet allows you to safely store, send receive and exchange your XMR /
   Monero and BTC / Bitcoin.
