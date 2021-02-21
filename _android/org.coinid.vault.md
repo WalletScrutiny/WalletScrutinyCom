@@ -6,7 +6,7 @@ altTitle:
 users: 1000
 appId: org.coinid.vault
 launchDate: 2018-10-14
-latestUpdate: 2020-05-21
+latestUpdate: 2021-02-20
 apkVersionName: "1.5.5"
 stars: 5.0
 ratings: 8

@@ -8,9 +8,9 @@ appId: jb.tech.bitpiewallet
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "1.3"
-stars: 4.2
-ratings: 70
-reviews: 70
+stars: 4.1
+ratings: 61
+reviews: 61
 size: 11M
 website: 
 repository: 

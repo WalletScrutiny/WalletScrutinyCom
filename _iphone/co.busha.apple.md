@@ -6,11 +6,11 @@ altTitle:
 appId: co.busha.apple
 idd: 1450373493
 released: 2019-02-03
-updated: 2021-01-06
-version: "2.6.4"
+updated: 2021-02-19
+version: "2.6.5"
 score: 4.2381
 reviews: 42
-size: 64629760
+size: 64664576
 developerWebsite: https://busha.co
 repository: 
 issue: 
