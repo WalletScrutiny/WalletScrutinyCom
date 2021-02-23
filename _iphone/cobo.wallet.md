@@ -1,4 +1,5 @@
 ---
+wsId: cobowallet
 title: "Cobo Crypto Wallet: BTC & DASH"
 altTitle: 
 

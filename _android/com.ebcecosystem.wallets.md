@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "EBC Wallet"
 altTitle: 
 

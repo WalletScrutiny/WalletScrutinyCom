@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Zeus: Bitcoin/Lightning Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ChangeNOW Crypto Exchange"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2021-02-15
 version: "1.4.1"
-score: 4.47368
-reviews: 95
+score: 4.5
+reviews: 100
 size: 29969408
 developerWebsite: 
 repository: 

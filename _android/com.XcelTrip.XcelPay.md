@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "XcelPay - Secure Bitcoin & Ethereum Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "2.17.0"
 stars: 4.2
-ratings: 386
-reviews: 246
+ratings: 388
+reviews: 247
 size: 32M
 website: http://www.xcelpay.io
 repository: 

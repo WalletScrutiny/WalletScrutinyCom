@@ -1,4 +1,5 @@
 ---
+wsId: cryptonator
 title: "Cryptonator cryptocurrency wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2018-11-01
 latestUpdate: 2021-01-22
 apkVersionName: "4.0"
 stars: 3.7
-ratings: 4696
-reviews: 2728
+ratings: 4701
+reviews: 2733
 size: 8.7M
 website: https://www.cryptonator.com
 repository: 

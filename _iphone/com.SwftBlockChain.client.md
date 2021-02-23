@@ -1,12 +1,13 @@
 ---
+wsId: 
 title: "SWFT Blockchain"
 altTitle: 
 
 appId: com.SwftBlockChain.client
 idd: 1435569339
 released: 2018-09-28
-updated: 2021-02-01
-version: "5.10.5"
+updated: 2021-02-19
+version: "5.10.6"
 score: 4.57463
 reviews: 134
 size: 112080896

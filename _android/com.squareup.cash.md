@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Cash App"
 altTitle: 
 
 users: 10000000
 appId: com.squareup.cash
 launchDate: 
-latestUpdate: 2021-02-16
+latestUpdate: 2021-02-18
 apkVersionName: "3.32.1"
 stars: 4.2
-ratings: 325493
-reviews: 121750
+ratings: 327712
+reviews: 122409
 size: 27M
 website: https://cash.app
 repository: 

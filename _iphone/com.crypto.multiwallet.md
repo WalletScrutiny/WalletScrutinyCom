@@ -1,14 +1,15 @@
 ---
+wsId: guarda
 title: "Crypto Wallet Bitcoin,Tron,ETH"
 altTitle: 
 
 appId: com.crypto.multiwallet
 idd: 1442083982
 released: 2018-12-01
-updated: 2021-02-10
-version: "2.20.7"
-score: 4.24286
-reviews: 350
+updated: 2021-02-21
+version: "2.21.2"
+score: 4.25485
+reviews: 361
 size: 127626240
 developerWebsite: https://guarda.com/mobile-wallet
 repository: 

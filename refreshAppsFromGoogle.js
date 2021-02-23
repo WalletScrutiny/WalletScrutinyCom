@@ -11,7 +11,7 @@ const sleep = require('sleep').sleep
 
 const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,\
+repository,issue,icon,bugbounty,verdict,providerTwitter,wsId,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
 altTitle,reviewStale,reviewArchive,signer".split(","))
 
@@ -100,6 +100,7 @@ function writeResult(app, header, iconExtension, body) {
   //console.log(`Writing results to ${p}`)
   process.stdout.write("🤖")
   f.write(`---
+wsId: ${header.wsId || ""}
 title: "${app.title}"
 altTitle: ${altTitle}
 

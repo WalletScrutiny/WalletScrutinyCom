@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "FreeWallet"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: "1.0.9"
-score: 4
-reviews: 2
+score: 4.33333
+reviews: 3
 size: 13651968
 developerWebsite: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile

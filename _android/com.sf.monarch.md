@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Monarch Wallet"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate: 2018-10-19
 latestUpdate: 2021-02-09
 apkVersionName: "2.1.9"
 stars: 3.3
-ratings: 741
+ratings: 742
 reviews: 385
 size: 18M
 website: https://monarchwallet.com

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Wallet - Buy BTC"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.polehin.android
 launchDate: 2019-01-01
 latestUpdate: 2021-02-12
 apkVersionName: "3.4.9"
-stars: 4.2
-ratings: 14790
-reviews: 8559
+stars: 4.3
+ratings: 14964
+reviews: 8659
 size: 7.0M
 website: https://polehin.com
 repository: 

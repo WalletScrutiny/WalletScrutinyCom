@@ -9,7 +9,7 @@ const exec = require('child_process').exec
 const yaml = require('js-yaml')
 const sleep = require('sleep').sleep
 const allowedHeaders = new Set("title,altTitle,appId,idd,released,score,reviews,\
-updated,version,size,developerWebsite,\
+updated,version,size,developerWebsite,wsId,\
 repository,issue,icon,bugbounty,verdict,providerTwitter,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
 reviewStale,reviewArchive,signer".split(","))
@@ -100,6 +100,7 @@ function writeResult(app, header, iconExtension, body) {
   //console.log(`Writing results to ${p}`)
   process.stdout.write("🍎")
   f.write(`---
+wsId: ${header.wsId || ""}
 title: "${app.title}"
 altTitle: ${altTitle}
 

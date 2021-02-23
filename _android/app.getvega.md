@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Vega - Lightning Wallet"
 altTitle: 
 

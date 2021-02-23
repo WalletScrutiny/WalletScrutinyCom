@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: jb.tech.bitpiewallet
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "1.3"
-stars: 4.2
-ratings: 71
-reviews: 71
+stars: 4.1
+ratings: 61
+reviews: 61
 size: 11M
 website: 
 repository: 

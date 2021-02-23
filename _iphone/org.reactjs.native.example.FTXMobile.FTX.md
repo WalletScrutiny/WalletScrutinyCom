@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "FTX Pro: Trade Crypto Anywhere"
 altTitle: 
 
@@ -7,8 +8,8 @@ idd: 1512374471
 released: 2020-05-20
 updated: 2021-01-21
 version: "1.1.0"
-score: 4.45238
-reviews: 42
+score: 4.46512
+reviews: 43
 size: 27563008
 developerWebsite: https://ftx.com
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitstamp – Buy & Sell Bitcoin at Crypto Exchange"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-01-11
 apkVersionName: "1.6.3"
 stars: 4.4
-ratings: 8834
-reviews: 2429
+ratings: 8917
+reviews: 2447
 size: 13M
 website: https://www.bitstamp.net
 repository: 

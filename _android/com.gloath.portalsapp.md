@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Portals : Crypto Wallet Generator - Bitcoin"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2020-12-20
 apkVersionName: "0.0.4a"
 stars: 4.1
-ratings: 81
-reviews: 40
+ratings: 82
+reviews: 41
 size: 11M
 website: 
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: bitnovo
 title: "Bitnovo - Crypto Wallet"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.bitnovo.app
 launchDate: 
 latestUpdate: 2020-12-02
 apkVersionName: "2.8.3"
-stars: 2.7
-ratings: 250
-reviews: 177
+stars: 2.6
+ratings: 251
+reviews: 179
 size: 34M
 website: http://www.bitnovo.com
 repository: 

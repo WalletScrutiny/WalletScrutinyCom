@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Melis Bitcoin, Bitcoin Cash, Litecoin Wallet"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2017-01-30
 latestUpdate: 2019-06-03
 apkVersionName: "1.5.40"
 stars: 4.1
-ratings: 18
-reviews: 10
+ratings: 19
+reviews: 11
 size: 6.9M
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client

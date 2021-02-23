@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Luno: Buy Bitcoin, Ethereum and Cryptocurrency"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2014-11-01
 latestUpdate: 2021-02-08
 apkVersionName: "7.7.0"
 stars: 4.2
-ratings: 63970
-reviews: 35906
+ratings: 64547
+reviews: 36199
 size: 71M
 website: https://www.luno.com
 repository: 

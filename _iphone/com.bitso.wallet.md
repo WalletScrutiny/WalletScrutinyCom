@@ -1,4 +1,5 @@
 ---
+wsId: bitso
 title: "Bitso - Buy and sell bitcoin"
 altTitle: 
 

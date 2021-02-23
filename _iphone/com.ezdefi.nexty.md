@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ezDeFi-Crypto & Bitcoin Wallet"
 altTitle: 
 
@@ -8,7 +9,7 @@ released: 2019-12-18
 updated: 2021-02-11
 version: "0.3.2"
 score: 5
-reviews: 5
+reviews: 6
 size: 59666432
 developerWebsite: https://ezdefi.com/
 repository: 

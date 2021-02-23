@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Change: Beginner-Friendly Trading & Investment App"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.getchange.wallet.cordova
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "10.9.145"
-stars: 4.5
-ratings: 1520
-reviews: 733
+stars: 4.4
+ratings: 1544
+reviews: 747
 size: 32M
 website: https://getchange.com
 repository: 

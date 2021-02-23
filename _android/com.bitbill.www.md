@@ -1,4 +1,5 @@
 ---
+wsId: ownbit
 title: "Ownbit - Blockchain Wallet"
 altTitle: 
 

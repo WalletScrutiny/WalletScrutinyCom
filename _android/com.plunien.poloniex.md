@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Poloniex Crypto Exchange"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.plunien.poloniex
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "1.23.7"
-stars: 4.3
-ratings: 3220
-reviews: 1735
+stars: 4.4
+ratings: 3271
+reviews: 1756
 size: 37M
 website: https://support.poloniex.com
 repository: 

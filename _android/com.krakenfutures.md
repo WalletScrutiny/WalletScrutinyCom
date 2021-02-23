@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Kraken Futures: Bitcoin & Crypto Futures Trading"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Shango Lightning Wallet"
 altTitle: 
 

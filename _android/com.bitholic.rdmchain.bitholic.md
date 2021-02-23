@@ -1,4 +1,5 @@
 ---
+wsId: bithumbsg
 title: "Bithumb Singapore - Global Cryptocurrency Exchange"
 altTitle: 
 

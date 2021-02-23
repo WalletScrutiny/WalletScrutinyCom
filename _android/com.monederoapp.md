@@ -1,8 +1,9 @@
 ---
+wsId: 
 title: "Monedero: Wallet Bitcoin, Ethereum, Dash"
 altTitle: 
 
-users: 500
+users: 1000
 appId: com.monederoapp
 launchDate: 
 latestUpdate: 2021-02-16

@@ -1,4 +1,5 @@
 ---
+wsId: safepal
 title: "SafePal - Crypto Wallet BTC"
 altTitle: 
 

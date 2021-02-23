@@ -1,4 +1,5 @@
 ---
+wsId: cake
 title: "Cake Wallet"
 altTitle: 
 
@@ -7,23 +8,23 @@ appId: com.cakewallet.cake_wallet
 launchDate: 
 latestUpdate: 2021-02-13
 apkVersionName: "4.1.2"
-stars: 4.2
-ratings: 316
-reviews: 208
+stars: 4.1
+ratings: 321
+reviews: 212
 size: 62M
-website: 
-repository: 
+website: https://cakewallet.com
+repository: https://github.com/cake-tech/cake_wallet
 issue: 
 icon: com.cakewallet.cake_wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-07
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: cakewallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +34,24 @@ redirect_from:
 ---
 
 
+> Cake Wallet allows you to safely store, send receive and exchange your XMR /
+  Monero and BTC / Bitcoin.
+
+is an implicit claim of this being a non-custodial Bitcoin wallet but:
+
+> -You control your own seed and keys
+
+is more explicit about the non-custodial part.
+
+On their website we read:
+
+> **FEATURES**<br>
+  ...<br>
+  Open source
+
+and indeed, there is [a source code repo](https://github.com/cake-tech/cake_wallet).
+
+There is no claim about reproducibility or build instructions. As the app uses
+[Flutter](https://flutter.dev/) and we have no experience with that, we have to
+stop here. Usually at this point we open issues on the code repository but they
+have no public issue tracker.

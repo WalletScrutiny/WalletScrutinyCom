@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Hebe Wallet"
 altTitle: 
 

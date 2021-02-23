@@ -1,4 +1,5 @@
 ---
+wsId: bitnovo
 title: "Bitnovo - Crypto Wallet"
 altTitle: 
 

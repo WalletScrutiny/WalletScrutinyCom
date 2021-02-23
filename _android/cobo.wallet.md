@@ -1,4 +1,5 @@
 ---
+wsId: cobowallet
 title: "Cobo Wallet: Bitcoin, Ethereum, Dash, XRP, XLM"
 altTitle: 
 

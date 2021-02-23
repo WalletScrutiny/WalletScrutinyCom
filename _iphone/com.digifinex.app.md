@@ -1,12 +1,13 @@
 ---
+wsId: 
 title: "DigiFinex"
 altTitle: 
 
 appId: com.digifinex.app
 idd: 1397735851
 released: 2018-08-25
-updated: 2021-02-08
-version: "2021.02.08"
+updated: 2021-02-18
+version: "2021.2.11"
 score: 4.32353
 reviews: 34
 size: 368902144

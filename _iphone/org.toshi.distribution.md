@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Coinbase Wallet"
 altTitle: 
 
 appId: org.toshi.distribution
 idd: 1278383455
 released: 2017-09-27
-updated: 2021-02-09
-version: "23.5"
-score: 4.67999
-reviews: 18559
-size: 136164352
+updated: 2021-02-18
+version: "23.6"
+score: 4.67408
+reviews: 19143
+size: 136225792
 developerWebsite: https://wallet.coinbase.com
 repository: 
 issue: 

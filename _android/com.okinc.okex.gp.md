@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "OKEx - Bitcoin/Crypto Trading Platform"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.okinc.okex.gp
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "4.6.6"
-stars: 4.6
-ratings: 39487
-reviews: 25305
+stars: 4.4
+ratings: 40560
+reviews: 25721
 size: 126M
 website: https://www.okex.com
 repository: 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "XZEN — Bitcoin Wallet and Exchange"
 altTitle: 
 

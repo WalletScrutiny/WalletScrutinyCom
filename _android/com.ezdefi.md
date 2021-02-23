@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "ezDeFi - Crypto & Bitcoin Wallet"
 altTitle: 
 
-users: 5000
+users: 10000
 appId: com.ezdefi
 launchDate: 
 latestUpdate: 2021-02-11
 apkVersionName: "0.3.2"
-stars: 4.6
-ratings: 185
-reviews: 103
+stars: 4.5
+ratings: 216
+reviews: 124
 size: 48M
 website: https://ezdefi.com/
 repository: 

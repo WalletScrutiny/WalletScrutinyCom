@@ -1,4 +1,5 @@
 ---
+wsId: bybit
 title: "Bybit: Crypto Trading & Bitcoin Futures App"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.bybit.app
 launchDate: 
 latestUpdate: 2021-02-05
 apkVersionName: "1.15"
-stars: 4.1
-ratings: 1650
-reviews: 789
+stars: 4.0
+ratings: 1699
+reviews: 818
 size: 43M
 website: https://www.bybit.com
 repository: 

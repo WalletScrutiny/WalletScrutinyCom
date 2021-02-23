@@ -1,4 +1,5 @@
 ---
+wsId: bitpie
 title: "Bitpie-Universal Crypto Wallet"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Trustee Wallet bitcoin wallet"
 altTitle: 
 

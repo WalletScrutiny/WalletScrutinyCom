@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "PumaPay Blockchain Wallet 4 Bitcoin & Crypto Coins"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.pumapay.pumawallet
 launchDate: 
 latestUpdate: 2021-02-05
 apkVersionName: "3.9.1"
-stars: 4.2
-ratings: 303
-reviews: 201
+stars: 4.1
+ratings: 305
+reviews: 202
 size: 59M
 website: https://pumapay.io
 repository: 

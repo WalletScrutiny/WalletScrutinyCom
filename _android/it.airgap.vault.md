@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
 

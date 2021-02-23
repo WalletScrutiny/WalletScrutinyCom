@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Breez: Lightning Network Client & Point-of-Sale"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: buda
 title: "Buda"
 altTitle: 
 

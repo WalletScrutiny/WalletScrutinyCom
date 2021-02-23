@@ -1,4 +1,5 @@
 ---
+wsId: coincola
 title: "CoinCola - Buy Bitcoin & more"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: com.newgo.coincola
 launchDate: 
 latestUpdate: 2021-02-08
 apkVersionName: "4.7.1"
-stars: 3.2
-ratings: 566
-reviews: 261
+stars: 3.3
+ratings: 573
+reviews: 267
 size: 31M
 website: https://www.coincola.com
 repository: 

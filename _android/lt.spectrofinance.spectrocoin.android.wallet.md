@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Wallet by SpectroCoin"
 altTitle: 
 
@@ -7,9 +8,9 @@ appId: lt.spectrofinance.spectrocoin.android.wallet
 launchDate: 2014-12-05
 latestUpdate: 2021-02-05
 apkVersionName: "1.15.3"
-stars: 3.2
-ratings: 3061
-reviews: 874
+stars: 3.1
+ratings: 3064
+reviews: 878
 size: 12M
 website: https://spectrocoin.com
 repository: 

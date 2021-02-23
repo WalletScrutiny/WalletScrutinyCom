@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Eidoo: Bitcoin and Ethereum Wallet and Exchange"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2017-09-25
 latestUpdate: 2021-02-08
 apkVersionName: "2.16.0"
 stars: 3.4
-ratings: 1550
-reviews: 757
+ratings: 1554
+reviews: 760
 size: 13M
 website: https://eidoo.io
 repository: 

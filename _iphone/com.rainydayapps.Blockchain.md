@@ -1,15 +1,16 @@
 ---
+wsId: 
 title: "Blockchain Wallet: Buy Bitcoin"
 altTitle: 
 
 appId: com.rainydayapps.Blockchain
 idd: 493253309
 released: 2012-04-13
-updated: 2021-02-17
-version: "3.0.6"
-score: 4.74157
-reviews: 61135
-size: 104902656
+updated: 2021-02-21
+version: "3.0.8"
+score: 4.74092
+reviews: 61683
+size: 114009088
 developerWebsite: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 

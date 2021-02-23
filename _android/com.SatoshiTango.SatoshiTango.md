@@ -1,16 +1,17 @@
 ---
+wsId: 
 title: "SatoshiTango"
 altTitle: 
 
 users: 50000
 appId: com.SatoshiTango.SatoshiTango
 launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "3.4.15"
+latestUpdate: 2021-02-18
+apkVersionName: "3.4.17"
 stars: 3.9
-ratings: 3478
-reviews: 1929
-size: 70M
+ratings: 3596
+reviews: 1982
+size: 71M
 website: http://www.satoshitango.com
 repository: 
 issue: 

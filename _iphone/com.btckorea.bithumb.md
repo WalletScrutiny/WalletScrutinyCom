@@ -1,4 +1,5 @@
 ---
+wsId: bithumbko
 title: "Bithumb"
 altTitle: 
 

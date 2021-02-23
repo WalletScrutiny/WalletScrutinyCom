@@ -1,4 +1,5 @@
 ---
+wsId: coinpayapp
 title: "Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇"
 altTitle: 
 

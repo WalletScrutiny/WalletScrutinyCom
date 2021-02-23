@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Multi Crypto Wallet: for Bitcoin and 20 currencies"
 altTitle: 
 

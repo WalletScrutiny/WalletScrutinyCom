@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "arzjoo"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "1.3.6"
 stars: 3.9
-ratings: 1586
-reviews: 643
+ratings: 1633
+reviews: 664
 size: Varies with device
 website: https://arzjoo.com
 repository: 

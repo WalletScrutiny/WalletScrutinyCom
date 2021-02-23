@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "ProBit Global: Buy & Sell Bitcoin. Crypto Exchange"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "1.31"
 stars: 3.5
-ratings: 2887
-reviews: 1907
+ratings: 2911
+reviews: 1920
 size: 17M
 website: https://www.probit.com
 repository: 

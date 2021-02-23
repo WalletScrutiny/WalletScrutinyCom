@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bitcoin Wallet Blockchain"
 altTitle: 
 
@@ -8,8 +9,8 @@ launchDate: 2019-05-01
 latestUpdate: 2021-02-17
 apkVersionName: "2.0.1"
 stars: 4.3
-ratings: 1516
-reviews: 368
+ratings: 1621
+reviews: 391
 size: 21M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

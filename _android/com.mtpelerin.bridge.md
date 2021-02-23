@@ -1,4 +1,5 @@
 ---
+wsId: 
 title: "Bridge Wallet"
 altTitle: 
 
@@ -8,7 +9,7 @@ launchDate:
 latestUpdate: 2021-01-27
 apkVersionName: "1.11"
 stars: 4.8
-ratings: 36
+ratings: 38
 reviews: 20
 size: 76M
 website: https://www.mtpelerin.com/bridge-wallet
