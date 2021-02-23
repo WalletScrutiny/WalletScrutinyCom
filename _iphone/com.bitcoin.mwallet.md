@@ -6,11 +6,11 @@ altTitle:
 appId: com.bitcoin.mwallet
 idd: 1252903728
 released: 2017-07-11
-updated: 2020-12-15
-version: "6.10.4"
-score: 4.2343
-reviews: 4029
-size: 94086144
+updated: 2021-02-22
+version: "6.11.0"
+score: 4.2331
+reviews: 4084
+size: 125360128
 developerWebsite: https://www.bitcoin.com
 repository: 
 issue: 

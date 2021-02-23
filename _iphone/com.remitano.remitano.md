@@ -6,11 +6,11 @@ altTitle:
 appId: com.remitano.remitano
 idd: 1116327021
 released: 2016-05-28
-updated: 2021-02-05
-version: "5.6.1"
-score: 4.76095
-reviews: 6028
-size: 57526272
+updated: 2021-02-23
+version: "5.9.0"
+score: 4.76121
+reviews: 6043
+size: 57574400
 developerWebsite: https://remitano.com
 repository: 
 issue: 

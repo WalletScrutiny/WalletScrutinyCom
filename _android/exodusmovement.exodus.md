@@ -6,11 +6,11 @@ altTitle:
 users: 500000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
-latestUpdate: 2021-02-16
-apkVersionName: "21.2.16"
-stars: 4.5
-ratings: 37183
-reviews: 12421
+latestUpdate: 2021-02-23
+apkVersionName: "21.2.23"
+stars: 4.4
+ratings: 37718
+reviews: 12594
 size: 38M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement

@@ -8,8 +8,8 @@ idd: 1478257827
 released: 2019-11-05
 updated: 2021-02-11
 version: "0.71.3"
-score: 4.44003
-reviews: 4836
+score: 4.42811
+reviews: 4973
 size: 47784960
 developerWebsite: https://atomicwallet.io/
 repository: 

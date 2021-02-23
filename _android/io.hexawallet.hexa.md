@@ -6,8 +6,8 @@ altTitle:
 users: 1000
 appId: io.hexawallet.hexa
 launchDate: 
-latestUpdate: 2021-02-12
-apkVersionName: "1.4.4"
+latestUpdate: 2021-02-23
+apkVersionName: "1.4.5"
 stars: 3.6
 ratings: 16
 reviews: 11

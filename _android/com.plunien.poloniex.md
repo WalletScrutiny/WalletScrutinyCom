@@ -9,8 +9,8 @@ launchDate:
 latestUpdate: 2021-02-01
 apkVersionName: "1.23.7"
 stars: 4.4
-ratings: 3271
-reviews: 1756
+ratings: 3287
+reviews: 1765
 size: 37M
 website: https://support.poloniex.com
 repository: 
