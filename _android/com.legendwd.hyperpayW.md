@@ -9,7 +9,7 @@ launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "4.0.15"
 stars: 4.0
-ratings: 804
+ratings: 803
 reviews: 604
 size: 101M
 website: https://hyperpay.tech

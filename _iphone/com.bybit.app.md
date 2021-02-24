@@ -8,8 +8,8 @@ idd: 1488296980
 released: 2020-01-06
 updated: 2021-02-08
 version: "1.15"
-score: 4.01923
-reviews: 104
+score: 4.04673
+reviews: 107
 size: 110531584
 developerWebsite: https://www.bybit.com
 repository: 
