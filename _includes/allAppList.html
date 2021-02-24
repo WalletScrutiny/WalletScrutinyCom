@@ -3,8 +3,9 @@
   "base_path": "{{ base_path }}",
   {% for post in site.iphone %}
     "iphone/{{ post.appId }}": {
-      "category": "app store",
+      "wsId": "{{ post.wsId }}",
       "folder": "iphone",
+      "category": "app store",
       "appId": "{{ post.appId }}",
       "idd": "{{ post.idd }}",
       "title": "{{ post.title }}",      
@@ -32,6 +33,7 @@
   {% endfor %}
   {% for post in site.android %}
     "{{ post.appId }}": {
+      "wsId": "{{ post.wsId }}",
       "folder": "android",
       "category": "play store",
       "appId": "{{ post.appId }}",

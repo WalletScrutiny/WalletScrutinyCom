@@ -15,15 +15,15 @@ window.sortedWallets.forEach(function (e) {
   if (e.category && window.platformObs.indexOf(e.category) < 0) { 
     window.platformObs.push(e.category)
   }
-  var n = String(e.appId).replace('-ios', '');
+  var n = e.wsId ? String(e.wsId) : String(e.appId);
   if (n) {
     var i = readerRec.indexOf(n);
-    if (i <0) {
+    if (n.length > 0 && i < 0) {
       window.orderedObs.push(e)
       readerRec.push(n)
     } else {
       window.orderedObs[i]['test'] = 'hello';
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions']? window.orderedObs[i]['versions'].push(e) : [e];
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] ? window.orderedObs[i]['versions'].push(e) : [e];
       window.orderedObs[i]['ignore'] = true;
     }
   }
