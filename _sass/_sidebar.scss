@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -52,7 +52,7 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     position: relative;
     float: right;
     width: $right-sidebar-width-narrow;
@@ -76,7 +76,7 @@
   // set width only, for non-square avatars
   // height: 36px;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     display: block;
     width: auto;
     height: auto;
@@ -86,7 +86,7 @@
     max-width: 175px;
     border-radius: 50%;
 
-    @include breakpoint($large) {
+    @include breakpoint($medium-wide) {
       padding: 5px;
       border: 1px solid $border-color;
     }
@@ -100,7 +100,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     display: block;
     width: 100%;
     padding-left: 0;
@@ -111,7 +111,7 @@
 .author__name {
   margin: 0;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -124,7 +124,7 @@
 .author__bio {
   margin: 0;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -145,14 +145,14 @@
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     display: block;
   }
 
   button {
     margin-bottom: 0;
 
-    @include breakpoint($large) {
+    @include breakpoint($medium-wide) {
       display: none;
     }
   }
@@ -172,7 +172,7 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
     display: block;
     position: relative;
     margin: 0;
@@ -194,7 +194,7 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
+    @include breakpoint($medium-wide) {
       display: none;
     }
   }
@@ -211,7 +211,7 @@
     border-color: #fff transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
+    @include breakpoint($medium-wide) {
       display: none;
     }
   }
@@ -241,7 +241,7 @@
   width: 72px;
   border-radius: 20%;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium-wide) {
     display: inline;
     width: auto;
     height: auto;
@@ -251,7 +251,7 @@
     max-width: 72px;
     border-radius: 20%;
 
-    @include breakpoint($large) {
+    @include breakpoint($medium-wide) {
       padding: 5px;
     }
   }
@@ -271,7 +271,6 @@
 
 #sidebarWalletList {
   overflow-y: hidden;
-  // height: 14.5em;
   @include breakpoint($medium-wide) {
     overflow-y: auto;
     height: auto;

@@ -69,7 +69,7 @@ body, input {
   font-weight: 600;
 }
 
-.lazy{
+.lazy {
   display: var(--lazy) !important;
 }
 
@@ -77,11 +77,8 @@ body, input {
 
 @font-face {
   font-family: 'ws-custom';
-  src:  url('/assets/fonts/ws-custom/ws-custom.eot?o4t00w');
-  src:  url('/assets/fonts/ws-custom/ws-custom.eot?o4t00w#iefix') format('embedded-opentype'),
-    url('/assets/fonts/ws-custom/ws-custom.ttf?o4t00w') format('truetype'),
-    url('/assets/fonts/ws-custom/ws-custom.woff?o4t00w') format('woff'),
-    url('/assets/fonts/ws-custom/ws-custom.svg?o4t00w#ws-custom') format('svg');
+  src: url('/assets/fonts/ws-custom/ws-custom.eot?o4t00w');
+  src: url('/assets/fonts/ws-custom/ws-custom.eot?o4t00w#iefix') format('embedded-opentype'), url('/assets/fonts/ws-custom/ws-custom.ttf?o4t00w') format('truetype'), url('/assets/fonts/ws-custom/ws-custom.woff?o4t00w') format('woff'), url('/assets/fonts/ws-custom/ws-custom.svg?o4t00w#ws-custom') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -89,14 +86,13 @@ body, input {
 
 .fac {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Font Awesome 5 Free','ws-custom' !important;
+  font-family: 'Font Awesome 5 Free', 'ws-custom' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -522,6 +518,60 @@ pre.highlight code {
   background: rgba(0, 0, 0, 0.15);
 }
 
+.sidebar {
+  z-index: 3;
+  position: relative;
+}
+
+.sidebar-search-container>#exitSearchTrigger {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebar-search-container {
+  position: relative;
+  width: 100%;
+}
+
+.sidebar-search-container .walletSearch {
+  padding: 10px;
+  width: 100%;
+  font-size: .75rem;
+}
+
+.sidebar-search-container .walletSearch-parent {
+  grid-template-columns: 1fr auto;
+  position: relative;
+}
+
+.sidebar-search-container .results-list {
+  min-width: 300px;
+  max-width: 90vw;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0px 10px 50px -30px var(--permanent-black);
+}
+
+.sidebar-search-container .results-list span {
+  grid-column: 2/3;
+}
+
+.sidebar-search-container .badge-2 {
+  margin-right: auto;
+  padding: 3px 10px;
+  font-size: .7rem;
+  margin-top: 0;
+  display: grid;
+  grid-column-gap: 5px;
+  line-height: 1rem;
+}
+
+.sidebar-search-container .results-list-wallet-icon {
+  grid-row: 1/3;
+  margin: 0 auto auto auto;
+}
+
 .cta-learn-more {
   color: inherit;
   font-size: 1rem;
@@ -581,7 +631,7 @@ h2.section-label {
 }
 
 .results-list li {
-  padding: 10px 20px 10px 10px;
+  padding: .75rem;
   margin: 0;
   scroll-snap-align: start;
 }
@@ -611,12 +661,7 @@ h2.section-label {
   max-width: calc(2rem + 4px);
   border-radius: 25%;
   background-color: var(--white);
-  margin: 10px;
-  box-shadow: 0 0 0 4px var(--white);
-}
-
-.icon-overlap a:not(:first-of-type) img {
-  box-shadow: -10px 0px 10px var(--shadow-2), 0 0 0 4px var(--white);
+  box-shadow: 0 0 0 1px var(--white);
 }
 
 .walletSearch {
@@ -629,7 +674,7 @@ h2.section-label {
   background: var(--shadow-3);
 }
 
-.results-list li > div {
+.result-pl-inner {
   display: grid;
   grid-auto-flow: column;
   justify-content: start;
@@ -639,41 +684,43 @@ h2.section-label {
   font-weight: 300;
   text-align: left;
   grid-template-columns: auto 1fr auto auto;
-  column-gap: 5px;
-  row-gap:5px;
+  column-gap: .75rem;
+  row-gap: 5px;
+  padding-left: .75rem;
+  padding-right: .75rem;
 }
 
-.link-grid {
-  display: flex;
-  flex-direction: column;
+.result-pl-inner:nth-of-type(1) {
+  padding-top: .75rem;
 }
 
-@media (max-width:756px) {
-  .link-grid {
-    flex-direction: row;
-    flex-wrap: wrap;
-    grid-column: 1/3;
-    grid-row: 2/3;
-  }
-  .link-grid > a:not(:last-of-type){
-    margin-right: .5rem;
-  }
+.result-pl-inner:last-of-type {
+  padding-bottom: .75rem;
 }
 
-.lnk-bdg-btn{
-  margin: 0 0.4rem 0 auto;
-  box-shadow: 1px 0 0 0;
-  padding-right: .4rem;
+.-hom .result-pl-inner:last-of-type {
+  margin-top: 5px;
 }
 
-.link-grid > a {
-  color: var(--text);
+.-hom {
+  border-radius: 1rem;
+  /* background: linear-gradient(90deg, transparent, var(--shadow-2)); */
+  box-shadow: inset -10px -10px .75rem -.75rem var(--gauze), inset 5px 5px 2rem -.5rem var(--shadow-2);
+  overflow: hidden;
+}
+
+.-hom .result-pl-inner:hover {
+  color: var(--permanent-white);
+}
+
+@media (max-width:756px) {}
+
+.badge-2 {
+  color: var(--permanent-white);
   text-decoration: none;
-  /* background: var(--rust); */
-  border-radius: 5px;
+  border-radius: 100px;
   padding: .5rem .75rem;
   position: relative;
-  margin: .25rem 0;
   font-size: 1rem;
   line-height: 1;
   text-transform: uppercase;
@@ -684,7 +731,7 @@ h2.section-label {
   overflow: hidden;
 }
 
-.link-grid > a::before, .link-grid > a::after {
+.badge-2::before, .badge-2::after {
   content: "";
   display: block;
   height: 100%;
@@ -693,29 +740,25 @@ h2.section-label {
   top: 0;
   left: 0;
 }
-.link-grid > a::after {
+
+.badge-2::after {
   background: var(--white);
-  opacity: .5;
+  opacity: .45;
   z-index: -1;
 }
-.link-grid > a::before {
+
+.badge-2::before {
   background: var(--rust);
   z-index: -2;
 }
 
-.link-grid > a > span {
+.badge-2>span {
   font-size: .6rem;
   font-weight: 800;
 }
 
-.link-grid > a.reproducible::before{
+.badge-2.reproducible::before {
   background: var(--accent-text);
-}
-
-.icon-overlap{
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(3,30px);
 }
 
 .results-list .badge {
@@ -776,7 +819,7 @@ table tr td label {
   line-break: anywhere;
 }
 
-.platformFilterContainer{
+.platformFilterContainer {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto auto;
@@ -784,34 +827,28 @@ table tr td label {
   width: 100%;
 }
 
-.platformFilterContainer .-filter-trigger, .platformFilterContainer > label{
+.platformFilterContainer .-filter-trigger, .platformFilterContainer>label {
   grid-row: 1/2;
   text-align: center;
 }
 
-/* .platformFilterContainer > label > i{display:none;} */
-
-.platformFilterContainer .-filter-trigger:nth-of-type(1),
-.platformFilterContainer > label:nth-of-type(1){
+.platformFilterContainer .-filter-trigger:nth-of-type(1), .platformFilterContainer>label:nth-of-type(1) {
   grid-column: 1/2;
 }
 
-.platformFilterContainer .-filter-trigger:nth-of-type(2),
-.platformFilterContainer > label:nth-of-type(2){
+.platformFilterContainer .-filter-trigger:nth-of-type(2), .platformFilterContainer>label:nth-of-type(2) {
   grid-column: 2/3;
 }
 
-.platformFilterContainer .-filter-trigger:nth-of-type(3),
-.platformFilterContainer > label:nth-of-type(3){
+.platformFilterContainer .-filter-trigger:nth-of-type(3), .platformFilterContainer>label:nth-of-type(3) {
   grid-column: 3/4;
 }
 
-
-
-#gridOfWallets1{
+#gridOfWallets1 {
   grid-column: 1/4;
   grid-row: 2/3;
 }
+
 #gridOfWallets1, #gridOfWallets2, #gridOfWallets1 tr, #gridOfWallets2 tr, #gridOfWallets1 tr td, #gridOfWallets2 tr td {
   border: 0 !important;
 }
@@ -828,8 +865,6 @@ table tr td label {
   align-content: start;
   text-align: center;
 }
-
-
 
 @media (max-width:756px) {
   #gridOfWallets1 tr>td:first-of-type, #gridOfWallets2 tr>td:first-of-type {
@@ -852,7 +887,7 @@ table tr td label {
   transition: .2s linear;
 }
 
-  #gridOfWallets1 tr > td:nth-of-type(2), #gridOfWallets2 tr > td:nth-of-type(2){
+#gridOfWallets1 tr>td:nth-of-type(2), #gridOfWallets2 tr>td:nth-of-type(2) {
   background-color: var(--white);
   border-radius: 8px;
   padding: 2rem;
@@ -870,7 +905,7 @@ table tr td label {
   border-radius: 20%;
 }
 
-@media (max-width:756px) {
+@media (max-width: 920px) {
   .page {
     padding-left: 0% !important;
     padding-right: 0% !important;
@@ -911,8 +946,6 @@ table tr td label {
   }
 }
 
-
-
 .-filter-trigger {
   position: absolute;
   top: 0;
@@ -925,35 +958,26 @@ table tr td label {
   z-index: 2;
 }
 
-#gridOfWallets1 tr.-filter-element{
+#gridOfWallets1 tr.-filter-element {
   display: none;
 }
 
-.-android:checked ~ #gridOfWallets1 tr.-android{
+.-android:checked~#gridOfWallets1 tr.-android {
   display: var(--grid-display-0, flex) !important;
 }
 
-.-iphone:checked ~ #gridOfWallets1 tr.-iphone{
+.-iphone:checked~#gridOfWallets1 tr.-iphone {
   display: var(--grid-display-0, flex) !important;
 }
 
-.-fdroid:checked ~ #gridOfWallets1 tr.-fdroid{
+.-fdroid:checked~#gridOfWallets1 tr.-fdroid {
   display: var(--grid-display-0, flex) !important;
 }
 
-/* .-android:checked ~ .-android > i,
-.-iphone:checked ~ .-iphone > i,
-.-fdroid:checked ~ .-fdroid > i
-{display: unset !important; margin-right: .5rem} */
-
-.-android:checked ~ .-android,
-.-iphone:checked ~ .-iphone,
-.-fdroid:checked ~ .-fdroid
-{  
+.-android:checked~.-android, .-iphone:checked~.-iphone, .-fdroid:checked~.-fdroid {
   color: var(--accent-text);
   font-weight: 800;
 }
-
 
 /* END HERO */
 
@@ -1523,7 +1547,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items:stretch;
+  align-items: stretch;
 }
 
 .app-payload-flex>div {
@@ -1537,7 +1561,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 @media (max-width: 500px) {
-  .app-summary-grid{
+  .app-summary-grid {
     display: flex !important;
     flex-direction: column;
   }
@@ -1562,124 +1586,68 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     height: 100%;
   }
 }
-  .app-payload-flex>div>label {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: .75rem;
-    font-weight: bold;
-    cursor: unset;
-  }
-  .app-payload-flex>div>div {
-    position: relative;
-  }
-  .app-payload-flex>div>div * {
-    font-size: 1.2rem;
-  }
-  .app-payload-flex>svg, .app-payload-flex>.svg {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    max-height: calc(90px + 2rem);
-    max-width: calc(90px + 2rem);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .svg.reproducible {
-    background-image: var(--reproducible-badge);
-  }
-  .app-payload-flex>div>span {
-    font-size: .75rem;
-  }
 
-  /* SIDEBAR UI MOBILE */
-  #collapseWalletList {
-    display: none
-  }
-  @media (max-width: 930px) {
-    .sidebar-container {
-      margin: 2rem 0;
-      box-shadow: 0px 10px 10px -13px;
-      padding-bottom: 5px;
-    }
-    #sidebarWalletList.mobile-compact {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: center;
-      height: 2rem;
-    }
-    #sidebarWalletList.mobile-compact::before {
-      content: "Expand list below or swipe across apps \f0d9 \f0da";
-      font-family: 'Font Awesome 5 Free', 'Lato', sans-serif;
-      font-size: 10px;
-      position: absolute;
-      top: -1.25rem;
-      z-index: 2;
-      color: var(--grey);
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      font-weight: 900;
-      opacity: .5;
-    }
-    #sidebarWalletList.mobile-compact::after {
-      /* content: "\f138"; */
-      content: "";
-      display: block;
-      position: fixed;
-      z-index: 1;
-      background: linear-gradient(90deg, var(--transparent) 60%, var(--body));
-      height: calc(4rem - 4px);
-      width: 100%;
-      right: 0;
-      top: 0;
-      pointer-events: none;
-      line-height: 4rem;
-      text-align: right;
-      font-family: 'Font Awesome 5 Free';
-      color: var(--nav);
-      font-size: 1.5rem;
-    }
-    #collapseWalletList, #collapseWalletList button, #sidebarWalletListShowButton button, #sidebarWalletListShowButton {
-      background: none;
-      padding: 0;
-      margin: 0;
-      color: var(--accent) !important;
-      font-weight: 700;
-    }
-    #sidebarWalletList.mobile-compact .verdict {
-      display: none;
-    }
-    .mobile-compact .app_name {
-      display: none;
-    }
-    #sidebarWalletList.mobile-compact>div a {
-      display: block;
-      padding: 0;
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.75rem;
-    }
-    #sidebarWalletList.mobile-compact .logo_name_bundle:hover {
-      background: none !important;
-    }
-    #sidebarWalletList.mobile-compact > div .app_logo {
-      width: calc(2rem - 6px);
-      display: block;
-      height: calc(2rem - 6px);
-      border-radius: 25%;
-      margin: 3px auto;
-  }
-.-border-fx {
-  box-shadow: 0 0 0 2px var(--rust);
+.app-payload-flex>div>label {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: .75rem;
+  font-weight: bold;
+  cursor: unset;
 }
-  .app-border-fx_logo.border-reproducible {
+
+.app-payload-flex>div>div {
+  position: relative;
+}
+
+.app-payload-flex>div>div * {
+  font-size: 1.2rem;
+}
+
+.app-payload-flex>svg, .app-payload-flex>.svg {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  max-height: calc(90px + 2rem);
+  max-width: calc(90px + 2rem);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: calc(90px + 2rem);
+  min-width: calc(90px + 2rem);
+}
+
+.svg.reproducible {
+  background-image: var(--reproducible-badge);
+}
+
+.app-payload-flex>div>span {
+  font-size: .75rem;
+}
+
+/* SIDEBAR UI MOBILE */
+
+#collapseWalletList {
+  display: none
+}
+
+@media (max-width: 920px) {
+  #sidebarWalletList {
+    display: none;
+  }
+  .sidebar-container {
+    margin: 1rem 0 auto 0;
+    box-shadow: 0 1px 0 0 var(--shadow-2);
+    padding-bottom: 5px;
+  }
+  .sidebar-search-container .results-list {
+    min-width: 90vw;
+  }
+  .-border-fx {
+    box-shadow: 0 0 0 2px var(--rust);
+  }
+  .app_logo.-border-fx.border-reproducible {
     box-shadow: 0 0 0 2px var(--accent);
-}
-    #main.app-review {
-      margin-top: 0;
-    }
   }
+  #main.app-review {
+    margin-top: 0;
+  }
+}

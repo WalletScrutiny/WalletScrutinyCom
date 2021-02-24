@@ -11,7 +11,7 @@ author_profile: true
   window.wallets = {% include allAppList.html %}
 </script>
 <script src="{{ base_path }}/assets/js/wallets.js"></script>
-<script src="{{ base_path }}/assets/js/hero-search.js"></script>
+<script src="{{ base_path }}/assets/js/search-wallets.js"></script>
 
 <div class="page-section">
 

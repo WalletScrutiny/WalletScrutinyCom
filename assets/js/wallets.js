@@ -29,3 +29,24 @@ window.sortedWallets.forEach(function (e) {
   }
 })
 
+window.determineIconTag = function (e) {
+  if (!e) { return false; }
+  
+  var css;
+  switch (e) {
+    case 'app store':
+      css = 'app-store';
+      break;
+    case 'play store':
+      css = 'google-play';
+      break;
+    case 'fdroid catalogue':
+      css = 'f-droid';
+      break;
+      case 'windows':
+        css = 'windows';
+      break;
+    default:
+  }
+  return css;
+}
