@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: mycelium
 title: "Mycelium Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 users: 1000000
 appId: com.mycelium.wallet
@@ -14,9 +14,9 @@ reviews: 4458
 size: 24M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: 
+issue:
 icon: com.mycelium.wallet.png
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-20
 reviewStale: false
@@ -163,10 +163,10 @@ Leo Wandersleb:
   is ok than me checking on a rented server but all those are kind of bad options
   until a neutral tester does the testing which in a year nobody volunteered to
   do.
-> 
+>
   In the opposite case of reproduction failing though, the app should get at
   least a third opinion before getting back its verdict "reproducible".
-> 
+>
   At Mycelium we will investigate the matter and hope to both be back
   reproducible soon and find a neutral person willing to look through a few
   lines of test setup to then attest the reproducibility again.

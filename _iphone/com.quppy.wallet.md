@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Quppy
 title: "Quppy – Secure Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: com.quppy.wallet
 idd: 1417802076
@@ -12,23 +12,22 @@ score: 4.94564
 reviews: 368
 size: 46089216
 developerWebsite: https://quppy.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.quppy.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

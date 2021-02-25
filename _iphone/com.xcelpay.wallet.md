@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: XcelPay
 title: "XcelPay - Secure Crypto Wallet"
-altTitle: 
+altTitle:
 
 appId: com.xcelpay.wallet
 idd: 1461215417
@@ -12,23 +12,22 @@ score: 3.83333
 reviews: 12
 size: 43825152
 developerWebsite: http://xcelpay.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.xcelpay.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

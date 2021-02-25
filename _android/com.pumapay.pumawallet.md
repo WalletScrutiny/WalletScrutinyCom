@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId:
 title: "PumaPay Blockchain Wallet 4 Bitcoin & Crypto Coins"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: com.pumapay.pumawallet
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "3.9.1"
 stars: 4.1
@@ -13,21 +13,21 @@ ratings: 305
 reviews: 202
 size: 59M
 website: https://pumapay.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.pumapay.pumawallet.png
-bugbounty: 
+bugbounty:
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: PumaPay
 providerLinkedIn: company/decentralized-vision
 providerFacebook: PumaPayOfficial
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.pumapay.pumawallet/

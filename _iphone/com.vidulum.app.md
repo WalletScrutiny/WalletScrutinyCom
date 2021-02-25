@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Vidulum
 title: "Vidulum"
-altTitle: 
+altTitle:
 
 appId: com.vidulum.app
 idd: 1505859171
@@ -12,23 +12,22 @@ score: 5
 reviews: 3
 size: 60455936
 developerWebsite: https://vidulum.app
-repository: 
-issue: 
+repository:
+issue:
 icon: com.vidulum.app.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Unocoin
 title: "Unocoin"
-altTitle: 
+altTitle:
 
 users: 1000000
 appId: com.unocoin.unocoinwallet
@@ -13,21 +13,21 @@ ratings: 14908
 reviews: 8047
 size: 12M
 website: https://www.unocoin.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.unocoin.unocoinwallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: Unocoin
 providerLinkedIn: company/unocoin
 providerFacebook: unocoin
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.unocoin.unocoinwallet/
@@ -40,7 +40,7 @@ Google Play does not talk about where the keys are stored but it links to their
 website and there we read
 
 > AES-256 Encryption
-> 
+>
 > The address-private key pairs obtained are encrypted using AES-256, sealed in
   envelopes and stored in multiple safe deposit lockers.
 

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Paxful
 title: "Paxful Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: com.paxful.wallet
 idd: 1443813253
@@ -12,23 +12,22 @@ score: 3.97192
 reviews: 2208
 size: 64782336
 developerWebsite: https://paxful.com/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.paxful.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

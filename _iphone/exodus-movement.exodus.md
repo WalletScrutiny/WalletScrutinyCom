@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Exodus: Crypto Bitcoin Wallet
 title: "Exodus: Crypto Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: exodus-movement.exodus
 idd: 1414384820
@@ -12,21 +12,21 @@ score: 4.64226
 reviews: 7302
 size: 28473344
 developerWebsite: https://exodus.com/mobile
-repository: 
-issue: 
+repository:
+issue:
 icon: exodus-movement.exodus.jpg
-bugbounty: 
+bugbounty:
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: exodus_io
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: exodus.io
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

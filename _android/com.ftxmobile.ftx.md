@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: FTX Pro
 title: "FTX Pro"
-altTitle: 
+altTitle:
 
 users: 50000
 appId: com.ftxmobile.ftx
-launchDate: 
+launchDate:
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
 stars: 3.1
@@ -13,21 +13,21 @@ ratings: 1221
 reviews: 845
 size: 46M
 website: https://ftx.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.ftxmobile.ftx.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-08
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: FTX_Official
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: ftx.official
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

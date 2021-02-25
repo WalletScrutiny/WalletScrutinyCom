@@ -1,10 +1,11 @@
 ---
+wsId: OKEx
 title: "OKEX - خرید بیت کوین"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: co.okex.app
-launchDate: 
+launchDate:
 latestUpdate: 2020-12-06
 apkVersionName: "2.6.0"
 stars: 3.9
@@ -12,26 +13,26 @@ ratings: 551
 reviews: 243
 size: 12M
 website: https://ok-ex.co
-repository: 
-issue: 
+repository:
+issue:
 icon: co.okex.app.png
-bugbounty: 
+bugbounty:
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 - date: 2020-11-16
-  version: 
-  apkHash: 
+  version:
+  apkHash:
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /co.okex.app/

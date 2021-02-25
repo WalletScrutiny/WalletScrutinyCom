@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: ChangeNOW
 title: "ChangeNOW – Limitless Crypto Exchange"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: io.changenow.changenow
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-08
 apkVersionName: "1.104"
 stars: 3.9
@@ -13,19 +13,19 @@ ratings: 586
 reviews: 323
 size: 5.8M
 website: http://changenow.io
-repository: 
-issue: 
+repository:
+issue:
 icon: io.changenow.changenow.png
-bugbounty: 
+bugbounty:
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: ChangeNOW_io
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: ChangeNOW.io
 providerReddit: ChangeNOW_io
 

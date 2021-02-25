@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: AirGap Vault
 title: "AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin"
-altTitle: 
+altTitle:
 
 users: 5000
 appId: it.airgap.vault
@@ -16,7 +16,7 @@ website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
-bugbounty: 
+bugbounty:
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-18
 reviewStale: false
@@ -69,8 +69,8 @@ reviewArchive:
   verdict: nonverifiable
 
 providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
+providerLinkedIn:
+providerFacebook:
 providerReddit: AirGap
 
 redirect_from:

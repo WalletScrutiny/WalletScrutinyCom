@@ -1,10 +1,11 @@
 ---
+wsId: Swap Wallet
 title: "Swap Wallet - BTC, Bitcoin wallet"
-altTitle: 
+altTitle:
 
 users: 50000
 appId: com.swapwalletltd.swap
-launchDate: 
+launchDate:
 latestUpdate: 2020-11-14
 apkVersionName: "Varies with device"
 stars: 4.9
@@ -12,25 +13,25 @@ ratings: 2282
 reviews: 2065
 size: Varies with device
 website: http://swapwallet.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.swapwalletltd.swap.png
-bugbounty: 
+bugbounty:
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-28
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 - date: 2020-12-01
-  version: 
-  apkHash: 
+  version:
+  apkHash:
   gitRevision: eceaf4f532a049d544a5f7ce8eda0f29b30e6fcf
   verdict: custodial
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /com.swapwalletltd.swap/

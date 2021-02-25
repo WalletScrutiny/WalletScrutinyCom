@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Swipe Wallet
 title: "Swipe Wallet"
-altTitle: 
+altTitle:
 
 appId: com.swipe.wallet
 idd: 1476726454
@@ -12,23 +12,22 @@ score: 4.77935
 reviews: 1201
 size: 141314048
 developerWebsite: https://swipe.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.swipe.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

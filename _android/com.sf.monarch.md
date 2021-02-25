@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Monarch
 title: "Monarch Wallet"
-altTitle: 
+altTitle:
 
 users: 50000
 appId: com.sf.monarch
@@ -13,14 +13,14 @@ ratings: 742
 reviews: 385
 size: 18M
 website: https://monarchwallet.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.sf.monarch.png
-bugbounty: 
+bugbounty:
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-12
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

@@ -1,7 +1,7 @@
 ---
-wsId: binanceus
+wsId: Binance.US
 title: "Binance.US - Bitcoin & Crypto"
-altTitle: 
+altTitle:
 
 appId: us.binance.fiat
 idd: 1492670702
@@ -12,21 +12,21 @@ score: 4.22994
 reviews: 18295
 size: 118355968
 developerWebsite: https://www.binance.us
-repository: 
-issue: 
+repository:
+issue:
 icon: us.binance.fiat.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: binanceus
 providerLinkedIn: company/binance-us
 providerFacebook: BinanceUS
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

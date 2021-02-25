@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: LiteBit
 title: "LiteBit - Buy & sell Bitcoin"
-altTitle: 
+altTitle:
 
 users: 50000
 appId: com.flutter.litebit
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-10
 apkVersionName: "2.15.3"
 stars: 2.4
@@ -13,21 +13,21 @@ ratings: 309
 reviews: 212
 size: 78M
 website: https://www.litebit.eu
-repository: 
-issue: 
+repository:
+issue:
 icon: com.flutter.litebit.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: litebiteu
 providerLinkedIn: company/litebit
 providerFacebook: litebiteu
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.flutter.litebit/

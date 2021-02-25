@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: goabra
 title: "Abra Bitcoin Crypto Wallet Buy Trade Earn Interest"
-altTitle: 
+altTitle:
 
 users: 500000
 appId: com.plutus.wallet
@@ -13,21 +13,21 @@ ratings: 13832
 reviews: 5640
 size: Varies with device
 website: https://www.abra.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.plutus.wallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: AbraGlobal
 providerLinkedIn: company/abra
 providerFacebook: GoAbraGlobal
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.plutus.wallet/

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Bitstamp
 title: "Bitstamp – crypto exchange app"
-altTitle: 
+altTitle:
 
 appId: net.bitstamp
 idd: 1406825640
@@ -12,21 +12,21 @@ score: 4.81623
 reviews: 4103
 size: 82498560
 developerWebsite: https://www.bitstamp.net/
-repository: 
-issue: 
+repository:
+issue:
 icon: net.bitstamp.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: Bitstamp
 providerLinkedIn: company/bitstamp
 providerFacebook: Bitstamp
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

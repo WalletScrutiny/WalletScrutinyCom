@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: muun 
 title: "Muun - Bitcoin and Lightning Wallet"
-altTitle: 
+altTitle:
 
 users: 5000
 appId: io.muun.apollo
@@ -16,18 +16,18 @@ website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/2
 icon: io.muun.apollo.png
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-29
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: muunwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /io.muun.apollo/
@@ -73,7 +73,7 @@ Let's see ...
 <div class="highlight">
 <pre class="highlight">$ git clone https://github.com/muun/apollo.git
 $ cd apollo/
-$ git submodule status 
+$ git submodule status
 $ git tag
 $ git log --pretty=oneline --abbrev-commit
 <font color="#C4A000">491d4d5 (</font><font color="#06989A"><b>HEAD -&gt; </b></font><font color="#4E9A06"><b>master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/HEAD</b></font><font color="#C4A000">)</font> Release source code for beta-36.2

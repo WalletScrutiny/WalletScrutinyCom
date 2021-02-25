@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Totalcoin
 title: "Bitcoin Wallet App - Totalcoin"
-altTitle: 
+altTitle:
 
 appId: io.totalcoin.wallet
 idd: 1392398906
@@ -11,24 +11,23 @@ version: "2.9.6"
 score: 4.54545
 reviews: 66
 size: 55388160
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: io.totalcoin.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

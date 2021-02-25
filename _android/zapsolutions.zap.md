@@ -1,37 +1,37 @@
 ---
-wsId: 
+wsId: zapwallet
 title: "Zap: Bitcoin Lightning Wallet"
-altTitle: 
+altTitle:
 
 users: 5000
 appId: zapsolutions.zap
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-13
 apkVersionName: "Varies with device"
-stars: 
-ratings: 
-reviews: 
+stars:
+ratings:
+reviews:
 size: Varies with device
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android
 issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
-bugbounty: 
+bugbounty:
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 - date: 2019-12-30
   version: "0.2.11"
-  apkHash: 
+  apkHash:
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
 
 providerTwitter: ln_zap
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /zapsolutions.zap/
@@ -66,8 +66,8 @@ BUILD SUCCESSFUL in 1m 35s
 root@20b0f7c2e660:/mnt# mv app/build/outputs/apk/release/zap-android-0.3.8-beta* .
 root@20b0f7c2e660:/mnt# exit
 $ cd ..
-$ apktool d -o fromBuild zap-android/zap-android-0.3.8-beta\(26\)-release-unsigned.apk 
-$ apktool d -o fromGoogle path/to/Zap\ 0.3.8-beta\ \(zapsolutions.zap\).apk 
+$ apktool d -o fromBuild zap-android/zap-android-0.3.8-beta\(26\)-release-unsigned.apk
+$ apktool d -o fromGoogle path/to/Zap\ 0.3.8-beta\ \(zapsolutions.zap\).apk
 $ diff --brief --recursive fromBuild/ fromGoogle/
 Files fromBuild/apktool.yml and fromGoogle/apktool.yml differ
 Only in fromGoogle/original/META-INF: CERT.RSA

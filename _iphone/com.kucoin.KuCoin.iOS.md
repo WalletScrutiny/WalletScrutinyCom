@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: kucoin
 title: "KuCoin"
-altTitle: 
+altTitle:
 
 appId: com.kucoin.KuCoin.iOS
 idd: 1378956601
@@ -11,15 +11,15 @@ version: "3.27.0"
 score: 3.70181
 reviews: 332
 size: 196850688
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: com.kucoin.KuCoin.iOS.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

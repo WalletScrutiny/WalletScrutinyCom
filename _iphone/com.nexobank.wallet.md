@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: nexo
 title: "Nexo - Crypto Banking Account"
-altTitle: 
+altTitle:
 
 appId: com.nexobank.wallet
 idd: 1455341917
@@ -12,23 +12,22 @@ score: 4.0625
 reviews: 224
 size: 34237440
 developerWebsite: https://nexo.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.nexobank.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

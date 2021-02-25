@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Celsius
 title: "Celsius - Crypto Wallet"
-altTitle: 
+altTitle:
 
 appId: network.celsius.wallet
 idd: 1387885523
@@ -12,23 +12,22 @@ score: 4.2721
 reviews: 735
 size: 43788288
 developerWebsite: https://celsius.network/app
-repository: 
-issue: 
+repository:
+issue:
 icon: network.celsius.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

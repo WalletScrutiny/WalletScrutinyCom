@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: ViaWallet
 title: "ViaWallet - Multi-chain Wallet"
-altTitle: 
+altTitle:
 
 appId: com.viabtc.ViaWallet
 idd: 1462031389
@@ -12,23 +12,22 @@ score: 4
 reviews: 12
 size: 77724672
 developerWebsite: https://viawallet.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.viabtc.ViaWallet.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

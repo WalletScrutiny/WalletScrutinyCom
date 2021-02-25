@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: nexo
 title: "Nexo - Crypto Banking Account"
-altTitle: 
+altTitle:
 
 users: 500000
 appId: com.nexowallet
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-17
 apkVersionName: "1.3.3"
 stars: 4.1
@@ -13,19 +13,19 @@ ratings: 6357
 reviews: 2993
 size: 50M
 website: https://nexo.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.nexowallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: NexoFinance
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: nexofinance
 providerReddit: Nexo
 

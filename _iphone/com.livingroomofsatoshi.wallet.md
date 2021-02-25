@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Wallet of Satoshi
 title: "Wallet of Satoshi"
-altTitle: 
+altTitle:
 
 appId: com.livingroomofsatoshi.wallet
 idd: 1438599608
@@ -12,23 +12,22 @@ score: 4
 reviews: 20
 size: 33001472
 developerWebsite: https://www.walletofsatoshi.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.livingroomofsatoshi.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

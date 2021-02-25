@@ -1,6 +1,7 @@
 ---
+wsId: Haven
 title: "Haven - Private Shopping"
-altTitle: 
+altTitle:
 
 appId: io.ob1.native-ios
 idd: 1318395690
@@ -12,19 +13,19 @@ reviews: 188
 size: 82487296
 developerWebsite: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven
-issue: 
+issue:
 icon: io.ob1.native-ios.jpg
-bugbounty: 
+bugbounty:
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-15
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: HavenPrivacy
-providerLinkedIn: 
-providerFacebook: 
+providerLinkedIn:
+providerFacebook:
 providerReddit: havenapp
 
 redirect_from:

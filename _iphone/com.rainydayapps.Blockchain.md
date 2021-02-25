@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: blockchainWallet
 title: "Blockchain Wallet: Buy Bitcoin"
-altTitle: 
+altTitle:
 
 appId: com.rainydayapps.Blockchain
 idd: 493253309
@@ -13,20 +13,20 @@ reviews: 61404
 size: 104902656
 developerWebsite: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
-issue: 
+issue:
 icon: com.rainydayapps.Blockchain.jpg
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-20
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: Blockchain
 providerLinkedIn: company/blockchain
 providerFacebook: Blockchain
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

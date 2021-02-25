@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Eidoo Ethereum
 title: "Eidoo Ethereum Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: io.eidoo.wallet.prodnet
 idd: 1279896253
@@ -12,23 +12,22 @@ score: 3.87143
 reviews: 70
 size: 37630976
 developerWebsite: https://eidoo.io
-repository: 
-issue: 
+repository:
+issue:
 icon: io.eidoo.wallet.prodnet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

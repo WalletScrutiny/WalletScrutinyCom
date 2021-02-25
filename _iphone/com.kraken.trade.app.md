@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: krakent
 title: "Kraken Pro"
-altTitle: 
+altTitle:
 
 appId: com.kraken.trade.app
 idd: 1473024338
@@ -11,24 +11,23 @@ version: "1.5.11"
 score: 4.60182
 reviews: 4184
 size: 33881088
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: com.kraken.trade.app.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

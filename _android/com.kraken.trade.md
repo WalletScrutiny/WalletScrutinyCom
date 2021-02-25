@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: krakent
 title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
-altTitle: 
+altTitle:
 
 users: 500000
 appId: com.kraken.trade
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-02
 apkVersionName: "1.5.11-5438"
 stars: 4.4
@@ -13,21 +13,21 @@ ratings: 11112
 reviews: 3907
 size: 45M
 website: https://www.kraken.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.kraken.trade.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: krakenfx
 providerLinkedIn: company/krakenfx
 providerFacebook: KrakenFX
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.kraken.trade/

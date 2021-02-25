@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Qcan
 title: "Mobile Bitcoin Wallet - Qcan"
-altTitle: 
+altTitle:
 
 appId: com.qcan.qcan
 idd: 1179360399
@@ -12,23 +12,22 @@ score: 4.24138
 reviews: 29
 size: 91131904
 developerWebsite: https://qcan.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.qcan.qcan.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

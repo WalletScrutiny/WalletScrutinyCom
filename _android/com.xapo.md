@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: xapo
 title: "Xapo"
-altTitle: 
+altTitle:
 
 users: 1000000
 appId: com.xapo
@@ -13,21 +13,21 @@ ratings: 45414
 reviews: 21517
 size: 93M
 website: https://xapo.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.xapo.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: xapo
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: xapoapp
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /xapo/

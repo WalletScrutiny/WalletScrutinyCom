@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Green: Bitcoin Wallet
 title: "Green: Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: io.blockstream.green
 idd: 1402243590
@@ -12,21 +12,21 @@ score: 3.98851
 reviews: 87
 size: 31421440
 developerWebsite: https://blockstream.green
-repository: 
-issue: 
+repository:
+issue:
 icon: io.blockstream.green.jpg
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-19
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: Blockstream
 providerLinkedIn: company/blockstream
 providerFacebook: Blockstream
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

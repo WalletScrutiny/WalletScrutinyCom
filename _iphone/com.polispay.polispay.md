@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: PolisPay
 title: "PolisPay - Crypto Wallet"
-altTitle: 
+altTitle:
 
 appId: com.polispay.polispay
 idd: 1351572060
@@ -11,24 +11,23 @@ version: "8.8.0"
 score: 3.83333
 reviews: 6
 size: 34923520
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: com.polispay.polispay.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

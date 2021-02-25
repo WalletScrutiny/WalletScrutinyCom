@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Mercuryo
 title: "Mercuryo Bitcoin Cryptowallet"
-altTitle: 
+altTitle:
 
 appId: com.mercuryo.app
 idd: 1446533733
@@ -12,23 +12,22 @@ score: 4.89759
 reviews: 166
 size: 64470016
 developerWebsite: https://mercuryo.io/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.mercuryo.app.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

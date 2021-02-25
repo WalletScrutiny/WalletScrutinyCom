@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Infinito Wallet
 title: "Infinito Wallet - Crypto Safe"
-altTitle: 
+altTitle:
 
 appId: io.infinito.wallet
 idd: 1315572736
@@ -11,24 +11,23 @@ version: "2.35.0"
 score: 4.34524
 reviews: 168
 size: 105237504
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: io.infinito.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

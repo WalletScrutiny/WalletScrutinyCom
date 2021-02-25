@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Monarch
 title: "Monarch Wallet"
-altTitle: 
+altTitle:
 
 appId: com.sf.monarch
 idd: 1386397997
@@ -11,24 +11,23 @@ version: "1.5.16"
 score: 4.79767
 reviews: 430
 size: 257777664
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: com.sf.monarch.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

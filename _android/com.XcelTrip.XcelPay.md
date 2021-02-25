@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: XcelPay
 title: "XcelPay - Secure Bitcoin & Ethereum Wallet"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: com.XcelTrip.XcelPay
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "2.17.0"
 stars: 4.2
@@ -13,21 +13,21 @@ ratings: 386
 reviews: 246
 size: 32M
 website: http://www.xcelpay.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.XcelTrip.XcelPay.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: XcelPayWallet
 providerLinkedIn: in/xcel-pay-1b6228172
 providerFacebook: xcelpay
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.XcelTrip.XcelPay/
@@ -42,4 +42,3 @@ The one-star ratings over and over tell:
 * the rewards are never reflected in the wallet
 * funds cannot be sent to a different wallet
 * SCAM
-

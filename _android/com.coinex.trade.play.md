@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: CoinEx
 title: "CoinEx"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: com.coinex.trade.play
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-18
 apkVersionName: "1.9.4.3"
 stars: 4.6
@@ -13,19 +13,19 @@ ratings: 3394
 reviews: 1230
 size: 14M
 website: https://www.coinex.co
-repository: 
-issue: 
+repository:
+issue:
 icon: com.coinex.trade.play.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: coinexcom
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: TheCoinEx
 providerReddit: Coinex
 

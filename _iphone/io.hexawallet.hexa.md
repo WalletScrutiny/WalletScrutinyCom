@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Hexa
 title: "Bitcoin Wallet Hexa"
-altTitle: 
+altTitle:
 
 appId: io.hexawallet.hexa
 idd: 1490205837
@@ -12,23 +12,22 @@ score: 4.75
 reviews: 4
 size: 46946304
 developerWebsite: https://hexawallet.io/
-repository: 
-issue: 
+repository:
+issue:
 icon: io.hexawallet.hexa.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

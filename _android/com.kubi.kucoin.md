@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: kucoin
 title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: com.kubi.kucoin
@@ -12,15 +12,15 @@ stars: 3.6
 ratings: 3691
 reviews: 2046
 size: 45M
-website: 
-repository: 
-issue: 
+website:
+repository:
+issue:
 icon: com.kubi.kucoin.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

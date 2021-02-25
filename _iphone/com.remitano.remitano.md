@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Remitano
 title: "Remitano"
-altTitle: 
+altTitle:
 
 appId: com.remitano.remitano
 idd: 1116327021
@@ -12,21 +12,21 @@ score: 4.76069
 reviews: 6009
 size: 57526272
 developerWebsite: https://remitano.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.remitano.remitano.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: remitano
 providerLinkedIn: company/Remitano
 providerFacebook: remitano
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

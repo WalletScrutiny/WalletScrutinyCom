@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: Uphold: buy and sell Bitcoin
 title: "Uphold: buy and sell Bitcoin"
-altTitle: 
+altTitle:
 
 users: 1000000
 appId: com.uphold.wallet
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-12
 apkVersionName: "4.15.9"
 stars: 2.5
@@ -13,21 +13,21 @@ ratings: 10609
 reviews: 6030
 size: 44M
 website: https://uphold.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.uphold.wallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: UpholdInc
 providerLinkedIn: company/upholdinc
 providerFacebook: UpholdInc
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /com.uphold.wallet/

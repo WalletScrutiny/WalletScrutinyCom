@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: OKEx
 title: "OKEx - Bitcoin,Cryptocurrency"
-altTitle: 
+altTitle:
 
 appId: com.okex.OKExAppstoreFull
 idd: 1327268470
@@ -12,19 +12,19 @@ score: 4.98508
 reviews: 16753
 size: 272896000
 developerWebsite: https://www.okex.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.okex.OKExAppstoreFull.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-23
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: OKEx
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: okexofficial
 providerReddit: OKEx
 

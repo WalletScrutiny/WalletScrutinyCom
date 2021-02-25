@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: BlueWallet - Bitcoin wallet
 title: "BlueWallet - Bitcoin wallet"
-altTitle: 
+altTitle:
 
 appId: io.bluewallet.bluewallet
 idd: 1376878040
@@ -11,24 +11,23 @@ version: "6.0.4"
 score: 4.20442
 reviews: 181
 size: 65783808
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: io.bluewallet.bluewallet.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: incognito
 title: "Incognito - Anonymous Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: com.incognito.wallet
-launchDate: 
+launchDate:
 latestUpdate: 2021-01-29
 apkVersionName: "4.1.0"
 stars: 3.7
@@ -16,18 +16,18 @@ website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-07
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /com.incognito.wallet/

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Coinbase – Buy & sell Bitcoin
 title: "Coinbase – Buy & sell Bitcoin"
-altTitle: 
+altTitle:
 
 appId: com.vilcsak.bitcoin2
 idd: 886427730
@@ -12,21 +12,21 @@ score: 4.67715
 reviews: 1012618
 size: 68261888
 developerWebsite: http://www.coinbase.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.vilcsak.bitcoin2.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: coinbase
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: coinbase
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: jaxxliberty
 title: "Jaxx Liberty Blockchain Wallet"
-altTitle: 
+altTitle:
 
 appId: com.liberty.jaxx
 idd: 1435383184
@@ -12,23 +12,22 @@ score: 4.50877
 reviews: 1140
 size: 45841408
 developerWebsite: https://jaxx.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.liberty.jaxx.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

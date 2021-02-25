@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Luno
 title: "Luno Bitcoin & Cryptocurrency"
-altTitle: 
+altTitle:
 
 appId: za.co.Bitx
 idd: 927362479
@@ -12,23 +12,22 @@ score: 4.43523
 reviews: 3088
 size: 89106432
 developerWebsite: https://www.luno.com
-repository: 
-issue: 
+repository:
+issue:
 icon: za.co.Bitx.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

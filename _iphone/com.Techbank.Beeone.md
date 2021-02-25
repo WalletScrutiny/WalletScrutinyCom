@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: TECHBANK
 title: "TECHBANK"
-altTitle: 
+altTitle:
 
 appId: com.Techbank.Beeone
 idd: 1473120022
@@ -12,23 +12,22 @@ score: 4.42856
 reviews: 7
 size: 83359744
 developerWebsite: https://techbank.finance/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.Techbank.Beeone.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

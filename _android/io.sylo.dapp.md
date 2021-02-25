@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: Sylo
 title: "Sylo - Smart Wallet & Messenger"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: io.sylo.dapp
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-16
 apkVersionName: "3.0.9-buy-crypto"
 stars: 4.3
@@ -13,14 +13,14 @@ ratings: 554
 reviews: 285
 size: 339M
 website: https://www.sylo.io/wallet
-repository: 
-issue: 
+repository:
+issue:
 icon: io.sylo.dapp.png
-bugbounty: 
+bugbounty:
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-10
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

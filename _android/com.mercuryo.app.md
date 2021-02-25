@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: Mercuryo
 title: "Mercuryo Bitcoin Cryptowallet"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: com.mercuryo.app
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-16
 apkVersionName: "1.11.2"
 stars: 4.3
@@ -13,14 +13,14 @@ ratings: 1849
 reviews: 1131
 size: 64M
 website: https://mercuryo.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.mercuryo.app.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

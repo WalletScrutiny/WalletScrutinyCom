@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: PTPWallet
 title: "PTPWallet - Bitcoin, Ethereum, and Other Crypto"
-altTitle: 
+altTitle:
 
 users: 10000
 appId: com.ptpwallet
-launchDate: 
+launchDate:
 latestUpdate: 2020-03-20
 apkVersionName: "1.0.1209"
 stars: 4.2
@@ -13,19 +13,19 @@ ratings: 313
 reviews: 231
 size: 6.4M
 website: https://ptpwallet.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.ptpwallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: PtpWallet
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: PTPWalletPage
 providerReddit: perkscoin
 

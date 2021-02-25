@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Coins– Load, Bills, Bitcoin
 title: "Coins– Load, Bills, Bitcoin"
-altTitle: 
+altTitle:
 
 appId: gctp.Coins
 idd: 972324049
@@ -12,23 +12,22 @@ score: 4.73001
 reviews: 2552
 size: 183635968
 developerWebsite: https://coins.ph/
-repository: 
-issue: 
+repository:
+issue:
 icon: gctp.Coins.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

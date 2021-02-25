@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: mycelium
 title: "Mycelium Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 appId: com.mycelium.wallet-ios
 idd: 943912290
@@ -13,13 +13,13 @@ reviews: 301
 size: 7785472
 developerWebsite: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
-issue: 
+issue:
 icon: com.mycelium.wallet-ios.jpg
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-19
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

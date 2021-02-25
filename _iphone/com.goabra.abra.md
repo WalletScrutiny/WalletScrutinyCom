@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: goabra
 title: "Abra: Bitcoin & Crypto Wallet"
-altTitle: 
+altTitle:
 
 appId: com.goabra.abra
 idd: 966301394
@@ -11,22 +11,22 @@ version: "91.0.0"
 score: 4.5667
 reviews: 12915
 size: 103027712
-developerWebsite: 
-repository: 
-issue: 
+developerWebsite:
+repository:
+issue:
 icon: com.goabra.abra.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: AbraGlobal
 providerLinkedIn: company/abra
 providerFacebook: GoAbraGlobal
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

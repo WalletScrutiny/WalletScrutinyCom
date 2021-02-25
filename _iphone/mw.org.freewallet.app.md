@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Multi Crypto Wallet－Freewallet
 title: "Multi Crypto Wallet－Freewallet"
-altTitle: 
+altTitle:
 
 appId: mw.org.freewallet.app
 idd: 1274003898
@@ -12,23 +12,22 @@ score: 4.05325
 reviews: 772
 size: 45145088
 developerWebsite: https://freewallet.org
-repository: 
-issue: 
+repository:
+issue:
 icon: mw.org.freewallet.app.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

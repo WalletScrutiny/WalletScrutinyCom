@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: Celsius
 title: "Celsius - Crypto Wallet"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: network.celsius.wallet
-launchDate: 
+launchDate:
 latestUpdate: 2021-01-20
 apkVersionName: "4.7.0"
 stars: 3.7
@@ -13,21 +13,21 @@ ratings: 3955
 reviews: 2982
 size: 85M
 website: https://celsius.network
-repository: 
-issue: 
+repository:
+issue:
 icon: network.celsius.wallet.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: celsiusnetwork
 providerLinkedIn: company/celsiusnetwork
 providerFacebook: CelsiusNetwork
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /network.celsius.wallet/

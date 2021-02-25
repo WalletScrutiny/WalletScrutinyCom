@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: CoinEx
 title: "CoinEx"
-altTitle: 
+altTitle:
 
 appId: com.viabtc.trader
 idd: 1264462812
@@ -12,23 +12,22 @@ score: 4.46319
 reviews: 231
 size: 120793088
 developerWebsite: https://www.coinex.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.viabtc.trader.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

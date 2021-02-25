@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: PumaPay
 title: "PumaPay: Crypto Wallet"
-altTitle: 
+altTitle:
 
 appId: com.pumapay.pumawallet
 idd: 1376601366
@@ -12,23 +12,22 @@ score: 3.85714
 reviews: 14
 size: 110819328
 developerWebsite: https://pumapay.io
-repository: 
-issue: 
+repository:
+issue:
 icon: com.pumapay.pumawallet.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

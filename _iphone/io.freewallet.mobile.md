@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: FreeWallet
 title: "FreeWallet"
-altTitle: 
+altTitle:
 
 appId: io.freewallet.mobile
 idd: 1151168579
@@ -13,20 +13,20 @@ reviews: 2
 size: 13651968
 developerWebsite: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
-issue: 
+issue:
 icon: io.freewallet.mobile.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
 reviewStale: false
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: freewallet
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: freewallet.io
-providerReddit: 
+providerReddit:
 
 redirect_from:
 

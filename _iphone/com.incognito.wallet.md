@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: incognito
 title: "Incognito crypto wallet"
-altTitle: 
+altTitle:
 
 appId: com.incognito.wallet
 idd: 1475631606
@@ -13,20 +13,20 @@ reviews: 63
 size: 51150848
 developerWebsite: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
-issue: 
+issue:
 icon: com.incognito.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 

@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: BRD Bitcoin
 title: "BRD Bitcoin Wallet. Bitcoin Cash BCH, Bitcoin BTC"
-altTitle: 
+altTitle:
 
 users: 5000000
 appId: com.breadwallet
@@ -16,11 +16,11 @@ website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android
 issue: https://github.com/breadwallet/breadwallet-android/issues/117
 icon: com.breadwallet.jpg
-bugbounty: 
+bugbounty:
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-16
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 

@@ -1,34 +1,33 @@
 ---
-wsId: 
+wsId: Indodax Trading Platform
 title: "Indodax Trading Platform"
-altTitle: 
+altTitle:
 
 appId: id.co.bitcoin.Bitcoin-Trading-Platform
 idd: 1349104693
 released: 2018-03-29
 updated: 2021-02-18
 version: "2.2.4"
-score: 
-reviews: 
+score:
+reviews:
 size: 73229312
 developerWebsite: https://indodax.com
-repository: 
-issue: 
+repository:
+issue:
 icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
-bugbounty: 
+bugbounty:
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-

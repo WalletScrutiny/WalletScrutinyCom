@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: Green: Bitcoin Wallet
 title: "Green: Bitcoin Wallet"
-altTitle: 
+altTitle:
 
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
@@ -16,7 +16,7 @@ website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/75
 icon: com.greenaddress.greenbits_android_wallet.png
-bugbounty: 
+bugbounty:
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-05
 reviewStale: false
@@ -101,7 +101,7 @@ reviewArchive:
 providerTwitter: Blockstream
 providerLinkedIn: company/blockstream
 providerFacebook: Blockstream
-providerReddit: 
+providerReddit:
 
 redirect_from:
   - /greenwallet/

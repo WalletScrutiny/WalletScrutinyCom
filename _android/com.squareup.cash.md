@@ -1,11 +1,11 @@
 ---
-wsId: 
+wsId: Cash App
 title: "Cash App"
-altTitle: 
+altTitle:
 
 users: 10000000
 appId: com.squareup.cash
-launchDate: 
+launchDate:
 latestUpdate: 2021-02-18
 apkVersionName: "3.32.1"
 stars: 4.2
@@ -13,21 +13,21 @@ ratings: 326620
 reviews: 122069
 size: 27M
 website: https://cash.app
-repository: 
-issue: 
+repository:
+issue:
 icon: com.squareup.cash.png
-bugbounty: 
+bugbounty:
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
 reviewStale: true
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
   - /com.squareup.cash/
@@ -42,7 +42,7 @@ This app is primarily a banking app:
 but you can also receive and send Bitcoins with it:
 
 > **BUY, SELL, DEPOSIT, AND WITHDRAW BITCOIN**
-> 
+>
 > Cash App is the easiest way to buy, sell, deposit, and withdraw Bitcoin. Track
   the BTC price in realtime in your app and get started by buying as little as
   $1 of Bitcoin. Your BTC arrives in your app instantly. You can then decide to
