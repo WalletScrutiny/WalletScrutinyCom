@@ -2,7 +2,8 @@
 wsId: 
 title: "Crypto.com l DeFi Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.defi.wallet
 idd: 1512048310
 released: 2020-05-20

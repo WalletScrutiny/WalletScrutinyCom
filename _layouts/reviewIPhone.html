@@ -274,6 +274,10 @@ layout: default
         comfortable with the provider's reaction.</p>
 
       <h1>The Analysis</h1>
+      {% if page.authors %}
+        <small>By 
+        {% for a in page.authors %}{% if forloop.index > 1 %}, {% endif %}{% assign author = site.authors | where: 'slug', a | first %}{% if author %}<a href="/authors/{{a}}">{{ author.name }}</a>{% else %}{{ a }}{% endif %}{% endfor %}.</small>
+      {% endif %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
