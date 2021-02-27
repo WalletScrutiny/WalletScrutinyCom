@@ -2,7 +2,8 @@
 wsId: 
 title: "Hebe Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.hebeblock.hebewallet
 launchDate: 

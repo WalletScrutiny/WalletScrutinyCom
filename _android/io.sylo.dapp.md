@@ -2,7 +2,8 @@
 wsId: 
 title: "Sylo - Smart Wallet & Messenger"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.sylo.dapp
 launchDate: 

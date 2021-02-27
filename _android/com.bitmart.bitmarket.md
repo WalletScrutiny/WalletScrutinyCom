@@ -2,15 +2,16 @@
 wsId: bitmart
 title: "BitMart - Cryptocurrency Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.bitmart.bitmarket
 launchDate: 
 latestUpdate: 2021-02-05
 apkVersionName: "2.4.4"
 stars: 3.0
-ratings: 731
-reviews: 426
+ratings: 740
+reviews: 432
 size: 31M
 website: https://www.bitmart.com
 repository: 

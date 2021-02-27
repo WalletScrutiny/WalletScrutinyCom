@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcoin Wallet - Airbitz"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.airbitz
 launchDate: 2014-04-01

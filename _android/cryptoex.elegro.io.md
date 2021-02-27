@@ -2,7 +2,8 @@
 wsId: 
 title: "elegro Exchange - Bitcoin and crypto exchange"
 altTitle: 
-
+authors:
+- leo
 users: 500
 appId: cryptoex.elegro.io
 launchDate: 

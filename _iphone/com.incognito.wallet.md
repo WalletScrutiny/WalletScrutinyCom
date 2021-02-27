@@ -2,7 +2,8 @@
 wsId: 
 title: "Incognito crypto wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.incognito.wallet
 idd: 1475631606
 released: 2019-08-21

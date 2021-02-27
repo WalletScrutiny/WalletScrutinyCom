@@ -2,7 +2,8 @@
 wsId: btciapp
 title: "Bitcoin India Wallet &Exchange"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitcoinindia.Btciapp
 idd: 1230917514
 released: 2017-07-12

@@ -2,7 +2,8 @@
 wsId: 
 title: "Shango Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.shango
 launchDate: 

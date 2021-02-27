@@ -2,16 +2,17 @@
 wsId: 
 title: "Eidoo: Bitcoin and Ethereum Wallet and Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.eidoo.wallet.prodnet
 launchDate: 2017-09-25
-latestUpdate: 2021-02-08
-apkVersionName: "2.16.0"
+latestUpdate: 2021-02-23
+apkVersionName: "2.16.1"
 stars: 3.3
-ratings: 1557
-reviews: 763
-size: 13M
+ratings: 1562
+reviews: 768
+size: 12M
 website: https://eidoo.io
 repository: 
 issue: 

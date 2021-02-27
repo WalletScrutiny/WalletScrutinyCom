@@ -2,7 +2,8 @@
 wsId: bitpie
 title: "Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.bitpie
 launchDate: 2016-10-23

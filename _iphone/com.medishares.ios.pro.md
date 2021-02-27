@@ -2,7 +2,8 @@
 wsId: 
 title: "Math Wallet-Blockchain Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.medishares.ios.pro
 idd: 1383637331
 released: 2019-04-30

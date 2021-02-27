@@ -2,15 +2,16 @@
 wsId: 
 title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.shapeshift.droid_shapeshift
 launchDate: 
 latestUpdate: 2021-02-11
 apkVersionName: "2.11.0"
 stars: 2.4
-ratings: 2315
-reviews: 1480
+ratings: 2336
+reviews: 1491
 size: 48M
 website: https://shapeshift.com
 repository: 

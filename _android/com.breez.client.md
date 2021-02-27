@@ -2,7 +2,8 @@
 wsId: 
 title: "Breez: Lightning Network Client & Point-of-Sale"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.breez.client
 launchDate: 

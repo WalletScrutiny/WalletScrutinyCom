@@ -2,7 +2,8 @@
 wsId: bit2me
 title: "Bit2Me - Comprar Bitcoins"
 altTitle: 
-
+authors:
+- leo
 appId: com.bit2me.flutter-ios
 idd: 1459809738
 released: 2019-06-04

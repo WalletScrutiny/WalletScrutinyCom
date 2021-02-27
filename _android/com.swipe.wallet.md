@@ -2,15 +2,16 @@
 wsId: 
 title: "Swipe Wallet"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.swipe.wallet
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "1.530"
 stars: 3.6
-ratings: 1343
-reviews: 961
+ratings: 1366
+reviews: 975
 size: 57M
 website: https://swipe.io
 repository: 

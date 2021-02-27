@@ -2,7 +2,8 @@
 wsId: 
 title: "AirGap Vault - Secure Secrets"
 altTitle: 
-
+authors:
+- leo
 appId: it.airgap.vault
 idd: 1417126841
 released: 2018-08-24

@@ -2,7 +2,8 @@
 wsId: 
 title: "FTX Pro: Trade Crypto Anywhere"
 altTitle: 
-
+authors:
+- leo
 appId: org.reactjs.native.example.FTXMobile.FTX
 idd: 1512374471
 released: 2020-05-20

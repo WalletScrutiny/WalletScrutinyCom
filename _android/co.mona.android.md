@@ -2,15 +2,16 @@
 wsId: mona
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: co.mona.android
 launchDate: 2017-08-30
-latestUpdate: 2021-02-04
-apkVersionName: "3.84.0"
-stars: 3.6
-ratings: 56727
-reviews: 23167
+latestUpdate: 2021-02-08
+apkVersionName: "3.84.1"
+stars: 3.5
+ratings: 57954
+reviews: 23624
 size: 86M
 website: https://www.crypto.com
 repository: 

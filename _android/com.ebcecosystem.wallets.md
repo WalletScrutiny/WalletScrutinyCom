@@ -2,7 +2,8 @@
 wsId: 
 title: "EBC Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.ebcecosystem.wallets
 launchDate: 2018-12-07

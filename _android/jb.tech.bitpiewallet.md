@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: jb.tech.bitpiewallet
 launchDate: 

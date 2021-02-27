@@ -2,7 +2,8 @@
 wsId: 
 title: "Kraken Futures: Bitcoin & Crypto Futures Trading"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.krakenfutures
 launchDate: 

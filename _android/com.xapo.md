@@ -2,15 +2,16 @@
 wsId: 
 title: "Xapo"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.xapo
 launchDate: 2014-04-01
 latestUpdate: 2020-07-29
 apkVersionName: "5.30"
 stars: 3.7
-ratings: 45431
-reviews: 21533
+ratings: 45458
+reviews: 21554
 size: 93M
 website: https://xapo.com
 repository: 

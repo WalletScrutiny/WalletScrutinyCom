@@ -2,7 +2,8 @@
 wsId: coinpayapp
 title: "Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.coinpay
 launchDate: 

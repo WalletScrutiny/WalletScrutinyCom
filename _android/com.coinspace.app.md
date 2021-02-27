@@ -2,15 +2,16 @@
 wsId: coinspace
 title: "Coin Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.coinspace.app
 launchDate: 2015-05-01
 latestUpdate: 2021-02-04
 apkVersionName: "3.0.7"
-stars: 4.2
-ratings: 737
-reviews: 341
+stars: 4.1
+ratings: 747
+reviews: 343
 size: 5.6M
 website: https://www.coin.space
 repository: https://github.com/CoinSpace/CoinSpace

@@ -2,14 +2,15 @@
 wsId: ownbit
 title: "Ownbit - Blockchain Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.bitbill.www
 launchDate: 
 latestUpdate: 2021-02-14
 apkVersionName: "4.26.1"
 stars: 3.9
-ratings: 47
+ratings: 48
 reviews: 28
 size: 31M
 website: http://www.bitbill.com

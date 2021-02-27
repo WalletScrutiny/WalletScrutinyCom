@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcoin Wallet BitBucks"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: de.fuf.bitbucks
 launchDate: 2019-09-03

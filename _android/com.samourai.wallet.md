@@ -2,7 +2,8 @@
 wsId: 
 title: "Samourai Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.samourai.wallet
 launchDate: 

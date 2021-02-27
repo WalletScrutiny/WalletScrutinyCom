@@ -2,14 +2,15 @@
 wsId: 
 title: "Coinbase – Buy & sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.vilcsak.bitcoin2
 idd: 886427730
 released: 2014-06-22
 updated: 2021-02-20
 version: "9.12.2"
-score: 4.67793
-reviews: 1022847
+score: 4.67791
+reviews: 1030418
 size: 68261888
 developerWebsite: http://www.coinbase.com
 repository: 

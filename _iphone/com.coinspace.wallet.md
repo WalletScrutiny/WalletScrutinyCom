@@ -2,14 +2,15 @@
 wsId: coinspace
 title: "Coin Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.coinspace.wallet
 idd: 980719434
 released: 2015-12-14
 updated: 2021-02-04
 version: "3.0.7"
-score: 4.50526
-reviews: 95
+score: 4.51042
+reviews: 96
 size: 29129728
 developerWebsite: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace

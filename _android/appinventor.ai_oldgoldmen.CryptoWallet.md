@@ -2,12 +2,13 @@
 wsId: 
 title: "Multi Crypto Wallet: for Bitcoin and 20 currencies"
 altTitle: 
-
+authors:
+- leo
 users: 500
 appId: appinventor.ai_oldgoldmen.CryptoWallet
 launchDate: 
-latestUpdate: 2020-02-02
-apkVersionName: "1.0"
+latestUpdate: 2021-02-23
+apkVersionName: "3.0"
 stars: 4.8
 ratings: 36
 reviews: 15

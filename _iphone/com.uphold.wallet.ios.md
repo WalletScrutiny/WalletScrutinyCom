@@ -2,15 +2,16 @@
 wsId: 
 title: "Uphold: buy and sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.uphold.wallet.ios
 idd: 1101145849
 released: 2016-04-19
-updated: 2021-02-13
-version: "4.15.9"
-score: 4.08824
-reviews: 3649
-size: 63809536
+updated: 2021-02-26
+version: "4.15.11"
+score: 4.06029
+reviews: 3699
+size: 63840256
 developerWebsite: 
 repository: 
 issue: 

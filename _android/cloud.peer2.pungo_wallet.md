@@ -2,7 +2,8 @@
 wsId: 
 title: "Pungo App"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: cloud.peer2.pungo_wallet
 launchDate: 

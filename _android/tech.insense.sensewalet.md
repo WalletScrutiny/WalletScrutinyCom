@@ -2,7 +2,8 @@
 wsId: 
 title: "iWallet - blockchain wallet for Bitcoin, Ethereum"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: tech.insense.sensewalet
 launchDate: 2018-09-27

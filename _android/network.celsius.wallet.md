@@ -2,16 +2,17 @@
 wsId: 
 title: "Celsius - Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: network.celsius.wallet
 launchDate: 
 latestUpdate: 2021-02-20
-apkVersionName: "4.7.0"
+apkVersionName: "4.8.0"
 stars: 3.6
-ratings: 3992
-reviews: 3004
-size: 85M
+ratings: 4030
+reviews: 3028
+size: 87M
 website: https://celsius.network
 repository: 
 issue: 

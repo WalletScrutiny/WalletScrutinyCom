@@ -2,7 +2,8 @@
 wsId: 
 title: "TECHBANK"
 altTitle: 
-
+authors:
+- leo
 appId: com.Techbank.Beeone
 idd: 1473120022
 released: 2019-07-19

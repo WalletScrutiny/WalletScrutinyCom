@@ -2,7 +2,8 @@
 wsId: 
 title: "PTPWallet - Bitcoin, Ethereum, and Other Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.ptpwallet
 launchDate: 

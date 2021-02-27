@@ -2,16 +2,17 @@
 wsId: 
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2021-02-19
-apkVersionName: "1.26.11"
+latestUpdate: 2021-02-24
+apkVersionName: "1.26.17"
 stars: 4.6
-ratings: 181634
-reviews: 54779
-size: 34M
+ratings: 184720
+reviews: 55283
+size: 33M
 website: https://trustwallet.com
 repository: 
 issue: 

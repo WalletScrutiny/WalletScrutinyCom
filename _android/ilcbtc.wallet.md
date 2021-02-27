@@ -2,7 +2,8 @@
 wsId: 
 title: "ILC / BTC Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: ilcbtc.wallet
 launchDate: 2018-02-27

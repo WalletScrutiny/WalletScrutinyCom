@@ -2,14 +2,15 @@
 wsId: busha
 title: "Busha: Buy & Sell Bitcoin, Ethereum. Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: co.busha.android
 launchDate: 2019-01-21
-latestUpdate: 2021-02-20
-apkVersionName: "2.6.5"
-stars: 4.1
-ratings: 1893
+latestUpdate: 2021-02-25
+apkVersionName: "2.6.6"
+stars: 4.2
+ratings: 1894
 reviews: 1468
 size: 16M
 website: https://busha.co

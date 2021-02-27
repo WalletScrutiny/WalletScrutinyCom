@@ -2,14 +2,15 @@
 wsId: counos
 title: "Counos Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.counos
 launchDate: 
 latestUpdate: 2021-01-23
 apkVersionName: "1.9.3"
 stars: 4.0
-ratings: 506
+ratings: 507
 reviews: 349
 size: 10M
 website: https://www.counos.io

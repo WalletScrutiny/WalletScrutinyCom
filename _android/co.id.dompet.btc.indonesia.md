@@ -2,15 +2,16 @@
 wsId: 
 title: "Dompet Bitcoin Indonesia"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: co.id.dompet.btc.indonesia
 launchDate: 
 latestUpdate: 2020-12-08
 apkVersionName: "Varies with device"
 stars: 3.5
-ratings: 4536
-reviews: 2602
+ratings: 4539
+reviews: 2604
 size: Varies with device
 website: https://www.indodax.com
 repository: 

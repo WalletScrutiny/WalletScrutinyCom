@@ -2,7 +2,8 @@
 wsId: 
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
-
+authors:
+- leo
 appId: com.evercoinInc.evercoin
 idd: 1277924158
 released: 2017-09-16

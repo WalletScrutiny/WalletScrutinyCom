@@ -2,7 +2,8 @@
 wsId: 
 title: "Yes Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.yes.yeswallet
 launchDate: 

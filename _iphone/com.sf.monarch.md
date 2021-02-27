@@ -2,7 +2,8 @@
 wsId: 
 title: "Monarch Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.sf.monarch
 idd: 1386397997
 released: 2018-06-12

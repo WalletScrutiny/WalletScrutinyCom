@@ -2,15 +2,16 @@
 wsId: cake
 title: "Cake Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.cakewallet.cake_wallet
 launchDate: 
 latestUpdate: 2021-02-13
 apkVersionName: "4.1.2"
-stars: 4.2
-ratings: 322
-reviews: 212
+stars: 4.1
+ratings: 325
+reviews: 213
 size: 62M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

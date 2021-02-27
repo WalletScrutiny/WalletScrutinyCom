@@ -2,14 +2,15 @@
 wsId: bitrue
 title: "Bitrue"
 altTitle: 
-
+authors:
+- leo
 appId: com.cmcm.currency.exchange
 idd: 1435877386
 released: 2018-09-16
 updated: 2021-01-13
 version: "4.3.6"
-score: 3.20879
-reviews: 91
+score: 3.25532
+reviews: 94
 size: 91925504
 developerWebsite: 
 repository: 

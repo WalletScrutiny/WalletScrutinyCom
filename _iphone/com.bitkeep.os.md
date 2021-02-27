@@ -2,7 +2,8 @@
 wsId: bitkeep
 title: "BitKeep"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitkeep.os
 idd: 1395301115
 released: 2018-09-26

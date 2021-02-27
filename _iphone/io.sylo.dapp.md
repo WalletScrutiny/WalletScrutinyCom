@@ -2,7 +2,8 @@
 wsId: 
 title: "Sylo"
 altTitle: 
-
+authors:
+- leo
 appId: io.sylo.dapp
 idd: 1452964749
 released: 2019-09-10

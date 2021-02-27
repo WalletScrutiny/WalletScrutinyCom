@@ -2,15 +2,16 @@
 wsId: 
 title: "Uphold: buy and sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.uphold.wallet
 launchDate: 
-latestUpdate: 2021-02-12
+latestUpdate: 2021-02-23
 apkVersionName: "4.15.9"
-stars: 2.6
-ratings: 10757
-reviews: 6120
+stars: 2.7
+ratings: 10867
+reviews: 6203
 size: 44M
 website: https://uphold.com
 repository: 

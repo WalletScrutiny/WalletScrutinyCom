@@ -2,15 +2,16 @@
 wsId: africa
 title: "BuyCoins - Buy & Sell Bitcoin, Ethereum, Litecoin"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: africa.bitkoin.buycoins
 launchDate: 
 latestUpdate: 2021-02-16
 apkVersionName: "5.5.1"
 stars: 3.2
-ratings: 587
-reviews: 404
+ratings: 592
+reviews: 408
 size: 11M
 website: https://buycoins.africa
 repository: 

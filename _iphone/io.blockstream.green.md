@@ -2,7 +2,8 @@
 wsId: 
 title: "Green: Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.blockstream.green
 idd: 1402243590
 released: 2019-03-22

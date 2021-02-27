@@ -2,7 +2,8 @@
 wsId: 
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.evercoin
 launchDate: 

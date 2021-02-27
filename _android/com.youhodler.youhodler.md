@@ -2,15 +2,16 @@
 wsId: 
 title: "YouHodler - Crypto and Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.youhodler.youhodler
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "2.10.0"
 stars: 4.2
-ratings: 826
-reviews: 319
+ratings: 838
+reviews: 329
 size: 47M
 website: https://youhodler.com
 repository: 

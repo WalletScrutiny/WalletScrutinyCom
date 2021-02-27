@@ -2,7 +2,8 @@
 wsId: 
 title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.vidulumwallet.app
 launchDate: 

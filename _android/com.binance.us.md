@@ -2,15 +2,16 @@
 wsId: binanceus
 title: "Binance.US"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.binance.us
 launchDate: 
 latestUpdate: 2021-02-10
 apkVersionName: "2.3.2"
-stars: 2.1
-ratings: 1882
-reviews: 1406
+stars: 2.0
+ratings: 1955
+reviews: 1467
 size: Varies with device
 website: https://www.binance.us
 repository: 

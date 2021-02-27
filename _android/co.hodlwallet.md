@@ -2,14 +2,15 @@
 wsId: hodl
 title: "HODL Wallet : Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: co.hodlwallet
 launchDate: 2018-09-24
 latestUpdate: 2020-05-18
 apkVersionName: "3.3.5"
-stars: 3.8
-ratings: 98
+stars: 3.9
+ratings: 99
 reviews: 55
 size: 12M
 website: https://hodlwallet.com

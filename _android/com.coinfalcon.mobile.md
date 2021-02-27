@@ -2,7 +2,8 @@
 wsId: coinfalcon
 title: "CoinFalcon – Buy & sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.coinfalcon.mobile
 launchDate: 

@@ -2,7 +2,8 @@
 wsId: 
 title: "PolisPay - Cryptocurrency wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.polispay.copay
 launchDate: 2018-02-21

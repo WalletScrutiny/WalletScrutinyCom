@@ -11,7 +11,7 @@ const sleep = require('sleep').sleep
 
 const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
 latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,wsId,\
+repository,issue,icon,bugbounty,verdict,providerTwitter,wsId,authors,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
 altTitle,reviewStale,reviewArchive,signer".split(","))
 
@@ -86,6 +86,7 @@ fs.readdir(androidFolder, function (err, files) {
 function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
+  const authors = new Set(header.authors)
   var apkVersionName = app.version || "various"
   const launchDate = header.launchDate || app.release
   var launchDateString = ""
@@ -103,7 +104,8 @@ function writeResult(app, header, iconExtension, body) {
 wsId: ${header.wsId || ""}
 title: "${app.title}"
 altTitle: ${altTitle}
-
+authors:
+${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
 launchDate: ${launchDateString}

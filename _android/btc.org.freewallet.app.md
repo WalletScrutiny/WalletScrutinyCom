@@ -2,15 +2,16 @@
 wsId: 
 title: "Bitcoin Wallet. Buy & Exchange BTC coin－Freewallet"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: btc.org.freewallet.app
 launchDate: 2016-06-13
 latestUpdate: 2020-04-21
 apkVersionName: "2.5.2"
 stars: 4.1
-ratings: 4252
-reviews: 2044
+ratings: 4273
+reviews: 2055
 size: 7.2M
 website: https://freewallet.org
 repository: 

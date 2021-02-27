@@ -2,14 +2,15 @@
 wsId: 
 title: "Huobi - Buy & Sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.huobi.appStoreHuobiSystem
 idd: 1023263342
 released: 2015-08-19
 updated: 2021-02-06
 version: "6.1.4"
-score: 4.8047
-reviews: 2852
+score: 4.80147
+reviews: 2856
 size: 211897344
 developerWebsite: http://www.hbg.com
 repository: 

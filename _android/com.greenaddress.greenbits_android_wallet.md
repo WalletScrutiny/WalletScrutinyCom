@@ -2,15 +2,16 @@
 wsId: 
 title: "Green: Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
 latestUpdate: 2021-02-05
 apkVersionName: "3.4.9"
 stars: 3.8
-ratings: 731
-reviews: 402
+ratings: 734
+reviews: 405
 size: 34M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/

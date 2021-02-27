@@ -2,7 +2,8 @@
 wsId: 
 title: "Melis Lite"
 altTitle: 
-
+authors:
+- leo
 users: 10
 appId: io.melis.walletlite
 launchDate: 2019-06-03

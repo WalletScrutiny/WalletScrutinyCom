@@ -2,7 +2,8 @@
 wsId: 
 title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: ai.azara.wallet
 launchDate: 

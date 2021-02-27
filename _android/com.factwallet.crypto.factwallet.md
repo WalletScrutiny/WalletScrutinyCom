@@ -2,7 +2,8 @@
 wsId: 
 title: "Fact Wallet - Bitcoin and cryptocurrency Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: com.factwallet.crypto.factwallet
 launchDate: 

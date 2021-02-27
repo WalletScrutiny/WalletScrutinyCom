@@ -2,15 +2,16 @@
 wsId: mercurycash
 title: "Mercury Cash"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
 latestUpdate: 2020-12-20
 apkVersionName: "4.2.8"
 stars: 4.1
-ratings: 177
-reviews: 124
+ratings: 178
+reviews: 125
 size: 82M
 website: http://mercury.cash
 repository: 

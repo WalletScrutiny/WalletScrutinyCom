@@ -2,7 +2,8 @@
 wsId: 
 title: "AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: it.airgap.vault
 launchDate: 2018-08-06

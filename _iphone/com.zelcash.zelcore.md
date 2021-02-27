@@ -2,7 +2,8 @@
 wsId: 
 title: "ZelCore"
 altTitle: 
-
+authors:
+- leo
 appId: com.zelcash.zelcore
 idd: 1436296839
 released: 2018-09-23

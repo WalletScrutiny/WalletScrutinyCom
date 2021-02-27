@@ -2,7 +2,8 @@
 wsId: 
 title: "Wallet of Satoshi"
 altTitle: 
-
+authors:
+- leo
 appId: com.livingroomofsatoshi.wallet
 idd: 1438599608
 released: 2019-05-20

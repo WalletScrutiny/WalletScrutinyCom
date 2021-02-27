@@ -2,7 +2,8 @@
 wsId: coincola
 title: "CoinCola - Buy Bitcoin & more"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.newgo.coincola
 launchDate: 

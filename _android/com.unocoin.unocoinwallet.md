@@ -2,15 +2,16 @@
 wsId: 
 title: "Unocoin"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
 launchDate: 2016-11-30
 latestUpdate: 2021-02-20
 apkVersionName: "3.4.10"
-stars: 4.3
-ratings: 14960
-reviews: 8072
+stars: 4.2
+ratings: 14987
+reviews: 8091
 size: 12M
 website: https://www.unocoin.com
 repository: 

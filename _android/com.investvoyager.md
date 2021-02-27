@@ -2,15 +2,16 @@
 wsId: 
 title: "Voyager - Buy Bitcoin & Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.investvoyager
 launchDate: 
-latestUpdate: 2021-02-18
-apkVersionName: "2.5.12"
-stars: 3.1
-ratings: 1605
-reviews: 1077
+latestUpdate: 2021-02-24
+apkVersionName: "2.5.13"
+stars: 3.6
+ratings: 1652
+reviews: 1110
 size: 48M
 website: https://www.investvoyager.com/
 repository: 

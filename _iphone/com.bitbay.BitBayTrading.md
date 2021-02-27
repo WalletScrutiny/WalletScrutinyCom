@@ -2,7 +2,8 @@
 wsId: bitpaytrading
 title: "BitBay - Bitcoin & Crypto"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitbay.BitBayTrading
 idd: 1409644952
 released: 2018-11-20

@@ -2,7 +2,8 @@
 wsId: 
 title: "STASIS Stablecoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: net.stasis.mobile
 idd: 1371949230
 released: 2018-07-06

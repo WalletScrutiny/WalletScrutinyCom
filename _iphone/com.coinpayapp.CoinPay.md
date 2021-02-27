@@ -2,14 +2,15 @@
 wsId: coinpayapp
 title: "Coin Pay Wallet: Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.coinpayapp.CoinPay
 idd: 1477731032
 released: 2019-12-04
 updated: 2020-08-29
 version: "2020.08.28"
-score: 4.03409
-reviews: 88
+score: 4.04494
+reviews: 89
 size: 21357568
 developerWebsite: https://www.coinpayapp.com
 repository: 
