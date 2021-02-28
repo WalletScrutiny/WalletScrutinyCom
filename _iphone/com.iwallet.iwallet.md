@@ -2,15 +2,16 @@
 wsId: iwallet
 title: "iWallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.iwallet.iwallet
 idd: 1479545928
 released: 2019-09-14
-updated: 2021-02-11
-version: "2.33"
+updated: 2021-02-23
+version: "2.34"
 score: 4.44444
 reviews: 36
-size: 52310016
+size: 52318208
 developerWebsite: 
 repository: 
 issue: 

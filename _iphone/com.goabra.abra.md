@@ -2,15 +2,16 @@
 wsId: goabra
 title: "Abra: Bitcoin & Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.goabra.abra
 idd: 966301394
 released: 2015-03-12
-updated: 2021-02-15
-version: "91.0.0"
-score: 4.5667
-reviews: 12915
-size: 103027712
+updated: 2021-02-23
+version: "92.0.0"
+score: 4.56574
+reviews: 13128
+size: 102875136
 developerWebsite: 
 repository: 
 issue: 

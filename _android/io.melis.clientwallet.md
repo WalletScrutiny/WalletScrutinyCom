@@ -2,7 +2,8 @@
 wsId: melisclientwallet
 title: "Melis Bitcoin, Bitcoin Cash, Litecoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: io.melis.clientwallet
 launchDate: 2017-01-30

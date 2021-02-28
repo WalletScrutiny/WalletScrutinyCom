@@ -2,15 +2,16 @@
 wsId: cobowallet
 title: "Cobo Wallet: Bitcoin, Ethereum, Dash, XRP, XLM"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: cobo.wallet
 launchDate: 2018-07-01
 latestUpdate: 2020-12-16
 apkVersionName: "4.26"
 stars: 3.5
-ratings: 3895
-reviews: 2370
+ratings: 3897
+reviews: 2372
 size: 47M
 website: https://cobo.com
 repository: 

@@ -2,7 +2,8 @@
 wsId: 
 title: "AnkerPay: Blockchain Crypto Wallet – BTC, ETH, LTC"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.ankerpay.wallet
 launchDate: 

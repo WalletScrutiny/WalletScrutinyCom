@@ -2,15 +2,16 @@
 wsId: Luno
 title: "Luno Bitcoin & Cryptocurrency"
 altTitle: 
-
+authors:
+- leo
 appId: za.co.Bitx
 idd: 927362479
 released: 2014-11-03
-updated: 2021-02-10
-version: "7.7.0"
-score: 4.43523
-reviews: 3088
-size: 89106432
+updated: 2021-02-25
+version: "7.8.0"
+score: 4.43394
+reviews: 3111
+size: 89120768
 developerWebsite: https://www.luno.com
 repository: 
 issue: 

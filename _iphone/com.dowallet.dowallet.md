@@ -2,15 +2,16 @@
 wsId: 
 title: "DoWallet Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.dowallet.dowallet
 idd: 1451010841
 released: 2019-02-03
-updated: 2021-01-27
-version: "1.1.34"
-score: 4.84
-reviews: 200
-size: 25844736
+updated: 2021-02-23
+version: "1.1.35"
+score: 4.82266
+reviews: 203
+size: 25848832
 developerWebsite: https://www.dowallet.app
 repository: 
 issue: 

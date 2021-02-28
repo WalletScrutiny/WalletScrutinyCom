@@ -2,7 +2,8 @@
 wsId: 
 title: "FreeWallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: io.freewallet.mobile
 launchDate: 2016-09-01

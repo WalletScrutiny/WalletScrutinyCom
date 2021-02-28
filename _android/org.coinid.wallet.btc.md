@@ -2,12 +2,13 @@
 wsId: 
 title: "Bitcoin Wallet for COINiD"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.coinid.wallet.btc
 launchDate: 2018-10-14
-latestUpdate: 2020-05-16
-apkVersionName: "1.7.9"
+latestUpdate: 2021-02-20
+apkVersionName: "1.8.0"
 stars: 4.3
 ratings: 11
 reviews: 3

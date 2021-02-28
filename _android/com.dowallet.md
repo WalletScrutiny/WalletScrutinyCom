@@ -2,15 +2,16 @@
 wsId: 
 title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.dowallet
 launchDate: 2019-01-01
-latestUpdate: 2021-01-27
-apkVersionName: "1.1.34"
+latestUpdate: 2021-02-22
+apkVersionName: "1.1.35"
 stars: 4.1
-ratings: 806
-reviews: 428
+ratings: 812
+reviews: 430
 size: 31M
 website: https://www.dowallet.app
 repository: 

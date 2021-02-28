@@ -2,7 +2,8 @@
 wsId: SpectroCoin
 title: "Bitcoin Wallet by SpectroCoin"
 altTitle: 
-
+authors:
+- leo
 appId: lt.spectrofinance.spectrocoin.ios.wallet
 idd: 923696089
 released: 2014-12-30

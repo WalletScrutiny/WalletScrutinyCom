@@ -2,15 +2,16 @@
 wsId: paytomat
 title: "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.paytomat
 launchDate: 2018-06-20
 latestUpdate: 2021-02-01
 apkVersionName: "1.37.2"
 stars: 4.1
-ratings: 748
-reviews: 391
+ratings: 749
+reviews: 392
 size: 6.4M
 website: http://www.paytomat.com
 repository: 

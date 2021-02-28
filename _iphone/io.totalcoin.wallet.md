@@ -2,14 +2,15 @@
 wsId: Totalcoin
 title: "Bitcoin Wallet App - Totalcoin"
 altTitle: 
-
+authors:
+- leo
 appId: io.totalcoin.wallet
 idd: 1392398906
 released: 2018-07-05
 updated: 2021-01-27
 version: "2.9.6"
-score: 4.54545
-reviews: 66
+score: 4.55224
+reviews: 67
 size: 55388160
 developerWebsite: 
 repository: 

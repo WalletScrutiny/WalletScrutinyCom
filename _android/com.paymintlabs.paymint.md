@@ -2,7 +2,8 @@
 wsId: 
 title: "Paymint - Secure Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: com.paymintlabs.paymint
 launchDate: 2020-06-29

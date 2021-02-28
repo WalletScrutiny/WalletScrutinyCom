@@ -2,7 +2,8 @@
 wsId: mercurycash
 title: "Mercury Cash"
 altTitle: 
-
+authors:
+- leo
 appId: com.adenter.mercurycash
 idd: 1291394963
 released: 2017-10-07

@@ -2,15 +2,16 @@
 wsId: SwipeWallet
 title: "Swipe Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.swipe.wallet
 idd: 1476726454
 released: 2019-09-10
-updated: 2021-02-15
-version: "1.530"
-score: 4.77935
-reviews: 1201
-size: 141314048
+updated: 2021-02-22
+version: "1.531"
+score: 4.77337
+reviews: 1209
+size: 143298560
 developerWebsite: https://swipe.io
 repository: 
 issue: 

@@ -2,15 +2,16 @@
 wsId: bitnovo
 title: "Bitnovo - Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitnovo.app
 idd: 1220883632
 released: 2017-05-19
-updated: 2020-12-02
-version: "2.8.3"
+updated: 2021-02-25
+version: "2.8.5"
 score: 1
 reviews: 3
-size: 75660288
+size: 75869184
 developerWebsite: https://www.bitnovo.com
 repository: 
 issue: 

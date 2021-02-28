@@ -2,15 +2,16 @@
 wsId: 
 title: "HitBTC – Cryptocurrency Exchange & Trading BTC App"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
 latestUpdate: 2021-01-22
 apkVersionName: "3.0.6"
-stars: 3.8
-ratings: 1052
-reviews: 517
+stars: 4.1
+ratings: 1131
+reviews: 552
 size: 11M
 website: https://hitbtc.com
 repository: 

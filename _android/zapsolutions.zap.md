@@ -2,7 +2,8 @@
 wsId: zapwallet
 title: "Zap: Bitcoin Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: zapsolutions.zap
 launchDate: 

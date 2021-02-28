@@ -2,15 +2,16 @@
 wsId: crypterium
 title: "Crypterium | Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.crypterium
 launchDate: 
 latestUpdate: 2021-02-16
 apkVersionName: "2.6.39.10"
-stars: 3.9
-ratings: 6052
-reviews: 3263
+stars: 3.8
+ratings: 6133
+reviews: 3310
 size: 38M
 website: https://crypterium.com
 repository: 

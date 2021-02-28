@@ -2,7 +2,8 @@
 wsId: 
 title: "COBINHOOD - Zero Fees Bitcoin Exchange & Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.cobinhood.exchange
 launchDate: 

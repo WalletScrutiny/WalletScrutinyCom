@@ -2,15 +2,16 @@
 wsId: swft
 title: "SWFT Blockchain"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.swftcoin.client.android
 launchDate: 
-latestUpdate: 2021-01-28
-apkVersionName: "5.10.3"
+latestUpdate: 2021-02-23
+apkVersionName: "5.10.7"
 stars: 4.6
-ratings: 1216
-reviews: 741
+ratings: 1233
+reviews: 747
 size: 32M
 website: http://www.swft.pro
 repository: 

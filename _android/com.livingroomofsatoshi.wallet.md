@@ -2,15 +2,16 @@
 wsId: WalletofSatoshi
 title: "Wallet of Satoshi"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.livingroomofsatoshi.wallet
 launchDate: 2019-05-19
 latestUpdate: 2021-02-19
 apkVersionName: "1.10.5"
-stars: 3.7
-ratings: 272
-reviews: 157
+stars: 3.5
+ratings: 284
+reviews: 166
 size: 10M
 website: http://www.walletofsatoshi.com
 repository: 

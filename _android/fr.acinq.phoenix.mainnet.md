@@ -2,14 +2,15 @@
 wsId: 
 title: "Phoenix | The Bitcoin wallet from the future"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
 latestUpdate: 2021-02-12
 apkVersionName: "1.4.7"
 stars: 4.2
-ratings: 190
+ratings: 192
 reviews: 91
 size: 34M
 website: https://phoenix.acinq.co

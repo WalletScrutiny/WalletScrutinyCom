@@ -2,14 +2,15 @@
 wsId: STASISStablecoinWallet
 title: "STASIS Stablecoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.stasis.stasiswallet
 launchDate: 2018-06-13
 latestUpdate: 2021-02-08
 apkVersionName: "1.8.88"
 stars: 4.5
-ratings: 153
+ratings: 154
 reviews: 90
 size: 24M
 website: https://stasis.net/wallet

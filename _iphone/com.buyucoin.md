@@ -2,7 +2,8 @@
 wsId: buyucoin
 title: "BuyUcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.buyucoin
 idd: 1539456610
 released: 2020-11-17

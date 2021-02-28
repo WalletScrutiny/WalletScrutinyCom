@@ -2,15 +2,16 @@
 wsId: jaxxliberty
 title: "Jaxx Liberty Blockchain Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.liberty.jaxx
 idd: 1435383184
 released: 2018-10-03
-updated: 2021-02-02
-version: "2.5.0"
-score: 4.50877
-reviews: 1140
-size: 45841408
+updated: 2021-02-26
+version: "2.6.0"
+score: 4.50647
+reviews: 1159
+size: 46631936
 developerWebsite: https://jaxx.io
 repository: 
 issue: 

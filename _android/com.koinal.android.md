@@ -2,16 +2,17 @@
 wsId: koinal
 title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.koinal.android
 launchDate: 
-latestUpdate: 2021-02-01
-apkVersionName: "1.1.8"
-stars: 4.2
-ratings: 327
-reviews: 203
-size: 29M
+latestUpdate: 2021-02-27
+apkVersionName: "1.2.0"
+stars: 4.8
+ratings: 503
+reviews: 227
+size: 30M
 website: https://www.koinal.io
 repository: 
 issue: 

@@ -2,15 +2,16 @@
 wsId: huobi
 title: "Huobi Global"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: pro.huobi
 launchDate: 
-latestUpdate: 2021-02-08
-apkVersionName: "6.1.5"
-stars: 4.7
-ratings: 8014
-reviews: 2929
+latestUpdate: 2021-02-25
+apkVersionName: "6.1.6"
+stars: 4.5
+ratings: 7953
+reviews: 3012
 size: 63M
 website: https://www.huobi.com/en-us
 repository: 

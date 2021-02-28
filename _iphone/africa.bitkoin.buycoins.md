@@ -2,7 +2,8 @@
 wsId: africa
 title: "BuyCoins - Buy Bitcoin & More"
 altTitle: 
-
+authors:
+- leo
 appId: africa.bitkoin.buycoins
 idd: 1389966202
 released: 2018-08-02

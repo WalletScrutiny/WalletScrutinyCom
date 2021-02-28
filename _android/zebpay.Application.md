@@ -2,15 +2,16 @@
 wsId: 
 title: "Zebpay Bitcoin and Cryptocurrency Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: zebpay.Application
 launchDate: 2014-12-23
 latestUpdate: 2021-01-13
 apkVersionName: "3.12.02"
 stars: 3.5
-ratings: 71772
-reviews: 33926
+ratings: 72702
+reviews: 34485
 size: 11M
 website: https://www.zebpay.com
 repository: 

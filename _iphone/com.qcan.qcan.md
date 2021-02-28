@@ -2,7 +2,8 @@
 wsId: Qcan
 title: "Mobile Bitcoin Wallet - Qcan"
 altTitle: 
-
+authors:
+- leo
 appId: com.qcan.qcan
 idd: 1179360399
 released: 2017-08-07

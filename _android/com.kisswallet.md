@@ -2,7 +2,8 @@
 wsId: 
 title: "Moonshine"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: com.kisswallet
 launchDate: 

@@ -2,7 +2,8 @@
 wsId: coinfalcon
 title: "CoinFalcon – Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.coinfalcon.mobile
 idd: 1396963260
 released: 2018-10-05

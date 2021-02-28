@@ -2,7 +2,8 @@
 wsId: 
 title: "Lite HD Wallet – Your Coin Base"
 altTitle: 
-
+authors:
+- leo
 users: 500
 appId: org.freewallet.lite.android
 launchDate: 

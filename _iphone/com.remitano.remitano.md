@@ -2,15 +2,16 @@
 wsId: Remitano
 title: "Remitano"
 altTitle: 
-
+authors:
+- leo
 appId: com.remitano.remitano
 idd: 1116327021
 released: 2016-05-28
-updated: 2021-02-05
-version: "5.6.1"
-score: 4.76069
-reviews: 6009
-size: 57526272
+updated: 2021-02-25
+version: "5.12.0"
+score: 4.76159
+reviews: 6078
+size: 59528192
 developerWebsite: https://remitano.com
 repository: 
 issue: 

@@ -2,15 +2,16 @@
 wsId: ZenGo
 title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2021-02-10
-apkVersionName: "2.21.0"
+latestUpdate: 2021-02-18
+apkVersionName: "2.21.1"
 stars: 3.9
-ratings: 1707
-reviews: 744
+ratings: 1773
+reviews: 766
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

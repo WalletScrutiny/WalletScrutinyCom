@@ -2,15 +2,16 @@
 wsId: coinsph
 title: "Coins.ph Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: asia.coins.mobile
 launchDate: 2014-10-01
-latestUpdate: 2021-02-19
+latestUpdate: 2021-02-26
 apkVersionName: "3.5.22"
-stars: 4.2
-ratings: 89303
-reviews: 39367
+stars: 4.1
+ratings: 89696
+reviews: 39582
 size: 51M
 website: https://coins.ph
 repository: 

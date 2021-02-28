@@ -2,15 +2,16 @@
 wsId: geminiwallet
 title: "Gemini: Buy Bitcoin Instantly"
 altTitle: 
-
+authors:
+- leo
 appId: com.gemini.ios
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-02-19
-version: "3.3.2"
-score: 4.68937
-reviews: 14168
-size: 107017216
+updated: 2021-02-24
+version: "3.4.0"
+score: 4.69905
+reviews: 15750
+size: 103126016
 developerWebsite: http://gemini.com
 repository: 
 issue: 

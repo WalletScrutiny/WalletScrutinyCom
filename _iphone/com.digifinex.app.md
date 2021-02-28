@@ -2,7 +2,8 @@
 wsId: 
 title: "DigiFinex"
 altTitle: 
-
+authors:
+- leo
 appId: com.digifinex.app
 idd: 1397735851
 released: 2018-08-25

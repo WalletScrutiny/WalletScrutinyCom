@@ -2,15 +2,16 @@
 wsId: bitpaytrading
 title: "Bitcoin & Crypto Exchange - BitBay"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: net.bitbay.bitcoin
 launchDate: 
 latestUpdate: 2020-11-05
 apkVersionName: "1.1.15"
 stars: 3.2
-ratings: 730
-reviews: 380
+ratings: 737
+reviews: 382
 size: 16M
 website: https://bitbay.net
 repository: 

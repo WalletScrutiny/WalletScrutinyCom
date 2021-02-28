@@ -2,7 +2,8 @@
 wsId: koinal
 title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
-
+authors:
+- leo
 appId: com.koinal.ios
 idd: 1442764361
 released: 2020-06-08

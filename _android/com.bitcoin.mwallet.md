@@ -2,16 +2,17 @@
 wsId: mwallet
 title: "Bitcoin Wallet"
 altTitle: "Bitcoin Wallet by Bitcoin.com"
-
+authors:
+- leo
 users: 1000000
 appId: com.bitcoin.mwallet
 launchDate: 2017-06-19
-latestUpdate: 2021-01-13
-apkVersionName: "6.9.10"
+latestUpdate: 2021-02-23
+apkVersionName: "6.10.2"
 stars: 4.4
-ratings: 19035
-reviews: 6910
-size: 47M
+ratings: 19656
+reviews: 7054
+size: 48M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39

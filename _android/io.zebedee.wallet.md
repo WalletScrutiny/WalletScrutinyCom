@@ -2,7 +2,8 @@
 wsId: 
 title: "ZEBEDEE Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: io.zebedee.wallet
 launchDate: 

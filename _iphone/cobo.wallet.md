@@ -2,7 +2,8 @@
 wsId: cobowallet
 title: "Cobo Crypto Wallet: BTC & DASH"
 altTitle: 
-
+authors:
+- leo
 appId: cobo.wallet
 idd: 1406282615
 released: 2018-08-05

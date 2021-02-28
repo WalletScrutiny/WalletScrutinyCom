@@ -2,15 +2,16 @@
 wsId: SpotWalletapp
 title: "Buy Bitcoin, cryptocurrency - Spot BTC wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.spot.spot
 launchDate: 
-latestUpdate: 2021-02-12
-apkVersionName: "4.22.1.2463-7f21283f"
+latestUpdate: 2021-02-24
+apkVersionName: "4.24.2.2498-dac1d685"
 stars: 4.4
-ratings: 3601
-reviews: 1760
+ratings: 3642
+reviews: 1774
 size: 65M
 website: https://www.spot-bitcoin.com
 repository: 

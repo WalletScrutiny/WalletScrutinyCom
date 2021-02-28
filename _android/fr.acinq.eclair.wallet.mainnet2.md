@@ -2,7 +2,8 @@
 wsId: 
 title: "Eclair Mobile"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 launchDate: 2018-04-12

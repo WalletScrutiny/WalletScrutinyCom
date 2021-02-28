@@ -2,15 +2,16 @@
 wsId: 
 title: "HyperPay Mobile wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.legendwd.hyperpayW
 launchDate: 
-latestUpdate: 2021-02-05
-apkVersionName: "4.0.15"
-stars: 4.0
-ratings: 800
-reviews: 601
+latestUpdate: 2021-02-26
+apkVersionName: "4.0.17"
+stars: 3.8
+ratings: 819
+reviews: 612
 size: 101M
 website: https://hyperpay.tech
 repository: 

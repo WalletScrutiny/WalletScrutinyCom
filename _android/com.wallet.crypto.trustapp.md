@@ -2,16 +2,17 @@
 wsId: sixdays
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
-latestUpdate: 2021-02-19
-apkVersionName: "1.26.11"
+latestUpdate: 2021-02-24
+apkVersionName: "1.26.17"
 stars: 4.6
-ratings: 178650
-reviews: 54263
-size: 34M
+ratings: 185465
+reviews: 55424
+size: 33M
 website: https://trustwallet.com
 repository: 
 issue: 

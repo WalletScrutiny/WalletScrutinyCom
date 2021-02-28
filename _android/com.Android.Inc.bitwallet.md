@@ -2,15 +2,16 @@
 wsId: BitWallet
 title: "BitWallet - Buy & Sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.Android.Inc.bitwallet
 launchDate: 
-latestUpdate: 2021-01-07
-apkVersionName: "1.4.11"
+latestUpdate: 2021-02-20
+apkVersionName: "1.4.12"
 stars: 4.9
-ratings: 565
-reviews: 448
+ratings: 554
+reviews: 435
 size: 26M
 website: https://www.bitwallet.org
 repository: 

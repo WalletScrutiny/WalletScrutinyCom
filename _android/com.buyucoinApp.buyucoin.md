@@ -2,15 +2,16 @@
 wsId: buyucoin
 title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.buyucoinApp.buyucoin
 launchDate: 
-latestUpdate: 2021-01-11
-apkVersionName: "3.3"
-stars: 3.5
-ratings: 382
-reviews: 309
+latestUpdate: 2021-02-22
+apkVersionName: "3.4"
+stars: 2.5
+ratings: 370
+reviews: 291
 size: 17M
 website: https://www.buyucoin.com
 repository: 

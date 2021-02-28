@@ -2,15 +2,16 @@
 wsId: bitrue
 title: "Bitrue - Cryptocurrency Wallet & Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.bitrue.currency.exchange
 launchDate: 
 latestUpdate: 2021-01-13
 apkVersionName: "4.3.6"
 stars: 3.1
-ratings: 1147
-reviews: 745
+ratings: 1171
+reviews: 761
 size: 36M
 website: https://www.bitrue.com
 repository: 

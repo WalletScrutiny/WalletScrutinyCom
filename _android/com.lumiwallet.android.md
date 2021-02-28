@@ -2,15 +2,16 @@
 wsId: LumiWallet
 title: "Bitcoin Wallet by Lumi Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.lumiwallet.android
 launchDate: 2018-01-15
-latestUpdate: 2021-02-18
-apkVersionName: "3.3.3"
-stars: 4.5
-ratings: 3581
-reviews: 901
+latestUpdate: 2021-02-26
+apkVersionName: "3.4.0"
+stars: 4.3
+ratings: 3745
+reviews: 926
 size: 13M
 website: https://lumiwallet.com
 repository: 

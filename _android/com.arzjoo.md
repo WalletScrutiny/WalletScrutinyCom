@@ -2,15 +2,16 @@
 wsId: 
 title: "arzjoo"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.arzjoo
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "1.3.6"
 stars: 3.9
-ratings: 1610
-reviews: 651
+ratings: 1668
+reviews: 673
 size: Varies with device
 website: https://arzjoo.com
 repository: 

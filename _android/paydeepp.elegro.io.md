@@ -2,7 +2,8 @@
 wsId: 
 title: "elegro Wallet: instant crypto-fiat payments"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: paydeepp.elegro.io
 launchDate: 

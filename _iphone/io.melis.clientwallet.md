@@ -2,7 +2,8 @@
 wsId: melisclientwallet
 title: "Melis Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.melis.clientwallet
 idd: 1176840794
 released: 2017-06-07

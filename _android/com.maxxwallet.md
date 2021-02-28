@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcoin Wallet - MaxWallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.maxxwallet
 launchDate: 

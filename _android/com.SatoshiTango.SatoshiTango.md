@@ -2,15 +2,16 @@
 wsId: SatoshiTango
 title: "SatoshiTango"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.SatoshiTango.SatoshiTango
 launchDate: 
 latestUpdate: 2021-02-18
 apkVersionName: "3.4.17"
-stars: 3.9
-ratings: 3578
-reviews: 1975
+stars: 3.8
+ratings: 3615
+reviews: 1996
 size: 71M
 website: http://www.satoshitango.com
 repository: 

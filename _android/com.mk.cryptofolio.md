@@ -2,7 +2,8 @@
 wsId: 
 title: "Altcoin Bitcoin Trade"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.mk.cryptofolio
 launchDate: 

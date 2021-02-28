@@ -176,6 +176,9 @@ kramdown:
 
 # Collections
 collections:
+  authors:
+    output: true
+    permalink: /:collection/:path/
   press:
   android:
     output: true
@@ -189,6 +192,12 @@ collections:
 
 # Defaults
 defaults:
+  # authors
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
   # _android
   - scope:
       path: ""

@@ -2,15 +2,16 @@
 wsId: Sylo
 title: "Sylo - Smart Wallet & Messenger"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2021-02-16
-apkVersionName: "3.0.9-buy-crypto"
+latestUpdate: 2021-02-26
+apkVersionName: "3.0.10-baking-2"
 stars: 4.3
-ratings: 554
-reviews: 285
+ratings: 556
+reviews: 287
 size: 339M
 website: https://www.sylo.io/wallet
 repository: 
