@@ -1,11 +1,11 @@
 ---
 wsId: voyager
 title: "Voyager - Buy Bitcoin & Crypto"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.investvoyager
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-18
 apkVersionName: "2.5.12"
 stars: 2.5
@@ -13,14 +13,14 @@ ratings: 1544
 reviews: 1027
 size: 48M
 website: https://www.investvoyager.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.investvoyager.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 

@@ -1,7 +1,7 @@
 ---
 wsId: swft
 title: "SWFT Blockchain"
-altTitle:
+altTitle: 
 
 appId: com.SwftBlockChain.client
 idd: 1435569339
@@ -11,23 +11,24 @@ version: "5.10.5"
 score: 4.57463
 reviews: 134
 size: 112080896
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: com.SwftBlockChain.client.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

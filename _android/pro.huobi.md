@@ -1,11 +1,11 @@
 ---
 wsId: huobi
 title: "Huobi Global"
-altTitle:
+altTitle: 
 
 users: 1000000
 appId: pro.huobi
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-08
 apkVersionName: "6.1.5"
 stars: 4.7
@@ -13,21 +13,21 @@ ratings: 8014
 reviews: 2929
 size: 63M
 website: https://www.huobi.com/en-us
-repository:
-issue:
+repository: 
+issue: 
 icon: pro.huobi.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: HuobiGlobal
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: huobiglobalofficial
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /pro.huobi/

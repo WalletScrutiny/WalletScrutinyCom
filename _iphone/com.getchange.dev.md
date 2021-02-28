@@ -1,7 +1,7 @@
 ---
 wsId: getchange
 title: "Change: Cryptocurrency to Cash"
-altTitle:
+altTitle: 
 
 appId: com.getchange.dev
 idd: 1442085358
@@ -11,22 +11,22 @@ version: "10.9.132"
 score: 4.41176
 reviews: 17
 size: 128389120
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: com.getchange.dev.jpg
-bugbounty:
+bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

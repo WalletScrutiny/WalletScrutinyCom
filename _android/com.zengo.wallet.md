@@ -1,11 +1,11 @@
 ---
 wsId: ZenGo
 title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
-altTitle:
+altTitle: 
 
 users: 50000
 appId: com.zengo.wallet
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-10
 apkVersionName: "2.21.0"
 stars: 3.9
@@ -14,20 +14,20 @@ reviews: 744
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
-issue:
+issue: 
 icon: com.zengo.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: zengo
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /com.zengo.wallet/
@@ -63,7 +63,7 @@ On their website we find more details:
 > **Backing up your wallet is just as simple.** An encrypted copy of your device
   share is stored on the ZenGo server, and the decryption code is stored
   separately in your personal iCloud (iOS) or Google (Android) account. Only
-  with your 3D biometric face map can you access the encrypted share.
+  with your 3D biometric face map can you access the encrypted share. 
 
 Does that mean that with a photo of you (and probably without) a google engineer
 can access your backup? That's a bit scary.
@@ -82,3 +82,4 @@ where they conclude:
 quote. It can just be public code. For audits only.
 
 Their decision to not be transparent earns them the verdict **not verifiable**.
+

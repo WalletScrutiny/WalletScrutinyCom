@@ -1,11 +1,11 @@
 ---
 wsId: getchange
 title: "Change: Beginner-Friendly Trading & Investment App"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.getchange.wallet.cordova
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "10.9.145"
 stars: 4.4
@@ -13,21 +13,21 @@ ratings: 1530
 reviews: 738
 size: 32M
 website: https://getchange.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.getchange.wallet.cordova.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: changefinance
 providerLinkedIn: company/changeinvest
 providerFacebook: changeinvest
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.getchange.wallet.cordova/

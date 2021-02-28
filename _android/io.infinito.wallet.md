@@ -1,7 +1,7 @@
 ---
 wsId: InfinitoWallet
 title: "Infinito Wallet - Crypto Wallet & DApp Browser"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: io.infinito.wallet
@@ -13,21 +13,21 @@ ratings: 2054
 reviews: 962
 size: 64M
 website: https://www.infinitowallet.io
-repository:
-issue:
+repository: 
+issue: 
 icon: io.infinito.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-30
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Infinito_Ltd
 providerLinkedIn: company/infinitoservices/
 providerFacebook: InfinitoWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /io.infinito.wallet/

@@ -1,7 +1,7 @@
 ---
 wsId: BitWallet
 title: "BitWallet - Buy & Sell Bitcoin"
-altTitle:
+altTitle: 
 
 appId: Tissatech.Bit-Wallet
 idd: 1331439005
@@ -11,23 +11,24 @@ version: "1.5.8"
 score: 4.85792
 reviews: 739
 size: 14898176
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: Tissatech.Bit-Wallet.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

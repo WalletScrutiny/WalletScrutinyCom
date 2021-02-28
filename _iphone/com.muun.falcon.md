@@ -1,7 +1,7 @@
 ---
 wsId: muun
 title: "Muun Wallet"
-altTitle:
+altTitle: 
 
 appId: com.muun.falcon
 idd: 1482037683
@@ -13,20 +13,20 @@ reviews: 18
 size: 78858240
 developerWebsite: https://www.muun.com
 repository: https://github.com/muun/falcon
-issue:
+issue: 
 icon: com.muun.falcon.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: muunwallet
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

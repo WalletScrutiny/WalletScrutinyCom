@@ -1,7 +1,7 @@
 ---
 wsId: Trustee
 title: "Trustee Wallet bitcoin wallet"
-altTitle:
+altTitle: 
 
 appId: com.trusteewallet
 idd: 1462924276
@@ -12,21 +12,21 @@ score: 4.33333
 reviews: 6
 size: 63709184
 developerWebsite: https://trustee.deals/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.trusteewallet.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Trustee_Wallet
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: Trustee.Wallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

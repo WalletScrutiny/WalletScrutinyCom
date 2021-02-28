@@ -1,7 +1,7 @@
 ---
 wsId: SatoshiTango
 title: "SatoshiTango"
-altTitle:
+altTitle: 
 
 appId: com.SatoshiTango.SatoshiTango
 idd: 1002555958
@@ -12,22 +12,23 @@ score: 4.32258
 reviews: 31
 size: 133840896
 developerWebsite: http://www.satoshitango.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

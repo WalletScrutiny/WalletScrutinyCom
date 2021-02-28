@@ -1,7 +1,7 @@
 ---
 wsId: LumiWallet
 title: "Bitcoin Wallet by Lumi Wallet"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.lumiwallet.android
@@ -13,21 +13,21 @@ ratings: 3581
 reviews: 901
 size: 13M
 website: https://lumiwallet.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.lumiwallet.android.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-15
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Lumi_wallet
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: lumiwallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.lumiwallet.android/
@@ -58,7 +58,7 @@ In their
 [FAQ we find](https://support.lumiwallet.com/support/solutions/articles/60000144083-is-lumi-open-source-):
 
 > **Is Lumi open-source?**
->
+> 
 > Open-source is one of the major concepts in the cryptocurrency space as the
   whole industry basically grew up on it. Nowadays, building a crypto project
   without publishing at least a part of your code on GitHub is considered to be

@@ -1,7 +1,7 @@
 ---
 wsId: FlareWallet
 title: "Flare Wallet"
-altTitle:
+altTitle: 
 
 users: 1000
 appId: com.flare
@@ -13,21 +13,21 @@ ratings: 218
 reviews: 182
 size: 9.8M
 website: https://flarewallet.io
-repository:
-issue:
+repository: 
+issue: 
 icon: com.flare.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-04
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: flarewallet
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: FlareWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.flare/
@@ -38,7 +38,7 @@ redirect_from:
 This app claims to be non-custodial:
 
 > Non-Custodial
->
+> 
 > Retain complete control over all of your private keys.
 
 but we cannot find any mention of source code on their website or Google Play

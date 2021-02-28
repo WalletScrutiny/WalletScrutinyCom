@@ -1,7 +1,7 @@
 ---
 wsId: UpholdbuyandsellBitcoin
 title: "Uphold: buy and sell Bitcoin"
-altTitle:
+altTitle: 
 
 appId: com.uphold.wallet.ios
 idd: 1101145849
@@ -11,23 +11,24 @@ version: "4.15.9"
 score: 4.11679
 reviews: 3596
 size: 63809536
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: com.uphold.wallet.ios.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

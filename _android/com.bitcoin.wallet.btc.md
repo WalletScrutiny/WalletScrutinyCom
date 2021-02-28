@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Wallet Blockchain"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.bitcoin.wallet.btc
@@ -16,22 +16,22 @@ website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
-bugbounty:
+bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-30
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 - date: 2019-11-19
   version: "1.8.1"
-  apkHash:
+  apkHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /bitcoinblockchainwallet/

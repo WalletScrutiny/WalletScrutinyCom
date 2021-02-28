@@ -1,7 +1,7 @@
 ---
 wsId: ZelCore
 title: "ZelCore - Multi Asset Crypto Wallet"
-altTitle:
+altTitle: 
 
 users: 10000
 appId: com.zelcash.zelcore
@@ -13,20 +13,20 @@ ratings: 385
 reviews: 275
 size: 17M
 website: https://zel.network/project/zelcore
-repository:
-issue:
+repository: 
+issue: 
 icon: com.zelcash.zelcore.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: zelcash
-providerLinkedIn:
-providerFacebook:
+providerLinkedIn: 
+providerFacebook: 
 providerReddit: ZelCash
 
 redirect_from:

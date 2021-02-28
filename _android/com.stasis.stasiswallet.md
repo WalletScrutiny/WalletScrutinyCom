@@ -1,7 +1,7 @@
 ---
 wsId: STASISStablecoinWallet
 title: "STASIS Stablecoin Wallet"
-altTitle:
+altTitle: 
 
 users: 10000
 appId: com.stasis.stasiswallet
@@ -14,20 +14,20 @@ reviews: 90
 size: 24M
 website: https://stasis.net/wallet
 repository: https://github.com/stasisnet
-issue:
+issue: 
 icon: com.stasis.stasiswallet.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-03
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: stasisnet
 providerLinkedIn: company/stasisnet/
 providerFacebook: stasisnet
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.stasis.stasiswallet/

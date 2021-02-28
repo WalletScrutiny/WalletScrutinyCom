@@ -1,7 +1,7 @@
 ---
 wsId: COINiDVault
 title: "COINiD Vault"
-altTitle:
+altTitle: 
 
 users: 1000
 appId: org.coinid.vault
@@ -16,18 +16,18 @@ website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
-bugbounty:
+bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-06
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: COINiDGroup
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /org.coinid.vault/
@@ -50,16 +50,16 @@ In fact, this is their complete
 [Readme.md](https://github.com/COINiD/COINiDVault/blob/master/README.md):
 
 > # COINiD Vault
->
+> 
 > Proper readme coming soon. If you have any questions you can contact us on our
 > Telegram or via email.
->
+> 
 > **Secrets.js**
->
+> 
 > We are currently not including the secrets.js in the repo. If you want to
 > compile the vault to test it you need to add the following to
 > src/config/secrets.js.
->
+> 
 > ```
   export const p2pCommonSecret = '';
   export const encryptPrivateSalt = '';

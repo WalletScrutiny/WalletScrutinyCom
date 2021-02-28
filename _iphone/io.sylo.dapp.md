@@ -1,7 +1,7 @@
 ---
 wsId: Sylo
 title: "Sylo"
-altTitle:
+altTitle: 
 
 appId: io.sylo.dapp
 idd: 1452964749
@@ -12,22 +12,23 @@ score: 4.54545
 reviews: 11
 size: 182219776
 developerWebsite: https://www.sylo.io/wallet/
-repository:
-issue:
+repository: 
+issue: 
 icon: io.sylo.dapp.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

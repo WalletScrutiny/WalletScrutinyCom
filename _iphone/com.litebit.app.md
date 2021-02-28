@@ -1,7 +1,7 @@
 ---
 wsId: LiteBit
 title: "LiteBit - Buy & sell Bitcoin"
-altTitle:
+altTitle: 
 
 appId: com.litebit.app
 idd: 1448841440
@@ -12,22 +12,23 @@ score: 4.2
 reviews: 5
 size: 67031040
 developerWebsite: https://www.litebit.eu/en/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.litebit.app.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

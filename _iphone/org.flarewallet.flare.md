@@ -1,7 +1,7 @@
 ---
 wsId: FlareWallet
 title: "Flare Wallet"
-altTitle:
+altTitle: 
 
 appId: org.flarewallet.flare
 idd: 1496651406
@@ -12,21 +12,21 @@ score: 4.16129
 reviews: 31
 size: 24001536
 developerWebsite: https://flarewallet.io
-repository:
-issue:
+repository: 
+issue: 
 icon: org.flarewallet.flare.jpg
-bugbounty:
+bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-17
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

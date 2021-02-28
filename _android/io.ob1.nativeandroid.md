@@ -1,11 +1,11 @@
 ---
 wsId: Haven
 title: "Haven - Private Shopping"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: io.ob1.nativeandroid
-launchDate:
+launchDate: 
 latestUpdate: 2020-09-27
 apkVersionName: "1.3.7"
 stars: 3.7
@@ -16,26 +16,26 @@ website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
-bugbounty:
+bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 - date: 2020-08-27
   version: "1.3.7"
-  apkHash:
+  apkHash: 
   gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
   verdict: nonverifiable
 - date: 2020-08-04
   version: ""
-  apkHash:
+  apkHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
 
 providerTwitter: HavenPrivacy
-providerLinkedIn:
-providerFacebook:
+providerLinkedIn: 
+providerFacebook: 
 providerReddit: havenapp
 
 redirect_from:
@@ -68,7 +68,7 @@ Receiving objects: 100% (766/766), 15.25 MiB | 9.58 MiB/s, done.
 Resolving deltas: 100% (46/46), done.
 /tmp$ cd haven/
 /tmp/haven(master)$ git tag
-/tmp/haven(master)$ git branch
+/tmp/haven(master)$ git branch 
 * master
 /tmp/haven(master)$ git log --oneline
 ef354df (HEAD -> master, origin/master, origin/HEAD) Merge pull request #1 from OpenBazaar/add-license-1
@@ -133,8 +133,8 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:processReleaseGoogleServices'.
-> File google-services.json is missing. The Google Services Plugin cannot function without it.
-   Searched Location:
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
   /mnt/android/app/src/nullnull/release/google-services.json
   /mnt/android/app/src/release/nullnull/google-services.json
   /mnt/android/app/src/nullnull/google-services.json

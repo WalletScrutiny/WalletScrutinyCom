@@ -1,11 +1,11 @@
 ---
 wsId: ShapeShift
 title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.shapeshift.droid_shapeshift
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-11
 apkVersionName: "2.11.0"
 stars: 2.3
@@ -13,21 +13,21 @@ ratings: 2288
 reviews: 1463
 size: 48M
 website: https://shapeshift.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.shapeshift.droid_shapeshift.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: ShapeShift_io
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: ShapeShiftPlatform
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.shapeshift.droid_shapeshift/

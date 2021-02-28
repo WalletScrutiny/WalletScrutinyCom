@@ -1,7 +1,7 @@
 ---
 wsId: PolisPay
 title: "PolisPay - Cryptocurrency wallet"
-altTitle:
+altTitle: 
 
 users: 5000
 appId: com.polispay.copay
@@ -13,21 +13,21 @@ ratings: 121
 reviews: 70
 size: 10M
 website: https://www.polispay.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.polispay.copay.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /com.polispay.copay/
@@ -47,3 +47,4 @@ which sounds like a claim to be non-custodial. Let's see if there is source code
 somewhere ... nope. No mention of its source code or a repository.
 
 This app is **not verifiable**.
+

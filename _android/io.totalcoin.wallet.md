@@ -1,7 +1,7 @@
 ---
 wsId: Totalcoin
 title: "Bitcoin Wallet Totalcoin - Buy and Sell Bitcoin"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: io.totalcoin.wallet
@@ -13,21 +13,21 @@ ratings: 5123
 reviews: 2563
 size: 11M
 website: http://totalcoin.io
-repository:
-issue:
+repository: 
+issue: 
 icon: io.totalcoin.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-23
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /totalcoin/

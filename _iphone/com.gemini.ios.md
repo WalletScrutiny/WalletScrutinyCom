@@ -1,7 +1,7 @@
 ---
 wsId: geminiwallet
 title: "Gemini: Buy Bitcoin Instantly"
-altTitle:
+altTitle: 
 
 appId: com.gemini.ios
 idd: 1408914447
@@ -12,21 +12,21 @@ score: 4.68937
 reviews: 14168
 size: 107017216
 developerWebsite: http://gemini.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.gemini.ios.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: gemini
 providerLinkedIn: company/geminitrust
 providerFacebook: GeminiTrust
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

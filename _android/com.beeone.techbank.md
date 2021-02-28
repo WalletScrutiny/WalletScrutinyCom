@@ -1,11 +1,11 @@
 ---
 wsId: TECHBANK
 title: "TechBank"
-altTitle:
+altTitle: 
 
 users: 10000
 appId: com.beeone.techbank
-launchDate:
+launchDate: 
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
 stars: 4.5
@@ -13,21 +13,21 @@ ratings: 416
 reviews: 172
 size: 41M
 website: https://techbank.finance
-repository:
-issue:
+repository: 
+issue: 
 icon: com.beeone.techbank.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /com.beeone.techbank/

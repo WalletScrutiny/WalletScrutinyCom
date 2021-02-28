@@ -1,7 +1,7 @@
 ---
 wsId: koinal
 title: "Koinal: Buy Bitcoin instantly"
-altTitle:
+altTitle: 
 
 appId: com.koinal.ios
 idd: 1442764361
@@ -12,22 +12,23 @@ score: 3.66667
 reviews: 3
 size: 46051328
 developerWebsite: https://www.koinal.io
-repository:
-issue:
+repository: 
+issue: 
 icon: com.koinal.ios.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

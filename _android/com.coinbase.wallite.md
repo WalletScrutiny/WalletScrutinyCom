@@ -1,11 +1,11 @@
 ---
 wsId: CoinbaseWallet
 title: "Coinbase Wallet Lite"
-altTitle:
+altTitle: 
 
 users: 50000
 appId: com.coinbase.wallite
-launchDate:
+launchDate: 
 latestUpdate: 2020-07-17
 apkVersionName: "0.5-alpha"
 stars: 3.5
@@ -13,21 +13,21 @@ ratings: 199
 reviews: 124
 size: 6.7M
 website: https://wallet.coinbase.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.coinbase.wallite.png
-bugbounty:
+bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-19
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

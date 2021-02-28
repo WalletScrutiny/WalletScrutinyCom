@@ -1,7 +1,7 @@
 ---
 wsId: CoinbaseWallet
 title: "Coinbase Wallet"
-altTitle:
+altTitle: 
 
 appId: org.toshi.distribution
 idd: 1278383455
@@ -12,21 +12,21 @@ score: 4.67637
 reviews: 18889
 size: 136225792
 developerWebsite: https://wallet.coinbase.com
-repository:
-issue:
+repository: 
+issue: 
 icon: org.toshi.distribution.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: CoinbaseWallet
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

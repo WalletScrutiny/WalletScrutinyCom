@@ -1,7 +1,7 @@
 ---
 wsId: sixdays
 title: "Trust: Crypto & Bitcoin Wallet"
-altTitle:
+altTitle: 
 
 appId: com.sixdays.trust
 idd: 1288339409
@@ -12,19 +12,19 @@ score: 4.79823
 reviews: 20727
 size: 39942144
 developerWebsite: https://trustwallet.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.sixdays.trust.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-23
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: trustwalletapp
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: trustwalletapp
 providerReddit: trustapp
 

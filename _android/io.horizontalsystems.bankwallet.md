@@ -1,7 +1,7 @@
 ---
 wsId: Unstoppable
 title: "Unstoppable - Invest In Crypto"
-altTitle:
+altTitle: 
 
 users: 5000
 appId: io.horizontalsystems.bankwallet
@@ -14,9 +14,9 @@ reviews: 274
 size: 44M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue:
+issue: 
 icon: io.horizontalsystems.bankwallet.png
-bugbounty:
+bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-19
 reviewStale: true
@@ -104,8 +104,8 @@ reviewArchive:
   verdict: nonverifiable
 
 providerTwitter: unstoppablebyhs
-providerLinkedIn:
-providerFacebook:
+providerLinkedIn: 
+providerFacebook: 
 providerReddit: UNSTOPPABLEWallet
 
 redirect_from:

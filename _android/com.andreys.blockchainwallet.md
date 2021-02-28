@@ -1,33 +1,33 @@
 ---
 wsId: blockchainWallet
 title: "Blockchain Wallet"
-altTitle:
+altTitle: 
 
 users: 50000
 appId: com.andreys.blockchainwallet
-launchDate:
+launchDate: 
 latestUpdate: 2020-08-30
 apkVersionName: "21"
 stars: 4.6
 ratings: 1374
 reviews: 362
 size: 12M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.andreys.blockchainwallet.png
-bugbounty:
+bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-17
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /com.andreys.blockchainwallet/

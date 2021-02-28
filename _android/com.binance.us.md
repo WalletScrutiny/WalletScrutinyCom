@@ -1,11 +1,11 @@
 ---
 wsId: BinanceUS
 title: "Binance.US"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: com.binance.us
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-10
 apkVersionName: "2.3.2"
 stars: 2.2
@@ -13,21 +13,21 @@ ratings: 1815
 reviews: 1351
 size: Varies with device
 website: https://www.binance.us
-repository:
-issue:
+repository: 
+issue: 
 icon: com.binance.us.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: binanceus
 providerLinkedIn: company/binance-us
 providerFacebook: BinanceUS
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.binance.us/

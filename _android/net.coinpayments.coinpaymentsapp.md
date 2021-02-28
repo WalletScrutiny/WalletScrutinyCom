@@ -1,7 +1,7 @@
 ---
 wsId: CoinPayments
 title: "CoinPayments - Crypto Wallet for Bitcoin/Altcoins"
-altTitle:
+altTitle: 
 
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
@@ -13,21 +13,21 @@ ratings: 1849
 reviews: 964
 size: Varies with device
 website: https://www.coinpayments.net
-repository:
-issue:
+repository: 
+issue: 
 icon: net.coinpayments.coinpaymentsapp.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: CoinPaymentsNET
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /net.coinpayments.coinpaymentsapp/

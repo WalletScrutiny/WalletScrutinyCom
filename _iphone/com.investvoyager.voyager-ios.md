@@ -1,7 +1,7 @@
 ---
 wsId: voyager
 title: "Voyager - Buy Bitcoin & Crypto"
-altTitle:
+altTitle: 
 
 appId: com.investvoyager.voyager-ios
 idd: 1396178579
@@ -12,14 +12,14 @@ score: 4.70465
 reviews: 14007
 size: 58839040
 developerWebsite: https://www.investvoyager.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.investvoyager.voyager-ios.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 

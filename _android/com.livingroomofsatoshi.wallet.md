@@ -1,7 +1,7 @@
 ---
 wsId: WalletofSatoshi
 title: "Wallet of Satoshi"
-altTitle:
+altTitle: 
 
 users: 50000
 appId: com.livingroomofsatoshi.wallet
@@ -13,21 +13,21 @@ ratings: 272
 reviews: 157
 size: 10M
 website: http://www.walletofsatoshi.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.livingroomofsatoshi.wallet.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-19
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: walletofsatoshi
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /walletofsatoshi/

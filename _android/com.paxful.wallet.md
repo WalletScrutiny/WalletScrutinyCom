@@ -1,7 +1,7 @@
 ---
 wsId: Paxful
 title: "Paxful Bitcoin Wallet"
-altTitle:
+altTitle: 
 
 users: 1000000
 appId: com.paxful.wallet
@@ -13,19 +13,19 @@ ratings: 14065
 reviews: 8456
 size: 28M
 website: https://paxful.com/mobile-wallet-app
-repository:
-issue:
+repository: 
+issue: 
 icon: com.paxful.wallet.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: paxful
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: paxful
 providerReddit: paxful
 

@@ -1,7 +1,7 @@
 ---
 wsId: ShapeShift
 title: "ShapeShift: Buy & Trade Crypto"
-altTitle:
+altTitle: 
 
 appId: com.shapeShift.shapeShift
 idd: 996569075
@@ -12,22 +12,23 @@ score: 3.03601
 reviews: 361
 size: 77678592
 developerWebsite: https://shapeshift.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.shapeShift.shapeShift.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

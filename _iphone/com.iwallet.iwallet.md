@@ -1,7 +1,7 @@
 ---
 wsId: iwallet
 title: "iWallet"
-altTitle:
+altTitle: 
 
 appId: com.iwallet.iwallet
 idd: 1479545928
@@ -11,23 +11,24 @@ version: "2.33"
 score: 4.44444
 reviews: 36
 size: 52310016
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: com.iwallet.iwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

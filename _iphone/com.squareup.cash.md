@@ -1,7 +1,7 @@
 ---
 wsId: CashApp
 title: "Cash App"
-altTitle:
+altTitle: 
 
 appId: com.squareup.cash
 idd: 711923939
@@ -12,21 +12,21 @@ score: 4.73506
 reviews: 1416182
 size: 212092928
 developerWebsite: https://cash.app
-repository:
-issue:
+repository: 
+issue: 
 icon: com.squareup.cash.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: cashapp
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

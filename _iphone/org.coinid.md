@@ -1,7 +1,7 @@
 ---
 wsId: COINiDVault
 title: "COINiD Vault"
-altTitle:
+altTitle: 
 
 appId: org.coinid
 idd: 1362831898
@@ -13,20 +13,20 @@ reviews: 5
 size: 12781568
 developerWebsite: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
-issue:
+issue: 
 icon: org.coinid.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: COINiDGroup
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
@@ -44,7 +44,7 @@ On their code repository we find this:
 
 > Proper readme coming soon.
 
-and this:
+and this: 
 
 > We are currently not including the secrets.js in the repo.
 

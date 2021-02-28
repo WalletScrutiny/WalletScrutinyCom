@@ -1,11 +1,11 @@
 ---
 wsId: BitWallet
 title: "BitWallet - Buy & Sell Bitcoin"
-altTitle:
+altTitle: 
 
 users: 10000
 appId: com.Android.Inc.bitwallet
-launchDate:
+launchDate: 
 latestUpdate: 2021-01-07
 apkVersionName: "1.4.11"
 stars: 4.9
@@ -13,21 +13,21 @@ ratings: 565
 reviews: 448
 size: 26M
 website: https://www.bitwallet.org
-repository:
-issue:
+repository: 
+issue: 
 icon: com.Android.Inc.bitwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: bitwalletinc
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: BitWalletInc
-providerReddit:
+providerReddit: 
 
 redirect_from:
   - /com.Android.Inc.bitwallet/

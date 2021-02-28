@@ -1,11 +1,11 @@
 ---
 wsId: Hexa
 title: "Bitcoin Wallet Hexa"
-altTitle:
+altTitle: 
 
 users: 1000
 appId: io.hexawallet.hexa
-launchDate:
+launchDate: 
 latestUpdate: 2021-02-12
 apkVersionName: "1.4.4"
 stars: 3.6
@@ -16,18 +16,18 @@ website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png
-bugbounty:
+bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-21
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: HexaWallet
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
   - /io.hexawallet.hexa/

@@ -1,7 +1,7 @@
 ---
 wsId: PTPWallet
 title: "PTPWallet - Bitcoin, Ethereum"
-altTitle:
+altTitle: 
 
 appId: com.ptpwallet
 idd: 1428589045
@@ -11,23 +11,24 @@ version: "1.0.181"
 score: 4.64516
 reviews: 31
 size: 44488704
-developerWebsite:
-repository:
-issue:
+developerWebsite: 
+repository: 
+issue: 
 icon: com.ptpwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

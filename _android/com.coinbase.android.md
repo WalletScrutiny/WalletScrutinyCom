@@ -1,7 +1,7 @@
 ---
 wsId: coinbaseBSB
 title: "Coinbase – Buy & Sell Bitcoin. Crypto Wallet"
-altTitle:
+altTitle: 
 
 users: 10000000
 appId: com.coinbase.android
@@ -13,14 +13,14 @@ ratings: 312310
 reviews: 113585
 size: Varies with device
 website: https://coinbase.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.coinbase.android.png
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-10-30
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 

@@ -1,7 +1,7 @@
 ---
 wsId: xapo
 title: "Xapo"
-altTitle:
+altTitle: 
 
 appId: com.iphone.XapoApp
 idd: 917692892
@@ -12,22 +12,23 @@ score: 4.01504
 reviews: 133
 size: 228537344
 developerWebsite: https://xapo.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.iphone.XapoApp.jpg
-bugbounty:
+bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

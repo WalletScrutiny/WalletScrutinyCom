@@ -1,7 +1,7 @@
 ---
 wsId: ZelCore
 title: "ZelCore"
-altTitle:
+altTitle: 
 
 appId: com.zelcash.zelcore
 idd: 1436296839
@@ -12,22 +12,23 @@ score: 4.48
 reviews: 50
 size: 62567424
 developerWebsite: https://zel.network/zelcore
-repository:
-issue:
+repository: 
+issue: 
 icon: com.zelcash.zelcore.jpg
-bugbounty:
+bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+

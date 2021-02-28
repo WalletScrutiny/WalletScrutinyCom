@@ -1,7 +1,7 @@
 ---
 wsId: FTXPro
 title: "FTX Pro: Trade Crypto Anywhere"
-altTitle:
+altTitle: 
 
 appId: org.reactjs.native.example.FTXMobile.FTX
 idd: 1512374471
@@ -12,21 +12,21 @@ score: 4.45238
 reviews: 42
 size: 27563008
 developerWebsite: https://ftx.com
-repository:
-issue:
+repository: 
+issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-08
 reviewStale: false
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: FTX_Official
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: ftx.official
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
