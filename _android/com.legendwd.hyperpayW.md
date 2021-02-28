@@ -9,9 +9,9 @@ appId: com.legendwd.hyperpayW
 launchDate: 
 latestUpdate: 2021-02-26
 apkVersionName: "4.0.17"
-stars: 3.9
-ratings: 806
-reviews: 607
+stars: 3.8
+ratings: 819
+reviews: 612
 size: 101M
 website: https://hyperpay.tech
 repository: 

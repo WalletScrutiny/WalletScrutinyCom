@@ -10,8 +10,8 @@ launchDate: 2016-07-21
 latestUpdate: 2021-02-18
 apkVersionName: "4.8.0"
 stars: 4.2
-ratings: 18739
-reviews: 7521
+ratings: 18785
+reviews: 7537
 size: 24M
 website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android

@@ -4,13 +4,13 @@ title: "FTX Pro"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.ftxmobile.ftx
 launchDate: 
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
 stars: 3.2
-ratings: 1251
+ratings: 1255
 reviews: 865
 size: 46M
 website: https://ftx.com

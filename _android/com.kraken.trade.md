@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-02
 apkVersionName: "1.5.11-5438"
 stars: 4.3
-ratings: 11675
-reviews: 4076
+ratings: 11732
+reviews: 4096
 size: 45M
 website: https://www.kraken.com
 repository: 

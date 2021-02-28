@@ -8,10 +8,10 @@ users: 500000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
 latestUpdate: 2021-02-27
-apkVersionName: "21.2.27"
+apkVersionName: "21.2.28"
 stars: 4.4
-ratings: 38610
-reviews: 12866
+ratings: 38783
+reviews: 12923
 size: 38M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
