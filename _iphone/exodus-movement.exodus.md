@@ -1,5 +1,5 @@
 ---
-wsId: Exodus: Crypto Bitcoin Wallet
+wsId: ExodusCryptoBitcoinWallet
 title: "Exodus: Crypto Bitcoin Wallet"
 altTitle:
 

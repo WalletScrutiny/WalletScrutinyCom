@@ -1,5 +1,5 @@
 ---
-wsId: Wallet of Satoshi
+wsId: WalletofSatoshi
 title: "Wallet of Satoshi"
 altTitle:
 

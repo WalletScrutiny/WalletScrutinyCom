@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: SpotWalletapp
 title: "Buy Bitcoin, cryptocurrency - Spot BTC wallet"
 altTitle: 
 

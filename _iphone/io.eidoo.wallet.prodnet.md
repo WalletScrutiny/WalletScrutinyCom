@@ -1,5 +1,5 @@
 ---
-wsId: Eidoo Ethereum
+wsId: eidoo
 title: "Eidoo Ethereum Bitcoin Wallet"
 altTitle:
 

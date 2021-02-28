@@ -1,5 +1,5 @@
 ---
-wsId: Math Wallet
+wsId: MathWallet
 title: "Math Wallet-Blockchain Wallet"
 altTitle:
 

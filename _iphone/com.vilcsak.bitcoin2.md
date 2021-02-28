@@ -1,5 +1,5 @@
 ---
-wsId: Coinbase – Buy & sell Bitcoin
+wsId: coinbaseBSB
 title: "Coinbase – Buy & sell Bitcoin"
 altTitle:
 

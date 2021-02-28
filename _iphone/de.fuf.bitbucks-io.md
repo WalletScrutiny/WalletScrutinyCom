@@ -1,5 +1,5 @@
 ---
-wsId: Bitcoin Wallet BitBucks
+wsId: BitcoinWalletBitBucks
 title: "Bitcoin Wallet BitBucks"
 altTitle:
 

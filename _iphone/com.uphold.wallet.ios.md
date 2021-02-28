@@ -1,5 +1,5 @@
 ---
-wsId: Uphold: buy and sell Bitcoin
+wsId: UpholdbuyandsellBitcoin
 title: "Uphold: buy and sell Bitcoin"
 altTitle:
 

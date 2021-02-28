@@ -1,5 +1,5 @@
 ---
-wsId: Coins– Load, Bills, Bitcoin
+wsId: coinsph
 title: "Coins– Load, Bills, Bitcoin"
 altTitle:
 

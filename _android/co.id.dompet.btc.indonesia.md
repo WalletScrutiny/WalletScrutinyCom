@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: indodax
 title: "Dompet Bitcoin Indonesia"
 altTitle: 
 

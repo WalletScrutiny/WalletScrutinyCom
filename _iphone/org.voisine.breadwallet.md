@@ -1,5 +1,5 @@
 ---
-wsId: BRD Bitcoin
+wsId: BRDBitcoin
 title: "BRD Bitcoin Wallet BTC BCH ETH"
 altTitle:
 

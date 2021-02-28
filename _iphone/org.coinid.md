@@ -1,5 +1,5 @@
 ---
-wsId: COINiD Vault
+wsId: COINiDVault
 title: "COINiD Vault"
 altTitle:
 

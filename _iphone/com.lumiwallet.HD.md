@@ -1,5 +1,5 @@
 ---
-wsId: Lumi Wallet
+wsId: LumiWallet
 title: "Bitcoin Wallet by Lumi Wallet"
 altTitle:
 

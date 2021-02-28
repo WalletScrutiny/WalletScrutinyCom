@@ -1,5 +1,5 @@
 ---
-wsId: Binance.US
+wsId: BinanceUS
 title: "Binance.US - Bitcoin & Crypto"
 altTitle:
 

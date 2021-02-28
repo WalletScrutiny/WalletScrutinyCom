@@ -1,5 +1,5 @@
 ---
-wsId: Spot Wallet app
+wsId: SpotWalletapp
 title: "Buy Bitcoin - Spot Wallet app"
 altTitle:
 

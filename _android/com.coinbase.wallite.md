@@ -1,5 +1,5 @@
 ---
-wsId: Coinbase Wallet
+wsId: CoinbaseWallet
 title: "Coinbase Wallet Lite"
 altTitle:
 

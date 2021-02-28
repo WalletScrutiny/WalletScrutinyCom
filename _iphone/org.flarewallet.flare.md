@@ -1,5 +1,5 @@
 ---
-wsId: Flare Wallet
+wsId: FlareWallet
 title: "Flare Wallet"
 altTitle:
 

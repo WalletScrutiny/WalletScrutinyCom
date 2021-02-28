@@ -1,5 +1,5 @@
 ---
-wsId: Indodax Trading Platform
+wsId: indodax
 title: "Indodax Trading Platform"
 altTitle:
 

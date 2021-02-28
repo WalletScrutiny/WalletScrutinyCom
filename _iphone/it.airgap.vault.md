@@ -1,5 +1,5 @@
 ---
-wsId: AirGap Vault
+wsId: AirGapVault
 title: "AirGap Vault - Secure Secrets"
 altTitle:
 

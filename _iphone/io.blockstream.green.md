@@ -1,5 +1,5 @@
 ---
-wsId: Green: Bitcoin Wallet
+wsId: GreenBitcoinWallet
 title: "Green: Bitcoin Wallet"
 altTitle:
 

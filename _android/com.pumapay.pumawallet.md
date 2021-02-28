@@ -1,5 +1,5 @@
 ---
-wsId:
+wsId: PumaPay
 title: "PumaPay Blockchain Wallet 4 Bitcoin & Crypto Coins"
 altTitle:
 

@@ -1,5 +1,5 @@
 ---
-wsId: Infinito Wallet
+wsId: InfinitoWallet
 title: "Infinito Wallet - Crypto Wallet & DApp Browser"
 altTitle:
 

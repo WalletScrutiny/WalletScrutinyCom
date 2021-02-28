@@ -1,5 +1,5 @@
 ---
-wsId: FreeWallet
+wsId: 
 title: "FreeWallet"
 altTitle:
 

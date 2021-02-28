@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: melisclientwallet
 title: "Melis Bitcoin, Bitcoin Cash, Litecoin Wallet"
 altTitle: 
 

@@ -1,5 +1,5 @@
 ---
-wsId: FTX Pro
+wsId: FTXPro
 title: "FTX Pro: Trade Crypto Anywhere"
 altTitle:
 

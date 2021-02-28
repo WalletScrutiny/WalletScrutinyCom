@@ -1,5 +1,5 @@
 ---
-wsId: BlueWallet - Bitcoin wallet
+wsId: bluewallet
 title: "BlueWallet - Bitcoin wallet"
 altTitle:
 

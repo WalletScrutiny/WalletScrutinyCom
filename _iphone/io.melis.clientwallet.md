@@ -1,5 +1,5 @@
 ---
-wsId: Melis Wallet
+wsId: melisclientwallet
 title: "Melis Wallet"
 altTitle:
 

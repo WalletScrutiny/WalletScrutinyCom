@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: eidoo
 title: "Eidoo: Bitcoin and Ethereum Wallet and Exchange"
 altTitle: 
 

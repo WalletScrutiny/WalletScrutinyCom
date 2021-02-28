@@ -1,5 +1,5 @@
 ---
-wsId: Swipe Wallet
+wsId: SwipeWallet
 title: "Swipe Wallet"
 altTitle:
 

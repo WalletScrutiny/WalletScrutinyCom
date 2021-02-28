@@ -1,5 +1,5 @@
 ---
-wsId: Cash App
+wsId: CashApp
 title: "Cash App"
 altTitle:
 

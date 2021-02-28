@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coinsph
 title: "Coins.ph Wallet"
 altTitle: 
 
