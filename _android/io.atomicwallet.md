@@ -19,11 +19,15 @@ issue:
 icon: io.atomicwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-10-12
-reviewStale: true
+date: 2021-03-02
+reviewStale: false
 signer: 
 reviewArchive:
-
+- date: 2020-10-12
+  version: "0.72.1"
+  apkHash: 
+  gitRevision: d83253e829502835962be71b96dd37287dc87f5c
+  verdict: nosource
 
 providerTwitter: atomicwallet
 providerLinkedIn: 
@@ -34,6 +38,16 @@ redirect_from:
 
 ---
 
+
+**Update 2021-03-02:** We were approached by a visitor mentioning that Atomic
+does have a GitHub and indeed [they do](https://github.com/Atomicwallet) but
+none of the repositories there looks like belonging to this wallet. As it turns
+out, the app is not only closed source but also **obfuscated** JS code which not
+necessarily means bad intentions and might be due to Cordova working that way
+but it certainly makes any attempt at auditing what the wallet actually does
+very hard.
+
+**Original review:**
 
 Bitcoin Wallet & Ethereum Ripple Tron EOS
 is a non-custodial wallet according to their description:
