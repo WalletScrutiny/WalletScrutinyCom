@@ -19,10 +19,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-27
-reviewStale: true
+date: 2021-03-03
+reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-02-27
+  version: "3.6.2"
+  apkHash: f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626
+  gitRevision: 3b6d2410d108ffe36e0dd9a208996c135496ba17
+  verdict: reproducible
 - date: 2021-02-18
   version: "3.6.1"
   apkHash: 6068c88b2dbbc0033531f0237c77ea08b1d73d9fae5ea699ea7f551ae51a1920
@@ -85,7 +90,12 @@ redirect_from:
 ---
 
 
-**Update:** The following analysis is from a **future** release that is not yet
+**Update 2021-03-03:** Below analysis was replaced with the app as distributed
+by Google Play. Interestingly the hash differed but it differed due to the zip
+container having used a different compression or something. Either way, both
+binaries look good.
+
+**Update 2021-02-27:** The following analysis is from a **future** release that is not yet
 available through Google Play. We obtained it from [this repo](https://github.com/AndreasGassmann/walletscrutiny-build/blob/4f087c7021a0305b2581db0db73f85f001df373e/vault-v3.6.2.apk).
 
 We ran our
@@ -98,7 +108,7 @@ appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 apkVersionName: 3.6.2
 apkVersionCode: 26847
-apkHash:        f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626
+apkHash:        2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025
 
 Diff:
 Files /tmp/fromPlay_it.airgap.vault_26847/apktool.yml and /tmp/fromBuild_it.airgap.vault_26847/apktool.yml differ
