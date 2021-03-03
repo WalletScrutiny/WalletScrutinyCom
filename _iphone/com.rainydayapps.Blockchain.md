@@ -9,8 +9,8 @@ idd: 493253309
 released: 2012-04-13
 updated: 2021-03-01
 version: "3.1.0"
-score: 4.73942
-reviews: 62606
+score: 4.7392
+reviews: 62691
 size: 114054144
 developerWebsite: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS

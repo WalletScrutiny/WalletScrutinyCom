@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-07-29
 apkVersionName: "2.13.8"
 stars: 1.9
-ratings: 460
-reviews: 356
+ratings: 462
+reviews: 358
 size: 8.2M
 website: https://coinsquare.com
 repository: 
