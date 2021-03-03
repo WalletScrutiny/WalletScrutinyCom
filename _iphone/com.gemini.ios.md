@@ -9,8 +9,8 @@ idd: 1408914447
 released: 2018-12-11
 updated: 2021-02-24
 version: "3.4.0"
-score: 4.69905
-reviews: 15750
+score: 4.70001
+reviews: 16184
 size: 103126016
 developerWebsite: http://gemini.com
 repository: 

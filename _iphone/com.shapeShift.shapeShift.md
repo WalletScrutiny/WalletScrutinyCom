@@ -7,11 +7,11 @@ authors:
 appId: com.shapeShift.shapeShift
 idd: 996569075
 released: 2015-06-09
-updated: 2021-02-12
-version: "2.11.0"
-score: 2.9734
-reviews: 376
-size: 77678592
+updated: 2021-03-02
+version: "2.12.0"
+score: 2.97625
+reviews: 379
+size: 77875200
 developerWebsite: https://shapeshift.com
 repository: 
 issue: 

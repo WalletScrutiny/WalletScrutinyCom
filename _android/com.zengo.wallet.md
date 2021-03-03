@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2021-02-18
-apkVersionName: "2.21.1"
+latestUpdate: 2021-02-25
+apkVersionName: "2.21.2"
 stars: 3.9
-ratings: 1773
-reviews: 766
+ratings: 1787
+reviews: 771
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

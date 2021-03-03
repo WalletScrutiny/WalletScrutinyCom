@@ -9,9 +9,9 @@ appId: org.bitcoinox.bitcoinoxwallet
 launchDate: 
 latestUpdate: 2020-12-10
 apkVersionName: "2.3.5"
-stars: 4.7
-ratings: 23
-reviews: 16
+stars: 4.6
+ratings: 22
+reviews: 15
 size: Varies with device
 website: https://bitcoinox.com
 repository: 

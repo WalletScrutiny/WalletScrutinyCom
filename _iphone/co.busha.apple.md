@@ -7,11 +7,11 @@ authors:
 appId: co.busha.apple
 idd: 1450373493
 released: 2019-02-03
-updated: 2021-02-25
-version: "2.6.6"
-score: 4.18605
-reviews: 43
-size: 121101312
+updated: 2021-03-02
+version: "2.6.7"
+score: 4.20455
+reviews: 44
+size: 64674816
 developerWebsite: https://busha.co
 repository: 
 issue: 

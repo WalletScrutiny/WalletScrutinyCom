@@ -9,9 +9,9 @@ appId: com.qcan.mobile.bitcoin.wallet
 launchDate: 
 latestUpdate: 2021-02-19
 apkVersionName: "0.8.850"
-stars: 4.3
-ratings: 121
-reviews: 81
+stars: 4.4
+ratings: 124
+reviews: 80
 size: 29M
 website: https://qcan.com
 repository: 

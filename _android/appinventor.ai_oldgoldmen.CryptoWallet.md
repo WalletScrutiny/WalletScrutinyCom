@@ -4,7 +4,7 @@ title: "Multi Crypto Wallet: for Bitcoin and 20 currencies"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: appinventor.ai_oldgoldmen.CryptoWallet
 launchDate: 
 latestUpdate: 2021-02-23

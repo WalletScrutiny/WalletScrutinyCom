@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
-latestUpdate: 2020-12-20
-apkVersionName: "4.2.8"
-stars: 4.1
-ratings: 178
-reviews: 125
+latestUpdate: 2021-03-02
+apkVersionName: "5.0"
+stars: 4.0
+ratings: 180
+reviews: 127
 size: 82M
 website: http://mercury.cash
 repository: 

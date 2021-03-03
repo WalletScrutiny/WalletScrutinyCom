@@ -9,8 +9,8 @@ idd: 1512048310
 released: 2020-05-20
 updated: 2021-02-26
 version: "1.7.1"
-score: 2.92025
-reviews: 163
+score: 2.93529
+reviews: 170
 size: 64153600
 developerWebsite: https://crypto.com/en/defi/wallet/
 repository: 

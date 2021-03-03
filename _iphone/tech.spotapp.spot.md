@@ -9,8 +9,8 @@ idd: 1390560448
 released: 2018-08-07
 updated: 2021-02-16
 version: "3.1"
-score: 4.62226
-reviews: 2695
+score: 4.62083
+reviews: 2756
 size: 83738624
 developerWebsite: https://spot-bitcoin.com
 repository: 

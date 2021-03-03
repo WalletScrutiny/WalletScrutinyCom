@@ -10,8 +10,8 @@ launchDate: 2018-01-01
 latestUpdate: 2021-02-17
 apkVersionName: "1.12.1-r"
 stars: 4.5
-ratings: 7007
-reviews: 4199
+ratings: 7024
+reviews: 4207
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 

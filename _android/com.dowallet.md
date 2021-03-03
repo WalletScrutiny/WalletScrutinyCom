@@ -9,9 +9,9 @@ appId: com.dowallet
 launchDate: 2019-01-01
 latestUpdate: 2021-02-22
 apkVersionName: "1.1.35"
-stars: 4.1
-ratings: 812
-reviews: 430
+stars: 4.0
+ratings: 814
+reviews: 432
 size: 31M
 website: https://www.dowallet.app
 repository: 

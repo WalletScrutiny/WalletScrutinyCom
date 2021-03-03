@@ -7,11 +7,11 @@ authors:
 appId: com.remitano.remitano
 idd: 1116327021
 released: 2016-05-28
-updated: 2021-02-25
-version: "5.12.0"
-score: 4.76159
-reviews: 6078
-size: 59528192
+updated: 2021-03-01
+version: "5.13.0"
+score: 4.76208
+reviews: 6107
+size: 59544576
 developerWebsite: https://remitano.com
 repository: 
 issue: 

@@ -7,10 +7,10 @@ authors:
 appId: com.czzhao.binance
 idd: 1436799971
 released: 2018-10-06
-updated: 2021-02-25
-version: "2.26.0"
-score: 4.52747
-reviews: 34508
+updated: 2021-03-02
+version: "2.26.1"
+score: 4.53235
+reviews: 35214
 size: 466752512
 developerWebsite: https://www.binance.com
 repository: 

@@ -1,5 +1,5 @@
 ---
-wsId: BitcoinWalletBitBucks 
+wsId: BitcoinWalletBitBucks
 title: "Bitcoin Wallet BitBucks"
 altTitle: 
 authors:
