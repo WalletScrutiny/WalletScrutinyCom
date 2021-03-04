@@ -2,15 +2,16 @@
 wsId: 
 title: "Pungo App"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: cloud.peer2.pungo_wallet
 launchDate: 
-latestUpdate: 2021-01-20
-apkVersionName: "1.26"
-stars: 3.8
-ratings: 9
-reviews: 8
+latestUpdate: 2021-03-01
+apkVersionName: "1.28"
+stars: 4.0
+ratings: 10
+reviews: 9
 size: 6.2M
 website: https://pungowallet.com
 repository: 

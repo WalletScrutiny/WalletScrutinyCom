@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcoin Wallet for COINiD"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.coinid.wallet.btc
 launchDate: 2018-10-14

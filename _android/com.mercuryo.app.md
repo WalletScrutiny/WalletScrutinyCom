@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: Mercuryo
 title: "Mercuryo Bitcoin Cryptowallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.mercuryo.app
 launchDate: 
-latestUpdate: 2021-02-16
-apkVersionName: "1.11.2"
+latestUpdate: 2021-02-27
+apkVersionName: "1.11.3"
 stars: 4.3
-ratings: 1864
-reviews: 1142
-size: 64M
+ratings: 1908
+reviews: 1167
+size: 75M
 website: https://mercuryo.io
 repository: 
 issue: 

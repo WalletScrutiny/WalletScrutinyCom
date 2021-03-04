@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: Trustee
 title: "Trustee Wallet bitcoin wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.trusteewallet
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-02-16
-version: "1.40.767"
+updated: 2021-02-24
+version: "1.40.772"
 score: 4.33333
 reviews: 6
-size: 63709184
+size: 63746048
 developerWebsite: https://trustee.deals/
 repository: 
 issue: 

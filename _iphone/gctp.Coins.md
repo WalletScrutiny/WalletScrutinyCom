@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: coinsph
 title: "Coins– Load, Bills, Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: gctp.Coins
 idd: 972324049
 released: 2015-04-04
 updated: 2021-02-23
 version: "2.14.4"
-score: 4.72897
-reviews: 2568
+score: 4.73015
+reviews: 2594
 size: 183140352
 developerWebsite: https://coins.ph/
 repository: 

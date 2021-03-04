@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: YouHodler
 title: "YouHodler - Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.youhodler.youhodler
 idd: 1469351696
 released: 2019-07-25

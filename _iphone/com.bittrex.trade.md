@@ -2,14 +2,15 @@
 wsId: bittrex
 title: "Bittrex"
 altTitle: 
-
+authors:
+- leo
 appId: com.bittrex.trade
 idd: 1465314783
 released: 2019-12-19
 updated: 2021-02-02
 version: "1.13.1"
-score: 2.35747
-reviews: 221
+score: 2.31466
+reviews: 232
 size: 62560256
 developerWebsite: https://global.bittrex.com
 repository: 

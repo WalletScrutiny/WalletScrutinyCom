@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: COINiDVault
 title: "COINiD Vault"
 altTitle: 
-
+authors:
+- leo
 appId: org.coinid
 idd: 1362831898
 released: 2018-10-02

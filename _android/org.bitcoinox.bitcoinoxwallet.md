@@ -2,7 +2,8 @@
 wsId: 
 title: "Bitcoin OX Wallet — Exchange Wallet for Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
 launchDate: 

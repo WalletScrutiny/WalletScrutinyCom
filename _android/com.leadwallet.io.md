@@ -2,7 +2,8 @@
 wsId: 
 title: "Lead Wallet (BETA) - Store & Swap Cryptocurrencies"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.leadwallet.io
 launchDate: 

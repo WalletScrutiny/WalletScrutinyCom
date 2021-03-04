@@ -1,4 +1,5 @@
 ---
+wsId: Haven
 title: "Haven - Private Shopping"
 altTitle: 
 

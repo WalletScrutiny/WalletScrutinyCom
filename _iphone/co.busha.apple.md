@@ -2,15 +2,16 @@
 wsId: busha
 title: "Busha - Buy and Sell Bitcoins"
 altTitle: 
-
+authors:
+- leo
 appId: co.busha.apple
 idd: 1450373493
 released: 2019-02-03
-updated: 2021-02-19
-version: "2.6.5"
-score: 4.18605
-reviews: 43
-size: 64664576
+updated: 2021-03-02
+version: "2.6.7"
+score: 4.13333
+reviews: 45
+size: 64674816
 developerWebsite: https://busha.co
 repository: 
 issue: 

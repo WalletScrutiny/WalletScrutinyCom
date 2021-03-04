@@ -2,15 +2,16 @@
 wsId: safepal
 title: "SafePal - Crypto wallet BTC ETH LTC BNB Tron EOS"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.safepal.wallet
 launchDate: 
-latestUpdate: 2021-02-04
-apkVersionName: "2.5.5"
-stars: 4.7
-ratings: 3358
-reviews: 2073
+latestUpdate: 2021-02-23
+apkVersionName: "2.5.6"
+stars: 4.6
+ratings: 3663
+reviews: 2235
 size: 29M
 website: https://www.safepal.io
 repository: 

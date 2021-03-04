@@ -2,7 +2,8 @@
 wsId: 
 title: "Vega - Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50
 appId: app.getvega
 launchDate: 

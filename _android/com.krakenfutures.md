@@ -2,15 +2,16 @@
 wsId: 
 title: "Kraken Futures: Bitcoin & Crypto Futures Trading"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.krakenfutures
 launchDate: 
 latestUpdate: 2020-12-04
 apkVersionName: "5.23.2"
 stars: 3.4
-ratings: 74
-reviews: 32
+ratings: 76
+reviews: 33
 size: 12M
 website: https://futures.kraken.com
 repository: 

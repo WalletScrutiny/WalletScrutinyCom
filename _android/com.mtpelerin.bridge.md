@@ -2,15 +2,16 @@
 wsId: 
 title: "Bridge Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.mtpelerin.bridge
 launchDate: 
 latestUpdate: 2021-01-27
 apkVersionName: "1.11"
 stars: 4.8
-ratings: 38
-reviews: 20
+ratings: 39
+reviews: 21
 size: 76M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: OWNR
 title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.ownrwallet.wallet
 launchDate: 
-latestUpdate: 2021-02-19
-apkVersionName: "1.5.0"
-stars: 4.7
-ratings: 825
-reviews: 686
+latestUpdate: 2021-03-03
+apkVersionName: "1.6.0"
+stars: 4.4
+ratings: 785
+reviews: 695
 size: 66M
 website: https://ownrwallet.com
 repository: 

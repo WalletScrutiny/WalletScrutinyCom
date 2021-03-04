@@ -2,15 +2,16 @@
 wsId: 
 title: "Bitcoin Paper Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: ru.valle.btc
 launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 147
-reviews: 49
+ratings: 148
+reviews: 50
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet

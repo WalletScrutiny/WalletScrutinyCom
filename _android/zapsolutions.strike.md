@@ -1,4 +1,5 @@
 ---
+wsId: strike
 title: "Strike: Bitcoin & Lightning Payments"
 altTitle: 
 

@@ -1,4 +1,5 @@
 ---
+wsId: strike
 title: "Strike: Send and Spend Bitcoin"
 altTitle: 
 

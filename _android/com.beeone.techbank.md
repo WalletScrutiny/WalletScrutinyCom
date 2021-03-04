@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: TECHBANK
 title: "TechBank"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.beeone.techbank
 launchDate: 
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
 stars: 4.5
-ratings: 423
-reviews: 175
+ratings: 450
+reviews: 189
 size: 41M
 website: https://techbank.finance
 repository: 

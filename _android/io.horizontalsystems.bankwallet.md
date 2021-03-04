@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: Unstoppable
 title: "Unstoppable - Invest In Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: io.horizontalsystems.bankwallet
 launchDate: 2018-12-18
 latestUpdate: 2021-02-19
 apkVersionName: "0.19.1"
 stars: 4.3
-ratings: 317
-reviews: 274
+ratings: 323
+reviews: 278
 size: 44M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android

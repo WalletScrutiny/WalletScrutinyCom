@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: CashApp
 title: "Cash App"
 altTitle: 
-
+authors:
+- leo
 users: 10000000
 appId: com.squareup.cash
 launchDate: 
-latestUpdate: 2021-02-18
-apkVersionName: "3.32.1"
+latestUpdate: 2021-03-01
+apkVersionName: "3.34.1"
 stars: 4.2
-ratings: 328761
-reviews: 122731
-size: 27M
+ratings: 334897
+reviews: 124455
+size: 28M
 website: https://cash.app
 repository: 
 issue: 

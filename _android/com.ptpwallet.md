@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: PTPWallet
 title: "PTPWallet - Bitcoin, Ethereum, and Other Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.ptpwallet
 launchDate: 
 latestUpdate: 2020-03-20
 apkVersionName: "1.0.1209"
 stars: 4.2
-ratings: 314
-reviews: 232
+ratings: 316
+reviews: 234
 size: 6.4M
 website: https://ptpwallet.com
 repository: 

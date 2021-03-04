@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: Hexa
 title: "Bitcoin Wallet Hexa"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: io.hexawallet.hexa
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "1.4.5"
-stars: 3.6
-ratings: 16
-reviews: 11
+stars: 3.5
+ratings: 17
+reviews: 12
 size: 39M
 website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa

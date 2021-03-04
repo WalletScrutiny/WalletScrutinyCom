@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: Remitano
 title: "Remitano - Buy & Sell Bitcoin Fast & Securely"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.remitano.remitano
 launchDate: 
-latestUpdate: 2021-02-20
-apkVersionName: "5.9.0"
+latestUpdate: 2021-03-04
+apkVersionName: "5.16.0"
 stars: 4.1
-ratings: 10774
-reviews: 5084
-size: 30M
+ratings: 10907
+reviews: 5156
+size: 32M
 website: https://remitano.com
 repository: 
 issue: 

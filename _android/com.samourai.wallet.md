@@ -2,7 +2,8 @@
 wsId: 
 title: "Samourai Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.samourai.wallet
 launchDate: 
@@ -37,7 +38,17 @@ redirect_from:
 ---
 
 
-**Update**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1289942465047396352)
+**Update 2021-03-02**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1366582280895004672)
+to be on F-Droid, implying ... what exactly? FDroid.org has very strict rules
+about code being open source but FDroid itself is also open source and allows to
+add secondary repositories that might apply different rules and standards and
+that's exactly what's happening here. FDroid.org does not list Samourai but
+the Copperhead FDroid repository apparently does. As long as the binary on
+Google Play is not the same as the one on Copperhead, the presence on Copperhead
+has no relevance to the security of the 100k users that downloaded the app from
+Google Play. Smoke and mirrors from Samourai as always.
+
+**Update 2020-08-02**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1289942465047396352)
 
 ![](/images/samouraiTweetLie.png)
 
@@ -46,7 +57,10 @@ supported this claim so far and neither did the provider explain how such
 a verification should work or where our findings are wrong. This is so far the
 clearest lie and thus red flag about this wallet.
 
-**Update**: Samourai
+**Update 2019-12-27**: The provider closed
+[the issue we had opened on their repository](https://github.com/Samourai-Wallet/samourai-wallet-android/issues/376).
+
+**Update 2019-12-16**: Samourai
 [tweeted](https://twitter.com/SamouraiWallet/status/1206521035689996291) in
 response to us:
 
@@ -57,10 +71,7 @@ response to us:
   deliver on. There is limited value in this investment without expert audits
   for each release
 
-Also the provider closed
-[the issue we had opened on their repository](https://github.com/Samourai-Wallet/samourai-wallet-android/issues/376).
-
-The original review:
+**The original review**:
 
 Samourai is still "early access" which means that there are no Google ratings or
 comments.

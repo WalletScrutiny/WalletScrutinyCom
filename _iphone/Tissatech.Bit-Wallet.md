@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: BitWallet
 title: "BitWallet - Buy & Sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: Tissatech.Bit-Wallet
 idd: 1331439005
 released: 2019-02-09
-updated: 2021-01-13
-version: "1.5.8"
-score: 4.85792
-reviews: 739
-size: 14898176
+updated: 2021-02-27
+version: "1.5.9"
+score: 4.85907
+reviews: 738
+size: 15589376
 developerWebsite: 
 repository: 
 issue: 

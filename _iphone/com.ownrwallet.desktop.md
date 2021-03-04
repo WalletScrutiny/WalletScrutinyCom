@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: OWNR
 title: "OWNR crypto wallet for PC"
 altTitle: 
-
+authors:
+- leo
 appId: com.ownrwallet.desktop
 idd: 1520395378
 released: 2020-08-13
-updated: 2021-02-10
-version: "1.3.6"
+updated: 2021-02-25
+version: "1.4.1"
 score: 
 reviews: 
-size: 122484433
+size: 123824490
 developerWebsite: https://ownrwallet.com
 repository: 
 issue: 

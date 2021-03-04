@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: Unocoin
 title: "Unocoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.unocoin.mainapp.production
 idd: 1030422972
 released: 2016-05-12

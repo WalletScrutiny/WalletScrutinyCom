@@ -2,7 +2,8 @@
 wsId: counos
 title: "Counos Bitcoin Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.counos.wallet
 idd: 1408806845
 released: 2018-08-01

@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: muun
 title: "Muun Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.muun.falcon
 idd: 1482037683
 released: 2019-10-11
 updated: 2021-02-01
 version: "2.1.0"
-score: 4.72222
-reviews: 18
+score: 4.7619
+reviews: 21
 size: 78858240
 developerWebsite: https://www.muun.com
 repository: https://github.com/muun/falcon

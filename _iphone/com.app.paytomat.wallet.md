@@ -2,7 +2,8 @@
 wsId: paytomat
 title: "Paytomat Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.app.paytomat.wallet
 idd: 1415300709
 released: 2018-08-12

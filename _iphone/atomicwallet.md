@@ -2,15 +2,16 @@
 wsId: atomic
 title: "Atomic Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: atomicwallet
 idd: 1478257827
 released: 2019-11-05
-updated: 2021-02-11
-version: "0.71.3"
-score: 4.42811
-reviews: 4973
-size: 47784960
+updated: 2021-02-24
+version: "0.72.0"
+score: 4.38152
+reviews: 5457
+size: 47985664
 developerWebsite: https://atomicwallet.io/
 repository: 
 issue: 

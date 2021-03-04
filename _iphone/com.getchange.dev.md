@@ -1,4 +1,5 @@
 ---
+wsId: getchange
 title: "Change: Cryptocurrency to Cash"
 altTitle: 
 

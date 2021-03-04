@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: Vidulum
 title: "Vidulum"
 altTitle: 
-
+authors:
+- leo
 appId: com.vidulum.app
 idd: 1505859171
 released: 2020-07-28

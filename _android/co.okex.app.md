@@ -1,4 +1,5 @@
 ---
+wsId: OKEx
 title: "OKEX - خرید بیت کوین"
 altTitle: 
 

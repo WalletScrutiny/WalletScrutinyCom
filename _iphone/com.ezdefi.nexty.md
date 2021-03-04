@@ -2,7 +2,8 @@
 wsId: 
 title: "ezDeFi-Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.ezdefi.nexty
 idd: 1492046549
 released: 2019-12-18

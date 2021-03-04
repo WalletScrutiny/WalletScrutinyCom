@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: bluewallet
 title: "BlueWallet - Bitcoin wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.bluewallet.bluewallet
 idd: 1376878040
 released: 2018-05-27
-updated: 2021-02-12
-version: "6.0.4"
-score: 4.20329
-reviews: 182
-size: 65783808
+updated: 2021-03-02
+version: "6.0.6"
+score: 4.22043
+reviews: 186
+size: 66043904
 developerWebsite: 
 repository: 
 issue: 

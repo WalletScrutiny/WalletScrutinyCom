@@ -2,7 +2,8 @@
 wsId: cryptonator
 title: "Cryptonator"
 altTitle: 
-
+authors:
+- leo
 appId: com.cryptonator.ios
 idd: 1463793201
 released: 2019-06-11

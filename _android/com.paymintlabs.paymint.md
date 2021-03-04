@@ -2,15 +2,16 @@
 wsId: 
 title: "Paymint - Secure Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: com.paymintlabs.paymint
 launchDate: 2020-06-29
 latestUpdate: 2020-10-05
 apkVersionName: "1.2.2"
-stars: 4.8
-ratings: 8
-reviews: 4
+stars: 4.3
+ratings: 9
+reviews: 5
 size: 25M
 website: 
 repository: https://github.com/Paymint-Labs/Paymint

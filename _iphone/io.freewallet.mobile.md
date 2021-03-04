@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: FreeWallet
 title: "FreeWallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.freewallet.mobile
 idd: 1151168579
 released: 2016-11-05

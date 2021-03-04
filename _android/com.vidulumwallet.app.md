@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: Vidulum
 title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.vidulumwallet.app
 launchDate: 
 latestUpdate: 2019-04-05
 apkVersionName: "1.2"
 stars: 4.5
-ratings: 67
+ratings: 68
 reviews: 55
 size: 174k
 website: https://vidulum.app

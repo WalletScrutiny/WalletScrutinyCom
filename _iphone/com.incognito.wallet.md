@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: incognito
 title: "Incognito crypto wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.incognito.wallet
 idd: 1475631606
 released: 2019-08-21
 updated: 2021-01-30
 version: "4.1.0"
-score: 4.1875
-reviews: 64
+score: 4.18462
+reviews: 65
 size: 51150848
 developerWebsite: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet

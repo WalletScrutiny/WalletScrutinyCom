@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: FlareWallet
 title: "Flare Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.flare
 launchDate: 2020-02-22

@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: PumaPay
 title: "PumaPay: Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.pumapay.pumawallet
 idd: 1376601366
 released: 2018-06-05
