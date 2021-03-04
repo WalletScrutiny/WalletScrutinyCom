@@ -2,15 +2,16 @@
 wsId: 
 title: "Crypto Exchange Currency.com"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.currency.exchange.prod2
 launchDate: 
-latestUpdate: 2021-02-22
+latestUpdate: 2021-03-03
 apkVersionName: "1.9.9"
-stars: 4.2
-ratings: 1839
-reviews: 658
+stars: 4.1
+ratings: 1900
+reviews: 689
 size: Varies with device
 website: https://currency.com
 repository: 

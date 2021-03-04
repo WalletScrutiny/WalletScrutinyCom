@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: XcelPay
 title: "XcelPay - Secure Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.xcelpay.wallet
 idd: 1461215417
 released: 2019-05-26
-updated: 2021-02-15
-version: "2.17.0"
-score: 3.61538
-reviews: 13
-size: 43825152
+updated: 2021-02-27
+version: "2.18.7"
+score: 4
+reviews: 18
+size: 39463936
 developerWebsite: http://xcelpay.io
 repository: 
 issue: 

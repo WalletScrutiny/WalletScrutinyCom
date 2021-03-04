@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: LumiWallet
 title: "Bitcoin Wallet by Lumi Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.lumiwallet.HD
 idd: 1316477906
 released: 2017-12-08
-updated: 2021-02-18
-version: "3.9.6"
-score: 4.85421
-reviews: 3025
-size: 75776000
+updated: 2021-03-03
+version: "3.9.8"
+score: 4.85995
+reviews: 3256
+size: 74719232
 developerWebsite: https://lumiwallet.com/
 repository: 
 issue: 

@@ -2,14 +2,15 @@
 wsId: 
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
-
+authors:
+- leo
 appId: com.evercoinInc.evercoin
 idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30
 version: "1.9.5"
-score: 4.66289
-reviews: 2747
+score: 4.66255
+reviews: 2750
 size: 63333376
 developerWebsite: 
 repository: 

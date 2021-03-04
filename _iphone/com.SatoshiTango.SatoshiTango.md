@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: SatoshiTango
 title: "SatoshiTango"
 altTitle: 
-
+authors:
+- leo
 appId: com.SatoshiTango.SatoshiTango
 idd: 1002555958
 released: 2015-07-08

@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: kucoin
 title: "KuCoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.kucoin.KuCoin.iOS
 idd: 1378956601
 released: 2018-05-14
-updated: 2021-02-10
-version: "3.27.0"
-score: 3.71143
-reviews: 350
-size: 196850688
+updated: 2021-02-27
+version: "3.28.0"
+score: 3.69505
+reviews: 364
+size: 197790720
 developerWebsite: 
 repository: 
 issue: 

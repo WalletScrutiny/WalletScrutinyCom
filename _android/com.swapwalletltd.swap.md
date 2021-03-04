@@ -1,4 +1,5 @@
 ---
+wsId: SwapWallet
 title: "Swap Wallet - BTC, Bitcoin wallet"
 altTitle: 
 

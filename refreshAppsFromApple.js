@@ -9,7 +9,7 @@ const exec = require('child_process').exec
 const yaml = require('js-yaml')
 const sleep = require('sleep').sleep
 const allowedHeaders = new Set("title,altTitle,appId,idd,released,score,reviews,\
-updated,version,size,developerWebsite,wsId,\
+updated,version,size,developerWebsite,wsId,authors,\
 repository,issue,icon,bugbounty,verdict,providerTwitter,\
 providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
 reviewStale,reviewArchive,signer".split(","))
@@ -86,6 +86,7 @@ fs.readdir(iPhoneFolder, function (err, files) {
 function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
+  const authors = new Set(header.authors)
   var version = app.version || "various"
   const released = header.released || app.released
   var releasedString = ""
@@ -103,7 +104,8 @@ function writeResult(app, header, iconExtension, body) {
 wsId: ${header.wsId || ""}
 title: "${app.title}"
 altTitle: ${altTitle}
-
+authors:
+${[...authors].map((item) => `- ${item}`).join("\n")}
 appId: ${header.appId}
 idd: ${header.idd}
 released: ${releasedString}

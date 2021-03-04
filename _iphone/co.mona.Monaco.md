@@ -2,14 +2,15 @@
 wsId: mona
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
-
+authors:
+- leo
 appId: co.mona.Monaco
 idd: 1262148500
 released: 2017-08-31
 updated: 2021-02-08
 version: "3.84"
-score: 4.46373
-reviews: 11983
+score: 4.43695
+reviews: 12736
 size: 264406016
 developerWebsite: https://crypto.com/
 repository: 

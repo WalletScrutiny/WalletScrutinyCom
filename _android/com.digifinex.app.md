@@ -2,16 +2,17 @@
 wsId: 
 title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.digifinex.app
 launchDate: 
-latestUpdate: 2021-02-05
-apkVersionName: "2021.02.05"
-stars: 3.8
-ratings: 2214
-reviews: 1403
-size: 70M
+latestUpdate: 2021-03-04
+apkVersionName: "2021.03.04"
+stars: 3.7
+ratings: 2224
+reviews: 1406
+size: 65M
 website: https://www.digifinex.com
 repository: 
 issue: 

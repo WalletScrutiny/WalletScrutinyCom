@@ -2,7 +2,8 @@
 wsId: bitrefill
 title: "Bitrefill"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitrefill.bitrefill
 idd: 1378102623
 released: 2018-06-05

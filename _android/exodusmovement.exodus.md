@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: ExodusCryptoBitcoinWallet
 title: "Exodus: Crypto Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: exodusmovement.exodus
 launchDate: 2019-06-06
-latestUpdate: 2021-02-23
-apkVersionName: "21.2.23"
+latestUpdate: 2021-03-01
+apkVersionName: "21.3.1"
 stars: 4.4
-ratings: 37718
-reviews: 12594
+ratings: 39653
+reviews: 13187
 size: 38M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement

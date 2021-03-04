@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: FTXPro
 title: "FTX Pro"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.ftxmobile.ftx
 launchDate: 
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
 stars: 3.2
-ratings: 1231
-reviews: 852
+ratings: 1263
+reviews: 871
 size: 46M
 website: https://ftx.com
 repository: 

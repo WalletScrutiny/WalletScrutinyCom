@@ -2,14 +2,15 @@
 wsId: bitmart
 title: "BitMart - Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitmart.exchange
 idd: 1396382871
 released: 2018-08-02
 updated: 2021-02-05
 version: "2.4.5"
-score: 3.32727
-reviews: 55
+score: 3.31579
+reviews: 57
 size: 176228352
 developerWebsite: https://www.bitmart.com/
 repository: 

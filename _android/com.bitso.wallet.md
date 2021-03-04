@@ -2,15 +2,16 @@
 wsId: bitso
 title: "Bitso - Buy and sell bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.bitso.wallet
 launchDate: 
-latestUpdate: 2021-02-19
-apkVersionName: "2.19.4"
-stars: 3.4
-ratings: 7351
-reviews: 4361
+latestUpdate: 2021-03-02
+apkVersionName: "2.21.0"
+stars: 3.5
+ratings: 7568
+reviews: 4479
 size: 28M
 website: https://bitso.com/app
 repository: 

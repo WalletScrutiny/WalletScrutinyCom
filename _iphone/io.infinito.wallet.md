@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: InfinitoWallet
 title: "Infinito Wallet - Crypto Safe"
 altTitle: 
-
+authors:
+- leo
 appId: io.infinito.wallet
 idd: 1315572736
 released: 2018-01-17
 updated: 2020-12-16
 version: "2.35.0"
-score: 4.32544
-reviews: 169
+score: 4.31395
+reviews: 172
 size: 105237504
 developerWebsite: 
 repository: 

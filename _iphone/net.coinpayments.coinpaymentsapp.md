@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: CoinPayments
 title: "CoinPayments - Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: net.coinpayments.coinpaymentsapp
 idd: 1162855939
 released: 2019-02-07

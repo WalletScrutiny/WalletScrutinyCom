@@ -2,15 +2,16 @@
 wsId: coinbasepro
 title: "Coinbase Pro"
 altTitle: 
-
+authors:
+- leo
 appId: com.coinbase.pro
 idd: 1446636681
 released: 2019-10-10
-updated: 2021-02-12
-version: "1.0.63"
-score: 4.71487
-reviews: 44640
-size: 46750720
+updated: 2021-03-04
+version: "1.0.65"
+score: 4.71516
+reviews: 47046
+size: 47636480
 developerWebsite: https://pro.coinbase.com
 repository: 
 issue: 

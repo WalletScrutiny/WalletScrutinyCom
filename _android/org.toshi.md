@@ -2,15 +2,16 @@
 wsId: 
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: org.toshi
 launchDate: 2017-09-20
 latestUpdate: 2021-02-12
 apkVersionName: "23.3.358"
 stars: 4.0
-ratings: 15785
-reviews: 6668
+ratings: 16184
+reviews: 6833
 size: Varies with device
 website: https://wallet.coinbase.com
 repository: 

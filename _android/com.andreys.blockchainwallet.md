@@ -1,4 +1,5 @@
 ---
+wsId: blockchainWallet
 title: "Blockchain Wallet"
 altTitle: 
 

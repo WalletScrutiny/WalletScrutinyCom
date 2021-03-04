@@ -2,15 +2,16 @@
 wsId: binance
 title: "Binance: Buy Bitcoin Securely"
 altTitle: 
-
+authors:
+- leo
 appId: com.czzhao.binance
 idd: 1436799971
 released: 2018-10-06
-updated: 2021-02-09
-version: "2.25.2"
-score: 4.52128
-reviews: 33682
-size: 450238464
+updated: 2021-03-02
+version: "2.26.1"
+score: 4.53423
+reviews: 35445
+size: 466752512
 developerWebsite: https://www.binance.com
 repository: 
 issue: 

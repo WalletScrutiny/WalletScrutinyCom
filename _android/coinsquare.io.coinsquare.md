@@ -2,15 +2,16 @@
 wsId: 
 title: "Coinsquare"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: coinsquare.io.coinsquare
 launchDate: 
 latestUpdate: 2020-07-29
 apkVersionName: "2.13.8"
 stars: 1.9
-ratings: 451
-reviews: 350
+ratings: 463
+reviews: 359
 size: 8.2M
 website: https://coinsquare.com
 repository: 

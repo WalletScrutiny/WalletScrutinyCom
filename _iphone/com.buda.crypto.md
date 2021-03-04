@@ -2,7 +2,8 @@
 wsId: buda
 title: "Buda"
 altTitle: 
-
+authors:
+- leo
 appId: com.buda.crypto
 idd: 1321460860
 released: 2018-01-04

@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: Poloniex
 title: "Poloniex Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.plunien.poloniex
 launchDate: 
-latestUpdate: 2021-02-01
-apkVersionName: "1.23.7"
+latestUpdate: 2021-02-25
+apkVersionName: "1.23.8"
 stars: 4.4
-ratings: 3287
-reviews: 1765
-size: 37M
+ratings: 3340
+reviews: 1790
+size: 28M
 website: https://support.poloniex.com
 repository: 
 issue: 

@@ -2,7 +2,8 @@
 wsId: 
 title: "ABCore"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.greenaddress.abcore
 launchDate: 

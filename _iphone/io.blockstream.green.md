@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: GreenBitcoinWallet
 title: "Green: Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.blockstream.green
 idd: 1402243590
 released: 2019-03-22
 updated: 2021-02-22
 version: "3.5.1"
-score: 3.95506
-reviews: 89
+score: 3.92222
+reviews: 90
 size: 32114688
 developerWebsite: https://blockstream.green
 repository: 

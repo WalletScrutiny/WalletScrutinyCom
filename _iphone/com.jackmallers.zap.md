@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: zapwallet
 title: "Zap: Bitcoin Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.jackmallers.zap
 idd: 1406311960
 released: 2019-04-27

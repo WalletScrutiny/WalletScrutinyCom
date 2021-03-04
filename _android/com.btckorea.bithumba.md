@@ -2,15 +2,16 @@
 wsId: bithumbko
 title: "빗썸 트레이더"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.btckorea.bithumba
 launchDate: 
 latestUpdate: 2021-01-30
 apkVersionName: "1.1.0"
 stars: 2.4
-ratings: 344
-reviews: 187
+ratings: 354
+reviews: 194
 size: 19M
 website: https://www.bithumb.com
 repository: 

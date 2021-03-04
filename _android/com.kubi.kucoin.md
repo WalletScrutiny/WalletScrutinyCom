@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: kucoin
 title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: com.kubi.kucoin
 launchDate: 
-latestUpdate: 2021-02-09
-apkVersionName: "3.27.1"
-stars: 3.6
-ratings: 3760
-reviews: 2077
+latestUpdate: 2021-03-02
+apkVersionName: "3.28.0"
+stars: 3.4
+ratings: 3913
+reviews: 2168
 size: 45M
 website: 
 repository: 

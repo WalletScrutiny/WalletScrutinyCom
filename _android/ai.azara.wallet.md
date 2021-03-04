@@ -2,15 +2,16 @@
 wsId: 
 title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
 altTitle: 
-
-users: 100
+authors:
+- leo
+users: 500
 appId: ai.azara.wallet
 launchDate: 
 latestUpdate: 2021-02-21
 apkVersionName: "0.01.08"
-stars: 3.9
-ratings: 9
-reviews: 7
+stars: 4.5
+ratings: 34
+reviews: 32
 size: 45M
 website: 
 repository: 

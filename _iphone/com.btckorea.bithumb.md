@@ -2,7 +2,8 @@
 wsId: bithumbko
 title: "Bithumb"
 altTitle: 
-
+authors:
+- leo
 appId: com.btckorea.bithumb
 idd: 1299421592
 released: 2017-12-05

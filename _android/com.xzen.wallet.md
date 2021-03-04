@@ -2,7 +2,8 @@
 wsId: 
 title: "XZEN — Bitcoin Wallet and Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.xzen.wallet
 launchDate: 

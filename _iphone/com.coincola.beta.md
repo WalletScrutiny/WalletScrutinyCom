@@ -2,14 +2,15 @@
 wsId: coincola
 title: "CoinCola – Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.coincola.beta
 idd: 1234231551
 released: 2017-06-06
 updated: 2021-02-09
 version: "4.7.3"
-score: 4.62908
-reviews: 275
+score: 4.61733
+reviews: 277
 size: 148685824
 developerWebsite: https://www.coincola.com
 repository: 

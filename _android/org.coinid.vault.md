@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: COINiDVault
 title: "COINiD Vault"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.coinid.vault
 launchDate: 2018-10-14

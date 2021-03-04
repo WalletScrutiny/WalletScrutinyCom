@@ -2,7 +2,8 @@
 wsId: 
 title: "BTC Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: btcmine.btcwallet
 launchDate: 

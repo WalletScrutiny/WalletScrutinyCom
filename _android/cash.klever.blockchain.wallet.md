@@ -2,15 +2,16 @@
 wsId: klever
 title: "Klever Wallet: Buy Bitcoin, Ethereum, Tron, Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: cash.klever.blockchain.wallet
 launchDate: 
 latestUpdate: 2021-02-16
 apkVersionName: "4.1.5"
-stars: 4.2
-ratings: 5324
-reviews: 2939
+stars: 4.1
+ratings: 5544
+reviews: 3064
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

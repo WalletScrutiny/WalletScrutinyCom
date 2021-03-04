@@ -1,4 +1,5 @@
 ---
+wsId: MathWallet
 title: "MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos"
 altTitle: 
 

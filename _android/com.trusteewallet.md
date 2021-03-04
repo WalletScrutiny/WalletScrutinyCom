@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: Trustee
 title: "Trustee Wallet - best bitcoin and crypto wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.trusteewallet
 launchDate: 2019-05-01
-latestUpdate: 2021-02-16
-apkVersionName: "1.40.767"
-stars: 4.3
-ratings: 1359
-reviews: 950
+latestUpdate: 2021-03-04
+apkVersionName: "1.40.780"
+stars: 4.2
+ratings: 1379
+reviews: 958
 size: 58M
 website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet

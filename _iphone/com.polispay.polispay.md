@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: PolisPay
 title: "PolisPay - Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.polispay.polispay
 idd: 1351572060
 released: 2019-02-20

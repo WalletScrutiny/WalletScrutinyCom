@@ -2,15 +2,16 @@
 wsId: coincola
 title: "CoinCola - Buy Bitcoin & more"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.newgo.coincola
 launchDate: 
-latestUpdate: 2021-02-08
-apkVersionName: "4.7.1"
-stars: 3.3
-ratings: 573
-reviews: 267
+latestUpdate: 2021-03-04
+apkVersionName: "4.7.2"
+stars: 3.4
+ratings: 577
+reviews: 270
 size: 31M
 website: https://www.coincola.com
 repository: 

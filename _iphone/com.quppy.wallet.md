@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: Quppy
 title: "Quppy – Secure Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.quppy.wallet
 idd: 1417802076
 released: 2018-08-09

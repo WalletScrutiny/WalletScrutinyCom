@@ -2,14 +2,15 @@
 wsId: 
 title: "Bitcoin Wallet - Airbitz"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.airbitz
 launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
 stars: 3.5
-ratings: 1141
+ratings: 1140
 reviews: 486
 size: 16M
 website: https://airbitz.co

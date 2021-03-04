@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: geminiwallet
 title: "Gemini: Buy Bitcoin Instantly"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: com.gemini.android.app
 launchDate: 
-latestUpdate: 2021-02-18
-apkVersionName: "3.3.2"
-stars: 4.4
-ratings: 4075
-reviews: 1603
+latestUpdate: 2021-03-03
+apkVersionName: "3.5.0"
+stars: 4.2
+ratings: 4591
+reviews: 1735
 size: Varies with device
 website: https://gemini.com
 repository: 

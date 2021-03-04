@@ -2,11 +2,12 @@
 wsId: 
 title: "Breez: Lightning Network Client & Point-of-Sale"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.breez.client
 launchDate: 
-latestUpdate: 2021-02-17
+latestUpdate: 2021-03-03
 apkVersionName: "Varies with device"
 stars: 
 ratings: 

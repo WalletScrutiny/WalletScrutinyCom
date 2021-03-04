@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: indodax
 title: "Indodax Trading Platform"
 altTitle: 
-
+authors:
+- leo
 appId: id.co.bitcoin.Bitcoin-Trading-Platform
 idd: 1349104693
 released: 2018-03-29

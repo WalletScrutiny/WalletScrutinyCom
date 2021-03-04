@@ -1,16 +1,17 @@
 ---
-wsId: 
+wsId: Paxful
 title: "Paxful Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.paxful.wallet
 idd: 1443813253
 released: 2019-05-09
-updated: 2021-02-16
-version: "1.8.2"
-score: 3.97192
-reviews: 2208
-size: 64782336
+updated: 2021-02-24
+version: "1.8.3"
+score: 3.96754
+reviews: 2218
+size: 67215360
 developerWebsite: https://paxful.com/
 repository: 
 issue: 

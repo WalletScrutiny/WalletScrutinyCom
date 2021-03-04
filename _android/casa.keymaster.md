@@ -2,15 +2,16 @@
 wsId: casaapp
 title: "Casa App - Secure your Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2021-02-17
-apkVersionName: "2.32.1"
+latestUpdate: 2021-03-02
+apkVersionName: "2.32.2"
 stars: 4.4
-ratings: 71
-reviews: 17
+ratings: 74
+reviews: 18
 size: 29M
 website: https://keys.casa
 repository: 

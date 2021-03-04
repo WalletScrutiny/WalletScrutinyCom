@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: Monarch
 title: "Monarch Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.sf.monarch
 launchDate: 2018-10-19
 latestUpdate: 2021-02-09
 apkVersionName: "2.1.9"
-stars: 3.5
+stars: 3.4
 ratings: 732
 reviews: 375
 size: 18M
