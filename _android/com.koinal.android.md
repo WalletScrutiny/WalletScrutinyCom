@@ -11,7 +11,7 @@ latestUpdate: 2021-02-27
 apkVersionName: "1.2.0"
 stars: 3.9
 ratings: 293
-reviews: 204
+reviews: 205
 size: 30M
 website: https://www.koinal.io
 repository: 

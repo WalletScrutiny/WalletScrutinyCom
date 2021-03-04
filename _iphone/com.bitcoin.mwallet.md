@@ -10,7 +10,7 @@ released: 2017-07-11
 updated: 2021-02-24
 version: "6.11.4"
 score: 4.24327
-reviews: 4271
+reviews: 4312
 size: 122456064
 developerWebsite: https://www.bitcoin.com
 repository: 

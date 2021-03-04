@@ -7,11 +7,11 @@ authors:
 appId: com.goabra.abra
 idd: 966301394
 released: 2015-03-12
-updated: 2021-02-23
-version: "92.0.0"
-score: 4.56367
-reviews: 13194
-size: 102875136
+updated: 2021-03-03
+version: "93.0.0"
+score: 4.56243
+reviews: 13212
+size: 105069568
 developerWebsite: 
 repository: 
 issue: 

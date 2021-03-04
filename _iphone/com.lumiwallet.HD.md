@@ -7,11 +7,11 @@ authors:
 appId: com.lumiwallet.HD
 idd: 1316477906
 released: 2017-12-08
-updated: 2021-02-27
-version: "3.9.7"
-score: 4.86017
-reviews: 3254
-size: 74782720
+updated: 2021-03-03
+version: "3.9.8"
+score: 4.85995
+reviews: 3256
+size: 74719232
 developerWebsite: https://lumiwallet.com/
 repository: 
 issue: 

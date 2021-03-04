@@ -7,11 +7,11 @@ authors:
 appId: com.gemini.ios
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-02-24
-version: "3.4.0"
-score: 4.70001
-reviews: 16184
-size: 103126016
+updated: 2021-03-03
+version: "3.5.0"
+score: 4.69874
+reviews: 16325
+size: 103117824
 developerWebsite: http://gemini.com
 repository: 
 issue: 

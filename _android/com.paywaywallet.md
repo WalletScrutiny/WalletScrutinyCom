@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.paywaywallet
 launchDate: 2019-02-13
-latestUpdate: 2021-02-26
-apkVersionName: "3.2.0 (build: #1194/20210226161815)"
+latestUpdate: 2021-03-04
+apkVersionName: "3.2.1 (build: #1196/20210304164602)"
 stars: 3.8
-ratings: 210
-reviews: 125
+ratings: 211
+reviews: 126
 size: 19M
 website: http://www.payway.ug
 repository: 
