@@ -9,8 +9,8 @@ idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
 version: "1.14.2"
-score: 4.60642
-reviews: 1964
+score: 4.60662
+reviews: 1965
 size: 86743040
 developerWebsite: https://www.poloniex.com
 repository: 

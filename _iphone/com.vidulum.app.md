@@ -10,7 +10,7 @@ released: 2020-07-28
 updated: 2021-02-02
 version: "1.1.5"
 score: 5
-reviews: 4
+reviews: 3
 size: 60455936
 developerWebsite: https://vidulum.app
 repository: 

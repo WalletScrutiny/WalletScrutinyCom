@@ -1,26 +1,25 @@
 ---
 wsId: ethosUW
-title: "Ethos Universal Wallet"
+title: "Ethos - Universal Wallet"
 altTitle: 
 authors:
 
-users: 50000
 appId: io.ethos.universalwallet
-launchDate: 
-latestUpdate: 2019-12-05
-apkVersionName: "2.0.5"
-stars: 3.1
-ratings: 1518
-reviews: 799
-size: 38M
-website: https://www.ethos.io
+idd: 1376959464
+released: 2018-08-06
+updated: 2019-11-22
+version: "2.0.5"
+score: 4.35811
+reviews: 296
+size: 72262656
+developerWebsite: http://ethos.io
 repository: 
 issue: 
-icon: io.ethos.universalwallet.png
+icon: io.ethos.universalwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -33,7 +32,6 @@ providerReddit: ethos_io
 redirect_from:
 
 ---
-
 
 They claim:
 

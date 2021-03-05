@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.brentpanther.bitcoinwidget.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
+reviewStale: false
 signer: 
 reviewArchive:
 
@@ -35,3 +35,5 @@ redirect_from:
 ---
 
 
+> Note: This is only a widget. You must add the widget to your launcher, it will
+  not appear in your apps list.

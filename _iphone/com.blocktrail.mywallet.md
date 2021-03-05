@@ -1,26 +1,25 @@
 ---
 wsId: btcCom
-title: "BTC.com - Bitcoin Wallet"
+title: "BTC.com – Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 500000
 appId: com.blocktrail.mywallet
-launchDate: 
-latestUpdate: 2019-04-03
-apkVersionName: "4.4.7"
-stars: 3.5
-ratings: 7957
-reviews: 3771
-size: 13M
-website: https://btc.com
+idd: 1019614423
+released: 2015-09-08
+updated: 2019-04-13
+version: "4.4.9"
+score: 3.9525
+reviews: 400
+size: 38854656
+developerWebsite: http://btc.com/
 repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
-icon: com.blocktrail.mywallet.png
+icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -33,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app claims:
 

@@ -7,11 +7,11 @@ authors:
 appId: de.fuf.bitbucks-io
 idd: 1453167599
 released: 2019-06-15
-updated: 2021-03-04
-version: "1.3.3"
+updated: 2020-09-21
+version: "1.3.2"
 score: 1
 reviews: 1
-size: 27442176
+size: 26070016
 developerWebsite: https://www.bitbucks.io
 repository: 
 issue: 

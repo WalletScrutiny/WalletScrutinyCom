@@ -10,7 +10,7 @@ launchDate: 2018-05-01
 latestUpdate: 2021-02-13
 apkVersionName: "0.4.7"
 stars: 3.8
-ratings: 340
+ratings: 341
 reviews: 222
 size: 4.9M
 website: http://lightning-wallet.com
