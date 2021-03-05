@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: blockchainWallet
 title: "Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 authors:
