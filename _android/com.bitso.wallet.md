@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-02
 apkVersionName: "2.21.0"
 stars: 3.5
-ratings: 7568
-reviews: 4479
+ratings: 7584
+reviews: 4487
 size: 28M
 website: https://bitso.com/app
 repository: 

@@ -7,11 +7,11 @@ authors:
 appId: com.litebit.app
 idd: 1448841440
 released: 2019-08-20
-updated: 2021-02-10
-version: "2.15.3"
+updated: 2021-03-04
+version: "2.15.4"
 score: 4.42856
 reviews: 7
-size: 67031040
+size: 130576384
 developerWebsite: https://www.litebit.eu/en/
 repository: 
 issue: 

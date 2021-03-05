@@ -10,7 +10,7 @@ released: 2014-06-22
 updated: 2021-03-01
 version: "9.13.1"
 score: 4.67802
-reviews: 1036722
+reviews: 1037752
 size: 69262336
 developerWebsite: http://www.coinbase.com
 repository: 

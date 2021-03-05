@@ -9,8 +9,8 @@ idd: 1428589045
 released: 2018-12-12
 updated: 2020-04-08
 version: "1.0.181"
-score: 4.65625
-reviews: 32
+score: 4.66667
+reviews: 33
 size: 44488704
 developerWebsite: 
 repository: 

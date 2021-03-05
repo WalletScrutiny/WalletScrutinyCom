@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-02-11
 apkVersionName: "0.3.2"
 stars: 4.3
-ratings: 236
+ratings: 237
 reviews: 133
 size: 48M
 website: https://ezdefi.com/
