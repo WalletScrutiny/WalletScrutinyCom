@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.boquanhash.dotwallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
 reviewStale: true
 signer: 
