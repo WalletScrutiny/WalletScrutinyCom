@@ -4,7 +4,7 @@ title: "Casa App - Secure your Bitcoin"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: casa.keymaster
 launchDate: 
 latestUpdate: 2021-03-02

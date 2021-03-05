@@ -9,9 +9,9 @@ appId: com.arzjoo
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "1.3.6"
-stars: 3.8
-ratings: 1689
-reviews: 684
+stars: 3.9
+ratings: 1692
+reviews: 685
 size: Varies with device
 website: https://arzjoo.com
 repository: 

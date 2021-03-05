@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "DigiFinex"
+title: "DigiFinex - Bitcoin Exchange"
 altTitle: 
 authors:
 - leo
 appId: com.digifinex.app
 idd: 1397735851
 released: 2018-08-25
-updated: 2021-02-18
-version: "2021.2.11"
+updated: 2021-03-05
+version: "2021.03.04"
 score: 4.13889
 reviews: 36
-size: 368902144
+size: 367335424
 developerWebsite: 
 repository: 
 issue: 

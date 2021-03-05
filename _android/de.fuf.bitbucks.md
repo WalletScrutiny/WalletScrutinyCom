@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: de.fuf.bitbucks
 launchDate: 2019-09-03
-latestUpdate: 2021-03-04
+latestUpdate: 2021-03-05
 apkVersionName: "1.1.8"
 stars: 4.3
 ratings: 33

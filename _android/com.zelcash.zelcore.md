@@ -9,9 +9,9 @@ appId: com.zelcash.zelcore
 launchDate: 2018-09-21
 latestUpdate: 2021-02-16
 apkVersionName: "4.5.0"
-stars: 3.5
-ratings: 393
-reviews: 282
+stars: 3.6
+ratings: 397
+reviews: 284
 size: 17M
 website: https://zel.network/project/zelcore
 repository: 

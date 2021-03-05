@@ -7,11 +7,11 @@ authors:
 appId: com.vilcsak.bitcoin2
 idd: 886427730
 released: 2014-06-22
-updated: 2021-03-01
-version: "9.13.1"
-score: 4.67802
-reviews: 1037752
-size: 69262336
+updated: 2021-03-05
+version: "9.13.2"
+score: 4.67807
+reviews: 1039057
+size: 69399552
 developerWebsite: http://www.coinbase.com
 repository: 
 issue: 
