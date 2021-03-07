@@ -13,7 +13,7 @@ version: "1.1"
 score: 4.86667
 reviews: 15
 size: 28720128
-developerWebsite: https://ccwalletapp.com
+developerWebsite: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Same as the [Google Play Version](/android/com.ccwalletapp), this is an open
 source, Bitcoin, self-custodial wallet but [as with all iPhone apps](/apple),

@@ -10,8 +10,8 @@ launchDate: 2013-02-01
 latestUpdate: 2021-03-04
 apkVersionName: "Varies with device"
 stars: 3.4
-ratings: 101259
-reviews: 50218
+ratings: 101262
+reviews: 50220
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

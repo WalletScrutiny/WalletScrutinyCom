@@ -13,25 +13,36 @@ stars: 4.3
 ratings: 323
 reviews: 201
 size: 22M
-website: 
+website: https://www.ellipal.com
 repository: 
 issue: 
 icon: com.ellipal.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ellipalwallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ellipalclub
+providerReddit: https://www.reddit.com/r/ELLIPAL_Official/
 
 redirect_from:
 
 ---
 
 
+This app come with the claim:
+
+> Secure HD wallet for cryptocurrencies. Store, transact, and trade Bitcoin and
+  Crypto: BTC ETH LTC DGB BSV BAT OMG XRP XVG & 1000+ more.
+
+and absent more explicit claims, we have to guess that HD means "hierarchically
+deterministic", a standard for self-custodial wallets.
+
+As we can't find a source code repository on their website or
+[their company GitHub account](https://github.com/ELLIPAL?tab=repositories&type=source),
+we assume the app is closed source and thus **not verifiable**.
