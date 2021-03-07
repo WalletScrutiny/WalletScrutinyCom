@@ -1,4 +1,5 @@
 ---
+wsId: AirGapWallet
 title: "AirGap Wallet - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
 
@@ -35,7 +36,7 @@ redirect_from:
 
 
 This appears to not be a wallet as to our understanding, it does not hold any
-private keys but delegates that part to [AirGap Vault](/it.airgap.vault/)
+private keys but delegates that part to [AirGap Vault](/android/it.airgap.vault/)
 without which it does not work.
 
 > **AirGap Vault**, the private key is generated and securely stored in the
