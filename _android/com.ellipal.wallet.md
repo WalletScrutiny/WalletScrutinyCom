@@ -28,7 +28,7 @@ reviewArchive:
 providerTwitter: ellipalwallet
 providerLinkedIn: 
 providerFacebook: ellipalclub
-providerReddit: https://www.reddit.com/r/ELLIPAL_Official/
+providerReddit: ELLIPAL_Official
 
 redirect_from:
 
