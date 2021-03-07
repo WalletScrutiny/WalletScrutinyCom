@@ -4,7 +4,6 @@ title: "Flits - Passive income wallet"
 altTitle: 
 authors:
 - leo
-
 appId: app.flitsnode.flits
 idd: 1460563713
 released: 2019-04-30

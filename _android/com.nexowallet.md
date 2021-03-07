@@ -9,9 +9,9 @@ appId: com.nexowallet
 launchDate: 
 latestUpdate: 2021-02-27
 apkVersionName: "1.4.0"
-stars: 3.9
-ratings: 6737
-reviews: 3213
+stars: 3.8
+ratings: 6765
+reviews: 3232
 size: 50M
 website: https://nexo.io
 repository: 

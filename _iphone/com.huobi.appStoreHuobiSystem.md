@@ -9,8 +9,8 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2021-03-03
 version: "6.1.8"
-score: 4.79673
-reviews: 2873
+score: 4.79617
+reviews: 2875
 size: 212381696
 developerWebsite: http://www.hbg.com
 repository: 

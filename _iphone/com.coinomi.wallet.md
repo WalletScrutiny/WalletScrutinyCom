@@ -9,8 +9,8 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2021-02-11
 version: "1.9.3"
-score: 4.44689
-reviews: 772
+score: 4.44929
+reviews: 779
 size: 115743744
 developerWebsite: https://www.coinomi.com
 repository: 

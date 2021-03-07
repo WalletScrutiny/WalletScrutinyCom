@@ -9,9 +9,9 @@ appId: com.bitrue.currency.exchange
 launchDate: 
 latestUpdate: 2021-01-13
 apkVersionName: "4.3.6"
-stars: 3.0
-ratings: 1188
-reviews: 776
+stars: 3.1
+ratings: 1191
+reviews: 779
 size: 36M
 website: https://www.bitrue.com
 repository: 

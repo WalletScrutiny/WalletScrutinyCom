@@ -11,7 +11,7 @@ latestUpdate: 2021-03-01
 apkVersionName: "6.0.6"
 stars: 4.1
 ratings: 897
-reviews: 399
+reviews: 398
 size: 59M
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
