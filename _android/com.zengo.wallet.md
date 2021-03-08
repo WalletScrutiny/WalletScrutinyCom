@@ -4,6 +4,7 @@ title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 altTitle: 
 authors:
 - leo
+- emanuel
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
@@ -35,6 +36,20 @@ redirect_from:
   - /posts/com.zengo.wallet/
 ---
 
+
+**Update 2021-03-08:** As
+[Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),
+ZenGo [claims](https://www.zengo.com/zengo-and-open-source/) what we are doing
+is impossible:
+
+> It is important to note,
+  that even if we had exposed our code, there is no good way to verify that the
+  downloaded mobile app was indeed created from it.
+
+That is exactly what we are doing here. Let's see if ZenGo answers to
+[our tweet](https://twitter.com/WalletScrutiny/status/1369071552722010121).
+
+# The original analysis
 
 This app claims on Google Play:
 
