@@ -1,39 +1,24 @@
 #!/bin/sh
 
 # run this using Docker:
-# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY -a "com.binance.dev com.binance.dev" -i "12345 12345" -s
+# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY
 
 while getopts k:a:i:s: option
 do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;
-    a) aapps=${OPTARG};;
-    i) iapps=${OPTARG};;
-    s) skip=${OPTARG};;
   esac
 done
-
-echo "Running with parameters"
-echo "  - new Android Apps: $aapps"
-echo "  - new iPhone Apps: $iapps"
-echo "  - skip refresh: $skip"
 
 echo "installing missing stuff"
 npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpay
 
-node refreshNewAndroidApps.js $aapps
-node refreshNewIphoneApps.js $iapps
-
-wait
+echo "Updating from Google and Apple ..." &
+node refreshApps.js
 
 echo "Refreshing donations page ..."
 node refreshDonations.js $btcPayKey &
-if [ "$skipGP" != "true" ]; then
-  echo "Updating from Google and Apple ..." &
-  node refreshAppsFromGoogle.js &
-  node refreshAppsFromApple.js
-fi
 
 wait
 

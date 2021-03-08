@@ -2,6 +2,7 @@
 const fs = require('fs')
 const apple = require('app-store-scraper')
 const newIdds = process.argv.slice(2)
+const helper = require('./scripts/helperAppStore.js')
 
 console.log(`Adding skeletons for ${newIdds} ...`)
 
@@ -20,10 +21,16 @@ appId: ${app.appId}
 idd: ${idd}
 verdict: wip
 ---
-`)
+`,
+            function(err) {
+              if (err)
+                console.error(`Error with id ${idd}: ${err}`)
+              console.log(`Success: ${path}`)
+              helper.refreshFile(`${app.appId}.md`)
+            })
           }
         })
-      }, function(err){
+      }, function(err) {
         console.error(`Error with id ${idd}: ${err}`)
-      });
+      })
 })
