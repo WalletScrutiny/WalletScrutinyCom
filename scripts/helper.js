@@ -14,12 +14,12 @@ function downloadImageFile(url, path, callback) {
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
           iconExtension = "jpg"
         } else if (mimetype == "text/html" || mimetype == "text/plain") {
-          console.error(`Not writing results to _iphone/${header.appId}.md`)
+          console.error(`Not writing results to ${path}`)
           console.error(`Icon wrong mime type ${mimetype}. Skipping.`)
           console.error(body)
           return
         } else {
-          console.error(`Not writing results to _iphone/${header.appId}.md`)
+          console.error(`Not writing results to ${path}`)
           console.error(`Icon wrong mime type ${mimetype}. Skipping.`)
           return
         }

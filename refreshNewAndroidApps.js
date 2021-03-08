@@ -23,6 +23,8 @@ verdict: wip
           console.log(`Success: ${path}`)
           helper.refreshFile(`${appId}.md`)
         })
+      } else {
+        console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists.`)
       }
     })
 })

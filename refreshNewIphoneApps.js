@@ -28,6 +28,8 @@ verdict: wip
               console.log(`Success: ${path}`)
               helper.refreshFile(`${app.appId}.md`)
             })
+          } else {
+            console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists.`)
           }
         })
       }, function(err) {
