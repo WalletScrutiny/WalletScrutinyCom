@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-05
 apkVersionName: "1.3.2"
 stars: 4.0
-ratings: 73
-reviews: 68
+ratings: 74
+reviews: 69
 size: 4.9M
 website: https://visionwallet.com/en
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.visionwallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2020-11-28
 reviewStale: true
 signer: 
 reviewArchive:

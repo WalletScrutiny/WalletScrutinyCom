@@ -6,8 +6,8 @@ authors:
 - leo
 appId: com.unocoin.mainapp.production
 idd: 1030422972
-released: 2016-05-12
-updated: 2021-01-20
+released: 2016-05-09
+updated: 2021-01-19
 version: "6.0.2"
 score: 2.47826
 reviews: 23
@@ -18,7 +18,7 @@ issue:
 icon: com.unocoin.mainapp.production.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

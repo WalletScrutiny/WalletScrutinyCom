@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: com.breadwallet
-launchDate: 2016-07-21
+launchDate: 2016-07-18
 latestUpdate: 2021-03-05
 apkVersionName: "4.9.1"
 stars: 4.2
-ratings: 18943
-reviews: 7593
+ratings: 18956
+reviews: 7604
 size: 24M
 website: https://brd.com
 repository: https://github.com/breadwallet/breadwallet-android
@@ -19,7 +19,7 @@ issue: https://github.com/breadwallet/breadwallet-android/issues/117
 icon: com.breadwallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-16
+date: 2019-12-13
 reviewStale: true
 signer: 
 reviewArchive:

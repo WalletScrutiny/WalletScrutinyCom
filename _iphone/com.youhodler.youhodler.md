@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.youhodler.youhodler
 idd: 1469351696
-released: 2019-07-25
+released: 2019-07-22
 updated: 2021-02-15
 version: "2.10.0"
-score: 4.62791
-reviews: 86
+score: 4.70492
+reviews: 122
 size: 35258368
 developerWebsite: https://www.youhodler.com/
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

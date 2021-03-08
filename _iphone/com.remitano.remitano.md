@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.remitano.remitano
 idd: 1116327021
-released: 2016-05-28
+released: 2016-05-25
 updated: 2021-03-04
 version: "5.16.0"
-score: 4.76177
-reviews: 6158
+score: 4.75885
+reviews: 6183
 size: 59552768
 developerWebsite: https://remitano.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.remitano.remitano.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-23
+date: 2021-01-20
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: co.mona.android
-launchDate: 2017-08-30
-latestUpdate: 2021-03-02
-apkVersionName: "3.85.0"
-stars: 3.5
-ratings: 59054
-reviews: 24079
+launchDate: 2017-08-28
+latestUpdate: 2021-03-05
+apkVersionName: "3.85.1"
+stars: 4.3
+ratings: 62390
+reviews: 24153
 size: 80M
 website: https://www.crypto.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: co.mona.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
+date: 2019-12-26
 reviewStale: true
 signer: 
 reviewArchive:

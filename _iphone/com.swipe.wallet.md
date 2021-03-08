@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.swipe.wallet
 idd: 1476726454
-released: 2019-09-10
+released: 2019-09-07
 updated: 2021-02-22
 version: "1.531"
 score: 4.75783
@@ -18,7 +18,7 @@ issue:
 icon: com.swipe.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

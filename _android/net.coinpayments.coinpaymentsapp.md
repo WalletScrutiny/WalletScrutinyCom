@@ -6,11 +6,11 @@ authors:
 - leo
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
-launchDate: 2016-11-15
+launchDate: 2016-11-12
 latestUpdate: 2021-01-22
 apkVersionName: "Varies with device"
 stars: 3.3
-ratings: 1876
+ratings: 1877
 reviews: 981
 size: Varies with device
 website: https://www.coinpayments.net
@@ -19,7 +19,7 @@ issue:
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-22
+date: 2019-12-19
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,8 +6,8 @@ authors:
 - leo
 appId: com.coinfalcon.mobile
 idd: 1396963260
-released: 2018-10-05
-updated: 2021-02-09
+released: 2018-10-02
+updated: 2021-02-08
 version: "2.1.13"
 score: 3.66667
 reviews: 9
@@ -18,7 +18,7 @@ issue:
 icon: com.coinfalcon.mobile.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

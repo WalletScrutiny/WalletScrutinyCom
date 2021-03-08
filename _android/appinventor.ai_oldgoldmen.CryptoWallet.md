@@ -19,7 +19,7 @@ issue:
 icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2020-11-29
 reviewStale: true
 signer: 
 reviewArchive:

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-25
 apkVersionName: "2.21.2"
 stars: 4.0
-ratings: 1809
-reviews: 783
+ratings: 1817
+reviews: 787
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
@@ -19,7 +19,7 @@ issue:
 icon: com.zengo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-18
 reviewStale: true
 signer: 
 reviewArchive:

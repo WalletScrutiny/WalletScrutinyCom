@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.melis.clientwallet
 idd: 1176840794
-released: 2017-06-07
+released: 2017-06-04
 updated: 2021-03-03
 version: "1.6.15"
 score: 
@@ -18,7 +18,7 @@ issue:
 icon: io.melis.clientwallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
+date: 2020-12-18
 reviewStale: true
 signer: 
 reviewArchive:

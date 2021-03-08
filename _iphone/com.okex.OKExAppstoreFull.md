@@ -6,19 +6,19 @@ authors:
 - leo
 appId: com.okex.OKExAppstoreFull
 idd: 1327268470
-released: 2018-01-04
-updated: 2021-02-26
-version: "4.6.8"
-score: 4.9832
-reviews: 16905
-size: 273367040
+released: 2018-01-01
+updated: 2021-03-08
+version: "4.7.0"
+score: 4.98316
+reviews: 16925
+size: 272779264
 developerWebsite: https://www.okex.com
 repository: 
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-23
+date: 2020-12-20
 reviewStale: true
 signer: 
 reviewArchive:

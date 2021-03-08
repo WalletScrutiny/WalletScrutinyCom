@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: mw.org.freewallet.app
-launchDate: 2017-08-10
+launchDate: 2017-08-08
 latestUpdate: 2021-03-04
 apkVersionName: "1.15.3"
 stars: 3.9
-ratings: 8141
-reviews: 5344
+ratings: 8167
+reviews: 5364
 size: 12M
 website: https://freewallet.org
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: mw.org.freewallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-22
+date: 2019-12-20
 reviewStale: true
 signer: 
 reviewArchive:

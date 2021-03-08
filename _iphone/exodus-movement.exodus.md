@@ -6,11 +6,11 @@ authors:
 - leo
 appId: exodus-movement.exodus
 idd: 1414384820
-released: 2019-03-23
+released: 2019-03-20
 updated: 2021-03-02
 version: "21.3.1"
-score: 4.6269
-reviews: 8089
+score: 4.6284
+reviews: 8146
 size: 28694528
 developerWebsite: https://exodus.com/mobile
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: exodus-movement.exodus.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-23
+date: 2021-01-20
 reviewStale: true
 signer: 
 reviewArchive:

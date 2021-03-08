@@ -19,7 +19,7 @@ issue:
 icon: app.zeusln.zeus.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-15
+date: 2020-07-12
 reviewStale: true
 signer: 
 reviewArchive:

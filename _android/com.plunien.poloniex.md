@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-02
 apkVersionName: "1.23.9"
 stars: 4.4
-ratings: 3362
-reviews: 1800
+ratings: 3378
+reviews: 1808
 size: 28M
 website: https://support.poloniex.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.plunien.poloniex.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

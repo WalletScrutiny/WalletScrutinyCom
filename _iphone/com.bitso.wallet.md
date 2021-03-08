@@ -6,8 +6,8 @@ authors:
 - leo
 appId: com.bitso.wallet
 idd: 1292836438
-released: 2018-02-19
-updated: 2020-12-25
+released: 2018-02-16
+updated: 2020-12-24
 version: "2.16.0"
 score: 3.7027
 reviews: 37
@@ -18,7 +18,7 @@ issue:
 icon: com.bitso.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

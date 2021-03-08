@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.bittrex.trade
 idd: 1465314783
-released: 2019-12-19
+released: 2019-12-16
 updated: 2021-02-02
 version: "1.13.1"
-score: 2.275
-reviews: 240
+score: 2.2863
+reviews: 241
 size: 62560256
 developerWebsite: https://global.bittrex.com
 repository: 
@@ -18,8 +18,8 @@ issue:
 icon: com.bittrex.trade.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-09
-reviewStale: false
+date: 2021-02-06
+reviewStale: true
 signer: 
 reviewArchive:
 

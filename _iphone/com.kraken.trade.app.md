@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.kraken.trade.app
 idd: 1473024338
-released: 2019-11-12
+released: 2019-11-09
 updated: 2021-02-01
 version: "1.5.11"
-score: 4.59256
-reviews: 4813
+score: 4.59429
+reviews: 4846
 size: 33881088
 developerWebsite: 
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.kraken.trade.app.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.totalcoin.wallet
 idd: 1392398906
-released: 2018-07-05
+released: 2018-07-02
 updated: 2021-01-27
 version: "2.9.6"
 score: 4.55224
@@ -18,7 +18,7 @@ issue:
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

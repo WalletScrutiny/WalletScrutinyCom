@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.jackmallers.zap
 idd: 1406311960
-released: 2019-04-27
+released: 2019-04-24
 updated: 2020-08-03
 version: "0.5.2"
 score: 4.97619
@@ -18,8 +18,8 @@ issue:
 icon: com.jackmallers.zap.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
-reviewStale: false
+date: 2020-12-18
+reviewStale: true
 signer: 
 reviewArchive:
 

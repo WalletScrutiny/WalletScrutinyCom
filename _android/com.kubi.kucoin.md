@@ -9,9 +9,9 @@ appId: com.kubi.kucoin
 launchDate: 
 latestUpdate: 2021-03-04
 apkVersionName: "3.28.1"
-stars: 3.5
-ratings: 3970
-reviews: 2203
+stars: 3.6
+ratings: 4004
+reviews: 2225
 size: 45M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.kubi.kucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-09
+date: 2021-02-07
 reviewStale: true
 signer: 
 reviewArchive:

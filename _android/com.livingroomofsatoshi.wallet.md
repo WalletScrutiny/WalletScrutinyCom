@@ -6,11 +6,11 @@ authors:
 - leo
 users: 50000
 appId: com.livingroomofsatoshi.wallet
-launchDate: 2019-05-19
-latestUpdate: 2021-02-19
+launchDate: 2019-05-17
+latestUpdate: 2021-02-18
 apkVersionName: "1.10.5"
 stars: 3.5
-ratings: 291
+ratings: 292
 reviews: 168
 size: 10M
 website: http://www.walletofsatoshi.com
@@ -19,7 +19,7 @@ issue:
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-19
+date: 2019-12-17
 reviewStale: true
 signer: 
 reviewArchive:

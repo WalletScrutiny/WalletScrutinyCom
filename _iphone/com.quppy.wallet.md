@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.quppy.wallet
 idd: 1417802076
-released: 2018-08-09
+released: 2018-08-06
 updated: 2021-02-11
 version: "1.0.45"
 score: 4.94564
@@ -18,7 +18,7 @@ issue:
 icon: com.quppy.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

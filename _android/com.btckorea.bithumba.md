@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-30
 apkVersionName: "1.1.0"
 stars: 2.3
-ratings: 354
-reviews: 194
+ratings: 355
+reviews: 195
 size: 19M
 website: https://www.bithumb.com
 repository: 
@@ -19,8 +19,8 @@ issue:
 icon: com.btckorea.bithumba.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-19
-reviewStale: false
+date: 2021-02-17
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
-launchDate: 2018-04-12
+launchDate: 2018-04-09
 latestUpdate: 2021-01-05
 apkVersionName: "0.4.13"
 stars: 4.1
@@ -19,7 +19,7 @@ issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-22
+date: 2019-12-19
 reviewStale: true
 signer: 
 reviewArchive:

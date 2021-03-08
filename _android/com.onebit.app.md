@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.onebit.app
-launchDate: 2017-11-23
+launchDate: 2017-11-21
 latestUpdate: 2020-11-11
 apkVersionName: "3.25.1"
 stars: 3.5
@@ -19,7 +19,7 @@ issue:
 icon: com.onebit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-20
+date: 2019-12-18
 reviewStale: true
 signer: 
 reviewArchive:

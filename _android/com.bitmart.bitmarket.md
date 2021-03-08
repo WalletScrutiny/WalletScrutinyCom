@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "2.4.4"
 stars: 2.8
-ratings: 756
-reviews: 444
+ratings: 758
+reviews: 445
 size: 31M
 website: https://www.bitmart.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitmart.bitmarket.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-26
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.kucoin.KuCoin.iOS
 idd: 1378956601
-released: 2018-05-14
+released: 2018-05-11
 updated: 2021-03-06
 version: "3.28.1"
-score: 3.69519
-reviews: 374
+score: 3.67282
+reviews: 379
 size: 245865472
 developerWebsite: 
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.kucoin.KuCoin.iOS.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-09
+date: 2021-02-06
 reviewStale: true
 signer: 
 reviewArchive:

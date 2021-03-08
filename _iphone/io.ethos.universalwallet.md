@@ -6,7 +6,7 @@ authors:
 
 appId: io.ethos.universalwallet
 idd: 1376959464
-released: 2018-08-06
+released: 2018-08-03
 updated: 2019-11-22
 version: "2.0.5"
 score: 4.35811
@@ -18,7 +18,7 @@ issue:
 icon: io.ethos.universalwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-05
+date: 2021-03-02
 reviewStale: true
 signer: 
 reviewArchive:

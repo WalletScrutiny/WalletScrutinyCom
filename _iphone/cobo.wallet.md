@@ -6,7 +6,7 @@ authors:
 - leo
 appId: cobo.wallet
 idd: 1406282615
-released: 2018-08-05
+released: 2018-08-02
 updated: 2020-12-15
 version: "4.26"
 score: 3.67442
@@ -18,7 +18,7 @@ issue:
 icon: cobo.wallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

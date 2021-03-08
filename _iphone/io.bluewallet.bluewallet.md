@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.bluewallet.bluewallet
 idd: 1376878040
-released: 2018-05-27
+released: 2018-05-24
 updated: 2021-03-02
 version: "6.0.6"
 score: 4.2328
@@ -18,7 +18,7 @@ issue:
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

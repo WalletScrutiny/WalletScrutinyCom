@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.dowallet
-launchDate: 2019-01-01
+launchDate: 2018-12-30
 latestUpdate: 2021-02-22
 apkVersionName: "1.1.35"
 stars: 4.0
@@ -19,7 +19,7 @@ issue:
 icon: com.dowallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-23
+date: 2019-11-21
 reviewStale: true
 signer: 
 reviewArchive:

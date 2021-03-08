@@ -6,11 +6,11 @@ authors:
 - leo
 appId: org.voisine.breadwallet
 idd: 885251393
-released: 2014-06-22
+released: 2014-06-19
 updated: 2021-03-06
 version: "4.8.1"
-score: 4.58125
-reviews: 9901
+score: 4.58106
+reviews: 9918
 size: 38722560
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios
@@ -18,7 +18,7 @@ issue:
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
+date: 2020-12-18
 reviewStale: true
 signer: 
 reviewArchive:

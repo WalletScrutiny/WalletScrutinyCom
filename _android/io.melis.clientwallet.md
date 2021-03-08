@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: io.melis.clientwallet
-launchDate: 2017-01-30
+launchDate: 2017-01-28
 latestUpdate: 2021-03-01
 apkVersionName: "1.6.15"
 stars: 4.1
@@ -19,7 +19,7 @@ issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-07
+date: 2020-04-05
 reviewStale: true
 signer: 
 reviewArchive:

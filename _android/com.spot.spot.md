@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-04
 apkVersionName: "4.25.1.2518-7c650bc3"
 stars: 4.3
-ratings: 3690
-reviews: 1798
+ratings: 3701
+reviews: 1805
 size: 65M
 website: https://www.spot-bitcoin.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.spot.spot.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
+date: 2020-11-14
 reviewStale: true
 signer: 
 reviewArchive:

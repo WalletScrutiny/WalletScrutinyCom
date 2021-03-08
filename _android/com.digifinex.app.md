@@ -9,9 +9,9 @@ appId: com.digifinex.app
 launchDate: 
 latestUpdate: 2021-03-05
 apkVersionName: "2021.03.05"
-stars: 3.8
-ratings: 2235
-reviews: 1408
+stars: 3.7
+ratings: 2238
+reviews: 1410
 size: 65M
 website: https://www.digifinex.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.digifinex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
+date: 2020-11-25
 reviewStale: true
 signer: 
 reviewArchive:

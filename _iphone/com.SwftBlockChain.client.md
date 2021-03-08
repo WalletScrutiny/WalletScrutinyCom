@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.SwftBlockChain.client
 idd: 1435569339
-released: 2018-09-28
+released: 2018-09-25
 updated: 2021-02-24
 version: "5.10.9"
 score: 4.57463
@@ -18,7 +18,7 @@ issue:
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

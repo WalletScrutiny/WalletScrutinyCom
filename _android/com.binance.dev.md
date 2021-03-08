@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000000
 appId: com.binance.dev
-launchDate: 2017-10-25
+launchDate: 2017-10-22
 latestUpdate: 2021-03-05
-apkVersionName: "1.36.3"
-stars: 3.8
-ratings: 92318
-reviews: 38278
+apkVersionName: "1.37.2"
+stars: 4.4
+ratings: 98082
+reviews: 39867
 size: Varies with device
 website: https://www.binance.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.binance.dev.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-15
+date: 2020-03-12
 reviewStale: true
 signer: 
 reviewArchive:

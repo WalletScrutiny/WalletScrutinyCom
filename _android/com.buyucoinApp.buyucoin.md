@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-22
 apkVersionName: "3.4"
 stars: 3.0
-ratings: 395
-reviews: 302
+ratings: 404
+reviews: 304
 size: 17M
 website: https://www.buyucoin.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-17
 reviewStale: true
 signer: 
 reviewArchive:

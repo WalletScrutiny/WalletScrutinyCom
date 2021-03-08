@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.coinomi.wallet
-launchDate: 2014-01-31
+launchDate: 2014-01-28
 latestUpdate: 2020-10-20
 apkVersionName: "Varies with device"
 stars: 4.4
-ratings: 30956
-reviews: 17977
+ratings: 31017
+reviews: 18006
 size: Varies with device
 website: https://www.coinomi.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinomi.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-14
+date: 2019-11-11
 reviewStale: true
 signer: 
 reviewArchive:

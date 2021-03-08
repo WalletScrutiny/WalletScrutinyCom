@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.koinal.ios
 idd: 1442764361
-released: 2020-06-08
+released: 2020-06-05
 updated: 2021-02-27
 version: "1.2.0"
 score: 3.66667
@@ -18,7 +18,7 @@ issue:
 icon: com.koinal.ios.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

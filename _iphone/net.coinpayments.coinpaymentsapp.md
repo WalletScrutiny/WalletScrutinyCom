@@ -6,7 +6,7 @@ authors:
 - leo
 appId: net.coinpayments.coinpaymentsapp
 idd: 1162855939
-released: 2019-02-07
+released: 2019-02-04
 updated: 2021-01-21
 version: "2.2.1"
 score: 4.09375
@@ -18,7 +18,7 @@ issue:
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

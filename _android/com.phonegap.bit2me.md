@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-21
 apkVersionName: "2.0.52"
 stars: 4.5
-ratings: 1071
-reviews: 569
+ratings: 1082
+reviews: 571
 size: 17M
 website: https://bit2me.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.phonegap.bit2me.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

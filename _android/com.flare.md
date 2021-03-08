@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.flare
-launchDate: 2020-02-22
+launchDate: 2020-02-20
 latestUpdate: 2021-01-01
 apkVersionName: "1.3.8"
 stars: 4.1
@@ -19,7 +19,7 @@ issue:
 icon: com.flare.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-04
+date: 2020-08-02
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.mycelium.wallet-ios
 idd: 943912290
-released: 2014-12-17
+released: 2014-12-14
 updated: 2021-01-09
 version: "1.16"
 score: 2.18567
@@ -18,7 +18,7 @@ issue:
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-16
 reviewStale: true
 signer: 
 reviewArchive:

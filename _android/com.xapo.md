@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.xapo
-launchDate: 2014-04-01
+launchDate: 2014-03-30
 latestUpdate: 2020-07-29
 apkVersionName: "5.30"
 stars: 3.6
-ratings: 45531
-reviews: 21610
+ratings: 45543
+reviews: 21621
 size: 93M
 website: https://xapo.com
 repository: 
@@ -19,8 +19,8 @@ issue:
 icon: com.xapo.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-10-12
-reviewStale: false
+date: 2020-10-10
+reviewStale: true
 signer: 
 reviewArchive:
 

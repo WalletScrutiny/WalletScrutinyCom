@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.mtpelerin.bridge
 launchDate: 
-latestUpdate: 2021-01-27
-apkVersionName: "1.11"
+latestUpdate: 2021-03-08
+apkVersionName: "1.12"
 stars: 4.8
 ratings: 40
 reviews: 21
@@ -19,7 +19,7 @@ issue:
 icon: com.mtpelerin.bridge.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-27
+date: 2020-12-25
 reviewStale: true
 signer: 
 reviewArchive:

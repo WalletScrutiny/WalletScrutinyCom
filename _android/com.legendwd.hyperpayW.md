@@ -9,9 +9,9 @@ appId: com.legendwd.hyperpayW
 launchDate: 
 latestUpdate: 2021-03-04
 apkVersionName: "4.0.18"
-stars: 3.6
-ratings: 847
-reviews: 624
+stars: 3.7
+ratings: 852
+reviews: 627
 size: 101M
 website: https://hyperpay.tech
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-02
+date: 2020-11-30
 reviewStale: true
 signer: 
 reviewArchive:

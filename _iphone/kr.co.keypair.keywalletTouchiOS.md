@@ -6,7 +6,7 @@ authors:
 
 appId: kr.co.keypair.keywalletTouchiOS
 idd: 1473941321
-released: 2019-07-28
+released: 2019-07-25
 updated: 2020-12-14
 version: "1.1.27"
 score: 4
@@ -18,7 +18,7 @@ issue:
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-07
+date: 2021-03-04
 reviewStale: true
 signer: 
 reviewArchive:

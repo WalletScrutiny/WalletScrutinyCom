@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-29
 apkVersionName: "4.1.0"
 stars: 3.8
-ratings: 231
-reviews: 133
+ratings: 235
+reviews: 134
 size: 45M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
@@ -19,7 +19,7 @@ issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-07
+date: 2020-12-05
 reviewStale: true
 signer: 
 reviewArchive:

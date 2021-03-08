@@ -6,19 +6,19 @@ authors:
 - leo
 appId: tech.spotapp.spot
 idd: 1390560448
-released: 2018-08-07
-updated: 2021-02-16
-version: "3.1"
-score: 4.61859
-reviews: 2808
-size: 83738624
+released: 2018-08-04
+updated: 2021-03-08
+version: "3.1.1"
+score: 4.61655
+reviews: 2827
+size: 81015808
 developerWebsite: https://spot-bitcoin.com
 repository: 
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

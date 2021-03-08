@@ -9,9 +9,9 @@ appId: com.newgo.coincola
 launchDate: 
 latestUpdate: 2021-03-04
 apkVersionName: "4.7.2"
-stars: 3.3
-ratings: 572
-reviews: 265
+stars: 3.4
+ratings: 575
+reviews: 267
 size: 31M
 website: https://www.coincola.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.newgo.coincola.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-03
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

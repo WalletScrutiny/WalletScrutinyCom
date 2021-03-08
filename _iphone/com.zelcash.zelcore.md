@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.zelcash.zelcore
 idd: 1436296839
-released: 2018-09-23
+released: 2018-09-20
 updated: 2021-02-17
 version: "v4.5.0"
 score: 4.48
@@ -18,7 +18,7 @@ issue:
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.eidoo.wallet.prodnet
 idd: 1279896253
-released: 2017-09-23
+released: 2017-09-20
 updated: 2021-02-23
 version: "2.16.1"
 score: 3.87143
@@ -18,7 +18,7 @@ issue:
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

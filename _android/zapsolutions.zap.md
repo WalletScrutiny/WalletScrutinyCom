@@ -19,11 +19,11 @@ issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-12-30
+- date: 2019-12-27
   version: "0.2.11"
   apkHash: 
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118

@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.muun.falcon
 idd: 1482037683
-released: 2019-10-11
+released: 2019-10-08
 updated: 2021-02-01
 version: "2.1.0"
 score: 4.7619
@@ -18,7 +18,7 @@ issue:
 icon: com.muun.falcon.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
+date: 2020-12-18
 reviewStale: true
 signer: 
 reviewArchive:

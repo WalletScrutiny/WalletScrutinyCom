@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-07
+date: 2021-03-05
 reviewStale: true
 signer: 
 reviewArchive:

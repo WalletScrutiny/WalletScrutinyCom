@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.cobinhood.exchange
 launchDate: 
-latestUpdate: 2019-04-29
+latestUpdate: 2019-04-28
 apkVersionName: "3.50.1"
 stars: 2.0
 ratings: 641
@@ -19,7 +19,7 @@ issue:
 icon: com.cobinhood.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-26
 reviewStale: true
 signer: 
 reviewArchive:

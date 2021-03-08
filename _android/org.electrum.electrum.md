@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: org.electrum.electrum
-launchDate: 2016-03-02
+launchDate: 2016-02-29
 latestUpdate: 2020-12-18
 apkVersionName: "4.0.9.0"
 stars: 3.3
-ratings: 2070
-reviews: 1249
+ratings: 2073
+reviews: 1252
 size: 20M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -19,7 +19,7 @@ issue: https://github.com/spesmilo/electrum/issues/5839
 icon: org.electrum.electrum.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-11
+date: 2019-12-09
 reviewStale: true
 signer: 
 reviewArchive:

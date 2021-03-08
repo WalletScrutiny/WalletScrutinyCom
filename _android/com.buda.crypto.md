@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-06-02
 apkVersionName: "1.9.10"
 stars: 2.5
-ratings: 344
-reviews: 231
+ratings: 346
+reviews: 232
 size: 12M
 website: https://www.buda.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.buda.crypto.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-26
 reviewStale: true
 signer: 
 reviewArchive:

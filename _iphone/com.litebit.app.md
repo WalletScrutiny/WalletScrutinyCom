@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.litebit.app
 idd: 1448841440
-released: 2019-08-20
+released: 2019-08-17
 updated: 2021-03-04
 version: "2.15.4"
 score: 4.42856
@@ -18,7 +18,7 @@ issue:
 icon: com.litebit.app.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

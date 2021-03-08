@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.gemini.ios
 idd: 1408914447
-released: 2018-12-11
+released: 2018-12-08
 updated: 2021-03-03
 version: "3.5.0"
-score: 4.69707
-reviews: 16618
+score: 4.69604
+reviews: 16720
 size: 103117824
 developerWebsite: http://gemini.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.gemini.ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-04
+date: 2021-01-01
 reviewStale: true
 signer: 
 reviewArchive:

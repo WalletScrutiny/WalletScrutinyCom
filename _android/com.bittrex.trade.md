@@ -9,9 +9,9 @@ appId: com.bittrex.trade
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "1.13.1"
-stars: 2.6
-ratings: 1067
-reviews: 698
+stars: 2.5
+ratings: 1078
+reviews: 706
 size: 53M
 website: https://global.bittrex.com
 repository: 
@@ -19,8 +19,8 @@ issue:
 icon: com.bittrex.trade.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-09
-reviewStale: false
+date: 2021-02-07
+reviewStale: true
 signer: 
 reviewArchive:
 

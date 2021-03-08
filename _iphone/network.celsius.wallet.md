@@ -6,11 +6,11 @@ authors:
 - leo
 appId: network.celsius.wallet
 idd: 1387885523
-released: 2018-06-20
+released: 2018-06-17
 updated: 2021-02-25
 version: "4.8.0"
-score: 4.20685
-reviews: 788
+score: 4.19674
+reviews: 798
 size: 45212672
 developerWebsite: https://celsius.network/app
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: network.celsius.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

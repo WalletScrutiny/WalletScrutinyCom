@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-18
 apkVersionName: "1.9.4.3"
 stars: 4.4
-ratings: 3686
-reviews: 1356
+ratings: 3709
+reviews: 1368
 size: 14M
 website: https://www.coinex.co
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinex.trade.play.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-15
+date: 2020-04-13
 reviewStale: true
 signer: 
 reviewArchive:

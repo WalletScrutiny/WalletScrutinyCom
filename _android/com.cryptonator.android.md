@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.cryptonator.android
-launchDate: 2018-11-01
+launchDate: 2018-10-29
 latestUpdate: 2021-01-22
 apkVersionName: "4.0"
 stars: 3.7
-ratings: 4723
-reviews: 2749
+ratings: 4722
+reviews: 2748
 size: 8.7M
 website: https://www.cryptonator.com
 repository: 
@@ -19,11 +19,11 @@ issue:
 icon: com.cryptonator.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-17
+date: 2020-03-14
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-11-12
+- date: 2019-11-09
   version: "3.0.1"
   apkHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306

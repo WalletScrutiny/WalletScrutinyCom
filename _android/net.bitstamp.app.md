@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-11
 apkVersionName: "1.6.3"
 stars: 4.3
-ratings: 9114
-reviews: 2501
+ratings: 9134
+reviews: 2505
 size: 13M
 website: https://www.bitstamp.net
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: net.bitstamp.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

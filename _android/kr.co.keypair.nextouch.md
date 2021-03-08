@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: kr.co.keypair.nextouch
 launchDate: 
-latestUpdate: 2019-07-22
+latestUpdate: 2019-07-21
 apkVersionName: "1.0.0.57"
 stars: 3.5
 ratings: 8
@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.nextouch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-07
+date: 2021-03-05
 reviewStale: true
 signer: 
 reviewArchive:
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 
 As far as we can see, this is the same as

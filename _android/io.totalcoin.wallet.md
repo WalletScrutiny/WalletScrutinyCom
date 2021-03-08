@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: io.totalcoin.wallet
-launchDate: 2018-04-01
+launchDate: 2018-03-29
 latestUpdate: 2021-03-03
 apkVersionName: "4.6.3"
 stars: 4.5
-ratings: 5252
-reviews: 2631
+ratings: 5265
+reviews: 2635
 size: 11M
 website: http://totalcoin.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.totalcoin.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-23
+date: 2019-11-20
 reviewStale: true
 signer: 
 reviewArchive:

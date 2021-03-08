@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
 launchDate: 
-latestUpdate: 2020-08-05
+latestUpdate: 2020-08-04
 apkVersionName: "1.0.9"
 stars: 4.2
 ratings: 157
@@ -19,7 +19,7 @@ issue:
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

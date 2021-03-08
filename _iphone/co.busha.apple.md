@@ -6,7 +6,7 @@ authors:
 - leo
 appId: co.busha.apple
 idd: 1450373493
-released: 2019-02-03
+released: 2019-01-31
 updated: 2021-03-05
 version: "2.6.8"
 score: 4.13333
@@ -18,7 +18,7 @@ issue:
 icon: co.busha.apple.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

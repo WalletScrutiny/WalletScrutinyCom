@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.bitnovo.app
 idd: 1220883632
-released: 2017-05-19
+released: 2017-05-16
 updated: 2021-02-25
 version: "2.8.5"
 score: 1
@@ -18,7 +18,7 @@ issue:
 icon: com.bitnovo.app.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.evercoinInc.evercoin
 idd: 1277924158
-released: 2017-09-16
+released: 2017-09-13
 updated: 2020-11-30
 version: "1.9.5"
 score: 4.66255
@@ -18,7 +18,7 @@ issue:
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

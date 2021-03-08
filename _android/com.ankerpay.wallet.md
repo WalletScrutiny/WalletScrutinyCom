@@ -19,7 +19,7 @@ issue:
 icon: com.ankerpay.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-17
 reviewStale: true
 signer: 
 reviewArchive:

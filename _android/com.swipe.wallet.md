@@ -9,9 +9,9 @@ appId: com.swipe.wallet
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "1.530"
-stars: 3.6
-ratings: 1382
-reviews: 985
+stars: 3.5
+ratings: 1384
+reviews: 987
 size: 57M
 website: https://swipe.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.swipe.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2020-11-28
 reviewStale: true
 signer: 
 reviewArchive:

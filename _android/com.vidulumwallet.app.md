@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.vidulumwallet.app
 launchDate: 
-latestUpdate: 2019-04-05
+latestUpdate: 2019-04-04
 apkVersionName: "1.2"
-stars: 4.5
-ratings: 68
-reviews: 55
+stars: 4.4
+ratings: 69
+reviews: 56
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
@@ -19,8 +19,8 @@ issue:
 icon: com.vidulumwallet.app.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-29
-reviewStale: false
+date: 2020-07-26
+reviewStale: true
 signer: 
 reviewArchive:
 

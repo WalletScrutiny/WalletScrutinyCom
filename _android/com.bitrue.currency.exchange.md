@@ -9,9 +9,9 @@ appId: com.bitrue.currency.exchange
 launchDate: 
 latestUpdate: 2021-01-13
 apkVersionName: "4.3.6"
-stars: 3.1
-ratings: 1191
-reviews: 779
+stars: 3.0
+ratings: 1197
+reviews: 783
 size: 36M
 website: https://www.bitrue.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2020-11-15
 reviewStale: true
 signer: 
 reviewArchive:

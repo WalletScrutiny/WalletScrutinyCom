@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.adenter.mercurycash
 idd: 1291394963
-released: 2017-10-07
+released: 2017-10-04
 updated: 2021-03-02
 version: "4.3"
 score: 4.60377
@@ -18,7 +18,7 @@ issue:
 icon: com.adenter.mercurycash.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

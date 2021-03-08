@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.pumapay.pumawallet
 idd: 1376601366
-released: 2018-06-05
+released: 2018-06-02
 updated: 2021-02-08
 version: "2.91"
 score: 3.85714
@@ -18,7 +18,7 @@ issue:
 icon: com.pumapay.pumawallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

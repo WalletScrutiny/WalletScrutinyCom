@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.coinomi.wallet
 idd: 1333588809
-released: 2018-03-22
+released: 2018-03-19
 updated: 2021-02-11
 version: "1.9.3"
-score: 4.44929
-reviews: 779
+score: 4.45051
+reviews: 788
 size: 115743744
 developerWebsite: https://www.coinomi.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.coinomi.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

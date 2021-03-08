@@ -19,7 +19,7 @@ issue:
 icon: app.odapplications.bitstashwallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-05
+date: 2021-03-02
 reviewStale: true
 signer: 
 reviewArchive:

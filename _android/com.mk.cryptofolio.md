@@ -19,7 +19,7 @@ issue:
 icon: com.mk.cryptofolio.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-18
 reviewStale: true
 signer: 
 reviewArchive:

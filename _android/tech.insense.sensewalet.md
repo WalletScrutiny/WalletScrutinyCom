@@ -6,7 +6,7 @@ authors:
 - leo
 users: 5000
 appId: tech.insense.sensewalet
-launchDate: 2018-09-27
+launchDate: 2018-09-24
 latestUpdate: 2019-06-21
 apkVersionName: "0.0068beta"
 stars: 3.9
@@ -19,8 +19,8 @@ issue:
 icon: tech.insense.sensewalet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-30
-reviewStale: false
+date: 2019-12-27
+reviewStale: true
 signer: 
 reviewArchive:
 

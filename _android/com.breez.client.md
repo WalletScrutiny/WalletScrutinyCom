@@ -19,7 +19,7 @@ issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
+date: 2019-12-25
 reviewStale: true
 signer: 
 reviewArchive:

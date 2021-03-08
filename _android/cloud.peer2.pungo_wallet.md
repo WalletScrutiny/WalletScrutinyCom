@@ -19,7 +19,7 @@ issue:
 icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-29
+date: 2020-07-26
 reviewStale: true
 signer: 
 reviewArchive:

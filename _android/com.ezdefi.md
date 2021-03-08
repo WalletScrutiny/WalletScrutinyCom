@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-11
 apkVersionName: "0.3.2"
 stars: 4.3
-ratings: 245
-reviews: 136
+ratings: 248
+reviews: 137
 size: 48M
 website: https://ezdefi.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.ezdefi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
+date: 2020-12-11
 reviewStale: true
 signer: 
 reviewArchive:

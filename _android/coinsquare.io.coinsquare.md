@@ -11,7 +11,7 @@ latestUpdate: 2020-07-29
 apkVersionName: "2.13.8"
 stars: 2.0
 ratings: 464
-reviews: 360
+reviews: 359
 size: 8.2M
 website: https://coinsquare.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

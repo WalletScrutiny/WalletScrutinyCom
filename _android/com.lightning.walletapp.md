@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.lightning.walletapp
-launchDate: 2018-05-01
+launchDate: 2018-04-29
 latestUpdate: 2021-02-13
 apkVersionName: "0.4.7"
 stars: 3.8
-ratings: 341
-reviews: 222
+ratings: 343
+reviews: 223
 size: 4.9M
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet
@@ -19,11 +19,11 @@ issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-11
+date: 2020-05-09
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-11-23
+- date: 2019-11-21
   version: "0.4"
   apkHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022

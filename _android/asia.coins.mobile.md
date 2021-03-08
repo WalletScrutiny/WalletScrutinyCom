@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: asia.coins.mobile
-launchDate: 2014-10-01
+launchDate: 2014-09-29
 latestUpdate: 2021-03-02
 apkVersionName: "3.5.22"
 stars: 4.1
-ratings: 90021
-reviews: 39743
+ratings: 90081
+reviews: 39768
 size: 51M
 website: https://coins.ph
 repository: 
@@ -19,11 +19,11 @@ issue:
 icon: asia.coins.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-10-12
+date: 2020-10-10
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-11-17
+- date: 2019-11-15
   version: "3.3.92"
   apkHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f

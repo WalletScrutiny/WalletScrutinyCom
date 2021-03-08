@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.cryptonator.ios
 idd: 1463793201
-released: 2019-06-11
+released: 2019-06-08
 updated: 2021-01-27
 version: "4.1.4"
 score: 3.7
@@ -18,7 +18,7 @@ issue:
 icon: com.cryptonator.ios.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

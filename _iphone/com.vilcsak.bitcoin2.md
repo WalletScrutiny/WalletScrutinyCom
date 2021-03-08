@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.vilcsak.bitcoin2
 idd: 886427730
-released: 2014-06-22
+released: 2014-06-19
 updated: 2021-03-05
 version: "9.13.2"
-score: 4.67809
-reviews: 1039975
+score: 4.67813
+reviews: 1041408
 size: 69399552
 developerWebsite: http://www.coinbase.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

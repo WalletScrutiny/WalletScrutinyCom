@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.liberty.jaxx
-launchDate: 2018-09-01
+launchDate: 2018-08-30
 latestUpdate: 2021-03-01
 apkVersionName: "2.6.1"
 stars: 3.4
-ratings: 4485
-reviews: 2497
+ratings: 4492
+reviews: 2499
 size: 17M
 website: https://jaxx.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.liberty.jaxx.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-02
+date: 2019-10-31
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.trusteewallet
-launchDate: 2019-05-01
-latestUpdate: 2021-03-04
-apkVersionName: "1.40.780"
-stars: 4.0
-ratings: 1393
-reviews: 969
+launchDate: 2019-04-29
+latestUpdate: 2021-03-07
+apkVersionName: "1.40.782"
+stars: 4.1
+ratings: 1402
+reviews: 977
 size: 58M
 website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet
@@ -19,11 +19,11 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-01-24
+date: 2020-01-22
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-12-28
+- date: 2019-12-26
   version: "1.0"
   apkHash: 
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b

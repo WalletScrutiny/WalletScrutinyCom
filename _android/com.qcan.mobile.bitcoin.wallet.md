@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-02-19
 apkVersionName: "0.8.850"
 stars: 4.4
-ratings: 125
+ratings: 126
 reviews: 81
 size: 29M
 website: https://qcan.com
@@ -19,7 +19,7 @@ issue:
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
+date: 2020-12-06
 reviewStale: true
 signer: 
 reviewArchive:

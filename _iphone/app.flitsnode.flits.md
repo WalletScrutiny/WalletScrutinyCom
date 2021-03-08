@@ -6,7 +6,7 @@ authors:
 - leo
 appId: app.flitsnode.flits
 idd: 1460563713
-released: 2019-04-30
+released: 2019-04-27
 updated: 2021-02-09
 version: "4.4"
 score: 4.2
@@ -18,7 +18,7 @@ issue:
 icon: app.flitsnode.flits.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-06
+date: 2021-03-03
 reviewStale: true
 signer: 
 reviewArchive:

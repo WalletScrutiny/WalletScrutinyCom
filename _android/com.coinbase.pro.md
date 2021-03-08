@@ -9,9 +9,9 @@ appId: com.coinbase.pro
 launchDate: 
 latestUpdate: 2021-03-03
 apkVersionName: "1.0.64"
-stars: 4.1
-ratings: 5212
-reviews: 2595
+stars: 4.4
+ratings: 5455
+reviews: 2624
 size: 35M
 website: https://pro.coinbase.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinbase.pro.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-26
 reviewStale: true
 signer: 
 reviewArchive:

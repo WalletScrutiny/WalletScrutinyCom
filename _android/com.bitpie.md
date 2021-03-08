@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.bitpie
-launchDate: 2016-10-23
+launchDate: 2016-10-20
 latestUpdate: 2021-03-04
 apkVersionName: "5.0.016"
 stars: 3.8
-ratings: 694
-reviews: 357
+ratings: 697
+reviews: 361
 size: 58M
 website: http://bitpie.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitpie.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-25
+date: 2019-12-22
 reviewStale: true
 signer: 
 reviewArchive:

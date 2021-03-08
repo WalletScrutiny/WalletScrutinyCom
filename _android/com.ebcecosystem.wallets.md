@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.ebcecosystem.wallets
-launchDate: 2018-12-07
+launchDate: 2018-12-05
 latestUpdate: 2019-01-30
 apkVersionName: "0.0.7"
 stars: 4.8
@@ -19,8 +19,8 @@ issue:
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
-reviewStale: false
+date: 2019-12-26
+reviewStale: true
 signer: 
 reviewArchive:
 

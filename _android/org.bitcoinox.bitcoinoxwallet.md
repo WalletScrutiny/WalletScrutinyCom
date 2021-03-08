@@ -19,7 +19,7 @@ issue:
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-09-27
+date: 2020-09-24
 reviewStale: true
 signer: 
 reviewArchive:

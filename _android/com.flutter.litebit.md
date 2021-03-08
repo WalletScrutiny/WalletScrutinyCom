@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-05
 apkVersionName: "2.15.4"
 stars: 3.1
-ratings: 360
-reviews: 258
+ratings: 374
+reviews: 271
 size: 78M
 website: https://www.litebit.eu
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.flutter.litebit.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-06
+date: 2020-12-04
 reviewStale: true
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ issue:
 icon: com.coinfalcon.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
+date: 2020-12-06
 reviewStale: true
 signer: 
 reviewArchive:

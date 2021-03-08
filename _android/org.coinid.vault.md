@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.vault
-launchDate: 2018-10-14
+launchDate: 2018-10-12
 latestUpdate: 2021-02-20
 apkVersionName: "1.5.5"
 stars: 5.0
@@ -19,7 +19,7 @@ issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-06
+date: 2020-04-04
 reviewStale: true
 signer: 
 reviewArchive:

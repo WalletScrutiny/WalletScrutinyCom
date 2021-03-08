@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-01
 apkVersionName: "2.6.40.8"
 stars: 3.8
-ratings: 6205
-reviews: 3339
+ratings: 6228
+reviews: 3351
 size: 38M
 website: https://crypterium.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.crypterium.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2020-11-29
 reviewStale: true
 signer: 
 reviewArchive:

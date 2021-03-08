@@ -9,9 +9,9 @@ appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
 latestUpdate: 2021-01-22
 apkVersionName: "3.0.6"
-stars: 3.9
-ratings: 1179
-reviews: 581
+stars: 4.0
+ratings: 1201
+reviews: 586
 size: 11M
 website: https://hitbtc.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.hittechsexpertlimited.hitbtc.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

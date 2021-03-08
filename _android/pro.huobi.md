@@ -9,9 +9,9 @@ appId: pro.huobi
 launchDate: 
 latestUpdate: 2021-02-25
 apkVersionName: "6.1.6"
-stars: 4.5
-ratings: 7993
-reviews: 3017
+stars: 4.4
+ratings: 8009
+reviews: 3029
 size: 63M
 website: https://www.huobi.com/en-us
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: pro.huobi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-26
 reviewStale: true
 signer: 
 reviewArchive:

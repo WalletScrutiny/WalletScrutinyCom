@@ -9,9 +9,9 @@ appId: com.binance.us
 launchDate: 
 latestUpdate: 2021-02-10
 apkVersionName: "2.3.2"
-stars: 1.8
-ratings: 2107
-reviews: 1591
+stars: 1.9
+ratings: 2145
+reviews: 1619
 size: Varies with device
 website: https://www.binance.us
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.binance.us.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2020-11-14
 reviewStale: true
 signer: 
 reviewArchive:

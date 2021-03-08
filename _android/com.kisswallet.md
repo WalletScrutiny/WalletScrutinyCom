@@ -19,7 +19,7 @@ issue:
 icon: com.kisswallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-02-18
+date: 2020-02-16
 reviewStale: true
 signer: 
 reviewArchive:

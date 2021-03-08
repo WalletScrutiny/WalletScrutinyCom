@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.evercoin
 launchDate: 
-latestUpdate: 2020-11-22
+latestUpdate: 2020-11-21
 apkVersionName: "2.8.8"
 stars: 3.7
 ratings: 190
@@ -19,7 +19,7 @@ issue:
 icon: com.evercoin.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-17
 reviewStale: true
 signer: 
 reviewArchive:

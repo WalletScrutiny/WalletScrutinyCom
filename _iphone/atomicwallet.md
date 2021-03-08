@@ -6,11 +6,11 @@ authors:
 - leo
 appId: atomicwallet
 idd: 1478257827
-released: 2019-11-05
+released: 2019-11-02
 updated: 2021-02-24
 version: "0.72.0"
-score: 4.38357
-reviews: 5574
+score: 4.38147
+reviews: 5644
 size: 47985664
 developerWebsite: https://atomicwallet.io/
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: atomicwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-23
+date: 2021-01-20
 reviewStale: true
 signer: 
 reviewArchive:

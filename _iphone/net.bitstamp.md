@@ -6,11 +6,11 @@ authors:
 - leo
 appId: net.bitstamp
 idd: 1406825640
-released: 2019-01-30
+released: 2019-01-27
 updated: 2021-01-13
 version: "1.6.4"
-score: 4.81588
-reviews: 4269
+score: 4.81649
+reviews: 4278
 size: 82498560
 developerWebsite: https://www.bitstamp.net/
 repository: 
@@ -18,8 +18,8 @@ issue:
 icon: net.bitstamp.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-23
-reviewStale: false
+date: 2021-01-20
+reviewStale: true
 signer: 
 reviewArchive:
 

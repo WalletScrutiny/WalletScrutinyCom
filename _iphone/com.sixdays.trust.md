@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.sixdays.trust
 idd: 1288339409
-released: 2017-09-27
+released: 2017-09-24
 updated: 2021-03-04
 version: "5.16"
-score: 4.80192
-reviews: 23137
+score: 4.80183
+reviews: 23333
 size: 39564288
 developerWebsite: https://trustwallet.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.sixdays.trust.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-23
+date: 2020-12-20
 reviewStale: true
 signer: 
 reviewArchive:

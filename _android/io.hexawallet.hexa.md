@@ -19,7 +19,7 @@ issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-21
+date: 2021-01-19
 reviewStale: true
 signer: 
 reviewArchive:

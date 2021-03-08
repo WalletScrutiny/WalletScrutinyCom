@@ -19,8 +19,8 @@ issue:
 icon: com.maxxwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: false
+date: 2020-12-12
+reviewStale: true
 signer: 
 reviewArchive:
 

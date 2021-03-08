@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.excdev.bitcoinox
 idd: 1453542836
-released: 2019-02-27
+released: 2019-02-24
 updated: 2020-12-13
 version: "2.3.5"
 score: 4
@@ -18,7 +18,7 @@ issue:
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

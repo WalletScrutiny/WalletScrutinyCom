@@ -19,7 +19,7 @@ issue:
 icon: com.swftcoin.client.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-15
+date: 2020-04-12
 reviewStale: true
 signer: 
 reviewArchive:

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-01
 apkVersionName: "3.34.1"
 stars: 4.2
-ratings: 336628
-reviews: 124927
+ratings: 337571
+reviews: 125191
 size: 28M
 website: https://cash.app
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.squareup.cash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-06
+date: 2020-08-04
 reviewStale: true
 signer: 
 reviewArchive:

@@ -7,19 +7,19 @@ authors:
 users: 500000
 appId: com.okinc.okex.gp
 launchDate: 
-latestUpdate: 2021-02-24
-apkVersionName: "4.6.9"
-stars: 4.5
-ratings: 44357
-reviews: 26591
-size: 126M
+latestUpdate: 2021-03-08
+apkVersionName: "4.7.0"
+stars: 4.7
+ratings: 44989
+reviews: 26737
+size: 125M
 website: https://www.okex.com
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2020-05-27
 reviewStale: true
 signer: 
 reviewArchive:

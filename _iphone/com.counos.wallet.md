@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.counos.wallet
 idd: 1408806845
-released: 2018-08-01
+released: 2018-07-29
 updated: 2020-04-28
 version: "1.9.2"
 score: 3.88
@@ -18,7 +18,7 @@ issue:
 icon: com.counos.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

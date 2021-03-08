@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.fotolockr.cakewallet
 idd: 1334702542
-released: 2018-01-19
+released: 2018-01-16
 updated: 2021-02-13
 version: "4.1.2"
 score: 3.67021
@@ -18,7 +18,7 @@ issue:
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-07
+date: 2021-02-04
 reviewStale: true
 signer: 
 reviewArchive:

@@ -9,9 +9,9 @@ appId: com.ftxmobile.ftx
 launchDate: 
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
-stars: 3.3
-ratings: 1274
-reviews: 875
+stars: 3.2
+ratings: 1277
+reviews: 877
 size: 46M
 website: https://ftx.com
 repository: 
@@ -19,8 +19,8 @@ issue:
 icon: com.ftxmobile.ftx.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-08
-reviewStale: false
+date: 2021-02-05
+reviewStale: true
 signer: 
 reviewArchive:
 
