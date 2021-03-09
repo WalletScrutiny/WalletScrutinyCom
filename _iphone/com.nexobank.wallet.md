@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.nexobank.wallet
 idd: 1455341917
-released: 2019-06-27
+released: 2019-06-30
 updated: 2021-03-05
 version: "1.4.0"
-score: 3.95896
-reviews: 268
+score: 3.97297
+reviews: 259
 size: 34356224
 developerWebsite: https://nexo.io
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.nexobank.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

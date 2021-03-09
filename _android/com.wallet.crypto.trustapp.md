@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-09-29
+launchDate: 2017-10-01
 latestUpdate: 2021-03-04
 apkVersionName: "1.27.0"
 stars: 4.6
-ratings: 192852
-reviews: 56601
+ratings: 191323
+reviews: 56375
 size: 32M
 website: https://trustwallet.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-18
+date: 2019-11-20
 reviewStale: true
 signer: 
 reviewArchive:

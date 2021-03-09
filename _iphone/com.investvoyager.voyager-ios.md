@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.investvoyager.voyager-ios
 idd: 1396178579
-released: 2019-02-10
+released: 2019-02-13
 updated: 2021-02-20
 version: "2.9.12"
-score: 4.75889
-reviews: 21538
+score: 4.75699
+reviews: 21193
 size: 58839040
 developerWebsite: https://www.investvoyager.com/
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-30
+date: 2021-01-02
 reviewStale: true
 signer: 
 reviewArchive:

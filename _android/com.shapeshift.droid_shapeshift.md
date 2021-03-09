@@ -9,9 +9,9 @@ appId: com.shapeshift.droid_shapeshift
 launchDate: 
 latestUpdate: 2021-02-26
 apkVersionName: "2.12.0"
-stars: 2.7
-ratings: 2373
-reviews: 1508
+stars: 2.5
+ratings: 2368
+reviews: 1506
 size: 48M
 website: https://shapeshift.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-14
+date: 2020-11-17
 reviewStale: true
 signer: 
 reviewArchive:

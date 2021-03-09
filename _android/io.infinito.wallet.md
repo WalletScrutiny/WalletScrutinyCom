@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: io.infinito.wallet
-launchDate: 2017-11-12
+launchDate: 2017-11-15
 latestUpdate: 2020-12-16
 apkVersionName: "2.35.0"
 stars: 3.7
@@ -19,7 +19,7 @@ issue:
 icon: io.infinito.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-27
+date: 2020-03-30
 reviewStale: true
 signer: 
 reviewArchive:

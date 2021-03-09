@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: kr.co.keypair.keywalletTouch
 launchDate: 
-latestUpdate: 2020-12-13
+latestUpdate: 2020-12-14
 apkVersionName: "Varies with device"
 stars: 4.4
-ratings: 77
-reviews: 53
+ratings: 76
+reviews: 52
 size: Varies with device
 website: https://keywalletpro.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-04
+date: 2021-03-06
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.crypto.multiwallet
-launchDate: 2018-10-30
-latestUpdate: 2021-03-05
+launchDate: 2018-11-01
+latestUpdate: 2021-03-06
 apkVersionName: "2.22.13"
 stars: 4.2
-ratings: 2195
-reviews: 1218
+ratings: 2184
+reviews: 1214
 size: 34M
 website: http://guarda.co
 repository: 
@@ -19,7 +19,7 @@ issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-15
+date: 2019-12-17
 reviewStale: true
 signer: 
 reviewArchive:

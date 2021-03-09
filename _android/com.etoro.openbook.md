@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: com.etoro.openbook
-launchDate: 2013-11-02
+launchDate: 2013-11-05
 latestUpdate: 2021-03-04
 apkVersionName: "311.0.0"
 stars: 2.8
-ratings: 70971
-reviews: 28421
+ratings: 70909
+reviews: 28395
 size: 79M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.etoro.openbook.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-26
+date: 2020-05-29
 reviewStale: true
 signer: 
 reviewArchive:

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.greenaddress.abcore
 launchDate: 
-latestUpdate: 2019-10-15
+latestUpdate: 2019-10-16
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -19,8 +19,8 @@ issue:
 icon: com.greenaddress.abcore.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-02-29
-reviewStale: true
+date: 2020-03-02
+reviewStale: false
 signer: 
 reviewArchive:
 

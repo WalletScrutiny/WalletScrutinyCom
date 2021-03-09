@@ -6,11 +6,11 @@ authors:
 - leo
 appId: us.binance.fiat
 idd: 1492670702
-released: 2020-01-02
+released: 2020-01-05
 updated: 2021-02-11
 version: "2.3.2"
-score: 4.22814
-reviews: 23898
+score: 4.22817
+reviews: 23583
 size: 118355968
 developerWebsite: https://www.binance.us
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: us.binance.fiat.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-07
+date: 2021-01-10
 reviewStale: true
 signer: 
 reviewArchive:

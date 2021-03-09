@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.stasis.stasiswallet
-launchDate: 2018-06-11
+launchDate: 2018-06-13
 latestUpdate: 2021-02-08
 apkVersionName: "1.8.88"
 stars: 4.5
@@ -19,7 +19,7 @@ issue:
 icon: com.stasis.stasiswallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-01
+date: 2020-05-03
 reviewStale: true
 signer: 
 reviewArchive:

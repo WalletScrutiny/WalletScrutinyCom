@@ -9,9 +9,9 @@ appId: com.bitnovo.app
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "2.8.4"
-stars: 2.4
-ratings: 261
-reviews: 188
+stars: 2.5
+ratings: 259
+reviews: 186
 size: 34M
 website: http://www.bitnovo.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitnovo.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-03
+date: 2020-12-06
 reviewStale: true
 signer: 
 reviewArchive:

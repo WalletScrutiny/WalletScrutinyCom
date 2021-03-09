@@ -19,8 +19,8 @@ issue:
 icon: com.yes.yeswallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-12
-reviewStale: true
+date: 2020-12-14
+reviewStale: false
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "1.3.6"
 stars: 3.9
-ratings: 1702
-reviews: 690
+ratings: 1696
+reviews: 687
 size: Varies with device
 website: https://arzjoo.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.arzjoo.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-14
+date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:

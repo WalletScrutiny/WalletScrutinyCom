@@ -6,9 +6,9 @@ authors:
 - leo
 appId: com.trusteewallet
 idd: 1462924276
-released: 2019-06-11
-updated: 2021-03-07
-version: "1.40.782"
+released: 2019-06-14
+updated: 2021-03-05
+version: "1.40.780"
 score: 4.33333
 reviews: 6
 size: 63823872
@@ -18,7 +18,7 @@ issue:
 icon: com.trusteewallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-18
+date: 2020-12-21
 reviewStale: true
 signer: 
 reviewArchive:

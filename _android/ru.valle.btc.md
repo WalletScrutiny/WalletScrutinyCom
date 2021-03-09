@@ -6,11 +6,11 @@ authors:
 - leo
 users: 10000
 appId: ru.valle.btc
-launchDate: 2013-04-17
+launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 150
+ratings: 149
 reviews: 50
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov
@@ -19,8 +19,8 @@ issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-02
-reviewStale: true
+date: 2020-08-04
+reviewStale: false
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
 

@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.bitpay.wallet
 idd: 1149581638
-released: 2016-10-21
+released: 2016-10-24
 updated: 2021-03-06
 version: "12.3.2"
-score: 4.02048
-reviews: 1074
+score: 4.02619
+reviews: 1069
 size: 86147072
 developerWebsite: https://bitpay.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.bitpay.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

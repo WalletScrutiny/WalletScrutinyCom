@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.airbitz
-launchDate: 2014-03-30
+launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
 stars: 3.5
@@ -19,7 +19,7 @@ issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-08
+date: 2019-11-10
 reviewStale: true
 signer: 
 reviewArchive:

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-08
 apkVersionName: "1.104"
 stars: 4.0
-ratings: 639
-reviews: 351
+ratings: 636
+reviews: 349
 size: 5.8M
 website: http://changenow.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.changenow.changenow.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-13
+date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:

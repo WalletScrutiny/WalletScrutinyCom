@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-03-05
 apkVersionName: "4.26.2"
 stars: 3.9
-ratings: 50
+ratings: 49
 reviews: 29
 size: 31M
 website: http://www.bitbill.com
@@ -19,7 +19,7 @@ issue:
 icon: com.bitbill.www.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-12
+date: 2020-04-15
 reviewStale: true
 signer: 
 reviewArchive:

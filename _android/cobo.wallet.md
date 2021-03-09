@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: cobo.wallet
-launchDate: 2018-06-29
+launchDate: 2018-07-01
 latestUpdate: 2020-12-16
 apkVersionName: "4.26"
 stars: 3.5
-ratings: 3898
-reviews: 2373
+ratings: 3897
+reviews: 2372
 size: 47M
 website: https://cobo.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: cobo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-16
+date: 2020-06-18
 reviewStale: true
 signer: 
 reviewArchive:

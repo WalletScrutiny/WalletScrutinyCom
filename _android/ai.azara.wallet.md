@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-21
 apkVersionName: "0.01.08"
 stars: 4.5
-ratings: 37
-reviews: 35
+ratings: 38
+reviews: 36
 size: 45M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: ai.azara.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

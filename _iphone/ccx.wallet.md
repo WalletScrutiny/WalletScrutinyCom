@@ -7,7 +7,7 @@ authors:
 - emanuel
 appId: ccx.wallet
 idd: 1463774169
-released: 2019-06-18
+released: 2019-06-21
 updated: 2020-07-30
 version: "1.1"
 score: 4.86667
@@ -19,7 +19,7 @@ issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-04
+date: 2021-03-07
 reviewStale: true
 signer: 
 reviewArchive:

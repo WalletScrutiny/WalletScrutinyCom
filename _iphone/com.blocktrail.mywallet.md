@@ -6,8 +6,8 @@ authors:
 
 appId: com.blocktrail.mywallet
 idd: 1019614423
-released: 2015-09-05
-updated: 2019-04-12
+released: 2015-09-08
+updated: 2019-04-13
 version: "4.4.9"
 score: 3.9525
 reviews: 400
@@ -18,7 +18,7 @@ issue:
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-28
+date: 2021-03-03
 reviewStale: true
 signer: 
 reviewArchive:

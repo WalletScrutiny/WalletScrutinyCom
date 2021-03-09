@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-04
 apkVersionName: "3.9"
 stars: 4.5
-ratings: 459
-reviews: 193
+ratings: 454
+reviews: 189
 size: 41M
 website: https://techbank.finance
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.beeone.techbank.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-11
+date: 2020-12-14
 reviewStale: true
 signer: 
 reviewArchive:

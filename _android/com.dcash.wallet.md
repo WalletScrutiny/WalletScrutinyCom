@@ -19,8 +19,8 @@ issue:
 icon: com.dcash.wallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-01
-reviewStale: true
+date: 2021-03-04
+reviewStale: false
 signer: 
 reviewArchive:
 

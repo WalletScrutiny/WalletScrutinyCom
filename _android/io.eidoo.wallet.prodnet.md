@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: io.eidoo.wallet.prodnet
-launchDate: 2017-09-22
+launchDate: 2017-09-25
 latestUpdate: 2021-02-23
 apkVersionName: "2.16.1"
 stars: 3.3
-ratings: 1570
-reviews: 774
+ratings: 1567
+reviews: 771
 size: 12M
 website: https://eidoo.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-19
+date: 2019-12-22
 reviewStale: true
 signer: 
 reviewArchive:

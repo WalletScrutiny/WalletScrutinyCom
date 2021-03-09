@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.casa.vault
 idd: 1314586706
-released: 2018-07-30
+released: 2018-08-02
 updated: 2021-02-12
 version: "2.32.1"
-score: 4.90707
-reviews: 226
+score: 4.90667
+reviews: 225
 size: 42533888
 developerWebsite: https://keys.casa
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.casa.vault.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

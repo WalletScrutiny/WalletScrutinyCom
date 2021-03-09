@@ -19,7 +19,7 @@ issue:
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-29
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

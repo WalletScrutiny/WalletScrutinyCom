@@ -6,11 +6,11 @@ authors:
 - leo
 appId: io.changenow
 idd: 1518003605
-released: 2020-06-26
+released: 2020-06-29
 updated: 2021-02-15
 version: "1.4.1"
-score: 4.37984
-reviews: 129
+score: 4.37008
+reviews: 127
 size: 29969408
 developerWebsite: 
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: io.changenow.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

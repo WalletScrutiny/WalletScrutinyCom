@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.viabtc.wallet
-launchDate: 2019-05-12
+launchDate: 2019-05-15
 latestUpdate: 2021-01-21
 apkVersionName: "2.2.4"
 stars: 4.3
-ratings: 195
-reviews: 86
+ratings: 193
+reviews: 84
 size: 50M
 website: https://viawallet.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.viabtc.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-24
+date: 2020-04-27
 reviewStale: true
 signer: 
 reviewArchive:

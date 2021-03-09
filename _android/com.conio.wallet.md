@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-12-14
 apkVersionName: "3.3.5"
 stars: 2.9
-ratings: 519
-reviews: 347
+ratings: 518
+reviews: 346
 size: 70M
 website: https://www.conio.com/en
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.conio.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-06
+date: 2020-04-09
 reviewStale: true
 signer: 
 reviewArchive:

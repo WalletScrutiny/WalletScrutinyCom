@@ -6,7 +6,7 @@ authors:
 - leo
 appId: co.hodlwallet
 idd: 1382342568
-released: 2018-07-29
+released: 2018-08-01
 updated: 2020-05-19
 version: "1.12"
 score: 4.41573
@@ -18,8 +18,8 @@ issue:
 icon: co.hodlwallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-17
-reviewStale: true
+date: 2020-12-20
+reviewStale: false
 signer: 
 reviewArchive:
 

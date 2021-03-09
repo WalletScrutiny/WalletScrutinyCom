@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.sf.monarch
-launchDate: 2018-10-17
+launchDate: 2018-10-19
 latestUpdate: 2021-02-09
 apkVersionName: "2.1.9"
 stars: 3.4
@@ -19,7 +19,7 @@ issue:
 icon: com.sf.monarch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-10
+date: 2020-04-12
 reviewStale: true
 signer: 
 reviewArchive:

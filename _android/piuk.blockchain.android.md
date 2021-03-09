@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000000
 appId: piuk.blockchain.android
-launchDate: 2013-01-29
+launchDate: 2013-02-01
 latestUpdate: 2021-03-04
 apkVersionName: "Varies with device"
 stars: 3.4
-ratings: 101361
-reviews: 50272
+ratings: 101262
+reviews: 50220
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
@@ -19,7 +19,7 @@ issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-08
+date: 2020-07-11
 reviewStale: true
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:

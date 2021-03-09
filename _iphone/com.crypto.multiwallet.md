@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.crypto.multiwallet
 idd: 1442083982
-released: 2018-11-28
+released: 2018-12-01
 updated: 2021-03-06
 version: "2.22.13"
 score: 4.24868
@@ -18,7 +18,7 @@ issue:
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

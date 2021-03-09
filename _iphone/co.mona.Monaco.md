@@ -6,11 +6,11 @@ authors:
 - leo
 appId: co.mona.Monaco
 idd: 1262148500
-released: 2017-08-28
+released: 2017-08-31
 updated: 2021-03-06
 version: "3.85.1"
-score: 4.42855
-reviews: 12953
+score: 4.43028
+reviews: 12887
 size: 271464448
 developerWebsite: https://crypto.com/
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: co.mona.Monaco.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-08
+date: 2021-01-11
 reviewStale: true
 signer: 
 reviewArchive:

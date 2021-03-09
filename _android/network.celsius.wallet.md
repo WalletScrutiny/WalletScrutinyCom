@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-20
 apkVersionName: "4.8.0"
 stars: 3.7
-ratings: 4203
-reviews: 3107
+ratings: 4180
+reviews: 3089
 size: 87M
 website: https://celsius.network
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: network.celsius.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-13
+date: 2020-11-16
 reviewStale: true
 signer: 
 reviewArchive:

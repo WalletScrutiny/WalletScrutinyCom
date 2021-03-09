@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-15
 apkVersionName: "2.10.0"
 stars: 4.1
-ratings: 884
-reviews: 352
+ratings: 881
+reviews: 349
 size: 47M
 website: https://youhodler.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.youhodler.youhodler.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-18
+date: 2020-06-20
 reviewStale: true
 signer: 
 reviewArchive:

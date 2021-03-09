@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.coinspace.wallet
 idd: 980719434
-released: 2015-12-11
+released: 2015-12-14
 updated: 2021-02-04
 version: "3.0.7"
 score: 4.47959
@@ -18,7 +18,7 @@ issue:
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-17
+date: 2020-12-20
 reviewStale: true
 signer: 
 reviewArchive:

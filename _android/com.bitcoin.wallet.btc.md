@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.bitcoin.wallet.btc
-launchDate: 2019-04-29
+launchDate: 2019-05-01
 latestUpdate: 2021-02-17
 apkVersionName: "2.0.1"
 stars: 4.3
-ratings: 2028
-reviews: 458
+ratings: 1977
+reviews: 448
 size: 21M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
@@ -19,11 +19,11 @@ issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
+date: 2020-11-30
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-11-17
+- date: 2019-11-19
   version: "1.8.1"
   apkHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a

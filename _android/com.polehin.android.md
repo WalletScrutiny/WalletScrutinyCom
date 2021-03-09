@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.polehin.android
-launchDate: 2018-12-30
+launchDate: 2019-01-01
 latestUpdate: 2021-03-04
 apkVersionName: "3.4.9"
-stars: 4.4
-ratings: 15719
-reviews: 9156
+stars: 4.3
+ratings: 15643
+reviews: 9107
 size: 7.0M
 website: https://polehin.com
 repository: 
@@ -19,16 +19,16 @@ issue:
 icon: com.polehin.android.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
+date: 2020-11-30
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2020-03-28
+- date: 2020-03-30
   version: "3.1.4"
   apkHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: custodial
-- date: 2019-11-20
+- date: 2019-11-22
   version: "3.1.4"
   apkHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02

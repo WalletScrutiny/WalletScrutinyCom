@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.czzhao.binance
 idd: 1436799971
-released: 2018-10-03
+released: 2018-10-06
 updated: 2021-03-04
 version: "2.26.2"
-score: 4.53762
-reviews: 36182
+score: 4.53667
+reviews: 35916
 size: 466760704
 developerWebsite: https://www.binance.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.czzhao.binance.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

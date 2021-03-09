@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.bitshield.bitshieldwallet
-launchDate: 2020-06-07
+launchDate: 2020-06-09
 latestUpdate: 2020-06-19
 apkVersionName: "1.27"
 stars: 5.0
-ratings: 1300
-reviews: 815
+ratings: 1293
+reviews: 809
 size: 57M
 website: https://bitshieldwallet.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-29
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

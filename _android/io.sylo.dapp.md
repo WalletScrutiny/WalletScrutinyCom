@@ -19,7 +19,7 @@ issue:
 icon: io.sylo.dapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-08
+date: 2020-06-10
 reviewStale: true
 signer: 
 reviewArchive:

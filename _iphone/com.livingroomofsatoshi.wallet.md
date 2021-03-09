@@ -6,8 +6,8 @@ authors:
 - leo
 appId: com.livingroomofsatoshi.wallet
 idd: 1438599608
-released: 2019-05-17
-updated: 2021-02-18
+released: 2019-05-20
+updated: 2021-02-19
 version: "1.10.5"
 score: 3.6087
 reviews: 23
@@ -18,7 +18,7 @@ issue:
 icon: com.livingroomofsatoshi.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

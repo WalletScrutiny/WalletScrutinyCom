@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-26
 apkVersionName: "2.18.7"
 stars: 4.3
-ratings: 400
-reviews: 255
+ratings: 398
+reviews: 254
 size: 31M
 website: http://www.xcelpay.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.XcelTrip.XcelPay.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-04
+date: 2020-12-06
 reviewStale: true
 signer: 
 reviewArchive:

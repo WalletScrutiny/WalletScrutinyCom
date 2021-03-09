@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.bitso.wallet
 launchDate: 
-latestUpdate: 2021-03-01
+latestUpdate: 2021-03-02
 apkVersionName: "2.22.0"
 stars: 3.5
-ratings: 7669
-reviews: 4527
+ratings: 7636
+reviews: 4512
 size: 28M
 website: https://bitso.com/app
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitso.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-29
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

@@ -19,8 +19,8 @@ issue:
 icon: org.freewallet.lite.android.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-27
-reviewStale: true
+date: 2019-11-29
+reviewStale: false
 signer: 
 reviewArchive:
 

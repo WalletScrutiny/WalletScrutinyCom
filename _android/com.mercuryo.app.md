@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-27
 apkVersionName: "1.11.3"
 stars: 4.2
-ratings: 1907
-reviews: 1173
+ratings: 1893
+reviews: 1166
 size: 75M
 website: https://mercuryo.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.mercuryo.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-15
+date: 2020-11-17
 reviewStale: true
 signer: 
 reviewArchive:

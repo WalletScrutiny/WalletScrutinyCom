@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.investvoyager
 launchDate: 
-latestUpdate: 2021-03-03
+latestUpdate: 2021-03-04
 apkVersionName: "2.5.14"
-stars: 3.3
-ratings: 1749
-reviews: 1184
+stars: 3.4
+ratings: 1731
+reviews: 1173
 size: 48M
 website: https://www.investvoyager.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.investvoyager.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-31
+date: 2021-01-02
 reviewStale: true
 signer: 
 reviewArchive:

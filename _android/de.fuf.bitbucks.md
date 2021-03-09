@@ -6,8 +6,8 @@ authors:
 - leo
 users: 5000
 appId: de.fuf.bitbucks
-launchDate: 2019-09-01
-latestUpdate: 2021-03-08
+launchDate: 2019-09-03
+latestUpdate: 2021-03-05
 apkVersionName: "1.1.8"
 stars: 4.3
 ratings: 33
@@ -19,7 +19,7 @@ issue:
 icon: de.fuf.bitbucks.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
+date: 2019-12-30
 reviewStale: true
 signer: 
 reviewArchive:

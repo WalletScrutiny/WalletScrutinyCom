@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.hexawallet.hexa
 idd: 1490205837
-released: 2020-03-13
+released: 2020-03-16
 updated: 2021-02-23
 version: "1.4.5"
 score: 4.75
@@ -18,7 +18,7 @@ issue:
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-20
+date: 2021-01-23
 reviewStale: true
 signer: 
 reviewArchive:

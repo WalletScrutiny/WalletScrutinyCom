@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.bitrefill.bitrefill
 idd: 1378102623
-released: 2018-06-02
+released: 2018-06-05
 updated: 2019-09-23
 version: "1.13"
 score: 4.58333
@@ -18,7 +18,7 @@ issue:
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

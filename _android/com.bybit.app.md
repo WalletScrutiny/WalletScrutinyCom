@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-02
 apkVersionName: "1.16"
 stars: 4.2
-ratings: 1876
-reviews: 915
+ratings: 1852
+reviews: 900
 size: 43M
 website: https://www.bybit.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bybit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-06
+date: 2021-02-09
 reviewStale: true
 signer: 
 reviewArchive:

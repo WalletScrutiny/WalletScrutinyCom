@@ -19,7 +19,7 @@ issue:
 icon: com.gloath.portalsapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-05
+date: 2020-12-08
 reviewStale: true
 signer: 
 reviewArchive:

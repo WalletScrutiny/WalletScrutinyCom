@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-12-08
 apkVersionName: "Varies with device"
 stars: 3.5
-ratings: 4550
-reviews: 2613
+ratings: 4549
+reviews: 2612
 size: Varies with device
 website: https://www.indodax.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
+date: 2020-12-01
 reviewStale: true
 signer: 
 reviewArchive:

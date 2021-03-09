@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-25
 apkVersionName: "1.6.70"
 stars: 3.8
-ratings: 3802
-reviews: 2003
+ratings: 3771
+reviews: 1990
 size: 75M
 website: https://shakepay.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.shaketh.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-26
+date: 2020-05-29
 reviewStale: true
 signer: 
 reviewArchive:

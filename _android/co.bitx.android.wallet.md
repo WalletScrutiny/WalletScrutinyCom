@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: co.bitx.android.wallet
-launchDate: 2014-10-30
+launchDate: 2014-11-01
 latestUpdate: 2021-02-24
 apkVersionName: "7.8.0"
 stars: 4.1
-ratings: 66342
-reviews: 37125
+ratings: 66182
+reviews: 37030
 size: 72M
 website: https://www.luno.com
 repository: 
@@ -19,11 +19,11 @@ issue:
 icon: co.bitx.android.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-10-10
+date: 2020-10-12
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-11-12
+- date: 2019-11-14
   version: "6.8.0"
   apkHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f

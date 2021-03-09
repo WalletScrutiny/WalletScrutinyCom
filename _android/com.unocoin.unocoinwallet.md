@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
-launchDate: 2016-11-28
+launchDate: 2016-11-30
 latestUpdate: 2021-02-20
 apkVersionName: "3.4.10"
 stars: 4.2
-ratings: 15079
-reviews: 8151
+ratings: 15053
+reviews: 8129
 size: 12M
 website: https://www.unocoin.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-27
+date: 2020-05-29
 reviewStale: true
 signer: 
 reviewArchive:

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: org.toshi
-launchDate: 2017-09-17
+launchDate: 2017-09-20
 latestUpdate: 2021-02-12
 apkVersionName: "23.3.358"
 stars: 4.0
-ratings: 16373
-reviews: 6919
+ratings: 16285
+reviews: 6877
 size: Varies with device
 website: https://wallet.coinbase.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: org.toshi.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-17
+date: 2019-11-20
 reviewStale: true
 signer: 
 reviewArchive:

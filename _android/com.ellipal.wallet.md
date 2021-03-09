@@ -7,19 +7,19 @@ authors:
 users: 10000
 appId: com.ellipal.wallet
 launchDate: 
-latestUpdate: 2021-03-07
-apkVersionName: "2.9.2"
+latestUpdate: 2021-01-29
+apkVersionName: "2.9.1"
 stars: 4.3
-ratings: 326
-reviews: 202
-size: 17M
+ratings: 323
+reviews: 201
+size: 22M
 website: https://www.ellipal.com
 repository: 
 issue: 
 icon: com.ellipal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-03
+date: 2021-03-05
 reviewStale: true
 signer: 
 reviewArchive:

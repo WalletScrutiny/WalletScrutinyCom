@@ -6,11 +6,11 @@ authors:
 - leo
 appId: co.edgesecure.app
 idd: 1344400091
-released: 2018-02-06
+released: 2018-02-09
 updated: 2021-03-03
 version: "2.0.6"
-score: 4.37092
-reviews: 612
+score: 4.37561
+reviews: 607
 size: 60441600
 developerWebsite: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
@@ -18,7 +18,7 @@ issue:
 icon: co.edgesecure.app.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-17
+date: 2020-12-20
 reviewStale: true
 signer: 
 reviewArchive:

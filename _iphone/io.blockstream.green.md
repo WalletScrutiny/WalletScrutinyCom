@@ -6,7 +6,7 @@ authors:
 - leo
 appId: io.blockstream.green
 idd: 1402243590
-released: 2019-03-19
+released: 2019-03-22
 updated: 2021-03-04
 version: "3.5.3"
 score: 3.92222
@@ -18,7 +18,7 @@ issue:
 icon: io.blockstream.green.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-16
+date: 2020-12-19
 reviewStale: true
 signer: 
 reviewArchive:

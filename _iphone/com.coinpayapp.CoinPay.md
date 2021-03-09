@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.coinpayapp.CoinPay
 idd: 1477731032
-released: 2019-12-01
+released: 2019-12-04
 updated: 2020-08-29
 version: "2020.08.28"
 score: 4.05556
@@ -18,7 +18,7 @@ issue:
 icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

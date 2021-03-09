@@ -9,9 +9,9 @@ appId: com.probit.app.android2.release.global
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "1.31"
-stars: 3.5
-ratings: 3001
-reviews: 1977
+stars: 3.6
+ratings: 2990
+reviews: 1971
 size: 17M
 website: https://www.probit.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-26
+date: 2020-11-28
 reviewStale: true
 signer: 
 reviewArchive:

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
-latestUpdate: 2021-03-08
-apkVersionName: "5.0.1"
+latestUpdate: 2021-03-02
+apkVersionName: "5.0"
 stars: 4.1
 ratings: 179
 reviews: 127
@@ -19,7 +19,7 @@ issue:
 icon: com.adenter.mercurycash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-04
+date: 2020-08-06
 reviewStale: true
 signer: 
 reviewArchive:

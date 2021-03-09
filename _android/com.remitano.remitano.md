@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-04
 apkVersionName: "5.16.0"
 stars: 4.1
-ratings: 10968
-reviews: 5189
+ratings: 10943
+reviews: 5177
 size: 32M
 website: https://remitano.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.remitano.remitano.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-26
+date: 2020-05-29
 reviewStale: true
 signer: 
 reviewArchive:

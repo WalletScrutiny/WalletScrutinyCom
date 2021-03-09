@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.wallet.btc
-launchDate: 2018-10-12
+launchDate: 2018-10-14
 latestUpdate: 2021-02-20
 apkVersionName: "1.8.0"
 stars: 4.3
@@ -19,7 +19,7 @@ issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-01-27
+date: 2020-01-29
 reviewStale: true
 signer: 
 reviewArchive:

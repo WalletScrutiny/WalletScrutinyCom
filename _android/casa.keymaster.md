@@ -19,7 +19,7 @@ issue:
 icon: casa.keymaster.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-23
 reviewStale: true
 signer: 
 reviewArchive:

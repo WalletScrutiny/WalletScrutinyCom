@@ -6,11 +6,11 @@ authors:
 - leo
 appId: org.toshi.distribution
 idd: 1278383455
-released: 2017-09-24
+released: 2017-09-27
 updated: 2021-03-01
 version: "23.8"
-score: 4.66696
-reviews: 20574
+score: 4.66686
+reviews: 20400
 size: 136266752
 developerWebsite: https://wallet.coinbase.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: org.toshi.distribution.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-01
+date: 2021-01-04
 reviewStale: true
 signer: 
 reviewArchive:

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "4.4"
 stars: 4.5
-ratings: 1992
-reviews: 1322
+ratings: 1991
+reviews: 1321
 size: 14M
 website: https://flitsnode.app
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: app.flitsnode.flits.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-03
+date: 2021-03-06
 reviewStale: true
 signer: 
 reviewArchive:

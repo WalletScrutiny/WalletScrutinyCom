@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.bitcoin.mwallet
-launchDate: 2017-06-17
+launchDate: 2017-06-19
 latestUpdate: 2021-02-23
 apkVersionName: "6.10.2"
 stars: 4.3
-ratings: 20280
-reviews: 7200
+ratings: 20175
+reviews: 7178
 size: 48M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
@@ -19,11 +19,11 @@ issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-25
+date: 2020-04-27
 reviewStale: true
 signer: 
 reviewArchive:
-- date: 2019-12-18
+- date: 2019-12-20
   version: "5.13.3"
   apkHash: 
   gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c

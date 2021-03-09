@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.coinbase.pro
 idd: 1446636681
-released: 2019-10-07
+released: 2019-10-10
 updated: 2021-03-04
 version: "1.0.65"
-score: 4.71622
-reviews: 48087
+score: 4.71563
+reviews: 47561
 size: 47636480
 developerWebsite: https://pro.coinbase.com
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.coinbase.pro.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

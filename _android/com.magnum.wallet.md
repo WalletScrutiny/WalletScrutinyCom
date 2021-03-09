@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.magnum.wallet
-launchDate: 2019-04-21
+launchDate: 2019-04-23
 latestUpdate: 2019-08-29
 apkVersionName: "1.0.12"
 stars: 3.5
@@ -19,8 +19,8 @@ issue:
 icon: com.magnum.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-05
-reviewStale: true
+date: 2020-04-07
+reviewStale: false
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: co.busha.android
-launchDate: 2019-01-19
-latestUpdate: 2021-03-04
+launchDate: 2019-01-21
+latestUpdate: 2021-03-05
 apkVersionName: "2.6.8"
 stars: 4.2
-ratings: 1910
-reviews: 1481
+ratings: 1905
+reviews: 1476
 size: 16M
 website: https://busha.co
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: co.busha.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-18
+date: 2019-12-20
 reviewStale: true
 signer: 
 reviewArchive:

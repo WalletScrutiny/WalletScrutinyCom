@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.coinspace.app
-launchDate: 2015-04-29
+launchDate: 2015-05-01
 latestUpdate: 2021-02-04
 apkVersionName: "3.0.7"
-stars: 4.0
-ratings: 766
-reviews: 350
+stars: 4.1
+ratings: 764
+reviews: 349
 size: 5.6M
 website: https://www.coin.space
 repository: https://github.com/CoinSpace/CoinSpace
@@ -19,7 +19,7 @@ issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-14
+date: 2019-12-16
 reviewStale: true
 signer: 
 reviewArchive:

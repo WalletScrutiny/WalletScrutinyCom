@@ -19,8 +19,8 @@ issue:
 icon: co.bacoor.keyring.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-28
-reviewStale: true
+date: 2021-03-03
+reviewStale: false
 signer: 
 reviewArchive:
 

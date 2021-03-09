@@ -6,7 +6,7 @@ authors:
 - leo
 appId: lt.spectrofinance.spectrocoin.ios.wallet
 idd: 923696089
-released: 2014-12-27
+released: 2014-12-30
 updated: 2020-12-18
 version: "1.16.0"
 score: 2.90909
@@ -18,7 +18,7 @@ issue:
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

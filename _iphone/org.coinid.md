@@ -6,7 +6,7 @@ authors:
 - leo
 appId: org.coinid
 idd: 1362831898
-released: 2018-09-29
+released: 2018-10-02
 updated: 2021-02-20
 version: "1.5.5"
 score: 5
@@ -18,7 +18,7 @@ issue:
 icon: org.coinid.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-18
+date: 2020-12-21
 reviewStale: true
 signer: 
 reviewArchive:

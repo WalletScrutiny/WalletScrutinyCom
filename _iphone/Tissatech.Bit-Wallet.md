@@ -6,7 +6,7 @@ authors:
 - leo
 appId: Tissatech.Bit-Wallet
 idd: 1331439005
-released: 2019-02-06
+released: 2019-02-09
 updated: 2021-02-27
 version: "1.5.9"
 score: 4.85907
@@ -18,7 +18,7 @@ issue:
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

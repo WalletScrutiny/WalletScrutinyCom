@@ -6,11 +6,11 @@ authors:
 - leo
 appId: com.squareup.cash
 idd: 711923939
-released: 2013-10-13
+released: 2013-10-16
 updated: 2021-03-04
 version: "3.34.1"
-score: 4.74301
-reviews: 1615284
+score: 4.74264
+reviews: 1603960
 size: 222208000
 developerWebsite: https://cash.app
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: com.squareup.cash.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

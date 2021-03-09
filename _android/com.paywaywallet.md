@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.paywaywallet
-launchDate: 2019-02-11
+launchDate: 2019-02-13
 latestUpdate: 2021-03-04
 apkVersionName: "3.2.1 (build: #1196/20210304164602)"
 stars: 3.8
@@ -19,7 +19,7 @@ issue:
 icon: com.paywaywallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-23
+date: 2019-12-25
 reviewStale: true
 signer: 
 reviewArchive:

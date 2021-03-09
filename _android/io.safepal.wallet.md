@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-23
 apkVersionName: "2.5.6"
 stars: 4.5
-ratings: 3706
-reviews: 2263
+ratings: 3684
+reviews: 2249
 size: 29M
 website: https://www.safepal.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.safepal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-11
+date: 2020-12-14
 reviewStale: true
 signer: 
 reviewArchive:

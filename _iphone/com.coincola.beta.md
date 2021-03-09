@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.coincola.beta
 idd: 1234231551
-released: 2017-06-03
+released: 2017-06-06
 updated: 2021-02-09
 version: "4.7.3"
 score: 4.60432
@@ -18,7 +18,7 @@ issue:
 icon: com.coincola.beta.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

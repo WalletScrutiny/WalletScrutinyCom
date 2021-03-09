@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.bitbill.wallet
 idd: 1321798216
-released: 2018-02-04
+released: 2018-02-07
 updated: 2021-03-05
 version: "4.27.0"
 score: 4.53061
@@ -18,7 +18,7 @@ issue:
 icon: com.bitbill.wallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

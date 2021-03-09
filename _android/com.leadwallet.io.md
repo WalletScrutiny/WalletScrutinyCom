@@ -19,7 +19,7 @@ issue:
 icon: com.leadwallet.io.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-21
+date: 2021-01-23
 reviewStale: true
 signer: 
 reviewArchive:

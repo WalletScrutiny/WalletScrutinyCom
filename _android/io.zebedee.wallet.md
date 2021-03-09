@@ -19,7 +19,7 @@ issue:
 icon: io.zebedee.wallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-25
+date: 2020-11-28
 reviewStale: true
 signer: 
 reviewArchive:

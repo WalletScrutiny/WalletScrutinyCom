@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-16
 apkVersionName: "5.5.1"
 stars: 3.1
-ratings: 598
-reviews: 414
+ratings: 597
+reviews: 413
 size: 11M
 website: https://buycoins.africa
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: africa.bitkoin.buycoins.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-26
+date: 2020-05-29
 reviewStale: true
 signer: 
 reviewArchive:

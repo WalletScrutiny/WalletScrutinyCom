@@ -6,7 +6,7 @@ authors:
 - leo
 appId: com.ezdefi.nexty
 idd: 1492046549
-released: 2019-12-15
+released: 2019-12-18
 updated: 2021-02-11
 version: "0.3.2"
 score: 5
@@ -18,7 +18,7 @@ issue:
 icon: com.ezdefi.nexty.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:

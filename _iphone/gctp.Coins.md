@@ -6,11 +6,11 @@ authors:
 - leo
 appId: gctp.Coins
 idd: 972324049
-released: 2015-04-01
-updated: 2021-02-22
+released: 2015-04-04
+updated: 2021-02-23
 version: "2.14.4"
-score: 4.73027
-reviews: 2610
+score: 4.73052
+reviews: 2605
 size: 183140352
 developerWebsite: https://coins.ph/
 repository: 
@@ -18,7 +18,7 @@ issue:
 icon: gctp.Coins.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
+date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:
