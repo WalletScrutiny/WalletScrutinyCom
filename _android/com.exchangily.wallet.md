@@ -35,3 +35,4 @@ redirect_from:
 ---
 
 
+<!-- https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/187 -->
