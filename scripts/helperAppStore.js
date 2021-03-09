@@ -7,11 +7,36 @@ const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
 
-const allowedHeaders = new Set("title,altTitle,appId,idd,released,score,reviews,\
-updated,version,size,developerWebsite,wsId,authors,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,\
-providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-reviewStale,reviewArchive,signer".split(","))
+const allowedHeaders = [
+  "wsId", // apps that belong together get same swId
+  "title", // gets updated from platform
+  "altTitle", // if the name is too generic, we use this to distinguish
+  "authors", // contributors to the analysis
+  "appId", // provider chosen identifier. We use this for the file name, too
+  "appCountry", // if the app is not available in the default country US, we take stats from there
+  "idd", // plaform provided identifier. By this we find the data at the platform
+  "released", // gets provided by platform
+  "updated", // platform reported latest update
+  "version", // platform reported version
+  "score", // platform reported score of this language-country
+  "reviews", // platform reported count of reviews of this language-country
+  "size", // platform reported size in bytes
+  "developerWebsite", // platform reported 
+  "repository", // source code repository if available
+  "issue", // issue we opened in their repository
+  "icon", // icon name. appId.{jpg,png}
+  "bugbounty", // link to bug bounty program if known
+  "verdict",
+  "date", // date the review was done/updated
+  "reviewStale", // script marks this true when the version changes
+  "signer", // the identifier of the release signing key
+  "reviewArchive", // history of our reviews
+  "providerTwitter",
+  "providerLinkedIn",
+  "providerFacebook",
+  "providerReddit",
+  "redirect_from"
+]
 const folder = "_iphone/"
 
 function refreshAll() {
@@ -34,16 +59,17 @@ function refreshFile(fileName) {
   const header = yaml.safeLoad(headerStr)
   const appId = header.appId
   const idd = header.idd
+  const appCountry = header.appCountry || "us"
   for(var i of Object.keys(header)) {
-    if(!allowedHeaders.has(i)) {
+    if(allowedHeaders.indexOf(i) < 0) {
       console.error(`Losing property ${i} in ${appPath}.`)
     }
   }
-  if (!"defunct,nowallet,nobtc".includes(header.verdict)) {
+  if (!"defunct".includes(header.verdict)) {
     apple.app({
         id: idd,
         lang: 'en',
-        country: 'us',
+        country: appCountry,
         throttle: 5}).then(function(app){
       const iconPath = `images/wallet_icons/iphone/${appId}`
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
@@ -79,6 +105,7 @@ altTitle: ${altTitle}
 authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 appId: ${header.appId}
+appCountry: ${app.appCountry || ""}
 idd: ${header.idd}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}

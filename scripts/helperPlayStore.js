@@ -7,11 +7,36 @@ const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
 
-const allowedHeaders = new Set("title,wallet,users,appId,launchDate,\
-latestUpdate,apkVersionName,stars,ratings,reviews,size,website,\
-repository,issue,icon,bugbounty,verdict,providerTwitter,wsId,authors,\
-providerLinkedIn,providerFacebook,providerReddit,date,permalink,redirect_from,\
-altTitle,reviewStale,reviewArchive,signer".split(","))
+const allowedHeaders = [
+  "wsId", // apps that belong together get same swId
+  "title", // gets updated from platform
+  "altTitle", // if the name is too generic, we use this to distinguish
+  "authors", // contributors to the analysis
+  "users", // platform reported downloads in steps
+  "appId", // provider chosen identifier. We use this for the file name, too
+  "launchDate", // gets provided by platform
+  "latestUpdate", // platform reported latest update
+  "apkVersionName", // platform reported version
+  "stars", // platform reported average rating
+  "ratings", // platform reported count of ratings
+  "reviews", // platform reported count of reviews
+  "size", // platform reported size as string
+  "website", // provider website
+  "repository", // source code repository if available
+  "issue", // issue we opened in their repository
+  "icon", // icon name. appId.{jpg,png}
+  "bugbounty", // link to bug bounty program if known
+  "verdict", // 
+  "date", // date the review was done/updated
+  "reviewStale", // script marks this true when the version changes
+  "signer", // the identifier of the release signing key
+  "reviewArchive", // history of our reviews
+  "providerTwitter",
+  "providerLinkedIn",
+  "providerFacebook",
+  "providerReddit",
+  "redirect_from"
+]
 const folder = "_android/"
 
 function refreshAll() {
@@ -34,11 +59,11 @@ function refreshFile(fileName) {
   const header = yaml.safeLoad(headerStr)
   const appId = header.appId
   for(var i of Object.keys(header)) {
-    if(!allowedHeaders.has(i)) {
+    if(allowedHeaders.indexOf(i) < 0) {
       console.error(`Losing property ${i} in ${appPath}.`)
     }
   }
-  if (!"defunct,nowallet,nobtc".includes(header.verdict)) {
+  if (!"defunct".includes(header.verdict)) {
     gplay.app({
         appId: appId,
         lang: 'en',

@@ -1,22 +1,22 @@
 ---
 wsId: lykkex
-title: "Lykke: Trade, Buy & Store Bitcoin, Crypto and More"
+title: "Lykke: Buy. Sell. Invest."
 altTitle: 
 authors:
 - leo
-users: 50000
-appId: com.lykkex.LykkeWallet
-launchDate: 
-latestUpdate: 2020-04-07
-apkVersionName: "12.7.7"
-stars: 3.5
-ratings: 564
-reviews: 344
-size: 23M
-website: https://lykke.com/wallet
+appId: com.lykkex.Lykke-Wallet
+appCountry: de
+idd: 1112839581
+released: 2016-05-20
+updated: 2020-04-16
+version: "7.34"
+score: 4
+reviews: 1
+size: 111620096
+developerWebsite: https://lykke.com/wallet
 repository: 
 issue: 
-icon: com.lykkex.LykkeWallet.png
+icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-09
