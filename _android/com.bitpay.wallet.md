@@ -14,8 +14,8 @@ ratings: 8170
 reviews: 3884
 size: 31M
 website: https://bitpay.com
-repository: https://github.com/bitpay/copay
-issue: https://github.com/bitpay/copay/issues/10425
+repository: https://github.com/bitpay/wallet
+issue: https://github.com/bitpay/wallet/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
