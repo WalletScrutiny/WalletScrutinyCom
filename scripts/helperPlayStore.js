@@ -56,7 +56,7 @@ function refreshFile(fileName) {
   var parts = fs.readFileSync(appPath, 'utf8').split("---")
   const headerStr = parts[1]
   const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-  const header = yaml.safeLoad(headerStr)
+  const header = yaml.load(headerStr)
   const appId = header.appId
   for(var i of Object.keys(header)) {
     if(allowedHeaders.indexOf(i) < 0) {
