@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.mycelium.wallet-ios
+appCountry: 
 idd: 943912290
 released: 2014-12-17
 updated: 2021-01-09

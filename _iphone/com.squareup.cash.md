@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.squareup.cash
+appCountry: 
 idd: 711923939
 released: 2013-10-16
 updated: 2021-03-04
 version: "3.34.1"
-score: 4.74264
-reviews: 1603960
+score: 4.74413
+reviews: 1641717
 size: 222208000
 developerWebsite: https://cash.app
 repository: 

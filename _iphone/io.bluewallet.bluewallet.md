@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.bluewallet.bluewallet
+appCountry: 
 idd: 1376878040
 released: 2018-05-27
 updated: 2021-03-02

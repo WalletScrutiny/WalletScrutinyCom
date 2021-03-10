@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.koinal.ios
+appCountry: 
 idd: 1442764361
 released: 2020-06-08
-updated: 2021-02-27
-version: "1.2.0"
+updated: 2021-03-10
+version: "1.2.1"
 score: 3.66667
 reviews: 3
-size: 47467520
+size: 47494144
 developerWebsite: https://www.koinal.io
 repository: 
 issue: 

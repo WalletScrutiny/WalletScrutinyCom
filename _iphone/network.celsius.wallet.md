@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: network.celsius.wallet
+appCountry: 
 idd: 1387885523
 released: 2018-06-20
 updated: 2021-02-25
 version: "4.8.0"
-score: 4.20685
-reviews: 788
+score: 4.19379
+reviews: 805
 size: 45212672
 developerWebsite: https://celsius.network/app
 repository: 

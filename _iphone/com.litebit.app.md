@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.litebit.app
+appCountry: 
 idd: 1448841440
 released: 2019-08-20
 updated: 2021-03-04

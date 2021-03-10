@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.remitano.remitano
+appCountry: 
 idd: 1116327021
 released: 2016-05-28
 updated: 2021-03-04
 version: "5.16.0"
-score: 4.76177
-reviews: 6158
+score: 4.75833
+reviews: 6203
 size: 59552768
 developerWebsite: https://remitano.com
 repository: 

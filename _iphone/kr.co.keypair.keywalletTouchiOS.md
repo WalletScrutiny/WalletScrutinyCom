@@ -5,6 +5,7 @@ altTitle:
 authors:
 
 appId: kr.co.keypair.keywalletTouchiOS
+appCountry: 
 idd: 1473941321
 released: 2019-07-28
 updated: 2020-12-14

@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.bitbay.BitBayTrading
+appCountry: 
 idd: 1409644952
 released: 2018-11-20
-updated: 2020-11-04
-version: "1.3.18"
+updated: 2021-03-10
+version: "1.3.19"
 score: 3.1875
 reviews: 16
-size: 96790528
+size: 97069056
 developerWebsite: https://bitbay.net
 repository: 
 issue: 

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.btckorea.bithumb
+appCountry: 
 idd: 1299421592
 released: 2017-12-05
 updated: 2021-01-29

@@ -1,15 +1,17 @@
 ---
+wsId: 
 title: "MEW wallet – Ethereum wallet"
 altTitle: 
+authors:
 
 users: 100000
 appId: com.myetherwallet.mewwallet
 launchDate: 
-latestUpdate: 2021-02-04
-apkVersionName: "1.2.4"
-stars: 3.9
-ratings: 3283
-reviews: 1378
+latestUpdate: 2021-02-07
+apkVersionName: "1.2.6"
+stars: 3.4
+ratings: 3564
+reviews: 1513
 size: 43M
 website: http://mewwallet.com
 repository: 

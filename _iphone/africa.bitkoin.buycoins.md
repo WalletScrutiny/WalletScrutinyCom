@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: africa.bitkoin.buycoins
+appCountry: 
 idd: 1389966202
 released: 2018-08-02
 updated: 2021-03-04

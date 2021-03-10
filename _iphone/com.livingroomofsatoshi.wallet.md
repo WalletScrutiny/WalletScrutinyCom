@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.livingroomofsatoshi.wallet
+appCountry: 
 idd: 1438599608
 released: 2019-05-20
 updated: 2021-02-19

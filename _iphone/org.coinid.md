@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: org.coinid
+appCountry: 
 idd: 1362831898
 released: 2018-10-02
 updated: 2021-02-20

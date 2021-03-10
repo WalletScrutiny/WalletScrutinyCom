@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.coinpayapp.CoinPay
+appCountry: 
 idd: 1477731032
 released: 2019-12-04
 updated: 2020-08-29

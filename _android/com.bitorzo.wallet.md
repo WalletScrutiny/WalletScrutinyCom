@@ -9,9 +9,9 @@ appId: com.bitorzo.wallet
 launchDate: 
 latestUpdate: 2021-01-03
 apkVersionName: "3.1.3"
-stars: 4.2
-ratings: 21
-reviews: 18
+stars: 4.1
+ratings: 22
+reviews: 19
 size: 12M
 website: 
 repository: 

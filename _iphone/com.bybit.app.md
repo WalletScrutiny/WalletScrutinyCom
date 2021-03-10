@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.bybit.app
+appCountry: 
 idd: 1488296980
 released: 2020-01-06
 updated: 2021-03-03
 version: "1.16.0"
-score: 4.13821
-reviews: 123
+score: 4.06015
+reviews: 133
 size: 110595072
 developerWebsite: https://www.bybit.com
 repository: 

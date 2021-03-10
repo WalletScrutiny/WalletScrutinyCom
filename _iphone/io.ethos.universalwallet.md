@@ -5,6 +5,7 @@ altTitle:
 authors:
 
 appId: io.ethos.universalwallet
+appCountry: 
 idd: 1376959464
 released: 2018-08-06
 updated: 2019-11-22

@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "Ledger Live"
 altTitle: 
+authors:
 
 users: 100000
 appId: com.ledger.live
 launchDate: 
-latestUpdate: 2020-10-27
-apkVersionName: "2.15.0"
-stars: 3.9
-ratings: 2110
-reviews: 1191
+latestUpdate: 2021-03-04
+apkVersionName: "2.23.0"
+stars: 3.6
+ratings: 3190
+reviews: 1860
 size: Varies with device
 website: 
 repository: 
 issue: 
 icon: com.ledger.live.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

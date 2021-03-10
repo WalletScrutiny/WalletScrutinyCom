@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "SOLO Wallet"
 altTitle: 
+authors:
 
-users: 1000
+users: 5000
 appId: com.sologenicwallet
 launchDate: 
-latestUpdate: 2020-03-07
-apkVersionName: "1.4.1"
-stars: 3.6
-ratings: 45
-reviews: 29
-size: 27M
+latestUpdate: 2020-06-23
+apkVersionName: "1.4.3"
+stars: 3.5
+ratings: 52
+reviews: 36
+size: 28M
 website: 
 repository: 
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

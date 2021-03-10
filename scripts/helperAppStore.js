@@ -1,5 +1,4 @@
-// run this via sh script via docker
-
+process.env.TZ = 'UTC' // fix timezone issues
 const apple = require('app-store-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
@@ -70,7 +69,7 @@ function refreshFile(fileName) {
         id: idd,
         lang: 'en',
         country: appCountry,
-        throttle: 5}).then(function(app){
+        throttle: 20}).then(function(app){
       const iconPath = `images/wallet_icons/iphone/${appId}`
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
         writeResult(app, header, iconExtension, body)

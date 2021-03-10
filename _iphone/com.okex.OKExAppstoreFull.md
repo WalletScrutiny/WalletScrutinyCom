@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.okex.OKExAppstoreFull
+appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-02-26
-version: "4.6.8"
-score: 4.9832
-reviews: 16905
-size: 273367040
+updated: 2021-03-08
+version: "4.7.0"
+score: 4.98295
+reviews: 16950
+size: 272779264
 developerWebsite: https://www.okex.com
 repository: 
 issue: 

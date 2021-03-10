@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: co.hodlwallet
+appCountry: 
 idd: 1382342568
 released: 2018-08-01
 updated: 2020-05-19

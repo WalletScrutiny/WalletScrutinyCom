@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "Bitcoin Cash Register (BCH)"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.bitcoin.merchant.app
 launchDate: 2019-04-13
-latestUpdate: 2019-11-21
-apkVersionName: "4.4.1"
-stars: 4.4
-ratings: 235
-reviews: 104
-size: 5.1M
+latestUpdate: 2020-10-23
+apkVersionName: "5.3.3"
+stars: 4.2
+ratings: 363
+reviews: 140
+size: 5.9M
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
 issue: 
 icon: com.bitcoin.merchant.app.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

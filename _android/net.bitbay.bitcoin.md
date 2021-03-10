@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: net.bitbay.bitcoin
 launchDate: 
-latestUpdate: 2020-11-05
+latestUpdate: 2021-03-08
 apkVersionName: "1.1.15"
 stars: 3.1
-ratings: 747
-reviews: 386
+ratings: 751
+reviews: 390
 size: 16M
 website: https://bitbay.net
 repository: 
@@ -20,7 +20,7 @@ icon: net.bitbay.bitcoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

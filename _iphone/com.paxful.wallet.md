@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.paxful.wallet
+appCountry: 
 idd: 1443813253
 released: 2019-05-09
-updated: 2021-02-24
-version: "1.8.3"
-score: 3.9676
-reviews: 2222
-size: 67215360
+updated: 2021-03-08
+version: "1.8.4"
+score: 3.96584
+reviews: 2225
+size: 67895296
 developerWebsite: https://paxful.com/
 repository: 
 issue: 

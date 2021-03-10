@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: atomicwallet
+appCountry: 
 idd: 1478257827
 released: 2019-11-05
 updated: 2021-02-24
 version: "0.72.0"
-score: 4.38357
-reviews: 5574
+score: 4.38328
+reviews: 5698
 size: 47985664
 developerWebsite: https://atomicwallet.io/
 repository: 

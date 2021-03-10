@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.vidulum.app
+appCountry: 
 idd: 1505859171
 released: 2020-07-28
 updated: 2021-03-07

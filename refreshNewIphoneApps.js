@@ -11,7 +11,7 @@ newIdds.forEach(function(idd) {
       id: idd,
       lang: 'en',
       country: 'us',
-      throttle: 5}).then(function(app){
+      throttle: 20}).then(function(app){
         const path = `_iphone/${app.appId}.md`
         fs.exists(path, function(fileExists) {
           if (!fileExists) {

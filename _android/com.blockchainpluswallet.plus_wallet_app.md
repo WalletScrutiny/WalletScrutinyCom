@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "Blockchain Plus Wallet"
 altTitle: 
+authors:
 
-users: 1000
+users: 5000
 appId: com.blockchainpluswallet.plus_wallet_app
 launchDate: 
-latestUpdate: 2020-10-31
+latestUpdate: 2020-12-30
 apkVersionName: "3.0.1"
-stars: 4.9
-ratings: 108
-reviews: 99
-size: 12M
+stars: 4.2
+ratings: 156
+reviews: 127
+size: 13M
 website: 
 repository: 
 issue: 
-icon: com.blockchainpluswallet.plus_wallet_app.png
+icon: com.blockchainpluswallet.plus_wallet_app.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-30
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,6 +6,7 @@ authors:
 - leo
 - emanuel
 appId: ccx.wallet
+appCountry: 
 idd: 1463774169
 released: 2019-06-21
 updated: 2020-07-30

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitmart.exchange
+appCountry: 
 idd: 1396382871
 released: 2018-08-02
 updated: 2021-02-05

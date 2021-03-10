@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.cryptonator.ios
+appCountry: 
 idd: 1463793201
 released: 2019-06-11
 updated: 2021-01-27

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitbill.wallet
+appCountry: 
 idd: 1321798216
 released: 2018-02-07
 updated: 2021-03-05

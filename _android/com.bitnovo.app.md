@@ -9,9 +9,9 @@ appId: com.bitnovo.app
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "2.8.4"
-stars: 2.5
-ratings: 259
-reviews: 186
+stars: 2.4
+ratings: 261
+reviews: 188
 size: 34M
 website: http://www.bitnovo.com
 repository: 

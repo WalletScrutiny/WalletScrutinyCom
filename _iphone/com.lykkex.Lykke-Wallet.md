@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.lykkex.Lykke-Wallet
-appCountry: de
+appCountry: 
 idd: 1112839581
 released: 2016-05-20
 updated: 2020-04-16
 version: "7.34"
-score: 4
-reviews: 1
+score: 4.6087
+reviews: 23
 size: 111620096
 developerWebsite: https://lykke.com/wallet
 repository: 
@@ -33,7 +33,6 @@ providerReddit: lykke
 redirect_from:
 
 ---
-
 
 Lykke appears to be a Swiss exchange:
 

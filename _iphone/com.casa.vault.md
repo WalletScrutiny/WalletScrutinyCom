@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.casa.vault
+appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2021-02-12
-version: "2.32.1"
-score: 4.90667
-reviews: 225
+updated: 2021-03-10
+version: "2.32.3"
+score: 4.90829
+reviews: 229
 size: 42533888
 developerWebsite: https://keys.casa
 repository: 

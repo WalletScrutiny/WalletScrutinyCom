@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.qcan.qcan
+appCountry: 
 idd: 1179360399
 released: 2017-08-07
 updated: 2020-11-12

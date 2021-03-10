@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.bitpay.wallet
+appCountry: 
 idd: 1149581638
 released: 2016-10-24
 updated: 2021-03-06
 version: "12.3.2"
-score: 4.02619
-reviews: 1069
+score: 4.02132
+reviews: 1079
 size: 86147072
 developerWebsite: https://bitpay.com
 repository: 

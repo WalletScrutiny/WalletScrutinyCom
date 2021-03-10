@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "1.31"
 stars: 3.6
-ratings: 2990
-reviews: 1971
+ratings: 3011
+reviews: 1981
 size: 17M
 website: https://www.probit.com
 repository: 

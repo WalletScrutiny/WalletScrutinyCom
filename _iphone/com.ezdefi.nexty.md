@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.ezdefi.nexty
+appCountry: 
 idd: 1492046549
 released: 2019-12-18
 updated: 2021-02-11

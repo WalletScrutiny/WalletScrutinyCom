@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.coincola.beta
+appCountry: 
 idd: 1234231551
 released: 2017-06-06
 updated: 2021-02-09

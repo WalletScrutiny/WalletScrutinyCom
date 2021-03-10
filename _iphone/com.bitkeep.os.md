@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitkeep.os
+appCountry: 
 idd: 1395301115
 released: 2018-09-26
 updated: 2021-01-27

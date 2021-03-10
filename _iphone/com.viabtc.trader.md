@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.viabtc.trader
+appCountry: 
 idd: 1264462812
 released: 2017-08-23
 updated: 2021-02-06
 version: "2.9.3"
-score: 4.44309
-reviews: 246
+score: 4.432
+reviews: 250
 size: 120793088
 developerWebsite: https://www.coinex.com
 repository: 

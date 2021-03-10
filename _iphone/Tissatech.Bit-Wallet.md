@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: Tissatech.Bit-Wallet
+appCountry: 
 idd: 1331439005
 released: 2019-02-09
 updated: 2021-02-27

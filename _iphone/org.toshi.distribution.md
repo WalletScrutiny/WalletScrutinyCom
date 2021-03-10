@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: org.toshi.distribution
+appCountry: 
 idd: 1278383455
 released: 2017-09-27
 updated: 2021-03-01
 version: "23.8"
-score: 4.66686
-reviews: 20400
+score: 4.66582
+reviews: 20788
 size: 136266752
 developerWebsite: https://wallet.coinbase.com
 repository: 

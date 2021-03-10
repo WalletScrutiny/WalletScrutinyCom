@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: cash.klever.blockchain.wallet
+appCountry: 
 idd: 1525584688
 released: 2020-08-26
-updated: 2021-02-17
-version: "4.1.5"
-score: 4.44344
-reviews: 221
-size: 119495680
+updated: 2021-03-08
+version: "4.1.6"
+score: 4.45852
+reviews: 229
+size: 120953856
 developerWebsite: https://klever.io
 repository: 
 issue: 

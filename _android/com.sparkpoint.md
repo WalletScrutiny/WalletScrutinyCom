@@ -8,11 +8,11 @@ authors:
 users: 10000
 appId: com.sparkpoint
 launchDate: 
-latestUpdate: 2021-03-04
-apkVersionName: "6.2.1"
-stars: 3.0
-ratings: 448
-reviews: 391
+latestUpdate: 2021-03-08
+apkVersionName: "6.2.3"
+stars: 3.1
+ratings: 454
+reviews: 394
 size: 13M
 website: https://sparkpoint.io/
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors:
 
 appId: it.airgap.wallet
+appCountry: 
 idd: 1420996542
 released: 2018-08-24
 updated: 2021-03-01

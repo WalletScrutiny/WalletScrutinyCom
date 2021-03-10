@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.adenter.mercurycash
+appCountry: 
 idd: 1291394963
 released: 2017-10-07
-updated: 2021-03-02
-version: "4.3"
+updated: 2021-03-09
+version: "4.3.0.1"
 score: 4.60377
 reviews: 53
-size: 72930304
+size: 72926208
 developerWebsite: https://www.mercury.cash/
 repository: 
 issue: 

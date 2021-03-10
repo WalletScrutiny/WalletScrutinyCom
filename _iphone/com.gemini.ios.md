@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.gemini.ios
+appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-03-03
-version: "3.5.0"
-score: 4.69707
-reviews: 16618
-size: 103117824
+updated: 2021-03-10
+version: "3.6.0"
+score: 4.69638
+reviews: 17038
+size: 104172544
 developerWebsite: http://gemini.com
 repository: 
 issue: 

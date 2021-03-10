@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.muun.falcon
+appCountry: 
 idd: 1482037683
 released: 2019-10-11
 updated: 2021-02-01

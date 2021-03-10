@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: it.airgap.vault
+appCountry: 
 idd: 1417126841
 released: 2018-08-24
 updated: 2021-03-01

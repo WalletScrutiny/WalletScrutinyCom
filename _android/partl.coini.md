@@ -1,16 +1,18 @@
 ---
+wsId: 
 title: "Coini — Bitcoin / Cryptocurrencies"
 altTitle: 
+authors:
 
 users: 1000
 appId: partl.coini
 launchDate: 
-latestUpdate: 2020-11-24
-apkVersionName: "1.9.5"
+latestUpdate: 2021-03-07
+apkVersionName: "2.1.0"
 stars: 4.6
-ratings: 135
-reviews: 71
-size: 45M
+ratings: 172
+reviews: 87
+size: 46M
 website: 
 repository: 
 issue: 
@@ -18,7 +20,7 @@ icon: partl.coini.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

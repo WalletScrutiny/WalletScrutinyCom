@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.fotolockr.cakewallet
+appCountry: 
 idd: 1334702542
 released: 2018-01-19
 updated: 2021-02-13

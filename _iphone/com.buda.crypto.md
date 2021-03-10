@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.buda.crypto
+appCountry: 
 idd: 1321460860
 released: 2018-01-04
 updated: 2019-12-02

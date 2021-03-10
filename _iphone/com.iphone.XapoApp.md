@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.iphone.XapoApp
+appCountry: 
 idd: 917692892
 released: 2014-11-13
 updated: 2020-08-21

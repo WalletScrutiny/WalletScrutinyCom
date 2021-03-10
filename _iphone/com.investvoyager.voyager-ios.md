@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.investvoyager.voyager-ios
+appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2021-02-20
-version: "2.9.12"
-score: 4.75699
-reviews: 21193
-size: 58839040
+updated: 2021-03-09
+version: "2.9.13"
+score: 4.7615
+reviews: 21992
+size: 58822656
 developerWebsite: https://www.investvoyager.com/
 repository: 
 issue: 

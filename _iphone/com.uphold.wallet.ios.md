@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.uphold.wallet.ios
+appCountry: 
 idd: 1101145849
 released: 2016-04-19
 updated: 2021-02-26
 version: "4.15.11"
-score: 4.02011
-reviews: 3779
+score: 4.00288
+reviews: 3817
 size: 63840256
 developerWebsite: 
 repository: 

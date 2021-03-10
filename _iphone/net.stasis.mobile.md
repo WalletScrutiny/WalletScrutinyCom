@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: net.stasis.mobile
+appCountry: 
 idd: 1371949230
 released: 2018-07-06
 updated: 2021-02-09

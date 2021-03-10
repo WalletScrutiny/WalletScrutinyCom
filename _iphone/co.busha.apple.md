@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: co.busha.apple
+appCountry: 
 idd: 1450373493
 released: 2019-02-03
 updated: 2021-03-05

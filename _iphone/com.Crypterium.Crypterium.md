@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.Crypterium.Crypterium
+appCountry: 
 idd: 1360632912
 released: 2018-03-26
 updated: 2021-03-02
 version: "1.14.8"
-score: 4.52609
-reviews: 958
+score: 4.52174
+reviews: 966
 size: 248443904
 developerWebsite: https://cards.crypterium.com/visa
 repository: 

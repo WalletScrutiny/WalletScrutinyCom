@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.Techbank.Beeone
+appCountry: 
 idd: 1473120022
 released: 2019-07-19
 updated: 2021-02-11

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: app.flitsnode.flits
+appCountry: 
 idd: 1460563713
 released: 2019-04-30
 updated: 2021-02-09

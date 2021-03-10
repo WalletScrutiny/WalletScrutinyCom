@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: io.hexawallet.hexa
+appCountry: 
 idd: 1490205837
 released: 2020-03-16
-updated: 2021-02-23
-version: "1.4.5"
+updated: 2021-03-09
+version: "1.4.6"
 score: 4.75
 reviews: 4
-size: 47112192
+size: 47130624
 developerWebsite: https://hexawallet.io/
 repository: 
 issue: 

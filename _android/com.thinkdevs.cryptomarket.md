@@ -1,15 +1,17 @@
 ---
+wsId: 
 title: "Crypto Wallet 2020"
 altTitle: 
+authors:
 
-users: 5000
+users: 10000
 appId: com.thinkdevs.cryptomarket
 launchDate: 
-latestUpdate: 2020-11-13
-apkVersionName: "0.0.9"
+latestUpdate: 2021-01-19
+apkVersionName: "0.0.10"
 stars: 3.8
-ratings: 48
-reviews: 32
+ratings: 78
+reviews: 45
 size: 3.0M
 website: 
 repository: 
@@ -18,7 +20,7 @@ icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

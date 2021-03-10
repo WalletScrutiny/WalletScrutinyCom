@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bit2me.flutter-ios
+appCountry: 
 idd: 1459809738
 released: 2019-06-04
 updated: 2021-02-22

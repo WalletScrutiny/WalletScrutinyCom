@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitso.wallet
+appCountry: 
 idd: 1292836438
 released: 2018-02-19
 updated: 2020-12-25

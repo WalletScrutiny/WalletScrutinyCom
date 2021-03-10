@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.cmcm.currency.exchange
+appCountry: 
 idd: 1435877386
 released: 2018-09-16
 updated: 2021-01-13
 version: "4.3.6"
-score: 3.28
-reviews: 100
+score: 3.27451
+reviews: 102
 size: 91925504
 developerWebsite: 
 repository: 

@@ -4,7 +4,7 @@ title: "Zap: Bitcoin Lightning Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: zapsolutions.zap
 launchDate: 
 latestUpdate: 2021-02-13

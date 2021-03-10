@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "Sentinel"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.samourai.sentinel
 launchDate: 
-latestUpdate: 2019-10-28
-apkVersionName: "3.6"
-stars: 4.3
-ratings: 248
-reviews: 123
-size: 27M
+latestUpdate: 2020-09-04
+apkVersionName: "4.0.1"
+stars: 4.0
+ratings: 273
+reviews: 143
+size: 40M
 website: https://www.samouraiwallet.com/sentinel
 repository: https://github.com/Samourai-Wallet/sentinel-android
 issue: 
 icon: com.samourai.sentinel.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

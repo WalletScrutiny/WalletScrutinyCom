@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.rainydayapps.Blockchain
+appCountry: 
 idd: 493253309
 released: 2012-04-13
 updated: 2021-03-04
 version: "3.1.2"
-score: 4.73867
-reviews: 63030
+score: 4.73876
+reviews: 63383
 size: 114238464
 developerWebsite: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS

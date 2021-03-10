@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.swipe.wallet
+appCountry: 
 idd: 1476726454
 released: 2019-09-10
 updated: 2021-02-22
 version: "1.531"
-score: 4.75783
-reviews: 1214
+score: 4.75576
+reviews: 1216
 size: 143298560
 developerWebsite: https://swipe.io
 repository: 

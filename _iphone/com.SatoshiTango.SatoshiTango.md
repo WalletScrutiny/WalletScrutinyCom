@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.SatoshiTango.SatoshiTango
+appCountry: 
 idd: 1002555958
 released: 2015-07-08
 updated: 2021-02-19

@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: io.changenow
+appCountry: 
 idd: 1518003605
 released: 2020-06-29
 updated: 2021-02-15
 version: "1.4.1"
-score: 4.37008
-reviews: 127
+score: 4.36364
+reviews: 132
 size: 29969408
 developerWebsite: 
 repository: 

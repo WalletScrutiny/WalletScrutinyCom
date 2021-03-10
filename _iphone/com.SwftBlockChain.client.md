@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.SwftBlockChain.client
+appCountry: 
 idd: 1435569339
 released: 2018-09-28
 updated: 2021-02-24

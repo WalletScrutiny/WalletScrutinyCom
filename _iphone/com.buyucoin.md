@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.buyucoin
+appCountry: 
 idd: 1539456610
 released: 2020-11-17
 updated: 2021-01-13

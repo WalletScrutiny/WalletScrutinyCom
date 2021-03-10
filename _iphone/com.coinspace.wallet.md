@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.coinspace.wallet
+appCountry: 
 idd: 980719434
 released: 2015-12-14
 updated: 2021-02-04

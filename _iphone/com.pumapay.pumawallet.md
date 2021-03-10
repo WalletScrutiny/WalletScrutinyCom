@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.pumapay.pumawallet
+appCountry: 
 idd: 1376601366
 released: 2018-06-05
 updated: 2021-02-08

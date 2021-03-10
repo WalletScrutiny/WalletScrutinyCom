@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.excdev.bitcoinox
+appCountry: 
 idd: 1453542836
 released: 2019-02-27
 updated: 2020-12-13

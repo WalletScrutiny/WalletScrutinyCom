@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.quppy.wallet
+appCountry: 
 idd: 1417802076
 released: 2018-08-09
 updated: 2021-02-11

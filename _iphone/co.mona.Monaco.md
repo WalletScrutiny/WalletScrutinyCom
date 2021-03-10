@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: co.mona.Monaco
+appCountry: 
 idd: 1262148500
 released: 2017-08-31
 updated: 2021-03-06
 version: "3.85.1"
-score: 4.43028
-reviews: 12887
+score: 4.42431
+reviews: 13073
 size: 271464448
 developerWebsite: https://crypto.com/
 repository: 

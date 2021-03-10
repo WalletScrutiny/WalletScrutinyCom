@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.crypto.multiwallet
+appCountry: 
 idd: 1442083982
 released: 2018-12-01
 updated: 2021-03-06

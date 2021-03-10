@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-30
 apkVersionName: "1.1.0"
 stars: 2.3
-ratings: 354
-reviews: 194
+ratings: 356
+reviews: 196
 size: 19M
 website: https://www.bithumb.com
 repository: 

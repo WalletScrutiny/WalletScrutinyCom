@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.ripio.android
 launchDate: 2015-06-01
-latestUpdate: 2021-03-03
+latestUpdate: 2021-03-09
 apkVersionName: "4.3.8"
-stars: 4.0
-ratings: 13567
-reviews: 7492
+stars: 3.9
+ratings: 13896
+reviews: 7594
 size: 47M
 website: https://www.ripio.com/ar/wallet
 repository: 

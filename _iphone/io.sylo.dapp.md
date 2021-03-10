@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.sylo.dapp
+appCountry: 
 idd: 1452964749
 released: 2019-09-10
 updated: 2021-02-27

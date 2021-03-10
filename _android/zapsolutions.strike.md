@@ -2,16 +2,17 @@
 wsId: strike
 title: "Strike: Bitcoin & Lightning Payments"
 altTitle: 
+authors:
 
 users: 5000
 appId: zapsolutions.strike
 launchDate: 
-latestUpdate: 2021-01-15
-apkVersionName: "v56"
-stars: 4.7
-ratings: 136
-reviews: 44
-size: 8.5M
+latestUpdate: 2021-03-09
+apkVersionName: "v61"
+stars: 4.5
+ratings: 199
+reviews: 67
+size: 8.7M
 website: 
 repository: 
 issue: 
@@ -19,7 +20,7 @@ icon: zapsolutions.strike.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-18
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

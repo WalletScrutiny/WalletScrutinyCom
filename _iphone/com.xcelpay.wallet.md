@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.xcelpay.wallet
+appCountry: 
 idd: 1461215417
 released: 2019-05-26
 updated: 2021-02-27

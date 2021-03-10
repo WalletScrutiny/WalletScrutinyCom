@@ -2,15 +2,17 @@
 wsId: strike
 title: "Strike: Send and Spend Bitcoin"
 altTitle: 
+authors:
 
 appId: com.jackmallers.Strike
+appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2021-01-14
-version: "1.0.14"
-score: 4.82847
-reviews: 274
-size: 21236736
+updated: 2021-03-08
+version: "1.0.21"
+score: 4.75667
+reviews: 300
+size: 22080512
 developerWebsite: https://beta.strike.me/
 repository: 
 issue: 
@@ -18,7 +20,7 @@ icon: com.jackmallers.Strike.jpg
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-18
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

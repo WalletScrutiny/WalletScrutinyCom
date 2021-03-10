@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.infinito.wallet
+appCountry: 
 idd: 1315572736
 released: 2018-01-17
 updated: 2020-12-16

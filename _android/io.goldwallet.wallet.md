@@ -1,15 +1,17 @@
 ---
+wsId: 
 title: "GoldWallet - Bitcoin Vault Wallet"
 altTitle: 
+authors:
 
 users: 10000
 appId: io.goldwallet.wallet
 launchDate: 
 latestUpdate: 2020-11-26
 apkVersionName: "6.0.1"
-stars: 4.5
-ratings: 400
-reviews: 222
+stars: 4.4
+ratings: 432
+reviews: 243
 size: 35M
 website: https://bitcoinvault.global
 repository: 
