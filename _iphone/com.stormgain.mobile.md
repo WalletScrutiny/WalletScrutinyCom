@@ -1,22 +1,22 @@
 ---
 wsId: stormgain
-title: "StormGain: Bitcoin Wallet & Crypto Exchange App"
+title: "StormGain: Handeln mit Krypto"
 altTitle: 
 authors:
 - leo
-users: 500000
 appId: com.stormgain.mobile
-launchDate: 
-latestUpdate: 2021-02-26
-apkVersionName: "1.14.1"
-stars: 4.3
-ratings: 13316
-reviews: 7871
-size: 23M
-website: https://stormgain.com
+appCountry: 
+idd: 1471506070
+released: 2019-07-21
+updated: 2021-03-02
+version: "1.14.1"
+score: 4.47438
+reviews: 371
+size: 74704896
+developerWebsite: https://stormgain.com
 repository: 
 issue: 
-icon: com.stormgain.mobile.png
+icon: com.stormgain.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10

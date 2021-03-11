@@ -4,22 +4,22 @@ title: "Ballet Crypto"
 altTitle: 
 authors:
 
-users: 5000
 appId: com.balletcrypto
-launchDate: 
-latestUpdate: 2021-03-01
-apkVersionName: "1.14.3"
-stars: 4.7
-ratings: 274
-reviews: 130
-size: 46M
-website: https://www.balletcrypto.com
+appCountry: 
+idd: 1474912942
+released: 2019-09-11
+updated: 2021-03-04
+version: "1.14.3"
+score: 4.93361
+reviews: 241
+size: 103522304
+developerWebsite: https://www.balletcrypto.com
 repository: 
 issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-08
+date: 2021-03-11
 reviewStale: true
 signer: 
 reviewArchive:

@@ -10,7 +10,7 @@ newIdds.forEach(function(idd) {
   apple.app({
       id: idd,
       lang: 'en',
-      country: 'us',
+      country: 'cl',
       throttle: 20}).then(function(app){
         const path = `_iphone/${app.appId}.md`
         fs.exists(path, function(fileExists) {
@@ -29,7 +29,8 @@ verdict: wip
               helper.refreshFile(`${app.appId}.md`)
             })
           } else {
-            console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists.`)
+            console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists. Refreshing ...`)
+            helper.refreshFile(`${app.appId}.md`)
           }
         })
       }, function(err) {

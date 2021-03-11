@@ -24,7 +24,8 @@ verdict: wip
           helper.refreshFile(`${appId}.md`)
         })
       } else {
-        console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists.`)
+        console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
+        helper.refreshFile(`${appId}.md`)
       }
     })
 })

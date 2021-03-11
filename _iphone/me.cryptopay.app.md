@@ -1,22 +1,22 @@
 ---
 wsId: 
-title: "C.PAY"
+title: "C.Pay"
 altTitle: 
 authors:
 
-users: 50000
-appId: me.cryptopay.android
-launchDate: 
-latestUpdate: 2021-03-09
-apkVersionName: "1.23.1"
-stars: 4.4
-ratings: 563
-reviews: 294
-size: 16M
-website: https://cryptopay.me
+appId: me.cryptopay.app
+appCountry: 
+idd: 1223340174
+released: 2017-06-08
+updated: 2021-03-02
+version: "1.29"
+score: 4.53617
+reviews: 235
+size: 58528768
+developerWebsite: https://cryptopay.me
 repository: 
 issue: 
-icon: me.cryptopay.android.png
+icon: me.cryptopay.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
