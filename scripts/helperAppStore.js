@@ -104,7 +104,7 @@ altTitle: ${altTitle}
 authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 appId: ${header.appId}
-appCountry: ${app.appCountry || ""}
+appCountry: ${header.appCountry || ""}
 idd: ${header.idd}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}

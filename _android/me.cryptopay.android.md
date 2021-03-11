@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: cryptopay
 title: "C.PAY"
 altTitle: 
 authors:
