@@ -166,6 +166,10 @@ case "$appId" in
     source scripts/testPhoenix.sh
     test
     ;;
+  "zapsolutions.zap")
+    source scripts/testZap.sh
+    test
+    ;;
   *)
     echo "Unknown appId $appId"
     ;;
