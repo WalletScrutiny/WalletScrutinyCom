@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2021-02-26
-apkVersionName: "3.0.10-baking-2"
+latestUpdate: 2021-03-11
+apkVersionName: "3.0.12-baking"
 stars: 4.3
-ratings: 559
+ratings: 560
 reviews: 288
-size: 339M
+size: 334M
 website: https://www.sylo.io/wallet
 repository: 
 issue: 

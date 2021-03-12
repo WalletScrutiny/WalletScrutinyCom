@@ -11,7 +11,7 @@ released: 2019-03-23
 updated: 2021-03-02
 version: "21.3.1"
 score: 4.6274
-reviews: 8234
+reviews: 8285
 size: 28694528
 developerWebsite: https://exodus.com/mobile
 repository: 

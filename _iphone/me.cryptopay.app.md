@@ -5,7 +5,7 @@ altTitle:
 authors:
 
 appId: me.cryptopay.app
-appCountry: 
+appCountry: de
 idd: 1223340174
 released: 2017-06-08
 updated: 2021-03-02
@@ -13,7 +13,7 @@ version: "1.29"
 score: 4.53617
 reviews: 235
 size: 58528768
-developerWebsite: https://cryptopay.me
+developerWebsite: https://cryptopay.me/
 repository: 
 issue: 
 icon: me.cryptopay.app.jpg
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the description the only sentence hinting at custodianship is:
 

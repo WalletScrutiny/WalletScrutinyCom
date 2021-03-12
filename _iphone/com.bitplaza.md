@@ -13,7 +13,7 @@ version: "1.0"
 score: 4.3
 reviews: 10
 size: 32704512
-developerWebsite: https://www.bitplazashopping.com
+developerWebsite: https://www.bitplazashopping.com/
 repository: 
 issue: 
 icon: com.bitplaza.jpg
@@ -33,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is a market place with no integrated wallet.

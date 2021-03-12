@@ -8,12 +8,12 @@ appId: com.ptpwallet
 appCountry: 
 idd: 1428589045
 released: 2018-12-12
-updated: 2020-04-08
-version: "1.0.181"
+updated: 2021-03-10
+version: "1.0.182"
 score: 4.71053
 reviews: 38
-size: 44488704
-developerWebsite: 
+size: 43708416
+developerWebsite: https://ptpwallet.com
 repository: 
 issue: 
 icon: com.ptpwallet.jpg

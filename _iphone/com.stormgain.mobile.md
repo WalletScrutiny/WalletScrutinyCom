@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.stormgain.mobile
-appCountry: 
+appCountry: de
 idd: 1471506070
 released: 2019-07-21
 updated: 2021-03-02
 version: "1.14.1"
-score: 4.47438
-reviews: 371
+score: 4.47581
+reviews: 372
 size: 74704896
 developerWebsite: https://stormgain.com
 repository: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app's description mainly focuses on trading and interest earning, features
 usually associated with custodial offerings. Also their little paragraph on

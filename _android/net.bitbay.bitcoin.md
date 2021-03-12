@@ -8,11 +8,11 @@ users: 100000
 appId: net.bitbay.bitcoin
 launchDate: 
 latestUpdate: 2021-03-08
-apkVersionName: "1.1.15"
+apkVersionName: "1.1.16"
 stars: 3.1
-ratings: 751
-reviews: 390
-size: 16M
+ratings: 762
+reviews: 396
+size: 15M
 website: https://bitbay.net
 repository: 
 issue: 

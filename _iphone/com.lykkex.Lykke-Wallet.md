@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.lykkex.Lykke-Wallet
-appCountry: 
+appCountry: de
 idd: 1112839581
 released: 2016-05-20
 updated: 2020-04-16

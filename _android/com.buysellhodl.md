@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.buysellhodl.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 date: 2020-05-29
 reviewStale: true
 signer: 

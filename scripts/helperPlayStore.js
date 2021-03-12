@@ -67,7 +67,7 @@ function refreshFile(fileName) {
         appId: appId,
         lang: 'en',
         country: 'cl',
-        throttle: 5}).then(function(app){
+        throttle: 20}).then(function(app){
       const iconPath = `images/wallet_icons/android/${appId}`
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
         writeResult(app, header, iconExtension, body)

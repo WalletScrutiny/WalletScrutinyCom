@@ -10,8 +10,8 @@ launchDate: 2017-11-23
 latestUpdate: 2020-11-11
 apkVersionName: "3.25.1"
 stars: 3.4
-ratings: 1047
-reviews: 559
+ratings: 1049
+reviews: 560
 size: 82M
 website: https://www.tenx.tech
 repository: 
