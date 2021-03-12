@@ -19,11 +19,16 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-19
-reviewStale: true
+date: 2021-03-11
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2021-02-18
+  version: "0.19.0"
+  apkHash: 9b5bfb91c002ca9f9fde93487defc59c3dcf23fa4035dd10413be970b6dc2c11
+  gitRevision: 9b5efb649d21a3462d8abad571d0835976531aa5
+  verdict: reproducible
+- date: 2021-01-19
   version: "0.18.2"
   apkHash: 5d6cbade37070420b24da421cea93b8591e3709a8d92dc70f2b8b02e1688e7b5
   gitRevision: 211c22a8f419e490f2636fb28a04b52a91cc945d
@@ -123,17 +128,15 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.19.0
-apkVersionCode: 39
-apkHash:        9b5bfb91c002ca9f9fde93487defc59c3dcf23fa4035dd10413be970b6dc2c11
+apkVersionName: 0.19.1
+apkVersionCode: 40
+apkHash:        418f2a051ae154a7c15fffb88d992134a22ddf6af2fcbe4deab66d7af59ef197
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_39/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_39/apktool.yml differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_39/original/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_39/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_39/original/META-INF: RELEASEK.SF
-
-Revision, tag (and its signature):
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_40/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_40/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: RELEASEK.SF
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
