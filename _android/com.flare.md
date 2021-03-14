@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.flare
 launchDate: 2020-02-22
-latestUpdate: 2021-01-01
-apkVersionName: "1.3.8"
+latestUpdate: 2021-03-13
+apkVersionName: "1.4.0"
 stars: 4.1
 ratings: 218
 reviews: 182

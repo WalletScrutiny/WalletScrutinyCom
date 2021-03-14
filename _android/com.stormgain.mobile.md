@@ -4,14 +4,14 @@ title: "StormGain: Bitcoin Wallet & Crypto Exchange App"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.stormgain.mobile
 launchDate: 
 latestUpdate: 2021-02-26
 apkVersionName: "1.14.1"
-stars: 4.4
-ratings: 13517
-reviews: 7947
+stars: 4.3
+ratings: 13528
+reviews: 7878
 size: 23M
 website: https://stormgain.com
 repository: 

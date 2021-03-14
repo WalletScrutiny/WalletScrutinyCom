@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.binance.us
 launchDate: 
-latestUpdate: 2021-03-08
-apkVersionName: "2.3.3"
-stars: 1.8
-ratings: 2204
-reviews: 1665
+latestUpdate: 2021-03-12
+apkVersionName: "2.3.4"
+stars: 1.9
+ratings: 2234
+reviews: 1688
 size: Varies with device
 website: https://www.binance.us
 repository: 

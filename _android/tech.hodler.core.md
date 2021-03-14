@@ -11,7 +11,7 @@ latestUpdate: 2019-10-29
 apkVersionName: "0.4.6"
 stars: 4.0
 ratings: 47
-reviews: 36
+reviews: 35
 size: 19M
 website: 
 repository: 

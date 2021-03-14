@@ -9,9 +9,9 @@ appId: coinsquare.io.coinsquare
 launchDate: 
 latestUpdate: 2020-07-29
 apkVersionName: "2.13.8"
-stars: 2.0
-ratings: 467
-reviews: 360
+stars: 2.1
+ratings: 468
+reviews: 361
 size: 8.2M
 website: https://coinsquare.com
 repository: 
