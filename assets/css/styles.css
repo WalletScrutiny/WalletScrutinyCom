@@ -391,7 +391,7 @@ pre.highlight code {
   display: flex;
   position: relative;
   overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory; */
   margin-top: -10px;
   padding-bottom: 35px;
   transform: translateY(30px);
@@ -406,7 +406,7 @@ pre.highlight code {
   display: inline-grid;
   grid-template-columns: 1fr auto;
   text-decoration: none;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   align-items: center;
 }
 
@@ -626,14 +626,14 @@ h2.section-label {
   background: var(--white, var(--white));
   box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  scroll-snap-type: inline;
+  /* scroll-snap-type: inline; */
   scrollbar-width: thin;
 }
 
 .results-list li {
   padding: .75rem;
   margin: 0;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .results-list li.actionable {
