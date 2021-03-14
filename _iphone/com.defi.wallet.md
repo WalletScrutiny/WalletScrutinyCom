@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.defi.wallet
+appCountry: 
 idd: 1512048310
 released: 2020-05-20
 updated: 2021-02-26
 version: "1.7.1"
-score: 3.45374
-reviews: 227
+score: 4.49664
+reviews: 745
 size: 64153600
 developerWebsite: https://crypto.com/en/defi/wallet/
 repository: 

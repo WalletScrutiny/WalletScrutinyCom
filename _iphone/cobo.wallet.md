@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: cobo.wallet
+appCountry: 
 idd: 1406282615
 released: 2018-08-05
 updated: 2020-12-15

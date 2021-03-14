@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.coinpayapp.CoinPay
+appCountry: 
 idd: 1477731032
 released: 2019-12-04
 updated: 2020-08-29
 version: "2020.08.28"
-score: 4.04494
-reviews: 89
+score: 4.05495
+reviews: 91
 size: 21357568
 developerWebsite: https://www.coinpayapp.com
 repository: 

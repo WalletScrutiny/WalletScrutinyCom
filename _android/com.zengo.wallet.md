@@ -4,14 +4,15 @@ title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 altTitle: 
 authors:
 - leo
+- emanuel
 users: 50000
 appId: com.zengo.wallet
 launchDate: 
 latestUpdate: 2021-02-25
 apkVersionName: "2.21.2"
-stars: 3.9
-ratings: 1790
-reviews: 772
+stars: 4.0
+ratings: 1855
+reviews: 800
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
@@ -19,7 +20,7 @@ issue:
 icon: com.zengo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-20
+date: 2020-06-18
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,6 +36,20 @@ redirect_from:
   - /posts/com.zengo.wallet/
 ---
 
+
+**Update 2021-03-08:** As
+[Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),
+ZenGo [claims](https://www.zengo.com/zengo-and-open-source/) what we are doing
+is impossible:
+
+> It is important to note,
+  that even if we had exposed our code, there is no good way to verify that the
+  downloaded mobile app was indeed created from it.
+
+That is exactly what we are doing here. Let's see if ZenGo answers to
+[our tweet](https://twitter.com/WalletScrutiny/status/1369071552722010121).
+
+# The original analysis
 
 This app claims on Google Play:
 

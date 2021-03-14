@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.dowallet.dowallet
+appCountry: 
 idd: 1451010841
 released: 2019-02-03
 updated: 2021-02-23

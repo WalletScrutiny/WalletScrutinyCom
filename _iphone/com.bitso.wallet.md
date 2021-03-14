@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.bitso.wallet
+appCountry: 
 idd: 1292836438
 released: 2018-02-19
 updated: 2020-12-25
 version: "2.16.0"
-score: 3.66667
-reviews: 36
+score: 3.7027
+reviews: 37
 size: 93405184
 developerWebsite: https://bitso.com/app
 repository: 

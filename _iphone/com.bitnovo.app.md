@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitnovo.app
+appCountry: 
 idd: 1220883632
 released: 2017-05-19
 updated: 2021-02-25

@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.huobi.appStoreHuobiSystem
+appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2021-03-03
-version: "6.1.8"
-score: 4.80049
-reviews: 2862
-size: 212381696
+updated: 2021-03-12
+version: "6.2.0"
+score: 4.79307
+reviews: 2885
+size: 213118976
 developerWebsite: http://www.hbg.com
 repository: 
 issue: 

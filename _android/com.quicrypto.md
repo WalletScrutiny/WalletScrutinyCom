@@ -1,15 +1,17 @@
 ---
+wsId: 
 title: "Quicrypto: Earn Crypto & Free Bitcoin"
 altTitle: 
+authors:
 
 users: 100000
 appId: com.quicrypto
 launchDate: 
-latestUpdate: 2020-11-23
-apkVersionName: "2.77.1"
-stars: 4.3
-ratings: 3158
-reviews: 2005
+latestUpdate: 2021-03-03
+apkVersionName: "3.1.0"
+stars: 3.9
+ratings: 4282
+reviews: 2648
 size: 26M
 website: http://www.quicrypto.com
 repository: 
@@ -18,7 +20,7 @@ icon: com.quicrypto.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

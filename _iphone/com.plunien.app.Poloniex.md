@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.plunien.app.Poloniex
+appCountry: 
 idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
-version: "1.14.2"
-score: 4.60642
-reviews: 1964
-size: 86743040
+version: "1.15.0"
+score: 4.60682
+reviews: 1966
+size: 86738944
 developerWebsite: https://www.poloniex.com
 repository: 
 issue: 

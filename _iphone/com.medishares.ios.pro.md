@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.medishares.ios.pro
+appCountry: 
 idd: 1383637331
 released: 2019-04-30
 updated: 2019-07-10

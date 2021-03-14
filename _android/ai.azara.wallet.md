@@ -4,21 +4,21 @@ title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: ai.azara.wallet
 launchDate: 
-latestUpdate: 2021-02-21
-apkVersionName: "0.01.08"
+latestUpdate: 2021-03-11
+apkVersionName: "0.01.10"
 stars: 4.5
-ratings: 34
-reviews: 32
-size: 45M
+ratings: 47
+reviews: 45
+size: 44M
 website: 
 repository: 
 issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
 reviewStale: true
 signer: 

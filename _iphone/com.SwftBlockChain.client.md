@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.SwftBlockChain.client
+appCountry: 
 idd: 1435569339
 released: 2018-09-28
-updated: 2021-02-24
-version: "5.10.9"
+updated: 2021-03-11
+version: "5.10.11"
 score: 4.57463
 reviews: 134
-size: 112080896
+size: 112105472
 developerWebsite: 
 repository: 
 issue: 

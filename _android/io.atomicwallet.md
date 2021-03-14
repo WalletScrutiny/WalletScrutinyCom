@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: io.atomicwallet
 launchDate: 2019-01-30
-latestUpdate: 2021-02-22
-apkVersionName: "0.72.1"
+latestUpdate: 2021-03-04
+apkVersionName: "0.72.2"
 stars: 4.2
-ratings: 25657
-reviews: 13278
+ratings: 27112
+reviews: 13941
 size: 14M
 website: https://atomicwallet.io
 repository: 
@@ -20,7 +20,7 @@ icon: io.atomicwallet.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-02
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-10-12

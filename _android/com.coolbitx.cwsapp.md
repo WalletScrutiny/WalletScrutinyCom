@@ -1,16 +1,18 @@
 ---
+wsId: 
 title: "CoolBitX Crypto"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.coolbitx.cwsapp
 launchDate: 
-latestUpdate: 2020-12-04
-apkVersionName: "2.8.0"
-stars: 4.6
-ratings: 484
-reviews: 231
-size: 63M
+latestUpdate: 2021-02-26
+apkVersionName: "2.13.0"
+stars: 4.3
+ratings: 600
+reviews: 270
+size: 66M
 website: http://coolwallet.io
 repository: 
 issue: 
@@ -18,7 +20,7 @@ icon: com.coolbitx.cwsapp.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

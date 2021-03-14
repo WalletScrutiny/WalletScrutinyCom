@@ -1,16 +1,18 @@
 ---
-title: "Delta - Bitcoin & Cryptocurrency Portfolio Tracker"
+wsId: 
+title: "Delta Investment Portfolio Tracker"
 altTitle: 
+authors:
 
 users: 500000
 appId: io.getdelta.android
 launchDate: 
-latestUpdate: 2020-11-18
-apkVersionName: "3.6.1"
-stars: 4.5
-ratings: 17258
-reviews: 6577
-size: 59M
+latestUpdate: 2021-03-05
+apkVersionName: "4.0.7"
+stars: 3.9
+ratings: 18300
+reviews: 7151
+size: 39M
 website: 
 repository: 
 issue: 

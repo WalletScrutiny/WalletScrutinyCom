@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.goabra.abra
+appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2021-03-03
-version: "93.0.0"
-score: 4.56243
-reviews: 13212
-size: 105069568
+updated: 2021-03-13
+version: "93.2.0"
+score: 4.55793
+reviews: 13396
+size: 105090048
 developerWebsite: 
 repository: 
 issue: 

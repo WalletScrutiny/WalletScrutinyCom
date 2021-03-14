@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-02
 apkVersionName: "1.16"
 stars: 4.2
-ratings: 1817
-reviews: 877
+ratings: 1956
+reviews: 957
 size: 43M
 website: https://www.bybit.com
 repository: 

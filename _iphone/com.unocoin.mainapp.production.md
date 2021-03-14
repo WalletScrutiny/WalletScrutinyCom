@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.unocoin.mainapp.production
+appCountry: 
 idd: 1030422972
 released: 2016-05-12
 updated: 2021-01-20

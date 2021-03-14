@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: za.co.Bitx
+appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2021-02-25
-version: "7.8.0"
-score: 4.43365
-reviews: 3120
-size: 89120768
+updated: 2021-03-10
+version: "7.9.0"
+score: 4.43322
+reviews: 3137
+size: 92919808
 developerWebsite: https://www.luno.com
 repository: 
 issue: 

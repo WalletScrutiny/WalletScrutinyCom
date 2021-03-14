@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.spot.spot
 launchDate: 
-latestUpdate: 2021-02-26
-apkVersionName: "4.24.3.2502-d36f7ad3"
-stars: 4.4
-ratings: 3673
-reviews: 1789
+latestUpdate: 2021-03-10
+apkVersionName: "4.25.3.2536-1bdc4cb1"
+stars: 4.3
+ratings: 3730
+reviews: 1821
 size: 65M
 website: https://www.spot-bitcoin.com
 repository: 

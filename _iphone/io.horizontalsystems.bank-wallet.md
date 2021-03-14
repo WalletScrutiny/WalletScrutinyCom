@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: io.horizontalsystems.bank-wallet
+appCountry: 
 idd: 1447619907
 released: 2019-01-10
 updated: 2021-02-17
 version: "0.19.1"
-score: 4.6861
-reviews: 223
+score: 4.68103
+reviews: 232
 size: 43611136
 developerWebsite: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.app.paytomat.wallet
+appCountry: 
 idd: 1415300709
 released: 2018-08-12
 updated: 2021-02-03

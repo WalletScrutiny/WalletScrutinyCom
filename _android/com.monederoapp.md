@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.monederoapp.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-30
 reviewStale: true
 signer: 

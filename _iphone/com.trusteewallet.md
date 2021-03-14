@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.trusteewallet
+appCountry: 
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-02-24
-version: "1.40.772"
+updated: 2021-03-09
+version: "1.40.784"
 score: 4.33333
 reviews: 6
-size: 63746048
+size: 63811584
 developerWebsite: https://trustee.deals/
 repository: 
 issue: 

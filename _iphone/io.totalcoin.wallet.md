@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.totalcoin.wallet
+appCountry: 
 idd: 1392398906
 released: 2018-07-05
 updated: 2021-01-27

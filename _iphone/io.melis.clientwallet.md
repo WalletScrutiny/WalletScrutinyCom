@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.melis.clientwallet
+appCountry: 
 idd: 1176840794
 released: 2017-06-07
 updated: 2021-03-03

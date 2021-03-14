@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.eidoo.wallet.prodnet
+appCountry: 
 idd: 1279896253
 released: 2017-09-23
 updated: 2021-02-23

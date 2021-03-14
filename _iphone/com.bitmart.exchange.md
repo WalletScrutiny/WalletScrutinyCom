@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.bitmart.exchange
+appCountry: 
 idd: 1396382871
 released: 2018-08-02
 updated: 2021-02-05
 version: "2.4.5"
-score: 3.31579
-reviews: 57
+score: 3.25424
+reviews: 59
 size: 176228352
 developerWebsite: https://www.bitmart.com/
 repository: 

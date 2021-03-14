@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Buy Bitcoin - Best Bitcoin Exchange- BTC Platforms"
 altTitle: 
+authors:
 
 users: 1000
 appId: com.bitcoinexchangehani.buybitcoin
@@ -16,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
 reviewStale: false
 signer: 

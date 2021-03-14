@@ -7,15 +7,15 @@ authors:
 users: 1000000
 appId: com.bitpay.wallet
 launchDate: 2016-10-01
-latestUpdate: 2021-02-15
-apkVersionName: "12.1.0"
-stars: 3.9
-ratings: 8139
-reviews: 3869
-size: 29M
+latestUpdate: 2021-03-05
+apkVersionName: "12.3.2"
+stars: 3.8
+ratings: 8219
+reviews: 3908
+size: 31M
 website: https://bitpay.com
-repository: https://github.com/bitpay/copay
-issue: https://github.com/bitpay/copay/issues/10425
+repository: https://github.com/bitpay/wallet
+issue: https://github.com/bitpay/wallet/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct

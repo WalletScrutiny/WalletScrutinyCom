@@ -1,22 +1,24 @@
 ---
+wsId: 
 title: "HandCash"
 altTitle: 
+authors:
 
-users: 5000
+users: 10000
 appId: io.handcash.wallet
 launchDate: 2019-09-10
-latestUpdate: 2020-06-11
-apkVersionName: "2.1.4"
+latestUpdate: 2021-03-04
+apkVersionName: "2.5.10"
 stars: 4.2
-ratings: 226
-reviews: 167
-size: 31M
+ratings: 380
+reviews: 251
+size: 33M
 website: https://handcash.io
 repository: 
 issue: 
 icon: io.handcash.wallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: true
 signer: 

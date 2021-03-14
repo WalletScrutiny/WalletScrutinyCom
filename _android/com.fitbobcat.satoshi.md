@@ -1,22 +1,24 @@
 ---
+wsId: 
 title: "Satoshi Wallet App"
 altTitle: 
+authors:
 
-users: 1000
+users: 5000
 appId: com.fitbobcat.satoshi
 launchDate: 2018-01-16
 latestUpdate: 2018-01-16
 apkVersionName: "1.0"
-stars: 4
-ratings: 18
-reviews: 10
+stars: 3.7
+ratings: 23
+reviews: 14
 size: 3.0M
 website: https://www.satoshiera.com
 repository: 
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
 reviewStale: false
 signer: 

@@ -1,14 +1,16 @@
 ---
+wsId: 
 title: "BitBoxApp"
 altTitle: 
+authors:
 
 users: 1000
 appId: ch.shiftcrypto.bitboxapp
 launchDate: 
-latestUpdate: 2020-12-12
-apkVersionName: "android-4.24.1"
-stars: 4.6
-ratings: 14
+latestUpdate: 2021-02-25
+apkVersionName: "android-4.26.0"
+stars: 4.7
+ratings: 19
 reviews: 8
 size: 63M
 website: https://shiftcrypto.ch/app
@@ -18,7 +20,7 @@ icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -29,6 +31,7 @@ providerFacebook: Shiftcrypto
 providerReddit: 
 
 redirect_from:
+
 ---
 
 

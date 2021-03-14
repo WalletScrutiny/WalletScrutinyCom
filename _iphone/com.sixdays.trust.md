@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.sixdays.trust
+appCountry: 
 idd: 1288339409
 released: 2017-09-27
-updated: 2021-02-24
-version: "5.15"
-score: 4.80152
-reviews: 22642
-size: 39868416
+updated: 2021-03-13
+version: "5.17"
+score: 4.80338
+reviews: 24046
+size: 40115200
 developerWebsite: https://trustwallet.com
 repository: 
 issue: 

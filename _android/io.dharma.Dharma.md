@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Dharma — DeFi Investing"
 altTitle: 
+authors:
 
 users: 10000
 appId: io.dharma.Dharma
@@ -8,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-23
 apkVersionName: "1.0.20"
 stars: 3.3
-ratings: 205
-reviews: 130
+ratings: 212
+reviews: 137
 size: 57M
 website: https://www.dharma.io
 repository: 

@@ -1,16 +1,18 @@
 ---
+wsId: 
 title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
+authors:
 
 users: 10000
 appId: co.decrypt.app
 launchDate: 
-latestUpdate: 2020-10-07
-apkVersionName: "1.1.5"
-stars: 4.6
-ratings: 165
-reviews: 66
-size: 28M
+latestUpdate: 2021-03-12
+apkVersionName: "2.1.1"
+stars: 3.8
+ratings: 465
+reviews: 210
+size: 34M
 website: 
 repository: 
 issue: 
@@ -18,7 +20,7 @@ icon: co.decrypt.app.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

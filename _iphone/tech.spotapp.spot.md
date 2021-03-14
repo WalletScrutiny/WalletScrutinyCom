@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: tech.spotapp.spot
+appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2021-02-16
-version: "3.1"
-score: 4.6196
-reviews: 2776
-size: 83738624
+updated: 2021-03-11
+version: "3.1.2"
+score: 4.61811
+reviews: 2883
+size: 81015808
 developerWebsite: https://spot-bitcoin.com
 repository: 
 issue: 

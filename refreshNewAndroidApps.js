@@ -1,6 +1,7 @@
 // run this via sh script via docker
 
 const fs = require('fs')
+const helper = require('./scripts/helperPlayStore.js')
 
 const newAppIds = process.argv.slice(2)
 
@@ -15,7 +16,16 @@ newAppIds.forEach(function(appId) {
 appId: ${appId}
 verdict: wip
 ---
-`)
+`,
+        function(err) {
+          if (err)
+            console.error(`Error with id ${idd}: ${err}`)
+          console.log(`Success: ${path}`)
+          helper.refreshFile(`${appId}.md`)
+        })
+      } else {
+        console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
+        helper.refreshFile(`${appId}.md`)
       }
     })
 })

@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.counos.wallet
+appCountry: 
 idd: 1408806845
 released: 2018-08-01
 updated: 2020-04-28

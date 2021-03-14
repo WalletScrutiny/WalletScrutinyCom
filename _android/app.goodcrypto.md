@@ -1,16 +1,18 @@
 ---
+wsId: 
 title: "Good Crypto: one trading app for all exchanges"
 altTitle: 
+authors:
 
-users: 10000
+users: 50000
 appId: app.goodcrypto
 launchDate: 
-latestUpdate: 2020-11-05
-apkVersionName: "1.5"
+latestUpdate: 2021-02-25
+apkVersionName: "1.6.2"
 stars: 4.4
-ratings: 123
-reviews: 67
-size: 17M
+ratings: 317
+reviews: 141
+size: 23M
 website: https://goodcrypto.app
 repository: 
 issue: 
@@ -18,7 +20,7 @@ icon: app.goodcrypto.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

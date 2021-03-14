@@ -1,3 +1,4 @@
+process.env.TZ = 'UTC' // fix timezone issues
 const btcpay = require('btcpay')
 const key = process.argv[2]
 const keypair = btcpay.crypto.load_keypair(new Buffer.from(key, 'hex'))

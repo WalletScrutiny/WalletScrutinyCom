@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: us.binance.fiat
+appCountry: 
 idd: 1492670702
 released: 2020-01-05
-updated: 2021-02-11
-version: "2.3.2"
-score: 4.22837
-reviews: 22690
-size: 118355968
+updated: 2021-03-12
+version: "2.3.4"
+score: 4.22921
+reviews: 25291
+size: 118333440
 developerWebsite: https://www.binance.us
 repository: 
 issue: 

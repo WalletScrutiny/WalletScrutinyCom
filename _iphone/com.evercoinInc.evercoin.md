@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.evercoinInc.evercoin
+appCountry: 
 idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30

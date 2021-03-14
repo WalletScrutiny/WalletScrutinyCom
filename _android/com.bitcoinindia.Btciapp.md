@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.bitcoinindia.Btciapp
 launchDate: 
-latestUpdate: 2021-02-19
-apkVersionName: "3.1.33"
-stars: 2.7
-ratings: 1070
-reviews: 774
+latestUpdate: 2021-03-06
+apkVersionName: "3.1.39"
+stars: 2.8
+ratings: 1096
+reviews: 786
 size: 11M
 website: https://www.bitcoin-india.org
 repository: 

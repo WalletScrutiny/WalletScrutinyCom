@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.jackmallers.zap
+appCountry: 
 idd: 1406311960
 released: 2019-04-27
 updated: 2020-08-03

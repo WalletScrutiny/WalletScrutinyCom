@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: net.coinpayments.coinpaymentsapp
+appCountry: 
 idd: 1162855939
 released: 2019-02-07
 updated: 2021-01-21
 version: "2.2.1"
-score: 4.09375
-reviews: 32
+score: 4.1212
+reviews: 33
 size: 133352448
 developerWebsite: https://www.coinpayments.net/
 repository: 

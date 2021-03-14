@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: de.fuf.bitbucks-io
+appCountry: 
 idd: 1453167599
 released: 2019-06-15
-updated: 2020-09-21
-version: "1.3.2"
+updated: 2021-03-08
+version: "1.4.0"
 score: 1
 reviews: 1
-size: 26070016
+size: 27442176
 developerWebsite: https://www.bitbucks.io
 repository: 
 issue: 

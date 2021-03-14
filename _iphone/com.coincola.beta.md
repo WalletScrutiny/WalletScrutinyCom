@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.coincola.beta
+appCountry: 
 idd: 1234231551
 released: 2017-06-06
 updated: 2021-02-09
 version: "4.7.3"
-score: 4.61733
-reviews: 277
+score: 4.60432
+reviews: 278
 size: 148685824
 developerWebsite: https://www.coincola.com
 repository: 

@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.nexobank.wallet
+appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2021-02-26
-version: "1.3.4"
-score: 4.00391
-reviews: 256
-size: 34241536
+updated: 2021-03-09
+version: "1.4.1"
+score: 3.94891
+reviews: 274
+size: 34352128
 developerWebsite: https://nexo.io
 repository: 
 issue: 

@@ -1,5 +1,5 @@
 ---
-wsId: blockchainWallet
+wsId: 
 title: "Blockchain Wallet"
 altTitle: 
 

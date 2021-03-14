@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.bitpie.wallet
+appCountry: 
 idd: 1481314229
 released: 2019-10-01
-updated: 2021-02-08
-version: "5.0.014"
-score: 3.21053
-reviews: 19
-size: 275794944
+updated: 2021-03-04
+version: "5.0.016"
+score: 3.19048
+reviews: 21
+size: 275860480
 developerWebsite: 
 repository: 
 issue: 

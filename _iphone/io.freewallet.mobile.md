@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.freewallet.mobile
+appCountry: 
 idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18

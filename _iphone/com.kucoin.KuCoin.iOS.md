@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.kucoin.KuCoin.iOS
+appCountry: 
 idd: 1378956601
 released: 2018-05-14
-updated: 2021-02-27
-version: "3.28.0"
-score: 3.69505
-reviews: 364
-size: 197790720
+updated: 2021-03-06
+version: "3.28.1"
+score: 4.16948
+reviews: 649
+size: 245865472
 developerWebsite: 
 repository: 
 issue: 

@@ -1,22 +1,24 @@
 ---
+wsId: 
 title: "Electroneum"
 altTitle: 
+authors:
 
 users: 1000000
 appId: com.electroneum.mobile
 launchDate: 
-latestUpdate: 2020-06-19
-apkVersionName: "4.6.5"
-stars: 3.1
-ratings: 54788
-reviews: 35784
-size: 15M
+latestUpdate: 2021-02-16
+apkVersionName: "5.0.0"
+stars: 2.5
+ratings: 57104
+reviews: 36789
+size: 18M
 website: 
 repository: 
 issue: 
 icon: com.electroneum.mobile.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-08
 reviewStale: true
 signer: 

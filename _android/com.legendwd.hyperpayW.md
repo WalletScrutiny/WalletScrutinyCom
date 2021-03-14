@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "HyperPay Mobile wallet"
+title: "HyperPay: Crypto & BTC Wallet"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.legendwd.hyperpayW
 launchDate: 
-latestUpdate: 2021-02-26
-apkVersionName: "4.0.17"
-stars: 3.6
-ratings: 836
-reviews: 620
-size: 101M
+latestUpdate: 2021-03-12
+apkVersionName: "4.0.19"
+stars: 3.5
+ratings: 863
+reviews: 634
+size: 102M
 website: https://hyperpay.tech
 repository: 
 issue: 

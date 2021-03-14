@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.polispay.polispay
+appCountry: 
 idd: 1351572060
 released: 2019-02-20
 updated: 2021-01-03

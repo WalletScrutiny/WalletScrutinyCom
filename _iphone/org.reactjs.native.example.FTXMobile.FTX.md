@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: org.reactjs.native.example.FTXMobile.FTX
+appCountry: 
 idd: 1512374471
 released: 2020-05-20
 updated: 2021-01-21

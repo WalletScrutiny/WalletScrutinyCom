@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.shapeShift.shapeShift
+appCountry: 
 idd: 996569075
 released: 2015-06-09
 updated: 2021-03-02
 version: "2.12.0"
-score: 2.97105
-reviews: 380
+score: 2.94911
+reviews: 393
 size: 77875200
 developerWebsite: https://shapeshift.com
 repository: 

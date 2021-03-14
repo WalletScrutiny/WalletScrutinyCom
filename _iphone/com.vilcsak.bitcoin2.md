@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.vilcsak.bitcoin2
+appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2021-03-01
-version: "9.13.1"
-score: 4.67802
-reviews: 1036722
-size: 69262336
+updated: 2021-03-08
+version: "9.14.2"
+score: 4.67855
+reviews: 1049879
+size: 69610496
 developerWebsite: http://www.coinbase.com
 repository: 
 issue: 

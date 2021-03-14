@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.iwallet.iwallet
+appCountry: 
 idd: 1479545928
 released: 2019-09-14
 updated: 2021-02-23

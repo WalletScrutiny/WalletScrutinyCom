@@ -9,9 +9,9 @@ appId: com.m2049r.xmrwallet
 launchDate: 
 latestUpdate: 2021-02-20
 apkVersionName: "1.17.7 'Druk'"
-stars: 3.1
-ratings: 638
-reviews: 387
+stars: 3.2
+ratings: 647
+reviews: 394
 size: Varies with device
 website: https://monerujo.io
 repository: 

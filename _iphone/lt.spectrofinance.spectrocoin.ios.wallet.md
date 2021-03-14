@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: lt.spectrofinance.spectrocoin.ios.wallet
+appCountry: 
 idd: 923696089
 released: 2014-12-30
 updated: 2020-12-18

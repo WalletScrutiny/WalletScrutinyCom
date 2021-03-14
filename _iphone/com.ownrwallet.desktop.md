@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.ownrwallet.desktop
+appCountry: 
 idd: 1520395378
 released: 2020-08-13
 updated: 2021-02-25

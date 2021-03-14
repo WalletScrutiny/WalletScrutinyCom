@@ -5,13 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.crypto.multiwallet
+appCountry: 
 idd: 1442083982
 released: 2018-12-01
-updated: 2021-02-21
-version: "2.21.2"
-score: 4.25269
-reviews: 372
-size: 127626240
+updated: 2021-03-06
+version: "2.22.13"
+score: 4.25263
+reviews: 380
+size: 127719424
 developerWebsite: https://guarda.com/mobile-wallet
 repository: 
 issue: 

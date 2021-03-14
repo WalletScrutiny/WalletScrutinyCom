@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: walletapp.safepal.io
+appCountry: 
 idd: 1548297139
 released: 2021-01-11
 updated: 2021-02-25
 version: "2.5.7"
-score: 3.97872
-reviews: 47
+score: 3.88
+reviews: 50
 size: 113358848
 developerWebsite: https://www.safepal.io/
 repository: 

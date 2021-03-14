@@ -1,15 +1,17 @@
 ---
+wsId: 
 title: "KyberSwap: Buy, Trade, Transfer Cryptocurrencies"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.kyberswap.android
 launchDate: 
-latestUpdate: 2020-10-16
-apkVersionName: "1.1.33"
+latestUpdate: 2021-01-29
+apkVersionName: "1.1.35"
 stars: 4.2
-ratings: 1714
-reviews: 824
+ratings: 1774
+reviews: 856
 size: 19M
 website: https://kyberswap.com
 repository: 

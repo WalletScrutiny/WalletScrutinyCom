@@ -4,14 +4,14 @@ title: "Casa App - Secure your Bitcoin"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2021-03-02
-apkVersionName: "2.32.2"
-stars: 4.4
-ratings: 74
-reviews: 18
+latestUpdate: 2021-03-10
+apkVersionName: "2.33.0"
+stars: 4.2
+ratings: 81
+reviews: 24
 size: 29M
 website: https://keys.casa
 repository: 

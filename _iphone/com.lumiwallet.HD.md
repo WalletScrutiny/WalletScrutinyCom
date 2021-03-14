@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 appId: com.lumiwallet.HD
+appCountry: 
 idd: 1316477906
 released: 2017-12-08
 updated: 2021-03-03
 version: "3.9.8"
-score: 4.85995
-reviews: 3256
+score: 4.86372
+reviews: 3390
 size: 74719232
 developerWebsite: https://lumiwallet.com/
 repository: 
