@@ -23,14 +23,14 @@ window.sortedWallets.forEach(function (e) {
       readerRec.push(n)
     } else {
       window.orderedObs[i]['test'] = 'hello';
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] ? window.orderedObs[i]['versions'].push(e) : [e];
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e];
       window.orderedObs[i]['ignore'] = true;
     }
   }
 })
 
 window.determineIconTag = function (e) {
-  if (!e) { return false; }
+  if (!e) { return; }
   
   var css;
   switch (e) {
