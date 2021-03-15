@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.adenter.mercurycash
 launchDate: 
-latestUpdate: 2021-03-08
-apkVersionName: "5.0.1"
+latestUpdate: 2021-03-15
+apkVersionName: "5.0.2"
 stars: 4.0
 ratings: 180
 reviews: 128

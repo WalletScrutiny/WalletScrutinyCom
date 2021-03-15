@@ -8,11 +8,11 @@ appId: com.bittrex.trade
 appCountry: 
 idd: 1465314783
 released: 2019-12-19
-updated: 2021-02-02
-version: "1.13.1"
-score: 2.27823
-reviews: 248
-size: 62560256
+updated: 2021-03-15
+version: "1.13.2"
+score: 2.27091
+reviews: 251
+size: 73580544
 developerWebsite: https://global.bittrex.com
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.bittrex.trade.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

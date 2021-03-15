@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.m2049r.xmrwallet
 launchDate: 
-latestUpdate: 2021-02-20
-apkVersionName: "1.17.7 'Druk'"
+latestUpdate: 2021-03-15
+apkVersionName: "1.17.12 'Druk'"
 stars: 3.2
-ratings: 647
+ratings: 648
 reviews: 394
 size: Varies with device
 website: https://monerujo.io
@@ -20,7 +20,7 @@ icon: com.m2049r.xmrwallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-27
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
