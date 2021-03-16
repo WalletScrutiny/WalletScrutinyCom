@@ -182,7 +182,8 @@ document.getElementById("SwitchToDownloadsView") && (
     document.getElementById("proportionalViewContainer") && (
       document.getElementById("proportionalViewContainer").classList.add("selected")
     )
-})
+  }),
+  updateModularPayload()
 )
 
 document.getElementById("SwitchToWalletsView") && (
@@ -193,5 +194,6 @@ document.getElementById("SwitchToWalletsView") && (
     document.getElementById("walletsPerCatContainer") && (
       document.getElementById("walletsPerCatContainer").classList.add("selected")
     )
-})
+  }),
+  updateModularPayload()
 )
