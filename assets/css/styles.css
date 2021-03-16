@@ -391,7 +391,6 @@ pre.highlight code {
   display: flex;
   position: relative;
   overflow-x: scroll;
-  /* scroll-snap-type: x mandatory; */
   margin-top: -10px;
   padding-bottom: 35px;
   transform: translateY(30px);
@@ -406,7 +405,6 @@ pre.highlight code {
   display: inline-grid;
   grid-template-columns: 1fr auto;
   text-decoration: none;
-  /* scroll-snap-align: start; */
   align-items: center;
 }
 
@@ -646,14 +644,12 @@ h2.section-label > a:hover{opacity:1}
   background: var(--white, var(--white));
   box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  /* scroll-snap-type: inline; */
   scrollbar-width: thin;
 }
 
 .results-list li {
   padding: .75rem;
   margin: 0;
-  /* scroll-snap-align: start; */
 }
 
 .results-list li.actionable {
@@ -731,14 +727,26 @@ h2.section-label > a:hover{opacity:1}
 
 .-hom {
   border-radius: 1rem;
-  /* background: linear-gradient(90deg, transparent, var(--shadow-2)); */
-  box-shadow: inset -10px -10px .75rem -.75rem var(--gauze), inset 5px 5px 2rem -.5rem var(--shadow-2);
+
   overflow: hidden;
 }
 
 .-hom .result-pl-inner:hover {
   color: var(--permanent-white);
 }
+
+.-hom .result-pl-inner:first-of-type:hover {
+  color: var(--permanent-black);
+  background: var(--accent);
+  padding-bottom: .5rem;
+}
+
+.-hom .result-pl-inner:last-of-type:hover {
+  color: var(--permanent-black);
+  background: var(--accent);
+  padding-top: .5rem;
+}
+
 
 @media (max-width:756px) {}
 
@@ -758,6 +766,7 @@ h2.section-label > a:hover{opacity:1}
   overflow: hidden;
   text-align: center;
   column-gap: .3rem;
+  z-index:1
 }
 
 .badge-2::before, .badge-2::after {
@@ -803,6 +812,10 @@ h2.section-label > a:hover{opacity:1}
 
 .results-list li:hover, .results-list li:active {
   background: var(--accent-text);
+}
+
+.results-list li:hover .-hom, .results-list li:active .-hom, .results-list li:focus .-hom {
+  background: var(--body);
 }
 
 .results-list li:focus {
@@ -1179,7 +1192,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   border: 0;
   background: var(--white);
   color: var(--accent);
-  /* padding: 1rem; */
 }
 
 .flex-r {
