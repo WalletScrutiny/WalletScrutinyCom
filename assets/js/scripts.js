@@ -113,12 +113,12 @@ function updateModularPayload() {
                     </span>
                   </td>
                 </tr>
-                ${obj.downloads && ( `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>`)}
-                ${obj.users && obj.stars && (`<tr><td>Rating</td><td>${obj.stars && (`${obj.stars} stars by `)}${obj.users} users</td></tr>`)}
+                ${obj.downloads ? ( `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>`) : ``}
+                ${obj.users && obj.stars ? (`<tr><td>Rating</td><td>${obj.stars ? (`${obj.stars} stars by `) : ``}${obj.users} users</td></tr>`):``}
                 
-                ${obj.size && ( `<tr><td>App size</td><td>${obj.size}</td></tr>` )}
+                ${obj.size ? ( `<tr><td>App size</td><td>${obj.size}</td></tr>` ):``}
                 
-                ${obj.launchDate && (`<tr><td>Launched</td><td>${obj.launchDate}</td></tr>`)}
+                ${obj.launchDate ? (`<tr><td>Launched</td><td>${obj.launchDate}</td></tr>`):``}
                 
                 <tr><td>Reviewed</td><td>${obj.date}</td></tr>
 
@@ -129,7 +129,7 @@ function updateModularPayload() {
                 <tr><td>Website</td><td><a href="${obj.developerWebsite}">${obj.developerWebsite}</a></td></tr>
                 
                 <tr><td>Source Code</td><td><a href="${obj.repository}">${obj.repository}</a></td></tr>
-                ${obj.issue && (`<tr><td>Open Issue</td><td><a href="${obj.issue}">${obj.issue}</a></td></tr>`)}
+                ${obj.issue ? (`<tr><td>Open Issue</td><td><a href="${obj.issue}">${obj.issue}</a></td></tr>`):``}
                 
                 
                 
