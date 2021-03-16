@@ -515,7 +515,23 @@ pre.highlight code {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.15);
+  background: var(--nav);
+  opacity: 0;
+}
+
+.search-ui-active {
+  overflow: hidden;
+}
+
+.search-ui-active #exitSearchTrigger {
+  display: block !important;
+  animation: to50pc .4s ease forwards 1
+}
+
+@keyframes to50pc {
+  to {
+    opacity: .4;
+  }
 }
 
 .sidebar {
@@ -578,8 +594,12 @@ pre.highlight code {
 }
 
 h2.section-label {
-  text-align: center;
+  text-align: left;
+  font-size: 2.5rem;
 }
+
+h2.section-label > a{opacity:.4;margin-left:5px}
+h2.section-label > a:hover{opacity:1}
 
 .press::before {
   position: absolute;
@@ -683,11 +703,18 @@ h2.section-label {
   color: inherit;
   font-weight: 300;
   text-align: left;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr 25%;
   column-gap: .75rem;
   row-gap: 5px;
   padding-left: .75rem;
   padding-right: .75rem;
+}
+
+@media (max-width:920px) {
+  .result-pl-inner {
+    grid-template-columns: auto 1fr 125px;
+    font-size: .9rem;
+  }
 }
 
 .result-pl-inner:nth-of-type(1) {
@@ -718,8 +745,8 @@ h2.section-label {
 .badge-2 {
   color: var(--permanent-white);
   text-decoration: none;
-  border-radius: 100px;
-  padding: .5rem .75rem;
+  border-radius: 10px;
+  padding: .4rem .3rem .4rem .6rem;
   position: relative;
   font-size: 1rem;
   line-height: 1;
@@ -727,8 +754,10 @@ h2.section-label {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   overflow: hidden;
+  text-align: center;
+  column-gap: .3rem;
 }
 
 .badge-2::before, .badge-2::after {
@@ -753,7 +782,7 @@ h2.section-label {
 }
 
 .badge-2>span {
-  font-size: .6rem;
+  font-size: .7rem;
   font-weight: 800;
 }
 
@@ -819,29 +848,78 @@ table tr td label {
   line-break: anywhere;
 }
 
-.platformFilterContainer {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: auto auto;
+.fragmented-controls {
+  margin: 1rem;
+  display: inline-block;
+  border: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.fragmented-controls-master {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--body);
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.-disappearable {
+  transition: none;
+  animation: to100pc 1s ease forwards 1
+}
+
+@keyframes to100pc {from{opacity:0}to{opacity:1}}
+
+.section-label.fragmented-controls {
+  font-size: 1.2rem;
+  margin: .25rem;
+}
+
+#modularWalletPayload{transition: 1s ease;}
+#walletsPerCatContainer, #proportionalViewContainer{
+  display: unset;
+  visibility: hidden;
+  position: absolute;
+  z-index: -99;
+  opacity: 0;
+  transform-origin: center;
+  transform: scale(0);
+  transition: .2s ease;
+}
+#walletsPerCatContainer.selected, #proportionalViewContainer.selected{
+  visibility: visible;
   position: relative;
-  width: 100%;
+  z-index: unset;
+  animation: selectedGrow .4s ease forwards 1;
+}
+@keyframes selectedGrow{
+  from{
+    opacity: 0;
+    transform: scale(.9);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
-.platformFilterContainer .-filter-trigger, .platformFilterContainer>label {
-  grid-row: 1/2;
-  text-align: center;
+.switch-link-btn-long-string {
+  font-size: .9rem;
+  opacity: .5;
+  text-decoration: none !important;
+  transition: .2s ease;
+  cursor: pointer;
 }
 
-.platformFilterContainer .-filter-trigger:nth-of-type(1), .platformFilterContainer>label:nth-of-type(1) {
-  grid-column: 1/2;
-}
-
-.platformFilterContainer .-filter-trigger:nth-of-type(2), .platformFilterContainer>label:nth-of-type(2) {
-  grid-column: 2/3;
-}
-
-.platformFilterContainer .-filter-trigger:nth-of-type(3), .platformFilterContainer>label:nth-of-type(3) {
-  grid-column: 3/4;
+.switch-link-btn-long-string:hover {
+  opacity: 1;
 }
 
 #gridOfWallets1 {
@@ -958,26 +1036,10 @@ table tr td label {
   z-index: 2;
 }
 
-#gridOfWallets1 tr.-filter-element {
+#gridOfWallets1 tr.-filter-element:not(.-android) {
   display: none;
 }
 
-.-android:checked~#gridOfWallets1 tr.-android {
-  display: var(--grid-display-0, flex) !important;
-}
-
-.-iphone:checked~#gridOfWallets1 tr.-iphone {
-  display: var(--grid-display-0, flex) !important;
-}
-
-.-fdroid:checked~#gridOfWallets1 tr.-fdroid {
-  display: var(--grid-display-0, flex) !important;
-}
-
-.-android:checked~.-android, .-iphone:checked~.-iphone, .-fdroid:checked~.-fdroid {
-  color: var(--accent-text);
-  font-weight: 800;
-}
 
 /* END HERO */
 
@@ -1125,7 +1187,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   border: 0;
   background: var(--white);
   color: var(--accent);
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .flex-r {

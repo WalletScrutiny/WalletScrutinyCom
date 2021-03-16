@@ -1,19 +1,11 @@
-<div class="page-section">
+<div id="walletsPerCatContainer" class="page-section selected">
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
 {% assign posts = site.android | sort: "users" | reverse %}
-<div class="platformFilterContainer">
 
-  <input name="platform-filter" class="-filter-trigger -android" type="radio" checked="true">
-  <label class="-android"><i class="fab fa-google-play"></i>&nbsp;Play Store</label>
-
-  <input name="platform-filter" class="-filter-trigger -iphone" type="radio">
-  <label class="-iphone"><i class="fab fa-app-store"></i>&nbsp;App Store</label>
-
-  <input name="platform-filter" class="-filter-trigger -fdroid" type="radio">
-  <label class="-fdroid"><i class="fac fa-f-droid"></i>&nbsp;FDroid Catalogue</label>
-
+  <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
+<a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>
 
 <table id="gridOfWallets1" class="lazy">
   <tr>
@@ -73,5 +65,4 @@
   {% endfor %}
 </table>
 
-</div>
 </div>
