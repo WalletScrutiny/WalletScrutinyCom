@@ -721,6 +721,14 @@ h2.section-label > a:hover{opacity:1}
   padding-bottom: .75rem;
 }
 
+.-hom .result-pl-inner:nth-of-type(1) > .results-list-wallet-icon {
+  box-shadow: 0 calc((2rem + 4px) / 2) 0 5px var(--permanent-black), 0 0 0 5px var(--permanent-black);
+}
+
+.-hom .result-pl-inner:nth-of-type(2) > .results-list-wallet-icon {
+  box-shadow: 0 0 0 5px var(--permanent-black);
+}
+
 .-hom .result-pl-inner:last-of-type {
   margin-top: 5px;
 }
@@ -733,6 +741,10 @@ h2.section-label > a:hover{opacity:1}
 
 .-hom .result-pl-inner:hover {
   color: var(--permanent-white);
+}
+
+.-hom:hover .results-list-wallet-icon {
+  box-shadow: 0 0 0 5px var(--permanent-black) !important;
 }
 
 .-hom .result-pl-inner:first-of-type:hover {
