@@ -8,10 +8,10 @@ users: 100000
 appId: com.quicrypto
 launchDate: 
 latestUpdate: 2021-03-03
-apkVersionName: "3.1.0"
+apkVersionName: "3.2.0"
 stars: 3.9
-ratings: 4282
-reviews: 2648
+ratings: 4298
+reviews: 2654
 size: 26M
 website: http://www.quicrypto.com
 repository: 

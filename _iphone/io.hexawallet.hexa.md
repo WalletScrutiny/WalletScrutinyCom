@@ -10,8 +10,8 @@ idd: 1490205837
 released: 2020-03-16
 updated: 2021-03-09
 version: "1.4.6"
-score: 4.75
-reviews: 4
+score: 4.8
+reviews: 5
 size: 47130624
 developerWebsite: https://hexawallet.io/
 repository: 

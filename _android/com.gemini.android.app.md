@@ -9,9 +9,9 @@ appId: com.gemini.android.app
 launchDate: 
 latestUpdate: 2021-03-10
 apkVersionName: "3.6.0"
-stars: 4.4
-ratings: 5264
-reviews: 1887
+stars: 4.5
+ratings: 5393
+reviews: 1905
 size: Varies with device
 website: https://gemini.com
 repository: 

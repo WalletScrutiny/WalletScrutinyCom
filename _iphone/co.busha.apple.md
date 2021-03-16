@@ -10,8 +10,8 @@ idd: 1450373493
 released: 2019-02-03
 updated: 2021-03-05
 version: "2.6.8"
-score: 4.13333
-reviews: 45
+score: 4.06522
+reviews: 46
 size: 64758784
 developerWebsite: https://busha.co
 repository: 

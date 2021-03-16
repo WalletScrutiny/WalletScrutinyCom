@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.blockfolio.blockfolio
 launchDate: 2015-10-01
-latestUpdate: 2021-03-05
-apkVersionName: "3.0.16"
+latestUpdate: 2021-03-14
+apkVersionName: "3.0.17"
 stars: 4.5
-ratings: 129401
-reviews: 39341
+ratings: 129867
+reviews: 39483
 size: 53M
 website: https://www.blockfolio.com
 repository: 

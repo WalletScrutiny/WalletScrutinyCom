@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.sixpencer.simplework
 launchDate: 
-latestUpdate: 2021-02-27
-apkVersionName: "1.3.4"
+latestUpdate: 2021-03-12
+apkVersionName: "1.3.5"
 stars: 4.8
-ratings: 66
-reviews: 36
-size: 12M
+ratings: 75
+reviews: 38
+size: 13M
 website: 
 repository: 
 issue: 

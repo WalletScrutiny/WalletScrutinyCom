@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-01
 apkVersionName: "1.13.1"
 stars: 2.5
-ratings: 1099
-reviews: 715
+ratings: 1109
+reviews: 722
 size: 53M
 website: https://global.bittrex.com
 repository: 
