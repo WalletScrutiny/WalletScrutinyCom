@@ -9,8 +9,9 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
   s.setAttribute("oninput", "searchCatalogue(this)")
-  s.setAttribute("onkeyup", "focusResults(event)")
   s.setAttribute("onfocus", "heroUX(this)");
+  s.setAttribute("onmouseenter", "scOOff()");
+  s.setAttribute("onmouseleave", "scOOn()");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -36,12 +37,14 @@ document.getElementById("exitSearchTrigger").addEventListener("click", function 
 
 var scrPos = 0;
 var scrollOverride = 0;
-function captureScrollForSearch(e) {
+function captureScrollForSearch(e) {  
   scrPos = scrPos + e.deltaY;
   !scrollOverride && (
     document.querySelectorAll(".results-list")[0].scrollTop = scrPos
   )
 }
+function scOOff(){scrollOverride=0}
+function scOOn(){scrollOverride=1}
 
 function focusResults(e) {
   e.preventDefault()
