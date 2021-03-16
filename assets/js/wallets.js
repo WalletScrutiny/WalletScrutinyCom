@@ -11,20 +11,29 @@ window.verdictOrder = verdictOrder.split(",");
 window.platformObs = [];
 window.orderedObs = [];
 var readerRec = [];
+var _id = 0;
 window.sortedWallets.forEach(function (e) {
   if (e.category && window.platformObs.indexOf(e.category) < 0) { 
     window.platformObs.push(e.category)
-  }
-  var n = e.wsId ? String(e.wsId) : String(e.appId);
-  if (n) {
+  }// ? String(e.wsId) : String(e.appId);
+  if (e.wsId) {
+  var n = e.wsId;
     var i = readerRec.indexOf(n);
     if (n.length > 0 && i < 0) {
       window.orderedObs.push(e)
       readerRec.push(n)
     } else {
-      window.orderedObs[i]['test'] = 'hello';
       window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e];
       window.orderedObs[i]['ignore'] = true;
+    }
+  }
+  else if (e.appId && e.appId.length > 0) {
+    var n = e.appId;
+    _id++;
+    var i = readerRec.indexOf(_id);
+    if (n.length > 0 && i < 0) {
+      window.orderedObs.push(e)
+      readerRec.push(n)
     }
   }
 })
