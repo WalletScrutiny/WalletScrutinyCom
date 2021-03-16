@@ -37,9 +37,15 @@ author_profile: true
 
 {% include press.html %}
 
+<br>
+<div class="-sticky fragmented-controls-master">
+<h2 class="section-label fragmented-controls -disappearable">Showing <span id="modularVerdictPH">reproducible</span> </h2>
+<h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
+</div>
+<br>
 
-<h2 class="section-label" id="modularWalletControl">Showing <span id="modularVerdictPH">reproducible</span> wallets from 
-<span id="modularPlatformPH"></span></h2>
+<h2 class="section-label">Wallets Shortcuts&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
+
 
 <div id="modularWalletPayload">
 
@@ -55,12 +61,10 @@ author_profile: true
 </div>
 
 
-<h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets.html %}
 
 
-<h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 
 {% include grid_of_wallets_proportional.html %}
 

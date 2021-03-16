@@ -23,30 +23,35 @@ window.sortedWallets.forEach(function (e) {
       readerRec.push(n)
     } else {
       window.orderedObs[i]['test'] = 'hello';
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] ? window.orderedObs[i]['versions'].push(e) : [e];
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e];
       window.orderedObs[i]['ignore'] = true;
     }
   }
 })
 
-window.determineIconTag = function (e) {
-  if (!e) { return false; }
+window.transcribeTag = function (e) {
+  if (!e) { return; }
   
-  var css;
+  var css, category;
+
   switch (e) {
     case 'app store':
       css = 'app-store';
+      category = 'iphone'
       break;
     case 'play store':
       css = 'google-play';
+      category = 'android'
       break;
     case 'fdroid catalogue':
       css = 'f-droid';
+      category = 'fdroid'
       break;
       case 'windows':
         css = 'windows';
+      category = 'windows'
       break;
     default:
   }
-  return css;
+  return {css: css, category: category};
 }

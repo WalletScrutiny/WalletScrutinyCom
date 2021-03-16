@@ -1,8 +1,10 @@
-<div class="page-section">
+<div id="proportionalViewContainer" class="page-section">
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
 {% assign posts = site.android | sort: "users" | reverse %}
+  <h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
+<a class="switch-link-btn-long-string" id="SwitchToWalletsView">Switch to Wallets per Category&nbsp;<i class="fas fa-random"></i></a>
 <table id="gridOfWallets2">
   <tr>
     <td>

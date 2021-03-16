@@ -26,12 +26,22 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
 function exitSearch() {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
   document.querySelectorAll(".results-list")[0].style.display = "none";
-  document.getElementById("exitSearchTrigger").style.display = "none";
+  document.body.classList.remove("search-ui-active");
+  window.removeEventListener('wheel', captureScrollForSearch)
   searchInput.blur()
 }
 
 document.getElementById("exitSearchTrigger").addEventListener("mouseenter", function (event) { if (event.target != this) { return; } exitSearch() });
 document.getElementById("exitSearchTrigger").addEventListener("click", function (event) { if (event.target != this) { return; } exitSearch() })
+
+var scrPos = 0;
+var scrollOverride = 0;
+function captureScrollForSearch(e) {
+  scrPos = scrPos + e.deltaY;
+  !scrollOverride && (
+    document.querySelectorAll(".results-list")[0].scrollTop = scrPos
+  )
+}
 
 function focusResults(e) {
   e.preventDefault()
@@ -81,7 +91,7 @@ function searchCatalogue(termInput) {
             <span>${w.title}</span>
             
             <span class="badge-2 ${w.verdict}">
-                <i class="fab fa-${window.determineIconTag(w.category)}"></i>&nbsp;
+                <i class="fab fa-${window.transcribeTag(w.category).css}"></i>
                 <span>${w.verdict}</span>
             </span>
 
@@ -128,7 +138,12 @@ function heroUX(termInput) {
   if (termInput.value.length > 0) {
     searchCatalogue(termInput)
   }
-  document.getElementById("exitSearchTrigger").style.display = "block"
+  window.innerWidth > 700 && (
+    document.body.classList.add("search-ui-active"),
+    window.addEventListener('wheel', captureScrollForSearch),
+    document.querySelectorAll(".results-list")[0].addEventListener("mouseenter", function (e) { scrollOverride = 1 }),
+    document.querySelectorAll(".results-list")[0].addEventListener("mouseleave",function(e){scrollOverride=0})
+  )
 }
 
 function searchScrollToTop(termInput) {

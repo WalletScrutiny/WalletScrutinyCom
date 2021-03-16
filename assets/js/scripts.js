@@ -1,7 +1,3 @@
-// window.orderedObjects
-// window.verdictOrder
-
-
 if (document.getElementById("modularVerdictPH") && window.verdictOrder && window.verdictOrder.length > 0) {
   var s = document.createElement("select");
   s.setAttribute("id", "modularVerdict");
@@ -9,7 +5,7 @@ if (document.getElementById("modularVerdictPH") && window.verdictOrder && window
   
   var o = document.createElement("option");
   o.value = "all";
-  o.innerHTML = "All";
+  o.innerHTML = "all";
   s.append(o)
   
   window.verdictOrder.forEach(t => {
@@ -28,11 +24,6 @@ if (document.getElementById("modularPlatformPH") && window.platformObs && window
   s.setAttribute("id", "modularPlatform");
   s.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
   
-  var o = document.createElement("option");
-  o.value = "all";
-  o.innerHTML = "All Stores";
-  s.append(o)
-  
   window.platformObs.forEach(t => {
     var o = document.createElement("option");
     o.value = t;
@@ -48,6 +39,27 @@ function updateModularPayload() {
 
   var a = document.getElementById("modularVerdict") && document.getElementById("modularVerdict").value ? document.getElementById("modularVerdict").value : "reproducible";
   var b = document.getElementById("modularPlatform") && document.getElementById("modularPlatform").value ? document.getElementById("modularPlatform").value : "android";
+
+  document.querySelectorAll(".-filter-element").forEach(function (e) {
+    e.classList.contains(`-${window.transcribeTag(b).category}`) ? (e.style.display="flex") : (e.style.display="none")
+  })
+
+  b === 'play store' || b === 'android' ? (
+    document.getElementById("SwitchToDownloadsView") && (
+      document.getElementById("SwitchToDownloadsView").style.display = ""
+    )
+  ): (
+    document.getElementById("SwitchToDownloadsView") && (
+      document.getElementById("SwitchToDownloadsView").style.display = "none",
+        document.getElementById("walletsPerCatContainer") && (
+        document.getElementById("walletsPerCatContainer").classList.add("selected")
+        ),
+        document.getElementById("proportionalViewContainer") && (
+          document.getElementById("proportionalViewContainer").classList.remove("selected")
+        )
+    )
+    
+  )
 
   var d = document.createElement("div");
   d.classList.add("page-section");
@@ -102,7 +114,7 @@ function updateModularPayload() {
                   </td>
                 </tr>
                 ${obj.downloads && ( `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>`)}
-                ${obj.users && (`<tr><td>Rating</td><td>${obj.stars && (`${obj.stars} stars by `)}${obj.users} users</td></tr>`)}
+                ${obj.users && obj.stars && (`<tr><td>Rating</td><td>${obj.stars && (`${obj.stars} stars by `)}${obj.users} users</td></tr>`)}
                 
                 ${obj.size && ( `<tr><td>App size</td><td>${obj.size}</td></tr>` )}
                 
@@ -137,8 +149,49 @@ function updateModularPayload() {
   f.innerHTML = h.length == 0? `<h2>No wallets...</h2>` : h;
   d.append(g);
   d.append(f);
-  // document.getElementById("modularWalletPayload").append(m);
-  document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d);//f;
+  document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d);
 }
 
+window.addEventListener("scroll", function (e) {
+  var o = document.getElementById("modularWalletPayload").getBoundingClientRect().bottom;
+  document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top;
+  if (o <= 100) {
+    document.getElementById("modularWalletPayload").style.height = `${document.getElementById("modularWalletPayload").getBoundingClientRect().height}px`;
+    document.getElementById("modularWalletPayload").style.overflow = "hidden"
+    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
+      e.style.transform = `translateY(${o - 100}px)`;
+      e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
+    })
+  } else {
+    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
+      e.style.transform = `translateY(0px)`;
+      e.style.display = ""
+      document.getElementById("modularWalletPayload").style.height = "";
+      document.getElementById("modularWalletPayload").style.overflow = ""
+    })
+  }
+})
+
 updateModularPayload()
+
+document.getElementById("SwitchToDownloadsView") && (
+  document.getElementById("SwitchToDownloadsView").addEventListener("click", function (e) {
+    document.getElementById("walletsPerCatContainer") && (
+    document.getElementById("walletsPerCatContainer").classList.remove("selected")
+    )
+    document.getElementById("proportionalViewContainer") && (
+      document.getElementById("proportionalViewContainer").classList.add("selected")
+    )
+})
+)
+
+document.getElementById("SwitchToWalletsView") && (
+  document.getElementById("SwitchToWalletsView").addEventListener("click", function (e) {
+    document.getElementById("proportionalViewContainer") && (
+    document.getElementById("proportionalViewContainer").classList.remove("selected")
+    )
+    document.getElementById("walletsPerCatContainer") && (
+      document.getElementById("walletsPerCatContainer").classList.add("selected")
+    )
+})
+)
