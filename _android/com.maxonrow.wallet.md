@@ -3,6 +3,7 @@ wsId:
 title: "MAX-Wallet"
 altTitle: 
 authors:
+- leo
 
 users: 5000
 appId: com.maxonrow.wallet
@@ -18,11 +19,16 @@ repository:
 issue: 
 icon: com.maxonrow.wallet.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-30
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-03-17
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2019-12-30
+  version: 
+  apkHash: 
+  gitRevision: b75c3bd9d94b20365881eb5ec32b299d3c317f87
+  verdict: nobtc
 
 
 providerTwitter: maxonrow
@@ -31,8 +37,6 @@ providerFacebook: maxonrowblockchain
 providerReddit: 
 
 redirect_from:
-  - /com.maxonrow.wallet/
-  - /posts/com.maxonrow.wallet/
 ---
 
 

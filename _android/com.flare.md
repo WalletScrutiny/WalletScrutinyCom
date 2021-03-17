@@ -4,7 +4,7 @@ title: "Flare Wallet"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.flare
 launchDate: 2020-02-22
 latestUpdate: 2021-03-13
