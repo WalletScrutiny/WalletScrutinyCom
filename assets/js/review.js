@@ -51,11 +51,9 @@ if (document.getElementById("versions").hasAttribute("wsId")) {
   window.orderedObs.forEach(function (e) {
     if (e.wsId === cVId) {
       if (e.folder !== folder) {
-        console.log("folder", folder, e.folder)
         html+= `<a href="${e.url}"><b>${e.category}</b> version review available here.</a><br>`;
       }else if (e.versions) {
         e.versions.forEach(function (v) {
-          console.log("versions folder", folder, v.folder)
           html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`;
         })
       }
@@ -63,7 +61,6 @@ if (document.getElementById("versions").hasAttribute("wsId")) {
       if (e.versions && Array.isArray(e.versions)) {
         e.versions.forEach(function (v) {
           if (v.wsId === cVId) {
-            console.log("2nd versions folder", folder, v.folder)
             html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`;
           }
         })
