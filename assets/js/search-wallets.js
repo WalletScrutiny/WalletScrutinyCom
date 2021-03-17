@@ -5,7 +5,7 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   t.classList.add("walletSearch-parent")
   var s = document.createElement("input");
   var c = document.createElement("span");
-  c.setAttribute("onclick", "exitSearch()");
+  c.setAttribute("onclick", "exitSearch(1)");
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
   s.setAttribute("oninput", "searchCatalogue(this)")
@@ -24,15 +24,15 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
 
 
 
-function exitSearch() {
+function exitSearch(x) {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
   document.querySelectorAll(".results-list")[0].style.display = "none";
   document.body.classList.remove("search-ui-active");
   window.removeEventListener('wheel', captureScrollForSearch)
+  x && (searchInput.value = "");
   searchInput.blur()
 }
 
-document.getElementById("exitSearchTrigger").addEventListener("mouseenter", function (event) { if (event.target != this) { return; } exitSearch() });
 document.getElementById("exitSearchTrigger").addEventListener("click", function (event) { if (event.target != this) { return; } exitSearch() })
 
 var scrPos = 0;
