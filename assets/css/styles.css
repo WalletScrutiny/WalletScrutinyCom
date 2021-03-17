@@ -155,6 +155,11 @@ a {
   color: var(--accent-text);
 }
 
+#versions a b {
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
 a.sl {
   text-decoration: none;
 }
