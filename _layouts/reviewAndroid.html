@@ -229,7 +229,7 @@ layout: default
       {% endif %}
 
 
-      <div id="versions"></div>
+      <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
 
       <p>Our last analysis is based on data found in their
         <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
