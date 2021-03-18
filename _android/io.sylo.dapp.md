@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-11
 apkVersionName: "3.0.12-baking"
 stars: 4.3
-ratings: 564
-reviews: 290
+ratings: 565
+reviews: 291
 size: 334M
 website: https://www.sylo.io/wallet
 repository: 
