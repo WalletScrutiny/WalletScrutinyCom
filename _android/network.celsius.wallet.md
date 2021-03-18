@@ -1,6 +1,6 @@
 ---
 wsId: Celsius
-title: "Celsius - Crypto Wallet"
+title: "Celsius - Secure Crypto Wallet - BTC, ETH, USDT"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-20
 apkVersionName: "4.8.0"
 stars: 3.5
-ratings: 4285
-reviews: 3157
+ratings: 4292
+reviews: 3160
 size: 87M
 website: https://celsius.network
 repository: 
