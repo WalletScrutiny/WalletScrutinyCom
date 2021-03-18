@@ -4,15 +4,15 @@ title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: co.decrypt.app
 launchDate: 
-latestUpdate: 2021-03-12
-apkVersionName: "2.1.1"
-stars: 3.6
-ratings: 509
-reviews: 235
-size: 34M
+latestUpdate: 2021-03-16
+apkVersionName: "2.1.2"
+stars: 3.7
+ratings: 526
+reviews: 245
+size: 27M
 website: 
 repository: 
 issue: 

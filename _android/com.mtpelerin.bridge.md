@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.mtpelerin.bridge
 launchDate: 
-latestUpdate: 2021-03-08
+latestUpdate: 2021-03-17
 apkVersionName: "1.12"
 stars: 4.7
 ratings: 42

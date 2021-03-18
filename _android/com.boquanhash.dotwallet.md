@@ -9,9 +9,9 @@ appId: com.boquanhash.dotwallet
 launchDate: 
 latestUpdate: 2021-03-01
 apkVersionName: "2.2.2"
-stars: 3.8
-ratings: 10
-reviews: 6
+stars: 3.9
+ratings: 11
+reviews: 7
 size: 42M
 website: 
 repository: 

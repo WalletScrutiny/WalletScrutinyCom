@@ -4,7 +4,7 @@ title: "BitStash Wallet - Multi Cryptocurrency Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: app.odapplications.bitstashwallet
 launchDate: 
 latestUpdate: 2019-11-24

@@ -9,9 +9,9 @@ appId: com.dcash.wallet
 launchDate: 
 latestUpdate: 2020-07-27
 apkVersionName: "1.7.6"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 5
+reviews: 2
 size: 33M
 website: 
 repository: 

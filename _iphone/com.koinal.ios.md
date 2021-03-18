@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.koinal.ios
-appCountry: 
+appCountry: de
 idd: 1442764361
 released: 2020-06-08
 updated: 2021-03-10
