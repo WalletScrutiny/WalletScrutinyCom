@@ -9,9 +9,9 @@ appId: com.swipe.wallet
 launchDate: 
 latestUpdate: 2021-02-15
 apkVersionName: "1.530"
-stars: 3.5
-ratings: 1404
-reviews: 996
+stars: 3.4
+ratings: 1407
+reviews: 997
 size: 57M
 website: https://swipe.io
 repository: 

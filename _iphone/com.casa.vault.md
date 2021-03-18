@@ -8,8 +8,8 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2021-03-11
-version: "2.32.4"
+updated: 2021-03-18
+version: "2.33"
 score: 4.91064
 reviews: 235
 size: 42533888

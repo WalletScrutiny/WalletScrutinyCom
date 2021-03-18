@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.quppy
 launchDate: 
-latestUpdate: 2021-03-17
-apkVersionName: "1.0.46"
-stars: 4.2
-ratings: 1984
-reviews: 959
+latestUpdate: 2021-03-18
+apkVersionName: "1.0.47"
+stars: 4.1
+ratings: 1985
+reviews: 960
 size: 15M
 website: https://quppy.com
 repository: 

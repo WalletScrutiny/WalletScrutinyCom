@@ -10,8 +10,8 @@ launchDate: 2017-10-01
 latestUpdate: 2021-03-17
 apkVersionName: "1.27.8"
 stars: 4.6
-ratings: 200949
-reviews: 57819
+ratings: 201796
+reviews: 57947
 size: 32M
 website: https://trustwallet.com
 repository: 

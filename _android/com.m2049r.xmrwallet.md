@@ -11,7 +11,7 @@ latestUpdate: 2021-03-15
 apkVersionName: "1.17.12 'Druk'"
 stars: 3.2
 ratings: 648
-reviews: 394
+reviews: 393
 size: Varies with device
 website: https://monerujo.io
 repository: 
