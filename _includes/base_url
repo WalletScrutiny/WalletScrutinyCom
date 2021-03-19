@@ -1,0 +1,1 @@
+{% assign base_url = site.url %}
