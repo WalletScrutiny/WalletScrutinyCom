@@ -607,6 +607,7 @@ z-index: 1;
   align-items: center;
   margin: .5rem 0;
   font-weight: 300;
+  justify-content: center;
 }
 .press::before {
   position: absolute;
