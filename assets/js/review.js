@@ -43,31 +43,29 @@ function elapsedTime(d) {
   return max;
 
 }
-var s = String(window.location).split("/");
-var cVId = s[s.length-1].length > 0 ? s[s.length-1] : s[s.length - 2];
 
-window.orderedObs.forEach(function (e) {
-  if (e.appId === cVId) {
-    if (e.versions) {
-      // console.log(e)
-      e.versions.forEach(function (v) {
-        // console.log(v)
-        var a = document.createElement("a");
-        a.setAttribute("href", v.url)
-        a.innerHTML = `${v.category.toUpperCase()} version review available here.`;
-        document.getElementById("versions").append(a);
-      })
+if (document.getElementById("versions").hasAttribute("wsId")) {
+  var cVId = document.getElementById("versions").getAttribute("wsID");
+  var folder = window.location.pathname.split("/")[1];
+  var html = ``;
+  window.orderedObs.forEach(function (e) {
+    if (e.wsId === cVId) {
+      if (e.folder !== folder) {
+        html+= `<a href="${e.url}"><b>${e.category}</b> version review available here.</a><br>`;
+      }else if (e.versions) {
+        e.versions.forEach(function (v) {
+          html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`;
+        })
+      }
+    } else {
+      if (e.versions && Array.isArray(e.versions)) {
+        e.versions.forEach(function (v) {
+          if (v.wsId === cVId) {
+            html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`;
+          }
+        })
+      }
     }
-  } else {
-    if (e.versions) {
-      e.versions.forEach(function (v) {
-        if (v.appId === cVId) {
-          var a = document.createElement("a");
-          a.setAttribute("href", e.url)
-          a.innerHTML = `${e.category.toUpperCase()} version review available here.`;
-          document.getElementById("versions").append(a);
-        } 
-      })
-    }
-  }
-})
+  })
+            document.getElementById("versions").innerHTML = html;
+}

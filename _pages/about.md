@@ -45,7 +45,7 @@ author_profile: true
 </div>
 <br>
 
-<h2 class="section-label">Wallets Shortcuts&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
+<h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
 
 
 <div id="modularWalletPayload">

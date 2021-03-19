@@ -5,6 +5,7 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   t.classList.add("walletSearch-parent")
   var s = document.createElement("input");
   var c = document.createElement("span");
+<<<<<<< HEAD
   c.setAttribute("onclick", "blockEvent(event);exitSearch(1)");
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
@@ -13,6 +14,15 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   s.setAttribute("onfocus", "blockEvent(event);heroUX(this)");
   s.setAttribute("onmouseenter", "blockEvent(event);scOOff()");
   s.setAttribute("onmouseleave", "blockEvent(event);scOOn()");
+=======
+  c.setAttribute("onclick", "exitSearch(1)");
+  c.classList.add("exit-search");
+  c.innerHTML = '<i class="fas fa-times"></i>';
+  s.setAttribute("oninput", "searchCatalogue(this)")
+  s.setAttribute("onfocus", "heroUX(this)");
+  s.setAttribute("onmouseenter", "scOOff()");
+  s.setAttribute("onmouseleave", "scOOn()");
+>>>>>>> 6b72b732fc197c8c1645b6fe40242ffbca47000c
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -46,7 +56,11 @@ function captureScrollForSearch(e) {
 }
 function scOOff(){scrollOverride=0}
 function scOOn(){scrollOverride=1}
+<<<<<<< HEAD
 function blockEvent(e) { e.stopPropagation();e.preventDefault();}
+=======
+
+>>>>>>> 6b72b732fc197c8c1645b6fe40242ffbca47000c
 function focusResults(e) {
   e.preventDefault()
   if (e.keyCode === "40") {
