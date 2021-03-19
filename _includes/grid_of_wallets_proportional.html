@@ -75,7 +75,7 @@
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="lazy app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
+                alt="Wallet Logo" style="height:{{ height }}em;width:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
             </a> 
           {% endif %}
         {% endfor %}

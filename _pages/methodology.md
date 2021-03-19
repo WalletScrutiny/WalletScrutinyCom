@@ -174,7 +174,7 @@ If we managed to reproduce the build, we classify it as
 Priorities
 ----------
 
-We cannot re-evaluate all the +160 apps every hour and as this is a side-project
+We cannot re-evaluate all the +290 apps every hour and as this is a side-project
 still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
@@ -200,6 +200,29 @@ In the end, even if we conclude not to trust a wallet this doesn't mean the
 wallet was out to steal your coins. It just means that we are confident that
 with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.
+
+
+On Apple App Store
+------------------
+
+WalletScrutiny started out looking only into Android. Mobile wallets are the
+most used wallets and Android the most used among mobile wallets but looking
+into iPhone wallets was high on the list from the start.
+
+For Android, the process of reproducing builds was relatively clear and some
+apps did this before we started the project. For iPhone this was not the case.
+Reproducibility of iPhone apps was an open question.
+
+One year passed. We asked around. Nobody could reproduce any iPhone app.
+
+At this point we shift the burden of proof onto the providers. If you want
+people to trust your app, explain how it can be audited. We will move on in
+the meantime and list iPhone apps with an empty reproducible section until
+then.
+
+Else, <a title="our methodology"
+href="{{ base_path }}/methodology/">our methodology</a> is the same as for
+Android wallets.
 
 
 Further considerations

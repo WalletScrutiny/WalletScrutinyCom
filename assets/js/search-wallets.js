@@ -5,12 +5,13 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   t.classList.add("walletSearch-parent")
   var s = document.createElement("input");
   var c = document.createElement("span");
-  c.setAttribute("onclick", "exitSearch()");
+  c.setAttribute("onclick", "exitSearch(1)");
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
   s.setAttribute("oninput", "searchCatalogue(this)")
-  s.setAttribute("onkeyup", "focusResults(event)")
   s.setAttribute("onfocus", "heroUX(this)");
+  s.setAttribute("onmouseenter", "scOOff()");
+  s.setAttribute("onmouseleave", "scOOn()");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -23,25 +24,27 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
 
 
 
-function exitSearch() {
+function exitSearch(x) {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
   document.querySelectorAll(".results-list")[0].style.display = "none";
   document.body.classList.remove("search-ui-active");
   window.removeEventListener('wheel', captureScrollForSearch)
+  x && (searchInput.value = "");
   searchInput.blur()
 }
 
-document.getElementById("exitSearchTrigger").addEventListener("mouseenter", function (event) { if (event.target != this) { return; } exitSearch() });
 document.getElementById("exitSearchTrigger").addEventListener("click", function (event) { if (event.target != this) { return; } exitSearch() })
 
 var scrPos = 0;
 var scrollOverride = 0;
-function captureScrollForSearch(e) {
+function captureScrollForSearch(e) {  
   scrPos = scrPos + e.deltaY;
   !scrollOverride && (
     document.querySelectorAll(".results-list")[0].scrollTop = scrPos
   )
 }
+function scOOff(){scrollOverride=0}
+function scOOn(){scrollOverride=1}
 
 function focusResults(e) {
   e.preventDefault()
