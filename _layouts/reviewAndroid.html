@@ -278,9 +278,8 @@ layout: default
 
       {% if page.providerTwitter %}
       <div class="subsect">
-        <div class="subsect">
-        <h1>Help spread awareness for build reproducibility</h1>
-        <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
+        <h1><i class="fas fa-bullhorn"></i> Help spread awareness for build reproducibility</h1>
+        <p><i class="fab fa-twitter"></i>
           {% if page.verdict == "reproducible" %}
           Please follow {{ title }} and thank them for being reproducible
           {% else if page.verdict == nonverifiable %}
@@ -293,10 +292,10 @@ layout: default
           Please help us spread the word discussing build reproducibility with {{ title }}
           {% endif %}
           <a target="_blank" rel="noopener noreferrer"
-            href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
+            href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">&nbsp;via
             their Twitter</a>!
         </p>
-      </div></div>
+      </div>
       {% endif %}
 
       {% if page.verdict == "reproducible" %}

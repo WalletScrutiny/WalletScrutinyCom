@@ -5,12 +5,14 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   t.classList.add("walletSearch-parent")
   var s = document.createElement("input");
   var c = document.createElement("span");
-  c.setAttribute("onclick", "exitSearch()");
+  c.setAttribute("onclick", "blockEvent(event);exitSearch(1)");
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
-  s.setAttribute("oninput", "searchCatalogue(this)")
-  s.setAttribute("onkeyup", "focusResults(event)")
-  s.setAttribute("onfocus", "heroUX(this)");
+  s.setAttribute("oninput", "blockEvent(event);searchCatalogue(this)")
+  s.setAttribute("onclick", "blockEvent(event);heroUX(this)")
+  s.setAttribute("onfocus", "blockEvent(event);heroUX(this)");
+  s.setAttribute("onmouseenter", "blockEvent(event);scOOff()");
+  s.setAttribute("onmouseleave", "blockEvent(event);scOOn()");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -23,26 +25,28 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
 
 
 
-function exitSearch() {
+function exitSearch(x) {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
   document.querySelectorAll(".results-list")[0].style.display = "none";
   document.body.classList.remove("search-ui-active");
   window.removeEventListener('wheel', captureScrollForSearch)
+  x && (searchInput.value = "");
   searchInput.blur()
 }
 
-document.getElementById("exitSearchTrigger").addEventListener("mouseenter", function (event) { if (event.target != this) { return; } exitSearch() });
 document.getElementById("exitSearchTrigger").addEventListener("click", function (event) { if (event.target != this) { return; } exitSearch() })
 
 var scrPos = 0;
 var scrollOverride = 0;
-function captureScrollForSearch(e) {
+function captureScrollForSearch(e) {  
   scrPos = scrPos + e.deltaY;
   !scrollOverride && (
     document.querySelectorAll(".results-list")[0].scrollTop = scrPos
   )
 }
-
+function scOOff(){scrollOverride=0}
+function scOOn(){scrollOverride=1}
+function blockEvent(e) { e.stopPropagation();e.preventDefault();}
 function focusResults(e) {
   e.preventDefault()
   if (e.keyCode === "40") {
@@ -156,3 +160,9 @@ function searchScrollToTop(termInput) {
     })
   }
 }
+
+document.querySelectorAll(".sidebar-search-container").length > 0 && (
+  document.querySelectorAll(".sidebar-search-container")[0].querySelectorAll(".walletSearch")[0].addEventListener("mouseleave", function (e) { e.currentTarget.value.length < 1 && (document.body.classList.remove("search-ui-active")) })
+)
+
+document.body.addEventListener("click", function () {exitSearch()})
