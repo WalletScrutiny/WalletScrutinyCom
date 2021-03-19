@@ -15,7 +15,7 @@ nonverifiable:
     published code matches the published app!
 nosource:
   title: No source code found
-  short: 'No&nbsp;source!'
+  short: 'No&nbsp;Source!'
   color: '#d33100'
   message: Without public source available, this app cannot be verified!
 custodial:
@@ -27,7 +27,7 @@ custodial:
     app is not relevant to the security of the funds!
 fewusers:
   title: 'Few users'
-  short: 'Few&nbsp;users'
+  short: 'Few&nbsp;Users'
   color: '#3d506d'
   message: This app has too few users for now to be reviewed in detail.
 defunct:
@@ -50,7 +50,7 @@ nobtc:
     cryptocurrencies. 
 nowallet:
   title: 'Not a wallet'
-  short: 'Not&nbsp;a&nbsp;wallet'
+  short: 'No&nbsp;Wallet'
   color: '#3d506d'
   message: >
     We could not find this to be an app meant to store, receive and send
