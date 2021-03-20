@@ -10,8 +10,8 @@ launchDate: 2019-06-10
 latestUpdate: 2020-03-04
 apkVersionName: "1.12.1"
 stars: 3.9
-ratings: 138
-reviews: 69
+ratings: 139
+reviews: 70
 size: 10M
 website: https://badger.bitcoin.com
 repository: 

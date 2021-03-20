@@ -10,8 +10,8 @@ idd: 1316477906
 released: 2017-12-08
 updated: 2021-03-03
 version: "3.9.8"
-score: 4.86203
-reviews: 3392
+score: 4.86254
+reviews: 3412
 size: 74719232
 developerWebsite: https://lumiwallet.com/
 repository: 

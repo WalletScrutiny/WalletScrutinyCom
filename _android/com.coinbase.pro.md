@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.coinbase.pro
 launchDate: 
-latestUpdate: 2021-03-03
+latestUpdate: 2021-03-18
 apkVersionName: "1.0.65"
 stars: 4.4
-ratings: 6411
-reviews: 2748
+ratings: 6519
+reviews: 2773
 size: 33M
 website: https://pro.coinbase.com
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.bitmart.bitmarket
 launchDate: 
-latestUpdate: 2021-02-05
-apkVersionName: "2.4.4"
+latestUpdate: 2021-03-19
+apkVersionName: "2.4.5"
 stars: 2.5
-ratings: 774
-reviews: 459
+ratings: 778
+reviews: 463
 size: 31M
 website: https://www.bitmart.com
 repository: 

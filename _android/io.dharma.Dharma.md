@@ -9,9 +9,9 @@ appId: io.dharma.Dharma
 launchDate: 
 latestUpdate: 2020-11-23
 apkVersionName: "1.0.20"
-stars: 3.3
-ratings: 213
-reviews: 137
+stars: 3.2
+ratings: 214
+reviews: 138
 size: 57M
 website: https://www.dharma.io
 repository: 

@@ -4,7 +4,7 @@ title: "RenrenBit"
 altTitle: 
 authors:
 - leo
-users: 100
+users: 500
 appId: com.dcash.wallet
 launchDate: 
 latestUpdate: 2020-07-27

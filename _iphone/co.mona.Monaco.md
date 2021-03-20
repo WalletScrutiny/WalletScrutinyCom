@@ -10,8 +10,8 @@ idd: 1262148500
 released: 2017-08-31
 updated: 2021-03-18
 version: "3.87"
-score: 4.40689
-reviews: 13500
+score: 4.4044
+reviews: 13551
 size: 262426624
 developerWebsite: https://crypto.com/
 repository: 
