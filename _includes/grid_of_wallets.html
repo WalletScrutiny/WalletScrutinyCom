@@ -2,7 +2,8 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
-{% assign posts = site.android | sort: "users" | reverse %}
+{% assign androidPosts = site.android | sort: "users" | reverse %}
+{% assign iPhonePosts = site.iphone | sort: "reviews" | reverse %}
 
   <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 <a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>
@@ -19,7 +20,7 @@
 
     <tr class="-filter-element -iphone">
       {% assign total = 0 %}
-      {% for post in site.iphone %}
+      {% for post in iPhonePosts %}
         {% if post.verdict == v %}
           {% assign total = total | plus: 1 %}
         {% endif %}
@@ -29,7 +30,7 @@
         <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
       </td>
       <td>
-        {% for post in site.iphone %}
+        {% for post in iPhonePosts %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img loading="lazy" src="{{ base_path }}/images/wallet_icons/iphone/small/{{ post.icon }}" class="app_logo"
@@ -42,7 +43,7 @@
 
     <tr class="-filter-element -android">
       {% assign total = 0 %}
-      {% for post in site.android %}
+      {% for post in androidPosts %}
         {% if post.verdict == v %}
           {% assign total = total | plus: 1 %}
         {% endif %}
@@ -52,7 +53,7 @@
         <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
       </td>
       <td>
-        {% for post in site.android %}
+        {% for post in androidPosts %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="app_logo"
