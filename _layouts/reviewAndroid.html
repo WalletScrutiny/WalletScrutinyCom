@@ -69,13 +69,17 @@ layout: default
                 }}</span></span>
           </div>
 
-          {% if page.website or page.providerTwitter or page.providerFacebook or page.providerReddit or
-          page.providerLinkedIn %}
           <div class="social-row">
             <ul>
+              <li
+                title='Link to {{ page.title }} on the Play Store'>
+                <a href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web">
+                  <i class="fab fa-google-play"></i>
+                </a>
+              </li>
               {% if page.website %}
               <li
-                title='Link to developer website : {{ page.website | replace: "http://", "" | replace: "https://", "" }}'>
+                title='Link to developer website: {{ page.website | replace: "http://", "" | replace: "https://", "" }}'>
                 <a href="{{ page.website }}" class="link-web">
                   <i class="fas fa-globe"></i>
                 </a>
@@ -116,7 +120,6 @@ layout: default
               {% endif %}
             </ul>
           </div>
-          {% endif %}
         </div>
 
         <div class="app-payload-flex">
@@ -146,10 +149,6 @@ layout: default
 
           </div>
           {% endif %}
-
-
-
-
 
           <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.apkVersionName }})">
 
@@ -232,9 +231,9 @@ layout: default
       <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
 
       <p>Our last analysis is based on data found in their
-        <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
-          Play description</a>
-        {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
+        <a href="https://play.google.com/store/apps/details?id={{ page.appId }}"><i class="fab fa-google-play"></i>
+          Play Store description</a>{%
+        if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
         if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
         {% if page.issue %} We discuss issues with the provider
         <a href="{{ page.issue }}">here</a>.{% endif %} <br>
@@ -310,13 +309,18 @@ layout: default
       </p>
       {% endif %}
 
-      <h1>Do your own research!</h1>
+      <h1 style="clear:both">Do your own research!</h1>
       <p>Try out searching
         for "lost bitcoins", "stole my money" or "scammers" together with the wallet's
         name, even if you
         think the wallet is generally trustworthy. For all the bigger wallets you will
         find accusations. Make sure you understand why they were made and if you are
         comfortable with the provider's reaction.</p>
+      <p>If you find something we should include, you can
+        <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues">create
+        an issue</a> or
+        <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_android/{{page.appId}}.md">edit
+        this analysis</a> yourself and create a merge request for your changes.</p>
 
       <h1>The Analysis</h1>
 
