@@ -9,8 +9,8 @@ appId: com.sologenicwallet
 launchDate: 
 latestUpdate: 2020-06-23
 apkVersionName: "1.4.3"
-stars: 3.5
-ratings: 53
+stars: 3.6
+ratings: 54
 reviews: 36
 size: 28M
 website: 

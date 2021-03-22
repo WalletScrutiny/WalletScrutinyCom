@@ -9,9 +9,9 @@ appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
 latestUpdate: 2021-01-22
 apkVersionName: "3.0.6"
-stars: 3.8
-ratings: 1291
-reviews: 630
+stars: 3.7
+ratings: 1310
+reviews: 641
 size: 11M
 website: https://hitbtc.com
 repository: 

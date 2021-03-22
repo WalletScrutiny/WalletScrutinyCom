@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2021-03-10
-apkVersionName: "2.33.0"
+latestUpdate: 2021-03-19
+apkVersionName: "2.33.1"
 stars: 4.2
-ratings: 80
+ratings: 82
 reviews: 23
 size: 29M
 website: https://keys.casa
@@ -86,14 +86,14 @@ Lopp goes on to say:
 > Now, when we’re talking about open source versus closed source in the context
   of mobile apps, then it gets even trickier because it is difficult if not
   impossible. And in fact, we have not yet really found a way to verify the
-  build of a mobile app that is on the Apple store or the Google play store.
+  build of a mobile app that is on the Apple store or the Google Play Store.
 
 which is a direct hint to what we are doing at WalletScrutiny. Is he claiming we
 are promoting something that cannot exist? Or that he has not yet figured out,
 which given he is a professional in the space since before Bitcoin would be hard
 to believe? He explains:
 
-> The way that these mobile app stores work is that they require the
+> The way that these mobile App Stores work is that they require the
   applications to be cryptographically signed by the developers in order to get
   pushed out to the store, but the actual build process for the app, the actual
   you know, attestation of what the code that’s that’s being run on the app is

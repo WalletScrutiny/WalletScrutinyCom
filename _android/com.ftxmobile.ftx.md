@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-20
 apkVersionName: "1.1.0"
 stars: 4.9
-ratings: 1575
-reviews: 1045
+ratings: 1715
+reviews: 1118
 size: 46M
 website: https://ftx.com
 repository: 

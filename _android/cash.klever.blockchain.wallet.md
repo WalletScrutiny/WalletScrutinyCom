@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-08
 apkVersionName: "4.1.6"
 stars: 4.1
-ratings: 6160
-reviews: 3444
+ratings: 6213
+reviews: 3477
 size: Varies with device
 website: https://www.tronwallet.me
 repository: 

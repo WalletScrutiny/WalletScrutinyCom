@@ -5,14 +5,14 @@ altTitle:
 authors:
 - leo
 - emanuel
-users: 50000
+users: 100000
 appId: com.zengo.wallet
 launchDate: 
-latestUpdate: 2021-02-25
-apkVersionName: "2.21.2"
-stars: 3.9
-ratings: 1903
-reviews: 823
+latestUpdate: 2021-03-17
+apkVersionName: "2.22.0"
+stars: 4.0
+ratings: 1918
+reviews: 831
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

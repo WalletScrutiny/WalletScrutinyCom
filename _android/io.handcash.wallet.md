@@ -10,8 +10,8 @@ launchDate: 2019-09-10
 latestUpdate: 2021-03-19
 apkVersionName: "2.5.11"
 stars: 4.3
-ratings: 383
-reviews: 252
+ratings: 386
+reviews: 254
 size: 33M
 website: https://handcash.io
 repository: 

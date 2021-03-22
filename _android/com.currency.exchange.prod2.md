@@ -4,14 +4,14 @@ title: "Crypto Exchange Currency.com"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.currency.exchange.prod2
 launchDate: 
 latestUpdate: 2021-03-03
 apkVersionName: "1.10.0"
 stars: 4.0
-ratings: 1985
-reviews: 725
+ratings: 1993
+reviews: 726
 size: Varies with device
 website: https://currency.com
 repository: 

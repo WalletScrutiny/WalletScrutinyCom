@@ -2,7 +2,7 @@
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar">
-  {% include list_of_wallets_sidebar.html %}
+  {% include searchbar_sidebar.html %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}

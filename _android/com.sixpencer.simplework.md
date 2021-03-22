@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: dfox
 title: "Dfox-Crypto Wallet and DeFi Portfolio"
 altTitle: 
 authors:
-
+- leo
 users: 1000
 appId: com.sixpencer.simplework
 launchDate: 
@@ -13,13 +13,13 @@ stars: 4.8
 ratings: 78
 reviews: 39
 size: 13M
-website: 
+website: https://dfox.cc
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-10
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-03-22
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,3 +35,6 @@ redirect_from:
 ---
 
 
+This app appears not to get access to spend your Bitcoins:
+
+> Dfox is a chain-agnostic crypto portfolio tracker.

@@ -49,5 +49,5 @@ The following is their website in its entirety:
 
 ![InSense this website is under construction](/images/insenseunderconstruction.png)
 
-So, trusting their claim from the play store, not finding any further data to
+So, trusting their claim from the Play Store, not finding any further data to
 verify it, we remain with the verdict: **not verifiable**.

@@ -44,11 +44,11 @@ window.transcribeTag = function (e) {
   var css, category;
 
   switch (e) {
-    case 'app store':
+    case 'App Store':
       css = 'app-store';
       category = 'iphone'
       break;
-    case 'play store':
+    case 'Play Store':
       css = 'google-play';
       category = 'android'
       break;

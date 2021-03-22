@@ -10,8 +10,8 @@ idd: 1476726454
 released: 2019-09-10
 updated: 2021-02-22
 version: "1.531"
-score: 4.74918
-reviews: 1220
+score: 4.74611
+reviews: 1221
 size: 143298560
 developerWebsite: https://swipe.io
 repository: 

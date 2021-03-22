@@ -44,7 +44,7 @@ function updateModularPayload() {
     e.classList.contains(`-${window.transcribeTag(b).category}`) ? (e.style.display="flex") : (e.style.display="none")
   })
 
-  b === 'play store' || b === 'android' ? (
+  b === 'Play Store' || b === 'android' ? (
     document.getElementById("SwitchToDownloadsView") && (
       document.getElementById("SwitchToDownloadsView").style.display = ""
     )

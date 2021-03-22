@@ -9,7 +9,7 @@ appId: com.beeone.techbank
 launchDate: 
 latestUpdate: 2021-03-12
 apkVersionName: "4.3"
-stars: 4.5
+stars: 4.4
 ratings: 481
 reviews: 198
 size: 41M
