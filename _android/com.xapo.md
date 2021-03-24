@@ -11,7 +11,7 @@ latestUpdate: 2020-07-29
 apkVersionName: "5.30"
 stars: 3.6
 ratings: 45602
-reviews: 21668
+reviews: 21670
 size: 93M
 website: https://xapo.com
 repository: 

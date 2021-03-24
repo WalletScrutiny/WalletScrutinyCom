@@ -9,9 +9,9 @@ appId: com.stormgain.mobile
 launchDate: 
 latestUpdate: 2021-02-26
 apkVersionName: "1.14.1"
-stars: 4.1
-ratings: 14192
-reviews: 8242
+stars: 3.7
+ratings: 14694
+reviews: 8585
 size: 23M
 website: https://stormgain.com
 repository: 

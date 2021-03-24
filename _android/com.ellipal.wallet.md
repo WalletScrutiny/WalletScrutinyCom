@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.ellipal.wallet
 launchDate: 
-latestUpdate: 2021-03-08
-apkVersionName: "2.9.2"
+latestUpdate: 2021-03-23
+apkVersionName: "2.9.3"
 stars: 4.1
-ratings: 338
-reviews: 213
+ratings: 339
+reviews: 214
 size: 17M
 website: https://www.ellipal.com
 repository: 

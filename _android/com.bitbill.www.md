@@ -1,18 +1,18 @@
 ---
 wsId: ownbit
-title: "Ownbit - BTC & ETH Cold Wallet"
+title: "Ownbit: Cold & MultiSig Wallet"
 altTitle: 
 authors:
 - leo
 users: 5000
 appId: com.bitbill.www
 launchDate: 
-latestUpdate: 2021-03-05
-apkVersionName: "4.26.2"
+latestUpdate: 2021-03-23
+apkVersionName: "4.28.0"
 stars: 3.9
 ratings: 50
 reviews: 29
-size: 31M
+size: 32M
 website: http://www.bitbill.com
 repository: 
 issue: 

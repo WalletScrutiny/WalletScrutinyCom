@@ -10,8 +10,8 @@ launchDate: 2018-02-21
 latestUpdate: 2021-03-18
 apkVersionName: "8.9.0"
 stars: 4.3
-ratings: 122
-reviews: 71
+ratings: 123
+reviews: 72
 size: 10M
 website: https://www.polispay.com
 repository: 

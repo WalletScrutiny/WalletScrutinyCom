@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.defi.wallet
 launchDate: 2020-05-11
-latestUpdate: 2021-03-12
-apkVersionName: "1.7.1"
+latestUpdate: 2021-03-21
+apkVersionName: "1.8.0"
 stars: 4.0
-ratings: 2432
-reviews: 720
-size: 23M
+ratings: 2458
+reviews: 730
+size: 24M
 website: https://crypto.com/en/defi/
 repository: 
 issue: 

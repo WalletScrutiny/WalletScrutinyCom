@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: ai.azara.wallet
 launchDate: 
-latestUpdate: 2021-03-22
+latestUpdate: 2021-03-11
 apkVersionName: "0.01.10"
 stars: 4.7
-ratings: 63
-reviews: 61
+ratings: 67
+reviews: 65
 size: 44M
 website: https://www.azara.ai
 repository: 

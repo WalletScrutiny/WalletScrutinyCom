@@ -10,8 +10,8 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2021-03-17
 version: "21.3.15"
-score: 4.6266
-reviews: 8669
+score: 4.63375
+reviews: 8691
 size: 28801024
 developerWebsite: https://exodus.com/mobile
 repository: 

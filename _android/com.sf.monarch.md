@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.sf.monarch
 launchDate: 2018-10-19
-latestUpdate: 2021-02-09
-apkVersionName: "2.1.9"
+latestUpdate: 2021-03-23
+apkVersionName: "2.2.0"
 stars: 3.4
 ratings: 731
 reviews: 374

@@ -9,9 +9,9 @@ appId: com.enjin.mobile.wallet
 launchDate: 2018-01-01
 latestUpdate: 2021-03-17
 apkVersionName: "1.12.2-r"
-stars: 4.4
-ratings: 7266
-reviews: 4331
+stars: 4.3
+ratings: 7293
+reviews: 4348
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 

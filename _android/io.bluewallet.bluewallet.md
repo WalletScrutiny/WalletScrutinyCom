@@ -10,12 +10,12 @@ launchDate: 2018-11-01
 latestUpdate: 2021-03-01
 apkVersionName: "6.0.6"
 stars: 4.2
-ratings: 927
-reviews: 404
+ratings: 934
+reviews: 408
 size: 59M
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
+issue: https://github.com/BlueWallet/BlueWallet/issues/2364
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
@@ -42,7 +42,13 @@ redirect_from:
 ---
 
 
-**Update:** This app was earlier classified as non-custodial but as their main
+**Update 2021-03-22:** Already in January the provider added *"- This wallet is
+hosted by BlueWallet."* without any further explanation that his means that
+BlueWallet which appears to not be a legal entity is in control of the Bitcoins
+on those LN accounts. They also closed
+[the issue about the disclaimer](https://github.com/BlueWallet/BlueWallet/issues/2364).
+
+**Update 2020-07-14:** This app was earlier classified as non-custodial but as their main
 selling point is their *"Unfairly cheap and blazing fast transactions on
 Bitcoin"* Lighning Wallet and that wallet is custodial without warning the user
 about this fact, we have to change our verdict although in summary the verdict

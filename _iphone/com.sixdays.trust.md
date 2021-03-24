@@ -10,8 +10,8 @@ idd: 1288339409
 released: 2017-09-27
 updated: 2021-03-16
 version: "5.18"
-score: 4.80373
-reviews: 25404
+score: 4.80279
+reviews: 25815
 size: 40082432
 developerWebsite: https://trustwallet.com
 repository: 

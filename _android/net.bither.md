@@ -9,8 +9,8 @@ appId: net.bither
 launchDate: 
 latestUpdate: 2021-02-05
 apkVersionName: "2.0.0"
-stars: 3.8
-ratings: 313
+stars: 3.7
+ratings: 314
 reviews: 164
 size: 4.4M
 website: https://bither.net
