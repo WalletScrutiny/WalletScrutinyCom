@@ -129,11 +129,11 @@ body, input {
   display: block;
   content: "";
   height: 4px;
-  width: 100%;
+  width: 105%;
   position: absolute;
   background: var(--nav);
   bottom: -9px;
-  left: 0;
+  left: -2.5%;
   z-index: 2;
 }
 
@@ -359,59 +359,6 @@ pre.highlight code {
 
 /* HERO */
 
-.results-list.quick-link::before {
-  content: 'Check out these reproducible wallets';
-  display: block;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  pointer-events: none;
-  z-index: 3;
-  font-size: 10px;
-  font-weight: 400;
-  opacity: .4;
-  font-family: 'Lato', sans-serif;
-}
-
-.results-list.quick-link::after {
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(90deg, var(--transparent) 70%, var(--light-grey));
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 3;
-  pointer-events: none;
-}
-
-.results-list.quick-link {
-  position: relative;
-  overflow: hidden;
-  max-width: 500px;
-}
-
-.results-list.quick-link .-pl {
-  display: flex;
-  position: relative;
-  overflow-x: scroll;
-  margin-top: -10px;
-  padding-bottom: 35px;
-  transform: translateY(30px);
-  overflow-y: hidden;
-}
-
-.results-list.quick-link .-pl::-webkit-scrollbar {
-  display: none;
-}
-
-.results-list.quick-link .-pl>a {
-  display: inline-grid;
-  grid-template-columns: 1fr auto;
-  text-decoration: none;
-  align-items: center;
-}
 
 .-pl .badge {
   overflow: hidden;
@@ -599,7 +546,15 @@ pre.highlight code {
   color: inherit;
   font-size: 1rem;
 }
-
+h1 {
+  text-align: left;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+#collapsedReviews {
+  font-size: 1rem;
+  margin: 0;
+}
 h2.section-label {
   text-align: left;
   font-size: 2.5rem;
@@ -607,7 +562,53 @@ h2.section-label {
 
 h2.section-label > a{opacity:.4;margin-left:5px}
 h2.section-label > a:hover{opacity:1}
-
+.subsect h1{
+  font-size: 1.2rem;
+  margin-top: 0;
+  font-weight: 300;
+}
+.subsect{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 4rem 1rem 0rem 1rem;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border-radius: 8px;
+  position: relative;
+z-index: 1;
+}
+.subsect .fa-bullhorn {
+  transform-origin: center;
+  transform: rotate(-20deg);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  background: var(--indifferent);
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  margin-right: .5rem;
+  color: var(--permanent-white);
+}
+.subsect .fa-twitter{
+  background-color: #1da1f2;
+  color: var(--permanent-white);
+  font-size: 1.6rem;
+  border-radius: 20%;
+  margin-right: .5rem;
+  padding: .3rem;
+}
+.subsect p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: .5rem 0;
+  font-weight: 300;
+  justify-content: center;
+}
 .press::before {
   position: absolute;
   font-size: 0.5rem;
@@ -659,6 +660,8 @@ h2.section-label > a:hover{opacity:1}
 .results-list li {
   padding: .75rem;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .results-list li.actionable {
@@ -793,11 +796,22 @@ h2.section-label > a:hover{opacity:1}
   background: var(--white);
 }
 
-.results-list li:hover, 
-.results-list li:active,
-.results-list li:not(:last-child):hover,
-.results-list li:not(:last-child):active {
-  box-shadow: inset 4px 0 0 0 var(--accent-text), 0px 1px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
+.results-list li:hover::before, 
+.results-list li:active::before,
+.results-list li:not(:last-child):hover::before,
+.results-list li:not(:last-child):active::before {
+  content:"";
+  position:absolute;
+  height: 100%;
+  width: 4px;
+  top:0;
+  left:0;
+  z-index: 0;
+  animation: smoothBarSlide .2s ease forwards 1
+}
+@keyframes smoothBarSlide{
+  from{box-shadow: inset 0px 0 0 0 var(--accent-text), 0px 0px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));}
+  to{box-shadow: inset 4px 0 0 0 var(--accent-text), 0px 1px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));}
 }
 
 .results-list li:last-child:hover,

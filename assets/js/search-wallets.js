@@ -5,13 +5,14 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   t.classList.add("walletSearch-parent")
   var s = document.createElement("input");
   var c = document.createElement("span");
-  c.setAttribute("onclick", "exitSearch(1)");
+  c.setAttribute("onclick", "blockEvent(event);exitSearch(1)");
   c.classList.add("exit-search");
   c.innerHTML = '<i class="fas fa-times"></i>';
-  s.setAttribute("oninput", "searchCatalogue(this)")
-  s.setAttribute("onfocus", "heroUX(this)");
-  s.setAttribute("onmouseenter", "scOOff()");
-  s.setAttribute("onmouseleave", "scOOn()");
+  s.setAttribute("oninput", "blockEvent(event);searchCatalogue(this)")
+  s.setAttribute("onclick", "blockEvent(event);heroUX(this)")
+  s.setAttribute("onfocus", "blockEvent(event);heroUX(this)");
+  s.setAttribute("onmouseenter", "blockEvent(event);scOOff()");
+  s.setAttribute("onmouseleave", "blockEvent(event);scOOn()");
   s.setAttribute("placeholder", "Search wallets...")
   searchInput = s;
   s.classList.add("walletSearch")
@@ -45,7 +46,7 @@ function captureScrollForSearch(e) {
 }
 function scOOff(){scrollOverride=0}
 function scOOn(){scrollOverride=1}
-
+function blockEvent(e) { e.stopPropagation();e.preventDefault();}
 function focusResults(e) {
   e.preventDefault()
   if (e.keyCode === "40") {
@@ -159,3 +160,9 @@ function searchScrollToTop(termInput) {
     })
   }
 }
+
+document.querySelectorAll(".sidebar-search-container").length > 0 && (
+  document.querySelectorAll(".sidebar-search-container")[0].querySelectorAll(".walletSearch")[0].addEventListener("mouseleave", function (e) { e.currentTarget.value.length < 1 && (document.body.classList.remove("search-ui-active")) })
+)
+
+document.body.addEventListener("click", function () {exitSearch()})
