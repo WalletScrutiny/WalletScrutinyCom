@@ -10,7 +10,7 @@ launchDate: 2018-08-06
 latestUpdate: 2021-02-26
 apkVersionName: "3.6.3"
 stars: 4.1
-ratings: 83
+ratings: 84
 reviews: 38
 size: 14M
 website: https://www.airgap.it

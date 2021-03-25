@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra Bitcoin Crypto Wallet Buy Trade Earn Interest"
+title: "Abra Bitcoin Wallet Buy Trade Earn Interest Borrow"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ launchDate: 2015-03-04
 latestUpdate: 2021-03-16
 apkVersionName: "Varies with device"
 stars: 4.5
-ratings: 16120
-reviews: 6118
+ratings: 16197
+reviews: 6136
 size: Varies with device
 website: https://www.abra.com
 repository: 

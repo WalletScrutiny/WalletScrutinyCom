@@ -10,7 +10,7 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2021-03-15
 version: "1.4.2"
-score: 4.44681
+score: 4.43262
 reviews: 141
 size: 29977600
 developerWebsite: 

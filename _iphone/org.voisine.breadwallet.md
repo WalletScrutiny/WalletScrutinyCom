@@ -11,7 +11,7 @@ released: 2014-06-22
 updated: 2021-03-18
 version: "4.9"
 score: 4.58119
-reviews: 10167
+reviews: 10186
 size: 45101056
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios

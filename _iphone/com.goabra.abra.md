@@ -11,7 +11,7 @@ released: 2015-03-12
 updated: 2021-03-23
 version: "94.0.1"
 score: 4.55736
-reviews: 13580
+reviews: 13598
 size: 105425920
 developerWebsite: 
 repository: 

@@ -9,8 +9,8 @@ appId: com.monederoapp
 launchDate: 
 latestUpdate: 2021-03-22
 apkVersionName: "3.0.0"
-stars: 4.1
-ratings: 10
+stars: 4.2
+ratings: 11
 reviews: 5
 size: 11M
 website: 

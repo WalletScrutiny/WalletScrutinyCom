@@ -10,8 +10,8 @@ launchDate: 2018-10-19
 latestUpdate: 2021-03-23
 apkVersionName: "2.2.0"
 stars: 3.4
-ratings: 731
-reviews: 374
+ratings: 733
+reviews: 375
 size: 18M
 website: https://monarchwallet.com
 repository: 

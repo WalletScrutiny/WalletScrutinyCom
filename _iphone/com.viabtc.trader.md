@@ -10,7 +10,7 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2021-03-12
 version: "2.9.4"
-score: 4.39313
+score: 4.38931
 reviews: 262
 size: 135211008
 developerWebsite: https://www.coinex.com

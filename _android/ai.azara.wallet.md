@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-11
 apkVersionName: "0.01.10"
 stars: 4.7
-ratings: 67
-reviews: 65
+ratings: 68
+reviews: 66
 size: 44M
 website: https://www.azara.ai
 repository: 

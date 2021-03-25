@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.cakewallet.cake_wallet
 launchDate: 
-latestUpdate: 2021-02-13
-apkVersionName: "4.1.2"
-stars: 4.1
-ratings: 350
-reviews: 223
+latestUpdate: 2021-03-24
+apkVersionName: "4.1.3"
+stars: 4.2
+ratings: 355
+reviews: 225
 size: 62M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
@@ -20,7 +20,7 @@ icon: com.cakewallet.cake_wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-07
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
