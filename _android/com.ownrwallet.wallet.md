@@ -9,9 +9,9 @@ appId: com.ownrwallet.wallet
 launchDate: 
 latestUpdate: 2021-03-18
 apkVersionName: "1.8.0"
-stars: 4.6
-ratings: 828
-reviews: 730
+stars: 4.5
+ratings: 836
+reviews: 737
 size: 66M
 website: https://ownrwallet.com
 repository: 

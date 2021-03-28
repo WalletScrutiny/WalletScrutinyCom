@@ -11,7 +11,7 @@ latestUpdate: 2021-01-21
 apkVersionName: "2.2.4"
 stars: 4.3
 ratings: 202
-reviews: 88
+reviews: 89
 size: 50M
 website: https://viawallet.com
 repository: 

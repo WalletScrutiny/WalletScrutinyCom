@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.coolbitx.cwsapp
 launchDate: 
-latestUpdate: 2021-02-26
-apkVersionName: "2.13.0"
+latestUpdate: 2021-03-24
+apkVersionName: "2.14.0"
 stars: 4.2
-ratings: 607
-reviews: 274
+ratings: 621
+reviews: 276
 size: 66M
 website: http://coolwallet.io
 repository: 

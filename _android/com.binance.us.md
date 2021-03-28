@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-12
 apkVersionName: "2.3.4"
 stars: 2.1
-ratings: 2456
-reviews: 1862
+ratings: 2521
+reviews: 1911
 size: Varies with device
 website: https://www.binance.us
 repository: 

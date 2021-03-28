@@ -4,14 +4,14 @@ title: "HOLD — Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: co.hold.mobile
 launchDate: 
 latestUpdate: 2021-03-09
 apkVersionName: "3.12.9"
 stars: 4.4
-ratings: 134
-reviews: 78
+ratings: 135
+reviews: 80
 size: Varies with device
 website: https://hold.io
 repository: 

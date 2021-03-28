@@ -9,9 +9,9 @@ appId: io.infinito.wallet
 launchDate: 2017-11-15
 latestUpdate: 2021-03-18
 apkVersionName: "2.35.1"
-stars: 3.6
-ratings: 2086
-reviews: 983
+stars: 3.5
+ratings: 2088
+reviews: 985
 size: 64M
 website: https://www.infinitowallet.io
 repository: 

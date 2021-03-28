@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Dharma — DeFi Investing"
+title: "Dharma — Your Ethereum Wallet"
 altTitle: 
 authors:
 
 users: 10000
 appId: io.dharma.Dharma
 launchDate: 
-latestUpdate: 2020-11-23
-apkVersionName: "1.0.20"
-stars: 3.3
-ratings: 215
-reviews: 138
-size: 57M
+latestUpdate: 2021-03-25
+apkVersionName: "1.0.22"
+stars: 3.2
+ratings: 217
+reviews: 140
+size: 56M
 website: https://www.dharma.io
 repository: 
 issue: 

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.krakenfutures
 launchDate: 
-latestUpdate: 2020-12-04
-apkVersionName: "5.23.2"
+latestUpdate: 2021-03-24
+apkVersionName: "5.24.0"
 stars: 3.4
 ratings: 80
 reviews: 34

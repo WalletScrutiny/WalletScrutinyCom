@@ -10,8 +10,8 @@ idd: 1451010841
 released: 2019-02-03
 updated: 2021-02-23
 version: "1.1.35"
-score: 4.82439
-reviews: 205
+score: 4.82039
+reviews: 206
 size: 25848832
 developerWebsite: https://www.dowallet.app
 repository: 

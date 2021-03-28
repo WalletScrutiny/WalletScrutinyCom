@@ -10,9 +10,9 @@ appId: com.ccwalletapp
 launchDate: 
 latestUpdate: 2020-07-29
 apkVersionName: "1.3.1"
-stars: 4.0
-ratings: 542
-reviews: 489
+stars: 3.9
+ratings: 543
+reviews: 490
 size: 22M
 website: https://ccwalletapp.com
 repository: https://github.com/coincasso/ccwallet

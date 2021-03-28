@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.nexowallet
 launchDate: 
-latestUpdate: 2021-03-23
-apkVersionName: "1.4.3"
-stars: 3.8
-ratings: 7138
-reviews: 3416
+latestUpdate: 2021-03-25
+apkVersionName: "1.4.4"
+stars: 3.9
+ratings: 7204
+reviews: 3445
 size: 61M
 website: https://nexo.io
 repository: 

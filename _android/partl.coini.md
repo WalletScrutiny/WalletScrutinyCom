@@ -4,14 +4,14 @@ title: "Coini — Bitcoin / Cryptocurrencies"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: partl.coini
 launchDate: 
 latestUpdate: 2021-03-23
 apkVersionName: "2.1.2"
 stars: 4.6
-ratings: 177
-reviews: 89
+ratings: 178
+reviews: 90
 size: 46M
 website: 
 repository: 

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.Android.Inc.bitwallet
 launchDate: 
-latestUpdate: 2021-03-09
-apkVersionName: "1.4.14"
+latestUpdate: 2021-03-26
+apkVersionName: "1.4.15"
 stars: 4.7
 ratings: 538
 reviews: 418

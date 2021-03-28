@@ -10,7 +10,7 @@ launchDate: 2018-01-16
 latestUpdate: 2018-01-16
 apkVersionName: "1.0"
 stars: 3.7
-ratings: 23
+ratings: 24
 reviews: 14
 size: 3.0M
 website: https://www.satoshiera.com

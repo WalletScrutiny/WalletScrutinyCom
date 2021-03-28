@@ -10,8 +10,8 @@ idd: 1548297139
 released: 2021-01-11
 updated: 2021-02-25
 version: "2.5.7"
-score: 3.94737
-reviews: 57
+score: 3.94828
+reviews: 58
 size: 113358848
 developerWebsite: https://www.safepal.io/
 repository: 

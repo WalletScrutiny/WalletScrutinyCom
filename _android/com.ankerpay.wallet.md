@@ -4,13 +4,13 @@ title: "AnkerPay: Blockchain Crypto Wallet – BTC, ETH, LTC"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.ankerpay.wallet
 launchDate: 
 latestUpdate: 2020-10-21
 apkVersionName: "v1.0.11.26"
 stars: 4.2
-ratings: 92
+ratings: 93
 reviews: 80
 size: 4.9M
 website: https://ankerid.com/mobile-wallet
