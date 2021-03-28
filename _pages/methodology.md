@@ -34,7 +34,12 @@ start, which probably is the case for some wallets, too.
 What we do not do
 =================
 
-* **We do not** provide a security audit of the source code.
+* **<span id="noAudit">We do not</span>** provide a security audit of the source
+  code. The empty row "Audited?" on [the landing page](/) is merely to emphasize
+  this fact. As any public source wallet gets potentially audited all the time
+  and paid audits certainly help the team to improve their product, those audits
+  do not help prevent exit scams or most other ways where all users lose all
+  their funds at once, which WalletScrutiny is mainly focused on.
 * **We do not** endorse the security of any wallet.
 * **We do not** guarantee that your version of the wallet is verified to match
   the public code or the version that we investigated. A tool for that is under
