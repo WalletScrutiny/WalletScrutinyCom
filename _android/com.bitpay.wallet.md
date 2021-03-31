@@ -10,8 +10,8 @@ launchDate: 2016-10-01
 latestUpdate: 2021-03-17
 apkVersionName: "12.3.2"
 stars: 3.7
-ratings: 8299
-reviews: 3946
+ratings: 8306
+reviews: 3951
 size: 31M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet

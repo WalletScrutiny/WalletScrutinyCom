@@ -10,8 +10,8 @@ launchDate: 2019-01-01
 latestUpdate: 2021-03-24
 apkVersionName: "3.5.0"
 stars: 4.3
-ratings: 16608
-reviews: 9745
+ratings: 16705
+reviews: 9811
 size: 7.0M
 website: https://polehin.com
 repository: 

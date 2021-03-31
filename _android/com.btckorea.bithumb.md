@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: com.btckorea.bithumb
 launchDate: 
-latestUpdate: 2020-11-18
-apkVersionName: "2.1.1"
+latestUpdate: 2021-03-30
+apkVersionName: "2.1.5"
 stars: 2.6
-ratings: 12459
-reviews: 5777
-size: 4.2M
+ratings: 12479
+reviews: 5790
+size: 36M
 website: https://www.bithumb.com
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.btckorea.bithumb.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-19
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

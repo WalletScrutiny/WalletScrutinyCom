@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.probit.app.android2.release.global
 launchDate: 
-latestUpdate: 2021-03-26
-apkVersionName: "1.31.5.1"
-stars: 3.5
-ratings: 3160
-reviews: 2063
+latestUpdate: 2021-03-30
+apkVersionName: "1.31.5.2"
+stars: 3.4
+ratings: 3181
+reviews: 2078
 size: 17M
 website: https://www.probit.com
 repository: 

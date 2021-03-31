@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 launchDate: 2015-01-01
-latestUpdate: 2021-02-05
-apkVersionName: "3.4.9"
+latestUpdate: 2021-03-30
+apkVersionName: "3.5.4"
 stars: 3.7
 ratings: 753
 reviews: 413
@@ -20,7 +20,7 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-05
-reviewStale: false
+reviewStale: true
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2021-01-18

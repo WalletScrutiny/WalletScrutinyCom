@@ -8,11 +8,11 @@ appId: ai.azara.wallet
 appCountry: de
 idd: 1476738923
 released: 2020-11-10
-updated: 2021-03-19
-version: "0.01.10"
+updated: 2021-03-30
+version: "0.01.11"
 score: 
 reviews: 
-size: 69140480
+size: 51003392
 developerWebsite: https://www.azara.ai/
 repository: 
 issue: 

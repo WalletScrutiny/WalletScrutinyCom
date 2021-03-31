@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: zapsolutions.strike
 launchDate: 
-latestUpdate: 2021-03-20
-apkVersionName: "v62"
+latestUpdate: 2021-03-30
+apkVersionName: "v63"
 stars: 4.6
-ratings: 225
+ratings: 226
 reviews: 74
-size: 8.8M
+size: 8.9M
 website: 
 repository: 
 issue: 

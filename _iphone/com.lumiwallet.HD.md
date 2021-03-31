@@ -8,11 +8,11 @@ appId: com.lumiwallet.HD
 appCountry: 
 idd: 1316477906
 released: 2017-12-08
-updated: 2021-03-20
-version: "3.9.9"
-score: 4.8388
-reviews: 2922
-size: 79775744
+updated: 2021-03-30
+version: "3.10.0"
+score: 4.81742
+reviews: 2996
+size: 79796224
 developerWebsite: https://lumiwallet.com/
 repository: 
 issue: 

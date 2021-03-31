@@ -10,8 +10,8 @@ idd: 1389966202
 released: 2018-08-02
 updated: 2021-03-04
 version: "5.5.3"
-score: 3.93023
-reviews: 43
+score: 3.86364
+reviews: 44
 size: 42119168
 developerWebsite: https://buycoins.africa
 repository: 

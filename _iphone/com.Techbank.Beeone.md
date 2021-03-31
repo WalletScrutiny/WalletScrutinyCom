@@ -10,8 +10,8 @@ idd: 1473120022
 released: 2019-07-19
 updated: 2021-03-17
 version: "1.0.38"
-score: 4.42856
-reviews: 7
+score: 4
+reviews: 8
 size: 82851840
 developerWebsite: https://techbank.finance/
 repository: 
