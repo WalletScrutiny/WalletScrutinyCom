@@ -1,65 +1,59 @@
 if (document.getElementById("modularVerdictPH") && window.verdictOrder && window.verdictOrder.length > 0) {
-  var s = document.createElement("select");
-  s.setAttribute("id", "modularVerdict");
-  s.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
+  const verdictSelect = document.createElement("select")
+  verdictSelect.setAttribute("id", "modularVerdict")
+  verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
   
-  var o = document.createElement("option");
-  o.value = "all";
-  o.innerHTML = "all";
-  s.append(o)
+  var verdictOption = document.createElement("option")
+  verdictOption.value = "all"
+  verdictOption.innerHTML = "all"
+  verdictSelect.append(verdictOption)
   
   window.verdictOrder.forEach(t => {
-    var o = document.createElement("option");
-    o.value = t;
-    o.innerHTML = t;
-    s.append(o)
-  });
+    verdictOption = document.createElement("option")
+    verdictOption.value = t
+    verdictOption.innerHTML = t
+    verdictSelect.append(verdictOption)
+  })
 
-  document.getElementById("modularVerdictPH").replaceWith(s);
-  document.getElementById("modularVerdict").selectedIndex = 1;
+  document.getElementById("modularVerdictPH").replaceWith(verdictSelect)
+  document.getElementById("modularVerdict").selectedIndex = 1
 }
 
 if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
-  var s = document.createElement("select");
-  s.setAttribute("id", "modularPlatform");
-  s.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
+  const platformSelect = document.createElement("select");
+  platformSelect.setAttribute("id", "modularPlatform");
+  platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
   
   window.platformObs.forEach(t => {
-    var o = document.createElement("option");
-    o.value = t;
-    o.innerHTML = t;
-    s.append(o)
+    const platformOption = document.createElement("option");
+    platformOption.value = t;
+    platformOption.innerHTML = t;
+    platformSelect.append(platformOption)
   });
 
-  document.getElementById("modularPlatformPH").replaceWith(s);
+  document.getElementById("modularPlatformPH").replaceWith(platformSelect);
 }
 
 
 function updateModularPayload() {
-
-  var a = document.getElementById("modularVerdict") && document.getElementById("modularVerdict").value ? document.getElementById("modularVerdict").value : "reproducible";
-  var b = document.getElementById("modularPlatform") && document.getElementById("modularPlatform").value ? document.getElementById("modularPlatform").value : "android";
+  const verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
+  const platform = (document.getElementById("modularPlatform") || {}).value || "android"
 
   document.querySelectorAll(".-filter-element").forEach(function (e) {
-    e.classList.contains(`-${window.transcribeTag(b).category}`) ? (e.style.display="flex") : (e.style.display="none")
+    e.classList.contains(`-${window.transcribeTag(platform).category}`) ? (e.style.display="flex") : (e.style.display="none")
   })
 
-  b === 'Play Store' || b === 'android' ? (
-    document.getElementById("SwitchToDownloadsView") && (
-      document.getElementById("SwitchToDownloadsView").style.display = ""
-    )
-  ): (
-    document.getElementById("SwitchToDownloadsView") && (
-      document.getElementById("SwitchToDownloadsView").style.display = "none",
-        document.getElementById("walletsPerCatContainer") && (
-        document.getElementById("walletsPerCatContainer").classList.add("selected")
-        ),
-        document.getElementById("proportionalViewContainer") && (
-          document.getElementById("proportionalViewContainer").classList.remove("selected")
-        )
-    )
-    
-  )
+  switch(platform) {
+    case 'Play Store':
+    case 'android':
+      ((document.getElementById("SwitchToDownloadsView")||{}).style||{}).display = ""
+      break
+    default:
+      var x
+      x = document.getElementById("SwitchToDownloadsView"); if (x) x.style.display = "none"
+      x = document.getElementById("walletsPerCatContainer"); if (x) x.classList.add("selected")
+      x = document.getElementById("proportionalViewContainer"); if (x) x.classList.remove("selected")
+  }
 
   var d = document.createElement("div");
   d.classList.add("page-section");
@@ -67,8 +61,6 @@ function updateModularPayload() {
   var g = document.createElement("div");
   g.setAttribute("id", "tableofwallets");
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`;
-
-
 
   var f = document.createElement("div");
   f.classList.add("flexi-list");
@@ -79,8 +71,8 @@ function updateModularPayload() {
     if (obj.appId && obj.verdict && obj.category) {
       var c = String(obj.appId).replace(".", "");
 
-      if (a === "all" || String(obj.verdict) === a) {
-        if (b === "all" || String(obj.category) === b) {
+      if (verdict === "all" || String(obj.verdict) === verdict) {
+        if (platform === "all" || String(obj.category) === platform) {
           h += `<div id="card_${c}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
             <div style="width:7em;position: relative;" onclick="toggleApp('${c}')">
               <div id="show_${c}" class="card-expand-close">
@@ -98,7 +90,7 @@ function updateModularPayload() {
                 </div>
               </div>
                 <div class="app_info_box">
-                    <strong>${obj.title}</strong>
+                    <strong>${obj.altTitle || obj.title}</strong>
                 </div>
             </div>
             <div id="details_${c}" class="item-detail-container" style="width:20em;display:none">
@@ -113,27 +105,17 @@ function updateModularPayload() {
                     </span>
                   </td>
                 </tr>
-                ${obj.downloads ? ( `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>`) : ``}
-                ${obj.users && obj.stars ? (`<tr><td>Rating</td><td>${obj.stars ? (`${obj.stars} stars by `) : ``}${obj.users} users</td></tr>`):``}
-                
-                ${obj.size ? ( `<tr><td>App size</td><td>${obj.size}</td></tr>` ):``}
-                
+                ${obj.downloads ? `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>` : ``}
+                ${obj.users && obj.stars ? (`<tr><td>Rating</td><td>${obj.stars ? (`${obj.stars} stars by `) : ``}${obj.users} users</td></tr>`) : ``}
+                ${obj.size ? `<tr><td>App size</td><td>${obj.size}</td></tr>` : ``}
                 ${obj.launchDate ? (`<tr><td>Launched</td><td>${obj.launchDate}</td></tr>`):``}
-                
                 <tr><td>Reviewed</td><td>${obj.date}</td></tr>
-
                 <tr><td>${obj.category}</td><td>
                 ${obj.idd ? (`<a href="https://apps.apple.com/us/app/id${obj.idd}">${obj.appId}</a>`): (`<a href="https://play.google.com/store/apps/details?id=${obj.appId}">${obj.appId}</a>`)}
                 </td></tr>
-                
-                <tr><td>Website</td><td><a href="${obj.developerWebsite}">${obj.developerWebsite}</a></td></tr>
-                
-                <tr><td>Source Code</td><td><a href="${obj.repository}">${obj.repository}</a></td></tr>
+                ${obj.developerWebsite ? `<tr><td>Website</td><td><a href="${obj.developerWebsite}">${obj.developerWebsite}</a></td></tr>` : ``}
+                ${obj.repository ? `<tr><td>Source Code</td><td><a href="${obj.repository}">${obj.repository}</a></td></tr>` : ``}
                 ${obj.issue ? (`<tr><td>Open Issue</td><td><a href="${obj.issue}">${obj.issue}</a></td></tr>`):``}
-                
-                
-                
-                
               </tbody></table>
               <p><a href="/${obj.folder}/${obj.appId}/" rel="permalink">
                 <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
@@ -146,54 +128,40 @@ function updateModularPayload() {
     }
   })
 
-  f.innerHTML = h.length == 0? `<h2>No wallets...</h2>` : h;
-  d.append(g);
-  d.append(f);
-  document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d);
+  f.innerHTML = h.length == 0 ? `<h2>No wallets...</h2>` : h
+  d.append(g)
+  d.append(f)
+  document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d)
 }
 
 window.addEventListener("scroll", function (e) {
-  var o = document.getElementById("modularWalletPayload").getBoundingClientRect().bottom;
+  const p = document.getElementById("modularWalletPayload")
+  const o = p.getBoundingClientRect().bottom;
   document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top;
   if (o <= 100) {
-    document.getElementById("modularWalletPayload").style.height = `${document.getElementById("modularWalletPayload").getBoundingClientRect().height}px`;
-    document.getElementById("modularWalletPayload").style.overflow = "hidden"
+    p.style.height = `${p.getBoundingClientRect().height}px`;
+    p.style.overflow = "hidden"
     document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
       e.style.transform = `translateY(${o - 100}px)`;
       e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
     })
   } else {
     document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
-      e.style.transform = `translateY(0px)`;
+      e.style.transform = `translateY(0px)`
       e.style.display = ""
-      document.getElementById("modularWalletPayload").style.height = "";
-      document.getElementById("modularWalletPayload").style.overflow = ""
+      p.style.height = ""
+      p.style.overflow = ""
     })
   }
 })
 
+var x, y
+x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", function (e) {
+  y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
+  y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
+})
+x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", function (e) {
+  y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
+  y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
+})
 updateModularPayload()
-
-document.getElementById("SwitchToDownloadsView") && (
-  document.getElementById("SwitchToDownloadsView").addEventListener("click", function (e) {
-    document.getElementById("walletsPerCatContainer") && (
-    document.getElementById("walletsPerCatContainer").classList.remove("selected")
-    )
-    document.getElementById("proportionalViewContainer") && (
-      document.getElementById("proportionalViewContainer").classList.add("selected")
-    )
-  }),
-  updateModularPayload()
-)
-
-document.getElementById("SwitchToWalletsView") && (
-  document.getElementById("SwitchToWalletsView").addEventListener("click", function (e) {
-    document.getElementById("proportionalViewContainer") && (
-    document.getElementById("proportionalViewContainer").classList.remove("selected")
-    )
-    document.getElementById("walletsPerCatContainer") && (
-      document.getElementById("walletsPerCatContainer").classList.add("selected")
-    )
-  }),
-  updateModularPayload()
-)

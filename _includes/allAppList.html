@@ -38,6 +38,7 @@
       "category": "Play Store",
       "appId": "{{ post.appId }}",
       "title": "{{ post.title }}",
+      "altTitle": "{{ post.altTitle }}",
       "message": {{ site.data.verdicts[post.verdict].message | jsonify }},
       "users": "{{ post.users }}",
       "launchDate": "{{ post.launchDate | date: '%Y-%m-%d' }}",

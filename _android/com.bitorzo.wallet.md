@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Wallet"
-altTitle: 
+altTitle: "Bitcoin Wallet by Bitorzo.com"
 authors:
 
 users: 1000

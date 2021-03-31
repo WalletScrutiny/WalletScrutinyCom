@@ -17,7 +17,7 @@ window.sortedWallets.forEach(function (e) {
     window.platformObs.push(e.category)
   }// ? String(e.wsId) : String(e.appId);
   if (e.wsId) {
-  var n = e.wsId;
+    var n = e.wsId;
     var i = readerRec.indexOf(n);
     if (n.length > 0 && i < 0) {
       window.orderedObs.push(e)
