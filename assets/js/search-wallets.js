@@ -22,9 +22,6 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   document.querySelectorAll(".wallet-search-placeholder")[0].replaceWith(t)
 }
 
-
-
-
 function exitSearch(x) {
   document.querySelectorAll(".exit-search")[0].style.display = "none";
   document.querySelectorAll(".results-list")[0].style.display = "none";
@@ -69,9 +66,7 @@ function searchCatalogue(termInput) {
       if (wallet.title) {
         let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite} ${wallet.category} ${wallet.verdict}`
 
-
-
-        matchCounter < 1 && (result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>")
+        if (matchCounter < 1) result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
 
         let index = searchableTerms.toLocaleUpperCase().indexOf(term);
 
@@ -92,7 +87,7 @@ function searchCatalogue(termInput) {
             compactedResults += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
               href='${analysisUrl}'>
               <img src='${basePath}/images/wallet_icons/${w.folder}/small/${w.icon}' class='results-list-wallet-icon' />
-            <span>${w.title}</span>
+            <span>${w.altTitle || w.title}</span>
             
             <span class="badge-2 ${w.verdict}">
                 <i class="fab fa-${window.transcribeTag(w.category).css}"></i>
