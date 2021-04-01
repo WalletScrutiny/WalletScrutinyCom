@@ -18,11 +18,16 @@ repository: https://github.com/mycelium-com/wallet-android
 issue: 
 icon: com.mycelium.wallet.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-20
-reviewStale: true
+verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-01
+reviewStale: false
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-01-20
+  version: "3.8.6.1"
+  apkHash: 7184f13e4f45df3dadf4f3bd6c3a1f9cde0375dbd81f784535b4884f55101048
+  gitRevision: 00d3b30ee0b435990d6608c7d224816146fd1ef3
+  verdict: nonverifiable
 - date: 2020-11-17
   version: "3.7.0.1"
   apkHash: f504ec63d60584a7d850dfe79ce586fd97a72a5c844967d83c642fb9e1bf0c0c
@@ -135,39 +140,20 @@ was not resolved yet, the following results were obtained on a
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.8.6.1
-apkVersionCode: 3080601
-apkHash:        7184f13e4f45df3dadf4f3bd6c3a1f9cde0375dbd81f784535b4884f55101048
+apkVersionName: 3.8.9.0
+apkVersionCode: 3080900
+apkHash:        296a97308aa10a98bc678e9b0ffd94c7daf120c24fa07cdaa7ad9179ace7416c
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/arm64-v8a/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/arm64-v8a/libabieos-lib.so differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/armeabi-v7a/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/armeabi-v7a/libabieos-lib.so differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/x86/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/x86/libabieos-lib.so differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/lib/x86_64/libabieos-lib.so and /tmp/fromBuild_com.mycelium.wallet_3080601/lib/x86_64/libabieos-lib.so differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/CERT.RSA differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/CERT.SF differ
-Files /tmp/fromPlay_com.mycelium.wallet_3080601/original/META-INF/MANIFEST.MF and /tmp/fromBuild_com.mycelium.wallet_3080601/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_com.mycelium.wallet_3080900/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3080900/original/META-INF/CERT.RSA differ
+
+Revision, tag (and its signature):
+object 5c5d672c4991fcfef650d1851cf5178dfa7340bc
+type commit
+tag v3.8.9.0
+tagger Leo Wandersleb <leo.wandersleb@mycelium.com> 1616729523 -0300
+
+v3.8.9.0
 ```
 
-This diff unfortunately contains those four `libabieos-lib.so` which makes the
-app **not verifiable**.
-
-Leo Wandersleb:
-> As I'm both the author of this analysis and the release manager
-  of the app discussed, I'm in a clear conflict of interest and feel the need to
-  explain some more. Obviously reproducing a build on the machine of the original
-  release manager is not proving anything if it succeeds and with virtualization
-  I failed to run successfully the WalletScrutiny
-  [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-  [since some time now](https://github.com/docker/for-linux/issues/1018), so a
-  colleague checking the reproducibility was the better assurance that everything
-  is ok than me checking on a rented server but all those are kind of bad options
-  until a neutral tester does the testing which in a year nobody volunteered to
-  do.
-> 
-  In the opposite case of reproduction failing though, the app should get at
-  least a third opinion before getting back its verdict "reproducible".
-> 
-  At Mycelium we will investigate the matter and hope to both be back
-  reproducible soon and find a neutral person willing to look through a few
-  lines of test setup to then attest the reproducibility again.
+which is what we want to see to give this wallet the verdict: **reproducible**
