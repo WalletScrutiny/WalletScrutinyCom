@@ -1,7 +1,6 @@
 ---
-title: "Wasabi Wallet"
-altTitle: 
-
+title: "WasabiWallet"
+altTitle: "(not <u>the</u>) Wasabi Wallet"
 users: 500
 appId: com.wasabiwallet.dev
 launchDate: 
@@ -33,7 +32,7 @@ redirect_from:
 ---
 
 
-**Update:** This wallet was removed from Google Play. Discussions of it happened
+**Update 2020-12-08:** This wallet was removed from Google Play. Discussions of it happened
 a bit on Twitter but it was an obvious scam.
 
 **Do not use this app! We expect it to be removed from Google Play. More details
