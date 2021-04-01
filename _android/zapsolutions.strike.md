@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-30
 apkVersionName: "v63"
 stars: 4.6
-ratings: 226
-reviews: 74
+ratings: 227
+reviews: 75
 size: 8.9M
 website: 
 repository: 

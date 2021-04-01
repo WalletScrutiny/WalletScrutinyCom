@@ -9,8 +9,8 @@ appId: com.Bitplaza.android
 launchDate: 
 latestUpdate: 2018-11-14
 apkVersionName: "4.0"
-stars: 4.4
-ratings: 104
+stars: 4.5
+ratings: 105
 reviews: 51
 size: 1.7M
 website: https://www.bitplazashopping.com

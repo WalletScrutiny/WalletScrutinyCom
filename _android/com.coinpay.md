@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2020-08-23
 apkVersionName: "1.0.7"
 stars: 3.9
-ratings: 15
+ratings: 16
 reviews: 13
 size: 5.4M
 website: https://www.coinpayapp.com

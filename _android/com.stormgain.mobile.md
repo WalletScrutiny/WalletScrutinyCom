@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-26
 apkVersionName: "1.14.1"
 stars: 4.5
-ratings: 16807
-reviews: 10028
+ratings: 16972
+reviews: 10111
 size: 23M
 website: https://stormgain.com
 repository: 

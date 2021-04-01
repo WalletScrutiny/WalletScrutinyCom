@@ -9,9 +9,9 @@ appId: io.muun.apollo
 launchDate: 2017-04-25
 latestUpdate: 2021-03-27
 apkVersionName: "45.1"
-stars: 4.5
-ratings: 148
-reviews: 86
+stars: 4.6
+ratings: 152
+reviews: 88
 size: 40M
 website: https://muun.com
 repository: https://github.com/muun/apollo
@@ -36,6 +36,7 @@ redirect_from:
 ---
 
 
+<!-- https://github.com/muun/apollo/issues/2 -->
 
 Update: The provider made clear that this app will remain non-reproducible:
 

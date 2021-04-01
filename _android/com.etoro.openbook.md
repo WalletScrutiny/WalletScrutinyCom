@@ -10,8 +10,8 @@ launchDate: 2013-11-05
 latestUpdate: 2021-03-25
 apkVersionName: "314.0.0"
 stars: 2.8
-ratings: 73276
-reviews: 29265
+ratings: 73424
+reviews: 29323
 size: 79M
 website: 
 repository: 
