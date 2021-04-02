@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: UpholdInc
-providerLinkedIn: company/upholdinc
+providerLinkedIn: upholdinc
 providerFacebook: UpholdInc
 providerReddit: 
 

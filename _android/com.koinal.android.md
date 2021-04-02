@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: koinal_io
-providerLinkedIn: company/koinal-io
+providerLinkedIn: koinal-io
 providerFacebook: Koinal.io
 providerReddit: 
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Mercuryo_io
-providerLinkedIn: company/mercuryo-io
+providerLinkedIn: mercuryo-io
 providerFacebook: mercuryo.io
 providerReddit: mercuryo
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: zumopay
-providerLinkedIn: company/zumomoney
+providerLinkedIn: zumomoney
 providerFacebook: zumo.money
 providerReddit: 
 

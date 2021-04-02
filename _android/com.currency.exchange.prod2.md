@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: currencycom
-providerLinkedIn: company/currencycom/
+providerLinkedIn: currencycom/
 providerFacebook: currencycom/
 providerReddit: 
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: CoinCola_Global
-providerLinkedIn: company/coincola
+providerLinkedIn: coincola
 providerFacebook: CoinCola
 providerReddit: coincolaofficial
 

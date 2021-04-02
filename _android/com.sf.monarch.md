@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Monarchtoken
-providerLinkedIn: company/monarchtoken
+providerLinkedIn: monarchtoken
 providerFacebook: MonarchWallet
 providerReddit: MonarchToken
 

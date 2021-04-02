@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Lykke
-providerLinkedIn: company/lykke
+providerLinkedIn: lykke
 providerFacebook: LykkeCity
 providerReddit: lykke
 

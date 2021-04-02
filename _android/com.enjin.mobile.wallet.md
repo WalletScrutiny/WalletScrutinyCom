@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: enjin
-providerLinkedIn: company/enjin
+providerLinkedIn: enjin
 providerFacebook: enjinsocial
 providerReddit: EnjinCoin
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: CoinomiWallet
-providerLinkedIn: company/coinomi/
+providerLinkedIn: coinomi/
 providerFacebook: coinomi
 providerReddit: COINOMI
 

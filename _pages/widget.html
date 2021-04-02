@@ -125,7 +125,7 @@ permalink: /widget/
           ${ (hasValue(wallet.providerTwitter)) ? `<tr><td>Twitter</td><td><a target="_blank" href="https://twitter.com/${wallet.providerTwitter}">@${wallet.providerTwitter}</a></td></tr>` : ``}
           ${ (hasValue(wallet.providerFacebook)) ? `<tr><td>Facebook</td><td><a target="_blank" href="https://www.facebook.com/${wallet.providerFacebook}">${wallet.providerFacebook}</a></td></tr>` : ``}
           ${ (hasValue(wallet.providerReddit)) ? `<tr><td>Reddit</td><td><a target="_blank" href="https://www.reddit.com/r/${wallet.providerReddit}">r/${wallet.providerReddit}</a></td></tr>` : ``}
-          ${ (hasValue(wallet.providerLinkedIn)) ? `<tr><td>LinkedIn</td><td><a target="_blank" href="https://www.linkedin.com/${wallet.providerLinkedIn}">${wallet.providerLinkedIn}</a></td></tr>` : ``}
+          ${ (hasValue(wallet.providerLinkedIn)) ? `<tr><td>LinkedIn</td><td><a target="_blank" href="https://www.linkedin.com/company/${wallet.providerLinkedIn}">${wallet.providerLinkedIn}</a></td></tr>` : ``}
         </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>` : ``
       return `
       <a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="/${wallet.appId}/">

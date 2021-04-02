@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: spot_bitcoin
-providerLinkedIn: company/spot-bitcoin
+providerLinkedIn: spot-bitcoin
 providerFacebook: spot.bitcoin
 providerReddit: 
 

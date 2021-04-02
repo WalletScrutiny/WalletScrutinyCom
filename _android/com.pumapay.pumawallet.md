@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: PumaPay
-providerLinkedIn: company/decentralized-vision
+providerLinkedIn: decentralized-vision
 providerFacebook: PumaPayOfficial
 providerReddit: 
 

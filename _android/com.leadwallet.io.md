@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Leadwallet
-providerLinkedIn: company/leadwallet
+providerLinkedIn: leadwallet
 providerFacebook: 
 providerReddit: LeadWallet
 

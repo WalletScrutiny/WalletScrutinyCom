@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: stasisnet
-providerLinkedIn: company/stasisnet/
+providerLinkedIn: stasisnet/
 providerFacebook: stasisnet
 providerReddit: 
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: GoodCryptoApp
-providerLinkedIn: company/goodcrypto
+providerLinkedIn: goodcrypto
 providerFacebook: GoodCryptoApp
 providerReddit: GoodCrypto
 

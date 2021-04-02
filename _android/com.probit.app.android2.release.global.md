@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: ProBit_Exchange
-providerLinkedIn: company/probit-exchange
+providerLinkedIn: probit-exchange
 providerFacebook: probitexchange
 providerReddit: 
 

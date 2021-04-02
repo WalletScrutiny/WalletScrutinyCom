@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: counoscoin
-providerLinkedIn: company/11734790
+providerLinkedIn: 11734790
 providerFacebook: CounosPlatform
 providerReddit: 
 

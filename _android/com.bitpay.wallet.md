@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BitPay
-providerLinkedIn: company/bitpay-inc-
+providerLinkedIn: bitpay-inc-
 providerFacebook: BitPayOfficial
 providerReddit: 
 

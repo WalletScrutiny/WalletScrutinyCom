@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: quickxprotocol
-providerLinkedIn: company/quickx
+providerLinkedIn: quickx
 providerFacebook: quickxprotocol
 providerReddit: QuickX
 

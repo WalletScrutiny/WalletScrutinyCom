@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: paytomat
-providerLinkedIn: company/11433285
+providerLinkedIn: 11433285
 providerFacebook: paytomat
 providerReddit: 
 

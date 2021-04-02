@@ -32,7 +32,7 @@ reviewArchive:
 
 
 providerTwitter: maxonrow
-providerLinkedIn: company/maxonrow
+providerLinkedIn: maxonrow
 providerFacebook: maxonrowblockchain
 providerReddit: 
 

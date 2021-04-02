@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: binanceus
-providerLinkedIn: company/binance-us
+providerLinkedIn: binance-us
 providerFacebook: BinanceUS
 providerReddit: 
 

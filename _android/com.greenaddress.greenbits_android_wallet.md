@@ -105,7 +105,7 @@ reviewArchive:
   verdict: reproducible
 
 providerTwitter: Blockstream
-providerLinkedIn: company/blockstream
+providerLinkedIn: blockstream
 providerFacebook: Blockstream
 providerReddit: 
 

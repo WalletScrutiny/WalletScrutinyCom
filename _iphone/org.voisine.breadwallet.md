@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BRDHQ
-providerLinkedIn: company/brdhq
+providerLinkedIn: brdhq
 providerFacebook: brdhq
 providerReddit: brdapp
 

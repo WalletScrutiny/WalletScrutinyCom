@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: SwftCoin
-providerLinkedIn: company/swftcoin
+providerLinkedIn: swftcoin
 providerFacebook: SWFTBlockchain
 providerReddit: 
 

@@ -27,7 +27,7 @@ reviewArchive:
 
 
 providerTwitter: sparkpointio
-providerLinkedIn: company/sparkpointio
+providerLinkedIn: sparkpointio
 providerFacebook: sparkpointio
 providerReddit: SparkPoint
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BitBay
-providerLinkedIn: company/bitbay
+providerLinkedIn: bitbay
 providerFacebook: BitBay
 providerReddit: 
 

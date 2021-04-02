@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: sylo
-providerLinkedIn: company/sylo.io
+providerLinkedIn: sylo.io
 providerFacebook: sylo.io
 providerReddit: sylo_io
 

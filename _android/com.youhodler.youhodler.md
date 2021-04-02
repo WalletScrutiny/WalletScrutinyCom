@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: youhodler
-providerLinkedIn: company/youhodler
+providerLinkedIn: youhodler
 providerFacebook: YouHodler
 providerReddit: 
 

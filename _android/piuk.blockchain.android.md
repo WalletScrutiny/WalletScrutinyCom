@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: blockchain
-providerLinkedIn: company/blockchain
+providerLinkedIn: blockchain
 providerFacebook: blockchain
 providerReddit: 
 

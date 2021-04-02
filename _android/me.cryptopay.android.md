@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: cryptopay
-providerLinkedIn: company/cryptopay
+providerLinkedIn: cryptopay
 providerFacebook: cryptopayme
 providerReddit: 
 

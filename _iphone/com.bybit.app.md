@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Bybit_Official
-providerLinkedIn: company/bybitexchange
+providerLinkedIn: bybitexchange
 providerFacebook: Bybit
 providerReddit: Bybit
 

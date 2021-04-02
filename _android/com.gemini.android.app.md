@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: gemini
-providerLinkedIn: company/geminitrust
+providerLinkedIn: geminitrust
 providerFacebook: GeminiTrust
 providerReddit: 
 

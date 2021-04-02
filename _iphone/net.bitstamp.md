@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Bitstamp
-providerLinkedIn: company/bitstamp
+providerLinkedIn: bitstamp
 providerFacebook: Bitstamp
 providerReddit: 
 

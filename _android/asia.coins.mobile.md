@@ -30,7 +30,7 @@ reviewArchive:
   verdict: nosource
 
 providerTwitter: coinsph
-providerLinkedIn: company/coins-ph
+providerLinkedIn: coins-ph
 providerFacebook: coinsph
 providerReddit: 
 

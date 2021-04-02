@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: investvoyager
-providerLinkedIn: company/investvoyager
+providerLinkedIn: investvoyager
 providerFacebook: InvestVoyager
 providerReddit: Invest_Voyager
 

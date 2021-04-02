@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: ripioapp
-providerLinkedIn: company/ripio
+providerLinkedIn: ripio
 providerFacebook: RipioApp
 providerReddit: 
 

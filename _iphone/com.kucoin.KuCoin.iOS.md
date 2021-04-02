@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: KuCoinCom
-providerLinkedIn: company/kucoin
+providerLinkedIn: kucoin
 providerFacebook: KuCoinOfficial
 providerReddit: kucoin
 

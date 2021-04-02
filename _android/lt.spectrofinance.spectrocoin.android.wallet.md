@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: spectrocoin
-providerLinkedIn: company/spectrocoin
+providerLinkedIn: spectrocoin
 providerFacebook: spectrocoin
 providerReddit: 
 

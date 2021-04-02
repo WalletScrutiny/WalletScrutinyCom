@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: NikoTech
-providerLinkedIn: company/niko-technologies-ou
+providerLinkedIn: niko-technologies-ou
 providerFacebook: 
 providerReddit: 
 

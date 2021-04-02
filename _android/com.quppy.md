@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: QuppyPay
-providerLinkedIn: company/quppy
+providerLinkedIn: quppy
 providerFacebook: quppyPay
 providerReddit: 
 

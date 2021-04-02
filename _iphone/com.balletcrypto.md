@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BalletCrypto
-providerLinkedIn: company/balletcrypto
+providerLinkedIn: balletcrypto
 providerFacebook: balletcrypto.global
 providerReddit: BalletCrypto
 

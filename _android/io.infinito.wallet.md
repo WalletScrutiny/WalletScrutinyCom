@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Infinito_Ltd
-providerLinkedIn: company/infinitoservices/
+providerLinkedIn: infinitoservices/
 providerFacebook: InfinitoWallet
 providerReddit: 
 

@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: cryptocom
-providerLinkedIn: company/cryptocom
+providerLinkedIn: cryptocom
 providerFacebook: CryptoComOfficial
 providerReddit: Crypto_com
 

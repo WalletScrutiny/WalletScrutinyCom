@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: bit2me
-providerLinkedIn: company/bit2me
+providerLinkedIn: bit2me
 providerFacebook: bit2me
 providerReddit: 
 

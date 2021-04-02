@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: krakenfx
-providerLinkedIn: company/krakenfx
+providerLinkedIn: krakenfx
 providerFacebook: KrakenFX
 providerReddit: 
 

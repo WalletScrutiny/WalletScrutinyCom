@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BudaPuntoCom
-providerLinkedIn: company/9294718
+providerLinkedIn: 9294718
 providerFacebook: BudaPuntoCom
 providerReddit: 
 

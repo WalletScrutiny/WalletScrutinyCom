@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: edgewallet
-providerLinkedIn: company/3609678
+providerLinkedIn: 3609678
 providerFacebook: 
 providerReddit: 
 

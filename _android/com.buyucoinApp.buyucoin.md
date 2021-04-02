@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: buyucoin
-providerLinkedIn: company/buyucoin
+providerLinkedIn: buyucoin
 providerFacebook: BuyUcoin
 providerReddit: 
 

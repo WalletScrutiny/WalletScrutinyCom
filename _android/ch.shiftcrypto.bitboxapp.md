@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: ShiftCryptoHQ
-providerLinkedIn: company/shift-crypto
+providerLinkedIn: shift-crypto
 providerFacebook: Shiftcrypto
 providerReddit: 
 

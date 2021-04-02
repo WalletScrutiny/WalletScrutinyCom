@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: AbraGlobal
-providerLinkedIn: company/abra
+providerLinkedIn: abra
 providerFacebook: GoAbraGlobal
 providerReddit: 
 

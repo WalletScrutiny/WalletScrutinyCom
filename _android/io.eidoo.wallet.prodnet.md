@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: eidoo_io
-providerLinkedIn: company/11232699
+providerLinkedIn: 11232699
 providerFacebook: eidoocrypto
 providerReddit: 
 

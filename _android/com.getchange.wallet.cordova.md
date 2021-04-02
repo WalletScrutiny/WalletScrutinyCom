@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: changefinance
-providerLinkedIn: company/changeinvest
+providerLinkedIn: changeinvest
 providerFacebook: changeinvest
 providerReddit: 
 

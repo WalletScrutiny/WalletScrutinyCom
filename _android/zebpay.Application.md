@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: zebpay
-providerLinkedIn: company/zebpay
+providerLinkedIn: zebpay
 providerFacebook: zebpay
 providerReddit: 
 

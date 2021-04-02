@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: conio
-providerLinkedIn: company/conio
+providerLinkedIn: conio
 providerFacebook: ConioHQ
 providerReddit: 
 

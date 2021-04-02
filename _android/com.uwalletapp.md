@@ -29,7 +29,7 @@ reviewArchive:
 
 
 providerTwitter: utrust
-providerLinkedIn: company/utrust-payments
+providerLinkedIn: utrust-payments
 providerFacebook: utrust.io
 providerReddit: UTRUST_Official
 

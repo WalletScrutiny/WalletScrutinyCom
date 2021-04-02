@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Ledger
-providerLinkedIn: company/ledgerhq
+providerLinkedIn: ledgerhq
 providerFacebook: Ledger
 providerReddit: 
 

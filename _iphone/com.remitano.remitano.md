@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: remitano
-providerLinkedIn: company/Remitano
+providerLinkedIn: Remitano
 providerFacebook: remitano
 providerReddit: 
 

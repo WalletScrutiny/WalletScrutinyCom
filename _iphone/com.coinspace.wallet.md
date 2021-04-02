@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: coinappwallet
-providerLinkedIn: company/coin-space
+providerLinkedIn: coin-space
 providerFacebook: coinappwallet
 providerReddit: 
 

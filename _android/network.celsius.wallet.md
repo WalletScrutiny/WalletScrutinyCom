@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: celsiusnetwork
-providerLinkedIn: company/celsiusnetwork
+providerLinkedIn: celsiusnetwork
 providerFacebook: CelsiusNetwork
 providerReddit: 
 

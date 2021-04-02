@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: etoro
-providerLinkedIn: company/etoro
+providerLinkedIn: etoro
 providerFacebook: eToro
 providerReddit: 
 

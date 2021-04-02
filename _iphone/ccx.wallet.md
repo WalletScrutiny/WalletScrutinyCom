@@ -27,7 +27,7 @@ reviewArchive:
 
 
 providerTwitter: CoinCasso
-providerLinkedIn: company/coincasso
+providerLinkedIn: coincasso
 providerFacebook: ccwallet.mobileapp
 providerReddit: 
 

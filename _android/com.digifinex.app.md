@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: DigiFinex
-providerLinkedIn: company/digifinex-global
+providerLinkedIn: digifinex-global
 providerFacebook: digifinex.global
 providerReddit: DigiFinex
 

@@ -30,7 +30,7 @@ reviewArchive:
   verdict: nosource
 
 providerTwitter: LunoGlobal
-providerLinkedIn: company/lunoglobal
+providerLinkedIn: lunoglobal
 providerFacebook: luno
 providerReddit: 
 

@@ -66,7 +66,7 @@
       {% if post.providerTwitter %}<tr><td>Twitter</td><td><a href="https://twitter.com/{{ post.providerTwitter }}">@{{ post.providerTwitter }}</a></td></tr>{% endif %}
       {% if post.providerFacebook %}<tr><td>Facebook</td><td><a href="https://www.facebook.com/{{ post.providerFacebook }}">{{ post.providerFacebook }}</a></td></tr>{% endif %}
       {% if post.providerReddit %}<tr><td>Reddit</td><td><a href="https://www.reddit.com/r/{{ post.providerReddit }}">r/{{ post.providerReddit }}</a></td></tr>{% endif %}
-      {% if post.providerLinkedIn %}<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/{{ post.providerLinkedIn }}">{{ post.providerLinkedIn }}</a></td></tr>{% endif %}
+      {% if post.providerLinkedIn %}<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/company/{{ post.providerLinkedIn }}">{{ post.providerLinkedIn }}</a></td></tr>{% endif %}
     </table>
     <p><a href="{{ base_path }}{{ post.url }}" rel="permalink">
       <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>

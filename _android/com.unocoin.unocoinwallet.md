@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Unocoin
-providerLinkedIn: company/unocoin
+providerLinkedIn: unocoin
 providerFacebook: unocoin
 providerReddit: 
 

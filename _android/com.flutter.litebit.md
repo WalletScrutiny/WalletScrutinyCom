@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: litebiteu
-providerLinkedIn: company/litebit
+providerLinkedIn: litebit
 providerFacebook: litebiteu
 providerReddit: 
 

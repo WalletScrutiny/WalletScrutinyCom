@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: BitMartExchange
-providerLinkedIn: company/bitmart
+providerLinkedIn: bitmart
 providerFacebook: bitmartexchange
 providerReddit: BitMartExchange
 

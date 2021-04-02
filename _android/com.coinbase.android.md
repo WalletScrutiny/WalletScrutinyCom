@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: coinbase
-providerLinkedIn: company/coinbase
+providerLinkedIn: coinbase
 providerFacebook: Coinbase
 providerReddit: CoinBase
 

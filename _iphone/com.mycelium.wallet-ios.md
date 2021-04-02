@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: MyceliumCom
-providerLinkedIn: company/mycelium
+providerLinkedIn: mycelium
 providerFacebook: myceliumcom
 providerReddit: mycelium
 

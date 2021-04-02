@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: Cobo_Wallet
-providerLinkedIn: company/coboofficial
+providerLinkedIn: coboofficial
 providerFacebook: coboOfficial
 providerReddit: 
 

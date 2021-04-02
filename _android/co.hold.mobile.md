@@ -26,7 +26,7 @@ reviewArchive:
 
 
 providerTwitter: HoldHQ
-providerLinkedIn: company/holdhq
+providerLinkedIn: holdhq
 providerFacebook: HoldHQ
 providerReddit: 
 
