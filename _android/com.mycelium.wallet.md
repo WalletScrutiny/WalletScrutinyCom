@@ -122,6 +122,9 @@ redirect_from:
 ---
 
 
+**Update 2021-04-01**: Emanuel Bronshtein
+[also was able to reproduce v3.8.9.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/197#note_543234399).
+
 **Disclaimer**: The authors of this project have contributed to Mycelium.
 Andreas Schildbach was so kind and independently tested and
 confirmed Mycelium's verifiability
