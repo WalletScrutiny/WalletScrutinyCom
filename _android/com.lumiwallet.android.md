@@ -1,6 +1,6 @@
 ---
 wsId: LumiWallet
-title: "Crypto and Bitcoin Wallet by Lumi Wallet"
+title: "Lumi Crypto Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: com.lumiwallet.android
 launchDate: 2018-01-15
 latestUpdate: 2021-03-19
 apkVersionName: "3.4.2"
-stars: 4.3
-ratings: 3910
-reviews: 1021
+stars: 4.4
+ratings: 3988
+reviews: 1040
 size: 13M
 website: https://lumiwallet.com
 repository: 

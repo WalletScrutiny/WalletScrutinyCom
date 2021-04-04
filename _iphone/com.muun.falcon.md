@@ -8,11 +8,11 @@ appId: com.muun.falcon
 appCountry: 
 idd: 1482037683
 released: 2019-10-11
-updated: 2021-03-27
-version: "2.2.0"
+updated: 2021-04-01
+version: "2.2.2"
 score: 4.77273
 reviews: 22
-size: 79710208
+size: 79775744
 developerWebsite: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 

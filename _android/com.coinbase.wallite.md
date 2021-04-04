@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-07-17
 apkVersionName: "0.5-alpha"
 stars: 3.6
-ratings: 229
-reviews: 145
+ratings: 231
+reviews: 146
 size: 6.7M
 website: https://wallet.coinbase.com
 repository: 

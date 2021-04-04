@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-03
 apkVersionName: "3.2.0"
 stars: 3.8
-ratings: 4441
-reviews: 2736
+ratings: 4467
+reviews: 2748
 size: 26M
 website: http://www.quicrypto.com
 repository: 

@@ -10,8 +10,8 @@ idd: 1438599608
 released: 2019-05-20
 updated: 2021-03-28
 version: "1.10.6"
-score: 3.46154
-reviews: 26
+score: 3.37037
+reviews: 27
 size: 33015808
 developerWebsite: https://www.walletofsatoshi.com
 repository: 

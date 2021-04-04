@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-25
 apkVersionName: "1.0.22"
 stars: 3.2
-ratings: 222
-reviews: 145
+ratings: 224
+reviews: 146
 size: 56M
 website: https://www.dharma.io
 repository: 

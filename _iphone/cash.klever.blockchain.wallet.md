@@ -8,11 +8,11 @@ appId: cash.klever.blockchain.wallet
 appCountry: 
 idd: 1525584688
 released: 2020-08-26
-updated: 2021-03-08
-version: "4.1.6"
-score: 4.39079
-reviews: 261
-size: 120953856
+updated: 2021-04-01
+version: "4.1.8"
+score: 4.40268
+reviews: 298
+size: 124472320
 developerWebsite: https://klever.io
 repository: 
 issue: 

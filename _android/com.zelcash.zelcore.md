@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.zelcash.zelcore
 launchDate: 2018-09-21
-latestUpdate: 2021-03-24
-apkVersionName: "4.7.1"
+latestUpdate: 2021-04-01
+apkVersionName: "4.8.0"
 stars: 3.7
-ratings: 415
-reviews: 292
+ratings: 414
+reviews: 291
 size: 17M
 website: https://zel.network/project/zelcore
 repository: 

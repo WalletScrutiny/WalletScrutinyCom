@@ -4,14 +4,14 @@ title: "Dfox-Crypto Wallet and DeFi Portfolio"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.sixpencer.simplework
 launchDate: 
 latestUpdate: 2021-03-27
 apkVersionName: "1.3.6"
 stars: 4.8
-ratings: 86
-reviews: 42
+ratings: 88
+reviews: 43
 size: 18M
 website: https://dfox.cc
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.currency.exchange.prod2
 launchDate: 
-latestUpdate: 2021-03-29
-apkVersionName: "1.10.4"
-stars: 4.1
-ratings: 2070
-reviews: 759
+latestUpdate: 2021-04-01
+apkVersionName: "1.11"
+stars: 4.0
+ratings: 2090
+reviews: 765
 size: Varies with device
 website: https://currency.com
 repository: 

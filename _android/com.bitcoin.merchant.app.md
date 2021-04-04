@@ -4,7 +4,7 @@ title: "Bitcoin Cash Register (BCH)"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.bitcoin.merchant.app
 launchDate: 2019-04-13
 latestUpdate: 2020-10-23

@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.sologenicwallet
 launchDate: 
-latestUpdate: 2021-04-01
-apkVersionName: "2.0.1"
-stars: 3.6
-ratings: 58
-reviews: 38
+latestUpdate: 2021-04-03
+apkVersionName: "2.0.3"
+stars: 3.5
+ratings: 59
+reviews: 39
 size: 53M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: btc.org.freewallet.app
 launchDate: 2016-06-13
 latestUpdate: 2020-04-21
 apkVersionName: "2.5.2"
-stars: 4.0
-ratings: 4452
-reviews: 2176
+stars: 4.1
+ratings: 4501
+reviews: 2213
 size: 7.2M
 website: https://freewallet.org
 repository: 
