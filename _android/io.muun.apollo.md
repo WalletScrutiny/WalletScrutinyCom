@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: muunwallet
+providerTwitter: MuunWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -36,14 +36,17 @@ redirect_from:
 ---
 
 
-<!-- https://github.com/muun/apollo/issues/2 -->
+**Update 2021-04-06**: The provider
+[announced that the app is reproducible now](https://twitter.com/MuunWallet/status/1379490681165602823).
+We will have to check that.
 
-Update: The provider made clear that this app will remain non-reproducible:
+**Update 2020-04-01**: The provider made clear that this app will remain non-reproducible:
 
 >  **esneider** 16 hours ago: We have updated the instructions for building, and
    we won't be producing reproducible builds for the time being.
 
---------------------------------------------------------------------------------
+The original analysis
+=====================
 
 The description starts out very clearly:
 
