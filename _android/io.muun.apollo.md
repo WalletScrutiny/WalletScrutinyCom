@@ -19,10 +19,15 @@ issue: https://github.com/muun/apollo/issues/2
 icon: io.muun.apollo.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-29
-reviewStale: true
+date: 2021-04-06
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2019-12-29
+  version: "beta-36.2"
+  apkHash: 
+  gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
+  verdict: nonverifiable
 
 
 providerTwitter: MuunWallet
@@ -38,97 +43,76 @@ redirect_from:
 
 **Update 2021-04-06**: The provider
 [announced that the app is reproducible now](https://twitter.com/MuunWallet/status/1379490681165602823).
-We will have to check that.
+We will have to check that ...
 
-**Update 2020-04-01**: The provider made clear that this app will remain non-reproducible:
+So they now have
+[build instructions for reproducible builds](https://github.com/muun/apollo/blob/master/BUILD.md#build-reproducibly).
+Promising! Let's see how that goes ...
 
->  **esneider** 16 hours ago: We have updated the instructions for building, and
-   we won't be producing reproducible builds for the time being.
-
-The original analysis
-=====================
-
-The description starts out very clearly:
-
-> Muun is a non-custodial wallet: this means you are in full control of your
-  money. You remain in control of your private keys, which are stored only on
-  your device using your phone's secure enclave. We never have access to your
-  funds.
-
-So it is non-custodial.
-
-Also:
-
-> Our code is in an open source repository and can be audited by anyone on the
-  Internet.
-
-So ... let's see if we can find this open source because it is not referenced in
-the description itself.
-
-Their link to GitHub on their website has the label "Audit us". Perfect. That's
-us!
-
-[This project "apollo"](https://github.com/muun/apollo) has the most promising
-description: "Muun android wallet".
-
-Ok, but where are the build instructions?
-
-Let's see ...
-
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">$ git clone https://github.com/muun/apollo.git
+```
+$ sha256sum fromGoogle45.2.apk # just for the record, the apk hash:
+292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2  fromGoogle45.2.apk
+$ cd /tmp/
+$ git clone https://github.com/muun/apollo
 $ cd apollo/
-$ git submodule status 
-$ git tag
-$ git log --pretty=oneline --abbrev-commit
-<font color="#C4A000">491d4d5 (</font><font color="#06989A"><b>HEAD -&gt; </b></font><font color="#4E9A06"><b>master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/HEAD</b></font><font color="#C4A000">)</font> Release source code for beta-36.2
-<font color="#C4A000">6facf35</font> Release source code for beta-36.1
-<font color="#C4A000">5530b6e</font> Release source code beta-34
-<font color="#C4A000">f476a6f</font> Release source code beta-33
-<font color="#C4A000">c9a3697</font> Release source code beta-32
-<font color="#C4A000">377b045</font> Release source code beta-29
-<font color="#C4A000">7f3bd57</font> Release source code beta-28
-<font color="#C4A000">cd3b46b</font> Release source code for beta-26
-<font color="#C4A000">548af69</font> Release source code for beta-25
-<font color="#C4A000">913f517</font> Release source code for beta-24.1
-<font color="#C4A000">bc2f4db</font> Add license
-<font color="#C4A000">8030bab</font> Add readme
-<font color="#C4A000">8f78e5f</font> Apollo beta-16
-<font color="#C4A000">a5d8782</font> Add .gitignore
-</pre>
-</div>
-</div>
+$ git checkout v45.2
+$ mkdir -p apk
+$ docker build -f android/Dockerfile -o apk .
+...
+BUILD SUCCESSFUL in 3m 9s
+62 actionable tasks: 60 executed, 1 from cache, 1 up-to-date
+Removing intermediate container 9812d21025c9
+ ---> d997f192afe8
+Step 24/26 : FROM scratch
+ ---> 
+Step 25/26 : COPY --from=build /src/android/apolloui/build/outputs/apk/prod/release/apolloui-prod-release-unsigned.apk apolloui-prod-release-unsigned.apk
+ ---> 5b8f679ee607
+Step 26/26 : COPY --from=build /src/android/apolloui/build/outputs/mapping/prodRelease/mapping.txt mapping.txt
+ ---> ad2ddc6ce00f
+Successfully built ad2ddc6ce00f
+$ ls *.apk
+$ ls apk/
+$
+```
 
-That's all their commits. No submodule. No tags.
-We need `beta-36.2` which is the commit message of the final commit. That is
-good although not enough for the future.
+so the apk did not end up where it's supposed to end up but it should be part of
+the docker image now:
 
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">root@288e8088ff9f:/mnt# yes | /opt/android/tools/bin/sdkmanager "build-tools;28.0.3"
-root@288e8088ff9f:/mnt# ./gradlew bundleRelease
-Configuration on demand is an incubating feature.
-> Task :apollo:libwallet FAILED
+```
+$ docker images
+REPOSITORY                                                 TAG                    IMAGE ID            CREATED             SIZE
+<none>                                                     <none>                 ad2ddc6ce00f        31 minutes ago      59.1MB
+<none>                                                     <none>                 d997f192afe8        31 minutes ago      10.3GB
+...
+```
 
-FAILURE: Build failed with an exception.
+with some poking around with interactive runs, I found this works:
 
-* What went wrong:
-Execution failed for task ':apollo:libwallet'.
-> A problem occurred starting process 'command 'gomobile''
+```
+$ docker run --rm --volume $(pwd)/apk:/apk d997f192afe8 cp ./android/apolloui/build/outputs/apk/prod/release/apolloui-prod-release-unsigned.apk /apk/
+$ ls apk/
+apolloui-prod-release-unsigned.apk
+$ apktool d -o fromBuild apk/apolloui-prod-release-unsigned.apk 
+$ apktool d -o fromGoogle fromGoogle45.2.apk 
+$ diff --brief --recursive from{Google,Build}
+Files fromGoogle/apktool.yml and fromBuild/apktool.yml differ
+Only in fromGoogle/original/META-INF: APOLLORE.RSA
+Only in fromGoogle/original/META-INF: APOLLORE.SF
+Files fromGoogle/original/META-INF/MANIFEST.MF and fromBuild/original/META-INF/MANIFEST.MF differ
+Files fromGoogle/res/values/strings.xml and fromBuild/res/values/strings.xml differ
+```
 
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+so the only diff of interest is in `res/values/strings.xml`:
 
-* Get more help at https://help.gradle.org
+```
+$ diff from{Google,Build}/res/values/strings.xml
+76c76
+<     <string name="com.crashlytics.android.build_id">79a4d6b75ce84bd6ae254b900862f3a4</string>
+---
+>     <string name="com.crashlytics.android.build_id">976f51d22fdf4feda23c0dbc83806a9f</string>
+```
 
-BUILD FAILED in 4s
-1 actionable task: 1 executed
-</pre>
-</div>
-</div>
-
-That's all for now. Build fails with obscure error. No build instructions
-provided.
-
-Our verdict: **not verifiable**.
+That's almost reproducible. On a subjective level, if somebody reviewed the
+source code and it is fine then yes, the apk is also fine but as we only allow
+diffs in the signature part itself, it is too much of a diff for a reproducible
+verdict. The app is close but still **not verifiable**.
