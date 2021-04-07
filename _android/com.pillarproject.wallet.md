@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.pillarproject.wallet
 launchDate: 2018-12-13
-latestUpdate: 2021-03-28
-apkVersionName: "2.34.10"
+latestUpdate: 2021-04-04
+apkVersionName: "2.34.11"
 stars: 3.4
 ratings: 418
 reviews: 222

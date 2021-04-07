@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: zapsolutions.zap
 launchDate: 
-latestUpdate: 2021-02-13
+latestUpdate: 2021-04-03
 apkVersionName: "Varies with device"
 stars: 
 ratings: 
@@ -20,7 +20,7 @@ icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-11
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-22

@@ -9,8 +9,8 @@ appId: casa.keymaster
 launchDate: 
 latestUpdate: 2021-03-19
 apkVersionName: "2.33.1"
-stars: 4.2
-ratings: 85
+stars: 4.3
+ratings: 88
 reviews: 23
 size: 29M
 website: https://keys.casa

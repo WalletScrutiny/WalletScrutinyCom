@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: io.hexawallet.hexa
 launchDate: 
-latestUpdate: 2021-03-09
-apkVersionName: "1.4.6"
+latestUpdate: 2021-04-06
+apkVersionName: "1.5.0"
 stars: 3.7
 ratings: 19
 reviews: 12
-size: 39M
+size: 43M
 website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544

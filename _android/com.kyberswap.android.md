@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-01-29
 apkVersionName: "1.1.35"
 stars: 4.3
-ratings: 1785
+ratings: 1787
 reviews: 861
 size: 19M
 website: https://kyberswap.com

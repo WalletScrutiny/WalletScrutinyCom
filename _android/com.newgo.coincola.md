@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-03-04
 apkVersionName: "4.7.2"
 stars: 3.4
-ratings: 579
+ratings: 580
 reviews: 268
 size: 31M
 website: https://www.coincola.com

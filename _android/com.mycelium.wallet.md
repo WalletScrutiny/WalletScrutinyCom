@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.mycelium.wallet
 launchDate: 2013-07-01
-latestUpdate: 2021-03-29
-apkVersionName: "3.8.9.0"
+latestUpdate: 2021-04-05
+apkVersionName: "3.8.9.1"
 stars: 4.0
-ratings: 10168
-reviews: 4670
+ratings: 10201
+reviews: 4683
 size: 24M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
@@ -20,7 +20,7 @@ icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-01
-reviewStale: false
+reviewStale: true
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
 - date: 2021-01-20

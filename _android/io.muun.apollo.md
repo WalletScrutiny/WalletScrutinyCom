@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: io.muun.apollo
 launchDate: 2017-04-25
-latestUpdate: 2021-03-27
-apkVersionName: "45.1"
+latestUpdate: 2021-04-05
+apkVersionName: "45.2"
 stars: 4.5
-ratings: 155
-reviews: 91
+ratings: 157
+reviews: 93
 size: 40M
 website: https://muun.com
 repository: https://github.com/muun/apollo
@@ -20,7 +20,7 @@ icon: io.muun.apollo.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-12-29
@@ -28,7 +28,6 @@ reviewArchive:
   apkHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
-
 
 providerTwitter: MuunWallet
 providerLinkedIn: 

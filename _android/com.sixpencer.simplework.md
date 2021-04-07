@@ -9,9 +9,9 @@ appId: com.sixpencer.simplework
 launchDate: 
 latestUpdate: 2021-03-27
 apkVersionName: "1.3.6"
-stars: 4.8
-ratings: 88
-reviews: 43
+stars: 4.7
+ratings: 92
+reviews: 45
 size: 18M
 website: https://dfox.cc
 repository: 

@@ -4,14 +4,14 @@ title: "Binance.US"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.binance.us
 launchDate: 
-latestUpdate: 2021-03-31
-apkVersionName: "2.3.5"
-stars: 2.0
-ratings: 2628
-reviews: 1991
+latestUpdate: 2021-04-06
+apkVersionName: "2.4.0"
+stars: 2.1
+ratings: 2667
+reviews: 2016
 size: Varies with device
 website: https://www.binance.us
 repository: 

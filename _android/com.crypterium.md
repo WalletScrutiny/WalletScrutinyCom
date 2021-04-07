@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.crypterium
 launchDate: 
-latestUpdate: 2021-03-18
+latestUpdate: 2021-04-05
 apkVersionName: "2.6.42.8"
 stars: 3.8
-ratings: 6460
-reviews: 3467
+ratings: 6487
+reviews: 3484
 size: 46M
 website: https://crypterium.com
 repository: 
