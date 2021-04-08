@@ -23,8 +23,10 @@ layout: default
   {% assign float = "" %}
 
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}
-    <meta itemprop="headline" content="{{ page.title }}">
+    {% if page.altTitle %}
+      <meta itemprop="headline" content="{{ page.altTitle }}">
+    {% else %}
+      <meta itemprop="headline" content="{{ page.title }}">
     {% endif %}
     {% if page.excerpt %}
     <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -42,18 +44,17 @@ layout: default
       {% endunless %}
       {% endif %}
 
-
-
       <div class="app-summary-grid">
         <img src="{{ base_path }}/images/wallet_icons/android/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-        {% if page.title %}
-
         <div class="app-sum-head">
 
           <h1 class="page__title -va-c" itemprop="headline">
-            {{ page.title }}
+            {% if page.altTitle %}
+              {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">("{{ page.title }}" on the Play Store. For details read below.)</span>
+            {% else %}
+              {{ page.title }}
+            {% endif %}
           </h1>
-          {% endif %}
 
           <span><i class="fas fa-history"></i> latest release: {{ page.apkVersionName }}</span>
 
@@ -200,9 +201,9 @@ layout: default
 
       {% include base_path %}
       {% if page.altTitle %}
-      {% assign title = page.altTitle %}
+        {% assign title = page.altTitle %}
       {% else %}
-      {% assign title = page.title %}
+        {% assign title = page.title %}
       {% endif %}
 
 
@@ -325,6 +326,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+        {% include byAuthor.html %}
         {% include verdict_explained.html %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label |
             default: "Direct Link" }}</a></div>
