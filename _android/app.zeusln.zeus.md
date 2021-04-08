@@ -66,13 +66,13 @@ install the app on a connected device. We'll go with
 
 ```
 cd android
-./gradlew bundleRelease
+./gradlew assembleRelease
 ```
 
 instead.
 
 Also we will need version 0.5.1 which is the latest version we got from the Play
-Store.
+Store. (The following is the pruned version after [some detours](https://github.com/ZeusLN/zeus/issues/416#issuecomment-815419535).)
 
 ```
 $ git clone https://github.com/ZeusLN/zeus
@@ -82,26 +82,70 @@ v0.5.1
 $ git checkout v0.5.1 
 $ docker run -it --volume $PWD:/mnt --workdir /mnt --rm beevelop/cordova bash
 root@b5e24bbdc208:/mnt# npm install  
-root@b5e24bbdc208:/mnt/android# yes | $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-28"
+root@b5e24bbdc208:/mnt# npm install stream
+root@b5e24bbdc208:/mnt# yes | $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-28"
+root@c6e507f0b5dc:/mnt# npx react-native run-android
 root@b5e24bbdc208:/mnt# cd android
-root@b5e24bbdc208:/mnt/android# ./gradlew bundleRelease
-...
-Error: Unable to resolve module stream from /mnt/node_modules/cipher-base/index.js: stream could not be found within the project.
-...
-root@b5e24bbdc208:/mnt/android# npm install stream
-root@b5e24bbdc208:/mnt/android# ./gradlew bundleRelease
-...
-> Task :app:validateSigningRelease FAILED
+root@c6e507f0b5dc:/mnt/android# echo -e "\nMYAPP_RELEASE_KEY_ALIAS=a\nMYAPP_RELEASE_KEY_PASSWORD=aaaaaa\nMYAPP_RELEASE_STORE_PASSWORD=aaaaaa\nMYAPP_RELEASE_STORE_FILE=../dummy.keystore"  >> gradle.properties
+root@c6e507f0b5dc:/mnt# keytool -genkey -v -keystore dummy.keystore -alias a -keyalg RSA -keysize 2048 -validity 10
 
-FAILURE: Build failed with an exception.
+(entering password aaaaaa and all the rest defaults.)
 
-* What went wrong:
-Execution failed for task ':app:validateSigningRelease'.
-> Keystore file not set for signing config release
-...
+root@b5e24bbdc208:/mnt/android# ./gradlew assembleRelease
+BUILD SUCCESSFUL in 40s
+564 actionable tasks: 279 executed, 285 up-to-date
+root@c6e507f0b5dc:/mnt/android# ls -alh app/build/outputs/apk/release/
+total 126M
+drwxr-xr-x 2 root root 4.0K Apr  8 04:28 .
+drwxr-xr-x 4 root root 4.0K Apr  8 04:28 ..
+-rw-r--r-- 1 root root  18M Apr  8 04:28 app-arm64-v8a-release.apk
+-rw-r--r-- 1 root root  17M Apr  8 04:28 app-armeabi-v7a-release.apk
+-rw-r--r-- 1 root root  55M Apr  8 04:28 app-universal-release.apk
+-rw-r--r-- 1 root root  19M Apr  8 04:28 app-x86-release.apk
+-rw-r--r-- 1 root root  19M Apr  8 04:28 app-x86_64-release.apk
+-rw-r--r-- 1 root root 1.7K Apr  8 04:28 output.json
+root@c6e507f0b5dc:/mnt/android# exit
+$ apktool d -o fromGoogle Zeus\ 0.5.1\ \(app.zeusln.zeus\).apk 
+$ apktool d -o fromBuild android/app/build/outputs/apk/release/app-universal-release.apk 
+$ diff --brief --recursive from{Google,Build}
+Files fromGoogle/AndroidManifest.xml and fromBuild/AndroidManifest.xml differ
+Files fromGoogle/apktool.yml and fromBuild/apktool.yml differ
+Files fromGoogle/assets/index.android.bundle and fromBuild/assets/index.android.bundle differ
+Files fromGoogle/lib/arm64-v8a/libimagepipeline.so and fromBuild/lib/arm64-v8a/libimagepipeline.so differ
+Files fromGoogle/lib/arm64-v8a/libnative-filters.so and fromBuild/lib/arm64-v8a/libnative-filters.so differ
+Files fromGoogle/lib/arm64-v8a/libnative-imagetranscoder.so and fromBuild/lib/arm64-v8a/libnative-imagetranscoder.so differ
+Files fromGoogle/lib/arm64-v8a/libsifir_android.so and fromBuild/lib/arm64-v8a/libsifir_android.so differ
+Files fromGoogle/lib/arm64-v8a/libv8android.so and fromBuild/lib/arm64-v8a/libv8android.so differ
+Files fromGoogle/lib/armeabi-v7a/libimagepipeline.so and fromBuild/lib/armeabi-v7a/libimagepipeline.so differ
+Files fromGoogle/lib/armeabi-v7a/libnative-filters.so and fromBuild/lib/armeabi-v7a/libnative-filters.so differ
+Files fromGoogle/lib/armeabi-v7a/libnative-imagetranscoder.so and fromBuild/lib/armeabi-v7a/libnative-imagetranscoder.so differ
+Files fromGoogle/lib/armeabi-v7a/libsifir_android.so and fromBuild/lib/armeabi-v7a/libsifir_android.so differ
+Files fromGoogle/lib/armeabi-v7a/libv8android.so and fromBuild/lib/armeabi-v7a/libv8android.so differ
+Files fromGoogle/lib/x86/libimagepipeline.so and fromBuild/lib/x86/libimagepipeline.so differ
+Files fromGoogle/lib/x86/libnative-filters.so and fromBuild/lib/x86/libnative-filters.so differ
+Files fromGoogle/lib/x86/libnative-imagetranscoder.so and fromBuild/lib/x86/libnative-imagetranscoder.so differ
+Files fromGoogle/lib/x86/libsifir_android.so and fromBuild/lib/x86/libsifir_android.so differ
+Files fromGoogle/lib/x86/libv8android.so and fromBuild/lib/x86/libv8android.so differ
+Files fromGoogle/lib/x86_64/libimagepipeline.so and fromBuild/lib/x86_64/libimagepipeline.so differ
+Files fromGoogle/lib/x86_64/libnative-filters.so and fromBuild/lib/x86_64/libnative-filters.so differ
+Files fromGoogle/lib/x86_64/libnative-imagetranscoder.so and fromBuild/lib/x86_64/libnative-imagetranscoder.so differ
+Files fromGoogle/lib/x86_64/libsifir_android.so and fromBuild/lib/x86_64/libsifir_android.so differ
+Files fromGoogle/lib/x86_64/libv8android.so and fromBuild/lib/x86_64/libv8android.so differ
+Files fromGoogle/original/AndroidManifest.xml and fromBuild/original/AndroidManifest.xml differ
+Only in fromBuild/original/META-INF: CERT.RSA
+Only in fromBuild/original/META-INF: CERT.SF
+Only in fromGoogle/original/META-INF: GOOGPLAY.RSA
+Only in fromGoogle/original/META-INF: GOOGPLAY.SF
+Files fromGoogle/original/META-INF/MANIFEST.MF and fromBuild/original/META-INF/MANIFEST.MF differ
+Only in fromGoogle/res/raw: node_modules_browserifyaes_modes_list.json
+Only in fromGoogle/res/raw: node_modules_browserifysign_browser_algorithms.json
+Only in fromGoogle/res/raw: node_modules_browserifysign_browser_curves.json
+Only in fromGoogle/res/raw: node_modules_diffiehellman_lib_primes.json
+Files fromGoogle/res/raw/node_modules_elliptic_package.json and fromBuild/res/raw/node_modules_elliptic_package.json differ
+Only in fromGoogle/res/raw: node_modules_parseasn1_aesid.json
+Files fromGoogle/res/values/public.xml and fromBuild/res/values/public.xml differ
 ```
 
-and at this point we googled how to skip signing but couldn't find a solution. We
-want to reproduce the build and do not care about the signature. If creating a
-dummy signature is required, a dummy configuration should be provided so that
-the compilation works. For now we consider this app **not verifiable**.
+and that's a lot of diffs in a lot of different files. The app cannot be
+reproduced from the existing source code given the not given build
+instructions(?). The app is **not verifiable**.
