@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: org.electrum.electrum
 launchDate: 2016-03-02
-latestUpdate: 2020-12-18
+latestUpdate: 2021-04-02
 apkVersionName: "4.0.9.0"
 stars: 3.4
 ratings: 2112

@@ -4,7 +4,7 @@ title: "Zeus: Bitcoin/Lightning Wallet"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: app.zeusln.zeus
 launchDate: 
 latestUpdate: 2021-03-26

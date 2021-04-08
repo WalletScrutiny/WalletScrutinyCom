@@ -9,8 +9,8 @@ appId: com.bitbill.www
 launchDate: 
 latestUpdate: 2021-04-02
 apkVersionName: "4.28.3"
-stars: 3.8
-ratings: 53
+stars: 3.9
+ratings: 54
 reviews: 30
 size: 32M
 website: http://www.bitbill.com

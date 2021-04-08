@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-23
 apkVersionName: "2.5.6"
 stars: 4.0
-ratings: 4673
-reviews: 2798
+ratings: 4690
+reviews: 2810
 size: 29M
 website: https://www.safepal.io
 repository: 

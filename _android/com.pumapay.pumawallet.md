@@ -9,9 +9,9 @@ appId: com.pumapay.pumawallet
 launchDate: 
 latestUpdate: 2021-03-23
 apkVersionName: "3.9.5"
-stars: 4.1
-ratings: 318
-reviews: 208
+stars: 4.0
+ratings: 320
+reviews: 209
 size: 60M
 website: https://pumapay.io
 repository: 
