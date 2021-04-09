@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: org.electrum.electrum
 launchDate: 2016-03-02
-latestUpdate: 2021-04-02
+latestUpdate: 2021-04-08
 apkVersionName: "4.0.9.0"
 stars: 3.4
-ratings: 2112
-reviews: 1264
+ratings: 2115
+reviews: 1265
 size: 20M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

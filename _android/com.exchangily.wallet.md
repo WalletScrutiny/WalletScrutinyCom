@@ -4,7 +4,7 @@ title: "eXchangily DEX Bitcoin Wallet & Crypto Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.exchangily.wallet
 launchDate: 
 latestUpdate: 2021-04-07

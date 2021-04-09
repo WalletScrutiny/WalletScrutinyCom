@@ -10,8 +10,8 @@ launchDate: 2015-10-01
 latestUpdate: 2021-04-03
 apkVersionName: "3.0.26"
 stars: 4.5
-ratings: 134780
-reviews: 40903
+ratings: 134965
+reviews: 40957
 size: 53M
 website: https://www.blockfolio.com
 repository: 

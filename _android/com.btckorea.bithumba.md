@@ -4,7 +4,7 @@ title: "빗썸 트레이더"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.btckorea.bithumba
 launchDate: 
 latestUpdate: 2021-01-30
