@@ -1,6 +1,6 @@
 ---
 title: "WasabiWallet"
-altTitle: "(not <u>the</u>) Wasabi Wallet"
+altTitle: "(Fake) Wasabi Wallet"
 users: 500
 appId: com.wasabiwallet.dev
 launchDate: 
@@ -16,7 +16,7 @@ issue:
 icon: com.wasabiwallet.dev.png
 bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
+date: 2021-04-09
 reviewStale: false
 signer: 
 reviewArchive:
@@ -32,8 +32,11 @@ redirect_from:
 ---
 
 
-**Update 2020-12-08:** This wallet was removed from Google Play. Discussions of it happened
-a bit on Twitter but it was an obvious scam.
+**Update 2020-12-08:** This wallet was removed from Google Play. You can find a
+[discussion on Twitter](https://twitter.com/wasabiwallet/status/1333316866249535488)
+but it was an obvious scam and has nothing to do with
+[WasabiWallet.io](https://wasabiwallet.io/), a privacy focused wallet that so
+far has no mobile client.
 
 **Do not use this app! We expect it to be removed from Google Play. More details
 soon.**
