@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-08
 apkVersionName: "v64"
 stars: 4.7
-ratings: 239
-reviews: 81
+ratings: 244
+reviews: 82
 size: 8.9M
 website: 
 repository: 

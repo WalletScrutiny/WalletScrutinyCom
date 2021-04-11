@@ -4,12 +4,12 @@ title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: kr.co.keypair.keywalletTouch
 launchDate: 
 latestUpdate: 2020-12-14
 apkVersionName: "Varies with device"
-stars: 4.5
+stars: 4.4
 ratings: 82
 reviews: 56
 size: Varies with device

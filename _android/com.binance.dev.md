@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: com.binance.dev
 launchDate: 2017-10-25
-latestUpdate: 2021-03-26
+latestUpdate: 2021-04-09
 apkVersionName: "1.38.2"
 stars: 4.4
-ratings: 130840
-reviews: 52686
+ratings: 132661
+reviews: 53480
 size: Varies with device
 website: https://www.binance.com
 repository: 

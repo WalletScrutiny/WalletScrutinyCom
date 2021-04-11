@@ -9,9 +9,9 @@ appId: com.blockabc.abcwallet
 launchDate: 
 latestUpdate: 2020-06-17
 apkVersionName: "1.7.2"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.5
+ratings: 25
+reviews: 14
 size: 13M
 website: 
 repository: 

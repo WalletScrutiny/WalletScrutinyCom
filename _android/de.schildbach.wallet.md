@@ -7,12 +7,12 @@ authors:
 users: 5000000
 appId: de.schildbach.wallet
 launchDate: 2011-03-01
-latestUpdate: 2021-02-28
-apkVersionName: "Varies with device"
+latestUpdate: 2021-04-10
+apkVersionName: "8.11"
 stars: 3.9
-ratings: 27082
-reviews: 8887
-size: Varies with device
+ratings: 27117
+reviews: 8900
+size: 2.9M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
@@ -20,7 +20,7 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-11
-reviewStale: false
+reviewStale: true
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2020-12-29

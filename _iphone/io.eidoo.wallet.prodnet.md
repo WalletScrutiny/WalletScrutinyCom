@@ -8,8 +8,8 @@ appId: io.eidoo.wallet.prodnet
 appCountry: 
 idd: 1279896253
 released: 2017-09-23
-updated: 2021-02-23
-version: "2.16.1"
+updated: 2021-04-08
+version: "2.17.0"
 score: 3.83099
 reviews: 71
 size: 37630976

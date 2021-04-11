@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: co.decrypt.app
 launchDate: 
-latestUpdate: 2021-03-16
-apkVersionName: "2.1.2"
+latestUpdate: 2021-04-07
+apkVersionName: "2.1.3"
 stars: 4.3
-ratings: 939
-reviews: 461
+ratings: 973
+reviews: 477
 size: 27M
 website: 
 repository: 

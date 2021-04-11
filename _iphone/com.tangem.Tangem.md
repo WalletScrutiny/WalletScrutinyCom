@@ -8,8 +8,8 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2021-03-29
-version: "3.13"
+updated: 2021-04-08
+version: "3.14"
 score: 3.83333
 reviews: 12
 size: 28977152
@@ -20,7 +20,7 @@ icon: com.tangem.Tangem.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-10
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is the companion app to an NFC card that is promoted as something like
 a hardware wallet but without a screen or a button it can only do what the
