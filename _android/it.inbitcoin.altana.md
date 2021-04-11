@@ -20,7 +20,7 @@ issue: https://github.com/inbitcoin/altana-android/issues/1
 icon: it.inbitcoin.altana.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-09
+date: 2021-04-09
 reviewStale: false
 signer: 
 reviewArchive:
