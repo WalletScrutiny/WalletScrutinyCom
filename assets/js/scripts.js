@@ -20,18 +20,18 @@ if (document.getElementById("modularVerdictPH") && window.verdictOrder && window
 }
 
 if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
-  const platformSelect = document.createElement("select");
-  platformSelect.setAttribute("id", "modularPlatform");
+  const platformSelect = document.createElement("select")
+  platformSelect.setAttribute("id", "modularPlatform")
   platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
   
   window.platformObs.forEach(t => {
-    const platformOption = document.createElement("option");
-    platformOption.value = t;
-    platformOption.innerHTML = t;
+    const platformOption = document.createElement("option")
+    platformOption.value = t
+    platformOption.innerHTML = t
     platformSelect.append(platformOption)
-  });
+  })
 
-  document.getElementById("modularPlatformPH").replaceWith(platformSelect);
+  document.getElementById("modularPlatformPH").replaceWith(platformSelect)
 }
 
 
@@ -55,21 +55,21 @@ function updateModularPayload() {
       x = document.getElementById("proportionalViewContainer"); if (x) x.classList.remove("selected")
   }
 
-  var d = document.createElement("div");
-  d.classList.add("page-section");
+  var d = document.createElement("div")
+  d.classList.add("page-section")
 
-  var g = document.createElement("div");
-  g.setAttribute("id", "tableofwallets");
-  g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`;
+  var g = document.createElement("div")
+  g.setAttribute("id", "tableofwallets")
+  g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
 
-  var f = document.createElement("div");
-  f.classList.add("flexi-list");
+  var f = document.createElement("div")
+  f.classList.add("flexi-list")
 
-  var h = ``;
-  var c = 0;
+  var h = ``
+  var c = 0
   window.orderedObs.forEach(function (obj) {
     if (obj.appId && obj.verdict && obj.category) {
-      var c = String(obj.appId).replace(".", "");
+      var c = String(obj.appId).replace(".", "")
 
       if (verdict === "all" || String(obj.verdict) === verdict) {
         if (platform === "all" || String(obj.category) === platform) {
@@ -121,8 +121,8 @@ function updateModularPayload() {
                 <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
               </a></p>
             </div>
-            </div>`;
-          c++;
+            </div>`
+          c++
         }
       }
     }
@@ -136,13 +136,13 @@ function updateModularPayload() {
 
 window.addEventListener("scroll", function (e) {
   const p = document.getElementById("modularWalletPayload")
-  const o = p.getBoundingClientRect().bottom;
-  document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top;
+  const o = p.getBoundingClientRect().bottom
+  document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
   if (o <= 100) {
-    p.style.height = `${p.getBoundingClientRect().height}px`;
+    p.style.height = `${p.getBoundingClientRect().height}px`
     p.style.overflow = "hidden"
     document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
-      e.style.transform = `translateY(${o - 100}px)`;
+      e.style.transform = `translateY(${o - 100}px)`
       e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
     })
   } else {
