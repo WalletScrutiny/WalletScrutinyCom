@@ -3,17 +3,17 @@ wsId: zebedee
 title: "ZEBEDEE Wallet"
 altTitle: 
 authors:
-- leo
-users: 1000
+
 appId: io.zebedee.wallet
-launchDate: 
-latestUpdate: 2021-04-04
-apkVersionName: "11.0.0"
-stars: 4.7
-ratings: 16
-reviews: 9
-size: 59M
-website: https://zebedee.io
+appCountry: 
+idd: 1484394401
+released: 2020-11-28
+updated: 2021-04-08
+version: "2.8"
+score: 4.71429
+reviews: 7
+size: 102689792
+developerWebsite: https://zebedee.io
 repository: 
 issue: 
 icon: io.zebedee.wallet.jpg
@@ -31,6 +31,7 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
+
 ---
 
 
