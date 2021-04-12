@@ -23,8 +23,12 @@ var lastId = ""
 
 function toggleApp(id) {
   if (!id) { 
-    document.querySelectorAll(".temp_card")[0].remove();
-      document.body.classList.remove("modal-open");
+    // no id provided means close whatever is open
+    const modal = document.querySelectorAll(".temp_card")[0]
+    if (modal) {
+      modal.remove()
+      document.body.classList.remove("modal-open")
+    }
   }
   else {
     lastId = id

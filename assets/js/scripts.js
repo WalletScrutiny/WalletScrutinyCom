@@ -165,3 +165,6 @@ x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("c
   y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
 })
 updateModularPayload()
+document.body.addEventListener('keydown', function(e) {
+  if (e.key === "Escape") toggleApp()
+})
