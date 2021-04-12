@@ -9,9 +9,9 @@ appId: io.melis.clientwallet
 launchDate: 2017-01-30
 latestUpdate: 2021-03-01
 apkVersionName: "1.6.15"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 19
+reviews: 11
 size: 8.0M
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client

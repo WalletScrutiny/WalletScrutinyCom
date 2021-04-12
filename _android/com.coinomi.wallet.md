@@ -9,9 +9,9 @@ appId: com.coinomi.wallet
 launchDate: 2014-01-31
 latestUpdate: 2021-04-07
 apkVersionName: "Varies with device"
-stars: 4.4
-ratings: 35
-reviews: 23
+stars: 4.7
+ratings: 34117
+reviews: 19635
 size: Varies with device
 website: https://www.coinomi.com
 repository: 

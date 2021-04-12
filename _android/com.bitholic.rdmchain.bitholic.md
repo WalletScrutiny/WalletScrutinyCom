@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2020-08-05
 apkVersionName: "1.0.9"
 stars: 4.1
-ratings: 161
+ratings: 162
 reviews: 103
 size: 2.0M
 website: https://www.bithumbsg.com

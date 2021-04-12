@@ -4,7 +4,7 @@ title: "DotWallet - Manage Your Crypto and Dapp Assets"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.boquanhash.dotwallet
 launchDate: 
 latestUpdate: 2021-04-08

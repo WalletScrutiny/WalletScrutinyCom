@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-26
 apkVersionName: "6.0.1"
 stars: 4.2
-ratings: 440
-reviews: 250
+ratings: 441
+reviews: 251
 size: 35M
 website: https://bitcoinvault.global
 repository: 

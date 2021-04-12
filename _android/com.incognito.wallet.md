@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-02
 apkVersionName: "4.3.0"
 stars: 3.8
-ratings: 244
+ratings: 245
 reviews: 139
 size: 46M
 website: https://incognito.org

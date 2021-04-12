@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-19
 apkVersionName: "2.13.0"
 stars: 2.8
-ratings: 2502
-reviews: 1593
+ratings: 2503
+reviews: 1594
 size: 48M
 website: https://shapeshift.com
 repository: 
