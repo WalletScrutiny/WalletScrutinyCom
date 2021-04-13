@@ -1,0 +1,37 @@
+---
+wsId: 
+title: "Medooza wallet- Best Crypto wallet for android app"
+altTitle: 
+authors:
+
+users: 500
+appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
+launchDate: 
+latestUpdate: 2019-01-04
+apkVersionName: "1.1"
+stars: 0.0
+ratings: 
+reviews: 
+size: 3.5M
+website: 
+repository: 
+issue: 
+icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
+bugbounty: 
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-13
+reviewStale: true
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
