@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-11
 apkVersionName: "1.3.6"
 stars: 3.5
-ratings: 1822
-reviews: 748
+ratings: 1829
+reviews: 751
 size: Varies with device
 website: https://arzjoo.com
 repository: 

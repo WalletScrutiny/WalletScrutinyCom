@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.hebeblock.hebewallet
 launchDate: 
-latestUpdate: 2021-03-26
-apkVersionName: "1.2.83"
-stars: 3.4
-ratings: 10
-reviews: 7
+latestUpdate: 2021-04-12
+apkVersionName: "1.2.91"
+stars: 3.3
+ratings: 11
+reviews: 8
 size: 23M
 website: https://hebe.cc/
 repository: 

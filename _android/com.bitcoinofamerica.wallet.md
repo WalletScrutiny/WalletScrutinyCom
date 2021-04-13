@@ -9,9 +9,9 @@ appId: com.bitcoinofamerica.wallet
 launchDate: 
 latestUpdate: 2020-04-01
 apkVersionName: "1.1.2"
-stars: 4.3
+stars: 4.4
 ratings: 157
-reviews: 47
+reviews: 46
 size: 55M
 website: https://www.bitcoinofamerica.org
 repository: 

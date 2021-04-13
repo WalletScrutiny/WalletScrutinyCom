@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "4.4"
 stars: 4.4
-ratings: 2003
-reviews: 1327
+ratings: 2004
+reviews: 1328
 size: 14M
 website: https://flitsnode.app
 repository: 

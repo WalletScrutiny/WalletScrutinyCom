@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-05
 apkVersionName: "5.26.0"
 stars: 4.2
-ratings: 11438
-reviews: 5409
+ratings: 11459
+reviews: 5414
 size: 23M
 website: https://remitano.com
 repository: 

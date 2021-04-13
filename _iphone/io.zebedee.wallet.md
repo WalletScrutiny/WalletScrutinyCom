@@ -3,7 +3,7 @@ wsId: zebedee
 title: "ZEBEDEE Wallet"
 altTitle: 
 authors:
-
+- leo
 appId: io.zebedee.wallet
 appCountry: 
 idd: 1484394401
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is very gamer focused and does no mention at all security aspects or
 who's the custodian to your coins:

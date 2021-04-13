@@ -9,9 +9,9 @@ appId: it.airgap.wallet
 launchDate: 2018-08-06
 latestUpdate: 2021-02-26
 apkVersionName: "3.6.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 85
+reviews: 39
 size: 14M
 website: https://www.airgap.it
 repository: 

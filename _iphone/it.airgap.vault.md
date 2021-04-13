@@ -11,7 +11,7 @@ released: 2018-08-24
 updated: 2021-03-01
 version: "3.6.2"
 score: 5
-reviews: 1
+reviews: 2
 size: 29917184
 developerWebsite: 
 repository: 

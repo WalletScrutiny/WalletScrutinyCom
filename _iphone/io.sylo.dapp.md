@@ -8,8 +8,8 @@ appId: io.sylo.dapp
 appCountry: 
 idd: 1452964749
 released: 2019-09-10
-updated: 2021-03-24
-version: "3.0.15"
+updated: 2021-04-12
+version: "3.0.19"
 score: 4.73684
 reviews: 19
 size: 179731456
