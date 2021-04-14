@@ -9,9 +9,9 @@ appId: app.zeusln.zeus
 launchDate: 
 latestUpdate: 2021-03-26
 apkVersionName: "0.5.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 15
+reviews: 9
 size: 55M
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus

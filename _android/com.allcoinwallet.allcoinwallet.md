@@ -9,9 +9,9 @@ appId: com.allcoinwallet.allcoinwallet
 launchDate: 
 latestUpdate: 2019-11-22
 apkVersionName: "1.2.22"
-stars: 3.8
-ratings: 61
-reviews: 34
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
 website: 
 repository: 

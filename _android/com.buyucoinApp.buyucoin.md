@@ -9,9 +9,9 @@ appId: com.buyucoinApp.buyucoin
 launchDate: 
 latestUpdate: 2021-03-26
 apkVersionName: "3.6"
-stars: 3.2
-ratings: 523
-reviews: 369
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
 website: https://www.buyucoin.com
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.czprime
 launchDate: 
-latestUpdate: 2021-03-29
-apkVersionName: "1.3.7"
-stars: 3.7
-ratings: 1561
-reviews: 673
+latestUpdate: 2021-04-13
+apkVersionName: "1.3.8"
+stars: 3.8
+ratings: 1571
+reviews: 677
 size: 27M
 website: 
 repository: 

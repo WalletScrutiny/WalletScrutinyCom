@@ -10,13 +10,13 @@ launchDate:
 latestUpdate: 2021-04-09
 apkVersionName: "1.0.70"
 stars: 4.1
-ratings: 8077
-reviews: 3075
+ratings: 8158
+reviews: 3086
 size: 57M
 website: https://pro.coinbase.com
 repository: 
 issue: 
-icon: com.coinbase.pro.png
+icon: com.coinbase.pro.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29

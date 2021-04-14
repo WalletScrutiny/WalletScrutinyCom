@@ -9,9 +9,9 @@ appId: com.xcoex.mobile
 launchDate: 
 latestUpdate: 2021-04-05
 apkVersionName: "1.14.0"
-stars: 3.8
-ratings: 147
-reviews: 117
+stars: 3.7
+ratings: 148
+reviews: 118
 size: 23M
 website: 
 repository: 

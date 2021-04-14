@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-02
 apkVersionName: "4.28.3"
 stars: 3.9
-ratings: 54
-reviews: 30
+ratings: 55
+reviews: 31
 size: 32M
 website: http://www.bitbill.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.paymintlabs.paymint
 launchDate: 2020-06-29
 latestUpdate: 2020-10-05
 apkVersionName: "1.2.2"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 9
+reviews: 5
 size: 25M
 website: 
 repository: https://github.com/Paymint-Labs/Paymint

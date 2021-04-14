@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.pro.bitcointoyou
 launchDate: 
-latestUpdate: 2021-04-03
-apkVersionName: "0.0.165"
-stars: 3.4
-ratings: 849
-reviews: 563
+latestUpdate: 2021-04-12
+apkVersionName: "0.0.166"
+stars: 3.5
+ratings: 856
+reviews: 560
 size: 47M
 website: 
 repository: 

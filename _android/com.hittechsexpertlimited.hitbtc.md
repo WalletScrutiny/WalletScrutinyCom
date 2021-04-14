@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 launchDate: 
-latestUpdate: 2021-01-22
-apkVersionName: "3.0.6"
-stars: 3.6
-ratings: 1565
-reviews: 778
+latestUpdate: 2021-04-12
+apkVersionName: "3.0.10"
+stars: 4.1
+ratings: 1618
+reviews: 785
 size: 11M
 website: https://hitbtc.com
 repository: 

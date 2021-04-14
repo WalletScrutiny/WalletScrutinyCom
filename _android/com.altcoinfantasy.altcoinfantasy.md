@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-01-07
 apkVersionName: "3.3.6-google"
 stars: 3.9
-ratings: 2257
+ratings: 2258
 reviews: 1768
 size: 22M
 website: 

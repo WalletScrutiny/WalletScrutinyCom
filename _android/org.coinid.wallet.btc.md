@@ -9,9 +9,9 @@ appId: org.coinid.wallet.btc
 launchDate: 2018-10-14
 latestUpdate: 2021-02-20
 apkVersionName: "1.8.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 11
+reviews: 3
 size: 34M
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
