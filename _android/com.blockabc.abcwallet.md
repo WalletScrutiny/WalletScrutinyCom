@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.blockabc.abcwallet.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-12
-reviewStale: true
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-13
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2021-04-12
+  version: "1.7.2"
+  apkHash: 08ecb2acb45c0176bbbb7efca25a31a9980dd025cadb390e5c59f599b372d9f7
+  gitRevision: dc6fa2c62d78d003f08965c9a60785ec980ed59c
+  verdict: obfuscated
 
 
 providerTwitter: 
@@ -34,6 +39,9 @@ redirect_from:
 
 ---
 
+
+**Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume
+it was a scam as can be seen in our original review below:
 
 This app supports Bitcoin:
 
