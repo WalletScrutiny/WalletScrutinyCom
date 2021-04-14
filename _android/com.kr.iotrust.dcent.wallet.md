@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "D'CENT Crypto Wallet - Bitcoin, Ethereum, XRP etc."
+title: "D CENT Crypto Wallet - Bitcoin, Ethereum, XRP etc."
 altTitle: 
 authors:
 

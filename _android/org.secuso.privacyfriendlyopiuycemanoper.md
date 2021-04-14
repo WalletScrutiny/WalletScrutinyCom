@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin wallet"
-altTitle: 
+altTitle: Bitcoin wallet by Mr. Bald
 authors:
 
 users: 10

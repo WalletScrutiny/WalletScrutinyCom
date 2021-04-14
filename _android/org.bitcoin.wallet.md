@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Wallet: by Bitcoin.org"
-altTitle: 
+altTitle: Bitcoin Wallet probably not by Bitcoin.org
 authors:
 
 users: 500
