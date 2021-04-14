@@ -73,7 +73,7 @@ layout: default
           <div class="social-row">
             <ul>
               <li
-                title='Link to {{ page.title }} on the Play Store'>
+                title='Link to {{ page.title | replace: "'", " " }} on the Play Store'>
                 <a href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web">
                   <i class="fab fa-google-play"></i>
                 </a>
