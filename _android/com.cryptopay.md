@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: shamlatech 
+providerTwitter: shamlatech
 providerLinkedIn: shamlatech
 providerFacebook: shamlatechsolutions
 providerReddit: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 This wallet claims to be non-custodial but we cannot find any source code on their [official Website page](https://shamlatech.com/).
 

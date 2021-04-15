@@ -9,9 +9,9 @@ appId: io.getdelta.android
 launchDate: 
 latestUpdate: 2021-04-01
 apkVersionName: "4.1.0"
-stars: 4.4
-ratings: 20060
-reviews: 7399
+stars: 4.5
+ratings: 20215
+reviews: 7405
 size: 40M
 website: 
 repository: 

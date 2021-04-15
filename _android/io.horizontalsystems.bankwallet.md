@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: io.horizontalsystems.bankwallet
 launchDate: 2018-12-18
-latestUpdate: 2021-02-19
-apkVersionName: "0.19.1"
-stars: 4.1
-ratings: 341
-reviews: 290
-size: 44M
+latestUpdate: 2021-04-14
+apkVersionName: "0.20.0"
+stars: 4.0
+ratings: 342
+reviews: 291
+size: 45M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
@@ -20,7 +20,7 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-11
-reviewStale: false
+reviewStale: true
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2021-02-18

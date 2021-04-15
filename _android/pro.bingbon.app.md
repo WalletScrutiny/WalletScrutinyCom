@@ -9,9 +9,9 @@ appId: pro.bingbon.app
 launchDate: 
 latestUpdate: 2021-04-08
 apkVersionName: "2.29.0"
-stars: 4.0
-ratings: 614
-reviews: 391
+stars: 4.1
+ratings: 621
+reviews: 397
 size: 26M
 website: 
 repository: 

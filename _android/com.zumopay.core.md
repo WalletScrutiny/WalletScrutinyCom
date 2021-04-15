@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zumo - Bitcoin Wallet App - Buy, Store, & Transfer"
+title: "Zumo: Your Simple & Safe Crypto Wallet"
 altTitle: 
 authors:
 - leo

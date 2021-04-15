@@ -8,11 +8,11 @@ appId: com.fotolockr.cakewallet
 appCountry: 
 idd: 1334702542
 released: 2018-01-19
-updated: 2021-04-09
-version: "4.1.4"
+updated: 2021-04-15
+version: "4.1.5"
 score: 3.63415
 reviews: 205
-size: 130404352
+size: 130400256
 developerWebsite: http://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/112
@@ -33,7 +33,6 @@ providerReddit: cakewallet
 redirect_from:
 
 ---
-
 
 **Update 2021-04-14**: They now do have a public issue tracker and
 [emanuel](/authors/emanuel) tried to build with

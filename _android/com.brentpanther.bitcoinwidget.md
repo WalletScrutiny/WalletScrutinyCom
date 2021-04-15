@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.brentpanther.bitcoinwidget
 launchDate: 
-latestUpdate: 2021-02-18
-apkVersionName: "7.4"
+latestUpdate: 2021-04-14
+apkVersionName: "7.4.1"
 stars: 3.9
-ratings: 1767
+ratings: 1769
 reviews: 696
-size: 3.4M
+size: 3.5M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.brentpanther.bitcoinwidget.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

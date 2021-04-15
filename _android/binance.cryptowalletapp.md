@@ -4,7 +4,7 @@ title: "BINANCE CRYPTO WALLET APP"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: binance.cryptowalletapp
 launchDate: 
 latestUpdate: 2021-04-05

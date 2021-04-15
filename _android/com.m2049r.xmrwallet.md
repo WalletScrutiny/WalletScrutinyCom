@@ -9,8 +9,8 @@ appId: com.m2049r.xmrwallet
 launchDate: 
 latestUpdate: 2021-03-23
 apkVersionName: "1.18.1 'ChAdOx1'"
-stars: 3.4
-ratings: 669
+stars: 3.5
+ratings: 670
 reviews: 404
 size: Varies with device
 website: https://monerujo.io

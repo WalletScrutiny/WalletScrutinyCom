@@ -9,9 +9,9 @@ appId: com.hconline.iso
 launchDate: 
 latestUpdate: 2021-03-25
 apkVersionName: "R02.02.05.223"
-stars: 4.2
-ratings: 12
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 119M
 website: 
 repository: 

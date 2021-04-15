@@ -9,9 +9,9 @@ appId: com.bitcoin.mwallet
 launchDate: 2017-06-19
 latestUpdate: 2021-03-11
 apkVersionName: "6.10.4"
-stars: 4.4
-ratings: 23025
-reviews: 7783
+stars: 4.5
+ratings: 23147
+reviews: 7809
 size: 48M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

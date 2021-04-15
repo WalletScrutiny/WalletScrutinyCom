@@ -4,14 +4,14 @@ title: "Bitcoin Wallet: by Bitcoin.org"
 altTitle: "Bitcoin Wallet probably not by Bitcoin.org"
 authors:
 
-users: 500
+users: 1000
 appId: org.bitcoin.wallet
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 5
+reviews: 3
 size: 39M
 website: 
 repository: 

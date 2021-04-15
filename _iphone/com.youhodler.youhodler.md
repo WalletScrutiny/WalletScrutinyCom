@@ -10,8 +10,8 @@ idd: 1469351696
 released: 2019-07-25
 updated: 2021-03-15
 version: "2.11.0"
-score: 4.83158
-reviews: 190
+score: 4.83068
+reviews: 189
 size: 35323904
 developerWebsite: https://www.youhodler.com/
 repository: 

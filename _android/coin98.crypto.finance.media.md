@@ -9,9 +9,9 @@ appId: coin98.crypto.finance.media
 launchDate: 
 latestUpdate: 2021-04-10
 apkVersionName: "9.0"
-stars: 4.7
-ratings: 5046
-reviews: 3703
+stars: 4.8
+ratings: 5049
+reviews: 3701
 size: 63M
 website: 
 repository: 

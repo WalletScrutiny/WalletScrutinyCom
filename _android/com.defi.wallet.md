@@ -4,14 +4,14 @@ title: "Crypto.com l DeFi Wallet"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.defi.wallet
 launchDate: 2020-05-11
 latestUpdate: 2021-04-09
 apkVersionName: "1.8.2"
 stars: 4.3
-ratings: 3096
-reviews: 947
+ratings: 3154
+reviews: 969
 size: 24M
 website: https://crypto.com/en/defi/
 repository: 

@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-12
 apkVersionName: "3.0.19-ios-dialtone.0"
 stars: 4.5
-ratings: 591
+ratings: 592
 reviews: 300
 size: 347M
 website: https://www.sylo.io/wallet

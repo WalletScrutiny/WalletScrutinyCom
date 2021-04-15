@@ -9,9 +9,9 @@ appId: com.krypto
 launchDate: 
 latestUpdate: 2021-04-06
 apkVersionName: "8.4"
-stars: 4.5
-ratings: 754
-reviews: 475
+stars: 4.6
+ratings: 750
+reviews: 472
 size: 10M
 website: 
 repository: 

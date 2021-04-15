@@ -9,9 +9,9 @@ appId: com.BitcoinWalletExchange.org
 launchDate: 
 latestUpdate: 2020-10-13
 apkVersionName: "1.01"
-stars: 3.9
-ratings: 19
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
 website: 
 repository: 

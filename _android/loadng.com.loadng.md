@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: loadng.com.loadng
 launchDate: 
-latestUpdate: 2021-01-24
+latestUpdate: 2021-04-15
 apkVersionName: "Varies with device"
 stars: 4.4
-ratings: 133
-reviews: 96
+ratings: 134
+reviews: 97
 size: Varies with device
 website: 
 repository: 

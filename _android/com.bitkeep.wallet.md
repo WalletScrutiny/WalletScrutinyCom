@@ -4,14 +4,14 @@ title: "BitKeep Wallet Pro"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.bitkeep.wallet
 launchDate: 
 latestUpdate: 2021-03-16
 apkVersionName: "5.1.1"
-stars: 3.8
-ratings: 225
-reviews: 104
+stars: 3.5
+ratings: 266
+reviews: 132
 size: 28M
 website: https://bitkeep.com
 repository: 

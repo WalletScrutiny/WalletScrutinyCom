@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 Seems like a secondary project called "Pegasus" of Bolt Global where you can earn BOLT tokens into the Bolt-X wallet from using the Bolt+ interactive media companion app.
 
 *(Besides that, we couldn't find any source code or even a claim of it being non-custodial.)*

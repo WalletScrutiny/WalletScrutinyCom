@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.cybavo.btc.wallet
 launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "1.0.1795"
+latestUpdate: 2021-04-14
+apkVersionName: "1.0.1803"
 stars: 0.0
 ratings: 
 reviews: 

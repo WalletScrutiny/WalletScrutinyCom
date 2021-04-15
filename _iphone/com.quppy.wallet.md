@@ -8,10 +8,10 @@ appId: com.quppy.wallet
 appCountry: 
 idd: 1417802076
 released: 2018-08-09
-updated: 2021-03-17
-version: "1.0.46"
-score: 2.5
-reviews: 8
+updated: 2021-04-14
+version: "1.0.48"
+score: 2.77778
+reviews: 9
 size: 46093312
 developerWebsite: https://quppy.com
 repository: 
