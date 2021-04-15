@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: "cryptofully"
 title: "Cryptofully"
 altTitle: 
 authors:
@@ -34,9 +34,8 @@ redirect_from:
 
 ---
 
-This mobile app is a exchange solution aimed at transferring money into Nigerian bank accounts, on their site https://www.cryptofully.com/ there is no mention of any source repository for it.
+This mobile app is a exchange solution aimed at transferring money into Nigerian bank accounts, on [their site](https://www.cryptofully.com/) there is no mention of any source repository for it.
 This mobile solution looks to work via an Api and does not hold crypto currencies, hence it is not a wallet.
 
-There is also an iphone version.
-iphone version = https://apps.apple.com/ng/app/cryptofully/id1533929589
+There is also an [iphone version] (https://apps.apple.com/ng/app/cryptofully/id1533929589).
 
