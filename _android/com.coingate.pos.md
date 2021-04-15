@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coingate.pos.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
 reviewStale: true
 signer: 
@@ -34,4 +34,5 @@ redirect_from:
 
 ---
 
-This wallet is a POS solution aimed at Merchants receiving crypo currencies, but it does not list the wallet app on their website https://coingate.com/ or any mention of a source repository for it.
+This wallet is a POS solution aimed at Merchants receiving crypo currencies, the POS mobile app is listed on their website https://coingate.com/pos, however no mention of any source repository for it.
+This mobile solution looks to work via an Api and does not hold crypto currencies, hence it is not a wallet.
