@@ -3,7 +3,7 @@ wsId:
 title: "Hibana Wallet"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 50
 appId: app.hibana.hibana
 launchDate: 
@@ -19,7 +19,7 @@ issue:
 icon: app.hibana.hibana.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+date: 2021-04-15
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,4 +34,4 @@ redirect_from:
 
 ---
 
-
+This is a lightning wallet.
