@@ -15,11 +15,11 @@ reviews: 205
 size: 130404352
 developerWebsite: http://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue: 
+issue: https://github.com/cake-tech/cake_wallet/issues/112
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-07
+date: 2021-04-14
 reviewStale: true
 signer: 
 reviewArchive:
@@ -27,12 +27,18 @@ reviewArchive:
 
 providerTwitter: cakewallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: cakewallet
+providerReddit: cakewallet
 
 redirect_from:
 
 ---
+
+
+**Update 2021-04-14**: They now do have a public issue tracker and
+[emanuel](/authors/emanuel) tried to build with
+[slightly more success](https://github.com/cake-tech/cake_wallet/issues/112)
+but the verdict remains the same.
 
 > Cake Wallet allows you to safely store, send receive and exchange your XMR /
   Monero and BTC / Bitcoin.
