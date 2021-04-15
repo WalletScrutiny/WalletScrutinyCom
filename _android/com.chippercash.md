@@ -3,7 +3,7 @@ wsId:
 title: "Chipper Cash - Send & Receive Money Across Africa"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 1000000
 appId: com.chippercash
 launchDate: 
@@ -13,13 +13,13 @@ stars: 4.0
 ratings: 27896
 reviews: 17590
 size: Varies with device
-website: 
+website: https://chippercash.com/
 repository: 
 issue: 
 icon: com.chippercash.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-15
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,4 +34,7 @@ redirect_from:
 
 ---
 
+Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 
+"Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"
 
+Conclusion is that Chipper is a custodial wallet as funds are held by Chipper on behalf of the user.
