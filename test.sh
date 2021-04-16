@@ -21,7 +21,7 @@ dockerApktool() {
   # is mounted with write permission.
   # If docker is running as root, change the owner of the output to the current
   # user. If that fails, ignore it.
-  docker run \
+  podman run \
     --rm \
     --volume $targetFolderParent:/tfp \
     --volume $appFolder:/af:ro \
@@ -34,7 +34,7 @@ getSigner() {
   DIR=$(dirname "$1")
   BASE=$(basename "$1")
   s=$(
-    docker run \
+    podman run \
       --rm \
       --volume $DIR:/mnt:ro \
       --workdir /mnt \
@@ -130,6 +130,8 @@ $( git tag -v "$tag" )
 Run a full
 diff --recursive $fromPlayUnpacked $fromBuildUnpacked
 meld $fromPlayUnpacked $fromBuildUnpacked
+or
+diffoscope $app $builtApk
 for more details."
 }
 

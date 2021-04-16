@@ -8,7 +8,7 @@ test() {
   prepare
 
   # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
+  podman run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c \
       './gradlew clean :app:assembleRelease'
       
   # collect results
