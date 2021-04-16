@@ -3,7 +3,7 @@ wsId:
 title: "Mobile LN"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10
 appId: com.mobileln
 launchDate: 
@@ -14,12 +14,12 @@ ratings:
 reviews: 
 size: 38M
 website: 
-repository: 
+repository: https://github.com/hihidev/MobileLN
 issue: 
 icon: com.mobileln.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+date: 2021-04-15
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,4 +34,4 @@ redirect_from:
 
 ---
 
-
+A Bitcoin + Lightning wallet.

@@ -3,7 +3,7 @@ wsId:
 title: "Murex Trivium (Bitcoin Lightning wallet)"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 50
 appId: com.murextrivium.walletapp
 launchDate: 
@@ -13,13 +13,13 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 6.0M
-website: 
+website: http://murexbitcoinsolutions.com/
 repository: 
 issue: 
 icon: com.murextrivium.walletapp.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+date: 2021-04-15
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,4 +34,4 @@ redirect_from:
 
 ---
 
-
+A Bitcoin Lightning wallet.
