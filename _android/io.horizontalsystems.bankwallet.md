@@ -15,14 +15,19 @@ reviews: 291
 size: 45M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: 
+issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/3545
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-11
-reviewStale: true
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-16
+reviewStale: false
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2021-03-11
+  version: "0.19.1"
+  apkHash: 418f2a051ae154a7c15fffb88d992134a22ddf6af2fcbe4deab66d7af59ef197
+  gitRevision: e7f3679b31bc83bc9bb60294c16bca2325ab6444
+  verdict: reproducible
 - date: 2021-02-18
   version: "0.19.0"
   apkHash: 9b5bfb91c002ca9f9fde93487defc59c3dcf23fa4035dd10413be970b6dc2c11
@@ -128,18 +133,34 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.19.1
-apkVersionCode: 40
-apkHash:        418f2a051ae154a7c15fffb88d992134a22ddf6af2fcbe4deab66d7af59ef197
+apkVersionName: 0.20.0
+apkVersionCode: 41
+apkHash:        1a98f8bec96d1e50b6aa6fe2cb9116b16ec1b48f71241c9081ac67dadc7166d9
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_40/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_40/apktool.yml differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_40/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_41/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_41/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_41/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_41/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_41/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_41/smali_classes2/io/horizontalsystems/bankwallet/core/providers/AppConfigProvider.smali and /tmp/fromBuild_io.horizontalsystems.bankwallet_41/smali_classes2/io/horizontalsystems/bankwallet/core/providers/AppConfigProvider.smali differ
 ```
 
-That's how it should look like to give it the verdict: **reproducible**.
+Unfortunately that is one file too many. Upon closer inspection it looks totally
+benign though:
 
-Thank you to Horizontal Systems for a
-[donation of $200](https://twitter.com/WalletScrutiny/status/1336651531442155522).
+```
+$ diff /tmp/from{Play,Build}_io.horizontalsystems.bankwallet_41/smali_classes2/io/horizontalsystems/bankwallet/core/providers/AppConfigProvider.smali
+205c205
+<     const-string v0, "unstoppable.support@protonmail.com"
+---
+>     const-string v0, "support.unstoppable@protonmail.com"
+```
+
+so while we do not ring the alarm over this, we unfortunately have to give it
+the verdict **not verifiable** until they produce a revision with the right
+email address.
+
+Thank you to Horizontal Systems for repeat donations:
+
+* [$200 2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)
+* [$200 2021-04-13](https://twitter.com/WalletScrutiny/status/1382161902399262720)
