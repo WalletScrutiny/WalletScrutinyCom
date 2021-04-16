@@ -9,9 +9,9 @@ appId: com.secrypto
 launchDate: 
 latestUpdate: 2019-02-26
 apkVersionName: "1.28"
-stars: 2.6
-ratings: 58
-reviews: 50
+stars: 2.9
+ratings: 959
+reviews: 654
 size: 50M
 website: 
 repository: 

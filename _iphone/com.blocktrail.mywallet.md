@@ -13,7 +13,7 @@ version: "4.4.9"
 score: 3.92439
 reviews: 410
 size: 38854656
-developerWebsite: http://btc.com/
+developerWebsite: http://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.jpg

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-24
 apkVersionName: "1.9.1"
 stars: 4.0
-ratings: 27896
-reviews: 17590
+ratings: 27918
+reviews: 17606
 size: Varies with device
 website: https://chippercash.com/
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 
 "Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"

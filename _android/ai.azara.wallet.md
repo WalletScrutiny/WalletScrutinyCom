@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: ai.azara.wallet
 launchDate: 
-latestUpdate: 2021-04-11
-apkVersionName: "0.01.17"
+latestUpdate: 2021-04-14
+apkVersionName: "0.01.18"
 stars: 4.7
 ratings: 70
 reviews: 68

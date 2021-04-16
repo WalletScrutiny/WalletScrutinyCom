@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.bitshield.bitshieldwallet
 launchDate: 2020-06-09
-latestUpdate: 2020-06-19
-apkVersionName: "1.27"
+latestUpdate: 2021-04-12
+apkVersionName: "1.28"
 stars: 4.8
-ratings: 1451
-reviews: 967
-size: 57M
+ratings: 1456
+reviews: 972
+size: 65M
 website: https://bitshieldwallet.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "CoinCola - Buy Bitcoin & more"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.newgo.coincola
 launchDate: 
 latestUpdate: 2021-03-04

@@ -9,9 +9,9 @@ appId: com.wrx.wazirx
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "2.12"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 65537
+reviews: 22630
 size: 6.0M
 website: 
 repository: 

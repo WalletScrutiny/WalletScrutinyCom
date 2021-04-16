@@ -9,9 +9,9 @@ appId: com.etoro.wallet
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "22.0.0"
-stars: 1.6
-ratings: 664
-reviews: 450
+stars: 1.5
+ratings: 666
+reviews: 452
 size: 5.6M
 website: 
 repository: 

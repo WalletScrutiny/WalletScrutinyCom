@@ -4,7 +4,7 @@ title: "wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: io.wallet
 launchDate: 
 latestUpdate: 2021-03-18

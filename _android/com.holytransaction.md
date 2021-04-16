@@ -4,7 +4,7 @@ title: "HolyTransaction - Crypto Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.holytransaction
 launchDate: 
 latestUpdate: 2021-03-25

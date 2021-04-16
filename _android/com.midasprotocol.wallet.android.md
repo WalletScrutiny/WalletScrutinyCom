@@ -9,9 +9,9 @@ appId: com.midasprotocol.wallet.android
 launchDate: 
 latestUpdate: 2021-03-19
 apkVersionName: "1.9.9"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 402
+reviews: 247
 size: 74M
 website: 
 repository: 

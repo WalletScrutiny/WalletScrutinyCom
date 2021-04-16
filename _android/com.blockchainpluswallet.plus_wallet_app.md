@@ -9,8 +9,8 @@ appId: com.blockchainpluswallet.plus_wallet_app
 launchDate: 
 latestUpdate: 2020-12-30
 apkVersionName: "3.0.1"
-stars: 3.8
-ratings: 182
+stars: 3.9
+ratings: 183
 reviews: 144
 size: 13M
 website: 

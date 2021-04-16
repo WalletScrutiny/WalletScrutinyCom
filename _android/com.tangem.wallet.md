@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.tangem.wallet
 launchDate: 
-latestUpdate: 2021-03-24
-apkVersionName: "3.11"
+latestUpdate: 2021-04-15
+apkVersionName: "3.12"
 stars: 4.4
 ratings: 38
 reviews: 14
-size: 17M
+size: 19M
 website: https://tangem.com
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.tangem.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-10
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

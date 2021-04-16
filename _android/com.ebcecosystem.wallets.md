@@ -9,9 +9,9 @@ appId: com.ebcecosystem.wallets
 launchDate: 2018-12-07
 latestUpdate: 2019-01-30
 apkVersionName: "0.0.7"
-stars: 4.8
-ratings: 95
-reviews: 59
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
 website: https://ebc.eco
 repository: 
