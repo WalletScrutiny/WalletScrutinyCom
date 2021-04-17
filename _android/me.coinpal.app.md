@@ -9,9 +9,9 @@ appId: me.coinpal.app
 launchDate: 
 latestUpdate: 2018-06-27
 apkVersionName: "4.1.4"
-stars: 4.4
-ratings: 109
-reviews: 49
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
 website: 
 repository: 

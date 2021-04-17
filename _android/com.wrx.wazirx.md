@@ -9,9 +9,9 @@ appId: com.wrx.wazirx
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "2.12"
-stars: 4.2
-ratings: 65537
-reviews: 22630
+stars: 4.1
+ratings: 67813
+reviews: 23290
 size: 6.0M
 website: 
 repository: 
@@ -33,5 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 This mobile app is an exchange based trading solution and is not a wallet.

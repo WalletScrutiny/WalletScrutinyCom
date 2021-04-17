@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-15
 apkVersionName: "v1.0.11.28"
 stars: 4.2
-ratings: 94
-reviews: 80
+ratings: 95
+reviews: 81
 size: 4.9M
 website: https://ankerid.com/mobile-wallet
 repository: 

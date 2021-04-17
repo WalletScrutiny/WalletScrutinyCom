@@ -4,14 +4,14 @@ title: "Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: best.bitcoin.wallet.btc.price.buy.cryptocurrency
 launchDate: 
 latestUpdate: 2021-03-13
 apkVersionName: "1.0"
-stars: 5.0
-ratings: 23
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.2M
 website: 
 repository: 

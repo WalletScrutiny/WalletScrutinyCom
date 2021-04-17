@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: partl.coini
 launchDate: 
-latestUpdate: 2021-04-03
-apkVersionName: "2.1.3"
+latestUpdate: 2021-04-17
+apkVersionName: "2.1.4"
 stars: 4.6
-ratings: 183
-reviews: 91
+ratings: 189
+reviews: 96
 size: 46M
 website: 
 repository: 

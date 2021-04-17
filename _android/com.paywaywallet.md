@@ -10,8 +10,8 @@ launchDate: 2019-02-13
 latestUpdate: 2021-03-04
 apkVersionName: "3.2.1 (build: #1196/20210304164602)"
 stars: 3.9
-ratings: 220
-reviews: 131
+ratings: 221
+reviews: 132
 size: 19M
 website: http://www.payway.ug
 repository: 

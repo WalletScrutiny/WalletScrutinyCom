@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Nash – Buy Bitcoin at 0% fees"
+title: "Nash – Buy crypto at the best rates"
 altTitle: 
 authors:
 

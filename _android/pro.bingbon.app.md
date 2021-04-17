@@ -4,14 +4,14 @@ title: "Bingbon Bitcoin & Cryptocurrency Platform"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: pro.bingbon.app
 launchDate: 
 latestUpdate: 2021-04-08
 apkVersionName: "2.29.0"
-stars: 4.1
-ratings: 622
-reviews: 398
+stars: 4.0
+ratings: 629
+reviews: 403
 size: 26M
 website: 
 repository: 

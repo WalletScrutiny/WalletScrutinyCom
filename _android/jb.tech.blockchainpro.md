@@ -4,14 +4,14 @@ title: "Blockchain.com Wallet Pro-buy bitcoin Eth & crypto"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: jb.tech.blockchainpro
 launchDate: 
 latestUpdate: 2021-04-14
 apkVersionName: "2.0"
-stars: 4.7
-ratings: 154
-reviews: 145
+stars: 4.8
+ratings: 177
+reviews: 168
 size: 9.4M
 website: 
 repository: 
