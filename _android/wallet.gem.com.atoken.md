@@ -36,7 +36,10 @@ redirect_from:
 
 Found on their support website...
 
-"The AToken Wallet server does not save any private keys, mnemonics, and passwords for users, so mnemonics or lost private keys cannot be retrieved from the AToken wallet. 
-Please make sure that all users make backups and keep them properly. Do not share them with anyone."
+> The AToken Wallet server does not save any private keys, mnemonics, and
+  passwords for users, so mnemonics or lost private keys cannot be retrieved
+  from the AToken wallet.<br>
+  Please make sure that all users make backups and keep them properly. Do not
+  share them with anyone.
 
 The claim on their website is that the wallet is non-custodial, but without source code, this is **not verifiable**.
