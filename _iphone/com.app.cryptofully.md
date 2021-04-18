@@ -5,22 +5,22 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 5000
 appId: com.app.cryptofully
-launchDate: 
-latestUpdate: 2021-03-17
-apkVersionName: "1.1.9"
-stars: 4.3
-ratings: 236
-reviews: 94
-size: 29M
-website: https://www.cryptofully.com/
+appCountry: 
+idd: 1533929589
+released: 2020-11-15
+updated: 2021-03-17
+version: "1.1.9"
+score: 4.57143
+reviews: 28
+size: 43956224
+developerWebsite: https://www.cryptofully.com
 repository: 
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-16
+date: 2021-04-18
 reviewStale: true
 signer: 
 reviewArchive:
