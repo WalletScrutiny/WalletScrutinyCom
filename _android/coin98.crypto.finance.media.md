@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: "coin98"
 title: "Coin98 Wallet - Crypto Wallet & Payment Gateway"
 altTitle: 
 authors:
@@ -24,7 +24,6 @@ reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: coin98_wallet
 providerLinkedIn: 
 providerFacebook: Coin98Wallet
@@ -45,4 +44,3 @@ so it claims to manage BTC, it also claims users are in control of their private
 with no source code repository listed or found...
 
 Our verdict: This 'wallet' claims to be non-custodial but does not provide public source and therefore is **not verifiable**.
-
