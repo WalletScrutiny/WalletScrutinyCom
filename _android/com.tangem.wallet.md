@@ -9,9 +9,9 @@ appId: com.tangem.wallet
 launchDate: 
 latestUpdate: 2021-04-15
 apkVersionName: "3.12"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 38
+reviews: 14
 size: 19M
 website: https://tangem.com
 repository: 

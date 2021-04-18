@@ -9,9 +9,9 @@ appId: com.youhodler.youhodler
 launchDate: 
 latestUpdate: 2021-04-15
 apkVersionName: "2.12.0"
-stars: 4.1
-ratings: 1052
-reviews: 414
+stars: 4.2
+ratings: 1053
+reviews: 415
 size: 47M
 website: https://youhodler.com
 repository: 

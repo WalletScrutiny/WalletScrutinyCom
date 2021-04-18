@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-02
 apkVersionName: "1.2.3"
 stars: 4.2
-ratings: 6341
+ratings: 6346
 reviews: 3039
 size: 43M
 website: https://www.tokenpocket.pro

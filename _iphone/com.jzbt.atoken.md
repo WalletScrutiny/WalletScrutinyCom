@@ -1,5 +1,5 @@
 ---
-wsId: "ATokenWallet"
+wsId: ATokenWallet
 title: "AToken App"
 altTitle: 
 authors:

@@ -9,7 +9,7 @@ appId: com.bitcoinindia.Btciapp
 launchDate: 
 latestUpdate: 2021-03-06
 apkVersionName: "3.1.39"
-stars: 2.8
+stars: 2.9
 ratings: 1124
 reviews: 805
 size: 11M

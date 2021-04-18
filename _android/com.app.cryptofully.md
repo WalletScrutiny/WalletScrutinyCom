@@ -35,6 +35,7 @@ redirect_from:
 
 ---
 
+
 This mobile app is an exchange solution aimed at transferring money into Nigerian bank accounts.
 The user can use other Bitcoin wallets to send BTC to receive addresses in the
 app to initiate deposits to Nigerian Bank accounts.

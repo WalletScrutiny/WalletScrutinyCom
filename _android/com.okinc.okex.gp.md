@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-19
 apkVersionName: "4.7.5"
 stars: 4.7
-ratings: 62897
-reviews: 29311
+ratings: 62998
+reviews: 29331
 size: 123M
 website: https://www.okex.com
 repository: 

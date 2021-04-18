@@ -1,5 +1,5 @@
 ---
-wsId: "ATokenWallet"
+wsId: ATokenWallet
 title: "ATokenWallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-31
 apkVersionName: "4.0.8"
 stars: 4.0
-ratings: 3787
-reviews: 2383
+ratings: 3788
+reviews: 2384
 size: 66M
 website: https://www.atoken.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Found on their support website...
 

@@ -10,7 +10,7 @@ launchDate: 2018-03-01
 latestUpdate: 2021-04-09
 apkVersionName: "2.0.8"
 stars: 3.8
-ratings: 2792
+ratings: 2793
 reviews: 1574
 size: 39M
 website: https://edge.app
