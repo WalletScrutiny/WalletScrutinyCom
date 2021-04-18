@@ -1,23 +1,23 @@
 ---
 wsId: tabtrader
-title: "TabTrader Buy Bitcoin and Ethereum on exchanges"
+title: "TabTrader"
 altTitle: 
 authors:
 - leo
 - kiwilamb
-users: 1000000
-appId: com.tabtrader.android
-launchDate: 
-latestUpdate: 2021-04-06
-apkVersionName: "4.7.8"
-stars: 4.5
-ratings: 51676
-reviews: 21940
-size: 14M
-website: http://www.tab-trader.com
+appId: com.tabtrader.apps.TabTrader
+appCountry: 
+idd: 1095716562
+released: 2016-09-02
+updated: 2021-02-26
+version: "2.9.1"
+score: 4.74465
+reviews: 3936
+size: 23987200
+developerWebsite: https://tab-trader.com
 repository: 
 issue: 
-icon: com.tabtrader.android.png
+icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-17
@@ -34,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app appears to not function as a wallet. At least we could not see any
 documentation about depositing or withdrawing through the app, which makes the
