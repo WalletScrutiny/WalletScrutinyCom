@@ -1,9 +1,9 @@
 ---
-wsId: 
-title: "Bundle Africa"
+wsId: "africa.bundle"
+title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
-
+- kiwilamb
 appId: com.bundlewallet.mobileApp
 appCountry: 
 idd: 1506502199
@@ -13,12 +13,12 @@ version: "2.7.5"
 score: 4.42384
 reviews: 151
 size: 98483200
-developerWebsite: 
+developerWebsite: https://bundle.africa/
 repository: 
 issue: 
 icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
 reviewStale: true
 signer: 
@@ -34,3 +34,11 @@ redirect_from:
 
 ---
 
+
+The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
+
+> Send, receive, request naria and other ctyptocurrenices for free.
+
+so it claims to manage BTC, however their is no evidence of the wallet being non-custodial, with no source code repository listed or found...
+
+Our verdict: This 'wallet' is probably custodial but does not provide public source and therefore is **not verifiable**.
