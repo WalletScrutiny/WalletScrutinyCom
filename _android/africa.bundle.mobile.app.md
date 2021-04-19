@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: "africa.bundle"
 title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
