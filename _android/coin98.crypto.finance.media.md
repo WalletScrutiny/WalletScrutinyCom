@@ -1,5 +1,5 @@
 ---
-wsId: "coin98"
+wsId: 
 title: "Coin98 Wallet - Crypto Wallet & Payment Gateway"
 altTitle: 
 authors:
