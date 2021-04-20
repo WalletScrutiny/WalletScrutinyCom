@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Wallet: by Bitcoin.org"
-altTitle: "Bitcoin Wallet probably not by Bitcoin.org"
+altTitle: 
 authors:
 
 users: 1000
@@ -35,3 +35,7 @@ redirect_from:
 ---
 
 
+[Emanuel](/authors/emanuel) looked into this wallet a bit as it claims
+association with a pretty prominent website - bitcoin.org and indeed it is
+[endorsed](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/4) by
+[Cobra-Bitcoin](https://github.com/Cobra-Bitcoin), the owner of bitcoin.org.
