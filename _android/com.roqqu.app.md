@@ -4,6 +4,7 @@ title: "Roqqu: Buy & Sell Bitcoin and Cryptocurrency Fast"
 altTitle: 
 authors:
 - kiwilamb
+- leo
 users: 100000
 appId: com.roqqu.app
 launchDate: 
@@ -13,7 +14,7 @@ stars: 3.3
 ratings: 11107
 reviews: 8070
 size: 27M
-website: https://roqqu.com/
+website: https://roqqu.com
 repository: 
 issue: 
 icon: com.roqqu.app.png
@@ -34,8 +35,17 @@ redirect_from:
 
 ---
 
-It is somewhat obsecure weather this wallet can store bitcoins, but under their FAQ section on their website () 
-it contains an article on how to [send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc) with addresses and QR codes displayed.
+The provider claims:
 
-Our verdict: This "wallet" is custodial, it does not provide public source code and therefore is **not verifiable**.
+> SAFETY FIRST<br>
+  Over 98% of cryptocurrency is stored securely offline and the rest is
+  protected by industry-leading online security.
 
+which means you do not control the keys to your Bitcoins.
+
+It is somewhat obscure weather this wallet can even store bitcoins, but under
+their FAQ section on their website it contains an article on how to
+[send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc)
+with addresses and QR codes displayed.
+
+Our verdict: This "wallet" is custodial and therefore **not verifiable**.
