@@ -10,8 +10,8 @@ idd: 1455341917
 released: 2019-06-30
 updated: 2021-04-14
 version: "1.4.6"
-score: 3.91892
-reviews: 296
+score: 3.92384
+reviews: 302
 size: 34417664
 developerWebsite: https://nexo.io
 repository: 

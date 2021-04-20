@@ -8,11 +8,11 @@ appId: com.buyucoin
 appCountry: 
 idd: 1539456610
 released: 2020-11-17
-updated: 2021-03-26
-version: "1.5"
-score: 5
-reviews: 1
-size: 35222528
+updated: 2021-04-16
+version: "1.6"
+score: 3
+reviews: 2
+size: 35697664
 developerWebsite: https://www.buyucoin.com
 repository: 
 issue: 
