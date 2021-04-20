@@ -9,9 +9,9 @@ appId: io.goldwallet.wallet
 launchDate: 
 latestUpdate: 2020-11-26
 apkVersionName: "6.0.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 441
+reviews: 251
 size: 35M
 website: https://bitcoinvault.global
 repository: 

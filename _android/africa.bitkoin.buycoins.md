@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: africa.bitkoin.buycoins
 launchDate: 
-latestUpdate: 2021-02-16
-apkVersionName: "5.5.1"
+latestUpdate: 2021-04-16
+apkVersionName: "5.6.0"
 stars: 3.2
 ratings: 621
 reviews: 431

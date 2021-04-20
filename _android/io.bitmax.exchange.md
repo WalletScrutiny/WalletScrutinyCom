@@ -9,9 +9,9 @@ appId: io.bitmax.exchange
 launchDate: 
 latestUpdate: 2021-04-13
 apkVersionName: "2.4.6"
-stars: 4.5
-ratings: 2389
-reviews: 830
+stars: 4.4
+ratings: 2506
+reviews: 855
 size: 22M
 website: 
 repository: 

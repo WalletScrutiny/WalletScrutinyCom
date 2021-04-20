@@ -9,9 +9,9 @@ appId: eu.crystalwallet.app
 launchDate: 
 latestUpdate: 2020-06-15
 apkVersionName: "1.68"
-stars: 4.4
-ratings: 9
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
 website: 
 repository: 

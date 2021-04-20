@@ -9,9 +9,9 @@ appId: com.hotbtc.exchange
 launchDate: 
 latestUpdate: 2020-08-19
 apkVersionName: "1.1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 18
+reviews: 17
 size: 49M
 website: 
 repository: 

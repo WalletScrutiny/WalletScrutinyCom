@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: io.changenow.changenow
 launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "1.106"
-stars: 4.5
-ratings: 747
-reviews: 400
+latestUpdate: 2021-04-16
+apkVersionName: "1.107"
+stars: 4.4
+ratings: 757
+reviews: 403
 size: 5.8M
 website: http://changenow.io
 repository: 

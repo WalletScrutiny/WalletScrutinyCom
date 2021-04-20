@@ -9,9 +9,9 @@ appId: gbbit.app.wallet
 launchDate: 
 latestUpdate: 2020-05-07
 apkVersionName: "10.61"
-stars: 3.9
-ratings: 89
-reviews: 61
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.6M
 website: 
 repository: 

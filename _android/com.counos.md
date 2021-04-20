@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.counos
 launchDate: 
-latestUpdate: 2021-03-02
-apkVersionName: "1.9.46"
+latestUpdate: 2021-04-16
+apkVersionName: "1.9.50"
 stars: 4.1
 ratings: 509
 reviews: 350
