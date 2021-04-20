@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 3668
 reviews: 985
 size: 17M
-website: https://phemex.com/
+website: https://phemex.com
 repository: 
 issue: 
 icon: com.phemex.app.png
