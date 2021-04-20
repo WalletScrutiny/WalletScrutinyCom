@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: "HuobiWallet"
 title: "HuobiWallet"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 100000
 appId: com.huobionchainwallet.gp
 launchDate: 
@@ -13,25 +13,34 @@ stars: 3.5
 ratings: 1717
 reviews: 731
 size: 62M
-website: 
+website: https://huobiwallet.com
 repository: 
 issue: 
 icon: com.huobionchainwallet.gp.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-20
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HuobiWallet
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: HuobiWallet
 providerReddit: 
 
 redirect_from:
 
 ---
+
+
+From the description of the play store app the wallet provider clearly states the private keys are in control of the user....
+
+> Huobi Wallet users have sole control over their own private keys and thus have full control over their assets. There are no third parties involved in management of private keys.
+
+However the non-custodial claims of the provider cannot be verified as no source code is available.
+
+Our verdict: This 'wallet' is possibly non-custodial but does not provide public source and therefore is **not verifiable**.
 
 
