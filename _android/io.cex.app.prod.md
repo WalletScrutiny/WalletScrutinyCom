@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: cex
 title: "CEX.IO Cryptocurrency Exchange"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 4.0
 ratings: 16
 reviews: 13
 size: Varies with device
-website: https://cex.io/
+website: https://cex.io
 repository: 
 issue: 
 icon: io.cex.app.prod.png
@@ -41,4 +41,3 @@ The CEX.io mobile app claims on the website to manage bitcoins...
 however their is no evidence of the wallet being non-custodial, with no source code repository listed or found...
 
 Our verdict: This 'wallet' is probably custodial but does not provide public source and therefore is **not verifiable**.
-
