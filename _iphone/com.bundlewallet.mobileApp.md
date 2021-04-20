@@ -4,19 +4,19 @@ title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
-appId: africa.bundle.mobile.app
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "2.7.5"
-stars: 4.6
-ratings: 6314
-reviews: 3976
-size: 29M
-website: https://bundle.africa/
+appId: com.bundlewallet.mobileApp
+appCountry: 
+idd: 1506502199
+released: 2020-06-03
+updated: 2021-04-17
+version: "2.7.5"
+score: 4.42384
+reviews: 151
+size: 98483200
+developerWebsite: https://bundle.africa/
 repository: 
 issue: 
-icon: africa.bundle.mobile.app.png
+icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 
