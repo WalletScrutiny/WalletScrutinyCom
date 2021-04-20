@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: jb.tech.blockchainpro
 launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "2.0"
-stars: 4.8
-ratings: 175
-reviews: 166
+latestUpdate: 2021-04-20
+apkVersionName: "2.1"
+stars: 4.7
+ratings: 197
+reviews: 188
 size: 9.4M
 website: 
 repository: 

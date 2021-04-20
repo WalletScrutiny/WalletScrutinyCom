@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ezdefi
 launchDate: 
-latestUpdate: 2021-02-11
-apkVersionName: "0.3.2"
-stars: 4.7
-ratings: 543
-reviews: 332
-size: 48M
+latestUpdate: 2021-04-19
+apkVersionName: "0.3.3"
+stars: 4.6
+ratings: 562
+reviews: 343
+size: 50M
 website: https://ezdefi.com/
 repository: 
 issue: 

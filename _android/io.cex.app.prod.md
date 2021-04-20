@@ -9,9 +9,9 @@ appId: io.cex.app.prod
 launchDate: 
 latestUpdate: 2021-03-31
 apkVersionName: "Varies with device"
-stars: 4.0
-ratings: 16
-reviews: 13
+stars: 4.5
+ratings: 9066
+reviews: 5734
 size: Varies with device
 website: https://cex.io
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The CEX.io mobile app claims on the website to manage bitcoins...
 

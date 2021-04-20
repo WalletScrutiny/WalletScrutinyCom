@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.shaketh
 launchDate: 
-latestUpdate: 2021-03-22
-apkVersionName: "1.6.85"
+latestUpdate: 2021-04-20
+apkVersionName: "1.6.93"
 stars: 4.7
-ratings: 5559
-reviews: 2616
-size: 77M
+ratings: 5746
+reviews: 2674
+size: 84M
 website: https://shakepay.com
 repository: 
 issue: 

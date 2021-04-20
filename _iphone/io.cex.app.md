@@ -11,8 +11,8 @@ idd: 1047225016
 released: 2015-12-22
 updated: 2021-03-24
 version: "6.9.2"
-score: 4.59649
-reviews: 3472
+score: 4.59708
+reviews: 3497
 size: 82926592
 developerWebsite: https://cex.io
 repository: 
@@ -34,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The CEX.io mobile app claims on the website to manage bitcoins...
 

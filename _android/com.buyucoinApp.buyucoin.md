@@ -4,14 +4,14 @@ title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.buyucoinApp.buyucoin
 launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "3.7"
-stars: 3.3
-ratings: 616
-reviews: 447
+latestUpdate: 2021-04-20
+apkVersionName: "3.9"
+stars: 3.6
+ratings: 707
+reviews: 521
 size: 17M
 website: https://www.buyucoin.com
 repository: 

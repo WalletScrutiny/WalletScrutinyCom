@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-23
 apkVersionName: "1.18.1 'ChAdOx1'"
 stars: 3.5
-ratings: 671
-reviews: 405
+ratings: 676
+reviews: 407
 size: Varies with device
 website: https://monerujo.io
 repository: 

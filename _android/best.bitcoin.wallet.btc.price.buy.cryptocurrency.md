@@ -9,9 +9,9 @@ appId: best.bitcoin.wallet.btc.price.buy.cryptocurrency
 launchDate: 
 latestUpdate: 2021-03-13
 apkVersionName: "1.0"
-stars: 5.0
-ratings: 26
-reviews: 24
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.2M
 website: 
 repository: 

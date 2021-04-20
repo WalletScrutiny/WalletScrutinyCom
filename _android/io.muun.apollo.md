@@ -10,8 +10,8 @@ launchDate: 2017-04-25
 latestUpdate: 2021-04-05
 apkVersionName: "45.2"
 stars: 4.4
-ratings: 164
-reviews: 98
+ratings: 167
+reviews: 101
 size: 40M
 website: https://muun.com
 repository: https://github.com/muun/apollo

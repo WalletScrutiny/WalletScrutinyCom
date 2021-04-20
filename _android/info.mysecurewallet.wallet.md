@@ -10,9 +10,9 @@ appId: info.mysecurewallet.wallet
 launchDate: 
 latestUpdate: 2019-11-02
 apkVersionName: "1.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 51
+reviews: 38
 size: 3.9M
 website: 
 repository: 

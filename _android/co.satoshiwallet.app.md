@@ -9,9 +9,9 @@ appId: co.satoshiwallet.app
 launchDate: 
 latestUpdate: 2020-01-17
 apkVersionName: "2.1.3"
-stars: 3.5
-ratings: 14
-reviews: 11
+stars: 3.3
+ratings: 15
+reviews: 12
 size: Varies with device
 website: 
 repository: 

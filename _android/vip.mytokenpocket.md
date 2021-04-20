@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-02
 apkVersionName: "1.2.3"
 stars: 4.2
-ratings: 6346
-reviews: 3039
+ratings: 6397
+reviews: 3059
 size: 43M
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-android

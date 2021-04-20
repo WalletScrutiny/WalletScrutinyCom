@@ -9,9 +9,9 @@ appId: zebpay.Application
 launchDate: 2014-12-23
 latestUpdate: 2021-04-09
 apkVersionName: "3.13.00"
-stars: 3.4
-ratings: 76157
-reviews: 36615
+stars: 3.3
+ratings: 76448
+reviews: 36800
 size: 11M
 website: https://www.zebpay.com
 repository: 

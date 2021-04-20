@@ -9,9 +9,9 @@ appId: com.counos
 launchDate: 
 latestUpdate: 2021-04-16
 apkVersionName: "1.9.50"
-stars: 4.1
-ratings: 509
-reviews: 350
+stars: 4.0
+ratings: 508
+reviews: 349
 size: 38M
 website: https://www.counos.io
 repository: 

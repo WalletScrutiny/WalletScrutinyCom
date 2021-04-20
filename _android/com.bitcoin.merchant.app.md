@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.bitcoin.merchant.app
 launchDate: 2019-04-13
-latestUpdate: 2021-04-04
-apkVersionName: "5.3.4"
+latestUpdate: 2021-04-16
+apkVersionName: "5.3.5"
 stars: 4.0
 ratings: 372
 reviews: 144

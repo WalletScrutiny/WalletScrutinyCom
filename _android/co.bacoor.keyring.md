@@ -4,7 +4,7 @@ title: "KEYRING PRO | Multichain Wallet Connect ETH, BSC"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: co.bacoor.keyring
 launchDate: 
 latestUpdate: 2021-03-30

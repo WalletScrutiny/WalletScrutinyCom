@@ -10,8 +10,8 @@ idd: 1396382871
 released: 2018-08-02
 updated: 2021-04-12
 version: "2.4.9"
-score: 3
-reviews: 93
+score: 2.60273
+reviews: 146
 size: 98085888
 developerWebsite: https://www.bitmart.com/
 repository: 

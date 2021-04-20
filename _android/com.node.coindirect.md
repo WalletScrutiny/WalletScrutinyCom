@@ -9,9 +9,9 @@ appId: com.node.coindirect
 launchDate: 
 latestUpdate: 2019-02-25
 apkVersionName: "1.1.1"
-stars: 1.7
-ratings: 465
-reviews: 392
+stars: 1.8
+ratings: 474
+reviews: 398
 size: 10M
 website: 
 repository: 

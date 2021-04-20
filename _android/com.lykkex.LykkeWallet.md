@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-04-07
 apkVersionName: "12.7.7"
 stars: 3.5
-ratings: 567
-reviews: 345
+ratings: 568
+reviews: 346
 size: 23M
 website: https://lykke.com/wallet
 repository: 

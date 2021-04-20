@@ -10,8 +10,8 @@ idd: 917692892
 released: 2014-11-13
 updated: 2021-04-13
 version: "6.11.2"
-score: 3.97143
-reviews: 140
+score: 3.95035
+reviews: 141
 size: 151514112
 developerWebsite: https://xapo.com
 repository: 

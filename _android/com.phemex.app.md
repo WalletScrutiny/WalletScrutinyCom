@@ -1,5 +1,5 @@
 ---
-wsId: "phemex"
+wsId: phemex
 title: "Phemex: Top Bitcoin Exchange App, Crypto & 0 Fees"
 altTitle: 
 authors:
@@ -9,9 +9,9 @@ appId: com.phemex.app
 launchDate: 
 latestUpdate: 2021-04-10
 apkVersionName: "1.3.2"
-stars: 4.7
-ratings: 3668
-reviews: 985
+stars: 4.6
+ratings: 3759
+reviews: 1019
 size: 17M
 website: https://phemex.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Phemex mobile app claims to hold funds in cold storage...
 

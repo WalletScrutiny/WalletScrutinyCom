@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.exmo
 launchDate: 
-latestUpdate: 2021-04-06
+latestUpdate: 2021-04-20
 apkVersionName: "1.8.8"
-stars: 4.4
-ratings: 1454
-reviews: 1064
+stars: 4.3
+ratings: 1469
+reviews: 1074
 size: 55M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.probit.app.android2.release.global
 launchDate: 
 latestUpdate: 2021-04-13
 apkVersionName: "1.31.8"
-stars: 3.6
-ratings: 3488
-reviews: 2254
+stars: 3.7
+ratings: 3524
+reviews: 2274
 size: 18M
 website: https://www.probit.com
 repository: 

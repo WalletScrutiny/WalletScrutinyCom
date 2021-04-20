@@ -9,9 +9,9 @@ appId: com.brentpanther.bitcoinwidget
 launchDate: 
 latestUpdate: 2021-04-14
 apkVersionName: "7.4.1"
-stars: 3.9
-ratings: 1774
-reviews: 698
+stars: 4.4
+ratings: 7
+reviews: 4
 size: 3.5M
 website: 
 repository: 

@@ -10,8 +10,8 @@ idd: 1409644952
 released: 2018-11-20
 updated: 2021-04-02
 version: "1.3.21"
-score: 3.33333
-reviews: 18
+score: 3.5
+reviews: 20
 size: 99395584
 developerWebsite: https://bitbay.net
 repository: 

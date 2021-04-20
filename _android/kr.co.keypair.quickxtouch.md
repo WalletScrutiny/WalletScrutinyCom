@@ -9,9 +9,9 @@ appId: kr.co.keypair.quickxtouch
 launchDate: 
 latestUpdate: 2019-07-17
 apkVersionName: "1.0.0.57"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.7
+ratings: 14
+reviews: 10
 size: 10M
 website: https://www.quickx.io
 repository: 

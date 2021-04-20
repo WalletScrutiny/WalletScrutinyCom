@@ -4,14 +4,14 @@ title: "Blockchain Plus Wallet v2"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.blockchainproplus.bpw
 launchDate: 
 latestUpdate: 2021-04-14
 apkVersionName: "1.1.0"
-stars: 3.7
-ratings: 6
-reviews: 3
+stars: 4.3
+ratings: 11
+reviews: 4
 size: 23M
 website: 
 repository: 

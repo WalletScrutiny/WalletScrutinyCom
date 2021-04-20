@@ -1,5 +1,5 @@
 ---
-wsId: "africa.bundle"
+wsId: africa.bundle
 title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
@@ -9,9 +9,9 @@ appId: africa.bundle.mobile.app
 launchDate: 
 latestUpdate: 2021-04-17
 apkVersionName: "2.7.5"
-stars: 4.6
-ratings: 6314
-reviews: 3976
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
 website: https://bundle.africa/
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 

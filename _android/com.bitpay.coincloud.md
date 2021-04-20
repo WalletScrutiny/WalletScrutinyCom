@@ -9,9 +9,9 @@ appId: com.bitpay.coincloud
 launchDate: 
 latestUpdate: 2021-03-03
 apkVersionName: "11.2.19"
-stars: 3.8
-ratings: 118
-reviews: 53
+stars: 3.7
+ratings: 120
+reviews: 55
 size: 18M
 website: 
 repository: 

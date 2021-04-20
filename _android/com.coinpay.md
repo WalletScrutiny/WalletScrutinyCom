@@ -9,9 +9,9 @@ appId: com.coinpay
 launchDate: 
 latestUpdate: 2020-08-23
 apkVersionName: "1.0.7"
-stars: 3.9
-ratings: 16
-reviews: 13
+stars: 3.7
+ratings: 17
+reviews: 14
 size: 5.4M
 website: https://www.coinpayapp.com
 repository: 

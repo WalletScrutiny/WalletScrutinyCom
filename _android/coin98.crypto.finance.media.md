@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-17
 apkVersionName: "9.0.3"
 stars: 4.7
-ratings: 5058
-reviews: 3706
+ratings: 5080
+reviews: 3720
 size: 63M
 website: https://coin98.app/
 repository: 
@@ -24,6 +24,7 @@ reviewStale: true
 signer: 
 reviewArchive:
 
+
 providerTwitter: coin98_wallet
 providerLinkedIn: 
 providerFacebook: Coin98Wallet
@@ -32,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...
 

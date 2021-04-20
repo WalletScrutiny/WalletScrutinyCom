@@ -9,9 +9,9 @@ appId: com.coindeal
 launchDate: 
 latestUpdate: 2020-08-18
 apkVersionName: "1.0.8"
-stars: 3.8
-ratings: 136
-reviews: 81
+stars: 3.7
+ratings: 137
+reviews: 82
 size: 11M
 website: 
 repository: 

@@ -9,7 +9,7 @@ appId: com.samourai.sentinel
 launchDate: 
 latestUpdate: 2021-04-13
 apkVersionName: "4.0.2"
-stars: 3.7
+stars: 3.6
 ratings: 291
 reviews: 158
 size: 40M

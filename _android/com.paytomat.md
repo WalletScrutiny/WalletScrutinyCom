@@ -10,8 +10,8 @@ launchDate: 2018-06-20
 latestUpdate: 2021-02-01
 apkVersionName: "1.37.2"
 stars: 4.0
-ratings: 757
-reviews: 396
+ratings: 758
+reviews: 397
 size: 6.4M
 website: http://www.paytomat.com
 repository: 
