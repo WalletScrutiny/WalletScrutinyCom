@@ -1,9 +1,10 @@
 ---
-wsId: 
+wsId: exmo
 title: "EXMO Cryptocurrency Exchange"
 altTitle: 
 authors:
-
+- kiwilamb
+- leo
 appId: com.exmo.enfins
 appCountry: 
 idd: 1505496232
@@ -18,19 +19,28 @@ repository:
 issue: 
 icon: com.exmo.enfins.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-21
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Exmo_com
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: exmo.market
 providerReddit: 
 
 redirect_from:
 
 ---
 
+The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my
+EXMO funds kept?"
+
+> Users cryptocurrency funds are stored on the exchange’s crypto wallets: cold
+  and hot vaults.
+
+this leads us to conclude the wallet funds are in control of the provider.
+
+Our verdict: This 'wallet' is **not verifiable**.
