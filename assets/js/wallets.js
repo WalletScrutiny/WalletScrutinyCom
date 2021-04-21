@@ -45,21 +45,21 @@ window.transcribeTag = function (e) {
 
   switch (e) {
     case 'App Store':
-      css = 'app-store';
+      css = 'app-store'
       category = 'iphone'
-      break;
+      break
     case 'Play Store':
-      css = 'google-play';
+      css = 'google-play'
       category = 'android'
-      break;
+      break
     case 'fdroid catalogue':
-      css = 'f-droid';
+      css = 'f-droid'
       category = 'fdroid'
-      break;
-      case 'windows':
-        css = 'windows';
+      break
+    case 'windows':
+      css = 'windows'
       category = 'windows'
-      break;
+      break
     default:
   }
   return {css: css, category: category};
