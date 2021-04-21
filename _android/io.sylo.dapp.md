@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "3.0.19-ios-dialtone.0"
-stars: 4.5
-ratings: 599
-reviews: 307
+latestUpdate: 2021-04-20
+apkVersionName: "3.0.20"
+stars: 0.0
+ratings: 
+reviews: 
 size: 347M
 website: https://www.sylo.io/wallet
 repository: 

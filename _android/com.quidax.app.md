@@ -1,5 +1,5 @@
 ---
-wsId: "Quidax"
+wsId: Quidax
 title: "Quidax - Buy and Sell Bitcoin"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 From the play store description it clearly states the private keys are in control of the provider....
 

@@ -9,9 +9,9 @@ appId: org.bitcoin.wallet
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "1.0"
-stars: 4.7
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 39M
 website: 
 repository: 

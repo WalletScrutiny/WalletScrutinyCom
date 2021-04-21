@@ -1,5 +1,5 @@
 ---
-wsId: "exmo"
+wsId: exmo
 title: "EXMO: Buy & Sell Bitcoin (BTC) on Crypto Exchange"
 altTitle: 
 authors:
@@ -24,6 +24,7 @@ reviewStale: true
 signer: 
 reviewArchive:
 
+
 providerTwitter: Exmo_com
 providerLinkedIn: 
 providerFacebook: exmo.market
@@ -32,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"
 

@@ -1,5 +1,5 @@
 ---
-wsId: "ascendex"
+wsId: ascendex
 title: "AscendEX(BitMax)"
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-13
 apkVersionName: "2.4.6"
 stars: 4.4
-ratings: 2526
+ratings: 2527
 reviews: 864
 size: 22M
 website: https://ascendex.com
@@ -33,6 +33,7 @@ providerReddit: AscendEX_Official
 redirect_from:
 
 ---
+
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 

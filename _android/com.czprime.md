@@ -1,5 +1,5 @@
 ---
-wsId: "CoinZoom"
+wsId: CoinZoom
 title: "CoinZoom Pro"
 altTitle: 
 authors:
@@ -9,8 +9,8 @@ appId: com.czprime
 launchDate: 
 latestUpdate: 2021-04-13
 apkVersionName: "1.3.8"
-stars: 3.7
-ratings: 1588
+stars: 3.8
+ratings: 1589
 reviews: 680
 size: 27M
 website: https://www.coinzoom.com
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
 Found under "Where can I find the private keys for my wallet?"
