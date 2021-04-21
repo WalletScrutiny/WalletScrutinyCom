@@ -9,6 +9,15 @@ author_profile: true
 {% include base_path %}
 <script>
   window.wallets = {% include allAppList.html %}
+  window.addEventListener("load", () => {
+    window.location.hash.split("#")[1].split("&").forEach(function (item) {
+      var kv = item.split("=")
+      switch (kv[0]) {
+        case "verdict": $("#modularVerdict")[0].value = kv[1]; window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
+        case "platform": $("#modularPlatform")[0].value = kv[1]; window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
+      }
+    })
+  })
 </script>
 <script src="{{ base_path }}/assets/js/wallets.js"></script>
 <script src="{{ base_path }}/assets/js/search-wallets.js"></script>
