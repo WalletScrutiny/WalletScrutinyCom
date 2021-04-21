@@ -35,7 +35,9 @@ redirect_from:
 ---
 
 
-[Emanuel](/authors/emanuel) looked into this wallet a bit as it claims
+[Emanuel](/authors/emanuel)
+[looked into this wallet](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/208)
+a bit as it claims
 association with a pretty prominent website - bitcoin.org and indeed it is
 [endorsed](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/4) by
 [Cobra-Bitcoin](https://github.com/Cobra-Bitcoin), the owner of bitcoin.org.
