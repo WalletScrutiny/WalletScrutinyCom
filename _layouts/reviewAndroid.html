@@ -233,7 +233,7 @@ layout: default
 
       <p>Our last analysis is based on data found in their
         <a href="https://play.google.com/store/apps/details?id={{ page.appId }}"><i class="fab fa-google-play"></i>
-          Play Store description</a>{%
+          Play Store description</a> {%
         if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
         if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
         {% if page.issue %} We discuss issues with the provider
@@ -291,8 +291,8 @@ layout: default
           {% else %}
           Please help us spread the word discussing build reproducibility with {{ title }}
           {% endif %}
-          <a target="_blank" rel="noopener noreferrer"
-            href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">&nbsp;via
+          &nbsp;<a target="_blank" rel="noopener noreferrer"
+            href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via
             their Twitter</a>!
         </p>
       </div>
