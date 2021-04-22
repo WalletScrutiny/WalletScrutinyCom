@@ -18,16 +18,16 @@ repository:
 issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: buycoins_africa
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: buycoinsafrica
 providerReddit: 
 
 redirect_from:
