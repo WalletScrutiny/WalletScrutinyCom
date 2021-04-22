@@ -9,9 +9,9 @@ appId: com.pointpay.bank
 launchDate: 
 latestUpdate: 2021-04-17
 apkVersionName: "5.2.6"
-stars: 4.5
-ratings: 989
-reviews: 606
+stars: 4.4
+ratings: 1005
+reviews: 618
 size: 71M
 website: 
 repository: 

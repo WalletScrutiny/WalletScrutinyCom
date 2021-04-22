@@ -9,9 +9,9 @@ appId: com.yes.yeswallet
 launchDate: 
 latestUpdate: 2019-04-24
 apkVersionName: "1.0"
-stars: 2.8
-ratings: 40
-reviews: 28
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.5M
 website: http://www.yeswallet.io
 repository: 

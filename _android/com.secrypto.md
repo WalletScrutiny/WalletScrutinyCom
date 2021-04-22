@@ -24,6 +24,7 @@ reviewStale: true
 signer: 
 reviewArchive:
 
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -32,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

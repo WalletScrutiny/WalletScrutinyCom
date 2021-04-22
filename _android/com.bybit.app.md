@@ -4,14 +4,14 @@ title: "Bybit: Crypto Trading & Bitcoin Futures App"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bybit.app
 launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "2.0.4"
-stars: 3.9
-ratings: 2829
-reviews: 1341
+latestUpdate: 2021-04-20
+apkVersionName: "2.0.5"
+stars: 4.4
+ratings: 3002
+reviews: 1391
 size: 44M
 website: https://www.bybit.com
 repository: 

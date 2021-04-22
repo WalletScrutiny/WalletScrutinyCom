@@ -11,7 +11,7 @@ launchDate:
 latestUpdate: 2021-03-17
 apkVersionName: "1.1.9"
 stars: 4.4
-ratings: 261
+ratings: 262
 reviews: 107
 size: 29M
 website: https://www.cryptofully.com/

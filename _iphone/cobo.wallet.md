@@ -10,8 +10,8 @@ idd: 1406282615
 released: 2018-08-05
 updated: 2021-04-16
 version: "5.0.0"
-score: 
-reviews: 
+score: 1
+reviews: 1
 size: 120299520
 developerWebsite: https://cobo.com
 repository: 

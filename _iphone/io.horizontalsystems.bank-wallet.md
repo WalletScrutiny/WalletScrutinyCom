@@ -10,7 +10,7 @@ idd: 1447619907
 released: 2019-01-10
 updated: 2021-04-14
 version: "0.20"
-score: 4.67441
+score: 4.68605
 reviews: 258
 size: 47711232
 developerWebsite: https://unstoppable.money/

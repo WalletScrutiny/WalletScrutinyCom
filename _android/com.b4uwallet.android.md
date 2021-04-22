@@ -9,9 +9,9 @@ appId: com.b4uwallet.android
 launchDate: 
 latestUpdate: 2021-04-05
 apkVersionName: "1.0.0"
-stars: 3.6
-ratings: 111
-reviews: 66
+stars: 3.7
+ratings: 113
+reviews: 67
 size: 30M
 website: 
 repository: 

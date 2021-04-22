@@ -9,9 +9,9 @@ appId: com.quidax.app
 launchDate: 
 latestUpdate: 2021-01-12
 apkVersionName: "1.8.0"
-stars: 2.8
-ratings: 1480
-reviews: 1093
+stars: 2.7
+ratings: 1484
+reviews: 1097
 size: 53M
 website: https://www.quidax.com
 repository: 

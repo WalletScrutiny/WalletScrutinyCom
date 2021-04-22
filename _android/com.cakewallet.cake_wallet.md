@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.cakewallet.cake_wallet
 launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "4.1.5"
+latestUpdate: 2021-04-21
+apkVersionName: "4.1.6"
 stars: 3.9
 ratings: 391
 reviews: 250
