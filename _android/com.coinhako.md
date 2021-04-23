@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: "coinhako"
 title: "Coinhako: Buy Bitcoin, Crypto Wallet & Trading"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 50000
 appId: com.coinhako
 launchDate: 
@@ -13,25 +13,28 @@ stars: 3.1
 ratings: 816
 reviews: 656
 size: 48M
-website: 
+website: https://www.coinhako.com
 repository: 
 issue: 
 icon: com.coinhako.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-23
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coinhako
+providerLinkedIn: coinhako
+providerFacebook: coinhako
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Having a scan over the providers website and faq articles does not reveal any claims regarding the management of private keys.
+We would have to assume this wallet is custodial and with no published source code.
 
+Our verdict: This “wallet” is probably custodial and therefore is **not verifiable**.
