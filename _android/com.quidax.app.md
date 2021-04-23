@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-12
 apkVersionName: "1.8.0"
 stars: 2.7
-ratings: 1484
-reviews: 1097
+ratings: 1485
+reviews: 1098
 size: 53M
 website: https://www.quidax.com
 repository: 

@@ -10,9 +10,9 @@ appId: com.zengo.wallet
 launchDate: 
 latestUpdate: 2021-03-24
 apkVersionName: "2.22.1"
-stars: 4.2
-ratings: 2115
-reviews: 893
+stars: 4.1
+ratings: 2122
+reviews: 895
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

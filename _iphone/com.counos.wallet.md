@@ -10,8 +10,8 @@ idd: 1408806845
 released: 2018-08-01
 updated: 2020-04-28
 version: "1.9.2"
-score: 3.83333
-reviews: 24
+score: 3.88
+reviews: 25
 size: 38522880
 developerWebsite: https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
 repository: 

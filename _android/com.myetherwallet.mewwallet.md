@@ -9,9 +9,9 @@ appId: com.myetherwallet.mewwallet
 launchDate: 
 latestUpdate: 2021-04-21
 apkVersionName: "1.2.9"
-stars: 2.4
-ratings: 4146
-reviews: 1931
+stars: 3.1
+ratings: 4150
+reviews: 1925
 size: 56M
 website: http://mewwallet.com
 repository: 

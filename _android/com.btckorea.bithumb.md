@@ -9,9 +9,9 @@ appId: com.btckorea.bithumb
 launchDate: 
 latestUpdate: 2021-04-21
 apkVersionName: "2.1.7"
-stars: 3.1
-ratings: 14354
-reviews: 6714
+stars: 3.6
+ratings: 15709
+reviews: 7069
 size: 36M
 website: https://www.bithumb.com
 repository: 

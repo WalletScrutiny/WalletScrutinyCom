@@ -9,9 +9,9 @@ appId: com.wallet.crypto.trustapp
 launchDate: 2017-10-01
 latestUpdate: 2021-04-14
 apkVersionName: "1.28.1"
-stars: 4.5
-ratings: 245865
-reviews: 65283
+stars: 4.7
+ratings: 788
+reviews: 183
 size: 32M
 website: https://trustwallet.com
 repository: 

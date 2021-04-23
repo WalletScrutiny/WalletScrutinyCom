@@ -9,9 +9,9 @@ appId: com.quicrypto
 launchDate: 
 latestUpdate: 2021-04-13
 apkVersionName: "3.6.0"
-stars: 3.9
-ratings: 4604
-reviews: 2823
+stars: 3.8
+ratings: 4612
+reviews: 2824
 size: 26M
 website: http://www.quicrypto.com
 repository: 

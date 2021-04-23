@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
-latestUpdate: 2021-04-13
-apkVersionName: "1.4.9"
+latestUpdate: 2021-04-22
+apkVersionName: "1.4.10"
 stars: 4.3
-ratings: 213
+ratings: 212
 reviews: 103
 size: 34M
 website: https://phoenix.acinq.co

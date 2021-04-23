@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.b4uwallet.android
 launchDate: 
-latestUpdate: 2021-04-05
-apkVersionName: "1.0.0"
+latestUpdate: 2021-04-22
+apkVersionName: "4.3.4"
 stars: 3.7
 ratings: 113
 reviews: 67

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-10
 apkVersionName: "1.3.2"
 stars: 4.6
-ratings: 3797
-reviews: 1026
+ratings: 3833
+reviews: 1028
 size: 17M
 website: https://phemex.com
 repository: 
