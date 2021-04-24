@@ -93,7 +93,6 @@ function writeResult(app, header, iconExtension, body) {
   const redirects = new Set(header.redirect_from)
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  //console.log(`Writing results to ${p}`)
   process.stdout.write("🤖")
   f.write(`---
 wsId: ${header.wsId || ""}

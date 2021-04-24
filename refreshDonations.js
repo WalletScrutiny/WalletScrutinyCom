@@ -1,6 +1,11 @@
+const key = process.argv[2]
+if (key == undefined) {
+  console.error("No key provided. Skipping Donations update.")
+  return
+}
+
 process.env.TZ = 'UTC' // fix timezone issues
 const btcpay = require('btcpay')
-const key = process.argv[2]
 const keypair = btcpay.crypto.load_keypair(new Buffer.from(key, 'hex'))
 const client = new btcpay.BTCPayClient("https://pos.btcpay.nz", keypair, {merchant: 'EHan8qV5JseDSNWtTJeaNFeG3xes9CDSq3bMfmwehcJE'})
 const path = "_includes/donationSummary.html"
