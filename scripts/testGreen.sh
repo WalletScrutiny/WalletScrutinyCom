@@ -8,7 +8,7 @@ test() {
   prepare
 
   # build
-  podman run -it --volume $PWD:/mnt --workdir /mnt --rm $wsDocker bash -x -c 'apt update; \
+  podman run -it --volume $PWD:/mnt --workdir /mnt --rm $wsContainer bash -x -c 'apt update; \
       apt install -y curl; \
       ./app/fetch_gdk_binaries.sh; \
       yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \

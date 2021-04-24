@@ -5,28 +5,26 @@ downloadedApp="$1"
 if ! [[ $downloadedApp =~ ^/.* ]]; then
   downloadedApp="$PWD/$downloadedApp"
 fi
-wsDocker="walletscrutiny/android:5"
+wsContainer="walletscrutiny/android:5"
 
 set -x
 
-dockerApktool() {
+containerApktool() {
   targetFolder=$1
   app=$2
   targetFolderParent=$(dirname "$targetFolder")
   targetFolderBase=$(basename "$targetFolder")
   appFolder=$(dirname "$app")
   appFile=$(basename "$app")
-  # Run apktool in a docker container so apktool doesn't need to be installed.
+  # Run apktool in a container so apktool doesn't need to be installed.
   # The folder with the apk file is mounted read only and only the output folder
   # is mounted with write permission.
-  # If docker is running as root, change the owner of the output to the current
-  # user. If that fails, ignore it.
   podman run \
     --rm \
     --volume $targetFolderParent:/tfp \
     --volume $appFolder:/af:ro \
-    $wsDocker \
-    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\"; chown $(id -u):$(id -g) -R /tfp/ || true"
+    $wsContainer \
+    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\""
   return $?
 }
 
@@ -38,7 +36,7 @@ getSigner() {
       --rm \
       --volume $DIR:/mnt:ro \
       --workdir /mnt \
-      $wsDocker \
+      $wsContainer \
       apksigner verify --print-certs "$BASE" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
   echo $s
 }
@@ -65,16 +63,17 @@ fi
 
 apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
 fromPlayFolder=/tmp/fromPlay$apkHash
-rm -rf $fromPlayFolder
+sudo rm -rf $fromPlayFolder
 signer=$( getSigner "$downloadedApp" )
 echo "Extracting APK content ..."
-dockerApktool $fromPlayFolder "$downloadedApp" || exit 1
+containerApktool $fromPlayFolder "$downloadedApp" || exit 1
+sudo chown $(id -u):$(id -g) -R $fromPlayFolder
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
 fromPlayUnpacked=/tmp/fromPlay_"$appId"_"$versionCode"
 workDir="/tmp/test$appId"
-rm -rf $fromPlayUnpacked
+sudo rm -rf $fromPlayUnpacked
 mv $fromPlayFolder $fromPlayUnpacked
 
 if [ -z $appId ]; then
@@ -112,8 +111,9 @@ prepare() {
 result() {
   # collect results
   fromBuildUnpacked="/tmp/fromBuild_${appId}_$versionCode"
-  rm -rf $fromBuildUnpacked
-  dockerApktool $fromBuildUnpacked "$builtApk" || exit 1
+  sudo rm -rf $fromBuildUnpacked
+  containerApktool $fromBuildUnpacked "$builtApk" || exit 1
+  sudo chown $(id -u):$(id -g) -R $fromBuildUnpacked
   echo "Results:
 appId:          $appId
 signer:         $signer
@@ -131,7 +131,7 @@ Run a full
 diff --recursive $fromPlayUnpacked $fromBuildUnpacked
 meld $fromPlayUnpacked $fromBuildUnpacked
 or
-diffoscope $app $builtApk
+diffoscope $downloadedApp $builtApk
 for more details."
 }
 
