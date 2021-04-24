@@ -147,6 +147,8 @@ exclude:
   - tmp
   - vendor
   - resSources
+  - scripts
+  - "refresh*.js"
 keep_files:
   - .git
   - .svn
