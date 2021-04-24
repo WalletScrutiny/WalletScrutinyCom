@@ -19,10 +19,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-03
+date: 2021-04-24
 reviewStale: false
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-03-03
+  version: "3.6.2"
+  apkHash: 2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025
+  gitRevision: b82c674377bf48cc9d068bc4d325913af7ebdaed
+  verdict: reproducible
 - date: 2021-02-27
   version: "3.6.2"
   apkHash: f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626
@@ -90,39 +95,31 @@ redirect_from:
 ---
 
 
-**Update 2021-03-03:** Below analysis was replaced with the app as distributed
-by Google Play. Interestingly the hash differed but it differed due to the zip
-container having used a different compression or something. Either way, both
-binaries look good.
-
-**Update 2021-02-27:** The following analysis is from a **future** release that is not yet
-available through Google Play. We obtained it from [this repo](https://github.com/AndreasGassmann/walletscrutiny-build/blob/4f087c7021a0305b2581db0db73f85f001df373e/vault-v3.6.2.apk).
-
 We ran our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
+[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh)
 which delivered these results:
 
 ```
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.6.2
-apkVersionCode: 26847
-apkHash:        2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025
+apkVersionName: 3.7.0
+apkVersionCode: 28519
+apkHash:        57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_26847/apktool.yml and /tmp/fromBuild_it.airgap.vault_26847/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_26847/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_26847/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_26847/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_26847/original/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_28519/apktool.yml and /tmp/fromBuild_it.airgap.vault_28519/apktool.yml differ
+Files /tmp/fromPlay_it.airgap.vault_28519/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_28519/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_28519/original/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_28519/original/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object d6a4c99d48039454663d5e8a93fcf62fbfd51fc9
+object 2c029f86025427dcb8762db7644da0fa57c9b661
 type commit
-tag v3.6.2
-tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1614355245 +0000
+tag v3.7.0
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1619217548 +0200
 
-AirGap Vault v3.6.2
+v3.7.0
 ```
 
 This is what we expect to see on a **reproducible** app.
