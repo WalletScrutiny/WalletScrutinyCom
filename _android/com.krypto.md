@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.krypto
 launchDate: 
-latestUpdate: 2021-04-21
+latestUpdate: 2021-04-23
 apkVersionName: "8.5"
-stars: 4.1
-ratings: 783
-reviews: 493
+stars: 4.0
+ratings: 792
+reviews: 497
 size: 9.1M
 website: 
 repository: 

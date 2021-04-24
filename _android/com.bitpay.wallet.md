@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: com.bitpay.wallet
 launchDate: 2016-10-01
-latestUpdate: 2021-04-14
-apkVersionName: "12.4.3"
+latestUpdate: 2021-04-23
+apkVersionName: "12.4.4"
 stars: 3.7
-ratings: 8496
-reviews: 4045
-size: 31M
+ratings: 8505
+reviews: 4044
+size: 21M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
 issue: https://github.com/bitpay/wallet/issues/10425

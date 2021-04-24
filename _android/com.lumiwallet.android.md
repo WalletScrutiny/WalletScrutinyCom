@@ -10,8 +10,8 @@ launchDate: 2018-01-15
 latestUpdate: 2021-04-20
 apkVersionName: "3.4.3"
 stars: 4.3
-ratings: 4009
-reviews: 1081
+ratings: 4013
+reviews: 1090
 size: 14M
 website: https://lumiwallet.com
 repository: 

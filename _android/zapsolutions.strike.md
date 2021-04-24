@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-22
 apkVersionName: "v69"
 stars: 4.5
-ratings: 607
-reviews: 225
+ratings: 695
+reviews: 255
 size: 9.0M
 website: 
 repository: 

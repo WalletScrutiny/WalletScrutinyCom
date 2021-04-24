@@ -9,9 +9,9 @@ appId: com.kubi.kucoin
 launchDate: 
 latestUpdate: 2021-04-12
 apkVersionName: "3.31.1"
-stars: 3.5
-ratings: 5131
-reviews: 2883
+stars: 3.6
+ratings: 5183
+reviews: 2921
 size: 48M
 website: 
 repository: 

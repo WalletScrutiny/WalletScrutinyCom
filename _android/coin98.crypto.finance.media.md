@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-17
 apkVersionName: "9.0.3"
 stars: 4.7
-ratings: 5092
+ratings: 5093
 reviews: 3724
 size: 63M
 website: https://coin98.app/

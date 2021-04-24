@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: io.bitmax.exchange
 launchDate: 
-latestUpdate: 2021-04-13
+latestUpdate: 2021-04-23
 apkVersionName: "2.4.6"
-stars: 4.4
-ratings: 2535
-reviews: 869
+stars: 4.3
+ratings: 2541
+reviews: 872
 size: 22M
 website: https://ascendex.com
 repository: 

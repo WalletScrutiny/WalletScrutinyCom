@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zumo: Your Simple & Safe Crypto Wallet"
+title: "Zumo | Crypto Wallet | Buy Bitcoin & Ether"
 altTitle: 
 authors:
 - leo

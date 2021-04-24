@@ -11,7 +11,7 @@ released: 2018-03-29
 updated: 2021-02-18
 version: "2.2.4"
 score: 2
-reviews: 3
+reviews: 4
 size: 73229312
 developerWebsite: https://indodax.com
 repository: 
