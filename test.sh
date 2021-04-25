@@ -63,17 +63,16 @@ fi
 
 apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
 fromPlayFolder=/tmp/fromPlay$apkHash
-sudo rm -rf $fromPlayFolder
+rm -rf $fromPlayFolder
 signer=$( getSigner "$downloadedApp" )
 echo "Extracting APK content ..."
 containerApktool $fromPlayFolder "$downloadedApp" || exit 1
-sudo chown $(id -u):$(id -g) -R $fromPlayFolder
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
 fromPlayUnpacked=/tmp/fromPlay_"$appId"_"$versionCode"
 workDir="/tmp/test$appId"
-sudo rm -rf $fromPlayUnpacked
+rm -rf $fromPlayUnpacked
 mv $fromPlayFolder $fromPlayUnpacked
 
 if [ -z $appId ]; then
@@ -98,7 +97,7 @@ echo
 prepare() {
   echo "Testing $appId from $repo revision $tag ..."
   # cleanup
-  sudo rm -rf /tmp/test$appId || exit 1
+  rm -rf /tmp/test$appId || exit 1
   # get uinque folder
   mkdir $workDir
   cd $workDir
@@ -111,9 +110,8 @@ prepare() {
 result() {
   # collect results
   fromBuildUnpacked="/tmp/fromBuild_${appId}_$versionCode"
-  sudo rm -rf $fromBuildUnpacked
+  rm -rf $fromBuildUnpacked
   containerApktool $fromBuildUnpacked "$builtApk" || exit 1
-  sudo chown $(id -u):$(id -g) -R $fromBuildUnpacked
   echo "Results:
 appId:          $appId
 signer:         $signer
