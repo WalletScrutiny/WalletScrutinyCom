@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bingbon
 title: "Bingbon Bitcoin & Cryptocurrency Platform"
 altTitle: 
 authors:
@@ -38,5 +38,3 @@ We cannot find any claims as to the custody of private keys found from Bingbon.
 We must assume the wallet app is custodial.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
-
-Note: Althrough there is an iPhone AppStore link on the [Bingbon site](https://bingbon.com), there is no page (404 Page Not Found) or evidence that an iphone wallet exists.

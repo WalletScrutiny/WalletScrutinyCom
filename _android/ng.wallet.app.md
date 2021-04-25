@@ -34,7 +34,9 @@ redirect_from:
 
 ---
 
-Wallets Africa is quite a broad product, the lack of source code makes it impossible to verify this app and there are no statements on their website as to management of private keys.
+Wallets Africa is quite a broad product, the lack of source code makes it
+impossible to verify this app and there are no statements on their website as to
+management of private keys.
 
-Our verdict: This “wallet” is probably custodial but does not provide public source and therefore is **not verifiable**.
-
+Our verdict: This “wallet” is probably custodial and therefore is
+**not verifiable**.
