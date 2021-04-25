@@ -34,7 +34,8 @@ redirect_from:
 
 ---
 
-Having a scan over the providers website and faq articles does not reveal any claims regarding the management of private keys.
-We would have to assume this wallet is custodial and with no published source code.
+Having a scan over the providers website and faq articles does not reveal any
+claims regarding the management of private keys.
+We would have to assume this wallet is custodial.
 
 Our verdict: This “wallet” is probably custodial and therefore is **not verifiable**.
