@@ -1,25 +1,26 @@
 ---
 wsId: exscudo
-title: "Channels. Secure wallet + Exchange + Private chat"
+title: "Channels. Кошелек и обменник"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+- leo
 appId: com.exscudo.channels
-launchDate: 
-latestUpdate: 2021-03-26
-apkVersionName: "2.17.794"
-stars: 4.5
-ratings: 547
-reviews: 232
-size: 59M
-website: https://exscudo.com
+appCountry: ru
+idd: 1367425342
+released: 2018-05-16
+updated: 2021-04-13
+version: "2.16.1"
+score: 4.65385
+reviews: 26
+size: 174550016
+developerWebsite: https://channels.chat
 repository: 
 issue: 
-icon: com.exscudo.channels.png
+icon: com.exscudo.channels.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-22
+date: 2021-04-24
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,12 +35,12 @@ redirect_from:
 
 ---
 
-The Play Store description states...
+The App Store description states...
 
 > All funds are fully protected and no one except the owner can access them.
 
-the provider is claiming the wallet is non-custodial.
+so the provider is sort of claiming the wallet is non-custodial.
 However no source code can be found in a public repository for validation.
 
-Our verdict: This ‘wallet’ claims to be non-custodial, however with no source code this is **not verifiable**.
-
+Our verdict: This ‘wallet’ claims to be non-custodial, however with no source
+code this is **not verifiable**.

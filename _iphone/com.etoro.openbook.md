@@ -1,25 +1,25 @@
 ---
 wsId: etoro
-title: "eToro - Smart crypto trading made easy"
+title: "eToro Cryptocurrency Trading"
 altTitle: 
 authors:
 - leo
-users: 5000000
 appId: com.etoro.openbook
-launchDate: 2013-11-05
-latestUpdate: 2021-04-22
-apkVersionName: "317.0.0"
-stars: 4.0
-ratings: 77892
-reviews: 30661
-size: 56M
-website: https://www.etoro.com
+appCountry: 
+idd: 674984916
+released: 2017-06-26
+updated: 2021-04-23
+version: "317.0.0"
+score: 4.04676
+reviews: 2716
+size: 169556992
+developerWebsite: http://www.etoro.com
 repository: 
 issue: 
-icon: com.etoro.openbook.png
+icon: com.etoro.openbook.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-02
+date: 2021-04-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -31,8 +31,8 @@ providerFacebook: eToro
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 Etoro is used to speculate on assets more than to actually transfer them but in
 the case of Bitcoin, according to

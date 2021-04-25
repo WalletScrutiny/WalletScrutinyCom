@@ -1,25 +1,26 @@
 ---
-wsId: "Bexplus"
-title: "Bitcoin Wallet for Margin Trading - Bexplus App"
+wsId: Bexplus
+title: "Bexplus- Crypto Margin Trading"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
-appId: com.lingxi.bexplus
-launchDate: 
-latestUpdate: 2020-11-09
-apkVersionName: "2.0.5"
-stars: 4.8
-ratings: 4232
-reviews: 1588
-size: 12M
-website: https://www.bexplus.com
+- leo
+appId: com.mhc.bexplus
+appCountry: 
+idd: 1442189260
+released: 2018-11-29
+updated: 2021-02-01
+version: "2.0.7"
+score: 4.88089
+reviews: 361
+size: 67904512
+developerWebsite: https://www.bexplus.com
 repository: 
 issue: 
-icon: com.lingxi.bexplus.png
+icon: com.mhc.bexplus.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-22
+date: 2021-04-24
 reviewStale: true
 signer: 
 reviewArchive:
@@ -38,7 +39,7 @@ The Bexplus website states under the mobile wallet section "Assets Security"
 
 > Assets are stored in cold storage against stealing and loss
 
-this leads us to conclude the wallet funds are in control of the provider and hence custodial.
+this leads us to conclude the wallet funds are in control of the provider and
+hence custodial.
 
-Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
-
+Our verdict: This 'wallet' is custodial and therefore **not verifiable**.

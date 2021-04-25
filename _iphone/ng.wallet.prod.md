@@ -1,25 +1,26 @@
 ---
-wsId: "WalletsAfrica"
-title: "Wallets Africa - Seamless Digital Transactions"
+wsId: WalletsAfrica
+title: "Wallets Africa"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
-appId: ng.wallet.app
-launchDate: 
-latestUpdate: 2021-03-18
-apkVersionName: "2.471"
-stars: 4.2
-ratings: 1348
-reviews: 1116
-size: 16M
-website: 
+- leo
+appId: ng.wallet.prod
+appCountry: 
+idd: 1280830303
+released: 2017-10-14
+updated: 2021-03-19
+version: "2.471"
+score: 4.4
+reviews: 55
+size: 59201536
+developerWebsite: http://wallets.africa
 repository: 
 issue: 
-icon: ng.wallet.app.png
+icon: ng.wallet.prod.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-23
+date: 2021-04-24
 reviewStale: true
 signer: 
 reviewArchive:
