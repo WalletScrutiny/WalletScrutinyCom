@@ -1,25 +1,26 @@
 ---
-wsId: "coinhako"
-title: "Coinhako: Buy Bitcoin, Crypto Wallet & Trading"
+wsId: 
+title: "Coinhako: Bitcoin Wallet Asia"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
-appId: com.coinhako
-launchDate: 
-latestUpdate: 2021-04-05
-apkVersionName: "2.2.4"
-stars: 3.0
-ratings: 821
-reviews: 661
-size: 48M
-website: https://www.coinhako.com
+- leo
+appId: com.coinhako.app
+appCountry: 
+idd: 1137855704
+released: 2016-09-04
+updated: 2021-04-08
+version: "3.2.6"
+score: 3.33333
+reviews: 9
+size: 57584640
+developerWebsite: https://www.coinhako.com
 repository: 
 issue: 
-icon: com.coinhako.png
+icon: com.coinhako.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-23
+date: 2021-04-24
 reviewStale: true
 signer: 
 reviewArchive:
