@@ -9,9 +9,9 @@ appId: com.exmo
 launchDate: 
 latestUpdate: 2021-04-22
 apkVersionName: "2.0.2"
-stars: 4.7
-ratings: 1637
-reviews: 1128
+stars: 4.6
+ratings: 1649
+reviews: 1137
 size: 55M
 website: https://exmo.com
 repository: 

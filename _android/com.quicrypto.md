@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -31,9 +31,11 @@ providerFacebook: Quicrypto
 providerReddit: 
 
 redirect_from:
-  - /com.quicrypto/
 ---
 
+
+**Update 2021-04-25**: This app is not on Google Play anymore. It wasn't a
+wallet anyway.
 
 This app "pays" you in Bitcoin and Nano for tasks
 

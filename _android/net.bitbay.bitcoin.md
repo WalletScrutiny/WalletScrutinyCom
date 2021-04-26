@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-02
 apkVersionName: "1.1.18"
 stars: 3.1
-ratings: 828
-reviews: 438
+ratings: 830
+reviews: 440
 size: 16M
 website: https://bitbay.net
 repository: 

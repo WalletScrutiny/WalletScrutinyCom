@@ -8,10 +8,10 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2021-04-14
-version: "1.4.6"
-score: 3.91613
-reviews: 310
+updated: 2021-04-25
+version: "1.4.7"
+score: 3.92994
+reviews: 314
 size: 34417664
 developerWebsite: https://nexo.io
 repository: 

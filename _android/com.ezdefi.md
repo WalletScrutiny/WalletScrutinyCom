@@ -11,7 +11,7 @@ latestUpdate: 2021-04-19
 apkVersionName: "0.3.3"
 stars: 4.6
 ratings: 568
-reviews: 342
+reviews: 341
 size: 50M
 website: https://ezdefi.com/
 repository: 

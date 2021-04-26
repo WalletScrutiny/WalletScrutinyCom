@@ -1,5 +1,5 @@
 ---
-wsId: "etorowallet"
+wsId: etorowallet
 title: "eToro Wallet"
 altTitle: 
 authors:
@@ -11,8 +11,8 @@ launchDate:
 latestUpdate: 2021-02-09
 apkVersionName: "22.0.0"
 stars: 1.5
-ratings: 696
-reviews: 475
+ratings: 699
+reviews: 477
 size: 5.6M
 website: https://www.etoro.com/crypto/wallet
 repository: 
@@ -34,6 +34,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 From the eToro wallet FAQ:
 

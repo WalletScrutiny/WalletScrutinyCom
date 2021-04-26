@@ -9,9 +9,9 @@ appId: com.bitcoin.firstdigitalhub
 launchDate: 
 latestUpdate: 2021-04-18
 apkVersionName: "1.9.3.0.11"
-stars: 4.8
-ratings: 136
-reviews: 130
+stars: 4.7
+ratings: 138
+reviews: 132
 size: 3.6M
 website: 
 repository: 

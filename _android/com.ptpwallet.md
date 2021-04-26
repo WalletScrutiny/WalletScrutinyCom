@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-03-20
 apkVersionName: "1.0.1209"
 stars: 4.1
-ratings: 324
-reviews: 240
+ratings: 326
+reviews: 241
 size: 6.4M
 website: https://ptpwallet.com
 repository: 

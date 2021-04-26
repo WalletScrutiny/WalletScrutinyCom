@@ -10,8 +10,8 @@ idd: 1506502199
 released: 2020-06-03
 updated: 2021-04-17
 version: "2.7.5"
-score: 4.41934
-reviews: 155
+score: 4.42675
+reviews: 157
 size: 98483200
 developerWebsite: https://bundle.africa/
 repository: 

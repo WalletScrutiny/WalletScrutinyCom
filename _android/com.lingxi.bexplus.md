@@ -1,5 +1,5 @@
 ---
-wsId: "Bexplus"
+wsId: Bexplus
 title: "Bitcoin Wallet for Margin Trading - Bexplus App"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit: Bexplus
 redirect_from:
 
 ---
+
 
 The Bexplus website states under the mobile wallet section "Assets Security"
 

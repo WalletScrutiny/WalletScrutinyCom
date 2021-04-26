@@ -1,5 +1,5 @@
 ---
-wsId: "visionwallet"
+wsId: visionwallet
 title: "Vision: Bitcoin and Crypto Wallet"
 altTitle: 
 authors:
@@ -9,8 +9,8 @@ appId: com.eletac.tronwallet
 launchDate: 
 latestUpdate: 2021-02-01
 apkVersionName: "1.2.4"
-stars: 4.4
-ratings: 1119
+stars: 4.5
+ratings: 1127
 reviews: 595
 size: 113M
 website: https://www.vision-crypto.com
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

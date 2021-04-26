@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.krypto
 launchDate: 
-latestUpdate: 2021-04-23
+latestUpdate: 2021-04-25
 apkVersionName: "8.5"
-stars: 4.0
-ratings: 792
-reviews: 497
+stars: 4.2
+ratings: 867
+reviews: 537
 size: 9.1M
 website: https://letskrypto.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.
 this leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.

@@ -9,9 +9,9 @@ appId: com.prizmbit
 launchDate: 
 latestUpdate: 2021-04-09
 apkVersionName: "1.4.18"
-stars: 3.9
-ratings: 471
-reviews: 222
+stars: 3.8
+ratings: 473
+reviews: 224
 size: 13M
 website: 
 repository: 

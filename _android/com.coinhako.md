@@ -1,5 +1,5 @@
 ---
-wsId: "coinhako"
+wsId: coinhako
 title: "Coinhako: Buy Bitcoin, Crypto Wallet & Trading"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Having a scan over the providers website and faq articles does not reveal any
 claims regarding the management of private keys.

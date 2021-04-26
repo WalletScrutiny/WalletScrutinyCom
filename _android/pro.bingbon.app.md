@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-22
 apkVersionName: "2.30.1"
 stars: 4.0
-ratings: 650
-reviews: 414
+ratings: 659
+reviews: 421
 size: 26M
 website: https://bingbon.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit: Bingbon
 redirect_from:
 
 ---
+
 
 We cannot find any claims as to the custody of private keys found from Bingbon.
 We must assume the wallet app is custodial.

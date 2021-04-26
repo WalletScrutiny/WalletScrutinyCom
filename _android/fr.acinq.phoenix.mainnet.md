@@ -10,8 +10,8 @@ launchDate: 2019-12-10
 latestUpdate: 2021-04-22
 apkVersionName: "1.4.10"
 stars: 4.2
-ratings: 214
-reviews: 105
+ratings: 216
+reviews: 107
 size: 34M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

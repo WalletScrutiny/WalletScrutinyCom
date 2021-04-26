@@ -9,9 +9,9 @@ appId: com.electroneum.mobile
 launchDate: 
 latestUpdate: 2021-04-16
 apkVersionName: "5.0.1"
-stars: 2.6
-ratings: 57758
-reviews: 37123
+stars: 2.7
+ratings: 57791
+reviews: 37126
 size: 18M
 website: 
 repository: 

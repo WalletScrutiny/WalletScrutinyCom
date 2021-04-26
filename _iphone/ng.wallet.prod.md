@@ -11,8 +11,8 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-03-19
 version: "2.471"
-score: 4.4
-reviews: 55
+score: 4.39286
+reviews: 56
 size: 59201536
 developerWebsite: http://wallets.africa
 repository: 

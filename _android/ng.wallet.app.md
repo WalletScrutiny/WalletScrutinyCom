@@ -1,5 +1,5 @@
 ---
-wsId: "WalletsAfrica"
+wsId: WalletsAfrica
 title: "Wallets Africa - Seamless Digital Transactions"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-18
 apkVersionName: "2.471"
 stars: 4.2
-ratings: 1348
-reviews: 1116
+ratings: 1364
+reviews: 1127
 size: 16M
 website: 
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Wallets Africa is quite a broad product, the lack of source code makes it
 impossible to verify this app and there are no statements on their website as to

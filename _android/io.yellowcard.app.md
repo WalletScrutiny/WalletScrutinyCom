@@ -1,5 +1,5 @@
 ---
-wsId: "yellowcard"
+wsId: yellowcard
 title: "Yellow Card: Buy and Sell Bitcoin"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "2.3"
 stars: 3.0
-ratings: 703
-reviews: 536
+ratings: 707
+reviews: 539
 size: 1.2M
 website: https://yellowcard.io/
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Yellow Card wallet has no statements on [their website](https://yellowcard.io/) or in their FAQ regarding the management of private keys.
 This leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.

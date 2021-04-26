@@ -9,9 +9,9 @@ appId: com.blocktrail.mywallet
 launchDate: 
 latestUpdate: 2019-04-03
 apkVersionName: "4.4.7"
-stars: 3.5
-ratings: 8050
-reviews: 3824
+stars: 3.3
+ratings: 7
+reviews: 5
 size: 13M
 website: https://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet

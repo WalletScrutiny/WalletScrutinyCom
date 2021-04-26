@@ -10,7 +10,7 @@ launchDate: 2019-04-13
 latestUpdate: 2021-04-16
 apkVersionName: "5.3.5"
 stars: 4.0
-ratings: 374
+ratings: 377
 reviews: 144
 size: 5.9M
 website: https://www.bitcoin.com/bitcoin-cash-register
