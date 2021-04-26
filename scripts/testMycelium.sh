@@ -10,17 +10,25 @@ test() {
 
   git clone https://github.com/mycelium-com/wallet-android-modularization-tools
   git submodule update --init --recursive
-  docker build --tag mycelium_builder .
+  podman build --tag mycelium_builder .
   
   # build
-  sudo rm -rf $workDir/sorted
-  mkdir $workDir/sorted
-  sudo disorderfs --sort-dirents=yes --reverse-dirents=no --multi-user=yes $workDir/app $workDir/sorted
-  docker run --volume $workDir/sorted:/mnt --workdir /mnt -it --rm mycelium_builder \
-      bash -c "./gradlew -x lint -x test clean $buildTarget;chown $(id -u):$(id -g) -R /mnt/;
+  podman run \
+      --rm \
+      --device /dev/fuse \
+      --cap-add SYS_ADMIN \
+      --volume $workDir/app:/app \
+      --interactive \
+      --tty \
+      mycelium_builder \
+      bash -c "apt update;
+        apt install -y disorderfs;
+        mkdir /sorted/
+        disorderfs --sort-dirents=yes --reverse-dirents=no /app/ /sorted/;
+        cd /sorted/
+        ./gradlew -x lint -x test clean $buildTarget;
         echo 'CTRL-D to continue';
         bash"
-  sudo umount $workDir/sorted
 
   result
 }
