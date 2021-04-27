@@ -88,6 +88,12 @@ function writeResult(app, header, iconExtension, body) {
   if (launchDate != undefined) {
     launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
   }
+  var verdict = header.verdict
+  if ( app.minInstalls < 1000 ) {
+    verdict = "fewusers"
+  } else if ( header.verdict == "fewusers" && app.minInstalls > 1000 ) {
+    verdict = "wip"
+  } 
   var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
   const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
@@ -114,7 +120,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: ${verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 reviewStale: ${stale}
 signer: ${header.signer || ""}
