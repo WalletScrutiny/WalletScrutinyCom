@@ -3,9 +3,7 @@ layout: default
 ---
 
 {% include base_path %}
-<script>
-  window.wallets = {% include allAppList.html %}
-</script>
+<script src="{{ base_path }}/allWallets.js"></script>
 <script src="{{ base_path }}/assets/js/wallets.js"></script>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}

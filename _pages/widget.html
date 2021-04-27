@@ -9,6 +9,7 @@ permalink: /widget/
 <head></head>
 
 <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
+  <script src="{{ base_path }}/allWallets.js"></script>
   <script>
     var verdictColor = {
       "reproducible": '{{ site.data.verdicts["reproducible"].color }}',
@@ -22,7 +23,6 @@ permalink: /widget/
       "wip": '{{ site.data.verdicts["wip"].color }}'
     }
     window.addEventListener("load", function () {
-      var wallets = {% include allAppList.html %}
       var appId, style, appList, verdict, limit, wallet, theme
     window.location.hash.split("#")[1].split("&").forEach(function (item) {
       var kv = item.split("=")
