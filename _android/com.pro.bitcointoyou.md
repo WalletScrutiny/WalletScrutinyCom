@@ -1,5 +1,5 @@
 ---
-wsId: "Bitcointoyou"
+wsId: bitcointoyou
 title: "Bitcointoyou Pro"
 altTitle: 
 authors:
