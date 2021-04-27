@@ -19,10 +19,15 @@ issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-11
-reviewStale: true
+date: 2021-04-27
+reviewStale: false
 signer: 
 reviewArchive:
+- date: 2020-12-22
+  version: "0.4.0-beta"
+  apkHash: cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65
+  gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
+  verdict: reproducible
 - date: 2020-12-22
   version: "0.3.8-beta"
   apkHash: 0902d86d218d385d627e943828fddc083689aa5998c4ae87e972e4b8625073d5
@@ -52,15 +57,15 @@ on the binary from Google Play:
 Results:
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.4.0-beta
-apkVersionCode: 3027
-apkHash:        cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65
+apkVersionName: 0.4.1-beta
+apkVersionCode: 3028
+apkHash:        b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2
 
 Diff:
-Files /tmp/fromPlay_zapsolutions.zap_3027/apktool.yml and /tmp/fromBuild_zapsolutions.zap_3027/apktool.yml differ
-Only in /tmp/fromPlay_zapsolutions.zap_3027/original/META-INF: CERT.RSA
-Only in /tmp/fromPlay_zapsolutions.zap_3027/original/META-INF: CERT.SF
-Only in /tmp/fromPlay_zapsolutions.zap_3027/original/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_zapsolutions.zap_3028/apktool.yml and /tmp/fromBuild_zapsolutions.zap_3028/apktool.yml differ
+Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: CERT.RSA
+Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: CERT.SF
+Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: MANIFEST.MF
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
