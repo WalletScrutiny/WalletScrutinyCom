@@ -1,5 +1,5 @@
 ---
-wsId: "coindirect"
+wsId: coindirect
 title: "Coindirect - Buy & Sell Bitcoin Instantly"
 altTitle: 
 authors:
@@ -34,7 +34,8 @@ redirect_from:
 
 ---
 
-It is concerning to see a wallet with a rating of less than 2 in the google play store with close to 500 total ratings.
+It is concerning to see a wallet with a rating of less than 2 in the Google Play
+Store with close to 500 total ratings.
 The website really states nothing about private key management. Just some reference to cold storage of bitcoins.
 
 > The majority of our users’ Bitcoins are kept securely in cold storage. This is equivalent to a digital bank vault.
