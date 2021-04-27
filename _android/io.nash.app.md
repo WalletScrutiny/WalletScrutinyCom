@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: io.nash.app
 launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "5.4"
+latestUpdate: 2021-04-26
+apkVersionName: "6.0"
 stars: 4.4
-ratings: 602
-reviews: 249
-size: 65M
+ratings: 603
+reviews: 250
+size: 67M
 website: 
 repository: 
 issue: 

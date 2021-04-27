@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-01
 apkVersionName: "1.2.4"
 stars: 4.5
-ratings: 1127
-reviews: 595
+ratings: 1131
+reviews: 594
 size: 113M
 website: https://www.vision-crypto.com
 repository: 

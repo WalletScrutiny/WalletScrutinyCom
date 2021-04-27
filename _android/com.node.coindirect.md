@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2019-02-25
 apkVersionName: "1.1.1"
 stars: 1.8
-ratings: 478
-reviews: 402
+ratings: 479
+reviews: 403
 size: 10M
 website: https://www.coindirect.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 It is concerning to see a wallet with a rating of less than 2 in the Google Play
 Store with close to 500 total ratings.

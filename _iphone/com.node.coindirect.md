@@ -14,7 +14,7 @@ version: "1.2.2"
 score: 2.2
 reviews: 5
 size: 28716032
-developerWebsite: https://www.coindirect.com
+developerWebsite: https://www.coindirect.com/
 repository: 
 issue: 
 icon: com.node.coindirect.jpg

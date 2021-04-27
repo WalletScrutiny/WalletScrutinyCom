@@ -1,24 +1,24 @@
 ---
-wsId: 
+wsId: keyring
 title: "KEYRING PRO | Multichain Wallet Connect ETH, BSC"
 altTitle: 
 authors:
 
-users: 100
+users: 1000
 appId: co.bacoor.keyring
 launchDate: 
 latestUpdate: 2021-03-30
 apkVersionName: "1.2.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.7
+ratings: 7
+reviews: 4
 size: 26M
 website: 
 repository: 
 issue: 
 icon: co.bacoor.keyring.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
 reviewStale: true
 signer: 

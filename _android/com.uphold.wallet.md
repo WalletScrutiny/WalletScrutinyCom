@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "4.15.17"
 stars: 3.2
-ratings: 13125
-reviews: 7952
+ratings: 13160
+reviews: 7974
 size: 44M
 website: https://uphold.com
 repository: 

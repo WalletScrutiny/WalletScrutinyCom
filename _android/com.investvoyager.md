@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "2.5.17"
 stars: 2.5
-ratings: 3360
-reviews: 2173
+ratings: 3383
+reviews: 2188
 size: 43M
 website: https://www.investvoyager.com/
 repository: 

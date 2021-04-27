@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-09
 apkVersionName: "3.12.9"
 stars: 4.4
-ratings: 144
-reviews: 85
+ratings: 146
+reviews: 86
 size: Varies with device
 website: https://hold.io
 repository: 

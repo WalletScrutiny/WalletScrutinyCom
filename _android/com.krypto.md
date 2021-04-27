@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: "Krypto - Bitcoin, Crypto Trading Wallet & Exchange"
+title: "Krypto - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
 - kiwilamb
 users: 50000
 appId: com.krypto
 launchDate: 
-latestUpdate: 2021-04-25
+latestUpdate: 2021-04-26
 apkVersionName: "8.5"
-stars: 4.2
-ratings: 867
+stars: 4.6
+ratings: 880
 reviews: 537
 size: 9.1M
 website: https://letskrypto.com

@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-13
 apkVersionName: "2.6.3"
 stars: 4.9
-ratings: 192
+ratings: 193
 reviews: 130
 size: 25M
 website: https://ducatus.net

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-21
 apkVersionName: "4.1.6"
 stars: 3.9
-ratings: 393
-reviews: 252
+ratings: 394
+reviews: 253
 size: 61M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

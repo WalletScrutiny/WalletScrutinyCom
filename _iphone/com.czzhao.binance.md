@@ -11,7 +11,7 @@ released: 2018-10-06
 updated: 2021-04-14
 version: "2.28.1"
 score: 4.74543
-reviews: 44625
+reviews: 44778
 size: 321385472
 developerWebsite: https://www.binance.com
 repository: 

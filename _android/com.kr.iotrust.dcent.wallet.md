@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-20
 apkVersionName: "5.2.2"
 stars: 4.4
-ratings: 230
+ratings: 231
 reviews: 164
 size: 31M
 website: 

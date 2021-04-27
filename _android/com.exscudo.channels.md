@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 The Play Store description states...
 
 > All funds are fully protected and no one except the owner can access them.
