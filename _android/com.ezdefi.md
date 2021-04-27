@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: ezdefi
 title: "ezDeFi - Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
@@ -31,7 +31,6 @@ providerFacebook: ezdefi
 providerReddit: 
 
 redirect_from:
-  - /com.ezdefi/
 ---
 
 
@@ -40,7 +39,7 @@ Features like
 > By eliminating encryption phrase, new users can simply make purchases with
   just a wallet password or biometric.
 
-sound very custodial. Althogh this is
+sound very custodial. Although this is
 
 > A new Ez Mode [...] to make cryptocurrencies accessible to new users.
 

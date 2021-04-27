@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: digifinex
 title: "DigiFinex - Bitcoin Exchange"
 altTitle: 
 authors:
@@ -13,24 +13,29 @@ version: "2021.04.21"
 score: 3.66667
 reviews: 3
 size: 370974720
-developerWebsite: 
+developerWebsite: https://www.digifinex.com
 repository: 
 issue: 
 icon: com.digifinex.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-26
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: DigiFinex
+providerLinkedIn: digifinex-global
+providerFacebook: digifinex.global
+providerReddit: DigiFinex
 
 redirect_from:
 
 ---
 
+> DigiFinex is a world’s leading crypto finance exchange
+
+doesn't sound like "wallet" is their primary business and as we can't find any
+claims to the contrary, we have to assume this is a custodial offering and thus
+**not verifiable**.

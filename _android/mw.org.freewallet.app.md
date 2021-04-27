@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: mw.org.freewallet
 title: "Freewallet: Bitcoin & Crypto Blockchain Wallet"
 altTitle: 
 authors:
@@ -31,15 +31,16 @@ providerFacebook: freewallet.org
 providerReddit: 
 
 redirect_from:
-  - /mw.org.freewallet.app/
-  - /posts/mw.org.freewallet.app/
+
 ---
 
 
 According to the description
 
-> In addition, the majority of cryptocurrency assets on the platform are stored in an offline vault. Your coins will be kept in cold storage with state of the art security protecting them.
+> In addition, the majority of cryptocurrency assets on the platform are stored
+  in an offline vault. Your coins will be kept in cold storage with state of the
+  art security protecting them.
 
-this is a custodial app.
+This is a custodial app.
 
 Our verdict: **not verifiable**.

@@ -1,8 +1,8 @@
 ---
-wsId: safepal
+wsId: 
 title: "SafePal - Crypto Wallet BTC"
 altTitle: 
-
+- leo
 appId: com.anbi.safepal
 idd: 1449232593
 released: 2019-03-01
@@ -33,6 +33,7 @@ redirect_from:
 ---
 
 This app appears to have disappeared from the App Store but
+
 * we reviewed the [Android version](/android/io.safepal.wallet)
 * their website links to
   [a different wallet on the App Store](/iphone/walletapp.safepal.io), so they

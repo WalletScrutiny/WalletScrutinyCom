@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: digifinex
 title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
 altTitle: 
 authors:

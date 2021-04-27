@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: dowallet
 title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
 altTitle: 
 authors:
@@ -31,10 +31,6 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /dowallet/
-  - /com.dowallet/
-  - /posts/2019/11/dowallet/
-  - /posts/com.dowallet/
 ---
 
 

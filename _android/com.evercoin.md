@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: evercoin
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
 authors:
@@ -31,8 +31,7 @@ providerFacebook: evercoin
 providerReddit: 
 
 redirect_from:
-  - /com.evercoin/
-  - /posts/com.evercoin/
+
 ---
 
 
@@ -41,7 +40,7 @@ This app's description says:
 > Evercoin is an integrated non-custodial wallet for managing and exchanging
   cryptocurrencies.
 
-So ... is there source coude to reproduce the build?
+So ... is there source code to reproduce the build?
 
 Unfortunately there is no mention of source code anywhere. Absent source code
 this app is **not verifiable**.
