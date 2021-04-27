@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: zeusln
 title: "Zeus: Bitcoin/Lightning Wallet"
 altTitle: 
 authors:
