@@ -1,7 +1,11 @@
-var verdictOrder = "reproducible,nonverifiable,nosource,custodial,wip,nobtc,fewusers,defunct,nowallet,obfuscated", searchInput, pauseForInput;
+const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,wip,fewusers,nobtc,defunct,nowallet"
+const platformOrder = "android,dfroid,iphone"
 window.sortedWallets = Object.values(window.wallets).sort(function (a, b) {
   if (a.verdict != b.verdict)
     return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+  // can't compare across platforms. Sort by platform:
+  if (a.folder != b.folder)
+    return platformOrder.indexOf(a.folder) - verdictOrder.indexOf(b.folder)
   if (a.users != b.users)
     return Number(b.users) - Number(a.users)
   return Number(b.ratings) - Number(a.ratings)

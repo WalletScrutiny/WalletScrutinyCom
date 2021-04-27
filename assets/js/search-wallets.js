@@ -1,3 +1,5 @@
+var pauseForInput
+var searchInput
 if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   var t = document.createElement("div")
   var r = document.createElement("ul")
