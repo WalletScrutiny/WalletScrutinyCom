@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.pro.bitcointoyou
 launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "0.0.166"
-stars: 3.6
-ratings: 876
-reviews: 577
+latestUpdate: 2021-04-25
+apkVersionName: "0.0.167"
+stars: 3.8
+ratings: 894
+reviews: 582
 size: 47M
 website: https://www.bitcointoyou.com
 repository: 
@@ -37,6 +37,6 @@ redirect_from:
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.
 However being an exchange, it is highly likely that this is a custodial service with funds being in control of the provider.
 
-Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
+Our verdict: This 'wallet' is custodial and therefore **not verifiable**.
 
 
