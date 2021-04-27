@@ -1,0 +1,37 @@
+---
+wsId: 
+title: "Bitcoin Wallet"
+altTitle: 
+authors:
+
+users: 100
+appId: app.bitcoin.wallet
+launchDate: 
+latestUpdate: 2021-04-10
+apkVersionName: "8.11"
+stars: 5.0
+ratings: 12
+reviews: 1
+size: 2.8M
+website: 
+repository: 
+issue: 
+icon: app.bitcoin.wallet.png
+bugbounty: 
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-27
+reviewStale: true
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
