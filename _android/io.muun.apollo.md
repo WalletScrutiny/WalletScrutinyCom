@@ -10,7 +10,7 @@ launchDate: 2017-04-25
 latestUpdate: 2021-04-23
 apkVersionName: "45.4"
 stars: 4.4
-ratings: 172
+ratings: 173
 reviews: 103
 size: 41M
 website: https://muun.com

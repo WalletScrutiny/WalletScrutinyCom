@@ -8,7 +8,7 @@ appId: com.pro.b2u
 appCountry: 
 idd: 1489598378
 released: 2019-12-20
-updated: 2021-04-27
+updated: 2021-04-26
 version: "1.70"
 score: 5
 reviews: 2
@@ -20,7 +20,7 @@ icon: com.pro.b2u.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

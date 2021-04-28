@@ -10,8 +10,8 @@ launchDate: 2013-04-19
 latestUpdate: 2020-03-22
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 153
-reviews: 51
+ratings: 154
+reviews: 52
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet

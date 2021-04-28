@@ -9,9 +9,9 @@ appId: io.metamask
 launchDate: 
 latestUpdate: 2021-04-21
 apkVersionName: "2.1.3"
-stars: 3.2
-ratings: 3733
-reviews: 2071
+stars: 3.3
+ratings: 3784
+reviews: 2104
 size: 28M
 website: 
 repository: 

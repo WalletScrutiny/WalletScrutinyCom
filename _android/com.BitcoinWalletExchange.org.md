@@ -4,13 +4,13 @@ title: "Bitcoin Wallet Exchange - exchange BTC ETH & more"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.BitcoinWalletExchange.org
 launchDate: 
 latestUpdate: 2020-10-13
 apkVersionName: "1.01"
 stars: 5.0
-ratings: 2498
+ratings: 2606
 reviews: 5
 size: 20M
 website: 

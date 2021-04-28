@@ -10,7 +10,7 @@ launchDate: 2018-10-14
 latestUpdate: 2021-02-20
 apkVersionName: "1.8.0"
 stars: 4.3
-ratings: 11
+ratings: 12
 reviews: 3
 size: 34M
 website: https://coinid.org

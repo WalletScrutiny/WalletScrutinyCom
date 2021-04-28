@@ -1,6 +1,6 @@
 ---
 wsId: etorowallet
-title: "eToro Wallet"
+title: "eToro Money"
 altTitle: 
 authors:
 - kiwilamb
@@ -10,8 +10,8 @@ appId: com.etoro.wallet
 launchDate: 
 latestUpdate: 2021-02-09
 apkVersionName: "22.0.0"
-stars: 1.6
-ratings: 709
+stars: 1.7
+ratings: 712
 reviews: 481
 size: 5.6M
 website: https://www.etoro.com/crypto/wallet

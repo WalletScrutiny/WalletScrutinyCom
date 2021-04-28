@@ -9,9 +9,9 @@ appId: com.krypto
 launchDate: 
 latestUpdate: 2021-04-26
 apkVersionName: "8.5"
-stars: 4.6
+stars: 4.5
 ratings: 880
-reviews: 537
+reviews: 538
 size: 9.1M
 website: https://letskrypto.com
 repository: 

@@ -13,7 +13,7 @@ version: "0.3.3"
 score: 4.73332
 reviews: 15
 size: 60874752
-developerWebsite: https://ezdefi.com
+developerWebsite: https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.nexty.jpg

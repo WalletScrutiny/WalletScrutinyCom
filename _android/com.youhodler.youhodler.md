@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.youhodler.youhodler
 launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "2.12.0"
-stars: 4.4
-ratings: 1175
-reviews: 475
+latestUpdate: 2021-04-27
+apkVersionName: "2.13.0"
+stars: 4.5
+ratings: 1185
+reviews: 480
 size: 47M
 website: https://youhodler.com
 repository: 

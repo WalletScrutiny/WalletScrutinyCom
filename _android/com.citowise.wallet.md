@@ -9,9 +9,9 @@ appId: com.citowise.wallet
 launchDate: 
 latestUpdate: 2019-12-25
 apkVersionName: "1.355"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 655
+reviews: 524
 size: 11M
 website: 
 repository: 

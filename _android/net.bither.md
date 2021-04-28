@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-05
 apkVersionName: "2.0.0"
 stars: 3.7
-ratings: 314
-reviews: 164
+ratings: 315
+reviews: 165
 size: 4.4M
 website: https://bither.net
 repository: https://github.com/bither/bither-android

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cashuwallet.android.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-24
 reviewStale: true
 signer: 

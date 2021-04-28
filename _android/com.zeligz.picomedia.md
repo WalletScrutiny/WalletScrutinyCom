@@ -9,9 +9,9 @@ appId: com.zeligz.picomedia
 launchDate: 
 latestUpdate: 2020-01-27
 apkVersionName: "1.6"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.7
+ratings: 14
+reviews: 10
 size: 28M
 website: 
 repository: 

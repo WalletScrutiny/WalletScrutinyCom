@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-19
 apkVersionName: "1.13"
 stars: 4.7
-ratings: 46
-reviews: 27
+ratings: 47
+reviews: 28
 size: 76M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

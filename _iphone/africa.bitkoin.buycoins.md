@@ -19,10 +19,15 @@ issue:
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
 verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+date: 2021-04-22
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2020-05-29
+  version: 
+  apkHash: 
+  gitRevision: 05366b15413b636ae7f6f4ebeebaea670862cb65
+  verdict: custodial
 
 
 providerTwitter: buycoins_africa
@@ -34,3 +39,5 @@ redirect_from:
 
 ---
 
+This app is not on the app stores anymore and given the many scam accusations it
+might have been a scam.

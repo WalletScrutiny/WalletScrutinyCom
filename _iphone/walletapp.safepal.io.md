@@ -10,10 +10,10 @@ idd: 1548297139
 released: 2021-01-11
 updated: 2021-04-26
 version: "2.5.9"
-score: 3.66667
+score: 3.62222
 reviews: 90
 size: 115787776
-developerWebsite: https://www.safepal.io
+developerWebsite: https://www.safepal.io/
 repository: 
 issue: 
 icon: walletapp.safepal.io.jpg

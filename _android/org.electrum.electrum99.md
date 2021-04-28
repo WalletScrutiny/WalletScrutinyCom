@@ -4,7 +4,7 @@ title: "Electrum Wallet : Bitcoin Blockchain Wallet"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: org.electrum.electrum99
 launchDate: 
 latestUpdate: 2021-04-18

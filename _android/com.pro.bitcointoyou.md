@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-25
 apkVersionName: "0.0.167"
 stars: 3.8
-ratings: 894
-reviews: 582
+ratings: 895
+reviews: 581
 size: 47M
 website: https://www.bitcointoyou.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.
 However being an exchange, it is highly likely that this is a custodial service with funds being in control of the provider.
