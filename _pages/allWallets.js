@@ -3,4 +3,4 @@ layout: compress
 permalink: /allWallets.js
 ---
 
-{% include allAppList.html %}
+window.wallets = {% include allAppList.html %}
