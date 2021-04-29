@@ -1,5 +1,5 @@
 ---
-wsId: freewallet
+wsId: multi.org.freewallet.app
 title: "Freewallet MultiWallet Classic"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 2006
 reviews: 1026
 size: 10M
-website: 
+website: https://freewallet.org/
 repository: 
 issue: 
 icon: multi.org.freewallet.app.png
@@ -41,6 +41,3 @@ The [Free wallet website](https://freewallet.org/) clearly states to the user ho
 We do not need to research any further for our verdict.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
-
-
-https://apps.apple.com/us/app/multi-crypto-wallet-freewallet/id1274003898
