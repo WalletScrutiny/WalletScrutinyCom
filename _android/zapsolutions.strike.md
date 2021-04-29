@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-26
 apkVersionName: "v70"
 stars: 4.4
-ratings: 1021
-reviews: 357
+ratings: 1126
+reviews: 395
 size: 9.0M
 website: 
 repository: 

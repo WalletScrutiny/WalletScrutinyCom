@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-21
 apkVersionName: "4.1.6"
 stars: 3.9
-ratings: 396
+ratings: 400
 reviews: 255
 size: 61M
 website: https://cakewallet.com

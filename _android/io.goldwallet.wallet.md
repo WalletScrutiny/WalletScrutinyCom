@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: io.goldwallet.wallet
 launchDate: 
-latestUpdate: 2020-11-26
-apkVersionName: "6.0.1"
+latestUpdate: 2021-04-28
+apkVersionName: "6.2.0"
 stars: 4.2
-ratings: 442
-reviews: 251
-size: 35M
+ratings: 444
+reviews: 253
+size: 36M
 website: https://bitcoinvault.global
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: io.goldwallet.wallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

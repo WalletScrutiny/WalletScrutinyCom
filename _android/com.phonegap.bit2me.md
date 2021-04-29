@@ -9,9 +9,9 @@ appId: com.phonegap.bit2me
 launchDate: 
 latestUpdate: 2021-04-16
 apkVersionName: "2.0.54"
-stars: 4.4
-ratings: 1358
-reviews: 620
+stars: 4.3
+ratings: 1363
+reviews: 623
 size: 30M
 website: https://bit2me.com
 repository: 

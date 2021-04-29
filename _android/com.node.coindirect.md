@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2019-02-25
 apkVersionName: "1.1.1"
 stars: 1.8
-ratings: 479
-reviews: 403
+ratings: 481
+reviews: 405
 size: 10M
 website: https://www.coindirect.com
 repository: 

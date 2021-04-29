@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: wallet.gem.com.atoken
 launchDate: 
-latestUpdate: 2021-04-27
-apkVersionName: "4.0.9"
+latestUpdate: 2021-04-28
+apkVersionName: "4.1.0"
 stars: 4.0
-ratings: 3830
-reviews: 2407
+ratings: 3836
+reviews: 2410
 size: 55M
 website: https://www.atoken.com
 repository: 

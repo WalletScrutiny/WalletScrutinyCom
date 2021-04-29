@@ -11,7 +11,7 @@ latestUpdate: 2020-11-23
 apkVersionName: "2.8.2"
 stars: 3.1
 ratings: 4947
-reviews: 2866
+reviews: 2867
 size: 62M
 website: 
 repository: 

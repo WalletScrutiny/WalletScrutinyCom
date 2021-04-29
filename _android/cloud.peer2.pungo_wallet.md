@@ -9,9 +9,9 @@ appId: cloud.peer2.pungo_wallet
 launchDate: 
 latestUpdate: 2021-04-08
 apkVersionName: "1.33"
-stars: 3.9
-ratings: 11
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.4M
 website: https://pungowallet.com
 repository: 

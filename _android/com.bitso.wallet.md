@@ -9,9 +9,9 @@ appId: com.bitso.wallet
 launchDate: 
 latestUpdate: 2021-04-27
 apkVersionName: "2.25.0"
-stars: 3.5
-ratings: 8892
-reviews: 5226
+stars: 3.6
+ratings: 8927
+reviews: 5247
 size: 27M
 website: https://bitso.com/app
 repository: 

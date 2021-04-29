@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bridge Wallet"
+title: "Bridge Wallet, the Swiss app for Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo

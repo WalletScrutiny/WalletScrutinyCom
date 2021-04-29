@@ -1,6 +1,6 @@
 ---
 wsId: tangem
-title: "Tangem Tap"
+title: "Tangem"
 altTitle: 
 authors:
 - leo

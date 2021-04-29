@@ -9,9 +9,9 @@ appId: com.coinfalcon.mobile
 launchDate: 
 latestUpdate: 2021-02-08
 apkVersionName: "2.1.13"
-stars: 3.3
-ratings: 86
-reviews: 58
+stars: 3.2
+ratings: 87
+reviews: 59
 size: 64M
 website: https://coinfalcon.com
 repository: 

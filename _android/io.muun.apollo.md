@@ -9,8 +9,8 @@ appId: io.muun.apollo
 launchDate: 2017-04-25
 latestUpdate: 2021-04-23
 apkVersionName: "45.4"
-stars: 4.4
-ratings: 173
+stars: 4.5
+ratings: 174
 reviews: 103
 size: 41M
 website: https://muun.com

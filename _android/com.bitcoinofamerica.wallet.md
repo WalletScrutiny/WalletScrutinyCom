@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2020-04-01
 apkVersionName: "1.1.2"
 stars: 4.4
-ratings: 163
+ratings: 164
 reviews: 49
 size: 55M
 website: https://www.bitcoinofamerica.org

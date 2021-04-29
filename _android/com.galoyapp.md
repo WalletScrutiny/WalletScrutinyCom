@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.galoyapp
 launchDate: 
-latestUpdate: 2021-04-27
+latestUpdate: 2021-04-28
 apkVersionName: "1.3.2"
 stars: 4.3
 ratings: 30
@@ -20,7 +20,7 @@ icon: com.galoyapp.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
