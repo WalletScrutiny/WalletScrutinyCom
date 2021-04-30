@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: nash
 title: "Nash – Buy crypto at the best rates"
 altTitle: 
 authors:
