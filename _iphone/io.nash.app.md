@@ -1,22 +1,22 @@
 ---
 wsId: nash
-title: "Nash – Buy crypto at the best rates"
+title: "Nash: Buy & sell crypto"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: io.nash.app
-launchDate: 
-latestUpdate: 2021-04-26
-apkVersionName: "6.0"
-stars: 4.4
-ratings: 603
-reviews: 250
-size: 67M
-website: https://nash.io/
+appCountry: 
+idd: 1475759236
+released: 2019-09-06
+updated: 2021-04-28
+version: "2.82"
+score: 4.67326
+reviews: 101
+size: 59426816
+developerWebsite: https://nash.io/
 repository: 
 issue: 
-icon: io.nash.app.png
+icon: io.nash.app.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-30
@@ -34,8 +34,7 @@ redirect_from:
 
 ---
 
-
-This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim only the user has access to the private keys.
+This statement in the description from the [App store](https://apps.apple.com/us/app/nash-app/id1475759236?mt=8) below is a claim only the user has access to the private keys.
 
 > Nash doesn’t take control of your funds – unlike Coinbase, Kraken or Binance. We’re the only fully-featured exchange where you can trade Bitcoin without giving up your private keys.
 
