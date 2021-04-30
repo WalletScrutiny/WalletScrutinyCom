@@ -1,19 +1,19 @@
 ---
 wsId: usdxwallet
-title: "USDX Wallet - blockchain wallet with stable crypto"
+title: "USDX Wallet money transfer app"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: cash.usdx.wallet
-launchDate: 
-latestUpdate: 2020-11-25
-apkVersionName: "1.34.2"
-stars: 4.2
-ratings: 5474
-reviews: 4683
-size: 37M
-website: https://usdx.cash
+appCountry: 
+idd: 1367451869
+released: 2018-04-23
+updated: 2020-11-28
+version: "1.34.2"
+score: 4.7451
+reviews: 153
+size: 55813120
+developerWebsite: https://usdx.cash
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg
@@ -34,7 +34,7 @@ redirect_from:
 
 ---
 
-This statement in the description from the [play store](https://play.google.com/store/apps/details?id=cash.usdx.wallet) below is a claim the user only has access to the private keys.
+This statement in the description from the [App store](https://apps.apple.com/app/usdx-wallet-with-a-stablecoin/id1367451869) below is a claim the user only has access to the private keys.
 
 > Your private key is encrypted and stored safely; only you can decrypt it and perform transactions. 
 
