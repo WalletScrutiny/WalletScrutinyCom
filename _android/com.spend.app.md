@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: spend
 title: "Spend App"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.spend.app
 launchDate: 
@@ -13,25 +13,29 @@ stars: 3.5
 ratings: 416
 reviews: 233
 size: 31M
-website: 
+website: https://www.spend.com/
 repository: 
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-01
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Spendcom
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: spend
+providerReddit: Spend
 
 redirect_from:
 
 ---
 
+No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).
+It would be prudent to assume the private keys are under the control of the provider.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
