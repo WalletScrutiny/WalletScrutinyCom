@@ -36,8 +36,15 @@ redirect_from:
 
 
 There is no statement regarding how private keys are managed in the play store description.
-There is also no website representing this wallet, so further information is not available.
+At this stage we will consider this wallet custodial.
+
+**Warning**.
+However, in our opinion in reviewing this wallet, we had some observations that are somewhat scammys.
+
+1. There is no provider website listed in the Google Play store description.
+2. The app reviews in the Android are very suspicious, there are 2000+ ratings, all 5 star and only 3 written reviews.
+3. A search for CoinTM, as stated in the google play description as a money service business, cannot be found.
+4. In our opinion the logo is a direct copy of the bitcoin logo proper and could be fooling user into some feeling of trust.
 
 Our verdict: This 'wallet' is custodial and therefore **not verifiable**.
 
-I do not like the findings of this wallet, it is very suspicious, no website, 2000+ 5 star reviews, no real review content of substance.
