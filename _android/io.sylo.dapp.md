@@ -9,9 +9,9 @@ appId: io.sylo.dapp
 launchDate: 
 latestUpdate: 2021-04-20
 apkVersionName: "3.0.20"
-stars: 4.6
-ratings: 623
-reviews: 319
+stars: 4.7
+ratings: 629
+reviews: 323
 size: 347M
 website: https://www.sylo.io/wallet
 repository: 

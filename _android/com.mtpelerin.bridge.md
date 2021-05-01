@@ -9,7 +9,7 @@ appId: com.mtpelerin.bridge
 launchDate: 
 latestUpdate: 2021-04-19
 apkVersionName: "1.13"
-stars: 4.7
+stars: 4.6
 ratings: 47
 reviews: 28
 size: 76M

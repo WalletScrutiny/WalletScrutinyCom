@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.ledger.live
 launchDate: 
-latestUpdate: 2021-04-08
-apkVersionName: "2.25.2"
+latestUpdate: 2021-04-29
+apkVersionName: "2.26.0"
 stars: 3.4
-ratings: 3567
-reviews: 2070
+ratings: 3584
+reviews: 2075
 size: Varies with device
 website: 
 repository: 

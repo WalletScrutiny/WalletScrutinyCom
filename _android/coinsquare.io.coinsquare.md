@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: coinsquare.io.coinsquare
 launchDate: 
-latestUpdate: 2020-07-29
-apkVersionName: "2.13.8"
-stars: 2.1
-ratings: 526
-reviews: 406
-size: 8.2M
+latestUpdate: 2021-04-30
+apkVersionName: "2.13.10"
+stars: 3.1
+ratings: 586
+reviews: 421
+size: 7.3M
 website: https://coinsquare.com
 repository: 
 issue: 

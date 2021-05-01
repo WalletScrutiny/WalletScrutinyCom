@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: jb.tech.bitpiewallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-20
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-30
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-01-20
+  version: 
+  apkHash: 
+  gitRevision: 7c41675d933938883582fc5a083d69e8b2644900
+  verdict: custodial
 
 
 providerTwitter: 
@@ -34,6 +39,11 @@ redirect_from:
 
 ---
 
+
+**Update 2021-04-30**: This app is no more and probably scammed some people as
+the original analysis below suggests.
+
+### Original Analysis
 
 This wallet imitates [Bitpie Wallet](/android/com.bitpie). It's `appId` being
 `jb.tech.bitpiewallet` was the first hint but there are many more similarities.

@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: co.busha.android
 launchDate: 2019-01-21
-latestUpdate: 2021-04-28
-apkVersionName: "2.6.11"
+latestUpdate: 2021-04-30
+apkVersionName: "2.6.12"
 stars: 4.0
-ratings: 2036
-reviews: 1577
+ratings: 2038
+reviews: 1579
 size: 17M
 website: https://busha.co
 repository: 

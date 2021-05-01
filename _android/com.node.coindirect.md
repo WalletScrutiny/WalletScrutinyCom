@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.node.coindirect
 launchDate: 
-latestUpdate: 2019-02-25
-apkVersionName: "1.1.1"
+latestUpdate: 2021-04-30
+apkVersionName: "1.3.0"
 stars: 1.8
 ratings: 481
 reviews: 405
-size: 10M
+size: 30M
 website: https://www.coindirect.com
 repository: 
 issue: 

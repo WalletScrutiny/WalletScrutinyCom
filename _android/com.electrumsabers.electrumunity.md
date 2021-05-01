@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-04-24
 apkVersionName: "2.75"
 stars: 2.5
-ratings: 117
-reviews: 94
+ratings: 118
+reviews: 95
 size: 5.9M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.bitcoinofamerica.wallet
 launchDate: 
-latestUpdate: 2020-04-01
-apkVersionName: "1.1.2"
+latestUpdate: 2021-04-28
+apkVersionName: "1.1.3"
 stars: 4.4
-ratings: 164
+ratings: 165
 reviews: 49
-size: 55M
+size: 39M
 website: https://www.bitcoinofamerica.org
 repository: 
 issue: 
