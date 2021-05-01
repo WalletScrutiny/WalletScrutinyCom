@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-30
 reviewStale: true
 signer: 
@@ -34,12 +34,8 @@ redirect_from:
 
 ---
 
-This statement in the description from the [play store](https://play.google.com/store/apps/details?id=cash.usdx.wallet) below is a claim the user only has access to the private keys.
+There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token)
+The wallet may allow you to send it bitcoins to receive one of these tokens but there does not seem to be any bitcoins stored for the user.
 
-> Your private key is encrypted and stored safely; only you can decrypt it and perform transactions. 
-
-With keys in control of the user, we need to find the source code in order to check reproducibility.
-However we are unable to locate a public source repository.
-
-Our verdict: As there is no source code to be found anywhere, this wallet is at best a non-custodial closed source wallet and as such **not verifiable**.
+Our verdict: This wallet does not support BTC.
 
