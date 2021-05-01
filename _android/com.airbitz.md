@@ -10,8 +10,8 @@ launchDate: 2014-04-01
 latestUpdate: 2018-09-21
 apkVersionName: "2.4.12"
 stars: 3.4
-ratings: 1145
-reviews: 488
+ratings: 1146
+reviews: 489
 size: 16M
 website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui

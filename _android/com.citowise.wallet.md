@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 There is a clear statement on the [Play store](https://play.google.com/store/apps/details?id=com.citowise.wallet) about private key management.
 
 > Citowise is one of the few wallets that is both safe and decentralized as it does not keep private user keys. 

@@ -9,9 +9,9 @@ appId: com.bitcoinblack.wallet
 launchDate: 
 latestUpdate: 2020-12-25
 apkVersionName: "1.0.6"
-stars: 3.1
-ratings: 1511
-reviews: 919
+stars: 3.0
+ratings: 1514
+reviews: 920
 size: 25M
 website: https://bitcoin.black/
 repository: 
@@ -33,5 +33,6 @@ providerReddit: AllAboardBitcoinBlack
 redirect_from:
 
 ---
+
 
 This is a wallet for an alt coin "Bitcoin Black"

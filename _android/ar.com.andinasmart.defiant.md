@@ -8,11 +8,11 @@ users: 1000
 appId: ar.com.andinasmart.defiant
 launchDate: 
 latestUpdate: 2021-04-26
-apkVersionName: "0.13.2"
+apkVersionName: "1.1.3"
 stars: 4.8
-ratings: 36
-reviews: 25
-size: 27M
+ratings: 37
+reviews: 26
+size: 26M
 website: 
 repository: 
 issue: 

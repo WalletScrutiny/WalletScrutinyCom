@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: cryptoex.elegro.io
 launchDate: 
-latestUpdate: 2020-07-07
-apkVersionName: "1.0.3"
+latestUpdate: 2021-04-29
+apkVersionName: "1.0.4"
 stars: 4.9
 ratings: 106
 reviews: 13
-size: 12M
+size: 11M
 website: 
 repository: 
 issue: 

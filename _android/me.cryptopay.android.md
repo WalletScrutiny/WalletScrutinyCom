@@ -9,9 +9,9 @@ appId: me.cryptopay.android
 launchDate: 
 latestUpdate: 2021-04-26
 apkVersionName: "1.25"
-stars: 4.5
-ratings: 645
-reviews: 329
+stars: 4.4
+ratings: 648
+reviews: 331
 size: 18M
 website: https://cryptopay.me
 repository: 

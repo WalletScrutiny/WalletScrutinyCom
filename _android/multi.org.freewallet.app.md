@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 The [Free wallet website](https://freewallet.org/) clearly states to the user how the wallet private keys are managed.
 
 > Сustomers’ private keys are kept by Freewallet. Lost private keys or mnemonic phrases don’t mean lost funds. Your account can be retrieved via your email like on any other service.

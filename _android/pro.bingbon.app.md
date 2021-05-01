@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-27
 apkVersionName: "2.30.1"
 stars: 4.0
-ratings: 671
-reviews: 430
+ratings: 678
+reviews: 433
 size: 26M
 website: https://bingbon.com
 repository: 

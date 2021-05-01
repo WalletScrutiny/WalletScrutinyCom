@@ -9,9 +9,9 @@ appId: de.fuf.bitbucks
 launchDate: 2019-09-03
 latestUpdate: 2021-03-18
 apkVersionName: "1.4.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 35
+reviews: 13
 size: 16M
 website: https://www.bitbucks.io
 repository: 

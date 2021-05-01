@@ -11,8 +11,8 @@ idd: 1047225016
 released: 2015-12-22
 updated: 2021-03-24
 version: "6.9.2"
-score: 4.59898
-reviews: 3566
+score: 4.59816
+reviews: 3581
 size: 82926592
 developerWebsite: https://cex.io
 repository: 

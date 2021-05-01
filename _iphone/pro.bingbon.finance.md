@@ -9,11 +9,11 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2021-04-22
-version: "2.30.0"
+updated: 2021-04-30
+version: "2.31.0"
 score: 5
 reviews: 1
-size: 53442560
+size: 53558272
 developerWebsite: https://bingbon.com
 repository: 
 issue: 
@@ -21,7 +21,7 @@ icon: pro.bingbon.finance.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-24
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 
