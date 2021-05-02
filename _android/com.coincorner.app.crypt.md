@@ -3,7 +3,7 @@ wsId:
 title: "CoinCorner – Buy & sell bitcoin. Crypto Wallet"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
 launchDate: 
@@ -18,16 +18,16 @@ repository:
 issue: 
 icon: com.coincorner.app.crypt.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-27
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-02
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CoinCorner
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: CoinCorner
 providerReddit: 
 
 redirect_from:
@@ -35,3 +35,8 @@ redirect_from:
 ---
 
 
+A search of the play store and the providers website, reveals no statements about how private keys are managed.
+
+This leads us to conclude the wallets funds are in control of the provider.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
