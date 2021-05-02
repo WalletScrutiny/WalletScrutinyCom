@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: metamask
 title: "MetaMask - Buy, Send and Swap Crypto"
 altTitle: 
 authors:
-
+- leo
 users: 1000000
 appId: io.metamask
 launchDate: 
@@ -13,13 +13,13 @@ stars: 3.2
 ratings: 3951
 reviews: 2193
 size: 28M
-website: 
+website: https://metamask.io
 repository: 
 issue: 
 icon: io.metamask.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-23
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-01
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,3 +35,4 @@ redirect_from:
 ---
 
 
+This is an ETH-only app and thus not a Bitcoin wallet.
