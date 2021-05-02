@@ -1,22 +1,22 @@
 ---
 wsId: coincorner
-title: "CoinCorner – Buy & sell bitcoin. Crypto Wallet"
+title: "CoinCorner - Bitcoin Wallet"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: com.coincorner.app.crypt
-launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "3.2.9"
-stars: 2.9
-ratings: 151
-reviews: 106
-size: 22M
-website: 
+appCountry: 
+idd: 917721788
+released: 2014-09-23
+updated: 2021-04-12
+version: "3.2.6"
+score: 4.2
+reviews: 10
+size: 53079040
+developerWebsite: https://www.coincorner.com
 repository: 
 issue: 
-icon: com.coincorner.app.crypt.png
+icon: com.coincorner.app.crypt.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-02
@@ -35,7 +35,7 @@ redirect_from:
 ---
 
 
-A search of the play store and the providers website, reveals no statements about how private keys are managed.
+A search of the app store and the providers website, reveals no statements about how private keys are managed.
 
 This leads us to conclude the wallets funds are in control of the provider.
 
