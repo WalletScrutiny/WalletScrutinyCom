@@ -159,10 +159,12 @@ var x, y
 x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", function (e) {
   y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
   y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
+  resizeLabelBold()
 })
 x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", function (e) {
   y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
   y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
+  resizeLabelBold()
 })
 updateModularPayload()
 document.body.addEventListener('keydown', function(e) {

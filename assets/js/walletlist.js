@@ -53,21 +53,24 @@ function toggleApp(id) {
   }
 }
 
-
-if (document.querySelectorAll(".-bold").length > 0) {
-  let c = document.querySelectorAll(".-bold");
-  for (i = 0; i < c.length; i++){
-    let t = c[i];
-    let p = t.parentNode.parentNode;
-    let pw = p.getBoundingClientRect().width * .9;
-    if (t.getBoundingClientRect().width > pw) {
-      let l = t.querySelectorAll("l")[0];
-      for (j = 15; j > 0; j--){
-        l.style['font-size'] = `${j*.3}rem`;
-        if (l.parentNode.getBoundingClientRect().width < p.getBoundingClientRect().width) {
-          break;
+function resizeLabelBold() {
+  if (document.querySelectorAll(".-bold").length > 0) {
+    let c = document.querySelectorAll(".-bold");
+    for (i = 0; i < c.length; i++) {
+      let t = c[i];
+      let p = t.parentNode.parentNode;
+      let pw = p.getBoundingClientRect().width * .9;
+      if (t.getBoundingClientRect().width > pw) {
+        let l = t.querySelectorAll("l")[0];
+        for (j = 15; j > 0; j--) {
+          l.style['font-size'] = `${j * .3}rem`;
+          if (l.parentNode.getBoundingClientRect().width < p.getBoundingClientRect().width) {
+            break;
+          }
         }
       }
     }
   }
 }
+
+resizeLabelBold();
