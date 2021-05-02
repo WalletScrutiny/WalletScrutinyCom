@@ -36,8 +36,8 @@ redirect_from:
 
 Searching the Pundix [support FAQ](https://support.pundix.com/) we find an FAQ that answers the private key managment question.
 
->Will I have a private key when setting up an account in XWallet app?
->No. Your email address and mobile number are required when setting up an XWallet app account.
+> **Will I have a private key when setting up an account in XWallet app?**<br>
+  No. Your email address and mobile number are required when setting up an XWallet app account.
 
 The wallet does not provide the user access to the private keys.
 
