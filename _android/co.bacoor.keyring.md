@@ -9,9 +9,9 @@ appId: co.bacoor.keyring
 launchDate: 
 latestUpdate: 2021-04-29
 apkVersionName: "1.3.0"
-stars: 4.8
-ratings: 10
-reviews: 7
+stars: 4.9
+ratings: 18
+reviews: 12
 size: 27M
 website: 
 repository: 

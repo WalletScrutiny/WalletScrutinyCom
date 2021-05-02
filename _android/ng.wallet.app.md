@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: ng.wallet.app
 launchDate: 
-latestUpdate: 2021-03-18
-apkVersionName: "2.471"
+latestUpdate: 2021-05-01
+apkVersionName: "2.472"
 stars: 4.2
-ratings: 1393
-reviews: 1147
+ratings: 1401
+reviews: 1152
 size: 16M
 website: 
 repository: 

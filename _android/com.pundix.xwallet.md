@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-23
 apkVersionName: "2.8.2"
 stars: 3.1
-ratings: 4948
-reviews: 2867
+ratings: 4950
+reviews: 2869
 size: 62M
 website: https://pundix.com
 repository: 
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Searching the Pundix [support FAQ](https://support.pundix.com/) we find an FAQ that answers the private key managment question.
 

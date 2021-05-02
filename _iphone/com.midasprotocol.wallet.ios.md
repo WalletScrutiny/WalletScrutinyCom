@@ -8,7 +8,7 @@ appId: com.midasprotocol.wallet.ios
 appCountry: 
 idd: 1436698193
 released: 2018-09-24
-updated: 2021-04-23
+updated: 2021-04-22
 version: "2.0"
 score: 4.85714
 reviews: 70

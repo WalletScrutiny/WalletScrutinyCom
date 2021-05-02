@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: casa.keymaster
 launchDate: 
-latestUpdate: 2021-04-28
-apkVersionName: "3.0.0"
-stars: 4.3
-ratings: 104
+latestUpdate: 2021-04-29
+apkVersionName: "3.0.1"
+stars: 4.4
+ratings: 105
 reviews: 25
 size: 30M
 website: https://keys.casa

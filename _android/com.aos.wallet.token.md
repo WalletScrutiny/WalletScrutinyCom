@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 A clear statement can be found in the [play store description](https://play.google.com/store/apps/details?id=com.aos.wallet.token) regarding the management of private keys.
 
 > "Superb Security: Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will stay safe under your ultimate control."

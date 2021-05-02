@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 There is no statement regarding how private keys are managed in the play store description or on the [providers website](https://prizmbit.com/) or FAQ.
 
 Our verdict: This 'wallet' is custodial and therefore **not verifiable**.

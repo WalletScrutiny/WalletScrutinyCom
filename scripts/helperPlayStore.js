@@ -100,6 +100,10 @@ function writeResult(app, header, iconExtension, body) {
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
   process.stdout.write("🤖")
+  if (header.stars != "0.0" && app.scoreText == "0.0" ||
+      header.reviews && header.reviews > 10 && app.reviews < 0.9 * header.reviews) {
+    console.error(`Something's wrong with ${header.appId}!`)
+  }
   f.write(`---
 wsId: ${header.wsId || ""}
 title: "${app.title}"

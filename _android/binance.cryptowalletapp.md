@@ -9,9 +9,9 @@ appId: binance.cryptowalletapp
 launchDate: 
 latestUpdate: 2021-04-05
 apkVersionName: "9.8"
-stars: 3.7
-ratings: 9
-reviews: 7
+stars: 3.8
+ratings: 10
+reviews: 8
 size: 9.4M
 website: 
 repository: 

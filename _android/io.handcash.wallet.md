@@ -4,7 +4,7 @@ title: "HandCash"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: io.handcash.wallet
 launchDate: 2019-09-10
 latestUpdate: 2021-04-17

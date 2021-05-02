@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-20
 apkVersionName: "3.9"
 stars: 2.9
-ratings: 891
-reviews: 638
+ratings: 895
+reviews: 641
 size: 17M
 website: https://www.buyucoin.com
 repository: 

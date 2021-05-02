@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.galoyapp
 launchDate: 
-latestUpdate: 2021-04-28
-apkVersionName: "1.4.2"
+latestUpdate: 2021-05-01
+apkVersionName: "1.4.3"
 stars: 4.1
 ratings: 32
 reviews: 22
-size: 38M
+size: 31M
 website: 
 repository: 
 issue: 

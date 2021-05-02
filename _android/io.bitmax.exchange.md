@@ -9,9 +9,9 @@ appId: io.bitmax.exchange
 launchDate: 
 latestUpdate: 2021-04-25
 apkVersionName: "2.4.7"
-stars: 4.4
-ratings: 2735
-reviews: 923
+stars: 4.3
+ratings: 2744
+reviews: 924
 size: 22M
 website: https://ascendex.com
 repository: 

@@ -9,9 +9,9 @@ appId: cash.usdx.wallet
 launchDate: 
 latestUpdate: 2020-11-25
 apkVersionName: "1.34.2"
-stars: 4.1
-ratings: 5475
-reviews: 4684
+stars: 4.2
+ratings: 5474
+reviews: 4683
 size: 37M
 website: https://usdx.cash
 repository: 
@@ -33,6 +33,7 @@ providerReddit: USDXwallet
 redirect_from:
 
 ---
+
 
 There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token). <br>
 The wallet may allow you to send it bitcoins to receive one of these tokens but there does not seem to be any bitcoins stored for the user.

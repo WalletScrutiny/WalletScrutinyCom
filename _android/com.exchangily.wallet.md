@@ -10,8 +10,8 @@ appId: com.exchangily.wallet
 launchDate: 
 latestUpdate: 2021-04-27
 apkVersionName: "2.0.18"
-stars: 4.0
-ratings: 25
+stars: 4.1
+ratings: 26
 reviews: 18
 size: 16M
 website: https://exchangily.com

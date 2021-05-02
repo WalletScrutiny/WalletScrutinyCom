@@ -4,14 +4,14 @@ title: "PointPay"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.pointpay.bank
 launchDate: 
-latestUpdate: 2021-04-25
-apkVersionName: "5.2.7"
-stars: 4.4
-ratings: 1220
-reviews: 720
+latestUpdate: 2021-05-01
+apkVersionName: "5.2.8"
+stars: 3.9
+ratings: 1353
+reviews: 800
 size: 71M
 website: https://wallet.pointpay.io
 repository: 

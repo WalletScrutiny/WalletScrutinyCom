@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.bitpie
 launchDate: 2016-10-23
-latestUpdate: 2021-04-22
-apkVersionName: "5.0.024"
+latestUpdate: 2021-05-01
+apkVersionName: "5.0.025"
 stars: 3.7
-ratings: 708
-reviews: 368
+ratings: 709
+reviews: 369
 size: 59M
 website: http://bitpie.com
 repository: 

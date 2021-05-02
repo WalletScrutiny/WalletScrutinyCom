@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).
 It would be prudent to assume the private keys are under the control of the provider.
 

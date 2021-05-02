@@ -8,11 +8,11 @@ appId: com.tp.ios
 appCountry: 
 idd: 1436028697
 released: 2018-09-23
-updated: 2021-04-06
-version: "1.5.6"
+updated: 2021-05-01
+version: "1.5.7"
 score: 3.75728
 reviews: 103
-size: 124793856
+size: 126216192
 developerWebsite: 
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
