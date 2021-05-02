@@ -1,19 +1,19 @@
 ---
 wsId: usdxwallet
-title: "USDX Wallet - blockchain wallet with stable crypto"
+title: "USDX Wallet money transfer app"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: cash.usdx.wallet
-launchDate: 
-latestUpdate: 2020-11-25
-apkVersionName: "1.34.2"
-stars: 4.1
-ratings: 5475
-reviews: 4684
-size: 37M
-website: https://usdx.cash
+appCountry: 
+idd: 1367451869
+released: 2018-04-23
+updated: 2020-11-28
+version: "1.34.2"
+score: 4.7451
+reviews: 153
+size: 55813120
+developerWebsite: https://usdx.cash
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg
@@ -34,8 +34,7 @@ redirect_from:
 
 ---
 
-There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token). <br>
+There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token)
 The wallet may allow you to send it bitcoins to receive one of these tokens but there does not seem to be any bitcoins stored for the user.
 
 Our verdict: This wallet does not support BTC.
-
