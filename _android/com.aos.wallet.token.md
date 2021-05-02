@@ -38,7 +38,7 @@ A clear statement can be found in the [play store description](https://play.goog
 
 > "Superb Security: Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will stay safe under your ultimate control."
 
-Sounds non-custodial, but there are a number of warning signs about this wallet that seem very scammy...
+Sounds non-custodial, but we couldn't find any source code to look deeper. Also there are a number of warning signs about this wallet that seem very scammy ...
 
 **Warning**
 I would be cautious of this wallet, there seem to be anumber of warning signs
