@@ -1,22 +1,22 @@
 ---
 wsId: midas
-title: "Midas Crypto Wallet: Bitcoin, Ethereum, XRP, EOS"
+title: "Midas Protocol - Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
-appId: com.midasprotocol.wallet.android
-launchDate: 
-latestUpdate: 2021-04-21
-apkVersionName: "2.0"
-stars: 4.6
-ratings: 419
-reviews: 256
-size: 73M
-website: https://midasprotocol.io/
+appId: com.midasprotocol.wallet.ios
+appCountry: 
+idd: 1436698193
+released: 2018-09-24
+updated: 2021-04-23
+version: "2.0"
+score: 4.85714
+reviews: 70
+size: 146430976
+developerWebsite: https://midasprotocol.io/
 repository: 
 issue: 
-icon: com.midasprotocol.wallet.android.png
+icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-01
