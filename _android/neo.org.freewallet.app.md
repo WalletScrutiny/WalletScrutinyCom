@@ -3,7 +3,7 @@ wsId:
 title: "NEO Wallet. Send & Receive the coin－Freewallet"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: neo.org.freewallet.app
 launchDate: 
@@ -13,13 +13,13 @@ stars: 4.2
 ratings: 202
 reviews: 145
 size: 7.4M
-website: 
+website: https://freewallet.org/
 repository: 
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-27
+verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-02
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,4 +34,7 @@ redirect_from:
 
 ---
 
+This wallet is built for the management of an alt coin, NEO token.
+
+Our verdict: This is not a wallet for holding bitcoins.
 
