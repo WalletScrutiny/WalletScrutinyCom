@@ -19,7 +19,7 @@ repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
 issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7
 icon: org.bitcoin.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-02
 reviewStale: true
 signer: 
