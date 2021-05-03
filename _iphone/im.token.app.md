@@ -15,7 +15,7 @@ reviews: 242
 size: 106351616
 developerWebsite: https://token.im
 repository: 
-issue: 
+issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
