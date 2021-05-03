@@ -19,7 +19,7 @@ issue:
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-05-02
+date: 2021-05-03
 reviewStale: true
 signer: 
 reviewArchive:
@@ -34,6 +34,15 @@ redirect_from:
 
 ---
 
-Asked Twitter - "Hi with the mobile wallet app, the users is given 24 words backup recovery. Do you as the provider also keep a copy of these for backup, or are they the sole ownership of the wallet user?"
+After some research on this wallet it was not clear as to how the app manages private keys, so I reached out to the twitter handle...
 
+"Hi with the mobile wallet app, the user is given 24 words backup recovery. Do you as the provider also keep a copy of these for backup, or are they the sole ownership of the wallet user?"
+
+And the teams speedy response....
+
+> "D'CENT Wallet is a completely self-custody wallet. User has the sole ownership and access to the wallet and assets(privates keys) that are created in it. <br>
+> The mnemonic code is created randomly when the wallet is installed. Since D'CENT(company) does not keep a backup at all, you will lose your assets if you lose the recovery words. Please be careful in handling your confidential information."
+
+With the provider confirming they have a non-custodial wallet we need to locate some source code in order to check the wallet for reproducibility. <br>
+I have contacted the proivder to direct us to the correct [repository](https://github.com/DcentWallet)
 
