@@ -44,6 +44,14 @@ And the teams speedy response....
 > The mnemonic code is created randomly when the wallet is installed. Since D'CENT(company) does not keep a backup at all, you will lose your assets if you lose the recovery words. Please be careful in handling your confidential information."
 
 With the provider confirming they have a non-custodial wallet we need to locate some source code in order to check the wallet for reproducibility. <br>
-I have contacted the proivder to direct us to the correct [repository](https://github.com/DcentWallet)
+I have contacted the provider to direct us to the correct [repository](https://github.com/DcentWallet)
 
-Our verdict: This 'wallet' claims to be non-custodial, however with no public source code found at the providers [github repository](https://github.com/DcentWallet) it is **not verifiable**.
+However their response below, was that the source code is only partialy open source.
+
+> Partial code open: https://github.com/DcentWallet
+> The secure OS is proprietary and is not open source.
+> Here is an article on the 3rd party security evaluation on D'CENT Wallet: https://medium.com/dcentwallet/coinspect-audit-of-the-dcent-wallet-b8a6cf50cfa4
+
+They have pointed to a blog post regarding a third party audit of the software, however this is a blog and does not provide any documentation as to the audit results itself.<br>
+
+Our verdict: This 'wallet' claims to be non-custodial, however with not being fully open source at the providers [github repository](https://github.com/DcentWallet) it is **not verifiable**.
