@@ -4,7 +4,7 @@ title: "Bridge Wallet, the Swiss app for Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.mtpelerin.bridge
 launchDate: 
 latestUpdate: 2021-04-19

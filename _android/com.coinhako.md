@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-05
 apkVersionName: "2.2.4"
 stars: 2.5
-ratings: 836
-reviews: 673
+ratings: 837
+reviews: 674
 size: 48M
 website: https://www.coinhako.com
 repository: 

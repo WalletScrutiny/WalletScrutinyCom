@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.getchange.wallet.cordova
 launchDate: 
-latestUpdate: 2021-04-27
+latestUpdate: 2021-05-03
 apkVersionName: "10.12.0"
 stars: 4.4
-ratings: 1935
-reviews: 903
+ratings: 1937
+reviews: 904
 size: 32M
 website: https://getchange.com
 repository: 

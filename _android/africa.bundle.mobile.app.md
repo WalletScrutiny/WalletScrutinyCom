@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-17
 apkVersionName: "2.7.5"
 stars: 4.5
-ratings: 6927
-reviews: 4349
+ratings: 6961
+reviews: 4367
 size: 29M
 website: https://bundle.africa/
 repository: 

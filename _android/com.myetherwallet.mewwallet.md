@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-29
 apkVersionName: "1.2.9"
 stars: 3.1
-ratings: 4237
-reviews: 1962
+ratings: 4240
+reviews: 1964
 size: 56M
 website: http://mewwallet.com
 repository: 

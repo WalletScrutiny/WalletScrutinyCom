@@ -9,9 +9,9 @@ appId: com.kr.iotrust.dcent.wallet
 launchDate: 
 latestUpdate: 2021-04-26
 apkVersionName: "5.3.0"
-stars: 4.4
-ratings: 245
-reviews: 171
+stars: 0.0
+ratings: 
+reviews: 
 size: 31M
 website: 
 repository: 

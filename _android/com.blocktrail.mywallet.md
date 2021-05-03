@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2019-04-03
 apkVersionName: "4.4.7"
 stars: 3.5
-ratings: 8070
-reviews: 3833
+ratings: 8071
+reviews: 3834
 size: 13M
 website: https://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet

@@ -10,8 +10,8 @@ launchDate: 2015-06-01
 latestUpdate: 2021-04-26
 apkVersionName: "4.10.6"
 stars: 3.7
-ratings: 17301
-reviews: 8811
+ratings: 17331
+reviews: 8824
 size: 45M
 website: https://www.ripio.com/ar/wallet
 repository: 

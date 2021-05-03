@@ -11,7 +11,7 @@ latestUpdate: 2021-05-02
 apkVersionName: "0.4.14"
 stars: 4.1
 ratings: 352
-reviews: 163
+reviews: 164
 size: 28M
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile
