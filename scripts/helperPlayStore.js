@@ -5,6 +5,8 @@ const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
+const probablyDefunct = []
+const weirdBug = []
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -73,6 +75,7 @@ function refreshFile(fileName) {
         writeResult(app, header, iconExtension, body)
       })
     }, function(err) {
+      probablyDefunct.push(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
       console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
     })
   }
@@ -102,7 +105,9 @@ function writeResult(app, header, iconExtension, body) {
   process.stdout.write("🤖")
   if (header.stars != "0.0" && app.scoreText == "0.0" ||
       header.reviews && header.reviews > 10 && app.reviews < 0.9 * header.reviews) {
-    console.error(`Something's wrong with ${header.appId}!`)
+    weirdBug.push(header.appId)
+    // TODO: Make it print this list only once when all apps are processed.
+    console.error(`The following apps were updated in unnatural ways:\n${weirdBug.join(" ")}`)
   }
   f.write(`---
 wsId: ${header.wsId || ""}
