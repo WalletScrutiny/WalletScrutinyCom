@@ -18,7 +18,7 @@ repository: https://github.com/DcentWallet
 issue: 
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-03
 reviewStale: true
 signer: 
@@ -46,3 +46,4 @@ And the teams speedy response....
 With the provider confirming they have a non-custodial wallet we need to locate some source code in order to check the wallet for reproducibility. <br>
 I have contacted the proivder to direct us to the correct [repository](https://github.com/DcentWallet)
 
+Our verdict: This 'wallet' claims to be non-custodial, however with no public source code found at the providers [github repository](https://github.com/DcentWallet) it is **not verifiable**.
