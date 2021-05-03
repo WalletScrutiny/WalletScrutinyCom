@@ -1,25 +1,25 @@
 ---
 wsId: imToken
-title: "imToken - Bitcoin & Ethereum Wallet"
+title: "imToken - BTC ＆ ETH Wallet"
 altTitle: 
 authors:
 - leo
-users: 500000
 appId: im.token.app
-launchDate: 
-latestUpdate: 2021-04-30
-apkVersionName: "2.9.1"
-stars: 4.3
-ratings: 2661
-reviews: 1533
-size: 49M
-website: https://token.im
+appCountry: 
+idd: 1384798940
+released: 2018-06-07
+updated: 2021-03-31
+version: "2.9.0"
+score: 4.57437
+reviews: 242
+size: 106351616
+developerWebsite: https://token.im
 repository: 
 issue: 
-icon: im.token.app.png
+icon: im.token.app.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+date: 2021-05-02
 reviewStale: true
 signer: 
 reviewArchive:
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the description we read:
 
