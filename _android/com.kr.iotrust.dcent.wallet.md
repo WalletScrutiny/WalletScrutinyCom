@@ -56,7 +56,7 @@ However their response below, was that the source code is only partialy open sou
 > Here is an article on the 3rd party security evaluation on D'CENT Wallet: https://medium.com/dcentwallet/coinspect-audit-of-the-dcent-wallet-b8a6cf50cfa4
 
 They have pointed to a blog post regarding a third party audit of the software, however this is a blog and does not provide any documentation as to the audit results itself.<br>
-This was pointing at there hardware device software, so I aksed a little more specically on the software wallet.
+This was pointing at there hardware device software, so I asked a little more specifically on the software wallet.
 
 "... with the software wallet option however is that part of the source code open sourced and public?"
 
