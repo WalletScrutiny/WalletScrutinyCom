@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 A search of the app store and the providers website, reveals no statements about how private keys are managed.
 
 This leads us to conclude the wallets funds are in control of the provider.

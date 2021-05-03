@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: coin98.crypto.finance.media
 launchDate: 
-latestUpdate: 2021-04-28
-apkVersionName: "9.3.0"
+latestUpdate: 2021-05-02
+apkVersionName: "9.3.1"
 stars: 4.7
-ratings: 5133
-reviews: 3740
+ratings: 5143
+reviews: 3746
 size: 63M
 website: https://coin98.app/
 repository: 

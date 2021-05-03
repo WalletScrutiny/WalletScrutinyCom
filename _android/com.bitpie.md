@@ -10,7 +10,7 @@ launchDate: 2016-10-23
 latestUpdate: 2021-05-01
 apkVersionName: "5.0.025"
 stars: 3.7
-ratings: 709
+ratings: 710
 reviews: 369
 size: 59M
 website: http://bitpie.com

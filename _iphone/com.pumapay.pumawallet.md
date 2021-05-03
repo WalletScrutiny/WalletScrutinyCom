@@ -10,8 +10,8 @@ idd: 1376601366
 released: 2018-06-05
 updated: 2021-03-26
 version: "2.93"
-score: 3.93333
-reviews: 15
+score: 3.75
+reviews: 16
 size: 114463744
 developerWebsite: https://pumapay.io
 repository: 

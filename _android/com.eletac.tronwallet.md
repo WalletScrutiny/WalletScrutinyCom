@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.eletac.tronwallet
 launchDate: 
-latestUpdate: 2021-02-01
-apkVersionName: "1.2.4"
+latestUpdate: 2021-05-02
+apkVersionName: "1.2.7"
 stars: 4.6
 ratings: 1141
 reviews: 595
-size: 113M
+size: 96M
 website: https://www.vision-crypto.com
 repository: 
 issue: 

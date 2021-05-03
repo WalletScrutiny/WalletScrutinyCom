@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 This app is only for retrival of bitcoin address balance and transaction information.
 
 Our verdict: This is **not a wallet**.

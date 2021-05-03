@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-09
 apkVersionName: "2.0.5"
 stars: 4.8
-ratings: 4322
-reviews: 1632
+ratings: 4347
+reviews: 1644
 size: 12M
 website: https://www.bexplus.com
 repository: 
