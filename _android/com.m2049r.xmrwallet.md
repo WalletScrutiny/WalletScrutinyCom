@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.m2049r.xmrwallet
 launchDate: 
-latestUpdate: 2021-03-23
-apkVersionName: "1.18.1 'ChAdOx1'"
+latestUpdate: 2021-05-04
+apkVersionName: "2.0.5 'Puginarug'"
 stars: 3.5
 ratings: 688
 reviews: 415

@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.etoro.openbook
 launchDate: 2013-11-05
-latestUpdate: 2021-04-22
-apkVersionName: "317.0.0"
+latestUpdate: 2021-05-04
+apkVersionName: "320.0.0"
 stars: 4.2
-ratings: 79421
-reviews: 31123
+ratings: 79568
+reviews: 31172
 size: 56M
 website: https://www.etoro.com
 repository: 

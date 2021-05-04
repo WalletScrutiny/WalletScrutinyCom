@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-27
 apkVersionName: "6.2.7"
 stars: 3.7
-ratings: 8821
-reviews: 3464
+ratings: 8837
+reviews: 3477
 size: 65M
 website: https://www.huobi.com/en-us
 repository: 

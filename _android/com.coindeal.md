@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.
 The exchange provider typically stores users bitcoins, partly in cold storage, partly hot.
 

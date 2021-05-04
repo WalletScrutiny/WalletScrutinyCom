@@ -11,7 +11,7 @@ latestUpdate: 2021-05-01
 apkVersionName: "5.0.025"
 stars: 3.7
 ratings: 710
-reviews: 369
+reviews: 370
 size: 59M
 website: http://bitpie.com
 repository: 

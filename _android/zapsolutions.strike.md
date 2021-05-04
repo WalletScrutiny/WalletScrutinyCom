@@ -4,14 +4,14 @@ title: "Strike: Bitcoin & Lightning Payments"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: zapsolutions.strike
 launchDate: 
 latestUpdate: 2021-05-01
 apkVersionName: "v72"
-stars: 4.2
-ratings: 1431
-reviews: 508
+stars: 4.1
+ratings: 1513
+reviews: 543
 size: 9.0M
 website: 
 repository: 

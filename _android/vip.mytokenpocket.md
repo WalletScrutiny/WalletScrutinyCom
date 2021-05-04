@@ -9,9 +9,9 @@ appId: vip.mytokenpocket
 launchDate: 
 latestUpdate: 2021-04-30
 apkVersionName: "1.2.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 6614
+reviews: 3149
 size: 43M
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-android

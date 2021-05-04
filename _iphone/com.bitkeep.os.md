@@ -10,8 +10,8 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2021-03-23
 version: "5.1.2"
-score: 3
-reviews: 6
+score: 3.28571
+reviews: 7
 size: 62444544
 developerWebsite: https://bitkeep.com
 repository: 

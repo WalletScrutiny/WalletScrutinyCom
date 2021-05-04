@@ -9,9 +9,9 @@ appId: com.kr.iotrust.dcent.wallet
 launchDate: 
 latestUpdate: 2021-04-26
 apkVersionName: "5.3.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 246
+reviews: 172
 size: 31M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>
 As with using the wallet with a hardware device the private keys would be managed by that device and we are not reviewing that setup.

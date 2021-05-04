@@ -4,13 +4,13 @@ title: "arzjoo"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.arzjoo
 launchDate: 
 latestUpdate: 2021-04-15
 apkVersionName: "1.4.0"
 stars: 3.9
-ratings: 2193
+ratings: 2195
 reviews: 902
 size: Varies with device
 website: https://arzjoo.com

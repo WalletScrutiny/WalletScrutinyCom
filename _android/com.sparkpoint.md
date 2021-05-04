@@ -11,7 +11,7 @@ launchDate:
 latestUpdate: 2021-03-30
 apkVersionName: "6.3.1"
 stars: 3.0
-ratings: 482
+ratings: 483
 reviews: 415
 size: 13M
 website: https://sparkpoint.io/
