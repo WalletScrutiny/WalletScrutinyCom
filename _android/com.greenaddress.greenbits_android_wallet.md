@@ -15,14 +15,19 @@ reviews: 424
 size: 34M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
-issue: https://github.com/Blockstream/green_android/issues/75
+issue: https://github.com/Blockstream/green_android/issues/116
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-01
-reviewStale: true
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-03
+reviewStale: false
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-05-03
+  version: "3.5.8"
+  apkHash: 950446b62e9e1a536a2341155949750b9856a24768374aac3ce74f2e91394356
+  gitRevision: a393a14039f9ee960578b19999c30df46191dd01
+  verdict: reproducible
 - date: 2021-04-01
   version: "3.5.4"
   apkHash: 4ed9729881676b84d7ed65b0f0bd583c11c465186e896e96888c5d323e8c5002
@@ -130,23 +135,32 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.5.8
-apkVersionCode: 22000358
-apkHash:        950446b62e9e1a536a2341155949750b9856a24768374aac3ce74f2e91394356
+apkVersionName: 3.5.9
+apkVersionCode: 22000359
+apkHash:        f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000358/apktool.yml differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000359/apktool.yml differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-hdpi/ic_tor_60.png and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-hdpi/ic_tor_60.png differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-xxhdpi/ic_tor_60.png and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-xxhdpi/ic_tor_60.png differ
 
 Revision, tag (and its signature):
-object bace0a45bafafe350ac8231307f44bfb5e08527a
+object 215fd772c93093e56f43c42f3b87651901639623
 type commit
-tag release_3.5.8
-tagger Luca Vaccaro <me@lvaccaro.com> 1618941547 +0200
+tag release_3.5.9
+tagger Domenico Gabriele <domenico@blockstream.com> 1619702421 +0200
 
-Release 3.5.8
+Release 3.5.9
 ```
 
-which is what we want to see to give this wallet the verdict: **reproducible**
+which is unfortunately a tiny deviation from
+[the file we got from their GitHub](https://github.com/Blockstream/green_android/releases/download/release_3.5.9/green-production-release.apk).
+
+As that file is signed for a Google Play release and might already be in
+rollout, we have to give the verdict **not verifiable**.
+
+If it were not signed for Google Play release, we could test it without a
+verdict upon request.
