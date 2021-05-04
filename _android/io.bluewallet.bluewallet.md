@@ -43,7 +43,7 @@ redirect_from:
 
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is
-hosted by BlueWallet."* without any further explanation that his means that
+hosted by BlueWallet."* without any further explanation that this means that
 BlueWallet which appears to not be a legal entity is in control of the Bitcoins
 on those LN accounts. They also closed
 [the issue about the disclaimer](https://github.com/BlueWallet/BlueWallet/issues/2364).
@@ -56,4 +56,3 @@ remains **not verifiable**.
 
 [This issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/117)
 was brought up by [Lynn](https://gitlab.com/losnappas).
-
