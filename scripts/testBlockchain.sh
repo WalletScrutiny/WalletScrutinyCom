@@ -8,7 +8,7 @@ test() {
   prepare
 
   # build
-  docker run -it --volume $PWD:/mnt --workdir /mnt --rm $wsContainer bash -x -c \
+  podman run -it --volume $PWD:/mnt --workdir /mnt --rm $wsContainer bash -x -c \
       './scripts/quick_start.sh; ./gradlew :app:assembleEnvProdRelease -x :app:lintVitalEnvProdRelease'
       
   # collect results

@@ -23,6 +23,11 @@ date: 2021-04-01
 reviewStale: true
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-04-01
+  version: "3.5.4"
+  apkHash: 4ed9729881676b84d7ed65b0f0bd583c11c465186e896e96888c5d323e8c5002
+  gitRevision: 512303fa6c495727005df2cb8e1c853128ee03ca
+  verdict: reproducible
 - date: 2021-02-05
   version: "3.4.9"
   apkHash: fd146d68348e332a6a6e2f548c473599ba684cbb6107328a3871de09259f00e5
@@ -125,23 +130,23 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.5.4
-apkVersionCode: 22000354
-apkHash:        4ed9729881676b84d7ed65b0f0bd583c11c465186e896e96888c5d323e8c5002
+apkVersionName: 3.5.8
+apkVersionCode: 22000358
+apkHash:        950446b62e9e1a536a2341155949750b9856a24768374aac3ce74f2e91394356
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000354/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000354/apktool.yml differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000354/original/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000354/original/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000354/original/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000358/apktool.yml differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000358/original/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 81f04a059d23f9447176c538f775d5aef5cb09af
+object bace0a45bafafe350ac8231307f44bfb5e08527a
 type commit
-tag release_3.5.4
-tagger Luca Vaccaro <me@lvaccaro.com> 1616626426 +0100
+tag release_3.5.8
+tagger Luca Vaccaro <me@lvaccaro.com> 1618941547 +0200
 
-Release 3.5.4
+Release 3.5.8
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**

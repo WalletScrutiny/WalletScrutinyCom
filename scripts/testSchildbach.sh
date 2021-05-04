@@ -8,7 +8,7 @@ test() {
   prepare
 
   # build
-  docker run -it --volume $workDir/app:/mnt --workdir /mnt --rm $wsContainer bash -x -c \
+  podman run -it --volume $workDir/app:/mnt --workdir /mnt --rm $wsContainer bash -x -c \
       'yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"; \
       apt update && apt install gradle -y; \
       gradle clean :wallet:assProdRel'
