@@ -1,22 +1,22 @@
 ---
 wsId: XCOEX
-title: "XCOEX: Cryptocurrency Exchange & Blockchain Wallet"
+title: "XCOEX: Cryptocurrency Exchange"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: com.xcoex.mobile
-launchDate: 
-latestUpdate: 2021-04-22
-apkVersionName: "1.16.0"
-stars: 3.7
-ratings: 148
-reviews: 118
-size: 37M
-website: https://xcoex.com/
+appCountry: 
+idd: 1447945810
+released: 2019-01-22
+updated: 2021-04-23
+version: "1.16.0"
+score: 
+reviews: 
+size: 54894592
+developerWebsite: https://xcoex.com/
 repository: 
 issue: 
-icon: com.xcoex.mobile.png
+icon: com.xcoex.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-04
