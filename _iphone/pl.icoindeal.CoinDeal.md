@@ -4,19 +4,19 @@ title: "CoinDeal - Bitcoin Buy & Sell"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
-appId: com.coindeal
-launchDate: 
-latestUpdate: 2020-08-18
-apkVersionName: "1.0.8"
-stars: 3.7
-ratings: 137
-reviews: 82
-size: 11M
-website: https://coindeal.com/
+appId: pl.icoindeal.CoinDeal
+appCountry: 
+idd: 1482619122
+released: 2019-11-11
+updated: 2020-08-18
+version: "1.0.6"
+score: 1
+reviews: 1
+size: 24220672
+developerWebsite: https://coindeal.com/
 repository: 
 issue: 
-icon: com.coindeal.png
+icon: pl.icoindeal.CoinDeal.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-04
