@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinDeal
 title: "CoinDeal - Bitcoin Buy & Sell"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.coindeal
 launchDate: 
@@ -13,25 +13,31 @@ stars: 3.7
 ratings: 137
 reviews: 82
 size: 11M
-website: 
+website: https://coindeal.com/
 repository: 
 issue: 
 icon: com.coindeal.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-04
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coindealcom
+providerLinkedIn: coindealcom
+providerFacebook: coindealcom
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.
+The exchange provider typically stores users bitcoins, partly in cold storage, partly hot.
+
+This leads us to conclude the wallet funds are in control of the provider.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
