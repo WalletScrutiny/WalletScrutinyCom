@@ -5,6 +5,11 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.collection == "android" %}
+  {% assign faCollection = "google-play" %}
+{% else %}
+  {% assign faCollection = "app-store" %}
+{% endif %}
 
 {% comment %}
   Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
@@ -27,7 +32,8 @@
     <div style="position:relative">
       <div class="flex-r">
         <div class="app_logo">
-            <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ platform }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+          <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+          <i class="fab fa-{{ faCollection }}"></i>
         </div>
         <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
       </div>
