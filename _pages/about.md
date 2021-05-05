@@ -64,7 +64,7 @@ author_profile: true
 
 {% include grid_of_wallets_proportional.html %}
 
-{% assign recent_posts = site.android | concat: site.iphone | sort: "collection" | sort: "wsId" | sort: "date" | slice: -20, 20 %}
+{% assign recent_posts = site.android | concat: site.iphone | sort: "wsId" | sort: "date" | slice: -20, 20 %}
 <h2 class="section-label" id="recently">20 Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }} to {{ recent_posts.last.date | date: '%b %e' }})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
 <div class="page-section">
   <div id="tableofwallets3">
