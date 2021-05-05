@@ -1380,8 +1380,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-content: center;
   justify-content: center;
   background-color: var(--shadow-3);
-  background-image: radial-gradient(var(--gauze), var(--gauze) 50%, transparent 50%);
-  background-size: 3px 3px;
   z-index: 999;
 }
 
