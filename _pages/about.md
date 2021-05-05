@@ -47,16 +47,13 @@ author_profile: true
 
 
 <div id="modularWalletPayload">
-
+  <!--
+    The content of this div gets replaced if JS is enabled.
+  -->
   {% assign platform = "android" %}
   {% assign verdicts = "reproducible" | split: "," %}
   {% assign selectedVerdict = "reproducible" %}
   {% include list_of_wallets.html %}
-
-  <!-- <a href="{{ base_path }}/moreApps">more Android Play Store apps</a> -->
-
-  <!-- <a href="{{ base_path }}/apple">more Apple App Store apps</a> -->
-
 </div>
 
 
@@ -66,6 +63,19 @@ author_profile: true
 
 
 {% include grid_of_wallets_proportional.html %}
+
+{% assign recent_posts = site.android | concat: site.iphone | sort: "collection" | sort: "wsId" | sort: "date" | slice: -20, 20 %}
+<h2 class="section-label" id="recently">20 Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }} to {{ recent_posts.last.date | date: '%b %e' }})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
+<div class="page-section">
+  <div id="tableofwallets3">
+    <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
+    <div class="flexi-list">
+      {% for post in recent_posts %}
+        {% include list_of_wallets_item.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
 

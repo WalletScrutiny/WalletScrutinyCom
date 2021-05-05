@@ -1728,3 +1728,10 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     margin-top: 0;
   }
 }
+
+.app_logo > .fab {
+    position: absolute;
+    top: 47px;
+    font-size: 18px;
+    right: 0px;
+}
