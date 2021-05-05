@@ -9,8 +9,8 @@ appId: com.beecrypt.beecrypthd
 launchDate: 
 latestUpdate: 2021-04-23
 apkVersionName: "3.2"
-stars: 3.9
-ratings: 24
+stars: 4.0
+ratings: 25
 reviews: 16
 size: 44M
 website: 

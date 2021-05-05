@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.lykkex.LykkeWallet
 launchDate: 
-latestUpdate: 2020-04-07
-apkVersionName: "12.7.7"
+latestUpdate: 2021-05-05
+apkVersionName: "12.7.8"
 stars: 3.5
 ratings: 569
 reviews: 346

@@ -9,9 +9,9 @@ appId: com.bankofhodlers.mobile
 launchDate: 
 latestUpdate: 2021-05-01
 apkVersionName: "2.1.0"
-stars: 4.2
-ratings: 130
-reviews: 63
+stars: 4.3
+ratings: 134
+reviews: 64
 size: 27M
 website: 
 repository: 

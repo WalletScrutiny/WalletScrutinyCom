@@ -1,6 +1,6 @@
 ---
 wsId: Celsius
-title: "Celsius - Crypto Wallet"
+title: "Celsius - Secure Crypto Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: network.celsius.wallet
 appCountry: 
 idd: 1387885523
 released: 2018-06-20
-updated: 2021-02-25
-version: "4.8.0"
-score: 4.06388
-reviews: 908
-size: 45212672
+updated: 2021-05-05
+version: "4.8.1"
+score: 4.04068
+reviews: 934
+size: 45571072
 developerWebsite: https://celsius.network/app
 repository: 
 issue: 

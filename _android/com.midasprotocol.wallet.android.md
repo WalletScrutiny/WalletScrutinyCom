@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-21
 apkVersionName: "2.0"
 stars: 4.6
-ratings: 422
-reviews: 258
+ratings: 423
+reviews: 259
 size: 73M
 website: https://midasprotocol.io/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: etorowallet
-title: "eToro Wallet"
+title: "eToro Money"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.etoro.wallet
 appCountry: 
 idd: 1397831096
 released: 2019-03-05
-updated: 2021-04-28
-version: "23.0.0"
+updated: 2021-05-05
+version: "25.0.0"
 score: 1.78571
 reviews: 84
-size: 24184832
+size: 25518080
 developerWebsite: https://www.etoro.com/crypto/wallet
 repository: 
 issue: 

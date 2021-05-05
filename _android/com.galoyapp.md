@@ -4,7 +4,7 @@ title: "Bitcoin Beach Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.galoyapp
 launchDate: 
 latestUpdate: 2021-05-01

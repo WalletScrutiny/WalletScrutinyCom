@@ -9,8 +9,8 @@ appId: com.coinorbis.wallet
 launchDate: 
 latestUpdate: 2019-01-25
 apkVersionName: "1.2.1"
-stars: 4.5
-ratings: 8
+stars: 4.6
+ratings: 9
 reviews: 3
 size: 9.0M
 website: 

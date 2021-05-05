@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.myetherwallet.mewwallet
 launchDate: 
-latestUpdate: 2021-04-29
-apkVersionName: "1.2.10"
-stars: 3.1
-ratings: 4251
-reviews: 1969
+latestUpdate: 2021-05-04
+apkVersionName: "1.2.11"
+stars: 3.2
+ratings: 4262
+reviews: 1972
 size: 56M
 website: http://mewwallet.com
 repository: 

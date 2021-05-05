@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-12-25
 apkVersionName: "1.0.6"
 stars: 3.0
-ratings: 1526
-reviews: 925
+ratings: 1529
+reviews: 926
 size: 25M
 website: https://bitcoin.black/
 repository: 

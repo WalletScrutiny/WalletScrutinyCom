@@ -4,13 +4,13 @@ title: "LiteBit - Buy & sell Bitcoin"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.flutter.litebit
 launchDate: 
 latestUpdate: 2021-04-22
 apkVersionName: "3.0.6"
-stars: 2.2
-ratings: 628
+stars: 2.3
+ratings: 629
 reviews: 482
 size: 82M
 website: https://www.litebit.eu

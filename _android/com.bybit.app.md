@@ -9,9 +9,9 @@ appId: com.bybit.app
 launchDate: 
 latestUpdate: 2021-04-20
 apkVersionName: "2.0.5"
-stars: 4.3
-ratings: 3271
-reviews: 1507
+stars: 4.2
+ratings: 3279
+reviews: 1512
 size: 44M
 website: https://www.bybit.com
 repository: 

@@ -10,8 +10,8 @@ idd: 1473024338
 released: 2019-11-12
 updated: 2021-03-25
 version: "1.5.13"
-score: 4.6435
-reviews: 7080
+score: 4.64486
+reviews: 7138
 size: 33909760
 developerWebsite: 
 repository: 

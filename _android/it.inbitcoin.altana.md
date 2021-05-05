@@ -11,7 +11,7 @@ launchDate:
 latestUpdate: 2021-02-27
 apkVersionName: "Varies with device"
 stars: 4.4
-ratings: 47
+ratings: 48
 reviews: 21
 size: Varies with device
 website: https://inbitcoin.it

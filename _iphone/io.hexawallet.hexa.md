@@ -8,11 +8,11 @@ appId: io.hexawallet.hexa
 appCountry: 
 idd: 1490205837
 released: 2020-03-16
-updated: 2021-05-02
-version: "1.6.0"
+updated: 2021-05-05
+version: "1.6.5"
 score: 4.8
 reviews: 5
-size: 51562496
+size: 51566592
 developerWebsite: https://hexawallet.io/
 repository: 
 issue: 
