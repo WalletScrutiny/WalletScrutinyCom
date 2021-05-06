@@ -1,0 +1,37 @@
+---
+wsId: 
+title: "PayNoWay"
+altTitle: 
+authors:
+
+users: 100
+appId: com.github.samotari.paynoway
+launchDate: 
+latestUpdate: 2021-04-10
+apkVersionName: "2.1.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 6.8M
+website: 
+repository: 
+issue: 
+icon: com.github.samotari.paynoway.png
+bugbounty: 
+verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-06
+reviewStale: true
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
