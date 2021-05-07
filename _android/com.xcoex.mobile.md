@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.xcoex.mobile
 launchDate: 
-latestUpdate: 2021-04-22
-apkVersionName: "1.16.0"
+latestUpdate: 2021-05-06
+apkVersionName: "1.17.0"
 stars: 3.7
 ratings: 148
 reviews: 118

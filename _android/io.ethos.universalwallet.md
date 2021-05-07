@@ -9,9 +9,9 @@ appId: io.ethos.universalwallet
 launchDate: 
 latestUpdate: 2019-12-05
 apkVersionName: "2.0.5"
-stars: 3.1
-ratings: 1518
-reviews: 797
+stars: 3.0
+ratings: 1519
+reviews: 798
 size: 38M
 website: https://www.ethos.io
 repository: 

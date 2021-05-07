@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-28
 apkVersionName: "4.1.0"
 stars: 4.0
-ratings: 3855
-reviews: 2414
+ratings: 3862
+reviews: 2416
 size: 55M
 website: https://www.atoken.com
 repository: 

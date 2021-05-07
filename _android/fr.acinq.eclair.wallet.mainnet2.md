@@ -10,7 +10,7 @@ launchDate: 2018-04-12
 latestUpdate: 2021-05-02
 apkVersionName: "0.4.14"
 stars: 4.1
-ratings: 352
+ratings: 353
 reviews: 164
 size: 28M
 website: https://acinq.co

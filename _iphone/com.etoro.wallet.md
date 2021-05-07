@@ -9,8 +9,8 @@ appId: com.etoro.wallet
 appCountry: 
 idd: 1397831096
 released: 2019-03-05
-updated: 2021-05-05
-version: "25.0.0"
+updated: 2021-05-06
+version: "26.0.0"
 score: 1.78571
 reviews: 84
 size: 25518080

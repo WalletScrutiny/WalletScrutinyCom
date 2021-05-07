@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-03-11
 apkVersionName: "1.19.0"
 stars: 4.7
-ratings: 354
+ratings: 355
 reviews: 292
 size: 17M
 website: https://bolt.global/

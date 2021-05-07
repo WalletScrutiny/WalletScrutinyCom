@@ -10,8 +10,8 @@ launchDate: 2018-04-10
 latestUpdate: 2019-09-28
 apkVersionName: "1.28.9"
 stars: 3.8
-ratings: 541
-reviews: 321
+ratings: 544
+reviews: 322
 size: 5.2M
 website: https://www.bitrefill.com
 repository: 

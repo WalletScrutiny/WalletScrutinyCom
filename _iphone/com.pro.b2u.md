@@ -11,7 +11,7 @@ released: 2019-12-20
 updated: 2021-05-04
 version: "1.71"
 score: 5
-reviews: 2
+reviews: 3
 size: 106624000
 developerWebsite: https://www.bitcointoyou.com
 repository: 

@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-03-25
 apkVersionName: "1.7"
 stars: 4.8
-ratings: 35
+ratings: 34
 reviews: 33
 size: 59M
 website: https://atomex.me

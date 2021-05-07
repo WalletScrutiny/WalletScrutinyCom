@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2019-04-05
 apkVersionName: "1.2"
 stars: 4.3
-ratings: 76
-reviews: 60
+ratings: 77
+reviews: 61
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app

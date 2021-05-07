@@ -10,7 +10,7 @@ idd: 996569075
 released: 2015-06-09
 updated: 2021-04-16
 version: "2.14.0"
-score: 2.85874
+score: 2.86099
 reviews: 446
 size: 78240768
 developerWebsite: https://shapeshift.com

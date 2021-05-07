@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: io.getdelta.android
 launchDate: 
-latestUpdate: 2021-04-01
+latestUpdate: 2021-05-05
 apkVersionName: "4.1.0"
 stars: 4.5
-ratings: 21585
-reviews: 7622
+ratings: 21687
+reviews: 7640
 size: 40M
 website: 
 repository: 

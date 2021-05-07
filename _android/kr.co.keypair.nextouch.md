@@ -9,9 +9,9 @@ appId: kr.co.keypair.nextouch
 launchDate: 
 latestUpdate: 2019-07-22
 apkVersionName: "1.0.0.57"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.5
+ratings: 8
+reviews: 5
 size: 12M
 website: http://www.eunex.co
 repository: 
