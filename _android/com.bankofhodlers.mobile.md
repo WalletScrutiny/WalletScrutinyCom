@@ -39,5 +39,5 @@ A statement of the management of the users "funds" makes it pretty clear the wal
 
 > Our funds are managed through a multi signature system with the signatories being our co-founders.
 
-Our verdict: This wallet is custodial and therefore is *not verifiable*.
+Our verdict: This wallet is custodial and therefore **not verifiable**.
 
