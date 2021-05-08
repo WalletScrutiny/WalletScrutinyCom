@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Vauld
 title: "Vauld - Interest Earning Crypto Wallets"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.bankofhodlers.mobile
 launchDate: 
@@ -13,25 +13,31 @@ stars: 4.3
 ratings: 134
 reviews: 64
 size: 27M
-website: 
+website: https://www.vauld.com/
 repository: 
 issue: 
 icon: com.bankofhodlers.mobile.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-08
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: Vauld_
+providerLinkedIn: vauld
+providerFacebook: VauldOfficial
+providerReddit: BankofHodlers
 
 redirect_from:
 
 ---
 
+The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>
+A statement of the management of the users "funds" makes it pretty clear the wallets private keys are in control of the provider.
+
+> Our funds are managed through a multi signature system with the signatories being our co-founders.
+
+Our verdict: This wallet is custodial and therefore is *not verifiable*.
 
