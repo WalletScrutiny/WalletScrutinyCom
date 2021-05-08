@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "2.3"
 stars: 2.7
-ratings: 727
+ratings: 728
 reviews: 558
 size: 1.2M
 website: https://yellowcard.io/

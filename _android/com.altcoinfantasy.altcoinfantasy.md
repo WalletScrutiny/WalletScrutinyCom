@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-01-07
 apkVersionName: "3.3.6-google"
 stars: 3.9
-ratings: 2263
-reviews: 1771
+ratings: 2264
+reviews: 1772
 size: 22M
 website: https://altcoinfantasy.com/v3
 repository: 

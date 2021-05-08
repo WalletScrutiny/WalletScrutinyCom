@@ -4,14 +4,14 @@ title: "OKEx - Bitcoin/Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.okinc.okex.gp
 launchDate: 
 latestUpdate: 2021-04-19
 apkVersionName: "4.8.3.1"
-stars: 4.5
-ratings: 70481
-reviews: 31421
+stars: 4.6
+ratings: 71783
+reviews: 31513
 size: 132M
 website: https://www.okex.com
 repository: 

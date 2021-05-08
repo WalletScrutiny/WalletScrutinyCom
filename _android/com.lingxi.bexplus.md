@@ -9,9 +9,9 @@ appId: com.lingxi.bexplus
 launchDate: 
 latestUpdate: 2020-11-09
 apkVersionName: "2.0.5"
-stars: 4.8
-ratings: 4425
-reviews: 1686
+stars: 4.7
+ratings: 4447
+reviews: 1696
 size: 12M
 website: https://www.bexplus.com
 repository: 

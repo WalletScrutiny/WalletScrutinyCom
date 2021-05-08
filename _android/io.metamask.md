@@ -9,9 +9,9 @@ appId: io.metamask
 launchDate: 
 latestUpdate: 2021-04-21
 apkVersionName: "2.2.0"
-stars: 3.1
-ratings: 4260
-reviews: 2374
+stars: 3.2
+ratings: 4303
+reviews: 2388
 size: 28M
 website: https://metamask.io
 repository: 

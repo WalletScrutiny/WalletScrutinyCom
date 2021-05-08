@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-06
 apkVersionName: "1.17.0"
 stars: 3.7
-ratings: 148
-reviews: 118
+ratings: 149
+reviews: 119
 size: 37M
 website: https://xcoex.com/
 repository: 
