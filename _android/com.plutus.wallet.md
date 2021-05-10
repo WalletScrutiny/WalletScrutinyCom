@@ -9,9 +9,9 @@ appId: com.plutus.wallet
 launchDate: 2015-03-04
 latestUpdate: 2021-05-05
 apkVersionName: "Varies with device"
-stars: 4.6
-ratings: 20377
-reviews: 6915
+stars: 4.5
+ratings: 20565
+reviews: 6957
 size: Varies with device
 website: https://www.abra.com
 repository: 

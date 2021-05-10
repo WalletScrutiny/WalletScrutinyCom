@@ -9,9 +9,9 @@ appId: com.koinal.android
 launchDate: 
 latestUpdate: 2021-04-24
 apkVersionName: "1.2.5"
-stars: 4.2
-ratings: 349
-reviews: 243
+stars: 3.9
+ratings: 331
+reviews: 240
 size: 30M
 website: https://www.koinal.io
 repository: 

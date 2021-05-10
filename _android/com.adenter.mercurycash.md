@@ -4,7 +4,7 @@ title: "Mercury Cash"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.adenter.mercurycash
 launchDate: 
 latestUpdate: 2021-03-29

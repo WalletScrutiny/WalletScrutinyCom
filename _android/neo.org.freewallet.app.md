@@ -9,9 +9,9 @@ appId: neo.org.freewallet.app
 launchDate: 
 latestUpdate: 2020-04-21
 apkVersionName: "2.5.2"
-stars: 4.2
+stars: 4.1
 ratings: 203
-reviews: 146
+reviews: 147
 size: 7.4M
 website: https://freewallet.org/
 repository: 

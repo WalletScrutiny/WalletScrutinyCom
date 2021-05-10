@@ -10,8 +10,8 @@ launchDate: 2019-05-01
 latestUpdate: 2021-04-22
 apkVersionName: "1.40.822"
 stars: 3.8
-ratings: 1659
-reviews: 1179
+ratings: 1662
+reviews: 1181
 size: 49M
 website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet

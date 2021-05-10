@@ -8,11 +8,11 @@ appId: io.melis.clientwallet
 appCountry: 
 idd: 1176840794
 released: 2017-06-07
-updated: 2021-03-03
-version: "1.6.15"
+updated: 2021-05-08
+version: "1.6.21"
 score: 
 reviews: 
-size: 28490752
+size: 28587008
 developerWebsite: http://melis.io
 repository: 
 issue: 

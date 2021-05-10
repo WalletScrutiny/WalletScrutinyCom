@@ -4,13 +4,13 @@ title: "Кошелек. Криптовалюты Биткоин, Эфириум,
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: ru.koshelek
 launchDate: 
 latestUpdate: 2021-04-16
 apkVersionName: "1.2.3"
 stars: 4.1
-ratings: 58
+ratings: 59
 reviews: 53
 size: 8.6M
 website: 
