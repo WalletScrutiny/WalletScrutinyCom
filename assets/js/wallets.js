@@ -36,7 +36,7 @@ window.wallets.forEach(function (e) {
     }
   }
 })
-
+window.platformObs.reverse()
 window.transcribeTag = function (e) {
   if (!e) { return; }
   
