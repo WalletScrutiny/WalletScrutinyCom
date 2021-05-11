@@ -9,9 +9,9 @@ appId: com.changelly.app
 launchDate: 
 latestUpdate: 2021-04-21
 apkVersionName: "2.7.3.1"
-stars: 4.6
-ratings: 2348
-reviews: 1359
+stars: 4.5
+ratings: 2372
+reviews: 1372
 size: 7.2M
 website: 
 repository: 

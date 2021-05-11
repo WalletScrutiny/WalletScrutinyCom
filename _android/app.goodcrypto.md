@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-30
 apkVersionName: "1.6.3"
 stars: 4.4
-ratings: 527
-reviews: 225
+ratings: 533
+reviews: 226
 size: 23M
 website: https://goodcrypto.app
 repository: 

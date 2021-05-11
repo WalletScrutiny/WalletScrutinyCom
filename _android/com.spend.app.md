@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-07-15
 apkVersionName: "3.09"
 stars: 3.5
-ratings: 416
-reviews: 233
+ratings: 417
+reviews: 234
 size: 31M
 website: https://www.spend.com/
 repository: 

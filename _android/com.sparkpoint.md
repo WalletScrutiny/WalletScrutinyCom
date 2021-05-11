@@ -10,9 +10,9 @@ appId: com.sparkpoint
 launchDate: 
 latestUpdate: 2021-03-30
 apkVersionName: "6.3.1"
-stars: 3.0
-ratings: 487
-reviews: 418
+stars: 2.9
+ratings: 489
+reviews: 420
 size: 13M
 website: https://sparkpoint.io/
 repository: 

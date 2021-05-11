@@ -9,9 +9,9 @@ appId: ru.koshelek
 launchDate: 
 latestUpdate: 2021-04-16
 apkVersionName: "1.2.3"
-stars: 4.1
-ratings: 59
-reviews: 53
+stars: 4.0
+ratings: 60
+reviews: 54
 size: 8.6M
 website: 
 repository: 

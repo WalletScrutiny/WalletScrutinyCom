@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-05
 apkVersionName: "2.0.6 'Puginarug'"
 stars: 3.5
-ratings: 689
-reviews: 415
+ratings: 690
+reviews: 416
 size: Varies with device
 website: https://monerujo.io
 repository: 

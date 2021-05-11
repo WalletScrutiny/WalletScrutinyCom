@@ -9,9 +9,9 @@ appId: com.vaulthotpro
 launchDate: 
 latestUpdate: 2021-03-22
 apkVersionName: "2.2.6"
-stars: 3.4
-ratings: 22
-reviews: 16
+stars: 3.3
+ratings: 23
+reviews: 17
 size: 48M
 website: 
 repository: 
