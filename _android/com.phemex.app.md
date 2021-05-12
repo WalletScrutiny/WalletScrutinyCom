@@ -9,9 +9,9 @@ appId: com.phemex.app
 launchDate: 
 latestUpdate: 2021-04-10
 apkVersionName: "1.3.2"
-stars: 4.4
-ratings: 6836
-reviews: 1907
+stars: 4.5
+ratings: 6923
+reviews: 1914
 size: 17M
 website: https://phemex.com
 repository: 

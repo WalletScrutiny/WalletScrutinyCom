@@ -1,9 +1,10 @@
 ---
-wsId: ascendex
+wsId: 
 title: "AscendEX(BitMax)"
 altTitle: 
 authors:
 - kiwilamb
+- leo
 users: 100000
 appId: io.bitmax.exchange
 launchDate: 
@@ -18,11 +19,16 @@ repository:
 issue: 
 icon: io.bitmax.exchange.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-20
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-11
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-04-20
+  version: "2.4.7"
+  apkHash: 
+  gitRevision: 6849790cf3f18653fbe1116b54693fec1419d0ca
+  verdict: custodial
 
 
 providerTwitter: AscendEX_Global
@@ -35,11 +41,4 @@ redirect_from:
 ---
 
 
-The AscendEx mobile app claims on the website help section to manage bitcoins...
-
-> You can withdraw your digital assets to external platforms or wallets via their address. Copy the address from the external platform or wallet, and paste it into the withdrawal address field on AscendEX to complete the withdrawal. 
-
-however their is no evidence of the wallet being non-custodial, this leads us to conclude the wallet funds are in control of the provider and hence custodial.
-
-Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
-
+This app apparently was removed in favor of [AscendEx](/android/com.ascendex.exchange/).

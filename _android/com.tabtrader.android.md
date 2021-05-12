@@ -11,8 +11,8 @@ launchDate:
 latestUpdate: 2021-05-05
 apkVersionName: "4.8.5"
 stars: 4.5
-ratings: 52266
-reviews: 22243
+ratings: 52325
+reviews: 22277
 size: 14M
 website: http://www.tab-trader.com
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: io.bluewallet.bluewallet
 launchDate: 2018-11-01
-latestUpdate: 2021-05-06
+latestUpdate: 2021-05-10
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 1051
-reviews: 450
+ratings: 1057
+reviews: 451
 size: Varies with device
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

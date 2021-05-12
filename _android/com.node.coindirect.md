@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.node.coindirect
 launchDate: 
-latestUpdate: 2021-04-30
+latestUpdate: 2021-05-11
 apkVersionName: "1.3.0"
 stars: 1.8
 ratings: 484

@@ -10,8 +10,8 @@ idd: 1462031389
 released: 2019-05-21
 updated: 2021-04-14
 version: "2.2.6"
-score: 4.25
-reviews: 16
+score: 4.11111
+reviews: 18
 size: 78277632
 developerWebsite: https://viawallet.com
 repository: 

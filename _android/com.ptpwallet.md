@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ptpwallet
 launchDate: 
-latestUpdate: 2020-03-20
-apkVersionName: "1.0.1209"
-stars: 4.1
-ratings: 328
-reviews: 241
-size: 6.4M
+latestUpdate: 2021-05-10
+apkVersionName: "1.0.1221"
+stars: 4.0
+ratings: 329
+reviews: 242
+size: 24M
 website: https://ptpwallet.com
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.ptpwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

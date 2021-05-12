@@ -9,9 +9,9 @@ appId: com.drcrypto.wallet
 launchDate: 
 latestUpdate: 2021-03-23
 apkVersionName: "2.0.1"
-stars: 3.0
-ratings: 53
-reviews: 50
+stars: 2.8
+ratings: 58
+reviews: 55
 size: 60M
 website: 
 repository: 

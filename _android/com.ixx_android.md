@@ -9,8 +9,8 @@ appId: com.ixx_android
 launchDate: 
 latestUpdate: 2021-03-26
 apkVersionName: "2.1.3"
-stars: 4.9
-ratings: 162
+stars: 5.0
+ratings: 294
 reviews: 78
 size: 38M
 website: 
