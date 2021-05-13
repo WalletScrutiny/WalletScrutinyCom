@@ -82,20 +82,16 @@ function updateModularPayload() {
   });
   appIds.sort().reverse()
   presort.sort(function (a, b) {
-    function __nn(o) {
+    function temporaryComparableObject(o) {
         return { n: o.users||o.ratings||o.reviews, id: appIds.indexOf(o.appId) };
     }
-    var aa = __nn(a),
-        bb = __nn(b);
+    var aa = temporaryComparableObject(a),
+        bb = temporaryComparableObject(b);
         
     return aa.n - bb.n || aa.id - bb.id;
   });
   presort.reverse()
-  var __p = 0;
-  presort.forEach(function (e) {
-  e.i=__p
-    __p++
-})
+
 
   presort.forEach(function(obj) {
       var der_id = String(obj.appId).replace(".", "")
