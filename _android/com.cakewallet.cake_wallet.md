@@ -4,14 +4,14 @@ title: "Cake Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.cakewallet.cake_wallet
 launchDate: 
-latestUpdate: 2021-05-11
-apkVersionName: "4.2.0"
+latestUpdate: 2021-05-12
+apkVersionName: "4.2.1"
 stars: 4.0
-ratings: 432
-reviews: 272
+ratings: 435
+reviews: 274
 size: 61M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

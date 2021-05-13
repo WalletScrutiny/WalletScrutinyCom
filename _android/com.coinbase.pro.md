@@ -9,9 +9,9 @@ appId: com.coinbase.pro
 launchDate: 
 latestUpdate: 2021-05-06
 apkVersionName: "1.0.74"
-stars: 4.2
-ratings: 10113
-reviews: 3494
+stars: 4.1
+ratings: 10228
+reviews: 3537
 size: 57M
 website: https://pro.coinbase.com
 repository: 

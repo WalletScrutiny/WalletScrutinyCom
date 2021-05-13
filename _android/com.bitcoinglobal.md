@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.bitcoinglobal
 launchDate: 
-latestUpdate: 2021-04-28
-apkVersionName: "2.1.0"
+latestUpdate: 2021-05-11
+apkVersionName: "2.2.0"
 stars: 4.8
-ratings: 35
-reviews: 15
+ratings: 34
+reviews: 16
 size: 22M
 website: 
 repository: 

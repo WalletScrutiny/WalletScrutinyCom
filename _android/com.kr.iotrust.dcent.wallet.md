@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-26
 apkVersionName: "5.3.0"
 stars: 4.4
-ratings: 252
-reviews: 175
+ratings: 253
+reviews: 176
 size: 31M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet

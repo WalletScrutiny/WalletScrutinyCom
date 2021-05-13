@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 It is very clear that the provider is claiming that this wallet is non-custodial with this early statement found in the [play store description](https://play.google.com/store/apps/details?id=com.bitpay.coincloud).
 
 > Keep your bitcoin and other digital currency secure and under your own control with the non-custodial Coin Cloud Wallet app.
