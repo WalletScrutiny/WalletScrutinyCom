@@ -6,11 +6,16 @@ permalink: /widget/
 {% include base_path %} 
 <html>
 
-<head></head>
+<head><meta charset="utf-8"/></head>
 
 <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
   <script src="{{ base_path }}/allWallets.js"></script>
   <script>
+function __wallet(w){
+  var _w;
+  wallets.forEach(function(e){if(e.appId===w){_w=e; return;}})
+  return _w;
+}
     var verdictColor = {
       "reproducible": '{{ site.data.verdicts["reproducible"].color }}',
       "nonverifiable": '{{ site.data.verdicts["nonverifiable"].color }}',
@@ -27,12 +32,12 @@ permalink: /widget/
     window.location.hash.split("#")[1].split("&").forEach(function (item) {
       var kv = item.split("=")
       switch (kv[0]) {
-        case "appId": appId = kv[1]; wallet = wallets[appId]; break
-        case "style": style = kv[1]; break
-        case "appList": appList = kv[1].split(","); break
-        case "verdict": verdict = kv[1]; break
-        case "limit": limit = kv[1]; break
-        case "theme": theme = kv[1]; break
+        case "appId": appId = kv[1].replace("iphone/", ""); wallet = __wallet(appId); break;
+        case "style": style = kv[1]; break;
+        case "appList": appList = kv[1].split(","); break;
+        case "verdict": verdict = kv[1]; break;
+        case "limit": limit = kv[1]; break;
+        case "theme": theme = kv[1]; break;
       }
     })
 
