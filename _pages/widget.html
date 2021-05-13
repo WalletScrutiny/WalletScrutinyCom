@@ -38,15 +38,15 @@ function fetchWallet(wallet, folder){
       var kv = item.split("=")
       switch (kv[0]) {
         case "appId": 
-          appId = kv[1].replace("iphone/", ""); 
+          appId = kv[1].replace("iphone/", "");
           folder = kv[1].indexOf("/")>=0?kv[1].split("/")[0]:"android";
-          wallet = fetchWallet(appId, folder); 
-          break;
-        case "style": style = kv[1]; break;
-        case "appList": appList = kv[1].split(","); break;
-        case "verdict": verdict = kv[1]; break;
-        case "limit": limit = kv[1]; break;
-        case "theme": theme = kv[1]; break;
+          wallet = fetchWallet(appId, folder);
+          break
+        case "style": style = kv[1]; break
+        case "appList": appList = kv[1].split(","); break
+        case "verdict": verdict = kv[1]; break
+        case "limit": limit = kv[1]; break
+        case "theme": theme = kv[1]; break
       }
     })
 
