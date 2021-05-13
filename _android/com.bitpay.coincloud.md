@@ -40,5 +40,5 @@ It is very clear that the provider is claiming that this wallet is non-custodial
 
 With keys in control of the user, we need to find the source code in order to check reproducibility. However we are unable to locate a public source repository.
 
-Our verdict: As there is no source code to be found anywhere, this wallet is at best a non-custodial closed source wallet and as such *not verifiable*.
+Our verdict: As there is no source code to be found anywhere, this wallet is at best a non-custodial closed source wallet and as such **not verifiable**.
 
