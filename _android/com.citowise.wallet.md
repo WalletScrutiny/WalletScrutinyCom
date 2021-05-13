@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2019-12-25
 apkVersionName: "1.355"
 stars: 4.2
-ratings: 656
-reviews: 525
+ratings: 655
+reviews: 524
 size: 11M
 website: https://www.citowise.com
 repository: 

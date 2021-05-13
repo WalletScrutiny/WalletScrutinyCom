@@ -4,7 +4,7 @@ title: "Blockchain Plus Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.blockchainpluswallet.plus_wallet_app
 launchDate: 
 latestUpdate: 2020-12-30

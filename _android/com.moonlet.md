@@ -9,7 +9,7 @@ appId: com.moonlet
 launchDate: 
 latestUpdate: 2021-05-07
 apkVersionName: "1.4.38"
-stars: 4.1
+stars: 4.0
 ratings: 259
 reviews: 170
 size: 9.2M
