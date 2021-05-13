@@ -2,6 +2,7 @@
 [ 
   {% for post in site.iphone %}
     {
+      "base_path": "{{ base_path }}",
       "wsId": "{{ post.wsId }}",
       "folder": "iphone",
       "category": "App Store",
@@ -32,6 +33,7 @@
   {% endfor %}
   {% for post in site.android %}
     {
+      "base_path": "{{ base_path }}",
       "wsId": "{{ post.wsId }}",
       "folder": "android",
       "category": "Play Store",
