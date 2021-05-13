@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.coinhako
 launchDate: 
-latestUpdate: 2021-04-05
-apkVersionName: "2.2.4"
+latestUpdate: 2021-05-10
+apkVersionName: "2.3.0"
 stars: 1.7
-ratings: 890
-reviews: 721
+ratings: 895
+reviews: 725
 size: 48M
 website: https://www.coinhako.com
 repository: 

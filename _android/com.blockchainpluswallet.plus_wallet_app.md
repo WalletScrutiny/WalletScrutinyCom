@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-12-30
 apkVersionName: "3.0.1"
 stars: 3.6
-ratings: 192
-reviews: 148
+ratings: 191
+reviews: 147
 size: 13M
 website: 
 repository: 

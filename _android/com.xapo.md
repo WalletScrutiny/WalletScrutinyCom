@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.xapo
 launchDate: 2014-04-01
-latestUpdate: 2021-04-19
+latestUpdate: 2021-05-11
 apkVersionName: "5.32"
 stars: 3.5
-ratings: 45760
-reviews: 21790
+ratings: 45766
+reviews: 21796
 size: 93M
 website: https://xapo.com
 repository: 
