@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-29
 apkVersionName: "2.26.0"
 stars: 3.1
-ratings: 3707
-reviews: 2154
+ratings: 3718
+reviews: 2162
 size: Varies with device
 website: 
 repository: 

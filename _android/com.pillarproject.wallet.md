@@ -10,7 +10,7 @@ launchDate: 2018-12-13
 latestUpdate: 2021-05-07
 apkVersionName: "2.35.2"
 stars: 3.4
-ratings: 419
+ratings: 420
 reviews: 224
 size: 54M
 website: https://pillarproject.io

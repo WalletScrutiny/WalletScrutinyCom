@@ -10,8 +10,8 @@ idd: 1321754661
 released: 2019-01-26
 updated: 2020-12-29
 version: "2.9.4"
-score: 4.05195
-reviews: 77
+score: 4.01281
+reviews: 78
 size: 276264960
 developerWebsite: https://pundix.com
 repository: 

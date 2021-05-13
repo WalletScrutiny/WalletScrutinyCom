@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2021-04-17
-version: "2.7.3"
+updated: 2021-05-12
+version: "2.7.4"
 score: 4.63441
 reviews: 279
-size: 87490560
+size: 87914496
 developerWebsite: https://www.huobiwallet.com/en/
 repository: 
 issue: 
