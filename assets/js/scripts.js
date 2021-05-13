@@ -67,29 +67,36 @@ function updateModularPayload() {
 
   var h = ``
   var c = 0
+  var appIds = [];
   var presort = [];
   window.wallets.forEach(function (obj) {
     if (obj.appId && obj.verdict && obj.category) {
       if (verdict === "all" || String(obj.verdict) === verdict) {
         if (platform === "all" || String(obj.category) === platform) {
           presort.push(obj);
+          appIds.push(obj.appId)
           c++
         }
       }
     }
   });
-
+  appIds.sort().reverse()
   presort.sort(function (a, b) {
     function __nn(o) {
-        return { n: o.users||o.ratings||o.reviews, id: o.appId };
+        return { n: o.users||o.ratings||o.reviews, id: appIds.indexOf(o.appId) };
     }
-    
     var aa = __nn(a),
         bb = __nn(b);
         
     return aa.n - bb.n || aa.id - bb.id;
   });
   presort.reverse()
+  var __p = 0;
+  presort.forEach(function (e) {
+  e.i=__p
+    __p++
+})
+
   presort.forEach(function(obj) {
       var der_id = String(obj.appId).replace(".", "")
     h += `<div id="card_${der_id}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
