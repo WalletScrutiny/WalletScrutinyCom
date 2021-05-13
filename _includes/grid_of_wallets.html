@@ -1,7 +1,7 @@
 <div id="walletsPerCatContainer" class="page-section selected">
 {% include base_path %}
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated,wip,fewusers,nobtc,defunct,nowallet" | split: "," %}
+{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
 {% assign _androidPosts = site.android | sort: "appId" | reverse %}
 {% assign androidPosts = _androidPosts | sort: "users" | reverse %}
 {% assign _iPhonePosts = site.iphone | sort: "appId" | reverse %}
