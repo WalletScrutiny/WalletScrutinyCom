@@ -1,25 +1,20 @@
 const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,wip,fewusers,nobtc,defunct,nowallet"
 const platformOrder = "android,dfroid,iphone"
-window.sortedWallets = Object.values(window.wallets).sort(function (a, b) {
-  if (a.verdict != b.verdict)
-    return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
-  // can't compare across platforms. Sort by platform:
-  if (a.folder != b.folder)
-    return platformOrder.indexOf(a.folder) - verdictOrder.indexOf(b.folder)
-  if (a.users != b.users)
-    return Number(b.users) - Number(a.users)
-  return Number(b.ratings) - Number(a.ratings)
-})
+
+window.wallets.sort(function (a, b) {
+  return Number(b.users) - Number(a.users) ||  Number(b.ratings) - Number(a.ratings) || Number(b.reviews) - Number(a.reviews)
+});
+
 
 window.verdictOrder = verdictOrder.split(",");
 window.platformObs = [];
 window.orderedObs = [];
 var readerRec = [];
 var _id = 0;
-window.sortedWallets.forEach(function (e) {
+window.wallets.forEach(function (e) {
   if (e.category && window.platformObs.indexOf(e.category) < 0) { 
     window.platformObs.push(e.category)
-  }// ? String(e.wsId) : String(e.appId);
+  }
   if (e.wsId) {
     var n = e.wsId;
     var i = readerRec.indexOf(n);
@@ -41,7 +36,7 @@ window.sortedWallets.forEach(function (e) {
     }
   }
 })
-
+window.platformObs.reverse()
 window.transcribeTag = function (e) {
   if (!e) { return; }
   

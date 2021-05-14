@@ -2,8 +2,10 @@
 {% include base_path %}
 
 {% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
-{% assign androidPosts = site.android | sort: "users" | reverse %}
-{% assign iPhonePosts = site.iphone | sort: "reviews" | reverse %}
+{% assign _androidPosts = site.android | sort: "appId" | reverse %}
+{% assign androidPosts = _androidPosts | sort: "users" | reverse %}
+{% assign _iPhonePosts = site.iphone | sort: "appId" | reverse %}
+{% assign iPhonePosts = _iPhonePosts | sort: "reviews" | reverse %}
 
   <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 <a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>

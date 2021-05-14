@@ -84,7 +84,7 @@ function searchCatalogue(termInput) {
           walletRow.classList.add("actionable")
           var compactedResults = '';
           function cPlus(w) {
-            const basePath = window.wallets.base_path
+            const basePath = w.base_path || ""
             var analysisUrl = `${basePath}${w.url}`
             compactedResults += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
               href='${analysisUrl}'>

@@ -67,18 +67,40 @@ function updateModularPayload() {
 
   var h = ``
   var c = 0
-  window.orderedObs.forEach(function (obj) {
+  var appIds = [];
+  var presort = [];
+  window.wallets.forEach(function (obj) {
     if (obj.appId && obj.verdict && obj.category) {
-      var c = String(obj.appId).replace(".", "")
-
       if (verdict === "all" || String(obj.verdict) === verdict) {
         if (platform === "all" || String(obj.category) === platform) {
-          h += `<div id="card_${c}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
-            <div style="width:7em;position: relative;" onclick="toggleApp('${c}')">
-              <div id="show_${c}" class="card-expand-close">
+          presort.push(obj);
+          appIds.push(obj.appId)
+          c++
+        }
+      }
+    }
+  });
+  appIds.sort().reverse()
+  presort.sort(function (a, b) {
+    function temporaryComparableObject(o) {
+        return { n: o.users||o.ratings||o.reviews, id: appIds.indexOf(o.appId) };
+    }
+    var aa = temporaryComparableObject(a),
+        bb = temporaryComparableObject(b);
+        
+    return aa.n - bb.n || aa.id - bb.id;
+  });
+  presort.reverse()
+
+
+  presort.forEach(function(obj) {
+      var der_id = String(obj.appId).replace(".", "")
+    h += `<div id="card_${der_id}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
+            <div style="width:7em;position: relative;" onclick="toggleApp('${der_id}')">
+              <div id="show_${der_id}" class="card-expand-close">
                 <i class="fas fa-plus-square"></i>
               </div>
-              <div id="hide_${c}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
+              <div id="hide_${der_id}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
                 <i class="fas fa-minus-square"></i>
               </div>
               <div style="position:relative">
@@ -93,7 +115,7 @@ function updateModularPayload() {
                     <strong>${obj.altTitle || obj.title}</strong>
                 </div>
             </div>
-            <div id="details_${c}" class="item-detail-container" style="width:20em;display:none">
+            <div id="details_${der_id}" class="item-detail-container" style="width:20em;display:none">
               <table>
                 <tbody><tr><td>Verdict</td>
                   <td class="verdict">
@@ -122,10 +144,6 @@ function updateModularPayload() {
               </a></p>
             </div>
             </div>`
-          c++
-        }
-      }
-    }
   })
 
   f.innerHTML = h.length == 0 ? `<h2>No wallets...</h2>` : h
