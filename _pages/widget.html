@@ -11,16 +11,9 @@ permalink: /widget/
 <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
   <script src="{{ base_path }}/allWallets.js"></script>
   <script>
-function fetchWallet(wallet, folder){
-  var fetchedWallet = false;
-  wallets.forEach(function(object){
-    if(object.appId===wallet && object.folder===folder){
-        fetchedWallet=object; 
-        return;
+    function fetchWallet(wallet, folder) {
+      return wallets.find( w => w.appId===wallet && w.folder===folder)
     }
-  })
-  return fetchedWallet;
-}
     var verdictColor = {
       "reproducible": '{{ site.data.verdicts["reproducible"].color }}',
       "nonverifiable": '{{ site.data.verdicts["nonverifiable"].color }}',
@@ -55,54 +48,53 @@ function fetchWallet(wallet, folder){
     if (!theme || theme.length < 1) {
       if (!localStorage.getItem('theme')) {
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          localStorage.setItem('theme', 'dark');
+          localStorage.setItem('theme', 'dark')
         } else {
-          localStorage.setItem('theme', 'light');
+          localStorage.setItem('theme', 'light')
         }
       }
     } else {
-      localStorage.setItem('theme', theme);
+      localStorage.setItem('theme', theme)
     }
-    theme = localStorage.getItem('theme');
+    theme = localStorage.getItem('theme')
     function setThemeDark() {
-      stylebase.style.setProperty('--white', "#222");
-      stylebase.style.setProperty('--blue', "#0064ff");
-      stylebase.style.setProperty('--light-grey', "#000");
-      stylebase.style.setProperty('--text', "#fff");
-      stylebase.style.setProperty('--gauze', "rgba(255,255,255,0.3");
+      stylebase.style.setProperty('--white', "#222")
+      stylebase.style.setProperty('--blue', "#0064ff")
+      stylebase.style.setProperty('--light-grey', "#000")
+      stylebase.style.setProperty('--text', "#fff")
+      stylebase.style.setProperty('--gauze', "rgba(255,255,255,0.3")
     }
 
     function setThemeLight() {
-      stylebase.style.setProperty('--white', "#fff");
-      stylebase.style.setProperty('--blue', "#003395");
-      stylebase.style.setProperty('--light-grey', "#fafafa");
-      stylebase.style.setProperty('--text', "#222");
-      stylebase.style.setProperty('--gauze', "rgba(0,0,0,0.3");
+      stylebase.style.setProperty('--white', "#fff")
+      stylebase.style.setProperty('--blue', "#003395")
+      stylebase.style.setProperty('--light-grey', "#fafafa")
+      stylebase.style.setProperty('--text', "#222")
+      stylebase.style.setProperty('--gauze', "rgba(0,0,0,0.3")
     }
 
     switch (theme) {
       case "dark":
         setThemeDark()
-        break;
+        break
       case "light":
         setThemeLight()
-        break;
+        break
       case "auto":
       default:
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
           setThemeDark()
-        }
-        else {
+        } else {
           setThemeLight()
         }
     }
 
     var b = document.createElement("div")
-    var s = "";
+    var s = ""
     switch (style) {
       case "short":
         b.innerHTML = getWidgetHtml(wallet, false)
-        s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;";
+        s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;"
         break
       case "long":
         b.innerHTML = getWidgetHtml(wallet, true)
