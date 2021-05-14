@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.zumopay.core
 launchDate: 
-latestUpdate: 2021-04-30
-apkVersionName: "3.0.1"
+latestUpdate: 2021-05-12
+apkVersionName: "3.0.2"
 stars: 4.1
 ratings: 166
 reviews: 89

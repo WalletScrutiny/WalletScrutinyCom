@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.ducatus.walnew
 launchDate: 
-latestUpdate: 2021-05-06
+latestUpdate: 2021-05-13
 apkVersionName: "2.6.3"
 stars: 4.9
 ratings: 198

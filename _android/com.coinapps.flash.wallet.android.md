@@ -9,9 +9,9 @@ appId: com.coinapps.flash.wallet.android
 launchDate: 
 latestUpdate: 2020-07-23
 apkVersionName: "2.4.1"
-stars: 4.1
-ratings: 35
-reviews: 20
+stars: 4.2
+ratings: 36
+reviews: 21
 size: 10.0M
 website: 
 repository: 

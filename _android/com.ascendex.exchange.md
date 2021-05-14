@@ -4,13 +4,13 @@ title: "AscendEX"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.ascendex.exchange
 launchDate: 
 latestUpdate: 2021-04-28
 apkVersionName: "2.4.8"
 stars: 3.7
-ratings: 213
+ratings: 217
 reviews: 88
 size: 22M
 website: https://ascendex.com

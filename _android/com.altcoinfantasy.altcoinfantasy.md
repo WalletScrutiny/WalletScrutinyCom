@@ -9,8 +9,8 @@ appId: com.altcoinfantasy.altcoinfantasy
 launchDate: 
 latestUpdate: 2021-01-07
 apkVersionName: "3.3.6-google"
-stars: 3.8
-ratings: 2265
+stars: 3.9
+ratings: 2267
 reviews: 1772
 size: 22M
 website: https://altcoinfantasy.com/v3

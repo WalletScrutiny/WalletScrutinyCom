@@ -11,8 +11,8 @@ idd: 1442189260
 released: 2018-11-29
 updated: 2021-02-01
 version: "2.0.7"
-score: 4.74648
-reviews: 852
+score: 4.75785
+reviews: 892
 size: 67904512
 developerWebsite: https://www.bexplus.com
 repository: 

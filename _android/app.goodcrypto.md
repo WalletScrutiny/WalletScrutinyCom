@@ -4,14 +4,14 @@ title: "Good Crypto: one trading app for all exchanges"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: app.goodcrypto
 launchDate: 
 latestUpdate: 2021-03-30
 apkVersionName: "1.6.3"
-stars: 4.4
-ratings: 537
-reviews: 227
+stars: 4.3
+ratings: 540
+reviews: 229
 size: 23M
 website: https://goodcrypto.app
 repository: 
