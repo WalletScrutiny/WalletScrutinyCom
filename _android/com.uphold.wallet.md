@@ -39,8 +39,8 @@ redirect_from:
 This app appears to be an interface to a custodial trading platform. In the
 Google Play description we read:
 
-> Trust Through Transparency
-> Uphold is fully reserved. Unlike banks, we don’t loan out your money. To prove
+> **Trust Through Transparency**<br>
+  Uphold is fully reserved. Unlike banks, we don’t loan out your money. To prove
   it, we publish our holdings in real time.
 
 If they hold your money, you don't. As a custodial service this app is **not
