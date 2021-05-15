@@ -18,19 +18,26 @@ repository:
 issue: 
 icon: gctp.Coins.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-14
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coinsph
+providerLinkedIn: coins-ph
+providerFacebook: coinsph
 providerReddit: 
 
 redirect_from:
 
 ---
 
+The app appears to have tons of features but nowhere can we find a word about
+where the bitcoins are stored.
+[Their FAQ](https://support.coins.ph/hc/en-us/categories/202504637-Safety-Security)
+is talking a lot about "account is deactivated" or "temporarily disabled" which
+are concepts not known in self-custodial wallets.
+
+We assume this app is custodial and therefore **not verifiable**.

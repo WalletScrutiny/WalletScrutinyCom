@@ -13,24 +13,32 @@ version: "1.5.13"
 score: 4.65027
 reviews: 7583
 size: 33909760
-developerWebsite: 
+developerWebsite: https://www.kraken.com
 repository: 
 issue: 
 icon: com.kraken.trade.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-14
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: krakenfx
+providerLinkedIn: krakenfx
+providerFacebook: KrakenFX
 providerReddit: 
 
 redirect_from:
 
 ---
 
+On their website we read:
+
+> 95% of all deposits are kept in offline, air-gapped, geographically
+  distributed cold storage. We keep full reserves so that you can always
+  withdraw immediately on demand.
+
+This app is an interface to a custodial exchange and therefore **not
+verifiable**.

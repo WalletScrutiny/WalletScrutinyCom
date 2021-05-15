@@ -18,19 +18,22 @@ repository:
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-14
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HuobiGlobal
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: huobiglobalofficial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Neither on Google Play nor on their website can we find a claim of a
+non-custodial part to this app. We assume it is a purely custodial interface to
+the exchange of same name and therefore **not verifiable**.

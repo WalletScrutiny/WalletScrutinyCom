@@ -18,19 +18,28 @@ repository:
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-14
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: spot_bitcoin
+providerLinkedIn: spot-bitcoin
+providerFacebook: spot.bitcoin
 providerReddit: 
 
 redirect_from:
 
 ---
 
+On their website we read:
+
+> **You control your Bitcoins.**<br>
+  PayPal, Coinbase & Binance control your funds. We don't. You have entire
+  control over your Bitcoins. We use the best technologies to ensure that your
+  funds are always safe.
+
+but as we cannot find any source code to check this claim, the wallet gets the
+verdict **not verifiable**.
