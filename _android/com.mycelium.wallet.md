@@ -19,10 +19,15 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-01
+date: 2021-05-16
 reviewStale: true
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-04-01
+  version: "3.8.9.0"
+  apkHash: 296a97308aa10a98bc678e9b0ffd94c7daf120c24fa07cdaa7ad9179ace7416c
+  gitRevision: f05973b1d8059c86c43aba2366c824a6f3deadb3
+  verdict: reproducible
 - date: 2021-01-20
   version: "3.8.6.1"
   apkHash: 7184f13e4f45df3dadf4f3bd6c3a1f9cde0375dbd81f784535b4884f55101048
@@ -122,41 +127,36 @@ redirect_from:
 ---
 
 
-**Update 2021-04-01**: Emanuel Bronshtein
-[also was able to reproduce v3.8.9.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/197#note_543234399).
-
 **Disclaimer**: The authors of this project have contributed to Mycelium.
-Andreas Schildbach was so kind and independently tested and
-confirmed Mycelium's verifiability
-[here](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566466894)
-for a past version. Independent tests would be highly welcome!
+
+**Independent re-builds**:
+
+* [2021-04-01 by Emanuel Bronshtein for v3.8.9.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/197#note_543234399)
+* [2019-12-17 by Andreas Schildbach for v3.2.0.11](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566489272)
 
 Here we test if the latest version also can be reproduced, following the known
 procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
 
-As the [reproducibility issue](https://github.com/docker/for-linux/issues/1018)
-was not resolved yet, the following results were obtained on a
-[DigitalOcean](https://m.do.co/c/a0f4504a8b58) server:
-
 ```
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.8.9.0
-apkVersionCode: 3080900
-apkHash:        296a97308aa10a98bc678e9b0ffd94c7daf120c24fa07cdaa7ad9179ace7416c
+apkVersionName: 3.9.0.0
+apkVersionCode: 3090000
+apkHash:        bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3080900/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3080900/original/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3090000/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3090000/apktool.yml differ
+Files /tmp/fromPlay_com.mycelium.wallet_3090000/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3090000/original/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 5c5d672c4991fcfef650d1851cf5178dfa7340bc
+object 3132967d9e2197f066e48617aef727adbfdc2142
 type commit
-tag v3.8.9.0
-tagger Leo Wandersleb <leo.wandersleb@mycelium.com> 1616729523 -0300
+tag v3.9.0.0
+tagger itserg <sergey.dolgopolov@mycelium.com> 1619459763 +0300
 
-v3.8.9.0
+BTCV cryptocurrency support.
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
