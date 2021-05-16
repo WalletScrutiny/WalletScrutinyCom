@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-12-14
 apkVersionName: "Varies with device"
 stars: 4.4
-ratings: 88
-reviews: 58
+ratings: 89
+reviews: 59
 size: Varies with device
 website: https://keywalletpro.io
 repository: 

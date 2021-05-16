@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-12
 apkVersionName: "2.2.0"
 stars: 2.8
-ratings: 4740
-reviews: 2677
+ratings: 4921
+reviews: 2782
 size: 28M
 website: https://metamask.io
 repository: 

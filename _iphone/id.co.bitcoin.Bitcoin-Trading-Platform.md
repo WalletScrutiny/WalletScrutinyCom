@@ -10,8 +10,8 @@ idd: 1349104693
 released: 2018-03-29
 updated: 2021-02-18
 version: "2.2.4"
-score: 2.33333
-reviews: 6
+score: 2.71429
+reviews: 7
 size: 73229312
 developerWebsite: https://indodax.com
 repository: 

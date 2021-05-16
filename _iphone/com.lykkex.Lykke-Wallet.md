@@ -10,8 +10,8 @@ idd: 1112839581
 released: 2016-05-20
 updated: 2020-04-16
 version: "7.34"
-score: 4.6087
-reviews: 23
+score: 4.54167
+reviews: 24
 size: 111620096
 developerWebsite: https://lykke.com/wallet
 repository: 

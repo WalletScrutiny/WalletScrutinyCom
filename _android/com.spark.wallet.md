@@ -4,7 +4,7 @@ title: "Spark Lightning Wallet"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: com.spark.wallet
 launchDate: 2018-12-10
 latestUpdate: 2020-09-03

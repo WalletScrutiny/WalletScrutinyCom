@@ -9,9 +9,9 @@ appId: com.investvoyager
 launchDate: 
 latestUpdate: 2021-05-06
 apkVersionName: "2.5.19"
-stars: 3.8
-ratings: 4517
-reviews: 2811
+stars: 3.6
+ratings: 4600
+reviews: 2866
 size: 44M
 website: https://www.investvoyager.com/
 repository: 

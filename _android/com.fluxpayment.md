@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.fluxpayment
 launchDate: 
-latestUpdate: 2021-05-02
-apkVersionName: "1.3.12"
+latestUpdate: 2021-05-13
+apkVersionName: "1.3.15"
 stars: 4.2
-ratings: 106
-reviews: 70
+ratings: 108
+reviews: 71
 size: 24M
 website: 
 repository: 

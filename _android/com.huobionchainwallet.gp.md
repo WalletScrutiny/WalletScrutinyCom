@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-29
 apkVersionName: "2.07.04.020"
 stars: 3.5
-ratings: 1768
-reviews: 758
+ratings: 1773
+reviews: 760
 size: 62M
 website: https://huobiwallet.com
 repository: 

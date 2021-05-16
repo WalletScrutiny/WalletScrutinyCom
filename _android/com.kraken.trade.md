@@ -1,17 +1,17 @@
 ---
 wsId: krakent
-title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
+title: "Pro: Advanced Bitcoin & Crypto Trading"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.kraken.trade
 launchDate: 
 latestUpdate: 2021-03-24
 apkVersionName: "1.5.13-5500"
-stars: 4.3
-ratings: 17223
-reviews: 5886
+stars: 4.4
+ratings: 17384
+reviews: 5944
 size: 46M
 website: https://www.kraken.com
 repository: 

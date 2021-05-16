@@ -9,11 +9,11 @@ appId: com.pointpayio.PointPayBank
 appCountry: 
 idd: 1512836089
 released: 2020-07-30
-updated: 2021-05-12
-version: "5.4.3"
-score: 4.45333
-reviews: 75
-size: 94224384
+updated: 2021-05-15
+version: "5.4.4"
+score: 4.47436
+reviews: 78
+size: 94276608
 developerWebsite: https://wallet.pointpay.io
 repository: 
 issue: 

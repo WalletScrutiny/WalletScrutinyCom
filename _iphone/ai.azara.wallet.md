@@ -10,8 +10,8 @@ idd: 1476738923
 released: 2020-11-10
 updated: 2021-04-14
 version: "0.01.18"
-score: 
-reviews: 
+score: 5
+reviews: 1
 size: 69767168
 developerWebsite: https://www.azara.ai/
 repository: 

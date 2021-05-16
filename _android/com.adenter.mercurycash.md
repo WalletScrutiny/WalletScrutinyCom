@@ -9,9 +9,9 @@ appId: com.adenter.mercurycash
 launchDate: 
 latestUpdate: 2021-03-29
 apkVersionName: "5.0.3"
-stars: 4.0
-ratings: 193
-reviews: 134
+stars: 3.9
+ratings: 195
+reviews: 136
 size: 85M
 website: http://mercury.cash
 repository: 

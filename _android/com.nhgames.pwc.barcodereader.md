@@ -9,8 +9,8 @@ appId: com.nhgames.pwc.barcodereader
 launchDate: 
 latestUpdate: 2019-02-20
 apkVersionName: "2.0"
-stars: 4.0
-ratings: 90
+stars: 3.9
+ratings: 91
 reviews: 50
 size: 2.9M
 website: 

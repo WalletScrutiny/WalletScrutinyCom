@@ -9,9 +9,9 @@ appId: com.exscudo.channels
 launchDate: 
 latestUpdate: 2021-03-26
 apkVersionName: "2.17.794"
-stars: 4.5
-ratings: 547
-reviews: 232
+stars: 0.0
+ratings: 
+reviews: 
 size: 59M
 website: https://exscudo.com
 repository: 
