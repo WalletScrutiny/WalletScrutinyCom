@@ -224,7 +224,6 @@ layout: default
             <th>Date</th>
             <th>Version</th>
             <th>Verdict</th>
-            <th>Links</th>
           </tr>
           {% for review in page.reviewArchive %}
           {% if review.verdict == "reproducible" %}
@@ -232,14 +231,10 @@ layout: default
           {% endif %}
           {% assign total = total | plus:1 %}
           <tr>
-            <td>{{ review.date | date_to_long_string: "ordinal" }}</td>
+            <td><a
+                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_iphone/{{ page.appId }}.md">{{ review.date | date_to_long_string: "ordinal" }}</a></td>
             <td>{{ review.version }}</td>
             <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
-            <td><a
-                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">[1]</a>
-              <a
-                href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_iphone/{{ page.appId }}.md">[2]</a>
-            </td>
           </tr>
           {% endfor %}
         </table>
