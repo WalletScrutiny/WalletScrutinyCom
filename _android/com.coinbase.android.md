@@ -1,17 +1,17 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase – Buy & Sell Bitcoin. Crypto Wallet"
+title: "Coinbase – Buy & Trade Bitcoin, Ethereum & more"
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
 launchDate: 2013-03-01
-latestUpdate: 2021-05-10
+latestUpdate: 2021-05-14
 apkVersionName: "9.23.2"
 stars: 4.3
-ratings: 428727
-reviews: 134260
+ratings: 430536
+reviews: 134647
 size: Varies with device
 website: https://coinbase.com
 repository: 

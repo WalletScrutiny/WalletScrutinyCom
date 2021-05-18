@@ -9,9 +9,9 @@ appId: com.blockchainproplus.bpw
 launchDate: 
 latestUpdate: 2021-04-23
 apkVersionName: "1.1.1"
-stars: 4.3
-ratings: 51
-reviews: 23
+stars: 4.2
+ratings: 53
+reviews: 25
 size: 23M
 website: 
 repository: 

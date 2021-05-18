@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-21
 apkVersionName: "android-4.27.0"
 stars: 4.7
-ratings: 27
-reviews: 11
+ratings: 28
+reviews: 12
 size: 64M
 website: https://shiftcrypto.ch/app
 repository: https://github.com/digitalbitbox/bitbox-wallet-app

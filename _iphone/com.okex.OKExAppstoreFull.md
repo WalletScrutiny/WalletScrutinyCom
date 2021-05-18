@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2021-05-14
 version: "4.8.8"
 score: 4.96964
-reviews: 15252
+reviews: 15287
 size: 365011968
 developerWebsite: https://www.okex.com
 repository: 

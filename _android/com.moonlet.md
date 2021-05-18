@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.moonlet
 launchDate: 
-latestUpdate: 2021-05-07
-apkVersionName: "1.4.38"
+latestUpdate: 2021-05-18
+apkVersionName: "1.4.39"
 stars: 4.1
-ratings: 262
-reviews: 171
+ratings: 264
+reviews: 173
 size: 9.2M
 website: 
 repository: 

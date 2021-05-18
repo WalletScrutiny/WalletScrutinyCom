@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: paydeepp.elegro.io
 launchDate: 
-latestUpdate: 2021-02-01
-apkVersionName: "5.0.6"
+latestUpdate: 2021-05-17
+apkVersionName: "5.0.7"
 stars: 4.1
 ratings: 22
 reviews: 8
-size: 11M
+size: 12M
 website: https://elegro.eu
 repository: 
 issue: 

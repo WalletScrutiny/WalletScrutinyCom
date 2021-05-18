@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.bitbill.www
 launchDate: 
-latestUpdate: 2021-04-23
-apkVersionName: "4.30.2"
+latestUpdate: 2021-05-18
+apkVersionName: "4.30.3"
 stars: 3.8
 ratings: 57
 reviews: 33

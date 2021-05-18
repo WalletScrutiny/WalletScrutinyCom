@@ -4,14 +4,14 @@ title: "Buda.com - Bitcoin wallet. Compra, vende, almacena"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.buda.crypto
 launchDate: 
 latestUpdate: 2020-06-02
 apkVersionName: "1.9.10"
 stars: 2.6
-ratings: 436
-reviews: 287
+ratings: 437
+reviews: 288
 size: 12M
 website: https://www.buda.com
 repository: 

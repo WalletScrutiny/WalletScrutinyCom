@@ -9,9 +9,9 @@ appId: com.fitbobcat.satoshi
 launchDate: 2018-01-16
 latestUpdate: 2018-01-16
 apkVersionName: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 25
+reviews: 15
 size: 3.0M
 website: https://www.satoshiera.com
 repository: 

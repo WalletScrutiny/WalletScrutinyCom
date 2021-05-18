@@ -9,9 +9,9 @@ appId: com.coinhako
 launchDate: 
 latestUpdate: 2021-05-10
 apkVersionName: "2.3.0"
-stars: 2.7
-ratings: 953
-reviews: 777
+stars: 2.9
+ratings: 965
+reviews: 788
 size: 48M
 website: https://www.coinhako.com
 repository: 

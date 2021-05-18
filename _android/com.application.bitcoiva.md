@@ -9,8 +9,8 @@ appId: com.application.bitcoiva
 launchDate: 
 latestUpdate: 2021-04-12
 apkVersionName: "1.14"
-stars: 4.3
-ratings: 119
+stars: 4.4
+ratings: 120
 reviews: 62
 size: 7.1M
 website: 

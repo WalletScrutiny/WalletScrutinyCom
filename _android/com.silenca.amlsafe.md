@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "1.30.34.2"
 stars: 4.6
-ratings: 201
-reviews: 148
+ratings: 206
+reviews: 153
 size: 17M
 website: https://amlsafe.io
 repository: 
