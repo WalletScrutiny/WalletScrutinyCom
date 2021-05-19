@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-07
 apkVersionName: "v73"
 stars: 3.4
-ratings: 1957
-reviews: 738
+ratings: 1959
+reviews: 739
 size: 9.0M
 website: 
 repository: 

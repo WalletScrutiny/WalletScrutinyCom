@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-17
 apkVersionName: "2.1.0"
 stars: 4.3
-ratings: 9846
-reviews: 2724
+ratings: 9853
+reviews: 2730
 size: 134M
 website: https://www.bitstamp.net
 repository: 

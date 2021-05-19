@@ -9,9 +9,9 @@ appId: com.valr.app
 launchDate: 
 latestUpdate: 2021-04-19
 apkVersionName: "1.0.25"
-stars: 4.1
-ratings: 547
-reviews: 303
+stars: 4.0
+ratings: 549
+reviews: 305
 size: 89M
 website: https://www.valr.com
 repository: 

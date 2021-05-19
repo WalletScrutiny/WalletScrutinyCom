@@ -9,9 +9,9 @@ appId: com.dok.wallet
 launchDate: 
 latestUpdate: 2021-05-14
 apkVersionName: "1.1.3"
-stars: 4.7
-ratings: 14
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: 61M
 website: 
 repository: 

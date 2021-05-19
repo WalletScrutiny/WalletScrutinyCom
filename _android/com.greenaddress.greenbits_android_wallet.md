@@ -10,7 +10,7 @@ launchDate: 2015-01-01
 latestUpdate: 2021-05-03
 apkVersionName: "3.5.9"
 stars: 3.8
-ratings: 779
+ratings: 781
 reviews: 432
 size: 75M
 website: https://blockstream.com/green

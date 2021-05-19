@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2021-05-13
-apkVersionName: "3.0.24-eth-fees"
+latestUpdate: 2021-05-18
+apkVersionName: "3.0.25-connected-apps.4"
 stars: 4.8
 ratings: 671
 reviews: 346

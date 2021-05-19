@@ -10,7 +10,7 @@ launchDate: 2019-05-15
 latestUpdate: 2021-05-13
 apkVersionName: "2.2.8"
 stars: 4.2
-ratings: 247
+ratings: 248
 reviews: 103
 size: 50M
 website: https://viawallet.com
