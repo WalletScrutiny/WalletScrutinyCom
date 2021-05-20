@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-03-29
 apkVersionName: "5.0.3"
 stars: 3.9
-ratings: 195
-reviews: 136
+ratings: 196
+reviews: 137
 size: 85M
 website: http://mercury.cash
 repository: 

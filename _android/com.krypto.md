@@ -4,14 +4,14 @@ title: "Krypto - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.krypto
 launchDate: 
 latestUpdate: 2021-05-09
 apkVersionName: "8.5"
-stars: 3.5
-ratings: 983
-reviews: 612
+stars: 4.6
+ratings: 1079
+reviews: 703
 size: 9.2M
 website: https://letskrypto.com
 repository: 

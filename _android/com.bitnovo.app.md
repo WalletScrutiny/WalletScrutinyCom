@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-23
 apkVersionName: "2.8.4"
 stars: 2.5
-ratings: 292
-reviews: 204
+ratings: 293
+reviews: 205
 size: 34M
 website: http://www.bitnovo.com
 repository: 

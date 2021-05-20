@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-05-13
 apkVersionName: "1.901"
 stars: 3.0
-ratings: 1572
+ratings: 1573
 reviews: 1095
 size: 57M
 website: https://swipe.io

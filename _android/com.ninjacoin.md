@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "NinjaCoin Mobile Wallet"
+title: "NinjaCoin Wallet"
 altTitle: 
 authors:
 
 users: 1000
 appId: com.ninjacoin
 launchDate: 
-latestUpdate: 2020-10-06
-apkVersionName: "v1.2.0"
-stars: 4.3
-ratings: 47
-reviews: 28
+latestUpdate: 2021-05-19
+apkVersionName: "v1.3.0"
+stars: 4.4
+ratings: 49
+reviews: 29
 size: 25M
 website: 
 repository: 

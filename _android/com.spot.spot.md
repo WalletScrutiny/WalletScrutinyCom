@@ -9,9 +9,9 @@ appId: com.spot.spot
 launchDate: 
 latestUpdate: 2021-05-13
 apkVersionName: "4.28.1.2600-c793c0d3"
-stars: 4.3
-ratings: 3964
-reviews: 1933
+stars: 4.2
+ratings: 3968
+reviews: 1935
 size: 65M
 website: https://www.spot-bitcoin.com
 repository: 

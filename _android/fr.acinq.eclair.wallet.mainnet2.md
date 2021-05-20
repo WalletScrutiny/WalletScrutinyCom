@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 launchDate: 2018-04-12
-latestUpdate: 2021-05-17
-apkVersionName: "0.4.15"
+latestUpdate: 2021-05-20
+apkVersionName: "0.4.16"
 stars: 4.0
 ratings: 354
 reviews: 165

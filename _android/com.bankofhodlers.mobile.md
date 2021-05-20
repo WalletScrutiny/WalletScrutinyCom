@@ -1,18 +1,18 @@
 ---
 wsId: Vauld
-title: "Vauld - Interest Earning Crypto Wallets"
+title: "Vauld -  Earn, Borrow & Trade With Crypto"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: com.bankofhodlers.mobile
 launchDate: 
-latestUpdate: 2021-05-15
-apkVersionName: "2.1.2"
-stars: 4.3
-ratings: 147
-reviews: 70
-size: 27M
+latestUpdate: 2021-05-18
+apkVersionName: "2.1.4"
+stars: 4.2
+ratings: 148
+reviews: 71
+size: 26M
 website: https://www.vauld.com/
 repository: 
 issue: 

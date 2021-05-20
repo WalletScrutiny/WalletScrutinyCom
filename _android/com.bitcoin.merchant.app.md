@@ -9,9 +9,9 @@ appId: com.bitcoin.merchant.app
 launchDate: 2019-04-13
 latestUpdate: 2021-05-06
 apkVersionName: "5.3.7"
-stars: 4.0
-ratings: 390
-reviews: 147
+stars: 4.1
+ratings: 393
+reviews: 148
 size: 6.0M
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.m2049r.xmrwallet
 launchDate: 
-latestUpdate: 2021-05-05
-apkVersionName: "2.0.6 'Puginarug'"
-stars: 3.5
-ratings: 692
-reviews: 416
+latestUpdate: 2021-05-19
+apkVersionName: "2.0.7 'Puginarug'"
+stars: 3.6
+ratings: 693
+reviews: 417
 size: Varies with device
 website: https://monerujo.io
 repository: 

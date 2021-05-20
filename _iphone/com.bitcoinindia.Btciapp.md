@@ -8,11 +8,11 @@ appId: com.bitcoinindia.Btciapp
 appCountry: 
 idd: 1230917514
 released: 2017-07-12
-updated: 2021-03-07
-version: "3.1.39"
+updated: 2021-05-20
+version: "3.1.41"
 score: 
 reviews: 
-size: 71686144
+size: 71802880
 developerWebsite: 
 repository: 
 issue: 

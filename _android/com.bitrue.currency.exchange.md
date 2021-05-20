@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.bitrue.currency.exchange
 launchDate: 
-latestUpdate: 2021-05-10
-apkVersionName: "4.4.7"
+latestUpdate: 2021-05-19
+apkVersionName: "4.4.8"
 stars: 3.8
-ratings: 1530
-reviews: 993
+ratings: 1544
+reviews: 1004
 size: 36M
 website: https://www.bitrue.com
 repository: 

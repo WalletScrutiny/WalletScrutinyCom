@@ -9,9 +9,9 @@ appId: com.algorand.android
 launchDate: 
 latestUpdate: 2021-05-11
 apkVersionName: "4.8.1"
-stars: 4.8
-ratings: 2470
-reviews: 771
+stars: 4.9
+ratings: 2525
+reviews: 784
 size: 37M
 website: 
 repository: 

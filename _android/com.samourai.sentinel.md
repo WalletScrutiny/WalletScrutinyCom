@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-13
 apkVersionName: "4.0.2"
 stars: 3.6
-ratings: 295
-reviews: 159
+ratings: 296
+reviews: 160
 size: 40M
 website: https://www.samouraiwallet.com/sentinel
 repository: https://github.com/Samourai-Wallet/sentinel-android
