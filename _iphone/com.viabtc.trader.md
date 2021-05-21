@@ -18,19 +18,23 @@ repository:
 issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-20
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinexcom
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: TheCoinEx
+providerReddit: Coinex
 
 redirect_from:
 
 ---
 
+
+Unfortunately there is no easily accessible information on the App Store or
+their website about the app's security. For now we assume it is
+custodial and thus **not verifiable**.

@@ -18,19 +18,29 @@ repository:
 issue: 
 icon: com.Crypterium.Crypterium.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-20
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: crypterium
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: crypterium.org
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
+
+> **Store**<br>
+  keep your currencies<br>
+  safe & fully insured
+
+this is a custodial app as a self-custody wallet cannot ever have funds insured.
+
+As a custodial app it is **not verifiable**.

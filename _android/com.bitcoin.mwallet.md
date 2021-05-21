@@ -19,7 +19,7 @@ issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-27
+date: 2021-05-20
 reviewStale: true
 signer: 
 reviewArchive:
@@ -41,6 +41,7 @@ redirect_from:
 
 
 According to
-[the words of its owner](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
-this wallet is closed source until further notice. We assume it is still
+[the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
+this wallet is closed source until further notice. There was no indication of a
+change by 2020-05-20. We assume it is still
 supposed to be non-custodial but without source code, this is **not verifiable**.

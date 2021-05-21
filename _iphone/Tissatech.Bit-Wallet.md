@@ -18,19 +18,23 @@ repository:
 issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-20
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bitwalletinc
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: BitWalletInc
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+This appears to be primarily an exchange and as there are no claims of you being
+in sole control of your funds, we have to assume it is a custodial service and
+therefore **not verifiable**.
