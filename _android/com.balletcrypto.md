@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-20
 apkVersionName: "1.16.2"
 stars: 4.8
-ratings: 401
-reviews: 157
+ratings: 406
+reviews: 158
 size: 47M
 website: https://www.balletcrypto.com
 repository: 

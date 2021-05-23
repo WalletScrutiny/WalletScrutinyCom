@@ -4,7 +4,7 @@ title: "Crystal Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: eu.crystalwallet.app
 launchDate: 
 latestUpdate: 2020-06-15

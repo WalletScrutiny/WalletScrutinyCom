@@ -10,8 +10,8 @@ launchDate: 2018-12-08
 latestUpdate: 2021-03-02
 apkVersionName: "4.2.3-3"
 stars: 4.1
-ratings: 151
-reviews: 74
+ratings: 153
+reviews: 75
 size: 35M
 website: https://electroncash.org
 repository: 

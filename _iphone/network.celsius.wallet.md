@@ -10,8 +10,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2021-05-05
 version: "4.8.1"
-score: 3.84378
-reviews: 1069
+score: 3.84558
+reviews: 1075
 size: 45571072
 developerWebsite: https://celsius.network/app
 repository: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to
   transfer and withdraw your Ethereum, Bitcoin, and over 30 other

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-23
 apkVersionName: "2.9.5"
 stars: 4.0
-ratings: 410
-reviews: 249
+ratings: 412
+reviews: 251
 size: 17M
 website: https://www.ellipal.com
 repository: 

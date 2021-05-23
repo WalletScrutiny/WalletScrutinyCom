@@ -4,14 +4,14 @@ title: "Bitcoin Wallet & Ethereum Ripple ZIL DOT"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: io.atomicwallet
 launchDate: 2019-01-30
 latestUpdate: 2021-04-29
 apkVersionName: "0.73.1"
 stars: 4.3
-ratings: 39072
-reviews: 19211
+ratings: 39302
+reviews: 19311
 size: 14M
 website: https://atomicwallet.io
 repository: 

@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This appears to be primarily an exchange and as there are no claims of you being
 in sole control of your funds, we have to assume it is a custodial service and
 therefore **not verifiable**.

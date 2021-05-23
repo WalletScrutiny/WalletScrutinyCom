@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-20
 apkVersionName: "3.16.0"
 stars: 4.5
-ratings: 15103
-reviews: 3525
+ratings: 15420
+reviews: 3583
 size: Varies with device
 website: https://gemini.com
 repository: 

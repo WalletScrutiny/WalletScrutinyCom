@@ -7,8 +7,8 @@ authors:
 users: 500
 appId: com.hconline.iso
 launchDate: 
-latestUpdate: 2021-04-25
-apkVersionName: "R02.02.06.251"
+latestUpdate: 2021-05-21
+apkVersionName: "R02.02.06.258"
 stars: 3.9
 ratings: 13
 reviews: 8

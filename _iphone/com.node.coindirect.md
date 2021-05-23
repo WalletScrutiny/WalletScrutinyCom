@@ -9,11 +9,11 @@ appId: com.node.coindirect
 appCountry: 
 idd: 1438224938
 released: 2018-10-25
-updated: 2021-04-30
-version: "1.2.4"
+updated: 2021-05-22
+version: "1.2.6"
 score: 2
 reviews: 6
-size: 34179072
+size: 15767552
 developerWebsite: https://www.coindirect.com/
 repository: 
 issue: 

@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.remitano.remitano
 launchDate: 
-latestUpdate: 2021-05-10
-apkVersionName: "5.31.0"
+latestUpdate: 2021-05-21
+apkVersionName: "5.33.0"
 stars: 4.3
-ratings: 12408
-reviews: 5818
+ratings: 12479
+reviews: 5837
 size: 93M
 website: https://remitano.com
 repository: 

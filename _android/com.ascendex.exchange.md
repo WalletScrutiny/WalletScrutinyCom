@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-17
 apkVersionName: "2.4.9"
 stars: 4.1
-ratings: 383
-reviews: 133
+ratings: 397
+reviews: 140
 size: 20M
 website: https://ascendex.com
 repository: 

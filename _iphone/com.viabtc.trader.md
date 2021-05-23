@@ -10,8 +10,8 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2021-04-30
 version: "2.9.7"
-score: 4.45769
-reviews: 579
+score: 4.45282
+reviews: 583
 size: 144160768
 developerWebsite: https://www.coinex.com
 repository: 
@@ -33,7 +33,6 @@ providerReddit: Coinex
 redirect_from:
 
 ---
-
 
 Unfortunately there is no easily accessible information on the App Store or
 their website about the app's security. For now we assume it is

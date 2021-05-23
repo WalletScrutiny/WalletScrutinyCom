@@ -9,9 +9,9 @@ appId: com.XcelTrip.XcelPay
 launchDate: 
 latestUpdate: 2021-04-30
 apkVersionName: "2.20.6"
-stars: 4.5
-ratings: 516
-reviews: 319
+stars: 4.6
+ratings: 520
+reviews: 322
 size: 32M
 website: http://www.xcelpay.io
 repository: 

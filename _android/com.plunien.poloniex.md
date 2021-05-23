@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.plunien.poloniex
 launchDate: 
-latestUpdate: 2021-05-18
+latestUpdate: 2021-05-21
 apkVersionName: "1.25.8"
 stars: 4.1
-ratings: 4881
-reviews: 2621
+ratings: 4932
+reviews: 2652
 size: 25M
 website: https://support.poloniex.com
 repository: 

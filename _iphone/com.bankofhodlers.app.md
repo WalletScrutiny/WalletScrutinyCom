@@ -8,11 +8,11 @@ appId: com.bankofhodlers.app
 appCountry: 
 idd: 1509251174
 released: 2020-05-12
-updated: 2021-05-20
-version: "2.1.5"
-score: 4.71429
-reviews: 7
-size: 59795456
+updated: 2021-05-22
+version: "2.1.6"
+score: 4.75
+reviews: 8
+size: 59799552
 developerWebsite: https://www.vauld.com/
 repository: 
 issue: 

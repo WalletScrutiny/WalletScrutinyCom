@@ -8,11 +8,11 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2021-04-16
-version: "1.9.4"
-score: 4.5204
-reviews: 1103
-size: 116429824
+updated: 2021-05-21
+version: "1.10.0"
+score: 4.52381
+reviews: 1113
+size: 128143360
 developerWebsite: https://www.coinomi.com
 repository: 
 issue: 
@@ -33,7 +33,6 @@ providerReddit: COINOMI
 redirect_from:
 
 ---
-
 
 This wallet claims to be non-custodial but
 [went closed-source](https://github.com/bitcoin-dot-org/bitcoin.org/issues/1622)
