@@ -19,10 +19,15 @@ issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/35
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-26
+date: 2021-05-22
 reviewStale: true
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2021-04-26
+  version: "0.20.1"
+  apkHash: 64a9db54d7ebbe0340dbb6c7ca41938984e0d33a8f13489518710a998aae1dda
+  gitRevision: ea8b12d9afee6160507594b8d04da2210f990fd1
+  verdict: reproducible
 - date: 2021-04-16
   version: "0.20.0"
   apkHash: 1a98f8bec96d1e50b6aa6fe2cb9116b16ec1b48f71241c9081ac67dadc7166d9
@@ -138,15 +143,15 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.20.1
-apkVersionCode: 43
-apkHash:        64a9db54d7ebbe0340dbb6c7ca41938984e0d33a8f13489518710a998aae1dda
+apkVersionName: 0.21.0
+apkVersionCode: 44
+apkHash:        a01332a6d4c8fba8d056cc5fa7e521f59291488efd66998d4ef1ce3a56deccec
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_43/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_43/apktool.yml differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_43/original/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_43/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_43/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_44/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_44/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 ```

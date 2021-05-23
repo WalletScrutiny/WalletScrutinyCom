@@ -19,7 +19,7 @@ issue:
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2021-05-23
 reviewStale: true
 signer: 
 reviewArchive:
@@ -38,26 +38,22 @@ redirect_from:
 ShapeShift is best known for their non-custodial exchange but this app appears
 to be a wallet:
 
-> STORE YOUR CRYPTO IN A SECURE WALLET
-> Setup a ShapeShift multi-chain wallet in seconds to store your crypto.
+> **STORE YOUR CRYPTO IN A SECURE WALLET**<br>
+  Setup a ShapeShift multi-chain wallet in seconds to store your crypto.
 
 ... and non-custodial:
 
 > ShapeShift makes self-custody easy, never holding your coins, so you have
   complete control over your assets.
 
-but is their code public? On Google Play we see no such claim.
+but is their code public? 
 
 On the [referenced website](https://shapeshift.com/) there is no link back to
-the app on Android.
+the app on App Store or Play Store but there is
+[this site](https://shapeshift.com/invite) where they suggest having an
+invite-only mobile app. When you provide them with your email (Seriously?) they ...
+forward you to [this site](https://shapeshift.com/download) where there are
+actually download links for both mobile apps.
 
-And clicking around on their website the app is nowhere to be found ... unless
-... the page behind [Learn -> Bitcoin](https://shapeshift.com/category/bitcoin)
-is what we are looking for ... oh, no, *Introducing: The ShapeShift Mobile App*
-is only a link to [this page](https://shapeshift.com/library/mobile-app) which
-again has no link to Google Play? Only a link to
-[this invite page](https://shapeshift.com/invite) which asks for your email
-address to get the app? Seriously? Here we give up our search for source code or
-more information on their website. As on GitHub we
-[can't find the appId](https://github.com/search?q=%22com.shapeshift.droid_shapeshift%22&type=code)
-neither, we conclude the app is closed source and thus **not verifiable**.
+As we couldn't find any source code we assume the app is closed source and
+therefore **not verifiable**.

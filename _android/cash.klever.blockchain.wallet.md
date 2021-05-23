@@ -13,21 +13,21 @@ stars: 3.8
 ratings: 8059
 reviews: 4540
 size: Varies with device
-website: https://www.tronwallet.me
+website: https://www.klever.io
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2021-05-22
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: klever_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: klever.io
 providerReddit: 
 
 redirect_from:
@@ -35,15 +35,11 @@ redirect_from:
 ---
 
 
-We found this app as [TronWallet](/com.tronwallet2/)'s listing at Google named
-this app's website as its website, too. Or actually both apps claim
-`www.tronwallet.me` was their website but that page only redirects to
-`klever.io/en/` which in turn only points to this app not to TronWallet.
+On their website we read:
 
-This app's description looks like a copy of TronWallet's description with the
-same strong claims about being non-custodial and also without a link to the source
-code on Google Play. On the website we can't find a link to their source
-code neither.
-[Searching GitHub](https://github.com/search?q=%22cash.klever.blockchain.wallet%22&type=Code)
-doesn't yield relevant results neither and we conclude that this wallet is
-closed source and thus **not verifiable**.
+> **Peer-to-Peer**<br>
+  Klever is a decentralized p2p and self-custody wallet network. Your Keys, your
+  crypto.
+
+so they claim the app is self-custodial but we cannot find any source code which
+makes the app **not verifiable**.
