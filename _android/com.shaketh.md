@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-21
 apkVersionName: "1.6.101"
 stars: 4.7
-ratings: 7113
-reviews: 3062
+ratings: 7136
+reviews: 3073
 size: 84M
 website: https://shakepay.com
 repository: 

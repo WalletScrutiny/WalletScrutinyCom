@@ -10,8 +10,8 @@ idd: 1455341917
 released: 2019-06-30
 updated: 2021-05-03
 version: "1.4.8"
-score: 3.88539
-reviews: 349
+score: 3.87853
+reviews: 354
 size: 34368512
 developerWebsite: https://nexo.io
 repository: 
@@ -33,7 +33,6 @@ providerReddit: Nexo
 redirect_from:
 
 ---
-
 
 In the description on the App Store we read:
 

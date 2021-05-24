@@ -10,8 +10,8 @@ idd: 1438144202
 released: 2020-09-03
 updated: 2021-05-17
 version: "2.3.0"
-score: 3.39646
-reviews: 565
+score: 3.39789
+reviews: 568
 size: 37363712
 developerWebsite: https://metamask.io/
 repository: 

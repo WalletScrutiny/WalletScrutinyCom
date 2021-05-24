@@ -10,8 +10,8 @@ idd: 1360632912
 released: 2018-03-26
 updated: 2021-05-17
 version: "1.15.8"
-score: 4.44196
-reviews: 939
+score: 4.44255
+reviews: 940
 size: 263808000
 developerWebsite: https://cards.crypterium.com/visa
 repository: 

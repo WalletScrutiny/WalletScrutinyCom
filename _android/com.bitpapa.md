@@ -9,9 +9,9 @@ appId: com.bitpapa
 launchDate: 
 latestUpdate: 2021-05-22
 apkVersionName: "1.6.5"
-stars: 5.0
-ratings: 3002
-reviews: 2961
+stars: 4.9
+ratings: 3058
+reviews: 3017
 size: 42M
 website: https://bitpapa.com
 repository: 

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-28
 apkVersionName: "1.4.8"
 stars: 3.8
-ratings: 8414
-reviews: 4018
+ratings: 8429
+reviews: 4019
 size: 61M
 website: https://nexo.io
 repository: 

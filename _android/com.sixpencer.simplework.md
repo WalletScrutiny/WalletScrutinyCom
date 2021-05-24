@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-07
 apkVersionName: "1.3.7"
 stars: 4.6
-ratings: 130
-reviews: 64
+ratings: 132
+reviews: 66
 size: 18M
 website: https://dfox.cc
 repository: 

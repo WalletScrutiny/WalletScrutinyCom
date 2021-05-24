@@ -9,9 +9,9 @@ appId: com.bitpie
 launchDate: 2016-10-23
 latestUpdate: 2021-05-19
 apkVersionName: "5.0.028"
-stars: 3.8
-ratings: 715
-reviews: 373
+stars: 3.7
+ratings: 716
+reviews: 374
 size: 61M
 website: http://bitpie.com
 repository: 

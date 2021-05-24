@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-12
 apkVersionName: "2.14.0"
 stars: 4.2
-ratings: 1361
-reviews: 542
+ratings: 1368
+reviews: 544
 size: 47M
 website: https://youhodler.com
 repository: 

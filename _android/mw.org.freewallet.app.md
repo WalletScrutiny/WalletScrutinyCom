@@ -9,9 +9,9 @@ appId: mw.org.freewallet.app
 launchDate: 2017-08-10
 latestUpdate: 2021-03-04
 apkVersionName: "1.15.3"
-stars: 3.8
-ratings: 9830
-reviews: 6662
+stars: 3.9
+ratings: 9851
+reviews: 6681
 size: 12M
 website: https://freewallet.org
 repository: 

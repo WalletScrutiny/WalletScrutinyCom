@@ -9,9 +9,9 @@ appId: com.luneswallet
 launchDate: 2018-01-31
 latestUpdate: 2018-12-06
 apkVersionName: "2.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 261
+reviews: 174
 size: 7.3M
 website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile

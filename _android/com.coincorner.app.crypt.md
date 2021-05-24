@@ -9,9 +9,9 @@ appId: com.coincorner.app.crypt
 launchDate: 
 latestUpdate: 2021-04-12
 apkVersionName: "3.2.9"
-stars: 2.9
-ratings: 152
-reviews: 107
+stars: 2.8
+ratings: 154
+reviews: 109
 size: 22M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: africa.bundle.mobile.app
 launchDate: 
-latestUpdate: 2021-05-20
-apkVersionName: "2.7.8"
+latestUpdate: 2021-05-23
+apkVersionName: "2.7.9"
 stars: 4.6
-ratings: 8065
-reviews: 5053
-size: 49M
+ratings: 8085
+reviews: 5065
+size: 48M
 website: https://bundle.africa/
 repository: 
 issue: 
