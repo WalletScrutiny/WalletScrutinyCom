@@ -8,10 +8,10 @@ users: 100000
 appId: net.bitstamp.app
 launchDate: 
 latestUpdate: 2021-05-17
-apkVersionName: "2.1.0"
+apkVersionName: "2.2"
 stars: 4.3
-ratings: 9886
-reviews: 2740
+ratings: 9896
+reviews: 2745
 size: 134M
 website: https://www.bitstamp.net
 repository: 

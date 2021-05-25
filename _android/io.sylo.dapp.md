@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 launchDate: 
-latestUpdate: 2021-05-18
-apkVersionName: "3.0.25-connected-apps.4"
+latestUpdate: 2021-05-24
+apkVersionName: "3.0.26-btc-tx.1"
 stars: 4.7
-ratings: 673
+ratings: 674
 reviews: 347
 size: 347M
 website: https://www.sylo.io/wallet

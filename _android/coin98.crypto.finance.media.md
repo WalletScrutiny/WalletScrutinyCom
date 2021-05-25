@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coin98 Wallet - Crypto Wallet & Payment Gateway"
+title: "Coin98 Wallet - Crypto Wallet & DeFi Gateway"
 altTitle: 
 authors:
 - kiwilamb
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-19
 apkVersionName: "9.3.3"
 stars: 4.6
-ratings: 5314
-reviews: 3804
+ratings: 5324
+reviews: 3807
 size: 63M
 website: https://coin98.app/
 repository: 

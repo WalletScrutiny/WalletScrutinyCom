@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-22
 apkVersionName: "1.6.5"
 stars: 4.9
-ratings: 3058
-reviews: 3017
+ratings: 3041
+reviews: 3000
 size: 42M
 website: https://bitpapa.com
 repository: 

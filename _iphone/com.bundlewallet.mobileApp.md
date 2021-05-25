@@ -8,11 +8,11 @@ appId: com.bundlewallet.mobileApp
 appCountry: 
 idd: 1506502199
 released: 2020-06-03
-updated: 2021-05-21
-version: "2.7.8"
+updated: 2021-05-24
+version: "2.7.9"
 score: 4.40462
 reviews: 173
-size: 99659776
+size: 97557504
 developerWebsite: https://bundle.africa/
 repository: 
 issue: 

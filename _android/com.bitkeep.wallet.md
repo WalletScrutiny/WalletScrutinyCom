@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-21
 apkVersionName: "6.0.1"
 stars: 3.0
-ratings: 336
-reviews: 177
+ratings: 339
+reviews: 178
 size: 34M
 website: https://bitkeep.com
 repository: 

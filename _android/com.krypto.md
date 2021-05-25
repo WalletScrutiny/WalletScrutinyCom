@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-22
 apkVersionName: "8.5"
 stars: 4.7
-ratings: 1103
-reviews: 724
+ratings: 1115
+reviews: 735
 size: 9.2M
 website: https://letskrypto.com
 repository: 
