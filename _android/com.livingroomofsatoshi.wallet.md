@@ -19,7 +19,7 @@ issue:
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-19
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -27,7 +27,7 @@ reviewArchive:
 
 providerTwitter: walletofsatoshi
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: walletofsatoshi
 providerReddit: 
 
 redirect_from:
@@ -41,7 +41,6 @@ redirect_from:
 This is a custodial wallet according to their website's FAQ:
 
 > It is a zero-configuration custodial wallet with a focus on simplicity and the
-  best possible user experience. It can be downloaded using the links at
-  walletofsatoshi.com
+  best possible user experience.
 
 and therefore **not verifiable**.

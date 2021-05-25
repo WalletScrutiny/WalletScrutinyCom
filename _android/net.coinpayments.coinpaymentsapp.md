@@ -19,15 +19,15 @@ issue:
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-22
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: CoinPaymentsNET
-providerLinkedIn: 
-providerFacebook: 
+providerLinkedIn: coinpayments-inc
+providerFacebook: CoinPayments
 providerReddit: 
 
 redirect_from:
@@ -42,9 +42,9 @@ Their website is mainly about payment integrations for merchants but also has a
 [page dedicated to the mobile apps](https://www.coinpayments.net/apps) which is
 not very detailed but our guess for now is that
 
-> Now you can easily access your
-CoinPayments account to send and receive coins, accept POS payments in person,
-and exchange many of our coins anywhere you have internet access.
+> Now you can easily access your CoinPayments account to send and receive coins,
+  accept POS payments in person, and exchange many of our coins anywhere you
+  have internet access.
 
 means you can access your coins which are stored on their servers thus this is a
 custodial app.

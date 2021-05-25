@@ -19,7 +19,7 @@ issue:
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,14 +35,12 @@ redirect_from:
 ---
 
 
-> Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and transactions.
-> 
-> Pay in local currency and hold a balance in fiat currency.
-> 
-> Store your cryptos and much more!
+> Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
+  transactions.<br>
+  Pay in local currency and hold a balance in fiat currency. Store your cryptos
+  and much more!
 
 sounds like a wallet that also supports Bitcoin but there is not much
-information on who gets to control the keys. They explain what a private keys is
-in the FAQ though :)
+information on who gets to control the keys.
 
 We have to assume this is a custodial offering and thus **not verifiable**.
