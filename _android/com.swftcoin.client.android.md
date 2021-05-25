@@ -42,4 +42,3 @@ its strong emphasis on speed and many coins and no words on the usual seed words
 we have to assume it is indeed custodial. Their [FAQ](https://www.swft.pro/#/FAQ)
 also sounds more like a custodial exchange than a wallet. This app is certainly
 **not verifiable**.
-

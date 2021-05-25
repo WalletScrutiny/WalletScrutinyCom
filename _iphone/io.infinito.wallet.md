@@ -13,24 +13,35 @@ version: "2.35.2"
 score: 4.21666
 reviews: 180
 size: 105262080
-developerWebsite: 
+developerWebsite: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Infinito_Ltd
+providerLinkedIn: infinitoservices
+providerFacebook: InfinitoWallet
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+Right on the App Store description we find:
+
+> It's free, easy to use and secure - you control your private keys &
+  passphrases!
+
+So it is not a custodial app. How about source code?
+
+Unfortunately we can't find any source code.
+
+Our verdict: This app is **not verifiable**.

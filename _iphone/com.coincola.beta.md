@@ -18,19 +18,26 @@ repository:
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: CoinCola_Global
+providerLinkedIn: coincola
+providerFacebook: CoinCola
+providerReddit: coincolaofficial
 
 redirect_from:
 
 ---
 
+
+> SAFE AND SECURE<br>
+  Our team uses bank-level encryption, cold storage and SSL for the highest
+  level of security.
+
+Cold storage has only a meaning in the context of a custodial app. As such it
+is **not verifiable**.

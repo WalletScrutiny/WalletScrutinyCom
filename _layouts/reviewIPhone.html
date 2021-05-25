@@ -74,7 +74,7 @@ layout: default
             <ul>
               <li
                 title='Link to {{ page.title }} on the App Store'>
-                <a href="https://apps.apple.com/us/app/id{{ page.idd }}" class="link-web">
+                <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web">
                   <i class="fab fa-app-store"></i>
                 </a>
               </li>
@@ -204,7 +204,7 @@ layout: default
 
 
       <p>Our last analysis is based on data found in their
-        <a href="https://apps.apple.com/us/app/id{{ page.idd }}"><i class="fab fa-app-store"></i>
+        <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}"><i class="fab fa-app-store"></i>
 					App Store description</a>{%
         if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
         if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.

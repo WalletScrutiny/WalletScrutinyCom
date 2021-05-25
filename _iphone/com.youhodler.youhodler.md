@@ -18,19 +18,23 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: youhodler
+providerLinkedIn: youhodler
+providerFacebook: YouHodler
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+This app is the interface to an exchange and might have a non-custodial part to
+it but if so, it is not well advertised on their website and we assume it is
+custodial and therefore **not verifiable**.

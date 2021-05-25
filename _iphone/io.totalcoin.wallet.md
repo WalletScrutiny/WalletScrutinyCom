@@ -13,13 +13,13 @@ version: "3.0.0"
 score: 4.55
 reviews: 80
 size: 44261376
-developerWebsite: 
+developerWebsite: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
@@ -27,10 +27,15 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: totalcoin.io
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+On the wallet's website there is no claim about custodianship which makes us
+assume it is a custodial product.
+
+As such it is **not verifiable**.

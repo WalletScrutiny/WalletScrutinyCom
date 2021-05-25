@@ -13,24 +13,34 @@ version: "1.5.1"
 score: 4.25868
 reviews: 259
 size: 35110912
-developerWebsite: 
+developerWebsite: http://changenow.io
 repository: 
 issue: 
 icon: io.changenow.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ChangeNOW_io
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ChangeNOW.io
+providerReddit: ChangeNOW_io
 
 redirect_from:
 
 ---
 
+
+> We focus on simplicity and safety — the service is registration-free and non-custodial.
+
+> With ChangeNOW, you remain in full control over your digital assets.
+
+That's a claim. Let's see if it is verifiable ...
+
+There is no claim of public source anywhere and
+[neither does GitHub know](https://github.com/search?q=%22io.changenow.changenow%22)
+this app, so it's at best closed source and thus **not verifiable**.

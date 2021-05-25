@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.totalcoin.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-23
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 reviewStale: true
 signer: 
 reviewArchive:
@@ -27,7 +27,7 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: totalcoin.io
 providerReddit: 
 
 redirect_from:
@@ -38,17 +38,7 @@ redirect_from:
 ---
 
 
-On the wallet's description we read:
+On the wallet's website there is no claim about custodianship which makes us
+assume it is a custodial product.
 
-> Your Bitcoin, Ethereum and Bitcoin Cash are securely hidden in your blockchain
-wallet and always under your control.
-
-which is the most "explicit" hint at the wallet being non-custodial.
-
-On their website we find not much about the wallet apart from a link to Google
-Play.
-
-On GitHub we
-[find no hits searching for their application ID](https://github.com/search?q="io.totalcoin.wallet").
-
-Our verdict: This wallet is **not verifiable**.
+As such it is **not verifiable**.
