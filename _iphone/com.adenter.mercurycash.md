@@ -18,19 +18,22 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: mercurycash
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: mercurycash
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+This app makes no claims about self-custody so we have to assume it is a
+custodial product and thus **not verifiable**.

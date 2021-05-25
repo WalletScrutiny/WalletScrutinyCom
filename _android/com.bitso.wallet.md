@@ -19,7 +19,7 @@ issue:
 icon: com.bitso.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,6 +35,10 @@ redirect_from:
 ---
 
 
-Bitso appears to be an exchange and as so often, we see no mentions of security
-in the app description or the website and have to assume it is a custodial
-offering and thus **not verifiable**.
+Bitso appears to be an exchange and their statement on security on their website
+
+> **Maximum security**<br>
+  We work every day to keep your account protected. That's why more than 2
+  million users trust us.
+
+is saying "trust us". Their security is **not verifiable**.

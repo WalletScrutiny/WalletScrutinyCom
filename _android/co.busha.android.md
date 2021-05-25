@@ -19,7 +19,7 @@ issue:
 icon: co.busha.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-20
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
@@ -44,6 +44,12 @@ The description
 
 sounds like it's an app to access an account on a custodial platform.
 
-And there is nothing on the website indicating otherwise.
+On their website they are more explicit:
+
+> **Safe & Secure**<br>
+  Our 24/7 monitoring systems, cold storage and industry-standard multi-sig
+  wallets ensure that your assets are the safest they can be.
+
+which is a list of features only relevant in a custodial context.
 
 Our verdict: **not verifiable**.

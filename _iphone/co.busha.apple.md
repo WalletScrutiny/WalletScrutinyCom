@@ -18,19 +18,37 @@ repository:
 issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: getbusha
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: getbusha
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+The description
+
+> Won’t you rather trade and store your crypto assets on a platform you can
+  trust? Busha is a Nigerian based crypto exchange that offers you all these and
+  more.
+
+sounds like it's an app to access an account on a custodial platform.
+
+On their website they are more explicit:
+
+> **Safe & Secure**<br>
+  Our 24/7 monitoring systems, cold storage and industry-standard multi-sig
+  wallets ensure that your assets are the safest they can be.
+
+which is a list of features only relevant in a custodial context.
+
+Our verdict: **not verifiable**.

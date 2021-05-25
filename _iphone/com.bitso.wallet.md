@@ -18,19 +18,27 @@ repository:
 issue: 
 icon: com.bitso.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Bitso
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitsoex
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+Bitso appears to be an exchange and their statement on security on their website
+
+> **Maximum security**<br>
+  We work every day to keep your account protected. That's why more than 2
+  million users trust us.
+
+is saying "trust us". Their security is **not verifiable**.
