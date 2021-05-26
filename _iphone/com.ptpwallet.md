@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 In [their FAQ](https://ptpwallet.com/faq/) we can read:
 
 > **I entered/lost my passphrases and it’s giving me a message that I can’t

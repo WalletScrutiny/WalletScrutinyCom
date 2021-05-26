@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>
   Pay in local currency and hold a balance in fiat currency. Store your cryptos

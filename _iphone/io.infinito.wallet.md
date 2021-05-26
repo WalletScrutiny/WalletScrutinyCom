@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 Right on the App Store description we find:
 
 > It's free, easy to use and secure - you control your private keys &

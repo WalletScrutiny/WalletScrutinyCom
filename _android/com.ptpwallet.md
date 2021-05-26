@@ -24,11 +24,10 @@ reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-06
-  version: 
+  version: ""
   apkHash: 
   gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
   verdict: custodial
-
 
 providerTwitter: PtpWallet
 providerLinkedIn: 

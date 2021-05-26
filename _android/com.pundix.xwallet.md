@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2020-11-23
 apkVersionName: "2.8.2"
 stars: 3.0
-ratings: 4964
+ratings: 4962
 reviews: 2879
 size: 62M
 website: https://pundix.com

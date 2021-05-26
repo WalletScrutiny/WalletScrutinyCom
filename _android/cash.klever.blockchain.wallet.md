@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-12
 apkVersionName: "4.2.1"
 stars: 3.8
-ratings: 8088
-reviews: 4556
+ratings: 8093
+reviews: 4559
 size: Varies with device
 website: https://www.klever.io
 repository: 

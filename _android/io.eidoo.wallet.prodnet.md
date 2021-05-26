@@ -10,8 +10,8 @@ launchDate: 2017-09-25
 latestUpdate: 2021-05-21
 apkVersionName: "3.0.0"
 stars: 3.0
-ratings: 1596
-reviews: 794
+ratings: 1597
+reviews: 795
 size: 13M
 website: https://eidoo.io
 repository: 

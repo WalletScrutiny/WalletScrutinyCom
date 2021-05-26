@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 Bitso appears to be an exchange and their statement on security on their website
 
 > **Maximum security**<br>

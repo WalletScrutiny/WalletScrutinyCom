@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2019-12-05
 apkVersionName: "2.0.5"
 stars: 3.0
-ratings: 1519
+ratings: 1518
 reviews: 797
 size: 38M
 website: https://www.ethos.io

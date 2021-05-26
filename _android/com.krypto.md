@@ -9,7 +9,7 @@ appId: com.krypto
 launchDate: 
 latestUpdate: 2021-05-22
 apkVersionName: "8.5"
-stars: 4.7
+stars: 4.6
 ratings: 1115
 reviews: 735
 size: 9.2M

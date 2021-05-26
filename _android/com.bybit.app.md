@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.bybit.app
 launchDate: 
-latestUpdate: 2021-05-14
-apkVersionName: "2.1.0"
-stars: 3.7
-ratings: 3570
-reviews: 1658
+latestUpdate: 2021-05-24
+apkVersionName: "2.2.0"
+stars: 3.6
+ratings: 3584
+reviews: 1665
 size: 31M
 website: https://www.bybit.com
 repository: 

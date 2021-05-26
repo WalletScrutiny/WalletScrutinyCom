@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-04-19
 apkVersionName: "1.0.25"
 stars: 4.0
-ratings: 554
-reviews: 307
+ratings: 555
+reviews: 308
 size: 89M
 website: https://www.valr.com
 repository: 

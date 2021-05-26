@@ -34,6 +34,5 @@ redirect_from:
 
 ---
 
-
 This app makes no claims about self-custody so we have to assume it is a
 custodial product and thus **not verifiable**.

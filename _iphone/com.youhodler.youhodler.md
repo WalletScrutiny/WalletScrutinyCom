@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This app is the interface to an exchange and might have a non-custodial part to
 it but if so, it is not well advertised on their website and we assume it is
 custodial and therefore **not verifiable**.

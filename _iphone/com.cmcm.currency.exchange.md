@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This app is heavily focused on the "exchange" part which is also in its name.
 Nowhere on the App Store can we find claims about self-custody but things like
 

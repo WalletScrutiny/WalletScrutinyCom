@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 The description on App Store is full of buzzwords like big data, machine
 learning but no clear words on weather this wallet is custodial or not. Given
 its strong emphasis on speed and many coins and no words on the usual seed words,

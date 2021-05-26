@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ninjacoin
 launchDate: 
-latestUpdate: 2021-05-19
+latestUpdate: 2021-05-25
 apkVersionName: "v1.3.0"
 stars: 4.4
 ratings: 49

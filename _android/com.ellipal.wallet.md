@@ -35,7 +35,7 @@ redirect_from:
 ---
 
 
-This app come with the claim:
+This app comes with the claim:
 
 > Secure HD wallet for cryptocurrencies. Store, transact, and trade Bitcoin and
   Crypto: BTC ETH LTC DGB BSV BAT OMG XRP XVG & 1000+ more.

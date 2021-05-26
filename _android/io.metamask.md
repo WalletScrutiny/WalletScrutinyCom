@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: io.metamask
 launchDate: 
-latestUpdate: 2021-05-12
+latestUpdate: 2021-05-25
 apkVersionName: "2.2.0"
 stars: 3.0
-ratings: 5324
-reviews: 3021
+ratings: 5381
+reviews: 3047
 size: 28M
 website: https://metamask.io
 repository: 

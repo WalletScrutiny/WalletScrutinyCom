@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 > We focus on simplicity and safety — the service is registration-free and non-custodial.
 
 > With ChangeNOW, you remain in full control over your digital assets.

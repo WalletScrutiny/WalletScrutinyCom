@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This is a custodial wallet according to their website's FAQ:
 
 > It is a zero-configuration custodial wallet with a focus on simplicity and the

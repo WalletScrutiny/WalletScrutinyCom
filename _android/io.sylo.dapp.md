@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-24
 apkVersionName: "3.0.26-btc-tx.1"
 stars: 4.7
-ratings: 674
-reviews: 347
+ratings: 675
+reviews: 348
 size: 347M
 website: https://www.sylo.io/wallet
 repository: 

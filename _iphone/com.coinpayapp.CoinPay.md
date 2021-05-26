@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 > We are a non-custodial wallet, so users can send Bitcoin and other
   cryptocurrencies globally with direct access to the blockchain.
 

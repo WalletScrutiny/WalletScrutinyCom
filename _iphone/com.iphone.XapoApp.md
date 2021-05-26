@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 Xapo describes itself as a wallet:
 
 > We’re a digital wallet that allows you to easily and safely send, receive,

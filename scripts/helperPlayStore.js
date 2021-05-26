@@ -135,7 +135,7 @@ reviewStale: ${stale}
 signer: ${header.signer || ""}
 reviewArchive:
 ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
-  version: "${item.version}"
+  version: "${item.version || ""}"
   apkHash: ${item.apkHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}

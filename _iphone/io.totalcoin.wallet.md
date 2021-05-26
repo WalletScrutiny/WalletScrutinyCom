@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 On the wallet's website there is no claim about custodianship which makes us
 assume it is a custodial product.
 

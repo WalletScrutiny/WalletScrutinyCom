@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 The app's description:
 
 > As a non-custodial wallet, funds will always remain in your full control, with

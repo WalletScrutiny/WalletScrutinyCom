@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 The description
 
 > Won’t you rather trade and store your crypto assets on a platform you can

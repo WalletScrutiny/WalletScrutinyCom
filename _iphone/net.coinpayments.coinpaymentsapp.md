@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 The description is not very clear but sounds a bit like this app is custodial.
 
 Their website is mainly about payment integrations for merchants but also has a

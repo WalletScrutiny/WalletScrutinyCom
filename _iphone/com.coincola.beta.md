@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 > SAFE AND SECURE<br>
   Our team uses bank-level encryption, cold storage and SSL for the highest
   level of security.
