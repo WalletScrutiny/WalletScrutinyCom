@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-29
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: false
 signer: 
 reviewArchive:
+- date: 2019-11-29
+  version: ""
+  apkHash: 
+  gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
+  verdict: fewusers
 
 
 providerTwitter: 
@@ -31,15 +36,14 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /lite/
-  - /org.freewallet.lite.android/
-  - /posts/2019/11/lite/
-  - /posts/org.freewallet.lite.android/
 ---
 
 
-**Update**: This wallet shares no source code but was categorized as too small,
-which makes it irrelevant for some listings.
+**Update 2021-05-25**: This app is not on the Play Store anymore. The app's
+website links to [this Freewallet](/android/mw.org.freewallet.app/) now.
+
+**Update 2019-11-29**: This wallet shares no source code but was categorized as
+too small, which makes it irrelevant for listings.
 
 In their description they claim
 

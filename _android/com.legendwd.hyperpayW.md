@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-02
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2020-12-02
+  version: "4.0.25"
+  apkHash: 
+  gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
+  verdict: obfuscated
 
 
 providerTwitter: HyperPay_tech
@@ -35,12 +40,16 @@ redirect_from:
 ---
 
 
+**Update 2021-05-25**: This app is not available on Google Play anymore. As our
+last analysis below shows, the app was shady. On Facebook you can still find
+some scam allegations.
+
 > **Is HyperPay Wallet Safe?**<br>
-> Yes, of course. HyperPay wallet supports both on-chain & off-chain and both are absolutely safe.
+  Yes, of course. HyperPay wallet supports both on-chain & off-chain and both are absolutely safe.
 
 Ok?
 
->Our security system for off-chain wallet is robust with 24/7 abnormal data monitoring, orchestrated code quality and vulnerability scanning in CI/CD cycle system. Our security team is safeguarding your assets 24/7.
+> Our security system for off-chain wallet is robust with 24/7 abnormal data monitoring, orchestrated code quality and vulnerability scanning in CI/CD cycle system. Our security team is safeguarding your assets 24/7.
 
 That sounds like a custodial offering if a security team is safeguarding your
 assets.
