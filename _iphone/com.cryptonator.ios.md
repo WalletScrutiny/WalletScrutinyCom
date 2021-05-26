@@ -18,14 +18,14 @@ repository:
 issue: 
 icon: com.cryptonator.ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: cryptonatorcom
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -34,3 +34,11 @@ redirect_from:
 
 ---
 
+
+Cryptonator cryptocurrency wallet makes no claim to be non-custodial but the
+[Customer Support](https://www.cryptonator.com/contact/other/)
+is pretty unambiguously pointing towards it being custodial:
+
+> **Do you provide private keys?**: No
+
+Absent source code this wallet is **not verifiable**.

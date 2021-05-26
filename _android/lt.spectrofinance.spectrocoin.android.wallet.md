@@ -31,8 +31,6 @@ providerFacebook: spectrocoin
 providerReddit: 
 
 redirect_from:
-  - /lt.spectrofinance.spectrocoin.android.wallet/
-  - /posts/lt.spectrofinance.spectrocoin.android.wallet/
 ---
 
 

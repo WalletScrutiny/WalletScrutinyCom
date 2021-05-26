@@ -18,19 +18,27 @@ repository:
 issue: 
 icon: com.counos.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: counoscoin
+providerLinkedIn: counosplatform
+providerFacebook: CounosPlatform
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+Nothing in the description hints at this app being non-custodial.
+
+On the website
+[the section about the mobile wallet](https://www.counos.io/counos-mobile-wallet-tutorial) explains in cumbersome ways how to migrate between security features
+but doesn't answer this question neither.
+
+For now we assume this app is custodial and thus **not verifiable**.

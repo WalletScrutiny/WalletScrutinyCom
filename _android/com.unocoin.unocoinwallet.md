@@ -40,9 +40,8 @@ This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their
 website and there we read
 
-> AES-256 Encryption
-> 
-> The address-private key pairs obtained are encrypted using AES-256, sealed in
+> AES-256 Encryption<br>
+  The address-private key pairs obtained are encrypted using AES-256, sealed in
   envelopes and stored in multiple safe deposit lockers.
 
 which clearly means they have the keys and you don't. As a custodial service,

@@ -18,19 +18,22 @@ repository:
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bit2me
+providerLinkedIn: bit2me
+providerFacebook: bit2me
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+This appears to be the interface for an exchange. We could not find any claims
+about you owning your keys. As a custodial service it is **not verifiable**.

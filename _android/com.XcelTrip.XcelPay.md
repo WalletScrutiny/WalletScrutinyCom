@@ -19,23 +19,22 @@ issue:
 icon: com.XcelTrip.XcelPay.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-06
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: XcelPayWallet
-providerLinkedIn: in/xcel-pay-1b6228172
+providerLinkedIn: in/xcelpaywallet
 providerFacebook: xcelpay
 providerReddit: 
 
 redirect_from:
-  - /com.XcelTrip.XcelPay/
 ---
 
 
-This wallet has no claim of being non-custodial on Google Play.
+This wallet has no claim of being non-custodial in the app's description.
 
 The one-star ratings over and over tell:
 
@@ -44,3 +43,4 @@ The one-star ratings over and over tell:
 * funds cannot be sent to a different wallet
 * SCAM
 
+As a probably custodial app, it is **not verifiable**.

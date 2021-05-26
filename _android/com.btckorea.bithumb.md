@@ -27,7 +27,7 @@ reviewArchive:
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bithumb
 providerReddit: 
 
 redirect_from:

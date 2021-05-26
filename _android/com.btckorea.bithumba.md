@@ -1,5 +1,5 @@
 ---
-wsId: bithumbko
+wsId: 
 title: "빗썸 트레이더"
 altTitle: 
 authors:

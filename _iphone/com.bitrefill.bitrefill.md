@@ -18,19 +18,30 @@ repository:
 issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bitrefill
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: bitrefill
+providerReddit: Bitrefill
 
 redirect_from:
 
 ---
 
+
+While the primary purpose of this app is to buy stuff with Bitcoin and it appears
+to be possible to use the app without putting money into it, the app also can
+hold a balance, so it appears to be a wallet. At least we take that from the
+screenshots.
+
+As the description has no claims to the contrary and we can't find anything about
+the app on their website except for a link to the Play Store, we have to assume
+it is a custodial service.
+
+Our verdict: The app is **not verifiable**.

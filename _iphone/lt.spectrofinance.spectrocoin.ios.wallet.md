@@ -18,19 +18,25 @@ repository:
 issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: spectrocoin
+providerLinkedIn: spectrocoin
+providerFacebook: spectrocoin
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+Neither on the description nor on the website can we find any claims about coins
+custody and especially given what we had found when reviewing the version on the
+Play Store we have to assume it is custodial.
+
+Our verdict: **not verifiable**
