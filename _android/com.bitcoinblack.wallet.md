@@ -9,9 +9,9 @@ appId: com.bitcoinblack.wallet
 launchDate: 
 latestUpdate: 2020-12-25
 apkVersionName: "1.0.6"
-stars: 2.9
-ratings: 1563
-reviews: 942
+stars: 3.0
+ratings: 1567
+reviews: 944
 size: 25M
 website: https://bitcoin.black/
 repository: 

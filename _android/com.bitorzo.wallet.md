@@ -11,8 +11,8 @@ launchDate:
 latestUpdate: 2021-01-03
 apkVersionName: "3.1.3"
 stars: 4.0
-ratings: 24
-reviews: 19
+ratings: 25
+reviews: 20
 size: 12M
 website: https://www.bitorzo.io
 repository: https://github.com/Bitorzo/Bitorzo

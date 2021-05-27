@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 While the primary purpose of this app is to buy stuff with Bitcoin and it appears
 to be possible to use the app without putting money into it, the app also can
 hold a balance, so it appears to be a wallet. At least we take that from the

@@ -10,8 +10,8 @@ idd: 1274003898
 released: 2017-09-01
 updated: 2021-01-19
 version: "1.15.0"
-score: 3.88515
-reviews: 1071
+score: 3.87709
+reviews: 1074
 size: 45145088
 developerWebsite: https://freewallet.org
 repository: 

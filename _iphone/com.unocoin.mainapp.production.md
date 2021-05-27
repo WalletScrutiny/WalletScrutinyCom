@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This app appears to be the interface to a trading platform. The description
 does not talk about where the keys are stored but it links to their
 website and there we read

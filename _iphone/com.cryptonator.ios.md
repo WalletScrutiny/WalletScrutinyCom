@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 Cryptonator cryptocurrency wallet makes no claim to be non-custodial but the
 [Customer Support](https://www.cryptonator.com/contact/other/)
 is pretty unambiguously pointing towards it being custodial:

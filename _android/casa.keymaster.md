@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-05-24
 apkVersionName: "3.1.0"
 stars: 4.4
-ratings: 116
+ratings: 117
 reviews: 27
 size: 30M
 website: https://keys.casa

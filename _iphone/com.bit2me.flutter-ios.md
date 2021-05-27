@@ -34,6 +34,5 @@ redirect_from:
 
 ---
 
-
 This appears to be the interface for an exchange. We could not find any claims
 about you owning your keys. As a custodial service it is **not verifiable**.

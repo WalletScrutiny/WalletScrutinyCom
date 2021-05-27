@@ -34,6 +34,5 @@ redirect_from:
 
 ---
 
-
 This app is an interface to an exchange and to our knowledge only features
 custodial accounts and therefore is **not verifiable**.

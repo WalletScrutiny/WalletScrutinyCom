@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This wallet has no claim of being non-custodial in the app's description.
 
 The one-star ratings over and over tell:

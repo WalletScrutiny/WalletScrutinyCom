@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is
 [a site about that](https://bitbay.net/en/mobile), too. There they only talk

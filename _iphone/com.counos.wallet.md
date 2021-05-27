@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 Nothing in the description hints at this app being non-custodial.
 
 On the website

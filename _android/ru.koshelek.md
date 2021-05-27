@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: ru.koshelek
 launchDate: 
-latestUpdate: 2021-04-16
+latestUpdate: 2021-05-26
 apkVersionName: "1.2.3"
 stars: 4.0
-ratings: 60
+ratings: 61
 reviews: 54
-size: 8.6M
+size: 8.3M
 website: 
 repository: 
 issue: 

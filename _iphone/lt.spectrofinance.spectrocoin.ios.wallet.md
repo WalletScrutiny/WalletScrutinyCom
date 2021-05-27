@@ -8,11 +8,11 @@ appId: lt.spectrofinance.spectrocoin.ios.wallet
 appCountry: 
 idd: 923696089
 released: 2014-12-30
-updated: 2021-04-26
-version: "1.16.2"
+updated: 2021-05-26
+version: "1.16.3"
 score: 2.90909
 reviews: 11
-size: 52554752
+size: 52300800
 developerWebsite: https://spectrocoin.com/
 repository: 
 issue: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Neither on the description nor on the website can we find any claims about coins
 custody and especially given what we had found when reviewing the version on the

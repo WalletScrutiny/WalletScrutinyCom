@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2020-06-01
 apkVersionName: "2.4"
 stars: 4.0
-ratings: 207
+ratings: 208
 reviews: 116
 size: 5.0M
 website: https://jurajkusnier.com/

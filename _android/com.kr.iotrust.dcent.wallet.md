@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.kr.iotrust.dcent.wallet
 launchDate: 
-latestUpdate: 2021-04-26
-apkVersionName: "5.3.0"
+latestUpdate: 2021-05-17
+apkVersionName: "5.3.1"
 stars: 4.4
-ratings: 260
-reviews: 181
+ratings: 264
+reviews: 184
 size: 31M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet

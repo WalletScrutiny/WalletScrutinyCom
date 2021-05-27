@@ -8,8 +8,8 @@ authors:
 users: 1000
 appId: com.exchangily.wallet
 launchDate: 
-latestUpdate: 2021-05-06
-apkVersionName: "2.0.19"
+latestUpdate: 2021-05-26
+apkVersionName: "2.0.21"
 stars: 4.1
 ratings: 26
 reviews: 18

@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 In the description we read:
 
 > **State-of-the-Art Security**<br>

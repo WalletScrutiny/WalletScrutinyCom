@@ -10,8 +10,8 @@ idd: 1116327021
 released: 2016-05-28
 updated: 2021-05-20
 version: "5.33.0"
-score: 4.76133
-reviews: 7060
+score: 4.76022
+reviews: 7069
 size: 47799296
 developerWebsite: https://remitano.com
 repository: 
