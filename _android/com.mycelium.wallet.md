@@ -19,10 +19,15 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-05-16
+date: 2021-05-28
 reviewStale: true
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-05-16
+  version: "3.9.0.0"
+  apkHash: bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
+  gitRevision: bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
+  verdict: reproducible
 - date: 2021-04-01
   version: "3.8.9.0"
   apkHash: 296a97308aa10a98bc678e9b0ffd94c7daf120c24fa07cdaa7ad9179ace7416c
@@ -142,21 +147,21 @@ procedure expressed in our
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.9.0.0
-apkVersionCode: 3090000
-apkHash:        bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
+apkVersionName: 3.10.0.1
+apkVersionCode: 3100001
+apkHash:        d5c73ea4965e986101f751376f0aad74590b6ccb1a5623349dad03e1b6d5025e
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3090000/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3090000/apktool.yml differ
-Files /tmp/fromPlay_com.mycelium.wallet_3090000/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3090000/original/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3100001/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3100001/apktool.yml differ
+Files /tmp/fromPlay_com.mycelium.wallet_3100001/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3100001/original/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 3132967d9e2197f066e48617aef727adbfdc2142
+object 8fc8c46a6e4cfe13e3098dd521bc49562c69763f
 type commit
-tag v3.9.0.0
-tagger itserg <sergey.dolgopolov@mycelium.com> 1619459763 +0300
+tag v3.10.0.1
+tagger itserg <sergey.dolgopolov@mycelium.com> 1622134079 +0300
 
-BTCV cryptocurrency support.
+Synchronization improvements - unit tests updates.
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
