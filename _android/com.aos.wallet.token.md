@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-08-07
 apkVersionName: "2.0.22"
 stars: 5.0
-ratings: 331
-reviews: 149
+ratings: 332
+reviews: 150
 size: 34M
 website: https://atswallet.io/
 repository: 

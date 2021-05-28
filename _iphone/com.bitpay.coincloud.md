@@ -10,8 +10,8 @@ idd: 1421460676
 released: 2018-09-09
 updated: 2021-04-28
 version: "1.9"
-score: 3.61538
-reviews: 52
+score: 3.56604
+reviews: 53
 size: 80210944
 developerWebsite: https://www.coincloudatm.com/app
 repository: 

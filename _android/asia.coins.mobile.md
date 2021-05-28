@@ -9,9 +9,9 @@ appId: asia.coins.mobile
 launchDate: 2014-10-01
 latestUpdate: 2021-05-26
 apkVersionName: "3.5.45"
-stars: 3.9
-ratings: 93243
-reviews: 41260
+stars: 4.0
+ratings: 96416
+reviews: 42103
 size: 56M
 website: https://coins.ph
 repository: 

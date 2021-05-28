@@ -9,8 +9,8 @@ appId: com.ledger.live
 launchDate: 
 latestUpdate: 2021-04-29
 apkVersionName: "2.26.0"
-stars: 1.7
-ratings: 4139
+stars: 1.6
+ratings: 4142
 reviews: 2445
 size: Varies with device
 website: 

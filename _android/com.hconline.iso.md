@@ -4,7 +4,7 @@ title: "Start Wallet(EOS, BTC, ETH, TRON...)"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.hconline.iso
 launchDate: 
 latestUpdate: 2021-05-21

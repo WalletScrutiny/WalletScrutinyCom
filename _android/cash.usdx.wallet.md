@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-11-25
 apkVersionName: "1.34.2"
 stars: 4.1
-ratings: 5474
-reviews: 4683
+ratings: 5473
+reviews: 4682
 size: 37M
 website: https://usdx.cash
 repository: 

@@ -4,7 +4,7 @@ title: "KyberSwap: Buy, Trade, Transfer Cryptocurrencies"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.kyberswap.android
 launchDate: 
 latestUpdate: 2021-04-26

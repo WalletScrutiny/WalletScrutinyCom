@@ -10,8 +10,8 @@ launchDate: 2013-11-05
 latestUpdate: 2021-05-26
 apkVersionName: "326.0.0"
 stars: 4.2
-ratings: 83672
-reviews: 32643
+ratings: 83812
+reviews: 32691
 size: 56M
 website: https://www.etoro.com
 repository: 

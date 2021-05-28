@@ -10,7 +10,7 @@ launchDate: 2016-09-01
 latestUpdate: 2019-03-17
 apkVersionName: "0.1.9"
 stars: 4.0
-ratings: 62
+ratings: 63
 reviews: 33
 size: 6.7M
 website: https://freewallet.io

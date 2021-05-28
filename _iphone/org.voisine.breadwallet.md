@@ -10,8 +10,8 @@ idd: 885251393
 released: 2014-06-22
 updated: 2021-04-26
 version: "4.10"
-score: 4.5698
-reviews: 10774
+score: 4.56992
+reviews: 10784
 size: 55776256
 developerWebsite: http://brd.com
 repository: https://github.com/breadwallet/breadwallet-ios

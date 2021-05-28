@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.tangem.wallet
 launchDate: 
-latestUpdate: 2021-04-23
-apkVersionName: "3.14"
+latestUpdate: 2021-05-27
+apkVersionName: "3.15"
 stars: 4.5
 ratings: 50
 reviews: 17
