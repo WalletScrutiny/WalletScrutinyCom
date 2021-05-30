@@ -27,7 +27,7 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: https://www.facebook.com/TheBitFreezer/
+providerFacebook: TheBitFreezer
 providerReddit: 
 
 redirect_from:
