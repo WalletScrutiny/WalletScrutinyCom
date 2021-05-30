@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.czprime
 launchDate: 
-latestUpdate: 2021-05-17
-apkVersionName: "1.4.2"
+latestUpdate: 2021-05-28
+apkVersionName: "1.4.3"
 stars: 4.2
-ratings: 1663
-reviews: 699
+ratings: 1674
+reviews: 702
 size: 27M
 website: https://www.coinzoom.com
 repository: 

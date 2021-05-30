@@ -9,9 +9,9 @@ appId: com.lightning.walletapp
 launchDate: 2018-05-01
 latestUpdate: 2021-03-13
 apkVersionName: "0.4.8"
-stars: 3.7
-ratings: 355
-reviews: 233
+stars: 3.6
+ratings: 356
+reviews: 234
 size: 4.9M
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet

@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.lingxi.bexplus
 launchDate: 
-latestUpdate: 2020-11-09
-apkVersionName: "2.0.5"
+latestUpdate: 2021-05-28
+apkVersionName: "2.0.8"
 stars: 4.7
-ratings: 4905
-reviews: 1909
-size: 12M
+ratings: 4925
+reviews: 1921
+size: 13M
 website: https://www.bexplus.com
 repository: 
 issue: 

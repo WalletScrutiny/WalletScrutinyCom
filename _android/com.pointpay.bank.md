@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-17
 apkVersionName: "5.3.5"
 stars: 4.6
-ratings: 2297
-reviews: 1242
+ratings: 2308
+reviews: 1250
 size: 71M
 website: https://wallet.pointpay.io
 repository: 

@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.atomex.android
 launchDate: 
-latestUpdate: 2021-05-18
-apkVersionName: "1.8.1"
+latestUpdate: 2021-05-28
+apkVersionName: "1.9"
 stars: 4.8
-ratings: 37
+ratings: 38
 reviews: 35
 size: 59M
 website: https://atomex.me

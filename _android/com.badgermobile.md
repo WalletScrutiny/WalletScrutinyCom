@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.badgermobile
 launchDate: 2019-06-10
-latestUpdate: 2020-03-04
-apkVersionName: "1.12.1"
+latestUpdate: 2021-05-29
+apkVersionName: "1.12.2"
 stars: 3.9
 ratings: 147
 reviews: 75
-size: 10M
+size: 31M
 website: https://badger.bitcoin.com
 repository: 
 issue: 
