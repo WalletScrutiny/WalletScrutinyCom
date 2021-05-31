@@ -38,7 +38,9 @@ Statements on the provider's website, suggest the private keys are in control of
 However the project is not open source. This is validated by a commment from the provider on a [play store review](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet).
 
 > "NOT OPEN SOURCE, THEREFORE NO PROOF OF ANYTHING RELATING TO SECURITY. ANY, & ALL BLAB ABOUT SECURITY IS COMPLETELY MOOT, WITHOUT IT BEING OPEN SOURCE. CHECKMATE. IT WANTS EMAIL, HAHAHAHAHA!!! WHAT A BUNCH OF FOOLS!!! ONLY A DAMNED FOOL WOULD PUT MONEY IN THIS APP."
-BitFreezer Response.
+
+BitFreezer Response:
+
 > Hey there! Thank you for your input. We are aware that it is a very sensitive topic to most users and that it is mostly a breaking point for most crypto enthusiasts. Due to the character limit, all we can say is that building a deep and complex architecture for three years to steal people's keys is not that promising or profitable as a venture. :)
 
 Also to note there is an iphone download link on the providers website, however this is not working.
