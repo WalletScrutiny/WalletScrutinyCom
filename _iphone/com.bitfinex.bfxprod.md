@@ -1,0 +1,46 @@
+---
+wsId: Bitfinex
+title: "Bitfinex"
+altTitle: 
+authors:
+- leo
+appId: com.bitfinex.bfxprod
+appCountry: 
+idd: 1436383182
+released: 2019-01-25
+updated: 2021-05-05
+version: "4.3.0"
+score: 3.74627
+reviews: 67
+size: 69788672
+developerWebsite: https://www.bitfinex.com/app
+repository: 
+issue: 
+icon: com.bitfinex.bfxprod.jpg
+bugbounty: 
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
+reviewStale: true
+signer: 
+reviewArchive:
+
+
+providerTwitter: bitfinex
+providerLinkedIn: bitfinex
+providerFacebook: bitfinex
+providerReddit: bitfinex
+
+redirect_from:
+
+---
+
+
+From a security standpoint, this app appears to be doing something right: The
+user does not provide his Bifinex exchange credentials but an API key which he
+has to create on Bitfinex and there he can limit the permissions. For example
+forbid sending coins off the exchange if he wants to use the app only for
+trading but not as a wallet. The app can be used as a wallet, too though. It
+remains a remote control for your Bitfinex exchange account and that is
+custodial.
+
+As a custodial app it is **not verifiable**.
