@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: "B4UWallet"
 title: "B4U Wallet: Crypto Bitcoin Wallet Exchange"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.b4uwallet.android
 launchDate: 
@@ -13,21 +13,21 @@ stars: 3.7
 ratings: 120
 reviews: 69
 size: 30M
-website: 
+website: https://b4uwallet.com/
 repository: 
 issue: 
 icon: com.b4uwallet.android.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: b4uwallet_b4u
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: B4uwalletofficial
 providerReddit: 
 
 redirect_from:
@@ -35,3 +35,7 @@ redirect_from:
 ---
 
 
+This app is not well advertised on how the users private keys are managed.
+At best this is a custodial wallet, we also note there are alot of 1 star reviews on the [android play store page](https://play.google.com/store/apps/details?id=com.b4uwallet.android&showAllReviews=true).
+
+Our verdict: This "wallet" is custodial and therefore **not verifiable**.
