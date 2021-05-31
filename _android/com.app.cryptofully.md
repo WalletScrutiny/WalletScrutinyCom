@@ -10,9 +10,9 @@ appId: com.app.cryptofully
 launchDate: 
 latestUpdate: 2021-03-17
 apkVersionName: "1.1.9"
-stars: 4.2
-ratings: 296
-reviews: 119
+stars: 4.1
+ratings: 297
+reviews: 120
 size: 29M
 website: https://www.cryptofully.com/
 repository: 

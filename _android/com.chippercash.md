@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-24
 apkVersionName: "1.9.5"
 stars: 4.1
-ratings: 29228
-reviews: 18373
+ratings: 29239
+reviews: 18380
 size: Varies with device
 website: https://chippercash.com/
 repository: 

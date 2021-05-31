@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.bitpapa
 launchDate: 
-latestUpdate: 2021-05-22
-apkVersionName: "1.6.5"
+latestUpdate: 2021-05-30
+apkVersionName: "1.6.6"
 stars: 4.9
-ratings: 3028
-reviews: 2987
+ratings: 3016
+reviews: 2975
 size: 42M
 website: https://bitpapa.com
 repository: 

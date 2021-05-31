@@ -9,9 +9,9 @@ appId: com.blockchain.wallet.btc
 launchDate: 
 latestUpdate: 2021-05-26
 apkVersionName: "1.0.1.7"
-stars: 4.4
-ratings: 681
-reviews: 124
+stars: 4.3
+ratings: 686
+reviews: 126
 size: 24M
 website: 
 repository: 

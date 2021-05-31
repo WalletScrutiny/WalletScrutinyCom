@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: "Nexo - Crypto Banking Account"
+title: "Nexo - Crypto Account"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2021-05-03
-version: "1.4.8"
-score: 3.82967
-reviews: 364
-size: 34368512
+updated: 2021-05-30
+version: "1.4.9"
+score: 3.82514
+reviews: 366
+size: 34481152
 developerWebsite: https://nexo.io
 repository: 
 issue: 

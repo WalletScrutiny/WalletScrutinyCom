@@ -10,8 +10,8 @@ launchDate: 2019-01-21
 latestUpdate: 2021-04-30
 apkVersionName: "2.6.12"
 stars: 4.1
-ratings: 2148
-reviews: 1657
+ratings: 2151
+reviews: 1660
 size: 17M
 website: https://busha.co
 repository: 

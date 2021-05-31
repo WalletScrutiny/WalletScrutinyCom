@@ -11,7 +11,7 @@ latestUpdate: 2021-05-21
 apkVersionName: "3.5.6"
 stars: 4.3
 ratings: 19293
-reviews: 11462
+reviews: 11454
 size: 11M
 website: https://polehin.com
 repository: 

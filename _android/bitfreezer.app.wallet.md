@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 Statements on the provider's website, suggest the private keys are in control of the user.
 However the project is not open source. This is validated by a commment from the provider on a [play store review](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet).
 

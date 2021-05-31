@@ -10,8 +10,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2021-05-05
 version: "4.8.1"
-score: 3.83978
-reviews: 1086
+score: 3.84051
+reviews: 1091
 size: 45571072
 developerWebsite: https://celsius.network/app
 repository: 

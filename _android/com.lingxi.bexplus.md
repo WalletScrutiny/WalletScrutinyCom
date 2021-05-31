@@ -11,7 +11,7 @@ latestUpdate: 2021-05-28
 apkVersionName: "2.0.8"
 stars: 4.7
 ratings: 4925
-reviews: 1921
+reviews: 1922
 size: 13M
 website: https://www.bexplus.com
 repository: 

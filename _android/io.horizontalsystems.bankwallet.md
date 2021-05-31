@@ -9,9 +9,9 @@ appId: io.horizontalsystems.bankwallet
 launchDate: 2018-12-18
 latestUpdate: 2021-05-26
 apkVersionName: "0.21.1"
-stars: 3.7
-ratings: 391
-reviews: 332
+stars: 3.8
+ratings: 390
+reviews: 331
 size: 46M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
