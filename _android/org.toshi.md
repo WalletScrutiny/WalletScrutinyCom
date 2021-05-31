@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CoinbaseWallet
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: org.toshi.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-20
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
