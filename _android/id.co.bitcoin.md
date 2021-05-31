@@ -1,22 +1,22 @@
 ---
 wsId: indodax
-title: "Indodax Trading Platform"
+title: "Indodax"
 altTitle: 
 authors:
 - leo
-appId: id.co.bitcoin.Bitcoin-Trading-Platform
-appCountry: 
-idd: 1349104693
-released: 2018-03-29
-updated: 2021-05-22
-version: "3.0.4"
-score: 4
-reviews: 2
-size: 69056512
-developerWebsite: https://indodax.com
+users: 1000000
+appId: id.co.bitcoin
+launchDate: 
+latestUpdate: 2021-05-18
+apkVersionName: "4.1.0"
+stars: 3.9
+ratings: 52559
+reviews: 28701
+size: 28M
+website: https://indodax.com
 repository: 
 issue: 
-icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
+icon: id.co.bitcoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31

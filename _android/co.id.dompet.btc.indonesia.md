@@ -1,5 +1,5 @@
 ---
-wsId: indodax
+wsId: 
 title: "Dompet Bitcoin Indonesia"
 altTitle: 
 authors:
@@ -19,13 +19,13 @@ issue:
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: indodax
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -42,5 +42,10 @@ This app looks like a terminal for a website:
   Indodax.com website through your smartphones only with a few clicks of your
   fingers.
 
-and that website is an exchange(?). We assume that like in many such cases the
+So while this app claims that indodax.com is their website, that website does
+not (anymore) link to this Play Store app but to
+[another](/android/id.co.bitcoin/). As both are provided by the same developer,
+this looks like a predecessor-successor-thing.
+
+As indodax.com is an exchange, we assume that like in many such cases the
 app is a custodial offering and thus **not verifiable**.
