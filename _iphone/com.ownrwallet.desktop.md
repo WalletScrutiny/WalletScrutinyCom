@@ -18,17 +18,17 @@ repository:
 issue: 
 icon: com.ownrwallet.desktop.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ownrwallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ownrwallet
+providerReddit: ownrwallet
 
 redirect_from:
 

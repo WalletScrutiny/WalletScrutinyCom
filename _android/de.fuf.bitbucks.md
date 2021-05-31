@@ -19,7 +19,7 @@ issue:
 icon: de.fuf.bitbucks.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-30
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
@@ -36,23 +36,11 @@ redirect_from:
 ---
 
 
-This app appears to be a custodial service as per their description:
+According to their website:
 
-> The BitBucks Wallet enables instant payments with bitcoin. Users register at
-  BitBucks just by entering their phone numbers followed by a validation code
-  sended to them via sms.
-> 
-> Afterwards users can top-up their BitBucks account with bitcoin by using any
-  other Bitcoin wallet. Every transaction within the BitBucks app, as well as
-  the top-up of the account, are free of charge.
+> **Pay safely and securely**<br>
+  Your Bitcoin is multi-signature protected and will be securely stored in the
+  safest wallets. Even if you lose your mobile phone, you will not lose your
+  credit.
 
-And from their website:
-
-> **Pay safely and securely**
-> 
-> Your Bitcoin is multi-signature protected and will be stored in the safest
-  wallets. Even if you lose your mobile phone, you will not lose your credit.
-
-This is a custodial app.
-
-Our verdict: **not verifiable**.
+This is a custodial app and thus **not verifiable**

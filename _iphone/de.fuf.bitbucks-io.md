@@ -18,19 +18,28 @@ repository:
 issue: 
 icon: de.fuf.bitbucks-io.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bit_bucks
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitbucks.io
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+According to their website:
+
+> **Pay safely and securely**<br>
+  Your Bitcoin is multi-signature protected and will be securely stored in the
+  safest wallets. Even if you lose your mobile phone, you will not lose your
+  credit.
+
+  This is a custodial app and thus **not verifiable**

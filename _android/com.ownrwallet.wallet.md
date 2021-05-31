@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2020-12-01
+  version: "1.10.1"
+  apkHash: 
+  gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
+  verdict: custodial
 
 providerTwitter: ownrwallet
 providerLinkedIn: 
@@ -37,23 +41,22 @@ redirect_from:
 
 So this app claims to be a partner of Bitfinex, one of the biggest exchanges:
 
-> - OWNR is an official partner of Bitfinex. 
+> OWNR is an official partner of Bitfinex.
 
-yet we can't find anywhere that Bitfinex would link to this app. Bitfinex has
-[their own app](https://play.google.com/store/apps/details?id=com.bitfinex.mobileapp)
-which we will also review shortly.
+which surprised us as Bitfinex has
+[their own app](https://www.bitfinex.com/mobile-trading/).
 
-Bitfinex' Twitter account gets spammed "ownr" **at them** a lot but there is no
-mention of that name **by them**. That looks fishy. Maybe they reply to
-[this tweet](https://twitter.com/LeoWandersleb/status/1333912501378048002).
+We asked them in [this tweet](https://twitter.com/LeoWandersleb/status/1333912501378048002) and in the replies we indeed get a pointer to
+[this post](https://www.bitfinex.com/posts/558) which convinces us that this app
+indeed is endorsed by Bitfinex. (If you have a better link, we would happily
+add it if it explains why they have two wallets.)
 
-In the light of the above, we take the claims:
+Maybe this is the non-custodial one?
 
-> - Restore HD-wallets with any seed phrase length (12/15/18/21/24 words)
-> 
-> - Only you sign the transactions and own your keys – we do no store them on our servers
-> 
-> Your seed phrase is stored on your device only
+> - Restore HD-wallets with any seed phrase length (12/15/18/21/24 words)  
+> - Only you sign the transactions and own your keys – we do no store them on
+    our servers
+> - Your seed phrase is stored on your device only
 
-with a lot of skepticism and assume this app to be custodial until further
-notice from Bitfinex.
+They certainly do claim to be non-custodial but as we can't find any source
+code, we remain with a verdict of **not verifiable**.

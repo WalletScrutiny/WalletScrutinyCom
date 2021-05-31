@@ -18,19 +18,25 @@ repository:
 issue: 
 icon: com.bitnovo.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-30
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bitnovo
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: BitcoinBitnovo
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+On the App Store, of 4 ratings, 3 were 1 star. With an average of 2.5 stars the
+app is slightly higher rated on the Play Store. **Caution is advised!**
+
+The provider clearly controls the funds and thus this "wallet" is **not
+verifiable**.

@@ -19,14 +19,14 @@ issue:
 icon: com.buda.crypto.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+date: 2021-05-30
 reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: BudaPuntoCom
-providerLinkedIn: 9294718
+providerLinkedIn: budapuntocom
 providerFacebook: BudaPuntoCom
 providerReddit: 
 
@@ -35,6 +35,9 @@ redirect_from:
   - /posts/com.buda.crypto/
 ---
 
+
+This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),
+mainly due to limited functionality and high fees. Caution is advised!
 
 This app is an interface to an exchange and coins are held there and not on the
 phone. As a custodial service it is **not verifiable**.
