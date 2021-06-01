@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: io.talken.wallet
 launchDate: 
-latestUpdate: 2021-04-22
-apkVersionName: "1.0.20"
+latestUpdate: 2021-05-20
+apkVersionName: "1.0.21"
 stars: 3.2
-ratings: 74
+ratings: 75
 reviews: 52
 size: 7.8M
 website: 

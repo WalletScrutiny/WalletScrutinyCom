@@ -1,6 +1,6 @@
 ---
 wsId: PumaPay
-title: "Pumapay: Secure bitcoin wallet"
+title: "PumaPay: Secure bitcoin wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.pumapay.pumawallet
 appCountry: 
 idd: 1376601366
 released: 2018-06-05
-updated: 2021-05-17
-version: "2.94"
+updated: 2021-05-31
+version: "2.95"
 score: 3.58824
 reviews: 17
-size: 115636224
+size: 103721984
 developerWebsite: https://pumapay.io
 repository: 
 issue: 

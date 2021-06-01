@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 They claim a million "members" and list big banks as their "acquirers" but there
 is little to back those claims. 10k downloads on Play Store and eight ratings on
 App Store don't look like a million users. The reviews on both platforms also

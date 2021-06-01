@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 On the App Store, of 4 ratings, 3 were 1 star. With an average of 2.5 stars the
 app is slightly higher rated on the Play Store. **Caution is advised!**
 

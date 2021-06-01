@@ -4,13 +4,13 @@ title: "Bitcoin Wallet - Blockchain Explorer"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.blockchain.wallet.btc
 launchDate: 
 latestUpdate: 2021-05-26
 apkVersionName: "1.0.1.7"
 stars: 4.3
-ratings: 686
+ratings: 698
 reviews: 126
 size: 24M
 website: 

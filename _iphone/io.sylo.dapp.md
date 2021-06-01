@@ -8,11 +8,11 @@ appId: io.sylo.dapp
 appCountry: 
 idd: 1452964749
 released: 2019-09-10
-updated: 2021-05-24
-version: "3.0.26"
-score: 4.80851
-reviews: 47
-size: 179988480
+updated: 2021-06-02
+version: "3.0.27"
+score: 4.8125
+reviews: 48
+size: 181438464
 developerWebsite: https://www.sylo.io/wallet/
 repository: 
 issue: 

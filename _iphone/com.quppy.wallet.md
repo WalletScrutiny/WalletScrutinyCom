@@ -34,6 +34,5 @@ redirect_from:
 
 ---
 
-
 This provider loses no word on security or where the keys are stored. We assume
 it is a custodial offering and therefore **not verifiable**.

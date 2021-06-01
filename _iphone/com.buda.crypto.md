@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),
 mainly due to limited functionality and high fees. Caution is advised!
 

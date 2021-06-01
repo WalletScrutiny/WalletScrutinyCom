@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.drcrypto.wallet
 launchDate: 
-latestUpdate: 2021-05-14
-apkVersionName: "2.0.2"
+latestUpdate: 2021-05-28
+apkVersionName: "2.0.3"
 stars: 2.7
 ratings: 66
 reviews: 62

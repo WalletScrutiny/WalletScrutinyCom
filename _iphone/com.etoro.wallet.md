@@ -11,8 +11,8 @@ idd: 1397831096
 released: 2019-03-05
 updated: 2021-05-30
 version: "27.0.0"
-score: 1.76087
-reviews: 92
+score: 1.74725
+reviews: 91
 size: 26664960
 developerWebsite: https://www.etoro.com/crypto/wallet
 repository: 

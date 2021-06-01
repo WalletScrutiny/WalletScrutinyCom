@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 According to their website:
 
 > **Pay safely and securely**<br>

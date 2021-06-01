@@ -10,8 +10,8 @@ launchDate: 2020-05-11
 latestUpdate: 2021-05-19
 apkVersionName: "1.11.1"
 stars: 3.7
-ratings: 4306
-reviews: 1371
+ratings: 4368
+reviews: 1400
 size: 24M
 website: https://crypto.com/en/defi/
 repository: 

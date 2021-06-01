@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: btc.org.freewallet.app
 launchDate: 2016-06-13
-latestUpdate: 2020-04-21
-apkVersionName: "2.5.2"
+latestUpdate: 2021-06-01
+apkVersionName: "2.5.9"
 stars: 4.2
-ratings: 4826
-reviews: 2388
-size: 7.2M
+ratings: 4836
+reviews: 2392
+size: 7.3M
 website: https://freewallet.org
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: btc.org.freewallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: false
+reviewStale: true
 signer: 
 reviewArchive:
 

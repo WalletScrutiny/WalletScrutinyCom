@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-27
 apkVersionName: "0.0.176"
 stars: 4.0
-ratings: 1032
-reviews: 651
+ratings: 1035
+reviews: 652
 size: 50M
 website: https://www.bitcointoyou.com
 repository: 

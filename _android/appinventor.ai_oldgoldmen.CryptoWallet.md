@@ -9,9 +9,9 @@ appId: appinventor.ai_oldgoldmen.CryptoWallet
 launchDate: 
 latestUpdate: 2021-02-23
 apkVersionName: "3.0"
-stars: 4.6
-ratings: 39
-reviews: 18
+stars: 4.5
+ratings: 40
+reviews: 19
 size: 3.3M
 website: 
 repository: 

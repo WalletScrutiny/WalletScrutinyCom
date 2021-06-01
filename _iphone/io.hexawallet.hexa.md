@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 The page footer on their website answers most of our questions:
 
 > Bitcoin Only Wallet \| Best Android Bitcoin Wallet \| IOS Bitcoin Wallet \| Non

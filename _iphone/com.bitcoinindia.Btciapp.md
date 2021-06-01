@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 In the description we read:
 
 > India’s Most Secure Bitcoin Wallet

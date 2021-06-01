@@ -11,8 +11,8 @@ idd: 1473314875
 released: 2019-10-25
 updated: 2021-01-15
 version: "1.8.0"
-score: 3.38462
-reviews: 78
+score: 3.36709
+reviews: 79
 size: 93016064
 developerWebsite: https://www.quidax.com
 repository: 

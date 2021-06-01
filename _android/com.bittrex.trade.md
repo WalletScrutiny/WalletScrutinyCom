@@ -9,9 +9,9 @@ appId: com.bittrex.trade
 launchDate: 
 latestUpdate: 2021-03-12
 apkVersionName: "1.13.2"
-stars: 2.1
-ratings: 1575
-reviews: 1073
+stars: 2.0
+ratings: 1579
+reviews: 1076
 size: 49M
 website: https://global.bittrex.com
 repository: 

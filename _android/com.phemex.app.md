@@ -4,14 +4,14 @@ title: "Phemex: Top Bitcoin Exchange App, Crypto & 0 Fees"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.phemex.app
 launchDate: 
 latestUpdate: 2021-05-12
 apkVersionName: "1.3.3"
-stars: 4.6
-ratings: 7745
-reviews: 1954
+stars: 4.5
+ratings: 7853
+reviews: 1971
 size: 19M
 website: https://phemex.com
 repository: 

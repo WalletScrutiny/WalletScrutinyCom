@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.sixpencer.simplework
 launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "1.3.7"
+latestUpdate: 2021-05-22
+apkVersionName: "1.4.0"
 stars: 4.6
-ratings: 138
-reviews: 69
-size: 18M
+ratings: 149
+reviews: 72
+size: 22M
 website: https://dfox.cc
 repository: 
 issue: 

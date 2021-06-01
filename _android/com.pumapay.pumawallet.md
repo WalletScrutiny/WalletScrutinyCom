@@ -1,14 +1,14 @@
 ---
 wsId: PumaPay
-title: "PumaPay Blockchain Wallet 4 Bitcoin & Crypto Coins"
+title: "PumaPay Blockchain wallet - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.pumapay.pumawallet
 launchDate: 
-latestUpdate: 2021-05-14
-apkVersionName: "3.9.7"
+latestUpdate: 2021-05-28
+apkVersionName: "3.9.8"
 stars: 3.8
 ratings: 338
 reviews: 217

@@ -9,9 +9,9 @@ appId: com.ninjacoin
 launchDate: 
 latestUpdate: 2021-05-25
 apkVersionName: "v1.3.0"
-stars: 4.4
-ratings: 49
-reviews: 29
+stars: 4.3
+ratings: 50
+reviews: 30
 size: 25M
 website: 
 repository: 

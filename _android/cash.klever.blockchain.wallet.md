@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: cash.klever.blockchain.wallet
 launchDate: 
-latestUpdate: 2021-05-12
-apkVersionName: "4.2.1"
+latestUpdate: 2021-06-01
+apkVersionName: "4.2.2"
 stars: 3.9
-ratings: 8152
-reviews: 4590
+ratings: 8179
+reviews: 4601
 size: Varies with device
 website: https://www.klever.io
 repository: 

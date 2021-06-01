@@ -4,7 +4,7 @@ title: "IXX-Buy & sell Bitcoin and other cryptocurrencies"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.ixx_android
 launchDate: 
 latestUpdate: 2021-03-26

@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 > All you need is a LiteBit account.
 
 If you need an account, it's probably custodial.

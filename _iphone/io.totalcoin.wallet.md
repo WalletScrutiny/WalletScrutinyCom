@@ -10,8 +10,8 @@ idd: 1392398906
 released: 2018-07-05
 updated: 2021-05-05
 version: "3.0.0"
-score: 4.55
-reviews: 80
+score: 4.55556
+reviews: 81
 size: 44261376
 developerWebsite: http://totalcoin.io
 repository: 

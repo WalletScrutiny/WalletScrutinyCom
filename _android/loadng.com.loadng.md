@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-15
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 149
+ratings: 150
 reviews: 108
 size: Varies with device
 website: 

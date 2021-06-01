@@ -4,7 +4,7 @@ title: "Volt:Bitcoin,ETH&BSV Crypto Wallet,Multisig Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: bitmesh.volt.wallet
 launchDate: 
 latestUpdate: 2021-05-26

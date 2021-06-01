@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.prizmbit
 launchDate: 
-latestUpdate: 2021-04-09
+latestUpdate: 2021-05-31
 apkVersionName: "1.4.18"
 stars: 3.8
 ratings: 494

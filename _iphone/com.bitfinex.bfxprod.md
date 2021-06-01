@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 From a security standpoint, this app appears to be doing something right: The
 user does not provide his Bifinex exchange credentials but an API key which he
 has to create on Bitfinex and there he can limit the permissions. For example
