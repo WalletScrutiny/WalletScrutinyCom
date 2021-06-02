@@ -15,14 +15,19 @@ reviews: 9063
 size: 2.9M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
-issue: https://github.com/bitcoin-wallet/bitcoin-wallet/issues/612
+issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-03-11
+date: 2021-06-01
 reviewStale: true
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-03-11
+  version: "8.11"
+  apkHash: 6ca9862f4c53723ed77d3c2c85a46028c950f665dbac30c9c4aedde719988654
+  gitRevision: 2048338ceeb004034da211c2f66b37d4a357def8
+  verdict: reproducible
 - date: 2020-12-29
   version: "8.08"
   apkHash: c16a1e33ae3b6b1f66e0029a3385323d8e3d3ccf8e58394284c96c4268ba6625
@@ -125,23 +130,23 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.11
-apkVersionCode: 811
-apkHash:        6ca9862f4c53723ed77d3c2c85a46028c950f665dbac30c9c4aedde719988654
+apkVersionName: 8.14
+apkVersionCode: 814
+apkHash:        e4f9be85ecbac8a418ec4f2d1577f1cea0c265f1b0cd501408c3ec993213ef08
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_811/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_811/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_811/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_811/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_811/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_811/original/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_de.schildbach.wallet_814/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_814/apktool.yml differ
+Only in /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_814/original/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 665230c7955401b8c6e6f3983692b49582d8e628
+object be2eeeda88c31e362b80efcecb4804cabf8fff39
 type commit
-tag v8.11
-tagger Andreas Schildbach <andreas@schildbach.de> 1614507930 +0100
+tag v8.14
+tagger Andreas Schildbach <andreas@schildbach.de> 1622386825 +0200
 
-8.11 release
+8.14 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.

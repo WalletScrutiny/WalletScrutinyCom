@@ -15,14 +15,19 @@ reviews: 331
 size: 46M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/3545
+issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-05-22
+date: 2021-06-01
 reviewStale: true
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2021-05-22
+  version: "0.21.0"
+  apkHash: a01332a6d4c8fba8d056cc5fa7e521f59291488efd66998d4ef1ce3a56deccec
+  gitRevision: 2048338ceeb004034da211c2f66b37d4a357def8
+  verdict: reproducible
 - date: 2021-04-26
   version: "0.20.1"
   apkHash: 64a9db54d7ebbe0340dbb6c7ca41938984e0d33a8f13489518710a998aae1dda
@@ -143,15 +148,15 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.21.0
-apkVersionCode: 44
-apkHash:        a01332a6d4c8fba8d056cc5fa7e521f59291488efd66998d4ef1ce3a56deccec
+apkVersionName: 0.21.1
+apkVersionCode: 46
+apkHash:        9c5dc44fdc7a89970030eabb1a28c5d664e8515a164ac6a1eb9b09eb2707ae64
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_44/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_44/apktool.yml differ
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_44/original/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_46/apktool.yml and /tmp/fromBuild_io.horizontalsystems.bankwallet_46/apktool.yml differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_46/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_46/original/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_46/original/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 ```
