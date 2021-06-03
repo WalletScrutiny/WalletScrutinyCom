@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-05-28
 apkVersionName: "2.17.1"
 stars: 4.5
-ratings: 710
+ratings: 714
 reviews: 306
 size: 68M
 website: http://coolwallet.io

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-28
 apkVersionName: "2021.05.27"
 stars: 3.8
-ratings: 2547
-reviews: 1531
+ratings: 2551
+reviews: 1534
 size: 67M
 website: https://www.digifinex.com
 repository: 

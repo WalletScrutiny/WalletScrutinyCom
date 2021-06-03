@@ -11,7 +11,7 @@ latestUpdate: 2021-04-08
 apkVersionName: "4.1.2.0"
 stars: 3.3
 ratings: 2198
-reviews: 1314
+reviews: 1315
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

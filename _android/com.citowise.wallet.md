@@ -4,6 +4,7 @@ title: "Citowise - Blockchain multi-currency wallet"
 altTitle: 
 authors:
 - kiwilamb
+- leo
 users: 50000
 appId: com.citowise.wallet
 launchDate: 
@@ -18,12 +19,16 @@ repository:
 issue: 
 icon: com.citowise.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-30
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-02
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2021-04-30
+  version: "1.355"
+  apkHash: 
+  gitRevision: c08607be70f54ef29194d3b501f74ae09a9c9c6c
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +39,10 @@ redirect_from:
 
 ---
 
+
+**Update 2021-06-02**: As for our review a month ago, the provider website was
+already offline, we assume the store listing being gone now is a permanent
+thing and thus file the app as defunct.
 
 There is a clear statement on the [Play store](https://play.google.com/store/apps/details?id=com.citowise.wallet) about private key management.
 
@@ -46,4 +55,3 @@ Unfortunately we were not able to load the main [providers website](https://www.
 After several attempts we can only concluded this wallet may not be supported anymore with a defunct provider.
 
 Our verdict: As there is no source code to be found anywhere, this wallet is at best a non-custodial closed source wallet and as such **not verifiable**.
-

@@ -11,8 +11,8 @@ launchDate:
 latestUpdate: 2021-05-21
 apkVersionName: "1.3.8"
 stars: 2.7
-ratings: 13606
-reviews: 9777
+ratings: 13630
+reviews: 9798
 size: 27M
 website: https://roqqu.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.pundix.xwallet
 launchDate: 
 latestUpdate: 2020-11-23
 apkVersionName: "2.8.2"
-stars: 3.0
-ratings: 4962
-reviews: 2879
+stars: 4.7
+ratings: 6
+reviews: 2
 size: 62M
 website: https://pundix.com
 repository: 

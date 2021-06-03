@@ -1,5 +1,5 @@
 ---
-wsId: "B4UWallet"
+wsId: B4UWallet
 title: "B4U Wallet: Crypto Bitcoin Wallet Exchange"
 altTitle: 
 authors:

@@ -9,9 +9,9 @@ appId: com.ascendex.exchange
 launchDate: 
 latestUpdate: 2021-05-26
 apkVersionName: "2.5.1"
-stars: 3.4
-ratings: 1119
-reviews: 406
+stars: 3.0
+ratings: 1132
+reviews: 412
 size: 20M
 website: https://ascendex.com
 repository: 
