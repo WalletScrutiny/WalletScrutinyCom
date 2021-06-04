@@ -18,11 +18,16 @@ repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/116
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-15
 reviewStale: false
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-05-15
+  version: "3.5.9"
+  apkHash: 76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa
+  gitRevision: f19096afe2eb9df9f5be796428c76a142d2bb2eb
+  verdict: nonverifiable
 - date: 2021-05-03
   version: "3.5.9"
   apkHash: f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476
@@ -140,52 +145,26 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.5.9
-apkVersionCode: 22000359
-apkHash:        76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa
+apkVersionName: 3.6.0
+apkVersionCode: 22000360
+apkHash:        e93bcf3bcad8b84568a3101c4a87b9c9bb684c7c544fc6b05f204d9fa5fbb57d
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/apktool.yml and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000359/apktool.yml differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/original/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-xxhdpi/ic_tor_60.png and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000359/res/drawable-xxhdpi/ic_tor_60.png differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 215fd772c93093e56f43c42f3b87651901639623
+object 34552e6eae36dbca80b17a451c3ed56820e13170
 type commit
-tag release_3.5.9
-tagger Domenico Gabriele <domenico@blockstream.com> 1619702421 +0200
+tag release_3.6.0
+tagger Domenico Gabriele <domenico@blockstream.com> 1622481438 +0200
 
-Release 3.5.9
+Release 3.6.0
 ```
 
-which is unfortunately a tiny deviation from the file we got from the Play
-Store.
+which is what we want to see to give it the verdict **reproducible**.
 
-The result is almost the same as what we got when testing 3.5.9 from GitHub
-releases. As there is a difference of one png while those files are identical
-according to diffoscope:
-
-```
-$ diffoscope 'Green 3.5.9 (com.greenaddress.greenbits_android_wallet).apk' green-producition-release-3.5.9.apk
---- Green 3.5.9 (com.greenaddress.greenbits_android_wallet).apk
-+++ green-producition-release-3.5.9.apk
-│┄ Format-specific differences are supported for Android APK files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: Zip archive data, at least v?[0] to extract
-@@ -4194297,8 +4194297,8 @@
- 03ffff80: 1721 0091 0400 0014 e203 40f9 1f03 00f1  .!........@.....
- 03ffff90: 4d11 0054 4800 40f9 1f01 1beb 6100 0054  M..TH.@.....a..T
- 03ffffa0: 488c 5ff8 1b05 4091 6903 08cb 29fd 4493  H._...@.i...).D.
- 03ffffb0: 6a13 18cb 3f01 18eb 5ac1 889a 09c3 899a  j...?...Z.......
- 03ffffc0: 7f03 1aeb e227 00a9 200b 0054 f603 1baa  .....'.. ..T....
- 03ffffd0: 1100 0014 e91f 8052 2901 08cb ca3f 8052  .......R)....?.R
- 03ffffe0: 4801 08cb 3f01 00f1 08b1 899a 0afd 4893  H...?.........H.
--[ Too much input for diff (SHA256: 41d752c80082e8870af194f33c2d1f47045f7fc291cb226092f3dd4c29358e2d) ]
-+[ Too much input for diff (SHA256: 733f97db16bdaadfc3dd0008e8dd0e442eec889bb65c46349c89cfb6320b2d25) ]
-```
-
-We assume something about the png creation is non-deterministic but almost
-deterministic.
-
-Either way although it all looks very benign, we have to give the verdict
-**not verifiable**.
+The 3.6.0 release currently is only available
+[on GitHub](https://github.com/Blockstream/green_android/releases/tag/release_3.6.0)
+but we expect it to be rolling out on the Play Store, soon.
