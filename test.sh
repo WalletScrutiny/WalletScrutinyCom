@@ -109,8 +109,8 @@ result() {
   fromPlayUnzipped="/tmp/fromPlay_${appId}_$versionCode"
   fromBuildUnzipped="/tmp/fromBuild_${appId}_$versionCode"
   rm -rf $fromBuildUnzipped $fromPlayUnzipped
-  unzip -d $fromPlayUnzipped "$downloadedApk" || exit 1
-  unzip -d $fromBuildUnzipped "$builtApk" || exit 1
+  unzip -d $fromPlayUnzipped -qq "$downloadedApk" || exit 1
+  unzip -d $fromBuildUnzipped -qq "$builtApk" || exit 1
   echo "Results:
 appId:          $appId
 signer:         $signer
