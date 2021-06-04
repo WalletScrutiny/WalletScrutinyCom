@@ -1,22 +1,22 @@
 ---
 wsId: CoinBurp
-title: "CoinBurp - Buy and Sell Bitcoin. Crypto Wallet."
+title: "CoinBurp"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: com.coinburp.mobile
-launchDate: 
-latestUpdate: 2021-06-03
-apkVersionName: "1.0.14"
-stars: 3.9
-ratings: 76
-reviews: 29
-size: 43M
-website: https://www.coinburp.com/
+appCountry: 
+idd: 1486342307
+released: 2020-06-12
+updated: 2021-06-03
+version: "1.0.14"
+score: 2
+reviews: 1
+size: 42656768
+developerWebsite: https://www.coinburp.com/
 repository: 
 issue: 
-icon: com.coinburp.mobile.png
+icon: com.coinburp.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
