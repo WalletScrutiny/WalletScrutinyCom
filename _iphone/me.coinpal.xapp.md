@@ -1,22 +1,22 @@
 ---
 wsId: "Coinpal"
-title: "Coinpal"
+title: "Coinpal - Bitcoin Wallet"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
-appId: me.coinpal.app
-launchDate: 
-latestUpdate: 2018-06-27
-apkVersionName: "4.1.4"
-stars: 4.4
-ratings: 109
-reviews: 50
-size: 20M
-website: https://coinpal.me/
+appId: me.coinpal.xapp
+appCountry: 
+idd: 1351428916
+released: 2018-06-26
+updated: 2018-06-26
+version: "1.0"
+score: 5
+reviews: 5
+size: 77613056
+developerWebsite: https://coinpal.me
 repository: 
 issue: 
-icon: me.coinpal.app.png
+icon: me.coinpal.xapp.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
@@ -34,7 +34,7 @@ redirect_from:
 
 ---
 
-The providers [Play store description](https://play.google.com/store/apps/details?id=me.coinpal.app) states the customer is in control of the private keys.
+The providers [App store description](https://apps.apple.com/us/app/coinpal-bitcoin-wallet/id1351428916) states the customer is in control of the private keys.
 
 > Device-based security: all private keys are stored locally, not in the cloud
 
