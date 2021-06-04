@@ -1,22 +1,22 @@
 ---
 wsId: "Xapa"
-title: "Xapa Wallet - Bitcoin, Ethereum, DOGE, LTC, DASH"
+title: "Xapa"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
 appId: com.cwallet
-launchDate: 
-latestUpdate: 2021-04-08
-apkVersionName: "0.738.47"
-stars: 4.0
-ratings: 104
-reviews: 49
-size: Varies with device
-website: https://xapawallet.com/
+appCountry: 
+idd: 1471981089
+released: 2019-07-26
+updated: 2021-04-09
+version: "0.738.47"
+score: 4.09999
+reviews: 10
+size: 44941312
+developerWebsite: https://xapawallet.com/
 repository: 
 issue: 
-icon: com.cwallet.png
+icon: com.cwallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
@@ -40,4 +40,5 @@ This app is an exchange based wallet and as such typically private keys are cust
 > As XapaWallet is custodial, so your private key stores in Xapa Server with complex security.
 
 Our Verdict: This "wallet" is custodial and therefor **not verifiable**
+
 
