@@ -9,9 +9,9 @@ appId: com.newcurrency.coinstrunk.v1
 launchDate: 
 latestUpdate: 2021-02-26
 apkVersionName: "1.7"
-stars: 4.0
-ratings: 105
-reviews: 78
+stars: 4.1
+ratings: 107
+reviews: 80
 size: 5.9M
 website: 
 repository: 

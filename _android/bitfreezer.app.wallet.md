@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-02-18
 apkVersionName: "1.0.16"
 stars: 4.2
-ratings: 56
+ratings: 57
 reviews: 21
 size: 32M
 website: https://bitfreezer.app/

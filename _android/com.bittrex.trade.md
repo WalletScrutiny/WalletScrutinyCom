@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bittrex.trade
 launchDate: 
-latestUpdate: 2021-03-12
-apkVersionName: "1.13.2"
+latestUpdate: 2021-06-01
+apkVersionName: "1.14.0"
 stars: 2.1
-ratings: 1585
-reviews: 1079
-size: 49M
+ratings: 1587
+reviews: 1081
+size: 52M
 website: https://global.bittrex.com
 repository: 
 issue: 

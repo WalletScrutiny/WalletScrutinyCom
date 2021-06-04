@@ -8,11 +8,11 @@ appId: com.liberty.jaxx
 appCountry: 
 idd: 1435383184
 released: 2018-10-03
-updated: 2021-04-20
-version: "2.6.3"
-score: 4.50988
-reviews: 1316
-size: 43938816
+updated: 2021-06-02
+version: "2.6.4"
+score: 4.51025
+reviews: 1317
+size: 47021056
 developerWebsite: https://jaxx.io
 repository: 
 issue: 

@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-02-08
 apkVersionName: "2.1.13"
 stars: 3.1
-ratings: 93
+ratings: 94
 reviews: 65
 size: 64M
 website: https://coinfalcon.com

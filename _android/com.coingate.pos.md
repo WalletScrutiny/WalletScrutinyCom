@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2016-08-18
 apkVersionName: "2.0.0"
 stars: 3.6
-ratings: 24
-reviews: 10
+ratings: 23
+reviews: 9
 size: 8.1M
 website: https://coingate.com/
 repository: 

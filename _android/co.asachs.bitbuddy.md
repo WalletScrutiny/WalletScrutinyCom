@@ -9,9 +9,9 @@ appId: co.asachs.bitbuddy
 launchDate: 
 latestUpdate: 2020-09-28
 apkVersionName: "2.0.1"
-stars: 3.8
-ratings: 57
-reviews: 39
+stars: 3.9
+ratings: 56
+reviews: 38
 size: 14M
 website: 
 repository: 

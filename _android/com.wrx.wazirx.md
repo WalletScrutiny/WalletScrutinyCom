@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.wrx.wazirx
 launchDate: 
-latestUpdate: 2021-06-02
+latestUpdate: 2021-06-03
 apkVersionName: "2.13.2"
 stars: 3.8
-ratings: 164414
-reviews: 50690
+ratings: 165871
+reviews: 50887
 size: 6.1M
 website: 
 repository: 
