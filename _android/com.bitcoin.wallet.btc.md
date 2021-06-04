@@ -19,7 +19,7 @@ issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
+date: 2021-06-04
 reviewStale: true
 signer: 
 reviewArchive:
@@ -35,15 +35,23 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /bitcoinblockchainwallet/
-  - /com.bitcoin.wallet.btc/
-  - /posts/2019/11/bitcoinblockchainwallet/
-  - /posts/com.bitcoin.wallet.btc/
 ---
 
 
+**Update 2021-06-04**: The provider
+[promised to "check soon" back in 2019](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15#issuecomment-557786905)
+but several later attempts to get an update failed.
+
+We list the following apps of this provider:
+
+* [Bitcoin](/android/com.bitcoin.wallet.btc/) (obfuscated)
+* [Bitcoin Wallet](/android/com.blockchain.wallet.btc/) (obfuscated)
+* [Bitcoin Wallet](/android/com.blockchain.bitcoin.wallet/) (obfuscated)
+* [Blockchain](/android/com.blockchain.explorer/) (not a wallet)
+* [CoinHub](/android/com.blockchain.btc.coinhub/) (obfuscated)
+
 Something shady is going on here. This wallet looked like a wallet when we
-tried to reproduce it from the provided source a year ago and we failed to
+tried to reproduce it from the provided source in 2019 and we failed to
 do that. Check "Older reviews" above for details. Now (ok, a while ago:
 2020-09-16), user "alex Kijvanit" commented on the wallet:
 
