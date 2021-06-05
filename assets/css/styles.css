@@ -1194,8 +1194,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 }
 
 .stamp-obfuscated::before {
-  background: var(--permanent-black);
-  color: var(--permanent-white);
+  background: var(--rust);
   content: "obfuscated";
 }
 
