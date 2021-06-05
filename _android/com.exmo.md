@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-04
 apkVersionName: "2.2.2"
 stars: 3.9
-ratings: 1800
-reviews: 1220
+ratings: 1803
+reviews: 1222
 size: 56M
 website: https://exmo.com
 repository: 

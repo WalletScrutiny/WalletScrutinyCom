@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-08
 apkVersionName: "0.738.47"
 stars: 4.0
-ratings: 104
+ratings: 105
 reviews: 49
 size: Varies with device
 website: https://xapawallet.com/

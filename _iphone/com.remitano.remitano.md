@@ -11,7 +11,7 @@ released: 2016-05-28
 updated: 2021-05-30
 version: "5.36.0"
 score: 4.7622
-reviews: 7166
+reviews: 7195
 size: 47799296
 developerWebsite: https://remitano.com
 repository: 

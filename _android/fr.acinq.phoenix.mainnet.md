@@ -9,9 +9,9 @@ appId: fr.acinq.phoenix.mainnet
 launchDate: 2019-12-10
 latestUpdate: 2021-05-25
 apkVersionName: "1.4.13"
-stars: 4.1
-ratings: 231
-reviews: 113
+stars: 4.2
+ratings: 232
+reviews: 114
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

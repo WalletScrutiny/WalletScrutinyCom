@@ -9,9 +9,9 @@ appId: com.pro.bitcointoyou
 launchDate: 
 latestUpdate: 2021-05-27
 apkVersionName: "0.0.176"
-stars: 4.0
-ratings: 1037
-reviews: 654
+stars: 3.9
+ratings: 1038
+reviews: 655
 size: 50M
 website: https://www.bitcointoyou.com
 repository: 

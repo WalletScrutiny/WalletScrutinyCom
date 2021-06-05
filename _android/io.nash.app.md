@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-06-03
 apkVersionName: "7.0"
 stars: 4.3
-ratings: 610
+ratings: 612
 reviews: 255
 size: 67M
 website: https://nash.io/

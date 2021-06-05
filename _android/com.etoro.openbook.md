@@ -4,14 +4,14 @@ title: "eToro - Smart crypto trading made easy"
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.etoro.openbook
 launchDate: 2013-11-05
 latestUpdate: 2021-06-01
 apkVersionName: "327.0.0"
 stars: 4.2
-ratings: 84830
-reviews: 33051
+ratings: 84992
+reviews: 33103
 size: 56M
 website: https://www.etoro.com
 repository: 

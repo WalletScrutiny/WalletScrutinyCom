@@ -9,8 +9,8 @@ appId: com.bitcoinglobal
 launchDate: 
 latestUpdate: 2021-05-11
 apkVersionName: "2.2.0"
-stars: 4.8
-ratings: 36
+stars: 4.7
+ratings: 35
 reviews: 16
 size: 22M
 website: 
