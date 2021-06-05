@@ -1,5 +1,5 @@
 ---
-wsId: "Coinpal"
+wsId: Coinpal
 title: "Coinpal"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The providers [Play store description](https://play.google.com/store/apps/details?id=me.coinpal.app) states the customer is in control of the private keys.
 

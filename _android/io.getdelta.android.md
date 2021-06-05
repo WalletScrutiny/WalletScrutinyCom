@@ -4,7 +4,7 @@ title: "Delta Investment Portfolio Tracker"
 altTitle: 
 authors:
 
-users: 500000
+users: 1000000
 appId: io.getdelta.android
 launchDate: 
 latestUpdate: 2021-05-12

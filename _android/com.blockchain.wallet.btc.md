@@ -11,8 +11,8 @@ launchDate:
 latestUpdate: 2021-05-26
 apkVersionName: "1.0.1.7"
 stars: 4.2
-ratings: 715
-reviews: 129
+ratings: 719
+reviews: 132
 size: 24M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
@@ -34,6 +34,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 We list the following apps of this provider:
 

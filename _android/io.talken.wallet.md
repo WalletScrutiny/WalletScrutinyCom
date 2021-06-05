@@ -1,5 +1,5 @@
 ---
-wsId: "Talken"
+wsId: Talken
 title: "Talken -  Bitcoin, Ethereum, Community, Wallet"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 With this statement below from the providers [Play store description](https://play.google.com/store/apps/details?id=io.talken.wallet), it is clear that the user is not in control of the wallets private keys.
 

@@ -1,5 +1,5 @@
 ---
-wsId: "Xapa"
+wsId: Xapa
 title: "Xapa"
 altTitle: 
 authors:
@@ -8,7 +8,7 @@ appId: com.cwallet
 appCountry: 
 idd: 1471981089
 released: 2019-07-26
-updated: 2021-04-09
+updated: 2021-04-08
 version: "0.738.47"
 score: 4.09999
 reviews: 10

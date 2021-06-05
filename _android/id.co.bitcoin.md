@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-31
 apkVersionName: "4.1.1"
 stars: 3.9
-ratings: 54095
-reviews: 29344
+ratings: 54331
+reviews: 29434
 size: 28M
 website: https://indodax.com
 repository: 

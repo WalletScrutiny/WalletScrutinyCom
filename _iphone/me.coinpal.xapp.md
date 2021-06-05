@@ -1,5 +1,5 @@
 ---
-wsId: "Coinpal"
+wsId: Coinpal
 title: "Coinpal - Bitcoin Wallet"
 altTitle: 
 authors:

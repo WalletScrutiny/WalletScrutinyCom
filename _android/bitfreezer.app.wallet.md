@@ -9,8 +9,8 @@ appId: bitfreezer.app.wallet
 launchDate: 
 latestUpdate: 2021-02-18
 apkVersionName: "1.0.16"
-stars: 4.2
-ratings: 57
+stars: 4.1
+ratings: 58
 reviews: 21
 size: 32M
 website: https://bitfreezer.app/

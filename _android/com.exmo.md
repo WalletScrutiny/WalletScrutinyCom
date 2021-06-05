@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.exmo
 launchDate: 
-latestUpdate: 2021-05-21
-apkVersionName: "2.2.1.1"
+latestUpdate: 2021-06-04
+apkVersionName: "2.2.2"
 stars: 3.9
-ratings: 1796
-reviews: 1219
-size: 55M
+ratings: 1800
+reviews: 1220
+size: 56M
 website: https://exmo.com
 repository: 
 issue: 

@@ -1,5 +1,5 @@
 ---
-wsId: "Xapa"
+wsId: Xapa
 title: "Xapa Wallet - Bitcoin, Ethereum, DOGE, LTC, DASH"
 altTitle: 
 authors:
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 This app is an exchange based wallet and as such typically private keys are custodial, we can verify this from the [providers own site](https://xapawallet.com/#1603507874611-a20bac97-a1d1) , as they make a clear statement of how the private keys are managed.
 

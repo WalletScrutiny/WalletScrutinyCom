@@ -7,10 +7,10 @@ authors:
 users: 500000
 appId: im.token.app
 launchDate: 
-latestUpdate: 2021-05-19
+latestUpdate: 2021-06-04
 apkVersionName: "2.9.2"
 stars: 4.2
-ratings: 2792
+ratings: 2794
 reviews: 1573
 size: 78M
 website: https://token.im

@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-05-27
 apkVersionName: "3.1.43"
 stars: 2.5
-ratings: 1211
+ratings: 1214
 reviews: 860
 size: 11M
 website: https://www.bitcoin-india.org

@@ -9,8 +9,8 @@ appId: com.holytransaction
 launchDate: 
 latestUpdate: 2021-03-25
 apkVersionName: "1.0.0"
-stars: 3.6
-ratings: 5
+stars: 3.2
+ratings: 6
 reviews: 4
 size: 7.8M
 website: 

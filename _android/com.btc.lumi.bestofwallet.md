@@ -4,7 +4,7 @@ title: "Lumi Wallet ,Crypto and Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.btc.lumi.bestofwallet
 launchDate: 
 latestUpdate: 2021-04-06

@@ -4,14 +4,14 @@ title: "Altcoin Wallet. Your coins protected"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.altcoin.wallet
 launchDate: 
 latestUpdate: 2020-01-21
 apkVersionName: "v1.6"
-stars: 3.1
-ratings: 100
-reviews: 82
+stars: 3.0
+ratings: 101
+reviews: 83
 size: 3.7M
 website: 
 repository: 

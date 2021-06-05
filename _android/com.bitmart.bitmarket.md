@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-03
 apkVersionName: "2.5.4"
 stars: 4.0
-ratings: 12964
-reviews: 5520
+ratings: 13099
+reviews: 5560
 size: 32M
 website: https://www.bitmart.com
 repository: 

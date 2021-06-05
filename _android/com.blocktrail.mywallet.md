@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2019-04-03
 apkVersionName: "4.4.7"
 stars: 3.4
-ratings: 8120
+ratings: 8121
 reviews: 3857
 size: 13M
 website: https://btc.com
