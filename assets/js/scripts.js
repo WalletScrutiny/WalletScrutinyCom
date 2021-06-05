@@ -67,34 +67,36 @@ function updateModularPayload() {
 
   var h = ``
   var c = 0
-  var appIds = [];
-  var presort = [];
-  window.wallets.forEach(function (obj) {
-    if (obj.appId && obj.verdict && obj.category) {
-      if (verdict === "all" || String(obj.verdict) === verdict) {
-        if (platform === "all" || String(obj.category) === platform) {
-          presort.push(obj);
-          appIds.push(obj.appId)
-          c++
-        }
-      }
+  var appIds = []
+  var presort = []
+  const verdictOrder = ['reproducible', 'nonverifiable', 'nosource', 'custodial', 'obfuscated', 'defunct', 'wip', 'fewusers', 'nobtc', 'nowallet']
+  const paltformOrder = ['android', 'iphone']
+  window.wallets.forEach(obj => {
+    if (obj.appId && obj.verdict && obj.category &&
+        (verdict === "all" || String(obj.verdict) === verdict) &&
+        (platform === "all" || String(obj.category) === platform)) {
+      presort.push(obj)
+      appIds.push(obj.appId)
+      c++
     }
-  });
+  })
   appIds.sort().reverse()
-  presort.sort(function (a, b) {
-    function temporaryComparableObject(o) {
-        return { n: o.users||o.ratings||o.reviews, id: appIds.indexOf(o.appId) };
-    }
-    var aa = temporaryComparableObject(a),
-        bb = temporaryComparableObject(b);
-        
-    return aa.n - bb.n || aa.id - bb.id;
-  });
-  presort.reverse()
+  presort.sort((a, b) => {
+    if (a.verdict != b.verdict)
+      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+    if (a.category != b.category)
+      return paltformOrder.indexOf(a.category) - paltformOrder.indexOf(b.category)
+    if (a.users != b.users)
+      return b.users - a.users
+    if (a.ratings != b.ratings)
+      return b.ratings - a.ratings
+    if (a.reviews != b.reviews)
+      return b.reviews - a.reviews
+    return 0
+  })
 
-
-  presort.forEach(function(obj) {
-      var der_id = String(obj.appId).replace(".", "")
+  presort.forEach(obj => {
+    var der_id = String(obj.appId).replace(".", "")
     h += `<div id="card_${der_id}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
             <div style="width:7em;position: relative;" onclick="toggleApp('${der_id}')">
               <div id="show_${der_id}" class="card-expand-close">
@@ -152,19 +154,19 @@ function updateModularPayload() {
   document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d)
 }
 
-window.addEventListener("scroll", function (e) {
+window.addEventListener("scroll", ignore => {
   const p = document.getElementById("modularWalletPayload")
   const o = p.getBoundingClientRect().bottom
   document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
   if (o <= 100) {
     p.style.height = `${p.getBoundingClientRect().height}px`
     p.style.overflow = "hidden"
-    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
+    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
       e.style.transform = `translateY(${o - 100}px)`
       e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
     })
   } else {
-    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(function (e) {
+    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
       e.style.transform = `translateY(0px)`
       e.style.display = ""
       p.style.height = ""
@@ -174,17 +176,17 @@ window.addEventListener("scroll", function (e) {
 })
 
 var x, y
-x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", function (e) {
+x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
   y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
   y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
   resizeLabelBold()
 })
-x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", function (e) {
+x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", e => {
   y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
   y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
   resizeLabelBold()
 })
 updateModularPayload()
-document.body.addEventListener('keydown', function(e) {
+document.body.addEventListener('keydown', e => {
   if (e.key === "Escape") toggleApp()
 })
