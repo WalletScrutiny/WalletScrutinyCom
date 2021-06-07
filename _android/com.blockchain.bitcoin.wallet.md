@@ -11,7 +11,7 @@ latestUpdate: 2021-05-26
 apkVersionName: "1.0.3.6"
 stars: 4.4
 ratings: 667
-reviews: 138
+reviews: 137
 size: 24M
 website: https://adslab-2b1c2.web.app
 repository: 

@@ -10,8 +10,8 @@ launchDate: 2019-05-01
 latestUpdate: 2021-05-16
 apkVersionName: "2.2.6"
 stars: 4.4
-ratings: 4169
-reviews: 789
+ratings: 4171
+reviews: 790
 size: 24M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

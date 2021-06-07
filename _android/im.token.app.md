@@ -8,11 +8,11 @@ users: 500000
 appId: im.token.app
 launchDate: 
 latestUpdate: 2021-06-04
-apkVersionName: "2.9.2"
+apkVersionName: "2.9.3"
 stars: 4.2
 ratings: 2799
 reviews: 1577
-size: 78M
+size: 81M
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

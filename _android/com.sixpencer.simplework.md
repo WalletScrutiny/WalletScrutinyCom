@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-22
 reviewStale: true
 signer: 

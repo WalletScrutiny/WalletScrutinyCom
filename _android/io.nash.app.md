@@ -9,9 +9,9 @@ appId: io.nash.app
 launchDate: 
 latestUpdate: 2021-06-03
 apkVersionName: "7.0"
-stars: 4.3
-ratings: 612
-reviews: 255
+stars: 4.2
+ratings: 613
+reviews: 256
 size: 67M
 website: https://nash.io/
 repository: 
