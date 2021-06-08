@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-02
 apkVersionName: "1.4.16"
 stars: 4.6
-ratings: 582
-reviews: 459
+ratings: 598
+reviews: 475
 size: 26M
 website: https://www.bitwallet.org
 repository: 

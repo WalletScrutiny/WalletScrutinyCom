@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: it.airgap.wallet
 launchDate: 2018-08-06
-latestUpdate: 2021-04-27
-apkVersionName: "3.7.1"
+latestUpdate: 2021-06-04
+apkVersionName: "3.7.2"
 stars: 4.1
 ratings: 88
 reviews: 40

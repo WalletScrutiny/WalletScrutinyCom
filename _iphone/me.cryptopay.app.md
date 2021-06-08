@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "C.Pay"
+title: "Cryptopay"
 altTitle: 
 authors:
 
@@ -8,11 +8,11 @@ appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2021-05-14
-version: "1.30"
+updated: 2021-06-07
+version: "1.30.1"
 score: 4.51765
 reviews: 255
-size: 74644480
+size: 74951680
 developerWebsite: https://cryptopay.me/
 repository: 
 issue: 

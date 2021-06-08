@@ -9,9 +9,9 @@ appId: com.bitfinex.mobileapp
 launchDate: 
 latestUpdate: 2021-05-05
 apkVersionName: "4.3.0"
-stars: 3.9
-ratings: 1335
-reviews: 592
+stars: 4.0
+ratings: 1338
+reviews: 594
 size: 55M
 website: https://www.bitfinex.com
 repository: 

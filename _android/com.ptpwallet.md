@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ptpwallet
 launchDate: 
-latestUpdate: 2021-05-10
-apkVersionName: "1.0.1221"
+latestUpdate: 2021-06-07
+apkVersionName: "1.0.1222"
 stars: 4.0
 ratings: 333
 reviews: 244
-size: 24M
+size: 25M
 website: https://ptpwallet.com
 repository: 
 issue: 

@@ -10,8 +10,8 @@ launchDate: 2016-06-13
 latestUpdate: 2021-06-01
 apkVersionName: "2.5.9"
 stars: 4.2
-ratings: 4882
-reviews: 2415
+ratings: 4893
+reviews: 2422
 size: 7.3M
 website: https://freewallet.org
 repository: 

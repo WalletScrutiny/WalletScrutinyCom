@@ -9,9 +9,9 @@ appId: id.co.bitcoin
 launchDate: 
 latestUpdate: 2021-05-31
 apkVersionName: "4.1.1"
-stars: 3.9
-ratings: 54776
-reviews: 29586
+stars: 4.1
+ratings: 54991
+reviews: 29684
 size: 28M
 website: https://indodax.com
 repository: 

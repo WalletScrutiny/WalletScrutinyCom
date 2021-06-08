@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.viabtc.wallet
 launchDate: 2019-05-15
-latestUpdate: 2021-05-13
-apkVersionName: "2.2.8"
+latestUpdate: 2021-06-07
+apkVersionName: "2.3.0"
 stars: 4.1
 ratings: 256
 reviews: 106

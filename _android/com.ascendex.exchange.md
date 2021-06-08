@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.ascendex.exchange
 launchDate: 
-latestUpdate: 2021-06-04
-apkVersionName: "2.5.1"
-stars: 3.1
-ratings: 1175
-reviews: 423
-size: 20M
+latestUpdate: 2021-06-07
+apkVersionName: "2.5.3"
+stars: 3.7
+ratings: 1248
+reviews: 445
+size: 21M
 website: https://ascendex.com
 repository: 
 issue: 

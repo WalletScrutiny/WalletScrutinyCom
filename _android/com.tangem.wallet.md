@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-27
 apkVersionName: "3.15"
 stars: 4.5
-ratings: 53
-reviews: 17
+ratings: 54
+reviews: 18
 size: 19M
 website: https://tangem.com
 repository: 

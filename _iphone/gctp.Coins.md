@@ -10,8 +10,8 @@ idd: 972324049
 released: 2015-04-04
 updated: 2021-05-31
 version: "2.16.2"
-score: 4.72135
-reviews: 2853
+score: 4.72144
+reviews: 2854
 size: 186022912
 developerWebsite: https://coins.ph/
 repository: 

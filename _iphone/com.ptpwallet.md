@@ -8,11 +8,11 @@ appId: com.ptpwallet
 appCountry: 
 idd: 1428589045
 released: 2018-12-12
-updated: 2021-05-11
-version: "1.0.187"
+updated: 2021-06-07
+version: "1.0.188"
 score: 4.7027
 reviews: 37
-size: 44290048
+size: 45113344
 developerWebsite: https://ptpwallet.com
 repository: 
 issue: 

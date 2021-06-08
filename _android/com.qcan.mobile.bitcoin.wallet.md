@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-03
 apkVersionName: "0.8.851"
 stars: 4.3
-ratings: 151
-reviews: 86
+ratings: 152
+reviews: 87
 size: 29M
 website: https://qcan.com
 repository: 

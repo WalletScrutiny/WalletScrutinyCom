@@ -8,12 +8,12 @@ authors:
 users: 5000
 appId: com.app.cryptofully
 launchDate: 
-latestUpdate: 2021-03-17
-apkVersionName: "1.1.9"
+latestUpdate: 2021-06-07
+apkVersionName: "1.2.4"
 stars: 4.1
 ratings: 301
 reviews: 121
-size: 29M
+size: 30M
 website: https://www.cryptofully.com/
 repository: 
 issue: 
