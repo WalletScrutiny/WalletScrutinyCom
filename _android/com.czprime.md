@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-07
 apkVersionName: "1.4.4"
 stars: 4.4
-ratings: 1691
-reviews: 706
+ratings: 1701
+reviews: 711
 size: 27M
 website: https://www.coinzoom.com
 repository: 

@@ -10,9 +10,9 @@ appId: com.roqqu.app
 launchDate: 
 latestUpdate: 2021-06-02
 apkVersionName: "1.3.9"
-stars: 2.7
-ratings: 13716
-reviews: 9865
+stars: 2.8
+ratings: 13732
+reviews: 9876
 size: 27M
 website: https://roqqu.com
 repository: 

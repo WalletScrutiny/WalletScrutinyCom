@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-04
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 11491
-reviews: 7484
+ratings: 11502
+reviews: 7490
 size: Varies with device
 website: https://cex.io
 repository: 

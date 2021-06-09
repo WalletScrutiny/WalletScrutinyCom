@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.chippercash
 launchDate: 
-latestUpdate: 2021-05-24
+latestUpdate: 2021-06-08
 apkVersionName: "1.9.5"
 stars: 4.2
-ratings: 29425
-reviews: 18497
+ratings: 29444
+reviews: 18511
 size: Varies with device
 website: https://chippercash.com/
 repository: 

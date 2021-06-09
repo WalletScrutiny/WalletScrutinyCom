@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.blockchain.bitcoin.wallet
 launchDate: 
-latestUpdate: 2021-05-26
-apkVersionName: "1.0.3.6"
+latestUpdate: 2021-06-08
+apkVersionName: "1.0.3.7"
 stars: 4.4
 ratings: 667
 reviews: 137

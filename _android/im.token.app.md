@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-04
 apkVersionName: "2.9.3"
 stars: 4.2
-ratings: 2805
-reviews: 1579
+ratings: 2808
+reviews: 1580
 size: 81M
 website: https://token.im
 repository: 

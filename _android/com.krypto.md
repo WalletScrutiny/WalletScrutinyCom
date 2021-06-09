@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.krypto
 launchDate: 
-latestUpdate: 2021-06-07
+latestUpdate: 2021-06-08
 apkVersionName: "8.5"
-stars: 4.5
-ratings: 1306
-reviews: 916
+stars: 4.6
+ratings: 1318
+reviews: 926
 size: 9.2M
 website: https://letskrypto.com
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.huobionchainwallet.gp
 launchDate: 
-latestUpdate: 2021-05-28
-apkVersionName: "2.07.06.036"
+latestUpdate: 2021-06-08
+apkVersionName: "2.07.08.010"
 stars: 3.7
-ratings: 1830
-reviews: 788
+ratings: 1842
+reviews: 795
 size: 63M
 website: https://huobiwallet.com
 repository: 

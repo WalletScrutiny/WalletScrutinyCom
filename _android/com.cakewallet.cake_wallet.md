@@ -9,9 +9,9 @@ appId: com.cakewallet.cake_wallet
 launchDate: 
 latestUpdate: 2021-05-12
 apkVersionName: "4.2.1"
-stars: 3.8
-ratings: 501
-reviews: 318
+stars: 3.7
+ratings: 506
+reviews: 323
 size: 61M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-19
 apkVersionName: "v74"
 stars: 3.3
-ratings: 2083
-reviews: 809
+ratings: 2105
+reviews: 822
 size: 9.1M
 website: 
 repository: 
