@@ -9,9 +9,9 @@ appId: network.celsius.wallet
 launchDate: 
 latestUpdate: 2021-05-31
 apkVersionName: "4.9.0"
-stars: 3.2
-ratings: 4981
-reviews: 3637
+stars: 3.1
+ratings: 4988
+reviews: 3641
 size: 88M
 website: https://celsius.network
 repository: 

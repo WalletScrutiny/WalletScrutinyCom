@@ -9,9 +9,9 @@ appId: com.thinkdevs.cryptomarket
 launchDate: 
 latestUpdate: 2021-01-19
 apkVersionName: "0.0.10"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.7
+ratings: 118
+reviews: 68
 size: 3.0M
 website: 
 repository: 

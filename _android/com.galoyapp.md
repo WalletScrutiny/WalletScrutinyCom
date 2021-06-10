@@ -9,9 +9,9 @@ appId: com.galoyapp
 launchDate: 
 latestUpdate: 2021-05-01
 apkVersionName: "1.4.3"
-stars: 4.2
-ratings: 45
-reviews: 26
+stars: 4.1
+ratings: 49
+reviews: 29
 size: 31M
 website: 
 repository: 

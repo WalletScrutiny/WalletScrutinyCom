@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: "CoinEx"
+title: "CoinEx - A Trustworthy Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-21
 apkVersionName: "1.9.7"
 stars: 4.7
-ratings: 16514
-reviews: 5250
+ratings: 16534
+reviews: 5252
 size: 14M
 website: https://www.coinex.co
 repository: 

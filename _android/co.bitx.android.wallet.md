@@ -10,8 +10,8 @@ launchDate: 2014-11-01
 latestUpdate: 2021-06-02
 apkVersionName: "7.15.0"
 stars: 4.3
-ratings: 79879
-reviews: 42579
+ratings: 79939
+reviews: 42602
 size: 70M
 website: https://www.luno.com
 repository: 

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-08
 apkVersionName: "1.0.3.7"
 stars: 4.4
-ratings: 668
-reviews: 138
+ratings: 669
+reviews: 139
 size: 24M
 website: https://adslab-2b1c2.web.app
 repository: 

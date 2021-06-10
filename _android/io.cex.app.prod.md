@@ -4,14 +4,14 @@ title: "CEX.IO Cryptocurrency Exchange - Buy Bitcoin (BTC)"
 altTitle: 
 authors:
 - kiwilamb
-users: 500000
+users: 1000000
 appId: io.cex.app.prod
 launchDate: 
 latestUpdate: 2021-05-04
 apkVersionName: "Varies with device"
 stars: 4.3
-ratings: 11524
-reviews: 7498
+ratings: 11533
+reviews: 7500
 size: Varies with device
 website: https://cex.io
 repository: 

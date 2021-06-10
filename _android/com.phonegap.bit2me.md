@@ -4,13 +4,13 @@ title: "Bit2Me - Buy and Sell Cryptocurrencies"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.phonegap.bit2me
 launchDate: 
 latestUpdate: 2021-05-29
 apkVersionName: "2.0.58"
 stars: 4.3
-ratings: 1563
+ratings: 1564
 reviews: 658
 size: 31M
 website: https://bit2me.com

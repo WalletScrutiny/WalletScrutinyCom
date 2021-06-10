@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.cakewallet.cake_wallet
 launchDate: 
-latestUpdate: 2021-05-12
-apkVersionName: "4.2.1"
-stars: 3.7
+latestUpdate: 2021-06-10
+apkVersionName: "4.2.3"
+stars: 3.8
 ratings: 512
 reviews: 328
-size: 61M
+size: 62M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/112
