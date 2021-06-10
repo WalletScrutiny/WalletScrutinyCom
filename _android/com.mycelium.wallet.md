@@ -26,7 +26,7 @@ reviewArchive:
 - date: 2021-05-16
   version: "3.9.0.0"
   apkHash: bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
-  gitRevision: bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
+  gitRevision: 20646878724bc765795bd9044303bf6e4a50a81f
   verdict: reproducible
 - date: 2021-04-01
   version: "3.8.9.0"
