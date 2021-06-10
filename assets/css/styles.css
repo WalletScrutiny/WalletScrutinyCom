@@ -1691,6 +1691,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .svg.reproducible {
   background-image: var(--reproducible-badge);
+  transform: rotate(-25deg);
 }
 
 .app-payload-flex>div>span {
