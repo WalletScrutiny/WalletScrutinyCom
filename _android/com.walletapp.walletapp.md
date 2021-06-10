@@ -9,9 +9,9 @@ appId: com.walletapp.walletapp
 launchDate: 
 latestUpdate: 2021-01-28
 apkVersionName: "1.0.14"
-stars: 4.3
-ratings: 53
-reviews: 45
+stars: 4.2
+ratings: 54
+reviews: 46
 size: 28M
 website: 
 repository: 

@@ -9,7 +9,7 @@ appId: com.blockchain.explorer
 launchDate: 
 latestUpdate: 2021-06-08
 apkVersionName: "1.2.0.1"
-stars: 4.4
+stars: 4.3
 ratings: 254
 reviews: 70
 size: 24M

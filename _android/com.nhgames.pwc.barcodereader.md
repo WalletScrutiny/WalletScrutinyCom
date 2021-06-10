@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-27
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-10
 reviewStale: true
 signer: 
 reviewArchive:
@@ -33,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

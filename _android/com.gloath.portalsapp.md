@@ -9,8 +9,8 @@ appId: com.gloath.portalsapp
 launchDate: 
 latestUpdate: 2020-12-20
 apkVersionName: "0.0.4a"
-stars: 3.9
-ratings: 107
+stars: 4.0
+ratings: 108
 reviews: 54
 size: 11M
 website: 

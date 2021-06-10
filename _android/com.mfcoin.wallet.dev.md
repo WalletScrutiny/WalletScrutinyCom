@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-10-04
 apkVersionName: "v4.0.0"
 stars: 4.4
-ratings: 85
-reviews: 44
+ratings: 86
+reviews: 45
 size: 5.4M
 website: mfcoin.net
 repository: 

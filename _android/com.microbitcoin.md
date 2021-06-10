@@ -10,7 +10,7 @@ launchDate: 2018-10-30
 latestUpdate: 2020-01-23
 apkVersionName: "2.0.1"
 stars: 3.9
-ratings: 52
+ratings: 53
 reviews: 32
 size: 9.9M
 website: https://microbitcoin.org

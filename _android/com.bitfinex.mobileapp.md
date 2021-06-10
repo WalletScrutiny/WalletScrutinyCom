@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-05
 apkVersionName: "4.3.0"
 stars: 3.9
-ratings: 1338
-reviews: 591
+ratings: 1342
+reviews: 593
 size: 55M
 website: https://www.bitfinex.com
 repository: 

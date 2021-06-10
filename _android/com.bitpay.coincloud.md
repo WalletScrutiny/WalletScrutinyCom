@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-27
 apkVersionName: "11.2.21"
 stars: 3.6
-ratings: 129
+ratings: 130
 reviews: 58
 size: 18M
 website: https://www.coincloudatm.com/

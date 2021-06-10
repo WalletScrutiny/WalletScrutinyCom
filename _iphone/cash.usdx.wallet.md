@@ -10,8 +10,8 @@ idd: 1367451869
 released: 2018-04-23
 updated: 2020-11-27
 version: "1.34.2"
-score: 4.7451
-reviews: 153
+score: 4.72078
+reviews: 154
 size: 55813120
 developerWebsite: https://usdx.cash/airdrop
 repository: 

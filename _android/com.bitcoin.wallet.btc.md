@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.bitcoin.wallet.btc
 launchDate: 2019-05-01
-latestUpdate: 2021-05-16
-apkVersionName: "2.2.6"
-stars: 4.4
-ratings: 4185
+latestUpdate: 2021-06-08
+apkVersionName: "2.2.7"
+stars: 4.3
+ratings: 4196
 reviews: 794
 size: 24M
 website: https://bitcoin-wallet.flycricket.io

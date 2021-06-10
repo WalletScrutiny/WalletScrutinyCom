@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-05-28
 apkVersionName: "1.9"
 stars: 4.8
-ratings: 39
-reviews: 34
+ratings: 40
+reviews: 35
 size: 59M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile

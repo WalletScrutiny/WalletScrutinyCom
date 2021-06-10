@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-04-22
 apkVersionName: "4.3.4"
 stars: 3.7
-ratings: 122
+ratings: 123
 reviews: 70
 size: 30M
 website: https://b4uwallet.com/

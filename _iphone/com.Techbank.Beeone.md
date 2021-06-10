@@ -8,8 +8,8 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2021-05-27
-version: "1.0.44"
+updated: 2021-06-09
+version: "1.0.45"
 score: 4
 reviews: 8
 size: 64145408

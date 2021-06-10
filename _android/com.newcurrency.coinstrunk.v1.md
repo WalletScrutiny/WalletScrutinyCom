@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-02-26
 apkVersionName: "1.7"
 stars: 4.1
-ratings: 115
-reviews: 86
+ratings: 116
+reviews: 87
 size: 5.9M
 website: 
 repository: 

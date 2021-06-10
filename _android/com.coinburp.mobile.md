@@ -10,7 +10,7 @@ launchDate:
 latestUpdate: 2021-06-03
 apkVersionName: "1.0.14"
 stars: 3.9
-ratings: 76
+ratings: 78
 reviews: 29
 size: 43M
 website: https://www.coinburp.com/

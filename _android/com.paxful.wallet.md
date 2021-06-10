@@ -1,17 +1,17 @@
 ---
 wsId: Paxful
-title: "Paxful | Marketplace & Wallet"
+title: "Paxful - Bitcoin & Crypto Wallet, Marketplace P2P"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.paxful.wallet
 launchDate: 2019-04-30
-latestUpdate: 2021-05-31
+latestUpdate: 2021-06-09
 apkVersionName: "2.0.2.607"
 stars: 3.8
-ratings: 17650
-reviews: 10300
+ratings: 17706
+reviews: 10326
 size: 26M
 website: https://paxful.com/mobile-wallet-app
 repository: 

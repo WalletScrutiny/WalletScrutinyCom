@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-04
 apkVersionName: "1.25.2"
 stars: 4.3
-ratings: 701
-reviews: 358
+ratings: 702
+reviews: 359
 size: 18M
 website: https://cryptopay.me
 repository: 

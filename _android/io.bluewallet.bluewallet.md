@@ -10,8 +10,8 @@ launchDate: 2018-11-01
 latestUpdate: 2021-06-03
 apkVersionName: "Varies with device"
 stars: 3.9
-ratings: 1127
-reviews: 482
+ratings: 1128
+reviews: 484
 size: Varies with device
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
