@@ -19,13 +19,13 @@ issue: https://github.com/spesmilo/electrum/issues/5839
 icon: org.electrum.electrum.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-11
+date: 2021-06-10
 reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ElectrumWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -37,6 +37,11 @@ redirect_from:
   - /posts/org.electrum.electrum/
 ---
 
+
+**Update 2021-06-10**: The provider
+[promised](https://github.com/spesmilo/electrum/issues/5839#issuecomment-858683963)
+the next release to be reproducible! Looking forward to get our hands on that
+next release 4.1.3!
 
 Electrum is around since 2011 in its various flavors and many projects came from
 this open source project.
