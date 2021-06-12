@@ -6,7 +6,7 @@ authors:
 
 users: 500
 appId: com.modelxv64
-released: 
+released: 2020-05-29
 latestUpdate: 2021-03-18
 version: "1.6.9"
 stars: 3.1

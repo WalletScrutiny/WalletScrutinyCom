@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.beeone.techbank
-released: 
+released: 2019-07-14
 latestUpdate: 2021-05-14
 version: "4.6"
 stars: 4.1

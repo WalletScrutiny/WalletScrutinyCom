@@ -6,11 +6,11 @@ authors:
 - leo
 users: 500000
 appId: io.safepal.wallet
-released: 
+released: 2019-05-26
 latestUpdate: 2021-06-02
 version: "2.6.0"
 stars: 3.8
-ratings: 6343
+ratings: 6344
 reviews: 3637
 size: 29M
 website: https://www.safepal.io

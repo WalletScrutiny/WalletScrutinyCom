@@ -6,7 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.bitbill.www
-released: 
+released: 2018-03-22
 latestUpdate: 2021-06-08
 version: "4.30.5"
 stars: 3.8

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.bitcoinindia.Btciapp
-released: 
+released: 2018-06-11
 latestUpdate: 2021-05-27
 version: "3.1.43"
 stars: 2.6

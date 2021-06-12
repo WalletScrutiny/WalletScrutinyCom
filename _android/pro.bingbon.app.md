@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: pro.bingbon.app
-released: 
+released: 2019-05-18
 latestUpdate: 2021-06-11
 version: "2.33.2"
 stars: 4.6

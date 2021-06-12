@@ -6,7 +6,7 @@ authors:
 
 users: 10000
 appId: io.goldwallet.wallet
-released: 
+released: 2020-02-18
 latestUpdate: 2021-04-28
 version: "6.2.0"
 stars: 4.0

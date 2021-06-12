@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.neobitcoin.wallet
-released: 
+released: 2020-07-03
 latestUpdate: 2020-07-03
 version: "1.0.0"
 stars: 1.6

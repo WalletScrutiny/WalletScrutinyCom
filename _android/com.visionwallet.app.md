@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.visionwallet.app
-released: 
+released: 2020-09-07
 latestUpdate: 2020-11-05
 version: "1.3.2"
 stars: 4.0

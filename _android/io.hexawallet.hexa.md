@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: io.hexawallet.hexa
-released: 
+released: 2020-03-26
 latestUpdate: 2021-05-05
 version: "1.6.5"
 stars: 3.8

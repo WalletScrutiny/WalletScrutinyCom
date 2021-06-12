@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.remitano.remitano
-released: 
+released: 2016-07-24
 latestUpdate: 2021-06-03
 version: "5.38.0"
 stars: 4.4
-ratings: 12951
-reviews: 5968
+ratings: 12954
+reviews: 5969
 size: 93M
 website: https://remitano.com
 repository: 

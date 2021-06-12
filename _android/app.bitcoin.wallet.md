@@ -6,7 +6,7 @@ authors:
 
 users: 100
 appId: app.bitcoin.wallet
-released: 
+released: 2021-04-10
 latestUpdate: 2021-04-10
 version: "8.11"
 stars: 5.0

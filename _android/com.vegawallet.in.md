@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.vegawallet.in
-released: 
+released: 2018-12-19
 latestUpdate: 2020-07-02
 version: "3.2.3"
 stars: 4.7

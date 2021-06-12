@@ -6,11 +6,11 @@ authors:
 - leo
 users: 100000
 appId: com.plunien.poloniex
-released: 
+released: 2017-06-19
 latestUpdate: 2021-06-04
 version: "1.26.2"
 stars: 4.0
-ratings: 5185
+ratings: 5187
 reviews: 2775
 size: 25M
 website: https://support.poloniex.com

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.bitnovo.app
-released: 
+released: 2017-05-18
 latestUpdate: 2021-02-23
 version: "2.8.4"
 stars: 2.6

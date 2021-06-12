@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.coinfalcon.mobile
-released: 
+released: 2019-07-10
 latestUpdate: 2021-02-08
 version: "2.1.13"
 stars: 3.1

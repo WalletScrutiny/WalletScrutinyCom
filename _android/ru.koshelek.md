@@ -6,7 +6,7 @@ authors:
 
 users: 5000
 appId: ru.koshelek
-released: 
+released: 2020-07-28
 latestUpdate: 2021-05-26
 version: "1.2.3"
 stars: 4.1

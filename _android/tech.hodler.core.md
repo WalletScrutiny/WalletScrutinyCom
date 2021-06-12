@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: tech.hodler.core
-released: 
+released: 2018-09-02
 latestUpdate: 2019-10-29
 version: "0.4.6"
 stars: 4.0

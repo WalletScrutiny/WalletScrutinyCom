@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: appinventor.ai_oldgoldmen.CryptoWallet
-released: 
+released: 2020-02-01
 latestUpdate: 2021-02-23
 version: "3.0"
 stars: 4.5

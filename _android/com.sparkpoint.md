@@ -7,7 +7,7 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
-released: 
+released: 2019-07-20
 latestUpdate: 2021-05-27
 version: "6.4.3"
 stars: 4.5

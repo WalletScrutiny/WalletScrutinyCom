@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.ankerpay.wallet
-released: 
+released: 2019-09-17
 latestUpdate: 2021-06-11
 version: "v1.0.12.2"
 stars: 4.1

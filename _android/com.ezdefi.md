@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.ezdefi
-released: 
+released: 2019-11-29
 latestUpdate: 2021-05-12
 version: "0.3.5"
 stars: 4.5

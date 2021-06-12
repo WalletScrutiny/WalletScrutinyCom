@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: loadng.com.loadng
-released: 
+released: 2020-05-02
 latestUpdate: 2021-04-15
 version: "Varies with device"
 stars: 4.2

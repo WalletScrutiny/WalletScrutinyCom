@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.instantcoins
-released: 
+released: 2020-06-19
 latestUpdate: 2021-04-05
 version: "1.0.6"
 stars: 3.9

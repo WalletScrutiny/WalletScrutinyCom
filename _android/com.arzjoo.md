@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.arzjoo
-released: 
+released: 2019-04-25
 latestUpdate: 2021-04-15
 version: "1.4.0"
 stars: 3.8

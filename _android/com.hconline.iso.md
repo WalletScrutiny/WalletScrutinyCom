@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.hconline.iso
-released: 
+released: 2020-07-19
 latestUpdate: 2021-05-21
 version: "R02.02.06.258"
 stars: 3.9

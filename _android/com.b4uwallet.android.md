@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.b4uwallet.android
-released: 
+released: 2018-10-19
 latestUpdate: 2021-04-22
 version: "4.3.4"
 stars: 3.7

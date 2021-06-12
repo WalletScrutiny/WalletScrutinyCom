@@ -7,7 +7,7 @@ authors:
 - emanuel
 users: 100000
 appId: com.zengo.wallet
-released: 
+released: 2020-01-19
 latestUpdate: 2021-05-04
 version: "2.23.0"
 stars: 4.0

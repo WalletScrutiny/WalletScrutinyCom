@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
-released: 
+released: 2020-01-06
 latestUpdate: 2021-06-09
 version: "1.0.76"
 stars: 4.0
-ratings: 11932
-reviews: 3999
+ratings: 11933
+reviews: 4000
 size: 57M
 website: https://pro.coinbase.com
 repository: 

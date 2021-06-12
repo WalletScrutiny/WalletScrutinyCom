@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
-released: 
+released: 2018-05-17
 latestUpdate: 2021-03-26
 version: "2.17.794"
 stars: 4.5

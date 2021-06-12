@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.node.coindirect
-released: 
+released: 2018-10-10
 latestUpdate: 2021-05-12
 version: "1.3.0"
 stars: 2.0

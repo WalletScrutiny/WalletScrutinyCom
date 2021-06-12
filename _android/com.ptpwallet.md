@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.ptpwallet
-released: 
+released: 2018-12-04
 latestUpdate: 2021-06-07
 version: "1.0.1222"
 stars: 4.0

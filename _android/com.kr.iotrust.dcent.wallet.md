@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.kr.iotrust.dcent.wallet
-released: 
+released: 2018-10-16
 latestUpdate: 2021-05-17
 version: "5.3.1"
 stars: 4.3

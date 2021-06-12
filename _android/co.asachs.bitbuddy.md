@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: co.asachs.bitbuddy
-released: 
+released: 2019-09-19
 latestUpdate: 2020-09-28
 version: "2.0.1"
 stars: 3.9

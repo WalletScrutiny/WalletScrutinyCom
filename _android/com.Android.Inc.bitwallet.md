@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.Android.Inc.bitwallet
-released: 
+released: 2019-07-22
 latestUpdate: 2021-06-02
 version: "1.4.16"
 stars: 4.9

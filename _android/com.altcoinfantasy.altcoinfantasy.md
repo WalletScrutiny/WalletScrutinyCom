@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.altcoinfantasy.altcoinfantasy
-released: 
+released: 2018-01-05
 latestUpdate: 2021-01-07
 version: "3.3.6-google"
 stars: 3.8

@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.mfcoin.wallet.dev
-released: 
+released: 2018-03-22
 latestUpdate: 2020-10-04
 version: "v4.0.0"
 stars: 4.4

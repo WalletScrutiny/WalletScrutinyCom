@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.ascendex.exchange
-released: 
+released: 2021-04-28
 latestUpdate: 2021-06-07
 version: "2.5.3"
 stars: 3.7
-ratings: 1326
-reviews: 480
+ratings: 1327
+reviews: 481
 size: 21M
 website: https://ascendex.com
 repository: 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.bybit.app
-released: 
+released: 2019-10-31
 latestUpdate: 2021-06-08
 version: "2.3.1"
 stars: 3.3
-ratings: 3904
-reviews: 1841
+ratings: 3906
+reviews: 1842
 size: 30M
 website: https://www.bybit.com
 repository: 

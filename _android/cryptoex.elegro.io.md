@@ -6,7 +6,7 @@ authors:
 - leo
 users: 500
 appId: cryptoex.elegro.io
-released: 
+released: 2019-06-26
 latestUpdate: 2021-04-29
 version: "1.0.4"
 stars: 4.9

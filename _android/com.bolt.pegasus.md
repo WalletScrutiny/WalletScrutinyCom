@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.bolt.pegasus
-released: 
+released: 2019-08-26
 latestUpdate: 2021-03-11
 version: "1.19.0"
 stars: 4.7

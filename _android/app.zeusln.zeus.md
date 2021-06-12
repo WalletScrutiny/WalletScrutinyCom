@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: app.zeusln.zeus
-released: 
+released: 2020-07-07
 latestUpdate: 2021-03-26
 version: "0.5.1"
 stars: 4.2

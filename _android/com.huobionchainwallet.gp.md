@@ -6,11 +6,11 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.huobionchainwallet.gp
-released: 
+released: 2019-10-17
 latestUpdate: 2021-06-10
 version: "2.07.09.017"
 stars: 3.6
-ratings: 1853
+ratings: 1854
 reviews: 799
 size: 63M
 website: https://huobiwallet.com

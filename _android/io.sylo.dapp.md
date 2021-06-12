@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: io.sylo.dapp
-released: 
+released: 2019-09-10
 latestUpdate: 2021-05-24
 version: "3.0.26-btc-tx.1"
 stars: 4.7

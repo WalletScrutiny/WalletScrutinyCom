@@ -7,7 +7,7 @@ authors:
 - leo
 users: 1000
 appId: it.inbitcoin.altana
-released: 
+released: 2017-04-18
 latestUpdate: 2021-02-27
 version: "Varies with device"
 stars: 4.4

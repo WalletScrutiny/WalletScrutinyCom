@@ -6,11 +6,11 @@ authors:
 - leo
 users: 1000000
 appId: com.kraken.trade
-released: 
+released: 2019-10-24
 latestUpdate: 2021-05-29
 version: "1.5.15-5520"
 stars: 4.6
-ratings: 19377
+ratings: 19378
 reviews: 6491
 size: 42M
 website: https://www.kraken.com

@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
-released: 
+released: 2014-09-10
 latestUpdate: 2021-04-12
 version: "3.2.9"
 stars: 2.8

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.spot.spot
-released: 
+released: 2018-08-02
 latestUpdate: 2021-06-08
 version: "4.31.0.2640-3fb33ecc"
 stars: 4.2

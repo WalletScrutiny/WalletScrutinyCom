@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.incognito.wallet
-released: 
+released: 2019-08-12
 latestUpdate: 2021-04-02
 version: "4.3.0"
 stars: 3.6

@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: io.yellowcard.app
-released: 
+released: 2019-05-14
 latestUpdate: 2021-06-09
 version: "2.3"
 stars: 4.3

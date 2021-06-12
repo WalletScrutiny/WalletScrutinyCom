@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.coingate.pos
-released: 
+released: 2015-02-19
 latestUpdate: 2016-08-18
 version: "2.0.0"
 stars: 3.6

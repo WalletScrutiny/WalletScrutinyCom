@@ -6,7 +6,7 @@ authors:
 
 users: 100
 appId: com.authentrend.atwallet
-released: 
+released: 2020-07-13
 latestUpdate: 2021-04-01
 version: "v1.0.28"
 stars: 0.0

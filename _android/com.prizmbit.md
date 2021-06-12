@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.prizmbit
-released: 
+released: 2019-06-28
 latestUpdate: 2021-05-31
 version: "1.4.18"
 stars: 3.8

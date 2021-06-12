@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.adenter.mercurycash
-released: 
+released: 2017-07-28
 latestUpdate: 2021-03-29
 version: "5.0.3"
 stars: 3.9

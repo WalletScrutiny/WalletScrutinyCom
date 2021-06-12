@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.coinex.trade.play
-released: 
+released: 2019-12-27
 latestUpdate: 2021-06-10
 version: "1.9.8"
 stars: 4.7
-ratings: 17582
-reviews: 5588
+ratings: 17637
+reviews: 5613
 size: 14M
 website: https://www.coinex.co
 repository: 

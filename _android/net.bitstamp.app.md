@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: net.bitstamp.app
-released: 
+released: 2019-01-29
 latestUpdate: 2021-05-31
 version: "2.2.1"
 stars: 4.3

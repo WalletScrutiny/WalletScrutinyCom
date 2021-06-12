@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: io.talken.wallet
-released: 
+released: 2019-07-31
 latestUpdate: 2021-05-20
 version: "1.0.21"
 stars: 3.2

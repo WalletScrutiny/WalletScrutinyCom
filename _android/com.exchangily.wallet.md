@@ -7,7 +7,7 @@ authors:
 - leo
 users: 1000
 appId: com.exchangily.wallet
-released: 
+released: 2020-02-05
 latestUpdate: 2021-05-26
 version: "2.0.21"
 stars: 4.1

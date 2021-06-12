@@ -6,7 +6,7 @@ authors:
 
 users: 50
 appId: com.bitzapp
-released: 
+released: 2020-03-15
 latestUpdate: 2020-08-11
 version: "1.5"
 stars: 0.0

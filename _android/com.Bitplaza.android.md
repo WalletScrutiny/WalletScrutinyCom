@@ -6,7 +6,7 @@ authors:
 
 users: 10000
 appId: com.Bitplaza.android
-released: 
+released: 2018-04-21
 latestUpdate: 2018-11-14
 version: "4.0"
 stars: 4.4

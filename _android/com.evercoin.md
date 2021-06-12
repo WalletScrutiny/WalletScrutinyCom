@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.evercoin
-released: 
+released: 2017-11-20
 latestUpdate: 2020-11-22
 version: "2.8.8"
 stars: 3.7

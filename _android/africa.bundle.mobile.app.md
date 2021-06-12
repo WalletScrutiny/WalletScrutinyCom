@@ -6,12 +6,12 @@ authors:
 - kiwilamb
 users: 100000
 appId: africa.bundle.mobile.app
-released: 
+released: 2020-04-20
 latestUpdate: 2021-05-23
 version: "2.7.9"
 stars: 4.6
-ratings: 8684
-reviews: 5425
+ratings: 8685
+reviews: 5426
 size: 48M
 website: https://bundle.africa/
 repository: 

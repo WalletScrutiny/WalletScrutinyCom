@@ -6,7 +6,7 @@ authors:
 
 users: 50000
 appId: com.coinbase.wallite
-released: 
+released: 2019-04-16
 latestUpdate: 2020-07-17
 version: "0.5-alpha"
 stars: 3.6

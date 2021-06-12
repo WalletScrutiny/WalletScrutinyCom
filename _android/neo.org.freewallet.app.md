@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: neo.org.freewallet.app
-released: 
+released: 2017-11-29
 latestUpdate: 2020-04-21
 version: "2.5.2"
 stars: 4.1

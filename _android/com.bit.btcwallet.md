@@ -6,7 +6,7 @@ authors:
 
 users: 100
 appId: com.bit.btcwallet
-released: 
+released: 2019-11-17
 latestUpdate: 2019-11-25
 version: "0.2"
 stars: 0.0

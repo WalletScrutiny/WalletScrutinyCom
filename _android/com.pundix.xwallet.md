@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.pundix.xwallet
-released: 
+released: 2018-10-22
 latestUpdate: 2020-11-23
 version: "2.8.2"
 stars: 3.0

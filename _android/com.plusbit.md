@@ -6,7 +6,7 @@ authors:
 
 users: 500
 appId: com.plusbit
-released: 
+released: 2020-04-07
 latestUpdate: 2020-07-12
 version: "1.0"
 stars: 4.9

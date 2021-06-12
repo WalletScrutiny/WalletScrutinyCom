@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.chippercash
-released: 
+released: 2018-07-07
 latestUpdate: 2021-06-08
 version: "1.9.6"
 stars: 4.2

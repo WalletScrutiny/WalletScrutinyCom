@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.bitcoinblack.wallet
-released: 
+released: 2020-06-11
 latestUpdate: 2020-12-25
 version: "1.0.6"
 stars: 3.1

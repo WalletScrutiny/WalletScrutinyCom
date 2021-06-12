@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: wallet.gem.com.atoken
-released: 
+released: 2020-03-01
 latestUpdate: 2021-06-11
 version: "4.1.3"
 stars: 4.0

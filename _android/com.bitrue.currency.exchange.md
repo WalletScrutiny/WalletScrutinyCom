@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.bitrue.currency.exchange
-released: 
+released: 2018-07-18
 latestUpdate: 2021-05-19
 version: "4.4.8"
 stars: 3.6

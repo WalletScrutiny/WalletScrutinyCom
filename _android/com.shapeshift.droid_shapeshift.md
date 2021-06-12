@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.shapeshift.droid_shapeshift
-released: 
+released: 2015-10-26
 latestUpdate: 2021-05-21
 version: "2.16.0"
 stars: 2.8
-ratings: 2672
-reviews: 1688
+ratings: 2673
+reviews: 1689
 size: 53M
 website: https://shapeshift.com
 repository: 

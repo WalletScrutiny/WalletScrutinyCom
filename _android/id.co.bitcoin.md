@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: id.co.bitcoin
-released: 
+released: 2014-12-15
 latestUpdate: 2021-05-31
 version: "4.1.1"
 stars: 4.3
-ratings: 55716
-reviews: 29961
+ratings: 55733
+reviews: 29971
 size: 28M
 website: https://indodax.com
 repository: 

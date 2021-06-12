@@ -6,7 +6,7 @@ authors:
 
 users: 500
 appId: com.aniket.my_paper_wallet
-released: 
+released: 2020-12-24
 latestUpdate: 2020-12-24
 version: "1.0.0"
 stars: 0.0

@@ -6,12 +6,12 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.krypto
-released: 
+released: 2020-04-29
 latestUpdate: 2021-06-11
 version: "8.5"
 stars: 4.7
-ratings: 1370
-reviews: 977
+ratings: 1375
+reviews: 982
 size: 9.2M
 website: https://letskrypto.com
 repository: 

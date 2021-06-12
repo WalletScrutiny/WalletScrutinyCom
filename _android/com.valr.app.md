@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.valr.app
-released: 
+released: 2019-09-13
 latestUpdate: 2021-04-19
 version: "1.0.25"
 stars: 3.9

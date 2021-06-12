@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.cryptowallet.deviantx
-released: 
+released: 2018-11-12
 latestUpdate: 2019-08-01
 version: "2.6"
 stars: 3.6

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.getchange.wallet.cordova
-released: 
+released: 2018-06-07
 latestUpdate: 2021-06-07
 version: "10.18.0"
 stars: 4.4

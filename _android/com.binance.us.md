@@ -6,11 +6,11 @@ authors:
 - leo
 users: 1000000
 appId: com.binance.us
-released: 
+released: 2019-12-23
 latestUpdate: 2021-06-07
 version: "2.5.0"
 stars: 2.2
-ratings: 4749
+ratings: 4750
 reviews: 3670
 size: Varies with device
 website: https://www.binance.us

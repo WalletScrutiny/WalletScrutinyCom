@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-05-19
 version: "v74"
 stars: 3.6
-ratings: 2212
-reviews: 883
+ratings: 2221
+reviews: 886
 size: 9.1M
 website: 
 repository: 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.buyucoinApp.buyucoin
-released: 
+released: 2019-02-15
 latestUpdate: 2021-05-22
 version: "3.12"
 stars: 4.3
-ratings: 2087
-reviews: 1599
+ratings: 2086
+reviews: 1598
 size: 35M
 website: https://www.buyucoin.com
 repository: 

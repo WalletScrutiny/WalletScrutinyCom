@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.gloath.portalsapp
-released: 
+released: 2018-03-20
 latestUpdate: 2020-12-20
 version: "0.0.4a"
 stars: 4.0

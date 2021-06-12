@@ -7,7 +7,7 @@ authors:
 - emanuel
 users: 1000
 appId: com.bitorzo.wallet
-released: 
+released: 2020-07-22
 latestUpdate: 2021-01-03
 version: "3.1.3"
 stars: 4.0

@@ -7,7 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.app.cryptofully
-released: 
+released: 2020-10-29
 latestUpdate: 2021-06-07
 version: "1.2.4"
 stars: 4.2

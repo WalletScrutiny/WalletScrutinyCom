@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exmo
-released: 
+released: 2019-11-12
 latestUpdate: 2021-06-08
 version: "2.2.2.1"
 stars: 4.0

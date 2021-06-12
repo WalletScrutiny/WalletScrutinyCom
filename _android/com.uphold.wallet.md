@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.uphold.wallet
-released: 
+released: 2015-12-29
 latestUpdate: 2021-06-02
 version: "4.15.35"
 stars: 3.3
-ratings: 14649
-reviews: 9082
+ratings: 14650
+reviews: 9083
 size: 45M
 website: https://uphold.com
 repository: 

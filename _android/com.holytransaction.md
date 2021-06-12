@@ -6,7 +6,7 @@ authors:
 
 users: 100
 appId: com.holytransaction
-released: 
+released: 2021-03-25
 latestUpdate: 2021-03-25
 version: "1.0.0"
 stars: 3.4

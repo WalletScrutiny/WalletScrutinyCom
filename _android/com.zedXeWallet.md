@@ -6,7 +6,7 @@ authors:
 
 users: 500
 appId: com.zedXeWallet
-released: 
+released: 2020-05-07
 latestUpdate: 2020-06-11
 version: "1.8"
 stars: 4.7

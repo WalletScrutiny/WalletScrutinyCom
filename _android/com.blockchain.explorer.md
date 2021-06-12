@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.explorer
-released: 
+released: 2019-12-30
 latestUpdate: 2021-06-08
 version: "1.2.0.1"
 stars: 4.3

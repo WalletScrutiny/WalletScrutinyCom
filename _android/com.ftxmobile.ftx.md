@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.ftxmobile.ftx
-released: 
+released: 2020-05-08
 latestUpdate: 2021-01-20
 version: "1.1.0"
 stars: 3.8
-ratings: 3430
-reviews: 1615
+ratings: 3431
+reviews: 1616
 size: 46M
 website: https://ftx.com
 repository: 

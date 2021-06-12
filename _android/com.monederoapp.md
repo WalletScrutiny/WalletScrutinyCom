@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.monederoapp
-released: 
+released: 2020-03-13
 latestUpdate: 2021-04-20
 version: "3.1.2"
 stars: 4.0

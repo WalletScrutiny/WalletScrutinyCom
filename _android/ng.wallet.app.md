@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: ng.wallet.app
-released: 
+released: 2017-06-22
 latestUpdate: 2021-05-01
 version: "2.472"
 stars: 4.0

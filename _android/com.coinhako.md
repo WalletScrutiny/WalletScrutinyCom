@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.coinhako
-released: 
+released: 2018-05-06
 latestUpdate: 2021-06-04
 version: "2.4.0"
 stars: 2.9

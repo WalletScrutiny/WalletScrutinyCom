@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: io.metamask
-released: 
+released: 2020-09-01
 latestUpdate: 2021-05-25
 version: "2.4.0"
 stars: 3.5
-ratings: 6192
-reviews: 3447
+ratings: 6203
+reviews: 3452
 size: 29M
 website: https://metamask.io
 repository: 

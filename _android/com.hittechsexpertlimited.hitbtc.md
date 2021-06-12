@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
-released: 
+released: 2020-03-04
 latestUpdate: 2021-04-12
 version: "3.0.10"
 stars: 4.2

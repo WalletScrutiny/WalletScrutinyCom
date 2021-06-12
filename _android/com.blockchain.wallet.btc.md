@@ -7,7 +7,7 @@ authors:
 - leo
 users: 50000
 appId: com.blockchain.wallet.btc
-released: 
+released: 2021-04-03
 latestUpdate: 2021-06-08
 version: "1.0.1.7"
 stars: 4.0

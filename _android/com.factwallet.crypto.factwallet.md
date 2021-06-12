@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.factwallet.crypto.factwallet
-released: 
+released: 2020-10-23
 latestUpdate: 2020-11-13
 version: "1.4"
 stars: 0.0

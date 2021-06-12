@@ -6,7 +6,7 @@ authors:
 
 users: 500000
 appId: com.blocktrail.mywallet
-released: 
+released: 2015-09-09
 latestUpdate: 2019-04-03
 version: "4.4.7"
 stars: 3.4

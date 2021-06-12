@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.bitmart.bitmarket
-released: 
+released: 2018-05-09
 latestUpdate: 2021-06-03
 version: "2.5.4"
 stars: 4.0
-ratings: 13363
-reviews: 5665
+ratings: 13369
+reviews: 5669
 size: 32M
 website: https://www.bitmart.com
 repository: 

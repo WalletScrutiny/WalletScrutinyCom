@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.cwallet
-released: 
+released: 2019-06-28
 latestUpdate: 2021-04-08
 version: "0.738.47"
 stars: 4.0

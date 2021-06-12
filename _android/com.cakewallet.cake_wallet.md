@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.cakewallet.cake_wallet
-released: 
+released: 2020-01-01
 latestUpdate: 2021-06-10
 version: "4.2.3"
 stars: 3.7

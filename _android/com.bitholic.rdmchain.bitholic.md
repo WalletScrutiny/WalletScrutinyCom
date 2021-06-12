@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
-released: 
+released: 2019-01-20
 latestUpdate: 2020-08-05
 version: "1.0.9"
 stars: 4.1

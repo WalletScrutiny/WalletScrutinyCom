@@ -6,7 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.atomex.android
-released: 
+released: 2020-12-06
 latestUpdate: 2021-05-28
 version: "1.9"
 stars: 4.8

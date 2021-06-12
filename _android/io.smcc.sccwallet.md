@@ -6,7 +6,7 @@ authors:
 
 users: 10000
 appId: io.smcc.sccwallet
-released: 
+released: 2018-08-12
 latestUpdate: 2018-10-02
 version: "1.29"
 stars: 4.2

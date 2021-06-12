@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.lingxi.bexplus
-released: 
+released: 2018-10-29
 latestUpdate: 2021-05-28
 version: "2.0.8"
 stars: 4.7

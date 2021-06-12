@@ -6,7 +6,7 @@ authors:
 
 users: 100
 appId: com.zeligz.picomedia
-released: 
+released: 2019-09-03
 latestUpdate: 2020-01-27
 version: "1.6"
 stars: 4.7

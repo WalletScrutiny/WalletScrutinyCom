@@ -6,7 +6,7 @@ authors:
 
 users: 10
 appId: com.bitzhash.wallet.bitcoin
-released: 
+released: 2020-03-11
 latestUpdate: 2020-04-28
 version: "1.0"
 stars: 0.0

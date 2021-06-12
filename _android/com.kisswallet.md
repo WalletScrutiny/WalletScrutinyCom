@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.kisswallet
-released: 
+released: 2020-02-16
 latestUpdate: 2020-05-30
 version: "0.3.6"
 stars: 0.0

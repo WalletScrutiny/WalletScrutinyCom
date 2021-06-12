@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.bitcoinglobal
-released: 
+released: 2020-09-25
 latestUpdate: 2021-06-07
 version: "2.2.1"
 stars: 4.8

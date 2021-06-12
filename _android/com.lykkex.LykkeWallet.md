@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.lykkex.LykkeWallet
-released: 
+released: 2016-08-25
 latestUpdate: 2021-05-05
 version: "12.7.8"
 stars: 3.4

@@ -6,7 +6,7 @@ authors:
 
 users: 10000
 appId: com.samourai.sentinel
-released: 
+released: 2015-05-23
 latestUpdate: 2021-04-13
 version: "4.0.2"
 stars: 3.7

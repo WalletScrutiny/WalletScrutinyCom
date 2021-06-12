@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.bittrex.trade
-released: 
+released: 2019-12-19
 latestUpdate: 2021-06-04
 version: "1.14.1"
 stars: 2.1

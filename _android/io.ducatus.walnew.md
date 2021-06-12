@@ -6,7 +6,7 @@ authors:
 - leo
 users: 5000
 appId: io.ducatus.walnew
-released: 
+released: 2019-12-05
 latestUpdate: 2021-05-13
 version: "2.6.3"
 stars: 4.9

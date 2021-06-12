@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: app.flitsnode.flits
-released: 
+released: 2019-04-05
 latestUpdate: 2021-02-09
 version: "4.4"
 stars: 4.3

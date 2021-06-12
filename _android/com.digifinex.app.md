@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.digifinex.app
-released: 
+released: 2018-06-26
 latestUpdate: 2021-05-28
 version: "2021.05.27"
 stars: 3.7

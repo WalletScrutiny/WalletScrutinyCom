@@ -6,7 +6,7 @@ authors:
 
 users: 10000
 appId: io.dharma.Dharma
-released: 
+released: 2020-01-15
 latestUpdate: 2021-03-25
 version: "1.0.22"
 stars: 3.0

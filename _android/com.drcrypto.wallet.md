@@ -6,7 +6,7 @@ authors:
 
 users: 1000
 appId: com.drcrypto.wallet
-released: 
+released: 2020-11-23
 latestUpdate: 2021-05-28
 version: "2.0.3"
 stars: 2.7
