@@ -10,10 +10,10 @@ idd: 1354868448
 released: 2018-04-28
 updated: 2021-06-07
 version: "3.20"
-score: 4.17647
+stars: 4.17647
 reviews: 17
 size: 31485952
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.tangem.Tangem.jpg

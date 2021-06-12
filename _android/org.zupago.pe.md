@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100
 appId: org.zupago.pe
-launchDate: 
+released: 
 latestUpdate: 2018-12-08
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 5.0
 ratings: 5
 reviews: 2

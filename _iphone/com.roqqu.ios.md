@@ -11,10 +11,10 @@ idd: 1505370687
 released: 2020-04-06
 updated: 2021-04-23
 version: "1.3.1"
-score: 2.7
+stars: 2.7
 reviews: 220
 size: 45339648
-developerWebsite: https://roqqu.com
+website: https://roqqu.com
 repository: 
 issue: 
 icon: com.roqqu.ios.jpg

@@ -10,10 +10,10 @@ idd: 1292836438
 released: 2018-02-19
 updated: 2021-06-02
 version: "2.22.1"
-score: 3.4
+stars: 3.4
 reviews: 50
 size: 87300096
-developerWebsite: https://bitso.com/app
+website: https://bitso.com/app
 repository: 
 issue: 
 icon: com.bitso.wallet.jpg

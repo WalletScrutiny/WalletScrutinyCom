@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.BitcoinWalletExchange.org
-launchDate: 
+released: 
 latestUpdate: 2020-10-13
-apkVersionName: "1.01"
+version: "1.01"
 stars: 4.3
 ratings: 70
 reviews: 23

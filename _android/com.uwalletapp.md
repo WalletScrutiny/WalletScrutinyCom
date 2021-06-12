@@ -4,9 +4,9 @@ altTitle:
 
 users: 5000
 appId: com.uwalletapp
-launchDate: 
+released: 
 latestUpdate: 2020-06-08
-apkVersionName: "1.4.2"
+version: "1.4.2"
 stars: 4.3
 ratings: 106
 reviews: 58

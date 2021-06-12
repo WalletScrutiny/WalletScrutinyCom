@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.bitbill.www
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "4.30.5"
+version: "4.30.5"
 stars: 3.8
 ratings: 61
 reviews: 33

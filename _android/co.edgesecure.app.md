@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: co.edgesecure.app
-launchDate: 2018-03-01
+released: 2018-03-01
 latestUpdate: 2021-06-02
-apkVersionName: "2.0.12"
+version: "2.0.12"
 stars: 4.0
 ratings: 3108
 reviews: 1745

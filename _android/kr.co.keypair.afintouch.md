@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: kr.co.keypair.afintouch
-launchDate: 
+released: 
 latestUpdate: 2019-12-27
-apkVersionName: "1.0.0.60"
+version: "1.0.0.60"
 stars: 0.0
 ratings: 
 reviews: 

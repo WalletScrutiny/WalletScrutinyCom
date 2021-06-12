@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.microbitcoin
-launchDate: 2018-10-30
+released: 2018-10-30
 latestUpdate: 2020-01-23
-apkVersionName: "2.0.1"
+version: "2.0.1"
 stars: 3.9
 ratings: 53
 reviews: 32

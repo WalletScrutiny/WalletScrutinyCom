@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.adenter.mercurycash
-launchDate: 
+released: 
 latestUpdate: 2021-03-29
-apkVersionName: "5.0.3"
+version: "5.0.3"
 stars: 3.9
 ratings: 201
 reviews: 139

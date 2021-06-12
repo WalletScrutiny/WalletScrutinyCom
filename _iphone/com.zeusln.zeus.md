@@ -10,10 +10,10 @@ idd: 1456038895
 released: 2021-04-22
 updated: 2021-04-23
 version: "0.5.1"
-score: 4.5
+stars: 4.5
 reviews: 8
 size: 25418752
-developerWebsite: https://ZeusLN.app
+website: https://ZeusLN.app
 repository: 
 issue: 
 icon: com.zeusln.zeus.jpg

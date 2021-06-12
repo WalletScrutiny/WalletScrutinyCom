@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.bitso.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "2.29.0"
+version: "2.29.0"
 stars: 4.5
 ratings: 11906
 reviews: 6148

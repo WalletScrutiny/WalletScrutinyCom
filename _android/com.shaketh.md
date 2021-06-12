@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.shaketh
-launchDate: 
+released: 
 latestUpdate: 2021-06-01
-apkVersionName: "1.7.2"
+version: "1.7.2"
 stars: 4.6
 ratings: 7434
 reviews: 3185

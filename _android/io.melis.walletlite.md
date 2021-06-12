@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10
 appId: io.melis.walletlite
-launchDate: 2019-06-03
+released: 2019-06-03
 latestUpdate: 2019-06-03
-apkVersionName: "0.4.0"
+version: "0.4.0"
 stars: 0.0
 ratings: 
 reviews: 

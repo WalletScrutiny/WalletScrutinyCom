@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.cwallet
-launchDate: 
+released: 
 latestUpdate: 2021-04-08
-apkVersionName: "0.738.47"
+version: "0.738.47"
 stars: 4.0
 ratings: 105
 reviews: 49

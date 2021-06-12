@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.defi.wallet
-launchDate: 2020-05-11
+released: 2020-05-11
 latestUpdate: 2021-06-02
-apkVersionName: "1.12.0"
+version: "1.12.0"
 stars: 3.9
 ratings: 4605
 reviews: 1488

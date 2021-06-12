@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.vegawallet.in
-launchDate: 
+released: 
 latestUpdate: 2020-07-02
-apkVersionName: "3.2.3"
+version: "3.2.3"
 stars: 4.7
 ratings: 23
 reviews: 19

@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 1000
 appId: com.cryptopay
-launchDate: 
+released: 
 latestUpdate: 2019-02-14
-apkVersionName: "1.5"
+version: "1.5"
 stars: 0.0
 ratings: 
 reviews: 

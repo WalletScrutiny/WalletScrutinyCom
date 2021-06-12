@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.spark.wallet
-launchDate: 2018-12-10
+released: 2018-12-10
 latestUpdate: 2020-09-03
-apkVersionName: "0.0.0"
+version: "0.0.0"
 stars: 4.6
 ratings: 8
 reviews: 3

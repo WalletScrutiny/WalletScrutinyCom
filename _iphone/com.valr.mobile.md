@@ -11,10 +11,10 @@ idd: 1453499428
 released: 2019-09-27
 updated: 2021-04-20
 version: "1.0.25"
-score: 5
+stars: 5
 reviews: 6
 size: 46091264
-developerWebsite: https://www.valr.com
+website: https://www.valr.com
 repository: 
 issue: 
 icon: com.valr.mobile.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.plunien.poloniex
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "1.26.2"
+version: "1.26.2"
 stars: 4.0
 ratings: 5185
 reviews: 2775

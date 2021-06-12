@@ -115,16 +115,15 @@ permalink: /widget/
         <table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
           ${ (hasValue(wallet.users)) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ``}
           ${ (hasValue(wallet.stars)) ? `<tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.ratings} users</td></tr>` : ``}
-          ${ (hasValue(wallet.score)) ? `<tr><td>Rating</td><td>${wallet.score} stars by ${wallet.reviews} users</td></tr>` : ``}
+          ${ (hasValue(wallet.stars)) ? `<tr><td>Rating</td><td>${wallet.stars} stars by ${wallet.reviews} users</td></tr>` : ``}
           <tr><td>App size</td><td>${ (hasValue(wallet.idd)) ? `${ Math.round(wallet.size / 100000 ) / 10 }MB` : `${wallet.size}B`}</td></tr>
-          ${ (hasValue(wallet.launchDate)) ? `<tr><td>Launched</td><td>${wallet.launchDate}</td></tr>` : ``}
           ${ (hasValue(wallet.released)) ? `<tr><td>Released</td><td>${wallet.released}</td></tr>` : ``}
           <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
           ${ (hasValue(wallet.idd))
             ? `<tr><td>App Store</td><td><a target="_blank" href="https://apps.apple.com/us/app/id${wallet.idd}">${wallet.appId}</a></td></tr>`
             : `<tr><td>Google Play</td><td><a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}">${wallet.appId}</a></td></tr>`}
           ${ (hasValue(wallet.website)) ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.website}">${wallet.website}</a></td></tr>` : ``}
-          ${ (hasValue(wallet.developerWebsite)) ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.developerWebsite}">${wallet.developerWebsite}</a></td></tr>` : ``}
+          ${ (hasValue(wallet.website)) ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.website}">${wallet.website}</a></td></tr>` : ``}
           ${ (hasValue(wallet.repository)) ? `<tr><td>Source Code</td><td><a target="_blank" href="${wallet.repository}">${wallet.repository}</a></td></tr>` : ``}
           ${ (hasValue(wallet.issue)) ? `<tr><td>Open Issue</td><td><a target="_blank" href="${wallet.issue}">${wallet.issue}</a></td></tr>` : ``}
           ${ (hasValue(wallet.providerTwitter)) ? `<tr><td>Twitter</td><td><a target="_blank" href="https://twitter.com/${wallet.providerTwitter}">@${wallet.providerTwitter}</a></td></tr>` : ``}
@@ -138,7 +137,7 @@ permalink: /widget/
           src="/images/wallet_icons/${ wallet.folder }/small/${wallet.icon}" alt="Wallet Logo">
         <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
           <strong style="font-size: 18px;">${wallet.title}</strong>
-          <span style="font-size: 10px;opacity: .6;">APK: ${wallet.apkVersionName}</span>
+          <span style="font-size: 10px;opacity: .6;">APK: ${wallet.version}</span>
           <span style="background:${verdictColor[wallet.verdict]};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${wallet.verdict}</span>
         </div>
       </a>

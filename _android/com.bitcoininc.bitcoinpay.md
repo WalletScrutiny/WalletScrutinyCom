@@ -4,9 +4,9 @@ altTitle:
 
 users: 10000
 appId: com.bitcoininc.bitcoinpay
-launchDate: 
+released: 
 latestUpdate: 2017-07-06
-apkVersionName: "1.0.1"
+version: "1.0.1"
 stars: 3.4
 ratings: 82
 reviews: 44

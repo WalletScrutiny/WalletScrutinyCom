@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: tech.vontech.blockchain.jetoken
-launchDate: 
+released: 
 latestUpdate: 2019-06-21
-apkVersionName: "1.0.12"
+version: "1.0.12"
 stars: 4.6
 ratings: 27
 reviews: 12

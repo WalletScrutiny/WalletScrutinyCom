@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
-launchDate: 2016-11-15
+released: 2016-11-15
 latestUpdate: 2021-03-17
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 3.1
 ratings: 2018
 reviews: 1053

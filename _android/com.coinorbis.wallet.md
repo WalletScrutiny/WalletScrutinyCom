@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.coinorbis.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-01-25
-apkVersionName: "1.2.1"
+version: "1.2.1"
 stars: 4.5
 ratings: 8
 reviews: 3

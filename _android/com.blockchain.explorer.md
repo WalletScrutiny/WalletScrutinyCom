@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.explorer
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "1.2.0.1"
+version: "1.2.0.1"
 stars: 4.3
 ratings: 257
 reviews: 70

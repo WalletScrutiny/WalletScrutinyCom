@@ -8,10 +8,10 @@ idd: 1318395690
 released: 2019-08-19
 updated: 2020-09-28
 version: "1.3.8"
-score: 4.57979
+stars: 4.57979
 reviews: 188
 size: 82487296
-developerWebsite: https://gethaven.app/
+website: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven
 issue: 
 icon: io.ob1.native-ios.jpg

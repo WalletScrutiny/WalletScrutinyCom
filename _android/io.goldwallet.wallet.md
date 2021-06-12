@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: io.goldwallet.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-04-28
-apkVersionName: "6.2.0"
+version: "6.2.0"
 stars: 4.0
 ratings: 454
 reviews: 259

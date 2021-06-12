@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "0.8.851"
+version: "0.8.851"
 stars: 4.3
 ratings: 153
 reviews: 88

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.bitfinex.mobileapp
-launchDate: 
+released: 
 latestUpdate: 2021-05-05
-apkVersionName: "4.3.0"
+version: "4.3.0"
 stars: 3.8
 ratings: 1346
 reviews: 593

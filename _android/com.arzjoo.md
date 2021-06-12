@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.arzjoo
-launchDate: 
+released: 
 latestUpdate: 2021-04-15
-apkVersionName: "1.4.0"
+version: "1.4.0"
 stars: 3.8
 ratings: 2335
 reviews: 956

@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: co.satoshiwallet.app
-launchDate: 
+released: 
 latestUpdate: 2020-01-17
-apkVersionName: "2.1.3"
+version: "2.1.3"
 stars: 3.4
 ratings: 16
 reviews: 13

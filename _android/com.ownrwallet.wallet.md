@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.ownrwallet.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-09
-apkVersionName: "1.14.0"
+version: "1.14.0"
 stars: 4.9
 ratings: 1046
 reviews: 932

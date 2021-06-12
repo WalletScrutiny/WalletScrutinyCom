@@ -10,10 +10,10 @@ idd: 1406282615
 released: 2018-08-05
 updated: 2021-06-11
 version: "5.5.0"
-score: 
+stars: 
 reviews: 
 size: 111042560
-developerWebsite: https://cobo.com
+website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.jpg

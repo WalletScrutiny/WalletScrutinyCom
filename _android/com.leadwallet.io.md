@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.leadwallet.io
-launchDate: 
+released: 
 latestUpdate: 2021-04-06
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

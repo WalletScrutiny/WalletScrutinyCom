@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.jurajkusnier.bitcoinwalletbalance
-launchDate: 
+released: 
 latestUpdate: 2020-06-01
-apkVersionName: "2.4"
+version: "2.4"
 stars: 4.0
 ratings: 212
 reviews: 119

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: app.zeusln.zeus
-launchDate: 
+released: 
 latestUpdate: 2021-03-26
-apkVersionName: "0.5.1"
+version: "0.5.1"
 stars: 4.2
 ratings: 20
 reviews: 14

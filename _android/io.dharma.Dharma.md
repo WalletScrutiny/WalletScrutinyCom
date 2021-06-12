@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: io.dharma.Dharma
-launchDate: 
+released: 
 latestUpdate: 2021-03-25
-apkVersionName: "1.0.22"
+version: "1.0.22"
 stars: 3.0
 ratings: 253
 reviews: 166

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: co.hold.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-03-09
-apkVersionName: "3.12.9"
+version: "3.12.9"
 stars: 4.2
 ratings: 156
 reviews: 93

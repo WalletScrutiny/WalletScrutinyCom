@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.czprime
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "1.4.4"
+version: "1.4.4"
 stars: 4.3
 ratings: 1703
 reviews: 712

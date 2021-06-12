@@ -11,10 +11,10 @@ idd: 1505496232
 released: 2020-04-07
 updated: 2021-06-07
 version: "2.14.1"
-score: 3.86207
+stars: 3.86207
 reviews: 29
 size: 49432576
-developerWebsite: https://exmo.com/en
+website: https://exmo.com/en
 repository: 
 issue: 
 icon: com.exmo.enfins.jpg

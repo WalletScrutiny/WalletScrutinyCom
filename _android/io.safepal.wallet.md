@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: io.safepal.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-02
-apkVersionName: "2.6.0"
+version: "2.6.0"
 stars: 3.8
 ratings: 6343
 reviews: 3637

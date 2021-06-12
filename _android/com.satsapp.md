@@ -4,9 +4,9 @@ altTitle:
 
 users: 1000
 appId: com.satsapp
-launchDate: 
+released: 
 latestUpdate: 2020-04-13
-apkVersionName: "1.3.1"
+version: "1.3.1"
 stars: 3.1
 ratings: 14
 reviews: 8

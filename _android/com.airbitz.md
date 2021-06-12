@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.airbitz
-launchDate: 2014-04-01
+released: 2014-04-01
 latestUpdate: 2018-09-21
-apkVersionName: "2.4.12"
+version: "2.4.12"
 stars: 3.4
 ratings: 1147
 reviews: 490

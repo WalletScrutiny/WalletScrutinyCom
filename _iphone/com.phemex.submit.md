@@ -11,10 +11,10 @@ idd: 1499601684
 released: 2020-02-20
 updated: 2021-06-03
 version: "1.3.4"
-score: 4.42706
+stars: 4.42706
 reviews: 473
 size: 160833536
-developerWebsite: https://phemex.com/
+website: https://phemex.com/
 repository: 
 issue: 
 icon: com.phemex.submit.jpg

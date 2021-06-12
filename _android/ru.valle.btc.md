@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: ru.valle.btc
-launchDate: 2013-04-19
+released: 2013-04-19
 latestUpdate: 2020-03-22
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.3
 ratings: 155
 reviews: 52

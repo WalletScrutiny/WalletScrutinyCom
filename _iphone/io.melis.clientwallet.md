@@ -10,10 +10,10 @@ idd: 1176840794
 released: 2017-06-07
 updated: 2021-05-08
 version: "1.6.21"
-score: 
+stars: 
 reviews: 
 size: 28587008
-developerWebsite: http://melis.io
+website: http://melis.io
 repository: 
 issue: 
 icon: io.melis.clientwallet.jpg

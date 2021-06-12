@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.ixx_android
-launchDate: 
+released: 
 latestUpdate: 2021-03-26
-apkVersionName: "2.1.3"
+version: "2.1.3"
 stars: 4.8
 ratings: 166
 reviews: 81

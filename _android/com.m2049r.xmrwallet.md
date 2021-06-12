@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.m2049r.xmrwallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-21
-apkVersionName: "2.0.8 'Puginarug'"
+version: "2.0.8 'Puginarug'"
 stars: 3.6
 ratings: 709
 reviews: 423

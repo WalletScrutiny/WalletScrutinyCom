@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: zebpay.Application
-launchDate: 2014-12-23
+released: 2014-12-23
 latestUpdate: 2021-05-18
-apkVersionName: "3.14.00"
+version: "3.14.00"
 stars: 3.2
 ratings: 81558
 reviews: 39687

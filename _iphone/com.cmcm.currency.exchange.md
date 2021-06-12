@@ -10,10 +10,10 @@ idd: 1435877386
 released: 2018-09-16
 updated: 2021-05-20
 version: "4.4.8"
-score: 3.17204
+stars: 3.17204
 reviews: 186
 size: 93594624
-developerWebsite: https://www.bitrue.com
+website: https://www.bitrue.com
 repository: 
 issue: 
 icon: com.cmcm.currency.exchange.jpg

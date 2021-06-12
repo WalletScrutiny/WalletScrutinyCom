@@ -10,10 +10,10 @@ idd: 917721788
 released: 2014-09-23
 updated: 2021-04-12
 version: "3.2.6"
-score: 4.2
+stars: 4.2
 reviews: 10
 size: 53079040
-developerWebsite: https://www.coincorner.com
+website: https://www.coincorner.com
 repository: 
 issue: 
 icon: com.coincorner.app.crypt.jpg

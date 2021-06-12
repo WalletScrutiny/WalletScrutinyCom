@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.pundix.xwallet
-launchDate: 
+released: 
 latestUpdate: 2020-11-23
-apkVersionName: "2.8.2"
+version: "2.8.2"
 stars: 3.0
 ratings: 4966
 reviews: 2882

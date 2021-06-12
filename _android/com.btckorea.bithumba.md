@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.btckorea.bithumba
-launchDate: 
+released: 
 latestUpdate: 2021-04-20
-apkVersionName: "1.1.1"
+version: "1.1.1"
 stars: 3.1
 ratings: 583
 reviews: 307

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.counos
-launchDate: 
+released: 
 latestUpdate: 2021-04-16
-apkVersionName: "1.9.50"
+version: "1.9.50"
 stars: 4.0
 ratings: 508
 reviews: 349

@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.zeligz.picomedia
-launchDate: 
+released: 
 latestUpdate: 2020-01-27
-apkVersionName: "1.6"
+version: "1.6"
 stars: 4.7
 ratings: 14
 reviews: 10

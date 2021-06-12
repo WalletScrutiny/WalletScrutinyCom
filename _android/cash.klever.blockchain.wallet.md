@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: cash.klever.blockchain.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-01
-apkVersionName: "4.2.2"
+version: "4.2.2"
 stars: 3.9
 ratings: 8286
 reviews: 4656

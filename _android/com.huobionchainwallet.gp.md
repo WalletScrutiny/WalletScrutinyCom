@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.huobionchainwallet.gp
-launchDate: 
+released: 
 latestUpdate: 2021-06-10
-apkVersionName: "2.07.09.017"
+version: "2.07.09.017"
 stars: 3.6
 ratings: 1853
 reviews: 799

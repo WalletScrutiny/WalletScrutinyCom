@@ -10,10 +10,10 @@ idd: 1179360399
 released: 2017-08-07
 updated: 2021-06-04
 version: "0.8.851"
-score: 4.24138
+stars: 4.24138
 reviews: 29
 size: 90617856
-developerWebsite: https://qcan.com
+website: https://qcan.com
 repository: 
 issue: 
 icon: com.qcan.qcan.jpg

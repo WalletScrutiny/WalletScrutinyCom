@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.coinhako
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "2.4.0"
+version: "2.4.0"
 stars: 2.9
 ratings: 1104
 reviews: 905

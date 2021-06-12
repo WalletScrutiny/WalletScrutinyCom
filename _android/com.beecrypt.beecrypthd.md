@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.beecrypt.beecrypthd
-launchDate: 
+released: 
 latestUpdate: 2021-04-23
-apkVersionName: "3.2"
+version: "3.2"
 stars: 3.9
 ratings: 24
 reviews: 16

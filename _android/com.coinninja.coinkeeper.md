@@ -4,9 +4,9 @@ altTitle:
 
 users: 10000
 appId: com.coinninja.coinkeeper
-launchDate: 2018-08-01
+released: 2018-08-01
 latestUpdate: 2020-01-28
-apkVersionName: "3.2.7"
+version: "3.2.7"
 stars: 2.8
 ratings: 165
 reviews: 120

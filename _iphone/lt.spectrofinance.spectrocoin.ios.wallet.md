@@ -10,10 +10,10 @@ idd: 923696089
 released: 2014-12-30
 updated: 2021-06-09
 version: "1.16.4"
-score: 2.90909
+stars: 2.90909
 reviews: 11
 size: 52150272
-developerWebsite: https://spectrocoin.com/
+website: https://spectrocoin.com/
 repository: 
 issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg

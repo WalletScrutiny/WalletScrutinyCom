@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.onebit.app
-launchDate: 2017-11-23
+released: 2017-11-23
 latestUpdate: 2020-11-11
-apkVersionName: "3.25.1"
+version: "3.25.1"
 stars: 3.1
 ratings: 1069
 reviews: 574

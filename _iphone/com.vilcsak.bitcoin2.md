@@ -10,10 +10,10 @@ idd: 886427730
 released: 2014-06-22
 updated: 2021-05-31
 version: "9.26.4"
-score: 4.68926
+stars: 4.68926
 reviews: 1328638
 size: 81851392
-developerWebsite: http://www.coinbase.com
+website: http://www.coinbase.com
 repository: 
 issue: 
 icon: com.vilcsak.bitcoin2.jpg

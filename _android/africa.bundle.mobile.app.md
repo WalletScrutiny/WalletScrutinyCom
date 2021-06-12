@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: africa.bundle.mobile.app
-launchDate: 
+released: 
 latestUpdate: 2021-05-23
-apkVersionName: "2.7.9"
+version: "2.7.9"
 stars: 4.6
 ratings: 8684
 reviews: 5425

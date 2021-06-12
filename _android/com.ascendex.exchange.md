@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.ascendex.exchange
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "2.5.3"
+version: "2.5.3"
 stars: 3.7
 ratings: 1326
 reviews: 480

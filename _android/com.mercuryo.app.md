@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.mercuryo.app
-launchDate: 
+released: 
 latestUpdate: 2021-04-26
-apkVersionName: "1.12.3"
+version: "1.12.3"
 stars: 4.1
 ratings: 2224
 reviews: 1314

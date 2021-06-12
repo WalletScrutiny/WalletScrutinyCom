@@ -10,10 +10,10 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2021-06-09
 version: "6.3.4"
-score: 4.73452
+stars: 4.73452
 reviews: 2987
 size: 260563968
-developerWebsite: http://www.hbg.com
+website: http://www.hbg.com
 repository: 
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg

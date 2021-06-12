@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.plutus.wallet
-launchDate: 2015-03-04
+released: 2015-03-04
 latestUpdate: 2021-05-19
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.4
 ratings: 22347
 reviews: 7361

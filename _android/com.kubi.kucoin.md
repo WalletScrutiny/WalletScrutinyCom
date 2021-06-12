@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.kubi.kucoin
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "3.34.0"
+version: "3.34.0"
 stars: 3.6
 ratings: 6472
 reviews: 3631

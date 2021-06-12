@@ -10,10 +10,10 @@ idd: 1321460860
 released: 2018-01-04
 updated: 2019-12-02
 version: "1.9.5"
-score: 3.5
+stars: 3.5
 reviews: 4
 size: 31807488
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.buda.crypto.jpg

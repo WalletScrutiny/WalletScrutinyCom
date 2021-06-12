@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.shapeshift.droid_shapeshift
-launchDate: 
+released: 
 latestUpdate: 2021-05-21
-apkVersionName: "2.16.0"
+version: "2.16.0"
 stars: 2.8
 ratings: 2672
 reviews: 1688

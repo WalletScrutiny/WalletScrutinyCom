@@ -10,10 +10,10 @@ idd: 1442764361
 released: 2020-06-08
 updated: 2021-04-25
 version: "1.2.5"
-score: 4.96481
+stars: 4.96481
 reviews: 1847
 size: 48081920
-developerWebsite: https://www.koinal.io
+website: https://www.koinal.io
 repository: 
 issue: 
 icon: com.koinal.ios.jpg

@@ -10,10 +10,10 @@ idd: 1409644952
 released: 2018-11-20
 updated: 2021-06-10
 version: "1.3.23"
-score: 3.5
+stars: 3.5
 reviews: 20
 size: 101788672
-developerWebsite: https://bitbay.net
+website: https://bitbay.net
 repository: 
 issue: 
 icon: com.bitbay.BitBayTrading.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000000
 appId: com.squareup.cash
-launchDate: 
+released: 
 latestUpdate: 2021-06-10
-apkVersionName: "3.41.3"
+version: "3.41.3"
 stars: 4.2
 ratings: 391268
 reviews: 141315

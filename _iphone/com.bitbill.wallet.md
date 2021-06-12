@@ -10,10 +10,10 @@ idd: 1321798216
 released: 2018-02-07
 updated: 2021-06-07
 version: "4.30.3"
-score: 4.42593
+stars: 4.42593
 reviews: 54
 size: 115529728
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.bitbill.wallet.jpg

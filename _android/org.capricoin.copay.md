@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: org.capricoin.copay
-launchDate: 
+released: 
 latestUpdate: 2020-07-06
-apkVersionName: "5.5.5"
+version: "5.5.5"
 stars: 0.0
 ratings: 
 reviews: 

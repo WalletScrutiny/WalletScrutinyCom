@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.shango
-launchDate: 
+released: 
 latestUpdate: 2019-06-01
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

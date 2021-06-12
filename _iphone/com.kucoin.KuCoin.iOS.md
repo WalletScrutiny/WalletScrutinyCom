@@ -10,10 +10,10 @@ idd: 1378956601
 released: 2018-05-14
 updated: 2021-06-10
 version: "3.35.0"
-score: 4.06811
+stars: 4.06811
 reviews: 1483
 size: 103802880
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.kucoin.KuCoin.iOS.jpg

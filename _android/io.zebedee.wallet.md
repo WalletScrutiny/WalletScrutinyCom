@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: io.zebedee.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-26
-apkVersionName: "11.0.0"
+version: "11.0.0"
 stars: 4.5
 ratings: 24
 reviews: 12

@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: gbbit.app.wallet
-launchDate: 
+released: 
 latestUpdate: 2020-05-07
-apkVersionName: "10.61"
+version: "10.61"
 stars: 3.9
 ratings: 90
 reviews: 62

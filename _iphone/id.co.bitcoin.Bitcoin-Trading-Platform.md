@@ -10,10 +10,10 @@ idd: 1349104693
 released: 2018-03-29
 updated: 2021-06-09
 version: "3.0.6"
-score: 
+stars: 
 reviews: 
 size: 69056512
-developerWebsite: https://indodax.com
+website: https://indodax.com
 repository: 
 issue: 
 icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg

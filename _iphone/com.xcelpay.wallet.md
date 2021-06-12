@@ -10,10 +10,10 @@ idd: 1461215417
 released: 2019-05-26
 updated: 2021-05-28
 version: "2.30.7"
-score: 4.18182
+stars: 4.18182
 reviews: 22
 size: 40644608
-developerWebsite: http://xcelpay.io
+website: http://xcelpay.io
 repository: 
 issue: 
 icon: com.xcelpay.wallet.jpg

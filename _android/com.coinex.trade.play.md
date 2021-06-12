@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.coinex.trade.play
-launchDate: 
+released: 
 latestUpdate: 2021-06-10
-apkVersionName: "1.9.8"
+version: "1.9.8"
 stars: 4.7
 ratings: 17582
 reviews: 5588

@@ -6,9 +6,9 @@ authors:
 
 users: 10
 appId: org.electrum.electrum99
-launchDate: 
+released: 
 latestUpdate: 2021-04-18
-apkVersionName: "5.3.6"
+version: "5.3.6"
 stars: 0.0
 ratings: 
 reviews: 

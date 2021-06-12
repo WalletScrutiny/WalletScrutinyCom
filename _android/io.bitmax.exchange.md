@@ -7,9 +7,9 @@ authors:
 - leo
 users: 100000
 appId: io.bitmax.exchange
-launchDate: 
+released: 
 latestUpdate: 2021-04-25
-apkVersionName: "2.4.7"
+version: "2.4.7"
 stars: 4.2
 ratings: 2788
 reviews: 947

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.lightning.walletapp
-launchDate: 2018-05-01
+released: 2018-05-01
 latestUpdate: 2021-03-13
-apkVersionName: "0.4.8"
+version: "0.4.8"
 stars: 3.6
 ratings: 358
 reviews: 235

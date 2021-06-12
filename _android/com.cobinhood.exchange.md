@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.cobinhood.exchange
-launchDate: 
+released: 
 latestUpdate: 2019-04-29
-apkVersionName: "3.50.1"
+version: "3.50.1"
 stars: 1.9
 ratings: 644
 reviews: 376

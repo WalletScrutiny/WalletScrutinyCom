@@ -10,10 +10,10 @@ idd: 1395835245
 released: 2018-07-28
 updated: 2021-06-11
 version: "4.1.2"
-score: 4.96124
+stars: 4.96124
 reviews: 258
 size: 178241536
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.jzbt.atoken.jpg

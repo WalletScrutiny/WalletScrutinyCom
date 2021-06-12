@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.silenca.amlsafe
-launchDate: 
+released: 
 latestUpdate: 2021-04-23
-apkVersionName: "1.30.34.2"
+version: "1.30.34.2"
 stars: 4.6
 ratings: 202
 reviews: 148

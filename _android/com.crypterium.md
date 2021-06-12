@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.crypterium
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "2.6.47.6"
+version: "2.6.47.6"
 stars: 3.6
 ratings: 7003
 reviews: 3751

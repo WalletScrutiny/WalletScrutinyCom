@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.holytransaction
-launchDate: 
+released: 
 latestUpdate: 2021-03-25
-apkVersionName: "1.0.0"
+version: "1.0.0"
 stars: 3.4
 ratings: 7
 reviews: 4

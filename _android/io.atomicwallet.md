@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: io.atomicwallet
-launchDate: 2019-01-30
+released: 2019-01-30
 latestUpdate: 2021-06-06
-apkVersionName: "0.75.1"
+version: "0.75.1"
 stars: 4.3
 ratings: 41617
 reviews: 20281

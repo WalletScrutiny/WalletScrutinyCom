@@ -10,10 +10,10 @@ idd: 1459809738
 released: 2019-06-04
 updated: 2021-06-07
 version: "2.0.58"
-score: 4.33333
+stars: 4.33333
 reviews: 15
 size: 165598208
-developerWebsite: https://bit2me.com
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.bit2me.flutter-ios.jpg

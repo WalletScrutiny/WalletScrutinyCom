@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.samourai.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10
 appId: org.secuso.privacyfriendlyopiuycemanoper
-launchDate: 
+released: 
 latestUpdate: 2021-02-22
-apkVersionName: "2.0.3"
+version: "2.0.3"
 stars: 0.0
 ratings: 
 reviews: 

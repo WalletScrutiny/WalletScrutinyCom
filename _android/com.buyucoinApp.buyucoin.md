@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.buyucoinApp.buyucoin
-launchDate: 
+released: 
 latestUpdate: 2021-05-22
-apkVersionName: "3.12"
+version: "3.12"
 stars: 4.3
 ratings: 2087
 reviews: 1599

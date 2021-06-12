@@ -10,10 +10,10 @@ idd: 1471506070
 released: 2019-07-21
 updated: 2021-04-28
 version: "1.17.0"
-score: 4.39573
+stars: 4.39573
 reviews: 796
 size: 54708224
-developerWebsite: https://stormgain.com
+website: https://stormgain.com
 repository: 
 issue: 
 icon: com.stormgain.mobile.jpg

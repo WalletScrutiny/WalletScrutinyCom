@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.spend.app
-launchDate: 
+released: 
 latestUpdate: 2020-07-15
-apkVersionName: "3.09"
+version: "3.09"
 stars: 3.4
 ratings: 425
 reviews: 238

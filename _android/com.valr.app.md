@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.valr.app
-launchDate: 
+released: 
 latestUpdate: 2021-04-19
-apkVersionName: "1.0.25"
+version: "1.0.25"
 stars: 3.9
 ratings: 563
 reviews: 315

@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: kr.co.keypair.nixtouch
-launchDate: 
+released: 
 latestUpdate: 2019-12-27
-apkVersionName: "1.0.0.65"
+version: "1.0.0.65"
 stars: 0.0
 ratings: 
 reviews: 

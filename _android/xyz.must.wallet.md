@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: xyz.must.wallet
-launchDate: 
+released: 
 latestUpdate: 2020-09-18
-apkVersionName: "1.2"
+version: "1.2"
 stars: 4.6
 ratings: 9
 reviews: 7

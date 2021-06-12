@@ -17,10 +17,10 @@ const allowedHeaders = [
   "released", // gets provided by platform
   "updated", // platform reported latest update
   "version", // platform reported version
-  "score", // platform reported score of this language-country
+  "stars", // platform reported stars of this language-country
   "reviews", // platform reported count of reviews of this language-country
   "size", // platform reported size in bytes
-  "developerWebsite", // platform reported 
+  "website", // platform reported 
   "repository", // source code repository if available
   "issue", // issue we opened in their repository
   "icon", // icon name. appId.{jpg,png}
@@ -108,10 +108,10 @@ idd: ${header.idd}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
 version: "${version}"
-score: ${app.score || ""}
+stars: ${app.score || ""}
 reviews: ${app.reviews || ""}
 size: ${app.size}
-developerWebsite: ${app.developerWebsite || header.developerWebsite || ""}
+website: ${app.developerWebsite || header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}

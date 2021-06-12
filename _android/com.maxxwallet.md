@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.maxxwallet
-launchDate: 
+released: 
 latestUpdate: 2019-06-12
-apkVersionName: "3.7.3"
+version: "3.7.3"
 stars: 3.3
 ratings: 14
 reviews: 10

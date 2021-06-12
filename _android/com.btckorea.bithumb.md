@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.btckorea.bithumb
-launchDate: 
+released: 
 latestUpdate: 2021-05-07
-apkVersionName: "2.1.9"
+version: "2.1.9"
 stars: 3.6
 ratings: 17986
 reviews: 7900

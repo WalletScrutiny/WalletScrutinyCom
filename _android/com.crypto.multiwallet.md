@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.crypto.multiwallet
-launchDate: 2018-11-01
+released: 2018-11-01
 latestUpdate: 2021-06-11
-apkVersionName: "2.33.3"
+version: "2.33.3"
 stars: 4.2
 ratings: 2846
 reviews: 1548

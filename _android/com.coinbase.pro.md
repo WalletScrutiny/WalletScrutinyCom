@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
-launchDate: 
+released: 
 latestUpdate: 2021-06-09
-apkVersionName: "1.0.76"
+version: "1.0.76"
 stars: 4.0
 ratings: 11932
 reviews: 3999

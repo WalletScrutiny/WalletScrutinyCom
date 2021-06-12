@@ -10,10 +10,10 @@ idd: 1473120022
 released: 2019-07-19
 updated: 2021-06-09
 version: "1.0.45"
-score: 4
+stars: 4
 reviews: 8
 size: 64145408
-developerWebsite: https://techbank.finance/
+website: https://techbank.finance/
 repository: 
 issue: 
 icon: com.Techbank.Beeone.jpg

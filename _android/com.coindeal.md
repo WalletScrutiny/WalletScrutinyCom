@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coindeal
-launchDate: 
+released: 
 latestUpdate: 2020-08-18
-apkVersionName: "1.0.8"
+version: "1.0.8"
 stars: 3.7
 ratings: 139
 reviews: 84

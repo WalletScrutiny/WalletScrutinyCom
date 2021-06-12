@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: co.asachs.bitbuddy
-launchDate: 
+released: 
 latestUpdate: 2020-09-28
-apkVersionName: "2.0.1"
+version: "2.0.1"
 stars: 3.9
 ratings: 56
 reviews: 38

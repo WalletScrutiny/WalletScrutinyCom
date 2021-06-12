@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.phonegap.bit2me
-launchDate: 
+released: 
 latestUpdate: 2021-05-29
-apkVersionName: "2.0.58"
+version: "2.0.58"
 stars: 4.3
 ratings: 1566
 reviews: 658

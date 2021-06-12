@@ -11,10 +11,10 @@ idd: 1438224938
 released: 2018-10-25
 updated: 2021-05-22
 version: "1.2.6"
-score: 1.85714
+stars: 1.85714
 reviews: 7
 size: 15767552
-developerWebsite: https://www.coindirect.com/
+website: https://www.coindirect.com/
 repository: 
 issue: 
 icon: com.node.coindirect.jpg

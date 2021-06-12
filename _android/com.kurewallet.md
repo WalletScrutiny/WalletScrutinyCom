@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.kurewallet
-launchDate: 
+released: 
 latestUpdate: 2021-02-18
-apkVersionName: "2.6.6"
+version: "2.6.6"
 stars: 3.8
 ratings: 55
 reviews: 42

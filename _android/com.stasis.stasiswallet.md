@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.stasis.stasiswallet
-launchDate: 2018-06-13
+released: 2018-06-13
 latestUpdate: 2021-02-08
-apkVersionName: "1.8.88"
+version: "1.8.88"
 stars: 4.4
 ratings: 159
 reviews: 95

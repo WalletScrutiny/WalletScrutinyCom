@@ -10,10 +10,10 @@ idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
 version: "1.15.6"
-score: 4.59504
+stars: 4.59504
 reviews: 2020
 size: 85937152
-developerWebsite: https://www.poloniex.com
+website: https://www.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.app.Poloniex.jpg

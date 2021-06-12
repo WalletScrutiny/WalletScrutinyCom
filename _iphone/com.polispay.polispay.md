@@ -10,10 +10,10 @@ idd: 1351572060
 released: 2019-02-20
 updated: 2021-05-03
 version: "8.9.2"
-score: 3.83333
+stars: 3.83333
 reviews: 6
 size: 34938880
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.polispay.polispay.jpg

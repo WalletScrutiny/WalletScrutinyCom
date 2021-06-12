@@ -6,9 +6,9 @@ authors:
 
 users: 50
 appId: com.bitzapp
-launchDate: 
+released: 
 latestUpdate: 2020-08-11
-apkVersionName: "1.5"
+version: "1.5"
 stars: 0.0
 ratings: 
 reviews: 

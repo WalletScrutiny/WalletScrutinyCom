@@ -54,10 +54,10 @@ layout: default
                   <i class="fab fa-app-store"></i>
                 </a>
               </li>
-              {% if page.developerWebsite %}
+              {% if page.website %}
               <li
                 title='Provider website'>
-                <a href="{{ page.developerWebsite }}" class="link-web">
+                <a href="{{ page.website }}" class="link-web">
                   <i class="fas fa-globe"></i>
                 </a>
               </li>
@@ -73,22 +73,22 @@ layout: default
             <div class="svg {{ page.verdict }}"></div>
           {% endif %}
 
-          {% if page.score %}
-          <div title="Rated {{ page.score }}/5 stars on by {{ page.reviews }} users.">
+          {% if page.stars %}
+          <div title="Rated {{ page.stars }}/5 stars on by {{ page.reviews }} users.">
 
             <label>
               <i class="fab fa-app-store"></i>&nbsp;App Store
             </label>
 
             <div>
-              {{ page.score | round: 1 }}
+              {{ page.stars | round: 1 }}
               <span class="star-rating"
-                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.score }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
             </div>
           </div>
           {% endif %}
 
-          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.apkVersionName }})">
+          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.version }})">
           </div>
 
           {% if page.released %}

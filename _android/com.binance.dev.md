@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: com.binance.dev
-launchDate: 2017-10-25
+released: 2017-10-25
 latestUpdate: 2021-06-03
-apkVersionName: "1.41.2"
+version: "1.41.2"
 stars: 4.4
 ratings: 277438
 reviews: 99040

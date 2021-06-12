@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: io.yellowcard.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-09
-apkVersionName: "2.3"
+version: "2.3"
 stars: 4.3
 ratings: 849
 reviews: 648

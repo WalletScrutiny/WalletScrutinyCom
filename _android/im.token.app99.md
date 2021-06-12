@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: im.token.app99
-launchDate: 
+released: 
 latestUpdate: 2020-05-09
-apkVersionName: "2.7.3"
+version: "2.7.3"
 stars: 0.0
 ratings: 
 reviews: 

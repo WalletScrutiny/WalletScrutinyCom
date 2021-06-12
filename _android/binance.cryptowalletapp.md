@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: binance.cryptowalletapp
-launchDate: 
+released: 
 latestUpdate: 2021-04-05
-apkVersionName: "9.8"
+version: "9.8"
 stars: 3.9
 ratings: 14
 reviews: 11

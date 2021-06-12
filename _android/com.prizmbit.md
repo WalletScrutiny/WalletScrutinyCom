@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.prizmbit
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "1.4.18"
+version: "1.4.18"
 stars: 3.8
 ratings: 497
 reviews: 232

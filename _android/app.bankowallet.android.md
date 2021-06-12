@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: app.bankowallet.android
-launchDate: 
+released: 
 latestUpdate: 2020-06-29
-apkVersionName: "1.3.17851"
+version: "1.3.17851"
 stars: 1.9
 ratings: 15
 reviews: 12

@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.pro.bitcointoyou
-launchDate: 
+released: 
 latestUpdate: 2021-05-27
-apkVersionName: "0.0.176"
+version: "0.0.176"
 stars: 3.8
 ratings: 1043
 reviews: 659

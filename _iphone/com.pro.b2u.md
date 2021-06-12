@@ -10,10 +10,10 @@ idd: 1489598378
 released: 2019-12-20
 updated: 2021-05-31
 version: "1.76"
-score: 4.2
+stars: 4.2
 reviews: 5
 size: 118196224
-developerWebsite: https://www.bitcointoyou.com
+website: https://www.bitcointoyou.com
 repository: 
 issue: 
 icon: com.pro.b2u.jpg

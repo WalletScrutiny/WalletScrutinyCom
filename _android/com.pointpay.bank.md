@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.pointpay.bank
-launchDate: 
+released: 
 latestUpdate: 2021-06-01
-apkVersionName: "5.3.6"
+version: "5.3.6"
 stars: 4.7
 ratings: 2504
 reviews: 1337

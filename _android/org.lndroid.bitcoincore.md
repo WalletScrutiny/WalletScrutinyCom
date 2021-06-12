@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: org.lndroid.bitcoincore
-launchDate: 
+released: 
 latestUpdate: 2020-07-08
-apkVersionName: "0.6"
+version: "0.6"
 stars: 4.2
 ratings: 6
 reviews: 1

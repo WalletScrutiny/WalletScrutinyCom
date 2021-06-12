@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.Android.Inc.bitwallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-02
-apkVersionName: "1.4.16"
+version: "1.4.16"
 stars: 4.9
 ratings: 647
 reviews: 523

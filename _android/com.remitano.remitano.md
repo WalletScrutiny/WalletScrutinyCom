@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.remitano.remitano
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "5.38.0"
+version: "5.38.0"
 stars: 4.4
 ratings: 12951
 reviews: 5968

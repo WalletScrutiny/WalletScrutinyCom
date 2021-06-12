@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: org.electroncash.wallet
-launchDate: 2018-12-08
+released: 2018-12-08
 latestUpdate: 2021-03-02
-apkVersionName: "4.2.3-3"
+version: "4.2.3-3"
 stars: 4.1
 ratings: 157
 reviews: 77

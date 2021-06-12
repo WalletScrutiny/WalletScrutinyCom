@@ -10,10 +10,10 @@ idd: 1435187229
 released: 2018-09-28
 updated: 2021-03-09
 version: "3.12.9"
-score: 4
+stars: 4
 reviews: 16
 size: 33201152
-developerWebsite: https://hold.io
+website: https://hold.io
 repository: 
 issue: 
 icon: co.hold.mobile.jpg

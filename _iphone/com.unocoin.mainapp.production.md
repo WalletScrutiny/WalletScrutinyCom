@@ -10,10 +10,10 @@ idd: 1030422972
 released: 2016-05-12
 updated: 2021-06-02
 version: "6.0.7"
-score: 2.47826
+stars: 2.47826
 reviews: 23
 size: 209884160
-developerWebsite: https://www.unocoin.com
+website: https://www.unocoin.com
 repository: 
 issue: 
 icon: com.unocoin.mainapp.production.jpg

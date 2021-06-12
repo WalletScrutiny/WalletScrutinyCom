@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: btc.org.freewallet.app
-launchDate: 2016-06-13
+released: 2016-06-13
 latestUpdate: 2021-06-01
-apkVersionName: "2.5.9"
+version: "2.5.9"
 stars: 4.1
 ratings: 4937
 reviews: 2446

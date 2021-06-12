@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.secrypto
-launchDate: 
+released: 
 latestUpdate: 2019-02-26
-apkVersionName: "1.28"
+version: "1.28"
 stars: 2.9
 ratings: 958
 reviews: 654

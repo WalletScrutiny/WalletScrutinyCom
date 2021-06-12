@@ -10,10 +10,10 @@ idd: 1481314229
 released: 2019-10-01
 updated: 2021-06-09
 version: "5.0.032"
-score: 3.4
+stars: 3.4
 reviews: 25
 size: 280428544
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.bitpie.wallet.jpg

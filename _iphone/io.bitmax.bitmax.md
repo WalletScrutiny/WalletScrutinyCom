@@ -11,10 +11,10 @@ idd: 1463917147
 released: 2019-06-13
 updated: 2021-06-07
 version: "2.5.1"
-score: 4.98018
+stars: 4.98018
 reviews: 2926
 size: 77314048
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: io.bitmax.bitmax.jpg

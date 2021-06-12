@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.okinc.okex.gp
-launchDate: 
+released: 
 latestUpdate: 2021-05-24
-apkVersionName: "4.9.1"
+version: "4.9.1"
 stars: 4.4
 ratings: 95693
 reviews: 35736

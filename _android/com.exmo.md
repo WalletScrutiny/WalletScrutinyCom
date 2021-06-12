@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exmo
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "2.2.2.1"
+version: "2.2.2.1"
 stars: 4.0
 ratings: 1820
 reviews: 1230

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.xzen.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-09-19
-apkVersionName: "1.2.6.0"
+version: "1.2.6.0"
 stars: 3.7
 ratings: 41
 reviews: 31

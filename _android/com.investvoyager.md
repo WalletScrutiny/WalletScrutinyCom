@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.investvoyager
-launchDate: 
+released: 
 latestUpdate: 2021-05-27
-apkVersionName: "2.5.20"
+version: "2.5.20"
 stars: 3.1
 ratings: 5101
 reviews: 3110

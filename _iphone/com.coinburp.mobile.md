@@ -10,10 +10,10 @@ idd: 1486342307
 released: 2020-06-12
 updated: 2021-06-03
 version: "1.0.14"
-score: 2
+stars: 2
 reviews: 1
 size: 42656768
-developerWebsite: https://www.coinburp.com/
+website: https://www.coinburp.com/
 repository: 
 issue: 
 icon: com.coinburp.mobile.jpg

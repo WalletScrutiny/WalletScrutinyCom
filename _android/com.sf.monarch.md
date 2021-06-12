@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.sf.monarch
-launchDate: 2018-10-19
+released: 2018-10-19
 latestUpdate: 2021-05-27
-apkVersionName: "2.2.2"
+version: "2.2.2"
 stars: 3.9
 ratings: 780
 reviews: 408

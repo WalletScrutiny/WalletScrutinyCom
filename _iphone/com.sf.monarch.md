@@ -10,10 +10,10 @@ idd: 1386397997
 released: 2018-06-12
 updated: 2021-05-28
 version: "1.6.0"
-score: 4.78935
+stars: 4.78935
 reviews: 432
 size: 158665728
-developerWebsite: https://monarchwallet.com
+website: https://monarchwallet.com
 repository: 
 issue: 
 icon: com.sf.monarch.jpg

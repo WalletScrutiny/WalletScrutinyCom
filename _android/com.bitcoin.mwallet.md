@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.bitcoin.mwallet
-launchDate: 2017-06-19
+released: 2017-06-19
 latestUpdate: 2021-06-03
-apkVersionName: "7.0.5"
+version: "7.0.5"
 stars: 4.4
 ratings: 26951
 reviews: 8647

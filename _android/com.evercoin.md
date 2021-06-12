@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.evercoin
-launchDate: 
+released: 
 latestUpdate: 2020-11-22
-apkVersionName: "2.8.8"
+version: "2.8.8"
 stars: 3.7
 ratings: 190
 reviews: 133

@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: coin98.crypto.finance.media
-launchDate: 
+released: 
 latestUpdate: 2021-05-19
-apkVersionName: "9.3.3"
+version: "9.3.3"
 stars: 4.5
 ratings: 5412
 reviews: 3836

@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.allcoinwallet.allcoinwallet
-launchDate: 
+released: 
 latestUpdate: 2019-11-22
-apkVersionName: "1.2.22"
+version: "1.2.22"
 stars: 3.9
 ratings: 90
 reviews: 45

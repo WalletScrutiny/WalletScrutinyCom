@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
-launchDate: 
+released: 
 latestUpdate: 2020-08-05
-apkVersionName: "1.0.9"
+version: "1.0.9"
 stars: 4.1
 ratings: 162
 reviews: 103

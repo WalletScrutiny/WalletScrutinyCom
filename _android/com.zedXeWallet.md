@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.zedXeWallet
-launchDate: 
+released: 
 latestUpdate: 2020-06-11
-apkVersionName: "1.8"
+version: "1.8"
 stars: 4.7
 ratings: 29
 reviews: 25

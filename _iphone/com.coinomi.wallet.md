@@ -10,10 +10,10 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2021-06-09
 version: "1.10.2"
-score: 4.529
+stars: 4.529
 reviews: 1155
 size: 125848576
-developerWebsite: https://www.coinomi.com
+website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.jpg

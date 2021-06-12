@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: co.busha.android
-launchDate: 2019-01-21
+released: 2019-01-21
 latestUpdate: 2021-06-02
-apkVersionName: "2.6.13"
+version: "2.6.13"
 stars: 4.1
 ratings: 2173
 reviews: 1678

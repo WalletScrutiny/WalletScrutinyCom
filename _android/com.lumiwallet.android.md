@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.lumiwallet.android
-launchDate: 2018-01-15
+released: 2018-01-15
 latestUpdate: 2021-05-31
-apkVersionName: "4.0.2"
+version: "4.0.2"
 stars: 4.8
 ratings: 5802
 reviews: 1160

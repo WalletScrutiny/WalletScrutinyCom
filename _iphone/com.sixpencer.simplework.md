@@ -10,10 +10,10 @@ idd: 1529717509
 released: 2020-10-24
 updated: 2021-06-10
 version: "1.4.2"
-score: 4.54545
+stars: 4.54545
 reviews: 11
 size: 76104704
-developerWebsite: https://dfox.cc
+website: https://dfox.cc
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg

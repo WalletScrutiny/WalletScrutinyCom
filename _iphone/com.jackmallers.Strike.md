@@ -10,10 +10,10 @@ idd: 1488724463
 released: 2020-08-10
 updated: 2021-06-08
 version: "16.0"
-score: 4.62465
+stars: 4.62465
 reviews: 357
 size: 20766720
-developerWebsite: https://beta.strike.me/
+website: https://beta.strike.me/
 repository: 
 issue: 
 icon: com.jackmallers.Strike.jpg

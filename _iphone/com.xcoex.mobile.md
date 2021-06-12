@@ -10,10 +10,10 @@ idd: 1447945810
 released: 2019-01-22
 updated: 2021-05-06
 version: "1.17.0"
-score: 
+stars: 
 reviews: 
 size: 54894592
-developerWebsite: https://xcoex.com/
+website: https://xcoex.com/
 repository: 
 issue: 
 icon: com.xcoex.mobile.jpg

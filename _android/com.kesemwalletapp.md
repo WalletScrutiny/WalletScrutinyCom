@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.kesemwalletapp
-launchDate: 
+released: 
 latestUpdate: 2019-05-15
-apkVersionName: "2.17"
+version: "2.17"
 stars: 0.0
 ratings: 
 reviews: 

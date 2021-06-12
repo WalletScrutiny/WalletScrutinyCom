@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.newcurrency.coinstrunk.v1
-launchDate: 
+released: 
 latestUpdate: 2021-02-26
-apkVersionName: "1.7"
+version: "1.7"
 stars: 4.1
 ratings: 117
 reviews: 88

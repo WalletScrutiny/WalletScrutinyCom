@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.phoenix.mainnet
-launchDate: 2019-12-10
+released: 2019-12-10
 latestUpdate: 2021-06-07
-apkVersionName: "1.4.14"
+version: "1.4.14"
 stars: 4.2
 ratings: 231
 reviews: 113

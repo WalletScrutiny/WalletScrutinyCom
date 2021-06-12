@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: app.flitsnode.flits
-launchDate: 
+released: 
 latestUpdate: 2021-02-09
-apkVersionName: "4.4"
+version: "4.4"
 stars: 4.3
 ratings: 2025
 reviews: 1339

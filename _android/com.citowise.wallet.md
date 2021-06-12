@@ -7,9 +7,9 @@ authors:
 - leo
 users: 50000
 appId: com.citowise.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-12-25
-apkVersionName: "1.355"
+version: "1.355"
 stars: 4.2
 ratings: 656
 reviews: 525

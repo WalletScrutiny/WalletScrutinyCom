@@ -6,9 +6,9 @@ authors:
 
 users: 50000
 appId: net.bither
-launchDate: 
+released: 
 latestUpdate: 2021-02-05
-apkVersionName: "2.0.0"
+version: "2.0.0"
 stars: 3.7
 ratings: 318
 reviews: 166

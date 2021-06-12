@@ -10,10 +10,10 @@ idd: 1357740381
 released: 2018-03-30
 updated: 2020-09-05
 version: "3.2.6"
-score: 4.48987
+stars: 4.48987
 reviews: 543
 size: 124011520
-developerWebsite: https://spend.com
+website: https://spend.com
 repository: 
 issue: 
 icon: com.DCS.SpendWallet.jpg

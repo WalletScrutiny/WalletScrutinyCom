@@ -10,10 +10,10 @@ idd: 966301394
 released: 2015-03-12
 updated: 2021-06-01
 version: "98.3.0"
-score: 4.56561
+stars: 4.56561
 reviews: 15364
 size: 123325440
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.goabra.abra.jpg

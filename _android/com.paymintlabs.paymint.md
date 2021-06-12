@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100
 appId: com.paymintlabs.paymint
-launchDate: 2020-06-29
+released: 2020-06-29
 latestUpdate: 2020-10-05
-apkVersionName: "1.2.2"
+version: "1.2.2"
 stars: 4.1
 ratings: 11
 reviews: 7

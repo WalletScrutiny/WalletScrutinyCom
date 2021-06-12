@@ -7,9 +7,9 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
-launchDate: 
+released: 
 latestUpdate: 2021-05-27
-apkVersionName: "6.4.3"
+version: "6.4.3"
 stars: 4.5
 ratings: 567
 reviews: 492

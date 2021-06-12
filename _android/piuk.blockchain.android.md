@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: piuk.blockchain.android
-launchDate: 2013-02-01
+released: 2013-02-01
 latestUpdate: 2021-06-11
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 3.2
 ratings: 106459
 reviews: 53230

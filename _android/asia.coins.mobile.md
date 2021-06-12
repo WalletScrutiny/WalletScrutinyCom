@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000000
 appId: asia.coins.mobile
-launchDate: 2014-10-01
+released: 2014-10-01
 latestUpdate: 2021-06-06
-apkVersionName: "3.5.48"
+version: "3.5.48"
 stars: 4.1
 ratings: 98555
 reviews: 42712

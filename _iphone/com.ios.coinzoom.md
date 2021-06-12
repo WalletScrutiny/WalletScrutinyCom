@@ -11,10 +11,10 @@ idd: 1443109132
 released: 2020-03-05
 updated: 2021-05-17
 version: "1.1.29"
-score: 4.77128
+stars: 4.77128
 reviews: 411
 size: 80916480
-developerWebsite: http://www.coinzoom.com
+website: http://www.coinzoom.com
 repository: 
 issue: 
 icon: com.ios.coinzoom.jpg

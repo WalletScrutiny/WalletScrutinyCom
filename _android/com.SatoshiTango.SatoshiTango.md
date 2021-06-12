@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
-launchDate: 
+released: 
 latestUpdate: 2021-02-18
-apkVersionName: "3.4.17"
+version: "3.4.17"
 stars: 3.4
 ratings: 3730
 reviews: 2094

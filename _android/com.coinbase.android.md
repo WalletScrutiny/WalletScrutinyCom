@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
-launchDate: 2013-03-01
+released: 2013-03-01
 latestUpdate: 2021-05-28
-apkVersionName: "9.26.3"
+version: "9.26.3"
 stars: 4.3
 ratings: 457178
 reviews: 139532

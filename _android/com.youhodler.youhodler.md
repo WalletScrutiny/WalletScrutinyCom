@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.youhodler.youhodler
-launchDate: 
+released: 
 latestUpdate: 2021-06-01
-apkVersionName: "2.15.0"
+version: "2.15.0"
 stars: 4.2
 ratings: 1459
 reviews: 580

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: io.sylo.dapp
-launchDate: 
+released: 
 latestUpdate: 2021-05-24
-apkVersionName: "3.0.26-btc-tx.1"
+version: "3.0.26-btc-tx.1"
 stars: 4.7
 ratings: 687
 reviews: 352

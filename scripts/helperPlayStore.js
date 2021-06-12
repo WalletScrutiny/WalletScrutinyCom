@@ -15,9 +15,9 @@ const allowedHeaders = [
   "authors", // contributors to the analysis
   "users", // platform reported downloads in steps
   "appId", // provider chosen identifier. We use this for the file name, too
-  "launchDate", // gets provided by platform
+  "released", // gets provided by platform
   "latestUpdate", // platform reported latest update
-  "apkVersionName", // platform reported version
+  "version", // platform reported version
   "stars", // platform reported average rating
   "ratings", // platform reported count of ratings
   "reviews", // platform reported count of reviews
@@ -85,11 +85,11 @@ function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
   const authors = new Set(header.authors)
-  var apkVersionName = app.version || "various"
-  const launchDate = header.launchDate || app.release
-  var launchDateString = ""
-  if (launchDate != undefined) {
-    launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
+  var version = app.version || "various"
+  const released = header.released || app.released
+  var releasedString = ""
+  if (released != undefined) {
+    releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   var verdict = header.verdict
   if ( app.minInstalls < 1000 ) {
@@ -117,9 +117,9 @@ authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
-launchDate: ${launchDateString}
+released: ${releasedString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: "${ apkVersionName }"
+version: "${ version }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}

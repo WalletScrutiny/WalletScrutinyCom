@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coinburp.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "1.0.14"
+version: "1.0.14"
 stars: 3.9
 ratings: 77
 reviews: 29

@@ -11,10 +11,10 @@ idd: 1463774169
 released: 2019-06-21
 updated: 2020-07-30
 version: "1.1"
-score: 4.41176
+stars: 4.41176
 reviews: 17
 size: 28720128
-developerWebsite: https://ccwalletapp.com/
+website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg

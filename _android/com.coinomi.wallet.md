@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.coinomi.wallet
-launchDate: 2014-01-31
+released: 2014-01-31
 latestUpdate: 2021-06-09
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.5
 ratings: 36223
 reviews: 20663

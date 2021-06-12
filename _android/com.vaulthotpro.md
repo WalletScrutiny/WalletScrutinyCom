@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.vaulthotpro
-launchDate: 
+released: 
 latestUpdate: 2021-03-22
-apkVersionName: "2.2.6"
+version: "2.2.6"
 stars: 3.3
 ratings: 24
 reviews: 17

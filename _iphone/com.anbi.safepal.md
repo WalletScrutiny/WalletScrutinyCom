@@ -8,10 +8,10 @@ idd: 1449232593
 released: 2019-03-01
 updated: 2020-12-30
 version: "2.5.1"
-score: 3.78947
+stars: 3.78947
 reviews: 19
 size: 111534080
-developerWebsite: https://www.safepal.io/
+website: https://www.safepal.io/
 repository: 
 issue: 
 icon: com.anbi.safepal.jpg

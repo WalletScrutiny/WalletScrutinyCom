@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.liberty.jaxx
-launchDate: 2018-09-01
+released: 2018-09-01
 latestUpdate: 2021-05-28
-apkVersionName: "2.6.4"
+version: "2.6.4"
 stars: 3.8
 ratings: 5007
 reviews: 2772

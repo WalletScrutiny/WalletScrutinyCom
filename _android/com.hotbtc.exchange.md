@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.hotbtc.exchange
-launchDate: 
+released: 
 latestUpdate: 2020-08-19
-apkVersionName: "1.1.0"
+version: "1.1.0"
 stars: 4.5
 ratings: 21
 reviews: 20

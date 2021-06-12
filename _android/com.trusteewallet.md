@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.trusteewallet
-launchDate: 2019-05-01
+released: 2019-05-01
 latestUpdate: 2021-06-07
-apkVersionName: "1.40.829"
+version: "1.40.829"
 stars: 4.0
 ratings: 1786
 reviews: 1264

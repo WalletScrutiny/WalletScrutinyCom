@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: me.coinpal.app
-launchDate: 
+released: 
 latestUpdate: 2018-06-27
-apkVersionName: "4.1.4"
+version: "4.1.4"
 stars: 4.4
 ratings: 109
 reviews: 50

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: it.airgap.vault
-launchDate: 2018-08-06
+released: 2018-08-06
 latestUpdate: 2021-04-23
-apkVersionName: "3.7.0"
+version: "3.7.0"
 stars: 4.0
 ratings: 77
 reviews: 31

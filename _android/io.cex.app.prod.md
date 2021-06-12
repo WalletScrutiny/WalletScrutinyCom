@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 1000000
 appId: io.cex.app.prod
-launchDate: 
+released: 
 latestUpdate: 2021-05-04
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.3
 ratings: 11546
 reviews: 7506

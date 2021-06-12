@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-10-01
+released: 2017-10-01
 latestUpdate: 2021-06-03
-apkVersionName: "1.29.12"
+version: "1.29.12"
 stars: 4.6
 ratings: 363706
 reviews: 79635

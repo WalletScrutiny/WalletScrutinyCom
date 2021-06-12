@@ -10,10 +10,10 @@ idd: 1420996542
 released: 2018-08-24
 updated: 2021-06-07
 version: "3.7.2"
-score: 3.57143
+stars: 3.57143
 reviews: 7
 size: 101502976
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: it.airgap.wallet.jpg

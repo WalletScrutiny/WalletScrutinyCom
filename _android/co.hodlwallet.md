@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: co.hodlwallet
-launchDate: 2018-09-24
+released: 2018-09-24
 latestUpdate: 2020-05-18
-apkVersionName: "3.3.5"
+version: "3.3.5"
 stars: 3.7
 ratings: 112
 reviews: 62

@@ -10,10 +10,10 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2021-06-08
 version: "2.30.3"
-score: 4.73318
+stars: 4.73318
 reviews: 62749
 size: 343846912
-developerWebsite: https://www.binance.com
+website: https://www.binance.com
 repository: 
 issue: 
 icon: com.czzhao.binance.jpg

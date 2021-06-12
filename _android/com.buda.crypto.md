@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.buda.crypto
-launchDate: 
+released: 
 latestUpdate: 2020-06-02
-apkVersionName: "1.9.10"
+version: "1.9.10"
 stars: 2.6
 ratings: 466
 reviews: 310

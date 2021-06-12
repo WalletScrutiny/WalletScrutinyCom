@@ -10,10 +10,10 @@ idd: 1443813253
 released: 2019-05-09
 updated: 2021-06-07
 version: "2.3.1"
-score: 3.87981
+stars: 3.87981
 reviews: 2363
 size: 56804352
-developerWebsite: https://paxful.com
+website: https://paxful.com
 repository: 
 issue: 
 icon: com.paxful.wallet.jpg

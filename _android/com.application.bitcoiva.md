@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.application.bitcoiva
-launchDate: 
+released: 
 latestUpdate: 2021-04-12
-apkVersionName: "1.14"
+version: "1.14"
 stars: 4.3
 ratings: 130
 reviews: 67

@@ -10,10 +10,10 @@ idd: 1288339409
 released: 2017-09-27
 updated: 2021-05-14
 version: "5.25"
-score: 4.67432
+stars: 4.67432
 reviews: 104884
 size: 41298944
-developerWebsite: https://trustwallet.com
+website: https://trustwallet.com
 repository: 
 issue: 
 icon: com.sixdays.trust.jpg

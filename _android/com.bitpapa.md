@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.bitpapa
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "1.6.7"
+version: "1.6.7"
 stars: 4.9
 ratings: 3108
 reviews: 3065

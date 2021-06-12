@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: id.co.bitcoin
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "4.1.1"
+version: "4.1.1"
 stars: 4.3
 ratings: 55716
 reviews: 29961

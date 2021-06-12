@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
-launchDate: 2018-04-12
+released: 2018-04-12
 latestUpdate: 2021-05-20
-apkVersionName: "0.4.16"
+version: "0.4.16"
 stars: 4.0
 ratings: 357
 reviews: 167

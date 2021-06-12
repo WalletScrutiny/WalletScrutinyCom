@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: bitcoin.twenty.twenty
-launchDate: 
+released: 
 latestUpdate: 2019-07-18
-apkVersionName: "2.0"
+version: "2.0"
 stars: 0.0
 ratings: 
 reviews: 

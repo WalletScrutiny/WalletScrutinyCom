@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.ezdefi
-launchDate: 
+released: 
 latestUpdate: 2021-05-12
-apkVersionName: "0.3.5"
+version: "0.3.5"
 stars: 4.5
 ratings: 609
 reviews: 355

@@ -10,10 +10,10 @@ idd: 1331439005
 released: 2019-02-09
 updated: 2021-06-11
 version: "1.6.2"
-score: 4.85079
+stars: 4.85079
 reviews: 1059
 size: 15589376
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: Tissatech.Bit-Wallet.jpg

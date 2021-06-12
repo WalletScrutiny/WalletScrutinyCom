@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.sologenicwallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-15
-apkVersionName: "2.0.4"
+version: "2.0.4"
 stars: 3.7
 ratings: 88
 reviews: 52

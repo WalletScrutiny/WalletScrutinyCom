@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500
 appId: org.freewallet.lite.android
-launchDate: 
+released: 
 latestUpdate: 2019-03-01
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

@@ -10,10 +10,10 @@ idd: 1440147115
 released: 2019-06-07
 updated: 2021-05-12
 version: "2.23.0"
-score: 4.59586
+stars: 4.59586
 reviews: 1403
 size: 70884352
-developerWebsite: https://www.zengo.com
+website: https://www.zengo.com
 repository: 
 issue: 
 icon: kzencorp.mobile.ios.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.spot.spot
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "4.31.0.2640-3fb33ecc"
+version: "4.31.0.2640-3fb33ecc"
 stars: 4.2
 ratings: 4023
 reviews: 1954

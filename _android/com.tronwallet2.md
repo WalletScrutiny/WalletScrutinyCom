@@ -4,9 +4,9 @@ altTitle:
 
 users: 1000000
 appId: com.tronwallet2
-launchDate: 
+released: 
 latestUpdate: 2020-07-23
-apkVersionName: "3.4.5"
+version: "3.4.5"
 stars: 3.9
 ratings: 8703
 reviews: 4748

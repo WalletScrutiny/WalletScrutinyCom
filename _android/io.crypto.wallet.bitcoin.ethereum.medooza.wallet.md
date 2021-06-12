@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-01-04
-apkVersionName: "1.1"
+version: "1.1"
 stars: 4.1
 ratings: 7
 reviews: 6

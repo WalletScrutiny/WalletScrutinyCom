@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.swipe.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-13
-apkVersionName: "1.901"
+version: "1.901"
 stars: 2.8
 ratings: 1592
 reviews: 1106

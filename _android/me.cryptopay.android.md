@@ -6,9 +6,9 @@ authors:
 
 users: 50000
 appId: me.cryptopay.android
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "1.25.2"
+version: "1.25.2"
 stars: 4.4
 ratings: 705
 reviews: 360

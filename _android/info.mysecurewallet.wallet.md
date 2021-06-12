@@ -7,9 +7,9 @@ authors:
 - emanuel
 users: 5000
 appId: info.mysecurewallet.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-11-02
-apkVersionName: "1.1"
+version: "1.1"
 stars: 3.6
 ratings: 55
 reviews: 39

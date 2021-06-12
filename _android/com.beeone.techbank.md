@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.beeone.techbank
-launchDate: 
+released: 
 latestUpdate: 2021-05-14
-apkVersionName: "4.6"
+version: "4.6"
 stars: 4.1
 ratings: 603
 reviews: 255

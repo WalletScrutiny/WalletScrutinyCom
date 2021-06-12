@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: io.nash.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "7.0"
+version: "7.0"
 stars: 4.3
 ratings: 616
 reviews: 258

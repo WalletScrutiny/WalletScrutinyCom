@@ -10,10 +10,10 @@ idd: 1417126841
 released: 2018-08-24
 updated: 2021-04-26
 version: "3.7.0"
-score: 4.5
+stars: 4.5
 reviews: 4
 size: 87072768
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: it.airgap.vault.jpg

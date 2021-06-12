@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.node.coindirect
-launchDate: 
+released: 
 latestUpdate: 2021-05-12
-apkVersionName: "1.3.0"
+version: "1.3.0"
 stars: 2.0
 ratings: 496
 reviews: 417

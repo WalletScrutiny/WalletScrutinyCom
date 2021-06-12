@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: io.metamask
-launchDate: 
+released: 
 latestUpdate: 2021-05-25
-apkVersionName: "2.4.0"
+version: "2.4.0"
 stars: 3.5
 ratings: 6192
 reviews: 3447

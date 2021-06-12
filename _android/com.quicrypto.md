@@ -6,9 +6,9 @@ authors:
 
 users: 100000
 appId: com.quicrypto
-launchDate: 
+released: 
 latestUpdate: 2021-04-13
-apkVersionName: "3.6.0"
+version: "3.6.0"
 stars: 3.8
 ratings: 4614
 reviews: 2827

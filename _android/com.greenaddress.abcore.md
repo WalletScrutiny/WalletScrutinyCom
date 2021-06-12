@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.greenaddress.abcore
-launchDate: 
+released: 
 latestUpdate: 2019-10-16
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

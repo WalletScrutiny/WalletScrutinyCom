@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.visionwallet.app
-launchDate: 
+released: 
 latestUpdate: 2020-11-05
-apkVersionName: "1.3.2"
+version: "1.3.2"
 stars: 4.0
 ratings: 76
 reviews: 70

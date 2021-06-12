@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50
 appId: app.getvega
-launchDate: 
+released: 
 latestUpdate: 2019-05-22
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

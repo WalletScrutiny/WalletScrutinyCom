@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000000
 appId: com.breadwallet
-launchDate: 2016-07-21
+released: 2016-07-21
 latestUpdate: 2021-06-03
-apkVersionName: "4.10.0"
+version: "4.10.0"
 stars: 4.3
 ratings: 24551
 reviews: 9766

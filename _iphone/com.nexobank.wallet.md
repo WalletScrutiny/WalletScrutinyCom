@@ -10,10 +10,10 @@ idd: 1455341917
 released: 2019-06-30
 updated: 2021-06-07
 version: "1.4.12"
-score: 3.81842
+stars: 3.81842
 reviews: 380
 size: 34651136
-developerWebsite: https://nexo.io
+website: https://nexo.io
 repository: 
 issue: 
 icon: com.nexobank.wallet.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: io.changenow.changenow
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "1.111"
+version: "1.111"
 stars: 4.5
 ratings: 1008
 reviews: 529

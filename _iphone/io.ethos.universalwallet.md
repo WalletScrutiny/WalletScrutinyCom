@@ -10,10 +10,10 @@ idd: 1376959464
 released: 2018-08-06
 updated: 2019-11-22
 version: "2.0.5"
-score: 4.33
+stars: 4.33
 reviews: 300
 size: 72262656
-developerWebsite: http://ethos.io
+website: http://ethos.io
 repository: 
 issue: 
 icon: io.ethos.universalwallet.jpg

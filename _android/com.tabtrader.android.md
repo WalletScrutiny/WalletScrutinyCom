@@ -7,9 +7,9 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.tabtrader.android
-launchDate: 
+released: 
 latestUpdate: 2021-05-14
-apkVersionName: "4.8.6"
+version: "4.8.6"
 stars: 4.6
 ratings: 53007
 reviews: 22588

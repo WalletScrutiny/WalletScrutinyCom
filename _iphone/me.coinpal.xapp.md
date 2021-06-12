@@ -10,10 +10,10 @@ idd: 1351428916
 released: 2018-06-26
 updated: 2018-06-26
 version: "1.0"
-score: 5
+stars: 5
 reviews: 5
 size: 77613056
-developerWebsite: https://coinpal.me
+website: https://coinpal.me
 repository: 
 issue: 
 icon: me.coinpal.xapp.jpg

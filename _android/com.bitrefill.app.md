@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.bitrefill.app
-launchDate: 2018-04-10
+released: 2018-04-10
 latestUpdate: 2019-09-28
-apkVersionName: "1.28.9"
+version: "1.28.9"
 stars: 3.8
 ratings: 578
 reviews: 340

@@ -10,10 +10,10 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2021-06-02
 version: "4.15.35"
-score: 3.66932
+stars: 3.66932
 reviews: 4654
 size: 65038336
-developerWebsite: https://uphold.com
+website: https://uphold.com
 repository: 
 issue: 
 icon: com.uphold.wallet.ios.jpg

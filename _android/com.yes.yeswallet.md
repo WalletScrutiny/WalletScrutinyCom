@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.yes.yeswallet
-launchDate: 
+released: 
 latestUpdate: 2019-04-24
-apkVersionName: "1.0"
+version: "1.0"
 stars: 2.8
 ratings: 44
 reviews: 30

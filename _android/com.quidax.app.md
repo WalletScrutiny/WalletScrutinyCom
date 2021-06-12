@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.quidax.app
-launchDate: 
+released: 
 latestUpdate: 2021-01-12
-apkVersionName: "1.8.0"
+version: "1.8.0"
 stars: 3.9
 ratings: 1817
 reviews: 1403

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: tech.hodler.core
-launchDate: 
+released: 
 latestUpdate: 2019-10-29
-apkVersionName: "0.4.6"
+version: "0.4.6"
 stars: 4.0
 ratings: 49
 reviews: 37

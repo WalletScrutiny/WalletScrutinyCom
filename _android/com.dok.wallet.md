@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.dok.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-28
-apkVersionName: "1.1.4"
+version: "1.1.4"
 stars: 4.7
 ratings: 14
 reviews: 13

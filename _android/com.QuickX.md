@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.QuickX
-launchDate: 
+released: 
 latestUpdate: 2020-07-31
-apkVersionName: "1.16.0"
+version: "1.16.0"
 stars: 4.7
 ratings: 57
 reviews: 34

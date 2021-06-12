@@ -10,10 +10,10 @@ idd: 1436383182
 released: 2019-01-25
 updated: 2021-05-05
 version: "4.3.0"
-score: 3.74627
+stars: 3.74627
 reviews: 67
 size: 69788672
-developerWebsite: https://www.bitfinex.com/app
+website: https://www.bitfinex.com/app
 repository: 
 issue: 
 icon: com.bitfinex.bfxprod.jpg

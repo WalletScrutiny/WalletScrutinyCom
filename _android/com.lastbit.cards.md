@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.lastbit.cards
-launchDate: 
+released: 
 latestUpdate: 2021-03-04
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

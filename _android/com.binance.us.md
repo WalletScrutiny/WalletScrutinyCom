@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.binance.us
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "2.5.0"
+version: "2.5.0"
 stars: 2.2
 ratings: 4749
 reviews: 3670

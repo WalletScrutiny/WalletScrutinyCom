@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: com.badgermobile
-launchDate: 2019-06-10
+released: 2019-06-10
 latestUpdate: 2021-06-02
-apkVersionName: "1.13.1"
+version: "1.13.1"
 stars: 3.9
 ratings: 147
 reviews: 75

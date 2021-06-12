@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.wallet.btc
-launchDate: 2018-10-14
+released: 2018-10-14
 latestUpdate: 2021-02-20
-apkVersionName: "1.8.0"
+version: "1.8.0"
 stars: 4.3
 ratings: 12
 reviews: 3

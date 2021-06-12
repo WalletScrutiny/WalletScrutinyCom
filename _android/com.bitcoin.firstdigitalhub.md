@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.bitcoin.firstdigitalhub
-launchDate: 
+released: 
 latestUpdate: 2021-05-15
-apkVersionName: "1.9.3.0.13"
+version: "1.9.3.0.13"
 stars: 4.7
 ratings: 146
 reviews: 137

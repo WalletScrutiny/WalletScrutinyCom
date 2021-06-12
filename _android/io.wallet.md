@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: io.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-03-18
-apkVersionName: "1.13.5"
+version: "1.13.5"
 stars: 3.7
 ratings: 43
 reviews: 21

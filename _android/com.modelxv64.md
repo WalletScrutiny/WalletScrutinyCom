@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.modelxv64
-launchDate: 
+released: 
 latestUpdate: 2021-03-18
-apkVersionName: "1.6.9"
+version: "1.6.9"
 stars: 3.1
 ratings: 7
 reviews: 3

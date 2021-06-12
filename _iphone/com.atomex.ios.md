@@ -10,10 +10,10 @@ idd: 1534717828
 released: 2020-12-03
 updated: 2021-05-29
 version: "1.9"
-score: 
+stars: 
 reviews: 
 size: 108124160
-developerWebsite: https://atomex.me
+website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: 
 icon: com.atomex.ios.jpg

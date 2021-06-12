@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.anxbtc.android
-launchDate: 
+released: 
 latestUpdate: 2016-08-17
-apkVersionName: "1.8.0"
+version: "1.8.0"
 stars: 3.2
 ratings: 136
 reviews: 58

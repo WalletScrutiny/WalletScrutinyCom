@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.xapo
-launchDate: 2014-04-01
+released: 2014-04-01
 latestUpdate: 2021-05-11
-apkVersionName: "5.33"
+version: "5.33"
 stars: 3.5
 ratings: 45857
 reviews: 21864

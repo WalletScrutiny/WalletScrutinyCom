@@ -6,9 +6,9 @@ authors:
 - kiwi1amb
 users: 1000000
 appId: com.wrx.wazirx
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "2.13.4"
+version: "2.13.4"
 stars: 3.9
 ratings: 177803
 reviews: 53292

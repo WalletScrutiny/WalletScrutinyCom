@@ -10,10 +10,10 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: "1.0.9"
-score: 3.8
+stars: 3.8
 reviews: 5
 size: 13651968
-developerWebsite: https://freewallet.io
+website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg

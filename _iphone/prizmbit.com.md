@@ -10,10 +10,10 @@ idd: 1459094607
 released: 2019-06-14
 updated: 2021-06-11
 version: "1.6.5"
-score: 3
+stars: 3
 reviews: 2
 size: 39010304
-developerWebsite: https://prizmbit.com/
+website: https://prizmbit.com/
 repository: 
 issue: 
 icon: prizmbit.com.jpg

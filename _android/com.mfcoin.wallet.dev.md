@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.mfcoin.wallet.dev
-launchDate: 
+released: 
 latestUpdate: 2020-10-04
-apkVersionName: "v4.0.0"
+version: "v4.0.0"
 stars: 4.4
 ratings: 86
 reviews: 45

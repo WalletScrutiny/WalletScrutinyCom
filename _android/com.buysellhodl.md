@@ -4,9 +4,9 @@ altTitle:
 
 users: 10000
 appId: com.buysellhodl
-launchDate: 
+released: 
 latestUpdate: 2019-10-11
-apkVersionName: "1.12.7"
+version: "1.12.7"
 stars: 4.3
 ratings: 157
 reviews: 71

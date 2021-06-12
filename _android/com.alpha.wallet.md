@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.alpha.wallet
-launchDate: 
+released: 
 latestUpdate: 2018-05-31
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

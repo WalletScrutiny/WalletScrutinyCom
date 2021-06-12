@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.nexowallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "1.4.12"
+version: "1.4.12"
 stars: 4.0
 ratings: 9095
 reviews: 4315

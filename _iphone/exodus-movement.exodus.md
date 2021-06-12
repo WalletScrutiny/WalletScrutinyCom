@@ -10,10 +10,10 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2021-06-05
 version: "21.6.4"
-score: 4.56933
+stars: 4.56933
 reviews: 12095
 size: 29954048
-developerWebsite: https://exodus.com/mobile
+website: https://exodus.com/mobile
 repository: 
 issue: 
 icon: exodus-movement.exodus.jpg

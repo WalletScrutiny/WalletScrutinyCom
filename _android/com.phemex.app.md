@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 500000
 appId: com.phemex.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-02
-apkVersionName: "1.3.4"
+version: "1.3.4"
 stars: 4.6
 ratings: 8283
 reviews: 2035

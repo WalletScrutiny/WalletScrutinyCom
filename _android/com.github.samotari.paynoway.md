@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.github.samotari.paynoway
-launchDate: 
+released: 
 latestUpdate: 2021-04-10
-apkVersionName: "2.1.0"
+version: "2.1.0"
 stars: 0.0
 ratings: 
 reviews: 

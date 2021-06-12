@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10
 appId: com.mobileln
-launchDate: 
+released: 
 latestUpdate: 2019-04-11
-apkVersionName: "pre-alpha v0.2b"
+version: "pre-alpha v0.2b"
 stars: 0.0
 ratings: 
 reviews: 

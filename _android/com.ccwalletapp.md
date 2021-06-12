@@ -7,9 +7,9 @@ authors:
 - emanuel
 users: 10000
 appId: com.ccwalletapp
-launchDate: 
+released: 
 latestUpdate: 2020-07-29
-apkVersionName: "1.3.1"
+version: "1.3.1"
 stars: 3.7
 ratings: 551
 reviews: 495

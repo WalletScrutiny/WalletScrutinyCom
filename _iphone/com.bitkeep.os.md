@@ -10,10 +10,10 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2021-06-04
 version: "6.0.9"
-score: 3.4
+stars: 3.4
 reviews: 10
 size: 72071168
-developerWebsite: https://bitkeep.com
+website: https://bitkeep.com
 repository: 
 issue: 
 icon: com.bitkeep.os.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: coinsquare.io.coinsquare
-launchDate: 
+released: 
 latestUpdate: 2021-04-30
-apkVersionName: "2.13.10"
+version: "2.13.10"
 stars: 2.4
 ratings: 744
 reviews: 504

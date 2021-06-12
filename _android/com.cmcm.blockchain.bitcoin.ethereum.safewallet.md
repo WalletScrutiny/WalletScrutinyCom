@@ -4,9 +4,9 @@ altTitle:
 
 users: 100000
 appId: com.cmcm.blockchain.bitcoin.ethereum.safewallet
-launchDate: 2018-01-31
+released: 2018-01-31
 latestUpdate: 2019-05-30
-apkVersionName: "3.2.5"
+version: "3.2.5"
 stars: 4.5
 ratings: 3131
 reviews: 1214

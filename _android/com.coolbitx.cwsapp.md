@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: com.coolbitx.cwsapp
-launchDate: 
+released: 
 latestUpdate: 2021-06-02
-apkVersionName: "2.17.2"
+version: "2.17.2"
 stars: 4.5
 ratings: 726
 reviews: 309

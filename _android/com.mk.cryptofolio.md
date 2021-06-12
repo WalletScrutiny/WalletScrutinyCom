@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.mk.cryptofolio
-launchDate: 
+released: 
 latestUpdate: 2020-08-19
-apkVersionName: "1.0.51"
+version: "1.0.51"
 stars: 4.6
 ratings: 21
 reviews: 11

@@ -11,10 +11,10 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-05-01
 version: "2.472"
-score: 4.42424
+stars: 4.42424
 reviews: 66
 size: 59242496
-developerWebsite: http://wallets.africa
+website: http://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.prod.jpg

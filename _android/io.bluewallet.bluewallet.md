@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: io.bluewallet.bluewallet
-launchDate: 2018-11-01
+released: 2018-11-01
 latestUpdate: 2021-06-03
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 3.8
 ratings: 1133
 reviews: 486

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.dowallet
-launchDate: 2019-01-01
+released: 2019-01-01
 latestUpdate: 2021-04-20
-apkVersionName: "1.1.36"
+version: "1.1.36"
 stars: 3.8
 ratings: 845
 reviews: 448

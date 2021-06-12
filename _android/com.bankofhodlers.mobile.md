@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.bankofhodlers.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "2.1.8"
+version: "2.1.8"
 stars: 4.2
 ratings: 180
 reviews: 86

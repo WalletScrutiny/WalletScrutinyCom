@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.bitnovo.app
-launchDate: 
+released: 
 latestUpdate: 2021-02-23
-apkVersionName: "2.8.4"
+version: "2.8.4"
 stars: 2.6
 ratings: 302
 reviews: 209

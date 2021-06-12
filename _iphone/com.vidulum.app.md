@@ -10,10 +10,10 @@ idd: 1505859171
 released: 2020-07-28
 updated: 2021-05-12
 version: "1.2.1"
-score: 4.33333
+stars: 4.33333
 reviews: 6
 size: 62133248
-developerWebsite: https://vidulum.app
+website: https://vidulum.app
 repository: 
 issue: 
 icon: com.vidulum.app.jpg

@@ -11,10 +11,10 @@ idd: 1442189260
 released: 2018-11-29
 updated: 2021-06-04
 version: "2.0.8"
-score: 4.85774
+stars: 4.85774
 reviews: 1427
 size: 48419840
-developerWebsite: https://www.bexplus.com
+website: https://www.bexplus.com
 repository: 
 issue: 
 icon: com.mhc.bexplus.jpg

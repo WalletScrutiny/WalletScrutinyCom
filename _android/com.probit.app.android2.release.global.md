@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.probit.app.android2.release.global
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "1.31.12"
+version: "1.31.12"
 stars: 3.8
 ratings: 4231
 reviews: 2653

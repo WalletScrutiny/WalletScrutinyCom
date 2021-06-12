@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.bokucoin.app
-launchDate: 
+released: 
 latestUpdate: 2020-10-10
-apkVersionName: "1.5"
+version: "1.5"
 stars: 5.0
 ratings: 8
 reviews: 6

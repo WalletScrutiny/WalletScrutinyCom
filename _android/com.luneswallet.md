@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.luneswallet
-launchDate: 2018-01-31
+released: 2018-01-31
 latestUpdate: 2018-12-06
-apkVersionName: "2.1"
+version: "2.1"
 stars: 4.2
 ratings: 263
 reviews: 176

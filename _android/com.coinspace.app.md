@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.coinspace.app
-launchDate: 2015-05-01
+released: 2015-05-01
 latestUpdate: 2021-04-13
-apkVersionName: "3.0.8"
+version: "3.0.8"
 stars: 3.7
 ratings: 912
 reviews: 410

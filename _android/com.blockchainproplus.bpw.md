@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.blockchainproplus.bpw
-launchDate: 
+released: 
 latestUpdate: 2021-04-23
-apkVersionName: "1.1.1"
+version: "1.1.1"
 stars: 4.1
 ratings: 55
 reviews: 25

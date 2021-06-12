@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.mycelium.wallet
-launchDate: 2013-07-01
+released: 2013-07-01
 latestUpdate: 2021-05-31
-apkVersionName: "3.10.0.1"
+version: "3.10.0.1"
 stars: 4.2
 ratings: 10812
 reviews: 4926

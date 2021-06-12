@@ -10,10 +10,10 @@ idd: 1234231551
 released: 2017-06-06
 updated: 2021-06-03
 version: "4.8.0"
-score: 4.18182
+stars: 4.18182
 reviews: 176
 size: 150498304
-developerWebsite: https://www.coincola.com
+website: https://www.coincola.com
 repository: 
 issue: 
 icon: com.coincola.beta.jpg

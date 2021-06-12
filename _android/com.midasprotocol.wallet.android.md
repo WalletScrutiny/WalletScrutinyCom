@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.midasprotocol.wallet.android
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "2.0.1"
+version: "2.0.1"
 stars: 4.2
 ratings: 434
 reviews: 269

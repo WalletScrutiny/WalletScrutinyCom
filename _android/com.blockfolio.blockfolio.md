@@ -6,9 +6,9 @@ authors:
 
 users: 1000000
 appId: com.blockfolio.blockfolio
-launchDate: 2015-10-01
+released: 2015-10-01
 latestUpdate: 2021-06-10
-apkVersionName: "3.1.0"
+version: "3.1.0"
 stars: 4.3
 ratings: 146651
 reviews: 44581

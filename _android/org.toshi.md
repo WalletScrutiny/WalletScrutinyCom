@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: org.toshi
-launchDate: 2017-09-20
+released: 2017-09-20
 latestUpdate: 2021-05-20
-apkVersionName: "24.1.372"
+version: "24.1.372"
 stars: 3.8
 ratings: 21615
 reviews: 9194

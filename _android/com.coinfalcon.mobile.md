@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.coinfalcon.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-02-08
-apkVersionName: "2.1.13"
+version: "2.1.13"
 stars: 3.1
 ratings: 94
 reviews: 66

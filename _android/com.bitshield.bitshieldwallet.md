@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.bitshield.bitshieldwallet
-launchDate: 2020-06-09
+released: 2020-06-09
 latestUpdate: 2021-04-12
-apkVersionName: "1.28"
+version: "1.28"
 stars: 4.9
 ratings: 1541
 reviews: 1057

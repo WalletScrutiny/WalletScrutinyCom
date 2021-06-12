@@ -10,10 +10,10 @@ idd: 1438228771
 released: 2018-10-09
 updated: 2018-10-09
 version: "1.0"
-score: 4.3
+stars: 4.3
 reviews: 10
 size: 32704512
-developerWebsite: https://www.bitplazashopping.com/
+website: https://www.bitplazashopping.com/
 repository: 
 issue: 
 icon: com.bitplaza.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: io.horizontalsystems.bankwallet
-launchDate: 2018-12-18
+released: 2018-12-18
 latestUpdate: 2021-06-03
-apkVersionName: "0.21.3"
+version: "0.21.3"
 stars: 3.9
 ratings: 397
 reviews: 333

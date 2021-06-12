@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.sixpencer.simplework
-launchDate: 
+released: 
 latestUpdate: 2021-05-22
-apkVersionName: "1.4.0"
+version: "1.4.0"
 stars: 4.5
 ratings: 153
 reviews: 74

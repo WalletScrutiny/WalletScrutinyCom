@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.uphold.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-02
-apkVersionName: "4.15.35"
+version: "4.15.35"
 stars: 3.3
 ratings: 14649
 reviews: 9082

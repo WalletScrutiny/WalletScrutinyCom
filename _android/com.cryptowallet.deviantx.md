@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.cryptowallet.deviantx
-launchDate: 
+released: 
 latestUpdate: 2019-08-01
-apkVersionName: "2.6"
+version: "2.6"
 stars: 3.6
 ratings: 29
 reviews: 15

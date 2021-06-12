@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 500
 appId: com.lightning.denryu
-launchDate: 
+released: 
 latestUpdate: 2018-12-26
-apkVersionName: "0.1"
+version: "0.1"
 stars: 2.5
 ratings: 17
 reviews: 12

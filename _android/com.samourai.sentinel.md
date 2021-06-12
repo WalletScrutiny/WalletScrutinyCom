@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: com.samourai.sentinel
-launchDate: 
+released: 
 latestUpdate: 2021-04-13
-apkVersionName: "4.0.2"
+version: "4.0.2"
 stars: 3.7
 ratings: 298
 reviews: 161

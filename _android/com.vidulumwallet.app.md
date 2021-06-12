@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.vidulumwallet.app
-launchDate: 
+released: 
 latestUpdate: 2019-04-05
-apkVersionName: "1.2"
+version: "1.2"
 stars: 4.2
 ratings: 82
 reviews: 64

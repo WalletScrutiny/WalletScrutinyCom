@@ -10,10 +10,10 @@ idd: 1473941321
 released: 2019-07-28
 updated: 2020-12-14
 version: "1.1.27"
-score: 4
+stars: 4
 reviews: 1
 size: 20524032
-developerWebsite: http://keywalletpro.io
+website: http://keywalletpro.io
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg

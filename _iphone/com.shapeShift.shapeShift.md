@@ -10,10 +10,10 @@ idd: 996569075
 released: 2015-06-09
 updated: 2021-05-27
 version: "2.15.0"
-score: 2.79704
+stars: 2.79704
 reviews: 473
 size: 70862848
-developerWebsite: https://shapeshift.com
+website: https://shapeshift.com
 repository: 
 issue: 
 icon: com.shapeShift.shapeShift.jpg

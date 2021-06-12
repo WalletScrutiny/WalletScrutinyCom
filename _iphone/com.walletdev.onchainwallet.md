@@ -11,10 +11,10 @@ idd: 1433883012
 released: 2018-09-29
 updated: 2021-06-10
 version: "2.7.10"
-score: 4.63213
+stars: 4.63213
 reviews: 280
 size: 94894080
-developerWebsite: https://www.huobiwallet.com/en/
+website: https://www.huobiwallet.com/en/
 repository: 
 issue: 
 icon: com.walletdev.onchainwallet.jpg

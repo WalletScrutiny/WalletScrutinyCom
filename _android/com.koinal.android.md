@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.koinal.android
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "1.2.6"
+version: "1.2.6"
 stars: 4.6
 ratings: 385
 reviews: 241

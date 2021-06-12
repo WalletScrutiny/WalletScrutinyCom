@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.bittrex.trade
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "1.14.1"
+version: "1.14.1"
 stars: 2.1
 ratings: 1612
 reviews: 1100

@@ -10,10 +10,10 @@ idd: 1475759236
 released: 2019-09-06
 updated: 2021-06-03
 version: "2.84"
-score: 4.6699
+stars: 4.6699
 reviews: 103
 size: 60088320
-developerWebsite: https://nash.io
+website: https://nash.io
 repository: 
 issue: 
 icon: io.nash.app.jpg

@@ -10,10 +10,10 @@ idd: 1525584688
 released: 2020-08-26
 updated: 2021-06-01
 version: "4.2.2"
-score: 4.33524
+stars: 4.33524
 reviews: 349
 size: 124625920
-developerWebsite: https://klever.io
+website: https://klever.io
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.jpg

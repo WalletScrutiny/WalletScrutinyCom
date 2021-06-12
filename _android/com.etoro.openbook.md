@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: com.etoro.openbook
-launchDate: 2013-11-05
+released: 2013-11-05
 latestUpdate: 2021-06-09
-apkVersionName: "328.0.0"
+version: "328.0.0"
 stars: 4.2
 ratings: 85626
 reviews: 33300

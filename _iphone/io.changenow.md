@@ -10,10 +10,10 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2021-06-07
 version: "1.5.4"
-score: 4.28205
+stars: 4.28205
 reviews: 273
 size: 36276224
-developerWebsite: http://changenow.io
+website: http://changenow.io
 repository: 
 issue: 
 icon: io.changenow.jpg

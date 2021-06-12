@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.bitpay.wallet
-launchDate: 2016-10-01
+released: 2016-10-01
 latestUpdate: 2021-05-31
-apkVersionName: "12.5.6"
+version: "12.5.6"
 stars: 3.6
 ratings: 8771
 reviews: 4173

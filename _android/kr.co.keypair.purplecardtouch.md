@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: kr.co.keypair.purplecardtouch
-launchDate: 
+released: 
 latestUpdate: 2019-07-17
-apkVersionName: "1.0.0.45"
+version: "1.0.0.45"
 stars: 0.0
 ratings: 
 reviews: 

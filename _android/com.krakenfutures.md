@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.krakenfutures
-launchDate: 
+released: 
 latestUpdate: 2021-03-24
-apkVersionName: "5.24.0"
+version: "5.24.0"
 stars: 3.3
 ratings: 94
 reviews: 42

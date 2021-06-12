@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.eletac.tronwallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-30
-apkVersionName: "1.2.9"
+version: "1.2.9"
 stars: 4.6
 ratings: 1157
 reviews: 601

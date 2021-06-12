@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.polehin.android
-launchDate: 2019-01-01
+released: 2019-01-01
 latestUpdate: 2021-06-07
-apkVersionName: "3.5.6"
+version: "3.5.6"
 stars: 4.3
 ratings: 19694
 reviews: 11722

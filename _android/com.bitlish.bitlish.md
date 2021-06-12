@@ -4,9 +4,9 @@ altTitle:
 
 users: 10000
 appId: com.bitlish.bitlish
-launchDate: 2017-07-11
+released: 2017-07-11
 latestUpdate: 2020-01-20
-apkVersionName: "2.0.10"
+version: "2.0.10"
 stars: 4
 ratings: 225
 reviews: 177

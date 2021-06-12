@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.bitcoin.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "1.0.3.7"
+version: "1.0.3.7"
 stars: 4.4
 ratings: 669
 reviews: 139

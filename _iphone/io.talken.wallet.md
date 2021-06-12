@@ -10,10 +10,10 @@ idd: 1459475831
 released: 2019-09-25
 updated: 2021-06-11
 version: "1.0.15"
-score: 
+stars: 
 reviews: 
 size: 46109696
-developerWebsite: https://talken.io/
+website: https://talken.io/
 repository: 
 issue: 
 icon: io.talken.wallet.jpg

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.mtpelerin.bridge
-launchDate: 
+released: 
 latestUpdate: 2021-05-19
-apkVersionName: "1.15"
+version: "1.15"
 stars: 4.5
 ratings: 59
 reviews: 35

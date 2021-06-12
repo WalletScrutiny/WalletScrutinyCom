@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.b4uwallet.android
-launchDate: 
+released: 
 latestUpdate: 2021-04-22
-apkVersionName: "4.3.4"
+version: "4.3.4"
 stars: 3.7
 ratings: 123
 reviews: 70

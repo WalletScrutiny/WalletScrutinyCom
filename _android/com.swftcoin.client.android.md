@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.swftcoin.client.android
-launchDate: 
+released: 
 latestUpdate: 2021-05-26
-apkVersionName: "5.12.9"
+version: "5.12.9"
 stars: 4.5
 ratings: 1478
 reviews: 847

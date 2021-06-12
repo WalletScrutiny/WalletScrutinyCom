@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: jb.tech.blockchainpro
-launchDate: 
+released: 
 latestUpdate: 2021-04-25
-apkVersionName: "2.5"
+version: "2.5"
 stars: 4.6
 ratings: 203
 reviews: 194

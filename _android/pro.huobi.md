@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: pro.huobi
-launchDate: 
+released: 
 latestUpdate: 2021-06-09
-apkVersionName: "6.3.4"
+version: "6.3.4"
 stars: 4.5
 ratings: 10
 reviews: 4

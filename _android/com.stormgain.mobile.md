@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.stormgain.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-04-26
-apkVersionName: "1.17.0"
+version: "1.17.0"
 stars: 4.3
 ratings: 36330
 reviews: 19681

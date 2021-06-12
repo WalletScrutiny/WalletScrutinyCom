@@ -10,10 +10,10 @@ idd: 1421460676
 released: 2018-09-09
 updated: 2021-04-28
 version: "1.9"
-score: 3.47273
+stars: 3.47273
 reviews: 55
 size: 80210944
-developerWebsite: https://www.coincloudatm.com/app
+website: https://www.coincloudatm.com/app
 repository: 
 issue: 
 icon: com.bitpay.coincloud.jpg

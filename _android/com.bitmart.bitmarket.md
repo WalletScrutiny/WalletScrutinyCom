@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.bitmart.bitmarket
-launchDate: 
+released: 
 latestUpdate: 2021-06-03
-apkVersionName: "2.5.4"
+version: "2.5.4"
 stars: 4.0
 ratings: 13363
 reviews: 5665

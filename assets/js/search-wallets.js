@@ -66,7 +66,7 @@ function searchCatalogue(termInput) {
     var matchCounter = 0
     window.orderedObs.forEach(function (wallet) {
       if (wallet.title) {
-        let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.developerWebsite} ${wallet.category} ${wallet.verdict}`
+        let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.website} ${wallet.category} ${wallet.verdict}`
 
         if (matchCounter < 1) result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
 

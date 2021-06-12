@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.ftxmobile.ftx
-launchDate: 
+released: 
 latestUpdate: 2021-01-20
-apkVersionName: "1.1.0"
+version: "1.1.0"
 stars: 3.8
 ratings: 3430
 reviews: 1615

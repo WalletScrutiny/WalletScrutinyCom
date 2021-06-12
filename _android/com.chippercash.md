@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.chippercash
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "1.9.6"
+version: "1.9.6"
 stars: 4.2
 ratings: 29591
 reviews: 18597

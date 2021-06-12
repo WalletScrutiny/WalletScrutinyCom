@@ -6,9 +6,9 @@ authors:
 
 users: 500000
 appId: com.blocktrail.mywallet
-launchDate: 
+released: 
 latestUpdate: 2019-04-03
-apkVersionName: "4.4.7"
+version: "4.4.7"
 stars: 3.4
 ratings: 8129
 reviews: 3863

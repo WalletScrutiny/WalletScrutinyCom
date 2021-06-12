@@ -10,10 +10,10 @@ idd: 1546824976
 released: 2021-01-25
 updated: 2021-04-30
 version: "1.3.0"
-score: 1
+stars: 1
 reviews: 1
 size: 49009664
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: co.bacoor.keyring.jpg

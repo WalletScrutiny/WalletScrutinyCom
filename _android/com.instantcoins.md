@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.instantcoins
-launchDate: 
+released: 
 latestUpdate: 2021-04-05
-apkVersionName: "1.0.6"
+version: "1.0.6"
 stars: 3.9
 ratings: 168
 reviews: 136

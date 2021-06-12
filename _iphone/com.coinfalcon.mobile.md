@@ -10,10 +10,10 @@ idd: 1396963260
 released: 2018-10-05
 updated: 2021-02-09
 version: "2.1.13"
-score: 3.36364
+stars: 3.36364
 reviews: 11
 size: 52423680
-developerWebsite: https://coinfalcon.com
+website: https://coinfalcon.com
 repository: 
 issue: 
 icon: com.coinfalcon.mobile.jpg

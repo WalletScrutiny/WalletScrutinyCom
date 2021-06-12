@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.paxful.wallet
-launchDate: 2019-04-30
+released: 2019-04-30
 latestUpdate: 2021-06-09
-apkVersionName: "2.0.3.610"
+version: "2.0.3.610"
 stars: 3.8
 ratings: 17822
 reviews: 10370

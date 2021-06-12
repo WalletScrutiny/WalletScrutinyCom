@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100
 appId: at.bitpocket.pos
-launchDate: 
+released: 
 latestUpdate: 2017-10-20
-apkVersionName: "1.1.8"
+version: "1.1.8"
 stars: 4.8
 ratings: 5
 reviews: 3

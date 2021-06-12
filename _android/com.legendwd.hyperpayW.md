@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.legendwd.hyperpayW
-launchDate: 
+released: 
 latestUpdate: 2021-05-08
-apkVersionName: "4.0.25"
+version: "4.0.25"
 stars: 5.0
 ratings: 1800
 reviews: 1456

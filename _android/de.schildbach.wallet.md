@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000000
 appId: de.schildbach.wallet
-launchDate: 2011-03-01
+released: 2011-03-01
 latestUpdate: 2021-05-30
-apkVersionName: "8.14"
+version: "8.14"
 stars: 3.9
 ratings: 27647
 reviews: 9085

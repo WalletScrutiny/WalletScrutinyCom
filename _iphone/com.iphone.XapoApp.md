@@ -10,10 +10,10 @@ idd: 917692892
 released: 2014-11-13
 updated: 2021-05-19
 version: "6.11.4"
-score: 3.95172
+stars: 3.95172
 reviews: 145
 size: 151842816
-developerWebsite: https://xapo.com
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.iphone.XapoApp.jpg

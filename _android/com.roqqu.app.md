@@ -7,9 +7,9 @@ authors:
 - leo
 users: 500000
 appId: com.roqqu.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-10
-apkVersionName: "1.4.0"
+version: "1.4.0"
 stars: 2.7
 ratings: 13768
 reviews: 9906

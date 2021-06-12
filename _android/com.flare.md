@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.flare
-launchDate: 2020-02-22
+released: 2020-02-22
 latestUpdate: 2021-03-13
-apkVersionName: "1.4.0"
+version: "1.4.0"
 stars: 3.8
 ratings: 225
 reviews: 189

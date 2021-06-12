@@ -10,10 +10,10 @@ idd: 1417802076
 released: 2018-08-09
 updated: 2021-06-09
 version: "1.0.52"
-score: 2.77778
+stars: 2.77778
 reviews: 9
 size: 46167040
-developerWebsite: https://quppy.com
+website: https://quppy.com
 repository: 
 issue: 
 icon: com.quppy.wallet.jpg

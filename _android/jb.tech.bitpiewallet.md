@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: jb.tech.bitpiewallet
-launchDate: 
+released: 
 latestUpdate: 2021-02-01
-apkVersionName: "1.3"
+version: "1.3"
 stars: 4.0
 ratings: 71
 reviews: 69

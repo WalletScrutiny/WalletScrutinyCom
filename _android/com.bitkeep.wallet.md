@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.bitkeep.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-28
-apkVersionName: "6.0.1"
+version: "6.0.1"
 stars: 3.3
 ratings: 377
 reviews: 196

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: net.bitstamp.app
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "2.2.1"
+version: "2.2.1"
 stars: 4.3
 ratings: 9970
 reviews: 2776

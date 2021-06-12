@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: de.fuf.bitbucks
-launchDate: 2019-09-03
+released: 2019-09-03
 latestUpdate: 2021-03-18
-apkVersionName: "1.4.1"
+version: "1.4.1"
 stars: 4.2
 ratings: 40
 reviews: 15

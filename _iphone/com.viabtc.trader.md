@@ -10,10 +10,10 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2021-06-12
 version: "2.9.9"
-score: 4.48276
+stars: 4.48276
 reviews: 725
 size: 135159808
-developerWebsite: https://www.coinex.com
+website: https://www.coinex.com
 repository: 
 issue: 
 icon: com.viabtc.trader.jpg

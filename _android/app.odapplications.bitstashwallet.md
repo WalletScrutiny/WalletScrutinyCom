@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: app.odapplications.bitstashwallet
-launchDate: 
+released: 
 latestUpdate: 2019-11-24
-apkVersionName: "0.0.3"
+version: "0.0.3"
 stars: 0.0
 ratings: 
 reviews: 

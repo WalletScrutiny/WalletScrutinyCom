@@ -10,10 +10,10 @@ idd: 1321754661
 released: 2019-01-26
 updated: 2020-12-29
 version: "2.9.4"
-score: 3.97468
+stars: 3.97468
 reviews: 79
 size: 276264960
-developerWebsite: https://pundix.com
+website: https://pundix.com
 repository: 
 issue: 
 icon: com.pundix.wallet.jpg

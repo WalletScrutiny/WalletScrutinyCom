@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.vault
-launchDate: 2018-10-14
+released: 2018-10-14
 latestUpdate: 2021-02-20
-apkVersionName: "1.5.5"
+version: "1.5.5"
 stars: 5.0
 ratings: 8
 reviews: 4

@@ -5,9 +5,9 @@ altTitle:
 
 users: 10000
 appId: co.okex.app
-launchDate: 
+released: 
 latestUpdate: 2020-12-06
-apkVersionName: "2.6.0"
+version: "2.6.0"
 stars: 3.9
 ratings: 551
 reviews: 243

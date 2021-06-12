@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: net.bitbay.bitcoin
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "1.1.20"
+version: "1.1.20"
 stars: 2.9
 ratings: 888
 reviews: 478

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
-launchDate: 2015-01-01
+released: 2015-01-01
 latestUpdate: 2021-06-03
-apkVersionName: "3.6.0"
+version: "3.6.0"
 stars: 3.7
 ratings: 794
 reviews: 440

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.breez.client
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

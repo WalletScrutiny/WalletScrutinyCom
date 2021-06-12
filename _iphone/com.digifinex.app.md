@@ -10,10 +10,10 @@ idd: 1397735851
 released: 2018-08-25
 updated: 2021-06-04
 version: "2021.06.02"
-score: 2.33333
+stars: 2.33333
 reviews: 6
 size: 375119872
-developerWebsite: https://www.digifinex.com
+website: https://www.digifinex.com
 repository: 
 issue: 
 icon: com.digifinex.app.jpg

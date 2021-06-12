@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: io.eidoo.wallet.prodnet
-launchDate: 2017-09-25
+released: 2017-09-25
 latestUpdate: 2021-05-28
-apkVersionName: "3.1.0"
+version: "3.1.0"
 stars: 3.0
 ratings: 1599
 reviews: 797

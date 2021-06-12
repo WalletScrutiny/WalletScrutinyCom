@@ -10,10 +10,10 @@ idd: 1384798940
 released: 2018-06-07
 updated: 2021-06-07
 version: "2.9.3"
-score: 4.56604
+stars: 4.56604
 reviews: 265
 size: 112914432
-developerWebsite: https://token.im
+website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.jpg

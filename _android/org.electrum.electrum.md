@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: org.electrum.electrum
-launchDate: 2016-03-02
+released: 2016-03-02
 latestUpdate: 2021-04-08
-apkVersionName: "4.1.2.0"
+version: "4.1.2.0"
 stars: 3.2
 ratings: 2206
 reviews: 1319

@@ -10,10 +10,10 @@ idd: 1223340174
 released: 2017-06-08
 updated: 2021-06-11
 version: "1.31"
-score: 4.51952
+stars: 4.51952
 reviews: 256
 size: 78146560
-developerWebsite: https://cryptopay.me/
+website: https://cryptopay.me/
 repository: 
 issue: 
 icon: me.cryptopay.app.jpg

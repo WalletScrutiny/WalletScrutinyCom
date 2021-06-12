@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: kr.co.keypair.nextouch
-launchDate: 
+released: 
 latestUpdate: 2019-07-22
-apkVersionName: "1.0.0.57"
+version: "1.0.0.57"
 stars: 3.4
 ratings: 9
 reviews: 5

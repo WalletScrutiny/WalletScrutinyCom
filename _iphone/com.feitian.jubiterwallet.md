@@ -10,10 +10,10 @@ idd: 1518743276
 released: 2020-06-27
 updated: 2021-05-24
 version: "2.4.0"
-score: 
+stars: 
 reviews: 
 size: 75744256
-developerWebsite: http://www.jubiterwallet.com
+website: http://www.jubiterwallet.com
 repository: 
 issue: 
 icon: com.feitian.jubiterwallet.jpg

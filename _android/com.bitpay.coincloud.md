@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.bitpay.coincloud
-launchDate: 
+released: 
 latestUpdate: 2021-04-27
-apkVersionName: "11.2.21"
+version: "11.2.21"
 stars: 3.6
 ratings: 131
 reviews: 58

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.bitcoinofamerica.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-04-28
-apkVersionName: "1.1.3"
+version: "1.1.3"
 stars: 4.4
 ratings: 172
 reviews: 52

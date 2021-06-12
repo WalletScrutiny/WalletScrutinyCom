@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.ripio.android
-launchDate: 2015-06-01
+released: 2015-06-01
 latestUpdate: 2021-05-18
-apkVersionName: "4.10.6"
+version: "4.10.6"
 stars: 3.6
 ratings: 19207
 reviews: 9521

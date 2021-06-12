@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.plusbit
-launchDate: 
+released: 
 latestUpdate: 2020-07-12
-apkVersionName: "1.0"
+version: "1.0"
 stars: 4.9
 ratings: 92
 reviews: 87

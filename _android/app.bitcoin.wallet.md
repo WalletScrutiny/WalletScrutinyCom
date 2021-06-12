@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: app.bitcoin.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-04-10
-apkVersionName: "8.11"
+version: "8.11"
 stars: 5.0
 ratings: 13
 reviews: 1

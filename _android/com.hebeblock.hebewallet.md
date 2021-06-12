@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.hebeblock.hebewallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-26
-apkVersionName: "1.3.33"
+version: "1.3.33"
 stars: 2.9
 ratings: 18
 reviews: 12

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.coinpay
-launchDate: 
+released: 
 latestUpdate: 2020-08-23
-apkVersionName: "1.0.7"
+version: "1.0.7"
 stars: 3.8
 ratings: 19
 reviews: 15

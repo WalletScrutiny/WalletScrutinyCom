@@ -10,10 +10,10 @@ idd: 1450373493
 released: 2019-02-03
 updated: 2021-06-03
 version: "2.6.13"
-score: 4
+stars: 4
 reviews: 52
 size: 65311744
-developerWebsite: https://busha.co
+website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.apple.jpg

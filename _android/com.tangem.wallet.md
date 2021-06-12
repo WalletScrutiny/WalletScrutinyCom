@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.tangem.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-27
-apkVersionName: "3.15"
+version: "3.15"
 stars: 4.5
 ratings: 54
 reviews: 18

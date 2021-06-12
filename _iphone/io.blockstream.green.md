@@ -10,10 +10,10 @@ idd: 1402243590
 released: 2019-03-22
 updated: 2021-06-07
 version: "3.6.0"
-score: 3.9
+stars: 3.9
 reviews: 90
 size: 34463744
-developerWebsite: https://blockstream.green
+website: https://blockstream.green
 repository: 
 issue: 
 icon: io.blockstream.green.jpg

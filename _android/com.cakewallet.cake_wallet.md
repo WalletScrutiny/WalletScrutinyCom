@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50000
 appId: com.cakewallet.cake_wallet
-launchDate: 
+released: 
 latestUpdate: 2021-06-10
-apkVersionName: "4.2.3"
+version: "4.2.3"
 stars: 3.7
 ratings: 516
 reviews: 332

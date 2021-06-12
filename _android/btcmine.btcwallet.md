@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: btcmine.btcwallet
-launchDate: 
+released: 
 latestUpdate: 2017-08-13
-apkVersionName: "1.1"
+version: "1.1"
 stars: 3.8
 ratings: 15
 reviews: 7

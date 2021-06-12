@@ -10,10 +10,10 @@ idd: 1479545928
 released: 2019-09-14
 updated: 2021-02-23
 version: "2.34"
-score: 4.42105
+stars: 4.42105
 reviews: 38
 size: 52318208
-developerWebsite: 
+website: 
 repository: 
 issue: 
 icon: com.iwallet.iwallet.jpg

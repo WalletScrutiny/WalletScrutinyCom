@@ -10,10 +10,10 @@ idd: 1523044877
 released: 2020-07-20
 updated: 2020-09-08
 version: "1.0.5"
-score: 4.25
+stars: 4.25
 reviews: 32
 size: 80958464
-developerWebsite: https://bitcoin.black
+website: https://bitcoin.black
 repository: 
 issue: 
 icon: com.bitcoinblack.wallet.jpg

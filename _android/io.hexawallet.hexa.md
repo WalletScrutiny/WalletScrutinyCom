@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: io.hexawallet.hexa
-launchDate: 
+released: 
 latestUpdate: 2021-05-05
-apkVersionName: "1.6.5"
+version: "1.6.5"
 stars: 3.8
 ratings: 20
 reviews: 12

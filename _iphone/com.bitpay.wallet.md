@@ -10,10 +10,10 @@ idd: 1149581638
 released: 2016-10-24
 updated: 2021-05-31
 version: "12.5.6"
-score: 3.98731
+stars: 3.98731
 reviews: 1182
 size: 87633920
-developerWebsite: https://bitpay.com
+website: https://bitpay.com
 repository: 
 issue: 
 icon: com.bitpay.wallet.jpg

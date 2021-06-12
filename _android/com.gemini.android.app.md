@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: com.gemini.android.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-09
-apkVersionName: "3.19.1"
+version: "3.19.1"
 stars: 4.5
 ratings: 17355
 reviews: 3896

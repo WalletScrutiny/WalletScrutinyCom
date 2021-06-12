@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.androidwallet
-launchDate: 
+released: 
 latestUpdate: 2020-04-09
-apkVersionName: "1.1.20"
+version: "1.1.20"
 stars: 4.8
 ratings: 434
 reviews: 421

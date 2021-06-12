@@ -10,10 +10,10 @@ idd: 1484394401
 released: 2020-11-28
 updated: 2021-05-29
 version: "2.9"
-score: 4.75
+stars: 4.75
 reviews: 8
 size: 103621632
-developerWebsite: https://zebedee.io
+website: https://zebedee.io
 repository: 
 issue: 
 icon: io.zebedee.wallet.jpg

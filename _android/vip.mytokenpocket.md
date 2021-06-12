@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000000
 appId: vip.mytokenpocket
-launchDate: 
+released: 
 latestUpdate: 2021-06-11
-apkVersionName: "1.2.8"
+version: "1.2.8"
 stars: 4.3
 ratings: 7347
 reviews: 3444

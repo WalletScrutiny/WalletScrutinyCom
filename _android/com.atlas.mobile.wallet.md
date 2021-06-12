@@ -4,9 +4,9 @@ altTitle:
 
 users: 100
 appId: com.atlas.mobile.wallet
-launchDate: 
+released: 
 latestUpdate: 2020-10-29
-apkVersionName: "1.0.11"
+version: "1.0.11"
 stars: 5.0
 ratings: 15
 reviews: 10

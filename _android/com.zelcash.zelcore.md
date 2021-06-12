@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: com.zelcash.zelcore
-launchDate: 2018-09-21
+released: 2018-09-21
 latestUpdate: 2021-06-08
-apkVersionName: "4.11.0"
+version: "4.11.0"
 stars: 3.5
 ratings: 461
 reviews: 318

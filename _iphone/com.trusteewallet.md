@@ -10,10 +10,10 @@ idd: 1462924276
 released: 2019-06-14
 updated: 2021-06-07
 version: "1.40.829"
-score: 4.44444
+stars: 4.44444
 reviews: 18
 size: 69184512
-developerWebsite: https://trusteeglobal.com/
+website: https://trusteeglobal.com/
 repository: 
 issue: 
 icon: com.trusteewallet.jpg

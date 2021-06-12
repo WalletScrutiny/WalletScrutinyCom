@@ -11,10 +11,10 @@ idd: 1095716562
 released: 2016-09-02
 updated: 2021-02-26
 version: "2.9.1"
-score: 4.74179
+stars: 4.74179
 reviews: 3958
 size: 23987200
-developerWebsite: https://tab-trader.com
+website: https://tab-trader.com
 repository: 
 issue: 
 icon: com.tabtrader.apps.TabTrader.jpg

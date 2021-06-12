@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: com.bybit.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-08
-apkVersionName: "2.3.1"
+version: "2.3.1"
 stars: 3.3
 ratings: 3904
 reviews: 1841

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000
 appId: zapsolutions.zap
-launchDate: 
+released: 
 latestUpdate: 2021-04-03
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

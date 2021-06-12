@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.bitcoin.wallet.btc
-launchDate: 2019-05-01
+released: 2019-05-01
 latestUpdate: 2021-06-08
-apkVersionName: "2.2.7"
+version: "2.2.7"
 stars: 4.3
 ratings: 4216
 reviews: 795

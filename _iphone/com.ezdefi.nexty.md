@@ -10,10 +10,10 @@ idd: 1492046549
 released: 2019-12-18
 updated: 2021-05-13
 version: "0.3.5"
-score: 4.5
+stars: 4.5
 reviews: 16
 size: 60653568
-developerWebsite: https://ezdefi.com/
+website: https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.nexty.jpg

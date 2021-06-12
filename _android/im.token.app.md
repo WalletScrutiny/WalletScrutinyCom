@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500000
 appId: im.token.app
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "2.9.3"
+version: "2.9.3"
 stars: 4.2
 ratings: 2827
 reviews: 1583

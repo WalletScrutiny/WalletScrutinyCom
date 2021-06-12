@@ -4,9 +4,9 @@ altTitle:
 
 users: 1000
 appId: com.chameleon.wallet
-launchDate: 2019-02-22
+released: 2019-02-22
 latestUpdate: 2019-10-16
-apkVersionName: "4.0.3"
+version: "4.0.3"
 stars: 4.5
 ratings: 75
 reviews: 61

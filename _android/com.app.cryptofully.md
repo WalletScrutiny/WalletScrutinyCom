@@ -7,9 +7,9 @@ authors:
 - leo
 users: 5000
 appId: com.app.cryptofully
-launchDate: 
+released: 
 latestUpdate: 2021-06-07
-apkVersionName: "1.2.4"
+version: "1.2.4"
 stars: 4.2
 ratings: 306
 reviews: 120

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: casa.keymaster
-launchDate: 
+released: 
 latestUpdate: 2021-06-11
-apkVersionName: "3.1.1"
+version: "3.1.1"
 stars: 4.5
 ratings: 124
 reviews: 27

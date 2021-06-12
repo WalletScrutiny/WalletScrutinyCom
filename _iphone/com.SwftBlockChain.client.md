@@ -10,10 +10,10 @@ idd: 1435569339
 released: 2018-09-28
 updated: 2021-06-01
 version: "5.11.10"
-score: 4.46957
+stars: 4.46957
 reviews: 115
 size: 116655104
-developerWebsite: http://www.swft.pro
+website: http://www.swft.pro
 repository: 
 issue: 
 icon: com.SwftBlockChain.client.jpg

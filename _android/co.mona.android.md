@@ -6,9 +6,9 @@ authors:
 - leo
 users: 10000000
 appId: co.mona.android
-launchDate: 2017-08-30
+released: 2017-08-30
 latestUpdate: 2021-05-28
-apkVersionName: "3.98.0"
+version: "3.98.0"
 stars: 4.2
 ratings: 126869
 reviews: 45850

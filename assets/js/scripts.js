@@ -132,12 +132,12 @@ function updateModularPayload() {
                 ${obj.downloads ? `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>` : ``}
                 ${obj.users && obj.stars ? (`<tr><td>Rating</td><td>${obj.stars ? (`${obj.stars} stars by `) : ``}${obj.users} users</td></tr>`) : ``}
                 ${obj.size ? `<tr><td>App size</td><td>${obj.size}</td></tr>` : ``}
-                ${obj.launchDate ? (`<tr><td>Launched</td><td>${obj.launchDate}</td></tr>`):``}
+                ${obj.released ? (`<tr><td>Launched</td><td>${obj.released}</td></tr>`):``}
                 <tr><td>Reviewed</td><td>${obj.date}</td></tr>
                 <tr><td>${obj.category}</td><td>
                 ${obj.idd ? (`<a href="https://apps.apple.com/us/app/id${obj.idd}">${obj.appId}</a>`): (`<a href="https://play.google.com/store/apps/details?id=${obj.appId}">${obj.appId}</a>`)}
                 </td></tr>
-                ${obj.developerWebsite ? `<tr><td>Website</td><td><a href="${obj.developerWebsite}">${obj.developerWebsite}</a></td></tr>` : ``}
+                ${obj.website ? `<tr><td>Website</td><td><a href="${obj.website}">${obj.website}</a></td></tr>` : ``}
                 ${obj.repository ? `<tr><td>Source Code</td><td><a href="${obj.repository}">${obj.repository}</a></td></tr>` : ``}
                 ${obj.issue ? (`<tr><td>Open Issue</td><td><a href="${obj.issue}">${obj.issue}</a></td></tr>`):``}
               </tbody></table>

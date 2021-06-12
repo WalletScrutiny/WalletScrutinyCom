@@ -11,10 +11,10 @@ idd: 1047225016
 released: 2015-12-22
 updated: 2021-05-06
 version: "7.0.1"
-score: 4.59766
+stars: 4.59766
 reviews: 3932
 size: 83140608
-developerWebsite: https://cex.io
+website: https://cex.io
 repository: 
 issue: 
 icon: io.cex.app.jpg

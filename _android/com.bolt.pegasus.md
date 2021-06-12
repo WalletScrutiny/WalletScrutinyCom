@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.bolt.pegasus
-launchDate: 
+released: 
 latestUpdate: 2021-03-11
-apkVersionName: "1.19.0"
+version: "1.19.0"
 stars: 4.7
 ratings: 355
 reviews: 292

@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.iqfinex
-launchDate: 
+released: 
 latestUpdate: 2019-01-24
-apkVersionName: "1.0.4"
+version: "1.0.4"
 stars: 4.8
 ratings: 270
 reviews: 261

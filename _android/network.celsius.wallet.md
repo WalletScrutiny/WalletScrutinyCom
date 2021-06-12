@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: network.celsius.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-05-31
-apkVersionName: "4.9.0"
+version: "4.9.0"
 stars: 3.1
 ratings: 4991
 reviews: 3642

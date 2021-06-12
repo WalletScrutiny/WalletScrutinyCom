@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: tech.insense.sensewalet
-launchDate: 2018-09-27
+released: 2018-09-27
 latestUpdate: 2019-06-21
-apkVersionName: "0.0068beta"
+version: "0.0068beta"
 stars: 3.9
 ratings: 20
 reviews: 11

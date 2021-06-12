@@ -10,10 +10,10 @@ idd: 1299421592
 released: 2017-12-05
 updated: 2021-06-10
 version: "1.5.3"
-score: 2.04762
+stars: 2.04762
 reviews: 21
 size: 78427136
-developerWebsite: https://en.bithumb.com
+website: https://en.bithumb.com
 repository: 
 issue: 
 icon: com.btckorea.bithumb.jpg

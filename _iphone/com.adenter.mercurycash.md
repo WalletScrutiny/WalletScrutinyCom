@@ -10,10 +10,10 @@ idd: 1291394963
 released: 2017-10-07
 updated: 2021-03-30
 version: "4.3.0.3"
-score: 4.59649
+stars: 4.59649
 reviews: 57
 size: 78392320
-developerWebsite: https://www.mercury.cash/
+website: https://www.mercury.cash/
 repository: 
 issue: 
 icon: com.adenter.mercurycash.jpg

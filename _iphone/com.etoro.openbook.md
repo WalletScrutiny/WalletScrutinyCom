@@ -10,10 +10,10 @@ idd: 674984916
 released: 2017-06-26
 updated: 2021-06-09
 version: "328.0.0"
-score: 4.13284
+stars: 4.13284
 reviews: 3538
 size: 143237120
-developerWebsite: http://www.etoro.com
+website: http://www.etoro.com
 repository: 
 issue: 
 icon: com.etoro.openbook.jpg

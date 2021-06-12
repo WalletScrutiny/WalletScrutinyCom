@@ -10,10 +10,10 @@ idd: 1220883632
 released: 2017-05-19
 updated: 2021-02-25
 version: "2.8.5"
-score: 2
+stars: 2
 reviews: 4
 size: 75869184
-developerWebsite: https://www.bitnovo.com
+website: https://www.bitnovo.com
 repository: 
 issue: 
 icon: com.bitnovo.app.jpg

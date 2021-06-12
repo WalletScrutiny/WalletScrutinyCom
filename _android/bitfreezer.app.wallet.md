@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: bitfreezer.app.wallet
-launchDate: 
+released: 
 latestUpdate: 2021-02-18
-apkVersionName: "1.0.16"
+version: "1.0.16"
 stars: 4.1
 ratings: 59
 reviews: 21

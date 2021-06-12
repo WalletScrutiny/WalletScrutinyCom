@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.currency.exchange.prod2
-launchDate: 
+released: 
 latestUpdate: 2021-06-04
-apkVersionName: "1.13"
+version: "1.13"
 stars: 4.1
 ratings: 3231
 reviews: 1245

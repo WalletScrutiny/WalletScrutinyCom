@@ -10,10 +10,10 @@ idd: 711923939
 released: 2013-10-16
 updated: 2021-06-08
 version: "3.41.1"
-score: 4.7519
+stars: 4.7519
 reviews: 1953604
 size: 195715072
-developerWebsite: https://cash.app
+website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.jpg

@@ -6,9 +6,9 @@ authors:
 
 users: 10000
 appId: com.thinkdevs.cryptomarket
-launchDate: 
+released: 
 latestUpdate: 2021-01-19
-apkVersionName: "0.0.10"
+version: "0.0.10"
 stars: 3.7
 ratings: 118
 reviews: 68

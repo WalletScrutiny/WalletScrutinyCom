@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: cash.usdx.wallet
-launchDate: 
+released: 
 latestUpdate: 2020-11-25
-apkVersionName: "1.34.2"
+version: "1.34.2"
 stars: 4.2
 ratings: 5474
 reviews: 4682

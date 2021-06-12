@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.xcoex.mobile
-launchDate: 
+released: 
 latestUpdate: 2021-05-06
-apkVersionName: "1.17.0"
+version: "1.17.0"
 stars: 3.7
 ratings: 153
 reviews: 123

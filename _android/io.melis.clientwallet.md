@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: io.melis.clientwallet
-launchDate: 2017-01-30
+released: 2017-01-30
 latestUpdate: 2021-05-04
-apkVersionName: "1.6.21"
+version: "1.6.21"
 stars: 4.2
 ratings: 22
 reviews: 12
