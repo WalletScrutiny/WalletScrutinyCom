@@ -9,9 +9,9 @@ appId: zapsolutions.strike
 launchDate: 
 latestUpdate: 2021-05-19
 apkVersionName: "v74"
-stars: 3.4
-ratings: 2164
-reviews: 857
+stars: 3.6
+ratings: 2212
+reviews: 883
 size: 9.1M
 website: 
 repository: 

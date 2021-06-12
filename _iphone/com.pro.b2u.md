@@ -10,8 +10,8 @@ idd: 1489598378
 released: 2019-12-20
 updated: 2021-05-31
 version: "1.76"
-score: 5
-reviews: 4
+score: 4.2
+reviews: 5
 size: 118196224
 developerWebsite: https://www.bitcointoyou.com
 repository: 

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2018-11-14
 apkVersionName: "4.0"
 stars: 4.4
-ratings: 108
-reviews: 54
+ratings: 109
+reviews: 55
 size: 1.7M
 website: https://www.bitplazashopping.com
 repository: 

@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2020-06-01
 apkVersionName: "2.4"
 stars: 4.0
-ratings: 211
-reviews: 118
+ratings: 212
+reviews: 119
 size: 5.0M
 website: https://jurajkusnier.com/
 repository: https://github.com/jurajkusnier/bitcoin-balance-check/

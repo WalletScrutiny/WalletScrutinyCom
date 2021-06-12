@@ -8,11 +8,11 @@ appId: prizmbit.com
 appCountry: 
 idd: 1459094607
 released: 2019-06-14
-updated: 2021-05-13
-version: "1.6.4"
+updated: 2021-06-11
+version: "1.6.5"
 score: 3
 reviews: 2
-size: 38928384
+size: 39010304
 developerWebsite: https://prizmbit.com/
 repository: 
 issue: 

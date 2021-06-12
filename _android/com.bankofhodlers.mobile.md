@@ -10,8 +10,8 @@ launchDate:
 latestUpdate: 2021-06-04
 apkVersionName: "2.1.8"
 stars: 4.2
-ratings: 179
-reviews: 85
+ratings: 180
+reviews: 86
 size: 26M
 website: https://www.vauld.com/
 repository: 

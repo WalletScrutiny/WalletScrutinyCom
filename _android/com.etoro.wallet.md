@@ -11,7 +11,7 @@ launchDate:
 latestUpdate: 2021-05-30
 apkVersionName: "27.0.0"
 stars: 2.1
-ratings: 795
+ratings: 799
 reviews: 537
 size: 7.1M
 website: https://www.etoro.com/crypto/wallet

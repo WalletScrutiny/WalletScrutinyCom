@@ -8,11 +8,11 @@ appId: com.bitbay.BitBayTrading
 appCountry: 
 idd: 1409644952
 released: 2018-11-20
-updated: 2021-05-11
-version: "1.3.22"
+updated: 2021-06-10
+version: "1.3.23"
 score: 3.5
 reviews: 20
-size: 101161984
+size: 101788672
 developerWebsite: https://bitbay.net
 repository: 
 issue: 

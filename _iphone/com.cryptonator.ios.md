@@ -10,8 +10,8 @@ idd: 1463793201
 released: 2019-06-11
 updated: 2021-01-27
 version: "4.1.4"
-score: 2.9375
-reviews: 16
+score: 2.82353
+reviews: 17
 size: 79916032
 developerWebsite: https://www.cryptonator.com
 repository: 

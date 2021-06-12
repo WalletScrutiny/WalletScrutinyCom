@@ -4,7 +4,7 @@ title: "My Paper Wallet: Bitcoin Paper Wallet Generator"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.aniket.my_paper_wallet
 launchDate: 
 latestUpdate: 2020-12-24

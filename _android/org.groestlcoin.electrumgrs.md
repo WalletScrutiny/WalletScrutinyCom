@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: org.groestlcoin.electrumgrs
 launchDate: 
-latestUpdate: 2021-03-09
-apkVersionName: "4.0.9.0"
+latestUpdate: 2021-06-10
+apkVersionName: "4.1.2.0"
 stars: 0.0
 ratings: 
 reviews: 
-size: 20M
+size: 21M
 website: 
 repository: 
 issue: 
