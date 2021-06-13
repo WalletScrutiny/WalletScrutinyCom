@@ -10,8 +10,8 @@ released: 2019-09-10
 latestUpdate: 2021-05-24
 version: "3.0.26-btc-tx.1"
 stars: 4.7
-ratings: 687
-reviews: 352
+ratings: 689
+reviews: 354
 size: 347M
 website: https://www.sylo.io/wallet
 repository: 

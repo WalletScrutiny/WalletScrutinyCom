@@ -9,9 +9,9 @@ appId: io.nash.app
 released: 2019-08-31
 latestUpdate: 2021-06-03
 version: "7.0"
-stars: 4.3
-ratings: 616
-reviews: 258
+stars: 4.2
+ratings: 614
+reviews: 257
 size: 67M
 website: https://nash.io/
 repository: 

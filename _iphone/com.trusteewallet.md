@@ -10,8 +10,8 @@ idd: 1462924276
 released: 2019-06-14
 updated: 2021-06-07
 version: "1.40.829"
-stars: 4.44444
-reviews: 18
+stars: 4.52381
+reviews: 21
 size: 69184512
 website: https://trusteeglobal.com/
 repository: 

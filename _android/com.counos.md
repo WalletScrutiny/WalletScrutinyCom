@@ -9,9 +9,9 @@ appId: com.counos
 released: 2018-07-03
 latestUpdate: 2021-04-16
 version: "1.9.50"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.0
+ratings: 508
+reviews: 349
 size: 38M
 website: https://www.counos.io
 repository: 

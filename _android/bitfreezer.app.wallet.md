@@ -10,7 +10,7 @@ released: 2019-09-18
 latestUpdate: 2021-02-18
 version: "1.0.16"
 stars: 4.1
-ratings: 59
+ratings: 58
 reviews: 21
 size: 32M
 website: https://bitfreezer.app/

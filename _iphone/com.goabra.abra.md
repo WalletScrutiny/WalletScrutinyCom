@@ -10,8 +10,8 @@ idd: 966301394
 released: 2015-03-12
 updated: 2021-06-01
 version: "98.3.0"
-stars: 4.56561
-reviews: 15364
+stars: 4.56587
+reviews: 15371
 size: 123325440
 website: 
 repository: 

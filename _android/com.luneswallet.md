@@ -10,8 +10,8 @@ released: 2018-01-31
 latestUpdate: 2018-12-06
 version: "2.1"
 stars: 4.2
-ratings: 263
-reviews: 176
+ratings: 265
+reviews: 178
 size: 7.3M
 website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile
