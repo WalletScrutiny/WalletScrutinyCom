@@ -50,7 +50,7 @@ client.get_invoices({status: "complete"}).then( invoices => {
     if (s > 0) {
       var cat = item[0]
       total += s
-      file.write(`<tr><td>${cat}</td><td>${getPrettyAmount(s)}</td></tr>`)
+      file.write(`<tr><td>${cat}</td><td>${getPrettyAmount(s)}</td></tr>\n`)
     }
   }
   file.write(`<tr><th>Total</th><th>${getPrettyAmount(total)}</th></tr>
