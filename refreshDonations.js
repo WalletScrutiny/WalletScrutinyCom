@@ -25,8 +25,10 @@ const sum = {
 
 client.get_invoices({status: "complete"}).then( invoices => {
   const historyCount = 20
-  file.write(`<h3>${historyCount} most recent donations</h3>\n<table>`)
-  file.write(`<tr><th>Date</th><th>Amount</th><th>Category</th></tr>\n`)
+  file.write(`<h3>${historyCount} most recent donations</h3>
+<table>
+<tr><th>Date</th><th>Amount</th><th>Category</th></tr>
+`)
   invoices.slice(0, historyCount).forEach(invoice => {
     file.write(`<tr><td>${new Date(invoice.invoiceTime).toLocaleDateString()}</td><td>${getPrettyAmount(getAmount(invoice))}</td><td>${getCategory(invoice.itemDesc)}</td></tr>\n`)
   })
@@ -34,13 +36,25 @@ client.get_invoices({status: "complete"}).then( invoices => {
   invoices.forEach(invoice => {
     addToCategory(sum, invoice.itemDesc, getAmount(invoice))
   })
-  file.write(`<h3>All donations by category</h3>\n<table><tr><th>Category</th><th>Sum</th></tr>\n`)
+  file.write(`<h3>All donations by category</h3>
+<table><tr><th>Category</th><th>Sum</th></tr>
+`)
   var total = 0
-  for (cat in sum) {
-    total += sum[cat]
-    file.write(`<tr><td>${cat}</td><td>${getPrettyAmount(sum[cat])}</td></tr>\n`)
+  const items = Object.keys(sum).map(key => {
+    return [key, sum[key]]
+  })
+  items.sort((a, b) => { return b[1] - a[1] })
+  for (i in items) {
+    var item = items[i]
+    var s = item[1]
+    if (s > 0) {
+      var cat = item[0]
+      total += s
+      file.write(`<tr><td>${cat}</td><td>${getPrettyAmount(s)}</td></tr>`)
+    }
   }
-  file.write(`<tr><th>Total</th><th>${getPrettyAmount(total)}</th></tr></table>\n`)
+  file.write(`<tr><th>Total</th><th>${getPrettyAmount(total)}</th></tr>
+</table>`)
 }).catch(console.error)
 
 function addToCategory(sum, itemDesc, btc) {
