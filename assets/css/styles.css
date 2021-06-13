@@ -1727,7 +1727,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   }
 }
 
-.app_logo > .fab {
+.platform-logo {
     position: absolute;
     top: 47px;
     font-size: 18px;
