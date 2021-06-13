@@ -1,0 +1,27 @@
+---
+title: "Trezor Model T"
+authors:
+- leo
+released: 2018-03-01
+latestUpdate: 
+version: 
+dimensions: [64, 39, 10]
+weight: 22
+website: https://trezor.io
+repository: https://github.com/trezor/trezor-firmware
+issue: 
+icon: trezorT.png
+bugbounty: 
+verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-12
+signer: 
+reviewArchive:
+
+
+providerTwitter: trezor
+providerLinkedIn: 
+providerFacebook: trezor.io
+providerReddit: TREZOR
+---
+
+

@@ -62,3 +62,10 @@ obfuscated:
   message: >
     The app's binary contains active obfuscation which makes it
     significantly harder to analyze what it is doing.
+noita:
+  title: 'No ITA'
+  short: 'No informed transaction approval'
+  color: '#d33100'
+  message: >
+    The design of the device does not allow the user to verify what he is
+    signing.

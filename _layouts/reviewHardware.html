@@ -49,19 +49,11 @@ layout: default
           <div class="social-row">
             <ul>
               <li
-                title='Link to {{ page.title | replace: "'", " " }} on the Play Store'>
-                <a href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web">
-                  <i class="fab fa-google-play"></i>
-                </a>
-              </li>
-              {% if page.website %}
-              <li
                 title='Provider website'>
                 <a href="{{ page.website }}" class="link-web">
                   <i class="fas fa-globe"></i>
                 </a>
               </li>
-              {% endif %}
               {% include /review/providerSocial.html %}
             </ul>
           </div>
@@ -72,52 +64,6 @@ layout: default
           {% if page.verdict == "reproducible" %}
             <div class="svg {{ page.verdict }}"></div>
           {% endif %}
-
-          {% if page.stars %}
-          <div title="Rated {{ page.stars }}/5 stars">
-
-            <label>
-              <i class="fab fa-google-play"></i>&nbsp;Play Store
-            </label>
-
-            <div>
-              {{ page.stars }}
-              <span class="star-rating"
-                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
-            </div>
-
-            {% if page.ratings %}
-              <span>{{ page.ratings }} ratings</span>
-            {% endif %}
-
-          </div>
-          {% endif %}
-
-          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.version }})">
-            <label>
-              <i class="fas fa-download"></i>&nbsp;Downloads
-            </label>
-            <div>
-              <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
-                {% assign s = page.users %}
-                {% if s > 999999999 %}
-                  {% assign a = s | remove_first: '000000000' %}
-                  {{ a }}
-                  <n>billion</n>
-                {% elsif s > 999999 %}
-                  {% assign a = s | remove_first: '000000' %}
-                  {{ a }}
-                  <n>million</n>
-                {% elsif s > 999 %}
-                  {% assign a = s | remove_first: '000' %}
-                  {{ a }}
-                  <n>thousand</n>
-                {% else %}
-                  {{ s }}
-                {% endif %}
-              </span>
-            </div>
-          </div>
 
           {% if page.released %}
           <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
