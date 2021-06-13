@@ -10,8 +10,8 @@ released: 2020-02-18
 latestUpdate: 2021-04-28
 version: "6.2.0"
 stars: 4.0
-ratings: 454
-reviews: 259
+ratings: 453
+reviews: 258
 size: 36M
 website: https://bitcoinvault.global
 repository: 

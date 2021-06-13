@@ -4,7 +4,7 @@ title: "Instantcoins: sell bitcoin in nigeria instantly"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.instantcoins
 released: 2020-06-19
 latestUpdate: 2021-04-05

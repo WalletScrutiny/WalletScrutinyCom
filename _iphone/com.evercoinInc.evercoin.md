@@ -10,8 +10,8 @@ idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30
 version: "1.9.5"
-stars: 4.65425
-reviews: 2765
+stars: 4.65412
+reviews: 2764
 size: 63333376
 website: https://evercoin.com
 repository: 

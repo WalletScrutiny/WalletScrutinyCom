@@ -10,8 +10,8 @@ idd: 1262148500
 released: 2017-08-31
 updated: 2021-06-02
 version: "3.98.1"
-stars: 3.93912
-reviews: 20533
+stars: 3.93687
+reviews: 20560
 size: 260589568
 website: https://crypto.com/
 repository: 
