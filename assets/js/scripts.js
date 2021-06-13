@@ -44,15 +44,16 @@ function updateModularPayload() {
   })
 
   switch(platform) {
-    case 'Play Store':
     case 'android':
       ((document.getElementById("SwitchToDownloadsView")||{}).style||{}).display = ""
       break
-    default:
+    case 'iphone':
+    case 'hardware':
       var x
       x = document.getElementById("SwitchToDownloadsView"); if (x) x.style.display = "none"
       x = document.getElementById("walletsPerCatContainer"); if (x) x.classList.add("selected")
       x = document.getElementById("proportionalViewContainer"); if (x) x.classList.remove("selected")
+      break
   }
 
   var d = document.createElement("div")

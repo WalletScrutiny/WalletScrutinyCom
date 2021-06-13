@@ -37,7 +37,8 @@
       {% for post in site.hardware %}
       {
         "appId": "{{ post.appId }}",
-        "title": "{{ post.title }}",      
+        "title": "{{ post.title }}",
+        "dimensions": {{ post.dimensions | jsonify }},
         "released": "{{ post.released | date: '%Y-%m-%d' }}",
         "updated": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
         "version": "{{ post.version }}",

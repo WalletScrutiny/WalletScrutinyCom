@@ -47,11 +47,11 @@ window.transcribeTag = function (e) {
   switch (e) {
     case 'iphone':
       css = 'fab fa-app-store'
-      category = 'iphone'
+      category = 'App Store'
       break
     case 'android':
       css = 'fab fa-google-play'
-      category = 'android'
+      category = 'Play Store'
       break
     case 'fdroid':
       css = 'fab fa-f-droid'
@@ -63,7 +63,7 @@ window.transcribeTag = function (e) {
       break
     case 'hardware':
       css = 'fas fa-toolbox'
-      category = 'hardware'
+      category = 'Hardware Wallet'
       break
     default:
   }
