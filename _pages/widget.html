@@ -29,10 +29,9 @@ permalink: /widget/
     window.location.hash.split("#")[1].split("&").forEach(function (item) {
       var kv = item.split("=")
       switch (kv[0]) {
-        case "appId": 
-          appId = kv[1].replace("iphone/", "");
-          folder = kv[1].indexOf("/")>=0?kv[1].split("/")[0]:"android";
-          wallet = fetchWallet(appId, folder);
+        case "appId":
+          const folderAppId = kv[1].split("/")
+          wallet = fetchWallet(folderAppId[1], folderAppId[0])
           break
         case "style": style = kv[1]; break
         case "appList": appList = kv[1].split(","); break

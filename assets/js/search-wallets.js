@@ -1,51 +1,67 @@
 var pauseForInput
 var searchInput
 if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
-  var t = document.createElement("div")
-  var r = document.createElement("ul")
-  r.classList.add("results-list")
-  t.classList.add("walletSearch-parent")
-  var s = document.createElement("input");
-  var c = document.createElement("span");
-  c.setAttribute("onclick", "blockEvent(event);exitSearch(1)");
-  c.classList.add("exit-search");
-  c.innerHTML = '<i class="fas fa-times"></i>';
-  s.setAttribute("oninput", "blockEvent(event);searchCatalogue(this)")
-  s.setAttribute("onclick", "blockEvent(event);heroUX(this)")
-  s.setAttribute("onfocus", "blockEvent(event);heroUX(this)");
-  s.setAttribute("onmouseenter", "blockEvent(event);scOOff()");
-  s.setAttribute("onmouseleave", "blockEvent(event);scOOn()");
-  s.setAttribute("placeholder", "Search wallets...")
-  searchInput = s;
-  s.classList.add("walletSearch")
-  t.append(s)
-  t.append(c)
-  t.append(r)
-  document.querySelectorAll(".wallet-search-placeholder")[0].replaceWith(t)
+  var searchParent = document.createElement("div")
+  var resultsList = document.createElement("ul")
+  resultsList.classList.add("results-list")
+  searchParent.classList.add("walletSearch-parent")
+  searchInput = document.createElement("input")
+  var searchExitButton = document.createElement("span")
+  searchExitButton.setAttribute("onclick", "blockEvent(event);exitSearch(1)")
+  searchExitButton.classList.add("exit-search")
+  searchExitButton.innerHTML = '<i class="fas fa-times"></i>'
+  searchInput.setAttribute("oninput", "blockEvent(event);searchCatalogue(this)")
+  searchInput.setAttribute("onclick", "blockEvent(event);heroUX(this)")
+  searchInput.setAttribute("onfocus", "blockEvent(event);heroUX(this)")
+  searchInput.setAttribute("onmouseenter", "blockEvent(event);scOOff()")
+  searchInput.setAttribute("onmouseleave", "blockEvent(event);scOOn()")
+  searchInput.setAttribute("placeholder", "Search wallets...")
+  searchInput.classList.add("walletSearch")
+  searchParent.append(searchInput)
+  searchParent.append(searchExitButton)
+  searchParent.append(resultsList)
+  document.querySelectorAll(".wallet-search-placeholder")[0].replaceWith(searchParent)
 }
 
 function exitSearch(x) {
-  document.querySelectorAll(".exit-search")[0].style.display = "none";
-  document.querySelectorAll(".results-list")[0].style.display = "none";
-  document.body.classList.remove("search-ui-active");
+  document.querySelectorAll(".exit-search")[0].style.display = "none"
+  document.querySelectorAll(".results-list")[0].style.display = "none"
+  document.body.classList.remove("search-ui-active")
   window.removeEventListener('wheel', captureScrollForSearch)
-  x && (searchInput.value = "");
+  x && (searchInput.value = "")
   searchInput.blur()
 }
 
-document.getElementById("exitSearchTrigger").addEventListener("click", function (event) { if (event.target != this) { return; } exitSearch() })
+document.getElementById("exitSearchTrigger").addEventListener("click", event => {
+  if (event.target != this) {
+    return
+  }
+  exitSearch()
+})
 
-var scrPos = 0;
-var scrollOverride = 0;
+var scrPos = 0
+var scrollOverride = 0
+
 function captureScrollForSearch(e) {  
-  scrPos = scrPos + e.deltaY;
+  scrPos = scrPos + e.deltaY
   !scrollOverride && (
     document.querySelectorAll(".results-list")[0].scrollTop = scrPos
   )
 }
-function scOOff(){scrollOverride=0}
-function scOOn(){scrollOverride=1}
-function blockEvent(e) { e.stopPropagation();e.preventDefault();}
+
+function scOOff() {
+  scrollOverride = 0
+}
+
+function scOOn() {
+  scrollOverride = 1
+}
+
+function blockEvent(e) {
+  e.stopPropagation()
+  e.preventDefault()
+}
+
 function focusResults(e) {
   e.preventDefault()
   if (e.keyCode === "40") {
@@ -53,24 +69,22 @@ function focusResults(e) {
   }
 }
 
-
-
-
 function searchCatalogue(termInput) {
-  const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0];
+  const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
   const result = document.createElement("ul")
   result.classList.add("results-list")
   const term = termInput.value.toUpperCase()
   const minTermLength = 1
   if (term.length > minTermLength) {
     var matchCounter = 0
-    window.orderedObs.forEach(function (wallet) {
+    window.orderedObs.forEach(wallet => {
       if (wallet.title) {
         let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.website} ${wallet.website} ${wallet.category} ${wallet.verdict}`
 
-        if (matchCounter < 1) result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
+        if (matchCounter < 1)
+          result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
 
-        let index = searchableTerms.toLocaleUpperCase().indexOf(term);
+        let index = searchableTerms.toLocaleUpperCase().indexOf(term)
 
         if (index !== -1) {
           if (matchCounter == 0) {
@@ -82,7 +96,7 @@ function searchCatalogue(termInput) {
           const walletRow = document.createElement("li")
           walletRow.style['animation-delay'] = matchCounter * .1 + 's'
           walletRow.classList.add("actionable")
-          var compactedResults = '';
+          var compactedResults = ''
           function cPlus(w) {
             const basePath = w.base_path || ""
             var analysisUrl = `${basePath}${w.url}`
@@ -92,7 +106,7 @@ function searchCatalogue(termInput) {
             <span>${w.altTitle || w.title}</span>
             
             <span class="badge-2 ${w.verdict}">
-                <i class="fab fa-${window.transcribeTag(w.category).css}"></i>
+                <i class="${window.transcribeTag(w.folder).css}"></i>
                 <span>${w.verdict}</span>
             </span>
 
@@ -107,7 +121,7 @@ function searchCatalogue(termInput) {
             }
             det = "-hom"
           }
-          walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`;
+          walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
 
           result.append(walletRow)
           matchCounter++
@@ -148,7 +162,7 @@ function heroUX(termInput) {
 }
 
 function searchScrollToTop(termInput) {
-  var s = window.pageYOffset + t.getBoundingClientRect().top - 15
+  var s = window.pageYOffset + searchParent.getBoundingClientRect().top - 15
   if (window.innerWidth <= 700) {
     window.scrollTo({
       top: s,
@@ -159,7 +173,9 @@ function searchScrollToTop(termInput) {
 }
 
 document.querySelectorAll(".sidebar-search-container").length > 0 && (
-  document.querySelectorAll(".sidebar-search-container")[0].querySelectorAll(".walletSearch")[0].addEventListener("mouseleave", function (e) { e.currentTarget.value.length < 1 && (document.body.classList.remove("search-ui-active")) })
+  document.querySelectorAll(".sidebar-search-container")[0].querySelectorAll(".walletSearch")[0].addEventListener("mouseleave", e => { e.currentTarget.value.length < 1 && (document.body.classList.remove("search-ui-active")) })
 )
 
-document.body.addEventListener("click", function () {exitSearch()})
+document.body.addEventListener("click", () => {
+  exitSearch()
+})

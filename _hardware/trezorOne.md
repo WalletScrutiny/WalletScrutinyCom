@@ -1,5 +1,6 @@
 ---
 title: "Trezor One"
+appId: trezorOne
 authors:
 - leo
 released: 2014-07-29

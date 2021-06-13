@@ -1,5 +1,6 @@
 ---
 title: "Trezor Model T"
+appId: trezorT
 authors:
 - leo
 released: 2018-03-01
