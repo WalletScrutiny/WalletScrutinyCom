@@ -27,7 +27,7 @@ if (document.getElementById("modularPlatformPH") && window.platformObs && window
   window.platformObs.forEach(t => {
     const platformOption = document.createElement("option")
     platformOption.value = t
-    platformOption.innerHTML = t
+    platformOption.innerHTML = window.transcribeTag(t).category
     platformSelect.append(platformOption)
   })
 
@@ -40,7 +40,7 @@ function updateModularPayload() {
   const platform = (document.getElementById("modularPlatform") || {}).value || "android"
 
   document.querySelectorAll(".-filter-element").forEach(function (e) {
-    e.classList.contains(`-${window.transcribeTag(platform).category}`) ? (e.style.display="flex") : (e.style.display="none")
+    e.classList.contains(`-${platform}`) ? (e.style.display="flex") : (e.style.display="none")
   })
 
   switch(platform) {
@@ -71,11 +71,11 @@ function updateModularPayload() {
   var appIds = []
   var presort = []
   const verdictOrder = ['reproducible', 'nonverifiable', 'nosource', 'custodial', 'obfuscated', 'defunct', 'wip', 'fewusers', 'nobtc', 'nowallet']
-  const paltformOrder = ['android', 'iphone']
+  const paltformOrder = ['android', 'iphone', 'hardware']
   window.wallets.forEach(obj => {
-    if (obj.appId && obj.verdict && obj.category &&
+    if (obj.appId && obj.verdict && obj.folder &&
         (verdict === "all" || String(obj.verdict) === verdict) &&
-        (platform === "all" || String(obj.category) === platform)) {
+        (platform === "all" || String(obj.folder) === platform)) {
       presort.push(obj)
       appIds.push(obj.appId)
       c++
@@ -85,8 +85,8 @@ function updateModularPayload() {
   presort.sort((a, b) => {
     if (a.verdict != b.verdict)
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
-    if (a.category != b.category)
-      return paltformOrder.indexOf(a.category) - paltformOrder.indexOf(b.category)
+    if (a.folder != b.folder)
+      return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
     if (a.users != b.users)
       return b.users - a.users
     if (a.ratings != b.ratings)

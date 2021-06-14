@@ -5,15 +5,14 @@ window.wallets.sort((a, b) => {
   return Number(b.users) - Number(a.users) ||  Number(b.ratings) - Number(a.ratings) || Number(b.reviews) - Number(a.reviews)
 })
 
-
 window.verdictOrder = verdictOrder.split(",")
 window.platformObs = []
 window.orderedObs = []
 var readerRec = []
 var _id = 0
-window.wallets.forEach(function (e) {
-  if (e.category && window.platformObs.indexOf(e.category) < 0) { 
-    window.platformObs.push(e.category)
+window.wallets.forEach(e => {
+  if (e.folder && window.platformObs.indexOf(e.folder) < 0) { 
+    window.platformObs.push(e.folder)
   }
   if (e.wsId) {
     var n = e.wsId
@@ -22,8 +21,8 @@ window.wallets.forEach(function (e) {
       window.orderedObs.push(e)
       readerRec.push(n)
     } else {
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e];
-      window.orderedObs[i]['ignore'] = true;
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e]
+      window.orderedObs[i]['ignore'] = true
     }
   }
   else if (e.appId && e.appId.length > 0) {
