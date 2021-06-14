@@ -10,8 +10,8 @@ released: 2018-02-27
 latestUpdate: 2021-03-23
 version: "4.26"
 stars: 4.8
-ratings: 267
-reviews: 149
+ratings: 268
+reviews: 150
 size: 13M
 website: https://www.ilcoincrypto.com
 repository: 

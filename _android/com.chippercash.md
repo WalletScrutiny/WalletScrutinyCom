@@ -10,8 +10,8 @@ released: 2018-07-07
 latestUpdate: 2021-06-08
 version: "1.9.6"
 stars: 4.2
-ratings: 29508
-reviews: 18550
+ratings: 29518
+reviews: 18560
 size: Varies with device
 website: https://chippercash.com/
 repository: 

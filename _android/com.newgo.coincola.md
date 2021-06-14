@@ -10,8 +10,8 @@ released: 2017-07-07
 latestUpdate: 2021-06-02
 version: "4.8.0"
 stars: 3.3
-ratings: 608
-reviews: 286
+ratings: 609
+reviews: 287
 size: 31M
 website: https://www.coincola.com
 repository: 

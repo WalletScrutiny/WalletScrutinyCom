@@ -10,8 +10,8 @@ released: 2019-12-10
 latestUpdate: 2021-06-07
 version: "1.4.14"
 stars: 4.2
-ratings: 232
-reviews: 114
+ratings: 231
+reviews: 113
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

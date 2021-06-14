@@ -10,8 +10,8 @@ released: 2019-01-29
 latestUpdate: 2021-05-31
 version: "2.2.1"
 stars: 4.3
-ratings: 9966
-reviews: 2771
+ratings: 9969
+reviews: 2772
 size: 134M
 website: https://www.bitstamp.net
 repository: 

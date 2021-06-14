@@ -10,8 +10,8 @@ released: 2019-01-01
 latestUpdate: 2021-06-07
 version: "3.5.6"
 stars: 4.3
-ratings: 19671
-reviews: 11703
+ratings: 19704
+reviews: 11730
 size: 11M
 website: https://polehin.com
 repository: 

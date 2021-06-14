@@ -10,8 +10,8 @@ released: 2018-10-22
 latestUpdate: 2020-11-23
 version: "2.8.2"
 stars: 3.0
-ratings: 4966
-reviews: 2882
+ratings: 4965
+reviews: 2881
 size: 62M
 website: https://pundix.com
 repository: 

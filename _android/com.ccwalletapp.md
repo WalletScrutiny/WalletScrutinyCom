@@ -11,7 +11,7 @@ released: 2019-06-26
 latestUpdate: 2020-07-29
 version: "1.3.1"
 stars: 3.7
-ratings: 550
+ratings: 551
 reviews: 495
 size: 22M
 website: https://ccwalletapp.com

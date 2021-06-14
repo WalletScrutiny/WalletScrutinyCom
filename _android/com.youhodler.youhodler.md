@@ -10,8 +10,8 @@ released: 2019-07-11
 latestUpdate: 2021-06-01
 version: "2.15.0"
 stars: 4.2
-ratings: 1456
-reviews: 580
+ratings: 1461
+reviews: 584
 size: 47M
 website: https://youhodler.com
 repository: 
