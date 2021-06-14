@@ -4,11 +4,14 @@ appId: trezorOne
 authors:
 - leo
 released: 2014-07-29
+discontinued: # date
 latestUpdate: 
 version: 
 dimensions: [60, 30, 6]
 weight: 12
-website: https://trezor.io
+website: https://shop.trezor.io/product/trezor-one-black
+country: CZ
+price: 49EUR
 repository: https://github.com/trezor/trezor-firmware
 issue: 
 icon: trezorOne.png
