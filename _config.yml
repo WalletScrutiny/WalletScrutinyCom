@@ -190,6 +190,9 @@ collections:
   linux:
     output: true
     permalink: /:collection/:path/
+  hardware:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -227,6 +230,17 @@ defaults:
       type: "linux"
     values:
       layout: reviewLinux
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # hardware
+  - scope:
+      path: ""
+      type: "hardware"
+    values:
+      layout: reviewHardware
       author_profile: true
       read_time: false
       comments: false
