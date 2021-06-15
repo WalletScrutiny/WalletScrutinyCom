@@ -9,9 +9,9 @@ appId: com.mercuryo.app
 released: 2019-09-03
 latestUpdate: 2021-04-26
 version: "1.12.3"
-stars: 4.2
-ratings: 2223
-reviews: 1320
+stars: 4.3
+ratings: 2225
+reviews: 1299
 size: 60M
 website: https://mercuryo.io
 repository: 

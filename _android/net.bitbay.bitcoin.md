@@ -10,8 +10,8 @@ released: 2018-11-19
 latestUpdate: 2021-06-08
 version: "1.1.20"
 stars: 2.9
-ratings: 888
-reviews: 477
+ratings: 886
+reviews: 476
 size: 16M
 website: https://bitbay.net
 repository: 

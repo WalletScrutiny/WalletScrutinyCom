@@ -9,9 +9,9 @@ appId: coinsquare.io.coinsquare
 released: 2017-08-30
 latestUpdate: 2021-04-30
 version: "2.13.10"
-stars: 2.4
-ratings: 744
-reviews: 504
+stars: 3.2
+ratings: 733
+reviews: 493
 size: 7.3M
 website: https://coinsquare.com
 repository: 

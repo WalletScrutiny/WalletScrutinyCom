@@ -10,8 +10,8 @@ released: 2019-08-26
 latestUpdate: 2021-03-11
 version: "1.19.0"
 stars: 4.7
-ratings: 355
-reviews: 292
+ratings: 349
+reviews: 286
 size: 17M
 website: https://bolt.global/
 repository: 

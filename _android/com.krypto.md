@@ -9,9 +9,9 @@ appId: com.krypto
 released: 2020-04-29
 latestUpdate: 2021-06-11
 version: "8.5"
-stars: 4.8
-ratings: 1387
-reviews: 994
+stars: 4.6
+ratings: 1225
+reviews: 832
 size: 9.2M
 website: https://letskrypto.com
 repository: 

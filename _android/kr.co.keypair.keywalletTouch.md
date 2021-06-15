@@ -9,9 +9,9 @@ appId: kr.co.keypair.keywalletTouch
 released: 2018-05-13
 latestUpdate: 2020-12-14
 version: "Varies with device"
-stars: 4.3
-ratings: 96
-reviews: 61
+stars: 4.4
+ratings: 91
+reviews: 56
 size: Varies with device
 website: https://keywalletpro.io
 repository: 

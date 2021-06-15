@@ -9,9 +9,9 @@ appId: com.vegawallet.in
 released: 2018-12-19
 latestUpdate: 2020-07-02
 version: "3.2.3"
-stars: 4.7
-ratings: 23
-reviews: 19
+stars: 4.6
+ratings: 22
+reviews: 18
 size: 41M
 website: 
 repository: 

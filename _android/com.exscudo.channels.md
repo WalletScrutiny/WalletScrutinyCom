@@ -10,8 +10,8 @@ released: 2018-05-17
 latestUpdate: 2021-03-26
 version: "2.17.794"
 stars: 4.5
-ratings: 547
-reviews: 232
+ratings: 546
+reviews: 231
 size: 59M
 website: https://exscudo.com
 repository: 

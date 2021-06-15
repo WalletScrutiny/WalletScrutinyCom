@@ -9,9 +9,9 @@ appId: cash.usdx.wallet
 released: 2018-03-22
 latestUpdate: 2020-11-25
 version: "1.34.2"
-stars: 4.2
-ratings: 5474
-reviews: 4682
+stars: 4.1
+ratings: 5470
+reviews: 4678
 size: 37M
 website: https://usdx.cash
 repository: 

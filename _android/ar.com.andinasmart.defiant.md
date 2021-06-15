@@ -9,9 +9,9 @@ appId: ar.com.andinasmart.defiant
 released: 2019-11-19
 latestUpdate: 2021-06-02
 version: "1.2.3"
-stars: 4.8
-ratings: 40
-reviews: 27
+stars: 4.7
+ratings: 39
+reviews: 26
 size: 27M
 website: 
 repository: 

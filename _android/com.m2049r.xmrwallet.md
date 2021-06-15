@@ -9,7 +9,7 @@ appId: com.m2049r.xmrwallet
 released: 2017-09-29
 latestUpdate: 2021-05-21
 version: "2.0.8 'Puginarug'"
-stars: 3.6
+stars: 3.7
 ratings: 709
 reviews: 423
 size: Varies with device
