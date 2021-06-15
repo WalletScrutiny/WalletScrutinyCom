@@ -96,8 +96,7 @@ window.addEventListener("load", () => {
 }, false)
 
 function getWidgetHtml(wallet, includeDetails) {
-  return `
-  <a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="/${wallet.appId}/">
+  return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="/${wallet.appId}/">
     <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
       src="/images/wallet_icons/${ wallet.folder }/small/${wallet.icon}" alt="Wallet Logo">
     <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
@@ -135,19 +134,21 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.discontinued) ? `<tr><td><strong>Discontinued</strong></td><td>${wallet.discontinued}</td></tr>` : ``}
     ${ hasValue(wallet.dimensions) ? `<tr><td>Size</td><td>${wallet.dimensions[0]}mm x ${wallet.dimensions[1]}mm x ${wallet.dimensions[2]}mm</td></tr>` : ``}
     <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
+    <tr><td>Links</td><td>
     ${ wallet.folder == "iphone"
-      ? `<tr><td>App Store</td><td><a target="_blank" href="https://apps.apple.com/us/app/id${wallet.idd}">${wallet.appId}</a></td></tr>`
+      ? `<a target="_blank" href="https://apps.apple.com/us/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
       : wallet.folder == "android"
-      ? `<tr><td>Play Store</td><td><a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}">${wallet.appId}</a></td></tr>`
+      ? `<a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
       : ``
     }
-    ${ hasValue(wallet.website) ? `<tr><td>Website</td><td><a target="_blank" href="${wallet.website}">${wallet.website}</a></td></tr>` : ``}
-    ${ hasValue(wallet.repository) ? `<tr><td>Source Code</td><td><a target="_blank" href="${wallet.repository}">${wallet.repository}</a></td></tr>` : ``}
-    ${ hasValue(wallet.issue) ? `<tr><td>Open Issue</td><td><a target="_blank" href="${wallet.issue}">${wallet.issue}</a></td></tr>` : ``}
-    ${ hasValue(wallet.providerTwitter) ? `<tr><td>Twitter</td><td><a target="_blank" href="https://twitter.com/${wallet.providerTwitter}">@${wallet.providerTwitter}</a></td></tr>` : ``}
-    ${ hasValue(wallet.providerFacebook) ? `<tr><td>Facebook</td><td><a target="_blank" href="https://www.facebook.com/${wallet.providerFacebook}">${wallet.providerFacebook}</a></td></tr>` : ``}
-    ${ hasValue(wallet.providerReddit) ? `<tr><td>Reddit</td><td><a target="_blank" href="https://www.reddit.com/r/${wallet.providerReddit}">r/${wallet.providerReddit}</a></td></tr>` : ``}
-    ${ hasValue(wallet.providerLinkedIn) ? `<tr><td>LinkedIn</td><td><a target="_blank" href="https://www.linkedin.com/company/${wallet.providerLinkedIn}">${wallet.providerLinkedIn}</a></td></tr>` : ``}
+    ${ hasValue(wallet.website) ? `<a target="_blank" href="${wallet.website}"><i class="fas fa-globe"></i></a>` : ``}
+    ${ hasValue(wallet.repository) ? `<a target="_blank" href="${wallet.repository}"><i class="fab fa-github"></i></a>` : ``}
+    ${ hasValue(wallet.issue) ? `<a target="_blank" href="${wallet.issue}"><i class="fa fa-bug" aria-hidden="true"></i></a>` : ``}
+    ${ hasValue(wallet.providerTwitter) ? `<a target="_blank" href="https://twitter.com/${wallet.providerTwitter}"><i class="fab fa-twitter"></i></a>` : ``}
+    ${ hasValue(wallet.providerFacebook) ? `<a target="_blank" href="https://www.facebook.com/${wallet.providerFacebook}"><i class="fab fa-facebook-f"></i></a>` : ``}
+    ${ hasValue(wallet.providerReddit) ? `<a target="_blank" href="https://www.reddit.com/r/${wallet.providerReddit}"><i class="fab fa-reddit"></i></a>` : ``}
+    ${ hasValue(wallet.providerLinkedIn) ? `<a target="_blank" href="https://www.linkedin.com/company/${wallet.providerLinkedIn}"><i class="fab fa-linkedin-in"></i></a>` : ``}
+    </td></tr>
     </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`
 }
 
