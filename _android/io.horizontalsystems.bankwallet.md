@@ -19,10 +19,15 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-04
+date: 2021-06-15
 reviewStale: true
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2021-06-04
+  version: "0.21.3"
+  apkHash: 8d59ee83521a36bc7d197f76cb12d05bdd745af7c3bbc05ec6073ea9a91ba32a
+  gitRevision: 93ff39a30ebd687e6ee22c4acc4c5421ee9a7e88
+  verdict: reproducible
 - date: 2021-06-01
   version: "0.21.1"
   apkHash: 9c5dc44fdc7a89970030eabb1a28c5d664e8515a164ac6a1eb9b09eb2707ae64
@@ -153,14 +158,14 @@ on the binary from Google Play:
 Results:
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.21.3
-apkVersionCode: 48
-apkHash:        8d59ee83521a36bc7d197f76cb12d05bdd745af7c3bbc05ec6073ea9a91ba32a
+apkVersionName: 0.21.4
+apkVersionCode: 49
+apkHash:        351ddd179d58b9ebdcb80cccd987caab7ea381949db4baad2689214a7c6c94d1
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_48/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_48/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_48/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_49/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_49/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_49/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 ```
