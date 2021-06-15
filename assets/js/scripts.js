@@ -34,7 +34,6 @@ if (document.getElementById("modularPlatformPH") && window.platformObs && window
   document.getElementById("modularPlatformPH").replaceWith(platformSelect)
 }
 
-
 function updateModularPayload() {
   const verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
   const platform = (document.getElementById("modularPlatform") || {}).value || "android"
@@ -56,17 +55,6 @@ function updateModularPayload() {
       break
   }
 
-  var d = document.createElement("div")
-  d.classList.add("page-section")
-
-  var g = document.createElement("div")
-  g.setAttribute("id", "tableofwallets")
-  g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
-
-  var f = document.createElement("div")
-  f.classList.add("flexi-list")
-
-  var h = ``
   var c = 0
   var appIds = []
   var presort = []
@@ -95,64 +83,63 @@ function updateModularPayload() {
       return b.reviews - a.reviews
     return 0
   })
+  renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"))
+}
 
-  presort.forEach(obj => {
-    var der_id = String(obj.appId).replace(".", "")
-    h += `<div id="card_${der_id}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${obj.url}">
-            <div style="width:7em;position: relative;" onclick="toggleApp('${der_id}')">
-              <div id="show_${der_id}" class="card-expand-close">
-                <i class="fas fa-plus-square"></i>
-              </div>
-              <div id="hide_${der_id}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
-                <i class="fas fa-minus-square"></i>
-              </div>
-              <div style="position:relative">
-                <div class="flex-r">
-                  <div class="app_logo">
-                      <img loading="lazy" src="/images/wallet_icons/${obj.folder}/small/${obj.icon}" class="app_logo" alt="Wallet Logo">
-                  </div>
-                  <span class="stamp stamp-${obj.verdict}" alt=""></span>
-                </div>
-              </div>
-                <div class="app_info_box">
-                    <strong>${obj.altTitle || obj.title}</strong>
-                </div>
-            </div>
-            <div id="details_${der_id}" class="item-detail-container" style="width:20em;display:none">
-              <table>
-                <tbody><tr><td>Verdict</td>
-                  <td class="verdict">
-                    <span class="${obj.verdict} tooltip">
-                    ${obj.verdictText}
-                      <span class="tooltiptext">
-                      ${obj.message}
-                      </span>
-                    </span>
-                  </td>
-                </tr>
-                ${obj.downloads ? `<tr><td>Downloads</td><td>${obj.downloads}</td></tr>` : ``}
-                ${obj.users && obj.stars ? (`<tr><td>Rating</td><td>${obj.stars ? (`${obj.stars} stars by `) : ``}${obj.users} users</td></tr>`) : ``}
-                ${obj.size ? `<tr><td>App size</td><td>${obj.size}</td></tr>` : ``}
-                ${obj.released ? (`<tr><td>Launched</td><td>${obj.released}</td></tr>`):``}
-                <tr><td>Reviewed</td><td>${obj.date}</td></tr>
-                <tr><td>${obj.category}</td><td>
-                ${obj.idd ? (`<a href="https://apps.apple.com/us/app/id${obj.idd}">${obj.appId}</a>`): (`<a href="https://play.google.com/store/apps/details?id=${obj.appId}">${obj.appId}</a>`)}
-                </td></tr>
-                ${obj.website ? `<tr><td>Website</td><td><a href="${obj.website}">${obj.website}</a></td></tr>` : ``}
-                ${obj.repository ? `<tr><td>Source Code</td><td><a href="${obj.repository}">${obj.repository}</a></td></tr>` : ``}
-                ${obj.issue ? (`<tr><td>Open Issue</td><td><a href="${obj.issue}">${obj.issue}</a></td></tr>`):``}
-              </tbody></table>
-              <p><a href="/${obj.folder}/${obj.appId}/" rel="permalink">
-                <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
-              </a></p>
-            </div>
-            </div>`
+function renderBadgesToDiv(wallets, anchor) {
+  var badgesHtml = ``
+  wallets.forEach(obj => {
+    badgesHtml += getBadge(obj)
   })
-
-  f.innerHTML = h.length == 0 ? `<h2>No wallets...</h2>` : h
+  var d = document.createElement("div")
+  d.classList.add("page-section")
+  var f = document.createElement("div")
+  f.classList.add("flexi-list")
+  var g = document.createElement("div")
+  g.setAttribute("id", "tableofwallets")
+  g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
+  f.innerHTML = badgesHtml.length == 0 ? `<h2>No wallets...</h2>` : badgesHtml
   d.append(g)
   d.append(f)
-  document.getElementById("modularWalletPayload").querySelectorAll(".page-section")[0].replaceWith(d)
+  anchor.querySelectorAll(".page-section")[0].replaceWith(d)
+}
+
+function getBadge(wallet) {
+  const walletId = wallet.folder + String(wallet.appId).replaceAll(".", "")
+  switch(wallet.folder) {
+    case "android": faCollection = "fab fa-google-play"; break
+    case "iphone": faCollection = "fab fa-app-store"; break
+    case "hardware": faCollection = "fas fa-toolbox"; break
+  }
+
+  return  `<div id="card_${walletId}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
+      <div style="width:7em;position: relative;" onclick="toggleApp('${walletId}')">
+        <div id="show_${walletId}" class="card-expand-close">
+          <i class="fas fa-plus-square"></i>
+        </div>
+        <div id="hide_${walletId}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
+          <i class="fas fa-minus-square"></i>
+        </div>
+        <div style="position:relative">
+          <div class="flex-r">
+            <div class="app_logo">
+                <img loading="lazy" src="/images/wallet_icons/${wallet.folder}/small/${wallet.icon}" class="app_logo" alt="Wallet Logo">
+                <i class="platform-logo ${ faCollection }"></i>
+            </div>
+            <span class="stamp stamp-${wallet.verdict}" alt=""></span>
+          </div>
+        </div>
+          <div class="app_info_box">
+              <strong>${wallet.altTitle || wallet.title}</strong>
+          </div>
+      </div>
+      <div id="details_${walletId}" class="item-detail-container" style="width:20em;display:none">
+        ${getWidgetDetails(wallet)}
+        <p><a href="${wallet.url}" rel="permalink">
+        <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
+        </a></p>
+      </div>
+      </div>`
 }
 
 window.addEventListener("scroll", ignore => {
