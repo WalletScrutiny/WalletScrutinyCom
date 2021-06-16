@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.lumiwallet.HD.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-05-14
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-16
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2021-05-14
+  version: "3.10.2"
+  apkHash: 
+  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
+  verdict: nosource
 
 providerTwitter: Lumi_wallet
 providerLinkedIn: 
@@ -33,6 +37,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-06-16**: It's been a few days this app is not on the App store
+anymore and it looks like it's not coming back. If it should return, please open
+an issue on our issue tracker!
 
 Just like for the Play Store version, the App Store wallet is not open source.
 The provider only shares some of the code they presumably use in the app, with

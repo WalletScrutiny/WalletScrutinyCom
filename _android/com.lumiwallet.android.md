@@ -19,7 +19,7 @@ issue:
 icon: com.lumiwallet.android.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-15
+date: 2021-06-16
 reviewStale: true
 signer: 
 reviewArchive:
@@ -36,12 +36,17 @@ redirect_from:
 ---
 
 
-**Update:** *Following a
+**Update 2021-06-16**: Something weird is going on. Apparently there are three
+Lumi apps: [One on the App Store](/iphone/com.lumiwallet.HD/), [another on the
+Play Store](/android/com.btc.lumi.bestofwallet/) and this one here. The first
+two are defunct. 
+
+**Update 2020-06-15:** *Following a
 [conversation on Twitter](https://twitter.com/Lumi_wallet/status/1272393956870049792)
-we checked again and also added statements of being Open Source and our take to
+we checked again and also added statements of being Open Source and our take on
 those.*
 
-The description on their Playstore listing gets straight to the point:
+The description on their Play Store listing gets straight to the point:
 
 > With Lumi Wallet, you are the only one in charge of your funds. Your private
   keys are stored on your device, and the funds are protected with a 12-word

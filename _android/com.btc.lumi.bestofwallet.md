@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.btc.lumi.bestofwallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-27
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-16
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2021-04-27
+  version: "1.8.1"
+  apkHash: 
+  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 
