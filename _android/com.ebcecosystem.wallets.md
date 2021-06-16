@@ -10,8 +10,8 @@ released: 2018-12-07
 latestUpdate: 2019-01-30
 version: "0.0.7"
 stars: 4.7
-ratings: 96
-reviews: 60
+ratings: 97
+reviews: 61
 size: 11M
 website: https://ebc.eco
 repository: 

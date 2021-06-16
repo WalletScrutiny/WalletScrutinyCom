@@ -9,9 +9,9 @@ appId: com.krakenfutures
 released: 2019-10-07
 latestUpdate: 2021-03-24
 version: "5.24.0"
-stars: 3.3
-ratings: 94
-reviews: 42
+stars: 3.2
+ratings: 97
+reviews: 45
 size: 12M
 website: https://futures.kraken.com
 repository: 

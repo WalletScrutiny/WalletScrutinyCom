@@ -10,8 +10,8 @@ released: 2017-07-28
 latestUpdate: 2021-03-29
 version: "5.0.3"
 stars: 3.9
-ratings: 200
-reviews: 138
+ratings: 202
+reviews: 140
 size: 85M
 website: http://mercury.cash
 repository: 

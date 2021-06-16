@@ -8,8 +8,8 @@ appId: io.horizontalsystems.bank-wallet
 appCountry: 
 idd: 1447619907
 released: 2019-01-10
-updated: 2021-06-03
-version: "0.21.1"
+updated: 2021-06-15
+version: "0.21.2"
 stars: 4.64621
 reviews: 277
 size: 38352896

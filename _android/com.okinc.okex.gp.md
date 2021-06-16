@@ -9,9 +9,9 @@ appId: com.okinc.okex.gp
 released: 2019-10-29
 latestUpdate: 2021-05-24
 version: "4.9.1"
-stars: 4.6
-ratings: 91297
-reviews: 34515
+stars: 4.2
+ratings: 96655
+reviews: 36233
 size: 140M
 website: https://www.okex.com
 repository: 

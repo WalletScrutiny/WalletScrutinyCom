@@ -10,8 +10,8 @@ idd: 1476726454
 released: 2019-09-10
 updated: 2021-05-07
 version: "1.900"
-stars: 4.63324
-reviews: 1047
+stars: 4.63671
+reviews: 1046
 size: 142593024
 website: https://swipe.io
 repository: 

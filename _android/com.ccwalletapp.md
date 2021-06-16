@@ -11,8 +11,8 @@ released: 2019-06-26
 latestUpdate: 2020-07-29
 version: "1.3.1"
 stars: 3.7
-ratings: 549
-reviews: 494
+ratings: 550
+reviews: 495
 size: 22M
 website: https://ccwalletapp.com
 repository: https://github.com/coincasso/ccwallet

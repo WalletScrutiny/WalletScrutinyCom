@@ -9,9 +9,9 @@ appId: co.bacoor.keyring
 released: 2021-01-21
 latestUpdate: 2021-06-11
 version: "1.4.0"
-stars: 4.8
-ratings: 28
-reviews: 18
+stars: 4.7
+ratings: 30
+reviews: 19
 size: 28M
 website: 
 repository: 

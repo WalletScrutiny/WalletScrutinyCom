@@ -9,8 +9,8 @@ appId: com.vidulumwallet.app
 released: 2019-04-04
 latestUpdate: 2019-04-05
 version: "1.2"
-stars: 4.3
-ratings: 83
+stars: 4.2
+ratings: 84
 reviews: 65
 size: 174k
 website: https://vidulum.app

@@ -10,8 +10,8 @@ released: 2019-04-24
 latestUpdate: 2019-04-24
 version: "1.0"
 stars: 2.8
-ratings: 43
-reviews: 29
+ratings: 45
+reviews: 31
 size: 1.5M
 website: http://www.yeswallet.io
 repository: 

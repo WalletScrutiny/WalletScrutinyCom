@@ -10,8 +10,8 @@ released: 2017-11-09
 latestUpdate: 2021-06-04
 version: "1.25.2"
 stars: 4.3
-ratings: 701
-reviews: 358
+ratings: 709
+reviews: 362
 size: 18M
 website: https://cryptopay.me
 repository: 

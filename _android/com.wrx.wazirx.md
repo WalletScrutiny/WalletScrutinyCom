@@ -4,14 +4,14 @@ title: "WazirX - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
 - kiwi1amb
-users: 1000000
+users: 5000000
 appId: com.wrx.wazirx
 released: 2018-07-16
 latestUpdate: 2021-06-03
 version: "2.13.4"
-stars: 4.0
-ratings: 174544
-reviews: 50427
+stars: 3.9
+ratings: 182497
+reviews: 54177
 size: 6.1M
 website: 
 repository: 

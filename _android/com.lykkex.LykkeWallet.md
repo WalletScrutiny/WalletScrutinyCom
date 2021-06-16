@@ -10,8 +10,8 @@ released: 2016-08-25
 latestUpdate: 2021-05-05
 version: "12.7.8"
 stars: 3.4
-ratings: 573
-reviews: 348
+ratings: 574
+reviews: 349
 size: 23M
 website: https://lykke.com/wallet
 repository: 

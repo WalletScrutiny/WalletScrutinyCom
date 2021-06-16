@@ -9,9 +9,9 @@ appId: com.newcurrency.coinstrunk.v1
 released: 2020-10-15
 latestUpdate: 2021-06-12
 version: "1.8"
-stars: 4.1
-ratings: 111
-reviews: 82
+stars: 4.2
+ratings: 123
+reviews: 92
 size: 6.0M
 website: 
 repository: 

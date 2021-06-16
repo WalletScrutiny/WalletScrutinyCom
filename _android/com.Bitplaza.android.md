@@ -9,9 +9,9 @@ appId: com.Bitplaza.android
 released: 2018-04-21
 latestUpdate: 2018-11-14
 version: "4.0"
-stars: 4.5
-ratings: 107
-reviews: 53
+stars: 4.4
+ratings: 109
+reviews: 55
 size: 1.7M
 website: https://www.bitplazashopping.com
 repository: 

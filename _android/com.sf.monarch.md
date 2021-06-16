@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.sf.monarch
 released: 2018-10-19
-latestUpdate: 2021-05-27
-version: "2.2.2"
-stars: 3.7
-ratings: 772
-reviews: 399
+latestUpdate: 2021-06-15
+version: "2.2.3"
+stars: 4.0
+ratings: 792
+reviews: 417
 size: 18M
 website: https://monarchwallet.com
 repository: 
