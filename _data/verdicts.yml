@@ -64,7 +64,7 @@ obfuscated:
     significantly harder to analyze what it is doing.
 noita:
   title: 'No ITA'
-  short: 'No informed transaction approval'
+  short: 'Bad Interface'
   color: '#d33100'
   message: >
     The design of the device does not allow the user to verify what he is

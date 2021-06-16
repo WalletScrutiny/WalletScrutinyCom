@@ -9,7 +9,8 @@ latestUpdate:
 version: 
 dimensions: [64, 39, 10]
 weight: 22
-website: https://shop.trezor.io/product/trezor-model-t
+website: https://trezor.io
+shop: https://shop.trezor.io/product/trezor-model-t
 country: CZ
 price: 159EUR
 repository: https://github.com/trezor/trezor-firmware
@@ -17,7 +18,7 @@ issue:
 icon: trezorT.png
 bugbounty: 
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-12
+date: 2021-06-16
 signer: 
 reviewArchive:
 

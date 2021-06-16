@@ -142,6 +142,7 @@ function getWidgetDetails(wallet) {
       : ``
     }
     ${ hasValue(wallet.website) ? `<a target="_blank" href="${wallet.website}"><i class="fas fa-globe"></i></a>` : ``}
+    ${ hasValue(wallet.shop) ? `<a target="_blank" href="${wallet.shop}"><i class="fas fa-shopping-cart"></i></a>` : ``}
     ${ hasValue(wallet.repository) ? `<a target="_blank" href="${wallet.repository}"><i class="fab fa-github"></i></a>` : ``}
     ${ hasValue(wallet.issue) ? `<a target="_blank" href="${wallet.issue}"><i class="fa fa-bug" aria-hidden="true"></i></a>` : ``}
     ${ hasValue(wallet.providerTwitter) ? `<a target="_blank" href="https://twitter.com/${wallet.providerTwitter}"><i class="fab fa-twitter"></i></a>` : ``}
