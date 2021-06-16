@@ -40,8 +40,10 @@ redirect_from:
 ---
 
 
-**Update 2021-06-16**: It's been a few days this app is not on the App store. If
-it should return, please open an issue on our issue tracker!
+**Update 2021-06-16**: It's been
+[six weeks](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/9)
+this app is not on the App store. If it should return, please open an issue on
+our issue tracker!
 
 [Emanuel](/authors/emanuel)
 [looked into this wallet](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/208)
