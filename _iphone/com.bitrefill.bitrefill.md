@@ -10,8 +10,8 @@ idd: 1378102623
 released: 2018-06-05
 updated: 2019-09-23
 version: "1.13"
-stars: 4.55172
-reviews: 29
+stars: 4.56667
+reviews: 30
 size: 5557248
 website: https://www.bitrefill.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.spend.app
 released: 2018-08-07
 latestUpdate: 2020-07-15
 version: "3.09"
-stars: 3.5
-ratings: 427
-reviews: 239
+stars: 3.4
+ratings: 426
+reviews: 238
 size: 31M
 website: https://www.spend.com/
 repository: 

@@ -10,7 +10,7 @@ released: 2018-05-13
 latestUpdate: 2021-05-30
 version: "1.2.9"
 stars: 4.6
-ratings: 1158
+ratings: 1159
 reviews: 601
 size: 94M
 website: https://www.vision-crypto.com

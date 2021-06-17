@@ -11,8 +11,8 @@ idd: 1543252298
 released: 2021-03-04
 updated: 2021-06-09
 version: "1.2.0"
-stars: 3.65
-reviews: 20
+stars: 3.59091
+reviews: 22
 size: 90347520
 website: https://yellowcard.io
 repository: 

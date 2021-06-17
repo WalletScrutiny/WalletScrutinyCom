@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-05-27
 version: "2.5.20"
 stars: 3.3
-ratings: 5167
-reviews: 3138
+ratings: 5173
+reviews: 3139
 size: 44M
 website: https://www.investvoyager.com/
 repository: 

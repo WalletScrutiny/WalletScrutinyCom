@@ -9,8 +9,8 @@ appId: org.electrum.electrum
 released: 2016-03-02
 latestUpdate: 2021-04-08
 version: "4.1.2.0"
-stars: 3.2
-ratings: 2210
+stars: 3.3
+ratings: 2211
 reviews: 1325
 size: 21M
 website: https://electrum.org

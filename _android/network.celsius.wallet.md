@@ -10,8 +10,8 @@ released: 2018-06-04
 latestUpdate: 2021-05-31
 version: "4.9.0"
 stars: 3.2
-ratings: 5031
-reviews: 3673
+ratings: 5023
+reviews: 3664
 size: 88M
 website: https://celsius.network
 repository: 

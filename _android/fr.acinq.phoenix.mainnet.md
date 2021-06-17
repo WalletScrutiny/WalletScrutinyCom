@@ -9,9 +9,9 @@ appId: fr.acinq.phoenix.mainnet
 released: 2019-12-10
 latestUpdate: 2021-06-07
 version: "1.4.14"
-stars: 4.2
-ratings: 235
-reviews: 117
+stars: 4.1
+ratings: 236
+reviews: 118
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

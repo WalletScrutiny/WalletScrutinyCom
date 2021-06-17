@@ -1,6 +1,6 @@
 ---
 wsId: Xapa
-title: "Xapa Wallet - Bitcoin, Ethereum, DOGE, LTC, DASH"
+title: "Xapa Wallet - BTC, ETH, DOGE, LTC, DASH, ERC20"
 altTitle: 
 authors:
 - kiwilamb
@@ -10,8 +10,8 @@ released: 2019-06-28
 latestUpdate: 2021-04-08
 version: "0.738.47"
 stars: 4.0
-ratings: 105
-reviews: 49
+ratings: 106
+reviews: 50
 size: Varies with device
 website: https://xapawallet.com/
 repository: 

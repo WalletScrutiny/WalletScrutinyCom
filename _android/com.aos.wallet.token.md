@@ -9,9 +9,9 @@ appId: com.aos.wallet.token
 released: 2019-11-07
 latestUpdate: 2020-08-07
 version: "2.0.22"
-stars: 5.0
-ratings: 333
-reviews: 151
+stars: 4.9
+ratings: 334
+reviews: 152
 size: 34M
 website: https://atswallet.io/
 repository: 
