@@ -20,6 +20,8 @@
   --permanent-white: #fafafa;
   --red-notify-background: #fdb5b5;
   --gold: #ff9b00;
+  --blue:#003395;
+  --light-blue: #0064ff;
   --reproducible-badge: url(/images/reproducible-badge-dark.svg);
 }
 
@@ -32,7 +34,7 @@
   --accent: rgb(97, 200, 97);
   --accent-text: #4da84d;
   --rust: #b32a00;
-  --indifferent: #3d506d;
+  --indifferent: #5b82bf;
   --shadow-3: rgba(255, 255, 255, 0.2);
   --shadow-2: rgba(255, 255, 255, 0.1);
   --light-grey: #222;
@@ -50,6 +52,7 @@
   --permanent-white: #e2e2e2;
   --red-notify-background: #b90000;
   --gold: #ffb300;
+  --blue:#a0b6f9;
   --reproducible-badge: url(/images/reproducible-badge-light.svg);
 }
 
@@ -603,7 +606,6 @@ z-index: 1;
 .subsect p {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   margin: .5rem 0;
   font-weight: 300;

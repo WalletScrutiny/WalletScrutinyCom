@@ -28,7 +28,7 @@ custodial:
 fewusers:
   title: 'Few users'
   short: 'Few&nbsp;Users'
-  color: '#3d506d'
+  color: 'var(--indifferent, #3d506d)'
   message: This app has too few users for now to be reviewed in detail.
 defunct:
   title: 'Not functioning anymore'
@@ -39,19 +39,19 @@ defunct:
 wip:
   title: 'Work in Progress'
   short: 'WIP'
-  color: '#3d506d'
+  color: 'var(--indifferent, #3d506d)'
   message: 'We still have to analyze this app.' 
 nobtc:
   title: 'A wallet but not for Bitcoin'
   short: 'Non-BTC'
-  color: '#3d506d'
+  color: 'var(--indifferent, #3d506d)'
   message: >
     The app cannot send and receive BTC. We currently do not investigate other
     cryptocurrencies. 
 nowallet:
   title: 'Not a wallet'
   short: 'No&nbsp;Wallet'
-  color: '#3d506d'
+  color: 'var(--indifferent, #3d506d)'
   message: >
     We could not find this to be an app meant to store, receive and send
     coins. 
