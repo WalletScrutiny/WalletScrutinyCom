@@ -10,7 +10,7 @@ released: 2018-11-01
 latestUpdate: 2021-01-22
 version: "4.0"
 stars: 2.9
-ratings: 5030
+ratings: 5031
 reviews: 2996
 size: 8.7M
 website: https://www.cryptonator.com

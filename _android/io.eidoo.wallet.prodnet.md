@@ -10,7 +10,7 @@ released: 2017-09-25
 latestUpdate: 2021-06-16
 version: "3.2.0"
 stars: 3.0
-ratings: 1600
+ratings: 1601
 reviews: 798
 size: 13M
 website: https://eidoo.io

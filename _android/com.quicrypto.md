@@ -6,20 +6,20 @@ authors:
 
 users: 100000
 appId: com.quicrypto
-released: 
-latestUpdate: 2021-04-13
-version: "3.6.0"
-stars: 3.8
-ratings: 4614
-reviews: 2827
+released: 2019-11-12
+latestUpdate: 2021-06-17
+version: "3.12.0"
+stars: 3.7
+ratings: 4745
+reviews: 2899
 size: 26M
 website: http://www.quicrypto.com
 repository: 
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-25
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: true
 signer: 
 reviewArchive:
@@ -31,6 +31,7 @@ providerFacebook: Quicrypto
 providerReddit: 
 
 redirect_from:
+
 ---
 
 

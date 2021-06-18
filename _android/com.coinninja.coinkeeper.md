@@ -1,23 +1,25 @@
 ---
+wsId: 
 title: "DropBit: Bitcoin Wallet"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.coinninja.coinkeeper
 released: 2018-08-01
 latestUpdate: 2020-01-28
 version: "3.2.7"
-stars: 2.8
-ratings: 165
-reviews: 120
+stars: 0.0
+ratings: 
+reviews: 
 size: 33M
 website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
 issue: https://github.com/coinninjadev/dropbit-android/issues/1
 icon: com.coinninja.coinkeeper.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-04-08
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: false
 signer: 
 reviewArchive:
@@ -33,10 +35,8 @@ providerFacebook: DropBit-2094204254174419
 providerReddit: DropBit
 
 redirect_from:
-  - /bropbit/
   - /dropbit/
   - /com.coinninja.coinkeeper/
-  - /posts/2019/11/bropbit/
   - /posts/2019/11/dropbit/
   - /posts/com.coinninja.coinkeeper/
 ---

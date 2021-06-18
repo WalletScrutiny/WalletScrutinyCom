@@ -6,20 +6,20 @@ authors:
 
 users: 10000
 appId: io.wallet
-released: 
-latestUpdate: 2021-03-18
-version: "1.13.5"
-stars: 3.7
-ratings: 43
-reviews: 21
-size: 24M
+released: 2019-08-24
+latestUpdate: 2021-05-24
+version: "1.13.6"
+stars: 3.5
+ratings: 53
+reviews: 26
+size: 25M
 website: 
 repository: 
 issue: 
 icon: io.wallet.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: true
 signer: 
 reviewArchive:

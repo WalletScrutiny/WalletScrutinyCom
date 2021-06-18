@@ -6,20 +6,20 @@ authors:
 
 users: 1000
 appId: im.token.app99
-released: 
-latestUpdate: 2020-05-09
-version: "2.7.3"
+released: 2020-05-09
+latestUpdate: 2021-05-07
+version: "2.9.6"
 stars: 0.0
 ratings: 
 reviews: 
-size: 46M
+size: 45M
 website: 
 repository: 
 issue: 
 icon: im.token.app99.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: true
 signer: 
 reviewArchive:

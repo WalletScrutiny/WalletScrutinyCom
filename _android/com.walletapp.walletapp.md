@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.walletapp.walletapp.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-27
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2021-04-27
+  version: "1.0.14"
+  apkHash: 
+  gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Bcoiner - Free Bitcoin Wallet"
 altTitle: 
+authors:
 
 users: 100000
 appId: com.bcoiner.webviewapp
@@ -8,16 +10,16 @@ released: 2014-12-01
 latestUpdate: 2018-01-05
 version: "1.3.2"
 stars: 4.3
-ratings: 2418
-reviews: 1229
+ratings: 2495
+reviews: 1278
 size: 2.2M
 website: https://bcoiner.com
 repository: 
 issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-02-17
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 reviewStale: false
 signer: 
 reviewArchive:

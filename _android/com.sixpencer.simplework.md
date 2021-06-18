@@ -6,19 +6,19 @@ authors:
 - leo
 users: 5000
 appId: com.sixpencer.simplework
-released: 
-latestUpdate: 2021-05-22
-version: "1.4.0"
+released: 2020-10-09
+latestUpdate: 2021-06-09
+version: "1.4.2"
 stars: 4.5
-ratings: 153
-reviews: 74
-size: 22M
+ratings: 161
+reviews: 77
+size: 21M
 website: https://dfox.cc
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-22
 reviewStale: true
 signer: 

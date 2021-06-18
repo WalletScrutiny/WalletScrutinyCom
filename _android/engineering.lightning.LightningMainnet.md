@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Lightning (Remove Funds by Dec 31st)"
 altTitle: 
+authors:
 
 users: 1000
 appId: engineering.lightning.LightningMainnet

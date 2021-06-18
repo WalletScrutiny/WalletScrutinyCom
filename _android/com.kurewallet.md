@@ -9,9 +9,9 @@ appId: com.kurewallet
 released: 2018-10-03
 latestUpdate: 2021-02-18
 version: "2.6.6"
-stars: 3.8
-ratings: 56
-reviews: 43
+stars: 3.9
+ratings: 62
+reviews: 47
 size: 9.1M
 website: 
 repository: 

@@ -6,11 +6,11 @@ authors:
 - leo
 users: 5000
 appId: com.xzen.wallet
-released: 
+released: 2018-12-25
 latestUpdate: 2019-09-19
 version: "1.2.6.0"
 stars: 3.7
-ratings: 41
+ratings: 42
 reviews: 31
 size: 26M
 website: http://www.xzen.io/app
@@ -28,7 +28,6 @@ reviewArchive:
   apkHash: 
   gitRevision: 13d8e0095e0944d8d255811487d819fafc74c5e1
   verdict: custodial
-
 
 providerTwitter: XZENwallet
 providerLinkedIn: 

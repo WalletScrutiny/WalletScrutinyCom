@@ -1,24 +1,26 @@
 ---
+wsId: 
 title: "Cent - The crypto wallet for DeFi"
 altTitle: 
+authors:
 
-users: 100
+users: 1000
 appId: com.atlas.mobile.wallet
-released: 
-latestUpdate: 2020-10-29
-version: "1.0.11"
-stars: 5.0
-ratings: 15
-reviews: 10
+released: 2020-08-07
+latestUpdate: 2021-04-17
+version: "1.0.32"
+stars: 4.9
+ratings: 16
+reviews: 9
 size: 13M
 website: 
 repository: 
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-26
-reviewStale: false
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
+reviewStale: true
 signer: 
 reviewArchive:
 
