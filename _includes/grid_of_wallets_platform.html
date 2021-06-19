@@ -8,7 +8,7 @@
   <tr class="-filter-element -{{ platform }}">
     <td>
       <count><span class="humanised-numbers -bold"><l>{{ total }}</l></span></count>
-      <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+      <span class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</span>
     </td>
     <td>
       {% for post in platformPosts %}
