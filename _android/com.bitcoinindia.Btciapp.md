@@ -10,8 +10,8 @@ released: 2018-06-11
 latestUpdate: 2021-05-27
 version: "3.1.43"
 stars: 2.6
-ratings: 1236
-reviews: 875
+ratings: 1238
+reviews: 876
 size: 11M
 website: https://www.bitcoin-india.org
 repository: 

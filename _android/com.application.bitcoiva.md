@@ -4,7 +4,7 @@ title: "Bitcoiva-Bitcoin & Cryptocurrency Exchange India"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.application.bitcoiva
 released: 2020-11-02
 latestUpdate: 2021-04-12
