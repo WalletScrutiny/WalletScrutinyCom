@@ -9,9 +9,9 @@ appId: com.airbitz
 released: 2014-04-01
 latestUpdate: 2018-09-21
 version: "2.4.12"
-stars: 3.4
-ratings: 1147
-reviews: 490
+stars: 3.5
+ratings: 1148
+reviews: 491
 size: 16M
 website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui

@@ -4,7 +4,7 @@ title: "Coinorbis Wallet - Multi Cryptocurrency Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.coinorbis.wallet
 released: 2018-11-27
 latestUpdate: 2019-01-25

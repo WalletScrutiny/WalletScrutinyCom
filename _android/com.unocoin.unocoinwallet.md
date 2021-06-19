@@ -10,8 +10,8 @@ released: 2016-11-30
 latestUpdate: 2021-06-16
 version: "3.4.16"
 stars: 3.9
-ratings: 16029
-reviews: 8838
+ratings: 16044
+reviews: 8848
 size: 12M
 website: https://www.unocoin.com
 repository: 

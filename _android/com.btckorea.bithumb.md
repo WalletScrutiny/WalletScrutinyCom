@@ -10,8 +10,8 @@ released: 2017-09-26
 latestUpdate: 2021-05-07
 version: "2.1.9"
 stars: 3.6
-ratings: 18019
-reviews: 7919
+ratings: 18026
+reviews: 7922
 size: 36M
 website: https://www.bithumb.com
 repository: 

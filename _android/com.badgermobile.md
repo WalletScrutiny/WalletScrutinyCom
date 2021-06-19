@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.badgermobile
 released: 2019-06-10
-latestUpdate: 2021-06-02
-version: "1.13.1"
+latestUpdate: 2021-06-18
+version: "1.13.2"
 stars: 3.9
 ratings: 147
 reviews: 75
