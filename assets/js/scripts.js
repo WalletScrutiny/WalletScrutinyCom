@@ -84,6 +84,7 @@ function updateModularPayload() {
     return 0
   })
   renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"))
+  resizeLabelBold()
 }
 
 function renderBadgesToDiv(wallets, anchor) {
