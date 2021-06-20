@@ -15,7 +15,7 @@
         {% if post.verdict == v %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">
             <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo"
-              alt="Wallet Logo" style="height:3em;width:3em;float:left;margin:0.3em">
+              alt="Logo {{ post.altTitle | default: post.title }}" style="height:3em;width:3em;float:left;margin:0.3em">
           </a>
         {% endif %}
       {% endfor %}
