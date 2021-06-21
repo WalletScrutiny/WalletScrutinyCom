@@ -10,7 +10,7 @@ released: 2018-01-04
 latestUpdate: 2020-06-02
 version: "1.9.10"
 stars: 2.5
-ratings: 471
+ratings: 472
 reviews: 312
 size: 12M
 website: https://www.buda.com

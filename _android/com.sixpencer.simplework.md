@@ -10,8 +10,8 @@ released: 2020-10-09
 latestUpdate: 2021-06-09
 version: "1.4.2"
 stars: 4.5
-ratings: 162
-reviews: 78
+ratings: 163
+reviews: 79
 size: 21M
 website: https://dfox.cc
 repository: 

@@ -10,8 +10,8 @@ released: 2016-07-24
 latestUpdate: 2021-06-15
 version: "5.42.0"
 stars: 4.4
-ratings: 13199
-reviews: 6032
+ratings: 13247
+reviews: 6048
 size: 93M
 website: https://remitano.com
 repository: 

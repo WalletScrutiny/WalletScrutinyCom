@@ -1,18 +1,18 @@
 ---
 wsId: bybit
-title: "Bybit: Crypto Trading & Bitcoin Futures App"
+title: "Bybit: Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
 users: 500000
 appId: com.bybit.app
 released: 2019-10-31
-latestUpdate: 2021-06-08
-version: "2.3.1"
+latestUpdate: 2021-06-19
+version: "2.4.1"
 stars: 3.3
-ratings: 4015
-reviews: 1901
-size: 30M
+ratings: 4031
+reviews: 1908
+size: 31M
 website: https://www.bybit.com
 repository: 
 issue: 

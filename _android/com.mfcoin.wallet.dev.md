@@ -10,7 +10,7 @@ released: 2018-03-22
 latestUpdate: 2020-10-04
 version: "v4.0.0"
 stars: 4.4
-ratings: 86
+ratings: 87
 reviews: 45
 size: 5.4M
 website: mfcoin.net

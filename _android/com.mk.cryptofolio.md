@@ -10,7 +10,7 @@ released: 2018-05-02
 latestUpdate: 2020-08-19
 version: "1.0.51"
 stars: 4.4
-ratings: 22
+ratings: 23
 reviews: 12
 size: 8.0M
 website: http://www.thecryptofolioapp.com

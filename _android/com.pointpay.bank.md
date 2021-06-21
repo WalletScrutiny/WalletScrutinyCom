@@ -4,14 +4,14 @@ title: "PointPay Bank: Cryptocurrency Wallet & Exchange"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.pointpay.bank
 released: 2020-07-21
-latestUpdate: 2021-06-19
-version: "5.4.0"
+latestUpdate: 2021-06-20
+version: "5.4.1"
 stars: 4.5
-ratings: 2625
-reviews: 1396
+ratings: 2640
+reviews: 1405
 size: 71M
 website: https://wallet.pointpay.io
 repository: 

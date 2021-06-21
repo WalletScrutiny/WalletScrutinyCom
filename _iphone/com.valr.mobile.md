@@ -1,6 +1,6 @@
 ---
 wsId: valr
-title: "VALR Bitcoin Exchange & Wallet"
+title: "VALR Crypto Exchange & Wallet"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.valr.mobile
 appCountry: 
 idd: 1453499428
 released: 2019-09-27
-updated: 2021-04-20
-version: "1.0.25"
+updated: 2021-06-20
+version: "1.0.26"
 stars: 5
 reviews: 6
-size: 46091264
+size: 55793664
 website: https://www.valr.com
 repository: 
 issue: 

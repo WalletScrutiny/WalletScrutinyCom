@@ -9,7 +9,7 @@ appId: app.zeusln.zeus
 released: 2020-07-07
 latestUpdate: 2021-03-26
 version: "0.5.1"
-stars: 4.2
+stars: 4.1
 ratings: 20
 reviews: 14
 size: 55M
