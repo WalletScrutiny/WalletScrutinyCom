@@ -1,17 +1,17 @@
 {% assign total = 0 %}
-{% for post in platformPosts %}
+{% for post in include.platformPosts %}
   {% if post.verdict == v %}
     {% assign total = total | plus: 1 %}
   {% endif %}
 {% endfor %}
 {% if total > 0 %}
-  <tr class="-filter-element -{{ platform }}">
+  <tr class="-filter-element -{{ include.platform }}">
     <td>
       <count><span class="humanised-numbers -bold"><l>{{ total }}</l></span></count>
       <span class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</span>
     </td>
     <td>
-      {% for post in platformPosts %}
+      {% for post in include.platformPosts %}
         {% if post.verdict == v %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">
             <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo"

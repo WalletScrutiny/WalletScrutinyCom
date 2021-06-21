@@ -15,15 +15,11 @@
     </td>
   </tr>
   {% for v in verdicts %}
-    {% assign platform = "iphone" %}
-    {% assign platformPosts =  site.iphone | sort: "appId" | reverse | sort: "reviews" | reverse %}
-    {% include grid_of_wallets_platform.html %}
-    {% assign platform = "android" %}
-    {% assign platformPosts = site.android | sort: "appId" | reverse | sort: "users" | reverse %}
-    {% include grid_of_wallets_platform.html %}
-    {% assign platform = "hardware" %}
-    {% assign platformPosts = site.hardware %}
-    {% include grid_of_wallets_platform.html %}
+    {% assign iphonePosts  = site.iphone  | sort: "appId" | reverse | sort: "reviews" | reverse %}
+    {% assign androidPosts = site.android | sort: "appId" | reverse | sort: "users"   | reverse %}
+    {% include grid_of_wallets_platform.html platform = "iphone"   platformPosts = iphonePosts %}
+    {% include grid_of_wallets_platform.html platform = "android"  platformPosts = androidPosts %}
+    {% include grid_of_wallets_platform.html platform = "hardware" platformPosts = site.hardware %}
   {% endfor %}
 </table>
 
