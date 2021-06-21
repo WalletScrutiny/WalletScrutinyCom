@@ -3,7 +3,7 @@ wsId:
 title: "Quicrypto: Earn Crypto & Free Bitcoin"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 100000
 appId: com.quicrypto
 released: 2019-11-12
@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-18
 reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: quicrypto
 providerLinkedIn: 
@@ -33,6 +32,11 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-06-21**: This app is not a wallet.
+
+> We are using Points as user balance to emphasize that Quicrypto is not a wallet or a monetary service provider. 
+
 
 
 **Update 2021-04-25**: This app is not on Google Play anymore. It wasn't a
