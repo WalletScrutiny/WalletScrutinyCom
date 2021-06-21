@@ -37,7 +37,7 @@ redirect_from:
 
 > We are using Points as user balance to emphasize that Quicrypto is not a wallet or a monetary service provider. 
 
-
+Verdict: This is not a wallet that holds bitcoins.
 
 **Update 2021-04-25**: This app is not on Google Play anymore. It wasn't a
 wallet anyway.
