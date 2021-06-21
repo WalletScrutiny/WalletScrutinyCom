@@ -45,11 +45,11 @@ but several later attempts to get an update failed.
 
 We list the following apps of this provider:
 
-* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' %} (obfuscated)
-* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' %} (obfuscated)
-* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' %} (obfuscated)
-* {% include walletLink.html wallet='android/com.blockchain.explorer' %} (not a wallet)
-* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.explorer' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' verdict=true %}
 
 Something shady is going on here. This wallet looked like a wallet when we
 tried to reproduce it from the provided source in 2019 and we failed to
