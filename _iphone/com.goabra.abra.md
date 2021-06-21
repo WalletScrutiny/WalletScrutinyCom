@@ -34,7 +34,7 @@ redirect_from:
 
 ---
 
-This is the iPhone version of the
-[Android Abra Bitcoin Crypto Wallet Buy Trade Earn Interest](/android/com.plutus.wallet).
+This is the iPhone version of the Android
+{% include walletLink.html wallet='android/com.plutus.wallet' %}.
 
 Just like the Android version, this wallet is **not verifiable**.

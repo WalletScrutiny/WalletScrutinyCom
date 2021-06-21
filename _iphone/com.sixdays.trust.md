@@ -46,7 +46,7 @@ On their website they are more specific:
 > **Private & Secure**<br>
   Only you can access your wallet. We don’t collect any personal data.
 
-but as with [their Android app](/android/com.wallet.crypto.trustapp/) there is
+but as with their Android app {% include walletLink.html wallet='android/com.wallet.crypto.trustapp' %} there is
 no public source of the iPhone app neither.
 
 Without public code the verdict is: **not verifiable**.

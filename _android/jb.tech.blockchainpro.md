@@ -46,7 +46,7 @@ the original analysis below suggests.
 ### Original Analysis
 
 This app is a fake version of
-[Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto](/android/piuk.blockchain.android).
+{% include walletLink.html wallet='android/piuk.blockchain.android' %}.
 
 As most of those scams, it uses some fake reviews but they are using a variation
 of the old logo of Blockchain.com's wallet and the provider is

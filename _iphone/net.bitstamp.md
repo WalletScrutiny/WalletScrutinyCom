@@ -34,7 +34,7 @@ redirect_from:
 
 ---
 
-[Just like on Google Play](/android/net.bitstamp.app), they claim:
+Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:
 
 > Convenient, but secure<br>
   ● We store 98% of all crypto assets in cold storage

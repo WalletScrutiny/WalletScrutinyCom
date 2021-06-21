@@ -43,7 +43,7 @@ So it claims to be a self-custodial Bitcoin wallet.
 
 On their website there is a link to [their GitHub](https://github.com/MFrcoin/android-wallet)
 and the [Build Instructions](https://github.com/MFrcoin/android-wallet/blob/master/Build.md).
-Those reveal that we are dealing here with a [Coinomi](/android/com.coinomi.wallet/)
+Those reveal that we are dealing here with a {% include walletLink.html wallet='android/com.coinomi.wallet' %}
 clone.
 
 Let's see ... they ask us to change the app name to "Coinomi" etc. That can't be

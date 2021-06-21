@@ -34,7 +34,8 @@ redirect_from:
 
 ---
 
-This is the iPhone version of [this Android wallet](/android/com.incognito.wallet).
+This is the iPhone version of {% include walletLink.html wallet='android/com.incognito.wallet' %}
+on Android.
 
 Here we read the same claim as for Android:
 

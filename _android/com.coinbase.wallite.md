@@ -36,8 +36,8 @@ redirect_from:
 
 
 This app is provided by the same developer as
-[this app](/android/com.coinbase.android), the
-[provided website](https://wallet.coinbase.com/) links to
-[this other app](/android/org.toshi) though. It's a bit confusing.
+{% include walletLink.html wallet='android/com.coinbase.android' %}, the
+[provided website](https://wallet.coinbase.com/) links to yet another app,
+{% include walletLink.html wallet='android/org.toshi' %} though. It's a bit confusing.
 
 Reading the description it turns out, this app is for ETH only.

@@ -36,5 +36,5 @@ redirect_from:
 
 
 This app appears to be the korean version of
-[this app](/android/com.btckorea.bithumb/). Google Translate doesn't reveal any
+{% include walletLink.html wallet='android/com.btckorea.bithumb' %}. Google Translate doesn't reveal any
 substantial difference. We conclude it is a custodial offering and **not verifiable**.

@@ -36,4 +36,4 @@ redirect_from:
 
 <!-- nosource -->
 As far as we can see, this is the same as
-[this app](/android/kr.co.keypair.keywalletTouch) and thus is **not verifiable**.
+{% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.

@@ -35,6 +35,6 @@ redirect_from:
 
 ---
 
-Same as the [Google Play Version](/android/com.ccwalletapp), this is an open
+Same as the {% include walletLink.html wallet='android/com.ccwalletapp' %} on Play Store, this is an open
 source, Bitcoin, self-custodial wallet but [as with all iPhone apps](/apple),
 it is **not verifiable**.

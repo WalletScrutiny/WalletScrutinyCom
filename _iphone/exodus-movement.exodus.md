@@ -34,5 +34,5 @@ redirect_from:
 
 ---
 
-Just like [their Android wallet](/android/exodusmovement.exodus/), this app is
+Just like {% include walletLink.html wallet='android/exodusmovement.exodus' %} on Android, this app is
 closed source and thus **not verifiable**.

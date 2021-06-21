@@ -40,7 +40,7 @@ redirect_from:
 
 
 **Update 2021-05-25**: This app is not on the Play Store anymore. The app's
-website links to [this Freewallet](/android/mw.org.freewallet.app/) now.
+website links to {% include walletLink.html wallet='android/mw.org.freewallet.app' %} now.
 
 **Update 2019-11-29**: This wallet shares no source code but was categorized as
 too small, which makes it irrelevant for listings.

@@ -41,4 +41,4 @@ redirect_from:
 ---
 
 
-This app apparently was removed in favor of [AscendEx](/android/com.ascendex.exchange/).
+This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

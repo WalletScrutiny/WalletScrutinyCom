@@ -60,6 +60,6 @@ On public source their website claims:
 
 and we found [their GitHub](https://github.com/trustee-wallet/trusteeWallet).
 
-There they comment in length on the issue of reproducibility for
-[their Android wallet](/android/com.trusteewallet) but make no such claims for
+There they comment in length on the issue of reproducibility for their Android app
+{% include walletLink.html wallet='android/com.trusteewallet' %} but make no such claims for
 their iPhone product wich leads us to the verdict: **not verifiable**.

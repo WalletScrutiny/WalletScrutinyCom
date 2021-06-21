@@ -35,5 +35,5 @@ redirect_from:
 ---
 
 At the risk of putting it into the wrong **not verifiable** category, we assume
-the App Store version is no better and refer to
-[the Play Store review](/android/net.bither) for our analysis.
+the App Store version is no better and refer to their Android app
+{% include walletLink.html wallet='android/net.bither' %} for our analysis.

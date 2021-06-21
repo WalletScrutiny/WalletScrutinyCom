@@ -37,11 +37,11 @@ redirect_from:
 
 We list the following apps of this provider:
 
-* [Bitcoin](/android/com.bitcoin.wallet.btc/) (obfuscated)
-* [Bitcoin Wallet](/android/com.blockchain.wallet.btc/) (obfuscated)
-* [Bitcoin Wallet](/android/com.blockchain.bitcoin.wallet/) (obfuscated)
-* [Blockchain](/android/com.blockchain.explorer/) (not a wallet)
-* [CoinHub](/android/com.blockchain.btc.coinhub/) (obfuscated)
+* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.explorer' %} (not a wallet)
+* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' %} (obfuscated)
 
 As so far all others were obfuscated, we jump straight into jadx and sure
 enough:
@@ -61,6 +61,6 @@ public static final y1.f.b k = c.c(o.class);
 ```
 
 This app appears to be based on
-[Bitcoin Wallet by Schildbach](/android/de.schildbach.wallet/)
+{% include walletLink.html wallet='android/de.schildbach.wallet' %}
 and it is clearly obfuscated. Obfuscation is a huge red flag and we urge you not
 to trust this app with your funds.

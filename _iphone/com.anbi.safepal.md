@@ -34,7 +34,7 @@ redirect_from:
 
 This app appears to have disappeared from the App Store but
 
-* we reviewed the [Android version](/android/io.safepal.wallet)
+* we reviewed the Android {% include walletLink.html wallet='android/io.safepal.wallet' %}
 * their website links to
-  [a different wallet on the App Store](/iphone/walletapp.safepal.io), so they
+  {% include walletLink.html wallet='iphone/walletapp.safepal.io' %}, so they
   probably had to switch for some technical reasons. If you know, let us know.

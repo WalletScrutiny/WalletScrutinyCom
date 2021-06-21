@@ -37,8 +37,10 @@ redirect_from:
 
 
 **Update 2021-06-16**: Something weird is going on. Apparently there are three
-Lumi apps: [One on the App Store](/iphone/com.lumiwallet.HD/), [another on the
-Play Store](/android/com.btc.lumi.bestofwallet/) and this one here. The first
+Lumi apps: {% include walletLink.html wallet='iphone/com.lumiwallet.HD' %} on
+the App Store, another on the Play Store:
+{% include walletLink.html wallet='android/com.btc.lumi.bestofwallet' %}
+and this one here. The first
 two are defunct. 
 
 **Update 2020-06-15:** *Following a

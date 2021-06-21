@@ -34,5 +34,6 @@ redirect_from:
 
 ---
 
-As their [version for Android](/android/co.mona.android) this app is custodial
+As their app {% include walletLink.html wallet='android/co.mona.android' %} on Play Store,
+this app is custodial
 and thus **not verifiable**.

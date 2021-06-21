@@ -34,5 +34,5 @@ redirect_from:
 
 ---
 
-This is the iPhone version of [this Android app](/android/com.binance.us) and we
+This is the iPhone version of {% include walletLink.html wallet='android/com.binance.us' %} and we
 come to the same conclusion for the same reasons. This app is **not verifiable**.

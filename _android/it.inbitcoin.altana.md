@@ -39,7 +39,7 @@ redirect_from:
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).
 
 This app is a fork of the currently reproducible
-["Green: Bitcoin Wallet"](/android/com.greenaddress.greenbits_android_wallet)
+{% include walletLink.html wallet='android/com.greenaddress.greenbits_android_wallet' %}
 and supports Bitcoin with the same timelock-and-multisig setup as Green.
 
 > Altana is based on services offered by GreenAddress.

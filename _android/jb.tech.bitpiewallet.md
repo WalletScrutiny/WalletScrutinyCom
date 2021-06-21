@@ -45,7 +45,7 @@ the original analysis below suggests.
 
 ### Original Analysis
 
-This wallet imitates [Bitpie Wallet](/android/com.bitpie). It's `appId` being
+This wallet imitates {% include walletLink.html wallet='android/com.bitpie' %}. It's `appId` being
 `jb.tech.bitpiewallet` was the first hint but there are many more similarities.
 The description for example was also copied.
 

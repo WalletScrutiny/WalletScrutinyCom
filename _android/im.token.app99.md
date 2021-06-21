@@ -36,5 +36,5 @@ redirect_from:
 
 
 This app probably was related to
-[imToken - Bitcoin & Ethereum Wallet](/android/im.token.app) as it has almost
+{% include walletLink.html wallet='android/im.token.app' %} as it has almost
 the same `applicationId` but we did not get to look closer into it.

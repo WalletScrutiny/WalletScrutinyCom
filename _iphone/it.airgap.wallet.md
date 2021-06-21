@@ -34,4 +34,3 @@ redirect_from:
 
 ---
 
-This is the iPhone version of [this Android app](/android/it.airgap.wallet/).

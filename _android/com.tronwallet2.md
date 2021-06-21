@@ -40,5 +40,5 @@ redirect_from:
 
 The wallet is not listed on Google Play anymore and as their website forwards
 the visitor to the
-[Klever: Bitcoin Blockchain Wallet](/android/cash.klever.blockchain.wallet/)
+{% include walletLink.html wallet='android/cash.klever.blockchain.wallet' %}
 since long, one appears to be the successor of the other.

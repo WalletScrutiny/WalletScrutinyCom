@@ -59,8 +59,8 @@ balances on their trading product are mostly in cold storage.
 
 Please also note that this app achieved a considerable amount of installations
 despite a miserable 1.8★ rating. In
-this case, this app is only for users of
-[their other app](/iphone/com.etoro.openbook/) and this app is the only way to
+this case, this app is only for users of their other app
+{% include walletLink.html wallet='iphone/com.etoro.openbook' %} and this app is the only way to
 get your Bitcoins out of the other app.
 
 So we assume this app is custodial and thus **not verifiable**.

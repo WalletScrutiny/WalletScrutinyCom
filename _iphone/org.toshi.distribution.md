@@ -34,7 +34,7 @@ redirect_from:
 
 ---
 
-This is the iPhone version of the
-[Android Coinbase Wallet — Crypto Wallet & DApp Browser](/android/org.toshi).
+This is the iPhone version of the Android
+{% include walletLink.html wallet='android/org.toshi' %}.
 
 Just like the Android version, this wallet is **not verifiable**.

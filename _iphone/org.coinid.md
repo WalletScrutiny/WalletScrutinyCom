@@ -38,8 +38,8 @@ This provider states in the App Store description:
 
 > Check out the offline device guide on our website.
 
-but forgot to provide a website. We'll go with the one provided for their
-[Android version](/android/org.coinid.vault) as there is not much information to
+but forgot to provide a website. We'll go with the one provided for their Android app
+{% include walletLink.html wallet='android/org.coinid.vault' %} as there is not much information to
 be found on the App Store.
 
 On their code repository we find this:

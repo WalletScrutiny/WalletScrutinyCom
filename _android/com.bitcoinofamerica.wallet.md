@@ -46,9 +46,9 @@ and
 > Open-source code. Available at `https://github.com/Airbitz`
 
 but [that GitHub account](https://github.com/Airbitz) is of
-[another wallet](/android/com.airbitz/) and certainly not under the provided
+another wallet: {% include walletLink.html wallet='android/com.airbitz' %} and certainly not under the provided
 link as there is no code there
-[or anywhere else on GitLab](https://github.com/search?q=com.bitcoinofamerica.wallet).
+[or anywhere else on GitHub](https://github.com/search?q=com.bitcoinofamerica.wallet).
 
 As the provider's website also is down as of now, we don't expect much from this
 wallet and file it as **not verifiable**.

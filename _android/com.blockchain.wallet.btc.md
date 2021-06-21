@@ -38,11 +38,11 @@ redirect_from:
 
 We list the following apps of this provider:
 
-* [Bitcoin](/android/com.bitcoin.wallet.btc/) (obfuscated)
-* [Bitcoin Wallet](/android/com.blockchain.wallet.btc/) (obfuscated)
-* [Bitcoin Wallet](/android/com.blockchain.bitcoin.wallet/) (obfuscated)
-* [Blockchain](/android/com.blockchain.explorer/) (not a wallet)
-* [CoinHub](/android/com.blockchain.btc.coinhub/) (obfuscated)
+* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' %} (obfuscated)
+* {% include walletLink.html wallet='android/com.blockchain.explorer' %} (not a wallet)
+* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' %} (obfuscated)
 
 Although the name "Bitcoin Wallet - Blockchain Explorer" isn't clearly saying if
 it's an explorer or an actual wallet, the description is:
