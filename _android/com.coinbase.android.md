@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: com.coinbase.android
 released: 2013-03-01
-latestUpdate: 2021-06-17
+latestUpdate: 2021-06-21
 version: "9.28.2"
 stars: 4.3
-ratings: 464228
-reviews: 140782
+ratings: 465113
+reviews: 140934
 size: Varies with device
 website: https://coinbase.com
 repository: 

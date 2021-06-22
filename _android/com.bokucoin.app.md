@@ -4,14 +4,14 @@ title: "Bokucoin - Buy, Sell & Store Bitcoin"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.bokucoin.app
 released: 2020-10-09
 latestUpdate: 2020-10-10
 version: "1.5"
-stars: 5.0
-ratings: 8
-reviews: 6
+stars: 4.6
+ratings: 9
+reviews: 7
 size: 7.6M
 website: 
 repository: 

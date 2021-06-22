@@ -10,8 +10,8 @@ released: 2019-09-13
 latestUpdate: 2021-05-13
 version: "1.901"
 stars: 2.7
-ratings: 1598
-reviews: 1109
+ratings: 1601
+reviews: 1112
 size: 57M
 website: https://swipe.io
 repository: 

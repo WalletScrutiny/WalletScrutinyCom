@@ -10,7 +10,7 @@ released: 2018-06-18
 latestUpdate: 2019-02-26
 version: "1.28"
 stars: 2.9
-ratings: 956
+ratings: 957
 reviews: 653
 size: 50M
 website: https://www.secrypto.io

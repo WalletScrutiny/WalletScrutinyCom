@@ -9,11 +9,11 @@ appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
 released: 2019-06-13
-updated: 2021-06-14
-version: "2.5.2"
+updated: 2021-06-21
+version: "2.5.3"
 stars: 4.98018
-reviews: 2927
-size: 77322240
+reviews: 2926
+size: 131439616
 website: 
 repository: 
 issue: 

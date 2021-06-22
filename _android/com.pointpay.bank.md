@@ -9,9 +9,9 @@ appId: com.pointpay.bank
 released: 2020-07-21
 latestUpdate: 2021-06-20
 version: "5.4.1"
-stars: 4.5
-ratings: 2640
-reviews: 1405
+stars: 4.6
+ratings: 2674
+reviews: 1419
 size: 71M
 website: https://wallet.pointpay.io
 repository: 
