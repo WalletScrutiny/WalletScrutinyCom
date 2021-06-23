@@ -10,8 +10,8 @@ released: 2018-11-01
 latestUpdate: 2021-06-21
 version: "Varies with device"
 stars: 3.9
-ratings: 1156
-reviews: 493
+ratings: 1158
+reviews: 494
 size: Varies with device
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

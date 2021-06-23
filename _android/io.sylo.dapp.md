@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 released: 2019-09-10
-latestUpdate: 2021-05-24
-version: "3.0.26-btc-tx.1"
+latestUpdate: 2021-06-01
+version: "3.0.27-fix.cennznet.0"
 stars: 4.7
 ratings: 696
 reviews: 358

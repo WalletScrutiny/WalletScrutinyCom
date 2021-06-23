@@ -9,9 +9,9 @@ appId: com.bitcoinglobal
 released: 2020-09-25
 latestUpdate: 2021-06-15
 version: "2.2.2"
-stars: 4.7
-ratings: 42
-reviews: 19
+stars: 4.6
+ratings: 39
+reviews: 17
 size: 26M
 website: 
 repository: 

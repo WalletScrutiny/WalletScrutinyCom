@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.youhodler.youhodler
 released: 2019-07-11
-latestUpdate: 2021-06-01
-version: "2.15.0"
+latestUpdate: 2021-06-22
+version: "2.16.0"
 stars: 4.2
-ratings: 1510
-reviews: 599
+ratings: 1509
+reviews: 598
 size: 47M
 website: https://youhodler.com
 repository: 

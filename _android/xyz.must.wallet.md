@@ -4,7 +4,7 @@ title: "MUST WALLET"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: xyz.must.wallet
 released: 2020-09-10
 latestUpdate: 2020-09-18

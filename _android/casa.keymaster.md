@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: casa.keymaster
 released: 2019-03-01
-latestUpdate: 2021-06-17
-version: "3.1.2"
+latestUpdate: 2021-06-22
+version: "3.1.3"
 stars: 4.5
-ratings: 133
+ratings: 134
 reviews: 29
 size: 30M
 website: https://keys.casa

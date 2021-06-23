@@ -24,6 +24,7 @@ reviewStale: true
 signer: 
 reviewArchive:
 
+
 providerTwitter: quicrypto
 providerLinkedIn: 
 providerFacebook: Quicrypto
@@ -32,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 **Update 2021-06-21**: This app is not a wallet.
 

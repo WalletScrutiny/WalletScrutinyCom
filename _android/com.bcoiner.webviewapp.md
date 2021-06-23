@@ -10,8 +10,8 @@ released: 2014-12-01
 latestUpdate: 2018-01-05
 version: "1.3.2"
 stars: 4.3
-ratings: 2496
-reviews: 1279
+ratings: 2468
+reviews: 1251
 size: 2.2M
 website: https://bcoiner.com
 repository: 

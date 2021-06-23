@@ -10,8 +10,8 @@ released: 2019-10-31
 latestUpdate: 2021-06-14
 version: "0.0.177"
 stars: 4.0
-ratings: 1057
-reviews: 661
+ratings: 1059
+reviews: 662
 size: 50M
 website: https://www.bitcointoyou.com
 repository: 
