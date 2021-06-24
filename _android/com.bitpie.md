@@ -9,9 +9,9 @@ appId: com.bitpie
 released: 2016-10-23
 latestUpdate: 2021-06-18
 version: "5.0.034"
-stars: 3.7
-ratings: 720
-reviews: 376
+stars: 3.8
+ratings: 723
+reviews: 377
 size: 59M
 website: http://bitpie.com
 repository: 

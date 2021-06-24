@@ -11,7 +11,7 @@ latestUpdate: 2021-06-11
 version: "4.1.3"
 stars: 4.0
 ratings: 3952
-reviews: 2441
+reviews: 2442
 size: 56M
 website: https://www.atoken.com
 repository: 

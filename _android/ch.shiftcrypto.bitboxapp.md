@@ -10,7 +10,7 @@ released: 2020-07-13
 latestUpdate: 2021-06-03
 version: "android-4.28.2"
 stars: 4.8
-ratings: 40
+ratings: 41
 reviews: 19
 size: 64M
 website: https://shiftcrypto.ch/app

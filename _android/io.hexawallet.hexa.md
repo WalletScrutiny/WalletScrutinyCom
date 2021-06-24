@@ -10,8 +10,8 @@ released: 2020-03-26
 latestUpdate: 2021-05-05
 version: "1.6.5"
 stars: 3.8
-ratings: 20
-reviews: 12
+ratings: 21
+reviews: 13
 size: 43M
 website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa

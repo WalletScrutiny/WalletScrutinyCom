@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: "Bybit: Bitcoin Crypto Trading"
+title: "Bybit: Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2021-06-21
-version: "2.4.1"
-stars: 3.84279
-reviews: 229
-size: 122911744
+updated: 2021-06-23
+version: "2.4.2"
+stars: 3.84783
+reviews: 230
+size: 123157504
 website: https://www.bybit.com
 repository: 
 issue: 

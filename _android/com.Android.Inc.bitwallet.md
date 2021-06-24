@@ -10,13 +10,13 @@ released: 2019-07-22
 latestUpdate: 2021-06-02
 version: "1.4.16"
 stars: 4.8
-ratings: 691
-reviews: 566
+ratings: 690
+reviews: 565
 size: 26M
 website: https://www.bitwallet.org
 repository: 
 issue: 
-icon: com.Android.Inc.bitwallet.jpg
+icon: com.Android.Inc.bitwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29

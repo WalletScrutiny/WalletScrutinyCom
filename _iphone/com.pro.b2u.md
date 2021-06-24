@@ -8,11 +8,11 @@ appId: com.pro.b2u
 appCountry: 
 idd: 1489598378
 released: 2019-12-20
-updated: 2021-05-31
-version: "1.76"
+updated: 2021-06-23
+version: "1.77"
 stars: 4.2
 reviews: 5
-size: 118196224
+size: 118208512
 website: https://www.bitcointoyou.com
 repository: 
 issue: 

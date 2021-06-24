@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "Cryptopay"
+title: "Cryptopay – Bitcoin wallet & Prepaid сard"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2017-11-09
 latestUpdate: 2021-06-16
 version: "1.26"
 stars: 4.4
-ratings: 717
-reviews: 365
+ratings: 719
+reviews: 366
 size: 18M
 website: https://cryptopay.me
 repository: 

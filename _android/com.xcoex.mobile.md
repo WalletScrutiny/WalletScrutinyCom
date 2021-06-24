@@ -10,7 +10,7 @@ released: 2019-01-17
 latestUpdate: 2021-05-06
 version: "1.17.0"
 stars: 3.7
-ratings: 153
+ratings: 154
 reviews: 123
 size: 37M
 website: https://xcoex.com/

@@ -11,7 +11,7 @@ latestUpdate: 2021-05-05
 version: "4.3.0"
 stars: 3.9
 ratings: 1363
-reviews: 597
+reviews: 595
 size: 55M
 website: https://www.bitfinex.com
 repository: 
