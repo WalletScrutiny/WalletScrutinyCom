@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.zumopay.core
 released: 2019-10-28
-latestUpdate: 2021-05-26
-version: "3.0.3"
+latestUpdate: 2021-06-23
+version: "3.1.0"
 stars: 4.0
 ratings: 170
 reviews: 92
-size: 89M
+size: 188M
 website: https://zumo.money
 repository: 
 issue: 

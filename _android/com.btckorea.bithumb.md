@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: com.btckorea.bithumb
 released: 2017-09-26
-latestUpdate: 2021-06-15
-version: "2.2.0"
-stars: 3.4
-ratings: 19681
-reviews: 8466
-size: 36M
+latestUpdate: 2021-06-23
+version: "2.2.1"
+stars: 3.3
+ratings: 19775
+reviews: 8495
+size: 39M
 website: https://www.bithumb.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "All Coin Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.allcoinwallet.allcoinwallet
 released: 2019-01-28
 latestUpdate: 2019-11-22
