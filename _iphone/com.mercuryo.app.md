@@ -10,8 +10,8 @@ idd: 1446533733
 released: 2019-02-08
 updated: 2021-06-01
 version: "1.65"
-stars: 4.74809
-reviews: 393
+stars: 4.74559
+reviews: 397
 size: 48451584
 website: https://mercuryo.io/
 repository: 

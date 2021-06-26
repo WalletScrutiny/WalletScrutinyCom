@@ -9,9 +9,9 @@ appId: co.za.binarymatter.bitcoinwalletfake
 released: 2021-03-21
 latestUpdate: 2021-04-16
 version: "1.3"
-stars: 3.8
-ratings: 19
-reviews: 11
+stars: 3.7
+ratings: 20
+reviews: 12
 size: 5.6M
 website: 
 repository: 

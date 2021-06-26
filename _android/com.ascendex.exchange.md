@@ -9,9 +9,9 @@ appId: com.ascendex.exchange
 released: 2021-04-28
 latestUpdate: 2021-06-19
 version: "2.5.5"
-stars: 3.8
-ratings: 1534
-reviews: 560
+stars: 3.7
+ratings: 1545
+reviews: 564
 size: 40M
 website: https://ascendex.com
 repository: 

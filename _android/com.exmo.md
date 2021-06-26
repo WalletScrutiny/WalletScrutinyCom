@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.exmo
 released: 2019-11-12
-latestUpdate: 2021-06-23
+latestUpdate: 2021-06-25
 version: "2.4"
-stars: 3.9
-ratings: 1849
-reviews: 1251
+stars: 4.0
+ratings: 1853
+reviews: 1254
 size: 59M
 website: https://exmo.com
 repository: 

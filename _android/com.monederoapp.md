@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.monederoapp
 released: 2020-03-13
-latestUpdate: 2021-06-22
-version: "4.0.0"
+latestUpdate: 2021-06-25
+version: "4.1.0"
 stars: 4.0
 ratings: 16
 reviews: 6

@@ -9,11 +9,11 @@ appId: io.yellowcard.app
 appCountry: 
 idd: 1543252298
 released: 2021-03-04
-updated: 2021-06-09
-version: "1.2.0"
+updated: 2021-06-24
+version: "1.3.0"
 stars: 3.59091
 reviews: 22
-size: 90347520
+size: 89454592
 website: https://yellowcard.io
 repository: 
 issue: 

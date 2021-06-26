@@ -10,8 +10,8 @@ released: 2015-01-08
 latestUpdate: 2021-05-29
 version: "2.0.58"
 stars: 4.2
-ratings: 1610
-reviews: 666
+ratings: 1614
+reviews: 667
 size: 31M
 website: https://bit2me.com
 repository: 

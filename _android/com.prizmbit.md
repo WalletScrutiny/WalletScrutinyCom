@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.prizmbit
 released: 2019-06-28
-latestUpdate: 2021-06-24
+latestUpdate: 2021-06-25
 version: "1.4.19"
 stars: 3.8
-ratings: 502
-reviews: 236
+ratings: 503
+reviews: 237
 size: 15M
 website: https://prizmbit.com/
 repository: 

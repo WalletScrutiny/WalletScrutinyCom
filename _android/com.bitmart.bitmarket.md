@@ -9,9 +9,9 @@ appId: com.bitmart.bitmarket
 released: 2018-05-09
 latestUpdate: 2021-06-03
 version: "2.5.4"
-stars: 4.1
-ratings: 14237
-reviews: 6003
+stars: 5.0
+ratings: 15383
+reviews: 6422
 size: 32M
 website: https://www.bitmart.com
 repository: 

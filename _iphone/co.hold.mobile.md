@@ -8,11 +8,11 @@ appId: co.hold.mobile
 appCountry: de
 idd: 1435187229
 released: 2018-09-28
-updated: 2021-03-09
-version: "3.12.9"
+updated: 2021-06-25
+version: "3.13.0"
 stars: 4
 reviews: 16
-size: 33201152
+size: 33139712
 website: https://hold.io
 repository: 
 issue: 

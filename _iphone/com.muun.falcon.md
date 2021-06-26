@@ -10,8 +10,8 @@ idd: 1482037683
 released: 2019-10-11
 updated: 2021-06-21
 version: "2.3.1"
-stars: 4.42856
-reviews: 35
+stars: 4.44444
+reviews: 36
 size: 77602816
 website: https://www.muun.com
 repository: https://github.com/muun/falcon

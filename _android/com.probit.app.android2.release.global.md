@@ -4,14 +4,14 @@ title: "ProBit Global: Buy & Sell Bitcoin. Crypto Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.probit.app.android2.release.global
 released: 2019-06-19
 latestUpdate: 2021-06-23
 version: "1.33.0.1"
 stars: 3.8
-ratings: 4580
-reviews: 2810
+ratings: 4587
+reviews: 2815
 size: 18M
 website: https://www.probit.com
 repository: 
