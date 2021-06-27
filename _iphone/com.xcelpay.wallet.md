@@ -10,8 +10,8 @@ idd: 1461215417
 released: 2019-05-26
 updated: 2021-06-22
 version: "2.33.0"
-stars: 4.23076
-reviews: 26
+stars: 4.25926
+reviews: 27
 size: 54825984
 website: http://xcelpay.io
 repository: 

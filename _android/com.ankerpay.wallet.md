@@ -10,7 +10,7 @@ released: 2019-09-17
 latestUpdate: 2021-06-11
 version: "v1.0.12.2"
 stars: 4.1
-ratings: 100
+ratings: 101
 reviews: 85
 size: 4.9M
 website: https://ankerid.com/mobile-wallet

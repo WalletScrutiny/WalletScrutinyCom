@@ -9,9 +9,9 @@ appId: com.samourai.sentinel
 released: 2015-05-23
 latestUpdate: 2021-04-13
 version: "4.0.2"
-stars: 3.7
-ratings: 299
-reviews: 162
+stars: 3.6
+ratings: 300
+reviews: 163
 size: 40M
 website: https://www.samouraiwallet.com/sentinel
 repository: https://github.com/Samourai-Wallet/sentinel-android

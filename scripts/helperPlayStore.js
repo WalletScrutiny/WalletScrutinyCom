@@ -7,6 +7,7 @@ const yaml = require('js-yaml')
 const helper = require('./helper.js')
 const probablyDefunct = []
 const weirdBug = []
+const errorLogFileName = "/tmp/unnatural.txt"
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -102,12 +103,18 @@ function writeResult(app, header, iconExtension, body) {
   const redirects = new Set(header.redirect_from)
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  process.stdout.write("🤖")
-  if (header.stars != "0.0" && app.scoreText == "0.0" ||
-      header.reviews && header.reviews > 10 && app.reviews < 0.9 * header.reviews) {
+  if (header.stars != "0.0"
+      && app.scoreText == "0.0"
+      || header.reviews
+      && header.reviews > 10
+      && app.reviews < 0.9 * header.reviews) {
     weirdBug.push(header.appId)
-    // TODO: Make it print this list only once when all apps are processed.
-    console.error(`The following apps were updated in unnatural ways:\n${weirdBug.join(" ")}`)
+    const errorLogFile = fs.createWriteStream(errorLogFileName)
+    errorLogFile.write(`${weirdBug.join(" ")}`)
+    errorLogFile.close()
+    process.stdout.write("(🤖)")
+  } else {
+    process.stdout.write("🤖")
   }
   f.write(`---
 wsId: ${header.wsId || ""}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir images/wallet_icons/{android,iphone}/{small,tiny}/ 2> /dev/null
-rm /tmp/revert.txt
+rm /tmp/revert.txt 2> /dev/null
 
 resizeDeterministically() {
   filename=$1
