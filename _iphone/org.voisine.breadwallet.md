@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-12-21
   version: "4.9.0.3"
-  apkHash: 
+  appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
 

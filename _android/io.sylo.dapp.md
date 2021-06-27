@@ -10,7 +10,7 @@ released: 2019-09-10
 latestUpdate: 2021-06-01
 version: "3.0.27-fix.cennznet.0"
 stars: 4.7
-ratings: 698
+ratings: 699
 reviews: 358
 size: 347M
 website: https://www.sylo.io/wallet

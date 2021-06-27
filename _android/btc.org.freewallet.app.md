@@ -4,14 +4,14 @@ title: "Bitcoin Wallet. Buy & Exchange BTC coin－Freewallet"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: btc.org.freewallet.app
 released: 2016-06-13
 latestUpdate: 2021-06-01
 version: "2.5.9"
 stars: 4.0
-ratings: 5075
-reviews: 2510
+ratings: 5080
+reviews: 2512
 size: 7.3M
 website: https://freewallet.org
 repository: 

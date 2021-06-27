@@ -10,8 +10,8 @@ idd: 1435187229
 released: 2018-09-28
 updated: 2021-06-25
 version: "3.13.0"
-stars: 4
-reviews: 16
+stars: 3.93333
+reviews: 15
 size: 33139712
 website: https://hold.io
 repository: 

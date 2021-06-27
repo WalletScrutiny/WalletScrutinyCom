@@ -4,7 +4,7 @@ title: "Dfox-Crypto Wallet and DeFi Portfolio"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.sixpencer.simplework
 released: 2020-10-09
 latestUpdate: 2021-06-23

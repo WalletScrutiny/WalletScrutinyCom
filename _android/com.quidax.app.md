@@ -10,8 +10,8 @@ released: 2019-10-31
 latestUpdate: 2021-01-12
 version: "1.8.0"
 stars: 3.8
-ratings: 1835
-reviews: 1416
+ratings: 1836
+reviews: 1417
 size: 53M
 website: https://www.quidax.com
 repository: 

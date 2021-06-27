@@ -9,9 +9,9 @@ appId: org.coinid.vault
 released: 2018-10-14
 latestUpdate: 2021-02-20
 version: "1.5.5"
-stars: 4.6
-ratings: 9
-reviews: 5
+stars: 4.2
+ratings: 10
+reviews: 6
 size: 34M
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
