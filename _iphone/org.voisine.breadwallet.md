@@ -18,12 +18,16 @@ repository: https://github.com/breadwallet/breadwallet-ios
 issue: 
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-27
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2020-12-21
+  version: "4.9.0.3"
+  apkHash: 
+  gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
+  verdict: nonverifiable
 
 providerTwitter: BRDHQ
 providerLinkedIn: brdhq
@@ -33,6 +37,13 @@ providerReddit: brdapp
 redirect_from:
 
 ---
+
+**Update 2021-06-27**: As pointed out
+[here](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869031603),
+the provider stopped updating the public source repository and thus is to be
+considered closed source. The current version on the App Store is 4.11 from
+yesterday. The latest version available on their GitHub is 4.9.0.3 from
+2021-03-16.
 
 This provider claims
 
