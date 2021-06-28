@@ -56,15 +56,15 @@ What we do not do
 Our steps when reviewing a new iPhone or Android app
 ==================================
 
-Some of the information is collected automatically from the platforms. Apps tagged
-{% include verdictBadge.html verdict="wip" type='short' %}
+Some of the information is collected automatically from the platforms. Apps
+tagged {% include verdictBadge.html verdict="wip" type='short' %}
 are work in progress and might have nothing to do with wallets. We have
 not had the time to look into it yet.
 
 If in the Play Store the app has few downloads or in the App Store few reviews,
 we do not bother investigating it
-further and keep tracking its downloads/reviews until it does. Those get tagged 
-{% include verdictBadge.html verdict="fewusers" type='short' %}.
+further and keep tracking its downloads/reviews until it does. Those get
+tagged {% include verdictBadge.html verdict="fewusers" type='short' %}.
 
 Our manual review goes as follows:
 
@@ -81,100 +81,15 @@ findings.
 We try to answer the following questions:
 
 
-Is it a wallet?
----------------
+{% include verdictMethodology.html verdict="nowallet" %}
+{% include verdictMethodology.html verdict="nobtc" %}
+{% include verdictMethodology.html verdict="custodial" %}
+{% include verdictMethodology.html verdict="nosource" %}
+{% include verdictMethodology.html verdict="obfuscated" %}
+{% include verdictMethodology.html verdict="nonverifiable" %}
 
-If it's called "wallet" but is actually only a portfolio tracker, we don't look
-any deeper, assuming it is not meant to control funds. What has no funds, can't
-lose your coins. *It might still leak your financial history!*
-
-If not, we tag it {% include verdictBadge.html verdict="nowallet" type='short' %}.
-
-
-Is it for Bitcoins?
--------------------
-
-At this point we only look into wallets that at least also support BTC. If this
-is not the case, the wallet is tagged
-{% include verdictBadge.html verdict="nobtc" type='short' %}.
-
-
-Is it custodial?
-------------------------
-
-A custodial service is a service where the funds are held by a third party like the
-provider. The custodial service can at any point steal all the funds of all the users at the
-custodian's discretion. Our investigations stop there.
-
-Some services might claim their setup is
-super secure, that they don't actually have access to the funds, or that the
-access is shared between multiple parties. For our evaluation of it being a wallet,
-these details are irrelevant. They might be a trustworthy Bitcoin bank and they might
-be a better fit for certain users than being your own bank but our investigation
-still stops there as we are only interested in wallets.
-
-Those apps get tagged {% include verdictBadge.html verdict="custodial" type='short' %}.
-
-Apps that claim to be non-custodial but feature custodial accounts without very
-clearly marking those as custodial are also considered "custodial" as a whole to
-avoid trusting users following our assessment to fall for this important
-limitation of said apps.
-
-
-Is the source code public?
---------------------------
-
-A wallet that claims to not give the provider the means to steal the users'
-funds might actually be lying. In the spirit of *"Don't trust - verify!"*
-you don't want to take the provider at his word, but trust that people hunting
-for fame and bug bounties could actually find flaws and back-doors in the wallet
-so the provider doesn't dare to put these in.
-
-Back-doors and flaws are frequently found in closed source products but some
-remain hidden for years. And even in open source security software there
-might be
-[catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71)
-undiscovered for years.
-
-An evil wallet provider would certainly prefer not to publish the code, as
-hiding it makes audits orders of magnitude harder.
-
-For your security, you thus want the code to be available for review.
-
-If the wallet provider doesn't share up to date code, our analysis stops there.
-The wallet could steal your funds at any time, and there is no protection except
-the provider's word.
-
-We are not concerned about the license as long as it allows us to perform our
-analysis. For a security audit, it is not necessary that the provider allows
-others to use their code for a competing wallet.
-
-If no code is found or the code found is clearly outdated, the wallet is
-classified as {% include verdictBadge.html verdict="nosource" type='short' %}.
-
-
-Is the published app matching the published code?
-------------------------------------------------
-
-Published code doesn't help much if it is not what the published app was
-built from. At this point we try to reproduce the app. We
-
-1. obtain the app from the platform
-1. compile the app from the published source code using the published build
-   instructions
-1. compare the two apps
-1. we might spend some time working around
-   [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
-
-If this fails, we might search if other revisions match or if we can
-deduct the source of the mismatch but generally consider it on the provider to
-provide the correct source code and build instructions to reproduce the build,
-so we usually open a ticket in their code repository and
-classify the wallet as
-{% include verdictBadge.html verdict="nonverifiable" type='short' %}.
-
-If we managed to reproduce the build, we classify it as 
-{% include verdictBadge.html verdict="reproducible" type='short' %}.
+**If we managed to reproduce the build**, we classify it as {%
+  include verdictBadge.html verdict="reproducible" type='short' %}
 
 
 Our steps when reviewing a new hardware wallet
@@ -186,17 +101,9 @@ for public source and reproducibility.
 
 In addition we look at physical properties of the device.
 
-We recycle the {% include verdictBadge.html verdict="custodial" type='short' %}
-verdict for wallets that come with private keys the provider could obviously
-hold on to as for example is the case whenever a printed QR-code of the private
-key gets shipped to the customer.
-
-A hardware-wallet-exclusive verdict is
-{% include verdictBadge.html verdict="noita" type='short' %}. These are devices
-that might generate secure private key material, outside the reach of the
-provider but that do not have the means to let the user verify transactions on
-the device itself. This verdict includes screen-less smart cards or USB-dongles.
-
+{% include verdictMethodology.html verdict="prefilled" %}
+{% include verdictMethodology.html verdict="plainkey" %}
+{% include verdictMethodology.html verdict="noita" %}
 
 Priorities
 ----------
@@ -206,8 +113,8 @@ still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
 
-1. Re-evaluate new releases of
-   {% include verdictBadge.html verdict="reproducible" type='short' %}
+1. Re-evaluate new releases of {%
+   include verdictBadge.html verdict="reproducible" type='short' %}
    wallets as they become available. If
    users opt for a wallet because it is reproducible, they **should be waiting for
    this re-evaluation** before updating.

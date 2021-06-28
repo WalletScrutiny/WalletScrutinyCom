@@ -8,7 +8,7 @@
 <table id="gridOfWallets2">
   <tr>
     <td>
-      <count><span class="humanised-numbers -bold"><l>0</l></span></count><span>Audited<a href="/methodology/#noAudit">?</a></span>
+      <count><span class="humanised-numbers -bold"><l>0</l></span></count><span><a href="/methodology/#noAudit">Audited?</a></span>
     </td>
     <td>
     </td>
@@ -42,7 +42,7 @@
             {% endif %}
           </span>
         </count>
-        <span class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</span>
+        <a href="/methodology/#{{ v }}"><span class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</span></a>
       </td>
       <td>
         {% for post in posts %}

@@ -38,13 +38,10 @@ layout: default
             <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
               data="{{ page.date }}">
               {{ page.date | date_to_long_string: "ordinal" }}
-            </span></span>
+            </span>
+          </span>
 
-          <div class="verdict">
-            <span style="background:{{ site.data.verdicts[page.verdict].color }}; margin-right: auto;"
-              class="badge-col"><span>{{ site.data.verdicts[page.verdict].title
-                }}</span></span>
-          </div>
+          {% include verdictBadge.html verdict=page.verdict type='medium' %}
 
           <div class="social-row">
             <ul>
