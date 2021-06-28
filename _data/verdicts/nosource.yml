@@ -1,0 +1,54 @@
+title: No source for current release found
+short: 'No&nbsp;Source!'
+color: '#d33100'
+redflag: true
+message: >
+  Without public source of the reviewed release available, this app cannot be
+  verified!
+explanation : >
+  This verdict means that we could not find source to compile the current
+  release of the app from.
+  
+  
+  Internally the company might do everything right but as we can't verify it,
+  there is nothing protecting the user from an exit-scam where the provider
+  releases an app that leaks the keys to the servers.
+question: Is the source code publicly available?
+details: >
+  A wallet that claims to not give the provider the means to steal the users'
+  funds might actually be lying. In the spirit of *"Don't trust - verify!"*
+  you don't want to take the provider at his word, but trust that people
+  hunting for fame and bug bounties could actually find flaws and back-doors
+  in the wallet so the provider doesn't dare to put these in.
+
+
+  Back-doors and flaws are frequently found in closed source products but some
+  remain hidden for years. And even in open source security software there
+  might be
+  [catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71)
+  undiscovered for years.
+
+
+  An evil wallet provider would certainly prefer not to publish the code, as
+  hiding it makes audits orders of magnitude harder.
+
+
+  For your security, you thus want the code to be available for review.
+
+
+  If the wallet provider doesn't share up to date code, our analysis stops
+  there as the wallet could steal your funds at any time, and there is no
+  protection except the provider's word.
+
+
+  "Up to date" strictly means that any instance of the app being updated
+  without the source code being updated counts as closed source. This puts the
+  burden on the provider to always first release the source code before
+  releasing the app's update. This paragraph is a clarification to our rules
+  following
+  [a little poll](https://twitter.com/WalletScrutiny/status/1408933028227956736).
+
+
+  We are not concerned about the license as long as it allows us to perform our
+  analysis. For a security audit, it is not necessary that the provider allows
+  others to use their code for a competing wallet.

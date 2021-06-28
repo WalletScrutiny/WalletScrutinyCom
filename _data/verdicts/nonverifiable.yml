@@ -1,0 +1,40 @@
+title: Not reproducible from the source provided
+short: 'Not&nbsp;Reproducible'
+color: '#d33100'
+redflag: true
+message: >
+  The app provider also shares code but we could so far not verify that the
+  published code matches the published app!
+explanation : >
+  This verdict means that the provider did share some source code but that we
+  could not verify that this source code matches the released app. This might
+  be due to the source not building deterministically or due to the
+  provided instructions on how to compile the app not being sufficient or
+  due to the provider excluding parts from the public source code. In any
+  case, the result is a discrepancy between the app we can create and the app
+  we can find on the app store and any discrepancy might leak your backup to the
+  server on purpose or by accident.
+  
+  
+  As we cannot verify that the source provided is the source the app was
+  compiled from, this category is only slightly better than **closed source**
+  but for now we have hope projects come around and fix verifiability issues.
+question: Is the published app matching the published code?
+details: >
+  Published code doesn't help much if it is not what the published app was
+  built from. At this point we try to reproduce the app. We
+
+  1. obtain the app from the platform
+
+  1. compile the app from the published source code using the published build
+     instructions
+  1. compare the two apps
+
+  1. we might spend some time working around
+     [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
+
+  If this fails, we might search if other revisions match or if we can
+  deduct the source of the mismatch but generally consider it on the provider to
+  provide the correct source code and build instructions to reproduce the build,
+  so we usually open a ticket in their code repository and
+  classify the wallet as

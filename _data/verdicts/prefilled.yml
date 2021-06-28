@@ -1,0 +1,21 @@
+title: 'Provided keys'
+short: 'Provided&nbsp;private&nbsp;keys'
+color: '#d33100'
+redflag: true
+message: >
+  It's a known fact that the device gets delivered with the private keys as
+  defined by the provider.
+explanation : >
+  The device is delivered with the private keys. This means the provider had
+  direct access to those keys and as there is no way of prooving he deleted
+  them, this system relies on trust and cannot be verified.
+question: Are the keys hidden from the provider?
+details: >
+  The best hardware wallet cannot guarantee that the provider deleted the
+  keys if the private keys were put onto the device by im in the first place.
+  
+  
+  There is no way of knowing if the provider took a copy in the process. If he
+  did, all funds controlled by those devices are potentially under the control
+  of the provider and could be move out of the client's control at any time at
+  the provider's discretion.

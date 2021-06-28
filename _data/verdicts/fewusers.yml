@@ -1,0 +1,11 @@
+title: 'Few users'
+short: 'Few&nbsp;Users'
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This app has too few users for now to be reviewed in detail.
+explanation : >
+  This app still needs to be evaluated but before that, gain some users. In
+  the store there is an infinite list of "wallets" and we focus on those
+  that have the biggest impact if things go wrong.
+question: 
+details: 

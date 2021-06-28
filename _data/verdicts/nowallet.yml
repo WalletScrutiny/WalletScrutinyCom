@@ -1,0 +1,15 @@
+title: 'Not a wallet'
+short: 'No&nbsp;Wallet'
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: >
+  We could not find this to be an app meant to store, receive and send
+  coins.
+explanation : >
+  This appears to not be an app to send and receive bitcoins. We will
+  probably remove this app from the project.
+question: Is it a wallet?
+details: >
+  If it's called "wallet" but is actually only a portfolio tracker, we don't look
+  any deeper, assuming it is not meant to control funds. What has no funds, can't
+  lose your coins. *It might still leak your financial history!*

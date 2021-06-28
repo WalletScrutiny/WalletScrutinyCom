@@ -1,0 +1,25 @@
+title: 'No ITA'
+short: 'Bad&nbsp;Interface'
+color: '#d33100'
+redflag: true
+message: >
+  The design of the device does not allow the user to verify what he is
+  signing.
+explanation : >
+  This wallet lacks either an output device such as a screen, an input
+  device such as touch or physical buttons or both. In consequence, crucial
+  elements of approving transactions is being delegated to other hardware such
+  as a general purpose PC or phone which defeats the purpose of a hardware
+  wallet.
+  
+  
+  The software of the device might be perfect but this device cannot be
+  recommended due to this fundamental flaw.
+question: Can the user verify transactions on the device?
+details: >
+  These are devices
+  that might generate secure private key material, outside the reach of the
+  provider but that do not have the means to let the user verify transactions
+  on the device itself. This verdict includes screen-less smart cards or
+  USB-dongles.
+ 

@@ -1,0 +1,10 @@
+title: 'Work in Progress'
+short: 'WIP'
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: 'We still have to analyze this app.' 
+explanation : >
+  This app still needs to be evaluated. We only gathered name and logo and
+  maybe some more details but we have not really looked much into it yet.
+question: 
+details: 
