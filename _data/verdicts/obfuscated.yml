@@ -7,6 +7,8 @@ message: >
   significantly harder to analyze what it is doing.
 explanation : >
   This verdict means that the app could not be decompiled meaningfully.
+  
+  
   In benign cases code symbols are replaced by short strings to make the app
   smaller but for the sake of transparency this should not be done for 
   non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the
@@ -19,7 +21,7 @@ details: >
   anything to do with the app offered for download.
   
   
-  Especially in the above cases, obfuscation is a huge red flag. If the code
+  Especially in the public source cases, obfuscation is a red flag. If the code
   is public, why obfuscate it?
   
   
@@ -28,5 +30,5 @@ details: >
   
   
   As looking for code obfuscation is a more involved task, we do not inspect
-  all closed source apps but if we see other red flags, we might use this test
-  to get clarity abuot putting the app into this red-flag category.
+  all closed source apps but if we see other red flags, we might test this
+  to then put the app into this red-flag category.
