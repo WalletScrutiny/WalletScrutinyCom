@@ -87,9 +87,7 @@ We try to answer the following questions:
 {% include verdictMethodology.html verdict="nosource" %}
 {% include verdictMethodology.html verdict="obfuscated" %}
 {% include verdictMethodology.html verdict="nonverifiable" %}
-
-**If we managed to reproduce the build**, we classify it as {%
-  include verdictBadge.html verdict="reproducible" type='short' %}
+{% include verdictMethodology.html verdict="reproducible" %}
 
 
 Our steps when reviewing a new hardware wallet
