@@ -30,7 +30,6 @@ const allowedHeaders = [
   "bugbounty", // link to bug bounty program if known
   "verdict", // 
   "date", // date the review was done/updated
-  "reviewStale", // script marks this true when the version changes
   "signer", // the identifier of the release signing key
   "reviewArchive", // history of our reviews
   "providerTwitter",
@@ -98,7 +97,6 @@ function writeResult(app, header, iconExtension, body) {
   } else if ( header.verdict == "fewusers" && app.minInstalls > 1000 ) {
     verdict = "wip"
   } 
-  var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
   const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
   const p = `_android/${header.appId}.md`
@@ -138,7 +136,6 @@ icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
 verdict: ${verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
 signer: ${header.signer || ""}
 reviewArchive:
 ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
