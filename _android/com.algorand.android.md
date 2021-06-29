@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.algorand.android
 released: 2019-06-07
-latestUpdate: 2021-06-08
-version: "4.9.1"
+latestUpdate: 2021-06-28
+version: "4.9.2"
 stars: 4.8
-ratings: 3472
-reviews: 999
+ratings: 3507
+reviews: 1011
 size: 37M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.algorand.android.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: true
 signer: 
 reviewArchive:
 

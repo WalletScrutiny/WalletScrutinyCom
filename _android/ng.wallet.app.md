@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: ng.wallet.app
 released: 2017-06-22
-latestUpdate: 2021-06-22
-version: "2.475"
+latestUpdate: 2021-06-28
+version: "2.476"
 stars: 4.0
 ratings: 1576
 reviews: 1274
@@ -20,7 +20,6 @@ icon: ng.wallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-23
-reviewStale: true
 signer: 
 reviewArchive:
 

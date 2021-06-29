@@ -20,7 +20,6 @@ icon: pro.bingbon.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-21
-reviewStale: true
 signer: 
 reviewArchive:
 

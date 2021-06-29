@@ -20,7 +20,6 @@ icon: com.dowallet.dowallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-26
-reviewStale: true
 signer: 
 reviewArchive:
 

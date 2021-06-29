@@ -10,8 +10,8 @@ released: 2018-07-07
 latestUpdate: 2021-06-16
 version: "1.9.7"
 stars: 4.2
-ratings: 30034
-reviews: 18877
+ratings: 30059
+reviews: 18888
 size: Varies with device
 website: https://chippercash.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.chippercash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -20,7 +20,6 @@ icon: app.bankowallet.android.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

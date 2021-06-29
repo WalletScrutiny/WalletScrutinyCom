@@ -10,8 +10,8 @@ released: 2019-10-31
 latestUpdate: 2021-01-12
 version: "1.8.0"
 stars: 3.8
-ratings: 1836
-reviews: 1417
+ratings: 1838
+reviews: 1419
 size: 53M
 website: https://www.quidax.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.quidax.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-20
-reviewStale: true
 signer: 
 reviewArchive:
 

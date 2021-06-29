@@ -10,8 +10,8 @@ idd: 1252903728
 released: 2017-07-11
 updated: 2021-06-23
 version: "7.0.5"
-stars: 4.36432
-reviews: 6777
+stars: 4.36439
+reviews: 6784
 size: 119214080
 website: https://www.bitcoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitcoin.mwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

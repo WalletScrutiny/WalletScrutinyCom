@@ -10,8 +10,8 @@ released: 2018-06-29
 latestUpdate: 2021-06-11
 version: "1.2.8"
 stars: 4.4
-ratings: 7948
-reviews: 3662
+ratings: 7982
+reviews: 3673
 size: 44M
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-android
@@ -20,7 +20,6 @@ icon: vip.mytokenpocket.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

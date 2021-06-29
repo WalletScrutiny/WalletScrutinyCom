@@ -20,12 +20,11 @@ icon: io.muun.apollo.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-06
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-12-29
   version: "beta-36.2"
-  apkHash: 
+  appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
 

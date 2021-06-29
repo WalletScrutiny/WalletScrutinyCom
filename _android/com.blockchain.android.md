@@ -23,7 +23,7 @@ signer:
 reviewArchive:
 - date: 2020-11-28
   version: "1.0.7.5"
-  apkHash: 
+  appHash: 
   gitRevision: deed03beb86d7c7aa7d4078d9c13d1501ce35bd6
   verdict: obfuscated
 

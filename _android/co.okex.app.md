@@ -10,8 +10,8 @@ released: 2019-09-11
 latestUpdate: 2021-06-16
 version: "5.3.0"
 stars: 4.2
-ratings: 3626
-reviews: 1774
+ratings: 3636
+reviews: 1779
 size: 20M
 website: https://ok-ex.co
 repository: 
@@ -20,12 +20,11 @@ icon: co.okex.app.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-11-16
   version: ""
-  apkHash: 
+  appHash: 
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
 

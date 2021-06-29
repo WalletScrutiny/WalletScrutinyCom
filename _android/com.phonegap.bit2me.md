@@ -10,7 +10,7 @@ released: 2015-01-08
 latestUpdate: 2021-05-29
 version: "2.0.58"
 stars: 4.2
-ratings: 1620
+ratings: 1621
 reviews: 670
 size: 31M
 website: https://bit2me.com
@@ -20,7 +20,6 @@ icon: com.phonegap.bit2me.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

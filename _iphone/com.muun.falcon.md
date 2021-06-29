@@ -10,8 +10,8 @@ idd: 1482037683
 released: 2019-10-11
 updated: 2021-06-21
 version: "2.3.1"
-stars: 4.44444
-reviews: 36
+stars: 4.45946
+reviews: 37
 size: 77602816
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
@@ -20,7 +20,6 @@ icon: com.muun.falcon.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: true
 signer: 
 reviewArchive:
 

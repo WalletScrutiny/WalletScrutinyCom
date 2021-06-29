@@ -10,8 +10,8 @@ released: 2017-09-23
 latestUpdate: 2021-06-21
 version: "4.3.1"
 stars: 4.4
-ratings: 23030
-reviews: 7919
+ratings: 23045
+reviews: 7924
 size: 77M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: io.getdelta.android.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

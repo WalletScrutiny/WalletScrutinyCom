@@ -10,8 +10,8 @@ released: 2020-08-18
 latestUpdate: 2021-05-31
 version: "1.6.7"
 stars: 5.0
-ratings: 3394
-reviews: 3350
+ratings: 3397
+reviews: 3352
 size: 42M
 website: https://bitpapa.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitpapa.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2019-06-28
 latestUpdate: 2021-06-24
 version: "1.4.14"
 stars: 4.0
-ratings: 9685
-reviews: 4583
+ratings: 9727
+reviews: 4602
 size: 62M
 website: https://nexo.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.nexowallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

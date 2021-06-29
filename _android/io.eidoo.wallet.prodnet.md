@@ -10,7 +10,7 @@ released: 2017-09-25
 latestUpdate: 2021-06-25
 version: "3.3.0"
 stars: 3.0
-ratings: 1605
+ratings: 1606
 reviews: 798
 size: 13M
 website: https://eidoo.io
@@ -20,7 +20,6 @@ icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

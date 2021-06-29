@@ -10,7 +10,7 @@ released: 2017-11-15
 latestUpdate: 2021-06-25
 version: "2.35.5"
 stars: 3.2
-ratings: 2140
+ratings: 2139
 reviews: 1022
 size: 64M
 website: https://www.infinitowallet.io
@@ -20,7 +20,6 @@ icon: io.infinito.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-30
-reviewStale: true
 signer: 
 reviewArchive:
 

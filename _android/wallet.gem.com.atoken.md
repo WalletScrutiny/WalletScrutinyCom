@@ -10,8 +10,8 @@ released: 2020-03-01
 latestUpdate: 2021-06-11
 version: "4.1.3"
 stars: 4.0
-ratings: 3954
-reviews: 2443
+ratings: 3957
+reviews: 2444
 size: 56M
 website: https://www.atoken.com
 repository: 
@@ -20,7 +20,6 @@ icon: wallet.gem.com.atoken.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

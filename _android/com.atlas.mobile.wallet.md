@@ -20,7 +20,6 @@ icon: com.atlas.mobile.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 

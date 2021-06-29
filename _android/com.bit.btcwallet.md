@@ -20,7 +20,6 @@ icon: com.bit.btcwallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

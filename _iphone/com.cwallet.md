@@ -20,7 +20,6 @@ icon: com.cwallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 

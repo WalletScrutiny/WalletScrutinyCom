@@ -20,7 +20,6 @@ icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: false
 signer: 
 reviewArchive:
 

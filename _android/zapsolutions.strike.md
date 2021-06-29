@@ -9,9 +9,9 @@ appId: zapsolutions.strike
 released: 
 latestUpdate: 2021-06-17
 version: "v78"
-stars: 3.4
-ratings: 2524
-reviews: 1043
+stars: 3.5
+ratings: 2534
+reviews: 1044
 size: 9.3M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: zapsolutions.strike.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-18
-reviewStale: true
 signer: 
 reviewArchive:
 

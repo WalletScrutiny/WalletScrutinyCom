@@ -10,8 +10,8 @@ released: 2019-01-29
 latestUpdate: 2021-05-31
 version: "2.2.1"
 stars: 4.3
-ratings: 9999
-reviews: 2782
+ratings: 10002
+reviews: 2783
 size: 134M
 website: https://www.bitstamp.net
 repository: 
@@ -20,7 +20,6 @@ icon: net.bitstamp.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

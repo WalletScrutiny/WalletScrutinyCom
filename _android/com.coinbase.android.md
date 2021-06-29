@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: com.coinbase.android
 released: 2013-03-01
-latestUpdate: 2021-06-21
+latestUpdate: 2021-06-28
 version: "9.29.2"
-stars: 4.3
-ratings: 469065
-reviews: 141663
+stars: 4.1
+ratings: 543
+reviews: 199
 size: Varies with device
 website: https://coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinbase.android.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-10-30
-reviewStale: true
 signer: 
 reviewArchive:
 

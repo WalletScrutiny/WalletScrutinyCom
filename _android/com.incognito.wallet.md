@@ -20,7 +20,6 @@ icon: com.incognito.wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-07
-reviewStale: true
 signer: 
 reviewArchive:
 

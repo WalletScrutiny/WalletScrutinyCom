@@ -20,7 +20,6 @@ icon: com.Bitplaza.android.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

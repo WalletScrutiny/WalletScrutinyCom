@@ -10,8 +10,8 @@ idd: 885251393
 released: 2014-06-22
 updated: 2021-06-25
 version: "4.11"
-stars: 4.57456
-reviews: 11003
+stars: 4.57444
+reviews: 11009
 size: 55084032
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
@@ -20,12 +20,11 @@ icon: org.voisine.breadwallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-29
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-06-27
   version: "4.10.0"
-  apkHash: 
+  appHash: 
   gitRevision: 5f9d3e8bf00be2ad8968b129c27258ea45ce2680
   verdict: nosource
 - date: 2020-12-21

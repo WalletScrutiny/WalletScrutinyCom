@@ -10,8 +10,8 @@ released: 2017-12-29
 latestUpdate: 2020-06-01
 version: "2.4"
 stars: 4.0
-ratings: 212
-reviews: 119
+ratings: 213
+reviews: 120
 size: 5.0M
 website: https://jurajkusnier.com/
 repository: https://github.com/jurajkusnier/bitcoin-balance-check/
@@ -20,7 +20,6 @@ icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-02
-reviewStale: true
 signer: 
 reviewArchive:
 

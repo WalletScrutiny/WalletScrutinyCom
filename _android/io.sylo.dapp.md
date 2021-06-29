@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 released: 2019-09-10
-latestUpdate: 2021-06-01
-version: "3.0.27-fix.cennznet.0"
+latestUpdate: 2021-06-27
+version: "3.1.12"
 stars: 4.7
-ratings: 700
-reviews: 358
-size: 347M
+ratings: 702
+reviews: 359
+size: 336M
 website: https://www.sylo.io/wallet
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.sylo.dapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-10
-reviewStale: true
 signer: 
 reviewArchive:
 

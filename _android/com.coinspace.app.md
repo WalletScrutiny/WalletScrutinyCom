@@ -9,8 +9,8 @@ appId: com.coinspace.app
 released: 2015-05-01
 latestUpdate: 2021-04-13
 version: "3.0.8"
-stars: 3.9
-ratings: 936
+stars: 4.0
+ratings: 938
 reviews: 418
 size: 5.6M
 website: https://www.coin.space
@@ -20,7 +20,6 @@ icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-16
-reviewStale: true
 signer: 
 reviewArchive:
 

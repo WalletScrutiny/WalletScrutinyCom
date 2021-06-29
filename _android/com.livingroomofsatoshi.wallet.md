@@ -10,7 +10,7 @@ released: 2019-05-19
 latestUpdate: 2021-06-27
 version: "1.10.9"
 stars: 3.8
-ratings: 411
+ratings: 412
 reviews: 225
 size: 10M
 website: http://www.walletofsatoshi.com
@@ -20,7 +20,6 @@ icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -9,9 +9,9 @@ appId: com.okinc.okex.gp
 released: 2019-10-29
 latestUpdate: 2021-05-24
 version: "4.9.1"
-stars: 4.4
-ratings: 101713
-reviews: 36903
+stars: 4.3
+ratings: 101503
+reviews: 36939
 size: 140M
 website: https://www.okex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.okinc.okex.gp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

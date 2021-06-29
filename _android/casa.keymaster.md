@@ -10,7 +10,7 @@ released: 2019-03-01
 latestUpdate: 2021-06-22
 version: "3.1.3"
 stars: 4.5
-ratings: 134
+ratings: 135
 reviews: 29
 size: 30M
 website: https://keys.casa
@@ -20,7 +20,6 @@ icon: casa.keymaster.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-22
-reviewStale: true
 signer: 
 reviewArchive:
 

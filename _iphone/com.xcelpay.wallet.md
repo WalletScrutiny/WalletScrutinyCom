@@ -10,8 +10,8 @@ idd: 1461215417
 released: 2019-05-26
 updated: 2021-06-22
 version: "2.33.0"
-stars: 4.25926
-reviews: 27
+stars: 4.28571
+reviews: 28
 size: 54825984
 website: http://xcelpay.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.xcelpay.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

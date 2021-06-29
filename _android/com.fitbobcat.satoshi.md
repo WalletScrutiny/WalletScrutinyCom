@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2019-12-28
   version: "1.0"
-  apkHash: 
+  appHash: 
   gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
   verdict: nobtc
 

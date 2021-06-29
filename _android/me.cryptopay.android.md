@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: me.cryptopay.android
 released: 2017-11-09
-latestUpdate: 2021-06-16
-version: "1.26"
+latestUpdate: 2021-06-28
+version: "1.27"
 stars: 4.3
-ratings: 722
-reviews: 367
+ratings: 723
+reviews: 368
 size: 18M
 website: https://cryptopay.me
 repository: 
@@ -20,7 +20,6 @@ icon: me.cryptopay.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

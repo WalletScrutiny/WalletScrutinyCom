@@ -10,8 +10,8 @@ released: 2018-01-15
 latestUpdate: 2021-06-23
 version: "5.12.13"
 stars: 4.4
-ratings: 1493
-reviews: 854
+ratings: 1494
+reviews: 855
 size: 33M
 website: http://www.swft.pro
 repository: 
@@ -20,7 +20,6 @@ icon: com.swftcoin.client.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

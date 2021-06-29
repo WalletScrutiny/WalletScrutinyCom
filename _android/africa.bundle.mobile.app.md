@@ -9,9 +9,9 @@ appId: africa.bundle.mobile.app
 released: 2020-04-20
 latestUpdate: 2021-05-23
 version: "2.7.9"
-stars: 4.6
-ratings: 8862
-reviews: 5521
+stars: 4.5
+ratings: 8878
+reviews: 5530
 size: 48M
 website: https://bundle.africa/
 repository: 
@@ -20,7 +20,6 @@ icon: africa.bundle.mobile.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

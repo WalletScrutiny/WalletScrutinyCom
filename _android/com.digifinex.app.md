@@ -9,9 +9,9 @@ appId: com.digifinex.app
 released: 2018-06-26
 latestUpdate: 2021-06-24
 version: "2021.06.21"
-stars: 3.8
-ratings: 2584
-reviews: 1551
+stars: 3.9
+ratings: 2598
+reviews: 1557
 size: 67M
 website: https://www.digifinex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.digifinex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: true
 signer: 
 reviewArchive:
 

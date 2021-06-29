@@ -10,7 +10,7 @@ released: 2013-03-11
 latestUpdate: 2021-06-06
 version: "7.4.4"
 stars: 4.0
-ratings: 1846
+ratings: 1847
 reviews: 729
 size: 3.4M
 website: 
@@ -20,7 +20,6 @@ icon: com.brentpanther.bitcoinwidget.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2017-09-26
 latestUpdate: 2021-06-23
 version: "2.2.1"
 stars: 3.3
-ratings: 19876
-reviews: 8518
+ratings: 19898
+reviews: 8520
 size: 39M
 website: https://www.bithumb.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.btckorea.bithumb.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-19
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2020-02-11
 latestUpdate: 2021-06-26
 version: "6.0.1"
 stars: 3.6
-ratings: 399
-reviews: 205
+ratings: 403
+reviews: 207
 size: 34M
 website: https://bitkeep.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitkeep.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: true
 signer: 
 reviewArchive:
 

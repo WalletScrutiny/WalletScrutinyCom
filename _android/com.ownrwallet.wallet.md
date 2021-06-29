@@ -10,8 +10,8 @@ released: 2019-05-20
 latestUpdate: 2021-06-20
 version: "1.16.0"
 stars: 4.8
-ratings: 1137
-reviews: 1012
+ratings: 1144
+reviews: 1022
 size: 56M
 website: https://ownrwallet.com
 repository: 
@@ -20,12 +20,11 @@ icon: com.ownrwallet.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-01
   version: "1.10.1"
-  apkHash: 
+  appHash: 
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
 

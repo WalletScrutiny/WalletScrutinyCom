@@ -10,8 +10,8 @@ idd: 1446636681
 released: 2019-10-10
 updated: 2021-06-21
 version: "1.0.78"
-stars: 4.72299
-reviews: 93913
+stars: 4.72281
+reviews: 94246
 size: 47159296
 website: https://pro.coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinbase.pro.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

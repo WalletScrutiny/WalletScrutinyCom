@@ -10,8 +10,8 @@ released: 2019-09-13
 latestUpdate: 2021-06-20
 version: "1.0.27"
 stars: 4.2
-ratings: 635
-reviews: 344
+ratings: 638
+reviews: 346
 size: 98M
 website: https://www.valr.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.valr.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

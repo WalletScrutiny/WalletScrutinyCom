@@ -10,8 +10,8 @@ released: 2020-10-15
 latestUpdate: 2021-06-12
 version: "1.8"
 stars: 4.3
-ratings: 133
-reviews: 101
+ratings: 134
+reviews: 102
 size: 6.0M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

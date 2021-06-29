@@ -9,9 +9,9 @@ appId: com.uphold.wallet
 released: 2015-12-29
 latestUpdate: 2021-06-23
 version: "4.15.35"
-stars: 3.4
-ratings: 14973
-reviews: 9298
+stars: 3.5
+ratings: 15016
+reviews: 9331
 size: 45M
 website: https://uphold.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.uphold.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,7 +10,7 @@ released: 2020-10-26
 latestUpdate: 2021-06-17
 version: "1.30.40.1"
 stars: 4.5
-ratings: 224
+ratings: 223
 reviews: 160
 size: 16M
 website: https://amlsafe.io
@@ -20,7 +20,6 @@ icon: com.silenca.amlsafe.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -20,7 +20,6 @@ icon: com.zeusln.zeus.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: false
 signer: 
 reviewArchive:
 

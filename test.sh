@@ -61,8 +61,8 @@ if [ ! -f "$downloadedApk" ]; then
   exit 1
 fi
 
-apkHash=$(sha256sum "$downloadedApk" | awk '{print $1;}')
-fromPlayFolder=/tmp/fromPlay$apkHash
+appHash=$(sha256sum "$downloadedApk" | awk '{print $1;}')
+fromPlayFolder=/tmp/fromPlay$appHash
 rm -rf $fromPlayFolder
 signer=$( getSigner "$downloadedApk" )
 echo "Extracting APK content ..."
@@ -116,7 +116,7 @@ appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
-apkHash:        $apkHash
+appHash:        $appHash
 
 Diff:
 $( diff --brief --recursive $fromPlayUnzipped $fromBuildUnzipped )

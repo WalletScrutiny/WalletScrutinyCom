@@ -8,11 +8,11 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2021-05-24
-version: "2.2.1"
+updated: 2021-06-28
+version: "2.3"
 stars: 4.79812
 reviews: 4671
-size: 91956224
+size: 97080320
 website: https://www.bitstamp.net/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: net.bitstamp.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: true
 signer: 
 reviewArchive:
 

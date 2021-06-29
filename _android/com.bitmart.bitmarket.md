@@ -10,8 +10,8 @@ released: 2018-05-09
 latestUpdate: 2021-06-03
 version: "2.5.4"
 stars: 5.0
-ratings: 16696
-reviews: 6895
+ratings: 17395
+reviews: 7155
 size: 32M
 website: https://www.bitmart.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitmart.bitmarket.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

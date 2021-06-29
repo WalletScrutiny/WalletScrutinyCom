@@ -11,8 +11,8 @@ idd: 1512836089
 released: 2020-07-30
 updated: 2021-06-03
 version: "5.5"
-stars: 4.78644
-reviews: 295
+stars: 4.79
+reviews: 300
 size: 94864384
 website: https://wallet.pointpay.io
 repository: 
@@ -21,7 +21,6 @@ icon: com.pointpayio.PointPayBank.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2019-11-12
 latestUpdate: 2021-06-25
 version: "2.4"
 stars: 4.0
-ratings: 1852
-reviews: 1249
+ratings: 1855
+reviews: 1251
 size: 59M
 website: https://exmo.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.exmo.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-21
-reviewStale: true
 signer: 
 reviewArchive:
 

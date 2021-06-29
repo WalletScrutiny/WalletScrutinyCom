@@ -20,7 +20,6 @@ icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: true
 signer: 
 reviewArchive:
 

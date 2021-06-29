@@ -10,8 +10,8 @@ idd: 1390560448
 released: 2018-08-07
 updated: 2021-06-22
 version: "3.3.9"
-stars: 4.61249
-reviews: 4258
+stars: 4.61233
+reviews: 4264
 size: 101087232
 website: https://spot-bitcoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: tech.spotapp.spot.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-14
-reviewStale: true
 signer: 
 reviewArchive:
 

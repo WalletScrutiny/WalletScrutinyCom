@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2021-06-18
 version: "1.30.40.1"
 stars: 5
-reviews: 46
+reviews: 122
 size: 62056448
 website: https://amlsafe.io/
 repository: 
@@ -20,7 +20,6 @@ icon: com.avelot.amlsafe.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

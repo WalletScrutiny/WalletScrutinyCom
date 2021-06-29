@@ -10,8 +10,8 @@ released: 2018-05-03
 latestUpdate: 2021-06-15
 version: "3.35.0"
 stars: 3.9
-ratings: 6795
-reviews: 3781
+ratings: 6813
+reviews: 3786
 size: 45M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.kubi.kucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

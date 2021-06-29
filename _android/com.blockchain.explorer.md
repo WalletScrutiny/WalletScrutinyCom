@@ -10,7 +10,7 @@ released: 2019-12-30
 latestUpdate: 2021-06-08
 version: "1.2.0.1"
 stars: 4.3
-ratings: 263
+ratings: 264
 reviews: 72
 size: 24M
 website: 
@@ -20,7 +20,6 @@ icon: com.blockchain.explorer.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,7 +10,7 @@ released: 2019-10-17
 latestUpdate: 2021-06-24
 version: "2.08.02.017"
 stars: 5.0
-ratings: 5873
+ratings: 5874
 reviews: 1087
 size: 63M
 website: https://huobiwallet.com
@@ -20,7 +20,6 @@ icon: com.huobionchainwallet.gp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-20
-reviewStale: true
 signer: 
 reviewArchive:
 

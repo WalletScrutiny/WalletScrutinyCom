@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.XcelTrip.XcelPay
 released: 2019-05-30
-latestUpdate: 2021-06-22
+latestUpdate: 2021-06-28
 version: "2.33.0"
-stars: 4.7
-ratings: 1553
-reviews: 858
+stars: 4.8
+ratings: 1571
+reviews: 870
 size: 32M
 website: http://www.xcelpay.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.XcelTrip.XcelPay.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

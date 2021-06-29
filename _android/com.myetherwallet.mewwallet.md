@@ -10,8 +10,8 @@ released: 2020-03-11
 latestUpdate: 2021-06-21
 version: "1.2.17"
 stars: 3.4
-ratings: 4713
-reviews: 2242
+ratings: 4717
+reviews: 2243
 size: 58M
 website: http://mewwallet.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.myetherwallet.mewwallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-05
-reviewStale: true
 signer: 
 reviewArchive:
 

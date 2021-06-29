@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.bittrex.trade
 released: 2019-12-19
-latestUpdate: 2021-06-04
-version: "1.14.1"
+latestUpdate: 2021-06-25
+version: "1.14.2"
 stars: 2.2
-ratings: 1651
-reviews: 1124
+ratings: 1650
+reviews: 1122
 size: 52M
 website: https://global.bittrex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bittrex.trade.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

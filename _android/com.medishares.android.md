@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-12-03
   version: "3.9.0"
-  apkHash: 
+  appHash: 
   gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
   verdict: nosource
 

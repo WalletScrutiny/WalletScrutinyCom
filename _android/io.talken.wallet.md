@@ -10,7 +10,7 @@ released: 2019-07-31
 latestUpdate: 2021-05-20
 version: "1.0.21"
 stars: 3.2
-ratings: 75
+ratings: 76
 reviews: 52
 size: 7.8M
 website: https://talken.io/
@@ -20,7 +20,6 @@ icon: io.talken.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 

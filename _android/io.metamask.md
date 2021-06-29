@@ -10,8 +10,8 @@ released: 2020-09-01
 latestUpdate: 2021-06-16
 version: "2.5.0"
 stars: 3.5
-ratings: 6887
-reviews: 3760
+ratings: 6925
+reviews: 3772
 size: 29M
 website: https://metamask.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.metamask.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-01
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2018-07-16
 latestUpdate: 2021-06-03
 version: "2.13.4"
 stars: 3.9
-ratings: 193502
-reviews: 56502
+ratings: 194348
+reviews: 56631
 size: 6.1M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.wrx.wazirx.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

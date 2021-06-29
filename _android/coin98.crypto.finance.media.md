@@ -10,8 +10,8 @@ released: 2019-12-19
 latestUpdate: 2021-06-23
 version: "10.0.1"
 stars: 4.5
-ratings: 5530
-reviews: 3913
+ratings: 5545
+reviews: 3924
 size: 62M
 website: https://coin98.app/
 repository: 
@@ -20,7 +20,6 @@ icon: coin98.crypto.finance.media.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

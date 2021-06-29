@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2021-04-13
   version: 
-  apkHash: 
+  appHash: 
   gitRevision: 7ef50d1754a724355ce59937abb663d96fd262d2
   verdict: wip
 

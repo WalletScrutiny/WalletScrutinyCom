@@ -10,7 +10,7 @@ released: 2017-11-23
 latestUpdate: 2020-11-11
 version: "3.25.1"
 stars: 3.1
-ratings: 1070
+ratings: 1071
 reviews: 575
 size: 82M
 website: https://www.tenx.tech
@@ -20,7 +20,6 @@ icon: com.onebit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
-reviewStale: true
 signer: 
 reviewArchive:
 

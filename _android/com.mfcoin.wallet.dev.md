@@ -10,7 +10,7 @@ released: 2018-03-22
 latestUpdate: 2020-10-04
 version: "v4.0.0"
 stars: 4.4
-ratings: 87
+ratings: 88
 reviews: 45
 size: 5.4M
 website: mfcoin.net
@@ -20,7 +20,6 @@ icon: com.mfcoin.wallet.dev.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: true
 signer: 
 reviewArchive:
 

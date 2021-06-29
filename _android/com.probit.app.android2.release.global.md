@@ -10,8 +10,8 @@ released: 2019-06-19
 latestUpdate: 2021-06-23
 version: "1.33.0.1"
 stars: 3.8
-ratings: 4599
-reviews: 2822
+ratings: 4604
+reviews: 2823
 size: 18M
 website: https://www.probit.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.probit.app.android2.release.global.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: true
 signer: 
 reviewArchive:
 

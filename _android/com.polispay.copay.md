@@ -20,7 +20,6 @@ icon: com.polispay.copay.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

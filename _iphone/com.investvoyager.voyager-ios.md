@@ -10,8 +10,8 @@ idd: 1396178579
 released: 2019-02-13
 updated: 2021-06-22
 version: "2.9.21"
-stars: 4.73557
-reviews: 67150
+stars: 4.73568
+reviews: 67247
 size: 62802944
 website: https://www.investvoyager.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
-reviewStale: true
 signer: 
 reviewArchive:
 

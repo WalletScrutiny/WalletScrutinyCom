@@ -9,9 +9,9 @@ appId: com.bytetobyte.xwallet
 released: 2017-04-27
 latestUpdate: 2017-09-03
 version: "0.3.1-beta"
-stars: 4.2
-ratings: 13
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.1M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.bytetobyte.xwallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-13
-reviewStale: true
 signer: 
 reviewArchive:
 

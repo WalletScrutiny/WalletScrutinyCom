@@ -10,8 +10,8 @@ idd: 1376878040
 released: 2018-05-27
 updated: 2021-06-21
 version: "6.1.6"
-stars: 4.22764
-reviews: 246
+stars: 4.22449
+reviews: 245
 size: 46399488
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
@@ -20,7 +20,6 @@ icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-03
-reviewStale: true
 signer: 
 reviewArchive:
 

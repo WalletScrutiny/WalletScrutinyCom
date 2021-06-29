@@ -10,8 +10,8 @@ released: 2018-01-01
 latestUpdate: 2021-06-17
 version: "1.15.0-r"
 stars: 4.4
-ratings: 8261
-reviews: 4837
+ratings: 8279
+reviews: 4844
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 
@@ -20,7 +20,6 @@ icon: com.enjin.mobile.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

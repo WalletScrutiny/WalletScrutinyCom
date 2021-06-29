@@ -10,8 +10,8 @@ released: 2018-09-01
 latestUpdate: 2021-05-28
 version: "2.6.4"
 stars: 3.8
-ratings: 5034
-reviews: 2785
+ratings: 5037
+reviews: 2786
 size: 17M
 website: https://jaxx.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.liberty.jaxx.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-02
-reviewStale: true
 signer: 
 reviewArchive:
 

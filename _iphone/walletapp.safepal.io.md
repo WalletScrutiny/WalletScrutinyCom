@@ -10,8 +10,8 @@ idd: 1548297139
 released: 2021-01-11
 updated: 2021-06-03
 version: "2.6.0"
-stars: 3.52
-reviews: 150
+stars: 3.5298
+reviews: 151
 size: 63705088
 website: https://www.safepal.io/
 repository: 
@@ -20,7 +20,6 @@ icon: walletapp.safepal.io.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-26
-reviewStale: true
 signer: 
 reviewArchive:
 

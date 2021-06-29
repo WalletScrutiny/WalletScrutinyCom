@@ -10,8 +10,8 @@ idd: 1478257827
 released: 2019-11-05
 updated: 2021-06-09
 version: "0.75.1"
-stars: 4.31737
-reviews: 10064
+stars: 4.31884
+reviews: 10074
 size: 49882112
 website: https://atomicwallet.io/
 repository: 
@@ -20,7 +20,6 @@ icon: atomicwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: true
 signer: 
 reviewArchive:
 

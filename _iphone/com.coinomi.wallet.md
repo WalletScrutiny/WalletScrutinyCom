@@ -10,8 +10,8 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2021-06-09
 version: "1.10.2"
-stars: 4.53101
-reviews: 1177
+stars: 4.53181
+reviews: 1179
 size: 125848576
 website: https://www.coinomi.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinomi.wallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

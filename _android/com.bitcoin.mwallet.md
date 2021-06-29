@@ -10,8 +10,8 @@ released: 2017-06-19
 latestUpdate: 2021-06-15
 version: "7.0.7"
 stars: 4.4
-ratings: 27728
-reviews: 8832
+ratings: 27773
+reviews: 8844
 size: 86M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
@@ -20,12 +20,11 @@ icon: com.bitcoin.mwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-12-20
   version: "5.13.3"
-  apkHash: 
+  appHash: 
   gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
   verdict: nonverifiable
 

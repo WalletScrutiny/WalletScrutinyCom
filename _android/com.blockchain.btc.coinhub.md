@@ -9,8 +9,8 @@ appId: com.blockchain.btc.coinhub
 released: 2021-05-13
 latestUpdate: 2021-06-23
 version: "1.0.1.4.5"
-stars: 4.3
-ratings: 337
+stars: 4.4
+ratings: 341
 reviews: 57
 size: 43M
 website: https://adslab-2b1c2.web.app
@@ -20,7 +20,6 @@ icon: com.blockchain.btc.coinhub.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 

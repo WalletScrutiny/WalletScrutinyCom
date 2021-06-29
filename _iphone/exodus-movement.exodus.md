@@ -10,8 +10,8 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2021-06-23
 version: "21.6.22"
-stars: 4.57298
-reviews: 12353
+stars: 4.57291
+reviews: 12365
 size: 30753792
 website: https://exodus.com/mobile
 repository: 
@@ -20,7 +20,6 @@ icon: exodus-movement.exodus.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: true
 signer: 
 reviewArchive:
 

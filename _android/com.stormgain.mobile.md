@@ -10,8 +10,8 @@ released: 2019-07-08
 latestUpdate: 2021-04-26
 version: "1.17.0"
 stars: 4.1
-ratings: 39253
-reviews: 21776
+ratings: 39409
+reviews: 21883
 size: 37M
 website: https://stormgain.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.stormgain.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

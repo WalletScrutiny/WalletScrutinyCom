@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2021-04-20
   version: "2.4.7"
-  apkHash: 
+  appHash: 
   gitRevision: 6849790cf3f18653fbe1116b54693fec1419d0ca
   verdict: custodial
 

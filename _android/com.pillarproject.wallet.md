@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Pillar"
+title: "Pillar. 1 wallet for all chains, dapps, DeFi & NFT"
 altTitle: 
 authors:
 
 users: 10000
 appId: com.pillarproject.wallet
 released: 2018-12-13
-latestUpdate: 2021-05-18
-version: "2.35.12"
+latestUpdate: 2021-06-24
+version: "3.2.6"
 stars: 3.4
-ratings: 422
+ratings: 423
 reviews: 225
-size: 52M
+size: 50M
 website: https://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 
@@ -20,7 +20,6 @@ icon: com.pillarproject.wallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-02-20
-reviewStale: true
 signer: 
 reviewArchive:
 

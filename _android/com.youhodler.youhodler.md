@@ -10,8 +10,8 @@ released: 2019-07-11
 latestUpdate: 2021-06-22
 version: "2.16.0"
 stars: 4.1
-ratings: 1550
-reviews: 611
+ratings: 1551
+reviews: 610
 size: 47M
 website: https://youhodler.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.youhodler.youhodler.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

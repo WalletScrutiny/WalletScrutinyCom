@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.sf.monarch
 released: 2018-10-19
-latestUpdate: 2021-06-22
-version: "2.2.4"
+latestUpdate: 2021-06-28
+version: "2.2.5"
 stars: 4.1
-ratings: 796
+ratings: 795
 reviews: 417
 size: 18M
 website: https://monarchwallet.com
@@ -20,7 +20,6 @@ icon: com.sf.monarch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

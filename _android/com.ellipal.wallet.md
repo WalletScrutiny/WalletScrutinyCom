@@ -9,9 +9,9 @@ appId: com.ellipal.wallet
 released: 2018-07-02
 latestUpdate: 2021-06-04
 version: "2.9.5.9"
-stars: 4.2
-ratings: 483
-reviews: 287
+stars: 4.3
+ratings: 489
+reviews: 289
 size: 17M
 website: https://www.ellipal.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.ellipal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
 signer: 
 reviewArchive:
 

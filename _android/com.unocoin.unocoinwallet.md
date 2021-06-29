@@ -10,8 +10,8 @@ released: 2016-11-30
 latestUpdate: 2021-06-16
 version: "3.4.16"
 stars: 4.0
-ratings: 16223
-reviews: 9004
+ratings: 16210
+reviews: 8988
 size: 12M
 website: https://www.unocoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.unocoin.unocoinwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

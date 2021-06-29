@@ -20,7 +20,6 @@ icon: com.tangem.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-10
-reviewStale: true
 signer: 
 reviewArchive:
 

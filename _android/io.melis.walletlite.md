@@ -20,7 +20,6 @@ icon: io.melis.walletlite.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: false
 signer: 
 reviewArchive:
 

@@ -20,7 +20,6 @@ icon: com.ebcecosystem.wallets.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: false
 signer: 
 reviewArchive:
 

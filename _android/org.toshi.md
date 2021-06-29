@@ -10,8 +10,8 @@ released: 2017-09-20
 latestUpdate: 2021-06-24
 version: "24.2.377"
 stars: 4.2
-ratings: 22338
-reviews: 9459
+ratings: 22388
+reviews: 9477
 size: Varies with device
 website: https://wallet.coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: org.toshi.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

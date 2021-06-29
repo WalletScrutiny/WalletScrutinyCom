@@ -10,8 +10,8 @@ released: 2019-05-26
 latestUpdate: 2021-06-02
 version: "2.6.0"
 stars: 3.9
-ratings: 6486
-reviews: 3690
+ratings: 6495
+reviews: 3694
 size: 29M
 website: https://www.safepal.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.safepal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-26
-reviewStale: true
 signer: 
 reviewArchive:
 

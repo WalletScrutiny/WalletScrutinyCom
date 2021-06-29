@@ -12,7 +12,7 @@ released: 2019-06-13
 updated: 2021-06-21
 version: "2.5.3"
 stars: 4.98018
-reviews: 2927
+reviews: 2926
 size: 131439616
 website: 
 repository: 
@@ -21,7 +21,6 @@ icon: io.bitmax.bitmax.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-20
-reviewStale: true
 signer: 
 reviewArchive:
 

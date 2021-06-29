@@ -10,8 +10,8 @@ released: 2019-04-15
 latestUpdate: 2021-06-04
 version: "1.13"
 stars: 4.2
-ratings: 3431
-reviews: 1315
+ratings: 3447
+reviews: 1324
 size: Varies with device
 website: https://currency.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.currency.exchange.prod2.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

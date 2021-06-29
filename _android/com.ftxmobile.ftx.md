@@ -10,8 +10,8 @@ released: 2020-05-08
 latestUpdate: 2021-01-20
 version: "1.1.0"
 stars: 3.6
-ratings: 3488
-reviews: 1643
+ratings: 3491
+reviews: 1645
 size: 46M
 website: https://ftx.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.ftxmobile.ftx.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-08
-reviewStale: false
 signer: 
 reviewArchive:
 

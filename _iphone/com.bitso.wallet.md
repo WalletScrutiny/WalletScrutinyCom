@@ -10,8 +10,8 @@ idd: 1292836438
 released: 2018-02-19
 updated: 2021-06-23
 version: "2.24.0"
-stars: 3.57627
-reviews: 59
+stars: 3.6
+reviews: 60
 size: 90894336
 website: https://bitso.com/app
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitso.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

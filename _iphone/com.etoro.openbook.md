@@ -10,7 +10,7 @@ idd: 674984916
 released: 2017-06-26
 updated: 2021-06-24
 version: "331.0.0"
-stars: 4.13675
+stars: 4.13564
 reviews: 3605
 size: 143519744
 website: http://www.etoro.com
@@ -20,7 +20,6 @@ icon: com.etoro.openbook.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-25
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -20,7 +20,6 @@ icon: org.coinid.wallet.btc.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-25
-reviewStale: true
 signer: 
 reviewArchive:
 

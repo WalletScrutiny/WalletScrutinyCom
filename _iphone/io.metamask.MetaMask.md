@@ -10,8 +10,8 @@ idd: 1438144202
 released: 2020-09-03
 updated: 2021-06-16
 version: "2.5.0"
-stars: 3.37482
-reviews: 683
+stars: 3.37135
+reviews: 684
 size: 41781248
 website: https://metamask.io/
 repository: 
@@ -20,7 +20,6 @@ icon: io.metamask.MetaMask.jpg
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-01
-reviewStale: true
 signer: 
 reviewArchive:
 

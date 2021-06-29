@@ -8,10 +8,10 @@ users: 1000000
 appId: com.paxful.wallet
 released: 2019-04-30
 latestUpdate: 2021-06-16
-version: "2.0.3.610"
+version: "2.0.4.617"
 stars: 3.9
-ratings: 18218
-reviews: 10557
+ratings: 18240
+reviews: 10572
 size: 27M
 website: https://paxful.com/mobile-wallet-app
 repository: 
@@ -20,7 +20,6 @@ icon: com.paxful.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

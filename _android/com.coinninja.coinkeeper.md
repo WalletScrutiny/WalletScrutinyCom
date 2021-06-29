@@ -20,12 +20,11 @@ icon: com.coinninja.coinkeeper.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-18
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-11-24
   version: "3.2.7"
-  apkHash: 
+  appHash: 
   gitRevision: a920a50eb4b0f8638e7cedb013a135f9c0a7b0fc
   verdict: nonverifiable
 

@@ -11,7 +11,7 @@ released: 2020-01-19
 latestUpdate: 2021-06-21
 version: "2.24.0"
 stars: 4.0
-ratings: 2426
+ratings: 2434
 reviews: 994
 size: 67M
 website: https://www.zengo.com
@@ -21,7 +21,6 @@ icon: com.zengo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 

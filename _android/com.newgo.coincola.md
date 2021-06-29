@@ -20,7 +20,6 @@ icon: com.newgo.coincola.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-03
-reviewStale: true
 signer: 
 reviewArchive:
 

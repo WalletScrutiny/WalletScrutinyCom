@@ -10,8 +10,8 @@ idd: 966301394
 released: 2015-03-12
 updated: 2021-06-25
 version: "101.1.0"
-stars: 4.56525
-reviews: 15533
+stars: 4.56565
+reviews: 15545
 size: 121886720
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.goabra.abra.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
 

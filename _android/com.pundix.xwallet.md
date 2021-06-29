@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2021-04-29
   version: "2.8.2"
-  apkHash: 
+  appHash: 
   gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
   verdict: custodial
 

@@ -10,8 +10,8 @@ released: 2016-10-01
 latestUpdate: 2021-05-31
 version: "12.5.6"
 stars: 3.6
-ratings: 8823
-reviews: 4194
+ratings: 8824
+reviews: 4195
 size: 21M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
@@ -20,7 +20,6 @@ icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-29
-reviewStale: true
 signer: 
 reviewArchive:
 

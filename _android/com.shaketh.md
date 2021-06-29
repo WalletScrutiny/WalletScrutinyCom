@@ -10,8 +10,8 @@ released: 2018-02-20
 latestUpdate: 2021-06-21
 version: "1.7.6"
 stars: 4.6
-ratings: 7569
-reviews: 3228
+ratings: 7582
+reviews: 3233
 size: 94M
 website: https://shakepay.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.shaketh.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

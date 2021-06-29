@@ -20,7 +20,6 @@ icon: com.ownrwallet.desktop.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

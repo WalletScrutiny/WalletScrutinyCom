@@ -10,8 +10,8 @@ released: 2019-10-31
 latestUpdate: 2021-06-23
 version: "2.4.3"
 stars: 3.5
-ratings: 4138
-reviews: 1952
+ratings: 4154
+reviews: 1958
 size: 29M
 website: https://www.bybit.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bybit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

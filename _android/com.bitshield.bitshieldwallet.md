@@ -10,8 +10,8 @@ released: 2020-06-09
 latestUpdate: 2021-04-12
 version: "1.28"
 stars: 5.0
-ratings: 1612
-reviews: 1128
+ratings: 1615
+reviews: 1131
 size: 65M
 website: https://bitshieldwallet.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

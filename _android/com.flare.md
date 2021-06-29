@@ -20,7 +20,6 @@ icon: com.flare.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-04
-reviewStale: true
 signer: 
 reviewArchive:
 

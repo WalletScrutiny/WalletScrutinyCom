@@ -20,7 +20,6 @@ icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

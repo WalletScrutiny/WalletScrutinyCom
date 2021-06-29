@@ -21,7 +21,6 @@ icon: info.mysecurewallet.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-08
-reviewStale: true
 signer: 
 reviewArchive:
 

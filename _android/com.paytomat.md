@@ -20,7 +20,6 @@ icon: com.paytomat.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -23,7 +23,7 @@ signer:
 reviewArchive:
 - date: 2019-12-25
   version: "2.0.10"
-  apkHash: 
+  appHash: 
   gitRevision: 9fc3b5cc1037dfc222c49f94cf7604ec1bf0fe1f
   verdict: custodial
 

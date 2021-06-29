@@ -20,7 +20,6 @@ icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-24
-reviewStale: true
 signer: 
 reviewArchive:
 

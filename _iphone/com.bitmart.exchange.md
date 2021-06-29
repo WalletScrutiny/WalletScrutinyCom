@@ -8,10 +8,10 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2021-06-05
-version: "2.5.3"
-stars: 3.93099
-reviews: 3043
+updated: 2021-06-28
+version: "2.5.4"
+stars: 4.19827
+reviews: 4070
 size: 99467264
 website: https://www.bitmart.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitmart.exchange.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2017-10-01
 latestUpdate: 2021-06-26
 version: "1.30.6"
 stars: 4.6
-ratings: 390183
-reviews: 82942
+ratings: 391795
+reviews: 83152
 size: 31M
 website: https://trustwallet.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-20
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2021-01-19
 latestUpdate: 2021-06-08
 version: "1.0.3.7"
 stars: 4.4
-ratings: 675
-reviews: 141
+ratings: 677
+reviews: 143
 size: 24M
 website: https://adslab-2b1c2.web.app
 repository: 
@@ -20,7 +20,6 @@ icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 

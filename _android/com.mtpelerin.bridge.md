@@ -20,7 +20,6 @@ icon: com.mtpelerin.bridge.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-27
-reviewStale: true
 signer: 
 reviewArchive:
 

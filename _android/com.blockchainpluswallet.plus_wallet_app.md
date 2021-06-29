@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-11-30
   version: "3.0.1"
-  apkHash: 
+  appHash: 
   gitRevision: 20646878724bc765795bd9044303bf6e4a50a81f
   verdict: nowallet
 

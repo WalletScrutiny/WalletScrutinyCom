@@ -10,8 +10,8 @@ released: 2014-10-01
 latestUpdate: 2021-06-25
 version: "3.5.48"
 stars: 4.2
-ratings: 99290
-reviews: 42972
+ratings: 99337
+reviews: 42995
 size: 56M
 website: https://coins.ph
 repository: 
@@ -20,12 +20,11 @@ icon: asia.coins.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-17
   version: "3.3.92"
-  apkHash: 
+  appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 

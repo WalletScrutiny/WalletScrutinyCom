@@ -10,8 +10,8 @@ released: 2018-11-01
 latestUpdate: 2021-01-22
 version: "4.0"
 stars: 2.8
-ratings: 5045
-reviews: 3007
+ratings: 5047
+reviews: 3009
 size: 8.7M
 website: https://www.cryptonator.com
 repository: 
@@ -20,12 +20,11 @@ icon: com.cryptonator.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-12
   version: "3.0.1"
-  apkHash: 
+  appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
 

@@ -9,8 +9,8 @@ appId: com.viabtc.wallet
 released: 2019-05-15
 latestUpdate: 2021-06-22
 version: "2.3.2"
-stars: 4.0
-ratings: 284
+stars: 4.1
+ratings: 285
 reviews: 119
 size: 50M
 website: https://viawallet.com
@@ -20,7 +20,6 @@ icon: com.viabtc.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

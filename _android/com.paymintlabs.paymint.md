@@ -20,7 +20,6 @@ icon: com.paymintlabs.paymint.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-03
-reviewStale: true
 signer: 
 reviewArchive:
 

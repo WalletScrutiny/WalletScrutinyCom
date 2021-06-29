@@ -10,8 +10,8 @@ released: 2018-03-01
 latestUpdate: 2021-06-16
 version: "2.0.13"
 stars: 4.0
-ratings: 3168
-reviews: 1770
+ratings: 3169
+reviews: 1771
 size: 42M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
@@ -20,7 +20,6 @@ icon: co.edgesecure.app.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
-reviewStale: true
 signer: 
 reviewArchive:
 

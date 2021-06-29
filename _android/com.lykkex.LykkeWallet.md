@@ -20,7 +20,6 @@ icon: com.lykkex.LykkeWallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-09
-reviewStale: true
 signer: 
 reviewArchive:
 

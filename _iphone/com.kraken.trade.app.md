@@ -10,8 +10,8 @@ idd: 1473024338
 released: 2019-11-12
 updated: 2021-06-02
 version: "1.5.15"
-stars: 4.66899
-reviews: 8707
+stars: 4.66915
+reviews: 8717
 size: 36269056
 website: https://www.kraken.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.kraken.trade.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-14
-reviewStale: true
 signer: 
 reviewArchive:
 

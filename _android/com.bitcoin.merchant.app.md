@@ -10,7 +10,7 @@ released: 2019-04-13
 latestUpdate: 2021-05-06
 version: "5.3.7"
 stars: 4.1
-ratings: 404
+ratings: 405
 reviews: 153
 size: 6.0M
 website: https://www.bitcoin.com/bitcoin-cash-register
@@ -20,7 +20,6 @@ icon: com.bitcoin.merchant.app.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: true
 signer: 
 reviewArchive:
 

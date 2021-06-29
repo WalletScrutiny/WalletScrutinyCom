@@ -10,8 +10,8 @@ released: 2020-08-27
 latestUpdate: 2021-06-16
 version: "4.2.3"
 stars: 3.9
-ratings: 8437
-reviews: 4724
+ratings: 8457
+reviews: 4736
 size: Varies with device
 website: https://www.klever.io
 repository: 
@@ -20,7 +20,6 @@ icon: cash.klever.blockchain.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-22
-reviewStale: true
 signer: 
 reviewArchive:
 

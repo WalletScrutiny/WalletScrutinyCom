@@ -11,8 +11,8 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-06-24
 version: "2.475"
-stars: 4.37313
-reviews: 67
+stars: 4.32353
+reviews: 68
 size: 63206400
 website: http://wallets.africa
 repository: 
@@ -21,7 +21,6 @@ icon: ng.wallet.prod.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-24
-reviewStale: true
 signer: 
 reviewArchive:
 

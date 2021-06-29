@@ -8,11 +8,11 @@ appId: id.co.bitcoin.Bitcoin-Trading-Platform
 appCountry: 
 idd: 1349104693
 released: 2018-03-29
-updated: 2021-06-22
-version: "3.0.7"
+updated: 2021-06-28
+version: "3.0.8"
 stars: 
 reviews: 
-size: 69089280
+size: 69093376
 website: https://indodax.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

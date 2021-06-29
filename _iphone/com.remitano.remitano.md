@@ -10,8 +10,8 @@ idd: 1116327021
 released: 2016-05-28
 updated: 2021-06-15
 version: "5.42.0"
-stars: 4.76574
-reviews: 7496
+stars: 4.76543
+reviews: 7503
 size: 52041728
 website: https://remitano.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.remitano.remitano.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-23
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ idd: 1440147115
 released: 2019-06-07
 updated: 2021-06-22
 version: "2.24.0"
-stars: 4.59497
-reviews: 1432
+stars: 4.59525
+reviews: 1433
 size: 71444480
 website: https://www.zengo.com
 repository: 
@@ -20,7 +20,6 @@ icon: kzencorp.mobile.ios.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

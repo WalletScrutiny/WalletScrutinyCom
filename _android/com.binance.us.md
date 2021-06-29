@@ -10,8 +10,8 @@ released: 2019-12-23
 latestUpdate: 2021-06-07
 version: "2.5.0"
 stars: 2.2
-ratings: 4990
-reviews: 3830
+ratings: 5004
+reviews: 3837
 size: Varies with device
 website: https://www.binance.us
 repository: 
@@ -20,7 +20,6 @@ icon: com.binance.us.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

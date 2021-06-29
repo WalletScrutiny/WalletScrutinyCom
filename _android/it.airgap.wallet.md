@@ -20,7 +20,6 @@ icon: it.airgap.wallet.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-29
-reviewStale: true
 signer: 
 reviewArchive:
 

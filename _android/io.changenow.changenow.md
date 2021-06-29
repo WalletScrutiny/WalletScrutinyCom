@@ -9,9 +9,9 @@ appId: io.changenow.changenow
 released: 2018-09-07
 latestUpdate: 2021-06-23
 version: "1.112"
-stars: 4.5
-ratings: 1035
-reviews: 543
+stars: 4.6
+ratings: 1038
+reviews: 544
 size: 5.9M
 website: http://changenow.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.changenow.changenow.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

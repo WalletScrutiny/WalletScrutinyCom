@@ -10,8 +10,8 @@ released: 2020-05-11
 latestUpdate: 2021-06-18
 version: "1.13.0"
 stars: 4.2
-ratings: 4990
-reviews: 1602
+ratings: 5013
+reviews: 1611
 size: 56M
 website: https://crypto.com/en/defi/
 repository: 
@@ -20,7 +20,6 @@ icon: com.defi.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: true
 signer: 
 reviewArchive:
 

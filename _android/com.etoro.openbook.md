@@ -10,8 +10,8 @@ released: 2013-11-05
 latestUpdate: 2021-06-22
 version: "331.0.0"
 stars: 4.2
-ratings: 87028
-reviews: 33707
+ratings: 87101
+reviews: 33728
 size: 56M
 website: https://www.etoro.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.etoro.openbook.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-02
-reviewStale: true
 signer: 
 reviewArchive:
 

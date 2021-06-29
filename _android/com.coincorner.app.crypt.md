@@ -9,9 +9,9 @@ appId: com.coincorner.app.crypt
 released: 2014-09-10
 latestUpdate: 2021-04-12
 version: "3.2.9"
-stars: 2.8
-ratings: 154
-reviews: 109
+stars: 2.9
+ratings: 155
+reviews: 110
 size: 22M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.coincorner.app.crypt.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-02
-reviewStale: true
 signer: 
 reviewArchive:
 

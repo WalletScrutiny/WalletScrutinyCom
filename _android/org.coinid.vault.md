@@ -20,7 +20,6 @@ icon: org.coinid.vault.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-06
-reviewStale: true
 signer: 
 reviewArchive:
 

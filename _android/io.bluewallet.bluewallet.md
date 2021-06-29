@@ -10,8 +10,8 @@ released: 2018-11-01
 latestUpdate: 2021-06-21
 version: "Varies with device"
 stars: 3.8
-ratings: 1163
-reviews: 498
+ratings: 1167
+reviews: 499
 size: Varies with device
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
@@ -20,12 +20,11 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-14
-reviewStale: true
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2020-01-08
   version: "4.9.1"
-  apkHash: 
+  appHash: 
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
 

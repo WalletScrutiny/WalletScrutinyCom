@@ -10,8 +10,8 @@ released: 2018-05-31
 latestUpdate: 2021-06-04
 version: "2.9.3"
 stars: 4.2
-ratings: 2887
-reviews: 1601
+ratings: 2892
+reviews: 1602
 size: 81M
 website: https://token.im
 repository: 
@@ -20,7 +20,6 @@ icon: im.token.app.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

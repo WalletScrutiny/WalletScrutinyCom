@@ -10,7 +10,7 @@ released: 2018-05-17
 latestUpdate: 2021-03-26
 version: "2.17.794"
 stars: 4.5
-ratings: 546
+ratings: 545
 reviews: 231
 size: 59M
 website: https://exscudo.com
@@ -20,7 +20,6 @@ icon: com.exscudo.channels.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-22
-reviewStale: true
 signer: 
 reviewArchive:
 

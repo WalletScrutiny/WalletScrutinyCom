@@ -10,8 +10,8 @@ released: 2015-03-04
 latestUpdate: 2021-06-23
 version: "Varies with device"
 stars: 4.4
-ratings: 22861
-reviews: 7475
+ratings: 22906
+reviews: 7482
 size: Varies with device
 website: https://www.abra.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.plutus.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

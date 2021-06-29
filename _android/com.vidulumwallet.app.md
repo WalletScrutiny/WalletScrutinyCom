@@ -20,7 +20,6 @@ icon: com.vidulumwallet.app.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-29
-reviewStale: false
 signer: 
 reviewArchive:
 

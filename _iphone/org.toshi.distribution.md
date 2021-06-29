@@ -10,8 +10,8 @@ idd: 1278383455
 released: 2017-09-27
 updated: 2021-06-16
 version: "24.8"
-stars: 4.63877
-reviews: 42738
+stars: 4.63905
+reviews: 42867
 size: 138195968
 website: https://wallet.coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: org.toshi.distribution.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
 

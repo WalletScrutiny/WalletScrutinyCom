@@ -10,7 +10,7 @@ released: 2019-04-25
 latestUpdate: 2021-06-14
 version: "1.4.1"
 stars: 4.3
-ratings: 2549
+ratings: 2553
 reviews: 1008
 size: Varies with device
 website: https://arzjoo.com
@@ -20,7 +20,6 @@ icon: com.arzjoo.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

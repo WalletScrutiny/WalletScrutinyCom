@@ -10,7 +10,7 @@ released: 2020-04-30
 latestUpdate: 2021-06-04
 version: "2.1.8"
 stars: 4.2
-ratings: 187
+ratings: 186
 reviews: 90
 size: 26M
 website: https://www.vauld.com/
@@ -20,7 +20,6 @@ icon: com.bankofhodlers.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-08
-reviewStale: true
 signer: 
 reviewArchive:
 

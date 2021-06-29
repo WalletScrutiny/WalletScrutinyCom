@@ -9,9 +9,9 @@ appId: com.lumiwallet.android
 released: 2018-01-15
 latestUpdate: 2021-06-18
 version: "4.1.1"
-stars: 4.8
-ratings: 5871
-reviews: 1189
+stars: 4.7
+ratings: 5855
+reviews: 1191
 size: 87M
 website: https://lumiwallet.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.lumiwallet.android.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-16
-reviewStale: true
 signer: 
 reviewArchive:
 

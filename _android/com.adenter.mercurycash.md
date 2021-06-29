@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.adenter.mercurycash
 released: 2017-07-28
-latestUpdate: 2021-06-25
+latestUpdate: 2021-06-28
 version: "5.0.4"
 stars: 3.9
-ratings: 204
+ratings: 205
 reviews: 140
-size: 83M
+size: 80M
 website: http://mercury.cash
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.adenter.mercurycash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
 

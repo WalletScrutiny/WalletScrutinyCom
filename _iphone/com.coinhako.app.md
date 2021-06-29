@@ -21,7 +21,6 @@ icon: com.coinhako.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-24
-reviewStale: true
 signer: 
 reviewArchive:
 

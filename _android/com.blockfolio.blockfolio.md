@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.blockfolio.blockfolio
 released: 2015-10-01
-latestUpdate: 2021-06-11
-version: "3.1.1"
+latestUpdate: 2021-06-25
+version: "3.1.3"
 stars: 4.4
-ratings: 147498
-reviews: 44765
+ratings: 147655
+reviews: 44790
 size: 59M
 website: https://www.blockfolio.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.blockfolio.blockfolio.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
-reviewStale: true
 signer: 
 reviewArchive:
 

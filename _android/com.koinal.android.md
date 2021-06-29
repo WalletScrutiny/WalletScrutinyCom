@@ -10,8 +10,8 @@ released: 2020-06-04
 latestUpdate: 2021-06-21
 version: "1.2.7"
 stars: 4.6
-ratings: 400
-reviews: 242
+ratings: 399
+reviews: 244
 size: 37M
 website: https://www.koinal.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.koinal.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: true
 signer: 
 reviewArchive:
 

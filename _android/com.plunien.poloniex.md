@@ -10,8 +10,8 @@ released: 2017-06-19
 latestUpdate: 2021-06-18
 version: "1.26.5"
 stars: 4.0
-ratings: 5286
-reviews: 2817
+ratings: 5290
+reviews: 2819
 size: 25M
 website: https://support.poloniex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.plunien.poloniex.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

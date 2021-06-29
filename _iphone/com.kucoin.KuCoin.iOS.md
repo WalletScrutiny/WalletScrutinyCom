@@ -10,8 +10,8 @@ idd: 1378956601
 released: 2018-05-14
 updated: 2021-06-26
 version: "3.36.0"
-stars: 4.03833
-reviews: 1513
+stars: 4.033
+reviews: 1515
 size: 158341120
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.kucoin.KuCoin.iOS.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

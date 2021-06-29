@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-12-02
   version: "4.0.25"
-  apkHash: 
+  appHash: 
   gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
   verdict: obfuscated
 

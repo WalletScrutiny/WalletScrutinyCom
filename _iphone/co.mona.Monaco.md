@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2021-06-25
-version: "3.101"
-stars: 3.91732
-reviews: 21033
-size: 275161088
+updated: 2021-06-28
+version: "3.102"
+stars: 3.91559
+reviews: 21052
+size: 275156992
 website: https://crypto.com/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: co.mona.Monaco.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-11
-reviewStale: true
 signer: 
 reviewArchive:
 

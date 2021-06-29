@@ -10,8 +10,8 @@ released: 2020-04-21
 latestUpdate: 2021-06-25
 version: "1.4.46"
 stars: 4.1
-ratings: 403
-reviews: 225
+ratings: 406
+reviews: 226
 size: 9.1M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.moonlet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

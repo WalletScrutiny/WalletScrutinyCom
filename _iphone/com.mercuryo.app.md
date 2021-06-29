@@ -10,8 +10,8 @@ idd: 1446533733
 released: 2019-02-08
 updated: 2021-06-01
 version: "1.65"
-stars: 4.74939
-reviews: 407
+stars: 4.75
+reviews: 408
 size: 48451584
 website: https://mercuryo.io/
 repository: 
@@ -20,7 +20,6 @@ icon: com.mercuryo.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-22
-reviewStale: true
 signer: 
 reviewArchive:
 

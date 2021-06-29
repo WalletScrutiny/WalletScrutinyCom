@@ -10,8 +10,8 @@ idd: 1512048310
 released: 2020-05-20
 updated: 2021-06-22
 version: "1.13.0"
-stars: 4.57957
-reviews: 1527
+stars: 4.5819
+reviews: 1526
 size: 73459712
 website: https://crypto.com/defi-wallet
 repository: 
@@ -20,7 +20,6 @@ icon: com.defi.wallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: true
 signer: 
 reviewArchive:
 

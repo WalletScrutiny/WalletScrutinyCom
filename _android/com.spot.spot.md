@@ -10,8 +10,8 @@ released: 2018-08-02
 latestUpdate: 2021-06-22
 version: "4.33.0.2666-488ed66b"
 stars: 4.3
-ratings: 4051
-reviews: 1963
+ratings: 4054
+reviews: 1966
 size: 67M
 website: https://www.spot-bitcoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.spot.spot.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

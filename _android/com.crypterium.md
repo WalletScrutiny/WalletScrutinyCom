@@ -10,8 +10,8 @@ released: 2018-01-21
 latestUpdate: 2021-06-24
 version: "2.6.49.5"
 stars: 3.6
-ratings: 7075
-reviews: 3782
+ratings: 7079
+reviews: 3784
 size: 49M
 website: https://crypterium.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.crypterium.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

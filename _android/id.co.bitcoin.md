@@ -10,8 +10,8 @@ released: 2014-12-15
 latestUpdate: 2021-06-18
 version: "4.1.2"
 stars: 4.2
-ratings: 58343
-reviews: 31180
+ratings: 58455
+reviews: 31234
 size: 29M
 website: https://indodax.com
 repository: 
@@ -20,7 +20,6 @@ icon: id.co.bitcoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

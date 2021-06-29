@@ -10,8 +10,8 @@ released: 2018-12-10
 latestUpdate: 2021-06-23
 version: "3.21.0"
 stars: 4.4
-ratings: 18469
-reviews: 4094
+ratings: 18534
+reviews: 4103
 size: Varies with device
 website: https://gemini.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.gemini.android.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

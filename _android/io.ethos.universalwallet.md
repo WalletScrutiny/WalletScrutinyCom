@@ -20,7 +20,6 @@ icon: io.ethos.universalwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: false
 signer: 
 reviewArchive:
 

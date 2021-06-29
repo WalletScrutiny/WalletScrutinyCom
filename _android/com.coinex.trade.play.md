@@ -10,8 +10,8 @@ released: 2019-12-27
 latestUpdate: 2021-06-13
 version: "1.9.8.1"
 stars: 4.7
-ratings: 20405
-reviews: 6453
+ratings: 20456
+reviews: 6471
 size: 14M
 website: https://www.coinex.co
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinex.trade.play.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

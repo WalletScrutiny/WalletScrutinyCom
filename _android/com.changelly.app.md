@@ -10,8 +10,8 @@ released: 2018-08-28
 latestUpdate: 2021-06-11
 version: "2.7.3.1"
 stars: 4.4
-ratings: 2686
-reviews: 1502
+ratings: 2692
+reviews: 1506
 size: 7.2M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.changelly.app.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

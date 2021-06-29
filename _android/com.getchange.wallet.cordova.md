@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.getchange.wallet.cordova
 released: 2018-06-07
-latestUpdate: 2021-06-21
+latestUpdate: 2021-06-28
 version: "10.20.0"
 stars: 4.4
-ratings: 2255
-reviews: 1020
+ratings: 2256
+reviews: 1019
 size: 32M
 website: https://getchange.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

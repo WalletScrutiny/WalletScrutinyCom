@@ -10,7 +10,7 @@ released: 2015-10-26
 latestUpdate: 2021-06-22
 version: "2.18.0"
 stars: 2.9
-ratings: 2687
+ratings: 2686
 reviews: 1693
 size: 50M
 website: https://shapeshift.com
@@ -20,7 +20,6 @@ icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-23
-reviewStale: true
 signer: 
 reviewArchive:
 

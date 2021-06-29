@@ -10,8 +10,8 @@ released: 2019-07-14
 latestUpdate: 2021-06-25
 version: "4.8"
 stars: 4.2
-ratings: 614
-reviews: 263
+ratings: 616
+reviews: 265
 size: 84M
 website: https://techbank.finance
 repository: 
@@ -20,7 +20,6 @@ icon: com.beeone.techbank.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-30
-reviewStale: true
 signer: 
 reviewArchive:
 

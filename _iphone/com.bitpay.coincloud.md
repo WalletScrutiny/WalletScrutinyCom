@@ -10,8 +10,8 @@ idd: 1421460676
 released: 2018-09-09
 updated: 2021-04-28
 version: "1.9"
-stars: 3.47273
-reviews: 55
+stars: 3.42857
+reviews: 56
 size: 80210944
 website: https://www.coincloudatm.com/app
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitpay.coincloud.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-12
-reviewStale: true
 signer: 
 reviewArchive:
 

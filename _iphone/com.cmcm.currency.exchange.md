@@ -10,8 +10,8 @@ idd: 1435877386
 released: 2018-09-16
 updated: 2021-05-20
 version: "4.4.8"
-stars: 3.51724
-reviews: 232
+stars: 3.54852
+reviews: 237
 size: 93594624
 website: https://www.bitrue.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-24
-reviewStale: true
 signer: 
 reviewArchive:
 

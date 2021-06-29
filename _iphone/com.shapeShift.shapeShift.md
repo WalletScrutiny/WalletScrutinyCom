@@ -20,7 +20,6 @@ icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-23
-reviewStale: true
 signer: 
 reviewArchive:
 

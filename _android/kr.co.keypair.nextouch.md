@@ -20,7 +20,6 @@ icon: kr.co.keypair.nextouch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-07
-reviewStale: true
 signer: 
 reviewArchive:
 

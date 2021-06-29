@@ -20,7 +20,6 @@ icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
 signer: 
 reviewArchive:
 

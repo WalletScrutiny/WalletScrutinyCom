@@ -1,6 +1,6 @@
 ---
 wsId: Bitfinex
-title: "Bitfinex"
+title: "Bitfinex: Trade Digital Assets"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitfinex.bfxprod
 appCountry: 
 idd: 1436383182
 released: 2019-01-25
-updated: 2021-05-05
-version: "4.3.0"
+updated: 2021-06-28
+version: "4.6.1"
 stars: 3.78261
 reviews: 69
-size: 69788672
+size: 70087680
 website: https://www.bitfinex.com/app
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bitfinex.bfxprod.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

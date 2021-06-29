@@ -8,11 +8,11 @@ appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2021-06-21
-version: "9.29.2"
+updated: 2021-06-28
+version: "9.30.3"
 stars: 4.68984
-reviews: 1352881
-size: 83628032
+reviews: 1353546
+size: 84942848
 website: http://www.coinbase.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

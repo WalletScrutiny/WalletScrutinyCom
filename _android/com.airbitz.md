@@ -20,7 +20,6 @@ icon: com.airbitz.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-10
-reviewStale: true
 signer: 
 reviewArchive:
 

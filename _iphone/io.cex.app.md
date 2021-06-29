@@ -11,8 +11,8 @@ idd: 1047225016
 released: 2015-12-22
 updated: 2021-06-22
 version: "7.1.0"
-stars: 4.60088
-reviews: 4039
+stars: 4.60093
+reviews: 4047
 size: 82662400
 website: https://cex.io
 repository: 
@@ -21,7 +21,6 @@ icon: io.cex.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

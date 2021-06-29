@@ -10,8 +10,8 @@ released: 2018-02-27
 latestUpdate: 2021-03-23
 version: "4.26"
 stars: 4.8
-ratings: 272
-reviews: 153
+ratings: 274
+reviews: 154
 size: 13M
 website: https://www.ilcoincrypto.com
 repository: 
@@ -20,7 +20,6 @@ icon: ilcbtc.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2018-07-18
 latestUpdate: 2021-05-19
 version: "4.4.8"
 stars: 3.6
-ratings: 1676
-reviews: 1079
+ratings: 1681
+reviews: 1083
 size: 36M
 website: https://www.bitrue.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitrue.currency.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

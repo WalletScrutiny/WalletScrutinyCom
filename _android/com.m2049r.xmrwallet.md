@@ -10,8 +10,8 @@ released: 2017-09-29
 latestUpdate: 2021-05-21
 version: "2.0.8 'Puginarug'"
 stars: 3.7
-ratings: 717
-reviews: 427
+ratings: 719
+reviews: 429
 size: Varies with device
 website: https://monerujo.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.m2049r.xmrwallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-27
-reviewStale: true
 signer: 
 reviewArchive:
 

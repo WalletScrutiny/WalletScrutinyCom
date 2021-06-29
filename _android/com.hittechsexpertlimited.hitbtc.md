@@ -10,8 +10,8 @@ released: 2020-03-04
 latestUpdate: 2021-04-12
 version: "3.0.10"
 stars: 4.2
-ratings: 2769
-reviews: 1228
+ratings: 2776
+reviews: 1234
 size: 11M
 website: https://hitbtc.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.hittechsexpertlimited.hitbtc.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

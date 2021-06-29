@@ -10,8 +10,8 @@ released: 2019-05-01
 latestUpdate: 2021-06-08
 version: "2.2.7"
 stars: 4.3
-ratings: 4405
-reviews: 822
+ratings: 4421
+reviews: 829
 size: 24M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
@@ -20,12 +20,11 @@ icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-04
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-19
   version: "1.8.1"
-  apkHash: 
+  appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
 

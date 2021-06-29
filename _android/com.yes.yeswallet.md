@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-12-14
   version: "1.0"
-  apkHash: 
+  appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: custodial
 

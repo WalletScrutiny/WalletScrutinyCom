@@ -20,7 +20,6 @@ icon: com.lingxi.bexplus.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-22
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2014-11-01
 latestUpdate: 2021-06-25
 version: "7.16.0"
 stars: 4.3
-ratings: 81103
-reviews: 43081
+ratings: 81169
+reviews: 43104
 size: 70M
 website: https://www.luno.com
 repository: 
@@ -20,12 +20,11 @@ icon: co.bitx.android.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-14
   version: "6.8.0"
-  apkHash: 
+  appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 

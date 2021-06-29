@@ -10,8 +10,8 @@ released: 2021-04-02
 latestUpdate: 2021-04-23
 version: "1.1.1"
 stars: 3.8
-ratings: 58
-reviews: 27
+ratings: 59
+reviews: 28
 size: 23M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-27
-reviewStale: true
 signer: 
 reviewArchive:
 

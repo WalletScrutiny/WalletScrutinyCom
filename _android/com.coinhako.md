@@ -10,8 +10,8 @@ released: 2018-05-06
 latestUpdate: 2021-06-04
 version: "2.4.0"
 stars: 3.6
-ratings: 1140
-reviews: 937
+ratings: 1142
+reviews: 938
 size: 49M
 website: https://www.coinhako.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinhako.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-23
-reviewStale: true
 signer: 
 reviewArchive:
 

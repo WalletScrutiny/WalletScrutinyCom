@@ -10,8 +10,8 @@ released: 2018-02-04
 latestUpdate: 2021-06-08
 version: "2.2.5"
 stars: 4.6
-ratings: 231
-reviews: 116
+ratings: 233
+reviews: 117
 size: 45M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: partl.coini.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

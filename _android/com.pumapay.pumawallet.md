@@ -10,8 +10,8 @@ released: 2018-05-07
 latestUpdate: 2021-06-11
 version: "3.9.9"
 stars: 3.7
-ratings: 342
-reviews: 220
+ratings: 343
+reviews: 221
 size: 61M
 website: https://pumapay.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.pumapay.pumawallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -20,7 +20,6 @@ icon: za.co.Bitx.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-12
-reviewStale: true
 signer: 
 reviewArchive:
 

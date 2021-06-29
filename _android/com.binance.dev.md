@@ -8,10 +8,10 @@ users: 10000000
 appId: com.binance.dev
 released: 2017-10-25
 latestUpdate: 2021-06-24
-version: "1.41.2"
+version: "1.42.3"
 stars: 4.4
-ratings: 285447
-reviews: 102059
+ratings: 292337
+reviews: 103837
 size: Varies with device
 website: https://www.binance.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.binance.dev.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-15
-reviewStale: true
 signer: 
 reviewArchive:
 

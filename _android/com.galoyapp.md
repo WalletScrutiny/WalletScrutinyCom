@@ -9,8 +9,8 @@ appId: com.galoyapp
 released: 2020-11-24
 latestUpdate: 2021-06-19
 version: "1.4.4"
-stars: 3.7
-ratings: 113
+stars: 3.8
+ratings: 115
 reviews: 67
 size: 32M
 website: 
@@ -20,7 +20,6 @@ icon: com.galoyapp.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2016-06-13
 latestUpdate: 2021-06-01
 version: "2.5.9"
 stars: 4.0
-ratings: 5089
-reviews: 2515
+ratings: 5109
+reviews: 2531
 size: 7.3M
 website: https://freewallet.org
 repository: 
@@ -20,7 +20,6 @@ icon: btc.org.freewallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

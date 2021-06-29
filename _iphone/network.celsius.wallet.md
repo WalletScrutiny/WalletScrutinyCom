@@ -10,8 +10,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2021-06-07
 version: "4.9.0"
-stars: 3.79983
-reviews: 1149
+stars: 3.79792
+reviews: 1153
 size: 44091392
 website: https://celsius.network/app
 repository: 
@@ -20,7 +20,6 @@ icon: network.celsius.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

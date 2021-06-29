@@ -20,7 +20,6 @@ icon: com.xcoex.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-04
-reviewStale: true
 signer: 
 reviewArchive:
 

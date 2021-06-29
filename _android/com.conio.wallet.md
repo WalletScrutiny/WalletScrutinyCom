@@ -20,7 +20,6 @@ icon: com.conio.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-09
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ released: 2017-11-01
 latestUpdate: 2021-06-22
 version: "6.3.6"
 stars: 3.8
-ratings: 9791
-reviews: 3984
+ratings: 9790
+reviews: 3981
 size: 79M
 website: https://www.huobi.com/en-us
 repository: 
@@ -20,7 +20,6 @@ icon: pro.huobi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

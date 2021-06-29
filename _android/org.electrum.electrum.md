@@ -20,12 +20,11 @@ icon: org.electrum.electrum.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-06-10
   version: "3.3.7"
-  apkHash: 
+  appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
 

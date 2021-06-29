@@ -9,9 +9,9 @@ appId: com.pro.bitcointoyou
 released: 2019-10-31
 latestUpdate: 2021-06-14
 version: "0.0.177"
-stars: 3.8
-ratings: 1062
-reviews: 665
+stars: 3.7
+ratings: 1063
+reviews: 666
 size: 50M
 website: https://www.bitcointoyou.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.pro.bitcointoyou.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 

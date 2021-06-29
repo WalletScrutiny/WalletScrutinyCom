@@ -20,12 +20,11 @@ icon: com.lightning.walletapp.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-11
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-23
   version: "0.4"
-  apkHash: 
+  appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
 

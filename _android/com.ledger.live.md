@@ -9,9 +9,9 @@ appId: com.ledger.live
 released: 2019-01-27
 latestUpdate: 2021-06-10
 version: "2.29.1"
-stars: 2.2
-ratings: 4304
-reviews: 2515
+stars: 2.5
+ratings: 4308
+reviews: 2516
 size: Varies with device
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.ledger.live.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

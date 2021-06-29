@@ -23,7 +23,7 @@ signer:
 reviewArchive:
 - date: 2020-11-17
   version: "3.4.5"
-  apkHash: 
+  appHash: 
   gitRevision: 0b695b1e5f991a88b8b576bb43c69b8cac285fe8
   verdict: nosource
 

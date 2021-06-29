@@ -10,8 +10,8 @@ released: 2015-12-22
 latestUpdate: 2021-06-18
 version: "Varies with device"
 stars: 4.2
-ratings: 11793
-reviews: 7612
+ratings: 11808
+reviews: 7620
 size: Varies with device
 website: https://cex.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.cex.app.prod.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

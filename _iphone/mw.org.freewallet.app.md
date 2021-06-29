@@ -10,8 +10,8 @@ idd: 1274003898
 released: 2017-09-01
 updated: 2021-05-27
 version: "1.15.5"
-stars: 3.95695
-reviews: 1208
+stars: 3.9602
+reviews: 1206
 size: 45112320
 website: https://freewallet.org
 repository: 
@@ -20,7 +20,6 @@ icon: mw.org.freewallet.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-26
-reviewStale: true
 signer: 
 reviewArchive:
 

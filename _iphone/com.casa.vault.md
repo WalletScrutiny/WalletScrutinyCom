@@ -10,8 +10,8 @@ idd: 1314586706
 released: 2018-08-02
 updated: 2021-06-19
 version: "3.1.3"
-stars: 4.88596
-reviews: 342
+stars: 4.8863
+reviews: 343
 size: 48211968
 website: https://keys.casa
 repository: 
@@ -20,7 +20,6 @@ icon: com.casa.vault.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-22
-reviewStale: true
 signer: 
 reviewArchive:
 

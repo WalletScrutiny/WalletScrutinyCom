@@ -10,8 +10,8 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2021-06-23
 version: "6.3.6"
-stars: 4.731
-reviews: 3000
+stars: 4.73091
+reviews: 2999
 size: 261837824
 website: http://www.hbg.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-14
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.pointpay.bank
 released: 2020-07-21
-latestUpdate: 2021-06-20
-version: "5.4.1"
+latestUpdate: 2021-06-28
+version: "5.4.2"
 stars: 4.6
 ratings: 2810
-reviews: 1485
+reviews: 1483
 size: 71M
 website: https://wallet.pointpay.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.pointpay.bank.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-26
-reviewStale: true
 signer: 
 reviewArchive:
 

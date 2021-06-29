@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-06-21
 version: "2.5.21"
 stars: 3.7
-ratings: 5389
-reviews: 3242
+ratings: 5403
+reviews: 3251
 size: 44M
 website: https://www.investvoyager.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.investvoyager.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
-reviewStale: true
 signer: 
 reviewArchive:
 

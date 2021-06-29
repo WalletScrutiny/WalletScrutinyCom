@@ -10,8 +10,8 @@ idd: 1443813253
 released: 2019-05-09
 updated: 2021-06-26
 version: "2.4.0"
-stars: 3.87684
-reviews: 2379
+stars: 3.87563
+reviews: 2380
 size: 58259456
 website: https://paxful.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.paxful.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-14
-reviewStale: true
 signer: 
 reviewArchive:
 

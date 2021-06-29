@@ -9,9 +9,9 @@ appId: com.buyucoinApp.buyucoin
 released: 2019-02-15
 latestUpdate: 2021-06-15
 version: "3.16"
-stars: 4.3
-ratings: 2608
-reviews: 1915
+stars: 4.2
+ratings: 2616
+reviews: 1941
 size: 37M
 website: https://www.buyucoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-30
-reviewStale: true
 signer: 
 reviewArchive:
 

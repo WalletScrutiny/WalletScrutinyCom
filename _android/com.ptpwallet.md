@@ -10,7 +10,7 @@ released: 2018-12-04
 latestUpdate: 2021-06-07
 version: "1.0.1222"
 stars: 4.0
-ratings: 333
+ratings: 334
 reviews: 244
 size: 25M
 website: https://ptpwallet.com
@@ -20,12 +20,11 @@ icon: com.ptpwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-06
   version: ""
-  apkHash: 
+  appHash: 
   gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
   verdict: custodial
 

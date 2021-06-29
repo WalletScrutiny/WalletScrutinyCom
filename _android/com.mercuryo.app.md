@@ -9,9 +9,9 @@ appId: com.mercuryo.app
 released: 2019-09-03
 latestUpdate: 2021-04-26
 version: "1.12.3"
-stars: 4.5
-ratings: 2369
-reviews: 1392
+stars: 4.2
+ratings: 2309
+reviews: 1350
 size: 60M
 website: https://mercuryo.io
 repository: 
@@ -20,7 +20,6 @@ icon: com.mercuryo.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

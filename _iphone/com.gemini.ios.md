@@ -10,8 +10,8 @@ idd: 1408914447
 released: 2018-12-11
 updated: 2021-06-24
 version: "3.21.0"
-stars: 4.77266
-reviews: 50590
+stars: 4.77285
+reviews: 50640
 size: 106880000
 website: http://gemini.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.gemini.ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
 

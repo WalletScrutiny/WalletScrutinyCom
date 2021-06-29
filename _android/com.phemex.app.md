@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.phemex.app
 released: 2020-02-19
-latestUpdate: 2021-06-02
-version: "1.3.4"
+latestUpdate: 2021-06-25
+version: "1.4.0"
 stars: 4.7
-ratings: 8966
-reviews: 2087
-size: 19M
+ratings: 9017
+reviews: 2099
+size: 48M
 website: https://phemex.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.phemex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

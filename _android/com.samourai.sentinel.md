@@ -10,7 +10,7 @@ released: 2015-05-23
 latestUpdate: 2021-04-13
 version: "4.0.2"
 stars: 3.6
-ratings: 300
+ratings: 301
 reviews: 163
 size: 40M
 website: https://www.samouraiwallet.com/sentinel
@@ -20,7 +20,6 @@ icon: com.samourai.sentinel.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

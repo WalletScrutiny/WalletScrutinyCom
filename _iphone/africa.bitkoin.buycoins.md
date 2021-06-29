@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2020-05-29
   version: 
-  apkHash: 
+  appHash: 
   gitRevision: 05366b15413b636ae7f6f4ebeebaea670862cb65
   verdict: custodial
 

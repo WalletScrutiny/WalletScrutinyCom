@@ -10,8 +10,8 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2021-06-24
 version: "4.16.2"
-stars: 3.65509
-reviews: 4694
+stars: 3.65538
+reviews: 4695
 size: 66152448
 website: https://uphold.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.uphold.wallet.ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-14
-reviewStale: true
 signer: 
 reviewArchive:
 

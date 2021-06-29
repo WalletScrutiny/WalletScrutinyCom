@@ -9,9 +9,9 @@ appId: co.busha.android
 released: 2019-01-21
 latestUpdate: 2021-06-02
 version: "2.6.13"
-stars: 4.1
-ratings: 2211
-reviews: 1704
+stars: 4.0
+ratings: 2212
+reviews: 1705
 size: 17M
 website: https://busha.co
 repository: 
@@ -20,7 +20,6 @@ icon: co.busha.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 

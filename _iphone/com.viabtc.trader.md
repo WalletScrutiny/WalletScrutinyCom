@@ -10,8 +10,8 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2021-06-12
 version: "2.9.9"
-stars: 4.54422
-reviews: 882
+stars: 4.54575
+reviews: 885
 size: 135159808
 website: https://www.coinex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.viabtc.trader.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-20
-reviewStale: true
 signer: 
 reviewArchive:
 

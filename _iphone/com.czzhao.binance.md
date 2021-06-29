@@ -10,8 +10,8 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2021-06-26
 version: "2.31.2"
-stars: 4.73356
-reviews: 64858
+stars: 4.73353
+reviews: 64957
 size: 333923328
 website: https://www.binance.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.czzhao.binance.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

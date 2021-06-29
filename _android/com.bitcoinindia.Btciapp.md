@@ -10,8 +10,8 @@ released: 2018-06-11
 latestUpdate: 2021-05-27
 version: "3.1.43"
 stars: 2.6
-ratings: 1244
-reviews: 881
+ratings: 1245
+reviews: 882
 size: 11M
 website: https://www.bitcoin-india.org
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitcoinindia.Btciapp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 

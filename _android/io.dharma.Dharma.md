@@ -20,7 +20,6 @@ icon: io.dharma.Dharma.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-05
-reviewStale: true
 signer: 
 reviewArchive:
 

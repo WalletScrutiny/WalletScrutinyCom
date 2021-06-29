@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2021-05-14
   version: "3.10.2"
-  apkHash: 
+  appHash: 
   gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
   verdict: nosource
 

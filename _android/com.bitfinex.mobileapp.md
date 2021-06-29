@@ -10,8 +10,8 @@ released: 2019-02-11
 latestUpdate: 2021-05-05
 version: "4.3.0"
 stars: 4.0
-ratings: 1376
-reviews: 603
+ratings: 1375
+reviews: 600
 size: 55M
 website: https://www.bitfinex.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitfinex.mobileapp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-31
-reviewStale: true
 signer: 
 reviewArchive:
 
