@@ -36,7 +36,7 @@ layout: default
 
           <span>last analysed&nbsp;
             <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
-              data="{{ page.date }}">
+              data="{{ page.date | date: '%s' }}">
               {{ page.date | date_to_long_string: "ordinal" }}
             </span>
           </span>
@@ -64,7 +64,7 @@ layout: default
             </label>
 
             <div>
-              <span class="calculate-time-elapsed" data="{{ page.released }}">
+              <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
                 {{ page.released | date_to_long_string: "ordinal" }}
               </span>
             </div>
