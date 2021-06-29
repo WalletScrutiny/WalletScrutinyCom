@@ -14,15 +14,20 @@ ratings: 25408
 reviews: 10063
 size: 25M
 website: https://brd.com
-repository: https://github.com/breadwallet/breadwallet-android
-issue: https://github.com/breadwallet/breadwallet-android/issues/117
+repository: https://github.com/breadwallet/brd-mobile
+issue: https://github.com/breadwallet/brd-mobile/issues/1
 icon: com.breadwallet.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-27
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-29
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-06-27
+  version: "4.10.0"
+  apkHash: 
+  gitRevision: 5f9d3e8bf00be2ad8968b129c27258ea45ce2680
+  verdict: nosource
 - date: 2019-12-16
   version: "4.9.1.1"
   apkHash: 
@@ -38,6 +43,19 @@ redirect_from:
 
 ---
 
+
+**Update 2021-06-29**: The provider
+[informed us](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869938323)
+that the latest code can be found in a new repository. Apparently the
+[new repository](https://github.com/breadwallet/brd-mobile)
+is a fork of the
+[old repository](https://github.com/breadwallet/breadwallet-android)
+where they
+[changed the license](https://github.com/breadwallet/brd-mobile/commit/9c563ce83521bebee375641a65e965392fa7057a)
+from open source to some look-dont-touch license. For us, both provide the same
+degree of transparency so we have to revert the last change in verdict. This app
+does indeed share up to date source code although the git tag and the Play Store
+version name [do differ](https://github.com/breadwallet/brd-mobile/issues/1).
 
 **Update 2021-06-27**: As pointed out
 [here](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869031603),
