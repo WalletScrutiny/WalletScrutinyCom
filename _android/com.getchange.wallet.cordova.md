@@ -10,7 +10,7 @@ released: 2018-06-07
 latestUpdate: 2021-06-28
 version: "10.20.0"
 stars: 4.4
-ratings: 2256
+ratings: 2261
 reviews: 1019
 size: 32M
 website: https://getchange.com

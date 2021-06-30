@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-06-17
 version: "v78"
 stars: 3.5
-ratings: 2534
-reviews: 1044
+ratings: 2546
+reviews: 1047
 size: 9.3M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.remitano.remitano
 released: 2016-07-24
-latestUpdate: 2021-06-15
-version: "5.42.0"
+latestUpdate: 2021-06-29
+version: "5.43.0"
 stars: 4.4
-ratings: 13581
-reviews: 6179
-size: 93M
+ratings: 13637
+reviews: 6196
+size: 95M
 website: https://remitano.com
 repository: 
 issue: 

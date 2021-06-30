@@ -9,9 +9,9 @@ appId: com.coinex.trade.play
 released: 2019-12-27
 latestUpdate: 2021-06-13
 version: "1.9.8.1"
-stars: 4.7
-ratings: 20456
-reviews: 6471
+stars: 4.6
+ratings: 20496
+reviews: 6486
 size: 14M
 website: https://www.coinex.co
 repository: 

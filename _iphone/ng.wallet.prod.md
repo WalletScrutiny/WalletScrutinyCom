@@ -9,11 +9,11 @@ appId: ng.wallet.prod
 appCountry: 
 idd: 1280830303
 released: 2017-10-14
-updated: 2021-06-24
-version: "2.475"
+updated: 2021-06-29
+version: "2.476"
 stars: 4.32353
 reviews: 68
-size: 63206400
+size: 63210496
 website: http://wallets.africa
 repository: 
 issue: 

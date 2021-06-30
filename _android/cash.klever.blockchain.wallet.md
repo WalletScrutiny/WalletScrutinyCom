@@ -1,6 +1,6 @@
 ---
 wsId: klever
-title: "Klever: Bitcoin, Ethereum, Tron, Crypto Wallet"
+title: "Klever Wallet: Bitcoin, Ethereum, Tron, & more"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2020-08-27
 latestUpdate: 2021-06-16
 version: "4.2.3"
 stars: 3.9
-ratings: 8457
-reviews: 4736
+ratings: 8473
+reviews: 4745
 size: Varies with device
 website: https://www.klever.io
 repository: 

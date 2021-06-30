@@ -10,8 +10,8 @@ released: 2018-04-01
 latestUpdate: 2021-06-19
 version: "4.7.0"
 stars: 4.6
-ratings: 7025
-reviews: 3336
+ratings: 7024
+reviews: 3328
 size: 11M
 website: http://totalcoin.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.totalcoin.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-05-24
-reviewStale: true
 signer: 
 reviewArchive:
 

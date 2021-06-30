@@ -10,8 +10,8 @@ idd: 1452964749
 released: 2019-09-10
 updated: 2021-06-28
 version: "3.1.10"
-stars: 4.82692
-reviews: 52
+stars: 4.83019
+reviews: 53
 size: 190302208
 website: https://www.sylo.io/wallet/
 repository: 

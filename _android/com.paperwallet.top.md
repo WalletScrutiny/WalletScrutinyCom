@@ -9,8 +9,8 @@ appId: com.paperwallet.top
 released: 2019-06-12
 latestUpdate: 2020-10-18
 version: "1.0.22"
-stars: 4.4
-ratings: 36
+stars: 4.5
+ratings: 37
 reviews: 18
 size: 3.2M
 website: 

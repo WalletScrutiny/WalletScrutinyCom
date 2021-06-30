@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.paxful.wallet
 released: 2019-04-30
-latestUpdate: 2021-06-16
+latestUpdate: 2021-06-29
 version: "2.0.4.617"
 stars: 3.9
-ratings: 18240
-reviews: 10572
+ratings: 18259
+reviews: 10578
 size: 27M
 website: https://paxful.com/mobile-wallet-app
 repository: 
