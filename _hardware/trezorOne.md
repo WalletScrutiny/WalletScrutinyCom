@@ -54,14 +54,14 @@ provider's public keys that are hard-coded into the bootloader.
 
 > **Secure update procedure.**<br>
   The bootloader erases the device memory if the firmware signature is invalid.
-  Downgrade to a vulnerable version also wipes the memory.
+  Downgrading to a vulnerable version also wipes the memory.
 
 We suppose, downgrading to any version - not only vulnerable ones - wipes the
 memory.
 
-The above properties ensure that only software approved by the provider can be
+The above properties ensure that only software which has been approved by the provider can be
 run on this device. It doesn't guarantee that this software is not stealing your
 keys.
 
-To our very surprise, the wallet's [main page](https://trezor.io/) has no easy
+To our surprise, the wallet's [main page](https://trezor.io/) has no easy way 
 to find claims about the product being open source.
