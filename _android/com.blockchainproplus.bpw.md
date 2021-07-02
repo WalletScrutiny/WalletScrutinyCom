@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-27
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-02
 signer: 
 reviewArchive:
-
+- date: 2021-06-27
+  version: "1.1.1"
+  appHash: 
+  gitRevision: 492d7ebb012fb1f6ef959dbeac88ff3d72a07881
+  verdict: obfuscated
 
 providerTwitter: 
 providerLinkedIn: 

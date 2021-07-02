@@ -10,8 +10,8 @@ idd: 1436028697
 released: 2018-09-23
 updated: 2021-06-15
 version: "1.5.9"
-stars: 3.59677
-reviews: 124
+stars: 3.576
+reviews: 125
 size: 127602688
 website: 
 repository: https://github.com/TP-Lab/tp-ios

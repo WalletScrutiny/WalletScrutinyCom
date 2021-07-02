@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.ftxmobile.ftx
 released: 2020-05-08
-latestUpdate: 2021-01-20
-version: "1.1.0"
-stars: 3.6
-ratings: 3497
-reviews: 1651
-size: 46M
+latestUpdate: 2021-06-30
+version: "1.1.2"
+stars: 4.1
+ratings: 3722
+reviews: 1718
+size: 61M
 website: https://ftx.com
 repository: 
 issue: 

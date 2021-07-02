@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.rsk.rwallet.v2
 released: 2021-04-27
-latestUpdate: 2021-06-09
-version: "1.4.5"
+latestUpdate: 2021-06-30
+version: "2.0.1"
 stars: 0.0
 ratings: 
 reviews: 
-size: 29M
+size: 36M
 website: 
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.viabtc.ViaWallet
 appCountry: 
 idd: 1462031389
 released: 2019-05-21
-updated: 2021-06-24
-version: "2.3.2"
+updated: 2021-06-30
+version: "2.3.3"
 stars: 4.11111
 reviews: 18
-size: 79411200
+size: 79505408
 website: https://viawallet.com
 repository: 
 issue: 

@@ -10,8 +10,8 @@ released: 2020-03-11
 latestUpdate: 2021-06-21
 version: "1.2.17"
 stars: 3.4
-ratings: 4718
-reviews: 2243
+ratings: 4721
+reviews: 2244
 size: 58M
 website: http://mewwallet.com
 repository: 
