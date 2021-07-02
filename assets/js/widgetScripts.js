@@ -141,16 +141,20 @@ function getWidgetDetails(wallet) {
       ? `<a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
       : ``
     }
-    ${ hasValue(wallet.website) ? `<a target="_blank" href="${wallet.website}"><i class="fas fa-globe"></i></a>` : ``}
-    ${ hasValue(wallet.shop) ? `<a target="_blank" href="${wallet.shop}"><i class="fas fa-shopping-cart"></i></a>` : ``}
-    ${ hasValue(wallet.repository) ? `<a target="_blank" href="${wallet.repository}"><i class="fab fa-github"></i></a>` : ``}
-    ${ hasValue(wallet.issue) ? `<a target="_blank" href="${wallet.issue}"><i class="fa fa-bug" aria-hidden="true"></i></a>` : ``}
-    ${ hasValue(wallet.providerTwitter) ? `<a target="_blank" href="https://twitter.com/${wallet.providerTwitter}"><i class="fab fa-twitter"></i></a>` : ``}
-    ${ hasValue(wallet.providerFacebook) ? `<a target="_blank" href="https://www.facebook.com/${wallet.providerFacebook}"><i class="fab fa-facebook-f"></i></a>` : ``}
-    ${ hasValue(wallet.providerReddit) ? `<a target="_blank" href="https://www.reddit.com/r/${wallet.providerReddit}"><i class="fab fa-reddit"></i></a>` : ``}
-    ${ hasValue(wallet.providerLinkedIn) ? `<a target="_blank" href="https://www.linkedin.com/company/${wallet.providerLinkedIn}"><i class="fab fa-linkedin-in"></i></a>` : ``}
+    ${ linkIf(wallet.website,          "Provider Website",  '<i class="fas fa-globe"></i>') }
+    ${ linkIf(wallet.shop,             "Official Store",    '<i class="fas fa-shopping-cart"></i>') }
+    ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fab fa-github"></i>') }
+    ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
+    ${ linkIf(wallet.providerTwitter,  "Provider Twitter",  '<i class="fab fa-twitter"></i>') }
+    ${ linkIf(wallet.providerFacebook, "Provider Facebook", '<i class="fab fa-facebook-f"></i>') }
+    ${ linkIf(wallet.providerReddit,   "Provider Reddit",   '<i class="fab fa-reddit"></i>') }
+    ${ linkIf(wallet.providerLinkedIn, "Provider LinkedIn", '<i class="fab fa-linkedin-in"></i>') }
     </td></tr>
     </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`
+}
+
+function linkIf(url, title, logo) {
+  return hasValue(url) ? `<a target="_blank" title="${title}" href="${url}">${logo}</a>` : ``
 }
 
 function hasValue(x) {
