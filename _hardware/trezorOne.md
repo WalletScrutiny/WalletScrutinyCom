@@ -293,3 +293,15 @@ satisfactory. "Reproducible" means that all bytes are accounted for. If those
 bytes are the signature and can be decoded as such, we are good but for now we
 need to research more.
 
+So they point [here](https://github.com/trezor/trezor-mcu/issues/459) for
+details and Trezor co-founder [Pavel Prusnak](https://github.com/prusnak)
+indeed
+[explains](https://github.com/trezor/trezor-mcu/issues/459#issuecomment-470511795)
+the diff as signatures:
+
+> These 192 bytes are 3 ECDSA signatures (3 * 64 = 192)
+
+To have peace of mind, we would have to either dig into the bootloader if it
+really reads that part as signatures and not as executable code or we would have
+to verify those three signatures - it would probably be impossible to have
+something that is both a valid signature and malicious code.
