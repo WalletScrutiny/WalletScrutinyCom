@@ -1,5 +1,5 @@
 ---
-title: "OpenDime"
+title: "Opendime"
 appId: OpenDime
 authors:
 - kiwilamb
