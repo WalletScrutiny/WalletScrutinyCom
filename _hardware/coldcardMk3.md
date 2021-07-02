@@ -1,5 +1,5 @@
 ---
-title: "ColdCardMk3"
+title: "Coldcard Mk3"
 appId: ColdCardMk3
 authors:
 - kiwilamb
