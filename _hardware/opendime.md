@@ -12,7 +12,7 @@ weight:
 website: https://opendime.com/
 shop: https://store.coinkite.com/store/opendime
 country: CA
-price: 49USD
+price: 49USD (3 pack)
 repository: https://github.com/opendime
 issue: 
 icon: OpenDime.png
@@ -29,4 +29,3 @@ providerFacebook:
 providerReddit: 
 ---
 
-Note: $49USD is for 3 x OpenDime Pack.
