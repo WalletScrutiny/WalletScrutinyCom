@@ -29,5 +29,3 @@ providerFacebook:
 providerReddit: 
 ---
 
-Founders Edition - $299USD
-
