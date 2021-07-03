@@ -59,12 +59,12 @@ provider's public keys that are hard-coded into the bootloader.
 We suppose, downgrading to any version - not only vulnerable ones - wipes the
 memory.
 
-The above properties ensure that only software approved by the provider can be
+The above properties ensure that only software which has been approved by the provider can be
 run on this device. It doesn't guarantee that this software is not stealing your
 keys.
 
-To our very surprise, the wallet's [main page](https://trezor.io/) has no easy
-to find claims about the product being open source.
+To our surprise, the wallet's [main page](https://trezor.io/) does not show or link
+to claims about the product being open source.
 
 We [asked on Reddit](https://www.reddit.com/r/TREZOR/comments/oarc0b/where_can_i_find_the_most_authoritative_claim_of/)
 but somehow there really is no authoritative claim from the provider that the

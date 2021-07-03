@@ -4,14 +4,14 @@ title: "Algorand Wallet"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.algorand.android
 released: 2019-06-07
 latestUpdate: 2021-06-28
 version: "4.9.2"
 stars: 4.8
-ratings: 3545
-reviews: 1017
+ratings: 3615
+reviews: 1032
 size: 37M
 website: 
 repository: 

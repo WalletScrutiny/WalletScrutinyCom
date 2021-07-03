@@ -10,8 +10,8 @@ released: 2019-01-14
 latestUpdate: 2021-04-28
 version: "1.1.3"
 stars: 4.4
-ratings: 174
-reviews: 52
+ratings: 177
+reviews: 53
 size: 39M
 website: https://www.bitcoinofamerica.org
 repository: 

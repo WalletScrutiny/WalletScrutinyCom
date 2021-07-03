@@ -10,7 +10,7 @@ released: 2019-11-29
 latestUpdate: 2021-05-12
 version: "0.3.5"
 stars: 4.5
-ratings: 612
+ratings: 613
 reviews: 357
 size: 50M
 website: https://ezdefi.com/

@@ -4,14 +4,14 @@ title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.koinal.android
 released: 2020-06-04
 latestUpdate: 2021-06-21
 version: "1.2.7"
-stars: 4.0
-ratings: 332
-reviews: 238
+stars: 4.6
+ratings: 379
+reviews: 242
 size: 37M
 website: https://www.koinal.io
 repository: 

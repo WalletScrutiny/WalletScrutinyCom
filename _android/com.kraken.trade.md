@@ -1,6 +1,6 @@
 ---
 wsId: krakent
-title: "Pro: Advanced Bitcoin & Crypto Trading"
+title: "KrakenPro: Advanced Bitcoin & Crypto Trading"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2019-10-24
 latestUpdate: 2021-05-29
 version: "1.5.15-5520"
 stars: 4.6
-ratings: 19700
-reviews: 6601
+ratings: 19749
+reviews: 6615
 size: 42M
 website: https://www.kraken.com
 repository: 

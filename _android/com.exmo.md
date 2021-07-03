@@ -10,7 +10,7 @@ released: 2019-11-12
 latestUpdate: 2021-06-25
 version: "2.5"
 stars: 4.1
-ratings: 1861
+ratings: 1866
 reviews: 1255
 size: 59M
 website: https://exmo.com

@@ -10,8 +10,8 @@ idd: 1442764361
 released: 2020-06-08
 updated: 2021-06-22
 version: "1.2.7"
-stars: 4.93996
-reviews: 2182
+stars: 4.93954
+reviews: 2167
 size: 60243968
 website: https://www.koinal.io
 repository: 

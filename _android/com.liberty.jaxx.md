@@ -1,6 +1,6 @@
 ---
 wsId: jaxxliberty
-title: "Jaxx Liberty - Blockchain Cryptocurrency Wallet"
+title: "Jaxx Liberty - Trade Bitcoin, ETH and 90+ Crypto"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2018-09-01
 latestUpdate: 2021-05-28
 version: "2.6.4"
 stars: 3.8
-ratings: 5038
-reviews: 2787
+ratings: 5048
+reviews: 2791
 size: 17M
 website: https://jaxx.io
 repository: 

@@ -9,8 +9,8 @@ appId: com.balletcrypto
 released: 2019-08-08
 latestUpdate: 2021-06-25
 version: "1.16.4"
-stars: 4.8
-ratings: 442
+stars: 4.9
+ratings: 446
 reviews: 166
 size: 47M
 website: https://www.balletcrypto.com

@@ -8,11 +8,11 @@ appId: com.midasprotocol.wallet.ios
 appCountry: 
 idd: 1436698193
 released: 2018-09-24
-updated: 2021-06-24
-version: "2.0.3"
+updated: 2021-07-02
+version: "2.0.4"
 stars: 4.85914
 reviews: 71
-size: 146492416
+size: 146521088
 website: https://midasprotocol.io/
 repository: 
 issue: 

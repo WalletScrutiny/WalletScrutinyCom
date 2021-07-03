@@ -8,11 +8,11 @@ appId: com.incognito.wallet
 appCountry: 
 idd: 1475631606
 released: 2019-08-21
-updated: 2021-04-05
-version: "4.3.0"
+updated: 2021-07-02
+version: "4.4.0"
 stars: 3.98734
 reviews: 79
-size: 51428352
+size: 53477376
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: 
