@@ -9,9 +9,9 @@ appId: com.galoyapp
 released: 2020-11-24
 latestUpdate: 2021-06-19
 version: "1.4.4"
-stars: 3.8
-ratings: 115
-reviews: 67
+stars: 3.7
+ratings: 117
+reviews: 68
 size: 32M
 website: 
 repository: 

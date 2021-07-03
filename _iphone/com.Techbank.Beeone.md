@@ -8,11 +8,11 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2021-07-01
-version: "1.0.47"
+updated: 2021-07-02
+version: "1.0.48"
 stars: 4
 reviews: 8
-size: 67061760
+size: 67065856
 website: https://techbank.finance/
 repository: 
 issue: 
