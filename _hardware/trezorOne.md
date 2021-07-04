@@ -217,7 +217,7 @@ for VARIANT in core legacy; do
 done
 ```
 
-That's a 200 lines of code script and we better understand what's going on.
+That's a 121 lines of code script and we better understand what's going on.
 After all this is supposed to be run on our PC.
 
 So they want to use an `alpine:3.12.3` docker container to compile in but
@@ -233,8 +233,8 @@ Status: Downloaded newer image for alpine:3.12.3
 / # 
 ```
 
-they ... wget the image from `http://dl-cdn.alpinelinux.org/alpine`? That's a
-bit confusing and might warrant a code comment.
+they ... wget the image from `http://dl-cdn.alpinelinux.org/alpine` which
+doesn't even use ssl? That's a bit confusing and might warrant a code comment.
 
 Anyway, the script looks good. Let's see if it builds something:
 
@@ -262,7 +262,7 @@ ea3403f99093b5fc71907d2ded6af01bf66a67a881862629d96947550bdf711e  build/legacy/f
 
 That is not a match.
 
-[The wiki explains](https://wiki.trezor.io/Developers_guide:Deterministic_firmware_build):
+The build instructions go on to explain:
 
 > The firmware headers have changed in firmware 1.8.0, so if you are building
   firmware >= 1.8.0 you need to strip those. You can download the official
@@ -284,11 +284,13 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  -
 Guess we found a typo as this looks good:
 
 ```
-$ tail -c +1025 build/legacy/firmware/firmware.bin | shasum -a 256
+$ tail -c +1281 trezor-1.9.4.bin | shasum -a 256; \
+  tail -c +1025 build/legacy/firmware/firmware.bin | shasum -a 256
+8478aaabee98e9e3ec28d619dbdeb20a2c7c3edf26ecd2d8ef2f1ce55f81c586  -
 8478aaabee98e9e3ec28d619dbdeb20a2c7c3edf26ecd2d8ef2f1ce55f81c586  -
 ```
 
-That's a match! But why do we have to chop of heads? That explanation is not
+That's a match! But why do we have to chop off heads? That explanation is not
 satisfactory. "Reproducible" means that all bytes are accounted for. If those
 bytes are the signature and can be decoded as such, we are good but for now we
 need to research more.
@@ -304,4 +306,57 @@ the diff as signatures:
 To have peace of mind, we would have to either dig into the bootloader if it
 really reads that part as signatures and not as executable code or we would have
 to verify those three signatures - it would probably be impossible to have
-something that is both a valid signature and malicious code.
+something that is both a valid signature and malicious code. *The best option
+though would be to verify these signatures with the signers public key as it
+gives additional accountability.*
+
+But first lets see if the header indeed matches except for 192 bytes:
+
+```
+$ hexdump -n 1024 -v -e '/1 "%02x\n"' build/legacy/firmware/firmware.bin > firstBytesBuild.txt
+$ hexdump -n 1280 -v -e '/1 "%02x\n"' trezor-1.9.4.bin > firstBytesDownload.txt
+$ meld firstBytes*
+```
+
+This is more than 192B of diff. The downloaded file starts with an extra 256B
+
+```
+54 52 5a 52 04 06 09 00 01 02 03 01 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+c7 34 48 6d 08 b3 28 3b 83 93 77 78 ed 46 55 c2 
+5b 07 01 01 29 7d 72 67 53 66 1d ae cc 90 14 06 
+8a b1 d2 9c cf 4c 11 9b 46 f6 f2 ec 54 ac ce 25 
+23 3d 23 4e 2b 07 a4 d9 fd 66 16 81 be 99 b0 44 
+e5 23 15 48 e9 1a 24 28 8e 68 eb e4 44 46 82 f9 
+96 3f 73 c7 82 a9 4c 46 ae 6f d6 db db 79 72 3e 
+c3 cc ea 17 e6 a2 06 28 66 39 d8 d1 a9 79 7e 68 
+b7 6a 3b be a1 77 a4 92 58 00 c1 cb 41 4f 19 2f 
+23 53 3b d1 ab b0 ea 11 bb 42 9c 49 18 8d 1e cf 
+f5 a3 5e ce 8f 36 74 0a de d2 1f 39 a3 92 14 2b 
+ed 72 8e 7c 93 02 5e df 27 a7 41 10 3f f7 50 69 
+55 7b 23 2e 5c 69 bd 97 a7 39 0e 05 b8 4c 9b fd
+```
+
+and its bytes 800 to 994:
+
+```
+7e 1f 7c 47 f1 f0 b7 3b 7d 43 3b 52 2d e6 5c 5e 
+0d 52 2a ac 7d f1 84 2a 3a 15 8b 3c cf 1b 7e ec 
+c4 7d d8 30 67 d4 42 58 ad 33 64 69 6d e5 5e 7b 
+a1 8c 3c c5 15 be fd 98 87 91 0e bf 9f 10 cf f0 
+aa 95 ba b8 13 89 a4 a7 ac 64 36 2b 6a 8e b3 7a 
+a0 7f 5b 71 55 e1 c8 a1 1f 12 cb 4f 57 03 d8 fb 
+f0 af a0 f0 63 b3 f8 a6 ba d3 66 63 cc ac 1c 04 
+b1 a1 ce 24 ea 5b 29 60 9f 1a a6 e9 82 f8 73 1e 
+00 79 cd 7e cb a5 d5 3e 70 9f f7 5b 4a da 9e d9 
+45 1a f6 89 25 13 4f 70 55 af 77 2e 24 c9 39 18 
+a6 17 54 27 4e eb 71 b0 08 9a 0c f1 f4 91 8a f5 
+fb 8b a3 f0 2a ab 0d 83 8b 0e de f9 5a 46 80 41 
+01 02 03
+```
+
+differ, too. Apparently the latter is the 192-ish bytes of 3 signatures. We
+asked the provider for clarification ...
+
