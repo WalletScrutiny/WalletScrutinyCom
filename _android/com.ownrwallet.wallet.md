@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.ownrwallet.wallet
 released: 2019-05-20
-latestUpdate: 2021-06-30
-version: "1.19.0"
+latestUpdate: 2021-07-02
+version: "1.20.0"
 stars: 4.8
-ratings: 1175
-reviews: 1052
+ratings: 1180
+reviews: 1056
 size: 56M
 website: https://ownrwallet.com
 repository: 

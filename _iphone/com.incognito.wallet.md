@@ -10,7 +10,7 @@ idd: 1475631606
 released: 2019-08-21
 updated: 2021-07-02
 version: "4.4.0"
-stars: 3.98734
+stars: 3.97468
 reviews: 79
 size: 53477376
 website: https://incognito.org

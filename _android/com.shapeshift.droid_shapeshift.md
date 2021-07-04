@@ -11,7 +11,7 @@ latestUpdate: 2021-06-22
 version: "2.18.0"
 stars: 2.9
 ratings: 2689
-reviews: 1695
+reviews: 1694
 size: 50M
 website: https://shapeshift.com
 repository: 

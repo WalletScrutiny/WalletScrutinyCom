@@ -10,8 +10,8 @@ released: 2019-12-12
 latestUpdate: 2021-07-01
 version: "3.0.8"
 stars: 2.8
-ratings: 695
-reviews: 527
+ratings: 696
+reviews: 528
 size: 85M
 website: https://www.litebit.eu
 repository: 

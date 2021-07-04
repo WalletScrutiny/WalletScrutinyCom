@@ -10,7 +10,7 @@ released: 2020-07-07
 latestUpdate: 2021-03-26
 version: "0.5.1"
 stars: 4.0
-ratings: 22
+ratings: 23
 reviews: 16
 size: 55M
 website: https://zeusln.app
