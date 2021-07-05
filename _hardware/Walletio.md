@@ -31,3 +31,6 @@ providerFacebook:
 providerReddit: 
 ---
 
+The provider's site has clear information on this hardware wallet, however we cannot find anyway of buying this product. 
+
+It may not be released yet, but that also is not clearly stated.
