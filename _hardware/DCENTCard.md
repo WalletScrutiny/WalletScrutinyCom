@@ -1,0 +1,33 @@
+---
+title: "D'CENT Card Wallet"
+appId: DCENTCard
+authors:
+- kiwilamb
+released: 
+discontinued: # date
+latestUpdate:
+version:
+dimensions: [54, 86, 0.86]
+weight: 6
+website: https://dcentwallet.com/products/CardWallet
+shop: https://dcentwallet.com/Shop
+company: IOTrust
+companywebsite: https://iotrust.kr/
+country: KP
+price: 23USD
+repository: 
+issue:
+icon: DCENTCard.png
+bugbounty:
+verdict: NOBTC # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-05
+signer:
+reviewArchive:
+
+
+providerTwitter: DCENTwallets
+providerLinkedIn: 
+providerFacebook: DcentWalletGlobal
+providerReddit: 
+---
+
