@@ -3,7 +3,7 @@ title: "Keevo Model 1"
 appId: Keevo
 authors:
 - kiwilamb
-released: Q3-2020
+released: 2020-09-31 # Q3 2020 according to provider
 discontinued: # date
 latestUpdate:
 version:
