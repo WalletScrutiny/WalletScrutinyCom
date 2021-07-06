@@ -19,7 +19,7 @@ repository:
 issue:
 icon: DCENTCard.png
 bugbounty:
-verdict: NOBTC # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
 signer:
 reviewArchive:
