@@ -17,7 +17,7 @@ country: US
 price: 69.99USD
 repository: 
 issue:
-icon: FLXOne.png
+icon: flxOne.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
