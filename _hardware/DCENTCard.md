@@ -31,4 +31,4 @@ providerFacebook: DcentWalletGlobal
 providerReddit: 
 ---
 
-This hardware wallet does not support Bitcoin.
+This device does not support Bitcoin.
