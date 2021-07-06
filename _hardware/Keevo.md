@@ -17,7 +17,7 @@ country: US
 price: 299USD
 repository: 
 issue:
-icon: Keevo.png
+icon: keevo.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
