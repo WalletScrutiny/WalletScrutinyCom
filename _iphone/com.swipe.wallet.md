@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.swipe.wallet.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-26
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-06
 signer: 
 reviewArchive:
-
+- date: 2021-04-26
+  version: "1.900"
+  appHash: 
+  gitRevision: cb228d8cdb269382f7751e003d94523f6e219bc5
+  verdict: custodial
 
 providerTwitter: SwipeWallet
 providerLinkedIn: 
@@ -32,6 +36,28 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-07-06**: The app looks abandoned. It was:
+
+* Removed from the App Store
+* Their Twitter account is suspended
+* Most reviews on Play Store are 1-star, some with scam accusations and since 
+  July 2020 none got a reply from the provider, with many reporting similar
+  silence on support channels
+
+We found some
+[Binance link](https://www.binance.com/en/blog/421499824684900723/Binance-and-Swipe-Partner-to-Bridge-Crypto-and-Commerce-Announce-Acquisition-)
+to this, too:
+
+> Jul 06 2020<br>
+  **Binance and Swipe Partner to Bridge Crypto and Commerce, Announce Acquisition**<br>
+  Binance, the global blockchain company behind the world’s largest digital
+  asset exchange, today announced the completion of its acquisition of Swipe,
+  the industry’s leading multi-asset digital wallet and Visa debit card platform
+  that allows users to buy, sell, convert and spend cryptocurrencies, for an
+  undisclosed amount.
+
+# Original Review
 
 This app is a custodial offering:
 
