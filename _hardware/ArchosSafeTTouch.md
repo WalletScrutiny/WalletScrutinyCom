@@ -3,7 +3,7 @@ title: "Archos Safe-T Touch"
 appId: ArchosSafeTTouch
 authors:
 - kiwilamb
-released: Q1-2019
+released: 2019-03-31 # actually "Q1" according to the website
 discontinued: # date
 latestUpdate:
 version:
