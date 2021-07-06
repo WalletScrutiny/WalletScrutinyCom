@@ -19,7 +19,7 @@ repository:
 issue:
 icon: BCVaultOne.png
 bugbounty:
-verdict: WIP # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
 signer:
 reviewArchive:
