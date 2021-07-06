@@ -14,13 +14,13 @@ shop:
 company: Wallet.io
 companywebsite: https://wallet.io/
 country: 
-price: -
+price: 
 repository: https://github.com/wallet-io
 issue:
 icon: walletio.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-05
+date: 2021-07-07
 signer:
 reviewArchive:
 

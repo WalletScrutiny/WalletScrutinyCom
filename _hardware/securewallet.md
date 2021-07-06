@@ -20,7 +20,7 @@ issue:
 icon: securewallet.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-05
+date: 2021-07-07
 signer:
 reviewArchive:
 
