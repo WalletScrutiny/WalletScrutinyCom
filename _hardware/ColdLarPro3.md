@@ -1,6 +1,6 @@
 ---
 title: "ColdLar Pro 3"
-appId: ColdLarPro3
+appId: coldlarpro3
 authors:
 - kiwilamb
 released: 
@@ -17,7 +17,7 @@ country: CH
 price: 620USD
 repository: 
 issue:
-icon: ColdLarPro3.png
+icon: coldlarpro3.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05

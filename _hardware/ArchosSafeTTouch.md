@@ -1,6 +1,6 @@
 ---
 title: "Archos Safe-T Touch"
-appId: ArchosSafeTTouch
+appId: archossafettouch
 authors:
 - kiwilamb
 released: 2019-03-31 # actually "Q1" according to the website
@@ -17,7 +17,7 @@ country: FR
 price: 129.99Euro
 repository: 
 issue:
-icon: ArchosSafeTTouch.png
+icon: archossafettouch.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05

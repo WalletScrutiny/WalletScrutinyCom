@@ -1,6 +1,6 @@
 ---
 title: "Foundation Passport"
-appId: Passport
+appId: passport
 authors:
 - kiwilamb
 released: 2020-07-01
@@ -15,7 +15,7 @@ country: US
 price: 299USD
 repository: https://github.com/Foundation-Devices
 issue: 
-icon: Passport.png
+icon: passport.png
 bugbounty: 
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-01

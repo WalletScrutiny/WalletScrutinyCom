@@ -1,6 +1,6 @@
 ---
 title: "D'CENT Card Wallet"
-appId: DCENTCard
+appId: dcentcard
 authors:
 - kiwilamb
 released: 
@@ -17,7 +17,7 @@ country: KP
 price: 23USD
 repository: 
 issue:
-icon: DCENTCard.png
+icon: dcentcard.png
 bugbounty:
 verdict: nobtc # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05

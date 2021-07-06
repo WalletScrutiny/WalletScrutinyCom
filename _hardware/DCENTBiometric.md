@@ -1,6 +1,6 @@
 ---
 title: "D'CENT Biometric Wallet"
-appId: DCENTBiometric
+appId: dcentbiometric
 authors:
 - kiwilamb
 released: 
@@ -17,7 +17,7 @@ country: KP
 price: 119USD
 repository: https://github.com/DcentWallet
 issue:
-icon: DCENTBiometric.png
+icon: dcentbiometric.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05

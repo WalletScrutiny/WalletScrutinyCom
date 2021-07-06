@@ -1,6 +1,6 @@
 ---
 title: "Archos Safe-T mini"
-appId: ArchosSafeTMini
+appId: archossafetmini
 authors:
 - kiwilamb
 released: 
@@ -17,7 +17,7 @@ country: FR
 price: 49.99Euro
 repository: 
 issue:
-icon: ArchosSafeTMini.png
+icon: archossafetmini.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
