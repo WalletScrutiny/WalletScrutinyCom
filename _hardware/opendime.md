@@ -1,6 +1,6 @@
 ---
 title: "Opendime"
-appId: OpenDime
+appId: opendime
 authors:
 - kiwilamb
 released: 2016-04-01
@@ -15,7 +15,7 @@ country: CA
 price: 49USD (3 pack)
 repository: https://github.com/opendime
 issue: 
-icon: OpenDime.png
+icon: opendime.png
 bugbounty: 
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-02
