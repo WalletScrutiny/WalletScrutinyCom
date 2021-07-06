@@ -9,7 +9,7 @@ latestUpdate:
 version:
 dimensions: 
 weight: 
-website: 
+website: https://omnistaker.com
 shop: https://omnistaker.com/shop/
 company: OmniSolutions
 companywebsite: https://omnistaker.com
