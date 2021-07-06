@@ -17,7 +17,7 @@ country: US
 price: 42.95USD
 repository: 
 issue:
-icon: KASSE.png
+icon: kasse.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
