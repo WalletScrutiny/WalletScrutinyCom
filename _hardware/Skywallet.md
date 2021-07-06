@@ -17,7 +17,7 @@ country:
 price: 39USD
 repository: https://github.com/skycoinproject
 issue:
-icon: Skywallet.png
+icon: skywallet.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
