@@ -10,8 +10,8 @@ released: 2019-09-10
 latestUpdate: 2021-06-27
 version: "3.1.12"
 stars: 4.6
-ratings: 706
-reviews: 363
+ratings: 707
+reviews: 364
 size: 336M
 website: https://www.sylo.io/wallet
 repository: 

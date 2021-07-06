@@ -8,11 +8,11 @@ appId: com.bitnovo.app
 appCountry: 
 idd: 1220883632
 released: 2017-05-19
-updated: 2021-02-25
-version: "2.8.5"
+updated: 2021-07-05
+version: "2.8.6"
 stars: 2
 reviews: 4
-size: 75869184
+size: 62710784
 website: https://www.bitnovo.com
 repository: 
 issue: 

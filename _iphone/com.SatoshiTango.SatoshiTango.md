@@ -10,8 +10,8 @@ idd: 1002555958
 released: 2015-07-08
 updated: 2021-02-19
 version: "3.4.17"
-stars: 4.32258
-reviews: 31
+stars: 4.21875
+reviews: 32
 size: 133840896
 website: http://www.satoshitango.com
 repository: 

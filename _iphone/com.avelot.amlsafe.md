@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2021-06-29
 version: "1.30.43.67"
 stars: 5
-reviews: 171
+reviews: 199
 size: 62776320
 website: https://amlsafe.io/
 repository: 

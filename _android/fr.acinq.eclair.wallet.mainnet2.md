@@ -10,8 +10,8 @@ released: 2018-04-12
 latestUpdate: 2021-05-20
 version: "0.4.16"
 stars: 4.0
-ratings: 357
-reviews: 167
+ratings: 358
+reviews: 168
 size: 29M
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile

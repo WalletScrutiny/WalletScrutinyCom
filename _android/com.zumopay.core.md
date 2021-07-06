@@ -10,8 +10,8 @@ released: 2019-10-28
 latestUpdate: 2021-06-23
 version: "3.1.0"
 stars: 4.0
-ratings: 173
-reviews: 93
+ratings: 174
+reviews: 94
 size: 188M
 website: https://zumo.money
 repository: 

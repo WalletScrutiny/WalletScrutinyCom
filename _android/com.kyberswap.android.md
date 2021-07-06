@@ -11,7 +11,7 @@ latestUpdate: 2021-04-26
 version: "1.1.36"
 stars: 4.2
 ratings: 1807
-reviews: 869
+reviews: 870
 size: 19M
 website: https://kyberswap.com
 repository: 

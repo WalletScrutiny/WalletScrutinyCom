@@ -10,8 +10,8 @@ idd: 1440147115
 released: 2019-06-07
 updated: 2021-07-02
 version: "2.24.2"
-stars: 4.59722
-reviews: 1440
+stars: 4.59765
+reviews: 1444
 size: 71448576
 website: https://www.zengo.com
 repository: 

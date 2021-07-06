@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "elegro Wallet: instant crypto-fiat payments"
+title: "Elegro Wallet: multi-currency crypto wallet"
 altTitle: 
 authors:
 - leo

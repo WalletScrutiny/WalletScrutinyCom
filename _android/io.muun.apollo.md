@@ -10,8 +10,8 @@ released: 2017-04-25
 latestUpdate: 2021-06-24
 version: "46.5"
 stars: 4.4
-ratings: 231
-reviews: 139
+ratings: 235
+reviews: 140
 size: 41M
 website: https://muun.com
 repository: https://github.com/muun/apollo

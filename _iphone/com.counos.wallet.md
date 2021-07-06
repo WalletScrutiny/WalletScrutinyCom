@@ -8,11 +8,11 @@ appId: com.counos.wallet
 appCountry: 
 idd: 1408806845
 released: 2018-08-01
-updated: 2020-04-28
-version: "1.9.2"
+updated: 2021-07-04
+version: "1.9.5"
 stars: 3.88
 reviews: 25
-size: 38522880
+size: 26215424
 website: https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
 repository: 
 issue: 

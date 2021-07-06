@@ -10,8 +10,8 @@ released: 2018-01-21
 latestUpdate: 2021-06-28
 version: "2.6.49.5"
 stars: 3.6
-ratings: 7090
-reviews: 3786
+ratings: 7095
+reviews: 3791
 size: 49M
 website: https://crypterium.com
 repository: 

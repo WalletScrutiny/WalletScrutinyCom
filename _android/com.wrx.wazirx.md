@@ -9,9 +9,9 @@ appId: com.wrx.wazirx
 released: 2018-07-16
 latestUpdate: 2021-06-03
 version: "2.13.4"
-stars: 3.9
-ratings: 198719
-reviews: 57241
+stars: 4.0
+ratings: 200486
+reviews: 57485
 size: 6.1M
 website: 
 repository: 

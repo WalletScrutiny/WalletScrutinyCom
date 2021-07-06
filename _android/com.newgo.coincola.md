@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.newgo.coincola
 released: 2017-07-07
-latestUpdate: 2021-06-15
-version: "4.8.1"
-stars: 4.9
-ratings: 812
-reviews: 341
+latestUpdate: 2021-07-05
+version: "4.8.2"
+stars: 4.8
+ratings: 814
+reviews: 342
 size: 31M
 website: https://www.coincola.com
 repository: 
