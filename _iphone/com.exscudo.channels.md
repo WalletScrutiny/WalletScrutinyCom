@@ -9,11 +9,11 @@ appId: com.exscudo.channels
 appCountry: ru
 idd: 1367425342
 released: 2018-05-16
-updated: 2021-05-17
-version: "2.16.3"
+updated: 2021-07-06
+version: "2.17.0"
 stars: 4.67856
 reviews: 28
-size: 174550016
+size: 179453952
 website: https://channels.chat
 repository: 
 issue: 

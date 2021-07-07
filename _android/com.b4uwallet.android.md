@@ -10,8 +10,8 @@ released: 2018-10-19
 latestUpdate: 2021-04-22
 version: "4.3.4"
 stars: 3.7
-ratings: 126
-reviews: 73
+ratings: 127
+reviews: 74
 size: 30M
 website: https://b4uwallet.com/
 repository: 

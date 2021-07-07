@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Good Crypto: one trading app for all exchanges"
+title: "Good Crypto: manage all exchanges with one app"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2019-05-20
 latestUpdate: 2021-07-02
 version: "1.7.4"
 stars: 4.5
-ratings: 661
-reviews: 277
+ratings: 664
+reviews: 279
 size: 20M
 website: https://goodcrypto.app
 repository: 

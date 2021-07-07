@@ -4,7 +4,7 @@ title: "AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: it.airgap.vault
 released: 2018-08-06
 latestUpdate: 2021-04-23

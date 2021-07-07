@@ -10,8 +10,8 @@ released: 2014-12-15
 latestUpdate: 2021-06-30
 version: "4.1.3"
 stars: 4.2
-ratings: 59364
-reviews: 31655
+ratings: 59480
+reviews: 31704
 size: 29M
 website: https://indodax.com
 repository: 

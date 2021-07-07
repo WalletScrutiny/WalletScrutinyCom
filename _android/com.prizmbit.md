@@ -1,14 +1,14 @@
 ---
 wsId: prizmbit
-title: "Prizm wallet, p2p cryptocurrency exchange"
+title: "Prizmbit wallet, p2p cryptocurrency exchange"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: com.prizmbit
 released: 2019-06-28
-latestUpdate: 2021-07-02
-version: "1.4.22"
+latestUpdate: 2021-07-06
+version: "1.4.23"
 stars: 3.8
 ratings: 508
 reviews: 241
