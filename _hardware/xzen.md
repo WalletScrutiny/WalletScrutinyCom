@@ -17,9 +17,9 @@ country:
 price: 
 repository: 
 issue:
-icon: 
+icon: xzen.png
 bugbounty:
-verdict: DEFUNCT # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-05
 signer:
 reviewArchive:
