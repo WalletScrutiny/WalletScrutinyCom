@@ -3,7 +3,7 @@ title: "NGRAVE ZERO"
 appId: ngravezero
 authors:
 - kiwilamb
-released: 2021-08-01
+released: 
 discontinued: # date
 latestUpdate:
 version:
