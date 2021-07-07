@@ -15,7 +15,7 @@ company: Bitfi, Inc
 companywebsite: https://bitfi.com
 country: 
 price: 199USD
-repository: 
+repository: https://github.com/Bitfi
 issue:
 icon: bitfiwallet.png
 bugbounty:
