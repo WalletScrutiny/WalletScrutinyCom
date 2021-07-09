@@ -17,7 +17,7 @@ repository: https://github.com/digitalbitbox
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/762
 icon: bitBox2.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-09
 signer: 
 reviewArchive:
@@ -48,10 +48,10 @@ claim:
   exactly the same as the official release. You can find instructions and more
   details on how the reproducible builds work on our
   [Github](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases).
-  
-  We also gather signatures from the community asserting the correctness of our releases.
-  
-  [Contribute and sign the bitbox02-firmware](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#contribute-your-signature)
+>  
+> We also gather signatures from the community asserting the correctness of our releases.
+> 
+> [Contribute and sign the bitbox02-firmware](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#contribute-your-signature)
 
 which is great if we don't find any show-stoppers ...
 
@@ -99,8 +99,8 @@ very much acknowledged by the provider in
 
 > **The closed-source drawback**<br>
   Secure chips are not even that expensive, so why does not every hardware wallet use them? The main drawback is that secure chips are closed source. Firmware running on a secure chip cannot be released as open source due to enforced non-disclosure agreements.
-  
-  When it comes to firmware securing your bitcoin, creating random seeds and signing transactions, trusting closed source software that cannot be independently audited is just not good enough. In our opinion, you should not need to trust the manufacturer of your hardware wallet (and all its individual employees) to belong to the “good guys”, diligently finding their own bugs without independent reviews and then actually fixing them.
+> 
+> When it comes to firmware securing your bitcoin, creating random seeds and signing transactions, trusting closed source software that cannot be independently audited is just not good enough. In our opinion, you should not need to trust the manufacturer of your hardware wallet (and all its individual employees) to belong to the “good guys”, diligently finding their own bugs without independent reviews and then actually fixing them.
 
 But the blog post goes on with some clever design considerations:
 
@@ -171,228 +171,82 @@ continue the review once we get clarity.
 > 
 > [master/releases/describe_signed_firmware.py](https://github.com/digitalbitbox/bitbox02-firmware/blob/master/releases/describe_signed_firmware.py)
 
-So after reading the python script, this is what's going on:
-
-We have to take the `firmware-btc.v9.6.0.signed.bin`, append as many binary `1`s
-as fit into the maximum firmware size of ...
-
-```
-$ cat py/bitbox02/bitbox02/bitbox02/bootloader.py | grep MAX_FIRMWARE_SIZE
-MAX_FIRMWARE_SIZE = 884736  # 928kB - 64kB
-assert MAX_FIRMWARE_SIZE % CHUNK_SIZE == 0
-FIRMWARE_CHUNKS = MAX_FIRMWARE_SIZE // CHUNK_SIZE
-        empty_firmware = struct.pack("<I", firmware_v) + b"\xFF" * MAX_FIRMWARE_SIZE
-```
-
-884736 bytes.
-
-*That tool is not "small, easy to audit" as it pulls in
-`bitbox02.bitbox02.bootloader` which on the other hand is probably pretty well
-scrutinized. We'll try to verify the hash without python anyway.*
-
-```
-$ wc -c firmware-btc.v9.6.0.signed.bin 
-461816 firmware-btc.v9.6.0.signed.bin
-$ echo $(( 884736 - 461816 ))
-422920
-$ cp firmware-btc.v9.6.0.signed.bin padded.bin
-$ dd if=/dev/zero ibs=1 count=422920 | tr "\000" "\377" >> padded.bin 
-$ wc -c padded.bin 
-884736 padded.bin
-```
-
-No the `sha256d(<version><padded firmware>)` only misses the `version` part.
-
-From the python script:
-
-```
-...
-from bitbox02.bitbox02.bootloader import (
-        parse_signed_firmware,
-...
-magic, sigdata, firmware = parse_signed_firmware(binary)
-...
-version = sigdata[SIGNING_PUBKEYS_DATA_LEN:][:4]
-print(
-  hashlib.sha256(hashlib.sha256(version + firmware_padded).digest()).hexdigest()
-)
-```
-
-At this point this point we are a bit stuck. What is `version` here? Lets see if
-the "small, easy to audit tool" can help:
-
-```
-$ podman run --volume $(pwd):/x --rm -it python bash
-# cd /x/py/bitbox02/
-# pip3 install .
-# ../../releases/describe_signed_firmware.py ../../firmware-btc.v9.6.0.signed.bin 
-The following information assumes the provided binary was signed correctly; the signatures are not being verified.
-This is a Bitcoin-only edition firmware.
-The hash of the unsigned firmware binary is (compare with reproducible build):
-3a39395f04cbdfae3357efbb24a0c5f7fc9ce69bc505bfc545cb49dab76b4d46
-The monotonic firmware version is: 22
-The hash of the firmware as verified/shown by the bootloader is:
-e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f
-```
-
-So their script gets the correct hash but we'd still love to get this with bash,
-only, to not have to trust their tools.
-
-```
-# python
-Python 3.9.6 (default, Jun 29 2021, 19:18:53) 
-[GCC 8.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> import sys
->>> from bitbox02.bitbox02.bootloader import (parse_signed_firmware, SIGNING_PUBKEYS_DATA_LEN)
->>> with open("../../firmware-btc.v9.6.0.signed.bin", "rb") as fileobj:
-...     binary = fileobj.read()
-... 
->>> magic, sigdata, firmware = parse_signed_firmware(binary)
->>> version = sigdata[SIGNING_PUBKEYS_DATA_LEN:][:4]
->>> print(version)
-b'\x16\x00\x00\x00'
-```
-
-So ... how to do this in bash now? `sha256(sha256(b'\x16\x00\x00\x00' + firmware + padding))`?
-
-According to
-[this blog post](https://btcleak.com/2020/06/10/double-sha256-in-bash-and-python/),
-the double-sha256 hashing would be done using `| sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64`
-
-```
-$ printf '\x16\x00\x00\x00' > version.bin
-$ cat version.bin padded.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64
-d8700da73fe3edcb5a0772115bf22a8e7490c1002d0d7e108346460c129bde0a
-```
-
-which is not the hash
-`e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f` from the
-release notes.
-
-Let's see if we are hashing the correct thing by first storing what their python
-script hashes to a new file and then comparing that with what we try to hash:
-
-```
-$ cat releases/describe_signed_firmware.py
-...
-    print(
-        hashlib.sha256(hashlib.sha256(version + firmware_padded).digest()).hexdigest()
-    )
-    with open("version_firmware_padding.bin", "wb") as fileobj:
-        fileobj.write(version + firmware_padded)
-...
-$ podman run --volume $(pwd):/x --rm -it python bash
-# cd /x/py/bitbox02/
-# pip3 install .
-# ../../releases/describe_signed_firmware.py ../../firmware-btc.v9.6.0.signed.bin
-The following information assumes the provided binary was signed correctly; the signatures are not being verified.
-This is a Bitcoin-only edition firmware.
-The hash of the unsigned firmware binary is (compare with reproducible build):
-3a39395f04cbdfae3357efbb24a0c5f7fc9ce69bc505bfc545cb49dab76b4d46
-The monotonic firmware version is: 22
-The hash of the firmware as verified/shown by the bootloader is:
-e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f
-# mv version_firmware_padding.bin ../..
-# exit
-$ cat version.bin padded.bin > version_firmware_padding_bash.bin 
-leo@codex:/tmp/bitbox02-firmware(master)$ sha256sum version_*
-ffc4b8ce0bbbf7976a94b6011e85f0c3c5803fd205e261f00594841ad09d9328  version_firmware_padding_bash.bin
-ef87d59dec47f7e2379828ee4737f66d57ad4ccf0a8d47177bb1b1a179388427  version_firmware_padding.bin
-```
-
-so we are not hashing the same as their python script. What's the diff between
-the two?
-
-```
-$ cmp --verbose version_firmware_padding*.bin | head
-     5  21 140
-     6  43 306
-     7  73   1
-     8  13  40
-     9   1  11
-    10   0 235
-    11   0   2
-    13 376 371
-    14   1 234
-    15 113   2
-```
-
-well, the first 4 bytes are the version bytes. Apparently we got those right.
-The rest ... ok ... in hindsight the above was naive. The python script extracts
-`firmware` but also `magic` and `sigdata`:
-
-```
-magic, sigdata, firmware = parse_signed_firmware(binary)
-```
-
-and only hashes `version` which is part of `sigdata`, `firmware` and `padding`
-so to extract `firmware` from `firmware-btc.v9.6.0.signed.bin` we need to look
-into `parse_signed_firmware()`:
-
-```
-NUM_ROOT_KEYS = 3
-NUM_SIGNING_KEYS = 3
-
-SIGDATA_MAGIC_STANDARD = struct.pack(">I", 0x653F362B)
-SIGDATA_MAGIC_BTCONLY = struct.pack(">I", 0x11233B0B)
-SIGDATA_MAGIC_BITBOXBASE_STANDARD = struct.pack(">I", 0xAB6BD345)
-
-MAGIC_LEN = 4
-
-VERSION_LEN = 4
-SIGNING_PUBKEYS_DATA_LEN = VERSION_LEN + NUM_SIGNING_KEYS * 64 + NUM_ROOT_KEYS * 64
-FIRMWARE_DATA_LEN = VERSION_LEN + NUM_SIGNING_KEYS * 64
-SIGDATA_LEN = SIGNING_PUBKEYS_DATA_LEN + FIRMWARE_DATA_LEN
-
-def parse_signed_firmware(firmware: bytes) -> typing.Tuple[bytes, bytes, bytes]:
-    """
-    Split raw firmware bytes into magic, sigdata and firmware
-    """
-
-    if len(firmware) < MAGIC_LEN + SIGDATA_LEN:
-        raise ValueError("firmware too small")
-    magic, firmware = firmware[:MAGIC_LEN], firmware[MAGIC_LEN:]
-    if magic not in (
-        SIGDATA_MAGIC_STANDARD,
-        SIGDATA_MAGIC_BTCONLY,
-        SIGDATA_MAGIC_BITBOXBASE_STANDARD,
-    ):
-        raise ValueError("invalid magic")
-
-    sigdata, firmware = firmware[:SIGDATA_LEN], firmware[SIGDATA_LEN:]
-    return magic, sigdata, firmware
-```
-
-Ok, this is getting way more involved than we had planned. In the above function
-`firmware` gets redefined several times. As function parameter, it's the content
-of the file we want to check: `firmware-btc.v9.6.0.signed.bin`. Then the 4
-`magic` bytes get chopped off at the beginning and then the `SIGDATA_LEN` bytes
-which itself contains 4 version bytes twice, 3 64 byte signing keys twice and 3
-64 byte root keys.
-
-As mentioned above, this script is **not** "small, easy to audit", mainly
-because the first script reliese on this second script which again imports
-further dependencies:
-
-```
-import struct
-import typing
-import io
-import math
-import hashlib
-
-from bitbox02.communication import TransportLayer
-from bitbox02.communication.devices import DeviceInfo
-```
-
-so to understand if the verification code is benign, we would have to also audit
-`TransportLayer` and `DeviceInfo` and their dependencies. After all python
+To understand if the verification code is benign, we would have to also audit
+its direct and transitive dependencies. After all python
 allows [MonkeyPatching](https://en.wikipedia.org/wiki/Monkey_patch#Examples)
 dependencies, which allows any dependency to mess with this "small, easy to
 audit" function(s).
 
-To have all bytes accounted for, we need a secondary implementation and probably
-will finish what was started above in bash. Signatures should be valid
-signatures, magic bytes should match etc. For now this is still work in
-progress.
+To verify we dug through their verification script and basically replicated the
+relevant parts in shell script:
+
+We have to take the `firmware-btc.v9.6.0.signed.bin` and:
+
+* strip its first 588 bytes
+  * extract 4 "magic" bytes
+  * extract 4 "version" bytes
+  * extract 3 * 64 "signing keys" (signatures?) bytes
+  * extract 3 * 64 "root keys bytes"
+  * extract 4 "version" bytes
+  * extract 3 * 64 "signing keys" (signatures?) bytes
+* take the remaining bytes as firmware
+* append as many binary `1`s as fit into the maximum firmware size of ...
+  
+  ```
+  $ cat py/bitbox02/bitbox02/bitbox02/bootloader.py | grep MAX_FIRMWARE_SIZE
+  MAX_FIRMWARE_SIZE = 884736  # 928kB - 64kB
+  ```
+  
+  884736 bytes.
+
+Here is the first 588 bytes in hexadecimal to our understanding:
+
+```
+btc-only magic:        11 23 3b 0b
+signature (?) version: 01 00 00 00
+sig key 1:             fe 01 4b fd d8 92 80 ce 2d a7 6e 95 84 aa 85 75 4f 68 3c 9e 10 48 10 9a 99 16 54 c5 2a bb ba 55 b0 f5 7c 60 f5 75 a3 a3 d5 cf 65 f3 cf 7b 50 e8 b4 c5 ac 95 71 29 27 04 89 92 ab 6c 97 8e 66 d9
+sig key 2:             59 4d bc 1d 4c 81 a3 b5 aa 7e b4 b6 2c 9f ad 9e f3 f2 00 f2 59 a4 5c c0 6c c1 22 3c 0a ee a3 6f d5 76 98 af 4a 73 ff 49 de 7b 05 6e d4 0f d1 06 a8 2b 99 ad d0 82 c3 35 f2 a2 c6 72 00 af c6 43
+sig key 3:             18 3e ba 23 f6 2d a6 7b 24 c1 9c 0d d5 79 25 60 38 45 3b c8 f5 76 36 59 85 c8 de 2f 7a 23 7b f7 33 cf 82 08 b6 b0 a9 05 e1 6f 45 43 c4 a3 0b 94 60 f5 78 f5 45 1e fd 01 3b 73 53 36 ad 56 7b 3b
+root key 1:            59 32 1b 68 14 7c e1 4a ab 24 f5 8a d0 3c 32 d2 09 93 02 2f 6f d5 b6 34 a9 d7 54 f3 fd eb ba 0b 39 c5 97 0a 2b 69 be 7d f6 8c e4 d0 3e e4 ca 81 fe 52 0d ca 98 a5 04 24 f9 30 a0 41 f1 5b 02 6b
+root key 2:            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+root key 3:            63 ca 7f d0 0e 56 44 e4 37 31 74 94 74 1f bc bb 39 6d 2b 81 e4 97 f4 4f 88 a5 d9 dd af c2 4d 34 fc f7 ea 2a d5 87 e6 3a 9c 3f c9 f2 24 a1 32 6f 73 a0 4b bf 9e d9 84 8a 60 1e 0a 7b 48 fe 6f 3f
+firmware version:      16 00 00 00
+sig key 1:             3a 78 af b9 98 0f 96 1c 2d ee 88 6f 81 1c a2 e7 9a 57 51 f1 f5 1c 19 b4 20 a0 7f ac e3 44 cf af 61 9d b3 5b 51 11 4c 4b 6d ae 30 0d be a4 ca 36 64 41 86 60 68 d7 6a 6d 12 32 8a 10 bc f3 23 52
+sig key 2:             8f e6 94 2a bc bd fd d1 44 ed 26 69 a7 cf 61 a3 8c e9 1d 25 d6 a4 44 9e 77 ec 28 c0 5a 79 1b 80 55 2e a5 ad f0 87 f5 6f 68 e1 57 f4 62 c0 b3 53 d4 de 8d 53 b4 c1 1e e0 9a 1d 9c a8 d7 13 42 c0
+sig key 3:             00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+```
+
+The following is a condensed version of lots of try-and-error of extracting the
+relevant parts:
+
+```
+$ head -c 588 firmware-btc.v9.6.0.signed.bin > p_head.bin
+$ tail -c +589 firmware-btc.v9.6.0.signed.bin > p_firmware.bin
+$ cat p_head.bin | tail -c +$(( 8 + 6 * 64 + 1 )) | head -c 4 > p_version.bin
+$ cat p_version.bin | xxd -p
+16000000
+$ wc -c p_firmware.bin 
+461228 p_firmware.bin
+$ echo $(( 884736 - 461228 ))
+423508
+$ dd if=/dev/zero ibs=1 count=423508 | tr "\000" "\377" > p_padding.bin
+$ cat p_version.bin p_firmware.bin p_padding.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64
+e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f
+```
+
+So the {{ page.title }} shows the hash of all but the first 588 bytes while
+those 588 bytes are mostly signatures. 588 bytes are enough for backdoors, so 
+the correct working of the bootloader is essential. Its detailed inspection is
+beyond the scope of our analysis.
+
+So now, on to really reproducing the firmware ...
+
+```
+$ releases/build.sh firmware-btc-only/v9.6.0 "make firmware-btc"
+$ sha256sum temp/build/bin/firmware-btc.bin firmware-btc.v9.6.0.bin
+3a39395f04cbdfae3357efbb24a0c5f7fc9ce69bc505bfc545cb49dab76b4d46  temp/build/bin/firmware-btc.bin
+3a39395f04cbdfae3357efbb24a0c5f7fc9ce69bc505bfc545cb49dab76b4d46  firmware-btc.v9.6.0.bin
+```
+
+That looks good. The {{ page.title }} is a hardware wallet and its firmware is
+**reproducible**.
