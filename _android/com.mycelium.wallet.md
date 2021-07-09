@@ -19,9 +19,14 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-05-28
+date: 2021-07-09
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-05-28
+  version: "3.10.0.1"
+  appHash: d5c73ea4965e986101f751376f0aad74590b6ccb1a5623349dad03e1b6d5025e
+  gitRevision: f10b413459affc777817652651e45a1ba439de71
+  verdict: reproducible
 - date: 2021-05-16
   version: "3.9.0.0"
   appHash: bd8a7d6f8c27116fe1dbba0172864e95ae753f7403a147729920b816208f196a
@@ -146,21 +151,20 @@ procedure expressed in our
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.10.0.1
-apkVersionCode: 3100001
-appHash:        d5c73ea4965e986101f751376f0aad74590b6ccb1a5623349dad03e1b6d5025e
+apkVersionName: 3.10.0.3
+apkVersionCode: 3100003
+appHash:        7532f6d0cef440cfc3a09d48d8ef099a96c093f9895ad21aa069aa60be43a06d
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3100001/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3100001/apktool.yml differ
-Files /tmp/fromPlay_com.mycelium.wallet_3100001/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3100001/original/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3100003/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3100003/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 8fc8c46a6e4cfe13e3098dd521bc49562c69763f
+object e0098cde4babb860bb29c0aa613795240de6aa6b
 type commit
-tag v3.10.0.1
-tagger itserg <sergey.dolgopolov@mycelium.com> 1622134079 +0300
+tag v3.10.0.3
+tagger itserg <sergey.dolgopolov@mycelium.com> 1625235171 +0300
 
-Synchronization improvements - unit tests updates.
+SSL certificate fix for older devices
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
