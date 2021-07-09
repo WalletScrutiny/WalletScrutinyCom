@@ -10,7 +10,7 @@ idd: 927362479
 released: 2014-11-03
 updated: 2021-06-29
 version: "7.17.0"
-stars: 4.42556
+stars: 4.42526
 reviews: 3318
 size: 95771648
 website: https://www.luno.com

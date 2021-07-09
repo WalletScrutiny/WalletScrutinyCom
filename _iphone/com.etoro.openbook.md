@@ -10,8 +10,8 @@ idd: 674984916
 released: 2017-06-26
 updated: 2021-07-04
 version: "332.0.0"
-stars: 4.1379
-reviews: 3633
+stars: 4.13957
+reviews: 3647
 size: 143601664
 website: http://www.etoro.com
 repository: 

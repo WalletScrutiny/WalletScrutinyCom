@@ -9,9 +9,9 @@ appId: com.monederoapp
 released: 2020-03-13
 latestUpdate: 2021-06-25
 version: "4.1.0"
-stars: 4.0
-ratings: 16
-reviews: 6
+stars: 4.1
+ratings: 17
+reviews: 7
 size: 28M
 website: 
 repository: 

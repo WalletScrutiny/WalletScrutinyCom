@@ -10,7 +10,7 @@ released: 2018-07-01
 latestUpdate: 2021-07-02
 version: "5.8.0"
 stars: 3.3
-ratings: 3947
+ratings: 3948
 reviews: 2410
 size: 37M
 website: https://cobo.com
