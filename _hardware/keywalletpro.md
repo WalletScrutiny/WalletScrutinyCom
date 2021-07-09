@@ -20,7 +20,7 @@ issue:
 icon: keywalletpro.png
 bugbounty:
 verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-05
+date: 2021-07-10
 signer:
 reviewArchive:
 
@@ -31,4 +31,4 @@ providerFacebook:
 providerReddit: 
 ---
 
-This hardware wallet looks to be defunct, the provider's [main site is not accessable](http://www.keywallet.co.kr) 
+This hardware wallet looks to be defunct, the provider's [main site is not accessible](http://www.keywallet.co.kr) 

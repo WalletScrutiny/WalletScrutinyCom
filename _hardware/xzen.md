@@ -20,7 +20,7 @@ issue:
 icon: xzen.png
 bugbounty:
 verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-05
+date: 2021-07-10
 signer:
 reviewArchive:
 
@@ -31,4 +31,4 @@ providerFacebook:
 providerReddit: 
 ---
 
-The provider's [website states](https://xzen.io/) that this harware wallet is no longer supported.
+The provider's [website states](https://xzen.io/) that this hardware wallet is no longer supported.
