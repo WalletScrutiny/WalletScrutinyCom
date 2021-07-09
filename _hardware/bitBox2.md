@@ -161,13 +161,13 @@ patches it? Accountability is lost as far as we can see. We opened an
 [issue](https://github.com/digitalbitbox/bitbox02-firmware/issues/762) and will
 continue the review once we get clarity.
 
-... [clarity came in within 9h](https://github.com/digitalbitbox/bitbox02-firmware/issues/762#issuecomment-875448905):
+... [clarity came within 9h](https://github.com/digitalbitbox/bitbox02-firmware/issues/762#issuecomment-875448905):
 
 > As for the hash shown in the release notes, please check this documentation:
 > 
 > [master/releases#verify-the-hash-as-shown-by-the-bitbox02-at-startup](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#verify-the-hash-as-shown-by-the-bitbox02-at-startup)
 > 
-> In summary, the hash you are seeing is the sha256d(<version><padded firmware>), and there is a small, easy to audit tool in the same folder to help reproduce it:
+> In summary, the hash you are seeing is the sha256d(&lt;version>&lt;padded firmware>), and there is a small, easy to audit tool in the same folder to help reproduce it:
 > 
 > [master/releases/describe_signed_firmware.py](https://github.com/digitalbitbox/bitbox02-firmware/blob/master/releases/describe_signed_firmware.py)
 
@@ -185,10 +185,10 @@ We have to take the `firmware-btc.v9.6.0.signed.bin` and:
 * strip its first 588 bytes
   * extract 4 "magic" bytes
   * extract 4 "version" bytes
-  * extract 3 * 64 "signing keys" (signatures?) bytes
-  * extract 3 * 64 "root keys bytes"
+  * extract 3 * 64 "signing keys" bytes
+  * extract 3 * 64 "root keys" bytes
   * extract 4 "version" bytes
-  * extract 3 * 64 "signing keys" (signatures?) bytes
+  * extract 3 * 64 "signing keys" bytes
 * take the remaining bytes as firmware
 * append as many binary `1`s as fit into the maximum firmware size of ...
   
@@ -236,8 +236,8 @@ e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f
 
 So the {{ page.title }} shows the hash of all but the first 588 bytes while
 those 588 bytes are mostly signatures. 588 bytes are enough for backdoors, so 
-the correct working of the bootloader is essential. Its detailed inspection is
-beyond the scope of our analysis.
+the correct working of the bootloader is essential. **Its detailed inspection is
+beyond the scope of our analysis.**
 
 So now, on to really reproducing the firmware ...
 
@@ -248,5 +248,9 @@ $ sha256sum temp/build/bin/firmware-btc.bin firmware-btc.v9.6.0.bin
 3a39395f04cbdfae3357efbb24a0c5f7fc9ce69bc505bfc545cb49dab76b4d46  firmware-btc.v9.6.0.bin
 ```
 
-That looks good. The {{ page.title }} is a hardware wallet and its firmware is
-**reproducible**.
+During compilation we saw a surprising amount of dependencies being mentioned
+using golang, rust, python and C which again hopefully others look into in more
+detail. After all, the provider has a bug bounty program.
+
+The result looks good. The {{ page.title }} is a hardware wallet and its
+firmware is **reproducible**.
