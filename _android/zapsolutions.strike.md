@@ -10,7 +10,7 @@ released:
 latestUpdate: 2021-07-06
 version: "v80"
 stars: 3.6
-ratings: 2622
+ratings: 2625
 reviews: 1091
 size: 9.3M
 website: 

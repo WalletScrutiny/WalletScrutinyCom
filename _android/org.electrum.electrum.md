@@ -10,7 +10,7 @@ released: 2016-03-02
 latestUpdate: 2021-06-17
 version: "4.1.4.0"
 stars: 3.4
-ratings: 2243
+ratings: 2244
 reviews: 1338
 size: 21M
 website: https://electrum.org

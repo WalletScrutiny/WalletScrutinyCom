@@ -10,7 +10,7 @@ released: 2020-03-04
 latestUpdate: 2021-04-12
 version: "3.0.10"
 stars: 4.0
-ratings: 2826
+ratings: 2827
 reviews: 1266
 size: 11M
 website: https://hitbtc.com

@@ -4,14 +4,14 @@ title: "AscendEX"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.ascendex.exchange
 released: 2021-04-28
 latestUpdate: 2021-07-03
 version: "2.5.7"
 stars: 3.6
-ratings: 1714
-reviews: 616
+ratings: 1722
+reviews: 620
 size: 41M
 website: https://ascendex.com
 repository: 

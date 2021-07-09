@@ -10,8 +10,8 @@ released: 2014-12-23
 latestUpdate: 2021-07-02
 version: "3.15.00"
 stars: 3.4
-ratings: 83464
-reviews: 40814
+ratings: 83548
+reviews: 40884
 size: 11M
 website: https://www.zebpay.com
 repository: 
