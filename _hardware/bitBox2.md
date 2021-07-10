@@ -18,7 +18,7 @@ issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/762
 icon: bitBox2.png
 bugbounty: 
 verdict: reproducible # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-09
+date: 2021-07-10
 signer: 
 reviewArchive:
 
@@ -48,15 +48,13 @@ claim:
   exactly the same as the official release. You can find instructions and more
   details on how the reproducible builds work on our
   [Github](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases).
->  
-> We also gather signatures from the community asserting the correctness of our releases.
-> 
-> [Contribute and sign the bitbox02-firmware](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#contribute-your-signature)
 
 which is great if we don't find any show-stoppers ...
 
-For hardware wallets we care furthermore about who generates the keys. In this
-case it looks like the device does not come pre-seeded, although that also is
+For hardware wallets we care furthermore about who generates the master seed. In
+this
+case it looks like the device does not come pre-seeded, although a
+factory-provided random number also is
 part of the mix. It does not rely on a closed-source random number generator,
 although that also is part of the mix. As the seeds get generated with random
 numbers from:
@@ -127,8 +125,8 @@ So the harm this closed source chip could do is very limited. It could deny
 service but it could not phone home or use poor randomness to leak the master
 seed which is our primary
 concern. The design is solid. Only remaining step is to see if the firmware is
-[reproducible as advertised](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#how-to-reproduce):
-
+reproducible
+[as advertised](https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#how-to-reproduce):
 
 For a start we will try to reproduce
 [firmware-btc-only/v9.6.0](https://github.com/digitalbitbox/bitbox02-firmware/releases/tag/firmware-btc-only%2Fv9.6.0).
@@ -183,21 +181,15 @@ relevant parts in shell script:
 We have to take the `firmware-btc.v9.6.0.signed.bin` and:
 
 * strip its first 588 bytes
-  * extract 4 "magic" bytes
-  * extract 4 "version" bytes
-  * extract 3 * 64 "signing keys" bytes
-  * extract 3 * 64 "root keys" bytes
-  * extract 4 "version" bytes
-  * extract 3 * 64 "signing keys" bytes
-* take the remaining bytes as firmware
-* append as many binary `1`s as fit into the maximum firmware size of ...
-  
-  ```
-  $ cat py/bitbox02/bitbox02/bitbox02/bootloader.py | grep MAX_FIRMWARE_SIZE
-  MAX_FIRMWARE_SIZE = 884736  # 928kB - 64kB
-  ```
-  
-  884736 bytes.
+  * 4 bytes "magic"
+  * 4 bytes "version"
+  * 3 * 64 bytes "signing keys"
+  * 3 * 64 bytes "root keys"
+  * 4 bytes "version" **← we need this "version"**
+  * 3 * 64 bytes "signing keys"
+* take the remaining bytes as "firmware"
+* append as many binary `1`s as fit into the maximum firmware size of 884736
+  bytes
 
 Here is the first 588 bytes in hexadecimal to our understanding:
 
@@ -250,7 +242,18 @@ $ sha256sum temp/build/bin/firmware-btc.bin firmware-btc.v9.6.0.bin
 
 During compilation we saw a surprising amount of dependencies being mentioned
 using golang, rust, python and C which again hopefully others look into in more
-detail. After all, the provider has a bug bounty program.
+detail. After all, the provider has a
+[bug bounty program](https://shiftcrypto.ch/bug-bounty-program/).
+
+The result in summary:
+
+```
+appId:        bitBox2
+variant:      firmware-btc-only
+version:      v9.6.0
+fileHash:     e41917450ef6fb80af9fbe8f85478973763fe593c23cdeaec481e5d5395dd3b9
+firmwareHash: e788644ec86c63c193e13a1b6cfbdda359b7117dc38090c794e1c6aea69f601f
+```
 
 The result looks good. The {{ page.title }} is a hardware wallet and its
 firmware is **reproducible**.
