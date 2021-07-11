@@ -10,7 +10,7 @@ version:
 dimensions: [123, 62.5, 8.6]
 weight: 163
 website: https://www.coldlar.com/productDetails/10062
-shop: 
+shop: https://www.coldlar.com/productDetails/10062
 company: ColdLar Information Technology Co.
 companywebsite: https://www.coldlar.com/
 country: CH
@@ -20,7 +20,7 @@ issue:
 icon: coldlarpro3.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-07
+date: 2021-07-10
 signer:
 reviewArchive:
 

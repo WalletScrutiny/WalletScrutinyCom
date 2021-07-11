@@ -1,23 +1,23 @@
 ---
-title: "ColdLar Touch"
-appId: coldlartouch
+title: "ColdLar Smart"
+appId: coldlarsmart
 authors:
 - kiwilamb
 released: 
 discontinued: # date
 latestUpdate:
 version:
-dimensions: [54, 86, 0.86]
-weight: 6
-website: https://www.coldlar.com/productDetails/10065
-shop: https://www.coldlar.com/productDetails/10065
+dimensions: 
+weight: 
+website: https://www.coldlar.com/Smart
+shop: 
 company: ColdLar Information Technology Co.
 companywebsite: https://www.coldlar.com/
 country: CH
-price: 28.8USD
+price: 
 repository: 
 issue:
-icon: coldlartouch.png
+icon: coldlarsmart.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-10
