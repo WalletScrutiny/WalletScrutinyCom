@@ -1,26 +1,27 @@
 ---
-title: "Exodus S1"
-appId: exoduss1
+title: "HTC Exodus 1"
+appId: exodus1
 authors:
 - kiwilamb
-released: 
+- leo
+released: 2018-10-23
 discontinued: # date
 latestUpdate:
 version:
 dimensions: 
 weight: 
-website: 
+website: https://www.htcexodus.com/us/cryptophone/exodus1/
 shop: 
-company: Htc
+company: HTC
 companywebsite: https://www.htcexodus.com
-country: CH
+country: US
 price: 
 repository: 
 issue:
-icon: exoduss1.png
+icon: exodus1.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-10
+date: 2021-07-11
 signer:
 reviewArchive:
 
@@ -28,6 +29,6 @@ reviewArchive:
 providerTwitter: htcexodus
 providerLinkedIn: 
 providerFacebook: htcexodus
-providerReddit: 
+providerReddit: HTCExodus
 ---
 
