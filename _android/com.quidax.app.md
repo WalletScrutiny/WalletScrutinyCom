@@ -9,7 +9,7 @@ appId: com.quidax.app
 released: 2019-10-31
 latestUpdate: 2021-01-12
 version: "1.8.0"
-stars: 3.8
+stars: 3.7
 ratings: 1853
 reviews: 1433
 size: 53M

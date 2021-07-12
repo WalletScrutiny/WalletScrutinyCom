@@ -4,13 +4,13 @@ title: "LoadNG: Sell Bitcoin in Nigeria Instantly"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: loadng.com.loadng
 released: 2020-05-02
 latestUpdate: 2021-04-15
 version: "Varies with device"
 stars: 4.2
-ratings: 157
+ratings: 158
 reviews: 115
 size: Varies with device
 website: 

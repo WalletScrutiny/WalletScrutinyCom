@@ -10,8 +10,8 @@ idd: 1252903728
 released: 2017-07-11
 updated: 2021-07-08
 version: "7.0.7"
-stars: 4.37052
-reviews: 6947
+stars: 4.37266
+reviews: 6985
 size: 121356288
 website: https://www.bitcoin.com
 repository: 

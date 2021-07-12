@@ -8,10 +8,10 @@ authors:
 users: 10000
 appId: com.sparkpoint
 released: 2019-07-20
-latestUpdate: 2021-06-24
-version: "6.4.5"
-stars: 4.4
-ratings: 574
+latestUpdate: 2021-07-10
+version: "6.4.6"
+stars: 4.5
+ratings: 575
 reviews: 496
 size: 13M
 website: https://sparkpoint.io/

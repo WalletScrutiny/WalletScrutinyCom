@@ -4,7 +4,7 @@ title: "Paper Wallets Checker"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: host.expo.rnpaperwalletchecker
 released: 2019-03-20
 latestUpdate: 2019-03-21

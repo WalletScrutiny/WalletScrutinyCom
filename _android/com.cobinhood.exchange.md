@@ -10,8 +10,8 @@ released: 2017-12-25
 latestUpdate: 2019-04-29
 version: "3.50.1"
 stars: 1.9
-ratings: 645
-reviews: 377
+ratings: 646
+reviews: 378
 size: 7.7M
 website: https://cobinhood.com
 repository: 

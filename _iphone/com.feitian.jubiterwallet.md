@@ -8,8 +8,8 @@ appId: com.feitian.jubiterwallet
 appCountry: 
 idd: 1518743276
 released: 2020-06-27
-updated: 2021-05-24
-version: "2.4.0"
+updated: 2021-07-11
+version: "2.4.1"
 stars: 
 reviews: 
 size: 75744256

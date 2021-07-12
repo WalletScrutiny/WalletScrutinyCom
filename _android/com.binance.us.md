@@ -9,9 +9,9 @@ appId: com.binance.us
 released: 2019-12-23
 latestUpdate: 2021-07-07
 version: "2.6.0"
-stars: 2.3
-ratings: 5099
-reviews: 3889
+stars: 2.4
+ratings: 5130
+reviews: 3904
 size: Varies with device
 website: https://www.binance.us
 repository: 

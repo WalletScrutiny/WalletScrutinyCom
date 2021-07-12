@@ -9,9 +9,9 @@ appId: com.bitrue.currency.exchange
 released: 2018-07-18
 latestUpdate: 2021-05-19
 version: "4.4.8"
-stars: 3.5
-ratings: 1711
-reviews: 1100
+stars: 3.6
+ratings: 1715
+reviews: 1102
 size: 36M
 website: https://www.bitrue.com
 repository: 

@@ -9,9 +9,9 @@ appId: tech.insense.sensewalet
 released: 2018-09-27
 latestUpdate: 2019-06-21
 version: "0.0068beta"
-stars: 3.9
-ratings: 20
-reviews: 11
+stars: 3.8
+ratings: 21
+reviews: 12
 size: 14M
 website: http://InSense.tech
 repository: 

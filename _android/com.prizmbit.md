@@ -9,9 +9,9 @@ appId: com.prizmbit
 released: 2019-06-28
 latestUpdate: 2021-07-06
 version: "1.4.23"
-stars: 3.8
-ratings: 509
-reviews: 242
+stars: 3.9
+ratings: 511
+reviews: 243
 size: 15M
 website: https://prizmbit.com/
 repository: 

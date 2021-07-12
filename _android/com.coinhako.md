@@ -9,9 +9,9 @@ appId: com.coinhako
 released: 2018-05-06
 latestUpdate: 2021-07-05
 version: "2.5.2"
-stars: 3.6
-ratings: 1182
-reviews: 950
+stars: 3.7
+ratings: 1187
+reviews: 949
 size: 49M
 website: https://www.coinhako.com
 repository: 
