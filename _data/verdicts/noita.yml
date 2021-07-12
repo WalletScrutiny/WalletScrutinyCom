@@ -1,4 +1,4 @@
-title: 'No ITA'
+title: 'Bad&nbsp;Interface'
 short: 'Bad&nbsp;Interface'
 color: '#d33100'
 redflag: true
@@ -15,7 +15,7 @@ explanation : >
   
   The software of the device might be perfect but this device cannot be
   recommended due to this fundamental flaw.
-question: Can the user verify transactions on the device?
+question: Can the user verify and approve transactions on the device?
 details: >
   These are devices
   that might generate secure private key material, outside the reach of the

@@ -1156,12 +1156,17 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .stamp-Nosource::before, .stamp-nosource::before {
   background: var(--rust);
-  content: "no-source";
+  content: "no source";
 }
 
 .stamp-custodial::before {
   background: var(--rust);
   content: "custodial";
+}
+
+.stamp-noita::before {
+  background: var(--rust);
+  content: "bad interface";
 }
 
 .stamp-all::before {
