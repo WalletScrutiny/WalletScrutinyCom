@@ -3,6 +3,7 @@ title: "Opendime"
 appId: opendime
 authors:
 - kiwilamb
+- felipe
 released: 2016-04-01
 discontinued: # date
 latestUpdate: 
@@ -17,8 +18,8 @@ repository: https://github.com/opendime
 issue: 
 icon: opendime.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-02
+verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-11
 signer: 
 reviewArchive:
 
@@ -29,3 +30,4 @@ providerFacebook:
 providerReddit: 
 ---
 
+Without a screen, this device cannot provide basic security of hardware wallets.

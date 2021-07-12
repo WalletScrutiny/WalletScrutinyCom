@@ -3,6 +3,7 @@ title: "ColdLar Touch"
 appId: coldlartouch
 authors:
 - kiwilamb
+- felipe
 released: 
 discontinued: # date
 latestUpdate:
@@ -19,8 +20,8 @@ repository:
 issue:
 icon: coldlartouch.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-10
+verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-11
 signer:
 reviewArchive:
 
@@ -31,3 +32,4 @@ providerFacebook:
 providerReddit: 
 ---
 
+Without a screen and whitout a button, this device cannot provide basic security of hardware wallets.
