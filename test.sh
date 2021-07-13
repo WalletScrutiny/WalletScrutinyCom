@@ -103,6 +103,7 @@ prepare() {
   echo "Trying to clone version $tag ..."
   git clone --quiet --branch "$tag" --depth 1 $repo app || exit 1
   cd app
+  commit=$( git log -n 1 --pretty=oneline | sed 's/ .*//g' )
 }
 
 result() {
@@ -118,6 +119,7 @@ signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
 appHash:        $appHash
+commit:         $commit
 
 Diff:
 $( diff --brief --recursive $fromPlayUnzipped $fromBuildUnzipped )

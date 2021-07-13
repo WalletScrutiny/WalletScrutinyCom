@@ -152,6 +152,7 @@ signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 apkVersionName: 3.6.3
 apkVersionCode: 22000363
 appHash:        6779507d1ad1da738312c43fbe6380f6d3e8947d66cd5d89de0fe62fc242217b
+commit:         333ffa887a818c089873385bd6265811313899aa
 
 Diff:
 Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: GREENADD.RSA
