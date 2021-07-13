@@ -19,9 +19,14 @@ issue: https://github.com/Blockstream/green_android/issues/116
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-04
+date: 2021-07-13
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-06-04
+  version: "3.6.0"
+  appHash: e93bcf3bcad8b84568a3101c4a87b9c9bb684c7c544fc6b05f204d9fa5fbb57d
+  gitRevision: b754fe651fcfdf446b444bf92cd92864316a7b57
+  verdict: reproducible
 - date: 2021-05-15
   version: "3.5.9"
   appHash: 76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa
@@ -144,26 +149,22 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.6.0
-apkVersionCode: 22000360
-appHash:        e93bcf3bcad8b84568a3101c4a87b9c9bb684c7c544fc6b05f204d9fa5fbb57d
+apkVersionName: 3.6.3
+apkVersionCode: 22000363
+appHash:        6779507d1ad1da738312c43fbe6380f6d3e8947d66cd5d89de0fe62fc242217b
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000360/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 34552e6eae36dbca80b17a451c3ed56820e13170
+object 333ffa887a818c089873385bd6265811313899aa
 type commit
-tag release_3.6.0
-tagger Domenico Gabriele <domenico@blockstream.com> 1622481438 +0200
+tag release_3.6.3
+tagger Domenico Gabriele <domenico@blockstream.com> 1625743007 +0200
 
-Release 3.6.0
+Release 3.6.3
 ```
 
 which is what we want to see to give it the verdict **reproducible**.
-
-The 3.6.0 release currently is only available
-[on GitHub](https://github.com/Blockstream/green_android/releases/tag/release_3.6.0)
-but we expect it to be rolling out on the Play Store, soon.
