@@ -9,9 +9,9 @@ appId: com.bybit.app
 released: 2019-10-31
 latestUpdate: 2021-07-10
 version: "2.5.3"
-stars: 4.6
-ratings: 4934
-reviews: 2144
+stars: 5.0
+ratings: 8166
+reviews: 2149
 size: 29M
 website: https://www.bybit.com
 repository: 

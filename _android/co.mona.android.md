@@ -10,8 +10,8 @@ released: 2017-08-30
 latestUpdate: 2021-07-05
 version: "3.103.0"
 stars: 4.2
-ratings: 137447
-reviews: 48362
+ratings: 137579
+reviews: 48411
 size: 119M
 website: https://www.crypto.com
 repository: 
