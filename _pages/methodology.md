@@ -20,10 +20,11 @@ too late? (If he could in theory, then a sufficiently motivated criminal could
 also put him under duress to steal your funds or manipulate him into stealing
 your coins with social engineering or with a backdoor.)
 
-This horror scenario is possible whenever the provider can obtain a copy of your wallet
+This horror scenario is possible whenever the provider can obtain a copy of the wallet
 backup and thus access all the users' funds at once. He could collect the
 backups and once the amount of coins he could access stops growing, empty all
-the wallets in one big transaction.
+the wallets in one big transaction. This form of scam got known as ["retirement
+attack"](https://medium.com/@michaelflaxman/how-should-i-store-my-bitcoin-43874ac208e4).
 
 Seeing that some wallets have millions of users, it is plausible to assume that
 some wallets manage billions of dollars. This would be a huge incentive for criminally
@@ -49,40 +50,29 @@ What we do not do
   device brand
   and even individual users. You would have to compare the fingerprint of the
   app on your device with the one reported here. For hardware wallets it's even
-  harder to make general statements about the device you hold in hands, thinking
-  it was a genuine product as advertised by the provider.
+  harder to make general statements about the device you hold in handsf.
 
-
-Our steps when reviewing a new iPhone or Android app
-==================================
-
-Some of the information is collected automatically from the platforms. Apps
-tagged {% include verdictBadge.html verdict="wip" type='short' %}
-are work in progress and might have nothing to do with wallets. We have
-not had the time to look into it yet.
-
-If in the Play Store the app has few downloads or in the App Store few reviews,
-we do not bother investigating it
-further and keep tracking its downloads/reviews until it does. Those get
-tagged {% include verdictBadge.html verdict="fewusers" type='short' %}.
 
 Our manual review goes as follows:
+==================================
 
 We take the perspective of a **curious potential user** of the respective app.
 We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
-within a *few clicks* from the Store's description. We occasionally search
+within a *few clicks* from the product's description. We occasionally search
 GitHub for the identifiers but without endorsement from the official website,
 any repository we find this way is not very promising to provide reproducible
 builds but we are happy to leave an issue on a source code repository about our
 findings.
 
-We try to answer the following questions:
+We answer the following questions usually in this order:
 
-
+{% include verdictMethodology.html verdict="wip" %}
+{% include verdictMethodology.html verdict="fewusers" %}
 {% include verdictMethodology.html verdict="nowallet" %}
 {% include verdictMethodology.html verdict="nobtc" %}
+{% include verdictMethodology.html verdict="defunct" %}
 {% include verdictMethodology.html verdict="custodial" %}
 {% include verdictMethodology.html verdict="nosource" %}
 {% include verdictMethodology.html verdict="obfuscated" %}
@@ -104,9 +94,9 @@ In addition we look at physical properties of the device.
 {% include verdictMethodology.html verdict="noita" %}
 
 Priorities
-----------
+==========
 
-We cannot re-evaluate all the +650 wallets every hour and as this is a side-project
+We cannot re-evaluate all the wallets every hour and as this is a side-project
 still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
@@ -124,7 +114,7 @@ But when we update reviews, we try to proceed as follows:
 
 
 Wrap it up
-----------
+==========
 
 In the end we report our findings. All wallets that fail at any of the above
 questions are considered high risk in our estimate. We might contact the wallet
@@ -138,7 +128,7 @@ of all its users.
 
 
 No reproducible apps on Apple App Store?
-------------------
+========================================
 
 WalletScrutiny started out looking only into Android. Mobile wallets are the
 most used wallets and Android the most used among mobile wallets but looking
@@ -150,8 +140,9 @@ Reproducibility of iPhone apps was an open question.
 
 One year passed. We asked around. Nobody could reproduce any iPhone app.
 
-At this point we shift the burden of proof onto the providers. If you want
-people to trust your app, explain how it can be audited. We will move on in
+At this point we shift the burden of proof onto the providers (or Apple). If you
+want people to trust your app (or platform), explain how it can be audited. We
+will move on in
 the meantime and list iPhone apps with an empty reproducible section until
 then.
 
@@ -159,7 +150,7 @@ Else, our methodology is the same as for Android wallets.
 
 
 Further considerations
----------------------
+======================
 
 We will list as we stumble into them things like
 
@@ -172,7 +163,7 @@ We will list as we stumble into them things like
 
 
 What could still go wrong?
---------------------------
+==========================
 
 The verdict {% include verdictBadge.html verdict="reproducible" type='short' %}
 unfortunately means very little. It means that

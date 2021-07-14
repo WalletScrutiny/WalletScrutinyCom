@@ -1,13 +1,8 @@
-title: 'Not a wallet'
-short: 'No&nbsp;Wallet'
+short: No Wallet
+title: Not a wallet
 color: 'var(--indifferent, #3d506d)'
 redflag: false
-message: >
-  We could not find this to be an app meant to store, receive and send
-  coins.
-explanation : >
-  This appears to not be an app to send and receive bitcoins. We will
-  probably remove this app from the project.
+message: This appears to not be a product to receive and send money.
 question: Is it a wallet?
 details: >
   If it's called "wallet" but is actually only a portfolio tracker, we don't look
