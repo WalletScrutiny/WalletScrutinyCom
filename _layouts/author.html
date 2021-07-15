@@ -7,9 +7,9 @@ layout: default
 <div id="main" class="author" role="main">
   <h2>{{ page.name }}</h2>
   
-  <div class="author__avatar">
+  {% if page.avatar %}<div class="author__avatar">
     <img src="/images/{{ page.avatar }}" class="author__avatar" alt="avatar of {{ page.name }}">
-  </div>
+  </div>{% endif %}
   
   <p>{{ page.name }} has been contributing to the project since {{ page.since }}.</p>
   
