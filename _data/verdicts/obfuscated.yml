@@ -1,26 +1,24 @@
-title: 'Obfuscated'
-short: 'Obfuscated'
+short: Obfuscated!
+title: Obfuscated
 color: '#d33100'
 redflag: true
-message: >
-  The app's binary contains active obfuscation which makes it
-  significantly harder to analyze what it is doing.
-explanation : >
-  This verdict means that the app could not be decompiled meaningfully.
+message: The app's binary contains active obfuscation!
+question: Is the decompiled app legible?
+details: >
+  When compiling source code to binary, usually a lot of meta information is
+  retained. A variable storing a masterseed would usually still be called
+  `masterseed`, so an auditor could inspect what happens to the masterseed. Does
+  it get sent to some server?  But obfuscation would rename it for example to
+  `_t12`, making it harder to find what the app is doing with the masterseed.
   
   
-  In benign cases code symbols are replaced by short strings to make the app
+  In benign cases, code symbols are replaced by short strings to make the app
   smaller but for the sake of transparency this should not be done for 
   non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the
-  app for size improvements as the reproducibility would assure the
-  auditability.)
-question: Is the decompiled app auditable?
-details: >
-  Some providers claim to publish their source code but absent
-  reproducibility, it is impossible to verify if the code published has
-  anything to do with the app offered for download.
-  
-  
+  app for size improvements as the reproducibility would assure the link between
+  code and binary.)
+
+
   Especially in the public source cases, obfuscation is a red flag. If the code
   is public, why obfuscate it?
   
@@ -30,5 +28,5 @@ details: >
   
   
   As looking for code obfuscation is a more involved task, we do not inspect
-  all closed source apps but if we see other red flags, we might test this
-  to then put the app into this red-flag category.
+  many apps but if we see other red flags, we might test this
+  to then put the app into this **red-flag category**.

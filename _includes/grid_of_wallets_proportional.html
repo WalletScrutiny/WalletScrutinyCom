@@ -42,7 +42,7 @@
             {% endif %}
           </span>
         </count>
-        <a href="/methodology/#{{ v }}"><span class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</span></a>
+        <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
       </td>
       <td>
         {% for post in posts %}

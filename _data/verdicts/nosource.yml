@@ -1,18 +1,10 @@
+short: No Source!
 title: No source for current release found
-short: 'No&nbsp;Source!'
 color: '#d33100'
 redflag: true
 message: >
   Without public source of the reviewed release available, this app cannot be
   verified!
-explanation : >
-  This verdict means that we could not find source to compile the current
-  release of the app from.
-  
-  
-  Internally the company might do everything right but as we can't verify it,
-  there is nothing protecting the user from an exit-scam where the provider
-  releases an app that leaks the keys to the servers.
 question: Is the source code publicly available?
 details: >
   A wallet that claims to not give the provider the means to steal the users'
@@ -41,8 +33,8 @@ details: >
   protection except the provider's word.
 
 
-  "Up to date" strictly means that any instance of the app being updated
-  without the source code being updated counts as closed source. This puts the
+  **"Up to date" strictly means that any instance of the app being updated
+  without the source code being updated counts as closed source.** This puts the
   burden on the provider to always first release the source code before
   releasing the app's update. This paragraph is a clarification to our rules
   following

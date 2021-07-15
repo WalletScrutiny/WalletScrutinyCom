@@ -10,7 +10,7 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   searchExitButton.setAttribute("onclick", "blockEvent(event);exitSearch(1)")
   searchExitButton.classList.add("exit-search")
   searchExitButton.innerHTML = '<i class="fas fa-times"></i>'
-  searchInput.setAttribute("oninput", "blockEvent(event);searchCatalogue(this)")
+  searchInput.setAttribute("oninput", "blockEvent(event);searchCatalogue(value)")
   searchInput.setAttribute("onclick", "blockEvent(event);heroUX(this)")
   searchInput.setAttribute("onfocus", "blockEvent(event);heroUX(this)")
   searchInput.setAttribute("onmouseenter", "blockEvent(event);scOOff()")
@@ -69,11 +69,11 @@ function focusResults(e) {
   }
 }
 
-function searchCatalogue(termInput) {
+function searchCatalogue(input) {
   const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
   const result = document.createElement("ul")
   result.classList.add("results-list")
-  const term = termInput.value.toUpperCase()
+  const term = input.toUpperCase()
   const minTermLength = 1
   if (term.length > minTermLength) {
     var matchCounter = 0
@@ -104,12 +104,10 @@ function searchCatalogue(termInput) {
               href='${analysisUrl}'>
               <img src='${basePath}/images/wallet_icons/${w.folder}/small/${w.icon}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
-            
             <span class="badge-2 ${w.verdict}">
                 <i class="${window.transcribeTag(w.folder).css}"></i>
-                <span>${w.verdict}</span>
+                <span><nobr>${verdicts[w.verdict].short}</nobr></span>
             </span>
-
             </a>`
           }
           cPlus(wallet)
@@ -142,16 +140,16 @@ function searchCatalogue(termInput) {
     document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
     document.querySelectorAll(".results-list")[0].replaceWith(result)
   }, 500)
-  searchScrollToTop(termInput)
+  searchScrollToTop()
 }
 
 function heroUX(termInput) {
   termInput.focus()
   termInput.select()
-  searchScrollToTop(termInput)
+  searchScrollToTop()
 
   if (termInput.value.length > 0) {
-    searchCatalogue(termInput)
+    searchCatalogue(termInput.value)
   }
   window.innerWidth > 700 && (
     document.body.classList.add("search-ui-active"),
@@ -161,7 +159,7 @@ function heroUX(termInput) {
   )
 }
 
-function searchScrollToTop(termInput) {
+function searchScrollToTop() {
   var s = window.pageYOffset + searchParent.getBoundingClientRect().top - 15
   if (window.innerWidth <= 700) {
     window.scrollTo({

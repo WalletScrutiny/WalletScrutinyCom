@@ -728,12 +728,8 @@ z-index: 1;
   }
 }
 
-
-
-
-
-  .-hom .result-pl-inner {
-    padding: .25rem .75rem;
+.-hom .result-pl-inner {
+  padding: .25rem .75rem;
 }
 
 .badge-2 {
@@ -773,17 +769,12 @@ z-index: 1;
 }
 
 .badge-2::before {
-  background: var(--rust);
   z-index: -2;
 }
 
 .badge-2>span {
   font-size: .7rem;
   font-weight: 800;
-}
-
-.badge-2.reproducible::before {
-  background: var(--accent-text);
 }
 
 .results-list .badge {
@@ -1078,11 +1069,19 @@ table tr td label {
   width: 100%;
 }
 
-input.verdict-d-d-reproducible:checked~#tableofwallets div.row-identifier-reproducible, input.verdict-d-d-nonverifiable:checked~#tableofwallets div.row-identifier-nonverifiable, input.verdict-d-d-nosource:checked~#tableofwallets div.row-identifier-nosource, input.verdict-d-d-custodial:checked~#tableofwallets div.row-identifier-custodial, input.verdict-d-d-all:checked~#tableofwallets div.row-identifier {
+input.verdict-d-d-reproducible:checked~#tableofwallets div.row-identifier-reproducible,
+input.verdict-d-d-nonverifiable:checked~#tableofwallets div.row-identifier-nonverifiable,
+input.verdict-d-d-nosource:checked~#tableofwallets div.row-identifier-nosource,
+input.verdict-d-d-custodial:checked~#tableofwallets div.row-identifier-custodial,
+input.verdict-d-d-all:checked~#tableofwallets div.row-identifier {
   display: table-row !important;
 }
 
-.verdict-d-d-reproducible:checked~.label-reproducible, .verdict-d-d-nonverifiable:checked~.label-nonverifiable, .verdict-d-d-nosource:checked~.label-nosource, .verdict-d-d-custodial:checked~.label-custodial, .verdict-d-d-all:checked~.label-all {
+.verdict-d-d-reproducible:checked~.label-reproducible,
+.verdict-d-d-nonverifiable:checked~.label-nonverifiable,
+.verdict-d-d-nosource:checked~.label-nosource,
+.verdict-d-d-custodial:checked~.label-custodial,
+.verdict-d-d-all:checked~.label-all {
   background: var(--accent);
   border-radius: 4px;
   color: var(--white);
@@ -1140,68 +1139,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   color: var(--white);
   text-transform: uppercase;
   font-weight: 800;
-}
-
-.stamp-Reproducible::before, .stamp-Non.verifiable::before, .stamp-Custodial::before, .stamp-All::before {}
-
-.stamp-reproducible::before {
-  content: "reproducible";
-  background: var(--accent);
-}
-
-.stamp-nonverifiable::before {
-  content: "non-verifiable";
-  background: var(--rust);
-}
-
-.stamp-Nosource::before, .stamp-nosource::before {
-  background: var(--rust);
-  content: "no source";
-}
-
-.stamp-custodial::before {
-  background: var(--rust);
-  content: "custodial";
-}
-
-.stamp-noita::before {
-  background: var(--rust);
-  content: "bad interface";
-}
-
-.stamp-all::before {
-  background: var(--rust);
-  content: "all";
-}
-
-.stamp-nobtc::before {
-  background: var(--indifferent);
-  content: "non-btc";
-}
-
-.stamp-wip::before {
-  background: var(--indifferent);
-  content: "development";
-}
-
-.stamp-fewusers::before {
-  background: var(--indifferent);
-  content: "few users";
-}
-
-.stamp-defunct::before {
-  background: var(--rust);
-  content: "defunct";
-}
-
-.stamp-nowallet::before {
-  background: var(--indifferent);
-  content: "not a wallet";
-}
-
-.stamp-obfuscated::before {
-  background: var(--rust);
-  content: "obfuscated";
 }
 
 #modularPlatform, #modularVerdict {
