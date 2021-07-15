@@ -10,8 +10,8 @@ released: 2018-11-02
 latestUpdate: 2021-06-23
 version: "2.0.3"
 stars: 4.2
-ratings: 439
-reviews: 269
+ratings: 440
+reviews: 270
 size: 73M
 website: https://midasprotocol.io/
 repository: 

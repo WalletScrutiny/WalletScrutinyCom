@@ -10,8 +10,8 @@ released: 2019-05-20
 latestUpdate: 2021-07-02
 version: "1.7.4"
 stars: 4.4
-ratings: 672
-reviews: 279
+ratings: 674
+reviews: 280
 size: 20M
 website: https://goodcrypto.app
 repository: 

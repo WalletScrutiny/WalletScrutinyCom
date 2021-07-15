@@ -4,14 +4,14 @@ title: "CoinHub - Blockchain Crypto Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.blockchain.btc.coinhub
 released: 2021-05-13
 latestUpdate: 2021-06-23
 version: "1.0.1.4.5"
 stars: 4.6
-ratings: 412
-reviews: 73
+ratings: 421
+reviews: 75
 size: 43M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android

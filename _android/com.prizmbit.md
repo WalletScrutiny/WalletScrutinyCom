@@ -10,7 +10,7 @@ released: 2019-06-28
 latestUpdate: 2021-07-06
 version: "1.4.23"
 stars: 3.9
-ratings: 511
+ratings: 512
 reviews: 243
 size: 15M
 website: https://prizmbit.com/

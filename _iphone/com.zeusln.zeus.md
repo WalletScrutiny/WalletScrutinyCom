@@ -8,11 +8,11 @@ appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
-updated: 2021-04-23
-version: "0.5.1"
+updated: 2021-07-13
+version: "0.5.2"
 stars: 4.2
 reviews: 10
-size: 25418752
+size: 26561536
 website: https://ZeusLN.app
 repository: 
 issue: 

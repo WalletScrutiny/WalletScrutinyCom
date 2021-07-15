@@ -4,14 +4,14 @@ title: "BitKeep Wallet Pro"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.bitkeep.wallet
 released: 2020-02-11
 latestUpdate: 2021-07-12
 version: "6.2.0"
 stars: 4.7
-ratings: 579
-reviews: 372
+ratings: 598
+reviews: 387
 size: 33M
 website: https://bitkeep.com
 repository: 

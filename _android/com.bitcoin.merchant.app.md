@@ -11,7 +11,7 @@ latestUpdate: 2021-05-06
 version: "5.3.7"
 stars: 4.1
 ratings: 413
-reviews: 157
+reviews: 156
 size: 6.0M
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 

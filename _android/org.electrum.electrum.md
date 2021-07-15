@@ -10,8 +10,8 @@ released: 2016-03-02
 latestUpdate: 2021-06-17
 version: "4.1.4.0"
 stars: 3.4
-ratings: 2248
-reviews: 1341
+ratings: 2249
+reviews: 1342
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
