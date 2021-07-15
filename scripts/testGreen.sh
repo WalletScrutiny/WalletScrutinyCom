@@ -12,7 +12,7 @@ test() {
       apt update;
       apt install -y curl jq;
       yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2";
-      ./gradlew -x test clean assembleProductionRelease
+      ./gradlew -x test clean assembleProductionRelease;
       $takeUserActionCommand'
       
   result

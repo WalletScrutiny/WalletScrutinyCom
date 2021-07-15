@@ -12,7 +12,7 @@ if [[ $* == *--not-interactive* ]]
 then
   takeUserActionCommand=''
 else
-  takeUserActionCommand=';echo "CTRL-D to continue";
+  takeUserActionCommand='echo "CTRL-D to continue";
     bash'
 fi
 

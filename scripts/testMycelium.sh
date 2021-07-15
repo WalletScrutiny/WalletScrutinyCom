@@ -26,7 +26,7 @@ test() {
         mkdir /sorted/
         disorderfs --sort-dirents=yes --reverse-dirents=no /app/ /sorted/;
         cd /sorted/
-        ./gradlew -x lint -x test clean $buildTarget
+        ./gradlew -x lint -x test clean $buildTarget;
         $takeUserActionCommand"
 
   result
