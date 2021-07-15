@@ -728,12 +728,8 @@ z-index: 1;
   }
 }
 
-
-
-
-
-  .-hom .result-pl-inner {
-    padding: .25rem .75rem;
+.-hom .result-pl-inner {
+  padding: .25rem .75rem;
 }
 
 .badge-2 {
@@ -773,17 +769,12 @@ z-index: 1;
 }
 
 .badge-2::before {
-  background: var(--rust);
   z-index: -2;
 }
 
 .badge-2>span {
   font-size: .7rem;
   font-weight: 800;
-}
-
-.badge-2.reproducible::before {
-  background: var(--accent-text);
 }
 
 .results-list .badge {

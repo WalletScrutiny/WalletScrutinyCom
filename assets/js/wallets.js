@@ -41,33 +41,26 @@ window.transcribeTag = function (e) {
     return
   }
   
-  var css, category
-
-  switch (e) {
-    case 'iphone':
-      css = 'fab fa-app-store'
-      category = 'App Store'
-      break
-    case 'android':
-      css = 'fab fa-google-play'
-      category = 'Play Store'
-      break
-    case 'fdroid':
-      css = 'fab fa-f-droid'
-      category = 'fdroid'
-      break
-    case 'windows':
-      css = 'fab fa-windows'
-      category = 'windows'
-      break
-    case 'hardware':
-      css = 'fas fa-toolbox'
-      category = 'Hardware Wallet'
-      break
-    default:
-  }
   return {
-    css: css,
-    category: category
-  }
+    iphone: {
+      css: 'fab fa-app-store',
+      category: 'App Store'
+    },
+    android: {
+      css: 'fab fa-google-play',
+      category: 'Play Store'
+    },
+    fdroid: {
+      css: 'fab fa-f-droid',
+      category: 'fdroid'
+    },
+    windows: {
+      css: 'fab fa-windows',
+      category: 'windows'
+    },
+    hardware: {
+      css: 'fas fa-toolbox',
+      category: 'Hardware Wallet'
+    }
+  }[e]
 }
