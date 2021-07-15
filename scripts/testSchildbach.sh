@@ -22,8 +22,7 @@ test() {
         cd /sorted/
         yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"
         gradle clean :wallet:assProdRel
-        echo "CTRL-D to continue"
-        bash'
+        $takeUserActionCommand'
       
   result
 }
