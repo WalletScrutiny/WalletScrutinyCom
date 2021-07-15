@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Wallet & Vault"
 altTitle: 
 authors:
-
+- leo
 appId: com.bitcoin.cuzdan
 appCountry: 
 idd: 1317167602
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitcoin.cuzdan.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-25
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-15
 signer: 
 reviewArchive:
 

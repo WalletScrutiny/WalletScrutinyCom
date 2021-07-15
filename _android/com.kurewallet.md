@@ -3,7 +3,7 @@ wsId:
 title: "Kurepay Wallet"
 altTitle: 
 authors:
-
+- leo
 users: 5000
 appId: com.kurewallet
 released: 2018-10-03
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.kurewallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-15
 signer: 
 reviewArchive:
 
@@ -34,3 +34,6 @@ redirect_from:
 ---
 
 
+This app is no more. Our update script didn't get any data from Play Store since
+some days now, so we assume we won't get a chance to review it as it was not
+reviewed yet.
