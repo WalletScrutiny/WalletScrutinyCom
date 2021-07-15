@@ -8,6 +8,14 @@ if ! [[ $downloadedApk =~ ^/.* ]]; then
 fi
 wsContainer="walletscrutiny/android:5"
 
+if [[ $* == *--not-interactive* ]]
+then
+  takeUserActionCommand=''
+else
+  takeUserActionCommand=';echo "CTRL-D to continue";
+    bash'
+fi
+
 set -x
 
 containerApktool() {
