@@ -31,6 +31,6 @@ providerFacebook: blockchain
 providerReddit: 
 ---
 
-This hardware wallet is a rebrand of a [Ledger Nano S](https://walletscrutiny.com/hardware/ledgerNanoS/)
+This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.
 
 It seems this hardware wallet is discontinued but it still has support pages available on [blockchain.com](https://support.blockchain.com/hc/en-us/categories/360001092591-Lockbox)
