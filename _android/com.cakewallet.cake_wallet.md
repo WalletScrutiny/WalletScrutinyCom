@@ -9,7 +9,7 @@ appId: com.cakewallet.cake_wallet
 released: 2020-01-01
 latestUpdate: 2021-06-10
 version: "4.2.3"
-stars: 3.2
+stars: 3.3
 ratings: 558
 reviews: 363
 size: 62M

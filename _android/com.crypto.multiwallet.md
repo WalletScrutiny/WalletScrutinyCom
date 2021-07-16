@@ -10,8 +10,8 @@ released: 2018-11-01
 latestUpdate: 2021-07-12
 version: "2.35.15"
 stars: 4.3
-ratings: 2997
-reviews: 1627
+ratings: 3007
+reviews: 1631
 size: 35M
 website: http://guarda.co
 repository: 

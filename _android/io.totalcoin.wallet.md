@@ -10,8 +10,8 @@ released: 2018-04-01
 latestUpdate: 2021-06-19
 version: "4.7.0"
 stars: 4.6
-ratings: 7156
-reviews: 3390
+ratings: 7168
+reviews: 3395
 size: 11M
 website: http://totalcoin.io
 repository: 

@@ -11,8 +11,8 @@ idd: 1533929589
 released: 2020-11-15
 updated: 2021-06-07
 version: "1.2.4"
-stars: 4.525
-reviews: 40
+stars: 4.54762
+reviews: 42
 size: 46720000
 website: https://www.cryptofully.com
 repository: 

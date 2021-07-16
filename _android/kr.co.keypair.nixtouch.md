@@ -9,9 +9,9 @@ appId: kr.co.keypair.nixtouch
 released: 2018-10-19
 latestUpdate: 2019-12-27
 version: "1.0.0.65"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 5
+reviews: 2
 size: 11M
 website: https://www.nixblock.com
 repository: 
