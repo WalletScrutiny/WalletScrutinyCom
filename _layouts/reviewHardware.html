@@ -58,14 +58,24 @@ layout: default
 
           {% if page.released %}
           <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
-
             <label>
               <i class="fas fa-rocket"></i>&nbsp;Launched
             </label>
-
             <div>
               <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
                 {{ page.released | date_to_long_string: "ordinal" }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+          {% if page.discontinued %}
+          <div title='{{ page.discontinued | date_to_long_string: "ordinal" }}'>
+            <label>
+              <i class="fas fa-cross"></i>&nbsp;Discontinued
+            </label>
+            <div>
+              <span class="calculate-time-elapsed" data="{{ page.discontinued | date: '%s' }}">
+                {{ page.discontinued | date_to_long_string: "ordinal" }}
               </span>
             </div>
           </div>
