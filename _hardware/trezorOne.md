@@ -14,11 +14,11 @@ shop: https://shop.trezor.io/product/trezor-one-black
 country: CZ
 price: 49EUR
 repository: https://github.com/trezor/trezor-firmware
-issue: 
+issue: https://github.com/trezor/trezor-firmware/issues/1713
 icon: trezorOne.png
 bugbounty: 
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-06-30
+date: 2021-07-16
 signer: 
 reviewArchive:
 
@@ -50,7 +50,7 @@ had a screen and buttons and storage ...
 
 So in this case, the bootloader is tiny but knows about cryptography as it has
 to verify the signature of the firmware and compare its signing key to the
-provider's public keys that are hard-coded into the bootloader.
+provider's public keys that should be hard-coded into the bootloader.
 
 > **Secure update procedure.**<br>
   The bootloader erases the device memory if the firmware signature is invalid.
@@ -71,7 +71,7 @@ but somehow there really is no authoritative claim from the provider that the
 device they sell follows this protocol:
 
 1. The device comes without firmware[[1]](https://www.reddit.com/r/TREZOR/comments/oarc0b/where_can_i_find_the_most_authoritative_claim_of/h3l44r2/)[[2]](https://www.reddit.com/r/TREZOR/comments/oarc0b/where_can_i_find_the_most_authoritative_claim_of/h3l4oob/)
-1. The firmware [can be downloaded](https://data.trezor.io/firmware/1/trezor-1.9.4.bin), [verified to match the source code](https://wiki.trezor.io/Developers_guide:Deterministic_firmware_build) and then deployed to your device on an air-gapped computer
+1. The firmware [can be downloaded](https://data.trezor.io/firmware/1/trezor-1.9.4.bin), [verified to match the source code](https://wiki.trezor.io/Developers_guide:Deterministic_firmware_build) and then deployed to your device on an air-gapped computer (?can it?)
 1. The firmware checks the boot-loader for tampering. If you are sure to run
    a certain firmware (layout changed ...) you can be relatively sure that a
    rogue boot-loader would have been detected.
@@ -224,19 +224,14 @@ So they want to use an `alpine:3.12.3` docker container to compile in but
 instead of getting it from docker hub like so:
 
 ```
-$ docker run --rm --interactive --tty alpine:3.12.3
-Unable to find image 'alpine:3.12.3' locally
-3.12.3: Pulling from library/alpine
-801bfaa63ef2: Pull complete 
-Digest: sha256:3c7497bf0c7af93428242d6176e8f7905f2201d8fc5861f45be7a346b5f23436
-Status: Downloaded newer image for alpine:3.12.3
-/ # 
+$ docker run --rm --interactive --tty docker.io/alpine:3.12.3
 ```
 
 they ... wget the image from `http://dl-cdn.alpinelinux.org/alpine` which
-doesn't even use ssl? That's a bit confusing and might warrant a code comment.
+doesn't even use ssl? That's a bit confusing and might warrant a code comment as
+to why this way.
 
-Anyway, the script looks good. Let's see if it builds something:
+Anyway, else the script looks good. Let's see if it builds something:
 
 ```
 $ bash build-docker.sh legacy/v1.9.4
@@ -358,5 +353,5 @@ fb 8b a3 f0 2a ab 0d 83 8b 0e de f9 5a 46 80 41
 ```
 
 differ, too. Apparently the latter is the 192-ish bytes of 3 signatures. We
-asked the provider for clarification ...
-
+asked the provider for clarification in
+[this issue](https://github.com/trezor/trezor-firmware/issues/1713).
