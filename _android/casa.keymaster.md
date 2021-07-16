@@ -6,26 +6,25 @@ authors:
 - leo
 users: 5000
 appId: casa.keymaster
-launchDate: 
-latestUpdate: 2021-04-08
-apkVersionName: "2.33.2"
-stars: 4.3
-ratings: 96
-reviews: 24
-size: 29M
+released: 2019-03-01
+latestUpdate: 2021-07-12
+version: "3.2.1"
+stars: 4.5
+ratings: 145
+reviews: 30
+size: 30M
 website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-23
-reviewStale: true
+date: 2021-05-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CasaHODL
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

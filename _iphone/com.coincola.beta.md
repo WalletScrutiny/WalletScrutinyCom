@@ -8,29 +8,34 @@ appId: com.coincola.beta
 appCountry: 
 idd: 1234231551
 released: 2017-06-06
-updated: 2021-02-09
-version: "4.7.3"
-score: 4.2619
-reviews: 168
-size: 148685824
-developerWebsite: https://www.coincola.com
+updated: 2021-06-16
+version: "4.8.1"
+stars: 4.09392
+reviews: 181
+size: 150502400
+website: https://www.coincola.com
 repository: 
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: CoinCola_Global
+providerLinkedIn: coincola
+providerFacebook: CoinCola
+providerReddit: coincolaofficial
 
 redirect_from:
 
 ---
 
+> SAFE AND SECURE<br>
+  Our team uses bank-level encryption, cold storage and SSL for the highest
+  level of security.
+
+Cold storage has only a meaning in the context of a custodial app. As such it
+is **not verifiable**.

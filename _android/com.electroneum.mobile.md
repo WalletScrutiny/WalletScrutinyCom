@@ -6,12 +6,12 @@ authors:
 
 users: 1000000
 appId: com.electroneum.mobile
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "5.0.1"
-stars: 2.6
-ratings: 57679
-reviews: 37085
+released: 2017-12-13
+latestUpdate: 2021-05-31
+version: "5.0.2"
+stars: 2.7
+ratings: 58149
+reviews: 37302
 size: 18M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.electroneum.mobile.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-08
-reviewStale: true
 signer: 
 reviewArchive:
 

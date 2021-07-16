@@ -4,14 +4,14 @@ title: "Paper Wallet Generator for Bitcoin & Altcoins"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.paperwallet.top
-launchDate: 
+released: 2019-06-12
 latestUpdate: 2020-10-18
-apkVersionName: "1.0.22"
-stars: 4.4
-ratings: 32
-reviews: 16
+version: "1.0.22"
+stars: 4.5
+ratings: 41
+reviews: 19
 size: 3.2M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.paperwallet.top.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

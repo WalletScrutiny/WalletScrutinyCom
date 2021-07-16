@@ -6,9 +6,9 @@ authors:
 - leo
 users: 5000
 appId: com.breez.client
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "Varies with device"
+released: 
+latestUpdate: 2021-07-15
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.breez.client.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

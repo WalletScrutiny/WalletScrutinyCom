@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000
 appId: com.monederoapp
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "3.1.2"
-stars: 4.2
-ratings: 12
-reviews: 5
-size: 12M
+released: 2020-03-13
+latestUpdate: 2021-06-25
+version: "4.1.0"
+stars: 4.1
+ratings: 18
+reviews: 8
+size: 28M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.monederoapp.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-30
-reviewStale: true
 signer: 
 reviewArchive:
 

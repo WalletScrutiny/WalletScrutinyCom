@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: exodusmovement.exodus
-launchDate: 2019-06-06
-latestUpdate: 2021-04-13
-apkVersionName: "21.4.13"
-stars: 4.5
-ratings: 48152
-reviews: 15633
-size: 38M
+released: 2019-06-06
+latestUpdate: 2021-07-03
+version: "21.7.2"
+stars: 4.6
+ratings: 61360
+reviews: 19102
+size: 39M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
 issue: 
@@ -20,7 +20,6 @@ icon: exodusmovement.exodus.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

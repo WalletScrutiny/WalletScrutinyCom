@@ -5,9 +5,9 @@ altTitle:
 
 users: 100000
 appId: io.ob1.nativeandroid
-launchDate: 
+released: 
 latestUpdate: 2020-09-27
-apkVersionName: "1.3.7"
+version: "1.3.7"
 stars: 3.7
 ratings: 394
 reviews: 173
@@ -24,12 +24,12 @@ signer:
 reviewArchive:
 - date: 2020-08-27
   version: "1.3.7"
-  apkHash: 
+  appHash: 
   gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
   verdict: nonverifiable
 - date: 2020-08-04
   version: ""
-  apkHash: 
+  appHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
 

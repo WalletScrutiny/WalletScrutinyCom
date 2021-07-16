@@ -6,13 +6,13 @@ authors:
 
 users: 1000
 appId: capital.spatium.wallet
-launchDate: 
-latestUpdate: 2021-02-23
-apkVersionName: "2.3.38.4"
-stars: 3.7
-ratings: 22
-reviews: 11
-size: 42M
+released: 2018-08-31
+latestUpdate: 2021-06-17
+version: "2.3.40"
+stars: 3.9
+ratings: 26
+reviews: 13
+size: 127M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: capital.spatium.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

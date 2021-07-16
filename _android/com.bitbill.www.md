@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000
 appId: com.bitbill.www
-launchDate: 
-latestUpdate: 2021-04-18
-apkVersionName: "4.29.0"
-stars: 3.9
-ratings: 55
-reviews: 31
+released: 2018-03-22
+latestUpdate: 2021-07-12
+version: "4.31.0"
+stars: 3.8
+ratings: 63
+reviews: 34
 size: 32M
 website: http://www.bitbill.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitbill.www.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

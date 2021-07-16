@@ -4,15 +4,15 @@ title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.koinal.android
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "1.2.4"
-stars: 3.8
-ratings: 321
-reviews: 236
-size: 30M
+released: 2020-06-04
+latestUpdate: 2021-07-08
+version: "1.2.8"
+stars: 4.8
+ratings: 522
+reviews: 248
+size: 37M
 website: https://www.koinal.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.koinal.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: true
 signer: 
 reviewArchive:
 

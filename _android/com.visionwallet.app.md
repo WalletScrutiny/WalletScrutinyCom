@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: com.visionwallet.app
-launchDate: 
+released: 2020-09-07
 latestUpdate: 2020-11-05
-apkVersionName: "1.3.2"
-stars: 0.0
-ratings: 
-reviews: 
+version: "1.3.2"
+stars: 3.9
+ratings: 77
+reviews: 71
 size: 4.9M
 website: https://visionwallet.com/en
 repository: 
@@ -20,7 +20,6 @@ icon: com.visionwallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

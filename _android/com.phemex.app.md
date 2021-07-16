@@ -4,15 +4,15 @@ title: "Phemex: Top Bitcoin Exchange App, Crypto & 0 Fees"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.phemex.app
-launchDate: 
-latestUpdate: 2021-04-10
-apkVersionName: "1.3.2"
+released: 2020-02-19
+latestUpdate: 2021-06-25
+version: "1.4.0"
 stars: 4.6
-ratings: 3759
-reviews: 1019
-size: 17M
+ratings: 9425
+reviews: 2142
+size: 48M
 website: https://phemex.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.phemex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

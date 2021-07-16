@@ -8,29 +8,38 @@ appId: com.xcelpay.wallet
 appCountry: 
 idd: 1461215417
 released: 2019-05-26
-updated: 2021-04-20
-version: "2.19.2"
-score: 4.05263
-reviews: 19
-size: 39106560
-developerWebsite: http://xcelpay.io
+updated: 2021-07-02
+version: "2.33.2"
+stars: 4.35484
+reviews: 31
+size: 54825984
+website: http://xcelpay.io
 repository: 
 issue: 
 icon: com.xcelpay.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: XcelPayWallet
+providerLinkedIn: in/xcelpaywallet
+providerFacebook: xcelpay
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This wallet has no claim of being non-custodial in the app's description.
+
+The one-star ratings over and over tell:
+
+* there is a referral program, promising rewards
+* the rewards are never reflected in the wallet
+* funds cannot be sent to a different wallet
+* SCAM
+
+As a probably custodial app, it is **not verifiable**.

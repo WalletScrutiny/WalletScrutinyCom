@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: "Binance: Buy Bitcoin Securely"
+title: "Binance: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,19 +8,18 @@ appId: com.czzhao.binance
 appCountry: 
 idd: 1436799971
 released: 2018-10-06
-updated: 2021-04-14
-version: "2.28.1"
-score: 4.7486
-reviews: 42032
-size: 321385472
-developerWebsite: https://www.binance.com
+updated: 2021-07-10
+version: "2.32.1"
+stars: 4.73318
+reviews: 66684
+size: 348665856
+website: https://www.binance.com
 repository: 
 issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,19 +8,18 @@ appId: com.jzbt.atoken
 appCountry: 
 idd: 1395835245
 released: 2018-07-28
-updated: 2021-04-01
-version: "4.0.8"
-score: 4.96498
-reviews: 257
-size: 177209344
-developerWebsite: 
+updated: 2021-06-30
+version: "4.1.4"
+stars: 4.94595
+reviews: 259
+size: 178241536
+website: 
 repository: 
 issue: 
 icon: com.jzbt.atoken.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

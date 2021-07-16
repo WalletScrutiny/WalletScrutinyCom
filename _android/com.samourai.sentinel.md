@@ -6,12 +6,12 @@ authors:
 
 users: 10000
 appId: com.samourai.sentinel
-launchDate: 
+released: 2015-05-23
 latestUpdate: 2021-04-13
-apkVersionName: "4.0.2"
+version: "4.0.2"
 stars: 3.6
-ratings: 291
-reviews: 158
+ratings: 301
+reviews: 164
 size: 40M
 website: https://www.samouraiwallet.com/sentinel
 repository: https://github.com/Samourai-Wallet/sentinel-android
@@ -20,7 +20,6 @@ icon: com.samourai.sentinel.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

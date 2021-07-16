@@ -1,66 +1,98 @@
-{% include base_path %}
 {
-  "base_path": "{{ base_path }}",
-  {% for post in site.iphone %}
-    "iphone/{{ post.appId }}": {
-      "wsId": "{{ post.wsId }}",
-      "folder": "iphone",
-      "category": "App Store",
-      "appId": "{{ post.appId }}",
-      "idd": "{{ post.idd }}",
-      "title": "{{ post.title }}",      
-      "message": {{ site.data.verdicts[post.verdict].message | jsonify }},
-      "released": "{{ post.released | date: '%Y-%m-%d' }}",
-      "updated": "{{ post.updated | date: '%Y-%m-%d' }}",
-      "version": "{{ post.version }}",
-      "score": "{{ post.score }}",
-      "reviews": "{{ post.reviews }}",
-      "size": "{{ post.size }}",
-      "developerWebsite": "{{ post.developerWebsite }}",
-      "repository": "{{ post.repository }}",
-      "issue": "{{ post.issue }}",
-      "icon": "{{ post.icon }}",
-      "verdict": "{{ post.verdict }}",
-      "verdictText": "{{ site.data.verdicts[post.verdict].title }}",
-      "date": "{{ post.date | date: '%Y-%m-%d' }}",
-      "signer": "{{ post.signer }}",
-      "providerTwitter": "{{ post.providerTwitter }}",
-      "providerLinkedIn": "{{ post.providerLinkedIn }}",
-      "providerFacebook": "{{ post.providerFacebook }}",
-      "providerReddit": "{{ post.providerReddit }}",
-      "url": "{{ post.url }}"
-    },
-  {% endfor %}
-  {% for post in site.android %}
-    "{{ post.appId }}": {
-      "wsId": "{{ post.wsId }}",
-      "folder": "android",
-      "category": "Play Store",
-      "appId": "{{ post.appId }}",
-      "title": "{{ post.title }}",
-      "altTitle": "{{ post.altTitle }}",
-      "message": {{ site.data.verdicts[post.verdict].message | jsonify }},
-      "users": "{{ post.users }}",
-      "launchDate": "{{ post.launchDate | date: '%Y-%m-%d' }}",
-      "latestUpdate": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
-      "apkVersionName": "{{ post.apkVersionName }}",
-      "stars": "{{ post.stars }}",
-      "ratings": "{{ post.ratings }}",
-      "reviews": "{{ post.reviews }}",
-      "size": "{{ post.size }}",
-      "website": "{{ post.website }}",
-      "repository": "{{ post.repository }}",
-      "issue": "{{ post.issue }}",
-      "icon": "{{ post.icon }}",
-      "verdict": "{{ post.verdict }}",
-      "verdictText": "{{ site.data.verdicts[post.verdict].title }}",
-      "date": "{{ post.date | date: '%Y-%m-%d' }}",
-      "signer": "{{ post.signer }}",
-      "providerTwitter": "{{ post.providerTwitter }}",
-      "providerLinkedIn": "{{ post.providerLinkedIn }}",
-      "providerFacebook": "{{ post.providerFacebook }}",
-      "providerReddit": "{{ post.providerReddit }}",
-      "url": "{{ post.url }}"
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  "verdicts": {{ site.data.verdicts | jsonify }},
+  "iphone": {
+    "category": "App Store",
+    "apps": [ 
+      {% for post in site.iphone %}
+      {
+        "wsId": "{{ post.wsId }}",
+        "appId": "{{ post.appId }}",
+        "idd": "{{ post.idd }}",
+        "title": "{{ post.title }}",      
+        "released": "{{ post.released | date: '%Y-%m-%d' }}",
+        "updated": "{{ post.updated | date: '%Y-%m-%d' }}",
+        "version": "{{ post.version }}",
+        "stars": "{{ post.stars }}",
+        "reviews": "{{ post.reviews }}",
+        "size": "{{ post.size }}",
+        "website": "{{ post.website }}",
+        "repository": "{{ post.repository }}",
+        "issue": "{{ post.issue }}",
+        "icon": "{{ post.icon }}",
+        "verdict": "{{ post.verdict }}",
+        "date": "{{ post.date | date: '%Y-%m-%d' }}",
+        "signer": "{{ post.signer }}",
+        "providerTwitter": "{{ post.providerTwitter }}",
+        "providerLinkedIn": "{{ post.providerLinkedIn }}",
+        "providerFacebook": "{{ post.providerFacebook }}",
+        "providerReddit": "{{ post.providerReddit }}",
+        "url": "{{ post.url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "hardware": {
+    "category": "Hardware Wallet",
+    "apps": [ 
+      {% for post in site.hardware %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title }}",
+        "dimensions": {{ post.dimensions | jsonify }},
+        "released": "{{ post.released | date: '%Y-%m-%d' }}",
+        "discontinued": "{{ post.discontinued | date: '%Y-%m-%d' }}",
+        "country": "{{ post.country }}",
+        "price": "{{ post.price }}",
+        "updated": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
+        "version": "{{ post.version }}",
+        "website": "{{ post.website }}",
+        "shop": "{{ post.shop }}",
+        "repository": "{{ post.repository }}",
+        "issue": "{{ post.issue }}",
+        "icon": "{{ post.icon }}",
+        "verdict": "{{ post.verdict }}",
+        "date": "{{ post.date | date: '%Y-%m-%d' }}",
+        "signer": "{{ post.signer }}",
+        "providerTwitter": "{{ post.providerTwitter }}",
+        "providerLinkedIn": "{{ post.providerLinkedIn }}",
+        "providerFacebook": "{{ post.providerFacebook }}",
+        "providerReddit": "{{ post.providerReddit }}",
+        "url": "{{ post.url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "android": {
+    "category": "Play Store",
+    "apps": [ 
+      {% for post in site.android %}
+      {
+        "wsId": "{{ post.wsId }}",
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title }}",
+        "altTitle": "{{ post.altTitle }}",
+        "users": "{{ post.users }}",
+        "released": "{{ post.released | date: '%Y-%m-%d' }}",
+        "latestUpdate": "{{ post.latestUpdate | date: '%Y-%m-%d' }}",
+        "version": "{{ post.version }}",
+        "stars": "{{ post.stars }}",
+        "ratings": "{{ post.ratings }}",
+        "reviews": "{{ post.reviews }}",
+        "size": "{{ post.size }}",
+        "website": "{{ post.website }}",
+        "repository": "{{ post.repository }}",
+        "issue": "{{ post.issue }}",
+        "icon": "{{ post.icon }}",
+        "verdict": "{{ post.verdict }}",
+        "date": "{{ post.date | date: '%Y-%m-%d' }}",
+        "signer": "{{ post.signer }}",
+        "providerTwitter": "{{ post.providerTwitter }}",
+        "providerLinkedIn": "{{ post.providerLinkedIn }}",
+        "providerFacebook": "{{ post.providerFacebook }}",
+        "providerReddit": "{{ post.providerReddit }}",
+        "url": "{{ post.url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
 }

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.quppy
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "1.0.49"
-stars: 4.1
-ratings: 1998
-reviews: 968
+released: 2018-09-17
+latestUpdate: 2021-07-14
+version: "1.0.53"
+stars: 5.0
+ratings: 2952
+reviews: 1008
 size: 15M
 website: https://quppy.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.quppy.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

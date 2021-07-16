@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: io.hexawallet.hexa
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "1.5.1"
-stars: 3.7
-ratings: 19
-reviews: 12
+released: 2020-03-26
+latestUpdate: 2021-05-05
+version: "1.6.5"
+stars: 3.8
+ratings: 21
+reviews: 13
 size: 43M
 website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa
@@ -20,7 +20,6 @@ icon: io.hexawallet.hexa.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-21
-reviewStale: true
 signer: 
 reviewArchive:
 

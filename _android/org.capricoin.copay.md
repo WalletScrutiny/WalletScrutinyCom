@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: org.capricoin.copay
-launchDate: 
+released: 2020-05-14
 latestUpdate: 2020-07-06
-apkVersionName: "5.5.5"
+version: "5.5.5"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: org.capricoin.copay.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

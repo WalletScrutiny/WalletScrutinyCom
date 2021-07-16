@@ -8,19 +8,18 @@ appId: org.reactjs.native.example.FTXMobile.FTX
 appCountry: 
 idd: 1512374471
 released: 2020-05-20
-updated: 2021-01-21
-version: "1.1.0"
-score: 4.3617
-reviews: 47
-size: 27563008
-developerWebsite: https://ftx.com
+updated: 2021-06-30
+version: "1.1.2"
+stars: 4.02778
+reviews: 72
+size: 49170432
+website: https://ftx.com
 repository: 
 issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-08
-reviewStale: false
 signer: 
 reviewArchive:
 

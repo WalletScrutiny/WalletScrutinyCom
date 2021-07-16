@@ -6,13 +6,13 @@ authors:
 
 users: 1000
 appId: com.dok.wallet
-launchDate: 
-latestUpdate: 2021-03-23
-apkVersionName: "1.1.2"
+released: 2020-09-28
+latestUpdate: 2021-06-11
+version: "1.1.5"
 stars: 4.7
 ratings: 14
 reviews: 13
-size: 60M
+size: 61M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.dok.wallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

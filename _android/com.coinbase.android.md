@@ -1,17 +1,17 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase – Buy & Sell Bitcoin. Crypto Wallet"
+title: "Coinbase – Buy & Trade Bitcoin, Ethereum & more"
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
-launchDate: 2013-03-01
-latestUpdate: 2021-04-20
-apkVersionName: "9.19.9"
-stars: 4.4
-ratings: 380306
-reviews: 126016
+released: 2013-03-01
+latestUpdate: 2021-07-12
+version: "9.31.2"
+stars: 4.3
+ratings: 478431
+reviews: 143713
 size: Varies with device
 website: https://coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinbase.android.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-10-30
-reviewStale: true
 signer: 
 reviewArchive:
 

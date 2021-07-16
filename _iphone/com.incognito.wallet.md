@@ -8,19 +8,18 @@ appId: com.incognito.wallet
 appCountry: 
 idd: 1475631606
 released: 2019-08-21
-updated: 2021-04-05
-version: "4.3.0"
-score: 4.11111
-reviews: 72
-size: 51428352
-developerWebsite: https://incognito.org
+updated: 2021-07-02
+version: "4.4.0"
+stars: 3.9875
+reviews: 80
+size: 53477376
+website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: 
 icon: com.incognito.wallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -34,7 +33,8 @@ redirect_from:
 
 ---
 
-This is the iPhone version of [this Android wallet](/android/com.incognito.wallet).
+This is the iPhone version of {% include walletLink.html wallet='android/com.incognito.wallet' %}
+on Android.
 
 Here we read the same claim as for Android:
 

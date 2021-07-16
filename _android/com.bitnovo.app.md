@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.bitnovo.app
-launchDate: 
-latestUpdate: 2021-02-23
-apkVersionName: "2.8.4"
-stars: 2.5
-ratings: 274
-reviews: 195
+released: 2017-05-18
+latestUpdate: 2021-07-01
+version: "2.8.5"
+stars: 2.7
+ratings: 308
+reviews: 211
 size: 34M
 website: http://www.bitnovo.com
 repository: 
@@ -19,8 +19,7 @@ issue:
 icon: com.bitnovo.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-06
-reviewStale: true
+date: 2021-05-30
 signer: 
 reviewArchive:
 
@@ -35,9 +34,8 @@ redirect_from:
 ---
 
 
-The reviews don't let us expect this wallet to be around for long. 2.7* with
-tons of scam accusations.
+On the App Store, of 4 ratings, 3 were 1 star. With an average of 2.5 stars the
+app is slightly higher rated on the Play Store. **Caution is advised!**
 
 The provider clearly controls the funds and thus this "wallet" is **not
 verifiable**.
-

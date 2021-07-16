@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: com.neobitcoin.wallet
-launchDate: 
+released: 2020-07-03
 latestUpdate: 2020-07-03
-apkVersionName: "1.0.0"
+version: "1.0.0"
 stars: 1.6
-ratings: 130
-reviews: 112
+ratings: 129
+reviews: 111
 size: 48M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.neobitcoin.wallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
 signer: 
 reviewArchive:
 

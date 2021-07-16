@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: com.mfcoin.wallet.dev
-launchDate: 
+released: 2018-03-22
 latestUpdate: 2020-10-04
-apkVersionName: "v4.0.0"
-stars: 4.5
-ratings: 84
-reviews: 44
+version: "v4.0.0"
+stars: 4.4
+ratings: 88
+reviews: 45
 size: 5.4M
 website: mfcoin.net
 repository: 
@@ -20,7 +20,6 @@ icon: com.mfcoin.wallet.dev.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -43,7 +42,7 @@ So it claims to be a self-custodial Bitcoin wallet.
 
 On their website there is a link to [their GitHub](https://github.com/MFrcoin/android-wallet)
 and the [Build Instructions](https://github.com/MFrcoin/android-wallet/blob/master/Build.md).
-Those reveal that we are dealing here with a [Coinomi](/android/com.coinomi.wallet/)
+Those reveal that we are dealing here with a {% include walletLink.html wallet='android/com.coinomi.wallet' %}
 clone.
 
 Let's see ... they ask us to change the app name to "Coinomi" etc. That can't be

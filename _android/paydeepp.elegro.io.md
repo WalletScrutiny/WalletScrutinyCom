@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "elegro Wallet: instant crypto-fiat payments"
+title: "Elegro Wallet: multi-currency crypto wallet"
 altTitle: 
 authors:
 - leo
 users: 1000
 appId: paydeepp.elegro.io
-launchDate: 
-latestUpdate: 2021-02-01
-apkVersionName: "5.0.6"
+released: 2018-11-09
+latestUpdate: 2021-07-14
+version: "5.1.1"
 stars: 4.1
 ratings: 22
 reviews: 8
-size: 11M
+size: 13M
 website: https://elegro.eu
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: paydeepp.elegro.io.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,33 +1,32 @@
 ---
-wsId: 
+wsId: midas
 title: "Midas Crypto Wallet: Bitcoin, Ethereum, XRP, EOS"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.midasprotocol.wallet.android
-launchDate: 
-latestUpdate: 2021-03-19
-apkVersionName: "1.9.9"
-stars: 0.0
-ratings: 
-reviews: 
-size: 74M
-website: 
+released: 2018-11-02
+latestUpdate: 2021-06-23
+version: "2.0.3"
+stars: 4.2
+ratings: 440
+reviews: 270
+size: 73M
+website: https://midasprotocol.io/
 repository: 
 issue: 
 icon: com.midasprotocol.wallet.android.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: MidasProtocol
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: midasprotocol.io
 providerReddit: 
 
 redirect_from:
@@ -35,3 +34,8 @@ redirect_from:
 ---
 
 
+No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).
+It would be prudent to assume the private keys are under the control of the provider.
+
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.

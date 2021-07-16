@@ -7,12 +7,12 @@ authors:
 - emanuel
 users: 5000
 appId: info.mysecurewallet.wallet
-launchDate: 
+released: 2019-11-01
 latestUpdate: 2019-11-02
-apkVersionName: "1.1"
+version: "1.1"
 stars: 3.6
-ratings: 51
-reviews: 38
+ratings: 56
+reviews: 39
 size: 3.9M
 website: 
 repository: 
@@ -21,7 +21,6 @@ icon: info.mysecurewallet.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-08
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,19 +8,18 @@ appId: com.gemini.ios
 appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-04-15
-version: "3.11.0"
-score: 4.73384
-reviews: 25639
-size: 104332288
-developerWebsite: http://gemini.com
+updated: 2021-07-14
+version: "3.24.0"
+stars: 4.77276
+reviews: 51958
+size: 107482112
+website: http://gemini.com
 repository: 
 issue: 
 icon: com.gemini.ios.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
 

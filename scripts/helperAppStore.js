@@ -17,17 +17,16 @@ const allowedHeaders = [
   "released", // gets provided by platform
   "updated", // platform reported latest update
   "version", // platform reported version
-  "score", // platform reported score of this language-country
+  "stars", // platform reported stars of this language-country
   "reviews", // platform reported count of reviews of this language-country
   "size", // platform reported size in bytes
-  "developerWebsite", // platform reported 
+  "website", // platform reported 
   "repository", // source code repository if available
   "issue", // issue we opened in their repository
   "icon", // icon name. appId.{jpg,png}
   "bugbounty", // link to bug bounty program if known
   "verdict",
   "date", // date the review was done/updated
-  "reviewStale", // script marks this true when the version changes
   "signer", // the identifier of the release signing key
   "reviewArchive", // history of our reviews
   "providerTwitter",
@@ -90,12 +89,10 @@ function writeResult(app, header, iconExtension, body) {
   if (released != undefined) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
-  var stale = header.reviewStale || dateFormat(header.updated, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
   const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  //console.log(`Writing results to ${p}`)
   process.stdout.write("🍎")
   f.write(`---
 wsId: ${header.wsId || ""}
@@ -109,22 +106,21 @@ idd: ${header.idd}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
 version: "${version}"
-score: ${app.score || ""}
+stars: ${app.score || ""}
 reviews: ${app.reviews || ""}
 size: ${app.size}
-developerWebsite: ${app.developerWebsite || header.developerWebsite || ""}
+website: ${app.developerWebsite || header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
 verdict: ${header.verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
 signer: ${header.signer || ""}
 reviewArchive:
 ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   version: "${item.version}"
-  appHash: ${item.apkHash || ""}
+  appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
 

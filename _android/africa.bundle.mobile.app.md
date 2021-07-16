@@ -6,13 +6,13 @@ authors:
 - kiwilamb
 users: 100000
 appId: africa.bundle.mobile.app
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "2.7.5"
-stars: 0.0
-ratings: 
-reviews: 
-size: 29M
+released: 2020-04-20
+latestUpdate: 2021-07-15
+version: "3.0.0"
+stars: 4.5
+ratings: 9073
+reviews: 5648
+size: 49M
 website: https://bundle.africa/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: africa.bundle.mobile.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

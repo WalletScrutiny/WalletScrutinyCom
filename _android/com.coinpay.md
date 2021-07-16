@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: com.coinpay
-launchDate: 
+released: 2020-05-26
 latestUpdate: 2020-08-23
-apkVersionName: "1.0.7"
-stars: 3.7
-ratings: 17
-reviews: 14
+version: "1.0.7"
+stars: 4.0
+ratings: 21
+reviews: 16
 size: 5.4M
 website: https://www.coinpayapp.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinpay.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: false
 signer: 
 reviewArchive:
 

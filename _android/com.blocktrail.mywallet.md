@@ -6,12 +6,12 @@ authors:
 
 users: 500000
 appId: com.blocktrail.mywallet
-launchDate: 
+released: 2015-09-09
 latestUpdate: 2019-04-03
-apkVersionName: "4.4.7"
+version: "4.4.7"
 stars: 3.4
-ratings: 8045
-reviews: 3822
+ratings: 8162
+reviews: 3872
 size: 13M
 website: https://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet
@@ -20,7 +20,6 @@ icon: com.blocktrail.mywallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: false
 signer: 
 reviewArchive:
 

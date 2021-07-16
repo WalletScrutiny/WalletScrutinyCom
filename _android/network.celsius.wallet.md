@@ -1,18 +1,18 @@
 ---
 wsId: Celsius
-title: "Celsius - Secure Crypto Wallet - BTC, ETH, USDT"
+title: "Celsius - Safe Crypto Platform"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: network.celsius.wallet
-launchDate: 
-latestUpdate: 2021-02-20
-apkVersionName: "4.8.0"
-stars: 3.3
-ratings: 4586
-reviews: 3361
-size: 87M
+released: 2018-06-04
+latestUpdate: 2021-07-12
+version: "4.9.0"
+stars: 3.4
+ratings: 5255
+reviews: 3800
+size: 88M
 website: https://celsius.network
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: network.celsius.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

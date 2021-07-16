@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: appinventor.ai_oldgoldmen.CryptoWallet
-launchDate: 
+released: 2020-02-01
 latestUpdate: 2021-02-23
-apkVersionName: "3.0"
-stars: 4.6
-ratings: 38
-reviews: 17
+version: "3.0"
+stars: 4.5
+ratings: 43
+reviews: 20
 size: 3.3M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-10
-reviewStale: false
 signer: 
 reviewArchive:
 

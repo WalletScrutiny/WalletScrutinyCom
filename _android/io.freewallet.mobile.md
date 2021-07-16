@@ -6,11 +6,11 @@ authors:
 - leo
 users: 5000
 appId: io.freewallet.mobile
-launchDate: 2016-09-01
+released: 2016-09-01
 latestUpdate: 2019-03-17
-apkVersionName: "0.1.9"
+version: "0.1.9"
 stars: 4.0
-ratings: 62
+ratings: 63
 reviews: 33
 size: 6.7M
 website: https://freewallet.io
@@ -20,7 +20,6 @@ icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-05
-reviewStale: false
 signer: 
 reviewArchive:
 

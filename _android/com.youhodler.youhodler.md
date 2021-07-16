@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.youhodler.youhodler
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "2.12.0"
-stars: 4.0
-ratings: 1072
-reviews: 421
-size: 47M
+released: 2019-07-11
+latestUpdate: 2021-07-07
+version: "2.17.0"
+stars: 4.3
+ratings: 1712
+reviews: 669
+size: 48M
 website: https://youhodler.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.youhodler.youhodler.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

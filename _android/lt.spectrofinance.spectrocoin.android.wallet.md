@@ -6,12 +6,12 @@ authors:
 - leo
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
-launchDate: 2014-12-05
-latestUpdate: 2021-02-05
-apkVersionName: "1.15.3"
+released: 2014-12-05
+latestUpdate: 2021-07-01
+version: "1.15.7"
 stars: 3.1
-ratings: 3092
-reviews: 894
+ratings: 3106
+reviews: 899
 size: 12M
 website: https://spectrocoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -31,8 +30,7 @@ providerFacebook: spectrocoin
 providerReddit: 
 
 redirect_from:
-  - /lt.spectrofinance.spectrocoin.android.wallet/
-  - /posts/lt.spectrofinance.spectrocoin.android.wallet/
+
 ---
 
 

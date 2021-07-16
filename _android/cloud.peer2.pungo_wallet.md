@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: cloud.peer2.pungo_wallet
-launchDate: 
+released: 
 latestUpdate: 2021-04-08
-apkVersionName: "1.33"
+version: "1.33"
 stars: 3.9
 ratings: 11
 reviews: 10
@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-29
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-02
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2020-07-29
+  version: "1.33"
+  appHash: 
+  gitRevision: c08607be70f54ef29194d3b501f74ae09a9c9c6c
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,10 +35,12 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /cloud.peer2.pungo_wallet/
-  - /posts/cloud.peer2.pungo_wallet/
+
 ---
 
+
+**Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.
+We assume this wallet is no more.
 
 This app's Google Play description reads:
 

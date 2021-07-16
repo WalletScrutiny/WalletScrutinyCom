@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100
 appId: com.factwallet.crypto.factwallet
-launchDate: 
+released: 2020-10-23
 latestUpdate: 2020-11-13
-apkVersionName: "1.4"
+version: "1.4"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,29 +8,36 @@ appId: cash.klever.blockchain.wallet
 appCountry: 
 idd: 1525584688
 released: 2020-08-26
-updated: 2021-04-20
-version: "4.1.10"
-score: 4.32268
-reviews: 313
-size: 124529664
-developerWebsite: https://klever.io
+updated: 2021-06-17
+version: "4.2.3"
+stars: 4.34921
+reviews: 378
+size: 124630016
+website: https://klever.io
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: klever_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: klever.io
 providerReddit: 
 
 redirect_from:
 
 ---
 
+On their website we read:
+
+> **Peer-to-Peer**<br>
+  Klever is a decentralized p2p and self-custody wallet network. Your Keys, your
+  crypto.
+
+so they claim the app is self-custodial but we cannot find any source code which
+makes the app **not verifiable**.

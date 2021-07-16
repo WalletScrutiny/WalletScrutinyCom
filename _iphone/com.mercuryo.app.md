@@ -8,29 +8,36 @@ appId: com.mercuryo.app
 appCountry: 
 idd: 1446533733
 released: 2019-02-08
-updated: 2021-04-12
-version: "1.61"
-score: 4.76849
-reviews: 311
-size: 48564224
-developerWebsite: https://mercuryo.io/
+updated: 2021-07-05
+version: "1.66"
+stars: 4.75535
+reviews: 466
+size: 48974848
+website: https://mercuryo.io/
 repository: 
 issue: 
 icon: com.mercuryo.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: Mercuryo_io
+providerLinkedIn: mercuryo-io
+providerFacebook: mercuryo.io
+providerReddit: mercuryo
 
 redirect_from:
 
 ---
 
+This app has a strong focus on cashing in and out with linked cards and low
+exchange fees but no word on who holds the keys. At least not on the App Store.
+On their website we find:
+
+> Your private key is safely stored and fully restorable thanks to customer
+  verification. Cryptocurrency is stored in safe offline wallets.
+
+which is the definition of a custodial app. This wallet is **not verifiable**.

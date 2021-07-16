@@ -6,13 +6,13 @@ authors:
 - leo
 users: 500000
 appId: com.defi.wallet
-launchDate: 2020-05-11
-latestUpdate: 2021-04-09
-apkVersionName: "1.8.2"
+released: 2020-05-11
+latestUpdate: 2021-07-06
+version: "1.14.0"
 stars: 4.3
-ratings: 3304
-reviews: 1014
-size: 24M
+ratings: 5312
+reviews: 1701
+size: 56M
 website: https://crypto.com/en/defi/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.defi.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: true
 signer: 
 reviewArchive:
 

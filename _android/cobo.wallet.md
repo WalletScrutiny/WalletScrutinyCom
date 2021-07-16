@@ -1,18 +1,18 @@
 ---
 wsId: cobowallet
-title: "Cobo Wallet: Bitcoin, Ethereum, Dash, XRP, XLM"
+title: "Cobo: Support crypto savings, PoS, gain products."
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: cobo.wallet
-launchDate: 2018-07-01
-latestUpdate: 2021-04-16
-apkVersionName: "5.0.0"
-stars: 3.4
-ratings: 3917
-reviews: 2387
-size: 52M
+released: 2018-07-01
+latestUpdate: 2021-07-09
+version: "5.9.0"
+stars: 3.3
+ratings: 3952
+reviews: 2410
+size: 36M
 website: https://cobo.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: cobo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 

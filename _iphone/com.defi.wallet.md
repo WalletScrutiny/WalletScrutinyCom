@@ -8,19 +8,18 @@ appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
 released: 2020-05-20
-updated: 2021-04-12
-version: "1.8.2"
-score: 4.68993
-reviews: 1490
-size: 66466816
-developerWebsite: https://crypto.com/en/defi/wallet/
+updated: 2021-07-08
+version: "1.14.0"
+stars: 4.58371
+reviews: 1535
+size: 74382336
+website: https://crypto.com/defi-wallet
 repository: 
 issue: 
 icon: com.defi.wallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-10
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -4,9 +4,9 @@ altTitle:
 
 users: 500
 appId: co.nayuta.wallet
-launchDate: 
+released: 
 latestUpdate: 2019-10-15
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

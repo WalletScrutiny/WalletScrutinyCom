@@ -4,15 +4,15 @@ title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-10-01
-latestUpdate: 2021-04-14
-apkVersionName: "1.28.1"
-stars: 4.8
-ratings: 773
-reviews: 181
-size: 32M
+released: 2017-10-01
+latestUpdate: 2021-07-06
+version: "1.30.8"
+stars: 4.5
+ratings: 415409
+reviews: 86057
+size: 31M
 website: https://trustwallet.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-11-20
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,33 +1,32 @@
 ---
-wsId: 
-title: "Prizm wallet, p2p cryptocurrency exchange"
+wsId: prizmbit
+title: "Prizmbit wallet, p2p cryptocurrency exchange"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.prizmbit
-launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "1.4.18"
+released: 2019-06-28
+latestUpdate: 2021-07-06
+version: "1.4.23"
 stars: 3.9
-ratings: 469
-reviews: 220
-size: 13M
-website: 
+ratings: 513
+reviews: 244
+size: 15M
+website: https://prizmbit.com/
 repository: 
 issue: 
 icon: com.prizmbit.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: prizmbit
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: prizmbit
 providerReddit: 
 
 redirect_from:
@@ -35,3 +34,6 @@ redirect_from:
 ---
 
 
+There is no statement regarding how private keys are managed in the play store description or on the [providers website](https://prizmbit.com/) or FAQ.
+
+Our verdict: This 'wallet' is custodial and therefore **not verifiable**.

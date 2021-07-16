@@ -10,17 +10,16 @@ idd: 1406311960
 released: 2019-04-27
 updated: 2020-08-03
 version: "0.5.2"
-score: 4.8913
-reviews: 46
+stars: 4.76363
+reviews: 55
 size: 43196416
-developerWebsite: https://zaphq.io
+website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS
 issue: 
 icon: com.jackmallers.zap.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
 signer: 
 reviewArchive:
 

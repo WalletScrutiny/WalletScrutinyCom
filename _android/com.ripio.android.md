@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: com.ripio.android
-launchDate: 2015-06-01
-latestUpdate: 2021-03-29
-apkVersionName: "4.7.1"
+released: 2015-06-01
+latestUpdate: 2021-07-15
+version: "4.15.5"
 stars: 3.7
-ratings: 16521
-reviews: 8516
-size: 45M
+ratings: 20326
+reviews: 9927
+size: 88M
 website: https://www.ripio.com/ar/wallet
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.ripio.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-03-28
-reviewStale: true
 signer: 
 reviewArchive:
 

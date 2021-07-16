@@ -10,17 +10,16 @@ idd: 1019614423
 released: 2015-09-08
 updated: 2019-04-13
 version: "4.4.9"
-score: 3.92701
-reviews: 411
+stars: 3.9378
+reviews: 418
 size: 38854656
-developerWebsite: http://btc.com
+website: http://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: true
 signer: 
 reviewArchive:
 

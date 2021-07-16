@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: org.lndroid.bitcoincore
-launchDate: 
+released: 2020-07-02
 latestUpdate: 2020-07-08
-apkVersionName: "0.6"
-stars: 0.0
-ratings: 
-reviews: 
+version: "0.6"
+stars: 4.0
+ratings: 7
+reviews: 1
 size: 7.5M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: org.lndroid.bitcoincore.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-08
-reviewStale: true
 signer: 
 reviewArchive:
 

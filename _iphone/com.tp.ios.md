@@ -1,6 +1,6 @@
 ---
 wsId: TokenPocket
-title: "TokenPocket"
+title: "TokenPocket: Crypto & DeFi"
 altTitle: 
 authors:
 - leo
@@ -8,19 +8,18 @@ appId: com.tp.ios
 appCountry: 
 idd: 1436028697
 released: 2018-09-23
-updated: 2021-04-06
-version: "1.5.6"
-score: 3.81188
-reviews: 101
-size: 124793856
-developerWebsite: 
+updated: 2021-07-09
+version: "1.6.0"
+stars: 3.54688
+reviews: 128
+size: 128480256
+website: 
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-18
-reviewStale: true
 signer: 
 reviewArchive:
 

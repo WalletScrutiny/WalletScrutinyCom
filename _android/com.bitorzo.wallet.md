@@ -7,9 +7,9 @@ authors:
 - emanuel
 users: 1000
 appId: com.bitorzo.wallet
-launchDate: 
+released: 2020-07-22
 latestUpdate: 2021-01-03
-apkVersionName: "3.1.3"
+version: "3.1.3"
 stars: 4.0
 ratings: 26
 reviews: 21
@@ -17,11 +17,10 @@ size: 12M
 website: https://www.bitorzo.io
 repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2
-icon: com.bitorzo.wallet.png
+icon: com.bitorzo.wallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

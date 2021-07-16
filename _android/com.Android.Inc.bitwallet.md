@@ -6,21 +6,20 @@ authors:
 - leo
 users: 10000
 appId: com.Android.Inc.bitwallet
-launchDate: 
-latestUpdate: 2021-03-26
-apkVersionName: "1.4.15"
-stars: 4.6
-ratings: 541
-reviews: 419
+released: 2019-07-22
+latestUpdate: 2021-06-02
+version: "1.4.16"
+stars: 4.5
+ratings: 734
+reviews: 605
 size: 26M
 website: https://www.bitwallet.org
 repository: 
 issue: 
-icon: com.Android.Inc.bitwallet.jpg
+icon: com.Android.Inc.bitwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

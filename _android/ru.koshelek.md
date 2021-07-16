@@ -4,14 +4,14 @@ title: "Кошелек. Криптовалюты Биткоин, Эфириум,
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: ru.koshelek
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "1.2.3"
-stars: 4.2
-ratings: 60
-reviews: 55
+released: 2020-07-28
+latestUpdate: 2021-06-30
+version: "1.2.3.1"
+stars: 4.1
+ratings: 69
+reviews: 60
 size: 8.6M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: ru.koshelek.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

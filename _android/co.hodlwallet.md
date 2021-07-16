@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: co.hodlwallet
-launchDate: 2018-09-24
+released: 2018-09-24
 latestUpdate: 2020-05-18
-apkVersionName: "3.3.5"
+version: "3.3.5"
 stars: 3.7
-ratings: 105
-reviews: 59
+ratings: 116
+reviews: 62
 size: 12M
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android
@@ -20,7 +20,6 @@ icon: co.hodlwallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -75,7 +74,7 @@ see how it goes:
 
 > Go to github.co/hodlwallet/breadwallet-android and clone or download the project
 
-[Breadwallet](/brd/)? Ok, good to know where the code comes from but this alone
+[Breadwallet](/android/com.breadwallet/)? Ok, good to know where the code comes from but this alone
 lets us doubt a bit how dedicated the team is working on the project. Also: more
 guessing on our part:
 
@@ -129,7 +128,7 @@ Play release. We'll try that one: `394f23041b`. We will raise the bar in the fut
 and refuse to search for commits like that though. Have a tag or we can't
 verify the build.
 
-Anyway ... we'll try the same we tried with [BRD](/brd/):
+Anyway ... we'll try the same we tried with [BRD](/android/com.breadwallet/):
 
 ```
 $ git checkout 394f23041b

@@ -6,12 +6,12 @@ authors:
 
 users: 5000
 appId: com.coinapps.flash.wallet.android
-launchDate: 
+released: 2019-08-08
 latestUpdate: 2020-07-23
-apkVersionName: "2.4.1"
+version: "2.4.1"
 stars: 4.1
-ratings: 34
-reviews: 20
+ratings: 41
+reviews: 21
 size: 10.0M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinapps.flash.wallet.android.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

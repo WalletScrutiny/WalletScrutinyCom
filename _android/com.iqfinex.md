@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: com.iqfinex
-launchDate: 
+released: 2018-09-10
 latestUpdate: 2019-01-24
-apkVersionName: "1.0.4"
+version: "1.0.4"
 stars: 4.8
 ratings: 270
 reviews: 261
@@ -20,7 +20,6 @@ icon: com.iqfinex.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

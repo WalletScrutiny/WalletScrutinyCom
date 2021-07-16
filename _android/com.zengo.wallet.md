@@ -7,12 +7,12 @@ authors:
 - emanuel
 users: 100000
 appId: com.zengo.wallet
-launchDate: 
-latestUpdate: 2021-03-24
-apkVersionName: "2.22.1"
+released: 2020-01-19
+latestUpdate: 2021-07-01
+version: "2.24.2"
 stars: 4.1
-ratings: 2109
-reviews: 892
+ratings: 2497
+reviews: 1021
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
@@ -21,7 +21,6 @@ icon: com.zengo.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 

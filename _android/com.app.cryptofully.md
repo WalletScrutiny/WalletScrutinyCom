@@ -7,13 +7,13 @@ authors:
 - leo
 users: 5000
 appId: com.app.cryptofully
-launchDate: 
-latestUpdate: 2021-03-17
-apkVersionName: "1.1.9"
-stars: 4.4
-ratings: 261
-reviews: 107
-size: 29M
+released: 2020-10-29
+latestUpdate: 2021-06-07
+version: "1.2.4"
+stars: 4.1
+ratings: 317
+reviews: 126
+size: 30M
 website: https://www.cryptofully.com/
 repository: 
 issue: 
@@ -21,7 +21,6 @@ icon: com.app.cryptofully.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

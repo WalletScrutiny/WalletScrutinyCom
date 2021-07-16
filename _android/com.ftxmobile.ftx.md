@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.ftxmobile.ftx
-launchDate: 
-latestUpdate: 2021-01-20
-apkVersionName: "1.1.0"
-stars: 2.8
-ratings: 2026
-reviews: 1368
-size: 46M
+released: 2020-05-08
+latestUpdate: 2021-06-30
+version: "1.1.2"
+stars: 4.4
+ratings: 3867
+reviews: 1774
+size: 61M
 website: https://ftx.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.ftxmobile.ftx.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-08
-reviewStale: false
 signer: 
 reviewArchive:
 

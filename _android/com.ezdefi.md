@@ -1,17 +1,17 @@
 ---
-wsId: 
+wsId: ezdefi
 title: "ezDeFi - Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.ezdefi
-launchDate: 
-latestUpdate: 2021-04-19
-apkVersionName: "0.3.3"
-stars: 4.6
-ratings: 562
-reviews: 343
+released: 2019-11-29
+latestUpdate: 2021-07-07
+version: "0.3.6"
+stars: 4.5
+ratings: 627
+reviews: 364
 size: 50M
 website: https://ezdefi.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.ezdefi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -31,7 +30,7 @@ providerFacebook: ezdefi
 providerReddit: 
 
 redirect_from:
-  - /com.ezdefi/
+
 ---
 
 
@@ -40,7 +39,7 @@ Features like
 > By eliminating encryption phrase, new users can simply make purchases with
   just a wallet password or biometric.
 
-sound very custodial. Althogh this is
+sound very custodial. Although this is
 
 > A new Ez Mode [...] to make cryptocurrencies accessible to new users.
 

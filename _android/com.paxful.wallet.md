@@ -1,18 +1,18 @@
 ---
 wsId: Paxful
-title: "Paxful Bitcoin Wallet"
+title: "Paxful - Bitcoin & Crypto Wallet, Marketplace P2P"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.paxful.wallet
-launchDate: 2019-04-30
-latestUpdate: 2021-04-19
-apkVersionName: "1.7.6.564"
+released: 2019-04-30
+latestUpdate: 2021-07-13
+version: "2.0.5.630"
 stars: 3.9
-ratings: 16028
-reviews: 9453
-size: 25M
+ratings: 18525
+reviews: 10705
+size: 27M
 website: https://paxful.com/mobile-wallet-app
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.paxful.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

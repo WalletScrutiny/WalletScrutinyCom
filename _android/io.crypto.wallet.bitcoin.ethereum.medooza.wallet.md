@@ -6,9 +6,9 @@ authors:
 
 users: 500
 appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
-launchDate: 
+released: 2019-01-04
 latestUpdate: 2019-01-04
-apkVersionName: "1.1"
+version: "1.1"
 stars: 4.1
 ratings: 7
 reviews: 6
@@ -20,7 +20,6 @@ icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

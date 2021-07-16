@@ -8,29 +8,34 @@ appId: com.litebit.app
 appCountry: 
 idd: 1448841440
 released: 2019-08-20
-updated: 2021-04-16
-version: "3.0.5"
-score: 4.42856
-reviews: 7
-size: 128497664
-developerWebsite: https://www.litebit.eu/en/
+updated: 2021-07-09
+version: "3.1.0"
+stars: 4
+reviews: 8
+size: 138200064
+website: https://www.litebit.eu/en/
 repository: 
 issue: 
 icon: com.litebit.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-30
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: litebiteu
+providerLinkedIn: litebit
+providerFacebook: litebiteu
 providerReddit: 
 
 redirect_from:
 
 ---
 
+> All you need is a LiteBit account.
+
+If you need an account, it's probably custodial.
+
+On their website there is no contrary claims so we assume this app is
+**not verifiable**.

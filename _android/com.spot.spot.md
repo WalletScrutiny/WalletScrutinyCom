@@ -6,13 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.spot.spot
-launchDate: 
-latestUpdate: 2021-03-29
-apkVersionName: "4.26.1.2569-f1496517"
-stars: 4.3
-ratings: 3859
-reviews: 1881
-size: 65M
+released: 2018-08-02
+latestUpdate: 2021-07-13
+version: "4.33.2.2674-5b34331b"
+stars: 0.0
+ratings: 
+reviews: 
+size: 67M
 website: https://www.spot-bitcoin.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.spot.spot.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

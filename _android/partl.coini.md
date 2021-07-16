@@ -6,13 +6,13 @@ authors:
 
 users: 5000
 appId: partl.coini
-launchDate: 
-latestUpdate: 2021-04-19
-apkVersionName: "2.1.7"
+released: 2018-02-04
+latestUpdate: 2021-06-08
+version: "2.2.5"
 stars: 4.6
-ratings: 192
-reviews: 97
-size: 46M
+ratings: 234
+reviews: 117
+size: 45M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: partl.coini.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

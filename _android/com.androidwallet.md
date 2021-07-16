@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.androidwallet
-launchDate: 
+released: 2019-07-04
 latestUpdate: 2020-04-09
-apkVersionName: "1.1.20"
+version: "1.1.20"
 stars: 4.8
 ratings: 434
 reviews: 421
@@ -20,7 +20,6 @@ icon: com.androidwallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

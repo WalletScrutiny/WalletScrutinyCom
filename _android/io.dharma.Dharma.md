@@ -6,13 +6,13 @@ authors:
 
 users: 10000
 appId: io.dharma.Dharma
-launchDate: 
-latestUpdate: 2021-03-25
-apkVersionName: "1.0.22"
-stars: 3.1
-ratings: 229
-reviews: 150
-size: 56M
+released: 2020-01-15
+latestUpdate: 2021-06-17
+version: "1.0.23"
+stars: 3.0
+ratings: 259
+reviews: 170
+size: 60M
 website: https://www.dharma.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.dharma.Dharma.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-05
-reviewStale: true
 signer: 
 reviewArchive:
 

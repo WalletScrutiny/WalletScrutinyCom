@@ -3,24 +3,23 @@ wsId:
 title: "Crypto & Bitcoin & DeFi Trading Game"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 50000
 appId: com.altcoinfantasy.altcoinfantasy
-launchDate: 
+released: 2018-01-05
 latestUpdate: 2021-01-07
-apkVersionName: "3.3.6-google"
-stars: 3.9
-ratings: 2259
-reviews: 1769
+version: "3.3.6-google"
+stars: 3.8
+ratings: 2279
+reviews: 1776
 size: 22M
-website: 
+website: https://altcoinfantasy.com/v3
 repository: 
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-22
 signer: 
 reviewArchive:
 
@@ -34,4 +33,8 @@ redirect_from:
 
 ---
 
+
+This is not a wallet, it is a crypto currency fantasy trading paltformm.
+
+> THE MOST TRUSTED CRYPTO TRADING SIMULATOR Here are a few reasons why you should play Altcoin Fantasy
 

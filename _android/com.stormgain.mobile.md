@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: com.stormgain.mobile
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "1.16.0"
-stars: 4.2
-ratings: 21979
-reviews: 12761
-size: 23M
+released: 2019-07-08
+latestUpdate: 2021-07-08
+version: "1.18.0"
+stars: 4.3
+ratings: 42519
+reviews: 23271
+size: 37M
 website: https://stormgain.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.stormgain.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

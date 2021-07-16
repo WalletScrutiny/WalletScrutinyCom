@@ -8,19 +8,18 @@ appId: co.hold.mobile
 appCountry: de
 idd: 1435187229
 released: 2018-09-28
-updated: 2021-03-09
-version: "3.12.9"
-score: 3.93333
-reviews: 15
-size: 33201152
-developerWebsite: https://hold.io
+updated: 2021-07-07
+version: "3.13.3"
+stars: 4.11111
+reviews: 18
+size: 33159168
+website: https://hold.io
 repository: 
 issue: 
 icon: co.hold.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-11
-reviewStale: true
 signer: 
 reviewArchive:
 

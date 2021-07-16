@@ -8,29 +8,36 @@ appId: io.eidoo.wallet.prodnet
 appCountry: 
 idd: 1279896253
 released: 2017-09-23
-updated: 2021-04-08
-version: "2.17.0"
-score: 3.83099
-reviews: 71
-size: 37630976
-developerWebsite: https://eidoo.io
+updated: 2021-07-02
+version: "3.3.1"
+stars: 3.80556
+reviews: 72
+size: 41286656
+website: https://eidoo.io
 repository: 
 issue: 
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: eidoo_io
+providerLinkedIn: eidoo
+providerFacebook: eidoocrypto
+providerReddit: eidooapp
 
 redirect_from:
 
 ---
 
+The app's description:
+
+> As a non-custodial wallet, funds will always remain in your full control, with
+  effortless wallet backup and recovery options.
+
+Unfortunately we can't find any source code. No such link on their website and
+neither can we find anything relevant on GitHub which leads to the verdict:
+**not verifiable**.

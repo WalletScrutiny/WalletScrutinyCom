@@ -7,11 +7,11 @@ authors:
 - leo
 users: 1000
 appId: com.exchangily.wallet
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "2.0.17"
-stars: 4.0
-ratings: 25
+released: 2020-02-05
+latestUpdate: 2021-05-26
+version: "2.0.21"
+stars: 4.1
+ratings: 27
 reviews: 18
 size: 16M
 website: https://exchangily.com
@@ -21,7 +21,6 @@ icon: com.exchangily.wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

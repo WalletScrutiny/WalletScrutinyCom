@@ -6,13 +6,13 @@ authors:
 
 users: 1000
 appId: com.boquanhash.dotwallet
-launchDate: 
-latestUpdate: 2021-04-19
-apkVersionName: "2.3.7"
-stars: 4.0
-ratings: 12
+released: 2020-08-26
+latestUpdate: 2021-06-17
+version: "2.5.5"
+stars: 4.1
+ratings: 14
 reviews: 7
-size: 44M
+size: 45M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.boquanhash.dotwallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
 signer: 
 reviewArchive:
 

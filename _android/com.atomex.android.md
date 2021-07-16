@@ -4,14 +4,14 @@ title: "Atomex - Crypto Wallet & Atomic swap DEX"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.atomex.android
-launchDate: 
-latestUpdate: 2021-03-25
-apkVersionName: "1.7"
-stars: 4.8
-ratings: 32
-reviews: 31
+released: 2020-12-06
+latestUpdate: 2021-05-28
+version: "1.9"
+stars: 4.6
+ratings: 47
+reviews: 39
 size: 59M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
@@ -20,7 +20,6 @@ icon: com.atomex.android.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

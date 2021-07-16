@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: kr.co.keypair.afintouch
-launchDate: 
+released: 2018-10-04
 latestUpdate: 2019-12-27
-apkVersionName: "1.0.0.60"
+version: "1.0.0.60"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: kr.co.keypair.afintouch.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-07
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -37,5 +36,5 @@ redirect_from:
 
 <!-- nosource -->
 As far as we can see, this is the same as
-[this app](/android/kr.co.keypair.keywalletTouch) and thus is **not verifiable**.
+{% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.
 

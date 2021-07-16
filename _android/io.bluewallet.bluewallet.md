@@ -4,15 +4,15 @@ title: "BlueWallet Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: io.bluewallet.bluewallet
-launchDate: 2018-11-01
-latestUpdate: 2021-04-05
-apkVersionName: "6.0.8"
-stars: 4.4
-ratings: 1014
-reviews: 441
-size: 59M
+released: 2018-11-01
+latestUpdate: 2021-07-10
+version: "Varies with device"
+stars: 3.8
+ratings: 1187
+reviews: 510
+size: Varies with device
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/2364
@@ -20,12 +20,11 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-07-14
-reviewStale: true
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2020-01-08
   version: "4.9.1"
-  apkHash: 
+  appHash: 
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
 
@@ -43,7 +42,7 @@ redirect_from:
 
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is
-hosted by BlueWallet."* without any further explanation that his means that
+hosted by BlueWallet."* without any further explanation that this means that
 BlueWallet which appears to not be a legal entity is in control of the Bitcoins
 on those LN accounts. They also closed
 [the issue about the disclaimer](https://github.com/BlueWallet/BlueWallet/issues/2364).
@@ -56,4 +55,3 @@ remains **not verifiable**.
 
 [This issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/117)
 was brought up by [Lynn](https://gitlab.com/losnappas).
-

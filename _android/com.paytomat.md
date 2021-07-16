@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.paytomat
-launchDate: 2018-06-20
+released: 2018-06-20
 latestUpdate: 2021-02-01
-apkVersionName: "1.37.2"
-stars: 4.0
-ratings: 758
-reviews: 397
+version: "1.37.2"
+stars: 3.7
+ratings: 779
+reviews: 411
 size: 6.4M
 website: http://www.paytomat.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.paytomat.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: true
 signer: 
 reviewArchive:
 

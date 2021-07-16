@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.blixtwallet
-launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "Varies with device"
+released: 
+latestUpdate: 2021-06-23
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.blixtwallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-04
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: ilcbtc.wallet
-launchDate: 2018-02-27
+released: 2018-02-27
 latestUpdate: 2021-03-23
-apkVersionName: "4.26"
+version: "4.26"
 stars: 4.8
-ratings: 264
-reviews: 147
+ratings: 276
+reviews: 154
 size: 13M
 website: https://www.ilcoincrypto.com
 repository: 
@@ -20,7 +20,6 @@ icon: ilcbtc.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

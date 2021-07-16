@@ -6,11 +6,11 @@ authors:
 - leo
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
-launchDate: 
+released: 2019-02-04
 latestUpdate: 2020-12-10
-apkVersionName: "2.3.5"
+version: "2.3.5"
 stars: 4.5
-ratings: 24
+ratings: 25
 reviews: 16
 size: Varies with device
 website: https://bitcoinox.com
@@ -20,7 +20,6 @@ icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-09-27
-reviewStale: true
 signer: 
 reviewArchive:
 

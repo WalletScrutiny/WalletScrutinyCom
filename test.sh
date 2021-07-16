@@ -1,32 +1,39 @@
 #!/bin/bash
 
-downloadedApp="$1"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts/"
+downloadedApk="$1"
 # make sure path is absolute
-if ! [[ $downloadedApp =~ ^/.* ]]; then
-  downloadedApp="$PWD/$downloadedApp"
+if ! [[ $downloadedApk =~ ^/.* ]]; then
+  downloadedApk="$PWD/$downloadedApk"
 fi
-wsDocker="walletscrutiny/android:5"
+wsContainer="walletscrutiny/android:5"
+
+if [[ $* == *--not-interactive* ]]
+then
+  takeUserActionCommand=''
+else
+  takeUserActionCommand='echo "CTRL-D to continue";
+    bash'
+fi
 
 set -x
 
-dockerApktool() {
+containerApktool() {
   targetFolder=$1
   app=$2
   targetFolderParent=$(dirname "$targetFolder")
   targetFolderBase=$(basename "$targetFolder")
   appFolder=$(dirname "$app")
   appFile=$(basename "$app")
-  # Run apktool in a docker container so apktool doesn't need to be installed.
+  # Run apktool in a container so apktool doesn't need to be installed.
   # The folder with the apk file is mounted read only and only the output folder
   # is mounted with write permission.
-  # If docker is running as root, change the owner of the output to the current
-  # user. If that fails, ignore it.
   podman run \
     --rm \
     --volume $targetFolderParent:/tfp \
     --volume $appFolder:/af:ro \
-    $wsDocker \
-    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\"; chown $(id -u):$(id -g) -R /tfp/ || true"
+    $wsContainer \
+    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\""
   return $?
 }
 
@@ -38,7 +45,7 @@ getSigner() {
       --rm \
       --volume $DIR:/mnt:ro \
       --workdir /mnt \
-      $wsDocker \
+      $wsContainer \
       apksigner verify --print-certs "$BASE" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
   echo $s
 }
@@ -48,34 +55,31 @@ usage() {
        test.sh - test if apk can be built from source
 
 SYNOPSIS
-       test.sh downloadedApp
+       test.sh downloadedApk
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
        
-       downloadedApp  The apk file we want to test.'
+       downloadedApk  The apk file we want to test.'
 }
 
-if [ ! -f "$downloadedApp" ]; then
+if [ ! -f "$downloadedApk" ]; then
   echo "APK file not found!"
   echo
   usage
   exit 1
 fi
 
-apkHash=$(sha256sum "$downloadedApp" | awk '{print $1;}')
-fromPlayFolder=/tmp/fromPlay$apkHash
+appHash=$(sha256sum "$downloadedApk" | awk '{print $1;}')
+fromPlayFolder=/tmp/fromPlay$appHash
 rm -rf $fromPlayFolder
-signer=$( getSigner "$downloadedApp" )
+signer=$( getSigner "$downloadedApk" )
 echo "Extracting APK content ..."
-dockerApktool $fromPlayFolder "$downloadedApp" || exit 1
+containerApktool $fromPlayFolder "$downloadedApk" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
-fromPlayUnpacked=/tmp/fromPlay_"$appId"_"$versionCode"
 workDir="/tmp/test$appId"
-rm -rf $fromPlayUnpacked
-mv $fromPlayFolder $fromPlayUnpacked
 
 if [ -z $appId ]; then
   echo "appId could not be tetermined"
@@ -93,13 +97,13 @@ if [ -z $versionCode ]; then
 fi
 
 echo
-echo "Testing \"$downloadedApp\" ($appId version $versionName)"
+echo "Testing \"$downloadedApk\" ($appId version $versionName)"
 echo
 
 prepare() {
   echo "Testing $appId from $repo revision $tag ..."
   # cleanup
-  sudo rm -rf /tmp/test$appId || exit 1
+  rm -rf /tmp/test$appId || exit 1
   # get uinque folder
   mkdir $workDir
   cd $workDir
@@ -107,69 +111,73 @@ prepare() {
   echo "Trying to clone version $tag ..."
   git clone --quiet --branch "$tag" --depth 1 $repo app || exit 1
   cd app
+  commit=$( git log -n 1 --pretty=oneline | sed 's/ .*//g' )
 }
 
 result() {
   # collect results
-  fromBuildUnpacked="/tmp/fromBuild_${appId}_$versionCode"
-  rm -rf $fromBuildUnpacked
-  dockerApktool $fromBuildUnpacked "$builtApk" || exit 1
+  fromPlayUnzipped="/tmp/fromPlay_${appId}_$versionCode"
+  fromBuildUnzipped="/tmp/fromBuild_${appId}_$versionCode"
+  rm -rf $fromBuildUnzipped $fromPlayUnzipped
+  unzip -d $fromPlayUnzipped -qq "$downloadedApk" || exit 1
+  unzip -d $fromBuildUnzipped -qq "$builtApk" || exit 1
   echo "Results:
 appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
-apkHash:        $apkHash
+appHash:        $appHash
+commit:         $commit
 
 Diff:
-$( diff --brief --recursive $fromPlayUnpacked $fromBuildUnpacked )
+$( diff --brief --recursive $fromPlayUnzipped $fromBuildUnzipped )
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
 
 Run a full
-diff --recursive $fromPlayUnpacked $fromBuildUnpacked
-meld $fromPlayUnpacked $fromBuildUnpacked
+diff --recursive $fromPlayUnzipped $fromBuildUnzipped
+meld $fromPlayUnzipped $fromBuildUnzipped
 or
-diffoscope $app $builtApk
+diffoscope \"$downloadedApk\" $builtApk
 for more details."
 }
 
 case "$appId" in
   "com.mycelium.wallet")
-    source scripts/testMycelium.sh
+    source ${SCRIPT_DIR}testMycelium.sh
     test ":mbw:assembleProdnetRelease"
     ;;
   "com.mycelium.testnetwallet")
-    source scripts/testMycelium.sh
+    source ${SCRIPT_DIR}testMycelium.sh
     test ":mbw:assembleBtctestnetRelease"
     ;;
   "com.greenaddress.greenbits_android_wallet")
-    source scripts/testGreen.sh
+    source ${SCRIPT_DIR}testGreen.sh
     test
     ;;
   "de.schildbach.wallet")
-    source scripts/testSchildbach.sh
+    source ${SCRIPT_DIR}testSchildbach.sh
     test
     ;;
   "it.airgap.vault")
-    source scripts/testAirgapVault.sh
+    source ${SCRIPT_DIR}testAirgapVault.sh
     test
     ;;
   "io.horizontalsystems.bankwallet")
-    source scripts/testUnstoppable.sh
+    source ${SCRIPT_DIR}testUnstoppable.sh
     test
     ;;
   "piuk.blockchain.android")
-    source scripts/testBlockchain.sh
+    source ${SCRIPT_DIR}testBlockchain.sh
     test
     ;;
   "fr.acinq.phoenix.mainnet")
-    source scripts/testPhoenix.sh
+    source ${SCRIPT_DIR}testPhoenix.sh
     test
     ;;
   "zapsolutions.zap")
-    source scripts/testZap.sh
+    source ${SCRIPT_DIR}testZap.sh
     test
     ;;
   *)

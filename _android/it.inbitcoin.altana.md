@@ -7,9 +7,9 @@ authors:
 - leo
 users: 1000
 appId: it.inbitcoin.altana
-launchDate: 
+released: 2017-04-18
 latestUpdate: 2021-02-27
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.4
 ratings: 47
 reviews: 21
@@ -21,7 +21,6 @@ icon: it.inbitcoin.altana.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-09
-reviewStale: false
 signer: 
 reviewArchive:
 
@@ -39,7 +38,7 @@ redirect_from:
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).
 
 This app is a fork of the currently reproducible
-["Green: Bitcoin Wallet"](/android/com.greenaddress.greenbits_android_wallet)
+{% include walletLink.html wallet='android/com.greenaddress.greenbits_android_wallet' %}
 and supports Bitcoin with the same timelock-and-multisig setup as Green.
 
 > Altana is based on services offered by GreenAddress.

@@ -6,13 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.zelcash.zelcore
-launchDate: 2018-09-21
-latestUpdate: 2021-04-14
-apkVersionName: "4.9.0"
-stars: 3.7
-ratings: 429
-reviews: 301
-size: 17M
+released: 2018-09-21
+latestUpdate: 2021-06-26
+version: "4.13.0"
+stars: 3.9
+ratings: 478
+reviews: 326
+size: 16M
 website: https://zel.network/project/zelcore
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.zelcash.zelcore.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -3,15 +3,15 @@ wsId:
 title: "Quicrypto: Earn Crypto & Free Bitcoin"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 100000
 appId: com.quicrypto
-launchDate: 
-latestUpdate: 2021-04-13
-apkVersionName: "3.6.0"
-stars: 3.8
-ratings: 4597
-reviews: 2818
+released: 2019-11-12
+latestUpdate: 2021-06-17
+version: "3.13.0"
+stars: 3.6
+ratings: 4770
+reviews: 2912
 size: 26M
 website: http://www.quicrypto.com
 repository: 
@@ -19,8 +19,7 @@ issue:
 icon: com.quicrypto.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+date: 2021-06-18
 signer: 
 reviewArchive:
 
@@ -31,9 +30,18 @@ providerFacebook: Quicrypto
 providerReddit: 
 
 redirect_from:
-  - /com.quicrypto/
+
 ---
 
+
+**Update 2021-06-21**: This app is not a wallet.
+
+> We are using Points as user balance to emphasize that Quicrypto is not a wallet or a monetary service provider. 
+
+Verdict: This is not a wallet that holds bitcoins.
+
+**Update 2021-04-25**: This app is not on Google Play anymore. It wasn't a
+wallet anyway.
 
 This app "pays" you in Bitcoin and Nano for tasks
 

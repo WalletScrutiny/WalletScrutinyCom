@@ -8,19 +8,18 @@ appId: com.balletcrypto
 appCountry: 
 idd: 1474912942
 released: 2019-09-11
-updated: 2021-04-17
-version: "1.15.3"
-score: 4.91696
-reviews: 289
-size: 98830336
-developerWebsite: https://www.balletcrypto.com/
+updated: 2021-06-25
+version: "1.16.4"
+stars: 4.89398
+reviews: 349
+size: 98312192
+website: https://www.balletcrypto.com/
 repository: 
 issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-11
-reviewStale: true
 signer: 
 reviewArchive:
 

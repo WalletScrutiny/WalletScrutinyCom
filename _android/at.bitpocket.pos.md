@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 100
 appId: at.bitpocket.pos
-launchDate: 
+released: 2016-07-08
 latestUpdate: 2017-10-20
-apkVersionName: "1.1.8"
+version: "1.1.8"
 stars: 4.8
 ratings: 5
 reviews: 3
@@ -20,7 +20,6 @@ icon: at.bitpocket.pos.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

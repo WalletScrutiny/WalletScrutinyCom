@@ -1,14 +1,14 @@
 <div id="proportionalViewContainer" class="page-section">
 {% include base_path %}
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated" | split: "," %}
+{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,obfuscated,wip" | split: "," %}
 {% assign posts = site.android | sort: "users" | reverse %}
   <h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
 <a class="switch-link-btn-long-string" id="SwitchToWalletsView">Switch to Wallets per Category&nbsp;<i class="fas fa-random"></i></a>
 <table id="gridOfWallets2">
   <tr>
     <td>
-      <count><span class="humanised-numbers -bold"><l>0</l></span></count><label>Audited<a href="/methodology/#noAudit">?</a></label>
+      <count><span class="humanised-numbers -bold"><l>0</l></span></count><span><a href="/methodology/#noAudit">Audited?</a></span>
     </td>
     <td>
     </td>
@@ -42,7 +42,7 @@
             {% endif %}
           </span>
         </count>
-        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+        <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
       </td>
       <td>
         {% for post in posts %}
@@ -72,9 +72,16 @@
             {% else %}
               {% assign height = 0.1 %}
           {% endcase %}
+          {% if post.users > 5000000 %}
+            {% assign picSize = "" %}
+          {% elsif post.users > 100000 %}
+            {% assign picSize = "/small" %}
+          {% else %}
+            {% assign picSize = "/tiny" %}
+          {% endif %}
           {% if post.verdict == v %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/android/small/{{ post.icon }}" class="lazy app_logo"
+              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}{{ picSize }}/{{ post.icon }}" class="lazy app_logo"
                 alt="Wallet Logo" style="height:{{ height }}em;width:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
             </a> 
           {% endif %}

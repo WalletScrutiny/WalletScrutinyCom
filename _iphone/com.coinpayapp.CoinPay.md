@@ -10,17 +10,16 @@ idd: 1477731032
 released: 2019-12-04
 updated: 2020-08-29
 version: "2020.08.28"
-score: 4.04167
-reviews: 96
+stars: 4.06087
+reviews: 115
 size: 21357568
-developerWebsite: https://www.coinpayapp.com
+website: https://www.coinpayapp.com
 repository: 
 issue: 
 icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 signer: 
 reviewArchive:
 
@@ -34,3 +33,11 @@ redirect_from:
 
 ---
 
+> We are a non-custodial wallet, so users can send Bitcoin and other
+  cryptocurrencies globally with direct access to the blockchain.
+
+... so this is (claiming to be) a non-custodial Bitcoin wallet. Can we verify
+this?
+
+The answer is "no". There is no source code linked on their website or the App
+Store description. This app is closed source and thus **not verifiable**.

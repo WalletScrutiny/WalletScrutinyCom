@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: net.bitstamp.app
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "2.0.2"
+released: 2019-01-29
+latestUpdate: 2021-07-06
+version: "2.3.1"
 stars: 4.3
-ratings: 9584
-reviews: 2654
-size: 133M
+ratings: 10045
+reviews: 2797
+size: 136M
 website: https://www.bitstamp.net
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: net.bitstamp.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

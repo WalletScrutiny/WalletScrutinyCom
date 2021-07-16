@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.mk.cryptofolio
-launchDate: 
+released: 2018-05-02
 latestUpdate: 2020-08-19
-apkVersionName: "1.0.51"
-stars: 4.5
-ratings: 19
-reviews: 11
+version: "1.0.51"
+stars: 4.4
+ratings: 24
+reviews: 13
 size: 8.0M
 website: http://www.thecryptofolioapp.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.mk.cryptofolio.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

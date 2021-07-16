@@ -6,12 +6,12 @@ authors:
 
 users: 50000
 appId: net.bither
-launchDate: 
-latestUpdate: 2021-02-05
-apkVersionName: "2.0.0"
-stars: 3.7
-ratings: 314
-reviews: 164
+released: 2014-02-27
+latestUpdate: 2021-07-05
+version: "2.0.1"
+stars: 3.6
+ratings: 320
+reviews: 168
 size: 4.4M
 website: https://bither.net
 repository: https://github.com/bither/bither-android
@@ -20,7 +20,6 @@ icon: net.bither.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-03
-reviewStale: false
 signer: 
 reviewArchive:
 

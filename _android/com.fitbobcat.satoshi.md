@@ -6,9 +6,9 @@ authors:
 
 users: 5000
 appId: com.fitbobcat.satoshi
-launchDate: 2018-01-16
+released: 2018-01-16
 latestUpdate: 2018-01-16
-apkVersionName: "1.0"
+version: "1.0"
 stars: 3.6
 ratings: 25
 reviews: 15
@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-08
 reviewStale: false
 signer: 
 reviewArchive:
-
+- date: 2019-12-28
+  version: "1.0"
+  appHash: 
+  gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
+  verdict: nobtc
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,8 +35,6 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /com.fitbobcat.satoshi/
-  - /posts/com.fitbobcat.satoshi/
 ---
 
 

@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100000
 appId: com.samourai.wallet
-launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "Varies with device"
+released: 
+latestUpdate: 2021-07-03
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.samourai.wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-03
-reviewStale: true
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 

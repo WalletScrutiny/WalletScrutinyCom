@@ -4,15 +4,15 @@ title: "Bitcoin Wallet & Ethereum Ripple ZIL DOT"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: io.atomicwallet
-launchDate: 2019-01-30
-latestUpdate: 2021-03-04
-apkVersionName: "0.72.2"
-stars: 4.2
-ratings: 33177
-reviews: 16649
-size: 14M
+released: 2019-01-30
+latestUpdate: 2021-07-14
+version: "0.76.0"
+stars: 4.4
+ratings: 43872
+reviews: 21320
+size: 15M
 website: https://atomicwallet.io
 repository: 
 issue: 
@@ -20,12 +20,11 @@ icon: io.atomicwallet.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-02
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-10-12
   version: "0.72.1"
-  apkHash: 
+  appHash: 
   gitRevision: d83253e829502835962be71b96dd37287dc87f5c
   verdict: nosource
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.lykkex.LykkeWallet
-launchDate: 
-latestUpdate: 2020-04-07
-apkVersionName: "12.7.7"
-stars: 3.5
-ratings: 568
-reviews: 346
+released: 2016-08-25
+latestUpdate: 2021-05-05
+version: "12.7.8"
+stars: 3.4
+ratings: 573
+reviews: 349
 size: 23M
 website: https://lykke.com/wallet
 repository: 
@@ -20,7 +20,6 @@ icon: com.lykkex.LykkeWallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-09
-reviewStale: true
 signer: 
 reviewArchive:
 

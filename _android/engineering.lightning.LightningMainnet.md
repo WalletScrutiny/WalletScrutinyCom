@@ -1,12 +1,14 @@
 ---
+wsId: 
 title: "Lightning (Remove Funds by Dec 31st)"
 altTitle: 
+authors:
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
-launchDate: 
+released: 
 latestUpdate: 2020-10-02
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 

@@ -1,37 +1,41 @@
 ---
-wsId: 
+wsId: yellowcard
 title: "Yellow Card: Buy and Sell Bitcoin"
 altTitle: 
 authors:
-
-users: 50000
+- kiwilamb
+users: 100000
 appId: io.yellowcard.app
-launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "2.3"
-stars: 3.0
-ratings: 695
-reviews: 529
+released: 2019-05-14
+latestUpdate: 2021-06-30
+version: "2.3"
+stars: 3.3
+ratings: 955
+reviews: 732
 size: 1.2M
-website: 
+website: https://yellowcard.io/
 repository: 
 issue: 
 icon: io.yellowcard.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: yellowcard_app
+providerLinkedIn: yellowcardapp
+providerFacebook: yellowcardapp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+The Yellow Card wallet has no statements on [their website](https://yellowcard.io/) or in their FAQ regarding the management of private keys.
+This leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 

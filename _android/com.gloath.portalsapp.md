@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.gloath.portalsapp
-launchDate: 
+released: 2018-03-20
 latestUpdate: 2020-12-20
-apkVersionName: "0.0.4a"
+version: "0.0.4a"
 stars: 4.0
-ratings: 97
-reviews: 49
+ratings: 110
+reviews: 55
 size: 11M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.gloath.portalsapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-08
-reviewStale: true
 signer: 
 reviewArchive:
 

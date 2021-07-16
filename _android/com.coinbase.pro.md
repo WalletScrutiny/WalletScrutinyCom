@@ -4,14 +4,14 @@ title: "Coinbase Pro – Bitcoin & Crypto Trading"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.coinbase.pro
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "1.0.72"
-stars: 4.2
-ratings: 8623
-reviews: 3193
+released: 2020-01-06
+latestUpdate: 2021-06-17
+version: "1.0.78"
+stars: 4.0
+ratings: 13061
+reviews: 4264
 size: 57M
 website: https://pro.coinbase.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinbase.pro.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,6 +1,6 @@
 ---
 wsId: atomex
-title: "Atomex Wallet & DEX"
+title: "Atomex Crypto Wallet, Exchange"
 altTitle: 
 authors:
 - leo
@@ -8,19 +8,18 @@ appId: com.atomex.ios
 appCountry: 
 idd: 1534717828
 released: 2020-12-03
-updated: 2021-03-26
-version: "1.7"
-score: 
+updated: 2021-05-29
+version: "1.9"
+stars: 
 reviews: 
-size: 106737664
-developerWebsite: https://atomex.me
+size: 108124160
+website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: 
 icon: com.atomex.ios.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

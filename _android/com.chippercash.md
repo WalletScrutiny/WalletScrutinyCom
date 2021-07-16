@@ -6,12 +6,12 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.chippercash
-launchDate: 
-latestUpdate: 2021-03-24
-apkVersionName: "1.9.1"
+released: 2018-07-07
+latestUpdate: 2021-07-09
+version: "1.9.8"
 stars: 4.1
-ratings: 28090
-reviews: 17705
+ratings: 30588
+reviews: 19229
 size: Varies with device
 website: https://chippercash.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.chippercash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

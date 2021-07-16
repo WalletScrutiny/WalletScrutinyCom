@@ -6,9 +6,9 @@ authors:
 - leo
 users: 500
 appId: com.dcash.wallet
-launchDate: 
+released: 
 latestUpdate: 2020-07-27
-apkVersionName: "1.7.6"
+version: "1.7.6"
 stars: 5.0
 ratings: 5
 reviews: 2

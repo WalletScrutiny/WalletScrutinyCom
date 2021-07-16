@@ -6,13 +6,13 @@ authors:
 
 users: 5000
 appId: com.sologenicwallet
-launchDate: 
-latestUpdate: 2021-04-03
-apkVersionName: "2.0.3"
-stars: 3.5
-ratings: 67
-reviews: 45
-size: 53M
+released: 2020-02-04
+latestUpdate: 2021-06-25
+version: "2.0.6"
+stars: 3.7
+ratings: 113
+reviews: 56
+size: 48M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.sologenicwallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,13 +6,13 @@ authors:
 - kiwilamb
 users: 1000000
 appId: wallet.gem.com.atoken
-launchDate: 
-latestUpdate: 2021-03-31
-apkVersionName: "4.0.8"
+released: 2020-03-01
+latestUpdate: 2021-06-30
+version: "4.1.4"
 stars: 4.0
-ratings: 3801
-reviews: 2388
-size: 66M
+ratings: 3981
+reviews: 2450
+size: 56M
 website: https://www.atoken.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: wallet.gem.com.atoken.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

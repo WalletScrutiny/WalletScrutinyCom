@@ -1,33 +1,32 @@
 ---
-wsId: 
+wsId: CoinZoom
 title: "CoinZoom Pro"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 100000
 appId: com.czprime
-launchDate: 
-latestUpdate: 2021-04-13
-apkVersionName: "1.3.8"
-stars: 3.7
-ratings: 1588
-reviews: 680
+released: 2020-06-11
+latestUpdate: 2021-07-13
+version: "1.4.5"
+stars: 4.2
+ratings: 1748
+reviews: 724
 size: 27M
-website: 
+website: https://www.coinzoom.com
 repository: 
 issue: 
 icon: com.czprime.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-20
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: GetCoinZoom
+providerLinkedIn: coinzoomhq
+providerFacebook: CoinZoom
 providerReddit: 
 
 redirect_from:
@@ -35,3 +34,11 @@ redirect_from:
 ---
 
 
+The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
+Found under "Where can I find the private keys for my wallet?"
+
+> As CoinZoom is a hosted wallet, it's not feasible to provide the private keys to individual wallet addresses; doing so would prevent us from taking advantage of our secure cold-storage technology to protect your funds.
+
+this leads us to conclude the wallet funds are in control of the provider and hence custodial.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.

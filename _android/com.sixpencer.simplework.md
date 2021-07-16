@@ -4,23 +4,22 @@ title: "Dfox-Crypto Wallet and DeFi Portfolio"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.sixpencer.simplework
-launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "1.3.7"
-stars: 4.7
-ratings: 111
-reviews: 53
-size: 18M
+released: 2020-10-09
+latestUpdate: 2021-06-23
+version: "1.4.3"
+stars: 4.4
+ratings: 168
+reviews: 82
+size: 21M
 website: https://dfox.cc
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-22
-reviewStale: true
 signer: 
 reviewArchive:
 

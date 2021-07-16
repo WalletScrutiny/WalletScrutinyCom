@@ -6,12 +6,12 @@ authors:
 
 users: 10000
 appId: org.electroncash.wallet
-launchDate: 2018-12-08
+released: 2018-12-08
 latestUpdate: 2021-03-02
-apkVersionName: "4.2.3-3"
+version: "4.2.3-3"
 stars: 4.1
-ratings: 144
-reviews: 72
+ratings: 160
+reviews: 77
 size: 35M
 website: https://electroncash.org
 repository: 
@@ -20,7 +20,6 @@ icon: org.electroncash.wallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
-reviewStale: true
 signer: 
 reviewArchive:
 

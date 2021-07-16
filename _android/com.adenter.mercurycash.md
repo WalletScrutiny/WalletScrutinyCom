@@ -4,15 +4,15 @@ title: "Mercury Cash"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.adenter.mercurycash
-launchDate: 
-latestUpdate: 2021-03-29
-apkVersionName: "5.0.3"
-stars: 4.0
-ratings: 187
-reviews: 131
-size: 85M
+released: 2017-07-28
+latestUpdate: 2021-06-28
+version: "5.0.4"
+stars: 3.9
+ratings: 207
+reviews: 141
+size: 80M
 website: http://mercury.cash
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.adenter.mercurycash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
 

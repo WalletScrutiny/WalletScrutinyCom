@@ -1,33 +1,32 @@
 ---
 wsId: klever
-title: "Klever Wallet: Buy Bitcoin, Ethereum, Tron, Crypto"
+title: "Klever Wallet: Bitcoin, Ethereum, Tron, & more"
 altTitle: 
 authors:
 - leo
 users: 500000
 appId: cash.klever.blockchain.wallet
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "4.1.10"
-stars: 3.7
-ratings: 7423
-reviews: 4188
+released: 2020-08-27
+latestUpdate: 2021-06-16
+version: "4.2.3"
+stars: 3.9
+ratings: 8629
+reviews: 4824
 size: Varies with device
-website: https://www.tronwallet.me
+website: https://www.klever.io
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
-reviewStale: true
+date: 2021-05-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: klever_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: klever.io
 providerReddit: 
 
 redirect_from:
@@ -35,15 +34,11 @@ redirect_from:
 ---
 
 
-We found this app as [TronWallet](/com.tronwallet2/)'s listing at Google named
-this app's website as its website, too. Or actually both apps claim
-`www.tronwallet.me` was their website but that page only redirects to
-`klever.io/en/` which in turn only points to this app not to TronWallet.
+On their website we read:
 
-This app's description looks like a copy of TronWallet's description with the
-same strong claims about being non-custodial and also without a link to the source
-code on Google Play. On the website we can't find a link to their source
-code neither.
-[Searching GitHub](https://github.com/search?q=%22cash.klever.blockchain.wallet%22&type=Code)
-doesn't yield relevant results neither and we conclude that this wallet is
-closed source and thus **not verifiable**.
+> **Peer-to-Peer**<br>
+  Klever is a decentralized p2p and self-custody wallet network. Your Keys, your
+  crypto.
+
+so they claim the app is self-custodial but we cannot find any source code which
+makes the app **not verifiable**.

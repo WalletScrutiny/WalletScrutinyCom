@@ -6,24 +6,27 @@ authors:
 - leo
 users: 10000000
 appId: piuk.blockchain.android
-launchDate: 2013-02-01
-latestUpdate: 2021-03-31
-apkVersionName: "Varies with device"
+released: 2013-02-01
+latestUpdate: 2021-07-14
+version: "Varies with device"
 stars: 3.2
-ratings: 104042
-reviews: 51857
+ratings: 107584
+reviews: 53825
 size: Varies with device
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
-issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
+issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1293
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-11
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-15
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
-
+- date: 2020-07-11
+  version: "6.35.0"
+  appHash: 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
+  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
+  verdict: nonverifiable
 
 providerTwitter: blockchain
 providerLinkedIn: blockchain
@@ -38,7 +41,12 @@ redirect_from:
 ---
 
 
-**Update**: In
+**Update 2021-07-15**: The app on Play Store is version **8.8.7**. The source
+repository does not contain any such version. The latest version on their GitHub
+repository as of writing this is **8.8.5**. Without source available, this app
+is **not verifiable**.
+
+**Update 2020-07-11**: In
 [this comment to our now closed issue](https://github.com/blockchain/My-Wallet-V3-Android/issues/1256#issuecomment-651718119)
 they claim to have addressed the issues we had earlier reported. A first update
 went not so good as the new version was not yet rolled out but now we have both
@@ -53,7 +61,7 @@ appId:          piuk.blockchain.android
 signer:         87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 apkVersionName: 6.35.0
 apkVersionCode: 551
-apkHash:        07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
+appHash:        07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
 
 Diff:
 Files /tmp/fromPlay_piuk.blockchain.android_551/AndroidManifest.xml and /tmp/fromBuild_piuk.blockchain.android_551/AndroidManifest.xml differ

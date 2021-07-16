@@ -1,24 +1,25 @@
 ---
+wsId: 
 title: "Bitcoin Pay"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.bitcoininc.bitcoinpay
-launchDate: 
+released: 2016-05-13
 latestUpdate: 2017-07-06
-apkVersionName: "1.0.1"
-stars: 3.4
-ratings: 82
-reviews: 44
+version: "1.0.1"
+stars: 3.5
+ratings: 103
+reviews: 51
 size: 14M
 website: 
 repository: 
 issue: 
 icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-20
-reviewStale: false
+verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-18
 signer: 
 reviewArchive:
 

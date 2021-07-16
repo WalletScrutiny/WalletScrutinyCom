@@ -8,19 +8,18 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2021-04-08
-version: "3.14"
-score: 3.92308
-reviews: 13
-size: 28977152
-developerWebsite: 
+updated: 2021-07-02
+version: "3.21"
+stars: 4.45
+reviews: 20
+size: 31522816
+website: 
 repository: 
 issue: 
 icon: com.tangem.Tangem.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-10
-reviewStale: true
 signer: 
 reviewArchive:
 

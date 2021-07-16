@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: kr.co.keypair.nextouch
-launchDate: 
+released: 2018-10-01
 latestUpdate: 2019-07-22
-apkVersionName: "1.0.0.57"
-stars: 3.5
-ratings: 8
-reviews: 5
+version: "1.0.0.57"
+stars: 3.2
+ratings: 10
+reviews: 6
 size: 12M
 website: http://www.eunex.co
 repository: 
@@ -20,7 +20,6 @@ icon: kr.co.keypair.nextouch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-07
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -36,4 +35,4 @@ redirect_from:
 
 
 As far as we can see, this is the same as
-[this app](/android/kr.co.keypair.keywalletTouch) and thus is **not verifiable**.
+{% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.

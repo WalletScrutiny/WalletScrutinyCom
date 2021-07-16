@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.krakenfutures
-launchDate: 
+released: 2019-10-07
 latestUpdate: 2021-03-24
-apkVersionName: "5.24.0"
-stars: 3.4
-ratings: 81
-reviews: 34
+version: "5.24.0"
+stars: 3.2
+ratings: 101
+reviews: 45
 size: 12M
 website: https://futures.kraken.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.krakenfutures.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

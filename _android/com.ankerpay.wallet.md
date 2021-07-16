@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.ankerpay.wallet
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "v1.0.11.28"
-stars: 4.1
-ratings: 96
-reviews: 82
+released: 2019-09-17
+latestUpdate: 2021-06-11
+version: "v1.0.12.2"
+stars: 4.0
+ratings: 104
+reviews: 87
 size: 4.9M
 website: https://ankerid.com/mobile-wallet
 repository: 
@@ -20,7 +20,6 @@ icon: com.ankerpay.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 

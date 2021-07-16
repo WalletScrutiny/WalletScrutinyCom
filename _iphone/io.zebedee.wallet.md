@@ -8,19 +8,18 @@ appId: io.zebedee.wallet
 appCountry: 
 idd: 1484394401
 released: 2020-11-28
-updated: 2021-04-08
-version: "2.8"
-score: 4.71429
-reviews: 7
-size: 102689792
-developerWebsite: https://zebedee.io
+updated: 2021-05-29
+version: "2.9"
+stars: 4.75
+reviews: 8
+size: 103621632
+website: https://zebedee.io
 repository: 
 issue: 
 icon: io.zebedee.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

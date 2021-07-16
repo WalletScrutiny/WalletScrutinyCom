@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.mykey.id
-launchDate: 
+released: 
 latestUpdate: 2021-02-04
-apkVersionName: "3.5.0"
+version: "3.5.0"
 stars: 4.6
 ratings: 116
 reviews: 82
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.mykey.id.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
 reviewStale: true
 signer: 

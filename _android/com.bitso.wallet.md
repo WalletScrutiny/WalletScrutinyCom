@@ -1,26 +1,25 @@
 ---
 wsId: bitso
-title: "Bitso - Buy and sell bitcoin"
+title: "Bitso - Buy bitcoin and move your money easily"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.bitso.wallet
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "2.25.0"
-stars: 3.2
-ratings: 5
-reviews: 4
-size: 27M
+released: 2018-02-19
+latestUpdate: 2021-07-05
+version: "2.32.0"
+stars: 4.5
+ratings: 13485
+reviews: 6566
+size: 28M
 website: https://bitso.com/app
 repository: 
 issue: 
 icon: com.bitso.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+date: 2021-05-25
 signer: 
 reviewArchive:
 
@@ -35,6 +34,10 @@ redirect_from:
 ---
 
 
-Bitso appears to be an exchange and as so often, we see no mentions of security
-in the app description or the website and have to assume it is a custodial
-offering and thus **not verifiable**.
+Bitso appears to be an exchange and their statement on security on their website
+
+> **Maximum security**<br>
+  We work every day to keep your account protected. That's why more than 2
+  million users trust us.
+
+is saying "trust us". Their security is **not verifiable**.

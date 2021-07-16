@@ -6,11 +6,11 @@ authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
-launchDate: 
+released: 2019-01-20
 latestUpdate: 2020-08-05
-apkVersionName: "1.0.9"
+version: "1.0.9"
 stars: 4.1
-ratings: 162
+ratings: 163
 reviews: 103
 size: 2.0M
 website: https://www.bithumbsg.com
@@ -20,7 +20,6 @@ icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

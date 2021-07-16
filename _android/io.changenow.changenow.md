@@ -6,13 +6,13 @@ authors:
 - leo
 users: 10000
 appId: io.changenow.changenow
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "1.107"
+released: 2018-09-07
+latestUpdate: 2021-07-07
+version: "1.114"
 stars: 4.5
-ratings: 766
-reviews: 406
-size: 5.8M
+ratings: 1080
+reviews: 560
+size: 5.9M
 website: http://changenow.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.changenow.changenow.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

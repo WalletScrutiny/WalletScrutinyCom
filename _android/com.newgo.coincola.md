@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.newgo.coincola
-launchDate: 
-latestUpdate: 2021-03-04
-apkVersionName: "4.7.2"
-stars: 3.4
-ratings: 585
-reviews: 272
+released: 2017-07-07
+latestUpdate: 2021-07-13
+version: "4.9.0"
+stars: 4.5
+ratings: 825
+reviews: 350
 size: 31M
 website: https://www.coincola.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.newgo.coincola.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-03
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.gemini.android.app
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "3.11.0"
-stars: 0.0
-ratings: 
-reviews: 
+released: 2018-12-10
+latestUpdate: 2021-07-14
+version: "3.24.0"
+stars: 4.5
+ratings: 19408
+reviews: 4246
 size: Varies with device
 website: https://gemini.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.gemini.android.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

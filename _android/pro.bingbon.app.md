@@ -1,37 +1,40 @@
 ---
-wsId: 
+wsId: bingbon
 title: "Bingbon Bitcoin & Cryptocurrency Platform"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 100000
 appId: pro.bingbon.app
-launchDate: 
-latestUpdate: 2021-04-08
-apkVersionName: "2.29.0"
-stars: 3.9
-ratings: 637
-reviews: 409
-size: 26M
-website: 
+released: 2019-05-18
+latestUpdate: 2021-07-10
+version: "2.34.5"
+stars: 4.1
+ratings: 1068
+reviews: 615
+size: 27M
+website: https://bingbon.com
 repository: 
 issue: 
 icon: pro.bingbon.app.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-21
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: BingbonOfficial
+providerLinkedIn: bingbon
+providerFacebook: BingbonOfficial
+providerReddit: Bingbon
 
 redirect_from:
 
 ---
 
 
+We cannot find any claims as to the custody of private keys found from Bingbon.
+We must assume the wallet app is custodial.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.

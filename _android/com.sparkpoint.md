@@ -7,12 +7,12 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
-launchDate: 
-latestUpdate: 2021-03-30
-apkVersionName: "6.3.1"
-stars: 3.0
-ratings: 481
-reviews: 414
+released: 2019-07-20
+latestUpdate: 2021-07-10
+version: "6.4.6"
+stars: 4.5
+ratings: 575
+reviews: 496
 size: 13M
 website: https://sparkpoint.io/
 repository: 
@@ -21,7 +21,6 @@ icon: com.sparkpoint.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-06
-reviewStale: true
 signer: 
 reviewArchive:
 

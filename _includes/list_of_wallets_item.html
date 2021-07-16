@@ -1,75 +1,40 @@
 {% include base_path %}
 
+{% comment %}
+
+
+  This file renders the wallet badges without modal popups. This is the fallback
+  for javascriptless browsers.
+
+
+{% endcomment %}
+
 {% if post.altTitle %}
   {% assign title = post.altTitle %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% case post.collection %}
+  {% when "android" %}{% assign faCollection = "fab fa-google-play" %}
+  {% when "iphone" %}{% assign faCollection = "fab fa-app-store" %}
+  {% when "hardware" %}{% assign faCollection = "fas fa-toolbox" %}
+{% endcase %}
 
-{% comment %}
-  Neither Liquid nor CSS have a nice pretty-print for numbers. As all numbers
-  here have only one significant digit, getting number grouping can be achieved
-  by replacing "000" with " 000" from the right and to avoid a space in that
-  string, the first replacement zero gets a margin instead of a space.
-{% endcomment %}
-{% assign zeroGroupReversed = '<span style="margin-left: 0.2em;">0</span>00' | split: "" | reverse | join: "" %}
-{% assign prettyUserCount = post.users | split: "" | reverse | join: "" | replace: "000", zeroGroupReversed | split: "" | reverse | join: "" %}
-{% assign simpleAppId = post.appId | replace: '.', '' %}
+{% assign simpleAppId = post.appId | replace: '.', '' | prepend: post.collection %}
 
-<div id="card_{{ simpleAppId }}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="{{ post.url }}">
-  <div style="width:7em;position: relative;" onclick="toggleApp('{{ simpleAppId }}')">
-    <div id="show_{{ simpleAppId }}" class="card-expand-close">
-      <i class="fas fa-plus-square"></i>
-    </div>
-    <div id="hide_{{ simpleAppId }}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
-      <i class="fas fa-minus-square"></i>
-    </div>
+<div class="AppDisplayCard" style="float:left">
+  <div style="width:7em;position:relative">
     <div style="position:relative">
       <div class="flex-r">
         <div class="app_logo">
-            <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ platform }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo">
+          <a href="{{ post.url }}"><img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo"></a>
+          <i class="platform-logo {{ faCollection }}"></i>
         </div>
-        <span class="stamp stamp-{{ post.verdict }}" alt=""></span>
+        <span class="stamp stamp-{{ post.verdict }}"></span>
       </div>
     </div>
       <div class="app_info_box">
           <strong>{{ title }}</strong>
       </div>
-  </div>
-  <div id="details_{{ simpleAppId }}" class="item-detail-container" style="width:20em;display:none">
-    <table>
-      <tr><td>Verdict</td>
-        <td class="verdict">
-          <span class="{{ post.verdict }} tooltip">
-            {{ site.data.verdicts[post.verdict].title }}
-            <span class="tooltiptext">
-              {{ site.data.verdicts[post.verdict].message }}
-            </span>
-          </span>
-        </td>
-      </tr>
-      {% if post.users %}<tr><td>Downloads</td><td>{{ prettyUserCount }}</td></tr>{% endif %}
-      {% if post.stars %}<tr><td>Rating</td><td>{{ post.stars }} stars by {{ post.ratings }} users</td></tr>{% endif %}
-      {% if post.score %}<tr><td>Rating</td><td>{{ post.score | round: 1 }} stars by {{ post.reviews }} users</td></tr>{% endif %}
-      {% if post.size %}<tr><td>App size</td><td>{{ post.size | divided_by: 1000000.0 | round:1 }}MB</td></tr>{% endif %}
-      {% if post.released %}<tr><td>Launched</td><td>{{ post.released | date: '%Y-%m-%d' }}</td></tr>{% endif %}
-      {% if post.launchDate %}<tr><td>Launched</td><td>{{ post.launchDate | date: '%Y-%m-%d' }}</td></tr>{% endif %}
-      {% if post.updated %}<tr><td>Updated</td><td>{{ post.updated | date: '%Y-%m-%d' }}</td></tr>{% endif %}
-      {% if post.date %}<tr><td>Reviewed</td><td>{{ post.date | date: '%Y-%m-%d' }}</td></tr>{% endif %}
-      {% if platform == "android" %}<tr><td>Google Play</td><td><a href="https://play.google.com/store/apps/details?id={{ post.appId }}">{{ post.appId }}</a></td></tr>
-      {% elsif platform == "iphone" %}<tr><td>App Store</td><td><a href="https://apps.apple.com/us/app/id{{ post.idd }}">{{ post.appId }}</a></td></tr>
-      {% endif %}
-      {% if post.website %}<tr><td>Website</td><td><a href="{{ post.website }}">{{ post.website }}</a></td></tr>{% endif %}
-      {% if post.developerWebsite %}<tr><td>Website</td><td><a href="{{ post.developerWebsite }}">{{ post.developerWebsite }}</a></td></tr>{% endif %}
-      {% if post.repository %}<tr><td>Source Code</td><td><a href="{{ post.repository }}">{{ post.repository }}</a></td></tr>{% endif %}
-      {% if post.issue %}<tr><td>Open Issue</td><td><a href="{{ post.issue }}">{{ post.issue }}</a></td></tr>{% endif %}
-      {% if post.providerTwitter %}<tr><td>Twitter</td><td><a href="https://twitter.com/{{ post.providerTwitter }}">@{{ post.providerTwitter }}</a></td></tr>{% endif %}
-      {% if post.providerFacebook %}<tr><td>Facebook</td><td><a href="https://www.facebook.com/{{ post.providerFacebook }}">{{ post.providerFacebook }}</a></td></tr>{% endif %}
-      {% if post.providerReddit %}<tr><td>Reddit</td><td><a href="https://www.reddit.com/r/{{ post.providerReddit }}">r/{{ post.providerReddit }}</a></td></tr>{% endif %}
-      {% if post.providerLinkedIn %}<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/company/{{ post.providerLinkedIn }}">{{ post.providerLinkedIn }}</a></td></tr>{% endif %}
-    </table>
-    <p><a href="{{ base_path }}{{ post.url }}" rel="permalink">
-      <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
-    </a></p>
   </div>
 </div>

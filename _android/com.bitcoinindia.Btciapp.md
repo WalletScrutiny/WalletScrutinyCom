@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.bitcoinindia.Btciapp
-launchDate: 
-latestUpdate: 2021-03-06
-apkVersionName: "3.1.39"
-stars: 2.9
-ratings: 1126
-reviews: 807
+released: 2018-06-11
+latestUpdate: 2021-05-27
+version: "3.1.43"
+stars: 2.2
+ratings: 1280
+reviews: 912
 size: 11M
 website: https://www.bitcoin-india.org
 repository: 
@@ -19,15 +19,14 @@ issue:
 icon: com.bitcoinindia.Btciapp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+date: 2021-05-31
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: BTC_india
+providerLinkedIn: bitcoin-india
+providerFacebook: Bitcoin.India.Org
 providerReddit: 
 
 redirect_from:
@@ -35,32 +34,49 @@ redirect_from:
 ---
 
 
+In the description we read:
+
 > India’s Most Secure Bitcoin Wallet
 
 Ok, sure. :)
 
-> • You are the only one who can control and have access to your wallet.
+> You are the only one who can control and have access to your wallet.
 
 That's a claim of being non-custodial?
 
-> - If your e-mail gets compromised, only you can access your Bitcoin India wallet, because you would still have 2fa on your phone at Google Authenticator.
+> If your e-mail gets compromised, only you can access your Bitcoin India
+  wallet, because you would still have 2fa on your phone at Google
+  Authenticator.
 
 If the email is relevant for your security, somebody can grant you access and
 that somebody ... has access. That does not sound non-custodial.
 
-> - All transactions are synced across all of your devices in real time and are protected by an intense bank-level security protocol.
+> All transactions are synced across all of your devices in real time and are
+  protected by an intense bank-level security protocol.
 
 Now if we would give them the benefit of the doubt and assume you restored the
 same seed on all devices then yes, the blockchain would make sure of keeping
 your devices in sync but somehow "protected by an intense bank-level security
 protocol" does induce the opposite of trust.
 
-Oh, the rating is 2.4 stars. Apparently this is a bad product that doesn't
-bother to buy 5 star ratings like other scammy apps.
+Many reviews read like [this on Play Store](https://play.google.com/store/apps/details?id=com.bitcoinindia.Btciapp&reviewId=gp%3AAOqpTOE83Fa_4e8yAHGLd4u4NXTsd_Tj8iJ-ZJDTJsibJFw987tNkwVz_mM3adWH9wvIvTN9--jTstHEgfo_NoY):
 
-Many reviews read like [this](https://play.google.com/store/apps/details?id=com.bitcoinindia.Btciapp&reviewId=gp%3AAOqpTOE83Fa_4e8yAHGLd4u4NXTsd_Tj8iJ-ZJDTJsibJFw987tNkwVz_mM3adWH9wvIvTN9--jTstHEgfo_NoY):
+> **Sagar Agarwal**<br>
+  ★☆☆☆☆ 26 November 2020<br>
+  This people are fraud u can only deposit money into it but cannot withdraw or
+  transfer your coins. No customer supports no help desk. Beware of this fraud
+  app!
 
-> This people are fraud u can only deposit money into it but cannot withdraw or transfer your coins. No customer supports no help desk. Beware of this fraud app!
+or on App Store:
+
+> ★☆☆☆☆<br>
+  Sripada@1, 12/08/2017<br>
+  **It’s more than 200 cr scam org app**<br>
+  More than 200 Crore scam,<br>
+  Bitcoin-India.org company blocked more 3000 Bitcoin holder account without any
+  notice. DENIED WITHDRAWAL OF THIER FUND @BTC_india @arunjaitley
+  #bitcoin_sykamreddy_scam<br>
+  Don’t install this app
 
 At this point we assume the worst. At the very least it is a custodial offering
 and thus **not verifiable** but ... don't install it. Just don't.

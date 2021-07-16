@@ -6,9 +6,9 @@ authors:
 - leo
 users: 1000
 appId: com.blockabc.abcwallet
-launchDate: 
+released: 
 latestUpdate: 2020-06-17
-apkVersionName: "1.7.2"
+version: "1.7.2"
 stars: 0.0
 ratings: 
 reviews: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 - date: 2021-04-12
   version: "1.7.2"
-  apkHash: 08ecb2acb45c0176bbbb7efca25a31a9980dd025cadb390e5c59f599b372d9f7
+  appHash: 08ecb2acb45c0176bbbb7efca25a31a9980dd025cadb390e5c59f599b372d9f7
   gitRevision: dc6fa2c62d78d003f08965c9a60785ec980ed59c
   verdict: obfuscated
 

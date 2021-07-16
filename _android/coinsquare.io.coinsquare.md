@@ -6,13 +6,13 @@ authors:
 - leo
 users: 50000
 appId: coinsquare.io.coinsquare
-launchDate: 
-latestUpdate: 2020-07-29
-apkVersionName: "2.13.8"
-stars: 2.1
-ratings: 511
-reviews: 393
-size: 8.2M
+released: 2017-08-30
+latestUpdate: 2021-04-30
+version: "2.13.10"
+stars: 2.2
+ratings: 750
+reviews: 509
+size: 7.3M
 website: https://coinsquare.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: coinsquare.io.coinsquare.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

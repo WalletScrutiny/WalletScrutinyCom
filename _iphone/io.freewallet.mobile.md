@@ -10,17 +10,16 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: "1.0.9"
-score: 4.5
-reviews: 4
+stars: 3.33333
+reviews: 6
 size: 13651968
-developerWebsite: https://freewallet.io
+website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: false
 signer: 
 reviewArchive:
 

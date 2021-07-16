@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir images/wallet_icons/{android,iphone}/{small,tiny}/ 2> /dev/null
-rm /tmp/revert.txt
+rm /tmp/revert.txt 2> /dev/null
 
 resizeDeterministically() {
   filename=$1
@@ -29,5 +29,8 @@ parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_i
 files=$( ls images/wallet_icons/iphone/*.* )
 parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/small 100 ::: $files
 parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 ::: $files
+files=$( ls images/wallet_icons/hardware/*.* )
+parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/small 100 ::: $files
+parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25 ::: $files
 
 git checkout HEAD $( cat /tmp/revert.txt | paste -sd ' ' )

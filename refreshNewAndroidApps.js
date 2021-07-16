@@ -7,9 +7,9 @@ const newAppIds = process.argv.slice(2)
 
 console.log(`Adding skeletons for ${newAppIds} ...`)
 
-newAppIds.forEach(function(appId) {
+newAppIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    fs.exists(path, function(fileExists) {
+    fs.exists(path, fileExists => {
       if (!fileExists) {
         const file = fs.createWriteStream(path)
         file.write(`---
@@ -17,9 +17,10 @@ appId: ${appId}
 verdict: wip
 ---
 `,
-        function(err) {
-          if (err)
+        err => {
+          if (err) {
             console.error(`Error with id ${idd}: ${err}`)
+          }
           console.log(`Success: ${path}`)
           helper.refreshFile(`${appId}.md`)
         })

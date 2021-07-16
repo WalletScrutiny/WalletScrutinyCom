@@ -6,11 +6,11 @@ authors:
 - leo
 users: 1000
 appId: btcmine.btcwallet
-launchDate: 
+released: 2017-08-13
 latestUpdate: 2017-08-13
-apkVersionName: "1.1"
-stars: 3.7
-ratings: 14
+version: "1.1"
+stars: 3.9
+ratings: 16
 reviews: 7
 size: 2.3M
 website: 
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: btcmine.btcwallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: false
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-09
 signer: 
 reviewArchive:
+- date: 2020-12-14
+  version: "1.1"
+  appHash: 
+  gitRevision: 9159da8fa35082b76a2f1ea1029a90b22af4e042
+  verdict: custodial
 
 
 providerTwitter: 
@@ -34,6 +38,9 @@ redirect_from:
   - /btcmine.btcwallet/
 ---
 
+
+**Update 2021-07-09**: This app is no more. Given the shady findings below we
+assume it was removed by Google and not coming back.
 
 This app features no website or claims about the custody of coins. Its
 description starts with:

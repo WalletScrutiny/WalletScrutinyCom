@@ -1,17 +1,17 @@
 ---
 wsId: CoinEx
-title: "CoinEx"
+title: "CoinEx - A Trustworthy Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.coinex.trade.play
-launchDate: 
-latestUpdate: 2021-04-03
-apkVersionName: "1.9.5.2"
-stars: 4.6
-ratings: 8131
-reviews: 2731
+released: 2019-12-27
+latestUpdate: 2021-07-08
+version: "3.0.0"
+stars: 4.7
+ratings: 22470
+reviews: 7050
 size: 14M
 website: https://www.coinex.co
 repository: 
@@ -20,7 +20,6 @@ icon: com.coinex.trade.play.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

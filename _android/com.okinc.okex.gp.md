@@ -4,15 +4,15 @@ title: "OKEx - Bitcoin/Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.okinc.okex.gp
-launchDate: 
-latestUpdate: 2021-04-16
-apkVersionName: "4.8.3"
-stars: 4.6
-ratings: 63951
-reviews: 29701
-size: 132M
+released: 2019-10-29
+latestUpdate: 2021-05-24
+version: "4.9.1"
+stars: 4.3
+ratings: 102507
+reviews: 37444
+size: 140M
 website: https://www.okex.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.okinc.okex.gp.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

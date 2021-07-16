@@ -1,18 +1,18 @@
 ---
 wsId: guarda
-title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
+title: "Guarda Crypto Wallet: Bitcoin, Dogecoin, Ripple"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.crypto.multiwallet
-launchDate: 2018-11-01
-latestUpdate: 2021-04-12
-apkVersionName: "2.24.8"
+released: 2018-11-01
+latestUpdate: 2021-07-12
+version: "2.35.15"
 stars: 4.3
-ratings: 2479
-reviews: 1354
-size: 33M
+ratings: 3007
+reviews: 1631
+size: 35M
 website: http://guarda.co
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42
@@ -20,7 +20,6 @@ icon: com.crypto.multiwallet.jpg
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-17
-reviewStale: true
 signer: 
 reviewArchive:
 

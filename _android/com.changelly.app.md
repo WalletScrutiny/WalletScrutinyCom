@@ -6,13 +6,13 @@ authors:
 
 users: 100000
 appId: com.changelly.app
-launchDate: 
-latestUpdate: 2021-04-06
-apkVersionName: "2.7.3"
-stars: 4.1
-ratings: 2104
-reviews: 1265
-size: 7.2M
+released: 2018-08-28
+latestUpdate: 2021-07-12
+version: "2.7.8"
+stars: 4.7
+ratings: 2812
+reviews: 1550
+size: 45M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.changelly.app.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

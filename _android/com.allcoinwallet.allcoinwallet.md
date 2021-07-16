@@ -4,14 +4,14 @@ title: "All Coin Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.allcoinwallet.allcoinwallet
-launchDate: 
+released: 2019-01-28
 latestUpdate: 2019-11-22
-apkVersionName: "1.2.22"
-stars: 3.9
-ratings: 62
-reviews: 34
+version: "1.2.22"
+stars: 3.8
+ratings: 102
+reviews: 48
 size: 10M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

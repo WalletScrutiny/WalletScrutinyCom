@@ -6,13 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.conio.wallet
-launchDate: 
-latestUpdate: 2020-12-14
-apkVersionName: "3.3.5"
-stars: 3.1
-ratings: 547
-reviews: 365
-size: 70M
+released: 
+latestUpdate: 2021-05-21
+version: "3.3.6"
+stars: 3.5
+ratings: 585
+reviews: 393
+size: 71M
 website: https://www.conio.com/en
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.conio.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-09
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,19 +8,18 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2021-04-12
-version: "8.0"
-score: 4.69182
-reviews: 318
-size: 20217856
-developerWebsite: https://beta.strike.me/
+updated: 2021-07-14
+version: "21.0"
+stars: 4.4954
+reviews: 436
+size: 23247872
+website: https://beta.strike.me/
 repository: 
 issue: 
 icon: com.jackmallers.Strike.jpg
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-18
-reviewStale: true
 signer: 
 reviewArchive:
 

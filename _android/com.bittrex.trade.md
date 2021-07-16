@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.bittrex.trade
-launchDate: 
-latestUpdate: 2021-03-12
-apkVersionName: "1.13.2"
-stars: 2.3
-ratings: 1358
-reviews: 908
-size: 49M
+released: 2019-12-19
+latestUpdate: 2021-07-13
+version: "1.14.3"
+stars: 2.4
+ratings: 1679
+reviews: 1144
+size: 52M
 website: https://global.bittrex.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bittrex.trade.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

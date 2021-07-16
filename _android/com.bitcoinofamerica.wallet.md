@@ -6,13 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.bitcoinofamerica.wallet
-launchDate: 
-latestUpdate: 2020-04-01
-apkVersionName: "1.1.2"
-stars: 4.4
-ratings: 162
-reviews: 49
-size: 55M
+released: 2019-01-14
+latestUpdate: 2021-04-28
+version: "1.1.3"
+stars: 4.5
+ratings: 179
+reviews: 54
+size: 39M
 website: https://www.bitcoinofamerica.org
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-08
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -46,9 +45,9 @@ and
 > Open-source code. Available at `https://github.com/Airbitz`
 
 but [that GitHub account](https://github.com/Airbitz) is of
-[another wallet](/android/com.airbitz/) and certainly not under the provided
+another wallet: {% include walletLink.html wallet='android/com.airbitz' %} and certainly not under the provided
 link as there is no code there
-[or anywhere else on GitLab](https://github.com/search?q=com.bitcoinofamerica.wallet).
+[or anywhere else on GitHub](https://github.com/search?q=com.bitcoinofamerica.wallet).
 
 As the provider's website also is down as of now, we don't expect much from this
 wallet and file it as **not verifiable**.

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: evercoin
 title: "Evercoin: Bitcoin, Ripple, ETH"
 altTitle: 
 authors:
@@ -10,27 +10,35 @@ idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30
 version: "1.9.5"
-score: 4.65808
-reviews: 2761
+stars: 4.65412
+reviews: 2764
 size: 63333376
-developerWebsite: 
+website: https://evercoin.com
 repository: 
 issue: 
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-26
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: everc0in
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: evercoin
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This app's description says:
+
+> Evercoin is an integrated non-custodial wallet for managing and exchanging
+  cryptocurrencies.
+
+So ... is there source code to reproduce the build?
+
+Unfortunately there is no mention of source code anywhere. Absent source code
+this app is **not verifiable**.

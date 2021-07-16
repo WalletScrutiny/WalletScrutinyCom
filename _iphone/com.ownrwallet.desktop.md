@@ -8,27 +8,26 @@ appId: com.ownrwallet.desktop
 appCountry: 
 idd: 1520395378
 released: 2020-08-13
-updated: 2021-02-25
-version: "1.4.1"
-score: 
+updated: 2021-06-14
+version: "1.6.0"
+stars: 
 reviews: 
-size: 123824490
-developerWebsite: https://ownrwallet.com
+size: 124475844
+website: https://ownrwallet.com
 repository: 
 issue: 
 icon: com.ownrwallet.desktop.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-31
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ownrwallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ownrwallet
+providerReddit: ownrwallet
 
 redirect_from:
 

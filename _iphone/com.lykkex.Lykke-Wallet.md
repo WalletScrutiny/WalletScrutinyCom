@@ -8,19 +8,18 @@ appId: com.lykkex.Lykke-Wallet
 appCountry: de
 idd: 1112839581
 released: 2016-05-20
-updated: 2020-04-16
-version: "7.34"
-score: 4.625
+updated: 2021-05-30
+version: "7.36"
+stars: 4.54167
 reviews: 24
-size: 111620096
-developerWebsite: https://lykke.com/wallet
+size: 118240256
+website: https://lykke.com/wallet
 repository: 
 issue: 
 icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-09
-reviewStale: true
 signer: 
 reviewArchive:
 

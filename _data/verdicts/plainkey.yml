@@ -1,0 +1,20 @@
+short: Leaks Keys
+title: Leaks keys to send
+color: '#d33100'
+redflag: true
+message: This wallet depends on sharing the private key to create a transaction!
+question: Can the device sign transactions?
+details: >
+  Some people claim their paper wallet is a hardware wallet. Others use RFID
+  chips with the private keys on them. A very crucial drawpack of those
+  systems is that in order to send a transaction, the private key has to be
+  brought onto a different system that doesn't necessarily share all the
+  desired aspects of a hardware wallet.
+  
+  
+  Paper wallets need to be printed, exposing the keys to the PC and the
+  printer even before sending funds to it.
+  
+  
+  Simple RFID based devices can't sign transactions - they share the keys
+  with whoever asked to use them however they please.

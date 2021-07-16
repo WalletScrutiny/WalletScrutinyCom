@@ -1,17 +1,17 @@
 ---
 wsId: cex
-title: "CEX.IO Cryptocurrency Exchange"
+title: "CEX.IO Cryptocurrency Exchange - Buy Bitcoin (BTC)"
 altTitle: 
 authors:
 - kiwilamb
-users: 500000
+users: 1000000
 appId: io.cex.app.prod
-launchDate: 
-latestUpdate: 2021-03-31
-apkVersionName: "Varies with device"
-stars: 4.5
-ratings: 9066
-reviews: 5734
+released: 2015-12-22
+latestUpdate: 2021-07-04
+version: "Varies with device"
+stars: 4.2
+ratings: 12071
+reviews: 7724
 size: Varies with device
 website: https://cex.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.cex.app.prod.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

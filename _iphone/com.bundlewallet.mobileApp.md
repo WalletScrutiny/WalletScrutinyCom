@@ -8,19 +8,18 @@ appId: com.bundlewallet.mobileApp
 appCountry: 
 idd: 1506502199
 released: 2020-06-03
-updated: 2021-04-17
-version: "2.7.5"
-score: 4.41934
-reviews: 155
-size: 98483200
-developerWebsite: https://bundle.africa/
+updated: 2021-05-24
+version: "2.7.9"
+stars: 4.36788
+reviews: 193
+size: 97557504
+website: https://bundle.africa/
 repository: 
 issue: 
 icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

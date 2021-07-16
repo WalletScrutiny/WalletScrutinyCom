@@ -4,15 +4,15 @@ title: "Delta Investment Portfolio Tracker"
 altTitle: 
 authors:
 
-users: 500000
+users: 1000000
 appId: io.getdelta.android
-launchDate: 
-latestUpdate: 2021-04-01
-apkVersionName: "4.1.0"
-stars: 4.6
-ratings: 20707
-reviews: 7477
-size: 40M
+released: 2017-09-23
+latestUpdate: 2021-06-21
+version: "4.3.1"
+stars: 4.4
+ratings: 23109
+reviews: 7954
+size: 77M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.getdelta.android.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,13 +6,13 @@ authors:
 - leo
 users: 500000
 appId: com.remitano.remitano
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "5.28.0"
-stars: 4.2
-ratings: 11697
-reviews: 5561
-size: 37M
+released: 2016-07-24
+latestUpdate: 2021-07-15
+version: "5.49.0"
+stars: 4.4
+ratings: 14092
+reviews: 6333
+size: 93M
 website: https://remitano.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.remitano.remitano.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

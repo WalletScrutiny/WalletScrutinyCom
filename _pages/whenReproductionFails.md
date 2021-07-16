@@ -63,7 +63,7 @@ Results for
 appId:          com.mycelium.wallet
 apkVersionName: 3.4.0.0
 apkVersionCode: 3040000
-apkHash:        35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46
+appHash:        35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46
 
 Files /tmp/fromPlay_com.mycelium.wallet_3040000/apktool.yml and /tmp/fromBuild_com.mycelium.wallet_3040000/apktool.yml differ
 Files /tmp/fromPlay_com.mycelium.wallet_3040000/original/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3040000/original/META-INF/CERT.RSA differ
@@ -398,7 +398,7 @@ Results for
 appId:          com.mycelium.wallet
 apkVersionName: 3.4.0.0
 apkVersionCode: 3040000
-apkHash:        35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46
+appHash:        35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46
 
 Diff:
 ...

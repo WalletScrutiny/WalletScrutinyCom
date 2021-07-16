@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000
 appId: io.ducatus.walnew
-launchDate: 
-latestUpdate: 2021-04-13
-apkVersionName: "2.6.3"
+released: 2019-12-05
+latestUpdate: 2021-05-13
+version: "2.6.3"
 stars: 4.9
-ratings: 191
-reviews: 129
+ratings: 200
+reviews: 133
 size: 25M
 website: https://ducatus.net
 repository: 
@@ -20,7 +20,6 @@ icon: io.ducatus.walnew.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

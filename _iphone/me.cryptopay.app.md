@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "C.Pay"
+title: "Cryptopay — Bitcoin kaufen"
 altTitle: 
 authors:
 
@@ -8,19 +8,18 @@ appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2021-03-02
-version: "1.29"
-score: 4.53441
-reviews: 247
-size: 58528768
-developerWebsite: https://cryptopay.me/
+updated: 2021-07-08
+version: "1.32.1"
+stars: 4.53695
+reviews: 257
+size: 78307328
+website: https://cryptopay.me/
 repository: 
 issue: 
 icon: me.cryptopay.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

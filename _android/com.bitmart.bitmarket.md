@@ -4,23 +4,22 @@ title: "BitMart - Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bitmart.bitmarket
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "2.4.8"
-stars: 1.8
-ratings: 1579
-reviews: 1068
-size: 31M
+released: 2018-05-09
+latestUpdate: 2021-07-15
+version: "2.6.0"
+stars: 4.8
+ratings: 22369
+reviews: 9087
+size: 30M
 website: https://www.bitmart.com
 repository: 
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
-reviewStale: true
+date: 2021-05-20
 signer: 
 reviewArchive:
 
@@ -36,14 +35,12 @@ redirect_from:
 ---
 
 
-On Google Play we read (emphasize ours):
+On their website we read:
 
-> Security and Stability: BitMart adopts an advanced multi-layer and
-  multi-cluster system architecture to ensure the security, stability, and
-  scalability of the system. Its blockchain nodes apply **hot/cold wallet**
-  technology while the operating modes of secret keys and addresses are
-  optimized according to the features of blockchain to ensure the security of
-  users' assets.
+> **Secure**<br>
+  Advanced risk control system in the market. Hybrid hot/cold wallet systems and
+  multi-signature technologies. 100% secure for trading and digital asset
+  management
 
 A "hot" wallet is online, a "cold" wallet is offline. Your phone is certainly
 not "cold", so it's them who hold the keys. As a custodial service the app is

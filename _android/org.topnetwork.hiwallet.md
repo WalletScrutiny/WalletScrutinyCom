@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: org.topnetwork.hiwallet
-launchDate: 
+released: 2020-04-08
 latestUpdate: 2021-02-09
-apkVersionName: "V2.1.3"
+version: "V2.1.3"
 stars: 4.0
 ratings: 25
 reviews: 15
@@ -20,7 +20,6 @@ icon: org.topnetwork.hiwallet.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

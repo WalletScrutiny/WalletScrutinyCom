@@ -8,19 +8,18 @@ appId: com.avelot.amlsafe
 appCountry: 
 idd: 1519145333
 released: 2020-07-28
-updated: 2021-04-06
-version: "1.30.32.0"
-score: 5
-reviews: 1
-size: 66155520
-developerWebsite: https://amlsafe.io/
+updated: 2021-07-07
+version: "1.30.44.79"
+stars: 5
+reviews: 200
+size: 68980736
+website: https://amlsafe.io/
 repository: 
 issue: 
 icon: com.avelot.amlsafe.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

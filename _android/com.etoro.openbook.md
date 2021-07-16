@@ -1,26 +1,25 @@
 ---
-wsId: 
-title: "eToro - Smart crypto trading made easy"
+wsId: etoro
+title: "eToro - Smart Crypto Trading Made Easy"
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.etoro.openbook
-launchDate: 2013-11-05
-latestUpdate: 2021-04-08
-apkVersionName: "316.0.0"
-stars: 3.6
-ratings: 77357
-reviews: 30502
-size: 79M
-website: 
+released: 2013-11-05
+latestUpdate: 2021-07-11
+version: "334.0.0"
+stars: 4.2
+ratings: 88500
+reviews: 34151
+size: 56M
+website: https://www.etoro.com
 repository: 
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-02
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -31,8 +30,7 @@ providerFacebook: eToro
 providerReddit: 
 
 redirect_from:
-  - /com.etoro.openbook/
-  - /posts/com.etoro.openbook/
+
 ---
 
 
@@ -44,3 +42,5 @@ jurisdiction ...
 [further restrictions apply](https://etoro.nanorep.co/widget/widget.html?kb=156763&account=etoro#onloadquestionid=1306615492) ...
 
 So all in all this could pass as a custodial app.
+
+As a custodial app it is **not verifiable**.

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: app.flitsnode.flits
-launchDate: 
+released: 2019-04-05
 latestUpdate: 2021-02-09
-apkVersionName: "4.4"
-stars: 4.4
-ratings: 2009
-reviews: 1332
+version: "4.4"
+stars: 4.3
+ratings: 2031
+reviews: 1341
 size: 14M
 website: https://flitsnode.app
 repository: 
@@ -20,7 +20,6 @@ icon: app.flitsnode.flits.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-06
-reviewStale: true
 signer: 
 reviewArchive:
 

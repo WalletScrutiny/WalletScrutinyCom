@@ -7,12 +7,12 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.tabtrader.android
-launchDate: 
-latestUpdate: 2021-04-06
-apkVersionName: "4.7.8"
+released: 2014-08-14
+latestUpdate: 2021-05-14
+version: "4.8.6"
 stars: 4.5
-ratings: 51768
-reviews: 21984
+ratings: 53402
+reviews: 22777
 size: 14M
 website: http://www.tab-trader.com
 repository: 
@@ -21,7 +21,6 @@ icon: com.tabtrader.android.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-17
-reviewStale: true
 signer: 
 reviewArchive:
 

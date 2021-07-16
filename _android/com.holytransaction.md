@@ -4,14 +4,14 @@ title: "HolyTransaction - Crypto Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.holytransaction
-launchDate: 
+released: 2021-03-25
 latestUpdate: 2021-03-25
-apkVersionName: "1.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+version: "1.0.0"
+stars: 3.4
+ratings: 7
+reviews: 4
 size: 7.8M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.holytransaction.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

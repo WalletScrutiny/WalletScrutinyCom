@@ -7,8 +7,8 @@ author_profile: true
 ---
 
 {% include base_path %}
+<script src="{{ base_path }}/allWallets.js"></script>
 <script>
-  window.wallets = {% include allAppList.html %}
   window.addEventListener("load", () => {
     window.location.hash.split("#")[1].split("&").forEach(function (item) {
       var kv = item.split("=")
@@ -59,14 +59,14 @@ author_profile: true
 
 <div id="modularWalletPayload">
 
+  <!--
+    The content of this div gets replaced if JS is enabled.
+  -->
   {% assign platform = "android" %}
   {% assign verdicts = "reproducible" | split: "," %}
   {% assign selectedVerdict = "reproducible" %}
   {% include list_of_wallets.html %}
 
-  <!-- <a href="{{ base_path }}/moreApps">more Android Play Store apps</a> -->
-
-  <!-- <a href="{{ base_path }}/apple">more Apple App Store apps</a> -->
 
 </div>
 
@@ -78,5 +78,34 @@ author_profile: true
 
 {% include grid_of_wallets_proportional.html %}
 
+{% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | sort: "wsId" | sort: "date" | slice: -20, 20 | reverse %}
+<h2 class="section-label" id="recently">20 Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }} to {{ recent_posts.last.date | date: '%b %e' }})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
+<div id="recentPosts">
+<div class="page-section">
+  <div id="tableofwallets3">
+    <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
+    <div class="flexi-list">
+      {% for post in recent_posts %}
+        {% include list_of_wallets_item.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="{{ base_path }}/assets/js/widgetScripts.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
+<script>
+  const mostRecent = [].concat(window.wallets)
+  mostRecent.sort((a, b) => {
+    if (a.date != b.date)
+      return Date.parse(b.date) - Date.parse(a.date)
+    return a.wsId == b.wsId
+      ? 0
+      : a.wsId < b.wsId
+      ? -1
+      : 1
+  })
+  renderBadgesToDiv(mostRecent.slice(0,20), document.getElementById("recentPosts"))
+</script>
 

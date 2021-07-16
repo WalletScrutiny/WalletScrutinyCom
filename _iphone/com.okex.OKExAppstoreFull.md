@@ -8,19 +8,18 @@ appId: com.okex.OKExAppstoreFull
 appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-04-19
-version: "4.8.2"
-score: 4.97542
-reviews: 14483
-size: 314907648
-developerWebsite: https://www.okex.com
+updated: 2021-07-12
+version: "5.0.8"
+stars: 4.95343
+reviews: 14563
+size: 360480768
+website: https://www.okex.com
 repository: 
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-23
-reviewStale: true
 signer: 
 reviewArchive:
 

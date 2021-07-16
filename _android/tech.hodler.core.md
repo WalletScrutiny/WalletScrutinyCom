@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: tech.hodler.core
-launchDate: 
+released: 2018-09-02
 latestUpdate: 2019-10-29
-apkVersionName: "0.4.6"
+version: "0.4.6"
 stars: 4.0
-ratings: 48
-reviews: 36
+ratings: 49
+reviews: 37
 size: 19M
 website: https://hodler.tech
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
@@ -20,7 +20,6 @@ icon: tech.hodler.core.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-09
-reviewStale: false
 signer: 
 reviewArchive:
 

@@ -11,17 +11,16 @@ idd: 1463774169
 released: 2019-06-21
 updated: 2020-07-30
 version: "1.1"
-score: 4.625
-reviews: 16
+stars: 4.41176
+reviews: 17
 size: 28720128
-developerWebsite: https://ccwalletapp.com/
+website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-07
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -35,6 +34,6 @@ redirect_from:
 
 ---
 
-Same as the [Google Play Version](/android/com.ccwalletapp), this is an open
+Same as the {% include walletLink.html wallet='android/com.ccwalletapp' %} on Play Store, this is an open
 source, Bitcoin, self-custodial wallet but [as with all iPhone apps](/apple),
 it is **not verifiable**.

@@ -11,17 +11,16 @@ idd: 1095716562
 released: 2016-09-02
 updated: 2021-02-26
 version: "2.9.1"
-score: 4.74465
-reviews: 3936
+stars: 4.73984
+reviews: 3967
 size: 23987200
-developerWebsite: https://tab-trader.com
+website: https://tab-trader.com
 repository: 
 issue: 
 icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-17
-reviewStale: true
 signer: 
 reviewArchive:
 

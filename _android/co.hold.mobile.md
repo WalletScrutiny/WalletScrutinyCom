@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: co.hold.mobile
-launchDate: 
-latestUpdate: 2021-03-09
-apkVersionName: "3.12.9"
-stars: 4.4
-ratings: 144
-reviews: 85
+released: 2018-09-27
+latestUpdate: 2021-07-06
+version: "3.13.3"
+stars: 4.1
+ratings: 157
+reviews: 94
 size: Varies with device
 website: https://hold.io
 repository: 
@@ -20,7 +20,6 @@ icon: co.hold.mobile.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

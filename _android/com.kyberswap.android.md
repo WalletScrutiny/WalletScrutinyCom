@@ -4,14 +4,14 @@ title: "KyberSwap: Buy, Trade, Transfer Cryptocurrencies"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.kyberswap.android
-launchDate: 
-latestUpdate: 2021-01-29
-apkVersionName: "1.1.35"
-stars: 4.3
-ratings: 1793
-reviews: 864
+released: 2019-08-14
+latestUpdate: 2021-04-26
+version: "1.1.36"
+stars: 4.2
+ratings: 1808
+reviews: 870
 size: 19M
 website: https://kyberswap.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.kyberswap.android.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

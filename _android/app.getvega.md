@@ -6,9 +6,9 @@ authors:
 - leo
 users: 50
 appId: app.getvega
-launchDate: 
+released: 
 latestUpdate: 2019-05-22
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: app.getvega.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-29
-reviewStale: false
 signer: 
 reviewArchive:
 

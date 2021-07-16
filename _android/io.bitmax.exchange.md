@@ -3,35 +3,42 @@ wsId:
 title: "AscendEX(BitMax)"
 altTitle: 
 authors:
-
+- kiwilamb
+- leo
 users: 100000
 appId: io.bitmax.exchange
-launchDate: 
-latestUpdate: 2021-04-13
-apkVersionName: "2.4.6"
-stars: 4.4
-ratings: 2526
-reviews: 864
+released: 
+latestUpdate: 2021-04-25
+version: "2.4.7"
+stars: 4.2
+ratings: 2788
+reviews: 947
 size: 22M
-website: 
+website: https://ascendex.com
 repository: 
 issue: 
 icon: io.bitmax.exchange.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-11
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-04-20
+  version: "2.4.7"
+  appHash: 
+  gitRevision: 6849790cf3f18653fbe1116b54693fec1419d0ca
+  verdict: custodial
 
 
-providerTwitter: 
+providerTwitter: AscendEX_Global
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: AscendEXOfficial
+providerReddit: AscendEX_Official
 
 redirect_from:
 
 ---
 
 
+This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

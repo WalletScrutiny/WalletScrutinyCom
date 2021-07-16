@@ -6,9 +6,9 @@ authors:
 - leo
 users: 100
 appId: com.kisswallet
-launchDate: 
+released: 2020-02-16
 latestUpdate: 2020-05-30
-apkVersionName: "0.3.6"
+version: "0.3.6"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.kisswallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-02-18
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -8,19 +8,18 @@ appId: com.trusteewallet
 appCountry: 
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-04-17
-version: "1.40.820"
-score: 4
-reviews: 6
-size: 61177856
-developerWebsite: https://trustee.deals/
+updated: 2021-06-24
+version: "1.40.865"
+stars: 4.59999
+reviews: 25
+size: 69815296
+website: https://trusteeglobal.com/
 repository: 
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -60,6 +59,6 @@ On public source their website claims:
 
 and we found [their GitHub](https://github.com/trustee-wallet/trusteeWallet).
 
-There they comment in length on the issue of reproducibility for
-[their Android wallet](/android/com.trusteewallet) but make no such claims for
+There they comment in length on the issue of reproducibility for their Android app
+{% include walletLink.html wallet='android/com.trusteewallet' %} but make no such claims for
 their iPhone product wich leads us to the verdict: **not verifiable**.

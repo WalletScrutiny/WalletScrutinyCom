@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: com.cybavo.btc.wallet
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "1.0.1812"
+released: 2020-06-22
+latestUpdate: 2021-07-06
+version: "1.0.2057"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.cybavo.btc.wallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

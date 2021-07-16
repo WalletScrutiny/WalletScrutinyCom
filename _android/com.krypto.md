@@ -1,31 +1,30 @@
 ---
 wsId: 
-title: "Krypto - Bitcoin, Crypto Trading Wallet & Exchange"
+title: "Krypto - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
-
-users: 50000
+- kiwilamb
+users: 100000
 appId: com.krypto
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "8.4"
-stars: 4.2
-ratings: 773
-reviews: 488
-size: 10M
-website: 
+released: 2020-04-29
+latestUpdate: 2021-07-10
+version: "8.5"
+stars: 4.1
+ratings: 1521
+reviews: 1082
+size: 9.2M
+website: https://letskrypto.com
 repository: 
 issue: 
 icon: com.krypto.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-04-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: letskrypto
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -35,3 +34,7 @@ redirect_from:
 ---
 
 
+The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.
+this leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.
+
+Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.

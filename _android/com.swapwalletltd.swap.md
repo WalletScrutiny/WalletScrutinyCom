@@ -5,9 +5,9 @@ altTitle:
 
 users: 50000
 appId: com.swapwalletltd.swap
-launchDate: 
+released: 
 latestUpdate: 2020-11-14
-apkVersionName: "Varies with device"
+version: "Varies with device"
 stars: 4.9
 ratings: 2282
 reviews: 2065
@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 - date: 2020-12-01
   version: 
-  apkHash: 
+  appHash: 
   gitRevision: eceaf4f532a049d544a5f7ce8eda0f29b30e6fcf
   verdict: custodial
 

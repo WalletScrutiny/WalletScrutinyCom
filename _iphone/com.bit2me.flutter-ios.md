@@ -8,29 +8,30 @@ appId: com.bit2me.flutter-ios
 appCountry: 
 idd: 1459809738
 released: 2019-06-04
-updated: 2021-02-22
-version: "2.0.52"
-score: 4.44444
-reviews: 18
-size: 99486720
-developerWebsite: https://bit2me.com
+updated: 2021-07-08
+version: "2.0.59"
+stars: 4.41176
+reviews: 17
+size: 167717888
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bit2me
+providerLinkedIn: bit2me
+providerFacebook: bit2me
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This appears to be the interface for an exchange. We could not find any claims
+about you owning your keys. As a custodial service it is **not verifiable**.

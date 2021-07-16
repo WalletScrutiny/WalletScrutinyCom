@@ -4,15 +4,15 @@ title: "Cake Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.cakewallet.cake_wallet
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "4.1.5"
-stars: 3.9
-ratings: 390
-reviews: 249
-size: 61M
+released: 2020-01-01
+latestUpdate: 2021-06-10
+version: "4.2.3"
+stars: 3.3
+ratings: 558
+reviews: 363
+size: 62M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/112
@@ -20,7 +20,6 @@ icon: com.cakewallet.cake_wallet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-14
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -4,15 +4,15 @@ title: "Bitcoin Wallet. Buy & Exchange BTC coin－Freewallet"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: btc.org.freewallet.app
-launchDate: 2016-06-13
-latestUpdate: 2020-04-21
-apkVersionName: "2.5.2"
-stars: 4.2
-ratings: 4591
-reviews: 2265
-size: 7.2M
+released: 2016-06-13
+latestUpdate: 2021-06-01
+version: "2.5.9"
+stars: 4.1
+ratings: 5265
+reviews: 2602
+size: 7.3M
 website: https://freewallet.org
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: btc.org.freewallet.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: false
 signer: 
 reviewArchive:
 

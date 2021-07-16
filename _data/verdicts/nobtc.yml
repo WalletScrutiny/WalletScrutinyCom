@@ -1,0 +1,8 @@
+short: No BTC
+title: A wallet but not for Bitcoin
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: The app can send something but not BTC.
+question: Is it for Bitcoins?
+details: >
+  At this point we only look into wallets that at least also support BTC.

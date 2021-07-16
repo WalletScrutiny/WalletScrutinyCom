@@ -4,25 +4,30 @@ title: "BINANCE CRYPTO WALLET APP"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: binance.cryptowalletapp
-launchDate: 
+released: 
 latestUpdate: 2021-04-05
-apkVersionName: "9.8"
-stars: 0.0
-ratings: 
-reviews: 
+version: "9.8"
+stars: 3.9
+ratings: 14
+reviews: 11
 size: 9.4M
 website: 
 repository: 
 issue: 
 icon: binance.cryptowalletapp.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-05
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-04-13
+  version: 
+  appHash: 
+  gitRevision: 7ef50d1754a724355ce59937abb663d96fd262d2
+  verdict: wip
 
 
 providerTwitter: 
@@ -35,3 +40,5 @@ redirect_from:
 ---
 
 
+Unfortunately we did not get to review this one before it was removed from
+Google Play.

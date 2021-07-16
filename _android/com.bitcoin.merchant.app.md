@@ -6,13 +6,13 @@ authors:
 
 users: 100000
 appId: com.bitcoin.merchant.app
-launchDate: 2019-04-13
-latestUpdate: 2021-04-16
-apkVersionName: "5.3.5"
-stars: 4.0
-ratings: 372
-reviews: 144
-size: 5.9M
+released: 2019-04-13
+latestUpdate: 2021-05-06
+version: "5.3.7"
+stars: 4.2
+ratings: 414
+reviews: 156
+size: 6.0M
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bitcoin.merchant.app.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000
 appId: io.zebedee.wallet
-launchDate: 
-latestUpdate: 2021-04-04
-apkVersionName: "11.0.0"
-stars: 4.6
-ratings: 18
-reviews: 11
-size: 59M
+released: 2020-10-20
+latestUpdate: 2021-05-26
+version: "11.0.0"
+stars: 4.5
+ratings: 32
+reviews: 17
+size: 55M
 website: https://zebedee.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.zebedee.wallet.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

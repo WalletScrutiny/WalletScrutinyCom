@@ -1,0 +1,7 @@
+<strong>{{ site.data.verdicts[include.verdict].question }}</strong> If not, we tag it {%
+   include verdictBadge.html verdict=include.verdict type='short'
+%}
+
+<div style="margin-left:2em">
+{{ site.data.verdicts[include.verdict].details | markdownify }}
+</div>

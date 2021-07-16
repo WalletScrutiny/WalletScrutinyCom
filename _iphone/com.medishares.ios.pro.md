@@ -10,17 +10,16 @@ idd: 1383637331
 released: 2019-04-30
 updated: 2019-07-10
 version: "3.1.0"
-score: 3.05
-reviews: 40
+stars: 3.02439
+reviews: 41
 size: 135909376
-developerWebsite: https://www.mathwallet.org
+website: https://www.mathwallet.org
 repository: 
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: com.QuickX
-launchDate: 
+released: 2019-10-22
 latestUpdate: 2020-07-31
-apkVersionName: "1.16.0"
+version: "1.16.0"
 stars: 4.7
-ratings: 57
-reviews: 34
+ratings: 58
+reviews: 35
 size: 10M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.QuickX.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

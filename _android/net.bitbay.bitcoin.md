@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: net.bitbay.bitcoin
-launchDate: 
-latestUpdate: 2021-04-02
-apkVersionName: "1.1.18"
-stars: 3.1
-ratings: 826
-reviews: 437
+released: 2018-11-19
+latestUpdate: 2021-07-12
+version: "1.1.22"
+stars: 2.8
+ratings: 919
+reviews: 494
 size: 16M
 website: https://bitbay.net
 repository: 
@@ -19,8 +19,7 @@ issue:
 icon: net.bitbay.bitcoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
-reviewStale: true
+date: 2021-05-25
 signer: 
 reviewArchive:
 
@@ -28,19 +27,15 @@ reviewArchive:
 providerTwitter: BitBay
 providerLinkedIn: bitbay
 providerFacebook: BitBay
-providerReddit: 
+providerReddit: BitBayExchange
 
 redirect_from:
-  - /net.bitbay.bitcoin/
+
 ---
 
 
-BitPay is an old player in the space and is best known as a payment processor.
-This app's description loses no word on who holds the keys to your coins but on
-their website we can read:
-
-> **Funds safety**<br>
-  We keep all cryptocurrency funds on so called cold wallets. It means they are
-  not connected to exchange servers directly.
-
-which means this app is a custodial offering and therefore **not verifiable**.
+This app's description loses no word on who holds the keys to your coins. Their
+website is mainly about the exchange and not about the mobile appp but there is
+[a site about that](https://bitbay.net/en/mobile), too. There they only talk
+about exchange features, too and lose no word about who holds the keys which
+probably means this app is a custodial offering and therefore **not verifiable**.

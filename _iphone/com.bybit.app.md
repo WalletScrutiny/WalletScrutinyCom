@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: "Bybit: Bitcoin Crypto Trading"
+title: "Bybit: Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
@@ -8,19 +8,18 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2021-04-09
-version: "2.0.4"
-score: 3.94416
-reviews: 197
-size: 111147008
-developerWebsite: https://www.bybit.com
+updated: 2021-07-16
+version: "3.0.2"
+stars: 3.82158
+reviews: 241
+size: 132520960
+website: https://www.bybit.com
 repository: 
 issue: 
 icon: com.bybit.app.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

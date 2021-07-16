@@ -6,13 +6,13 @@ authors:
 - leo
 users: 500
 appId: cryptoex.elegro.io
-launchDate: 
-latestUpdate: 2020-07-07
-apkVersionName: "1.0.3"
+released: 2019-06-26
+latestUpdate: 2021-04-29
+version: "1.0.4"
 stars: 4.9
 ratings: 106
 reviews: 13
-size: 12M
+size: 11M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: cryptoex.elegro.io.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

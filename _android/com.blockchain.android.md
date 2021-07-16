@@ -4,9 +4,9 @@ altTitle:
 
 users: 50000
 appId: com.blockchain.android
-launchDate: 2020-06-15
+released: 2020-06-15
 latestUpdate: 2021-01-04
-apkVersionName: "1.0.7.5"
+version: "1.0.7.5"
 stars: 4.4
 ratings: 2737
 reviews: 532
@@ -23,7 +23,7 @@ signer:
 reviewArchive:
 - date: 2020-11-28
   version: "1.0.7.5"
-  apkHash: 
+  appHash: 
   gitRevision: deed03beb86d7c7aa7d4078d9c13d1501ce35bd6
   verdict: obfuscated
 

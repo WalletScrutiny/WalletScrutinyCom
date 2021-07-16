@@ -1,14 +1,14 @@
 const fs = require('fs')
 const https = require('https')
-const exec = require('child_process').exec
+const FileType = require('file-type')
 
 function downloadImageFile(url, path, callback) {
   const iconFile = fs.createWriteStream(path)
   const request = https.get(`${url}`, function(response) {
     response.pipe(iconFile)
     response.on('end', function() {
-      const child = exec(`file --mime-type ${path}`, function (err, stdout, stderr) {
-        const mimetype = stdout.substring(stdout.lastIndexOf(':') + 2, stdout.lastIndexOf('\n'))
+      (async () => {
+        const mimetype = (await FileType.fromFile(path)).mime
         if (mimetype == "image/png") {
           iconExtension = "png"
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
@@ -27,7 +27,7 @@ function downloadImageFile(url, path, callback) {
         fs.rename(path, `${path}.${iconExtension}`, function(err) {
           if ( err ) console.log('ERROR: ' + err)
         })
-      })
+      })()
     })
   })
 }

@@ -4,14 +4,14 @@ title: "Bitrefill - Use Bitcoin to buy Gift Cards & Topups"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.bitrefill.app
-launchDate: 2018-04-10
+released: 2018-04-10
 latestUpdate: 2019-09-28
-apkVersionName: "1.28.9"
+version: "1.28.9"
 stars: 3.9
-ratings: 491
-reviews: 289
+ratings: 616
+reviews: 364
 size: 5.2M
 website: https://www.bitrefill.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.bitrefill.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-25
-reviewStale: false
 signer: 
 reviewArchive:
 

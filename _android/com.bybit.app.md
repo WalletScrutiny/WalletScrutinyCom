@@ -1,18 +1,18 @@
 ---
 wsId: bybit
-title: "Bybit: Crypto Trading & Bitcoin Futures App"
+title: "Bybit: Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bybit.app
-launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "2.0.4"
-stars: 3.9
-ratings: 2820
-reviews: 1336
-size: 44M
+released: 2019-10-31
+latestUpdate: 2021-07-15
+version: "3.0.2"
+stars: 4.9
+ratings: 13111
+reviews: 2276
+size: 51M
 website: https://www.bybit.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bybit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

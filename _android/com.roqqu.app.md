@@ -5,15 +5,15 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 100000
+users: 500000
 appId: com.roqqu.app
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "1.2.9"
-stars: 3.3
-ratings: 11531
-reviews: 8289
-size: 27M
+released: 2019-09-30
+latestUpdate: 2021-07-02
+version: "1.4.58"
+stars: 3.1
+ratings: 14314
+reviews: 10341
+size: 28M
 website: https://roqqu.com
 repository: 
 issue: 
@@ -21,7 +21,6 @@ icon: com.roqqu.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-16
-reviewStale: true
 signer: 
 reviewArchive:
 

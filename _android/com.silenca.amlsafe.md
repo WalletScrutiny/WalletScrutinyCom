@@ -6,21 +6,20 @@ authors:
 - leo
 users: 1000
 appId: com.silenca.amlsafe
-launchDate: 
-latestUpdate: 2021-04-06
-apkVersionName: "1.30.32.0"
+released: 2020-10-26
+latestUpdate: 2021-07-07
+version: "1.30.44"
 stars: 4.6
-ratings: 190
-reviews: 142
-size: 17M
+ratings: 230
+reviews: 168
+size: 54M
 website: https://amlsafe.io
 repository: 
 issue: 
-icon: com.silenca.amlsafe.png
+icon: com.silenca.amlsafe.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-11
-reviewStale: true
 signer: 
 reviewArchive:
 

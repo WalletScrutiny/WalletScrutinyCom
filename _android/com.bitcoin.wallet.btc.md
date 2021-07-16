@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.bitcoin.wallet.btc
-launchDate: 2019-05-01
-latestUpdate: 2021-04-12
-apkVersionName: "2.2.5"
-stars: 4.5
-ratings: 3265
-reviews: 664
+released: 2019-05-01
+latestUpdate: 2021-06-08
+version: "2.2.7"
+stars: 4.3
+ratings: 4544
+reviews: 848
 size: 24M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
@@ -19,13 +19,12 @@ issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
-reviewStale: true
+date: 2021-06-04
 signer: 
 reviewArchive:
 - date: 2019-11-19
   version: "1.8.1"
-  apkHash: 
+  appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
 
@@ -35,15 +34,24 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /bitcoinblockchainwallet/
-  - /com.bitcoin.wallet.btc/
-  - /posts/2019/11/bitcoinblockchainwallet/
-  - /posts/com.bitcoin.wallet.btc/
+
 ---
 
 
+**Update 2021-06-04**: The provider
+[promised to "check soon" back in 2019](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15#issuecomment-557786905)
+but several later attempts to get an update failed.
+
+We list the following apps of this provider:
+
+* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.explorer' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' verdict=true %}
+
 Something shady is going on here. This wallet looked like a wallet when we
-tried to reproduce it from the provided source a year ago and we failed to
+tried to reproduce it from the provided source in 2019 and we failed to
 do that. Check "Older reviews" above for details. Now (ok, a while ago:
 2020-09-16), user "alex Kijvanit" commented on the wallet:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 10000
 appId: com.swftcoin.client.android
-launchDate: 
-latestUpdate: 2021-04-07
-apkVersionName: "5.11.5"
+released: 2018-01-15
+latestUpdate: 2021-07-08
+version: "5.12.17"
 stars: 4.5
-ratings: 1355
-reviews: 796
+ratings: 1524
+reviews: 872
 size: 33M
 website: http://www.swft.pro
 repository: 
@@ -20,7 +20,6 @@ icon: com.swftcoin.client.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -42,4 +41,3 @@ its strong emphasis on speed and many coins and no words on the usual seed words
 we have to assume it is indeed custodial. Their [FAQ](https://www.swft.pro/#/FAQ)
 also sounds more like a custodial exchange than a wallet. This app is certainly
 **not verifiable**.
-

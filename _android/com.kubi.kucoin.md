@@ -4,15 +4,15 @@ title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.kubi.kucoin
-launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "3.31.1"
-stars: 3.5
-ratings: 5060
-reviews: 2839
-size: 48M
+released: 2018-05-03
+latestUpdate: 2021-07-13
+version: "3.37.0"
+stars: 3.9
+ratings: 7034
+reviews: 3889
+size: 45M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.kubi.kucoin.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-09
-reviewStale: true
 signer: 
 reviewArchive:
 

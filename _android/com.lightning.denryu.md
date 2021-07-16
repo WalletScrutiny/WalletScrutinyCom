@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 500
 appId: com.lightning.denryu
-launchDate: 
+released: 2018-12-14
 latestUpdate: 2018-12-26
-apkVersionName: "0.1"
+version: "0.1"
 stars: 2.5
 ratings: 17
 reviews: 12
@@ -20,7 +20,6 @@ icon: com.lightning.denryu.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

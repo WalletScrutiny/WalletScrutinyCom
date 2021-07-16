@@ -1,18 +1,18 @@
 ---
-wsId: 
+wsId: digifinex
 title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.digifinex.app
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "2021.04.17"
-stars: 3.6
-ratings: 2363
-reviews: 1471
-size: 66M
+released: 2018-06-26
+latestUpdate: 2021-07-14
+version: "2021.07.14"
+stars: 3.9
+ratings: 2642
+reviews: 1573
+size: 69M
 website: https://www.digifinex.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.digifinex.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-28
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: zebpay.Application
-launchDate: 2014-12-23
-latestUpdate: 2021-04-09
-apkVersionName: "3.13.00"
-stars: 3.3
-ratings: 76448
-reviews: 36800
+released: 2014-12-23
+latestUpdate: 2021-07-09
+version: "3.15.01"
+stars: 3.5
+ratings: 83844
+reviews: 41061
 size: 11M
 website: https://www.zebpay.com
 repository: 
@@ -20,7 +20,6 @@ icon: zebpay.Application.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

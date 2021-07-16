@@ -8,19 +8,18 @@ appId: io.melis.clientwallet
 appCountry: 
 idd: 1176840794
 released: 2017-06-07
-updated: 2021-03-03
-version: "1.6.15"
-score: 
+updated: 2021-05-08
+version: "1.6.21"
+stars: 
 reviews: 
-size: 28490752
-developerWebsite: http://melis.io
+size: 28587008
+website: http://melis.io
 repository: 
 issue: 
 icon: io.melis.clientwallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-21
-reviewStale: true
 signer: 
 reviewArchive:
 

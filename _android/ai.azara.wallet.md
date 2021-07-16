@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: ai.azara.wallet
-launchDate: 
+released: 2020-11-10
 latestUpdate: 2021-04-14
-apkVersionName: "0.01.18"
-stars: 4.7
-ratings: 90
-reviews: 88
+version: "0.01.18"
+stars: 4.9
+ratings: 119
+reviews: 115
 size: 44M
 website: https://www.azara.ai
 repository: 
@@ -20,7 +20,6 @@ icon: ai.azara.wallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-22
-reviewStale: true
 signer: 
 reviewArchive:
 

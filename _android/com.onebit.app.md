@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.onebit.app
-launchDate: 2017-11-23
+released: 2017-11-23
 latestUpdate: 2020-11-11
-apkVersionName: "3.25.1"
-stars: 0.0
-ratings: 
-reviews: 
+version: "3.25.1"
+stars: 3.1
+ratings: 1074
+reviews: 575
 size: 82M
 website: https://www.tenx.tech
 repository: 
@@ -20,7 +20,6 @@ icon: com.onebit.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-20
-reviewStale: true
 signer: 
 reviewArchive:
 

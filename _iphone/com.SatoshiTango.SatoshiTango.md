@@ -10,27 +10,35 @@ idd: 1002555958
 released: 2015-07-08
 updated: 2021-02-19
 version: "3.4.17"
-score: 4.32258
-reviews: 31
+stars: 4.21875
+reviews: 32
 size: 133840896
-developerWebsite: http://www.satoshitango.com
+website: http://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: satoshitango
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: satoshitangoargentina
 providerReddit: 
 
 redirect_from:
 
 ---
 
+> Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
+  transactions.<br>
+  Pay in local currency and hold a balance in fiat currency. Store your cryptos
+  and much more!
+
+sounds like a wallet that also supports Bitcoin but there is not much
+information on who gets to control the keys.
+
+We have to assume this is a custodial offering and thus **not verifiable**.

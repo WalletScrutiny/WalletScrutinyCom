@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Zumo: Your Simple & Safe Crypto Wallet"
+title: "Zumo | Crypto Wallet | Buy Bitcoin & Ether"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.zumopay.core
-launchDate: 
-latestUpdate: 2021-01-27
-apkVersionName: "2.15.0"
-stars: 4.1
-ratings: 158
-reviews: 86
-size: 85M
+released: 2019-10-28
+latestUpdate: 2021-06-23
+version: "3.1.0"
+stars: 4.0
+ratings: 175
+reviews: 93
+size: 188M
 website: https://zumo.money
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.zumopay.core.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 

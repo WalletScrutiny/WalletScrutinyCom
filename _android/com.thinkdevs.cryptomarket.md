@@ -6,12 +6,12 @@ authors:
 
 users: 10000
 appId: com.thinkdevs.cryptomarket
-launchDate: 
+released: 2018-03-29
 latestUpdate: 2021-01-19
-apkVersionName: "0.0.10"
-stars: 3.7
-ratings: 101
-reviews: 56
+version: "0.0.10"
+stars: 3.6
+ratings: 124
+reviews: 71
 size: 3.0M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

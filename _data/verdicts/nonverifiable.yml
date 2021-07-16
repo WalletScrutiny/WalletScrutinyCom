@@ -1,0 +1,35 @@
+short: Unreproducible!
+title: Not reproducible from source provided
+color: '#d33100'
+redflag: true
+message: We could not verify that the provided code matches the binary!
+question: Is the published binary matching the published source code?
+details: >
+  Published code doesn't help much if it is not what the published app was
+  built from. That is why we try to reproduce the binary. We
+
+  1. obtain the binary from the provider
+
+  1. compile the published source code using the published build instructions
+     into a binary
+
+  1. compare the two binaries
+
+  1. we might spend some time working around
+     [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
+
+  If this fails, we might search if other revisions match or if we can
+  deduct the source of the mismatch but generally consider it on the provider to
+  provide the correct source code and build instructions to reproduce the build,
+  so we usually open a ticket in their code repository.
+
+
+  In any
+  case, the result is a discrepancy between the app we can create and the app
+  we can find on the app store and any discrepancy might leak your backup to the
+  server on purpose or by accident.
+  
+  
+  As we cannot verify that the source provided is the source the app was
+  compiled from, this category is only slightly better than **closed source**
+  but for now we have hope projects come around and fix verifiability issues.

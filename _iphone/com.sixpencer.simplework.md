@@ -8,19 +8,18 @@ appId: com.sixpencer.simplework
 appCountry: 
 idd: 1529717509
 released: 2020-10-24
-updated: 2021-04-08
-version: "1.3.7"
-score: 4.8
-reviews: 10
-size: 53069824
-developerWebsite: https://dfox.cc
+updated: 2021-06-23
+version: "1.4.3"
+stars: 4.58333
+reviews: 12
+size: 76293120
+website: https://dfox.cc
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-22
-reviewStale: true
 signer: 
 reviewArchive:
 

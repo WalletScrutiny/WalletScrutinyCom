@@ -8,19 +8,18 @@ appId: cobo.wallet
 appCountry: 
 idd: 1406282615
 released: 2018-08-05
-updated: 2021-04-16
-version: "5.0.0"
-score: 
-reviews: 
-size: 120299520
-developerWebsite: https://cobo.com
+updated: 2021-07-09
+version: "5.9.0"
+stars: 5
+reviews: 1
+size: 128414720
+website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

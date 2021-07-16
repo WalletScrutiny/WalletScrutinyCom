@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: io.sylo.dapp
-launchDate: 
-latestUpdate: 2021-04-12
-apkVersionName: "3.0.19-ios-dialtone.0"
-stars: 4.5
-ratings: 599
-reviews: 307
-size: 347M
+released: 2019-09-10
+latestUpdate: 2021-07-08
+version: "3.1.18"
+stars: 4.6
+ratings: 710
+reviews: 367
+size: 337M
 website: https://www.sylo.io/wallet
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: io.sylo.dapp.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-06-10
-reviewStale: true
 signer: 
 reviewArchive:
 

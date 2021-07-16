@@ -6,12 +6,12 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.coingate.pos
-launchDate: 
+released: 2015-02-19
 latestUpdate: 2016-08-18
-apkVersionName: "2.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+version: "2.0.0"
+stars: 3.7
+ratings: 22
+reviews: 8
 size: 8.1M
 website: https://coingate.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.coingate.pos.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

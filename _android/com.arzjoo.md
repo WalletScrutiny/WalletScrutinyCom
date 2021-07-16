@@ -4,14 +4,14 @@ title: "arzjoo"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.arzjoo
-launchDate: 
-latestUpdate: 2021-04-15
-apkVersionName: "1.4.0"
-stars: 3.7
-ratings: 2068
-reviews: 855
+released: 2019-04-25
+latestUpdate: 2021-07-13
+version: "1.4.1"
+stars: 4.3
+ratings: 2603
+reviews: 1026
 size: Varies with device
 website: https://arzjoo.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.arzjoo.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
 

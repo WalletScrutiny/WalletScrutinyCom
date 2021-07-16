@@ -5,9 +5,9 @@ altTitle:
 
 users: 50000
 appId: com.andreys.blockchainwallet
-launchDate: 
+released: 
 latestUpdate: 2020-08-30
-apkVersionName: "21"
+version: "21"
 stars: 4.6
 ratings: 1374
 reviews: 362

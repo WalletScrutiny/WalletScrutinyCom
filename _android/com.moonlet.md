@@ -6,13 +6,13 @@ authors:
 
 users: 10000
 appId: com.moonlet
-launchDate: 
-latestUpdate: 2021-03-29
-apkVersionName: "1.4.31"
-stars: 3.9
-ratings: 227
-reviews: 151
-size: 9.0M
+released: 2020-04-21
+latestUpdate: 2021-07-08
+version: "1.4.48"
+stars: 4.2
+ratings: 433
+reviews: 236
+size: 9.4M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.moonlet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-14
-reviewStale: true
 signer: 
 reviewArchive:
 

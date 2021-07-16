@@ -20,6 +20,8 @@
   --permanent-white: #fafafa;
   --red-notify-background: #fdb5b5;
   --gold: #ff9b00;
+  --blue:#003395;
+  --light-blue: #0064ff;
   --reproducible-badge: url(/images/reproducible-badge-dark.svg);
 }
 
@@ -32,7 +34,7 @@
   --accent: rgb(97, 200, 97);
   --accent-text: #4da84d;
   --rust: #b32a00;
-  --indifferent: #3d506d;
+  --indifferent: #5b82bf;
   --shadow-3: rgba(255, 255, 255, 0.2);
   --shadow-2: rgba(255, 255, 255, 0.1);
   --light-grey: #222;
@@ -50,6 +52,7 @@
   --permanent-white: #e2e2e2;
   --red-notify-background: #b90000;
   --gold: #ffb300;
+  --blue:#a0b6f9;
   --reproducible-badge: url(/images/reproducible-badge-light.svg);
 }
 
@@ -215,7 +218,6 @@ body.modal-open #main {
 }
 
 pre.highlight code {
-  font-family: Courier;
   font-size: 14px;
   line-height: 1rem;
 }
@@ -603,7 +605,6 @@ z-index: 1;
 .subsect p {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   margin: .5rem 0;
   font-weight: 300;
@@ -727,12 +728,8 @@ z-index: 1;
   }
 }
 
-
-
-
-
-  .-hom .result-pl-inner {
-    padding: .25rem .75rem;
+.-hom .result-pl-inner {
+  padding: .25rem .75rem;
 }
 
 .badge-2 {
@@ -772,17 +769,12 @@ z-index: 1;
 }
 
 .badge-2::before {
-  background: var(--rust);
   z-index: -2;
 }
 
 .badge-2>span {
   font-size: .7rem;
   font-weight: 800;
-}
-
-.badge-2.reproducible::before {
-  background: var(--accent-text);
 }
 
 .results-list .badge {
@@ -1077,11 +1069,19 @@ table tr td label {
   width: 100%;
 }
 
-input.verdict-d-d-reproducible:checked~#tableofwallets div.row-identifier-reproducible, input.verdict-d-d-nonverifiable:checked~#tableofwallets div.row-identifier-nonverifiable, input.verdict-d-d-nosource:checked~#tableofwallets div.row-identifier-nosource, input.verdict-d-d-custodial:checked~#tableofwallets div.row-identifier-custodial, input.verdict-d-d-all:checked~#tableofwallets div.row-identifier {
+input.verdict-d-d-reproducible:checked~#tableofwallets div.row-identifier-reproducible,
+input.verdict-d-d-nonverifiable:checked~#tableofwallets div.row-identifier-nonverifiable,
+input.verdict-d-d-nosource:checked~#tableofwallets div.row-identifier-nosource,
+input.verdict-d-d-custodial:checked~#tableofwallets div.row-identifier-custodial,
+input.verdict-d-d-all:checked~#tableofwallets div.row-identifier {
   display: table-row !important;
 }
 
-.verdict-d-d-reproducible:checked~.label-reproducible, .verdict-d-d-nonverifiable:checked~.label-nonverifiable, .verdict-d-d-nosource:checked~.label-nosource, .verdict-d-d-custodial:checked~.label-custodial, .verdict-d-d-all:checked~.label-all {
+.verdict-d-d-reproducible:checked~.label-reproducible,
+.verdict-d-d-nonverifiable:checked~.label-nonverifiable,
+.verdict-d-d-nosource:checked~.label-nosource,
+.verdict-d-d-custodial:checked~.label-custodial,
+.verdict-d-d-all:checked~.label-all {
   background: var(--accent);
   border-radius: 4px;
   color: var(--white);
@@ -1139,64 +1139,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   color: var(--white);
   text-transform: uppercase;
   font-weight: 800;
-}
-
-.stamp-Reproducible::before, .stamp-Non.verifiable::before, .stamp-Custodial::before, .stamp-All::before {}
-
-.stamp-reproducible::before {
-  content: "reproducible";
-  background: var(--accent);
-}
-
-.stamp-nonverifiable::before {
-  content: "non-verifiable";
-  background: var(--rust);
-}
-
-.stamp-Nosource::before, .stamp-nosource::before {
-  background: var(--rust);
-  content: "no-source";
-}
-
-.stamp-custodial::before {
-  background: var(--rust);
-  content: "custodial";
-}
-
-.stamp-all::before {
-  background: var(--rust);
-  content: "all";
-}
-
-.stamp-nobtc::before {
-  background: var(--indifferent);
-  content: "non-btc";
-}
-
-.stamp-wip::before {
-  background: var(--indifferent);
-  content: "development";
-}
-
-.stamp-fewusers::before {
-  background: var(--indifferent);
-  content: "few users";
-}
-
-.stamp-defunct::before {
-  background: var(--rust);
-  content: "defunct";
-}
-
-.stamp-nowallet::before {
-  background: var(--indifferent);
-  content: "not a wallet";
-}
-
-.stamp-obfuscated::before {
-  background: var(--permanent-black);
-  color: var(--permanent-white);
-  content: "obfuscated";
 }
 
 #modularPlatform, #modularVerdict {
@@ -1380,8 +1322,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-content: center;
   justify-content: center;
   background-color: var(--shadow-3);
-  background-image: radial-gradient(var(--gauze), var(--gauze) 50%, transparent 50%);
-  background-size: 3px 3px;
   z-index: 999;
 }
 
@@ -1694,6 +1634,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .svg.reproducible {
   background-image: var(--reproducible-badge);
+  transform: rotate(-25deg);
 }
 
 .app-payload-flex>div>span {
@@ -1727,4 +1668,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   #main.app-review {
     margin-top: 0;
   }
+}
+
+.platform-logo {
+    position: absolute;
+    top: 47px;
+    font-size: 18px;
+    right: 0px;
 }

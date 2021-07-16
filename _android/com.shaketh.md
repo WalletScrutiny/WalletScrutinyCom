@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.shaketh
-launchDate: 
-latestUpdate: 2021-04-20
-apkVersionName: "1.6.93"
-stars: 4.7
-ratings: 5746
-reviews: 2674
-size: 84M
+released: 2018-02-20
+latestUpdate: 2021-07-09
+version: "1.7.10"
+stars: 4.6
+ratings: 7695
+reviews: 3258
+size: 95M
 website: https://shakepay.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.shaketh.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

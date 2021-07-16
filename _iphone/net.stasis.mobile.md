@@ -10,27 +10,33 @@ idd: 1371949230
 released: 2018-07-06
 updated: 2021-02-09
 version: "7.10"
-score: 3.66667
+stars: 3.66667
 reviews: 3
 size: 22039552
-developerWebsite: https://stasis.net
+website: https://stasis.net
 repository: 
 issue: 
 icon: net.stasis.mobile.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: stasisnet
+providerLinkedIn: stasisnet
+providerFacebook: stasisnet
 providerReddit: 
 
 redirect_from:
 
 ---
 
+**Update 2021-05-09**: The review is based on the Play Store app. The App Store
+app is currently not available and if that remains, the app will be considered
+defunct.
+
+On their website there is no mention of being non-custodial and
+certainly there is no source code available. Until we hear opposing claims
+we consider it a custodial app and therefore **not verifiable**.

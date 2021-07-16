@@ -1,31 +1,30 @@
 ---
-wsId: 
+wsId: Talken
 title: "Talken -  Bitcoin, Ethereum, Community, Wallet"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: io.talken.wallet
-launchDate: 
-latestUpdate: 2021-03-18
-apkVersionName: "1.0.18"
-stars: 3.5
-ratings: 61
-reviews: 41
-size: 7.9M
-website: 
+released: 2019-07-31
+latestUpdate: 2021-07-15
+version: "1.0.23"
+stars: 3.0
+ratings: 101
+reviews: 64
+size: 14M
+website: https://talken.io/
 repository: 
 issue: 
 icon: io.talken.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-06-04
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Talken_
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -34,4 +33,11 @@ redirect_from:
 
 ---
 
+
+With this statement below from the providers [Play store description](https://play.google.com/store/apps/details?id=io.talken.wallet), it is clear that the user is not in control of the wallets private keys.
+
+> Easy and secure wallet
+> Easy wallet service without managing private keys and mnemonics.
+
+Our Verdict: This "wallet" is custodial and therefor **not verifiable**
 

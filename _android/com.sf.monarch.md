@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.sf.monarch
-launchDate: 2018-10-19
-latestUpdate: 2021-03-23
-apkVersionName: "2.2.0"
-stars: 3.5
-ratings: 738
-reviews: 376
+released: 2018-10-19
+latestUpdate: 2021-06-28
+version: "2.2.5"
+stars: 4.0
+ratings: 798
+reviews: 418
 size: 18M
 website: https://monarchwallet.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.sf.monarch.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 

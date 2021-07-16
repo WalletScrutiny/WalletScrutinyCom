@@ -3,9 +3,9 @@ title: "WasabiWallet"
 altTitle: "(Fake) Wasabi Wallet"
 users: 500
 appId: com.wasabiwallet.dev
-launchDate: 
+released: 
 latestUpdate: 2020-12-01
-apkVersionName: "2.0"
+version: "2.0"
 stars: 3.8
 ratings: 25
 reviews: 14

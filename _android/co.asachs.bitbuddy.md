@@ -6,12 +6,12 @@ authors:
 
 users: 1000
 appId: co.asachs.bitbuddy
-launchDate: 
+released: 2019-09-19
 latestUpdate: 2020-09-28
-apkVersionName: "2.0.1"
-stars: 3.8
-ratings: 55
-reviews: 39
+version: "2.0.1"
+stars: 3.9
+ratings: 56
+reviews: 38
 size: 14M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: co.asachs.bitbuddy.png
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 
 users: 100
 appId: kr.co.keypair.nixtouch
-launchDate: 
+released: 2018-10-19
 latestUpdate: 2019-12-27
-apkVersionName: "1.0.0.65"
-stars: 0.0
-ratings: 
-reviews: 
+version: "1.0.0.65"
+stars: 5.0
+ratings: 5
+reviews: 2
 size: 11M
 website: https://www.nixblock.com
 repository: 
@@ -20,7 +20,6 @@ icon: kr.co.keypair.nixtouch.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-07
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -37,4 +36,4 @@ redirect_from:
 
 <!-- nosource -->
 As far as we can see, this is the same as
-[this app](/android/kr.co.keypair.keywalletTouch) and thus is **not verifiable**.
+{% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 5000
 appId: com.polispay.copay
-launchDate: 2018-02-21
-latestUpdate: 2021-03-26
-apkVersionName: "8.9.1"
+released: 2018-02-21
+latestUpdate: 2021-05-03
+version: "8.9.2"
 stars: 4.2
-ratings: 125
-reviews: 74
+ratings: 128
+reviews: 76
 size: 10M
 website: https://www.polispay.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.polispay.copay.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.mercuryo.app
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "1.11.6"
-stars: 4.4
-ratings: 2040
-reviews: 1241
-size: 67M
+released: 2019-09-03
+latestUpdate: 2021-04-26
+version: "1.12.3"
+stars: 3.9
+ratings: 2272
+reviews: 1344
+size: 60M
 website: https://mercuryo.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.mercuryo.app.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

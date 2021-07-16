@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50
 appId: app.hibana.hibana
-launchDate: 
+released: 2018-12-11
 latestUpdate: 2018-12-11
-apkVersionName: "0.1"
+version: "0.1"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: app.hibana.hibana.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

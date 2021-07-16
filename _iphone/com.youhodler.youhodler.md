@@ -8,29 +8,31 @@ appId: com.youhodler.youhodler
 appCountry: 
 idd: 1469351696
 released: 2019-07-25
-updated: 2021-04-15
-version: "2.12.0"
-score: 4.83068
-reviews: 189
-size: 35358720
-developerWebsite: https://www.youhodler.com/
+updated: 2021-07-07
+version: "2.17.0"
+stars: 4.86991
+reviews: 246
+size: 38982656
+website: https://www.youhodler.com/
 repository: 
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: youhodler
+providerLinkedIn: youhodler
+providerFacebook: YouHodler
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This app is the interface to an exchange and might have a non-custodial part to
+it but if so, it is not well advertised on their website and we assume it is
+custodial and therefore **not verifiable**.

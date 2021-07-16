@@ -4,15 +4,15 @@ title: "Cash App"
 altTitle: 
 authors:
 - leo
-users: 10000000
+users: 50000000
 appId: com.squareup.cash
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "3.37.1"
+released: 
+latestUpdate: 2021-07-06
+version: "3.43.2"
 stars: 4.2
-ratings: 362745
-reviews: 132483
-size: 31M
+ratings: 409773
+reviews: 146542
+size: 27M
 website: https://cash.app
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.squareup.cash.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
 

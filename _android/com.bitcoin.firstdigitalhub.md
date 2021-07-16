@@ -6,13 +6,13 @@ authors:
 
 users: 1000
 appId: com.bitcoin.firstdigitalhub
-launchDate: 
-latestUpdate: 2021-04-18
-apkVersionName: "1.9.3.0.11"
-stars: 4.8
-ratings: 136
-reviews: 130
-size: 3.6M
+released: 2020-12-04
+latestUpdate: 2021-05-15
+version: "1.9.3.0.13"
+stars: 4.6
+ratings: 155
+reviews: 144
+size: 3.9M
 website: 
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bitcoin.firstdigitalhub.jpg
 bugbounty: 
 verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -3,24 +3,23 @@ wsId:
 title: "Wealth Check - Bitcoin Wallet Balance and History"
 altTitle: 
 authors:
-
+- kiwilamb
 users: 10000
 appId: com.jurajkusnier.bitcoinwalletbalance
-launchDate: 
+released: 2017-12-29
 latestUpdate: 2020-06-01
-apkVersionName: "2.4"
+version: "2.4"
 stars: 4.0
-ratings: 203
-reviews: 113
+ratings: 214
+reviews: 119
 size: 5.0M
-website: 
-repository: 
+website: https://jurajkusnier.com/
+repository: https://github.com/jurajkusnier/bitcoin-balance-check/
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-04-13
-reviewStale: true
+verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-02
 signer: 
 reviewArchive:
 
@@ -34,4 +33,8 @@ redirect_from:
 
 ---
 
+
+This app is only for retrival of bitcoin address balance and transaction information.
+
+Our verdict: This is **not a wallet**.
 

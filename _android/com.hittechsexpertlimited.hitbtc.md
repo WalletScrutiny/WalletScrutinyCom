@@ -6,12 +6,12 @@ authors:
 - leo
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
-launchDate: 
+released: 2020-03-04
 latestUpdate: 2021-04-12
-apkVersionName: "3.0.10"
-stars: 4.1
-ratings: 1811
-reviews: 839
+version: "3.0.10"
+stars: 3.9
+ratings: 2844
+reviews: 1276
 size: 11M
 website: https://hitbtc.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.hittechsexpertlimited.hitbtc.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

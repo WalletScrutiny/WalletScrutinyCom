@@ -4,14 +4,14 @@ title: "Binance.US"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.binance.us
-launchDate: 
-latestUpdate: 2021-04-14
-apkVersionName: "2.4.2"
-stars: 1.9
-ratings: 3047
-reviews: 2329
+released: 2019-12-23
+latestUpdate: 2021-07-07
+version: "2.6.0"
+stars: 2.4
+ratings: 5161
+reviews: 3917
 size: Varies with device
 website: https://www.binance.us
 repository: 
@@ -20,7 +20,6 @@ icon: com.binance.us.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

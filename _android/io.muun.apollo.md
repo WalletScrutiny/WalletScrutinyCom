@@ -6,13 +6,13 @@ authors:
 - leo
 users: 10000
 appId: io.muun.apollo
-launchDate: 2017-04-25
-latestUpdate: 2021-04-05
-apkVersionName: "45.2"
-stars: 4.4
-ratings: 167
-reviews: 101
-size: 40M
+released: 2017-04-25
+latestUpdate: 2021-06-24
+version: "46.5"
+stars: 4.5
+ratings: 239
+reviews: 143
+size: 41M
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/2
@@ -20,12 +20,11 @@ icon: io.muun.apollo.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-06
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-12-29
   version: "beta-36.2"
-  apkHash: 
+  appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
 

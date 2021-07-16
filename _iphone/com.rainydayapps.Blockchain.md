@@ -8,19 +8,18 @@ appId: com.rainydayapps.Blockchain
 appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2021-04-12
-version: "3.3.2"
-score: 4.73381
-reviews: 67473
-size: 96881664
-developerWebsite: https://www.blockchain.com/wallet
+updated: 2021-07-09
+version: "4.3.2"
+stars: 4.73522
+reviews: 87159
+size: 105476096
+website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 
 icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-20
-reviewStale: true
 signer: 
 reviewArchive:
 

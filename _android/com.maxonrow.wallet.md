@@ -7,9 +7,9 @@ authors:
 
 users: 5000
 appId: com.maxonrow.wallet
-launchDate: 2019-08-31
+released: 2019-08-31
 latestUpdate: 2020-10-20
-apkVersionName: "2.1.16"
+version: "2.1.16"
 stars: 3.9
 ratings: 73
 reviews: 43
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2019-12-30
   version: 
-  apkHash: 
+  appHash: 
   gitRevision: b75c3bd9d94b20365881eb5ec32b299d3c317f87
   verdict: nobtc
 

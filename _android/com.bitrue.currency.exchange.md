@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.bitrue.currency.exchange
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "4.4.0"
+released: 2018-07-18
+latestUpdate: 2021-07-14
+version: "4.5.1"
 stars: 3.6
-ratings: 1408
-reviews: 915
-size: 35M
+ratings: 1727
+reviews: 1110
+size: 36M
 website: https://www.bitrue.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bitrue.currency.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,9 +6,9 @@ authors:
 
 users: 100
 appId: app.odapplications.bitstashwallet
-launchDate: 
+released: 2019-11-10
 latestUpdate: 2019-11-24
-apkVersionName: "0.0.3"
+version: "0.0.3"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: app.odapplications.bitstashwallet.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
 signer: 
 reviewArchive:
 

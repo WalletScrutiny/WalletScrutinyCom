@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: "CoinEx"
+title: "CoinEx-Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
@@ -8,29 +8,31 @@ appId: com.viabtc.trader
 appCountry: 
 idd: 1264462812
 released: 2017-08-23
-updated: 2021-04-03
-version: "2.9.6"
-score: 4.45429
-reviews: 361
-size: 136878080
-developerWebsite: https://www.coinex.com
+updated: 2021-07-16
+version: "3.0.1"
+stars: 4.55091
+reviews: 982
+size: 133699584
+website: https://www.coinex.com
 repository: 
 issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-20
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinexcom
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: TheCoinEx
+providerReddit: Coinex
 
 redirect_from:
 
 ---
 
+Unfortunately there is no easily accessible information on the App Store or
+their website about the app's security. For now we assume it is
+custodial and thus **not verifiable**.

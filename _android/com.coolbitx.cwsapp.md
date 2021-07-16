@@ -6,13 +6,13 @@ authors:
 
 users: 10000
 appId: com.coolbitx.cwsapp
-launchDate: 
-latestUpdate: 2021-03-24
-apkVersionName: "2.14.0"
-stars: 4.2
-ratings: 635
-reviews: 279
-size: 66M
+released: 2017-12-01
+latestUpdate: 2021-07-06
+version: "2.19.0"
+stars: 4.5
+ratings: 770
+reviews: 328
+size: 49M
 website: http://coolwallet.io
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.coolbitx.cwsapp.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-06
-reviewStale: true
 signer: 
 reviewArchive:
 

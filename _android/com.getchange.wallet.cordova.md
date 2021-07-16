@@ -6,13 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.getchange.wallet.cordova
-launchDate: 
-latestUpdate: 2021-04-19
-apkVersionName: "10.10.0"
-stars: 0.0
-ratings: 
-reviews: 
-size: 32M
+released: 2018-06-07
+latestUpdate: 2021-07-14
+version: "10.21.0"
+stars: 4.4
+ratings: 2277
+reviews: 1019
+size: 31M
 website: https://getchange.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

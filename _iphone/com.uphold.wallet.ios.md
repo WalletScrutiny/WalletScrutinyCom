@@ -8,29 +8,36 @@ appId: com.uphold.wallet.ios
 appCountry: 
 idd: 1101145849
 released: 2016-04-19
-updated: 2021-04-17
-version: "4.15.21"
-score: 3.86513
-reviews: 4152
-size: 66465792
-developerWebsite: 
+updated: 2021-07-08
+version: "4.16.7"
+stars: 3.63508
+reviews: 4749
+size: 64681984
+website: https://uphold.com
 repository: 
 issue: 
 icon: com.uphold.wallet.ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-14
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: UpholdInc
+providerLinkedIn: upholdinc
+providerFacebook: UpholdInc
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This app appears to be an interface to a custodial trading platform. In the
+App Store description we read:
+
+> - Uphold is fully reserved. Unlike banks, we don’t loan out your money. To
+    prove it, we publish our holdings in real-time.
+
+If they hold your money, you don't. As a custodial service this app is **not
+verifiable**.

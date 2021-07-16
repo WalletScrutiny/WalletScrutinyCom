@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
-launchDate: 2016-11-30
-latestUpdate: 2021-04-09
-apkVersionName: "3.4.12"
-stars: 4.1
-ratings: 15318
-reviews: 8306
+released: 2016-11-30
+latestUpdate: 2021-06-16
+version: "3.4.16"
+stars: 4.3
+ratings: 16648
+reviews: 9404
 size: 12M
 website: https://www.unocoin.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.unocoin.unocoinwallet.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -40,9 +39,8 @@ This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their
 website and there we read
 
-> AES-256 Encryption
-> 
-> The address-private key pairs obtained are encrypted using AES-256, sealed in
+> AES-256 Encryption<br>
+  The address-private key pairs obtained are encrypted using AES-256, sealed in
   envelopes and stored in multiple safe deposit lockers.
 
 which clearly means they have the keys and you don't. As a custodial service,

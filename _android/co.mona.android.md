@@ -4,15 +4,15 @@ title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: co.mona.android
-launchDate: 2017-08-30
-latestUpdate: 2021-04-16
-apkVersionName: "3.92.0"
-stars: 3.8
-ratings: 78590
-reviews: 30875
-size: 84M
+released: 2017-08-30
+latestUpdate: 2021-07-09
+version: "3.104.0"
+stars: 4.2
+ratings: 138080
+reviews: 48593
+size: 109M
 website: https://www.crypto.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: co.mona.android.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - kiwilamb
 users: 1000
 appId: com.cryptopay
-launchDate: 
+released: 2018-12-17
 latestUpdate: 2019-02-14
-apkVersionName: "1.5"
-stars: 0.0
-ratings: 
-reviews: 
+version: "1.5"
+stars: 4.8
+ratings: 5
+reviews: 1
 size: 9.1M
 website: https://shamlatech.com/
 repository: 
@@ -20,7 +20,6 @@ icon: com.cryptopay.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

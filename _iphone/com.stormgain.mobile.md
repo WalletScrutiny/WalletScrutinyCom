@@ -8,19 +8,18 @@ appId: com.stormgain.mobile
 appCountry: de
 idd: 1471506070
 released: 2019-07-21
-updated: 2021-04-17
-version: "1.16.0"
-score: 4.3631
-reviews: 504
-size: 74245120
-developerWebsite: https://stormgain.com
+updated: 2021-07-14
+version: "1.18.0"
+stars: 4.43516
+reviews: 933
+size: 56592384
+website: https://stormgain.com
 repository: 
 issue: 
 icon: com.stormgain.mobile.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-10
-reviewStale: true
 signer: 
 reviewArchive:
 

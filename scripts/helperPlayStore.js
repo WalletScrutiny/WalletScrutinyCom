@@ -5,6 +5,9 @@ const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
+const probablyDefunct = []
+const weirdBug = []
+const errorLogFileName = "/tmp/unnatural.txt"
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -13,9 +16,9 @@ const allowedHeaders = [
   "authors", // contributors to the analysis
   "users", // platform reported downloads in steps
   "appId", // provider chosen identifier. We use this for the file name, too
-  "launchDate", // gets provided by platform
+  "released", // gets provided by platform
   "latestUpdate", // platform reported latest update
-  "apkVersionName", // platform reported version
+  "version", // platform reported version
   "stars", // platform reported average rating
   "ratings", // platform reported count of ratings
   "reviews", // platform reported count of reviews
@@ -27,7 +30,6 @@ const allowedHeaders = [
   "bugbounty", // link to bug bounty program if known
   "verdict", // 
   "date", // date the review was done/updated
-  "reviewStale", // script marks this true when the version changes
   "signer", // the identifier of the release signing key
   "reviewArchive", // history of our reviews
   "providerTwitter",
@@ -73,6 +75,7 @@ function refreshFile(fileName) {
         writeResult(app, header, iconExtension, body)
       })
     }, function(err) {
+      probablyDefunct.push(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
       console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
     })
   }
@@ -82,19 +85,35 @@ function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
   const authors = new Set(header.authors)
-  var apkVersionName = app.version || "various"
-  const launchDate = header.launchDate || app.release
-  var launchDateString = ""
-  if (launchDate != undefined) {
-    launchDateString = dateFormat(launchDate, "yyyy-mm-dd")
+  var version = app.version || "various"
+  const released = header.released || app.released
+  var releasedString = ""
+  if (released != undefined) {
+    releasedString = dateFormat(released, "yyyy-mm-dd")
   }
-  var stale = header.reviewStale || dateFormat(header.latestUpdate, "yyyy-mm-dd") != dateFormat(app.updated, "yyyy-mm-dd")
+  var verdict = header.verdict
+  if ( app.minInstalls < 1000 ) {
+    verdict = "fewusers"
+  } else if ( header.verdict == "fewusers" && app.minInstalls > 1000 ) {
+    verdict = "wip"
+  } 
   const reviewArchive = new Set(header.reviewArchive)
   const redirects = new Set(header.redirect_from)
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  //console.log(`Writing results to ${p}`)
-  process.stdout.write("🤖")
+  if (header.stars != "0.0"
+      && app.scoreText == "0.0"
+      || header.reviews
+      && header.reviews > 10
+      && app.reviews < 0.9 * header.reviews) {
+    weirdBug.push(header.appId)
+    const errorLogFile = fs.createWriteStream(errorLogFileName)
+    errorLogFile.write(`${weirdBug.join(" ")}`)
+    errorLogFile.close()
+    process.stdout.write("(🤖)")
+  } else {
+    process.stdout.write("🤖")
+  }
   f.write(`---
 wsId: ${header.wsId || ""}
 title: "${app.title}"
@@ -103,9 +122,9 @@ authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
-launchDate: ${launchDateString}
+released: ${releasedString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-apkVersionName: "${ apkVersionName }"
+version: "${ version }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}
@@ -115,14 +134,13 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: ${verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
-reviewStale: ${stale}
 signer: ${header.signer || ""}
 reviewArchive:
 ${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
-  version: "${item.version}"
-  apkHash: ${item.apkHash || ""}
+  version: "${item.version || ""}"
+  appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
 

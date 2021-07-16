@@ -6,12 +6,12 @@ authors:
 
 users: 100000
 appId: com.ledger.live
-launchDate: 
-latestUpdate: 2021-04-08
-apkVersionName: "2.25.2"
-stars: 3.5
-ratings: 3502
-reviews: 2025
+released: 2019-01-27
+latestUpdate: 2021-07-12
+version: "2.30.0"
+stars: 2.7
+ratings: 4409
+reviews: 2569
 size: Varies with device
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: com.ledger.live.png
 bugbounty: 
 verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 

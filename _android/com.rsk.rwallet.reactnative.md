@@ -6,9 +6,9 @@ authors:
 
 users: 1000
 appId: com.rsk.rwallet.reactnative
-launchDate: 
+released: 
 latestUpdate: 2020-10-29
-apkVersionName: "1.3.3"
+version: "1.3.3"
 stars: 3.8
 ratings: 20
 reviews: 15
@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.rsk.rwallet.reactnative.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-13
 reviewStale: true
 signer: 
 reviewArchive:
+- date: 2021-04-13
+  version: 
+  appHash: 
+  gitRevision: 2adf93055d5b552806d8a041f41c1e8e4a7c5fd6
+  verdict: fewusers
 
 
 providerTwitter: 
@@ -35,3 +40,4 @@ redirect_from:
 ---
 
 
+Apparently this app was re-launched under a different applicationId.

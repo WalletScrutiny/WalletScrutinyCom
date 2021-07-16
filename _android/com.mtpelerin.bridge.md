@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Bridge Wallet"
+title: "Bridge Wallet, the Swiss app for Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.mtpelerin.bridge
-launchDate: 
-latestUpdate: 2021-04-19
-apkVersionName: "1.13"
-stars: 4.7
-ratings: 42
-reviews: 23
-size: 76M
+released: 2020-04-07
+latestUpdate: 2021-06-25
+version: "1.16"
+stars: 4.5
+ratings: 64
+reviews: 39
+size: 77M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.mtpelerin.bridge.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-27
-reviewStale: true
 signer: 
 reviewArchive:
 

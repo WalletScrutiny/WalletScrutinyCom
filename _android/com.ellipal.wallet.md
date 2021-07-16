@@ -6,12 +6,12 @@ authors:
 
 users: 10000
 appId: com.ellipal.wallet
-launchDate: 
-latestUpdate: 2021-03-23
-apkVersionName: "2.9.3"
-stars: 4.0
-ratings: 382
-reviews: 237
+released: 2018-07-02
+latestUpdate: 2021-06-04
+version: "2.9.5.9"
+stars: 4.5
+ratings: 518
+reviews: 304
 size: 17M
 website: https://www.ellipal.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.ellipal.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -35,7 +34,7 @@ redirect_from:
 ---
 
 
-This app come with the claim:
+This app comes with the claim:
 
 > Secure HD wallet for cryptocurrencies. Store, transact, and trade Bitcoin and
   Crypto: BTC ETH LTC DGB BSV BAT OMG XRP XVG & 1000+ more.

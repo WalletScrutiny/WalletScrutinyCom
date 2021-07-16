@@ -7,12 +7,12 @@ authors:
 - emanuel
 users: 10000
 appId: com.ccwalletapp
-launchDate: 
+released: 2019-06-26
 latestUpdate: 2020-07-29
-apkVersionName: "1.3.1"
-stars: 3.9
-ratings: 544
-reviews: 491
+version: "1.3.1"
+stars: 3.7
+ratings: 550
+reviews: 495
 size: 22M
 website: https://ccwalletapp.com
 repository: https://github.com/coincasso/ccwallet
@@ -21,7 +21,6 @@ icon: com.ccwalletapp.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-06
-reviewStale: false
 signer: 
 reviewArchive:
 

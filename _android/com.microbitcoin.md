@@ -6,12 +6,12 @@ authors:
 
 users: 5000
 appId: com.microbitcoin
-launchDate: 2018-10-30
+released: 2018-10-30
 latestUpdate: 2020-01-23
-apkVersionName: "2.0.1"
-stars: 0.0
-ratings: 
-reviews: 
+version: "2.0.1"
+stars: 3.9
+ratings: 54
+reviews: 33
 size: 9.9M
 website: https://microbitcoin.org
 repository: 
@@ -20,7 +20,6 @@ icon: com.microbitcoin.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

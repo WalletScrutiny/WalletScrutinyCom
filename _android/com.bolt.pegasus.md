@@ -6,13 +6,13 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.bolt.pegasus
-launchDate: 
-latestUpdate: 2021-03-11
-apkVersionName: "1.19.0"
+released: 2019-08-26
+latestUpdate: 2021-07-14
+version: "1.19.6"
 stars: 4.7
-ratings: 354
+ratings: 355
 reviews: 292
-size: 17M
+size: 39M
 website: https://bolt.global/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.bolt.pegasus.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -6,12 +6,12 @@ authors:
 - leo
 users: 1000
 appId: com.ebcecosystem.wallets
-launchDate: 2018-12-07
+released: 2018-12-07
 latestUpdate: 2019-01-30
-apkVersionName: "0.0.7"
+version: "0.0.7"
 stars: 4.7
-ratings: 96
-reviews: 60
+ratings: 97
+reviews: 61
 size: 11M
 website: https://ebc.eco
 repository: 
@@ -20,7 +20,6 @@ icon: com.ebcecosystem.wallets.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2019-12-28
-reviewStale: false
 signer: 
 reviewArchive:
 

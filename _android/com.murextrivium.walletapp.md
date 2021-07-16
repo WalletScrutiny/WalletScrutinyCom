@@ -6,9 +6,9 @@ authors:
 - kiwilamb
 users: 50
 appId: com.murextrivium.walletapp
-launchDate: 
+released: 2018-09-22
 latestUpdate: 2018-09-23
-apkVersionName: "1.2"
+version: "1.2"
 stars: 0.0
 ratings: 
 reviews: 
@@ -20,7 +20,6 @@ icon: com.murextrivium.walletapp.png
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

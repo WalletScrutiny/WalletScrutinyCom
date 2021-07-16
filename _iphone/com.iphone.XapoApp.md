@@ -8,29 +8,39 @@ appId: com.iphone.XapoApp
 appCountry: 
 idd: 917692892
 released: 2014-11-13
-updated: 2021-04-13
-version: "6.11.2"
-score: 3.95035
-reviews: 141
-size: 151514112
-developerWebsite: https://xapo.com
+updated: 2021-05-19
+version: "6.11.4"
+stars: 3.88591
+reviews: 149
+size: 151842816
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.iphone.XapoApp.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-24
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: xapo
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: xapoapp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Xapo describes itself as a wallet:
+
+> We’re a digital wallet that allows you to easily and safely send, receive,
+  store and spend any traditional currencies and bitcoin.
+
+but under closer investigation, we can't find any Bitcoin wallet here. Naming
+"traditional currencies" and "bitcoin" in the same security
+claim sound like it has to be custodial.
+
+Their [website on security](https://xapo.com/en/security) is not claiming
+otherwise neither which makes us conclude: This app is **not verifiable**.

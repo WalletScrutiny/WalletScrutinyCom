@@ -6,12 +6,12 @@ authors:
 
 users: 10000
 appId: io.smcc.sccwallet
-launchDate: 
+released: 2018-08-12
 latestUpdate: 2018-10-02
-apkVersionName: "1.29"
+version: "1.29"
 stars: 4.3
-ratings: 9
-reviews: 2
+ratings: 16
+reviews: 5
 size: 4.1M
 website: 
 repository: 
@@ -20,7 +20,6 @@ icon: io.smcc.sccwallet.png
 bugbounty: 
 verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

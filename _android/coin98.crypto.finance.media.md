@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Coin98 Wallet - Crypto Wallet & Payment Gateway"
+title: "Coin98 Wallet - Crypto Wallet & DeFi Gateway"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: coin98.crypto.finance.media
-launchDate: 
-latestUpdate: 2021-04-17
-apkVersionName: "9.0.3"
-stars: 4.7
-ratings: 5080
-reviews: 3720
-size: 63M
+released: 2019-12-19
+latestUpdate: 2021-07-10
+version: "10.0.5"
+stars: 4.9
+ratings: 7379
+reviews: 5593
+size: 62M
 website: https://coin98.app/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: coin98.crypto.finance.media.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-19
-reviewStale: true
 signer: 
 reviewArchive:
 

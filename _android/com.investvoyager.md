@@ -6,13 +6,13 @@ authors:
 - leo
 users: 500000
 appId: com.investvoyager
-launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "2.5.16"
-stars: 2.4
-ratings: 3223
-reviews: 2073
-size: 43M
+released: 
+latestUpdate: 2021-07-07
+version: "2.5.22"
+stars: 3.6
+ratings: 5651
+reviews: 3349
+size: 45M
 website: https://www.investvoyager.com/
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.investvoyager.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-01-02
-reviewStale: true
 signer: 
 reviewArchive:
 

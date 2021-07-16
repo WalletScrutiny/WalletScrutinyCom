@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: pro.huobi
-launchDate: 
-latestUpdate: 2021-04-09
-apkVersionName: "6.2.3"
-stars: 3.7
-ratings: 8640
-reviews: 3361
-size: 64M
+released: 2017-11-01
+latestUpdate: 2021-07-09
+version: "6.3.8"
+stars: 3.8
+ratings: 9990
+reviews: 4062
+size: 86M
 website: https://www.huobi.com/en-us
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: pro.huobi.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

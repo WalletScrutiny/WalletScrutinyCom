@@ -6,12 +6,12 @@ authors:
 
 users: 50000
 appId: io.ethos.universalwallet
-launchDate: 
+released: 2018-07-10
 latestUpdate: 2019-12-05
-apkVersionName: "2.0.5"
-stars: 3.1
+version: "2.0.5"
+stars: 3.0
 ratings: 1516
-reviews: 796
+reviews: 795
 size: 38M
 website: https://www.ethos.io
 repository: 
@@ -20,7 +20,6 @@ icon: io.ethos.universalwallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-03-05
-reviewStale: false
 signer: 
 reviewArchive:
 

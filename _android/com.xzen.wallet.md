@@ -6,11 +6,11 @@ authors:
 - leo
 users: 5000
 appId: com.xzen.wallet
-launchDate: 
+released: 2018-12-25
 latestUpdate: 2019-09-19
-apkVersionName: "1.2.6.0"
+version: "1.2.6.0"
 stars: 3.7
-ratings: 41
+ratings: 42
 reviews: 31
 size: 26M
 website: http://www.xzen.io/app
@@ -18,12 +18,16 @@ repository:
 issue: 
 icon: com.xzen.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-05-29
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-05-15
 reviewStale: true
 signer: 
 reviewArchive:
-
+- date: 2020-05-29
+  version: "1.2.6.0"
+  appHash: 
+  gitRevision: 13d8e0095e0944d8d255811487d819fafc74c5e1
+  verdict: custodial
 
 providerTwitter: XZENwallet
 providerLinkedIn: 
@@ -36,17 +40,8 @@ redirect_from:
 ---
 
 
-This app claims:
+While this app still appears to be on Google Play,
+[their website](https://xzen.io/) now reads:
 
-> In XZEN only you will have access to your account. You'll be able to manage it
-  in your own way and feel no worries about any blocks.
-
-which can be interpreted as a claim to not being custodial but also as a claim
-of their accounts being somehow very secure. It's not worded clearer in other
-parts, which makes it look like this could be a custodial product.
-
-The provider also ~~sells~~ offers for preorder a hardware wallet, the "Xzen
-Wallet" ... [projected to be released "beginning of 2020"](https://www.xzen.io/faq).
-
-Absent public source code, claims cannot be verified anyway what gets us to the
-verdict **not verifiable**.
+> **XZEN wallet is closed.**<br>
+  In case of any issues, please contact us by email using the form below.

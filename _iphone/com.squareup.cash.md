@@ -8,19 +8,18 @@ appId: com.squareup.cash
 appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2021-04-20
-version: "3.37.2"
-score: 4.75427
-reviews: 1914958
-size: 199430144
-developerWebsite: https://cash.app
+updated: 2021-07-08
+version: "3.43.1"
+stars: 4.7502
+reviews: 1971944
+size: 200705024
+website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

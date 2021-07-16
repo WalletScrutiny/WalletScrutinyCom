@@ -4,9 +4,9 @@ altTitle:
 
 users: 1000
 appId: com.aegiswallet
-launchDate: 2014-06-01
+released: 2014-06-01
 latestUpdate: 2017-12-20
-apkVersionName: "1.2"
+version: "1.2"
 stars: 3.8
 ratings: 95
 reviews: 60

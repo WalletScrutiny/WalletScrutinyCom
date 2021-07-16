@@ -10,17 +10,16 @@ idd: 1453542836
 released: 2019-02-27
 updated: 2020-12-13
 version: "2.3.5"
-score: 4
-reviews: 4
+stars: 3.4
+reviews: 5
 size: 52311040
-developerWebsite: https://bitcoinox.com/
+website: https://bitcoinox.com/
 repository: 
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
 verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 

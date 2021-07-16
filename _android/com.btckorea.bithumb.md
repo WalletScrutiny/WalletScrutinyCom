@@ -6,13 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: com.btckorea.bithumb
-launchDate: 
-latestUpdate: 2021-03-31
-apkVersionName: "2.1.6"
-stars: 3.1
-ratings: 14321
-reviews: 6690
-size: 35M
+released: 2017-09-26
+latestUpdate: 2021-07-07
+version: "2.2.3"
+stars: 3.3
+ratings: 20333
+reviews: 8666
+size: 40M
 website: https://www.bithumb.com
 repository: 
 issue: 
@@ -20,14 +20,13 @@ icon: com.btckorea.bithumb.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-02-19
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bithumb
 providerReddit: 
 
 redirect_from:

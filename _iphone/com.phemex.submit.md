@@ -9,19 +9,18 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2021-04-12
-version: "1.3.2"
-score: 4.58649
-reviews: 370
-size: 139972608
-developerWebsite: https://phemex.com/
+updated: 2021-06-28
+version: "1.4.0"
+stars: 4.3913
+reviews: 483
+size: 162696192
+website: https://phemex.com/
 repository: 
 issue: 
 icon: com.phemex.submit.jpg
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-04-20
-reviewStale: true
 signer: 
 reviewArchive:
 

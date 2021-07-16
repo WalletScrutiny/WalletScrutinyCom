@@ -6,12 +6,12 @@ authors:
 - leo
 users: 50000
 appId: com.cobinhood.exchange
-launchDate: 
+released: 2017-12-25
 latestUpdate: 2019-04-29
-apkVersionName: "3.50.1"
+version: "3.50.1"
 stars: 1.9
-ratings: 642
-reviews: 376
+ratings: 646
+reviews: 378
 size: 7.7M
 website: https://cobinhood.com
 repository: 
@@ -20,7 +20,6 @@ icon: com.cobinhood.exchange.png
 bugbounty: 
 verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

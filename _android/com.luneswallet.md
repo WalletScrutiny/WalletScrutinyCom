@@ -6,24 +6,27 @@ authors:
 - leo
 users: 10000
 appId: com.luneswallet
-launchDate: 2018-01-31
+released: 2018-01-31
 latestUpdate: 2018-12-06
-apkVersionName: "2.1"
+version: "2.1"
 stars: 4.1
-ratings: 247
-reviews: 165
+ratings: 266
+reviews: 179
 size: 7.3M
 website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile
-issue: https://github.com/Lunes-platform/Wallet-mobile/issues/8
+issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-29
-reviewStale: false
+verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-15
 signer: 
 reviewArchive:
-
+- date: 2020-08-29
+  version: "2.1"
+  appHash: 
+  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
+  verdict: nonverifiable
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +39,12 @@ redirect_from:
 ---
 
 
-**Update:** [Alan Gabriel](https://gitlab.com/alangabriel) offered a link to
+**Update 2021-07-15:** As [Emanuel](/authors/emanuel) already
+[noticed in March '21](https://github.com/Lunes-platform/Wallet-mobile/issues/9),
+this provider did not release the source of the latest version. Without source,
+the app is **not verifiable**.
+
+**Update 2020-08-30:** [Alan Gabriel](https://gitlab.com/alangabriel) offered a link to
 [this repository](https://github.com/Lunes-platform/Wallet-mobile) in
 [our issue tracker](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/68#note_404231902).
 

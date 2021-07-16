@@ -6,13 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.viabtc.wallet
-launchDate: 2019-05-15
-latestUpdate: 2021-04-02
-apkVersionName: "2.2.6"
-stars: 4.3
-ratings: 226
-reviews: 96
-size: 50M
+released: 2019-05-15
+latestUpdate: 2021-07-09
+version: "2.3.4"
+stars: 4.1
+ratings: 304
+reviews: 125
+size: 47M
 website: https://viawallet.com
 repository: 
 issue: 
@@ -20,7 +20,6 @@ icon: com.viabtc.wallet.png
 bugbounty: 
 verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2020-04-27
-reviewStale: true
 signer: 
 reviewArchive:
 
