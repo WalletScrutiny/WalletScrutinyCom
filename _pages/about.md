@@ -79,7 +79,7 @@ author_profile: true
 </div>
 </div>
 
-<script src="{{ base_path }}/assets/js/widgetScripts.js"></script>
+<script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
 <script>
   const mostRecent = [].concat(window.wallets)
