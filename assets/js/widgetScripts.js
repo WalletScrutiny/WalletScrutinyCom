@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
-        <span style="background:${window.verdicts[wallet.verdict].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${wallet.verdict}</span>
+        <span style="background:${window.verdicts[wallet.verdict].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[wallet.verdict].short}</span>
       </div>
     </a>
     ${includeDetails ? getWidgetDetails(wallet) : `` }
