@@ -31,15 +31,17 @@ window.addEventListener("load", () => {
       if (anchor) {
         top = (anchor.offset() || {top: 0}).top
       }
-      $('html, body').animate({
-        scrollTop: top
-      }, 2000, _ => {
-        if (window.location.hash.search("card_") > 0) {
-          const cardId = window.location.hash.split("card_")[1]
-          toggleApp(cardId, true)
-        }
-        dontUpdateUrl = false
-      })
+      if (top > 0) {
+        $('html, body').animate({
+          scrollTop: top
+        }, 2000, _ => {
+          if (window.location.hash.search("card_") > 0) {
+            const cardId = window.location.hash.split("card_")[1]
+            toggleApp(cardId, true)
+          }
+        })
+      }
+      dontUpdateUrl = false
   })
 })
 
