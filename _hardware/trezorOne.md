@@ -6,7 +6,7 @@ authors:
 released: 2014-07-29
 discontinued: # date
 latestUpdate: 
-version: 
+version: 1.9.4
 dimensions: [60, 30, 6]
 weight: 12
 website: https://trezor.io
@@ -17,8 +17,8 @@ repository: https://github.com/trezor/trezor-firmware
 issue: https://github.com/trezor/trezor-firmware/issues/1713
 icon: trezorOne.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-16
+verdict: reproducible # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-17
 signer: 
 reviewArchive:
 
@@ -355,3 +355,66 @@ fb 8b a3 f0 2a ab 0d 83 8b 0e de f9 5a 46 80 41
 differ, too. Apparently the latter is the 192-ish bytes of 3 signatures. We
 asked the provider for clarification in
 [this issue](https://github.com/trezor/trezor-firmware/issues/1713).
+
+... and we were given some more pointers on how to interpret the remaining 256 +
+192 bytes:
+
+> High-level comment:
+> 
+> Current firmwares are distributed as wrapped images where you have a firmware signed with new method (using [legacy/bootloader/firmware_sign.py](https://github.com/trezor/trezor-firmware/blob/master/legacy/bootloader/firmware_sign.py?rgh-link-date=2021-07-16T09%3A00%3A36Z)) and the result is then signed using the old method (using the method predating commit [07231d9](https://github.com/trezor/trezor-firmware/commit/07231d936e41335b3ec44c4c6eb336be006890d0)).
+> 
+> In both signing operations the keys used are private keys belonging to these public keys:
+> 
+> [signatures.c#L35-L41](https://github.com/trezor/trezor-firmware/blob/3d69ca1b1b0c0e429474321ced0d040d1d9e6dec/legacy/bootloader/signatures.c#L35-L41):
+> ```
+static const uint8_t * const pubkey[PUBKEYS] = { 
+  (const uint8_t *)"\x04\xd5\x71\xb7\xf1\x48\xc5\xe4\x23\x2c\x38\x14\xf7\x77\xd8\xfa\xea\xf1\xa8\x42\x16\xc7\x8d\x56\x9b\x71\x04\x1f\xfc\x76\x8a\x5b\x2d\x81\x0f\xc3\xbb\x13\x4d\xd0\x26\xb5\x7e\x65\x00\x52\x75\xae\xde\xf4\x3e\x15\x5f\x48\xfc\x11\xa3\x2e\xc7\x90\xa9\x33\x12\xbd\x58", 
+  (const uint8_t *)"\x04\x63\x27\x9c\x0c\x08\x66\xe5\x0c\x05\xc7\x99\xd3\x2b\xd6\xba\xb0\x18\x8b\x6d\xe0\x65\x36\xd1\x10\x9d\x2e\xd9\xce\x76\xcb\x33\x5c\x49\x0e\x55\xae\xe1\x0c\xc9\x01\x21\x51\x32\xe8\x53\x09\x7d\x54\x32\xed\xa0\x6b\x79\x20\x73\xbd\x77\x40\xc9\x4c\xe4\x51\x6c\xb1", 
+  (const uint8_t *)"\x04\x43\xae\xdb\xb6\xf7\xe7\x1c\x56\x3f\x8e\xd2\xef\x64\xec\x99\x81\x48\x25\x19\xe7\xef\x4f\x4a\xa9\x8b\x27\x85\x4e\x8c\x49\x12\x6d\x49\x56\xd3\x00\xab\x45\xfd\xc3\x4c\xd2\x6b\xc8\x71\x0d\xe0\xa3\x1d\xbd\xf6\xde\x74\x35\xfd\x0b\x49\x2b\xe7\x0a\xc7\x5f\xde\x58", 
+  (const uint8_t *)"\x04\x87\x7c\x39\xfd\x7c\x62\x23\x7e\x03\x82\x35\xe9\xc0\x75\xda\xb2\x61\x63\x0f\x78\xee\xb8\xed\xb9\x24\x87\x15\x9f\xff\xed\xfd\xf6\x04\x6c\x6f\x8b\x88\x1f\xa4\x07\xc4\xa4\xce\x6c\x28\xde\x0b\x19\xc1\xf4\xe2\x9f\x1f\xcb\xc5\xa5\x8f\xfd\x14\x32\xa3\xe0\x93\x8a", 
+  (const uint8_t *)"\x04\x73\x84\xc5\x1a\xe8\x1a\xdd\x0a\x52\x3a\xdb\xb1\x86\xc9\x1b\x90\x6f\xfb\x64\xc2\xc7\x65\x80\x2b\xf2\x6d\xbd\x13\xbd\xf1\x2c\x31\x9e\x80\xc2\x21\x3a\x13\x6c\x8e\xe0\x3d\x78\x74\xfd\x22\xb7\x0d\x68\xe7\xde\xe4\x69\xde\xcf\xbb\xb5\x10\xee\x9a\x46\x0c\xda\x45", 
+};
+```
+ 
+and
+
+
+
+
+> as specified [in a comment](https://github.com/trezor/trezor-mcu/issues/459#issuecomment-470287085) in the issue you link in the review, the header at start of the downloaded image is:
+> 
+> * 256 bytes of the old TRZR header -- which is [stripped](https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/cli/firmware.py?rgh-link-date=2021-07-16T09%3A03%3A26Z#L335-L351) when you upload the image into bootloader 1.8.0 or newer
+> * 1024 bytes of the new TRZF header, which should be identical to what you built, except for the 192 bytes of signatures
+> 
+> Structure of the old header is described here:<br>
+> [https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py#L246-L260](https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py?rgh-link-date=2021-07-16T09%3A03%3A26Z#L246-L260)<br>
+> Structure of the new header is described here:<br>
+> [https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py#L181-L213](https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py?rgh-link-date=2021-07-16T09%3A03%3A26Z#L181-L213)
+> 
+> Signature verification for the old header is implemented here:<br>
+> [https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py#L411-L418](https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py?rgh-link-date=2021-07-16T09%3A03%3A26Z#L411-L418)<br>
+> Namely:
+> 
+> 1. calculate digest of firmware without header. This is essentially `tail -c +257 trezor.bin | sha256sum`
+> 2. the `key_indexes` will tell you which 3 of the 5 [`V1_BOOTLOADER_KEYS`](https://github.com/trezor/trezor-firmware/blob/master/python/src/trezorlib/firmware.py?rgh-link-date=2021-07-16T09%3A03%3A26Z#L33-L42) are used
+> 3. the `signatures` are ecdsa signatures of the digest with the respective keys
+> 
+> 
+> Signature verification for the new header is identical, except:
+> 
+> * signatures are over a "header digest", which is a sha256 over the header with signature fields zeroed out
+> * key indexes are `v1_key_indexes` in the new header
+> * signatures are `v1_signatures` in the new header.
+> 
+> For purposes of reproducibility, we should also publish instructions along the same lines as for TT, i.e., use `dd` to zero out signatures, compare files byte-for-byte.
+
+So ... what do we make of this? Do we **have to** reconstruct the verification
+script or can we assume their open source verification script is getting the
+same scrutiny as their firmware itself? As the bootloader is doing this check,
+too, we have to assume the check is under as much scrutiny as the firmware
+itself and for now will not dig deeper.
+
+Trezor is the oldest player in the space and one of the most scrutinized and the
+file format of the firmware reflects a transition from an old to a new format,
+which left some legacy in how to verify its build today but it looks good. The
+firmware version 1.9.4 is **reproducible**.

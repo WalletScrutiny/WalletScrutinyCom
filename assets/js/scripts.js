@@ -1,38 +1,78 @@
-if (document.getElementById("modularVerdictPH") && window.verdictOrder && window.verdictOrder.length > 0) {
-  const verdictSelect = document.createElement("select")
-  verdictSelect.setAttribute("id", "modularVerdict")
-  verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
-  
-  var verdictOption = document.createElement("option")
-  verdictOption.value = "all"
-  verdictOption.innerHTML = "all"
-  verdictSelect.append(verdictOption)
-  
-  window.verdictOrder.forEach(t => {
-    verdictOption = document.createElement("option")
-    verdictOption.value = t
-    verdictOption.innerHTML = t
+window.addEventListener("load", () => {
+  if (document.getElementById("modularVerdictPH") && window.verdictOrder && window.verdictOrder.length > 0) {
+    const verdictSelect = document.createElement("select")
+    verdictSelect.setAttribute("id", "modularVerdict")
+    verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
+    
+    var verdictOption = document.createElement("option")
+    verdictOption.value = "all"
+    verdictOption.innerHTML = "all"
     verdictSelect.append(verdictOption)
+    
+    window.verdictOrder.forEach(t => {
+      verdictOption = document.createElement("option")
+      verdictOption.value = t
+      verdictOption.innerHTML = t
+      verdictSelect.append(verdictOption)
+    })
+
+    document.getElementById("modularVerdictPH").replaceWith(verdictSelect)
+    document.getElementById("modularVerdict").selectedIndex = 1
+  }
+
+  if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
+    const platformSelect = document.createElement("select")
+    platformSelect.setAttribute("id", "modularPlatform")
+    platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
+    
+    window.platformObs.forEach(t => {
+      const platformOption = document.createElement("option")
+      platformOption.value = t
+      platformOption.innerHTML = window.transcribeTag(t).category
+      platformSelect.append(platformOption)
+    })
+
+    document.getElementById("modularPlatformPH").replaceWith(platformSelect)
+  }
+
+  window.addEventListener("scroll", ignore => {
+    const p = document.getElementById("modularWalletPayload")
+    const o = p.getBoundingClientRect().bottom
+    document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
+    if (o <= 100) {
+      p.style.height = `${p.getBoundingClientRect().height}px`
+      p.style.overflow = "hidden"
+      document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
+        e.style.transform = `translateY(${o - 100}px)`
+        e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
+      })
+    } else {
+      document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
+        e.style.transform = `translateY(0px)`
+        e.style.display = ""
+        p.style.height = ""
+        p.style.overflow = ""
+      })
+    }
   })
 
-  document.getElementById("modularVerdictPH").replaceWith(verdictSelect)
-  document.getElementById("modularVerdict").selectedIndex = 1
-}
-
-if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
-  const platformSelect = document.createElement("select")
-  platformSelect.setAttribute("id", "modularPlatform")
-  platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
-  
-  window.platformObs.forEach(t => {
-    const platformOption = document.createElement("option")
-    platformOption.value = t
-    platformOption.innerHTML = window.transcribeTag(t).category
-    platformSelect.append(platformOption)
+  var x, y
+  x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
+    y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
+    y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
+    resizeLabelBold()
   })
-
-  document.getElementById("modularPlatformPH").replaceWith(platformSelect)
-}
+  x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", e => {
+    y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
+    y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
+    resizeLabelBold()
+  })
+  updateModularPayload()
+  document.body.addEventListener('keydown', e => {
+    if (e.key === "Escape")
+      toggleApp()
+  })
+})
 
 function updateModularPayload() {
   const verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
@@ -58,7 +98,7 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = ['reproducible', 'nonverifiable', 'nosource', 'custodial', 'obfuscated', 'defunct', 'wip', 'fewusers', 'nobtc', 'nowallet']
+  const verdictOrder = ['reproducible', 'nonverifiable', 'nosource', 'noita', 'plainkey', 'prefilled', 'custodial', 'obfuscated', 'defunct', 'wip', 'fewusers', 'nobtc', 'nowallet']
   const paltformOrder = ['android', 'iphone', 'hardware']
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
@@ -142,40 +182,3 @@ function getBadge(wallet) {
       </div>
       </div>`
 }
-
-window.addEventListener("scroll", ignore => {
-  const p = document.getElementById("modularWalletPayload")
-  const o = p.getBoundingClientRect().bottom
-  document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
-  if (o <= 100) {
-    p.style.height = `${p.getBoundingClientRect().height}px`
-    p.style.overflow = "hidden"
-    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-      e.style.transform = `translateY(${o - 100}px)`
-      e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
-    })
-  } else {
-    document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-      e.style.transform = `translateY(0px)`
-      e.style.display = ""
-      p.style.height = ""
-      p.style.overflow = ""
-    })
-  }
-})
-
-var x, y
-x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
-  y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
-  y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
-  resizeLabelBold()
-})
-x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", e => {
-  y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
-  y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
-  resizeLabelBold()
-})
-updateModularPayload()
-document.body.addEventListener('keydown', e => {
-  if (e.key === "Escape") toggleApp()
-})

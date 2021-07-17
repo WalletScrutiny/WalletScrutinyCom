@@ -9,4 +9,5 @@ main definition is here in this folder. The fields are:
 * **question**: question asked when coming to this verdict upon a negative response. For the methodology and "verdict explained".
 * **details**: an explanation with markdown. For the methodology and "verdict explained".
 
-New verdicts might need addition to lists like in [grid_of_wallets](/_includes/grid_of_wallets.html).
+New verdicts might need addition to lists like in [grid_of_wallets](/_includes/grid_of_wallets.html)
+or the two `verdictOrder` variables.
