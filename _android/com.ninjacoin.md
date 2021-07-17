@@ -9,9 +9,9 @@ appId: com.ninjacoin
 released: 2019-11-30
 latestUpdate: 2021-05-25
 version: "v1.3.0"
-stars: 4.4
-ratings: 57
-reviews: 33
+stars: 3.9
+ratings: 66
+reviews: 42
 size: 25M
 website: 
 repository: 

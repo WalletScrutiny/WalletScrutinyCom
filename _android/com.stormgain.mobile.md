@@ -10,8 +10,8 @@ released: 2019-07-08
 latestUpdate: 2021-07-08
 version: "1.18.0"
 stars: 4.3
-ratings: 42519
-reviews: 23271
+ratings: 42764
+reviews: 23362
 size: 37M
 website: https://stormgain.com
 repository: 

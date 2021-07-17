@@ -10,8 +10,8 @@ idd: 1396963260
 released: 2018-10-05
 updated: 2021-02-09
 version: "2.1.13"
-stars: 3.16667
-reviews: 12
+stars: 3.30769
+reviews: 13
 size: 52423680
 website: https://coinfalcon.com
 repository: 

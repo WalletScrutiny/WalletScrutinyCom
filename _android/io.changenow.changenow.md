@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: "ChangeNOW – Limitless Crypto Exchange"
+title: "ChangeNOW: Buy Bitcoin Dogecoin & Crypto Exchange"
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ released: 2018-09-07
 latestUpdate: 2021-07-07
 version: "1.114"
 stars: 4.5
-ratings: 1080
+ratings: 1082
 reviews: 560
 size: 5.9M
 website: http://changenow.io

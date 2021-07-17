@@ -11,7 +11,7 @@ latestUpdate: 2021-07-14
 version: "2.3.1"
 stars: 3.9
 ratings: 219
-reviews: 104
+reviews: 105
 size: 27M
 website: https://www.vauld.com/
 repository: 

@@ -4,7 +4,7 @@ title: "Paper Wallet Generator for Bitcoin & Altcoins"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.paperwallet.top
 released: 2019-06-12
 latestUpdate: 2020-10-18

@@ -9,9 +9,9 @@ appId: com.incognito.wallet
 released: 2019-08-12
 latestUpdate: 2021-06-29
 version: "4.4.0"
-stars: 3.8
-ratings: 274
-reviews: 157
+stars: 3.9
+ratings: 276
+reviews: 158
 size: 47M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet

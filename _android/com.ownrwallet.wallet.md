@@ -10,7 +10,7 @@ released: 2019-05-20
 latestUpdate: 2021-07-02
 version: "1.20.0"
 stars: 4.9
-ratings: 1240
+ratings: 1241
 reviews: 1114
 size: 56M
 website: https://ownrwallet.com

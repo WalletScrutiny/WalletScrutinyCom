@@ -10,8 +10,8 @@ released: 2019-04-15
 latestUpdate: 2021-06-04
 version: "1.13"
 stars: 4.0
-ratings: 3719
-reviews: 1416
+ratings: 3737
+reviews: 1421
 size: Varies with device
 website: https://currency.com
 repository: 

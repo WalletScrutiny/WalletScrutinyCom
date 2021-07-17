@@ -10,7 +10,7 @@ released: 2018-10-19
 latestUpdate: 2021-06-28
 version: "2.2.5"
 stars: 4.0
-ratings: 798
+ratings: 799
 reviews: 418
 size: 18M
 website: https://monarchwallet.com

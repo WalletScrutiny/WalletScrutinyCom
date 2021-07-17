@@ -10,7 +10,7 @@ idd: 1378956601
 released: 2018-05-14
 updated: 2021-07-10
 version: "3.37.0"
-stars: 4.02086
+stars: 4.02346
 reviews: 1534
 size: 163227648
 website: 

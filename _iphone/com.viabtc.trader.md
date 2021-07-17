@@ -10,8 +10,8 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2021-07-16
 version: "3.0.1"
-stars: 4.55091
-reviews: 982
+stars: 4.54776
+reviews: 984
 size: 133699584
 website: https://www.coinex.com
 repository: 
