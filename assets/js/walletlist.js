@@ -21,7 +21,7 @@ function toggleWalletList() {
 
 var lastId = ""
 
-function toggleApp(id) {
+function toggleApp(id, show) {
   if (!id) { 
     // no id provided means close whatever is open
     const modal = document.querySelectorAll(".temp_card")[0]
@@ -29,43 +29,51 @@ function toggleApp(id) {
       modal.remove()
       document.body.classList.remove("modal-open")
     }
-  }
-  else {
+    lastId = ""
+  } else {
     lastId = id
     var t = document.getElementById("card_" + id)
     if (document.querySelectorAll(".temp_card_" + id).length > 0) {
-      document.querySelectorAll(".temp_card_" + id)[0].remove();
-      document.body.classList.remove("modal-open");
+      // correct card is open already
+      if (!show) {
+        // user really wants to show this, even if it's open already.
+        document.querySelectorAll(".temp_card_" + id)[0].remove()
+        document.body.classList.remove("modal-open")
+        lastId = ""
+      }
     } else {
-      var temp = document.createElement("div");
-      var tempInner = document.createElement("div");
-      tempInner.classList.add("opened");
-      tempInner.classList.add("AppDisplayCard");
-      tempInner.innerHTML = String(t.innerHTML).replace("onclick=", "_disabled=");
-      tempInner.setAttribute("onclick", "event.stopPropagation()");
-      temp.classList.add("temp_card_" + id);
-      temp.classList.add("temp_card");
-      temp.append(tempInner);
-      temp.setAttribute("onclick", "toggleApp()");
-      document.body.append(temp);
-      if (screen.width > 756) { document.body.classList.add("modal-open"); }
+      var temp = document.createElement("div")
+      var tempInner = document.createElement("div")
+      tempInner.classList.add("opened")
+      tempInner.classList.add("AppDisplayCard")
+      tempInner.innerHTML = String(t.innerHTML).replace("onclick=", "_disabled=")
+      tempInner.setAttribute("onclick", "event.stopPropagation()")
+      temp.classList.add("temp_card_" + id)
+      temp.classList.add("temp_card")
+      temp.append(tempInner)
+      temp.setAttribute("onclick", "toggleApp()")
+      document.body.append(temp)
+      if (screen.width > 756) {
+        document.body.classList.add("modal-open")
+      }
     }
   }
+  updateUrl()
 }
 
 function resizeLabelBold() {
   if (document.querySelectorAll(".-bold").length > 0) {
-    let c = document.querySelectorAll(".-bold");
+    let c = document.querySelectorAll(".-bold")
     for (i = 0; i < c.length; i++) {
-      let t = c[i];
+      let t = c[i]
       let p = t.parentNode.parentNode;
-      let pw = p.getBoundingClientRect().width * .9;
+      let pw = p.getBoundingClientRect().width * .9
       if (t.getBoundingClientRect().width > pw) {
-        let l = t.querySelectorAll("l")[0];
+        let l = t.querySelectorAll("l")[0]
         for (j = 15; j > 0; j--) {
-          l.style['font-size'] = `${j * .3}rem`;
+          l.style['font-size'] = `${j * .3}rem`
           if (l.parentNode.getBoundingClientRect().width < p.getBoundingClientRect().width) {
-            break;
+            break
           }
         }
       }
@@ -73,4 +81,4 @@ function resizeLabelBold() {
   }
 }
 
-resizeLabelBold();
+resizeLabelBold()

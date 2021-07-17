@@ -8,17 +8,6 @@ author_profile: true
 
 {% include base_path %}
 <script src="{{ base_path }}/allWallets.js"></script>
-<script>
-  window.addEventListener("load", () => {
-    window.location.hash.split("#")[1].split("&").forEach(function (item) {
-      var kv = item.split("=")
-      switch (kv[0]) {
-        case "verdict": $("#modularVerdict")[0].value = kv[1]; window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
-        case "platform": $("#modularPlatform")[0].value = kv[1]; window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
-      }
-    })
-  })
-</script>
 <script src="{{ base_path }}/assets/js/wallets.js"></script>
 <script src="{{ base_path }}/assets/js/search-wallets.js"></script>
 
@@ -95,17 +84,4 @@ author_profile: true
 
 <script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
-<script>
-  const mostRecent = [].concat(window.wallets)
-  mostRecent.sort((a, b) => {
-    if (a.date != b.date)
-      return Date.parse(b.date) - Date.parse(a.date)
-    return a.wsId == b.wsId
-      ? 0
-      : a.wsId < b.wsId
-      ? -1
-      : 1
-  })
-  renderBadgesToDiv(mostRecent.slice(0,20), document.getElementById("recentPosts"))
-</script>
-
+<script src="{{ base_path }}/assets/js/landingPage.js"></script>
