@@ -10,7 +10,7 @@ released: 2015-09-09
 latestUpdate: 2019-04-03
 version: "4.4.7"
 stars: 3.4
-ratings: 8163
+ratings: 8165
 reviews: 3872
 size: 13M
 website: https://btc.com

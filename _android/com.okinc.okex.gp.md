@@ -10,8 +10,8 @@ released: 2019-10-29
 latestUpdate: 2021-07-05
 version: "5.0.6"
 stars: 4.3
-ratings: 102551
-reviews: 37453
+ratings: 102607
+reviews: 37458
 size: 149M
 website: https://www.okex.com
 repository: 

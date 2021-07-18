@@ -11,7 +11,7 @@ latestUpdate: 2021-07-07
 version: "2.1.0"
 stars: 4.7
 ratings: 4914
-reviews: 1915
+reviews: 1914
 size: 11M
 website: https://www.bexplus.com
 repository: 

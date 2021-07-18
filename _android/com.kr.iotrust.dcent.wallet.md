@@ -10,8 +10,8 @@ released: 2018-10-16
 latestUpdate: 2021-07-06
 version: "5.5.0"
 stars: 4.4
-ratings: 318
-reviews: 217
+ratings: 319
+reviews: 218
 size: 31M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet
