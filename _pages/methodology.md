@@ -80,6 +80,25 @@ We answer the following questions usually in this order:
 {% include verdictMethodology.html verdict="reproducible" %}
 
 
+What is a hardware wallet?
+==========================
+
+There is no globally accepted definition of a hardware wallet. Some consider a
+paper with 12 words a hardware wallet - after all paper is a sort of hardware or
+at least not software and the 12 words are arguably a wallet('s backup).
+
+For the purpose of this project we adhere to higher standards in the hardware
+wallet section. We only consider a hardware wallet if **dedicated hardware**
+protects the private keys in a way that leaves the user in **full and exclusive
+control** of what transactions he signs or not. That means:
+
+* The device allows to create private keys offline
+* The device never shares private key material apart from an offline backup
+  mechanism
+* The device displays receive addresses to make sure transactions send to it
+* The device shares signed transactions after informed approval on the device
+  without reliance on insecure external hardware
+
 Our steps when reviewing a new hardware wallet
 ==================================
 
