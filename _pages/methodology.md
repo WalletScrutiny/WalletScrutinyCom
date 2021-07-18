@@ -95,14 +95,14 @@ control** of what transactions he signs or not. That means:
 * The device allows to create private keys offline
 * The device never shares private key material apart from an offline backup
   mechanism
-* The device displays receive addresses to make sure transactions send to it
+* The device displays receive addresses for confirmation
 * The device shares signed transactions after informed approval on the device
   without reliance on insecure external hardware
 
-Our steps when reviewing a new hardware wallet
+Our steps when reviewing a hardware wallet
 ==================================
 
-Hardware wallets are the latest addition to the website. We try to follow the
+We try to follow the
 spirit of the software review process, looking at the firmware and its updates
 for public source and reproducibility.
 
@@ -127,7 +127,7 @@ But when we update reviews, we try to proceed as follows:
    this re-evaluation** before updating.
 1. Check if any of the {% include verdictBadge.html verdict="nonverifiable" type='short' %} wallets updated their issues on their
    repositories.
-1. Fix general issues with the platform
+1. Make general improvements of the platform
 1. Evaluate the most relevant
    {% include verdictBadge.html verdict="wip" type='short' %} wallets
 
