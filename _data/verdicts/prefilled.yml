@@ -3,7 +3,7 @@ title: Provided private keys
 color: '#d33100'
 redflag: true
 message: The device gets delivered with private keys as defined by the provider!
-question: Are the keys ever shared with the provider?
+question: Are the keys never shared with the provider?
 details: >
   The best hardware wallet cannot guarantee that the provider deleted the
   keys if the private keys were put onto the device by them in the first place.
