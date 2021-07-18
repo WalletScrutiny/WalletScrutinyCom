@@ -4,6 +4,7 @@ appId: opendime
 authors:
 - kiwilamb
 - felipe
+- leo
 released: 2016-04-01
 discontinued: # date
 latestUpdate: 
@@ -18,11 +19,15 @@ repository: https://github.com/opendime
 issue: 
 icon: opendime.png
 bugbounty: 
-verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-11
+verdict: plainkey # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-17
 signer: 
 reviewArchive:
-
+- date: 2021-07-11  
+  version: "" 
+  appHash: 
+  gitRevision: 
+  verdict: noita
 
 providerTwitter: COLDCARDwallet
 providerLinkedIn: 
@@ -30,4 +35,6 @@ providerFacebook:
 providerReddit: 
 ---
 
-Without a screen, this device cannot provide basic security of hardware wallets.
+To spend the funds, the private keys need to get exposed to potentially insecure
+systems. A virus on that system could empty the wallet the second the device
+gets plugged into the USB port.
