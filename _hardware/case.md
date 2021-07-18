@@ -4,7 +4,7 @@ appId: case
 authors:
 - kiwilamb
 released: 
-discontinued: # date
+discontinued: 2017-11-01
 latestUpdate:
 version:
 dimensions: 
