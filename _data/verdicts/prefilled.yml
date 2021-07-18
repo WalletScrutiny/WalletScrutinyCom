@@ -3,13 +3,13 @@ title: Provided private keys
 color: '#d33100'
 redflag: true
 message: The device gets delivered with private keys as defined by the provider!
-question: Are the keys never shared with the provider?
+question: Are the keys ever shared with the provider?
 details: >
   The best hardware wallet cannot guarantee that the provider deleted the
-  keys if the private keys were put onto the device by im in the first place.
+  keys if the private keys were put onto the device by them in the first place.
   
   
-  There is no way of knowing if the provider took a copy in the process. If he
+  There is no way of knowing if the provider took a copy in the process. If they
   did, all funds controlled by those devices are potentially also under the control
   of the provider and could be move out of the client's control at any time at
   the provider's discretion.

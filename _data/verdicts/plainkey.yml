@@ -6,7 +6,7 @@ message: This wallet depends on sharing the private key to create a transaction!
 question: Can the device sign transactions?
 details: >
   Some people claim their paper wallet is a hardware wallet. Others use RFID
-  chips with the private keys on them. A very crucial drawpack of those
+  chips with the private keys on them. A very crucial drawback of those
   systems is that in order to send a transaction, the private key has to be
   brought onto a different system that doesn't necessarily share all the
   desired aspects of a hardware wallet.
