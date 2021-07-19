@@ -9,9 +9,9 @@ appId: com.microbitcoin
 released: 2018-10-30
 latestUpdate: 2020-01-23
 version: "2.0.1"
-stars: 3.9
-ratings: 54
-reviews: 33
+stars: 3.8
+ratings: 55
+reviews: 34
 size: 9.9M
 website: https://microbitcoin.org
 repository: 

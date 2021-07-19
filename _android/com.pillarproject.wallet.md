@@ -4,14 +4,14 @@ title: "Pillar. 1 wallet for all chains, dapps, DeFi & NFT"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.pillarproject.wallet
 released: 2018-12-13
 latestUpdate: 2021-07-15
 version: "3.3.2"
 stars: 3.4
-ratings: 432
-reviews: 232
+ratings: 431
+reviews: 231
 size: 50M
 website: https://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet

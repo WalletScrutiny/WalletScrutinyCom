@@ -9,9 +9,9 @@ appId: com.valr.app
 released: 2019-09-13
 latestUpdate: 2021-07-18
 version: "1.0.28"
-stars: 4.4
-ratings: 684
-reviews: 365
+stars: 4.5
+ratings: 691
+reviews: 369
 size: 99M
 website: https://www.valr.com
 repository: 

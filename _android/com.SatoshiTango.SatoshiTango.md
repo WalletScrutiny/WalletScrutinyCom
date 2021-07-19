@@ -10,8 +10,8 @@ released: 2015-06-24
 latestUpdate: 2021-02-18
 version: "3.4.17"
 stars: 3.4
-ratings: 3747
-reviews: 2102
+ratings: 3748
+reviews: 2103
 size: 71M
 website: http://www.satoshitango.com
 repository: 

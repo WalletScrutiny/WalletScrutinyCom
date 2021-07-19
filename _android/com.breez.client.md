@@ -4,7 +4,7 @@ title: "Breez: Lightning Network Client & Point-of-Sale"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.breez.client
 released: 
 latestUpdate: 2021-07-15

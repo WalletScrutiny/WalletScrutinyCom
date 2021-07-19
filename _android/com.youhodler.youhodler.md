@@ -9,9 +9,9 @@ appId: com.youhodler.youhodler
 released: 2019-07-11
 latestUpdate: 2021-07-07
 version: "2.17.0"
-stars: 4.3
-ratings: 1734
-reviews: 672
+stars: 4.4
+ratings: 1737
+reviews: 673
 size: 48M
 website: https://youhodler.com
 repository: 
