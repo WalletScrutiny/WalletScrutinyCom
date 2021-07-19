@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.fenixcoin.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-15
+verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+date: 2021-07-18
 signer: 
 reviewArchive:
 
@@ -34,3 +34,5 @@ redirect_from:
 ---
 
 
+This app, released in 2018 is not on the Play Store anymore. As it had just one
+version ever, it's probably not coming back.

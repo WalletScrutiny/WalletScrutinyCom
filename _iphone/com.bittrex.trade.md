@@ -10,8 +10,8 @@ idd: 1465314783
 released: 2019-12-19
 updated: 2021-07-13
 version: "1.14.3"
-stars: 2.25995
-reviews: 377
+stars: 2.26385
+reviews: 379
 size: 81423360
 website: https://global.bittrex.com
 repository: 

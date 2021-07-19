@@ -10,7 +10,7 @@ released: 2019-08-31
 latestUpdate: 2021-07-05
 version: "7.4"
 stars: 4.3
-ratings: 622
+ratings: 623
 reviews: 260
 size: 111M
 website: https://nash.io/

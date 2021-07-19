@@ -10,8 +10,8 @@ idd: 1344400091
 released: 2018-02-09
 updated: 2021-06-17
 version: "2.0.13"
-stars: 4.44768
-reviews: 927
+stars: 4.44887
+reviews: 929
 size: 70981632
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

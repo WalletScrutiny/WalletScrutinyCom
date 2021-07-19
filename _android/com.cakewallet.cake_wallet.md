@@ -10,7 +10,7 @@ released: 2020-01-01
 latestUpdate: 2021-06-10
 version: "4.2.3"
 stars: 3.3
-ratings: 559
+ratings: 560
 reviews: 364
 size: 62M
 website: https://cakewallet.com
