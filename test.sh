@@ -121,16 +121,24 @@ result() {
   rm -rf $fromBuildUnzipped $fromPlayUnzipped
   unzip -d $fromPlayUnzipped -qq "$downloadedApk" || exit 1
   unzip -d $fromBuildUnzipped -qq "$builtApk" || exit 1
+  diffResult=$( diff --brief --recursive $fromPlayUnzipped $fromBuildUnzipped )
+  diffCount=$( echo "$diffResult" | grep -vcE "(META-INF|^$)" )
+  verdict=""
+  if ((diffCount == 0)); then
+    verdict="verdict:        reproducible"
+  fi
+
   echo "Results:
 appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
+$verdict
 appHash:        $appHash
 commit:         $commit
 
 Diff:
-$( diff --brief --recursive $fromPlayUnzipped $fromBuildUnzipped )
+"$diffResult"
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
