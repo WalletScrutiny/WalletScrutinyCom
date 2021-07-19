@@ -10,13 +10,12 @@ details: >
 
   1. obtain the binary from the provider
 
-  1. compile the published source code using the published build instructions
-     into a binary
+  1. compile the published source code using the published build instructions into a binary
 
   1. compare the two binaries
 
-  1. we might spend some time working around
-     [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
+  1. we might spend some time working around [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
+
 
   If this fails, we might search if other revisions match or if we can
   deduct the source of the mismatch but generally consider it on the provider to

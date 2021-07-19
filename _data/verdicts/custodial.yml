@@ -34,14 +34,14 @@ details: >
   
   We have to acknowledge that a huge majority of Bitcoiners are currently using
   custodial Bitcoin banks. If you do, please:
-  
+
+
   * Do your own research if the provider is trust-worthy!
   
   * Check if you know at least enough about them so you can sue them when you have to!
   
-  * Check if the provider is under a jurisdiction that will allow them to release your
-    funds when you need them?
-  
+  * Check if the provider is under a jurisdiction that will allow them to
+    release your funds when you need them?  
   * Check if the provider is taking security measures proportional to the amount of
     funds secured? If they have a million users and don't use cold storage,
     that hot wallet is a million times more valuable for hackers to attack.
