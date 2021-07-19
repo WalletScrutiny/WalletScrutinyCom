@@ -14,12 +14,12 @@ ratings: 241
 reviews: 121
 size: 35M
 website: https://phoenix.acinq.co
-repository: https://github.com/ACINQ/phoenix
-issue: https://github.com/ACINQ/phoenix/issues/112
+repository: https://github.com/ACINQ/phoenix-kmm
+issue: https://github.com/ACINQ/phoenix-kmm/issues/187
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
+date: 2021-07-20
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2020-10-24
@@ -48,6 +48,10 @@ redirect_from:
   - /posts/fr.acinq.phoenix.mainnet/
 ---
 
+
+**Update 2021-07-20**: The provider appears to be working on a re-write of the
+app, so the [former issue](https://github.com/ACINQ/phoenix/issues/112) is not
+expected to get resolved on the old repository.
 
 Here we test if the latest version can be verified, following the known
 procedure expressed in our
