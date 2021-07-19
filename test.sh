@@ -125,7 +125,7 @@ result() {
   diffCount=$( echo "$diffResult" | grep -vcE "(META-INF|^$)" )
   verdict=""
   if ((diffCount == 0)); then
-    verdict="verdict: reproducible"
+    verdict="verdict:        reproducible"
   fi
 
   echo "Results:
@@ -133,6 +133,7 @@ appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
+$verdict
 appHash:        $appHash
 commit:         $commit
 
@@ -141,8 +142,6 @@ Diff:
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
-
-$verdict
 
 Run a full
 diff --recursive $fromPlayUnzipped $fromBuildUnzipped
