@@ -37,4 +37,4 @@ Last post on Twitter September 2017.
 Last post on facebook August 2017.
 The [providers website](https://choosecase.com) secure SSL certificate is no longer valid and expired on 12/05/2018.
 
-Also found a post on a word press blog site(https://choosecase.wordpress.com/), that states the wallet is discontinued Nov 2017.
+Also found a post on a [wordpress blog](https://choosecase.wordpress.com/), that states the wallet is discontinued Nov 2017.
