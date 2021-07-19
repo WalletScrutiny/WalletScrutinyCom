@@ -125,7 +125,7 @@ result() {
   diffCount=$( echo "$diffResult" | grep -vcE "(META-INF|^$)" )
   verdict=""
   if ((diffCount == 0)); then
-    verdict="Verdict: Reproducible"
+    verdict="verdict: reproducible"
   fi
 
   echo "Results:
