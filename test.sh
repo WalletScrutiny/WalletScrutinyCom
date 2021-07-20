@@ -139,7 +139,7 @@ appHash:        $appHash
 commit:         $commit
 
 Diff:
-"$diffResult"
+$diffResult
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
