@@ -1,14 +1,12 @@
 #!/bin/bash
 
 test() {
-  buildTarget=$1
   repo=https://github.com/mycelium-com/wallet-android
-  tag=$( echo "v$versionName" | sed 's/-TESTNET//g' )
+  tag="v$versionName"
   builtApk=$workDir/app/mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
 
   prepare
 
-  git clone https://github.com/mycelium-com/wallet-android-modularization-tools
   git submodule update --init --recursive
   podman build --tag mycelium_builder .
   
@@ -26,7 +24,7 @@ test() {
         mkdir /sorted/
         disorderfs --sort-dirents=yes --reverse-dirents=no /app/ /sorted/;
         cd /sorted/
-        ./gradlew -x lint -x test clean $buildTarget;
+        ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
         $takeUserActionCommand"
 
   result

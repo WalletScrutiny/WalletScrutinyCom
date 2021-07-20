@@ -1,6 +1,7 @@
 #!/bin/bash
 
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts/"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
+TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
 downloadedApk="$1"
 # make sure path is absolute
 if ! [[ $downloadedApk =~ ^/.* ]]; then
@@ -151,44 +152,11 @@ diffoscope \"$downloadedApk\" $builtApk
 for more details."
 }
 
-case "$appId" in
-  "com.mycelium.wallet")
-    source ${SCRIPT_DIR}testMycelium.sh
-    test ":mbw:assembleProdnetRelease"
-    ;;
-  "com.mycelium.testnetwallet")
-    source ${SCRIPT_DIR}testMycelium.sh
-    test ":mbw:assembleBtctestnetRelease"
-    ;;
-  "com.greenaddress.greenbits_android_wallet")
-    source ${SCRIPT_DIR}testGreen.sh
-    test
-    ;;
-  "de.schildbach.wallet")
-    source ${SCRIPT_DIR}testSchildbach.sh
-    test
-    ;;
-  "it.airgap.vault")
-    source ${SCRIPT_DIR}testAirgapVault.sh
-    test
-    ;;
-  "io.horizontalsystems.bankwallet")
-    source ${SCRIPT_DIR}testUnstoppable.sh
-    test
-    ;;
-  "piuk.blockchain.android")
-    source ${SCRIPT_DIR}testBlockchain.sh
-    test
-    ;;
-  "fr.acinq.phoenix.mainnet")
-    source ${SCRIPT_DIR}testPhoenix.sh
-    test
-    ;;
-  "zapsolutions.zap")
-    source ${SCRIPT_DIR}testZap.sh
-    test
-    ;;
-  *)
-    echo "Unknown appId $appId"
-    ;;
-esac
+testScript="$TEST_ANDROID_DIR/$appId.sh"
+if [ ! -f "$testScript" ]; then
+  echo "Unknown appId $appId"
+  echo
+  exit 2
+fi
+source $testScript
+test
