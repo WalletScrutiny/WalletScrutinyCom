@@ -126,7 +126,7 @@ result() {
   diffCount=$( echo "$diffResult" | grep -vcE "(META-INF|^$)" )
   verdict=""
   if ((diffCount == 0)); then
-    verdict="verdict:        reproducible"
+    verdict="reproducible"
   fi
 
   echo "Results:
@@ -134,7 +134,7 @@ appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
 apkVersionCode: $versionCode
-$verdict
+verdict:        $verdict
 appHash:        $appHash
 commit:         $commit
 
