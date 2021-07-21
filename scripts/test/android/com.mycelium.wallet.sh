@@ -7,6 +7,9 @@ test() {
 
   prepare
 
+  # a hack to fetch submodules through https instead of ssh
+  sed -i 's/git@github.com:/https:\/\/github.com\//g' .gitmodules
+
   git submodule update --init --recursive
   podman build --tag mycelium_builder .
   
