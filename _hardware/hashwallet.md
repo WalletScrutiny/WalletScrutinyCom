@@ -14,7 +14,7 @@ shop: https://www.indiegogo.com/projects/hashwallet-the-most-secure-hardware-wal
 company: eSignus
 companywebsite: https://www.esignus.com/
 country: ES
-price: 234Euro
+price: 234EUR
 repository: 
 issue:
 icon: hashwallet.png

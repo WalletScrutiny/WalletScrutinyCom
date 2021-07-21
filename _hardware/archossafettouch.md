@@ -14,7 +14,7 @@ shop: https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-069059
 company: Archos
 companywebsite: https://www.archos.com/
 country: FR
-price: 129.99Euro
+price: 129.99EUR
 repository: 
 issue:
 icon: archossafettouch.png

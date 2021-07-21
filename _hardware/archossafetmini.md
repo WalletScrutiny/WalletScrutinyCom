@@ -14,7 +14,7 @@ shop: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590
 company: Archos
 companywebsite: https://www.archos.com/
 country: FR
-price: 49.99Euro
+price: 49.99EUR
 repository: 
 issue:
 icon: archossafetmini.png

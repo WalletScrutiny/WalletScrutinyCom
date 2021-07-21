@@ -14,7 +14,7 @@ shop: https://bc-vault.com/shop/
 company: REAL SECURITY D.O.O..
 companywebsite: https://www.real-sec.com/
 country: SI
-price: 132Euro
+price: 132EUR
 repository: 
 issue:
 icon: bcvaultone.png
