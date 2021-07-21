@@ -8,11 +8,11 @@ appId: com.iphone.XapoApp
 appCountry: 
 idd: 917692892
 released: 2014-11-13
-updated: 2021-05-19
-version: "6.11.4"
+updated: 2021-07-20
+version: "6.12.0"
 stars: 3.88591
 reviews: 149
-size: 151842816
+size: 151875584
 website: https://xapo.com
 repository: 
 issue: 

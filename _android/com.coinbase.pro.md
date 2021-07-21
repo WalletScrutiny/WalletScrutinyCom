@@ -10,8 +10,8 @@ released: 2020-01-06
 latestUpdate: 2021-06-17
 version: "1.0.78"
 stars: 4.0
-ratings: 13125
-reviews: 4281
+ratings: 13137
+reviews: 4284
 size: 57M
 website: https://pro.coinbase.com
 repository: 

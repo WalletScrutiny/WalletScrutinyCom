@@ -11,7 +11,7 @@ latestUpdate: 2021-05-13
 version: "2.6.3"
 stars: 4.9
 ratings: 200
-reviews: 133
+reviews: 134
 size: 25M
 website: https://ducatus.net
 repository: 
