@@ -10,8 +10,8 @@ idd: 1525584688
 released: 2020-08-26
 updated: 2021-07-19
 version: "4.2.4"
-stars: 4.34921
-reviews: 378
+stars: 4.34748
+reviews: 377
 size: 124666880
 website: https://klever.io
 repository: 

@@ -11,8 +11,8 @@ idd: 1367425342
 released: 2018-05-16
 updated: 2021-07-06
 version: "2.17.0"
-stars: 4.66667
-reviews: 27
+stars: 4.67856
+reviews: 28
 size: 179453952
 website: https://channels.chat
 repository: 

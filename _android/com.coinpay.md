@@ -4,7 +4,7 @@ title: "Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.coinpay
 released: 2020-05-26
 latestUpdate: 2020-08-23

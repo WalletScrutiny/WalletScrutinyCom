@@ -10,7 +10,7 @@ released: 2018-10-24
 latestUpdate: 2021-07-05
 version: "3.18"
 stars: 4.5
-ratings: 56
+ratings: 57
 reviews: 18
 size: 19M
 website: https://tangem.com

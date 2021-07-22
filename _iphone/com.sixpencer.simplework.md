@@ -8,11 +8,11 @@ appId: com.sixpencer.simplework
 appCountry: 
 idd: 1529717509
 released: 2020-10-24
-updated: 2021-06-23
-version: "1.4.3"
+updated: 2021-07-22
+version: "1.4.4"
 stars: 4.58333
 reviews: 12
-size: 76293120
+size: 80369664
 website: https://dfox.cc
 repository: 
 issue: 

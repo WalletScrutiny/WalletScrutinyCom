@@ -9,9 +9,9 @@ appId: com.flutter.litebit
 released: 2019-12-12
 latestUpdate: 2021-07-09
 version: "3.1.0"
-stars: 2.8
-ratings: 708
-reviews: 536
+stars: 2.7
+ratings: 710
+reviews: 538
 size: 195M
 website: https://www.litebit.eu
 repository: 

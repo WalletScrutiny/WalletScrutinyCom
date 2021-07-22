@@ -4,7 +4,7 @@ title: "Bitcoin"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.bitcoin.firstdigitalhub
 released: 2020-12-04
 latestUpdate: 2021-05-15
