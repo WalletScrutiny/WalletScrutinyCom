@@ -34,6 +34,8 @@ redirect_from:
 ---
 
 
+**Update 2021-07-22**: Currently the app is not on the Play Store.
+
 This app appears to be the korean version of
 {% include walletLink.html wallet='android/com.btckorea.bithumb' %}. Google Translate doesn't reveal any
 substantial difference. We conclude it is a custodial offering and **not verifiable**.

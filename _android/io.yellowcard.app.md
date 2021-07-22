@@ -34,6 +34,8 @@ redirect_from:
 ---
 
 
+**Update 2021-07-18**: Currently the app is not on the App Store.
+
 The Yellow Card wallet has no statements on [their website](https://yellowcard.io/) or in their FAQ regarding the management of private keys.
 This leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.
 
