@@ -14,7 +14,7 @@ shop: https://www.secalot.com/product/secalot-dongle/
 company: 
 companywebsite: https://www.secalot.com
 country: 
-price: 50Euro
+price: 50EUR
 repository: 
 issue:
 icon: secalot.png
