@@ -31,3 +31,6 @@ providerFacebook: secalotDongle
 providerReddit: 
 ---
 
+This USB device lacks a screen and does not allow a user to verify what is actually being signed.
+A transaction is sent to the device for signing and the user blindly presses a button on the device as confirmation.
+
