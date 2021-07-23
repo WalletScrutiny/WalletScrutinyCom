@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.quicrypto
 released: 2019-11-12
-latestUpdate: 2021-06-17
+latestUpdate: 2021-07-21
 version: "3.13.0"
 stars: 3.6
 ratings: 4772

@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.bitso.wallet
 released: 2018-02-19
-latestUpdate: 2021-07-20
+latestUpdate: 2021-07-22
 version: "2.32.0"
 stars: 4.5
-ratings: 13823
-reviews: 6639
+ratings: 13890
+reviews: 6651
 size: 28M
 website: https://bitso.com/app
 repository: 

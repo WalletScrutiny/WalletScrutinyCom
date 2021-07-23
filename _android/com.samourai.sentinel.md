@@ -10,7 +10,7 @@ released: 2015-05-23
 latestUpdate: 2021-04-13
 version: "4.0.2"
 stars: 3.7
-ratings: 303
+ratings: 304
 reviews: 165
 size: 40M
 website: https://www.samouraiwallet.com/sentinel

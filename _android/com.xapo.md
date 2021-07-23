@@ -7,10 +7,10 @@ authors:
 users: 1000000
 appId: com.xapo
 released: 2014-04-01
-latestUpdate: 2021-05-11
+latestUpdate: 2021-07-20
 version: "5.33"
 stars: 3.4
-ratings: 45920
+ratings: 45921
 reviews: 21906
 size: 103M
 website: https://xapo.com

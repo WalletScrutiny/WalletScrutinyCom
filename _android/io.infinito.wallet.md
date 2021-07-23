@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: io.infinito.wallet
 released: 2017-11-15
-latestUpdate: 2021-06-25
+latestUpdate: 2021-07-22
 version: "2.35.5"
 stars: 3.2
 ratings: 2143
