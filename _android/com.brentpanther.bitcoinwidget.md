@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.brentpanther.bitcoinwidget.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-03-05
 signer: 
 reviewArchive:

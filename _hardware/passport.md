@@ -17,7 +17,7 @@ repository: https://github.com/Foundation-Devices
 issue: 
 icon: passport.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-01
 signer: 
 reviewArchive:

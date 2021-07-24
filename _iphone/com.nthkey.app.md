@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nthkey.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-17
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.bitmax.bitmax.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:

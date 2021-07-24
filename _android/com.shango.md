@@ -18,7 +18,7 @@ repository: https://github.com/neogeno/shango-lightning-wallet/
 issue: 
 icon: com.shango.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-07-16
 signer: 
 reviewArchive:

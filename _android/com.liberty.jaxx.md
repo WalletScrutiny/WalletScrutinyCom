@@ -9,16 +9,16 @@ appId: com.liberty.jaxx
 released: 2018-09-01
 latestUpdate: 2021-05-28
 version: "2.6.4"
-stars: 3.8
-ratings: 5089
-reviews: 2809
+stars: 4.7
+ratings: 12
+reviews: 5
 size: 17M
 website: https://jaxx.io
 repository: 
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2019-11-02
 signer: 
 reviewArchive:

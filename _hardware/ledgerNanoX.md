@@ -17,7 +17,7 @@ repository: https://github.com/LedgerHQ
 issue: 
 icon: ledgerNanoX.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-06-20
 signer: 
 reviewArchive:

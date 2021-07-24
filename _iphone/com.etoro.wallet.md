@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.etoro.wallet.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:

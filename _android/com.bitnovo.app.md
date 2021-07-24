@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitnovo.app.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:

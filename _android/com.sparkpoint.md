@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.sparkpoint.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2021-03-06
 signer: 
 reviewArchive:

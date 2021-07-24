@@ -18,7 +18,7 @@ repository: https://github.com/stasisnet
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-05-03
 signer: 
 reviewArchive:

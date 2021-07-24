@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.github.samotari.paynoway.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-05-06
 signer: 
 reviewArchive:

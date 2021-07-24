@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitplaza.jpg
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-03-11
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: multi.org.freewallet.app.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-04-30
 signer: 
 reviewArchive:

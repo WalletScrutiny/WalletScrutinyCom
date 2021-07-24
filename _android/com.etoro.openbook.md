@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-04-02
 signer: 
 reviewArchive:

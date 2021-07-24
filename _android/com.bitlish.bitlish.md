@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.bitlish.bitlish.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-03-20
 reviewStale: false
 signer: 

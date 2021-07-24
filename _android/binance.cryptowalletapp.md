@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: binance.cryptowalletapp.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-05-05
 reviewStale: true
 signer: 

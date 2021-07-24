@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: asia.coins.mobile.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:

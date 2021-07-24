@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.qcan.qcan.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2020-12-22
 signer: 
 reviewArchive:

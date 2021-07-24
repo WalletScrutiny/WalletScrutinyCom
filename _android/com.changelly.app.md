@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.changelly.app.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2020-05-29
 signer: 
 reviewArchive:

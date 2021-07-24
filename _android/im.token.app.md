@@ -18,7 +18,7 @@ repository:
 issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2021-04-13
 signer: 
 reviewArchive:

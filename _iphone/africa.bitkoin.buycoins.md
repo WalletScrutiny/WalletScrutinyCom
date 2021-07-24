@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-04-22
 reviewStale: true
 signer: 

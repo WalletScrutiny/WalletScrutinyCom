@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.metamask.MetaMask.jpg
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:

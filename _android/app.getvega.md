@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.getvega.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2019-12-29
 signer: 
 reviewArchive:

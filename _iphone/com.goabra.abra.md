@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:

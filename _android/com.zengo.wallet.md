@@ -19,7 +19,7 @@ repository: https://www.github.com/kzen-networks
 issue: 
 icon: com.zengo.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:

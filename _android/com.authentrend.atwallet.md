@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.authentrend.atwallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-04-13
 signer: 
 reviewArchive:

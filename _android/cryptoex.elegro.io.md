@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2020-05-29
 signer: 
 reviewArchive:

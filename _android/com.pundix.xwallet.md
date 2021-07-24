@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.pundix.xwallet.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-06-16
 reviewStale: true
 signer: 

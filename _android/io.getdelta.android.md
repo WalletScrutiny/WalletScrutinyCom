@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.getdelta.android.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2020-12-01
 signer: 
 reviewArchive:

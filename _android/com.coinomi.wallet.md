@@ -10,15 +10,15 @@ released: 2014-01-31
 latestUpdate: 2021-06-09
 version: "Varies with device"
 stars: 4.4
-ratings: 36898
-reviews: 20996
+ratings: 36908
+reviews: 21000
 size: Varies with device
 website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:

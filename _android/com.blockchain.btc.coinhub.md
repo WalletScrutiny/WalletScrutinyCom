@@ -18,7 +18,7 @@ repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 
 icon: com.blockchain.btc.coinhub.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: obfuscated
 date: 2021-06-04
 signer: 
 reviewArchive:

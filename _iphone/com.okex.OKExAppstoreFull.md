@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-12-23
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ repository: https://github.com/opendime
 issue: 
 icon: opendime.png
 bugbounty: 
-verdict: plainkey # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: plainkey
 date: 2021-07-17
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-06-08
 reviewStale: false
 signer: 

@@ -16,7 +16,7 @@ repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-04-07
 reviewStale: true
 signer: 

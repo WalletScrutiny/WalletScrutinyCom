@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2019-12-30
 signer: 
 reviewArchive:

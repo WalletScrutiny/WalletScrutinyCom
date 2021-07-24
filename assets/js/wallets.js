@@ -1,4 +1,4 @@
-const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,noita,plainkey,prefilled,wip,fewusers,nobtc,defunct,nowallet"
+const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,nobtc,defunct,nowallet"
 const platformOrder = "hardware,android,iphone"
 
 window.wallets.sort((a, b) => {

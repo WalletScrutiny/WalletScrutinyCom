@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2020-03-30
 signer: 
 reviewArchive:

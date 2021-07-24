@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.anxbtc.android.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-05-08
 reviewStale: true
 signer: 

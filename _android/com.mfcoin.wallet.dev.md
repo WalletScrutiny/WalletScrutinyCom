@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.mfcoin.wallet.dev.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: obfuscated
 date: 2021-03-03
 signer: 
 reviewArchive:

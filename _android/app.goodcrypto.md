@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.goodcrypto.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2020-12-08
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.tabtrader.android.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-04-17
 signer: 
 reviewArchive:

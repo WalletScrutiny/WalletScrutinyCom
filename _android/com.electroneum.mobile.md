@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.electroneum.mobile.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2020-06-08
 signer: 
 reviewArchive:

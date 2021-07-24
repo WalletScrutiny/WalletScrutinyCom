@@ -10,15 +10,15 @@ released: 2019-01-30
 latestUpdate: 2021-07-21
 version: "0.76.1"
 stars: 4.4
-ratings: 44753
-reviews: 21703
+ratings: 44877
+reviews: 21752
 size: 15M
 website: https://atomicwallet.io
 repository: 
 issue: 
 icon: io.atomicwallet.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: obfuscated
 date: 2021-03-02
 signer: 
 reviewArchive:

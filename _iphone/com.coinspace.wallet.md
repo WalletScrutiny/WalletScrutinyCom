@@ -18,7 +18,7 @@ repository: https://github.com/CoinSpace/CoinSpace
 issue: 
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2020-12-20
 signer: 
 reviewArchive:

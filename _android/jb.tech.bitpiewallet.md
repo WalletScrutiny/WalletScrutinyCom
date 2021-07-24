@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: jb.tech.bitpiewallet.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-04-30
 reviewStale: true
 signer: 

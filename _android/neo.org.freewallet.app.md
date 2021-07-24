@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2021-05-02
 signer: 
 reviewArchive:

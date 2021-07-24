@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitzhash.wallet.bitcoin.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-03-05
 signer: 
 reviewArchive:

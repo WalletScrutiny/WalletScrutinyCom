@@ -17,7 +17,7 @@ repository: https://github.com/keepkey/keepkey-firmware
 issue: https://github.com/keepkey/keepkey-firmware/issues/283
 icon: keepKey.png
 bugbounty: 
-verdict: nonverifiable # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2021-07-19
 signer: 
 reviewArchive:

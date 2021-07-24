@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wavesplatform.wallet.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2021-07-20
 signer: 
 reviewArchive:

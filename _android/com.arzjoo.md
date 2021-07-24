@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:

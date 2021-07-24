@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-04-16
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2021-05-30
 signer: 
 reviewArchive:

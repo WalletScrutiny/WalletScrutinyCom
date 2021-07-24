@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2020-12-14
 signer: 
 reviewArchive:

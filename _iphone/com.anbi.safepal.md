@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.anbi.safepal.jpg
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-01-15
 reviewStale: false
 signer: 

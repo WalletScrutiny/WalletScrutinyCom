@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2019-12-25
 signer: 
 reviewArchive:

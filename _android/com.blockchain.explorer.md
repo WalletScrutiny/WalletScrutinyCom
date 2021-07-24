@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-06-04
 signer: 
 reviewArchive:

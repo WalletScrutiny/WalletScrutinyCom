@@ -17,7 +17,7 @@ repository: https://github.com/trezor/trezor-firmware
 issue: 
 icon: trezorT.png
 bugbounty: 
-verdict: reproducible # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible
 date: 2021-07-18
 signer: 
 reviewArchive:

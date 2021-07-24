@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ledger.live.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2020-11-17
 signer: 
 reviewArchive:

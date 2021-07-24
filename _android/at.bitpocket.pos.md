@@ -18,7 +18,7 @@ repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 
 icon: at.bitpocket.pos.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-04-15
 signer: 
 reviewArchive:

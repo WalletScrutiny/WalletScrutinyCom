@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitbill.www.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2020-04-15
 signer: 
 reviewArchive:

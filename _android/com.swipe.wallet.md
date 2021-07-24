@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.swipe.wallet.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-07-06
 signer: 
 reviewArchive:

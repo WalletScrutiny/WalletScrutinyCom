@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.kraken.trade.app.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:

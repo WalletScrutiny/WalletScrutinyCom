@@ -19,7 +19,7 @@ repository:
 issue:
 icon: keyfortk300.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-07-16
 signer:
 reviewArchive:

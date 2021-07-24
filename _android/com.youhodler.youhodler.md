@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-06-20
 signer: 
 reviewArchive:

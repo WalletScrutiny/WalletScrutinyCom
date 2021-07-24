@@ -19,7 +19,7 @@ repository: https://github.com/Bitfi
 issue:
 icon: bitfiwallet.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-07
 signer:
 reviewArchive:

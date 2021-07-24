@@ -18,7 +18,7 @@ repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2020-12-20
 signer: 
 reviewArchive:

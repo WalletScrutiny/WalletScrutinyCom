@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2019-11-10
 signer: 
 reviewArchive:

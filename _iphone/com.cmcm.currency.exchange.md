@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:

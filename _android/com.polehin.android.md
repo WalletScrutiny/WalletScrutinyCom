@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-07-22
 signer: 
 reviewArchive:

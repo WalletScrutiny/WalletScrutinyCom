@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:

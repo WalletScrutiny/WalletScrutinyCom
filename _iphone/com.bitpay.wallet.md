@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitpay.wallet.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2021-04-27
 signer: 
 reviewArchive:

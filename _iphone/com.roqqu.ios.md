@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.roqqu.ios.jpg
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2021-04-29
 reviewStale: true
 signer: 

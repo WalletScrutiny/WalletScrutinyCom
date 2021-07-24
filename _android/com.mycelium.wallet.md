@@ -18,7 +18,7 @@ repository: https://github.com/mycelium-com/wallet-android
 issue: 
 icon: com.mycelium.wallet.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible
 date: 2021-07-09
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:

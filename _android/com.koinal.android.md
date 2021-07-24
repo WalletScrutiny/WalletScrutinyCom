@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-12-06
 signer: 
 reviewArchive:

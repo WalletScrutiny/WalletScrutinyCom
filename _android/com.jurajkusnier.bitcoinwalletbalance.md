@@ -18,7 +18,7 @@ repository: https://github.com/jurajkusnier/bitcoin-balance-check/
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nowallet
 date: 2021-05-02
 signer: 
 reviewArchive:

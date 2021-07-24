@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:

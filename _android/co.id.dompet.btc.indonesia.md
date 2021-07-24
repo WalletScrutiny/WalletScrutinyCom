@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:

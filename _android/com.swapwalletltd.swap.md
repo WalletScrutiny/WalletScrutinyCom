@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2020-12-28
 reviewStale: false
 signer: 

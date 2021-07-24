@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.keypair.nixtouch.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-03-07
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.midasprotocol.wallet.android.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lastbit.cards.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: fewusers
 date: 2021-06-08
 signer: 
 reviewArchive:

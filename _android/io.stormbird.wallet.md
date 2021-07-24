@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.stormbird.wallet.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-08
 signer: 
 reviewArchive:

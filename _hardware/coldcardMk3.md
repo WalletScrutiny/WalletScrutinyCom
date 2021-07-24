@@ -17,7 +17,7 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: ColdCardMk3.png
 bugbounty: 
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-02
 signer: 
 reviewArchive:

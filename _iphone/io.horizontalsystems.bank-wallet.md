@@ -18,7 +18,7 @@ repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:

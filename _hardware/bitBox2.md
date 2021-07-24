@@ -17,7 +17,7 @@ repository: https://github.com/digitalbitbox
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/762
 icon: bitBox2.png
 bugbounty: 
-verdict: reproducible # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible
 date: 2021-07-10
 signer: 
 reviewArchive:

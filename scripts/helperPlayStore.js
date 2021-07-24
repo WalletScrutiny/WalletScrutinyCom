@@ -94,7 +94,7 @@ function writeResult(app, header, iconExtension, body) {
   var verdict = header.verdict
   if ( app.minInstalls < 1000 ) {
     verdict = "fewusers"
-  } else if ( header.verdict == "fewusers" && app.minInstalls > 1000 ) {
+  } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
   } 
   const reviewArchive = new Set(header.reviewArchive)
@@ -134,7 +134,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: ${verdict}
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
 reviewArchive:

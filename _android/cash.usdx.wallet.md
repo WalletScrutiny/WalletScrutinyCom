@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2021-04-30
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7417
 icon: org.electrum.electrum.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: reproducible
 date: 2021-07-19
 signer: 
 reviewArchive:

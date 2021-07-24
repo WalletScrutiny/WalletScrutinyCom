@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: loadng.com.loadng.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:

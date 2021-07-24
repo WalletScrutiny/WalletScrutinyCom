@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:

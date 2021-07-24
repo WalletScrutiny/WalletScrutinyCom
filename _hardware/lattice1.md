@@ -19,7 +19,7 @@ repository: https://github.com/GridPlus/lattice-firmware-history
 issue:
 icon: lattice1.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-23
 signer:
 reviewArchive:

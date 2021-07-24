@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: me.cryptopay.app.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:

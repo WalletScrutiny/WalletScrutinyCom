@@ -19,7 +19,7 @@ repository: https://github.com/bitlox
 issue:
 icon: bitloxultimate.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-15
 signer:
 reviewArchive:

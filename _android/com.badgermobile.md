@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.badgermobile.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2019-12-28
 signer: 
 reviewArchive:

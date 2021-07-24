@@ -114,7 +114,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict} # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: ${header.verdict}
 date: ${dateFormat(header.date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
 reviewArchive:

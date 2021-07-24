@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.algorand.android.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nobtc
 date: 2020-12-06
 signer: 
 reviewArchive:

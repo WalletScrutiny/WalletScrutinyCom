@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinbase.android.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2019-10-30
 signer: 
 reviewArchive:

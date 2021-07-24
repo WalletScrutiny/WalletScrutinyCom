@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.aqn.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-07-15
 signer: 
 reviewArchive:

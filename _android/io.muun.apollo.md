@@ -18,7 +18,7 @@ repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/2
 icon: io.muun.apollo.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2021-04-06
 signer: 
 reviewArchive:

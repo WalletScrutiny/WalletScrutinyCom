@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2020-03-15
 signer: 
 reviewArchive:

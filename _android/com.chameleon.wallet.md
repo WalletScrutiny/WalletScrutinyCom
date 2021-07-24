@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-12-08
 reviewStale: false
 signer: 

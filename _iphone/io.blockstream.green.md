@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.blockstream.green.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:

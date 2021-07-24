@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.vegawallet.in.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:

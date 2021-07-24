@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.mona.Monaco.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: custodial
 date: 2021-01-11
 signer: 
 reviewArchive:

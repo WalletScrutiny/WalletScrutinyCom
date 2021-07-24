@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.getchange.dev.jpg
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct
 date: 2020-12-22
 reviewStale: false
 signer: 

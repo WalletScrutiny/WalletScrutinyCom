@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: com.freaks.app.handcash.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2019-12-25
 reviewStale: false
 signer: 
