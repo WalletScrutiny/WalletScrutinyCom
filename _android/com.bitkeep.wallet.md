@@ -10,8 +10,8 @@ released: 2020-02-11
 latestUpdate: 2021-07-16
 version: "6.2.2"
 stars: 4.7
-ratings: 639
-reviews: 410
+ratings: 642
+reviews: 412
 size: 33M
 website: https://bitkeep.com
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.pumapay.pumawallet
 released: 2018-05-07
-latestUpdate: 2021-07-16
+latestUpdate: 2021-07-22
 version: "3.9.9"
 stars: 3.8
 ratings: 346

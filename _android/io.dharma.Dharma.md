@@ -10,8 +10,8 @@ released: 2020-01-15
 latestUpdate: 2021-06-17
 version: "1.0.23"
 stars: 3.0
-ratings: 261
-reviews: 171
+ratings: 262
+reviews: 172
 size: 60M
 website: https://www.dharma.io
 repository: 

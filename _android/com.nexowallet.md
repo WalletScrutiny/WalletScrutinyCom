@@ -10,8 +10,8 @@ released: 2019-06-28
 latestUpdate: 2021-07-20
 version: "1.4.16"
 stars: 4.0
-ratings: 10648
-reviews: 5011
+ratings: 10680
+reviews: 5022
 size: 62M
 website: https://nexo.io
 repository: 

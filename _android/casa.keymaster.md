@@ -10,7 +10,7 @@ released: 2019-03-01
 latestUpdate: 2021-07-12
 version: "3.2.1"
 stars: 4.5
-ratings: 145
+ratings: 146
 reviews: 30
 size: 30M
 website: https://keys.casa

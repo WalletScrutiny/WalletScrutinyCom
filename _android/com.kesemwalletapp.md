@@ -9,9 +9,9 @@ appId: com.kesemwalletapp
 released: 2019-01-09
 latestUpdate: 2019-05-15
 version: "2.17"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 5
+reviews: 3
 size: 31M
 website: 
 repository: 

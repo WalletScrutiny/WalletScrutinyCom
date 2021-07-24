@@ -10,8 +10,8 @@ released: 2019-06-19
 latestUpdate: 2021-07-22
 version: "1.34.2"
 stars: 3.7
-ratings: 4806
-reviews: 2934
+ratings: 4815
+reviews: 2940
 size: 17M
 website: https://www.probit.com
 repository: 

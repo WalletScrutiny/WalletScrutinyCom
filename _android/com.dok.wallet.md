@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.dok.wallet
 released: 2020-09-28
-latestUpdate: 2021-06-11
-version: "1.1.5"
+latestUpdate: 2021-07-22
+version: "1.1.6"
 stars: 4.7
 ratings: 14
 reviews: 13
-size: 61M
+size: 64M
 website: 
 repository: 
 issue: 

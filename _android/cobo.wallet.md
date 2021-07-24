@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: cobo.wallet
 released: 2018-07-01
-latestUpdate: 2021-07-09
-version: "5.9.0"
+latestUpdate: 2021-07-23
+version: "5.10.0"
 stars: 3.3
 ratings: 3952
 reviews: 2410
-size: 36M
+size: 37M
 website: https://cobo.com
 repository: 
 issue: 
