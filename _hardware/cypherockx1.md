@@ -20,7 +20,7 @@ issue:
 icon: cypherockx1.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-24
+date: 2021-07-26
 signer:
 reviewArchive:
 
