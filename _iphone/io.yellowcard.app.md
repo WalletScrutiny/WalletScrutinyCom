@@ -19,11 +19,15 @@ repository:
 issue: 
 icon: io.yellowcard.app.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-04-25
+verdict: defunct
+date: 2021-07-26
 signer: 
 reviewArchive:
-
+- date: 2021-04-25
+  version: "1.3.0" 
+  appHash: 
+  gitRevision: d2e048f371ab14d6d8a699156755ca302bf2e74c
+  verdict: custodial
 
 providerTwitter: yellowcard_app
 providerLinkedIn: yellowcardapp
@@ -33,6 +37,12 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-07-26**: This app is not available on the App Store since one week
+and we suspect it might not come back. We sent a DM to their Twitter that is
+active every day a week ago but got no reply. Their Play Store version is still
+available, with borderline ratings: Many unhappy customers but scam accusations
+are not dominating the 1* ratings.
 
 The Yellow Card wallet has no statements on
 [their website](https://yellowcard.io/) or in their FAQ regarding the management
