@@ -19,7 +19,7 @@ repository:
 issue:
 icon: bepaltouch.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-07-25
 signer:
 reviewArchive:
