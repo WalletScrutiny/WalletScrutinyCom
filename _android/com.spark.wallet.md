@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.spark.wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2019-12-29
 signer: 
 reviewArchive:

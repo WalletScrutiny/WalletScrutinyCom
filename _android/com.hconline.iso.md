@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hconline.iso.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:

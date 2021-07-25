@@ -34,6 +34,7 @@ redirect_from:
 
 ---
 
+
 This app "{{ page.title }}" clearly tries to immitate
 {% include walletLink.html wallet='android/io.atomicwallet' verdict='true' %}.
 

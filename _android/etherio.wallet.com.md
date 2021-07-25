@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: etherio.wallet.com.png
 bugbounty: 
-verdict: wip
+verdict: fake
 date: 2021-07-24
 signer: 
 reviewArchive:

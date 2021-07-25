@@ -10,8 +10,8 @@ released: 2016-10-01
 latestUpdate: 2021-07-01
 version: "12.6.4"
 stars: 3.6
-ratings: 8922
-reviews: 4240
+ratings: 8925
+reviews: 4241
 size: 21M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet

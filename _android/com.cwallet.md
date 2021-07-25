@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.cwallet
 released: 2019-06-28
-latestUpdate: 2021-04-08
-version: "0.738.47"
+latestUpdate: 2021-07-24
+version: "0.741.11"
 stars: 4.0
 ratings: 108
 reviews: 51

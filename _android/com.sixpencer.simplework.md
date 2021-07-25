@@ -10,7 +10,7 @@ released: 2020-10-09
 latestUpdate: 2021-06-23
 version: "1.4.3"
 stars: 4.4
-ratings: 171
+ratings: 172
 reviews: 83
 size: 21M
 website: https://dfox.cc
