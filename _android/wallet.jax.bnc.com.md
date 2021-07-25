@@ -5,7 +5,7 @@ altTitle:
 authors:
 - emanuel
 - leo
-users: 5
+users: 10
 appId: wallet.jax.bnc.com
 released: 2021-07-14
 latestUpdate: 2021-07-14
@@ -35,5 +35,5 @@ redirect_from:
 ---
 
 
-This app "{{ page.title }}" clearly tries to immitate
+This app "{{ page.title }}" clearly tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.

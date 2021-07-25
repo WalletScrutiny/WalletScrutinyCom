@@ -10,7 +10,7 @@ released: 2020-03-01
 latestUpdate: 2021-06-30
 version: "4.1.4"
 stars: 4.0
-ratings: 3991
+ratings: 3990
 reviews: 2452
 size: 56M
 website: https://www.atoken.com

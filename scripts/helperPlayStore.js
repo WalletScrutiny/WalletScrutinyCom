@@ -92,7 +92,7 @@ function writeResult(app, header, iconExtension, body) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   var verdict = header.verdict
-  if ( app.verdict == undefined && app.minInstalls < 1000 ) {
+  if ( app.verdict == "" && app.minInstalls < 1000 ) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"

@@ -35,6 +35,6 @@ redirect_from:
 ---
 
 
-This app "{{ page.title }}" clearly tries to immitate
+This app "{{ page.title }}" clearly tries to imitate
 {% include walletLink.html wallet='android/com.binance.us' verdict='true' %} or
 {% include walletLink.html wallet='android/com.binance.dev' verdict='true' %}.
