@@ -31,3 +31,4 @@ providerFacebook: opolo.wallet.3
 providerReddit: 
 ---
 
+Note: This wallet is on pre-order and hence has not been released yet.
