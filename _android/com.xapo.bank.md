@@ -19,14 +19,14 @@ issue:
 icon: com.xapo.bank.png
 bugbounty: 
 verdict: wip
-date: 2021-07-15
+date: 2021-07-26
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: xapo
+providerLinkedIn: xapo
+providerFacebook: xapoapp
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,6 @@ redirect_from:
 ---
 
 
+This app was launched in May, yet on "their" website the app is announced as
+"coming soon". We try to figure out if it's fake or actually a product by xapo
+like {% include walletLink.html wallet='android/com.xapo' verdict='true' %}.

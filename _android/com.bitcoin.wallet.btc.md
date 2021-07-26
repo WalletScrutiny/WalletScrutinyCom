@@ -18,10 +18,15 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
-verdict: obfuscated
-date: 2021-06-04
+verdict: fake
+date: 2021-07-26
 signer: 
 reviewArchive:
+- date: 2021-06-04
+  version: "2.3.0" 
+  appHash: 
+  gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
+  verdict: obfuscated
 - date: 2019-11-19
   version: "1.8.1"
   appHash: 
@@ -37,6 +42,13 @@ redirect_from:
 
 ---
 
+
+**Update 2021-07-26**: The provider features several apps that either through
+their logo or the name try to resemble trusted wallets like
+{% include walletLink.html wallet='android/de.schildbach.wallet' %}
+or
+{% include walletLink.html wallet='android/piuk.blockchain.android' %}.
+Given other issues with the products, we assume they are fakes.
 
 **Update 2021-06-04**: The provider
 [promised to "check soon" back in 2019](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15#issuecomment-557786905)
