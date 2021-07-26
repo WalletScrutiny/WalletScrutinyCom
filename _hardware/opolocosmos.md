@@ -7,7 +7,7 @@ released: 01/01/2021
 discontinued: # date
 latestUpdate:
 version:
-dimensions: 
+dimensions: [89.2,66.4,9.5]
 weight: 
 website: https://www.opolo.io/
 shop: https://secure.opolo.shop/
