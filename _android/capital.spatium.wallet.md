@@ -9,8 +9,8 @@ appId: capital.spatium.wallet
 released: 2018-08-31
 latestUpdate: 2021-06-17
 version: "2.3.40"
-stars: 3.9
-ratings: 26
+stars: 3.8
+ratings: 27
 reviews: 13
 size: 127M
 website: 

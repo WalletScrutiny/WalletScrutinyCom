@@ -8,8 +8,8 @@ appId: com.cmcm.currency.exchange
 appCountry: 
 idd: 1435877386
 released: 2018-09-16
-updated: 2021-07-24
-version: "4.5.2"
+updated: 2021-07-26
+version: "4.5.3"
 stars: 3.7305
 reviews: 282
 size: 93649920

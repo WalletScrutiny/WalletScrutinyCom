@@ -10,9 +10,9 @@ appId: com.atomicwallet.newapp.safe
 released: 2021-06-14
 latestUpdate: 2021-06-14
 version: "1.5.2"
-stars: 2.7
-ratings: 6
-reviews: 5
+stars: 2.4
+ratings: 7
+reviews: 6
 size: 6.0M
 website: 
 repository: 

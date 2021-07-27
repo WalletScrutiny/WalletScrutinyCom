@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: coin98.crypto.finance.media
 released: 2019-12-19
-latestUpdate: 2021-07-21
-version: "10.0.7"
+latestUpdate: 2021-07-26
+version: "10.0.8"
 stars: 4.6
-ratings: 10117
-reviews: 6745
+ratings: 10303
+reviews: 6832
 size: 62M
 website: https://coin98.app/
 repository: 

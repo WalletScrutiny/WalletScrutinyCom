@@ -10,7 +10,7 @@ released:
 latestUpdate: 2021-07-15
 version: "v82"
 stars: 3.9
-ratings: 2734
+ratings: 2735
 reviews: 1141
 size: 9.2M
 website: 

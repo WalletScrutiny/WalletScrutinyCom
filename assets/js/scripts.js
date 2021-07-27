@@ -98,7 +98,7 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = 'reproducible,nonverifiable,nosource,noita,plainkey,prefilled,custodial,obfuscated,defunct,wip,fewusers,nobtc,nowallet'.split(',')
+  const verdictOrder = 'reproducible,nonverifiable,nosource,custodial,obfuscated,fake,noita,plainkey,prefilled,defunct,wip,fewusers,nobtc,nowallet'.split(',')
   const paltformOrder = ['android', 'iphone', 'hardware']
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
