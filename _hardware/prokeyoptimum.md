@@ -3,7 +3,7 @@ title: "Prokey Optimum"
 appId: prokeyoptimum
 authors:
 - kiwilamb
-released: 01/01/2020
+released: 2020-01-01
 discontinued: # date
 latestUpdate:
 version:
