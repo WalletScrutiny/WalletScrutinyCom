@@ -6,25 +6,30 @@ authors:
 - kiwilamb
 - leo
 appId: io.yellowcard.app
-appCountry: 
+appCountry: za
 idd: 1543252298
 released: 2021-03-04
-updated: 2021-06-24
-version: "1.3.0"
-stars: 3.18519
-reviews: 27
-size: 89454592
+updated: 2021-07-22
+version: "1.4.0"
+stars: 4.23076
+reviews: 13
+size: 90943488
 website: https://yellowcard.io
 repository: 
 issue: 
 icon: io.yellowcard.app.jpg
 bugbounty: 
-verdict: defunct
-date: 2021-07-26
+verdict: custodial
+date: 2021-07-28
 signer: 
 reviewArchive:
+- date: 2021-07-26
+  version: "1.3.0"
+  appHash: 
+  gitRevision: fb599ce89ee61d68c2f2d6b1de7febcde346c5e6
+  verdict: defunct
 - date: 2021-04-25
-  version: "1.3.0" 
+  version: "1.3.0"
   appHash: 
   gitRevision: d2e048f371ab14d6d8a699156755ca302bf2e74c
   verdict: custodial
@@ -37,6 +42,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-07-26**: As it turns out, the provider has limited the
+availability of the app to fewer countries and excluded the US, Chile and some
+more that we had tested for.
 
 **Update 2021-07-26**: This app is not available on the App Store since one week
 and we suspect it might not come back. We sent a DM to their Twitter that is

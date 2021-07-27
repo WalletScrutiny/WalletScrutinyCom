@@ -6,34 +6,38 @@ const helper = require('./scripts/helperAppStore.js')
 
 console.log(`Adding skeletons for ${newIdds} ...`)
 
-newIdds.forEach(function(idd) {
-  apple.app({
-      id: idd,
-      lang: 'en',
-      country: 'cl',
-      throttle: 20}).then(function(app){
-        const path = `_iphone/${app.appId}.md`
-        fs.exists(path, function(fileExists) {
-          if (!fileExists) {
-            const file = fs.createWriteStream(path)
-            file.write(`---
+newIdds.forEach( idd => {
+  if (isNaN(idd)) {
+    helper.refreshFile(`${idd}.md`)
+  } else {
+    apple.app({
+        id: idd,
+        lang: 'en',
+        country: 'cl',
+        throttle: 20}).then( app => {
+      const path = `_iphone/${app.appId}.md`
+      fs.exists(path, fileExists => {
+        if (!fileExists) {
+          const file = fs.createWriteStream(path)
+          file.write(`---
 appId: ${app.appId}
 idd: ${idd}
 verdict: wip
 ---
 `,
-            function(err) {
-              if (err)
-                console.error(`Error with id ${idd}: ${err}`)
-              console.log(`Success: ${path}`)
-              helper.refreshFile(`${app.appId}.md`)
-            })
-          } else {
-            console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists. Refreshing ...`)
+          err => {
+            if (err)
+              console.error(`Error with id ${idd}: ${err}`)
+            console.log(`Success: ${path}`)
             helper.refreshFile(`${app.appId}.md`)
-          }
-        })
-      }, function(err) {
-        console.error(`Error with id ${idd}: ${err}`)
+          })
+        } else {
+          console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists. Refreshing ...`)
+          helper.refreshFile(`${app.appId}.md`)
+        }
       })
+    }, err => {
+      console.error(`Error with id ${idd}: ${err}`)
+    })
+  }
 })

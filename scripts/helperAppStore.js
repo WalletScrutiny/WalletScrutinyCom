@@ -38,12 +38,12 @@ const allowedHeaders = [
 const folder = "_iphone/"
 
 function refreshAll() {
-  fs.readdir(folder, function (err, files) {
+  fs.readdir(folder, (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    files.forEach(function (file, index) {
+    files.forEach((file, index) => {
       refreshFile(file)
     })
   })
