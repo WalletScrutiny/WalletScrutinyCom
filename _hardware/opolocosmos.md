@@ -3,7 +3,7 @@ title: "OPOLO Cosmos"
 appId: opolocosmos
 authors:
 - kiwilamb
-released: 01/01/2021
+released: 2021-01-01
 discontinued: # date
 latestUpdate:
 version:
