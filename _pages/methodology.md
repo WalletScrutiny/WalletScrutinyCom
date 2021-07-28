@@ -69,6 +69,7 @@ findings.
 We answer the following questions usually in this order:
 
 {% include verdictMethodology.html verdict="wip" %}
+{% include verdictMethodology.html verdict="unreleased" %}
 {% include verdictMethodology.html verdict="fewusers" %}
 {% include verdictMethodology.html verdict="nowallet" %}
 {% include verdictMethodology.html verdict="nobtc" %}

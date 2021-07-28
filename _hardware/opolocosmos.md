@@ -19,7 +19,7 @@ repository:
 issue:
 icon: opolocosmos.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: unreleased 
 date: 2021-07-28
 signer:
 reviewArchive:
