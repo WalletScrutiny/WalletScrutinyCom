@@ -19,9 +19,14 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-06-01
+date: 2021-07-28
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-06-01
+  version: "8.14" 
+  appHash: e4f9be85ecbac8a418ec4f2d1577f1cea0c265f1b0cd501408c3ec993213ef08
+  gitRevision: 4dcef33a0b38018d1cad105e155e8a5259f89bbc
+  verdict: reproducible
 - date: 2021-03-11
   version: "8.11"
   appHash: 6ca9862f4c53723ed77d3c2c85a46028c950f665dbac30c9c4aedde719988654
@@ -129,23 +134,24 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.14
-apkVersionCode: 814
-appHash:        e4f9be85ecbac8a418ec4f2d1577f1cea0c265f1b0cd501408c3ec993213ef08
+apkVersionName: 8.15
+apkVersionCode: 815
+verdict:        reproducible
+appHash:        ef79679f1b67f00502e0e21ff6d31f97feb273d397f44850e3acf3ff68cf9464
+commit:         31b4d0b81792132664843d0527e4385882c6756f
 
 Diff:
-Files /tmp/fromPlay_de.schildbach.wallet_814/apktool.yml and /tmp/fromBuild_de.schildbach.wallet_814/apktool.yml differ
-Only in /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_814/original/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_814/original/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_815/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_815/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_815/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_815/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object be2eeeda88c31e362b80efcecb4804cabf8fff39
+object 31b4d0b81792132664843d0527e4385882c6756f
 type commit
-tag v8.14
-tagger Andreas Schildbach <andreas@schildbach.de> 1622386825 +0200
+tag v8.15
+tagger Andreas Schildbach <andreas@schildbach.de> 1625340545 +0200
 
-8.14 release
+8.15 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
