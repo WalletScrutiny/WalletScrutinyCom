@@ -36,7 +36,7 @@ function getWidgetDetails(wallet) {
     }
     ${ linkIf(wallet.website,          "Provider Website",  '<i class="fas fa-globe"></i>') }
     ${ linkIf(wallet.shop,             "Official Store",    '<i class="fas fa-shopping-cart"></i>') }
-    ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fab fa-github"></i>') }
+    ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fa fa-file-code"></i>') }
     ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
     ${ linkIf(wallet.providerTwitter && `https://twitter.com/${wallet.providerTwitter}`,                "Provider Twitter",  '<i class="fab fa-twitter"></i>') }
     ${ linkIf(wallet.providerFacebook && `https://www.facebook.com/${wallet.providerFacebook}`,         "Provider Facebook", '<i class="fab fa-facebook-f"></i>') }
