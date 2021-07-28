@@ -3,7 +3,7 @@ title: "OPOLO Cosmos"
 appId: opolocosmos
 authors:
 - kiwilamb
-released: 2021-01-01
+released: 
 discontinued: # date
 latestUpdate:
 version:
@@ -20,7 +20,7 @@ issue:
 icon: opolocosmos.png
 bugbounty:
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-07-26
+date: 2021-07-28
 signer:
 reviewArchive:
 
@@ -31,4 +31,4 @@ providerFacebook: opolo.wallet.3
 providerReddit: 
 ---
 
-Note: This wallet is on pre-order and hence has not been released yet.
+This wallet is on pre-order and hence has not been released yet.
