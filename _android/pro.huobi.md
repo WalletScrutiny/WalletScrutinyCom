@@ -10,8 +10,8 @@ released: 2017-11-01
 latestUpdate: 2021-07-26
 version: "6.3.9"
 stars: 3.8
-ratings: 10099
-reviews: 4113
+ratings: 10101
+reviews: 4112
 size: 86M
 website: https://www.huobi.com/en-us
 repository: 

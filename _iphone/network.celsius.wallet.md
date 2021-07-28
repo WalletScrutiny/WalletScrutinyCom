@@ -10,7 +10,7 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2021-07-15
 version: "4.9.1"
-stars: 3.81788
+stars: 3.81706
 reviews: 1219
 size: 44417024
 website: https://celsius.network/

@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2021-07-01
-version: "3.2"
-stars: 4.86849
-reviews: 365
-size: 48228352
+updated: 2021-07-27
+version: "3.3"
+stars: 4.86885
+reviews: 366
+size: 48882688
 website: https://keys.casa
 repository: 
 issue: 

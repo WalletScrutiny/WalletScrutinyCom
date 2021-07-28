@@ -11,8 +11,8 @@ released: 2020-01-19
 latestUpdate: 2021-07-01
 version: "2.24.2"
 stars: 4.2
-ratings: 2534
-reviews: 1032
+ratings: 2539
+reviews: 1034
 size: 67M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

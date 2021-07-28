@@ -10,8 +10,8 @@ released: 2019-12-27
 latestUpdate: 2021-07-22
 version: "3.0.1"
 stars: 4.6
-ratings: 25895
-reviews: 7961
+ratings: 25956
+reviews: 7971
 size: 14M
 website: https://www.coinex.co
 repository: 

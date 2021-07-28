@@ -8,11 +8,11 @@ appId: com.bitpay.coincloud
 appCountry: 
 idd: 1421460676
 released: 2018-09-09
-updated: 2021-06-29
-version: "1.9.1"
+updated: 2021-07-27
+version: "1.9.2"
 stars: 3.6338
 reviews: 71
-size: 80178176
+size: 80210944
 website: https://www.coin.cloud/app
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "Coins Wallet for bitcoin and litecoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.newcurrency.coinstrunk.v1
 released: 2020-10-15
 latestUpdate: 2021-07-16

@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.coinspace.app
 released: 2015-05-01
-latestUpdate: 2021-07-15
-version: "4.0.2"
+latestUpdate: 2021-07-27
+version: "4.0.3"
 stars: 4.2
 ratings: 996
 reviews: 439

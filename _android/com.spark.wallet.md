@@ -9,8 +9,8 @@ appId: com.spark.wallet
 released: 2018-12-10
 latestUpdate: 2020-09-03
 version: "0.0.0"
-stars: 4.6
-ratings: 8
+stars: 4.2
+ratings: 9
 reviews: 3
 size: 8.0M
 website: https://github.com/shesek/spark-wallet

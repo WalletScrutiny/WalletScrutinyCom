@@ -4,7 +4,7 @@ title: "Crypto & Bitcoin & DeFi Trading Game"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.altcoinfantasy.altcoinfantasy
 released: 2018-01-05
 latestUpdate: 2021-01-07
