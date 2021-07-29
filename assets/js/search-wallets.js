@@ -105,7 +105,7 @@ function searchCatalogue(input) {
               <img src='${basePath}/images/wallet_icons/${w.folder}/small/${w.icon}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
             <span class="badge-2 ${w.verdict}">
-                <i class="${window.transcribeTag(w.folder).css}"></i>
+                <i class="${window.platforms[w.folder].css}"></i>
                 <span><nobr>${verdicts[w.verdict].short}</nobr></span>
             </span>
             </a>`

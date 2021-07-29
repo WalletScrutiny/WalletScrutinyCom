@@ -38,7 +38,7 @@ author_profile: true
 <br>
 <div class="-sticky fragmented-controls-master">
 <h2 class="section-label fragmented-controls -sticky">Showing</h2>
-<h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdictPH">reproducible</span> </h2>
+<h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdict">reproducible</span> </h2>
 <h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
 </div>
 <br>

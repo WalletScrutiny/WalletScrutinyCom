@@ -1,5 +1,6 @@
 var dontUpdateUrl = true
 window.addEventListener("load", () => {
+  // Show the most recent products as badges
   const mostRecent = [].concat(window.wallets)
   mostRecent.sort((a, b) => {
     if (a.date != b.date)
