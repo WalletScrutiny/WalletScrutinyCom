@@ -19,8 +19,8 @@ repository: https://github.com/ngraveio
 issue:
 icon: ngravezero.png
 bugbounty:
-verdict: wip
-date: 2021-07-07
+verdict: unreleased
+date: 2021-07-29
 signer:
 reviewArchive:
 
@@ -31,3 +31,4 @@ providerFacebook: ngrave.io
 providerReddit: 
 ---
 
+This wallet is on pre-order and hence has not been released yet.
