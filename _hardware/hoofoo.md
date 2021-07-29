@@ -19,8 +19,8 @@ repository:
 issue:
 icon: hoofoo.png
 bugbounty:
-verdict: wip
-date: 2021-07-07
+verdict: unreleased
+date: 2021-07-29
 signer:
 reviewArchive:
 

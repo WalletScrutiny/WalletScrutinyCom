@@ -20,7 +20,7 @@ issue:
 icon: opolocosmos.png
 bugbounty:
 verdict: unreleased 
-date: 2021-07-28
+date: 2021-07-29
 signer:
 reviewArchive:
 
