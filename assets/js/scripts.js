@@ -65,7 +65,7 @@ function recreateDropdowns(verdict, platform) {
     })
 
     document.getElementById("modularVerdict").replaceWith(verdictSelect)
-    if (!hasProducts(verdict, platform)) {
+    if (verdict != "all" && !hasProducts(verdict, platform)) {
       document.getElementById("modularVerdict").selectedIndex = 1
     }
   }
