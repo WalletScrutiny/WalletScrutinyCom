@@ -20,10 +20,10 @@ author_profile: true
 <p style="text-align:center">
   Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your app allows you to use "your"
   coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
-  "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate backdoors
-  or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?<a rel="me" href="https://bitcoinhackers.org/@giszmo">&nbsp;</a>
+  "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate back doors
+  or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
 </p><p>
-  We try to answer these questions for Bitcoin wallets on Android.
+  We try to answer these questions and more for Bitcoin Wallets.
 </p><p>
   To understand in more detail read about <a title="our methodology"
   href="{{ base_path }}/methodology/">our methodology</a>.
