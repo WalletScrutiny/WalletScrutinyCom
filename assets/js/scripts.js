@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  recreateDropdowns("reproducible", "hardware")
+  recreateDropdowns("reproducible", "android")
   window.addEventListener("scroll", ignore => {
     const p = document.getElementById("modularWalletPayload")
     const o = p.getBoundingClientRect().bottom
