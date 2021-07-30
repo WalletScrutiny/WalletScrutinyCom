@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-verdict: fewusers
-date: 2020-12-21
+verdict: nonverifiable
+date: 2021-07-30
 signer: 
 reviewArchive:
 
@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 
-**Update:** This wallet
+**Update 2021-02-07**: This wallet
 [has its issues](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/3514) you
 might want to take into consideration, too.
 
@@ -61,4 +61,4 @@ and we found [their GitHub](https://github.com/trustee-wallet/trusteeWallet).
 
 There they comment in length on the issue of reproducibility for their Android app
 {% include walletLink.html wallet='android/com.trusteewallet' %} but make no such claims for
-their iPhone product wich leads us to the verdict: **not verifiable**.
+their iPhone product which leads us to the verdict: **not verifiable**.
