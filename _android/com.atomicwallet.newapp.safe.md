@@ -19,11 +19,15 @@ repository:
 issue: 
 icon: com.atomicwallet.newapp.safe.png
 bugbounty: 
-verdict: fake
-date: 2021-07-24
+verdict: defunct
+date: 2021-07-30
 signer: 
 reviewArchive:
-
+- date: 2021-07-24
+  version: "1.5.2" 
+  appHash: 
+  gitRevision: 39dc0c413233485694e168a9ebb31778ad09074c
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-07-30**: This app is not on Play Store anymore.
 
 This app "{{ page.title }}" clearly tries to imitate
 {% include walletLink.html wallet='android/io.atomicwallet' verdict='true' %}.
