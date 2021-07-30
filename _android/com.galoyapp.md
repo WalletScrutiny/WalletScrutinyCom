@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Beach Wallet"
 altTitle: 
 authors:
-- dg
+
 users: 10000
 appId: com.galoyapp
 released: 2020-11-24
@@ -12,20 +12,20 @@ version: "1.4.7"
 stars: 3.8
 ratings: 132
 reviews: 73
-size: 31M
+size: 32M
 website: https://galoy.io/
 repository: https://github.com/GaloyMoney
 issue: 
 icon: com.galoyapp.png
 bugbounty: 
 verdict: wip
-date: 2021-07-30
+date: 2021-04-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: https://twitter.com/galoymoney
-providerLinkedIn:
+providerTwitter: galoymoney
+providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
 
@@ -48,3 +48,5 @@ The README.md also provides some more information.
 > There is really not much in the middle: a custodial wallet that is open source and one that can be deployed for a local community. This would enable any tech-savvy person to deploy a union-bitcoin-bank for their own community, anywhere in the world. Galoy aims to bring this type of wallets to the bitcoin world.
 
 > An open source bitcoin banking solution would have the benefits of pooling capital, and thus make the capital efficacy available to those users with the benefits of reduced fees like batch transactions, lightning channel management, no cost for “on us” transactions, and lower cost per user for maintaining online servers.
+
+It doesn't download the entire blockchain so I assume that it's a **custodial** wallet.
