@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-22
 signer: 
 reviewArchive:

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-22
 signer: 
 reviewArchive:

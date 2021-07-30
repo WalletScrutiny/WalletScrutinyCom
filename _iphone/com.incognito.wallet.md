@@ -18,7 +18,7 @@ repository: https://github.com/incognitochain/incognito-wallet
 issue: 
 icon: com.incognito.wallet.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-21
 signer: 
 reviewArchive:

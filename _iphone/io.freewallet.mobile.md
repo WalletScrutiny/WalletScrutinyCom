@@ -18,7 +18,7 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-21
 signer: 
 reviewArchive:
