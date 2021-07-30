@@ -20,7 +20,6 @@ icon: jb.tech.blockchainpro.png
 bugbounty: 
 verdict: defunct
 date: 2021-04-30
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-04-24

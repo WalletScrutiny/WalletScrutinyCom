@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.lumiwallet.android
 released: 2018-01-15
-latestUpdate: 2021-06-18
-version: "4.1.1"
+latestUpdate: 2021-07-29
+version: "4.1.2"
 stars: 4.7
-ratings: 5913
-reviews: 1228
+ratings: 5957
+reviews: 1227
 size: 87M
 website: https://lumiwallet.com
 repository: 

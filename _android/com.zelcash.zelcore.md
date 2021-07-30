@@ -10,7 +10,7 @@ released: 2018-09-21
 latestUpdate: 2021-07-21
 version: "4.14.1"
 stars: 3.8
-ratings: 485
+ratings: 486
 reviews: 330
 size: 15M
 website: https://zel.network/project/zelcore

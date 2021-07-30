@@ -18,7 +18,6 @@ icon: com.aegiswallet.png
 bugbounty: 
 verdict: defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -9,9 +9,9 @@ appId: com.newcurrency.coinstrunk.v1
 released: 2020-10-15
 latestUpdate: 2021-07-16
 version: "1.10"
-stars: 4.4
-ratings: 156
-reviews: 121
+stars: 4.3
+ratings: 157
+reviews: 122
 size: 6.1M
 website: https://buxtank.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > This wallet helps people to create bitcoin or litecoin transactions
 

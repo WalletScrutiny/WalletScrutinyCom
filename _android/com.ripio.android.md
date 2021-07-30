@@ -10,8 +10,8 @@ released: 2015-06-01
 latestUpdate: 2021-07-23
 version: "4.15.6"
 stars: 3.8
-ratings: 20797
-reviews: 10059
+ratings: 20911
+reviews: 10086
 size: 88M
 website: https://www.ripio.com/ar/wallet
 repository: 

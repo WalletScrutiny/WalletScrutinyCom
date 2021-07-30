@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "FTX: Blockfolio - Buy Bitcoin Now"
+title: "FTX (formerly Blockfolio) - Buy Bitcoin Now"
 altTitle: 
 authors:
 
 users: 1000000
 appId: com.blockfolio.blockfolio
 released: 2015-10-01
-latestUpdate: 2021-07-17
-version: "3.1.6"
+latestUpdate: 2021-07-23
+version: "4.0.0"
 stars: 4.4
-ratings: 149034
-reviews: 45095
+ratings: 149219
+reviews: 45144
 size: 61M
 website: https://www.blockfolio.com
 repository: 

@@ -10,9 +10,9 @@ appId: com.etoro.wallet
 released: 2018-11-27
 latestUpdate: 2021-07-25
 version: "30.0.0"
-stars: 2.2
-ratings: 842
-reviews: 562
+stars: 2.1
+ratings: 844
+reviews: 564
 size: 7.1M
 website: https://www.etoro.com/crypto/wallet
 repository: 

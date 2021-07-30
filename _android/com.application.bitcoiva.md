@@ -10,7 +10,7 @@ released: 2020-11-02
 latestUpdate: 2021-04-12
 version: "1.14"
 stars: 4.1
-ratings: 147
+ratings: 150
 reviews: 79
 size: 7.1M
 website: https://bitcoiva.com
