@@ -5,8 +5,9 @@ authors:
 - leo
 released: 2014-08-01
 discontinued: # date
-latestUpdate: 
-version: 
+latestUpdate: 2021-07-13
+version: 7.1.7
+binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions: [38, 93.5, 12.2]
 weight: 54
 website: https://shapeshift.com
