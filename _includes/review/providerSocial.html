@@ -1,6 +1,6 @@
 {% if page.website %}
 <li
-  title='Provider website'>
+  title='Product website'>
   <a href="{{ page.website }}" class="link-web">
     <i class="fas fa-globe"></i>
   </a>
@@ -11,6 +11,13 @@
   title='Provider shop'>
   <a href="{{ page.shop }}" class="link-web">
     <i class="fas fa-shopping-cart"></i>
+  </a>
+</li>
+{% endif %}
+{% if page.binaries %}
+<li title='Binaries'>
+  <a href="{{ page.binaries }}" class="link-web">
+    <i class="fa fa-file-archive"></i>
   </a>
 </li>
 {% endif %}
@@ -43,7 +50,7 @@
 </li>
 {% endif %}
 {% if page.repository %}
-<li title='App source repository'>
+<li title='Source repository'>
   <a href="{{ page.repository }}" class="link-github">
     <i class="fa fa-file-code"></i>
   </a>
