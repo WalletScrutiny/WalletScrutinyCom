@@ -20,7 +20,6 @@ icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-04-22
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-05-29

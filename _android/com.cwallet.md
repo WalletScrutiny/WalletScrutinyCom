@@ -9,9 +9,9 @@ appId: com.cwallet
 released: 2019-06-28
 latestUpdate: 2021-07-24
 version: "0.741.11"
-stars: 4.0
-ratings: 108
-reviews: 51
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: https://xapawallet.com/
 repository: 
