@@ -10,7 +10,7 @@ released: 2018-03-01
 latestUpdate: 2021-07-27
 version: "2.0.16"
 stars: 4.0
-ratings: 3266
+ratings: 3268
 reviews: 1820
 size: 42M
 website: https://edge.app

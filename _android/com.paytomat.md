@@ -10,8 +10,8 @@ released: 2018-06-20
 latestUpdate: 2021-02-01
 version: "1.37.2"
 stars: 3.7
-ratings: 780
-reviews: 412
+ratings: 781
+reviews: 413
 size: 6.4M
 website: http://www.paytomat.com
 repository: 

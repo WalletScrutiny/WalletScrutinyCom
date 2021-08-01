@@ -9,9 +9,9 @@ appId: com.blockin.wallet
 released: 2020-03-23
 latestUpdate: 2021-07-06
 version: "1.9.9"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.0
+ratings: 194
+reviews: 94
 size: 48M
 website: 
 repository: 

@@ -10,7 +10,7 @@ released: 2019-04-16
 latestUpdate: 2020-07-17
 version: "0.5-alpha"
 stars: 3.6
-ratings: 276
+ratings: 278
 reviews: 176
 size: 6.7M
 website: https://wallet.coinbase.com

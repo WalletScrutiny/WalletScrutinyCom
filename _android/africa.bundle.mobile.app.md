@@ -10,8 +10,8 @@ released: 2020-04-20
 latestUpdate: 2021-07-15
 version: "3.0.0"
 stars: 4.5
-ratings: 9209
-reviews: 5728
+ratings: 9220
+reviews: 5731
 size: 49M
 website: https://bundle.africa/
 repository: 

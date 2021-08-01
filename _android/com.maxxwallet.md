@@ -9,9 +9,9 @@ appId: com.maxxwallet
 released: 2019-03-25
 latestUpdate: 2019-06-12
 version: "3.7.3"
-stars: 3.5
-ratings: 16
-reviews: 11
+stars: 3.4
+ratings: 17
+reviews: 12
 size: 14M
 website: http://bitcoinwalletcoin.com
 repository: 

@@ -10,8 +10,8 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2021-07-30
 version: "2.33.1"
-stars: 4.73264
-reviews: 68072
+stars: 4.73245
+reviews: 68201
 size: 359255040
 website: https://www.binance.com
 repository: 

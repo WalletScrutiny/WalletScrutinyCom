@@ -11,8 +11,8 @@ idd: 1443109132
 released: 2020-03-05
 updated: 2021-07-12
 version: "1.1.33"
-stars: 4.76271
-reviews: 413
+stars: 4.75603
+reviews: 414
 size: 83946496
 website: http://www.coinzoom.com
 repository: 

@@ -10,8 +10,8 @@ released: 2014-04-01
 latestUpdate: 2021-07-20
 version: "5.34"
 stars: 3.4
-ratings: 45934
-reviews: 21918
+ratings: 45936
+reviews: 21921
 size: 103M
 website: https://xapo.com
 repository: 
