@@ -42,7 +42,7 @@ document.getElementById("exitSearchTrigger").addEventListener("click", event => 
 var scrPos = 0
 var scrollOverride = 0
 
-function captureScrollForSearch(e) {  
+function captureScrollForSearch(e) {
   scrPos = scrPos + e.deltaY
   !scrollOverride && (
     document.querySelectorAll(".results-list")[0].scrollTop = scrPos
@@ -68,39 +68,41 @@ function focusResults(e) {
     document.querySelectorAll(".results-list")[0].querySelectorAll(".li")[0].focus()
   }
 }
-
+window.temporarySearchValue = ""
 function searchCatalogue(input) {
-  const bi = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
+  const activityIndicationClearTrigger = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
   const result = document.createElement("ul")
   result.classList.add("results-list")
-  const term = input.toUpperCase()
+  const term = input.trim().toUpperCase()
   const minTermLength = 1
-  if (term.length > minTermLength) {
-    var matchCounter = 0
-    window.orderedObs.forEach(wallet => {
-      if (wallet.title) {
-        let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.folder} ${wallet.website} ${wallet.category} ${wallet.verdict}`
+  if (window.temporarySearchValue !== term) {
+    window.temporarySearchValue = term;
+    if (term.length > minTermLength) {
+      var matchCounter = 0
+      window.orderedObs.forEach(wallet => {
+        if (wallet.title) {
+          let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.folder} ${wallet.website} ${wallet.category} ${wallet.verdict}`
 
-        if (matchCounter < 1)
-          result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
+          if (matchCounter < 1)
+            result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
 
-        let index = searchableTerms.toLocaleUpperCase().indexOf(term)
+          let index = searchableTerms.toLocaleUpperCase().indexOf(term)
 
-        if (index !== -1) {
-          if (matchCounter == 0) {
-            result.innerHTML = ""
-          }
+          if (index !== -1) {
+            if (matchCounter == 0) {
+              result.innerHTML = ""
+            }
 
-          bi.classList.remove("fa-times")
-          bi.classList.add("fa-circle-notch")
-          const walletRow = document.createElement("li")
-          walletRow.style['animation-delay'] = matchCounter * .1 + 's'
-          walletRow.classList.add("actionable")
-          var compactedResults = ''
-          function cPlus(w) {
-            const basePath = w.base_path || ""
-            var analysisUrl = `${basePath}${w.url}`
-            compactedResults += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
+            activityIndicationClearTrigger.classList.remove("fa-times")
+            activityIndicationClearTrigger.classList.add("fa-circle-notch")
+            const walletRow = document.createElement("li")
+            walletRow.style['animation-delay'] = matchCounter * .1 + 's'
+            walletRow.classList.add("actionable")
+            var compactedResults = ''
+            function cPlus(w) {
+              const basePath = w.base_path || ""
+              var analysisUrl = `${basePath}${w.url}`
+              compactedResults += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
               href='${analysisUrl}'>
               <img src='${basePath}/images/wallet_icons/${w.folder}/small/${w.icon}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
@@ -109,44 +111,42 @@ function searchCatalogue(input) {
                 <span><nobr>${verdicts[w.verdict].short}</nobr></span>
             </span>
             </a>`
-          }
-          cPlus(wallet)
-          var det = ""
-          if (wallet.versions && wallet.versions.length > 0) {
-            for (i = 0; i < wallet.versions.length; i++) {
-              searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
-              cPlus(wallet.versions[i])
             }
-            det = "-hom"
-          }
-          walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
+            cPlus(wallet)
+            var det = ""
+            if (wallet.versions && wallet.versions.length > 0) {
+              for (i = 0; i < wallet.versions.length; i++) {
+                searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
+                cPlus(wallet.versions[i])
+              }
+              det = "-hom"
+            }
+            walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
 
-          result.append(walletRow)
-          matchCounter++
+            result.append(walletRow)
+            matchCounter++
+          }
         }
-      }
-    })
-  } else if (term.length != 0) {
-    var l = document.createElement("li")
-    var rem = (minTermLength + 1) - term.length
-    var s = rem > 1 ? "s" : ""
-    l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
-    result.append(l)
-  }
+      })
+    } else if (term.length != 0) {
+      var l = document.createElement("li")
+      var rem = (minTermLength + 1) - term.length
+      var s = rem > 1 ? "s" : ""
+      l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
+      result.append(l)
+    }
   clearTimeout(pauseForInput)
   pauseForInput = setTimeout(function () {
-    bi.classList.remove("fa-circle-notch")
-    bi.classList.add("fa-times")
+    activityIndicationClearTrigger.classList.remove("fa-circle-notch")
+    activityIndicationClearTrigger.classList.add("fa-times")
     document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
     document.querySelectorAll(".results-list")[0].replaceWith(result)
   }, 500)
   searchScrollToTop()
+  }
 }
 
 function heroUX(termInput) {
-  termInput.focus()
-  termInput.select()
-  searchScrollToTop()
 
   if (termInput.value.length > 0) {
     searchCatalogue(termInput.value)
@@ -155,7 +155,7 @@ function heroUX(termInput) {
     document.body.classList.add("search-ui-active"),
     window.addEventListener('wheel', captureScrollForSearch),
     document.querySelectorAll(".results-list")[0].addEventListener("mouseenter", function (e) { scrollOverride = 1 }),
-    document.querySelectorAll(".results-list")[0].addEventListener("mouseleave",function(e){scrollOverride=0})
+    document.querySelectorAll(".results-list")[0].addEventListener("mouseleave", function (e) { scrollOverride = 0 })
   )
 }
 
