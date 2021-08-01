@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.beta.obc.WOWOO.jpg
 bugbounty: 
-verdict: wip
+verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:

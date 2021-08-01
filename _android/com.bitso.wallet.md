@@ -10,7 +10,7 @@ released: 2018-02-19
 latestUpdate: 2021-07-22
 version: "2.33.1"
 stars: 4.5
-ratings: 14732
+ratings: 14735
 reviews: 6827
 size: 29M
 website: https://bitso.com/app

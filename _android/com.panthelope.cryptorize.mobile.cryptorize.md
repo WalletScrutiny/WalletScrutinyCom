@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.panthelope.cryptorize.mobile.cryptorize.png
 bugbounty: 
-verdict: wip
+verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:

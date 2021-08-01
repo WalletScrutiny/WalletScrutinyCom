@@ -10,7 +10,7 @@ released: 2019-06-06
 latestUpdate: 2021-07-30
 version: "21.7.29"
 stars: 4.6
-ratings: 62628
+ratings: 62630
 reviews: 19460
 size: 40M
 website: https://www.exodus.io/mobile

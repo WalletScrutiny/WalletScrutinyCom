@@ -9,9 +9,9 @@ appId: com.xapo
 released: 2014-04-01
 latestUpdate: 2021-07-20
 version: "5.34"
-stars: 3.4
-ratings: 45936
-reviews: 21921
+stars: 3.6
+ratings: 291
+reviews: 155
 size: 103M
 website: https://xapo.com
 repository: 
