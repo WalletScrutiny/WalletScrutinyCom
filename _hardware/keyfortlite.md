@@ -31,4 +31,4 @@ providerFacebook:
 providerReddit: 
 ---
 
-The provider's website (https://www.keyfort.io/) is inaccessible and we considered it defunct.
+The [provider's website](https://www.keyfort.io/) is inaccessible and we considered it defunct.

@@ -31,5 +31,5 @@ providerFacebook:
 providerReddit: 
 ---
 
-The provider's website (https://cryptoring.io) is inaccessible.
+The [provider's website](https://cryptoring.io) is inaccessible.
 We believe this hardware wallet was likely never produced and is now considered defunct.
