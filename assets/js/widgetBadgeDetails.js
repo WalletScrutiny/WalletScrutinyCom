@@ -18,7 +18,7 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.stars) ? `<tr><td>Rating</td><td>${Math.round(wallet.stars * 10) / 10} stars${ hasValue(wallet.ratings) ? ` with ${ wallet.ratings} ratings`: `` }</td></tr>` : ``}
     ${ wallet.folder == "iphone"
       ? `<tr><td>App size</td><td>${ Math.round(wallet.size / 100000 ) / 10 }MB</td></tr>`
-      : wallet.folder == "android"
+      : wallet.folder == "android" && wallet.size != "Varies with device"
       ? `<tr><td>App size</td><td>${ wallet.size }B</td></tr>`
       : ``
     }

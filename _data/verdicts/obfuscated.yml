@@ -2,20 +2,20 @@ short: Obfuscated!
 title: Obfuscated
 color: '#d33100'
 redflag: true
-message: The app's binary contains active obfuscation!
-question: Is the decompiled app legible?
+message: The binary contains active obfuscation!
+question: Is the decompiled binary legible?
 details: >
   When compiling source code to binary, usually a lot of meta information is
   retained. A variable storing a masterseed would usually still be called
   `masterseed`, so an auditor could inspect what happens to the masterseed. Does
   it get sent to some server?  But obfuscation would rename it for example to
-  `_t12`, making it harder to find what the app is doing with the masterseed.
+  `_t12`, making it harder to find what the product is doing with the masterseed.
   
   
-  In benign cases, code symbols are replaced by short strings to make the app
+  In benign cases, code symbols are replaced by short strings to make the binary
   smaller but for the sake of transparency this should not be done for 
   non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the
-  app for size improvements as the reproducibility would assure the link between
+  binary for size improvements as the reproducibility would assure the link between
   code and binary.)
 
 
@@ -29,4 +29,4 @@ details: >
   
   As looking for code obfuscation is a more involved task, we do not inspect
   many apps but if we see other red flags, we might test this
-  to then put the app into this **red-flag category**.
+  to then put the product into this **red-flag category**.

@@ -18,7 +18,7 @@ author_profile: true
 <img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
 </div>
 <p style="text-align:center">
-  Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your app allows you to use "your"
+  Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your product allows you to use "your"
   coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
   "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate back doors
   or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
