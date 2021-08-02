@@ -3,7 +3,7 @@ wsId:
 title: "All Coin Wallet"
 altTitle: 
 authors:
-
+- dg
 users: 10000
 appId: com.allcoinwallet.allcoinwallet
 released: 2019-01-28
@@ -13,13 +13,13 @@ stars: 3.8
 ratings: 104
 reviews: 48
 size: 10M
-website: 
+website: www.allcoinwallet.com
 repository: 
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: defunct
+date: 2021-07-31
 signer: 
 reviewArchive:
 
