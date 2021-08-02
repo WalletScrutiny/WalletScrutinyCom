@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Beach Wallet"
 altTitle: 
 authors:
-
+- dg
 users: 10000
 appId: com.galoyapp
 released: 2020-11-24
@@ -13,18 +13,18 @@ stars: 3.8
 ratings: 132
 reviews: 73
 size: 32M
-website: https://galoy.io/
-repository: https://github.com/GaloyMoney
+website: 
+repository: 
 issue: 
 icon: com.galoyapp.png
 bugbounty: 
-verdict: wip
-date: 2021-04-27
+verdict: custodial
+date: 2021-08-02
 signer: 
 reviewArchive:
 
 
-providerTwitter: galoymoney
+providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,20 +33,16 @@ redirect_from:
 
 ---
 
+
+**This wallet is not officially affiliated** with GaloyMoney or the Bitcoin Beach project based in El Salvador. It only uses the tech that Galoy has developed. 
+
+The official open-source code for Galoy can be found in [this](https://github.com/GaloyMoney/galoy) Github repository. Neither this repository nor the two official websites: [bitcoinbeach.com](https://bitcoinbeach.com) and [galoy.io](https://galoy.io) directly link to this Bitcoin Beach wallet.
+
+GaloyMoney provides an infrastructure that allows people to launch custodial wallets. **But that does not mean that this app is secure or safe to use.**
+The Google Play description does not mention that it is a fork, only stating the exact words below.
 > Lightning Wallet of the Bitcoin Beach community
 
-It sounds like a BTC Wallet.
+There is no mention of the providers. Even the app's developer is listed as "Galoy Inc."
+It's also pretty suspicious that the Privacy Policy links to [**galoy.flycricket.io/privacy.html**](https://galoy.flycricket.io/privacy.html) while the official site is [**galoy.io**](https://galoy.io).
 
-This is the app's full description. There is no direct link to the official website on the Play Store, but the email address and Privacy Policy are on [this site](https://galoy.io/).
-
-galoy.io claims that this wallet is "shared custodial." It also provides a link to the [Github Repository](https://github.com/GaloyMoney/).
-
-The README.md also provides some more information.
-
-> Today’s wallets are typically on two ends of a spectrum: either custodial, managed by an exchange and often large, regulated corporations, or non-custodial, open source wallets.
-
-> There is really not much in the middle: a custodial wallet that is open source and one that can be deployed for a local community. This would enable any tech-savvy person to deploy a union-bitcoin-bank for their own community, anywhere in the world. Galoy aims to bring this type of wallets to the bitcoin world.
-
-> An open source bitcoin banking solution would have the benefits of pooling capital, and thus make the capital efficacy available to those users with the benefits of reduced fees like batch transactions, lightning channel management, no cost for “on us” transactions, and lower cost per user for maintaining online servers.
-
-It doesn't download the entire blockchain so I assume that it's a **custodial** wallet.
+As we can assume this is a **custodial** wallet, it is very useful to know about who is holding your money. Who will you sue if the money goes poof? *It is not worth it to lose your coins in a scam.*
