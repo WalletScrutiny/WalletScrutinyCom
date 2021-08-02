@@ -9,9 +9,9 @@ appId: io.mahfazah
 released: 2018-09-19
 latestUpdate: 2018-11-22
 version: "1.2.6"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 29
+reviews: 14
 size: 20M
 website: 
 repository: 

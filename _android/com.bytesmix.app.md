@@ -9,9 +9,9 @@ appId: com.bytesmix.app
 released: 2019-08-11
 latestUpdate: 2021-07-09
 version: "2.3.9"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 386
+reviews: 281
 size: 26M
 website: 
 repository: 

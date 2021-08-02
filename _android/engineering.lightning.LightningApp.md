@@ -9,9 +9,9 @@ appId: engineering.lightning.LightningApp
 released: 2019-06-18
 latestUpdate: 2020-02-07
 version: "0.2.6"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.4
+ratings: 8
+reviews: 7
 size: Varies with device
 website: 
 repository: 

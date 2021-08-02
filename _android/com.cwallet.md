@@ -10,7 +10,7 @@ released: 2019-06-28
 latestUpdate: 2021-07-24
 version: "0.741.11"
 stars: 4.0
-ratings: 108
+ratings: 112
 reviews: 51
 size: Varies with device
 website: https://xapawallet.com/
