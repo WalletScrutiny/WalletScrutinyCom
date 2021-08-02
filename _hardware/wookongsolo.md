@@ -14,7 +14,7 @@ shop: https://wooko.ng/en/solo
 company: WOOKONG
 companywebsite: https://wooko.ng/en
 country: CH
-price: CNY
+price: 
 repository: https://github.com/extropiescom
 issue:
 icon: wookongsolo.png
