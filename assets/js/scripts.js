@@ -53,19 +53,20 @@ function recreateDropdowns(verdict, platform) {
       verdictOption.selected = true
     
     window.verdictOrder.forEach(t => {
-      if (!hasProducts(t, platform)) {
+      const count = productCount(t, platform)
+      if (0 == count) {
         return
       }
       verdictOption = document.createElement("option")
       verdictOption.value = t
-      verdictOption.innerHTML = verdicts[t].short
+      verdictOption.innerHTML = `${verdicts[t].short} (${count})`
       verdictSelect.append(verdictOption)
       if (t == verdict)
         verdictOption.selected = true
     })
 
     document.getElementById("modularVerdict").replaceWith(verdictSelect)
-    if (verdict != "all" && !hasProducts(verdict, platform)) {
+    if (verdict != "all" && 0 < productCount(verdict, platform)) {
       document.getElementById("modularVerdict").selectedIndex = 1
     }
   }
@@ -91,17 +92,17 @@ function recreateDropdowns(verdict, platform) {
 /**
  * @return true if any wallet matches the verdict-platform pair.
  **/
-function hasProducts(verdict, platform) {
-  var retVal = false
+function productCount(verdict, platform) {
+  var retVal = 0
   for (var w in window.wallets) {
     const wallet = window.wallets[w]
     if (wallet.verdict && wallet.folder &&
         String(wallet.verdict) === verdict &&
         String(wallet.folder) === platform) {
-      return true
+      retVal++
     }
   }
-  return false
+  return retVal
 }
 
 function updateModularPayload() {
