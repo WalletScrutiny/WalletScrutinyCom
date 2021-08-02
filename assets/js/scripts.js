@@ -1,4 +1,19 @@
+window.verdictCount = {}
+
 window.addEventListener("load", () => {
+  const platformNames = Object.keys(window.platforms)
+  for (var p in platformNames) {
+    const platform = platformNames[p]
+    window.verdictCount[platform] = {}
+    for (var v in window.verdictOrder) {
+      const verdict = window.verdictOrder[v]
+      window.verdictCount[platform][verdict] = 0
+    }
+  }
+  for (var w in window.wallets) {
+    const wallet = window.wallets[w]
+    window.verdictCount[wallet.folder][wallet.verdict]++
+  }
   recreateDropdowns("reproducible", "android")
   window.addEventListener("scroll", ignore => {
     const p = document.getElementById("modularWalletPayload")
@@ -66,7 +81,7 @@ function recreateDropdowns(verdict, platform) {
     })
 
     document.getElementById("modularVerdict").replaceWith(verdictSelect)
-    if (verdict != "all" && 0 < productCount(verdict, platform)) {
+    if (verdict != "all" && 0 == productCount(verdict, platform)) {
       document.getElementById("modularVerdict").selectedIndex = 1
     }
   }
@@ -90,19 +105,10 @@ function recreateDropdowns(verdict, platform) {
 }
 
 /**
- * @return true if any wallet matches the verdict-platform pair.
+ * @return how many products in the platform have the verdict.
  **/
 function productCount(verdict, platform) {
-  var retVal = 0
-  for (var w in window.wallets) {
-    const wallet = window.wallets[w]
-    if (wallet.verdict && wallet.folder &&
-        String(wallet.verdict) === verdict &&
-        String(wallet.folder) === platform) {
-      retVal++
-    }
-  }
-  return retVal
+  return window.verdictCount[platform][verdict]
 }
 
 function updateModularPayload() {
