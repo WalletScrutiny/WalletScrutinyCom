@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Wyretrade: Invest in Stocks, ETFs & Crypto"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.wyre.trade
+released: 2021-04-30
+latestUpdate: 2021-07-19
+version: "1.1.7"
+stars: 4.5
+ratings: 102
+reviews: 85
+size: 13M
+website: 
+repository: 
+issue: 
+icon: com.wyre.trade.png
+bugbounty: 
+verdict: wip
+date: 2021-08-02
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

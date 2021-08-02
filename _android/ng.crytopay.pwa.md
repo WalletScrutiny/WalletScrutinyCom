@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Cryptopay.ng | Buy, Sell & Exchange Crypto|"
+altTitle: 
+authors:
+
+users: 1000
+appId: ng.crytopay.pwa
+released: 2020-08-20
+latestUpdate: 2020-10-22
+version: "3.0"
+stars: 3.4
+ratings: 17
+reviews: 13
+size: 2.1M
+website: 
+repository: 
+issue: 
+icon: ng.crytopay.pwa.png
+bugbounty: 
+verdict: wip
+date: 2021-08-02
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

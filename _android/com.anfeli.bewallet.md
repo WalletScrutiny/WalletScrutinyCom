@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "beWallet"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.anfeli.bewallet
+released: 2018-11-05
+latestUpdate: 2019-05-28
+version: "1.2.24"
+stars: 3.6
+ratings: 67
+reviews: 45
+size: 8.0M
+website: 
+repository: 
+issue: 
+icon: com.anfeli.bewallet.jpg
+bugbounty: 
+verdict: wip
+date: 2021-08-02
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
