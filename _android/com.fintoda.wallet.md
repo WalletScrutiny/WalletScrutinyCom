@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.fintoda.wallet
 released: 
-latestUpdate: 2021-07-14
+latestUpdate: 2021-08-02
 version: "Varies with device"
 stars: 
 ratings: 

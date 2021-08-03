@@ -4,7 +4,7 @@ title: "PT Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.pt.wallet
 released: 2020-10-14
 latestUpdate: 2021-02-25

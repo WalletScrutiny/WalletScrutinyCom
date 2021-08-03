@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.application.bitcoiva
 released: 2020-11-02
-latestUpdate: 2021-04-12
-version: "1.14"
-stars: 4.1
-ratings: 151
-reviews: 80
-size: 7.1M
+latestUpdate: 2021-08-02
+version: "1.15"
+stars: 4.0
+ratings: 156
+reviews: 83
+size: 7.2M
 website: https://bitcoiva.com
 repository: 
 issue: 

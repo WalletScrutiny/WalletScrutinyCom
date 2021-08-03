@@ -10,9 +10,9 @@ appId: wall.exodus.btcandcrypto
 released: 2021-07-16
 latestUpdate: 2021-07-16
 version: "6.045"
-stars: 5.0
-ratings: 115
-reviews: 1
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
 website: 
 repository: 

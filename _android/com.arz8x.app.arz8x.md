@@ -9,9 +9,9 @@ appId: com.arz8x.app.arz8x
 released: 2020-05-08
 latestUpdate: 2021-06-16
 version: "2.0.2"
-stars: 4.2
-ratings: 1100
-reviews: 624
+stars: 4.3
+ratings: 1101
+reviews: 625
 size: 32M
 website: 
 repository: 

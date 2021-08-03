@@ -5,7 +5,7 @@ altTitle:
 authors:
 - emanuel
 - leo
-users: 5
+users: 10
 appId: com.edhnbus.wxcgr
 released: 2021-07-21
 latestUpdate: 2021-07-21

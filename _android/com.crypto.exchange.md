@@ -9,9 +9,9 @@ appId: com.crypto.exchange
 released: 2021-05-26
 latestUpdate: 2021-07-29
 version: "1.1.1"
-stars: 3.8
-ratings: 230
-reviews: 119
+stars: 3.7
+ratings: 232
+reviews: 121
 size: 63M
 website: 
 repository: 

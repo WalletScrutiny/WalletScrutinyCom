@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: wallet.gem.com.atoken
 released: 2020-03-01
-latestUpdate: 2021-06-30
-version: "4.1.4"
+latestUpdate: 2021-07-31
+version: "4.1.5"
 stars: 4.0
-ratings: 3992
+ratings: 3991
 reviews: 2455
-size: 56M
+size: 55M
 website: https://www.atoken.com
 repository: 
 issue: 

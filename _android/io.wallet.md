@@ -9,8 +9,8 @@ appId: io.wallet
 released: 2019-08-24
 latestUpdate: 2021-07-05
 version: "1.13.7"
-stars: 3.6
-ratings: 66
+stars: 3.7
+ratings: 67
 reviews: 30
 size: 25M
 website: 

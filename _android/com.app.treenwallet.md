@@ -7,8 +7,8 @@ authors:
 users: 10
 appId: com.app.treenwallet
 released: 2021-07-01
-latestUpdate: 2021-07-10
-version: "1.0.0"
+latestUpdate: 2021-08-02
+version: "1.1.0"
 stars: 0.0
 ratings: 
 reviews: 

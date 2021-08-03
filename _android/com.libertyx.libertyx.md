@@ -9,9 +9,9 @@ appId: com.libertyx.libertyx
 released: 
 latestUpdate: 2021-07-28
 version: "4.1.2"
-stars: 3.6
-ratings: 388
-reviews: 244
+stars: 3.5
+ratings: 389
+reviews: 245
 size: 27M
 website: 
 repository: 

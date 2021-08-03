@@ -10,8 +10,8 @@ released: 2014-11-01
 latestUpdate: 2021-07-26
 version: "7.19.0"
 stars: 4.2
-ratings: 83170
-reviews: 44065
+ratings: 83205
+reviews: 44089
 size: 70M
 website: https://www.luno.com
 repository: 

@@ -10,8 +10,8 @@ released: 2017-03-09
 latestUpdate: 2021-07-30
 version: "2.16.11"
 stars: 4.1
-ratings: 6079
-reviews: 3134
+ratings: 6087
+reviews: 3139
 size: 42M
 website: https://waves.exchange/
 repository: 

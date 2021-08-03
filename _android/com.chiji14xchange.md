@@ -9,9 +9,9 @@ appId: com.chiji14xchange
 released: 2019-04-22
 latestUpdate: 2021-05-22
 version: "3.0.5"
-stars: 3.1
-ratings: 946
-reviews: 835
+stars: 3.2
+ratings: 948
+reviews: 836
 size: 30M
 website: 
 repository: 

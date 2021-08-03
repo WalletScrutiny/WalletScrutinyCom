@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "The Coin Wallet (formerly Ecoin Wallet)"
+title: "Ecoin Wallet"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: fio.ecoin.wallet
 released: 2020-10-08
 latestUpdate: 2021-07-19
 version: "5.7.8"
-stars: 3.9
-ratings: 2208
-reviews: 988
+stars: 4.0
+ratings: 2215
+reviews: 991
 size: 84M
 website: 
 repository: 

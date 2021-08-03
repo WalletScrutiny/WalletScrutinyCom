@@ -19,8 +19,8 @@ repository: https://github.com/hyperpayorg/hardwallet
 issue:
 icon: hypermatepro.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-08-02
+verdict: wip
+date: 2021-08-03
 signer:
 reviewArchive:
 

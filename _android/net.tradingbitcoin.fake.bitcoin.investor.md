@@ -4,7 +4,7 @@ title: "Fake Bitcoin Investor"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.tradingbitcoin.fake.bitcoin.investor
 released: 2021-06-21
 latestUpdate: 2021-06-21
