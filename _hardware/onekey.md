@@ -28,6 +28,6 @@ reviewArchive:
 providerTwitter: OneKeyHQ
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: 
+providerReddit: OneKeyHQ
 ---
 
