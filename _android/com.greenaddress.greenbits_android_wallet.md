@@ -15,13 +15,18 @@ reviews: 448
 size: 76M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
-issue: https://github.com/Blockstream/green_android/issues/116
+issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
-verdict: reproducible
+verdict: nonverifiable
 date: 2021-07-13
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-07-13
+  version: "3.6.3" 
+  appHash: 6779507d1ad1da738312c43fbe6380f6d3e8947d66cd5d89de0fe62fc242217b
+  gitRevision: 6af0e73625f44d1f6cd9230b1e2b6eff28d71719
+  verdict: reproducible
 - date: 2021-06-04
   version: "3.6.0"
   appHash: e93bcf3bcad8b84568a3101c4a87b9c9bb684c7c544fc6b05f204d9fa5fbb57d
@@ -146,26 +151,11 @@ With
 we get:
 
 ```
-Results:
-appId:          com.greenaddress.greenbits_android_wallet
-signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.6.3
-apkVersionCode: 22000363
-appHash:        6779507d1ad1da738312c43fbe6380f6d3e8947d66cd5d89de0fe62fc242217b
-commit:         333ffa887a818c089873385bd6265811313899aa
-
-Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000363/META-INF: MANIFEST.MF
-
-Revision, tag (and its signature):
-object 333ffa887a818c089873385bd6265811313899aa
-type commit
-tag release_3.6.3
-tagger Domenico Gabriele <domenico@blockstream.com> 1625743007 +0200
-
-Release 3.6.3
+Trying to clone version release_3.6.4 ...
+warning: Could not find remote branch release_3.6.4 to clone.
+fatal: Remote branch release_3.6.4 not found in upstream origin
 ```
 
-which is what we want to see to give it the verdict **reproducible**.
+which unfortunately is not "easily reproducible". Yes, we could now try the
+revision the version was set to 3.6.4 and the two later ones but tagging the
+right version is industry standard for transparency and 
