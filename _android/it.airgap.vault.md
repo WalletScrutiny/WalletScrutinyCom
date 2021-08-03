@@ -19,9 +19,14 @@ issue: https://github.com/airgap-it/airgap-vault/issues/43
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible
-date: 2021-04-24
+date: 2021-08-03
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-04-24
+  version: "3.7.0" 
+  appHash: 57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f
+  gitRevision: f24d668889031ca802d7113153224d8435b58892
+  verdict: reproducible
 - date: 2021-03-03
   version: "3.6.2"
   appHash: 2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025
@@ -102,23 +107,24 @@ which delivered these results:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.7.0
-apkVersionCode: 28519
-appHash:        57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f
+apkVersionName: 3.8.0
+apkVersionCode: 32548
+verdict:        reproducible
+appHash:        f886635f7014856631e4d325fca4ba49b20fdb1b57116b1b416af0bfb8f5ba09
+commit:         ec10ff6a4d1af589bcb0987713f88a07ae76b727
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_28519/apktool.yml and /tmp/fromBuild_it.airgap.vault_28519/apktool.yml differ
-Files /tmp/fromPlay_it.airgap.vault_28519/original/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_28519/original/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_28519/original/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_28519/original/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_32548/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_32548/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_32548/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_32548/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 2c029f86025427dcb8762db7644da0fa57c9b661
+object ec10ff6a4d1af589bcb0987713f88a07ae76b727
 type commit
-tag v3.7.0
-tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1619217548 +0200
+tag v3.8.0
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1627662437 +0200
 
-v3.7.0
+v3.8.0
 ```
 
 This is what we expect to see on a **reproducible** app.
