@@ -1,8 +1,13 @@
 #!/bin/bash
 
+set -x
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
 TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
 downloadedApk="$1"
+# if the desired version is not tagged, the script can be run with a revision
+# override as second parameter.
+if [ -n "$2" ]; then revisionOverride="$2"; fi
 # make sure path is absolute
 if ! [[ $downloadedApk =~ ^/.* ]]; then
   downloadedApk="$PWD/$downloadedApk"
@@ -16,8 +21,6 @@ else
   takeUserActionCommand='echo "CTRL-D to continue";
     bash'
 fi
-
-set -x
 
 containerApktool() {
   targetFolder=$1
@@ -56,12 +59,13 @@ usage() {
        test.sh - test if apk can be built from source
 
 SYNOPSIS
-       test.sh downloadedApk
+       test.sh downloadedApk [revisionOverride]
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
        
-       downloadedApk  The apk file we want to test.'
+       downloadedApk    The apk file we want to test.
+       revisionOverride git revision id to use if tag is not found'
 }
 
 if [ ! -f "$downloadedApk" ]; then
@@ -102,16 +106,20 @@ echo "Testing \"$downloadedApk\" ($appId version $versionName)"
 echo
 
 prepare() {
-  echo "Testing $appId from $repo revision $tag ..."
+  echo "Testing $appId from $repo revision $tag (revisionOverride: '$revisionOverride')..."
   # cleanup
   rm -rf /tmp/test$appId || exit 1
   # get uinque folder
   mkdir $workDir
   cd $workDir
   # clone
-  echo "Trying to clone version $tag ..."
-  git clone --quiet --branch "$tag" --depth 1 $repo app || exit 1
-  cd app
+  echo "Trying to clone …"
+  if [ -n "$revisionOverride" ]
+  then
+    git clone --quiet $repo app && cd app && git checkout "$revisionOverride" || exit 1
+  else
+    git clone --quiet --branch "$tag" --depth 1 $repo app && cd app || exit 1
+  fi
   commit=$( git log -n 1 --pretty=oneline | sed 's/ .*//g' )
 }
 

@@ -18,8 +18,8 @@ repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
-verdict: nonverifiable
-date: 2021-07-13
+verdict: reproducible
+date: 2021-08-03
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2021-07-13
@@ -151,11 +151,29 @@ With
 we get:
 
 ```
-Trying to clone version release_3.6.4 ...
-warning: Could not find remote branch release_3.6.4 to clone.
-fatal: Remote branch release_3.6.4 not found in upstream origin
+$ ./test.sh /path/to/Green\ 3.6.4\ \(com.greenaddress.greenbits_android_wallet\).apk 95987f9de6b69899c2400af4508befdf9f483b7e
+...
+Results:
+appId:          com.greenaddress.greenbits_android_wallet
+signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
+apkVersionName: 3.6.4
+apkVersionCode: 22000364
+verdict:        reproducible
+appHash:        9a796e5b8986c727e0cd112899c40cdd832c94805aa9a547a7daf95ec5ec9dc5
+commit:         95987f9de6b69899c2400af4508befdf9f483b7e
+
+Diff:
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000364/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000364/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000364/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+
 ```
 
-which unfortunately is not "easily reproducible". Yes, we could now try the
-revision the version was set to 3.6.4 and the two later ones but tagging the
-right version is industry standard for transparency and 
+which is what we want to see to give it the verdict **reproducible**.
+
+This revision was initially not reproducible as the provider
+[didn't tag the release](https://github.com/Blockstream/green_android/issues/124),
+and there isn't a signature as usual on the commit neither.
