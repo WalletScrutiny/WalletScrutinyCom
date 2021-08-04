@@ -1,0 +1,41 @@
+---
+wsId: 
+title: "Webull: Investing & Trading. All Commission Free"
+altTitle: 
+authors:
+- danny
+users: 10000000
+appId: org.dayup.stocks
+released: 
+latestUpdate: 2021-07-26
+version: "7.1.7.27"
+stars: 4.4
+ratings: 137524
+reviews: 42747
+size: 50M
+website: https://www.webull.com/
+repository: 
+issue: 
+icon: org.dayup.stocks.png
+bugbounty: 
+verdict: nowallet
+date: 2021-08-04
+signer: 
+reviewArchive:
+
+
+providerTwitter: https://twitter.com/WebullGlobal
+providerLinkedIn: https://www.linkedin.com/company/webullfinancialllc
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+The app allows you to trade BTC but it is an exchange not a wallet.
+
+From their website:
+> We provide our customers with access to cryptocurrency trading through Apex Crypto. Apex Crypto is not a registered broker-dealer or FINRA member and your cryptocurrency holdings are not FDIC or SIPC insured.
+
+> You can buy and sell cryptocurrency on Webull. However, we do not support transferring crypto into or out of your Webull account at this time.
+
