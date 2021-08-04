@@ -13,13 +13,13 @@ stars: 3.0
 ratings: 84
 reviews: 52
 size: 58M
-website: 
+website: https://www.xapo.com
 repository: 
 issue: 
 icon: com.xapo.bank.png
 bugbounty: 
 verdict: wip
-date: 2021-07-26
+date: 2021-08-04
 signer: 
 reviewArchive:
 
@@ -33,6 +33,10 @@ redirect_from:
 
 ---
 
+
+**Update 2021-08-04**: This app might be a fake app as xapo announced a "Xapo
+Bank" app "soon", with no links to apps on their page. He
+[hope to get answers](https://twitter.com/WalletScrutiny/status/1422777669318545408).
 
 This app was launched in May, yet on "their" website the app is announced as
 "coming soon". We try to figure out if it's fake or actually a product by xapo
