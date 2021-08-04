@@ -10,8 +10,8 @@ released: 2018-05-06
 latestUpdate: 2021-07-30
 version: "2.5.4"
 stars: 4.3
-ratings: 1249
-reviews: 959
+ratings: 1251
+reviews: 962
 size: 44M
 website: https://www.coinhako.com
 repository: 

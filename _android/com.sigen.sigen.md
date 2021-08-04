@@ -9,9 +9,9 @@ appId: com.sigen.sigen
 released: 2020-04-18
 latestUpdate: 2021-07-27
 version: "2.6.5"
-stars: 4.7
-ratings: 18982
-reviews: 9303
+stars: 4.8
+ratings: 19031
+reviews: 9320
 size: 38M
 website: 
 repository: 

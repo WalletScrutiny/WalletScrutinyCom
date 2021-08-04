@@ -8,11 +8,11 @@ appId: com.czzhao.binance
 appCountry: 
 idd: 1436799971
 released: 2018-10-06
-updated: 2021-08-01
-version: "2.33.2"
+updated: 2021-08-02
+version: "2.33.3"
 stars: 4.73245
-reviews: 68295
-size: 359250944
+reviews: 68507
+size: 359218176
 website: https://www.binance.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "Bitreal: Play and Get Bitcoin & Bitcoin Cash"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.starlyware.bitreal
 released: 2021-03-29
 latestUpdate: 2021-07-25

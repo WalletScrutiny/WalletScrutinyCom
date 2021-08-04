@@ -11,8 +11,8 @@ released: 2019-09-30
 latestUpdate: 2021-07-02
 version: "1.4.58"
 stars: 3.1
-ratings: 14517
-reviews: 10521
+ratings: 14526
+reviews: 10529
 size: 28M
 website: https://roqqu.com
 repository: 

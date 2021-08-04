@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.kvadrowallet
 released: 2020-11-16
-latestUpdate: 2021-08-01
+latestUpdate: 2021-08-03
 version: "1.2.10"
 stars: 4.7
 ratings: 44

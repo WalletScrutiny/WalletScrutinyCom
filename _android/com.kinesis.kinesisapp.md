@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.kinesis.kinesisapp
 released: 2020-02-28
-latestUpdate: 2021-07-20
-version: "1.2.40"
-stars: 3.6
-ratings: 311
-reviews: 146
+latestUpdate: 2021-08-03
+version: "1.2.48"
+stars: 3.5
+ratings: 315
+reviews: 150
 size: 34M
 website: 
 repository: 

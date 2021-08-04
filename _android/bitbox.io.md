@@ -9,8 +9,8 @@ appId: bitbox.io
 released: 2019-05-16
 latestUpdate: 2019-07-30
 version: "1.0.4"
-stars: 4.0
-ratings: 13
+stars: 4.1
+ratings: 14
 reviews: 6
 size: 5.6M
 website: 

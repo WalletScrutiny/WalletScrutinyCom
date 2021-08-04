@@ -9,9 +9,9 @@ appId: com.altcoinfantasy.altcoinfantasy
 released: 2018-01-05
 latestUpdate: 2021-01-07
 version: "3.3.6-google"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 2282
+reviews: 1778
 size: 22M
 website: https://altcoinfantasy.com/v3
 repository: 

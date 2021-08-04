@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Coinberry - Buy & Sell Bitcoin (BTC) in Canada"
+title: "Coinberry: Buy & Sell Bitcoin"
 altTitle: 
 authors:
 
 users: 10000
 appId: com.coinberry_mobile
 released: 
-latestUpdate: 2021-07-02
-version: "1.15.8"
+latestUpdate: 2021-08-03
+version: "1.15.9"
 stars: 3.3
 ratings: 980
 reviews: 562
-size: 72M
+size: 73M
 website: 
 repository: 
 issue: 

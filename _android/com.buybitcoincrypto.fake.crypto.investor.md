@@ -4,7 +4,7 @@ title: "Fake Crypto Investor"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.buybitcoincrypto.fake.crypto.investor
 released: 2021-06-24
 latestUpdate: 2021-06-24

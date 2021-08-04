@@ -4,7 +4,7 @@ title: "ArowEx - Crypto/Bitcoin Trading Exchange"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: arowex.com
 released: 2021-07-16
 latestUpdate: 2021-07-17

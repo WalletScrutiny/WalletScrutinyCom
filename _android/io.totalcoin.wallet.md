@@ -4,14 +4,14 @@ title: "Bitcoin Wallet Totalcoin - Buy and Sell Bitcoin"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: io.totalcoin.wallet
 released: 2018-04-01
 latestUpdate: 2021-06-19
 version: "4.7.0"
 stars: 4.6
-ratings: 7302
-reviews: 3438
+ratings: 7312
+reviews: 3447
 size: 11M
 website: http://totalcoin.io
 repository: 

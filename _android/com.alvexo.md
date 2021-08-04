@@ -9,9 +9,9 @@ appId: com.alvexo
 released: 2018-07-13
 latestUpdate: 2021-07-29
 version: "3.0.43"
-stars: 4.4
-ratings: 497
-reviews: 277
+stars: 4.3
+ratings: 500
+reviews: 280
 size: 17M
 website: 
 repository: 

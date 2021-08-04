@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.quantfury
 released: 2018-11-26
-latestUpdate: 2021-08-02
-version: "v1.7.1789"
+latestUpdate: 2021-08-03
+version: "v1.7.1789.1"
 stars: 4.6
-ratings: 7182
-reviews: 2106
+ratings: 7186
+reviews: 2110
 size: 49M
 website: 
 repository: 

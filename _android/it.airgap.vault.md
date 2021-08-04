@@ -23,7 +23,7 @@ date: 2021-08-03
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2021-04-24
-  version: "3.7.0" 
+  version: "3.7.0"
   appHash: 57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f
   gitRevision: f24d668889031ca802d7113153224d8435b58892
   verdict: reproducible
