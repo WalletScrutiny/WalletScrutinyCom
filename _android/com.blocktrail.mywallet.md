@@ -11,7 +11,7 @@ latestUpdate: 2019-04-03
 version: "4.4.7"
 stars: 3.4
 ratings: 8183
-reviews: 3879
+reviews: 3878
 size: 13M
 website: https://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet

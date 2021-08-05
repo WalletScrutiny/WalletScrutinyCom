@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Zerodha Sensex Trading BTC,ETH:ATM option"
+title: "Bitcoin Trading Online Investing :ATM Option"
 altTitle: 
 authors:
 

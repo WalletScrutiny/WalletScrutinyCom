@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Ecos DeFi Platform"
+title: "ECOS: invest in crypto assets"
 altTitle: 
 authors:
 

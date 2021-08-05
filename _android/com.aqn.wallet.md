@@ -9,9 +9,9 @@ appId: com.aqn.wallet
 released: 2021-03-05
 latestUpdate: 2021-03-05
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.2
+ratings: 6
+reviews: 6
 size: 2.0M
 website: 
 repository: 

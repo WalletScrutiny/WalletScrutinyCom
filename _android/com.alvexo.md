@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.alvexo
 released: 2018-07-13
-latestUpdate: 2021-07-29
-version: "3.0.43"
-stars: 4.3
-ratings: 500
-reviews: 280
+latestUpdate: 2021-08-03
+version: "3.0.46"
+stars: 4.2
+ratings: 537
+reviews: 291
 size: 17M
 website: 
 repository: 

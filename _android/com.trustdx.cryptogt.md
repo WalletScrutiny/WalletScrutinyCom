@@ -4,7 +4,7 @@ title: "CryptoGT : Trade cryptocurrency, bitcoin"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.trustdx.cryptogt
 released: 2021-07-02
 latestUpdate: 2021-07-19

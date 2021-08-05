@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.pillarproject.wallet
 released: 2018-12-13
-latestUpdate: 2021-07-24
-version: "3.4.1"
+latestUpdate: 2021-08-04
+version: "3.4.3"
 stars: 3.4
 ratings: 433
 reviews: 233
-size: 50M
+size: 51M
 website: https://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

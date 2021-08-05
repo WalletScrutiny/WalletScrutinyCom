@@ -4,14 +4,14 @@ title: "Savl Bitcoin wallet: BTC, ETH, crypto exchange"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.savl
 released: 2018-07-24
 latestUpdate: 2021-06-23
 version: "2.6.0"
 stars: 4.9
-ratings: 543
-reviews: 375
+ratings: 542
+reviews: 374
 size: 132M
 website: 
 repository: 

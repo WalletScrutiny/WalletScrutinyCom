@@ -4,7 +4,7 @@ title: "Matrixport: Get More From Your Crypto"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.matrixport.mark
 released: 2019-10-23
 latestUpdate: 2021-07-29

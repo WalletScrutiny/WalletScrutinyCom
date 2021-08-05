@@ -9,9 +9,9 @@ appId: com.cointiger.ex
 released: 2020-07-23
 latestUpdate: 2021-08-03
 version: "5.0.0.2"
-stars: 4.9
-ratings: 1686
-reviews: 857
+stars: 5.0
+ratings: 1971
+reviews: 861
 size: 42M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.btcc.hy
 released: 2020-08-04
 latestUpdate: 2021-07-30
 version: "5.4.0"
-stars: 4.6
-ratings: 173
-reviews: 58
+stars: 4.5
+ratings: 174
+reviews: 59
 size: 47M
 website: 
 repository: 
