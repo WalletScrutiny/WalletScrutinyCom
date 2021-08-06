@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Кошелек. Криптовалюты Биткоин, Эфириум, TON"
+title: "Koshelek. Cryptocurrencies Bitcoin, Ethereum, TON"
 altTitle: 
 authors:
 

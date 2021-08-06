@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: global.bithumb.android
 released: 2019-07-05
-latestUpdate: 2021-05-19
-version: "2.6.23"
-stars: 2.4
-ratings: 2740
-reviews: 1995
-size: 19M
+latestUpdate: 2021-08-05
+version: "2.6.24"
+stars: 2.5
+ratings: 2742
+reviews: 1996
+size: 22M
 website: 
 repository: 
 issue: 

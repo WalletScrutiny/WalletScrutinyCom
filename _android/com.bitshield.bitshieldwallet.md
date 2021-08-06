@@ -10,8 +10,8 @@ released: 2020-06-09
 latestUpdate: 2021-04-12
 version: "1.28"
 stars: 5.0
-ratings: 1697
-reviews: 1214
+ratings: 1699
+reviews: 1216
 size: 65M
 website: https://bitshieldwallet.com
 repository: 

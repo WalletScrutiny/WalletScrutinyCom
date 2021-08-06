@@ -9,9 +9,9 @@ appId: org.artr.wallet
 released: 
 latestUpdate: 2021-07-09
 version: "1.6"
-stars: 4.8
-ratings: 1352
-reviews: 701
+stars: 4.6
+ratings: 1360
+reviews: 708
 size: 45M
 website: 
 repository: 

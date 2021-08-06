@@ -9,9 +9,9 @@ appId: com.app.bitnob
 released: 2020-05-25
 latestUpdate: 2021-07-27
 version: "1.0.56"
-stars: 4.1
-ratings: 160
-reviews: 97
+stars: 4.2
+ratings: 165
+reviews: 104
 size: 33M
 website: 
 repository: 

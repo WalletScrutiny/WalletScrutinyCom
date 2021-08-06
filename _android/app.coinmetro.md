@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinMetro: Way Beyond the Best Crypto Exchange"
+title: "CoinMetro"
 altTitle: 
 authors:
 

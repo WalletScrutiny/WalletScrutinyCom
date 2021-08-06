@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.enjin.mobile.wallet
 released: 2018-01-01
-latestUpdate: 2021-06-17
-version: "1.15.0-r"
+latestUpdate: 2021-08-04
+version: "1.15.1-r"
 stars: 4.6
-ratings: 9152
-reviews: 5269
+ratings: 9166
+reviews: 5278
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 

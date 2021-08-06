@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: online.figcoin.figvault
 released: 2020-12-23
-latestUpdate: 2021-08-03
-version: "0.7.0"
-stars: 4.4
-ratings: 34
+latestUpdate: 2021-08-05
+version: "0.9.0"
+stars: 4.5
+ratings: 35
 reviews: 25
 size: 9.9M
 website: 

@@ -9,9 +9,9 @@ appId: com.vouchermoneywallet
 released: 2020-12-15
 latestUpdate: 2021-03-03
 version: "1.38.1"
-stars: 4.4
-ratings: 408
-reviews: 109
+stars: 4.3
+ratings: 414
+reviews: 114
 size: 52M
 website: 
 repository: 

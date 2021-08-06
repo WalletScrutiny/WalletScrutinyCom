@@ -9,8 +9,8 @@ appId: com.cloudmining.mineresp
 released: 2021-06-18
 latestUpdate: 2021-06-18
 version: "1.0"
-stars: 2.3
-ratings: 18
+stars: 2.5
+ratings: 19
 reviews: 13
 size: 3.5M
 website: 

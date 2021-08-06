@@ -4,14 +4,14 @@ title: "Bityard Crypto Trading"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.bityard.us2
 released: 2021-03-31
 latestUpdate: 2021-03-31
 version: "1.0.2"
 stars: 2.9
-ratings: 48
-reviews: 26
+ratings: 49
+reviews: 27
 size: 4.4M
 website: 
 repository: 

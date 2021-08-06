@@ -9,9 +9,9 @@ appId: com.hagglex.hagglex
 released: 2021-03-17
 latestUpdate: 2021-06-29
 version: "1.0.2"
-stars: 4.6
-ratings: 2166
-reviews: 2016
+stars: 4.0
+ratings: 2168
+reviews: 2018
 size: 47M
 website: 
 repository: 

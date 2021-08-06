@@ -9,9 +9,9 @@ appId: loadng.com.loadng
 released: 2020-05-02
 latestUpdate: 2021-04-15
 version: "Varies with device"
-stars: 4.2
-ratings: 159
-reviews: 116
+stars: 4.3
+ratings: 161
+reviews: 118
 size: Varies with device
 website: 
 repository: 

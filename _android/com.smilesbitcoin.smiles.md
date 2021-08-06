@@ -4,14 +4,14 @@ title: "sMiles"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.smilesbitcoin.smiles
 released: 
 latestUpdate: 2021-07-07
 version: "1.109"
-stars: 2.2
-ratings: 56
-reviews: 45
+stars: 2.4
+ratings: 60
+reviews: 47
 size: 71M
 website: 
 repository: 

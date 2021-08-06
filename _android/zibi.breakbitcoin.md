@@ -4,7 +4,7 @@ title: "Break Bitcoin - find money for free"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: zibi.breakbitcoin
 released: 2021-03-17
 latestUpdate: 2021-03-17

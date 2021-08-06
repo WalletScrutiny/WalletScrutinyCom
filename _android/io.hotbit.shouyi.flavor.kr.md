@@ -9,8 +9,8 @@ appId: io.hotbit.shouyi.flavor.kr
 released: 2020-07-07
 latestUpdate: 2021-07-22
 version: "1.0.57"
-stars: 3.4
-ratings: 430
+stars: 3.5
+ratings: 432
 reviews: 178
 size: 6.3M
 website: 

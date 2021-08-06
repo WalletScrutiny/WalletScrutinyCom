@@ -1,6 +1,6 @@
 ---
 wsId: Talken
-title: "Talken -  Bitcoin, Ethereum, Community, Wallet"
+title: "Talken -   Multi-chain NFT Wallet & Marketplace"
 altTitle: 
 authors:
 - kiwilamb

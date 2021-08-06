@@ -9,9 +9,9 @@ appId: com.xapo.bank
 released: 2021-05-27
 latestUpdate: 2021-07-21
 version: "7.3.0"
-stars: 3.0
-ratings: 84
-reviews: 52
+stars: 2.9
+ratings: 89
+reviews: 57
 size: 58M
 website: https://www.xapo.com
 repository: 

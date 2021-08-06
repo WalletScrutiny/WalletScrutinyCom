@@ -4,7 +4,7 @@ title: "Treen Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.app.treenwallet
 released: 2021-07-01
 latestUpdate: 2021-08-02

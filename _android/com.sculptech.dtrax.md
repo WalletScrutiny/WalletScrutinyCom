@@ -9,9 +9,9 @@ appId: com.sculptech.dtrax
 released: 2019-01-24
 latestUpdate: 2020-05-24
 version: "1.2.2"
-stars: 3.2
-ratings: 365
-reviews: 278
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
 website: 
 repository: 
