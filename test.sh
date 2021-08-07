@@ -71,7 +71,7 @@ usage() {
        test.sh - test if apk can be built from source
 
 SYNOPSIS
-       test.sh -a downloadedApk -r [revisionOverride] -n
+       test.sh -a downloadedApk [-r revisionOverride] [-n]
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
