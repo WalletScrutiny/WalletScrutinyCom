@@ -2,25 +2,37 @@
 
 set -x
 
+# Global Constants
+# ================
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
 TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
-downloadedApk="$1"
-# if the desired version is not tagged, the script can be run with a revision
-# override as second parameter.
-if [ -n "$2" ]; then revisionOverride="$2"; fi
+wsContainer="walletscrutiny/android:5"
+takeUserActionCommand='echo "CTRL-D to continue";
+  bash'
+
+# Read script arguments and flags
+# ===============================
+
+while [[ "$#" -gt 0 ]]; do
+  case $1 in
+    -a|--apk) downloadedApk="$2"; shift ;;
+    # if the desired version is not tagged, the script can be run with a revision
+    # override as second parameter.
+    -r|--revision-override) revisionOverride="$2"; shift ;;
+    -n|--not-interactive) takeUserActionCommand='' ;;
+    *) echo "Unknown argument: $1"; exit 1 ;;
+  esac
+  shift
+done
+
 # make sure path is absolute
 if ! [[ $downloadedApk =~ ^/.* ]]; then
   downloadedApk="$PWD/$downloadedApk"
 fi
-wsContainer="walletscrutiny/android:5"
 
-if [[ $* == *--not-interactive* ]]
-then
-  takeUserActionCommand=''
-else
-  takeUserActionCommand='echo "CTRL-D to continue";
-    bash'
-fi
+# Functions
+# =========
 
 containerApktool() {
   targetFolder=$1
@@ -59,13 +71,14 @@ usage() {
        test.sh - test if apk can be built from source
 
 SYNOPSIS
-       test.sh downloadedApk [revisionOverride]
+       test.sh -a downloadedApk [-r revisionOverride] [-n]
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
-       
-       downloadedApk    The apk file we want to test.
-       revisionOverride git revision id to use if tag is not found'
+
+       -a|--apk The apk file we want to test.
+       -r|--revision-override git revision id to use if tag is not found
+       -n|--not-interactive The script will not ask for user actions'
 }
 
 if [ ! -f "$downloadedApk" ]; then
