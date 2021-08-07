@@ -50,7 +50,7 @@ What we do not do
   device brand
   and even individual users. You would have to compare the fingerprint of the
   binary on your device with the one reported here. For hardware wallets it's even
-  harder to make general statements about the device you hold in handsf.
+  harder to make general statements about the device you hold in hands.
 
 
 Our manual review goes as follows:
