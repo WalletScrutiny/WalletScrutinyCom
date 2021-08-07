@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.xapo.png
 bugbounty: 
-verdict: custodial
-date: 2020-10-12
+verdict: defunct
+date: 2021-08-06
 signer: 
 reviewArchive:
+- date: 2021-05-24
+  version: "5.3.4"
+  appHash: 
+  gitRevision: 8f9eb9d0591a6808b2ba47c5874c317a73f1ebd6
+  verdict: custodial
 
 
 providerTwitter: xapo
@@ -36,6 +41,9 @@ redirect_from:
   - /posts/com.xapo/
 ---
 
+
+**Update 2021-08-02**: Xapo discontinued this app to migrate its users to 
+{% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.
 
 Xapo describes itself
 as a wallet:
