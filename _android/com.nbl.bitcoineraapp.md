@@ -9,9 +9,9 @@ appId: com.nbl.bitcoineraapp
 released: 
 latestUpdate: 2021-02-10
 version: "1.0.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.2
+ratings: 43
+reviews: 39
 size: 17M
 website: 
 repository: 

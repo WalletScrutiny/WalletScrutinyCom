@@ -4,7 +4,7 @@ title: "THE MOST SECURE CRYPTOCURRENCY WALLET"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.crypall.offlinecryptowallet
 released: 2019-06-12
 latestUpdate: 2019-07-12

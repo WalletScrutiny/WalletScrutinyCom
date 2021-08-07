@@ -9,9 +9,9 @@ appId: app.vinet
 released: 2020-05-18
 latestUpdate: 2021-04-25
 version: "10.1"
-stars: 4.5
-ratings: 35
-reviews: 33
+stars: 4.7
+ratings: 33
+reviews: 31
 size: 9.2M
 website: 
 repository: 

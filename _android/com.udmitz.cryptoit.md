@@ -9,8 +9,8 @@ appId: com.udmitz.cryptoit
 released: 2021-06-13
 latestUpdate: 2021-06-13
 version: "1.1.1"
-stars: 5.0
-ratings: 5
+stars: 0.0
+ratings: 
 reviews: 
 size: 61M
 website: 

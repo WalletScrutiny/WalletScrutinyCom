@@ -10,8 +10,8 @@ idd: 1475631606
 released: 2019-08-21
 updated: 2021-08-02
 version: "4.5.0"
-stars: 4
-reviews: 82
+stars: 3.9759
+reviews: 83
 size: 50023424
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet

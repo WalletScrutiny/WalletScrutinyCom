@@ -4,7 +4,7 @@ title: "Buy & Sell Cryptocurrency (Crypto Exchange App)"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.hrghazali.buyandsellcryptocurrencyapp
 released: 2021-07-24
 latestUpdate: 2021-07-24

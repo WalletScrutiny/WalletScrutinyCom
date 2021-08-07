@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: co.id.dompet.btc.indonesia
 released: 2017-01-15
-latestUpdate: 2020-12-08
+latestUpdate: 2021-08-05
 version: "Varies with device"
 stars: 3.3
 ratings: 4691

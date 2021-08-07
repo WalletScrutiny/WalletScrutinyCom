@@ -4,14 +4,14 @@ title: "Xapo Bank"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.xapo.bank
 released: 2021-05-27
 latestUpdate: 2021-07-21
 version: "7.3.0"
 stars: 2.9
-ratings: 89
-reviews: 57
+ratings: 93
+reviews: 60
 size: 58M
 website: https://www.xapo.com
 repository: 

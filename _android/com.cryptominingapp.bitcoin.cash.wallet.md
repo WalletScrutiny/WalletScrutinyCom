@@ -4,7 +4,7 @@ title: "Bitcoin Cash Wallet"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptominingapp.bitcoin.cash.wallet
 released: 2021-07-19
 latestUpdate: 2021-07-19

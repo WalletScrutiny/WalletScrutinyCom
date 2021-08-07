@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "digitalexchange.id -  Buy & Sell Digital Assets"
+title: "digitalexchange.id -  Buy & Sell Crypto Assets"
 altTitle: 
 authors:
 
