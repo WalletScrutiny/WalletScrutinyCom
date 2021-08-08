@@ -97,7 +97,7 @@ containerApktool $fromPlayFolder "$downloadedApk" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
-workDir="/tmp/test$appId"
+workDir="/tmp/test_$appId"
 
 if [ -z $appId ]; then
   echo "appId could not be tetermined"
@@ -121,9 +121,9 @@ echo
 prepare() {
   echo "Testing $appId from $repo revision $tag (revisionOverride: '$revisionOverride')..."
   # cleanup
-  rm -rf /tmp/test$appId || exit 1
+  rm -rf "$workDir" || exit 1
   # get uinque folder
-  mkdir $workDir
+  mkdir -p $workDir
   cd $workDir
   # clone
   echo "Trying to clone …"
