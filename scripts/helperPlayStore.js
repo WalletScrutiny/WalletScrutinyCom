@@ -124,7 +124,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version }"
+version: "${ version.replace(/["\\]*/g, "") }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}

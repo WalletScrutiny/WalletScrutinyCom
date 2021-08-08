@@ -3,7 +3,8 @@ wsId:
 title: "Blockchain India"
 altTitle: 
 authors:
-
+- emanuel
+- leo
 users: 100
 appId: com.crypto.blockchain
 released: 2021-06-22
@@ -18,8 +19,8 @@ repository:
 issue: 
 icon: com.crypto.blockchain.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: fake
+date: 2021-08-08
 signer: 
 reviewArchive:
 
@@ -34,3 +35,4 @@ redirect_from:
 ---
 
 
+This looks like a fake {% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}.

@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Smart Bot"
+altTitle: 
+authors:
+
+users: 1000
+appId: com.vipsmartbot.vsb
+released: 2020-11-17
+latestUpdate: 2020-11-18
+version: "0.0.1"
+stars: 3.6
+ratings: 19
+reviews: 13
+size: 4.6M
+website: 
+repository: 
+issue: 
+icon: com.vipsmartbot.vsb.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

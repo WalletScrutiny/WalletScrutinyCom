@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Bidesk App - Crypto Trading"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.bideskcom.app
+released: 2020-06-13
+latestUpdate: 2021-03-27
+version: "3.4.1"
+stars: 3.3
+ratings: 68
+reviews: 43
+size: 19M
+website: 
+repository: 
+issue: 
+icon: com.bideskcom.app.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
