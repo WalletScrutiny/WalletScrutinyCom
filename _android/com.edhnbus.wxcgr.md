@@ -19,11 +19,15 @@ repository:
 issue: 
 icon: com.edhnbus.wxcgr.png
 bugbounty: 
-verdict: fake
-date: 2021-08-02
+verdict: defunct
+date: 2021-08-08
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "0.92"
+  appHash: 
+  gitRevision: 52858b8264017c91d1a62d3ae4fcd1fc9946be18
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
