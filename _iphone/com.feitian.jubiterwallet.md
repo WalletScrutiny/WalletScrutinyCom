@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: jubiter
 title: "JuBiter Wallet 2.0"
 altTitle: 
 authors:
-
+- leo
 appId: com.feitian.jubiterwallet
 appCountry: 
 idd: 1518743276
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.feitian.jubiterwallet.jpg
 bugbounty: 
-verdict: wip
-date: 2021-05-22
+verdict: nosource
+date: 2021-09-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: JuBiterWallet
+providerLinkedIn: jubiter-wallet
+providerFacebook: JuBiterWallet
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}
