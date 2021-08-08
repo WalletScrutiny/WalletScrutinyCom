@@ -9,9 +9,9 @@ appId: com.panthelope.cryptorize.mobile.cryptorize
 released: 2020-11-14
 latestUpdate: 2021-05-30
 version: "2.0.0"
-stars: 3.6
-ratings: 29
-reviews: 16
+stars: 3.5
+ratings: 30
+reviews: 17
 size: 11M
 website: 
 repository: 

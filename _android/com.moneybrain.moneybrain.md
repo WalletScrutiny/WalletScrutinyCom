@@ -9,9 +9,9 @@ appId: com.moneybrain.moneybrain
 released: 2019-10-17
 latestUpdate: 2021-06-03
 version: "1.1.56"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 9
+reviews: 5
 size: 9.4M
 website: 
 repository: 

@@ -8,10 +8,10 @@ users: 1000000
 appId: com.EmasDigi
 released: 2018-01-21
 latestUpdate: 2021-08-02
-version: "4.5.2"
-stars: 4.2
-ratings: 12288
-reviews: 7908
+version: "4.5.3"
+stars: 4.3
+ratings: 12291
+reviews: 7898
 size: 11M
 website: 
 repository: 

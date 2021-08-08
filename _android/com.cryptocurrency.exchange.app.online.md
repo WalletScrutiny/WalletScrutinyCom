@@ -9,9 +9,9 @@ appId: com.cryptocurrency.exchange.app.online
 released: 2021-05-20
 latestUpdate: 2021-05-20
 version: "1.0"
-stars: 4.8
-ratings: 40
-reviews: 39
+stars: 4.7
+ratings: 43
+reviews: 42
 size: 5.8M
 website: 
 repository: 

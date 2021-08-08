@@ -10,8 +10,8 @@ idd: 1334702542
 released: 2018-01-19
 updated: 2021-07-27
 version: "4.2.4"
-stars: 3.75
-reviews: 8
+stars: 3.44444
+reviews: 9
 size: 135631872
 website: http://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

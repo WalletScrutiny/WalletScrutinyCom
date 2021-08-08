@@ -9,9 +9,9 @@ appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
 released: 2019-01-04
 latestUpdate: 2019-01-04
 version: "1.1"
-stars: 4.1
-ratings: 7
-reviews: 6
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.5M
 website: 
 repository: 

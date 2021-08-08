@@ -9,9 +9,9 @@ appId: com.cakedefi.app
 released: 2021-06-16
 latestUpdate: 2021-08-04
 version: "1.3.1"
-stars: 4.2
-ratings: 67
-reviews: 43
+stars: 4.1
+ratings: 72
+reviews: 48
 size: 34M
 website: 
 repository: 

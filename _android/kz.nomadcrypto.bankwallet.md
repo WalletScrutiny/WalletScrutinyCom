@@ -4,7 +4,7 @@ title: "Nomad Wallet - Bitcoin & crypto wallet"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: kz.nomadcrypto.bankwallet
 released: 2021-07-23
 latestUpdate: 2021-07-23

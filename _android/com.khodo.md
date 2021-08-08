@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.khodo
 released: 2020-10-02
-latestUpdate: 2021-07-18
-version: "1.1.7"
+latestUpdate: 2021-08-07
+version: "2.0.0"
 stars: 3.6
 ratings: 46
 reviews: 36
-size: 53M
+size: 60M
 website: 
 repository: 
 issue: 

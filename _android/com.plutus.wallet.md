@@ -10,8 +10,8 @@ released: 2015-03-04
 latestUpdate: 2021-07-30
 version: "Varies with device"
 stars: 4.3
-ratings: 23870
-reviews: 7682
+ratings: 23900
+reviews: 7686
 size: Varies with device
 website: https://www.abra.com
 repository: 

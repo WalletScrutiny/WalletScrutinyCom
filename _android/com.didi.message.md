@@ -4,14 +4,14 @@ title: "DiDi-Bitcoin Crypto Wallet Zerodha Tradingview"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.didi.message
 released: 2020-04-30
 latestUpdate: 2021-07-27
 version: "1.8.0"
-stars: 4.6
-ratings: 364
-reviews: 179
+stars: 4.5
+ratings: 373
+reviews: 183
 size: 78M
 website: 
 repository: 

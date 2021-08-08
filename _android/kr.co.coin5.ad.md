@@ -4,7 +4,7 @@ title: "BISPEX스코어-비스펙스분석 비트코인 마진거래 재테크�
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: kr.co.coin5.ad
 released: 2020-06-10
 latestUpdate: 2020-06-11
