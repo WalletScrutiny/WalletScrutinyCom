@@ -1,5 +1,5 @@
 ---
-title: "Cobo Vault - Essential"
+title: "Keystone"
 appId: cobovaultessential
 authors:
 - kiwilamb
@@ -9,25 +9,28 @@ latestUpdate:
 version:
 dimensions: 
 weight: 
-website: https://cobo.com/hardware-wallet/cobo-vault
+website: https://keyst.one/
 shop: 
-company: Cobo
-companywebsite: https://cobo.com/
+company: Keystone
+companywebsite: https://shop.keyst.one/products/keystone-essential
 country: CH
 price: 119USD
-repository: https://github.com/CoboVault
+repository: https://github.com/KeystoneHQ
 issue:
 icon: cobovaultessential.png
 bugbounty:
 verdict: wip
-date: 2021-07-07
+date: 2021-08-08
 signer:
 reviewArchive:
 
 
-providerTwitter: Cobo_Wallet
+providerTwitter: KeystoneWallet
 providerLinkedIn: 
-providerFacebook: coboOfficial
+providerFacebook: 
 providerReddit: 
 ---
+
+Cobovault has been renamed to Keystone, previously product were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
+
 
