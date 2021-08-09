@@ -29,7 +29,7 @@ function getWidgetDetails(wallet) {
     <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
     <tr><td>Links</td><td>
     ${ wallet.folder == "iphone"
-      ? `<a target="_blank" href="https://apps.apple.com/us/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
+      ? `<a target="_blank" href="https://apps.apple.com/${wallet.appCountry || "us"}/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
       : wallet.folder == "android"
       ? `<a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
       : ``
