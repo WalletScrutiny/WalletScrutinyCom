@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Coinmotion"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.coinmotion
+released: 2020-08-20
+latestUpdate: 2021-06-22
+version: "1.4.2"
+stars: 3.4
+ratings: 90
+reviews: 54
+size: 33M
+website: 
+repository: 
+issue: 
+icon: com.coinmotion.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

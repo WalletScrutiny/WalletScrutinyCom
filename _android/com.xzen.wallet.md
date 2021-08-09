@@ -20,7 +20,6 @@ icon: com.xzen.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-05-15
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-05-29

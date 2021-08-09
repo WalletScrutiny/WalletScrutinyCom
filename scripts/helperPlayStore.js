@@ -92,7 +92,7 @@ function writeResult(app, header, iconExtension, body) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   var verdict = header.verdict
-  if ( app.verdict == "" && app.minInstalls < 1000 ) {
+  if ( (header.verdict == "" || header.verdict == "wip" ) && app.minInstalls < 1000 ) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
@@ -124,7 +124,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version }"
+version: "${ version.replace(/["\\]*/g, "") }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}

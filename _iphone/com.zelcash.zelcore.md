@@ -10,15 +10,15 @@ idd: 1436296839
 released: 2018-09-23
 updated: 2021-07-24
 version: "v4.14.1"
-stars: 4.33898
-reviews: 59
+stars: 4.32759
+reviews: 58
 size: 56004608
 website: https://zel.network/zelcore
 repository: 
 issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-22
 signer: 
 reviewArchive:

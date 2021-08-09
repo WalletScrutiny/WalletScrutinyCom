@@ -18,7 +18,6 @@ icon: org.flarewallet.flare.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-02-17
-reviewStale: false
 signer: 
 reviewArchive:
 

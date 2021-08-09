@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-07-26
 version: "7.1.7.27"
 stars: 4.4
-ratings: 137524
-reviews: 42747
+ratings: 138146
+reviews: 42876
 size: 50M
 website: https://www.webull.com/
 repository: 
@@ -24,8 +24,8 @@ signer:
 reviewArchive:
 
 
-providerTwitter: https://twitter.com/WebullGlobal
-providerLinkedIn: https://www.linkedin.com/company/webullfinancialllc
+providerTwitter: WebullGlobal
+providerLinkedIn: webullfinancialllc
 providerFacebook: 
 providerReddit: 
 

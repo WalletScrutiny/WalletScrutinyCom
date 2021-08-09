@@ -82,3 +82,10 @@ function resizeLabelBold() {
 }
 
 resizeLabelBold()
+
+window.addEventListener('popstate', () => {
+  if(lastId != "") {
+    toggleApp(lastId, false)
+    return false
+  }
+})

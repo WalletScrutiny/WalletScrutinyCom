@@ -18,7 +18,6 @@ icon: com.blockchain.android.png
 bugbounty: 
 verdict: defunct
 date: 2021-01-15
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-11-28

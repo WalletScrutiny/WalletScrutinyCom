@@ -18,7 +18,6 @@ icon: com.chameleon.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2020-12-08
-reviewStale: false
 signer: 
 reviewArchive:
 

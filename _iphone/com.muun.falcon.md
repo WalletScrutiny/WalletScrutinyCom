@@ -8,18 +8,18 @@ appId: com.muun.falcon
 appCountry: 
 idd: 1482037683
 released: 2019-10-11
-updated: 2021-06-29
-version: "2.3.3"
-stars: 4.43182
-reviews: 44
-size: 81022976
+updated: 2021-07-30
+version: "2.3.4"
+stars: 4.38298
+reviews: 47
+size: 78086144
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
 icon: com.muun.falcon.jpg
 bugbounty: 
-verdict: fewusers
-date: 2020-12-21
+verdict: nonverifiable
+date: 2021-07-30
 signer: 
 reviewArchive:
 
@@ -32,6 +32,12 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-07-30**: While the Android version made some attempts at
+reproducibility, the iPhone version, which is in a different code repository,
+doesn't claim to be reproducible.
+
+# Old Analysis
 
 This provider claims:
 

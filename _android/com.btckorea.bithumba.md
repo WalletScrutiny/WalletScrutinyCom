@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.btckorea.bithumba.png
 bugbounty: 
-verdict: custodial
-date: 2021-02-19
+verdict: defunct
+date: 2021-08-04
 signer: 
 reviewArchive:
-
+- date: 2021-02-19
+  version: "1.1.1"
+  appHash: 
+  gitRevision: 8770b9bdf24645be6c837baa253b07d13a2b2ce8
+  verdict: custodial
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 
@@ -34,7 +38,14 @@ redirect_from:
 ---
 
 
-**Update 2021-07-22**: Currently the app is not on the Play Store.
+**Update 2021-08-04**: Since 2021-07-22 the app is not on Play Store anymore.
+We don't know any details but also noticed that
+**"Bithumb Global-Bitcoin, crypto exchange  & wallet"** renamed to
+{% include walletLink.html wallet='android/global.bithumb.android' verdict='true' %}
+which might or might not have to do with {{ page.title }} which has the appId
+`com.btckorea.bithumba`.
+
+# Old Analysis
 
 This app appears to be the korean version of
 {% include walletLink.html wallet='android/com.btckorea.bithumb' %}. Google Translate doesn't reveal any

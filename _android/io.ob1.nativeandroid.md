@@ -19,7 +19,6 @@ icon: io.ob1.nativeandroid.png
 bugbounty: 
 verdict: defunct
 date: 2021-01-23
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-08-27

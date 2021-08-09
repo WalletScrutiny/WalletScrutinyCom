@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Bitcoin Future"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.bitcoinfuture.bitcoinfuture
+released: 2019-05-05
+latestUpdate: 2019-10-31
+version: "1.2"
+stars: 1.8
+ratings: 30
+reviews: 26
+size: 1.3M
+website: 
+repository: 
+issue: 
+icon: com.bitcoinfuture.bitcoinfuture.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

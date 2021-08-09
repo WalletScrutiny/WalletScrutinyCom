@@ -18,7 +18,6 @@ icon: com.buysellhodl.png
 bugbounty: 
 verdict: defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

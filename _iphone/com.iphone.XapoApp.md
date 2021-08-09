@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.iphone.XapoApp.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-05-24
+verdict: defunct
+date: 2021-08-06
 signer: 
 reviewArchive:
-
+- date: 2021-05-24
+  version: "6.12.0"
+  appHash: 
+  gitRevision: 8f9eb9d0591a6808b2ba47c5874c317a73f1ebd6
+  verdict: custodial
 
 providerTwitter: xapo
 providerLinkedIn: 
@@ -32,6 +36,9 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-08-02**: Xapo discontinued this app to migrate its users to the
+Apple version of {% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.
 
 Xapo describes itself as a wallet:
 

@@ -3,7 +3,7 @@ title: No source for current release found
 color: '#d33100'
 redflag: true
 message: >
-  Without public source of the reviewed release available, this app cannot be
+  Without public source of the reviewed release available, this product cannot be
   verified!
 question: Is the source code publicly available?
 details: >
@@ -33,10 +33,10 @@ details: >
   protection except the provider's word.
 
 
-  **"Up to date" strictly means that any instance of the app being updated
+  **"Up to date" strictly means that any instance of the product being updated
   without the source code being updated counts as closed source.** This puts the
   burden on the provider to always first release the source code before
-  releasing the app's update. This paragraph is a clarification to our rules
+  releasing the product's update. This paragraph is a clarification to our rules
   following
   [a little poll](https://twitter.com/WalletScrutiny/status/1408933028227956736).
 

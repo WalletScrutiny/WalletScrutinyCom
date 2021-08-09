@@ -18,7 +18,6 @@ icon: co.nayuta.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2019-12-29
-reviewStale: false
 signer: 
 reviewArchive:
 

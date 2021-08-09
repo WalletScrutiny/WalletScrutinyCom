@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "COSS Wallet: Crypto One Stop Solution"
+altTitle: 
+authors:
+
+users: 10000
+appId: io.arax.cryptowallet
+released: 2019-01-15
+latestUpdate: 2019-11-25
+version: "Varies with device"
+stars: 3.6
+ratings: 223
+reviews: 157
+size: Varies with device
+website: 
+repository: 
+issue: 
+icon: io.arax.cryptowallet.jpg
+bugbounty: 
+verdict: wip
+date: 2021-08-02
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
