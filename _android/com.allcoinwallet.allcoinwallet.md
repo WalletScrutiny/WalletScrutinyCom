@@ -19,7 +19,7 @@ issue:
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
 verdict: defunct
-date: 2021-07-31
+date: 2021-08-09
 signer: 
 reviewArchive:
 
