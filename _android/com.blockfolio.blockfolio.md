@@ -43,7 +43,14 @@ redirect_from:
 
 **Update 2021-08-09**: By now this app clearly sounds like an exchange that lets
 you buy, hold, send and receive BTC but as an exchange it's certainly custodial
-and thus **not verifiable**.
+and thus **not verifiable**. There are a total of 6 related apps that all appear to belong to the same "FTX":
+
+* {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='iphone/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftx' %}
+* {% include walletLink.html wallet='iphone/org.reactjs.native.example.FTXMobile.FTX' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftxus' %}
+* {% include walletLink.html wallet='iphone/com.ftx.FTXMobile.FTXUS' %}
 
 # Old Analysis
 

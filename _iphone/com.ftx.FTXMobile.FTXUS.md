@@ -1,22 +1,22 @@
 ---
-wsId: blockfolio
-title: "FTX (formerly Blockfolio)"
+wsId: ftxus
+title: "FTX.US Pro"
 altTitle: 
 authors:
 - leo
-appId: com.blockfolio.blockfolio
+appId: com.ftx.FTXMobile.FTXUS
 appCountry: us
-idd: 1095564685
-released: 2017-01-05
-updated: 2021-08-05
-version: "4.0.1"
-stars: 4.81994
-reviews: 44746
-size: 59086848
-website: https://blockfolio.com
+idd: 1512655474
+released: 2020-05-21
+updated: 2021-07-31
+version: "1.1.3"
+stars: 4.08911
+reviews: 101
+size: 51066880
+website: 
 repository: 
 issue: 
-icon: com.blockfolio.blockfolio.jpg
+icon: com.ftx.FTXMobile.FTXUS.jpg
 bugbounty: 
 verdict: custodial
 date: 2021-08-09
@@ -24,9 +24,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: Blockfolio
+providerTwitter: ftx_us
 providerLinkedIn: 
-providerFacebook: Blockfolio
+providerFacebook: FTXUS
 providerReddit: 
 
 redirect_from:
@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 
-**Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":
+There are a total of 6 related apps that all appear to belong to the same "FTX":
 
 * {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}
 * {% include walletLink.html wallet='iphone/com.blockfolio.blockfolio' %}
@@ -42,7 +42,3 @@ redirect_from:
 * {% include walletLink.html wallet='iphone/org.reactjs.native.example.FTXMobile.FTX' %}
 * {% include walletLink.html wallet='android/com.ftxmobile.ftxus' %}
 * {% include walletLink.html wallet='iphone/com.ftx.FTXMobile.FTXUS' %}
-
-This app clearly sounds like an exchange that lets
-you buy, hold, send and receive BTC but as an exchange it's certainly custodial
-and thus **not verifiable**.
