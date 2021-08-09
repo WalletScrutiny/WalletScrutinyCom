@@ -19,7 +19,7 @@ issue:
 icon: org.dayup.stocks.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-04
+date: 2021-08-09
 signer: 
 reviewArchive:
 
