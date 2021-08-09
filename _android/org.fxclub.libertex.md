@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: libertex
 title: "Libertex Online Trading app"
 altTitle: 
 authors:
