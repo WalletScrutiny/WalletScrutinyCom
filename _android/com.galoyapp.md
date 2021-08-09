@@ -44,4 +44,4 @@ There's [a repository for the official open-source code](https://github.com/Galo
 
 We already know that the Bitcoin Beach Wallet uses GaloyMoney's tech AND claims to be the lightning wallet of the Bitcoin Beach community although it's not officially affiliated with either of those.  There's no mention of the providers. No faces. No names. At the very least, they could have clearly stated that they are simply using GaloyMoney's infrastructure. The app's description seems to be implying that it is *the official wallet* which is bound to mislead people. There's nothing there at all, so the providers will have no accountability if something goes wrong.
 
-Bitcoin Beach Wallet should not be called a scam, but it is intransparent and somewhat misleading. We hope this can be resolved, but as for now we can conclude this **custodial** wallet is **not verifiable.**
+Bitcoin Beach Wallet maybe isn't a scam, but it is intransparent and somewhat misleading. We hope this can be resolved, but either way as a **custodial** app it is **not verifiable.**
