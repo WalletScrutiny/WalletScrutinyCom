@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: wazirx
 title: "WazirX - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
