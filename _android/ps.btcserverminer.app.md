@@ -4,14 +4,14 @@ title: "BTC Server Miner"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: ps.btcserverminer.app
 released: 2021-07-16
 latestUpdate: 2021-07-16
 version: "1.0"
-stars: 4.2
-ratings: 638
-reviews: 345
+stars: 4.4
+ratings: 830
+reviews: 439
 size: 21M
 website: 
 repository: 

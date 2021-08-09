@@ -9,9 +9,9 @@ appId: co.id.dompet.btc.indonesia
 released: 2017-01-15
 latestUpdate: 2021-08-05
 version: "Varies with device"
-stars: 3.3
-ratings: 4692
-reviews: 2699
+stars: 3.2
+ratings: 4693
+reviews: 2700
 size: Varies with device
 website: https://www.indodax.com
 repository: 

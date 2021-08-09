@@ -9,9 +9,9 @@ appId: com.cryonik.webview
 released: 2021-01-21
 latestUpdate: 2021-01-21
 version: "1.0"
-stars: 2.4
-ratings: 18
-reviews: 16
+stars: 2.1
+ratings: 16
+reviews: 14
 size: 1.4M
 website: 
 repository: 

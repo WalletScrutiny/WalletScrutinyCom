@@ -4,7 +4,7 @@ title: "Invest Bitcoin Mining"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: net.hodlercrypto.invest.bitcoin.mining2
 released: 2021-06-18
 latestUpdate: 2021-06-18

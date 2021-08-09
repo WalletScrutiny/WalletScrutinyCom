@@ -4,7 +4,7 @@ title: "Bitcoin Invest"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.cryptocurrencersltd.bitcoin.invest
 released: 2021-07-18
 latestUpdate: 2021-07-18

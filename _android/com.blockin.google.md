@@ -9,9 +9,9 @@ appId: com.blockin.google
 released: 2020-03-12
 latestUpdate: 2021-07-27
 version: "3.2.7"
-stars: 4.2
-ratings: 578
-reviews: 192
+stars: 4.1
+ratings: 579
+reviews: 193
 size: 52M
 website: 
 repository: 

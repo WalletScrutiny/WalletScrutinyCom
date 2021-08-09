@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Pluang -Investasi Emas, Reksa Dana, Saham, Bitcoin"
+title: "Pluang - Safe Online Investing"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2018-01-21
 latestUpdate: 2021-08-02
 version: "4.5.3"
 stars: 4.3
-ratings: 12291
-reviews: 7898
+ratings: 12335
+reviews: 7925
 size: 11M
 website: 
 repository: 

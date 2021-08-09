@@ -4,7 +4,7 @@ title: "Bybit: Trade cryptocurrency, bitcoin"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.trustdx.bybit
 released: 2021-06-29
 latestUpdate: 2021-07-19

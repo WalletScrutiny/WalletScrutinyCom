@@ -4,7 +4,7 @@ title: "Crypto Trading"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.cryptotrading
 released: 2021-03-13
 latestUpdate: 2021-07-08

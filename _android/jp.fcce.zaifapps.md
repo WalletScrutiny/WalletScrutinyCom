@@ -9,9 +9,9 @@ appId: jp.fcce.zaifapps
 released: 2020-05-07
 latestUpdate: 2021-07-05
 version: "1.1.6"
-stars: 2.3
-ratings: 57
-reviews: 44
+stars: 2.4
+ratings: 58
+reviews: 45
 size: 25M
 website: 
 repository: 

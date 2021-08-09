@@ -7,8 +7,8 @@ authors:
 users: 50
 appId: com.bhex.wallet
 released: 2021-07-07
-latestUpdate: 2021-07-26
-version: "1.2.1"
+latestUpdate: 2021-08-08
+version: "1.3.0"
 stars: 0.0
 ratings: 
 reviews: 

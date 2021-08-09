@@ -9,9 +9,9 @@ appId: com.exmo
 released: 2019-11-12
 latestUpdate: 2021-06-25
 version: "2.5"
-stars: 4.7
-ratings: 2022
-reviews: 1396
+stars: 4.6
+ratings: 2021
+reviews: 1394
 size: 59M
 website: https://exmo.com
 repository: 

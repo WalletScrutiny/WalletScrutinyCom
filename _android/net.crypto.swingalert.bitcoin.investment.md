@@ -4,7 +4,7 @@ title: "Bitcoin Investment"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.crypto.swingalert.bitcoin.investment
 released: 2021-07-17
 latestUpdate: 2021-07-17
