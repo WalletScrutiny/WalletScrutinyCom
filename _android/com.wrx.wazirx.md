@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 227277
 reviews: 60787
 size: 6.1M
-website: 
+website: https://wazirx.com
 repository: 
 issue: 
 icon: com.wrx.wazirx.png
@@ -29,9 +29,9 @@ reviewArchive:
   gitRevision: ef345dd316ca2a0ef9a19f23680a94e1a42fd171
   verdict: nowallet
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: WazirxIndia
+providerLinkedIn: wazirx
+providerFacebook: wazirx
 providerReddit: 
 
 redirect_from:
