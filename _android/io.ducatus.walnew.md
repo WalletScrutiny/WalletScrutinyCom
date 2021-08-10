@@ -10,8 +10,8 @@ released: 2019-12-05
 latestUpdate: 2021-08-03
 version: "2.7.2"
 stars: 4.8
-ratings: 207
-reviews: 138
+ratings: 208
+reviews: 139
 size: 25M
 website: https://ducatus.net
 repository: 

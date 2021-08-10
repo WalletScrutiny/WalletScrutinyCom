@@ -9,9 +9,9 @@ appId: com.phonegap.Zloadr
 released: 2019-06-17
 latestUpdate: 2019-07-15
 version: "1.1.0"
-stars: 2.8
-ratings: 903
-reviews: 842
+stars: 2.7
+ratings: 904
+reviews: 843
 size: 12M
 website: 
 repository: 

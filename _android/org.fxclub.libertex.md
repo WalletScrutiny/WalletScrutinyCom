@@ -10,8 +10,8 @@ released: 2015-05-22
 latestUpdate: 2021-05-02
 version: "2.27.2"
 stars: 4.1
-ratings: 69847
-reviews: 28249
+ratings: 69857
+reviews: 28257
 size: 37M
 website: libertex
 repository: 
@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: libertex_latam 
+providerTwitter: libertex_latam
 providerLinkedIn: 
 providerFacebook: libertex.ph
 providerReddit: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Libertex is a powerful online trading app designed to boost your trading experience.
 

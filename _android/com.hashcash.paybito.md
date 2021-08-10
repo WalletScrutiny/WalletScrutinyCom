@@ -4,14 +4,14 @@ title: "PayBito - Trade Bitcoin and Crypto"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.hashcash.paybito
 released: 2019-10-24
 latestUpdate: 2021-05-27
 version: "2.2.3"
-stars: 4.8
-ratings: 237
-reviews: 203
+stars: 4.7
+ratings: 242
+reviews: 207
 size: 6.4M
 website: 
 repository: 

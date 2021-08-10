@@ -4,7 +4,7 @@ title: "Invest Bitcoin Mining"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining
 released: 2021-07-17
 latestUpdate: 2021-07-17

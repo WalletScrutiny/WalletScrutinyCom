@@ -10,8 +10,8 @@ released: 2019-10-17
 latestUpdate: 2021-08-04
 version: "2.08.09.007"
 stars: 5.0
-ratings: 17224
-reviews: 1220
+ratings: 17228
+reviews: 1222
 size: 65M
 website: https://huobiwallet.com
 repository: 

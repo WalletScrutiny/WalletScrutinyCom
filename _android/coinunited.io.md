@@ -9,9 +9,9 @@ appId: coinunited.io
 released: 2021-04-30
 latestUpdate: 2021-07-21
 version: "1.0.1"
-stars: 4.9
-ratings: 51
-reviews: 49
+stars: 4.8
+ratings: 52
+reviews: 50
 size: 25M
 website: 
 repository: 

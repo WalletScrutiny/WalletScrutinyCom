@@ -4,7 +4,7 @@ title: "Ztrader Altcoin/bitcoin Trader"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.cryptobrowser.ztrader.altcoin.bitcoin.trader
 released: 2021-06-28
 latestUpdate: 2021-06-29

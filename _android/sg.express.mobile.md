@@ -9,9 +9,9 @@ appId: sg.express.mobile
 released: 2020-07-10
 latestUpdate: 2021-07-08
 version: "1.18.0"
-stars: 4.3
-ratings: 1918
-reviews: 754
+stars: 4.2
+ratings: 1869
+reviews: 732
 size: 37M
 website: 
 repository: 

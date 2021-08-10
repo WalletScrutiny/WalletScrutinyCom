@@ -9,9 +9,9 @@ appId: org.missmonacoin.monya
 released: 2018-01-02
 latestUpdate: 2021-04-26
 version: "3.10.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 96
+reviews: 47
 size: 4.4M
 website: 
 repository: 

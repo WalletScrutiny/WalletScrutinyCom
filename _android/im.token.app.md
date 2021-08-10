@@ -11,7 +11,7 @@ latestUpdate: 2021-07-12
 version: "2.9.4"
 stars: 3.8
 ratings: 3089
-reviews: 1694
+reviews: 1695
 size: 81M
 website: https://token.im
 repository: 

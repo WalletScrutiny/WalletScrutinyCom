@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "easyMarkets:  Trade Forex, Bitcoin, Oil and Shares"
+title: "easyMarkets - Online Trading"
 altTitle: 
 authors:
 
@@ -10,7 +10,7 @@ released: 2017-04-05
 latestUpdate: 2021-07-02
 version: "1.24.1"
 stars: 4.0
-ratings: 1562
+ratings: 1563
 reviews: 673
 size: 46M
 website: 

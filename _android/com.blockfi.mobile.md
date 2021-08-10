@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BlockFi: Earn Interest. Borrow Cash. Trade Crypto."
+title: "BlockFi - Buy, Earn, Borrow Crypto"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2020-04-30
 latestUpdate: 2021-08-05
 version: "4.3.1"
 stars: 3.4
-ratings: 3156
-reviews: 1455
+ratings: 3163
+reviews: 1459
 size: 10M
 website: 
 repository: 

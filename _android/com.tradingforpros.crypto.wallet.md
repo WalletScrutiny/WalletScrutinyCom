@@ -4,7 +4,7 @@ title: "Crypto Wallet"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.tradingforpros.crypto.wallet
 released: 2021-06-16
 latestUpdate: 2021-06-16

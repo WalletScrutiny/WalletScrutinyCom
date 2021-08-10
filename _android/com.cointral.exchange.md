@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.cointral.exchange
 released: 2020-10-29
-latestUpdate: 2021-07-06
-version: "1.3.4"
+latestUpdate: 2021-08-08
+version: "1.3.5"
 stars: 3.4
 ratings: 77
 reviews: 41
-size: 25M
+size: 26M
 website: 
 repository: 
 issue: 

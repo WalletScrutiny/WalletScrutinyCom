@@ -10,8 +10,8 @@ idd: 1475759236
 released: 2019-09-06
 updated: 2021-07-07
 version: "2.87"
-stars: 4.63462
-reviews: 104
+stars: 4.64151
+reviews: 106
 size: 66583552
 website: https://nash.io
 repository: 

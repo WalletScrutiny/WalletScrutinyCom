@@ -8,11 +8,11 @@ authors:
 users: 10000000
 appId: org.dayup.stocks
 released: 
-latestUpdate: 2021-07-26
+latestUpdate: 2021-08-09
 version: "7.1.7.27"
 stars: 4.4
-ratings: 138146
-reviews: 42876
+ratings: 138261
+reviews: 42895
 size: 50M
 website: https://www.webull.com/
 repository: 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 
 From their website:

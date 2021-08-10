@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 There are a total of 6 related apps that all appear to belong to the same "FTX":
 
 * {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}

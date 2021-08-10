@@ -10,8 +10,8 @@ idd: 1095564685
 released: 2017-01-05
 updated: 2021-08-05
 version: "4.0.1"
-stars: 4.81994
-reviews: 44746
+stars: 4.82009
+reviews: 44799
 size: 59086848
 website: https://blockfolio.com
 repository: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":
 

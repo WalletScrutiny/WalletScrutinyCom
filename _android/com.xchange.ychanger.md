@@ -4,7 +4,7 @@ title: "Ychanger – доступный каждому обмен криптов
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.xchange.ychanger
 released: 2021-06-08
 latestUpdate: 2021-06-08

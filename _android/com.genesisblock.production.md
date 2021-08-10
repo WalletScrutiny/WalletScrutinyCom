@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.genesisblock.production
 released: 2020-05-06
-latestUpdate: 2021-07-30
-version: "0.1.50"
+latestUpdate: 2021-08-09
+version: "0.1.51"
 stars: 3.7
 ratings: 41
 reviews: 24

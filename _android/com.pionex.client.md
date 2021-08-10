@@ -9,9 +9,9 @@ appId: com.pionex.client
 released: 2019-11-18
 latestUpdate: 2021-08-06
 version: "2.0.6"
-stars: 4.4
-ratings: 2579
-reviews: 1417
+stars: 4.3
+ratings: 2595
+reviews: 1427
 size: 53M
 website: 
 repository: 

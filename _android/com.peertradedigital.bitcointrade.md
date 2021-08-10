@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.peertradedigital.bitcointrade
 released: 2017-12-01
-latestUpdate: 2021-06-23
+latestUpdate: 2021-08-09
 version: "3.3.2"
-stars: 4.0
-ratings: 4440
-reviews: 2280
+stars: 4.1
+ratings: 4478
+reviews: 2298
 size: 18M
 website: 
 repository: 

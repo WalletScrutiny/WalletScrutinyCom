@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.EmasDigi
 released: 2018-01-21
-latestUpdate: 2021-08-02
-version: "4.5.3"
+latestUpdate: 2021-08-09
+version: "4.5.4"
 stars: 4.3
-ratings: 12335
-reviews: 7925
+ratings: 12441
+reviews: 8006
 size: 11M
 website: 
 repository: 

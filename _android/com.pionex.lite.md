@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.pionex.lite
 released: 2021-05-14
-latestUpdate: 2021-05-14
-version: "1.1.4"
+latestUpdate: 2021-08-09
+version: "1.1.5"
 stars: 0.0
 ratings: 
 reviews: 
-size: 39M
+size: 51M
 website: 
 repository: 
 issue: 

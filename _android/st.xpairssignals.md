@@ -9,9 +9,9 @@ appId: st.xpairssignals
 released: 2017-10-07
 latestUpdate: 2020-02-21
 version: "4.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 817
+reviews: 472
 size: 3.4M
 website: 
 repository: 

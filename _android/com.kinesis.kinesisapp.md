@@ -9,9 +9,9 @@ appId: com.kinesis.kinesisapp
 released: 2020-02-28
 latestUpdate: 2021-08-03
 version: "1.2.48"
-stars: 3.5
-ratings: 321
-reviews: 151
+stars: 3.4
+ratings: 324
+reviews: 153
 size: 34M
 website: 
 repository: 

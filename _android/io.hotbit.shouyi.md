@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: io.hotbit.shouyi
 released: 2019-09-19
-latestUpdate: 2021-08-05
-version: "1.3.25"
+latestUpdate: 2021-08-09
+version: "1.3.26"
 stars: 4.0
-ratings: 37153
-reviews: 14700
+ratings: 37579
+reviews: 14870
 size: 10.0M
 website: 
 repository: 

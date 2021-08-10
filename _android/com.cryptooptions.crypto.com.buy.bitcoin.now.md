@@ -4,7 +4,7 @@ title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.cryptooptions.crypto.com.buy.bitcoin.now
 released: 2021-07-24
 latestUpdate: 2021-07-24
