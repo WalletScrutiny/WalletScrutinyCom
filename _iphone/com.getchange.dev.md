@@ -18,7 +18,6 @@ icon: com.getchange.dev.jpg
 bugbounty: 
 verdict: defunct
 date: 2020-12-22
-reviewStale: false
 signer: 
 reviewArchive:
 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.melis.clientwallet.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-21
 signer: 
 reviewArchive:

@@ -20,7 +20,6 @@ icon: com.mykey.id.png
 bugbounty: 
 verdict: defunct
 date: 2021-04-13
-reviewStale: true
 signer: 
 reviewArchive:
 

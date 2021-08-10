@@ -20,7 +20,6 @@ icon: com.blockabc.abcwallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-04-13
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2021-04-12

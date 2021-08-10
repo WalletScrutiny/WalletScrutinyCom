@@ -18,7 +18,6 @@ icon: io.ob1.native-ios.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-01-15
-reviewStale: false
 signer: 
 reviewArchive:
 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: libertex
 title: "Libertex Online Trading app"
 altTitle: 
 authors:
@@ -10,10 +10,10 @@ released: 2015-05-22
 latestUpdate: 2021-05-02
 version: "2.27.2"
 stars: 4.1
-ratings: 69842
-reviews: 28246
+ratings: 69847
+reviews: 28249
 size: 37M
-website: https://libertex.org
+website: libertex
 repository: 
 issue: 
 icon: org.fxclub.libertex.png
@@ -43,4 +43,3 @@ Interestingly enough, there's [an app](https://play.google.com/store/apps/detail
 > temporary license suspension from CySEC
 
 We've tried contacting the support for some information on this and could not get an immediate response.
-

@@ -2,7 +2,7 @@ short: Defunct!
 title: Not functioning anymore
 color: '#d33100'
 redflag: false
-message: This app went out of business ... or so. Read the analysis for details.
+message: This product went out of business ... or so. Read the analysis for details.
 question: Is the product still supported by the still existing provider?
 details: >
   Discontinued products or worse, products of providers that are not active

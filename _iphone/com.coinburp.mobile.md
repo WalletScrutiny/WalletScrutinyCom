@@ -8,10 +8,10 @@ appId: com.coinburp.mobile
 appCountry: 
 idd: 1486342307
 released: 2020-06-12
-updated: 2021-06-03
-version: "1.0.14"
-stars: 2
-reviews: 1
+updated: 2021-07-29
+version: "1.0.15"
+stars: 3.5
+reviews: 2
 size: 42656768
 website: https://www.coinburp.com/
 repository: 

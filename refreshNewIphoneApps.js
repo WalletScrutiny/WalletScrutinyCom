@@ -6,14 +6,27 @@ const helper = require('./scripts/helperAppStore.js')
 
 console.log(`Adding skeletons for ${newIdds} ...`)
 
-newIdds.forEach( idd => {
-  if (isNaN(idd)) {
-    helper.refreshFile(`${idd}.md`)
+newIdds.forEach( param => {
+  var idd = undefined
+  var appId = undefined
+  var country = undefined
+  if (param.includes("/")) {
+    const parts = param.split("/")
+    country = parts[0]
+    param = parts[1]
+  }
+  if (isNaN(param)) {
+    appId = param
+  } else {
+    idd = param
+  }
+  if (appId) {
+    helper.refreshFile(`${appId}.md`)
   } else {
     apple.app({
         id: idd,
         lang: 'en',
-        country: 'cl',
+        country: country || "cl",
         throttle: 20}).then( app => {
       const path = `_iphone/${app.appId}.md`
       fs.exists(path, fileExists => {
@@ -22,6 +35,7 @@ newIdds.forEach( idd => {
           file.write(`---
 appId: ${app.appId}
 idd: ${idd}
+appCountry: ${country || "" }
 verdict: wip
 ---
 `,

@@ -4,7 +4,7 @@ title: "Light Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.bitzhash.wallet.bitcoin
 released: 2020-03-11
 latestUpdate: 2020-04-28

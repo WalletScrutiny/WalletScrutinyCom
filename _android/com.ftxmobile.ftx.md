@@ -7,19 +7,19 @@ authors:
 users: 100000
 appId: com.ftxmobile.ftx
 released: 2020-05-08
-latestUpdate: 2021-06-30
-version: "1.1.2"
-stars: 4.2
-ratings: 3905
-reviews: 1790
-size: 61M
+latestUpdate: 2021-07-30
+version: "1.1.3"
+stars: 4.3
+ratings: 4262
+reviews: 1902
+size: 62M
 website: https://ftx.com
 repository: 
 issue: 
 icon: com.ftxmobile.ftx.png
 bugbounty: 
 verdict: custodial
-date: 2021-02-08
+date: 2021-08-09
 signer: 
 reviewArchive:
 
@@ -34,6 +34,15 @@ redirect_from:
 ---
 
 
+**Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":
+
+* {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='iphone/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftx' %}
+* {% include walletLink.html wallet='iphone/org.reactjs.native.example.FTXMobile.FTX' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftxus' %}
+* {% include walletLink.html wallet='iphone/com.ftx.FTXMobile.FTXUS' %}
+ 
 On their description there is not much to be found about it being even a wallet
 for Bitcoin but as you can deposit Bitcoins into your account and withdraw them,
 it technically works like a wallet but

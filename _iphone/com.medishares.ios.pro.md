@@ -10,7 +10,7 @@ idd: 1383637331
 released: 2019-04-30
 updated: 2019-07-10
 version: "3.1.0"
-stars: 3.02439
+stars: 2.92683
 reviews: 41
 size: 135909376
 website: https://www.mathwallet.org
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-22
 signer: 
 reviewArchive:

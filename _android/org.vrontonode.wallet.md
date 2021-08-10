@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "VTN Wallet"
+altTitle: 
+authors:
+
+users: 1000
+appId: org.vrontonode.wallet
+released: 2019-11-29
+latestUpdate: 2019-11-29
+version: "1.0"
+stars: 4.7
+ratings: 19
+reviews: 10
+size: 4.1M
+website: 
+repository: 
+issue: 
+icon: org.vrontonode.wallet.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

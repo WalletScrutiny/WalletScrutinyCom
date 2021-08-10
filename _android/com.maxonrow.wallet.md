@@ -21,7 +21,6 @@ icon: com.maxonrow.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-03-17
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-12-30

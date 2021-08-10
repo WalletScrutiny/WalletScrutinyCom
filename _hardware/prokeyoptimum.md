@@ -19,7 +19,7 @@ repository: https://github.com/prokey-io
 issue:
 icon: prokeyoptimum.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip 
 date: 2021-07-26
 signer:
 reviewArchive:

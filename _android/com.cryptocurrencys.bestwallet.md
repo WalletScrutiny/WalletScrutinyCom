@@ -7,7 +7,6 @@ ratings: 0
 icon: com.cryptocurrencys.bestwallet.png
 verdict: defunct
 date: 2020-12-04
-reviewStale: false
 ---
 
 This app still appears in search results but Google Play doesn't show the app.

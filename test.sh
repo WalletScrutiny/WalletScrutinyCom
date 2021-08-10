@@ -1,23 +1,38 @@
 #!/bin/bash
 
+set -x
+
+# Global Constants
+# ================
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
 TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
-downloadedApk="$1"
+wsContainer="walletscrutiny/android:5"
+takeUserActionCommand='echo "CTRL-D to continue";
+  bash'
+
+# Read script arguments and flags
+# ===============================
+
+while [[ "$#" -gt 0 ]]; do
+  case $1 in
+    -a|--apk) downloadedApk="$2"; shift ;;
+    # if the desired version is not tagged, the script can be run with a revision
+    # override as second parameter.
+    -r|--revision-override) revisionOverride="$2"; shift ;;
+    -n|--not-interactive) takeUserActionCommand='' ;;
+    *) echo "Unknown argument: $1"; exit 1 ;;
+  esac
+  shift
+done
+
 # make sure path is absolute
 if ! [[ $downloadedApk =~ ^/.* ]]; then
   downloadedApk="$PWD/$downloadedApk"
 fi
-wsContainer="walletscrutiny/android:5"
 
-if [[ $* == *--not-interactive* ]]
-then
-  takeUserActionCommand=''
-else
-  takeUserActionCommand='echo "CTRL-D to continue";
-    bash'
-fi
-
-set -x
+# Functions
+# =========
 
 containerApktool() {
   targetFolder=$1
@@ -56,12 +71,14 @@ usage() {
        test.sh - test if apk can be built from source
 
 SYNOPSIS
-       test.sh downloadedApk
+       test.sh -a downloadedApk [-r revisionOverride] [-n]
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
-       
-       downloadedApk  The apk file we want to test.'
+
+       -a|--apk The apk file we want to test.
+       -r|--revision-override git revision id to use if tag is not found
+       -n|--not-interactive The script will not ask for user actions'
 }
 
 if [ ! -f "$downloadedApk" ]; then
@@ -80,7 +97,7 @@ containerApktool $fromPlayFolder "$downloadedApk" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
-workDir="/tmp/test$appId"
+workDir="/tmp/test_$appId"
 
 if [ -z $appId ]; then
   echo "appId could not be tetermined"
@@ -102,16 +119,20 @@ echo "Testing \"$downloadedApk\" ($appId version $versionName)"
 echo
 
 prepare() {
-  echo "Testing $appId from $repo revision $tag ..."
+  echo "Testing $appId from $repo revision $tag (revisionOverride: '$revisionOverride')..."
   # cleanup
-  rm -rf /tmp/test$appId || exit 1
+  rm -rf "$workDir" || exit 1
   # get uinque folder
-  mkdir $workDir
+  mkdir -p $workDir
   cd $workDir
   # clone
-  echo "Trying to clone version $tag ..."
-  git clone --quiet --branch "$tag" --depth 1 $repo app || exit 1
-  cd app
+  echo "Trying to clone …"
+  if [ -n "$revisionOverride" ]
+  then
+    git clone --quiet $repo app && cd app && git checkout "$revisionOverride" || exit 1
+  else
+    git clone --quiet --branch "$tag" --depth 1 $repo app && cd app || exit 1
+  fi
   commit=$( git log -n 1 --pretty=oneline | sed 's/ .*//g' )
 }
 

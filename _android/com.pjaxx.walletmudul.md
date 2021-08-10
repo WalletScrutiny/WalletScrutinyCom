@@ -19,11 +19,15 @@ repository:
 issue: 
 icon: com.pjaxx.walletmudul.png
 bugbounty: 
-verdict: fake
-date: 2021-07-24
+verdict: defunct
+date: 2021-08-04
 signer: 
 reviewArchive:
-
+- date: 2021-07-24
+  version: "1"
+  appHash: 
+  gitRevision: 8770b9bdf24645be6c837baa253b07d13a2b2ce8
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +37,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2021-08-04**: This fake app was gone 2 days after our fake verdict on
+2021-07-26.
 
 
 This app "{{ page.title }}" clearly tries to imitate

@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.murextrivium.walletapp.png
 bugbounty: 
-verdict: fewusers
-date: 2021-04-15
+verdict: defunct
+date: 2021-08-09
 signer: 
 reviewArchive:
-
+- date: 2021-04-15
+  version: "1.2"
+  appHash: 
+  gitRevision: e2e703e641028d5466e8e09931b9c89d19790759
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 
@@ -35,3 +39,5 @@ redirect_from:
 
 
 A Bitcoin Lightning wallet.
+
+This is a fork of {% include walletLink.html wallet='android/com.btcontract.wallettest' verdict='true' %} but with its website down, it looks unmaintained.

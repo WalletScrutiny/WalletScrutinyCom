@@ -18,7 +18,6 @@ icon: com.bitlish.bitlish.png
 bugbounty: 
 verdict: defunct
 date: 2020-03-20
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-12-25

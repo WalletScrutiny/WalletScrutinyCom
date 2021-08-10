@@ -18,7 +18,6 @@ icon: com.uwalletapp.png
 bugbounty: 
 verdict: defunct
 date: 2021-01-23
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-12-14

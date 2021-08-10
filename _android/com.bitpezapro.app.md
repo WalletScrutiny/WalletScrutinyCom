@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Bekonta - Fast & Easy Crypto Exchange"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.bitpezapro.app
+released: 2020-02-09
+latestUpdate: 2020-07-09
+version: "1.0.1"
+stars: 4.4
+ratings: 99
+reviews: 76
+size: 2.3M
+website: 
+repository: 
+issue: 
+icon: com.bitpezapro.app.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

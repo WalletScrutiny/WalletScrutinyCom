@@ -20,7 +20,6 @@ icon: org.zupago.pe.png
 bugbounty: 
 verdict: defunct
 date: 2021-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-04-15

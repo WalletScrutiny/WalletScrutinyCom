@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2020-12-22
 signer: 
 reviewArchive:
