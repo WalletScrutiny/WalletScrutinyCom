@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir images/wallet_icons/{android,iphone}/{small,tiny}/ 2> /dev/null
+mkdir images/wallet_icons/{android,iphone,hardware}/{small,tiny}/ 2> /dev/null
 rm /tmp/revert.txt 2> /dev/null
 
 resizeDeterministically() {
@@ -12,7 +12,7 @@ resizeDeterministically() {
   # convert source to target size but to a temporary file, first
   # copy temp file to target if pixels actually changed in the resized file
   # delete temp file
-  convert -background none $source -resize ${size}x $tmp
+  convert -background none $source -resize ${size}x $tmp 2> /dev/null
   if $( compare -metric AE $tmp $target NULL: ); then
     echo $source >> /tmp/revert.txt
   else
@@ -23,14 +23,15 @@ resizeDeterministically() {
 
 export -f resizeDeterministically
 
-files=$( ls images/wallet_icons/android/*.* )
-parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/small 100 ::: $files
-parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/tiny 25 ::: $files
-files=$( ls images/wallet_icons/iphone/*.* )
-parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/small 100 ::: $files
-parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 ::: $files
-files=$( ls images/wallet_icons/hardware/*.* )
-parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/small 100 ::: $files
-parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25 ::: $files
+files=$( git status --porcelain -- images/wallet_icons/android/*.* | sed 's/^...//g' | tr '\n' '\t' )
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/small 100 ::: $files; fi
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/android images/wallet_icons/android/tiny 25 ::: $files; fi
+files=$( git status --porcelain -- images/wallet_icons/iphone/*.* | sed 's/^...//g' | tr '\n' '\t' )
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/small 100 ::: $files; fi
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 ::: $files; fi
+files=$( git status --porcelain -- images/wallet_icons/hardware/*.* | sed 's/^...//g' | tr '\n' '\t' )
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/small 100 ::: $files; fi
+if [[ $files ]]; then parallel resizeDeterministically {/} images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25 ::: $files; fi
 
+# revert all files that did not visually change, to not spam the git repo
 git checkout HEAD $( cat /tmp/revert.txt | paste -sd ' ' )
