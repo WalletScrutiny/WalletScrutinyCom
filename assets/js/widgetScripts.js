@@ -1,5 +1,5 @@
 /**
- * Render the widgets that we show in all the app reviews.
+ * Render the widgets that we show in all the reviews.
  **/
 window.addEventListener("load", () => {
   function getWidgetHtml(wallet, includeDetails) {
@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
       <span onclick="document.getElementById('info').style.display=\'block\';" style="font-size: 12px;font-family: Courier New, Courier, serif;width: 16px;height: 16px;display: block;color: var(--white, #fff);background: var(--light-blue, #0064ff);text-align: center;line-height: 16px;border-radius: 16px;cursor:pointer;">i</span>
     </div>
     <div id="info" style="display:none;position: fixed;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;background: var(--light-blue, #0064ff);color: var(--white, #fff);font-family: sans-serif;">
-      <p style="padding: .5rem;margin:.25rem;font-size:12px;line-height:1.25rem;">Data provided by <a target="_blank" style="color:inherit;" href="https://WalletScrutiny.com">Wallet Scrutiny</a> and supported by your donations.<br><br><a>To embed a widget into your site, copy the code on any of the app details pages on <a target="_blank" style="color:inherit;" href="https://WalletScrutiny.com">our website</a>.</a></p>
+      <p style="padding: .5rem;margin:.25rem;font-size:12px;line-height:1.25rem;">Data provided by <a target="_blank" style="color:inherit;" href="https://WalletScrutiny.com">Wallet Scrutiny</a> and supported by your donations.<br><br><a>To embed a widget into your site, copy the code on any of the details pages on <a target="_blank" style="color:inherit;" href="https://WalletScrutiny.com">our website</a>.</a></p>
     <p style="padding: .75rem .25rem .25rem 1rem;position: fixed;bottom: 0;right: 0;text-align: right;margin:0;"><span onclick="document.getElementById(\'info\').style.display=\'none\';" style="display: inline-block;background: var(--gauze, rgba(0,0,0,0.3));cursor:pointer;padding: 4px 8px;font-size: 12px;border-radius: 100px;">close</span></p>
     </div>`
   }

@@ -4,7 +4,7 @@ title: "Lastbit Cards"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.lastbit.cards
 released: 
 latestUpdate: 2021-06-28

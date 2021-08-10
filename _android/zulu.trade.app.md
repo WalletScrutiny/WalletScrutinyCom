@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "ZuluTrade - Copy Trading Platform"
+altTitle: 
+authors:
+
+users: 100000
+appId: zulu.trade.app
+released: 2011-03-04
+latestUpdate: 2021-07-30
+version: "4.23.3"
+stars: 4.4
+ratings: 1743
+reviews: 580
+size: 34M
+website: 
+repository: 
+issue: 
+icon: zulu.trade.app.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

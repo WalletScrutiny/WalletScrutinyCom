@@ -18,7 +18,6 @@ icon: com.freaks.app.handcash.png
 bugbounty: 
 verdict: defunct
 date: 2019-12-25
-reviewStale: false
 signer: 
 reviewArchive:
 

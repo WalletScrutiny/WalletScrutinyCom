@@ -20,7 +20,6 @@ icon: com.lumiwallet.HD.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-06-16
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-05-14

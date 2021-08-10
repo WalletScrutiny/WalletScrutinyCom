@@ -19,7 +19,7 @@ repository:
 issue:
 icon: bepalpros.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: wip 
 date: 2021-07-25
 signer:
 reviewArchive:

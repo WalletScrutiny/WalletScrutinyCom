@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "비스펙스- 비트코인 마진거래 소액투자"
+altTitle: 
+authors:
+
+users: 10
+appId: kr.co.coin5.bj
+released: 2020-06-10
+latestUpdate: 2020-06-11
+version: "1.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 5.6M
+website: 
+repository: 
+issue: 
+icon: kr.co.coin5.bj.png
+bugbounty: 
+verdict: fewusers
+date: 2021-08-02
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

@@ -20,7 +20,6 @@ icon: com.yes.yeswallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-18
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-12-14

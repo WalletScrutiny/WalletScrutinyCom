@@ -21,7 +21,6 @@ icon: org.bitcoin.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-16
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-05-02

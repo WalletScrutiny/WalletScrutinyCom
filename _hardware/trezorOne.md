@@ -7,6 +7,7 @@ released: 2014-07-29
 discontinued: # date
 latestUpdate: 
 version: 1.9.4
+binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions: [60, 30, 6]
 weight: 12
 website: https://trezor.io

@@ -20,7 +20,6 @@ icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-02
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-07-29

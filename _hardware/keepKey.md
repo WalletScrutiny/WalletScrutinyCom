@@ -5,8 +5,9 @@ authors:
 - leo
 released: 2014-08-01
 discontinued: # date
-latestUpdate: 
-version: 
+latestUpdate: 2021-07-13
+version: 7.1.7
+binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions: [38, 93.5, 12.2]
 weight: 54
 website: https://shapeshift.com
@@ -17,8 +18,8 @@ repository: https://github.com/keepkey/keepkey-firmware
 issue: https://github.com/keepkey/keepkey-firmware/issues/283
 icon: keepKey.png
 bugbounty: 
-verdict: nonverifiable
-date: 2021-07-19
+verdict: reproducible
+date: 2021-07-31
 signer: 
 reviewArchive:
 
@@ -29,6 +30,11 @@ providerFacebook: ShapeShiftPlatform
 providerReddit: 
 ---
 
+
+**Update 2021-07-31**: Reid Rankin, a contributor to the project
+[replied](https://github.com/keepkey/keepkey-firmware/issues/283#issuecomment-888604838)
+to our questions about reproducibility and provided instructions on how to
+reproduce the firmware after all. Find it [at the end of the Analysis](#upd0731).
 
 {{ page.title }} is a clone of the
 {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %}
@@ -367,3 +373,27 @@ cmp: EOF on firmware.keepkey.bin after byte 526748
 and over the whole file, most bytes don't match. That is not reproducible and
 thus **not verifiable**.
 
+<span id="upd0731">But ... as mentione above, a developer provided us with more
+instructions on how to reproduce it after all. Let's see ...</span>
+
+We have to start from zero, picking what works from above ...
+
+```
+$ git clone https://github.com/keepkey/keepkey-firmware
+$ cd keepkey-firmware
+$ git checkout v7.1.7
+$ git submodule update --init --recursive
+$ rm deps/python-keepkey/keepkeylib/eth/ethereum-lists/src/tokens/eth/0x45804880de22913dafe09f4980848ece6ecbaf78.json
+$ ./scripts/build/docker/device/release.sh
+$ wget https://github.com/keepkey/keepkey-firmware/releases/download/v7.1.7/firmware.keepkey.bin
+$ sha256sum firmware.keepkey.bin ; tail -c +257 firmware.keepkey.bin | sha256sum ; tail -c +257 ./bin/firmware.keepkey.bin | sha256sum
+2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594  firmware.keepkey.bin
+5528034fec8334a7ee494c2ec50d5f0368e2e5fe403f4bc29a54c70fa026e2c0  -
+5528034fec8334a7ee494c2ec50d5f0368e2e5fe403f4bc29a54c70fa026e2c0  -
+```
+
+So that looks better. The firmware we downloaded is the same as in the last
+round and the chopped part matches. As all we did was delete a part of the
+provided source code, all promises we provide hold true: *If you reviewed the
+code and it's all good, the firmware binary is also good.* This product is
+**reproducible**.

@@ -20,7 +20,6 @@ icon: com.anxbtc.android.png
 bugbounty: 
 verdict: defunct
 date: 2021-05-08
-reviewStale: true
 signer: 
 reviewArchive:
 

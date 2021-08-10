@@ -9,9 +9,9 @@ appId: com.stasis.stasiswallet
 released: 2018-06-13
 latestUpdate: 2021-07-19
 version: "1.9.19"
-stars: 4.4
-ratings: 158
-reviews: 94
+stars: 4.3
+ratings: 159
+reviews: 95
 size: 17M
 website: https://stasis.net/wallet
 repository: https://github.com/stasisnet

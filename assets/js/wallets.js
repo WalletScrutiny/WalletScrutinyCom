@@ -1,4 +1,4 @@
-const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,nobtc,defunct,nowallet"
+const verdictOrder = "reproducible,nonverifiable,nosource,custodial,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,defunct,nowallet"
 const platformOrder = "hardware,android,iphone"
 
 window.wallets.sort((a, b) => {
@@ -36,31 +36,25 @@ window.wallets.forEach(e => {
   }
 })
 window.platformObs.reverse()
-window.transcribeTag = function (e) {
-  if (!e) {
-    return
+window.platforms = {
+  iphone: {
+    css: 'fab fa-app-store',
+    category: 'App Store'
+  },
+  android: {
+    css: 'fab fa-google-play',
+    category: 'Play Store'
+  },
+  fdroid: {
+    css: 'fab fa-f-droid',
+    category: 'fdroid'
+  },
+  windows: {
+    css: 'fab fa-windows',
+    category: 'windows'
+  },
+  hardware: {
+    css: 'fas fa-toolbox',
+    category: 'Hardware Wallet'
   }
-  
-  return {
-    iphone: {
-      css: 'fab fa-app-store',
-      category: 'App Store'
-    },
-    android: {
-      css: 'fab fa-google-play',
-      category: 'Play Store'
-    },
-    fdroid: {
-      css: 'fab fa-f-droid',
-      category: 'fdroid'
-    },
-    windows: {
-      css: 'fab fa-windows',
-      category: 'windows'
-    },
-    hardware: {
-      css: 'fas fa-toolbox',
-      category: 'Hardware Wallet'
-    }
-  }[e]
 }

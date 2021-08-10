@@ -5,15 +5,16 @@ authors:
 - leo
 released: 
 discontinued: # date
-latestUpdate: 
-version: 
+latestUpdate: 2021-05-20
+version: 9.6.0
+binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions: [54.5, 25.4, 9.6]
 weight: 12
 website: https://shiftcrypto.ch/
 shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
 price: 119EUR
-repository: https://github.com/digitalbitbox
+repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/762
 icon: bitBox2.png
 bugbounty: 

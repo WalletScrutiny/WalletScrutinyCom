@@ -1,6 +1,6 @@
 ---
 wsId: guarda
-title: "Guarda Crypto Wallet: Bitcoin, Dogecoin, Ripple"
+title: "Guarda: Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2018-11-01
 latestUpdate: 2021-07-19
 version: "2.36.6"
 stars: 4.4
-ratings: 3046
-reviews: 1651
+ratings: 3088
+reviews: 1677
 size: 35M
 website: http://guarda.co
 repository: 
