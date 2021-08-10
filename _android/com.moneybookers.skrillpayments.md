@@ -3,7 +3,7 @@ wsId:
 title: "Skrill - Pay and spend money online"
 altTitle: 
 authors:
-- dannygarcia
+- danny
 
 users: 5000000
 appId: com.moneybookers.skrillpayments
