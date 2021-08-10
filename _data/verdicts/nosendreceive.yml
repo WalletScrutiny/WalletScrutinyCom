@@ -1,0 +1,16 @@
+short: No send/receive
+title: Can't send or receive bitcoins
+color: '#d33100'
+redflag: true
+message: The product can't send or receive BTC.
+question: Can it send and receive bitcoins?
+details: >
+  If it is for holding BTC but you can't actually send or receive them with this
+  product then it doesn't function like a wallet for BTC but you might still be
+  using it to hold your bitcoins with the intention to convert back to fiat
+  when you "cash out".
+  
+  
+  All products in this category are custodial and thus funds are at the mercy of
+  the provider.
+  
