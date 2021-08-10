@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: com.tabtrader.android.png
 bugbounty: 
-verdict: nowallet
-date: 2021-04-17
+verdict: nosendreceive
+date: 2021-08-10
 signer: 
 reviewArchive:
 
@@ -37,7 +37,7 @@ redirect_from:
 
 This app appears to not function as a wallet. At least we could not see any
 documentation about depositing or withdrawing through the app, which makes the
-verdict **not a wallet** but the app still has still massive potential for abuse
+verdict **not a wallet** but the app still has massive potential for abuse
 if the provider front-runs the trades of the users from the insight they gain or
 even worse, they could trigger lucrative-to-front-run trades the user never
 intended to make.
