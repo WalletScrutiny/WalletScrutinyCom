@@ -38,5 +38,9 @@ redirect_from:
 Libertex Online Trading app advertises itself as a "powerful online trading app" and not as a Bitcoin wallet. It does have a "wallet" that can store Bitcoins but users aren't provided with the private key. With a third party in control of the keys and no source code in sight it's safe to assume this app is **custodial** and as such **not verifiable.** 
 
 **Additional Observations:**
-Interestingly enough, there's [an app](https://play.google.com/store/apps/details?id=com.libertex.mobile) and [website](https://libertex.com) with the same name but with the ".com" domain extension rather than ".org." The Twitter account seems to clarify this by calling itself Libertex Europe while Libertex.org's Twitter calls itself Libertex LATAM (which you can assume means Latin America), but it's still rather odd. Adding to that Libertex.com seems to be unable to accept new clients and has a temporary license suspension from CySEC. I've tried contacting the support for some information on this. As of now I'm still waiting for a response.
+Interestingly enough, there's [an app](https://play.google.com/store/apps/details?id=com.libertex.mobile) and [website](https://libertex.com) with the same name but with the ".com" domain rather than ".org." The Twitter account seems to clarify this by calling itself "Libertex Europe" while Libertex.org's Twitter calls itself "Libertex LATAM" which is a bit confusing. Adding to that, Libertex.com seems to be unable to accept new clients and has a 
+
+> temporary license suspension from CySEC
+
+We've tried contacting the support for some information on this and could not get an immediate response.
 
