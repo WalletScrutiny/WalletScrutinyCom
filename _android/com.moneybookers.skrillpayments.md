@@ -1,3 +1,4 @@
+---
 wsId: 
 title: "Skrill - Pay and spend money online"
 altTitle: 
@@ -39,5 +40,3 @@ From their terms of use:
 >The Supported Cryptocurrencies (and the fiat currency used to buy/sell them) are held in custody by a third party.
 
 Based on this information, the app is custodial therefore not verifiable.
-
-
