@@ -1,13 +1,44 @@
 #!/bin/bash
 
 mkdir images/wallet_icons/{android,iphone,hardware}/{small,tiny}/ 2> /dev/null
+truncate /tmp/revert.txt --size=0
+tmpDir=/tmp/resizing/
+export tmpDir
+rm -rf $tmpDir 2> /dev/null
+mkdir $tmpDir 2> /dev/null
+git --work-tree=$tmpDir checkout HEAD -- images/wallet_icons/
+
+logIfUnchanged() {
+  changed=$1
+  original=$tmpDir$changed
+  if [[ ! $changed =~ ^.*\.(jpg|png)$ ]]; then
+    # if file is not a jpg or png, it is deleted.
+    echo "Deleting $changed"
+    rm $changed
+  elif [ -f "$original" ] && $( compare -metric AE $original $changed NULL: ); then
+    echo "$changed is unchanged"
+    echo $changed >> /tmp/revert.txt
+  fi
+}
+
+export -f logIfUnchanged
+
+revertImagesThatDidNotChange() {
+  files=$( git status --porcelain -- images/wallet_icons/*/*.* | sed 's/^...//g' | tr '\n' ' ' )
+  if [[ $files ]]; then parallel logIfUnchanged {} ::: $files; fi
+  revertFiles=$( cat /tmp/revert.txt | paste -sd ' ' )
+  if [[ $revertFiles ]]; then
+    echo "Reverting files $revertFiles"
+    git checkout HEAD $revertFiles
+  fi
+}
+revertImagesThatDidNotChange
 
 resizeDeterministically() {
   filename=$1
   source=$2/$filename
   target=$3/$filename
   size=$4
-  echo $filename
   convert -background none $source -resize ${size}x $target 2> /dev/null
 }
 
@@ -19,7 +50,7 @@ resizeMany() {
   if [[ $files ]]; then parallel resizeDeterministically {/} $source $target $size ::: $files; fi
 }
 
-export -f resizeDeterministically resizeMany
+export -f resizeDeterministically
 
 files=$( git status --porcelain -- images/wallet_icons/android/*.* | sed 's/^...//g' | tr '\n' ' ' )
 resizeMany images/wallet_icons/android images/wallet_icons/android/small 100 "$files"
