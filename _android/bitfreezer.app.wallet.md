@@ -4,6 +4,7 @@ title: "BitFreezer Cold Wallet  Bitcoin Ethereum ERC20"
 altTitle: 
 authors:
 - kiwilamb
+- leo
 users: 10000
 appId: bitfreezer.app.wallet
 released: 2019-09-18
@@ -18,11 +19,15 @@ repository:
 issue: 
 icon: bitfreezer.app.wallet.png
 bugbounty: 
-verdict: nosource
-date: 2021-05-30
+verdict: defunct
+date: 2021-08-11
 signer: 
 reviewArchive:
-
+- date: 2021-05-30
+  version: "1.0.16"
+  appHash: 
+  gitRevision: 3d4e0de7554c723d80c48c1d30caa7bad0af40aa
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-08-03**: This app is not on Play Store anymore.
 
 Statements on the provider's website, suggest the private keys are in control of the user.
 However the project is not open source. This is validated by a comment from the

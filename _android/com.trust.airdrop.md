@@ -4,7 +4,7 @@ title: "Trust Airdrop - YFI, DOGE & LTC"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.trust.airdrop
 released: 2021-07-09
 latestUpdate: 2021-07-22

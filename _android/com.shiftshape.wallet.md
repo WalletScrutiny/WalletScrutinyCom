@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.shiftshape.wallet.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: defunct
+date: 2021-08-11
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.0.0"
+  appHash: 
+  gitRevision: 3d4e0de7554c723d80c48c1d30caa7bad0af40aa
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,3 +38,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-03**: This app is not on Play Store anymore.

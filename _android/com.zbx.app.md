@@ -9,9 +9,9 @@ appId: com.zbx.app
 released: 2019-10-18
 latestUpdate: 2020-07-28
 version: "2.0.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.5
+ratings: 22
+reviews: 16
 size: 23M
 website: 
 repository: 

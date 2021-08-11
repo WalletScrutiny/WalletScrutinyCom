@@ -9,9 +9,9 @@ appId: swapitway.sw
 released: 2021-02-10
 latestUpdate: 2021-02-21
 version: "2.5"
-stars: 3.7
-ratings: 15
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.9M
 website: 
 repository: 

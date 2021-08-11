@@ -9,9 +9,9 @@ appId: com.coinbase.wallite
 released: 2019-04-16
 latestUpdate: 2020-07-17
 version: "0.5-alpha"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.7
+ratings: 282
+reviews: 179
 size: 6.7M
 website: https://wallet.coinbase.com
 repository: 
