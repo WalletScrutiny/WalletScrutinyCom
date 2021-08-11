@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.moneybookers.skrillpayments.png
 bugbounty: 
-verdict: custodial
+verdict: nosendreceive
 date: 2021-08-09
 signer: 
 reviewArchive:
