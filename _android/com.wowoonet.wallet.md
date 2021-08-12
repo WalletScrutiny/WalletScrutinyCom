@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "WowooWallet"
+altTitle: 
+authors:
+
+users: 5000
+appId: com.wowoonet.wallet
+released: 2017-12-01
+latestUpdate: 2019-03-26
+version: "1.4.3"
+stars: 3.7
+ratings: 21
+reviews: 7
+size: 21M
+website: 
+repository: 
+issue: 
+icon: com.wowoonet.wallet.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

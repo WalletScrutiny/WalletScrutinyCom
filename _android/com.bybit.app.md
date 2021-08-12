@@ -4,14 +4,14 @@ title: "Bybit: Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.bybit.app
 released: 2019-10-31
-latestUpdate: 2021-07-22
-version: "3.0.4"
-stars: 5.0
-ratings: 22074
-reviews: 2429
+latestUpdate: 2021-08-11
+version: "3.1.3"
+stars: 4.9
+ratings: 32051
+reviews: 2651
 size: 51M
 website: https://www.bybit.com
 repository: 

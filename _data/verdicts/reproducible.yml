@@ -3,18 +3,18 @@ title: Reproducible when tested
 color: '#4da84d'
 redflag: false
 message: The binary provided was reproducible from the code provided.
-question: Does the app we built differ from what we downloaded?
+question: Does the binary we built differ from what we downloaded?
 details: >
-  If we can reproduce the app we downloaded from the public source code, with
-  all bytes accounted for, we call the app reproducible. This does not mean we audited
-  the code but it's the precondition to make sure the code has relevance for the
-  app.
+  If we can reproduce the binary we downloaded from the public source code, with
+  all bytes accounted for, we call the product reproducible. This does not mean we audited
+  the code but it's the precondition to make sure the public code has relevance for the
+  provided binary.
 
 
   If the provider puts your funds at
   risk on purpose or by accident, security researchers can see this if they
   care to look. It also means that inside the company, engineers can verify
-  that the release manager is releasing the app based on code known to all
+  that the release manager is releasing the product based on code known to all
   engineers on the team. A scammer would have to work under the potential eyes
   of security researchers. He would have to take more effort in hiding any
   exploit.

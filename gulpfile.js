@@ -25,7 +25,7 @@ gulp.task("minify", () => {
     .pipe(gulp.dest("_site"));
 });
 
-gulp.task('minjs', function () {
+gulp.task('minjs', () => {
   return gulp.src("_site/**/*.js")
     .pipe(minify({
       ext: {
@@ -36,28 +36,28 @@ gulp.task('minjs', function () {
     .pipe(gulp.dest("_site/"))
 });
 
-gulp.task('cleanjs', function () {
+gulp.task('cleanjs', () => {
   return del("_site/**/*.js");
 });
 
-gulp.task("rename", function () {
+gulp.task("rename", () => {
   return gulp
     .src("./_site/**/*.jsm")
     .pipe(rename({ extname: ".js" }))
     .pipe(gulp.dest("./_site/"))
 });
 
-gulp.task('cleanjsm', function () {
+gulp.task('cleanjsm', () => {
   return del("_site/**/*.jsm");
 });
 
-gulp.task("move", function () {
+gulp.task("move", () => {
   return gulp
     .src("./_site/_minjs/")
     .pipe(gulp.dest("./_site/"));
 });
 
-gulp.task("sass", function () {
+gulp.task("sass", () => {
   return gulp
     .src("./_site/assets/css/*.css")
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
@@ -67,21 +67,5 @@ gulp.task("sass", function () {
 
 // Task for building blog when something changed:
 gulp.task("jekyll", shell.task("bundle exec jekyll build"));
-gulp.task("serve", shell.task("bundle exec jekyll serve"));
-// If you don't use bundle:
-// gulp.task('build', shell.task(['jekyll serve']));
-// If you use  Windows Subsystem for Linux (thanks @SamuliAlajarvela):
-// gulp.task('build', shell.task(['bundle exec jekyll serve --force_polling']));
-
-// Task for serving blog with Browsersync
-
-// gulp.task("serve", function () {
-//   browserSync.init({
-//     server: { baseDir: "./" },
-//     ui: { port: 4001 },
-//     port: 4000,
-//   });
-//   gulp.watch("_site/**/*.*").on("change", browserSync.reload);
-// });
-/* gulp.task("sass", sass); */
+gulp.task("serve", shell.task("bundle exec jekyll serve --profile --trace --safe --config _config.yml,_config.dev.yml"));
 gulp.task("default", gulp.series("jekyll", "sass", "minify", "minjs", "cleanjs", "rename", "cleanjsm"));

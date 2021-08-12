@@ -10,7 +10,7 @@ released: 2017-08-06
 latestUpdate: 2021-06-03
 version: "0.8.851"
 stars: 4.3
-ratings: 158
+ratings: 159
 reviews: 90
 size: 29M
 website: https://qcan.com

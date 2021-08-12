@@ -9,9 +9,9 @@ appId: com.mfcoin.wallet.dev
 released: 2018-03-22
 latestUpdate: 2020-10-04
 version: "v4.0.0"
-stars: 4.4
-ratings: 88
-reviews: 45
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.4M
 website: mfcoin.net
 repository: 

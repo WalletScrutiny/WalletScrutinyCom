@@ -10,8 +10,8 @@ released: 2017-11-23
 latestUpdate: 2020-11-11
 version: "3.25.1"
 stars: 3.1
-ratings: 1075
-reviews: 575
+ratings: 1074
+reviews: 574
 size: 82M
 website: https://www.tenx.tech
 repository: 

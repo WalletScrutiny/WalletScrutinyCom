@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Rapidpay- Buy, sell & borrow with your crypto"
+altTitle: 
+authors:
+
+users: 1000
+appId: com.zenafinance
+released: 2020-12-17
+latestUpdate: 2021-07-29
+version: "2.1.2"
+stars: 3.7
+ratings: 54
+reviews: 43
+size: 29M
+website: 
+repository: 
+issue: 
+icon: com.zenafinance.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

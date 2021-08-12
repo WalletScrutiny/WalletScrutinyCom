@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-03-07
 signer: 
 reviewArchive:

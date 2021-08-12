@@ -20,7 +20,6 @@ icon: org.freewallet.lite.android.png
 bugbounty: 
 verdict: defunct
 date: 2021-05-25
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-11-29

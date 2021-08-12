@@ -20,7 +20,6 @@ icon: com.walletapp.walletapp.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-04-27

@@ -4,22 +4,22 @@ title: "Xapo Bank"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.xapo.bank
 released: 2021-05-27
-latestUpdate: 2021-07-21
-version: "7.2.1"
-stars: 3.3
-ratings: 58
-reviews: 31
+latestUpdate: 2021-08-09
+version: "7.3.0"
+stars: 2.5
+ratings: 124
+reviews: 80
 size: 58M
-website: 
+website: https://www.xapo.com
 repository: 
 issue: 
 icon: com.xapo.bank.png
 bugbounty: 
-verdict: wip
-date: 2021-07-26
+verdict: custodial
+date: 2021-08-06
 signer: 
 reviewArchive:
 
@@ -34,6 +34,16 @@ redirect_from:
 ---
 
 
+**Update 2021-08-06**: Xapo
+[confirmed on Twitter](https://twitter.com/xapo/status/1423632786112516097)
+that there is a transition happening from xapo to xapo bank:
+
+> Hi, the Xapo Bank app is already available on Google Play, but we are
+  currently only admitting existing users by invite. The old app was been
+  deprecated on July 31st, but this has been amply communicated to our users.
+  Thank you! The Xapo Team
+
 This app was launched in May, yet on "their" website the app is announced as
-"coming soon". We try to figure out if it's fake or actually a product by xapo
-like {% include walletLink.html wallet='android/com.xapo' verdict='true' %}.
+"coming soon".
+
+By its name alone we assume it is custodial and thus **not verifiable**.

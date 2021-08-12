@@ -1676,3 +1676,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     font-size: 18px;
     right: 0px;
 }
+
+html {
+  scroll-behavior: smooth;
+}

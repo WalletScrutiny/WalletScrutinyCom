@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: app.getvega.png
 bugbounty: 
-verdict: fewusers
-date: 2019-12-29
+verdict: defunct
+date: 2021-08-09
 signer: 
 reviewArchive:
-
+- date: 2019-12-29
+  version: ""
+  appHash: 
+  gitRevision: e2e703e641028d5466e8e09931b9c89d19790759
+  verdict: fewusers
 
 providerTwitter: GetVegaApp
 providerLinkedIn: 
@@ -35,3 +39,9 @@ redirect_from:
 ---
 
 
+With the website down and the last tweet more than a year ago stating
+
+> Thinking about mainnet.
+
+we have to assume this app is no more or might even have been for testnet, only
+in the first place.

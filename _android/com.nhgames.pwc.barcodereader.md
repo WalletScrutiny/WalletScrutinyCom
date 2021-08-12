@@ -20,7 +20,6 @@ icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-10
-reviewStale: true
 signer: 
 reviewArchive:
 

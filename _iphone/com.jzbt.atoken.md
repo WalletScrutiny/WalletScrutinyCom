@@ -8,11 +8,11 @@ appId: com.jzbt.atoken
 appCountry: 
 idd: 1395835245
 released: 2018-07-28
-updated: 2021-06-30
-version: "4.1.4"
-stars: 4.94595
-reviews: 259
-size: 178241536
+updated: 2021-08-10
+version: "4.1.6"
+stars: 4.94615
+reviews: 260
+size: 179060736
 website: 
 repository: 
 issue: 

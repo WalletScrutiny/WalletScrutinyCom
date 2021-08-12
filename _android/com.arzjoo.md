@@ -10,8 +10,8 @@ released: 2019-04-25
 latestUpdate: 2021-07-13
 version: "1.4.1"
 stars: 4.3
-ratings: 2615
-reviews: 1032
+ratings: 2647
+reviews: 1043
 size: Varies with device
 website: https://arzjoo.com
 repository: 

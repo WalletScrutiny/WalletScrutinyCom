@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: fr.acinq.phoenix.mainnet
 released: 2019-12-10
-latestUpdate: 2021-06-07
-version: "1.4.14"
+latestUpdate: 2021-07-21
+version: "1.4.15"
 stars: 4.2
-ratings: 244
-reviews: 122
+ratings: 254
+reviews: 128
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm

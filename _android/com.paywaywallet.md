@@ -9,9 +9,9 @@ appId: com.paywaywallet
 released: 2019-02-13
 latestUpdate: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
-stars: 4.0
-ratings: 230
-reviews: 137
+stars: 4.1
+ratings: 233
+reviews: 138
 size: 19M
 website: http://www.payway.ug
 repository: 

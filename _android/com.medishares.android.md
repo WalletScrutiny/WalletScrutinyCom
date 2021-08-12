@@ -20,7 +20,6 @@ icon: com.medishares.android.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-06-18
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-03

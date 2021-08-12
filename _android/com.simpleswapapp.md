@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "SimpleSwap: Cryptocurrency Instant Exchange"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.simpleswapapp
+released: 2020-05-23
+latestUpdate: 2021-07-27
+version: "3.1.5"
+stars: 4.2
+ratings: 259
+reviews: 202
+size: 37M
+website: 
+repository: 
+issue: 
+icon: com.simpleswapapp.png
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

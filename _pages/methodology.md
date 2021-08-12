@@ -49,14 +49,14 @@ What we do not do
   reviewed. For example Google lets the developers slice the market by country,
   device brand
   and even individual users. You would have to compare the fingerprint of the
-  app on your device with the one reported here. For hardware wallets it's even
-  harder to make general statements about the device you hold in handsf.
+  binary on your device with the one reported here. For hardware wallets it's even
+  harder to make general statements about the device you hold in hands.
 
 
 Our manual review goes as follows:
 ==================================
 
-We take the perspective of a **curious potential user** of the respective app.
+We take the perspective of a **curious potential user** of the respective product.
 We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
@@ -69,9 +69,12 @@ findings.
 We answer the following questions usually in this order:
 
 {% include verdictMethodology.html verdict="wip" %}
+{% include verdictMethodology.html verdict="fake" %}
+{% include verdictMethodology.html verdict="unreleased" %}
 {% include verdictMethodology.html verdict="fewusers" %}
 {% include verdictMethodology.html verdict="nowallet" %}
 {% include verdictMethodology.html verdict="nobtc" %}
+{% include verdictMethodology.html verdict="nosendreceive" %}
 {% include verdictMethodology.html verdict="defunct" %}
 {% include verdictMethodology.html verdict="custodial" %}
 {% include verdictMethodology.html verdict="nosource" %}
@@ -187,22 +190,22 @@ What could still go wrong?
 The verdict {% include verdictBadge.html verdict="reproducible" type='short' %}
 unfortunately means very little. It means that
 at the random point in time that we decided to verify the code to match the
-app, the code actually did match the app. It does not mean that the next update
+binary, the code actually did match the binary. It does not mean that the next update
 will or that the prior one did and it does not mean that the reproducible code is
 not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
-would bait-and-switch. It would see to how many users it could grow the app or
+would bait-and-switch. It would see to how many users it could grow the product or
 even buy out a successful wallet in financial trouble to then introduce
 code to leak the backups.
 
-The evil code would not be present until the app is losing users (or funds under
+The evil code would not be present until the product is losing users (or funds under
 management) for whatever other reason.
 
 Any stamp of approval, any past security audit or build verification would be
 obsolete. Therefore we don't see our mission as fulfilled when all wallets are
 reproducible. There is a long road ahead from there. For users running reproducible
-wallets, the wallets would need actual code audits – Before releasing the app to
+wallets, the wallets would need actual code audits – Before releasing the binary to
 its users.
 
 To put things into perspective, reviewing the code some 5 developers put out is

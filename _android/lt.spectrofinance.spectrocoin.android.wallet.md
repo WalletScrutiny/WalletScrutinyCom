@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
 released: 2014-12-05
-latestUpdate: 2021-07-01
-version: "1.15.7"
-stars: 3.1
-ratings: 3108
-reviews: 901
+latestUpdate: 2021-08-05
+version: "1.15.8"
+stars: 3.0
+ratings: 3109
+reviews: 902
 size: 12M
 website: https://spectrocoin.com
 repository: 

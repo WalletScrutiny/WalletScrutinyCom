@@ -18,7 +18,6 @@ icon: pro.bitapp.android.png
 bugbounty: 
 verdict: defunct
 date: 2020-05-07
-reviewStale: false
 signer: 
 reviewArchive:
 

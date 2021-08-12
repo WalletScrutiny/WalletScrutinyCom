@@ -18,7 +18,6 @@ icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
 bugbounty: 
 verdict: defunct
 date: 2020-03-20
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-12-20

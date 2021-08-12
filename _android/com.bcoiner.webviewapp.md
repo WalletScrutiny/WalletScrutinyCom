@@ -20,7 +20,6 @@ icon: com.bcoiner.webviewapp.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-23
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2021-06-17

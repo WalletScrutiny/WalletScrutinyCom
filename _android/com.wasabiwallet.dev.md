@@ -17,7 +17,6 @@ icon: com.wasabiwallet.dev.png
 bugbounty: 
 verdict: defunct
 date: 2021-04-09
-reviewStale: false
 signer: 
 reviewArchive:
 

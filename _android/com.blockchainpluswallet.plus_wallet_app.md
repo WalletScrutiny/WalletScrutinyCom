@@ -20,7 +20,6 @@ icon: com.blockchainpluswallet.plus_wallet_app.jpg
 bugbounty: 
 verdict: defunct
 date: 2021-06-11
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-11-30

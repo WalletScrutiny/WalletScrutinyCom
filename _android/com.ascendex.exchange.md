@@ -1,18 +1,18 @@
 ---
 wsId: ascendex
-title: "AscendEX"
+title: "AscendEX: Bitcoin Exchange/Crypto Trading Platform"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.ascendex.exchange
 released: 2021-04-28
-latestUpdate: 2021-07-26
-version: "2.5.9"
-stars: 3.7
-ratings: 1816
-reviews: 652
-size: 47M
+latestUpdate: 2021-08-08
+version: "2.6.1"
+stars: 3.8
+ratings: 1969
+reviews: 696
+size: 45M
 website: https://ascendex.com
 repository: 
 issue: 

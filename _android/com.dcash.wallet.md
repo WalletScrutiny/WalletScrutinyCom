@@ -20,7 +20,6 @@ icon: com.dcash.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-03-04
-reviewStale: false
 signer: 
 reviewArchive:
 
