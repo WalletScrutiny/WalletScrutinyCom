@@ -3,7 +3,7 @@ wsId:
 title: "FBS Trader — Trading Platform"
 altTitle: 
 authors:
--dannygarcia
+- danny
 
 users: 5000000
 appId: com.fbs.tpand
