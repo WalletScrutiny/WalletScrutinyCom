@@ -9,9 +9,9 @@ appId: app.goodcrypto
 released: 2019-05-20
 latestUpdate: 2021-07-19
 version: "1.7.5"
-stars: 4.4
-ratings: 709
-reviews: 297
+stars: 4.5
+ratings: 710
+reviews: 296
 size: 20M
 website: https://goodcrypto.app
 repository: 

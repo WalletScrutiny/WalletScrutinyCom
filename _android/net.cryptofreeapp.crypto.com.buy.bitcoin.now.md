@@ -4,7 +4,7 @@ title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
 released: 2021-07-28
 latestUpdate: 2021-07-28

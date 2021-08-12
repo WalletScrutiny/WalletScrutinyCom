@@ -4,15 +4,14 @@ title: "Skrill - Pay and spend money online"
 altTitle: 
 authors:
 - danny
-
 users: 5000000
 appId: com.moneybookers.skrillpayments
 released: 2013-10-29
 latestUpdate: 2021-08-09
 version: "3.65.1-2021072710"
 stars: 3.9
-ratings: 120687
-reviews: 61456
+ratings: 120777
+reviews: 61503
 size: 58M
 website: https://www.skrill.com/
 repository: 
@@ -29,8 +28,12 @@ providerTwitter: PlugIntoPaysafe
 providerLinkedIn: Paysafe Group
 providerFacebook: PlugIntoPaysafe
 providerReddit: 
+
 redirect_from:
+
 ---
+
+
 >The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.
 
 From their terms of use:

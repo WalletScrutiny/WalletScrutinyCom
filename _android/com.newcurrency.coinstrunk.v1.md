@@ -10,8 +10,8 @@ released: 2020-10-15
 latestUpdate: 2021-07-16
 version: "1.10"
 stars: 4.3
-ratings: 164
-reviews: 127
+ratings: 167
+reviews: 130
 size: 6.1M
 website: https://buxtank.com/
 repository: 

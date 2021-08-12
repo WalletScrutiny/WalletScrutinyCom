@@ -4,7 +4,7 @@ title: "Coinbase Airdrop - Free YFI, DOT & Aave"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.coinbase.airdrop
 released: 2021-05-31
 latestUpdate: 2021-05-31

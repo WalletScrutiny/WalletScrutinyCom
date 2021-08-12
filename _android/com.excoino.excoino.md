@@ -4,14 +4,14 @@ title: "excoino | اکسکوینو"
 altTitle: 
 authors:
 
-users: 100000
+users: 500000
 appId: com.excoino.excoino
 released: 2018-09-27
 latestUpdate: 2021-07-05
 version: "6.4"
 stars: 4.1
-ratings: 5645
-reviews: 2440
+ratings: 5655
+reviews: 2445
 size: 12M
 website: 
 repository: 

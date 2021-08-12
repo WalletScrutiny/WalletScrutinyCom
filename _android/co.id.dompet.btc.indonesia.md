@@ -10,8 +10,8 @@ released: 2017-01-15
 latestUpdate: 2021-08-05
 version: "Varies with device"
 stars: 3.2
-ratings: 4695
-reviews: 2701
+ratings: 4696
+reviews: 2702
 size: Varies with device
 website: https://www.indodax.com
 repository: 

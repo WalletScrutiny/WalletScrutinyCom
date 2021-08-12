@@ -10,8 +10,8 @@ released: 2017-08-30
 latestUpdate: 2021-07-30
 version: "2.13.11"
 stars: 2.2
-ratings: 753
-reviews: 511
+ratings: 754
+reviews: 512
 size: 7.3M
 website: https://coinsquare.com
 repository: 

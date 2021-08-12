@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.moneybrain.moneybrain
 released: 2019-10-17
-latestUpdate: 2021-06-03
-version: "1.1.56"
+latestUpdate: 2021-08-11
+version: "1.1.64"
 stars: 3.8
 ratings: 9
 reviews: 5

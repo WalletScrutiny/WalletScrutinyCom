@@ -7,8 +7,8 @@ authors:
 users: 50
 appId: com.cabital.cabital
 released: 2021-06-07
-latestUpdate: 2021-07-29
-version: "1.0.4"
+latestUpdate: 2021-08-11
+version: "1.0.5"
 stars: 4.9
 ratings: 10
 reviews: 8

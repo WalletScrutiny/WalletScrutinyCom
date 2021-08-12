@@ -9,9 +9,9 @@ appId: com.bitexen.exchange
 released: 2018-05-27
 latestUpdate: 2021-07-29
 version: "0.42"
-stars: 3.4
-ratings: 8219
-reviews: 6011
+stars: 3.3
+ratings: 8221
+reviews: 6014
 size: 14M
 website: 
 repository: 

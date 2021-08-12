@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.m3.Trendo
 released: 2020-08-20
-latestUpdate: 2021-08-08
-version: "2.4.75"
+latestUpdate: 2021-08-11
+version: "2.4.80"
 stars: 4.7
 ratings: 4242
 reviews: 2292

@@ -4,14 +4,14 @@ title: "Koinbazar -Bitcoin & Cryptocurrency Exchange India"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.application.koinbazar
 released: 2021-05-17
 latestUpdate: 2021-07-30
 version: "1.7"
 stars: 4.1
-ratings: 195
-reviews: 105
+ratings: 200
+reviews: 106
 size: 11M
 website: 
 repository: 

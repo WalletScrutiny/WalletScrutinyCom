@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.spot.spot
 released: 2018-08-02
-latestUpdate: 2021-08-09
+latestUpdate: 2021-08-10
 version: "4.35.1.2690-dfedeb52"
 stars: 4.3
 ratings: 4122

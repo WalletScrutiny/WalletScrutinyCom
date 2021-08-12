@@ -4,7 +4,7 @@ title: "Bitcoin Trading Investment App"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptoearningapps.bitcoin.trading.investment.app
 released: 2021-06-29
 latestUpdate: 2021-06-29

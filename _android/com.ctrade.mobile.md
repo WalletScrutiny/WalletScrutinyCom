@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.ctrade.mobile
 released: 2020-12-19
-latestUpdate: 2021-06-10
-version: "1.0.7"
+latestUpdate: 2021-08-10
+version: "1.0.9"
 stars: 4.7
 ratings: 213
 reviews: 176

@@ -10,7 +10,7 @@ released: 2016-10-01
 latestUpdate: 2021-07-30
 version: "12.7.6"
 stars: 3.6
-ratings: 8971
+ratings: 8973
 reviews: 4270
 size: 23M
 website: https://bitpay.com
