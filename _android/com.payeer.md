@@ -3,7 +3,7 @@ wsId:
 title: "PAYEER"
 altTitle: 
 authors:
--dannygarcia
+- danny
 
 users: 1000000
 appId: com.payeer
@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 31675
 reviews: 17293
 size: Varies with device
-website: https://payeer.com/
+website: https://payeer.com
 repository: 
 issue: 
 icon: com.payeer.png
@@ -31,3 +31,4 @@ providerFacebook: payeercoins
 providerReddit: 
 
 redirect_from:
+---
