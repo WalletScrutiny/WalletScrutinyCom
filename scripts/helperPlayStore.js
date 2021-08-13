@@ -5,7 +5,6 @@ const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
-const probablyDefunct = []
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
 
@@ -74,9 +73,12 @@ function refreshFile(fileName) {
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
         writeResult(app, header, iconExtension, body)
       })
-    }, function(err) {
-      probablyDefunct.push(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
-      console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+    }, (err) => {
+      if (`${err}`.search(/404/) > -1) {
+        console.error(`\n_android/${appId}.md not available (${header.verdict}, ${header.users})`)
+      } else {
+        console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+      }
     })
   }
 }
