@@ -1,40 +1,20 @@
+window.verdictCount = {}
+
 window.addEventListener("load", () => {
-  if (document.getElementById("modularVerdictPH") && window.verdictOrder && window.verdictOrder.length > 0) {
-    const verdictSelect = document.createElement("select")
-    verdictSelect.setAttribute("id", "modularVerdict")
-    verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
-    
-    var verdictOption = document.createElement("option")
-    verdictOption.value = "all"
-    verdictOption.innerHTML = "all"
-    verdictSelect.append(verdictOption)
-    
-    window.verdictOrder.forEach(t => {
-      verdictOption = document.createElement("option")
-      verdictOption.value = t
-      verdictOption.innerHTML = t
-      verdictSelect.append(verdictOption)
-    })
-
-    document.getElementById("modularVerdictPH").replaceWith(verdictSelect)
-    document.getElementById("modularVerdict").selectedIndex = 1
+  const platformNames = Object.keys(window.platforms)
+  for (var p in platformNames) {
+    const platform = platformNames[p]
+    window.verdictCount[platform] = {}
+    for (var v in window.verdictOrder) {
+      const verdict = window.verdictOrder[v]
+      window.verdictCount[platform][verdict] = 0
+    }
   }
-
-  if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
-    const platformSelect = document.createElement("select")
-    platformSelect.setAttribute("id", "modularPlatform")
-    platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
-    
-    window.platformObs.forEach(t => {
-      const platformOption = document.createElement("option")
-      platformOption.value = t
-      platformOption.innerHTML = window.transcribeTag(t).category
-      platformSelect.append(platformOption)
-    })
-
-    document.getElementById("modularPlatformPH").replaceWith(platformSelect)
+  for (var w in window.wallets) {
+    const wallet = window.wallets[w]
+    window.verdictCount[wallet.folder][wallet.verdict]++
   }
-
+  recreateDropdowns("reproducible", "android")
   window.addEventListener("scroll", ignore => {
     const p = document.getElementById("modularWalletPayload")
     const o = p.getBoundingClientRect().bottom
@@ -74,11 +54,71 @@ window.addEventListener("load", () => {
   })
 })
 
-function updateModularPayload() {
-  const verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
-  const platform = (document.getElementById("modularPlatform") || {}).value || "android"
+function recreateDropdowns(verdict, platform) {
+  if (window.verdictOrder && window.verdictOrder.length > 0) {
+    const verdictSelect = document.createElement("select")
+    verdictSelect.setAttribute("id", "modularVerdict")
+    verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
+    
+    var verdictOption = document.createElement("option")
+    verdictOption.value = "all"
+    verdictOption.innerHTML = "all"
+    verdictSelect.append(verdictOption)
+    if ("all" == verdict)
+      verdictOption.selected = true
+    
+    window.verdictOrder.forEach(t => {
+      const count = productCount(t, platform)
+      if (0 == count) {
+        return
+      }
+      verdictOption = document.createElement("option")
+      verdictOption.value = t
+      verdictOption.innerHTML = `${verdicts[t].short} (${count})`
+      verdictSelect.append(verdictOption)
+      if (t == verdict)
+        verdictOption.selected = true
+    })
 
-  document.querySelectorAll(".-filter-element").forEach(function (e) {
+    document.getElementById("modularVerdict").replaceWith(verdictSelect)
+    if (verdict != "all" && 0 == productCount(verdict, platform)) {
+      document.getElementById("modularVerdict").selectedIndex = 1
+    }
+  }
+
+  if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
+    const platformSelect = document.createElement("select")
+    platformSelect.setAttribute("id", "modularPlatform")
+    platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
+    
+    window.platformObs.forEach(t => {
+      const platformOption = document.createElement("option")
+      platformOption.value = t
+      platformOption.innerHTML = window.platforms[t].category
+      platformSelect.append(platformOption)
+      if (t == platform)
+        platformOption.selected = true
+    })
+
+    document.getElementById("modularPlatformPH").replaceWith(platformSelect)
+  }
+}
+
+/**
+ * @return how many products in the platform have the verdict.
+ **/
+function productCount(verdict, platform) {
+  return window.verdictCount[platform][verdict]
+}
+
+function updateModularPayload() {
+  var verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
+  const platform = (document.getElementById("modularPlatform") || {}).value || "android"
+  // remove empty verdicts
+  recreateDropdowns(verdict, platform)
+  verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
+
+  document.querySelectorAll(".-filter-element").forEach(e => {
     e.classList.contains(`-${platform}`) ? (e.style.display="flex") : (e.style.display="none")
   })
 
@@ -98,7 +138,7 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = 'reproducible,nonverifiable,nosource,custodial,obfuscated,fake,noita,plainkey,prefilled,defunct,wip,fewusers,nobtc,nowallet'.split(',')
+  const verdictOrder = 'reproducible,nonverifiable,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,defunct,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
   const paltformOrder = ['android', 'iphone', 'hardware']
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&

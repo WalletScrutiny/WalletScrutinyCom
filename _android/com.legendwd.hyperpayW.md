@@ -20,7 +20,6 @@ icon: com.legendwd.hyperpayW.png
 bugbounty: 
 verdict: defunct
 date: 2021-05-25
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2020-12-02

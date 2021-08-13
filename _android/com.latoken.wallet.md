@@ -3,6 +3,7 @@ wsId:
 title: "LATOKEN: Bitcoin Wallet, Crypto Exchange"
 altTitle: 
 authors:
+<<<<<<< HEAD
 -danny
 users: 500000
 appId: com.latoken.wallet
@@ -12,18 +13,36 @@ version: "1.87.03"
 stars: 4.3
 ratings: 22265
 reviews: 10929
+=======
+
+users: 500000
+appId: com.latoken.wallet
+released: 2020-03-17
+latestUpdate: 2021-08-12
+version: "1.88.00"
+stars: 4.3
+ratings: 22347
+reviews: 10971
+>>>>>>> walletscrutiny/walletScrutinyCom-master
 size: 25M
 website: 
 repository: 
 issue: 
 icon: com.latoken.wallet.png
+<<<<<<< HEAD
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
 verdict: wip
 date: 2021-08-12
+=======
+bugbounty: 
+verdict: wip
+date: 2021-08-01
+>>>>>>> walletscrutiny/walletScrutinyCom-master
 signer: 
 reviewArchive:
 
 
+<<<<<<< HEAD
 providerTwitter: latokens
 providerLinkedIn: latoken
 providerFacebook: LiquidAssetToken
@@ -35,3 +54,15 @@ providerReddit:
 
 This states that the provider can suspend access to your wallet, making it custodial and thus not verifiable.
 redirect_from:
+=======
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
+>>>>>>> walletscrutiny/walletScrutinyCom-master

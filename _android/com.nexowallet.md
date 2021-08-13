@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.nexowallet
 released: 2019-06-28
-latestUpdate: 2021-07-23
-version: "2.0.0"
-stars: 4.0
-ratings: 11560
-reviews: 5401
+latestUpdate: 2021-08-02
+version: "2.0.4"
+stars: 4.3
+ratings: 12695
+reviews: 5876
 size: 65M
 website: https://nexo.io
 repository: 

@@ -19,7 +19,6 @@ icon: com.swapwalletltd.swap.png
 bugbounty: 
 verdict: defunct
 date: 2020-12-28
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2020-12-01

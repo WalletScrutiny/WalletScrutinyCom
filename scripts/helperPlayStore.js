@@ -5,7 +5,6 @@ const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
-const probablyDefunct = []
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
 
@@ -74,9 +73,12 @@ function refreshFile(fileName) {
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
         writeResult(app, header, iconExtension, body)
       })
-    }, function(err) {
-      probablyDefunct.push(`Error with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
-      console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+    }, (err) => {
+      if (`${err}`.search(/404/) > -1) {
+        console.error(`\n_android/${appId}.md not available (${header.verdict}, ${header.users})`)
+      } else {
+        console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+      }
     })
   }
 }
@@ -92,7 +94,7 @@ function writeResult(app, header, iconExtension, body) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   var verdict = header.verdict
-  if ( app.verdict == "" && app.minInstalls < 1000 ) {
+  if ( (header.verdict == "" || header.verdict == "wip" ) && app.minInstalls < 1000 ) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
@@ -124,7 +126,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
 latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version }"
+version: "${ version.replace(/["\\]*/g, "") }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}

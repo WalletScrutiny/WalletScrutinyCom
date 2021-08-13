@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.samourai.wallet
 released: 
-latestUpdate: 2021-07-03
+latestUpdate: 2021-08-05
 version: "Varies with device"
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
 icon: com.samourai.wallet.png
 bugbounty: 
 verdict: nonverifiable
-date: 2020-08-03
+date: 2021-08-02
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 
@@ -35,6 +35,13 @@ redirect_from:
   - /posts/2019/11/samourai/
   - /posts/com.samourai.wallet/
 ---
+
+
+**Update 2021-08-02**: Samourai is currently certainly not reproducible as it's
+even not possible to build it - due to an issue reported two months ago. We
+tried to build it again, as the Samourai devs don't get tired to lie about the
+project's reproducibility and we
+[tried it again](https://twitter.com/LeoWandersleb/status/1422035180794089473).
 
 
 **Update 2021-03-02**: Samourai [claims](https://twitter.com/SamouraiWallet/status/1366582280895004672)

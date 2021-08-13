@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: zapsolutions.strike
 released: 
-latestUpdate: 2021-07-15
-version: "v82"
-stars: 3.9
-ratings: 2735
-reviews: 1141
-size: 9.2M
+latestUpdate: 2021-08-06
+version: "v84"
+stars: 4.1
+ratings: 2830
+reviews: 1173
+size: 9.3M
 website: 
 repository: 
 issue: 

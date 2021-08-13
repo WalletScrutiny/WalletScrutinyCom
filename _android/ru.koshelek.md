@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Кошелек. Криптовалюты Биткоин, Эфириум, TON"
+title: "Koshelek. Cryptocurrencies Bitcoin, Ethereum, TON"
 altTitle: 
 authors:
 
 users: 5000
 appId: ru.koshelek
 released: 2020-07-28
-latestUpdate: 2021-07-24
-version: "1.2.4.2"
+latestUpdate: 2021-08-05
+version: "1.2.5"
 stars: 4.1
-ratings: 71
-reviews: 62
-size: 8.0M
+ratings: 76
+reviews: 65
+size: 8.2M
 website: 
 repository: 
 issue: 

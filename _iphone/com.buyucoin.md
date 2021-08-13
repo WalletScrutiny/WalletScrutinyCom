@@ -10,8 +10,8 @@ idd: 1539456610
 released: 2020-11-17
 updated: 2021-07-21
 version: "1.15"
-stars: 2.33333
-reviews: 6
+stars: 2
+reviews: 8
 size: 47033344
 website: https://www.buyucoin.com
 repository: 

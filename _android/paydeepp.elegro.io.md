@@ -9,8 +9,8 @@ appId: paydeepp.elegro.io
 released: 2018-11-09
 latestUpdate: 2021-07-19
 version: "5.1.2"
-stars: 4.1
-ratings: 22
+stars: 4.2
+ratings: 23
 reviews: 8
 size: 18M
 website: https://elegro.eu

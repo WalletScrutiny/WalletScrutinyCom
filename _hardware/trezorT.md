@@ -7,6 +7,7 @@ released: 2018-03-01
 discontinued: # date
 latestUpdate: 
 version: 2.3.6
+binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions: [64, 39, 10]
 weight: 22
 website: https://trezor.io

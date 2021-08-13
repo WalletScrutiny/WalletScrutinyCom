@@ -10,8 +10,8 @@ idd: 1376959464
 released: 2018-08-06
 updated: 2019-11-22
 version: "2.0.5"
-stars: 4.33
-reviews: 300
+stars: 4.31893
+reviews: 301
 size: 72262656
 website: http://ethos.io
 repository: 

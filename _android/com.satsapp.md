@@ -18,7 +18,6 @@ icon: com.satsapp.png
 bugbounty: 
 verdict: defunct
 date: 2020-07-31
-reviewStale: false
 signer: 
 reviewArchive:
 

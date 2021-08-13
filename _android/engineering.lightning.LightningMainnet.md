@@ -20,7 +20,6 @@ icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
 verdict: defunct
 date: 2021-02-04
-reviewStale: false
 signer: 
 reviewArchive:
 

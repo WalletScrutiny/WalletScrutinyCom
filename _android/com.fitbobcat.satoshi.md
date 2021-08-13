@@ -20,7 +20,6 @@ icon: com.fitbobcat.satoshi.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-08
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-12-28

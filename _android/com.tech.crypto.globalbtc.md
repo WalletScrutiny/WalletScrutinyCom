@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Global btc trader"
+altTitle: 
+authors:
+
+users: 1000
+appId: com.tech.crypto.globalbtc
+released: 2017-12-26
+latestUpdate: 2018-07-03
+version: "1.9"
+stars: 4.0
+ratings: 20
+reviews: 8
+size: 7.1M
+website: 
+repository: 
+issue: 
+icon: com.tech.crypto.globalbtc.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

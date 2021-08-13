@@ -21,7 +21,6 @@ icon: com.citowise.wallet.png
 bugbounty: 
 verdict: defunct
 date: 2021-06-02
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-04-30

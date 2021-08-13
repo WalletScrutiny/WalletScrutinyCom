@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: org.topnetwork.hiwallet
 released: 2020-04-08
-latestUpdate: 2021-02-09
-version: "V2.1.3"
+latestUpdate: 2021-08-12
+version: "V2.3.1"
 stars: 4.0
 ratings: 25
 reviews: 15

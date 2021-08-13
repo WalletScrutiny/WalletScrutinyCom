@@ -1,18 +1,18 @@
 ---
 wsId: bithumbsg
-title: "Bithumb Singapore - Global Cryptocurrency Exchange"
+title: "Bitholic - Global Digital Asset Exchange"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
 released: 2019-01-20
-latestUpdate: 2020-08-05
-version: "1.0.9"
+latestUpdate: 2021-08-02
+version: "1.1.1"
 stars: 4.1
 ratings: 163
 reviews: 103
-size: 2.0M
+size: 2.2M
 website: https://www.bithumbsg.com
 repository: 
 issue: 

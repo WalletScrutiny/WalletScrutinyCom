@@ -20,7 +20,6 @@ icon: binance.cryptowalletapp.png
 bugbounty: 
 verdict: defunct
 date: 2021-05-05
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2021-04-13

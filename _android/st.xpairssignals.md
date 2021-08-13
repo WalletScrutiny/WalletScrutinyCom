@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Forex indicator signals and crypto currency (Free)"
+altTitle: 
+authors:
+
+users: 100000
+appId: st.xpairssignals
+released: 2017-10-07
+latestUpdate: 2020-02-21
+version: "4.4"
+stars: 4.2
+ratings: 817
+reviews: 472
+size: 3.4M
+website: 
+repository: 
+issue: 
+icon: st.xpairssignals.png
+bugbounty: 
+verdict: wip
+date: 2021-08-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
