@@ -4,7 +4,7 @@ title: "LocalBitcoin"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.wLocalCrytoBTC_13166476
 released: 2021-02-05
 latestUpdate: 2021-08-05
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wLocalCrytoBTC_13166476.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-01
 signer: 
 reviewArchive:

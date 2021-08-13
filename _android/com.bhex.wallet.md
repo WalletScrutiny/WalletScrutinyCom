@@ -4,7 +4,7 @@ title: "BHEX Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.bhex.wallet
 released: 2021-07-07
 latestUpdate: 2021-08-10

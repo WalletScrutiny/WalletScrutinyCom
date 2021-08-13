@@ -9,9 +9,9 @@ appId: net.bitbay.bitcoin
 released: 2018-11-19
 latestUpdate: 2021-08-05
 version: "1.1.25"
-stars: 2.7
-ratings: 935
-reviews: 504
+stars: 2.6
+ratings: 938
+reviews: 506
 size: 16M
 website: https://bitbay.net
 repository: 

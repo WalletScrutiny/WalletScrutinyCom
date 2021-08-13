@@ -9,9 +9,9 @@ appId: com.p2pchallenger
 released: 2021-04-16
 latestUpdate: 2021-05-24
 version: "1.0.8"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 5
+reviews: 2
 size: 32M
 website: 
 repository: 

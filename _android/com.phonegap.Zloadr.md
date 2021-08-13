@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr – Trade, Top Up, Recharge & Refill with BTC"
+title: "Zloadr – Free Crypto Airdrops and Bounty Campaigns"
 altTitle: 
 authors:
 

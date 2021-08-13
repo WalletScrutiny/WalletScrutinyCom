@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cryptowallet.crypto.invest.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-08-13
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-13**: This app is not available anymore

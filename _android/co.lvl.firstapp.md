@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "LVL - Bitcoin & Banking"
+title: "LVL - The Money App"
 altTitle: 
 authors:
 
 users: 10000
 appId: co.lvl.firstapp
 released: 2020-06-30
-latestUpdate: 2021-01-29
-version: "1.0.3"
+latestUpdate: 2021-08-11
+version: "1.0.4"
 stars: 4.0
 ratings: 130
 reviews: 58
-size: 55M
+size: 66M
 website: 
 repository: 
 issue: 

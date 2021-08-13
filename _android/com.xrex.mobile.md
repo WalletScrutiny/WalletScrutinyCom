@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "XREX Exchange - Buy & Sell Bitcoin, USD and more"
+title: "XREX Exchange - Trusted Crypto Trading Community"
 altTitle: 
 authors:
 

@@ -9,9 +9,9 @@ appId: com.quppy
 released: 2018-09-17
 latestUpdate: 2021-08-11
 version: "1.0.55"
-stars: 5.0
-ratings: 3167
-reviews: 1008
+stars: 4.9
+ratings: 3169
+reviews: 1010
 size: 15M
 website: https://quppy.com
 repository: 

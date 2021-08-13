@@ -9,9 +9,9 @@ appId: app.bankowallet.android
 released: 2019-07-22
 latestUpdate: 2020-06-29
 version: "1.3.17851"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 1.9
+ratings: 15
+reviews: 12
 size: 22M
 website: 
 repository: 

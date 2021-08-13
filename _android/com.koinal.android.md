@@ -9,9 +9,9 @@ appId: com.koinal.android
 released: 2020-06-04
 latestUpdate: 2021-08-11
 version: "1.2.9"
-stars: 4.8
-ratings: 445
-reviews: 241
+stars: 4.3
+ratings: 359
+reviews: 239
 size: 37M
 website: https://www.koinal.io
 repository: 

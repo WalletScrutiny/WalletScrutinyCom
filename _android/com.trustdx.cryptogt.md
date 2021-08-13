@@ -7,8 +7,8 @@ authors:
 users: 10
 appId: com.trustdx.cryptogt
 released: 2021-07-02
-latestUpdate: 2021-07-19
-version: "2.0"
+latestUpdate: 2021-08-13
+version: "3.0"
 stars: 0.0
 ratings: 
 reviews: 

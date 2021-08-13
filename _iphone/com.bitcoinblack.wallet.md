@@ -4,6 +4,7 @@ title: "Bitcoin Black Wallet"
 altTitle: 
 authors:
 - kiwilamb
+- leo
 appId: com.bitcoinblack.wallet
 appCountry: 
 idd: 1523044877
@@ -18,11 +19,15 @@ repository:
 issue: 
 icon: com.bitcoinblack.wallet.jpg
 bugbounty: 
-verdict: nobtc
-date: 2021-04-29
+verdict: defunct
+date: 2021-08-08
 signer: 
 reviewArchive:
-
+- date: 2021-04-29
+  version: "1.0.5"
+  appHash: 
+  gitRevision: 8846f7c2efdc1cf24d876fec2622625a77fe31a5
+  verdict: nobtc
 
 providerTwitter: BCB_Official1
 providerLinkedIn: 
@@ -32,5 +37,8 @@ providerReddit: AllAboardBitcoinBlack
 redirect_from:
 
 ---
+
+**Update 2021-08-13**: This app is not anymore.
+
 
 This is a wallet for an alt coin "Bitcoin Black"

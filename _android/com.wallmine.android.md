@@ -9,9 +9,9 @@ appId: com.wallmine.android
 released: 2019-11-21
 latestUpdate: 2020-07-29
 version: "1.1.10"
-stars: 3.8
-ratings: 52
-reviews: 26
+stars: 3.7
+ratings: 53
+reviews: 27
 size: 789k
 website: 
 repository: 

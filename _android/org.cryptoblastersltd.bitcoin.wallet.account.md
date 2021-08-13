@@ -4,7 +4,7 @@ title: "Bitcoin Wallet Account"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: org.cryptoblastersltd.bitcoin.wallet.account
 released: 2021-06-18
 latestUpdate: 2021-06-18

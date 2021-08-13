@@ -10,8 +10,8 @@ idd: 1408914447
 released: 2018-12-11
 updated: 2021-08-11
 version: "3.28.0"
-stars: 4.77517
-reviews: 54000
+stars: 4.77501
+reviews: 54117
 size: 110192640
 website: http://gemini.com
 repository: 

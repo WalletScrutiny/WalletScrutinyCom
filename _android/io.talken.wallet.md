@@ -10,8 +10,8 @@ released: 2019-07-31
 latestUpdate: 2021-08-06
 version: "1.0.26"
 stars: 3.1
-ratings: 105
-reviews: 65
+ratings: 106
+reviews: 66
 size: 14M
 website: https://talken.io/
 repository: 

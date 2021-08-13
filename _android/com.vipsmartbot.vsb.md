@@ -9,9 +9,9 @@ appId: com.vipsmartbot.vsb
 released: 2020-11-17
 latestUpdate: 2020-11-18
 version: "0.0.1"
-stars: 3.6
-ratings: 19
-reviews: 13
+stars: 3.5
+ratings: 20
+reviews: 14
 size: 4.6M
 website: 
 repository: 
