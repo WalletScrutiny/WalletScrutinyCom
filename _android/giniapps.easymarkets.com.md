@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "easyMarkets - Online Trading"
+title: "easyMarkets Trade Cryptos, Shares, Forex & More"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2017-04-05
 latestUpdate: 2021-07-02
 version: "1.24.1"
 stars: 4.0
-ratings: 1564
-reviews: 674
+ratings: 1565
+reviews: 675
 size: 46M
 website: 
 repository: 

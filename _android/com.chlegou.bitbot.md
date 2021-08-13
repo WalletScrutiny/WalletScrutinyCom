@@ -9,9 +9,9 @@ appId: com.chlegou.bitbot
 released: 2019-01-02
 latestUpdate: 2021-05-17
 version: "1.5.6"
-stars: 4.2
-ratings: 22
-reviews: 14
+stars: 3.8
+ratings: 7426
+reviews: 4368
 size: 9.5M
 website: 
 repository: 

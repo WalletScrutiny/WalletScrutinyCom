@@ -10,8 +10,8 @@ released: 2018-01-03
 latestUpdate: 2020-12-24
 version: "Varies with device"
 stars: 4.2
-ratings: 31675
-reviews: 17293
+ratings: 31712
+reviews: 17315
 size: Varies with device
 website: https://payeer.com
 repository: 
@@ -30,6 +30,7 @@ providerFacebook: payeercoins
 providerReddit: 
 
 redirect_from:
+
 ---
 
 Taken from the Play Store description:

@@ -9,9 +9,9 @@ appId: com.prestmit
 released: 2021-04-13
 latestUpdate: 2021-08-09
 version: "2.2"
-stars: 4.6
-ratings: 386
-reviews: 334
+stars: 4.7
+ratings: 363
+reviews: 312
 size: 8.4M
 website: 
 repository: 

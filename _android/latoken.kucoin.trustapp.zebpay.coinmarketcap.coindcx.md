@@ -4,7 +4,7 @@ title: "Coin-DC: Bitcoin, cryptocurrency investment app"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx
 released: 2021-06-01
 latestUpdate: 2021-06-02

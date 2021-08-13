@@ -11,8 +11,8 @@ idd: 1438224938
 released: 2018-10-25
 updated: 2021-07-21
 version: "1.2.7"
-stars: 1.85714
-reviews: 7
+stars: 1.33333
+reviews: 6
 size: 34306048
 website: https://www.coindirect.com/
 repository: 

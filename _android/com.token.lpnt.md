@@ -9,9 +9,9 @@ appId: com.token.lpnt
 released: 2021-05-03
 latestUpdate: 2021-07-24
 version: "1.6"
-stars: 4.1
-ratings: 547
-reviews: 308
+stars: 4.0
+ratings: 554
+reviews: 313
 size: 5.7M
 website: 
 repository: 

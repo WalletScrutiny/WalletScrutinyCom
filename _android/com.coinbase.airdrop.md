@@ -9,8 +9,8 @@ appId: com.coinbase.airdrop
 released: 2021-05-31
 latestUpdate: 2021-05-31
 version: "1.0"
-stars: 3.0
-ratings: 6
+stars: 3.3
+ratings: 7
 reviews: 6
 size: 5.8M
 website: 

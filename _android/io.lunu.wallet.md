@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: io.lunu.wallet
 released: 2020-09-08
-latestUpdate: 2021-08-02
-version: "1.3.0"
+latestUpdate: 2021-08-11
+version: "1.3.1"
 stars: 0.0
 ratings: 
 reviews: 

@@ -73,8 +73,12 @@ function refreshFile(fileName) {
       helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
         writeResult(app, header, iconExtension, body)
       })
-    }, function(err){
-      console.error(`\nError with ${appId} https://apps.apple.com/us/app/id${idd} : ${err}`)
+    }, (err) => {
+      if (`${err}`.search(/404/) > -1) {
+        console.error(`\n_iphone/${appId}.md not available (${header.verdict})`)
+      } else {
+        console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${err}`)
+      }
     })
   }
 }

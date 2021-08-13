@@ -13,11 +13,12 @@ logIfUnchanged() {
   original=$tmpDir$changed
   if [[ ! $changed =~ ^.*\.(jpg|png)$ ]]; then
     # if file is not a jpg or png, it is deleted.
-    echo "Deleting $changed"
+    echo "Deleting unexpected $changed"
     rm $changed
-  elif [ -f "$original" ] && $( compare -metric AE $original $changed NULL: ); then
-    echo "$changed is unchanged"
+  elif [ -f "$original" ] && $( compare -metric AE $original $changed NULL:  >/dev/null ); then
     echo $changed >> /tmp/revert.txt
+  else
+    echo "$changed changed"
   fi
 }
 
@@ -28,7 +29,6 @@ revertImagesThatDidNotChange() {
   if [[ $files ]]; then parallel logIfUnchanged {} ::: $files; fi
   revertFiles=$( cat /tmp/revert.txt | paste -sd ' ' )
   if [[ $revertFiles ]]; then
-    echo "Reverting files $revertFiles"
     git checkout HEAD $revertFiles
   fi
 }

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "sMiles: Earn free Bitcoin"
+title: "sMiles: Earn Free Bitcoin"
 altTitle: 
 authors:
 

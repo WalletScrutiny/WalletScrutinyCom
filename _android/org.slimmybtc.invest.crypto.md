@@ -4,7 +4,7 @@ title: "Invest Crypto"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.slimmybtc.invest.crypto
 released: 2021-07-18
 latestUpdate: 2021-07-18
