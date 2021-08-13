@@ -4,7 +4,6 @@ title: "PAYEER"
 altTitle: 
 authors:
 - danny
-
 users: 1000000
 appId: com.payeer
 released: 2018-01-03
@@ -20,7 +19,7 @@ issue:
 icon: com.payeer.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-11
+date: 2021-08-13
 signer: 
 reviewArchive:
 
