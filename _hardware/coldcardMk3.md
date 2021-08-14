@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2018-04-01
 discontinued: # date
-latestUpdate: 
-version: 
+latestUpdate: 2021-07-28
+version: v4.1.2
 dimensions: [88, 51, 9]
 weight: 30
 website: https://coinkite.com/
@@ -19,7 +19,7 @@ issue: https://twitter.com/LeoWandersleb/status/1425907273029857281
 icon: ColdCardMk3.png
 bugbounty: 
 verdict: nonverifiable
-date: 2021-08-12
+date: 2021-08-14
 signer: 
 reviewArchive:
 
