@@ -4,7 +4,7 @@ title: "Bitcoin Wallet Account"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: org.cryptooptionstrading.bitcoin.wallet.account
 released: 2021-07-20
 latestUpdate: 2021-07-20

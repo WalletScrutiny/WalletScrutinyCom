@@ -10,8 +10,8 @@ released: 2012-12-22
 latestUpdate: 2021-07-18
 version: "195"
 stars: 4.2
-ratings: 3707
-reviews: 1612
+ratings: 3708
+reviews: 1613
 size: 8.0M
 website: 
 repository: 

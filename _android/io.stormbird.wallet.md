@@ -9,9 +9,9 @@ appId: io.stormbird.wallet
 released: 2018-05-19
 latestUpdate: 2021-08-03
 version: "3.36.1"
-stars: 3.8
-ratings: 107
-reviews: 59
+stars: 3.7
+ratings: 109
+reviews: 61
 size: 34M
 website: 
 repository: 

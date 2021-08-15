@@ -10,8 +10,8 @@ released: 2018-01-03
 latestUpdate: 2020-12-24
 version: "Varies with device"
 stars: 4.2
-ratings: 31712
-reviews: 17315
+ratings: 31758
+reviews: 17343
 size: Varies with device
 website: https://payeer.com
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Taken from the Play Store description:
 > Exchange Fiat and Cryptocurrencies on Trade Platform or Convert automatically, Fund up your account with VISA and MasterCard, Make payments worldwide between more than 20.000.000 PAYEER accounts from 127 countries of the world!

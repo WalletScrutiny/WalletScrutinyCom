@@ -9,8 +9,8 @@ appId: io.hexawallet.hexa
 released: 2020-03-26
 latestUpdate: 2021-05-05
 version: "1.6.5"
-stars: 3.8
-ratings: 21
+stars: 3.9
+ratings: 22
 reviews: 13
 size: 43M
 website: https://hexawallet.io

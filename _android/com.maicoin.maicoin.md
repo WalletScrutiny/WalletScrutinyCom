@@ -9,9 +9,9 @@ appId: com.maicoin.maicoin
 released: 2018-12-19
 latestUpdate: 2021-07-05
 version: "3.5.1"
-stars: 3.4
-ratings: 436
-reviews: 158
+stars: 3.3
+ratings: 435
+reviews: 157
 size: 52M
 website: 
 repository: 

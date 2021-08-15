@@ -3,17 +3,16 @@ wsId:
 title: "FBS Trader — Trading Platform"
 altTitle: 
 authors:
-
 - danny
 users: 5000000
 appId: com.fbs.tpand
 released: 2019-03-25
 latestUpdate: 2021-08-11
-version: "1.39.2"
+version: "1.39.3"
 stars: 4.6
-ratings: 95897
-reviews: 24103
-size: 17M
+ratings: 96032
+reviews: 24093
+size: 19M
 website: 
 repository: 
 issue: 

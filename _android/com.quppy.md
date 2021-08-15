@@ -10,8 +10,8 @@ released: 2018-09-17
 latestUpdate: 2021-08-11
 version: "1.0.55"
 stars: 4.9
-ratings: 3169
-reviews: 1010
+ratings: 3173
+reviews: 1012
 size: 15M
 website: https://quppy.com
 repository: 

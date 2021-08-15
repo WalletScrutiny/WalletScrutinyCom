@@ -8,11 +8,11 @@ appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
 released: 2018-02-09
-updated: 2021-07-27
-version: "2.0.16"
-stars: 4.46225
-reviews: 954
-size: 71092224
+updated: 2021-08-13
+version: "2.0.17"
+stars: 4.46507
+reviews: 959
+size: 71094272
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 

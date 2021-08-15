@@ -10,7 +10,7 @@ released: 2020-06-17
 latestUpdate: 2021-06-03
 version: "1.0.14"
 stars: 3.9
-ratings: 101
+ratings: 102
 reviews: 37
 size: 43M
 website: https://www.coinburp.com/

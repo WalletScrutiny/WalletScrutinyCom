@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "DiDi-Bitcoin Crypto Wallet Zerodha Tradingview"
+title: "DiDi-Chat Game Bitcoin Crypto Wallet blockchain"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: com.didi.message
 released: 2020-04-30
 latestUpdate: 2021-08-09
 version: "1.9.0"
-stars: 3.9
-ratings: 409
-reviews: 196
+stars: 3.7
+ratings: 418
+reviews: 206
 size: 79M
 website: 
 repository: 
