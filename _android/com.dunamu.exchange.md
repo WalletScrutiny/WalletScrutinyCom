@@ -3,7 +3,7 @@ wsId:
 title: "업비트 - 가장 신뢰받는 디지털 자산(비트코인, 이더리움, 비트코인캐시) 거래소"
 altTitle: 
 authors:
-
+- danny
 users: 5000000
 appId: com.dunamu.exchange
 released: 2017-10-23
@@ -13,24 +13,25 @@ stars: 3.6
 ratings: 21619
 reviews: 8877
 size: 26M
-website: 
+website: https://upbit.com
 repository: 
 issue: 
 icon: com.dunamu.exchange.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: custodial
+date: 2021-08-16
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: upbitglobal
+providerLinkedIn: upbit-official
+providerFacebook: upbit.exchange
 providerReddit: 
 
 redirect_from:
 
 ---
+There are two versions of this app: one for Korea and one that's global. 
 
-
+Upbit uses ID verification and KYC therefore we can assume that it is **custodial** and **not verifiable**. You cannot deposit or withdraw BTC as well as other altcoins without finishing their level 2 KYC. They also claim to have multi-sig and cold wallets.
