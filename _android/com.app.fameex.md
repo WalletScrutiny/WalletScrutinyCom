@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "FAMEEX: Buy Bitcoin & Crypto, Quant & Grid Trading"
+title: "FAMEEX: bitcoin, crypto, quant, grid trading"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2020-08-10
 latestUpdate: 2021-08-05
 version: "2.4.3"
 stars: 5.0
-ratings: 399
-reviews: 364
+ratings: 412
+reviews: 377
 size: 41M
 website: 
 repository: 

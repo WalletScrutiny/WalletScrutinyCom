@@ -4,7 +4,7 @@ title: "Eko Wallet - Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.EkoWallet
 released: 
 latestUpdate: 2021-07-12

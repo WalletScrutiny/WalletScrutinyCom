@@ -9,9 +9,9 @@ appId: ng.wallet.app
 released: 2017-06-22
 latestUpdate: 2021-08-09
 version: "2.479"
-stars: 3.5
-ratings: 1674
-reviews: 1345
+stars: 3.6
+ratings: 1678
+reviews: 1346
 size: 17M
 website: 
 repository: 

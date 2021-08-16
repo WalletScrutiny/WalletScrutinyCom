@@ -10,8 +10,8 @@ released: 2019-04-05
 latestUpdate: 2021-02-09
 version: "4.4"
 stars: 3.9
-ratings: 2042
-reviews: 1350
+ratings: 2043
+reviews: 1351
 size: 14M
 website: https://flitsnode.app
 repository: 

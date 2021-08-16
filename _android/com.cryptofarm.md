@@ -9,9 +9,9 @@ appId: com.cryptofarm
 released: 2021-06-10
 latestUpdate: 2021-08-13
 version: "1.0.13"
-stars: 3.8
-ratings: 1123
-reviews: 588
+stars: 4.0
+ratings: 1146
+reviews: 594
 size: 31M
 website: 
 repository: 

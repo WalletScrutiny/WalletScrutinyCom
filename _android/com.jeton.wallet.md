@@ -9,9 +9,9 @@ appId: com.jeton.wallet
 released: 2018-12-27
 latestUpdate: 2021-08-03
 version: "3.2.8"
-stars: 3.6
-ratings: 2367
-reviews: 1401
+stars: 3.5
+ratings: 2374
+reviews: 1403
 size: 75M
 website: 
 repository: 

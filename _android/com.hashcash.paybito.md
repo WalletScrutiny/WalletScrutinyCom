@@ -9,9 +9,9 @@ appId: com.hashcash.paybito
 released: 2019-10-24
 latestUpdate: 2021-05-27
 version: "2.2.3"
-stars: 4.6
-ratings: 250
-reviews: 212
+stars: 4.5
+ratings: 251
+reviews: 213
 size: 6.4M
 website: 
 repository: 

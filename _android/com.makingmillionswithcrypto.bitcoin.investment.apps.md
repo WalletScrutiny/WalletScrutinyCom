@@ -4,7 +4,7 @@ title: "Bitcoin Investment Apps"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.makingmillionswithcrypto.bitcoin.investment.apps
 released: 2021-06-17
 latestUpdate: 2021-06-17

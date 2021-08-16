@@ -4,7 +4,7 @@ title: "비스펙스- 비트코인 마진거래 소액투자"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: kr.co.coin5.bj
 released: 2020-06-10
 latestUpdate: 2020-06-11

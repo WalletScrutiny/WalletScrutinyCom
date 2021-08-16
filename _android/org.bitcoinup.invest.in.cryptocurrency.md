@@ -4,7 +4,7 @@ title: "Invest In Cryptocurrency"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.bitcoinup.invest.in.cryptocurrency
 released: 2021-06-17
 latestUpdate: 2021-06-17
