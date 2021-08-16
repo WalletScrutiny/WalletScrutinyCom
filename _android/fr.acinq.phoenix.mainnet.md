@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: phoenix
 title: "Phoenix | The Bitcoin wallet from the future"
 altTitle: 
 authors:
