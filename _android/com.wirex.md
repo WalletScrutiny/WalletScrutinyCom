@@ -3,7 +3,7 @@ wsId:
 title: "Wirex Multicurrency Crypto Wallet"
 altTitle: 
 authors:
--danny
+- danny
 users: 1000000
 appId: com.wirex
 released: 2016-03-31
@@ -33,7 +33,11 @@ redirect_from:
 
 ---
 From their app description:
->Download the Wirex app today and discover seamless and secure ways to store, buy, exchange and spend crypto and traditional currency at the best rates available.
+
+> Download the Wirex app today and discover seamless and secure ways to store, buy, exchange and spend crypto and traditional currency at the best rates available.
+
 From their terms of use:
->When you ask us to buy DPTs on your behalf through the Wirex Service, we will store the DPTs in pooled crypto wallets created and maintained by our third-party wallet custodian or by us.
+
+> When you ask us to buy DPTs on your behalf through the Wirex Service, we will store the DPTs in pooled crypto wallets created and maintained by our third-party wallet custodian or by us.
+
 This makes the app custodial and also not verifiable.
