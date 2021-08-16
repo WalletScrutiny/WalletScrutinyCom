@@ -4,7 +4,7 @@ title: "Crypto Earn"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.bitcoinheroes.crypto.earn
 released: 2021-06-15
 latestUpdate: 2021-06-15

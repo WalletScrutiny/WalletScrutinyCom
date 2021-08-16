@@ -8,11 +8,11 @@ appId: com.ownrwallet.desktop
 appCountry: 
 idd: 1520395378
 released: 2020-08-13
-updated: 2021-06-14
-version: "1.6.0"
+updated: 2021-08-13
+version: "1.6.4"
 stars: 
 reviews: 
-size: 124475844
+size: 124692798
 website: https://ownrwallet.com
 repository: 
 issue: 

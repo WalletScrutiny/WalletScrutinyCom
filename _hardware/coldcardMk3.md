@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2018-04-01
 discontinued: # date
-latestUpdate: 
-version: 
+latestUpdate: 2021-07-28
+version: v4.1.2
 dimensions: [88, 51, 9]
 weight: 30
 website: https://coinkite.com/
@@ -18,8 +18,8 @@ repository: https://github.com/Coldcard/firmware
 issue: https://twitter.com/LeoWandersleb/status/1425907273029857281
 icon: ColdCardMk3.png
 bugbounty: 
-verdict: wip
-date: 2021-08-12
+verdict: nonverifiable
+date: 2021-08-14
 signer: 
 reviewArchive:
 
@@ -98,7 +98,7 @@ So the complete [section on Reproducible Builds](https://github.com/Coldcard/fir
 > 5. Build products can be found `firmware/stm32/built`.
 
 Let's see ... we have docker installed and running aka "started" and make is
-available, too. Let's see what `make repo` would run on our machine first:
+available, too. Let's see what `make repro` would run on our machine first:
 
 ```
 $ git clone https://github.com/Coldcard/firmware.git; cd firmware/stm32
@@ -442,3 +442,10 @@ Need published binary for: 4.1.2
 
 Copy it into ../releases
 ```
+
+So just to be safe this is not an issue with the shortcut we took by not running
+`make repro` and neither an issue with `../releases/` referring to a folder
+further up in the hierarchy, we tried with `make repro`, with
+`2021-07-28T1347-v4.1.2-coldcard.dfu` in both the existing `firmware/releases`
+and a new `firmware/../releases` to no avail. For now, this firmware is
+**not verifiable**.

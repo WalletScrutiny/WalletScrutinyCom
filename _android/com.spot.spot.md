@@ -4,14 +4,14 @@ title: "Buy Bitcoin, cryptocurrency - Spot BTC wallet"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.spot.spot
 released: 2018-08-02
 latestUpdate: 2021-08-11
 version: "4.36.1.2698-1cc6e888"
 stars: 4.3
-ratings: 4122
-reviews: 1991
+ratings: 4124
+reviews: 1992
 size: 73M
 website: https://www.spot-bitcoin.com
 repository: 

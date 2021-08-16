@@ -10,8 +10,8 @@ idd: 1512655474
 released: 2020-05-21
 updated: 2021-07-31
 version: "1.1.3"
-stars: 4.08911
-reviews: 101
+stars: 4.08491
+reviews: 106
 size: 51066880
 website: 
 repository: 

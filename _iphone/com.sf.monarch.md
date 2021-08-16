@@ -8,8 +8,8 @@ appId: com.sf.monarch
 appCountry: 
 idd: 1386397997
 released: 2018-06-12
-updated: 2021-08-07
-version: "1.6.3"
+updated: 2021-08-13
+version: "1.6.4"
 stars: 4.76959
 reviews: 434
 size: 159134720

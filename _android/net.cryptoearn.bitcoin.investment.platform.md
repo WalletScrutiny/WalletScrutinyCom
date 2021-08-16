@@ -4,7 +4,7 @@ title: "Bitcoin Investment Platform"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: net.cryptoearn.bitcoin.investment.platform
 released: 2021-06-29
 latestUpdate: 2021-06-29

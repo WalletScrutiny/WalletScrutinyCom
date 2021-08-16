@@ -11,9 +11,10 @@ authors:
 users: 1000000
 appId: com.crypter.cryptocyrrency
 released: 2017-09-09
-latestUpdate: 2021-07-27
-version: "2.6.3"
+latestUpdate: 2021-08-13
+version: "2.6.4"
 stars: 4.6
+<<<<<<< HEAD
 <<<<<<< HEAD
 ratings: 67257
 reviews: 18873
@@ -22,6 +23,10 @@ website: https://thecrypto.app/
 =======
 ratings: 67377
 reviews: 18908
+=======
+ratings: 67503
+reviews: 18944
+>>>>>>> leo/master
 size: 34M
 website: 
 >>>>>>> walletscrutiny/walletScrutinyCom-master

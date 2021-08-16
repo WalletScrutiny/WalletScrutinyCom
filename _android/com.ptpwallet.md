@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.ptpwallet
 released: 2018-12-04
-latestUpdate: 2021-07-14
-version: "1.0.1225"
+latestUpdate: 2021-08-11
+version: "1.0.1229"
 stars: 4.0
 ratings: 337
 reviews: 245

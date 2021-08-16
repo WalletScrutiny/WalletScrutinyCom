@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.application.koinbazar
 released: 2021-05-17
-latestUpdate: 2021-07-30
-version: "1.7"
+latestUpdate: 2021-08-14
+version: "1.8"
 stars: 4.1
-ratings: 205
-reviews: 111
-size: 11M
+ratings: 229
+reviews: 125
+size: 12M
 website: 
 repository: 
 issue: 

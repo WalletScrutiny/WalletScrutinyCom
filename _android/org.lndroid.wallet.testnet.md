@@ -4,7 +4,7 @@ title: "Lndroid.Wallet Testnet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: org.lndroid.wallet.testnet
 released: 2020-03-23
 latestUpdate: 2020-04-14

@@ -10,8 +10,8 @@ released: 2014-01-31
 latestUpdate: 2021-06-09
 version: "Varies with device"
 stars: 4.4
-ratings: 37190
-reviews: 21145
+ratings: 37217
+reviews: 21157
 size: Varies with device
 website: https://www.coinomi.com
 repository: 

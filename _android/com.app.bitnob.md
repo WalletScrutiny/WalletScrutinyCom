@@ -4,14 +4,14 @@ title: "Bitnob"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.app.bitnob
 released: 2020-05-25
 latestUpdate: 2021-07-27
 version: "1.0.56"
-stars: 4.2
-ratings: 166
-reviews: 104
+stars: 4.1
+ratings: 168
+reviews: 105
 size: 33M
 website: 
 repository: 

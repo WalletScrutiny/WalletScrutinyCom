@@ -20,10 +20,16 @@ appId: com.latoken.wallet
 released: 2020-03-17
 latestUpdate: 2021-08-12
 version: "1.88.00"
+<<<<<<< HEAD
 stars: 4.3
 ratings: 22347
 reviews: 10971
 >>>>>>> walletscrutiny/walletScrutinyCom-master
+=======
+stars: 4.4
+ratings: 22438
+reviews: 11011
+>>>>>>> leo/master
 size: 25M
 website: 
 repository: 
