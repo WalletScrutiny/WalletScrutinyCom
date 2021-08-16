@@ -1,5 +1,13 @@
 #!/bin/bash
 
+while getopts a option
+do
+  case "${option}"
+  in
+    a) updateAllImages=1;;
+  esac
+done
+
 mkdir images/wallet_icons/{android,iphone,hardware}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
@@ -25,14 +33,17 @@ logIfUnchanged() {
 export -f logIfUnchanged
 
 revertImagesThatDidNotChange() {
-  files=$( git status --porcelain -- images/wallet_icons/*/*.* | sed 's/^...//g' | tr '\n' ' ' )
+  files=$( git status --porcelain -- images/wallet_icons/ | sed 's/^...//g' | tr '\n' ' ' )
   if [[ $files ]]; then parallel logIfUnchanged {} ::: $files; fi
   revertFiles=$( cat /tmp/revert.txt | paste -sd ' ' )
   if [[ $revertFiles ]]; then
     git checkout HEAD $revertFiles
   fi
 }
-revertImagesThatDidNotChange
+
+if [ ! "$updateAllImages" ]; then
+  revertImagesThatDidNotChange
+fi
 
 resizeDeterministically() {
   filename=$1
@@ -46,18 +57,23 @@ resizeMany() {
   source=$1
   target=$2
   size=$3
-  files=$4
+  if [ "$updateAllImages" ]; then
+    files=$( ls $source/*.* )
+  else
+    files=$( git status --porcelain -- $source/*.* | sed 's/^...//g' | tr '\n' ' ' )
+  fi
   if [[ $files ]]; then parallel resizeDeterministically {/} $source $target $size ::: $files; fi
 }
 
 export -f resizeDeterministically
 
-files=$( git status --porcelain -- images/wallet_icons/android/*.* | sed 's/^...//g' | tr '\n' ' ' )
-resizeMany images/wallet_icons/android images/wallet_icons/android/small 100 "$files"
-resizeMany images/wallet_icons/android images/wallet_icons/android/tiny 25 "$files"
-files=$( git status --porcelain -- images/wallet_icons/iphone/*.* | sed 's/^...//g' | tr '\n' ' ' )
-resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/small 100 "$files"
-resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25 "$files"
-files=$( git status --porcelain -- images/wallet_icons/hardware/*.* | sed 's/^...//g' | tr '\n' ' ' )
-resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/small 100 "$files"
-resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25 "$files"
+resizeMany images/wallet_icons/android images/wallet_icons/android/small 100
+resizeMany images/wallet_icons/android images/wallet_icons/android/tiny 25
+resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/small 100
+resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25
+resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/small 100
+resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25
+
+if [ "$updateAllImages" ]; then
+  revertImagesThatDidNotChange
+fi
