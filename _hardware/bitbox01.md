@@ -31,4 +31,6 @@ providerFacebook: Shiftcrypto
 providerReddit: 
 ---
 
-This product has been superceded by the [bitbox2](https://walletscrutiny.com/hardware/bitBox2/) device as [stated by the provider] (https://shiftcrypto.support/help/en-us/16-bitbox01/143-bitbox01-end-of-sale-life-faqs) it is end of life. Bitbox1 owners can get a discount on the later bitbox2. Bitbox1 is considered discontinued.
+This product has been superseded by the {% include walletLink.html wallet='hardware/bitBox2' verdict='true' %} device as [stated by the provider] (https://shiftcrypto.support/help/en-us/16-bitbox01/143-bitbox01-end-of-sale-life-faqs) it is end of life. Bitbox1 owners can get a discount on the later bitbox2. Bitbox1 is considered discontinued.
+
+For lack of a screen, this product would otherwise fall into our category {% include verdictBadge.html verdict="noita" type='medium' %}.
