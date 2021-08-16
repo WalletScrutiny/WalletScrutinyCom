@@ -98,8 +98,10 @@ function writeResult(app, header, iconExtension, body) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
-  } 
-  const reviewArchive = new Set(header.reviewArchive)
+  } else {
+    verdict = header.verdict
+  }
+  const reviewArchive = header.reviewArchive || []
   const redirects = new Set(header.redirect_from)
   const p = `_android/${header.appId}.md`
   const f = fs.createWriteStream(p)
@@ -113,8 +115,23 @@ function writeResult(app, header, iconExtension, body) {
     errorLogFile.write(`${weirdBug.join(" ")}`)
     errorLogFile.close()
     process.stdout.write("(🤖)")
+    return // no point in writing bogus data
   } else {
     process.stdout.write("🤖")
+  }
+  var date = header.date
+  // retire if needed
+  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+  if ( daysSinceUpdate > 720 && verdict != "obsolete" ) {
+    console.log(`\nObsoleting ${header.appId}`)
+    addReviewArchive(reviewArchive, header)
+    verdict = "obsolete"
+    date = new Date()
+  } else if ( daysSinceUpdate > 360 && daysSinceUpdate <= 720 && verdict != "stale" ) {
+    console.log(`\nStaling ${header.appId}`)
+    addReviewArchive(reviewArchive, header)
+    verdict = "stale"
+    date = new Date()
   }
   f.write(`---
 wsId: ${header.wsId || ""}
@@ -137,10 +154,10 @@ issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
 verdict: ${verdict}
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
+date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
 reviewArchive:
-${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
+${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   version: "${item.version || ""}"
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
@@ -157,6 +174,20 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 
 
 ${body}`)
+}
+
+function addReviewArchive(reviewArchive, header) {
+  reviewArchive.unshift({
+    date: header.date,
+    version: header.version,
+    appHash: "",
+    gitRevision: getMasterHead(),
+    verdict: header.verdict
+  })
+}
+
+function getMasterHead() {
+  return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
 }
 
 module.exports = {

@@ -69,13 +69,15 @@ findings.
 We answer the following questions usually in this order:
 
 {% include verdictMethodology.html verdict="wip" %}
+{% include verdictMethodology.html verdict="defunct" %}
+{% include verdictMethodology.html verdict="obsolete" %}
+{% include verdictMethodology.html verdict="stale" %}
 {% include verdictMethodology.html verdict="fake" %}
 {% include verdictMethodology.html verdict="unreleased" %}
 {% include verdictMethodology.html verdict="fewusers" %}
 {% include verdictMethodology.html verdict="nowallet" %}
 {% include verdictMethodology.html verdict="nobtc" %}
 {% include verdictMethodology.html verdict="nosendreceive" %}
-{% include verdictMethodology.html verdict="defunct" %}
 {% include verdictMethodology.html verdict="custodial" %}
 {% include verdictMethodology.html verdict="nosource" %}
 {% include verdictMethodology.html verdict="obfuscated" %}
