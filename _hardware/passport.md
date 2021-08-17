@@ -18,17 +18,26 @@ repository: https://github.com/Foundation-Devices/passport-firmware
 issue: https://github.com/Foundation-Devices/passport-firmware/issues/40
 icon: passport.png
 bugbounty: https://foundationdevices.com/security/
-verdict: nonverifiable
-date: 2021-08-14
+verdict: reproducible
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-14
+  version: "v1.0.6"
+  appHash: 
+  gitRevision: a5741b20061b346243b755b1b61237b2b9cfb955
+  verdict: nonverifiable
+  
 
 providerTwitter: FOUNDATIONdvcs
 providerLinkedIn: foundationdevices
 providerFacebook: 
 providerReddit: 
 ---
+
+**Update 2021-08-17**: The provider
+[helped with compile issues](https://github.com/Foundation-Devices/passport-firmware/issues/40#issuecomment-898810938)
+and we managed to compile, too. See below the updated analysis.
 
 This device has all the interfaces to verify transactions (screen, buttons) and
 on their website the provider claims:
@@ -85,27 +94,247 @@ read:
   make BOARD=Passport
   ```
 
-We'll do that in a container to have a better defined environment:
+We'll do that in a container to have a better defined environment, as per
+updated build instructions using Ubuntu 18.04:
 
 ```
-$ docker run --rm -it --volume=$(pwd):/work/ --privileged ubuntu:20.04 bash
-root@b36e920efbac:/# apt update
-root@b36e920efbac:/# apt install --yes git python3-pip gcc-arm-none-eabi autotools-dev automake libusb-1.0-0-dev libtool
-root@b36e920efbac:/# cd ~
-root@b36e920efbac:~# git clone https://github.com/dhylands/rshell
-root@b36e920efbac:~# pip3 install rshell
-root@b36e920efbac:~# cd /work/
-root@b36e920efbac:/work# make -C mpy-cross
-root@b36e920efbac:/work# cd /work/ports/stm32/
-root@b36e920efbac:/work/ports/stm32# make BOARD=Passport
+$ mkdir passport
+$ cd passport
+$ docker run --rm -it --volume=$(pwd):/work/ ubuntu:18.04 bash -c   "apt update; \
+    apt install --yes git python3-pip gcc-arm-none-eabi autotools-dev automake libusb-1.0-0-dev libtool; \
+    git clone https://github.com/Foundation-Devices/passport-firmware.git; \
+    cd passport-firmware; \
+    git checkout v1.0.6; \
+    make -C mpy-cross; \
+    cd ports/stm32/; \
+    make BOARD=Passport; \
+    sha256sum build-Passport/firmware.bin;echo ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab; \
+    mv build-Passport/firmware.bin /work/firmware-passport-v1.0.6.bin; \
+    bash"
 ...
-boards/Passport/modtcc-codecs.c: In function 'modtcc_bech32_decode':
-boards/Passport/modtcc-codecs.c:266:13: error: argument to variable-length array may be too large [-Werror=vla-larger-than=]
-  266 |     uint8_t packed[tmp_len];
-      |             ^~~~~~
-cc1: all warnings being treated as errors
-make: *** [../../py/mkrules.mk:47: build-Passport/boards/Passport/modtcc-codecs.o] Error 1
+ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab  build-Passport/firmware.bin
+ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab
 ```
 
-So on the first try, compiling the firmware failed. Like this, the firmware is
-**not verifiable**.
+so that is the same hash the provider reported on
+[this issue](https://github.com/Foundation-Devices/passport-firmware/issues/40#issuecomment-898855516)
+but what about the official, signed binary?
+
+Downloaded from the
+[GitHub Releases](https://github.com/Foundation-Devices/passport-firmware/releases)
+we get:
+
+```
+$ wget https://github.com/Foundation-Devices/passport-firmware/releases/download/v1.0.6/passport-fw-1.0.6.bin
+$ sha256sum passport-fw-1.0.6.bin 
+606ca7ce1ba136988a36b445b2dae97508fbed062a8fdfa02f13ada69b6e92cd  passport-fw-1.0.6.bin
+```
+
+which is not what we got above but it is supposedly signed with two of four
+possible valid keys.
+
+How do we strip that, to get the hash we got from our build?
+
+```
+$ hexdump -v -e '/1 "%02x\n"' passport-fw-1.0.6.bin > passport-fw-1.0.6.txt
+$ hexdump -v -e '/1 "%02x\n"' firmware-passport-v1.0.6.bin > firmware-passport-v1.0.6.txt
+$ diff *.txt
+0a1,2048
+> 53
+> 53
+> 41
+> 50
+> 8d
+> b6
+> 0d
+> 61
+> 41
+> 75
+> 67
+> 20
+> 30
+> 36
+> 2c
+> 20
+> 32
+> 30
+> 32
+> 31
+> 00
+> 00
+> 31
+> 2e
+> 30
+> 2e
+> 36
+> 00
+> 00
+> 00
+> 7c
+> 6f
+> 12
+> 00
+> 02
+> 00
+> 00
+> 00
+> 40
+> 11
+> 8e
+> d2
+> 23
+> 26
+> 42
+> 79
+> 2b
+> d9
+> ca
+> f9
+> ad
+> 48
+> bc
+> 89
+> 5e
+> a7
+> d9
+> d6
+> a5
+> 52
+> 43
+> 1c
+> b6
+> 43
+> 79
+> 34
+> aa
+> d8
+> ce
+> 74
+> a9
+> 72
+> 26
+> 7b
+> 1c
+> a3
+> 0b
+> fe
+> 97
+> b0
+> 18
+> 0d
+> ce
+> 48
+> 82
+> 89
+> 0d
+> e3
+> b3
+> 8b
+> e0
+> 9c
+> af
+> 40
+> 10
+> 72
+> 9e
+> ab
+> b0
+> 56
+> 60
+> 1a
+> 00
+> 00
+> 00
+> 00
+> 74
+> 14
+> b3
+> ff
+> 2c
+> e8
+> 1a
+> 09
+> 9c
+> 43
+> 22
+> bb
+> c8
+> da
+> 38
+> 27
+> ad
+> b8
+> 10
+> e9
+> 30
+> 26
+> 1a
+> 33
+> 25
+> 06
+> b2
+> da
+> c9
+> 06
+> 93
+> 6b
+> 6d
+> 73
+> cb
+> 87
+> ff
+> 9b
+> b6
+> e3
+> ad
+> 2a
+> 28
+> 3a
+> 1a
+> cb
+> 12
+> 3c
+> 23
+> 1f
+> 05
+> 59
+> 2f
+> 77
+> b4
+> c9
+> 27
+> dc
+> 76
+> 9f
+> 2d
+> 18
+> 96
+> bd
+> 00
+> 00
+> 00
+> 00
+> 00
+> 00
+> 00
+...
+```
+
+followed by many more `00`. So we have some data in the first 170 bytes,
+followed by zeros to fill 2048 bytes and the rest matches. And indeed, here is
+our hash from before:
+
+```
+$ tail -c +2049 passport-fw-1.0.6.bin | sha256sum ; \
+    sha256sum firmware-passport-v1.0.6.bin; \
+    echo ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab
+ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab  -
+ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab  firmware-passport-v1.0.6.bin
+ab485dcf3a5f803b5649b84d864a2945c5b0191c67de32a7bbe6b85301b2cfab
+```
+
+As with other hardware wallets, we did not check if those first 170 bytes are
+actually signatures or valid but leave that to actual code reviews: If the code
+of the hardware wallet does what is claimed, it interprets those 170 bytes as
+signatures and checks them. In other words, if the public source code is secure,
+then the link with the binary is established. This product is **reproducible**.
