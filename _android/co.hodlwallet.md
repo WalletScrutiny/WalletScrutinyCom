@@ -18,11 +18,15 @@ repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
-verdict: nonverifiable
-date: 2019-12-28
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-28
+  version: "3.3.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: hodlwallet
 providerLinkedIn: 

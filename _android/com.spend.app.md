@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-verdict: custodial
-date: 2021-05-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-05-01
+  version: "3.09"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: Spendcom
 providerLinkedIn: 

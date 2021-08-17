@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
-verdict: nobtc
-date: 2021-05-02
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-05-02
+  version: "2.5.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nobtc
 
 providerTwitter: 
 providerLinkedIn: 

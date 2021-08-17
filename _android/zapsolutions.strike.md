@@ -10,8 +10,8 @@ released:
 latestUpdate: 2021-08-13
 version: "v85"
 stars: 4.2
-ratings: 2846
-reviews: 1180
+ratings: 2848
+reviews: 1182
 size: 11M
 website: 
 repository: 

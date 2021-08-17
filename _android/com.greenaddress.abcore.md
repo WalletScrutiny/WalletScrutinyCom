@@ -18,11 +18,15 @@ repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-verdict: reproducible
-date: 2020-03-02
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-03-02
+  version: "Varies with device"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: reproducible
 
 providerTwitter: 
 providerLinkedIn: 

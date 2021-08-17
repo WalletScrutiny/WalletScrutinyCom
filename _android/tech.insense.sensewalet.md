@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-verdict: nosource
-date: 2019-12-30
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-30
+  version: "0.0068beta"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 

@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.unicorn.shiftbuy.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "0.2.7.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

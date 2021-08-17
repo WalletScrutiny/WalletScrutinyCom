@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
-verdict: nosource
-date: 2020-04-07
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-04-07
+  version: "1.0.12"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: magnum_wallet
 providerLinkedIn: 

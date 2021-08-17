@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr – Free Crypto Airdrops and Bounty Campaigns"
+title: "Zloadr - Crypto Airdrops, Bounties & NFT Drops"
 altTitle: 
 authors:
 
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.phonegap.Zloadr.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.1.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

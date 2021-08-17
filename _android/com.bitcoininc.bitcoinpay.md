@@ -10,19 +10,23 @@ released: 2016-05-13
 latestUpdate: 2017-07-06
 version: "1.0.1"
 stars: 3.5
-ratings: 104
-reviews: 51
+ratings: 105
+reviews: 52
 size: 14M
 website: 
 repository: 
 issue: 
 icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
-verdict: wip
-date: 2021-06-18
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-06-18
+  version: "1.0.1"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
