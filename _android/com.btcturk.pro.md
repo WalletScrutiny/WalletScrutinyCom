@@ -24,13 +24,21 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: btcturkpro
+providerLinkedIn: btcturk
+providerFacebook: btcturk
 providerReddit: 
 
 redirect_from:
 
 ---
 
+> We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.
 
+This confirms it as custodial.
+
+**Additional Notes:**
+
+On the website's footer there is a [link to the API](https://docs.btcturk.com).
+
+They also feature a [Bug Bounty] (https://pro.btcturk.com/en/bug-bounty).
