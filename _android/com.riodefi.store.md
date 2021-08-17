@@ -4,11 +4,11 @@ title: "RioWallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.riodefi.store
 released: 2021-04-29
-latestUpdate: 2021-07-31
-version: "1.2.5"
+latestUpdate: 2021-08-15
+version: "1.2.6"
 stars: 4.7
 ratings: 34
 reviews: 23
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.riodefi.store.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

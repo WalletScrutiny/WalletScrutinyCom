@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: app.coingram
 released: 2019-07-02
-latestUpdate: 2021-01-19
-version: "2.8.1"
+latestUpdate: 2021-08-16
+version: "3.0"
 stars: 4.8
-ratings: 43336
-reviews: 24322
-size: 25M
+ratings: 43436
+reviews: 24379
+size: 24M
 website: 
 repository: 
 issue: 

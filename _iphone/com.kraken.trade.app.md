@@ -10,8 +10,8 @@ idd: 1473024338
 released: 2019-11-12
 updated: 2021-07-26
 version: "2.0.1"
-stars: 4.67289
-reviews: 9104
+stars: 4.67296
+reviews: 9112
 size: 46980096
 website: https://www.kraken.com
 repository: 

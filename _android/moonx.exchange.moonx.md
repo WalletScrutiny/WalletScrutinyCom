@@ -4,7 +4,7 @@ title: "MoonX - Crypto Trading Platform"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: moonx.exchange.moonx
 released: 2019-08-09
 latestUpdate: 2020-07-16

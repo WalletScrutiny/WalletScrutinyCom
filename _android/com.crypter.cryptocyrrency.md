@@ -16,6 +16,7 @@ version: "2.6.4"
 stars: 4.6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ratings: 67257
 reviews: 18873
 size: 34M
@@ -26,6 +27,10 @@ reviews: 18908
 =======
 ratings: 67503
 reviews: 18944
+>>>>>>> leo/master
+=======
+ratings: 67603
+reviews: 18968
 >>>>>>> leo/master
 size: 34M
 website: 

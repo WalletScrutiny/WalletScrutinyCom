@@ -9,9 +9,9 @@ appId: com.hebeblock.hebewallet
 released: 2019-03-04
 latestUpdate: 2021-08-09
 version: "1.3.52"
-stars: 2.6
-ratings: 19
-reviews: 13
+stars: 2.7
+ratings: 20
+reviews: 14
 size: 24M
 website: https://hebe.cc/
 repository: 

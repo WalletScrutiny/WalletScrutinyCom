@@ -27,8 +27,13 @@ reviews: 10971
 >>>>>>> walletscrutiny/walletScrutinyCom-master
 =======
 stars: 4.4
+<<<<<<< HEAD
 ratings: 22438
 reviews: 11011
+>>>>>>> leo/master
+=======
+ratings: 22527
+reviews: 11053
 >>>>>>> leo/master
 size: 25M
 website: 

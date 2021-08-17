@@ -10,8 +10,8 @@ released: 2019-11-07
 latestUpdate: 2020-08-07
 version: "2.0.22"
 stars: 4.9
-ratings: 334
-reviews: 152
+ratings: 335
+reviews: 153
 size: 34M
 website: https://atswallet.io/
 repository: 

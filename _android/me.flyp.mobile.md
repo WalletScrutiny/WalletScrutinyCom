@@ -9,8 +9,8 @@ appId: me.flyp.mobile
 released: 2020-03-13
 latestUpdate: 2020-10-09
 version: "1.0.4"
-stars: 3.9
-ratings: 11
+stars: 4.0
+ratings: 12
 reviews: 8
 size: 7.2M
 website: 

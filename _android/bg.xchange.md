@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: bg.xchange
 released: 2020-12-22
-latestUpdate: 2021-08-04
-version: "1.8.1"
+latestUpdate: 2021-08-15
+version: "1.8.2"
 stars: 4.6
 ratings: 146
 reviews: 42
-size: 19M
+size: 22M
 website: 
 repository: 
 issue: 

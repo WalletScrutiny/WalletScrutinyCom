@@ -5,7 +5,7 @@ altTitle:
 authors:
 - emanuel
 - leo
-users: 50
+users: 100
 appId: wallet.jax.bnc.com
 released: 2021-07-14
 latestUpdate: 2021-07-14

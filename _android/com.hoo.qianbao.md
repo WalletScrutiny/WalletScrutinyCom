@@ -9,9 +9,9 @@ appId: com.hoo.qianbao
 released: 2021-03-17
 latestUpdate: 2021-06-25
 version: "4.7.9"
-stars: 3.4
-ratings: 38
-reviews: 23
+stars: 3.5
+ratings: 40
+reviews: 24
 size: 39M
 website: 
 repository: 

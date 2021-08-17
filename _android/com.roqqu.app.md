@@ -10,9 +10,9 @@ appId: com.roqqu.app
 released: 2019-09-30
 latestUpdate: 2021-07-02
 version: "1.4.58"
-stars: 3.3
-ratings: 14631
-reviews: 10608
+stars: 3.2
+ratings: 14620
+reviews: 10598
 size: 28M
 website: https://roqqu.com
 repository: 

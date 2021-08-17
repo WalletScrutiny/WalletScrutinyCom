@@ -9,9 +9,9 @@ appId: com.uznex.app
 released: 2020-04-28
 latestUpdate: 2020-04-28
 version: "1.0.0"
-stars: 2.7
-ratings: 38
-reviews: 22
+stars: 2.6
+ratings: 39
+reviews: 23
 size: 11M
 website: 
 repository: 

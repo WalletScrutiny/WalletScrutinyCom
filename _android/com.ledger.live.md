@@ -4,14 +4,14 @@ title: "Ledger Live"
 altTitle: 
 authors:
 
-users: 100000
+users: 500000
 appId: com.ledger.live
 released: 2019-01-27
 latestUpdate: 2021-08-10
 version: "2.32.2"
 stars: 4.1
-ratings: 4731
-reviews: 2677
+ratings: 4737
+reviews: 2679
 size: Varies with device
 website: 
 repository: 

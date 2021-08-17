@@ -10,7 +10,7 @@ released: 2013-07-01
 latestUpdate: 2021-08-10
 version: "3.11.0.3"
 stars: 4.1
-ratings: 10880
+ratings: 10879
 reviews: 4958
 size: 24M
 website: https://wallet.mycelium.com
@@ -19,9 +19,14 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-07-09
+date: 2021-08-16
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-07-09
+  version: "3.10.0.3"
+  appHash: 7532f6d0cef440cfc3a09d48d8ef099a96c093f9895ad21aa069aa60be43a06d
+  gitRevision: 4b5ca372266f768737229012a773b01c500285e2
+  verdict: reproducible
 - date: 2021-05-28
   version: "3.10.0.1"
   appHash: d5c73ea4965e986101f751376f0aad74590b6ccb1a5623349dad03e1b6d5025e
@@ -151,20 +156,22 @@ procedure expressed in our
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.10.0.3
-apkVersionCode: 3100003
-appHash:        7532f6d0cef440cfc3a09d48d8ef099a96c093f9895ad21aa069aa60be43a06d
+apkVersionName: 3.11.0.4
+apkVersionCode: 3110004
+verdict:        reproducible
+appHash:        81417faf98334de319827d92bf0dafec6b43cfca7b2936876bdfa68e66445026
+commit:         deb674d8a4641ab4b842a28104f6ab05a1c2d9e9
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3100003/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3100003/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3110004/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3110004/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object e0098cde4babb860bb29c0aa613795240de6aa6b
+object deb674d8a4641ab4b842a28104f6ab05a1c2d9e9
 type commit
-tag v3.10.0.3
-tagger itserg <sergey.dolgopolov@mycelium.com> 1625235171 +0300
+tag v3.11.0.4
+tagger itserg <sergey.dolgopolov@mycelium.com> 1628781624 +0300
 
-SSL certificate fix for older devices
+UI bugfixes and improvements
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**

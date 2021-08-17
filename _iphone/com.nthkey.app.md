@@ -10,8 +10,8 @@ idd: 1491367033
 released: 2021-06-18
 updated: 2021-08-05
 version: "1.0.3"
-stars: 
-reviews: 
+stars: 1
+reviews: 1
 size: 2898944
 website: https://nthkey.com
 repository: 

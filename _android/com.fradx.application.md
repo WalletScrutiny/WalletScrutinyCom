@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.fradx.application
 released: 2021-07-14
-latestUpdate: 2021-08-14
-version: "1.1.70"
+latestUpdate: 2021-08-15
+version: "1.1.10"
 stars: 4.9
 ratings: 14
 reviews: 10

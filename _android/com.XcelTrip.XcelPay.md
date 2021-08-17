@@ -10,8 +10,8 @@ released: 2019-05-30
 latestUpdate: 2021-07-28
 version: "2.35.0"
 stars: 4.4
-ratings: 2897
-reviews: 1482
+ratings: 2907
+reviews: 1486
 size: 32M
 website: http://www.xcelpay.io
 repository: 

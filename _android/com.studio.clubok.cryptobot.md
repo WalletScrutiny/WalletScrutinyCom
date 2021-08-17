@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.studio.clubok.cryptobot
 released: 2019-02-27
-latestUpdate: 2021-03-09
-version: "2.8.1"
+latestUpdate: 2021-08-15
+version: "2.8.2"
 stars: 3.8
 ratings: 57
 reviews: 38
-size: 4.9M
+size: 5.0M
 website: 
 repository: 
 issue: 
