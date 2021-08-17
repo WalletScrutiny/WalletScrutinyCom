@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: artifyapp.com.coconut
 released: 2018-07-05
-latestUpdate: 2018-10-22
+updated: 2018-10-22
 version: "1.1.1"
 stars: 3.9
 ratings: 12

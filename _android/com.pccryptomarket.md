@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.pccryptomarket
 released: 2019-08-18
-latestUpdate: 2019-08-31
+updated: 2019-08-31
 version: "1.2"
 stars: 3.4
 ratings: 26

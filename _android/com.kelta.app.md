@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.kelta.app
 released: 2018-05-15
-latestUpdate: 2021-07-30
+updated: 2021-07-30
 version: "3.0.62"
 stars: 3.4
 ratings: 1251

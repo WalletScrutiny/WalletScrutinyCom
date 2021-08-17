@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: st.xpairssignals
 released: 2017-10-07
-latestUpdate: 2020-02-21
+updated: 2020-02-21
 version: "4.4"
 stars: 4.2
 ratings: 818

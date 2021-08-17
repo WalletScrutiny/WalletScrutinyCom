@@ -7,7 +7,7 @@ authors:
 users: 1
 appId: com.mke.investcrypto
 released: 2020-04-25
-latestUpdate: 2020-04-25
+updated: 2020-04-25
 version: "1.0"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: skywallet.net
 released: 2020-05-11
-latestUpdate: 2020-05-11
+updated: 2020-05-11
 version: "1.0.3"
 stars: 0.0
 ratings: 

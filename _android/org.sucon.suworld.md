@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.sucon.suworld
 released: 2019-04-21
-latestUpdate: 2019-09-16
+updated: 2019-09-16
 version: "1.0.0.6"
 stars: 4.7
 ratings: 54

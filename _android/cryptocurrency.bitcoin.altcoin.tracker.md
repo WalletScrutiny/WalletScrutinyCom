@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: cryptocurrency.bitcoin.altcoin.tracker
 released: 2018-10-30
-latestUpdate: 2019-10-20
+updated: 2019-10-20
 version: "1.6"
 stars: 4.4
 ratings: 8

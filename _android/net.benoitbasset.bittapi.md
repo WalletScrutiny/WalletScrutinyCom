@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: net.benoitbasset.bittapi
 released: 2017-12-09
-latestUpdate: 2018-11-13
+updated: 2018-11-13
 version: "1.2.1"
 stars: 4.7
 ratings: 99

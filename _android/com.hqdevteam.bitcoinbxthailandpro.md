@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.hqdevteam.bitcoinbxthailandpro
 released: 2017-06-30
-latestUpdate: 2017-10-22
+updated: 2017-10-22
 version: "5.0"
 stars: 1.6
 ratings: 23

@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: cme.ecoinexV1.app
 released: 2018-12-19
-latestUpdate: 2018-12-19
+updated: 2018-12-19
 version: "1.01"
 stars: 0.0
 ratings: 

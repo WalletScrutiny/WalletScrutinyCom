@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: kr.co.keypair.quickxtouch2
 released: 2019-02-25
-latestUpdate: 2019-12-27
+updated: 2019-12-27
 version: "1.0.0.60"
 stars: 4.0
 ratings: 21

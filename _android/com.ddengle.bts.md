@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ddengle.bts
 released: 2014-09-23
-latestUpdate: 2017-12-08
+updated: 2017-12-08
 version: "1.1.9"
 stars: 3.5
 ratings: 71

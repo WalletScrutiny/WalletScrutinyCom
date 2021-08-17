@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.hedged_bitcoin
 released: 2018-11-17
-latestUpdate: 2021-06-11
+updated: 2021-06-11
 version: "0.7.0"
 stars: 3.3
 ratings: 24

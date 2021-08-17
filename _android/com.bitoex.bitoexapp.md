@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitoex.bitoexapp
 released: 2019-11-18
-latestUpdate: 2019-11-19
+updated: 2019-11-19
 version: "1.0.0"
 stars: 3.1
 ratings: 138

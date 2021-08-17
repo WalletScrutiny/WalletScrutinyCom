@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.sculptech.dtrax
 released: 2019-01-24
-latestUpdate: 2020-05-24
+updated: 2020-05-24
 version: "1.2.2"
 stars: 3.2
 ratings: 365

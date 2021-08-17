@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: io.app.forgingblock
 released: 2020-10-20
-latestUpdate: 2020-10-20
+updated: 2020-10-20
 version: "8.0"
 stars: 0.0
 ratings: 

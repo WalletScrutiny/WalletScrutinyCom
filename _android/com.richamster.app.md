@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.richamster.app
 released: 2018-11-24
-latestUpdate: 2020-08-08
+updated: 2020-08-08
 version: "2.3"
 stars: 4.3
 ratings: 81

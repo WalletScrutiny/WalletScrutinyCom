@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.xchange.baksman
 released: 2020-02-03
-latestUpdate: 2021-05-14
+updated: 2021-05-14
 version: "3.0.1"
 stars: 4.2
 ratings: 57

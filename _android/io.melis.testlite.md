@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: io.melis.testlite
 released: 2019-08-06
-latestUpdate: 2019-08-06
+updated: 2019-08-06
 version: "0.4.0"
 stars: 0.0
 ratings: 

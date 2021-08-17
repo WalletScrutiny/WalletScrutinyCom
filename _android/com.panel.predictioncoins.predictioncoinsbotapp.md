@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.panel.predictioncoins.predictioncoinsbotapp
 released: 2019-03-16
-latestUpdate: 2019-03-16
+updated: 2019-03-16
 version: "1"
 stars: 3.9
 ratings: 120

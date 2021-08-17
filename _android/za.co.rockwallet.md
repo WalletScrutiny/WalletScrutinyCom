@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: za.co.rockwallet
 released: 2020-09-30
-latestUpdate: 2020-10-23
+updated: 2020-10-23
 version: "1.5"
 stars: 0.0
 ratings: 

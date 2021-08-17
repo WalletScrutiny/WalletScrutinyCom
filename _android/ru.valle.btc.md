@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: ru.valle.btc
 released: 2013-04-19
-latestUpdate: 2020-03-22
+updated: 2020-03-22
 version: "Varies with device"
 stars: 4.3
 ratings: 155

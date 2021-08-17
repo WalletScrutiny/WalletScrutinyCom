@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: jb.tech.bitpiewallet
 released: 
-latestUpdate: 2021-02-01
+updated: 2021-02-01
 version: "1.3"
 stars: 4.0
 ratings: 71

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.mahfazah
 released: 2018-09-19
-latestUpdate: 2018-11-22
+updated: 2018-11-22
 version: "1.2.6"
 stars: 4.4
 ratings: 30

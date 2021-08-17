@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.idbtec.otppaycrypto
 released: 2018-08-13
-latestUpdate: 2020-04-01
+updated: 2020-04-01
 version: "1.21"
 stars: 4.6
 ratings: 92

@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: io.ebitconics.com
 released: 2021-01-18
-latestUpdate: 2021-01-18
+updated: 2021-01-18
 version: "0.0.2"
 stars: 4.4
 ratings: 17

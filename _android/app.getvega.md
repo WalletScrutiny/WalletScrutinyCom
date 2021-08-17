@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: app.getvega
 released: 
-latestUpdate: 2019-05-22
+updated: 2019-05-22
 version: "Varies with device"
 stars: 
 ratings: 

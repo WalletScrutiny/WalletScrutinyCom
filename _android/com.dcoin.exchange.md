@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.dcoin.exchange
 released: 2018-11-25
-latestUpdate: 2021-08-12
+updated: 2021-08-12
 version: "4.2.9"
 stars: 3.6
 ratings: 1262

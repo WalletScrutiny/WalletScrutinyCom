@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: buy_bitcoin.pro
 released: 2018-12-09
-latestUpdate: 2020-05-19
+updated: 2020-05-19
 version: "1.0.9"
 stars: 4.5
 ratings: 30

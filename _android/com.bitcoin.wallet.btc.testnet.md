@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitcoin.wallet.btc.testnet
 released: 2019-07-04
-latestUpdate: 2019-07-05
+updated: 2019-07-05
 version: "1.0"
 stars: 4.3
 ratings: 22

@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.paratica.dashboard
 released: 2019-04-05
-latestUpdate: 2019-04-05
+updated: 2019-04-05
 version: "1.0"
 stars: 4.5
 ratings: 82

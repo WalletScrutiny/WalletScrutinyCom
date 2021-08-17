@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.particl.copay
 released: 2017-09-18
-latestUpdate: 2020-05-30
+updated: 2020-05-30
 version: "5.5.1"
 stars: 3.9
 ratings: 130

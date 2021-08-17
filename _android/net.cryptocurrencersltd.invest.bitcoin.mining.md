@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: net.cryptocurrencersltd.invest.bitcoin.mining
 released: 2021-07-18
-latestUpdate: 2021-07-18
+updated: 2021-07-18
 version: "1.0"
 stars: 0.0
 ratings: 

@@ -8,7 +8,7 @@ authors:
 users: 10000
 appId: com.ccwalletapp
 released: 2019-06-26
-latestUpdate: 2020-07-29
+updated: 2020-07-29
 version: "1.3.1"
 stars: 3.6
 ratings: 552

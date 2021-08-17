@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: chby.ru
 released: 2018-12-19
-latestUpdate: 2020-01-13
+updated: 2020-01-13
 version: "1.0.5"
 stars: 1.4
 ratings: 8

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.tempow.legatow
 released: 2018-07-04
-latestUpdate: 2019-01-30
+updated: 2019-01-30
 version: "1.0.3"
 stars: 5.0
 ratings: 346

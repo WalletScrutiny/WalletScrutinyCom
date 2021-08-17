@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.feldrise.Atotupe
 released: 
-latestUpdate: 2018-09-04
+updated: 2018-09-04
 version: "Varies with device"
 stars: 
 ratings: 

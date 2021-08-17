@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: tech.insense.sensewalet
 released: 2018-09-27
-latestUpdate: 2019-06-21
+updated: 2019-06-21
 version: "0.0068beta"
 stars: 3.9
 ratings: 23

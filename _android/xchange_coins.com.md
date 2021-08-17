@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: xchange_coins.com
 released: 2021-03-26
-latestUpdate: 2021-03-26
+updated: 2021-03-26
 version: "5.84.10"
 stars: 0.0
 ratings: 

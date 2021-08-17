@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.bbex
 released: 2019-07-12
-latestUpdate: 2019-11-06
+updated: 2019-11-06
 version: "1.0.5"
 stars: 0.0
 ratings: 

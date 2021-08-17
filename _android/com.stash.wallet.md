@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.stash.wallet
 released: 
-latestUpdate: 2018-12-03
+updated: 2018-12-03
 version: "Varies with device"
 stars: 
 ratings: 

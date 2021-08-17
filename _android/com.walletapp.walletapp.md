@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.walletapp.walletapp
 released: 2020-08-04
-latestUpdate: 2021-01-28
+updated: 2021-01-28
 version: "1.0.14"
 stars: 4.2
 ratings: 54

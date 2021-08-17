@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.lkrcoin.wallet
 released: 2019-01-19
-latestUpdate: 2019-01-19
+updated: 2019-01-19
 version: "v1.0.0"
 stars: 3.6
 ratings: 5

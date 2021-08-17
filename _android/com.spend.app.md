@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.spend.app
 released: 2018-08-07
-latestUpdate: 2020-07-15
+updated: 2020-07-15
 version: "3.09"
 stars: 3.4
 ratings: 430

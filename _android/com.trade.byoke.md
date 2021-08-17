@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.trade.byoke
 released: 2019-04-11
-latestUpdate: 2019-04-19
+updated: 2019-04-19
 version: "1.0.0"
 stars: 0.0
 ratings: 

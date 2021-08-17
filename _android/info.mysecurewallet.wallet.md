@@ -8,7 +8,7 @@ authors:
 users: 5000
 appId: info.mysecurewallet.wallet
 released: 2019-11-01
-latestUpdate: 2019-11-02
+updated: 2019-11-02
 version: "1.1"
 stars: 3.6
 ratings: 58

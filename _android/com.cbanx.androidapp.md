@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cbanx.androidapp
 released: 2018-08-25
-latestUpdate: 2019-06-25
+updated: 2019-06-25
 version: "2.1.20"
 stars: 0.0
 ratings: 

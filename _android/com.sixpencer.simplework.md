@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.sixpencer.simplework
 released: 2020-10-09
-latestUpdate: 2021-06-23
+updated: 2021-06-23
 version: "1.4.3"
 stars: 4.4
 ratings: 178

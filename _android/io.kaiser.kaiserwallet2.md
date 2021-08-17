@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.kaiser.kaiserwallet2
 released: 2018-10-03
-latestUpdate: 2020-02-28
+updated: 2020-02-28
 version: "2.9.10"
 stars: 4.3
 ratings: 41

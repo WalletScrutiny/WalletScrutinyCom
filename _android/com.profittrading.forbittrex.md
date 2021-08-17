@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.profittrading.forbittrex
 released: 2018-06-20
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "12.0.13"
 stars: 4.3
 ratings: 337

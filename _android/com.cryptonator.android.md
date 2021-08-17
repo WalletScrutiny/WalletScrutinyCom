@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.cryptonator.android
 released: 2018-11-01
-latestUpdate: 2021-01-22
+updated: 2021-01-22
 version: "4.0"
 stars: 2.7
 ratings: 5093

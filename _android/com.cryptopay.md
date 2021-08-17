@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.cryptopay
 released: 2018-12-17
-latestUpdate: 2019-02-14
+updated: 2019-02-14
 version: "1.5"
 stars: 4.8
 ratings: 5

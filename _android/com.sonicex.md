@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.sonicex
 released: 2019-08-05
-latestUpdate: 2020-04-15
+updated: 2020-04-15
 version: "1.6"
 stars: 3.9
 ratings: 7

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.blockcloud
 released: 2021-01-08
-latestUpdate: 2021-02-16
+updated: 2021-02-16
 version: "1.4"
 stars: 5.0
 ratings: 7

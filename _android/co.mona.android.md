@@ -7,7 +7,7 @@ authors:
 users: 10000000
 appId: co.mona.android
 released: 2017-08-30
-latestUpdate: 2021-08-06
+updated: 2021-08-06
 version: "3.108.0"
 stars: 4.0
 ratings: 149229

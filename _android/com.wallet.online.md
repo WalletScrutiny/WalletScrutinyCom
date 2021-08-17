@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.wallet.online
 released: 2019-11-08
-latestUpdate: 2021-04-22
+updated: 2021-04-22
 version: "1.1.3"
 stars: 4.8
 ratings: 6

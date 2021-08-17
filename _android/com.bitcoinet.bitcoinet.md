@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitcoinet.bitcoinet
 released: 2020-06-25
-latestUpdate: 2020-06-20
+updated: 2020-06-20
 version: "5.0"
 stars: 0.0
 ratings: 

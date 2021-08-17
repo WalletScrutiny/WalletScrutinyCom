@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.aspanta.emcsec
 released: 2017-11-28
-latestUpdate: 2018-12-25
+updated: 2018-12-25
 version: "1.2.1"
 stars: 4.4
 ratings: 28

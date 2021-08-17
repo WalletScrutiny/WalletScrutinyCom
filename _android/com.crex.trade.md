@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.crex.trade
 released: 2020-05-20
-latestUpdate: 2020-05-26
+updated: 2020-05-26
 version: "1.0.1"
 stars: 0.0
 ratings: 

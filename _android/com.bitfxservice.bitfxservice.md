@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.bitfxservice.bitfxservice
 released: 2019-10-08
-latestUpdate: 2019-10-08
+updated: 2019-10-08
 version: "1.0"
 stars: 3.0
 ratings: 5

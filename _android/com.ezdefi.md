@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ezdefi
 released: 2019-11-29
-latestUpdate: 2021-08-03
+updated: 2021-08-03
 version: "0.3.8"
 stars: 4.6
 ratings: 633

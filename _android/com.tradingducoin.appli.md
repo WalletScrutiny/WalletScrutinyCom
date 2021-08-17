@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.tradingducoin.appli
 released: 2019-03-10
-latestUpdate: 2021-08-09
+updated: 2021-08-09
 version: "5.4.5"
 stars: 3.8
 ratings: 174

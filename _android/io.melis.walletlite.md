@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: io.melis.walletlite
 released: 2019-06-03
-latestUpdate: 2019-06-03
+updated: 2019-06-03
 version: "0.4.0"
 stars: 0.0
 ratings: 

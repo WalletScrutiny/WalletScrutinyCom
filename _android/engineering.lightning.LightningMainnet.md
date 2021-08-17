@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: engineering.lightning.LightningMainnet
 released: 
-latestUpdate: 2020-10-02
+updated: 2020-10-02
 version: "Varies with device"
 stars: 
 ratings: 

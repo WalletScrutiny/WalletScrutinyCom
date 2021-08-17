@@ -16,7 +16,7 @@ const allowedHeaders = [
   "users", // platform reported downloads in steps
   "appId", // provider chosen identifier. We use this for the file name, too
   "released", // gets provided by platform
-  "latestUpdate", // platform reported latest update
+  "updated", // platform reported latest update
   "version", // platform reported version
   "stars", // platform reported average rating
   "ratings", // platform reported count of ratings
@@ -142,7 +142,7 @@ ${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
-latestUpdate: ${dateFormat(app.updated, "yyyy-mm-dd")}
+updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
 version: "${ version.replace(/["\\]*/g, "") }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}

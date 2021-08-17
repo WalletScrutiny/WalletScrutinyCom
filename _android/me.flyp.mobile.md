@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: me.flyp.mobile
 released: 2020-03-13
-latestUpdate: 2020-10-09
+updated: 2020-10-09
 version: "1.0.4"
 stars: 4.0
 ratings: 12

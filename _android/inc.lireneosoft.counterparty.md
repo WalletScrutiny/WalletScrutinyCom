@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: inc.lireneosoft.counterparty
 released: 2015-04-28
-latestUpdate: 2019-06-14
+updated: 2019-06-14
 version: "2.5.4"
 stars: 3.0
 ratings: 240

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: it.casatta.testnet
 released: 2020-05-17
-latestUpdate: 2021-08-06
+updated: 2021-08-06
 version: "1.20-testnet"
 stars: 0.0
 ratings: 

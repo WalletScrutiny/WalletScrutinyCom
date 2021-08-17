@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.coindoctor.your
 released: 2019-01-08
-latestUpdate: 2019-03-11
+updated: 2019-03-11
 version: "1.0.2"
 stars: 0.0
 ratings: 

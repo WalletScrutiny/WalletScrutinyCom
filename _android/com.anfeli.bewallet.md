@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.anfeli.bewallet
 released: 2018-11-05
-latestUpdate: 2019-05-28
+updated: 2019-05-28
 version: "1.2.24"
 stars: 3.6
 ratings: 70

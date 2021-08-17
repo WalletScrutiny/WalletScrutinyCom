@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.lingxi.bexplus
 released: 2018-10-29
-latestUpdate: 2021-07-21
+updated: 2021-07-21
 version: "2.1.1"
 stars: 4.7
 ratings: 4920

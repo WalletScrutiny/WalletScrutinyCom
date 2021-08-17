@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: pkg.coinwallet.id
 released: 2021-04-13
-latestUpdate: 2021-04-23
+updated: 2021-04-23
 version: "1.0.0"
 stars: 4.5
 ratings: 30

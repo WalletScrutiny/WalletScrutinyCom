@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: gr.cryptocurrencies.bitcoinpos
 released: 2016-11-01
-latestUpdate: 2018-11-02
+updated: 2018-11-02
 version: "1.7.0"
 stars: 3.8
 ratings: 9

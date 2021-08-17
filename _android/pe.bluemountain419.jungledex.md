@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: pe.bluemountain419.jungledex
 released: 2020-02-11
-latestUpdate: 2020-02-20
+updated: 2020-02-20
 version: "1.0.2"
 stars: 0.0
 ratings: 

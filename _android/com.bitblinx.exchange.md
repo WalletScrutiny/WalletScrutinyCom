@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.bitblinx.exchange
 released: 2019-11-16
-latestUpdate: 2020-05-01
+updated: 2020-05-01
 version: "1.8"
 stars: 4.6
 ratings: 214

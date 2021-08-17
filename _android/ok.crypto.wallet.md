@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: ok.crypto.wallet
 released: 2020-09-21
-latestUpdate: 2020-09-21
+updated: 2020-09-21
 version: "1.0.0"
 stars: 0.0
 ratings: 

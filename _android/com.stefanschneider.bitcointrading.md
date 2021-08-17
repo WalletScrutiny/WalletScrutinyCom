@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.stefanschneider.bitcointrading
 released: 2019-07-01
-latestUpdate: 2019-10-12
+updated: 2019-10-12
 version: "2.0.0"
 stars: 4.3
 ratings: 15

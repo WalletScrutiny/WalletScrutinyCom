@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.rinnas.aj_global
 released: 2020-05-29
-latestUpdate: 2021-05-03
+updated: 2021-05-03
 version: "2.0.6"
 stars: 3.6
 ratings: 79

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.walahala.paywalamerchant
 released: 2020-03-12
-latestUpdate: 2020-07-23
+updated: 2020-07-23
 version: "1.5"
 stars: 0.0
 ratings: 

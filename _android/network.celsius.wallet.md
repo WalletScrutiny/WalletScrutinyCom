@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: network.celsius.wallet
 released: 2018-06-04
-latestUpdate: 2021-08-09
+updated: 2021-08-09
 version: "4.10.0"
 stars: 4.3
 ratings: 5849

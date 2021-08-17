@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.fenixcoin.wallet
 released: 2018-04-09
-latestUpdate: 2018-04-09
+updated: 2018-04-09
 version: "v1.0.1"
 stars: 0.0
 ratings: 

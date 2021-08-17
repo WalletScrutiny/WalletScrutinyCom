@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.ok.coin
 released: 2018-08-30
-latestUpdate: 2018-09-06
+updated: 2018-09-06
 version: "1.0.3"
 stars: 0.0
 ratings: 

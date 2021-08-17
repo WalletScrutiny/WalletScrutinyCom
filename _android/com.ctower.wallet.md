@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.ctower.wallet
 released: 
-latestUpdate: 2021-03-31
+updated: 2021-03-31
 version: "1.0.3"
 stars: 0.0
 ratings: 

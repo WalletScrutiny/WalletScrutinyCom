@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.pundix.functionx
 released: 2021-03-25
-latestUpdate: 2021-08-09
+updated: 2021-08-09
 version: "1.7.2"
 stars: 4.0
 ratings: 206

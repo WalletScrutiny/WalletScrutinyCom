@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.escrowspace
 released: 2018-07-25
-latestUpdate: 2018-07-26
+updated: 2018-07-26
 version: "1.08"
 stars: 0.0
 ratings: 

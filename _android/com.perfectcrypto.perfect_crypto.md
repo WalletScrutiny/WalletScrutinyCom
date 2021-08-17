@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.perfectcrypto.perfect_crypto
 released: 2020-11-09
-latestUpdate: 2021-05-16
+updated: 2021-05-16
 version: "1.0.18"
 stars: 4.6
 ratings: 545

@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: kr.co.coin5.bj
 released: 2020-06-10
-latestUpdate: 2020-06-11
+updated: 2020-06-11
 version: "1.0"
 stars: 0.0
 ratings: 

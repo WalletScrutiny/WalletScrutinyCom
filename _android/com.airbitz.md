@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.airbitz
 released: 2014-04-01
-latestUpdate: 2018-09-21
+updated: 2018-09-21
 version: "2.4.12"
 stars: 3.4
 ratings: 1149

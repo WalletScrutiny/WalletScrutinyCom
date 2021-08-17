@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.moonlet
 released: 2020-04-21
-latestUpdate: 2021-07-08
+updated: 2021-07-08
 version: "1.4.48"
 stars: 3.9
 ratings: 495

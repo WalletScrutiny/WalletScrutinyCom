@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.getcoins.gcwallet2
 released: 2019-03-21
-latestUpdate: 2020-05-13
+updated: 2020-05-13
 version: "3.6.0"
 stars: 2.6
 ratings: 14

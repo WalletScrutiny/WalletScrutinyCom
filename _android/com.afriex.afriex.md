@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.afriex.afriex
 released: 2020-03-05
-latestUpdate: 2021-08-16
+updated: 2021-08-16
 version: "11.25"
 stars: 
 ratings: 

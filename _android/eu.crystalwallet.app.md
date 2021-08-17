@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: eu.crystalwallet.app
 released: 2020-03-15
-latestUpdate: 2021-07-27
+updated: 2021-07-27
 version: "1.75"
 stars: 4.9
 ratings: 557

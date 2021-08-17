@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.aos.wallet.token
 released: 2019-11-07
-latestUpdate: 2020-08-07
+updated: 2020-08-07
 version: "2.0.22"
 stars: 4.9
 ratings: 335

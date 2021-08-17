@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: buy.sell.trade.crypto1
 released: 2021-06-16
-latestUpdate: 2021-06-17
+updated: 2021-06-17
 version: "1.0"
 stars: 0.0
 ratings: 

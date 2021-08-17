@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.trustdx.bybit
 released: 2021-06-29
-latestUpdate: 2021-07-19
+updated: 2021-07-19
 version: "5.0"
 stars: 0.0
 ratings: 

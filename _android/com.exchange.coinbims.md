@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.exchange.coinbims
 released: 2019-08-20
-latestUpdate: 2019-09-09
+updated: 2019-09-09
 version: "1.3"
 stars: 0.0
 ratings: 

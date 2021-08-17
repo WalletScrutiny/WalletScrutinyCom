@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.spark.wallet
 released: 2018-12-10
-latestUpdate: 2020-09-03
+updated: 2020-09-03
 version: "0.0.0"
 stars: 4.2
 ratings: 9

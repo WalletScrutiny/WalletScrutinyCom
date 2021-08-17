@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.kaiserex
 released: 2020-05-09
-latestUpdate: 2020-05-09
+updated: 2020-05-09
 version: "1.0"
 stars: 0.0
 ratings: 

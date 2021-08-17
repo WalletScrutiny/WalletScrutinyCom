@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.primexbt.exchange
 released: 2019-05-08
-latestUpdate: 2020-07-16
+updated: 2020-07-16
 version: "144.5.0-release"
 stars: 2.1
 ratings: 585

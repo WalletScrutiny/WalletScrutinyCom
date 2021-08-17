@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.profittrading.forokex
 released: 2020-06-11
-latestUpdate: 2020-07-23
+updated: 2020-07-23
 version: "1.2.0"
 stars: 4.5
 ratings: 13

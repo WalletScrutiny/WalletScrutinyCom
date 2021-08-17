@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges
 released: 2019-11-12
-latestUpdate: 2019-11-12
+updated: 2019-11-12
 version: "1.0"
 stars: 0.0
 ratings: 

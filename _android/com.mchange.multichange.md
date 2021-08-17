@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.mchange.multichange
 released: 2020-08-10
-latestUpdate: 2020-08-10
+updated: 2020-08-10
 version: "1.0"
 stars: 4.2
 ratings: 9

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.magnum.wallet
 released: 2019-04-23
-latestUpdate: 2019-08-29
+updated: 2019-08-29
 version: "1.0.12"
 stars: 3.4
 ratings: 222

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: co.hodlwallet
 released: 2018-09-24
-latestUpdate: 2020-05-18
+updated: 2020-05-18
 version: "3.3.5"
 stars: 3.7
 ratings: 116

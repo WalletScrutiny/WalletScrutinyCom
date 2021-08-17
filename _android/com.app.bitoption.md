@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.app.bitoption
 released: 2020-08-19
-latestUpdate: 2020-09-09
+updated: 2020-09-09
 version: "1.1.8"
 stars: 5.0
 ratings: 5

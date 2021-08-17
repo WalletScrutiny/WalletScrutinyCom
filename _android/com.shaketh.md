@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.shaketh
 released: 2018-02-20
-latestUpdate: 2021-08-12
+updated: 2021-08-12
 version: "1.7.21"
 stars: 4.6
 ratings: 7947

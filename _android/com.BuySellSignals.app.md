@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.BuySellSignals.app
 released: 2019-06-02
-latestUpdate: 2019-07-01
+updated: 2019-07-01
 version: "1.0.9"
 stars: 3.1
 ratings: 11

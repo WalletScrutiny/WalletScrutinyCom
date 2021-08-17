@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.pint.app
 released: 2018-04-25
-latestUpdate: 2021-03-06
+updated: 2021-03-06
 version: "2.0.32"
 stars: 4.2
 ratings: 217

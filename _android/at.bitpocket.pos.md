@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: at.bitpocket.pos
 released: 2016-07-08
-latestUpdate: 2017-10-20
+updated: 2017-10-20
 version: "1.1.8"
 stars: 4.8
 ratings: 5

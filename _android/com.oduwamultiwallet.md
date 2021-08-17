@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.oduwamultiwallet
 released: 2021-07-24
-latestUpdate: 2021-07-24
+updated: 2021-07-24
 version: "1.0.0"
 stars: 0.0
 ratings: 

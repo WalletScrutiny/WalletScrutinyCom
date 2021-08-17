@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.hamrasta.hwallet
 released: 2019-09-22
-latestUpdate: 2020-08-03
+updated: 2020-08-03
 version: "2.7"
 stars: 3.7
 ratings: 122

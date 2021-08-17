@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitlox.mobilewallet
 released: 2018-12-16
-latestUpdate: 2019-09-18
+updated: 2019-09-18
 version: "4.0.4"
 stars: 0.0
 ratings: 

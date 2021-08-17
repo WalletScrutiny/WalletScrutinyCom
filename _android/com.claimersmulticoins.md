@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.claimersmulticoins
 released: 2020-01-29
-latestUpdate: 2021-07-08
+updated: 2021-07-08
 version: "3.2"
 stars: 4.3
 ratings: 283

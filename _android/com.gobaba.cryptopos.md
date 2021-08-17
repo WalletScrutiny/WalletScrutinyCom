@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.gobaba.cryptopos
 released: 2018-11-05
-latestUpdate: 2018-11-05
+updated: 2018-11-05
 version: "1.0"
 stars: 0.0
 ratings: 

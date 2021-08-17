@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: semaphore.stocktrade.tradeweb
 released: 2018-01-22
-latestUpdate: 2020-08-28
+updated: 2020-08-28
 version: "4.1.1.15"
 stars: 4.1
 ratings: 12

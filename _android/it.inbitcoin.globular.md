@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: it.inbitcoin.globular
 released: 2019-06-07
-latestUpdate: 2020-01-26
+updated: 2020-01-26
 version: "1.2.0"
 stars: 5.0
 ratings: 5

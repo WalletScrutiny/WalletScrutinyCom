@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.adara.client
 released: 2019-11-25
-latestUpdate: 2020-02-05
+updated: 2020-02-05
 version: "1.3"
 stars: 4.4
 ratings: 13

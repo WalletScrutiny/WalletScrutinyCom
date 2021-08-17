@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.p2pchallenger
 released: 2021-04-16
-latestUpdate: 2021-05-24
+updated: 2021-05-24
 version: "1.0.8"
 stars: 4.5
 ratings: 6

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ie.option
 released: 2019-12-17
-latestUpdate: 2020-08-14
+updated: 2020-08-14
 version: "1.1.4"
 stars: 4.8
 ratings: 2459

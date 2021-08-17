@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.profittrading.forbinanceus
 released: 2019-10-25
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "2.0.2"
 stars: 4.1
 ratings: 26

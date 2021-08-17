@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: augstrain.asn
 released: 2020-09-10
-latestUpdate: 2020-09-10
+updated: 2020-09-10
 version: "8.0"
 stars: 0.0
 ratings: 

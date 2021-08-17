@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.goodbarber.bitmeat
 released: 2018-01-09
-latestUpdate: 2018-01-10
+updated: 2018-01-10
 version: "1.0"
 stars: 2.4
 ratings: 5

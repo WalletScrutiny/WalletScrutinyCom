@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.coinapps.flash.wallet.android
 released: 2019-08-08
-latestUpdate: 2020-07-23
+updated: 2020-07-23
 version: "2.4.1"
 stars: 4.0
 ratings: 45

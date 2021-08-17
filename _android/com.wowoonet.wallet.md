@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.wowoonet.wallet
 released: 2017-12-01
-latestUpdate: 2019-03-26
+updated: 2019-03-26
 version: "1.4.3"
 stars: 3.7
 ratings: 21

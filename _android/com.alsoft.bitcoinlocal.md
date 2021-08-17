@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.alsoft.bitcoinlocal
 released: 2018-02-15
-latestUpdate: 2021-02-28
+updated: 2021-02-28
 version: "4.1"
 stars: 3.9
 ratings: 19

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: app.getcoinsafe.android
 released: 2019-02-15
-latestUpdate: 2019-05-16
+updated: 2019-05-16
 version: "0.1.6"
 stars: 4.9
 ratings: 29

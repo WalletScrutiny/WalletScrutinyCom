@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: btc.profits.calculator
 released: 2019-11-07
-latestUpdate: 2019-11-07
+updated: 2019-11-07
 version: "1.0"
 stars: 3.0
 ratings: 35

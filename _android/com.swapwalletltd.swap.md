@@ -6,7 +6,7 @@ altTitle:
 users: 50000
 appId: com.swapwalletltd.swap
 released: 
-latestUpdate: 2020-11-14
+updated: 2020-11-14
 version: "Varies with device"
 stars: 4.9
 ratings: 2282

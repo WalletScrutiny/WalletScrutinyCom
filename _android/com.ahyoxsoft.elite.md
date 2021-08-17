@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.ahyoxsoft.elite
 released: 2020-06-15
-latestUpdate: 2020-08-06
+updated: 2020-08-06
 version: "1.0"
 stars: 4.7
 ratings: 6

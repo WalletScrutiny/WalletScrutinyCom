@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: co.bandicoot.ztrader
 released: 2014-05-04
-latestUpdate: 2016-08-07
+updated: 2016-08-07
 version: "1.2.2"
 stars: 3.3
 ratings: 1213

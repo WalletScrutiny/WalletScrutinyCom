@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.yes.yeswallet
 released: 2019-04-24
-latestUpdate: 2019-04-24
+updated: 2019-04-24
 version: "1.0"
 stars: 2.8
 ratings: 45

@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.secrypto
 released: 2018-06-18
-latestUpdate: 2019-02-26
+updated: 2019-02-26
 version: "1.28"
 stars: 2.9
 ratings: 957

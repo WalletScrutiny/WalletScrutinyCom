@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx
 released: 2021-06-01
-latestUpdate: 2021-06-02
+updated: 2021-06-02
 version: "1.1"
 stars: 0.0
 ratings: 

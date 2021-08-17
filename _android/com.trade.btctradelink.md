@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.trade.btctradelink
 released: 2019-07-27
-latestUpdate: 2019-07-27
+updated: 2019-07-27
 version: "1.0"
 stars: 0.0
 ratings: 

@@ -5,7 +5,7 @@ authors:
 - leo
 released: 
 discontinued: # date
-latestUpdate: 2021-05-20
+updated: 2021-05-20
 version: 9.6.0
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions: [54.5, 25.4, 9.6]

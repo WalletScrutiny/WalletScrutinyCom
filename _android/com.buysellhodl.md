@@ -5,7 +5,7 @@ altTitle:
 users: 10000
 appId: com.buysellhodl
 released: 
-latestUpdate: 2019-10-11
+updated: 2019-10-11
 version: "1.12.7"
 stars: 4.3
 ratings: 157

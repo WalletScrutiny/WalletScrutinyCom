@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.arindamdawn.coinflow
 released: 2017-07-26
-latestUpdate: 2017-07-27
+updated: 2017-07-27
 version: "1.0.1"
 stars: 0.0
 ratings: 

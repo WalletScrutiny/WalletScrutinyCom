@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.trustkeysnetwork
 released: 2019-03-02
-latestUpdate: 2021-08-11
+updated: 2021-08-11
 version: "1.1.21"
 stars: 5.0
 ratings: 27

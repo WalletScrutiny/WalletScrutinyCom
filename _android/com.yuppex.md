@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.yuppex
 released: 2020-08-17
-latestUpdate: 2020-09-25
+updated: 2020-09-25
 version: "1.2"
 stars: 5.0
 ratings: 9

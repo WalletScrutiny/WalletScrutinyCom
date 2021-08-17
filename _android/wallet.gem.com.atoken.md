@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: wallet.gem.com.atoken
 released: 2020-03-01
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "4.1.7"
 stars: 4.0
 ratings: 3990

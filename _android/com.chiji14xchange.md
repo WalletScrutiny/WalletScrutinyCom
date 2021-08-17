@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.chiji14xchange
 released: 2019-04-22
-latestUpdate: 2021-05-22
+updated: 2021-05-22
 version: "3.0.5"
 stars: 3.2
 ratings: 955

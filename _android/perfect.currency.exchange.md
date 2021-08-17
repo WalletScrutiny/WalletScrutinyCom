@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: perfect.currency.exchange
 released: 2019-07-22
-latestUpdate: 2019-09-07
+updated: 2019-09-07
 version: "v8.0"
 stars: 4.2
 ratings: 11

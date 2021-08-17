@@ -8,7 +8,7 @@ authors:
 users: 5000
 appId: com.maxonrow.wallet
 released: 2019-08-31
-latestUpdate: 2020-10-20
+updated: 2020-10-20
 version: "2.1.16"
 stars: 3.9
 ratings: 73

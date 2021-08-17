@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.wyre.trade
 released: 2021-04-30
-latestUpdate: 2021-07-19
+updated: 2021-07-19
 version: "1.1.7"
 stars: 4.4
 ratings: 95

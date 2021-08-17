@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.AndroidCompany.OBMENik
 released: 2020-11-18
-latestUpdate: 2020-11-18
+updated: 2020-11-18
 version: "1.0"
 stars: 4.1
 ratings: 361

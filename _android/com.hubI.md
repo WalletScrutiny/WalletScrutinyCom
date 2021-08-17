@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.hubI
 released: 2021-06-15
-latestUpdate: 2021-07-13
+updated: 2021-07-13
 version: "1.3.3"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.terracredit.pro
 released: 2020-12-30
-latestUpdate: 2021-03-02
+updated: 2021-03-02
 version: "1.0.4.210302"
 stars: 4.5
 ratings: 103

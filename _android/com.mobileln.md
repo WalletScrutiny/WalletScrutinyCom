@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.mobileln
 released: 
-latestUpdate: 2019-04-11
+updated: 2019-04-11
 version: "pre-alpha v0.2b"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.gamehub.playwallet2
 released: 2020-02-19
-latestUpdate: 2020-04-08
+updated: 2020-04-08
 version: "2.0.6"
 stars: 3.3
 ratings: 22

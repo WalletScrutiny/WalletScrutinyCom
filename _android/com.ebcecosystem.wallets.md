@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ebcecosystem.wallets
 released: 2018-12-07
-latestUpdate: 2019-01-30
+updated: 2019-01-30
 version: "0.0.7"
 stars: 4.7
 ratings: 97

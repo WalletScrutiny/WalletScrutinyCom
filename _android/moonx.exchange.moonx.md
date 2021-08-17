@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: moonx.exchange.moonx
 released: 2019-08-09
-latestUpdate: 2020-07-16
+updated: 2020-07-16
 version: "2.0"
 stars: 4.9
 ratings: 13

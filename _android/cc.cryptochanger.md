@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: cc.cryptochanger
 released: 2017-11-30
-latestUpdate: 2018-02-19
+updated: 2018-02-19
 version: "0.4"
 stars: 3.6
 ratings: 38

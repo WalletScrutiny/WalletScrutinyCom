@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.altcoin.wallet
 released: 2018-03-19
-latestUpdate: 2020-01-21
+updated: 2020-01-21
 version: "v1.6"
 stars: 3.0
 ratings: 101

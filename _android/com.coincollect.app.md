@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.coincollect.app
 released: 2019-09-08
-latestUpdate: 2021-04-21
+updated: 2021-04-21
 version: "1.11.0"
 stars: 4.0
 ratings: 5

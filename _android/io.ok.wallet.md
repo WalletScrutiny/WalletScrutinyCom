@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: io.ok.wallet
 released: 2021-04-10
-latestUpdate: 2021-04-13
+updated: 2021-04-13
 version: "1.0.3"
 stars: 0.0
 ratings: 

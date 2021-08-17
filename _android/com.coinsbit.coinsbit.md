@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.coinsbit.coinsbit
 released: 2019-10-28
-latestUpdate: 2019-11-27
+updated: 2019-11-27
 version: "1.0"
 stars: 2.7
 ratings: 1532

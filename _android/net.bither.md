@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: net.bither
 released: 2014-02-27
-latestUpdate: 2021-07-05
+updated: 2021-07-05
 version: "2.0.1"
 stars: 3.7
 ratings: 322

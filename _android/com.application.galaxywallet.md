@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.application.galaxywallet
 released: 2019-12-09
-latestUpdate: 2020-05-19
+updated: 2020-05-19
 version: "1.2"
 stars: 2.9
 ratings: 17

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.kuffgames.cryptoinvestinggame
 released: 2021-07-08
-latestUpdate: 2021-07-31
+updated: 2021-07-31
 version: "1.1"
 stars: 4.7
 ratings: 15

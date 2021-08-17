@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.youhodler.youhodler
 released: 2019-07-11
-latestUpdate: 2021-07-07
+updated: 2021-07-07
 version: "2.17.0"
 stars: 4.2
 ratings: 1869

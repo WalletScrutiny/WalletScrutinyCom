@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.trade.tradeio.eu
 released: 2019-07-22
-latestUpdate: 2019-09-20
+updated: 2019-09-20
 version: "1.0.0"
 stars: 2.2
 ratings: 25

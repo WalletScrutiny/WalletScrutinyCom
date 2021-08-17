@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.uni.uniwallet
 released: 2018-06-05
-latestUpdate: 2019-02-19
+updated: 2019-02-19
 version: "7.0.4"
 stars: 4.0
 ratings: 44

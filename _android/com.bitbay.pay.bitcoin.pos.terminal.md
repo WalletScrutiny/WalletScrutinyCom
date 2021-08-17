@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitbay.pay.bitcoin.pos.terminal
 released: 2019-03-18
-latestUpdate: 2020-03-06
+updated: 2020-03-06
 version: "1.6.6"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.xufagroup.cryptowallet
 released: 2018-07-05
-latestUpdate: 2020-06-03
+updated: 2020-06-03
 version: "1.2"
 stars: 1.8
 ratings: 5

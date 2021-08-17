@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: exchange.einstein.mobile.release
 released: 2019-02-01
-latestUpdate: 2019-10-17
+updated: 2019-10-17
 version: "1.2.2"
 stars: 1.5
 ratings: 953

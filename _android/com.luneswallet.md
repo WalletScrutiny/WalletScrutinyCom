@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.luneswallet
 released: 2018-01-31
-latestUpdate: 2018-12-06
+updated: 2018-12-06
 version: "2.1"
 stars: 4.1
 ratings: 266

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.cordova.myappf57082
 released: 2017-08-19
-latestUpdate: 2020-04-09
+updated: 2020-04-09
 version: "11.2.6"
 stars: 4.4
 ratings: 132

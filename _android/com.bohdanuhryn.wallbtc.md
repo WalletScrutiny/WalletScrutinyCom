@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bohdanuhryn.wallbtc
 released: 2016-09-28
-latestUpdate: 2017-11-04
+updated: 2017-11-04
 version: "2.0.1"
 stars: 3.8
 ratings: 358

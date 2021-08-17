@@ -8,7 +8,7 @@ authors:
 users: 50000
 appId: com.citowise.wallet
 released: 
-latestUpdate: 2019-12-25
+updated: 2019-12-25
 version: "1.355"
 stars: 4.2
 ratings: 656

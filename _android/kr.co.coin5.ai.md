@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: kr.co.coin5.ai
 released: 2020-06-13
-latestUpdate: 2020-06-14
+updated: 2020-06-14
 version: "1.0"
 stars: 0.0
 ratings: 

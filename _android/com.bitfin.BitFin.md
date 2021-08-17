@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitfin.BitFin
 released: 2020-02-05
-latestUpdate: 2020-02-19
+updated: 2020-02-19
 version: "1.1"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.iqfinex_exchange
 released: 2019-05-16
-latestUpdate: 2019-10-30
+updated: 2019-10-30
 version: "1.0.4"
 stars: 1.7
 ratings: 6

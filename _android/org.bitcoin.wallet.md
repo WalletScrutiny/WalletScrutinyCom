@@ -8,7 +8,7 @@ authors:
 users: 1000
 appId: org.bitcoin.wallet
 released: 
-latestUpdate: 2021-02-09
+updated: 2021-02-09
 version: "1.0"
 stars: 4.3
 ratings: 9

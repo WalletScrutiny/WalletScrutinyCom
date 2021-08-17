@@ -7,7 +7,7 @@ authors:
 users: 5000000
 appId: de.schildbach.wallet
 released: 2011-03-01
-latestUpdate: 2021-08-03
+updated: 2021-08-03
 version: "8.15"
 stars: 3.9
 ratings: 28031

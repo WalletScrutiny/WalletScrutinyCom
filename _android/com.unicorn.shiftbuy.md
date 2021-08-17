@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.unicorn.shiftbuy
 released: 2020-01-03
-latestUpdate: 2020-04-21
+updated: 2020-04-21
 version: "0.2.7.2"
 stars: 4.4
 ratings: 14

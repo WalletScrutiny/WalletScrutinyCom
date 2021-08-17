@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 released: 2018-07-01
 discontinued: # date
-latestUpdate:
+updated:
 version:
 dimensions: [26, 40, 6.4]
 weight: 

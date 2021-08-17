@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: app.hibana.hibana
 released: 2018-12-11
-latestUpdate: 2018-12-11
+updated: 2018-12-11
 version: "0.1"
 stars: 0.0
 ratings: 

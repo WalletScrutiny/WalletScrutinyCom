@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: kr.co.coin.bf
 released: 2020-02-25
-latestUpdate: 2020-02-26
+updated: 2020-02-26
 version: "1.0"
 stars: 0.0
 ratings: 

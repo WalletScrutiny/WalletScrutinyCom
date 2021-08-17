@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: io.bincap.exchange
 released: 2019-08-08
-latestUpdate: 2020-05-02
+updated: 2020-05-02
 version: "2.0.1"
 stars: 4.4
 ratings: 13

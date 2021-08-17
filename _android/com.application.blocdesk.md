@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.application.blocdesk
 released: 2020-02-05
-latestUpdate: 2020-03-03
+updated: 2020-03-03
 version: "1.1.5"
 stars: 0.0
 ratings: 

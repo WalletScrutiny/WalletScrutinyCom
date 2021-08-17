@@ -7,7 +7,7 @@ authors:
 users: 1
 appId: com.blockchainacuity.wallet
 released: 2018-08-01
-latestUpdate: 2018-08-01
+updated: 2018-08-01
 version: "5.37"
 stars: 0.0
 ratings: 

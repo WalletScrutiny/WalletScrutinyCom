@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.dex.digitalexchangeid
 released: 
-latestUpdate: 2021-08-16
+updated: 2021-08-16
 version: "Varies with device"
 stars: 
 ratings: 

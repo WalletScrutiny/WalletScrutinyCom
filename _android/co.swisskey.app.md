@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: co.swisskey.app
 released: 2020-02-04
-latestUpdate: 2020-02-04
+updated: 2020-02-04
 version: "0.0.1"
 stars: 0.0
 ratings: 

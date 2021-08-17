@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.bitcoin.mwallet
 released: 2017-06-19
-latestUpdate: 2021-08-03
+updated: 2021-08-03
 version: "7.0.11"
 stars: 4.4
 ratings: 29947

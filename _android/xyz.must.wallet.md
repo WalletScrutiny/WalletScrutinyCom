@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: xyz.must.wallet
 released: 2020-09-10
-latestUpdate: 2020-09-18
+updated: 2020-09-18
 version: "1.2"
 stars: 4.6
 ratings: 9

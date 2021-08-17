@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.citex.wallet
 released: 2019-11-09
-latestUpdate: 2020-02-08
+updated: 2020-02-08
 version: "1.3"
 stars: 3.0
 ratings: 12

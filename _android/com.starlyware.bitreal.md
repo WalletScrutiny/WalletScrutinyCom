@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.starlyware.bitreal
 released: 2021-03-29
-latestUpdate: 2021-07-25
+updated: 2021-07-25
 version: "1.3.1"
 stars: 2.6
 ratings: 169

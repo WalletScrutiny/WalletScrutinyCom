@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bytetobyte.xwallet
 released: 2017-04-27
-latestUpdate: 2017-09-03
+updated: 2017-09-03
 version: "0.3.1-beta"
 stars: 4.2
 ratings: 13

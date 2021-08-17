@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.bitforex.pro
 released: 2020-07-19
-latestUpdate: 2020-07-20
+updated: 2020-07-20
 version: "2.0.0"
 stars: 2.2
 ratings: 363

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.airwalletofficial.air_wallet
 released: 2019-10-19
-latestUpdate: 2019-10-29
+updated: 2019-10-29
 version: "1.9.2"
 stars: 4.2
 ratings: 29

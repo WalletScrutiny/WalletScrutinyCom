@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bbx.bmtc
 released: 2018-04-25
-latestUpdate: 2021-05-26
+updated: 2021-05-26
 version: "1.3.1"
 stars: 4.2
 ratings: 129

@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.wallet.crypto.skgapp
 released: 2019-06-17
-latestUpdate: 2019-07-22
+updated: 2019-07-22
 version: "1.4.42"
 stars: 0.0
 ratings: 

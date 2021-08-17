@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: im.token.app99
 released: 2020-05-09
-latestUpdate: 2021-05-07
+updated: 2021-05-07
 version: "2.9.6"
 stars: 3.5
 ratings: 6

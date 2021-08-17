@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.ndex.web
 released: 2018-10-10
-latestUpdate: 2020-04-02
+updated: 2020-04-02
 version: "1.1"
 stars: 4.7
 ratings: 10

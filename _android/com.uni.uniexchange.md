@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.uni.uniexchange
 released: 2018-06-06
-latestUpdate: 2019-02-14
+updated: 2019-02-14
 version: "5.3.5"
 stars: 3.9
 ratings: 11

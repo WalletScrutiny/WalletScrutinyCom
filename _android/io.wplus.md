@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.wplus
 released: 2018-11-27
-latestUpdate: 2019-05-24
+updated: 2019-05-24
 version: "0.1.1"
 stars: 4.1
 ratings: 41

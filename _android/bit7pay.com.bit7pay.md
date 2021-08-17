@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: bit7pay.com.bit7pay
 released: 
-latestUpdate: 2020-04-08
+updated: 2020-04-08
 version: "1.0"
 stars: 4.2
 ratings: 169

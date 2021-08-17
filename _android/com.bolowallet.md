@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.bolowallet
 released: 
-latestUpdate: 2019-12-12
+updated: 2019-12-12
 version: "Varies with device"
 stars: 
 ratings: 

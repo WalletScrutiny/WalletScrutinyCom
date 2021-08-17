@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: com.aegiswallet
 released: 2014-06-01
-latestUpdate: 2017-12-20
+updated: 2017-12-20
 version: "1.2"
 stars: 3.8
 ratings: 95

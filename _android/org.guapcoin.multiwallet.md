@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.guapcoin.multiwallet
 released: 2020-02-27
-latestUpdate: 2020-02-27
+updated: 2020-02-27
 version: "1.0.0"
 stars: 4.3
 ratings: 39

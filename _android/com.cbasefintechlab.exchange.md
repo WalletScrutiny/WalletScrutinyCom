@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.cbasefintechlab.exchange
 released: 2018-11-23
-latestUpdate: 2020-02-25
+updated: 2020-02-25
 version: "1.2.3"
 stars: 3.8
 ratings: 52

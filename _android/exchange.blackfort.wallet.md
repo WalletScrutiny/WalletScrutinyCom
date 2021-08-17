@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: exchange.blackfort.wallet
 released: 2020-08-31
-latestUpdate: 2021-06-24
+updated: 2021-06-24
 version: "1.2.4"
 stars: 4.2
 ratings: 61

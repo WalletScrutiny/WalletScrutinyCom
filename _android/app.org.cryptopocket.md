@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: app.org.cryptopocket
 released: 2018-11-13
-latestUpdate: 2019-09-16
+updated: 2019-09-16
 version: "1.2.8"
 stars: 4.1
 ratings: 100

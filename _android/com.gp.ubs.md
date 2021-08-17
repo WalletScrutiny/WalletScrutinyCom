@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.gp.ubs
 released: 
-latestUpdate: 2021-06-20
+updated: 2021-06-20
 version: "1.1.2"
 stars: 2.0
 ratings: 5

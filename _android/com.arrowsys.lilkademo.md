@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.arrowsys.lilkademo
 released: 2015-10-08
-latestUpdate: 2020-12-01
+updated: 2020-12-01
 version: "2.6.69"
 stars: 4.5
 ratings: 215

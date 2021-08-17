@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: exchange.fox.android
 released: 2019-06-11
-latestUpdate: 2020-04-20
+updated: 2020-04-20
 version: "1.5.1"
 stars: 3.3
 ratings: 12

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.space.tkey
 released: 2020-02-14
-latestUpdate: 2020-04-27
+updated: 2020-04-27
 version: "1.3.0"
 stars: 3.9
 ratings: 402

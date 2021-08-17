@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: mw.org.freewallet.app
 released: 2017-08-10
-latestUpdate: 2021-03-04
+updated: 2021-03-04
 version: "1.15.3"
 stars: 4.4
 ratings: 11062

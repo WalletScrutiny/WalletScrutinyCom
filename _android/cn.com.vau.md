@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: cn.com.vau
 released: 2019-07-06
-latestUpdate: 2021-06-04
+updated: 2021-06-04
 version: "1.4.2"
 stars: 4.3
 ratings: 3848

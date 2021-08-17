@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.wallet.crypto.safeapp
 released: 2020-05-23
-latestUpdate: 2020-05-24
+updated: 2020-05-24
 version: "1.0"
 stars: 0.0
 ratings: 

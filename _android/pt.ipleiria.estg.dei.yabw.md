@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: pt.ipleiria.estg.dei.yabw
 released: 2018-05-02
-latestUpdate: 2018-06-25
+updated: 2018-06-25
 version: "1.2.4"
 stars: 4.4
 ratings: 5

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: quanterall.com.cryptoexchange
 released: 
-latestUpdate: 2019-06-18
+updated: 2019-06-18
 version: "Varies with device"
 stars: 
 ratings: 

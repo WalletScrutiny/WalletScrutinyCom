@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.superx.isupex
 released: 2020-05-02
-latestUpdate: 2020-05-02
+updated: 2020-05-02
 version: "1.0.0"
 stars: 0.0
 ratings: 

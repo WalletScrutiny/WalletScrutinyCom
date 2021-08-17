@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.okinc.okex.gp
 released: 2019-10-29
-latestUpdate: 2021-08-12
+updated: 2021-08-12
 version: "5.2.0"
 stars: 4.9
 ratings: 123995

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: ng.crytopay.pwa
 released: 2020-08-20
-latestUpdate: 2020-10-22
+updated: 2020-10-22
 version: "3.0"
 stars: 3.4
 ratings: 17

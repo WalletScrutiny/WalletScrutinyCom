@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.blocksecurity.talosec
 released: 2020-05-28
-latestUpdate: 2020-06-14
+updated: 2020-06-14
 version: "2.0.0"
 stars: 0.0
 ratings: 

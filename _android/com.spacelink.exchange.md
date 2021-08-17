@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.spacelink.exchange
 released: 2021-05-21
-latestUpdate: 2021-05-21
+updated: 2021-05-21
 version: "4"
 stars: 0.0
 ratings: 

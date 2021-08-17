@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.cyberblock.cyberblockmobile
 released: 2018-10-22
-latestUpdate: 2018-10-22
+updated: 2018-10-22
 version: "2.0"
 stars: 1.8
 ratings: 5

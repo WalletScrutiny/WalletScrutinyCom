@@ -5,7 +5,7 @@ altTitle:
 users: 50000
 appId: com.blockchain.android
 released: 2020-06-15
-latestUpdate: 2021-01-04
+updated: 2021-01-04
 version: "1.0.7.5"
 stars: 4.4
 ratings: 2737

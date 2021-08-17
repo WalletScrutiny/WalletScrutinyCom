@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bicheng.newtw.exchange
 released: 2020-06-04
-latestUpdate: 2021-03-02
+updated: 2021-03-02
 version: "1.2.1"
 stars: 0.0
 ratings: 

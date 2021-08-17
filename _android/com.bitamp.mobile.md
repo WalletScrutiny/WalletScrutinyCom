@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.bitamp.mobile
 released: 2021-04-10
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "2.0"
 stars: 5.0
 ratings: 52

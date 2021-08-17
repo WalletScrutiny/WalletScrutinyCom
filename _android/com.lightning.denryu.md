@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.lightning.denryu
 released: 2018-12-14
-latestUpdate: 2018-12-26
+updated: 2018-12-26
 version: "0.1"
 stars: 2.5
 ratings: 17

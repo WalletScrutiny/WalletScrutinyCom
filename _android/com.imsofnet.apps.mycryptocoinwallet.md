@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.imsofnet.apps.mycryptocoinwallet
 released: 2018-01-24
-latestUpdate: 2018-01-31
+updated: 2018-01-31
 version: "1.1"
 stars: 0.0
 ratings: 

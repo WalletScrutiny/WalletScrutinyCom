@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.legend.offlinewallet
 released: 2020-05-09
-latestUpdate: 2020-07-25
+updated: 2020-07-25
 version: "1.0.5"
 stars: 0.0
 ratings: 

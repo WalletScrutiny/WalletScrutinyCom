@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: tech.ionia.app
 released: 2018-05-11
-latestUpdate: 2019-02-27
+updated: 2019-02-27
 version: "1.1.3"
 stars: 4.5
 ratings: 40

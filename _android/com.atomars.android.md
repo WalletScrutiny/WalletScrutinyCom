@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.atomars.android
 released: 2019-07-01
-latestUpdate: 2019-07-01
+updated: 2019-07-01
 version: "1.1.1"
 stars: 2.1
 ratings: 36

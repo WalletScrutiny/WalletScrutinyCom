@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: io.kodular.nandorystudioapps.BPKF
 released: 2021-04-16
-latestUpdate: 2021-05-09
+updated: 2021-05-09
 version: "1.2"
 stars: 0.0
 ratings: 

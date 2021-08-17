@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: co.bitindia
 released: 
-latestUpdate: 2018-02-06
+updated: 2018-02-06
 version: "Varies with device"
 stars: 
 ratings: 

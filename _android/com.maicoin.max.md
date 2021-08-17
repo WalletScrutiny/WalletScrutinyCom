@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.maicoin.max
 released: 2018-07-01
-latestUpdate: 2021-08-09
+updated: 2021-08-09
 version: "3.0.0"
 stars: 4.2
 ratings: 756

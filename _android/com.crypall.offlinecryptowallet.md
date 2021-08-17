@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.crypall.offlinecryptowallet
 released: 2019-06-12
-latestUpdate: 2019-07-12
+updated: 2019-07-12
 version: "2.2"
 stars: 0.0
 ratings: 

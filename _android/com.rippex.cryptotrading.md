@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.rippex.cryptotrading
 released: 2021-03-13
-latestUpdate: 2020-11-23
+updated: 2020-11-23
 version: "1.0"
 stars: 4.9
 ratings: 403

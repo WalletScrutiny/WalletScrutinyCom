@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.tradetoolsfx.cryptoexchange
 released: 2018-08-10
-latestUpdate: 2019-07-31
+updated: 2019-07-31
 version: "1.0.8"
 stars: 0.0
 ratings: 

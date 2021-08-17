@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.coinpay
 released: 2020-05-26
-latestUpdate: 2020-08-23
+updated: 2020-08-23
 version: "1.0.7"
 stars: 3.8
 ratings: 22

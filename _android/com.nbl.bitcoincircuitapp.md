@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.nbl.bitcoincircuitapp
 released: 
-latestUpdate: 2021-02-27
+updated: 2021-02-27
 version: "1.0.0"
 stars: 3.4
 ratings: 28

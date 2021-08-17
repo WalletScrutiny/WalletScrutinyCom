@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.everus.org
 released: 2018-04-07
-latestUpdate: 2021-03-07
+updated: 2021-03-07
 version: "1.2.9"
 stars: 4.7
 ratings: 7562

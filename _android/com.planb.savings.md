@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.planb.savings
 released: 2020-07-08
-latestUpdate: 2020-07-13
+updated: 2020-07-13
 version: "0.0.2"
 stars: 0.0
 ratings: 

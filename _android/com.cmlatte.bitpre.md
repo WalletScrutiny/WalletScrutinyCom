@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.cmlatte.bitpre
 released: 2017-06-12
-latestUpdate: 2018-08-10
+updated: 2018-08-10
 version: "1.1.1"
 stars: 4.9
 ratings: 17

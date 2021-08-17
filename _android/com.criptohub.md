@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.criptohub
 released: 2019-07-30
-latestUpdate: 2019-10-10
+updated: 2019-10-10
 version: "1.0.6"
 stars: 4.5
 ratings: 33

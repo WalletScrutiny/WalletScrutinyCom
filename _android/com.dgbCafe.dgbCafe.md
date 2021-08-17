@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.dgbCafe.dgbCafe
 released: 2018-11-16
-latestUpdate: 2021-05-28
+updated: 2021-05-28
 version: "2.1"
 stars: 4.8
 ratings: 28

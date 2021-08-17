@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.Bitplicity.Bitplicityapp
 released: 2020-06-06
-latestUpdate: 2020-06-19
+updated: 2020-06-19
 version: "1.4"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.mykey.id
 released: 
-latestUpdate: 2021-02-04
+updated: 2021-02-04
 version: "3.5.0"
 stars: 4.6
 ratings: 116

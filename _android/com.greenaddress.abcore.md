@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.greenaddress.abcore
 released: 
-latestUpdate: 2019-10-16
+updated: 2019-10-16
 version: "Varies with device"
 stars: 
 ratings: 

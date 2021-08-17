@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.anxintl.mythology
 released: 2016-04-18
-latestUpdate: 2016-10-29
+updated: 2016-10-29
 version: "1.3.3"
 stars: 3.1
 ratings: 45

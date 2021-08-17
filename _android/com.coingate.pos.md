@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.coingate.pos
 released: 2015-02-19
-latestUpdate: 2016-08-18
+updated: 2016-08-18
 version: "2.0.0"
 stars: 3.7
 ratings: 22

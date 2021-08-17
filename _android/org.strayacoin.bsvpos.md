@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: org.strayacoin.bsvpos
 released: 2019-07-13
-latestUpdate: 2021-04-17
+updated: 2021-04-17
 version: "3.0.0"
 stars: 0.0
 ratings: 

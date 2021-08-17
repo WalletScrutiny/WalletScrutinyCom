@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.AppInstitute.qf0b5
 released: 2018-10-04
-latestUpdate: 2018-10-12
+updated: 2018-10-12
 version: "1.0.0"
 stars: 4.6
 ratings: 11

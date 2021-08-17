@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.xzen.wallet
 released: 2018-12-25
-latestUpdate: 2019-09-19
+updated: 2019-09-19
 version: "1.2.6.0"
 stars: 3.7
 ratings: 42

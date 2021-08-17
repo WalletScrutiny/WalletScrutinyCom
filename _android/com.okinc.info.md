@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.okinc.info
 released: 2020-05-25
-latestUpdate: 2020-07-05
+updated: 2020-07-05
 version: "1.9.18"
 stars: 4.5
 ratings: 6

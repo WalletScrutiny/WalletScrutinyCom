@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.credtech
 released: 2021-02-07
-latestUpdate: 2021-02-11
+updated: 2021-02-11
 version: "1.1"
 stars: 0.0
 ratings: 

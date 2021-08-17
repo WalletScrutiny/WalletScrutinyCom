@@ -6,7 +6,7 @@ authors:
 - leo
 released: 2020-07-01
 discontinued: # date
-latestUpdate: 2021-08-06
+updated: 2021-08-06
 version: v1.0.6
 dimensions: [38, 102, 23]
 weight: 138

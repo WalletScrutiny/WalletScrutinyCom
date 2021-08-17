@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.coinsfera
 released: 
-latestUpdate: 2020-08-23
+updated: 2020-08-23
 version: "Varies with device"
 stars: 
 ratings: 

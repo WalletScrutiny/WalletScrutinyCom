@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.anbbit.exchange
 released: 2020-10-16
-latestUpdate: 2020-12-31
+updated: 2020-12-31
 version: "1.1.2"
 stars: 0.0
 ratings: 

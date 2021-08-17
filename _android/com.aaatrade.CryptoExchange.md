@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.aaatrade.CryptoExchange
 released: 2018-09-20
-latestUpdate: 2021-03-19
+updated: 2021-03-19
 version: "1.2.5"
 stars: 4.5
 ratings: 26

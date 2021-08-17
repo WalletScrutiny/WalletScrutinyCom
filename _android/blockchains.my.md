@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: blockchains.my
 released: 2017-05-08
-latestUpdate: 2019-01-07
+updated: 2019-01-07
 version: "1.0.0.18"
 stars: 4.1
 ratings: 576

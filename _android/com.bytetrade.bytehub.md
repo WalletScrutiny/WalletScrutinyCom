@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.bytetrade.bytehub
 released: 2019-02-02
-latestUpdate: 2021-01-15
+updated: 2021-01-15
 version: "1.4.1.210114"
 stars: 4.6
 ratings: 7130

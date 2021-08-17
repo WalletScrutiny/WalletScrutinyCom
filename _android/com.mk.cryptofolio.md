@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.mk.cryptofolio
 released: 2018-05-02
-latestUpdate: 2020-08-19
+updated: 2020-08-19
 version: "1.0.51"
 stars: 4.4
 ratings: 24

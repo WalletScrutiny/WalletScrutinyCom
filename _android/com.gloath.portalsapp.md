@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.gloath.portalsapp
 released: 2018-03-20
-latestUpdate: 2020-12-20
+updated: 2020-12-20
 version: "0.0.4a"
 stars: 3.9
 ratings: 116

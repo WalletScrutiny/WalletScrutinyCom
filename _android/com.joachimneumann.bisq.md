@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.joachimneumann.bisq
 released: 2018-09-06
-latestUpdate: 2018-12-04
+updated: 2018-12-04
 version: "1.1.0"
 stars: 4.1
 ratings: 59

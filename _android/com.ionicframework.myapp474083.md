@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ionicframework.myapp474083
 released: 2017-06-16
-latestUpdate: 2018-10-22
+updated: 2018-10-22
 version: "2.0.13"
 stars: 2.9
 ratings: 278

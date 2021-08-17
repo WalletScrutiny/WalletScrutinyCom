@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: org.lndroid.wallet.testnet
 released: 2020-03-23
-latestUpdate: 2020-04-14
+updated: 2020-04-14
 version: "0.1.6-testnet"
 stars: 0.0
 ratings: 

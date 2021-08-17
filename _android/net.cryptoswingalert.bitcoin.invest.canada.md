@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: net.cryptoswingalert.bitcoin.invest.canada
 released: 2021-07-17
-latestUpdate: 2021-07-17
+updated: 2021-07-17
 version: "1.0"
 stars: 0.0
 ratings: 

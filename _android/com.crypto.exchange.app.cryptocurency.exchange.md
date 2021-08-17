@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.crypto.exchange.app.cryptocurency.exchange
 released: 2021-04-23
-latestUpdate: 2021-04-23
+updated: 2021-04-23
 version: "1.0"
 stars: 4.7
 ratings: 116

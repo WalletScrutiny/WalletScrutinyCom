@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.vrontonode.wallet
 released: 2019-11-29
-latestUpdate: 2019-11-29
+updated: 2019-11-29
 version: "1.0"
 stars: 4.7
 ratings: 19
