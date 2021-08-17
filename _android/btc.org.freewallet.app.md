@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: btc.org.freewallet.app
 released: 2016-06-13
-latestUpdate: 2021-06-01
+updated: 2021-06-01
 version: "2.5.9"
 stars: 4.2
-ratings: 5460
-reviews: 2707
+ratings: 5463
+reviews: 2709
 size: 7.3M
 website: https://freewallet.org
 repository: 

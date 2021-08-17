@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.liberty.jaxx
 released: 2018-09-01
-latestUpdate: 2021-05-28
+updated: 2021-05-28
 version: "2.6.4"
 stars: 3.8
 ratings: 5127

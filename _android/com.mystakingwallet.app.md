@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.mystakingwallet.app
 released: 2018-06-29
-latestUpdate: 2021-03-27
+updated: 2021-03-27
 version: "2.2"
 stars: 4.4
 ratings: 107

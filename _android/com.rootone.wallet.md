@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.rootone.wallet
 released: 2018-10-08
-latestUpdate: 2021-06-17
+updated: 2021-06-17
 version: "1.4.4"
 stars: 3.0
 ratings: 582

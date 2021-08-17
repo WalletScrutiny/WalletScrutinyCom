@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.shapeshift.droid_shapeshift
 released: 2015-10-26
-latestUpdate: 2021-07-16
+updated: 2021-07-16
 version: "2.19.0"
 stars: 3.0
 ratings: 2788

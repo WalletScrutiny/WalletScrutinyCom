@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: net.fxbitcoinsoft.invest.crypto
 released: 2021-07-18
-latestUpdate: 2021-07-18
+updated: 2021-07-18
 version: "1.0"
 stars: 0.0
 ratings: 

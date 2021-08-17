@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bit.eu
 released: 2019-07-03
-latestUpdate: 2021-08-05
+updated: 2021-08-05
 version: "1.9.8"
 stars: 4.5
 ratings: 16

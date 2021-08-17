@@ -7,7 +7,7 @@ authors:
 users: 1
 appId: org.cryptoleaders.crypto.investing
 released: 2021-06-15
-latestUpdate: 2021-06-15
+updated: 2021-06-15
 version: "1.0"
 stars: 0.0
 ratings: 

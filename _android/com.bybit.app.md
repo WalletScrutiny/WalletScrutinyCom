@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.bybit.app
 released: 2019-10-31
-latestUpdate: 2021-08-11
+updated: 2021-08-11
 version: "3.1.3"
 stars: 4.9
-ratings: 34181
-reviews: 2747
+ratings: 34492
+reviews: 2751
 size: 51M
 website: https://www.bybit.com
 repository: 

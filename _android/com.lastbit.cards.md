@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.lastbit.cards
 released: 
-latestUpdate: 2021-06-28
+updated: 2021-06-28
 version: "Varies with device"
 stars: 
 ratings: 

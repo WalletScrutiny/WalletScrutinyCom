@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: swapitway.sw
 released: 2021-02-10
-latestUpdate: 2021-02-21
+updated: 2021-02-21
 version: "2.5"
 stars: 3.7
 ratings: 15

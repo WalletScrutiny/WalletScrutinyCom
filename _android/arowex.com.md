@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: arowex.com
 released: 2021-07-16
-latestUpdate: 2021-07-17
+updated: 2021-07-17
 version: "0.0.0.1"
 stars: 0.0
 ratings: 

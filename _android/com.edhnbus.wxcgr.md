@@ -8,7 +8,7 @@ authors:
 users: 100
 appId: com.edhnbus.wxcgr
 released: 2021-07-21
-latestUpdate: 2021-07-21
+updated: 2021-07-21
 version: "0.92"
 stars: 0.0
 ratings: 

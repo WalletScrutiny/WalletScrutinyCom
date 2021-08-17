@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.risewallet.riseapp
 released: 2019-03-08
-latestUpdate: 2021-07-14
+updated: 2021-07-14
 version: "1.4.0"
 stars: 4.4
 ratings: 37

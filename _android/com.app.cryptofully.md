@@ -8,10 +8,10 @@ authors:
 users: 5000
 appId: com.app.cryptofully
 released: 2020-10-29
-latestUpdate: 2021-07-19
+updated: 2021-07-19
 version: "1.2.6"
 stars: 4.1
-ratings: 330
+ratings: 331
 reviews: 131
 size: 31M
 website: https://www.cryptofully.com/

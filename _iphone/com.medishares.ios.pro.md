@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-12-22
+  version: "3.1.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

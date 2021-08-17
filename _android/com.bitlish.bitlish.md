@@ -5,7 +5,7 @@ altTitle:
 users: 10000
 appId: com.bitlish.bitlish
 released: 2017-07-11
-latestUpdate: 2020-01-20
+updated: 2020-01-20
 version: "2.0.10"
 stars: 4
 ratings: 225

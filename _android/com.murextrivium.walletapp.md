@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.murextrivium.walletapp
 released: 2018-09-22
-latestUpdate: 2018-09-23
+updated: 2018-09-23
 version: "1.2"
 stars: 0.0
 ratings: 

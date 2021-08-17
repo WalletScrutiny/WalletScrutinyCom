@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: appinventor.ai_oldgoldmen.CryptoWallet
 released: 2020-02-01
-latestUpdate: 2021-02-23
+updated: 2021-02-23
 version: "3.0"
 stars: 4.5
 ratings: 43

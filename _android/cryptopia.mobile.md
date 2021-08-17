@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: cryptopia.mobile
 released: 2019-09-05
-latestUpdate: 2019-09-08
+updated: 2019-09-08
 version: "1.0.2"
 stars: 1.6
 ratings: 24
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: cryptopia.mobile.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.0.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

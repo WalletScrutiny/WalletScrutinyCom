@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.lisk.mobile
 released: 2018-10-02
-latestUpdate: 2021-03-25
+updated: 2021-03-25
 version: "1.4.1"
 stars: 4.2
 ratings: 189

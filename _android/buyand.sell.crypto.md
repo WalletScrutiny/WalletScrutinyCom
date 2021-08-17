@@ -7,7 +7,7 @@ authors:
 users: 1
 appId: buyand.sell.crypto
 released: 2021-06-16
-latestUpdate: 2021-06-16
+updated: 2021-06-16
 version: "1.0"
 stars: 0.0
 ratings: 

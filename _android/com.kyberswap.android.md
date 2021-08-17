@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.kyberswap.android
 released: 2019-08-14
-latestUpdate: 2021-07-21
+updated: 2021-07-21
 version: "1.1.37"
 stars: 4.2
 ratings: 1810

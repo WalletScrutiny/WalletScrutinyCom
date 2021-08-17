@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.web2app.SWISS_BANK_BTC
 released: 2020-11-27
-latestUpdate: 2020-11-30
+updated: 2020-11-30
 version: "2.0"
 stars: 5.0
 ratings: 6

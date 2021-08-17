@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.aladiex.global
 released: 2020-07-04
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "1.7.9"
 stars: 4.7
 ratings: 57

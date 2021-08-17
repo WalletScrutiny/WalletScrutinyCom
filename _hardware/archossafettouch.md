@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 released: 2019-03-31 # actually "Q1" according to the website
 discontinued: # date
-latestUpdate:
+updated:
 version:
 dimensions: 
 weight: 

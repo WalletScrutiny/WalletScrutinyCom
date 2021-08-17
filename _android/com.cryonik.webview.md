@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cryonik.webview
 released: 2021-01-21
-latestUpdate: 2021-01-21
+updated: 2021-01-21
 version: "1.0"
 stars: 1.6
 ratings: 14

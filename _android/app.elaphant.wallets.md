@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: app.elaphant.wallets
 released: 2020-10-08
-latestUpdate: 2021-05-03
+updated: 2021-05-03
 version: "1.99.15"
 stars: 3.9
 ratings: 7

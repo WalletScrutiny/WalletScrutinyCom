@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.mtobit.aos
 released: 2020-02-22
-latestUpdate: 2020-09-29
+updated: 2020-09-29
 version: "1.1.6"
 stars: 4.0
 ratings: 49

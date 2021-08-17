@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.flybit.app
 released: 2021-02-04
-latestUpdate: 2021-07-29
+updated: 2021-07-29
 version: "1.6.3"
 stars: 4.1
 ratings: 352

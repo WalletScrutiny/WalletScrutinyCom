@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.pocketbits
 released: 2021-08-03
-latestUpdate: 2021-08-16
+updated: 2021-08-16
 version: "1.2.5"
 stars: 4.3
 ratings: 36

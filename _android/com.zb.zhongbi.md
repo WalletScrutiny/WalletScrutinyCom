@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.zb.zhongbi
 released: 2020-08-24
-latestUpdate: 2021-03-05
+updated: 2021-03-05
 version: "1.1.4"
 stars: 4.7
 ratings: 102

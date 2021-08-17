@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.rishabh.bitfortip
 released: 2016-12-21
-latestUpdate: 2021-06-20
+updated: 2021-06-20
 version: "2.6"
 stars: 4.3
 ratings: 73

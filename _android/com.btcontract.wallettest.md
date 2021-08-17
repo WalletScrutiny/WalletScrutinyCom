@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.btcontract.wallettest
 released: 2021-06-28
-latestUpdate: 2021-07-30
+updated: 2021-07-30
 version: "2.0"
 stars: 0.0
 ratings: 

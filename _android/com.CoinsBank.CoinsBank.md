@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.CoinsBank.CoinsBank
 released: 2016-04-03
-latestUpdate: 2020-12-30
+updated: 2020-12-30
 version: "3.5.4"
 stars: 3.6
 ratings: 258

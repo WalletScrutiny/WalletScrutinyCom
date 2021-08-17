@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.ledger.live
 released: 2019-01-27
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "2.32.2"
 stars: 4.1
 ratings: 4737

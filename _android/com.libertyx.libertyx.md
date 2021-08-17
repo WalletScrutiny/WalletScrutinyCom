@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.libertyx.libertyx
 released: 
-latestUpdate: 2021-07-28
+updated: 2021-07-28
 version: "4.1.2"
 stars: 3.5
 ratings: 393

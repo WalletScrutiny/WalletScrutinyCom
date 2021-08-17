@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.digi.exchange
 released: 2019-03-11
-latestUpdate: 2021-07-17
+updated: 2021-07-17
 version: "1.1.6"
 stars: 4.2
 ratings: 244

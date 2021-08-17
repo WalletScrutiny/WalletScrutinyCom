@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.makingmillionswithcrypto.bitcoin.investment
 released: 2021-06-17
-latestUpdate: 2021-06-17
+updated: 2021-06-17
 version: "1.0"
 stars: 0.0
 ratings: 

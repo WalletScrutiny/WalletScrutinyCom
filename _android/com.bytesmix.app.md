@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bytesmix.app
 released: 2019-08-11
-latestUpdate: 2021-07-09
+updated: 2021-07-09
 version: "2.3.9"
 stars: 3.7
 ratings: 387

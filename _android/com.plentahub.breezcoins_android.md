@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.plentahub.breezcoins_android
 released: 2021-04-06
-latestUpdate: 2021-07-04
+updated: 2021-07-04
 version: "1.2.0"
 stars: 0.0
 ratings: 

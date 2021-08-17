@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.Coinals.Wallet
 released: 2021-04-23
-latestUpdate: 2021-04-23
+updated: 2021-04-23
 version: "1.0.0"
 stars: 0.0
 ratings: 

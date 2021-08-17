@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.aic.cluster
 released: 
-latestUpdate: 2021-05-24
+updated: 2021-05-24
 version: "Varies with device"
 stars: 
 ratings: 

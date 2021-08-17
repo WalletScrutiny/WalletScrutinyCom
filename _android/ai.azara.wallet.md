@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: ai.azara.wallet
 released: 2020-11-10
-latestUpdate: 2021-04-14
+updated: 2021-04-14
 version: "0.01.18"
 stars: 4.9
 ratings: 119

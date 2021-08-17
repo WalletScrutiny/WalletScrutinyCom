@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bgg.bgg_exchange
 released: 2018-10-29
-latestUpdate: 2020-09-09
+updated: 2020-09-09
 version: "1.6.7"
 stars: 4.0
 ratings: 33

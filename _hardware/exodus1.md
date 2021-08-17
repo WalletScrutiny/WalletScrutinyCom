@@ -6,7 +6,7 @@ authors:
 - leo
 released: 2018-10-23
 discontinued: # date
-latestUpdate:
+updated:
 version:
 dimensions: 
 weight: 

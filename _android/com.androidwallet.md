@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.androidwallet
 released: 2019-07-04
-latestUpdate: 2020-04-09
+updated: 2020-04-09
 version: "1.1.20"
 stars: 4.8
 ratings: 433
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.androidwallet.png
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-04-13
+  version: "1.1.20"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

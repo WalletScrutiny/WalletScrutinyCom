@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: org.strayacoin.bitcoinpos
 released: 2018-10-13
-latestUpdate: 2021-04-17
+updated: 2021-04-17
 version: "3.0.0"
 stars: 2.0
 ratings: 5

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.zenafinance
 released: 2020-12-17
-latestUpdate: 2021-07-29
+updated: 2021-07-29
 version: "2.1.2"
 stars: 3.7
 ratings: 55

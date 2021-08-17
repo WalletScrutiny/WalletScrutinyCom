@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.lastbit.lite
 released: 
-latestUpdate: 2021-05-11
+updated: 2021-05-11
 version: "Varies with device"
 stars: 
 ratings: 

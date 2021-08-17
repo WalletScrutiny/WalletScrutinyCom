@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.bitrefill.app
 released: 2018-04-10
-latestUpdate: 2019-09-28
+updated: 2019-09-28
 version: "1.28.9"
 stars: 3.9
 ratings: 649
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
-verdict: custodial
-date: 2019-12-25
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-25
+  version: "1.28.9"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: bitrefill
 providerLinkedIn: 

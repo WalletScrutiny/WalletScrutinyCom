@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.bllang.bithumb
 released: 2017-07-23
-latestUpdate: 2017-12-16
+updated: 2017-12-16
 version: "1.3.13"
 stars: 4.2
 ratings: 20
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bllang.bithumb.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.3.13"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

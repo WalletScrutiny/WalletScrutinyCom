@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ankerpay.wallet
 released: 2019-09-17
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "v1.0.12.3"
 stars: 4.0
 ratings: 106

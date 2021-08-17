@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.nbl.bitcoinsystemapp
 released: 
-latestUpdate: 2021-02-23
+updated: 2021-02-23
 version: "1.0.1"
 stars: 3.2
 ratings: 25

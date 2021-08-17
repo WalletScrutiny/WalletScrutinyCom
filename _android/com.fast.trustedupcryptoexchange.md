@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.fast.trustedupcryptoexchange
 released: 2021-05-20
-latestUpdate: 2021-05-20
+updated: 2021-05-20
 version: "1.0"
 stars: 0.0
 ratings: 

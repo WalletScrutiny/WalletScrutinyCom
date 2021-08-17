@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.xchange.nicechange
 released: 2021-05-25
-latestUpdate: 2021-05-25
+updated: 2021-05-25
 version: "1.0"
 stars: 0.0
 ratings: 

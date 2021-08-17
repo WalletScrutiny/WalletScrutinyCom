@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.brilliantts.fuzew
 released: 2018-07-25
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "1.0.23"
 stars: 4.4
 ratings: 22

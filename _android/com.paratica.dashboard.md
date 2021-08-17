@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.paratica.dashboard
 released: 2019-04-05
-latestUpdate: 2019-04-05
+updated: 2019-04-05
 version: "1.0"
 stars: 4.5
 ratings: 82
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.paratica.dashboard.png
 bugbounty: 
-verdict: wip
-date: 2021-08-08
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-08
+  version: "1.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: io.blns
 released: 2021-05-29
-latestUpdate: 2021-07-23
+updated: 2021-07-23
 version: "1.3.5"
 stars: 0.0
 ratings: 

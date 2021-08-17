@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.beaxy.cryptoexchange
 released: 2020-02-07
-latestUpdate: 2021-06-15
+updated: 2021-06-15
 version: "2.9"
 stars: 4.1
 ratings: 152

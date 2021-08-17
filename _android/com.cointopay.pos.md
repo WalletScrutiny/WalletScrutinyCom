@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cointopay.pos
 released: 2018-10-10
-latestUpdate: 2020-09-08
+updated: 2020-09-08
 version: "1.2.0"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.prizmbit
 released: 2019-06-28
-latestUpdate: 2021-08-05
+updated: 2021-08-05
 version: "1.4.24"
 stars: 3.9
 ratings: 522

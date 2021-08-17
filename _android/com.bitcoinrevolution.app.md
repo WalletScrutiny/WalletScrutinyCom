@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.bitcoinrevolution.app
 released: 2021-05-11
-latestUpdate: 2021-05-11
+updated: 2021-05-11
 version: "1.0.0"
 stars: 2.6
 ratings: 5

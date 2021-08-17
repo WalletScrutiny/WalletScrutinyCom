@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: net.xxxcoinnowfree.crypto.invest.app
 released: 2021-07-22
-latestUpdate: 2021-07-22
+updated: 2021-07-22
 version: "1.0"
 stars: 0.0
 ratings: 

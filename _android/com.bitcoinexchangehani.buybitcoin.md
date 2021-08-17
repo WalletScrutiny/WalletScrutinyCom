@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitcoinexchangehani.buybitcoin
 released: 2018-01-25
-latestUpdate: 2018-01-26
+updated: 2018-01-26
 version: "2.2.2"
 stars: 4.3
 ratings: 6
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
-verdict: nowallet
-date: 2020-06-20
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-06-20
+  version: "2.2.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 

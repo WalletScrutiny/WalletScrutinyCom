@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.swissy
 released: 2020-09-01
-latestUpdate: 2021-01-27
+updated: 2021-01-27
 version: "3.3"
 stars: 4.1
 ratings: 23

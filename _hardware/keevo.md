@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 released: 2020-09-31 # Q3 2020 according to provider
 discontinued: # date
-latestUpdate:
+updated:
 version:
 dimensions: 
 weight: 

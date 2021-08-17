@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.iminerator.app
 released: 2021-04-20
-latestUpdate: 2021-04-21
+updated: 2021-04-21
 version: "1.0.1"
 stars: 0.0
 ratings: 

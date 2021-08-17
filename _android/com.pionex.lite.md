@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.pionex.lite
 released: 2021-05-14
-latestUpdate: 2021-08-11
+updated: 2021-08-11
 version: "1.1.6"
 stars: 0.0
 ratings: 

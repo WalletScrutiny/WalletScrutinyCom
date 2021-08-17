@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.freewallet.mobile
 released: 2016-09-01
-latestUpdate: 2019-03-17
+updated: 2019-03-17
 version: "0.1.9"
 stars: 4.0
 ratings: 63
@@ -18,11 +18,15 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: nonverifiable
-date: 2020-12-05
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-12-05
+  version: "0.1.9"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: freewallet
 providerLinkedIn: 

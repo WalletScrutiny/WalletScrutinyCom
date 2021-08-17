@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.maxxwallet
 released: 2019-03-25
-latestUpdate: 2019-06-12
+updated: 2019-06-12
 version: "3.7.3"
 stars: 3.2
 ratings: 18
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.maxxwallet.png
 bugbounty: 
-verdict: nosource
-date: 2020-12-14
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-12-14
+  version: "3.7.3"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 

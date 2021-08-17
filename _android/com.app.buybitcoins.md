@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.app.buybitcoins
 released: 2021-03-20
-latestUpdate: 2021-04-08
+updated: 2021-04-08
 version: "1.3"
 stars: 4.0
 ratings: 17

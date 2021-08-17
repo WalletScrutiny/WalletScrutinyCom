@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.bitcoin.era.app3
 released: 2021-07-15
-latestUpdate: 2021-07-15
+updated: 2021-07-15
 version: "1.0.0"
 stars: 0.0
 ratings: 

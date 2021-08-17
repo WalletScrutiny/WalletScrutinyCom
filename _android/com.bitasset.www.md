@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.bitasset.www
 released: 2018-09-20
-latestUpdate: 2021-03-23
+updated: 2021-03-23
 version: "3.4.12"
 stars: 2.8
 ratings: 43

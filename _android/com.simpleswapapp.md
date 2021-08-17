@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.simpleswapapp
 released: 2020-05-23
-latestUpdate: 2021-07-27
+updated: 2021-07-27
 version: "3.1.5"
 stars: 4.3
 ratings: 268

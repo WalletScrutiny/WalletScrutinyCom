@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.forextb.forextb
 released: 2020-09-24
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "2.1.3"
 stars: 3.1
 ratings: 315

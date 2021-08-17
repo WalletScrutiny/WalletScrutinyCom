@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: org.coinid.wallet.tbtc
 released: 2019-02-06
-latestUpdate: 2021-02-20
+updated: 2021-02-20
 version: "1.8.0"
 stars: 3.4
 ratings: 5

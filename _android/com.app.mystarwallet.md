@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.app.mystarwallet
 released: 2020-05-12
-latestUpdate: 2021-06-10
+updated: 2021-06-10
 version: "1.47"
 stars: 4.5
 ratings: 415

@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.hashcash.bitrump
 released: 2020-02-18
-latestUpdate: 2021-03-05
+updated: 2021-03-05
 version: "1.2.1"
 stars: 5.0
 ratings: 50

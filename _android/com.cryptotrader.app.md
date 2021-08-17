@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.cryptotrader.app
 released: 2020-08-04
-latestUpdate: 2021-02-24
+updated: 2021-02-24
 version: "1.2.2"
 stars: 4.4
 ratings: 33

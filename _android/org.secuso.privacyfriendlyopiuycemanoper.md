@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: org.secuso.privacyfriendlyopiuycemanoper
 released: 
-latestUpdate: 2021-02-22
+updated: 2021-02-22
 version: "2.0.3"
 stars: 0.0
 ratings: 

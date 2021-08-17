@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.edss.pones
 released: 2021-04-29
-latestUpdate: 2021-04-29
+updated: 2021-04-29
 version: "1.0"
 stars: 3.8
 ratings: 20

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.paymintlabs.paymint
 released: 2020-06-29
-latestUpdate: 2020-10-05
+updated: 2020-10-05
 version: "1.2.2"
 stars: 4.1
 ratings: 11

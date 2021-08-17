@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.app.cofinexexchange34
 released: 2021-02-12
-latestUpdate: 2021-02-12
+updated: 2021-02-12
 version: "1.0"
 stars: 2.5
 ratings: 6

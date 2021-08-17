@@ -8,7 +8,7 @@ authors:
 users: 10
 appId: com.apptrack.coinom
 released: 2021-05-25
-latestUpdate: 2021-05-25
+updated: 2021-05-25
 version: "1.0.12"
 stars: 0.0
 ratings: 

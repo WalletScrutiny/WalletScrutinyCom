@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.korbit.exchange
 released: 2018-07-22
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "4.0.4"
 stars: 3.5
 ratings: 1559

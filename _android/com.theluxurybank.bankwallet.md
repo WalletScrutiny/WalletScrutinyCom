@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.theluxurybank.bankwallet
 released: 2020-11-22
-latestUpdate: 2020-11-22
+updated: 2020-11-22
 version: "0.16.3"
 stars: 5.0
 ratings: 10

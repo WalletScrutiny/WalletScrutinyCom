@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cashuwallet.android
 released: 
-latestUpdate: 2021-03-07
+updated: 2021-03-07
 version: "Varies with device"
 stars: 
 ratings: 

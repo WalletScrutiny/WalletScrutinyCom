@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.lightning.denryu
 released: 2018-12-14
-latestUpdate: 2018-12-26
+updated: 2018-12-26
 version: "0.1"
 stars: 2.5
 ratings: 17
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.lightning.denryu.png
 bugbounty: 
-verdict: fewusers
-date: 2021-04-15
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-04-15
+  version: "0.1"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

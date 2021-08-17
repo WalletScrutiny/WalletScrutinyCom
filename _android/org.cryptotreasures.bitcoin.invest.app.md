@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: org.cryptotreasures.bitcoin.invest.app
 released: 2021-06-24
-latestUpdate: 2021-06-24
+updated: 2021-06-24
 version: "1.0"
 stars: 0.0
 ratings: 

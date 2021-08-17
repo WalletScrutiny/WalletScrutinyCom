@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.supremexchange
 released: 2018-12-21
-latestUpdate: 2020-11-23
+updated: 2020-11-23
 version: "2.1"
 stars: 4.0
 ratings: 5

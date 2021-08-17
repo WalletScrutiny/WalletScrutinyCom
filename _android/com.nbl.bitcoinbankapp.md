@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.nbl.bitcoinbankapp
 released: 
-latestUpdate: 2021-02-23
+updated: 2021-02-23
 version: "1.0.1"
 stars: 3.6
 ratings: 19

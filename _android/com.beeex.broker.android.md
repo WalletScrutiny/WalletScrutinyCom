@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.beeex.broker.android
 released: 2020-07-08
-latestUpdate: 2020-10-09
+updated: 2020-10-09
 version: "3.6.5"
 stars: 4.2
 ratings: 58

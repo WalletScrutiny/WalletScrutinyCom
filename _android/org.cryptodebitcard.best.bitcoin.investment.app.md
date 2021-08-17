@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: org.cryptodebitcard.best.bitcoin.investment.app
 released: 2021-06-29
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "1.0"
 stars: 0.0
 ratings: 

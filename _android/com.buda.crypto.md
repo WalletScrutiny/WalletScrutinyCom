@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.buda.crypto
 released: 2018-01-04
-latestUpdate: 2020-06-02
+updated: 2020-06-02
 version: "1.9.10"
 stars: 2.3
 ratings: 495
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-05-30
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-05-30
+  version: "1.9.10"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: BudaPuntoCom
 providerLinkedIn: budapuntocom

@@ -5,7 +5,7 @@ altTitle:
 users: 10000
 appId: com.freaks.app.handcash
 released: 2018-06-01
-latestUpdate: 2019-09-16
+updated: 2019-09-16
 version: "1.5.17"
 stars: 4.4
 ratings: 344

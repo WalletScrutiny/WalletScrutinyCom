@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.airbitz
 released: 2014-04-01
-latestUpdate: 2018-09-21
+updated: 2018-09-21
 version: "2.4.12"
 stars: 3.4
 ratings: 1149
@@ -18,11 +18,15 @@ repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-verdict: nonverifiable
-date: 2019-11-10
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-11-10
+  version: "2.4.12"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: 
 providerLinkedIn: 

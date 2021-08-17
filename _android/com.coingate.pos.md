@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.coingate.pos
 released: 2015-02-19
-latestUpdate: 2016-08-18
+updated: 2016-08-18
 version: "2.0.0"
 stars: 3.7
 ratings: 22
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.coingate.pos.png
 bugbounty: 
-verdict: nowallet
-date: 2021-04-15
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-04-15
+  version: "2.0.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 

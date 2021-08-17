@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.app.eizzybtc
 released: 2020-11-18
-latestUpdate: 2020-11-19
+updated: 2020-11-19
 version: "1.0.0"
 stars: 0.0
 ratings: 

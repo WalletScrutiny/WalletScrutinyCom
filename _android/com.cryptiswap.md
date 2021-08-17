@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cryptiswap
 released: 2021-03-16
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "1.0.6"
 stars: 4.7
 ratings: 7

@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.developer.myafrique.mya
 released: 2020-06-27
-latestUpdate: 2021-01-27
+updated: 2021-01-27
 version: "1.2"
 stars: 5.0
 ratings: 7

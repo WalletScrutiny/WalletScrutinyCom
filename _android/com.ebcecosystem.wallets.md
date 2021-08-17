@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ebcecosystem.wallets
 released: 2018-12-07
-latestUpdate: 2019-01-30
+updated: 2019-01-30
 version: "0.0.7"
 stars: 4.7
 ratings: 97
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-verdict: custodial
-date: 2019-12-28
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-28
+  version: "0.0.7"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

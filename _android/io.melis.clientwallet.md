@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.melis.clientwallet
 released: 2017-01-30
-latestUpdate: 2021-05-04
+updated: 2021-05-04
 version: "1.6.21"
 stars: 4.2
 ratings: 23

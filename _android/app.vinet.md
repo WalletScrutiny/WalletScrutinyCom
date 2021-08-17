@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: app.vinet
 released: 2020-05-18
-latestUpdate: 2021-04-25
+updated: 2021-04-25
 version: "10.1"
 stars: 4.7
 ratings: 33

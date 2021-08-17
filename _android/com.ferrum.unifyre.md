@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.ferrum.unifyre
 released: 2020-05-29
-latestUpdate: 2020-09-20
+updated: 2020-09-20
 version: "0.0.19"
 stars: 4.5
 ratings: 101

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: crypto.buy.sell.signal.app
 released: 2021-06-16
-latestUpdate: 2021-06-17
+updated: 2021-06-17
 version: "1.0"
 stars: 0.0
 ratings: 

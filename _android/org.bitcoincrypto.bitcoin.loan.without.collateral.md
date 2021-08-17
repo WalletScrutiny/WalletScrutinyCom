@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: org.bitcoincrypto.bitcoin.loan.without.collateral
 released: 2021-06-24
-latestUpdate: 2021-06-24
+updated: 2021-06-24
 version: "1.0"
 stars: 0.0
 ratings: 

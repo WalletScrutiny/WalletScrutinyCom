@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.blockin.google
 released: 2020-03-12
-latestUpdate: 2021-07-27
+updated: 2021-07-27
 version: "3.2.7"
 stars: 4.1
 ratings: 583

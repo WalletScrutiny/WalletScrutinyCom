@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.matrixport.mark
 released: 2019-10-23
-latestUpdate: 2021-07-29
+updated: 2021-07-29
 version: "1.0.5"
 stars: 4.2
-ratings: 530
-reviews: 383
+ratings: 527
+reviews: 380
 size: 105M
 website: 
 repository: 

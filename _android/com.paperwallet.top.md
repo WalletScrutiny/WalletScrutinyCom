@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.paperwallet.top
 released: 2019-06-12
-latestUpdate: 2020-10-18
+updated: 2020-10-18
 version: "1.0.22"
 stars: 4.5
 ratings: 42

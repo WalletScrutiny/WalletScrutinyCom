@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.btcc.mobiwallet
 released: 2019-03-28
-latestUpdate: 2021-05-20
+updated: 2021-05-20
 version: "2.32.2"
 stars: 3.4
 ratings: 24

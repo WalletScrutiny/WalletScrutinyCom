@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: org.bitcoinup.invest.crypto
 released: 2021-06-17
-latestUpdate: 2021-06-17
+updated: 2021-06-17
 version: "1.0"
 stars: 0.0
 ratings: 

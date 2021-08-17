@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: etherio.wallet.com
 released: 2021-04-28
-latestUpdate: 2021-04-28
+updated: 2021-04-28
 version: "3.30.1"
 stars: 0.0
 ratings: 

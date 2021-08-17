@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.coinbase.wallite
 released: 2019-04-16
-latestUpdate: 2020-07-17
+updated: 2020-07-17
 version: "0.5-alpha"
 stars: 3.7
 ratings: 284
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.coinbase.wallite.png
 bugbounty: 
-verdict: nobtc
-date: 2021-05-31
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-05-31
+  version: "0.5-alpha"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nobtc
 
 providerTwitter: 
 providerLinkedIn: 

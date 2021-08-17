@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.mobiletradingpartners.lmaxdigital
 released: 2018-05-18
-latestUpdate: 2021-02-15
+updated: 2021-02-15
 version: "4.2.5"
 stars: 4.4
 ratings: 20

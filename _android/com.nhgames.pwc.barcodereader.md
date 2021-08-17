@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.nhgames.pwc.barcodereader
 released: 
-latestUpdate: 2019-02-20
+updated: 2019-02-20
 version: "2.0"
 stars: 3.9
 ratings: 93

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.cryptopay
 released: 2018-12-17
-latestUpdate: 2019-02-14
+updated: 2019-02-14
 version: "1.5"
 stars: 4.8
 ratings: 5
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.cryptopay.png
 bugbounty: 
-verdict: nosource
-date: 2021-04-15
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-04-15
+  version: "1.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: shamlatech
 providerLinkedIn: shamlatech

@@ -7,7 +7,7 @@ authors:
 users: 0
 appId: net.cryptowallets.bitcoin.invest.india
 released: 2021-06-27
-latestUpdate: 2021-06-28
+updated: 2021-06-28
 version: "1.0"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.coinid.wallet.btc
 released: 2018-10-14
-latestUpdate: 2021-02-20
+updated: 2021-02-20
 version: "1.8.0"
 stars: 4.3
 ratings: 12

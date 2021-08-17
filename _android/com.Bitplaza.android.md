@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.Bitplaza.android
 released: 2018-04-21
-latestUpdate: 2018-11-14
+updated: 2018-11-14
 version: "4.0"
 stars: 4.4
 ratings: 110
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.Bitplaza.android.png
 bugbounty: 
-verdict: nowallet
-date: 2021-03-10
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-03-10
+  version: "4.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 

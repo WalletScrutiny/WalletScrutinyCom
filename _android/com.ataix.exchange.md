@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ataix.exchange
 released: 2019-09-20
-latestUpdate: 2021-07-01
+updated: 2021-07-01
 version: "1.3.0"
 stars: 3.5
 ratings: 33

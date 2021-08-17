@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: co.minty.coincast
 released: 2021-07-18
-latestUpdate: 2021-07-31
+updated: 2021-07-31
 version: "1.0.1"
 stars: 0.0
 ratings: 

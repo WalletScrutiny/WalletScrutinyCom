@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.sonicx.payus
 released: 2021-02-06
-latestUpdate: 2021-02-10
+updated: 2021-02-10
 version: "1.1"
 stars: 0.0
 ratings: 

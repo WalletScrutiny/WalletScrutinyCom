@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: tech.hodler.core
 released: 2018-09-02
-latestUpdate: 2019-10-29
+updated: 2019-10-29
 version: "0.4.6"
 stars: 4.0
 ratings: 49
@@ -18,11 +18,15 @@ repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
 icon: tech.hodler.core.png
 bugbounty: 
-verdict: nonverifiable
-date: 2021-03-09
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-03-09
+  version: "0.4.6"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: HODLER_TECH
 providerLinkedIn: 

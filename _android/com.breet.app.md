@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.breet.app
 released: 2021-05-26
-latestUpdate: 2021-05-26
+updated: 2021-05-26
 version: "1.0"
 stars: 4.8
 ratings: 66

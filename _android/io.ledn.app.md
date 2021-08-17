@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.ledn.app
 released: 2021-01-04
-latestUpdate: 2021-01-28
+updated: 2021-01-28
 version: "0.1.3"
 stars: 3.3
 ratings: 33
