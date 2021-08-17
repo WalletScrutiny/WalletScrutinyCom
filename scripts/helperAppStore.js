@@ -93,11 +93,26 @@ function writeResult(app, header, iconExtension, body) {
   if (released != undefined) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
-  const reviewArchive = new Set(header.reviewArchive)
+  const reviewArchive = header.reviewArchive || []
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
   process.stdout.write("🍎")
+  var verdict = header.verdict
+  var date = header.date
+  // retire if needed
+  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+  if ( daysSinceUpdate > 720 && verdict != "obsolete" ) {
+    console.log(`\nObsoleting ${header.appId}`)
+    addReviewArchive(reviewArchive, header)
+    verdict = "obsolete"
+    date = new Date()
+  } else if ( daysSinceUpdate > 360 && daysSinceUpdate <= 720 && verdict != "stale" ) {
+    console.log(`\nStaling ${header.appId}`)
+    addReviewArchive(reviewArchive, header)
+    verdict = "stale"
+    date = new Date()
+  }
   f.write(`---
 wsId: ${header.wsId || ""}
 title: "${app.title}"
@@ -118,11 +133,11 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
-verdict: ${header.verdict}
-date: ${dateFormat(header.date, "yyyy-mm-dd")}
+verdict: ${verdict}
+date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
 reviewArchive:
-${[...reviewArchive].map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
+${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   version: "${item.version}"
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
@@ -138,6 +153,20 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
 
 ${body}`)
+}
+
+function addReviewArchive(reviewArchive, header) {
+  reviewArchive.unshift({
+    date: header.date,
+    version: header.version,
+    appHash: "",
+    gitRevision: getMasterHead(),
+    verdict: header.verdict
+  })
+}
+
+function getMasterHead() {
+  return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
 }
 
 module.exports = {
