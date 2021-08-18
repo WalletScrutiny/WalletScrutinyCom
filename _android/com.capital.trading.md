@@ -14,11 +14,11 @@ ratings: 20126
 reviews: 6752
 size: Varies with device
 website: 
-repository: 
+repository: https://capital.com/
 issue: 
 icon: com.capital.trading.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
