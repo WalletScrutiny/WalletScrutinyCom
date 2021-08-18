@@ -3,7 +3,7 @@ wsId:
 title: "Vantage FX"
 altTitle: 
 authors:
--danny
+- danny
 users: 1000000
 appId: cn.com.vau
 released: 2019-07-06
