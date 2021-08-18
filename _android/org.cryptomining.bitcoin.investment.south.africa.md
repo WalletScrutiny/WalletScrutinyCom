@@ -4,7 +4,7 @@ title: "Bitcoin Investment South Africa"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.cryptomining.bitcoin.investment.south.africa
 released: 2021-07-21
 updated: 2021-07-21

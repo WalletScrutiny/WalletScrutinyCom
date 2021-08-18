@@ -9,9 +9,9 @@ appId: com.binance.cloud.tokocrypto
 released: 2020-10-19
 updated: 2021-08-12
 version: "1.2.1"
-stars: 4.1
-ratings: 18598
-reviews: 15657
+stars: 4.0
+ratings: 18654
+reviews: 15704
 size: Varies with device
 website: 
 repository: 

@@ -10,10 +10,18 @@ released: 2020-10-09
 updated: 2021-08-17
 version: "1.54.1"
 stars: 4.3
+<<<<<<< HEAD
+ratings: 14203
+reviews: 3793
+size: 172M
+website: https://vivid.money/
+
+=======
 ratings: 14239
 reviews: 3806
 size: 135M
-website: https://vivid.money/
+website: 
+>>>>>>> leo/master
 repository: 
 issue: 
 icon: vivid.money.png

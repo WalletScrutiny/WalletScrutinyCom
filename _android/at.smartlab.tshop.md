@@ -10,7 +10,7 @@ released: 2012-12-22
 updated: 2021-07-18
 version: "195"
 stars: 4.2
-ratings: 3710
+ratings: 3709
 reviews: 1614
 size: 8.0M
 website: 

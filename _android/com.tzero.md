@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "tZERO Crypto"
+title: "tZERO Crypto - Buy & Sell Bitcoin, Ethereum & more"
 altTitle: 
 authors:
 
@@ -10,7 +10,7 @@ released:
 updated: 2021-07-15
 version: "2.0.10592"
 stars: 3.7
-ratings: 251
+ratings: 252
 reviews: 105
 size: 65M
 website: 

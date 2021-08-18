@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: co.huobi.kr
 released: 2018-04-12
-updated: 2021-08-12
-version: "3.5.7"
-stars: 3.3
-ratings: 3001
-reviews: 1194
+updated: 2021-08-17
+version: "3.5.8"
+stars: 3.2
+ratings: 3090
+reviews: 1235
 size: 38M
 website: 
 repository: 

@@ -10,8 +10,8 @@ idd: 1435383184
 released: 2018-10-03
 updated: 2021-06-02
 version: "2.6.4"
-stars: 4.51901
-reviews: 1368
+stars: 4.51933
+reviews: 1371
 size: 47021056
 website: https://jaxx.io
 repository: 

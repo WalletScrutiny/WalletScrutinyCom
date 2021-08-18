@@ -9,8 +9,8 @@ appId: kz.nomadcrypto.bankwallet
 released: 2021-07-23
 updated: 2021-07-23
 version: "0.0.1"
-stars: 4.8
-ratings: 5
+stars: 4.4
+ratings: 14
 reviews: 4
 size: 42M
 website: 

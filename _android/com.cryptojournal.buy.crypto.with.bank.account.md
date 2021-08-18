@@ -4,7 +4,7 @@ title: "Buy Crypto With Bank Account"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.cryptojournal.buy.crypto.with.bank.account
 released: 2021-07-07
 updated: 2021-07-07

@@ -4,7 +4,7 @@ title: "Bitcoin Invest App"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.cryptobubbles.bitcoin.invest.app
 released: 2021-07-17
 updated: 2021-07-18

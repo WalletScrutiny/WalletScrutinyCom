@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: org.qbita.bitcoin_wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-08-18
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.0"
+  appHash: 
+  gitRevision: 1a943e37e3aeeaf622f3300ce898ae29df2c5112
+  verdict: stale
 - date: 2021-08-01
   version: "1.0"
   appHash: 
