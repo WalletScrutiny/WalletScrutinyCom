@@ -10,8 +10,8 @@ released: 2018-01-03
 updated: 2020-12-24
 version: "Varies with device"
 stars: 4.2
-ratings: 31811
-reviews: 17378
+ratings: 31831
+reviews: 17396
 size: Varies with device
 website: https://payeer.com
 repository: 

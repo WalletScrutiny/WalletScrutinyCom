@@ -87,7 +87,7 @@ function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
   const authors = new Set(header.authors)
-  var version = app.version || "various"
+  var version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
   const released = header.released || app.released
   var releasedString = ""
   if (released != undefined) {
@@ -161,7 +161,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version.replace(/["\\]*/g, "") }"
+version: "${ version }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}

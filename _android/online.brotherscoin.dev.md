@@ -4,7 +4,7 @@ title: "Bitcoin Bank"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: online.brotherscoin.dev
 released: 2020-09-23
 updated: 2020-09-24
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: online.brotherscoin.dev.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:

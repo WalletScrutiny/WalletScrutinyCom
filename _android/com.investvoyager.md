@@ -4,14 +4,14 @@ title: "Voyager - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.investvoyager
 released: 
 updated: 2021-07-30
 version: "2.5.23"
 stars: 3.4
-ratings: 5903
-reviews: 3477
+ratings: 5916
+reviews: 3482
 size: 49M
 website: https://www.investvoyager.com/
 repository: 

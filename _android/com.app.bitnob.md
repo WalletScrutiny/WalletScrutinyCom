@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.app.bitnob
 released: 2020-05-25
-updated: 2021-07-27
-version: "1.0.56"
+updated: 2021-08-17
+version: "1.0.62"
 stars: 4.1
-ratings: 169
-reviews: 105
+ratings: 171
+reviews: 107
 size: 33M
 website: 
 repository: 

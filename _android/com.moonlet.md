@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.moonlet
 released: 2020-04-21
-updated: 2021-07-08
-version: "1.4.48"
-stars: 3.9
-ratings: 495
-reviews: 288
+updated: 2021-08-17
+version: "1.5.1"
+stars: 3.7
+ratings: 504
+reviews: 296
 size: 9.4M
 website: 
 repository: 

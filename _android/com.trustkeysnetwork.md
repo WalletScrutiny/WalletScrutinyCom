@@ -4,7 +4,7 @@ title: "TrustKeys - Entry to Crypto World"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.trustkeysnetwork
 released: 2019-03-02
 updated: 2021-08-11

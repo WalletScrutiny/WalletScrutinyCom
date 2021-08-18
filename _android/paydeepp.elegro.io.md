@@ -10,7 +10,7 @@ released: 2018-11-09
 updated: 2021-07-19
 version: "5.1.2"
 stars: 4.2
-ratings: 24
+ratings: 25
 reviews: 9
 size: 18M
 website: https://elegro.eu
