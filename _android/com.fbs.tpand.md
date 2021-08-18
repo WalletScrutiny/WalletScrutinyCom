@@ -3,14 +3,6 @@ wsId:
 title: "FBS Trader — Trading Platform"
 altTitle: 
 authors:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- danny
-=======
->>>>>>> walletscrutiny/walletScrutinyCom-master
-
-=======
->>>>>>> leo/master
 - danny
 users: 5000000
 appId: com.fbs.tpand

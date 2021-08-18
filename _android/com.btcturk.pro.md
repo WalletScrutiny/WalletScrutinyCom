@@ -17,7 +17,7 @@ website: https://pro.btcturk.com/
 repository: 
 issue: 
 icon: com.btcturk.pro.png
-bugbounty: 
+bugbounty: https://pro.btcturk.com/en/bug-bounty
 verdict: custodial
 date: 2021-08-16
 signer: 
@@ -41,4 +41,4 @@ This confirms it as custodial.
 
 On the website's footer there is a [link to the API](https://docs.btcturk.com).
 
-They also feature a [Bug Bounty] (https://pro.btcturk.com/en/bug-bounty).
+They also feature a [Bug Bounty](https://pro.btcturk.com/en/bug-bounty).
