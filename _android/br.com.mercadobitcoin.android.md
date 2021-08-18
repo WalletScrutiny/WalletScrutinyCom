@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: https://twitter.com/MercadoBitcoin
-providerLinkedIn: https://www.linkedin.com/company/mercado-bitcoin/
-providerFacebook: https://www.facebook.com/MercadoBitcoin/
+providerTwitter: MercadoBitcoin
+providerLinkedIn: mercado-bitcoin
+providerFacebook: MercadoBitcoin
 providerReddit: 
 
 redirect_from:
