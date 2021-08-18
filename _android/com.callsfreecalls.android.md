@@ -41,7 +41,7 @@ I tried installing it on my android phone on August 18, 2021 and the registratio
 
 It has two twitter handles, one is cfc_io referred to on its website, and the other is @callsfreecalls - referred in its google play store. cfc_io is suspended on twitter. @callsfreecalls makes posts that seem unrelated to "CFC Wallet" and instead promotes another app.
 
-I gave it a **stale** verdict as it has almost been a year since it was last updated which was October 2020. 
+I gave it a **defunct** verdict as it has almost been a year since it was last updated which was October 2020 and the app was not working as of today.
 
 
 
