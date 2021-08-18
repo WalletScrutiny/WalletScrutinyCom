@@ -41,4 +41,4 @@ This confirms it as custodial.
 
 On the website's footer there is a [link to the API](https://docs.btcturk.com).
 
-They also feature a [Bug Bounty] (https://pro.btcturk.com/en/bug-bounty).
+They also feature a [Bug Bounty](https://pro.btcturk.com/en/bug-bounty).
