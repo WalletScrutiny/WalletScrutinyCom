@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: bitcoin.invest.crypto.app
 released: 2021-03-18
-latestUpdate: 2021-03-18
+updated: 2021-03-18
 version: "1.0"
 stars: 4.9
 ratings: 24

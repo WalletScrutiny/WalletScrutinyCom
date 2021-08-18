@@ -8,7 +8,7 @@ authors:
 users: 100
 appId: wallet.jax.bnc.com
 released: 2021-07-14
-latestUpdate: 2021-07-14
+updated: 2021-07-14
 version: "1.0"
 stars: 0.0
 ratings: 

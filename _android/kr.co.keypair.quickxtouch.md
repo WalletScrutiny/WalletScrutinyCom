@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: kr.co.keypair.quickxtouch
 released: 2018-10-09
-latestUpdate: 2019-07-17
+updated: 2019-07-17
 version: "1.0.0.57"
 stars: 3.5
 ratings: 15
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-03-07
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-03-07
+  version: "1.0.0.57"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: fewusers
 
 providerTwitter: quickxprotocol
 providerLinkedIn: quickx

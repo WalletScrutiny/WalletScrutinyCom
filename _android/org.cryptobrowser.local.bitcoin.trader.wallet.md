@@ -4,10 +4,10 @@ title: "Local Bitcoin Trader Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: org.cryptobrowser.local.bitcoin.trader.wallet
 released: 2021-06-28
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "1.0"
 stars: 0.0
 ratings: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:

@@ -8,13 +8,13 @@ authors:
 users: 1000000
 appId: com.crypter.cryptocyrrency
 released: 2017-09-09
-latestUpdate: 2021-08-13
+updated: 2021-08-13
 version: "2.6.4"
 stars: 4.6
-ratings: 67257
-reviews: 18873
+ratings: 67605
+reviews: 18967
 size: 34M
-website: https://thecrypto.app/
+website: https://thecrypto.app/ 
 repository: 
 issue: 
 icon: com.crypter.cryptocyrrency.png
@@ -33,6 +33,6 @@ redirect_from:
 
 From their official website: 
 
->The Crypto App Team would like to announce that The Crypto App Wallet will be discontinued on August 20th, 2021. All other services within The Crypto App remain operational.
+> The Crypto App Team would like to announce that The Crypto App Wallet will be discontinued on August 20th, 2021. All other services within The Crypto App remain operational.
 
 As the rest of the app's services will remain after the wallet's discontinuation, it will be labeled nowallet.

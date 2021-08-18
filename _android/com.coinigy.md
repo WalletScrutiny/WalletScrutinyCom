@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.coinigy
 released: 2018-06-11
-latestUpdate: 2021-06-07
+updated: 2021-06-07
 version: "0.5.30"
 stars: 3.3
 ratings: 199

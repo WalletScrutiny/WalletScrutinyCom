@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitmex.quote.lvrggd
 released: 2018-09-14
-latestUpdate: 2021-07-27
+updated: 2021-07-27
 version: "1.6"
 stars: 4.2
 ratings: 58

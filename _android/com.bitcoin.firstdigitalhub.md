@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.bitcoin.firstdigitalhub
 released: 2020-12-04
-latestUpdate: 2021-05-15
+updated: 2021-05-15
 version: "1.9.3.0.13"
 stars: 4.5
 ratings: 159

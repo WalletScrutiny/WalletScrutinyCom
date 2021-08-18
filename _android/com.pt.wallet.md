@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.pt.wallet
 released: 2020-10-14
-latestUpdate: 2021-02-25
+updated: 2021-02-25
 version: "1.27"
 stars: 0.0
 ratings: 

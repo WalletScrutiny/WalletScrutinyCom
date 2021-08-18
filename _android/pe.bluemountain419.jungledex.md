@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: pe.bluemountain419.jungledex
 released: 2020-02-11
-latestUpdate: 2020-02-20
+updated: 2020-02-20
 version: "1.0.2"
 stars: 0.0
 ratings: 
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: pe.bluemountain419.jungledex.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.0.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

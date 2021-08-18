@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: app.co.swisstrustexchange
 released: 2021-04-17
-latestUpdate: 2021-04-17
+updated: 2021-04-17
 version: "1.0"
 stars: 0.0
 ratings: 

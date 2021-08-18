@@ -5,7 +5,7 @@ authors:
 - leo
 released: 
 discontinued: # date
-latestUpdate: 
+updated: 
 version: 
 dimensions: [72, 18.6, 11.75]
 weight: 34

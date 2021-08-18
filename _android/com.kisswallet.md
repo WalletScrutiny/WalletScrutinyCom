@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.kisswallet
 released: 2020-02-16
-latestUpdate: 2020-05-30
+updated: 2020-05-30
 version: "0.3.6"
 stars: 0.0
 ratings: 
@@ -18,11 +18,15 @@ repository: https://github.com/coreyphillips/moonshine
 issue: 
 icon: com.kisswallet.png
 bugbounty: 
-verdict: fewusers
-date: 2020-02-18
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-02-18
+  version: "0.3.6"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: fewusers
 
 providerTwitter: coreylphillips
 providerLinkedIn: 

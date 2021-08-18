@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: org.cryptobrowser.ztrader.altcoin.bitcoin.trader
 released: 2021-06-28
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "1.0"
 stars: 0.0
 ratings: 

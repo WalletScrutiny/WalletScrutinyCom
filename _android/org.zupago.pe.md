@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: org.zupago.pe
 released: 
-latestUpdate: 2018-12-08
+updated: 2018-12-08
 version: "Varies with device"
 stars: 5.0
 ratings: 5

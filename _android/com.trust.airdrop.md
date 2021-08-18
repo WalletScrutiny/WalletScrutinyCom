@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.trust.airdrop
 released: 2021-07-09
-latestUpdate: 2021-07-22
+updated: 2021-07-22
 version: "2.0"
 stars: 0.0
 ratings: 

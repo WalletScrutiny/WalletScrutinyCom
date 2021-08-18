@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.cloud.mandala.app
 released: 2021-07-13
-latestUpdate: 2021-07-19
+updated: 2021-07-19
 version: "1.0.2"
 stars: 4.8
 ratings: 18

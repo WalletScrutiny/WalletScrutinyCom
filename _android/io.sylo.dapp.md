@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: io.sylo.dapp
 released: 2019-09-10
-latestUpdate: 2021-08-05
+updated: 2021-08-05
 version: "3.1.21"
 stars: 4.7
 ratings: 718

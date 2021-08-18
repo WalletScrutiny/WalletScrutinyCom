@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: org.cryptosignals.free.wallet.bitcoinand.crypto
 released: 2021-06-19
-latestUpdate: 2021-06-19
+updated: 2021-06-19
 version: "1.0"
 stars: 0.0
 ratings: 

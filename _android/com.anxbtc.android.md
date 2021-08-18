@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.anxbtc.android
 released: 2014-04-29
-latestUpdate: 2016-08-17
+updated: 2016-08-17
 version: "1.8.0"
 stars: 3.2
 ratings: 135

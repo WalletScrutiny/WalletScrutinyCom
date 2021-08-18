@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: io.ethos.universalwallet
 released: 2018-07-10
-latestUpdate: 2019-12-05
+updated: 2019-12-05
 version: "2.0.5"
 stars: 3.0
 ratings: 1517
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.png
 bugbounty: 
-verdict: nosource
-date: 2021-03-05
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-03-05
+  version: "2.0.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: ethos_io
 providerLinkedIn: 

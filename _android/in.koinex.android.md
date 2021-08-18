@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: in.koinex.android
 released: 2018-02-11
-latestUpdate: 2019-02-13
+updated: 2019-02-13
 version: "0.1.5"
 stars: 2.3
 ratings: 3685
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: in.koinex.android.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "0.1.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

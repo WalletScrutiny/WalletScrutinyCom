@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.xbond.exchange
 released: 2019-11-01
-latestUpdate: 2021-03-02
+updated: 2021-03-02
 version: "2.4"
 stars: 4.4
 ratings: 7

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitalgopayment.android
 released: 2020-09-10
-latestUpdate: 2020-09-10
+updated: 2020-09-10
 version: "1.0.0"
 stars: 3.8
 ratings: 73

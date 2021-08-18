@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: best.bitcoin.wallet.btc.price.buy.cryptocurrency
 released: 
-latestUpdate: 2021-03-13
+updated: 2021-03-13
 version: "1.0"
 stars: 4.8
 ratings: 31

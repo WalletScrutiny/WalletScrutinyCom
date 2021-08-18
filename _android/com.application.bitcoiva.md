@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.application.bitcoiva
 released: 2020-11-02
-latestUpdate: 2021-08-12
+updated: 2021-08-12
 version: "1.17"
 stars: 3.6
 ratings: 267

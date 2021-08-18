@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.chlegou.bitbot
 released: 2019-01-02
-latestUpdate: 2021-05-17
+updated: 2021-05-17
 version: "1.5.6"
 stars: 3.8
-ratings: 7434
-reviews: 4375
+ratings: 7435
+reviews: 4376
 size: 9.5M
 website: 
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.verico.tradn
 released: 2020-04-24
-latestUpdate: 2021-07-19
+updated: 2021-07-19
 version: "1.5.106"
 stars: 4.6
 ratings: 34

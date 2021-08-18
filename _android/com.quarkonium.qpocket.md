@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.quarkonium.qpocket
 released: 2019-07-22
-latestUpdate: 2021-05-06
+updated: 2021-05-06
 version: "5.4.2"
 stars: 2.8
 ratings: 100

@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.udmitz.cryptoit
 released: 2021-06-13
-latestUpdate: 2021-06-13
+updated: 2021-06-13
 version: "1.1.1"
 stars: 0.0
 ratings: 

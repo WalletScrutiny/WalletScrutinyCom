@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.opolo.io
 released: 2020-09-01
-latestUpdate: 2021-06-08
+updated: 2021-06-08
 version: "1.3.1"
 stars: 5.0
 ratings: 6

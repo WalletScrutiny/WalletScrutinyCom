@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: net.tradingbitcoin.fake.bitcoin.investor
 released: 2021-06-21
-latestUpdate: 2021-06-21
+updated: 2021-06-21
 version: "1.0"
 stars: 0.0
 ratings: 

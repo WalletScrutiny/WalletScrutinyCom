@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.github.samotari.paynoway
 released: 2020-01-14
-latestUpdate: 2021-04-10
+updated: 2021-04-10
 version: "2.1.0"
 stars: 0.0
 ratings: 

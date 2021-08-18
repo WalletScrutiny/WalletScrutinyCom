@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: io.xbts.app
 released: 2021-04-26
-latestUpdate: 2021-06-18
+updated: 2021-06-18
 version: "0.1.20"
 stars: 4.6
 ratings: 5

@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.arz8x.app.arz8x
 released: 2020-05-08
-latestUpdate: 2021-06-16
+updated: 2021-06-16
 version: "2.0.2"
-stars: 4.4
-ratings: 1135
+stars: 4.3
+ratings: 1136
 reviews: 645
 size: 32M
 website: 

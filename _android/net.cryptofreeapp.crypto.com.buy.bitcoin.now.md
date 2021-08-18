@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
 released: 2021-07-28
-latestUpdate: 2021-07-28
+updated: 2021-07-28
 version: "1.0"
 stars: 0.0
 ratings: 

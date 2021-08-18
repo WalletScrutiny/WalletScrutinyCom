@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.shiftshape.wallet
 released: 2021-07-16
-latestUpdate: 2021-07-16
+updated: 2021-07-16
 version: "1.0.0"
 stars: 4.7
 ratings: 71

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitcoin.wallet.btc.testnet
 released: 2019-07-04
-latestUpdate: 2019-07-05
+updated: 2019-07-05
 version: "1.0"
 stars: 4.3
 ratings: 22
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bitcoin.wallet.btc.testnet.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

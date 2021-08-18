@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: co.bitindia
 released: 
-latestUpdate: 2018-02-06
+updated: 2018-02-06
 version: "Varies with device"
 stars: 
 ratings: 
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: co.bitindia.png
 bugbounty: 
-verdict: wip
-date: 2021-08-08
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-08
+  version: "Varies with device"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

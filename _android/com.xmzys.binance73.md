@@ -8,7 +8,7 @@ authors:
 users: 10
 appId: com.xmzys.binance73
 released: 2021-07-03
-latestUpdate: 2021-07-03
+updated: 2021-07-03
 version: "2.0"
 stars: 0.0
 ratings: 

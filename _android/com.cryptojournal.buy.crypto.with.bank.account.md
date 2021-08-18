@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.cryptojournal.buy.crypto.with.bank.account
 released: 2021-07-07
-latestUpdate: 2021-07-07
+updated: 2021-07-07
 version: "1.0"
 stars: 0.0
 ratings: 

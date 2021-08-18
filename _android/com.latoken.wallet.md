@@ -18,7 +18,7 @@ reviews: 10929
 users: 500000
 appId: com.latoken.wallet
 released: 2020-03-17
-latestUpdate: 2021-08-12
+updated: 2021-08-12
 version: "1.88.00"
 <<<<<<< HEAD
 stars: 4.3
@@ -28,12 +28,17 @@ reviews: 10971
 =======
 stars: 4.4
 <<<<<<< HEAD
+<<<<<<< HEAD
 ratings: 22438
 reviews: 11011
 >>>>>>> leo/master
 =======
 ratings: 22527
 reviews: 11053
+>>>>>>> leo/master
+=======
+ratings: 22532
+reviews: 11057
 >>>>>>> leo/master
 size: 25M
 website: 

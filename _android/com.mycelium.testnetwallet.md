@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.mycelium.testnetwallet
 released: 2013-10-04
-latestUpdate: 2021-08-13
+updated: 2021-08-13
 version: "3.11.0.4-TESTNET"
 stars: 3.7
 ratings: 135

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: crypto.exchange3.shahidsoft
 released: 2021-07-12
-latestUpdate: 2021-07-12
+updated: 2021-07-12
 version: "1.0.2"
 stars: 0.0
 ratings: 

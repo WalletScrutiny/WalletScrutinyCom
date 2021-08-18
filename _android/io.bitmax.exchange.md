@@ -8,7 +8,7 @@ authors:
 users: 100000
 appId: io.bitmax.exchange
 released: 
-latestUpdate: 2021-04-25
+updated: 2021-04-25
 version: "2.4.7"
 stars: 4.2
 ratings: 2788

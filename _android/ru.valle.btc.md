@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: ru.valle.btc
 released: 2013-04-19
-latestUpdate: 2020-03-22
+updated: 2020-03-22
 version: "Varies with device"
 stars: 4.3
 ratings: 155
@@ -18,11 +18,15 @@ repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
-verdict: nonverifiable
-date: 2020-08-04
+verdict: stale
+date: 2021-08-17
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
-
+- date: 2020-08-04
+  version: "Varies with device"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: 
 providerLinkedIn: 

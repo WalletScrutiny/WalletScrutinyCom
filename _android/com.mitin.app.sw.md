@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.mitin.app.sw
 released: 2021-04-14
-latestUpdate: 2021-05-13
+updated: 2021-05-13
 version: "3.0"
 stars: 0.0
 ratings: 

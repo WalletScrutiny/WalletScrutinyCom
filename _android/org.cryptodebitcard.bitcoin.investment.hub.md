@@ -7,7 +7,7 @@ authors:
 users: 1
 appId: org.cryptodebitcard.bitcoin.investment.hub
 released: 2021-06-29
-latestUpdate: 2021-06-29
+updated: 2021-06-29
 version: "1.0"
 stars: 0.0
 ratings: 

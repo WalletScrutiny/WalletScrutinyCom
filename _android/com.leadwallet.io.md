@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.leadwallet.io
 released: 
-latestUpdate: 2021-08-14
+updated: 2021-08-14
 version: "Varies with device"
 stars: 
 ratings: 

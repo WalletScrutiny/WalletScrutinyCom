@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.xchange.ychanger
 released: 2021-06-08
-latestUpdate: 2021-06-08
+updated: 2021-06-08
 version: "1.0"
 stars: 0.0
 ratings: 

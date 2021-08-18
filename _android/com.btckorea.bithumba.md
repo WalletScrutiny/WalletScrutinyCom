@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.btckorea.bithumba
 released: 2020-03-31
-latestUpdate: 2021-04-20
+updated: 2021-04-20
 version: "1.1.1"
 stars: 3.2
 ratings: 598

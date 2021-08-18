@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.husky.hdw20
 released: 2021-04-06
-latestUpdate: 2021-04-06
+updated: 2021-04-06
 version: "1.0.4"
 stars: 0.0
 ratings: 

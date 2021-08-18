@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.coolbitx.cwsapp
 released: 2017-12-01
-latestUpdate: 2021-08-11
+updated: 2021-08-11
 version: "2.21.0"
 stars: 4.6
 ratings: 815

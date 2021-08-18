@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.BitcoinWalletExchange.org
 released: 2020-10-12
-latestUpdate: 2020-10-13
+updated: 2020-10-13
 version: "1.01"
 stars: 4.3
 ratings: 98

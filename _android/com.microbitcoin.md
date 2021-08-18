@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.microbitcoin
 released: 2018-10-30
-latestUpdate: 2020-01-23
+updated: 2020-01-23
 version: "2.0.1"
 stars: 3.9
 ratings: 59
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.microbitcoin.png
 bugbounty: 
-verdict: nobtc
-date: 2019-12-28
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-28
+  version: "2.0.1"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nobtc
 
 providerTwitter: MicroBitcoinOrg
 providerLinkedIn: 

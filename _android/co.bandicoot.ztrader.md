@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: co.bandicoot.ztrader
 released: 2014-05-04
-latestUpdate: 2016-08-07
+updated: 2016-08-07
 version: "1.2.2"
 stars: 3.3
 ratings: 1213
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: co.bandicoot.ztrader.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "1.2.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

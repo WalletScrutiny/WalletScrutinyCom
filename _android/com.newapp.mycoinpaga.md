@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.newapp.mycoinpaga
 released: 2020-11-29
-latestUpdate: 2020-12-07
+updated: 2020-12-07
 version: "1.11"
 stars: 4.0
 ratings: 8

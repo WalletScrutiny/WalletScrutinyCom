@@ -8,7 +8,7 @@ authors:
 users: 100
 appId: com.pjaxx.walletmudul
 released: 2021-07-05
-latestUpdate: 2021-07-05
+updated: 2021-07-05
 version: "1"
 stars: 0.0
 ratings: 

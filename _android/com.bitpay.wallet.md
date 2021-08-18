@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.bitpay.wallet
 released: 2016-10-01
-latestUpdate: 2021-07-30
+updated: 2021-07-30
 version: "12.7.6"
 stars: 3.6
 ratings: 8984

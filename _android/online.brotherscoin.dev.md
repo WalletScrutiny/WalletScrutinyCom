@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: online.brotherscoin.dev
 released: 2020-09-23
-latestUpdate: 2020-09-24
+updated: 2020-09-24
 version: "1.0.0"
 stars: 0.0
 ratings: 

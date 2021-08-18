@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.smartitapp
 released: 2020-09-25
-latestUpdate: 2021-08-16
+updated: 2021-08-16
 version: "1.0"
 stars: 3.2
 ratings: 20

@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.bachex_android
 released: 2021-03-28
-latestUpdate: 2021-06-25
+updated: 2021-06-25
 version: "1.2.8"
 stars: 0.0
 ratings: 

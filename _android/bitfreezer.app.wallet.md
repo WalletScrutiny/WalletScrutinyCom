@@ -8,7 +8,7 @@ authors:
 users: 10000
 appId: bitfreezer.app.wallet
 released: 2019-09-18
-latestUpdate: 2021-02-18
+updated: 2021-02-18
 version: "1.0.16"
 stars: 4.1
 ratings: 61

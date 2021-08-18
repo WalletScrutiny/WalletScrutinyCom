@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.currency.exchange.investsmart
 released: 2020-12-10
-latestUpdate: 2021-07-20
+updated: 2021-07-20
 version: "1.14.0"
 stars: 4.4
 ratings: 179

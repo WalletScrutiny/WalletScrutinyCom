@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.secux.mobile
 released: 2020-07-03
-latestUpdate: 2021-01-15
+updated: 2021-01-15
 version: "1.0.1"
 stars: 2.4
-ratings: 39
-reviews: 34
+ratings: 40
+reviews: 35
 size: 1.4M
 website: 
 repository: 

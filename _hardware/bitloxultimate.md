@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 released: 2015-01-01
 discontinued: # date
-latestUpdate:
+updated:
 version:
 dimensions: [54, 85, 4]
 weight: 25

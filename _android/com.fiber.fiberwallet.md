@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.fiber.fiberwallet
 released: 2021-04-20
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "1.1.85"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.aqn.wallet
 released: 2021-03-05
-latestUpdate: 2021-03-05
+updated: 2021-03-05
 version: "1.0"
 stars: 2.6
 ratings: 7

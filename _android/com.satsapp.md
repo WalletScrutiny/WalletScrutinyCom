@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: com.satsapp
 released: 
-latestUpdate: 2020-04-13
+updated: 2020-04-13
 version: "1.3.1"
 stars: 3.1
 ratings: 14

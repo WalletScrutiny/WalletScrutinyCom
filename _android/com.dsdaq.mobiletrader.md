@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.dsdaq.mobiletrader
 released: 2019-12-24
-latestUpdate: 2021-07-08
+updated: 2021-07-08
 version: "2.5.1"
 stars: 4.3
 ratings: 460

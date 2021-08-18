@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.coinid.vault
 released: 2018-10-14
-latestUpdate: 2021-02-20
+updated: 2021-02-20
 version: "1.5.5"
 stars: 4.3
 ratings: 11

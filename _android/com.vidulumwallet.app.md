@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.vidulumwallet.app
 released: 2019-04-04
-latestUpdate: 2019-04-05
+updated: 2019-04-05
 version: "1.2"
 stars: 4.2
 ratings: 88
@@ -18,11 +18,15 @@ repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
-verdict: nosource
-date: 2020-07-29
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-07-29
+  version: "1.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: VidulumApp
 providerLinkedIn: 

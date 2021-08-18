@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.global.trading.company
 released: 2020-11-11
-latestUpdate: 2021-03-26
+updated: 2021-03-26
 version: "1.12"
 stars: 4.1
 ratings: 66

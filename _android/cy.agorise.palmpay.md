@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: cy.agorise.palmpay
 released: 
-latestUpdate: 2021-07-30
+updated: 2021-07-30
 version: "Varies with device"
 stars: 
 ratings: 

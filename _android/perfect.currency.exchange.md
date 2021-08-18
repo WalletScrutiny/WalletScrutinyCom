@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: perfect.currency.exchange
 released: 2019-07-22
-latestUpdate: 2019-09-07
+updated: 2019-09-07
 version: "v8.0"
 stars: 4.2
 ratings: 11
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: perfect.currency.exchange.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "v8.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

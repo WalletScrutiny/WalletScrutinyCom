@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.ferrum.kudi
 released: 2019-01-13
-latestUpdate: 2020-10-19
+updated: 2020-10-19
 version: "3.0.6"
 stars: 3.5
 ratings: 133

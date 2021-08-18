@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.vaulthotpro
 released: 2020-03-30
-latestUpdate: 2021-03-22
+updated: 2021-03-22
 version: "2.2.6"
 stars: 3.1
 ratings: 27

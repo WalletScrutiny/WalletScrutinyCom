@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitleague
 released: 2019-05-06
-latestUpdate: 2021-05-14
+updated: 2021-05-14
 version: "2.15.2"
 stars: 4.6
 ratings: 245

@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.bitpapa
 released: 2020-08-18
-latestUpdate: 2021-05-31
+updated: 2021-05-31
 version: "1.6.7"
 stars: 4.4
 ratings: 3795

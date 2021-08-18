@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.wire.wirewalletapp
 released: 2021-04-14
-latestUpdate: 2021-04-14
+updated: 2021-04-14
 version: "6.5502.321"
 stars: 0.0
 ratings: 

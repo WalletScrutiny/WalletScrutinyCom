@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.valr.app
 released: 2019-09-13
-latestUpdate: 2021-07-18
+updated: 2021-07-18
 version: "1.0.28"
 stars: 4.4
 ratings: 742

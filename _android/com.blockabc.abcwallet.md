@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.blockabc.abcwallet
 released: 
-latestUpdate: 2020-06-17
+updated: 2020-06-17
 version: "1.7.2"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.profittrading.forhuobi
 released: 2018-11-21
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "2.0.4"
 stars: 4.0
 ratings: 18

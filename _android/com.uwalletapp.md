@@ -5,7 +5,7 @@ altTitle:
 users: 5000
 appId: com.uwalletapp
 released: 
-latestUpdate: 2020-06-08
+updated: 2020-06-08
 version: "1.4.2"
 stars: 4.3
 ratings: 106

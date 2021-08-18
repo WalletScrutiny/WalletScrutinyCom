@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.theblockchain.coinus.wallet
 released: 2018-04-23
-latestUpdate: 2021-07-16
+updated: 2021-07-16
 version: "2.8.0"
 stars: 4.1
 ratings: 358

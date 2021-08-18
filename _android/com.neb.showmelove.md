@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.neb.showmelove
 released: 
-latestUpdate: 2020-09-16
+updated: 2020-09-16
 version: "Varies with device"
 stars: 
 ratings: 

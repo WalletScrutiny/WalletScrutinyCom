@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.cobinhood.exchange
 released: 2017-12-25
-latestUpdate: 2019-04-29
+updated: 2019-04-29
 version: "3.50.1"
 stars: 1.9
 ratings: 648
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
-verdict: custodial
-date: 2020-05-29
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-05-29
+  version: "3.50.1"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: app.flitsnode.flits
 released: 2019-04-05
-latestUpdate: 2021-02-09
+updated: 2021-02-09
 version: "4.4"
 stars: 3.9
 ratings: 2043

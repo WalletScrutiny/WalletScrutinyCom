@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitcoinsuisse.online
 released: 
-latestUpdate: 2021-08-04
+updated: 2021-08-04
 version: "Varies with device"
 stars: 
 ratings: 

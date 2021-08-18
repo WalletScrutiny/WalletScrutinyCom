@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ionicframework.myapp474083
 released: 2017-06-16
-latestUpdate: 2018-10-22
+updated: 2018-10-22
 version: "2.0.13"
 stars: 2.9
 ratings: 278
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.ionicframework.myapp474083.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "2.0.13"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

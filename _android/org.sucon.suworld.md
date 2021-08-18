@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: org.sucon.suworld
 released: 2019-04-21
-latestUpdate: 2019-09-16
+updated: 2019-09-16
 version: "1.0.0.6"
 stars: 4.7
 ratings: 54
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: org.sucon.suworld.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "1.0.0.6"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

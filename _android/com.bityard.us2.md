@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bityard.us2
 released: 2021-03-31
-latestUpdate: 2021-03-31
+updated: 2021-03-31
 version: "1.0.2"
 stars: 2.9
 ratings: 50

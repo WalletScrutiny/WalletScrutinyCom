@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.teroxx
 released: 2019-08-26
-latestUpdate: 2021-02-25
+updated: 2021-02-25
 version: "2.2.0"
 stars: 4.4
 ratings: 56

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.visionwallet.app
 released: 2020-09-07
-latestUpdate: 2020-11-05
+updated: 2020-11-05
 version: "1.3.2"
 stars: 3.9
 ratings: 77

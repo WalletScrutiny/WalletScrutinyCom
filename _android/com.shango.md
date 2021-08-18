@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.shango
 released: 
-latestUpdate: 2019-06-01
+updated: 2019-06-01
 version: "Varies with device"
 stars: 
 ratings: 

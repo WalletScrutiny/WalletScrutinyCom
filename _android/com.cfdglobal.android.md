@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.cfdglobal.android
 released: 2017-10-04
-latestUpdate: 2021-08-04
+updated: 2021-08-04
 version: "2.5.0"
 stars: 3.6
-ratings: 311
-reviews: 137
+ratings: 312
+reviews: 138
 size: 23M
 website: 
 repository: 

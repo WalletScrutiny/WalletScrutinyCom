@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.nbl.bitcoinevolutionapp
 released: 
-latestUpdate: 2021-02-23
+updated: 2021-02-23
 version: "1.0.2"
 stars: 3.7
 ratings: 13

@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.user.cglobank
 released: 2021-04-14
-latestUpdate: 2021-06-28
+updated: 2021-06-28
 version: "16"
 stars: 4.8
 ratings: 13

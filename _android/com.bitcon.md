@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitcon
 released: 
-latestUpdate: 2021-07-02
+updated: 2021-07-02
 version: "1.0.5"
 stars: 0.0
 ratings: 

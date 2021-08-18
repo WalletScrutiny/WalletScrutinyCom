@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.bizblocks.kaiserbank
 released: 2019-01-04
-latestUpdate: 2020-11-22
+updated: 2020-11-22
 version: "0.30.16"
 stars: 4.7
 ratings: 20

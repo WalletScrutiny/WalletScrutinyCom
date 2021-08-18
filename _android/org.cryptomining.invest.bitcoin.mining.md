@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: org.cryptomining.invest.bitcoin.mining
 released: 2021-07-21
-latestUpdate: 2021-07-21
+updated: 2021-07-21
 version: "1.0"
 stars: 0.0
 ratings: 

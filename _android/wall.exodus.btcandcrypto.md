@@ -8,7 +8,7 @@ authors:
 users: 100
 appId: wall.exodus.btcandcrypto
 released: 2021-07-16
-latestUpdate: 2021-07-16
+updated: 2021-07-16
 version: "6.045"
 stars: 0.0
 ratings: 

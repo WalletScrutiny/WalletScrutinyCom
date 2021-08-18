@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: com.main.lbwallet
 released: 2021-04-22
-latestUpdate: 2021-06-08
+updated: 2021-06-08
 version: "1.0.4"
 stars: 0.0
 ratings: 

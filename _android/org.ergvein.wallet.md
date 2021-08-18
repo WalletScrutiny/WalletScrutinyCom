@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: org.ergvein.wallet
 released: 
-latestUpdate: 2021-04-27
+updated: 2021-04-27
 version: "Varies with device"
 stars: 
 ratings: 

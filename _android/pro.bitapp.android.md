@@ -5,7 +5,7 @@ altTitle:
 users: 1000
 appId: pro.bitapp.android
 released: 2018-11-20
-latestUpdate: 2019-10-11
+updated: 2019-10-11
 version: "v2.6.0"
 stars: 2.8
 ratings: 34

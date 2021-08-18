@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.blocktrail.mywallet
 released: 2015-09-09
-latestUpdate: 2019-04-03
+updated: 2019-04-03
 version: "4.4.7"
 stars: 3.4
 ratings: 8200
@@ -18,11 +18,15 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.png
 bugbounty: 
-verdict: nonverifiable
-date: 2021-03-03
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-03-03
+  version: "4.4.7"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: btccom_official
 providerLinkedIn: 

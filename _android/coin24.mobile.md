@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: coin24.mobile
 released: 2020-09-28
-latestUpdate: 2020-09-28
+updated: 2020-09-28
 version: "1.0.0"
 stars: 4.3
 ratings: 141

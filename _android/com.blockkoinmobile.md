@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.blockkoinmobile
 released: 2020-08-17
-latestUpdate: 2021-05-12
+updated: 2021-05-12
 version: "1.4.4"
 stars: 5.0
 ratings: 6

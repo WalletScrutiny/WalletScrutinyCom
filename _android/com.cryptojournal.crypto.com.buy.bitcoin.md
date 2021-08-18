@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.cryptojournal.crypto.com.buy.bitcoin
 released: 2021-07-07
-latestUpdate: 2021-07-07
+updated: 2021-07-07
 version: "1.0"
 stars: 0.0
 ratings: 

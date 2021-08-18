@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: net.cryptex.exchange.twa
 released: 2021-04-29
-latestUpdate: 2021-04-29
+updated: 2021-04-29
 version: "3.0.0.0"
 stars: 0.0
 ratings: 

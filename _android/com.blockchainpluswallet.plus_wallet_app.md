@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.blockchainpluswallet.plus_wallet_app
 released: 
-latestUpdate: 2020-12-30
+updated: 2020-12-30
 version: "3.0.1"
 stars: 3.6
 ratings: 189

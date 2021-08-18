@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.itez
 released: 2020-03-26
-latestUpdate: 2021-03-19
+updated: 2021-03-19
 version: "0.8.2"
 stars: 3.3
 ratings: 18

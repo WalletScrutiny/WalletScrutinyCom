@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.bitcoinblockchain.suyd
 released: 2021-02-10
-latestUpdate: 2021-03-06
+updated: 2021-03-06
 version: "1.0.0"
 stars: 0.0
 ratings: 

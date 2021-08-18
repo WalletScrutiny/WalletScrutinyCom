@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.inigma.wallet
 released: 2020-03-29
-latestUpdate: 2020-12-22
+updated: 2020-12-22
 version: "0.0.18"
 stars: 0.0
 ratings: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.coincircle
 released: 2021-04-26
-latestUpdate: 2021-06-02
+updated: 2021-06-02
 version: "1.1.55.10154"
 stars: 4.3
 ratings: 74

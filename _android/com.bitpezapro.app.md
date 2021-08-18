@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitpezapro.app
 released: 2020-02-09
-latestUpdate: 2020-07-09
+updated: 2020-07-09
 version: "1.0.1"
 stars: 4.4
 ratings: 101
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bitpezapro.app.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "1.0.1"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

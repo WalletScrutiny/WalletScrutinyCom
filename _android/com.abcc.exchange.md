@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.abcc.exchange
 released: 2018-08-23
-latestUpdate: 2021-08-10
+updated: 2021-08-10
 version: "1.8.17"
 stars: 4.2
 ratings: 1538

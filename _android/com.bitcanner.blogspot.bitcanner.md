@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitcanner.blogspot.bitcanner
 released: 2019-11-03
-latestUpdate: 2020-09-05
+updated: 2020-09-05
 version: "3.12.0.2.50"
 stars: 3.1
 ratings: 53

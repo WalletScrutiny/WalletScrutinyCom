@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.pine.doro
 released: 2021-04-10
-latestUpdate: 2021-05-05
+updated: 2021-05-05
 version: "1.1"
 stars: 3.2
 ratings: 35

@@ -8,7 +8,7 @@ authors:
 users: 500
 appId: com.crypto.blockchain
 released: 2021-06-22
-latestUpdate: 2021-08-05
+updated: 2021-08-05
 version: "1.5"
 stars: 0.0
 ratings: 

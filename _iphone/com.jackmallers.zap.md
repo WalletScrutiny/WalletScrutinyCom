@@ -18,11 +18,15 @@ repository: https://github.com/LN-Zap/zap-iOS
 issue: 
 icon: com.jackmallers.zap.jpg
 bugbounty: 
-verdict: nonverifiable
-date: 2020-12-21
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-12-21
+  version: "0.5.2"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: ln_zap
 providerLinkedIn: 

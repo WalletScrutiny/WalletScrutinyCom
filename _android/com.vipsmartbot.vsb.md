@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.vipsmartbot.vsb
 released: 2020-11-17
-latestUpdate: 2020-11-18
+updated: 2020-11-18
 version: "0.0.1"
 stars: 3.5
 ratings: 20

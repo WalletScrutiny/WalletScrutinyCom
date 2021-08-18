@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.bitexen.exchange
 released: 2018-05-27
-latestUpdate: 2021-07-29
+updated: 2021-07-29
 version: "0.42"
 stars: 3.2
 ratings: 8233

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: co.hodlwallet
 released: 2018-09-24
-latestUpdate: 2020-05-18
+updated: 2020-05-18
 version: "3.3.5"
 stars: 3.7
 ratings: 116
@@ -18,11 +18,15 @@ repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
-verdict: nonverifiable
-date: 2019-12-28
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2019-12-28
+  version: "3.3.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 
 providerTwitter: hodlwallet
 providerLinkedIn: 

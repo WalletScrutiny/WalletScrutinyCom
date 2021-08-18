@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.fitbobcat.satoshi
 released: 2018-01-16
-latestUpdate: 2018-01-16
+updated: 2018-01-16
 version: "1.0"
 stars: 3.6
 ratings: 25

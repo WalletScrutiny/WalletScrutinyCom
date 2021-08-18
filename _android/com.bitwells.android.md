@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.bitwells.android
 released: 2021-05-17
-latestUpdate: 2021-06-02
+updated: 2021-06-02
 version: "1.0.5"
 stars: 4.6
 ratings: 1237

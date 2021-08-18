@@ -7,7 +7,7 @@ authors:
 users: 5
 appId: org.cryptobubbles.invest.bitcoin.mining
 released: 2021-07-17
-latestUpdate: 2021-07-18
+updated: 2021-07-18
 version: "1.0"
 stars: 0.0
 ratings: 

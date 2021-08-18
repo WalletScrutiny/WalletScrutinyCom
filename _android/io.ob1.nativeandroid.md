@@ -6,7 +6,7 @@ altTitle:
 users: 100000
 appId: io.ob1.nativeandroid
 released: 
-latestUpdate: 2020-09-27
+updated: 2020-09-27
 version: "1.3.7"
 stars: 3.7
 ratings: 394

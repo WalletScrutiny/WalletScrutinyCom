@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.bhex.app
 released: 2018-12-12
-latestUpdate: 2021-04-30
+updated: 2021-04-30
 version: "4.0.1"
 stars: 4.3
 ratings: 247

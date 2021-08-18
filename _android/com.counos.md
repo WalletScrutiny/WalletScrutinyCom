@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.counos
 released: 2018-07-03
-latestUpdate: 2021-04-16
+updated: 2021-04-16
 version: "1.9.50"
 stars: 4.0
 ratings: 511

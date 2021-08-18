@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.StiBLabs.StiBp2p
 released: 2019-10-07
-latestUpdate: 2020-03-11
+updated: 2020-03-11
 version: "1.0.5"
 stars: 4.8
 ratings: 452
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.StiBLabs.StiBp2p.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "1.0.5"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
