@@ -68,9 +68,9 @@ function refreshFile(fileName) {
         appId: appId,
         lang: 'en',
         country: 'cl',
-        throttle: 20}).then(function(app){
+        throttle: 20}).then(app => {
       const iconPath = `images/wallet_icons/android/${appId}`
-      helper.downloadImageFile(`${app.icon}`, iconPath, function(iconExtension) {
+      helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
         writeResult(app, header, iconExtension, body)
       })
     }, (err) => {
@@ -85,7 +85,8 @@ function refreshFile(fileName) {
 
 function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
-  if (altTitle.length > 0) altTitle = `"${altTitle}"`
+  if (altTitle.length > 0)
+    altTitle = `"${altTitle}"`
   const authors = new Set(header.authors)
   var version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
   const released = header.released || app.released
@@ -103,8 +104,6 @@ function writeResult(app, header, iconExtension, body) {
   }
   const reviewArchive = header.reviewArchive || []
   const redirects = new Set(header.redirect_from)
-  const p = `_android/${header.appId}.md`
-  const f = fs.createWriteStream(p)
   if (header.stars != "0.0"
       && app.scoreText == "0.0"
       || header.reviews
@@ -115,7 +114,6 @@ function writeResult(app, header, iconExtension, body) {
     errorLogFile.write(`${weirdBug.join(" ")}`)
     errorLogFile.close()
     process.stdout.write("(🤖)")
-    return // no point in writing bogus data
   } else {
     process.stdout.write("🤖")
   }
@@ -151,6 +149,8 @@ function writeResult(app, header, iconExtension, body) {
       date = new Date()
     }
   }
+  const p = `_android/${header.appId}.md`
+  const f = fs.createWriteStream(p)
   f.write(`---
 wsId: ${header.wsId || ""}
 title: "${app.title}"
