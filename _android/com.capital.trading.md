@@ -3,7 +3,7 @@ wsId:
 title: "Trading app by Capital.com"
 altTitle: 
 authors:
-
+- danny
 users: 1000000
 appId: com.capital.trading
 released: 2017-10-18
