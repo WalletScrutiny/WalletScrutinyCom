@@ -32,6 +32,21 @@ function downloadImageFile(url, path, callback) {
   })
 }
 
+function addReviewArchive(reviewArchive, header) {
+  reviewArchive.unshift({
+    date: header.date,
+    version: header.version,
+    appHash: "",
+    gitRevision: getMasterHead(),
+    verdict: header.verdict
+  })
+}
+
+function getMasterHead() {
+  return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
+}
+
 module.exports = {
+  addReviewArchive,
   downloadImageFile
 }

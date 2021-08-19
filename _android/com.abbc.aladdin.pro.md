@@ -9,9 +9,9 @@ appId: com.abbc.aladdin.pro
 released: 2019-11-15
 updated: 2021-06-09
 version: "1.4.3"
-stars: 3.0
-ratings: 1828
-reviews: 1356
+stars: 3.1
+ratings: 1835
+reviews: 1363
 size: 23M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2018-01-05
 updated: 2021-01-07
 version: "3.3.6-google"
 stars: 3.8
-ratings: 2283
-reviews: 1779
+ratings: 2282
+reviews: 1778
 size: 22M
 website: https://altcoinfantasy.com/v3
 repository: 

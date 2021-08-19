@@ -3,23 +3,15 @@ wsId:
 title: "FBS Trader — Trading Platform"
 altTitle: 
 authors:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- danny
-=======
->>>>>>> walletscrutiny/walletScrutinyCom-master
-
-=======
->>>>>>> leo/master
 - danny
 users: 5000000
 appId: com.fbs.tpand
 released: 2019-03-25
-updated: 2021-08-16
+updated: 2021-08-17
 version: "1.39.3"
 stars: 4.6
-ratings: 96294
-reviews: 24184
+ratings: 96449
+reviews: 24223
 size: 19M
 website: 
 repository: 

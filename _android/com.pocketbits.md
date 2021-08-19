@@ -4,14 +4,14 @@ title: "PocketBits: 0% Fee Bitcoin & Crypto Trading India"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.pocketbits
 released: 2021-08-03
 updated: 2021-08-16
 version: "1.2.5"
-stars: 4.3
-ratings: 36
-reviews: 23
+stars: 4.4
+ratings: 41
+reviews: 24
 size: 29M
 website: 
 repository: 

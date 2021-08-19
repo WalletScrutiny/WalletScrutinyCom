@@ -87,7 +87,7 @@ function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0) altTitle = `"${altTitle}"`
   const authors = new Set(header.authors)
-  var version = app.version || "various"
+  var version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
   const released = header.released || app.released
   var releasedString = ""
   if (released != undefined) {
@@ -122,16 +122,34 @@ function writeResult(app, header, iconExtension, body) {
   var date = header.date
   // retire if needed
   const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-  if ( daysSinceUpdate > 720 && verdict != "obsolete" ) {
-    console.log(`\nObsoleting ${header.appId}`)
-    addReviewArchive(reviewArchive, header)
-    verdict = "obsolete"
-    date = new Date()
-  } else if ( daysSinceUpdate > 360 && daysSinceUpdate <= 720 && verdict != "stale" ) {
-    console.log(`\nStaling ${header.appId}`)
-    addReviewArchive(reviewArchive, header)
-    verdict = "stale"
-    date = new Date()
+  if ( daysSinceUpdate > 720 ) {
+    if ( verdict != "obsolete" ) {
+      // mark obsolete if old and not obsoelte yet
+      console.log(`\nObsoleting android/${header.appId}`)
+      helper.addReviewArchive(reviewArchive, header)
+      verdict = "obsolete"
+      date = new Date()
+    }
+  } else if ( daysSinceUpdate > 360 ) {
+    if ( verdict != "stale" ) {
+      // mark stale if old and not stale yet
+      console.log(`\nStaling android/${header.appId}`)
+      helper.addReviewArchive(reviewArchive, header)
+      verdict = "stale"
+      date = new Date()
+    }
+  } else {
+    if ( verdict == "stale" || verdict == "obsolete" ) {
+      // stale/obsolete product was revived. We might have to look into it.
+      helper.addReviewArchive(reviewArchive, header)
+      if ( app.minInstalls < 1000 ) {
+        verdict = "fewusers"
+      } else {
+        verdict = "wip"
+      }
+      console.log(`\nReviving android/${header.appId} (${verdict})`)
+      date = new Date()
+    }
   }
   f.write(`---
 wsId: ${header.wsId || ""}
@@ -143,7 +161,7 @@ users: ${app.minInstalls}
 appId: ${header.appId}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version.replace(/["\\]*/g, "") }"
+version: "${ version }"
 stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}
@@ -174,20 +192,6 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 
 
 ${body}`)
-}
-
-function addReviewArchive(reviewArchive, header) {
-  reviewArchive.unshift({
-    date: header.date,
-    version: header.version,
-    appHash: "",
-    gitRevision: getMasterHead(),
-    verdict: header.verdict
-  })
-}
-
-function getMasterHead() {
-  return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
 }
 
 module.exports = {

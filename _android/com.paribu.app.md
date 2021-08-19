@@ -3,34 +3,38 @@ wsId:
 title: "Paribu | Bitcoin-Kripto Para Alım Satım"
 altTitle: 
 authors:
-
+ - danny
 users: 1000000
 appId: com.paribu.app
 released: 2019-06-14
 updated: 2021-05-17
 version: "3.3.7"
 stars: 4.3
-ratings: 45934
-reviews: 26244
+ratings: 46012
+reviews: 26255
 size: 38M
 website: 
 repository: 
 issue: 
 icon: com.paribu.app.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: paribucom
+providerLinkedIn: paribu
+providerFacebook: paribucom
 providerReddit: 
 
 redirect_from:
 
 ---
 
+The app's description is written in Turkish, so all the quotes below are from Google Translate.
 
+> In Paribu, user assets are stored in secure cold wallets. You can always perform your transactions safely with up-to-date security measures.
+
+This sounds custodial.

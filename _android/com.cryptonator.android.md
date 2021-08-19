@@ -9,9 +9,9 @@ appId: com.cryptonator.android
 released: 2018-11-01
 updated: 2021-01-22
 version: "4.0"
-stars: 2.7
-ratings: 5093
-reviews: 3045
+stars: 2.6
+ratings: 5097
+reviews: 3049
 size: 8.7M
 website: https://www.cryptonator.com
 repository: 
