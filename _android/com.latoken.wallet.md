@@ -33,13 +33,14 @@ providerTwitter: latokens
 providerLinkedIn: latoken
 providerFacebook: LiquidAssetToken
 providerReddit: 
+redirect_from:
 ---
->Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.
 
->For  the  purposes  of  anti-money  laundering  prevention  and  combating  terrorist  activities, LATOKEN reserves the right  to request  any additional information and documents from you about you and/or your Transaction, and suspend your access to your Wallet anytime in case the documents or information provided by you are unsatisfactory or insufficient, as LATOKEN decide in its sole discretion.
+> Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.
+
+> For  the  purposes  of  anti-money  laundering  prevention  and  combating  terrorist  activities, LATOKEN reserves the right  to request  any additional information and documents from you about you and/or your Transaction, and suspend your access to your Wallet anytime in case the documents or information provided by you are unsatisfactory or insufficient, as LATOKEN decide in its sole discretion.
 
 This states that the provider can suspend access to your wallet, making it custodial and thus not verifiable.
-redirect_from:
 
 
 
