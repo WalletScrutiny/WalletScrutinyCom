@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "Bitvavo"
+title: "Bitvavo | Buy Bitcoin & Cryptocurrency"
 altTitle: 
 authors:
 
 users: 100000
 appId: com.bitvavo.android
 released: 2020-08-19
-updated: 2021-07-29
-version: "1.0.92"
-stars: 3.7
-ratings: 1177
-reviews: 821
+updated: 2021-08-18
+version: "1.0.93"
+stars: 3.8
+ratings: 1182
+reviews: 822
 size: 178M
 website: 
 repository: 

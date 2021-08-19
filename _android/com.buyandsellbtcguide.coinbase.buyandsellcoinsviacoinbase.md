@@ -4,14 +4,14 @@ title: "Bitcoin Buy & Sell Guide for Coinbase"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 released: 2021-04-29
 updated: 2021-08-02
 version: "1.1"
 stars: 4.2
-ratings: 37
-reviews: 24
+ratings: 38
+reviews: 25
 size: 5.3M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.claimfaucetcoins
 released: 2020-04-21
 updated: 2021-06-15
 version: "2.1"
-stars: 3.9
-ratings: 223
-reviews: 127
+stars: 3.8
+ratings: 222
+reviews: 126
 size: 4.9M
 website: 
 repository: 
