@@ -38,7 +38,7 @@ Section 8.2 of the Terms and Conditions may make it seem that it is custodial.
 
 > 8.2. The Bitcoin Market securely stores the private keys referring to the Cryptoactives deposited in the Wallets addresses of each user, through a combination of online and offline storage. Due to this configuration, chosen for the sake of user safety, there may be delays in relation to the processing of receiving Cryptoactives on the Wallet, crediting an account and/or sending Cryptoactives by the Platform, with the Bitcoin Market being exempt from any and all liability for such a delay.
 
-As of 08-18-2021, there is no official English translation so I had to use Google translate. I assume that "cryptoactives" is the translation for "cryptocurrencies"
+As of 2021-08-18, there is no official English translation so I had to use Google translate. I assume that "cryptoactives" is the translation for "cryptocurrencies"
 
 But section 8.4 mentions that: 
 
