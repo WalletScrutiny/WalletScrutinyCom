@@ -45,9 +45,7 @@ You can find on the footer of pluang-grow.com that it is a portfolio management 
 
 App sign up and registration only available to Indonesians with Indonesian phone number.
 
-FAQ About Withdrawing crypto assets
-
-https://help.pluang.com/knowledge/pertanyaan-umum-seputar-cryptocurrency
+The [FAQ About Withdrawing crypto assets](https://help.pluang.com/knowledge/pertanyaan-umum-seputar-cryptocurrency):
 
 > Withdrawal of funds can be done in Rupiah to a bank account or e-wallet account.
 
