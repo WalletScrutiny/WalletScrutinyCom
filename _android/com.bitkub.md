@@ -42,5 +42,3 @@ This sounds like an exchange.
 Identity verification is almost always a trait of custodial products.
 
 While this is a trading platform it is still possible to send and receive BTC. With this info, we can assume this is **custodial** and **not verifiable.**
-
-On the official website, Bitkub provides their [public API](https://www.bitkub.com/publicapi).

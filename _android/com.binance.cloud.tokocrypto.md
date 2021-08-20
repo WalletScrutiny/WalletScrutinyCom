@@ -33,11 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
-Presented by Binance
+Presented by Binance - corroborated on [Binance Launchpad's Tokocrypto Token Sale](https://www.binance.com/en/support/announcement/4620c8a2a87c42978519750964af7aa4)
 
 LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
 
-Youtube tutorial on withdrawing crypto
-
-> https://www.youtube.com/watch?v=oDQCzjkQDUg
-
+[Youtube tutorial on withdrawing crypto](https://www.youtube.com/watch?v=oDQCzjkQDUg)

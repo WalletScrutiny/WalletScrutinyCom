@@ -33,15 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
-The verdict is **custodial**
-
-Here is a tutorial on how to send/withdraw crypto
-
-> https://novadax.zendesk.com/hc/en-us/articles/360053015793-How-to-send-cryptocurrency
-
-Novadax's security page notes: 
-
-> https://www.novadax.com/en-EU/company/security
+The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):
 
 > 99% of cryptocurrencies are stored in a multi-signed “Cold Wallet” (offline)
 
