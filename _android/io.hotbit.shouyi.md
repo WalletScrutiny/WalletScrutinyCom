@@ -3,15 +3,15 @@ wsId:
 title: "Hotbit"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: io.hotbit.shouyi
 released: 2019-09-19
-updated: 2021-08-12
-version: "1.3.27"
+updated: 2021-08-19
+version: "1.3.28"
 stars: 4.0
-ratings: 39036
-reviews: 15418
+ratings: 39404
+reviews: 15522
 size: 11M
 website: https://www.hotbit.io
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Hotbit describes itself as
 

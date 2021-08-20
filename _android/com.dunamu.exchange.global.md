@@ -9,9 +9,9 @@ appId: com.dunamu.exchange.global
 released: 2018-11-06
 updated: 2021-08-19
 version: "1.5.13p3"
-stars: 4.4
-ratings: 2451
-reviews: 1987
+stars: 4.2
+ratings: 2384
+reviews: 1925
 size: 28M
 website: 
 repository: 

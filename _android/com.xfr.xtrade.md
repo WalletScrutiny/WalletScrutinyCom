@@ -10,8 +10,8 @@ released: 2014-10-02
 updated: 2021-06-17
 version: "6.0.60"
 stars: 4.0
-ratings: 36537
-reviews: 11461
+ratings: 36534
+reviews: 11459
 size: 28M
 website: http://www.xtrade.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone
 

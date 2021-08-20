@@ -10,8 +10,8 @@ released: 2012-12-22
 updated: 2021-08-18
 version: "196"
 stars: 4.2
-ratings: 3711
-reviews: 1616
+ratings: 3710
+reviews: 1615
 size: 8.0M
 website: 
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 . TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.
 
 This does not sound like a BTC wallet.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zam Wallet - Send crypto by phone"
+title: "ZamWallet: Buy Bitcoin & Crypto with Card"
 altTitle: 
 authors:
 
@@ -10,13 +10,13 @@ released: 2018-09-17
 updated: 2021-07-13
 version: "1.0.5"
 stars: 3.6
-ratings: 18
-reviews: 8
+ratings: 19
+reviews: 9
 size: 16M
 website: 
 repository: 
 issue: 
-icon: zam.wallet.png
+icon: zam.wallet.jpg
 bugbounty: 
 verdict: fewusers
 date: 2021-08-02

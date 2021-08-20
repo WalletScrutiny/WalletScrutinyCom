@@ -10,8 +10,8 @@ released: 2017-10-23
 updated: 2021-08-19
 version: "1.14.12p2"
 stars: 3.6
-ratings: 21669
-reviews: 8900
+ratings: 21674
+reviews: 8903
 size: 26M
 website: https://upbit.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 There are two versions of this app: one for Korea and one that's global. 
 
 Upbit uses ID verification and KYC therefore we can assume that it is **custodial** and **not verifiable**. You cannot deposit or withdraw BTC as well as other altcoins without finishing their level 2 KYC. They also claim to have multi-sig and cold wallets.

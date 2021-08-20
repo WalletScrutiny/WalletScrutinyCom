@@ -9,9 +9,9 @@ appId: lite.cryptotab.android
 released: 2021-06-16
 updated: 2021-08-19
 version: "6.0.12"
-stars: 4.3
-ratings: 4016
-reviews: 2052
+stars: 4.2
+ratings: 4086
+reviews: 2093
 size: Varies with device
 website: 
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 This app is a lite version of {% include walletLink.html wallet='android/pro.cryptotab.android' verdict='true' %}.
 It's safe to assume they have the same verdict.

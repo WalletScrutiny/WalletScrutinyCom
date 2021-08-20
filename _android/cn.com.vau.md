@@ -10,8 +10,8 @@ released: 2019-07-06
 updated: 2021-06-04
 version: "1.4.2"
 stars: 4.3
-ratings: 3851
-reviews: 743
+ratings: 3850
+reviews: 742
 size: 34M
 website: https://www.vantagefx.com.au/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Description from the 
 >The Vantage FX app offers traders easy, yet powerful mobile access to hundreds of FX Pairs, Commodities, Indices, Share CFDs and more! Available for both iOS and Android devices, the Vantage FX trading app is equipped with a suite of trading and investing tools so you can trade global markets anywhere, anytime! Trade your way anywhere, anytime, with the Vantage FX app.
 

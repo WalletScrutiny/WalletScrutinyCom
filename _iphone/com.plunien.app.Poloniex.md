@@ -9,10 +9,10 @@ appCountry:
 idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
-version: "1.17.0"
+version: "1.18.0"
 stars: 4.5919
 reviews: 2024
-size: 88348672
+size: 89108480
 website: https://www.poloniex.com
 repository: 
 issue: 

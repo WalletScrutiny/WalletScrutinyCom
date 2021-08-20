@@ -3,16 +3,15 @@ wsId:
 title: "Kraken - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.kraken.invest.app
 released: 2020-12-30
 updated: 2021-08-11
 version: "1.7.1"
 stars: 4.0
-ratings: 3568
-reviews: 1722
+ratings: 3573
+reviews: 1724
 size: 74M
 website: https://www.kraken.com/
 repository: 
@@ -33,6 +32,8 @@ providerReddit: Kraken
 redirect_from:
 
 ---
+
+
 Kraken is one of the leading exchanges in the world with over 2 billion traded over a 24h period. 
 
 Source: [Coinmarketcap.com](https://coinmarketcap.com/exchanges/kraken)

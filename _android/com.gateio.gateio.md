@@ -10,8 +10,8 @@ released: 2017-11-03
 updated: 2021-07-26
 version: "3.0.3"
 stars: 3.2
-ratings: 5779
-reviews: 4092
+ratings: 5797
+reviews: 4107
 size: 186M
 website: https://gate.io/
 repository: 
@@ -32,6 +32,7 @@ providerReddit: GateioExchange
 redirect_from:
 
 ---
+
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)
 

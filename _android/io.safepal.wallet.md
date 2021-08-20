@@ -11,7 +11,7 @@ updated: 2021-07-19
 version: "2.7.2"
 stars: 4.1
 ratings: 7126
-reviews: 4023
+reviews: 4018
 size: 30M
 website: https://www.safepal.io
 repository: 

@@ -4,17 +4,16 @@ title: "Crypto App - Widgets, Alerts, News, Bitcoin Prices"
 altTitle: 
 authors:
 - danny
-
 users: 1000000
 appId: com.crypter.cryptocyrrency
 released: 2017-09-09
 updated: 2021-08-13
 version: "2.6.4"
 stars: 4.6
-ratings: 67723
-reviews: 19020
+ratings: 67780
+reviews: 19039
 size: 34M
-website: https://thecrypto.app/ 
+website: https://thecrypto.app/
 repository: 
 issue: 
 icon: com.crypter.cryptocyrrency.png
@@ -24,12 +23,16 @@ date: 2021-08-21
 signer: 
 reviewArchive:
 
+
 providerTwitter: TrustSwap
 providerLinkedIn: TrustSwap
 providerFacebook: TrustSwap
 providerReddit: 
+
 redirect_from:
+
 ---
+
 
 From their official website: 
 

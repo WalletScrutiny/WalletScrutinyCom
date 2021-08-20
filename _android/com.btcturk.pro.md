@@ -10,8 +10,8 @@ released: 2020-09-10
 updated: 2021-08-17
 version: "1.32.2"
 stars: 4.5
-ratings: 135965
-reviews: 40964
+ratings: 136063
+reviews: 40991
 size: 27M
 website: https://pro.btcturk.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.
 

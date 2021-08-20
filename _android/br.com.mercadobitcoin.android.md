@@ -3,16 +3,15 @@ wsId:
 title: "Mercado Bitcoin Oficial"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 1000000
 appId: br.com.mercadobitcoin.android
 released: 2019-07-25
 updated: 2021-08-09
 version: "1.13.03"
 stars: 4.6
-ratings: 14675
-reviews: 7804
+ratings: 15103
+reviews: 7863
 size: 62M
 website: https://www.mercadobitcoin.com.br
 repository: 
@@ -33,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.
 

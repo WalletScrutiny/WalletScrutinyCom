@@ -3,15 +3,15 @@ wsId:
 title: "Coincheck Bitcoin Wallet"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: jp.coincheck.android
 released: 2015-04-23
 updated: 2021-08-12
 version: "4.1.6"
 stars: 3.8
-ratings: 9348
-reviews: 2841
+ratings: 9346
+reviews: 2842
 size: 67M
 website: http://coincheck.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Anyone can easily send Bitcoins just by scanning QR code! You can also convert address for receiving Bitcoins to QR code as well. Coincheck wallet will enable everyone to exchange money without using cash or credit card.
 

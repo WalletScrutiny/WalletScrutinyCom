@@ -3,15 +3,15 @@ wsId:
 title: "CryptoTab Browser Pro Level"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500000
 appId: pro.cryptotab.android
 released: 2020-01-24
 updated: 2021-07-16
 version: "4.1.76"
 stars: 4.2
-ratings: 47412
-reviews: 25241
+ratings: 47537
+reviews: 25324
 size: Varies with device
 website: 
 repository: 
@@ -26,12 +26,13 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook:
+providerFacebook: 
 providerReddit: 
 
 redirect_from:
 
 ---
+
 
 It appears that users have to buy this app on Play Store.
 

@@ -4,7 +4,7 @@ title: "How To Invest In Bitcoin"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptolabllc.how.to.invest.in.bitcoin
 released: 2021-06-18
 updated: 2021-06-18

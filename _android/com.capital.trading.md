@@ -10,8 +10,8 @@ released: 2017-10-18
 updated: 2021-08-16
 version: "1.31"
 stars: 4.4
-ratings: 20253
-reviews: 6791
+ratings: 20294
+reviews: 6803
 size: Varies with device
 website: 
 repository: https://capital.com/
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Capital.com is here to change your entire trading experience. We provide an award-winning* free online trading app** and easy-to-use platform, designed to make trading smarter, simpler and more intuitive.
 
