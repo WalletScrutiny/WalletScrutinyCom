@@ -20,7 +20,7 @@ issue:
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-11
+date: 2021-08-21
 signer: 
 reviewArchive:
 

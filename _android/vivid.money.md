@@ -19,7 +19,7 @@ issue:
 icon: vivid.money.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-17
+date: 2021-08-21
 signer: 
 reviewArchive:
 

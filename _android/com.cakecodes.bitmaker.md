@@ -20,7 +20,7 @@ icon: com.cakecodes.bitmaker.png
 bugbounty: 
 
 verdict: nowallet
-date: 2021-08-17
+date: 2021-08-21
 providerTwitter: stormxio
 providerLinkedIn: StormX
 providerFacebook: stormxio

@@ -20,7 +20,7 @@ issue:
 icon: com.EmasDigi.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-20
+date: 2021-08-21
 signer: 
 reviewArchive:
 

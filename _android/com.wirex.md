@@ -19,7 +19,7 @@ issue:
 icon: com.wirex.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 

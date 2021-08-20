@@ -20,7 +20,7 @@ issue:
 icon: com.kraken.invest.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-20
+date: 2021-08-21
 signer: 
 reviewArchive:
 

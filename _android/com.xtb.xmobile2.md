@@ -20,7 +20,7 @@ issue:
 icon: com.xtb.xmobile2.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-18
+date: 2021-08-21
 signer: 
 reviewArchive:
 

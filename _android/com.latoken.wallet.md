@@ -21,7 +21,7 @@ icon: com.latoken.wallet.png
 
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
 verdict: custodial
-date: 2021-08-12
+date: 2021-08-21
 
 
 signer: 

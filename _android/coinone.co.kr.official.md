@@ -19,7 +19,7 @@ issue:
 icon: coinone.co.kr.official.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 

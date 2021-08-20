@@ -19,7 +19,7 @@ issue:
 icon: com.btcturk.pro.png
 bugbounty: https://pro.btcturk.com/en/bug-bounty
 verdict: custodial
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 

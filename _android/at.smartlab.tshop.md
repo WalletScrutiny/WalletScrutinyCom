@@ -19,7 +19,7 @@ issue:
 icon: at.smartlab.tshop.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-08-21
 signer: 
 reviewArchive:
 

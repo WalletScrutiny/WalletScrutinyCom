@@ -19,7 +19,7 @@ issue:
 icon: pro.cryptotab.android.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 

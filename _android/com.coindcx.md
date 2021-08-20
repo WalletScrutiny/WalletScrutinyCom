@@ -20,7 +20,7 @@ issue:
 icon: com.coindcx.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 

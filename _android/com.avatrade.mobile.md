@@ -19,7 +19,7 @@ issue:
 icon: com.avatrade.mobile.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: cn.com.vau.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-17
+date: 2021-08-21
 signer: 
 reviewArchive:
 
