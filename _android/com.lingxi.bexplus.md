@@ -10,8 +10,8 @@ released: 2018-10-29
 updated: 2021-07-21
 version: "2.1.1"
 stars: 4.7
-ratings: 4924
-reviews: 1921
+ratings: 4929
+reviews: 1925
 size: 11M
 website: https://www.bexplus.com
 repository: 

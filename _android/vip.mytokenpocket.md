@@ -10,8 +10,8 @@ released: 2018-06-29
 updated: 2021-08-05
 version: "1.3.1"
 stars: 4.3
-ratings: 8908
-reviews: 4065
+ratings: 8944
+reviews: 4086
 size: 44M
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-android

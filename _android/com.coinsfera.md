@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.coinsfera.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-01
+verdict: stale
+date: 2021-08-19
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "Varies with device"
+  appHash: 
+  gitRevision: 79e92f0e1174136cdf05180253c87cacb589f002
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

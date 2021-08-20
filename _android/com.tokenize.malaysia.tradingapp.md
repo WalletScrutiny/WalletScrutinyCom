@@ -9,9 +9,9 @@ appId: com.tokenize.malaysia.tradingapp
 released: 2020-11-26
 updated: 2021-06-23
 version: "1.15.2"
-stars: 2.5
-ratings: 128
-reviews: 82
+stars: 2.6
+ratings: 129
+reviews: 83
 size: 45M
 website: 
 repository: 

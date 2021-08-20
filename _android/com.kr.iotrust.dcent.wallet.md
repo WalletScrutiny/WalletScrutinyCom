@@ -9,9 +9,9 @@ appId: com.kr.iotrust.dcent.wallet
 released: 2018-10-16
 updated: 2021-08-04
 version: "5.6.0"
-stars: 4.2
-ratings: 392
-reviews: 261
+stars: 4.1
+ratings: 395
+reviews: 264
 size: 37M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet

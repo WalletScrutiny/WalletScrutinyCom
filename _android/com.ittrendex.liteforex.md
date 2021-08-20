@@ -9,8 +9,8 @@ appId: com.ittrendex.liteforex
 released: 2017-10-23
 updated: 2021-01-29
 version: "1.4.8"
-stars: 3.7
-ratings: 836
+stars: 3.8
+ratings: 837
 reviews: 391
 size: 4.2M
 website: 

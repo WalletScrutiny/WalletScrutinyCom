@@ -4,7 +4,7 @@ title: "Bitcoin Revolution"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: org.bitcoincrypto.bitcoin.revolution
 released: 2021-06-24
 updated: 2021-06-24
