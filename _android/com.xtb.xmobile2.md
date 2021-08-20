@@ -3,7 +3,11 @@ wsId:
 title: "XTB - Forex, Indices, Commodities, CFDs"
 altTitle: 
 authors:
+<<<<<<< HEAD
 -danny
+=======
+- danny
+>>>>>>> dannygarcia/walletScrutinyCom-analysisWS
 
 users: 1000000
 appId: com.xtb.xmobile2
@@ -41,4 +45,8 @@ Under their list of trading instruments
 >Cryptocurrencies (e.g. Bitcoin, Ethereum, Ripple)
 
 
+<<<<<<< HEAD
 XTB is a brokerage. It allows you to trade or invest in Bitcoin through  CFDs, meaning you don't actually own the Bitcoin. The verdict here is 'nowallet'
+=======
+XTB is a brokerage. It allows you to trade or invest in Bitcoin through  CFDs, meaning you don't actually own the Bitcoin. The verdict here is 'nowallet'
+>>>>>>> dannygarcia/walletScrutinyCom-analysisWS

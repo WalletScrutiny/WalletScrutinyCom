@@ -3,7 +3,7 @@ wsId:
 title: "CryptoTab Browser Pro Level"
 altTitle: 
 authors:
-
+ - danny
 users: 500000
 appId: pro.cryptotab.android
 released: 2020-01-24
@@ -19,18 +19,24 @@ issue:
 icon: pro.cryptotab.android.png
 bugbounty: 
 verdict: wip
-date: 2021-08-02
+date: 2021-08-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CryptoTabnet
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: CryptoTabFamilyOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+It appears that users have to buy this app on Play Store.
 
+> CryptoTab Pro is a special version of the CryptoTab Browser, for everyone who wants to use all CryptoTab services directly on Android device.
+
+CryptoTab Browser is an app that allows users to browse the web while mining cryptocurrencies. This sounds like a mobile version. But it's unclear whether this is a wallet.
+
+The Play Store description does not have a link to the official website. The [Privacy Policy](https://cryptocompany.site/en/android/privacy/) links to a website called cryptocompany.site. 
