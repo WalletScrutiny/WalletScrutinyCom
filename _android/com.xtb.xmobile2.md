@@ -3,7 +3,7 @@ wsId:
 title: "XTB - Forex, Indices, Commodities, CFDs"
 altTitle: 
 authors:
--danny
+- danny
 
 users: 1000000
 appId: com.xtb.xmobile2
@@ -31,6 +31,7 @@ providerFacebook: xtb
 providerReddit: 
 
 redirect_from:
+
 ---
 The app description:
 

@@ -3,7 +3,7 @@ wsId:
 title: "Trading app by Capital.com"
 altTitle: 
 authors:
-
+-  danny
 users: 1000000
 appId: com.capital.trading
 released: 2017-10-18
@@ -13,8 +13,8 @@ stars: 4.4
 ratings: 20220
 reviews: 6779
 size: Varies with device
-website: 
-repository: https://capital.com/
+website: https://capital.com
+repository: 
 issue: 
 icon: com.capital.trading.png
 bugbounty: 

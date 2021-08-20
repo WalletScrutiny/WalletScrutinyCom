@@ -3,6 +3,7 @@ wsId:
 title: "Trading App For Advanced Traders: CoinDCX Pro"
 altTitle: 
 authors:
+ - danny
 
 users: 500000
 appId: com.coindcx
@@ -13,24 +14,29 @@ stars: 3.8
 ratings: 8082
 reviews: 5765
 size: 51M
-website: 
+website: https://coindcx.com
 repository: 
 issue: 
 icon: com.coindcx.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: custodial
+date: 2021-08-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coindcx
+providerLinkedIn: coindcx
+providerFacebook: CoinDCX
 providerReddit: 
 
 redirect_from:
 
 ---
+Indian Cryptocurrency Exchange Terms and Conditions
+
+> https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf
+
+> Upon activation of your User Account, we will provide you with a Fiat Wallet and a Coin Wallet. These Wallets enable you to purchase, send, receive or store Digital Assets supported by the Online Platforms. You are required to maintain a minimum balance of Funds in your Wallets before you initiate an order and/or transaction. We reserve the right to refuse to execute any order and/or transaction initiated by you,  if  they  arein  contravention  to  the  AML  Policy  or  to  comply  with  directions  of  appropriate enforcement authorities.J.  YOUR WALLET
 
 
