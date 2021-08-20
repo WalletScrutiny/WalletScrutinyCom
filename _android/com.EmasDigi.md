@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: com.EmasDigi.png
 bugbounty: 
-verdict: nowallet
-date: 2021-08-19
+verdict: nosendreceive
+date: 2021-08-20
 signer: 
 reviewArchive:
 
@@ -45,9 +45,7 @@ You can find on the footer of pluang-grow.com that it is a portfolio management 
 
 App sign up and registration only available to Indonesians with Indonesian phone number.
 
-FAQ About Withdrawing crypto assets
-
-https://help.pluang.com/knowledge/pertanyaan-umum-seputar-cryptocurrency
+[FAQ About Withdrawing crypto assets](https://help.pluang.com/knowledge/pertanyaan-umum-seputar-cryptocurrency)
 
 > Withdrawal of funds can be done in Rupiah to a bank account or e-wallet account.
 
