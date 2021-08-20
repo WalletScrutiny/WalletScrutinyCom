@@ -3,6 +3,7 @@ wsId:
 title: "Crypto App - Widgets, Alerts, News, Bitcoin Prices"
 altTitle: 
 authors:
+- danny
 
 users: 1000000
 appId: com.crypter.cryptocyrrency
@@ -13,24 +14,25 @@ stars: 4.6
 ratings: 67723
 reviews: 19020
 size: 34M
-website: 
+website: https://thecrypto.app/ 
 repository: 
 issue: 
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: nowallet
+date: 2021-08-21
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: TrustSwap
+providerLinkedIn: TrustSwap
+providerFacebook: TrustSwap
 providerReddit: 
-
 redirect_from:
-
 ---
 
+From their official website: 
 
+> The Crypto App Team would like to announce that The Crypto App Wallet will be discontinued on August 20th, 2021. All other services within The Crypto App remain operational.
+
+As the rest of the app's services will remain after the wallet's discontinuation, it will be labeled nowallet.

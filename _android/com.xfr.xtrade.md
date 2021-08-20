@@ -13,24 +13,26 @@ stars: 4.0
 ratings: 36537
 reviews: 11461
 size: 28M
-website: 
+website: http://www.xtrade.com/
 repository: 
 issue: 
 icon: com.xfr.xtrade.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: custodial
+date: 2021-08-21
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: XTrade
+providerLinkedIn: xtrade
+providerFacebook: XTrade
 providerReddit: 
 
 redirect_from:
 
 ---
 
+> Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone
 
+Like most trading platforms it seems to have a **custodial** wallet integrated. Therefore it is **not verifiable.**
