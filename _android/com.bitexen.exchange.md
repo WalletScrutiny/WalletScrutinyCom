@@ -33,7 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
-Accessing the website https://www.bitexen.com/ linked via Google Play is problematic:
+Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:
 
 > Error 1020 Ray ID: 6811f4a55cdcf156 • 2021-08-19 08:19:12 UTC
 
