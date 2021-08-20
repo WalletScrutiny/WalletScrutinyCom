@@ -4,7 +4,7 @@ title: "Bitcoin Investment"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.makingmillionswithcrypto.bitcoin.investment
 released: 2021-06-17
 updated: 2021-06-17

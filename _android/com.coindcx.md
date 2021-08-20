@@ -10,9 +10,9 @@ appId: com.coindcx
 released: 2018-11-02
 updated: 2021-04-17
 version: "1.0.002"
-stars: 3.8
-ratings: 8082
-reviews: 5765
+stars: 3.7
+ratings: 8040
+reviews: 5723
 size: 51M
 website: https://coindcx.com
 repository: 
@@ -33,9 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
-Indian Cryptocurrency Exchange Terms and Conditions
-
-> https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf
+From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):
 
 > Upon activation of your User Account, we will provide you with a Fiat Wallet and a Coin Wallet. These Wallets enable you to purchase, send, receive or store Digital Assets supported by the Online Platforms. You are required to maintain a minimum balance of Funds in your Wallets before you initiate an order and/or transaction. We reserve the right to refuse to execute any order and/or transaction initiated by you,  if  they  arein  contravention  to  the  AML  Policy  or  to  comply  with  directions  of  appropriate enforcement authorities.J.  YOUR WALLET
 

@@ -11,7 +11,7 @@ updated: 2020-09-05
 version: "3.12.0.2.50"
 stars: 3.1
 ratings: 53
-reviews: 44
+reviews: 45
 size: 19M
 website: 
 repository: 

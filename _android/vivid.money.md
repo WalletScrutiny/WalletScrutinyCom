@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: vivid.money
 released: 2020-10-09
-updated: 2021-08-17
-version: "1.54.1"
+updated: 2021-08-18
+version: "1.54.2"
 stars: 4.3
-ratings: 14239
-reviews: 3806
+ratings: 14287
+reviews: 3824
 size: 135M
 website: https://vivid.money/
 repository: 
@@ -38,5 +38,5 @@ From their website's 'help' section in response to the question: "Do I own real 
 
 > No, you don’t. With Vivid Invest we offer trading via Fractional Сoins. Fractional Coins are investment products; one-to-one bilateral agreements (so-called OTC derivatives) with specific cryptocurrencies as underlying. The price of your Fractional Coins reflects a real coin’s price movements 1:1. There is no leverage.
 
-We conclude that this app falls under 'nosendreceive'
+We conclude that this app cannot send our receive actual Bitcoins.
 

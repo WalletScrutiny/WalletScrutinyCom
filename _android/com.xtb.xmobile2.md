@@ -11,15 +11,15 @@ released: 2014-12-17
 updated: 2021-08-11
 version: "Varies with device"
 stars: 4.5
-ratings: 14437
-reviews: 4894
+ratings: 14470
+reviews: 4899
 size: Varies with device
 website: http://www.xtb.com/
 repository: 
 issue: 
 icon: com.xtb.xmobile2.png
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-08-18
 signer: 
 reviewArchive:
@@ -42,4 +42,4 @@ Under their list of trading instruments
 >Cryptocurrencies (e.g. Bitcoin, Ethereum, Ripple)
 
 
-XTB is a brokerage. It allows you to trade or invest in Bitcoin through  CFDs, meaning you don't actually own the Bitcoin. The verdict here is 'nowallet'
+XTB is a brokerage. It allows you to trade or invest in Bitcoin through  CFDs, meaning you don't actually own the Bitcoin. The verdict here is {% include verdictBadge.html verdict="nosendreceive" type='short' %}

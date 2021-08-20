@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.prestmit
 released: 2021-04-13
-updated: 2021-08-09
-version: "2.2"
+updated: 2021-08-19
+version: "2.3"
 stars: 4.5
-ratings: 380
+ratings: 375
 reviews: 337
 size: 8.4M
 website: 

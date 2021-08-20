@@ -3,23 +3,23 @@ wsId:
 title: "CryptoTab Lite — Get Bitcoin in your wallet"
 altTitle: 
 authors:
-
+- danny
 users: 500000
 appId: lite.cryptotab.android
 released: 2021-06-16
-updated: 2021-07-16
+updated: 2021-08-19
 version: "6.0.12"
 stars: 4.3
-ratings: 3958
-reviews: 2025
+ratings: 4016
+reviews: 2052
 size: Varies with device
 website: 
 repository: 
 issue: 
 icon: lite.cryptotab.android.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: nowallet
+date: 2021-08-20
 signer: 
 reviewArchive:
 
@@ -33,4 +33,4 @@ redirect_from:
 
 ---
 
-
+This app is a lite version of CryptoTab Browser Pro. It's safe to assume they have the same verdict - **not a wallet.**

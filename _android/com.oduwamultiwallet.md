@@ -4,7 +4,7 @@ title: "Oduwa Trust Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.oduwamultiwallet
 released: 2021-07-24
 updated: 2021-07-24

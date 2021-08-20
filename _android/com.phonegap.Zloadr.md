@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - Crypto Airdrops, Bounties & NFT Drops"
+title: "Zloadr - Free Airdrops, NFT Drops & NFT Calendar"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: com.phonegap.Zloadr
 released: 2019-06-17
 updated: 2019-07-15
 version: "1.1.0"
-stars: 4.9
-ratings: 1025
-reviews: 937
+stars: 4.5
+ratings: 994
+reviews: 909
 size: 12M
 website: 
 repository: 

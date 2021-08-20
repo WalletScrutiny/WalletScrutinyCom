@@ -10,8 +10,8 @@ released: 2019-04-20
 updated: 2021-05-28
 version: "3.7"
 stars: 4.0
-ratings: 11226
-reviews: 5795
+ratings: 11248
+reviews: 5807
 size: 53M
 website: http://www.bitkub.com/
 repository: 
@@ -42,5 +42,3 @@ This sounds like an exchange.
 Identity verification is almost always a trait of custodial products.
 
 While this is a trading platform it is still possible to send and receive BTC. With this info, we can assume this is **custodial** and **not verifiable.**
-
-On the official website, Bitkub provides their [public API](https://www.bitkub.com/publicapi).
