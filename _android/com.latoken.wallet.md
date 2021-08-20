@@ -20,7 +20,7 @@ issue:
 icon: com.latoken.wallet.png
 
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-verdict: wip
+verdict: custodial
 date: 2021-08-12
 
 

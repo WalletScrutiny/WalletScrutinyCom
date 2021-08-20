@@ -33,4 +33,5 @@ redirect_from:
 
 ---
 
-This app is a lite version of CryptoTab Browser Pro. It's safe to assume they have the same verdict - **not a wallet.**
+This app is a lite version of {% include walletLink.html wallet='android/pro.cryptotab.android' verdict='true' %}.
+It's safe to assume they have the same verdict.
