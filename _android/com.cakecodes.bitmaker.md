@@ -11,7 +11,7 @@ updated: 2021-07-27
 version: "8.10.0"
 stars: 4.1
 ratings: 84094
-reviews: 51331
+reviews: 51330
 size: 52M
 website: https://stormx.io/
 repository: 

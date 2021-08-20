@@ -9,9 +9,9 @@ appId: com.stocksexchange.android
 released: 2018-05-15
 updated: 2021-08-11
 version: "2.0.5"
-stars: 4.4
-ratings: 1268
-reviews: 514
+stars: 4.5
+ratings: 1274
+reviews: 515
 size: 9.8M
 website: 
 repository: 

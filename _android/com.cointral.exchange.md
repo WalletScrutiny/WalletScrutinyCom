@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.cointral.exchange
 released: 2020-10-29
-updated: 2021-08-08
-version: "1.3.5"
+updated: 2021-08-18
+version: "1.3.6"
 stars: 3.4
 ratings: 79
 reviews: 42

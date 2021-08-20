@@ -4,7 +4,7 @@ title: "Bitcoin Loan Without Collateral"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.cryptonews.bitcoin.loan.without.collateral
 released: 2021-07-19
 updated: 2021-07-19
