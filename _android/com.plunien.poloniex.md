@@ -9,9 +9,9 @@ appId: com.plunien.poloniex
 released: 2017-06-19
 updated: 2021-08-18
 version: "1.29.1"
-stars: 4.2
-ratings: 5537
-reviews: 2924
+stars: 4.3
+ratings: 5801
+reviews: 3009
 size: 27M
 website: https://support.poloniex.com
 repository: 

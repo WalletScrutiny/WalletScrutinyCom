@@ -4,14 +4,14 @@ title: "Brasil Bitcoin"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: br.com.brasilbitcoin
 released: 2021-02-17
 updated: 2021-08-10
 version: "2.4.04"
 stars: 2.5
-ratings: 1748
-reviews: 1206
+ratings: 1753
+reviews: 1211
 size: 43M
 website: 
 repository: 

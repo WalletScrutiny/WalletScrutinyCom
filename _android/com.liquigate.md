@@ -9,9 +9,9 @@ appId: com.liquigate
 released: 2020-08-29
 updated: 2021-02-01
 version: "1.1.9"
-stars: 4.8
-ratings: 8
-reviews: 8
+stars: 4.3
+ratings: 9
+reviews: 9
 size: 9.8M
 website: 
 repository: 

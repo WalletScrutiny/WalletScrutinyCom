@@ -10,7 +10,7 @@ released: 2020-02-11
 updated: 2021-08-17
 version: "6.3.1"
 stars: 4.2
-ratings: 710
+ratings: 712
 reviews: 446
 size: 36M
 website: https://bitkeep.com

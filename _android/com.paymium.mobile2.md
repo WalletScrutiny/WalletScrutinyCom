@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.paymium.mobile2
 released: 
-updated: 2021-07-27
+updated: 2021-08-19
 version: "3.0"
-stars: 3.2
-ratings: 175
+stars: 3.3
+ratings: 176
 reviews: 112
-size: 77M
+size: 84M
 website: 
 repository: 
 issue: 
