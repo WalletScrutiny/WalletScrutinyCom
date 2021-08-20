@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.chivowalletapp.co.png
 bugbounty: 
-verdict: fake
-date: 2021-08-20
+verdict: defunct
+date: 2021-08-21
 signer: 
 reviewArchive:
-
+- date: 2021-08-20
+  version: "1.0"
+  appHash: 
+  gitRevision: 009f04e77df6a800d039513746016ec961541d38
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-08-21**: This app is no more.
 
 This app pretends to be the hugely anticipated
 [app by the government of El Salvador](https://www.youtube.com/watch?v=E77xEF-E2hs)
