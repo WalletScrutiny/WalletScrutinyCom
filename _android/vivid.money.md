@@ -38,5 +38,5 @@ From their website's 'help' section in response to the question: "Do I own real 
 
 > No, you don’t. With Vivid Invest we offer trading via Fractional Сoins. Fractional Coins are investment products; one-to-one bilateral agreements (so-called OTC derivatives) with specific cryptocurrencies as underlying. The price of your Fractional Coins reflects a real coin’s price movements 1:1. There is no leverage.
 
-We conclude that this app falls under 'nosendreceive'
+We conclude that this app cannot send our receive actual Bitcoins.
 
