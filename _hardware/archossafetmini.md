@@ -44,7 +44,7 @@ The device has screen and buttons for transaction verification:
 On the provider website there is no claim about being open source but there is
 [this repository](https://github.com/archos-safe-t/safe-t-mcu) according to
 which {{ page.title }} is a clone of
-{% include walletLink.html wallet='hardware/terzorOne' verdict='true' %} but
+{% include walletLink.html wallet='hardware/trezorOne' verdict='true' %} but
 with no updates in three years.
 
 [Their Twitter account](https://twitter.com/ARCHOS) also has no activity since
