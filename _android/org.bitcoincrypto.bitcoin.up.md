@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+<!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->
