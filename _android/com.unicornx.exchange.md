@@ -1,0 +1,40 @@
+---
+wsId: 
+title: "UnicornX Exchange - Digital Assets Trading"
+altTitle: 
+authors:
+
+users: 1000
+appId: com.unicornx.exchange
+released: 2020-05-13
+updated: 2020-07-28
+version: "1.4.2"
+stars: 4.8
+ratings: 69
+reviews: 53
+size: 95M
+website: 
+repository: 
+issue: 
+icon: com.unicornx.exchange.png
+bugbounty: 
+verdict: stale
+date: 2021-08-21
+signer: 
+reviewArchive:
+- date: 2021-08-21
+  version: ""
+  appHash: 
+  gitRevision: 2903925bc2641cd7719fb595323e5493e9f66687
+  verdict: wip
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
