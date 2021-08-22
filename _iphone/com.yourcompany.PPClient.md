@@ -1,23 +1,22 @@
 ---
 wsId: paypal
-title: "PayPal Mobile Cash: Send and Request Money Fast"
+title: "PayPal: Mobile Cash"
 altTitle: 
 authors:
-- emanuel
 - leo
-users: 100000000
-appId: com.paypal.android.p2pmobile
-released: 2016-02-19
+appId: com.yourcompany.PPClient
+appCountry: 
+idd: 283646709
+released: 2019-02-03
 updated: 2021-08-20
-version: "8.1.0"
-stars: 4.2
-ratings: 2112162
-reviews: 819292
-size: 108M
-website: https://www.paypal.com
+version: "8.2.1"
+stars: 4.81974
+reviews: 5740582
+size: 396084224
+website: https://www.paypal.com/mobile
 repository: 
 issue: 
-icon: com.paypal.android.p2pmobile.png
+icon: com.yourcompany.PPClient.jpg
 bugbounty: 
 verdict: nosendreceive
 date: 2021-08-22
@@ -33,7 +32,6 @@ providerReddit: paypal
 redirect_from:
 
 ---
-
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive
