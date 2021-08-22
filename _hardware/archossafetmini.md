@@ -20,8 +20,8 @@ repository:
 issue:
 icon: archossafetmini.png
 bugbounty:
-verdict: wip
-date: 2021-08-16
+verdict: nosource
+date: 2021-08-22
 signer:
 reviewArchive:
 
@@ -32,6 +32,12 @@ providerFacebook: ArchosOfficial
 providerReddit: 
 ---
 
+
+**Update 2021-08-22**: As there is no claims of open source and nobody replied
+to [our tweet](https://twitter.com/WalletScrutiny/status/1427064999663570944),
+we consider this product closed source and therefore **not verifiable** for now.
+Just like the product's successor:
+{% include walletLink.html wallet='hardware/archossafettouch' verdict='true' %}
 
 The shop has a country picker to choose between France (default), Germany and
 UK. The product is shown as discontinued for Germany and UK.
