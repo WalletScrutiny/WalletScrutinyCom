@@ -9,9 +9,9 @@ appId: com.wyre.trade
 released: 2021-04-30
 updated: 2021-07-19
 version: "1.1.7"
-stars: 4.4
-ratings: 93
-reviews: 74
+stars: 4.3
+ratings: 95
+reviews: 75
 size: 13M
 website: 
 repository: 

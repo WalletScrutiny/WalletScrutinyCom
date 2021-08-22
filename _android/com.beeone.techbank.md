@@ -11,7 +11,7 @@ updated: 2021-07-28
 version: "4.9.3"
 stars: 4.3
 ratings: 635
-reviews: 273
+reviews: 274
 size: 83M
 website: https://techbank.finance
 repository: 

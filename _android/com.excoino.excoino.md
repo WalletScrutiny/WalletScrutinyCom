@@ -10,7 +10,7 @@ released: 2018-09-27
 updated: 2021-07-05
 version: "6.4"
 stars: 4.1
-ratings: 5705
+ratings: 5712
 reviews: 2460
 size: 12M
 website: https://www.excoino.net/

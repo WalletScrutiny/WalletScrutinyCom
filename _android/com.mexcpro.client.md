@@ -9,9 +9,9 @@ appId: com.mexcpro.client
 released: 2020-07-23
 updated: 2021-08-05
 version: "3.1.1"
-stars: 3.6
-ratings: 5532
-reviews: 3213
+stars: 3.7
+ratings: 5527
+reviews: 3209
 size: 55M
 website: https://www.mexc.com/
 repository: 

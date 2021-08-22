@@ -10,7 +10,7 @@ released: 2015-07-15
 updated: 2021-08-20
 version: "2.0.3"
 stars: 3.5
-ratings: 1004
+ratings: 1003
 reviews: 536
 size: 22M
 website: https://lightning-wallet.com

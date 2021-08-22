@@ -10,8 +10,8 @@ released: 2017-10-23
 updated: 2021-08-19
 version: "1.14.12p2"
 stars: 3.6
-ratings: 21674
-reviews: 8903
+ratings: 21655
+reviews: 8889
 size: 26M
 website: https://upbit.com
 repository: 

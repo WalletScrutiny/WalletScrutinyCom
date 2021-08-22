@@ -9,8 +9,8 @@ appId: com.swissy
 released: 2020-09-01
 updated: 2021-01-27
 version: "3.3"
-stars: 4.2
-ratings: 24
+stars: 4.1
+ratings: 23
 reviews: 9
 size: 36M
 website: 

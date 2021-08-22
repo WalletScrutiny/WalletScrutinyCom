@@ -9,9 +9,9 @@ appId: net.tradingbitcoin.fake.bitcoin.investor
 released: 2021-06-21
 updated: 2021-06-21
 version: "1.0"
-stars: 1.8
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.3M
 website: 
 repository: 

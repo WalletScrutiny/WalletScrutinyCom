@@ -9,9 +9,9 @@ appId: com.tzero
 released: 
 updated: 2021-07-15
 version: "2.0.10592"
-stars: 3.6
-ratings: 253
-reviews: 106
+stars: 3.7
+ratings: 252
+reviews: 105
 size: 65M
 website: 
 repository: 

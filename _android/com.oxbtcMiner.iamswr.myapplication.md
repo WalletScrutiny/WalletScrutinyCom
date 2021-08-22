@@ -9,7 +9,7 @@ appId: com.oxbtcMiner.iamswr.myapplication
 released: 2021-06-11
 updated: 2021-06-11
 version: "8.0.0"
-stars: 3.5
+stars: 3.4
 ratings: 26
 reviews: 14
 size: 2.3M
