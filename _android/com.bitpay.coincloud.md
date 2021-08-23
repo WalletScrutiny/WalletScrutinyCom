@@ -10,7 +10,7 @@ released: 2018-09-06
 updated: 2021-07-02
 version: "11.2.23"
 stars: 3.8
-ratings: 157
+ratings: 158
 reviews: 78
 size: 16M
 website: https://www.coincloudatm.com/

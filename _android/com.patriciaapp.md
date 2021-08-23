@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.patriciaapp
 released: 2020-02-14
-updated: 2021-08-04
-version: "1.3"
-stars: 2.9
-ratings: 2806
-reviews: 2067
+updated: 2021-08-21
+version: "1.3.1"
+stars: 2.8
+ratings: 2828
+reviews: 2083
 size: 48M
 website: 
 repository: 

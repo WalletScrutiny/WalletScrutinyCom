@@ -9,8 +9,8 @@ appId: com.papaya.gekkard
 released: 2020-01-30
 updated: 2021-08-19
 version: "1.0.5"
-stars: 2.4
-ratings: 22
+stars: 2.5
+ratings: 23
 reviews: 15
 size: 98M
 website: 

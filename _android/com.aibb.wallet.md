@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.aibb.wallet
 released: 2019-04-04
-updated: 2021-08-04
-version: "2.3.9"
+updated: 2021-08-22
+version: "2.3.10"
 stars: 4.4
 ratings: 298
 reviews: 244

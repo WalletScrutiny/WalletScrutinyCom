@@ -9,9 +9,9 @@ appId: com.khodo
 released: 2020-10-02
 updated: 2021-08-12
 version: "2.0.2"
-stars: 3.7
-ratings: 47
-reviews: 36
+stars: 3.6
+ratings: 49
+reviews: 38
 size: 60M
 website: 
 repository: 

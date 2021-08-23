@@ -9,9 +9,9 @@ appId: com.unodax.exchange
 released: 2018-04-04
 updated: 2021-06-16
 version: "2.5.7"
-stars: 4.0
-ratings: 941
-reviews: 565
+stars: 3.9
+ratings: 942
+reviews: 566
 size: 12M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2016-03-31
 updated: 2021-08-06
 version: "3.23.5"
 stars: 3.5
-ratings: 21628
-reviews: 11773
+ratings: 21755
+reviews: 11872
 size: 100M
 website: https://wirexapp.com/en
 repository: 

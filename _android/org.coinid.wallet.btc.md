@@ -9,8 +9,8 @@ appId: org.coinid.wallet.btc
 released: 2018-10-14
 updated: 2021-02-20
 version: "1.8.0"
-stars: 4.3
-ratings: 12
+stars: 4.4
+ratings: 13
 reviews: 3
 size: 34M
 website: https://coinid.org
