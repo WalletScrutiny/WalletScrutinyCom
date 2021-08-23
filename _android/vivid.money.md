@@ -10,8 +10,8 @@ released: 2020-10-09
 updated: 2021-08-18
 version: "1.54.2"
 stars: 4.3
-ratings: 14287
-reviews: 3824
+ratings: 14370
+reviews: 3841
 size: 135M
 website: https://vivid.money/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: vivid.money.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-17
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Vivid is a brand new mobile banking and investing app. Online banking and commission-free investing belong together and should be easy.
 
 From their website's 'help' section in response to the question: "Do I own real cryptocurrencies?"

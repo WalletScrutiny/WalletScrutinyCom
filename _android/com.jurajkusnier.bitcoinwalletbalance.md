@@ -10,8 +10,8 @@ released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
 stars: 4.0
-ratings: 218
-reviews: 120
+ratings: 220
+reviews: 121
 size: 5.0M
 website: https://jurajkusnier.com/
 repository: https://github.com/jurajkusnier/bitcoin-balance-check/

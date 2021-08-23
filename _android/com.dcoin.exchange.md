@@ -9,9 +9,9 @@ appId: com.dcoin.exchange
 released: 2018-11-25
 updated: 2021-08-21
 version: "4.3.2"
-stars: 3.5
-ratings: 1264
-reviews: 795
+stars: 3.4
+ratings: 1267
+reviews: 797
 size: 27M
 website: 
 repository: 

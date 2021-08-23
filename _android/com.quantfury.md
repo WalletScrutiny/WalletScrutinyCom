@@ -9,9 +9,9 @@ appId: com.quantfury
 released: 2018-11-26
 updated: 2021-08-19
 version: "v1.7.1815.1"
-stars: 4.7
-ratings: 7214
-reviews: 2126
+stars: 4.6
+ratings: 7226
+reviews: 2136
 size: 49M
 website: 
 repository: 

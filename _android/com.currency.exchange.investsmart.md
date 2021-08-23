@@ -9,9 +9,9 @@ appId: com.currency.exchange.investsmart
 released: 2020-12-10
 updated: 2021-07-20
 version: "1.14.0"
-stars: 4.3
-ratings: 181
-reviews: 56
+stars: 4.4
+ratings: 185
+reviews: 60
 size: Varies with device
 website: 
 repository: 

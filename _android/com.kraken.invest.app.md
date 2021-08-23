@@ -9,9 +9,9 @@ appId: com.kraken.invest.app
 released: 2020-12-30
 updated: 2021-08-11
 version: "1.7.1"
-stars: 4.1
-ratings: 3569
-reviews: 1711
+stars: 4.0
+ratings: 3612
+reviews: 1738
 size: 74M
 website: https://www.kraken.com/
 repository: 

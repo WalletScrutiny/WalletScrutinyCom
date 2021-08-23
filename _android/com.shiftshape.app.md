@@ -9,9 +9,9 @@ appId: com.shiftshape.app
 released: 2021-08-04
 updated: 2021-08-04
 version: "1.0.0"
-stars: 4.5
-ratings: 91
-reviews: 21
+stars: 4.0
+ratings: 7
+reviews: 3
 size: 5.6M
 website: 
 repository: 

@@ -4,15 +4,14 @@ title: "XTB - Forex, Indices, Commodities, CFDs"
 altTitle: 
 authors:
 - danny
-
 users: 1000000
 appId: com.xtb.xmobile2
 released: 2014-12-17
 updated: 2021-08-11
 version: "Varies with device"
 stars: 4.5
-ratings: 14470
-reviews: 4899
+ratings: 14567
+reviews: 4914
 size: Varies with device
 website: http://www.xtb.com/
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.xtb.xmobile2.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-18
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app description:
 
 >Trade with the Best CFD Broker for 2021* using the award-winning mobile app (Best Mobile App for Investing 2019 & 2020 according to the Rankia awards).

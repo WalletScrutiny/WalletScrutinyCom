@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.unocoin.unocoinwallet
 released: 2016-11-30
-updated: 2021-08-20
-version: "4.0.2"
-stars: 3.9
-ratings: 16144
-reviews: 8861
+updated: 2021-08-22
+version: "4.0.3"
+stars: 3.8
+ratings: 16171
+reviews: 8885
 size: 9.7M
 website: https://www.unocoin.com
 repository: 

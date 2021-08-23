@@ -10,8 +10,8 @@ released: 2018-04-21
 updated: 2018-11-14
 version: "4.0"
 stars: 4.4
-ratings: 110
-reviews: 55
+ratings: 111
+reviews: 56
 size: 1.7M
 website: https://www.bitplazashopping.com
 repository: 

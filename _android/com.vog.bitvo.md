@@ -9,8 +9,8 @@ appId: com.vog.bitvo
 released: 2020-03-16
 updated: 2021-07-23
 version: "1.4.2"
-stars: 3.2
-ratings: 20
+stars: 3.3
+ratings: 21
 reviews: 15
 size: 6.8M
 website: 

@@ -9,9 +9,9 @@ appId: com.mtobit.aos
 released: 2020-02-22
 updated: 2020-09-29
 version: "1.1.6"
-stars: 4.0
-ratings: 49
-reviews: 34
+stars: 4.1
+ratings: 48
+reviews: 33
 size: 21M
 website: 
 repository: 
