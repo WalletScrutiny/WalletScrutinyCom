@@ -11,7 +11,7 @@ updated: 2021-08-13
 version: "1.16.10"
 stars: 4.8
 ratings: 477
-reviews: 169
+reviews: 168
 size: 47M
 website: https://www.balletcrypto.com
 repository: 

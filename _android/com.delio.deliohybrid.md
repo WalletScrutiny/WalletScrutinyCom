@@ -9,8 +9,8 @@ appId: com.delio.deliohybrid
 released: 2020-02-27
 updated: 2021-08-11
 version: "1.2.10"
-stars: 3.1
-ratings: 31
+stars: 3.2
+ratings: 32
 reviews: 23
 size: 29M
 website: 

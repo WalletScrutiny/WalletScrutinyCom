@@ -10,8 +10,8 @@ released: 2017-05-23
 updated: 2021-08-10
 version: "94.2.0"
 stars: 4.7
-ratings: 5838
-reviews: 4111
+ratings: 5839
+reviews: 4108
 size: 19M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.avatrade.mobile.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 >AvaTradeGO enables users to trade, monitor their accounts, engage in social trading and follow top traders from all over the globe.
 
 It's a trading platform and most likely custodial.

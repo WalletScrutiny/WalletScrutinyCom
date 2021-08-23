@@ -11,21 +11,16 @@ released: 2017-09-09
 updated: 2021-08-13
 version: "2.6.4"
 stars: 4.6
-<<<<<<< HEAD
-ratings: 67707
-reviews: 19016
-=======
-ratings: 67654
-reviews: 18991
->>>>>>> dannygarcia/walletScrutinyCom-analysisWS
+ratings: 67772
+reviews: 19019
 size: 34M
-website: https://thecrypto.app/ 
+website: https://thecrypto.app/
 repository: 
 issue: 
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-11
+date: 2021-08-21
 signer: 
 reviewArchive:
 

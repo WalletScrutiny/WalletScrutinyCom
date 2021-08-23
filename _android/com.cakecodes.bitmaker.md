@@ -10,24 +10,30 @@ released: 2014-09-07
 updated: 2021-07-27
 version: "8.10.0"
 stars: 4.1
-ratings: 84094
-reviews: 51330
+ratings: 84095
+reviews: 51329
 size: 52M
 website: https://stormx.io/
 repository: 
 issue: 
 icon: com.cakecodes.bitmaker.png
 bugbounty: 
-
 verdict: nowallet
-date: 2021-08-17
+date: 2021-08-21
+signer: 
+reviewArchive:
+
+
 providerTwitter: stormxio
 providerLinkedIn: StormX
 providerFacebook: stormxio
 providerReddit: stormxio
 
 redirect_from:
+
 ---
+
+
 > Shop at your favorite stores and earn Crypto Cashback. StormX is the easiest and safest way to start earning cryptocurrency without any of the hassles. It’s time to stack sats!
 Simply download the app, choose your favorite online stores, buy stuff, and earn shopping rewards.
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bityard Crypto Trading"
+title: "BitYard Crypto Trading"
 altTitle: 
 authors:
 
@@ -16,7 +16,7 @@ size: 4.4M
 website: 
 repository: 
 issue: 
-icon: com.bityard.us2.png
+icon: com.bityard.us2.jpg
 bugbounty: 
 verdict: wip
 date: 2021-08-02

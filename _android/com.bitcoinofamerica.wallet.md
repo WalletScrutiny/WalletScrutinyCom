@@ -4,13 +4,13 @@ title: "Bitcoin of America Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.bitcoinofamerica.wallet
 released: 2019-01-14
 updated: 2021-04-28
 version: "1.1.3"
 stars: 4.4
-ratings: 183
+ratings: 184
 reviews: 55
 size: 39M
 website: https://www.bitcoinofamerica.org

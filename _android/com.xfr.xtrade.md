@@ -19,7 +19,7 @@ issue:
 icon: com.xfr.xtrade.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone
 

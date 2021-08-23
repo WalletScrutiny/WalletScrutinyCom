@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.pccryptomarket.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-08-20
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.2"
+  appHash: 
+  gitRevision: 009f04e77df6a800d039513746016ec961541d38
+  verdict: stale
 - date: 2021-08-08
   version: "1.2"
   appHash: 

@@ -11,13 +11,8 @@ released: 2020-03-17
 updated: 2021-08-18
 version: "1.88.00"
 stars: 4.4
-<<<<<<< HEAD
-ratings: 22634
-reviews: 11099
-=======
-ratings: 22585
-reviews: 11078
->>>>>>> dannygarcia/walletScrutinyCom-analysisWS
+ratings: 22673
+reviews: 11097
 size: 25M
 website: 
 repository: 
@@ -25,10 +20,8 @@ issue:
 icon: com.latoken.wallet.png
 
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-verdict: wip
-date: 2021-08-12
-
-
+verdict: custodial
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -43,14 +36,9 @@ redirect_from:
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.
 
-<<<<<<< HEAD
-This states that the provider can suspend access to your wallet, making it custodial and thus not verifiable.
-redirect_from:
-=======
 > For  the  purposes  of  anti-money  laundering  prevention  and  combating  terrorist  activities, LATOKEN reserves the right  to request  any additional information and documents from you about you and/or your Transaction, and suspend your access to your Wallet anytime in case the documents or information provided by you are unsatisfactory or insufficient, as LATOKEN decide in its sole discretion.
 
 This states that the provider can suspend access to your wallet, making it custodial and thus not verifiable.
->>>>>>> dannygarcia/walletScrutinyCom-analysisWS
 
 
 

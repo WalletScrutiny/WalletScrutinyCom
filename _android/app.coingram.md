@@ -9,9 +9,9 @@ appId: app.coingram
 released: 2019-07-02
 updated: 2021-08-18
 version: "3.0.0"
-stars: 4.8
-ratings: 43453
-reviews: 24391
+stars: 4.7
+ratings: 43486
+reviews: 24410
 size: 24M
 website: 
 repository: 

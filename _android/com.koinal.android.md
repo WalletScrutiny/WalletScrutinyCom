@@ -9,9 +9,9 @@ appId: com.koinal.android
 released: 2020-06-04
 updated: 2021-08-18
 version: "1.2.10"
-stars: 4.6
-ratings: 405
-reviews: 241
+stars: 4.8
+ratings: 476
+reviews: 242
 size: 37M
 website: https://www.koinal.io
 repository: 
@@ -39,9 +39,11 @@ redirect_from:
 This is their statement on security but it reads more like they are talking
 about their servers than their wallet here. That would imply a custodial wallet.
 
-A user [wrote](https://play.google.com/store/apps/details?id=com.koinal.android&reviewId=gp%3AAOqpTOF00ZzwGqBPZshWKuaWeQMjIIth50RPb72hiGVl58xWNUb4S0P0NwwZIl0avKF00U_wua5iL26G0B2CYQ):
+A user wrote:
 
-> Stay away, collects all your information THEN tells you it does not accept
+> [Michael](https://play.google.com/store/apps/details?id=com.koinal.android&reviewId=gp%3AAOqpTOF00ZzwGqBPZshWKuaWeQMjIIth50RPb72hiGVl58xWNUb4S0P0NwwZIl0avKF00U_wua5iL26G0B2CYQ)<br>
+  ★☆☆☆☆ 1 August 2020<br>
+  Stay away, collects all your information THEN tells you it does not accept
   your country. SCAM!
 
 A Bitcoin wallet should not care about borders, especially not if it's

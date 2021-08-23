@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zam Wallet - Send crypto by phone"
+title: "ZamWallet: Buy Bitcoin & Crypto with Card"
 altTitle: 
 authors:
 
@@ -16,7 +16,7 @@ size: 16M
 website: 
 repository: 
 issue: 
-icon: zam.wallet.png
+icon: zam.wallet.jpg
 bugbounty: 
 verdict: fewusers
 date: 2021-08-02

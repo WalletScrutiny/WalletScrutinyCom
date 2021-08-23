@@ -19,7 +19,7 @@ issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
 verdict: nonverifiable
-date: 2020-05-11
+date: 2021-08-21
 signer: 
 reviewArchive:
 - date: 2019-11-23
@@ -40,6 +40,11 @@ redirect_from:
   - /posts/com.lightning.walletapp/
 ---
 
+
+**Update 2021-08-21**: The provider
+[stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)
+that {% include walletLink.html wallet='android/com.lightning.walletapp' verdict='true' %}
+was discontinued and its successor is {% include walletLink.html wallet='android/com.btcontract.wallet' verdict='true' %}
 
 So the provider contacted us and 
 [cleared many issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/106)

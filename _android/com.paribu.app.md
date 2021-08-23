@@ -3,15 +3,15 @@ wsId:
 title: "Paribu | Bitcoin-Kripto Para Alım Satım"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: com.paribu.app
 released: 2019-06-14
 updated: 2021-05-17
 version: "3.3.7"
-stars: 4.2
-ratings: 46095
-reviews: 26273
+stars: 4.3
+ratings: 46134
+reviews: 26207
 size: 38M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.paribu.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The app's description is written in Turkish, so all the quotes below are from Google Translate.
 

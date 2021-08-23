@@ -10,8 +10,8 @@ released: 2015-08-18
 updated: 2021-04-20
 version: "1.15.0"
 stars: 4.4
-ratings: 7654
-reviews: 4504
+ratings: 7660
+reviews: 4501
 size: 12M
 website: https://bituro.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bituro.android.bituro.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Earn Free Bitcoins & Gift Cards!
 

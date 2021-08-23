@@ -10,8 +10,8 @@ released: 2019-11-29
 updated: 2021-08-03
 version: "0.3.8"
 stars: 4.6
-ratings: 639
-reviews: 374
+ratings: 634
+reviews: 369
 size: 50M
 website: https://ezdefi.com/
 repository: 
