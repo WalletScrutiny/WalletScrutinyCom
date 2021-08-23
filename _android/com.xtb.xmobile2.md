@@ -11,8 +11,8 @@ released: 2014-12-17
 updated: 2021-08-11
 version: "Varies with device"
 stars: 4.5
-ratings: 14456
-reviews: 4888
+ratings: 14470
+reviews: 4899
 size: Varies with device
 website: http://www.xtb.com/
 repository: 
@@ -20,7 +20,7 @@ issue:
 icon: com.xtb.xmobile2.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-21
+date: 2021-08-18
 signer: 
 reviewArchive:
 
@@ -31,6 +31,7 @@ providerFacebook: xtb
 providerReddit: 
 
 redirect_from:
+
 ---
 The app description:
 

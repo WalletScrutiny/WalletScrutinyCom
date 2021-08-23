@@ -11,8 +11,8 @@ released: 2020-03-17
 updated: 2021-08-18
 version: "1.88.00"
 stars: 4.4
-ratings: 22673
-reviews: 11097
+ratings: 22670
+reviews: 11116
 size: 25M
 website: 
 repository: 
@@ -20,8 +20,10 @@ issue:
 icon: com.latoken.wallet.png
 
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-verdict: custodial
-date: 2021-08-21
+verdict: wip
+date: 2021-08-12
+
+
 signer: 
 reviewArchive:
 
