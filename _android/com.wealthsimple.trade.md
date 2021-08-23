@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Wealthsimple Trade
 title: "Wealthsimple Trade: Buy & Sell Stocks"
 altTitle: 
 authors:
-
+ - danny
 users: 1000000
 appId: com.wealthsimple.trade
 released: 
@@ -18,19 +18,38 @@ repository:
 issue: 
 icon: com.wealthsimple.trade.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: custodial
+date: 2021-08-23	
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Wealthsimple
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: wealthsimple
 providerReddit: 
 
 redirect_from:
 
 ---
+
+> Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]
+
+Sounds like a trading platform. The Privacy Policy had some information:
+
+> The personal information we collect when you open an account is used for the following purposes: 
+
+> * understanding your financial needs and delivering financial products and services that meet them;
+> * verifying your identity and other information you have provided to us;
+> * opening and servicing your account;
+> * sending and receiving bill payments through your chequing account
+> * detecting and preventing fraud and other unauthorized or illegal activities;
+> * meeting legal and regulatory requirements;
+> * transferring your account to or from another institution; and
+as otherwise required or permitted by applicable law.
+
+We conclude that this is **custodial** and **not verifiable.**
+
+
 
 
