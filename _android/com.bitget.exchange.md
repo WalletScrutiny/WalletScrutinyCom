@@ -10,8 +10,8 @@ released: 2020-04-03
 updated: 2021-08-08
 version: "1.2.9"
 stars: 4.0
-ratings: 258
-reviews: 217
+ratings: 260
+reviews: 218
 size: 33M
 website: 
 repository: 

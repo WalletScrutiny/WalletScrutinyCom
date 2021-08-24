@@ -4,7 +4,7 @@ title: "HomiEx Crypto Exchange"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: be.homiex.broker.android
 released: 2021-08-03
 updated: 2021-08-04

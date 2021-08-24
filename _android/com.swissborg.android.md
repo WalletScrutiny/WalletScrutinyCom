@@ -9,9 +9,9 @@ appId: com.swissborg.android
 released: 2020-06-16
 updated: 2021-08-18
 version: "1.22.3"
-stars: 4.3
-ratings: 7137
-reviews: 3861
+stars: 4.4
+ratings: 7144
+reviews: 3865
 size: 133M
 website: 
 repository: 

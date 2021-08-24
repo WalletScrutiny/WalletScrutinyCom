@@ -9,9 +9,9 @@ appId: com.swissborg.android.community
 released: 2019-03-27
 updated: 2020-09-11
 version: "1.3.2"
-stars: 3.7
-ratings: 5998
-reviews: 3133
+stars: 3.6
+ratings: 6010
+reviews: 3139
 size: 13M
 website: 
 repository: 

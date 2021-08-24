@@ -10,8 +10,8 @@ released: 2014-12-17
 updated: 2021-08-11
 version: "Varies with device"
 stars: 4.5
-ratings: 14567
-reviews: 4914
+ratings: 14608
+reviews: 4918
 size: Varies with device
 website: http://www.xtb.com/
 repository: 

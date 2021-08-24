@@ -4,7 +4,7 @@ title: "Payperless Crypto & BTC Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.payperless.wallet
 released: 2021-06-03
 updated: 2021-08-13

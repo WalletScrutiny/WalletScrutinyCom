@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: com.binance.dev
 released: 2017-10-25
-updated: 2021-08-19
+updated: 2021-08-23
 version: "2.33.2"
 stars: 4.4
-ratings: 340440
-reviews: 119766
+ratings: 340919
+reviews: 119969
 size: Varies with device
 website: https://www.binance.com
 repository: 

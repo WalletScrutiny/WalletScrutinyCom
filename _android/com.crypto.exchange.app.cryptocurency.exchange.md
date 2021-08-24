@@ -4,7 +4,7 @@ title: "Crypto Exchange -  Buy & Sell Cryptocurrency"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.crypto.exchange.app.cryptocurency.exchange
 released: 2021-04-23
 updated: 2021-04-23
