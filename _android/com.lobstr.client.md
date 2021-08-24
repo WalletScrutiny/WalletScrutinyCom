@@ -39,7 +39,7 @@ However, looking deeper you'll find that you can purchase other assets including
 
 You need to deposit 5 XLM in order to add the BTC asset.
 
-However, lobstr as far as I can tell only holds btc tokens and not actual bitcoin. Hence, the **nobtc** verdict.
+However, lobstr presumably only holds btc tokens and not actual bitcoin. Hence, the **nobtc** verdict.
 
 Zendesk support page "[Buying Crypto with LOBSTR wallet](https://lobstr.zendesk.com/hc/en-us/articles/360014741460-Buying-crypto-with-LOBSTR-wallet)"
 

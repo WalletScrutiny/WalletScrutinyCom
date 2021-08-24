@@ -54,7 +54,7 @@ As for info on self-custody, the help center had a short article on seed phrases
 Since the private key of the wallet is held by the client, this app is presumably self custodial. However, there is **no source** provided for this product.
 
 
-
+To clear the situation, [WalletScrutiny sent an inquiry to ByteTradeIO on Twitter.](https://twitter.com/dannybuntu/status/1430078350823870464) The Twitter account has yet to respond.
 
 
 
