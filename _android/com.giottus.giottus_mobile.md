@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: giottus
 title: "Giottus - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
