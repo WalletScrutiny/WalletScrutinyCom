@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 
-**This product and the accompanying official website is in Portugese. Tthe app may not have an English translation.**
+**This product and the accompanying official website is in Portuguese. The app may not have an English translation.**
 
 > BitcoinTrade is the safest broker to invest in cryptocurrencies in Latin America. Founded in October 2017, the company is already among the national market leaders.
 
