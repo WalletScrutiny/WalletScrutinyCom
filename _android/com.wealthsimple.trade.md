@@ -38,7 +38,6 @@ redirect_from:
 Sounds like a trading platform. The Privacy Policy had some information:
 
 > The personal information we collect when you open an account is used for the following purposes: 
-
 > * understanding your financial needs and delivering financial products and services that meet them;
 > * verifying your identity and other information you have provided to us;
 > * opening and servicing your account;
@@ -46,7 +45,7 @@ Sounds like a trading platform. The Privacy Policy had some information:
 > * detecting and preventing fraud and other unauthorized or illegal activities;
 > * meeting legal and regulatory requirements;
 > * transferring your account to or from another institution; and
-as otherwise required or permitted by applicable law.
+>   as otherwise required or permitted by applicable law.
 
 We conclude that this is **custodial** and **not verifiable.**
 
