@@ -1,5 +1,5 @@
 ---
-wsId: CoinDCX Pro
+wsId: CoinDCXPro
 title: "CoinDCX Go: Bitcoin & Crypto Investment app"
 altTitle: 
 authors:
