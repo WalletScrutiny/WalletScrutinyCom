@@ -1,5 +1,5 @@
 ---
-wsId: Wealthsimple Trade
+wsId: WealthsimpleTrade
 title: "Wealthsimple Trade: Buy & Sell Stocks"
 altTitle: 
 authors:
