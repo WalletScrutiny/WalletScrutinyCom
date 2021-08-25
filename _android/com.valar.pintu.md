@@ -34,10 +34,8 @@ redirect_from:
 ---
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
-> **Do I hold a Private Key?**
-
-
-> Pintu is a custodial crypto exchange, which means Pintu acts as a custodian/keeper of the users’ private keys.  Therefore, Pintu doesn’t share private keys with its users.
+> **Do I hold a Private Key?**<br>
+  Pintu is a custodial crypto exchange, which means Pintu acts as a custodian/keeper of the users’ private keys.  Therefore, Pintu doesn’t share private keys with its users.
 
 Pintu is **custodial** and **not verifiable.**
 
