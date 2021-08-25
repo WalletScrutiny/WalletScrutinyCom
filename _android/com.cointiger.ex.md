@@ -35,8 +35,8 @@ redirect_from:
 ---
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
 
-> 2. About CoinTiger
-As an important part of the CoinTiger Ecosystem, CoinTiger mainly serves as a global online platform for Digital Assets trading, and provides Users with a trading platform, financing services, technical services and other Digital Assets-related services. As further detailed in Article 3 below, Users must register and open an account with CoinTiger, and deposit Digital Assets into their account prior to trading. Users may, subject to the restrictions set forth in these Terms, apply for the withdrawal of Digital Assets.
+> About CoinTiger<br>
+  As an important part of the CoinTiger Ecosystem, CoinTiger mainly serves as a global online platform for Digital Assets trading, and provides Users with a trading platform, financing services, technical services and other Digital Assets-related services. As further detailed in Article 3 below, Users must register and open an account with CoinTiger, and deposit Digital Assets into their account prior to trading. Users may, subject to the restrictions set forth in these Terms, apply for the withdrawal of Digital Assets.
 
 CoinTiger ZenDesk Page [How to Withdraw Cryptocurrencies](https://cointiger.zendesk.com/hc/en-us/articles/360009805554-How-to-withdraw)
 
