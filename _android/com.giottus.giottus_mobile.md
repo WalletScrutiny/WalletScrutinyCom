@@ -35,8 +35,8 @@ redirect_from:
 ---
 Description from Home Page: 
 
-> India's Highly rated cryptocurrency exchange
-Buy & Sell Bitcoin, Ethereum, Ripple, Bitcoin Cash, Tron, USDT and Trade across 100's of Cryptocurrency pairs.
+> India's Highly rated cryptocurrency exchange<br>
+  Buy & Sell Bitcoin, Ethereum, Ripple, Bitcoin Cash, Tron, USDT and Trade across 100's of Cryptocurrency pairs.
 
 Security information
 
