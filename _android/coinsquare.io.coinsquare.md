@@ -4,13 +4,13 @@ title: "Coinsquare"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: coinsquare.io.coinsquare
 released: 2017-08-30
 updated: 2021-07-30
 version: "2.13.11"
 stars: 2.2
-ratings: 756
+ratings: 757
 reviews: 513
 size: 7.3M
 website: https://coinsquare.com

@@ -10,8 +10,8 @@ released: 2019-10-31
 updated: 2021-08-20
 version: "3.2.0"
 stars: 4.9
-ratings: 37549
-reviews: 2867
+ratings: 37982
+reviews: 2887
 size: 55M
 website: https://www.bybit.com
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.fbs.tpand
 released: 2019-03-25
-updated: 2021-08-17
+updated: 2021-08-23
 version: "1.39.3"
 stars: 4.6
-ratings: 97157
-reviews: 24433
+ratings: 97280
+reviews: 24461
 size: 19M
 website: 
 repository: 

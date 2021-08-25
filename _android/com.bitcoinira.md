@@ -9,9 +9,9 @@ appId: com.bitcoinira
 released: 
 updated: 2021-07-21
 version: "1.1.8"
-stars: 4.5
-ratings: 48
-reviews: 17
+stars: 4.4
+ratings: 50
+reviews: 18
 size: 47M
 website: 
 repository: 

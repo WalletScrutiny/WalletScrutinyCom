@@ -11,7 +11,7 @@ updated: 2021-08-10
 version: "4.1.3"
 stars: 4.7
 ratings: 5929
-reviews: 1241
+reviews: 1240
 size: 87M
 website: https://lumiwallet.com
 repository: 

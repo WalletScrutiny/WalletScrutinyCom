@@ -10,8 +10,8 @@ idd: 1517787269
 released: 2020-12-09
 updated: 2021-08-11
 version: "CoinDCX GO 1.6.012"
-stars: 4.34016
-reviews: 244
+stars: 4.34286
+reviews: 245
 size: 77329408
 website: https://go.coindcx.com
 repository: 

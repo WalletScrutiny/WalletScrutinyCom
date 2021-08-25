@@ -8,11 +8,11 @@ appId: com.investvoyager.voyager-ios
 appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2021-07-29
-version: "2.9.23"
-stars: 4.73968
-reviews: 72758
-size: 62888960
+updated: 2021-08-24
+version: "2.9.24"
+stars: 4.73984
+reviews: 72971
+size: 66245632
 website: https://www.investvoyager.com/
 repository: 
 issue: 

@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: kr.co.citex.citexclient
 released: 2019-12-25
-updated: 2021-08-02
-version: "2.0.4"
+updated: 2021-08-24
+version: "2.0.5"
 stars: 2.8
-ratings: 75
-reviews: 47
+ratings: 76
+reviews: 48
 size: 36M
 website: 
 repository: 
