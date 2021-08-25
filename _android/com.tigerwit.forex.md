@@ -33,7 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
-We labeled the TigerWit app as **nosendreceive** since it utilizes CFDs (Contracts for Differences) when it comes to cryptocurrency trading.
+The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).
 
 It is a forex, precious metals, stocks, indices, commodities copy-trading app that utilizes CFDs for trading cryptocurrencies.
 
