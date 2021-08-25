@@ -49,7 +49,7 @@ The help center provides more info on the product.
 
 > The first step is to register your name, email, cpf and password on our login screen. You will then receive an account validation email. After activating the email, the next step is to attach the images of the documents, in addition to the selfie with the identification document.
 
-This is a form of KYC Verification, so it's likely that this app is custodial.
+This is a form of KYC verification, so it's likely that this app is custodial.
 
 > **[Registration](https://www.bitcointrade.com.br/pt-BR/about/use-terms/#use-terms-heading-2)** 
 
