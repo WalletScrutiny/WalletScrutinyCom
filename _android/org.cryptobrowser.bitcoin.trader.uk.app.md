@@ -4,7 +4,7 @@ title: "Bitcoin Trader  Uk App"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.cryptobrowser.bitcoin.trader.uk.app
 released: 2021-06-28
 updated: 2021-06-29

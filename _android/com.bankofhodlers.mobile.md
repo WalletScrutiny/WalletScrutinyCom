@@ -4,7 +4,7 @@ title: "Vauld -  Earn, Borrow & Trade With Crypto"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.bankofhodlers.mobile
 released: 2020-04-30
 updated: 2021-07-24

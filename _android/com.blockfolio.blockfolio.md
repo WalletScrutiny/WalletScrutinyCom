@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.blockfolio.blockfolio
 released: 2015-10-01
-updated: 2021-08-13
-version: "4.0.2"
+updated: 2021-08-20
+version: "4.0.3"
 stars: 4.4
-ratings: 150696
-reviews: 45548
+ratings: 150843
+reviews: 45582
 size: 62M
 website: https://www.blockfolio.com
 repository: 

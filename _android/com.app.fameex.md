@@ -4,14 +4,14 @@ title: "FAMEEX: bitcoin, crypto, quant, grid trading"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.app.fameex
 released: 2020-08-10
 updated: 2021-08-17
 version: "2.5.0"
 stars: 5.0
-ratings: 558
-reviews: 506
+ratings: 580
+reviews: 524
 size: 41M
 website: 
 repository: 

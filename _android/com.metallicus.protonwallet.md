@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.metallicus.protonwallet
 released: 2021-02-22
-updated: 2021-06-17
-version: "1.5.10"
+updated: 2021-08-23
+version: "1.5.13"
 stars: 4.4
 ratings: 114
 reviews: 74
-size: 44M
+size: 46M
 website: 
 repository: 
 issue: 

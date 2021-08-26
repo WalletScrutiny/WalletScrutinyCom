@@ -4,14 +4,14 @@ title: "gate.io - Popular Bitcoin&cryptocurrency Exchange"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.gateio.gateio
 released: 2017-11-03
 updated: 2021-07-26
 version: "3.0.3"
 stars: 3.2
-ratings: 5828
-reviews: 4127
+ratings: 5849
+reviews: 4143
 size: 186M
 website: https://gate.io/
 repository: 

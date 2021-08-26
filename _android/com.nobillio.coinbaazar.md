@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.nobillio.coinbaazar
 released: 2020-08-31
-updated: 2021-08-13
-version: "1.3.7"
+updated: 2021-08-23
+version: "1.3.8"
 stars: 4.4
 ratings: 13
 reviews: 10

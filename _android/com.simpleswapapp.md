@@ -9,9 +9,9 @@ appId: com.simpleswapapp
 released: 2020-05-23
 updated: 2021-08-17
 version: "3.1.6"
-stars: 4.3
-ratings: 274
-reviews: 213
+stars: 4.4
+ratings: 278
+reviews: 216
 size: 38M
 website: 
 repository: 

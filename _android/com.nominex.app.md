@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.nominex.app
 released: 2021-06-01
-updated: 2021-08-17
-version: "1.2.0"
+updated: 2021-08-21
+version: "1.2.1"
 stars: 4.3
 ratings: 107
 reviews: 74

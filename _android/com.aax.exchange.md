@@ -11,8 +11,8 @@ released: 2019-03-04
 updated: 2021-08-12
 version: "3.0.6"
 stars: 4.1
-ratings: 2169
-reviews: 784
+ratings: 2173
+reviews: 785
 size: 65M
 website: https://www.aax.com
 repository: 
