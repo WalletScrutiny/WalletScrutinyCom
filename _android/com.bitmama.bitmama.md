@@ -9,9 +9,9 @@ appId: com.bitmama.bitmama
 released: 2020-07-11
 updated: 2021-08-18
 version: "1.0.26"
-stars: 3.0
-ratings: 26
-reviews: 14
+stars: 3.1
+ratings: 27
+reviews: 15
 size: 30M
 website: 
 repository: 

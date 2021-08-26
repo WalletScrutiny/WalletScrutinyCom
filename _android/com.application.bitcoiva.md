@@ -9,9 +9,9 @@ appId: com.application.bitcoiva
 released: 2020-11-02
 updated: 2021-08-12
 version: "1.17"
-stars: 3.5
-ratings: 277
-reviews: 137
+stars: 3.4
+ratings: 279
+reviews: 138
 size: 7.2M
 website: https://bitcoiva.com
 repository: 

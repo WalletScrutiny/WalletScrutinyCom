@@ -9,9 +9,9 @@ appId: com.QuickX
 released: 2019-10-22
 updated: 2020-07-31
 version: "1.16.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.7
+ratings: 59
+reviews: 36
 size: 10M
 website: 
 repository: 

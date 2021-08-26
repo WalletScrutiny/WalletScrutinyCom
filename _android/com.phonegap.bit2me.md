@@ -9,8 +9,8 @@ appId: com.phonegap.bit2me
 released: 2015-01-08
 updated: 2021-08-24
 version: "2.0.74"
-stars: 4.4
-ratings: 1823
+stars: 4.5
+ratings: 1826
 reviews: 726
 size: 58M
 website: https://bit2me.com

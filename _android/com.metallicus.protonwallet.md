@@ -4,7 +4,7 @@ title: "Proton Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.metallicus.protonwallet
 released: 2021-02-22
 updated: 2021-08-23

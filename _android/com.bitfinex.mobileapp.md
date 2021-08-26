@@ -10,8 +10,8 @@ released: 2019-02-11
 updated: 2021-08-11
 version: "4.9.0"
 stars: 3.9
-ratings: 1444
-reviews: 628
+ratings: 1447
+reviews: 630
 size: 59M
 website: https://www.bitfinex.com
 repository: 

@@ -10,8 +10,8 @@ idd: 1403491709
 released: 2019-02-26
 updated: 2021-08-16
 version: "1.88.0"
-stars: 4.68546
-reviews: 114517
+stars: 4.68558
+reviews: 114765
 size: 83369984
 website: https://www.wealthsimple.com/en-ca/product/trade/
 repository: 

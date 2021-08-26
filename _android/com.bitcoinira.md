@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin IRA: Crypto Retirement"
+title: "Bitcoin IRA: Cryptocurrency Retirement Investing"
 altTitle: 
 authors:
 
