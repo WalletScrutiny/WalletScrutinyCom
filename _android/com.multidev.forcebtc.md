@@ -9,9 +9,9 @@ appId: com.multidev.forcebtc
 released: 2021-01-08
 updated: 2021-01-08
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 5
+reviews: 1
 size: 2.4M
 website: 
 repository: 

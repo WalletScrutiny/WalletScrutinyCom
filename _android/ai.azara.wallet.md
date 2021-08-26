@@ -10,8 +10,8 @@ released: 2020-11-10
 updated: 2021-04-14
 version: "0.01.18"
 stars: 4.9
-ratings: 119
-reviews: 115
+ratings: 120
+reviews: 116
 size: 44M
 website: https://www.azara.ai
 repository: 

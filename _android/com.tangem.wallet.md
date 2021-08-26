@@ -9,8 +9,8 @@ appId: com.tangem.wallet
 released: 2018-10-24
 updated: 2021-08-02
 version: "3.19"
-stars: 4.5
-ratings: 62
+stars: 4.6
+ratings: 63
 reviews: 20
 size: 19M
 website: https://tangem.com

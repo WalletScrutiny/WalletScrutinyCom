@@ -9,9 +9,9 @@ appId: com.viabtc.wallet
 released: 2019-05-15
 updated: 2021-08-09
 version: "2.4.0"
-stars: 4.1
-ratings: 327
-reviews: 133
+stars: 4.0
+ratings: 330
+reviews: 134
 size: 54M
 website: https://viawallet.com
 repository: 

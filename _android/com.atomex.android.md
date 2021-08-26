@@ -10,7 +10,7 @@ released: 2020-12-06
 updated: 2021-05-28
 version: "1.9"
 stars: 4.5
-ratings: 52
+ratings: 53
 reviews: 41
 size: 59M
 website: https://atomex.me

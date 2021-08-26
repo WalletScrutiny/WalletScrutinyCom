@@ -4,7 +4,7 @@ title: "Pionex - Buy Bitcoin & Ethereum"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.pionex.lite
 released: 2021-05-14
 updated: 2021-08-11
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

@@ -11,7 +11,7 @@ updated: 2021-07-30
 version: "5.4.0"
 stars: 4.4
 ratings: 193
-reviews: 68
+reviews: 67
 size: 47M
 website: 
 repository: 

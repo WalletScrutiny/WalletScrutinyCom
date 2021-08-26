@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.transcrypt.armadillo
 released: 2018-05-23
-updated: 2021-08-09
-version: "2.05.6"
+updated: 2021-08-25
+version: "2.05.8"
 stars: 4.1
 ratings: 131
 reviews: 70

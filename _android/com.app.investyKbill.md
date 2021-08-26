@@ -7,11 +7,11 @@ authors:
 users: 100
 appId: com.app.investyKbill
 released: 2021-02-26
-updated: 2021-06-23
-version: "1.0.12"
-stars: 4.3
-ratings: 7
-reviews: 5
+updated: 2021-08-25
+version: "1.0.13"
+stars: 4.7
+ratings: 6
+reviews: 4
 size: 16M
 website: 
 repository: 

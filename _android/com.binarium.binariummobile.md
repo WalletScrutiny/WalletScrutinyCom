@@ -9,9 +9,9 @@ appId: com.binarium.binariummobile
 released: 2019-09-16
 updated: 2021-08-09
 version: "1.0.0.5"
-stars: 3.3
-ratings: 2270
-reviews: 1747
+stars: 3.4
+ratings: 2284
+reviews: 1759
 size: 7.0M
 website: 
 repository: 

@@ -9,7 +9,7 @@ appId: com.kvadrowallet
 released: 2020-11-16
 updated: 2021-08-14
 version: "1.2.13"
-stars: 4.6
+stars: 4.5
 ratings: 46
 reviews: 25
 size: 33M

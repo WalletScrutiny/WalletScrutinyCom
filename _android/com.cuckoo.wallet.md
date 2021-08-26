@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.cuckoo.wallet
 released: 2021-06-29
-updated: 2021-08-12
-version: "2.3.0"
+updated: 2021-08-24
+version: "2.3.2"
 stars: 0.0
 ratings: 
 reviews: 
-size: 43M
+size: 40M
 website: 
 repository: 
 issue: 
