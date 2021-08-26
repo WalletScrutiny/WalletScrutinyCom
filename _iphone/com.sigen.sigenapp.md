@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: SIGEN.pro
 title: "SIGEN.pro"
 altTitle: 
 authors:
