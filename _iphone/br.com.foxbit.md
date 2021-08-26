@@ -13,13 +13,13 @@ version: "2.3.0"
 stars: 
 reviews: 
 size: 136979456
-website: https://foxbit.com.br/aplicativo/
+website: https://foxbit.com.br
 repository: 
 issue: 
 icon: br.com.foxbit.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-08-26
 signer: 
 reviewArchive:
 
