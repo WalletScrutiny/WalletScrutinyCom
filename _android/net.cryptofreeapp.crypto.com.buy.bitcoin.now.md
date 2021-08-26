@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-08-26
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-17**: This app is not the the Play Store anymore
