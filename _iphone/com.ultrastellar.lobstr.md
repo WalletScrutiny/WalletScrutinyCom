@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: lobstrco
 title: "LOBSTR Stellar Lumens Wallet"
 altTitle: 
 authors:
+ - danny
 
 appId: com.ultrastellar.lobstr
 appCountry: us
@@ -18,13 +19,13 @@ repository:
 issue: 
 icon: com.ultrastellar.lobstr.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-08-24
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Lobstrco
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +33,12 @@ providerReddit:
 redirect_from:
 
 ---
+As the description states, lobstr is a stellar lumens wallet. 
 
+However, looking deeper you'll find that you can purchase other assets including bitcoin. You can also add that to the "Assets". 
+
+You need to deposit 5 XLM in order to add the BTC asset.
+
+However, lobstr presumably only holds btc tokens and not actual bitcoin. Hence, the **nobtc** verdict.
+
+Zendesk support page "[Buying Crypto with LOBSTR wallet](https://lobstr.zendesk.com/hc/en-us/articles/360014741460-Buying-crypto-with-LOBSTR-wallet)"
