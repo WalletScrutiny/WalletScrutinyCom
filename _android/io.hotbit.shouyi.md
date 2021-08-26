@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: hotbit
 title: "Hotbit"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: io.hotbit.shouyi
 released: 2019-09-19
