@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: cointiger
 title: "CoinTiger-Crypto Exchange"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bytehub
 title: "ByteHub - Multiple Cryptocurrency Wallet& Exchange"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: quantfury
 title: "Quantfury – Everybody's Honest Trading"
 altTitle: 
 authors:
@@ -61,6 +61,4 @@ Quantfury Support [Page on Adding Funds to Account Balance Wallet](https://suppo
 
 > You can add funds to your Quantfury account balance at any time. Make sure to fund your account balance wallet in the same type of cryptocurrency that your current account balance is funded in.
 
-Identity verification is required
-
-Initially, it may appear that the 
+Identity verification is required.

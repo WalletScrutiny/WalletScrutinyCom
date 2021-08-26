@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: rekeningku
 title: "Rekeningku.com - Jual Beli Bitcoin dan Crypto"
 altTitle: 
 authors:
