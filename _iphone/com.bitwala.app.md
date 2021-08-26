@@ -4,6 +4,7 @@ title: "Nuri (ex Bitwala)"
 altTitle: 
 authors:
  - danny
+ 
 appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
