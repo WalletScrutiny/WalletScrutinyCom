@@ -4,7 +4,6 @@ title: "Giottus - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
  - danny
-
 users: 100000
 appId: com.giottus.giottus_mobile
 released: 2021-02-01
@@ -19,7 +18,7 @@ repository:
 issue: 
 icon: com.giottus.giottus_mobile.png
 bugbounty: 
-verdict: custodial
+verdict: nosource
 date: 2021-08-23
 signer: 
 reviewArchive:
@@ -52,4 +51,8 @@ Security information
 
 [Giottus Tutorial on How to Withdraw Bitcoin and other cryptocurrencies](https://support.giottus.com/support/solutions/articles/35000069416-how-to-withdraw-bitcoins-and-other-cryptocurrencies-)
 
-Although they have a P2P trading service, they still require KYC prior to be able to use it. Therefore, it is **custodial**
+> Peer to Peer exchange facilitates transactions between two traders without routing the money through the exchange. Giottus lets a Buyer buy without sending INR to the Exchange.
+
+Giottus requires KYC verification, but because of their use of P2P exchange it appears that they don't control the clients' funds. 
+
+While our verdict for this app is **not custodial** there's still **no source.**
