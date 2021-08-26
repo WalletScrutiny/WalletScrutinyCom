@@ -34,6 +34,8 @@ redirect_from:
 ---
 It's **highly recommended to avoid this app.**
 
+Their subreddit is full of clients reporting that they cannot withdraw their coins!
+
 The reviews were alarmingly negative.
 
 > [Adeleke David Adekunle](https://play.google.com/store/apps/details?id=global.bithumb.android&reviewId=gp%3AAOqpTOGuWu7H2yyJLspHfeSFkEZWFNBVAsVOrYqVHQF5-0rmz_g5TZhRfxBnIkBkm57gij9fvWufgQcmDSs-mMc) <br>
@@ -52,10 +54,9 @@ Even the Twitter account seemed to be spammed with likes and comments from bots 
 
 > Good Project
 
-and other things *exactly* like these two.
+or variants thereof
 
-Their subreddit is full of clients reporting that they cannot withdraw their coins!
 
-This is all highly suspicious. To add to that, BitGlobal uses KYC verification.
+This is all very fishy.
 
 Verdict: **Custodial** and **not verifiable**.
