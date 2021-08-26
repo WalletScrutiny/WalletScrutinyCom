@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: eversend
 title: "Eversend - Exchange and Send Money Across Borders"
 altTitle: 
 authors:
+ - danny
 
 users: 100000
 appId: com.eversendapp
@@ -13,24 +14,26 @@ stars: 3.6
 ratings: 2640
 reviews: 1287
 size: 53M
-website: 
+website: https://eversend.co/
 repository: 
 issue: 
 icon: com.eversendapp.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: nowallet
+date: 2021-08-26
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: eversendapp
+providerLinkedIn: eversend
+providerFacebook: eversendapp
 providerReddit: 
 
 redirect_from:
 
 ---
+In an article entitled, [Which features are coming soon](https://help.eversend.co/en/articles/4349362-which-features-are-coming-soon) 
 
+Eversend indicated that Eversend Crypto is a future offering.
 
