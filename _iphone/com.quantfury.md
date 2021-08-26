@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.quantfury.jpg
 bugbounty: 
-verdict: nowallet	
+verdict: nowallet
 date: 2021-08-23
 signer: 
 reviewArchive:
