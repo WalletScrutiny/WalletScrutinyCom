@@ -47,4 +47,4 @@ The official website [has a tutorial](https://www.huobi.com/support/en-us/detail
 > 3. Customer support staff will perform account review via various channels, including but not limited to telephone or video call with you to verify your ID.
 > 4. Do not tell your password, SMS codes or Google Authenticator codes to anyone.
 
-Due to the required verification, this app is **custodial** and **not verifiable.**
+Due to the required verification, we assume this app is **custodial** and thus **not verifiable.**
