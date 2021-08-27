@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: hotbit
 title: "Hotbit"
 altTitle: 
 authors:
