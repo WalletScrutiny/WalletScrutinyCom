@@ -38,7 +38,7 @@ redirect_from:
 
 bitFlyer is **custodial** and **not verifiable.**
 
-As an additional note, some users seemed to have problems with verification.
+As an additional note, some users on Play Store seemed to have problems with verification.
 
 > [Sabari Nathan](https://play.google.com/store/apps/details?id=com.bitflyer.android.bfwallet&reviewId=gp%3AAOqpTOENgSfeAmSBEhWgih3JVV2d1hrztZJcZno8NBByWFLFpGOhiCobomj-P5225_rUUuCNjHSXcS84Dryj)<br>
   ★☆☆☆☆ 9 April 2021<br>
