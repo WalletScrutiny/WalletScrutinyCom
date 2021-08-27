@@ -43,11 +43,8 @@ The official website [has a tutorial](https://www.huobi.com/support/en-us/detail
 
 > Withdrawal Review Process:
 > 1. When users withdraw coins to a new address, the system may trigger ID verification checks. Under this circumstance, he withdrawal will only be allowed post verification. AVerification failure will lead to manual review.
-
 > 2. Where the destination address has already passed verification, the withdrawal may take place with or without manual review, subject transaction risk level. If the system detects abnormality in the account, the withdrawal  will be subject  to manual review.
-
 > 3. Customer support staff will perform account review via various channels, including but not limited to telephone or video call with you to verify your ID.
-
 > 4. Do not tell your password, SMS codes or Google Authenticator codes to anyone.
 
 Due to the required verification, this app is **custodial** and **not verifiable.**
