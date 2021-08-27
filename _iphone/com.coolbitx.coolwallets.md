@@ -4,19 +4,19 @@ title: "CoolBitX Crypto"
 altTitle: 
 authors:
 - leo
-users: 10000
-appId: com.coolbitx.cwsapp
-released: 2017-12-01
-updated: 2021-08-11
+appId: com.coolbitx.coolwallets
+appCountry: tw
+idd: 1328764142
+released: 2018-01-02
+updated: 2021-08-16
 version: "2.21.0"
-stars: 4.6
-ratings: 823
-reviews: 344
-size: 51M
+stars: 4.2
+reviews: 40
+size: 106406912
 website: http://coolwallet.io
 repository: 
 issue: 
-icon: com.coolbitx.cwsapp.png
+icon: com.coolbitx.coolwallets.jpg
 bugbounty: 
 verdict: nowallet
 date: 2021-08-28
@@ -24,13 +24,13 @@ signer:
 reviewArchive:
 
 
-providerTwitter: coolwallet
+providerTwitter: 
 providerLinkedIn: 
-providerFacebook: coolwallet
+providerFacebook: 
 providerReddit: 
 
 redirect_from:
-  - /com.coolbitx.cwsapp/
+
 ---
 
 

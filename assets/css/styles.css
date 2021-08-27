@@ -1677,6 +1677,10 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     right: 0px;
 }
 
+.wallet-link {
+  white-space:nowrap;
+}
+
 html {
   scroll-behavior: smooth;
 }
