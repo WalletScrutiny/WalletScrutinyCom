@@ -33,7 +33,7 @@ providerReddit: blockfi
 redirect_from:
 
 ---
-BlockFi is the easiest place to buy, sell and earn cryptocurrency
+> BlockFi is the easiest place to buy, sell and earn cryptocurrency
 
 > BlockFi provides financial services to individuals and businesses worldwide and in all 50 U.S. states. Our offerings include interest-earning accounts, low-cost USD loans secured with crypto and fee-free trading.
 
