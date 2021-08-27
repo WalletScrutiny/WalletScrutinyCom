@@ -41,7 +41,7 @@ Initially, it may appear like Quantfury is an exchange. But upon closer inspecti
 
 Here are more details:
 
-The platform provides services for: Crypto, Stocks, Futures, ETFS.
+The platform provides services for: Crypto, Stocks, Futures, ETFs.
 
 QuantFury [Terms and Conditions Page](https://quantfury.com/quantfury-terms-and-conditions.pdf)
 
