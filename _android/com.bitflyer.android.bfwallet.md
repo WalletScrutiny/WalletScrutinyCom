@@ -19,7 +19,7 @@ issue:
 icon: com.bitflyer.android.bfwallet.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 

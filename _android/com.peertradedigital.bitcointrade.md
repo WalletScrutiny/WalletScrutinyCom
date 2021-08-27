@@ -19,7 +19,7 @@ issue:
 icon: com.peertradedigital.bitcointrade.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-08-27
 signer: 
 reviewArchive:
 

@@ -20,7 +20,7 @@ issue:
 icon: com.aax.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-20
+date: 2021-08-27
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: global.bithumb.android.png
 bugbounty:
 verdict: custodial
-date: 2021-08-25
+date: 2021-08-27
 signer:
 reviewArchive:
 

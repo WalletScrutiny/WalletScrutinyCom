@@ -20,7 +20,7 @@ issue:
 icon: jp.bitflyer.wallet.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-26
+date: 2021-08-27
 signer: 
 reviewArchive:
 

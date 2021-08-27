@@ -19,7 +19,7 @@ issue:
 icon: app.coingram.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.elrond.maiar.ios.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-08-24
+date: 2021-08-27
 signer: 
 reviewArchive:
 - date: 2021-08-24

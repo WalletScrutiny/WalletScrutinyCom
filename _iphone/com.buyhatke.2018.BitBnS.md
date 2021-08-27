@@ -21,7 +21,7 @@ issue:
 icon: com.buyhatke.2018.BitBnS.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
