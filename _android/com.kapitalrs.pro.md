@@ -10,7 +10,7 @@ released: 2017-02-07
 updated: 2020-10-18
 version: "90.1.085"
 stars: 4.0
-ratings: 699
+ratings: 700
 reviews: 261
 size: 5.6M
 website: 

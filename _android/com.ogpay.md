@@ -10,7 +10,7 @@ released: 2019-07-31
 updated: 2021-04-12
 version: "Varies with device"
 stars: 3.9
-ratings: 27
+ratings: 28
 reviews: 19
 size: Varies with device
 website: 

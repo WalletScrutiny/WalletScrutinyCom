@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.core.app.flitpay
 released: 2017-05-17
-updated: 2021-08-24
-version: "1.0.24"
-stars: 4.4
-ratings: 539
-reviews: 412
+updated: 2021-08-26
+version: "1.0.25"
+stars: 4.3
+ratings: 538
+reviews: 411
 size: 35M
 website: 
 repository: 

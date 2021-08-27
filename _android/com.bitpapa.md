@@ -10,8 +10,8 @@ released: 2020-08-18
 updated: 2021-05-31
 version: "1.6.7"
 stars: 4.5
-ratings: 3953
-reviews: 3894
+ratings: 3935
+reviews: 3873
 size: 42M
 website: https://bitpapa.com
 repository: 

@@ -8,8 +8,8 @@ appId: com.jzbt.atoken
 appCountry: 
 idd: 1395835245
 released: 2018-07-28
-updated: 2021-08-10
-version: "4.1.6"
+updated: 2021-08-27
+version: "4.1.8"
 stars: 4.94615
 reviews: 260
 size: 179060736

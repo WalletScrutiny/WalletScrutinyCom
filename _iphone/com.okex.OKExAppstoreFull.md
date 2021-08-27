@@ -10,8 +10,8 @@ idd: 1327268470
 released: 2018-01-04
 updated: 2021-08-23
 version: "5.2.2"
-stars: 4.94728
-reviews: 14833
+stars: 4.94721
+reviews: 14852
 size: 514954240
 website: https://www.okex.com
 repository: 

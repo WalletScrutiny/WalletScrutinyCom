@@ -8,11 +8,11 @@ appId: io.talken.wallet
 appCountry: 
 idd: 1459475831
 released: 2019-09-25
-updated: 2021-08-10
-version: "1.0.21"
-stars: 4.78261
-reviews: 23
-size: 67850240
+updated: 2021-08-26
+version: "1.0.22"
+stars: 
+reviews: 
+size: 67887104
 website: https://talken.io/
 repository: 
 issue: 

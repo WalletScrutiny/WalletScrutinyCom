@@ -9,9 +9,9 @@ appId: org.strayacoin.bitcoinpos
 released: 2018-10-13
 updated: 2021-04-17
 version: "3.0.0"
-stars: 2.0
-ratings: 5
-reviews: 3
+stars: 2.5
+ratings: 6
+reviews: 4
 size: 14M
 website: 
 repository: 

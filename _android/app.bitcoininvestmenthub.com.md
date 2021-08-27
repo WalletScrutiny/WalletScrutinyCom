@@ -9,9 +9,9 @@ appId: app.bitcoininvestmenthub.com
 released: 2020-05-04
 updated: 2020-05-04
 version: "1.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.9
+ratings: 63
+reviews: 57
 size: 3.2M
 website: 
 repository: 

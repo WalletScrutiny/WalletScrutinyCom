@@ -9,9 +9,9 @@ appId: com.bitbns
 released: 2019-09-21
 updated: 2021-05-06
 version: "4.4.14"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 10604
+reviews: 5340
 size: 84M
 website: 
 repository: 

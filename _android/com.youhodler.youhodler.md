@@ -10,7 +10,7 @@ released: 2019-07-11
 updated: 2021-07-07
 version: "2.17.0"
 stars: 4.3
-ratings: 1903
+ratings: 1904
 reviews: 731
 size: 48M
 website: https://youhodler.com

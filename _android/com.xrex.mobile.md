@@ -9,9 +9,9 @@ appId: com.xrex.mobile
 released: 2020-02-20
 updated: 2021-08-16
 version: "1.5.216"
-stars: 4.2
-ratings: 24
-reviews: 8
+stars: 4.1
+ratings: 25
+reviews: 9
 size: 38M
 website: 
 repository: 
