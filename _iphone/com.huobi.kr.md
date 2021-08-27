@@ -1,9 +1,10 @@
 ---
-wsId: 
+wsId: huobi_kr
 title: "후오비"
 altTitle: 
 authors:
-
+- leo
+- danny
 appId: com.huobi.kr
 appCountry: kr
 idd: 1375898166
@@ -18,18 +19,22 @@ repository:
 issue: 
 icon: com.huobi.kr.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HuobiGlobal
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: huobiglobalofficial
 providerReddit: 
 
 redirect_from:
 
 ---
+**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)
 
+Neither on Google Play nor on their website can we find a claim of a
+non-custodial part to this app. We assume it is a purely custodial interface to
+the exchange of same name and therefore **not verifiable**
