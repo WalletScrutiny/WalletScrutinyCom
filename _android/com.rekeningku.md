@@ -3,16 +3,15 @@ wsId: rekeningku
 title: "Rekeningku.com - Jual Beli Bitcoin dan Crypto"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.rekeningku
 released: 2018-02-21
 updated: 2021-08-16
 version: "2.1.51"
 stars: 4.6
-ratings: 15479
-reviews: 6107
+ratings: 15508
+reviews: 6113
 size: 32M
 website: https://www.rekeningku.com
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 
 It uses cold storage for its wallet security.

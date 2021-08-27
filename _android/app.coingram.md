@@ -10,10 +10,10 @@ released: 2019-07-02
 updated: 2021-08-18
 version: "3.0.0"
 stars: 4.7
-ratings: 43537
-reviews: 24432
+ratings: 43540
+reviews: 24433
 size: 24M
-website:
+website: 
 repository: 
 issue: 
 icon: app.coingram.png
@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter:
+providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Note that as of 2021-08-23 this app does not seem to have an English translation.
 
 > Coingram offers an overview of financial markets particularly focus on the digital currencies, ideal for staying up to date with the latest news, tutorials and analysis from the experts and various popular sources.

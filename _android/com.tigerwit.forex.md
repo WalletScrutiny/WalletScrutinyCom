@@ -3,8 +3,7 @@ wsId:
 title: "TigerWit – Forex Trading & More"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.tigerwit.forex
 released: 2018-01-24
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).
 
 It is a forex, precious metals, stocks, indices, commodities copy-trading app that utilizes CFDs for trading cryptocurrencies.

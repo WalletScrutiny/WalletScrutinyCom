@@ -3,16 +3,15 @@ wsId:
 title: "BlockFi - Buy, Earn, Borrow Crypto"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.blockfi.mobile
 released: 2020-04-30
 updated: 2021-08-19
 version: "4.4.1"
 stars: 3.3
-ratings: 3229
-reviews: 1494
+ratings: 3235
+reviews: 1498
 size: 10M
 website: https://blockfi.com
 repository: 
@@ -33,6 +32,8 @@ providerReddit: blockfi
 redirect_from:
 
 ---
+
+
 > BlockFi is the easiest place to buy, sell and earn cryptocurrency
 
 > BlockFi provides financial services to individuals and businesses worldwide and in all 50 U.S. states. Our offerings include interest-earning accounts, low-cost USD loans secured with crypto and fee-free trading.

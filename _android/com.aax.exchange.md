@@ -3,15 +3,14 @@ wsId:
 title: "AAX-Trade Digital Assets, Bitcoin, ETH, Defi"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.aax.exchange
 released: 2019-03-04
 updated: 2021-08-25
 version: "3.1.0"
-stars: 4.2
-ratings: 2198
+stars: 4.3
+ratings: 2205
 reviews: 794
 size: 65M
 website: https://www.aax.com
@@ -33,6 +32,8 @@ providerReddit: AAXExchange
 redirect_from:
 
 ---
+
+
 AAX Exchange has the following products:
 - Futures
 - Spot

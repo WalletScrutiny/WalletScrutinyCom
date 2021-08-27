@@ -3,7 +3,7 @@ wsId: foxbitexchange
 title: "Foxbit Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 appId: br.com.foxbit
 appCountry: ph
 idd: 1435319194
@@ -13,7 +13,7 @@ version: "2.3.0"
 stars: 
 reviews: 
 size: 136979456
-website: https://foxbit.com.br
+website: https://foxbit.com.br/aplicativo/
 repository: 
 issue: 
 icon: br.com.foxbit.jpg

@@ -3,15 +3,15 @@ wsId: SIGEN.pro
 title: "SIGEN.pro"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.sigen.sigen
 released: 2020-04-18
 updated: 2021-08-25
 version: "2.6.6"
 stars: 4.7
-ratings: 19866
-reviews: 9588
+ratings: 19928
+reviews: 9605
 size: 38M
 website: https://sigen.pro/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > SIGEN.pro is not only a multifunctional trading platform, but also your convenient crypto wallet, as well as a service for mining cryptocurrency.
 

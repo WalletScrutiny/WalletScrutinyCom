@@ -3,16 +3,15 @@ wsId: quantfury
 title: "Quantfury – Everybody's Honest Trading"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.quantfury
 released: 2018-11-26
 updated: 2021-08-23
 version: "v1.7.1815.3"
 stars: 4.6
-ratings: 7239
-reviews: 2147
+ratings: 7240
+reviews: 2148
 size: 49M
 website: https://quantfury.com
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Description from the site: 
 
 > Сommission-free trading and investing at real-time spot prices of global and crypto exchanges.

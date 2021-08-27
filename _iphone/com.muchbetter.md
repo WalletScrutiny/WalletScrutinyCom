@@ -3,8 +3,7 @@ wsId: MuchBetter
 title: "MuchBetter"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
@@ -33,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 
 
 There's also a use of identity verification which is usually a trait of custodial products. 

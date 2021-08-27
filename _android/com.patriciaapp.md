@@ -1,37 +1,39 @@
 ---
 wsId: patriciaapp
 title: "Patricia"
-altTitle:
+altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.patriciaapp
 released: 2020-02-14
 updated: 2021-08-21
 version: "1.3.1"
 stars: 2.8
-ratings: 2839
-reviews: 2093
+ratings: 2841
+reviews: 2094
 size: 48M
 website: https://mypatricia.co/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.patriciaapp.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-08-27
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: PatriciaSwitch
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: patricia.com.ng
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
+
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!
 
 Ok, so it sounds like a BTC wallet.

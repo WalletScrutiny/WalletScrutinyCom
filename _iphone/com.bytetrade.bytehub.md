@@ -1,9 +1,9 @@
 ---
-wsId: bytehub	
+wsId: bytehub
 title: "ByteHub"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.bytetrade.bytehub
 appCountry: ph
 idd: 1453357819

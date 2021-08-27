@@ -3,7 +3,7 @@ wsId: quantfury
 title: "Quantfury"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.quantfury
 appCountry: gb
 idd: 1445564443
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Description from the site: 
 
 > Сommission-free trading and investing at real-time spot prices of global and crypto exchanges.

@@ -9,9 +9,9 @@ appId: com.bitcoinrevolution.app
 released: 2021-05-11
 updated: 2021-05-11
 version: "1.0.0"
-stars: 2.6
-ratings: 5
-reviews: 3
+stars: 2.3
+ratings: 6
+reviews: 4
 size: 4.4M
 website: 
 repository: 

@@ -3,9 +3,7 @@ wsId:
 title: "BitBnS-Crypto Trading Exchange"
 altTitle: 
 authors:
- - danny
-
-
+- danny
 appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076

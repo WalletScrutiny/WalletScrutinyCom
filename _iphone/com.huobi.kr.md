@@ -25,7 +25,7 @@ reviewArchive:
 
 
 providerTwitter: huobi_korea
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: huobikorea
 providerReddit: 
 

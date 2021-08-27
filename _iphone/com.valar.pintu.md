@@ -3,8 +3,7 @@ wsId: Pintu
 title: "Pintu: Buy/Sell Digital Assets"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: com.valar.pintu
 appCountry: us
 idd: 1494119678
@@ -33,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
 > **Do I hold a Private Key?**<br>

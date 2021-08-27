@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Update 2021-08-28**: We now also added the hardware wallets this app is the
 companion app for,
 {% include walletLink.html wallet='hardware/coolwallets' verdict='true' %} and

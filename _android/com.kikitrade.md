@@ -9,9 +9,9 @@ appId: com.kikitrade
 released: 2020-07-24
 updated: 2021-08-09
 version: "3.2.0"
-stars: 4.3
-ratings: 930
-reviews: 149
+stars: 4.9
+ratings: 978
+reviews: 150
 size: 59M
 website: 
 repository: 

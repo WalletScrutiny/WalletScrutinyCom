@@ -9,9 +9,9 @@ appId: com.uni.uniwallet
 released: 2018-06-05
 updated: 2019-02-19
 version: "7.0.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.0
+ratings: 44
+reviews: 23
 size: 4.2M
 website: 
 repository: 

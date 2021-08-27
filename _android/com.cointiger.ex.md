@@ -3,16 +3,15 @@ wsId: cointiger
 title: "CoinTiger-Crypto Exchange"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.cointiger.ex
 released: 2020-07-23
 updated: 2021-08-03
 version: "5.0.0.2"
 stars: 5.0
-ratings: 10609
-reviews: 903
+ratings: 10809
+reviews: 904
 size: 42M
 website: https://www.cointiger.com/
 repository: 
@@ -33,6 +32,8 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
+
+
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
 
 > About CoinTiger<br>

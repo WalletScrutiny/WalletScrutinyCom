@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - NFT Drops, NFT Calendar & NFT Marketplace"
+title: "Zloadr - Free NFT & Crypto Marketplace Wallet App"
 altTitle: 
 authors:
 

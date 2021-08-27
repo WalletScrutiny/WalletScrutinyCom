@@ -3,7 +3,7 @@ wsId: giottus
 title: "Giottus"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.giottus.app
 appCountry: us
 idd: 1537068185
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Description from Home Page: 
 
 > India's Highly rated cryptocurrency exchange<br>

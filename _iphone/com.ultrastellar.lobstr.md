@@ -3,8 +3,7 @@ wsId: lobstrco
 title: "LOBSTR Stellar Lumens Wallet"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: com.ultrastellar.lobstr
 appCountry: us
 idd: 1404357892
@@ -33,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 As the description states, lobstr is a stellar lumens wallet. 
 
 However, looking deeper you'll find that you can purchase other assets including bitcoin. You can also add that to the "Assets". 

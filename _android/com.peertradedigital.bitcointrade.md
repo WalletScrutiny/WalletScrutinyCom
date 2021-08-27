@@ -3,15 +3,15 @@ wsId: bitcointrade
 title: "BitcoinTrade: Bitcoin e cripto"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.peertradedigital.bitcointrade
 released: 2017-12-01
 updated: 2021-08-09
 version: "3.3.4"
 stars: 4.1
-ratings: 4896
-reviews: 2490
+ratings: 4914
+reviews: 2500
 size: 18M
 website: http://www.bitcointrade.com.br/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 **This product and the accompanying official website is in Portuguese. The app may not have an English translation.**
 

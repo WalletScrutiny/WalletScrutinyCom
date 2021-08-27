@@ -3,15 +3,15 @@ wsId: MuchBetter
 title: "MuchBetter - Award Winning Payments App!"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500000
 appId: com.mirlimited.muchbetter
 released: 2017-05-30
 updated: 2021-07-29
 version: "2.8.0"
 stars: 4.1
-ratings: 8198
-reviews: 4161
+ratings: 8207
+reviews: 4164
 size: 28M
 website: https://www.muchbetter.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 
 

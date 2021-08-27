@@ -3,15 +3,15 @@ wsId: WealthsimpleTrade
 title: "Wealthsimple Trade: Buy & Sell Stocks"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: com.wealthsimple.trade
 released: 
 updated: 2021-08-16
 version: "1.88.0"
 stars: 4.5
-ratings: 34706
-reviews: 8024
+ratings: 34816
+reviews: 8028
 size: 212M
 website: 
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]
 

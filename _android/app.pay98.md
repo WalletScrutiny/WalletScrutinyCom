@@ -3,16 +3,15 @@ wsId:
 title: "Pay98"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: app.pay98
 released: 2018-05-31
 updated: 2021-07-16
 version: "2.0.2"
 stars: 4.7
-ratings: 14462
-reviews: 6743
+ratings: 14469
+reviews: 6749
 size: 32M
 website: https://pay98.app
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Iranian third party payment website
 
 From the footer in the home page

@@ -10,8 +10,8 @@ released: 2013-02-01
 updated: 2021-08-26
 version: "8.11.1"
 stars: 3.3
-ratings: 109033
-reviews: 54616
+ratings: 109067
+reviews: 54631
 size: 17M
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

@@ -1,37 +1,39 @@
 ---
 wsId: blackcatcard
 title: "Blackcatcard: safe, secure wallet & prepaid card"
-altTitle:
+altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.papaya.blackcatcard
 released: 2019-06-03
 updated: 2021-07-08
 version: "1.2.21"
 stars: 3.3
-ratings: 3070
+ratings: 3073
 reviews: 2054
 size: 101M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.papaya.blackcatcard.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-08-27
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
+
 > Blackcatcard is a mobile application that offers an instantly ready European Mastercard thoroughly designed for online and offline purchases and accepted worldwide.
 
 Sounds like it's meant to be a payment app, although it also supports crypto. It also mentions offering a European Mastercard.

@@ -3,8 +3,7 @@ wsId: bitFlyer
 title: "ビットコインならbitFlyer 仮想通貨 取引ウォレット"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: jp.bitflyer.wallet
 appCountry: jp
 idd: 1164758997
@@ -25,9 +24,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter:  bitFlyer
+providerTwitter: bitFlyer
 providerLinkedIn: 
-providerFacebook:  bitflyer
+providerFacebook: bitflyer
 providerReddit: 
 
 redirect_from:

@@ -3,7 +3,7 @@ wsId: swissborg
 title: "SwissBorg - Invest in Crypto"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.swissborg.ios
 appCountry: gb
 idd: 1442483481
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [Swissborg has provided a Youtube tutorial for withdrawing cryptocurrencies from their product.](https://www.youtube.com/watch?v=e7CwCbX0AbE)
 

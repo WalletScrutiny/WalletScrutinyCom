@@ -3,15 +3,15 @@ wsId: giottus
 title: "Giottus - Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.giottus.giottus_mobile
 released: 2021-02-01
 updated: 2021-08-11
 version: "2.1.36"
 stars: 4.2
-ratings: 6802
-reviews: 4097
+ratings: 6823
+reviews: 4109
 size: 32M
 website: https://www.giottus.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Description from Home Page: 
 
 > India's Highly rated cryptocurrency exchange<br>
