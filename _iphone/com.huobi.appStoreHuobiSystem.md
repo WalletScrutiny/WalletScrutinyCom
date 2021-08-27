@@ -4,7 +4,6 @@ title: "Huobi - Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - leo
-- danny
 appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
@@ -33,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to
