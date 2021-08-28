@@ -4,7 +4,7 @@ title: "StiB P2P - Bitcoin Ethereum Decentralized Exchange"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.StiBLabs.StiBp2p
 released: 2019-10-07
 updated: 2020-03-11

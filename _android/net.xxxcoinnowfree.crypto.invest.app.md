@@ -4,7 +4,7 @@ title: "Crypto Invest App"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.xxxcoinnowfree.crypto.invest.app
 released: 2021-07-22
 updated: 2021-07-22

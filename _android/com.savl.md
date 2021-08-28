@@ -9,9 +9,9 @@ appId: com.savl
 released: 2018-07-24
 updated: 2021-08-06
 version: "2.7.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.8
+ratings: 527
+reviews: 351
 size: 230M
 website: 
 repository: 

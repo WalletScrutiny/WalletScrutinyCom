@@ -9,8 +9,8 @@ appId: com.ogpay
 released: 2019-07-31
 updated: 2021-04-12
 version: "Varies with device"
-stars: 3.9
-ratings: 28
+stars: 4.0
+ratings: 29
 reviews: 19
 size: Varies with device
 website: 

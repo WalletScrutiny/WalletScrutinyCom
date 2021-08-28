@@ -11,7 +11,7 @@ updated: 2021-08-23
 version: "1.0.0-beta20"
 stars: 4.1
 ratings: 315
-reviews: 194
+reviews: 193
 size: 12M
 website: 
 repository: 

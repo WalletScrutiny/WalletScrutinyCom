@@ -4,7 +4,7 @@ title: "Kaiserex - Bitcoin Altcoin Cryptocurrency Exchange"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.kaiserex
 released: 2020-05-09
 updated: 2020-05-09

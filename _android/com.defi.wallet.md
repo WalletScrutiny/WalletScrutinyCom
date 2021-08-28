@@ -10,8 +10,8 @@ released: 2020-05-11
 updated: 2021-08-13
 version: "1.15.0"
 stars: 4.0
-ratings: 6377
-reviews: 2051
+ratings: 6397
+reviews: 2053
 size: 56M
 website: https://crypto.com/en/defi/
 repository: 

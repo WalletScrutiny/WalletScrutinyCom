@@ -4,7 +4,7 @@ title: "Bittery"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.github.bitteryapp
 released: 2021-06-26
 updated: 2021-07-02

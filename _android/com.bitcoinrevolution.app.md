@@ -4,7 +4,7 @@ title: "Bitcoin Revolution Robotics Crypto Trading (2021)"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.bitcoinrevolution.app
 released: 2021-05-11
 updated: 2021-05-11
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoinrevolution.app.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:

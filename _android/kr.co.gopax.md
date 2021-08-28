@@ -10,8 +10,8 @@ released: 2018-11-05
 updated: 2021-08-24
 version: "1.4.12.ca9d"
 stars: 3.0
-ratings: 1032
-reviews: 807
+ratings: 1033
+reviews: 808
 size: 18M
 website: 
 repository: 

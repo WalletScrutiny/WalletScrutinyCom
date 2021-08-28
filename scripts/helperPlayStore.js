@@ -40,13 +40,18 @@ const allowedHeaders = [
 const folder = "_android/"
 
 function refreshAll() {
-  fs.readdir(folder, function (err, files) {
+  fs.readdir(folder, (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    files.forEach(function (file, index) {
-      refreshFile(file)
+    files.forEach((file, index) => {
+      try {
+        refreshFile(file)
+      } catch (e) {
+        const appId = `${file}`.slice(0, -3)
+        noteForLater(appId)
+      }
     })
   })
 }
@@ -83,6 +88,13 @@ function refreshFile(fileName) {
   }
 }
 
+function noteForLater(app) {
+  weirdBug.push(app)
+  const errorLogFile = fs.createWriteStream(errorLogFileName)
+  errorLogFile.write(`${weirdBug.join(" ")}`)
+  errorLogFile.close()
+}
+
 function writeResult(app, header, iconExtension, body) {
   var altTitle = header.altTitle || ""
   if (altTitle.length > 0)
@@ -109,10 +121,7 @@ function writeResult(app, header, iconExtension, body) {
       || header.reviews
       && header.reviews > 10
       && app.reviews < 0.9 * header.reviews) {
-    weirdBug.push(header.appId)
-    const errorLogFile = fs.createWriteStream(errorLogFileName)
-    errorLogFile.write(`${weirdBug.join(" ")}`)
-    errorLogFile.close()
+    noteForLater(header.appId)
     process.stdout.write("(🤖)")
   } else {
     process.stdout.write("🤖")

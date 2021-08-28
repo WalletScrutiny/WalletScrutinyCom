@@ -10,8 +10,8 @@ released: 2021-02-01
 updated: 2021-08-11
 version: "2.1.36"
 stars: 4.2
-ratings: 6823
-reviews: 4109
+ratings: 6842
+reviews: 4122
 size: 32M
 website: https://www.giottus.com
 repository: 

@@ -4,13 +4,13 @@ title: "BTC Cloud Miner - Easy Wallet Transfer"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.btccloudminer.easy
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"
 stars: 3.4
-ratings: 169
+ratings: 170
 reviews: 100
 size: 8.9M
 website: 

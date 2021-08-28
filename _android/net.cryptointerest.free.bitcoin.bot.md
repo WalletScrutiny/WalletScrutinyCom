@@ -4,7 +4,7 @@ title: "Free Bitcoin Bot"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.cryptointerest.free.bitcoin.bot
 released: 2021-07-06
 updated: 2021-07-06

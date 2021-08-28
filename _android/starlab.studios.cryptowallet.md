@@ -4,7 +4,7 @@ title: "Crypto Wallets: Coinmama, Crypto.com Wallets"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: starlab.studios.cryptowallet
 released: 2021-06-01
 updated: 2021-08-04

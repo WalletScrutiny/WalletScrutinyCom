@@ -4,14 +4,14 @@ title: "ChangeNOW: Buy Bitcoin Dogecoin & Crypto Exchange"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: io.changenow.changenow
 released: 2018-09-07
 updated: 2021-08-24
 version: "1.119"
 stars: 4.7
-ratings: 1239
-reviews: 632
+ratings: 1243
+reviews: 634
 size: 6.2M
 website: http://changenow.io
 repository: 

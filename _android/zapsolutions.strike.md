@@ -10,8 +10,8 @@ released:
 updated: 2021-08-27
 version: "v86"
 stars: 4.7
-ratings: 3071
-reviews: 1246
+ratings: 3088
+reviews: 1251
 size: 11M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.wealthsimple.trade
 released: 
 updated: 2021-08-16
 version: "1.88.0"
-stars: 4.5
-ratings: 34816
-reviews: 8028
+stars: 4.6
+ratings: 34896
+reviews: 8024
 size: 212M
 website: 
 repository: 

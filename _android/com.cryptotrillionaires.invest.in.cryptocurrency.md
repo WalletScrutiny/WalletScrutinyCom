@@ -4,7 +4,7 @@ title: "Invest In Cryptocurrency"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: com.cryptotrillionaires.invest.in.cryptocurrency
 released: 2021-07-17
 updated: 2021-07-17

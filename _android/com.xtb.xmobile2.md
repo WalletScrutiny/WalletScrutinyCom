@@ -9,9 +9,9 @@ appId: com.xtb.xmobile2
 released: 2014-12-17
 updated: 2021-08-25
 version: "Varies with device"
-stars: 4.5
-ratings: 14833
-reviews: 4951
+stars: 4.6
+ratings: 515
+reviews: 200
 size: Varies with device
 website: http://www.xtb.com/
 repository: 
