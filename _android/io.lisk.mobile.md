@@ -3,7 +3,7 @@ wsId:
 title: "Lisk"
 altTitle: 
 authors:
-
+- leo
 users: 5000
 appId: io.lisk.mobile
 released: 2018-10-02
@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: io.lisk.mobile.png
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-08-02
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.4.1"
+  appHash: 
+  gitRevision: f83c5fd38458c97a2c795bd96b1369d3e9f37011
+  verdict: wip
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,3 +39,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-20**: This app is no more on Play Store.
