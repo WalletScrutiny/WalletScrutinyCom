@@ -9,9 +9,9 @@ appId: net.iconomi.android
 released: 2017-10-17
 updated: 2021-06-12
 version: "2.0.3"
-stars: 3.7
-ratings: 233
-reviews: 113
+stars: 3.6
+ratings: 234
+reviews: 114
 size: 53M
 website: 
 repository: 

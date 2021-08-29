@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.exchange.coinbims.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-08-29
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.3"
+  appHash: 
+  gitRevision: 86f2fa1dd433f16704d2c9d18e822f0aff4f48a0
+  verdict: stale
 - date: 2021-08-01
   version: "1.3"
   appHash: 

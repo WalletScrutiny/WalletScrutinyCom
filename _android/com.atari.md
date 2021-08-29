@@ -7,11 +7,11 @@ authors:
 users: 500
 appId: com.atari
 released: 2021-07-11
-updated: 2021-08-22
-version: "2.6.03"
-stars: 4.2
-ratings: 49
-reviews: 32
+updated: 2021-08-29
+version: "2.6.04"
+stars: 4.1
+ratings: 50
+reviews: 33
 size: 53M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.lobstr.client
 released: 2015-04-27
 updated: 2021-08-27
 version: "7.3.4"
-stars: 4.8
-ratings: 5240
-reviews: 2490
+stars: 4.7
+ratings: 5276
+reviews: 2504
 size: 29M
 website: https://lobstr.co
 repository: 

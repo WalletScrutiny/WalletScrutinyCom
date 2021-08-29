@@ -10,8 +10,8 @@ idd: 980719434
 released: 2015-12-14
 updated: 2021-08-20
 version: "5.0.0"
-stars: 4.59036
-reviews: 166
+stars: 4.60465
+reviews: 172
 size: 31947776
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace

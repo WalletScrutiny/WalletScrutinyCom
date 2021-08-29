@@ -9,9 +9,9 @@ appId: io.smcc.sccwallet
 released: 2018-08-12
 updated: 2018-10-02
 version: "1.29"
-stars: 4.3
-ratings: 16
-reviews: 5
+stars: 4.4
+ratings: 17
+reviews: 6
 size: 4.1M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.nitroex.nitroexvipapp
 released: 2020-11-17
 updated: 2020-12-10
 version: "8.0.0"
-stars: 4.5
-ratings: 119
-reviews: 88
+stars: 4.4
+ratings: 120
+reviews: 89
 size: 18M
 website: 
 repository: 

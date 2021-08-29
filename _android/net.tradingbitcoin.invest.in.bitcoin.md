@@ -4,7 +4,7 @@ title: "Invest In Bitcoin"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.tradingbitcoin.invest.in.bitcoin
 released: 2021-06-21
 updated: 2021-06-21

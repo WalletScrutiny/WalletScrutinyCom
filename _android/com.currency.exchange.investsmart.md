@@ -11,7 +11,7 @@ updated: 2021-07-20
 version: "1.14.0"
 stars: 4.4
 ratings: 188
-reviews: 62
+reviews: 63
 size: Varies with device
 website: 
 repository: 

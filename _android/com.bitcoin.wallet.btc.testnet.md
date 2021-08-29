@@ -9,8 +9,8 @@ appId: com.bitcoin.wallet.btc.testnet
 released: 2019-07-04
 updated: 2019-07-05
 version: "1.0"
-stars: 4.3
-ratings: 24
+stars: 4.4
+ratings: 25
 reviews: 4
 size: 8.8M
 website: 

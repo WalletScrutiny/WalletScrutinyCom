@@ -10,8 +10,8 @@ released: 2020-12-30
 updated: 2021-08-11
 version: "1.7.1"
 stars: 3.9
-ratings: 3697
-reviews: 1772
+ratings: 3716
+reviews: 1781
 size: 74M
 website: https://www.kraken.com/
 repository: 
