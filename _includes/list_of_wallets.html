@@ -16,18 +16,18 @@
         <div class="{% if showVerdictFilter %}row-identifier row-identifier-{{ v }}{% endif %}">
           <!-- <h2 id="{{ v }}" class="verdict {{ v }}"><nobr>{{ site.data.verdicts[v].title }}</nobr><a href="#{{ v }}" style="color:#ccc">&para;</a></h2><br style="clear:both"> -->
           <div class="flexi-list">
-          {% for d in downloads %}
-            {% for post in posts_by_ratings %}
-              {% if post.users %}
-                {% assign users = post.users | downcase %}
-              {% else %}
-                {% assign users = "0" %}
-              {% endif %}
-              {% if post.verdict == v and users == d %}
-                {% include list_of_wallets_item.html %}
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
+          {% for d in downloads 
+            %}{% for post in posts_by_ratings 
+              %}{% if post.users 
+                %}{% assign users = post.users | downcase 
+              %}{% else 
+                %}{% assign users = "0" 
+              %}{% endif 
+              %}{% if post.verdict == v and users == d 
+                %}{% include list_of_wallets_item.html 
+              %}{% endif 
+            %}{% endfor 
+          %}{% endfor %}
           </div>
         </div>
       {% endfor %}
