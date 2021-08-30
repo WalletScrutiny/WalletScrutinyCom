@@ -13,17 +13,20 @@ stars: 4.5
 ratings: 34141
 reviews: 7951
 size: 212M
-website: 
+website: https://www.wealthsimple.com/
 repository: 
 issue: 
 icon: com.wealthsimple.trade.png
 bugbounty: 
-verdict: custodial
+verdict: nosendreceive
 date: 2021-08-23	
 signer: 
 reviewArchive:
-
-
+- date: 2021-08-23
+  version: ""
+  appHash: 
+  verdict: custodial
+	
 providerTwitter: Wealthsimple
 providerLinkedIn: 
 providerFacebook: wealthsimple
@@ -33,22 +36,9 @@ redirect_from:
 
 ---
 
-> Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]
+> [At this time, Wealthsimple Crypto](https://help.wealthsimple.com/hc/en-ca/articles/360056581494-Will-I-be-able-to-bring-over-my-existing-cryptocurrencies-) only supports the ability to deposits and withdrawal Canadian dollars to and from the platform. We’re unable to accept any transfers of existing cryptocurrency held at other institutions or in a private wallet!
 
-Sounds like a trading platform. The Privacy Policy had some information:
-
-> The personal information we collect when you open an account is used for the following purposes: 
-
-> * understanding your financial needs and delivering financial products and services that meet them;
-> * verifying your identity and other information you have provided to us;
-> * opening and servicing your account;
-> * sending and receiving bill payments through your chequing account
-> * detecting and preventing fraud and other unauthorized or illegal activities;
-> * meeting legal and regulatory requirements;
-> * transferring your account to or from another institution; and
-as otherwise required or permitted by applicable law.
-
-We conclude that this is **custodial** and **not verifiable.**
+Users can't send or receive their BTC and it appears they have to convert to fiat to withdraw.
 
 
 
