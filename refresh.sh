@@ -62,8 +62,7 @@ echo "Diff minus the boring stuff:"
 git diff --word-diff |  grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|size\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
 
 function moreSince {
-  when=$1
-  echo $( git diff @{$when} | grep '^-users: ' | wc -l )
+  echo $( git diff @{$1} | grep '^-users: ' | wc -l )
 }
 
 echo "Apps that now have more users ..."
