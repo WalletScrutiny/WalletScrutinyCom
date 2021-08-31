@@ -36,8 +36,14 @@ This product is Korean, there's no English translation so it's less likely to ha
 <br>Google Translate is used for any provided quotes.
 
 > After making a simple purchase from Kovac, you must go through the KYC identification process in advance to finish 'moving' the tokens to your wallet.
+<<<<<<< Updated upstream
 
 KYC doesn't always mean that the third party is in control of your funds, but in the case of a bigger exchange, it's definitely more probable.
 
 Unless there's evidence proving otherwise, Cobak is **custodial**, thus **not verifiable.**
+=======
 
+KYC doesn't always mean that the third party is in control of your funds, but in the case of a bigger exchange, it's definitely more probable.
+>>>>>>> Stashed changes
+
+Unless there's evidence proving otherwise, Cobak is **custodial**, thus **not verifiable.**

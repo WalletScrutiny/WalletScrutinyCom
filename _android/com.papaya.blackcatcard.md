@@ -13,7 +13,7 @@ stars: 3.1
 ratings: 3084
 reviews: 2063
 size: 101M
-website: 
+website: https://blackcatcard.com
 repository: 
 issue: 
 icon: com.papaya.blackcatcard.png

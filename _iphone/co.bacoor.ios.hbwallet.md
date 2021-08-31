@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bacoorhbwallet
 title: "Ethereum Wallet - HB Wallet"
 altTitle: 
 authors:
-
+ - danny
 appId: co.bacoor.ios.hbwallet
 appCountry: us
 idd: 1273639572
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: co.bacoor.ios.hbwallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-08-30
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HBWallet_Ether
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+We downloaded the app. This is an Ethereum wallet meant for Ethereum transactions. It's possible to buy Bitcoin, but through a third party provider. Bitcoins are not stored on the wallet. 
 
+Verdict is **nobtc**

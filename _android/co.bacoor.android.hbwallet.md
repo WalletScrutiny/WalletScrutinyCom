@@ -3,7 +3,7 @@ wsId: bacoorhbwallet
 title: "Ethereum Wallet | HB Wallet – DeFi & Buy BTC, ETH"
 altTitle: 
 authors:
- - danny
+- danny	
 
 users: 100000
 appId: co.bacoor.android.hbwallet
