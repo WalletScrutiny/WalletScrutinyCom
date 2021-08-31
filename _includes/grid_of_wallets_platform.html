@@ -1,24 +1,24 @@
-{% assign total = 0 %}
-{% for post in include.platformPosts %}
-  {% if post.verdict == v %}
-    {% assign total = total | plus: 1 %}
-  {% endif %}
-{% endfor %}
-{% if total > 0 %}
+{%- assign total = 0 -%}
+{%- for post in include.platformPosts -%}
+  {%- if post.verdict == v -%}
+    {%- assign total = total | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if total > 0 -%}
   <tr class="-filter-element -{{ include.platform }}">
     <td>
       <count><span class="humanised-numbers -bold"><l>{{ total }}</l></span></count>
       <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
     </td>
     <td>
-      {% for post in include.platformPosts %}
-        {% if post.verdict == v %}
+      {%- for post in include.platformPosts -%}
+        {%- if post.verdict == v -%}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">
             <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo"
-              alt="Logo {{ post.altTitle | default: post.title }}" style="height:3em;width:3em;float:left;margin:0.3em">
+              alt="Logo {{ post.altTitle | default: post.title }}">
           </a>
-        {% endif %}
-      {% endfor %}
+        {%- endif -%}
+      {%- endfor -%}
     </td>
   </tr>
-{% endif %}
+{%- endif -%}

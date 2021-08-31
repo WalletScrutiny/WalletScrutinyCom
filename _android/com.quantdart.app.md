@@ -9,9 +9,9 @@ appId: com.quantdart.app
 released: 2020-09-16
 updated: 2021-06-11
 version: "1.1.16"
-stars: 3.4
-ratings: 16
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 95M
 website: 
 repository: 

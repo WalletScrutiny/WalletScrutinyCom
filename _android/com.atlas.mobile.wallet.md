@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.atlas.mobile.wallet
 released: 2020-08-07
-updated: 2021-08-14
-version: "1.0.42"
+updated: 2021-08-26
+version: "1.0.43"
 stars: 4.9
-ratings: 18
+ratings: 19
 reviews: 9
 size: 14M
 website: 

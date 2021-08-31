@@ -9,9 +9,9 @@ appId: com.betconix
 released: 2021-07-01
 updated: 2021-07-30
 version: "5.1"
-stars: 3.6
-ratings: 16
-reviews: 12
+stars: 3.7
+ratings: 18
+reviews: 14
 size: 12M
 website: 
 repository: 

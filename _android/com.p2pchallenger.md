@@ -4,7 +4,7 @@ title: "P2P Options - Peer to Peer Trading App"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.p2pchallenger
 released: 2021-04-16
 updated: 2021-05-24

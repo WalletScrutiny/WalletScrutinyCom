@@ -13,13 +13,11 @@ const htmlmin = require("gulp-htmlmin");
 
 gulp.task("minify", () => {
   return gulp
-    .src("_site/**/*.html")
+    .src("_site/index.html")
     .pipe(
       htmlmin({
         collapseWhitespace: true,
         removeComments: true,
-        minifyCSS: true,
-        minifyJS: true,
       })
     )
     .pipe(gulp.dest("_site"));

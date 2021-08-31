@@ -9,8 +9,8 @@ appId: global.bitex.bitexpay.android
 released: 2020-09-10
 updated: 2020-11-15
 version: "1.1.0"
-stars: 4.3
-ratings: 11
+stars: 4.0
+ratings: 12
 reviews: 7
 size: 7.3M
 website: 

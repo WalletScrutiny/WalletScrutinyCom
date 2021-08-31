@@ -9,8 +9,8 @@ appId: com.techx.arya
 released: 2019-09-10
 updated: 2021-08-05
 version: "2.8.2"
-stars: 3.9
-ratings: 249
+stars: 4.0
+ratings: 252
 reviews: 105
 size: 66M
 website: 

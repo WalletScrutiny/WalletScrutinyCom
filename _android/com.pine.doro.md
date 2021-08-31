@@ -9,9 +9,9 @@ appId: com.pine.doro
 released: 2021-04-10
 updated: 2021-05-05
 version: "1.1"
-stars: 3.3
-ratings: 37
-reviews: 32
+stars: 3.2
+ratings: 39
+reviews: 33
 size: 10M
 website: 
 repository: 

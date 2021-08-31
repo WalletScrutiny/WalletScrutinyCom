@@ -11,8 +11,8 @@ released: 2020-02-05
 updated: 2021-08-16
 version: "2.0.27"
 stars: 4.0
-ratings: 29
-reviews: 20
+ratings: 31
+reviews: 22
 size: 16M
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app

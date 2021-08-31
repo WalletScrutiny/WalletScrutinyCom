@@ -7,11 +7,11 @@ authors:
 users: 100
 appId: app.zupago.app
 released: 2021-04-30
-updated: 2021-07-22
-version: "1.2.4"
+updated: 2021-08-28
+version: "1.2.5"
 stars: 5.0
-ratings: 9
-reviews: 8
+ratings: 11
+reviews: 9
 size: 11M
 website: 
 repository: 

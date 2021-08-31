@@ -1,8 +1,25 @@
 const verdictOrder = "reproducible,nonverifiable,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,stale,obsolete,defunct,nowallet"
 const platformOrder = "hardware,android,iphone"
 
+
 window.wallets.sort((a, b) => {
-  return Number(b.users) - Number(a.users) ||  Number(b.ratings) - Number(a.ratings) || Number(b.reviews) - Number(a.reviews)
+  const diff = function(a, b) {
+    if (a && b) return Number(b) - Number(a)
+    return 0
+  }
+  return (
+      // sort by platform
+      platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
+      // by verdict within platform
+      || verdictOrder.indexOf(a.folder) - verdictOrder.indexOf(b.folder)
+      // if available, by users (Currently only Android)
+      || diff(b.users, a.users)
+      // if available, by ratings and reviews
+      || diff(b.ratings, a.ratings)
+      || diff(b.reviews, a.reviews)
+      // If no relevance criteria is available, randomize
+      || ((Math.random() - 0.5) * 1E9 | 0)
+    )
 })
 
 window.verdictOrder = verdictOrder.split(",")
@@ -24,8 +41,7 @@ window.wallets.forEach(e => {
       window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e]
       window.orderedObs[i]['ignore'] = true
     }
-  }
-  else if (e.appId && e.appId.length > 0) {
+  } else if (e.appId && e.appId.length > 0) {
     var n = e.appId
     _id++
     var i = readerRec.indexOf(_id)

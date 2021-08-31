@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.pro.bitcointoyou
 released: 2019-10-31
-updated: 2021-08-01
-version: "0.0.183"
-stars: 3.8
-ratings: 1116
-reviews: 685
+updated: 2021-08-20
+version: "0.0.184"
+stars: 3.9
+ratings: 1146
+reviews: 700
 size: 56M
 website: https://www.bitcointoyou.com
 repository: 

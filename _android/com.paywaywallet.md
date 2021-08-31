@@ -10,8 +10,8 @@ released: 2019-02-13
 updated: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
 stars: 4.1
-ratings: 234
-reviews: 138
+ratings: 236
+reviews: 140
 size: 19M
 website: http://www.payway.ug
 repository: 

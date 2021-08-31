@@ -4,14 +4,14 @@ title: "Celsius - Safe Crypto Platform"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: network.celsius.wallet
 released: 2018-06-04
 updated: 2021-08-09
 version: "4.10.0"
-stars: 4.4
-ratings: 5833
-reviews: 4071
+stars: 4.3
+ratings: 6056
+reviews: 4218
 size: 89M
 website: https://celsius.network
 repository: 

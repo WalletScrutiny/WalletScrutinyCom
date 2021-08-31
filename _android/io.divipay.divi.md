@@ -9,9 +9,9 @@ appId: io.divipay.divi
 released: 2021-04-28
 updated: 2021-08-04
 version: "1.0.6"
-stars: 4.3
-ratings: 41
-reviews: 29
+stars: 4.2
+ratings: 43
+reviews: 31
 size: 47M
 website: 
 repository: 

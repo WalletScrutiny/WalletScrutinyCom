@@ -9,9 +9,9 @@ appId: jp.co.smartapp.gowallet
 released: 2019-06-16
 updated: 2020-10-07
 version: "1.2.5"
-stars: 4.3
-ratings: 774
-reviews: 424
+stars: 4.2
+ratings: 778
+reviews: 425
 size: 162M
 website: 
 repository: 

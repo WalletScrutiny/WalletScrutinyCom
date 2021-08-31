@@ -9,9 +9,9 @@ appId: com.kuffgames.cryptoinvestinggame
 released: 2021-07-08
 updated: 2021-07-31
 version: "1.1"
-stars: 4.7
-ratings: 15
-reviews: 12
+stars: 4.8
+ratings: 16
+reviews: 13
 size: 28M
 website: 
 repository: 

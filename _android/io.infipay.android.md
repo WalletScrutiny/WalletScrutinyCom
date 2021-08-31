@@ -9,9 +9,9 @@ appId: io.infipay.android
 released: 2020-10-28
 updated: 2021-04-08
 version: "1.1.2"
-stars: 4.3
-ratings: 48
-reviews: 30
+stars: 4.1
+ratings: 51
+reviews: 31
 size: 49M
 website: 
 repository: 

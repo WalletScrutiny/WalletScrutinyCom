@@ -1,25 +1,25 @@
 ---
-wsId: CoinDCX Pro
+wsId: CoinDCXPro
 title: "CoinDCX Go: Bitcoin & Crypto Investment app"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: com.coindcx.btc
 released: 2020-12-09
 updated: 2021-08-18
-version: "1.6.012"
-stars: 4.0
-ratings: 55964
-reviews: 18044
+version: "1.6.016"
+stars: 4.2
+ratings: 61755
+reviews: 19709
 size: 82M
 website: https://coindcx.com/
 repository: 
 issue: 
 icon: com.coindcx.btc.png
-bugbounty: 
+bugbounty: https://coindcx.com/bug-bounty
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,8 +33,13 @@ redirect_from:
 
 ---
 
-It's not really clear what the difference is between [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** but they're from the same providers. We can assume that they have the same verdict.
+
+[CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a
+
+> Bitcoin & Crypto Investment app
+
+while Pro is a trading app.
 
 > Our cryptocurrency wallets are extremely secure and the funds are ensured with BitGo. 98% of CoinDCX's funds are held in geographically distributed multi-signature cold wallets.
 
-This product is **custodial** and therefore **not verifiable**.
+According to this claim from the Google Play description, this means that funds are under the custody of a third party. The product is **custodial** and therefore **not verifiable**.

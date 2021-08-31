@@ -1,5 +1,4 @@
 {% include base_path %}
-
 {% comment %}
 
 
@@ -8,7 +7,6 @@
 
 
 {% endcomment %}
-
 {% if post.altTitle %}
   {% assign title = post.altTitle %}
 {% else %}
@@ -19,11 +17,9 @@
   {% when "iphone" %}{% assign faCollection = "fab fa-app-store" %}
   {% when "hardware" %}{% assign faCollection = "fas fa-toolbox" %}
 {% endcase %}
-
 {% assign simpleAppId = post.appId | replace: '.', '' | prepend: post.collection %}
-
-<div class="AppDisplayCard" style="float:left">
-  <div style="width:7em;position:relative">
+<div class="AppDisplayCard">
+  <div>
     <div style="position:relative">
       <div class="flex-r">
         <div class="app_logo">
@@ -33,8 +29,8 @@
         <span class="stamp stamp-{{ post.verdict }}"></span>
       </div>
     </div>
-      <div class="app_info_box">
-          <strong>{{ title }}</strong>
-      </div>
+    <div class="app_info_box">
+      <strong>{{ title }}</strong>
+    </div>
   </div>
 </div>

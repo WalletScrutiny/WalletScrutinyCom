@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: one.big
 released: 2019-10-30
-updated: 2021-08-17
-version: "2.1.625"
-stars: 4.2
-ratings: 496
-reviews: 293
+updated: 2021-08-24
+version: "2.1.626"
+stars: 4.0
+ratings: 504
+reviews: 297
 size: 59M
 website: 
 repository: 

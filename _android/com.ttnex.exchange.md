@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.ttnex.exchange
 released: 2021-01-05
-updated: 2021-08-16
-version: "2.0.10"
+updated: 2021-08-24
+version: "2.0.11"
 stars: 4.1
 ratings: 15
 reviews: 12
