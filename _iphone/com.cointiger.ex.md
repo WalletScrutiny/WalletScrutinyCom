@@ -3,7 +3,7 @@ wsId: cointiger
 title: "CoinTiger-Crypto Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.cointiger.ex
 appCountry: us
 idd: 1366562802
@@ -19,7 +19,7 @@ issue:
 icon: com.cointiger.ex.jpg
 bugbounty: 
 verdict: stale
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 - date: 2021-08-23
@@ -36,6 +36,7 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
+
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
 
 > About CoinTiger<br>

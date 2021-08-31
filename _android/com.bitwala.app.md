@@ -3,24 +3,23 @@ wsId: Nuri
 title: "Nuri (ex Bitwala)"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.bitwala.app
 released: 2019-07-11
-updated: 2021-08-17
-version: "2.1.29"
-stars: 3.4
-ratings: 3241
-reviews: 2033
-size: 74M
+updated: 2021-08-25
+version: "2.1.33"
+stars: 3.5
+ratings: 3260
+reviews: 2045
+size: 91M
 website: https://nuri.com
 repository: 
 issue: 
 icon: com.bitwala.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From the site description:
 
 > Nuri is the app to manage, save and grow your money. Invest in cryptocurrencies, create savings plans & earn up to 5% interest per year on bitcoin directly from a German bank account.

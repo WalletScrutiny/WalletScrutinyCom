@@ -3,16 +3,15 @@ wsId:
 title: "Bitbns: Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.bitbns
 released: 2019-09-21
 updated: 2021-05-06
 version: "4.4.14"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 10653
+reviews: 5364
 size: 84M
 website: https://bitbns.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.bitbns.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit: Bitbns
 redirect_from:
 
 ---
+
+
 From their linkedin page:
 
 > Bitbns is the fastest and simplest way to trade cryptocurrencies with one of the best three-way Peer-to-Peer system for purchasing cryptocurrency with FIAT in India 

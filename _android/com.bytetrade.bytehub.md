@@ -3,7 +3,7 @@ wsId: bytehub
 title: "ByteHub - Multiple Cryptocurrency Wallet& Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.bytetrade.bytehub
 released: 2019-02-02
@@ -19,7 +19,7 @@ issue:
 icon: com.bytetrade.bytehub.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > With ByteHub, you are able to store, send, buy or sell the most kinds of cryptocurrency available in the market. ByteHub is also a carrier for diverse third-party DAPPs. A whole blockchain ecology can be explored in one application.
 

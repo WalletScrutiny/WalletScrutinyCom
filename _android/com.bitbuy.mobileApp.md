@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.bitbuy.mobileApp
 released: 
-updated: 2021-06-01
-version: "3.45.3"
+updated: 2021-08-25
+version: "3.56.0"
 stars: 2.5
-ratings: 1264
-reviews: 699
+ratings: 1265
+reviews: 701
 size: 55M
 website: 
 repository: 

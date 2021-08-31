@@ -9,8 +9,8 @@ appId: com.coinspace.app
 released: 2015-05-01
 updated: 2021-08-20
 version: "5.0.0"
-stars: 4.0
-ratings: 1025
+stars: 4.1
+ratings: 1030
 reviews: 452
 size: 7.1M
 website: https://www.coin.space

@@ -3,16 +3,15 @@ wsId: quantfury
 title: "Quantfury – Everybody's Honest Trading"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.quantfury
 released: 2018-11-26
 updated: 2021-08-23
 version: "v1.7.1815.3"
 stars: 4.6
-ratings: 7236
-reviews: 2145
+ratings: 7245
+reviews: 2149
 size: 49M
 website: https://quantfury.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.quantfury.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Description from the site: 
 
 > Сommission-free trading and investing at real-time spot prices of global and crypto exchanges.
@@ -41,7 +42,7 @@ Initially, it may appear like Quantfury is an exchange. But upon closer inspecti
 
 Here are more details:
 
-The platform provides services for: Crypto, Stocks, Futures, ETFS.
+The platform provides services for: Crypto, Stocks, Futures, ETFs.
 
 QuantFury [Terms and Conditions Page](https://quantfury.com/quantfury-terms-and-conditions.pdf)
 

@@ -10,8 +10,8 @@ idd: 1503068552
 released: 2020-03-23
 updated: 2021-06-03
 version: "2.0.21"
-stars: 3.75
-reviews: 4
+stars: 4
+reviews: 5
 size: 51833856
 website: https://exchangily.com
 repository: 

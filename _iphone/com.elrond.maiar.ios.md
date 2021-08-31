@@ -3,25 +3,30 @@ wsId: maiar
 title: "Maiar Browser"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.elrond.maiar.ios
 appCountry: ro
 idd: 1458612260
 released: 2020-03-05
 updated: 2020-07-23
 version: "0.1.3"
-stars: 4.9252
-reviews: 254
+stars: 4.92549
+reviews: 255
 size: 74845184
 website: https://browser.maiar.com/
 repository: 
 issue: 
 icon: com.elrond.maiar.ios.jpg
 bugbounty: 
-verdict: nosource
-date: 2021-08-24
+verdict: stale
+date: 2021-08-27
 signer: 
 reviewArchive:
+- date: 2021-08-27
+  version: "0.1.3"
+  appHash: 
+  gitRevision: a9ddd343442f032ffecc0fd75774198ca8fc2501
+  verdict: nosource
 - date: 2021-08-24
   version: "undefined"
   appHash: 

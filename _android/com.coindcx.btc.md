@@ -3,15 +3,15 @@ wsId: CoinDCXPro
 title: "CoinDCX Go: Bitcoin & Crypto Investment app"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: com.coindcx.btc
 released: 2020-12-09
 updated: 2021-08-18
 version: "1.6.016"
 stars: 4.2
-ratings: 60021
-reviews: 19392
+ratings: 61755
+reviews: 19709
 size: 82M
 website: https://coindcx.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coindcx.btc.png
 bugbounty: https://coindcx.com/bug-bounty
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a
 

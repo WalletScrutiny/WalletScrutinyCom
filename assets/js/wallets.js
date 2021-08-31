@@ -7,7 +7,7 @@ window.wallets.sort((a, b) => {
     if (a && b) return Number(b) - Number(a)
     return 0
   }
-  return
+  return (
       // sort by platform
       platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
       // by verdict within platform
@@ -19,6 +19,7 @@ window.wallets.sort((a, b) => {
       || diff(b.reviews, a.reviews)
       // If no relevance criteria is available, randomize
       || ((Math.random() - 0.5) * 1E9 | 0)
+    )
 })
 
 window.verdictOrder = verdictOrder.split(",")

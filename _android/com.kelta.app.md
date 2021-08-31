@@ -9,9 +9,9 @@ appId: com.kelta.app
 released: 2018-05-15
 updated: 2021-07-30
 version: "3.0.62"
-stars: 3.4
-ratings: 1253
-reviews: 1110
+stars: 3.5
+ratings: 1254
+reviews: 1111
 size: 4.3M
 website: 
 repository: 

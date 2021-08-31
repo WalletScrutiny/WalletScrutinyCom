@@ -3,15 +3,15 @@ wsId: foxbitexchange
 title: "Foxbit Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: br.com.foxbit.foxbitandroid
 released: 2019-01-28
-updated: 2021-08-18
-version: "2.3.0"
-stars: 3.2
-ratings: 4353
-reviews: 3183
+updated: 2021-08-26
+version: "2.4.0"
+stars: 3.4
+ratings: 4445
+reviews: 3240
 size: 13M
 website: https://ajuda.foxbit.com.br/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: br.com.foxbit.foxbitandroid.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**
 

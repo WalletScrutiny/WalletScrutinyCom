@@ -3,16 +3,15 @@ wsId: Pintu
 title: "Pintu: Buy/Sell Digital Assets"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: com.valar.pintu
 appCountry: us
 idd: 1494119678
 released: 2020-01-27
 updated: 2021-08-23
 version: "3.4.3"
-stars: 4.91892
-reviews: 37
+stars: 4.92105
+reviews: 38
 size: 98192384
 website: https://pintu.co.id/
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.valar.pintu.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-26
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
 > **Do I hold a Private Key?**<br>

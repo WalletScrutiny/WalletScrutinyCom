@@ -1,9 +1,9 @@
 ---
-wsId: bytehub	
+wsId: bytehub
 title: "ByteHub"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.bytetrade.bytehub
 appCountry: ph
 idd: 1453357819
@@ -19,7 +19,7 @@ issue:
 icon: com.bytetrade.bytehub.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-08-27
 signer: 
 reviewArchive:
 

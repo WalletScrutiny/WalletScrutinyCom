@@ -3,16 +3,15 @@ wsId:
 title: "FreeBitcoin Auto Roll: BitBot, win free BTC & DOGE"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.chlegou.bitbot
 released: 2019-01-02
 updated: 2021-05-17
 version: "1.5.6"
 stars: 3.8
-ratings: 7449
-reviews: 4386
+ratings: 7454
+reviews: 4389
 size: 9.5M
 website: https://bitbot.plus
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.chlegou.bitbot.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Description from [Bitbot Home Page](https://bitbot.plus)
 
 > The app is built for users who they don't have to solve captcha to earn "FREE BTC" rewards. It will claim rewards automatically every hour so you can earn more satoshis from the "FREE BTC" game.

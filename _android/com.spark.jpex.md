@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.spark.jpex
 released: 2020-07-30
-updated: 2021-08-24
-version: "2.15.304"
+updated: 2021-08-27
+version: "2.16.306"
 stars: 4.7
 ratings: 1000
 reviews: 925

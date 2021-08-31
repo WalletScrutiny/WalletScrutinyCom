@@ -1,26 +1,26 @@
 ---
 wsId: bitthumbglobal
 title: "BitGlobal (formerly Bithumb Global)"
-altTitle:
+altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: global.bithumb.android
 released: 2019-07-05
 updated: 2021-08-05
 version: "2.6.24"
 stars: 2.5
-ratings: 2820
-reviews: 2035
+ratings: 2832
+reviews: 2041
 size: 22M
 website: https://www.bithumb.pro/
-repository:
-issue:
+repository: 
+issue: 
 icon: global.bithumb.android.png
-bugbounty:
+bugbounty: 
 verdict: custodial
-date: 2021-08-25
-signer:
+date: 2021-08-27
+signer: 
 reviewArchive:
 
 
@@ -32,6 +32,8 @@ providerReddit: BithumbGlobal
 redirect_from:
 
 ---
+
+
 It's **highly recommended to avoid this app.**
 
 Their subreddit is full of clients reporting that they cannot withdraw their coins!

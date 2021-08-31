@@ -10,7 +10,7 @@ released: 2013-04-19
 updated: 2020-03-22
 version: "Varies with device"
 stars: 4.3
-ratings: 155
+ratings: 154
 reviews: 52
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov

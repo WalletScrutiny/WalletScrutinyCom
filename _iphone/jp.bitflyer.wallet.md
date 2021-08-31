@@ -3,16 +3,15 @@ wsId: bitFlyer
 title: "ビットコインならbitFlyer 仮想通貨 取引ウォレット"
 altTitle: 
 authors:
- - danny
-
+- danny
 appId: jp.bitflyer.wallet
 appCountry: jp
 idd: 1164758997
 released: 2016-11-18
 updated: 2021-08-06
 version: "6.3.3"
-stars: 4.31173
-reviews: 95495
+stars: 4.31193
+reviews: 95585
 size: 38583296
 website: https://bitflyer.com/
 repository: 
@@ -20,14 +19,14 @@ issue:
 icon: jp.bitflyer.wallet.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-26
+date: 2021-08-27
 signer: 
 reviewArchive:
 
 
-providerTwitter:  bitFlyer
+providerTwitter: bitFlyer
 providerLinkedIn: 
-providerFacebook:  bitflyer
+providerFacebook: bitflyer
 providerReddit: 
 
 redirect_from:
@@ -38,7 +37,7 @@ redirect_from:
 
 bitFlyer is **custodial** and **not verifiable.**
 
-As an additional note, some users seemed to have problems with verification.
+As an additional note, some users on Play Store seemed to have problems with verification.
 
 > [Sabari Nathan](https://play.google.com/store/apps/details?id=com.bitflyer.android.bfwallet&reviewId=gp%3AAOqpTOENgSfeAmSBEhWgih3JVV2d1hrztZJcZno8NBByWFLFpGOhiCobomj-P5225_rUUuCNjHSXcS84Dryj)<br>
   ★☆☆☆☆ 9 April 2021<br>

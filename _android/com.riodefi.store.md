@@ -9,9 +9,9 @@ appId: com.riodefi.store
 released: 2021-04-29
 updated: 2021-08-15
 version: "1.2.6"
-stars: 4.7
-ratings: 35
-reviews: 23
+stars: 4.6
+ratings: 36
+reviews: 24
 size: 11M
 website: 
 repository: 

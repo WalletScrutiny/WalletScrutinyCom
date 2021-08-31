@@ -3,8 +3,7 @@ wsId: rekeningku
 title: "Rekeningku.com"
 altTitle: 
 authors:
- - danny
- 
+- danny
 appId: com.rekeningku.app
 appCountry: us
 idd: 1458706382
@@ -20,7 +19,7 @@ issue:
 icon: com.rekeningku.app.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 

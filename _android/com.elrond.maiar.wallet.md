@@ -3,23 +3,23 @@ wsId: maiar
 title: "Maiar: Crypto & eGold Wallet - Buy, Earn & Pay"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.elrond.maiar.wallet
 released: 2021-01-15
-updated: 2021-08-19
-version: "1.3.46"
+updated: 2021-08-28
+version: "1.3.53"
 stars: 4.5
-ratings: 3761
-reviews: 1652
-size: 70M
+ratings: 3775
+reviews: 1653
+size: 67M
 website: https://maiar.com/
 repository: 
 issue: 
 icon: com.elrond.maiar.wallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Maiar is a digital wallet and global payments app that is reimagining the way we interact with money, allowing you to exchange and securely store crypto on your mobile phone.
 

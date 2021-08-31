@@ -10,8 +10,8 @@ released: 2019-09-19
 updated: 2021-08-19
 version: "1.3.28"
 stars: 4.0
-ratings: 39798
-reviews: 15662
+ratings: 39941
+reviews: 15720
 size: 11M
 website: https://www.hotbit.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.hotbit.shouyi.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-08-27
 signer: 
 reviewArchive:
 

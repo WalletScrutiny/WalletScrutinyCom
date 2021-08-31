@@ -3,7 +3,7 @@ wsId: quantfury
 title: "Quantfury"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.quantfury
 appCountry: gb
 idd: 1445564443
@@ -19,7 +19,7 @@ issue:
 icon: com.quantfury.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Description from the site: 
 
 > Сommission-free trading and investing at real-time spot prices of global and crypto exchanges.

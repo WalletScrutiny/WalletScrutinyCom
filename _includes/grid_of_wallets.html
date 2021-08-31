@@ -1,7 +1,7 @@
 <div id="walletsPerCatContainer" class="page-section selected">
-{% include base_path %}
+{%- include base_path -%}
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial,nosendreceive" | split: "," %}
+{%- assign verdicts = "reproducible,nonverifiable,nosource,custodial,nosendreceive" | split: "," -%}
 
 <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
 <a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>
@@ -14,13 +14,13 @@
     <td>
     </td>
   </tr>
-  {% for v in verdicts %}
-    {% assign iphonePosts  = site.iphone  | sort: "appId" | reverse | sort: "reviews" | reverse %}
-    {% assign androidPosts = site.android | sort: "appId" | reverse | sort: "users"   | reverse %}
-    {% include grid_of_wallets_platform.html platform = "iphone"   platformPosts = iphonePosts %}
-    {% include grid_of_wallets_platform.html platform = "android"  platformPosts = androidPosts %}
-    {% include grid_of_wallets_platform.html platform = "hardware" platformPosts = site.hardware %}
-  {% endfor %}
+  {%- for v in verdicts -%}
+    {%- assign iphonePosts  = site.iphone  | sort: "appId" | reverse | sort: "reviews" | reverse -%}
+    {%- assign androidPosts = site.android | sort: "appId" | reverse | sort: "users"   | reverse -%}
+    {%- include grid_of_wallets_platform.html platform = "iphone"   platformPosts = iphonePosts -%}
+    {%- include grid_of_wallets_platform.html platform = "android"  platformPosts = androidPosts -%}
+    {%- include grid_of_wallets_platform.html platform = "hardware" platformPosts = site.hardware -%}
+  {%- endfor -%}
 </table>
 
 </div>

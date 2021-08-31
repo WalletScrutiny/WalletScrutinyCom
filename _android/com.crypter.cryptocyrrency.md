@@ -10,8 +10,8 @@ released: 2017-09-09
 updated: 2021-08-13
 version: "2.6.4"
 stars: 4.6
-ratings: 68105
-reviews: 19143
+ratings: 68330
+reviews: 19209
 size: 34M
 website: https://thecrypto.app/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-21
+date: 2021-08-27
 signer: 
 reviewArchive:
 

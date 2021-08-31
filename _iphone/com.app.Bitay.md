@@ -3,7 +3,7 @@ wsId: bitay
 title: "Bitay - Easy Bitcoin Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.app.Bitay
 appCountry: us
 idd: 1458595661
@@ -19,7 +19,7 @@ issue:
 icon: com.app.Bitay.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Site Description:
 
 > Turkey's Most Trusted Crypto Currency Exchange

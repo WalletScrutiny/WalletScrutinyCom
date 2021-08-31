@@ -4,7 +4,7 @@ title: "ZEBEDEE Wallet"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: io.zebedee.wallet
 released: 2020-10-20
 updated: 2021-05-26

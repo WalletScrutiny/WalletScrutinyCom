@@ -3,16 +3,15 @@ wsId:
 title: "Binance JEX - Bitcoin Futures&Options Exchange"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.jex.trade
 released: 2019-04-25
 updated: 2021-05-10
 version: "2.8.1"
 stars: 3.6
-ratings: 878
-reviews: 448
+ratings: 894
+reviews: 454
 size: 10M
 website: https://www.jex.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.jex.trade.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-20
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 [Binance Launches JEX Token Airdrop Program For All BNB Holders](https://www.binance.com/en/support/announcement/360033416091)
 
 As indicated and linked to in Binance's official website, Binance acquired JEX.com and spun it off to become a Futures and Options trading platform.

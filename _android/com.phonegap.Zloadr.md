@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - NFT Drops, NFT Calendar & NFT Marketplace"
+title: "Zloadr - Free NFT & Crypto Marketplace Wallet App"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ released: 2019-06-17
 updated: 2019-07-15
 version: "1.1.0"
 stars: 4.8
-ratings: 1009
-reviews: 921
+ratings: 1011
+reviews: 923
 size: 12M
 website: 
 repository: 

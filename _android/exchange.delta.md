@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: exchange.delta
 released: 2021-05-07
-updated: 2021-07-30
-version: "1.4.1"
+updated: 2021-08-25
+version: "1.4.2"
 stars: 4.3
-ratings: 68
-reviews: 41
+ratings: 76
+reviews: 46
 size: 22M
 website: 
 repository: 

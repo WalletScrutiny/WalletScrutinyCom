@@ -4,7 +4,7 @@ title: "eBitcoinics Inc - Simplified gateway to blockchain"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: io.ebitconics.com
 released: 2021-01-18
 updated: 2021-01-18
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.ebitconics.com.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

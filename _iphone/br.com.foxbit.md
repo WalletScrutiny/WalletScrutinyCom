@@ -3,23 +3,23 @@ wsId: foxbitexchange
 title: "Foxbit Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 appId: br.com.foxbit
 appCountry: ph
 idd: 1435319194
 released: 2019-03-24
-updated: 2021-08-19
-version: "2.3.0"
+updated: 2021-08-27
+version: "2.4.0"
 stars: 
 reviews: 
-size: 136979456
-website: https://foxbit.com.br
+size: 138431488
+website: https://foxbit.com.br/aplicativo/
 repository: 
 issue: 
 icon: br.com.foxbit.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-26
+date: 2021-08-27
 signer: 
 reviewArchive:
 

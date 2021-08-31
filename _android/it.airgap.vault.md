@@ -7,21 +7,26 @@ authors:
 users: 10000
 appId: it.airgap.vault
 released: 2018-08-06
-updated: 2021-07-29
-version: "3.8.0"
+updated: 2021-08-26
+version: "3.9.0"
 stars: 4.0
-ratings: 84
+ratings: 85
 reviews: 36
 size: 68M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/43
+issue: https://github.com/airgap-it/airgap-vault/issues/91
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: reproducible
-date: 2021-08-03
+verdict: obfuscated
+date: 2021-08-28
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-08-03
+  version: "3.8.0"
+  appHash: f886635f7014856631e4d325fca4ba49b20fdb1b57116b1b416af0bfb8f5ba09
+  gitRevision: 9e86597fdc6ed6beaf848b2899f1df7f9e9da62e
+  verdict: reproducible
 - date: 2021-04-24
   version: "3.7.0"
   appHash: 57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f
@@ -104,27 +109,68 @@ We ran our
 which delivered these results:
 
 ```
+[hash=62d2c09cb1cbceeab1b90cf19e94e7e1c2385cf1bf852629200dea0999ea1c62, versionCode=33523, versionName=3.9.0, date=Fri Aug 27 23:13:50 UTC 2021, reproducible=false, testResult=Something went wrong while trying to reproduce the apk from wallet repository.]
+```
+
+... this was our first run which happened automatically on our server.
+
+Running it locally resulted in:
+
+```
+fatal: Remote branch v3.9.0 not found in upstream origin
+```
+
+which is what the server probably ran into, too. Without further investigation
+we tried the latest version on the `master` branch:
+
+```
+$ ./test.sh --apk /path/to/AirGap\ Vault\ 3.9.0\ \(it.airgap.vault\).apk --revision-override master
+...
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.8.0
-apkVersionCode: 32548
-verdict:        reproducible
-appHash:        f886635f7014856631e4d325fca4ba49b20fdb1b57116b1b416af0bfb8f5ba09
-commit:         ec10ff6a4d1af589bcb0987713f88a07ae76b727
+apkVersionName: 3.9.0
+apkVersionCode: 33523
+verdict:        
+appHash:        62d2c09cb1cbceeab1b90cf19e94e7e1c2385cf1bf852629200dea0999ea1c62
+commit:         5f7ace136ae9377128809155180aa160ecb01ed1
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_32548/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_32548/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_32548/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_32548/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_33523/assets/public/3rdpartylicenses.txt and /tmp/fromBuild_it.airgap.vault_33523/assets/public/3rdpartylicenses.txt differ
+Files /tmp/fromPlay_it.airgap.vault_33523/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_33523/assets/public/index.html differ
+Only in /tmp/fromPlay_it.airgap.vault_33523/assets/public: main.1991060c36f34c10328b.js
+Only in /tmp/fromBuild_it.airgap.vault_33523/assets/public: main.462813af45843585aca4.js
+Files /tmp/fromPlay_it.airgap.vault_33523/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_33523/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_33523/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_33523/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object ec10ff6a4d1af589bcb0987713f88a07ae76b727
-type commit
-tag v3.8.0
-tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1627662437 +0200
-
-v3.8.0
 ```
 
-This is what we expect to see on a **reproducible** app.
+which is **not verifiable**. But is it dangerous?
+
+```
+$ sha256sum /tmp/fromPlay_it.airgap.vault_33523/assets/public/main.1991060c36f34c10328b.js /tmp/fromBuild_it.airgap.vault_33523/assets/public/main.462813af45843585aca4.js
+1bc94185658db02fe8d6b155f0ae01c237b916302627aba74581f31f63fe198a  /tmp/fromPlay_it.airgap.vault_33523/assets/public/main.1991060c36f34c10328b.js
+91f78ee19cadb51b379e65f330dc44edceb1b1000e79b9d43dd2c585651e4fc5  /tmp/fromBuild_it.airgap.vault_33523/assets/public/main.462813af45843585aca4.js
+```
+
+`main.1991060c36f34c10328b.js` is not just named differently. As its content is
+**obfuscated**:
+
+```
+$ head -c 800 /tmp/fromPlay_it.airgap.vault_33523/assets/public/main.1991060c36f34c10328b.js | fold -w 80
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"+/uU":function(Qt){Qt.
+exports=JSON.parse('{"$ref":"#/definitions/SignedEthereumTransaction","$schema":
+"http://json-schema.org/draft-07/schema#","definitions":{"SignedEthereumTransact
+ion":{"additionalProperties":false,"properties":{"accountIdentifier":{"type":"st
+ring"},"transaction":{"type":"string"}},"required":["accountIdentifier","transac
+tion"],"type":"object"}}}')},"+4fs":function(Qt,Ft,Jt){"use strict";var Ht,qt=Jt
+("3Fw7"),jt=this&&this.__extends||(Ht=function extendStatics(Qt,Ft){return(Ht=Ob
+ject.setPrototypeOf||{__proto__:[]}instanceof Array&&function(Qt,Ft){Qt.__proto_
+_=Ft}||function(Qt,Ft){for(var Jt in Ft)Object.prototype.hasOwnProperty.call(Ft,
+Jt)&&(Qt[Jt]=Ft[Jt])})(Qt,Ft)},function(Qt,Ft){function __(){this.constructor=Qt
+```
+
+This is alarming and not the first time this happens. Check Older Reviews above
+for `v3.6.1`.

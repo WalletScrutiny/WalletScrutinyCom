@@ -3,14 +3,14 @@ wsId: bitFlyer
 title: "bitFlyer: Crypto Exchange to Buy & Trade Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500000
 appId: com.bitflyer.android.bfwallet
 released: 
 updated: 2021-08-05
 version: "5.27.0"
-stars: 3.7
-ratings: 3591
+stars: 3.8
+ratings: 3599
 reviews: 1287
 size: 14M
 website: https://bitflyer.com/
@@ -19,7 +19,7 @@ issue:
 icon: com.bitflyer.android.bfwallet.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-23
+date: 2021-08-27
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.
 

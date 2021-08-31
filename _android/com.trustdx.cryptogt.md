@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CryptoGT : Trade cryptocurrency, bitcoin"
+title: "C r y p t o G T : Trade cryptocurrency (cryptogt)"
 altTitle: 
 authors:
 
