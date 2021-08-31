@@ -11,8 +11,8 @@ idd: 1512836089
 released: 2020-07-30
 updated: 2021-08-12
 version: "5.8.1"
-stars: 4.83422
-reviews: 561
+stars: 4.83704
+reviews: 540
 size: 63953920
 website: https://wallet.pointpay.io
 repository: 

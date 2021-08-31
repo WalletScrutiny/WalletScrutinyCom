@@ -10,8 +10,8 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2021-08-20
 version: "6.4.3"
-stars: 4.71849
-reviews: 3023
+stars: 4.71971
+reviews: 3022
 size: 299601920
 website: http://www.hbg.com
 repository: 

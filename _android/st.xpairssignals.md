@@ -10,7 +10,7 @@ released: 2017-10-07
 updated: 2020-02-21
 version: "4.4"
 stars: 4.2
-ratings: 826
+ratings: 827
 reviews: 479
 size: 3.4M
 website: 

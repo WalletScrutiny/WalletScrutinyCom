@@ -4,7 +4,7 @@ title: "Buy/Sell Free Bitcoin & Cryptocurrency - Cryptoit"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.udmitz.cryptoit
 released: 2021-06-13
 updated: 2021-06-13

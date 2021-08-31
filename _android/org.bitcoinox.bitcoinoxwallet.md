@@ -10,7 +10,7 @@ released: 2019-02-04
 updated: 2020-12-10
 version: "2.3.5"
 stars: 4.4
-ratings: 26
+ratings: 27
 reviews: 17
 size: Varies with device
 website: https://bitcoinox.com

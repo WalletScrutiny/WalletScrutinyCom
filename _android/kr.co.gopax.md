@@ -11,7 +11,7 @@ updated: 2021-08-24
 version: "1.4.12.ca9d"
 stars: 3.0
 ratings: 1036
-reviews: 810
+reviews: 809
 size: 18M
 website: 
 repository: 

@@ -4,7 +4,7 @@ title: "BTC.com - Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 500000
+users: 1000000
 appId: com.blocktrail.mywallet
 released: 2015-09-09
 updated: 2019-04-03

@@ -1,18 +1,18 @@
 ---
 wsId: huobi
-title: "Huobi Global"
+title: "Huobi Global-Bitcoin Marketplace"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: pro.huobi
 released: 2017-11-01
-updated: 2021-08-19
-version: "6.4.3"
+updated: 2021-08-30
+version: "6.4.5"
 stars: 4.6
-ratings: 13327
-reviews: 4397
-size: 92M
+ratings: 13335
+reviews: 4402
+size: 93M
 website: https://www.huobi.com/en-us
 repository: 
 issue: 

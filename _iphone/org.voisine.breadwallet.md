@@ -8,11 +8,11 @@ appId: org.voisine.breadwallet
 appCountry: 
 idd: 885251393
 released: 2014-06-22
-updated: 2021-08-23
-version: "4.12.2"
-stars: 4.57678
-reviews: 11514
-size: 61320192
+updated: 2021-08-30
+version: "4.12.3"
+stars: 4.57681
+reviews: 11527
+size: 61789184
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1
