@@ -1,0 +1,40 @@
+---
+wsId: 
+title: "Clet - Crypto Portal"
+altTitle: 
+authors:
+
+users: 50000
+appId: io.uun.clet
+released: 2018-07-20
+updated: 2019-11-11
+version: "1.17.1"
+stars: 2.5
+ratings: 732
+reviews: 360
+size: 19M
+website: 
+repository: 
+issue: 
+icon: io.uun.clet.png
+bugbounty: 
+verdict: stale
+date: 2021-09-01
+signer: 
+reviewArchive:
+- date: 2021-09-01
+  version: ""
+  appHash: 
+  gitRevision: c2ac8bcb505f4906e95f303462b79fcf1dccb25a
+  verdict: wip
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

@@ -1,0 +1,40 @@
+---
+wsId: 
+title: "Arion Wallet"
+altTitle: 
+authors:
+
+users: 100
+appId: com.arion.wallet
+released: 2019-10-10
+updated: 2019-10-10
+version: "v1.0.1"
+stars: 4.7
+ratings: 38
+reviews: 14
+size: 4.2M
+website: 
+repository: 
+issue: 
+icon: com.arion.wallet.png
+bugbounty: 
+verdict: stale
+date: 2021-09-01
+signer: 
+reviewArchive:
+- date: 2021-09-01
+  version: ""
+  appHash: 
+  gitRevision: c2ac8bcb505f4906e95f303462b79fcf1dccb25a
+  verdict: wip
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
