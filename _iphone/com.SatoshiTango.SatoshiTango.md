@@ -4,6 +4,7 @@ title: "SatoshiTango"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 idd: 1002555958
@@ -42,3 +43,5 @@ sounds like a wallet that also supports Bitcoin but there is not much
 information on who gets to control the keys.
 
 We have to assume this is a custodial offering and thus **not verifiable**.
+
+**EDIT:** As of 2021-9-01, [the website](http://www.satoshitango.com) is inaccessible and there may be problems for users trying to sign up. 

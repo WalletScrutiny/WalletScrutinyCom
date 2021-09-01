@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: ng.wallet.prod
 appCountry: 
 idd: 1280830303
@@ -19,7 +20,7 @@ repository:
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
-verdict: custodial
+verdict: nobtc
 date: 2021-04-24
 signer: 
 reviewArchive:
@@ -40,3 +41,9 @@ management of private keys.
 
 Our verdict: This “wallet” is probably custodial and therefore is
 **not verifiable**.
+
+**EDIT:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 
+
+> via bank transfer and your bank card
+
+This app **does not appear to support BTC.**

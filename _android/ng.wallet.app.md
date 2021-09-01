@@ -4,6 +4,7 @@ title: "Wallets Africa - Seamless Digital Transactions"
 altTitle: 
 authors:
 - kiwilamb
+- danny
 users: 50000
 appId: ng.wallet.app
 released: 2017-06-22
@@ -18,7 +19,7 @@ repository:
 issue: 
 icon: ng.wallet.app.png
 bugbounty: 
-verdict: custodial
+verdict: nobtc
 date: 2021-04-23
 signer: 
 reviewArchive:
@@ -40,3 +41,9 @@ management of private keys.
 
 Our verdict: This “wallet” is probably custodial and therefore is
 **not verifiable**.
+
+**EDIT:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 
+
+> via bank transfer and your bank card
+
+This app **does not appear to support BTC.**
