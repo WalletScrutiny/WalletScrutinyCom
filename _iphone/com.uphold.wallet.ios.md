@@ -10,8 +10,8 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2021-08-28
 version: "4.18.0"
-stars: 3.58315
-reviews: 4889
+stars: 3.58238
+reviews: 4892
 size: 70138880
 website: https://uphold.com
 repository: 

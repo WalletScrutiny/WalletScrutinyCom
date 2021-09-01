@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.ibt.quarashi
 released: 2021-07-09
-updated: 2021-08-12
-version: "1.0.6"
+updated: 2021-08-31
+version: "1.0.7"
 stars: 4.9
-ratings: 34
+ratings: 35
 reviews: 25
 size: 15M
 website: 

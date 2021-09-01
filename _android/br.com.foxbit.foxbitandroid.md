@@ -9,9 +9,9 @@ appId: br.com.foxbit.foxbitandroid
 released: 2019-01-28
 updated: 2021-08-26
 version: "2.4.0"
-stars: 3.6
-ratings: 4470
-reviews: 3253
+stars: 3.7
+ratings: 4502
+reviews: 3276
 size: 13M
 website: https://ajuda.foxbit.com.br/
 repository: 

@@ -11,8 +11,8 @@ released: 2018-07-16
 updated: 2021-08-24
 version: "2.14.4"
 stars: 4.3
-ratings: 253558
-reviews: 63925
+ratings: 254788
+reviews: 64035
 size: 9.8M
 website: https://wazirx.com
 repository: 

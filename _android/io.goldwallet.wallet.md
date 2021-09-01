@@ -9,9 +9,9 @@ appId: io.goldwallet.wallet
 released: 2020-02-18
 updated: 2021-08-24
 version: "Varies with device"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.0
+ratings: 470
+reviews: 265
 size: Varies with device
 website: https://bitcoinvault.global
 repository: 

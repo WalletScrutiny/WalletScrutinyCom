@@ -10,9 +10,9 @@ appId: com.crypto.blockchain
 released: 2021-06-22
 updated: 2021-08-17
 version: "1.1.0"
-stars: 5.0
-ratings: 8
-reviews: 1
+stars: 4.6
+ratings: 9
+reviews: 2
 size: 8.0M
 website: 
 repository: 

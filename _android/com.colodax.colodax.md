@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.colodax.colodax
 released: 2020-01-31
-updated: 2021-08-11
-version: "1.6.3"
+updated: 2021-08-27
+version: "1.7.1"
 stars: 4.5
 ratings: 150
 reviews: 132

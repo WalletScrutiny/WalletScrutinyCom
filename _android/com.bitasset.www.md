@@ -9,9 +9,9 @@ appId: com.bitasset.www
 released: 2018-09-20
 updated: 2021-03-23
 version: "3.4.12"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.8
+ratings: 44
+reviews: 27
 size: 33M
 website: 
 repository: 

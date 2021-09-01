@@ -9,9 +9,9 @@ appId: io.ambergroup.amber
 released: 2020-09-21
 updated: 2021-08-02
 version: "v1.6.0"
-stars: 3.8
-ratings: 364
-reviews: 183
+stars: 3.9
+ratings: 367
+reviews: 185
 size: 80M
 website: 
 repository: 
