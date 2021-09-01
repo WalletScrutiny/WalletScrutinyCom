@@ -4,7 +4,7 @@ title: "SatoshiTango"
 altTitle: 
 authors:
 - leo
-- danny
+
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
 released: 2015-06-24
@@ -33,8 +33,6 @@ providerReddit:
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---
-
-
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>
   Pay in local currency and hold a balance in fiat currency. Store your cryptos
@@ -45,4 +43,3 @@ information on who gets to control the keys.
 
 We have to assume this is a custodial offering and thus **not verifiable**.
 
-**EDIT:** As of 2021-9-01, [the website](http://www.satoshitango.com) is inaccessible and there may be problems for users trying to sign up. 

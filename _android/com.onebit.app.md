@@ -34,11 +34,13 @@ redirect_from:
   - /com.onebit.app/
   - /posts/com.onebit.app/
 ---
-**UPDATE:**
+**UPDATE: 2021-09-01**
 
 > New sign-ups and deposits have been disabled, and even though your funds remain safe, we encourage you to withdraw your funds from your TenX Wallet at your earliest convenience.
 
 TenX will start "sunsetting their services soon." **This product can not send or receive.**
+
+---
 
 This app's description hints at being custodial with:
 
