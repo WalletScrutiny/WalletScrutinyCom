@@ -32,12 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-> Welcome to the world’s leading cryptocurrency exchange with 16 Trading Bots! 
-
-Sounds like an exchange.
-
-> Your cryptocurrency in your Pionex wallet is securely stored in Binance and Huobi Global, which has the world's class security level. And your account is also secured with email verification, Google Authenticator verification, a personal passcode, and the withdrawal white list.
-
-If the funds are stored by Binance/Huobi this means that Pionex is a broker.
-
-In this case, Pionex is **not a wallet** but a broker.
+{% include copyFromAndroid.html %}
