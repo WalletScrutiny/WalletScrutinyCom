@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: WealthsimpleTrade
 title: "Wealthsimple Trade: Buy Stocks"
 altTitle: 
 authors:
-
+ - danny
 appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.wealthsimple.trade.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-08-23
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Wealthsimple
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: wealthsimple
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
