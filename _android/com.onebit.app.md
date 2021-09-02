@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.onebit.app.png
 bugbounty: 
-verdict: nosendreceive
+verdict: defunct
 date: 2019-12-20
 signer: 
 reviewArchive:
@@ -38,9 +38,9 @@ redirect_from:
 
 > New sign-ups and deposits have been disabled, and even though your funds remain safe, we encourage you to withdraw your funds from your TenX Wallet at your earliest convenience.
 
-TenX will start "sunsetting their services soon." **This product can not send or receive.**
+TenX will start "sunsetting their services soon." As such and with no new service replacement announced at the time of this review, it would be best to label this app as defunct.
 
----
+## Old Analysis
 
 This app's description hints at being custodial with:
 
