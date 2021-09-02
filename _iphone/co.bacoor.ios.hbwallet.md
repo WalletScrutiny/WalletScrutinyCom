@@ -32,6 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-We downloaded the app. This is an Ethereum wallet meant for Ethereum transactions. It's possible to buy Bitcoin, but through a third party provider. Bitcoins are not stored on the wallet. 
-
-Verdict is **nobtc**
+{% include copyFromAndroid.html %}
