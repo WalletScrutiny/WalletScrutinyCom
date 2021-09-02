@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 1698
 reviews: 1359
 size: 17M
-website: 
+website: https://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.app.png
