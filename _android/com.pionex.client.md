@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pionex.client.png
 bugbounty: 
-verdict: nowallet
+verdict: custodial
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -32,13 +32,12 @@ providerReddit:
 redirect_from:
 
 ---
-
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 
 
 Sounds like an exchange.
 
 > Your cryptocurrency in your Pionex wallet is securely stored in Binance and Huobi Global, which has the world's class security level. And your account is also secured with email verification, Google Authenticator verification, a personal passcode, and the withdrawal white list.
 
-If the funds are stored by Binance/Huobi this means that Pionex is a broker.
+This is their [how to transfer assets to pionex page](https://www.pionex.com/blog/how-do-i-transfer-my-assets-to-pionex/#Which_assets_should_I_use_for_transferring_funds_between_exchanges).
 
-In this case, Pionex is **not a wallet** but a broker.
+We signed up to verify and like most exchanges, it is a custodial service
