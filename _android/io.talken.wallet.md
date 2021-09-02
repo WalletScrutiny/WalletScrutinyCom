@@ -33,7 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
-**UPDATE:** This "wallet" is meant for NFTs and not Bitcoin.
+**UPDATE 2021-09-01**: This "wallet" is meant for NFTs and not Bitcoin.
 
 With this statement below from the providers [Play store description](https://play.google.com/store/apps/details?id=io.talken.wallet), it is clear that the user is not in control of the wallets private keys.
 
