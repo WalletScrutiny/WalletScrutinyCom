@@ -34,6 +34,5 @@ redirect_from:
 
 ---
 In an article entitled, [Which features are coming soon](https://help.eversend.co/en/articles/4349362-which-features-are-coming-soon) 
-
 Eversend indicated that Eversend Crypto is a future offering.
 
