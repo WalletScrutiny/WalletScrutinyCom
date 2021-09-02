@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.pionex.jpg
 bugbounty: 
-verdict: nowallet
+verdict: custodial
 date: 2021-08-30
 signer: 
 reviewArchive:
