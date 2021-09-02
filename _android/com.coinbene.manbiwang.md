@@ -9,9 +9,9 @@ appId: com.coinbene.manbiwang
 released: 2018-11-09
 updated: 2021-05-18
 version: "4.1.6"
-stars: 3.5
-ratings: 768
-reviews: 458
+stars: 3.6
+ratings: 771
+reviews: 461
 size: 52M
 website: 
 repository: 

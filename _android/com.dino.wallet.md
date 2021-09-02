@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.dino.wallet
 released: 2021-05-30
-updated: 2021-07-27
-version: "1.25"
+updated: 2021-08-28
+version: "1.26"
 stars: 4.8
-ratings: 1489
-reviews: 1059
+ratings: 1487
+reviews: 1057
 size: 34M
 website: 
 repository: 

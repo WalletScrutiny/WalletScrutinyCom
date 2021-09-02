@@ -10,8 +10,8 @@ idd: 1349082789
 released: 2018-03-07
 updated: 2021-08-27
 version: "1.8"
-stars: 4.20979
-reviews: 26002
+stars: 4.2111
+reviews: 26182
 size: 53679104
 website: https://support.wazirx.com
 repository: 

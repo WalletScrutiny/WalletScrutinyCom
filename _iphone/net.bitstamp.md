@@ -10,8 +10,8 @@ idd: 1406825640
 released: 2019-01-30
 updated: 2021-07-29
 version: "2.3.2"
-stars: 4.79172
-reviews: 4734
+stars: 4.79176
+reviews: 4735
 size: 98003968
 website: https://www.bitstamp.net/
 repository: 

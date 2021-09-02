@@ -9,8 +9,8 @@ appId: im.token.app99
 released: 2020-05-09
 updated: 2021-05-07
 version: "2.9.6"
-stars: 3.9
-ratings: 8
+stars: 3.7
+ratings: 7
 reviews: 4
 size: 45M
 website: 

@@ -1701,6 +1701,19 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   white-space:nowrap;
 }
 
+.verdictBadge {
+  text-decoration:none !important;
+}
+
+.verdictBadge > span {
+  white-space:nowrap;
+  padding:5px 10px 3px;
+  border-radius:100px;
+  color:var(--white, #fff);
+  text-transform:uppercase;
+  font-weight:600;
+}
+
 html {
   scroll-behavior: smooth;
 }

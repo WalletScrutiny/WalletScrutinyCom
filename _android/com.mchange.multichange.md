@@ -9,8 +9,8 @@ appId: com.mchange.multichange
 released: 2020-08-10
 updated: 2020-08-10
 version: "1.0"
-stars: 4.2
-ratings: 9
+stars: 4.3
+ratings: 10
 reviews: 4
 size: 1.4M
 website: 
