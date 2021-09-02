@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Haru Invest - Earn Bitcoin"
+altTitle: 
+authors:
+
+users: 500
+appId: com.bchi.haruinvestapp
+released: 2021-08-11
+updated: 2021-08-13
+version: "1.0.0"
+stars: 4.8
+ratings: 16
+reviews: 13
+size: 69M
+website: 
+repository: 
+issue: 
+icon: com.bchi.haruinvestapp.png
+bugbounty: 
+verdict: fewusers
+date: 2021-09-01
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

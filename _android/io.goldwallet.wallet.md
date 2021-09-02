@@ -4,7 +4,7 @@ title: "GoldWallet - Bitcoin Vault Wallet"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: io.goldwallet.wallet
 released: 2020-02-18
 updated: 2021-08-24

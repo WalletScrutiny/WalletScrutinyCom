@@ -9,8 +9,8 @@ appId: com.evraon.trading
 released: 2019-06-14
 updated: 2021-08-18
 version: "1.5.1"
-stars: 4.4
-ratings: 16
+stars: 4.5
+ratings: 17
 reviews: 11
 size: 12M
 website: 

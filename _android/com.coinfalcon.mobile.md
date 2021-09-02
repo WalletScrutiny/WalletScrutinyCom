@@ -10,7 +10,7 @@ released: 2019-07-10
 updated: 2021-02-08
 version: "2.1.13"
 stars: 3.1
-ratings: 99
+ratings: 98
 reviews: 68
 size: 64M
 website: https://coinfalcon.com

@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.wirex
 released: 2016-03-31
-updated: 2021-08-06
-version: "3.23.5"
+updated: 2021-08-27
+version: "3.23.6"
 stars: 3.5
-ratings: 21919
-reviews: 11937
+ratings: 21962
+reviews: 11958
 size: 100M
 website: https://wirexapp.com/en
 repository: 

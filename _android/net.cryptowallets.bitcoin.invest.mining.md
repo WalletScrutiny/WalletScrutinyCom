@@ -4,7 +4,7 @@ title: "Bitcoin Invest Mining"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: net.cryptowallets.bitcoin.invest.mining
 released: 2021-06-27
 updated: 2021-06-28

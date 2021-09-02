@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.zipmex
 released: 2020-03-30
-updated: 2021-08-27
-version: "2.9.1135334225"
-stars: 4.1
-ratings: 8039
-reviews: 4404
-size: 125M
+updated: 2021-08-31
+version: "21.8.2.1175807796"
+stars: 4.2
+ratings: 8204
+reviews: 4461
+size: 128M
 website: 
 repository: 
 issue: 

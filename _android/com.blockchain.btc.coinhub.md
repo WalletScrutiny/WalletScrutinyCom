@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.blockchain.btc.coinhub
 released: 2021-05-13
-updated: 2021-08-25
-version: "1.0.2.0.2"
+updated: 2021-08-30
+version: "1.0.2.0.3"
 stars: 4.5
-ratings: 650
+ratings: 668
 reviews: 122
 size: 46M
 website: https://adslab-2b1c2.web.app

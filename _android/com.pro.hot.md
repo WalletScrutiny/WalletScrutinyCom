@@ -4,7 +4,7 @@ title: "Hotcoin"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.pro.hot
 released: 2021-05-27
 updated: 2021-08-11
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pro.hot.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:

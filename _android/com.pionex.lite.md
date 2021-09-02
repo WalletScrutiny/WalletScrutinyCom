@@ -9,8 +9,8 @@ appId: com.pionex.lite
 released: 2021-05-14
 updated: 2021-08-26
 version: "1.1.7"
-stars: 4.6
-ratings: 7
+stars: 4.4
+ratings: 8
 reviews: 3
 size: 51M
 website: 

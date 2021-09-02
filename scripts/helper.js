@@ -4,7 +4,7 @@ const FileType = require('file-type')
 
 function downloadImageFile(url, path, callback) {
   const iconFile = fs.createWriteStream(path)
-  const request = https.get(`${url}`, function(response) {
+  const request = https.get(`${url}`, response => {
     response.pipe(iconFile)
     response.on('end', function() {
       (async () => {
@@ -29,6 +29,9 @@ function downloadImageFile(url, path, callback) {
         })
       })()
     })
+  })
+  request.on('error', err => {
+    console.error(err)
   })
 }
 

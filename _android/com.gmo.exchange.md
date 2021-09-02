@@ -9,9 +9,9 @@ appId: com.gmo.exchange
 released: 2020-08-07
 updated: 2021-08-28
 version: "1.1.4"
-stars: 4.5
-ratings: 44
-reviews: 15
+stars: 4.4
+ratings: 47
+reviews: 17
 size: 13M
 website: 
 repository: 
