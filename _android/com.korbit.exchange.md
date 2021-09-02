@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.korbit.exchange.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-01
 signer: 
 reviewArchive:

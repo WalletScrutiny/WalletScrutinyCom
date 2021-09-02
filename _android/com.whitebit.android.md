@@ -41,8 +41,3 @@ Proof that this is a custodial service can be seen in White Bit's [terms](https:
 > The Platform may set some restrictions on the Withdrawal the Funds and/or on the Transactions
 
 Cold storage for the securing user funds is employed and this further indicates a **custodial** offering. 
-
-
-
-
-
