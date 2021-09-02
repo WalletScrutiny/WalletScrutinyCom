@@ -10,7 +10,7 @@ released: 2017-11-09
 updated: 2021-08-25
 version: "1.29"
 stars: 4.4
-ratings: 810
+ratings: 811
 reviews: 421
 size: 19M
 website: https://cryptopay.me

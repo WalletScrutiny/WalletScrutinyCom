@@ -4,7 +4,7 @@ title: "Bitcoin Trading App"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.cryptoblastersltd.bitcoin.trading.app
 released: 2021-06-18
 updated: 2021-06-18

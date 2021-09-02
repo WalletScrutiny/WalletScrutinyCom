@@ -9,9 +9,9 @@ appId: zulu.trade.app
 released: 2011-03-04
 updated: 2021-08-09
 version: "4.23.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 1790
+reviews: 588
 size: 34M
 website: 
 repository: 

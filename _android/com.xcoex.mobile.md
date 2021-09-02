@@ -9,9 +9,9 @@ appId: com.xcoex.mobile
 released: 2019-01-17
 updated: 2021-07-08
 version: "1.18.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.7
+ratings: 153
+reviews: 122
 size: 37M
 website: https://xcoex.com/
 repository: 

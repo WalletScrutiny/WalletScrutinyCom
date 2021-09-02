@@ -10,8 +10,8 @@ released: 2019-11-12
 updated: 2021-07-21
 version: "3.18.0"
 stars: 3.6
-ratings: 4804
-reviews: 2928
+ratings: 4808
+reviews: 2930
 size: 26M
 website: http://www.quicrypto.com
 repository: 
