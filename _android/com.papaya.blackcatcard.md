@@ -19,7 +19,7 @@ issue:
 icon: com.papaya.blackcatcard.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-27
+date: 2021-09-03
 signer: 
 reviewArchive:
 

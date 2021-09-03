@@ -20,7 +20,7 @@ issue:
 icon: com.chippercash.png
 bugbounty: 
 verdict: custodial
-date: 2021-04-15
+date: 2021-09-03
 signer: 
 reviewArchive:
 

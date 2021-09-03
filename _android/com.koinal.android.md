@@ -20,7 +20,7 @@ issue:
 icon: com.koinal.android.png
 bugbounty: 
 verdict: nobtc
-date: 2020-12-06
+date: 2021-09-03
 signer: 
 reviewArchive:
 

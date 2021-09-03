@@ -20,7 +20,7 @@ issue:
 icon: com.onebit.app.png
 bugbounty: 
 verdict: defunct
-date: 2019-12-20
+date: 2021-09-03
 signer: 
 reviewArchive:
 

@@ -20,7 +20,7 @@ issue:
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-26
+date: 2021-09-03
 signer: 
 reviewArchive:
 

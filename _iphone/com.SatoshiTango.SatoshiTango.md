@@ -20,7 +20,7 @@ issue:
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-05-25
+date: 2021-09-03
 signer: 
 reviewArchive:
 

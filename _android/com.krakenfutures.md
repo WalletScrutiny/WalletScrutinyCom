@@ -20,7 +20,7 @@ issue:
 icon: com.krakenfutures.png
 bugbounty: 
 verdict: custodial
-date: 2020-06-20
+date: 2021-09-03
 signer: 
 reviewArchive:
 

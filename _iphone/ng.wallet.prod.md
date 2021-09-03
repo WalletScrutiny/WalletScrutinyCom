@@ -21,7 +21,7 @@ issue:
 icon: ng.wallet.prod.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-04-24
+date: 2021-09-03
 signer: 
 reviewArchive:
 

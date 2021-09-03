@@ -20,7 +20,7 @@ issue:
 icon: com.koinal.ios.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-05-24
+date: 2021-09-03
 signer: 
 reviewArchive:
 

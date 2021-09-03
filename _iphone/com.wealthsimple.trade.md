@@ -19,7 +19,7 @@ issue:
 icon: com.wealthsimple.trade.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-23
+date: 2021-09-03
 signer: 
 reviewArchive:
 
