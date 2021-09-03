@@ -23,7 +23,11 @@ verdict: defunct
 date: 2021-09-03
 signer: 
 reviewArchive:
-
+- date: 2019-12-20
+  version: "3.25.1"
+  appHash: 
+  gitRevision: fcf3e7d86e2b4119369bf0d54f3da09663b189e9
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
