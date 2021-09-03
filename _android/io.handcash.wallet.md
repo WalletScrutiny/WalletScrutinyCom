@@ -10,8 +10,8 @@ released: 2019-09-10
 updated: 2021-07-23
 version: "2.6.6"
 stars: 4.1
-ratings: 459
-reviews: 304
+ratings: 461
+reviews: 306
 size: 36M
 website: https://handcash.io
 repository: 

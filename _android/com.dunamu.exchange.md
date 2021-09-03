@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.dunamu.exchange
 released: 2017-10-23
-updated: 2021-08-19
-version: "1.14.12p2"
+updated: 2021-08-31
+version: "1.14.14p2"
 stars: 3.6
-ratings: 21669
-reviews: 8900
+ratings: 21804
+reviews: 8961
 size: 26M
 website: https://upbit.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.dunamu.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 There are two versions of this app: one for Korea and one that's global. 
 
 Upbit uses ID verification and KYC therefore we can assume that it is **custodial** and **not verifiable**. You cannot deposit or withdraw BTC as well as other altcoins without finishing their level 2 KYC. They also claim to have multi-sig and cold wallets.

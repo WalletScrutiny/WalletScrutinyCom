@@ -10,8 +10,8 @@ idd: 1362831898
 released: 2018-10-02
 updated: 2021-02-20
 version: "1.5.5"
-stars: 4.85714
-reviews: 7
+stars: 4.55556
+reviews: 9
 size: 12750848
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault

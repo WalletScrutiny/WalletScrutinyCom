@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.spark.wallet.png
 bugbounty: 
-verdict: wip
-date: 2019-12-29
+verdict: stale
+date: 2021-08-29
 signer: 
 reviewArchive:
-
+- date: 2019-12-29
+  version: "0.0.0"
+  appHash: 
+  gitRevision: 86f2fa1dd433f16704d2c9d18e822f0aff4f48a0
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

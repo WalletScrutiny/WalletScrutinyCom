@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.badgermobile
 released: 2019-06-10
-updated: 2021-08-02
-version: "1.13.5"
-stars: 3.8
-ratings: 151
-reviews: 78
+updated: 2021-08-21
+version: "1.13.10"
+stars: 3.7
+ratings: 153
+reviews: 80
 size: 33M
 website: https://badger.bitcoin.com
 repository: 

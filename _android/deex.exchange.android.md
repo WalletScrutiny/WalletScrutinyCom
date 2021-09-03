@@ -9,9 +9,9 @@ appId: deex.exchange.android
 released: 2019-11-29
 updated: 2020-04-21
 version: "0.3.9"
-stars: 4.3
-ratings: 244
-reviews: 196
+stars: 4.2
+ratings: 245
+reviews: 197
 size: 5.7M
 website: 
 repository: 

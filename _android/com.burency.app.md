@@ -4,14 +4,14 @@ title: "Burency Global – Insured Crypto Exchange & Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.burency.app
 released: 2021-03-21
 updated: 2021-05-07
 version: "1.0.2"
 stars: 4.6
-ratings: 199
-reviews: 110
+ratings: 202
+reviews: 111
 size: 22M
 website: 
 repository: 

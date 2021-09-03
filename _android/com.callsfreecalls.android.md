@@ -20,7 +20,7 @@ issue:
 icon: com.callsfreecalls.android.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-18
+date: 2021-08-21
 signer: 
 reviewArchive:
 

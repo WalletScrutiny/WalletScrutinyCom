@@ -4,7 +4,7 @@ title: "Bitcoin Mining Without Investment"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.cryptonews.bitcoin.mining.without.investment
 released: 2021-07-19
 updated: 2021-07-19

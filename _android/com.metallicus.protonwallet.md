@@ -4,15 +4,15 @@ title: "Proton Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.metallicus.protonwallet
 released: 2021-02-22
-updated: 2021-06-17
-version: "1.5.10"
+updated: 2021-08-23
+version: "1.5.13"
 stars: 4.4
-ratings: 113
-reviews: 73
-size: 44M
+ratings: 138
+reviews: 89
+size: 46M
 website: 
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appId: com.capital.trading
 released: 2017-10-18
 updated: 2021-08-16
 version: "1.31"
-stars: 4.4
-ratings: 20253
-reviews: 6791
+stars: 4.5
+ratings: 20859
+reviews: 6994
 size: Varies with device
 website: 
 repository: https://capital.com/
@@ -19,7 +19,7 @@ issue:
 icon: com.capital.trading.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Capital.com is here to change your entire trading experience. We provide an award-winning* free online trading app** and easy-to-use platform, designed to make trading smarter, simpler and more intuitive.
 

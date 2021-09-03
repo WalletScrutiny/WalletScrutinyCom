@@ -9,9 +9,9 @@ appId: com.ecomi
 released: 2018-08-15
 updated: 2020-03-05
 version: "2.9.2"
-stars: 3.9
-ratings: 111
-reviews: 52
+stars: 3.8
+ratings: 118
+reviews: 58
 size: 33M
 website: 
 repository: 

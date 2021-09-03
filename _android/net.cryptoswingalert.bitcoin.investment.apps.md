@@ -4,7 +4,7 @@ title: "Bitcoin Investment Apps"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.cryptoswingalert.bitcoin.investment.apps
 released: 2021-07-17
 updated: 2021-07-17

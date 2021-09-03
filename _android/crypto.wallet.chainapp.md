@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: crypto.wallet.chainapp
 released: 2021-03-24
-updated: 2021-07-23
-version: "1.2.2"
+updated: 2021-08-20
+version: "1.2.7"
 stars: 0.0
 ratings: 
 reviews: 
-size: 11M
+size: 12M
 website: 
 repository: 
 issue: 

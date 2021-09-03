@@ -4,22 +4,23 @@ title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.koinal.android
 released: 2020-06-04
-updated: 2021-08-18
-version: "1.2.10"
+updated: 2021-09-01
+version: "1.2.11"
 stars: 4.6
-ratings: 402
-reviews: 240
+ratings: 394
+reviews: 239
 size: 37M
 website: https://www.koinal.io
 repository: 
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-verdict: custodial
-date: 2020-12-06
+verdict: nobtc
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -39,9 +40,11 @@ redirect_from:
 This is their statement on security but it reads more like they are talking
 about their servers than their wallet here. That would imply a custodial wallet.
 
-A user [wrote](https://play.google.com/store/apps/details?id=com.koinal.android&reviewId=gp%3AAOqpTOF00ZzwGqBPZshWKuaWeQMjIIth50RPb72hiGVl58xWNUb4S0P0NwwZIl0avKF00U_wua5iL26G0B2CYQ):
+A user wrote:
 
-> Stay away, collects all your information THEN tells you it does not accept
+> [Michael](https://play.google.com/store/apps/details?id=com.koinal.android&reviewId=gp%3AAOqpTOF00ZzwGqBPZshWKuaWeQMjIIth50RPb72hiGVl58xWNUb4S0P0NwwZIl0avKF00U_wua5iL26G0B2CYQ)<br>
+  ★☆☆☆☆ 1 August 2020<br>
+  Stay away, collects all your information THEN tells you it does not accept
   your country. SCAM!
 
 A Bitcoin wallet should not care about borders, especially not if it's
@@ -49,3 +52,11 @@ non-custodial but maybe the user meant some buying option?
 
 As there are no further claims on the website neither, we assume the app is
 custodial and thus **not verifiable**.
+
+**EDIT:**
+
+We contacted the support and found out this information:
+
+> Koinal does not provide wallets and related services. Therefore, our customers are required to use their external wallets for their crypto purchases.
+
+So there's **no BTC wallet services.**

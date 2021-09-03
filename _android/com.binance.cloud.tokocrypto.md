@@ -3,16 +3,15 @@ wsId:
 title: "Tokocrypto - Bitcoin Regulated Trading Platform"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.binance.cloud.tokocrypto
 released: 2020-10-19
 updated: 2021-08-12
-version: "1.2.1"
-stars: 4.0
-ratings: 18747
-reviews: 15774
+version: "1.2.2"
+stars: 3.6
+ratings: 19582
+reviews: 16455
 size: Varies with device
 website: https://www.tokocrypto.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.binance.cloud.tokocrypto.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Presented by Binance - corroborated on [Binance Launchpad's Tokocrypto Token Sale](https://www.binance.com/en/support/announcement/4620c8a2a87c42978519750964af7aa4)
 
 LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.

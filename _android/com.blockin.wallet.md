@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Poolin Wallet"
+title: "Poolin Wallet -  HODL, Swap, Earn, Loan, DeFi"
 altTitle: 
 authors:
 
 users: 10000
 appId: com.blockin.wallet
 released: 2020-03-23
-updated: 2021-08-12
-version: "2.0.4"
+updated: 2021-08-27
+version: "2.0.8"
 stars: 4.0
-ratings: 193
-reviews: 93
-size: 46M
+ratings: 197
+reviews: 94
+size: 49M
 website: 
 repository: 
 issue: 

@@ -1,17 +1,17 @@
 ---
-wsId: 
+wsId: coolbitx
 title: "CoolBitX Crypto"
 altTitle: 
 authors:
-
+- leo
 users: 10000
 appId: com.coolbitx.cwsapp
 released: 2017-12-01
-updated: 2021-08-11
-version: "2.21.0"
+updated: 2021-08-26
+version: "2.22.0"
 stars: 4.6
-ratings: 815
-reviews: 340
+ratings: 852
+reviews: 354
 size: 51M
 website: http://coolwallet.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coolbitx.cwsapp.png
 bugbounty: 
 verdict: nowallet
-date: 2020-12-06
+date: 2021-08-28
 signer: 
 reviewArchive:
 
@@ -33,6 +33,11 @@ redirect_from:
   - /com.coolbitx.cwsapp/
 ---
 
+
+**Update 2021-08-28**: We now also added the hardware wallets this app is the
+companion app for,
+{% include walletLink.html wallet='hardware/coolwallets' verdict='true' %} and
+{% include walletLink.html wallet='hardware/coolwalletpro' verdict='true' %}.
 
 > This app (made for the CoolWallet S -- the second generation card) is the most convenient and secure way to store, receive, and send your cryptocurrency assets.
 

@@ -1,8 +1,7 @@
-{% assign v = site.data.verdicts[include.verdict]
-%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" style="text-decoration:none"><span
-style="background:{{ v.color }};padding:5px 10px 3px;border-radius:100px;color:var(--white, #fff);text-transform:uppercase;font-weight:600;">{% case include.type %}
-  {% when "short" %}{{ v.short }}
-  {% when "medium" %}{{ v.title }}
-  {% when "long" %}{{ v.message }}
-  {% else %}error2: {{ include.verdict }}
-{% endcase %}</span></a>&nbsp;
+{%- assign v = site.data.verdicts[include.verdict]
+-%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" class="verdictBadge {{ include.verdict }}"><span>{%- case include.type -%}
+  {%- when "short" -%}{{- v.short -}}
+  {%- when "medium" -%}{{- v.title -}}
+  {%- when "long" -%}{{- v.message -}}
+  {%- else -%}error2: {{- include.verdict -}}
+{%- endcase -%}</span></a>&nbsp;

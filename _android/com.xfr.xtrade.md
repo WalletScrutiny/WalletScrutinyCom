@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.xfr.xtrade
 released: 2014-10-02
-updated: 2021-06-17
+updated: 2021-09-01
 version: "6.0.60"
 stars: 4.0
-ratings: 36537
-reviews: 11461
+ratings: 36572
+reviews: 11483
 size: 28M
 website: http://www.xtrade.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.xfr.xtrade.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone
 

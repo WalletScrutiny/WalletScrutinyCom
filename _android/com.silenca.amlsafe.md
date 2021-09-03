@@ -4,14 +4,14 @@ title: "AML Safe Wallet — Buy & Sell Bitcoin with AML"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.silenca.amlsafe
 released: 2020-10-26
 updated: 2021-08-19
 version: "1.30.49"
 stars: 4.5
-ratings: 232
-reviews: 165
+ratings: 233
+reviews: 168
 size: 57M
 website: https://amlsafe.io
 repository: 

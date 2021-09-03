@@ -19,11 +19,16 @@ repository:
 issue: 
 icon: wallet.jax.bnc.com.png
 bugbounty: 
-verdict: fake
-date: 2021-07-24
+verdict: defunct
+date: 2021-08-23
 signer: 
 reviewArchive:
-
+- date: 2021-07-24
+  version: "1.0"
+  appHash: 
+  gitRevision: 5e9d707cbd31f4d9ebecd8925763c61e4b0c4ac1
+  verdict: fake
+  
 
 providerTwitter: 
 providerLinkedIn: 

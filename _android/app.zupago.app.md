@@ -4,13 +4,13 @@ title: "ZuPago"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: app.zupago.app
 released: 2021-04-30
-updated: 2021-07-22
-version: "1.2.4"
+updated: 2021-09-02
+version: "1.2.6"
 stars: 5.0
-ratings: 10
+ratings: 11
 reviews: 9
 size: 11M
 website: 

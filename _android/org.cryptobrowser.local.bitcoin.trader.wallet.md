@@ -9,9 +9,9 @@ appId: org.cryptobrowser.local.bitcoin.trader.wallet
 released: 2021-06-28
 updated: 2021-06-29
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 8
+reviews: 4
 size: 2.4M
 website: 
 repository: 

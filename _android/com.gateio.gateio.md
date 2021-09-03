@@ -4,14 +4,14 @@ title: "gate.io - Popular Bitcoin&cryptocurrency Exchange"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.gateio.gateio
 released: 2017-11-03
 updated: 2021-07-26
 version: "3.0.3"
-stars: 3.2
-ratings: 5779
-reviews: 4092
+stars: 3.0
+ratings: 6020
+reviews: 4265
 size: 186M
 website: https://gate.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.gateio.gateio.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-20
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit: GateioExchange
 redirect_from:
 
 ---
+
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)
 

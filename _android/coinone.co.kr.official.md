@@ -3,15 +3,15 @@ wsId:
 title: "코인원 - Coinone"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: coinone.co.kr.official
 released: 2018-01-28
 updated: 2021-08-10
 version: "2.9.2"
 stars: 3.3
-ratings: 6483
-reviews: 2731
+ratings: 6513
+reviews: 2743
 size: 27M
 website: https://coinone.co.kr/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: coinone.co.kr.official.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.
 
 It's a Korean app and is not available in English. As the support stated, *foreigners will not be able to use it.*

@@ -20,7 +20,7 @@ issue:
 icon: com.bitexen.exchange.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -35,13 +35,10 @@ redirect_from:
 ---
 Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:
 
-> Error 1020 Ray ID: 6811f4a55cdcf156 • 2021-08-19 08:19:12 UTC
-
-> Access denied
-
-> What happened?
-
-> This website is using a security service to protect itself from online attacks.
+> Error 1020 Ray ID: 6811f4a55cdcf156 • 2021-08-19 08:19:12 UTC<br>
+  Access denied<br>
+  What happened?<br>
+  This website is using a security service to protect itself from online attacks.
 
 I tried using TOR browser to access it, and it produced the same results. 
 

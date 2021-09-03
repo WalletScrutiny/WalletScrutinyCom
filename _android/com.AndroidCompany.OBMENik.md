@@ -9,9 +9,9 @@ appId: com.AndroidCompany.OBMENik
 released: 2020-11-18
 updated: 2020-11-18
 version: "1.0"
-stars: 4.1
-ratings: 361
-reviews: 347
+stars: 4.8
+ratings: 418
+reviews: 404
 size: 8.1M
 website: 
 repository: 

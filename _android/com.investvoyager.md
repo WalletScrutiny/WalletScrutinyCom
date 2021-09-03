@@ -1,18 +1,18 @@
 ---
 wsId: voyager
-title: "Voyager - Buy Bitcoin & Crypto"
+title: "Voyager: Invest in Crypto"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.investvoyager
 released: 
-updated: 2021-07-30
-version: "2.5.23"
+updated: 2021-09-02
+version: "2.9.26"
 stars: 3.5
-ratings: 5930
-reviews: 3490
-size: 49M
+ratings: 6051
+reviews: 3550
+size: 50M
 website: https://www.investvoyager.com/
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appId: in.koinex.android
 released: 2018-02-11
 updated: 2019-02-13
 version: "0.1.5"
-stars: 2.3
-ratings: 3686
-reviews: 2359
+stars: 2.2
+ratings: 3690
+reviews: 2362
 size: 15M
 website: 
 repository: 

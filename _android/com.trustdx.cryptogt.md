@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CryptoGT : Trade cryptocurrency, bitcoin"
+title: "C r y p t o G T : Trade cryptocurrency (cryptogt)"
 altTitle: 
 authors:
 
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.trustdx.cryptogt.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: defunct
+date: 2021-09-02
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-01**: App is no more on Play Store.

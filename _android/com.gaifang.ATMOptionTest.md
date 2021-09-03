@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.gaifang.ATMOptionTest
 released: 2020-06-18
-updated: 2021-08-06
-version: "1.1.18"
+updated: 2021-08-29
+version: "1.1.19"
 stars: 3.4
-ratings: 141
-reviews: 111
-size: 3.2M
+ratings: 142
+reviews: 112
+size: 3.5M
 website: 
 repository: 
 issue: 

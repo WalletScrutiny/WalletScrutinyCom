@@ -4,14 +4,14 @@ title: "Star Clicks - PayPay, Bitcoin, Bank Transfer"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.starclicksapp.starclicks
 released: 2021-04-28
 updated: 2021-04-28
 version: "1.0"
 stars: 3.8
-ratings: 65
-reviews: 37
+ratings: 79
+reviews: 43
 size: 4.3M
 website: 
 repository: 

@@ -3,38 +3,36 @@ wsId:
 title: "LATOKEN: Bitcoin Wallet, Crypto Exchange"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.latoken.wallet
 released: 2020-03-17
-updated: 2021-08-18
-version: "1.88.00"
+updated: 2021-09-02
+version: "1.89.00"
 stars: 4.4
-ratings: 22670
-reviews: 11116
-size: 25M
+ratings: 23508
+reviews: 11557
+size: 23M
 website: 
 repository: 
 issue: 
 icon: com.latoken.wallet.png
-
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-verdict: wip
-date: 2021-08-12
-
-
+verdict: custodial
+date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 
 providerTwitter: latokens
 providerLinkedIn: latoken
 providerFacebook: LiquidAssetToken
 providerReddit: 
+
 redirect_from:
+
 ---
+
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.
 

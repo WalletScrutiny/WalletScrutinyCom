@@ -4,7 +4,7 @@ title: "Bitcoin Wallet Investment"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: net.cryptoearn.bitcoin.wallet.investment
 released: 2021-06-29
 updated: 2021-06-29

@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.github.ontio.onto
 released: 2018-06-27
-updated: 2021-08-10
-version: "3.9.7"
-stars: 3.1
-ratings: 818
-reviews: 538
-size: 79M
+updated: 2021-08-31
+version: "3.9.9"
+stars: 3.3
+ratings: 835
+reviews: 551
+size: 80M
 website: 
 repository: 
 issue: 

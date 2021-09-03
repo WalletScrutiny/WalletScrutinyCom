@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "flitaa: crypto wallet for you"
+title: "flitaa: crypto wallet wey dey for you"
 altTitle: 
 authors:
 
 users: 5000
 appId: com.flitaa.app
 released: 2021-05-15
-updated: 2021-08-02
-version: "1.6.1"
-stars: 4.2
-ratings: 133
-reviews: 113
+updated: 2021-09-01
+version: "1.7.5"
+stars: 4.1
+ratings: 148
+reviews: 126
 size: 77M
 website: 
 repository: 

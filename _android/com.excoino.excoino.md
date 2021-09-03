@@ -10,8 +10,8 @@ released: 2018-09-27
 updated: 2021-07-05
 version: "6.4"
 stars: 4.1
-ratings: 5698
-reviews: 2457
+ratings: 5813
+reviews: 2503
 size: 12M
 website: https://www.excoino.net/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.excoino.excoino.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app appears to be an Iranian exchange and there's no English translation.
 
 However, users in the comments claim that they have problems with ID verification.

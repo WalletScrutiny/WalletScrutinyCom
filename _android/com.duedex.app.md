@@ -9,9 +9,9 @@ appId: com.duedex.app
 released: 2020-05-13
 updated: 2021-05-17
 version: "1.2.18"
-stars: 3.6
-ratings: 54
-reviews: 36
+stars: 3.5
+ratings: 56
+reviews: 37
 size: 29M
 website: 
 repository: 

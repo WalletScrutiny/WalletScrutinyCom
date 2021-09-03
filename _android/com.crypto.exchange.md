@@ -4,14 +4,14 @@ title: "Crypto.com Exchange"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-08-16
-version: "1.2.2"
-stars: 4.2
-ratings: 374
-reviews: 180
+updated: 2021-08-20
+version: "1.2.3"
+stars: 3.9
+ratings: 426
+reviews: 204
 size: 63M
 website: 
 repository: 

@@ -1,36 +1,53 @@
 ---
-wsId: 
+wsId: bitazza
 title: "Bitazza - Bitcoin/Cryptocurrency Exchange & Wallet"
 altTitle: 
 authors:
+ - danny
 
 users: 100000
 appId: com.bitazza.android
 released: 2020-09-29
-updated: 2021-08-13
-version: "1.7.41"
+updated: 2021-08-24
+version: "1.8.2"
 stars: 4.7
-ratings: 1823
-reviews: 353
+ratings: 2197
+reviews: 400
 size: 42M
-website: 
+website: https://bitazza.com
 repository: 
 issue: 
 icon: com.bitazza.android.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: custodial
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitazzaofficial
+providerLinkedIn: bitazza
+providerFacebook: bitazza
 providerReddit: 
 
 redirect_from:
 
 ---
+Bitazza is a cryptocurrency exchange and wallet provider. 
+
+Upon sign up, KYC is needed prior to accessing most features including the BTC wallet. The BTC address is not shown if you do not verify your identity. 
+
+In Bitazza's [Terms Page](https://bitazza.com/tof.html), the user "appoints" and "authorizes" Bitazza to be its lawful agent and broker, possessing, transacting user's "Tokens". Bitazza defines "Tokens" as cryptocurrency (in general).
+
+We reached out to Bitazza support and this is their reply:
+
+> Bitazza company keeps the fund and assets by hot wallet and cold wallet.
+
+> Our wallet are custodial online crypto wallets, all customer's funds deposited with Bitazza are secured as they are stored in hot and cold storage.
+
+> For the private key, we can't provide for the customer.
+
+Verdict is **custodial**
+
 
 

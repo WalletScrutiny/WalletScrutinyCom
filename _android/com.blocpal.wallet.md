@@ -9,9 +9,9 @@ appId: com.blocpal.wallet
 released: 2018-10-30
 updated: 2021-01-20
 version: "1.1.7"
-stars: 4.1
-ratings: 59
-reviews: 37
+stars: 4.0
+ratings: 60
+reviews: 38
 size: 57M
 website: 
 repository: 

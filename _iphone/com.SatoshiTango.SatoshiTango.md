@@ -4,22 +4,23 @@ title: "SatoshiTango"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 idd: 1002555958
 released: 2015-07-08
-updated: 2021-08-16
-version: "4.0"
+updated: 2021-08-31
+version: "4.1"
 stars: 4.21875
 reviews: 32
-size: 108961792
+size: 109690880
 website: http://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-05-25
+date: 2021-09-03
 signer: 
 reviewArchive:
 

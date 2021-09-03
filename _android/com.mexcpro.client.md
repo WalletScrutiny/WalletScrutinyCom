@@ -3,15 +3,15 @@ wsId: mexcexchange
 title: "MEXC Exchange - Buy & Sell Bitcoin, ETH and DeFi"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500000
 appId: com.mexcpro.client
 released: 2020-07-23
 updated: 2021-08-05
 version: "3.1.1"
-stars: 3.6
-ratings: 5533
-reviews: 3214
+stars: 3.9
+ratings: 5681
+reviews: 3292
 size: 55M
 website: https://www.mexc.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.mexcpro.client.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-20
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit: MXCexchange
 redirect_from:
 
 ---
+
 
 > As a world’s leading digital asset trading platform, MEXC Exchange is committed to providing users safer, smarter and more convenient digital-asset trading and management services.
 

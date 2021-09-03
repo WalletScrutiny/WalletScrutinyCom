@@ -1,18 +1,17 @@
 ---
 wsId: 
-title: "Pluang - Safe Online Investing"
+title: "Pluang - Crypto, S&P500, Gold, Mutual Funds"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 1000000
 appId: com.EmasDigi
 released: 2018-01-21
-updated: 2021-08-11
-version: "4.5.5"
+updated: 2021-08-27
+version: "4.5.7"
 stars: 4.2
-ratings: 12969
-reviews: 8372
+ratings: 13863
+reviews: 8969
 size: 11M
 website: https://pluang.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.EmasDigi.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-20
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 EmasDigi has since renamed itself "Pluang"
 
 Google Play 'Visit Website' link to pluang.com redirects to pluang-grow.com

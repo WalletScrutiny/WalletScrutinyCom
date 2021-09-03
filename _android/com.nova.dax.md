@@ -3,16 +3,15 @@ wsId:
 title: "NovaDAX - Buy & Sell Bitcoin and digital assets"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.nova.dax
 released: 2019-09-20
 updated: 2021-05-25
 version: "1.1.4"
 stars: 4.0
-ratings: 9561
-reviews: 5105
+ratings: 9862
+reviews: 5263
 size: 11M
 website: https://www.novadax.com
 repository: 
@@ -20,7 +19,7 @@ issue:
 icon: com.nova.dax.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):
 
 > 99% of cryptocurrencies are stored in a multi-signed “Cold Wallet” (offline)

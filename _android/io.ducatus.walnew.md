@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: io.ducatus.walnew
 released: 2019-12-05
-updated: 2021-08-03
-version: "2.7.2"
+updated: 2021-08-24
+version: "2.7.3"
 stars: 4.8
-ratings: 209
-reviews: 139
+ratings: 212
+reviews: 141
 size: 25M
 website: https://ducatus.net
 repository: 
@@ -38,10 +38,10 @@ This app supports Bitcoin:
 
 > Now supporting Bitcoin, Bitcoin Cash and Ethereum.
 
-The ten reviews are all one or two words 5 stars except for
-[the one 1 star review](https://play.google.com/store/apps/details?id=io.ducatus.walnew&reviewId=gp%3AAOqpTOGugVoUMzb6SVIMKYq_-dA9r_fCDED3Xj5qehzQALl_tVyXXhtylPIQYG2VnTwXqpxN28bLslG8Mk4G-A):
+The ten reviews are all one or two words 5 stars except for the one 1 star
+review:
 
-> Re Invest<br>
+> [Re Invest](https://play.google.com/store/apps/details?id=io.ducatus.walnew&reviewId=gp%3AAOqpTOGugVoUMzb6SVIMKYq_-dA9r_fCDED3Xj5qehzQALl_tVyXXhtylPIQYG2VnTwXqpxN28bLslG8Mk4G-A)<br>
   ★☆☆☆☆ 12 May 2020<br>
   Hey guy.. all coin in wallet disappeared? What 's ?
 

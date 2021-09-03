@@ -3,15 +3,15 @@ wsId:
 title: "Bitkub - Bitcoin, Cryptocurrency Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 users: 1000000
 appId: com.bitkub
 released: 2019-04-20
 updated: 2021-05-28
 version: "3.7"
-stars: 4.0
-ratings: 11248
-reviews: 5807
+stars: 4.1
+ratings: 11647
+reviews: 5947
 size: 53M
 website: http://www.bitkub.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitkub.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform
 

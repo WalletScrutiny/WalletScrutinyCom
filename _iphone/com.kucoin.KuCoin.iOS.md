@@ -8,11 +8,11 @@ appId: com.kucoin.KuCoin.iOS
 appCountry: 
 idd: 1378956601
 released: 2018-05-14
-updated: 2021-07-29
-version: "3.38.0"
-stars: 3.98997
-reviews: 1596
-size: 171182080
+updated: 2021-08-27
+version: "3.39.0"
+stars: 4.00757
+reviews: 1718
+size: 118855680
 website: 
 repository: 
 issue: 

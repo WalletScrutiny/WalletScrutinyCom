@@ -335,14 +335,17 @@ pre.highlight code {
   margin: 0;
 }
 
-.press, .press>img {
-  height: 8em;
-  width: 8em;
+.press {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 6px 10px -6px var(--shadow-3);
   background-color: var(--dark-grey);
   margin: .75rem;
+}
+
+.press img {
+  height: 8em;
+  width: 8em;
 }
 
 .press:hover, .press:hover>img {
@@ -935,6 +938,12 @@ table tr td label {
   grid-row: 2/3;
 }
 
+#gridOfWallets1 img.app_logo {
+  height:3em;
+  float:left;
+  margin: 0.3em;
+}
+
 #gridOfWallets1, #gridOfWallets2, #gridOfWallets1 tr, #gridOfWallets2 tr, #gridOfWallets1 tr td, #gridOfWallets2 tr td {
   border: 0 !important;
 }
@@ -1263,6 +1272,17 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 .input-org>#modal {
   position: fixed !important;
   z-index: 1 !important;
+}
+
+.AppDisplayCard {
+  float: left;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.AppDisplayCard>div {
+  width: 7em;
+  position: relative;
 }
 
 .AppDisplayCard.opened {
@@ -1675,6 +1695,23 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     top: 47px;
     font-size: 18px;
     right: 0px;
+}
+
+.wallet-link {
+  white-space:nowrap;
+}
+
+.verdictBadge {
+  text-decoration:none !important;
+}
+
+.verdictBadge > span {
+  white-space:nowrap;
+  padding:5px 10px 3px;
+  border-radius:100px;
+  color:var(--white, #fff);
+  text-transform:uppercase;
+  font-weight:600;
 }
 
 html {

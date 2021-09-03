@@ -9,9 +9,9 @@ appId: com.multiminingapp.btcminingcloud
 released: 2021-03-25
 updated: 2021-03-31
 version: "2.1"
-stars: 4.2
-ratings: 2549
-reviews: 970
+stars: 4.1
+ratings: 2762
+reviews: 1059
 size: 4.9M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.plunien.poloniex
 released: 2017-06-19
-updated: 2021-08-18
-version: "1.29.1"
-stars: 4.3
-ratings: 5801
-reviews: 3009
-size: 27M
+updated: 2021-09-01
+version: "1.29.3"
+stars: 4.4
+ratings: 6001
+reviews: 3076
+size: 26M
 website: https://support.poloniex.com
 repository: 
 issue: 

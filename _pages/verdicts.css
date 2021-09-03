@@ -22,5 +22,9 @@ permalink: /verdicts.css
   background: {{ verdict[1].color }};
   opacity: 0.5;
 }
+
+.verdictBadge.{{ verdict[0] }} > span {
+  background: {{ verdict[1].color }};
+}
 {% endfor %}
 

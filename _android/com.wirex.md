@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.wirex
 released: 2016-03-31
-updated: 2021-08-06
-version: "3.23.5"
+updated: 2021-09-01
+version: "3.23.7"
 stars: 3.5
-ratings: 21694
-reviews: 11842
+ratings: 21980
+reviews: 11967
 size: 100M
 website: https://wirexapp.com/en
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.wirex.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From their app description:
 
 > Download the Wirex app today and discover seamless and secure ways to store, buy, exchange and spend crypto and traditional currency at the best rates available.

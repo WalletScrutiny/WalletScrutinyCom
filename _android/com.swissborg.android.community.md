@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "SwissBorg - Bitcoin Price Prediction Game"
+title: "Crypto Challenge: Bitcoin Price Prediction Game"
 altTitle: 
 authors:
 
 users: 100000
 appId: com.swissborg.android.community
 released: 2019-03-27
-updated: 2020-09-11
-version: "1.3.2"
-stars: 3.8
-ratings: 5971
-reviews: 3109
-size: 13M
+updated: 2021-09-02
+version: "2.0.2"
+stars: 3.3
+ratings: 6133
+reviews: 3220
+size: 19M
 website: 
 repository: 
 issue: 

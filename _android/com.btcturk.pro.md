@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.btcturk.pro
 released: 2020-09-10
-updated: 2021-08-17
-version: "1.32.2"
+updated: 2021-09-01
+version: "1.32.3"
 stars: 4.5
-ratings: 135965
-reviews: 40964
+ratings: 137431
+reviews: 41408
 size: 27M
 website: https://pro.btcturk.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.btcturk.pro.png
 bugbounty: https://pro.btcturk.com/en/bug-bounty
 verdict: custodial
-date: 2021-08-16
+date: 2021-08-21
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.
 

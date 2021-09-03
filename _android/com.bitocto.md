@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.bitocto
 released: 2019-07-18
-updated: 2021-08-06
-version: "3.08"
-stars: 4.8
-ratings: 1441
-reviews: 1167
+updated: 2021-08-27
+version: "3.10"
+stars: 4.7
+ratings: 1459
+reviews: 1178
 size: 5.3M
 website: 
 repository: 

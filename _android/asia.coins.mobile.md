@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: "Coins.ph Wallet"
+title: "Coins.ph: Buy Crypto, Send Money, Buy Load & more"
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ users: 5000000
 appId: asia.coins.mobile
 released: 2014-10-01
 updated: 2021-08-18
-version: "3.6.8"
-stars: 4.2
-ratings: 101945
-reviews: 44035
+version: "3.6.10"
+stars: 4.3
+ratings: 102852
+reviews: 44377
 size: 30M
 website: https://coins.ph
 repository: 

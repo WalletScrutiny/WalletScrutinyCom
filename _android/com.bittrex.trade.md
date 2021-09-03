@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bittrex.trade
 released: 2019-12-19
-updated: 2021-08-13
-version: "1.15.0"
-stars: 3.0
-ratings: 1791
-reviews: 1198
-size: 52M
+updated: 2021-09-01
+version: "1.15.1"
+stars: 4.4
+ratings: 2198
+reviews: 1257
+size: 55M
 website: https://global.bittrex.com
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appId: com.bitpay.checkout
 released: 2014-11-03
 updated: 2020-08-11
 version: "1.2.5"
-stars: 3.8
-ratings: 250
-reviews: 95
+stars: 4.2
+ratings: 282
+reviews: 121
 size: 3.6M
 website: 
 repository: 
