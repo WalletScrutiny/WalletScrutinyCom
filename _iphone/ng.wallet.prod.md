@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: ng.wallet.prod
 appCountry: 
 idd: 1280830303
@@ -19,8 +20,8 @@ repository:
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-04-24
+verdict: nobtc
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -33,10 +34,17 @@ providerReddit:
 redirect_from:
 
 ---
+**UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 
 
+> via bank transfer and your bank card
+
+This app **does not appear to support BTC.**
+
+---
 Wallets Africa is quite a broad product, the lack of source code makes it
 impossible to verify this app and there are no statements on their website as to
 management of private keys.
 
 Our verdict: This “wallet” is probably custodial and therefore is
 **not verifiable**.
+

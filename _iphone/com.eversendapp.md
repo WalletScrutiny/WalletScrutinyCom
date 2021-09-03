@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: eversend
 title: "Eversend - the money app"
 altTitle: 
 authors:
+- danny
 
 appId: com.eversendapp
 appCountry: lv
@@ -18,18 +19,20 @@ repository:
 issue: 
 icon: com.eversendapp.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-30
+verdict: nowallet
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: eversendapp
+providerLinkedIn: eversend
+providerFacebook: eversendapp
 providerReddit: 
 
 redirect_from:
 
 ---
+In an article entitled, [Which features are coming soon](https://help.eversend.co/en/articles/4349362-which-features-are-coming-soon) 
 
+Eversend indicated that Eversend Crypto is a future offering.

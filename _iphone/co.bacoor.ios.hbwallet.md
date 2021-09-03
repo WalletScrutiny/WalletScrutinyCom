@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bacoorhbwallet
 title: "Ethereum Wallet - HB Wallet"
 altTitle: 
 authors:
-
+ - danny
 appId: co.bacoor.ios.hbwallet
 appCountry: us
 idd: 1273639572
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: co.bacoor.ios.hbwallet.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-30
+verdict: nobtc
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: HBWallet_Ether
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

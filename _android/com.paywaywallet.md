@@ -4,6 +4,7 @@ title: "PayWay Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.paywaywallet
 released: 2019-02-13
@@ -18,8 +19,8 @@ repository:
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-verdict: custodial
-date: 2019-12-25
+verdict: nobtc
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -34,7 +35,7 @@ redirect_from:
   - /payway/
   - /posts/com.paywaywallet/
 ---
-
+**UPDATE:** Payway does not have crypto service on their end.
 
 This app looks like BitRefill in its features and also its property as a wallet:
 It's not advertised as being a wallet but in the screenshots you see an available

@@ -4,6 +4,7 @@ title: "Koinal: Buy Bitcoin instantly"
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.koinal.android
 released: 2020-06-04
@@ -18,8 +19,8 @@ repository:
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-verdict: custodial
-date: 2020-12-06
+verdict: nobtc
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -51,3 +52,11 @@ non-custodial but maybe the user meant some buying option?
 
 As there are no further claims on the website neither, we assume the app is
 custodial and thus **not verifiable**.
+
+**EDIT:**
+
+We contacted the support and found out this information:
+
+> Koinal does not provide wallets and related services. Therefore, our customers are required to use their external wallets for their crypto purchases.
+
+So there's **no BTC wallet services.**

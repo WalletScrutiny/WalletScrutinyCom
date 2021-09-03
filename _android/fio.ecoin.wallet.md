@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ecoin
 title: "Ecoin Wallet"
 altTitle: 
 authors:
+ - danny
 
 users: 100000
 appId: fio.ecoin.wallet
@@ -13,13 +14,13 @@ stars: 3.8
 ratings: 2295
 reviews: 1034
 size: 84M
-website: 
+website: https://ecoinofficial.org
 repository: 
 issue: 
 icon: fio.ecoin.wallet.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: nowallet
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -32,5 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+At the interim, ecoin seems to have functionality allowing the user to buy bitcoin. We downloaded the app, and it doesn't. 
 
+Once you sign in on the main page, you will be given the option to go to another website called [TheCoin.exchange](http://thecoin.exchange). Here you can buy Ecoin, USDT, TRX and PBTC - Tethered Bitcoin which is an ERC-20 token.
 
+Hence the verdict of **nowallet**

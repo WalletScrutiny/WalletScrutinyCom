@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: cobak
 title: "코박"
 altTitle: 
 authors:
-
+- danny
 appId: co.cobak.cobak
 appCountry: us
 idd: 1350473579
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: co.cobak.cobak.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-30
+verdict: custodial
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: CobakOfficial
+providerLinkedIn: cobak
+providerFacebook: coindaebak
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
