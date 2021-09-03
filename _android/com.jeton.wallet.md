@@ -10,8 +10,8 @@ released: 2018-12-27
 updated: 2021-08-03
 version: "3.2.8"
 stars: 3.5
-ratings: 2425
-reviews: 1429
+ratings: 2412
+reviews: 1422
 size: 75M
 website: https://jeton.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.
 

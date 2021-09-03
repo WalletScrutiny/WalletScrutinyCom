@@ -10,8 +10,8 @@ idd: 885251393
 released: 2014-06-22
 updated: 2021-08-30
 version: "4.12.3"
-stars: 4.57748
-reviews: 11545
+stars: 4.5777
+reviews: 11551
 size: 61789184
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile

@@ -9,9 +9,9 @@ appId: com.wallet.bull
 released: 2021-06-28
 updated: 2021-08-23
 version: "1.3.1-914"
-stars: 4.7
-ratings: 677
-reviews: 533
+stars: 4.6
+ratings: 676
+reviews: 531
 size: 19M
 website: 
 repository: 

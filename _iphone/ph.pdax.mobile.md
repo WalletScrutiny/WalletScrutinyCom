@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.
 
 It allows deposits and withdrawals of different cryptocurrency assets only after KYC. 

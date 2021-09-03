@@ -11,7 +11,7 @@ updated: 2021-08-02
 version: "3.19"
 stars: 4.6
 ratings: 66
-reviews: 20
+reviews: 21
 size: 19M
 website: https://tangem.com
 repository: 

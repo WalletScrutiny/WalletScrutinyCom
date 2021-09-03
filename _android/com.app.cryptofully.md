@@ -11,8 +11,8 @@ released: 2020-10-29
 updated: 2021-07-19
 version: "1.2.6"
 stars: 4.0
-ratings: 336
-reviews: 133
+ratings: 333
+reviews: 132
 size: 31M
 website: https://www.cryptofully.com/
 repository: 

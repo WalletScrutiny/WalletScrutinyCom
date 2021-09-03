@@ -10,7 +10,7 @@ released: 2015-10-06
 updated: 2021-05-24
 version: "Varies with device"
 stars: 3.8
-ratings: 2393
+ratings: 2394
 reviews: 944
 size: Varies with device
 website: https://www.forex4you.com/en/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 We downloaded the app and couldn't find anywhere of a mention about how to withdraw or deposit cryptocurrencies. The only reference for cryptocurrencies is on Google Play. 
 
 > Trade with forex, stocks, indices, commodities and cryptocurrencies such as gold and oil (?)

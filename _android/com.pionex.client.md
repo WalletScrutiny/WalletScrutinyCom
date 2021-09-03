@@ -10,8 +10,8 @@ released: 2019-11-18
 updated: 2021-08-28
 version: "2.1.6"
 stars: 4.5
-ratings: 2916
-reviews: 1589
+ratings: 2895
+reviews: 1577
 size: 55M
 website: https://www.pionex.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 
 
 Sounds like an exchange.

@@ -11,8 +11,8 @@ released: 2017-06-22
 updated: 2021-08-09
 version: "2.479"
 stars: 3.5
-ratings: 1703
-reviews: 1362
+ratings: 1706
+reviews: 1365
 size: 17M
 website: https://wallets.africa
 repository: 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **UPDATED 2021-09-01** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 
 
 > via bank transfer and your bank card

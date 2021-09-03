@@ -9,7 +9,7 @@ appId: com.edss.pones
 released: 2021-04-29
 updated: 2021-04-29
 version: "1.0"
-stars: 3.6
+stars: 3.8
 ratings: 21
 reviews: 7
 size: 3.3M

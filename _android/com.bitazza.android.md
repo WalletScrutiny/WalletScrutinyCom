@@ -3,15 +3,14 @@ wsId: bitazza
 title: "Bitazza - Bitcoin/Cryptocurrency Exchange & Wallet"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.bitazza.android
 released: 2020-09-29
 updated: 2021-08-24
 version: "1.8.2"
 stars: 4.7
-ratings: 2197
+ratings: 2194
 reviews: 400
 size: 42M
 website: https://bitazza.com
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Bitazza is a cryptocurrency exchange and wallet provider. 
 
 Upon sign up, KYC is needed prior to accessing most features including the BTC wallet. The BTC address is not shown if you do not verify your identity. 

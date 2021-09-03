@@ -3,8 +3,7 @@ wsId: fxcoinpro
 title: "FX Coin"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: com.sharpdev.fxcoin
 released: 2019-03-07
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.
 
 The app allows the purchase of bitcoins using visa/mastercard, said app then transfers bitcoin to an address the buyer owns.

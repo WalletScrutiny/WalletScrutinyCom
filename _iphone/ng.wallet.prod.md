@@ -34,6 +34,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 **UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 
 
 > via bank transfer and your bank card

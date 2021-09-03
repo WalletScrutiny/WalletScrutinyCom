@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This product is Korean, there's no English translation so it's less likely to have global support. It's also a little harder to find information on a foreign wallet.
 
 Google Translate is used for any provided quotes.

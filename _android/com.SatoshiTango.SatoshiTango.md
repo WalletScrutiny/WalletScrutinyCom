@@ -4,15 +4,14 @@ title: "SatoshiTango"
 altTitle: 
 authors:
 - leo
-
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
 released: 2015-06-24
 updated: 2021-08-31
 version: "4.1"
 stars: 3.6
-ratings: 3889
-reviews: 2188
+ratings: 3857
+reviews: 2165
 size: 64M
 website: http://www.satoshitango.com
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---
+
+
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>
   Pay in local currency and hold a balance in fiat currency. Store your cryptos

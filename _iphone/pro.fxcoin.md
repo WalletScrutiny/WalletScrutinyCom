@@ -13,15 +13,20 @@ version: "1.11"
 stars: 3.57426
 reviews: 202
 size: 118948864
-website: https://fxcoin.pro
+website: https://tsallgoodltd.com
 repository: 
 issue: 
 icon: pro.fxcoin.jpg
 bugbounty: 
-verdict: nowallet
+verdict: stale
 date: 2021-09-03
 signer: 
 reviewArchive:
+- date: 2021-09-03
+  version: "1.11"
+  appHash: 
+  gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
+  verdict: nowallet
 - date: 2021-08-30
   version: "undefined"
   appHash: 
@@ -36,6 +41,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.
 
 The app allows the purchase of bitcoins using visa/mastercard, said app then transfers bitcoin to an address the buyer owns.

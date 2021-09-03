@@ -9,9 +9,9 @@ appId: com.cryptotrader.app
 released: 2020-08-04
 updated: 2021-02-24
 version: "1.2.2"
-stars: 4.2
-ratings: 37
-reviews: 16
+stars: 4.4
+ratings: 35
+reviews: 14
 size: 61M
 website: 
 repository: 

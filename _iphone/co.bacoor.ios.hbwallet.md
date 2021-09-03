@@ -3,7 +3,7 @@ wsId: bacoorhbwallet
 title: "Ethereum Wallet - HB Wallet"
 altTitle: 
 authors:
- - danny
+- danny
 appId: co.bacoor.ios.hbwallet
 appCountry: us
 idd: 1273639572
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
