@@ -105,7 +105,6 @@ function writeResult(app, header, iconExtension, body) {
   if ( daysSinceUpdate > 720 ) {
     if ( verdict != "obsolete" ) {
       // mark obsolete if old and not obsoelte yet
-      console.log(`\nObsoleting iphone/${header.appId}`)
       helper.addReviewArchive(reviewArchive, header)
       verdict = "obsolete"
       date = new Date()
@@ -113,7 +112,6 @@ function writeResult(app, header, iconExtension, body) {
   } else if ( daysSinceUpdate > 360 ) {
     if ( verdict != "stale" ) {
       // mark stale if old and not stale yet
-      console.log(`\nStaling iphone/${header.appId}`)
       helper.addReviewArchive(reviewArchive, header)
       verdict = "stale"
       date = new Date()
