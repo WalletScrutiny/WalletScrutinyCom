@@ -4,7 +4,7 @@ title: "Bitcoin Up"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: org.cryptomining.bitcoin.up
 released: 2021-07-21
 updated: 2021-07-21

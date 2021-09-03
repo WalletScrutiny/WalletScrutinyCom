@@ -9,9 +9,9 @@ appId: com.papaya.blackcatcard
 released: 2019-06-03
 updated: 2021-07-08
 version: "1.2.21"
-stars: 3.1
-ratings: 3096
-reviews: 2070
+stars: 3.0
+ratings: 3100
+reviews: 2071
 size: 101M
 website: 
 repository: 

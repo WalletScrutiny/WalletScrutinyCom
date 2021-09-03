@@ -10,8 +10,8 @@ released:
 updated: 2021-08-27
 version: "v88"
 stars: 4.7
-ratings: 3150
-reviews: 1266
+ratings: 3161
+reviews: 1268
 size: 11M
 website: 
 repository: 

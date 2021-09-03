@@ -9,9 +9,9 @@ appId: com.buda.crypto
 released: 2018-01-04
 updated: 2020-06-02
 version: "1.9.10"
-stars: 2.3
+stars: 2.2
 ratings: 508
-reviews: 339
+reviews: 338
 size: 12M
 website: https://www.buda.com
 repository: 

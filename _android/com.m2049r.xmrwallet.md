@@ -10,7 +10,7 @@ released: 2017-09-29
 updated: 2021-05-21
 version: "2.0.8 'Puginarug'"
 stars: 3.5
-ratings: 749
+ratings: 750
 reviews: 449
 size: Varies with device
 website: https://monerujo.io

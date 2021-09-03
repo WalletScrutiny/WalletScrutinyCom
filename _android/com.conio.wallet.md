@@ -10,8 +10,8 @@ released:
 updated: 2021-08-19
 version: "3.3.9"
 stars: 3.6
-ratings: 605
-reviews: 405
+ratings: 607
+reviews: 406
 size: 71M
 website: https://www.conio.com/en
 repository: 

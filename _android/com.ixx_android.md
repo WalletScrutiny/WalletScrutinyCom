@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.ixx_android
 released: 2019-08-15
-updated: 2021-03-26
-version: "2.1.3"
+updated: 2021-09-01
+version: "2.2.0"
 stars: 4.7
 ratings: 168
 reviews: 83
-size: 38M
+size: 39M
 website: 
 repository: 
 issue: 

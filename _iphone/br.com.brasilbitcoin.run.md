@@ -8,8 +8,8 @@ appId: br.com.brasilbitcoin.run
 appCountry: br
 idd: 1519300849
 released: 2020-07-27
-updated: 2021-08-31
-version: "2.5.05"
+updated: 2021-09-01
+version: "2.5.06"
 stars: 3.61803
 reviews: 233
 size: 39431168

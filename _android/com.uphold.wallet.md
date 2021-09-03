@@ -10,8 +10,8 @@ released: 2015-12-29
 updated: 2021-08-28
 version: "4.17.6"
 stars: 3.5
-ratings: 16430
-reviews: 10226
+ratings: 16454
+reviews: 10244
 size: 49M
 website: https://uphold.com
 repository: 

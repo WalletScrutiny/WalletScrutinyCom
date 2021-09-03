@@ -4,14 +4,14 @@ title: "Dex-Trade"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.dextrade.android
 released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
 stars: 3.5
-ratings: 90
-reviews: 57
+ratings: 91
+reviews: 58
 size: 1.2M
 website: 
 repository: 
