@@ -9,9 +9,9 @@ appId: com.bitcanner.blogspot.bitcanner
 released: 2019-11-03
 updated: 2020-09-05
 version: "3.12.0.2.50"
-stars: 3.2
-ratings: 56
-reviews: 48
+stars: 3.3
+ratings: 57
+reviews: 49
 size: 19M
 website: 
 repository: 

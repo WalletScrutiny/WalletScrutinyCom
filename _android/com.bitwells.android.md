@@ -9,9 +9,9 @@ appId: com.bitwells.android
 released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"
-stars: 4.7
-ratings: 1278
-reviews: 1274
+stars: 4.6
+ratings: 1274
+reviews: 1270
 size: 11M
 website: 
 repository: 

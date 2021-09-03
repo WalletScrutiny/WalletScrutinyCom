@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Chalenge: Bitcoin Price Prediction Game"
+title: "Crypto Challenge: Bitcoin Price Prediction Game"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: com.swissborg.android.community
 released: 2019-03-27
 updated: 2021-08-31
 version: "2.0.1"
-stars: 3.5
-ratings: 6093
-reviews: 3191
+stars: 3.4
+ratings: 6113
+reviews: 3208
 size: 19M
 website: 
 repository: 

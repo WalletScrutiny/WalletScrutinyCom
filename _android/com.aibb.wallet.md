@@ -9,8 +9,8 @@ appId: com.aibb.wallet
 released: 2019-04-04
 updated: 2021-08-22
 version: "2.3.10"
-stars: 4.4
-ratings: 301
+stars: 4.3
+ratings: 302
 reviews: 246
 size: 15M
 website: 

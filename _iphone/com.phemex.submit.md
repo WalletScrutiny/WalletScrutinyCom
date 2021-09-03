@@ -11,8 +11,8 @@ idd: 1499601684
 released: 2020-02-20
 updated: 2021-06-28
 version: "1.4.0"
-stars: 4.32599
-reviews: 500
+stars: 4.32934
+reviews: 501
 size: 162696192
 website: https://phemex.com/
 repository: 

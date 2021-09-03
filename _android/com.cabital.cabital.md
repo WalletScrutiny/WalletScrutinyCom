@@ -4,7 +4,7 @@ title: "Cabital: Crypto Savings"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.cabital.cabital
 released: 2021-06-07
 updated: 2021-08-25

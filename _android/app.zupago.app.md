@@ -4,7 +4,7 @@ title: "ZuPago"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: app.zupago.app
 released: 2021-04-30
 updated: 2021-08-28

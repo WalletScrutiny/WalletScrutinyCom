@@ -11,7 +11,7 @@ updated: 2021-04-17
 version: "1.0.002"
 stars: 3.7
 ratings: 8008
-reviews: 5665
+reviews: 5677
 size: 51M
 website: https://coindcx.com
 repository: 
