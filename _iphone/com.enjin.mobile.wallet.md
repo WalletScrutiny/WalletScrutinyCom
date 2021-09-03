@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.enjin.mobile.wallet.jpg
 bugbounty: 
-verdict: nosource
-date: 2021-04-26
+verdict: defunct
+date: 2021-09-04
 signer: 
 reviewArchive:
-
+- date: 2021-04-26
+  version: "1.15.0"
+  appHash: 
+  gitRevision: 529e1bc9fb59e49ab005631a6c268608de629b62
+  verdict: nosource
+  
 
 providerTwitter: enjin
 providerLinkedIn: enjin
@@ -32,6 +37,8 @@ providerReddit: EnjinCoin
 redirect_from:
 
 ---
+
+**Update 2021-08-26**: This app is no more.
 
 Enjin: Blockchain & Crypto Wallet
 description starts promising:
