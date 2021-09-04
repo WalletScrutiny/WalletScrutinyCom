@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Savl
 title: "Криптокошелек & Bitcoin Savl"
 altTitle: 
 authors:
-
+- danny
 appId: com.savl.savlapp
 appCountry: ru
 idd: 1369912925
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.savl.savlapp.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -26,10 +26,10 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: savl.official
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

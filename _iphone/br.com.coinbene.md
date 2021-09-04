@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinBene
 title: "CoinBene"
 altTitle: 
 authors:
-
+- danny
 appId: br.com.coinbene
 appCountry: us
 idd: 1439224379
@@ -13,23 +13,23 @@ version: "4.8.5"
 stars: 3.85714
 reviews: 35
 size: 117235712
-website: 
+website: https://www.coinbene.com/
 repository: 
 issue: 
 icon: br.com.coinbene.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coinbene
+providerLinkedIn: coinbene-official
+providerFacebook: CoinBeneOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

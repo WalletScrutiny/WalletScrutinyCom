@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ambercrypto
 title: "Amber App - Swap & Earn Crypto"
 altTitle: 
 authors:
-
+ - danny
 appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.ambergroup.amberapp.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ambergroup_io
+providerLinkedIn: amberbtc
+providerFacebook: ambergroup.io
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

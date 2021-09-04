@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: currencycominvesting
 title: "Crypto Exchange Currency.com"
 altTitle: 
 authors:
-
+ - danny
 appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
@@ -13,23 +13,23 @@ version: "1.15.1"
 stars: 4.79031
 reviews: 1941
 size: 61516800
-website: 
+website: https://currency.com/
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: currencycom
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: currencycom
+providerReddit: currencycom
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
