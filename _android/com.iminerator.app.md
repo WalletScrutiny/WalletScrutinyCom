@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "iMinerator - Bitcoin mining"
+title: "iMinerator - Tools for mining bitcoin and others"
 altTitle: 
 authors:
 

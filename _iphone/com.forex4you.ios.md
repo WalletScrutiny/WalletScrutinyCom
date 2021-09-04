@@ -13,7 +13,7 @@ version: "4.2"
 stars: 4.73895
 reviews: 249
 size: 101718016
-website: https://www.forex4you.com/en/
+website: https://www.forex4you.com/en/contacts/
 repository: 
 issue: 
 icon: com.forex4you.ios.jpg
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 > Trade with forex, stocks, indices, commodities and cryptocurrencies such as gold and oil 24/5. 
 
 It's a trading platform

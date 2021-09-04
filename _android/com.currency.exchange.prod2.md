@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.currency.exchange.prod2
 released: 2019-04-15
-updated: 2021-09-02
+updated: 2021-09-03
 version: "1.14.4"
-stars: 4.3
-ratings: 4442
-reviews: 1691
+stars: 4.2
+ratings: 4406
+reviews: 1673
 size: 18M
 website: https://currency.com
 repository: 

@@ -10,8 +10,8 @@ appId: com.paywaywallet
 released: 2019-02-13
 updated: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
-stars: 4.1
-ratings: 236
+stars: 4.0
+ratings: 235
 reviews: 140
 size: 19M
 website: http://www.payway.ug
@@ -35,6 +35,8 @@ redirect_from:
   - /payway/
   - /posts/com.paywaywallet/
 ---
+
+
 **UPDATE:** Payway does not have crypto service on their end.
 
 This app looks like BitRefill in its features and also its property as a wallet:

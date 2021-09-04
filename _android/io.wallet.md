@@ -11,7 +11,7 @@ updated: 2021-08-04
 version: "1.13.8"
 stars: 3.6
 ratings: 71
-reviews: 32
+reviews: 31
 size: 25M
 website: 
 repository: 

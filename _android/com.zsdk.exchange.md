@@ -9,9 +9,9 @@ appId: com.zsdk.exchange
 released: 2019-01-18
 updated: 2021-07-07
 version: "3.0.4"
-stars: 2.8
-ratings: 160
-reviews: 99
+stars: 2.9
+ratings: 158
+reviews: 97
 size: 26M
 website: 
 repository: 

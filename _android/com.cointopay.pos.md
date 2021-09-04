@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.cointopay.pos.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-09-03
 signer: 
 reviewArchive:
-
+- date: 2021-08-02
+  version: "1.2.0"
+  appHash: 
+  gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

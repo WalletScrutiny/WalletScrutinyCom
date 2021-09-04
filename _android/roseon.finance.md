@@ -9,9 +9,9 @@ appId: roseon.finance
 released: 2021-03-16
 updated: 2021-09-01
 version: "2.3.3"
-stars: 4.2
+stars: 4.3
 ratings: 321
-reviews: 206
+reviews: 203
 size: 69M
 website: 
 repository: 

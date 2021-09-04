@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 > Blackcatcard is a mobile application that offers an instantly ready European Mastercard thoroughly designed for online and offline purchases and accepted worldwide.
 
 Sounds like it's meant to be a payment app, although it also supports crypto. It also mentions offering a European Mastercard.

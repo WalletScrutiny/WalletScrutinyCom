@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gp.ubs.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-09-04
 signer: 
 reviewArchive:
-
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-26**: This app is no more.

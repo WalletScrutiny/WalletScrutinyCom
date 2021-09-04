@@ -9,9 +9,9 @@ appId: com.walletconnect.walletair
 released: 2021-08-23
 updated: 2021-08-23
 version: "1.0"
-stars: 2.7
-ratings: 63
-reviews: 57
+stars: 3.3
+ratings: 28
+reviews: 28
 size: 19M
 website: 
 repository: 

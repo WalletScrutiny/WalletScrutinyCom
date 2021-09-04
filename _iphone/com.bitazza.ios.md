@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Bitazza is a cryptocurrency exchange and wallet provider. 
 
 Upon sign up, KYC is needed prior to accessing most features including the BTC wallet. The BTC address is not shown if you do not verify your identity. 

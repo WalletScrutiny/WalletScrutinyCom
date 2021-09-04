@@ -10,8 +10,8 @@ released:
 updated: 2021-07-15
 version: "2.0.10592"
 stars: 3.5
-ratings: 258
-reviews: 107
+ratings: 257
+reviews: 106
 size: 65M
 website: https://www.tzero.com/
 repository: 

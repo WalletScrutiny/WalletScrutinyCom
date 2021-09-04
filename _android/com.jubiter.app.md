@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.jubiter.app
 released: 2020-11-19
-updated: 2021-07-16
-version: "2.5.0"
+updated: 2021-09-02
+version: "2.5.4"
 stars: 2.8
 ratings: 5
 reviews: 3

@@ -9,9 +9,9 @@ appId: com.github.ontio.onto
 released: 2018-06-27
 updated: 2021-08-31
 version: "3.9.9"
-stars: 3.3
-ratings: 835
-reviews: 551
+stars: 3.2
+ratings: 831
+reviews: 547
 size: 80M
 website: 
 repository: 

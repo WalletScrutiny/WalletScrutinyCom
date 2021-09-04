@@ -3,16 +3,15 @@ wsId: pdax
 title: "PDAX"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 100000
 appId: ph.pdax.mobile
 released: 2021-01-18
 updated: 2021-08-04
 version: "1.2.95"
 stars: 3.4
-ratings: 2159
-reviews: 1227
+ratings: 2152
+reviews: 1220
 size: 37M
 website: https://pdax.ph
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.
 
 It allows deposits and withdrawals of different cryptocurrency assets only after KYC. 

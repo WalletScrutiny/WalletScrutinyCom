@@ -4,7 +4,7 @@ title: "BitBoxApp"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: ch.shiftcrypto.bitboxapp
 released: 2020-07-13
 updated: 2021-08-03

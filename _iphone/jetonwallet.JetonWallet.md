@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.
 
 Ok, so it's an e-wallet. It also advertises itself as an exchange.
