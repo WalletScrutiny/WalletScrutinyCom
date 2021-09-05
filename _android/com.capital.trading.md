@@ -10,7 +10,7 @@ released: 2017-10-18
 updated: 2021-08-16
 version: "1.31"
 stars: 4.5
-ratings: 20752
+ratings: 20767
 reviews: 6967
 size: Varies with device
 website: 

@@ -10,8 +10,8 @@ released: 2015-08-18
 updated: 2021-04-20
 version: "1.15.0"
 stars: 4.4
-ratings: 7735
-reviews: 4551
+ratings: 7759
+reviews: 4563
 size: 12M
 website: https://bituro.com/
 repository: 

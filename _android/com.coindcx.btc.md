@@ -9,9 +9,9 @@ appId: com.coindcx.btc
 released: 2020-12-09
 updated: 2021-08-18
 version: "1.6.016"
-stars: 4.2
-ratings: 62984
-reviews: 19997
+stars: 4.1
+ratings: 63452
+reviews: 20136
 size: 82M
 website: https://coindcx.com/
 repository: 
