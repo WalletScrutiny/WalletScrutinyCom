@@ -4,7 +4,7 @@ title: "Crypto Wallet Free Coins"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.bitcoinera.crypto.wallet.free.coins
 released: 2021-06-17
 updated: 2021-06-17

@@ -4,7 +4,7 @@ title: "Cake DeFi – Cashflow from crypto"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.cakedefi.app
 released: 2021-06-16
 updated: 2021-08-27

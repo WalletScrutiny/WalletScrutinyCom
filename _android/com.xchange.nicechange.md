@@ -4,7 +4,7 @@ title: "Биткоин-обменник – NiceChange"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.xchange.nicechange
 released: 2021-05-25
 updated: 2021-05-25

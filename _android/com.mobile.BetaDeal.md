@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.mobile.BetaDeal
 released: 2021-06-30
-updated: 2021-09-02
+updated: 2021-09-04
 version: "1.1.0"
-stars: 4.3
-ratings: 55
+stars: 4.4
+ratings: 54
 reviews: 47
 size: 12M
 website: 

@@ -11,7 +11,7 @@ updated: 2021-07-29
 version: "2.8.0"
 stars: 4.1
 ratings: 8246
-reviews: 4184
+reviews: 4185
 size: 28M
 website: https://www.muchbetter.com/
 repository: 

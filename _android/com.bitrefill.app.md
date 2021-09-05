@@ -9,9 +9,9 @@ appId: com.bitrefill.app
 released: 2018-04-10
 updated: 2019-09-28
 version: "1.28.9"
-stars: 3.9
-ratings: 684
-reviews: 410
+stars: 3.8
+ratings: 687
+reviews: 411
 size: 5.2M
 website: https://www.bitrefill.com
 repository: 
