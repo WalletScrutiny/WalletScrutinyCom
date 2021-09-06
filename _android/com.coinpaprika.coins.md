@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: coinsonepaprika
 title: "COINS: One App For Crypto by Coinpaprika"
 altTitle: 
 authors:
-
+ - danny
 users: 50000
 appId: com.coinpaprika.coins
 released: 2020-06-15
@@ -13,24 +13,53 @@ stars: 4.1
 ratings: 1097
 reviews: 569
 size: 32M
-website: 
+website: https://coins.coinpaprika.com/
 repository: 
 issue: 
 icon: com.coinpaprika.coins.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-06
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CoinsOneApp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: CoinsOneApp
 providerReddit: 
 
 redirect_from:
 
 ---
+From the Google Play app description: 
 
+> With COINS, you can Discover, Store, Invest, Send & Receive over 2000 cryptocurrencies. All in one app. 
+
+Furthermore:
+
+> Our non-custodial solution lets you store over different 1500 cryptocurrencies inside your phone. By using advanced biometrics, we make sure that your private keys never leave your device. Nobody has access to your funds, but you!
+
+We downloaded the app and proceeded to create a BTC wallet. The app gives you the option to use either biometric data or a pin before the wallet is created. It then prompts the user to backup the wallet via secret phrase. You then input your biometric data again, and the app shows 12 words. Then, the 12 are re-entered to be verified. 
+
+Furtheremore, no KYC is required.
+
+We reached out via twitter and they confirmed that their app was non-custodial. Their source code is based on [Trust Wallet](https://github.com/trustwallet/wallet-core)
+
+This app is **non-custodial**, so the next step is to try to find the source code for the wallet. 
+
+We conversed with them via [twitter](https://twitter.com/dannybuntu/status/1434825692944818193).
+
+>@coinpaprika - 33m<br>
+non-custodial<br><br>
+Daniel Andrei R. Garcia<br>
+@dannybuntu - 23m<br>
+Yeah, doing backup of seed phrase now. Your app is sleek, very well designed. Is the source code available to the general public?<br><br>
+@coinpaprika Replying to @dannybuntu<br>
+It's based on Trust Core - open source so kind of ;)<br>
+https://github.com/trustwallet/wallet-core
+
+Though we are inclined to concur with the verdict of a self-custodial wallet, the source code for the exact app - and not the origin, which is Trust Wallet, still qualifies this, in our own humble opinions as, not the source of the actual app that can be downloaded via Google Play. 
+
+Tentatively, without the actual source code for Coinpaprika, we are still inclined to label this as **not the actual source code**.
 
