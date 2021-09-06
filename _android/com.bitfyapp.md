@@ -45,8 +45,8 @@ On the surface, it may seem that the app has many of the characteristics for 'go
 One of the more indicting reviews on Google Play was this:
 
 > [Luiz Sahb Druziani](https://play.google.com/store/apps/details?id=com.bitfyapp&reviewId=gp%3AAOqpTOHdfOm2ZYnNVaUuVbyLCzlzkUFo5oiiXkPuzcAx8DkhnaYPzAeHXxyYWQxOtKXGof-1qYbOJlmttoL07w)<br>
-May 28, 2020<br>
-Do not use this wallet. The seed provided by them works only in the bitfy app, that is, if the app disappears, your money goes with it.<br>
+  ★☆☆☆☆ May 28, 2020<br>
+  Do not use this wallet. The seed provided by them works only in the bitfy app, that is, if the app disappears, your money goes with it.
 
 To verify this, we proceeded to download the app on a Samsung Phone. 
 
