@@ -34,7 +34,7 @@ redirect_from:
 ---
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 
-However, they have a new offering called a ['Bitcoin Base Currency Account'](https://www.easymarkets.com/int/bitcoin-account-base-currency/). This service, which the call the μBTC Base Currency Account, allows users to deposit, trade and withdraw in Bitcoin. 
+However, they have a new offering called a ['Bitcoin Base Currency Account'](https://www.easymarkets.com/int/bitcoin-account-base-currency/). This service, which they call the μBTC Base Currency Account, allows users to deposit, trade and withdraw in Bitcoin. 
 
 Provisions for its cryptocurrency wallet are defined in Section 4.9.7 of its [Terms and Conditions](https://static.easymarkets.com/assets/assets/view/20210524-client-agreement-bvi-int-en.pdf)
 

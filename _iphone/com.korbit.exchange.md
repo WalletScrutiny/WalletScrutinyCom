@@ -32,8 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-This Korean cryptocurrency exchange requires real name verification (KYC). This includes the requirement to register using a Korean mobile phone number. 
 
-It is possible to [deposit/withdraw cryptocurrencies](https://exchange.korbit.co.kr/faq/articles/?id=3zTUYk2ambpj6u4ZWhsWvJ)
 
-Verdict is **custodial** and **not verifiable**
+{% include copyFromAndroid.html %}
