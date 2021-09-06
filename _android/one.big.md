@@ -9,9 +9,9 @@ appId: one.big
 released: 2019-10-30
 updated: 2021-09-01
 version: "2.1.72"
-stars: 4.1
-ratings: 510
-reviews: 298
+stars: 4.0
+ratings: 506
+reviews: 297
 size: 59M
 website: 
 repository: 

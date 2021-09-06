@@ -9,8 +9,8 @@ appId: co.satoshiwallet.app
 released: 2019-08-16
 updated: 2020-01-17
 version: "2.1.3"
-stars: 3.5
-ratings: 17
+stars: 3.4
+ratings: 16
 reviews: 13
 size: Varies with device
 website: https://satoshipoint.io

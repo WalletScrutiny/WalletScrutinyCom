@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.trustkeysnetwork
 released: 2019-03-02
-updated: 2021-08-23
-version: "1.1.23"
-stars: 5.0
-ratings: 32
-reviews: 15
-size: 70M
+updated: 2021-09-04
+version: "1.1.24"
+stars: 4.8
+ratings: 54
+reviews: 28
+size: 270M
 website: 
 repository: 
 issue: 

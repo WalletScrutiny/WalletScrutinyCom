@@ -10,8 +10,8 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2021-08-31
 version: "1.6.5"
-stars: 4.32931
-reviews: 331
+stars: 4.33333
+reviews: 333
 size: 41420800
 website: http://changenow.io
 repository: 

@@ -9,9 +9,9 @@ appId: com.giottus.giottus_mobile
 released: 2021-02-01
 updated: 2021-08-11
 version: "2.1.36"
-stars: 4.2
-ratings: 6938
-reviews: 4180
+stars: 4.3
+ratings: 6980
+reviews: 4208
 size: 32M
 website: https://www.giottus.com
 repository: 

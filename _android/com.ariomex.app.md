@@ -10,7 +10,7 @@ released: 2020-09-10
 updated: 2020-09-10
 version: "2.0.0"
 stars: 4.5
-ratings: 71
+ratings: 70
 reviews: 50
 size: 1.0M
 website: 
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.ariomex.app.png
 bugbounty: 
-verdict: wip
-date: 2021-09-01
+verdict: stale
+date: 2021-09-05
 signer: 
 reviewArchive:
-
+- date: 2021-09-01
+  version: "2.0.0"
+  appHash: 
+  gitRevision: 1abf9f12bb17f7d8cb43d5eaab20d992d5973bb0
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

@@ -4,7 +4,7 @@ title: "Bitcoin Investment Guide"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.cryptodebitcard.bitcoin.investment.guide
 released: 2021-06-29
 updated: 2021-06-29

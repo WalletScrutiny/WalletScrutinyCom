@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "Cryptopay — Bitcoin kaufen"
+title: "Cryptopay: Bitcoin-Brieftasche"
 altTitle: 
 authors:
 
@@ -8,11 +8,11 @@ appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2021-08-27
-version: "1.34.1"
-stars: 4.53585
-reviews: 265
-size: 69412864
+updated: 2021-09-04
+version: "1.35"
+stars: 4.53759
+reviews: 266
+size: 65575936
 website: https://cryptopay.me/
 repository: 
 issue: 

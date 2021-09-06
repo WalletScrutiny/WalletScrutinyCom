@@ -9,8 +9,8 @@ appId: io.cordova.myappf57082
 released: 2017-08-19
 updated: 2020-04-09
 version: "11.2.6"
-stars: 4.5
-ratings: 134
+stars: 4.4
+ratings: 135
 reviews: 25
 size: 3.5M
 website: 

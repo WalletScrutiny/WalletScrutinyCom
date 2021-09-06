@@ -10,8 +10,8 @@ released: 2015-05-22
 updated: 2021-05-02
 version: "2.27.2"
 stars: 4.1
-ratings: 70035
-reviews: 28292
+ratings: 70056
+reviews: 28297
 size: 37M
 website: libertex
 repository: 

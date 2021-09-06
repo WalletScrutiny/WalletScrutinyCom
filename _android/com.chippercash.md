@@ -11,8 +11,8 @@ released: 2018-07-07
 updated: 2021-09-03
 version: "1.9.11"
 stars: 4.1
-ratings: 34563
-reviews: 21691
+ratings: 34586
+reviews: 21705
 size: 85M
 website: https://chippercash.com/
 repository: 

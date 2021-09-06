@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: swapitway.sw.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-09-06
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-28**: This app is no more.
