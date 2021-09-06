@@ -38,7 +38,7 @@ Bitfy is a Brazilian app that claims to have a:
 
 Translated using Google Translate, it explicitly states its self-custodial nature
 
-> We are a non-custodant (custodial) portfolio, we do not have access to your keys.
+> We are a non-custodant portfolio, we do not have access to your keys.
 
 On the surface, it may seem that the app has many of the characteristics for 'good' self-custodial bitcoin wallet. But we proceeded to investigate further by looking at the reviews and downloaded the app.
 
