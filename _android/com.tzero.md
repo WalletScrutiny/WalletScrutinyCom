@@ -3,7 +3,7 @@ wsId: tzerocrypto
 title: "tZERO Crypto - Buy & Sell Bitcoin, Ethereum & more"
 altTitle: 
 authors:
-
+- danny
 users: 100000
 appId: com.tzero
 released: 
