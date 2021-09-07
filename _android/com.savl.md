@@ -42,7 +42,7 @@ From the Terms and Conditions, Section 3.4 Transactions via the "Wallet":
 
 > The Wallet allows you to access your wallets within the respective Blockchains and to send Digital Assets from those wallets to other wallets within the same Blockchains. **At no point will the Company ever take custody of Digital Assets traded via the Wallet.**
 
-We were able to locate savL's [github page](https://github.com/orgs/savl-gmbh/repositories) but we cannot find the source code for the wallet client. 
+We cannot find the source code for the wallet client using its Google play appID. 
 
 Upon closer inspection of savL's [Client Agreement document](https://savl.s3.amazonaws.com/docs/terms.pdf)
 
