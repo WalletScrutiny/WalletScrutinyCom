@@ -40,4 +40,4 @@ We downloaded the app and found it to be an investment social network, where use
 
 Nowhere in the site did we find any mention of the ability to deposit or withdraw bitcoin or any other cryptocurrency.
 
-This is **not a wallet*
+This is **not a wallet**

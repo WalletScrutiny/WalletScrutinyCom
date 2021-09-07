@@ -59,7 +59,5 @@ Yeah, doing backup of seed phrase now. Your app is sleek, very well designed. Is
 It's based on Trust Core - open source so kind of ;)<br>
 https://github.com/trustwallet/wallet-core
 
-Though we are inclined to concur with the verdict of a self-custodial wallet, the source code for the exact app - and not the origin, which is Trust Wallet, still qualifies this, in our own humble opinions as, not the source of the actual app that can be downloaded via Google Play. 
-
-Tentatively, without the actual source code for Coinpaprika, we are still inclined to label this as **not the actual source code**.
+Absent source code for **this specific app**, it is **not verifiable**.
 

@@ -48,7 +48,7 @@ Upon closer inspection of savL's [Client Agreement document](https://savl.s3.ama
 
 > You undertake **not** to:(a)copy,redistribute,publish,reverseengineer,decompile,disassemble,modify,translateormakeany **attempt to access the source code** to create derivative works of the source code, or otherwise;
 
-This wallet is a self custodial wallet, but without the source code for the wallet, it is **not verifiable** {% include verdictBadge.html verdict="nosource" type='short' %}
+This wallet is a self custodial wallet, but without the source code for the wallet, it is **not verifiable**.
 
 
 

@@ -57,4 +57,4 @@ We do not provide the private keys to our customers. All client funds are kept i
 Kind regards,<br>
 Sam
 
-The restrictions on account withdrawals, cryptocurrency transfers and no mention of the provision for the private keys or the source code, lends us to believe that this app is **custodial** and thus, its **source code cannot be verified**
+With all funds in cold storage, this app is **custodial** and thus, it **cannot be verified**

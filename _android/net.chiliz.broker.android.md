@@ -43,4 +43,4 @@ At section 4.2.5
 
 We downloaded the app, and signed up. After joining the service, the service generates a BTC address allowing the user to send or receive bitcoins. However, as it is a centralized exchange, the private keys are not provided. 
 
-Verdict: This exchange is **custodial** and thus **not verifiable.** {% include verdictBadge.html verdict="custodial" type='short' %}
+Verdict: This exchange is **custodial** and thus **not verifiable**.

@@ -32,7 +32,7 @@ providerReddit: currencycom
 redirect_from:
 
 ---
-It is necessary to distinguish this specific app from another related app from the same company. "Currency.com Investing" is not the same app as "Crypto Exchange Currency.com". Although, they link to each other via Google Play and in their respective domains, we'll treat them separately to avoid confusion. 
+It is necessary to distinguish this specific app from another related app from the same company. "Currency.com Investing" is not the same app as {% include walletLink.html wallet='android/com.currency.exchange.prod2' verdict='true' %}. Although, they link to each other via Google Play and in their respective domains, we'll treat them separately to avoid confusion. 
 
 The app on Google Play references currency.com but has expcapital.com as its domain, when clicking on View Website.
 

@@ -40,5 +40,5 @@ We downloaded the app and BTC withdrawals necessitated further binding to a phon
 
 The app has a built in cryptocurrency exchange which allows users to trade, buy and sell cryptocurrencies with one another. 
 
-With no features allowing access to private keys and no documentation, this app is determined to be **custodial** and thus, its source code cannot be verified.
+With no features allowing access to private keys and no documentation, this app is determined to be **custodial** and thus cannot be verified.
 
