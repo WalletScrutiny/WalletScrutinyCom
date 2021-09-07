@@ -10,8 +10,8 @@ released: 2019-12-19
 updated: 2021-09-01
 version: "1.15.1"
 stars: 4.2
-ratings: 2299
-reviews: 1278
+ratings: 2324
+reviews: 1285
 size: 55M
 website: https://global.bittrex.com
 repository: 

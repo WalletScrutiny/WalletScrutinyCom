@@ -4,7 +4,7 @@ title: "Bitcoin Trading App Free"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: net.cryptee.bitcoin.trading.app.free
 released: 2021-06-19
 updated: 2021-06-19

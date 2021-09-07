@@ -10,8 +10,8 @@ released: 2015-04-27
 updated: 2021-08-27
 version: "7.3.5"
 stars: 4.7
-ratings: 5506
-reviews: 2614
+ratings: 5527
+reviews: 2626
 size: 29M
 website: https://lobstr.co
 repository: 

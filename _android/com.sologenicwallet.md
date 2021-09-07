@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.sologenicwallet
 released: 2020-02-04
-updated: 2021-08-11
-version: "2.0.9"
+updated: 2021-09-02
+version: "2.0.10"
 stars: 4.0
 ratings: 136
 reviews: 60

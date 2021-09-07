@@ -4,7 +4,7 @@ title: "Velas Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.velas.mobile_wallet
 released: 2020-11-17
 updated: 2021-07-20

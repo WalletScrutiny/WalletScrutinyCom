@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.coinex.trade.play
 released: 2019-12-27
-updated: 2021-08-09
+updated: 2021-09-07
 version: "3.1.1"
 stars: 4.6
-ratings: 31232
-reviews: 9673
+ratings: 31256
+reviews: 9687
 size: 15M
 website: https://www.coinex.co
 repository: 
