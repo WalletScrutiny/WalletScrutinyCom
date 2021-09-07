@@ -10,8 +10,8 @@ released: 2013-10-29
 updated: 2021-08-23
 version: "3.67.1-2021082318"
 stars: 3.9
-ratings: 122495
-reviews: 62375
+ratings: 122929
+reviews: 62616
 size: 58M
 website: https://www.skrill.com/
 repository: 

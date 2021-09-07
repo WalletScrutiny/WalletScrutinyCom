@@ -9,9 +9,9 @@ appId: com.zipmex
 released: 2020-03-30
 updated: 2021-09-04
 version: "21.9.1.1185035583"
-stars: 4.2
-ratings: 8192
-reviews: 4463
+stars: 4.3
+ratings: 8491
+reviews: 4600
 size: 128M
 website: 
 repository: 

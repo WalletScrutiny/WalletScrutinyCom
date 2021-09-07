@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.bitlox.mobilewallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-07
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "4.0.4"
+  appHash: 
+  gitRevision: 2367c5ed001642144446ae995ee86a134f1d4a7c
+  verdict: stale
 - date: 2021-08-02
   version: "4.0.4"
   appHash: 

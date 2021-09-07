@@ -9,9 +9,9 @@ appId: com.gateio.gateio
 released: 2017-11-03
 updated: 2021-07-26
 version: "3.0.3"
-stars: 3.1
-ratings: 6017
-reviews: 4265
+stars: 3.0
+ratings: 6105
+reviews: 4323
 size: 186M
 website: https://gate.io/
 repository: 

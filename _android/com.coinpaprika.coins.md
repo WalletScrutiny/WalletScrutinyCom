@@ -9,9 +9,9 @@ appId: com.coinpaprika.coins
 released: 2020-06-15
 updated: 2021-08-26
 version: "1.14.1"
-stars: 4.1
-ratings: 1097
-reviews: 569
+stars: 4.2
+ratings: 1103
+reviews: 572
 size: 32M
 website: 
 repository: 

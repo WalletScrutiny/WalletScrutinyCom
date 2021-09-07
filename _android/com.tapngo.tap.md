@@ -9,9 +9,9 @@ appId: com.tapngo.tap
 released: 2019-12-19
 updated: 2021-08-25
 version: "2.2.1"
-stars: 4.5
-ratings: 1194
-reviews: 516
+stars: 4.4
+ratings: 1217
+reviews: 525
 size: 126M
 website: 
 repository: 

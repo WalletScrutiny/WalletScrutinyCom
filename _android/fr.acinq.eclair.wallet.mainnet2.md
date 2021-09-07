@@ -10,7 +10,7 @@ released: 2018-04-12
 updated: 2021-05-20
 version: "0.4.16"
 stars: 3.9
-ratings: 361
+ratings: 362
 reviews: 170
 size: 29M
 website: https://acinq.co

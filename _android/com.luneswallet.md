@@ -9,8 +9,8 @@ appId: com.luneswallet
 released: 2018-01-31
 updated: 2018-12-06
 version: "2.1"
-stars: 4.1
-ratings: 266
+stars: 4.2
+ratings: 267
 reviews: 179
 size: 7.3M
 website: https://luneswallet.app

@@ -9,8 +9,8 @@ appId: com.baanx.baanx
 released: 2019-10-10
 updated: 2021-08-27
 version: "3.0.0"
-stars: 3.5
-ratings: 31
+stars: 3.4
+ratings: 33
 reviews: 23
 size: 51M
 website: 

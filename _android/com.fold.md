@@ -9,9 +9,9 @@ appId: com.fold
 released: 
 updated: 2021-08-23
 version: "1.1.136"
-stars: 4.3
-ratings: 590
-reviews: 408
+stars: 4.4
+ratings: 594
+reviews: 410
 size: 62M
 website: 
 repository: 

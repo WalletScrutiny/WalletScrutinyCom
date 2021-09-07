@@ -11,8 +11,8 @@ idd: 1500186931
 released: 2020-04-01
 updated: 2021-02-02
 version: "1.2.4"
-stars: 4.84
-reviews: 25
+stars: 4.84615
+reviews: 26
 size: 100892672
 website: https://www.vision-crypto.com
 repository: 

@@ -9,8 +9,8 @@ appId: it.airgap.vault
 released: 2018-08-06
 updated: 2021-08-26
 version: "3.9.0"
-stars: 4.0
-ratings: 85
+stars: 4.1
+ratings: 86
 reviews: 36
 size: 68M
 website: https://airgap.it

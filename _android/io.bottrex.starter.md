@@ -9,8 +9,8 @@ appId: io.bottrex.starter
 released: 2019-05-20
 updated: 2021-08-24
 version: "0.4.3"
-stars: 3.7
-ratings: 78
+stars: 3.8
+ratings: 79
 reviews: 45
 size: 8.8M
 website: 

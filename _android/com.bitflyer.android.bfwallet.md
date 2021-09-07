@@ -10,8 +10,8 @@ released:
 updated: 2021-09-02
 version: "5.29.0"
 stars: 3.8
-ratings: 3610
-reviews: 1288
+ratings: 3644
+reviews: 1290
 size: 14M
 website: https://bitflyer.com/
 repository: 

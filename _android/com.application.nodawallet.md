@@ -9,9 +9,9 @@ appId: com.application.nodawallet
 released: 2020-09-14
 updated: 2021-08-23
 version: "1.0.15"
-stars: 4.7
-ratings: 836
-reviews: 796
+stars: 4.8
+ratings: 835
+reviews: 795
 size: 49M
 website: 
 repository: 
