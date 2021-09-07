@@ -1,8 +1,8 @@
 if (document.getElementById("showWallets") && document.getElementById("collapseWalletList")) {
-  document.getElementById("showWallets").addEventListener("click", function () {
+  document.getElementById("showWallets").addEventListener("click", () => {
     toggleWalletList();
   });
-  document.getElementById("collapseWalletList").addEventListener("click", function () {
+  document.getElementById("collapseWalletList").addEventListener("click", () => {
     toggleWalletList();
   });
 }

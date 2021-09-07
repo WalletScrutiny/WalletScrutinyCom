@@ -136,7 +136,7 @@ function searchCatalogue(input) {
       result.append(l)
     }
   clearTimeout(pauseForInput)
-  pauseForInput = setTimeout(function () {
+  pauseForInput = setTimeout(() => {
     activityIndicationClearTrigger.classList.remove("fa-circle-notch")
     activityIndicationClearTrigger.classList.add("fa-times")
     document.querySelectorAll(".exit-search")[0].style.display = "inline-block"
@@ -154,8 +154,8 @@ function heroUX(termInput) {
   window.innerWidth > 700 && (
     document.body.classList.add("search-ui-active"),
     window.addEventListener('wheel', captureScrollForSearch),
-    document.querySelectorAll(".results-list")[0].addEventListener("mouseenter", function (e) { scrollOverride = 1 }),
-    document.querySelectorAll(".results-list")[0].addEventListener("mouseleave", function (e) { scrollOverride = 0 })
+    document.querySelectorAll(".results-list")[0].addEventListener("mouseenter", e => { scrollOverride = 1 }),
+    document.querySelectorAll(".results-list")[0].addEventListener("mouseleave", e => { scrollOverride = 0 })
   )
 }
 
