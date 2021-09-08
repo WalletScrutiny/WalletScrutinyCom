@@ -707,6 +707,7 @@ With the latest correspondence and updated repo, we give it another try:
 ```
 $ git clone https://github.com/Coldcard/firmware.git
 $ cd firmware/stm32
+$ make repro
 ...
 signit split ../releases/2021-09-02T1752-v4.1.3-coldcard.dfu check-fw.bin check-bootrom.bin
 start 293 for 727040 bytes: Firmware => check-fw.bin
