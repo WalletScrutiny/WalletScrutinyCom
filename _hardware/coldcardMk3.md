@@ -1,6 +1,6 @@
 ---
 title: "Coldcard Mk3"
-appId: ColdCardMk3
+appId: coldcardMk3
 authors:
 - kiwilamb
 - leo
