@@ -8,11 +8,11 @@ appId: com.techx.arya
 appCountry: us
 idd: 1478620685
 released: 2019-09-06
-updated: 2021-08-05
-version: "2.8.2"
+updated: 2021-09-08
+version: "2.9.0"
 stars: 
 reviews: 
-size: 76335104
+size: 72059904
 website: https://aryatrading.com/#pricing
 repository: 
 issue: 

@@ -4,14 +4,14 @@ title: "Chivo Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 10000
 appId: com.chivo.wallet
 released: 
 updated: 2021-09-07
 version: "1.1.0"
-stars: 4.5
-ratings: 155
-reviews: 85
+stars: 4.0
+ratings: 318
+reviews: 186
 size: 59M
 website: 
 repository: 

@@ -8,10 +8,10 @@ users: 1000000
 appId: com.btcturk.pro
 released: 2020-09-10
 updated: 2021-09-07
-version: "1.33.1"
+version: "1.33.2"
 stars: 4.5
-ratings: 138003
-reviews: 41563
+ratings: 138136
+reviews: 41592
 size: 27M
 website: https://pro.btcturk.com/
 repository: 

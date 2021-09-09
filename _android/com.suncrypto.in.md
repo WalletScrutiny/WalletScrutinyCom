@@ -8,11 +8,11 @@ users: 50000
 appId: com.suncrypto.in
 released: 2021-06-28
 updated: 2021-09-07
-version: "1.3"
-stars: 3.3
-ratings: 1175
-reviews: 589
-size: 9.5M
+version: "1.4"
+stars: 3.1
+ratings: 1160
+reviews: 577
+size: 10M
 website: 
 repository: 
 issue: 

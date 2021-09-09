@@ -10,8 +10,8 @@ released: 2019-06-06
 updated: 2021-09-01
 version: "21.9.1"
 stars: 4.6
-ratings: 66533
-reviews: 20601
+ratings: 66681
+reviews: 20642
 size: 42M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement

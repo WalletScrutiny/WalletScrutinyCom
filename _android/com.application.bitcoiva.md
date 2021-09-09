@@ -10,8 +10,8 @@ released: 2020-11-02
 updated: 2021-09-07
 version: "1.18"
 stars: 3.5
-ratings: 300
-reviews: 150
+ratings: 304
+reviews: 152
 size: 9.0M
 website: https://bitcoiva.com
 repository: 
