@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tzero.png
 bugbounty: 
-verdict: nowallet
+verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -50,7 +50,5 @@ The app through technological means, acts as a middle man who "sends instruction
 
 > We offer both wallets that require manual signing as well as wallets with programmatic signing. Our smart contracts have all undergone independent security that audits in addition to our routine IT examinations and penetration testing.
 
-The rationale for this "passing around of custody" has to do more with the legal nature of cryptocurrencies as tZERO Group Inc. is a Delaware, USA based company while its cryptocurrency related company tZERO Crypto Inc., is registered in Utah. While this would appear to show that tZERO is custodial, since it uses an external provider apart from tZERO's actual app, we are more inclined to say that this is **not a bitcoin wallet** but a brokerage service. The key phrase can be found in the Terms and Conditions which states
-
-> ... will transmit the instructions to the Custody Provider ...
+The rationale for this "passing around of custody" has to do more with the legal nature of cryptocurrencies as tZERO Group Inc. is a Delaware, USA based company while its cryptocurrency related company tZERO Crypto Inc., is registered in Utah. As such we determined this app to be custodial and therefore not verifiable.
 
