@@ -12,7 +12,7 @@ version: "2.1.335"
 stars: 3.4
 ratings: 2665
 reviews: 1485
-size: 80M
+size: 81M
 website: https://www.blubitex.com/
 repository: 
 issue: 
@@ -44,5 +44,5 @@ There's also no mention of private keys, self-custody, or available source code 
 
 Verdict: While it's possible that this app is not-custodial, we do not currently have access to the app to verify this.
 
-Tentatively, we'll label this as 'nosource'. We'll then await the response of their support.
+Tentatively, we assume there is **no source** for the current release. We'll then await the response of their support.
 

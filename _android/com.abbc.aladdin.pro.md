@@ -32,6 +32,11 @@ providerReddit:
 redirect_from:
 
 ---
+Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)
+
+> Aladdin Wallet has developed two wallet services. Aladdin Wallet is a non-custodial wallet that allows users to have full control of their accounts while the Aladdin Pro Wallet is a digital wallet with multi-layer protection that enhances transparency and defense against malicious hackers.
+
+
 From its Google Play page:
 
 > The Aladdin Pro Wallet is a custodial wallet that gives users an easy-to-use and reliable digital asset storage to keep their cryptocurrencies secured at all times.

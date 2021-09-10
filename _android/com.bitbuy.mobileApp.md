@@ -40,5 +40,7 @@ They therefore [recommend](https://bitbuy.ca/en/resources/guide/bitbuy-cold-stor
 
 Prior to purchasing Bitcoin, users are also mandated to pass KYC procedures.
 
-We were not able to download the app due to location specific restrictions, but from the documentation and legal disclaimers, it is very apparent that this is a **custodial** service and therefore, its source code **cannot be verified**
+ From the documentation and legal disclaimers, it is very apparent that this is a **custodial** service and thus **not verifiable**.
+ 
+ **Additional Note:** It appears that the app may not be accessible to some due to location specific restrictions.
 

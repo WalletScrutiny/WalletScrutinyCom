@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.everus.org.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -52,5 +52,4 @@ From the official website:
 
 **Crypto wallet management** implies that there's a third-party managing your funds.
 
-
-
+This would classify this product as a **custodial** offering.
