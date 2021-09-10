@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitberry
 title: "Bitberry : Safe Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.rootone.bitberry
 appCountry: us
 idd: 1411817291
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-verdict: stale
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -36,4 +36,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

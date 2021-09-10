@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitcointrade
 title: "BitcoinTrade - Criptomoedas"
 altTitle: 
 authors:
-
+- danny
 appId: com.root.BitcoinTrade
 appCountry: br
 idd: 1320032339
@@ -13,23 +13,23 @@ version: "4.0.4"
 stars: 3.39103
 reviews: 468
 size: 36924416
-website: 
+website: http://www.bitcointrade.com.br/
 repository: 
 issue: 
 icon: com.root.BitcoinTrade.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-24
 signer: 
 reviewArchive:
 
 
 providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerLinkedIn: bitcointrade
+providerFacebook: BitcointradeBR
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

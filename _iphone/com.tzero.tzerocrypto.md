@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: tzerocrypto
 title: "tZERO Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.tzero.tzerocrypto
 appCountry: us
 idd: 1468985150
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tzero.tzerocrypto.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
