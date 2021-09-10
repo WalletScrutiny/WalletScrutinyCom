@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.blubitex.blubitexapp
 released: 2020-10-03
-updated: 2021-08-02
-version: "2.1.335"
+updated: 2021-09-09
+version: "2.1.336"
 stars: 3.4
-ratings: 2665
+ratings: 2669
 reviews: 1485
-size: 80M
+size: 81M
 website: 
 repository: 
 issue: 

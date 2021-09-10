@@ -4,7 +4,7 @@ title: "Crypto Wallet Guard - Offline"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: co.crypto.wallet.guard
 released: 2021-05-07
 updated: 2021-05-07

@@ -9,9 +9,9 @@ appId: com.ownrwallet.wallet
 released: 2019-05-20
 updated: 2021-09-03
 version: "1.30.0"
-stars: 4.8
-ratings: 1410
-reviews: 1273
+stars: 4.7
+ratings: 1420
+reviews: 1283
 size: 51M
 website: https://ownrwallet.com
 repository: 

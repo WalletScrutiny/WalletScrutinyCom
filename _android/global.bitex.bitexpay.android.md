@@ -4,7 +4,7 @@ title: "BitexPay"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: global.bitex.bitexpay.android
 released: 2020-09-10
 updated: 2020-11-15

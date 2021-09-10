@@ -9,8 +9,8 @@ appId: io.ledn.app
 released: 2021-01-04
 updated: 2021-01-28
 version: "0.1.3"
-stars: 3.4
-ratings: 36
+stars: 3.5
+ratings: 37
 reviews: 28
 size: 73M
 website: 

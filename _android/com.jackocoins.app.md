@@ -9,8 +9,8 @@ appId: com.jackocoins.app
 released: 2020-07-18
 updated: 2021-08-06
 version: "1.1.14"
-stars: 3.8
-ratings: 126
+stars: 3.9
+ratings: 127
 reviews: 100
 size: 7.3M
 website: 

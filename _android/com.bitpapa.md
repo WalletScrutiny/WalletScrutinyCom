@@ -9,9 +9,9 @@ appId: com.bitpapa
 released: 2020-08-18
 updated: 2021-09-08
 version: "1.6.10"
-stars: 4.6
-ratings: 4048
-reviews: 3980
+stars: 4.7
+ratings: 4074
+reviews: 4005
 size: 43M
 website: https://bitpapa.com
 repository: 
