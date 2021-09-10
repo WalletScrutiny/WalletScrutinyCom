@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: kuna.beta
 released: 2019-07-22
-updated: 2021-09-01
+updated: 2021-09-06
 version: "1.4.2"
-stars: 3.6
-ratings: 637
-reviews: 361
+stars: 3.8
+ratings: 646
+reviews: 365
 size: 88M
 website: 
 repository: 

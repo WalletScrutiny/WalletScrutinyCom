@@ -9,8 +9,8 @@ appId: org.topnetwork.hiwallet
 released: 2020-04-08
 updated: 2021-08-13
 version: "V2.3.2"
-stars: 4.0
-ratings: 25
+stars: 4.1
+ratings: 26
 reviews: 15
 size: 34M
 website: 

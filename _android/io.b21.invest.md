@@ -9,9 +9,9 @@ appId: io.b21.invest
 released: 2020-02-24
 updated: 2021-07-21
 version: "0.7.5"
-stars: 3.2
-ratings: 518
-reviews: 371
+stars: 3.0
+ratings: 525
+reviews: 376
 size: 39M
 website: 
 repository: 

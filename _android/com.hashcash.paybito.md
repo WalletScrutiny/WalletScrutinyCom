@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.hashcash.paybito
 released: 2019-10-24
-updated: 2021-05-27
-version: "2.2.3"
+updated: 2021-09-07
+version: "2.2.4"
 stars: 4.5
 ratings: 252
 reviews: 213

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BHEX Wallet"
+title: "Bluehelix Wallet"
 altTitle: 
 authors:
 

@@ -4,14 +4,14 @@ title: "Ducatus Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: io.ducatus.walnew
 released: 2019-12-05
 updated: 2021-08-24
 version: "2.7.3"
 stars: 4.8
-ratings: 211
-reviews: 140
+ratings: 212
+reviews: 141
 size: 25M
 website: https://ducatus.net
 repository: 

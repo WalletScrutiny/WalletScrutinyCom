@@ -10,8 +10,8 @@ appId: com.blockchain.wallet.btc
 released: 2021-04-03
 updated: 2021-09-01
 version: "1.0.1.9"
-stars: 4.5
-ratings: 846
+stars: 4.6
+ratings: 853
 reviews: 160
 size: 28M
 website: https://adslab-2b1c2.web.app

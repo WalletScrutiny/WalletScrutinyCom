@@ -9,9 +9,9 @@ appId: com.beecrypt.beecrypthd
 released: 2020-05-27
 updated: 2021-08-13
 version: "3.6"
-stars: 4.1
-ratings: 28
-reviews: 19
+stars: 4.0
+ratings: 26
+reviews: 17
 size: 26M
 website: 
 repository: 

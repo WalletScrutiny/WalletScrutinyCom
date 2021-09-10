@@ -4,7 +4,7 @@ title: "Swaps: buy BTC, USDT crypto. Tether, bitcoin store"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.mitin.app.sw
 released: 2021-04-14
 updated: 2021-05-13

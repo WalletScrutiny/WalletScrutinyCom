@@ -11,7 +11,7 @@ updated: 2021-08-24
 version: "1.42.1"
 stars: 4.3
 ratings: 2316
-reviews: 1639
+reviews: 1640
 size: 29M
 website: https://cobak.co.kr/
 repository: 

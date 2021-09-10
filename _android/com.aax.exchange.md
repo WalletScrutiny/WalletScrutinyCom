@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.aax.exchange
 released: 2019-03-04
-updated: 2021-08-28
-version: "3.1.1"
+updated: 2021-09-05
+version: "3.1.2"
 stars: 4.3
-ratings: 2236
-reviews: 802
+ratings: 2281
+reviews: 816
 size: 65M
 website: https://www.aax.com
 repository: 
