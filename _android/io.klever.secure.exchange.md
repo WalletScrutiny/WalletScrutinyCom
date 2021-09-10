@@ -9,9 +9,9 @@ appId: io.klever.secure.exchange
 released: 2021-06-30
 updated: 2021-08-23
 version: "1.0.0-beta20"
-stars: 3.9
-ratings: 340
-reviews: 210
+stars: 3.8
+ratings: 344
+reviews: 212
 size: 12M
 website: 
 repository: 

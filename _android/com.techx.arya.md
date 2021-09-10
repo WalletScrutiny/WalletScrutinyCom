@@ -10,8 +10,8 @@ released: 2019-09-10
 updated: 2021-09-08
 version: "2.9.0"
 stars: 4.1
-ratings: 255
-reviews: 106
+ratings: 256
+reviews: 107
 size: 65M
 website: https://arya.xy
 repository: 

@@ -4,14 +4,14 @@ title: "Delta Exchange - Bitcoin & Crypto Trading"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: exchange.delta
 released: 2021-05-07
 updated: 2021-08-25
 version: "1.4.2"
-stars: 4.3
-ratings: 94
-reviews: 58
+stars: 4.2
+ratings: 99
+reviews: 63
 size: 22M
 website: 
 repository: 

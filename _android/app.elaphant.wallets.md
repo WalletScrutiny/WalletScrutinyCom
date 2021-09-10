@@ -4,7 +4,7 @@ title: "Elaphant - BTC ETH ELA Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: app.elaphant.wallets
 released: 2020-10-08
 updated: 2021-05-03
