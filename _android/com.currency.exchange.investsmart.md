@@ -40,5 +40,5 @@ We downloaded the app and after registering, we chose bitcoin as a currency and 
 
 Currency.com's [Deposits/Withdrawals Page](https://currency.com/deposits-withdrawals)
 
-This is a **custodial** service and thus has **no verifiable** source code.
+This is a **custodial** service and thus **not verifiable**.
 

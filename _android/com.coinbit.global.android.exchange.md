@@ -38,5 +38,5 @@ When you access the website you are immediately greeted by a popup that warns us
 
 > Coinbit's TF team uses an abnormal transaction detection system (FDS) built in-house to protect customer assets, monitoring abnormal transactions 24 hours a day, **deposits and withdrawals**, and accumulates a database based on this to self-filter We have developed an algorithm and, in the event of an unusual occurrence, **we work closely with the financial institution and investigative agency in charge to respond immediately.**
 
-In simpler language, this exchange works closely with the authorities whenever they detect "abnormal transactions" thereby making it a **custodial** service whose source code **cannot be verified**.
+In simpler language, this exchange works closely with the authorities whenever they detect "abnormal transactions" thereby making it a **custodial** service that **cannot be verified**.
 

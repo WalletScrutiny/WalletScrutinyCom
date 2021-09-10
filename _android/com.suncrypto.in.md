@@ -48,4 +48,4 @@ Under "Client Funds" on the same page:
 
 The transaction fees are detailed on this [page](https://suncrypto.in/trading-deposit)
 
-This concludes our verdict describing this app as a **custodial** service and thus, its **source code cannot be verified.**
+This concludes our verdict describing this app as a **custodial** service and thus **cannot be verified.**
