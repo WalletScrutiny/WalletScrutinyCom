@@ -47,4 +47,4 @@ Not much information can be gleaned from the web domain so most of the informati
 The presence of CFDs indicate an inability to send and receive bitcoins.
 
 
-
+Additional observations: We wonder how this app relates to Capital.com, as that site redirects to {% include walletLink.html wallet='android/com.capital.trading.prod2' verdict='false' %} and not this app.

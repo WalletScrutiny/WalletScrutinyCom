@@ -45,8 +45,8 @@ On the surface, it may seem that the app has many of the characteristics for 'go
 One of the more indicting reviews on Google Play was this:
 
 > [Luiz Sahb Druziani](https://play.google.com/store/apps/details?id=com.bitfyapp&reviewId=gp%3AAOqpTOHdfOm2ZYnNVaUuVbyLCzlzkUFo5oiiXkPuzcAx8DkhnaYPzAeHXxyYWQxOtKXGof-1qYbOJlmttoL07w)<br>
-  ★☆☆☆☆ May 28, 2020<br>
-  Do not use this wallet. The seed provided by them works only in the bitfy app, that is, if the app disappears, your money goes with it.
+★☆☆☆☆ May 28, 2020<br>
+Do not use this wallet. The seed provided by them works only in the bitfy app, that is, if the app disappears, your money goes with it.<br>
 
 To verify this, we proceeded to download the app on a Samsung Phone. 
 
@@ -54,8 +54,12 @@ They ask for your email address and mobile phone number. After filling in some p
 
 Then you are asked to create an app password and a pin. The pin is used for a variety of things including payments and the provision of the 12 seed words which are then sent via email after creating a wallet. The only way to open the PDF that contains the seed words is through the 6-digit pin.
 
-The seed words are in Portuguese, even though some segments of the app are in English.  
+However, this is potentially poor protection for a wallet backup. They have 100k downloads and send mnemonics from their servers with a 6 digit pin "password protection". The app claims to be self-custodial but it is possible for them to access the mnemonics.
 
-Unfortunately as of this writing, we were not able to import a wallet created using bitfy using electrum. Perhaps, more tests are warranted. 
+Even if they delete the mnemonic after sending it to the user (which cannot be proven), now the user's email provider and a bunch of other servers have a copy, too. 6 digits only protects against manual, not automated brute force.
 
-We also could not find a direct link from the main domain linking to the source code of the app.
+The seed words are non-standard mnemonics. They are not found in the BIP39 list. Specifically, [the Portuguese mnemonics](https://github.com/bitcoin/bips/blob/master/bip-0039/portuguese.txt). 
+
+Unfortunately as of this writing, we were not able to import a wallet created using Bitfy using Electrum. Perhaps, more tests are warranted. 
+
+While keeping all this in mind this app is still classifiable as a **non-custodial** wallet. However, with **no source** in sight, we do not have the means to verify this wallet.
