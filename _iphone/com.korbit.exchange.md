@@ -19,7 +19,7 @@ issue:
 icon: com.korbit.exchange.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-01
+date: 2021-09-10
 signer: 
 reviewArchive:
 

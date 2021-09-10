@@ -19,7 +19,7 @@ issue:
 icon: com.ittrendex.liteforex.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-09-10
 signer: 
 reviewArchive:
 

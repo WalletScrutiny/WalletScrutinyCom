@@ -19,7 +19,7 @@ issue:
 icon: com.kapital.trade.crypto.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-02
+date: 2021-09-10
 signer: 
 reviewArchive:
 

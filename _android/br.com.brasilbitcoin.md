@@ -19,7 +19,7 @@ issue:
 icon: br.com.brasilbitcoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-10
 signer: 
 reviewArchive:
 
