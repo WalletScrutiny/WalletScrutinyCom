@@ -9,9 +9,9 @@ appId: com.ellipal.wallet
 released: 2018-07-02
 updated: 2021-07-26
 version: "3.0.0"
-stars: 3.9
-ratings: 610
-reviews: 360
+stars: 3.8
+ratings: 611
+reviews: 361
 size: 24M
 website: https://www.ellipal.com
 repository: 

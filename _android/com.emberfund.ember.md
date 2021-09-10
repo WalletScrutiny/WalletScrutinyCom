@@ -10,8 +10,8 @@ released: 2019-01-24
 updated: 2021-09-08
 version: "8.15"
 stars: 4.6
-ratings: 428
-reviews: 245
+ratings: 429
+reviews: 246
 size: 46M
 website: 
 repository: 

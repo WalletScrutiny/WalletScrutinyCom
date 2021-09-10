@@ -9,9 +9,9 @@ appId: com.matrixport.mark
 released: 2019-10-23
 updated: 2021-09-03
 version: "1.1.1"
-stars: 3.6
-ratings: 570
-reviews: 395
+stars: 3.7
+ratings: 575
+reviews: 400
 size: 106M
 website: 
 repository: 
