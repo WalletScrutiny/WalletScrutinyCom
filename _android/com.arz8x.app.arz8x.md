@@ -76,5 +76,3 @@ https://t.me/arz8x_info/20
 The last video showed the interface of the app with different cryptocurrency logos including Bitcoin and what appeared to be capabilities in sending and receiving. 
 
 Since not much other information is readily available and translateable from the site, we are inclined to mark this app as **custodial** and therefore, **not verifiable.**
-
-We recommend further research from native Persian users.
