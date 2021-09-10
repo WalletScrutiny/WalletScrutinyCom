@@ -42,8 +42,8 @@ Doesn't exactly sound like a BTC wallet.
 
 So a third-party is in control of your funds. 
 
-> You can withdraw funds from CryptoTab Farm to your CryptoTab account.
-<br>From the CryptoTab balance, you can withdraw them to any Bitcoin wallet.
+> You can withdraw funds from CryptoTab Farm to your CryptoTab account.<br>
+  From the CryptoTab balance, you can withdraw them to any Bitcoin wallet.
 
 You can store BTC earned from mining, but you can't deposit funds. You can still withdraw it into a separate Bitcoin wallet.
 

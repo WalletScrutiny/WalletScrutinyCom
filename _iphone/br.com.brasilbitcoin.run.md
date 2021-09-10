@@ -32,14 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 
-
-It is possible to purchase cryptocurrencies on the site using a debit card. 
-
-KYC is required. 
-
-In the [terms page](https://brasilbitcoin.com.br/terms), Brasil Bitcoin notes that:
-
-> BRASIL BITCOIN SERVIÇOS DIGITAIS LTDA reserves the right to refuse any registration request and to suspend or cancel a previously accepted Registration in cases 
-
-Verdict is **custodial** and **not verifiable**
+{% include copyFromAndroid.html %}

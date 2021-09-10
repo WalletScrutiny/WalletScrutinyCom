@@ -32,12 +32,4 @@ providerReddit: WhiteBitExchange
 redirect_from:
 
 ---
-This centralized cryptocurrency exchange also has a decentralized exchange. 
-
-The centralized exchange allows for [deposit/withdrawal of cryptocurrencies](https://whitebit.com/faq#22) up to 2 BTC in value without KYC. Above that value, KYC would be needed.
-
-Proof that this is a custodial service can be seen in White Bit's [terms](https://whitebit.com/terms)
-
-> The Platform may set some restrictions on the Withdrawal the Funds and/or on the Transactions
-
-Cold storage for the securing user funds is employed and this further indicates a **custodial** offering. 
+{% include copyFromAndroid.html %}
