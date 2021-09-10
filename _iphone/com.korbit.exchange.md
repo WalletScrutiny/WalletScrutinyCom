@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: korbit
 title: "korbit"
 altTitle: 
 authors:
-
+- danny
 appId: com.korbit.exchange
 appCountry: us
 idd: 1434511619
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.korbit.exchange.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}
