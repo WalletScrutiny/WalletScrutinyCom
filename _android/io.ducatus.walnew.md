@@ -4,7 +4,7 @@ title: "Ducatus Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: io.ducatus.walnew
 released: 2019-12-05
 updated: 2021-08-24

@@ -10,8 +10,8 @@ released: 2019-01-17
 updated: 2021-07-08
 version: "1.18.0"
 stars: 3.7
-ratings: 153
-reviews: 122
+ratings: 155
+reviews: 124
 size: 37M
 website: https://xcoex.com/
 repository: 

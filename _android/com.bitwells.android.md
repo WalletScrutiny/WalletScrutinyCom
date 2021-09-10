@@ -4,14 +4,14 @@ title: "Bitwells - Easy Bitcoin/Crypto Futures Trading"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.bitwells.android
 released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"
-stars: 4.6
-ratings: 1274
-reviews: 1270
+stars: 4.7
+ratings: 1275
+reviews: 1271
 size: 11M
 website: 
 repository: 

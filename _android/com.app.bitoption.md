@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.app.bitoption.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: stale
+date: 2021-09-05
 signer: 
 reviewArchive:
-
+- date: 2021-08-08
+  version: "1.1.8"
+  appHash: 
+  gitRevision: fa0a1a0d1ac88e3dd1a695c9244cb9e5c27934b3
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: com.bixin.wallet.mainnet
 released: 2020-09-16
-updated: 2021-08-30
-version: "2.9.0"
+updated: 2021-09-06
+version: "2.9.1"
 stars: 4.9
-ratings: 299
+ratings: 302
 reviews: 155
 size: 70M
 website: 

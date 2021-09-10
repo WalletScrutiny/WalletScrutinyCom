@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: "Paxful - Bitcoin & Crypto Wallet, Marketplace P2P"
+title: "Paxful Bitcoin & Crypto Wallet | Buy BTC ETH USDT"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2019-04-30
 updated: 2021-09-01
 version: "2.6.0.633"
 stars: 3.7
-ratings: 19159
-reviews: 11094
+ratings: 19260
+reviews: 11160
 size: 27M
 website: https://paxful.com/mobile-wallet-app
 repository: 

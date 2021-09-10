@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-09-02
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-25**: This app is no more.

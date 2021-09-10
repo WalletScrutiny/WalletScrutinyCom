@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Nomad Wallet - Bitcoin & crypto wallet"
+title: "Nomad Wallet - Bitcoin, DeFi & Crypto Wallet"
 altTitle: 
 authors:
 

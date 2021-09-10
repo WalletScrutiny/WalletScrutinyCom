@@ -10,8 +10,8 @@ idd: 1278383455
 released: 2017-09-27
 updated: 2021-08-18
 version: "24.11"
-stars: 4.64954
-reviews: 49406
+stars: 4.64992
+reviews: 50091
 size: 138165248
 website: https://wallet.coinbase.com
 repository: 

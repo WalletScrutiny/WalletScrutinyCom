@@ -1,6 +1,6 @@
 ---
 wsId: libertex
-title: "Libertex Online Trading app"
+title: "Libertex: Trade Stocks, Forex & Cryptocurrency"
 altTitle: 
 authors:
 - danny
@@ -9,9 +9,9 @@ appId: org.fxclub.libertex
 released: 2015-05-22
 updated: 2021-05-02
 version: "2.27.2"
-stars: 4.1
-ratings: 70058
-reviews: 28306
+stars: 4.2
+ratings: 70214
+reviews: 28379
 size: 37M
 website: libertex
 repository: 

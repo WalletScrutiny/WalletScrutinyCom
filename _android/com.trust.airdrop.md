@@ -9,9 +9,9 @@ appId: com.trust.airdrop
 released: 2021-07-09
 updated: 2021-07-22
 version: "2.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.0
+ratings: 5
+reviews: 2
 size: 6.5M
 website: 
 repository: 

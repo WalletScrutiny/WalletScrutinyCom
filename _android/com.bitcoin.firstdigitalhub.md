@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitcoin.firstdigitalhub.jpg
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: defunct
+date: 2021-09-04
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-08-26**: This app is no more.

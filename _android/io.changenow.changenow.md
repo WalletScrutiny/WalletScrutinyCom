@@ -1,17 +1,17 @@
 ---
 wsId: ChangeNOW
-title: "ChangeNOW: Buy Bitcoin Dogecoin & Crypto Exchange"
+title: "Crypto Exchange & Buy Bitcoin Dogecoin: ChangeNOW"
 altTitle: 
 authors:
 - leo
 users: 50000
 appId: io.changenow.changenow
 released: 2018-09-07
-updated: 2021-08-30
-version: "1.123"
-stars: 4.8
-ratings: 1255
-reviews: 639
+updated: 2021-09-05
+version: "1.125"
+stars: 4.7
+ratings: 1281
+reviews: 647
 size: 6.2M
 website: http://changenow.io
 repository: 

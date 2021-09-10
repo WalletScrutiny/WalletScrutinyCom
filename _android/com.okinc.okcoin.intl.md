@@ -4,14 +4,14 @@ title: "Okcoin - Buy & Trade Bitcoin, Ethereum, & Crypto"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.okinc.okcoin.intl
 released: 2018-06-22
 updated: 2021-08-31
 version: "5.1.2"
 stars: 4.0
-ratings: 2038
-reviews: 398
+ratings: 2079
+reviews: 406
 size: 124M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.bitnovo.app
 released: 2017-05-18
 updated: 2021-07-01
 version: "2.8.5"
-stars: 2.7
-ratings: 318
-reviews: 216
+stars: 2.8
+ratings: 323
+reviews: 220
 size: 34M
 website: http://www.bitnovo.com
 repository: 

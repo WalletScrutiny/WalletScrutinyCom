@@ -30,13 +30,13 @@ if (document.getElementById("versions").hasAttribute("wsId")) {
       if (e.folder !== folder) {
         html+= `<a href="${e.url}"><b>${e.category}</b> version review available here.</a><br>`
       } else if (e.versions) {
-        e.versions.forEach(function (v) {
+        e.versions.forEach(v => {
           html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`
         })
       }
     } else {
       if (e.versions && Array.isArray(e.versions)) {
-        e.versions.forEach(function (v) {
+        e.versions.forEach(v => {
           if (v.wsId === cVId) {
             html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`
           }

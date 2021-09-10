@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.swissborg.android.community
 released: 2019-03-27
-updated: 2021-08-31
-version: "2.0.1"
-stars: 3.4
-ratings: 6113
-reviews: 3208
+updated: 2021-09-02
+version: "2.0.2"
+stars: 3.2
+ratings: 6172
+reviews: 3246
 size: 19M
 website: 
 repository: 

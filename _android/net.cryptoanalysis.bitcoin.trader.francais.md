@@ -4,7 +4,7 @@ title: "Bitcoin Trader Francais"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: net.cryptoanalysis.bitcoin.trader.francais
 released: 2021-06-28
 updated: 2021-06-28

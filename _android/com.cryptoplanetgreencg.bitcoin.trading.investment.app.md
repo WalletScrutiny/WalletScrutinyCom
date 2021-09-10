@@ -4,7 +4,7 @@ title: "Bitcoin Crypto Trading Investment"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptoplanetgreencg.bitcoin.trading.investment.app
 released: 2021-07-28
 updated: 2021-07-28

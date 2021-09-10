@@ -4,7 +4,7 @@ title: "Bitcoin Trading Investment App"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: org.cryptodebitcard.bitcoin.trading.investment.app
 released: 2021-06-29
 updated: 2021-06-29

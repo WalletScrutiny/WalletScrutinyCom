@@ -1,35 +1,36 @@
 ---
-wsId: 
+wsId: WealthsimpleTrade
 title: "Wealthsimple Trade: Buy Stocks"
 altTitle: 
 authors:
-
+- danny
 appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
 released: 2019-02-26
-updated: 2021-08-30
-version: "1.89.0"
-stars: 4.68606
-reviews: 115925
-size: 83539968
+updated: 2021-09-07
+version: "1.91.0"
+stars: 4.68734
+reviews: 117543
+size: 83652608
 website: https://www.wealthsimple.com/en-ca/product/trade/
 repository: 
 issue: 
 icon: com.wealthsimple.trade.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-23
+verdict: nosendreceive
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Wealthsimple
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: wealthsimple
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

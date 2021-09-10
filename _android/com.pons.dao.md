@@ -9,9 +9,9 @@ appId: com.pons.dao
 released: 2021-02-08
 updated: 2021-07-26
 version: "1.0.0.18"
-stars: 4.2
-ratings: 39
-reviews: 26
+stars: 3.8
+ratings: 44
+reviews: 30
 size: 49M
 website: 
 repository: 

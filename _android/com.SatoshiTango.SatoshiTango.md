@@ -9,9 +9,9 @@ appId: com.SatoshiTango.SatoshiTango
 released: 2015-06-24
 updated: 2021-08-31
 version: "4.1"
-stars: 3.6
-ratings: 3831
-reviews: 2155
+stars: 3.7
+ratings: 4012
+reviews: 2252
 size: 64M
 website: http://www.satoshitango.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
 verdict: custodial
-date: 2021-05-25
+date: 2021-09-03
 signer: 
 reviewArchive:
 
@@ -43,3 +43,4 @@ sounds like a wallet that also supports Bitcoin but there is not much
 information on who gets to control the keys.
 
 We have to assume this is a custodial offering and thus **not verifiable**.
+

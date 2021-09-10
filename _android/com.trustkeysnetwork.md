@@ -4,21 +4,21 @@ title: "TrustKeys - Entry to Crypto World"
 altTitle: 
 authors:
 
-users: 500
+users: 10000
 appId: com.trustkeysnetwork
 released: 2019-03-02
-updated: 2021-08-23
-version: "1.1.23"
-stars: 5.0
-ratings: 31
-reviews: 14
-size: 70M
+updated: 2021-09-06
+version: "1.1.26"
+stars: 4.8
+ratings: 111
+reviews: 60
+size: 270M
 website: 
 repository: 
 issue: 
 icon: com.trustkeysnetwork.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

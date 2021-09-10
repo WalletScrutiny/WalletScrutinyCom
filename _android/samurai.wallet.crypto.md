@@ -5,7 +5,7 @@ altTitle: "Fake Samourai Bitcoin Wallet"
 authors:
 - emanuel
 - leo
-users: 10
+users: 50
 appId: samurai.wallet.crypto
 released: 2021-07-31
 updated: 2021-08-01

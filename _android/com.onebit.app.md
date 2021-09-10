@@ -4,6 +4,7 @@ title: "TenX - Buy Bitcoin & Crypto Card"
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.onebit.app
 released: 2017-11-23
@@ -18,11 +19,15 @@ repository:
 issue: 
 icon: com.onebit.app.png
 bugbounty: 
-verdict: custodial
-date: 2019-12-20
+verdict: defunct
+date: 2021-09-03
 signer: 
 reviewArchive:
-
+- date: 2019-12-20
+  version: "3.25.1"
+  appHash: 
+  gitRevision: fcf3e7d86e2b4119369bf0d54f3da09663b189e9
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,9 +38,15 @@ redirect_from:
   - /com.onebit.app/
   - /posts/com.onebit.app/
 ---
+**UPDATE: 2021-09-01**
 
+> New sign-ups and deposits have been disabled, and even though your funds remain safe, we encourage you to withdraw your funds from your TenX Wallet at your earliest convenience.
 
-This app's description hints at being custodial with
+TenX will start "sunsetting their services soon." As such and with no new service replacement announced at the time of this review, it would be best to label this app as defunct.
+
+## Old Analysis
+
+This app's description hints at being custodial with:
 
 > Send cryptocurrencies to other TenX Wallet users for free
 

@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-03
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.0.2"
+  appHash: 
+  gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
+  verdict: stale
 - date: 2021-08-02
   version: "1.0.2"
   appHash: 

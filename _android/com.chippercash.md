@@ -4,14 +4,15 @@ title: "Chipper Cash - Send & Receive Money Across Africa"
 altTitle: 
 authors:
 - kiwilamb
+- danny
 users: 1000000
 appId: com.chippercash
 released: 2018-07-07
-updated: 2021-08-20
+updated: 2021-09-08
 version: "1.9.11"
 stars: 4.1
-ratings: 34620
-reviews: 21727
+ratings: 35363
+reviews: 22144
 size: 85M
 website: https://chippercash.com/
 repository: 
@@ -19,14 +20,14 @@ issue:
 icon: com.chippercash.png
 bugbounty: 
 verdict: custodial
-date: 2021-04-15
+date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: chippercashapp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Chippercashapp
 providerReddit: 
 
 redirect_from:
@@ -38,3 +39,9 @@ Stated in their sites [support article](https://support.chippercash.com/en/artic
 "Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"
 
 Conclusion is that Chipper is a custodial wallet as funds are held by Chipper on behalf of the user.
+
+**Edit:** 
+
+> We're excited to introduce the Crypto RECEIVE feature. This will enable you receive Bitcoin/Ethereum/USDC from another Crypto(ETH/BTC/USDC) address.
+
+As of this date it seems that it's now possible to send and receive from external addresses.

@@ -1,6 +1,6 @@
 ---
 wsId: Celsius
-title: "Celsius - Safe Crypto Platform"
+title: "Celsius: Earn & Borrow Crypto"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: network.celsius.wallet
 released: 2018-06-04
 updated: 2021-08-09
 version: "4.10.0"
-stars: 4.2
-ratings: 6091
-reviews: 4240
+stars: 3.8
+ratings: 6155
+reviews: 4279
 size: 89M
 website: https://celsius.network
 repository: 

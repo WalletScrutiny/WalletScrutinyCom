@@ -9,8 +9,8 @@ appId: com.profittrading.forbinanceus
 released: 2019-10-25
 updated: 2021-04-27
 version: "2.0.2"
-stars: 4.1
-ratings: 31
+stars: 4.2
+ratings: 33
 reviews: 11
 size: 22M
 website: 

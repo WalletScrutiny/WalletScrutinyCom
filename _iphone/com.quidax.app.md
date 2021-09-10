@@ -19,11 +19,16 @@ repository:
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-04-20
+verdict: defunct
+date: 2021-09-06
 signer: 
 reviewArchive:
-
+- date: 2021-04-20
+  version: "1.8.0"
+  appHash: 
+  gitRevision: d2e998640b3a1cd26cb0b6c2d0ac04137f0aa603
+  verdict: custodial
+  
 
 providerTwitter: QuidaxAfrica
 providerLinkedIn: quidax
@@ -33,6 +38,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-08-28**: This app is no more.
 
 From the App Store description it clearly states the private keys are in control
 of the provider:

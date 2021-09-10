@@ -6,7 +6,7 @@ function downloadImageFile(url, path, callback) {
   const iconFile = fs.createWriteStream(path)
   const request = https.get(`${url}`, response => {
     response.pipe(iconFile)
-    response.on('end', function() {
+    response.on('end', () => {
       (async () => {
         const mimetype = (await FileType.fromFile(path)).mime
         if (mimetype == "image/png") {
@@ -24,7 +24,7 @@ function downloadImageFile(url, path, callback) {
           return
         }
         callback(iconExtension)
-        fs.rename(path, `${path}.${iconExtension}`, function(err) {
+        fs.rename(path, `${path}.${iconExtension}`, err => {
           if ( err ) console.log('ERROR: ' + err)
         })
       })()

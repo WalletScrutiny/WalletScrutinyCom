@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: com.robinhood.android
 released: 
-updated: 2021-09-01
+updated: 2021-09-07
 version: "Varies with device"
 stars: 3.8
-ratings: 427070
-reviews: 228284
+ratings: 427833
+reviews: 228615
 size: Varies with device
 website: 
 repository: 

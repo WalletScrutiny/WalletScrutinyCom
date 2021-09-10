@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: app.org.cryptopocket.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-05
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.2.8"
+  appHash: 
+  gitRevision: 1abf9f12bb17f7d8cb43d5eaab20d992d5973bb0
+  verdict: stale
 - date: 2021-08-08
   version: "1.2.8"
   appHash: 

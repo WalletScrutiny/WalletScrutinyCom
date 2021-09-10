@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.coinsuper.app
 released: 2018-04-24
-updated: 2021-07-29
-version: "2.5.4"
+updated: 2021-09-04
+version: "2.5.5"
 stars: 3.5
-ratings: 147
+ratings: 148
 reviews: 87
 size: 13M
 website: 

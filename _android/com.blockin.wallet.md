@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.blockin.wallet
 released: 2020-03-23
-updated: 2021-08-27
-version: "2.0.8"
+updated: 2021-09-08
+version: "2.1.0"
 stars: 4.0
-ratings: 197
-reviews: 94
-size: 49M
+ratings: 198
+reviews: 95
+size: 46M
 website: 
 repository: 
 issue: 

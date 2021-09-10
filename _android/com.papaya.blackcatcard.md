@@ -9,17 +9,17 @@ appId: com.papaya.blackcatcard
 released: 2019-06-03
 updated: 2021-07-08
 version: "1.2.21"
-stars: 3.1
-ratings: 3096
-reviews: 2070
+stars: 2.9
+ratings: 3120
+reviews: 2080
 size: 101M
-website: 
+website: https://blackcatcard.com
 repository: 
 issue: 
 icon: com.papaya.blackcatcard.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-27
+date: 2021-09-03
 signer: 
 reviewArchive:
 

@@ -83,7 +83,7 @@ const headers = [
 request({
   url: url,
   json: true
-}, function (error, response, body) {
+}, (error, response, body) => {
   if (!error && response.statusCode === 200) {
     const table = body.values
     remoteHeaders = table.shift()
