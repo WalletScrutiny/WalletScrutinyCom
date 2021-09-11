@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: studentcoin
 title: "Student Coin"
 altTitle: 
 authors:
-
+ - danny
 appId: org.studentcoin.mobile
 appCountry: pl
 idd: 1559718559
@@ -13,23 +13,23 @@ version: "1.11.4"
 stars: 4.63157
 reviews: 19
 size: 32644096
-website: 
+website: https://www.studentcoin.org/
 repository: 
 issue: 
 icon: org.studentcoin.mobile.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-09-10
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: studentcoinorg
+providerLinkedIn: student-coin-worldwide
+providerFacebook: studentcoin.org
+providerReddit: Studentcoin
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

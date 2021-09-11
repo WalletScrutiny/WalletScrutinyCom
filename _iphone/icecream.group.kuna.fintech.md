@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: kunaio
 title: "Kuna.io — buy sell crypto"
 altTitle: 
 authors:
-
+ - danny
 appId: icecream.group.kuna.fintech
 appCountry: us
 idd: 1457062155
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: icecream.group.kuna.fintech.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: KunaExchange
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: kunaexchange
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

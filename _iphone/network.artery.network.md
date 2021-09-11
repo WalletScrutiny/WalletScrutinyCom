@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ArteryNetwork
 title: "Artery Network"
 altTitle: 
 authors:
-
+- danny
 appId: network.artery.network
 appCountry: ru
 idd: 1532702666
@@ -13,12 +13,12 @@ version: "1.6"
 stars: 4.55556
 reviews: 819
 size: 78948352
-website: 
-repository: 
+website: https://artery.network/
+repository: https://github.com/arterynetwork/artr
 issue: 
 icon: network.artery.network.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

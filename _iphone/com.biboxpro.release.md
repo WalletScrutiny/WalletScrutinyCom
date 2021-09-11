@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Bibox
 title: "Bibox Pro"
 altTitle: 
 authors:
-
+- danny
 appId: com.biboxpro.release
 appCountry: us
 idd: 1505962519
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.biboxpro.release.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: Bibox365
+providerLinkedIn: biboxexchange
+providerFacebook: Bibox2017
+providerReddit: Bibox
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

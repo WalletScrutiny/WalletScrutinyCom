@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ONTO
 title: "ONTO-Cross-chain Crypto Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.ontology.foundation.onto
 appCountry: us
 idd: 1436009823
@@ -13,18 +13,18 @@ version: "3.9.9"
 stars: 4.19608
 reviews: 51
 size: 211520512
-website: 
+website: https://www.onto.app
 repository: 
 issue: 
 icon: com.ontology.foundation.onto.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ONTOWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

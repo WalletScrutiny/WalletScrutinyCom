@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Okcoin
 title: "Okcoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.okcoin.OKCoinAppstore
 appCountry: us
 idd: 867444712
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.okcoin.OKCoinAppstore.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: OKcoin
+providerLinkedIn: okcoin
+providerFacebook: OkcoinOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

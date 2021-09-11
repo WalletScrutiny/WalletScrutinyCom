@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: coinsonepaprika
 title: "COINS: One App For Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinpaprika.Coins
 appCountry: us
 idd: 1475233621
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.coinpaprika.Coins.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: CoinsOneApp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: CoinsOneApp
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

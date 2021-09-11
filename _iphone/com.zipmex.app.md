@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Zipmex
 title: "Zipmex"
 altTitle: 
 authors:
-
+- danny
 appId: com.zipmex.app
 appCountry: sg
 idd: 1485647781
@@ -13,23 +13,23 @@ version: "21.9.0"
 stars: 4.34544
 reviews: 55
 size: 50220032
-website: https://www.youtube.com/watch?v=iYI01eFjxTg
+website: https://zipmex.com/th/en/
 repository: 
 issue: 
 icon: com.zipmex.app.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ZipmexTH
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ZipmexThailand
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

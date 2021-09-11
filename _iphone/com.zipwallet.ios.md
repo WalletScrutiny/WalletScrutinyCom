@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: zipwalletpay
 title: "Zipwallet-Bitcoin & Send money"
 altTitle: 
 authors:
-
+ - danny
 appId: com.zipwallet.ios
 appCountry: us
 idd: 1463275408
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zipwallet.ios.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

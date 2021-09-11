@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinJar
 title: "CoinJar: Buy Bitcoin Instantly"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinjar.mobius
 appCountry: au
 idd: 958797429
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.coinjar.mobius.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: getcoinjar
+providerLinkedIn: coinjar
+providerFacebook: CoinJar
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

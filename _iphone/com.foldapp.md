@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: foldapp
 title: "Fold: Bitcoin Cashback Rewards"
 altTitle: 
 authors:
-
+ - danny
 appId: com.foldapp
 appCountry: us
 idd: 1480424785
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: com.foldapp.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-09-10
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: fold_app
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

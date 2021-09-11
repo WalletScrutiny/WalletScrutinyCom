@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: MaiCoin
 title: "MAX Exchange - Buy Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.maicoin.max
 appCountry: us
 idd: 1370837255
@@ -13,23 +13,23 @@ version: "3.0.0"
 stars: 4.78946
 reviews: 19
 size: 96899072
-website: 
+website: https://max.maicoin.com
 repository: 
 issue: 
 icon: com.maicoin.max.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Max_exch
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: MaiCoinAssetExchange
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

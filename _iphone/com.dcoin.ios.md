@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: dcoin
 title: "Dcoin - Trade Bitcoin,Ethereum"
 altTitle: 
 authors:
-
+ - danny
 appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
@@ -13,23 +13,23 @@ version: "4.3.5"
 stars: 3.46667
 reviews: 15
 size: 74246144
-website: 
+website: https://www.dcoin.com/
 repository: 
 issue: 
 icon: com.dcoin.ios.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
+providerTwitter: dcoinexchange
+providerLinkedIn: dcoin-exchange
 providerFacebook: 
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

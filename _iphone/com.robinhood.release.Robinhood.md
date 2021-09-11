@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Robinhood
 title: "Robinhood: Investing for All"
 altTitle: 
 authors:
-
+- danny
 appId: com.robinhood.release.Robinhood
 appCountry: us
 idd: 938003185
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.robinhood.release.Robinhood.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-08-31
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: RobinhoodApp
+providerLinkedIn: robinhood
+providerFacebook: robinhoodapp
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

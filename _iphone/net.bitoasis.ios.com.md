@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: BitOasis
 title: "BitOasis: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: net.bitoasis.ios.com
 appCountry: ae
 idd: 1521661794
@@ -13,23 +13,23 @@ version: "1.2.14"
 stars: 4.55785
 reviews: 1547
 size: 53651456
-website: 
+website: https://bitoasis.net/en/home
 repository: 
 issue: 
 icon: net.bitoasis.ios.com.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitoasis
+providerLinkedIn: bitoasis-technologies-fze
+providerFacebook: bitoasis
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

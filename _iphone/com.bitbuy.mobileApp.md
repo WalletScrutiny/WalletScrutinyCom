@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitbuy
 title: "Bitbuy: Buy Bitcoin Canada"
 altTitle: 
 authors:
-
+ - danny
 appId: com.bitbuy.mobileApp
 appCountry: ca
 idd: 1476837869
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.bitbuy.mobileApp.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitbuy
+providerLinkedIn: bitbuyca
+providerFacebook: bitbuyCA
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

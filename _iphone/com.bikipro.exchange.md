@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bikiexchange
 title: "BiKi Exchange"
 altTitle: 
 authors:
-
+ - danny
 appId: com.bikipro.exchange
 appCountry: us
 idd: 1470204749
@@ -13,23 +13,23 @@ version: "4.9.2"
 stars: 3.90476
 reviews: 21
 size: 109472768
-website: 
+website: https://www.biki.cc/
 repository: 
 issue: 
 icon: com.bikipro.exchange.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-07
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BiKiEnglish
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: bikiexchange
+providerReddit: BiKi
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
