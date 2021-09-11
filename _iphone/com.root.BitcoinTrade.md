@@ -19,7 +19,7 @@ issue:
 icon: com.root.BitcoinTrade.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-24
+date: 2021-09-11
 signer: 
 reviewArchive:
 

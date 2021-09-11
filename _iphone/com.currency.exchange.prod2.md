@@ -19,7 +19,7 @@ issue:
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-03
+date: 2021-09-11
 signer: 
 reviewArchive:
 

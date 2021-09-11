@@ -19,7 +19,7 @@ issue:
 icon: net.chiliz.broker.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 

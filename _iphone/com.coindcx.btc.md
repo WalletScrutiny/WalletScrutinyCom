@@ -19,7 +19,7 @@ issue:
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
 verdict: custodial
-date: 2021-08-22
+date: 2021-09-11
 signer: 
 reviewArchive:
 
