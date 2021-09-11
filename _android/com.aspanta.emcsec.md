@@ -9,8 +9,8 @@ appId: com.aspanta.emcsec
 released: 2017-11-28
 updated: 2018-12-25
 version: "1.2.1"
-stars: 4.4
-ratings: 28
+stars: 4.3
+ratings: 29
 reviews: 8
 size: 8.9M
 website: 

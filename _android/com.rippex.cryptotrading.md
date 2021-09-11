@@ -9,9 +9,9 @@ appId: com.rippex.cryptotrading
 released: 2021-03-13
 updated: 2020-11-23
 version: "1.0"
-stars: 5.0
-ratings: 405
-reviews: 6
+stars: 4.9
+ratings: 401
+reviews: 5
 size: Varies with device
 website: 
 repository: 

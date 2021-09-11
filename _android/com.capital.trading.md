@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.capital.trading
 released: 2017-10-18
-updated: 2021-08-16
-version: "1.31"
+updated: 2021-09-09
+version: "1.32.2"
 stars: 4.5
-ratings: 20767
-reviews: 6967
+ratings: 21150
+reviews: 7085
 size: Varies with device
 website: 
 repository: https://capital.com/

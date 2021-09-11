@@ -4,14 +4,14 @@ title: "LPNT - Crypto Wallet Beta version"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.token.lpnt
 released: 2021-05-03
 updated: 2021-09-03
 version: "1.9"
-stars: 4.6
-ratings: 802
-reviews: 408
+stars: 4.5
+ratings: 878
+reviews: 432
 size: 6.2M
 website: 
 repository: 

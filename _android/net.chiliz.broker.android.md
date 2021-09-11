@@ -9,9 +9,9 @@ appId: net.chiliz.broker.android
 released: 2020-01-22
 updated: 2021-06-01
 version: "4.0.1"
-stars: 3.3
-ratings: 517
-reviews: 298
+stars: 3.5
+ratings: 530
+reviews: 305
 size: 21M
 website: https://www.chiliz.net/
 repository: 
@@ -43,4 +43,4 @@ At section 4.2.5
 
 We downloaded the app, and signed up. After joining the service, the service generates a BTC address allowing the user to send or receive bitcoins. However, as it is a centralized exchange, the private keys are not provided. 
 
-Verdict: This exchange is **custodial** and thus **not verifiable.** {% include verdictBadge.html verdict="custodial" type='short' %}
+Verdict: This exchange is **custodial** and thus **not verifiable**.

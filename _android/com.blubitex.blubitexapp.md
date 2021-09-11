@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.blubitex.blubitexapp
 released: 2020-10-03
-updated: 2021-08-02
-version: "2.1.335"
+updated: 2021-09-09
+version: "2.1.336"
 stars: 3.4
-ratings: 2664
+ratings: 2669
 reviews: 1485
-size: 80M
+size: 81M
 website: https://www.blubitex.com/
 repository: 
 issue: 
@@ -36,14 +36,13 @@ redirect_from:
 
 The [Privacy Policy](https://blubitex.com/ft/privacy) is titled as 
 
-> P2P User Transaction Policy.
-
-> The platform is not a party to a C2C transaction. Therefore, any disputes between Users engaging in C2C transactions have nothing to do with the platform. The platform has neither the rights nor the obligations to resolve any disputes arising therefrom. It is not obliged to assume physical obligations or responsibilities to any party (including but not limited to indemnities).
+> P2P User Transaction Policy.<br>
+  The platform is not a party to a C2C transaction. Therefore, any disputes between Users engaging in C2C transactions have nothing to do with the platform. The platform has neither the rights nor the obligations to resolve any disputes arising therefrom. It is not obliged to assume physical obligations or responsibilities to any party (including but not limited to indemnities).
 
 However it is required for users to comply with the KYC policy.	
 There's also no mention of private keys, self-custody, or available source code on the website.
 
 Verdict: While it's possible that this app is not-custodial, we do not currently have access to the app to verify this.
 
-Tentatively, we'll label this as 'nosource'. We'll then await the response of their support.
+Tentatively, we assume there is **no source** for the current release. We'll then await the response of their support.
 

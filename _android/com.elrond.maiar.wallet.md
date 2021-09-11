@@ -4,14 +4,14 @@ title: "Maiar: Crypto & eGold Wallet - Buy, Earn & Pay"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.elrond.maiar.wallet
 released: 2021-01-15
-updated: 2021-09-01
-version: "1.3.56"
-stars: 4.4
-ratings: 3789
-reviews: 1660
+updated: 2021-09-03
+version: "1.3.57"
+stars: 4.6
+ratings: 3885
+reviews: 1711
 size: 67M
 website: https://maiar.com/
 repository: 

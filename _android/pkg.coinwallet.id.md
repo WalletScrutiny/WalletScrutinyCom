@@ -9,8 +9,8 @@ appId: pkg.coinwallet.id
 released: 2021-04-13
 updated: 2021-04-23
 version: "1.0.0"
-stars: 4.5
-ratings: 31
+stars: 4.6
+ratings: 32
 reviews: 23
 size: 6.7M
 website: 

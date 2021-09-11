@@ -10,8 +10,8 @@ released: 2019-12-19
 updated: 2021-08-25
 version: "2.2.1"
 stars: 4.5
-ratings: 1194
-reviews: 516
+ratings: 1221
+reviews: 526
 size: 126M
 website: 
 repository: 
@@ -57,4 +57,4 @@ We do not provide the private keys to our customers. All client funds are kept i
 Kind regards,<br>
 Sam
 
-The restrictions on account withdrawals, cryptocurrency transfers and no mention of the provision for the private keys or the source code, lends us to believe that this app is **custodial** and thus, its **source code cannot be verified**
+With all funds in cold storage, this app is **custodial** and thus, it **cannot be verified**

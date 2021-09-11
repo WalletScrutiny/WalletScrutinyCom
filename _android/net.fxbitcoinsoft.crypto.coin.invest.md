@@ -4,7 +4,7 @@ title: "Crypto Coin Invest"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: net.fxbitcoinsoft.crypto.coin.invest
 released: 2021-07-18
 updated: 2021-07-18

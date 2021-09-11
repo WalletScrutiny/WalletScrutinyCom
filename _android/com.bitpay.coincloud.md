@@ -9,9 +9,9 @@ appId: com.bitpay.coincloud
 released: 2018-09-06
 updated: 2021-08-25
 version: "12.02.6"
-stars: 3.8
-ratings: 162
-reviews: 81
+stars: 4.0
+ratings: 172
+reviews: 90
 size: 16M
 website: https://www.coincloudatm.com/
 repository: 

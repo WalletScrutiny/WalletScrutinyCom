@@ -10,15 +10,15 @@ released: 2018-04-07
 updated: 2021-03-07
 version: "1.2.9"
 stars: 4.7
-ratings: 7563
-reviews: 6933
+ratings: 7569
+reviews: 6939
 size: 14M
 website: https://everusworld.com/
 repository: 
 issue: 
 icon: com.everus.org.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -52,5 +52,4 @@ From the official website:
 
 **Crypto wallet management** implies that there's a third-party managing your funds.
 
-
-
+This would classify this product as a **custodial** offering.

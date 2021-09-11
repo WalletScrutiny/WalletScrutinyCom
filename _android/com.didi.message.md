@@ -9,9 +9,9 @@ appId: com.didi.message
 released: 2020-04-30
 updated: 2021-08-30
 version: "1.9.1"
-stars: 4.9
-ratings: 682
-reviews: 264
+stars: 4.6
+ratings: 701
+reviews: 271
 size: 79M
 website: https://didimessage.com/
 repository: 
@@ -45,7 +45,7 @@ We installed the app on a Samsung A11 phone and was able to locate the bitcoin w
 
 > Managing digital tokens. You can add, keep or remove DiDi supported digital tokens from the DiDi operating interface (except ETH、BTC).
 
-There was no apparent method how to access the private keys and we weren't able to locate the source code for the app. Since it has a lot of functionalities for commercial purposes, we assume that it is a custodial app and hence, not verifiable {% include verdictBadge.html verdict="not verifiable" type='short' %}
+There was no apparent method how to access the private keys and we weren't able to locate the source code for the app. Since it has a lot of functionalities for commercial purposes, we assume that it is a custodial app and hence, not verifiable.
 
 
 

@@ -9,9 +9,9 @@ appId: com.arz8x.app.arz8x
 released: 2020-05-08
 updated: 2021-06-16
 version: "2.0.2"
-stars: 4.4
-ratings: 1182
-reviews: 677
+stars: 4.3
+ratings: 1207
+reviews: 692
 size: 32M
 website: https://arz8x.com/
 repository: 
@@ -75,6 +75,4 @@ https://t.me/arz8x_info/20
 
 The last video showed the interface of the app with different cryptocurrency logos including Bitcoin and what appeared to be capabilities in sending and receiving. 
 
-Since not much other information is readily available and translateable from the site, we are inclined to mark this app as **custodial** and therefore, the **source code cannot be verified.**
-
-We recommend further research from native Persian users.
+Since not much other information is readily available and translateable from the site, we are inclined to mark this app as **custodial** and therefore, **not verifiable.**

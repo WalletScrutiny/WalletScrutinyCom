@@ -11,7 +11,7 @@ updated: 2020-12-10
 version: "8.0.0"
 stars: 4.4
 ratings: 121
-reviews: 90
+reviews: 91
 size: 18M
 website: 
 repository: 

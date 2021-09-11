@@ -9,9 +9,9 @@ appId: com.starlyware.bitreal
 released: 2021-03-29
 updated: 2021-09-04
 version: "1.3.2"
-stars: 2.5
-ratings: 174
-reviews: 133
+stars: 2.4
+ratings: 176
+reviews: 134
 size: 7.4M
 website: 
 repository: 

@@ -4,7 +4,7 @@ title: "UpBots -  Invest & Trade Crypto Easily & Securely"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.upbots.demo.twa
 released: 2021-06-21
 updated: 2021-06-21

@@ -48,7 +48,7 @@ This was more specifically detailed in a [blog post on medium.](https://medium.c
 
 > BitBerry is a cryptic wallet developed by Root One Soft, a subsidiary of Dunamu that operates the largest cryptographic exchange in Korea, and Dsion has entered into business agreements with BitBerry. Root One is a wallet made by a subsidiary of Dunamo invested by Kakao. It is excellent in convenience. It is easy to use face ID and fingerprint instead of complicated use of public key and private key of existing password wallet. In less than a minute, you can quickly transfer money between your wallets without any fees.
 
-This app is custodial {% include verdictBadge.html verdict="custodial" type='short' %} and also, not verifiable.
+This app is custodial and therefore **not verifiable**.
 
 
 

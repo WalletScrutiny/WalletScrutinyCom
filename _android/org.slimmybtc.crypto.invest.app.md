@@ -4,7 +4,7 @@ title: "Crypto Invest App"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.slimmybtc.crypto.invest.app
 released: 2021-07-18
 updated: 2021-07-18
