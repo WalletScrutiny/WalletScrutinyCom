@@ -3,15 +3,15 @@ wsId: whitebit
 title: "WhiteBIT – buy & sell bitcoin. Crypto wallet"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.whitebit.android
 released: 2019-06-07
 updated: 2021-09-02
 version: "2.1.13"
 stars: 4.4
-ratings: 1644
-reviews: 900
+ratings: 1648
+reviews: 903
 size: 13M
 website: https://whitebit.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit: WhiteBitExchange
 redirect_from:
 
 ---
+
+
 This centralized cryptocurrency exchange also has a decentralized exchange. 
 
 The centralized exchange allows for [deposit/withdrawal of cryptocurrencies](https://whitebit.com/faq#22) up to 2 BTC in value without KYC. Above that value, KYC would be needed.

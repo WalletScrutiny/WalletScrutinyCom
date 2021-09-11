@@ -9,11 +9,11 @@ appId: com.app.cryptofully
 appCountry: 
 idd: 1533929589
 released: 2020-11-15
-updated: 2021-06-07
-version: "1.2.4"
+updated: 2021-09-09
+version: "1.2.8"
 stars: 4.58696
 reviews: 46
-size: 46720000
+size: 50034688
 website: https://www.cryptofully.com
 repository: 
 issue: 

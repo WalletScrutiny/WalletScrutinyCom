@@ -10,8 +10,8 @@ idd: 1442083982
 released: 2018-12-01
 updated: 2021-09-07
 version: "2.37.3"
-stars: 4.15567
-reviews: 591
+stars: 4.15683
+reviews: 593
 size: 137890816
 website: https://guarda.com/mobile-wallet
 repository: 

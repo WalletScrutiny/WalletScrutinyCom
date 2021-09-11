@@ -9,8 +9,8 @@ appId: com.perfectcrypto.perfect_crypto
 released: 2020-11-09
 updated: 2021-05-16
 version: "1.0.18"
-stars: 4.4
-ratings: 577
+stars: 4.5
+ratings: 578
 reviews: 351
 size: 29M
 website: 

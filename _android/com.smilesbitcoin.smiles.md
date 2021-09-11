@@ -9,9 +9,9 @@ appId: com.smilesbitcoin.smiles
 released: 
 updated: 2021-07-07
 version: "1.109"
-stars: 2.4
-ratings: 68
-reviews: 53
+stars: 2.5
+ratings: 70
+reviews: 54
 size: 71M
 website: 
 repository: 

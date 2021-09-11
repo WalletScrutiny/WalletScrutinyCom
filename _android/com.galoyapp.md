@@ -4,14 +4,14 @@ title: "Bitcoin Beach Wallet"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.galoyapp
 released: 2020-11-24
 updated: 2021-09-02
 version: "1.4.11"
-stars: 4.1
-ratings: 173
-reviews: 96
+stars: 4.0
+ratings: 181
+reviews: 99
 size: 32M
 website: 
 repository: 

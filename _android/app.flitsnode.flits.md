@@ -9,8 +9,8 @@ appId: app.flitsnode.flits
 released: 2019-04-05
 updated: 2021-02-09
 version: "4.4"
-stars: 3.8
-ratings: 2050
+stars: 3.9
+ratings: 2051
 reviews: 1356
 size: 14M
 website: https://flitsnode.app

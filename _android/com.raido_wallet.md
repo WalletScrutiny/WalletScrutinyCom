@@ -8,7 +8,7 @@ users: 10000
 appId: com.raido_wallet
 released: 2020-07-27
 updated: 2021-09-09
-version: "2.0.0"
+version: "2.1.0"
 stars: 4.2
 ratings: 43
 reviews: 34

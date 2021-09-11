@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bytetrade.bytehub
 released: 2019-02-02
-updated: 2021-01-15
-version: "1.4.1.210114"
+updated: 2021-09-09
+version: "1.4.3.210909"
 stars: 4.6
-ratings: 7135
-reviews: 4299
-size: 27M
+ratings: 7138
+reviews: 4303
+size: 29M
 website: https://www.bytetrade.io/
 repository: 
 issue: 

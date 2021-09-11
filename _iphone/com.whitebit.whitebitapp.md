@@ -3,7 +3,7 @@ wsId: whitebit
 title: "WhiteBIT:Buy bitcoin securel‪y"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
@@ -32,4 +32,5 @@ providerReddit: WhiteBitExchange
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

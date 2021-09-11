@@ -10,8 +10,8 @@ released: 2021-06-10
 updated: 2021-09-07
 version: "1.0.49"
 stars: 3.8
-ratings: 1686
-reviews: 879
+ratings: 1704
+reviews: 882
 size: 31M
 website: https://cryptotab.farm/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Make any available computers (Windows or macOS) work for you – instead of worthless dust collecting, they will bring you passive income in BTC.
 
 According to the description, you can use this app to install "a high-performance miner"

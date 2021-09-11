@@ -9,9 +9,9 @@ appId: com.app.fameex
 released: 2020-08-10
 updated: 2021-09-07
 version: "2.5.2"
-stars: 5.0
-ratings: 627
-reviews: 567
+stars: 4.9
+ratings: 628
+reviews: 568
 size: 41M
 website: 
 repository: 

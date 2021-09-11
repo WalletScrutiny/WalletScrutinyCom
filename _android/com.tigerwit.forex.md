@@ -10,8 +10,8 @@ released: 2018-01-24
 updated: 2021-09-08
 version: "5.5.3"
 stars: 4.1
-ratings: 1643
-reviews: 682
+ratings: 1646
+reviews: 683
 size: 26M
 website: https://www.tigerwit.com
 repository: 

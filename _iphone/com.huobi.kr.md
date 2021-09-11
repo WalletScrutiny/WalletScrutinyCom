@@ -10,8 +10,8 @@ idd: 1375898166
 released: 2018-05-26
 updated: 2021-08-27
 version: "3.5.9"
-stars: 3.8674
-reviews: 362
+stars: 3.8595
+reviews: 363
 size: 146229248
 website: http://www.hb.co.kr
 repository: 

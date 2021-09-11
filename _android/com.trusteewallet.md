@@ -10,7 +10,7 @@ released: 2019-05-01
 updated: 2021-08-12
 version: "1.40.888"
 stars: 4.3
-ratings: 1982
+ratings: 1983
 reviews: 1372
 size: 53M
 website: https://trustee.deals
