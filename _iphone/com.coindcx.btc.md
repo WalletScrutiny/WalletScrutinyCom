@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinDCXPro
 title: "CoinDCX Go: Crypto Investment"
 altTitle: 
 authors:
-
+- danny
 appId: com.coindcx.btc
 appCountry: 
 idd: 1517787269
@@ -17,19 +17,19 @@ website: https://go.coindcx.com
 repository: 
 issue: 
 icon: com.coindcx.btc.jpg
-bugbounty: 
-verdict: wip
+bugbounty: https://coindcx.com/bug-bounty
+verdict: custodial
 date: 2021-08-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coindcx
+providerLinkedIn: coindcx
+providerFacebook: CoinDCX
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

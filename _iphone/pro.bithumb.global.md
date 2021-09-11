@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitthumbglobal
 title: "BitGlobal (ex: Bithumb Global)"
 altTitle: 
 authors:
-
+- danny
 appId: pro.bithumb.global
 appCountry: us
 idd: 1467713913
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: pro.bithumb.global.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-30
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: BithumbGlobal
+providerLinkedIn: bithumbglobal
+providerFacebook: bithumb.global
+providerReddit: BithumbGlobal
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
