@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-12
 signer: 
 reviewArchive:
@@ -41,6 +41,9 @@ providerReddit: Bitrefill
 redirect_from:
 
 ---
+
+**Update 2021-09-12**: This app wasn't updated for a year but appears to be
+back. Nothing changed with the former verdict.
 
 While the primary purpose of this app is to buy stuff with Bitcoin and it appears
 to be possible to use the app without putting money into it, the app also can
