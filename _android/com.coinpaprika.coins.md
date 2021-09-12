@@ -3,15 +3,15 @@ wsId: coinsonepaprika
 title: "COINS: One App For Crypto by Coinpaprika"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.coinpaprika.coins
 released: 2020-06-15
-updated: 2021-08-26
-version: "1.14.1"
-stars: 4.2
-ratings: 1109
-reviews: 573
+updated: 2021-09-10
+version: "1.14.2"
+stars: 4.3
+ratings: 1110
+reviews: 574
 size: 32M
 website: https://coins.coinpaprika.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From the Google Play app description: 
 
 > With COINS, you can Discover, Store, Invest, Send & Receive over 2000 cryptocurrencies. All in one app. 

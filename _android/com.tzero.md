@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The description on Google Play lists its features:
 
 > An easy and secure way to instantly buy, manage, and sell Bitcoin, Ethereum, Dogecoin, Litecoin, Ravencoin and many more.

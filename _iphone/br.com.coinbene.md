@@ -10,8 +10,8 @@ idd: 1439224379
 released: 2018-11-12
 updated: 2021-09-03
 version: "4.8.5"
-stars: 3.91892
-reviews: 37
+stars: 3.92105
+reviews: 38
 size: 117235712
 website: https://www.coinbene.com/
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

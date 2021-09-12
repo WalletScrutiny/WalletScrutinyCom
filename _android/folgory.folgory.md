@@ -9,9 +9,9 @@ appId: folgory.folgory
 released: 2021-04-09
 updated: 2021-04-09
 version: "1.0.1"
-stars: 2.5
-ratings: 20
-reviews: 14
+stars: 2.4
+ratings: 21
+reviews: 15
 size: 23M
 website: 
 repository: 

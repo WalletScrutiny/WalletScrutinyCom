@@ -10,8 +10,8 @@ released: 2018-10-30
 updated: 2020-01-23
 version: "2.0.1"
 stars: 3.8
-ratings: 63
-reviews: 39
+ratings: 62
+reviews: 38
 size: 9.9M
 website: https://microbitcoin.org
 repository: 

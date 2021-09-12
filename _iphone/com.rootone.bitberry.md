@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-09-11
+verdict: stale
+date: 2021-09-12
 signer: 
 reviewArchive:
+- date: 2021-09-11
+  version: "1.3.3"
+  appHash: 
+  gitRevision: a56730247355e1acdeba52317b006511806100fb
+  verdict: custodial
 - date: 2021-09-03
   version: "undefined"
   appHash: 
@@ -36,4 +41,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

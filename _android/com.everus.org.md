@@ -10,8 +10,8 @@ released: 2018-04-07
 updated: 2021-03-07
 version: "1.2.9"
 stars: 4.7
-ratings: 7570
-reviews: 6939
+ratings: 7569
+reviews: 6938
 size: 14M
 website: https://everusworld.com/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

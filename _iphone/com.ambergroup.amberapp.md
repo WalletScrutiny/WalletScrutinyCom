@@ -3,15 +3,15 @@ wsId: ambercrypto
 title: "Amber App - Swap & Earn Crypto"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
 updated: 2021-08-02
 version: "1.6.0"
-stars: 3.4
-reviews: 25
+stars: 3.30769
+reviews: 26
 size: 291851264
 website: http://www.ambergroup.io
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

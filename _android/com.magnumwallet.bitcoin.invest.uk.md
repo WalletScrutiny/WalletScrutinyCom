@@ -4,7 +4,7 @@ title: "Bitcoin Invest Uk"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: com.magnumwallet.bitcoin.invest.uk
 released: 2021-07-18
 updated: 2021-07-18

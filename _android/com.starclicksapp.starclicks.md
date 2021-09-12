@@ -9,9 +9,9 @@ appId: com.starclicksapp.starclicks
 released: 2021-04-28
 updated: 2021-04-28
 version: "1.0"
-stars: 3.9
-ratings: 93
-reviews: 52
+stars: 3.8
+ratings: 96
+reviews: 54
 size: 4.3M
 website: 
 repository: 

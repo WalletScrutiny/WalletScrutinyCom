@@ -8,8 +8,8 @@ appId: com.techx.arya
 appCountry: us
 idd: 1478620685
 released: 2019-09-06
-updated: 2021-09-08
-version: "2.9.0"
+updated: 2021-09-11
+version: "2.9.1"
 stars: 
 reviews: 
 size: 72059904
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

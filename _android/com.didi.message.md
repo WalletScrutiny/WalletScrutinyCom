@@ -10,8 +10,8 @@ released: 2020-04-30
 updated: 2021-08-30
 version: "1.9.1"
 stars: 4.4
-ratings: 716
-reviews: 278
+ratings: 720
+reviews: 280
 size: 79M
 website: https://didimessage.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > DiDi the world's best instant messenger that provides real protection for correspondence. In our messenger you can encrypt the sent and received message. All the way to the recipient message is held in an encrypted form.
 
 

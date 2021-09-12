@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > A unique social App, empowering everyone, to invest smartly.

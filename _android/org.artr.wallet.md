@@ -10,7 +10,7 @@ released:
 updated: 2021-07-09
 version: "1.6"
 stars: 4.6
-ratings: 1517
+ratings: 1520
 reviews: 807
 size: 45M
 website: https://artery.network/
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > The Artery Network is based on devices (phones, computers) that allocate free memory and internet connection in the Artery Node product, providing decentralization to the Artery Storage and Artery VPN products.
 

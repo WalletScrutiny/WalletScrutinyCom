@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "Bekonta - Fast & Easy Crypto Exchange"
+title: "Bekonta: Buy & Sell BTC and Cryptocurrency Fast"
 altTitle: 
 authors:
 
 users: 10000
 appId: com.bitpezapro.app
 released: 2020-02-09
-updated: 2021-09-09
-version: "1.0.1"
+updated: 2021-09-11
+version: "1.0.3"
 stars: 4.4
 ratings: 101
 reviews: 77

@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.BizzCoin
 released: 2020-01-02
-updated: 2021-05-11
-version: "1.18"
+updated: 2021-09-11
+version: "1.20"
 stars: 4.3
-ratings: 463
-reviews: 268
+ratings: 465
+reviews: 269
 size: 42M
 website: 
 repository: 

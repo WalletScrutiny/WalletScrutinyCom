@@ -3,14 +3,14 @@ wsId: ambercrypto
 title: "Amber App - Swap & Earn Crypto"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: io.ambergroup.amber
 released: 2020-09-21
 updated: 2021-08-02
 version: "v1.6.0"
 stars: 4.0
-ratings: 386
+ratings: 387
 reviews: 191
 size: 80M
 website: https://www.ambergroup.io
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app is a crypto investment app that allows users to: 
 
 - Have attractive yield on major crypto assets
