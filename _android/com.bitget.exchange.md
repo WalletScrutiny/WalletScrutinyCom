@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Bitget
 title: "Bitget ：Crypto Trading & BitCoin Contract Platfom"
 altTitle: 
 authors:
-
+- danny
 users: 50000
 appId: com.bitget.exchange
 released: 2020-04-03
@@ -13,29 +13,39 @@ stars: 4.9
 ratings: 500
 reviews: 453
 size: 34M
-website: 
+website: https://www.bitget.com/
 repository: 
 issue: 
 icon: com.bitget.exchange.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-11
 signer: 
 reviewArchive:
-- date: 2021-08-02
+- date: 2021-08-05
   version: "1.2.7"
   appHash: 
   gitRevision: 3d4e0de7554c723d80c48c1d30caa7bad0af40aa
   verdict: wip
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitgetglobal
+providerLinkedIn: bitget
+providerFacebook: BitgetGlobal
 providerReddit: 
 
 redirect_from:
 
 ---
+**Update 2021-09-12**: This app appears to be back on Play Store
 
+Given Bitget refers to itself in the title as a "Crypto Trading & BitCoin Contract Platfom" it is presumably custodial.
 
-**Update 2021-08-05**: This app is not on Play Store anymore.
+In Bitget's website, under the "Security" feature:
+> Supports Dedicated/Multi-signature for Cold/Hot Wallet
+
+Also in the Play store description:
+
+> Protecting the safety of your assets is our top priority. The wallet we use has multiple physical isolations and supports dedicated personal multiple signatures.
+
+This is *also* very usually an indicator that this product is **custodial** thus **not verifiable.** 
+
