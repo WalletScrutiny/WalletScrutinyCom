@@ -11,7 +11,7 @@ updated: 2021-09-08
 version: "1.0.100"
 stars: 3.8
 ratings: 1270
-reviews: 889
+reviews: 890
 size: 178M
 website: https://bitvavo.com/
 repository: 

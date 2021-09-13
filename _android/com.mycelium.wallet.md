@@ -10,8 +10,8 @@ released: 2013-07-01
 updated: 2021-08-17
 version: "3.11.0.4"
 stars: 4.2
-ratings: 10919
-reviews: 4981
+ratings: 10927
+reviews: 4982
 size: 24M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android

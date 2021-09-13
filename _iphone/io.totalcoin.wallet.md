@@ -8,11 +8,11 @@ appId: io.totalcoin.wallet
 appCountry: 
 idd: 1392398906
 released: 2018-07-05
-updated: 2021-09-11
-version: "4.0.0"
-stars: 4.4516
-reviews: 93
-size: 41131008
+updated: 2021-09-12
+version: "4.0.1"
+stars: 4.45744
+reviews: 94
+size: 41118720
 website: http://totalcoin.io
 repository: 
 issue: 

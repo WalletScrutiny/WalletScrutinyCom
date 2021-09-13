@@ -10,8 +10,8 @@ released: 2017-12-01
 updated: 2021-08-09
 version: "3.3.4"
 stars: 3.9
-ratings: 5225
-reviews: 2632
+ratings: 5244
+reviews: 2639
 size: 18M
 website: http://www.bitcointrade.com.br/
 repository: 

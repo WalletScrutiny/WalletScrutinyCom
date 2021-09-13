@@ -10,7 +10,7 @@ released:
 updated: 2021-07-09
 version: "1.6"
 stars: 4.6
-ratings: 1520
+ratings: 1522
 reviews: 807
 size: 45M
 website: https://artery.network/

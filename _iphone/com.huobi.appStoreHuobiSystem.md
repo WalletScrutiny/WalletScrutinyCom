@@ -10,7 +10,7 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2021-09-11
 version: "6.4.7"
-stars: 4.71725
+stars: 4.71593
 reviews: 3038
 size: 305033216
 website: http://www.hbg.com

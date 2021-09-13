@@ -9,9 +9,9 @@ appId: com.cryptojournal.crypto.com.buy.bitcoin.now
 released: 2021-07-07
 updated: 2021-07-07
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.6
+ratings: 5
+reviews: 3
 size: 2.3M
 website: 
 repository: 

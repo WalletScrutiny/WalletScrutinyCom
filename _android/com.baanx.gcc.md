@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.baanx.gcc.png
 bugbounty: 
-verdict: wip
-date: 2021-09-01
+verdict: stale
+date: 2021-09-13
 signer: 
 reviewArchive:
-
+- date: 2021-09-01
+  version: "1.2.0"
+  appHash: 
+  gitRevision: f81463be68fa0b814fa5a46c27e94569ba51d23c
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

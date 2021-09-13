@@ -9,9 +9,9 @@ appId: zapsolutions.strike
 released: 
 updated: 2021-09-03
 version: "v89"
-stars: 4.2
-ratings: 3407
-reviews: 1344
+stars: 4.0
+ratings: 3435
+reviews: 1358
 size: 13M
 website: 
 repository: 

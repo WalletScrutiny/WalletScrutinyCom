@@ -9,9 +9,9 @@ appId: com.app.bitay
 released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
-stars: 4.8
-ratings: 5632
-reviews: 3865
+stars: 4.7
+ratings: 5657
+reviews: 3888
 size: 3.6M
 website: https://www.bitay.com
 repository: 

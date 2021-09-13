@@ -10,8 +10,8 @@ released: 2018-11-25
 updated: 2021-09-10
 version: "4.3.5"
 stars: 3.3
-ratings: 1275
-reviews: 804
+ratings: 1276
+reviews: 805
 size: 27M
 website: https://www.dcoin.com/
 repository: 
