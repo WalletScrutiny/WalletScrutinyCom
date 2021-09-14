@@ -3,7 +3,7 @@ wsId:
 title: "BTC Mining Cloud"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.multiminingapp.btcminingcloud
 released: 2021-03-25
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -32,5 +32,12 @@ providerReddit:
 redirect_from:
 
 ---
+This app advertises itself as a "cloud mining service" so it is likely not a standard BTC wallet. 
 
+> Bitcoin Mining Cloud is a cloud mining service for a cryptocurrency (Cloud Mining), in which you can buy a plane and start mining to earn crypto coins. BTC Mining Cloud allows everyone to earn cryptocurrencies like Bitcoin.
 
+There is a wallet, but there is no mention of private keys and
+
+The provider's name is listed as "[Video Player & Video Downloader & Tools](https://play.google.com/store/apps/details?id=com.multiminingapp.btcminingcloud)" 
+
+They do not appear to have an official website or even social media accounts.
