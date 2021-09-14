@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Bibox
 title: "Bibox"
 altTitle: 
 authors:
-
+- danny
 users: 50000
 appId: com.bibox.www.bibox
 released: 2019-03-24
@@ -13,24 +13,35 @@ stars: 4.8
 ratings: 784
 reviews: 403
 size: 37M
-website: 
+website: https://www.bibox.com
 repository: 
 issue: 
 icon: com.bibox.www.bibox.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: Bibox365
+providerLinkedIn: biboxexchange
+providerFacebook: Bibox2017
+providerReddit: Bibox
 
 redirect_from:
 
 ---
+From its Google Play description:
 
+> Bibox, AI-enhanced digital asset exchange, is one of the world's best cryptocurrency exchanges now. Bibox provides token exchange, contracts, bonds and margin trading with high liquidity and market depth.
 
+Our initial assessment indicates that this is a centralized exchange.
+
+We downloaded the app and found that it is possible to send and receive BTC. However, you are not provided with the keys to the wallet. 
+
+We emailed [Bibox support](support@bibox.zendesk.com) to further validate our findings. 
+
+Until such time that new information arises, and with no mention of self-custody, it's presumable that this app is **custodial** and **not verifiable.**
+
+We will update the verdict once they have replied.
