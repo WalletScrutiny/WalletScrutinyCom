@@ -58,4 +58,4 @@ In the Section 23 of the [FAQ](https://bitoasis.net/en/page/faq),
 Our wallet uses multi-signature technology to secure your bitcoins. With our multi-signature wallet, you will need 2 of your 3 private keys to move or spend any bitcoins. This provides an extra level of security to make sure your funds will not be compromised if one of your private keys is.<br>
 Your wallet private keys are three. You and BitOasis have access to one of those keys. As BitOasis, we do not have access or control over the 2 remaining keys and by that, we do not have control over any of our customers’ bitcoins. The second key is held by BitGo, a third-party security company. The third key, or the Recovery key, is a backup for emergencies and is secured under the supervision of an independent law firm that our customers can reach out to in case of any service compromise.
 
-Bitoasis is a multi-sig 'wallet', but this still qualifies it as a **custodial**  offering, thus **not-verifiable**. 
+As third parties have the 2of3 quorum - BitGo and "an independent law firm" - and you don't have it, we qualify this product as **custodial** and thus **not-verifiable**.

@@ -44,4 +44,4 @@ Section 4.6 of the same page further elaborates:
 
 > (b)to restrict or terminate your access to any or all of the MAX Exchange Services and/or this Site for the purpose of risk control,and to determine the process to settle and return your Digital Currency and Fiat Currency,for example, enabling you to withdraw within a specific period;
 
-Since the platform and app, explicitly states its control of user funds, this is thereby confirmed as **custodial** and its **source code cannot be verified**.
+Since the platform and app, explicitly states its control of user funds, this is thereby confirmed as **custodial** and **cannot be verified**.

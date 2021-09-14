@@ -53,4 +53,4 @@ It has a tutorial on [depositing digital assets](https://support.biki.cc/hc/en-u
 
 We emailed support to verify our findings. 
 
-All evidences point to a **custodial** service that does **not provide the source code**.
+All evidences point to a **custodial** service.

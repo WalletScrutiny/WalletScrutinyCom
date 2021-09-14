@@ -34,7 +34,7 @@ redirect_from:
 ---
 The Poolin Mining Pool app is created by Poolin, an industry-leading global enterprise that engages in cryptocurrency mining pool services.
 
-To avoid confusion, the Poolin.com app is specifically for the Poolin mining pool. It acts as a dashboard. It gives information about the hashrate, miner profitability, calculator and other information pertinent to mining with the Poolin pool. To withdraw earnings from mining revenue, the user would have to download a similarly named app called Poolin wallet from [Poolin.fi](https://poolin.fi/). 
+To avoid confusion, the Poolin.com app is specifically for the Poolin mining pool. It acts as a dashboard. It gives information about the hashrate, miner profitability, calculator and other information pertinent to mining with the Poolin pool. To withdraw earnings from mining revenue, the user would have to download {% include walletLink.html wallet='android/com.blockin.wallet' verdict='true' %}. 
 
 This is referred to in a help guide entitled "[I want to invest what should I do?](https://help.poolin.com/hc/en-us/articles/360052320571-I-Want-To-Invest-What-Should-I-Do-)"
 

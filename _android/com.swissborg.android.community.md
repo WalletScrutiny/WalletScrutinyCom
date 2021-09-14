@@ -32,7 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
-Formerly known as the Swissborg Community App, this app does not have a wallet. It is a Bitcoin price prediction game with a leaderboard for points. Correct guesses for Bitcoin's price movement merits points for the user. You have to download a companion Swissborg app in order to receive the rewards. 
+Formerly known as the Swissborg Community App, this app does not have a wallet. It is a Bitcoin price prediction game with a leaderboard for points. Correct guesses for Bitcoin's price movement merits points for the user. You have to download {% include walletLink.html wallet='android/com.swissborg.android' verdict='true' %} in order to receive the rewards. 
 
 [Reward withdrawal FAQ](https://help.swissborg.com/hc/en-gb/articles/360020296033-When-and-how-can-I-withdraw-my-rewards-)
 

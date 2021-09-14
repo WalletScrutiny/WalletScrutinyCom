@@ -14,7 +14,7 @@ ratings: 847
 reviews: 562
 size: 80M
 website: https://www.onto.app
-repository: 
+repository: https://github.com/ONTO-Data-Wallet/ONTO
 issue: 
 icon: com.github.ontio.onto.png
 bugbounty: 
