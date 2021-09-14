@@ -11,7 +11,7 @@ updated: 2021-08-11
 version: "2.0.5"
 stars: 4.4
 ratings: 1379
-reviews: 544
+reviews: 545
 size: 9.8M
 website: https://stex.com
 repository: 

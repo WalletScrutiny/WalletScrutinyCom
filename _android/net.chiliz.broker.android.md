@@ -9,9 +9,9 @@ appId: net.chiliz.broker.android
 released: 2020-01-22
 updated: 2021-06-01
 version: "4.0.1"
-stars: 3.3
-ratings: 535
-reviews: 310
+stars: 3.2
+ratings: 537
+reviews: 312
 size: 21M
 website: https://www.chiliz.net/
 repository: 

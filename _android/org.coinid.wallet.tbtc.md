@@ -4,7 +4,7 @@ title: "Bitcoin Testnet Wallet for COINiD"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: org.coinid.wallet.tbtc
 released: 2019-02-06
 updated: 2021-02-20
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.coinid.wallet.tbtc.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

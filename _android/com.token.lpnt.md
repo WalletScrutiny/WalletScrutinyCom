@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.token.lpnt
 released: 2021-05-03
-updated: 2021-09-11
-version: "2.0"
+updated: 2021-09-13
+version: "2.1"
 stars: 4.5
-ratings: 919
-reviews: 446
+ratings: 936
+reviews: 454
 size: 6.2M
 website: 
 repository: 

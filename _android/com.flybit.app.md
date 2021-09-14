@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.flybit.app
 released: 2021-02-04
-updated: 2021-09-10
-version: "1.8.1"
-stars: 4.0
+updated: 2021-09-13
+version: "1.8.2"
+stars: 4.1
 ratings: 357
-reviews: 227
+reviews: 226
 size: 8.5M
 website: 
 repository: 

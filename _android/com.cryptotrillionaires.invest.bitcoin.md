@@ -4,7 +4,7 @@ title: "Invest Bitcoin"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: com.cryptotrillionaires.invest.bitcoin
 released: 2021-07-17
 updated: 2021-07-17

@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.bitpapa
 released: 2020-08-18
-updated: 2021-09-08
-version: "1.6.10"
-stars: 4.6
-ratings: 4101
-reviews: 4029
+updated: 2021-09-13
+version: "1.6.11"
+stars: 4.7
+ratings: 4113
+reviews: 4042
 size: 43M
 website: https://bitpapa.com
 repository: 

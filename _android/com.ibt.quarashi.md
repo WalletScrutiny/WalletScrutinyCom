@@ -9,9 +9,9 @@ appId: com.ibt.quarashi
 released: 2021-07-09
 updated: 2021-09-03
 version: "1.0.9"
-stars: 4.9
-ratings: 80
-reviews: 44
+stars: 5.0
+ratings: 165
+reviews: 70
 size: 15M
 website: 
 repository: 
