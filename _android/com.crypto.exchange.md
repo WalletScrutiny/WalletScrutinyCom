@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 640
 reviews: 289
 size: 64M
-website:  https://crypto.com/
+website: https://crypto.com/
 repository: 
 issue: 
 icon: com.crypto.exchange.png
