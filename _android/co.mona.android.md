@@ -20,7 +20,7 @@ issue:
 icon: co.mona.android.png
 bugbounty: 
 verdict: custodial
-date: 2019-12-28
+date: 2021-09-15
 signer: 
 reviewArchive:
 

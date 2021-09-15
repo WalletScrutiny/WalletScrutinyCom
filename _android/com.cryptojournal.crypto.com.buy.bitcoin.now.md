@@ -19,7 +19,7 @@ issue:
 icon: com.cryptojournal.crypto.com.buy.bitcoin.now.png
 bugbounty: 
 verdict: fake
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 

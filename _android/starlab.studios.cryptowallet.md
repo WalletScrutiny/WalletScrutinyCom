@@ -19,7 +19,7 @@ issue:
 icon: starlab.studios.cryptowallet.png
 bugbounty: 
 verdict: fake
-date: 2021-08-21
+date: 2021-09-15
 signer: 
 reviewArchive:
 
