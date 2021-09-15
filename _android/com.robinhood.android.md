@@ -10,8 +10,8 @@ released:
 updated: 2021-09-13
 version: "Varies with device"
 stars: 3.8
-ratings: 428338
-reviews: 228793
+ratings: 428356
+reviews: 228795
 size: Varies with device
 website: 
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 
 
 Taken from [the FAQ:](https://robinhood.com/us/en/support/articles/Answers-to-top-questions/)

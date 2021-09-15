@@ -3,7 +3,7 @@ wsId: studentcoin
 title: "Student Coin"
 altTitle: 
 authors:
- - danny
+- danny
 appId: org.studentcoin.mobile
 appCountry: pl
 idd: 1559718559
@@ -32,4 +32,5 @@ providerReddit: Studentcoin
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

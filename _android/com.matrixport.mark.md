@@ -3,15 +3,15 @@ wsId: matrixport
 title: "Matrixport: Get More From Your Crypto"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.matrixport.mark
 released: 2019-10-23
 updated: 2021-09-03
 version: "1.1.1"
 stars: 3.8
-ratings: 580
-reviews: 400
+ratings: 582
+reviews: 401
 size: 106M
 website: https://www.matrixport.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: Matrixport
 redirect_from:
 
 ---
+
+
 From its site description:
 
 > Matrixport delivers a comprehensive suite of innovative and easy-to-use crypto investment products and financial services tailored for all levels of expertise. We empower people to take control of their personal finances, one satisfied customer at a time.

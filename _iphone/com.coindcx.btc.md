@@ -1,6 +1,6 @@
 ---
 wsId: CoinDCXPro
-title: "CoinDCX Go: Crypto Investment"
+title: "CoinDCX: Crypto Investment"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.coindcx.btc
 appCountry: 
 idd: 1517787269
 released: 2020-12-09
-updated: 2021-09-06
-version: "CoinDCX GO 2.1.009"
-stars: 4.33087
-reviews: 272
-size: 78492672
-website: https://go.coindcx.com
+updated: 2021-09-14
+version: "CoinDCX 2.2.004"
+stars: 4.30435
+reviews: 276
+size: 79262720
+website: https://coindcx.com
 repository: 
 issue: 
 icon: com.coindcx.btc.jpg

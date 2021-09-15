@@ -10,8 +10,8 @@ released: 2020-03-30
 updated: 2021-09-06
 version: "21.9.3.1205813955"
 stars: 4.3
-ratings: 8741
-reviews: 4700
+ratings: 8747
+reviews: 4697
 size: 128M
 website: https://zipmex.com/th/en/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.
 
 With this quote from the Play Store:

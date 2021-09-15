@@ -10,8 +10,8 @@ idd: 1532702666
 released: 2020-10-16
 updated: 2021-07-14
 version: "1.6"
-stars: 4.55556
-reviews: 819
+stars: 4.54908
+reviews: 825
 size: 78948352
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

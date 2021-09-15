@@ -10,8 +10,8 @@ idd: 1505962519
 released: 2020-04-08
 updated: 2021-08-30
 version: "4.7.7"
-stars: 3.28571
-reviews: 7
+stars: 4.84415
+reviews: 77
 size: 112074752
 website: https://www.bibox.pro
 repository: 
@@ -32,4 +32,5 @@ providerReddit: Bibox
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

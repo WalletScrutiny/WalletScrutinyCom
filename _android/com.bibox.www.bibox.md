@@ -9,8 +9,8 @@ appId: com.bibox.www.bibox
 released: 2019-03-24
 updated: 2021-07-05
 version: "4.6.7"
-stars: 4.8
-ratings: 784
+stars: 4.9
+ratings: 781
 reviews: 403
 size: 37M
 website: https://www.bibox.com
@@ -32,6 +32,8 @@ providerReddit: Bibox
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > Bibox, AI-enhanced digital asset exchange, is one of the world's best cryptocurrency exchanges now. Bibox provides token exchange, contracts, bonds and margin trading with high liquidity and market depth.

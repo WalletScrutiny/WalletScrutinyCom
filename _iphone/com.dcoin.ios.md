@@ -3,7 +3,7 @@ wsId: dcoin
 title: "Dcoin - Trade Bitcoin,Ethereum"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

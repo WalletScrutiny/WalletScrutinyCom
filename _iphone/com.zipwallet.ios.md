@@ -3,7 +3,7 @@ wsId: zipwalletpay
 title: "Zipwallet-Bitcoin & Send money"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.zipwallet.ios
 appCountry: us
 idd: 1463275408
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

@@ -9,9 +9,9 @@ appId: com.trastra.mobile
 released: 2019-01-19
 updated: 2021-09-05
 version: "2.3.0"
-stars: 4.3
-ratings: 421
-reviews: 258
+stars: 4.2
+ratings: 423
+reviews: 259
 size: 55M
 website: 
 repository: 

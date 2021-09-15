@@ -9,9 +9,9 @@ appId: com.bitoasis
 released: 2020-08-20
 updated: 2021-09-07
 version: "1.3.15"
-stars: 4.3
-ratings: 868
-reviews: 207
+stars: 4.2
+ratings: 865
+reviews: 208
 size: 67M
 website: https://bitoasis.net/en/home
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > With BitOasis, you can buy digital assets safely and securely. Deposit fiat (AED) through your personal debit or credit card.

@@ -9,8 +9,8 @@ appId: com.e.bitmoondotnet
 released: 2020-02-03
 updated: 2020-02-03
 version: "1.0"
-stars: 3.6
-ratings: 57
+stars: 3.7
+ratings: 56
 reviews: 32
 size: 2.5M
 website: 

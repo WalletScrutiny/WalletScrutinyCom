@@ -3,7 +3,7 @@ wsId: foldapp
 title: "Fold - Bitcoin Cashback Rewards"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.fold
 released: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Section 6 of its [Terms of Service](https://foldapp.com/legal/terms-of-rewards) Reads:
 
 > Fold Rewards (“Rewards”) is a rewards program that allows a Fold user to earn promotional credits denominated in bitcoin and apply them to receive discounts on future purchases or with draw them to a personal bitcoin wallet.

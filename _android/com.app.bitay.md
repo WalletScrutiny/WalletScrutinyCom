@@ -10,8 +10,8 @@ released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
 stars: 4.7
-ratings: 5658
-reviews: 3887
+ratings: 5651
+reviews: 3881
 size: 3.6M
 website: https://www.bitay.com
 repository: 

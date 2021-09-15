@@ -9,8 +9,8 @@ appId: com.exnovin
 released: 2018-07-06
 updated: 2021-09-08
 version: "1.0"
-stars: 4.4
-ratings: 1965
+stars: 4.3
+ratings: 1967
 reviews: 786
 size: 34M
 website: https://exnovin.net/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 There are two apps with the same name of {% include walletLink.html wallet='io.exnovin.app' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.net](https://exnovin.net).
 
 Exnovin refers to itself as an app made for buying and selling digital currencies. 

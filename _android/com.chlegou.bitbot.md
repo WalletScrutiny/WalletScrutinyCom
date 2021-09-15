@@ -11,7 +11,7 @@ updated: 2021-05-17
 version: "1.5.6"
 stars: 3.9
 ratings: 7485
-reviews: 4413
+reviews: 4412
 size: 9.5M
 website: https://bitbot.plus
 repository: 

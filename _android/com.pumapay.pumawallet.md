@@ -10,8 +10,8 @@ released: 2018-05-07
 updated: 2021-09-07
 version: "3.10.1"
 stars: 3.8
-ratings: 353
-reviews: 225
+ratings: 352
+reviews: 224
 size: 64M
 website: https://pumapay.io
 repository: 

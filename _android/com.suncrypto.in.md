@@ -10,8 +10,8 @@ released: 2021-06-28
 updated: 2021-09-07
 version: "1.4"
 stars: 3.1
-ratings: 1208
-reviews: 587
+ratings: 1209
+reviews: 588
 size: 10M
 website: https://suncrypto.in/
 repository: 

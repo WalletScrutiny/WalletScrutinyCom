@@ -9,9 +9,9 @@ appId: com.nominex.app
 released: 2021-06-01
 updated: 2021-08-21
 version: "1.2.1"
-stars: 4.2
-ratings: 113
-reviews: 77
+stars: 4.1
+ratings: 115
+reviews: 79
 size: 58M
 website: 
 repository: 

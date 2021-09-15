@@ -4,7 +4,7 @@ title: "Bitcoin Investment Hub"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: net.cryptoearn.bitcoin.investment.hub
 released: 2021-06-29
 updated: 2021-06-29

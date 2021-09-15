@@ -9,9 +9,9 @@ appId: com.sirinlabs.os.wallet
 released: 2019-01-13
 updated: 2020-09-15
 version: "1.0.9.5489"
-stars: 4.5
-ratings: 20
-reviews: 16
+stars: 4.3
+ratings: 21
+reviews: 17
 size: 25M
 website: 
 repository: 

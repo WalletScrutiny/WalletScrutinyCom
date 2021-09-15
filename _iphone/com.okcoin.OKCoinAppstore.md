@@ -10,8 +10,8 @@ idd: 867444712
 released: 2014-07-18
 updated: 2021-09-10
 version: "5.1.4"
-stars: 4.79835
-reviews: 1458
+stars: 4.79864
+reviews: 1475
 size: 462331904
 website: https://www.okcoin.com/mobile
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

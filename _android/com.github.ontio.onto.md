@@ -10,7 +10,7 @@ released: 2018-06-27
 updated: 2021-08-31
 version: "3.9.9"
 stars: 4.1
-ratings: 849
+ratings: 850
 reviews: 564
 size: 80M
 website: https://www.onto.app
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The Google Play description: 
 
 > ONTO is the first truly decentralized, cross-chain wallet, allowing users to securely manage their identities, data, and digital assets.

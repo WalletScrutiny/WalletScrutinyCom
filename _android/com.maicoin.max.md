@@ -3,7 +3,7 @@ wsId: maicoin
 title: "MAX Exchange - Buy Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.maicoin.max
 released: 2018-07-01
@@ -11,7 +11,7 @@ updated: 2021-08-09
 version: "3.0.0"
 stars: 4.4
 ratings: 783
-reviews: 363
+reviews: 364
 size: 58M
 website: https://max.maicoin.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Most exchanges are custodial, but to verify, we tried downloading the app and accessing the website. We downloaded the app, but it labelled our location as prohibited. The same error happened with its website. 
 
 The next step we did was to look into its user agreement or terms via TOR browser.

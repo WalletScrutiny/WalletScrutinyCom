@@ -3,7 +3,7 @@ wsId: bitbuy
 title: "Bitbuy: Buy Bitcoin Canada"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.bitbuy.mobileApp
 appCountry: ca
 idd: 1476837869
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

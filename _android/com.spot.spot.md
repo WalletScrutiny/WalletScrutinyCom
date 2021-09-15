@@ -11,7 +11,7 @@ updated: 2021-08-27
 version: "4.36.2.2701-7319c011"
 stars: 4.3
 ratings: 4173
-reviews: 2006
+reviews: 2008
 size: 73M
 website: https://www.spot-bitcoin.com
 repository: 

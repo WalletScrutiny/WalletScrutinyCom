@@ -10,8 +10,8 @@ released: 2019-04-30
 updated: 2021-09-01
 version: "2.7.0.636"
 stars: 3.6
-ratings: 19318
-reviews: 11201
+ratings: 19323
+reviews: 11205
 size: 27M
 website: https://paxful.com/mobile-wallet-app
 repository: 

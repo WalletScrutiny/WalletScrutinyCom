@@ -3,15 +3,15 @@ wsId: studentcoin
 title: "Student Coin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.studentcoin
 released: 2021-04-01
 updated: 2021-08-19
 version: "1.11.4"
 stars: 4.3
-ratings: 628
-reviews: 357
+ratings: 623
+reviews: 356
 size: 29M
 website: https://www.studentcoin.org/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: Studentcoin
 redirect_from:
 
 ---
+
+
 Its [homepage](https://studentcoin.org) description reads:
 
 > Student Coin is the first crypto platform that allows users to easily design, create, and manage personal, start-up, NFT, and DeFi tokens.

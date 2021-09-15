@@ -8,11 +8,11 @@ users: 500000
 appId: com.coindcx
 released: 2018-11-02
 updated: 2021-09-13
-version: "1.0.002"
-stars: 3.5
-ratings: 8014
-reviews: 5653
-size: 51M
+version: "Varies with device"
+stars: 3.6
+ratings: 8034
+reviews: 5618
+size: Varies with device
 website: https://coindcx.com
 repository: 
 issue: 
