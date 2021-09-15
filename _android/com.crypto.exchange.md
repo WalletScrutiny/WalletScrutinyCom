@@ -3,7 +3,7 @@ wsId: cryptocom
 title: "Crypto.com Exchange"
 altTitle: 
 authors:
-- danny
+ - danny
 users: 50000
 appId: com.crypto.exchange
 released: 2021-05-26
@@ -32,9 +32,10 @@ providerReddit: Crypto_com
 redirect_from:
 
 ---
+**EDIT 2021-09-14**
+This exchange app (com.crypto.exchange) is featured on the official site.
 
-
-Crypto.com is an expansive service with multiple services and a separate non-custodial app. Its non-custodial app is called the "Crypto.com DeFi Wallet". 
+Crypto.com Exchange is an expansive service with multiple services and a separate non-custodial app. Its non-custodial app is called the "Crypto.com DeFi Wallet". 
 
 This specific custodial app allows users to:
 
