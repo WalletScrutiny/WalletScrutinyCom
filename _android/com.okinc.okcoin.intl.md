@@ -4,22 +4,22 @@ title: "Okcoin - Buy & Trade Bitcoin, Ethereum, & Crypto"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.okinc.okcoin.intl
 released: 2018-06-22
-updated: 2021-08-31
-version: "5.1.2"
+updated: 2021-09-08
+version: "5.1.4"
 stars: 4.1
-ratings: 2091
-reviews: 407
-size: 124M
+ratings: 2108
+reviews: 411
+size: 122M
 website: https://www.okcoin.com/
 repository: 
 issue: 
 icon: com.okinc.okcoin.intl.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Okcoin is a secure crypto exchange that makes it easy to buy, sell, and hold your cryptocurrency with the lowest fees around.
 
 Being an exchange hints to being custodial.

@@ -3,15 +3,15 @@ wsId: bitfy
 title: "Bitfy: Super App de Criptomoedas"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.bitfyapp
 released: 2019-10-14
 updated: 2021-07-24
 version: "3.10.13"
 stars: 3.2
-ratings: 967
-reviews: 635
+ratings: 970
+reviews: 637
 size: 33M
 website: https://bitfy.app
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Bitfy is a Brazilian app that claims to have a:
 
 > All-in-one digital wallet ensures that users are the only ones who have access to private keys.

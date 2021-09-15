@@ -10,8 +10,8 @@ idd: 1468985150
 released: 2019-06-28
 updated: 2021-08-11
 version: "2.0.4"
-stars: 4.68639
-reviews: 676
+stars: 4.68538
+reviews: 677
 size: 69365760
 website: https://www.tzero.com/crypto-app
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.tzero.tzerocrypto.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-09-03
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

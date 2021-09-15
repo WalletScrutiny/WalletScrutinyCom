@@ -9,9 +9,9 @@ appId: com.didi.message
 released: 2020-04-30
 updated: 2021-08-30
 version: "1.9.1"
-stars: 4.6
-ratings: 701
-reviews: 271
+stars: 4.3
+ratings: 731
+reviews: 285
 size: 79M
 website: https://didimessage.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.didi.message.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > DiDi the world's best instant messenger that provides real protection for correspondence. In our messenger you can encrypt the sent and received message. All the way to the recipient message is held in an encrypted form.
 
 

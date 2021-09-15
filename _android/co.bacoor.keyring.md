@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: co.bacoor.keyring
 released: 2021-01-21
-updated: 2021-08-13
-version: "1.5.0"
+updated: 2021-09-13
+version: "1.6.0"
 stars: 4.6
 ratings: 33
 reviews: 20

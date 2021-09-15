@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.zelcash.zelcore
 released: 2018-09-21
-updated: 2021-08-31
-version: "5.1.0"
+updated: 2021-09-11
+version: "5.2.0"
 stars: 3.8
-ratings: 538
-reviews: 373
+ratings: 549
+reviews: 382
 size: 16M
 website: https://zel.network/project/zelcore
 repository: 

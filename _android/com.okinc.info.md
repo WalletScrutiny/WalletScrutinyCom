@@ -9,9 +9,9 @@ appId: com.okinc.info
 released: 2020-05-25
 updated: 2020-07-05
 version: "1.9.18"
-stars: 4.5
-ratings: 6
-reviews: 3
+stars: 4.1
+ratings: 8
+reviews: 5
 size: 76M
 website: 
 repository: 

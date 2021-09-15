@@ -9,9 +9,9 @@ appId: net.chiliz.broker.android
 released: 2020-01-22
 updated: 2021-06-01
 version: "4.0.1"
-stars: 3.5
-ratings: 530
-reviews: 305
+stars: 3.2
+ratings: 537
+reviews: 312
 size: 21M
 website: https://www.chiliz.net/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: net.chiliz.broker.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Chiliz Exchange is the official exchange app of the cryptocurrency company Chiliz in Europe. You can easily send your Bitcoin, Ethereum and many other cryptocurrencies in your secured wallet and then trade them.
 
 From Terms and Conditions: 

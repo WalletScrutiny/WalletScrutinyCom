@@ -3,15 +3,15 @@ wsId: bitcointradingcapital
 title: "Bitcoin Trading - Capital.com"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.kapital.trade.crypto
 released: 2021-01-20
-updated: 2021-08-20
-version: "1.31"
-stars: 4.4
-ratings: 827
-reviews: 283
+updated: 2021-09-13
+version: "1.32.3"
+stars: 4.3
+ratings: 836
+reviews: 285
 size: 66M
 website: https://expcapital.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 
 
 Its self-description reads as follows: 

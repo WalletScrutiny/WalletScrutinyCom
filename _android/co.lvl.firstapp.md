@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: co.lvl.firstapp
 released: 2020-06-30
-updated: 2021-08-11
-version: "1.0.4"
+updated: 2021-09-09
+version: "1.0.5"
 stars: 4.0
 ratings: 135
 reviews: 59

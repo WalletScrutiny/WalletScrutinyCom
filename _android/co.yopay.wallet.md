@@ -4,7 +4,7 @@ title: "YoPay Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: co.yopay.wallet
 released: 
 updated: 2020-06-01

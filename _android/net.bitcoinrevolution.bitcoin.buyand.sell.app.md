@@ -4,7 +4,7 @@ title: "Bitcoin Buy And Sell App"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: net.bitcoinrevolution.bitcoin.buyand.sell.app
 released: 2021-06-17
 updated: 2021-06-17

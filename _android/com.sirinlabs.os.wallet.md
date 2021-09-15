@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.sirinlabs.os.wallet.png
 bugbounty: 
-verdict: wip
-date: 2021-09-01
+verdict: stale
+date: 2021-09-11
 signer: 
 reviewArchive:
-
+- date: 2021-09-01
+  version: "1.0.9.5489"
+  appHash: 
+  gitRevision: 8b46c6476455dd67a5c18b6517a1d4a38d3bc606
+  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

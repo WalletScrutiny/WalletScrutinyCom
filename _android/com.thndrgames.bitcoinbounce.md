@@ -3,15 +3,15 @@ wsId:
 title: "Bitcoin Bounce ⚡ Earn and Win REAL Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.thndrgames.bitcoinbounce
 released: 2020-03-20
 updated: 2021-07-29
 version: "1.1.28"
-stars: 3.7
-ratings: 1710
-reviews: 667
+stars: 3.6
+ratings: 1719
+reviews: 670
 size: 59M
 website: https://thndr.games/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This app is a play-to-earn bitcoin game that points to other bitcoin lightning wallet to withdraw 'earnings'. 
 
 Verdict is **nowallet**

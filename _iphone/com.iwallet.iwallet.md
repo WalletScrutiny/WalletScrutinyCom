@@ -1,6 +1,6 @@
 ---
 wsId: iwallet
-title: "iWallet"
+title: "iW Personal"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.iwallet.iwallet
 appCountry: 
 idd: 1479545928
 released: 2019-09-14
-updated: 2021-02-23
-version: "2.34"
+updated: 2021-09-09
+version: "2.35"
 stars: 4.36364
 reviews: 44
-size: 52318208
+size: 52264960
 website: 
 repository: 
 issue: 

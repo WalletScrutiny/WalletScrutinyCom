@@ -3,15 +3,15 @@ wsId: currencycominvesting
 title: "Currency.com: Investing"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.currency.exchange.investsmart
 released: 2020-12-10
 updated: 2021-07-20
 version: "1.14.0"
 stars: 4.3
-ratings: 193
-reviews: 66
+ratings: 195
+reviews: 67
 size: Varies with device
 website: https://currency.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.currency.exchange.investsmart.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: currencycom
 redirect_from:
 
 ---
+
+
 It is necessary to distinguish this specific app from another related app from the same company. "Currency.com Investing" is not the same app as {% include walletLink.html wallet='android/com.currency.exchange.prod2' verdict='true' %}. Although, they link to each other via Google Play and in their respective domains, we'll treat them separately to avoid confusion. 
 
 The app on Google Play references currency.com but has expcapital.com as its domain, when clicking on View Website.

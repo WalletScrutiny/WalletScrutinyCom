@@ -10,8 +10,8 @@ idd: 1234141021
 released: 2017-05-14
 updated: 2018-10-04
 version: "1.18.1"
-stars: 4.58835
-reviews: 2026
+stars: 4.59012
+reviews: 2025
 size: 89546752
 website: https://www.poloniex.com
 repository: 

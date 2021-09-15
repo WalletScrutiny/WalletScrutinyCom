@@ -11,8 +11,8 @@ released: 2017-04-18
 updated: 2021-02-27
 version: "Varies with device"
 stars: 4.4
-ratings: 47
-reviews: 21
+ratings: 49
+reviews: 23
 size: Varies with device
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android

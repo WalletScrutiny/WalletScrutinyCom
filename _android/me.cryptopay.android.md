@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "Cryptopay – Bitcoin wallet & Prepaid сard"
+title: "Cryptopay:Bitcoin wallet&card"
 altTitle: 
 authors:
 
@@ -8,10 +8,10 @@ users: 50000
 appId: me.cryptopay.android
 released: 2017-11-09
 updated: 2021-09-08
-version: "1.29.1"
+version: "1.29.2"
 stars: 4.5
-ratings: 827
-reviews: 430
+ratings: 831
+reviews: 432
 size: 19M
 website: https://cryptopay.me
 repository: 

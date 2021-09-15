@@ -8,11 +8,11 @@ appId: com.ezdefi.nexty
 appCountry: 
 idd: 1492046549
 released: 2019-12-18
-updated: 2021-08-03
-version: "0.3.8"
+updated: 2021-09-09
+version: "0.3.9"
 stars: 4.5
 reviews: 16
-size: 63313920
+size: 63639552
 website: https://ezdefi.com/
 repository: 
 issue: 

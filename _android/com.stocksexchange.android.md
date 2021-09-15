@@ -9,9 +9,9 @@ appId: com.stocksexchange.android
 released: 2018-05-15
 updated: 2021-08-11
 version: "2.0.5"
-stars: 4.3
-ratings: 1360
-reviews: 541
+stars: 4.4
+ratings: 1379
+reviews: 545
 size: 9.8M
 website: https://stex.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 It has a Crypto Exchange interface and refers to itself as such. One of its general features advertise wallet service. This sounds custodial.
 
 >  [To make the deposit find the required currency,](https://help.stex.com/en/articles/1657710-how-do-i-deposit-crypto-currencies) click on "deposit" , and generate address of your wallet by clicking on 'show me the deposit address'.

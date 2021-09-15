@@ -3,15 +3,15 @@ wsId: brasilBitcoin
 title: "Brasil Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: br.com.brasilbitcoin
 released: 2021-02-17
-updated: 2021-09-09
+updated: 2021-09-13
 version: "2.5.07"
-stars: 3.2
-ratings: 1884
-reviews: 1299
+stars: 3.3
+ratings: 1897
+reviews: 1307
 size: 43M
 website: https://brasilbitcoin.com.br
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 
 
 It is possible to purchase cryptocurrencies on the site using a debit card. 

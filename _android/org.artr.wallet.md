@@ -10,8 +10,8 @@ released:
 updated: 2021-07-09
 version: "1.6"
 stars: 4.6
-ratings: 1513
-reviews: 804
+ratings: 1524
+reviews: 808
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
@@ -19,7 +19,7 @@ issue:
 icon: org.artr.wallet.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 > The Artery Network is based on devices (phones, computers) that allocate free memory and internet connection in the Artery Node product, providing decentralization to the Artery Storage and Artery VPN products.
 

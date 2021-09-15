@@ -3,15 +3,15 @@ wsId: brasilBitcoin
 title: "Brasil Bitcoin Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 appId: br.com.brasilbitcoin.run
 appCountry: br
 idd: 1519300849
 released: 2020-07-27
 updated: 2021-09-05
 version: "2.5.07"
-stars: 3.62393
-reviews: 234
+stars: 3.57522
+reviews: 226
 size: 39435264
 website: 
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

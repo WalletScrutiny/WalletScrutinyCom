@@ -4,14 +4,14 @@ title: "Tokocrypto - Bitcoin Regulated Trading Platform"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.binance.cloud.tokocrypto
 released: 2020-10-19
 updated: 2021-08-12
 version: "1.2.2"
-stars: 3.5
-ratings: 20062
-reviews: 16879
+stars: 3.4
+ratings: 20500
+reviews: 17272
 size: Varies with device
 website: https://www.tokocrypto.com
 repository: 
