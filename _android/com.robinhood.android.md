@@ -19,7 +19,7 @@ issue:
 icon: com.robinhood.android.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-31
+date: 2021-09-15
 signer: 
 reviewArchive:
 

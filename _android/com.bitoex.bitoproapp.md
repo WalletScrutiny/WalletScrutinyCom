@@ -19,7 +19,7 @@ issue:
 icon: com.bitoex.bitoproapp.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 

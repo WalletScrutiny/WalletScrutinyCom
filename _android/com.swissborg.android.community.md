@@ -19,7 +19,7 @@ issue:
 icon: com.swissborg.android.community.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 

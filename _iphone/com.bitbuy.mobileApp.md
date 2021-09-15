@@ -19,7 +19,7 @@ issue:
 icon: com.bitbuy.mobileApp.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-09-15
 signer: 
 reviewArchive:
 

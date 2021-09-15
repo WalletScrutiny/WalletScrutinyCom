@@ -19,7 +19,7 @@ issue:
 icon: com.kardiawallet.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-09-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 

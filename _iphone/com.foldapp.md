@@ -19,7 +19,7 @@ issue:
 icon: com.foldapp.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-09-10
+date: 2021-09-15
 signer: 
 reviewArchive:
 

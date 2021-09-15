@@ -19,7 +19,7 @@ issue:
 icon: org.studentcoin.mobile.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-09-10
+date: 2021-09-15
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.bibox.www.bibox.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 

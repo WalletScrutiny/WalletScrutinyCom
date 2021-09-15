@@ -19,7 +19,7 @@ issue:
 icon: com.swissborg.ios.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-27
+date: 2021-09-15
 signer: 
 reviewArchive:
 

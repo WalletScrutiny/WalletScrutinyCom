@@ -19,7 +19,7 @@ issue:
 icon: com.zipwallet.ios.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-10
+date: 2021-09-15
 signer: 
 reviewArchive:
 

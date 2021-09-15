@@ -19,7 +19,7 @@ issue:
 icon: com.exnovin.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-12
+date: 2021-09-15
 signer: 
 reviewArchive:
 
