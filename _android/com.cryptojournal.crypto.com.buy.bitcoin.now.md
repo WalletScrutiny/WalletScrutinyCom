@@ -32,8 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-**Warning:** It is advisable to proceed with caution when downloading this app. 
-
 This review was made in relation to a similar app with an almost identical appID.
 
 It is made by the same publisher which we have noted to have 8 other Google Play apps with the same function<br>

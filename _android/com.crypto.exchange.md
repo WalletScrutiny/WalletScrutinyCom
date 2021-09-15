@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 **EDIT 2021-09-14**
-This exchange (co.mona.android) is featured on the official site.
+This exchange app (com.crypto.exchange) is featured on the official site.
 
 Crypto.com Exchange is an expansive service with multiple services and a separate non-custodial app. Its non-custodial app is called the "Crypto.com DeFi Wallet". 
 
