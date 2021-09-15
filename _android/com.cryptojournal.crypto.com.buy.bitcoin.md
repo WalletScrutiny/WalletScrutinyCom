@@ -63,4 +63,4 @@ Perhaps the most telling red-flag is its appropriation of the "Crypto.com" brand
 
 We did not download and test the app for security concerns.
 
-The former verdict for this app is "few users". But we believe that given the fact that it is engaging in trademark infringement, a verdict of **fake** is more appropriate.
+Although with just 10 downloads this app was not "top priority", noticing many apps with "crypto.com" in their title we found this and others to be **fake**.

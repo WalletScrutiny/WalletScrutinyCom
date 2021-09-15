@@ -57,7 +57,7 @@ We downloaded the app and it listed on a grid the logos and names of different c
 
 Despite having a disclaimer at the bottom of its app description that claims to have no affiliation with the corresponding crypto companies in its name, we believe this to be a possible violation of the trademarks of respective companies. Clearly, the intent is to make the user think that the wallets are somehow aggregated in that app, when they clearly are not.
 
-The former verdict for this app is "few users", however because of the appropriation of the trademarked names and the sparse functionality, we would give this a **fake** verdict. 
+Although with just 500 downloads this app was not "top priority", noticing many apps with "crypto.com" in their title we found this and others to be **fake**.
 
 
 

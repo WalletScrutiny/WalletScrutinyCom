@@ -46,7 +46,7 @@ We visited the original [Crypto.com Terms and Conditions](https://crypto.com/doc
 
 >the Crypto.com trademarks and logos, and any other logos, service marks, product names and other proprietary indicia used in the Crypto.com App are the property of either Crypto.com or third party licensors (collectively, the " Trademarks");
 
-As this app contains the word "Crypto.com" it is a possible trademark infringement. The former verdict for this app is "few users". We feel it would be more prudent to give it a verdict of **fake** due to trademark issues. 
+Although with just 100 downloads this app was not "top priority", noticing many apps with "crypto.com" in their title we found this and others to be **fake**.
 
 
 
