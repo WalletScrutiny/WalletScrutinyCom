@@ -10,8 +10,8 @@ released: 2021-06-28
 updated: 2021-09-07
 version: "1.4"
 stars: 3.1
-ratings: 1179
-reviews: 580
+ratings: 1209
+reviews: 588
 size: 10M
 website: https://suncrypto.in/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.suncrypto.in.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 We downloaded the app. 
 
 As a cryptocurrency exchange, our initial analysis points to this as a custodial service. 

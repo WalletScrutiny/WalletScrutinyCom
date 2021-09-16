@@ -4,7 +4,7 @@ title: "Bitcoin Investment"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptotrillionaires.bitcoin.investment
 released: 2021-07-17
 updated: 2021-07-17

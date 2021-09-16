@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.titan.coin
 released: 2019-11-02
-updated: 2021-09-06
-version: "2.26.0"
+updated: 2021-09-14
+version: "2.28.0"
 stars: 3.8
-ratings: 87
-reviews: 52
+ratings: 91
+reviews: 53
 size: 11M
 website: 
 repository: 

@@ -4,7 +4,7 @@ title: "ForceBTC - Blockchain Wallet and Exchanger"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.multidev.forcebtc
 released: 2021-01-08
 updated: 2021-01-08

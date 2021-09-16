@@ -10,8 +10,8 @@ released:
 updated: 2021-09-08
 version: "2.5.0"
 stars: 2.7
-ratings: 777
-reviews: 568
+ratings: 780
+reviews: 571
 size: 92M
 website: https://www.coinjar.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinjar.riemann.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Google Play description:
 
 > CoinJar is Australia’s longest-running cryptocurrency exchange. The CoinJar app lets you buy and sell cryptocurrencies using Australian dollars simply, securely and with low fees.

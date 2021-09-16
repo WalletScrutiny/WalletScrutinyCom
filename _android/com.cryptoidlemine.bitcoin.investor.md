@@ -4,7 +4,7 @@ title: "Bitcoin Invest"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: com.cryptoidlemine.bitcoin.investor
 released: 2021-07-20
 updated: 2021-07-20

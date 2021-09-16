@@ -3,15 +3,15 @@ wsId: dcoin
 title: "Dcoin - Bitcoin Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.dcoin.exchange
 released: 2018-11-25
-updated: 2021-09-02
-version: "4.3.4"
+updated: 2021-09-10
+version: "4.3.5"
 stars: 3.3
-ratings: 1275
-reviews: 804
+ratings: 1276
+reviews: 805
 size: 27M
 website: https://www.dcoin.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.dcoin.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > Dcoin trading platform is the world’s first financial industry-standard digital assets and derivatives trading platform that mainly provides cryptocurrency trading services for Bitcoin, Ethereum, Lite Coin , ripple,and etc.

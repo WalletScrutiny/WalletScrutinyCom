@@ -19,7 +19,7 @@ issue:
 icon: pro.bithumb.global.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-30
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit: BithumbGlobal
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

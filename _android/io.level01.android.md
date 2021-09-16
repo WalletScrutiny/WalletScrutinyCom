@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: io.level01.android
 released: 2020-10-09
-updated: 2021-08-12
-version: "0.2.1.1"
+updated: 2021-09-09
+version: "0.2.3.0"
 stars: 4.8
 ratings: 132
 reviews: 60
-size: 17M
+size: 18M
 website: https://level01.io/
 repository: 
 issue: 

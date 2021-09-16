@@ -3,15 +3,15 @@ wsId:
 title: "Exnovin - اکس نوین | بازار معاملاتی رمزارزها"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: io.exnovin.app
 released: 2020-12-12
 updated: 2021-07-29
 version: "1.3.4"
-stars: 4.2
-ratings: 582
-reviews: 216
+stars: 4.1
+ratings: 586
+reviews: 217
 size: 14M
 website: https://exnovin.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.exnovin.app.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,7 +32,9 @@ providerReddit:
 redirect_from:
 
 ---
-There are two apps with the same name of "Exnovin". Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
+
+
+There are two apps with the same name of {% include walletLink.html wallet='com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
 
 This is an exchange, with [terms and conditions](https://exnovin.io/terms/). 
 

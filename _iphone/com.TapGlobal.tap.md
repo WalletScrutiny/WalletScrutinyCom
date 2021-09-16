@@ -3,7 +3,7 @@ wsId: tapngo
 title: "Tap - Buy & Sell Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.TapGlobal.tap
 appCountry: gb
 idd: 1492263993
@@ -19,7 +19,7 @@ issue:
 icon: com.TapGlobal.tap.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

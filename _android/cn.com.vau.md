@@ -9,9 +9,9 @@ appId: cn.com.vau
 released: 2019-07-06
 updated: 2021-09-03
 version: "1.4.3"
-stars: 4.6
-ratings: 4104
-reviews: 754
+stars: 4.7
+ratings: 4142
+reviews: 758
 size: 35M
 website: https://www.vantagefx.com.au/
 repository: 

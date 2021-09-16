@@ -10,8 +10,8 @@ released: 2020-03-12
 updated: 2021-09-03
 version: "3.2.13"
 stars: 4.0
-ratings: 593
-reviews: 201
+ratings: 595
+reviews: 202
 size: 36M
 website: https://www.poolin.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.blockin.google.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,9 +32,11 @@ providerReddit:
 redirect_from:
 
 ---
-The Poolin Mining Pool app is created by Poolin, an industry-leading global enterprise that engages in cryptocurrency mining pool services.
 
-To avoid confusion, the Poolin.com app is specifically for the Poolin mining pool. It acts as a dashboard. It gives information about the hashrate, miner profitability, calculator and other information pertinent to mining with the Poolin pool. To withdraw earnings from mining revenue, the user would have to download a similarly named app called Poolin wallet from [Poolin.fi](https://poolin.fi/). 
+
+The Poolin Mining Pool app is created by Poolin, an enterprise that engages in cryptocurrency mining pool services.
+
+To avoid confusion, the Poolin.com app is specifically for the Poolin mining pool. It acts as a dashboard. It gives information about the hashrate, miner profitability, calculator and other information pertinent to mining with the Poolin pool. To withdraw earnings from mining revenue, the user would have to download {% include walletLink.html wallet='android/com.blockin.wallet' verdict='true' %}. 
 
 This is referred to in a help guide entitled "[I want to invest what should I do?](https://help.poolin.com/hc/en-us/articles/360052320571-I-Want-To-Invest-What-Should-I-Do-)"
 

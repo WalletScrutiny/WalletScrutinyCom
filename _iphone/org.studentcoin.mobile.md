@@ -3,7 +3,7 @@ wsId: studentcoin
 title: "Student Coin"
 altTitle: 
 authors:
- - danny
+- danny
 appId: org.studentcoin.mobile
 appCountry: pl
 idd: 1559718559
@@ -19,7 +19,7 @@ issue:
 icon: org.studentcoin.mobile.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-09-10
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit: Studentcoin
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

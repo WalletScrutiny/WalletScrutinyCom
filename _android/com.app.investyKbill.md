@@ -4,13 +4,13 @@ title: "green-wallet -invest in profitable assets"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.app.investyKbill
 released: 2021-02-26
 updated: 2021-08-25
 version: "1.0.13"
 stars: 4.7
-ratings: 6
+ratings: 7
 reviews: 4
 size: 16M
 website: 

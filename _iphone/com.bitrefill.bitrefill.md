@@ -8,20 +8,25 @@ appId: com.bitrefill.bitrefill
 appCountry: 
 idd: 1378102623
 released: 2018-06-05
-updated: 2019-09-23
-version: "1.13"
-stars: 4.51281
-reviews: 39
-size: 5557248
+updated: 2021-09-13
+version: "1.30.4"
+stars: 4.53659
+reviews: 41
+size: 25913344
 website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: custodial
+date: 2021-09-12
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.13"
+  appHash: 
+  gitRevision: a56730247355e1acdeba52317b006511806100fb
+  verdict: stale
 - date: 2021-05-25
   version: "1.13"
   appHash: 
@@ -36,6 +41,9 @@ providerReddit: Bitrefill
 redirect_from:
 
 ---
+
+**Update 2021-09-12**: This app wasn't updated for a year but appears to be
+back. Nothing changed with the former verdict.
 
 While the primary purpose of this app is to buy stuff with Bitcoin and it appears
 to be possible to use the app without putting money into it, the app also can

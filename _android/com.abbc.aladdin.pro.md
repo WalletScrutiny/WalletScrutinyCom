@@ -7,19 +7,19 @@ authors:
 users: 50000
 appId: com.abbc.aladdin.pro
 released: 2019-11-15
-updated: 2021-06-09
-version: "1.4.3"
-stars: 3.7
-ratings: 1896
-reviews: 1419
-size: 23M
+updated: 2021-09-12
+version: "1.5.5"
+stars: 4.8
+ratings: 2626
+reviews: 2123
+size: 24M
 website: https://abbccoin.com/
 repository: 
 issue: 
 icon: com.abbc.aladdin.pro.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)
 
 > Aladdin Wallet has developed two wallet services. Aladdin Wallet is a non-custodial wallet that allows users to have full control of their accounts while the Aladdin Pro Wallet is a digital wallet with multi-layer protection that enhances transparency and defense against malicious hackers.

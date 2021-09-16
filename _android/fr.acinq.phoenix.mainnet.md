@@ -10,7 +10,7 @@ released: 2019-12-10
 updated: 2021-09-03
 version: "1.4.17"
 stars: 4.1
-ratings: 266
+ratings: 267
 reviews: 133
 size: 35M
 website: https://phoenix.acinq.co

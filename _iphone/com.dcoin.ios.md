@@ -3,7 +3,7 @@ wsId: dcoin
 title: "Dcoin - Trade Bitcoin,Ethereum"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
@@ -19,7 +19,7 @@ issue:
 icon: com.dcoin.ios.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

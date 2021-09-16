@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.spantom.jeroid
 released: 2020-07-05
-updated: 2021-09-07
-version: "1.2.6"
+updated: 2021-09-10
+version: "1.2.7"
 stars: 3.5
 ratings: 48
 reviews: 36

@@ -10,7 +10,7 @@ released: 2017-10-23
 updated: 2021-01-29
 version: "1.4.8"
 stars: 3.9
-ratings: 854
+ratings: 853
 reviews: 398
 size: 4.2M
 website: https://www.liteforex.com/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > LiteForex: Investments and Trading is a high-tech Forex app developed by LiteForex specialists that has the most user-friendly interface for online trading and investing on financial markets. 
 
 The FAQ had some information on withdrawing funds, although there was no clear tutorials.

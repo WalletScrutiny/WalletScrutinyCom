@@ -7,11 +7,11 @@ authors:
 users: 10000000
 appId: org.fxclub.libertex
 released: 2015-05-22
-updated: 2021-05-02
+updated: 2021-09-14
 version: "2.27.2"
 stars: 4.2
-ratings: 70231
-reviews: 28386
+ratings: 70292
+reviews: 28404
 size: 37M
 website: libertex
 repository: 

@@ -4,7 +4,7 @@ title: "Bitcoin Investment"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.bitcoin_investment
 released: 2019-08-10
 updated: 2019-08-10

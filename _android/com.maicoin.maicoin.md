@@ -10,7 +10,7 @@ released: 2018-12-19
 updated: 2021-07-05
 version: "3.5.1"
 stars: 3.5
-ratings: 444
+ratings: 446
 reviews: 164
 size: 52M
 website: https://max.maicoin.com
@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.maicoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This is from the Google Play description:
 
 > Securely store Bitcoin, Ethereum, Bitcoin Cash, Litecoin and more in your MAX wallet for free. Your assets are distributed and secured in hot, warm and cold storage. Wallets are guarded with the multi-signature scheme to provide the highest level of protection.

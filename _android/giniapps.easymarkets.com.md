@@ -3,16 +3,16 @@ wsId: easyMarkets
 title: "easyMarkets Trade Cryptos, Shares, Forex & More"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: giniapps.easymarkets.com
 released: 2017-04-05
-updated: 2021-08-26
-version: "1.26.0"
+updated: 2021-09-13
+version: "1.27.0"
 stars: 4.1
-ratings: 1578
-reviews: 680
-size: 50M
+ratings: 1584
+reviews: 682
+size: 35M
 website: https://www.easymarkets.com
 repository: 
 issue: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 
 However, they have a new offering called a ['Bitcoin Base Currency Account'](https://www.easymarkets.com/int/bitcoin-account-base-currency/). This service, which they call the μBTC Base Currency Account, allows users to deposit, trade and withdraw in Bitcoin. 

@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.dreambit
 released: 2021-02-16
-updated: 2021-07-26
-version: "1.0.0.49"
+updated: 2021-09-10
+version: "1.0.0.50"
 stars: 3.4
 ratings: 14
 reviews: 5
-size: 49M
+size: 59M
 website: 
 repository: 
 issue: 

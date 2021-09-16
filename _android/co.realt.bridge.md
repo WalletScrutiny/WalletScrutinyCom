@@ -4,7 +4,7 @@ title: "RealT Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: co.realt.bridge
 released: 2021-03-18
 updated: 2021-05-06
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:

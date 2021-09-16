@@ -7,21 +7,26 @@ authors:
 users: 100000
 appId: com.bitrefill.app
 released: 2018-04-10
-updated: 2019-09-28
-version: "1.28.9"
-stars: 3.8
-ratings: 719
-reviews: 433
-size: 5.2M
+updated: 2021-09-13
+version: "1.30.4"
+stars: 3.7
+ratings: 736
+reviews: 444
+size: 26M
 website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: custodial
+date: 2021-09-14
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.28.9"
+  appHash: 
+  gitRevision: 57d6545031ae9f253a279e32bc3c621d013564fc
+  verdict: stale
 - date: 2019-12-25
   version: "1.28.9"
   appHash: 
@@ -38,6 +43,9 @@ redirect_from:
   - /posts/com.bitrefill.app/
 ---
 
+
+**Update 2021-09-14**: This app was updated after a long time which had it fall
+into our stale category but it remains being a custodial product.
 
 While the primary purpose of this app is to buy stuff with Bitcoin and it appears
 to be possible to use the app without putting money into it, the app also can

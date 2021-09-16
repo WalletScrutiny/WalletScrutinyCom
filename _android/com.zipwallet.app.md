@@ -3,7 +3,7 @@ wsId: zipwalletpay
 title: "Zipwallet : Earn, Buy, Sell Bitcoin &Crypto Wallet"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.zipwallet.app
 released: 2018-01-30
@@ -19,7 +19,7 @@ issue:
 icon: com.zipwallet.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Its homepage description reads:
 
 > Simple exchange platform with over 300 payment providers around the world.<br>

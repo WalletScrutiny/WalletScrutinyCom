@@ -10,8 +10,8 @@ released: 2018-06-26
 updated: 2021-09-06
 version: "2021.09.06"
 stars: 3.9
-ratings: 2727
-reviews: 1611
+ratings: 2730
+reviews: 1612
 size: 71M
 website: https://www.digifinex.com
 repository: 

@@ -10,8 +10,8 @@ released: 2019-06-28
 updated: 2021-08-05
 version: "1.4.24"
 stars: 3.9
-ratings: 529
-reviews: 253
+ratings: 532
+reviews: 256
 size: 15M
 website: https://prizmbit.com/
 repository: 

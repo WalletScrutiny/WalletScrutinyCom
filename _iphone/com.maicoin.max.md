@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.max.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-07
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

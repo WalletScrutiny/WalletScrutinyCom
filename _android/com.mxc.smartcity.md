@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.mxc.smartcity
 released: 2020-05-18
-updated: 2021-08-05
-version: "1.13.3"
+updated: 2021-09-13
+version: "1.13.4"
 stars: 3.7
-ratings: 1642
-reviews: 179
+ratings: 1647
+reviews: 183
 size: 45M
 website: 
 repository: 

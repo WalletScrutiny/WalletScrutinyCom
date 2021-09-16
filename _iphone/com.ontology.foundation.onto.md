@@ -19,7 +19,7 @@ issue:
 icon: com.ontology.foundation.onto.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-09-07
+date: 2021-09-15
 signer: 
 reviewArchive:
 
