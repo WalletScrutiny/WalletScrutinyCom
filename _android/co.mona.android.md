@@ -4,14 +4,15 @@ title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000000
 appId: co.mona.android
 released: 2017-08-30
 updated: 2021-09-03
 version: "3.112.0"
-stars: 4.2
-ratings: 158504
-reviews: 55878
+stars: 4.1
+ratings: 159216
+reviews: 56139
 size: 111M
 website: https://www.crypto.com
 repository: 
@@ -19,7 +20,7 @@ issue:
 icon: co.mona.android.png
 bugbounty: 
 verdict: custodial
-date: 2019-12-28
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -34,7 +35,8 @@ redirect_from:
   - /crypto.com/
   - /posts/co.mona.android/
 ---
-
+**EDIT 2021-09-14**
+Crypto.com (co.mona.android) is featured on the official site. This is the official app.
 
 The description of this app is very much focused on the Visa Card they offer
 that you can top up with crypto currencies. This and the talk about earning

@@ -11,7 +11,7 @@ updated: 2021-03-07
 version: "1.2.9"
 stars: 4.7
 ratings: 7569
-reviews: 6939
+reviews: 6938
 size: 14M
 website: https://everusworld.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.everus.org.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

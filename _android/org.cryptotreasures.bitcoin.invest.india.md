@@ -4,7 +4,7 @@ title: "Bitcoin Invest India"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.cryptotreasures.bitcoin.invest.india
 released: 2021-06-24
 updated: 2021-06-24

@@ -4,14 +4,14 @@ title: "Bitcoin Global: P2P platform for crypto exchange"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.bitcoinglobal
 released: 2020-09-25
-updated: 2021-09-09
-version: "2.8.1"
-stars: 4.6
-ratings: 49
-reviews: 21
+updated: 2021-09-14
+version: "2.8.2"
+stars: 4.5
+ratings: 50
+reviews: 20
 size: 26M
 website: 
 repository: 

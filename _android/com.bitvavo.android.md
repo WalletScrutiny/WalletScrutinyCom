@@ -9,9 +9,9 @@ appId: com.bitvavo.android
 released: 2020-08-19
 updated: 2021-09-08
 version: "1.0.100"
-stars: 3.8
-ratings: 1264
-reviews: 885
+stars: 3.7
+ratings: 1276
+reviews: 894
 size: 178M
 website: https://bitvavo.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.
 
 The description says that it's a Digital Asset & Cryptocurrency Exchange. This marks it as possibly custodial.

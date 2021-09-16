@@ -11,7 +11,7 @@ released: 2019-10-07
 updated: 2021-03-24
 version: "5.24.0"
 stars: 3.2
-ratings: 106
+ratings: 107
 reviews: 49
 size: 12M
 website: https://futures.kraken.com

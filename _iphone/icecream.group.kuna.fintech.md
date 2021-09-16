@@ -3,13 +3,13 @@ wsId: kunaio
 title: "Kuna.io — buy sell crypto"
 altTitle: 
 authors:
- - danny
+- danny
 appId: icecream.group.kuna.fintech
 appCountry: us
 idd: 1457062155
 released: 2019-03-27
-updated: 2021-09-06
-version: "3.9.4"
+updated: 2021-09-14
+version: "3.9.5"
 stars: 3.66667
 reviews: 6
 size: 100571136
@@ -19,7 +19,7 @@ issue:
 icon: icecream.group.kuna.fintech.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-07
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

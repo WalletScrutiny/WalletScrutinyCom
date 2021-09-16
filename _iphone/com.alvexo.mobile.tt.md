@@ -19,7 +19,7 @@ issue:
 icon: com.alvexo.mobile.tt.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-09-10
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

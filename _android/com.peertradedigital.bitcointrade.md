@@ -4,14 +4,14 @@ title: "BitcoinTrade: Bitcoin e cripto"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.peertradedigital.bitcointrade
 released: 2017-12-01
 updated: 2021-08-09
 version: "3.3.4"
-stars: 3.9
-ratings: 5193
-reviews: 2615
+stars: 3.8
+ratings: 5260
+reviews: 2649
 size: 18M
 website: http://www.bitcointrade.com.br/
 repository: 

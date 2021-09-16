@@ -9,9 +9,9 @@ appId: com.m2049r.xmrwallet
 released: 2017-09-29
 updated: 2021-09-08
 version: "2.1.1 'Vertant'"
-stars: 3.5
+stars: 3.6
 ratings: 754
-reviews: 454
+reviews: 453
 size: Varies with device
 website: https://monerujo.io
 repository: 

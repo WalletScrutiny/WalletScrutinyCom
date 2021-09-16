@@ -4,7 +4,7 @@ title: "Smart Bitcoin Investment"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: com.cryptoearningapps.smart.bitcoin.investment
 released: 2021-06-29
 updated: 2021-06-29

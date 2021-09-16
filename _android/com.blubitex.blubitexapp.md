@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.blubitex.blubitexapp
 released: 2020-10-03
-updated: 2021-09-09
-version: "2.1.336"
+updated: 2021-09-10
+version: "2.1.337"
 stars: 3.4
-ratings: 2669
-reviews: 1485
+ratings: 2674
+reviews: 1487
 size: 81M
 website: https://www.blubitex.com/
 repository: 
@@ -19,12 +19,12 @@ issue:
 icon: com.blubitex.blubitexapp.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-08
-signer: 	
+date: 2021-09-11
+signer: 
 reviewArchive:
 
 
-providerTwitter: blubitex	
+providerTwitter: blubitex
 providerLinkedIn: 
 providerFacebook: blubitexofficial
 providerReddit: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 2021-09-06: The app is currently under maintenance. Users can sign in through the web application only.
 
 The [Privacy Policy](https://blubitex.com/ft/privacy) is titled as 

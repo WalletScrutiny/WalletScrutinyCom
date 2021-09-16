@@ -10,8 +10,8 @@ released: 2018-07-24
 updated: 2021-08-06
 version: "2.7.1"
 stars: 4.6
-ratings: 538
-reviews: 357
+ratings: 541
+reviews: 359
 size: 230M
 website: https://savl.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.savl.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.
 
 Savl provides the private keys. Found on [the official website](https://www.savl.com/access):

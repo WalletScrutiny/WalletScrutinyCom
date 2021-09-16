@@ -9,9 +9,9 @@ appId: com.bitoasis
 released: 2020-08-20
 updated: 2021-09-07
 version: "1.3.15"
-stars: 4.1
-ratings: 855
-reviews: 205
+stars: 4.2
+ratings: 865
+reviews: 208
 size: 67M
 website: https://bitoasis.net/en/home
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitoasis.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > With BitOasis, you can buy digital assets safely and securely. Deposit fiat (AED) through your personal debit or credit card.
@@ -58,4 +60,4 @@ In the Section 23 of the [FAQ](https://bitoasis.net/en/page/faq),
 Our wallet uses multi-signature technology to secure your bitcoins. With our multi-signature wallet, you will need 2 of your 3 private keys to move or spend any bitcoins. This provides an extra level of security to make sure your funds will not be compromised if one of your private keys is.<br>
 Your wallet private keys are three. You and BitOasis have access to one of those keys. As BitOasis, we do not have access or control over the 2 remaining keys and by that, we do not have control over any of our customers’ bitcoins. The second key is held by BitGo, a third-party security company. The third key, or the Recovery key, is a backup for emergencies and is secured under the supervision of an independent law firm that our customers can reach out to in case of any service compromise.
 
-Bitoasis is a multi-sig 'wallet', but this still qualifies it as a **custodial**  offering, thus **not-verifiable**. 
+As third parties have the 2of3 quorum - BitGo and "an independent law firm" - and you don't have it, we qualify this product as **custodial** and thus **not-verifiable**.

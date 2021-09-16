@@ -3,15 +3,15 @@ wsId: bikiexchange
 title: "BiKi App"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.biki.bikicoin
 released: 2019-05-13
 updated: 2021-07-21
 version: "4.9.1"
-stars: 2.6
-ratings: 669
-reviews: 334
+stars: 2.3
+ratings: 684
+reviews: 346
 size: 25M
 website: https://www.biki.cc/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.biki.bikicoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: BiKi
 redirect_from:
 
 ---
+
+
 From its Google Play Description:
 
 > We have a strong technical team and operation team, dedicated to building the safest, most stable and efficient digital asset trading platform for global users.<br>
@@ -53,4 +55,4 @@ It has a tutorial on [depositing digital assets](https://support.biki.cc/hc/en-u
 
 We emailed support to verify our findings. 
 
-All evidences point to a **custodial** service that does **not provide the source code**.
+All evidences point to a **custodial** service.

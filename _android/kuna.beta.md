@@ -3,15 +3,15 @@ wsId: kunaio
 title: "Kuna.io — Easy way to buy&sell BTC ETH USDT"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: kuna.beta
 released: 2019-07-22
 updated: 2021-09-06
 version: "1.4.2"
 stars: 3.9
-ratings: 649
-reviews: 367
+ratings: 658
+reviews: 374
 size: 88M
 website: https://kuna.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: kuna.beta.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The Kuna suite of services is not just the app that we're currently describing. This is the description on its Google Play page:
 
 > Kuna - the mobile app for purchasing, selling and storing cryptocurrency

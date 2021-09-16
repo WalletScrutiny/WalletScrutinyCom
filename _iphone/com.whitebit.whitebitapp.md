@@ -3,15 +3,15 @@ wsId: whitebit
 title: "WhiteBIT:Buy bitcoin securel‪y"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
 updated: 2021-09-01
 version: "1.16"
-stars: 4.57778
-reviews: 90
+stars: 4.58242
+reviews: 91
 size: 63836160
 website: https://whitebit.com
 repository: 
@@ -32,4 +32,5 @@ providerReddit: WhiteBitExchange
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

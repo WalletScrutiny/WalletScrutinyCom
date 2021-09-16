@@ -9,9 +9,9 @@ appId: com.dextrade.android
 released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
-stars: 3.4
-ratings: 95
-reviews: 62
+stars: 3.5
+ratings: 97
+reviews: 64
 size: 1.2M
 website: 
 repository: 

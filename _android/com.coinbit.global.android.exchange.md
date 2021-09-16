@@ -3,7 +3,7 @@ wsId:
 title: "코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100000
 appId: com.coinbit.global.android.exchange
 released: 2019-08-12
@@ -19,7 +19,7 @@ issue:
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This is a Korea based centralized cryptocurrency exchange
 
 When you access the website you are immediately greeted by a popup that warns users about fraud. You can also find this statement on the website:

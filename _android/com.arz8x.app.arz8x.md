@@ -3,15 +3,15 @@ wsId:
 title: "Arz8x - صرافی ارز های دیجیتال"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.arz8x.app.arz8x
 released: 2020-05-08
 updated: 2021-06-16
 version: "2.0.2"
-stars: 4.3
-ratings: 1207
-reviews: 692
+stars: 4.2
+ratings: 1217
+reviews: 698
 size: 32M
 website: https://arz8x.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.arz8x.app.arz8x.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-11
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app webpage lists its address as Maragheh City, East Azerbaijan, Iran. Iran is currently under economic sanctions from a lot of Western allied nations. It is best to proceed with caution when using this app. 
 
 We downloaded the app, but had difficulty registering because the interface is in Persian.

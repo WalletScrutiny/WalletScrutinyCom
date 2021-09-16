@@ -7,19 +7,19 @@ authors:
 users: 50000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-09-02
-version: "1.2.4"
+updated: 2021-09-09
+version: "1.3.0"
 stars: 4.1
-ratings: 596
-reviews: 274
-size: 63M
+ratings: 634
+reviews: 288
+size: 64M
 website: https://crypto.com/
 repository: 
 issue: 
 icon: com.crypto.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,7 +32,10 @@ providerReddit: Crypto_com
 redirect_from:
 
 ---
-Crypto.com is an expansive service with multiple services and a separate non-custodial app. Its non-custodial app is called the "Crypto.com DeFi Wallet". 
+**EDIT 2021-09-14**
+This exchange app (com.crypto.exchange) is featured on the official site.
+
+Crypto.com Exchange is an expansive service with multiple services and a separate non-custodial app. Its non-custodial app is called the "Crypto.com DeFi Wallet". 
 
 This specific custodial app allows users to:
 

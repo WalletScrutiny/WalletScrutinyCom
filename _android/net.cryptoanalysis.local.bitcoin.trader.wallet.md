@@ -4,7 +4,7 @@ title: "Local Bitcoin Trader Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: net.cryptoanalysis.local.bitcoin.trader.wallet
 released: 2021-06-28
 updated: 2021-06-28

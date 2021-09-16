@@ -8,11 +8,11 @@ appId: io.chainbase.global
 appCountry: 
 idd: 1568969341
 released: 2021-05-26
-updated: 2021-09-04
-version: "1.3.25"
-stars: 3.66429
-reviews: 140
-size: 51334144
+updated: 2021-09-13
+version: "1.3.26"
+stars: 3.61972
+reviews: 142
+size: 53770240
 website: 
 repository: 
 issue: 

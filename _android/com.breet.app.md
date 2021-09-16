@@ -9,9 +9,9 @@ appId: com.breet.app
 released: 2021-05-26
 updated: 2021-05-26
 version: "1.0"
-stars: 4.6
-ratings: 83
-reviews: 68
+stars: 4.5
+ratings: 86
+reviews: 71
 size: 7.3M
 website: 
 repository: 

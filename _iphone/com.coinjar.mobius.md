@@ -8,18 +8,18 @@ appId: com.coinjar.mobius
 appCountry: au
 idd: 958797429
 released: 2015-02-04
-updated: 2021-08-02
-version: "2.4.1"
-stars: 4.67976
-reviews: 9446
-size: 52484096
+updated: 2021-09-08
+version: "2.5.0"
+stars: 4.67879
+reviews: 9539
+size: 52520960
 website: https://www.coinjar.com/
 repository: 
 issue: 
 icon: com.coinjar.mobius.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-07
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

@@ -4,7 +4,7 @@ title: "Wire Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.wire.wirewalletapp
 released: 2021-04-14
 updated: 2021-04-14

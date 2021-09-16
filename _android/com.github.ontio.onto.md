@@ -9,17 +9,17 @@ appId: com.github.ontio.onto
 released: 2018-06-27
 updated: 2021-08-31
 version: "3.9.9"
-stars: 4.0
-ratings: 847
-reviews: 562
+stars: 4.1
+ratings: 850
+reviews: 564
 size: 80M
 website: https://www.onto.app
-repository: 
+repository: https://github.com/ONTO-Data-Wallet/ONTO
 issue: 
 icon: com.github.ontio.onto.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-09-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The Google Play description: 
 
 > ONTO is the first truly decentralized, cross-chain wallet, allowing users to securely manage their identities, data, and digital assets.

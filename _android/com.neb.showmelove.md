@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.neb.showmelove.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: stale
+date: 2021-09-12
 signer: 
 reviewArchive:
-
+- date: 2021-08-08
+  version: "Varies with device"
+  appHash: 
+  gitRevision: a56730247355e1acdeba52317b006511806100fb
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

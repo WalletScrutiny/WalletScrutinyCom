@@ -19,7 +19,7 @@ issue:
 icon: com.abbc.wallet.jpg
 bugbounty: 
 verdict: stale
-date: 2021-09-11
+date: 2021-09-15
 signer: 
 reviewArchive:
 - date: 2021-09-11

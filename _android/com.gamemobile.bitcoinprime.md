@@ -4,7 +4,7 @@ title: "Bitcoin Prime - Robotics Cryptocurrency (2021)"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.gamemobile.bitcoinprime
 released: 2021-06-25
 updated: 2021-06-25
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gamemobile.bitcoinprime.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:

@@ -9,9 +9,9 @@ appId: com.arzjoo
 released: 2019-04-25
 updated: 2021-07-13
 version: "1.4.1"
-stars: 4.3
-ratings: 2713
-reviews: 1065
+stars: 4.2
+ratings: 2724
+reviews: 1071
 size: Varies with device
 website: https://arzjoo.com
 repository: 

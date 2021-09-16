@@ -4,7 +4,7 @@ title: "Crypto Invest"
 altTitle: 
 authors:
 
-users: 0
+users: 1
 appId: org.thecrypto.apps.crypto.invest
 released: 2021-06-22
 updated: 2021-06-22
