@@ -10,7 +10,7 @@ released: 2020-12-10
 updated: 2021-07-20
 version: "1.14.0"
 stars: 4.3
-ratings: 196
+ratings: 197
 reviews: 68
 size: Varies with device
 website: https://currency.com/

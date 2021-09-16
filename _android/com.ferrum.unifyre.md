@@ -22,11 +22,7 @@ verdict: stale
 date: 2021-09-16
 signer: 
 reviewArchive:
-- date: 2021-08-01
-  version: "0.0.19"
-  appHash: 
-  gitRevision: cfaa2364ba00347a969aeadef14b8ee616166450
-  verdict: wip
+
 
 providerTwitter: 
 providerLinkedIn: 

@@ -11,7 +11,7 @@ updated: 2021-09-09
 version: "3.2.9"
 stars: 3.4
 ratings: 2468
-reviews: 1454
+reviews: 1453
 size: 75M
 website: https://jeton.com/
 repository: 

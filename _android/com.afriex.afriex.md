@@ -9,9 +9,9 @@ appId: com.afriex.afriex
 released: 2020-03-05
 updated: 2021-08-16
 version: "11.25"
-stars: 
-ratings: 
-reviews: 
+stars: 4.5
+ratings: 679
+reviews: 499
 size: 55M
 website: 
 repository: 

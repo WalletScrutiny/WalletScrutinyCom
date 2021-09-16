@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: "Cabital: Crypto Savings"
+title: "Cabital Crypto: Invest in crypto currencies"
 altTitle: 
 authors:
 
 users: 100
 appId: com.cabital.cabital
 released: 2021-06-07
-updated: 2021-09-09
-version: "1.1.0"
+updated: 2021-09-16
+version: "1.1.1"
 stars: 4.9
-ratings: 12
+ratings: 13
 reviews: 8
 size: 44M
 website: 

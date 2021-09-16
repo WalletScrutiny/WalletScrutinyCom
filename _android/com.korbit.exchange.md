@@ -9,8 +9,8 @@ appId: com.korbit.exchange
 released: 2018-07-22
 updated: 2021-09-15
 version: "4.1.2"
-stars: 3.5
-ratings: 1678
+stars: 3.6
+ratings: 1679
 reviews: 890
 size: 48M
 website: www.korbit.co.kr

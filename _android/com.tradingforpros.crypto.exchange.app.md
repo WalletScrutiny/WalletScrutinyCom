@@ -4,7 +4,7 @@ title: "Crypto Exchange App"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.tradingforpros.crypto.exchange.app
 released: 2021-06-16
 updated: 2021-06-16

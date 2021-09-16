@@ -10,7 +10,7 @@ released: 2018-02-11
 updated: 2019-02-13
 version: "0.1.5"
 stars: 2.2
-ratings: 3690
+ratings: 3691
 reviews: 2363
 size: 15M
 website: 
@@ -22,11 +22,7 @@ verdict: obsolete
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "0.1.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+
 
 providerTwitter: 
 providerLinkedIn: 

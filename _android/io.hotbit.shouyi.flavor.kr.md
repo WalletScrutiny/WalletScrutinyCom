@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "핫빗코리아"
+title: "BITCLOVER"
 altTitle: 
 authors:
 
 users: 50000
 appId: io.hotbit.shouyi.flavor.kr
 released: 2020-07-07
-updated: 2021-09-07
-version: "1.0.60"
+updated: 2021-09-15
+version: "1.0.61"
 stars: 3.3
-ratings: 481
-reviews: 200
-size: 6.3M
+ratings: 484
+reviews: 201
+size: 6.1M
 website: 
 repository: 
 issue: 

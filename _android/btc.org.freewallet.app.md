@@ -10,8 +10,8 @@ released: 2016-06-13
 updated: 2021-09-06
 version: "2.6.7"
 stars: 4.4
-ratings: 5850
-reviews: 2943
+ratings: 5859
+reviews: 2950
 size: 7.3M
 website: https://freewallet.org
 repository: 

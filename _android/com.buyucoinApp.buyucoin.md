@@ -11,7 +11,7 @@ updated: 2021-08-29
 version: "3.20"
 stars: 3.2
 ratings: 2473
-reviews: 1739
+reviews: 1738
 size: 37M
 website: https://www.buyucoin.com
 repository: 
