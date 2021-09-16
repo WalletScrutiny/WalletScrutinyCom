@@ -19,9 +19,14 @@ issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible
-date: 2021-04-27
+date: 2021-09-17
 signer: 
 reviewArchive:
+- date: 2021-04-27
+  version: "0.4.1-beta"
+  appHash: b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2
+  gitRevision: 56e73c40348acc80b6d550a4f32a52b84fc3f3cb
+  verdict: reproducible
 - date: 2020-12-22
   version: "0.4.0-beta"
   appHash: cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65
@@ -56,15 +61,16 @@ on the binary from Google Play:
 Results:
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.4.1-beta
-apkVersionCode: 3028
-appHash:        b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2
+apkVersionName: 0.5.1-beta
+apkVersionCode: 3031
+verdict:        reproducible
+appHash:        dbf21e0cfb7f0bc238e9f24e123777f12e497ad574ada282a82e5dd98fa98d47
+commit:         3255dc080065bcc3c82a59effba18e51b570f98e
 
 Diff:
-Files /tmp/fromPlay_zapsolutions.zap_3028/apktool.yml and /tmp/fromBuild_zapsolutions.zap_3028/apktool.yml differ
-Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: CERT.RSA
-Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: CERT.SF
-Only in /tmp/fromPlay_zapsolutions.zap_3028/original/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_zapsolutions.zap_3031/META-INF: CERT.RSA
+Only in /tmp/fromPlay_zapsolutions.zap_3031/META-INF: CERT.SF
+Only in /tmp/fromPlay_zapsolutions.zap_3031/META-INF: MANIFEST.MF
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
