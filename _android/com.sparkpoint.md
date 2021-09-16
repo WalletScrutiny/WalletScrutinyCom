@@ -11,8 +11,8 @@ released: 2019-07-20
 updated: 2021-08-18
 version: "6.6.0"
 stars: 4.5
-ratings: 582
-reviews: 501
+ratings: 584
+reviews: 502
 size: 14M
 website: https://sparkpoint.io/
 repository: 

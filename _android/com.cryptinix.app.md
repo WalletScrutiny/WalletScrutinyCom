@@ -4,14 +4,14 @@ title: "Cryptinix: Crypto Trading"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.cryptinix.app
 released: 2020-11-24
 updated: 2021-02-09
 version: "1.2.0"
 stars: 4.8
-ratings: 51
-reviews: 50
+ratings: 61
+reviews: 60
 size: 52M
 website: 
 repository: 

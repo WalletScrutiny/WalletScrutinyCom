@@ -4,7 +4,7 @@ title: "Crypto Exchange: Bitcoin, Trading, switch coins"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.teamdevops.cryptoapp
 released: 2021-08-18
 updated: 2021-08-19

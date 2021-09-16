@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.abbc.aladdin.pro
 released: 2019-11-15
-updated: 2021-09-12
+updated: 2021-09-15
 version: "1.5.5"
-stars: 4.8
-ratings: 2626
-reviews: 2123
+stars: 4.9
+ratings: 4493
+reviews: 3862
 size: 24M
 website: https://abbccoin.com/
 repository: 

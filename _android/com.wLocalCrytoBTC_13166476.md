@@ -3,7 +3,7 @@ wsId:
 title: "LocalBitcoin"
 altTitle: 
 authors:
-
+- leo
 users: 1000
 appId: com.wLocalCrytoBTC_13166476
 released: 2021-02-05
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.wLocalCrytoBTC_13166476.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-06**: This app is not on Play Store anymore.

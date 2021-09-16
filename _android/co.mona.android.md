@@ -11,8 +11,8 @@ released: 2017-08-30
 updated: 2021-09-03
 version: "3.112.0"
 stars: 4.1
-ratings: 159216
-reviews: 56139
+ratings: 159677
+reviews: 56316
 size: 111M
 website: https://www.crypto.com
 repository: 
@@ -35,6 +35,8 @@ redirect_from:
   - /crypto.com/
   - /posts/co.mona.android/
 ---
+
+
 **EDIT 2021-09-14**
 Crypto.com (co.mona.android) is featured on the official site. This is the official app.
 

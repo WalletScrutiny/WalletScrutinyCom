@@ -4,6 +4,7 @@ title: "CoinBene"
 altTitle: 
 authors:
 - danny
+- leo
 users: 100000
 appId: com.coinbene.manbiwang
 released: 2018-11-09
@@ -18,11 +19,16 @@ repository:
 issue: 
 icon: com.coinbene.manbiwang.png
 bugbounty: 
-verdict: custodial
-date: 2021-09-11
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
-
+- date: 2021-09-11
+  version: ""
+  appHash: 
+  gitRevision: cfaa2364ba00347a969aeadef14b8ee616166450
+  verdict: custodial
+  
 
 providerTwitter: coinbene
 providerLinkedIn: coinbene-official
@@ -32,6 +38,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2021-09-07**: This app is not on Play Store anymore.
+
 > CoinBene App is a convenient, professional, safe, stable and reliable global digital currency exchange
 
 CoinBene App is a cryptoasset platform and centralized exchange.
