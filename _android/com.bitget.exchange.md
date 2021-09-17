@@ -23,7 +23,6 @@ date: 2021-08-11
 signer: 
 reviewArchive:
 
-
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget
 providerFacebook: BitgetGlobal
