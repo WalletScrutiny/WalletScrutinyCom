@@ -49,3 +49,5 @@ Also in the Play store description:
 
 This is *also* very usually an indicator that this product is **custodial** thus **not verifiable.** 
 
+---
+Update 2021-08-05: This app is not on Play Store anymore.
