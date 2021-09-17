@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: libertyx
 title: "LibertyX - Buy Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.libertyx.libertyx
 appCountry: us
 idd: 966538981
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: libertyx
+providerLinkedIn: libertyx
+providerFacebook: getlibertyx
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

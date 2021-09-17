@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: trastra
 title: "TRASTRA: Crypto Wallet & Card"
 altTitle: 
 authors:
-
+- danny
 appId: com.trastra.mobile
 appCountry: us
 idd: 1446427008
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.trastra.mobile.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Trastra_ltd
+providerLinkedIn: trastra
+providerFacebook: trastra.ltd
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

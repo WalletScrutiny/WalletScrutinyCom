@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Bitget
 title: "Bitget"
 altTitle: 
 authors:
-
+- danny
 appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.bitget.exchange.global.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitgetglobal
+providerLinkedIn: bitget
+providerFacebook: BitgetGlobal
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

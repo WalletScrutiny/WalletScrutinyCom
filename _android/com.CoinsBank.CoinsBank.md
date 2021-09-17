@@ -1,5 +1,5 @@
 ---
-wsId: CoinsBank
+wsId: 
 title: "CoinsBank Mobile Wallet"
 altTitle: 
 authors:

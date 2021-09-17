@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: BigONE
 title: "BigONE"
 altTitle: 
 authors:
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: base.big.one.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BigONEexchange
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: exBigONE
+providerReddit: BigONEExchange
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}
