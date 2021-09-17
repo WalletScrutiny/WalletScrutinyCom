@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: STICPAY
 title: "STICPAY"
 altTitle: 
 authors:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}
