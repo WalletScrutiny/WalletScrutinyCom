@@ -19,7 +19,7 @@ issue:
 icon: com.pint.app.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 

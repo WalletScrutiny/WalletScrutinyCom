@@ -19,7 +19,7 @@ issue:
 icon: io.level01.android.png
 bugbounty: 
 verdict: nobtc
-date: 2021-08-02
+date: 2021-09-17
 signer: 
 reviewArchive:
 

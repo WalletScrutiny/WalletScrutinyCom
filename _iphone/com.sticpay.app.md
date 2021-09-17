@@ -19,7 +19,7 @@ issue:
 icon: com.sticpay.app.jpg
 bugbounty: 
 verdict: wip
-date: 2021-09-13
+date: 2021-09-17
 signer: 
 reviewArchive:
 

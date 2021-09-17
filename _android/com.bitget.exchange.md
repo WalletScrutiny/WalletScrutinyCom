@@ -19,7 +19,7 @@ issue:
 icon: com.bitget.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-11
+date: 2021-09-17
 signer: 
 reviewArchive:
 
