@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: trendofx
 title: "Analise Forex & Stock"
 altTitle: 
 authors:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
