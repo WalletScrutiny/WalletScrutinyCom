@@ -4,14 +4,14 @@ title: "Quarashi Multi Crypto Wallet Exchange Privacy Chat"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.ibt.quarashi
 released: 2021-07-09
 updated: 2021-09-03
 version: "1.0.9"
 stars: 5.0
-ratings: 842
-reviews: 420
+ratings: 1811
+reviews: 824
 size: 15M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.trading.aries
 released: 2021-06-23
 updated: 2021-08-16
 version: "1.14.1"
-stars: 4.8
-ratings: 10
-reviews: 7
+stars: 4.5
+ratings: 11
+reviews: 8
 size: 9.2M
 website: 
 repository: 

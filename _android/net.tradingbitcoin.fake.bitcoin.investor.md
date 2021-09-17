@@ -3,7 +3,7 @@ wsId:
 title: "Fake Bitcoin Investor"
 altTitle: 
 authors:
-
+- leo
 users: 100
 appId: net.tradingbitcoin.fake.bitcoin.investor
 released: 2021-06-21
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-07**: This app is not on Play Store anymore.

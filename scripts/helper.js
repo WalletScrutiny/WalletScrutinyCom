@@ -36,6 +36,10 @@ function downloadImageFile(url, path, callback) {
 }
 
 function addReviewArchive(reviewArchive, header) {
+  // don't archive undefined or pseudo verdicts
+  if (header.verdict == undefined || header.verdict == "wip") {
+    return
+  }
   reviewArchive.unshift({
     date: header.date,
     version: header.version,

@@ -11,8 +11,8 @@ idd: 1137855704
 released: 2016-09-04
 updated: 2021-09-14
 version: "3.8.4"
-stars: 4.05882
-reviews: 17
+stars: 4.11111
+reviews: 18
 size: 50836480
 website: https://www.coinhako.com
 repository: 

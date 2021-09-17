@@ -4,7 +4,7 @@ title: "Fake Crypto Investor"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: net.xxxcoinnowfree.fake.crypto.investor
 released: 2021-07-22
 updated: 2021-07-22

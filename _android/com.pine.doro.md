@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.pine.doro.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-08**: This app is not available anymore.

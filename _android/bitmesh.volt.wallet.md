@@ -9,9 +9,9 @@ appId: bitmesh.volt.wallet
 released: 2020-05-15
 updated: 2021-09-07
 version: "2.1.1"
-stars: 4.5
-ratings: 48
-reviews: 30
+stars: 4.6
+ratings: 61
+reviews: 33
 size: 23M
 website: 
 repository: 

@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bybit: Trade cryptocurrency, bitcoin"
-altTitle: 
+altTitle: "*Fake app!* Bybit: Trade cryptocurrency, bitcoin"
 authors:
 
 users: 1000

@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "B I N A N C E : Trade cryptocurrency (Binance)"
-altTitle: 
+altTitle: "*Fake app!* B I N A N C E : Trade cryptocurrency (Binance)"
 authors:
 
 users: 100
