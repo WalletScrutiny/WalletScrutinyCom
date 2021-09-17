@@ -7,12 +7,12 @@ authors:
 users: 5000000
 appId: com.dunamu.exchange
 released: 2017-10-23
-updated: 2021-09-14
-version: "1.14.15"
+updated: 2021-09-15
+version: "1.14.15p3"
 stars: 3.6
-ratings: 21917
-reviews: 9017
-size: 26M
+ratings: 21935
+reviews: 9020
+size: 27M
 website: https://upbit.com
 repository: 
 issue: 

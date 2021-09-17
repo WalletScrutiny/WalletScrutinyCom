@@ -10,7 +10,7 @@ released: 2018-08-15
 updated: 2020-03-05
 version: "2.9.2"
 stars: 3.8
-ratings: 118
+ratings: 119
 reviews: 58
 size: 33M
 website: 
@@ -22,11 +22,7 @@ verdict: stale
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "2.9.2"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+
 
 providerTwitter: 
 providerLinkedIn: 

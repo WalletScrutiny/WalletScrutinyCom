@@ -9,9 +9,9 @@ appId: com.trusteewallet
 released: 2019-05-01
 updated: 2021-09-13
 version: "1.40.900"
-stars: 4.3
-ratings: 2008
-reviews: 1375
+stars: 4.4
+ratings: 2043
+reviews: 1378
 size: 53M
 website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet

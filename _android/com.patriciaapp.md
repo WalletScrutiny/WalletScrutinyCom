@@ -10,8 +10,8 @@ released: 2020-02-14
 updated: 2021-08-21
 version: "1.3.1"
 stars: 3.0
-ratings: 2934
-reviews: 2160
+ratings: 2950
+reviews: 2174
 size: 48M
 website: https://mypatricia.co/
 repository: 

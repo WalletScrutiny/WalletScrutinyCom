@@ -9,7 +9,7 @@ appId: io.ethos.universalwallet
 released: 2018-07-10
 updated: 2019-12-05
 version: "2.0.5"
-stars: 3.0
+stars: 2.9
 ratings: 1519
 reviews: 799
 size: 38M

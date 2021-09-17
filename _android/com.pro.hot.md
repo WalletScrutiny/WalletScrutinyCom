@@ -3,7 +3,7 @@ wsId:
 title: "Hotcoin"
 altTitle: 
 authors:
-
+- leo
 users: 1000
 appId: com.pro.hot
 released: 2021-05-27
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.pro.hot.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-06**: This app is not on Play Store anymore.

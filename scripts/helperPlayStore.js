@@ -114,7 +114,11 @@ function writeResult(app, header, iconExtension, body) {
   } else {
     verdict = header.verdict
   }
-  const reviewArchive = header.reviewArchive || []
+  const reviewArchive = (header.reviewArchive || [])
+      .filter(it => {
+        // wip archval is not very helpful as it only means that we realized we had to re-evaluate. It's a pseudo verdict.
+        return it.verdict != "wip" && it.verdict != undefined
+      })
   const redirects = new Set(header.redirect_from)
   if (header.stars != "0.0"
       && app.scoreText == "0.0"

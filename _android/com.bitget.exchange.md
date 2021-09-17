@@ -9,8 +9,8 @@ appId: com.bitget.exchange
 released: 2020-04-03
 updated: 2021-09-07
 version: "1.2.12"
-stars: 4.9
-ratings: 505
+stars: 4.8
+ratings: 507
 reviews: 457
 size: 34M
 website: https://www.bitget.com/
@@ -23,6 +23,7 @@ date: 2021-08-11
 signer: 
 reviewArchive:
 
+
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget
 providerFacebook: BitgetGlobal
@@ -32,6 +33,8 @@ redirect_from:
 
 ---
 **Update 2021-09-12**: This app appears to be back on Play Store
+
+**Update 2021-08-05**: This app is not on Play Store anymore.
 
 Given Bitget refers to itself in the title as a "Crypto Trading & BitCoin Contract Platfom" it is presumably custodial.
 
@@ -44,5 +47,3 @@ Also in the Play store description:
 
 This is *also* very usually an indicator that this product is **custodial** thus **not verifiable.** 
 
----
-Update 2021-08-05: This app is not on Play Store anymore.

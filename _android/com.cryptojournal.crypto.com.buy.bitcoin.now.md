@@ -3,7 +3,7 @@ wsId:
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500
 appId: com.cryptojournal.crypto.com.buy.bitcoin.now
 released: 2021-07-07
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This review was made in relation to a similar app with an almost identical appID.
 
 It is made by the same publisher which we have noted to have 8 other Google Play apps with the same function<br>

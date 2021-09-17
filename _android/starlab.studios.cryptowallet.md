@@ -3,7 +3,7 @@ wsId:
 title: "Crypto Wallets: Coinmama, Crypto.com Wallets"
 altTitle: 
 authors:
- - danny
+- danny
 users: 500
 appId: starlab.studios.cryptowallet
 released: 2021-06-01
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Warning:** Proceed with caution when using this app.
 
 Like most suspicious apps, we highlight red flags that we notice. While these do not in and of themselves constitute evidence of wrongdoing, we believe them to be sufficient enough to warrant caution. 

@@ -27,11 +27,6 @@ reviewArchive:
   appHash: 
   gitRevision: a56730247355e1acdeba52317b006511806100fb
   verdict: custodial
-- date: 2021-09-03
-  version: "undefined"
-  appHash: 
-  gitRevision: db946486388e56a485b75653da2c9058254e96d6
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

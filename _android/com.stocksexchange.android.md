@@ -9,9 +9,9 @@ appId: com.stocksexchange.android
 released: 2018-05-15
 updated: 2021-08-11
 version: "2.0.5"
-stars: 4.4
-ratings: 1382
-reviews: 546
+stars: 4.3
+ratings: 1403
+reviews: 550
 size: 9.8M
 website: https://stex.com
 repository: 

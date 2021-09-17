@@ -27,11 +27,6 @@ reviewArchive:
   appHash: 
   gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
   verdict: nowallet
-- date: 2021-08-30
-  version: "undefined"
-  appHash: 
-  gitRevision: b1012dec29eec89ba8e52fd18f4df08389c088b5
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

@@ -3,7 +3,7 @@ wsId:
 title: "Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
- - danny
+- danny
 users: 100
 appId: com.cryptooptions.crypto.com.buy.bitcoin.now
 released: 2021-07-24
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Warning** Proceed with caution with this app.
 
 We evaluated similar apps that bear the trademark of "Crypto.com" notably:
