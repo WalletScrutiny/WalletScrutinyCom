@@ -22,6 +22,11 @@ verdict: reproducible
 date: 2021-07-28
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-07-28
+  version: "8.15"
+  appHash: ef79679f1b67f00502e0e21ff6d31f97feb273d397f44850e3acf3ff68cf9464
+  gitRevision: 635a4e493ea85d9684c5a7f90de8910e20fb41bc
+  verdict: reproducible
 - date: 2021-06-01
   version: "8.14"
   appHash: e4f9be85ecbac8a418ec4f2d1577f1cea0c265f1b0cd501408c3ec993213ef08
@@ -134,24 +139,24 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.15
-apkVersionCode: 815
+apkVersionName: 8.16
+apkVersionCode: 816
 verdict:        reproducible
-appHash:        ef79679f1b67f00502e0e21ff6d31f97feb273d397f44850e3acf3ff68cf9464
-commit:         31b4d0b81792132664843d0527e4385882c6756f
+appHash:        ce81ad485b99f0995dccf101c97ef5e0fa17e4832aa1a84f3a3ef3176142439e
+commit:         ae898bbf37361ff1b85b48ecb7428ca0b8000ac1
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_815/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_815/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_815/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_815/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_816/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_816/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_816/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_816/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 31b4d0b81792132664843d0527e4385882c6756f
+object ae898bbf37361ff1b85b48ecb7428ca0b8000ac1
 type commit
-tag v8.15
-tagger Andreas Schildbach <andreas@schildbach.de> 1625340545 +0200
+tag v8.16
+tagger Andreas Schildbach <andreas@schildbach.de> 1627913798 +0200
 
-8.15 release
+8.16 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
