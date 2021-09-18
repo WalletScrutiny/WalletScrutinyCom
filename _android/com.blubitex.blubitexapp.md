@@ -10,8 +10,8 @@ released: 2020-10-03
 updated: 2021-09-10
 version: "2.1.337"
 stars: 3.4
-ratings: 2676
-reviews: 1488
+ratings: 2677
+reviews: 1489
 size: 81M
 website: https://www.blubitex.com/
 repository: 

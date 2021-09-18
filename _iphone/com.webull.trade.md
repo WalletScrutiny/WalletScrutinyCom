@@ -11,8 +11,8 @@ idd: 1179213067
 released: 2017-01-18
 updated: 2021-09-13
 version: "7.2.3"
-stars: 4.71609
-reviews: 231878
+stars: 4.71608
+reviews: 232215
 size: 323938304
 website: https://www.webull.com
 repository: 

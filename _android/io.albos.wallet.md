@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: io.albos.wallet
 released: 2019-07-01
-updated: 2021-09-06
-version: "2.4.13"
+updated: 2021-09-17
+version: "2.4.14"
 stars: 0.0
 ratings: 
 reviews: 

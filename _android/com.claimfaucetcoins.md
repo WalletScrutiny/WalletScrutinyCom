@@ -10,8 +10,8 @@ released: 2020-04-21
 updated: 2021-06-15
 version: "2.1"
 stars: 3.8
-ratings: 228
-reviews: 127
+ratings: 230
+reviews: 129
 size: 4.9M
 website: 
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This app does not appear to be a crypto wallet, instead utilizing external services such as Skrill or CoinBase as its wallets.
 
 Furthermore, here is the Play Store description:

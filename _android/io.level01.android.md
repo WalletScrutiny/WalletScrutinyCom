@@ -3,7 +3,7 @@ wsId:
 title: "Level01"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: io.level01.android
 released: 2020-10-09
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > Experience peer-to-peer (P2P) options trading powered by Blockchain and AI – Level01 provides you the fairest, most transparent and more profitable way to trade options.<br>

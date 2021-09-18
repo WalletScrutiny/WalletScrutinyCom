@@ -23,6 +23,7 @@ date: 2021-09-17
 signer: 
 reviewArchive:
 
+
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget
 providerFacebook: BitgetGlobal
@@ -31,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Update 2021-09-12**: This app appears to be back on Play Store
 
 **Update 2021-08-05**: This app is not on Play Store anymore.

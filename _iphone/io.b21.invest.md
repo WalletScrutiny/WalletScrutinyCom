@@ -1,5 +1,5 @@
 ---
-wsId: B21Crypto 
+wsId: B21Crypto
 title: "B21 Crypto: Invest|Earn|Spend"
 altTitle: 
 authors:
@@ -32,4 +32,5 @@ providerReddit: B21Invest
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

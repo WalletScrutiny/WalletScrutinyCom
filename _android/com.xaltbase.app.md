@@ -3,15 +3,15 @@ wsId: 100xaltbase
 title: "100xAltbase: Buy Crypto Altcoins, Altcoin Exchange"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.xaltbase.app
 released: 2021-05-31
 updated: 2021-08-18
 version: "3.0.2"
 stars: 4.6
-ratings: 3436
-reviews: 2463
+ratings: 3437
+reviews: 2464
 size: 17M
 website: https://www.100xcoin.io/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This DeFi trading app is described in its Google Play:
 
 > Download this defi crypto app now for FREE and buy Alt Coins, Meme Coins & everything in-between. Invest in cryptocurrency with the exclusive app for new crypto coins - 100xAltbase.

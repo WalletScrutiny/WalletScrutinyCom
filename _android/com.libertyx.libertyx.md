@@ -3,7 +3,7 @@ wsId: libertyx
 title: "Buy Bitcoin Instantly"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.libertyx.libertyx
 released: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > LibertyX: Buy bitcoin instantly from trusted stores near you<br>

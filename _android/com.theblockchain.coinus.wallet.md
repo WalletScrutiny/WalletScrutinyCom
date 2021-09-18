@@ -3,7 +3,7 @@ wsId: coinus
 title: "CoinUs - Crypto wallet. Bitcoin,Ethereum,Filecoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.theblockchain.coinus.wallet
 released: 2018-04-23
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Coinus Support page:
 
 >[What coins/tokens can I use in Coinus Wallet?](https://support.coinus.io/hc/ko/articles/360031057072-%EC%BD%94%EC%9D%B8%EC%96%B4%EC%8A%A4-%EC%A7%80%EA%B0%91%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%BD%94%EC%9D%B8-%ED%86%A0%ED%81%B0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-)<br>

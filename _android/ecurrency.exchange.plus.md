@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: ecurrency.exchange.plus.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-17
 signer: 
 reviewArchive:
-
+- date: 2021-08-17
+  version: "v5.0"
+  appHash: 
+  gitRevision: ee372e98b40352c14b40edd14db33b266749cf23
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 

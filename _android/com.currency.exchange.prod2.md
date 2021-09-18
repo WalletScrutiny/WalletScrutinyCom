@@ -9,9 +9,9 @@ appId: com.currency.exchange.prod2
 released: 2019-04-15
 updated: 2021-09-03
 version: "1.15.2"
-stars: 4.1
-ratings: 4630
-reviews: 1776
+stars: 4.0
+ratings: 4642
+reviews: 1784
 size: 18M
 website: https://currency.com
 repository: 

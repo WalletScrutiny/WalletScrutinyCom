@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Trading Online Investing :ATM Option"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.gaifang.ATMOptionTest
 released: 2020-06-18
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 As of September 13, 20201, there are two apps with exactly the same name "Bitcoin Trading Online Investing :ATM Option" and logo. They are also developed by the same developer, [ATM Warrant](https://play.google.com/store/apps/developer?id=ATM+Warrant).
 
 This specific app however has more downloads. 50,000 vs. 1000 for the other. Both have been updated recently, August 30, 2021 and August 29, 2021, respectively.

@@ -8,11 +8,11 @@ appId: com.remitano.remitano
 appCountry: 
 idd: 1116327021
 released: 2016-05-28
-updated: 2021-09-13
-version: "5.61.0"
-stars: 4.76658
-reviews: 8204
-size: 52189184
+updated: 2021-09-15
+version: "5.62.0"
+stars: 4.7664
+reviews: 8228
+size: 53095424
 website: https://remitano.com
 repository: 
 issue: 

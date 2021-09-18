@@ -9,8 +9,8 @@ appId: com.btcalpha.exchange
 released: 2021-07-23
 updated: 2021-08-27
 version: "1.5.2"
-stars: 4.3
-ratings: 11
+stars: 4.0
+ratings: 12
 reviews: 7
 size: 20M
 website: 

@@ -10,8 +10,8 @@ released: 2019-10-30
 updated: 2021-09-13
 version: "2.1.722"
 stars: 4.1
-ratings: 520
-reviews: 294
+ratings: 524
+reviews: 295
 size: 58M
 website: https://www.b1.zone/
 repository: 
@@ -21,7 +21,7 @@ bugbounty:
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:	
+reviewArchive:
 
 
 providerTwitter: BigONEexchange
@@ -32,6 +32,8 @@ providerReddit: BigONEExchange
 redirect_from:
 
 ---
+
+
 BigONE has the interface of a digital exchange, and advertises itself as such.
 
 > BigONE is a global digital asset trading platform. We implement a 100% reserve and multiple protection measures to ensure the security of user assets.

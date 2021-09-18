@@ -9,9 +9,9 @@ appId: io.safepal.wallet
 released: 2019-05-26
 updated: 2021-09-14
 version: "2.8.2"
-stars: 4.4
-ratings: 7747
-reviews: 4268
+stars: 4.5
+ratings: 7799
+reviews: 4296
 size: 30M
 website: https://www.safepal.io
 repository: 

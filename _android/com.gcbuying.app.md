@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.gcbuying.app
 released: 2021-01-26
-updated: 2021-06-24
-version: "1.0.8"
+updated: 2021-09-17
+version: "1.0.10"
 stars: 4.2
-ratings: 91
-reviews: 78
-size: 17M
+ratings: 98
+reviews: 84
+size: 13M
 website: 
 repository: 
 issue: 

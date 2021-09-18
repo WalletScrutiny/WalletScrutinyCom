@@ -3,7 +3,7 @@ wsId: hotbit
 title: "BITCLOVER"
 altTitle: 
 authors:
- - danny
+- danny
 appId: io.hotbit.shouyi.flavor.korea
 appCountry: kr
 idd: 1519926225
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

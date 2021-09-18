@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: "Nuri (ex Bitwala)"
+title: "Nuri"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
 released: 2019-05-11
-updated: 2021-09-10
-version: "2.1.37"
+updated: 2021-09-17
+version: "2.1.40"
 stars: 
 reviews: 
-size: 101040128
+size: 100534272
 website: https://www.nuri.com
 repository: 
 issue: 

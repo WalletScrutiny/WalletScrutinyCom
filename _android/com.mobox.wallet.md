@@ -4,14 +4,14 @@ title: "MOBOX"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.mobox.wallet
 released: 2021-02-02
 updated: 2021-09-14
 version: "1.1.0"
-stars: 4.4
-ratings: 889
-reviews: 457
+stars: 4.3
+ratings: 926
+reviews: 472
 size: 29M
 website: 
 repository: 

@@ -3,7 +3,7 @@ wsId: coinus
 title: "CoinUs Wallet"
 altTitle: 
 authors:
- - danny
+- danny
 appId: com.theblockchain.coinus.wallet
 appCountry: bj
 idd: 1367339746
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}

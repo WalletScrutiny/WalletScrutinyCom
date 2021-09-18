@@ -10,8 +10,8 @@ idd: 1474912942
 released: 2019-09-11
 updated: 2021-08-27
 version: "1.18.1"
-stars: 4.89501
-reviews: 381
+stars: 4.89295
+reviews: 383
 size: 98906112
 website: https://www.balletcrypto.com/
 repository: 

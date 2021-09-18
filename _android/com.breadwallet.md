@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.breadwallet
 released: 2016-07-21
-updated: 2021-09-10
+updated: 2021-09-16
 version: "4.11.1"
 stars: 4.3
-ratings: 31693
-reviews: 12395
+ratings: 31799
+reviews: 12452
 size: 28M
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile

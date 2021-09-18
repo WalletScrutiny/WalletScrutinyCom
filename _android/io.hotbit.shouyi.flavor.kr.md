@@ -3,7 +3,6 @@ wsId: hotbit
 title: "BITCLOVER"
 altTitle: 
 authors:
-
 - danny
 users: 50000
 appId: io.hotbit.shouyi.flavor.kr
@@ -11,8 +10,8 @@ released: 2020-07-07
 updated: 2021-09-15
 version: "1.0.61"
 stars: 3.3
-ratings: 484
-reviews: 201
+ratings: 488
+reviews: 204
 size: 6.1M
 website: https://www.bitclover.io/
 repository: 
@@ -33,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Updated September 17, 2021**
 Hotbit has successfully transitioned from hotbit into bitclover. [Details here](https://bitclover.zendesk.com/hc/en-us/articles/4406561078553-Rebranding-from-Hotbit-Korea-to-BITCLOVER).
 

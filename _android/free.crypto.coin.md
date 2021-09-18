@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: free.crypto.coin.png
 bugbounty: 
-verdict: wip
-date: 2021-08-08
+verdict: stale
+date: 2021-09-17
 signer: 
 reviewArchive:
 
