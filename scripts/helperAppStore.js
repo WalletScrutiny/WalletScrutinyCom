@@ -75,6 +75,7 @@ function refreshFile(fileName) {
       })
     }, (err) => {
       if (`${err}`.search(/404/) > -1) {
+        helper.addDefunctIfNew(`_iphone/${appId}`)
         console.error(`\n_iphone/${appId}.md not available (${header.verdict})`)
       } else {
         console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${err}`)

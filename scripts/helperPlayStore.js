@@ -80,6 +80,7 @@ function refreshFile(fileName) {
       })
     }, (err) => {
       if (`${err}`.search(/404/) > -1) {
+        helper.addDefunctIfNew(`_android/${appId}`)
         console.error(`\n_android/${appId}.md not available (${header.verdict}, ${header.users})`)
       } else {
         console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
