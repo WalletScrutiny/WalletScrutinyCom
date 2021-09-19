@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Trading Online Investing :ATM Option"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.gaifang.ATMOptionTest
 released: 2020-06-18
@@ -19,7 +19,7 @@ issue:
 icon: com.gaifang.ATMOptionTest.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,9 +32,11 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 As of September 13, 20201, there are two apps with exactly the same name "Bitcoin Trading Online Investing :ATM Option" and logo. They are also developed by the same developer, [ATM Warrant](https://play.google.com/store/apps/developer?id=ATM+Warrant).
 
-This specific app, however has a different appID and has more downloads. This one has an appID of com.gaifang.ATMOptionTest with 50,000 downloads. The other similar app has an appID of com.gaifang.ATM with only 1000 downloads. Both have been updated recently, August 30, 2021 and August 29, 2021, respectively. 
+This specific app however has more downloads. 50,000 vs. 1000 for the other. Both have been updated recently, August 30, 2021 and August 29, 2021, respectively.
 
 They also have different domains when you click on the 'visit website' link on Google Play. The first one leads to an inaccessible website called atmwarrant.com, while the other leads to atmoption.in. 
 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: trendofx
 title: "Analise Forex & Stock"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: ios.m3.Trendo.jpg
 bugbounty: 
 verdict: wip
-date: 2021-09-13
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

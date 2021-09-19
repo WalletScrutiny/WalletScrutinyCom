@@ -27,11 +27,6 @@ reviewArchive:
   appHash: 
   gitRevision: a9ddd343442f032ffecc0fd75774198ca8fc2501
   verdict: nosource
-- date: 2021-08-24
-  version: "undefined"
-  appHash: 
-  gitRevision: f83ed45982694f626b4eee41e57385171ab9b185
-  verdict: wip
 
 providerTwitter: getMaiar
 providerLinkedIn: getmaiar

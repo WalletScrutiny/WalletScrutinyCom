@@ -4,7 +4,7 @@ title: "Invest Bitcoin Mining"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.cryptotrillionaires.invest.bitcoin.mining
 released: 2021-07-17
 updated: 2021-07-17

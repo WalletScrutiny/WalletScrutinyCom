@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.probit.app.android2.release.korea
 released: 2019-06-19
-updated: 2021-09-02
-version: "1.35"
+updated: 2021-09-17
+version: "1.35.1.1"
 stars: 4.2
 ratings: 347
 reviews: 168
@@ -19,7 +19,7 @@ issue:
 icon: com.probit.app.android2.release.korea.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This app appears to be a Korean crypto exchange:
 
 > Launching the app provides a comprehensive view of essential categories and metrics such as trading pairs, volume, price, and 24HR volume. This allows quick access to all necessary information for investors regarding token activities on the go for ultimate convenience and comfort.

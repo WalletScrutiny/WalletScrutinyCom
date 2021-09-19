@@ -4,7 +4,7 @@ title: "Bitcoin Suisse – Buy & Sell Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.bitcoinsuisse.online
 released: 
 updated: 2021-08-04

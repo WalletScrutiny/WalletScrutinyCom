@@ -1,6 +1,6 @@
 ---
 wsId: SpotWalletapp
-title: "Spot Wallet - Buy Bitcoin BTC"
+title: "Spot - Bitcoin & NFT wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2021-09-09
-version: "3.5.3"
-stars: 4.61646
-reviews: 4594
-size: 119571456
+updated: 2021-09-17
+version: "3.6.1"
+stars: 4.61679
+reviews: 4606
+size: 120453120
 website: https://spot-bitcoin.com
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appId: co.realt.bridge
 released: 2021-03-18
 updated: 2021-05-06
 version: "1.13"
-stars: 3.6
-ratings: 9
-reviews: 3
+stars: 3.3
+ratings: 10
+reviews: 4
 size: 76M
 website: 
 repository: 

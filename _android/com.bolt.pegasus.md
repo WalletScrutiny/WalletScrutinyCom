@@ -9,8 +9,8 @@ appId: com.bolt.pegasus
 released: 2019-08-26
 updated: 2021-07-14
 version: "1.19.6"
-stars: 4.6
-ratings: 358
+stars: 4.5
+ratings: 359
 reviews: 293
 size: 39M
 website: https://bolt.global/

@@ -4,7 +4,7 @@ title: "Buy Sell Trade Crypto"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: buy.sell.trade.crypto1
 released: 2021-06-16
 updated: 2021-06-17

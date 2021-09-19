@@ -3,15 +3,15 @@ wsId:
 title: "BTC Server Miner"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: ps.btcserverminer.app
 released: 2021-07-16
 updated: 2021-08-29
 version: "1.0"
-stars: 4.2
-ratings: 3263
-reviews: 1662
+stars: 4.1
+ratings: 3408
+reviews: 1744
 size: 21M
 website: http://btcminer.tilda.ws/btcserverminer
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: ps.btcserverminer.app.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Its website does not yield a lot of information.
 
 From its Google Play description:

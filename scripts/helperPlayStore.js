@@ -80,6 +80,7 @@ function refreshFile(fileName) {
       })
     }, (err) => {
       if (`${err}`.search(/404/) > -1) {
+        helper.addDefunctIfNew(`_android/${appId}`)
         console.error(`\n_android/${appId}.md not available (${header.verdict}, ${header.users})`)
       } else {
         console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
@@ -114,7 +115,11 @@ function writeResult(app, header, iconExtension, body) {
   } else {
     verdict = header.verdict
   }
-  const reviewArchive = header.reviewArchive || []
+  const reviewArchive = (header.reviewArchive || [])
+      .filter(it => {
+        // wip archval is not very helpful as it only means that we realized we had to re-evaluate. It's a pseudo verdict.
+        return it.verdict != "wip" && it.verdict != undefined
+      })
   const redirects = new Set(header.redirect_from)
   if (header.stars != "0.0"
       && app.scoreText == "0.0"

@@ -3,7 +3,7 @@ wsId: digitalexchangeid
 title: "digitalexchange.id -  Buy & Sell Crypto Assets"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.dex.digitalexchangeid
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: com.dex.digitalexchangeid.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play app summary:
 
 >digitalexchange.id is a trading platform for crypto assets in Indonesia. Users can trade crypto assets such as Bitcoin, Ethereum and other crypto assets safely and conveniently. digitalexchange.id is legal and officially registered with CoFTRA with number 008/BAPPEBTI/CP-AK/2020, PSE Kominfo with number 00286.01/DJAI.PSE/03/2021, and has been certified ISO 270001: ISMS1001099. digitalexchange.id is registered with the Indonesian Blockchain Association (ABI), the Indonesian Crypto Asset Traders Association (ASPRAKINDO) and appointed as the ICDX Crypto Asset Exchange Committee.

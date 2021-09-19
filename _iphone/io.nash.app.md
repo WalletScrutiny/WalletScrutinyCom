@@ -8,11 +8,11 @@ appId: io.nash.app
 appCountry: 
 idd: 1475759236
 released: 2019-09-06
-updated: 2021-08-17
-version: "2.88"
+updated: 2021-09-16
+version: "7.13.0"
 stars: 4.64151
 reviews: 106
-size: 86514688
+size: 86412288
 website: https://nash.io
 repository: 
 issue: 

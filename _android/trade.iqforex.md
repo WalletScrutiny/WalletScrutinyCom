@@ -10,8 +10,8 @@ released: 2019-09-09
 updated: 2019-11-26
 version: "1.3.0"
 stars: 3.7
-ratings: 230
-reviews: 111
+ratings: 231
+reviews: 112
 size: 8.0M
 website: 
 repository: 
@@ -22,11 +22,7 @@ verdict: stale
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-08-01
-  version: "1.3.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+
 
 providerTwitter: 
 providerLinkedIn: 

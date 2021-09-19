@@ -10,23 +10,23 @@ released: 2019-09-28
 updated: 2019-09-28
 version: "v5.0"
 stars: 3.9
-ratings: 71
-reviews: 35
+ratings: 72
+reviews: 36
 size: 6.0M
 website: 
 repository: 
 issue: 
 icon: ecurrency.exchange.plus.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-17
 signer: 
 reviewArchive:
-- date: 2021-08-01
+- date: 2021-08-17
   version: "v5.0"
   appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+  gitRevision: ee372e98b40352c14b40edd14db33b266749cf23
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 

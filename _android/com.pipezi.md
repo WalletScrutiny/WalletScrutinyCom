@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: com.pipezi
 released: 2021-03-05
-updated: 2021-08-09
-version: "2.5.2"
+updated: 2021-09-17
+version: "2.5.3"
 stars: 5.0
 ratings: 7
 reviews: 2
-size: 51M
+size: 52M
 website: 
 repository: 
 issue: 

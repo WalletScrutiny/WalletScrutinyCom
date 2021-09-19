@@ -4,21 +4,21 @@ title: "Buy & Sell Bitcoin - Koinwa"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.koinwatech.koinwa
 released: 2021-08-08
 updated: 2021-09-09
 version: "2.0.3"
 stars: 4.7
-ratings: 85
-reviews: 65
+ratings: 86
+reviews: 64
 size: 52M
 website: 
 repository: 
 issue: 
 icon: com.koinwatech.koinwa.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:

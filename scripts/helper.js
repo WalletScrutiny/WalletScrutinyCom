@@ -29,6 +29,9 @@ function downloadImageFile(url, path, callback) {
         })
       })()
     })
+    response.on('error', err => {
+      console.error(err)
+    })
   })
   request.on('error', err => {
     console.error(err)
@@ -36,6 +39,10 @@ function downloadImageFile(url, path, callback) {
 }
 
 function addReviewArchive(reviewArchive, header) {
+  // don't archive undefined or pseudo verdicts
+  if (header.verdict == undefined || header.verdict == "wip") {
+    return
+  }
   reviewArchive.unshift({
     date: header.date,
     version: header.version,
@@ -49,7 +56,18 @@ function getMasterHead() {
   return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
 }
 
+function addDefunctIfNew(id) {
+  const line = `- ${id}\n`
+  const defunctFile = '_pages/defunct.yaml'
+  const defuncts = fs.readFileSync(defunctFile, 'utf8')
+  if (!defuncts.match(line)) {
+    // newly defunct
+    fs.appendFileSync(defunctFile, line)
+  }
+}
+
 module.exports = {
   addReviewArchive,
-  downloadImageFile
+  downloadImageFile,
+  addDefunctIfNew
 }

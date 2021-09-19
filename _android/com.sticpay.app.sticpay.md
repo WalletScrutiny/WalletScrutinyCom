@@ -9,9 +9,9 @@ appId: com.sticpay.app.sticpay
 released: 2017-08-31
 updated: 2021-08-06
 version: "3.45"
-stars: 3.2
-ratings: 283
-reviews: 182
+stars: 3.4
+ratings: 287
+reviews: 185
 size: 6.4M
 website: https://www.sticpay.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.sticpay.app.sticpay.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 In the Google Play description, STICPAY does claim to be a digital wallet.
 
 > Transfer and receive money faster and easier with STICPAY, the international digital wallet. <br>

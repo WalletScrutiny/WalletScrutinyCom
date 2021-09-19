@@ -9,9 +9,9 @@ appId: com.cryptology.android
 released: 2018-03-23
 updated: 2021-09-08
 version: "2.7.0"
-stars: 3.8
-ratings: 160
-reviews: 81
+stars: 3.9
+ratings: 168
+reviews: 89
 size: 13M
 website: 
 repository: 

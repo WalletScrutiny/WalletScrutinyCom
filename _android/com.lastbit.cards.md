@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.lastbit.cards.png
 bugbounty: 
-verdict: fewusers
-date: 2021-06-08
+verdict: defunct
+date: 2021-09-18
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-09**: This app is not on Google Play anymore.

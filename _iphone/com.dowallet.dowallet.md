@@ -8,11 +8,11 @@ appId: com.dowallet.dowallet
 appCountry: 
 idd: 1451010841
 released: 2019-02-03
-updated: 2021-04-21
-version: "1.1.36"
+updated: 2021-09-16
+version: "1.1.37"
 stars: 4.79911
 reviews: 224
-size: 27224064
+size: 27894784
 website: https://www.dowallet.app
 repository: 
 issue: 

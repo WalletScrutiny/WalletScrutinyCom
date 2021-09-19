@@ -9,9 +9,9 @@ appId: africa.buycoins.buycoinsx.pro
 released: 2021-04-16
 updated: 2021-07-15
 version: "1.1.16"
-stars: 4.0
-ratings: 50
-reviews: 36
+stars: 4.1
+ratings: 52
+reviews: 37
 size: 34M
 website: 
 repository: 

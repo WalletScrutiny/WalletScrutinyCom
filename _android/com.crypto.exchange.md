@@ -3,15 +3,15 @@ wsId: cryptocom
 title: "Crypto.com Exchange"
 altTitle: 
 authors:
- - danny
-users: 50000
+- danny
+users: 100000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-09-09
-version: "1.3.0"
-stars: 4.1
-ratings: 634
-reviews: 288
+updated: 2021-09-16
+version: "1.3.1"
+stars: 3.9
+ratings: 681
+reviews: 303
 size: 64M
 website: https://crypto.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: Crypto_com
 redirect_from:
 
 ---
+
+
 **EDIT 2021-09-14**
 This exchange app (com.crypto.exchange) is featured on the official site.
 

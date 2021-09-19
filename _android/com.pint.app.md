@@ -3,7 +3,7 @@ wsId:
 title: "PINT Wallet & P2P Marketplace for Bitcoin Ethereum"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.pint.app
 released: 2018-04-25
@@ -19,7 +19,7 @@ issue:
 icon: com.pint.app.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its app description:
 
 > Store, Send, Receive, Swap, Buy and Sell our Crypto Assets<br>

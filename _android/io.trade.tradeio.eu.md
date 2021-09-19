@@ -27,11 +27,6 @@ reviewArchive:
   appHash: 
   gitRevision: 965b5cf78e9ef2a2b7089cd4e493c1f6326e1dbb
   verdict: stale
-- date: 2021-08-08
-  version: "1.0.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 

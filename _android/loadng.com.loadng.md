@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: loadng.com.loadng
 released: 2020-05-02
-updated: 2021-09-08
-version: "2.1.0"
+updated: 2021-09-18
+version: "2.2.0"
 stars: 4.3
-ratings: 178
-reviews: 128
+ratings: 182
+reviews: 131
 size: 13M
 website: 
 repository: 

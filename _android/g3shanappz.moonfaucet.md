@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: g3shanappz.moonfaucet.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: defunct
+date: 2021-09-16
 signer: 
 reviewArchive:
-- date: 2021-08-08
+- date: 2021-08-17
   version: "9.8"
   appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+  gitRevision: 426b03e10033c114da5f157279a73c4d07399626
+  verdict: stale
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -38,3 +39,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-08**: This app is not available anymore.

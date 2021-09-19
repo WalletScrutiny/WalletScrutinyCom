@@ -4,7 +4,7 @@ title: "Melis Lite"
 altTitle: 
 authors:
 - leo
-users: 10
+users: 50
 appId: io.melis.walletlite
 released: 2019-06-03
 updated: 2019-06-03

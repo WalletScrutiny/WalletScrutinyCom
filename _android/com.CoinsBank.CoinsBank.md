@@ -1,5 +1,5 @@
 ---
-wsId: CoinsBank
+wsId: 
 title: "CoinsBank Mobile Wallet"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **2021-09-13:** We downloaded the app, but attempting to register a new account resulted in a "service is unavailable" error.
 
 The self-description describes this product as "the official CoinsBank Mobile Wallet Application." It claims that its application features are password protected and that it includes a licensed cryptocurrency trading platform that is

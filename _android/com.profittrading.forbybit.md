@@ -10,7 +10,7 @@ released: 2020-03-22
 updated: 2020-07-24
 version: "2.0.0"
 stars: 3.7
-ratings: 26
+ratings: 27
 reviews: 11
 size: 19M
 website: https://profittradingapp.com/
@@ -22,11 +22,7 @@ verdict: stale
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-08-01
-  version: "2.0.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
+
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 

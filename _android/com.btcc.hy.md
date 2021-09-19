@@ -3,15 +3,15 @@ wsId: btcc
 title: "BTCC - Trade Bitcoin & Crypto Futures"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.btcc.hy
 released: 2020-08-04
 updated: 2021-09-03
 version: "5.5.1"
-stars: 4.4
-ratings: 200
-reviews: 69
+stars: 5.0
+ratings: 2773
+reviews: 73
 size: 48M
 website: https://www.btcc.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.btcc.hy.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: YourBTCC
 redirect_from:
 
 ---
+
+
 In its Google Play description:
 
 >The BTCC app allows you to register, deposit and trade within 30 seconds. It further allows you to enjoy trading cryptocurrency futures anytime, anywhere.

@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.freeda.freedaapp
 released: 2021-04-13
-updated: 2021-05-14
-version: "1.2.0"
+updated: 2021-09-16
+version: "1.6.11"
 stars: 5.0
-ratings: 46
-reviews: 31
-size: 24M
+ratings: 48
+reviews: 33
+size: 25M
 website: 
 repository: 
 issue: 

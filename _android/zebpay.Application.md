@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zebpay Bitcoin and Cryptocurrency Exchange"
+title: "ZebPay Bitcoin and Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2014-12-23
 updated: 2021-08-27
 version: "3.15.02"
 stars: 3.5
-ratings: 85820
-reviews: 41869
+ratings: 86059
+reviews: 41973
 size: 11M
 website: https://www.zebpay.com
 repository: 

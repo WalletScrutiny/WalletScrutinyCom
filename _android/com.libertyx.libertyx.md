@@ -3,15 +3,15 @@ wsId: libertyx
 title: "Buy Bitcoin Instantly"
 altTitle: 
 authors:
- - danny
+- danny
 users: 50000
 appId: com.libertyx.libertyx
 released: 
 updated: 2021-07-28
 version: "4.1.2"
-stars: 3.5
-ratings: 397
-reviews: 247
+stars: 3.4
+ratings: 398
+reviews: 248
 size: 27M
 website: https://libertyx.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.libertyx.libertyx.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > LibertyX: Buy bitcoin instantly from trusted stores near you<br>

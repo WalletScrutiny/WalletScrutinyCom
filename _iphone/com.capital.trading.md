@@ -8,10 +8,10 @@ appId: com.capital.trading
 appCountry: 
 idd: 1230088754
 released: 2019-12-10
-updated: 2021-09-10
-version: "1.32.3"
-stars: 4.74486
-reviews: 1850
+updated: 2021-09-18
+version: "1.32.5"
+stars: 4.74266
+reviews: 1873
 size: 87215104
 website: 
 repository: 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: 100xaltbase
 title: "100xAltbase"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: com.xaltbase.app.jpg
 bugbounty: 
 verdict: wip
-date: 2021-09-13
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+ {% include copyFromAndroid.html %}

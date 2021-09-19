@@ -3,15 +3,15 @@ wsId: trendofx
 title: "Forex Broker , bitcoin , forex , stock - Trendo"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.m3.Trendo
 released: 2020-08-20
 updated: 2021-08-16
 version: "2.4.87"
 stars: 4.7
-ratings: 4489
-reviews: 2432
+ratings: 4652
+reviews: 2528
 size: 14M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.m3.Trendo.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play app summary:
 
 > 500 + trading assets: From exchange-traded funds and indices to commodities and shares of the world’s most popular companies. Trade Tesla, Netflix, Facebook, gold, silver, oil and more.

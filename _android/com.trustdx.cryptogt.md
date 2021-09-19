@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "C r y p t o G T : Trade cryptocurrency (cryptogt)"
-altTitle: 
+altTitle: "*Fake app!* C r y p t o G T : Trade cryptocurrency (cryptogt)"
 authors:
 
 users: 10
@@ -33,5 +33,12 @@ redirect_from:
 
 ---
 
+
+**Update 2021-09-17**: CryptoGT contacted us, asking to remove this app as there
+is no such app of theirs. We are very well aware that this app probably was not
+provided by them but was launched on Play Store by people preying on their good
+reputation. As our goal is to document the danger of blindly trusting apps, we
+keep this listing up and are happy to make even more clear that this app was not
+provided by who they pretended it was provided by.
 
 **Update 2021-09-01**: App is no more on Play Store.

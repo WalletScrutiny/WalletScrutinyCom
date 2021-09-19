@@ -18,16 +18,16 @@ repository:
 issue: 
 icon: com.cryptomkt.app.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: defunct
+date: 2021-09-19
 signer: 
 reviewArchive:
-- date: 2021-08-08
+- date: 2021-08-17
   version: "3.2.1"
   appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: wip
-
+  gitRevision: 44349336ff99dc0f303d6e8cf752be5bb05d3447
+  verdict: stale
+  
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -38,3 +38,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-11**: This app is not on the Play Store anymore.

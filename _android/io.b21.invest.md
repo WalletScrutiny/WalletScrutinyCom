@@ -1,5 +1,5 @@
 ---
-wsId: B21Crypto 
+wsId: B21Crypto
 title: "B21 Crypto: Invest | Earn | Spend"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2020-02-24
 updated: 2021-07-21
 version: "0.7.5"
 stars: 3.0
-ratings: 529
-reviews: 378
+ratings: 531
+reviews: 379
 size: 39M
 website: https://www.b21.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.b21.invest.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-01
+date: 2021-09-17
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: B21Invest
 redirect_from:
 
 ---
+
+
 B21's self-description claims that it is an app for investing, earning, and spending crypto:
 
 > B21 Crypto simplifies the entire onboarding and investment process by empowering users to create their own customised portfolio of cryptos without going through multiple “Know Your Customer” (KYC) and wallet set-up hurdles.

@@ -4,7 +4,7 @@ title: "CryptoWallet | Exchange & Card"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.cryptowallet.cryptowalletmobile.prod
 released: 2021-03-19
 updated: 2021-09-09
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptowallet.cryptowalletmobile.prod.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

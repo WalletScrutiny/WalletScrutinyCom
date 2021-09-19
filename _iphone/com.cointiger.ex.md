@@ -22,11 +22,7 @@ verdict: stale
 date: 2021-08-27
 signer: 
 reviewArchive:
-- date: 2021-08-23
-  version: "undefined"
-  appHash: 
-  gitRevision: 7067e182d83c4b56111e3a0ce933f2421099a5ca
-  verdict: wip
+
 
 providerTwitter: CoinTigerEX
 providerLinkedIn: 

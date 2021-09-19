@@ -1,17 +1,17 @@
 ---
 wsId: strike
-title: "Strike: Bitcoin & Lightning Payments"
+title: "Strike: Bitcoin & Payments"
 altTitle: 
 authors:
 
 users: 100000
 appId: zapsolutions.strike
 released: 
-updated: 2021-09-03
-version: "v89"
-stars: 4.1
-ratings: 3439
-reviews: 1357
+updated: 2021-09-16
+version: "v91"
+stars: 3.9
+ratings: 3549
+reviews: 1404
 size: 13M
 website: 
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: "Crypto.com Buy Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10
 appId: com.cryptojournal.crypto.com.buy.bitcoin
 released: 2021-07-07
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Warning:** It is advisable to proceed with caution when downloading this app. 
 
 There are a few notable red flags when apprising this app.
