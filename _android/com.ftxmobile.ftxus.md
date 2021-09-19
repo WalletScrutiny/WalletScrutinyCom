@@ -9,9 +9,9 @@ appId: com.ftxmobile.ftxus
 released: 2020-05-18
 updated: 2021-01-28
 version: "1.1.0"
-stars: 3.6
-ratings: 270
-reviews: 242
+stars: 3.5
+ratings: 272
+reviews: 244
 size: 46M
 website: 
 repository: 

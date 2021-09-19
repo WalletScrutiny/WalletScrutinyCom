@@ -4,7 +4,7 @@ title: "Coini — Bitcoin / Cryptocurrencies"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: partl.coini
 released: 2018-02-04
 updated: 2021-08-17

@@ -10,8 +10,8 @@ idd: 1505741102
 released: 2020-04-20
 updated: 2021-09-16
 version: "2.6.8"
-stars: 4.88314
-reviews: 3911
+stars: 4.88486
+reviews: 3917
 size: 64416768
 website: https://sigen.pro/
 repository: 

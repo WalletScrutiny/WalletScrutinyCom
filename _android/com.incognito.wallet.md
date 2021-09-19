@@ -10,8 +10,8 @@ released: 2019-08-12
 updated: 2021-08-21
 version: "4.8.0"
 stars: 4.0
-ratings: 298
-reviews: 169
+ratings: 299
+reviews: 170
 size: 47M
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet

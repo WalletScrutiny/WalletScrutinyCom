@@ -9,9 +9,9 @@ appId: com.app.treenwallet
 released: 2021-07-01
 updated: 2021-08-09
 version: "1.1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 8
+reviews: 4
 size: 17M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.didi.message
 released: 2020-04-30
-updated: 2021-08-30
-version: "1.9.1"
-stars: 3.6
-ratings: 787
-reviews: 314
-size: 79M
+updated: 2021-09-18
+version: "1.10.1"
+stars: 3.8
+ratings: 822
+reviews: 328
+size: 91M
 website: https://didimessage.com/
 repository: 
 issue: 

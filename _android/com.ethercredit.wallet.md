@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.ethercredit.wallet.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: stale
+date: 2021-09-19
 signer: 
 reviewArchive:
-
+- date: 2021-08-21
+  version: "1.0"
+  appHash: 
+  gitRevision: 63ab8f294b0ddf09d2555525f09e7a83c141130a
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

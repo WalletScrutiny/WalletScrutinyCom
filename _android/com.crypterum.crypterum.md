@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.crypterum.crypterum.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: stale
+date: 2021-09-19
 signer: 
 reviewArchive:
 

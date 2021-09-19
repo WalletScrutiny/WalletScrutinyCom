@@ -10,7 +10,7 @@ released: 2020-06-11
 updated: 2021-09-16
 version: "1.4.12"
 stars: 3.9
-ratings: 1922
+ratings: 1925
 reviews: 790
 size: 28M
 website: https://www.coinzoom.com

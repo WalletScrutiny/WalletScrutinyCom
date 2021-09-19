@@ -9,8 +9,8 @@ appId: com.adenter.mercurycash
 released: 2017-07-28
 updated: 2021-07-28
 version: "4.3.2"
-stars: 3.8
-ratings: 219
+stars: 3.7
+ratings: 220
 reviews: 148
 size: 80M
 website: http://mercury.cash

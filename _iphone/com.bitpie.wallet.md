@@ -10,8 +10,8 @@ idd: 1481314229
 released: 2019-10-01
 updated: 2021-09-16
 version: "5.0.047"
-stars: 3.48276
-reviews: 29
+stars: 3.53333
+reviews: 30
 size: 323214336
 website: 
 repository: 

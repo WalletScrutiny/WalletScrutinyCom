@@ -9,8 +9,8 @@ appId: com.cabital.cabital
 released: 2021-06-07
 updated: 2021-09-16
 version: "1.1.1"
-stars: 4.9
-ratings: 13
+stars: 4.6
+ratings: 14
 reviews: 8
 size: 44M
 website: 

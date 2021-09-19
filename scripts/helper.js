@@ -29,6 +29,9 @@ function downloadImageFile(url, path, callback) {
         })
       })()
     })
+    response.on('error', err => {
+      console.error(err)
+    })
   })
   request.on('error', err => {
     console.error(err)

@@ -10,7 +10,7 @@ released: 2021-01-15
 updated: 2021-09-14
 version: "1.3.60"
 stars: 4.6
-ratings: 3968
+ratings: 3970
 reviews: 1745
 size: 67M
 website: https://maiar.com/

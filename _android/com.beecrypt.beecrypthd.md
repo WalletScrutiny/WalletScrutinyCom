@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.beecrypt.beecrypthd
 released: 2020-05-27
-updated: 2021-09-15
-version: "3.7"
+updated: 2021-09-17
+version: "3.7.1"
 stars: 4.0
 ratings: 26
 reviews: 17

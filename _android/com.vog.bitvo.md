@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.vog.bitvo
 released: 2020-03-16
-updated: 2021-07-23
-version: "1.4.2"
+updated: 2021-09-17
+version: "1.4.4"
 stars: 3.3
 ratings: 21
 reviews: 15

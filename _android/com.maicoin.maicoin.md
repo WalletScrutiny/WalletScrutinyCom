@@ -10,8 +10,8 @@ released: 2018-12-19
 updated: 2021-07-05
 version: "3.5.1"
 stars: 3.6
-ratings: 447
-reviews: 164
+ratings: 448
+reviews: 165
 size: 52M
 website: https://max.maicoin.com
 repository: 
