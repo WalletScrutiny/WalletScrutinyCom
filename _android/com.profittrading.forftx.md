@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.profittrading.forftx.png
 bugbounty: 
-verdict: fewusers
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
