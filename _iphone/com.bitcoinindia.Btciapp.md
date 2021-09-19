@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.bitcoinindia.Btciapp.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-05-31
+verdict: defunct
+date: 2021-09-19
 signer: 
 reviewArchive:
-
+- date: 2021-05-31
+  version: "3.1.45"
+  appHash: 
+  gitRevision: 44349336ff99dc0f303d6e8cf752be5bb05d3447
+  verdict: custodial
 
 providerTwitter: BTC_india
 providerLinkedIn: bitcoin-india
@@ -32,6 +36,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-09-11**: This app is not on the App Store anymore.
 
 In the description we read:
 
