@@ -1,6 +1,6 @@
 ---
 wsId: strike
-title: "Strike: Send and Spend Bitcoin"
+title: "Strike: Bitcoin & Payments"
 altTitle: 
 authors:
 
@@ -8,11 +8,11 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2021-09-13
-version: "29.0"
-stars: 4.81348
-reviews: 2048
-size: 24986624
+updated: 2021-09-19
+version: "31.0"
+stars: 4.81339
+reviews: 2074
+size: 30918656
 website: https://beta.strike.me/
 repository: 
 issue: 

@@ -10,8 +10,8 @@ released: 2018-11-09
 updated: 2021-08-30
 version: "5.1.3"
 stars: 4.2
-ratings: 25
-reviews: 9
+ratings: 26
+reviews: 10
 size: 18M
 website: https://elegro.eu
 repository: 

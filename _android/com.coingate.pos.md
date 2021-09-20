@@ -10,7 +10,7 @@ released: 2015-02-19
 updated: 2016-08-18
 version: "2.0.0"
 stars: 3.7
-ratings: 23
+ratings: 24
 reviews: 9
 size: 8.1M
 website: https://coingate.com/

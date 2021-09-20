@@ -10,7 +10,7 @@ released: 2018-10-08
 updated: 2021-06-17
 version: "1.4.4"
 stars: 3.0
-ratings: 588
+ratings: 587
 reviews: 458
 size: 6.6M
 website: https://rootone.com/

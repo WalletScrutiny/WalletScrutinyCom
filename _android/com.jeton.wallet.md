@@ -10,8 +10,8 @@ released: 2018-12-27
 updated: 2021-09-09
 version: "3.2.9"
 stars: 3.3
-ratings: 2484
-reviews: 1460
+ratings: 2487
+reviews: 1463
 size: 75M
 website: https://jeton.com/
 repository: 

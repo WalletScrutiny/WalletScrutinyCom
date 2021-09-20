@@ -4,7 +4,7 @@ title: "geewallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.geewallet.android
 released: 2019-09-23
 updated: 2021-03-17

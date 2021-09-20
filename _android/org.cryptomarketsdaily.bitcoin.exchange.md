@@ -4,7 +4,7 @@ title: "Bitcoin Exchange"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: org.cryptomarketsdaily.bitcoin.exchange
 released: 2021-06-17
 updated: 2021-06-17

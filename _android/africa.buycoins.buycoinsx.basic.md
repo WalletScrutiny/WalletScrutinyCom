@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: africa.buycoins.buycoinsx.basic
 released: 2021-04-16
-updated: 2021-07-15
-version: "1.1.16"
+updated: 2021-09-20
+version: "1.1.17"
 stars: 4.0
-ratings: 143
-reviews: 92
+ratings: 144
+reviews: 93
 size: 34M
 website: 
 repository: 

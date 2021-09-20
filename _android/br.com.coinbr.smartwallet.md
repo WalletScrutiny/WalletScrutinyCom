@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: br.com.coinbr.smartwallet
 released: 2017-11-03
-updated: 2021-09-07
-version: "2.0.20"
+updated: 2021-09-20
+version: "2.0.23"
 stars: 2.9
 ratings: 283
 reviews: 216

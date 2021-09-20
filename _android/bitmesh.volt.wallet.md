@@ -4,21 +4,21 @@ title: "Volt:Bitcoin,ETH&BSV Crypto Wallet,Multisig Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: bitmesh.volt.wallet
 released: 2020-05-15
 updated: 2021-09-18
 version: "2.1.2"
 stars: 4.7
-ratings: 83
-reviews: 40
+ratings: 86
+reviews: 42
 size: 23M
 website: 
 repository: 
 issue: 
 icon: bitmesh.volt.wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:

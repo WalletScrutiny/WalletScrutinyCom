@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.yuppex.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-01
+verdict: stale
+date: 2021-09-20
 signer: 
 reviewArchive:
-
+- date: 2021-08-01
+  version: "1.2"
+  appHash: 
+  gitRevision: 34b7cb536e3158c5ab0c149ba4aaa7cc275f930e
+  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 

@@ -9,8 +9,8 @@ appId: bg.xchange
 released: 2020-12-22
 updated: 2021-09-16
 version: "1.8.5"
-stars: 4.6
-ratings: 163
+stars: 4.7
+ratings: 164
 reviews: 43
 size: 19M
 website: 

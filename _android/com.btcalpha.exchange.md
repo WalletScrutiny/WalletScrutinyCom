@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.btcalpha.exchange
 released: 2021-07-23
-updated: 2021-08-27
-version: "1.5.2"
+updated: 2021-09-20
+version: "1.6.0"
 stars: 4.0
 ratings: 12
 reviews: 7

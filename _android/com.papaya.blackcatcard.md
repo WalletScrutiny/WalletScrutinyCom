@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.papaya.blackcatcard
 released: 2019-06-03
-updated: 2021-09-16
-version: "1.2.23"
+updated: 2021-09-20
+version: "1.2.25"
 stars: 2.9
-ratings: 3161
-reviews: 2101
+ratings: 3168
+reviews: 2105
 size: 70M
 website: https://blackcatcard.com
 repository: 

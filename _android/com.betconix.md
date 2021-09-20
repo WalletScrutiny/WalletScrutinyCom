@@ -4,21 +4,21 @@ title: "Betconix: Cryptocurrency Exchange & Crypto Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.betconix
 released: 2021-07-01
 updated: 2021-07-30
 version: "5.1"
 stars: 3.8
-ratings: 28
-reviews: 23
+ratings: 29
+reviews: 24
 size: 12M
 website: 
 repository: 
 issue: 
 icon: com.betconix.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: neo.org.freewallet.app
 released: 2017-11-29
-updated: 2021-09-06
-version: "2.6.7"
+updated: 2021-09-20
+version: "2.6.8"
 stars: 4.0
 ratings: 264
 reviews: 202
-size: 7.4M
+size: 8.5M
 website: https://freewallet.org/
 repository: 
 issue: 
