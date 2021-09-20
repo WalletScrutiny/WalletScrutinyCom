@@ -40,7 +40,7 @@ function downloadImageFile(url, path, callback) {
 
 function addReviewArchive(reviewArchive, header) {
   // don't archive undefined or pseudo verdicts
-  if (header.verdict == undefined || header.verdict == "wip") {
+  if (header.verdict == undefined || header.verdict == "wip" || header.verdict == "fewusers") {
     return
   }
   reviewArchive.unshift({
