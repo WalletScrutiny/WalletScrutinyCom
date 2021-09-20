@@ -47,7 +47,5 @@ The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=647088
 
 each of which act as an interface to the respectively mentioned exchange.
 
-*Note:* This app was reviewed along with 11 other Profit Trading apps, it was marked as 'few users' due to this specific app's amount of downloads. Otherwise, the verdict below applies.
-
 While the provider doesn't custody your coins, neither do you. This app can trade on your behalf via its bots and you can also withdraw and deposit. This means you can use it as a wallet but not only are your coins in custody of the respective exchange, this app probably can also empty all the accounts of all its users at once which is why we consider it itself custodial and thus **not verifiable**. 
 
