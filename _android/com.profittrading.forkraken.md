@@ -19,7 +19,7 @@ issue:
 icon: com.profittrading.forkraken.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-09-20
 signer: 
 reviewArchive:
 

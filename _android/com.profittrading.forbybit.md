@@ -19,7 +19,7 @@ issue:
 icon: com.profittrading.forbybit.png
 bugbounty: 
 verdict: stale
-date: 2021-08-17
+date: 2021-09-20
 signer: 
 reviewArchive:
 

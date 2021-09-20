@@ -19,7 +19,7 @@ issue:
 icon: com.profittrading.forbittrex.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-17
+date: 2021-09-20
 signer: 
 reviewArchive:
 
