@@ -9,9 +9,9 @@ appId: app.mybitstore.com
 released: 2021-08-12
 updated: 2021-09-15
 version: "3.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 5
+reviews: 4
 size: 57M
 website: 
 repository: 

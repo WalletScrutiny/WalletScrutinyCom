@@ -10,8 +10,8 @@ released: 2018-01-28
 updated: 2021-08-10
 version: "2.9.2"
 stars: 3.3
-ratings: 6543
-reviews: 2761
+ratings: 6545
+reviews: 2762
 size: 27M
 website: https://coinone.co.kr/
 repository: 

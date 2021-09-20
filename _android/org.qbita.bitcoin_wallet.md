@@ -4,7 +4,7 @@ title: "QBita - Mercado de Bitcoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: org.qbita.bitcoin_wallet
 released: 2019-08-28
 updated: 2019-08-28

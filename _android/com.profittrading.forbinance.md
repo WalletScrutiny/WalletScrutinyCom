@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.profittrading.forbinance
 released: 2018-01-09
-updated: 2021-09-13
+updated: 2021-09-19
 version: "10.6.5"
 stars: 4.4
-ratings: 1477
+ratings: 1481
 reviews: 670
 size: 23M
 website: https://profittradingapp.com/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 
 * {% include walletLink.html wallet='android/com.profittrading.forkucoin' verdict='true' %}

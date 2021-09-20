@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 
 * {% include walletLink.html wallet='android/com.profittrading.forbinance' verdict='true' %}

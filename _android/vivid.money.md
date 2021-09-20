@@ -10,8 +10,8 @@ released: 2020-10-09
 updated: 2021-09-16
 version: "1.58.1"
 stars: 4.2
-ratings: 14992
-reviews: 4096
+ratings: 15007
+reviews: 4099
 size: 135M
 website: https://vivid.money/
 repository: 

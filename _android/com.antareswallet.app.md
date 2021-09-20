@@ -9,8 +9,8 @@ appId: com.antareswallet.app
 released: 2021-03-18
 updated: 2021-03-22
 version: "0.9.5+205"
-stars: 3.7
-ratings: 47
+stars: 3.8
+ratings: 48
 reviews: 31
 size: 55M
 website: 

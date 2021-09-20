@@ -10,7 +10,7 @@ released: 2015-01-01
 updated: 2021-09-08
 version: "3.7.0"
 stars: 3.9
-ratings: 833
+ratings: 834
 reviews: 459
 size: 79M
 website: https://blockstream.com/green

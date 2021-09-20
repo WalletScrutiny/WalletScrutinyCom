@@ -9,9 +9,9 @@ appId: com.cryptowallet.deviantx
 released: 2018-11-12
 updated: 2019-08-01
 version: "2.6"
-stars: 3.6
-ratings: 29
-reviews: 15
+stars: 3.5
+ratings: 30
+reviews: 16
 size: 11M
 website: 
 repository: 
