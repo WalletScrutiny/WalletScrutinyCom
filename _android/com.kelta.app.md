@@ -32,6 +32,9 @@ providerReddit:
 redirect_from:
 
 ---
+### Caution
+_We strongly advise users to exercise caution when using this app. See below._
+
 It is apparent that English is not the primary language of the writer of their Google Play description, so we will try our best to paraphrase it. 
 
 Kelta claims to be a wallet that supports multiple cryptocurrencies including BTC, ETH, DOGE, BCH, LTC and others. It also *claims* to allow users: 
