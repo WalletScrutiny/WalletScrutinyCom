@@ -38,7 +38,7 @@ From the description:
 
 NodaWallet appears to be a decentralized app, with the [user in charge of the keys](https://noda.gitbook.io/noda-project/noda-project-ecosystem-1/1.-nodawallet-cryptocurrency-wallet#1a79).
 
-We downloaded and installed the app. We also checked the Bitcoin wallet and the recovery phrases were provided after registration. Backups are also possible with 12 seed phrases.
+We downloaded and installed the app. We also checked the Bitcoin wallet and the recovery phrases were provided after registration. Backups are also possible with 12-word seed phrases.
 
 > **your private keys are encrypted on your device** and never leave it. Only you have access to your funds. NodaWallet is built on top of open source shared libraries. The Noda Wallet server infrastructure ensures that only you can access your electronic money / cryptocurrency.
 

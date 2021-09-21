@@ -34,10 +34,10 @@ redirect_from:
 ---
 Zeux is a UK-only payment app that combines fiat and cryptocurrencies. It also provides banking and investment onramps.
 
-- See your cash, crypto and bank balances in one place<br>
-- Pay, send and receive money instantly<br>
-- Pay at any store with Apple Pay and Samsung Pay<br>
-- Transfer money to your friends and family in just a few taps
+> - See your cash, crypto and bank balances in one place
+> - Pay, send and receive money instantly
+> - Pay at any store with Apple Pay and Samsung Pay
+> - Transfer money to your friends and family in just a few taps
 
 We downloaded the app, and tried registering a UK number but it gave out an error:
 
@@ -63,6 +63,6 @@ Apparently, [Zeux has run into some regulatory concerns](https://www.altfi.com/a
 >In January 2020 the fintech was ordered to remove ads promoting a 5 per cent interest rate for its “savings account alternative” after This is Money reported that the fintech was taking money deposited into savings accounts and converting it to cryptocurrency through its partner Tunaikita.<br>
 Tunaikita would then convert the cryptocurrency back into normal currency and lend it out to borrowers—keep in mind that Zeux, while regulated by the FCA, is not protected under the Financial Services Compensation Scheme (FSCS) so customer’s money was (and still is) at risk.
 
-This may explain why there are no longer accepting new registrations. 
+This may explain why they are no longer accepting new registrations. 
 
 Though this may be the case, other recent news accounts indicate that the company is still operating. This may mean that it has an existing customer base. We are constrained to label this app as defunct, but because it is still available in Google Play, it would be safe to assume that it is a **custodial** wallet and thus **not verifiable**. We will get in touch with their support and update as necessary. 

@@ -36,10 +36,10 @@ As this service is a private company maintained app with money laundering and ot
 
 Described in its Google Play app:
 
-> **With Monnos you can:**<br>
-- Buy and sell more than 60 cryptos effortlessly<br>
-- Copy the strategies of experienced traders, mirroring everything they do<br>
-- Get a card with up to 5% cashback to use your crypto in the daily basis<br>
+> **With Monnos you can:**
+- Buy and sell more than 60 cryptos effortlessly
+- Copy the strategies of experienced traders, mirroring everything they do
+- Get a card with up to 5% cashback to use your crypto in the daily basis
 - Purchase the MNS token
 
 Its Anti-Money Laundering and the Financing of Illicit and Terrorism Policy can be found [here](https://monnos.com/br/legal/#pld-ft)
