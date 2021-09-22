@@ -10,8 +10,8 @@ released: 2020-10-09
 updated: 2021-09-20
 version: "0.2.3.2"
 stars: 4.8
-ratings: 132
-reviews: 60
+ratings: 133
+reviews: 61
 size: 18M
 website: https://level01.io/
 repository: 

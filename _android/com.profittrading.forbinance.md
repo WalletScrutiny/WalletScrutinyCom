@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.profittrading.forbinance
 released: 2018-01-09
-updated: 2021-09-19
+updated: 2021-09-22
 version: "10.6.5"
 stars: 4.4
-ratings: 1482
+ratings: 1483
 reviews: 670
 size: 23M
 website: https://profittradingapp.com/

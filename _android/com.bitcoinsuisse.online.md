@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.bitcoinsuisse.online
 released: 
-updated: 2021-08-04
-version: "Varies with device"
-stars: 
+updated: 2021-09-21
+version: "0.10"
+stars: 0.0
 ratings: 
 reviews: 
-size: Varies with device
+size: 26M
 website: 
 repository: 
 issue: 

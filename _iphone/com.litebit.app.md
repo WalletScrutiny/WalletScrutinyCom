@@ -10,8 +10,8 @@ idd: 1448841440
 released: 2019-08-20
 updated: 2021-09-10
 version: "3.1.5"
-stars: 4
-reviews: 8
+stars: 3.85714
+reviews: 7
 size: 72672256
 website: https://www.litebit.eu/en/
 repository: 

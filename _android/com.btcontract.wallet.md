@@ -10,8 +10,8 @@ released: 2015-07-15
 updated: 2021-09-20
 version: "2.1.12"
 stars: 3.6
-ratings: 1012
-reviews: 542
+ratings: 1013
+reviews: 544
 size: 22M
 website: https://lightning-wallet.com
 repository: https://github.com/btcontract/wallet/

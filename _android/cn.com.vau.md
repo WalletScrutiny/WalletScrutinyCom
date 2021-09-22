@@ -11,7 +11,7 @@ updated: 2021-09-03
 version: "1.4.3"
 stars: 4.7
 ratings: 4181
-reviews: 764
+reviews: 765
 size: 35M
 website: https://www.vantagefx.com.au/
 repository: 

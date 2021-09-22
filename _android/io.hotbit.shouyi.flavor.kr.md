@@ -10,7 +10,7 @@ released: 2020-07-07
 updated: 2021-09-15
 version: "1.0.61"
 stars: 3.3
-ratings: 492
+ratings: 493
 reviews: 205
 size: 6.1M
 website: https://www.bitclover.io/

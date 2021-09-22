@@ -10,8 +10,8 @@ idd: 1476944844
 released: 2020-05-25
 updated: 2021-09-10
 version: "1.6.2"
-stars: 4.53786
-reviews: 515
+stars: 4.4778
+reviews: 473
 size: 46209024
 website: https://www.bitazza.com
 repository: 

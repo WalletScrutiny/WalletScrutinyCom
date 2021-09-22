@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.betconix
 released: 2021-07-01
-updated: 2021-07-30
-version: "5.1"
+updated: 2021-09-21
+version: "5.2"
 stars: 3.8
 ratings: 29
 reviews: 24

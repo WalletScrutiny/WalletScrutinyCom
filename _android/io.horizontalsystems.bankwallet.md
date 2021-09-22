@@ -10,7 +10,7 @@ released: 2018-12-18
 updated: 2021-08-25
 version: "0.22.1"
 stars: 4.0
-ratings: 450
+ratings: 452
 reviews: 361
 size: 46M
 website: https://unstoppable.money

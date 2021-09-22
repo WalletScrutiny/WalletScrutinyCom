@@ -9,8 +9,8 @@ appId: co.za.altcointrader
 released: 2020-05-06
 updated: 2019-12-05
 version: "1.0.1"
-stars: 3.7
-ratings: 521
+stars: 3.8
+ratings: 522
 reviews: 371
 size: 1.2M
 website: 

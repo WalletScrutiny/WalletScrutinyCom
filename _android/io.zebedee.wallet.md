@@ -10,8 +10,8 @@ released: 2020-10-20
 updated: 2021-08-31
 version: "11.0.0"
 stars: 4.3
-ratings: 45
-reviews: 27
+ratings: 46
+reviews: 28
 size: 117M
 website: https://zebedee.io
 repository: 

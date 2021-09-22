@@ -1,6 +1,6 @@
 ---
 wsId: TokenPocket
-title: "TokenPocket: Crypto & DeFi"
+title: "TokenPocket:Crypto&DeFi Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.tp.ios
 appCountry: 
 idd: 1436028697
 released: 2018-09-23
-updated: 2021-09-10
-version: "1.6.3"
-stars: 3.58273
-reviews: 139
-size: 115479552
+updated: 2021-09-21
+version: "1.6.4"
+stars: 3.59574
+reviews: 141
+size: 118486016
 website: 
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1

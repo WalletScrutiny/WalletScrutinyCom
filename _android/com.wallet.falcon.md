@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.wallet.falcon
 released: 2021-04-01
-updated: 2021-05-27
-version: "2.0.0"
+updated: 2021-09-21
+version: "3.0.0"
 stars: 3.1
 ratings: 10
 reviews: 6
