@@ -19,9 +19,14 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-08-16
+date: 2021-09-22
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-08-16
+  version: "3.11.0.4"
+  appHash: 81417faf98334de319827d92bf0dafec6b43cfca7b2936876bdfa68e66445026
+  gitRevision: 686ed96101658792fc253fb7e372c8d98a64034e
+  verdict: reproducible
 - date: 2021-07-09
   version: "3.10.0.3"
   appHash: 7532f6d0cef440cfc3a09d48d8ef099a96c093f9895ad21aa069aa60be43a06d
@@ -156,22 +161,22 @@ procedure expressed in our
 Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.11.0.4
-apkVersionCode: 3110004
+apkVersionName: 3.11.0.8
+apkVersionCode: 3110008
 verdict:        reproducible
-appHash:        81417faf98334de319827d92bf0dafec6b43cfca7b2936876bdfa68e66445026
-commit:         deb674d8a4641ab4b842a28104f6ab05a1c2d9e9
+appHash:        b9128a48550a3aeff64b1aa7ad48b8b9a53877aab16f1129f0357f0c5ad267ee
+commit:         71d867731852c04d8e9864a36effd3903aa3aafb
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3110004/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3110004/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3110008/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3110008/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object deb674d8a4641ab4b842a28104f6ab05a1c2d9e9
+object 71d867731852c04d8e9864a36effd3903aa3aafb
 type commit
-tag v3.11.0.4
-tagger itserg <sergey.dolgopolov@mycelium.com> 1628781624 +0300
+tag v3.11.0.8
+tagger itserg <sergey.dolgopolov@mycelium.com> 1631889747 +0300
 
-UI bugfixes and improvements
+UI issues' fixes
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
