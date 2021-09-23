@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
-verdict: custodial
+verdict: defunct
 date: 2021-09-01
 signer: 
 reviewArchive:
@@ -65,4 +65,8 @@ Tunaikita would then convert the cryptocurrency back into normal currency and le
 
 This may explain why they are no longer accepting new registrations. 
 
-Though this may be the case, other recent news accounts indicate that the company is still operating. This may mean that it has an existing customer base. We are constrained to label this app as defunct, but because it is still available in Google Play, it would be safe to assume that it is a **custodial** wallet and thus **not verifiable**. We will get in touch with their support and update as necessary. 
+Though this may be the case, other recent news accounts indicate that the company is still operating. This may mean that it has an existing customer base. 
+
+### Reach out and Verdict
+
+It's been 8 days since we emailed Zeux at support@zeux.com, but they still haven't replied. We also cannot find other social media, so it is more prudent to label this project as **defunct**
