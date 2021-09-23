@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Afriex
 title: "Afriex - Money transfer"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.afriex.afriex
 released: 2020-03-05
@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 687
 reviews: 503
 size: 55M
-website: 
+website: https://afriexapp.com/
 repository: 
 issue: 
 icon: com.afriex.afriex.png
@@ -24,13 +24,51 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: afriexapp
+providerLinkedIn: afriex
+providerFacebook: AfriexApp
 providerReddit: 
 
 redirect_from:
 
 ---
+### Google Play
+From Google Play's description:
 
+> AFRIEX App is the cheapest & easiest way to send money Abroad instantly. With the Best Exchange Rates, Zero Fees, and a FREE Multi-currency account Afriex is quickly becoming the future of money.
 
+It also says:
+
+> Buy, sell, deposit, and withdraw Bitcoin with the touch of a button. Owning cryptocurrency is safe and easy with the Afriex app.
+
+There is no mention of a private key or self-custody. 
+
+However it may use P2P trading, as seen in [their page about Crypto:](https://afriexapp.com/crypto)
+
+> Because the crypto market never sleeps, our peer to peer (p2p) processing time is 10x faster to help you keep up with the market. 
+
+### FAQ
+
+[From the FAQ:](https://afriexapp.com/faq)
+
+> Afriex is a money sending platform powered by Cryptocurrency, that allows you to make instant and affordable money transfers abroad or at home.
+
+From another FAQ section [at the homepage:](https://afriexapp.com/)
+
+> Afriex sells bitcoin in some countries but not all, this is based on the rules of each country.
+
+### Site
+
+Despite claims to the contrary, Afriex sends mixed messages on how they provide or on whether they do have cryptocurrency support. On the Crypto tab of its main page, it notes that,
+
+> Crypto Coming Soon
+
+And provides an email address form, presumably to get sent a notification if the feature is available. The [terms and conditions](https://afriexapp.com/terms) are also silent about its crypto support.
+
+### App
+
+Afriex is only available in the countries of Nigeria Ghana, Kenya, Canada, and the USA. We were unable to sign up.
+
+### Reach out
+
+We tried to reach out to Afriex via [twitter](https://twitter.com/dannybuntu/status/1440665146985041925) and await a response. With not much information at hand, we can only give a verdict of wip until they have officially replied
