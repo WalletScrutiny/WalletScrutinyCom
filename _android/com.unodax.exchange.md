@@ -19,7 +19,7 @@ issue:
 icon: com.unodax.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-09-23
 signer: 
 reviewArchive:
 

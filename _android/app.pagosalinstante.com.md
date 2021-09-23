@@ -19,7 +19,7 @@ issue:
 icon: app.pagosalinstante.com.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-09-23
 signer: 
 reviewArchive:
 

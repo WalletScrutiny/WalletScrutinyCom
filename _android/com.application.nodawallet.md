@@ -19,7 +19,7 @@ issue:
 icon: com.application.nodawallet.png
 bugbounty: 
 verdict: wip
-date: 2021-08-02
+date: 2021-09-23
 signer: 
 reviewArchive:
 
