@@ -4,7 +4,7 @@ title: "Bitnovo - Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.bitnovo.app
 released: 2017-05-18
 updated: 2021-07-01

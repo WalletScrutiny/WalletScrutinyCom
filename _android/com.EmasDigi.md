@@ -10,8 +10,8 @@ released: 2018-01-21
 updated: 2021-09-18
 version: "4.6.0"
 stars: 4.2
-ratings: 14992
-reviews: 9667
+ratings: 15058
+reviews: 9713
 size: 10M
 website: https://pluang.com
 repository: 

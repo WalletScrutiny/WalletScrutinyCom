@@ -4,7 +4,7 @@ title: "ISUPEX- Buy and sell bitcoin"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.superx.isupex
 released: 2020-05-02
 updated: 2020-05-02
