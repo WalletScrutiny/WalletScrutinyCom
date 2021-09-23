@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: io.sevenlabs.app
 released: 2021-07-05
-updated: 2021-09-20
+updated: 2021-09-21
 version: "1.1.0"
 stars: 0.0
 ratings: 
 reviews: 
-size: 6.9M
+size: 12M
 website: 
 repository: 
 issue: 

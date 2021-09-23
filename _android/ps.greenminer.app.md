@@ -9,9 +9,9 @@ appId: ps.greenminer.app
 released: 2021-06-04
 updated: 2021-09-02
 version: "1.39b"
-stars: 4.3
-ratings: 1933
-reviews: 1019
+stars: 4.2
+ratings: 1979
+reviews: 1046
 size: 25M
 website: 
 repository: 

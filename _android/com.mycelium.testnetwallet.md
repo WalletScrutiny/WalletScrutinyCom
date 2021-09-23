@@ -10,7 +10,7 @@ released: 2013-10-04
 updated: 2021-08-13
 version: "3.11.0.4-TESTNET"
 stars: 3.7
-ratings: 136
+ratings: 137
 reviews: 71
 size: 24M
 website: 

@@ -9,8 +9,8 @@ appId: com.ibandirect.card
 released: 2020-11-08
 updated: 2021-09-09
 version: "1.3.6"
-stars: 3.6
-ratings: 35
+stars: 3.5
+ratings: 36
 reviews: 20
 size: 73M
 website: 

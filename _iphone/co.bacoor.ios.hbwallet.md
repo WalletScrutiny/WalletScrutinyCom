@@ -10,8 +10,8 @@ idd: 1273639572
 released: 2017-08-23
 updated: 2021-07-09
 version: "3.5.0"
-stars: 4.51879
-reviews: 133
+stars: 4.52238
+reviews: 134
 size: 81245184
 website: https://www.bacoor.io
 repository: 

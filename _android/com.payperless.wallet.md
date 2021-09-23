@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.payperless.wallet
 released: 2021-06-03
-updated: 2021-09-21
+updated: 2021-09-22
 version: "1.3.0"
 stars: 0.0
 ratings: 

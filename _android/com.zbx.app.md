@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.zbx.app
 released: 2019-10-18
-updated: 2021-09-02
-version: "2.1.0"
+updated: 2021-09-22
+version: "2.1.1"
 stars: 2.5
 ratings: 22
 reviews: 16

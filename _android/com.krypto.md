@@ -11,7 +11,7 @@ updated: 2021-09-16
 version: "8.5"
 stars: 4.5
 ratings: 1902
-reviews: 1034
+reviews: 1035
 size: 9.2M
 website: https://letskrypto.com
 repository: 

@@ -4,7 +4,7 @@ title: "XBTS DeFi Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: io.xbts.app
 released: 2021-04-26
 updated: 2021-06-18
