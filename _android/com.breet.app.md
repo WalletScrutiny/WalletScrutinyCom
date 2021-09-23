@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.breet.app.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: defunct
+date: 2021-09-23
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-13**: This app is not on the Play Store anymore.

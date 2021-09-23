@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
-verdict: nowallet
-date: 2021-09-03
+verdict: defunct
+date: 2021-09-23
 signer: 
 reviewArchive:
-
+- date: 2021-09-03
+  version: "6.0.8"
+  appHash: 
+  gitRevision: 46a69d1c5e10345207ffc36e81dfa9c0da3a04e3
+  verdict: nowallet
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,7 @@ redirect_from:
 
 ---
 
+**Update 2021-09-15**: This app is not on the Play Store anymore.
 
 At the interim, ecoin seems to have functionality allowing the user to buy bitcoin. We downloaded the app, and it doesn't. 
 

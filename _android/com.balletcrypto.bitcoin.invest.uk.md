@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.balletcrypto.bitcoin.invest.uk.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: defunct
+date: 2021-09-23
 signer: 
 reviewArchive:
 
@@ -33,5 +33,7 @@ redirect_from:
 
 ---
 
+
+**Update 2021-09-13**: This app is not on the Play Store anymore.
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

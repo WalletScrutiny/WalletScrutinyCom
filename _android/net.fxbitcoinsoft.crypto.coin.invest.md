@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: net.fxbitcoinsoft.crypto.coin.invest.png
 bugbounty: 
-verdict: fewusers
-date: 2021-09-01
+verdict: defunct
+date: 2021-09-23
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-15**: This app is not on the Play Store anymore.
