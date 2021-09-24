@@ -3,15 +3,15 @@ wsId: datadash
 title: "DataDash"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.mxc.smartcity
 released: 2020-05-18
 updated: 2021-09-13
 version: "1.13.4"
 stars: 3.7
-ratings: 1655
-reviews: 189
+ratings: 1656
+reviews: 190
 size: 45M
 website: https://www.mxc.org/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: MXC_Foundation
 redirect_from:
 
 ---
+
+
 This app claims to provide staking abilities to various tokens. It also claims that its MXC Supernodes prove LPWAN (Low Power Wide Area Network) services to the world. 
 
 From its Google Play description:

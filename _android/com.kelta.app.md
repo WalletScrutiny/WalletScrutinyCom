@@ -3,7 +3,7 @@ wsId: kelta
 title: "KELTA - Buy & Sell Bitcoin"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.kelta.app
 released: 2018-05-15
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Caution
 _We strongly advise users to exercise caution when using this app. See below._
 

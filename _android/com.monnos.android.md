@@ -10,8 +10,8 @@ released: 2019-09-17
 updated: 2021-09-18
 version: "5.2.14"
 stars: 4.2
-ratings: 832
-reviews: 547
+ratings: 833
+reviews: 548
 size: 65M
 website: https://monnos.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 As this service is a private company maintained app with money laundering and other financial regulation compliances, our initial assessment is that it is a centralized custodial service. 
 
 Described in its Google Play app:

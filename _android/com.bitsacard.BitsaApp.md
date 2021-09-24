@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Bitsa is a debit card provider that allows users to withdraw fiat from ATM machines. The app can also be used for fiat transfers and payments. Its relation to cryptocurrencies is that it allows top-ups from cryptocurrencies and converts these into fiat cash to be withdrawn or used in electronic payments. 
 
 The zendesk article ["In a recharge with cryptocurrencies, why doesn't the money from my wallet reach my card?"](https://bitsa.zendesk.com/hc/en-us/articles/360010080857-In-a-recharge-with-cryptocurrencies-why-doesn-t-the-money-from-my-wallet-reach-my-card-) is informative:

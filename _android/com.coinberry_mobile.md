@@ -13,7 +13,7 @@ stars: 3.2
 ratings: 1044
 reviews: 603
 size: 75M
-website:  https://www.coinberry.com/
+website: https://www.coinberry.com/
 repository: 
 issue: 
 icon: com.coinberry_mobile.jpg
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 [In their official website](https://www.coinberry.com/learn/crypto-storage-guide), Coinberry directly states that their app is custodial.
 
 > Most crypto exchanges and brokerages, like Coinberry, are examples of a custodial wallet. Picking a custodian solution that is reputable and secure is crucial. At Coinberry, we have partnered with the Gemini Trust Company LLC™ to keep the majority of customer funds in institutional-grade cold storage.

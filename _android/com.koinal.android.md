@@ -11,7 +11,7 @@ released: 2020-06-04
 updated: 2021-09-01
 version: "1.2.11"
 stars: 4.6
-ratings: 393
+ratings: 389
 reviews: 239
 size: 37M
 website: https://www.koinal.io

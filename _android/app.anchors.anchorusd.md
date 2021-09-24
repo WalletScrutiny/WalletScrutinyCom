@@ -10,10 +10,10 @@ released: 2020-06-18
 updated: 2021-09-17
 version: "1.17.0"
 stars: 2.7
-ratings: 2372
+ratings: 2373
 reviews: 734
 size: 32M
-website: https://www.anchorusd.com/ 
+website: https://www.anchorusd.com/
 repository: 
 issue: 
 icon: app.anchors.anchorusd.png
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 AnchorUSD claims to be a stock and crypto investment app. 
 
 > We support crypto deposits and withdraws for users globally. Fiat deposits and withdraws are available only in the US.

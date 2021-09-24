@@ -3,15 +3,15 @@ wsId:
 title: "Bitocto: Jual Beli Bitcoin Indonesia"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.bitocto
 released: 2019-07-18
 updated: 2021-08-27
 version: "3.10"
-stars: 4.7
-ratings: 1471
-reviews: 1188
+stars: 4.6
+ratings: 1472
+reviews: 1189
 size: 5.3M
 website: https://bitocto.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 
 
 As with most custodial services, its [Terms and Conditions](https://bitocto.com/en/terms-of-use/) are good indicators for its custodial nature:

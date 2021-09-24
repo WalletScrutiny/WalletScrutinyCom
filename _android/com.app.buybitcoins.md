@@ -9,9 +9,9 @@ appId: com.app.buybitcoins
 released: 2021-03-20
 updated: 2021-04-08
 version: "1.3"
-stars: 4.0
-ratings: 17
-reviews: 14
+stars: 4.3
+ratings: 23
+reviews: 22
 size: 95M
 website: 
 repository: 

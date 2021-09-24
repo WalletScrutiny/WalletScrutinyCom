@@ -3,15 +3,15 @@ wsId:
 title: "Crypto - Free Bitcoins"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: ps.greenminer.app
 released: 2021-06-04
 updated: 2021-09-02
 version: "1.39b"
-stars: 4.2
-ratings: 1979
-reviews: 1046
+stars: 4.1
+ratings: 2006
+reviews: 1066
 size: 25M
 website: http://cryptomining.tilda.ws/crypto
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Caution** As with most apps that bear the words "Free Bitcoin", we strongly advise users to take precautionary measures. 
 
 The "Visit website" link on Google Play, links to a solitary page with no further information. 

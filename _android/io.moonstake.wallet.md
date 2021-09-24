@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Moonstake Wallet directly claims that it is a non-custodial wallet. From the Play Store description:
 
 > Safe and secure, this app never takes custody of your digital assets.  Assets stay in your existing wallet, so you won't ever worry about your account being hacked from our platform and your private keys & passphrases are encrypted and stored in your local device.

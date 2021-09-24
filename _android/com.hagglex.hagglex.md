@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The app has a short Play Store description:
 
 > With HaggleX, anyone can buy and sell BITCOIN ETHEREUM, EOS ,TRON, DASH and DOGE coin.

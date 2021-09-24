@@ -10,7 +10,7 @@ released: 2018-12-17
 updated: 2021-08-12
 version: "1.8.3"
 stars: 4.1
-ratings: 828
+ratings: 829
 reviews: 412
 size: 45M
 website: https://kriptomat.io/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 A cursory look at the app's website indicates a centralized custodial buy, sell and store service that is managed by a private company based in Estonia. We would be looking deeper by perusing its legal documents and compliances.
 
 Like most duly registered cryptocurrency services and apps, Kriptomat has the following compliances:

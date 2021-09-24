@@ -8,11 +8,11 @@ appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
 released: 2019-05-11
-updated: 2021-09-17
-version: "2.1.40"
+updated: 2021-09-23
+version: "2.1.41"
 stars: 
 reviews: 
-size: 100534272
+size: 100587520
 website: https://www.nuri.com
 repository: 
 issue: 

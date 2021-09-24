@@ -10,8 +10,8 @@ released: 2019-07-08
 updated: 2021-05-13
 version: "1.9.99"
 stars: 4.1
-ratings: 934
-reviews: 332
+ratings: 935
+reviews: 333
 size: 11M
 website: https://farhadmarket.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play store description:
 
 > Farhad Market is an all-in-one cryptocurrency wallet that supports multiple cryptocurrencies such as Bitcoin (BTC).

@@ -9,9 +9,9 @@ appId: com.friendst.strangr
 released: 2020-05-02
 updated: 2021-05-26
 version: "1.1"
-stars: 3.8
-ratings: 104
-reviews: 51
+stars: 3.7
+ratings: 105
+reviews: 52
 size: 9.2M
 website: 
 repository: 

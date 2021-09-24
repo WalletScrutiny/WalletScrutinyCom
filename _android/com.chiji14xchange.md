@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 There is not that much information in the Play Store description:
 
 > Welcome to Chiji14xchange App, this App enables you to transact and exchange bitcoins and gift cards with adequate security features that guarantees safety for clients at all times.

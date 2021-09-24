@@ -10,8 +10,8 @@ released: 2019-05-26
 updated: 2021-09-14
 version: "2.8.2"
 stars: 4.5
-ratings: 7901
-reviews: 4342
+ratings: 7915
+reviews: 4351
 size: 30M
 website: https://www.safepal.io
 repository: 

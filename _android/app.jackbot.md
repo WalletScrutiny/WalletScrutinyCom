@@ -4,7 +4,7 @@ title: "Jackbot - AI Powered Crypto Trading"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: app.jackbot
 released: 2021-01-05
 updated: 2021-09-09
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.jackbot.jpg
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:

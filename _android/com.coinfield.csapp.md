@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Taken from CoinField's Play Store description:
 
 > CoinField is a regulated European-based fiat-to-crypto exchange, which operates in 193 countries globally. The trading platform, built with advanced technologies, allows fast trades, a smooth user experience, offers top-of-the-line security and has an extensive cryptocurrency portfolio worldwide.

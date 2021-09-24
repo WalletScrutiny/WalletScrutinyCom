@@ -10,8 +10,8 @@ released: 2018-07-30
 updated: 2021-02-02
 version: "4.0.0"
 stars: 2.2
-ratings: 568
-reviews: 298
+ratings: 569
+reviews: 299
 size: 32M
 website: https://www.bitopro.com/
 repository: 
