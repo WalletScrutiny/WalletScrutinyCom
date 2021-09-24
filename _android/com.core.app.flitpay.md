@@ -32,11 +32,11 @@ providerReddit:
 redirect_from:
 
 ---
-Our initial assessment points to this app as a custodial offering because it is a centralized exchange.<br>
+Our initial assessment points to this app as a custodial offering because it is a centralized exchange.
 
 This information is included in their [Terms and Conditions](https://www.flitpay.com/terms) page:
 
-### The Flitpay wallet and Exchange.
+> **The Flitpay wallet and Exchange.**<br>
 > Supported Cryptocurrencies. The Flitpay wallet allows you to send, receive and store cryptocurrency (together, “Wallet Transactions”). The Flitpay wallet is only available with the cryptocurrencies that Flitpay, in its sole discretion, decides to support.
 
 This is the most telling phrase about its custodial nature:
