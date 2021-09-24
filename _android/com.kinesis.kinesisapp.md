@@ -18,7 +18,7 @@ repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 
 icon: com.kinesis.kinesisapp.png
 bugbounty: 
-verdict: https://github.com/KinesisNetwork
+verdict: nosource
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -45,16 +45,14 @@ You need to setup 2FA in order to access the BTC wallet. Once you have that up, 
 
 We were able to find some information that proves the app can send, receive and store bitcoin. One of them is the [withdrawals fee page](https://kinesis.money/about-us/fees/#h-withdrawal-of-crypto-and-fiat). 
 
-We were also able to locate the [source code](https://github.com/KinesisNetwork/wallet-mobileesisNetwork) for the Android wallet.
-
 The options from the web application of Kinesis has more details regarding the 12-word recovery seed phrase. Note that we were not able to access this option via the mobile app.
 
 > **What is your 12-word recovery (seed) phrase?**<br><br>
 Your Kinesis 12-word seed phrase, also known as a "private keys", "recovery phrase", or "mnemonic phrase", are a string of numbers and letters that are unique for each account. They are used to generate the public keys and these public keys are used to generate the public addresses you use to receive cryptocurrencies.<br><br>
 When you activate a wallet on your laptop using chrome, for example, this is the only place you can access it. If you want to access it on a different browser, or on another device, you will need to use that recovery phrase again.
 
-This app needs further review. 
+While we were also able to locate the [source code](https://github.com/KinesisNetwork/wallet-mobile) for the Android wallet, the repositories last commit was from May 18, _2018_. The appID was also `com.kinesiswalletapp` rather than `com.kinesis.kinesisapp`, the appID on the Play Store.
 
+### Verdict
 
-
-
+With the app's latest update being on 2021-08-09 and the Github repository having last been updated back in 2018, it's doubtable that the source code will match up. As such, this app is **not verifiable.**
