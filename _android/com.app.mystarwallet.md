@@ -36,7 +36,7 @@ The app has no listed website. It describes itself as an app that has a Bitcoin,
 
 From its Google Play description:
 
-> # Carefully Guarding Your Assets<br>
+> **Carefully Guarding Your Assets**<br>
 We build a comprehensive risk control system to ensure the security of wallet and we support diverse safe mode to prevent private keys from contacting the network and reduce the risk of theft.
 
 ### The App
