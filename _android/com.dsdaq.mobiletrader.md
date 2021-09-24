@@ -49,6 +49,6 @@ We took note of several key terms in the [Terms and Conditions:](https://dsdaq.z
 
 Dsdaq also utilizes KYC verification, as seen in __Eligibility__, number 8.
 
-> 8. Dsdaq reserves the right at any time to verify Your identity for the purposes of complying with the any KYC/AML requirements
+> Dsdaq reserves the right at any time to verify Your identity for the purposes of complying with the any KYC/AML requirements
 
 Thus we can assume that this trading app is **custodial** and therefore **not verifiable.**
