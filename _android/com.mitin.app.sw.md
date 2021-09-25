@@ -9,9 +9,9 @@ appId: com.mitin.app.sw
 released: 2021-04-14
 updated: 2021-05-13
 version: "3.0"
-stars: 4.1
-ratings: 18
-reviews: 14
+stars: 2.7
+ratings: 7
+reviews: 3
 size: 3.8M
 website: 
 repository: 

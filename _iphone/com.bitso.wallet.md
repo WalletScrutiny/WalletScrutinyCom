@@ -10,8 +10,8 @@ idd: 1292836438
 released: 2018-02-19
 updated: 2021-09-14
 version: "2.28.0"
-stars: 4.38143
-reviews: 194
+stars: 4.38462
+reviews: 195
 size: 95803392
 website: https://bitso.com/app
 repository: 

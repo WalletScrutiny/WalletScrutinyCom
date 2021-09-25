@@ -10,8 +10,8 @@ released: 2014-10-01
 updated: 2021-09-15
 version: "3.6.11"
 stars: 4.3
-ratings: 103567
-reviews: 44684
+ratings: 103605
+reviews: 44701
 size: 34M
 website: https://coins.ph
 repository: 

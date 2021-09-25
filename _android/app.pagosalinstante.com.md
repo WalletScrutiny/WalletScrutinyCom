@@ -10,8 +10,8 @@ released: 2019-02-03
 updated: 2021-02-21
 version: "1.07.44"
 stars: 3.4
-ratings: 916
-reviews: 627
+ratings: 917
+reviews: 628
 size: 7.1M
 website: https://pagosalinstante.com/
 repository: 

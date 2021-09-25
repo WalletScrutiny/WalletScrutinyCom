@@ -10,7 +10,7 @@ released: 2014-10-02
 updated: 2021-09-01
 version: "6.0.60"
 stars: 3.9
-ratings: 36633
+ratings: 36634
 reviews: 11501
 size: 28M
 website: http://www.xtrade.com/

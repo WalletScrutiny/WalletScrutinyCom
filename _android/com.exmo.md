@@ -10,8 +10,8 @@ released: 2019-11-12
 updated: 2021-08-12
 version: "2.7.3"
 stars: 4.5
-ratings: 2209
-reviews: 1494
+ratings: 2213
+reviews: 1496
 size: 59M
 website: https://exmo.com
 repository: 

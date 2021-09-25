@@ -5,13 +5,13 @@ altTitle:
 authors:
 - emanuel
 - leo
-users: 1000
+users: 5000
 appId: com.crypto.blockchain
 released: 2021-06-22
 updated: 2021-08-17
 version: "1.1.0"
-stars: 3.6
-ratings: 21
+stars: 3.7
+ratings: 22
 reviews: 10
 size: 8.0M
 website: 

@@ -9,9 +9,9 @@ appId: com.btccloudminer.easy
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"
-stars: 3.2
-ratings: 252
-reviews: 149
+stars: 3.3
+ratings: 256
+reviews: 150
 size: 8.9M
 website: 
 repository: 

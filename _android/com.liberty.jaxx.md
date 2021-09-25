@@ -10,8 +10,8 @@ released: 2018-09-01
 updated: 2021-09-09
 version: "2.6.5"
 stars: 3.8
-ratings: 5207
-reviews: 2876
+ratings: 5210
+reviews: 2877
 size: 18M
 website: https://jaxx.io
 repository: 

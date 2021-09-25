@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.mtobit.aos.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-09-25
 signer: 
 reviewArchive:
 

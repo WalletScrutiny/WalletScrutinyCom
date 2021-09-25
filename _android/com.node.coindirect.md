@@ -9,8 +9,8 @@ appId: com.node.coindirect
 released: 2018-10-10
 updated: 2021-07-07
 version: "1.3.0"
-stars: 2.4
-ratings: 516
+stars: 2.5
+ratings: 517
 reviews: 423
 size: 30M
 website: https://www.coindirect.com
