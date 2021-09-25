@@ -1,6 +1,6 @@
 ---
 wsId: klever
-title: "Klever Wallet: Bitcoin & more"
+title: "Klever: Secure Crypto Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: cash.klever.blockchain.wallet
 appCountry: 
 idd: 1525584688
 released: 2020-08-26
-updated: 2021-09-15
-version: "4.4.2"
-stars: 4.33488
-reviews: 430
-size: 130636800
+updated: 2021-09-23
+version: "4.5.1"
+stars: 4.3287
+reviews: 432
+size: 131623936
 website: https://klever.io
 repository: 
 issue: 
