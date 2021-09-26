@@ -10,8 +10,8 @@ released: 2019-09-13
 updated: 2021-09-16
 version: "1.0.29"
 stars: 4.2
-ratings: 824
-reviews: 445
+ratings: 827
+reviews: 446
 size: 107M
 website: https://www.valr.com
 repository: 

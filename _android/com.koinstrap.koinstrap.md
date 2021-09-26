@@ -7,8 +7,8 @@ authors:
 users: 500
 appId: com.koinstrap.koinstrap
 released: 2020-08-28
-updated: 2021-08-24
-version: "2.0.1"
+updated: 2021-09-25
+version: "2.0.5"
 stars: 3.2
 ratings: 16
 reviews: 8

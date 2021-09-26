@@ -10,8 +10,8 @@ released: 2019-10-23
 updated: 2021-09-23
 version: "1.1.4"
 stars: 4.0
-ratings: 611
-reviews: 414
+ratings: 613
+reviews: 416
 size: 106M
 website: https://www.matrixport.com/
 repository: 

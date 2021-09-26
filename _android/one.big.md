@@ -9,9 +9,9 @@ appId: one.big
 released: 2019-10-30
 updated: 2021-09-18
 version: "2.1.723"
-stars: 4.1
-ratings: 534
-reviews: 301
+stars: 4.0
+ratings: 535
+reviews: 302
 size: 58M
 website: https://www.b1.zone/
 repository: 

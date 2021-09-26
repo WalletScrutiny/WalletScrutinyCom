@@ -10,7 +10,7 @@ released: 2018-11-01
 updated: 2021-09-10
 version: "2.38.0"
 stars: 4.4
-ratings: 3278
+ratings: 3280
 reviews: 1762
 size: 36M
 website: http://guarda.co

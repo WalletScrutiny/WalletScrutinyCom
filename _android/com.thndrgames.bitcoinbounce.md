@@ -10,7 +10,7 @@ released: 2020-03-20
 updated: 2021-09-20
 version: "1.1.29"
 stars: 3.6
-ratings: 1735
+ratings: 1736
 reviews: 677
 size: 59M
 website: https://thndr.games/

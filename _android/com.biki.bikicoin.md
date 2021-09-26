@@ -9,9 +9,9 @@ appId: com.biki.bikicoin
 released: 2019-05-13
 updated: 2021-07-21
 version: "4.9.1"
-stars: 2.0
-ratings: 700
-reviews: 359
+stars: 1.9
+ratings: 701
+reviews: 360
 size: 25M
 website: https://www.biki.cc/
 repository: 

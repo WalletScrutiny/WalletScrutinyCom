@@ -10,7 +10,7 @@ released: 2018-02-21
 updated: 2021-05-03
 version: "8.9.2"
 stars: 4.2
-ratings: 129
+ratings: 130
 reviews: 77
 size: 10M
 website: https://www.polispay.com

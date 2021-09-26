@@ -9,9 +9,9 @@ appId: io.wallet.pro
 released: 2019-07-14
 updated: 2021-08-04
 version: "1.2.9"
-stars: 4.2
-ratings: 6
-reviews: 3
+stars: 4.3
+ratings: 7
+reviews: 4
 size: 18M
 website: 
 repository: 
