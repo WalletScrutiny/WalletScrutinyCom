@@ -10,8 +10,8 @@ released: 2018-07-18
 updated: 2021-09-17
 version: "5.0.2"
 stars: 3.5
-ratings: 1983
-reviews: 1267
+ratings: 1985
+reviews: 1268
 size: 38M
 website: https://www.bitrue.com
 repository: 

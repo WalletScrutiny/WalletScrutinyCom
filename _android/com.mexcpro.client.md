@@ -10,8 +10,8 @@ released: 2020-07-23
 updated: 2021-09-03
 version: "3.1.3"
 stars: 4.1
-ratings: 5980
-reviews: 3419
+ratings: 5985
+reviews: 3421
 size: 55M
 website: https://www.mexc.com/
 repository: 

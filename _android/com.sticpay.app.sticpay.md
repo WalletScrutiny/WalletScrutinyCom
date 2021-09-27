@@ -9,8 +9,8 @@ appId: com.sticpay.app.sticpay
 released: 2017-08-31
 updated: 2021-09-23
 version: "3.46"
-stars: 3.4
-ratings: 293
+stars: 3.3
+ratings: 294
 reviews: 189
 size: 6.4M
 website: https://www.sticpay.com/

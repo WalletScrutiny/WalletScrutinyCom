@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Changelly PRO: Crypto Exchange"
+title: "Changelly PRO crypto exchange: trade Bitcoin (BTC)"
 altTitle: 
 authors:
 

@@ -10,7 +10,7 @@ released: 2020-06-11
 updated: 2020-12-25
 version: "1.0.6"
 stars: 3.5
-ratings: 1640
+ratings: 1641
 reviews: 978
 size: 25M
 website: https://bitcoin.black/

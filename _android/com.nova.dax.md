@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.nova.dax
 released: 2019-09-20
-updated: 2021-09-08
-version: "1.1.5"
-stars: 4.2
-ratings: 10421
-reviews: 5584
-size: 14M
+updated: 2021-09-24
+version: "1.1.6"
+stars: 4.3
+ratings: 11565
+reviews: 5954
+size: 15M
 website: https://www.novadax.com
 repository: 
 issue: 

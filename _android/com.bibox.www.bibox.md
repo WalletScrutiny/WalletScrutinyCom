@@ -10,8 +10,8 @@ released: 2019-03-24
 updated: 2021-07-05
 version: "4.6.7"
 stars: 4.3
-ratings: 795
-reviews: 415
+ratings: 797
+reviews: 416
 size: 37M
 website: https://www.bibox.com
 repository: 

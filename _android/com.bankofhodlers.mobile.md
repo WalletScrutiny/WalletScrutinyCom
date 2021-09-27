@@ -10,8 +10,8 @@ released: 2020-04-30
 updated: 2021-09-17
 version: "2.3.6"
 stars: 3.7
-ratings: 877
-reviews: 484
+ratings: 894
+reviews: 485
 size: 28M
 website: https://www.vauld.com/
 repository: 

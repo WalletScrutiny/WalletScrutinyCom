@@ -4,7 +4,7 @@ title: "Bitplicity Bitcoin Wallet - Buy & Sell Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.Bitplicity.Bitplicityapp
 released: 2020-06-06
 updated: 2020-06-19

@@ -4,11 +4,11 @@ title: "Kanga - multi-chain crypt wallet for DeFI"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.cuckoo.wallet
 released: 2021-06-29
-updated: 2021-09-18
-version: "2.5.0"
+updated: 2021-09-26
+version: "2.5.1"
 stars: 0.0
 ratings: 
 reviews: 

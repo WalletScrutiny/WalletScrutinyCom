@@ -9,9 +9,9 @@ appId: io.exnovin.app
 released: 2020-12-12
 updated: 2021-09-21
 version: "2.0.0"
-stars: 4.2
-ratings: 601
-reviews: 221
+stars: 4.1
+ratings: 605
+reviews: 223
 size: 37M
 website: https://exnovin.io/
 repository: 

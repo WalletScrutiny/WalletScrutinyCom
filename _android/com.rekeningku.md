@@ -10,8 +10,8 @@ released: 2018-02-21
 updated: 2021-08-16
 version: "2.1.51"
 stars: 4.6
-ratings: 16385
-reviews: 6275
+ratings: 16421
+reviews: 6281
 size: 32M
 website: https://www.rekeningku.com
 repository: 
