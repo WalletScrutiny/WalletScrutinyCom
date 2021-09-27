@@ -42,7 +42,7 @@ The language on its Play description is full of seemingly unrelated complex term
 
 Its website strives to describe their service more:
 
-> KORVIO can Issue millions of assets on a blockchain, which all tracked and verified at the network level. Perform safe multi-asset and multi-party atomic exchange transactions. The purpose of multichains is to enable the decentralized aggregation, ordering, time stamping and archiving of any type of information, including structured data, correspondence or documentation.
+> KORVIO can Issue millions of assets on a blockchain, which all tracked and verified at the network level. Perform safe multi-asset and multi-party atomic exchange transactions.
 
 We then took a look at the [Korvio Terms and Conditions](https://korvio.io/TermsCondition.html) 
 
