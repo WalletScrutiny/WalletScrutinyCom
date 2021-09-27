@@ -32,9 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
-The Klever Exchange is distinct from the Klever Wallet. 
-
-{% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}
+The Klever Exchange is distinct from  {% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}.
 
 ### From their Google Play description
 

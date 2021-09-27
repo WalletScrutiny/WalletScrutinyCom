@@ -59,7 +59,7 @@ This statement poses further questions about how the user can access his own pri
 Ember's security model was designed to avoid the risks of exporting private keys, while creating the simplest app experience possible.<br><br>‍
 ‍Your private key is encrypted and never leaves your device. Nobody else can access it, not even Ember.
 
-If it is encrypted, never leaves the device and without an option to backup or export it by the user himself, this begs the question: how can the user access the private key?
+If it is encrypted, never leaves the device and without an option to backup or export it by the user himself, this begs the question: how can you "access your assets" through "another wallet provider"?
 
 ### The Site and FAQ 
 

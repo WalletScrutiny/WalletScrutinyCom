@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 ### Google Play
-Kinesis app tries to integrate different markets for trading, sending and receiving. With the app, you can trade Kinesis gold (KAU), Kinesis silver (KAG) and cryptocurrencies. It also has an option for a Visa debit card. Kinesis also claims that this card can be used to make payments in restaurants and other shops. The app also features a 'cryptocurrency exchange' service that allows users to trade gold and silver with cryptocurrencies such as Bitcoin and Ethereum.
+Kinesis app tries to integrate different markets for trading, sending and receiving. With the app, you can trade Kinesis gold (KAU), Kinesis silver (KAG) and cryptocurrencies. It also has an option for a Visa debit card. The app also features a 'cryptocurrency exchange' service that allows users to trade KAU and KAG with cryptocurrencies such as Bitcoin and Ethereum.
 
 ### The App
 

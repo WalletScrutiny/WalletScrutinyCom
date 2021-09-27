@@ -48,9 +48,9 @@ On the [homepage](https://o3.network/), O3 claims:
  The Github account has a repository [named OzoneWalletIOS](https://github.com/O3Labs/OzoneWalletIOS). However this repository is for the _IOS_ version of the app.
  
 ### Verdict
-Notably, the last commit on its [repository] (https://github.com/O3Labs/OzoneWalletIOS) was dated September 12, 2019. On the other hand, as of this day the Play Store app was last updated on July 1, 2021.
+Notably, the last commit on its [repository](https://github.com/O3Labs/OzoneWalletIOS) was dated September 12, 2019. On the other hand, as of this day the Play Store app was last updated on July 1, 2021.
 
-According to the [WalletScrutiny methodology](https://walletscrutiny.com/methodology/)
+According to the our [methodology](/methodology/#nosource)
 
 > “Up to date” strictly means that any instance of the product being updated without the source code being updated counts as closed source. This puts the burden on the provider to always first release the source code before releasing the product’s update. 
 
