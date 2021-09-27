@@ -32,7 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
-It claims to be owned and operated by NBsoft Cyprus Limited, a private corporation. Thus, we are initially led to believe that this is a custodial service. 
+This app claims to be owned by a  private corporation, NBsoft Cyprus Limited.
 
 Its Google Play description reads:
 
