@@ -18,7 +18,7 @@ repository: https://github.com/ember-fund
 issue: 
 icon: com.emberfund.ember.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -87,7 +87,13 @@ The service offers a non-custodial app which does not readily offer the user to 
 
 ### Contact
 
+Initially, we thought of it as a DeFi app of sorts, but upon looking at the terms and the reviews, it may appear more like a custodial service. Although it is possible to backup 
 We reached out to Ember.io to ask them about their app via [twitter](https://twitter.com/dannybuntu/status/1440227344258527237).
 
-Ember.io's service is **self-custodial** up to a certain extent, its source code is noted above . Further review is warranted.
+### Source Code
+Ember.io does provide a link to their Github account, however none of the repositories match up with this app's ID. While one repository has an application ID, it is simply a fork of {% include walletLink.html wallet='android/co.edgesecure.app'   
 
+The repo does not contain any original code and was not updated since February 2020.
+
+### Verdict
+This app claims to be non-custodial, but with no source to back it up, it is **not verifiable.** The app is closed source.
