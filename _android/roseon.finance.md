@@ -67,9 +67,11 @@ In Section 2.1.5, it describes the wallet as:
 
 > Wallet; a secured **custodial** service allowing Users to deposit on the Platform their own Digital Tokens.
 
-Interestingly, Section 4.9.1, details that:
+Section 4.9.1, details that:
 
 > 4.9.1. **Any Wallet address sending and receiving any token to and from the Roseon.Finance Platform is solely, exclusively and directly owned and controlled by him/herself, including the Wallet’s Private key**, and there are no other beneficial owners and/or controllers that the User is acting on behalf of or under any form of fiduciary or nominee or representative relationship with;
+
+That is the wallets that interact with the Roseon product, not the Roseon product itself.
 
 ### Reachout
 
@@ -77,8 +79,6 @@ We tried contacting Roseon Finance via their [twitter](https://twitter.com/danny
 
 ### Verdict
 
-This is a bit tricky. Although there are claims to the contrary, not having an overt or immediate ability to backup the bitcoin wallet's private key does raise questions about their claims of self-custody, specifically in Section 4.9.1 of the Terms and Conditions. 
-
-On the other hand, if we label this app as a self-custodial one, we still end up in the conundrum of having to find the source code which is not readily available. 
+Due to not having an overt or immediate ability to backup the bitcoin wallet's private key, this app does not appear to be self-custodial.
 
 While we await the response of Roseon Finance, we would have to give this a verdict of **custodial** and therefore **not verifiable**.
