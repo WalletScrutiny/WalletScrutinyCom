@@ -51,6 +51,7 @@ From the [Privacy Policy:](https://genesis.vision/privacy-policy)
 ### Terms
 In its [Terms, section 3.2:](https://genesis.vision/terms):
 > 3.2. You agree that GV may, in its sole discretion and without prior notice, suspend or terminate the provision of any Services or access to the Website (or its functions) to You personally or all Users.
+
 ### Other Media
 
 In a [Medium blog post](https://medium.com/@genesisvisionary/genesis-vision-faq-af9932fbe9a6), it is mentioned that they plan on creating a _non-custodial_ version of their existing trading platform.

@@ -51,7 +51,7 @@ Among other things, it offers several DeFi products, including staking pools, hi
 
 ### The App
 
-We downloaded the app and it required the email address. Then it asked to verify the email. once we verified the email, we then tried to deposit into the BTC account. 
+We downloaded the app and it required the email address. Then it asked to verify the email. Once we verified the email, we then tried to deposit into the BTC account. 
 
 Then they provided a 16-bit key backup in case the account is lost.
 
