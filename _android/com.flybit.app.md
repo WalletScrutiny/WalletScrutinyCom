@@ -43,10 +43,6 @@ We downloaded the app, but had difficulty with it since it was in Korean. Prior 
 
 ### The site
 
-Upon opening the site, we are greeted with a pop-up:
-
-> In accordance with the 'Act on the Reporting and Use of Specific Financial Transaction Information (hereinafter referred to as the Specific Financial Information Act)', Flybit completed the filing of a virtual asset business report with the Financial Intelligence Unit (FIU) on September 17th. At the same time, according to the guidance of the financial authorities, we will switch from the KRW market trading service to the USDT market service.
-
 At the footer of the page, we found that the exchange was secured by a cold wallet and that Flybit:
 
 > Passed the self-regulation proposal of Korea Blockchain Association. Financial Authority Guidelines complying exchange. 
