@@ -32,8 +32,6 @@ providerReddit: LYOPAY
 redirect_from:
 
 ---
-The app is developed by a private company based in Hong Kong. Usually, private companies that are registered in a jurisdiction are telltale signs of a custodial service. Though this is not always the case.
-
 ### Google Play Description
 
 From its Google Play description: 
