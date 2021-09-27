@@ -66,10 +66,15 @@ To which Perfect Crypto replied:
 > [Perfect Crypto](https://play.google.com/store/apps/details?id=com.perfectcrypto.perfect_crypto&reviewId=gp%3AAOqpTOECLi-LVtJ_qKIaQB9a7c_5igopHsY2dgBUsLiq9wWvlFnBdqYjFL1VlxoMAmD5WlJ1CFbekPTDxu5gcw)<br>
   February 23, 2021 <br>
        Hello. Dear friend, this fee is not an exchange fee. This fee is a bitcoin network, and you must make a transaction from any exchange office or anywhere. You must pay this fee.
-       
-The above proves that a customer is complaining about bitcoin transaction fees indicating the ability to send and receive bitcoin.
 
-From our experience, most centralized and private company owned cryptocurrency exchanges are custodial due to the infrastructure they have to maintain. Exceptions are usually made prominent and overtly announced. That is, users are immediately informed if they have non-custodial wallets. However, there seems to be no indication anywhere on the site that shows a self-custodial option. This is usually indicated by words like "P2P Trading" or the inclusion of words like "mnemonics, seed phrases or private keys" on the terms and conditions page, or helpdesk support. 
+From another reviewer:
+
+> [Keon Aliani](https://play.google.com/store/apps/details?id=com.perfectcrypto.perfect_crypto&reviewId=gp%3AAOqpTOESpUIF1-YkRQk11PZf_Rc86nuQVJ06anm1NBaezMJBDj1iJhya93BlRAStK4GWO9ILyECcD8dysbASTg)<br>
+  ★☆☆☆☆ May 20, 2021 <br>
+       useless app. too high transaction fees.
+
+As customers complain about the bitcoin transaction fees, this would indicates the ability to send and receive bitcoin.
+
+From our experience, most centralized and private company owned cryptocurrency exchanges are custodial due to the infrastructure they have to maintain. Exceptions are usually made prominent and overtly announced. That is, users are immediately informed if they have non-custodial wallets. However, there seems to be no indication anywhere on the site that shows a self-custodial option. This is usually indicated by words like the inclusion of words like "mnemonics, seed phrases or private keys" on the terms and conditions page, or helpdesk support. 
 
 Without access to further information, we are constrained to give this a verdict of **custodial** and thus, **not verifiable** until further information is available.
-
