@@ -53,7 +53,7 @@ Among other things, it offers several DeFi products, including staking pools, hi
 
 We downloaded the app and it required the email address. Then it asked to verify the email. Once we verified the email, we then tried to deposit into the BTC account. 
 
-Then they provided a 16-bit key backup in case the account is lost.
+Then they provided a 16-bit key backup in case the account is lost. However, it is worth noting that 16-bit encryption may not be secure.
 
 They then asked for KYC requirements including name, date of birth, nationality, ID type and ID number. 
 
