@@ -91,7 +91,7 @@ Initially, we thought of it as a DeFi app of sorts, but upon looking at the term
 We reached out to Ember.io to ask them about their app via [twitter](https://twitter.com/dannybuntu/status/1440227344258527237).
 
 ### Source Code
-Ember.io does provide a link to their Github account, however none of the repositories match up with this app's ID. While [one repository](https://github.com/ember-fund/edge-react-gui) has an application ID, it is simply a fork of {% include walletLink.html wallet='android/co.edgesecure.app'   
+Ember.io does provide a link to their Github account, however none of the repositories match up with this app's ID. While [one repository](https://github.com/ember-fund/edge-react-gui) has an application ID, it is simply a fork of {% include walletLink.html wallet='android/co.edgesecure.app' %}
 
 The repo does not contain any original code and was not updated since February 2020.
 
