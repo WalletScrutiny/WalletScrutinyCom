@@ -10,8 +10,8 @@ released: 2018-09-27
 updated: 2019-06-21
 version: "0.0068beta"
 stars: 3.9
-ratings: 23
-reviews: 14
+ratings: 24
+reviews: 15
 size: 14M
 website: http://InSense.tech
 repository: 

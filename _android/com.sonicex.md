@@ -4,7 +4,7 @@ title: "SONICEX"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.sonicex
 released: 2019-08-05
 updated: 2020-04-15

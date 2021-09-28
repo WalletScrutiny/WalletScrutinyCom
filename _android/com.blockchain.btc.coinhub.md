@@ -9,9 +9,9 @@ appId: com.blockchain.btc.coinhub
 released: 2021-05-13
 updated: 2021-08-30
 version: "1.0.2.0.3"
-stars: 4.4
-ratings: 812
-reviews: 155
+stars: 4.5
+ratings: 817
+reviews: 156
 size: 46M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android

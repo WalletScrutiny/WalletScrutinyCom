@@ -10,8 +10,8 @@ idd: 1515652068
 released: 2020-09-21
 updated: 2021-09-15
 version: "1.7.1"
-stars: 3.28571
-reviews: 28
+stars: 3.22222
+reviews: 27
 size: 300129280
 website: http://www.ambergroup.io
 repository: 

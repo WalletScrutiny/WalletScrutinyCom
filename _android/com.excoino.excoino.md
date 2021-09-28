@@ -9,9 +9,9 @@ appId: com.excoino.excoino
 released: 2018-09-27
 updated: 2021-07-05
 version: "6.4"
-stars: 4.1
-ratings: 5916
-reviews: 2541
+stars: 4.0
+ratings: 5930
+reviews: 2546
 size: 12M
 website: https://www.excoino.net/
 repository: 

@@ -10,8 +10,8 @@ released: 2019-11-18
 updated: 2021-09-22
 version: "2.2.2"
 stars: 4.5
-ratings: 3153
-reviews: 1713
+ratings: 3157
+reviews: 1716
 size: 45M
 website: https://www.pionex.com
 repository: 

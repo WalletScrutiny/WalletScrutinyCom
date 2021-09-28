@@ -4,7 +4,7 @@ title: "Bitcoin Testnet Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.bitcoin.wallet.btc.testnet
 released: 2019-07-04
 updated: 2019-07-05
