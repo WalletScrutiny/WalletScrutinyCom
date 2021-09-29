@@ -53,6 +53,16 @@ When you activate a wallet on your laptop using chrome, for example, this is the
 
 While we were also able to locate the [source code](https://github.com/KinesisNetwork/wallet-mobile) for the Android wallet, the repositories last commit was from May 18, _2018_. The appID was also `com.kinesiswalletapp` rather than `com.kinesis.kinesisapp`, the appID on the Play Store.
 
+From the Help Center: [Can I use the Kinesis Wallet on multiple computers?](https://support.kinesis.money/hc/en-gb/articles/360031778772-Can-I-use-the-Kinesis-Wallet-on-multiple-computers-)
+
+> Yes, you can, however, you will need to import your Wallet on each new device and browser which will require your recovery phrase. Be aware, clearing your device cache will require you to re-import your wallet using the recovery phrase.
+
+On the web application, we are able to import an existing wallet via a 12-word phrase or create a new wallet. Once we created a wallet, we were provided with our new 12-word phrase. After confirming that the user has saved the key, we were compelled to check the user agreement:
+
+> I understand that my wallet and Kinesis are held securely on this device and not on any servers.
+
 ### Verdict
 
-With the app's latest update being on 2021-08-09 and the Github repository having last been updated back in 2018, it's doubtable that the source code will match up. As such, this app is **not verifiable.**
+From the above, we can conclude that this app is **non-custodial.**
+
+However, with the app's latest update being on 2021-08-09 and the Github repository having last been updated back in 2018, it's doubtable that the source code will match up. As such, this app is **not verifiable.**
