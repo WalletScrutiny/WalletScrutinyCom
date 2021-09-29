@@ -19,7 +19,7 @@ issue:
 icon: com.xaltbase.app.png
 bugbounty: 
 verdict: nobtc
-date: 2021-09-17
+date: 2021-09-30
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.BizzCoin.png
 bugbounty: 
 verdict: nosource
-date: 2021-09-01
+date: 2021-09-30
 signer: 
 reviewArchive:
 

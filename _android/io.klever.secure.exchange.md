@@ -19,7 +19,7 @@ issue:
 icon: io.klever.secure.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-09-30
 signer: 
 reviewArchive:
 

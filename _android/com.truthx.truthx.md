@@ -19,7 +19,7 @@ issue:
 icon: com.truthx.truthx.png
 bugbounty: 
 verdict: wip
-date: 2021-08-08
+date: 2021-09-30
 signer: 
 reviewArchive:
 

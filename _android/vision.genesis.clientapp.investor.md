@@ -19,7 +19,7 @@ issue:
 icon: vision.genesis.clientapp.investor.png
 bugbounty: 
 verdict: wip
-date: 2021-08-02
+date: 2021-09-30
 signer: 
 reviewArchive:
 

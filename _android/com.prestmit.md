@@ -19,7 +19,7 @@ issue:
 icon: com.prestmit.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-09-30
 signer: 
 reviewArchive:
 

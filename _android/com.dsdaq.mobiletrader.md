@@ -19,7 +19,7 @@ issue:
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-09-30
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.afriex.afriex.png
 bugbounty: 
 verdict: wip
-date: 2021-08-01
+date: 2021-09-30
 signer: 
 reviewArchive:
 
