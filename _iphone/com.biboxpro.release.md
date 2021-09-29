@@ -10,8 +10,8 @@ idd: 1505962519
 released: 2020-04-08
 updated: 2021-09-26
 version: "4.8.0"
-stars: 4.9204
-reviews: 201
+stars: 4.9196
+reviews: 199
 size: 112106496
 website: https://www.bibox.pro
 repository: 

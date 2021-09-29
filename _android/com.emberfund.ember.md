@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.emberfund.ember
 released: 2019-01-24
-updated: 2021-09-23
-version: "9.2"
-stars: 4.5
-ratings: 443
-reviews: 255
+updated: 2021-09-29
+version: "9.3"
+stars: 4.4
+ratings: 446
+reviews: 257
 size: 48M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 From its Google Play description:
 
 > Ember Fund is a **100% non-custodial** crypto wallet and investment platform which means we don’t store your crypto assets, so only you have full control and access to your funds!<br><br>

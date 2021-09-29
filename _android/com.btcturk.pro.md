@@ -10,8 +10,8 @@ released: 2020-09-10
 updated: 2021-09-24
 version: "1.34.0"
 stars: 4.5
-ratings: 139986
-reviews: 42160
+ratings: 140085
+reviews: 42184
 size: 28M
 website: https://pro.btcturk.com/
 repository: 

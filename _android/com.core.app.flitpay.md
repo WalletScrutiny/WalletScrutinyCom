@@ -9,9 +9,9 @@ appId: com.core.app.flitpay
 released: 2017-05-17
 updated: 2021-09-22
 version: "1.0.28"
-stars: 4.7
-ratings: 633
-reviews: 481
+stars: 4.9
+ratings: 720
+reviews: 566
 size: 35M
 website: https://www.flitpay.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.
 
 This information is included in their [Terms and Conditions](https://www.flitpay.com/terms) page:

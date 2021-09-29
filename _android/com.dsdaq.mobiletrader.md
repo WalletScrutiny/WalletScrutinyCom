@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 472
 reviews: 250
 size: 8.1M
-website: https://www.dsdaq.com/ 
+website: https://www.dsdaq.com/
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 Dsdaq's app description explains that it is a trading app:
 

@@ -4,14 +4,14 @@ title: "ZEBEDEE - Bitcoin Lightning Wallet for Gamers"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: io.zebedee.wallet
 released: 2020-10-20
 updated: 2021-08-31
 version: "11.0.0"
 stars: 4.2
-ratings: 50
-reviews: 31
+ratings: 52
+reviews: 32
 size: 117M
 website: https://zebedee.io
 repository: 

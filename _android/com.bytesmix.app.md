@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Additional Observations
 
 This app's social media support is rather odd. The Twitter account appears to constantly retweet posts from a seemingly unrelated homescreen decoration service called Tile Widget.

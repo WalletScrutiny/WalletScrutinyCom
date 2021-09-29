@@ -13,7 +13,7 @@ stars: 4.0
 ratings: 449
 reviews: 105
 size: 88M
-website:  https://o3.network/
+website: https://o3.network/
 repository: https://github.com/O3Labs
 issue: 
 icon: com.o3.o3wallet.png
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the Play Store description:
 

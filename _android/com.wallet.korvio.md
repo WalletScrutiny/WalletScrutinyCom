@@ -10,8 +10,8 @@ released: 2019-06-21
 updated: 2021-03-18
 version: "1.0.25"
 stars: 3.7
-ratings: 485
-reviews: 175
+ratings: 486
+reviews: 176
 size: 20M
 website: https://korvio.io/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 Described in its Google Play, it claims that it is a 'Multichain Blockchain Technology' and that it allows users to:
 
 > sell or exchange your coin without restriction after the initial holding period. 

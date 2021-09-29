@@ -11,7 +11,7 @@ updated: 2021-09-09
 version: "1.4.3.210909"
 stars: 4.6
 ratings: 7148
-reviews: 4305
+reviews: 4306
 size: 29M
 website: https://www.bytetrade.io/
 repository: 

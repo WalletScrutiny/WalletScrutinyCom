@@ -10,7 +10,7 @@ released: 2019-04-22
 updated: 2021-05-22
 version: "3.0.5"
 stars: 3.0
-ratings: 980
+ratings: 981
 reviews: 858
 size: 30M
 website: https://chiji14xchange.com/

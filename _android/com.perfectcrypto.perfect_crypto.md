@@ -9,8 +9,8 @@ appId: com.perfectcrypto.perfect_crypto
 released: 2020-11-09
 updated: 2021-05-16
 version: "1.0.18"
-stars: 4.4
-ratings: 595
+stars: 4.3
+ratings: 598
 reviews: 361
 size: 29M
 website: https://perfectcrypto.net/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 This appears to be a centralized cryptocurrency exchange whose primary language is Persian. 
 
 We tried to register but the service required an Iranian mobile number for verification. 

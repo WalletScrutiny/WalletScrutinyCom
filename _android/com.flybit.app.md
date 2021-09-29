@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The Google Play description highlights several government and regulatory compliances by the exchange. It also details some security features.

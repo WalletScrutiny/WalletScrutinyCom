@@ -32,6 +32,8 @@ providerReddit: genesisvision
 redirect_from:
 
 ---
+
+
 ### Google Play Description
 
 Genesis Vision appears to be a trading and investment platform. From the Play Store description:

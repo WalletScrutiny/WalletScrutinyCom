@@ -9,9 +9,9 @@ appId: com.prestmit
 released: 2021-04-13
 updated: 2021-09-02
 version: "2.4"
-stars: 4.5
-ratings: 519
-reviews: 473
+stars: 4.4
+ratings: 528
+reviews: 479
 size: 9.1M
 website: https://prestmit.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 As described on its Google Play page:

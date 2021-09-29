@@ -9,9 +9,9 @@ appId: io.klever.secure.exchange
 released: 2021-06-30
 updated: 2021-09-23
 version: "1.0.0-beta24"
-stars: 3.9
-ratings: 371
-reviews: 226
+stars: 3.8
+ratings: 374
+reviews: 228
 size: 13M
 website: https://klever.io/en/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 The Klever Exchange is distinct from  {% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}.
 
 ### From their Google Play description

@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 The self-description states that this app is for exchanging bitcoins and gift cards, meaning that it is not primarily a BTC wallet.
 

@@ -10,7 +10,7 @@ released: 2020-10-09
 updated: 2021-07-23
 version: "0.9.8"
 stars: 4.3
-ratings: 353
+ratings: 354
 reviews: 173
 size: 10M
 website: https://arzif.com/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The description says the app can send and receive cryptocurrencies from the Arzif wallet. Supported currencies are BTC, ETH, XRP, TRX, ADA, DASH, BNB, Doge, DigiByte, Polkadot, etc. 

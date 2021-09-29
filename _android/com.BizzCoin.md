@@ -1,5 +1,5 @@
 ---
-wsId: BizzCoin 
+wsId: BizzCoin
 title: "BizzCoin Wallet"
 altTitle: 
 authors:
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the description:
 
