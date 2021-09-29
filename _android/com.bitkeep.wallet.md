@@ -14,12 +14,12 @@ ratings: 841
 reviews: 508
 size: 37M
 website: https://bitkeep.com
-repository: 
+repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
 verdict: nosource
-date: 2020-12-08
+date: 2021-09-29
 signer: 
 reviewArchive:
 

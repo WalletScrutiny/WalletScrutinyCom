@@ -14,22 +14,24 @@ stars: 3.18182
 reviews: 11
 size: 71820288
 website: https://bitkeep.com
-repository: 
+repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-09-29
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BitKeepOS
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitkeep
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

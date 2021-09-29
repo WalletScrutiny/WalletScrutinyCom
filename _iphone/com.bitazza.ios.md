@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitazza.ios.jpg
 bugbounty: 
-verdict: wip
-date: 2021-09-03
+verdict: custodial
+date: 2021-09-29
 signer: 
 reviewArchive:
 
