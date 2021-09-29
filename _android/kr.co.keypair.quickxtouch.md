@@ -1,9 +1,9 @@
 ---
-wsId: krcokeypair
+wsId: keypairQX
 title: "QuickX Touch"
 altTitle: 
 authors:
-
+- leo
 users: 500
 appId: kr.co.keypair.quickxtouch
 released: 2018-10-09

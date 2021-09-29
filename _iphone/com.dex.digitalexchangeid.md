@@ -3,7 +3,7 @@ wsId: digitalexchangeid
 title: "digitalexchangeid"
 altTitle: 
 authors:
-
+- danny
 appId: com.dex.digitalexchangeid
 appCountry: us
 idd: 1498360108
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.dex.digitalexchangeid.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Digiexchangeid
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: digitalexchangeid
 providerReddit: 
 
 redirect_from:

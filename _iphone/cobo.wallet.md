@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Cobo_Wallet
+providerLinkedIn: coboofficial
+providerFacebook: coboOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

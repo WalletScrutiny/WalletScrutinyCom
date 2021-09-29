@@ -1,5 +1,5 @@
 ---
-wsId: hotbit
+wsId: bitclover
 title: "BITCLOVER"
 altTitle: 
 authors:

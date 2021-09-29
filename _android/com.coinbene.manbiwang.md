@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.coinbene.manbiwang.png
 bugbounty: 
-verdict: defunct
+verdict: custodial
 date: 2021-09-16
 signer: 
 reviewArchive:

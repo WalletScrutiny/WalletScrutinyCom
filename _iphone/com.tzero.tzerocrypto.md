@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tzero.tzerocrypto.jpg
 bugbounty: 
-verdict: nowallet
+verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:

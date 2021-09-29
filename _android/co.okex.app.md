@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.okex.app.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-06-18
 signer: 
 reviewArchive:

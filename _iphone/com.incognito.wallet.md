@@ -18,7 +18,7 @@ repository: https://github.com/incognitochain/incognito-wallet
 issue: 
 icon: com.incognito.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2020-12-21
 signer: 
 reviewArchive:
@@ -32,15 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
-This is the iPhone version of {% include walletLink.html wallet='android/com.incognito.wallet' %}
-on Android.
-
-Here we read the same claim as for Android:
-
-> Don’t leave yourself exposed. Go Incognito. It’s non-custodial, decentralized,
-  and completely open-source.
-
-and get to the same conclusion about the state of their source code: Without
-build instructions and all the files, this app cannot be reproduced and remains
-**not verifiable**.
+ {% include copyFromAndroid.html %}

@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: zelcash
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: 
+providerReddit: ZelCash 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

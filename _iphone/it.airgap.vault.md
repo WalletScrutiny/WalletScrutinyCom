@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: it.airgap.vault.jpg
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:

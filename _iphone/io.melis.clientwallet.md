@@ -14,11 +14,11 @@ stars:
 reviews: 
 size: 28587008
 website: http://melis.io
-repository: 
-issue: 
+repository: https://github.com/melis-wallet/melis-cm-client
+issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2020-12-21
 signer: 
 reviewArchive:

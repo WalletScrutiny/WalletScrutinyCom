@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BitKeepOS
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitkeep
 providerReddit: 
 
 redirect_from:
 
 ---
-
+ {% include copyFromAndroid.html %}

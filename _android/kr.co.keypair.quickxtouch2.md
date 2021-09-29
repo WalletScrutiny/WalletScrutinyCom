@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: keypairQX
 title: "QuickX Touch (New)"
 altTitle: 
 authors:

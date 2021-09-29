@@ -3,7 +3,8 @@ wsId: phoenix
 title: "Phoenix Wallet"
 altTitle: 
 authors:
-
+- leo
+- danny
 appId: co.acinq.phoenix
 appCountry: us
 idd: 1544097028
@@ -18,7 +19,7 @@ repository: https://github.com/ACINQ/phoenix-kmm
 issue: 
 icon: co.acinq.phoenix.jpg
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2021-08-16
 signer: 
 reviewArchive:
@@ -32,4 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
