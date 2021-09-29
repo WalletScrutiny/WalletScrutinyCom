@@ -9,9 +9,9 @@ appId: com.bitcoinsuisse.online
 released: 
 updated: 2021-09-21
 version: "0.10"
-stars: 4.1
-ratings: 7
-reviews: 4
+stars: 4.7
+ratings: 6
+reviews: 3
 size: 26M
 website: 
 repository: 

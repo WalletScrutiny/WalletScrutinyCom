@@ -11,7 +11,7 @@ updated: 2021-08-06
 version: "2.7.1"
 stars: 4.5
 ratings: 546
-reviews: 362
+reviews: 363
 size: 230M
 website: https://savl.com/
 repository: 

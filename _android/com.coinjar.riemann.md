@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.coinjar.riemann
 released: 
-updated: 2021-09-27
-version: "2.6.0"
+updated: 2021-09-28
+version: "2.6.1"
 stars: 4.7
-ratings: 1075
-reviews: 776
+ratings: 1080
+reviews: 778
 size: 96M
 website: https://www.coinjar.com
 repository: 

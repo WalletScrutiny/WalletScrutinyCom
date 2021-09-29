@@ -10,7 +10,7 @@ released: 2020-09-21
 updated: 2021-09-15
 version: "v1.7.0"
 stars: 4.2
-ratings: 424
+ratings: 423
 reviews: 204
 size: 86M
 website: https://www.ambergroup.io

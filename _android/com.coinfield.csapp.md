@@ -10,7 +10,7 @@ released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
 stars: 3.4
-ratings: 1059
+ratings: 1058
 reviews: 596
 size: 58M
 website: https://www.coinfield.com/

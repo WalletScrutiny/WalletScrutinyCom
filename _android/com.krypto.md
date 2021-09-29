@@ -10,8 +10,8 @@ released: 2020-04-29
 updated: 2021-09-16
 version: "8.5"
 stars: 4.3
-ratings: 2016
-reviews: 1061
+ratings: 2008
+reviews: 1054
 size: 6.9M
 website: https://letskrypto.com
 repository: 

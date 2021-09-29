@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.oracle.wallet
 released: 2021-01-19
-updated: 2021-09-16
-version: "1.4.6"
+updated: 2021-09-28
+version: "1.4.7"
 stars: 4.6
 ratings: 36
 reviews: 23

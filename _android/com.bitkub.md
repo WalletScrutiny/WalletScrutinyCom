@@ -10,8 +10,8 @@ released: 2019-04-20
 updated: 2021-05-28
 version: "3.7"
 stars: 3.9
-ratings: 12390
-reviews: 6268
+ratings: 12403
+reviews: 6270
 size: 53M
 website: http://www.bitkub.com/
 repository: 
