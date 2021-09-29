@@ -4,7 +4,7 @@ title: "Bitcoin Private Key Finder"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: io.kodular.nandorystudioapps.BPKF
 released: 2021-04-16
 updated: 2021-05-09
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.kodular.nandorystudioapps.BPKF.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

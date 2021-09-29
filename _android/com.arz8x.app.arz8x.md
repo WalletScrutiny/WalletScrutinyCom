@@ -10,8 +10,8 @@ released: 2020-05-08
 updated: 2021-06-16
 version: "2.0.2"
 stars: 4.2
-ratings: 1226
-reviews: 699
+ratings: 1237
+reviews: 705
 size: 32M
 website: https://arz8x.com/
 repository: 

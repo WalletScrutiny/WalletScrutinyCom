@@ -9,9 +9,9 @@ appId: com.newcurrency.coinstrunk.v1
 released: 2020-10-15
 updated: 2021-07-16
 version: "1.10"
-stars: 4.5
-ratings: 262
-reviews: 209
+stars: 4.6
+ratings: 299
+reviews: 242
 size: 6.1M
 website: https://buxtank.com/
 repository: 

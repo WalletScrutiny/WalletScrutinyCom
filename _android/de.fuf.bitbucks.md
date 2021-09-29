@@ -10,8 +10,8 @@ released: 2019-09-03
 updated: 2021-03-18
 version: "1.4.1"
 stars: 4.1
-ratings: 44
-reviews: 17
+ratings: 45
+reviews: 18
 size: 16M
 website: https://www.bitbucks.io
 repository: 

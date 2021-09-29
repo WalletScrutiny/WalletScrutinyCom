@@ -4,7 +4,7 @@ title: "Flyp.me - Crypto Exchange"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: me.flyp.mobile
 released: 2020-03-13
 updated: 2020-10-09
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: me.flyp.mobile.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-01
 signer: 
 reviewArchive:

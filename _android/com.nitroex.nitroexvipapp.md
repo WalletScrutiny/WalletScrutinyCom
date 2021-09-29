@@ -4,14 +4,14 @@ title: "NitroBot - Automated Crypto Trading By NitroEx"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.nitroex.nitroexvipapp
 released: 2020-11-17
 updated: 2020-12-10
 version: "8.0.0"
 stars: 4.4
-ratings: 121
-reviews: 91
+ratings: 122
+reviews: 92
 size: 18M
 website: 
 repository: 

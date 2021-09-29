@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitfyapp
 released: 2019-10-14
 updated: 2021-09-22
-version: "3.10.13"
+version: "3.10.16"
 stars: 4.0
-ratings: 977
-reviews: 640
-size: 33M
+ratings: 979
+reviews: 641
+size: 32M
 website: https://bitfy.app
 repository: 
 issue: 

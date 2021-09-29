@@ -1,6 +1,6 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase – Buy & sell Bitcoin"
+title: "Coinbase: Trade BTC, ETH, DOGE"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2021-09-20
-version: "9.42.2"
-stars: 4.69231
-reviews: 1432898
-size: 102791168
+updated: 2021-09-27
+version: "9.43.2"
+stars: 4.69233
+reviews: 1436060
+size: 103638016
 website: http://www.coinbase.com
 repository: 
 issue: 

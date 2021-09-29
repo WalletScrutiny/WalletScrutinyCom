@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "IXX Pro-Buy bitcoin and other cryptocurrencies"
+title: "Bachex"
 altTitle: 
 authors:
 

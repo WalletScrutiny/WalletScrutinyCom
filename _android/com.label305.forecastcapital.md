@@ -4,7 +4,7 @@ title: "FRCST | Automated Trading"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.label305.forecastcapital
 released: 2020-12-24
 updated: 2021-07-22

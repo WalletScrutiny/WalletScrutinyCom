@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.lyopay
 released: 2020-10-02
-updated: 2021-09-13
-version: "6.7"
+updated: 2021-09-22
+version: "6.8"
 stars: 4.7
-ratings: 405
+ratings: 406
 reviews: 226
 size: 59M
 website: https://lyopay.com/

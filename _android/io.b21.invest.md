@@ -11,7 +11,7 @@ updated: 2021-07-21
 version: "0.7.5"
 stars: 2.9
 ratings: 533
-reviews: 381
+reviews: 380
 size: 39M
 website: https://www.b21.io/
 repository: 

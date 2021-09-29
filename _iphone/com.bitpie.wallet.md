@@ -13,23 +13,24 @@ version: "5.0.047"
 stars: 3.45161
 reviews: 31
 size: 323214336
-website: 
+website: https://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.wallet.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-09-29
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BitpieWallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: BitpieOfficial
+providerReddit: BitpieWallet
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

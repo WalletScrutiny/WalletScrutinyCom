@@ -4,7 +4,7 @@ title: "Buy Sell Signals App"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.BuySellSignals.app
 released: 2019-06-02
 updated: 2019-07-01

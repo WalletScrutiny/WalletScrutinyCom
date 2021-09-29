@@ -1,6 +1,6 @@
 ---
 wsId: mw.org.freewallet
-title: "Freewallet: Bitcoin & Crypto Blockchain Wallet"
+title: "ETH, BTC & Altcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2017-08-10
 updated: 2021-09-16
 version: "1.16.5"
 stars: 4.5
-ratings: 11626
-reviews: 8059
+ratings: 11716
+reviews: 8125
 size: 13M
 website: https://freewallet.org
 repository: 

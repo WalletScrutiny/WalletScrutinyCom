@@ -9,7 +9,7 @@ appId: com.user.cglobank
 released: 2021-04-14
 updated: 2021-06-28
 version: "16"
-stars: 4.6
+stars: 4.5
 ratings: 19
 reviews: 9
 size: 3.8M

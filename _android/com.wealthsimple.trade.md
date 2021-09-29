@@ -8,11 +8,11 @@ users: 1000000
 appId: com.wealthsimple.trade
 released: 
 updated: 2021-09-21
-version: "1.92.0"
+version: "2.0.0"
 stars: 4.6
-ratings: 37514
-reviews: 8239
-size: 213M
+ratings: 37927
+reviews: 8270
+size: 193M
 website: https://www.wealthsimple.com/
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appId: kuna.beta
 released: 2019-07-22
 updated: 2021-09-21
 version: "1.4.2"
-stars: 4.0
-ratings: 687
-reviews: 398
+stars: 4.1
+ratings: 704
+reviews: 413
 size: 88M
 website: https://kuna.io
 repository: 

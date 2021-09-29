@@ -10,8 +10,8 @@ idd: 1446427008
 released: 2019-01-20
 updated: 2021-09-07
 version: "2.3.0"
-stars: 3.25
-reviews: 4
+stars: 3.2
+reviews: 5
 size: 63358976
 website: https://mobile-app.trastra.com/
 repository: 

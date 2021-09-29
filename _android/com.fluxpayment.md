@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.fluxpayment
 released: 2020-09-02
-updated: 2021-09-16
-version: "1.6.36"
-stars: 4.1
-ratings: 128
-reviews: 79
-size: 46M
+updated: 2021-09-28
+version: "1.6.38"
+stars: 4.0
+ratings: 130
+reviews: 81
+size: 47M
 website: 
 repository: 
 issue: 

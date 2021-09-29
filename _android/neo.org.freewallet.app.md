@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "NEO Wallet. Send & Receive the coin－Freewallet"
+title: "NEO Wallet. Send & buy crypto"
 altTitle: 
 authors:
 - kiwilamb

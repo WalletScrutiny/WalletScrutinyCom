@@ -11,7 +11,7 @@ updated: 2021-08-05
 version: "Varies with device"
 stars: 3.2
 ratings: 4710
-reviews: 2712
+reviews: 2713
 size: Varies with device
 website: https://www.indodax.com
 repository: 

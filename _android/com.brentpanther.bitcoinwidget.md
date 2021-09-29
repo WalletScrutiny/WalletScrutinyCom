@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Simple Bitcoin Widget"
+title: "Simple Crypto Widget"
 altTitle: 
 authors:
 
 users: 100000
 appId: com.brentpanther.bitcoinwidget
 released: 2013-03-11
-updated: 2021-08-01
-version: "7.4.6"
+updated: 2021-09-28
+version: "8.0"
 stars: 4.0
-ratings: 1904
-reviews: 761
-size: 3.5M
+ratings: 1909
+reviews: 763
+size: 4.3M
 website: 
 repository: 
 issue: 

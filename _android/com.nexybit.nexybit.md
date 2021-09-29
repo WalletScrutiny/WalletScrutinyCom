@@ -9,8 +9,8 @@ appId: com.nexybit.nexybit
 released: 2018-12-31
 updated: 2019-02-18
 version: "1.0.4"
-stars: 3.8
-ratings: 41
+stars: 3.9
+ratings: 42
 reviews: 25
 size: 1.8M
 website: 

@@ -9,9 +9,9 @@ appId: com.dovewallet.app
 released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
-stars: 3.7
-ratings: 33
-reviews: 23
+stars: 3.6
+ratings: 34
+reviews: 24
 size: 29M
 website: 
 repository: 

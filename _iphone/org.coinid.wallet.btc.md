@@ -10,8 +10,8 @@ idd: 1370200585
 released: 2018-10-10
 updated: 2021-02-20
 version: "1.8.0"
-stars: 4.68182
-reviews: 44
+stars: 4.68889
+reviews: 45
 size: 18523136
 website: https://coinid.org
 repository: 

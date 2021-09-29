@@ -9,9 +9,9 @@ appId: com.zedXeWallet
 released: 2020-05-07
 updated: 2020-06-11
 version: "1.8"
-stars: 4.6
-ratings: 31
-reviews: 26
+stars: 4.5
+ratings: 32
+reviews: 27
 size: 39M
 website: 
 repository: 

@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.cryptojournal.crypto.com.buy.bitcoin.now.png
 bugbounty: 
-verdict: fake
-date: 2021-09-15
+verdict: defunct
+date: 2021-09-24
 signer: 
 reviewArchive:
-
+- date: 2021-09-15
+  version: "1.0"
+  appHash: 
+  gitRevision: ea17bbf5f795b3825277e5e18d146ed9eb1d2be3
+  verdict: fake
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-09-16**: This app is no more.
 
 This review was made in relation to a similar app with an almost identical appID.
 

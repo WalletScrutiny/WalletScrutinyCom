@@ -10,7 +10,7 @@ idd: 1328764142
 released: 2018-01-02
 updated: 2021-09-15
 version: "2.24.0"
-stars: 4.12195
+stars: 4.04878
 reviews: 41
 size: 87801856
 website: http://coolwallet.io

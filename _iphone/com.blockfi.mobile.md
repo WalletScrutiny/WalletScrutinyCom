@@ -8,11 +8,11 @@ appId: com.blockfi.mobile
 appCountry: 
 idd: 1506274532
 released: 2020-05-05
-updated: 2021-09-16
-version: "4.4.1"
-stars: 3.29213
-reviews: 356
-size: 23334912
+updated: 2021-09-23
+version: "4.5.0"
+stars: 3.2938
+reviews: 371
+size: 26001408
 website: https://blockfi.com/
 repository: 
 issue: 

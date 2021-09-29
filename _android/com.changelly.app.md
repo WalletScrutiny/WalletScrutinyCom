@@ -9,9 +9,9 @@ appId: com.changelly.app
 released: 2018-08-28
 updated: 2021-08-16
 version: "2.7.9"
-stars: 4.7
-ratings: 3214
-reviews: 1709
+stars: 4.8
+ratings: 3247
+reviews: 1723
 size: 45M
 website: 
 repository: 

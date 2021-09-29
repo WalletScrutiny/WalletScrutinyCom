@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.bitcoinira
 released: 
-updated: 2021-08-30
-version: "1.3.8"
+updated: 2021-09-28
+version: "1.3.10"
 stars: 4.6
-ratings: 109
-reviews: 35
+ratings: 116
+reviews: 39
 size: 118M
 website: 
 repository: 

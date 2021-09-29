@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: coin24.mobile.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: stale
+date: 2021-09-24
 signer: 
 reviewArchive:
 
