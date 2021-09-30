@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 released: 2018-04-12
-updated: 2021-05-20
-version: "0.4.16"
+updated: 2021-09-28
+version: "0.4.17"
 stars: 3.9
 ratings: 363
 reviews: 171

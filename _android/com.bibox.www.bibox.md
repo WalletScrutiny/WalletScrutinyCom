@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.bibox.www.bibox
 released: 2019-03-24
-updated: 2021-07-05
-version: "4.6.7"
+updated: 2021-09-29
+version: "4.8.1"
 stars: 4.3
-ratings: 797
-reviews: 416
-size: 37M
+ratings: 801
+reviews: 417
+size: 47M
 website: https://www.bibox.com
 repository: 
 issue: 

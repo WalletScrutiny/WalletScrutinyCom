@@ -4,7 +4,7 @@ title: "ForgingBlock POS"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: io.app.forgingblock
 released: 2020-10-20
 updated: 2020-10-20

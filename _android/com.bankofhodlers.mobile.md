@@ -7,16 +7,16 @@ authors:
 users: 50000
 appId: com.bankofhodlers.mobile
 released: 2020-04-30
-updated: 2021-09-17
-version: "2.3.6"
-stars: 3.7
-ratings: 894
-reviews: 485
+updated: 2021-09-27
+version: "2.3.7"
+stars: 4.1
+ratings: 971
+reviews: 521
 size: 28M
 website: https://www.vauld.com/
 repository: 
 issue: 
-icon: com.bankofhodlers.mobile.png
+icon: com.bankofhodlers.mobile.jpg
 bugbounty: 
 verdict: custodial
 date: 2021-05-08

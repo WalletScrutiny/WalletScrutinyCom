@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "7b. Trade Bitcoin securely."
+title: "7b — Trade Bitcoin & Exchange Crypto securely"
 altTitle: 
 authors:
 

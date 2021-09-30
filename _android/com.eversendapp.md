@@ -10,8 +10,8 @@ released: 2019-02-01
 updated: 2021-09-25
 version: "0.2.07"
 stars: 4.0
-ratings: 2902
-reviews: 1386
+ratings: 2929
+reviews: 1395
 size: 53M
 website: https://eversend.co/
 repository: 

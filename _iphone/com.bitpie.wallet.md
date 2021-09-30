@@ -13,7 +13,7 @@ version: "5.0.047"
 stars: 3.45161
 reviews: 31
 size: 323214336
-website: http://bitpie.com
+website: https://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.wallet.jpg
