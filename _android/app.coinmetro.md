@@ -53,7 +53,7 @@ CoinMetro's [Terms of Use](https://coinmetro.com/terms-of-use)
 
 Section 2.1 provides insight on the wallets they provide:
 
-> The CoinMetro Platform provides you access to and use of a number of exchange wallets for the purposes of storing, tracking, transferring, managing and trading balances of supported digital assets as well as certain types of funds as specified by CoinMetro from time to time.
+> The CoinMetro Platform provides you access to and use of a number of exchange **wallets for the purposes of storing, tracking, transferring, managing and trading balances of supported digital assets** as well as certain types of funds as specified by CoinMetro from time to time.
 
 **Withdrawal Limits**
 
@@ -65,7 +65,7 @@ Section 2.1 provides insight on the wallets they provide:
 
 ### The App
 
-We downloaded the app and installed on Blue Stacks. Before being able to use the app or service, the site requires user verification.
+We downloaded the app and installed on Blue Stacks. Before being able to use the app or service, the site requires user verification. We were not able to proceed beyond that.
 
 ### Verdict
 

@@ -1,5 +1,5 @@
 ---
-wsId: mode
+wsId: Mode
 title: "Mode: Buy, Hold & Grow Bitcoin"
 altTitle: 
 authors:
@@ -40,8 +40,6 @@ From the description:
 It sounds and looks like a trading platform.
 
 > Here are all the things you can do with Mode:  
-> Open an account in under 60 seconds:
-> - Download the app and sign up for free
 > - Access your Bitcoin anytime and anywhere
 > - Complete a simple ID verification and top up GBP via 'Open Banking'
 
@@ -59,10 +57,10 @@ From Terms of Service:
 
 [Bitgo is a custodial service:](https://www.bitgo.com/services/custody/qualified-custody/)
 
-> Safeguard your digital assets with our qualified, insured cold storage custody at BitGo Trust Company—a regulated Trust Company under the Division of Banking in South Dakota
+> Safeguard your digital assets with our qualified, insured **cold storage custody** at BitGo Trust Company—a regulated Trust Company under the Division of Banking in South Dakota
 
 ### The App
-Unfortunately we were not able to access this app due to region restrictions.
+Unfortunately we were not able to access this app due to regional restrictions.
 
 ### Verdict
 Our verdict for this app is **custodial.** Thus, it is **not verifiable.**

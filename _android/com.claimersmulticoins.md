@@ -60,5 +60,5 @@ It featured another page that had thumbnails of wallet providers such as coinbas
 
 ### Verdict
 
-This app has no wallet.
+This app has **no wallet.**
 

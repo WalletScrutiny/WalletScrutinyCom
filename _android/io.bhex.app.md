@@ -34,7 +34,7 @@ redirect_from:
 ---
 ### App Description
 
-From the carousel in Google play, it seems to be a centralized cryptocurrency exchange. That's how it is described:
+From the carousel in Google play, it seems to be a centralized cryptocurrency exchange.
 
 > HBTC Exchange is a 100% token holders owned trading platform that is jointly invested by Huobi, OKEx and 56 other world-class institutions.
 
@@ -56,9 +56,9 @@ We downloaded the app on Blue Stacks and tried to register but failed. The messa
 
 > The feature has been suspended. 
 
-It is likely that this has something to do with the People's Republic of China crackdown on crypto, since we both tried signing-up on the website and on the app. Both attempts yielded the same error.
+It is likely that this has something to do with the People's Republic of China crackdown on crypto, since we tried signing-up on both the website and on the app. Both attempts yielded the same error.
 
 ### Verdict
 
-As this is a centralized cryptocurrency exchange. It is highly probably that it is a **custodial** service and thus **not verifiable**
+As this is a centralized cryptocurrency exchange. It is highly probable that it is a **custodial** service and thus **not verifiable**
 

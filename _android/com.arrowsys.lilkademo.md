@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 216
 reviews: 51
 size: 21M
-website: 
+website: https://lilka.cz/
 repository: 
 issue: 
 icon: com.arrowsys.lilkademo.png

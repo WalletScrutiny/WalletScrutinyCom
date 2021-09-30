@@ -51,11 +51,11 @@ From the [General Terms and Conditions:](https://bykep.com/en/terms-of-sales-wal
 
 > BYKEP undertakes to store your Crypto-actives securely in your BYKEP Crypto-Wallet. The storage of access to your Crypto-actives is carried out on unconnected media (Cold Storage), thus guaranteeing the integrity of your private key.
 > - 5.2 The security protocols in place guarantee You access to your Crypto-actives by protecting them against the risk of loss, forgetting or deterioration of traditional means of access.
-> - The management of access rights within BYKEP allows to limit access to the BYKEP Crypto-Wallet while preserving access in case of internal failure (operational resilience).
-> - BYKEP is responsible for controlling the means of access to your Crypto-actives (private cryptographic keys) and for entering the balance of your Crypto-actives in your Crypto-Wallet BYKEP. However, Keplerk is not responsible for the possession of your login credentials allowing access to your BYKEP Crypto-Wallet, for which You alone are responsible.
-> - BYKEP undertakes to comply with the principles of segregation of Crypto-actives, prohibition of the use of Crypto-actives of the Customers unless otherwise agreed by the Customers, and return of Crypto-actives in accordance with the terms defined in these GTC.
+> - 5.3 The management of access rights within BYKEP allows to limit access to the BYKEP Crypto-Wallet while preserving access in case of internal failure (operational resilience).
+> - 5.4 BYKEP is responsible for controlling the means of access to your Crypto-actives (private cryptographic keys) and for entering the balance of your Crypto-actives in your Crypto-Wallet BYKEP. However, Keplerk is not responsible for the possession of your login credentials allowing access to your BYKEP Crypto-Wallet, for which You alone are responsible.
+> - 5.5 BYKEP undertakes to comply with the principles of segregation of Crypto-actives, prohibition of the use of Crypto-actives of the Customers unless otherwise agreed by the Customers, and return of Crypto-actives in accordance with the terms defined in these GTC.
 
 Keys are definitely on the side of the providers.
 
 ### Verdict
-This app is clearly custodial. Thus it is **not verifiable.**
+This app is clearly **custodial**. Thus it is **not verifiable.**

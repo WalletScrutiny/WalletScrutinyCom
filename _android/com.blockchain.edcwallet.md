@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: EDCBlockchainMN
 title: "Blockchain.mn"
 altTitle: 
 authors:

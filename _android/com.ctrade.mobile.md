@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CTrade
 title: "C-Trade"
 altTitle: 
 authors:
@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 ### App Description
-C-Trade appears to be a trading platform:
+C-Trade is a centralized trading platform:
 
 > Trade crypto perpetual contracts and derivatives in our convenient mobile app! We make it easier and faster to trade BTC and ETH on your mobile device.
 

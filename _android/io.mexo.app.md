@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: Mexo
 title: "Mexo.io - - Bitcoin, Cripto & Más"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 1.9
 ratings: 271
 reviews: 212
 size: 45M
-website: 
+website: http://mexo.io/
 repository: 
 issue: 
 icon: io.mexo.app.png
@@ -41,16 +41,14 @@ From the app description:
 
 Mexo has the interface of an exchange and states that it is among the top 30 on Coinmarketcap.
 
-(_However, as of this date, [it is now ranked in the 100s.](https://coinmarketcap.com/rankings/exchanges/)_)
-
-In Google Play, reviewers report delays in the verification process.
+In Google Play, a lot of reviewers report delays in the verification process. As of the date of this writing, the overall Google Play rating is just 1.9.
 
 > [Firoz Kureshi](https://play.google.com/store/apps/details?id=io.mexo.app&reviewId=gp%3AAOqpTOHfsOALOjnZzu3w992TM9z-S9h9_sUmopfbv-pAlD5vJJZUbziGl3bOVFZnehO5pZlX8dQ_3BgavlWh90Y)<br>
   ★★☆☆☆ September 12, 2021 <br>
   Verification process takes so much time , from 4 days still my verification is in progress, not completed .
        
 ### The Site
-Additionally, Mexo has [a blog post](https://blog.mexo.io/how-to-buy-bitcoin/) directly stating that it is a custodial platform.
+Mexo has [a blog post](https://blog.mexo.io/how-to-buy-bitcoin/) directly stating that it is a custodial platform.
 
 > Most cryptocurrency exchanges, __including Mexo__, allow you to securely custody Bitcoin on their platform after purchase.  If you are not familiar with how to store your own private key or have zero experience in Bitcoin wallet, then it could be easier for you to store your asset on a trustable exchange.
 

@@ -42,13 +42,11 @@ From the app description:
 ### The Site
 From Terms and Conditions - Acceptance of the terms of use:
 
-Original:
-> _Al solicitar la verificación de una cuenta, usted autoriza a Vita Wallet para que, directamente o a través de terceros, realice las averiguaciones, consultas, cruces de bases de datos y cualquier otra acción que sea considerada como estrictamente necesaria para verificar su identidad y cumplir con las disposiciones vigentes en materia de prevención de lavado de activos y fraude, financiamiento del terrorismo y cohecho. Vita Wallet se reserva el derecho de solicitar información o documentación adicional a sus usuarios, inclusive después de verificada dicha cuenta, solamente con fines de verificación de identidad._
-
-Translated by Google:
 > By requesting the verification of an account, you authorize Vita Wallet to, directly or through third parties, carry out inquiries, queries, database crossings and any other action that is considered strictly necessary to verify your identity and comply with current provisions regarding the prevention of money laundering and fraud, financing of terrorism and bribery. Vita Wallet reserves the right to request additional information or documentation from its users, even after the account has been verified, only for identity verification purposes.
 
-Vita appears to be using KYC verification.
+Furthermore, it has clauses for the suspension of services:
+
+> Vita Wallet may cancel the account of any user, by email notification, unless a judicial or administrative authority requests otherwise. You can also suspend access to your services if we suspect that the user has breached these terms of use; if it represents a risk of fraud;
 
 ### The App
 To verify this, we installed the app. Upon registering to Vita, you are asked to complete identity verification, submitting personal information including your name, occupation, residential information, and identification documents.

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: SmartWallet
 title: "SmartWallet"
 altTitle: 
 authors:
