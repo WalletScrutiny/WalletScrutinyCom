@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.mfcoin.wallet.dev.png
 bugbounty: 
-verdict: obfuscated
-date: 2021-03-03
+verdict: stale
+date: 2021-09-29
 signer: 
 reviewArchive:
-
+- date: 2021-03-03
+  version: "v4.0.0"
+  appHash: 
+  gitRevision: b1d801e5a5de6511cd5dfc68a1d835dd86580a4c
+  verdict: obfuscated
 
 providerTwitter: MFC_tech
 providerLinkedIn: groups/13539593
