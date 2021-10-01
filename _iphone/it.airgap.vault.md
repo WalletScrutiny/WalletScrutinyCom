@@ -19,7 +19,7 @@ issue:
 icon: it.airgap.vault.jpg
 bugbounty: 
 verdict: nonverifiable
-date: 2020-12-19
+date: 2021-09-29
 signer: 
 reviewArchive:
 
