@@ -8,20 +8,25 @@ appId: com.plunien.app.Poloniex
 appCountry: 
 idd: 1234141021
 released: 2017-05-14
-updated: 2018-10-04
-version: "1.19.0"
+updated: 2021-09-30
+version: "1.20.0"
 stars: 4.59033
 reviews: 2026
-size: 89206784
+size: 89141248
 website: https://www.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: wip
+date: 2021-10-01
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.19.0"
+  appHash: 
+  gitRevision: cef882a172e361d81c876dd5bc849a1a6f6cfeda
+  verdict: obsolete
 - date: 2021-05-20
   version: "1.17.0"
   appHash: 

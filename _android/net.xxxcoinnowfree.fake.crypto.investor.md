@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: net.xxxcoinnowfree.fake.crypto.investor.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-09-01
+verdict: defunct
+date: 2021-10-01
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-22**: This app is not on the Play Store anymore.

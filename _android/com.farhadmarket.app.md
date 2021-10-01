@@ -10,8 +10,8 @@ released: 2019-07-08
 updated: 2021-05-13
 version: "1.9.99"
 stars: 4.1
-ratings: 939
-reviews: 333
+ratings: 943
+reviews: 335
 size: 11M
 website: https://farhadmarket.com/
 repository: 

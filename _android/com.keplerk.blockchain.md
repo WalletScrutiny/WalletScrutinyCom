@@ -9,7 +9,7 @@ appId: com.keplerk.blockchain
 released: 2020-02-14
 updated: 2021-09-27
 version: "3.3.0"
-stars: 3.8
+stars: 3.9
 ratings: 308
 reviews: 162
 size: 41M

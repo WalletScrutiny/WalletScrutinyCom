@@ -18,12 +18,15 @@ repository:
 issue: 
 icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
 bugbounty: 
-verdict: fake
-date: 2021-09-15
+verdict: defunct
+date: 2021-10-01
 signer: 
 reviewArchive:
-
-
+- date: 2021-09-15
+  version: "1.0"
+  appHash: 
+  gitRevision: 1affac09e44aac882f7dcb9601fc1371f75004fe
+  verdict: fake
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -33,6 +36,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-09-22**: This app is not on the Play Store anymore.
 
 **Warning:** It is advisable to proceed with caution when downloading this app. 
 

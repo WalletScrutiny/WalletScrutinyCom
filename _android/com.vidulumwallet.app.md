@@ -4,14 +4,14 @@ title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.vidulumwallet.app
 released: 2019-04-04
 updated: 2019-04-05
 version: "1.2"
 stars: 4.2
-ratings: 91
-reviews: 67
+ratings: 92
+reviews: 68
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app

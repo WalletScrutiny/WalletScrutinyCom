@@ -4,7 +4,7 @@ title: "Globular"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: it.inbitcoin.globular
 released: 2019-06-07
 updated: 2020-01-26

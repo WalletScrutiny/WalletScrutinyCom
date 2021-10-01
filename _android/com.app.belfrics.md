@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.app.belfrics
 released: 2017-10-17
-updated: 2021-09-20
-version: "2.1.3"
+updated: 2021-09-24
+version: "2.1.4"
 stars: 3.4
 ratings: 70
 reviews: 47

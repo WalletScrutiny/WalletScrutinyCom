@@ -1,18 +1,18 @@
 ---
 wsId: ftxus
-title: "FTX US"
+title: "FTXUS Pro"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: com.ftxmobile.ftxus
 released: 2020-05-18
-updated: 2021-01-28
-version: "1.1.0"
+updated: 2021-09-29
+version: "1.1.4"
 stars: 3.5
-ratings: 276
+ratings: 279
 reviews: 246
-size: 46M
+size: 61M
 website: 
 repository: 
 issue: 
