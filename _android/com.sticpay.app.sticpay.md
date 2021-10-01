@@ -19,7 +19,7 @@ issue:
 icon: com.sticpay.app.sticpay.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

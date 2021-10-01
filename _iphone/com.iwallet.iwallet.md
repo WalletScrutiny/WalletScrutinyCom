@@ -19,7 +19,7 @@ issue:
 icon: com.iwallet.iwallet.jpg
 bugbounty: 
 verdict: nosource
-date: 2020-12-22
+date: 2021-10-01
 signer: 
 reviewArchive:
 

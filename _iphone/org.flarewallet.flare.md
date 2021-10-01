@@ -17,7 +17,7 @@ issue:
 icon: org.flarewallet.flare.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-02-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

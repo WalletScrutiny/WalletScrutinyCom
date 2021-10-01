@@ -19,7 +19,7 @@ issue:
 icon: com.patriciaapp.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-27
+date: 2021-10-01
 signer: 
 reviewArchive:
 

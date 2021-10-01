@@ -19,7 +19,7 @@ issue:
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: obsolete
-date: 2021-08-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

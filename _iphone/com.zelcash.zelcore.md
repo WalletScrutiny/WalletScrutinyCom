@@ -19,7 +19,7 @@ issue:
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
 verdict: nosource
-date: 2020-12-22
+date: 2021-10-01
 signer: 
 reviewArchive:
 

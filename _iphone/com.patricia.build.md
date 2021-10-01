@@ -19,7 +19,7 @@ issue:
 icon: com.patricia.build.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-09-08
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2021-09-03

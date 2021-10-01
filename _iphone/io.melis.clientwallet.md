@@ -19,7 +19,7 @@ issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.jpg
 bugbounty: 
 verdict: nonverifiable
-date: 2020-12-21
+date: 2021-10-01
 signer: 
 reviewArchive:
 

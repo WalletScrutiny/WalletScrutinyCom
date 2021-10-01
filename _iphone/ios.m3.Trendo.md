@@ -19,7 +19,7 @@ issue:
 icon: ios.m3.Trendo.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-09-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

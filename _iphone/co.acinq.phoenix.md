@@ -20,7 +20,7 @@ issue:
 icon: co.acinq.phoenix.jpg
 bugbounty: 
 verdict: nonverifiable
-date: 2021-08-16
+date: 2021-10-01
 signer: 
 reviewArchive:
 

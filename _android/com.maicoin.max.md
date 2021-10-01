@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.max.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-01
 signer: 
 reviewArchive:
 

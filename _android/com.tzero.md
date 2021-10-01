@@ -19,7 +19,7 @@ issue:
 icon: com.tzero.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-10-01
 signer: 
 reviewArchive:
 

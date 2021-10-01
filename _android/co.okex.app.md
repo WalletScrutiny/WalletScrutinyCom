@@ -19,7 +19,7 @@ issue:
 icon: co.okex.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-06-18
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2020-11-16

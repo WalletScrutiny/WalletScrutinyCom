@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 verdict: nosource
-date: 2021-03-06
+date: 2021-10-01
 signer: 
 reviewArchive:
 

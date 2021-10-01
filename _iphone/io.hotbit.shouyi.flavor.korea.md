@@ -20,7 +20,7 @@ issue:
 icon: io.hotbit.shouyi.flavor.korea.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

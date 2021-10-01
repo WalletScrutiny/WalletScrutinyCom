@@ -19,7 +19,7 @@ issue:
 icon: io.chainbase.global.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-19
+date: 2021-10-01
 signer: 
 reviewArchive:
 

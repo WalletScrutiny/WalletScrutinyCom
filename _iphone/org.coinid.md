@@ -19,7 +19,7 @@ issue:
 icon: org.coinid.jpg
 bugbounty: 
 verdict: nonverifiable
-date: 2020-12-21
+date: 2021-10-01
 signer: 
 reviewArchive:
 

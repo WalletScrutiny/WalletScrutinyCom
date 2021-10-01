@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.maicoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-01
 signer: 
 reviewArchive:
 
