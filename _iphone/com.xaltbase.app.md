@@ -3,7 +3,7 @@ wsId: 100xaltbase
 title: "100xAltbase"
 altTitle: 
 authors:
-
+- danny
 appId: com.xaltbase.app
 appCountry: us
 idd: 1570826163
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.xaltbase.app.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-09-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: 100XCoin_
+providerLinkedIn: 100xCoin
+providerFacebook: 100xcoinFB 
 providerReddit: 
 
 redirect_from:

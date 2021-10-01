@@ -13,12 +13,12 @@ version: "8.9.2"
 stars: 3.83333
 reviews: 6
 size: 34938880
-website: 
+website: https://www.polispay.com
 repository: 
 issue: 
 icon: com.polispay.polispay.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-wsId: FreeWallet
+wsId: FreeWalletIO
 title: "FreeWallet"
 altTitle: 
 authors:

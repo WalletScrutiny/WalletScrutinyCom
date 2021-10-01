@@ -1,5 +1,5 @@
 ---
-wsId: krcokeypair
+wsId: keypairNIXPAY
 title: "NiXPAY"
 altTitle: 
 authors:

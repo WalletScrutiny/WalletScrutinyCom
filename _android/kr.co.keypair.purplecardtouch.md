@@ -1,5 +1,5 @@
 ---
-wsId: krcokeypair
+wsId: keypairPURPLE
 title: "Purple Touch"
 altTitle: 
 authors:

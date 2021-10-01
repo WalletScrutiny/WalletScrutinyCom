@@ -16,7 +16,7 @@ repository:
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
-verdict: defunct
+verdict: nosource
 date: 2021-02-17
 signer: 
 reviewArchive:
@@ -29,6 +29,10 @@ providerReddit:
 
 redirect_from:
 
+---
+ {% include copyFromAndroid.html %}
+
+Old Review
 ---
 
 **Update:** We did not get to review this app before it was removed from the App

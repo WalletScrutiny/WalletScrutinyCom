@@ -18,7 +18,7 @@ repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2020-12-21
 signer: 
 reviewArchive:

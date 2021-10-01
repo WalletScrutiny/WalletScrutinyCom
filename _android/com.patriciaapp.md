@@ -32,8 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
-
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!
 
 Ok, so it sounds like a BTC wallet.

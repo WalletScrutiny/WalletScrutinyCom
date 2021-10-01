@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.pumapay.pumawallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: PumaPay
+providerLinkedIn: decentralized-vision
+providerFacebook: PumaPayOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

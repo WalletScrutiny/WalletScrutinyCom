@@ -1,5 +1,5 @@
 ---
-wsId: krcokeypair
+wsId: keypairAFIN
 title: "AFIN Touch"
 altTitle: 
 authors:

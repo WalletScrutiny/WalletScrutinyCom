@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.viabtc.ViaWallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: viawallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: ViaWallet
+providerReddit:  
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

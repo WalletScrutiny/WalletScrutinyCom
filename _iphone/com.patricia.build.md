@@ -37,8 +37,7 @@ providerReddit:
 redirect_from:
 
 ---
-
-**Update 2021-08-31**: This app is no more available.
+**Update 2021-09-29**: This app is not available anymore in the Apple store.
 
 
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!

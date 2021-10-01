@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: io.sylo.dapp.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: sylo
+providerLinkedIn: sylo.io
+providerFacebook: sylo.io
+providerReddit: sylo_io
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

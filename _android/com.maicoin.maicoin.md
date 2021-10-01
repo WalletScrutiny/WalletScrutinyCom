@@ -1,5 +1,5 @@
 ---
-wsId: MaiCoin
+wsId: maicoin
 title: "MaiCoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:

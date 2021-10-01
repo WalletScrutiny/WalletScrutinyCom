@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
-{% include copyFromAndroid.html %}
+ {% include copyFromAndroid.html %}

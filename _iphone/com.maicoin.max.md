@@ -1,5 +1,5 @@
 ---
-wsId: MaiCoin
+wsId: maxmaicoin
 title: "MAX Exchange - Buy Bitcoin"
 altTitle: 
 authors:
