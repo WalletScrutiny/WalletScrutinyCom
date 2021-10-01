@@ -42,27 +42,6 @@ The app is described as offering services that allow users to buy and sell Bitco
 
 It describes itself as a [licensed custodian](https://www.rain.bh/)
 
-> The majority of our cryptocurrency funds are stored offline in Rain's proprietary Cold Storage system. We use bank-grade security, encryption, and are committed to complying with CCSS requirements.
-
-Furthermore, it is licensed by the Central Bank of Bahrain, has an AML policy and is also Sharia compliant.
-
-Rain Financial's [User Terms and Conditions](https://www.rain.bh/legal-policies/terms/agreement) further bolsters the hypothesis that Rain is a custodial service:
-
-> Reasonable Care. We use commercially reasonable efforts to provide you with a reliable and secure platform, including an electronic trading platform and custody service.
-
-#### Digital Currency Withdrawal
-
-The withdrawal of digital currencies is monitored and controlled by the exchange:
-
-> Deposits and withdrawals of Digital Currencies will be processed **based on the authentication and approval procedures prescribed by Rain** from time to time and may be delayed in the event of scheduled downtime or disruptions in the network we use. We are not responsible for any delays in deposits or withdrawals of fiat currency or Digital Currencies. You agree, represent, and warrant that all funds in your account, or funds exchanged or to be exchanged by you in the future on Rain, are not the direct or indirect proceeds of any criminal or fraudulent activity.
-
-### The App
-
-We downloaded the app and registered. After email and mobile phone verification, it then asked us our country of residence and were quickly denied with a message:
-
-> ### Application Denied<br>
-Please reach out to support@rain.bh with any questions, or comments. A 24-hour response is guaranteed.
-
 ### Verdict
 
 Despite our inability to successfully use and register the app, it is clear that this is a **custodial** service and therefore, **not verifiable**

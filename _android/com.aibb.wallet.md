@@ -116,7 +116,7 @@ Selecting 'Private Keys' opens a menu with a gallery of 12 coins. Bitcoin is inc
 
 ### Contact
 
-We reached out to Blockbank via [twitter](https://twitter.com/dannybuntu/status/1441354577811361792) and their onpage chat support.
+We reached out to Blockbank via their onpage chat support.
 
 ### Verdict
 

@@ -34,7 +34,7 @@ redirect_from:
 ---
 ### Google Play
 
-The app is described as an on-ramp and off-ramp bitcoin cash exchange. It allows users to receive, store and send Bitcoin. It is also possible to sell bitcoins and pick-up the cash from several locations. Security-wise, it claims:
+The app is described as an on-ramp and off-ramp bitcoin and cash exchange. It allows users to receive, store and send Bitcoin. It is also possible to sell bitcoins and pick-up the cash from several locations. Security-wise, it claims:
 
 > Assets are secured with industry-leading, bank-level security. Your account requires mobile phone 2FA. Sophisticated anti-fraud analysis tools are employed to monitor for any suspicious activity.
 
