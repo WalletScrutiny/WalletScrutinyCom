@@ -19,7 +19,7 @@ issue:
 icon: com.forextb.forextb.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-01
+date: 2021-10-01
 signer: 
 reviewArchive:
 

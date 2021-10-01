@@ -19,7 +19,7 @@ issue:
 icon: com.truthx.truthx.png
 bugbounty: 
 verdict: nowallet
-date: 2021-09-30
+date: 2021-10-01
 signer: 
 reviewArchive:
 

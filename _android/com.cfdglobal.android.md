@@ -19,7 +19,7 @@ issue:
 icon: com.cfdglobal.android.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-01
+date: 2021-10-01
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.simpleswapapp.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-01
+date: 2021-10-01
 signer: 
 reviewArchive:
 

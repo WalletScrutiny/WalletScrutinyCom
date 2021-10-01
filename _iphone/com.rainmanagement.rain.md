@@ -19,7 +19,7 @@ issue:
 icon: com.rainmanagement.rain.jpg
 bugbounty: 
 verdict: wip
-date: 2021-09-25
+date: 2021-10-01
 signer: 
 reviewArchive:
 
