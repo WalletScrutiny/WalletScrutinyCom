@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.criptohub.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-09-29
 signer: 
 reviewArchive:
-
+- date: 2021-08-17
+  version: "1.0.6"
+  appHash: 
+  gitRevision: b1d801e5a5de6511cd5dfc68a1d835dd86580a4c
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 

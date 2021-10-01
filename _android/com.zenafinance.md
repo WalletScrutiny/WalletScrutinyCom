@@ -9,9 +9,9 @@ appId: com.zenafinance
 released: 2020-12-17
 updated: 2021-07-29
 version: "2.1.2"
-stars: 3.6
-ratings: 58
-reviews: 47
+stars: 3.5
+ratings: 59
+reviews: 48
 size: 29M
 website: 
 repository: 

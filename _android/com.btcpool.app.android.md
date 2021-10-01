@@ -9,9 +9,9 @@ appId: com.btcpool.app.android
 released: 2020-02-25
 updated: 2021-09-09
 version: "1.1.1"
-stars: 4.0
-ratings: 144
-reviews: 56
+stars: 4.1
+ratings: 147
+reviews: 58
 size: 28M
 website: 
 repository: 

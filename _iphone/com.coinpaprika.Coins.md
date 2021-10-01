@@ -10,8 +10,8 @@ idd: 1475233621
 released: 2019-12-03
 updated: 2021-05-21
 version: "2.6.1"
-stars: 4.74753
-reviews: 709
+stars: 4.74824
+reviews: 711
 size: 66036736
 website: http://coins.coinpaprika.com
 repository: 
