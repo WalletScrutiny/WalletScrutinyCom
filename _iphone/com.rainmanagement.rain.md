@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: rainfinancial
 title: "Rain: Buy & Sell Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.rainmanagement.rain
 appCountry: bh
 idd: 1414619890
@@ -13,7 +13,7 @@ version: "2.3.9"
 stars: 4.70146
 reviews: 1427
 size: 46090240
-website: 
+website: https://www.rain.bh/
 repository: 
 issue: 
 icon: com.rainmanagement.rain.jpg
@@ -24,12 +24,14 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: rainfinancial
+providerLinkedIn: rainfinancial
+providerFacebook: rainfinancial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

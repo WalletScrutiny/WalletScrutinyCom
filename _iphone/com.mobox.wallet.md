@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: MOBOX
 title: "Mobox Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.mobox.wallet
 appCountry: us
 idd: 1545109501
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: com.mobox.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: MOBOX_Official
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

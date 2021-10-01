@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: ForexTB
 title: "ForexTB: Online Trading"
 altTitle: 
 authors:

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ForexTB
 title: "ForexTB: Online Trading"
 altTitle: 
 authors:
-
+- danny
 appId: com.forextb.forextb
 appCountry: dk
 idd: 1532850884
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.forextb.forextb.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

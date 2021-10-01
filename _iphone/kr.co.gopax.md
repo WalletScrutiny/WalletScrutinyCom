@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: gopax
 title: "고팍스 - GOPAX"
 altTitle: 
 authors:
-
+- danny
 appId: kr.co.gopax
 appCountry: kr
 idd: 1369896843
@@ -13,12 +13,12 @@ version: "1.6.6"
 stars: 2.90338
 reviews: 414
 size: 45005824
-website: https://www.gopax.co.kr/notice
+website: https://www.gopax.co.kr/
 repository: 
 issue: 
 icon: kr.co.gopax.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}
