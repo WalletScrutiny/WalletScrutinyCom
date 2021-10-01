@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: co.asachs.bitbuddy.png
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: stale
+date: 2021-09-24
 signer: 
 reviewArchive:
 

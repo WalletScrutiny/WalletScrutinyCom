@@ -9,9 +9,9 @@ appId: com.bitshield.bitshieldwallet
 released: 2020-06-09
 updated: 2021-04-12
 version: "1.28"
-stars: 5.0
-ratings: 1715
-reviews: 1232
+stars: 4.9
+ratings: 1717
+reviews: 1234
 size: 65M
 website: https://bitshieldwallet.com
 repository: 

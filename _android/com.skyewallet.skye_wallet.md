@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.skyewallet.skye_wallet
 released: 2021-05-01
-updated: 2021-06-12
-version: "2.7.1"
-stars: 3.7
-ratings: 29
-reviews: 24
-size: 65M
+updated: 2021-09-28
+version: "2.9.1"
+stars: 4.2
+ratings: 33
+reviews: 27
+size: 27M
 website: 
 repository: 
 issue: 

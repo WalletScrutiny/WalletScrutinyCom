@@ -4,14 +4,14 @@ title: "Sun Crypto: Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.suncrypto.in
 released: 2021-06-28
 updated: 2021-09-07
 version: "1.4"
-stars: 3.1
-ratings: 1249
-reviews: 605
+stars: 4.4
+ratings: 1348
+reviews: 685
 size: 10M
 website: https://suncrypto.in/
 repository: 

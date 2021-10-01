@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.thinkdevs.cryptomarket
 released: 2018-03-29
-updated: 2021-01-19
-version: "0.0.10"
+updated: 2021-09-24
+version: "0.0.11"
 stars: 3.7
-ratings: 133
-reviews: 75
-size: 3.0M
+ratings: 136
+reviews: 77
+size: 5.9M
 website: 
 repository: 
 issue: 

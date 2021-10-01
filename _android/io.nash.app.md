@@ -1,17 +1,17 @@
 ---
 wsId: nash
-title: "Nash – Buy crypto at the best rates"
+title: "Nash"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: io.nash.app
 released: 2019-08-31
-updated: 2021-09-17
-version: "7.13.3"
+updated: 2021-09-28
+version: "7.14.0"
 stars: 4.2
-ratings: 633
-reviews: 265
+ratings: 634
+reviews: 266
 size: 124M
 website: https://nash.io/
 repository: 

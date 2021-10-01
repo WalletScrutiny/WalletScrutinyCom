@@ -9,9 +9,9 @@ appId: com.bitkub
 released: 2019-04-20
 updated: 2021-05-28
 version: "3.7"
-stars: 4.0
-ratings: 12141
-reviews: 6172
+stars: 3.9
+ratings: 12447
+reviews: 6288
 size: 53M
 website: http://www.bitkub.com/
 repository: 

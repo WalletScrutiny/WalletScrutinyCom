@@ -8,11 +8,11 @@ appId: com.theblockchain.coinus.wallet
 appCountry: bj
 idd: 1367339746
 released: 2018-04-24
-updated: 2021-09-16
-version: "2.8.6"
+updated: 2021-09-24
+version: "2.8.7"
 stars: 
 reviews: 
-size: 99517440
+size: 99613696
 website: https://www.coinus.io/
 repository: 
 issue: 

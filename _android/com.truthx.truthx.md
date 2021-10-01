@@ -19,7 +19,7 @@ issue:
 icon: com.truthx.truthx.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-09-30
 signer: 
 reviewArchive:
 
@@ -43,4 +43,3 @@ We installed the app to check whether it had a wallet or not. We only found opti
 Users are instructed to select the address and send money from _their_ wallet to that address. The app claims that the equivalent Naira (monetary unit of Nigeria) will be sent to the provided Bank Details attached to the user account.
 
 This app does not have a bitcoin wallet.
-

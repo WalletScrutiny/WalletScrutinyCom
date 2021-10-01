@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.binary.exchange.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-01
+verdict: stale
+date: 2021-09-23
 signer: 
 reviewArchive:
 

@@ -9,9 +9,9 @@ appId: com.goodbarber.bitmeat
 released: 2018-01-09
 updated: 2018-01-10
 version: "1.0"
-stars: 2.4
-ratings: 5
-reviews: 3
+stars: 2.2
+ratings: 6
+reviews: 4
 size: 13M
 website: 
 repository: 

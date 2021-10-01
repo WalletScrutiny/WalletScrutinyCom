@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.png
 bugbounty: 
-verdict: fewusers
-date: 2021-09-01
+verdict: defunct
+date: 2021-09-25
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-17**: This app is no more.

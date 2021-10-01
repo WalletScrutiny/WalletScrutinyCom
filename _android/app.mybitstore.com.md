@@ -4,11 +4,11 @@ title: "MyBitStore-Buy & Sell Bitcoin"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: app.mybitstore.com
 released: 2021-08-12
-updated: 2021-09-15
-version: "3.4"
+updated: 2021-09-28
+version: "3.8"
 stars: 4.0
 ratings: 6
 reviews: 5

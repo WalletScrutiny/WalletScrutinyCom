@@ -9,9 +9,9 @@ appId: com.sharpdev.fxcoin
 released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
-stars: 3.1
-ratings: 2660
-reviews: 1621
+stars: 2.9
+ratings: 2674
+reviews: 1627
 size: 30M
 website: https://fxcoin.pro
 repository: 

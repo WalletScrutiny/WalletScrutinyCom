@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: "Voyager: Invest in Crypto"
+title: "Voyager: Crypto Made Simple"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released:
 updated: 2021-09-20
 version: "2.9.27"
 stars: 4.7
-ratings: 7245
-reviews: 3842
+ratings: 7317
+reviews: 3867
 size: 50M
 website: https://www.investvoyager.com/
 repository: 

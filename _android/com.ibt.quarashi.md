@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "Quarashi Multi Crypto Wallet Exchange Privacy Chat"
+title: "Quarashi Multi Crypto Wallet VPN Privacy Chat"
 altTitle: 
 authors:
 
 users: 5000
 appId: com.ibt.quarashi
 released: 2021-07-09
-updated: 2021-09-21
-version: "1.0.12"
+updated: 2021-09-22
+version: "1.0.13"
 stars: 5.0
-ratings: 1822
-reviews: 824
+ratings: 1854
+reviews: 835
 size: 22M
 website: 
 repository: 

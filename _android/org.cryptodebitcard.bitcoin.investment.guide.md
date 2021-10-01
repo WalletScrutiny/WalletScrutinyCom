@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: org.cryptodebitcard.bitcoin.investment.guide.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-09-28
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-20**: This app is no more.

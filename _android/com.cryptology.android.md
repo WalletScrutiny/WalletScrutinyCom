@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.cryptology.android
 released: 2018-03-23
-updated: 2021-09-08
-version: "2.7.0"
+updated: 2021-09-20
+version: "3.0.0"
 stars: 3.9
-ratings: 172
-reviews: 92
-size: 13M
+ratings: 182
+reviews: 102
+size: 16M
 website: 
 repository: 
 issue: 

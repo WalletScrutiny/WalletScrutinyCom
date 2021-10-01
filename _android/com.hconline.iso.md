@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.hconline.iso
 released: 2020-07-19
-updated: 2021-07-02
-version: "R02.02.06.276"
-stars: 4.0
-ratings: 15
+updated: 2021-09-26
+version: "R02.03.06.296"
+stars: 4.1
+ratings: 16
 reviews: 9
-size: 70M
+size: 45M
 website: 
 repository: 
 issue: 

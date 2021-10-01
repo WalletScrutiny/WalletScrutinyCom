@@ -9,9 +9,9 @@ appId: com.beaxy.cryptoexchange
 released: 2020-02-07
 updated: 2021-06-15
 version: "2.9"
-stars: 4.1
-ratings: 153
-reviews: 70
+stars: 4.0
+ratings: 155
+reviews: 71
 size: 44M
 website: 
 repository: 

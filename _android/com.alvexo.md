@@ -10,8 +10,8 @@ released: 2018-07-13
 updated: 2021-08-03
 version: "3.0.46"
 stars: 4.1
-ratings: 613
-reviews: 329
+ratings: 617
+reviews: 331
 size: 17M
 website: https://www.alvexo.com/
 repository: 

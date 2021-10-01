@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: io.cex.app.prod
 released: 2015-12-22
-updated: 2021-08-10
+updated: 2021-09-24
 version: "Varies with device"
 stars: 4.2
-ratings: 13126
-reviews: 8154
+ratings: 13291
+reviews: 8226
 size: Varies with device
 website: https://cex.io
 repository: 

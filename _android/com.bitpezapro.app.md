@@ -9,9 +9,9 @@ appId: com.bitpezapro.app
 released: 2020-02-09
 updated: 2021-09-11
 version: "1.0.3"
-stars: 4.3
-ratings: 102
-reviews: 78
+stars: 4.2
+ratings: 104
+reviews: 80
 size: 3.0M
 website: 
 repository: 

@@ -9,8 +9,8 @@ appId: com.rsk.rwallet.v2
 released: 2021-04-27
 updated: 2021-06-30
 version: "2.0.1"
-stars: 3.2
-ratings: 5
+stars: 3.5
+ratings: 6
 reviews: 3
 size: 36M
 website: 

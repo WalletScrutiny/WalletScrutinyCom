@@ -14,12 +14,12 @@ stars: 4.33333
 reviews: 6
 size: 88125440
 website: 
-repository: 
+repository: https://github.com/airgap-it/airgap-vault
 issue: 
 icon: it.airgap.vault.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-19
+verdict: nonverifiable
+date: 2021-09-29
 signer: 
 reviewArchive:
 
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+This app for Android is reproducible but unfortunately due to limitations of the
+iPhone platform, we so far were not able to reproduce any App Store app.

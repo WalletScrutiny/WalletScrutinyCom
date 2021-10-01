@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.gamemobile.bitcoinprime.png
 bugbounty: 
-verdict: wip
-date: 2021-09-01
+verdict: defunct
+date: 2021-09-23
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-14**: This app is not on the Play Store anymore.

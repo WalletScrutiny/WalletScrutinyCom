@@ -5,7 +5,7 @@ altTitle:
 authors:
 - emanuel
 - leo
-users: 10
+users: 50
 appId: com.xmzys.binance73
 released: 2021-07-03
 updated: 2021-07-03

@@ -1,32 +1,32 @@
 ---
-wsId: 
+wsId: Moonstake
 title: "Moonstake Wallet"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: io.moonstake.wallet
 released: 2020-03-24
-updated: 2021-09-17
-version: "2.7.3"
+updated: 2021-09-28
+version: "2.7.6"
 stars: 4.7
-ratings: 2204
-reviews: 1102
+ratings: 2206
+reviews: 1104
 size: 57M
-website: 
+website: https://moonstake.io/
 repository: 
 issue: 
 icon: io.moonstake.wallet.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: nosource
+date: 2021-09-23
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: moonstake
+providerLinkedIn: moonstake
+providerFacebook: moonstakekorea
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,16 @@ redirect_from:
 ---
 
 
+Moonstake Wallet directly claims that it is a non-custodial wallet. From the Play Store description:
+
+> Safe and secure, this app never takes custody of your digital assets.  Assets stay in your existing wallet, so you won't ever worry about your account being hacked from our platform and your private keys & passphrases are encrypted and stored in your local device.
+
+Found in the [FAQ:](https://support.moonstake.io/hc/en-us/articles/360001944535-Does-Moonstake-hold-the-private-key-or-backup-passphrase-of-my-wallet-)
+
+> **Does Moonstake hold the private key or backup passphrase of my wallet?**<br>
+Moonstake Mobile Wallet and Web Wallet are both non-custodial wallets. As the operator of the wallet, Moonsatke does not hold any of the user's assets. As a decentralized wallet, both Private Key and Backup Passphrase can only be seen by the user with their ID and Password. Moonstake cannot access each individual user's wallets.
+
+
+We sent an inquiry to the support at contact@moonstake.io to ask if the source code is publicly available. We await their response.
+
+However, until then as there is no link to any repository in the official website, this wallet has **no source.**

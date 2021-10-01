@@ -1,17 +1,17 @@
 ---
 wsId: zipwalletpay
-title: "Zipwallet : Earn, Buy, Sell Bitcoin &Crypto Wallet"
+title: "Zipwallet- Buy Bitcoin with Paypal & Credit Card"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.zipwallet.app
 released: 2018-01-30
-updated: 2021-09-18
-version: "9.9.6.6"
-stars: 4.4
-ratings: 600
-reviews: 376
+updated: 2021-09-27
+version: "9.9.7.2"
+stars: 4.5
+ratings: 603
+reviews: 378
 size: 25M
 website: https://zipwalletpay.com/
 repository: 

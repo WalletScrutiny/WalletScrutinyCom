@@ -9,9 +9,9 @@ appId: com.crypto.exchange.app.cryptocurency.exchange
 released: 2021-04-23
 updated: 2021-04-23
 version: "1.0"
-stars: 4.6
-ratings: 152
-reviews: 131
+stars: 4.7
+ratings: 165
+reviews: 146
 size: 5.7M
 website: 
 repository: 

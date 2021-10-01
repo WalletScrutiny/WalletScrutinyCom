@@ -4,7 +4,7 @@ title: "Cofinex Exchange"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.app.cofinexexchange34
 released: 2021-02-12
 updated: 2021-02-12

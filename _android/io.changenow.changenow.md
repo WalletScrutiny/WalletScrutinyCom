@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: io.changenow.changenow
 released: 2018-09-07
-updated: 2021-09-05
-version: "1.125"
+updated: 2021-09-26
+version: "1.132"
 stars: 4.8
-ratings: 1327
-reviews: 666
-size: 6.2M
+ratings: 1345
+reviews: 675
+size: 6.5M
 website: http://changenow.io
 repository: 
 issue: 

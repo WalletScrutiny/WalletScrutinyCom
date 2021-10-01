@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.aibb.wallet
 released: 2019-04-04
-updated: 2021-09-20
-version: "2.3.12"
+updated: 2021-09-28
+version: "2.3.13"
 stars: 4.2
 ratings: 307
 reviews: 246
@@ -87,7 +87,7 @@ Blockbank has a lightpaper which can be accessed [here](https://blockbank.ai/doc
 
 ### The App
 
-We installed the Blockbank app on Blue Stacks. Upon installation, we were greeted by this message:
+We tried the Blockbank app. Upon installation, we were greeted by this message:
 
 > **Welcome to blockBank**<br>
 BlockBank is a multi-protocol utility wallet that combines the power of decentralized and centralized technology in a simple and secure application.<br><br>

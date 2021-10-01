@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "DiDi-Chat Game Bitcoin Crypto Wallet blockchain"
+title: "DiDimessage-Make New Friends & Play Games"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.didi.message
 released: 2020-04-30
-updated: 2021-09-18
-version: "1.10.1"
-stars: 4.0
-ratings: 842
-reviews: 338
-size: 91M
+updated: 2021-09-27
+version: "1.10.2"
+stars: 4.1
+ratings: 873
+reviews: 347
+size: 89M
 website: https://didimessage.com/
 repository: 
 issue: 
