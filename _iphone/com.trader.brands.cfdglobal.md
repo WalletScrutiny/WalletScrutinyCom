@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: capex
 title: "Capex.com"
 altTitle: 
 authors:
-
+- danny
 appId: com.trader.brands.cfdglobal
 appCountry: gb
 idd: 1304998844
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: capex_en
+providerLinkedIn: capexglobal
+providerFacebook: CAPEXSeychelles
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

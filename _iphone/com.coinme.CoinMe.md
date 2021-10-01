@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: coinme
 title: "Coinme: Buy Bitcoin With Cash"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinme.CoinMe
 appCountry: us
 idd: 1545440300
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.coinme.CoinMe.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Coinme
+providerLinkedIn: coinme
+providerFacebook: Coinme
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

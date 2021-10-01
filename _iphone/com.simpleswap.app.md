@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: simpleswap
 title: "SimpleSwap: Crypto Exchange"
 altTitle: 
 authors:
-
+- danny
 appId: com.simpleswap.app
 appCountry: gb
 idd: 1506038278
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.simpleswap.app.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: SimpleSwap_io
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: SimpleSwap.io
+providerReddit: simpleswapexchange
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}

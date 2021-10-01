@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: blockbank
 title: "BlockBank"
 altTitle: 
 authors:
-
+- danny
 appId: com.aibb.wallet1
 appCountry: us
 idd: 1460965460
@@ -13,7 +13,7 @@ version: "2.3.13"
 stars: 4.47619
 reviews: 21
 size: 26798080
-website: 
+website: https://blockbank.ai/
 repository: 
 issue: 
 icon: com.aibb.wallet1.jpg
@@ -24,12 +24,14 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BLOCKBANKapp
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: blockbank
+providerReddit:  
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}
