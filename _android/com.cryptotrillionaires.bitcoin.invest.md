@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cryptotrillionaires.bitcoin.invest.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: defunct
+date: 2021-10-01
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-22**: This app is not on the Play Store anymore.
