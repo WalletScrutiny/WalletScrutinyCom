@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
-verdict: obsolete
+verdict: wip
 date: 2021-03-07
 signer: 
 reviewArchive:
@@ -33,6 +33,5 @@ redirect_from:
 
 ---
 
-<!-- nosource -->
-As far as we can see, this is the same as
-{% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.
+
+ {% include copyFromAndroid.html %}

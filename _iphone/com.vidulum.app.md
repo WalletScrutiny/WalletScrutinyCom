@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.vidulum.app.jpg
 bugbounty: 
-verdict: obsolete
+verdict: nosource
 date: 2020-12-22
 signer: 
 reviewArchive:

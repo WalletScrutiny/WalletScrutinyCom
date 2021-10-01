@@ -19,7 +19,7 @@ issue:
 icon: com.bitkeep.os.jpg
 bugbounty: 
 verdict: nosource
-date: 2020-12-22
+date: 2021-09-29
 signer: 
 reviewArchive:
 
