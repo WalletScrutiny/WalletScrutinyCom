@@ -63,13 +63,12 @@ Furthermore:
 
 ##### Concerning the App's Functions:
 
->The BlockBank.ai Application gives you interactive access to your Digital multi protocol Asset Wallet, including allowing you to perform one or more of the following actions:
-<br><br>
-> - (a) view the balance and Transaction History of your Digital Asset Wallet;
-> - (b) send and receive digital assets within the app.<br><br>
+>The BlockBank.ai Application gives you interactive access to your Digital multi protocol Asset Wallet, including allowing you to perform one or more of the following actions:<br>
+>   **(a)** view the balance and Transaction History of your Digital Asset Wallet;<br>
+>   **(b)** send and receive digital assets within the app.<br><br>
 > View the market cap of the top 100 tokens;<br>
-> - (c) access news in one location;
-> - (d) view the market cap of the top 100 tokens.
+>   **(c)** access news in one location;<br>
+>   **(d)** view the market cap of the top 100 tokens.<br>
 
 ##### Concerning Open Source
 

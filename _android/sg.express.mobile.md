@@ -95,4 +95,4 @@ Most opinions are subjective and therefore unreliable. Positive reviews are ofte
 
 ### Verdict
 
-While we are tempted to label this app as _fake_, it is also possible that the company is coming up with an early prototype of another offering. We advise **extra due diligence**, **prudence** and **caution** when using apps that makes our spider senses tingle a bit. We have to exert all necessary avenues for communication and that includes getting the feedback of the developer. For now, we will give it a verdict of **custodial** and **not verifiable** until the developers reply to our queries. 
+While we are tempted to label this app as _fake_, it is also possible that the company is coming up with an early prototype of another offering. We advise **extra due diligence**, **prudence** and **caution** when using apps that makes our spidey senses tingle. We have to exert all necessary avenues for communication and that includes getting the feedback of the developer. For now, we will give it a verdict of **custodial** and **not verifiable** until the developers reply to our queries. 

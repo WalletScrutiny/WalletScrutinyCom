@@ -34,7 +34,7 @@ redirect_from:
 ---
 ### Google Play
 
-It describes itself as an account-free cryptocurrency exchange. It appears to be similar **changelly** {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}. The app does not have a wallet. Users can exchange cryptocurrencies by inputting the desired cryptocurrency, the amount, and the receiving address to receive it. Then an address is generated to send the currency the user would like to exchange
+It describes itself as an account-free cryptocurrency exchange. It appears to be similar to {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}. The app does not have a wallet. Users can exchange cryptocurrencies by inputting the desired cryptocurrency, the amount, and the receiving address to receive it. Then an address is generated to send the currency the user would like to exchange
 
 ### Verdict
 
