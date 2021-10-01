@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.chainex.app
 released: 
-updated: 2021-06-10
+updated: 2021-09-30
 version: "Varies with device"
 stars: 
 ratings: 

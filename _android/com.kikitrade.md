@@ -9,9 +9,9 @@ appId: com.kikitrade
 released: 2020-07-24
 updated: 2021-09-15
 version: "3.2.4"
-stars: 4.9
-ratings: 1121
-reviews: 157
+stars: 4.8
+ratings: 1122
+reviews: 158
 size: 59M
 website: https://www.kikitrade.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 > You can easily invest in Bitcoin, Ethereum, Dogecoin and other major cryptocurrencies. Start with as low as $1USD.
 

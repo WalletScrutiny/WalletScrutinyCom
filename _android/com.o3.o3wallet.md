@@ -11,7 +11,7 @@ updated: 2021-09-26
 version: "3.1.3"
 stars: 4.0
 ratings: 449
-reviews: 105
+reviews: 106
 size: 88M
 website: https://o3.network/
 repository: https://github.com/O3Labs

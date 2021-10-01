@@ -10,8 +10,8 @@ released: 2018-11-05
 updated: 2021-09-24
 version: "1.4.16.fb81"
 stars: 2.8
-ratings: 1080
-reviews: 837
+ratings: 1082
+reviews: 839
 size: 15M
 website: https://www.gopax.co.kr/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 Among the features noted on its Google Play is this:

@@ -10,8 +10,8 @@ released: 2020-07-10
 updated: 2021-09-29
 version: "1.19.0"
 stars: 4.3
-ratings: 2263
-reviews: 886
+ratings: 2271
+reviews: 888
 size: 37M
 website: https://stormgainexpress.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 **CAUTION**: This app exhibits a lot of red flags that we detailed below. We gave it a verdict of **custodial**, but otherwise, exercise **prudence**, **due-diligence** and a lot of research, before you invest a lot of funds.

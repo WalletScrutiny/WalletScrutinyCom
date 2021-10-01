@@ -10,8 +10,8 @@ released: 2021-02-02
 updated: 2021-09-29
 version: "1.1.0"
 stars: 3.3
-ratings: 1047
-reviews: 544
+ratings: 1061
+reviews: 554
 size: 29M
 website: https://mobox.io/
 repository: 
@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: MOBOX_Official	
+providerTwitter: MOBOX_Official
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the Google Play description we learn that this app is a "DeFi infrastructure:"
 

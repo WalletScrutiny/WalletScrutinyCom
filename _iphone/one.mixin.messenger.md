@@ -8,11 +8,11 @@ appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
 released: 2018-01-20
-updated: 2021-09-14
-version: "0.31.8"
-stars: 4.80921
-reviews: 152
-size: 84045824
+updated: 2021-09-30
+version: "0.32.0"
+stars: 4.81168
+reviews: 154
+size: 82763776
 website: 
 repository: 
 issue: 

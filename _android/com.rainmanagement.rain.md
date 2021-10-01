@@ -10,7 +10,7 @@ released: 2018-11-02
 updated: 2021-08-02
 version: "2.3.9"
 stars: 4.2
-ratings: 2358
+ratings: 2360
 reviews: 1138
 size: 158M
 website: https://www.rain.bh/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The app is described as offering services that allow users to buy and sell Bitcoin using fiat from the Middle East. It goes on further:

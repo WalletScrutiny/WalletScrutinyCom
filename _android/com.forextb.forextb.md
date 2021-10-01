@@ -9,8 +9,8 @@ appId: com.forextb.forextb
 released: 2020-09-24
 updated: 2021-08-18
 version: "2.1.4"
-stars: 3.1
-ratings: 323
+stars: 3.0
+ratings: 324
 reviews: 271
 size: 79M
 website: https://www.forextb.com/eu/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the description:
 > Access the markets and trade CFDs on Forex pairs, Commodities, Stocks, Indices and Cryptocurrencies from your mobile phone. ForexTB offers over 300 assets, with easy control over open positions and setting Stop Loss & Take Profit levels.

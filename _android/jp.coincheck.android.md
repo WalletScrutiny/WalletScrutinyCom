@@ -10,7 +10,7 @@ released: 2015-04-23
 updated: 2021-09-29
 version: "4.2.1"
 stars: 3.8
-ratings: 9587
+ratings: 9594
 reviews: 2904
 size: 67M
 website: http://coincheck.com/

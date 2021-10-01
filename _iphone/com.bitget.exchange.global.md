@@ -8,11 +8,11 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2021-09-09
-version: "1.2.13"
+updated: 2021-09-30
+version: "1.2.15"
 stars: 
 reviews: 
-size: 155330560
+size: 181256192
 website: https://www.bitget.com
 repository: 
 issue: 

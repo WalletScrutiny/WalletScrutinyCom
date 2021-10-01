@@ -10,8 +10,8 @@ released: 2021-05-03
 updated: 2021-09-13
 version: "2.1"
 stars: 4.4
-ratings: 1063
-reviews: 495
+ratings: 1062
+reviews: 496
 size: 6.2M
 website: https://lpntoken.io/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: lpntokenofficial
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the description:
 

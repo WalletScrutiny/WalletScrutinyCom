@@ -9,9 +9,9 @@ appId: com.coinme
 released: 
 updated: 2021-09-20
 version: "1.4.1"
-stars: 4.3
-ratings: 345
-reviews: 81
+stars: 4.2
+ratings: 346
+reviews: 80
 size: 76M
 website: https://coinme.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The app is described as an on-ramp and off-ramp bitcoin and cash exchange. It allows users to receive, store and send Bitcoin. It is also possible to sell bitcoins and pick-up the cash from several locations. Security-wise, it claims:

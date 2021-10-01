@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.zsdk.exchange
 released: 2019-01-18
-updated: 2021-09-18
-version: "3.1.0"
-stars: 2.8
-ratings: 171
+updated: 2021-09-29
+version: "3.1.1"
+stars: 2.9
+ratings: 174
 reviews: 107
 size: 51M
 website: 

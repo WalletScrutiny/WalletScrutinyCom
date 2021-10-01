@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 TruthX advertises itself as an exchange for bitcoin and gift cards.
 

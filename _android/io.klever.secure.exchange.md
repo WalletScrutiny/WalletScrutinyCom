@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: io.klever.secure.exchange
 released: 2021-06-30
-updated: 2021-09-23
-version: "1.0.0-beta24"
+updated: 2021-09-30
+version: "1.0.3"
 stars: 3.8
-ratings: 374
-reviews: 228
+ratings: 379
+reviews: 232
 size: 13M
 website: https://klever.io/en/
 repository: 

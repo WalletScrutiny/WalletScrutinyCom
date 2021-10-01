@@ -10,8 +10,8 @@ released: 2019-01-24
 updated: 2021-09-29
 version: "9.3"
 stars: 4.4
-ratings: 446
-reviews: 257
+ratings: 447
+reviews: 258
 size: 48M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund

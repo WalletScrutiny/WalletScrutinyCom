@@ -10,8 +10,8 @@ released: 2017-10-04
 updated: 2021-09-24
 version: "2.6.0"
 stars: 3.5
-ratings: 316
-reviews: 140
+ratings: 317
+reviews: 141
 size: 23M
 website: https://sc.capex.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 From its Google Play description it lists its functions as:
