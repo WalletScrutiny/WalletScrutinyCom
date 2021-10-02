@@ -33,6 +33,7 @@ redirect_from:
 
 ---
 
+
 In the Google Play description, STICPAY does claim to be a digital wallet.
 
 > Transfer and receive money faster and easier with STICPAY, the international digital wallet. <br>

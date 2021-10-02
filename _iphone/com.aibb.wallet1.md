@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: BLOCKBANKapp
 providerLinkedIn: 
 providerFacebook: blockbank
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
  {% include copyFromAndroid.html %}

@@ -13,7 +13,7 @@ version: "1.1.27"
 stars: 4
 reviews: 1
 size: 20524032
-website: https://www.quickx.io
+website: http://keywalletpro.io
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
@@ -32,6 +32,5 @@ providerReddit: QuickX
 redirect_from:
 
 ---
-
 
  {% include copyFromAndroid.html %}

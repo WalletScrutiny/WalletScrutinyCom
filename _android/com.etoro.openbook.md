@@ -10,8 +10,8 @@ released: 2013-11-05
 updated: 2021-09-29
 version: "346.0.0"
 stars: 4.3
-ratings: 96091
-reviews: 36519
+ratings: 96157
+reviews: 36538
 size: 57M
 website: https://www.etoro.com
 repository: 

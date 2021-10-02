@@ -27,9 +27,10 @@ reviewArchive:
 providerTwitter: viawallet
 providerLinkedIn: 
 providerFacebook: ViaWallet
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

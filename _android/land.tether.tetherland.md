@@ -9,9 +9,9 @@ appId: land.tether.tetherland
 released: 2019-12-09
 updated: 2021-09-17
 version: "4.2.3"
-stars: 4.6
-ratings: 791
-reviews: 303
+stars: 4.5
+ratings: 792
+reviews: 304
 size: 29M
 website: https://tetherland.net
 repository: 

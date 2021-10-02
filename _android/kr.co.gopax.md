@@ -10,8 +10,8 @@ released: 2018-11-05
 updated: 2021-09-24
 version: "1.4.16.fb81"
 stars: 2.8
-ratings: 1082
-reviews: 839
+ratings: 1084
+reviews: 840
 size: 15M
 website: https://www.gopax.co.kr/
 repository: 

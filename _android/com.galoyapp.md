@@ -8,7 +8,7 @@ users: 50000
 appId: com.galoyapp
 released: 2020-11-24
 updated: 2021-09-27
-version: "1.5.0"
+version: "1.5.1"
 stars: 4.0
 ratings: 216
 reviews: 119

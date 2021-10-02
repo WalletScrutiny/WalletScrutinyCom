@@ -26,7 +26,7 @@ reviewArchive:
 
 providerTwitter: 100XCoin_
 providerLinkedIn: 100xCoin
-providerFacebook: 100xcoinFB 
+providerFacebook: 100xcoinFB
 providerReddit: 
 
 redirect_from:

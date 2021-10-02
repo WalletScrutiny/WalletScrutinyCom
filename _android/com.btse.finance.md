@@ -9,9 +9,9 @@ appId: com.btse.finance
 released: 2020-11-30
 updated: 2021-09-28
 version: "1.16.0"
-stars: 4.5
-ratings: 51
-reviews: 25
+stars: 4.6
+ratings: 52
+reviews: 26
 size: 133M
 website: 
 repository: 

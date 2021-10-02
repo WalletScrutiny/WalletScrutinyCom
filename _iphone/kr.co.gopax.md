@@ -13,7 +13,7 @@ version: "1.6.6"
 stars: 2.90338
 reviews: 414
 size: 45005824
-website: https://www.gopax.co.kr/
+website: https://www.gopax.co.kr/notice
 repository: 
 issue: 
 icon: kr.co.gopax.jpg
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
  {% include copyFromAndroid.html %}

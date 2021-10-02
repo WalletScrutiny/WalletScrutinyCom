@@ -27,9 +27,10 @@ reviewArchive:
 providerTwitter: SticPay
 providerLinkedIn: sticpay
 providerFacebook: sticpay.global
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

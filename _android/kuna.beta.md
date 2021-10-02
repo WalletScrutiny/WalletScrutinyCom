@@ -10,8 +10,8 @@ released: 2019-07-22
 updated: 2021-09-21
 version: "1.4.2"
 stars: 4.2
-ratings: 715
-reviews: 422
+ratings: 718
+reviews: 424
 size: 88M
 website: https://kuna.io
 repository: 

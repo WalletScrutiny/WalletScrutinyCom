@@ -9,9 +9,9 @@ appId: io.cex.app.prod
 released: 2015-12-22
 updated: 2021-09-24
 version: "Varies with device"
-stars: 4.2
-ratings: 13325
-reviews: 8243
+stars: 4.1
+ratings: 13432
+reviews: 8333
 size: Varies with device
 website: https://cex.io
 repository: 

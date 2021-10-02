@@ -9,9 +9,9 @@ appId: com.bankofhodlers.mobile
 released: 2020-04-30
 updated: 2021-09-27
 version: "2.3.7"
-stars: 4.1
-ratings: 981
-reviews: 522
+stars: 4.2
+ratings: 1004
+reviews: 530
 size: 28M
 website: https://www.vauld.com/
 repository: 

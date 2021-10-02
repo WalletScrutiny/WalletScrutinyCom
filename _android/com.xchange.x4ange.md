@@ -4,7 +4,7 @@ title: "Онлайн-обменник криптовалют 4ange"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.xchange.x4ange
 released: 2021-06-21
 updated: 2021-06-21

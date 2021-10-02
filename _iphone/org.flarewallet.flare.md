@@ -2,15 +2,17 @@
 wsId: FlareWallet
 title: "Flare Wallet"
 altTitle: 
+authors:
 
 appId: org.flarewallet.flare
+appCountry: 
 idd: 1496651406
 released: 2020-02-11
-updated: 2021-01-02
-version: "1.3.9"
-stars: 4.16129
-reviews: 31
-size: 24001536
+updated: 2021-03-13
+version: "1.4.0"
+stars: 3.97143
+reviews: 35
+size: 24013824
 website: https://flarewallet.io
 repository: 
 issue: 
@@ -30,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
  {% include copyFromAndroid.html %}
 
 Old Review

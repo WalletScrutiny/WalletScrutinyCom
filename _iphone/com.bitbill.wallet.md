@@ -12,7 +12,7 @@ updated: 2021-09-26
 version: "4.32.0"
 stars: 4.42593
 reviews: 54
-size: 120705024
+size: 120946688
 website: http://www.bitbill.com
 repository: 
 issue: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

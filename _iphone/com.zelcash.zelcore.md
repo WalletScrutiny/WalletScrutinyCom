@@ -27,9 +27,10 @@ reviewArchive:
 providerTwitter: zelcash
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: ZelCash 
+providerReddit: ZelCash
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

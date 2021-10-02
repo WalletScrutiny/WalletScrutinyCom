@@ -4,13 +4,13 @@ title: "XcelPay: Bitcoin, Crypto & Ethereum Wallet App"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.XcelTrip.XcelPay
 released: 2019-05-30
 updated: 2021-09-26
 version: "2.50.4"
 stars: 4.1
-ratings: 3441
+ratings: 3443
 reviews: 1734
 size: 33M
 website: http://www.xcelpay.io

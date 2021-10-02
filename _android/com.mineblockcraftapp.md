@@ -4,7 +4,7 @@ title: "Mine Block Craft - Blockchain wallet and Dapps"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.mineblockcraftapp
 released: 2020-04-14
 updated: 2020-04-14

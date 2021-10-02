@@ -9,9 +9,9 @@ appId: mn.godeal.gopay
 released: 2018-02-10
 updated: 2019-01-20
 version: "2.0.0"
-stars: 4.6
-ratings: 26
-reviews: 8
+stars: 4.4
+ratings: 27
+reviews: 9
 size: 13M
 website: 
 repository: 

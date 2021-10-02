@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "BOLT X"
+title: "BoltX: Ethereum & Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb
 users: 5000
 appId: com.bolt.pegasus
 released: 2019-08-26
-updated: 2021-07-14
-version: "1.19.6"
+updated: 2021-10-01
+version: "1.20.0"
 stars: 4.5
 ratings: 359
 reviews: 293
-size: 39M
+size: 46M
 website: https://bolt.global/
 repository: 
 issue: 
