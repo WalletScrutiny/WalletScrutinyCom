@@ -10,8 +10,8 @@ released: 2017-12-22
 updated: 2018-06-27
 version: "4.1.4"
 stars: 4.4
-ratings: 112
-reviews: 51
+ratings: 111
+reviews: 50
 size: 20M
 website: https://coinpal.me/
 repository: 

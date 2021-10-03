@@ -8,11 +8,11 @@ appId: com.Wallet.Bulls
 appCountry: us
 idd: 1573190233
 released: 2021-06-23
-updated: 2021-09-16
-version: "1.18"
+updated: 2021-10-01
+version: "1.19"
 stars: 5
 reviews: 9
-size: 52734976
+size: 61459456
 website: https://bullcoin.finance/privacy
 repository: 
 issue: 

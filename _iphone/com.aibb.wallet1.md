@@ -8,8 +8,8 @@ appId: com.aibb.wallet1
 appCountry: us
 idd: 1460965460
 released: 2019-05-07
-updated: 2021-09-30
-version: "2.3.13"
+updated: 2021-10-02
+version: "2.3.14"
 stars: 4.47619
 reviews: 21
 size: 26798080

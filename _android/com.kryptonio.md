@@ -4,7 +4,7 @@ title: "Kryptonio.com - Bitcoin & Crypto Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.kryptonio
 released: 
 updated: 2021-07-03

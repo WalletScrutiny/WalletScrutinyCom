@@ -9,9 +9,9 @@ appId: com.paymium.mobile2
 released: 
 updated: 2021-09-29
 version: "3.1"
-stars: 3.3
-ratings: 182
-reviews: 117
+stars: 3.2
+ratings: 183
+reviews: 118
 size: 79M
 website: 
 repository: 

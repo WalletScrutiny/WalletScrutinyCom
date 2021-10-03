@@ -11,7 +11,7 @@ released: 2020-01-05
 updated: 2021-09-07
 version: "2.8.1"
 stars: 4.17961
-reviews: 76183
+reviews: 76366
 size: 198502400
 website: https://www.binance.us
 repository: 

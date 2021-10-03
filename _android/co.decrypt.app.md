@@ -9,9 +9,9 @@ appId: co.decrypt.app
 released: 2020-05-06
 updated: 2021-07-13
 version: "3.0"
-stars: 4.1
-ratings: 2082
-reviews: 1007
+stars: 4.2
+ratings: 2085
+reviews: 1008
 size: 31M
 website: 
 repository: 

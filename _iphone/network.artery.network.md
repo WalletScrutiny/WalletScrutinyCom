@@ -10,8 +10,8 @@ idd: 1532702666
 released: 2020-10-16
 updated: 2021-07-14
 version: "1.6"
-stars: 4.51748
-reviews: 858
+stars: 4.5227
+reviews: 859
 size: 78948352
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr

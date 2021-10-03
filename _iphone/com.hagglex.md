@@ -8,11 +8,11 @@ appId: com.hagglex
 appCountry: us
 idd: 1535046179
 released: 2021-03-18
-updated: 2021-07-07
-version: "1.0.5"
-stars: 4
-reviews: 14
-size: 106072064
+updated: 2021-10-01
+version: "1.0.7"
+stars: 4.06667
+reviews: 15
+size: 106500096
 website: 
 repository: 
 issue: 
