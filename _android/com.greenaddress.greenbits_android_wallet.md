@@ -19,9 +19,14 @@ issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-09-17
+date: 2021-10-04
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-09-17
+  version: "3.7.0"
+  appHash: 55c962cc12defa44ef90cd10f2a10dc574b368c364ac9ed7ea910515b0a05996
+  gitRevision: 0b717ae8ed6ffcd503e2dd53ab4953a4e003fc6f
+  verdict: reproducible
 - date: 2021-08-03
   version: "3.6.4"
   appHash: 9a796e5b8986c727e0cd112899c40cdd832c94805aa9a547a7daf95ec5ec9dc5
@@ -151,7 +156,7 @@ redirect_from:
 ---
 
 
-We had to update the test script and somehow `tzdata` required interactive configuration which will not play nice with our server next time. Also the resulting file name changed but those issues aside ... with
+With
 [this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
 we get:
 
@@ -159,24 +164,24 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.0
-apkVersionCode: 22000370
+apkVersionName: 3.7.3
+apkVersionCode: 22000373
 verdict:        reproducible
-appHash:        55c962cc12defa44ef90cd10f2a10dc574b368c364ac9ed7ea910515b0a05996
-commit:         5f087d14ddcb15c64cc6068134c69ef0885aba73
+appHash:        f43452d74790aa086fbd2c73718e81a0fc24cb238258fda67cd5602193236e2f
+commit:         a2ce021d7752fe489314728ef6a6e25225aecb5d
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000370/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000370/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000370/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 5f087d14ddcb15c64cc6068134c69ef0885aba73
+object a2ce021d7752fe489314728ef6a6e25225aecb5d
 type commit
-tag release_3.7.0
-tagger Domenico Gabriele <domenico@blockstream.com> 1630670348 +0200
+tag release_3.7.3
+tagger Luca Vaccaro <me@lvaccaro.com> 1632963637 +0200
 
-Release 3.7.0
+Release 3.7.3
 ```
 
 which is what we want to see to give it the verdict **reproducible**.
