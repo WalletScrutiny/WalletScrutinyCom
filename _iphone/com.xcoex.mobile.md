@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-05-04
+verdict: defunct
+date: 2021-10-03
 signer: 
 reviewArchive:
-
+- date: 2021-05-04
+  version: "1.18.0"
+  appHash: 
+  gitRevision: e438eb905262a9e88382146da027048d1b346da6
+  verdict: custodial
+  
 
 providerTwitter: OfficialXcoex
 providerLinkedIn: 
@@ -32,6 +37,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-09-24**: This app is not on App Store anymore.
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.
 The exchange provider typically stores users bitcoins, partly in cold storage, partly hot.
