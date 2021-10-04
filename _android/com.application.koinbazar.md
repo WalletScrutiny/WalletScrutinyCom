@@ -48,7 +48,7 @@ Section 9 of the [Terms and Conditions](https://www.koinbazar.com/terms-conditio
 
 ### The App
 
-We downloaded the app and installed on Blue Stacks. Once installed we registered and was able to successfully join the platform. The 'Wallet' sub menu allows Deposit/Withdrawal of INR, BTC and many other cryptocurrencies.
+We tried the app. Once installed we registered and were able to successfully join the platform. The 'Wallet' sub menu allows Deposit/Withdrawal of INR, BTC and many other cryptocurrencies.
 
 ### Verdict
 

@@ -34,7 +34,7 @@ redirect_from:
 ---
 ### Google Play
 
-The app promises these features:<br><br>
+The app promises these features:
 
 > - Main features:
 > - Collect coins for free.

@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 ### Google Play
-From the Google Play description:
+From the description:
 
 > Send and receive cryptocurrencies easily and fast to any other wallet!
 
@@ -42,7 +42,7 @@ It claims to function as a bitcoin wallet. Judging from the description, it is a
 ### The Site
 From the FAQ:
 
-> __Can I sell bitcoins?__: Yes. On our platform, the purchase and sale of bitcoins is done directly with us. That is, Stratum buys / sell your bitcoin.
+> **Can I sell bitcoins?**: Yes. On our platform, the purchase and sale of bitcoins is done directly with us. That is, Stratum buys / sell your bitcoin.
 
 Sounds like a trading platform. There is still no information about the security of this app.
 

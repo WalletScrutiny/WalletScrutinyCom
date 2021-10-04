@@ -54,7 +54,7 @@ Most interest bearing cryptocurrency wallets are custodial because some of them 
 
 ### The App
 
-We downloaded the app and installed it on a Samsung phone. The BTC wallet is accessible, but when we tap on 'Transfer', 'Replenish' and 'Withdraw' nothing happens. Users are encouraged to provide Proof of Identity. 
+We tried the app. The BTC wallet is accessible, but when we tap on 'Transfer', 'Replenish' and 'Withdraw' nothing happens. Users are encouraged to provide Proof of Identity. 
 
 ### Verdict
 
