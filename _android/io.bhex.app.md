@@ -38,7 +38,7 @@ From the screenshots in Google play, it seems to be a centralized cryptocurrency
 
 > HBTC Exchange is a 100% token holders owned trading platform that is jointly invested by Huobi, OKEx and 56 other world-class institutions.
 
-It is developed by [BHEX](https://play.google.com/store/apps/developer?id=BHEX), which has another app under its developer page which is also named BHEX. 
+It is developed by [BHEX](https://play.google.com/store/apps/developer?id=BHEX), which has another app under its developer page, also named {% include walletLink.html wallet='android/com.bh.android' verdict='true' %}
 
 ### The Site
 
