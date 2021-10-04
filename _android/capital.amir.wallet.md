@@ -46,7 +46,7 @@ Curiously, some functionality is available via the web app including 'Replenish'
 
 #### Terms
 
-This is a clear indication that the service is custodial:
+[This is a clear indication that the service is custodial](https://account.amir.capital/static/docs/public_offer_en.pdf):
 
 > Section 14.8.3 The Company has the **right to refuse the User to withdraw virtual assets from the investor's Account** (transferring assets to the User's cryptocurrency wallet) until the settlement of mutual settlements between the parties. The Company reserves the right to use (withhold by mutual settlement) the virtual assets of the User (all or some reasonable part), and the User does not object to this to fullfill the payment obligations of the User under the Agreement.
 

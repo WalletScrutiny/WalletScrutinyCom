@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.arrowsys.lilkademo.png
 bugbounty: 
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -55,4 +55,4 @@ We downloaded the app on a Samsung phone, and it seems to function as a normal P
 The app only offers a demo license so we couldn't actually find the option to pay with bitcoin. But assuming the description and the website is accurate, this app doesn't allow users to send and receive bitcoin. It simply allows business owners to invoice customers with the option of paying with bitcoin.
 
 ### Verdict
-As we couldn't find the options for sending and receiving bitcoin, it may be safe to assume it is **nosendreceive.**
+Until any further information, we conclude that this app is not a bitcoin wallet.

@@ -34,7 +34,7 @@ redirect_from:
 ---
 ### App Description
 
-From the carousel in Google play, it seems to be a centralized cryptocurrency exchange.
+From the screenshots in Google play, it seems to be a centralized cryptocurrency exchange.
 
 > HBTC Exchange is a 100% token holders owned trading platform that is jointly invested by Huobi, OKEx and 56 other world-class institutions.
 

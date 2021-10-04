@@ -32,7 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
-### App Description
+## App Description
 
 > A fully regulated cryptocurrency exchange
 
@@ -41,13 +41,13 @@ Deposits can be in fiat or cryptocurrencies including bitcoin
 > Various payment methods<br>
 Credit/debit card, Instant ACH, Instant SEPA, Faster Payments, and SWIFT.
 
-### The Site
+## The Site
 
 This page describes how to [deposit/withdraw through various means](https://help.coinmetro.com/en/collections/3086906-deposits-and-withdrawals)
 
 The company behind the app is based in Estonia.
 
-#### Terms and Conditions
+### Terms and Conditions
 
 CoinMetro's [Terms of Use](https://coinmetro.com/terms-of-use)
 
@@ -55,19 +55,19 @@ Section 2.1 provides insight on the wallets they provide:
 
 > The CoinMetro Platform provides you access to and use of a number of exchange **wallets for the purposes of storing, tracking, transferring, managing and trading balances of supported digital assets** as well as certain types of funds as specified by CoinMetro from time to time.
 
-**Withdrawal Limits**
+### Withdrawal Limits
 
 > You may withdraw digital assets from your CoinMetro exchange wallet by transferring them to an external digital asset wallet. The withdrawal of digital assets may be subject to periodic withdrawal limits.
 
-**Account Termination**
+### Account Termination
 
 > If we terminate any order, or restrict your use of the CoinMetro Services in accordance with this Clause 10, we shall not be liable for any losses, expenses or other costs incurred to you, any other user of the CoinMetro Services and / or any other third party.
 
-### The App
+## The App
 
 We downloaded the app and installed on Blue Stacks. Before being able to use the app or service, the site requires user verification. We were not able to proceed beyond that.
 
-### Verdict
+## Verdict
 
 Coinmetro is a **custodial** service and **not verifiable**
 
