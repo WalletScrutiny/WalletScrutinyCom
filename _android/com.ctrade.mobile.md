@@ -19,7 +19,7 @@ issue:
 icon: com.ctrade.mobile.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-10-04
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.blockchain.edcwallet.png
 bugbounty: 
 verdict: nobtc
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 

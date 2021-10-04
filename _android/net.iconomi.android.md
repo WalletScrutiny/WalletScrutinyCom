@@ -19,7 +19,7 @@ issue:
 icon: net.iconomi.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
