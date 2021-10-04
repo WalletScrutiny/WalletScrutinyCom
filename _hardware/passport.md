@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2020-07-01
 discontinued: # date
-updated: 2021-08-06
-version: v1.0.6
+updated: 2021-09-20
+version: v1.0.7
 dimensions: [38, 102, 23]
 weight: 138
 website: https://foundationdevices.com/
