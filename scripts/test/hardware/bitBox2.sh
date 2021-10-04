@@ -10,6 +10,7 @@ rm -rf bitbox02-firmware/
 git clone https://github.com/digitalbitbox/bitbox02-firmware
 cd bitbox02-firmware/
 wget https://github.com/digitalbitbox/bitbox02-firmware/releases/download/firmware-btc-only%2Fv${version}/firmware-btc.v${version}.signed.bin
+cp firmware-btc.v${version}.signed.bin $ARCHIVE/bitbox02-firmware-btc.v${version}.signed.bin
 echo ${buildHash}; sha256sum *.bin
 releases/build.sh firmware-btc-only/v${version} "make firmware-btc"
 sha256sum temp/build/bin/firmware-btc.bin firmware-btc.v${version}.bin
