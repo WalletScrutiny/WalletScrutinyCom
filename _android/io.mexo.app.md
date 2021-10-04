@@ -10,7 +10,7 @@ released: 2020-08-30
 updated: 2021-08-20
 version: "1.9.7"
 stars: 1.9
-ratings: 275
+ratings: 276
 reviews: 215
 size: 45M
 website: http://mexo.io/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 The app description appears to be entirely in Spanish. Quotes below are taken from Google Translate.
 

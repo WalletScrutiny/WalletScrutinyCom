@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.emberfund.ember
 released: 2019-01-24
-updated: 2021-09-29
+updated: 2021-10-04
 version: "9.3"
-stars: 4.4
-ratings: 448
-reviews: 259
+stars: 4.3
+ratings: 449
+reviews: 260
 size: 48M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund

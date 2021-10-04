@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 LILKA looks like and states that it is a Point of Sale. This makes it clear that this app is not primarily a bitcoin wallet or may not act as one.
 

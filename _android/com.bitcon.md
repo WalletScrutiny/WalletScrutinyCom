@@ -9,9 +9,9 @@ appId: com.bitcon
 released: 
 updated: 2021-07-02
 version: "1.0.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 5
+reviews: 2
 size: 26M
 website: 
 repository: 

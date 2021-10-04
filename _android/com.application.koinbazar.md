@@ -4,14 +4,14 @@ title: "Koinbazar -Bitcoin & Cryptocurrency Exchange India"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.application.koinbazar
 released: 2021-05-17
 updated: 2021-09-23
 version: "1.10"
-stars: 4.0
-ratings: 1136
-reviews: 521
+stars: 3.9
+ratings: 1147
+reviews: 530
 size: 12M
 website: https://www.koinbazar.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 INR (Indian Rupee) deposit and withdrawal as well as trading cryptocurrencies such as BTC, ETH, XRP and more are available.

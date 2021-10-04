@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.beeex.broker.android.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-10-04
 signer: 
 reviewArchive:
 

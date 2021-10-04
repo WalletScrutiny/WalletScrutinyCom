@@ -9,9 +9,9 @@ appId: com.pons
 released: 2020-09-22
 updated: 2020-12-26
 version: "1.0.0.11"
-stars: 4.3
-ratings: 19
-reviews: 10
+stars: 4.2
+ratings: 20
+reviews: 11
 size: 38M
 website: 
 repository: 

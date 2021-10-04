@@ -9,9 +9,9 @@ appId: com.mobox.wallet
 released: 2021-02-02
 updated: 2021-10-02
 version: "1.2.1"
-stars: 4.1
-ratings: 1163
-reviews: 593
+stars: 4.2
+ratings: 1190
+reviews: 603
 size: 29M
 website: https://mobox.io/
 repository: 

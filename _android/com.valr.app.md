@@ -4,14 +4,14 @@ title: "VALR - Crypto Exchange & Payments"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.valr.app
 released: 2019-09-13
 updated: 2021-09-22
 version: "1.0.30"
 stars: 4.4
-ratings: 898
-reviews: 475
+ratings: 920
+reviews: 486
 size: 107M
 website: https://www.valr.com
 repository: 

@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 From the screenshots in Google play, it seems to be a centralized cryptocurrency exchange.

@@ -8,10 +8,10 @@ appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2021-09-23
-version: "1.9"
-stars: 4.22346
-reviews: 28560
+updated: 2021-10-04
+version: "1.10"
+stars: 4.22384
+reviews: 28659
 size: 33864704
 website: https://support.wazirx.com
 repository: 

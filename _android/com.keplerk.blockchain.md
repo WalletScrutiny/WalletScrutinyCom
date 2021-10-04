@@ -12,7 +12,7 @@ version: "3.3.0"
 stars: 3.9
 ratings: 308
 reviews: 162
-size: 42M
+size: 41M
 website: https://bykep.com/en
 repository: 
 issue: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 In the description, BYKEP advertises buying crypto by credit card or transfer.
 

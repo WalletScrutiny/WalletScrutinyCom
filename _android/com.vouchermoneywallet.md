@@ -4,14 +4,14 @@ title: "Voucher Money Vouchers and Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.vouchermoneywallet
 released: 2020-12-15
 updated: 2021-03-03
 version: "1.38.1"
 stars: 4.3
-ratings: 698
-reviews: 192
+ratings: 702
+reviews: 193
 size: 52M
 website: https://vouchermoney.com/
 repository: 

@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 > A fully regulated cryptocurrency exchange

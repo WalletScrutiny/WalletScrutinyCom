@@ -10,8 +10,8 @@ released: 2019-04-25
 updated: 2021-05-10
 version: "2.8.1"
 stars: 3.4
-ratings: 1026
-reviews: 516
+ratings: 1033
+reviews: 519
 size: 10M
 website: https://www.jex.com
 repository: 

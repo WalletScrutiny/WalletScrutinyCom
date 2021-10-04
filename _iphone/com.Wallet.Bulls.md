@@ -8,8 +8,8 @@ appId: com.Wallet.Bulls
 appCountry: us
 idd: 1573190233
 released: 2021-06-23
-updated: 2021-10-01
-version: "1.19"
+updated: 2021-10-04
+version: "1.21"
 stars: 5
 reviews: 9
 size: 61459456

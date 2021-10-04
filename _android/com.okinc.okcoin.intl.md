@@ -9,9 +9,9 @@ appId: com.okinc.okcoin.intl
 released: 2018-06-22
 updated: 2021-09-28
 version: "5.1.8"
-stars: 4.3
-ratings: 2314
-reviews: 440
+stars: 4.4
+ratings: 2341
+reviews: 446
 size: 125M
 website: https://www.okcoin.com/
 repository: 

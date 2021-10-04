@@ -10,8 +10,8 @@ idd: 1517787269
 released: 2020-12-09
 updated: 2021-09-25
 version: "CoinDCX 2.2.007"
-stars: 4.2973
-reviews: 296
+stars: 4.30201
+reviews: 298
 size: 77122560
 website: https://coindcx.com
 repository: 

@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 It appears to be a service that allows users to buy and sell cryptocurrencies including Bitcoin and Ethereum.

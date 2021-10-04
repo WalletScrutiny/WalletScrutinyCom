@@ -10,8 +10,8 @@ released: 2019-05-08
 updated: 2020-07-16
 version: "144.5.0-release"
 stars: 2.1
-ratings: 608
-reviews: 460
+ratings: 609
+reviews: 461
 size: 9.5M
 website: 
 repository: 

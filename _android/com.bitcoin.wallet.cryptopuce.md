@@ -9,8 +9,8 @@ appId: com.bitcoin.wallet.cryptopuce
 released: 2021-03-07
 updated: 2021-05-20
 version: "1.2"
-stars: 3.5
-ratings: 37
+stars: 3.6
+ratings: 38
 reviews: 18
 size: 4.0M
 website: 

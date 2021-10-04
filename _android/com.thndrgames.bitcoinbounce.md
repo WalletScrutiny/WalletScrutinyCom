@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Bounce ⚡ Earn and Win REAL Bitcoin"
+title: "Bitcoin Bounce - Earn and Win Real Bitcoin"
 altTitle: 
 authors:
 - danny

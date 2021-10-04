@@ -10,8 +10,8 @@ released: 2020-08-04
 updated: 2021-09-22
 version: "5.6.0"
 stars: 5.0
-ratings: 10996
-reviews: 84
+ratings: 10993
+reviews: 85
 size: 49M
 website: https://www.btcc.com/
 repository: 

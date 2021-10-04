@@ -1,5 +1,5 @@
 ---
-wsId: vita 
+wsId: vita
 title: "Vita Wallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2019-10-16
 updated: 2021-09-08
 version: "3.6.3"
 stars: 4.1
-ratings: 284
-reviews: 197
+ratings: 285
+reviews: 198
 size: 42M
 website: https://vitawallet.io/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 The app, as well as its description appear to be entirely in Spanish. Quotes below are taken from Google Translate.
 

@@ -10,7 +10,7 @@ released: 2019-10-24
 updated: 2021-09-07
 version: "2.2.4"
 stars: 4.5
-ratings: 250
+ratings: 251
 reviews: 210
 size: 6.4M
 website: https://www.hashcashconsultants.com
@@ -26,12 +26,14 @@ reviewArchive:
 
 providerTwitter: paybito
 providerLinkedIn: 
-providerFacebook: paybito 
+providerFacebook: paybito
 providerReddit: 
 
 redirect_from:
 
 ---
+
+
 ### App Description
 From the app description: 
 

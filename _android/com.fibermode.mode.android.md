@@ -9,11 +9,11 @@ appId: com.fibermode.mode.android
 released: 2021-02-11
 updated: 2021-09-29
 version: "2.1.3"
-stars: 4.3
-ratings: 214
-reviews: 112
+stars: 4.2
+ratings: 215
+reviews: 113
 size: 143M
-website: https://modeapp.com 
+website: https://modeapp.com
 repository: 
 issue: 
 icon: com.fibermode.mode.android.png
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 From the description:
 

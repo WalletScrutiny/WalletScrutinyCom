@@ -8,11 +8,11 @@ appId: network.artery.network
 appCountry: ru
 idd: 1532702666
 released: 2020-10-16
-updated: 2021-07-14
-version: "1.6"
-stars: 4.5227
-reviews: 859
-size: 78948352
+updated: 2021-10-04
+version: "1.7"
+stars: 4.58249
+reviews: 903
+size: 82137088
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 

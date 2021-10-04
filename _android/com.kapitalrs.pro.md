@@ -10,8 +10,8 @@ released: 2017-02-07
 updated: 2020-10-18
 version: "90.1.085"
 stars: 4.0
-ratings: 719
-reviews: 265
+ratings: 720
+reviews: 266
 size: 5.6M
 website: https://www.kapitalrs.com
 repository: 

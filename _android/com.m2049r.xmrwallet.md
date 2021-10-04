@@ -10,8 +10,8 @@ released: 2017-09-29
 updated: 2021-09-08
 version: "2.1.1 'Vertant'"
 stars: 3.6
-ratings: 760
-reviews: 457
+ratings: 761
+reviews: 458
 size: Varies with device
 website: https://monerujo.io
 repository: 

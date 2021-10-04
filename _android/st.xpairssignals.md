@@ -7,22 +7,26 @@ authors:
 users: 100000
 appId: st.xpairssignals
 released: 2017-10-07
-updated: 2020-02-21
-version: "4.4"
+updated: 2021-10-03
+version: "4.6"
 stars: 4.3
-ratings: 844
+ratings: 845
 reviews: 486
-size: 3.4M
+size: 4.6M
 website: 
 repository: 
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: wip
+date: 2021-10-04
 signer: 
 reviewArchive:
-
+- date: 2021-08-17
+  version: "4.4"
+  appHash: 
+  gitRevision: 308364023ca209ab298bfedc99ccc4c385ec86ad
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 
