@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitsa
 title: "Bitsa"
 altTitle: 
 authors:
-
+- danny
 appId: com.bitsacard.BitsaApp
 appCountry: gb
 idd: 1458095544
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: bitsa_oficial
+providerLinkedIn: bitsacard
+providerFacebook: BitsaCard
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

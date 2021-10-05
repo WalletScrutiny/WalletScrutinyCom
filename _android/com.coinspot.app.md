@@ -13,7 +13,7 @@ stars: 3.0
 ratings: 903
 reviews: 696
 size: 7.2M
-website: 
+website: https://www.coinspot.com.au/
 repository: 
 issue: 
 icon: com.coinspot.app.png
@@ -24,9 +24,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinspotau
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: coinspotau
 providerReddit: 
 
 redirect_from:

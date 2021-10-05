@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: AladdinPro
 title: "Aladdin Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.abbc.wallet
 appCountry: us
 idd: 1475883958
@@ -13,23 +13,25 @@ version: "1.3.3"
 stars: 5
 reviews: 1
 size: 52381696
-website: 
+website: https://abbccoin.com/
 repository: 
 issue: 
 icon: com.abbc.wallet.jpg
 bugbounty: 
-verdict: stale
+verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: abbcfoundation
+providerLinkedIn: abbcfoundation
+providerFacebook: abbcfoundation
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

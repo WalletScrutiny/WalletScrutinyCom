@@ -1,5 +1,5 @@
 ---
-wsId: keypairKWTOUCH
+wsId: 
 title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
 altTitle: 
 authors:

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: flitpay
 title: "Flitpay: Crypto Exchange"
 altTitle: 
 authors:
-
+- danny
 appId: com.core.ios.flitpay
 appCountry: dk
 idd: 1571975471
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.core.ios.flitpay.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: flitpayofficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: flitpay
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

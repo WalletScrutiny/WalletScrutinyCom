@@ -1,5 +1,5 @@
 ---
-wsId: keypairNIXPAY
+wsId: 
 title: "NiXPAY"
 altTitle: 
 authors:

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: BizzCoin
 title: "Bizzcoin Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.bizz.bizzcoinWallet
 appCountry: in
 idd: 1502535419
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bizz_coin
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: BizzCoinOfficial
+providerReddit:  
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

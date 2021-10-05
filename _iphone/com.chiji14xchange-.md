@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: RocketByChiji
 title: "Rocket by Chiji14xchange"
 altTitle: 
 authors:
-
+- danny
 appId: com.chiji14xchange-
 appCountry: ng
 idd: 1459183957
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.chiji14xchange-.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: myrocketapp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: myrocketapp
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

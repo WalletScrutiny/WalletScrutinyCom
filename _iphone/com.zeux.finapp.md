@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: zeux
 title: "Zeux - Banking & Investing"
 altTitle: 
 authors:
-
+- danny
 appId: com.zeux.finapp
 appCountry: gb
 idd: 1384796487
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zeux.finapp.jpg
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

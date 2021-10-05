@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: roseon
 title: "Roseon Finance"
 altTitle: 
 authors:
-
+- danny
 appId: com.roseon.finance.production
 appCountry: vn
 idd: 1559440997
@@ -13,23 +13,23 @@ version: "2.3.7"
 stars: 4.52174
 reviews: 23
 size: 84732928
-website: 
+website: https://roseon.finance/
 repository: 
 issue: 
 icon: com.roseon.finance.production.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: RoseonFinance
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Roseon.Finance
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

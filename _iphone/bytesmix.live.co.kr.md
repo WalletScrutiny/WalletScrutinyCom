@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: wsId: Bytesmix
 title: "바이츠믹스"
 altTitle: 
 authors:
-
+- danny
 appId: bytesmix.live.co.kr
 appCountry: kr
 idd: 1475633490
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: bytesmix.live.co.kr.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bytesmix
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bytesmix
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

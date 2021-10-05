@@ -50,4 +50,10 @@ We emailed the Mixin development team on September 16, 2021, to verify whether t
 
 The [repository](https://github.com/MixinNetwork) is linked in the description.
 
-It appears that this wallet is **non-custodial** and that source-code is available. However, we still require additional verification before we can make a conclusive verdict on this app.
+It appears that this wallet is **non-custodial** and that source-code is available. 
+
+An issue has been made on Gitlab with the corresponding [results](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/344). 
+
+Issue has been raised in MixinNetwork's [Github Issues page](https://github.com/MixinNetwork/android-app/issues/2490). 
+
+This app is still a **work in progress**.

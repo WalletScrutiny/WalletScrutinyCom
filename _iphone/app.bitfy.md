@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitfy
 title: "Bitfy"
 altTitle: 
 authors:
-
+- danny
 appId: app.bitfy
 appCountry: us
 idd: 1483269793
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: app.bitfy.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bitfyapp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitfyapp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

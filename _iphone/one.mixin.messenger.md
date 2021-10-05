@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Mixin
 title: "Mixin Messenger"
 altTitle: 
 authors:
-
+- danny
 appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
@@ -13,8 +13,8 @@ version: "0.32.0"
 stars: 4.80769
 reviews: 156
 size: 82763776
-website: 
-repository: 
+website: https://mixinmessenger.zendesk.com/
+repository: https://github.com/MixinNetwork
 issue: 
 icon: one.mixin.messenger.jpg
 bugbounty: 
@@ -24,12 +24,14 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: MixinMessenger
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: MixinNetwork
+providerReddit: mixin
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

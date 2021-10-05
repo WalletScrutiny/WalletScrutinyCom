@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ember
 title: "Ember Fund - Invest in Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.emberfund.ember
 appCountry: us
 idd: 1406211993
@@ -14,17 +14,17 @@ stars: 4.54396
 reviews: 364
 size: 64177152
 website: https://emberfund.io/
-repository: 
+repository: https://github.com/ember-fund
 issue: 
 icon: com.emberfund.ember.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Ember_Fund
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

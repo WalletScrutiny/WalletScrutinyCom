@@ -1,5 +1,5 @@
 ---
-wsId: ecoin
+wsId: ecoinSafex
 title: "Safex Wallet (formerly Ecoin Wallet)"
 altTitle: 
 authors:
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
-verdict: defunct
+verdict: nobtc
 date: 2021-09-23
 signer: 
 reviewArchive:
@@ -29,14 +29,19 @@ reviewArchive:
   verdict: nowallet
   
 
-providerTwitter: 
+providerTwitter: ecoinofficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ecoinofficial
 providerReddit: 
 
 redirect_from:
 
 ---
+**Update 2021-10-05** After marking it as defunct, it seems to have been updated recently (2021-09-22) and is now on the Google Play Store again. It is now described as the SafeX wallet (formerly eCoin.)
+
+We downloaded the app again. Clicking on the Accounts menu, shows the options for the following cryptocurrencies: XDC, TRX and USDT. Clicking on the "Transfer" menu, allows us to send to XDC, TRX and USDT. There is no BTC in the options.
+
+The wallet has **no BTC wallet.**
 
 **Update 2021-09-15**: This app is not on the Play Store anymore.
 

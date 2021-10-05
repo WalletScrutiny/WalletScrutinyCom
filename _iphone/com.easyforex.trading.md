@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: easyMarkets
 title: "easyMarkets Online Trading"
 altTitle: 
 authors:
-
+- danny
 appId: com.easyforex.trading
 appCountry: us
 idd: 348823316
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.easyforex.trading.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: easymarkets
+providerLinkedIn: easymarkets
+providerFacebook: easyMarkets
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

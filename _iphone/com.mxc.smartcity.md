@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: datadash
 title: "DataDash App"
 altTitle: 
 authors:
-
+- danny
 appId: com.mxc.smartcity
 appCountry: us
 idd: 1509218470
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.mxc.smartcity.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: mxcfoundation
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: MXCfoundation
+providerReddit: MXC_Foundation
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

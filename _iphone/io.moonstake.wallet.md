@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Moonstake
 title: "Moonstake Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: io.moonstake.wallet
 appCountry: us
 idd: 1502532651
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: io.moonstake.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: moonstake
+providerLinkedIn: moonstake
+providerFacebook: moonstakekorea
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}
