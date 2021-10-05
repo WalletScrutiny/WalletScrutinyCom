@@ -940,6 +940,7 @@ table tr td label {
 
 #gridOfWallets1 img.app_logo {
   height:3em;
+  width:3em;
   float:left;
   margin: 0.3em;
 }
@@ -994,7 +995,6 @@ table tr td label {
 }
 
 #gridOfWallets2 img.app_logo {
-  width: auto;
   float: left;
   margin: 0.3em;
   border-radius: 20%;
@@ -1716,4 +1716,16 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 html {
   scroll-behavior: smooth;
+}
+
+.alertBox {
+  border:solid 3px black;
+  border-radius:20px;
+  background:var(--red-notify-background);
+  margin-bottom:1em;
+  font-weight:bold
+}
+
+.alertBox > div {
+  margin:1em;
 }
