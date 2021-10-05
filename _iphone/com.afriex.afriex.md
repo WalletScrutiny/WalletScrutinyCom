@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Afriex
 title: "Afriex - Money transfer"
 altTitle: 
 authors:
-
+- danny
 appId: com.afriex.afriex
 appCountry: us
 idd: 1492022568
@@ -24,12 +24,14 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: afriexapp
+providerLinkedIn: afriex
+providerFacebook: AfriexApp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+ {% include copyFromAndroid.html %}
