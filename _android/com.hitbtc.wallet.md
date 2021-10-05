@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "HitBTC Crypto Wallet"
+altTitle: 
+authors:
+
+users: 1000
+appId: com.hitbtc.wallet
+released: 2021-08-31
+updated: 2021-10-02
+version: "1.0.4"
+stars: 4.7
+ratings: 35
+reviews: 9
+size: 46M
+website: 
+repository: 
+issue: 
+icon: com.hitbtc.wallet.png
+bugbounty: 
+verdict: wip
+date: 2021-10-05
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
