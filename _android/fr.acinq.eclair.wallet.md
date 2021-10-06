@@ -3,7 +3,7 @@ wsId:
 title: "Eclair Mobile Testnet"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: fr.acinq.eclair.wallet
 released: 2017-07-20
@@ -13,18 +13,18 @@ stars: 4.4
 ratings: 221
 reviews: 88
 size: 29M
-website: 
+website: https://acinq.co/
 repository: 
 issue: 
 icon: fr.acinq.eclair.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-08-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: acinq_co
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -34,3 +34,6 @@ redirect_from:
 ---
 
 
+This is the testnet version of {% include walletLink.html wallet='android/fr.acinq.eclair.wallet.mainnet2' verdict='true' %}
+
+The testnet version of an app, **cannot hold bitcoins**.
