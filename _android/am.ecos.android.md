@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: am.ecos.android.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:

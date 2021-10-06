@@ -18,7 +18,7 @@ repository: https://github.com/ProtonProtocol/
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -50,5 +50,5 @@ Upon app installation, registration and verification, the first thing to do was 
 
 ## Verdict
 
-We checked the repository of the [Proton on Github](https://github.com/ProtonProtocol/) but was unable to find the source code for the Android App. Pending evaluation, our tentative verdict details a self-custodial app with no source code.
+We checked the repository of the [Proton on Github](https://github.com/ProtonProtocol/) but was unable to find the source code for the Android App. Our verdict details a self-custodial app with **no source code.**
 

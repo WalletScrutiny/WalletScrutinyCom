@@ -13,12 +13,12 @@ stars: 4.4
 ratings: 190
 reviews: 50
 size: 49M
-website: 
+website: https://saltlending.com/
 repository: 
 issue: 
 icon: com.saltlending.mobile.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -27,7 +27,6 @@ reviewArchive:
 providerTwitter: SALTlending
 providerLinkedIn: saltlending
 providerFacebook: SALTLENDING
-
 providerReddit: 
 
 redirect_from:
