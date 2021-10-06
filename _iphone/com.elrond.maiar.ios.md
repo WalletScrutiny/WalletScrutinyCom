@@ -10,8 +10,8 @@ idd: 1458612260
 released: 2020-03-05
 updated: 2020-07-23
 version: "0.1.3"
-stars: 4.92366
-reviews: 262
+stars: 4.92394
+reviews: 263
 size: 74845184
 website: https://browser.maiar.com/
 repository: 

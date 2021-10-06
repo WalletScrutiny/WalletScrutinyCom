@@ -10,8 +10,8 @@ released: 2021-05-17
 updated: 2021-09-23
 version: "1.10"
 stars: 4.0
-ratings: 1160
-reviews: 536
+ratings: 1166
+reviews: 539
 size: 12M
 website: https://www.koinbazar.com/
 repository: 

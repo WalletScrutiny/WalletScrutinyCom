@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.aabb
 released: 2021-03-08
-updated: 2021-09-09
-version: "1.0.1230"
+updated: 2021-10-04
+version: "1.0.1233"
 stars: 4.0
 ratings: 508
 reviews: 277
-size: 28M
+size: 27M
 website: 
 repository: 
 issue: 

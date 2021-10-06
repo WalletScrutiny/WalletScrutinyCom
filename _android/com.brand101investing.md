@@ -9,9 +9,9 @@ appId: com.brand101investing
 released: 
 updated: 2021-08-25
 version: "1.5.69-brand101investing"
-stars: 3.6
-ratings: 254
-reviews: 205
+stars: 3.7
+ratings: 256
+reviews: 207
 size: 19M
 website: 
 repository: 

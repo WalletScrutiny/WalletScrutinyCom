@@ -9,9 +9,9 @@ appId: sg.express.mobile
 released: 2020-07-10
 updated: 2021-09-29
 version: "1.19.0"
-stars: 4.2
-ratings: 2343
-reviews: 914
+stars: 4.3
+ratings: 2357
+reviews: 925
 size: 37M
 website: https://stormgainexpress.com/
 repository: 

@@ -9,9 +9,9 @@ appId: com.mufin.iconfi
 released: 2021-01-27
 updated: 2021-07-14
 version: "1.0.4"
-stars: 4.6
-ratings: 204
-reviews: 127
+stars: 4.5
+ratings: 205
+reviews: 128
 size: 9.9M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2021-03-16
 updated: 2021-09-26
 version: "2.3.7"
 stars: 3.9
-ratings: 350
-reviews: 223
+ratings: 354
+reviews: 224
 size: 68M
 website: https://roseon.finance/
 repository: 

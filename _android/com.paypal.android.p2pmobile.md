@@ -11,8 +11,8 @@ released: 2016-02-19
 updated: 2021-10-03
 version: "8.4.2"
 stars: 4.3
-ratings: 2189901
-reviews: 851845
+ratings: 2191196
+reviews: 852326
 size: 117M
 website: https://www.paypal.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.blockin.google
 released: 2020-03-12
 updated: 2021-09-30
 version: "3.3.0"
-stars: 4.0
-ratings: 607
-reviews: 205
+stars: 3.9
+ratings: 608
+reviews: 206
 size: 38M
 website: https://www.poolin.com/
 repository: 

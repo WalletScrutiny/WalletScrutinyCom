@@ -10,8 +10,8 @@ released: 2019-07-11
 updated: 2021-09-20
 version: "2.1.41"
 stars: 3.5
-ratings: 3436
-reviews: 2162
+ratings: 3440
+reviews: 2165
 size: 91M
 website: https://nuri.com
 repository: 

@@ -4,7 +4,7 @@ title: "Jaxx Liberty Bitcoin & Ethereum"
 altTitle: 
 authors:
 - leo
-users: 10
+users: 50
 appId: ja.xx.exch.ange
 released: 2021-09-01
 updated: 2021-09-01

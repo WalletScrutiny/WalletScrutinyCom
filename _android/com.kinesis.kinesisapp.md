@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.kinesis.kinesisapp
 released: 2020-02-28
-updated: 2021-08-09
-version: "1.2.56"
+updated: 2021-10-01
+version: "1.2.64"
 stars: 3.5
 ratings: 369
 reviews: 177

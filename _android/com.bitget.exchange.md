@@ -10,7 +10,7 @@ released: 2020-04-03
 updated: 2021-10-03
 version: "1.2.16"
 stars: 4.7
-ratings: 517
+ratings: 518
 reviews: 462
 size: 42M
 website: https://www.bitget.com/

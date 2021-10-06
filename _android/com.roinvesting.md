@@ -10,8 +10,8 @@ released:
 updated: 2021-08-25
 version: "1.5.69-roinvesting"
 stars: 4.4
-ratings: 469
-reviews: 182
+ratings: 471
+reviews: 184
 size: 19M
 website: 
 repository: 
