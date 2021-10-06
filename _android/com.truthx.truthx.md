@@ -10,7 +10,7 @@ released: 2020-07-04
 updated: 2021-05-03
 version: "1.0.4"
 stars: 3.3
-ratings: 331
+ratings: 332
 reviews: 292
 size: 24M
 website: https://gifttokenweb.herokuapp.com

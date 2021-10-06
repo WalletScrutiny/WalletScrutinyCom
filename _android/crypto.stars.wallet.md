@@ -9,9 +9,9 @@ appId: crypto.stars.wallet
 released: 2018-10-11
 updated: 2018-10-11
 version: "0.42.6"
-stars: 4.1
-ratings: 9
-reviews: 6
+stars: 4.3
+ratings: 11
+reviews: 7
 size: 6.6M
 website: 
 repository: 

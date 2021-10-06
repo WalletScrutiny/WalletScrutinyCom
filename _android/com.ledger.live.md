@@ -9,9 +9,9 @@ appId: com.ledger.live
 released: 2019-01-27
 updated: 2021-09-14
 version: "2.33.0"
-stars: 4.0
-ratings: 4967
-reviews: 2798
+stars: 3.9
+ratings: 4974
+reviews: 2803
 size: Varies with device
 website: 
 repository: 

@@ -4,7 +4,7 @@ title: "Ja­xx Lib­erty: Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 100
+users: 500
 appId: jax.wallet.liberty
 released: 2021-08-30
 updated: 2021-08-31

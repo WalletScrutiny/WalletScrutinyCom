@@ -8,8 +8,8 @@ appId: prizmbit.com
 appCountry: 
 idd: 1459094607
 released: 2019-06-14
-updated: 2021-09-25
-version: "1.6.7"
+updated: 2021-10-05
+version: "1.6.8"
 stars: 3
 reviews: 2
 size: 39227392

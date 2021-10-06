@@ -10,7 +10,7 @@ released: 2020-10-30
 updated: 2021-05-25
 version: "3.1.1"
 stars: 2.5
-ratings: 97
+ratings: 99
 reviews: 59
 size: 4.9M
 website: 

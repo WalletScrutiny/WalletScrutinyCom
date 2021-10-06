@@ -4,7 +4,7 @@ title: "Fox Global - Automated Crypto and Forex Trading"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.foxtrading.fox
 released: 2018-05-14
 updated: 2019-05-08

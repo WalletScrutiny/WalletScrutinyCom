@@ -4,14 +4,14 @@ title: "AirGap Wallet - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: it.airgap.wallet
 released: 2018-08-06
 updated: 2021-09-18
 version: "3.10.0"
 stars: 4.0
-ratings: 101
-reviews: 48
+ratings: 102
+reviews: 49
 size: 73M
 website: https://www.airgap.it
 repository: 

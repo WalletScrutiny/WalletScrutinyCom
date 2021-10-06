@@ -9,9 +9,9 @@ appId: com.bitazza.android
 released: 2020-09-29
 updated: 2021-09-14
 version: "1.8.4"
-stars: 4.1
-ratings: 2385
-reviews: 476
+stars: 4.0
+ratings: 2394
+reviews: 482
 size: 42M
 website: https://bitazza.com
 repository: 

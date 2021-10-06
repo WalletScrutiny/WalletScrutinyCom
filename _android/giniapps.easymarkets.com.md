@@ -9,9 +9,9 @@ appId: giniapps.easymarkets.com
 released: 2017-04-05
 updated: 2021-09-15
 version: "1.27.1"
-stars: 4.1
-ratings: 1593
-reviews: 685
+stars: 4.0
+ratings: 1596
+reviews: 688
 size: 35M
 website: https://www.easymarkets.com
 repository: 

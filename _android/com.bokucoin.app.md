@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bokucoin.app.png
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: stale
+date: 2021-10-06
 signer: 
 reviewArchive:
 

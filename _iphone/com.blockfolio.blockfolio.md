@@ -10,8 +10,8 @@ idd: 1095564685
 released: 2017-01-05
 updated: 2021-10-04
 version: "4.1.0"
-stars: 4.8174
-reviews: 47081
+stars: 4.81731
+reviews: 47126
 size: 61938688
 website: https://blockfolio.com
 repository: 

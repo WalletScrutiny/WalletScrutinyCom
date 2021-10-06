@@ -10,8 +10,8 @@ released: 2020-12-27
 updated: 2021-08-17
 version: "1.0.10"
 stars: 4.7
-ratings: 34
-reviews: 13
+ratings: 32
+reviews: 11
 size: 22M
 website: https://profittradingapp.com/
 repository: 

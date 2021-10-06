@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.masterbitexpress.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-06
 signer: 
 reviewArchive:
+- date: 2021-08-17
+  version: "1.1.1.10"
+  appHash: 
+  gitRevision: c03ff801a85a7d56a4b1ef2ea0b1bb8d7bd5b7a6
+  verdict: stale
 - date: 2021-08-08
   version: "1.1.1.10"
   appHash: 
