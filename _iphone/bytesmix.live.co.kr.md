@@ -1,5 +1,5 @@
 ---
-wsId: wsId: Bytesmix
+wsId: Bytesmix
 title: "바이츠믹스"
 altTitle: 
 authors:
