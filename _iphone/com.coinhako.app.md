@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coinhako
 title: "Coinhako: Bitcoin Wallet Asia"
 altTitle: 
 authors:

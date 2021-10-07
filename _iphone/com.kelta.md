@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: kelta
 title: "KELTA - Buy Bitcoin Now"
 altTitle: 
 authors:
-
+- danny
 appId: com.kelta
 appCountry: sk
 idd: 1385038150
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.kelta.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

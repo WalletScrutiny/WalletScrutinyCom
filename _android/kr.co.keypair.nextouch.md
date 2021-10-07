@@ -1,5 +1,5 @@
 ---
-wsId: keypairNEXTOUCH
+wsId: 
 title: "NExTouch"
 altTitle: 
 authors:

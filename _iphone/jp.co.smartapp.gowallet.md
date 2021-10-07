@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: gowallet
 title: "GO ! WALLET -  ethereum wallet"
 altTitle: 
 authors:
-
+- danny
 appId: jp.co.smartapp.gowallet
 appCountry: us
 idd: 1400626330
@@ -13,7 +13,7 @@ version: "1.4.8"
 stars: 4.6361
 reviews: 687
 size: 86727680
-website: 
+website: https://www.go-wallet.app/
 repository: 
 issue: 
 icon: jp.co.smartapp.gowallet.jpg
@@ -24,12 +24,12 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: gowallet_app_
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: gowalletappli
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

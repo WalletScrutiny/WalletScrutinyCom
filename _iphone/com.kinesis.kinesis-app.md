@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: kinesismoney
 title: "Kinesis - Buy gold and silver"
 altTitle: 
 authors:
-
+- danny
 appId: com.kinesis.kinesis-app
 appCountry: us
 idd: 1490483608
@@ -14,22 +14,25 @@ stars: 4.53571
 reviews: 28
 size: 57466880
 website: https://kinesis.money/
-repository: 
+repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 
 icon: com.kinesis.kinesis-app.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: KinesisMonetary
+providerLinkedIn: kinesismoney
+providerFacebook: kinesismoney
+providerReddit: Kinesis_money
+
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-wsId: keypairAFIN
+wsId: 
 title: "AFIN Touch"
 altTitle: 
 authors:

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: coinspot
 title: "CoinSpot - Buy & Sell Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinspot.app
 appCountry: au
 idd: 1541949985
@@ -13,23 +13,25 @@ version: "1.0.11"
 stars: 2.71538
 reviews: 1047
 size: 11279360
-website: 
+website: https://www.coinspot.com.au/
 repository: 
 issue: 
 icon: com.coinspot.app.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinspotau
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: coinspotau
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

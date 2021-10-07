@@ -1,5 +1,5 @@
 ---
-wsId: mexcexchange
+wsId: 
 title: "MEXC Exchange - Buy & Sell Bitcoin, ETH and DeFi"
 altTitle: 
 authors:

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: prestmit
 title: "Prestmit"
 altTitle: 
 authors:
-
+- danny
 appId: com.prestmit.app
 appCountry: us
 idd: 1581960714
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.prestmit.app.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: prestmit
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: prestmit
+providerReddit:  
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

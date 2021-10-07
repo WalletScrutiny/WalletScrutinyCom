@@ -73,4 +73,4 @@ Afriex is only available in the countries of Nigeria Ghana, Kenya, Canada, and t
 
 ### Reach out
 
-We tried to reach out to Afriex via [twitter](https://twitter.com/dannybuntu/status/1440665146985041925) and await a response. With not much information at hand, we will leave it as work-in-progress until they officially replied.
+We tried to reach out to Afriex via [twitter](https://twitter.com/BitcoinWalletz/status/1445216191996313606) and await a response. With not much information at hand, we will leave it as work-in-progress until they officially replied.

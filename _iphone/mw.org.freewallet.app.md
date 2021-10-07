@@ -1,5 +1,5 @@
 ---
-wsId: mw.org.freewallet
+wsId: multi.org.freewallet.app
 title: "Multi Crypto Wallet－Freewallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ idd: 1274003898
 released: 2017-09-01
 updated: 2021-09-10
 version: "1.16.4"
-stars: 4.1255
-reviews: 1514
+stars: 4.12343
+reviews: 1515
 size: 45300736
 website: https://freewallet.org
 repository: 

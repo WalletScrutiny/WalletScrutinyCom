@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: lyopay
 title: "LYOPAY"
 altTitle: 
 authors:
-
+- danny
 appId: com.LYOPAY.LYOPAY
 appCountry: eg
 idd: 1537945402
@@ -13,23 +13,25 @@ version: "6.8"
 stars: 5
 reviews: 1
 size: 25845760
-website: 
+website: https://lyopay.com/
 repository: 
 issue: 
 icon: com.LYOPAY.LYOPAY.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: lyopayofficial
+providerLinkedIn: lyopay
+providerFacebook: lyopayofficial
+providerReddit: LYOPAY 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

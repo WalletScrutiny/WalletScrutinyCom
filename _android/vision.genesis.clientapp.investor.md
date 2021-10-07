@@ -18,7 +18,7 @@ repository: https://github.com/GenesisVision/android-client
 issue: 
 icon: vision.genesis.clientapp.investor.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
@@ -64,4 +64,10 @@ The first version of our non-custodial model of Genesis Vision consists of two p
 Decentralized asset management platform based on Ethereum blockchain.
 Decentralized platform based on XDAI blockchain.
 
-Despite having available source-code, backing up the private key is not readily apparent. Moreover, it mentions in its Privacy Policy that the company has the ability to backup and recover the personal data of users. We'll tentatively label this app as a work in progress and subject for further review.
+## Verdict
+
+Despite having available source-code, backing up the private key is not readily apparent. Moreover, it mentions in its Privacy Policy that the company has the ability to backup and recover the personal data of users. 
+
+We reached out to Genesis vision via [twitter](https://twitter.com/BitcoinWalletz/status/1445320333083353091) to clarify.
+
+We'll tentatively label this app as **custodial** and thus **not verifiable**.

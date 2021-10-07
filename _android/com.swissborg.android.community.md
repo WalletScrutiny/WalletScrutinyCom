@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: cchallengesborg
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinsField
 title: "CoinField"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinfield.csapp
 appCountry: ca
 idd: 1460170928
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.coinfield.csapp.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: CoinFieldEx
+providerLinkedIn: coinfield
+providerFacebook: coinfieldexchange
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

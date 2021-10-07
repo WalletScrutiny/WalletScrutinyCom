@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: monnos
 title: "Monnos | Comprar Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.monnos
 appCountry: br
 idd: 1476884342
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.monnos.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: monnosGlobal
+providerLinkedIn: monnosglobal
+providerFacebook: MonnosGlobal
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

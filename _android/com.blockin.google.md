@@ -1,5 +1,5 @@
 ---
-wsId: poolin
+wsId: 
 title: "Poolin"
 altTitle: 
 authors:

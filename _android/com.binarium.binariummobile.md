@@ -1,5 +1,5 @@
 ---
-wsId: binarium
+wsId:
 title: "Binarium"
 altTitle: 
 authors:

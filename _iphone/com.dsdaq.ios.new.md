@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Dsdaq
 title: "Dsdaq - Buy stock with Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.dsdaq.ios.new
 appCountry: us
 idd: 1517034078
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.dsdaq.ios.new.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: dsdaqcom
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: dsdaqcom
+providerReddit:  
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

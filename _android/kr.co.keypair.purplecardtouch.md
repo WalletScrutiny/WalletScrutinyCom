@@ -1,5 +1,5 @@
 ---
-wsId: keypairPURPLE
+wsId: 
 title: "Purple Touch"
 altTitle: 
 authors:

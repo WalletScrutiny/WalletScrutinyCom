@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CryptoTab
 title: "CryptoTab Browser Pro Level"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 53570
 reviews: 28635
 size: Varies with device
-website: 
+website: https://get.cryptobrowser.site/
 repository: 
 issue: 
 icon: pro.cryptotab.android.png

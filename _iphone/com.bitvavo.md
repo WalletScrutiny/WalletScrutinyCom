@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitvavo
 title: "Bitvavo | Buy Bitcoin & Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.bitvavo
 appCountry: be
 idd: 1483903423
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitvavo.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

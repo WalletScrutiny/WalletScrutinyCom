@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: AnchorUSD
 title: "AnchorUSD: Buy Stocks & Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: app.anchors.anchorusd
 appCountry: us
 idd: 1495986023
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: app.anchors.anchorusd.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: anchorusd
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}
