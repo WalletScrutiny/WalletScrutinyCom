@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.bitget.exchange
 released: 2020-04-03
-updated: 2021-09-19
-version: "1.2.13"
+updated: 2021-10-03
+version: "1.2.16"
 stars: 4.7
-ratings: 512
-reviews: 458
-size: 34M
+ratings: 518
+reviews: 462
+size: 42M
 website: https://www.bitget.com/
 repository: 
 issue: 

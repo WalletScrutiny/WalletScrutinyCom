@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: "Voyager: Invest in Crypto"
+title: "Voyager: Crypto Made Simple"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.investvoyager.voyager-ios
 appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2021-09-23
-version: "2.9.27"
-stars: 4.74226
-reviews: 76954
-size: 66761728
+updated: 2021-10-04
+version: "2.9.28"
+stars: 4.74174
+reviews: 77549
+size: 67132416
 website: https://www.investvoyager.com/
 repository: 
 issue: 

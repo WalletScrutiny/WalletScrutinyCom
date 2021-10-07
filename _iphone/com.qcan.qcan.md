@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.qcan.qcan.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

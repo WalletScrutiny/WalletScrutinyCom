@@ -1,5 +1,5 @@
 ---
-wsId: MaiCoin
+wsId: maicoin
 title: "MaiCoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2018-12-19
 updated: 2021-07-05
 version: "3.5.1"
 stars: 3.6
-ratings: 450
-reviews: 167
+ratings: 453
+reviews: 169
 size: 52M
 website: https://max.maicoin.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.maicoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-01
 signer: 
 reviewArchive:
 

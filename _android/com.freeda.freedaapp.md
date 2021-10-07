@@ -4,7 +4,7 @@ title: "Freeda Wallet - Buy, Sell, Hold Bitcoin"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.freeda.freedaapp
 released: 2021-04-13
 updated: 2021-09-16

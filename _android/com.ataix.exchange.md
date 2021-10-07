@@ -9,8 +9,8 @@ appId: com.ataix.exchange
 released: 2019-09-20
 updated: 2021-07-01
 version: "1.3.0"
-stars: 3.5
-ratings: 33
+stars: 3.6
+ratings: 34
 reviews: 13
 size: 11M
 website: 

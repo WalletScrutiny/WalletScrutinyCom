@@ -9,8 +9,8 @@ appId: com.smartitapp
 released: 2020-09-25
 updated: 2021-09-07
 version: "1.0.4"
-stars: 3.1
-ratings: 21
+stars: 3.2
+ratings: 22
 reviews: 13
 size: Varies with device
 website: 

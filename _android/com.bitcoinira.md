@@ -4,14 +4,14 @@ title: "Bitcoin IRA: Cryptocurrency Retirement Investing"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.bitcoinira
 released: 
 updated: 2021-09-28
 version: "1.3.10"
-stars: 4.6
-ratings: 117
-reviews: 39
+stars: 4.4
+ratings: 136
+reviews: 45
 size: 118M
 website: 
 repository: 

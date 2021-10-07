@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: paytomat
+providerLinkedIn: 11433285
+providerFacebook: paytomat
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

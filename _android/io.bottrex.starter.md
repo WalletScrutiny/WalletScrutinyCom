@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: io.bottrex.starter
 released: 2019-05-20
-updated: 2021-08-24
-version: "0.4.3"
+updated: 2021-10-01
+version: "0.4.4"
 stars: 3.8
 ratings: 79
 reviews: 45

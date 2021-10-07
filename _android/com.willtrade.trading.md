@@ -4,14 +4,14 @@ title: "Will Trade - forex  bitcoin gold stocks invest"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.willtrade.trading
 released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
-stars: 5.0
-ratings: 6
-reviews: 5
+stars: 4.2
+ratings: 10
+reviews: 7
 size: 13M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2018-12-12
 updated: 2021-04-30
 version: "4.0.1"
 stars: 4.3
-ratings: 249
-reviews: 129
+ratings: 250
+reviews: 130
 size: 36M
 website: https://www.hbtc.com/
 repository: https://github.com/bhexopen
@@ -19,7 +19,7 @@ issue:
 icon: io.bhex.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 From the screenshots in Google play, it seems to be a centralized cryptocurrency exchange.

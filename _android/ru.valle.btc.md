@@ -10,8 +10,8 @@ released: 2013-04-19
 updated: 2021-09-05
 version: "Varies with device"
 stars: 4.3
-ratings: 156
-reviews: 53
+ratings: 158
+reviews: 54
 size: Varies with device
 website: https://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet

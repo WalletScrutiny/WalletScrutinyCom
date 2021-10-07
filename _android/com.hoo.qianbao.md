@@ -4,14 +4,14 @@ title: "Hoo Pro"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.hoo.qianbao
 released: 2021-03-17
 updated: 2021-06-25
 version: "4.7.9"
-stars: 4.6
-ratings: 245
-reviews: 202
+stars: 4.9
+ratings: 297
+reviews: 249
 size: 39M
 website: 
 repository: 

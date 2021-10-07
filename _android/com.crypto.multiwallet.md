@@ -1,17 +1,17 @@
 ---
 wsId: guarda
-title: "Guarda: Crypto & Bitcoin Wallet"
+title: "Guarda | Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.crypto.multiwallet
 released: 2018-11-01
-updated: 2021-09-10
-version: "2.38.0"
-stars: 4.4
-ratings: 3296
-reviews: 1771
+updated: 2021-10-04
+version: "2.39.20"
+stars: 4.3
+ratings: 3325
+reviews: 1786
 size: 36M
 website: http://guarda.co
 repository: 

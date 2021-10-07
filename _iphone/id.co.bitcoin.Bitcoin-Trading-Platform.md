@@ -8,11 +8,11 @@ appId: id.co.bitcoin.Bitcoin-Trading-Platform
 appCountry: 
 idd: 1349104693
 released: 2018-03-29
-updated: 2021-08-25
-version: "3.1.3"
-stars: 1
-reviews: 2
-size: 80032768
+updated: 2021-10-01
+version: "3.1.4"
+stars: 
+reviews: 
+size: 102175744
 website: https://indodax.com
 repository: 
 issue: 

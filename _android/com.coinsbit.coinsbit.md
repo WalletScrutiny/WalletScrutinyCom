@@ -9,9 +9,9 @@ appId: com.coinsbit.coinsbit
 released: 2019-10-28
 updated: 2019-11-27
 version: "1.0"
-stars: 2.6
-ratings: 1585
-reviews: 1140
+stars: 2.5
+ratings: 1593
+reviews: 1146
 size: 16M
 website: 
 repository: 

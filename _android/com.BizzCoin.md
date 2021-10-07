@@ -9,8 +9,8 @@ appId: com.BizzCoin
 released: 2020-01-02
 updated: 2021-09-11
 version: "1.20"
-stars: 4.4
-ratings: 470
+stars: 4.3
+ratings: 471
 reviews: 271
 size: 42M
 website: https://www.bizzcoin.com/

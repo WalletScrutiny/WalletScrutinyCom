@@ -9,8 +9,8 @@ appId: jp.co.smartapp.gowallet
 released: 2019-06-16
 updated: 2020-10-07
 version: "1.2.5"
-stars: 4.3
-ratings: 784
+stars: 4.2
+ratings: 785
 reviews: 426
 size: 162M
 website: https://www.go-wallet.app/
@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: jp.co.smartapp.gowallet.png
 bugbounty: 
-verdict: nobtc
-date: 2021-09-23
+verdict: stale
+date: 2021-10-03
 signer: 
 reviewArchive:
-
+- date: 2021-09-23
+  version: "1.2.5"
+  appHash: 
+  gitRevision: 3131b4551e61e557d8683fe5221303935a160c7f
+  verdict: nobtc
 
 providerTwitter: gowallet_app_
 providerLinkedIn: 

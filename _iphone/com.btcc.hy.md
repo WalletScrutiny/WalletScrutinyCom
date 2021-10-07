@@ -3,7 +3,7 @@ wsId: btcc
 title: "BTCC-Trade Bitcoin&Crypto CFD"
 altTitle: 
 authors:
-
+- danny
 appId: com.btcc.hy
 appCountry: us
 idd: 1462880009
@@ -13,21 +13,21 @@ version: "5.6.0"
 stars: 2.83333
 reviews: 6
 size: 87144448
-website: 
+website: https://www.btcc.com/
 repository: 
 issue: 
 icon: com.btcc.hy.jpg
 bugbounty: 
-verdict: wip
-date: 2021-09-17
+verdict: custodial
+date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: YourBTCC
+providerLinkedIn: yourbtcc
+providerFacebook: yourbtcc
+providerReddit: YourBTCC
 
 redirect_from:
 

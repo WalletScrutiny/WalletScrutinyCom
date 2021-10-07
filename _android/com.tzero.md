@@ -11,15 +11,15 @@ updated: 2021-09-08
 version: "2.0.10601"
 stars: 3.6
 ratings: 260
-reviews: 108
+reviews: 109
 size: 65M
-website: https://www.tzero.com/
+website: https://www.tzero.com/crypto-app
 repository: 
 issue: 
 icon: com.tzero.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-10-01
 signer: 
 reviewArchive:
 
@@ -52,5 +52,5 @@ The app through technological means, acts as a middle man who "sends instruction
 
 > We offer both wallets that require manual signing as well as wallets with programmatic signing. Our smart contracts have all undergone independent security that audits in addition to our routine IT examinations and penetration testing.
 
-The rationale for this "passing around of custody" has to do more with the legal nature of cryptocurrencies as tZERO Group Inc. is a Delaware, USA based company while its cryptocurrency related company tZERO Crypto Inc., is registered in Utah. As such we determined this app to be custodial and therefore not verifiable.
+The rationale for this "passing around of custody" has to do more with the legal nature of cryptocurrencies as tZERO Group Inc. is a Delaware, USA based company while its cryptocurrency related company tZERO Crypto Inc., is registered in Utah. As such we determined this app to be **custodial** and therefore not verifiable.
 

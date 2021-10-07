@@ -1,6 +1,6 @@
 ---
 wsId: casaapp
-title: "Casa App - Secure your Bitcoin"
+title: "Casa App: Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2021-09-24
-version: "3.5.1"
-stars: 4.87263
-reviews: 424
-size: 60560384
+updated: 2021-10-06
+version: "3.6.0"
+stars: 4.87185
+reviews: 437
+size: 54491136
 website: https://keys.casa
 repository: 
 issue: 

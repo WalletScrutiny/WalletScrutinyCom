@@ -10,7 +10,7 @@ released: 2020-07-08
 updated: 2020-10-09
 version: "3.6.5"
 stars: 4.1
-ratings: 61
+ratings: 62
 reviews: 40
 size: 25M
 website: 
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.beeex.broker.android.png
 bugbounty: 
-verdict: wip
-date: 2021-08-01
+verdict: stale
+date: 2021-10-04
 signer: 
 reviewArchive:
 

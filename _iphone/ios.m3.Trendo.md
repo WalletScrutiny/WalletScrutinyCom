@@ -3,7 +3,7 @@ wsId: trendofx
 title: "Analise Forex & Stock"
 altTitle: 
 authors:
-
+- danny
 appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: ios.m3.Trendo.jpg
 bugbounty: 
-verdict: wip
-date: 2021-09-17
+verdict: nowallet
+date: 2021-10-01
 signer: 
 reviewArchive:
 

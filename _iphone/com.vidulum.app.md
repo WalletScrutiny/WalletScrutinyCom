@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.vidulum.app.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: VidulumApp
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: VidulumTeam
+providerReddit: VidulumOfficial
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

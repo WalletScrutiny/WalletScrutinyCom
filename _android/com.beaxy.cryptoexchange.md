@@ -10,8 +10,8 @@ released: 2020-02-07
 updated: 2021-06-15
 version: "2.9"
 stars: 4.0
-ratings: 155
-reviews: 71
+ratings: 157
+reviews: 72
 size: 44M
 website: https://www.beaxy.com/
 repository: 

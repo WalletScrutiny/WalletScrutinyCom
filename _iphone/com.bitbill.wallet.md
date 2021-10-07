@@ -13,13 +13,13 @@ version: "4.32.0"
 stars: 4.42593
 reviews: 54
 size: 120946688
-website: 
+website: http://www.bitbill.com
 repository: 
 issue: 
 icon: com.bitbill.wallet.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: FreeWalletIO
 title: "FreeWallet"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 verdict: obsolete
-date: 2021-08-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2020-12-05

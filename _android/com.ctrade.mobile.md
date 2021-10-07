@@ -10,8 +10,8 @@ released: 2020-12-19
 updated: 2021-08-19
 version: "1.1.2"
 stars: 4.7
-ratings: 215
-reviews: 178
+ratings: 216
+reviews: 179
 size: 8.6M
 website: https://www.c-trade.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.ctrade.mobile.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 C-Trade is a centralized trading platform:
 

@@ -9,9 +9,9 @@ appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 released: 2021-04-29
 updated: 2021-09-11
 version: "1.2"
-stars: 4.4
-ratings: 105
-reviews: 72
+stars: 4.5
+ratings: 115
+reviews: 78
 size: 5.3M
 website: 
 repository: 

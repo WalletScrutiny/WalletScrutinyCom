@@ -9,8 +9,8 @@ appId: com.monnos.android
 released: 2019-09-17
 updated: 2021-09-29
 version: "5.2.15"
-stars: 4.2
-ratings: 835
+stars: 4.1
+ratings: 836
 reviews: 549
 size: 65M
 website: https://monnos.com/

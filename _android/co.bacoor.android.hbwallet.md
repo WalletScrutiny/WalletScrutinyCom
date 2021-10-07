@@ -10,8 +10,8 @@ released: 2017-07-17
 updated: 2021-07-08
 version: "3.5.0"
 stars: 3.8
-ratings: 2090
-reviews: 898
+ratings: 2092
+reviews: 899
 size: 71M
 website: https://www.hb-wallet.com
 repository: 

@@ -18,8 +18,8 @@ repository: https://github.com/Paymint-Labs/Paymint
 issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
-verdict: fewusers
-date: 2020-10-03
+verdict: stale
+date: 2021-10-01
 signer: 
 reviewArchive:
 

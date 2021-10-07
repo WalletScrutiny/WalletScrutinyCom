@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: co.vexblock.android.png
 bugbounty: 
-verdict: stale
-date: 2021-08-21
+verdict: obsolete
+date: 2021-10-04
 signer: 
 reviewArchive:
-
+- date: 2021-08-21
+  version: "1.0.3"
+  appHash: 
+  gitRevision: 308364023ca209ab298bfedc99ccc4c385ec86ad
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 

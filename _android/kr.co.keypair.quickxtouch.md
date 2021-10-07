@@ -1,9 +1,9 @@
 ---
-wsId: krcokeypair
+wsId: keypairQX
 title: "QuickX Touch"
 altTitle: 
 authors:
-
+- leo
 users: 500
 appId: kr.co.keypair.quickxtouch
 released: 2018-10-09
@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
 verdict: obsolete
-date: 2021-08-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2021-03-07

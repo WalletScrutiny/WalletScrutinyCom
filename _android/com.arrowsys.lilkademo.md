@@ -19,7 +19,7 @@ issue:
 icon: com.arrowsys.lilkademo.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 LILKA looks like and states that it is a Point of Sale. This makes it clear that this app is not primarily a bitcoin wallet or may not act as one.
 

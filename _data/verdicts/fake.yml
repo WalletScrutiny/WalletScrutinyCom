@@ -8,8 +8,8 @@ details: >
   The bigger wallets often get imitated by scammers that abuse the reputation
   of the product by immitating its name, logo or both.
   
-  <div style="border:solid 3px black;border-radius:20px;background:var(--red-notify-background);margin-bottom:1em;font-weight:bold">
-  <div style="margin:1em">
+  <div class="alertBox">
+  <div>
   <p>Immitating a competitor is a huge red flag and we urge you to not put any
   money into this product!</p>
   </div>

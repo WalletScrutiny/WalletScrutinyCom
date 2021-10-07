@@ -4,7 +4,7 @@ title: "Firefly wallet Pro"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: io.fchain.firefly
 released: 2019-05-08
 updated: 2021-01-07

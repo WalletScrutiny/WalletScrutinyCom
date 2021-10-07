@@ -9,9 +9,9 @@ appId: com.fradx.application
 released: 2021-07-14
 updated: 2021-09-13
 version: "1.4.0"
-stars: 4.4
-ratings: 19
-reviews: 15
+stars: 4.2
+ratings: 20
+reviews: 16
 size: 16M
 website: 
 repository: 

@@ -11,8 +11,8 @@ released: 2017-11-29
 updated: 2021-09-20
 version: "2.6.8"
 stars: 4.0
-ratings: 266
-reviews: 204
+ratings: 267
+reviews: 205
 size: 8.5M
 website: https://freewallet.org/
 repository: 
@@ -20,7 +20,7 @@ issue:
 icon: neo.org.freewallet.app.png
 bugbounty: 
 verdict: nobtc
-date: 2021-09-07
+date: 2021-10-04
 signer: 
 reviewArchive:
 - date: 2021-08-17
@@ -42,6 +42,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 From the App Description:
 

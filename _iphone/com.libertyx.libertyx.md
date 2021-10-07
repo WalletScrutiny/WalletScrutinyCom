@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-09-17
+verdict: nowallet
+date: 2021-10-01
 signer: 
 reviewArchive:
 

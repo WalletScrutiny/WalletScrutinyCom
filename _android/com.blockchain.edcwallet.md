@@ -19,7 +19,7 @@ issue:
 icon: com.blockchain.edcwallet.png
 bugbounty: 
 verdict: nobtc
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 > The multi-currency Blockchain.mn wallet supports working with EDC coins and tokens created on the EDC Blockchain platform. 

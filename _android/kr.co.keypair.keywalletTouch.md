@@ -1,5 +1,5 @@
 ---
-wsId: krcokeypair
+wsId: keypairKWTOUCH
 title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2018-05-13
 updated: 2020-12-14
 version: "Varies with device"
 stars: 4.3
-ratings: 105
-reviews: 64
+ratings: 107
+reviews: 65
 size: Varies with device
 website: https://keywalletpro.io
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 verdict: nosource
-date: 2021-03-06
+date: 2021-10-01
 signer: 
 reviewArchive:
 

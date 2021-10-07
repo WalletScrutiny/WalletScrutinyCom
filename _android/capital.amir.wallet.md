@@ -9,9 +9,9 @@ appId: capital.amir.wallet
 released: 2021-08-03
 updated: 2021-09-13
 version: "3.9.0"
-stars: 4.1
-ratings: 287
-reviews: 163
+stars: 4.2
+ratings: 298
+reviews: 173
 size: 35M
 website: https://amir.capital/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: capital.amir.wallet.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The first slide in Amir Wallet's Google Play, describes it as:

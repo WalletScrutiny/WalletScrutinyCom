@@ -9,8 +9,8 @@ appId: io.level01.android
 released: 2020-10-09
 updated: 2021-09-20
 version: "0.2.3.2"
-stars: 4.8
-ratings: 133
+stars: 4.7
+ratings: 134
 reviews: 61
 size: 18M
 website: https://level01.io/

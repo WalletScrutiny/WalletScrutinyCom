@@ -1,5 +1,5 @@
 ---
-wsId: MaiCoin
+wsId: maxmaicoin
 title: "MAX Exchange - Buy Bitcoin"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: com.maicoin.max.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-01
 signer: 
 reviewArchive:
 

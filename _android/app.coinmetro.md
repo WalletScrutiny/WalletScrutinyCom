@@ -10,8 +10,8 @@ released: 2017-12-10
 updated: 2021-08-24
 version: "4.0.2585"
 stars: 3.3
-ratings: 242
-reviews: 118
+ratings: 246
+reviews: 122
 size: 34M
 website: https://coinmetro.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: app.coinmetro.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 > A fully regulated cryptocurrency exchange

@@ -10,7 +10,7 @@ released: 2019-03-11
 updated: 2021-07-17
 version: "1.1.6"
 stars: 4.3
-ratings: 251
+ratings: 250
 reviews: 81
 size: 3.7M
 website: https://digiexchange.net/
@@ -19,7 +19,7 @@ issue:
 icon: com.digi.exchange.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-08-01
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 It appears to be a service that allows users to buy and sell cryptocurrencies including Bitcoin and Ethereum.

@@ -3,7 +3,7 @@ title: "Blockstream Jade"
 appId: blockstreamjade
 authors:
 - kiwilamb
-released: 44197
+released: 2021-01-01
 discontinued: # date
 updated:
 version:

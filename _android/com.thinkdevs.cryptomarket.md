@@ -3,7 +3,7 @@ wsId:
 title: "Crypto Wallet 2020"
 altTitle: 
 authors:
-
+- leo
 users: 10000
 appId: com.thinkdevs.cryptomarket
 released: 2018-03-29
@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
-verdict: nowallet
-date: 2020-12-14
+verdict: defunct
+date: 2021-10-06
 signer: 
 reviewArchive:
-
+- date: 2020-12-14
+  version: "0.0.11"
+  appHash: 
+  gitRevision: 390ad12adfd0448e851c0112bc5cc9c2a11698b4
+  verdict: nowallet
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
   - /com.thinkdevs.cryptomarket/
 ---
 
+
+**Update 2021-09-28**: This app is not on the Store anymore.
 
 This is not a wallet:
 

@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.blockfi.mobile
 released: 2020-04-30
-updated: 2021-09-27
-version: "4.6.0"
+updated: 2021-10-04
+version: "4.7.0"
 stars: 3.2
-ratings: 3333
-reviews: 1566
+ratings: 3362
+reviews: 1588
 size: 11M
 website: https://blockfi.com
 repository: 

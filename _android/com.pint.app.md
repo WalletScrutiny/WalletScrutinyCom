@@ -10,8 +10,8 @@ released: 2018-04-25
 updated: 2021-03-06
 version: "2.0.32"
 stars: 4.2
-ratings: 218
-reviews: 142
+ratings: 219
+reviews: 143
 size: 23M
 website: https://www.bitfia.io/
 repository: 

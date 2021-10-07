@@ -10,8 +10,8 @@ released: 2021-01-13
 updated: 2021-09-28
 version: "2.3.33"
 stars: 4.6
-ratings: 641
-reviews: 341
+ratings: 659
+reviews: 347
 size: 57M
 website: https://kardiachain.io/
 repository: 

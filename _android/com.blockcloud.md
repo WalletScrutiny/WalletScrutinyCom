@@ -9,9 +9,9 @@ appId: com.blockcloud
 released: 2021-01-08
 updated: 2021-02-16
 version: "1.4"
-stars: 5.0
-ratings: 7
-reviews: 7
+stars: 4.5
+ratings: 8
+reviews: 8
 size: 12M
 website: 
 repository: 

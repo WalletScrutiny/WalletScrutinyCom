@@ -1,5 +1,5 @@
 ---
-wsId: hotbit
+wsId: bitclover
 title: "BITCLOVER"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2020-07-07
 updated: 2021-09-24
 version: "1.0.62"
 stars: 3.2
-ratings: 506
-reviews: 212
+ratings: 509
+reviews: 213
 size: 6.1M
 website: https://www.bitclover.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-09-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buy/Sell Free Bitcoin & Cryptocurrency - Cryptoit"
+title: "Cryptoit - Mock Trade Cryptocurrency"
 altTitle: 
 authors:
 

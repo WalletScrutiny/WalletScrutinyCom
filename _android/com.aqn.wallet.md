@@ -4,7 +4,7 @@ title: "Aqua Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.aqn.wallet
 released: 2021-03-05
 updated: 2021-03-05

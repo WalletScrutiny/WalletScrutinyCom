@@ -7,19 +7,19 @@ authors:
 users: 10000
 appId: com.pundix.functionx
 released: 2021-03-25
-updated: 2021-08-09
-version: "1.7.2"
-stars: 4.0
-ratings: 219
-reviews: 114
-size: 19M
+updated: 2021-09-29
+version: "1.8.0(001)"
+stars: 4.1
+ratings: 228
+reviews: 118
+size: 33M
 website: https://functionx.io/
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 
 icon: com.pundix.functionx.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### App Description
 
 It claims to support multiple blockchains including Bitcoin, Ethereum and their own, Function X. 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: keypairQX
 title: "QuickX Touch (New)"
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
 verdict: stale
-date: 2021-08-17
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2021-08-02

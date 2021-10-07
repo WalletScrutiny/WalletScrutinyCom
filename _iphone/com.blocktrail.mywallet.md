@@ -10,8 +10,8 @@ idd: 1019614423
 released: 2015-09-08
 updated: 2019-04-13
 version: "4.4.9"
-stars: 3.93365
-reviews: 422
+stars: 3.93617
+reviews: 423
 size: 38854656
 website: http://btc.com
 repository: http://github.com/blocktrail/blocktrail-wallet

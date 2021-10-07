@@ -10,26 +10,27 @@ idd: 1436296839
 released: 2018-09-23
 updated: 2021-09-22
 version: "v5.2.1"
-stars: 4.30645
-reviews: 62
+stars: 4.30159
+reviews: 63
 size: 61304832
 website: https://zelcore.io
 repository: 
 issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
-verdict: wip
-date: 2020-12-22
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: zelcash
 providerLinkedIn: 
 providerFacebook: 
-providerReddit: 
+providerReddit: ZelCash
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

@@ -20,7 +20,7 @@ issue:
 icon: com.coinbene.manbiwang.png
 bugbounty: 
 verdict: defunct
-date: 2021-09-16
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2021-09-11
@@ -38,7 +38,7 @@ providerReddit:
 redirect_from:
 
 ---
-
+**Update 2021-10-01**: This app now appears to have a successor on Play Store, [CB Global](https://play.google.com/store/apps/details?id=com.mingyue.liuli).
 
 **Update 2021-09-07**: This app is not on Play Store anymore.
 

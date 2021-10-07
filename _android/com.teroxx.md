@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.teroxx
 released: 2019-08-26
-updated: 2021-02-25
-version: "2.2.0"
+updated: 2021-10-05
+version: "3.0.0"
 stars: 4.4
-ratings: 57
-reviews: 29
-size: Varies with device
+ratings: 62
+reviews: 32
+size: 77M
 website: 
 repository: 
 issue: 

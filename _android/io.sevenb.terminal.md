@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: io.sevenb.terminal
 released: 2021-05-04
-updated: 2021-09-24
-version: "0.1.244"
+updated: 2021-10-01
+version: "0.1.250"
 stars: 3.9
-ratings: 14
-reviews: 9
-size: 10M
+ratings: 17
+reviews: 10
+size: 12M
 website: 
 repository: 
 issue: 

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: br.com.coinbr.smartwallet
 released: 2017-11-03
-updated: 2021-09-20
-version: "2.0.23"
+updated: 2021-09-30
+version: "2.0.24"
 stars: 2.9
 ratings: 283
 reviews: 216
@@ -19,7 +19,7 @@ issue:
 icon: br.com.coinbr.smartwallet.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 From the description:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.claimersmulticoins.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-10-04
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ### Google Play
 
 The app promises these features:
