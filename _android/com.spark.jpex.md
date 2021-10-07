@@ -4,7 +4,7 @@ title: "JPEX DIGITAL WALLET"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.spark.jpex
 released: 2020-07-30
 updated: 2021-09-30

@@ -10,8 +10,8 @@ released: 2018-12-12
 updated: 2021-04-30
 version: "4.0.1"
 stars: 4.3
-ratings: 249
-reviews: 129
+ratings: 250
+reviews: 130
 size: 36M
 website: https://www.hbtc.com/
 repository: https://github.com/bhexopen

@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: com.electroneum.mobile
 released: 2017-12-13
-updated: 2021-09-17
-version: "5.1.3"
+updated: 2021-10-06
+version: "5.1.4"
 stars: 2.8
-ratings: 58448
-reviews: 37488
-size: 13M
+ratings: 58455
+reviews: 37490
+size: 14M
 website: 
 repository: 
 issue: 

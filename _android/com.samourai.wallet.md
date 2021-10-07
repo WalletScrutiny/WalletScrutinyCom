@@ -19,7 +19,7 @@ issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
 icon: com.samourai.wallet.png
 bugbounty: 
 verdict: nonverifiable
-date: 2021-08-02
+date: 2021-10-07
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 
@@ -36,6 +36,12 @@ redirect_from:
   - /posts/com.samourai.wallet/
 ---
 
+
+**Update 2021-10-07**: [Erik Nylund](https://twitter.com/Erik_Nylund) reached
+out to let us know of his failed attempt to reproduce this app. He wrote he
+also took a look at the Samourai Wallet v0.99.97a. It seems *"the number of files
+is way smaller now but still quite a diff in classes2.dex"*. He also sent
+[a link to a log of his attempt](https://gist.github.com/eriknylund/c2727d036152c901b0251c93e9c78ab4).
 
 **Update 2021-08-02**: Samourai is currently certainly not reproducible as it's
 even not possible to build it - due to an issue reported two months ago. We

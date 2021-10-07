@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitpay.checkout.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-06
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-09-28**: This app is not on the Store anymore.

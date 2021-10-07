@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProBit Korea: Buy & Sell Bitcoin. Crypto Exchange"
+title: "ProBit: Buy & Sell Bitcoin. Crypto Exchange"
 altTitle: 
 authors:
 - danny

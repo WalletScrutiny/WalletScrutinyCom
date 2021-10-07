@@ -10,8 +10,8 @@ released: 2020-01-24
 updated: 2021-07-16
 version: "4.1.76"
 stars: 4.1
-ratings: 53350
-reviews: 28501
+ratings: 53570
+reviews: 28635
 size: Varies with device
 website: https://get.cryptobrowser.site/
 repository: 

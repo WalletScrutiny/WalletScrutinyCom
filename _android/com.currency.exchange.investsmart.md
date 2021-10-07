@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.currency.exchange.investsmart.png
 bugbounty: 
-verdict: custodial
-date: 2021-09-11
+verdict: defunct
+date: 2021-10-06
 signer: 
 reviewArchive:
-
+- date: 2021-09-11
+  version: "1.14.0"
+  appHash: 
+  gitRevision: 390ad12adfd0448e851c0112bc5cc9c2a11698b4
+  verdict: custodial
 
 providerTwitter: currencycom
 providerLinkedIn: 
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-09-29**: This app is not on the Store anymore.
 
 It is necessary to distinguish this specific app from another related app from the same company. "Currency.com Investing" is not the same app as {% include walletLink.html wallet='android/com.currency.exchange.prod2' verdict='true' %}. Although, they link to each other via Google Play and in their respective domains, we'll treat them separately to avoid confusion. 
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "FreeBitcoin Auto Roll: BitBot, win free BTC & DOGE"
+title: "BitBot"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2019-01-02
 updated: 2021-05-17
 version: "1.5.6"
 stars: 3.8
-ratings: 7548
-reviews: 4459
+ratings: 7550
+reviews: 4460
 size: 9.5M
 website: https://bitbot.plus
 repository: 

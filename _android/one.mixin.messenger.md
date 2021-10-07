@@ -10,8 +10,8 @@ released: 2018-05-24
 updated: 2021-10-01
 version: "0.32.2"
 stars: 4.5
-ratings: 1221
-reviews: 955
+ratings: 1222
+reviews: 956
 size: 27M
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork

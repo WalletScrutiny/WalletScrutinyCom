@@ -9,7 +9,7 @@ appId: eu.crystalwallet.app
 released: 2020-03-15
 updated: 2021-09-13
 version: "1.76"
-stars: 4.8
+stars: 4.7
 ratings: 589
 reviews: 542
 size: 63M
