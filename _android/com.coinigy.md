@@ -38,11 +38,11 @@ redirect_from:
 
 The app is described as a cryptocurrency trading and portfolio management tool. It also allows the importation of third-party cryptocurrency exchange APIs and wallets.
 
-> -Connect your exchange API accounts to Coinigy and trade directly through a single app.<br>
-> - Automatically import your portfolio from all major cryptocurrency exchanges and hundreds of wallets.<br>
-> - Live streaming price and orderbook data, powered by Coinigy CryptoFeed™<br>
-> - Curated cryptocurrency news updates provided by Coinigy's NewsWire service<br>
-> - One-time setup and your portfolio is available across all your devices, including web.<br>
+> - Connect your exchange API accounts to Coinigy and trade directly through a single app.
+> - Automatically import your portfolio from all major cryptocurrency exchanges and hundreds of wallets.
+> - Live streaming price and orderbook data, powered by Coinigy CryptoFeed™
+> - Curated cryptocurrency news updates provided by Coinigy's NewsWire service
+> - One-time setup and your portfolio is available across all your devices, including web.
 > - Customizable interface, you choose what you want to see.
 
 ## The Site
