@@ -3,7 +3,7 @@ wsId:
 title: "BTC.com Pool"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.btcpool.app.android
 released: 2020-02-25
@@ -25,12 +25,23 @@ reviewArchive:
 
 
 providerTwitter: 
-providerLinkedIn: 
+providerLinkedIn: btc.com 
 providerFacebook: 
 providerReddit: 
 
 redirect_from:
 
 ---
+## App Description
+The Google Play description is vague on to what this app is meant for. It appears to be meant to be a tool for managing miners.
 
+> BTC Pool is coming! BTC pool is a whole new choice for miners! With much more stable architecture, much better user experience, much lower fees and much stronger service, you will never find that mining could be in this way!
 
+## The Site
+Visiting the site gave us the option to create a wallet, but this only led to an error page claiming that it had blocked our IP.
+
+## The App
+
+## Contact
+
+## Verdict
