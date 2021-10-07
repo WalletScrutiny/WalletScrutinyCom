@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinList
 title: "CoinList"
 altTitle: 
 authors:
-
+- danny
 users: 500000
 appId: com.coinlist.trade
 released: 2020-08-10
@@ -13,20 +13,20 @@ stars: 3.0
 ratings: 2601
 reviews: 1738
 size: 5.6M
-website: 
+website: https://coinlist.co/
 repository: 
 issue: 
 icon: com.coinlist.trade.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: coinlist
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: CoinListOfficial
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,19 @@ redirect_from:
 ---
 
 
+## App Description
+
+Google Play lists its features: 
+
+> - Buy and sell cryptocurrencies
+> - Store, deposit and send crypto
+> - Earn yield on Proof-of-Stake assets
+> - Convert bitcoin into wrapped bitcoin
+
+Proof that it is custodial:
+
+> We use two-factor authentication (2FA) for every account and most transactions, and we’re backed by **top custodians like BitGo and Gemini Custody** so your funds are safe. Best of all, crypto storage is free. We don’t charge any custody or wallet fees when using the CoinList app.
+
+## Verdict
+
+App is **custodial** and thus **not verifiable**. 
