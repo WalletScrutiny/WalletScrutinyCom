@@ -19,7 +19,7 @@ issue:
 icon: com.metallicus.protonwallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-08
+date: 2021-10-07
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: org.openstars.tkblockchain.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-10-05
+date: 2021-10-07
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.app.asbazar59.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-07
 signer: 
 reviewArchive:
 
