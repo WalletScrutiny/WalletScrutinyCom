@@ -19,7 +19,7 @@ issue:
 icon: com.coinsuper.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-08
 signer: 
 reviewArchive:
 

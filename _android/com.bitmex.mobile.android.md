@@ -19,7 +19,7 @@ issue:
 icon: com.bitmex.mobile.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-08
 signer: 
 reviewArchive:
 

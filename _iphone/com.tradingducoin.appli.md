@@ -19,7 +19,7 @@ issue:
 icon: com.tradingducoin.appli.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-06
+date: 2021-10-08
 signer: 
 reviewArchive:
 
