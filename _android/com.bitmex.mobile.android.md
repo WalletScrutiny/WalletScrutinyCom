@@ -55,10 +55,6 @@ As expected of custodial, centralized and regulatory compliant exchanges, they a
 
 Since the problems faced by its founders, BitMEX has since then been compliant with regulatory authorities. More information about [BitMEX Compliance](https://www.bitmex.com/compliance).
 
-## The App
-
-We downloaded the app, but we believe at this juncture that there is enough evidence to give a verdict for this app.
-
 ## Verdict
 
 By most indications including security mechanisms, regulatory compliances and its self-identification as a regulated platform, we stand by our verdict that this is a **custodial** and thus **not verifiable app.**
