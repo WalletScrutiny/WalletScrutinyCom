@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinsuper.app.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-06
 signer: 
 reviewArchive:

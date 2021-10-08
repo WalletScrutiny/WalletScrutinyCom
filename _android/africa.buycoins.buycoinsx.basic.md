@@ -59,4 +59,4 @@ We downloaded the app and tried to register. We were unable to register because 
 
 ## Verdict
 
-Despite our inability to register both on the app and on the web platform, we have sufficient reason to believe that this app is custodial due to their ability to cancel the accounts and freeze the funds of users. Any app that that has the ability to do this **in their own sole discretion** makes it **custodial** and therefore **not verifiable**.
+Despite our inability to register both on the app and on the web platform, we have sufficient reason to believe that this app is custodial due to their ability to cancel the accounts and freeze the funds of users. Any app that has the ability to do this **in their own sole discretion** makes it **custodial** and therefore **not verifiable**.

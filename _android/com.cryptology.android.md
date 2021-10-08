@@ -38,7 +38,7 @@ redirect_from:
 
 The app allows the purchase, selling and exchange of various cryptocurrencies. Purchase options include: Visa, Mastercard, Boleto, Loterica, Deposit Express & EU Online Banking Payment. 
 
-It supports many cryptocurrencies including: BTC, ETH, BCH, LTC, XRP, XLM and ZEC.It also supports DeFi tokens. Anonymous transactions is a feature that they claim to make trading more profitable and easier. Perhaps the most notable indicator for a custodial service is their usage of cold storage.
+It supports many cryptocurrencies including: BTC, ETH, BCH, LTC, XRP, XLM and ZEC. It also supports DeFi tokens. Anonymous transactions is a feature that they claim to make trading more profitable and easier. Perhaps the most notable indicator for a custodial service is their usage of cold storage.
 
 > Maximum security by storing assets in a cold wallet
 
@@ -46,8 +46,8 @@ It supports many cryptocurrencies including: BTC, ETH, BCH, LTC, XRP, XLM and ZE
 
 We visited the [site](https://cryptology.com/) and it looks like a cryptocurrency exchange. In the main page, it is described as:
 
-> **Secure & Regulated**
-> Authorized to provide fiat to digital asset exchange services by the Financial Investigations Unit.
+> **Secure & Regulated**<br>
+  Authorized to provide fiat to digital asset exchange services by the Financial Investigations Unit.
 
 ### Terms and Conditions
 
