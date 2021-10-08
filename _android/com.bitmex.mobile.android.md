@@ -47,7 +47,7 @@ The platform allows for 100x leverage.
 ### Wallet Security
 > BitMEX runs a first-of-its-kind multisignature deposit and withdrawal scheme. All BitMEX addresses are multisignature and all storage is kept offline.
 
-As expected of custodial, centralized and regulatory compliant exchanges, they also utilize cold storage. Furthermore, they asset that:
+As expected of custodial, centralized and regulatory compliant exchanges, they also utilize cold storage. Furthermore, they assert that:
 
 > No private keys are kept on any cloud server and deep cold storage is used for the bulk of funds.
 
