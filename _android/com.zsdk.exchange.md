@@ -66,4 +66,4 @@ We downloaded and registered in the app and found the option to deposit and with
 
 ## Verdict
 
-All indications point to a centralized, regulated, KYC-oriented, cryptocurrency exchange that is **custodial** and therefore **not verifiable.**
+All indications point to a centralized, regulated, with KYC requirements, cryptocurrency exchange that is **custodial** and therefore **not verifiable.**
