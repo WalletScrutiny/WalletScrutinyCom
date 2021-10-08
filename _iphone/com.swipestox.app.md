@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: swipestoxNaga
 title: "NAGA: Invest in Forex & Stocks"
 altTitle: 
 authors:
-
+- danny
 appId: com.swipestox.app
 appCountry: gb
 idd: 1182702365
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.swipestox.app.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: nagainvesting
+providerLinkedIn: nagainvesting
+providerFacebook: nagainvesting
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

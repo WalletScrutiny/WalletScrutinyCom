@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ChivoWallet
 title: "Chivo Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.chivo.wallet
 appCountry: sv
 idd: 1581515981
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.chivo.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-09-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: chivowallet
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ChivoWalletSLV
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

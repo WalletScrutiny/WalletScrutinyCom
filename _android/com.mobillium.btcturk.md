@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 The app's description is in Turkish. For any quotes provided here, note that Google Translate was in use.

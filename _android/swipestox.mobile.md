@@ -1,5 +1,5 @@
 ---
-wsId: swipestox
+wsId: swipestoxNaga
 title: "Forex trading app by Naga"
 altTitle: 
 authors:
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 Forex trading app by Naga is a trading and investment platform.

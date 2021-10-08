@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Barchart
 title: "Barchart Stocks & Futures"
 altTitle: 
 authors:
-
+- danny
 appId: com.barchart.BarchartApp
 appCountry: us
 idd: 730277254
@@ -24,12 +24,14 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Barchart
+providerLinkedIn: barchart.com-inc.
+providerFacebook: Barchart
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: TradeStation
 title: "TradeStation - Trade & Invest"
 altTitle: 
 authors:
-
+- danny
 appId: com.tradestation.MobileTrading
 appCountry: us
 idd: 581548081
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.tradestation.MobileTrading.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: tradestation
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: TradeStation
+providerReddit:
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

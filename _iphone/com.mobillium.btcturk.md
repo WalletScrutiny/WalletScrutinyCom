@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: BtcTurk
 title: "BtcTurk - Bitcoin Al/Sat"
 altTitle: 
 authors:
-
+- danny
 appId: com.mobillium.btcturk
 appCountry: tr
 idd: 1503482896
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.mobillium.btcturk.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: btcturk
+providerLinkedIn: btcturk
+providerFacebook: btcturk
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}
