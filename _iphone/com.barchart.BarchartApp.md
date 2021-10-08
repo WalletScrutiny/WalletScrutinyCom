@@ -1,0 +1,35 @@
+---
+wsId: 
+title: "Barchart Stocks & Futures"
+altTitle: 
+authors:
+
+appId: com.barchart.BarchartApp
+appCountry: us
+idd: 730277254
+released: 2013-11-18
+updated: 2021-07-22
+version: "3.3.6"
+stars: 4.75655
+reviews: 5689
+size: 28528640
+website: http://www.barchart.com/app/
+repository: 
+issue: 
+icon: com.barchart.BarchartApp.jpg
+bugbounty: 
+verdict: wip
+date: 2021-10-08
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
