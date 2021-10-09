@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.barchart.BarchartApp.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-08
 signer: 
 reviewArchive:

@@ -42,11 +42,11 @@ According to [Reuters](https://www.reuters.com/technology/crypto-platform-bitso-
 
 ### Google Play Reviews
 
-> KoolKid Tv(https://play.google.com/store/apps/details?id=com.chivo.wallet&hl=en&gl=US&reviewId=gp%3AAOqpTOHsdihFpbYxR7V1qhTd4P67DPn1MvtKaCWIsAPkF68ETvKWwIdKtFW6U4ihUlsSvLdVDehiPiiXM_ftktw)<br>
+> [KoolKid Tv](https://play.google.com/store/apps/details?id=com.chivo.wallet&hl=en&gl=US&reviewId=gp%3AAOqpTOHsdihFpbYxR7V1qhTd4P67DPn1MvtKaCWIsAPkF68ETvKWwIdKtFW6U4ihUlsSvLdVDehiPiiXM_ftktw)<br>
   ★☆☆☆☆ October 2, 2021 <br>
        "SUPER BAD" Registration was easy, unfortunately the app stop working (it keep logging but didn't logging)the second day. After a week I decided to Uninstall the app, thinking that it may solve the logging problems; now when I try to login, it tells me that the password is wrong; in other words I can't login. I was going to star sending money using this app, but I don't trust it at this point. 
 
-> David Llanes(https://play.google.com/store/apps/details?id=com.chivo.wallet&hl=en&gl=US&reviewId=gp%3AAOqpTOGx9Tl_CG40ARavmsrPUj3klJNUtjXS33I4fwkG-bEE9vuc4HfFegR4LVsz2hQZua57rVuNgJxnJkEvd8k)<br>
+> [David Llanes](https://play.google.com/store/apps/details?id=com.chivo.wallet&hl=en&gl=US&reviewId=gp%3AAOqpTOGx9Tl_CG40ARavmsrPUj3klJNUtjXS33I4fwkG-bEE9vuc4HfFegR4LVsz2hQZua57rVuNgJxnJkEvd8k)<br>
   ★☆☆☆☆ September 18, 2021 <br>
        Hard to register if your able to get to the registration process if it doesnt give an error or a conection problem, once your inside and you get the bonus Bitcoin you cant use them unless you put some money on it or someone sends you some. Aside from that its a government run wallet so no open source get what you will from it. There a better wallets out there.
 
