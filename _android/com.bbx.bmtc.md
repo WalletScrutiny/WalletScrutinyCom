@@ -47,12 +47,6 @@ Our team has a wealth of experience in creating security systems, **offline cold
 
 The Google Play reviews are notably strange, with most of the five-star reviews only saying something to the effect of "nice app" or "good".
 
-Here's one negative review.
-
-> [Bill Goode](https://play.google.com/store/apps/details?id=com.bbx.bmtc&reviewId=gp%3AAOqpTOGZjm2L22mJ1ORNHAqN061ZC39QB4hKeNX-4i-66c4X1X2GyI0WI441oT8Uuqp9CHCKVaAhjwf4rJIaMAA)<br>
-  ★☆☆☆☆ April 26, 2021 <br>
-       Why on Earth does a crypto index need access to the files on my phone? So they can download BTC & ETH off my phone? I declined this app in a flash.
-
 ## The Site
 
 As of this review, attempting to access the website only results in a blank white screen. The Privacy Policy was linked in the description, but it only lead to a DNS error.
