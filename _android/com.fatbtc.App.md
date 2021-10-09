@@ -45,7 +45,7 @@ There's nothing that really indicates the security of this app other than the fa
 ### Terms of Use
 From the site's [User Agreement,](https://www.fatbtc.com/service) **【USERS’ RIGHT AND LIMITATIONS TO LICENSE USE, 4:】**
 
-> 4. This website has the right to inquire, **freeze** or deduct the items and accounts of the user in according to the requirements of any applicable judicial organizations, administrative organizations and military organizations, including but not limited to public security organizations, procuratorial organizations, courts, customs, tax authorities and so on.
+> This website has the right to inquire, **freeze** or deduct the items and accounts of the user in according to the requirements of any applicable judicial organizations, administrative organizations and military organizations, including but not limited to public security organizations, procuratorial organizations, courts, customs, tax authorities and so on.
 
 From **【CHANGE OF SERVICE, INTERRUPTION, TERMINATION, RESTRICTION, FREEZING】, 6:**
 > You agree, to safeguard the security of your account and the digital assets within, **fatbtc reserves the rights to freeze part or all of your assets (or in other words, to restrict you from accessing part or all of the Services)** under the circumstances that fatbtc thinks your account is exposed to potential risks according to these Terms, laws, regulations, legal instruments, government requests dependent on administrative functions and powers and other conditions that fatbtc thinks fit.

@@ -52,9 +52,9 @@ Additionally, from Discontinuance:
 > We may, in our sole discretion and without cost to you, with or without prior notice, and at any time, modify or discontinue, temporarily or permanently, any portion of our Services. **You solely are responsible for storing outside of the Services a backup of your mnemonic phrase and private keys associated with your Tizer Wallet which will allow you to access your digital assets.** This backup will allow you to fully restore your Wallet at any time without cost or loss of digital assets.
 
 ## The App
-We tried the app. We were given the option to backup our account and were provided with a master phrase. 
+We tried the app. We were given the option to backup our account and were provided with a 12 word mnemonic. 
 
-After confirming that the user has written the phrase down, we are allowed to either save it on the device, remove the master phrase, or  send the master phrase to the server. Currently, the last option is unavailable.
+After confirming that the user has written the words down, we are allowed to either save it on the device, remove the mnemonic, or send the mnemonic to the server. Currently, the last option is unavailable.
 
 ## Verdict
 This app is **non-custodial,** but with no source to back it up, it is **not-verifiable.**

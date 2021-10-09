@@ -67,6 +67,4 @@ Registering to the app is also impossible at the moment. Trying to sign up will 
 ## Verdict
 While it is difficult to make a conclusive verdict on this app due to the lack of availability, we are compelled to mark it as custodial until further notice. 
 
-It is also highly probable that this app is already defunct, but since its Google Play app was updated last May 26, 2021, it is prudent to say that it is still **custodial**.
-
-Thus it is **not verifiable.**
+It is also highly probable that this app is already defunct, but since its Google Play app was updated last May 26, 2021, it is prudent to say that it is still **custodial**. Thus it is **not verifiable.**

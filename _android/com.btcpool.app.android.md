@@ -42,9 +42,7 @@ This is meant to be a tool for managing mining pools. The wallet is a seperate a
 
 ## The Site
 
-Visiting the site gave us the option to create a wallet, but this only led to an error page claiming that it had blocked our IP. We were unsuccessful. 
-
-Furthermore, we believe this wallet to be a separate app {% include walletLink.html wallet='android/com.blocktrail.mywallet' verdict='true' %}
+Their site [links](https://wallet.btc.com/#/setup/register) to this separate wallet app: {% include walletLink.html wallet='android/com.blocktrail.mywallet' verdict='true' %}
 
 ## Verdict
 

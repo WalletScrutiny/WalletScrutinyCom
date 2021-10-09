@@ -50,4 +50,4 @@ Trading cryptocurrency with Skilling couldn’t be simpler, as **you do not need
 We tried this app and registered for a Demo account. We could not find a way to access any wallets, or send and receive, as this app is intended to be used as a trading platform and not a wallet.
 
 ## Verdict
-You **cannot send or receive bitcoins** on this trading app. It is **not verifiable.**
+You **cannot send or receive bitcoins** on this trading app.
