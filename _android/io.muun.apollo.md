@@ -15,13 +15,18 @@ reviews: 213
 size: 41M
 website: https://muun.com
 repository: https://github.com/muun/apollo
-issue: https://github.com/muun/apollo/issues/2
+issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
 verdict: nonverifiable
-date: 2021-04-06
+date: 2021-10-09
 signer: 
 reviewArchive:
+- date: 2021-04-06
+  version: "45.2"
+  appHash: 292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2
+  gitRevision: 707ff239df150e0b2d6810e2444e495e2ca4c174
+  verdict: nonverifiable
 - date: 2019-12-29
   version: "beta-36.2"
   appHash: 
@@ -39,78 +44,85 @@ redirect_from:
 ---
 
 
-**Update 2021-04-06**: The provider
-[announced that the app is reproducible now](https://twitter.com/MuunWallet/status/1379490681165602823).
-We will have to check that ...
+**Update 2021-10-09**: We were approached about this verdict being wrong and
+while the provider hasn't claimed a fix, we noticed we haven't filed an issue
+about the tiny diff in the `crashlytics.android.build_id` neither. To see if
+this diff remains, we checked the latest version - `46.10`.
 
-So they now have
-[build instructions for reproducible builds](https://github.com/muun/apollo/blob/master/BUILD.md#build-reproducibly).
-Promising! Let's see how that goes ...
+As {{ page.title }} was almost reproducible before, we want to keep track of
+their progress as new versions get released now, too.
+We had a look at
+[their verification script](https://github.com/muun/apollo/blob/master/tools/verify-apollo.sh).
+It builds the app from source and unzips both the file from Google and the built
+app to diff them.
 
-```
-$ sha256sum fromGoogle45.2.apk # just for the record, the apk hash:
-292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2  fromGoogle45.2.apk
-$ cd /tmp/
-$ git clone https://github.com/muun/apollo
-$ cd apollo/
-$ git checkout v45.2
-$ mkdir -p apk
-$ docker build -f android/Dockerfile -o apk .
-...
-BUILD SUCCESSFUL in 3m 9s
-62 actionable tasks: 60 executed, 1 from cache, 1 up-to-date
-Removing intermediate container 9812d21025c9
- ---> d997f192afe8
-Step 24/26 : FROM scratch
- ---> 
-Step 25/26 : COPY --from=build /src/android/apolloui/build/outputs/apk/prod/release/apolloui-prod-release-unsigned.apk apolloui-prod-release-unsigned.apk
- ---> 5b8f679ee607
-Step 26/26 : COPY --from=build /src/android/apolloui/build/outputs/mapping/prodRelease/mapping.txt mapping.txt
- ---> ad2ddc6ce00f
-Successfully built ad2ddc6ce00f
-$ ls *.apk
-$ ls apk/
-$
-```
-
-so the apk did not end up where it's supposed to end up but it should be part of
-the docker image now:
+Surprising is the actual check:
 
 ```
-$ docker images
-REPOSITORY                                                 TAG                    IMAGE ID            CREATED             SIZE
-<none>                                                     <none>                 ad2ddc6ce00f        31 minutes ago      59.1MB
-<none>                                                     <none>                 d997f192afe8        31 minutes ago      10.3GB
-...
+# Remove the signature since OSS users won't have Muuns private signing key
+rm -r "$tmp"/{to_verify,baseline}/{META-INF,resources.arsc}
+
+diff -r "$tmp/to_verify" "$tmp/baseline" && echo "Verification success!" || echo "Verification failed :("
 ```
 
-with some poking around with interactive runs, I found this works:
+1. The first line is a comment, justifying the removal of the signature, which
+   is valid.
+2. The second line deletes the `META-INF` folders which does indeed contain the
+   signature **but it may contain other stuff, too**. In fact
+   [it does](https://github.com/muun/apollo/issues/30).
+3. It also **deletes the files `resources.arsc` which has nothing to do with the signature**.
+   There is no justification for doing so.
+
+We built
+[our own verification script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/io.muun.apollo.sh)
+which gives us these results:
 
 ```
-$ docker run --rm --volume $(pwd)/apk:/apk d997f192afe8 cp ./android/apolloui/build/outputs/apk/prod/release/apolloui-prod-release-unsigned.apk /apk/
-$ ls apk/
-apolloui-prod-release-unsigned.apk
-$ apktool d -o fromBuild apk/apolloui-prod-release-unsigned.apk 
-$ apktool d -o fromGoogle fromGoogle45.2.apk 
-$ diff --brief --recursive from{Google,Build}
-Files fromGoogle/apktool.yml and fromBuild/apktool.yml differ
-Only in fromGoogle/original/META-INF: APOLLORE.RSA
-Only in fromGoogle/original/META-INF: APOLLORE.SF
-Files fromGoogle/original/META-INF/MANIFEST.MF and fromBuild/original/META-INF/MANIFEST.MF differ
-Files fromGoogle/res/values/strings.xml and fromBuild/res/values/strings.xml differ
+Results:
+appId:          io.muun.apollo
+signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
+apkVersionName: 46.10
+apkVersionCode: 610
+verdict:        
+appHash:        e7504467c314b576f5f0c45eeb135396f4d771f976e886bc9b0e1111f1172ff8
+commit:         bf4fa4ced4a6d3f73f806a5a4b05a089aba92cb1
+
+Diff:
+Only in /tmp/fromPlay_io.muun.apollo_610/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_610/META-INF: APOLLORE.SF
+Files /tmp/fromPlay_io.muun.apollo_610/META-INF/MANIFEST.MF and /tmp/fromBuild_io.muun.apollo_610/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_io.muun.apollo_610/resources.arsc and /tmp/fromBuild_io.muun.apollo_610/resources.arsc differ
+
+Revision, tag (and its signature):
+object bf4fa4ced4a6d3f73f806a5a4b05a089aba92cb1
+type commit
+tag v46.10
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1632343796 -0300
+
+v46.10
 ```
 
-so the only diff of interest is in `res/values/strings.xml`:
+For our reproducible verdict
+the first three lines of the diff are fine. The last line though, the
+`resources.arsc` that their verification script explicitly ignores is not ok.
+This file contains resources and altering resources can significantly change the
+app, too. This app is **not verifiable**.
+
+Upon closer inspection, the diff again is just the `crashlytics.android.build_id`:
 
 ```
-$ diff from{Google,Build}/res/values/strings.xml
-76c76
-<     <string name="com.crashlytics.android.build_id">79a4d6b75ce84bd6ae254b900862f3a4</string>
+
+$ apktool d -o apkGoogle Muun\ 46.10\ \(io.muun.apollo\).apk 
+$ apktool d -o apkBuild apolloui-prod-release-unsigned.apk
+$ diff --brief --recursive apkBuild apkGoogle
+Files apkBuild/apktool.yml and apkGoogle/apktool.yml differ
+Only in apkGoogle/original/META-INF: APOLLORE.RSA
+Only in apkGoogle/original/META-INF: APOLLORE.SF
+Files apkBuild/original/META-INF/MANIFEST.MF and apkGoogle/original/META-INF/MANIFEST.MF differ
+Files apkBuild/res/values/strings.xml and apkGoogle/res/values/strings.xml differ
+$ diff apkBuild/res/values/strings.xml apkGoogle/res/values/strings.xml
+77c77
+<     <string name="com.crashlytics.android.build_id">e0c37a103082460fbf95f3c097222e61</string>
 ---
->     <string name="com.crashlytics.android.build_id">976f51d22fdf4feda23c0dbc83806a9f</string>
+>     <string name="com.crashlytics.android.build_id">95a3152a98594e8ca1324bdefd26a5b9</string>
 ```
-
-That's almost reproducible. On a subjective level, if somebody reviewed the
-source code and it is fine then yes, the apk is also fine but as we only allow
-diffs in the signature part itself, it is too much of a diff for a reproducible
-verdict. The app is close but still **not verifiable**.
