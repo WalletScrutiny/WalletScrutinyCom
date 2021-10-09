@@ -42,7 +42,7 @@ From the [About Us page:](https://skilling.com/row/en/about-us/)
 
 > Skilling Seychelles Ltd is authorized and regulated by the Seychelles Financial Services Authority. With us you can trade over 800 forex and CFD financial instruments, including currency pairs, shares of your favourite companies, popular commodities and indices from around the world. All trades are done using forex or contract for difference. 
 
-Additionally, we found a page on Cryptocurrencies:
+Additionally, we found [a page on Cryptocurrencies](https://skilling.com/row/en/markets/cryptocurrencies/):
 > Quick and Easy Trading  
 Trading cryptocurrency with Skilling couldn’t be simpler, as **you do not need direct access to the crypto exchange or to set up your own digital wallet.** Trading crypto CFDs is much quicker and easier.
 
