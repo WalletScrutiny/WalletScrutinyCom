@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.blixtwallet
 released: 
-updated: 2021-10-04
+updated: 2021-10-07
 version: "Varies with device"
 stars: 
 ratings: 

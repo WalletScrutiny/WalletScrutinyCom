@@ -10,8 +10,8 @@ released: 2019-11-15
 updated: 2021-09-16
 version: "1.5.5"
 stars: 4.8
-ratings: 5333
-reviews: 4658
+ratings: 5337
+reviews: 4660
 size: 24M
 website: https://abbccoin.com/
 repository: 

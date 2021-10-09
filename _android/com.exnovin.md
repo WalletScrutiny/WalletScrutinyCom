@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "exnovin"
+title: "ایکس نوین - exnovin | خرید و فروش بیت کوین ، تتر"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2018-07-06
 updated: 2021-09-08
 version: "1.0"
 stars: 4.3
-ratings: 1976
-reviews: 784
+ratings: 1979
+reviews: 786
 size: 34M
 website: https://exnovin.net/
 repository: 

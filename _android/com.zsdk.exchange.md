@@ -10,8 +10,8 @@ released: 2019-01-18
 updated: 2021-09-29
 version: "3.1.1"
 stars: 2.9
-ratings: 175
-reviews: 108
+ratings: 176
+reviews: 109
 size: 51M
 website: https://www.zbg.com/
 repository: 

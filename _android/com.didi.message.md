@@ -9,9 +9,9 @@ appId: com.didi.message
 released: 2020-04-30
 updated: 2021-09-30
 version: "1.10.3"
-stars: 4.0
-ratings: 905
-reviews: 367
+stars: 3.9
+ratings: 913
+reviews: 370
 size: 89M
 website: https://didimessage.com/
 repository: 

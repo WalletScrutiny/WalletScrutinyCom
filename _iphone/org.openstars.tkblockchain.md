@@ -10,8 +10,8 @@ idd: 1584371814
 released: 2021-09-06
 updated: 2021-09-06
 version: "1.0.0"
-stars: 2
-reviews: 1
+stars: 2.66667
+reviews: 3
 size: 230525952
 website: https://tkblockchain.net
 repository: 
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: trustkeysglobal
 providerLinkedIn: 
 providerFacebook: trustkeys.network
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

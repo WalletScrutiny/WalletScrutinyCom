@@ -10,8 +10,8 @@ idd: 1454645575
 released: 2019-03-28
 updated: 2021-10-01
 version: "2.1.0"
-stars: 4.79739
-reviews: 385
+stars: 4.79948
+reviews: 389
 size: 143198208
 website: https://cryptochallenge.app
 repository: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

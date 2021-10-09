@@ -10,7 +10,7 @@ released: 2020-05-25
 updated: 2021-09-28
 version: "1.0.67"
 stars: 4.0
-ratings: 208
+ratings: 209
 reviews: 128
 size: 33M
 website: https://bitnob.com/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 The app allows users to buy, save and invest in Bitcoin. Its focus is in savings, investment via Dollar Cost Averaging. 

@@ -8,11 +8,11 @@ appId: org.reactjs.native.example.FTXMobile.FTX
 appCountry: 
 idd: 1512374471
 released: 2020-05-20
-updated: 2021-07-30
-version: "1.1.3"
-stars: 3.91489
-reviews: 94
-size: 51058688
+updated: 2021-10-08
+version: "1.1.4"
+stars: 3.88421
+reviews: 95
+size: 44553216
 website: https://ftx.com
 repository: 
 issue: 

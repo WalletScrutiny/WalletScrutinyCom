@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.digitalstorm.HIVE
 released: 2021-06-12
-updated: 2021-06-21
-version: "1.6.0"
+updated: 2021-10-08
+version: "1.7.0"
 stars: 0.0
 ratings: 
 reviews: 

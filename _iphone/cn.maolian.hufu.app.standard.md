@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: Hoo_exchange
 providerLinkedIn: 
 providerFacebook: hooexchange
-providerReddit: HooExchange 
+providerReddit: HooExchange
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ idd: 1400626330
 released: 2018-10-11
 updated: 2020-10-09
 version: "1.4.8"
-stars: 4.6361
-reviews: 687
+stars: 4.63516
+reviews: 688
 size: 86727680
 website: https://www.go-wallet.app/
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

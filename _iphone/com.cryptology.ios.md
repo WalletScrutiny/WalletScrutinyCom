@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: Cryptologyexch
 providerLinkedIn: 
 providerFacebook: Cryptologyexch
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

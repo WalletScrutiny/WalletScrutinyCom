@@ -9,9 +9,9 @@ appId: net.benoitbasset.ograpi
 released: 2018-11-28
 updated: 2021-05-03
 version: "1.4.3"
-stars: 4.1
-ratings: 187
-reviews: 108
+stars: 4.2
+ratings: 190
+reviews: 109
 size: 5.0M
 website: http://ograpi.oblade.net/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 It describes itself as a third-party app (that is not related to TradeOgre), that uses TradeOgre.com API keys to let users trade various cryptocurrencies including ETH, XMR, Doge and others.

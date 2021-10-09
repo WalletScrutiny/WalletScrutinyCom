@@ -10,8 +10,8 @@ idd: 1294998195
 released: 2017-11-03
 updated: 2021-10-03
 version: "3.1.1"
-stars: 3.13043
-reviews: 23
+stars: 3.20833
+reviews: 24
 size: 378032128
 website: https://gate.io
 repository: 
@@ -32,6 +32,5 @@ providerReddit: GateioExchange
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

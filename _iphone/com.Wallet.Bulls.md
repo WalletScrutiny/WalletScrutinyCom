@@ -11,9 +11,9 @@ released: 2021-06-23
 updated: 2021-10-04
 version: "1.21"
 stars: 5
-reviews: 9
+reviews: 10
 size: 61459456
-website: https://bullcoin.finance/
+website: https://bullcoin.finance/privacy
 repository: 
 issue: 
 icon: com.Wallet.Bulls.jpg
@@ -32,6 +32,5 @@ providerReddit: bullcoinfinance
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -10,7 +10,7 @@ released: 2019-10-24
 updated: 2021-10-05
 version: "2.2.5"
 stars: 4.5
-ratings: 251
+ratings: 252
 reviews: 210
 size: 8.9M
 website: https://www.hashcashconsultants.com

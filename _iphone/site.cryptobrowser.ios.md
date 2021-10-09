@@ -10,8 +10,8 @@ idd: 1446766940
 released: 2019-03-02
 updated: 2019-06-21
 version: "1.0.7.0"
-stars: 4.07803
-reviews: 551
+stars: 4.08137
+reviews: 553
 size: 107251712
 website: https://get.cryptobrowser.site/
 repository: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

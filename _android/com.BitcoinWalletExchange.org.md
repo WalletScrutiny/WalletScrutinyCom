@@ -10,19 +10,23 @@ released: 2020-10-12
 updated: 2020-10-13
 version: "1.01"
 stars: 4.3
-ratings: 105
-reviews: 39
+ratings: 106
+reviews: 40
 size: 20M
 website: 
 repository: 
 issue: 
 icon: com.BitcoinWalletExchange.org.png
 bugbounty: 
-verdict: custodial
-date: 2021-04-30
+verdict: stale
+date: 2021-10-09
 signer: 
 reviewArchive:
-
+- date: 2021-04-30
+  version: "1.01"
+  appHash: 
+  gitRevision: 9dfdd677cd0ab7e3f2f9fafa26671e03f636a19b
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

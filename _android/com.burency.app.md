@@ -10,8 +10,8 @@ released: 2021-03-21
 updated: 2021-05-07
 version: "1.0.2"
 stars: 4.6
-ratings: 211
-reviews: 119
+ratings: 212
+reviews: 120
 size: 22M
 website: https://www.burency.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit: Burency
 redirect_from:
 
 ---
+
+
 ## App Description
 
 Describes itself as a regulated cryptocurrency exchange

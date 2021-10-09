@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: exchange.einstein.mobile.release.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-09
 signer: 
 reviewArchive:
-
+- date: 2021-08-17
+  version: "1.2.2"
+  appHash: 
+  gitRevision: 9dfdd677cd0ab7e3f2f9fafa26671e03f636a19b
+  verdict: stale
 
 providerTwitter: 
 providerLinkedIn: 

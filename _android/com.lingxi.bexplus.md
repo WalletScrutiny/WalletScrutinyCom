@@ -4,14 +4,14 @@ title: "Bitcoin Wallet for Margin Trading - Bexplus App"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.lingxi.bexplus
 released: 2018-10-29
 updated: 2021-08-24
 version: "2.1.3"
 stars: 4.7
-ratings: 5271
-reviews: 2024
+ratings: 5321
+reviews: 2026
 size: 11M
 website: https://www.bexplus.com
 repository: 

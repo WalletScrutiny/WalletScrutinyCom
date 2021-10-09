@@ -8,11 +8,11 @@ appId: com.shapeShift.shapeShift
 appCountry: 
 idd: 996569075
 released: 2015-06-09
-updated: 2021-09-13
-version: "2.19.1"
+updated: 2021-10-08
+version: "2.19.2"
 stars: 2.79961
 reviews: 514
-size: 76163072
+size: 76994560
 website: https://shapeshift.com
 repository: 
 issue: 

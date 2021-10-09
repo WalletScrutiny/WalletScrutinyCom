@@ -4,7 +4,7 @@ title: "Ballet Crypto"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.balletcrypto
 released: 2019-08-08
 updated: 2021-10-01

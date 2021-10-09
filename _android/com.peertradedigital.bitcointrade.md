@@ -9,9 +9,9 @@ appId: com.peertradedigital.bitcointrade
 released: 2017-12-01
 updated: 2021-10-05
 version: "3.3.4"
-stars: 3.8
-ratings: 5692
-reviews: 2849
+stars: 3.9
+ratings: 5750
+reviews: 2878
 size: 18M
 website: http://www.bitcointrade.com.br/
 repository: 

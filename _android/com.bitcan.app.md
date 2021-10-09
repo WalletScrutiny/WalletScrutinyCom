@@ -4,7 +4,7 @@ title: "BitKan-Blockchain Bitcoin Trading Platform"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.bitcan.app
 released: 2017-10-18
 updated: 2021-08-23

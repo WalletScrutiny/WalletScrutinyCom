@@ -9,9 +9,9 @@ appId: com.aabb
 released: 2021-03-08
 updated: 2021-10-04
 version: "1.0.1233"
-stars: 4.0
-ratings: 508
-reviews: 277
+stars: 4.1
+ratings: 514
+reviews: 278
 size: 27M
 website: 
 repository: 

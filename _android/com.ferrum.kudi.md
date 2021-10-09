@@ -9,9 +9,9 @@ appId: com.ferrum.kudi
 released: 2019-01-13
 updated: 2020-10-19
 version: "3.0.6"
-stars: 3.4
-ratings: 135
-reviews: 100
+stars: 3.3
+ratings: 136
+reviews: 101
 size: 51M
 website: 
 repository: 

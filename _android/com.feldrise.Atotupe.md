@@ -4,7 +4,7 @@ title: "Atotupe Wallet Companion"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.feldrise.Atotupe
 released: 
 updated: 2018-09-04

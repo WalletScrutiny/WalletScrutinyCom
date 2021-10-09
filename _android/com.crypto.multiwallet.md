@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.crypto.multiwallet
 released: 2018-11-01
-updated: 2021-10-04
-version: "2.39.20"
+updated: 2021-10-06
+version: "2.40.9"
 stars: 4.3
-ratings: 3325
-reviews: 1786
-size: 36M
+ratings: 3341
+reviews: 1792
+size: 33M
 website: http://guarda.co
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42

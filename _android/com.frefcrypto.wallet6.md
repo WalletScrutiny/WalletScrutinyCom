@@ -4,7 +4,7 @@ title: "Crypto.com Wallet Bitcoin & Ethereum"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.frefcrypto.wallet6
 released: 2021-09-10
 updated: 2021-09-10

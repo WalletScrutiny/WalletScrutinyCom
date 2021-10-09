@@ -9,9 +9,9 @@ appId: com.metallicus.protonwallet
 released: 2021-02-22
 updated: 2021-09-22
 version: "1.5.17"
-stars: 4.6
-ratings: 236
-reviews: 145
+stars: 4.8
+ratings: 268
+reviews: 164
 size: 46M
 website: https://www.protonchain.com/
 repository: https://github.com/ProtonProtocol/
@@ -32,6 +32,8 @@ providerReddit: ProtonChain
 redirect_from:
 
 ---
+
+
 ## App Description
 
 The app describes that the private keys are stored on the user's device. It allows staking and features support for multiple cryptocurrencies.

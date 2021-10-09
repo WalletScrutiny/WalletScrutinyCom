@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: fio.ecoin.wallet
 released: 2020-10-08
-updated: 2021-09-22
-version: "6.0.8"
-stars: 4.1
-ratings: 2547
-reviews: 1149
+updated: 2021-10-07
+version: "6.0.9"
+stars: 3.8
+ratings: 2831
+reviews: 1292
 size: 91M
 website: https://ecoinofficial.org
 repository: 
@@ -27,7 +27,6 @@ reviewArchive:
   appHash: 
   gitRevision: 46a69d1c5e10345207ffc36e81dfa9c0da3a04e3
   verdict: nowallet
-  
 
 providerTwitter: ecoinofficial
 providerLinkedIn: 
@@ -37,6 +36,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 **Update 2021-10-05** After marking it as defunct, it seems to have been updated recently (2021-09-22) and is now on the Google Play Store again. It is now described as the SafeX wallet (formerly eCoin.)
 
 We downloaded the app again. Clicking on the Accounts menu, shows the options for the following cryptocurrencies: XDC, TRX and USDT. Clicking on the "Transfer" menu, allows us to send to XDC, TRX and USDT. There is no BTC in the options.

@@ -9,8 +9,8 @@ appId: com.bitget.exchange
 released: 2020-04-03
 updated: 2021-10-03
 version: "1.2.16"
-stars: 4.7
-ratings: 518
+stars: 4.6
+ratings: 519
 reviews: 462
 size: 42M
 website: https://www.bitget.com/

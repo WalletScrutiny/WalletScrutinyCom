@@ -10,8 +10,8 @@ idd: 1383851676
 released: 2019-01-07
 updated: 2021-10-05
 version: "1.20.41"
-stars: 4.95238
-reviews: 21
+stars: 4.90909
+reviews: 22
 size: 69384192
 website: https://saltlending.com/
 repository: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -10,7 +10,7 @@ released: 2021-06-15
 updated: 2021-09-04
 version: "3.2"
 stars: 4.2
-ratings: 211
+ratings: 212
 reviews: 168
 size: 1.6M
 website: https://asbazar.com/
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 From Google Play:
 

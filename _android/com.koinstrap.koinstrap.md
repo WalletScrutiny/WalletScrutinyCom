@@ -4,7 +4,7 @@ title: "Koinstrap: Buy & Sell Bitcoin Ethereum, Litecoin"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.koinstrap.koinstrap
 released: 2020-08-28
 updated: 2021-09-25
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.koinstrap.koinstrap.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-01
 signer: 
 reviewArchive:

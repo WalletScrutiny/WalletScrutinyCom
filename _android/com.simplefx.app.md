@@ -9,8 +9,8 @@ appId: com.simplefx.app
 released: 2017-12-18
 updated: 2021-10-05
 version: "2.1.176.0"
-stars: 4.3
-ratings: 278
+stars: 4.4
+ratings: 279
 reviews: 156
 size: 18M
 website: 

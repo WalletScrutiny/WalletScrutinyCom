@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: Max_exch
 providerLinkedIn: 
 providerFacebook: MaiCoinAssetExchange
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

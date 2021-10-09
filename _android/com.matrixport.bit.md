@@ -4,7 +4,7 @@ title: "bit.com"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.matrixport.bit
 released: 2021-03-15
 updated: 2021-08-03

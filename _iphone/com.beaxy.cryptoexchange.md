@@ -10,8 +10,8 @@ idd: 1493015933
 released: 2020-02-12
 updated: 2021-06-08
 version: "2.9"
-stars: 4.59722
-reviews: 72
+stars: 4.54795
+reviews: 73
 size: 187341824
 website: https://www.beaxy.com/
 repository: 
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: BeaxyExchange
 providerLinkedIn: 
 providerFacebook: beaxyexchange
-providerReddit: BeaxyExchange 
+providerReddit: BeaxyExchange
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-wsId:
+wsId: 
 title: "Binarium"
 altTitle: 
 authors:
@@ -9,9 +9,9 @@ appId: com.binarium.binariummobile
 released: 2019-09-16
 updated: 2021-09-06
 version: "1.0.0.7"
-stars: 3.5
-ratings: 2374
-reviews: 1837
+stars: 3.6
+ratings: 2368
+reviews: 1831
 size: 7.0M
 website: http://binarium.com/
 repository: 

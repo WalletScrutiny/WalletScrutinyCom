@@ -10,8 +10,8 @@ idd: 1529717509
 released: 2020-10-24
 updated: 2021-08-18
 version: "1.4.5"
-stars: 4.61538
-reviews: 13
+stars: 4.64286
+reviews: 14
 size: 82384896
 website: https://dfox.cc
 repository: 

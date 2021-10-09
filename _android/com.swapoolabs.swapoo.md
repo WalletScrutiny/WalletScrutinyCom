@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.swapoolabs.swapoo
 released: 2020-01-09
-updated: 2021-08-31
-version: "1.26.107"
-stars: 4.7
-ratings: 47
+updated: 2021-10-08
+version: "1.27.114"
+stars: 4.6
+ratings: 48
 reviews: 22
 size: 8.9M
 website: 

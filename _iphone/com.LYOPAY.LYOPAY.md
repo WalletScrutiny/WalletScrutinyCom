@@ -8,8 +8,8 @@ appId: com.LYOPAY.LYOPAY
 appCountry: eg
 idd: 1537945402
 released: 2020-11-06
-updated: 2021-09-23
-version: "6.8"
+updated: 2021-10-07
+version: "6.9"
 stars: 5
 reviews: 1
 size: 25845760
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: lyopayofficial
 providerLinkedIn: lyopay
 providerFacebook: lyopayofficial
-providerReddit: LYOPAY 
+providerReddit: LYOPAY
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

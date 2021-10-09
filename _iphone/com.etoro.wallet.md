@@ -11,8 +11,8 @@ idd: 1397831096
 released: 2019-03-05
 updated: 2021-10-06
 version: "32.0.0"
-stars: 1.71698
-reviews: 106
+stars: 1.7037
+reviews: 108
 size: 29382656
 website: https://www.etoro.com/crypto/wallet
 repository: 

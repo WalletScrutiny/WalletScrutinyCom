@@ -10,8 +10,8 @@ released: 2020-05-23
 updated: 2021-09-23
 version: "3.1.8"
 stars: 4.8
-ratings: 325
-reviews: 253
+ratings: 329
+reviews: 255
 size: 38M
 website: https://simpleswap.io/
 repository: 

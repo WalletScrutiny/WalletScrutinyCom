@@ -29,10 +29,8 @@ providerLinkedIn: kinesismoney
 providerFacebook: kinesismoney
 providerReddit: Kinesis_money
 
-
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: dsdaqcom
 providerLinkedIn: 
 providerFacebook: dsdaqcom
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.tangem.wallet
 released: 2018-10-24
-updated: 2021-09-23
-version: "3.21"
+updated: 2021-10-06
+version: "3.22"
 stars: 4.6
 ratings: 68
 reviews: 21

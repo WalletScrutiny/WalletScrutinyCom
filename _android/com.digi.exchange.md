@@ -9,9 +9,9 @@ appId: com.digi.exchange
 released: 2019-03-11
 updated: 2021-07-17
 version: "1.1.6"
-stars: 4.3
-ratings: 250
-reviews: 81
+stars: 4.2
+ratings: 251
+reviews: 82
 size: 3.7M
 website: https://digiexchange.net/
 repository: 

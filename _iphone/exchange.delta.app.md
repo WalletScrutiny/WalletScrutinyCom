@@ -8,11 +8,11 @@ appId: exchange.delta.app
 appCountry: nz
 idd: 1567218518
 released: 2021-06-05
-updated: 2021-08-26
-version: "1.4.2"
+updated: 2021-10-06
+version: "1.4.4"
 stars: 
 reviews: 
-size: 21495808
+size: 21483520
 website: https://www.delta.exchange/
 repository: 
 issue: 
@@ -32,6 +32,5 @@ providerReddit: Delta_Exchange
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

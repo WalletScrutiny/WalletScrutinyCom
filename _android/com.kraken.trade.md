@@ -9,9 +9,9 @@ appId: com.kraken.trade
 released: 2019-10-24
 updated: 2021-09-24
 version: "2.1.4-11813"
-stars: 4.4
-ratings: 21698
-reviews: 7306
+stars: 4.5
+ratings: 21737
+reviews: 7319
 size: 60M
 website: https://www.kraken.com
 repository: 

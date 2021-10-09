@@ -4,14 +4,14 @@ title: "CoinDCX: Bitcoin & Crypto Investment app"
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.coindcx.btc
 released: 2020-12-09
-updated: 2021-10-01
+updated: 2021-10-08
 version: "2.2.011"
-stars: 3.9
-ratings: 90161
-reviews: 27257
+stars: 4.0
+ratings: 93762
+reviews: 28371
 size: 68M
 website: https://coindcx.com/
 repository: 

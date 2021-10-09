@@ -13,7 +13,7 @@ version: "1.8.2"
 stars: 
 reviews: 
 size: 41722880
-website: https://flybit.com/
+website: https://blog.naver.com/flybit
 repository: 
 issue: 
 icon: com.koreadigit.flybit.jpg
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

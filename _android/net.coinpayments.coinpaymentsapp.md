@@ -11,7 +11,7 @@ updated: 2021-09-27
 version: "Varies with device"
 stars: 3.1
 ratings: 2133
-reviews: 1115
+reviews: 1116
 size: Varies with device
 website: https://www.coinpayments.net
 repository: 

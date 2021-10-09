@@ -9,9 +9,9 @@ appId: com.hoo.qianbao
 released: 2021-03-17
 updated: 2021-06-25
 version: "4.7.9"
-stars: 4.9
-ratings: 297
-reviews: 249
+stars: 5.0
+ratings: 323
+reviews: 274
 size: 39M
 website: https://hoo.com
 repository: 
@@ -32,6 +32,8 @@ providerReddit: HooExchange
 redirect_from:
 
 ---
+
+
 ## App Description
 From the full Google Play description:
 

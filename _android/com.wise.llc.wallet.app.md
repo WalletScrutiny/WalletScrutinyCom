@@ -9,9 +9,9 @@ appId: com.wise.llc.wallet.app
 released: 2020-09-03
 updated: 2021-07-02
 version: "2.6.4"
-stars: 4.3
-ratings: 41
-reviews: 27
+stars: 4.2
+ratings: 42
+reviews: 28
 size: 39M
 website: 
 repository: 

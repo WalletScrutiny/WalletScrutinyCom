@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: BitoEX_Official
 providerLinkedIn: 
 providerFacebook: bitopro.bito
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

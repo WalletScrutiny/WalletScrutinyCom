@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: bizz_coin
 providerLinkedIn: 
 providerFacebook: BizzCoinOfficial
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -4,7 +4,7 @@ title: "RYIpay"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: io.ryi.pay
 released: 2021-06-12
 updated: 2021-08-02

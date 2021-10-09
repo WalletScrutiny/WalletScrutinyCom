@@ -10,8 +10,8 @@ released: 2020-03-24
 updated: 2021-10-04
 version: "2.7.7"
 stars: 4.7
-ratings: 2208
-reviews: 1106
+ratings: 2210
+reviews: 1108
 size: 57M
 website: https://moonstake.io/
 repository: 

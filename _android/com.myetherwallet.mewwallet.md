@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.myetherwallet.mewwallet
 released: 2020-03-11
-updated: 2021-10-01
-version: "2.1.1"
+updated: 2021-10-07
+version: "2.2.0"
 stars: 4.5
-ratings: 5891
-reviews: 2611
+ratings: 5944
+reviews: 2624
 size: 52M
 website: http://mewwallet.com
 repository: 

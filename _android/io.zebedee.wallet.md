@@ -9,9 +9,9 @@ appId: io.zebedee.wallet
 released: 2020-10-20
 updated: 2021-09-30
 version: "11.0.0"
-stars: 4.1
-ratings: 58
-reviews: 36
+stars: 4.0
+ratings: 59
+reviews: 37
 size: 45M
 website: https://zebedee.io
 repository: 

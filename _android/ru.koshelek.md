@@ -9,9 +9,9 @@ appId: ru.koshelek
 released: 2020-07-28
 updated: 2021-09-28
 version: "1.6.0"
-stars: 4.0
-ratings: 86
-reviews: 72
+stars: 4.1
+ratings: 87
+reviews: 73
 size: 8.2M
 website: 
 repository: 

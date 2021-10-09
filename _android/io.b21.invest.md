@@ -10,8 +10,8 @@ released: 2020-02-24
 updated: 2021-10-01
 version: "0.7.6"
 stars: 2.8
-ratings: 538
-reviews: 382
+ratings: 540
+reviews: 383
 size: 39M
 website: https://www.b21.io/
 repository: 
