@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "Skye Wallet: Buy & Sell Bitcoin and Cryptocurrency"
+title: "Skye Wallet: Buy & Sell Crypto"
 altTitle: 
 authors:
 
 users: 1000
 appId: com.skyewallet.skye_wallet
 released: 2021-05-01
-updated: 2021-09-28
-version: "2.9.1"
+updated: 2021-10-09
+version: "2.9.2"
 stars: 4.3
 ratings: 36
 reviews: 29

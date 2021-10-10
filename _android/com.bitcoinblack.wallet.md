@@ -9,8 +9,8 @@ appId: com.bitcoinblack.wallet
 released: 2020-06-11
 updated: 2020-12-25
 version: "1.0.6"
-stars: 3.6
-ratings: 1652
+stars: 3.7
+ratings: 1653
 reviews: 986
 size: 25M
 website: https://bitcoin.black/

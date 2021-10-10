@@ -10,8 +10,8 @@ released: 2013-03-11
 updated: 2021-10-05
 version: "8.1.1"
 stars: 4.1
-ratings: 1946
-reviews: 789
+ratings: 1947
+reviews: 790
 size: 4.3M
 website: 
 repository: 

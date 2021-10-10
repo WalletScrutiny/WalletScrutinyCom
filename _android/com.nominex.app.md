@@ -4,14 +4,14 @@ title: "Nominex: Cryptocurrency trading without commission"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.nominex.app
 released: 2021-06-01
 updated: 2021-10-04
 version: "1.3.2"
-stars: 4.1
-ratings: 127
-reviews: 85
+stars: 4.0
+ratings: 128
+reviews: 86
 size: 58M
 website: 
 repository: 

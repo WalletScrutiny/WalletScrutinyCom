@@ -9,9 +9,9 @@ appId: com.app.atechcoins
 released: 2020-11-10
 updated: 2021-04-02
 version: "1.1.0"
-stars: 3.5
-ratings: 46
-reviews: 34
+stars: 3.4
+ratings: 47
+reviews: 35
 size: 18M
 website: 
 repository: 

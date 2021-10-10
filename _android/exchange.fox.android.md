@@ -9,9 +9,9 @@ appId: exchange.fox.android
 released: 2019-06-11
 updated: 2020-04-20
 version: "1.5.1"
-stars: 3.5
-ratings: 13
-reviews: 8
+stars: 3.3
+ratings: 14
+reviews: 9
 size: 5.2M
 website: 
 repository: 

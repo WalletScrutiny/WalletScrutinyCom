@@ -10,8 +10,8 @@ released: 2018-07-10
 updated: 2019-12-05
 version: "2.0.5"
 stars: 2.9
-ratings: 1518
-reviews: 798
+ratings: 1520
+reviews: 800
 size: 38M
 website: https://www.ethos.io
 repository: 

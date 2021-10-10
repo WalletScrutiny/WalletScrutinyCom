@@ -10,7 +10,7 @@ released: 2017-04-25
 updated: 2021-09-22
 version: "46.10"
 stars: 4.7
-ratings: 360
+ratings: 362
 reviews: 215
 size: 41M
 website: https://muun.com
