@@ -19,7 +19,7 @@ issue:
 icon: com.transcrypt.armadillo.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-01
+date: 2021-10-10
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.tradestation.MobileTrading.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.fatbtc.FatBTCApp.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-07
+date: 2021-10-10
 signer: 
 reviewArchive:
 

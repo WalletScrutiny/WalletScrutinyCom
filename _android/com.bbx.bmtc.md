@@ -19,7 +19,7 @@ issue:
 icon: com.bbx.bmtc.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

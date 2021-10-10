@@ -19,7 +19,7 @@ issue:
 icon: com.t4p.cryptogdx.jpg
 bugbounty: 
 verdict: obsolete
-date: 2021-10-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

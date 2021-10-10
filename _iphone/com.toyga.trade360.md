@@ -19,7 +19,7 @@ issue:
 icon: com.toyga.trade360.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

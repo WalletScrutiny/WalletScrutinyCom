@@ -19,7 +19,7 @@ issue:
 icon: com.dunamu.upbit.global.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

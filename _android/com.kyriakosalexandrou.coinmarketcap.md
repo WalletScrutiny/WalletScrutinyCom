@@ -19,7 +19,7 @@ issue:
 icon: com.kyriakosalexandrou.coinmarketcap.png
 bugbounty: 
 verdict: nosource
-date: 2021-10-05
+date: 2021-10-10
 signer: 
 reviewArchive:
 

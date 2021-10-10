@@ -19,7 +19,7 @@ issue:
 icon: com.stormbird.alphawallet.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-10-07
+date: 2021-10-10
 signer: 
 reviewArchive:
 

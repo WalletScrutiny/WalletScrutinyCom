@@ -19,7 +19,7 @@ issue:
 icon: com.fatbtc.App.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-10-10
 signer: 
 reviewArchive:
 

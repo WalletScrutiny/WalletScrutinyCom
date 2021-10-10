@@ -19,7 +19,7 @@ issue:
 icon: com.btcpool.app.ios.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-07
+date: 2021-10-10
 signer: 
 reviewArchive:
 

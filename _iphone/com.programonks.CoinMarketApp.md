@@ -19,7 +19,7 @@ issue:
 icon: com.programonks.CoinMarketApp.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-10-07
+date: 2021-10-10
 signer: 
 reviewArchive:
 

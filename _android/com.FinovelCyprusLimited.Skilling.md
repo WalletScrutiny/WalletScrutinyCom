@@ -19,7 +19,7 @@ issue:
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
 verdict: nosendreceive	
-date: 2021-10-05
+date: 2021-10-10
 signer: 
 reviewArchive:
 

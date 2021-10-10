@@ -19,7 +19,7 @@ issue:
 icon: com.swipestox.app.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

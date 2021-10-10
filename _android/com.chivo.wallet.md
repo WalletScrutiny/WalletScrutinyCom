@@ -19,7 +19,7 @@ issue:
 icon: com.chivo.wallet.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-08
+date: 2021-10-10
 signer: 
 reviewArchive:
 

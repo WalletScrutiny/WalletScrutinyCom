@@ -19,7 +19,7 @@ issue:
 icon: com.dunamu.exchange.global.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-10
 signer: 
 reviewArchive:
 
