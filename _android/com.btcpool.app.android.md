@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: BTCcomPool
 title: "BTC.com Pool"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.btcpool.app.android
 released: 2020-02-25
@@ -13,20 +13,20 @@ stars: 4.1
 ratings: 150
 reviews: 60
 size: 28M
-website: 
+website: http://btc.com
 repository: 
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-08-08
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: btccom_official
+providerLinkedIn: btc.com 
+providerFacebook: btccom
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,16 @@ redirect_from:
 ---
 
 
+## App Description
+
+This is meant to be a tool for managing mining pools. The wallet is a seperate app.
+
+> BTC Pool is coming! BTC pool is a whole new choice for miners! With much more stable architecture, much better user experience, much lower fees and much stronger service, you will never find that mining could be in this way!
+
+## The Site
+
+Their site [links](https://wallet.btc.com/#/setup/register) to this separate wallet app: {% include walletLink.html wallet='android/com.blocktrail.mywallet' verdict='true' %}
+
+## Verdict
+
+This specific app is meant as a tool for managing and/or monitoring mining pools. It is **not a bitcoin wallet.**
