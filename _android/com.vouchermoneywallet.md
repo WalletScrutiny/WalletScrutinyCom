@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: VoucherMoney
 title: "Voucher Money Vouchers and Bitcoin"
 altTitle: 
 authors:
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.vouchermoneywallet.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-09-30
 signer: 
 reviewArchive:
@@ -33,6 +33,34 @@ redirect_from:
 
 ---
 
+
+### Updated Review 2021-10-11
+
+We've since redownloaded the app to re-assess our initial findings. We've also managed to locate its ios app in the Apple store. However, the link from their [domain](http://vouchermoney.com/) notes that the iOS app was "Coming soon" even though it was already available. The developer for the iOS app is "VoucherMoney". 
+
+In Google Play, the developer is ["NBSoft Cyprus Limited"](https://play.google.com/store/apps/developer?id=NBSoft+Cyprus+Limited)
+
+### Is there a Bitcoin wallet?
+
+As the previous review implies, the app has what it calls VMBTC, which as of this writing, cannot send bitcoin and cannot receive BTC. We have no idea what it is so we contacted VoucherMoney on their web app and on what we believe to be its [twitter account](https://twitter.com/BitcoinWalletz/status/1447487449832165377) (Note: this twitter account bears the same logo as the domain listed for Voucher Money, but it is not linked to from the domain, we found it by searching on twitter. So we have no idea if this is the official Voucher Money twitter account). 
+
+#### Contact
+
+As mentioned above, we contacted via web form and via twitter. This is a copy of the web form message:
+
+> Hi! <br><br>
+
+My name is Daniel and I work for a website called walletscrutiny.com. We check the apps on Google Play for Bitcoin related apps and scrutinize whether the app is custodial/self-custodial, open or closed source, verifiable or not verifiable and reproducible or not. <br><br>
+I downloaded your app and tried to access the Bitcoin wallet. But instead of BTC, I see that it is VMBTC. I tried googling for what is VMBTC (By which I assume it is Voucher Money BTC.) However, I was not able to get enough information. Is this an ERC-20 token? Is it real Bitcoin? <br><br>
+Thank you for your response  
+
+
+### New Verdict
+
+We've reviewed this app before, but with the lack of communication from the developers, we've decided to label it as **not having a bitcoin wallet**. We're open to corrections and feedback.
+
+
+### Old Review
 
 This app claims to be owned by a  private corporation, NBsoft Cyprus Limited.
 
@@ -53,5 +81,7 @@ As for the app, it did not allow us to proceed further than a page asking for an
 
 Many portions of the website seems to be incomplete. There are no social media accounts yet for Vouchermoney wallet. There is no Terms, User Agreement or other legal pages that are common in finance related apps. 
 
-As such, we are forced to label this as **wip** until further information becomes available.
+### Updated Verdict: 2021-10-11
+
+After perusing the app again, we've decided to label this as not a bitcoin wallet.
 

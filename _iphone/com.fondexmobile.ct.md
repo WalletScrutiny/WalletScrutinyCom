@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: FondexcTrader
 title: "Fondex cTrader: invest online"
 altTitle: 
 authors:
-
+- danny
 appId: com.fondexmobile.ct
 appCountry: au
 idd: 1314894569
@@ -13,23 +13,26 @@ version: "4.2.54301"
 stars: 5
 reviews: 2
 size: 119399424
-website: 
+website: https://fondex.com/en/
 repository: 
 issue: 
 icon: com.fondexmobile.ct.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-11
 signer: 
 reviewArchive:
 
 
 providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn: fondex-trading
+providerFacebook: fondexglobal
+providerReddit:  
 
 redirect_from:
 
 ---
+
+
+{% include copyFromAndroid.html %}
 
