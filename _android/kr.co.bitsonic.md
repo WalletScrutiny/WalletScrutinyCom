@@ -3,7 +3,7 @@ wsId:
 title: "Bitsonic (Crypto Corrency, Exchange, Bitcoin,)"
 altTitle: 
 authors:
-
+- danny
 users: 100000
 appId: kr.co.bitsonic
 released: 2018-05-31
@@ -13,12 +13,12 @@ stars: 2.1
 ratings: 1533
 reviews: 699
 size: 21M
-website: 
+website: http://bitsonic.co.kr/
 repository: 
 issue: 
 icon: kr.co.bitsonic.png
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-08-01
 signer: 
 reviewArchive:
@@ -32,5 +32,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+## Verdict
+
+This app is currently under maintenance, as seen in the website and the app. Until the app's scheduled release date, November 11, 2021, this app is **defunct.**
 
 
