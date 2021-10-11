@@ -10,8 +10,8 @@ idd: 1490997527
 released: 2020-01-21
 updated: 2021-10-01
 version: "1.1.0"
-stars: 3.5
-reviews: 8
+stars: 3.22222
+reviews: 9
 size: 54451200
 website: http://btc.com
 repository: 
@@ -25,13 +25,12 @@ reviewArchive:
 
 
 providerTwitter: btccom_official
-providerLinkedIn: btc.com 
+providerLinkedIn: btc.com
 providerFacebook: btccom
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

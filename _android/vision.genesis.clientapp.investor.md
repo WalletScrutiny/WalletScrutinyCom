@@ -10,8 +10,8 @@ released: 2018-02-15
 updated: 2021-10-06
 version: "2.7.1"
 stars: 4.6
-ratings: 366
-reviews: 120
+ratings: 367
+reviews: 121
 size: 41M
 website: https://genesis.vision/
 repository: https://github.com/GenesisVision/android-client

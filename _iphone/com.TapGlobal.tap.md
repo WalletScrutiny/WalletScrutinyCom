@@ -10,7 +10,7 @@ idd: 1492263993
 released: 2019-12-20
 updated: 2021-09-17
 version: "2.2.2"
-stars: 4.68504
+stars: 4.68701
 reviews: 508
 size: 169839616
 website: https://www.tap.global/

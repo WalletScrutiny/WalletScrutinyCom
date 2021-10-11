@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: Trade360_LTD
 providerLinkedIn: trade360ltd
 providerFacebook: Trade360LTD
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

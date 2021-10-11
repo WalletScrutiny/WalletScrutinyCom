@@ -10,8 +10,8 @@ released: 2020-12-12
 updated: 2021-10-08
 version: "2.2.0"
 stars: 4.1
-ratings: 625
-reviews: 233
+ratings: 628
+reviews: 234
 size: 37M
 website: https://exnovin.io/
 repository: 

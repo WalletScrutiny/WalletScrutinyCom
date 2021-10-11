@@ -9,9 +9,9 @@ appId: com.bitcan.app
 released: 2017-10-18
 updated: 2021-08-23
 version: "8.0.4.2"
-stars: 4.0
-ratings: 56
-reviews: 42
+stars: 4.1
+ratings: 58
+reviews: 44
 size: 42M
 website: 
 repository: 

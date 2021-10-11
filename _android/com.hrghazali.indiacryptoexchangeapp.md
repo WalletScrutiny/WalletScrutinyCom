@@ -4,7 +4,7 @@ title: "India: Crypto Exchange (Buy & Sell Cryptocurrency)"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.hrghazali.indiacryptoexchangeapp
 released: 2021-09-12
 updated: 2021-09-13

@@ -9,8 +9,8 @@ appId: com.pillarproject.wallet
 released: 2018-12-13
 updated: 2021-10-06
 version: "3.7.1"
-stars: 3.4
-ratings: 450
+stars: 3.3
+ratings: 451
 reviews: 241
 size: 51M
 website: https://pillarproject.io

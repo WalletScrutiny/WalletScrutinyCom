@@ -9,9 +9,9 @@ appId: com.kriptofuture
 released: 2021-07-27
 updated: 2021-07-30
 version: "Version 16"
-stars: 4.4
-ratings: 121
-reviews: 93
+stars: 4.3
+ratings: 122
+reviews: 94
 size: 29M
 website: 
 repository: 

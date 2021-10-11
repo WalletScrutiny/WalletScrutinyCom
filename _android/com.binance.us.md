@@ -10,8 +10,8 @@ released: 2019-12-23
 updated: 2021-10-09
 version: "2.8.3"
 stars: 2.7
-ratings: 5861
-reviews: 4293
+ratings: 5867
+reviews: 4295
 size: Varies with device
 website: https://www.binance.us
 repository: 

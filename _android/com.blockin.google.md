@@ -10,8 +10,8 @@ released: 2020-03-12
 updated: 2021-10-09
 version: "3.3.1"
 stars: 4.0
-ratings: 612
-reviews: 207
+ratings: 615
+reviews: 208
 size: 38M
 website: https://www.poolin.com/
 repository: 

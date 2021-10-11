@@ -10,8 +10,8 @@ idd: 1485647781
 released: 2019-11-06
 updated: 2021-09-28
 version: "21.10.0"
-stars: 4.28
-reviews: 75
+stars: 4.28946
+reviews: 76
 size: 48759808
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 

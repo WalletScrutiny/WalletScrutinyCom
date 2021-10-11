@@ -10,8 +10,8 @@ idd: 581548081
 released: 2012-12-10
 updated: 2021-09-16
 version: "5.11.1"
-stars: 4.57444
-reviews: 15018
+stars: 4.57447
+reviews: 15019
 size: 32709632
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: tradestation
 providerLinkedIn: 
 providerFacebook: TradeStation
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

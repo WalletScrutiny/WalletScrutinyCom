@@ -9,8 +9,8 @@ appId: com.btcpool.app.android
 released: 2020-02-25
 updated: 2021-09-30
 version: "1.1.2"
-stars: 4.1
-ratings: 150
+stars: 4.2
+ratings: 151
 reviews: 60
 size: 28M
 website: http://btc.com
@@ -25,7 +25,7 @@ reviewArchive:
 
 
 providerTwitter: btccom_official
-providerLinkedIn: btc.com 
+providerLinkedIn: btc.com
 providerFacebook: btccom
 providerReddit: 
 

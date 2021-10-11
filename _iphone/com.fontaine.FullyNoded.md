@@ -10,8 +10,8 @@ idd: 1436425586
 released: 2018-10-03
 updated: 2021-09-28
 version: "0.2.27"
-stars: 5
-reviews: 36
+stars: 4.91892
+reviews: 37
 size: 15858688
 website: https://fullynoded.app
 repository: 

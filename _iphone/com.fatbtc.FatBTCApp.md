@@ -13,7 +13,7 @@ version: "2.35"
 stars: 3.33333
 reviews: 3
 size: 44334080
-website: https://www.fatbtc.com/?_en
+website: https://www.fatbtc.com/
 repository: 
 issue: 
 icon: com.fatbtc.FatBTCApp.jpg
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: fatbtc
 providerLinkedIn: 
 providerFacebook: 
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

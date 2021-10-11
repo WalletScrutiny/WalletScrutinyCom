@@ -10,7 +10,7 @@ released: 2011-11-04
 updated: 2021-07-26
 version: "4.0.7"
 stars: 4.5
-ratings: 24262
+ratings: 24265
 reviews: 8928
 size: 19M
 website: https://www.netdania.com/

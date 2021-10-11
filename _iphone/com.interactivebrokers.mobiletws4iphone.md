@@ -10,8 +10,8 @@ idd: 454558592
 released: 2011-08-12
 updated: 2021-10-04
 version: "8.82.2"
-stars: 2.96429
-reviews: 1204
+stars: 2.96266
+reviews: 1205
 size: 33833984
 website: http://www.interactivebrokers.com
 repository: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

@@ -10,7 +10,7 @@ released: 2013-07-01
 updated: 2021-09-28
 version: "3.11.0.4"
 stars: 4.2
-ratings: 11051
+ratings: 11053
 reviews: 5019
 size: 24M
 website: https://wallet.mycelium.com

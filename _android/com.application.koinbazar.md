@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: "Koinbazar -Bitcoin & Cryptocurrency Exchange India"
+title: "Koinbazar: Bitcoin & Cryptocurrency Exchange App"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2021-05-17
 updated: 2021-09-23
 version: "1.10"
 stars: 3.7
-ratings: 1205
-reviews: 568
+ratings: 1209
+reviews: 569
 size: 12M
 website: https://www.koinbazar.com/
 repository: 

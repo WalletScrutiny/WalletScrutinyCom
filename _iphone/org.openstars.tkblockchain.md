@@ -10,8 +10,8 @@ idd: 1584371814
 released: 2021-09-06
 updated: 2021-09-06
 version: "1.0.0"
-stars: 2.66667
-reviews: 3
+stars: 3.25
+reviews: 4
 size: 230525952
 website: https://tkblockchain.net
 repository: 

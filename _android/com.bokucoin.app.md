@@ -9,9 +9,9 @@ appId: com.bokucoin.app
 released: 2020-10-09
 updated: 2020-10-10
 version: "1.5"
-stars: 4.6
-ratings: 10
-reviews: 7
+stars: 4.3
+ratings: 11
+reviews: 8
 size: 7.6M
 website: 
 repository: 

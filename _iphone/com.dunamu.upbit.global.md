@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: 
 providerLinkedIn: upbit-official
 providerFacebook: upbit.exchange
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

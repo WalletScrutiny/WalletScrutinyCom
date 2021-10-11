@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: zulutrade
 providerLinkedIn: zulutrade
 providerFacebook: zulutrade
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

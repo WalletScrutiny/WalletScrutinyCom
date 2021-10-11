@@ -10,8 +10,8 @@ released: 2018-02-20
 updated: 2021-10-04
 version: "1.7.45"
 stars: 4.6
-ratings: 8445
-reviews: 3488
+ratings: 8452
+reviews: 3491
 size: 99M
 website: https://shakepay.com
 repository: 

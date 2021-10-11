@@ -9,9 +9,9 @@ appId: com.bigomex.blockchain
 released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
-stars: 3.9
-ratings: 160
-reviews: 126
+stars: 4.0
+ratings: 164
+reviews: 129
 size: 10M
 website: 
 repository: 

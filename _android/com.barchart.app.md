@@ -10,8 +10,8 @@ released: 2013-11-18
 updated: 2021-10-05
 version: "3.0.4"
 stars: 4.7
-ratings: 9471
-reviews: 3449
+ratings: 9472
+reviews: 3450
 size: 12M
 website: https://www.barchart.com/
 repository: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 Barchart is a financial app:

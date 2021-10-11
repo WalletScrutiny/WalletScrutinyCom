@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
-verdict: nosendreceive	
+verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 > As a user-friendly, simple and powerful CFD online trading platform, Skilling has been designed by expert traders to satisfy the needs of both beginners and advanced traders. Trade on the go, or access your account on desktop. A unique integration with cTrader, MT4, is also available.

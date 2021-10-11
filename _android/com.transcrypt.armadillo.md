@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 In the description, the app claims that users have "ultimate security and control" of their assets.
 
