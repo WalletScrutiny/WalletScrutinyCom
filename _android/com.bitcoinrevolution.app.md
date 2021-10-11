@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitcoinrevolution.app.png
 bugbounty: 
-verdict: wip
-date: 2021-08-08
+verdict: defunct
+date: 2021-10-11
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-04**: This app is not on Play Store anymore.
 
