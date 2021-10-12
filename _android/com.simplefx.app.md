@@ -69,6 +69,8 @@ It is possible to [deposit bitcoin](https://simplefx.com/payments/) and other cr
 
 We could not locate the official iOS version of the app and can only seem to find it on [their own website](https://simplefx.com/ios/).
 
+**⚠️ Alert!** Sites that host their own APKs should be treated with extra scrutiny. Apple and Google routinely screen apps based on a given criteria. If a certain app does not make it on Google Play or on the Apple store, there is a compelling reason why it is not.
+
 ## Verdict
 
 This app seems to be a hybrid of forex, CFDs and cryptocurrency trading. Unlike other CFD sites, depositing and withdrawing bitcoin is possible albeit the funds are kept in a **custodial** solution making the app **not verifiable**.
