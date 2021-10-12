@@ -71,5 +71,5 @@ We could not locate the official iOS version of the app and can only seem to fin
 
 ## Verdict
 
-This app seems to be a hybrid of forex, CFDs and cryptocurrency trading. Unlike other CFD sites, depositing and withdrawing bitcoin is possible albeit the funds are kept in a **custodial** solution and thus **not verifiable**.
+This app seems to be a hybrid of forex, CFDs and cryptocurrency trading. Unlike other CFD sites, depositing and withdrawing bitcoin is possible albeit the funds are kept in a **custodial** solution making the app **not verifiable**.
 

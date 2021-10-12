@@ -48,12 +48,19 @@ As the previous review implies, the app has what it calls VMBTC, which as of thi
 
 As mentioned above, we contacted via web form and via twitter. This is a copy of the web form message:
 
-> Hi! <br><br>
-
-My name is Daniel and I work for a website called walletscrutiny.com. We check the apps on Google Play for Bitcoin related apps and scrutinize whether the app is custodial/self-custodial, open or closed source, verifiable or not verifiable and reproducible or not. <br><br>
-I downloaded your app and tried to access the Bitcoin wallet. But instead of BTC, I see that it is VMBTC. I tried googling for what is VMBTC (By which I assume it is Voucher Money BTC.) However, I was not able to get enough information. Is this an ERC-20 token? Is it real Bitcoin? <br><br>
-Thank you for your response  
-
+> Hi!
+> 
+> My name is Daniel and I work for a website called walletscrutiny.com. We check
+  the apps on Google Play for Bitcoin related apps and scrutinize whether the
+  app is custodial/self-custodial, open or closed source, verifiable or not
+  verifiable and reproducible or not.
+> 
+> I downloaded your app and tried to access the Bitcoin wallet. But instead of
+  BTC, I see that it is VMBTC. I tried googling for what is VMBTC (By which I
+  assume it is Voucher Money BTC.) However, I was not able to get enough
+  information. Is this an ERC-20 token? Is it real Bitcoin?
+> 
+> Thank you for your response  
 
 ### New Verdict
 

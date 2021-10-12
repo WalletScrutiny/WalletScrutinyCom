@@ -47,5 +47,5 @@ It's an app that is meant to provide forex trading signals. It does not sound li
 
 
 ## The App and Verdict
-Downloading the app, we see forex signals and no way to buy or sell bitcoin. This confirms that the app is **not a wallet.**
+Downloading the app, we see forex signals and no way to receive or send bitcoin. This confirms that the app is **not a wallet.**
 
