@@ -1,6 +1,6 @@
 ---
 wsId: libertex
-title: "Libertex: Trade Stocks, Forex & Cryptocurrency"
+title: "Libertex: Trade Stocks, Forex & Cryptocurrencies"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2015-05-22
 updated: 2021-09-14
 version: "2.28.0"
 stars: 4.2
-ratings: 71096
-reviews: 28603
+ratings: 71126
+reviews: 28612
 size: 37M
 website: libertex
 repository: 

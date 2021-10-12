@@ -1,17 +1,17 @@
 ---
 wsId: binance
-title: "Binance: Bitcoin Marketplace & Crypto Wallet"
+title: "Binance: Bitcoin, Crypto & NFT"
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.binance.dev
 released: 2017-10-25
-updated: 2021-10-08
-version: "2.35.0"
+updated: 2021-10-11
+version: "2.36.1"
 stars: 4.3
-ratings: 390064
-reviews: 135796
+ratings: 395687
+reviews: 137519
 size: Varies with device
 website: https://www.binance.com
 repository: 

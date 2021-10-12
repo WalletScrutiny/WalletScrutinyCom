@@ -11,7 +11,7 @@ released: 2021-06-23
 updated: 2021-10-09
 version: "1.22"
 stars: 5
-reviews: 10
+reviews: 13
 size: 61684736
 website: https://bullcoin.finance/
 repository: 

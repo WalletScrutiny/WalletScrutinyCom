@@ -10,7 +10,7 @@ released:
 updated: 2021-09-20
 version: "1.4.1"
 stars: 4.1
-ratings: 380
+ratings: 383
 reviews: 89
 size: 76M
 website: https://coinme.com/

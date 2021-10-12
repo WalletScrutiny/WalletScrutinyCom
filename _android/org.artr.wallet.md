@@ -4,14 +4,14 @@ title: "Artery Network - Кошелек, VPN, Storage"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: org.artr.wallet
 released: 
 updated: 2021-09-20
 version: "1.7"
 stars: 4.8
-ratings: 1840
-reviews: 1002
+ratings: 1845
+reviews: 1004
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr

@@ -10,8 +10,8 @@ idd: 1471506070
 released: 2019-07-21
 updated: 2021-09-29
 version: "1.19.0"
-stars: 4.43272
-reviews: 1204
+stars: 4.42999
+reviews: 1207
 size: 56529920
 website: https://stormgain.com
 repository: 

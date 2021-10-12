@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.bh.android
 released: 2021-04-24
-updated: 2021-09-16
-version: "4.2.1"
+updated: 2021-10-11
+version: "4.2.2"
 stars: 4.0
 ratings: 54
 reviews: 22

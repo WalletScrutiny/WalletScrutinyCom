@@ -10,8 +10,8 @@ idd: 1314586706
 released: 2018-08-02
 updated: 2021-10-09
 version: "3.6.2"
-stars: 4.87162
-reviews: 444
+stars: 4.87416
+reviews: 445
 size: 53844992
 website: https://keys.casa
 repository: 

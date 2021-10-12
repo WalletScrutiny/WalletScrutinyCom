@@ -9,9 +9,9 @@ appId: store.cashin.uk
 released: 2021-04-02
 updated: 2021-10-05
 version: "4.1.7"
-stars: 4.9
-ratings: 29
-reviews: 27
+stars: 4.8
+ratings: 30
+reviews: 28
 size: 23M
 website: 
 repository: 

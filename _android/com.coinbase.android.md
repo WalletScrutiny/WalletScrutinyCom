@@ -10,8 +10,8 @@ released: 2013-03-01
 updated: 2021-10-07
 version: "9.44.5"
 stars: 4.4
-ratings: 545638
-reviews: 156459
+ratings: 546759
+reviews: 156651
 size: Varies with device
 website: https://coinbase.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinbase.android.jpg
 bugbounty: 
 verdict: custodial
-date: 2019-10-30
+date: 2021-10-12
 signer: 
 reviewArchive:
 
@@ -37,8 +37,9 @@ redirect_from:
 ---
 
 
-The Coinbase app, not to be confused with [Coinbas Wallet](/coinbasewallet)
-is one of the top two Bitcoin "wallets" on Google Play but beyond the
+{{ page.title }}, not to be confused with
+{% include walletLink.html wallet='android/org.toshi' verdict='true' %}
+is one of the top Bitcoin "wallets" on Google Play but beyond the
 name, nothing indicates this app to be an actual wallet.
 
 Historically Coinbase was an exchange and like almost all exchanges, they
@@ -55,3 +56,7 @@ private keys are under the sole control of Coinbase, making it
 a custodial wallet or non-wallet.
 
 Verdict: This app is **not verifiable**.
+
+**Note:** [Coinbase.com](https://www.coinbase.com/) does link to this app. It
+does also link to a [Wallet page](https://wallet.coinbase.com/) that links to
+{% include walletLink.html wallet='android/org.toshi' verdict='true' %}

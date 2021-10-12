@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.fibermode.mode.android
 released: 2021-02-11
-updated: 2021-09-29
-version: "2.1.3"
+updated: 2021-10-11
+version: "2.2.0"
 stars: 4.2
 ratings: 218
 reviews: 114

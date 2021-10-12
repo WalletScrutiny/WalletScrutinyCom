@@ -9,9 +9,9 @@ appId: co.okex.app
 released: 2019-09-11
 updated: 2021-10-10
 version: "6.0.2"
-stars: 3.9
-ratings: 5242
-reviews: 2546
+stars: 4.0
+ratings: 5266
+reviews: 2555
 size: 9.2M
 website: https://ok-ex.co
 repository: 

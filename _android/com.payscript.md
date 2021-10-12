@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: com.payscript
 released: 2020-10-13
-updated: 2021-06-17
-version: "0.0.3"
+updated: 2021-10-11
+version: "0.1.0"
 stars: 5.0
 ratings: 5
 reviews: 3
-size: 11M
+size: 15M
 website: 
 repository: 
 issue: 
