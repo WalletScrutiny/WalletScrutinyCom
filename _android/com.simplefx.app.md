@@ -69,7 +69,14 @@ It is possible to [deposit bitcoin](https://simplefx.com/payments/) and other cr
 
 We could not locate the official iOS version of the app and can only seem to find it on [their own website](https://simplefx.com/ios/).
 
-**⚠️ Alert!** Sites that host their own APKs should be treated with extra scrutiny. Apple and Google routinely screen apps based on a given criteria. If a certain app does not make it on Google Play or on the Apple store, there is a compelling reason why it is not.
+<div class="alertBox"><div>
+<p>Providers that don't distribute their apps through the big platforms
+should be treated with caution. Here they claim "download from the Apple App
+Store" even though they then go on to explain how to download the app from
+their servers.</p>
+<p>Google and Apple review apps for compliance with their rules and while some
+apps get rejected for cosmetics, not being listed is suspicious.</p>
+</div></div>
 
 ## Verdict
 
