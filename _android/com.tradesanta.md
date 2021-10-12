@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: TradeSanta
 title: "TradeSanta: Crypto Trading Bot for Binance, Huobi"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 636
 reviews: 452
 size: 12M
-website: 
+website: https://tradesanta.com/en
 repository: 
 issue: 
 icon: com.tradesanta.png

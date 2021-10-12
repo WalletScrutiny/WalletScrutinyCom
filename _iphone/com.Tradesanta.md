@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: TradeSanta
 title: "TradeSanta: Crypto Trading Bot"
 altTitle: 
 authors:
-
+- danny
 appId: com.Tradesanta
 appCountry: us
 idd: 1457051269
@@ -13,12 +13,12 @@ version: "2.5.8"
 stars: 3.75758
 reviews: 33
 size: 67362816
-website: 
+website: https://tradesanta.com/en
 repository: 
 issue: 
 icon: com.Tradesanta.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-12
 signer: 
 reviewArchive:
@@ -32,4 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+{% include copyFromAndroid.html %}
 

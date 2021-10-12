@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ACEexchange
 title: "ACE Exchange - crypto exchange"
 altTitle: 
 authors:
-
+- danny
 appId: com.asiainnovations.ace
 appCountry: ng
 idd: 1446866556
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.asiainnovations.ace.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
@@ -26,10 +26,13 @@ reviewArchive:
 
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ace.exchange.tw
 providerReddit: 
 
 redirect_from:
 
 ---
+
+
+{% include copyFromAndroid.html %}
 
