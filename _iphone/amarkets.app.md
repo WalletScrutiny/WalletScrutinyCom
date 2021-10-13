@@ -19,7 +19,7 @@ issue:
 icon: amarkets.app.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-11
+date: 2021-10-13
 signer: 
 reviewArchive:
 

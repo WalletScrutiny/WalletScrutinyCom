@@ -19,7 +19,7 @@ issue:
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-05
+date: 2021-10-13
 signer: 
 reviewArchive:
 

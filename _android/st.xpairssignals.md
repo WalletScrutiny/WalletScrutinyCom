@@ -19,7 +19,7 @@ issue:
 icon: st.xpairssignals.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-04
+date: 2021-10-13
 signer: 
 reviewArchive:
 - date: 2021-08-17

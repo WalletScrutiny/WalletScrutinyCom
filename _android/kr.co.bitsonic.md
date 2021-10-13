@@ -19,7 +19,7 @@ issue:
 icon: kr.co.bitsonic.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-01
+date: 2021-10-13
 signer: 
 reviewArchive:
 

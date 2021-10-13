@@ -19,7 +19,7 @@ issue:
 icon: com.simplefx.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-10-13
 signer: 
 reviewArchive:
 

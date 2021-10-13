@@ -19,7 +19,7 @@ issue:
 icon: com.fondexmobile.ct.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-05
+date: 2021-10-13
 signer: 
 reviewArchive:
 
