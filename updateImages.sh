@@ -8,6 +8,12 @@ do
   esac
 done
 
+if ! command -v compare &> /dev/null
+then
+    echo "compare (ImageMagick) could not be found!"
+    exit
+fi
+
 mkdir images/wallet_icons/{android,iphone,hardware}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
