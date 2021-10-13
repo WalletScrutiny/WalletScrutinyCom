@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.koinstrap.koinstrap
 released: 2020-08-28
-updated: 2021-09-25
-version: "2.0.5"
-stars: 3.4
-ratings: 15
-reviews: 7
+updated: 2021-10-11
+version: "2.1.5"
+stars: 3.5
+ratings: 16
+reviews: 8
 size: 59M
 website: 
 repository: 

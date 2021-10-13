@@ -9,9 +9,9 @@ appId: com.eversendapp
 released: 2019-02-01
 updated: 2021-09-25
 version: "0.2.07"
-stars: 4.2
-ratings: 3169
-reviews: 1459
+stars: 4.1
+ratings: 3199
+reviews: 1471
 size: 53M
 website: https://eversend.co/
 repository: 

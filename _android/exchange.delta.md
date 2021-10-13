@@ -10,8 +10,8 @@ released: 2021-05-07
 updated: 2021-08-25
 version: "1.4.2"
 stars: 3.7
-ratings: 164
-reviews: 111
+ratings: 165
+reviews: 112
 size: 22M
 website: https://www.delta.exchange/
 repository: 

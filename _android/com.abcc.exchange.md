@@ -1,14 +1,14 @@
 ---
 wsId: abccExchange
-title: "ABCC Exchange - Easily trade Crypto"
+title: "ABCC Exchange"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.abcc.exchange
 released: 2018-08-23
-updated: 2021-09-09
-version: "1.9.2"
+updated: 2021-10-08
+version: "1.9.3"
 stars: 4.2
 ratings: 1538
 reviews: 1272

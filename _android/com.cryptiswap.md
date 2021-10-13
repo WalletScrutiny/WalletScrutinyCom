@@ -4,7 +4,7 @@ title: "CryptiSwap - Non-Custodial Crypto Exchange & Swaps"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.cryptiswap
 released: 2021-03-16
 updated: 2021-06-29

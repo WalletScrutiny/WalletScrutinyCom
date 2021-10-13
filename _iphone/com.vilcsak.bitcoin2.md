@@ -1,6 +1,6 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase: Trade BTC, ETH, DOGE"
+title: "Coinbase – Buy & sell Bitcoin"
 altTitle: 
 authors:
 - leo
@@ -8,18 +8,18 @@ appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2021-10-07
-version: "9.44.5"
-stars: 4.69285
-reviews: 1450327
-size: 103534592
+updated: 2021-10-11
+version: "9.45.4"
+stars: 4.69288
+reviews: 1450933
+size: 103743488
 website: http://www.coinbase.com
 repository: 
 issue: 
 icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
 verdict: custodial
-date: 2020-12-22
+date: 2021-10-12
 signer: 
 reviewArchive:
 
@@ -33,9 +33,4 @@ redirect_from:
 
 ---
 
-This app's provider claims:
-
-> Over 98% of cryptocurrency is stored securely offline and the rest is
-  protected by industry-leading online security.
-
-which clearly means it is a custodial offering.
+{% include copyFromAndroid.html %}

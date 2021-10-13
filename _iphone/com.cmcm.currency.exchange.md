@@ -10,8 +10,8 @@ idd: 1435877386
 released: 2018-09-16
 updated: 2021-09-28
 version: "5.0.3"
-stars: 3.59649
-reviews: 285
+stars: 3.5784
+reviews: 287
 size: 99994624
 website: https://www.bitrue.com
 repository: 

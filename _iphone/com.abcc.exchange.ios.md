@@ -8,11 +8,11 @@ appId: com.abcc.exchange.ios
 appCountry: us
 idd: 1428903145
 released: 2018-10-03
-updated: 2021-09-13
-version: "1.9.3"
+updated: 2021-10-11
+version: "1.9.4"
 stars: 4.44444
 reviews: 9
-size: 55455744
+size: 55504896
 website: https://abcc.com/
 repository: 
 issue: 

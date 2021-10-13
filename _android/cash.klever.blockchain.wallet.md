@@ -10,8 +10,8 @@ released: 2020-08-27
 updated: 2021-10-06
 version: "4.5.5"
 stars: 3.8
-ratings: 9820
-reviews: 5543
+ratings: 9829
+reviews: 5548
 size: Varies with device
 website: https://www.klever.io
 repository: 

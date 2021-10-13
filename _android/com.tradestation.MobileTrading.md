@@ -9,8 +9,8 @@ appId: com.tradestation.MobileTrading
 released: 2013-09-09
 updated: 2021-09-13
 version: "4.19.10"
-stars: 4.2
-ratings: 4284
+stars: 4.3
+ratings: 4286
 reviews: 1839
 size: 13M
 website: https://www.tradestation.com/

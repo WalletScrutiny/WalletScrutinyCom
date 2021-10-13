@@ -9,9 +9,9 @@ appId: br.com.coinbr.smartwallet
 released: 2017-11-03
 updated: 2021-09-30
 version: "2.0.24"
-stars: 2.9
-ratings: 283
-reviews: 216
+stars: 2.8
+ratings: 285
+reviews: 218
 size: 6.0M
 website: https://stratum.hk/
 repository: 
