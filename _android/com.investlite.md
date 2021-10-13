@@ -39,7 +39,7 @@ InvestLite is another Forex trading app.
 
 > Download the InvestLite trading app to embrace the diversity of 350+ underlying assets, such as Bitcoin, gold, stocks, Forex pairs, and indices.
 
-The app has a shocking amount of negative reviews, with users reporting that they lose the money they had invested.
+The app has a shocking amount of negative reviews, with users reporting that they lost the money they invested.
 
 > [ec broker](https://play.google.com/store/apps/details?id=com.investlite&reviewId=gp%3AAOqpTOGQ7ygh2jPRQe7vBI9I8Czt-7ZfUdLBzy0s8wIQn6fhNv-npGZCY-ZOACaFDdMlNSshuj2u59nVWNo3ayY)<br>
   ★☆☆☆☆ July 21, 2021<br>
@@ -62,4 +62,4 @@ We tried the app. After signing in, we are asked to provide our address and then
 
 ## Verdict
 
-Due to the use of CFDs, it's **not possible to send or receive bitcoins** in this app.
+Cryptocurrency trading via CFDs usually does not entail the use of a wallet.  Therefore, it is **not possible to send or receive bitcoins** in this app.

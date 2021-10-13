@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Bolsa
 title: "Bolsa: Forex Stock Market Game"
 altTitle: 
 authors:
-
+- danny
 appId: com.tiim.tradeon
 appCountry: us
 idd: 1267910740
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tiim.tradeon.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-13
 signer: 
 reviewArchive:
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

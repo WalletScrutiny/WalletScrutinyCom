@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CoinCircle
 title: "CoinCircle"
 altTitle: 
 authors:
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -39,11 +39,20 @@ The Google Play description gives the impression that this app is non-custodial:
 
 > You get the keys and you are in complete control of your digital assets.
 
-It is also possible 
+Users may also buy bitcoin and other cryptocurrencies.
+
+The app was unavailable in our region, so we could not test it.
 
 ## The Site
+CoinCircle states that it develops open-source tools and applications.
 
-## The App
+> CoinCircle Labs is developing open-source tools and applications for the blockchain community as a whole. It is our goal to make the blockchain network more accessible to other developers through open-source collaboration.
+
+However, none of the repositories found in the Github account appear to be directly related to CoinCircle's wallet on the Play Store.
+
+## Contact
+
+We contacted CoinCircle via their [official twitter account](https://twitter.com/dannybuntu/status/1448264820600426506) to ask them whether the project is opensource or not. We are still awaiting their response.
 
 ## Verdict
-
+While this is a **non-custodial** wallet, we have no source to verify this. The app is **not-verifiable**.
