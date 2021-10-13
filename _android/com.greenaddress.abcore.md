@@ -22,11 +22,6 @@ verdict: obsolete
 date: 2021-10-06
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "Varies with device"
-  appHash: 
-  gitRevision: c03ff801a85a7d56a4b1ef2ea0b1bb8d7bd5b7a6
-  verdict: stale
 - date: 2020-03-02
   version: "Varies with device"
   appHash: 

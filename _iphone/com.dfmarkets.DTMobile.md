@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: deltastock
 providerLinkedIn: deltastock-ad
 providerFacebook: Deltastock
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

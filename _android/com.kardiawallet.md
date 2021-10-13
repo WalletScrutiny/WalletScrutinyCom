@@ -9,9 +9,9 @@ appId: com.kardiawallet
 released: 2021-01-13
 updated: 2021-09-28
 version: "2.3.33"
-stars: 4.6
-ratings: 665
-reviews: 351
+stars: 4.7
+ratings: 668
+reviews: 352
 size: 57M
 website: https://kardiachain.io/
 repository: 

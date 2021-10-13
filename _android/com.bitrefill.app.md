@@ -10,8 +10,8 @@ released: 2018-04-10
 updated: 2021-09-13
 version: "1.30.4"
 stars: 3.4
-ratings: 832
-reviews: 513
+ratings: 831
+reviews: 512
 size: 26M
 website: https://www.bitrefill.com
 repository: 
@@ -22,11 +22,6 @@ verdict: custodial
 date: 2021-09-14
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "1.28.9"
-  appHash: 
-  gitRevision: 57d6545031ae9f253a279e32bc3c621d013564fc
-  verdict: stale
 - date: 2019-12-25
   version: "1.28.9"
   appHash: 

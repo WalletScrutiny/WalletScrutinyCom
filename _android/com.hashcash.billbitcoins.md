@@ -4,7 +4,7 @@ title: "Billbitcoins - Pay with Bitcoin & Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.hashcash.billbitcoins
 released: 2021-03-17
 updated: 2021-04-28

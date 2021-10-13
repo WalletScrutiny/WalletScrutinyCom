@@ -4,7 +4,7 @@ title: "MoonXBT - Trade BTC Up to 150X"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.nano.moonxbt
 released: 2021-05-11
 updated: 2021-09-26

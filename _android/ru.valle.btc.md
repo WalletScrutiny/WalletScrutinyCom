@@ -22,11 +22,6 @@ verdict: wip
 date: 2021-09-07
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
-- date: 2021-08-17
-  version: "Varies with device"
-  appHash: 
-  gitRevision: 2367c5ed001642144446ae995ee86a134f1d4a7c
-  verdict: stale
 - date: 2020-08-04
   version: "Varies with device"
   appHash: 

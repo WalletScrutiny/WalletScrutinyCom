@@ -10,8 +10,8 @@ released: 2021-03-21
 updated: 2021-05-07
 version: "1.0.2"
 stars: 4.5
-ratings: 213
-reviews: 121
+ratings: 214
+reviews: 122
 size: 22M
 website: https://www.burency.com/
 repository: 

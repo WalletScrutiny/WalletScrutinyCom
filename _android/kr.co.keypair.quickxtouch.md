@@ -22,11 +22,7 @@ verdict: obsolete
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-03-07
-  version: "1.0.0.57"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: fewusers
+
 
 providerTwitter: quickxprotocol
 providerLinkedIn: quickx

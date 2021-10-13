@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: aximetriagmbh
 providerLinkedIn: aximetriagmbh
 providerFacebook: aximetriagmbh
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

@@ -22,11 +22,6 @@ verdict: wip
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "1.19.0"
-  appHash: 
-  gitRevision: cef882a172e361d81c876dd5bc849a1a6f6cfeda
-  verdict: obsolete
 - date: 2021-05-20
   version: "1.17.0"
   appHash: 

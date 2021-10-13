@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.btcwallet.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-13
 signer: 
 reviewArchive:
 

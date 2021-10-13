@@ -11,8 +11,8 @@ released: 2017-11-29
 updated: 2021-09-20
 version: "2.6.8"
 stars: 4.0
-ratings: 267
-reviews: 205
+ratings: 266
+reviews: 204
 size: 8.5M
 website: https://freewallet.org/
 repository: 
@@ -23,11 +23,6 @@ verdict: nobtc
 date: 2021-10-04
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "2.5.2"
-  appHash: 
-  gitRevision: 2367c5ed001642144446ae995ee86a134f1d4a7c
-  verdict: stale
 - date: 2021-05-02
   version: "2.5.2"
   appHash: 

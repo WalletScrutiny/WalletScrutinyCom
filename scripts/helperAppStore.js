@@ -76,7 +76,6 @@ function refreshFile(fileName) {
     }, (err) => {
       if (`${err}`.search(/404/) > -1) {
         helper.addDefunctIfNew(`_iphone/${appId}`)
-        console.error(`\n_iphone/${appId}.md not available (${header.verdict})`)
       } else {
         console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${err}`)
       }
@@ -96,8 +95,8 @@ function writeResult(app, header, iconExtension, body) {
   }
   const reviewArchive = (header.reviewArchive || [])
       .filter(it => {
-        // wip archval is not very helpful as it only means that we realized we had to re-evaluate. It's a pseudo verdict.
-        return it.verdict != "wip" && it.verdict != undefined
+        // Remove pseudo verdicts.
+        return !"wip,fewusers,stale,obsolete".includes(it.verdict) && it.verdict != undefined
       })
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`

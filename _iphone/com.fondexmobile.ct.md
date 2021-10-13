@@ -27,12 +27,11 @@ reviewArchive:
 providerTwitter: 
 providerLinkedIn: fondex-trading
 providerFacebook: fondexglobal
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

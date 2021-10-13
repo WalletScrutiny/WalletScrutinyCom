@@ -10,8 +10,8 @@ released: 2019-04-23
 updated: 2019-08-29
 version: "1.0.12"
 stars: 3.3
-ratings: 227
-reviews: 159
+ratings: 228
+reviews: 160
 size: 3.0M
 website: https://magnumwallet.co
 repository: 
@@ -22,11 +22,6 @@ verdict: obsolete
 date: 2021-08-19
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "1.0.12"
-  appHash: 
-  gitRevision: 79e92f0e1174136cdf05180253c87cacb589f002
-  verdict: stale
 - date: 2020-04-07
   version: "1.0.12"
   appHash: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "OKEx - Bitcoin/Crypto Trading Platform"
+title: "OKEx - Buy & Trade Bitcoin,Cryptocurrency Securely"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2019-10-29
 updated: 2021-09-29
 version: "5.3.7.1"
 stars: 4.6
-ratings: 132214
-reviews: 39821
+ratings: 132407
+reviews: 39844
 size: 169M
 website: https://www.okex.com
 repository: 

@@ -10,8 +10,8 @@ released: 2015-10-06
 updated: 2021-10-05
 version: "Varies with device"
 stars: 3.8
-ratings: 2405
-reviews: 953
+ratings: 2406
+reviews: 954
 size: Varies with device
 website: https://www.forex4you.com/en/
 repository: 

@@ -8,11 +8,11 @@ users: 1000000
 appId: zebpay.Application
 released: 2014-12-23
 updated: 2021-10-06
-version: "3.15.02"
+version: "3.15.03"
 stars: 3.5
-ratings: 86889
-reviews: 42301
-size: 11M
+ratings: 86908
+reviews: 42315
+size: 12M
 website: https://www.zebpay.com
 repository: 
 issue: 

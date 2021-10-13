@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: T1_Markets
 providerLinkedIn: 
 providerFacebook: t1markets
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
