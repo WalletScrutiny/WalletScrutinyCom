@@ -3,7 +3,7 @@ wsId:
 title: "CoinCircle"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.coincircle
 released: 2021-04-26
@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 159
 reviews: 52
 size: 110M
-website: 
+website: https://coincircle.com/
 repository: 
 issue: 
 icon: com.coincircle.png
@@ -24,13 +24,26 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coincircle
+providerLinkedIn: coincircle
+providerFacebook: CoinCircle
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+## App Description
+The Google Play description gives the impression that this app is non-custodial:
+
+> You get the keys and you are in complete control of your digital assets.
+
+It is also possible 
+
+## The Site
+
+## The App
+
+## Verdict
 
