@@ -15,7 +15,7 @@ reviews: 800
 size: 49M
 website: https://nodawallet.com/
 repository: https://github.com/nodawallet/NodaWallet-Android
-issue: 
+issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
 verdict: nosource
