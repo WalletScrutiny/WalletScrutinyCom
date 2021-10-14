@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: com.crypto.blockchain.jpg
 bugbounty: 
-verdict: fake
-date: 2021-08-08
+verdict: defunct
+date: 2021-10-15
 signer: 
 reviewArchive:
 - date: 2021-08-08
