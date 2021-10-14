@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: swapitway.com.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-10-05
+verdict: defunct
+date: 2021-10-15
 signer: 
 reviewArchive:
 
@@ -33,4 +33,5 @@ redirect_from:
 
 ---
 
+**Update 2021-10-07**: This app is not on Play Store anymore.
 
