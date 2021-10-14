@@ -9,9 +9,9 @@ appId: com.futuretradelink
 released: 
 updated: 2021-08-03
 version: "1.3"
-stars: 4.2
-ratings: 23
-reviews: 10
+stars: 4.0
+ratings: 24
+reviews: 11
 size: 31M
 website: 
 repository: 

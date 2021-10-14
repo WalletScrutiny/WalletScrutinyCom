@@ -4,13 +4,13 @@ title: "Flux"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.fluxpayment
 released: 2020-09-02
 updated: 2021-09-29
 version: "1.6.40"
 stars: 4.0
-ratings: 131
+ratings: 132
 reviews: 81
 size: 47M
 website: 

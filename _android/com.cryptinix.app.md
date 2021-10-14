@@ -9,9 +9,9 @@ appId: com.cryptinix.app
 released: 2020-11-24
 updated: 2021-02-09
 version: "1.2.0"
-stars: 4.7
-ratings: 54
-reviews: 53
+stars: 4.8
+ratings: 58
+reviews: 57
 size: 52M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.techx.arya
 released: 2019-09-10
-updated: 2021-09-13
-version: "2.9.2"
+updated: 2021-10-12
+version: "2.10.1"
 stars: 4.2
 ratings: 268
 reviews: 111
-size: 65M
+size: 64M
 website: https://arya.xy
 repository: 
 issue: 

@@ -1,17 +1,17 @@
 ---
 wsId: AdmiralMarkets
-title: "Admiral Markets"
+title: "Admirals"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.admiralmarkets.android
 released: 2020-10-07
-updated: 2021-09-22
-version: "1.4.3"
+updated: 2021-10-12
+version: "1.4.4"
 stars: 3.8
-ratings: 248
-reviews: 137
+ratings: 251
+reviews: 139
 size: 14M
 website: https://admiralmarkets.com/
 repository: 

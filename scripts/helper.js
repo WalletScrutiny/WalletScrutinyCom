@@ -40,7 +40,7 @@ function downloadImageFile(url, path, callback) {
 
 function addReviewArchive(reviewArchive, header) {
   // don't archive undefined or pseudo verdicts
-  if (header.verdict == undefined || header.verdict == "wip" || header.verdict == "fewusers") {
+  if (header.verdict == undefined || "wip,fewusers,stale,obsolete".includes(header.verdict)) {
     return
   }
   reviewArchive.unshift({
@@ -63,6 +63,7 @@ function addDefunctIfNew(id) {
   if (!defuncts.match(line)) {
     // newly defunct
     fs.appendFileSync(defunctFile, line)
+    console.error(`\n${id}.md not available`)
   }
 }
 
