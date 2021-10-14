@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BlockFi - Buy, Earn, Borrow Crypto"
+title: "BlockFi - Buy & Earn Crypto"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2020-04-30
 updated: 2021-10-04
 version: "4.7.0"
 stars: 3.1
-ratings: 3377
-reviews: 1598
+ratings: 3387
+reviews: 1603
 size: 11M
 website: https://blockfi.com
 repository: 

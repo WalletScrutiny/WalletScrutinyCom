@@ -1,17 +1,17 @@
 ---
 wsId: bit2me
-title: "Bit2Me - Buy and Sell Cryptocurrencies"
+title: "Bit2Me - Buy and Sell Bitcoin"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.phonegap.bit2me
 released: 2015-01-08
-updated: 2021-10-01
-version: "2.1.7"
+updated: 2021-10-14
+version: "2.1.8"
 stars: 4.2
-ratings: 2416
-reviews: 873
+ratings: 2431
+reviews: 877
 size: 58M
 website: https://bit2me.com
 repository: 

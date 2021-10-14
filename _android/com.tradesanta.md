@@ -9,9 +9,9 @@ appId: com.tradesanta
 released: 2019-05-20
 updated: 2021-09-28
 version: "2.4.11"
-stars: 3.8
-ratings: 636
-reviews: 452
+stars: 3.9
+ratings: 640
+reviews: 453
 size: 12M
 website: 
 repository: 

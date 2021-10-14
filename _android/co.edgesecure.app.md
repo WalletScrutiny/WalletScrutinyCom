@@ -1,17 +1,17 @@
 ---
 wsId: edge
-title: "Edge - Bitcoin, Ethereum, Monero, Ripple Wallet"
+title: "Edge - Bitcoin & Crypto Wallet"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: co.edgesecure.app
 released: 2018-03-01
-updated: 2021-10-05
-version: "2.2.0"
+updated: 2021-10-12
+version: "2.3.1"
 stars: 4.1
-ratings: 3494
-reviews: 1935
+ratings: 3525
+reviews: 1946
 size: 43M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

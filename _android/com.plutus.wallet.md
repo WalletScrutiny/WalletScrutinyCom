@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra Bitcoin Wallet Buy Trade Earn Interest Borrow"
+title: "Abra: Buy Bitcoin, Earn Interest On Crypto"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2015-03-04
 updated: 2021-10-06
 version: "Varies with device"
 stars: 4.5
-ratings: 25967
-reviews: 8066
+ratings: 26063
+reviews: 8098
 size: Varies with device
 website: https://www.abra.com
 repository: 

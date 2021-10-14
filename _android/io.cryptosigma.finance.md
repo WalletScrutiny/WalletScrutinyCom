@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Sigma Wallet - Crypto Wallet & DeFi Gateway"
+title: "Sigma Wallet - Crypto Wallet"
 altTitle: 
 authors:
 

@@ -9,9 +9,9 @@ appId: com.conio.wallet
 released: 
 updated: 2021-09-08
 version: "3.3.10"
-stars: 3.7
-ratings: 619
-reviews: 411
+stars: 3.6
+ratings: 620
+reviews: 412
 size: 71M
 website: https://www.conio.com/en
 repository: 

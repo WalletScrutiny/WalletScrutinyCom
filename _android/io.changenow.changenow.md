@@ -10,8 +10,8 @@ released: 2018-09-07
 updated: 2021-10-12
 version: "1.140"
 stars: 4.7
-ratings: 1404
-reviews: 696
+ratings: 1419
+reviews: 700
 size: 6.5M
 website: http://changenow.io
 repository: 

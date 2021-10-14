@@ -10,8 +10,8 @@ idd: 1488296980
 released: 2020-01-06
 updated: 2021-10-03
 version: "3.5.3"
-stars: 3.82515
-reviews: 326
+stars: 3.82875
+reviews: 327
 size: 117847040
 website: https://www.bybit.com
 repository: 

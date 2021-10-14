@@ -10,8 +10,8 @@ idd: 1498452975
 released: 2020-03-09
 updated: 2021-09-08
 version: "1.8.4"
-stars: 4.68497
-reviews: 346
+stars: 4.68946
+reviews: 351
 size: 164063232
 website: https://vndc.io
 repository: 

@@ -8,11 +8,11 @@ appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
 released: 2020-09-29
-updated: 2021-09-20
-version: "2.5.4"
+updated: 2021-10-14
+version: "2.5.47"
 stars: 
 reviews: 
-size: 80118784
+size: 80217088
 website: 
 repository: 
 issue: 

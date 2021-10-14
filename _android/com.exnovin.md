@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: "ایکس نوین - exnovin | خرید و فروش بیت کوین ، تتر"
+title: "خرید و فروش رمزارز - ایکس نوین"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.exnovin
 released: 2018-07-06
-updated: 2021-09-08
+updated: 2021-10-11
 version: "1.0"
 stars: 4.3
 ratings: 1981

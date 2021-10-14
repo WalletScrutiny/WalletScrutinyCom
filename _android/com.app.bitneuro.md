@@ -9,9 +9,9 @@ appId: com.app.bitneuro
 released: 2021-07-01
 updated: 2021-09-11
 version: "1.3.0"
-stars: 3.9
-ratings: 12
-reviews: 8
+stars: 3.8
+ratings: 13
+reviews: 9
 size: 14M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.forextb.forextb
 released: 2020-09-24
 updated: 2021-10-12
 version: "2.1.5"
-stars: 3.0
-ratings: 324
-reviews: 271
+stars: 2.9
+ratings: 326
+reviews: 273
 size: 79M
 website: https://www.forextb.com/eu/
 repository: 

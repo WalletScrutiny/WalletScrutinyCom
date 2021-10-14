@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: io.okminer.app
 released: 2021-06-27
-updated: 2021-10-08
-version: "1.2.7"
+updated: 2021-10-13
+version: "1.2.8"
 stars: 4.6
-ratings: 512
+ratings: 515
 reviews: 111
 size: 24M
 website: 

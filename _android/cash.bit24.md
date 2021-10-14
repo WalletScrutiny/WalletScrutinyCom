@@ -9,9 +9,9 @@ appId: cash.bit24
 released: 2021-05-30
 updated: 2021-09-14
 version: "4.0.4"
-stars: 4.4
-ratings: 860
-reviews: 280
+stars: 4.5
+ratings: 876
+reviews: 287
 size: 9.5M
 website: 
 repository: 

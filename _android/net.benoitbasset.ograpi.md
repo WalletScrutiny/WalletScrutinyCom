@@ -9,9 +9,9 @@ appId: net.benoitbasset.ograpi
 released: 2018-11-28
 updated: 2021-05-03
 version: "1.4.3"
-stars: 4.2
-ratings: 190
-reviews: 109
+stars: 4.1
+ratings: 192
+reviews: 110
 size: 5.0M
 website: http://ograpi.oblade.net/
 repository: 

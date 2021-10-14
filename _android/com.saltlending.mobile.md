@@ -10,7 +10,7 @@ released: 2019-01-07
 updated: 2021-10-05
 version: "1.20.41"
 stars: 4.4
-ratings: 194
+ratings: 195
 reviews: 54
 size: 49M
 website: https://saltlending.com/

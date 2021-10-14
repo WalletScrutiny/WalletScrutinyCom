@@ -9,9 +9,9 @@ appId: com.primexbt.exchange
 released: 2019-05-08
 updated: 2020-07-16
 version: "144.5.0-release"
-stars: 2.1
+stars: 2.0
 ratings: 614
-reviews: 465
+reviews: 464
 size: 9.5M
 website: 
 repository: 
