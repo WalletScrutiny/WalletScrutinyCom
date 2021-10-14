@@ -22,11 +22,7 @@ verdict: nobtc
 date: 2021-08-09
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: ""
-  appHash: 
-  gitRevision: e2e703e641028d5466e8e09931b9c89d19790759
-  verdict: fewusers
+
 
 providerTwitter: 
 providerLinkedIn: 

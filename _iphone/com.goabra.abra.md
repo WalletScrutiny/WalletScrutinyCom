@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra: Bitcoin & Crypto Wallet"
+title: "Abra: Buy Bitcoin Instantly"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.goabra.abra
 appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2021-09-20
-version: "107.0.0"
-stars: 4.56841
-reviews: 16349
-size: 117720064
+updated: 2021-10-13
+version: "108.0.0"
+stars: 4.56931
+reviews: 16362
+size: 117347328
 website: 
 repository: 
 issue: 

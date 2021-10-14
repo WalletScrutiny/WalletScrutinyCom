@@ -22,11 +22,7 @@ verdict: obsolete
 date: 2021-08-25
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "v2.0.5"
-  appHash: 
-  gitRevision: 0639442c98b76e02e8d152c9918aed761b7d4eef
-  verdict: stale
+
 
 providerTwitter: 
 providerLinkedIn: 

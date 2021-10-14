@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buy & Sell Cryptocurrency (Crypto Exchange App)"
+title: "Buy & Sell Cryptocurrency"
 altTitle: 
 authors:
 

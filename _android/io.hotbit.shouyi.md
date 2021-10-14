@@ -9,9 +9,9 @@ appId: io.hotbit.shouyi
 released: 2019-09-19
 updated: 2021-10-11
 version: "1.3.37"
-stars: 4.1
-ratings: 46089
-reviews: 17771
+stars: 4.0
+ratings: 46415
+reviews: 17893
 size: 11M
 website: https://www.hotbit.io
 repository: 

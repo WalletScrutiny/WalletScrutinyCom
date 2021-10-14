@@ -9,8 +9,8 @@ appId: com.blockchainappfactory.mwallet
 released: 2020-03-08
 updated: 2020-03-09
 version: "1.0"
-stars: 0.0
-ratings: 
+stars: 3.4
+ratings: 5
 reviews: 
 size: 5.2M
 website: 

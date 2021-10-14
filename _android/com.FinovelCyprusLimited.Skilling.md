@@ -1,18 +1,18 @@
 ---
 wsId: Skilling
-title: "Skilling: CFD online trading on forex and stocks"
+title: "Skilling: Trade Forex & Stocks"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.FinovelCyprusLimited.Skilling
 released: 2020-05-05
-updated: 2021-04-24
-version: "1.0.25"
-stars: 3.7
-ratings: 131
-reviews: 54
-size: 3.8M
+updated: 2021-10-11
+version: "1.0.29"
+stars: 3.8
+ratings: 135
+reviews: 56
+size: 3.9M
 website: https://skilling.com/
 repository: 
 issue: 

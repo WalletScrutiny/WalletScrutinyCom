@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: bitcoin.bot.finaladstest.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: stale
+date: 2021-10-13
 signer: 
 reviewArchive:
 

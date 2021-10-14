@@ -4,7 +4,7 @@ title: "Xbond — Crypto Exchange"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: io.xbond.droidapp
 released: 2021-08-14
 updated: 2021-08-14

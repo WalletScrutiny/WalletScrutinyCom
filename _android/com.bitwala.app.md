@@ -10,7 +10,7 @@ released: 2019-07-11
 updated: 2021-10-04
 version: "2.1.43"
 stars: 3.6
-ratings: 3467
+ratings: 3469
 reviews: 2180
 size: 91M
 website: https://nuri.com

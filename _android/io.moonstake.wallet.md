@@ -9,9 +9,9 @@ appId: io.moonstake.wallet
 released: 2020-03-24
 updated: 2021-10-08
 version: "2.8.1"
-stars: 4.7
-ratings: 2212
-reviews: 1109
+stars: 4.6
+ratings: 2213
+reviews: 1110
 size: 57M
 website: https://moonstake.io/
 repository: 

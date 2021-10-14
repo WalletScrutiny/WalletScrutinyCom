@@ -22,11 +22,6 @@ verdict: custodial
 date: 2021-09-12
 signer: 
 reviewArchive:
-- date: 2021-08-17
-  version: "1.13"
-  appHash: 
-  gitRevision: a56730247355e1acdeba52317b006511806100fb
-  verdict: stale
 - date: 2021-05-25
   version: "1.13"
   appHash: 
