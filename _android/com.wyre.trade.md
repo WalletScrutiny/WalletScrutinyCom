@@ -3,7 +3,7 @@ wsId:
 title: "Wyretrade: Invest in Stocks, ETFs & Crypto"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.wyre.trade
 released: 2021-04-30
@@ -13,20 +13,20 @@ stars: 4.2
 ratings: 100
 reviews: 77
 size: 13M
-website: 
+website: https://wyretrade.com/
 repository: 
 issue: 
 icon: com.wyre.trade.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: wyretrade
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Wyretrade-105994018302814
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,36 @@ redirect_from:
 ---
 
 
+## App Description
+
+From Google Play:
+
+> Wyretrade is a blockchain powered mobile trading App that let investors buy and sell stocks, ETFs and Cryptocurrency.
+
+This app is an exchange.
+
+The app developer is listed as "Remitty LLC," and has developed two other apps with neither of them involved in cryptocurrencies.
+
+## The Site
+
+The official site is fairly small and only has a few pages worth noting. Even the app to the IOS version does not work.
+
+### User Agreement
+
+[The Terms and Conditions has an Anti-Money Laundering statement](https://wyretrade.com/terms/), saying that by using their services, you agree to undergo KYC. They obtain personal information, including address, SSN, and the ID verification document.
+
+**Termination Clause**
+
+> You agree that, without notice, Wyretrade and Remitty LLC. may terminate these Terms and Conditions, or suspend your access to the Service or the Content, with or without cause at any time and effective immediately. 
+
+## The App
+
+Attempting to sign in to the app returns a strange error claiming that:
+
+> "You have already exist account."
+
+Trying a different email address still returns that same error.
+
+## Verdict
+
+From what we gather, this app is one of the many obscure exchange apps. With no evidence stating otherwise, we mark this app as **custodial** and thus **not verifiable.**
