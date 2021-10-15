@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: "Volt:Bitcoin,ETH&BSV Crypto Wallet,Multisig Wallet"
+title: "Volt: Bitcoin wallet&DeFi portal on BSV blockchain"
 altTitle: 
 authors:
 
 users: 1000
 appId: bitmesh.volt.wallet
 released: 2020-05-15
-updated: 2021-09-29
-version: "2.1.3"
+updated: 2021-10-14
+version: "2.1.4"
 stars: 4.7
-ratings: 116
+ratings: 117
 reviews: 55
 size: 23M
 website: 

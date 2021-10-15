@@ -11,7 +11,7 @@ released: 2019-05-30
 updated: 2021-10-12
 version: "1.0.29"
 stars: 5
-reviews: 4
+reviews: 6
 size: 6417408
 website: https://skilling.com
 repository: 

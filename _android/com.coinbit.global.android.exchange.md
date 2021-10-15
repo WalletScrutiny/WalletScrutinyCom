@@ -10,8 +10,8 @@ released: 2019-08-12
 updated: 2021-05-11
 version: "2.4.03"
 stars: 3.1
-ratings: 302
-reviews: 215
+ratings: 303
+reviews: 216
 size: 49M
 website: https://www.coinbit.co.kr/
 repository: 

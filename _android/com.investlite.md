@@ -9,8 +9,8 @@ appId: com.investlite
 released: 2020-12-18
 updated: 2021-08-25
 version: "1.5.69-investlite"
-stars: 3.1
-ratings: 182
+stars: 3.2
+ratings: 183
 reviews: 99
 size: 19M
 website: 

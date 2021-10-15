@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.app.forgingblock.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-08
+verdict: stale
+date: 2021-10-15
 signer: 
 reviewArchive:
 

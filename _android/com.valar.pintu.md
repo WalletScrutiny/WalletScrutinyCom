@@ -4,14 +4,14 @@ title: "Pintu: Buy/Sell Digital Assets with Rupiah (IDR)"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.valar.pintu
 released: 2020-01-25
 updated: 2021-10-12
 version: "3.6.1"
 stars: 4.4
-ratings: 16025
-reviews: 10274
+ratings: 16052
+reviews: 10284
 size: Varies with device
 website: https://pintu.co.id/
 repository: 

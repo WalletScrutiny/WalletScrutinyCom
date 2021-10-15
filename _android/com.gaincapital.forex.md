@@ -9,9 +9,9 @@ appId: com.gaincapital.forex
 released: 2021-01-11
 updated: 2021-09-09
 version: "1.77"
-stars: 3.6
-ratings: 275
-reviews: 147
+stars: 3.7
+ratings: 278
+reviews: 148
 size: 73M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2018-07-06
 updated: 2021-10-11
 version: "1.0"
 stars: 4.3
-ratings: 1981
-reviews: 787
+ratings: 1984
+reviews: 789
 size: 34M
 website: https://exnovin.net/
 repository: 

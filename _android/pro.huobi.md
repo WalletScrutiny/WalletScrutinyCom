@@ -9,9 +9,9 @@ appId: pro.huobi
 released: 2017-11-01
 updated: 2021-10-14
 version: "6.5.2"
-stars: 3.9
-ratings: 14543
-reviews: 4891
+stars: 4.0
+ratings: 14679
+reviews: 4902
 size: 97M
 website: https://www.huobi.com/en-us
 repository: 

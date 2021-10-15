@@ -10,8 +10,8 @@ released: 2019-03-02
 updated: 2021-10-10
 version: "1.1.30"
 stars: 4.9
-ratings: 296
-reviews: 176
+ratings: 300
+reviews: 178
 size: 253M
 website: https://trustkeys.network/
 repository: 
