@@ -19,7 +19,7 @@ issue:
 icon: eu.exante.client.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-12
+date: 2021-10-16
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.ubankfx.forex.jpg
 bugbounty: 
 verdict: stale
-date: 2021-10-12
+date: 2021-10-16
 signer: 
 reviewArchive:
 

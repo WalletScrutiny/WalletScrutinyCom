@@ -19,7 +19,7 @@ issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-09-23
+date: 2021-10-16
 signer: 
 reviewArchive:
 

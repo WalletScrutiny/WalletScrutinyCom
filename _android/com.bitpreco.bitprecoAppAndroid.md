@@ -19,7 +19,7 @@ issue:
 icon: com.bitpreco.bitprecoAppAndroid.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-10-16
 signer: 
 reviewArchive:
 

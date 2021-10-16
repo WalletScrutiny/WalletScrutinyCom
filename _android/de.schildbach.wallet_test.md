@@ -19,7 +19,7 @@ issue:
 icon: de.schildbach.wallet_test.png
 bugbounty: 
 verdict: nobtc
-date: 2021-08-02
+date: 2021-10-16
 signer: 
 reviewArchive:
 

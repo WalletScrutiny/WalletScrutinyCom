@@ -19,7 +19,7 @@ issue:
 icon: com.cryptocloud.mining.coin.mine.bitcrypto.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-05
+date: 2021-10-16
 signer: 
 reviewArchive:
 

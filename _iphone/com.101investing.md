@@ -19,7 +19,7 @@ issue:
 icon: com.101investing.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-12
+date: 2021-10-16
 signer: 
 reviewArchive:
 

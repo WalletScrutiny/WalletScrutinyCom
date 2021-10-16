@@ -19,7 +19,7 @@ issue:
 icon: com.bitpreco.bitprecoApp.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-12
+date: 2021-10-16
 signer: 
 reviewArchive:
 

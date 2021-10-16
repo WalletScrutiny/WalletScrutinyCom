@@ -19,7 +19,7 @@ issue:
 icon: com.ubankfx.forex.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-01
+date: 2021-10-16
 signer: 
 reviewArchive:
 
