@@ -3,7 +3,7 @@ wsId:
 title: "Testnet Wallet"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: de.schildbach.wallet_test
 released: 2011-07-10
@@ -13,12 +13,12 @@ stars: 4.5
 ratings: 369
 reviews: 77
 size: 2.9M
-website: 
+website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: 
 issue: 
 icon: de.schildbach.wallet_test.png
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -33,4 +33,7 @@ redirect_from:
 
 ---
 
+This is the testnet version for: 
+
+{% include walletLink.html wallet='android/de.schildbach.wallet' verdict='true' %}
 
