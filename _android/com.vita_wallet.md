@@ -9,9 +9,9 @@ appId: com.vita_wallet
 released: 2019-10-16
 updated: 2021-09-08
 version: "3.6.3"
-stars: 3.9
-ratings: 287
-reviews: 200
+stars: 3.8
+ratings: 289
+reviews: 202
 size: 42M
 website: https://vitawallet.io/
 repository: 

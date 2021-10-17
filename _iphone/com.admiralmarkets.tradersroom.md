@@ -27,12 +27,11 @@ reviewArchive:
 providerTwitter: AdmiralsGlobal
 providerLinkedIn: -admiral-markets-group
 providerFacebook: AdmiralsGlobal
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

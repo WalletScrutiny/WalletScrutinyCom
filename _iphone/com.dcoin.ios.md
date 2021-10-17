@@ -10,8 +10,8 @@ idd: 1508064925
 released: 2018-12-20
 updated: 2021-10-09
 version: "4.4.0"
-stars: 3.46667
-reviews: 15
+stars: 3.3125
+reviews: 16
 size: 74172416
 website: https://www.dcoin.com/
 repository: 

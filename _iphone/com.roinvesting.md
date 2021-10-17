@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: Roinvesting
 providerLinkedIn: roinvesting
 providerFacebook: ROInvesting
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

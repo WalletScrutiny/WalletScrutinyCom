@@ -9,9 +9,9 @@ appId: com.cryptocloud.mining.coin.mine.bitcrypto
 released: 2021-07-31
 updated: 2021-09-16
 version: "1.1"
-stars: 3.3
-ratings: 1278
-reviews: 936
+stars: 3.4
+ratings: 1308
+reviews: 954
 size: 9.3M
 website: https://bitcryptos.in/
 repository: 

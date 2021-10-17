@@ -9,9 +9,9 @@ appId: kajesabz.ir.bidarz
 released: 2019-01-16
 updated: 2020-09-18
 version: "3.2.5"
-stars: 4.2
-ratings: 3842
-reviews: 1712
+stars: 4.3
+ratings: 3846
+reviews: 1714
 size: 17M
 website: 
 repository: 

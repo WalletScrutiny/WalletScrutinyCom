@@ -9,9 +9,9 @@ appId: com.ptpwallet
 released: 2018-12-04
 updated: 2021-10-04
 version: "1.0.1233"
-stars: 3.9
-ratings: 340
-reviews: 247
+stars: 4.0
+ratings: 341
+reviews: 248
 size: 27M
 website: https://ptpwallet.com
 repository: 

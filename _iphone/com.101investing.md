@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: 101Investing_eu
 providerLinkedIn: 73520735
 providerFacebook: 101Investing
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

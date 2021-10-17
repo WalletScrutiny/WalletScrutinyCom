@@ -10,8 +10,8 @@ released: 2021-03-25
 updated: 2021-10-15
 version: "1.8.2(001)"
 stars: 3.9
-ratings: 246
-reviews: 130
+ratings: 247
+reviews: 131
 size: 33M
 website: https://functionx.io/
 repository: https://github.com/FunctionX/fx-wallet-android

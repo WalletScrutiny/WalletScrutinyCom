@@ -10,8 +10,8 @@ idd: 1545825554
 released: 2021-03-18
 updated: 2021-08-29
 version: "1.8.16"
-stars: 4.55414
-reviews: 157
+stars: 4.56173
+reviews: 162
 size: 75334656
 website: https://bitpreco.com/
 repository: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

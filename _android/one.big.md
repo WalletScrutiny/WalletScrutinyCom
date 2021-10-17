@@ -10,8 +10,8 @@ released: 2019-10-30
 updated: 2021-10-13
 version: "2.1.805"
 stars: 4.3
-ratings: 572
-reviews: 312
+ratings: 578
+reviews: 317
 size: 57M
 website: https://www.b1.zone/
 repository: 

@@ -33,6 +33,7 @@ redirect_from:
 
 ---
 
+
 This is the testnet version for: 
 
 {% include walletLink.html wallet='android/de.schildbach.wallet' verdict='true' %}

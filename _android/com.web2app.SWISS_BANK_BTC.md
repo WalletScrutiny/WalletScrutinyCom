@@ -4,7 +4,7 @@ title: "SWISS BANK BTC"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.web2app.SWISS_BANK_BTC
 released: 2020-11-27
 updated: 2020-11-30

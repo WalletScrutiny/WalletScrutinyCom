@@ -9,9 +9,9 @@ appId: com.SatoshiTango.SatoshiTango
 released: 2015-06-24
 updated: 2021-10-14
 version: "4.2.3"
-stars: 3.6
-ratings: 5061
-reviews: 2873
+stars: 3.7
+ratings: 5073
+reviews: 2882
 size: 65M
 website: http://www.satoshitango.com
 repository: 

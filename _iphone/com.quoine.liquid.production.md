@@ -8,11 +8,11 @@ appId: com.quoine.liquid.production
 appCountry: us
 idd: 1443975079
 released: 2019-05-03
-updated: 2021-09-24
-version: "1.16.7"
+updated: 2021-10-17
+version: "1.17.0"
 stars: 4.12
 reviews: 25
-size: 109687808
+size: 110730240
 website: https://www.liquid.com
 repository: 
 issue: 

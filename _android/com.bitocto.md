@@ -10,8 +10,8 @@ released: 2019-07-18
 updated: 2021-10-08
 version: "3.11"
 stars: 4.3
-ratings: 1482
-reviews: 1199
+ratings: 1483
+reviews: 1200
 size: 5.3M
 website: https://bitocto.com/
 repository: 
