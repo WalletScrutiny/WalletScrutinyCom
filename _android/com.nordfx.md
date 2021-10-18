@@ -19,7 +19,7 @@ issue:
 icon: com.nordfx.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-05
+date: 2021-10-19
 signer: 
 reviewArchive:
 

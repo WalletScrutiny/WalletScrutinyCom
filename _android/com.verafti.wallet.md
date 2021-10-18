@@ -19,7 +19,7 @@ issue:
 icon: com.verafti.wallet.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-09-01
+date: 2021-10-19
 signer: 
 reviewArchive:
 

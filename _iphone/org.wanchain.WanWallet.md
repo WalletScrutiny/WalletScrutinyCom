@@ -19,7 +19,7 @@ issue:
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
 verdict: wip
-date: 2021-10-14
+date: 2021-10-19
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.bitpezapro.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-11
+date: 2021-10-19
 signer: 
 reviewArchive:
 
