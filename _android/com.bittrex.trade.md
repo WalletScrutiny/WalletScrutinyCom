@@ -9,9 +9,9 @@ appId: com.bittrex.trade
 released: 2019-12-19
 updated: 2021-10-14
 version: "1.15.5"
-stars: 4.2
-ratings: 2982
-reviews: 1426
+stars: 4.1
+ratings: 3028
+reviews: 1436
 size: 62M
 website: https://global.bittrex.com
 repository: 

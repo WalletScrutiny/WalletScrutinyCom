@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.app.asbazar59
 released: 2021-06-15
-updated: 2021-09-04
+updated: 2021-10-14
 version: "3.2"
 stars: 4.5
-ratings: 224
-reviews: 171
+ratings: 242
+reviews: 183
 size: 1.6M
 website: https://asbazar.com/
 repository: 

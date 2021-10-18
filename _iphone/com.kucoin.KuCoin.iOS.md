@@ -1,6 +1,6 @@
 ---
 wsId: kucoin
-title: "KuCoin"
+title: "KuCoin- Bitcoin Trade & Invest"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.kucoin.KuCoin.iOS
 appCountry: 
 idd: 1378956601
 released: 2018-05-14
-updated: 2021-10-01
-version: "3.41.2"
-stars: 3.94603
-reviews: 1853
-size: 121107456
+updated: 2021-10-16
+version: "3.42.0"
+stars: 3.93988
+reviews: 1863
+size: 134890496
 website: 
 repository: 
 issue: 

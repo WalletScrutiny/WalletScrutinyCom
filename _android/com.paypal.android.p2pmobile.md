@@ -1,6 +1,6 @@
 ---
 wsId: paypal
-title: "PayPal Mobile Cash: Send and Request Money Fast"
+title: "PayPal - Send, Shop, Manage"
 altTitle: 
 authors:
 - emanuel
@@ -11,8 +11,8 @@ released: 2016-02-19
 updated: 2021-10-12
 version: "8.4.3"
 stars: 4.3
-ratings: 2204412
-reviews: 857835
+ratings: 2207980
+reviews: 859338
 size: 117M
 website: https://www.paypal.com
 repository: 

@@ -10,8 +10,8 @@ released: 2017-08-31
 updated: 2021-10-08
 version: "3.47"
 stars: 3.3
-ratings: 309
-reviews: 201
+ratings: 310
+reviews: 202
 size: 6.4M
 website: https://www.sticpay.com/
 repository: 

@@ -10,7 +10,7 @@ released: 2019-01-10
 updated: 2021-10-06
 version: "1.16.5"
 stars: 3.0
-ratings: 645
+ratings: 647
 reviews: 397
 size: 60M
 website: https://www.liquid.com/

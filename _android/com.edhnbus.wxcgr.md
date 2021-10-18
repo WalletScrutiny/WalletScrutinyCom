@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Exodus Bitcoin & Ethereum- Crypto Exchange"
-altTitle: 
+altTitle: "(Fake) Exodus Bitcoin & Ethereum- Crypto Exchange"
 authors:
 - emanuel
 - leo

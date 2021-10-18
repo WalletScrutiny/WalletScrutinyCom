@@ -10,7 +10,7 @@ released: 2021-04-16
 updated: 2021-09-20
 version: "1.1.17"
 stars: 3.9
-ratings: 165
+ratings: 166
 reviews: 106
 size: 34M
 website: https://buycoins.africa/

@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.pro1trading
 released: 2020-11-24
-updated: 2021-08-26
-version: "1.0.23"
+updated: 2021-10-15
+version: "1.0.24"
 stars: 4.4
 ratings: 45
 reviews: 39

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Will Trade - forex  bitcoin gold stocks invest"
+title: "Will Trade - Crypto Forex Gold"
 altTitle: 
 authors:
 

@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Jaxx Liberty Bitcoin Wallet"
-altTitle: 
+altTitle: "(Fake) Jaxx Liberty Bitcoin Wallet"
 authors:
 - emanuel
 - leo

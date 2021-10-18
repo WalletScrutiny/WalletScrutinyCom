@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Crypto Wallets: Coinmama, Crypto.com Wallets"
-altTitle: 
+altTitle: "(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets"
 authors:
 - danny
 users: 500

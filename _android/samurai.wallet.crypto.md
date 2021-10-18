@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Samourai Bitcoin Wallet"
-altTitle: "Fake Samourai Bitcoin Wallet"
+altTitle: "(Fake) Samourai Bitcoin Wallet"
 authors:
 - emanuel
 - leo

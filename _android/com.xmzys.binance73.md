@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bian：Bitcoin Wallet-Virtual currency"
-altTitle: 
+altTitle: "(Fake) Bian：Bitcoin Wallet-Virtual currency"
 authors:
 - emanuel
 - leo

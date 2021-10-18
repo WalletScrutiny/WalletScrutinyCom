@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Chivo Wallet"
-altTitle: Fake Chivo Wallet
+altTitle: "(Fake) Chivo Wallet"
 authors:
 - leo
 users: 500

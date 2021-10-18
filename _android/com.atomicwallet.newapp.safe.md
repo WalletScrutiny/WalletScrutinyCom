@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Crypto Wallet & Atomic swap DEX"
-altTitle: 
+altTitle: "(Fake) Crypto Wallet & Atomic swap DEX"
 authors:
 - emanuel
 - leo
