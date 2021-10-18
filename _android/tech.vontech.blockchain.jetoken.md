@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: tech.vontech.blockchain.jetoken.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-18
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-10-09**: This app is no more.
