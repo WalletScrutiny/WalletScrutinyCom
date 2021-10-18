@@ -55,4 +55,4 @@ However, none of the repositories found in the Github account appear to be direc
 We contacted CoinCircle via their [official twitter account](https://twitter.com/dannybuntu/status/1448264820600426506) to ask them whether the project is opensource or not. We are still awaiting their response.
 
 ## Verdict
-While this is a **non-custodial** wallet, we have no source to verify this. The app is **not-verifiable**.
+While this claims to be a **non-custodial** wallet, we have no source to verify this. The app is **not-verifiable**.
