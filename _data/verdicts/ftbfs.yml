@@ -1,0 +1,16 @@
+short: Build Error!
+title: Failed to build from source provided!
+color: '#d33100'
+redflag: true
+message: We encountered a build error while compiling from source code!
+question: Is the compiled source code free from build errors?
+details: >
+  Published code doesn't help much if the app fails to compile.
+
+  Many apps don't have diffoscope / diff recursive brief output as the app failed 
+  to compile altogether.  
+  
+  
+  Listing the apps fitting this description in a seperate category entirely
+  may increase the chances of developers fixing the build issues as they are more
+  visible.

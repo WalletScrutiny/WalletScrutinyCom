@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2021-05-30
 signer: 
 reviewArchive:

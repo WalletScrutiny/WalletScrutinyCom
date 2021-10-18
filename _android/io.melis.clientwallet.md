@@ -18,7 +18,7 @@ repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2020-04-07
 signer: 
 reviewArchive:

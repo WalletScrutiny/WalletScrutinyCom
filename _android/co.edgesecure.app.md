@@ -18,7 +18,7 @@ repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2019-11-10
 signer: 
 reviewArchive:

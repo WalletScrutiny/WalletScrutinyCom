@@ -15,10 +15,10 @@ reviews:
 size: 8.1M
 website: 
 repository: 
-issue: 
+issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1
 icon: com.aniket.my_paper_wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: ftbfs
 date: 2021-03-08
 signer: 
 reviewArchive:

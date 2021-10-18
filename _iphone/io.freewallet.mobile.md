@@ -18,7 +18,7 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: obsolete
+verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -47,4 +47,4 @@ claims?
 
 On their website we find a link to their GitHub and from their to the mobile
 wallet's repository. There we find no claims of reproducibility and not even
-build isntructions, so this app is **not verifiable**.
+build instructions, so this app is **not verifiable**.

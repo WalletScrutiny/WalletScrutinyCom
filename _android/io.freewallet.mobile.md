@@ -18,7 +18,7 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: obsolete
+verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -49,7 +49,7 @@ wallets and we have reviewed three of those here, too:
 * [Lite HD Wallet – Your Coin Base](/org.freewallet.lite.android/) is probably
   also custodial, with only 500 downloads so far.
 
-He sais that his wallet is non-custodial and open source and indeed we see those
+He says that his wallet is non-custodial and open source and indeed we see those
 same claims on Google Play.
 
 On the website we read:
