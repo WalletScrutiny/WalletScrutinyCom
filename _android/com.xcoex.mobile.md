@@ -1,6 +1,6 @@
 ---
 wsId: XCOEX
-title: "XCOEX: Cryptocurrency Exchange & Blockchain Wallet"
+title: "XCOEX: Cryptocurrency Wallet"
 altTitle: 
 authors:
 - kiwilamb

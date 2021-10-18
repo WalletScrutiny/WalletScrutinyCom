@@ -9,9 +9,9 @@ appId: bitcoin.invest.crypto.app
 released: 2021-03-18
 updated: 2021-03-18
 version: "1.0"
-stars: 4.9
-ratings: 24
-reviews: 21
+stars: 4.7
+ratings: 25
+reviews: 22
 size: 7.5M
 website: 
 repository: 

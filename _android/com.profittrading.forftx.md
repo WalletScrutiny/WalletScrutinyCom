@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.profittrading.forftx
 released: 2021-08-25
-updated: 2021-10-11
-version: "1.0.10"
-stars: 4.6
-ratings: 10
+updated: 2021-10-14
+version: "1.0.11"
+stars: 4.4
+ratings: 13
 reviews: 5
 size: 23M
 website: https://profittradingapp.com/

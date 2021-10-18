@@ -10,8 +10,8 @@ released: 2020-06-30
 updated: 2021-09-09
 version: "1.0.5"
 stars: 4.0
-ratings: 139
-reviews: 62
+ratings: 142
+reviews: 64
 size: 66M
 website: https://www.lvl.co
 repository: 

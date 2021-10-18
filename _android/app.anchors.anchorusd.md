@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: app.anchors.anchorusd
 released: 2020-06-18
-updated: 2021-09-17
-version: "1.17.0"
-stars: 2.5
-ratings: 2389
-reviews: 748
+updated: 2021-10-12
+version: "1.17.1"
+stars: 2.4
+ratings: 2394
+reviews: 752
 size: 32M
 website: https://www.anchorusd.com/
 repository: 

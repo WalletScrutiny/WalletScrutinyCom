@@ -4,14 +4,14 @@ title: "BigoMex"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.bigomex.blockchain
 released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
-stars: 4.1
-ratings: 182
-reviews: 143
+stars: 4.5
+ratings: 220
+reviews: 175
 size: 10M
 website: 
 repository: 

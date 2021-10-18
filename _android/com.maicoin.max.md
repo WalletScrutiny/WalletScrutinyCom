@@ -9,9 +9,9 @@ appId: com.maicoin.max
 released: 2018-07-01
 updated: 2021-08-09
 version: "3.0.0"
-stars: 4.2
-ratings: 809
-reviews: 380
+stars: 4.1
+ratings: 811
+reviews: 381
 size: 58M
 website: https://max.maicoin.com/
 repository: 

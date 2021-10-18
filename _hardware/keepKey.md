@@ -5,8 +5,8 @@ authors:
 - leo
 released: 2014-08-01
 discontinued: # date
-updated: 2021-07-13
-version: 7.1.7
+updated: 2021-09-10
+version: 7.2.1
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions: [38, 93.5, 12.2]
 weight: 54
@@ -19,10 +19,14 @@ issue: https://github.com/keepkey/keepkey-firmware/issues/283
 icon: keepKey.png
 bugbounty: 
 verdict: reproducible
-date: 2021-07-31
+date: 2021-10-17
 signer: 
 reviewArchive:
-
+- date: 2021-07-31
+  version: "7.1.7"
+  appHash: 2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594
+  gitRevision: a85e2c7f21cf7c56d050ae09b4053e00c989e8c0
+  verdict: reproducible
 
 providerTwitter: ShapeShift_io
 providerLinkedIn: 
@@ -30,6 +34,28 @@ providerFacebook: ShapeShiftPlatform
 providerReddit: 
 ---
 
+
+Running
+[our script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh)
+on the latest version we get these results:
+
+```
+$ scripts/test/hardware/keepKey.sh 7.2.1
+...
+c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff  firmware.keepkey.bin
+dfa772aac4d9ae7d7afa4d1074bc43af1d943c19119a299f6682214490ef109e  -
+dfa772aac4d9ae7d7afa4d1074bc43af1d943c19119a299f6682214490ef109e  -
+```
+
+which is in this order the hash of the
+
+* signed binary
+* signed binary with signature overwritten with zeroes
+* our compiled binary with signature overwritten with zeroes
+
+The latter two matching means the firmware is **reproducible**.
+
+# Original Analysis with all our considerations
 
 **Update 2021-07-31**: Reid Rankin, a contributor to the project
 [replied](https://github.com/keepkey/keepkey-firmware/issues/283#issuecomment-888604838)

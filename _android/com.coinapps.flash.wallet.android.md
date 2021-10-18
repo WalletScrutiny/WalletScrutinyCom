@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.coinapps.flash.wallet.android.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-15
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-10-07**: This app is not on Play Store anymore.

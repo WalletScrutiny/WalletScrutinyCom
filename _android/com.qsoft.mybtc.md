@@ -9,9 +9,9 @@ appId: com.qsoft.mybtc
 released: 2021-06-05
 updated: 2021-06-05
 version: "1.0.0"
-stars: 4.5
-ratings: 30
-reviews: 23
+stars: 4.3
+ratings: 32
+reviews: 25
 size: 2.5M
 website: 
 repository: 

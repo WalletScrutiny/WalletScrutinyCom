@@ -4,7 +4,7 @@ title: "Excusd"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: excusd.com
 released: 2021-04-06
 updated: 2021-04-06

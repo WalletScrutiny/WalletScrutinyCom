@@ -12,7 +12,7 @@ version: "1.15.2"
 stars: 2.6
 ratings: 136
 reviews: 86
-size: 45M
+size: 5.2M
 website: https://tokenizemalaysia.com/
 repository: 
 issue: 

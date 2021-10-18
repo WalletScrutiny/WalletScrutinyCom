@@ -9,20 +9,24 @@ appId: com.kapitalrs.pro
 released: 2017-02-07
 updated: 2020-10-18
 version: "90.1.085"
-stars: 4.0
-ratings: 726
-reviews: 269
+stars: 3.9
+ratings: 729
+reviews: 271
 size: 5.6M
 website: https://www.kapitalrs.com
 repository: 
 issue: 
 icon: com.kapitalrs.pro.png
 bugbounty: 
-verdict: nobtc
-date: 2021-09-15
+verdict: stale
+date: 2021-10-14
 signer: 
 reviewArchive:
-
+- date: 2021-09-15
+  version: "90.1.085"
+  appHash: 
+  gitRevision: b9fc136cf1e643675475004241479f776599d7c5
+  verdict: nobtc
 
 providerTwitter: Kapital_RS
 providerLinkedIn: 

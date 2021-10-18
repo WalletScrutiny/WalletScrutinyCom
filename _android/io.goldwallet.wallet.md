@@ -10,8 +10,8 @@ released: 2020-02-18
 updated: 2021-08-24
 version: "Varies with device"
 stars: 3.7
-ratings: 483
-reviews: 274
+ratings: 486
+reviews: 277
 size: Varies with device
 website: https://bitcoinvault.global
 repository: 

@@ -18,16 +18,10 @@ repository:
 issue: 
 icon: pinurcoin.android.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-15
 signer: 
 reviewArchive:
-- date: 2021-08-08
-  version: "1.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: fewusers
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -37,4 +31,5 @@ redirect_from:
 
 ---
 
+**Update 2021-10-07**: This app is not on Play Store anymore.
 

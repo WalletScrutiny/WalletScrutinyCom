@@ -9,8 +9,8 @@ appId: com.tiim.gooptions
 released: 2017-08-04
 updated: 2021-09-30
 version: "1.4.2"
-stars: 4.2
-ratings: 181
+stars: 4.3
+ratings: 182
 reviews: 122
 size: 15M
 website: https://bolsa.app/

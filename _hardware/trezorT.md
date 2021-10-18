@@ -5,8 +5,8 @@ authors:
 - leo
 released: 2018-03-01
 discontinued: # date
-updated: 
-version: 2.3.6
+updated: 2021-09-08
+version: 2.4.2
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions: [64, 39, 10]
 weight: 22
@@ -19,10 +19,14 @@ issue:
 icon: trezorT.png
 bugbounty: 
 verdict: reproducible
-date: 2021-07-18
+date: 2021-10-16
 signer: 
 reviewArchive:
-
+- date: 2021-07-18
+  version: "2.3.6"
+  appHash: 0efa3ba6135caea7693d145d60441eeb46283fe0b8b1fd59a04af33a638ad237
+  gitRevision: 3c395a639e29e6fa51468e559fc1e88d6b9f0516
+  verdict: reproducible
 
 providerTwitter: trezor
 providerLinkedIn: 
@@ -30,6 +34,43 @@ providerFacebook: trezor.io
 providerReddit: TREZOR
 ---
 
+
+After manually testing prior versions, we now wrote a 
+[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorT.sh).
+
+Here is it's condensed output:
+
+```
+$ ./scripts/test/hardware/trezorT.sh 2.4.2
+...
+Firmware size 45752 bytes
+Firmware fingerprint: 6899cddc271a89fda4fc0666e9e3924f1d61ace891f4feb1aceb9a428fa731cb
+Slot #1 is empty
+Slot #2 is empty
+Slot #3 is empty
+HASHES OK
+make: Leaving directory '/tmp/trezor-firmware/legacy/intermediate_fw'
+Fingerprints:
+54ccf155510b5292bd17ed748409d0d135112e24e62eb74184639460beecb213 build/core/firmware/firmware.bin
+60fee3c9775d8ccf71099f6f7d277463efd128414cfb9be45656b1a26eeb7301 build/core-bitcoinonly/firmware/firmware.bin
+14438fe4727ddc3153fa3c1aff2ced8867322aa54a0eb0277800e54cda488f50 build/legacy/firmware/firmware.bin
+02f112cc2dda68ed19c7dbd71780e8dc7e749c2cadd645be6398c4762a8adf0f build/legacy-bitcoinonly/firmware/firmware.bin
+
+Hash of non-signature parts downloaded/compiled:
+65+0 records in
+65+0 records out
+65 bytes copied, 0.000129905 s, 500 kB/s
+67946dee311e4606c468fe2e529530c363ee633c7f2ef965ddaa4688b6c31c4e  trezor-2.4.2.bin.zeroed
+67946dee311e4606c468fe2e529530c363ee633c7f2ef965ddaa4688b6c31c4e  build/core/firmware/firmware.bin
+
+Hash of the signed firmware:
+1fa3d062251685dc8bebd0b15ed622441ca3778281a652d601548ed29287e29d  trezor-2.4.2.bin
+```
+
+This looks good. The compile version only differs in 64 bytes - the signature -
+from the downloaded version. This firmware is **reproducible**.
+
+# Original Analysis with discussion of details
 
 After reviewing their
 {% include walletLink.html wallet='hardware/trezorOne' verdict=true %},

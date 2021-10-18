@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ex.exchange808
 released: 2021-02-03
-updated: 2021-10-06
-version: "2.0.4"
+updated: 2021-10-15
+version: "2.0.7"
 stars: 4.3
-ratings: 163
-reviews: 95
-size: 7.0M
+ratings: 168
+reviews: 97
+size: 7.1M
 website: 
 repository: 
 issue: 

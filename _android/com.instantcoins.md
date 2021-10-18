@@ -9,9 +9,9 @@ appId: com.instantcoins
 released: 2020-06-19
 updated: 2021-04-05
 version: "1.0.6"
-stars: 3.4
-ratings: 181
-reviews: 140
+stars: 3.5
+ratings: 183
+reviews: 142
 size: 26M
 website: 
 repository: 

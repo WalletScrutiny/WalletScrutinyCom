@@ -4,7 +4,7 @@ title: "Dreambit"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.dreambit
 released: 2021-02-16
 updated: 2021-09-10
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.dreambit.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-01
 signer: 
 reviewArchive:
