@@ -9,9 +9,9 @@ appId: com.coinmotion
 released: 2020-08-20
 updated: 2021-09-15
 version: "1.5.1"
-stars: 3.5
-ratings: 103
-reviews: 59
+stars: 3.4
+ratings: 104
+reviews: 60
 size: 35M
 website: 
 repository: 

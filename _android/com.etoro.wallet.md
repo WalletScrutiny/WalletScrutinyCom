@@ -11,8 +11,8 @@ released: 2018-11-27
 updated: 2021-10-10
 version: "33.0.0"
 stars: 2.7
-ratings: 919
-reviews: 616
+ratings: 921
+reviews: 617
 size: 12M
 website: https://www.etoro.com/crypto/wallet
 repository: 

@@ -10,8 +10,8 @@ released: 2018-05-31
 updated: 2021-07-16
 version: "2.0.2"
 stars: 4.7
-ratings: 14737
-reviews: 6873
+ratings: 14742
+reviews: 6876
 size: 32M
 website: https://pay98.app
 repository: 

@@ -10,7 +10,7 @@ released: 2018-05-19
 updated: 2021-09-23
 version: "3.40.1"
 stars: 4.0
-ratings: 164
+ratings: 165
 reviews: 71
 size: 35M
 website: https://alphawallet.com/

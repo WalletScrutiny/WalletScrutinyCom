@@ -10,7 +10,7 @@ released: 2017-10-17
 updated: 2021-10-13
 version: "2.0.5"
 stars: 3.6
-ratings: 241
+ratings: 242
 reviews: 119
 size: 121M
 website: https://www.iconomi.com/

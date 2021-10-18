@@ -11,7 +11,7 @@ updated: 2021-08-05
 version: "1.15.8"
 stars: 3.0
 ratings: 3122
-reviews: 910
+reviews: 911
 size: 12M
 website: https://spectrocoin.com
 repository: 

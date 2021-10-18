@@ -4,7 +4,7 @@ title: "Copay Wallet Mobile"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.ddcday.wallex
 released: 2021-09-09
 updated: 2021-09-09

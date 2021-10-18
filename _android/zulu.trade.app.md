@@ -10,7 +10,7 @@ released: 2011-03-04
 updated: 2021-08-09
 version: "4.23.5"
 stars: 4.2
-ratings: 1833
+ratings: 1834
 reviews: 597
 size: 34M
 website: https://www.zulutrade.com/
