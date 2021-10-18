@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-The regulated cryptocurrency exchange allows the _"trading of Bitcoin, Ethereum, NMX, Link, Tezos, Cardano, BNB and many other cryptocurrencies WITHOUT any fees."_
+The cryptocurrency exchange allows the _"trading of Bitcoin, Ethereum, NMX, Link, Tezos, Cardano, BNB and many other cryptocurrencies WITHOUT any fees."_
 
 There is no need for KYC for withdrawals and deposits of less than 3 BTC per day.
 
