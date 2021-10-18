@@ -36,7 +36,7 @@ redirect_from:
 
 ## Google Play App Description
 
-🚩 It appears that the app is describing the Coinbase app. 
+🚩 It appears that the app is describing the Coinbase app.<br>
 🚩 This app is using another company's trademark
 
 > This application gives you ideas about the app in detail. Use and give us feedback.
