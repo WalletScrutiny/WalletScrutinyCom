@@ -19,7 +19,7 @@ issue:
 icon: com.tiim.tradeon.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-13
+date: 2021-10-18
 signer: 
 reviewArchive:
 

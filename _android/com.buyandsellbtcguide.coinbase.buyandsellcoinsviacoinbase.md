@@ -19,7 +19,7 @@ issue:
 icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-10-18
 signer: 
 reviewArchive:
 

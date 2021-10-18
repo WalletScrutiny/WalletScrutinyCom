@@ -19,7 +19,7 @@ issue:
 icon: com.investlite.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-05
+date: 2021-10-18
 signer: 
 reviewArchive:
 

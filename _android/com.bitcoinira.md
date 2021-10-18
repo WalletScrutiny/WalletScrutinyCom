@@ -19,7 +19,7 @@ issue:
 icon: com.bitcoinira.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-10-18
 signer: 
 reviewArchive:
 

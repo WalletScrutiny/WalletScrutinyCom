@@ -19,7 +19,7 @@ issue:
 icon: com.nominex.app.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-13
+date: 2021-10-18
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.ocean.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-10-18
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: ru.borik.cryptomarket.android.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-05
+date: 2021-10-18
 signer: 
 reviewArchive:
 
