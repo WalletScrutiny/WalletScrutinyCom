@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "India: Crypto Exchange (Buy & Sell Cryptocurrency)"
+title: "India: Crypto Exchange App"
 altTitle: 
 authors:
 

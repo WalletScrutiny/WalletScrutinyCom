@@ -8,7 +8,7 @@ authors:
 users: 1000
 appId: it.inbitcoin.altana
 released: 2017-04-18
-updated: 2021-10-06
+updated: 2021-10-14
 version: "Varies with device"
 stars: 4.2
 ratings: 50

@@ -9,9 +9,9 @@ appId: com.bytetrade.bytehub
 released: 2019-02-02
 updated: 2021-09-09
 version: "1.4.3.210909"
-stars: 4.6
-ratings: 7153
-reviews: 4309
+stars: 4.5
+ratings: 7156
+reviews: 4315
 size: 29M
 website: https://www.bytetrade.io/
 repository: 

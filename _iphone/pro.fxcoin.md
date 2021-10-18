@@ -10,7 +10,7 @@ idd: 1282340909
 released: 2017-11-03
 updated: 2020-03-05
 version: "1.11"
-stars: 3.57426
+stars: 3.55446
 reviews: 202
 size: 118948864
 website: https://tsallgoodltd.com

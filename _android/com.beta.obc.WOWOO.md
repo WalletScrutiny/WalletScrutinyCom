@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.beta.obc.WOWOO
 released: 2020-01-02
-updated: 2021-08-09
-version: "2.0.1"
+updated: 2021-10-13
+version: "2.1.0"
 stars: 0.0
 ratings: 
 reviews: 
-size: 14M
+size: 24M
 website: 
 repository: 
 issue: 

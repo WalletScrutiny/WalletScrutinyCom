@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.m3.Trendo.png
 bugbounty: 
-verdict: nowallet
-date: 2021-10-01
+verdict: defunct
+date: 2021-10-15
 signer: 
 reviewArchive:
-
+- date: 2021-10-01
+  version: "2.5.42"
+  appHash: 
+  gitRevision: 8601f531a9b3352939739447796fad666f17ccd4
+  verdict: nowallet
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +37,7 @@ providerReddit:
 redirect_from:
 
 ---
+**Update 2021-10-07**: This app is not on Play Store anymore.
 
 
 From its Google Play app summary:

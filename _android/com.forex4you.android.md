@@ -9,8 +9,8 @@ appId: com.forex4you.android
 released: 2015-10-06
 updated: 2021-10-05
 version: "Varies with device"
-stars: 3.8
-ratings: 2406
+stars: 3.9
+ratings: 2407
 reviews: 954
 size: Varies with device
 website: https://www.forex4you.com/en/

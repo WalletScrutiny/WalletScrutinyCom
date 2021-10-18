@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Will Trade - forex  bitcoin gold stocks invest"
+title: "Will Trade - Crypto Forex Gold"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: com.willtrade.trading
 released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
-stars: 4.4
-ratings: 14
-reviews: 8
+stars: 4.6
+ratings: 18
+reviews: 10
 size: 13M
 website: 
 repository: 

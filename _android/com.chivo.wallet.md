@@ -9,9 +9,9 @@ appId: com.chivo.wallet
 released: 
 updated: 2021-09-07
 version: "1.1.0"
-stars: 2.8
-ratings: 10270
-reviews: 6480
+stars: 2.9
+ratings: 10732
+reviews: 6751
 size: 59M
 website: https://chivowallet.com/
 repository: 

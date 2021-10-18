@@ -8,11 +8,11 @@ appId: com.mercuryo.app
 appCountry: 
 idd: 1446533733
 released: 2019-02-08
-updated: 2021-10-12
-version: "1.75"
-stars: 4.72879
-reviews: 601
-size: 35490816
+updated: 2021-10-13
+version: "1.76"
+stars: 4.72231
+reviews: 605
+size: 35531776
 website: https://mercuryo.io/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.kardiachain.wallet
 appCountry: vn
 idd: 1551620695
 released: 2021-03-02
-updated: 2021-09-29
-version: "2.3.33"
-stars: 4.39655
-reviews: 58
-size: 70543360
+updated: 2021-10-13
+version: "2.3.34"
+stars: 4.36066
+reviews: 61
+size: 70035456
 website: https://kardiachain.io/
 repository: 
 issue: 

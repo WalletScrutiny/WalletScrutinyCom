@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.spot.spot
 released: 2018-08-02
-updated: 2021-10-06
-version: "4.39.1.2772-8a1db032"
+updated: 2021-10-13
+version: "4.40.1"
 stars: 4.3
-ratings: 4214
-reviews: 2021
+ratings: 4222
+reviews: 2025
 size: 75M
 website: https://www.spot-bitcoin.com
 repository: 

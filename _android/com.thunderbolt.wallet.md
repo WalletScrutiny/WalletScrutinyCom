@@ -4,7 +4,7 @@ title: "Thunderbolt - Bitcoin and Lightning Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.thunderbolt.wallet
 released: 2021-08-29
 updated: 2021-08-29

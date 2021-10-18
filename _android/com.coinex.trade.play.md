@@ -4,14 +4,14 @@ title: "CoinEx - A Trustworthy Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.coinex.trade.play
 released: 2019-12-27
 updated: 2021-09-26
 version: "3.2.2"
 stars: 4.6
-ratings: 38261
-reviews: 11904
+ratings: 38453
+reviews: 11968
 size: 16M
 website: https://www.coinex.co
 repository: 

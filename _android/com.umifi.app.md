@@ -7,8 +7,8 @@ authors:
 users: 500
 appId: com.umifi.app
 released: 2021-08-18
-updated: 2021-08-19
-version: "1.0.0"
+updated: 2021-10-14
+version: "1.0.5"
 stars: 4.8
 ratings: 53
 reviews: 32

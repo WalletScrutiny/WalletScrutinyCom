@@ -9,9 +9,9 @@ appId: com.app.coinloan
 released: 2019-11-28
 updated: 2021-09-23
 version: "Varies with device"
-stars: 4.3
-ratings: 230
-reviews: 112
+stars: 4.4
+ratings: 233
+reviews: 114
 size: Varies with device
 website: https://coinloan.io/
 repository: 

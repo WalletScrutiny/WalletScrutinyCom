@@ -4,7 +4,7 @@ title: "Ariomex"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.ariomex.app
 released: 2020-09-10
 updated: 2020-09-10

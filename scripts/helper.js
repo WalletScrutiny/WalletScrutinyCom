@@ -58,7 +58,7 @@ function getMasterHead() {
 
 function addDefunctIfNew(id) {
   const line = `- ${id}\n`
-  const defunctFile = '_pages/defunct.yaml'
+  const defunctFile = '_data/defunct.yaml'
   const defuncts = fs.readFileSync(defunctFile, 'utf8')
   if (!defuncts.match(line)) {
     // newly defunct

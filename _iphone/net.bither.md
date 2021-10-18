@@ -8,8 +8,8 @@ appId: net.bither
 appCountry: 
 idd: 899478936
 released: 2014-07-25
-updated: 2021-07-05
-version: "2.0.1"
+updated: 2021-10-13
+version: "2.0.2"
 stars: 2.92683
 reviews: 41
 size: 16916480

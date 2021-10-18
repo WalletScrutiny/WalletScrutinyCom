@@ -11,15 +11,15 @@ updated: 2020-10-18
 version: "1.0.22"
 stars: 4.4
 ratings: 45
-reviews: 22
+reviews: 23
 size: 3.2M
 website: 
 repository: 
 issue: 
 icon: com.paperwallet.top.png
 bugbounty: 
-verdict: wip
-date: 2021-04-13
+verdict: stale
+date: 2021-10-14
 signer: 
 reviewArchive:
 

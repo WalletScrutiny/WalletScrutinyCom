@@ -4,7 +4,7 @@ title: "CrossTower Crypto Wallet. Buy & Sell Bitcoin"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.ctower.wallet
 released: 
 updated: 2021-03-31

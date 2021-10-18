@@ -4,14 +4,14 @@ title: "Bitcointoyou Pro"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.pro.bitcointoyou
 released: 2019-10-31
 updated: 2021-09-14
 version: "0.0.187"
-stars: 3.7
-ratings: 1190
-reviews: 725
+stars: 3.6
+ratings: 1194
+reviews: 729
 size: 58M
 website: https://www.bitcointoyou.com
 repository: 

@@ -9,8 +9,8 @@ appId: com.abbc.abbcmobile
 released: 2019-08-08
 updated: 2020-03-24
 version: "1.3.3"
-stars: 4.1
-ratings: 625
+stars: 4.0
+ratings: 626
 reviews: 423
 size: 4.5M
 website: 

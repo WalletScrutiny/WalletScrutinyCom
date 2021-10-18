@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: io.xbond.droidapp
 released: 2021-08-14
-updated: 2021-08-14
-version: "1.0"
+updated: 2021-10-14
+version: "1.1"
 stars: 0.0
 ratings: 
 reviews: 

@@ -9,9 +9,9 @@ appId: com.cloudminingespapp.espapp
 released: 2021-09-08
 updated: 2021-09-08
 version: "1.0"
-stars: 1.8
-ratings: 12
-reviews: 10
+stars: 1.7
+ratings: 13
+reviews: 11
 size: 4.7M
 website: 
 repository: 
