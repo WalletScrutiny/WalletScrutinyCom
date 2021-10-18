@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 
-⚠️ **Caution**: this app does not have developer information apart from Crypt Financial Services. It also did not list its 'Website' on Google Play. While these do not constitute in, and of themselves, evidence of any wrongdoing, it does raise questions about the app itself. We advise users to take extra pre-cautionary measures when installing this app.   
+⚠️ **Caution**: this app does not have developer information apart from "Crypt Financial Services". It also did not list its 'Website' on Google Play. While these do not constitute in and of themselves evidence of any wrongdoing, it does raise questions about the app itself. We advise users to take extra precautionary measures when installing this app.   
 
 ## App Description
 
@@ -44,10 +44,10 @@ The developer of the wallet is ["CryptWallet - Finance Services"](https://play.g
 
 The Google Play description lists the following features for the app: 
 
-> ✔️ Visualization of the portfolio balance in Bitcoin and in other currencies.
-✔️ Sending and receiving bitcoins through NFC, QR codes or Bitcoin URL.
-✔️ Address book to store commonly used Bitcoin addresses.
-✔️ Transactions can be carried out offline, executing when the connection is recovered
+> ✔️ Visualization of the portfolio balance in Bitcoin and in other currencies.<br>
+  ✔️ Sending and receiving bitcoins through NFC, QR codes or Bitcoin URL.<br>
+  ✔️ Address book to store commonly used Bitcoin addresses.<br>
+  ✔️ Transactions can be carried out offline, executing when the connection is recovered
 
 ### Google Play Reviews
 

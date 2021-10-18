@@ -28,7 +28,6 @@ providerTwitter: token_vera
 providerLinkedIn: vera-token-74a925218
 providerFacebook: 
 providerReddit: 
-	
 redirect_from:
 
 ---

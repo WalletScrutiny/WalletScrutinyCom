@@ -80,10 +80,10 @@ You are also expected to input:
 
 They've responded to our web-chat query:
 
-> Hello
-BTC wallet Server 500
-Do not use your BTC wallet sir
-We are working on it
+> Hello<br>
+BTC wallet Server 500<br>
+Do not use your BTC wallet sir<br>
+We are working on it<br>
 Broken? Okay.
 
 <hr>

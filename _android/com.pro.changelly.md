@@ -58,7 +58,7 @@ There is also an article [on KYC verification.](https://support.changelly.com/en
 
 > In the event of termination, Company will return any crypto assets **stored in your Account** and not owed to Company, unless Company believes you have committed fraud, negligence or other misconduct.
 
-This means the Company is in charge of the user's assets.
+This means the company is in charge of the user's assets.
 
 ## Verdict
 This app is **custodial** and thus  **not verifiable.**

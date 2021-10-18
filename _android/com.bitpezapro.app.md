@@ -58,12 +58,10 @@ Out of 105 reviews, it has garnered 4.2 stars. Here are a few of the most helpfu
 
 The Terms and Conditions of the site indicate a termination clause
 
-> Suspension, Termination and Cancellation. We may: 
-(a) refuse to complete, or block, cancel or reverse a transaction you have authorised (even after funds have been debited from your Bekonta Account),
-
-(b) suspend, restrict, or terminate your access to any or all of the Bekonta Services, and/or
-
-(c) deactivate or cancel your Bekonta Account with immediate effect for any reason, including but not limited to where:
+> Suspension, Termination and Cancellation. We may:<br>
+  (a) refuse to complete, or block, cancel or reverse a transaction you have authorised (even after funds have been debited from your Bekonta Account),<br>
+  (b) suspend, restrict, or terminate your access to any or all of the Bekonta Services, and/or<br>
+  (c) deactivate or cancel your Bekonta Account with immediate effect for any reason, including but not limited to where:
 
 ## The App
 

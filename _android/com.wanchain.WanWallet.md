@@ -51,4 +51,4 @@ We chose to create a wallet and were asked to enter a password. Then, we are pro
 
 Wanchain has a Github account with repositories for apps and SDKs. Their [**repository for the desktop wallet**](https://github.com/wanchain/wan-wallet-desktop) is publicly available source code with build instructions.
 
-At the moment, we will wait for the source-code to be tested and proved reproducible before making a verdict.
+At the moment, we will [wait for the source-code to be tested](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/354) and proved reproducible before making a verdict.
