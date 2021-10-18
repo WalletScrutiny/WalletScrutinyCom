@@ -9,9 +9,9 @@ appId: com.nano.moonxbt
 released: 2021-05-11
 updated: 2021-09-26
 version: "2.2.1"
-stars: 4.0
-ratings: 232
-reviews: 196
+stars: 3.9
+ratings: 234
+reviews: 197
 size: 33M
 website: 
 repository: 

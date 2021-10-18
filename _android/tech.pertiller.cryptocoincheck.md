@@ -9,8 +9,8 @@ appId: tech.pertiller.cryptocoincheck
 released: 2018-04-05
 updated: 2018-10-26
 version: "1.6.0"
-stars: 4.4
-ratings: 62
+stars: 4.3
+ratings: 63
 reviews: 23
 size: 3.7M
 website: 

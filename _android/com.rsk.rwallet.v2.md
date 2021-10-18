@@ -4,7 +4,7 @@ title: "RWallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.rsk.rwallet.v2
 released: 2021-04-27
 updated: 2021-06-30
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-06-19
 signer: 
 reviewArchive:

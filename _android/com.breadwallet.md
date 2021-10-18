@@ -10,7 +10,7 @@ released: 2016-07-21
 updated: 2021-09-27
 version: "4.13.0"
 stars: 4.2
-ratings: 33098
+ratings: 33100
 reviews: 12950
 size: 31M
 website: https://brd.com

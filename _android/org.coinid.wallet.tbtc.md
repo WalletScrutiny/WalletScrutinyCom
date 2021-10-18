@@ -9,9 +9,9 @@ appId: org.coinid.wallet.tbtc
 released: 2019-02-06
 updated: 2021-02-20
 version: "1.8.0"
-stars: 3.4
-ratings: 5
-reviews: 2
+stars: 3.0
+ratings: 6
+reviews: 3
 size: 34M
 website: 
 repository: 

@@ -9,10 +9,10 @@ appCountry: us
 idd: 1443975079
 released: 2019-05-03
 updated: 2021-10-17
-version: "1.17.0"
+version: "1.17.1"
 stars: 4.12
 reviews: 25
-size: 110730240
+size: 110734336
 website: https://www.liquid.com
 repository: 
 issue: 

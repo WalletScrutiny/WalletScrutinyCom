@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: ng.crytopay.pwa.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: stale
+date: 2021-10-18
 signer: 
 reviewArchive:
 

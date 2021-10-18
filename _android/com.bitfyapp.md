@@ -10,8 +10,8 @@ released: 2019-10-14
 updated: 2021-10-05
 version: "3.10.17"
 stars: 4.0
-ratings: 1007
-reviews: 660
+ratings: 1008
+reviews: 662
 size: 32M
 website: https://bitfy.app
 repository: 

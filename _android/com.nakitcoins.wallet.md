@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.nakitcoins.wallet
 released: 2021-03-30
-updated: 2021-08-13
-version: "1.1.7"
+updated: 2021-10-17
+version: "1.1.8"
 stars: 4.7
 ratings: 14
 reviews: 7
-size: 29M
+size: 30M
 website: 
 repository: 
 issue: 
