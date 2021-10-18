@@ -15,10 +15,10 @@ reviews: 62
 size: 13M
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
-issue: 
+issue: https://github.com/bitriel/bitriel-wallet/issues/26
 icon: com.selendra.secure_wallet.png
 bugbounty: 
-verdict: wip
+verdict: nonverifiable
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -107,5 +107,5 @@ The mnemonic provided upon opening the app seems to be for the entire wallet whi
 
 The bitriel repository seems to have been forked from Selendra which explains why in some cases bitriel is referred to as Selendra. We were only able to find the repository on github by searching as we were not able to find a direct link from the app's homepage. 
 
-This app requires further verification.
-
+### Verification
+[We were **not able to verify** this app.](https://github.com/bitriel/bitriel-wallet/issues/26)

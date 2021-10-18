@@ -15,10 +15,10 @@ reviews: 63
 size: 54M
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
-issue: 
+issue: https://github.com/QuarkChain/QPocket-Android/issues/2
 icon: com.quarkonium.qpocket.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -52,4 +52,9 @@ In the official website, QPocket says that it has the capability to support mult
 We tried the app. We were provided with the 12-word mnemonic and then asked to save it.
 
 ## Verdict
-At the moment, before we can make a verdict on this app, we will wait for the code to be reviewed.
+### Verification
+
+The repositories last commit is from "Jun 18, 2020" and contains only 5 commits for version 5.3.1.
+On the other hand, the google play app was last updated in May 6, 2021, at version 5.4.2 and has had several versions before that.
+
+Unfortunately, as this source code is outdated, we cannot verify this app. 

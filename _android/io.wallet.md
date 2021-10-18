@@ -77,6 +77,8 @@ We then created a wallet password.
 
 It consists of a QR code and a downloadable file, which you can choose: PDF or Zip. The file can be password protected with a 4-digit pin.
 
+Note that 4-digit pins are NOT a secure solution if the pin is still stored on their servers.
+
 ## Verdict
 
 This app is **self-custodial**, but the source code is **not verifiable**.

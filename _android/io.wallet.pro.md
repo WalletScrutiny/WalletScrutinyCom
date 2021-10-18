@@ -76,7 +76,7 @@ We then filled up the following fields:
 
 ## Contact
 
-We were able to locate their github, but it only has 6 contributions in the last year. 
+We were able to locate their github, but as of this moment, it seems to be outdated, with only six commits in the past year. Additionally, no repositories were related to wallet.io's mobile app.
 
 ## Verdict
 

@@ -44,6 +44,8 @@ This app is an exchange.
 
 The app developer is listed as "Remitty LLC," and has developed two other apps with neither of them involved in cryptocurrencies.
 
+Notably, many of the 5-star reviews only state things such as "nice app" or "Awesome" while many different 1-star reviews say that the app is fake or a scam.
+
 ## The Site
 
 The official site is fairly small and only has a few pages worth noting. The link to the IOS app does not work.
