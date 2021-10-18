@@ -44,7 +44,7 @@ The homepage provided some more information, from **Why Cointral?**:
 
 > Secure Cold Wallet - The security of your cryptocurrencies is protected with a high level of security with offline cold wallets.
 
-In a cold wallet, assets are stored offline A majority of cold wallets tend to be custodial.
+As those "offline cold wallets" are with them and not with you, they hold your assets on your behalf.
 
 For more concrete evidence, we took a look at the User Agreement. **Article 8, on the Suspension of Service**:
 

@@ -53,5 +53,5 @@ Keep your crypto safe and access your funds seamlessly with the Bityard.US multi
 
 ## Verdict
 
-This is a cryptocurrency exchange with KYC, termination clauses that bar access to the service and therefore the wallets of the user. Therefore it is **custodial** and the app **cannot be verified.**
+This is a cryptocurrency exchange with KYC, termination clauses that bar access to the service and therefore it is **custodial** and  **cannot be verified.**
 

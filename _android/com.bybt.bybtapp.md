@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 
-**Note: The app's logo and name bears a slight resemblance with another app:
+**Note**: The app's logo and name bears a slight resemblance with another app:
 
 {% include walletLink.html wallet='android/com.bybit.app' verdict='true' %}
 

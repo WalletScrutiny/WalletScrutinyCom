@@ -46,7 +46,7 @@ The app developer is listed as "Remitty LLC," and has developed two other apps w
 
 ## The Site
 
-The official site is fairly small and only has a few pages worth noting. Even the app to the IOS version does not work.
+The official site is fairly small and only has a few pages worth noting. The link to the IOS app does not work.
 
 ### User Agreement
 
