@@ -1,0 +1,37 @@
+---
+wsId: AjGlobalV
+title: "AJGlobalV"
+altTitle: 
+authors:
+- danny
+appId: com.rinnas.ajGlobal
+appCountry: us
+idd: 1519859460
+released: 2020-09-08
+updated: 2021-03-12
+version: "2.0.3"
+stars: 3.55556
+reviews: 18
+size: 79514624
+website: https://ajglobalv.com/
+repository: 
+issue: 
+icon: com.rinnas.ajGlobal.jpg
+bugbounty: 
+verdict: custodial
+date: 2021-10-15
+signer: 
+reviewArchive:
+
+
+providerTwitter: ajglobalv
+providerLinkedIn: 
+providerFacebook: AJGLOBALVENTURES
+providerReddit:  
+
+redirect_from:
+
+---
+
+
+{% include copyFromAndroid.html %}
