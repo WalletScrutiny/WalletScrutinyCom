@@ -44,7 +44,7 @@ It also allows the transfer of funds between Bekonta user to any Naira bank acco
 
 ### Google Play Critical Reviews
 
-Out of 105 reviews, it has garnered 4.2 stars. Here are a few of the most helpful critical reviews.
+Here are a few of the most helpful critical reviews.
 
 > [francis Elechi](https://play.google.com/store/apps/details?id=com.bitpezapro.app&reviewId=gp%3AAOqpTOHTfdlN4HTxwLLqBNZsNVSVhkXvYwwzx5rQYLgf-v0sDKolKaRE201ineUIuoHuPMuBeifo4kcZjTDyZw)<br>
   ★☆☆☆☆ September 23, 2021 <br>

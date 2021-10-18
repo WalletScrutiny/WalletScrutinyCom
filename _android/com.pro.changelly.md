@@ -45,7 +45,7 @@ Here is its claim on security:
 
 However, nothing else really indicates the prescence of a crypto wallet.
 
-It is related to {% include walletLink.html wallet='android/com.changelly.app/' verdict='true' %}, a **decentralized** exchange.
+It is related to {% include walletLink.html wallet='android/com.changelly.app/' verdict='true' %}, an exchange that claimed to be non-custodial as it only held funds for the purpose of exchanging them. This seems not to be the case for Changelly PRO.
 
 ## The Site
 On the site, [one page has instructions](https://support.changelly.com/en/support/solutions/articles/14000111647-how-to-withdraw-funds-step-by-step-) for withdrawing funds on Changelly PRO.

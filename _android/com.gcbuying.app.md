@@ -88,8 +88,6 @@ Broken? Okay.
 
 <hr>
 
-We also asked on [twitter]([twitter](https://twitter.com/BitcoinWalletz/status/1448544667956514829))
-
 ## Verdict
 
 **Word of Caution:** Although there is a lot of positive reviews on Google Play, there is also a growing number of critical reviews. We strongly advise users to do more in-depth due-diligence when they transact with this service. 
