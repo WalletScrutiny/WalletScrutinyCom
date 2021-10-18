@@ -19,7 +19,7 @@ issue:
 icon: com.coinmotion.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-10-19
 signer: 
 reviewArchive:
 

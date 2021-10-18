@@ -19,7 +19,7 @@ issue:
 icon: com.rinnas.aj_global.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-10-19
 signer: 
 reviewArchive:
 

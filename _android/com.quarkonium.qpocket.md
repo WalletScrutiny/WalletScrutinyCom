@@ -19,7 +19,7 @@ issue: https://github.com/QuarkChain/QPocket-Android/issues/2
 icon: com.quarkonium.qpocket.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-10-19
 signer: 
 reviewArchive:
 

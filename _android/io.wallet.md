@@ -19,7 +19,7 @@ issue:
 icon: io.wallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-06-18
+date: 2021-10-19
 signer: 
 reviewArchive:
 

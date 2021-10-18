@@ -19,7 +19,7 @@ issue:
 icon: com.cointral.exchange.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-15
+date: 2021-10-19
 signer: 
 reviewArchive:
 

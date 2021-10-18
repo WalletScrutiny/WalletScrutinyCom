@@ -19,7 +19,7 @@ issue:
 icon: io.bottrex.starter.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-10-19
 signer: 
 reviewArchive:
 

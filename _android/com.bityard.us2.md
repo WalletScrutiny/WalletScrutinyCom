@@ -19,7 +19,7 @@ issue:
 icon: com.bityard.us2.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-19
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-08-21
+date: 2021-10-19
 signer: 
 reviewArchive:
 
