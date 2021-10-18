@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Ja­xx Lib­erty: Crypto Wallet"
-altTitle: 
+altTitle: "(Fake) Jaxx Lib­erty: Crypto Wallet"
 authors:
 - leo
 users: 500

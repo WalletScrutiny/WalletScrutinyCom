@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "CoinHub - Blockchain Wallet"
-altTitle: 
+altTitle: "(Fake) CoinHub - Blockchain Wallet"
 authors:
 
 users: 10000

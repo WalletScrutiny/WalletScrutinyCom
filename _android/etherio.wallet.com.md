@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
-altTitle: 
+altTitle: "(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 authors:
 
 users: 10

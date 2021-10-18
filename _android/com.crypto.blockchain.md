@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Blockchain India"
-altTitle: 
+altTitle: "(Fake) Blockchain India"
 authors:
 - emanuel
 - leo

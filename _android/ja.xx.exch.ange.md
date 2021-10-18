@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Jaxx Liberty Bitcoin & Ethereum"
-altTitle: 
+altTitle: "(Fake) Jaxx Liberty Bitcoin & Ethereum"
 authors:
 - leo
 users: 50

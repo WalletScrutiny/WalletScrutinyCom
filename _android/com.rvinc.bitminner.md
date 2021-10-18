@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Chivo -  Chivo Bitcoin"
-altTitle: 
+altTitle: "(Fake) Bitcoin Chivo -  Chivo Bitcoin"
 authors:
 
 users: 50
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rvinc.bitminner.jpg
 bugbounty: 
-verdict: fewusers
+verdict: fake
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -34,3 +34,9 @@ redirect_from:
 ---
 
 
+This scammer couldn't decide if he wanted to fool the users of
+{% include walletLink.html wallet='android/com.chivo.wallet' verdict='true' %}
+or the users of
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}.
+
+They just used the name of the former (sort of) and screenshots of the latter.

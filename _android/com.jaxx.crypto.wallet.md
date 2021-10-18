@@ -1,9 +1,9 @@
 ---
 wsId: 
 title: "Ja­xx Lib­erty: Crypto Wallet"
-altTitle: 
+altTitle: "(Fake) Ja­xx Lib­erty: Crypto Wallet"
 authors:
-
+- leo
 users: 1
 appId: com.jaxx.crypto.wallet
 released: 2021-10-11
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.jaxx.crypto.wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: fake
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -34,3 +34,5 @@ redirect_from:
 ---
 
 
+This is obviously an imitation of
+{% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.

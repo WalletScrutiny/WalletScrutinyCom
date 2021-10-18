@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Coinom Wallet : Bitcoin Ethereum Altcoins Tokens"
-altTitle: 
+altTitle: "(Fake) Coinom Wallet : Bitcoin Ethereum Altcoins Tokens"
 authors:
 - emanuel
 - leo

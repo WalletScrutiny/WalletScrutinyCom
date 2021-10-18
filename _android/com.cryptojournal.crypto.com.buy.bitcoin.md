@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Crypto.com Buy Bitcoin"
-altTitle: 
+altTitle: "(Fake) Crypto.com Buy Bitcoin"
 authors:
 - danny
 users: 10

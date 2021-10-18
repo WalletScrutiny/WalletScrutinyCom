@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Wallet Blockchain"
-altTitle: 
+altTitle: "(Fake) Bitcoin Wallet Blockchain"
 authors:
 - leo
 users: 100000

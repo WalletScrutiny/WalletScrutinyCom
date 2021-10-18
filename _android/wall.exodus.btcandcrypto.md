@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "EXODUS CRYPTO BTC ETH WALLET TRX USDT"
-altTitle: 
+altTitle: "(Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT"
 authors:
 - emanuel
 - leo

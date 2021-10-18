@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Bitcoin Cold Wallet"
-altTitle: 
+altTitle: "(Fake) Bitcoin Cold Wallet"
 authors:
 - leo
 users: 10000

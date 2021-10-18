@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "Jaxx Liberty:New Wallet BTC ETH"
-altTitle: 
+altTitle: "(Fake) Jaxx Liberty:New Wallet BTC ETH"
 authors:
 - emanuel
 - leo

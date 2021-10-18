@@ -1,9 +1,9 @@
 ---
 wsId: 
 title: "Exodus Bitcoin Manage, and Exchange cryptocurrency"
-altTitle: 
+altTitle: "(Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency"
 authors:
-
+- leo
 users: 5
 appId: crypto.walls.exoduks.comy
 released: 2021-10-03
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: crypto.walls.exoduks.comy.png
 bugbounty: 
-verdict: fewusers
+verdict: fake
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -34,3 +34,18 @@ redirect_from:
 ---
 
 
+Apparently this is a BTC wallet:
+
+> Exodus allows you to secure, manage, and exchange your favorite
+  cryptocurrencies like Bitcoin, Ethereum, Ripple, and more from a beautiful,
+  easy to use wallet that puts you in control of your wealth.
+
+There are several other products using the name "Exodus", so this might be a
+fake of
+{% include walletLink.html wallet='android/exodusmovement.exodus' verdict='true' %}?
+
+No website is provided and the developer uses the email
+`contact@exuduxcrypto.com`, which is a weird derivation of the "Exodus" brand.
+
+For the lack of further information we side with caution and give this a
+**fake** verdict.
