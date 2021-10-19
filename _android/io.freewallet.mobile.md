@@ -18,7 +18,7 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: ftbfs
+verdict: obsolete
 date: 2021-10-01
 signer: 
 reviewArchive:
@@ -26,7 +26,7 @@ reviewArchive:
   version: "0.1.9"
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nonverifiable
+  verdict: ftbfs
 
 providerTwitter: freewallet
 providerLinkedIn: 
