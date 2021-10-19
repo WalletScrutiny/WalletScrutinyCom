@@ -1,6 +1,6 @@
 ---
 wsId: paypal
-title: "PayPal: Mobile Cash"
+title: "PayPal - Send, Shop, Manage"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
 released: 2019-02-03
-updated: 2021-10-11
-version: "8.4.3"
-stars: 4.81867
-reviews: 5971815
-size: 424714240
+updated: 2021-10-18
+version: "8.5.0"
+stars: 4.81862
+reviews: 5974541
+size: 434709504
 website: https://www.paypal.com/mobile
 repository: 
 issue: 

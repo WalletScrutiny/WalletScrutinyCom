@@ -10,8 +10,8 @@ idd: 1458917114
 released: 2019-04-23
 updated: 2021-10-12
 version: "1.16.2"
-stars: 4.79487
-reviews: 2067
+stars: 4.79517
+reviews: 2070
 size: 62156800
 website: https://currency.com/
 repository: 

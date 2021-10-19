@@ -9,9 +9,9 @@ appId: com.mobillium.btcturk
 released: 2020-05-06
 updated: 2021-10-07
 version: "1.10.0"
-stars: 4.5
-ratings: 13045
-reviews: 3925
+stars: 4.4
+ratings: 13062
+reviews: 3932
 size: 92M
 website: https://www.btcturk.com/
 repository: 

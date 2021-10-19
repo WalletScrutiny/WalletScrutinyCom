@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: BankWithLVL 
+providerTwitter: BankWithLVL
 providerLinkedIn: bankwithlvl
 providerFacebook: BankWithLVL
 providerReddit: 

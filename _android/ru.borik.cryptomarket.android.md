@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 
 This app is a humorous cryptocurrency trading game. It does not have a website listed on its Google Play app page. 

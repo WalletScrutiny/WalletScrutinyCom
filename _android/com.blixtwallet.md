@@ -4,7 +4,7 @@ title: "Blixt Wallet"
 altTitle: 
 authors:
 - leo
-users: 100
+users: 500
 appId: com.blixtwallet
 released: 
 updated: 2021-10-07

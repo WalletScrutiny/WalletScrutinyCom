@@ -10,8 +10,8 @@ released: 2018-02-27
 updated: 2021-05-22
 version: "2.0"
 stars: 3.8
-ratings: 365
-reviews: 232
+ratings: 366
+reviews: 233
 size: 40M
 website: https://www.toolstrades.com/
 repository: 

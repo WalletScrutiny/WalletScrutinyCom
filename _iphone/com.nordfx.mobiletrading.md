@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: NordFX
 providerLinkedIn: 
 providerFacebook: 
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

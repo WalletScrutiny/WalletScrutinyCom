@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: gcbuying
 providerLinkedIn: 
 providerFacebook: 
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

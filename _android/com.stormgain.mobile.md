@@ -9,9 +9,9 @@ appId: com.stormgain.mobile
 released: 2019-07-08
 updated: 2021-09-27
 version: "1.19.0"
-stars: 4.3
-ratings: 67505
-reviews: 34420
+stars: 4.2
+ratings: 67713
+reviews: 34540
 size: 37M
 website: https://stormgain.com
 repository: 

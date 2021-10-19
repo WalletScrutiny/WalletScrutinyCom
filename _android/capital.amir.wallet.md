@@ -10,7 +10,7 @@ released: 2021-08-03
 updated: 2021-10-07
 version: "3.9.0"
 stars: 4.3
-ratings: 312
+ratings: 313
 reviews: 181
 size: 35M
 website: https://amir.capital/

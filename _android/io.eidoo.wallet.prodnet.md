@@ -11,7 +11,7 @@ updated: 2021-09-29
 version: "3.6.2"
 stars: 3.1
 ratings: 1615
-reviews: 805
+reviews: 804
 size: 13M
 website: https://eidoo.io
 repository: 

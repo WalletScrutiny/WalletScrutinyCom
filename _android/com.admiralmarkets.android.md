@@ -9,8 +9,8 @@ appId: com.admiralmarkets.android
 released: 2020-10-07
 updated: 2021-10-12
 version: "1.4.4"
-stars: 3.7
-ratings: 259
+stars: 3.8
+ratings: 260
 reviews: 145
 size: 14M
 website: https://admiralmarkets.com/

@@ -9,8 +9,8 @@ appId: com.application.galaxywallet
 released: 2019-12-09
 updated: 2020-05-19
 version: "1.2"
-stars: 3.1
-ratings: 19
+stars: 3.2
+ratings: 20
 reviews: 14
 size: 5.9M
 website: 

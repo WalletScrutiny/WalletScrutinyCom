@@ -13,16 +13,20 @@ version: "2.4.12"
 stars: 3.93902
 reviews: 82
 size: 56670208
-website: https://airbitz.co
+website: http://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: co.airbitz.airbitz.jpg
 bugbounty: 
-verdict: ftbfs
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-19
 signer: 
 reviewArchive:
-
+- date: 2021-08-17
+  version: "2.4.12"
+  appHash: 
+  gitRevision: 32a8c5a73969f3809556e8ab25e2fd1832351de8
+  verdict: ftbfs
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,4 +36,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

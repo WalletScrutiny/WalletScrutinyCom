@@ -10,7 +10,7 @@ released: 2018-08-23
 updated: 2021-10-08
 version: "1.9.3"
 stars: 4.2
-ratings: 1537
+ratings: 1538
 reviews: 1271
 size: 15M
 website: https://abcc.com/

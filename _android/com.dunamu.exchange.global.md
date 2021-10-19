@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.dunamu.exchange.global
 released: 2018-11-06
-updated: 2021-08-31
+updated: 2021-10-18
 version: "1.5.15p2"
 stars: 4.7
-ratings: 3273
-reviews: 2739
+ratings: 3285
+reviews: 2749
 size: 29M
 website: https://www.dunamu.com/
 repository: 

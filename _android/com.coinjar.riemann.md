@@ -10,8 +10,8 @@ released:
 updated: 2021-10-14
 version: "2.8.0"
 stars: 4.5
-ratings: 1117
-reviews: 802
+ratings: 1120
+reviews: 804
 size: 97M
 website: https://www.coinjar.com
 repository: 

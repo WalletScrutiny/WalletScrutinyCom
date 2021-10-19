@@ -4,7 +4,7 @@ title: "Exodus Bitcoin Manage, and Exchange cryptocurrency"
 altTitle: "(Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency"
 authors:
 - leo
-users: 5
+users: 10
 appId: crypto.walls.exoduks.comy
 released: 2021-10-03
 updated: 2021-10-04

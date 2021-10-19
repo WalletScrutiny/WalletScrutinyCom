@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: net.bither
 released: 2014-02-27
-updated: 2021-07-05
-version: "2.0.1"
+updated: 2021-10-18
+version: "2.0.2"
 stars: 3.7
 ratings: 328
 reviews: 170
-size: 4.4M
+size: 4.5M
 website: https://bither.net
 repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69

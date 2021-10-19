@@ -10,8 +10,8 @@ released: 2020-06-18
 updated: 2021-10-12
 version: "1.17.1"
 stars: 2.4
-ratings: 2394
-reviews: 753
+ratings: 2396
+reviews: 754
 size: 32M
 website: https://www.anchorusd.com/
 repository: 

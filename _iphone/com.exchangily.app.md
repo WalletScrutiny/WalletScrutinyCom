@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: ExchangilyC
 providerLinkedIn: 
 providerFacebook: Exchangily-439040053240813
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

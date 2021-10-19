@@ -9,8 +9,8 @@ appId: com.pundix.functionx
 released: 2021-03-25
 updated: 2021-10-15
 version: "1.8.2(001)"
-stars: 3.9
-ratings: 247
+stars: 4.0
+ratings: 248
 reviews: 131
 size: 33M
 website: https://functionx.io/

@@ -10,8 +10,8 @@ released: 2020-12-06
 updated: 2021-09-30
 version: "1.11.2"
 stars: 4.3
-ratings: 57
-reviews: 44
+ratings: 56
+reviews: 43
 size: 60M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile

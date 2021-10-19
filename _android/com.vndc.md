@@ -10,8 +10,8 @@ released: 2020-03-07
 updated: 2021-09-12
 version: "1.8.5"
 stars: 4.5
-ratings: 26025
-reviews: 8260
+ratings: 26245
+reviews: 8348
 size: 107M
 website: https://vndc.io/en
 repository: 

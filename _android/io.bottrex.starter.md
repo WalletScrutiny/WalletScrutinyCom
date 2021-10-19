@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+
 ## App Description
 Bottrex is not an exchange or wallet, it is a trading bot.
 

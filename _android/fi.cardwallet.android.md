@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: fi.cardwallet.android
 released: 2021-08-31
-updated: 2021-09-30
-version: "1.2"
-stars: 4.6
-ratings: 107
-reviews: 61
+updated: 2021-10-12
+version: "1.4"
+stars: 4.7
+ratings: 106
+reviews: 59
 size: 12M
 website: 
 repository: 

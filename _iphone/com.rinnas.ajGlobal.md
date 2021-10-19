@@ -10,8 +10,8 @@ idd: 1519859460
 released: 2020-09-08
 updated: 2021-03-12
 version: "2.0.3"
-stars: 3.55556
-reviews: 18
+stars: 3.35
+reviews: 20
 size: 79514624
 website: https://ajglobalv.com/
 repository: 
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: ajglobalv
 providerLinkedIn: 
 providerFacebook: AJGLOBALVENTURES
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

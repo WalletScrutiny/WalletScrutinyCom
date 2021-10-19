@@ -10,8 +10,8 @@ released: 2021-04-01
 updated: 2021-08-19
 version: "1.11.4"
 stars: 4.3
-ratings: 641
-reviews: 365
+ratings: 640
+reviews: 364
 size: 29M
 website: https://www.studentcoin.org/
 repository: 

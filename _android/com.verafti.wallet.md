@@ -10,8 +10,8 @@ released: 2021-07-21
 updated: 2021-09-23
 version: "1.1.3"
 stars: 2.9
-ratings: 115
-reviews: 74
+ratings: 114
+reviews: 73
 size: 7.0M
 website: 
 repository: 
@@ -28,6 +28,7 @@ providerTwitter: token_vera
 providerLinkedIn: vera-token-74a925218
 providerFacebook: 
 providerReddit: 
+
 redirect_from:
 
 ---
