@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: BinanceTR
 title: "Binance TR | Bitcoin Al & Sat"
 altTitle: 
 authors:
-
+- danny
 appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.binanceCloudTR.binance.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BinanceTR
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: TRBinanceTR
+providerReddit:  
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

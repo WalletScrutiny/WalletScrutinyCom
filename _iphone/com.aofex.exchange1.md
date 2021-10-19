@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: AOFEX
 title: "aofex-buy & sell bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.aofex.exchange1
 appCountry: us
 idd: 1477466894
@@ -13,23 +13,26 @@ version: "2.5.8"
 stars: 4.93952
 reviews: 711
 size: 257178624
-website: 
+website: https://www.aofex.com/#/
 repository: 
 issue: 
 icon: com.aofex.exchange1.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: Aofex2
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: AofexDigitalCurrencyExchange
+providerReddit:
 
 redirect_from:
 
 ---
+
+
+{% include copyFromAndroid.html %}
 

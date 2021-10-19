@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: LBank
 title: "LBank - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
-
+- danny
 appId: com.LBank.LBankNavApp
 appCountry: us
 idd: 1437346368
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.LBank.LBankNavApp.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: LBank_Exchange
+providerLinkedIn: lbank
+providerFacebook: LBank.info
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

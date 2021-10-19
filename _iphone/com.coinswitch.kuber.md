@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: CoinSwitch
 title: "CoinSwitch"
 altTitle: 
 authors:
-
+- danny
 appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.coinswitch.kuber.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: CoinSwitchKuber
+providerLinkedIn: coinswitch
+providerFacebook: coinswitch
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

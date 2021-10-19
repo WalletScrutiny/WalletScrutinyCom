@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ThinkTrader
 title: "ThinkTrader"
 altTitle: 
 authors:
-
+- danny
 appId: com.riflexo.TradeInterceptor
 appCountry: us
 idd: 329476057
@@ -18,18 +18,20 @@ repository:
 issue: 
 icon: com.riflexo.TradeInterceptor.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ThinkMarketscom
+providerLinkedIn: thinkmarkets
+providerFacebook: ThinkMarkets
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}
