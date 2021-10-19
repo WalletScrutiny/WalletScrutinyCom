@@ -56,4 +56,4 @@ From [3.8.3, Rights and Obligations of the User:](https://www.trbinance.com/en/a
 
 ## Verdict
 
-Like its counterpart {% include walletLink.html wallet='android/com.binance.dev verdict='true' %} this is a **custodial exchange.** Thus, it's **not verifiable.**
+Like its counterpart {% include walletLink.html wallet='android/com.binance.dev' verdict='true' %} this is a **custodial exchange.** Thus, it's **not verifiable.**
