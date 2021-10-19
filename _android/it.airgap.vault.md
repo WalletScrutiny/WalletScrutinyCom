@@ -19,9 +19,14 @@ issue: https://github.com/airgap-it/airgap-vault/issues/91
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: reproducible
-date: 2021-09-21
+date: 2021-10-19
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-09-21
+  version: "3.10.0"
+  appHash: 19391ace82f01aa19fb31b3e72949fa8d77b1857c4781e73f2cf2cd828b1df60
+  gitRevision: 9c3e5354adbf260f11e947f9231e2b24df32cbd6
+  verdict: reproducible
 - date: 2021-08-28
   version: "3.9.0"
   appHash: 62d2c09cb1cbceeab1b90cf19e94e7e1c2385cf1bf852629200dea0999ea1c62
@@ -117,24 +122,24 @@ which delivered these results:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.10.0
-apkVersionCode: 34171
+apkVersionName: 3.11.0
+apkVersionCode: 34777
 verdict:        reproducible
-appHash:        19391ace82f01aa19fb31b3e72949fa8d77b1857c4781e73f2cf2cd828b1df60
-commit:         6f9b2767e1d9365fed0beba0d3d0850a51491b6a
+appHash:        ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092
+commit:         c5c7a6f6908976fb766e81f98a6b3678e5d13fa7
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_34171/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_34171/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_34171/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_34171/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_34777/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_34777/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_it.airgap.vault_34777/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_34777/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 6f9b2767e1d9365fed0beba0d3d0850a51491b6a
+object c5c7a6f6908976fb766e81f98a6b3678e5d13fa7
 type commit
-tag v3.10.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1631939902 +0200
+tag v3.11.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1634028951 +0200
 
-version 3.10.0
+version 3.11.0
 ```
 
 which is what we want to see to consider it **reproducible**.
