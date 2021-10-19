@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Airbitz
 title: "Airbitz - Bitcoin Wallet"
 altTitle: 
 authors:
-
+- leo
 appId: co.airbitz.airbitz
 appCountry: 
 idd: 843536046
@@ -13,12 +13,12 @@ version: "2.4.12"
 stars: 3.93902
 reviews: 82
 size: 56670208
-website: http://airbitz.co
-repository: 
-issue: 
+website: https://airbitz.co
+repository: https://github.com/EdgeApp/airbitz-android-gui
+issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: co.airbitz.airbitz.jpg
 bugbounty: 
-verdict: obsolete
+verdict: ftbfs
 date: 2021-08-17
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

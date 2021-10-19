@@ -18,7 +18,7 @@ repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2019-12-28
 signer: 
 reviewArchive:

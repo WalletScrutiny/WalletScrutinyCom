@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: Airbitz
 title: "Bitcoin Wallet - Airbitz"
 altTitle: 
 authors:
@@ -26,7 +26,7 @@ reviewArchive:
   version: "2.4.12"
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nonverifiable
+  verdict: ftbfs
 
 providerTwitter: 
 providerLinkedIn: 

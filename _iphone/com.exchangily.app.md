@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: eXchangily
 title: "Exchangily DEX Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: com.exchangily.app
 appCountry: 
 idd: 1503068552
@@ -14,22 +14,24 @@ stars: 4.16667
 reviews: 6
 size: 49359872
 website: https://exchangily.com
-repository: 
-issue: 
+repository: https://github.com/blockchaingate/exchangily-mobile-app
+issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.app.jpg
 bugbounty: 
-verdict: wip
+verdict: ftbfs
 date: 2021-06-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ExchangilyC
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: Exchangily-439040053240813
+providerReddit:
 
 redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}

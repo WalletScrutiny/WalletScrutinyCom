@@ -18,7 +18,7 @@ repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:

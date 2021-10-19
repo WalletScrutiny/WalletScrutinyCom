@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: COINiDwallet
 title: "Bitcoin Wallet for COINiD"
 altTitle: 
 authors:
@@ -18,7 +18,7 @@ repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2020-01-29
 signer: 
 reviewArchive:

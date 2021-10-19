@@ -26,7 +26,7 @@ reviewArchive:
   version: "0.1.9"
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nonverifiable
+  verdict: ftbfs
 
 providerTwitter: freewallet
 providerLinkedIn: 
@@ -49,7 +49,7 @@ wallets and we have reviewed three of those here, too:
 * [Lite HD Wallet – Your Coin Base](/org.freewallet.lite.android/) is probably
   also custodial, with only 500 downloads so far.
 
-He sais that his wallet is non-custodial and open source and indeed we see those
+He says that his wallet is non-custodial and open source and indeed we see those
 same claims on Google Play.
 
 On the website we read:

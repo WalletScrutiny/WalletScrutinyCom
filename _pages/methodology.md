@@ -81,6 +81,7 @@ We answer the following questions usually in this order:
 {% include verdictMethodology.html verdict="custodial" %}
 {% include verdictMethodology.html verdict="nosource" %}
 {% include verdictMethodology.html verdict="obfuscated" %}
+{% include verdictMethodology.html verdict="ftbfs" %}
 {% include verdictMethodology.html verdict="nonverifiable" %}
 {% include verdictMethodology.html verdict="reproducible" %}
 

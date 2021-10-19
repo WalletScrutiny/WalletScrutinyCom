@@ -19,7 +19,7 @@ repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2
 icon: com.bitorzo.wallet.jpg
 bugbounty: 
-verdict: nonverifiable
+verdict: ftbfs
 date: 2021-04-11
 signer: 
 reviewArchive:
