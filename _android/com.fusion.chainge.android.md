@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fusion.chainge.android.png
 bugbounty: 
-verdict: custodial
+verdict: nosource
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -73,5 +73,5 @@ The seed phrase is for a multi-currency account. The default currency is their o
 
 ## Verdict
 
-We initially thought that this app is a mix of custodial and self-custodial access, however we couldn't locate the source code for this app. We contacted them via [twitter](https://twitter.com/BitcoinWalletz/status/1450388240586866693) about this. Also, the ability of the app to close out users is a very good indication of a **custodial** service. This makes the app **not verifiable.**
+We contacted them via [twitter](https://twitter.com/BitcoinWalletz/status/1450388240586866693) to verify. This app is a mix of custodial and self-custodial access. The beginner mode is custodial and switching to expert mode then makes it self-custodial. We were **not able to locate the source code for the app**. 
 
