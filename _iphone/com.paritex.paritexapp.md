@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Paritex
 title: "Paritex Exchange"
 altTitle: 
 authors:
-
+- danny
 appId: com.paritex.paritexapp
 appCountry: tr
 idd: 1550831461
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: com.paritex.paritexapp.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-20
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: paritexexchange
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,5 @@ redirect_from:
 
 ---
 
+
+{% include copyFromAndroid.html %}
