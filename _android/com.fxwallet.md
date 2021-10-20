@@ -34,11 +34,15 @@ redirect_from:
 ---
 
 
+**Caution:** Some users have complained about not being able to withdraw we also tried to register but the service did not send the OTP email verification. We tried numerous times. We also tried to contact them via their Telegram, however it says 
+
+> Username @fxwallet not found.
+
+We will proceed with assessing this service via the information available on its website.
+
 ## App Description
 
-> The FXWallet app is a separate, standalone and applies Blockchain technology - the most modern technology, KYC, 2FA... The security system of FXWallet is the safest and the most reputable.
-
-It sounds like a standard bitcoin wallet.
+From Google Play:
 
 >  You can use FXWallet app to send, receive money and track balances. The app provide significant features such as: Staking, Swap, Transfer, Payment and Decentralization.
 
@@ -74,7 +78,11 @@ This is contradictory to their claims on the homepage:
 
 ## The App
 
-We tried to sign-in to the app, but strangely enough, we could not find an option to register an account.
+We downloaded the app and were not able to register because we did not receive the OTP email verification. We tried several times.
+
+## Contact
+
+We [inquired FXWallet's twitter](https://twitter.com/BitcoinWalletz/status/1450714031371657216) concerning this contradiction in policy. We are still awaiting their reply.
 
 ## Verdict
 

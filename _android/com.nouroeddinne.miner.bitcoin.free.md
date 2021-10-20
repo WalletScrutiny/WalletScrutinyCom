@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -34,13 +34,11 @@ redirect_from:
 ---
 
 
+**Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
+
 ## App Description
 
-As this is a "cloud mining app," any satoshis gained will likely be stored on the cloud server.
-
 > All mining processes are made by Cloud servers. Internet connection on your device is all that requires to start.
-
-There was also this rather vague line:
 
 > You are offered in a bitcoin miner game that allows you to feel like a real crypto investor.
 
@@ -69,4 +67,4 @@ We recommend users to exercise caution around apps like these.
 
 ## Verdict
 
-Satoshis are stored on the server, and users are not allowed to withdraw until they have reached a certain threshold. This means the providers are in control of the funds. This is a **custodial** offering and thus **not verifiable.**
+The developers claim that satoshis are stored on the server, and users are not allowed to withdraw until they have reached a certain threshold. There is simply no proof that this is true. Since there is no functionality that allows users to send or receive bitcoins, this is **not a bitcoin wallet.**

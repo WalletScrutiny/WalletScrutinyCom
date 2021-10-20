@@ -71,4 +71,4 @@ The app only returns an error saying "Webpage not available."
 >
 > `net::ERR_CONNECTION_CLOSED.`
 
-As such, we will mark this app as **defunctional.**
+As such, we will mark this app as **defunct.**

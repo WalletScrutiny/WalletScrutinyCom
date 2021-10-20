@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.btccloudminer.easy.png
 bugbounty: 
-verdict: custodial
+verdict: nowallet
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -33,6 +33,7 @@ redirect_from:
 
 ---
 
+**Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
 
 ## App Description
 
@@ -40,9 +41,9 @@ From Google Play:
 
 > BTC Wallet Miner mobile app is a management app for your BTC Wallet Miner account and your BTC Wallet activities. Please note that this app is not a mobile mining app. You don't use your smartphone processing power for mining if you have BTC Wallet Miner mobile app installed.
 
-Like multiple other Cloud Miner apps, this one advertises a "one-click solution that allows anyone to make money from anywhere."
+Like multiple other "Cloud Miner apps", this one advertises a "one-click solution that allows anyone to make money from anywhere."
 
-The coins users earn will more than likely be kept on the cloud servers. Also from the description:
+ Also from the description:
 
 > If you want to withdraw coins or transfer to wallet then please visit transfer section.
 
@@ -58,4 +59,10 @@ These Google Reviews reported an issue with the app:
       
 No website was provided for more information.
       
-Users having to wait to withdraw BTC from the servers indicates this as a **custodial** offering. It is thus **not verifiable.**
+## The App
+
+We downloaded the app and tried to run it. However we are stuck in a screen that says "Don't Live A Little. Live A Cryptocurrency"
+
+## Verdict
+
+There are many apps to claim to provide cloud mining services. Most of them are dubious in nature. If you search in Google for cloud mining scam apps, you're more likely to run into one of these. We could not open this app but judging from the reviews, it is definitely a shady one. With no proof that you can send or receive bitcoins, this app does not have a wallet.
