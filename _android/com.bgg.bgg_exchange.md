@@ -9,9 +9,9 @@ appId: com.bgg.bgg_exchange
 released: 2018-10-29
 updated: 2020-09-09
 version: "1.6.7"
-stars: 4.0
-ratings: 33
-reviews: 22
+stars: 3.9
+ratings: 34
+reviews: 23
 size: 15M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released:
 updated: 2021-07-28
 version: "4.1.2"
 stars: 3.4
-ratings: 404
-reviews: 250
+ratings: 406
+reviews: 251
 size: 27M
 website: https://libertyx.com/
 repository: 

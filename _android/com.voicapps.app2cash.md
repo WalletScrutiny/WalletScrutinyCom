@@ -9,9 +9,9 @@ appId: com.voicapps.app2cash
 released: 2019-09-17
 updated: 2020-11-23
 version: "1.02.4"
-stars: 4.3
-ratings: 56
-reviews: 24
+stars: 4.2
+ratings: 57
+reviews: 25
 size: 40M
 website: 
 repository: 

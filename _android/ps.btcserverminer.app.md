@@ -9,9 +9,9 @@ appId: ps.btcserverminer.app
 released: 2021-07-16
 updated: 2021-08-29
 version: "1.0"
-stars: 3.9
-ratings: 3850
-reviews: 1953
+stars: 4.0
+ratings: 3975
+reviews: 2015
 size: 21M
 website: http://btcminer.tilda.ws/btcserverminer
 repository: 

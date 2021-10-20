@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Simple Bitcoin Wallet"
+title: "SBW: Simple Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ authors:
 users: 100000
 appId: com.btcontract.wallet
 released: 2015-07-15
-updated: 2021-10-12
-version: "2.2.14"
+updated: 2021-10-19
+version: "2.2.15.1"
 stars: 3.6
-ratings: 1028
-reviews: 554
-size: 23M
+ratings: 1029
+reviews: 555
+size: 24M
 website: https://lightning-wallet.com
 repository: https://github.com/btcontract/wallet/
 issue: https://github.com/btcontract/wallet/issues/90

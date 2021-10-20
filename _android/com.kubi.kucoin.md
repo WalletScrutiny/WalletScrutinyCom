@@ -1,6 +1,6 @@
 ---
 wsId: kucoin
-title: "KuCoin: Bitcoin Exchange & Crypto Wallet"
+title: "KuCoin: Bitcoin, Crypto & NFT"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2018-05-03
 updated: 2021-10-18
 version: "3.41.1"
 stars: 4.0
-ratings: 14553
-reviews: 6775
+ratings: 14595
+reviews: 6795
 size: 41M
 website: 
 repository: 

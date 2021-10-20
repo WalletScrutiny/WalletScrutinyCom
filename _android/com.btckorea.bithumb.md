@@ -1,17 +1,17 @@
 ---
 wsId: bithumbko
-title: "Bithumb - No.1 Digital Asset Platform"
+title: "Bithumb"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.btckorea.bithumb
 released: 2017-09-26
-updated: 2021-10-05
-version: "2.2.8"
+updated: 2021-10-08
+version: "2.2.9"
 stars: 3.2
-ratings: 20858
-reviews: 8991
+ratings: 20864
+reviews: 8992
 size: 40M
 website: https://www.bithumb.com
 repository: 

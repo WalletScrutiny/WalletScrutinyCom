@@ -4,7 +4,7 @@ title: "Quarashi Wallet VPN Chat DEX"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.ibt.quarashi
 released: 2021-07-09
 updated: 2021-09-22

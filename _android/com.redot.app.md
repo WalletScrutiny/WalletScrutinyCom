@@ -4,13 +4,13 @@ title: "Redot Exchange - Bitcoin, Ethereum, Crypto Trading"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.redot.app
 released: 2020-03-03
 updated: 2021-06-06
 version: "1.0.37"
 stars: 4.8
-ratings: 18
+ratings: 19
 reviews: 3
 size: 7.2M
 website: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.redot.app.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-01
 signer: 
 reviewArchive:

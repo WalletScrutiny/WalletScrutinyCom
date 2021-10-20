@@ -9,9 +9,9 @@ appId: com.coinmama.android
 released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
-stars: 3.7
-ratings: 32
-reviews: 16
+stars: 3.6
+ratings: 34
+reviews: 17
 size: 2.2M
 website: 
 repository: 

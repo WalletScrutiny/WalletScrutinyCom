@@ -10,7 +10,7 @@ released: 2018-10-28
 updated: 2021-09-06
 version: "1.3.4-73-g828f2"
 stars: 4.2
-ratings: 130
+ratings: 131
 reviews: 60
 size: 11M
 website: 

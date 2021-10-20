@@ -10,8 +10,8 @@ released: 2020-07-10
 updated: 2021-09-29
 version: "1.19.0"
 stars: 4.3
-ratings: 2462
-reviews: 977
+ratings: 2482
+reviews: 991
 size: 37M
 website: https://stormgainexpress.com/
 repository: 

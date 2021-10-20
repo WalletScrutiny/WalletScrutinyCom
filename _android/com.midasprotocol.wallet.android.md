@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.midasprotocol.wallet.android
 released: 2018-11-02
-updated: 2021-10-04
-version: "2.0.7"
+updated: 2021-10-19
+version: "2.0.7.1"
 stars: 4.1
-ratings: 445
+ratings: 446
 reviews: 272
 size: 43M
 website: https://midasprotocol.io/

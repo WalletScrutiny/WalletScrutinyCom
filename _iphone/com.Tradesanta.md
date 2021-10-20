@@ -8,11 +8,11 @@ appId: com.Tradesanta
 appCountry: us
 idd: 1457051269
 released: 2019-05-18
-updated: 2021-10-02
-version: "2.5.8"
+updated: 2021-10-18
+version: "2.5.81"
 stars: 3.75758
 reviews: 33
-size: 67362816
+size: 67682304
 website: https://tradesanta.com/en
 repository: 
 issue: 

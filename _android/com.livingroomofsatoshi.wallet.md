@@ -10,8 +10,8 @@ released: 2019-05-19
 updated: 2021-09-27
 version: "1.13.12"
 stars: 3.7
-ratings: 568
-reviews: 312
+ratings: 570
+reviews: 313
 size: 10M
 website: http://www.walletofsatoshi.com
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 10
 appId: com.snapresearch.snapbotmobile
 released: 2021-06-14
-updated: 2021-06-21
+updated: 2021-10-19
 version: "1.0.1"
 stars: 0.0
 ratings: 
