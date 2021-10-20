@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.chainge.finance.app.jpg
 bugbounty: 
-verdict: custodial
+verdict: nosource
 date: 2021-10-19
 signer: 
 reviewArchive:
