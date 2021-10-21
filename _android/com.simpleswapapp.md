@@ -1,6 +1,6 @@
 ---
 wsId: simpleswap
-title: "SimpleSwap: Cryptocurrency Instant Exchange"
+title: "Crypto Exchange - Buy & Sell"
 altTitle: 
 authors:
 - danny

@@ -9,9 +9,9 @@ appId: com.coinsecure.wallet
 released: 2021-09-22
 updated: 2021-09-22
 version: "1.0"
-stars: 4.9
-ratings: 75
-reviews: 75
+stars: 4.8
+ratings: 76
+reviews: 76
 size: 5.6M
 website: 
 repository: 

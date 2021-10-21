@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.quppy
 released: 2018-09-17
-updated: 2021-08-18
-version: "1.0.57"
+updated: 2021-10-19
+version: "2.0.2"
 stars: 4.8
 ratings: 3187
 reviews: 1017
-size: 15M
+size: 12M
 website: https://quppy.com
 repository: 
 issue: 

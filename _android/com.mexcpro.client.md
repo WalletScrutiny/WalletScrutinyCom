@@ -4,14 +4,14 @@ title: "MEXC Exchange - Buy & Sell Bitcoin, ETH and DeFi"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.mexcpro.client
 released: 2020-07-23
 updated: 2021-09-27
 version: "3.1.6"
 stars: 4.0
-ratings: 6184
-reviews: 3539
+ratings: 6188
+reviews: 3541
 size: 55M
 website: https://www.mexc.com/
 repository: 

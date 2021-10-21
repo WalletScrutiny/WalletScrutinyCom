@@ -10,8 +10,8 @@ released: 2021-07-27
 updated: 2021-07-30
 version: "Version 16"
 stars: 4.3
-ratings: 124
-reviews: 95
+ratings: 125
+reviews: 96
 size: 29M
 website: https://kriptofuture.com/
 repository: 

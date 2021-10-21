@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: io.muun.apollo
 released: 2017-04-25
-updated: 2021-09-22
+updated: 2021-10-19
 version: "46.10"
 stars: 4.6
-ratings: 384
-reviews: 225
+ratings: 386
+reviews: 226
 size: 41M
 website: https://muun.com
 repository: https://github.com/muun/apollo

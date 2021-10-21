@@ -4,7 +4,7 @@ title: "Trade Bit"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.onlybit.wallet
 released: 2020-11-13
 updated: 2021-02-08

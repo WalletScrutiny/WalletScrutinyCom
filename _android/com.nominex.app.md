@@ -10,7 +10,7 @@ released: 2021-06-01
 updated: 2021-10-12
 version: "1.3.4"
 stars: 4.0
-ratings: 130
+ratings: 131
 reviews: 87
 size: 58M
 website: https://nominex.io/

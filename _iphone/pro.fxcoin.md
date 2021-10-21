@@ -8,18 +8,18 @@ appId: pro.fxcoin
 appCountry: ru
 idd: 1282340909
 released: 2017-11-03
-updated: 2020-03-05
-version: "1.11"
+updated: 2021-10-18
+version: "1.11.2"
 stars: 3.55446
 reviews: 202
-size: 118948864
-website: https://tsallgoodltd.com
+size: 124170240
+website: https://fxcoin.pro/
 repository: 
 issue: 
 icon: pro.fxcoin.jpg
 bugbounty: 
-verdict: stale
-date: 2021-09-03
+verdict: wip
+date: 2021-10-20
 signer: 
 reviewArchive:
 - date: 2021-09-03

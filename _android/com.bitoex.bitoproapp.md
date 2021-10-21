@@ -9,7 +9,7 @@ appId: com.bitoex.bitoproapp
 released: 2018-07-30
 updated: 2021-02-02
 version: "4.0.0"
-stars: 2.2
+stars: 2.1
 ratings: 577
 reviews: 304
 size: 32M

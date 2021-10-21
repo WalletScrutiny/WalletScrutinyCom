@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.metallicus.protonwallet
 released: 2021-02-22
-updated: 2021-09-22
-version: "1.5.17"
-stars: 4.8
-ratings: 355
-reviews: 224
+updated: 2021-10-15
+version: "1.5.19"
+stars: 4.9
+ratings: 418
+reviews: 261
 size: 46M
 website: https://www.protonchain.com/
 repository: https://github.com/ProtonProtocol/
