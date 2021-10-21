@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.mercuryo.app
 released: 2019-09-03
-updated: 2021-10-07
-version: "1.12.16"
-stars: 4.5
-ratings: 2487
-reviews: 1424
-size: 60M
+updated: 2021-10-21
+version: "2.1.1"
+stars: 4.4
+ratings: 2475
+reviews: 1422
+size: 61M
 website: https://mercuryo.io
 repository: 
 issue: 

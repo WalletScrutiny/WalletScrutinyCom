@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: stale
+date: 2021-10-21
 signer: 
 reviewArchive:
 

@@ -10,7 +10,7 @@ released: 2018-06-27
 updated: 2021-10-20
 version: "4.0.4"
 stars: 4.4
-ratings: 906
+ratings: 908
 reviews: 612
 size: 82M
 website: https://www.onto.app

@@ -10,7 +10,7 @@ released: 2019-11-28
 updated: 2021-09-23
 version: "Varies with device"
 stars: 4.3
-ratings: 237
+ratings: 238
 reviews: 117
 size: Varies with device
 website: https://coinloan.io/

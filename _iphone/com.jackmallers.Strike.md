@@ -10,8 +10,8 @@ idd: 1488724463
 released: 2020-08-10
 updated: 2021-10-14
 version: "36.0"
-stars: 4.83814
-reviews: 3188
+stars: 4.83617
+reviews: 3229
 size: 31208448
 website: https://beta.strike.me/
 repository: 

@@ -4,7 +4,7 @@ title: "Ja­xx Lib­erty: Crypto Wallet"
 altTitle: "(Fake) Ja­xx Lib­erty: Crypto Wallet"
 authors:
 - leo
-users: 10
+users: 50
 appId: com.jaxx.crypto.wallet
 released: 2021-10-11
 updated: 2021-10-12

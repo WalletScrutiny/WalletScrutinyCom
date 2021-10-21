@@ -4,7 +4,7 @@ title: "Crypto Start"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.startfinish.crypto
 released: 2021-09-01
 updated: 2021-09-01

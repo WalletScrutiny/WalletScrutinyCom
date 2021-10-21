@@ -10,8 +10,8 @@ released: 2018-05-23
 updated: 2021-10-18
 version: "2.06.6"
 stars: 4.3
-ratings: 145
-reviews: 76
+ratings: 164
+reviews: 83
 size: 59M
 website: https://wallet.tizer.io/
 repository: 

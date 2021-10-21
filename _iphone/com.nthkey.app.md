@@ -8,8 +8,8 @@ appId: com.nthkey.app
 appCountry: 
 idd: 1491367033
 released: 2021-06-18
-updated: 2021-10-20
-version: "1.0.4"
+updated: 2021-10-21
+version: "1.0.5"
 stars: 1
 reviews: 1
 size: 2874368

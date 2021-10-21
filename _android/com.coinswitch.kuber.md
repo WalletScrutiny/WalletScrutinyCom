@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: "CoinSwitch: Crypto Trading India | Buy & Sell BTC"
+title: "CoinSwitch: Crypto Trading App"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released:
 updated: 2021-10-08
 version: "3.2.0"
 stars: 4.1
-ratings: 254804
-reviews: 94199
+ratings: 256302
+reviews: 94507
 size: Varies with device
 website: https://coinswitch.co/
 repository: 

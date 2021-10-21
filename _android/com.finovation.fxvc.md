@@ -9,9 +9,9 @@ appId: com.finovation.fxvc
 released: 2021-04-23
 updated: 2021-09-14
 version: "2.0.0"
-stars: 3.8
-ratings: 13
-reviews: 6
+stars: 3.6
+ratings: 14
+reviews: 7
 size: 12M
 website: 
 repository: 

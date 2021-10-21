@@ -10,8 +10,8 @@ idd: 1437346368
 released: 2019-02-22
 updated: 2021-10-10
 version: "4.9.11"
-stars: 4.82493
-reviews: 1011
+stars: 4.81489
+reviews: 994
 size: 208022528
 website: https://www.lbank.info/
 repository: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

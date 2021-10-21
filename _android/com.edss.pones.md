@@ -4,7 +4,7 @@ title: "MX exchange - buying & sell Bitcoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.edss.pones
 released: 2021-04-29
 updated: 2021-04-29

@@ -4,7 +4,7 @@ title: "Bitcoin Chivo -  Chivo Bitcoin"
 altTitle: "(Fake) Bitcoin Chivo -  Chivo Bitcoin"
 authors:
 
-users: 50
+users: 100
 appId: com.rvinc.bitminner
 released: 2021-09-28
 updated: 2021-09-28

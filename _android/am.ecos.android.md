@@ -10,8 +10,8 @@ released: 2020-09-22
 updated: 2021-10-18
 version: "1.15.0"
 stars: 3.6
-ratings: 225
-reviews: 175
+ratings: 224
+reviews: 174
 size: 41M
 website: https://ecos.am/en/
 repository: 

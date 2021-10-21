@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.tzero
 released: 
-updated: 2021-09-08
-version: "2.0.10601"
+updated: 2021-10-21
+version: "2.0.10617"
 stars: 3.5
 ratings: 266
 reviews: 112

@@ -4,7 +4,7 @@ title: "CYBAVO Wallet - A pure cryptocurrency wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.cybavo.btc.wallet
 released: 2020-06-22
 updated: 2021-10-03

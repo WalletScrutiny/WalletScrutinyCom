@@ -10,8 +10,8 @@ released: 2018-06-13
 updated: 2021-09-20
 version: "1.9.24"
 stars: 4.3
-ratings: 159
-reviews: 95
+ratings: 160
+reviews: 96
 size: 18M
 website: https://stasis.net/wallet
 repository: https://github.com/stasisnet

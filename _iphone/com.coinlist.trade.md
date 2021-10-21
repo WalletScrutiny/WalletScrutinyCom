@@ -10,8 +10,8 @@ idd: 1522706079
 released: 2020-08-07
 updated: 2021-05-19
 version: "2.0.3"
-stars: 2.57265
-reviews: 117
+stars: 2.55932
+reviews: 118
 size: 29948928
 website: https://coinlist.co
 repository: 

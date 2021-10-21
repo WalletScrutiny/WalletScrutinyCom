@@ -27,12 +27,11 @@ reviewArchive:
 providerTwitter: Aofex2
 providerLinkedIn: 
 providerFacebook: AofexDigitalCurrencyExchange
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}
 

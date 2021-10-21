@@ -10,8 +10,8 @@ idd: 966301394
 released: 2015-03-12
 updated: 2021-10-13
 version: "108.0.0"
-stars: 4.56978
-reviews: 16452
+stars: 4.56947
+reviews: 16468
 size: 117347328
 website: 
 repository: 

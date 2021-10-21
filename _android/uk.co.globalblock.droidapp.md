@@ -4,7 +4,7 @@ title: "GlobalBlock Digital Asset Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: uk.co.globalblock.droidapp
 released: 2021-02-08
 updated: 2021-06-30

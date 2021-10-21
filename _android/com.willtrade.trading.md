@@ -9,9 +9,9 @@ appId: com.willtrade.trading
 released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
-stars: 4.9
-ratings: 90
-reviews: 59
+stars: 5.0
+ratings: 119
+reviews: 81
 size: 13M
 website: 
 repository: 
