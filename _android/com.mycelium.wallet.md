@@ -8,11 +8,11 @@ users: 1000000
 appId: com.mycelium.wallet
 released: 2013-07-01
 updated: 2021-10-18
-version: "3.11.0.4"
+version: "3.11.0.11"
 stars: 4.2
-ratings: 11076
-reviews: 5031
-size: 24M
+ratings: 11086
+reviews: 5036
+size: 25M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
 issue: 

@@ -1,17 +1,17 @@
 ---
 wsId: bitazza
-title: "Bitazza - Bitcoin/Cryptocurrency Exchange & Wallet"
+title: "Bitazza: Crypto Exchange"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.bitazza.android
 released: 2020-09-29
-updated: 2021-09-14
-version: "1.8.4"
-stars: 3.9
-ratings: 2434
-reviews: 502
+updated: 2021-10-20
+version: "1.9.0"
+stars: 4.1
+ratings: 2632
+reviews: 545
 size: 42M
 website: https://bitazza.com
 repository: 

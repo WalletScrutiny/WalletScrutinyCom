@@ -4,7 +4,7 @@ title: "Stratum Advanced Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.modelxv64
 released: 2020-05-29
 updated: 2021-03-18
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.modelxv64.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-04-27
 signer: 
 reviewArchive:

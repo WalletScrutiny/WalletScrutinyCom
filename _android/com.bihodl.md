@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bihodl.png
 bugbounty: 
-verdict: stale
-date: 2021-10-18
+verdict: obsolete
+date: 2021-10-21
 signer: 
 reviewArchive:
 

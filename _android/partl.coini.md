@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coini — Bitcoin / Cryptocurrencies"
+title: "Coini — Cryptocurrencies"
 altTitle: 
 authors:
 

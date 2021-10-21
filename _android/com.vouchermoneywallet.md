@@ -10,8 +10,8 @@ released: 2020-12-15
 updated: 2021-03-03
 version: "1.38.1"
 stars: 4.5
-ratings: 751
-reviews: 209
+ratings: 753
+reviews: 211
 size: 52M
 website: https://vouchermoney.com/
 repository: 

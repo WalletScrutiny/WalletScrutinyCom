@@ -9,9 +9,9 @@ appId: io.mexo.app
 released: 2020-08-30
 updated: 2021-10-19
 version: "1.9.8"
-stars: 3.3
-ratings: 330
-reviews: 266
+stars: 3.8
+ratings: 342
+reviews: 278
 size: 53M
 website: http://mexo.io/
 repository: 

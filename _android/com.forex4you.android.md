@@ -1,6 +1,6 @@
 ---
 wsId: forex4you
-title: "Forex4you - CFD Online Trading on Forex and Stocks"
+title: "Forex4you - Trading on Forex"
 altTitle: 
 authors:
 - danny

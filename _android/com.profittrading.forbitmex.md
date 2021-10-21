@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.profittrading.forbitmex
 released: 2019-06-11
-updated: 2021-07-16
-version: "5.1.2"
+updated: 2021-10-20
+version: "5.2.0"
 stars: 4.0
-ratings: 316
-reviews: 141
+ratings: 317
+reviews: 142
 size: 23M
 website: https://profittradingapp.com/
 repository: 

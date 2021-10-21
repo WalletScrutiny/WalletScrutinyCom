@@ -9,9 +9,9 @@ appId: com.cryptocurrency.jtechtrade
 released: 2021-05-18
 updated: 2021-06-14
 version: "2.0.1"
-stars: 3.1
-ratings: 17
-reviews: 14
+stars: 2.1
+ratings: 33
+reviews: 30
 size: 56M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2021-04-28
 updated: 2021-09-30
 version: "2.6.6"
 stars: 3.9
-ratings: 2463
-reviews: 880
+ratings: 2466
+reviews: 882
 size: 47M
 website: https://ascendex.com
 repository: 

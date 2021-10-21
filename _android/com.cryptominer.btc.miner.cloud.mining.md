@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.cryptominer.btc.miner.cloud.mining
 released: 2021-07-31
-updated: 2021-10-16
+updated: 2021-10-20
 version: "1.2"
-stars: 3.9
-ratings: 2178
-reviews: 1367
+stars: 4.1
+ratings: 2665
+reviews: 1611
 size: 15M
 website: 
 repository: 

@@ -10,7 +10,7 @@ released: 2017-10-23
 updated: 2021-01-29
 version: "1.4.8"
 stars: 4.0
-ratings: 889
+ratings: 890
 reviews: 412
 size: 4.2M
 website: https://www.liteforex.com/

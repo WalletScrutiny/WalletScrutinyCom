@@ -10,7 +10,7 @@ released: 2021-01-04
 updated: 2021-02-01
 version: "3.6.9"
 stars: 4.1
-ratings: 79
+ratings: 80
 reviews: 50
 size: 37M
 website: https://www.wisebitcoin.com/

@@ -10,8 +10,8 @@ idd: 1572965666
 released: 2021-07-17
 updated: 2021-10-12
 version: "1.3.4"
-stars: 4.75
-reviews: 20
+stars: 4.7619
+reviews: 21
 size: 66307072
 website: https://nominex.io
 repository: 

@@ -9,8 +9,8 @@ appId: com.fluxpayment
 released: 2020-09-02
 updated: 2021-10-17
 version: "1.7.2"
-stars: 4.0
-ratings: 142
+stars: 4.1
+ratings: 144
 reviews: 85
 size: 47M
 website: 

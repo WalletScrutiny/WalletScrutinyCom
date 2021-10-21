@@ -10,8 +10,8 @@ released: 2021-05-03
 updated: 2021-10-01
 version: "2.2"
 stars: 4.1
-ratings: 1196
-reviews: 547
+ratings: 1199
+reviews: 549
 size: 6.2M
 website: https://lpntoken.io/
 repository: 

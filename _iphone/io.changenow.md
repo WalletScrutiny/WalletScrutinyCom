@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: "ChangeNOW Crypto Exchange pro"
+title: "Crypto Exchange ChangeNOW"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.changenow
 appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2021-09-07
-version: "1.6.6"
-stars: 4.44656
-reviews: 421
-size: 43449344
+updated: 2021-10-20
+version: "1.7"
+stars: 4.44524
+reviews: 420
+size: 43596800
 website: http://changenow.io
 repository: 
 issue: 

@@ -4,13 +4,13 @@ title: "بیدارز - معتبرترین سامانه خرید و فروش ار
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: kajesabz.ir.bidarz
 released: 2019-01-16
 updated: 2020-09-18
 version: "3.2.5"
 stars: 4.3
-ratings: 3857
+ratings: 3858
 reviews: 1718
 size: 17M
 website: 

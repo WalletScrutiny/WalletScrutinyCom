@@ -10,7 +10,7 @@ released: 2019-05-20
 updated: 2021-09-28
 version: "2.4.11"
 stars: 3.9
-ratings: 643
+ratings: 644
 reviews: 455
 size: 12M
 website: https://tradesanta.com/en

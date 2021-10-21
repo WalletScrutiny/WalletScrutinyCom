@@ -9,8 +9,8 @@ appId: com.coincircle
 released: 2021-04-26
 updated: 2021-10-01
 version: "1.1.79.10178"
-stars: 4.5
-ratings: 172
+stars: 4.6
+ratings: 175
 reviews: 56
 size: 110M
 website: https://coincircle.com/

@@ -10,8 +10,8 @@ idd: 1439360986
 released: 2019-08-03
 updated: 2021-10-11
 version: "2.20.0"
-stars: 4.6213
-reviews: 169
+stars: 4.62428
+reviews: 173
 size: 116275200
 website: https://www.mercadobitcoin.com.br/aplicativo
 repository: 

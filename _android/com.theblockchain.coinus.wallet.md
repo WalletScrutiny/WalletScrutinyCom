@@ -10,8 +10,8 @@ released: 2018-04-23
 updated: 2021-08-31
 version: "2.8.5"
 stars: 4.1
-ratings: 367
-reviews: 227
+ratings: 368
+reviews: 228
 size: 51M
 website: https://www.coinus.io/
 repository: 

@@ -10,8 +10,8 @@ released: 2021-06-10
 updated: 2021-09-27
 version: "1.0.80"
 stars: 4.1
-ratings: 2968
-reviews: 1450
+ratings: 2987
+reviews: 1458
 size: 32M
 website: https://cryptotab.farm/
 repository: 
