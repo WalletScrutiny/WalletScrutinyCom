@@ -19,7 +19,7 @@ issue:
 icon: com.fusion.chainge.android.png
 bugbounty: 
 verdict: nosource
-date: 2021-10-18
+date: 2021-10-21
 signer: 
 reviewArchive:
 

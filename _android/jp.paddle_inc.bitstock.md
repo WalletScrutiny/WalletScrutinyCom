@@ -19,7 +19,7 @@ issue:
 icon: jp.paddle_inc.bitstock.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-18
+date: 2021-10-21
 signer: 
 reviewArchive:
 

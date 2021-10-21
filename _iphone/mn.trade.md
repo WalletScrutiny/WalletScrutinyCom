@@ -19,7 +19,7 @@ issue:
 icon: mn.trade.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-19
+date: 2021-10-21
 signer: 
 reviewArchive:
 

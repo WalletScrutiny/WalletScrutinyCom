@@ -19,7 +19,7 @@ issue:
 icon: com.cloud.tr.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-18
+date: 2021-10-21
 signer: 
 reviewArchive:
 

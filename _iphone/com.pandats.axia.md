@@ -19,7 +19,7 @@ issue:
 icon: com.pandats.axia.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-19
+date: 2021-10-21
 signer: 
 reviewArchive:
 

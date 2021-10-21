@@ -19,7 +19,7 @@ issue:
 icon: com.aofex.exchange1.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-19
+date: 2021-10-21
 signer: 
 reviewArchive:
 

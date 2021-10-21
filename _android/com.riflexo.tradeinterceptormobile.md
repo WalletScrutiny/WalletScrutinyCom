@@ -19,7 +19,7 @@ issue:
 icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-18
+date: 2021-10-21
 signer: 
 reviewArchive:
 
