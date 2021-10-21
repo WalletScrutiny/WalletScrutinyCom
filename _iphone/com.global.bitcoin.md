@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitcoinglobal
 title: "Bitcoin Global"
 altTitle: 
 authors:
-
+- danny
 appId: com.global.bitcoin
 appCountry: us
 idd: 1536910503
@@ -13,23 +13,23 @@ version: "2.9.0"
 stars: 4.92
 reviews: 100
 size: 25680896
-website: 
+website: https://bitcoin.global/
 repository: 
 issue: 
 icon: com.global.bitcoin.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: BitcoinGlobalEx
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: BitcoinGlobalEx
+providerReddit: BITCOIN_GLOBAL
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

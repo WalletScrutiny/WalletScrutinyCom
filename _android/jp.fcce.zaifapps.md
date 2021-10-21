@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ZaifExchange
 title: "Zaif Exchange"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: jp.fcce.zaifapps
 released: 2020-05-07
@@ -13,24 +13,66 @@ stars: 2.3
 ratings: 64
 reviews: 49
 size: 25M
-website: 
+website: https://zaif.jp/
 repository: 
 issue: 
 icon: jp.fcce.zaifapps.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: zaifdotjp
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: zaifdotjp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+## App Description
+
+This looks like a centralized and Japanese government regulated cryptocurrency exchange.
+
+> Zaif is a virtual currency exchange company registered by the Financial Services Agency (registration number Kinki Local Finance Bureau Director No. 00001)
+
+## The Site
+
+### Can it withdraw and deposit Bitcoin?
+
+Tutorial on [how to deposit Bitcoin using the service](https://support.zaif.jp/hc/en-us/articles/360005876653-How-can-I-deposit-Bitcoin-)
+
+Tutorial on [how to withdraw Bitcoin using the service](https://support.zaif.jp/hc/en-us/articles/360005794014-How-can-I-withdraw-Bitcoin-BTC-)
+
+### Legal
+
+> - [AML and Anti-Terrorism Policy](https://corp.zaif.jp/amlcft/)
+> - [Policy on Anti-Social Groups](https://corp.zaif.jp/antisocial/)
+
+## The App
+
+We were not able to register with the app as they have numerous questions documentary requirements which include:
+
+> - Profession
+> - Yearly Income
+> - Status of Financial Assets
+> - Do you possess debt?
+> - Is your fund surplus or is it reserved for crypto asset management?
+> - Motive and background of becoming a user
+> - Citizen of the US
+> - Person Exposed to Politics
+> - Antisocial Forces
+> - ID 
+
+## Contact
+
+We [contacted Zaif's twitter](https://twitter.com/BitcoinWalletz/status/1451085177447280645) to verify whether they stored the private keys on their servers or if it's with the user.
+
+## Verdict
+
+All indications point to a government regulated and centralized cryptocurrency exchange. We were not able to find documentation concerning the private keys for the user. At this juncture, we can conclude that this service is **custodial** and the app is **not verifiable**.
 

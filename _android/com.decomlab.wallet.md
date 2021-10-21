@@ -34,6 +34,9 @@ redirect_from:
 ---
 
 
+**Notes** It should be noted that this wallet has a similarity in name to:<br> 
+{% include walletLink.html wallet='android/io.muun.apollo' verdict='true' %}
+
 ## App Description
 
 From Google Play:
@@ -56,7 +59,7 @@ From Terms and Services:
 
 ## The App
 
-We tried the app, but it did not start up.
+We downloaded and installed the app. We were able to access the 12-word seed phrase. An import option is also possible.
 
 ## Verdict
 
