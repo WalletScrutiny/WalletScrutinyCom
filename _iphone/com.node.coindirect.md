@@ -19,11 +19,16 @@ repository:
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-04-27
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
-
+- date: 2021-04-27
+  version: "1.2.7"
+  appHash: 
+  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
+  verdict: custodial
+  
 
 providerTwitter: coindirectcom
 providerLinkedIn: coindirect
@@ -33,6 +38,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-10-14**: This app is no more available.
 
 The website states:
 
