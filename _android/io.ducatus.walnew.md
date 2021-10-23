@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: io.ducatus.walnew
 released: 2019-12-05
-updated: 2021-10-14
-version: "2.7.5"
+updated: 2021-10-22
+version: "2.7.6"
 stars: 4.7
 ratings: 304
-reviews: 206
+reviews: 207
 size: 25M
 website: https://ducatus.net
 repository: 

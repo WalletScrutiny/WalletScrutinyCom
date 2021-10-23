@@ -4,13 +4,13 @@ title: "HuobiWallet"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.huobionchainwallet.gp
 released: 2019-10-17
 updated: 2021-10-13
 version: "3.00.00.013"
 stars: 4.9
-ratings: 32067
+ratings: 32068
 reviews: 1399
 size: 89M
 website: https://huobiwallet.com

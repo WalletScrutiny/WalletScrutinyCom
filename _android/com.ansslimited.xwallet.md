@@ -4,11 +4,11 @@ title: "X-Wallet by ANSS Limited"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.ansslimited.xwallet
 released: 2021-06-28
-updated: 2021-10-20
-version: "1.0.21"
+updated: 2021-10-22
+version: "1.0.23"
 stars: 0.0
 ratings: 
 reviews: 

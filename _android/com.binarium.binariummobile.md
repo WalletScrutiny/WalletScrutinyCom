@@ -10,7 +10,7 @@ released: 2019-09-16
 updated: 2021-09-06
 version: "1.0.0.7"
 stars: 3.5
-ratings: 2389
+ratings: 2390
 reviews: 1848
 size: 7.0M
 website: http://binarium.com/

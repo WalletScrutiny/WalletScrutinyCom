@@ -8,11 +8,11 @@ appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 idd: 1441386723
 released: 2019-05-30
-updated: 2021-10-12
-version: "1.0.29"
+updated: 2021-10-22
+version: "1.0.30"
 stars: 5
 reviews: 6
-size: 6417408
+size: 6421504
 website: https://skilling.com
 repository: 
 issue: 

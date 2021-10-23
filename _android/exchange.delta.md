@@ -10,7 +10,7 @@ released: 2021-05-07
 updated: 2021-08-25
 version: "1.4.2"
 stars: 3.7
-ratings: 176
+ratings: 177
 reviews: 119
 size: 22M
 website: https://www.delta.exchange/

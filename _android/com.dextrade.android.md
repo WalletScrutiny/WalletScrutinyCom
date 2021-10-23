@@ -9,9 +9,9 @@ appId: com.dextrade.android
 released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
-stars: 3.1
-ratings: 122
-reviews: 81
+stars: 3.2
+ratings: 124
+reviews: 82
 size: 1.2M
 website: https://dex-trade.com/
 repository: 

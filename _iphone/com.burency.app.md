@@ -10,8 +10,8 @@ idd: 1548673602
 released: 2021-01-20
 updated: 2021-03-23
 version: "1.0.1"
-stars: 4.6087
-reviews: 23
+stars: 4.625
+reviews: 24
 size: 74470400
 website: https://burency.com/
 repository: 

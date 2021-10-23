@@ -4,7 +4,7 @@ title: "Cofinex Exchange"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.app.cofinexexchange34
 released: 2021-02-12
 updated: 2021-02-12
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.app.cofinexexchange34.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

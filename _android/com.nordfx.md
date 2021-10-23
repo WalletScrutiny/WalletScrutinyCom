@@ -9,8 +9,8 @@ appId: com.nordfx
 released: 2021-02-28
 updated: 2021-10-05
 version: "12"
-stars: 4.1
-ratings: 121
+stars: 4.0
+ratings: 125
 reviews: 33
 size: 37M
 website: https://nordfx.com/

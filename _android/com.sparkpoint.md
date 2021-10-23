@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "SparkPoint - Cryptocurrency Wallet & DApps Browser"
+title: "SparkPoint Crypto Wallet"
 altTitle: 
 authors:
 - leo
