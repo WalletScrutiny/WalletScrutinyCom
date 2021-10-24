@@ -11,7 +11,7 @@ window.wallets.sort((a, b) => {
       // sort by platform
       platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
       // by verdict within platform
-      || verdictOrder.indexOf(a.folder) - verdictOrder.indexOf(b.folder)
+      || verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
       // if available, by users (Currently only Android)
       || diff(b.users, a.users)
       // if available, by ratings and reviews
@@ -32,22 +32,22 @@ window.wallets.forEach(e => {
     window.platformObs.push(e.folder)
   }
   if (e.wsId) {
-    var n = e.wsId
-    var i = readerRec.indexOf(n)
-    if (n.length > 0 && i < 0) {
+    const wsId = e.wsId
+    var i = readerRec.indexOf(wsId)
+    if (wsId.length > 0 && i < 0) {
       window.orderedObs.push(e)
-      readerRec.push(n)
+      readerRec.push(wsId)
     } else {
       window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e]
       window.orderedObs[i]['ignore'] = true
     }
   } else if (e.appId && e.appId.length > 0) {
-    var n = e.appId
+    const appId = e.appId
     _id++
     var i = readerRec.indexOf(_id)
-    if (n.length > 0 && i < 0) {
+    if (appId.length > 0 && i < 0) {
       window.orderedObs.push(e)
-      readerRec.push(n)
+      readerRec.push(appId)
     }
   }
 })
