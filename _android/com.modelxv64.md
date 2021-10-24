@@ -9,8 +9,8 @@ appId: com.modelxv64
 released: 2020-05-29
 updated: 2021-03-18
 version: "1.6.9"
-stars: 3.1
-ratings: 7
+stars: 3.2
+ratings: 8
 reviews: 3
 size: 14M
 website: 

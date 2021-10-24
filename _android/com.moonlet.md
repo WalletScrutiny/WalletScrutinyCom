@@ -9,7 +9,7 @@ appId: com.moonlet
 released: 2020-04-21
 updated: 2021-10-07
 version: "1.5.18"
-stars: 3.9
+stars: 3.8
 ratings: 582
 reviews: 332
 size: 37M

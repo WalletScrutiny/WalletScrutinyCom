@@ -11,8 +11,8 @@ released: 2017-08-30
 updated: 2021-10-15
 version: "3.116.0"
 stars: 4.1
-ratings: 179050
-reviews: 62987
+ratings: 179590
+reviews: 63192
 size: 113M
 website: https://www.crypto.com
 repository: 
@@ -20,7 +20,7 @@ issue:
 icon: co.mona.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-24
 signer: 
 reviewArchive:
 
@@ -58,3 +58,10 @@ wallet.
 With high certainty this is not a wallet but a custodial service.
 
 Our verdict: **not verifiable**.
+
+The provider has a family of three apps that we triple-checked to be linked from
+their website:
+
+* {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}
+* {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}
+* {% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}

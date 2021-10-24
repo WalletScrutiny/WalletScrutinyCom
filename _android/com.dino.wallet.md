@@ -10,8 +10,8 @@ released: 2021-05-30
 updated: 2021-08-28
 version: "1.26"
 stars: 4.9
-ratings: 1583
-reviews: 1133
+ratings: 1584
+reviews: 1134
 size: 34M
 website: https://www.dinowallet.com/
 repository: 

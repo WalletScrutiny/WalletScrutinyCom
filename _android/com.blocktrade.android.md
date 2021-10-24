@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.blocktrade.android
 released: 2018-10-28
-updated: 2021-09-06
-version: "1.3.4-73-g828f2"
+updated: 2021-10-22
+version: "1.3.4-77-g0476"
 stars: 4.2
 ratings: 131
 reviews: 60

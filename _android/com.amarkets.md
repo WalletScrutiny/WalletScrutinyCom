@@ -9,9 +9,9 @@ appId: com.amarkets
 released: 2019-05-31
 updated: 2021-10-19
 version: "Varies with device"
-stars: 4.6
-ratings: 627
-reviews: 231
+stars: 4.5
+ratings: 654
+reviews: 236
 size: Varies with device
 website: https://www.amarkets.com/
 repository: 

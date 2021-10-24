@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: exodusmovement.exodus
 released: 2019-06-06
-updated: 2021-10-07
-version: "21.10.7"
+updated: 2021-10-21
+version: "21.10.21"
 stars: 4.6
-ratings: 70775
-reviews: 21822
+ratings: 70989
+reviews: 21874
 size: 45M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement

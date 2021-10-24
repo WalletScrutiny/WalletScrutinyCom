@@ -8,11 +8,11 @@ appId: com.swissborg.ios.community
 appCountry: ch
 idd: 1454645575
 released: 2019-03-28
-updated: 2021-10-01
-version: "2.1.0"
+updated: 2021-10-22
+version: "2.1.1"
 stars: 4.79795
 reviews: 391
-size: 143198208
+size: 142444544
 website: https://cryptochallenge.app
 repository: 
 issue: 

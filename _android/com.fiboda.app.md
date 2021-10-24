@@ -9,8 +9,8 @@ appId: com.fiboda.app
 released: 2021-01-14
 updated: 2021-07-08
 version: "1.0.5"
-stars: 4.6
-ratings: 282
+stars: 4.7
+ratings: 286
 reviews: 30
 size: 44M
 website: 

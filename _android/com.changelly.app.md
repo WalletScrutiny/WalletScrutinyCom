@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Changelly: Buy Bitcoin BTC & Fast Crypto Exchange"
+title: "Buy Bitcoin & Crypto Exchange"
 altTitle: 
 authors:
 
@@ -9,9 +9,9 @@ appId: com.changelly.app
 released: 2018-08-28
 updated: 2021-10-01
 version: "2.7.10"
-stars: 4.8
-ratings: 3400
-reviews: 1783
+stars: 4.7
+ratings: 3412
+reviews: 1788
 size: 44M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2018-04-13
 updated: 2021-06-29
 version: "2.0.5"
 stars: 3.7
-ratings: 363
-reviews: 186
+ratings: 364
+reviews: 187
 size: 38M
 website: https://trade.mn/
 repository: 

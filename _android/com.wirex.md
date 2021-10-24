@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Wirex Multicurrency Crypto Wallet"
+title: "Wirex Multicurrency Wallet"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2016-03-31
 updated: 2021-10-06
 version: "3.24"
 stars: 3.6
-ratings: 22624
-reviews: 12311
+ratings: 22645
+reviews: 12323
 size: 182M
 website: https://wirexapp.com/en
 repository: 

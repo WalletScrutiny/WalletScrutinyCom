@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.ascendex.exchange
 released: 2021-04-28
-updated: 2021-09-30
+updated: 2021-10-23
 version: "2.6.6"
-stars: 4.0
-ratings: 2501
-reviews: 892
+stars: 4.3
+ratings: 2607
+reviews: 927
 size: 47M
 website: https://ascendex.com
 repository: 
