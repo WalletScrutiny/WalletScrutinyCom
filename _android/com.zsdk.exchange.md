@@ -9,9 +9,9 @@ appId: com.zsdk.exchange
 released: 2019-01-18
 updated: 2021-09-29
 version: "3.1.1"
-stars: 2.9
-ratings: 177
-reviews: 108
+stars: 3.0
+ratings: 179
+reviews: 109
 size: 51M
 website: https://www.zbg.com/
 repository: 

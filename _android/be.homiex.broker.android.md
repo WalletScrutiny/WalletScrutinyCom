@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: be.homiex.broker.android.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-14**: This app is no more available.
 

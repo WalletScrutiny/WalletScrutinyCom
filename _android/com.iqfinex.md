@@ -18,15 +18,10 @@ repository:
 issue: 
 icon: com.iqfinex.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
-- date: 2021-04-13
-  version: "1.0.4"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,4 +32,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-13**: This app is no more.
 

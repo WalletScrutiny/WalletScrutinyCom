@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: jax.wallet.liberty.png
 bugbounty: 
-verdict: fake
-date: 2021-10-05
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
-
+- date: 2021-10-05
+  version: "12.003"
+  appHash: 
+  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
+  verdict: fake
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-14**: This app is no more available.
 
 Funny enough this app is not called "Jaxx". Try searching for "Jaxx" here or on
 Google Play. It won't show up. It has some invisible symbols between the "Ja"

@@ -19,11 +19,16 @@ repository:
 issue: 
 icon: com.xmzys.binance73.png
 bugbounty: 
-verdict: fake
-date: 2021-07-24
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
-
+- date: 2021-07-24
+  version: "2.0"
+  appHash: 
+  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
+  verdict: fake
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +39,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-14**: This app is no more available.
 
 This app "{{ page.title }}" clearly tries to imitate
 {% include walletLink.html wallet='android/com.binance.us' verdict='true' %} or

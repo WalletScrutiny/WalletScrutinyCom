@@ -10,8 +10,8 @@ released: 2019-05-13
 updated: 2021-07-21
 version: "4.9.1"
 stars: 1.9
-ratings: 733
-reviews: 382
+ratings: 740
+reviews: 388
 size: 25M
 website: https://www.biki.cc/
 repository: 

@@ -10,8 +10,8 @@ released: 2015-01-01
 updated: 2021-09-30
 version: "3.7.3"
 stars: 3.8
-ratings: 872
-reviews: 482
+ratings: 880
+reviews: 484
 size: 79M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/

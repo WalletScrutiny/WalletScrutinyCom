@@ -10,7 +10,7 @@ released: 2017-11-02
 updated: 2021-07-28
 version: "4.2.54298"
 stars: 4.5
-ratings: 382
+ratings: 383
 reviews: 135
 size: 55M
 website: https://fondex.com/en/

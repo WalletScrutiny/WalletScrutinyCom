@@ -4,13 +4,13 @@ title: "Servicoin - Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.servicoin.wallet
 released: 2021-07-31
 updated: 2021-07-31
 version: "0.21.0"
-stars: 4.4
-ratings: 30
+stars: 4.5
+ratings: 31
 reviews: 19
 size: 48M
 website: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.servicoin.wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:

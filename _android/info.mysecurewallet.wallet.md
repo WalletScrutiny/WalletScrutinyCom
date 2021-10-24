@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: info.mysecurewallet.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-23
 signer: 
 reviewArchive:
 - date: 2021-03-08

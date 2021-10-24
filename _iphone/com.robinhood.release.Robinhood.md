@@ -10,8 +10,8 @@ idd: 938003185
 released: 2014-12-11
 updated: 2021-10-18
 version: "9.37.1"
-stars: 4.14218
-reviews: 3773034
+stars: 4.14349
+reviews: 3780500
 size: 263489536
 website: https://robinhood.com/
 repository: 

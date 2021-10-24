@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.velas.mobile_wallet
 released: 2020-11-17
-updated: 2021-07-20
-version: "2.0.0"
+updated: 2021-10-22
+version: "2.0.9"
 stars: 4.8
 ratings: 464
 reviews: 419
-size: 57M
+size: 38M
 website: 
 repository: 
 issue: 

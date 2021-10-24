@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.kikitrade
 released: 2020-07-24
-updated: 2021-09-15
-version: "3.2.4"
-stars: 4.8
-ratings: 1126
-reviews: 160
-size: 59M
+updated: 2021-10-18
+version: "3.4.1"
+stars: 4.7
+ratings: 1138
+reviews: 163
+size: 55M
 website: https://www.kikitrade.com/
 repository: 
 issue: 

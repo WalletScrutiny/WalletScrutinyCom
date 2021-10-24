@@ -1,25 +1,26 @@
 ---
-wsId: cryptocom
+wsId: cryptocomexchange
 title: "Crypto.com Exchange"
 altTitle: 
 authors:
 - danny
+- leo
 users: 100000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-10-08
-version: "1.3.3"
-stars: 4.1
-ratings: 947
-reviews: 402
-size: 65M
+updated: 2021-10-19
+version: "1.3.4"
+stars: 4.2
+ratings: 976
+reviews: 410
+size: 66M
 website: https://crypto.com/
 repository: 
 issue: 
 icon: com.crypto.exchange.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-15
+date: 2021-10-24
 signer: 
 reviewArchive:
 
@@ -57,3 +58,9 @@ In this stage of our app development, we hold the private keys, just like Coinba
 
 Our verdict for this specific Crypto.com app, is **custodial** and thus **not verifiable**.
 
+The provider has a family of three apps that we triple-checked to be linked from
+their website:
+
+* {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}
+* {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}
+* {% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}

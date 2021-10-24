@@ -9,9 +9,9 @@ appId: com.bitcoin_investment
 released: 2019-08-10
 updated: 2019-08-10
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 5
+reviews: 2
 size: 4.1M
 website: 
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cmlatte.bitpre.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-13**: This app is no more.
 

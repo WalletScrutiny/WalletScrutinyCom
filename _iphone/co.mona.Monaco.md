@@ -10,8 +10,8 @@ idd: 1262148500
 released: 2017-08-31
 updated: 2021-10-18
 version: "3.116"
-stars: 4.36183
-reviews: 53348
+stars: 4.35806
+reviews: 53486
 size: 300957696
 website: https://crypto.com/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: co.mona.Monaco.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-01-11
+date: 2021-10-24
 signer: 
 reviewArchive:
 
@@ -33,6 +33,4 @@ redirect_from:
 
 ---
 
-As their app {% include walletLink.html wallet='android/co.mona.android' %} on Play Store,
-this app is custodial
-and thus **not verifiable**.
+{% include copyFromAndroid.html %}

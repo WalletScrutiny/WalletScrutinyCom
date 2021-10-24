@@ -4,14 +4,14 @@ title: "Cryptex Exchange - Buy and Sell Bitcoin"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: net.cryptex.exchange.twa
 released: 2021-04-29
 updated: 2021-04-29
 version: "3.0.0.0"
-stars: 4.8
-ratings: 5
-reviews: 5
+stars: 4.9
+ratings: 10
+reviews: 8
 size: 2.6M
 website: 
 repository: 

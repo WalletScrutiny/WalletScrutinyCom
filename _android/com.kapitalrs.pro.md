@@ -9,9 +9,9 @@ appId: com.kapitalrs.pro
 released: 2017-02-07
 updated: 2020-10-18
 version: "90.1.085"
-stars: 3.9
-ratings: 728
-reviews: 271
+stars: 4.0
+ratings: 730
+reviews: 272
 size: 5.6M
 website: https://www.kapitalrs.com
 repository: 

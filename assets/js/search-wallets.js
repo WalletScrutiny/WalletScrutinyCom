@@ -81,7 +81,7 @@ function searchCatalogue(input) {
       var matchCounter = 0
       window.orderedObs.forEach(wallet => {
         if (wallet.title) {
-          let searchableTerms = `${wallet.title} ${wallet.appId} ${wallet.folder} ${wallet.website} ${wallet.category} ${wallet.verdict}`
+          let searchableTerms = `${wallet.title} ${wallet.folder}/${wallet.appId} ${wallet.website}`
 
           if (matchCounter < 1)
             result.innerHTML = "<li><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>"
@@ -147,7 +147,6 @@ function searchCatalogue(input) {
 }
 
 function heroUX(termInput) {
-
   if (termInput.value.length > 0) {
     searchCatalogue(termInput.value)
   }

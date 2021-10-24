@@ -10,8 +10,8 @@ released: 2019-04-04
 updated: 2021-10-04
 version: "2.3.15"
 stars: 4.2
-ratings: 311
-reviews: 249
+ratings: 315
+reviews: 251
 size: 15M
 website: https://blockbank.ai/
 repository: 
