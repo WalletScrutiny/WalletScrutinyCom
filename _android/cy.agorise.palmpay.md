@@ -62,7 +62,7 @@ It then asked us to "choose our desired smartcoin." You are then asked to "selec
 
 Once that is set up, the app shows an interface saying "pay with" and then you choose your selected coin or payment option.
 
-Searching the app ID for PalmPay on Github [yielded 0 results.](https://github.com/search?q=cy.agorise.palmpay) With no mention of the project being open-source, it's safe for us to assume that there is **no publicly available source code.**
+With their website not claiming to be open source and a search for the app ID on Github [yielding 0 results](https://github.com/search?q=cy.agorise.palmpay) we assume there is **no publicly available source code**.
 
 ## Verdict
 

@@ -46,7 +46,7 @@ It is also a dApp browser.
 
 ## The App
 
-Once we downloaded the app, we are presented with the option to import a new wallet or create a new one. We are then presented with an option to set display tokens which include mostly Ethereum tokens, such as BTCB token, BIFI, BUSD token, and others. Clicking on Settings and then Add Wallet allows you to create new BNB wallets.
+Once we downloaded the app, we are presented with the option to import a wallet or create a new one. We are then presented with an option to set display tokens which include mostly Ethereum tokens, such as BTCB token, BIFI, BUSD token, and others. Clicking on Settings and then Add Wallet allows you to create new BNB wallets.
 
 We could not find any BTC wallet.
 
