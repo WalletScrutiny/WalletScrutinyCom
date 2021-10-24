@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcan.app.png
 bugbounty: 
-verdict: nosource
+verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
@@ -67,4 +67,4 @@ Absent credible proof or documentation where the private keys are stored, we rea
 
 ## Verdict
 
-While waiting for their reply, we are going to assume that their statement of providing the private keys to the user is accurate and true. This makes the app self-custodial. However, we **were not able to locate the source code of the app**.
+While waiting for their reply, we are going to assume that as the keys are not actually accessible or viewable at the moment. In that case, we are compelled to mark this app as **custodial** unless there is further update or clarification from the providers. Thus, this app is **not verifiable.**
