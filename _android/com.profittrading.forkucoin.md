@@ -4,14 +4,14 @@ title: "ProfitTrading For KuCoin - Trade much faster"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.profittrading.forkucoin
 released: 2020-12-27
 updated: 2021-08-17
 version: "1.0.10"
-stars: 4.6
-ratings: 42
-reviews: 12
+stars: 4.5
+ratings: 43
+reviews: 13
 size: 22M
 website: https://profittradingapp.com/
 repository: 

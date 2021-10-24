@@ -10,8 +10,8 @@ released: 2021-06-04
 updated: 2021-09-02
 version: "1.39b"
 stars: 4.0
-ratings: 3044
-reviews: 1577
+ratings: 3120
+reviews: 1603
 size: 25M
 website: http://cryptomining.tilda.ws/crypto
 repository: 

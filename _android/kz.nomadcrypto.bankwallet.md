@@ -4,7 +4,7 @@ title: "Nomad Wallet - Bitcoin, DeFi & Crypto Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: kz.nomadcrypto.bankwallet
 released: 2021-07-23
 updated: 2021-09-26

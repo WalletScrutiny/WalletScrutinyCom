@@ -9,9 +9,9 @@ appId: com.bitpreco.bitprecoAppAndroid
 released: 2021-02-21
 updated: 2021-08-29
 version: "1.8.16"
-stars: 4.2
-ratings: 510
-reviews: 353
+stars: 4.1
+ratings: 513
+reviews: 356
 size: 63M
 website: https://bitpreco.com/
 repository: 

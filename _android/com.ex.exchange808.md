@@ -9,9 +9,9 @@ appId: com.ex.exchange808
 released: 2021-02-03
 updated: 2021-10-22
 version: "2.0.9"
-stars: 4.2
-ratings: 178
-reviews: 103
+stars: 4.3
+ratings: 182
+reviews: 106
 size: 7.1M
 website: 
 repository: 

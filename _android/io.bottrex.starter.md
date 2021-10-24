@@ -10,7 +10,7 @@ released: 2019-05-20
 updated: 2021-10-08
 version: "0.4.5"
 stars: 3.8
-ratings: 82
+ratings: 83
 reviews: 46
 size: 8.8M
 website: https://bottrex.net/en
