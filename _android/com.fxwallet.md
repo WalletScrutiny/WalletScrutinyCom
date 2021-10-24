@@ -82,7 +82,7 @@ We downloaded the app and were not able to register because we did not receive t
 
 ## Contact
 
-We [inquired FXWallet's twitter](https://twitter.com/BitcoinWalletz/status/1450714031371657216) concerning this contradiction in policy. We are still awaiting their reply.
+We [inquired FXWallet's twitter](https://twitter.com/BitcoinWalletz/status/1450775588784914447) concerning this contradiction in policy. We are still awaiting their reply.
 
 ## Verdict
 

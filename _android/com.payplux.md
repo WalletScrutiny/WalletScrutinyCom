@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.payplux.png
 bugbounty: 
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -58,4 +58,4 @@ We contacted PayPlux via [twitter](https://twitter.com/BitcoinWalletz/status/145
 
 ## Verdict
 
-Similar to Forex apps that allow cryptocurrency trading via CFDs, PayPlux does not provide the bitcoin wallet and therefore, **does not allow users to send or receive bitcoins**. Funding and withdrawal can only be done through fiat systems.
+Similar to Forex apps that allow cryptocurrency trading via CFDs, PayPlux does not provide the bitcoin wallet and therefore, **does not actually hold your assets**.

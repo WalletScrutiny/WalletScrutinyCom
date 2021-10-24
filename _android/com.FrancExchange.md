@@ -61,9 +61,7 @@ There is a shocking amount of Google Play reviews calling this out as a fraud:
   
 ## Verdict
 
-While these sources may not provide concrete evidence, it is impossible to test the app or view the website's content, as both are currently defunct. The site returns an error saying that 
-
-> **trade.francexchange.com** unexpectedly closed the connection.
+While these sources may not provide concrete evidence, it is impossible to test the app or view the website's content, as both are currently defunct. The site is currently unavailable.
 
 The app only returns an error saying "Webpage not available."
 
