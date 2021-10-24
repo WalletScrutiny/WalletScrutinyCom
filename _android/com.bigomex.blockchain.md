@@ -60,4 +60,4 @@ It is possible to [withdraw BTC](https://bigomex.zendesk.com/hc/en-us/articles/3
 
 ## Verdict
 
-ID verification, plus termination clauses in the Terms of Use, make this contract trading platform a **custodial** service. The app **cannot be verified**.
+We can't find statements about self-custody and ID verification plus termination clauses in the Terms of Use make this "contract trading platform" look like a **custodial** service. The app **cannot be verified**.
