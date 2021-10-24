@@ -8,10 +8,10 @@ window.wallets.sort((a, b) => {
     return 0
   }
   return (
-      // sort by platform
-      platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
       // by verdict within platform
-      || verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+      verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+      // sort by platform
+      || platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
       // if available, by users (Currently only Android)
       || diff(b.users, a.users)
       // if available, by ratings and reviews
