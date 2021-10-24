@@ -19,7 +19,7 @@ issue:
 icon: com.paritex.paritexapp.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-20
+date: 2021-10-24
 signer: 
 reviewArchive:
 

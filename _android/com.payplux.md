@@ -19,7 +19,7 @@ issue:
 icon: com.payplux.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-18
+date: 2021-10-24
 signer: 
 reviewArchive:
 

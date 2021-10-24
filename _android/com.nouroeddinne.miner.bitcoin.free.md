@@ -19,7 +19,7 @@ issue:
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-18
+date: 2021-10-24
 signer: 
 reviewArchive:
 

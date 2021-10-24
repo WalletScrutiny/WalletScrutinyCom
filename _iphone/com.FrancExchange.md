@@ -19,7 +19,7 @@ issue:
 icon: com.FrancExchange.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-10-20
+date: 2021-10-24
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.nano.moonxbt.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-10-24
 signer: 
 reviewArchive:
 

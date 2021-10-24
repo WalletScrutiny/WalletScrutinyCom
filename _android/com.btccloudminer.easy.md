@@ -19,7 +19,7 @@ issue:
 icon: com.btccloudminer.easy.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-10-24
 signer: 
 reviewArchive:
 
