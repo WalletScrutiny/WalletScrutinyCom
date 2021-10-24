@@ -69,7 +69,7 @@ Upon installation of the app, we are asked to create or import a wallet. The bac
 
 A referral option is available.
 
-AML/KYC is also policies increase transaction limits.
+AML/KYC policies also increase transaction limits.
 
 ## Verdict
 

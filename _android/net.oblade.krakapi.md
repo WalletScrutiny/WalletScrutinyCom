@@ -58,8 +58,6 @@ The app is similar to, and has the same functionality as:
 
 The app needs a Kraken API-Key and Private Key. 
 
-Adding ads gives the user the ability to have more functionality on the app.
-
 ## Verdict
 
 This app **does not have the functionality of a Bitcoin wallet**.

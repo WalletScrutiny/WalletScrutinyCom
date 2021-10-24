@@ -15,10 +15,10 @@ reviews: 155
 size: 69M
 website: https://onekey.so/
 repository: https://github.com/OneKeyHQ/wallet-deprecated-
-issue: 
+issue: https://github.com/OneKeyHQ/android_app/issues/1
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -33,6 +33,7 @@ redirect_from:
 
 ---
 
+This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
 
 ## App Description
 
@@ -62,5 +63,5 @@ The first options were to Create or Restore a wallet. If you select 'Create' you
 
 ## Verdict
 
-This app is evidently **self-custodial**. Creating a gitlab issue.
+This app is evidently **self-custodial**. The repository only contains *one commit* from March 26, 2021 and the Google Play app has last been updated on June 29, 2021. Due to **missing sources,** we conclude that this app is **not verifiable.**
 

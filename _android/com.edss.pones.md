@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.edss.pones.png
 bugbounty: 
-verdict: nowallet
+verdict: fake
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -38,7 +38,7 @@ redirect_from:
 
 ## Notes
 
-- This app's logo and name resemble that of {% include walletLink.html wallet='android/com.mexcpro.client' verdict='true' %}
+- This app's logo and name greatly resemble that of {% include walletLink.html wallet='android/com.mexcpro.client' verdict='true' %}
 - The app does not have a website listed on its Google Play page.
 
 ## App Description
@@ -47,7 +47,7 @@ From the description in Google Play:
 
 > MX exchange is a secure exchange built by senior Silicon Valley technology, a convenient bitcoin exchange where you can safely buy and sell bitcoins
 
-The site appears to be an exchange.
+This app claimed to be an exchange.
 
 ## The App
 
@@ -55,4 +55,4 @@ We tried the app **but it only contains the prices of various cryptocurrencies**
 
 ## Verdict
 
-The lack of information and the sparse functionalities with no ability to send, receive, or even exchange means that **this app does not have a bitcoin wallet.**
+The lack of information and the sparse functionalities with no ability to send, receive, or even exchange means that this app does not have a bitcoin wallet. This is contradictory to its name and claims in the description. As the app has not been honest with it's actual features, we conclude that it is a **fake exchange.**

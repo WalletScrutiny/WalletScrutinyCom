@@ -14,11 +14,11 @@ ratings: 1524
 reviews: 1305
 size: 37M
 website: https://leadwallet.io/
-repository: https://github.com/leadwallet/leadwallet-core
+repository: 
 issue: 
 icon: com.leadWallet.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -32,7 +32,11 @@ providerReddit: LeadWallet
 redirect_from:
 
 ---
+This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 
 
+As seen on the [wallet page](https://leadwallet.io/wallet), the Beta version will be **discontinued.**
+
+> The beta version of Lead Wallet App will be discontinued shortly, kindly download our mainnet app...
 
 ## App Description
 
@@ -50,5 +54,4 @@ We downloaded the app. It offers two choices: create a wallet or import a wallet
 
 ## Verdict
 
-The github repository has been provided for this app. Will create an issue.
-
+The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, we assume that this app is closed source.
