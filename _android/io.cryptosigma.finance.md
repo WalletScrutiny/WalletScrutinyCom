@@ -46,7 +46,7 @@ This is what it says about private keys.
 
 > Private keys that control cryptocurrency stored in secure storage mechanisms provide by OS
 
-They don't have a listed website and their [domain email](https://sigmanetwork.io) is parked.
+They don't have a listed website and their support email [domain](https://sigmanetwork.io) is parked.
 
 ## The App
 

@@ -67,6 +67,6 @@ The seed phrase is composed of 24 words.
 
 ## Verdict
 
-This app is self-custodial. Now creating an issue for issue on Gitlab.
+This app is self-custodial. We are trying to find out if it is reproducible [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/362).
 
 
