@@ -8,11 +8,11 @@ appId: com.coinpayapp.CoinPay
 appCountry: 
 idd: 1477731032
 released: 2019-12-04
-updated: 2021-07-24
-version: "2021.07.23"
+updated: 2021-10-21
+version: "2021.10.19"
 stars: 4.05084
 reviews: 118
-size: 21129216
+size: 22103040
 website: https://www.coinpayapp.com
 repository: 
 issue: 

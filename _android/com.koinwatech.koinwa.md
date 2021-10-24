@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.koinwatech.koinwa
 released: 2021-08-08
-updated: 2021-09-29
-version: "2.0.4"
+updated: 2021-10-20
+version: "2.0.5"
 stars: 4.7
-ratings: 87
-reviews: 65
+ratings: 89
+reviews: 67
 size: 52M
 website: 
 repository: 

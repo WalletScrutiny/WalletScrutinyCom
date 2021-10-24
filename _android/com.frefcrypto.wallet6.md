@@ -1,9 +1,9 @@
 ---
 wsId: 
 title: "Crypto.com Wallet Bitcoin & Ethereum"
-altTitle: 
+altTitle: "(Fake) Crypto.com Wallet Bitcoin & Ethereum"
 authors:
-
+- leo
 users: 100
 appId: com.frefcrypto.wallet6
 released: 2021-09-10
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.frefcrypto.wallet6.png
 bugbounty: 
-verdict: fewusers
-date: 2021-10-05
+verdict: fake
+date: 2021-10-24
 signer: 
 reviewArchive:
 
@@ -34,3 +34,5 @@ redirect_from:
 ---
 
 
+This app pretends to be by name and logo
+{% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}.

@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.riodefi.store
 released: 2021-04-29
-updated: 2021-10-13
-version: "2.0.2"
+updated: 2021-10-19
+version: "2.0.4"
 stars: 4.4
 ratings: 42
 reviews: 29

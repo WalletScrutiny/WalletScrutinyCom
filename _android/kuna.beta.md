@@ -4,14 +4,14 @@ title: "Kuna.io — Easy way to buy&sell BTC ETH USDT"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: kuna.beta
 released: 2019-07-22
 updated: 2021-09-21
 version: "1.4.2"
-stars: 4.4
-ratings: 752
-reviews: 448
+stars: 4.3
+ratings: 768
+reviews: 459
 size: 88M
 website: https://kuna.io
 repository: 

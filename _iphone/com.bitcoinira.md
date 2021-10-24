@@ -10,8 +10,8 @@ idd: 1534638949
 released: 2021-06-20
 updated: 2021-09-29
 version: "1.3.10"
-stars: 4.38462
-reviews: 39
+stars: 4.4
+reviews: 40
 size: 32653312
 website: https://bitcoinira.com/
 repository: 

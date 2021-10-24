@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coini — Bitcoin / Cryptocurrencies"
+title: "Coini — Cryptocurrencies"
 altTitle: 
 authors:
 
@@ -10,7 +10,7 @@ released: 2018-02-04
 updated: 2021-10-18
 version: "2.3.2"
 stars: 4.6
-ratings: 248
+ratings: 249
 reviews: 125
 size: 46M
 website: 

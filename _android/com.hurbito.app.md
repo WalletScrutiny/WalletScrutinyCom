@@ -9,9 +9,9 @@ appId: com.hurbito.app
 released: 2021-01-20
 updated: 2021-01-20
 version: "1.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 5
+reviews: 5
 size: 8.2M
 website: 
 repository: 

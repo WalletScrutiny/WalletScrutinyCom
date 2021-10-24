@@ -4,14 +4,14 @@ title: "Paybis: Buy & Sell Bitcoin | Track Prices and more"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.paybis
 released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
 stars: 3.3
-ratings: 15
-reviews: 10
+ratings: 20
+reviews: 12
 size: 6.1M
 website: 
 repository: 

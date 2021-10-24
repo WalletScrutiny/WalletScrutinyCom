@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto.com - Buy Bitcoin Now"
+title: "(Fake) Crypto.com - Buy Bitcoin Now"
 altTitle: 
 authors:
 
@@ -34,4 +34,7 @@ redirect_from:
 ---
 
 
-**Update 2021-08-17**: This app is not the the Play Store anymore
+**Update 2021-08-17**: This app is not the the Play Store anymore and by name
+apparently tried to imitate
+{% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}.
+

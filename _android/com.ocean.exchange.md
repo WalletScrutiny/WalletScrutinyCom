@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ocean.exchange
 released: 2019-07-04
-updated: 2021-06-29
-version: "1.4.23"
+updated: 2021-10-21
+version: "1.4.24"
 stars: 4.0
 ratings: 128
 reviews: 65
-size: 22M
+size: 23M
 website: https://oceanex.pro/
 repository: 
 issue: 

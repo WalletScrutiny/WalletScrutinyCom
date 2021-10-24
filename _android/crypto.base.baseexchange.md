@@ -9,9 +9,9 @@ appId: crypto.base.baseexchange
 released: 2019-06-05
 updated: 2021-09-20
 version: "4.1"
-stars: 4.1
-ratings: 133
-reviews: 65
+stars: 4.2
+ratings: 134
+reviews: 66
 size: 24M
 website: 
 repository: 

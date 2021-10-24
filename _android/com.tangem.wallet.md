@@ -10,8 +10,8 @@ released: 2018-10-24
 updated: 2021-10-06
 version: "3.22"
 stars: 4.6
-ratings: 69
-reviews: 21
+ratings: 70
+reviews: 22
 size: 19M
 website: https://tangem.com
 repository: 

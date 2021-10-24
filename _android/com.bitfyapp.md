@@ -9,9 +9,9 @@ appId: com.bitfyapp
 released: 2019-10-14
 updated: 2021-10-18
 version: "3.10.18"
-stars: 4.0
-ratings: 1013
-reviews: 665
+stars: 4.3
+ratings: 1025
+reviews: 668
 size: 32M
 website: https://bitfy.app
 repository: 

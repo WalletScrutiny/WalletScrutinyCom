@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.avatrade.mobile
 released: 2017-05-23
-updated: 2021-10-07
+updated: 2021-10-20
 version: "95.7.0"
 stars: 4.7
-ratings: 6670
-reviews: 4750
+ratings: 6687
+reviews: 4759
 size: 19M
 website: 
 repository: 

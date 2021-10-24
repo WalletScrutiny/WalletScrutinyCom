@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.bbx.bbx.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-10-10
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
-
+- date: 2021-10-10
+  version: "1.3.1"
+  appHash: 
+  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
+  verdict: custodial
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +37,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-10-14**: This app is no more available.
+
 
 {% include copyFromAndroid.html %}

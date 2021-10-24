@@ -10,7 +10,7 @@ released: 2019-06-21
 updated: 2021-03-18
 version: "1.0.25"
 stars: 3.7
-ratings: 487
+ratings: 488
 reviews: 176
 size: 20M
 website: https://korvio.io/

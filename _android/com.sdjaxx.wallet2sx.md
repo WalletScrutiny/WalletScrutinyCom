@@ -4,7 +4,7 @@ title: "Jaxx Liberty Wallet"
 altTitle: "(Fake) Jaxx Liberty Wallet"
 authors:
 - leo
-users: 100
+users: 500
 appId: com.sdjaxx.wallet2sx
 released: 2021-09-10
 updated: 2021-09-11

@@ -10,8 +10,8 @@ released: 2018-03-23
 updated: 2021-10-15
 version: "3.1.0"
 stars: 4.0
-ratings: 194
-reviews: 112
+ratings: 193
+reviews: 111
 size: 16M
 website: https://cryptology.com/
 repository: 

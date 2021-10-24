@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-10-05
+verdict: defunct
+date: 2021-10-22
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-14**: This app is no more available.
 
