@@ -19,7 +19,7 @@ issue:
 icon: co.mona.Monaco.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-01-11
+date: 2021-10-24
 signer: 
 reviewArchive:
 
@@ -33,6 +33,4 @@ redirect_from:
 
 ---
 
-As their app {% include walletLink.html wallet='android/co.mona.android' %} on Play Store,
-this app is custodial
-and thus **not verifiable**.
+{% include copyFromAndroid.html %}
