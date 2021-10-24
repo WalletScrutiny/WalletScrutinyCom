@@ -42,7 +42,7 @@ redirect_from:
 
 ## The App
 
-The app has very limited functionality and when we selected "Trade for Real Money" it brought a [screen with links](https://twitter.com/BitcoinWalletz/status/1451481334493310976) to eToro and Plus500. We suspect these to be affiliate links or if not, may have to do with referrals.
+The app has very limited functionality and when we selected "Trade for Real Money" it brought a [screen with links](https://twitter.com/BitcoinWalletz/status/1451481334493310976) to eToro and Plus500. We assume these are affiliate links and the way this app is making money.
 
 ## Verdict
 

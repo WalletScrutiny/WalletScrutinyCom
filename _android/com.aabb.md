@@ -65,7 +65,7 @@ The app has its own token, the AABB Gold Token which they say is "backed by $30 
 
 ## The App
 
-Upon installation of the app, we are asked to create or import a wallet. The backup phrase is only 6 words. There is BTC support as well as other coins and tokens.
+Upon installation of the app, we are asked to create or import a wallet. The backup phrase is only 6 words which means this app is at best not compatible with [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) compatible wallets and at worst can be easily hacked. There is BTC support as well as other coins and tokens.
 
 A referral option is available.
 
