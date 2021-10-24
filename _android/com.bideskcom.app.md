@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 
-**Update: The service is shutting down. 
+**Update 2021-10-22:** The service is shutting down. 
 
 [Twitter announcement](https://twitter.com/bideskcom/status/1443118839886016515)
 
