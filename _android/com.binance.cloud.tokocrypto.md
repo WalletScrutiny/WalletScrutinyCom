@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: tokocrypto
 title: "Tokocrypto - Bitcoin Regulated Trading Platform"
 altTitle: 
 authors:

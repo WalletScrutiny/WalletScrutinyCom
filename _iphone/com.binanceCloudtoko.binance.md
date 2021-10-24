@@ -1,9 +1,10 @@
 ---
-wsId: 
+wsId: tokocrypto
 title: "Tokocrypto"
 altTitle: 
 authors:
-
+- danny
+- leo
 appId: com.binanceCloudtoko.binance
 appCountry: ph
 idd: 1538556690
@@ -18,18 +19,19 @@ repository:
 issue: 
 icon: com.binanceCloudtoko.binance.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-22
+verdict: custodial
+date: 2021-10-24
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: tokocrypto
+providerLinkedIn: toko
+providerFacebook: TCDXOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}
