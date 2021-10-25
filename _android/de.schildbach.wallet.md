@@ -19,9 +19,14 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-09-18
+date: 2021-10-25
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-09-18
+  version: "8.17"
+  appHash: 5357e8a57e61df80d655cc7e477ed3f07f75e8e873429e4809a0f821e6d14fa8
+  gitRevision: 15f1fae4fd21afb01c56618c9eb7f9a0aca4287c
+  verdict: reproducible
 - date: 2021-09-18
   version: "8.16"
   appHash: ce81ad485b99f0995dccf101c97ef5e0fa17e4832aa1a84f3a3ef3176142439e
@@ -144,24 +149,24 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.17
-apkVersionCode: 817
+apkVersionName: 8.18
+apkVersionCode: 818
 verdict:        reproducible
-appHash:        5357e8a57e61df80d655cc7e477ed3f07f75e8e873429e4809a0f821e6d14fa8
-commit:         f14a8e8c203cee94360bfff5fa782282d3b53c25
+appHash:        f7178b9adaa88ab0a03486facb3857ac94ede677793ed0389878eb54e8023fb6
+commit:         33de888107de4c9cc8daf5f982161eac7527c5c4
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_817/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_817/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_817/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_817/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_818/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_818/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_818/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_818/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object f14a8e8c203cee94360bfff5fa782282d3b53c25
+object 33de888107de4c9cc8daf5f982161eac7527c5c4
 type commit
-tag v8.17
-tagger Andreas Schildbach <andreas@schildbach.de> 1631883691 +0200
+tag v8.18
+tagger Andreas Schildbach <andreas@schildbach.de> 1635102831 +0200
 
-8.17 release
+8.18 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
