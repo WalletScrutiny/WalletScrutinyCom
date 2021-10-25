@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: 비트맥스실시간가상화폐시세차트
 title: "비트맥스 - 실시간 가상화폐 시세 - 차트"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.bitmex.quote.lvrggd
 released: 2018-09-14
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -33,4 +33,8 @@ redirect_from:
 
 ---
 
+
+This app is no longer available on Google Play
+
+> We're sorry, the requested URL was not found on this server.
 
