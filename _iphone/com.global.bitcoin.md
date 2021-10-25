@@ -10,8 +10,8 @@ idd: 1536910503
 released: 2020-10-26
 updated: 2021-10-07
 version: "2.9.0"
-stars: 4.92
-reviews: 100
+stars: 4.92157
+reviews: 102
 size: 25680896
 website: https://bitcoin.global/
 repository: 
@@ -32,4 +32,5 @@ providerReddit: BITCOIN_GLOBAL
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

@@ -13,7 +13,7 @@ version: "2.0.1"
 stars: 
 reviews: 
 size: 14588928
-website: https://www.bitfortip.com/
+website: https://www.youtube.com/watch?v=62iDBVDlhIU
 repository: 
 issue: 
 icon: com.bitfortip.bitfortipapp.jpg
@@ -27,10 +27,11 @@ reviewArchive:
 providerTwitter: bitfortip
 providerLinkedIn: bitfortip
 providerFacebook: bitfortip
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
 

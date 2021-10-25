@@ -10,8 +10,8 @@ idd: 1492046549
 released: 2019-12-18
 updated: 2021-09-09
 version: "0.3.9"
-stars: 4.5
-reviews: 16
+stars: 4.29412
+reviews: 17
 size: 63639552
 website: https://ezdefi.com/
 repository: 

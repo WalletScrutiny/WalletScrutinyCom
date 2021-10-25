@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.mirlimited.muchbetter
 released: 2017-05-30
-updated: 2021-09-10
-version: "2.9.0"
+updated: 2021-10-25
+version: "2.10.0"
 stars: 4.1
-ratings: 8788
-reviews: 4442
+ratings: 8799
+reviews: 4449
 size: 29M
 website: https://www.muchbetter.com/
 repository: 

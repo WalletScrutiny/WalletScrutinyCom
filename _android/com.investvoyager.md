@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: com.investvoyager
 released: 
-updated: 2021-10-21
-version: "2.9.28"
+updated: 2021-10-24
+version: "3.0.1"
 stars: 4.5
-ratings: 8200
-reviews: 4086
-size: 50M
+ratings: 8216
+reviews: 4095
+size: 51M
 website: https://www.investvoyager.com/
 repository: 
 issue: 

@@ -11,7 +11,7 @@ updated: 2021-10-06
 version: "2.9.0"
 stars: 4.5
 ratings: 85
-reviews: 35
+reviews: 33
 size: 26M
 website: https://bitcoin.global/
 repository: 

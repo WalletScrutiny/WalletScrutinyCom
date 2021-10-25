@@ -19,7 +19,7 @@ issue:
 icon: io.cryptosigma.finance.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-21
+date: 2021-10-26
 signer: 
 reviewArchive:
 

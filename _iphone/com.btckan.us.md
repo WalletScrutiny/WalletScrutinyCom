@@ -10,8 +10,8 @@ idd: 1004852205
 released: 2015-06-24
 updated: 2021-09-11
 version: "8.0.57"
-stars: 4.97843
-reviews: 788
+stars: 4.97893
+reviews: 807
 size: 163636224
 website: https://bitkan.com/
 repository: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

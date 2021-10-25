@@ -11,7 +11,7 @@ updated: 2021-10-12
 version: "2.1.5"
 stars: 2.9
 ratings: 326
-reviews: 273
+reviews: 272
 size: 79M
 website: https://www.forextb.com/eu/
 repository: 

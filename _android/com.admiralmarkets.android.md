@@ -10,8 +10,8 @@ released: 2020-10-07
 updated: 2021-10-12
 version: "1.4.4"
 stars: 3.7
-ratings: 266
-reviews: 149
+ratings: 269
+reviews: 151
 size: 14M
 website: https://admiralmarkets.com/
 repository: 

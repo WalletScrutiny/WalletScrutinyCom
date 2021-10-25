@@ -9,9 +9,9 @@ appId: com.coinlist.trade
 released: 2020-08-10
 updated: 2021-05-19
 version: "2.0.3"
-stars: 2.6
-ratings: 2874
-reviews: 1915
+stars: 2.7
+ratings: 2889
+reviews: 1920
 size: 5.6M
 website: https://coinlist.co/
 repository: 

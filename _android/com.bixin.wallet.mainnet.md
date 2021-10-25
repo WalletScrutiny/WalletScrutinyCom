@@ -19,7 +19,7 @@ issue: https://github.com/OneKeyHQ/android_app/issues/1
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
 verdict: nosource
-date: 2021-08-02
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -32,6 +32,7 @@ providerReddit: OneKeyHQ
 redirect_from:
 
 ---
+
 
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
 

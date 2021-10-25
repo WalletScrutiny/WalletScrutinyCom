@@ -9,8 +9,8 @@ appId: com.coinfield.csapp
 released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
-stars: 3.6
-ratings: 1075
+stars: 3.7
+ratings: 1076
 reviews: 602
 size: 58M
 website: https://www.coinfield.com/

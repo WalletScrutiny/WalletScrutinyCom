@@ -19,7 +19,7 @@ issue:
 icon: com.quantdart.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-21
+date: 2021-10-26
 signer: 
 reviewArchive:
 

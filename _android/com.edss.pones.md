@@ -19,7 +19,7 @@ issue:
 icon: com.edss.pones.png
 bugbounty: 
 verdict: fake
-date: 2021-08-02
+date: 2021-10-26
 signer: 
 reviewArchive:
 

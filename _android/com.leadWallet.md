@@ -10,8 +10,8 @@ released: 2021-07-29
 updated: 2021-10-01
 version: "1.0.7"
 stars: 4.7
-ratings: 1524
-reviews: 1305
+ratings: 1525
+reviews: 1306
 size: 37M
 website: https://leadwallet.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.leadWallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-10-18
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: LeadWallet
 redirect_from:
 
 ---
+
+
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 
 
 As seen on the [wallet page](https://leadwallet.io/wallet), the Beta version will be **discontinued.**

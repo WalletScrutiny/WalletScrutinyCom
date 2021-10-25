@@ -19,7 +19,7 @@ issue:
 icon: com.AndroidCompany.OBMENik.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-02
+date: 2021-10-26
 signer: 
 reviewArchive:
 

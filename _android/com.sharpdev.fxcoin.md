@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
-verdict: nowallet
-date: 2021-09-03
+verdict: stale
+date: 2021-10-25
 signer: 
 reviewArchive:
-
+- date: 2021-09-03
+  version: "1.11.1"
+  appHash: 
+  gitRevision: 7c0963816b8ac39ce0f3fd52c3338e8fed5050e3
+  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 

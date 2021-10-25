@@ -10,8 +10,8 @@ idd: 1495986023
 released: 2020-01-30
 updated: 2021-10-13
 version: "1.17.1"
-stars: 4.40617
-reviews: 4988
+stars: 4.40564
+reviews: 4992
 size: 36243456
 website: https://www.anchorusd.com/
 repository: 

@@ -9,8 +9,8 @@ appId: net.walletharcomia.android
 released: 2020-11-01
 updated: 2020-11-23
 version: "1.0.4"
-stars: 4.0
-ratings: 5
+stars: 3.5
+ratings: 6
 reviews: 4
 size: 40M
 website: 

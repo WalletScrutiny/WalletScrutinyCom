@@ -10,8 +10,8 @@ idd: 1396178579
 released: 2019-02-13
 updated: 2021-10-22
 version: "3.0.1"
-stars: 4.74396
-reviews: 80783
+stars: 4.74425
+reviews: 81075
 size: 75155456
 website: https://www.investvoyager.com/
 repository: 

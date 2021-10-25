@@ -10,8 +10,8 @@ released: 2018-06-22
 updated: 2021-10-19
 version: "5.1.10"
 stars: 4.2
-ratings: 2621
-reviews: 495
+ratings: 2637
+reviews: 497
 size: 125M
 website: https://www.okcoin.com/
 repository: 

@@ -19,7 +19,7 @@ issue:
 icon: com.onekey.wallet.jpg
 bugbounty: 
 verdict: wip
-date: 2021-10-22
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -32,4 +32,5 @@ providerReddit: OneKeyHQ
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

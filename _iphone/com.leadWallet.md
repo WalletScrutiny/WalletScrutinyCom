@@ -19,7 +19,7 @@ issue:
 icon: com.leadWallet.jpg
 bugbounty: 
 verdict: wip
-date: 2021-10-22
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -27,11 +27,10 @@ reviewArchive:
 providerTwitter: leadwallet
 providerLinkedIn: leadwallet
 providerFacebook: 
-providerReddit: LeadWallet 
+providerReddit: LeadWallet
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

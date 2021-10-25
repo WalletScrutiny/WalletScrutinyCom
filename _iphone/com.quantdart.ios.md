@@ -19,7 +19,7 @@ issue:
 icon: com.quantdart.ios.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-22
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -32,5 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
 

@@ -9,9 +9,9 @@ appId: io.okminer.app
 released: 2021-06-27
 updated: 2021-10-13
 version: "1.2.8"
-stars: 4.6
-ratings: 524
-reviews: 113
+stars: 4.5
+ratings: 526
+reviews: 115
 size: 24M
 website: https://www.okminer.io/
 repository: 

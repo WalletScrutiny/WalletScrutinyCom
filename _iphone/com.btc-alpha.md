@@ -19,7 +19,7 @@ issue:
 icon: com.btc-alpha.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-22
+date: 2021-10-26
 signer: 
 reviewArchive:
 
@@ -27,11 +27,12 @@ reviewArchive:
 providerTwitter: btcalpha
 providerLinkedIn: btcalpha
 providerFacebook: btcalpha
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
 
 

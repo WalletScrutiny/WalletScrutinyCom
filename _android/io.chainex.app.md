@@ -19,7 +19,7 @@ issue:
 icon: io.chainex.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-10-26
 signer: 
 reviewArchive:
 
