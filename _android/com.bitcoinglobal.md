@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-Bitcoin Global is a P2P platform from {% include walletLink.html wallet='android/com.whitebit.android' verdict='true' %}
+Bitcoin Global is a P2P platform from the [same providers](https://whitebit.com/bitcoin-global) as {% include walletLink.html wallet='android/com.whitebit.android' verdict='true' %}
 
 The app claims that users don't have to register with KYC. 
 
