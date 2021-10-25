@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Fiboda
 title: "Fiboda - Copy trading platform"
 altTitle: 
 authors:
-
+- danny
 appId: com.fiboda.Fiboda
 appCountry: us
 idd: 1540952335
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fiboda.Fiboda.jpg
 bugbounty: 
-verdict: wip
+verdict: nosendreceive
 date: 2021-10-25
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

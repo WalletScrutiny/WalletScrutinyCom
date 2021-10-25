@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.matrixport.bit.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:

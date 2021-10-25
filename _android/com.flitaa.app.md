@@ -51,6 +51,8 @@ There is no mention of private keys anywhere, or any way to backup the cryptocur
 
 We tried to sign up through the site, however the registration form only accepted numbers from Ghana, Kenya, and Nigeria.
 
+The terms of use located at the footer of the home page, only points to the same page.
+
 
 ## Verdict
 

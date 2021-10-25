@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: flitaa
 title: "flitaa"
 altTitle: 
 authors:
-
+- danny
 appId: com.flitaa
 appCountry: ng
 idd: 1566777501
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.flitaa.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-25
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: getflitaa
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: getflitaa
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

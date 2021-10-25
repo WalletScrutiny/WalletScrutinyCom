@@ -50,4 +50,4 @@ There's little to read in this site concerning cryptocurrencies.
 
 ## Verdict
 
-Due to this platform being created for traders who conduct CFD transactions, users do not own the digital assets. In this case, you **cannot send or receive.**
+Due to this platform being created for traders who conduct CFD transactions, users do not own the digital assets. This app **does not allow users to send or receive** bitcoins.
