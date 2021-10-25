@@ -9,9 +9,9 @@ appId: com.xaltbase.app
 released: 2021-05-31
 updated: 2021-08-18
 version: "3.0.2"
-stars: 4.4
-ratings: 3460
-reviews: 2482
+stars: 4.3
+ratings: 3468
+reviews: 2488
 size: 17M
 website: https://www.100xcoin.io/
 repository: 

@@ -10,8 +10,8 @@ released: 2017-01-30
 updated: 2021-09-30
 version: "1.6.24"
 stars: 4.2
-ratings: 23
-reviews: 13
+ratings: 24
+reviews: 14
 size: 8.0M
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client

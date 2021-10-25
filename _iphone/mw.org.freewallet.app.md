@@ -8,10 +8,10 @@ appId: mw.org.freewallet.app
 appCountry: 
 idd: 1274003898
 released: 2017-09-01
-updated: 2021-09-10
-version: "1.16.4"
-stars: 4.10836
-reviews: 1495
+updated: 2021-10-23
+version: "1.16.5"
+stars: 4.11043
+reviews: 1494
 size: 45300736
 website: https://freewallet.org
 repository: 

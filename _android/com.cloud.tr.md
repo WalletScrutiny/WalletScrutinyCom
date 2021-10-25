@@ -10,8 +10,8 @@ released: 2021-07-16
 updated: 2021-10-18
 version: "1.5.2"
 stars: 4.5
-ratings: 33583
-reviews: 8671
+ratings: 33809
+reviews: 8699
 size: Varies with device
 website: https://www.trbinance.com/en/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Chipper Cash - Send & Receive Money Across Africa"
+title: "Chipper Cash"
 altTitle: 
 authors:
 - kiwilamb
@@ -11,8 +11,8 @@ released: 2018-07-07
 updated: 2021-10-20
 version: "1.9.15"
 stars: 4.3
-ratings: 48025
-reviews: 29260
+ratings: 48244
+reviews: 29383
 size: 87M
 website: https://chippercash.com/
 repository: 

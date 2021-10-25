@@ -10,8 +10,8 @@ idd: 1494119678
 released: 2020-01-27
 updated: 2021-10-18
 version: "3.6.2"
-stars: 4.7907
-reviews: 43
+stars: 4.79545
+reviews: 44
 size: 57576448
 website: https://pintu.co.id/
 repository: 

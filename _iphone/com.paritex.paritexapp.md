@@ -8,11 +8,11 @@ appId: com.paritex.paritexapp
 appCountry: tr
 idd: 1550831461
 released: 2021-02-11
-updated: 2021-10-06
-version: "2.0.14"
+updated: 2021-10-21
+version: "2.1.1"
 stars: 4.32727
 reviews: 55
-size: 93275136
+size: 93175808
 website: https://www.paritex.com/
 repository: 
 issue: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

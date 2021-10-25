@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: io.ambergroup.amber
 released: 2020-09-21
-updated: 2021-10-12
-version: "v1.7.5"
+updated: 2021-10-24
+version: "1.7.6"
 stars: 3.9
 ratings: 458
 reviews: 220

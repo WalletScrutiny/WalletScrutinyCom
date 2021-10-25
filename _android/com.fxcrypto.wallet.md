@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.fxcrypto.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-21
+verdict: obsolete
+date: 2021-10-25
 signer: 
 reviewArchive:
 

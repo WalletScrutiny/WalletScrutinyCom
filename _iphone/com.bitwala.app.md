@@ -8,8 +8,8 @@ appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
 released: 2019-05-11
-updated: 2021-10-21
-version: "2.1.46"
+updated: 2021-10-23
+version: "2.1.48"
 stars: 
 reviews: 
 size: 100939776

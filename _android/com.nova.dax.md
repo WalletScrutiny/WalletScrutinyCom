@@ -9,9 +9,9 @@ appId: com.nova.dax
 released: 2019-09-20
 updated: 2021-09-24
 version: "1.1.6"
-stars: 4.7
-ratings: 13499
-reviews: 7543
+stars: 4.6
+ratings: 13527
+reviews: 7559
 size: 15M
 website: https://www.novadax.com
 repository: 

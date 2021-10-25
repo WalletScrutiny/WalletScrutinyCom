@@ -4,7 +4,7 @@ title: "Bitamp Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.bitamp.mobile
 released: 2021-04-10
 updated: 2021-04-27

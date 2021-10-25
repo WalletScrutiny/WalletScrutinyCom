@@ -10,8 +10,8 @@ idd: 1282340909
 released: 2017-11-03
 updated: 2021-10-18
 version: "1.11.2"
-stars: 3.55446
-reviews: 202
+stars: 3.54187
+reviews: 203
 size: 124170240
 website: https://fxcoin.pro/
 repository: 

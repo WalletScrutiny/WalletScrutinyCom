@@ -9,9 +9,9 @@ appId: com.aax.exchange
 released: 2019-03-04
 updated: 2021-10-19
 version: "3.1.11"
-stars: 4.3
-ratings: 2499
-reviews: 891
+stars: 4.2
+ratings: 2503
+reviews: 892
 size: 58M
 website: https://www.aax.com
 repository: 
