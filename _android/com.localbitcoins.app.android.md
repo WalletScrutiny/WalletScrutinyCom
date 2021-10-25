@@ -33,6 +33,25 @@ redirect_from:
 
 ---
 
+**UPDATE 2021-10-25**
+
+In a support ticket concerning this app, LocalBitcoins confirmed that it is the official app.
+
+```
+Leo:           I want to report fraud:
+               https://play.google.com/store/apps/details?id=com.localbitcoins.app.android is probably a fake app, currently used by more than 10k users.
+
+LocalBitcoins: Hi, Leo. 
+               Thank you for contacting us.
+               We inform you that it is our app, you can download and user your account through your mobile phone.
+               Let us know if you have any questions.
+               ---
+               Best regards,
+               LocalBitcoins
+
+```
+---
+
 **CAUTION:** As of October 21, 2021, there has been no official announcement or a link from the official localbitcoins.com website to the Google Play app. We advise users to take precautionary measures and take due diligence measures. 
 
 A fake localbitcoins.com app has been [documented in 2015](https://www.coindesk.com/markets/2015/11/05/fake-localbitcoins-android-app-is-phishing-for-bitcoins/). 
