@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: flitaa
 title: "flitaa: crypto wallet wey dey for you"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: com.flitaa.app
 released: 2021-05-15
@@ -13,20 +13,20 @@ stars: 4.3
 ratings: 235
 reviews: 192
 size: 77M
-website: 
+website: https://flitaa.com/
 repository: 
 issue: 
 icon: com.flitaa.app.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: getflitaa
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: getflitaa
 providerReddit: 
 
 redirect_from:
@@ -34,3 +34,24 @@ redirect_from:
 ---
 
 
+## App Description
+
+Flitaa's description claims that it is an:
+
+> all in one platform to store, buy, sell, swap, learn and earn crypto
+
+There is no mention of private keys in the description, with Flitaa saying that wallets are protected with "multiple layers of security":
+
+> Your wallet is protected on multiple layers of security to prevent theft.
+
+
+## The Site
+
+There is no mention of private keys anywhere, or any way to backup the cryptocurrency wallets. However, as this [tutorial]((https://help.flitaa.com/article/how-to-buy-crypto-on-flitaa)) says, it is possible to buy, send, and hold cryptocurrencies with this app.
+
+We tried to sign up through the site, however the registration form only accepted numbers from Ghana, Kenya, and Nigeria.
+
+
+## Verdict
+
+All signs point to this being a **custodial** app and thus it is **not verifiable.**

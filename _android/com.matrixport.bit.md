@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitmatrixport
 title: "bit.com"
 altTitle: 
 authors:
@@ -34,3 +34,13 @@ redirect_from:
 ---
 
 
+Bit.com comes from the [same providers](https://play.google.com/store/apps/developer?id=Matrixport) of {% include walletLink.html wallet='android/com.matrixport.mark' verdict='true' %}
+## App Description
+
+## The Site
+
+## The App
+
+## Contact
+
+## Verdict
