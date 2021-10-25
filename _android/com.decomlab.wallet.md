@@ -59,7 +59,7 @@ From Terms and Services:
 
 ## The App
 
-We downloaded and installed the app. We were able to access the 12-word seed phrase. An import option is also possible.
+We downloaded and installed the app. We were able to access the 12-word seed phrase. An import option is also available.
 
 ## Verdict
 
