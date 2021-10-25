@@ -61,7 +61,7 @@ Make deposits in any of 13 cryptocurrencies supported by Swissy.
 
 ## The Site
 
-This website's certificate is expired or is not yet valid. Attempting to access this site will return a privacy warning.
+This website's certificate is expired. Attempting to access this site will return a privacy warning. However, it seems that Swissy.io is in no hurry to fix this, as the cerificate expired *5 months ago.*
 
 > The variety of Swissy’s services allows you not only to keep **your assets secured in our wallets** but also bring you benefits in the form of high interest rates and weekly cashbacks.
 
