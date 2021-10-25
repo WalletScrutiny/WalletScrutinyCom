@@ -1,6 +1,6 @@
 ---
 wsId: BTCcomPool
-title: "BTC.com-Leading Mining Pool"
+title: "BTC.com - Leading Mining Pool"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.btcpool.app.ios
 appCountry: us
 idd: 1490997527
 released: 2020-01-21
-updated: 2021-10-01
-version: "1.1.0"
+updated: 2021-10-24
+version: "1.1.1"
 stars: 3.22222
 reviews: 9
-size: 54451200
+size: 54467584
 website: http://btc.com
 repository: 
 issue: 

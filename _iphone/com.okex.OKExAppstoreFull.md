@@ -1,6 +1,6 @@
 ---
 wsId: OKEx
-title: "OKEx：Buy & Sell Bitcoin,Crypto"
+title: "OKEx - Trade Bitcoin & Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.okex.OKExAppstoreFull
 appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-10-18
-version: "5.3.8"
-stars: 4.93639
-reviews: 15454
-size: 349250560
+updated: 2021-10-25
+version: "5.3.10"
+stars: 4.93645
+reviews: 15530
+size: 349045760
 website: https://www.okex.com
 repository: 
 issue: 

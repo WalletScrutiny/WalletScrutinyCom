@@ -10,8 +10,8 @@ released: 2020-10-08
 updated: 2021-10-07
 version: "6.0.9"
 stars: 3.3
-ratings: 2992
-reviews: 1387
+ratings: 3002
+reviews: 1393
 size: 91M
 website: https://ecoinofficial.org
 repository: 

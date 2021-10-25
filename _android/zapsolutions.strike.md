@@ -10,8 +10,8 @@ released:
 updated: 2021-10-08
 version: "v93"
 stars: 4.4
-ratings: 4140
-reviews: 1553
+ratings: 4151
+reviews: 1557
 size: 13M
 website: 
 repository: 

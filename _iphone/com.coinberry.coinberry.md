@@ -10,8 +10,8 @@ idd: 1370601820
 released: 2018-06-09
 updated: 2021-10-19
 version: "118.14"
-stars: 4.48541
-reviews: 4936
+stars: 4.48562
+reviews: 4942
 size: 39684096
 website: https://coinberry.com
 repository: 

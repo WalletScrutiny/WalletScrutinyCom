@@ -9,9 +9,9 @@ appId: com.coinbase.pro
 released: 2020-01-06
 updated: 2021-08-25
 version: "1.0.80"
-stars: 4.2
-ratings: 17739
-reviews: 5168
+stars: 4.3
+ratings: 17822
+reviews: 5181
 size: 56M
 website: https://pro.coinbase.com
 repository: 

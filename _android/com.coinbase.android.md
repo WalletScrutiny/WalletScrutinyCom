@@ -10,8 +10,8 @@ released: 2013-03-01
 updated: 2021-10-19
 version: "9.46.2"
 stars: 4.4
-ratings: 558735
-reviews: 159057
+ratings: 560368
+reviews: 159328
 size: Varies with device
 website: https://coinbase.com
 repository: 

@@ -11,8 +11,8 @@ idd: 1095716562
 released: 2016-09-02
 updated: 2021-09-09
 version: "3.0.1"
-stars: 4.7392
-reviews: 4003
+stars: 4.73833
+reviews: 4005
 size: 25415680
 website: https://tab-trader.com
 repository: 
