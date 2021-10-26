@@ -2,8 +2,8 @@
 wsId: CTrade
 title: "C-Trade"
 altTitle: 
-authors:- danny
-
+authors:
+- danny
 appId: com.ctrade.mobile
 appCountry: us
 idd: 1542759541
