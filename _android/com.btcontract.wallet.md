@@ -28,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: f43ec311500efbb0ea1c8ebadc52c545a434a341
   verdict: nonverifiable
-  
 
 providerTwitter: SimpleBtcWallet
 providerLinkedIn: 

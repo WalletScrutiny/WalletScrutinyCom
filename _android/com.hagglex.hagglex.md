@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.hagglex.hagglex
 released: 2021-03-17
-updated: 2021-10-24
+updated: 2021-10-26
 version: "1.0.9"
-stars: 3.9
-ratings: 2208
-reviews: 2046
+stars: 3.8
+ratings: 2214
+reviews: 2050
 size: 47M
 website: https://www.hagglex.com/
 repository: 

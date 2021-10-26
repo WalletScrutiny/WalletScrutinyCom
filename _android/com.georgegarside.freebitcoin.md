@@ -10,8 +10,8 @@ released: 2020-10-30
 updated: 2021-05-25
 version: "3.1.1"
 stars: 2.5
-ratings: 104
-reviews: 62
+ratings: 105
+reviews: 63
 size: 4.9M
 website: https://georgegarside.com/apps/free-bitcoin/
 repository: 

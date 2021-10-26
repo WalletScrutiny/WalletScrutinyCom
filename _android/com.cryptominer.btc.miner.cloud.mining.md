@@ -10,8 +10,8 @@ released: 2021-07-31
 updated: 2021-10-20
 version: "1.2"
 stars: 4.0
-ratings: 3067
-reviews: 1865
+ratings: 3131
+reviews: 1908
 size: 15M
 website: https://btcnetwork.in/
 repository: 

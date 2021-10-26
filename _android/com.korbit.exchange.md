@@ -10,8 +10,8 @@ released: 2018-07-22
 updated: 2021-09-30
 version: "4.1.4"
 stars: 2.2
-ratings: 1824
-reviews: 991
+ratings: 1826
+reviews: 993
 size: 48M
 website: www.korbit.co.kr
 repository: 

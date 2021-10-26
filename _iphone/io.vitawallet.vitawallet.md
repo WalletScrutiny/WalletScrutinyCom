@@ -1,5 +1,5 @@
 ---
-wsId: vita 
+wsId: vita
 title: "Vita Wallet"
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ appId: io.vitawallet.vitawallet
 appCountry: cl
 idd: 1486999955
 released: 2019-11-15
-updated: 2021-09-08
-version: "3.6.3"
+updated: 2021-10-26
+version: "3.7.0"
 stars: 4.42105
 reviews: 19
-size: 44777472
+size: 44820480
 website: https://www.vitawallet.io
 repository: 
 issue: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

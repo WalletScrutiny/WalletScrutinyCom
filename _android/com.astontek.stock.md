@@ -10,7 +10,7 @@ released: 2020-03-16
 updated: 2021-10-21
 version: "6.07"
 stars: 4.5
-ratings: 2122
+ratings: 2124
 reviews: 794
 size: 37M
 website: http://www.astontek.com/

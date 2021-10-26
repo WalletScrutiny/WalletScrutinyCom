@@ -1,14 +1,14 @@
 ---
 wsId: gopax
-title: "GOPAX"
+title: "GOPAX (Crypto exchange)"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: kr.co.gopax
 released: 2018-11-05
-updated: 2021-09-24
-version: "1.4.16.fb81"
+updated: 2021-10-15
+version: "1.4.17.fef4"
 stars: 2.7
 ratings: 1102
 reviews: 851

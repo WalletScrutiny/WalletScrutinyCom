@@ -10,8 +10,8 @@ idd: 1542759541
 released: 2021-01-08
 updated: 2021-10-15
 version: "1.1.3"
-stars: 4.68
-reviews: 25
+stars: 4.73913
+reviews: 23
 size: 32233472
 website: https://c-trade.com
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

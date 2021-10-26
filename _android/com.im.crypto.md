@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.im.crypto
 released: 2021-09-05
-updated: 2021-09-06
-version: "1.0.1"
+updated: 2021-10-26
+version: "1.0.3"
 stars: 0.0
 ratings: 
 reviews: 
-size: 46M
+size: 47M
 website: 
 repository: 
 issue: 

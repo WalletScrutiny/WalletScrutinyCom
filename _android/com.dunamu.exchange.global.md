@@ -10,7 +10,7 @@ released: 2018-11-06
 updated: 2021-10-19
 version: "1.5.15p2"
 stars: 4.4
-ratings: 3369
+ratings: 3370
 reviews: 2811
 size: 29M
 website: https://www.dunamu.com/

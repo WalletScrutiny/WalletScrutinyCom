@@ -10,8 +10,8 @@ released: 2019-07-06
 updated: 2021-10-19
 version: "1.4.4"
 stars: 4.6
-ratings: 4385
-reviews: 808
+ratings: 4402
+reviews: 810
 size: 34M
 website: https://www.vantagefx.com.au/
 repository: 

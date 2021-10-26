@@ -10,13 +10,13 @@ released: 2020-12-12
 updated: 2021-10-24
 version: "2.3.0"
 stars: 4.1
-ratings: 665
-reviews: 248
+ratings: 669
+reviews: 251
 size: 37M
 website: https://exnovin.io/
 repository: 
 issue: 
-icon: io.exnovin.app.jpg
+icon: io.exnovin.app.png
 bugbounty: 
 verdict: custodial
 date: 2021-09-15

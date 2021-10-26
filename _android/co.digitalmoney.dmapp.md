@@ -4,7 +4,7 @@ title: "Digital Money - Buy/Send/Recieve Crypto."
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: co.digitalmoney.dmapp
 released: 2021-02-12
 updated: 2021-05-10
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.digitalmoney.dmapp.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

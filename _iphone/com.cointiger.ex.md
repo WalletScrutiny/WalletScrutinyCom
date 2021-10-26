@@ -13,7 +13,7 @@ version: "4.8.3"
 stars: 2.73404
 reviews: 94
 size: 152541184
-website: https://www.cointiger.top
+website: http://www.cointiger.com
 repository: 
 issue: 
 icon: com.cointiger.ex.jpg

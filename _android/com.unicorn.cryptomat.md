@@ -9,9 +9,9 @@ appId: com.unicorn.cryptomat
 released: 2020-01-28
 updated: 2020-04-24
 version: "0.11"
-stars: 4.8
-ratings: 93
-reviews: 89
+stars: 4.7
+ratings: 94
+reviews: 90
 size: 5.6M
 website: 
 repository: 

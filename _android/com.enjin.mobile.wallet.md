@@ -4,14 +4,14 @@ title: "Enjin: Bitcoin, Ethereum, NFT Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.enjin.mobile.wallet
 released: 2018-01-01
 updated: 2021-08-04
 version: "1.15.1-r"
 stars: 4.3
-ratings: 9945
-reviews: 5667
+ratings: 9956
+reviews: 5674
 size: 32M
 website: https://enjin.io/products/wallet
 repository: 

@@ -10,8 +10,8 @@ idd: 1513951003
 released: 2020-05-29
 updated: 2021-09-29
 version: "1.95"
-stars: 4.08333
-reviews: 12
+stars: 4.15385
+reviews: 13
 size: 126392320
 website: https://bitnob.com
 repository: 

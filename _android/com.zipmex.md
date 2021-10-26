@@ -10,8 +10,8 @@ released: 2020-03-30
 updated: 2021-10-21
 version: "21.10.3.1366315930"
 stars: 4.3
-ratings: 10160
-reviews: 5241
+ratings: 10222
+reviews: 5269
 size: 129M
 website: https://zipmex.com/th/en/
 repository: 

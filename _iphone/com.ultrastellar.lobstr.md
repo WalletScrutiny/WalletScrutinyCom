@@ -10,8 +10,8 @@ idd: 1404357892
 released: 2018-08-06
 updated: 2021-10-18
 version: "7.5.3"
-stars: 4.5358
-reviews: 3966
+stars: 4.53674
+reviews: 3974
 size: 73764864
 website: https://lobstr.co/
 repository: 

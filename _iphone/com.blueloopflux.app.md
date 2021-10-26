@@ -8,8 +8,8 @@ appId: com.blueloopflux.app
 appCountry: us
 idd: 1534426282
 released: 2020-10-15
-updated: 2021-10-22
-version: "1.7.4"
+updated: 2021-10-26
+version: "1.7.5"
 stars: 2.85714
 reviews: 7
 size: 64945152

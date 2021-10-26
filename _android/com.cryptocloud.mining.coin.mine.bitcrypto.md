@@ -10,8 +10,8 @@ released: 2021-07-31
 updated: 2021-10-20
 version: "1.2"
 stars: 4.1
-ratings: 1890
-reviews: 1294
+ratings: 1995
+reviews: 1365
 size: 12M
 website: https://bitcryptos.in/
 repository: 

@@ -29,8 +29,8 @@ providerLinkedIn: coinloan
 providerFacebook: coinloan.project
 providerReddit: coinloan
 
-
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

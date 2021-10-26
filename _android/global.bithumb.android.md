@@ -9,9 +9,9 @@ appId: global.bithumb.android
 released: 2019-07-05
 updated: 2021-08-05
 version: "2.6.24"
-stars: 2.6
-ratings: 2969
-reviews: 2125
+stars: 2.7
+ratings: 2972
+reviews: 2126
 size: 22M
 website: https://www.bithumb.pro/
 repository: 
