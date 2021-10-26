@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: cryptotab
 title: "CryptoTab Farm"
 altTitle: 
 authors:
-
+- danny
 appId: com.cryptofarm
 appCountry: us
 idd: 1532369824
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptofarm.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-wsId: forex
+wsId: 
 title: "Forex, Stock Trading and Investing - LiteForex"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: CryptoTab
+wsId: CryptoTabPro
 title: "CryptoTab Browser Pro Level"
 altTitle: 
 authors:

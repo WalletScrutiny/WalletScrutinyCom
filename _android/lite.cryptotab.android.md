@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CryptoTabLite
 title: "CryptoTab Lite — Get Bitcoin in your wallet"
 altTitle: 
 authors:
