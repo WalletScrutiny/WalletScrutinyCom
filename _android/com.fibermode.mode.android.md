@@ -1,5 +1,5 @@
 ---
-wsId: Mode
+wsId: fibermode
 title: "Mode: Buy, Hold & Grow Bitcoin"
 altTitle: 
 authors:

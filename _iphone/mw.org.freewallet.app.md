@@ -1,5 +1,5 @@
 ---
-wsId: multi.org.freewallet.app
+wsId: multifw
 title: "Multi Crypto Wallet－Freewallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ idd: 1274003898
 released: 2017-09-01
 updated: 2021-10-23
 version: "1.16.5"
-stars: 4.11043
-reviews: 1494
+stars: 4.10836
+reviews: 1495
 size: 45300736
 website: https://freewallet.org
 repository: 
@@ -33,12 +33,4 @@ redirect_from:
 
 ---
 
-According to the description
-
-> In addition, the majority of cryptocurrency assets on the platform are stored
-  in an offline vault. Your coins will be kept in cold storage with state of the
-  art security protecting them.
-
-This is a custodial app.
-
-Our verdict: **not verifiable**.
+{% include copyFromAndroid.html %}

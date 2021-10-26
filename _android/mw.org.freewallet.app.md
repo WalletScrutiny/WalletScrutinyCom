@@ -1,5 +1,5 @@
 ---
-wsId: mw.org.freewallet
+wsId: multifw
 title: "ETH, BTC & Altcoin Wallet"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: OneKey
 title: "OneKey Wallet: Crypto & DeFi"
 altTitle: 
 authors:
