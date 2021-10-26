@@ -3,7 +3,7 @@ wsId: zeux
 title: "Zeux - Payments, Banking & Investments"
 altTitle: 
 authors:
- - danny
+- danny
 users: 10000
 appId: com.zeux.finapp
 released: 2019-05-22
