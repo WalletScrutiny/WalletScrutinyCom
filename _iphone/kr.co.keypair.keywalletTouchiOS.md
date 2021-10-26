@@ -1,5 +1,5 @@
 ---
-wsId: keypairQX
+wsId: KeyWalletTouch
 title: "KeyWallet Touch - Bitcoin"
 altTitle: 
 authors:
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
-verdict: wip
-date: 2021-10-01
+verdict: nosource
+date: 2021-10-26
 signer: 
 reviewArchive:
 

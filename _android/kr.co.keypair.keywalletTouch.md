@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: KeyWalletTouch
 title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
 altTitle: 
 authors:
-
+- leo
 users: 10000
 appId: kr.co.keypair.keywalletTouch
 released: 2018-05-13

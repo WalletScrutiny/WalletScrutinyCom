@@ -1,5 +1,5 @@
 ---
-wsId: AmirWallet
+wsId: 
 title: "Amir Wallet"
 altTitle: 
 authors:

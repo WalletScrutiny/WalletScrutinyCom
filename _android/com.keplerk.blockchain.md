@@ -1,5 +1,5 @@
 ---
-wsId: bykep
+wsId: 
 title: "BYKEP - Bitcoin for everyone"
 altTitle: 
 authors:
@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 311
 reviews: 162
 size: 41M
-website: https://bykep.com/en
+website: https://bykep.com/en/
 repository: 
 issue: 
 icon: com.keplerk.blockchain.jpg

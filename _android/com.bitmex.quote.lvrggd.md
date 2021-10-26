@@ -1,5 +1,5 @@
 ---
-wsId: bitmexquote
+wsId: 
 title: "비트맥스 - 실시간 가상화폐 시세 - 차트"
 altTitle: 
 authors:
