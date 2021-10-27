@@ -27,7 +27,7 @@ reviewArchive:
 providerTwitter: colodax
 providerLinkedIn: colodax
 providerFacebook: colodax
-providerReddit: : 
+providerReddit: 
 
 redirect_from:
 

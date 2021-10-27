@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: @Starclicks
+providerTwitter: Starclicks
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
