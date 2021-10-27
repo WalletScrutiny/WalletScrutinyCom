@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.heatwallet.heat_wallet
 released: 
-updated: 2021-09-22
+updated: 2021-10-26
 version: "Varies with device"
 stars: 
 ratings: 

@@ -4,7 +4,7 @@ title: "Crypto Wallet UI - Flutter App | Android – iOS"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.rain.cryptoui
 released: 2021-05-13
 updated: 2021-05-13

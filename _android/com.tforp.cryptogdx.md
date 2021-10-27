@@ -10,8 +10,8 @@ released: 2018-02-04
 updated: 2021-05-28
 version: "2.3"
 stars: 4.5
-ratings: 3017
-reviews: 1337
+ratings: 3026
+reviews: 1340
 size: 9.2M
 website: https://trading4pro.com/
 repository: 

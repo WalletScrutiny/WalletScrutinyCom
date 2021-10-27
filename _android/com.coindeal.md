@@ -10,7 +10,7 @@ released: 2019-11-04
 updated: 2020-08-18
 version: "1.0.8"
 stars: 3.6
-ratings: 144
+ratings: 145
 reviews: 87
 size: 11M
 website: https://coindeal.com/

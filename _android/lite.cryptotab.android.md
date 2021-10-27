@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: CryptoTabLite
 title: "CryptoTab Lite — Get Bitcoin in your wallet"
 altTitle: 
 authors:
@@ -8,10 +8,10 @@ users: 1000000
 appId: lite.cryptotab.android
 released: 2021-06-16
 updated: 2021-10-19
-version: "6.0.15"
-stars: 4.1
-ratings: 12099
-reviews: 6121
+version: "6.0.19"
+stars: 4.2
+ratings: 12547
+reviews: 6348
 size: Varies with device
 website: 
 repository: 

@@ -4,7 +4,7 @@ title: "SalletOne Live"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.yaolian.qoline
 released: 2021-07-14
 updated: 2021-09-28

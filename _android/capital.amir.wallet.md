@@ -1,5 +1,5 @@
 ---
-wsId: AmirWallet
+wsId: 
 title: "Amir Wallet"
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ released: 2021-08-03
 updated: 2021-10-07
 version: "3.10.0"
 stars: 4.3
-ratings: 316
+ratings: 321
 reviews: 184
 size: 35M
 website: https://amir.capital/

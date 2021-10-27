@@ -3,7 +3,7 @@ wsId:
 title: "Fake Bitcoin Wallet"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: co.za.binarymatter.bitcoinwalletfake
 released: 2021-03-21
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.za.binarymatter.bitcoinwalletfake.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-04-13
 signer: 
 reviewArchive:
@@ -34,3 +34,18 @@ redirect_from:
 ---
 
 
+## App Description
+
+> Prank Bitcoin Wallet to fool your friends and family.
+>
+> Receive as many bitcoins as you want.
+>
+> Send them out at any time.
+>
+> Save a history of all transactions.
+>
+> Total value of wallet displayed on top.
+
+## Verdict
+
+As the name implies, this app does **not have a bitcoin wallet.**

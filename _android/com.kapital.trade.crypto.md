@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.kapital.trade.crypto
 released: 2021-01-20
-updated: 2021-10-22
+updated: 2021-10-26
 version: "1.34.1"
 stars: 4.4
-ratings: 881
-reviews: 295
+ratings: 887
+reviews: 298
 size: 67M
 website: https://expcapital.com
 repository: 

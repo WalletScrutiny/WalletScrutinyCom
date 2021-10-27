@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.jex.trade
 released: 2019-04-25
-updated: 2021-05-10
-version: "2.8.1"
+updated: 2021-10-25
+version: "2.8.4"
 stars: 3.9
-ratings: 1214
-reviews: 601
-size: 10M
+ratings: 1273
+reviews: 629
+size: 7.2M
 website: https://www.jex.com
 repository: 
 issue: 

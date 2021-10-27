@@ -4,7 +4,7 @@ title: "ProfitTrading For Binance US - Trade much faster"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.profittrading.forbinanceus
 released: 2019-10-25
 updated: 2021-04-27

@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: coinone.co.kr.official
 released: 2018-01-28
-updated: 2021-10-06
-version: "2.9.4"
+updated: 2021-10-21
+version: "2.9.5"
 stars: 3.3
-ratings: 6622
-reviews: 2789
-size: 28M
+ratings: 6634
+reviews: 2792
+size: 30M
 website: https://coinone.co.kr/
 repository: 
 issue: 

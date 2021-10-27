@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.amarkets
 released: 2019-05-31
-updated: 2021-10-19
+updated: 2021-10-26
 version: "Varies with device"
 stars: 4.5
-ratings: 654
-reviews: 236
+ratings: 691
+reviews: 244
 size: Varies with device
 website: https://www.amarkets.com/
 repository: 

@@ -1,5 +1,5 @@
 ---
-wsId: bithumbsg
+wsId: 
 title: "Bitholic - Global Digital Asset Exchange"
 altTitle: 
 authors:

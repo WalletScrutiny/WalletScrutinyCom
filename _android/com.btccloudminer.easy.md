@@ -10,8 +10,8 @@ released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"
 stars: 3.2
-ratings: 333
-reviews: 201
+ratings: 334
+reviews: 202
 size: 8.9M
 website: 
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
 

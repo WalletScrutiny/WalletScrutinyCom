@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: io.cimcome.app
 released: 2020-12-09
-updated: 2021-05-19
-version: "1.0.14"
+updated: 2021-10-22
+version: "1.0.15"
 stars: 4.4
 ratings: 9
 reviews: 6

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.gcox.wallet.png
 bugbounty: 
-verdict: wip
-date: 2021-10-05
+verdict: stale
+date: 2021-10-25
 signer: 
 reviewArchive:
 

@@ -9,9 +9,9 @@ appId: com.bh.android
 released: 2021-04-24
 updated: 2021-10-11
 version: "4.2.2"
-stars: 4.0
+stars: 3.9
 ratings: 55
-reviews: 22
+reviews: 21
 size: 36M
 website: 
 repository: 

@@ -8,8 +8,8 @@ appId: com.vttech.VantageFX
 appCountry: ph
 idd: 1457929724
 released: 2019-07-20
-updated: 2021-10-18
-version: "1.4.4"
+updated: 2021-10-26
+version: "1.4.5"
 stars: 4.97727
 reviews: 220
 size: 87999488

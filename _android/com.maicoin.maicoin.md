@@ -4,7 +4,7 @@ title: "MaiCoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.maicoin.maicoin
 released: 2018-12-19
 updated: 2021-07-05

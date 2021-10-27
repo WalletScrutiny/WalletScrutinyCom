@@ -9,9 +9,9 @@ appId: co.lvl.firstapp
 released: 2020-06-30
 updated: 2021-09-09
 version: "1.0.5"
-stars: 4.0
-ratings: 142
-reviews: 64
+stars: 3.9
+ratings: 143
+reviews: 65
 size: 66M
 website: https://www.lvl.co
 repository: 

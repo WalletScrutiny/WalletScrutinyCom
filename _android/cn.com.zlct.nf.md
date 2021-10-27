@@ -9,9 +9,9 @@ appId: cn.com.zlct.nf
 released: 2021-06-10
 updated: 2021-08-30
 version: "2.1.3"
-stars: 3.8
-ratings: 38
-reviews: 31
+stars: 3.6
+ratings: 40
+reviews: 33
 size: 6.6M
 website: 
 repository: 

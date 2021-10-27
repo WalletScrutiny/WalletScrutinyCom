@@ -1,17 +1,17 @@
 ---
 wsId: Robinhood
-title: "Robinhood - Investment & Trading, Commission-free"
+title: "Robinhood: Investing for All"
 altTitle: 
 authors:
 - danny
 users: 10000000
 appId: com.robinhood.android
 released: 
-updated: 2021-10-18
+updated: 2021-10-25
 version: "Varies with device"
 stars: 3.8
-ratings: 433431
-reviews: 230118
+ratings: 433667
+reviews: 230234
 size: Varies with device
 website: 
 repository: 

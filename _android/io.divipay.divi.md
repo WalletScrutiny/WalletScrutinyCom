@@ -4,14 +4,14 @@ title: "Divi Wallet: Crypto & Staking"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: io.divipay.divi
 released: 2021-04-28
 updated: 2021-10-22
 version: "1.12"
 stars: 4.6
 ratings: 100
-reviews: 67
+reviews: 66
 size: 49M
 website: 
 repository: 

@@ -1,5 +1,5 @@
 ---
-wsId: mw.org.freewallet
+wsId: multifw
 title: "ETH, BTC & Altcoin Wallet"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2017-08-10
 updated: 2021-09-16
 version: "1.16.5"
 stars: 4.5
-ratings: 12149
-reviews: 8475
+ratings: 12211
+reviews: 8523
 size: 13M
 website: https://freewallet.org
 repository: 

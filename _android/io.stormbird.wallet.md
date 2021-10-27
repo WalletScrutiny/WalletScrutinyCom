@@ -9,8 +9,8 @@ appId: io.stormbird.wallet
 released: 2018-05-19
 updated: 2021-10-22
 version: "3.40.3"
-stars: 4.0
-ratings: 168
+stars: 4.1
+ratings: 172
 reviews: 72
 size: 35M
 website: https://alphawallet.com/

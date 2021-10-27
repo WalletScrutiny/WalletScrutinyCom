@@ -10,19 +10,23 @@ released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
 stars: 2.9
-ratings: 2703
-reviews: 1639
+ratings: 2705
+reviews: 1641
 size: 30M
 website: https://fxcoin.pro
 repository: 
 issue: 
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
-verdict: nowallet
-date: 2021-09-03
+verdict: stale
+date: 2021-10-25
 signer: 
 reviewArchive:
-
+- date: 2021-09-03
+  version: "1.11.1"
+  appHash: 
+  gitRevision: 7c0963816b8ac39ce0f3fd52c3338e8fed5050e3
+  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 

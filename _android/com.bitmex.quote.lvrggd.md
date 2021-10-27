@@ -3,7 +3,7 @@ wsId:
 title: "비트맥스 - 실시간 가상화폐 시세 - 차트"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.bitmex.quote.lvrggd
 released: 2018-09-14
@@ -33,4 +33,8 @@ redirect_from:
 
 ---
 
+
+This app is currently absent from the Play Store.
+
+> We're sorry, the requested URL was not found on this server.
 

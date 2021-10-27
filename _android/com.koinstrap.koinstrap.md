@@ -9,9 +9,9 @@ appId: com.koinstrap.koinstrap
 released: 2020-08-28
 updated: 2021-10-11
 version: "2.1.5"
-stars: 3.6
-ratings: 17
-reviews: 8
+stars: 3.7
+ratings: 19
+reviews: 10
 size: 59M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2018-01-15
 updated: 2021-10-21
 version: "5.13.17"
 stars: 4.4
-ratings: 1687
-reviews: 935
+ratings: 1691
+reviews: 936
 size: 33M
 website: http://www.swft.pro
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: webull
-title: "Webull: Investing & Trading. All Commission Free"
+title: "Webull: Investing & Trading"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ authors:
 users: 10000000
 appId: org.dayup.stocks
 released: 
-updated: 2021-10-11
+updated: 2021-10-25
 version: "7.2.7.44"
 stars: 4.4
-ratings: 147417
-reviews: 44738
+ratings: 147867
+reviews: 44821
 size: 53M
 website: https://www.webull.com/
 repository: 

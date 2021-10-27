@@ -1,6 +1,6 @@
 ---
-wsId: forex
-title: "Forex, Stock Trading and Investing - LiteForex"
+wsId: 
+title: "LiteForex: investing, trading"
 altTitle: 
 authors:
 - danny

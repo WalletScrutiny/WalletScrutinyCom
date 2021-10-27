@@ -11,7 +11,7 @@ released: 2019-07-20
 updated: 2021-10-18
 version: "7.2.1"
 stars: 4.6
-ratings: 590
+ratings: 591
 reviews: 503
 size: 13M
 website: https://sparkpoint.io/

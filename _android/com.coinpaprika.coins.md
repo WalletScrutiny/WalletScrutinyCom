@@ -4,14 +4,14 @@ title: "COINS: One App For Crypto by Coinpaprika"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinpaprika.coins
 released: 2020-06-15
 updated: 2021-09-10
 version: "1.14.2"
-stars: 4.5
-ratings: 1202
-reviews: 619
+stars: 4.4
+ratings: 1210
+reviews: 621
 size: 32M
 website: https://coins.coinpaprika.com/
 repository: 
