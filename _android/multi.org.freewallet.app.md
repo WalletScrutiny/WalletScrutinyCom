@@ -1,5 +1,5 @@
 ---
-wsId: multi.org.freewallet.app
+wsId: mwfreewallet
 title: "Freewallet MultiWallet Classic"
 altTitle: 
 authors:
