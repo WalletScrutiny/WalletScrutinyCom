@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: freeda
 title: "Freeda Wallet - Buy, Sell, Hold Bitcoin"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: com.freeda.freedaapp
 released: 2021-04-13
@@ -13,12 +13,12 @@ stars: 4.9
 ratings: 58
 reviews: 42
 size: 25M
-website: 
+website: https://www.freeda.io/
 repository: 
 issue: 
 icon: com.freeda.freedaapp.png
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -34,3 +34,24 @@ redirect_from:
 ---
 
 
+## App Description
+
+> Freeda utilizes multi-party computation (MPC) to secure your wallet. **Private keys are broken into shares, encrypted, and allocated to multiple parties.** This means the private key is never created in one place; instead, it remains in a completely “liquid” state. **MPC ensures unparalleled protection for your wallet. All you need to do is enter your login details and PIN to access and transact using Freeda Wallet.**
+
+
+## The Site
+
+Terms of Service:
+
+> In the Freeda Wallet, we offer a Hosted Wallet for Bitcoin in which your **private keys are held by the Company.** If you choose to use our Hosted Wallet, your login, password and any additional security credentials used for the Services will give you access to your Hosted Wallet. This Hosted Wallet will allow you to receive Bitcoin and send Bitcoin to other digital wallets.
+
+## The App
+
+Registering requires phone number verification and the user's address. Verifying your identity will allow you to increase your buy, sell, withdraw, and deposit limits. You can receive and send via a bitcoin address or QR code. 
+
+We could not locate an option for backing up the private key.
+
+
+## Verdict
+
+As the private keys are secured by the company, we will classify this app as **custodial.** It is, thus, **not verifiable.**

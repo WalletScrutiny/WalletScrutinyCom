@@ -3,7 +3,7 @@ wsId:
 title: "Smart chain"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: smartchain.aiqt
 released: 2021-06-21
@@ -13,12 +13,12 @@ stars: 4.1
 ratings: 70
 reviews: 27
 size: 10M
-website: 
+website: https://smartchainapp.blogspot.com/
 repository: 
 issue: 
 icon: smartchain.aiqt.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -34,3 +34,24 @@ redirect_from:
 ---
 
 
+## App Description
+
+The full description is:
+
+> Cypto, Bitcoin, NFTs, Market its all here. (link to binance/referer)
+
+One of the negative reviews:
+
+> [Hamid karimzadeh ghazijahani](https://play.google.com/store/apps/details?id=smartchain.aiqt&reviewId=gp%3AAOqpTOGD1yMWrsKgYPCjsRa1c6UYafdDefQd8nqZWKc1UoncD8Rg30jpiHo0r0YhjRvxKP6srqYcYt9GxjPqKQ)<br>
+  ★☆☆☆☆ August 19, 2021 <br>
+      It's too slow and just a shortcut to website
+
+Even the blogspot site linked in the description is completely empty.
+
+## The App
+
+This app just links to Binance. It's a referrer.
+
+## Verdict
+
+This is **not a wallet.**
