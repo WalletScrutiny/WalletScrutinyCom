@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bitcoindepot
 title: "Bitcoin Depot"
 altTitle: 
 authors:
-
+- danny
 appId: com.cashtocrypto.wallet
 appCountry: us
 idd: 1554808338
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.cashtocrypto.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: bitcoin_depot
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: BitcoinDepot
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

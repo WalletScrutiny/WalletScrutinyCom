@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: FreedaWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

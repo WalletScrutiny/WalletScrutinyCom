@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: PilotTrading
 title: "Pilot Trading"
 altTitle: 
 authors:
-
+- danny
 appId: com.stealthtrader.pilot
 appCountry: ca
 idd: 1267973706
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.stealthtrader.pilot.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-10-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: tradewithpilot
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: tradewithpilot
+providerReddit:
 
 redirect_from:
 
 ---
+{% include copyFromAndroid.html %}
 

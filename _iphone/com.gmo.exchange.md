@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ZcomEx
 title: "Z.com EX - Buy/Sell Bitcoin"
 altTitle: 
 authors:
-
+- danny
 appId: com.gmo.exchange
 appCountry: th
 idd: 1525862502
@@ -13,23 +13,23 @@ version: "1.1.8"
 stars: 3.33333
 reviews: 12
 size: 101959680
-website: 
+website: https://ex.z.com/
 repository: 
 issue: 
 icon: com.gmo.exchange.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: ZcomExchange
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: ZcomCrypto
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

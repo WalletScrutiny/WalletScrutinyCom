@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Tokenize
 title: "Tokenize Trading App"
 altTitle: 
 authors:
-
+- danny
 appId: com.tokenize.exchange.trading
 appCountry: us
 idd: 1495765876
@@ -18,18 +18,18 @@ repository:
 issue: 
 icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
-verdict: wip
+verdict: custodial
 date: 2021-10-27
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: TokenizeXchange
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: tokenize.exchange
 providerReddit: 
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
