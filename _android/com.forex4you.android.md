@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.forex4you.android.png
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -33,6 +33,19 @@ redirect_from:
 
 ---
 
+
+## New Review 2021-10-28
+
+[Article on site: What is Cryptocurrency CFDs Trading?](https://www.forex4you.com/en/trading-school/what-is-cryptocurrency-cfds-trading/)
+
+> **Physical crypto versus Crypto Contract For Differences**
+> If a trader wants to invest in physical crypto, they will need to open an account with one of the many online crypto exchanges in the market and exchange their fiat for crypto. However, most exchanges don’t have the same execution speed or offer a user-friendly trading terminal as MT4. Not to mention, these exchange are not regulated nor 100% safe from hack attacks. **Having those risks in mind, a trader can instead open an account with Forex4you to trade Crypto Contract For Differences (CFDs)**. In this case, as a trader you would not purchase the physical crypto, but trade on CFDs. This has many advantages, firstly you will trade with a regulated entity, secondly you can long or short the crypto in a quick manner, thirdly you can trade on the intuitive trading platform of Forex4you. All in all, trading crypto CFDs is more practical and similar to the actual Forex trading experience.
+
+## Our New Verdict
+
+CFDs allow trading of Bitcoin, with the intention of cashing them out for fiat. Our new verdict then is that this platform **cannot send or receive bitcoins**.
+
+## Old Review 2021-09-03
 
 We downloaded the app and couldn't find anywhere of a mention about how to withdraw or deposit cryptocurrencies. The only reference for cryptocurrencies is on Google Play. 
 

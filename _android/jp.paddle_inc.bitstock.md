@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: jp.paddle_inc.bitstock.png
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
@@ -33,6 +33,21 @@ redirect_from:
 
 ---
 
+
+## New Review 2021-10-28
+
+From the site:
+
+> It is a service that you can get bitcoins according to the usage contents for free by shopping online, registering services, answering questionnaires, etc. via BitStart.
+
+> You can get Bitcoin through online shopping through BitStart and answering questionnaires.
+> There is no need to open a virtual currency account.
+
+Users can earn "bitcoins" by participating in site activities such as reading through educational material, online shopping or answering questionnaires. Again, it is not possible to send bitcoin to the service, but through user participation, users can earn bitcoin (represented or real bitcoins). These are then stored on the service and can be withdrawn after a threshold. 
+
+We previously determined this app to not have a bitcoin wallet, we are now revising it to state that this app **cannot send or receive bitcoins**.
+
+## Old Review 2021-10-21
 
 **Note:** This app known as bitstock on Google Play is known as BitStart elsewhere on its web properties. [Paddle](https://play.google.com/store/apps/dev?id=9139612144910094193), the Japanese developer, [Paddle Inc.](https://play.google.com/store/apps/dev?id=9139612144910094193), seems to have failed to integrate the branding on their app. 
 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.papaya.blackcatcard.png
 bugbounty: 
-verdict: nowallet
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
@@ -33,6 +33,37 @@ redirect_from:
 
 ---
 
+
+## Update 2021-10-28
+
+It is unclear whether users may manage digital assets in this app. We couldn't find a link to their twitter account.
+
+## Contact
+
+We contacted them via email.
+
+> Hi!
+>
+> My name is Daniel and I am a researcher for a Bitcoin related website called walletscrutiny.com.
+>
+> Black Cat Card is one of the apps we're reviewing. However I could not install it from where I am.
+>
+> From the screenshots and third-party information, I understand that it's possible to send, receive and store bitcoins using the app - is this accurate?
+>
+> I haven't been able to find any tutorials or official documentation about this.
+>
+> You can find our initial assessment over at https://walletscrutiny.com/android/com.papaya.blackcatcard/
+>
+> Would appreciate the information, thank you!
+
+## Verdict 
+
+Although DigiNord is an external service, it is integrated in the app, meaning BlackCatCard can hold your bitcoin. 
+
+Our verdict for this app is **custodial.**
+
+
+# Old Review  2021-09-03
 
 > Blackcatcard is a mobile application that offers an instantly ready European Mastercard thoroughly designed for online and offline purchases and accepted worldwide.
 

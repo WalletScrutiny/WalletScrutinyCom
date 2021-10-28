@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: jp.paddleinc.bitstock.jpg
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
