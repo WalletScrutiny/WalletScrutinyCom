@@ -10,8 +10,8 @@ idd: 1487443266
 released: 2019-11-26
 updated: 2021-10-08
 version: "1.33.2"
-stars: 4.76643
-reviews: 715
+stars: 4.76675
+reviews: 716
 size: 88287232
 website: https://expcapital.com
 repository: 

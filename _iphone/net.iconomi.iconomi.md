@@ -8,8 +8,8 @@ appId: net.iconomi.iconomi
 appCountry: si
 idd: 1238213050
 released: 2017-05-25
-updated: 2021-10-22
-version: "2.0.6"
+updated: 2021-10-27
+version: "2.0.7"
 stars: 4.69862
 reviews: 73
 size: 91320320

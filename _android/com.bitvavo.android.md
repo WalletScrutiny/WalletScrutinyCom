@@ -9,9 +9,9 @@ appId: com.bitvavo.android
 released: 2020-08-19
 updated: 2021-09-08
 version: "1.0.100"
-stars: 3.4
-ratings: 1424
-reviews: 1011
+stars: 3.2
+ratings: 1446
+reviews: 1032
 size: 178M
 website: https://bitvavo.com/
 repository: 

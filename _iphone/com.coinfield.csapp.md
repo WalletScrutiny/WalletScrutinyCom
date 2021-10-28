@@ -10,8 +10,8 @@ idd: 1460170928
 released: 2019-05-21
 updated: 2021-07-27
 version: "2.6.0"
-stars: 4.42171
-reviews: 479
+stars: 4.42292
+reviews: 480
 size: 68434944
 website: https://www.coinfield.com
 repository: 

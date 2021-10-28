@@ -10,8 +10,8 @@ released: 2020-08-20
 updated: 2021-09-15
 version: "1.5.1"
 stars: 3.4
-ratings: 105
-reviews: 60
+ratings: 106
+reviews: 61
 size: 35M
 website: https://coinmotion.com/
 repository: 

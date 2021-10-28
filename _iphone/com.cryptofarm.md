@@ -10,8 +10,8 @@ idd: 1532369824
 released: 2021-08-12
 updated: 2021-09-28
 version: "1.0.80"
-stars: 4.38462
-reviews: 26
+stars: 4.42856
+reviews: 28
 size: 13230080
 website: https://cryptotab.farm/
 repository: 

@@ -10,8 +10,8 @@ released: 2017-05-30
 updated: 2021-10-25
 version: "2.10.0"
 stars: 4.1
-ratings: 8812
-reviews: 4456
+ratings: 8820
+reviews: 4461
 size: 29M
 website: https://www.muchbetter.com/
 repository: 

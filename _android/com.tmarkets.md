@@ -10,7 +10,7 @@ released:
 updated: 2021-08-25
 version: "1.5.69-tmarkets"
 stars: 4.5
-ratings: 423
+ratings: 424
 reviews: 108
 size: 19M
 website: https://t1markets.com

@@ -9,9 +9,9 @@ appId: com.wallet.vaultcryptowallet
 released: 2021-08-18
 updated: 2021-09-15
 version: "1.0.3"
-stars: 4.5
-ratings: 19
-reviews: 18
+stars: 4.6
+ratings: 20
+reviews: 19
 size: 17M
 website: 
 repository: 

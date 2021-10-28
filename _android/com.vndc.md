@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: "VNDC Wallet Pro"
+title: "ONUS"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2020-03-07
 updated: 2021-09-12
 version: "1.8.5"
 stars: 4.6
-ratings: 27464
-reviews: 8673
+ratings: 27617
+reviews: 8695
 size: 107M
 website: https://vndc.io/en
 repository: 

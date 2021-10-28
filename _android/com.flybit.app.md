@@ -9,9 +9,9 @@ appId: com.flybit.app
 released: 2021-02-04
 updated: 2021-10-13
 version: "1.8.7"
-stars: 4.0
-ratings: 359
-reviews: 227
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.0M
 website: https://flybit.com/
 repository: 

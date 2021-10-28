@@ -4,14 +4,14 @@ title: "CoinField"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinfield.csapp
 released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
-stars: 3.7
-ratings: 1076
-reviews: 602
+stars: 0.0
+ratings: 
+reviews: 
 size: 58M
 website: https://www.coinfield.com/
 repository: 

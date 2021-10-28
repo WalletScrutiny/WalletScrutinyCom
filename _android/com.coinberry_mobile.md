@@ -10,7 +10,7 @@ released:
 updated: 2021-10-22
 version: "1.18.15"
 stars: 3.2
-ratings: 1063
+ratings: 1064
 reviews: 615
 size: 80M
 website: https://www.coinberry.com/

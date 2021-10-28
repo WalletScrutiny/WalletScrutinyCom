@@ -10,7 +10,7 @@ released:
 updated: 2021-09-07
 version: "3.58.0"
 stars: 2.7
-ratings: 1292
+ratings: 1293
 reviews: 715
 size: 55M
 website: https://bitbuy.ca

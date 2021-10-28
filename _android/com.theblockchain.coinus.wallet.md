@@ -9,9 +9,9 @@ appId: com.theblockchain.coinus.wallet
 released: 2018-04-23
 updated: 2021-08-31
 version: "2.8.5"
-stars: 4.1
-ratings: 368
-reviews: 228
+stars: 0.0
+ratings: 
+reviews: 
 size: 51M
 website: https://www.coinus.io/
 repository: 

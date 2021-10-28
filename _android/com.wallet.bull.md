@@ -10,8 +10,8 @@ released: 2021-06-28
 updated: 2021-10-13
 version: "1.4.1-947"
 stars: 4.6
-ratings: 699
-reviews: 546
+ratings: 698
+reviews: 545
 size: 20M
 website: https://bullcoin.finance/
 repository: https://github.com/BullCoinFinance

@@ -10,8 +10,8 @@ released: 2021-02-10
 updated: 2021-09-29
 version: "1.0.1.6"
 stars: 4.4
-ratings: 106
-reviews: 46
+ratings: 107
+reviews: 47
 size: 5.5M
 website: https://www.bybt.com/
 repository: 

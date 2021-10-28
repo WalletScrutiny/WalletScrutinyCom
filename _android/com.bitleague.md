@@ -9,9 +9,9 @@ appId: com.bitleague
 released: 2019-05-06
 updated: 2021-05-14
 version: "2.15.2"
-stars: 4.6
-ratings: 246
-reviews: 238
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: 
 repository: 

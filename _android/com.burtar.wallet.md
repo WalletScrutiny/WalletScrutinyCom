@@ -9,9 +9,9 @@ appId: com.burtar.wallet
 released: 2021-07-29
 updated: 2021-07-30
 version: "1.0"
-stars: 4.4
-ratings: 693
-reviews: 648
+stars: 4.3
+ratings: 711
+reviews: 666
 size: 6.1M
 website: 
 repository: 
