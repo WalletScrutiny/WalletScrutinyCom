@@ -3,7 +3,7 @@ wsId: aryainvest
 title: "ARYA Invest smart, live better"
 altTitle: 
 authors:
-
+- danny
 users: 100000
 appId: com.techx.arya
 released: 2019-09-10
