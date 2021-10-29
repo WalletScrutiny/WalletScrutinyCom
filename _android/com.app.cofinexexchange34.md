@@ -9,8 +9,8 @@ appId: com.app.cofinexexchange34
 released: 2021-02-12
 updated: 2021-02-12
 version: "1.0"
-stars: 3.1
-ratings: 8
+stars: 3.2
+ratings: 9
 reviews: 6
 size: 5.5M
 website: 

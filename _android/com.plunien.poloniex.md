@@ -10,8 +10,8 @@ released: 2017-06-19
 updated: 2021-10-27
 version: "1.30.3"
 stars: 4.4
-ratings: 6542
-reviews: 3324
+ratings: 6576
+reviews: 3342
 size: 27M
 website: https://support.poloniex.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.upbots.demo.twa
 released: 2021-06-21
 updated: 2021-06-21
 version: "1"
-stars: 5.0
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 542k
 website: 
 repository: 

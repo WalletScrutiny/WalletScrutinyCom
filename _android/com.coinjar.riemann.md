@@ -9,9 +9,9 @@ appId: com.coinjar.riemann
 released: 
 updated: 2021-10-14
 version: "2.8.0"
-stars: 4.5
-ratings: 1130
-reviews: 813
+stars: 4.4
+ratings: 1132
+reviews: 815
 size: 97M
 website: https://www.coinjar.com
 repository: 

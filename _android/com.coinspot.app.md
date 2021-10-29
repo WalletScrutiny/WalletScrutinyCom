@@ -10,8 +10,8 @@ released:
 updated: 2021-06-01
 version: "1.0.21"
 stars: 3.0
-ratings: 947
-reviews: 728
+ratings: 948
+reviews: 729
 size: 7.2M
 website: https://www.coinspot.com.au/
 repository: 

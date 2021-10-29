@@ -9,11 +9,11 @@ appId: com.binanceCloudtoko.binance
 appCountry: ph
 idd: 1538556690
 released: 2020-12-01
-updated: 2021-09-27
-version: "1.2.4"
+updated: 2021-10-28
+version: "1.3.0"
 stars: 
 reviews: 
-size: 89270272
+size: 90774528
 website: https://www.tokocrypto.com
 repository: 
 issue: 

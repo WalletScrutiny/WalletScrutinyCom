@@ -9,9 +9,9 @@ appId: smartchain.aiqt
 released: 2021-06-21
 updated: 2021-06-21
 version: "9.8"
-stars: 4.1
-ratings: 72
-reviews: 28
+stars: 4.2
+ratings: 73
+reviews: 29
 size: 10M
 website: 
 repository: 

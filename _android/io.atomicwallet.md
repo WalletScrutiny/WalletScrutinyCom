@@ -10,8 +10,8 @@ released: 2019-01-30
 updated: 2021-10-17
 version: "0.79.2"
 stars: 4.3
-ratings: 55109
-reviews: 25719
+ratings: 55235
+reviews: 25770
 size: 15M
 website: https://atomicwallet.io
 repository: 

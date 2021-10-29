@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: de.schildbach.wallet_test
 released: 2011-07-10
-updated: 2021-10-24
-version: "8.18"
+updated: 2021-10-28
+version: "8.19"
 stars: 4.5
-ratings: 368
+ratings: 369
 reviews: 76
 size: 3.0M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet

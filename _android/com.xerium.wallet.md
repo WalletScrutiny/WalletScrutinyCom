@@ -9,9 +9,9 @@ appId: com.xerium.wallet
 released: 2021-03-04
 updated: 2021-03-04
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.5
+ratings: 51
+reviews: 46
 size: 6.0M
 website: 
 repository: 

@@ -1,18 +1,18 @@
 ---
 wsId: VNDCPro
-title: "ONUS"
+title: "ONUS: Invest BTC, ETH, DOGE"
 altTitle: 
 authors:
 - danny
 users: 500000
 appId: com.vndc
 released: 2020-03-07
-updated: 2021-09-12
-version: "1.8.5"
+updated: 2021-10-28
+version: "2.0.0"
 stars: 4.6
-ratings: 27617
-reviews: 8695
-size: 107M
+ratings: 27931
+reviews: 8795
+size: 115M
 website: https://vndc.io/en
 repository: 
 issue: 

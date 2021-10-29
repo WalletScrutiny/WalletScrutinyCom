@@ -10,8 +10,8 @@ released: 2019-06-03
 updated: 2021-09-20
 version: "1.2.25"
 stars: 3.1
-ratings: 3328
-reviews: 2207
+ratings: 3335
+reviews: 2210
 size: 70M
 website: https://blackcatcard.com
 repository: 
