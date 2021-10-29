@@ -34,19 +34,21 @@ redirect_from:
 ---
 
 
-### App Description
+## App Description
 
 It appears to be a service that allows users to buy and sell cryptocurrencies including Bitcoin and Ethereum.
 
-### The Site
+> Buy & sell Bitcoin, Ethereum and other cryptocurrencies at anytime, anywhere.
+
+## The Site
 
 Curiously, the site digiexchange.net upon first visit, initially shows a privacy warning. Proceeding redirects to a .biz domain of the same name.
 
-### The App
+## The App
 
 Registration involves sending several KYC documents that we deem to be intrusive. We did not proceed with registration and opted instead to converse with their support. 
 
-### Contact
+## Contact
 
 We chatted via [twitter](https://twitter.com/dannybuntu/status/1442779355034181635) and via their on-page support.
 

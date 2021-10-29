@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-verdict: nowallet
+verdict: fake
 date: 2021-10-19
 signer: 
 reviewArchive:
@@ -33,6 +33,16 @@ redirect_from:
 
 ---
 
+
+## Updated Review and Verdict 2021-10-29
+
+We are revising our review as this app qualifies as a **fake app** by definition since it tries to appropriate the logo with slight variation in color. It is trying to be similar to:
+
+{% include walletLink.html wallet='android/de.schildbach.wallet' verdict='true' %} 
+
+However, its lack of functionalities of a real "Bitcoin Wallet" as it calls itself make it highly suspicious. 
+
+## Old Review 2021-10-19
 
 ⚠️ **Caution**: this app does not have developer information apart from "Crypt Financial Services". It also did not list its 'Website' on Google Play. While these do not constitute in and of themselves evidence of any wrongdoing, it does raise questions about the app itself. We advise users to take extra precautionary measures when installing this app.   
 
@@ -65,6 +75,6 @@ Once we opened the app, the first thing that appeared was a button that looks li
 
 We would not like to press that button. 
 
-## Verdict
+## Old Verdict
 
 ⚠️ **Caution**. We believe that many of the circumstances regarding this app makes it prime for more scrutiny. In the absence of any proof that it is indeed a cryptocurrency wallet, our safest verdict would be to say that **it is not a bitcoin wallet.**

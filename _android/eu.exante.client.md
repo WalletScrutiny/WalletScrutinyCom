@@ -38,8 +38,8 @@ redirect_from:
 
 Exante offers:
 
-> Trading stocks, options, futures, forex, bonds, cryptocurrency and hedge funds from a single account<br><br>
-As a fully licensed and regulated European broker, EXANTE offers online trading on over 50+ markets including NYSE, NASDAQ, CBOE, MOEX, Euronext Group. Dynamic trading tools, extensive IT infrastructure with over 750 servers make EXANTE a powerful industry leader.
+> Trading stocks, options, futures, forex, bonds, cryptocurrency and hedge funds from a single account
+> As a fully licensed and regulated European broker, EXANTE offers online trading on over 50+ markets including NYSE, NASDAQ, CBOE, MOEX, Euronext Group. Dynamic trading tools, extensive IT infrastructure with over 750 servers make EXANTE a powerful industry leader.
 
 It claims to be [the only broker](https://exante.eu/lp/only-one/) that offers CBOE, CME, Bitcoin and Altcoins from the same trading account.
 

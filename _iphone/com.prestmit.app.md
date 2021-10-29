@@ -10,15 +10,15 @@ idd: 1581960714
 released: 2021-08-20
 updated: 2021-08-31
 version: "1.1"
-stars: 4.27679
-reviews: 112
+stars: 4.28319
+reviews: 113
 size: 26773504
 website: https://prestmit.com
 repository: 
 issue: 
 icon: com.prestmit.app.jpg
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:

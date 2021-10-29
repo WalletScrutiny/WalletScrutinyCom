@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
@@ -34,14 +34,26 @@ redirect_from:
 ---
 
 
+## New Review 2021-10-29
+
+We are revising our verdict as it fits several criteria:
+
+- It reportedly holds BTC denominated value
+- The user cannot send or receive Bitcoins (can but only by autowithdraw)
+- Bitcoins are autowithdrawn once a week and if the BTC balance is above 0.0003 BTC.
+
+This means that this app **cannot send or receive bitcoins** in a sense of a Bitcoin wallet.
+
+## Old Review 2021-10-19
+
 ⚠️ **Caution:** Sites that claim to give free bitcoins should be given extra scrutiny. As of today, October 14, 2021, the price of Bitcoin is $57,672. Sending bitcoins for free to over 10,000 users can be quite expensive. 
 
 ## App Description
 
->Earn Bitcoin with this free Bitcoin faucet. Awards Bitcoin every hour and 4.08% interest on earnings.<br>
-- Uses a 'provably fair' random number generator for awards. Verify the rolls independently using the hashes provided.
-- Earn interest passively at 4.08% pa compounded daily ≥0.003 BTC.
-- Bitcoin transaction created weekly for all users ≥0.003 BTC.
+>Earn Bitcoin with this free Bitcoin faucet. Awards Bitcoin every hour and 4.08% interest on earnings.
+> - Uses a 'provably fair' random number generator for awards. Verify the rolls independently using the hashes provided.
+> - Earn interest passively at 4.08% pa compounded daily ≥0.003 BTC.
+> - Bitcoin transaction created weekly for all users ≥0.003 BTC.
 
 ### Reviews
 
