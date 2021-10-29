@@ -20,9 +20,14 @@ issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-26
+date: 2021-10-29
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2021-10-26
+  version: "2.2.16"
+  appHash: dd3204688e6a23831f0daa51904112643acf859550b6a6f1d6210e91f5da14f5
+  gitRevision: fa227d42296cae666acec49c980629e0b2a71636
+  verdict: reproducible
 - date: 2021-10-15
   version: "2.1.14"
   appHash: 
@@ -39,25 +44,33 @@ redirect_from:
 ---
 
 
-**Update 2021-10-26**: With some more efforts, Emanuel and the provider's team
-fixed all issues and the app is now **reproducible**! Our newly created test script,
-a slight variation of the "build instructions" and Emanuel's findings comes to
-these results:
+With the newly reproducible verdict, this wallet got some
+extra scrutiny and it turned out their default lightning account is custodial
+without stating so, which would warrant a "custodial" verdict.
+It was named "HOSTED CHANNEL" which is
+[very specific](https://lightning-wallet.com/posts/scaling-ln-with-hosted-channels/)
+and well defined but not clear to novice users.
+
+We
+[petitioned to make this clearer](https://github.com/btcontract/wallet/issues/102)
+and the provider reacted in record time, releasing version `2.2.17` with a fix.
+
+For that latest version, our test script returned this:
 
 ```
 Results:
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.2.16
-apkVersionCode: 80
+apkVersionName: 2.2.17
+apkVersionCode: 82
 verdict:        reproducible
-appHash:        dd3204688e6a23831f0daa51904112643acf859550b6a6f1d6210e91f5da14f5
-commit:         f2238ca7096fe3752228d43149c1b48a97de0cfc
+appHash:        18096c8996af7d0efd89d6481ee6a3a700691c8557e2f0986fc3fa7b770667b5
+commit:         d1f254e66eaee912c073498cf361458e002777fb
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_80/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_80/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_80/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_80/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_82/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_82/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_82/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_82/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 ```
@@ -65,29 +78,5 @@ Revision, tag (and its signature):
 The separately downloaded `graph.snapshot-mainnet.zlib` had this hash:
 
 ```
-bcc0bf1a8bd7527ce3903b198a5739cfa8f763731b4f2c03b608875a3ebb0a9c app/src/main/assets/graph.snapshot-mainnet.zlib
+4d3ffab44c6e4d8352b32eb2168f8f5aa829991391d9d06ebef4e5afc327c0f7 app/src/main/assets/graph.snapshot-mainnet.zlib
 ```
-
-**Update 2021-10-15**: Emanuel meanwhile
-[was able to compile](https://github.com/btcontract/wallet/issues/63#issuecomment-924162388)
-the app. Unfortunately there are remaining
-[reproducibility issues](https://github.com/btcontract/wallet/issues/90).
-
-## Old, updated Analysis
-
-The provider
-[stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)
-that {% include walletLink.html wallet='android/com.lightning.walletapp' verdict='true' %}
-was discontinued and this is its successor.
-
-Their website says:
-
-> Simple Bitcoin Wallet (aka SBW) is an open-source, non-custodial, autonomous
-  wallet for Android devices which can store, send and receive bitcoins.
-
-This sounds good. What doesn't sound good are the many scam accusations and bug
-complaints in the reviews on Play Store.
-
-The
-[link to f-droid.org](https://f-droid.org/packages/com.btcontract.wallet/) gives
-hope to find a reproducible app though.
