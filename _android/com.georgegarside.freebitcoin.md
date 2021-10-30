@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
@@ -33,18 +33,6 @@ redirect_from:
 
 ---
 
-
-## New Review 2021-10-29
-
-We are revising our verdict as it fits several criteria:
-
-- It reportedly holds BTC denominated value
-- The user cannot send or receive Bitcoins (can but only by autowithdraw)
-- Bitcoins are autowithdrawn once a week and if the BTC balance is above 0.0003 BTC.
-
-This means that this app **cannot send or receive bitcoins** in a sense of a Bitcoin wallet.
-
-## Old Review 2021-10-19
 
 ⚠️ **Caution:** Sites that claim to give free bitcoins should be given extra scrutiny. As of today, October 14, 2021, the price of Bitcoin is $57,672. Sending bitcoins for free to over 10,000 users can be quite expensive. 
 
@@ -75,15 +63,13 @@ Withdraw bitcoin to your desired bitcoin address, with Auto-Withdraw every Sunda
 
 ## The App
 
-We downloaded and installed the app. 
+After downloading the app, we ran into the same problems as the reviews noted above. Solving the captcha does not seem to generate any feedback. Moreover, the ios version of the app is no longer available "after an update". 
 
-The first screen has this message:
+It is difficult to ascertain whether "real bitcoins" are being sent to a "real bitcoin wallet". The app merely displays numbers prefixed with the Bitcoin sign. It may be feasible for the developer to show this as a representation of "winnings" in the faucet. 
 
-> Win bitcoin for free every hour, simply by trying your luck with the random number generator!<br><br>
-**How it works**<br>
-**Every hour, open the app** and roll the random number generator. Your random number for that hour between 0 and 10000 determines the amount of Bitcoin you earn. <br><br>
-There's always a minimum amount of Bitcoin you earn by rolling. Very high rolls win the largest prizes!<br><br>
-Bitcoins are paid to your provided Bitcoin address **once a week** (Sunday evening UTC), if you have Auto Withdraw enabled and have more than 0.0003 BTC in the app.
+Moreover, the site listed on the Google Play page is the personal website of the developer.
+
+Finally, it would seem that the app is no longer functioning as intended. 
 
 ### Registration
 
@@ -99,10 +85,5 @@ We contacted the developer George Garside via [twitter](https://twitter.com/Bitc
 
 ## Verdict
 
-After downloading the app, we ran into the same problems as the reviews noted above. Solving the captcha does not seem to generate any feedback. Moreover, the ios version of the app is no longer available "after an update". 
 
-It is difficult to ascertain whether "real bitcoins" are being sent to a "real bitcoin wallet". The app merely displays numbers prefixed with the Bitcoin sign. It may be feasible for the developer to show this as a representation of "winnings" in the faucet. 
-
-Moreover, the site listed on the Google Play page is the personal website of the developer.
-
-Finally, it would seem that the app is no longer functioning as intended. For now, it is more prudent to say that this app **does not function as a wallet.**
+Due to there being no visible feature that allows users to **deposit money into this app,** we assume that **you can't deposit BTC** and money can't be held in this app. For now, it is more prudent to say that this app **does not function as a wallet.** 
