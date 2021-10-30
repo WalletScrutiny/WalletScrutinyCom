@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.blockin.google
 released: 2020-03-12
-updated: 2021-10-22
-version: "3.3.4"
+updated: 2021-10-29
+version: "3.3.5"
 stars: 4.1
-ratings: 637
+ratings: 638
 reviews: 216
 size: 38M
 website: https://www.poolin.com/

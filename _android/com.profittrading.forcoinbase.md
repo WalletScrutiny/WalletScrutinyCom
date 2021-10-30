@@ -10,8 +10,8 @@ released: 2018-05-15
 updated: 2021-05-16
 version: "Varies with device"
 stars: 4.2
-ratings: 134
-reviews: 67
+ratings: 135
+reviews: 68
 size: Varies with device
 website: https://profittradingapp.com/
 repository: 

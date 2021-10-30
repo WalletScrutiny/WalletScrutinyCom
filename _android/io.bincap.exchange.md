@@ -9,9 +9,9 @@ appId: io.bincap.exchange
 released: 2019-08-08
 updated: 2020-05-02
 version: "2.0.1"
-stars: 4.4
-ratings: 13
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 6.7M
 website: 
 repository: 

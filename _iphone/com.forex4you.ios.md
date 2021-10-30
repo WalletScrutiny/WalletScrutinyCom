@@ -10,8 +10,8 @@ idd: 1008039704
 released: 2015-10-11
 updated: 2020-11-11
 version: "4.2"
-stars: 4.74517
-reviews: 259
+stars: 4.74615
+reviews: 260
 size: 101718016
 website: https://www.forex4you.com/en/contacts/
 repository: 

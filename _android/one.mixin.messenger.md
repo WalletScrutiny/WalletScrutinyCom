@@ -10,7 +10,7 @@ released: 2018-05-24
 updated: 2021-10-18
 version: "0.32.8"
 stars: 4.5
-ratings: 1224
+ratings: 1223
 reviews: 952
 size: 27M
 website: https://mixinmessenger.zendesk.com/

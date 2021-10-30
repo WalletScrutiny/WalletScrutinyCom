@@ -10,8 +10,8 @@ idd: 1535046179
 released: 2021-03-18
 updated: 2021-10-27
 version: "1.1.0"
-stars: 4.17647
-reviews: 34
+stars: 4.13333
+reviews: 90
 size: 108658688
 website: https://www.hagglex.com/
 repository: 

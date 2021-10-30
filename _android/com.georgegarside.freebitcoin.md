@@ -9,8 +9,8 @@ appId: com.georgegarside.freebitcoin
 released: 2020-10-30
 updated: 2021-05-25
 version: "3.1.1"
-stars: 2.5
-ratings: 106
+stars: 2.4
+ratings: 107
 reviews: 64
 size: 4.9M
 website: https://georgegarside.com/apps/free-bitcoin/

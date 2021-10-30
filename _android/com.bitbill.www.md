@@ -9,9 +9,9 @@ appId: com.bitbill.www
 released: 2018-03-22
 updated: 2021-10-17
 version: "4.32.1"
-stars: 3.7
-ratings: 71
-reviews: 39
+stars: 0.0
+ratings: 
+reviews: 
 size: 33M
 website: http://www.bitbill.com
 repository: 

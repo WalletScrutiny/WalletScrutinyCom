@@ -10,8 +10,8 @@ idd: 1320032339
 released: 2017-12-13
 updated: 2021-10-20
 version: "4.0.8"
-stars: 3.63201
-reviews: 606
+stars: 3.63427
+reviews: 607
 size: 36724736
 website: http://www.bitcointrade.com.br/
 repository: 

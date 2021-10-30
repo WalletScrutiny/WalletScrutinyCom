@@ -10,8 +10,8 @@ released: 2020-08-20
 updated: 2021-10-17
 version: "1.3.18"
 stars: 4.3
-ratings: 1008
-reviews: 237
+ratings: 1013
+reviews: 238
 size: 62M
 website: https://bitoasis.net/en/home
 repository: 

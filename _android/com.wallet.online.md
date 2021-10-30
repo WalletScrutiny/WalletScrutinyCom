@@ -9,9 +9,9 @@ appId: com.wallet.online
 released: 2019-11-08
 updated: 2021-04-22
 version: "1.1.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.9
+ratings: 7
+reviews: 3
 size: 28M
 website: 
 repository: 

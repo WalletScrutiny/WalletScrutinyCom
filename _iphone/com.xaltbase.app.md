@@ -10,7 +10,7 @@ idd: 1570826163
 released: 2021-08-18
 updated: 2021-09-03
 version: "2.1.1"
-stars: 4.56923
+stars: 4.47692
 reviews: 65
 size: 59696128
 website: https://www.100xcoin.io/

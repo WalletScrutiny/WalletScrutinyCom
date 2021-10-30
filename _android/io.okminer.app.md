@@ -10,7 +10,7 @@ released: 2021-06-27
 updated: 2021-10-13
 version: "1.2.8"
 stars: 4.5
-ratings: 531
+ratings: 533
 reviews: 116
 size: 24M
 website: https://www.okminer.io/

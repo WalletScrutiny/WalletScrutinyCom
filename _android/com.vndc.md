@@ -9,9 +9,9 @@ appId: com.vndc
 released: 2020-03-07
 updated: 2021-10-28
 version: "2.0.0"
-stars: 4.6
-ratings: 27931
-reviews: 8795
+stars: 4.5
+ratings: 28112
+reviews: 8840
 size: 115M
 website: https://vndc.io/en
 repository: 

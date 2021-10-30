@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: br.com.foxbit.foxbitandroid
 released: 2019-01-28
-updated: 2021-10-27
-version: "2.9.0"
+updated: 2021-10-28
+version: "2.9.1"
 stars: 4.0
-ratings: 5350
-reviews: 3757
+ratings: 5352
+reviews: 3758
 size: 13M
 website: https://ajuda.foxbit.com.br/
 repository: 

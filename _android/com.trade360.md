@@ -10,8 +10,8 @@ released: 2015-06-18
 updated: 2021-07-09
 version: "6.10"
 stars: 2.8
-ratings: 1365
-reviews: 777
+ratings: 1367
+reviews: 779
 size: 10M
 website: https://www.trade360.com/
 repository: 

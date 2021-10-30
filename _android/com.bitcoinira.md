@@ -10,8 +10,8 @@ released:
 updated: 2021-10-27
 version: "1.3.11"
 stars: 4.4
-ratings: 177
-reviews: 55
+ratings: 175
+reviews: 54
 size: 118M
 website: https://bitcoinira.com/
 repository: 
