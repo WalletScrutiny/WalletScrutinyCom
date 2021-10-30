@@ -34,17 +34,8 @@ redirect_from:
 ---
 
 
-## New Review 2021-10-28
-
 Bitcoin Bounce is a lightning network powered game.
 
 Players can win satoshis by earning tickets. The tickets are raffled and the winner receives the Satoshis. Creating an account saves the user's progress. Players who earn Satoshis can then withdraw their Bitcoins in another Bitcoin lightning wallet.
 
-This app **cannot receive Bitcoins.**
-
-## Old Review 2021-09-10
-
-This app is a play-to-earn bitcoin game that points to other bitcoin lightning wallet to withdraw 'earnings'. 
-
-Verdict is **nowallet**
-
+This app **cannot receive Bitcoins.** It cannot hold any of your money, so it **does not really function as a wallet.**
