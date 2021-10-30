@@ -1,7 +1,7 @@
 ---
 wsId: cryptotab
 title: "CryptoTab Farm — Turn Computers into Digital Gold"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 100000
@@ -14,26 +14,25 @@ ratings: 3149
 reviews: 1524
 size: 32M
 website: https://cryptotab.farm/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.cryptofarm.png
-bugbounty: 
+bugbounty:
 verdict: nosendreceive
 date: 2021-09-10
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: CryptoTabnet
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: CryptoTabFarm
-providerReddit: 
+providerReddit:
 
 redirect_from:
 
 ---
 
-## Updated Review 2021-10-28
 
 ## Google Play Critical Reviews
 
@@ -47,33 +46,12 @@ redirect_from:
 
 ## The App
 
-We downloaded the app to test it. Apparently, it allows users to [get "workers"](https://twitter.com/BitcoinWalletz/status/1453654173354901515) (in the form of CPU or GPU) to mine bitcoins. Adding more 'workers' increases the hash rate, which makes the 'bitcoin' balance go up. Once a certain threshold is met, the user can withdraw Bitcoins. Users can purchase different plans with a different number of workers. 
+We downloaded the app to test it. Apparently, it allows users to [get "workers"](https://twitter.com/BitcoinWalletz/status/1453654173354901515) (in the form of CPU or GPU) to mine bitcoins. Adding more 'workers' increases the hash rate, which makes the 'bitcoin' balance go up. Once a certain threshold is met, the user can withdraw Bitcoins. Users can purchase different plans with a different number of workers.
 
-The lowest plan that we saw was about $2. 
+The lowest plan that we saw was about $2.
 
 ## Verdict
 
-There is no way to verify if the Bitcoin balances displayed on the app as the user's balance are real bitcoins or not. There is no way to deposit Bitcoin. Purchases of 'plans' are denominated in our local currency and not bitcoins. 
+There is no way to verify if the Bitcoin balances displayed on the app as the user's balance are real bitcoins or not. There is no way to deposit Bitcoin. Purchases of 'plans' are denominated in our local currency and not bitcoins.
 
-Since the app purports to hold "bitcoins" made by "mining", and since it's possible to cash out these "BTC", we've determined that this app **cannot send or receive bitcoins**.
-
-<hr />
-
-## Old Review 2021-09-10
-
-> Make any available computers (Windows or macOS) work for you – instead of worthless dust collecting, they will bring you passive income in BTC.
-
-According to the description, you can use this app to install "a high-performance miner"
-
-Doesn't exactly sound like a BTC wallet.  
-
-> With us, your income is under reliable protection. Withdraw your funds with no limitations anytime, even on the first day of mining.
-
-So a third-party is in control of your funds. 
-
-> You can withdraw funds from CryptoTab Farm to your CryptoTab account.
-> From the CryptoTab balance, you can withdraw them to any Bitcoin wallet.
-
-You can store BTC earned from mining, but you can't deposit funds. You can still withdraw it into a separate Bitcoin wallet.
-
-Verdict: This is **not a wallet.**
+Since we **cannot deposit Bitcoin,** it looks like this app cannot actually hold your digital assets. Regardless if the bitcoins are truly "mined" or not, **this app does not function as a wallet** and doesn't hold your bitcoin.

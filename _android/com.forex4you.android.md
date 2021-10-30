@@ -1,7 +1,7 @@
 ---
 wsId: forex4you
 title: "Forex4you - Trading on Forex"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 100000
@@ -14,20 +14,20 @@ ratings: 2409
 reviews: 956
 size: Varies with device
 website: https://www.forex4you.com/en/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.forex4you.android.png
-bugbounty: 
+bugbounty:
 verdict: nosendreceive
 date: 2021-09-03
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
+providerTwitter:
+providerLinkedIn:
 providerFacebook: forex4you
-providerReddit: 
+providerReddit:
 
 redirect_from:
 
@@ -47,17 +47,17 @@ CFDs allow trading of Bitcoin, with the intention of cashing them out for fiat. 
 
 ## Old Review 2021-09-03
 
-We downloaded the app and couldn't find anywhere of a mention about how to withdraw or deposit cryptocurrencies. The only reference for cryptocurrencies is on Google Play. 
+We downloaded the app and couldn't find anywhere of a mention about how to withdraw or deposit cryptocurrencies. The only reference for cryptocurrencies is on Google Play.
 
 > Trade with forex, stocks, indices, commodities and cryptocurrencies such as gold and oil (?)
 
-Nowhere in the site has it been mentioned how. I google'd using the parameter: 
+Nowhere in the site has it been mentioned how. I google'd using the parameter:
 
-> site: https://www.forex4you.com bitcoin or crypto or deposit or wallet. 
+> site: https://www.forex4you.com bitcoin or crypto or deposit or wallet.
 
-We also verified with their legal documents and found nowhere in the language that crypto was supported on the site. 
+We also verified with their legal documents and found nowhere in the language that crypto was supported on the site.
 
-Finally, I contacted their [chat support](https://support.eglobal-group.com/visitor/index.php?/LiveChat/Chat/Start) and chatted with a certain Vladimir S, about the possibility of depositing or withdrawing cryptocurrencies. Here's a quote of the interaction: 
+Finally, I contacted their [chat support](https://support.eglobal-group.com/visitor/index.php?/LiveChat/Chat/Start) and chatted with a certain Vladimir S, about the possibility of depositing or withdrawing cryptocurrencies. Here's a quote of the interaction:
 
 > Daniel Andrei R. Garcia:<br>
 > hello<br><br>
@@ -70,6 +70,6 @@ Finally, I contacted their [chat support](https://support.eglobal-group.com/visi
 
 In the absence of evidence pointing to it as having the capability of a wallet, I would have to say that it has no wallet.
 
-Even if we are going to assume that their support was telling the truth, the lack of hard evidence to show their ability to host wallets or even a security mechanism (ie. cold storage) goes against that verdict. 
+Even if we are going to assume that their support was telling the truth, the lack of hard evidence to show their ability to host wallets or even a security mechanism (ie. cold storage) goes against that verdict.
 
 Furthermore, the support did not specifically point to a web page indicating such.

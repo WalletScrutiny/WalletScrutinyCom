@@ -1,7 +1,7 @@
 ---
 wsId: BitstockBitstart
 title: "Get Bitcoin every day in Bitstcock"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 100000
@@ -14,20 +14,20 @@ ratings: 2485
 reviews: 952
 size: 27M
 website: https://bitstart.jp/
-repository: 
-issue: 
+repository:
+issue:
 icon: jp.paddle_inc.bitstock.png
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-10-21
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
@@ -43,13 +43,13 @@ From the site:
 > You can get Bitcoin through online shopping through BitStart and answering questionnaires.
 > There is no need to open a virtual currency account.
 
-Users can earn "bitcoins" by participating in site activities such as reading through educational material, online shopping or answering questionnaires. Again, it is not possible to send bitcoin to the service, but through user participation, users can earn bitcoin (represented or real bitcoins). These are then stored on the service and can be withdrawn after a threshold. 
+Users can earn "bitcoins" by participating in site activities such as reading through educational material, online shopping or answering questionnaires. Through user participation, users can earn bitcoin (represented or real bitcoins). These are then stored on the service and can be withdrawn after a threshold.
 
-We previously determined this app to not have a bitcoin wallet, we are now revising it to state that this app **cannot send or receive bitcoins**.
+Again, it is not possible to send bitcoin to the service. Bitstart still **does not truly function as a wallet** due to users being unable to deposit BTC in this app at all.
 
 ## Old Review 2021-10-21
 
-**Note:** This app known as bitstock on Google Play is known as BitStart elsewhere on its web properties. [Paddle](https://play.google.com/store/apps/dev?id=9139612144910094193), the Japanese developer, [Paddle Inc.](https://play.google.com/store/apps/dev?id=9139612144910094193), seems to have failed to integrate the branding on their app. 
+**Note:** This app known as bitstock on Google Play is known as BitStart elsewhere on its web properties. [Paddle](https://play.google.com/store/apps/dev?id=9139612144910094193), the Japanese developer, [Paddle Inc.](https://play.google.com/store/apps/dev?id=9139612144910094193), seems to have failed to integrate the branding on their app.
 
 **Note**: The app is also in Japanese with no translation. We will contact the developers via email as they don't seem to have a twitter account.
 
@@ -71,9 +71,9 @@ We downloaded the app and had trouble registering due to a lack of translation.
 
 We were not able to find their twitter account, but managed to find a point of contact via their email address:
 
-> Hi! My name is Daniel, and I have a little trouble using your app.<br><br> 
-I wanted to know whether there is a Bitcoin wallet in the app, or are the Bitcoins provided to users "representative" or "not real Bitcoins". <br><br> 
-If possible, is the project open-source. If yes, may we know if you keep the repository open to the public? <br><br> 
+> Hi! My name is Daniel, and I have a little trouble using your app.<br><br>
+I wanted to know whether there is a Bitcoin wallet in the app, or are the Bitcoins provided to users "representative" or "not real Bitcoins". <br><br>
+If possible, is the project open-source. If yes, may we know if you keep the repository open to the public? <br><br>
 Thank you!
 
 Translated:
@@ -81,7 +81,7 @@ Translated:
 > やあ！ 私の名前はダニエルです。あなたのアプリを使用するのに少し問題があります。<br><br>
 アプリにビットコインウォレットがあるのか、それとも「代表的な」または「本物ではない」ビットコインがユーザーに提供されているのかを知りたいと思いました。<br><br>
 可能であれば、プロジェクトはオープンソースです。 はいの場合、リポジトリを一般に公開しておくかどうかを教えていただけますか？
- 
+
 ## Verdict
 
 We had great difficulty translating the app from Japanese. As the Google Play description states, it seems to be an educational platform that allows users to "practice buying and selling" bitcoin. Once the app is open, we tried the different options to see if there was a facility to store, send or receive bitcoins like in a Bitcoin wallet. Absent documentation and other descriptive features, and until further information is available, we believe this app **does not have a bitcoin wallet**.
