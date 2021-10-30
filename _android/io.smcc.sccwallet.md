@@ -3,7 +3,7 @@ wsId:
 title: "Smart Coin Wallet For Android"
 altTitle: 
 authors:
-
+- leo
 users: 10000
 appId: io.smcc.sccwallet
 released: 2018-08-12
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.smcc.sccwallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
 - date: 2020-05-29
@@ -38,5 +38,7 @@ redirect_from:
   - /posts/io.smcc.sccwallet/
 ---
 
+
+**Update 2021-10-21**: This app is no more.
 
 This is not a BTC wallet. It appears to only support some smart coin.
