@@ -9,9 +9,9 @@ appId: com.whitebit.android
 released: 2019-06-07
 updated: 2021-10-23
 version: "2.1.17"
-stars: 4.0
-ratings: 1750
-reviews: 945
+stars: 4.2
+ratings: 1778
+reviews: 951
 size: 13M
 website: https://whitebit.com
 repository: 

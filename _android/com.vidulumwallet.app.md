@@ -10,7 +10,7 @@ released: 2019-04-04
 updated: 2019-04-05
 version: "1.2"
 stars: 4.2
-ratings: 96
+ratings: 97
 reviews: 69
 size: 174k
 website: https://vidulum.app

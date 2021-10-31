@@ -9,9 +9,9 @@ appId: gwallet.tech
 released: 2021-02-16
 updated: 2021-09-11
 version: "1.1.35"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 314
+reviews: 258
 size: 64M
 website: 
 repository: 

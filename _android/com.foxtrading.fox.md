@@ -9,9 +9,9 @@ appId: com.foxtrading.fox
 released: 2018-05-14
 updated: 2019-05-08
 version: "0.7.11"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.9
+ratings: 36
+reviews: 22
 size: 24M
 website: 
 repository: 

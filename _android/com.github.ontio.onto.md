@@ -10,8 +10,8 @@ released: 2018-06-27
 updated: 2021-10-29
 version: "4.1.0"
 stars: 4.4
-ratings: 932
-reviews: 633
+ratings: 933
+reviews: 634
 size: 85M
 website: https://www.onto.app
 repository: https://github.com/ONTO-Data-Wallet/ONTO

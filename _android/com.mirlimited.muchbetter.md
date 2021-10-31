@@ -9,9 +9,9 @@ appId: com.mirlimited.muchbetter
 released: 2017-05-30
 updated: 2021-10-25
 version: "2.10.0"
-stars: 3.4
-ratings: 8831
-reviews: 31
+stars: 4.1
+ratings: 8845
+reviews: 4473
 size: 29M
 website: https://www.muchbetter.com/
 repository: 

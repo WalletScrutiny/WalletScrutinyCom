@@ -10,7 +10,7 @@ released: 2019-11-18
 updated: 2021-10-29
 version: "2.3.03"
 stars: 3.8
-ratings: 3670
+ratings: 3690
 reviews: 8
 size: 46M
 website: https://www.pionex.com

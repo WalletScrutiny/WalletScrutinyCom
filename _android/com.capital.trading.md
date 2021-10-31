@@ -10,8 +10,8 @@ released: 2017-10-18
 updated: 2021-10-27
 version: "1.34.3"
 stars: 4.5
-ratings: 23462
-reviews: 7858
+ratings: 23515
+reviews: 7874
 size: Varies with device
 website: 
 repository: https://capital.com/

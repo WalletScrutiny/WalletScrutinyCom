@@ -9,9 +9,9 @@ appId: com.cloud.app.mandala
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.3
-ratings: 61
-reviews: 41
+stars: 4.2
+ratings: 62
+reviews: 42
 size: 23M
 website: 
 repository: 

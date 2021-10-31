@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: "Binance: BTC Crypto NFT & SHIB"
+title: "Binance: BTC NFTs Memes & Meta"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2017-10-25
 updated: 2021-10-28
 version: "2.36.5"
 stars: 4.4
-ratings: 441629
-reviews: 152587
+ratings: 442631
+reviews: 153081
 size: Varies with device
 website: https://www.binance.com
 repository: 

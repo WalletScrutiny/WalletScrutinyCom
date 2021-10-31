@@ -9,8 +9,8 @@ appId: com.phemex.app
 released: 2020-02-19
 updated: 2021-10-13
 version: "2.0.3"
-stars: 4.4
-ratings: 11344
+stars: 4.5
+ratings: 11513
 reviews: 2428
 size: 48M
 website: https://phemex.com

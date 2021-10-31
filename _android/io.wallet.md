@@ -10,8 +10,8 @@ released: 2019-08-24
 updated: 2021-08-04
 version: "1.13.8"
 stars: 3.6
-ratings: 88
-reviews: 38
+ratings: 89
+reviews: 39
 size: 25M
 website: https://wallet.io/
 repository: https://github.com/wallet-io

@@ -9,9 +9,9 @@ appId: com.cybertronchain.coinibt
 released: 2020-12-02
 updated: 2021-07-27
 version: "1.13"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.9
+ratings: 609
+reviews: 449
 size: 5.7M
 website: 
 repository: 

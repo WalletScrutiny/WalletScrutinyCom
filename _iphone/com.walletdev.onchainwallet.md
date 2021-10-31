@@ -11,8 +11,8 @@ idd: 1433883012
 released: 2018-09-29
 updated: 2021-10-28
 version: "3.0.1"
-stars: 4.46556
-reviews: 305
+stars: 4.46732
+reviews: 306
 size: 113487872
 website: https://www.huobiwallet.com/en/
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.limitless.b_lord.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: stale
+date: 2021-10-31
 signer: 
 reviewArchive:
 

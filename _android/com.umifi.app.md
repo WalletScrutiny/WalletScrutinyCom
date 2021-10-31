@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "UmiFi - Buy & Sell Bitcoin, Crypto Trading"
+title: "UmiFi-Bitcoin, Crypto Trading"
 altTitle: 
 authors:
 

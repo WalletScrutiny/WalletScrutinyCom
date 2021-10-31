@@ -10,7 +10,7 @@ released: 2020-01-02
 updated: 2021-10-28
 version: "1.21"
 stars: 4.3
-ratings: 479
+ratings: 480
 reviews: 275
 size: 42M
 website: https://www.bizzcoin.com/

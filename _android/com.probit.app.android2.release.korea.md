@@ -9,9 +9,9 @@ appId: com.probit.app.android2.release.korea
 released: 2019-06-19
 updated: 2021-10-19
 version: "1.35.5"
-stars: 4.2
-ratings: 354
-reviews: 169
+stars: 4.1
+ratings: 355
+reviews: 170
 size: 14M
 website: https://www.probit.kr/
 repository: 

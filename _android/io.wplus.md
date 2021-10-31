@@ -9,9 +9,9 @@ appId: io.wplus
 released: 2018-11-27
 updated: 2019-05-24
 version: "0.1.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 41
+reviews: 23
 size: 7.7M
 website: 
 repository: 

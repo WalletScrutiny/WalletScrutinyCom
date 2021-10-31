@@ -8,11 +8,11 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2021-10-28
-version: "1.2.5"
+updated: 2021-10-30
+version: "1.2.6"
 stars: 5
 reviews: 15
-size: 26335232
+size: 26466304
 website: https://www.bybt.com
 repository: 
 issue: 

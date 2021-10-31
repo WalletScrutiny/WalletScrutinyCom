@@ -10,8 +10,8 @@ released: 2019-09-20
 updated: 2021-09-24
 version: "1.1.6"
 stars: 4.6
-ratings: 13723
-reviews: 7667
+ratings: 13772
+reviews: 7695
 size: 15M
 website: https://www.novadax.com
 repository: 

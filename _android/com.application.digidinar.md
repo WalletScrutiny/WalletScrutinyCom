@@ -4,7 +4,7 @@ title: "DigiDinar"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.application.digidinar
 released: 
 updated: 2021-03-02

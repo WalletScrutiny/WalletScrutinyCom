@@ -10,7 +10,7 @@ released: 2013-09-09
 updated: 2021-10-15
 version: "4.19.11"
 stars: 4.2
-ratings: 4344
+ratings: 4346
 reviews: 1863
 size: 13M
 website: https://www.tradestation.com/

@@ -9,9 +9,9 @@ appId: com.alsoft.bitcoinlocal
 released: 2018-02-15
 updated: 2021-02-28
 version: "4.1"
-stars: 4.1
-ratings: 21
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.7M
 website: 
 repository: 

@@ -10,8 +10,8 @@ released: 2020-08-30
 updated: 2021-10-28
 version: "2.0.0"
 stars: 3.9
-ratings: 348
-reviews: 284
+ratings: 349
+reviews: 285
 size: 49M
 website: http://mexo.io/
 repository: 
