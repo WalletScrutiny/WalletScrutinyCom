@@ -3,7 +3,6 @@ wsId:
 title: "Buy Bitcoin & Crypto Exchange"
 altTitle: 
 authors:
-- vswee
 - leo
 - danny
 users: 100000
