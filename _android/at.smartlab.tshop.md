@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: at.smartlab.tshop.png
 bugbounty: 
-verdict: nosource
+verdict: nowallet
 date: 2021-08-21
 signer: 
 reviewArchive:
@@ -36,7 +36,7 @@ redirect_from:
 
 > TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.
 
-As the app description says, this is a point of sale.
+This is a point of sale with support for Bitcoin payments.
 
 > TabShop manages several tables, to generate gift cards, **checkout with Bitcoin**, PayPal and Stripe, and to directly scan product codes with the built in camera.
 
@@ -50,6 +50,8 @@ Said wallet is {% include walletLink.html wallet='android/de.schildbach.wallet' 
 
 ## Verdict 
 
-This app is a wallet in the sense that it CAN hold your Bitcoin. When it comes to verifying source, however, we cannot find any indication that this is meant to be an open-source project. There's no officially linked Github accounts or repositories, TabShop never mentions having any source available, and searching Github for the Play Store ID does not return relevant results pertaining to this app's source code.
+TabShop requires the Schildbach wallet in order to process payments. We took a closer look at the documentation and was not able to find specific instructions how to integrate bitcoin wallet payments with the app.
 
-With this information in mind, we assume that this is a **closed-source product** and thus **not verifiable.**
+We [raised an issue](https://tabshop.smartlab.at/forum/index.php?qa=82&qa_1=how-to-integrate-bitcoin-payments-with-tabshop) on their support forums and await their reply.
+
+If this app requires a third party bitcoin wallet, then it follows that this app **does not have a bitcoin wallet** itself.

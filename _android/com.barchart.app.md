@@ -1,5 +1,5 @@
 ---
-wsId: Barchart
+wsId: 
 title: "Barchart Stocks & Futures"
 altTitle: 
 authors:

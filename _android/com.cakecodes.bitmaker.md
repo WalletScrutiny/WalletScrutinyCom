@@ -1,7 +1,7 @@
 ---
 wsId: stormX
 title: "StormX: Shop and earn Crypto Cashback"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 1000000
@@ -14,13 +14,13 @@ ratings: 84190
 reviews: 51352
 size: 53M
 website: https://stormx.io/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.cakecodes.bitmaker.png
-bugbounty: 
-verdict: custodial
+bugbounty:
+verdict: nowallet
 date: 2021-08-21
-signer: 
+signer:
 reviewArchive:
 
 
@@ -57,10 +57,10 @@ The official homepage says that it is possible for users to withdraw rewards to 
 
 ## The App
 
-We tried the app. There was a tab that allowed users to view the account balance. There was an option to withdraw, with 5.00 USD worth of funds as the minimum for the withdrawal limit. Users are also allowed to connect to an existing wallet such as MetaMask or CoinBase.
+We tried the app. There was a tab that allowed users to view the account balance. There was an option to withdraw, with 5.00 USD worth of funds as the minimum for the withdrawal limit. Users are also **allowed to connect to an existing wallet such as MetaMask or CoinBase**.
 
 ## The Verdict
 
-StormX may function as a wallet and has the ability to hold funds. However, it does not provide the private keys and has the ability to freeze your account and/or your funds.
+The app uses a third-party wallet that connects to the service. We [reached out to their support via email](https://twitter.com/BitcoinWalletz/status/1455005081984647168) and posted a screenshot of the conversation.
 
-This app is **custodial** and **not verifiable.**
+This app **does not have a bitcoin wallet** and makes use of third party wallet providers.

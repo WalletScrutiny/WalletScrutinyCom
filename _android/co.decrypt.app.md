@@ -3,6 +3,7 @@ wsId: Decrypt
 title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
 authors:
+- leo
 - danny
 users: 100000
 appId: co.decrypt.app

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.thndrgames.bitcoinbounce.png
 bugbounty: 
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-09-10
 signer: 
 reviewArchive:
