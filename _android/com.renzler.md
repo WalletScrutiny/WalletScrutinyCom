@@ -4,7 +4,7 @@ title: "Renzler - Crypto trading App & Bot"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.renzler
 released: 
 updated: 2021-06-24

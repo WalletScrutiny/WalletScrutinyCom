@@ -9,9 +9,9 @@ appId: com.nitroex.nitroexchangeapp
 released: 2021-06-23
 updated: 2021-07-05
 version: "1.0.13"
-stars: 4.7
-ratings: 247
-reviews: 151
+stars: 4.8
+ratings: 245
+reviews: 150
 size: 22M
 website: 
 repository: 

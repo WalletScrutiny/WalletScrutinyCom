@@ -4,7 +4,7 @@ title: "Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.bitpie
 released: 2016-10-23
 updated: 2021-10-28

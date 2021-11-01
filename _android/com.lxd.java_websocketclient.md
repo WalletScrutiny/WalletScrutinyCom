@@ -9,8 +9,8 @@ appId: com.lxd.java_websocketclient
 released: 2020-05-01
 updated: 2021-10-29
 version: "2.6.83"
-stars: 3.6
-ratings: 14
+stars: 3.5
+ratings: 15
 reviews: 9
 size: 11M
 website: 

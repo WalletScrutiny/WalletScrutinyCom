@@ -9,9 +9,9 @@ appId: com.rainmanagement.rain
 released: 2018-11-02
 updated: 2021-10-29
 version: "2.4.2"
-stars: 2.4
-ratings: 3019
-reviews: 1590
+stars: 2.6
+ratings: 3063
+reviews: 1616
 size: 158M
 website: https://www.rain.bh/
 repository: 

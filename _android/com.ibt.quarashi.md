@@ -10,7 +10,7 @@ released: 2021-07-09
 updated: 2021-10-26
 version: "1.0.16"
 stars: 5.0
-ratings: 1847
+ratings: 1848
 reviews: 843
 size: 23M
 website: https://quarashi.network/

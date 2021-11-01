@@ -9,9 +9,9 @@ appId: com.app.asbazar59
 released: 2021-06-15
 updated: 2021-10-14
 version: "4"
-stars: 3.4
-ratings: 337
-reviews: 262
+stars: 3.3
+ratings: 343
+reviews: 267
 size: 1.6M
 website: https://asbazar.com/
 repository: 

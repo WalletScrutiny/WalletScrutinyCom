@@ -9,9 +9,9 @@ appId: com.bituro.android.bituro
 released: 2015-08-18
 updated: 2021-04-20
 version: "1.15.0"
-stars: 4.4
-ratings: 8279
-reviews: 4865
+stars: 4.5
+ratings: 8285
+reviews: 4868
 size: 12M
 website: https://bituro.com/
 repository: 

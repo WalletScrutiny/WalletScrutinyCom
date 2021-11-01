@@ -9,9 +9,9 @@ appId: com.trustkeysnetwork
 released: 2019-03-02
 updated: 2021-10-30
 version: "1.1.34"
-stars: 4.9
-ratings: 424
-reviews: 271
+stars: 4.8
+ratings: 435
+reviews: 279
 size: 253M
 website: https://trustkeys.network/
 repository: 

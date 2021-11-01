@@ -10,8 +10,8 @@ released: 2018-11-05
 updated: 2021-10-27
 version: "1.4.18.e67c"
 stars: 2.7
-ratings: 1101
-reviews: 850
+ratings: 1103
+reviews: 852
 size: 15M
 website: https://www.gopax.co.kr/
 repository: 

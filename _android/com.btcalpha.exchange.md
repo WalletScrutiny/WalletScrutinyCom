@@ -10,8 +10,8 @@ released: 2021-07-23
 updated: 2021-10-30
 version: "1.7.5"
 stars: 4.2
-ratings: 26
-reviews: 11
+ratings: 27
+reviews: 12
 size: 27M
 website: https://btc-alpha.com/
 repository: 

@@ -9,9 +9,9 @@ appId: com.nouroeddinne.miner.bitcoin.free
 released: 2021-03-18
 updated: 2021-10-12
 version: "6.11"
-stars: 4.4
-ratings: 1599
-reviews: 770
+stars: 4.5
+ratings: 1618
+reviews: 777
 size: 8.7M
 website: 
 repository: 

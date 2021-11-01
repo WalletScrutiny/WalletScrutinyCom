@@ -9,9 +9,9 @@ appId: com.cryptominer.btc.miner.cloud.mining
 released: 2021-07-31
 updated: 2021-10-20
 version: "1.2"
-stars: 3.6
-ratings: 3385
-reviews: 2092
+stars: 3.5
+ratings: 3424
+reviews: 2120
 size: 15M
 website: https://btcnetwork.in/
 repository: 

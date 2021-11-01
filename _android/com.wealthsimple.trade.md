@@ -10,8 +10,8 @@ released:
 updated: 2021-10-25
 version: "2.5.2"
 stars: 4.6
-ratings: 41247
-reviews: 8534
+ratings: 41430
+reviews: 8546
 size: 194M
 website: https://www.wealthsimple.com/
 repository: 

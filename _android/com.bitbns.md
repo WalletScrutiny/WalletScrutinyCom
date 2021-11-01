@@ -10,8 +10,8 @@ released: 2019-09-21
 updated: 2021-10-20
 version: "4.5.0"
 stars: 3.3
-ratings: 12032
-reviews: 6100
+ratings: 12106
+reviews: 6138
 size: 38M
 website: https://bitbns.com
 repository: 

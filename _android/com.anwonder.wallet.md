@@ -4,7 +4,7 @@ title: "Anwonder Crypto Wallet"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.anwonder.wallet
 released: 2021-05-30
 updated: 2021-05-31

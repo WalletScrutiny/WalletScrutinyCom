@@ -10,7 +10,7 @@ released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
 stars: 3.6
-ratings: 41
+ratings: 42
 reviews: 20
 size: 2.2M
 website: https://www.coinmama.com/
