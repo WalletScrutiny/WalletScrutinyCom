@@ -64,8 +64,8 @@ The assumption is this app is [similar to other cloud mining apps that a TrendMi
 
 Examples of which are: 
 
-{% include walletLink.html wallet='android/com.bitcoinmining.android786' verdict='true' %} 
-{% include walletLink.html wallet='android/com.cloudmining.mineresp' verdict='true' %}
+{% include walletLink.html wallet='android/com.bitcoinmining.android786' verdict='true' %}<br>
+{% include walletLink.html wallet='android/com.cloudmining.mineresp' verdict='true' %}<br>
 {% include walletLink.html wallet='android/com.nouroeddinne.miner.bitcoin.free' verdict='true' %}
 
 We initially gave a verdict indicating that this app is not a bitcoin wallet. A second look made us rethink our position as it holds BTC value, but cannot send or receive bitcoins like a wallet would. However, since the withdrawal or deposit function, do not work, we are going to assume that this app is **no longer working.** 
