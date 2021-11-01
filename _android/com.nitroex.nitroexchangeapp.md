@@ -4,13 +4,13 @@ title: "NitroEx Exchange"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.nitroex.nitroexchangeapp
 released: 2021-06-23
 updated: 2021-07-05
 version: "1.0.13"
-stars: 4.7
-ratings: 220
+stars: 4.8
+ratings: 245
 reviews: 150
 size: 22M
 website: 

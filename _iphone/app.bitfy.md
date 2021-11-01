@@ -8,11 +8,11 @@ appId: app.bitfy
 appCountry: us
 idd: 1483269793
 released: 2019-11-26
-updated: 2021-10-19
-version: "3.10.18"
+updated: 2021-10-31
+version: "3.10.19"
 stars: 3
 reviews: 4
-size: 25661440
+size: 25665536
 website: https://bitfy.app
 repository: 
 issue: 

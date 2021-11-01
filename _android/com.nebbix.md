@@ -7,7 +7,7 @@ authors:
 users: 50
 appId: com.nebbix
 released: 
-updated: 2021-10-08
+updated: 2021-10-31
 version: "Varies with device"
 stars: 
 ratings: 

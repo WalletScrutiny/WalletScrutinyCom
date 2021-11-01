@@ -11,7 +11,7 @@ updated: 2021-09-15
 version: "1.5.1"
 stars: 3.4
 ratings: 106
-reviews: 61
+reviews: 60
 size: 35M
 website: https://coinmotion.com/
 repository: 

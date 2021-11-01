@@ -4,14 +4,14 @@ title: "Bitcrypto - BTC Cloud Mining"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cryptocloud.mining.coin.mine.bitcrypto
 released: 2021-07-31
 updated: 2021-10-20
 version: "1.2"
-stars: 4.1
-ratings: 2097
-reviews: 1421
+stars: 3.0
+ratings: 2650
+reviews: 1825
 size: 12M
 website: https://bitcryptos.in/
 repository: 

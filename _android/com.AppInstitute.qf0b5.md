@@ -9,9 +9,9 @@ appId: com.AppInstitute.qf0b5
 released: 2018-10-04
 updated: 2018-10-12
 version: "1.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 11
+reviews: 7
 size: 32M
 website: 
 repository: 

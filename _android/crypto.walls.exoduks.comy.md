@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: crypto.walls.exoduks.comy.png
 bugbounty: 
-verdict: fake
-date: 2021-10-18
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
+- date: 2021-10-18
+  version: "19.28"
+  appHash: 
+  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
+  verdict: fake
 
 
 providerTwitter: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-23**: This app is no more.
 
 Apparently this is a BTC wallet:
 

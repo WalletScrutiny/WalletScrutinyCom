@@ -10,8 +10,8 @@ released: 2020-07-30
 updated: 2021-10-06
 version: "2.22.336"
 stars: 4.7
-ratings: 1005
-reviews: 928
+ratings: 1006
+reviews: 929
 size: 33M
 website: https://jp-ex.io/
 repository: 

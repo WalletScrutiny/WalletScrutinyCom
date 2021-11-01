@@ -10,8 +10,8 @@ idd: 1548636153
 released: 2021-02-18
 updated: 2021-10-18
 version: "1.2.2"
-stars: 4.42706
-reviews: 11441
+stars: 4.43226
+reviews: 11766
 size: 60798976
 website: https://www.trbinance.com/
 repository: 

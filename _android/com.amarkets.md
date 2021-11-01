@@ -1,17 +1,17 @@
 ---
 wsId: AMarkets
-title: "AMarkets Trading - Financial markets online"
+title: "AMarkets - Trading & Investing"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.amarkets
 released: 2019-05-31
-updated: 2021-10-26
+updated: 2021-10-28
 version: "Varies with device"
 stars: 4.6
-ratings: 705
-reviews: 245
+ratings: 757
+reviews: 250
 size: Varies with device
 website: https://www.amarkets.com/
 repository: 

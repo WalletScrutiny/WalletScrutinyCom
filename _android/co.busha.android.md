@@ -10,8 +10,8 @@ released: 2019-01-21
 updated: 2021-10-05
 version: "2.6.14"
 stars: 3.9
-ratings: 2469
-reviews: 1888
+ratings: 2488
+reviews: 1901
 size: 17M
 website: https://busha.co
 repository: 

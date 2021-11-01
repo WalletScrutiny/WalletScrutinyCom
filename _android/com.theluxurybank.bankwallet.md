@@ -4,7 +4,7 @@ title: "The Luxury Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.theluxurybank.bankwallet
 released: 2020-11-22
 updated: 2020-11-22

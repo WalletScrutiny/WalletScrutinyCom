@@ -4,14 +4,14 @@ title: "OXBTC-Mine Bitcoin, Ethereum & more"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.oxbtc_Miner.iamswr.myapplication
 released: 2021-08-24
 updated: 2021-09-14
 version: "2.1.0"
 stars: 3.0
-ratings: 40
-reviews: 23
+ratings: 42
+reviews: 22
 size: 3.2M
 website: 
 repository: 

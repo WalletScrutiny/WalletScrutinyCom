@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.cakedefi.app
 released: 2021-06-16
-updated: 2021-10-13
-version: "2.1.0"
-stars: 4.0
-ratings: 308
-reviews: 162
+updated: 2021-10-28
+version: "2.1.1"
+stars: 3.9
+ratings: 333
+reviews: 177
 size: 34M
 website: https://www.cakedefi.com/
 repository: 

@@ -4,13 +4,13 @@ title: "FreeWallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: io.freewallet.mobile
 released: 2016-09-01
 updated: 2019-03-17
 version: "0.1.9"
 stars: 4.0
-ratings: 67
+ratings: 68
 reviews: 33
 size: 6.7M
 website: https://freewallet.io

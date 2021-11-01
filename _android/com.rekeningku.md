@@ -9,9 +9,9 @@ appId: com.rekeningku
 released: 2018-02-21
 updated: 2021-10-25
 version: "2.1.60"
-stars: 4.6
-ratings: 17924
-reviews: 6512
+stars: 4.7
+ratings: 18268
+reviews: 6571
 size: 32M
 website: https://www.rekeningku.com
 repository: 

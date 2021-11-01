@@ -10,8 +10,8 @@ released: 2021-09-06
 updated: 2021-10-21
 version: "0.1.42"
 stars: 3.7
-ratings: 86
-reviews: 54
+ratings: 93
+reviews: 59
 size: 6.6M
 website: https://localbitcoins.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.localbitcoins.app.android.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-18
+date: 2021-10-31
 signer: 
 reviewArchive:
 
@@ -34,7 +34,10 @@ redirect_from:
 ---
 
 
-**UPDATE 2021-10-25**
+**Update 2021-10-31**: Localbitcoins now officially
+[links to this app](https://blog.localbitcoins.com/localbitcoins-launches-new-mobile-app-216f9d81fea8).
+
+**UPDATE 2021-10-25**:
 
 In a support ticket concerning this app, LocalBitcoins confirmed that it is the official app.
 

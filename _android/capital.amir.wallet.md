@@ -9,9 +9,9 @@ appId: capital.amir.wallet
 released: 2021-08-03
 updated: 2021-10-07
 version: "3.10.0"
-stars: 4.3
-ratings: 323
-reviews: 185
+stars: 4.2
+ratings: 325
+reviews: 186
 size: 35M
 website: https://amir.capital/
 repository: 

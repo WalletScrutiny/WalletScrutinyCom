@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: "Bit2Me - Comprar Bitcoins"
+title: "Bit2Me - Buy Bitcoin"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bit2me.flutter-ios
 appCountry: 
 idd: 1459809738
 released: 2019-06-04
-updated: 2021-10-22
-version: "2.1.10"
-stars: 4.46154
-reviews: 26
-size: 87146496
+updated: 2021-10-28
+version: "2.1.11"
+stars: 4.51724
+reviews: 29
+size: 86847488
 website: https://bit2me.com
 repository: 
 issue: 

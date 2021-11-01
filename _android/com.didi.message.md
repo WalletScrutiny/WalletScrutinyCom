@@ -10,8 +10,8 @@ released: 2020-04-30
 updated: 2021-10-12
 version: "1.10.4"
 stars: 4.1
-ratings: 1031
-reviews: 411
+ratings: 1036
+reviews: 414
 size: 89M
 website: https://didimessage.com/
 repository: 

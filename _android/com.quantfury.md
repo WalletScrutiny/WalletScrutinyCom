@@ -7,19 +7,19 @@ authors:
 users: 100000
 appId: com.quantfury
 released: 2018-11-26
-updated: 2021-10-13
-version: "v1.7.1854"
+updated: 2021-10-30
+version: "v1.7.1854.1"
 stars: 4.6
-ratings: 7817
-reviews: 2305
+ratings: 7831
+reviews: 2313
 size: 49M
 website: https://quantfury.com
 repository: 
 issue: 
 icon: com.quantfury.png
 bugbounty: 
-verdict: nowallet
-date: 2021-08-27
+verdict: custodial
+date: 2021-11-01
 signer: 
 reviewArchive:
 
@@ -38,9 +38,7 @@ Description from the site:
 
 > Сommission-free trading and investing at real-time spot prices of global and crypto exchanges.
 
-Initially, it may appear like Quantfury is an exchange. But upon closer inspection of its Terms and Conditions, we discovered that it utilizes a third party provider: Coinpayments. Cognizance should also be given to the fact that it is described as a "brokerage" service, albeit with features that make it appear like it were an online exchange.
-
-Here are more details:
+Quantfury is an exchange that allows users to trade cryptocurrencies and leverage real stock market assets like Tesla or Uber. It utilizes a third party provider: Coinpayments. 
 
 The platform provides services for: Crypto, Stocks, Futures, ETFs.
 
@@ -62,4 +60,13 @@ Quantfury Support [Page on Adding Funds to Account Balance Wallet](https://suppo
 
 > You can add funds to your Quantfury account balance at any time. Make sure to fund your account balance wallet in the same type of cryptocurrency that your current account balance is funded in.
 
+
+### Funding and Deposits
+
+It is possible to fund your account using cryptocurrencies:
+
+> Once you selected the trading power, and the **cryptocurrency you will be funding your account balance with**, the Quantfury app will display the minimum amount required to be funded to access the trading power you selected.
+
 Identity verification is required.
+
+This app is **custodial** ergo, the app **cannot be verified**.

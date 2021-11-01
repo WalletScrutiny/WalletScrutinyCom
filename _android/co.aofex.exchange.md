@@ -10,8 +10,8 @@ released: 2021-09-01
 updated: 2021-10-15
 version: "2.4.9"
 stars: 5.0
-ratings: 5599
-reviews: 234
+ratings: 5603
+reviews: 236
 size: 65M
 website: https://www.aofex.com/#/
 repository: 

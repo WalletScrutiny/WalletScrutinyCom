@@ -8,11 +8,11 @@ appId: com.xaltbase.app
 appCountry: us
 idd: 1570826163
 released: 2021-08-18
-updated: 2021-09-03
-version: "2.1.1"
-stars: 4.56923
-reviews: 65
-size: 59696128
+updated: 2021-10-30
+version: "2.1.2"
+stars: 4.26471
+reviews: 68
+size: 59651072
 website: https://www.100xcoin.io/
 repository: 
 issue: 
