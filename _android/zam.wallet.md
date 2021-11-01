@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: zam.wallet.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -86,4 +86,6 @@ The description reads as follows:
 
 > A safe wallet to store, manage, send, and receive digital assets. Users need an easy way to access and manage their digital assets. ZamWallet is an application for iOS and Android that allows users to store, access, manage, send, and receive crypto directly from their mobile phones.
 
-It might be worth looking into. We will be creating an issue on gitlab.
+We could not find the source for the app as reported in [gitlab issue #367](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/367).
+
+> The linked github org don't contain repo that publish sources for mobile apps, didn't opened related issue on some of their github repos.
