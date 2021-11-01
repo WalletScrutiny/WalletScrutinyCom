@@ -40,7 +40,7 @@ redirect_from:
 
 TrendMicro has a [Mobile threats analysis brief](https://www.trendmicro.com/en_us/research/21/h/fake-cryptocurrency-mining-apps-trick-victims-into-watching-ads-.html) detailing apps like these.
 
-Like in our old, review we downloaded the app and it was stuck in the loading screen. We tried it on 2 platforms.
+Like in our last review we downloaded the app and it got stuck in the loading screen. We tried it on 2 platforms.
 
 ## Old Review 2021-10-24
 
