@@ -19,7 +19,7 @@ issue:
 icon: com.forex4you.android.png
 bugbounty:
 verdict: nosendreceive
-date: 2021-09-03
+date: 2021-11-01
 signer:
 reviewArchive:
 

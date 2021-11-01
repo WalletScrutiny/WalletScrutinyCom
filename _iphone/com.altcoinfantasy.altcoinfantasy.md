@@ -19,7 +19,7 @@ issue:
 icon: com.altcoinfantasy.altcoinfantasy.jpg
 bugbounty: 
 verdict: stale
-date: 2021-10-28
+date: 2021-11-01
 signer: 
 reviewArchive:
 

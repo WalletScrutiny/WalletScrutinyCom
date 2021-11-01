@@ -19,7 +19,7 @@ issue:
 icon: com.papaya.blackcatcard.png
 bugbounty: 
 verdict: custodial
-date: 2021-09-03
+date: 2021-11-01
 signer: 
 reviewArchive:
 

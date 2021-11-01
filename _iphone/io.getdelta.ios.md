@@ -19,7 +19,7 @@ issue:
 icon: io.getdelta.ios.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-28
+date: 2021-11-01
 signer: 
 reviewArchive:
 

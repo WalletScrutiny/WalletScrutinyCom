@@ -20,7 +20,7 @@ issue:
 icon: co.decrypt.app.png
 bugbounty: 
 verdict: nowallet
-date: 2020-12-08
+date: 2021-11-01
 signer: 
 reviewArchive:
 

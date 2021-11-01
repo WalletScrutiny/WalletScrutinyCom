@@ -19,7 +19,7 @@ issue:
 icon: jp.paddleinc.bitstock.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-21
+date: 2021-11-01
 signer: 
 reviewArchive:
 

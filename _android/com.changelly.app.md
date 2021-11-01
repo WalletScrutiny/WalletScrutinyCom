@@ -20,7 +20,7 @@ issue:
 icon: com.changelly.app.png
 bugbounty: 
 verdict: nowallet
-date: 2020-05-29
+date: 2021-11-01
 signer: 
 reviewArchive:
 
