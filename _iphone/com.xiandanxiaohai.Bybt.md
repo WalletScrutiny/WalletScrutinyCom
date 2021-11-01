@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.xiandanxiaohai.Bybt.jpg
 bugbounty: 
-verdict: nowallet
+verdict: fake
 date: 2021-10-19
 signer: 
 reviewArchive:

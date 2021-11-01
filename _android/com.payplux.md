@@ -46,7 +46,7 @@ There is no mention of being able to transfer bitcoin to other services, wallets
 
 - MTN Mobile Money
 - AirtelTigo Money
-- Vodafone Cash  
+- Vodafone Cash
 
 ### [Terms and Conditions](https://payplux.com/terms.html)
 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.prestmit.app.jpg
 bugbounty: 
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
