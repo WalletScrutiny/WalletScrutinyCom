@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: zamzam.wallet.app.jpg
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
