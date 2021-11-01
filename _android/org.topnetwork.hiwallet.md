@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId:
 title: "Bitcoin Wallet. A Secure Crypto Wallet - HiWallet"
-altTitle: 
+altTitle: "Bitcoin Wallet. A Secure Crypto Wallet - HiWallet"
 authors:
-
+- danny
 users: 5000
 appId: org.topnetwork.hiwallet
 released: 2020-04-08
@@ -13,24 +13,23 @@ stars: 3.6
 ratings: 48
 reviews: 28
 size: 34M
-website: 
-repository: 
-issue: 
+website:
+repository:
+issue:
 icon: org.topnetwork.hiwallet.jpg
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: defunct
 date: 2021-04-13
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-
-
+This app is [no longer available on Google Play](https://twitter.com/BitcoinWalletz/status/1455020830358790145).
