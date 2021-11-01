@@ -19,7 +19,7 @@ issue:
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-19
+date: 2021-11-02
 signer: 
 reviewArchive:
 

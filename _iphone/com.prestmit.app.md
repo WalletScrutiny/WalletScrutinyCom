@@ -19,7 +19,7 @@ issue:
 icon: com.prestmit.app.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-01
+date: 2021-11-02
 signer: 
 reviewArchive:
 

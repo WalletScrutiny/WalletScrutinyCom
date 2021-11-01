@@ -19,7 +19,7 @@ issue:
 icon: io.okminer.app.png
 bugbounty: 
 verdict: defunct
-date: 2021-10-16
+date: 2021-11-02
 signer: 
 reviewArchive:
 

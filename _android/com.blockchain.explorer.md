@@ -20,7 +20,7 @@ issue:
 icon: com.blockchain.explorer.png
 bugbounty: 
 verdict: nowallet
-date: 2021-06-04
+date: 2021-11-02
 signer: 
 reviewArchive:
 

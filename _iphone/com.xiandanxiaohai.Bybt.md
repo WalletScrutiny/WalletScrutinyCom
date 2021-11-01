@@ -19,7 +19,7 @@ issue:
 icon: com.xiandanxiaohai.Bybt.jpg
 bugbounty: 
 verdict: fake
-date: 2021-10-19
+date: 2021-11-02
 signer: 
 reviewArchive:
 

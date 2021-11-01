@@ -19,7 +19,7 @@ issue:
 icon: com.bitsacard.BitsaApp.png
 bugbounty:
 verdict: nosendreceive
-date: 2021-09-23
+date: 2021-11-02
 signer:
 reviewArchive:
 
