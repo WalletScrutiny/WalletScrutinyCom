@@ -1,9 +1,10 @@
 ---
-wsId: 
+wsId: Decrypt
 title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
 authors:
-
+- leo
+- danny
 users: 100000
 appId: co.decrypt.app
 released: 2020-05-06
@@ -13,7 +14,7 @@ stars: 4.2
 ratings: 2129
 reviews: 1029
 size: 31M
-website: 
+website: https://decrypt.co/
 repository: 
 issue: 
 icon: co.decrypt.app.png
@@ -24,9 +25,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: decryptmedia
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: decryptmedia
 providerReddit: 
 
 redirect_from:

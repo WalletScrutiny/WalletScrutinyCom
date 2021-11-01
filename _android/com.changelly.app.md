@@ -3,7 +3,8 @@ wsId:
 title: "Buy Bitcoin & Crypto Exchange"
 altTitle: 
 authors:
-
+- leo
+- danny
 users: 100000
 appId: com.changelly.app
 released: 2018-08-28

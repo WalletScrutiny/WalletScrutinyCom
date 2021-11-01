@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: crypterApp
 title: "Crypto App - Widgets, Alerts"
 altTitle: 
 authors:
-
+- danny
 appId: com.CryptoCurrency.dev
 appCountry: us
 idd: 1339112917
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.CryptoCurrency.dev.jpg
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-08-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: TrustSwap
+providerLinkedIn: TrustSwap
+providerFacebook: TrustSwap
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

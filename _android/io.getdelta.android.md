@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: getDelta
 title: "Delta Investment Portfolio Tracker"
 altTitle: 
 authors:

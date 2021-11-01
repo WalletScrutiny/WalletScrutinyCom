@@ -1,9 +1,10 @@
 ---
-wsId: 
+wsId: AltcoinFantasy
 title: "Crypto & Bitcoin & DeFi Trading Game"
 altTitle: 
 authors:
 - kiwilamb
+- danny
 users: 100000
 appId: com.altcoinfantasy.altcoinfantasy
 released: 2018-01-05
@@ -24,9 +25,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: altcoinfantasy
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: altcoinfantasy
 providerReddit: 
 
 redirect_from:
