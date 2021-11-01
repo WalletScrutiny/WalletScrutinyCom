@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 
-⚠️ **Warning:** We have reason to believe that this is a fake app. The developer for this app is [XBT Crypto Media](https://play.google.com/store/apps/developer?id=XBT+Crypto+Media). The developer for [PrimeXBT](https://play.google.com/store/apps/details?id=com.primexbt.exchange) is [Prime Technology LTD](https://play.google.com/store/apps/developer?id=Prime+Technology+LTD). The logo and name makes it appear that there is a version called "Prime XBT Futures Pro". 
+⚠️ **Warning:** We have reason to believe that this is a fake app. The developer for this app is [XBT Crypto Media](https://play.google.com/store/apps/developer?id=XBT+Crypto+Media). The developer for [PrimeXBT](https://play.google.com/store/apps/details?id=com.primexbt.exchange) is [Prime Technology LTD](https://play.google.com/store/apps/developer?id=Prime+Technology+LTD). The logo and name makes it appear that there is a version called "Prime XBT Futures Pro".
 
 ## App Description
 
@@ -56,4 +56,4 @@ We raised the issue with PrimeXBT via [twitter](https://twitter.com/BitcoinWalle
 
 ## Verdict
 
-At least 1 user review give us pause when it comes to the veracity of this app. It does not help that this specific app's developer is different from that of PrimeXBT. Furthermore, the lack of a website and the provision of only a gmail account (garrybsebastian @ gmail.com) on its Google Play page, make one think more than twice about this app. It does not help that the real PrimeXBT app has a lower rating on Google Play. For now, until such time that PrimeXBT support confirms our findings, we would lean towards the safe side and label this app as **fake**.
+At least 1 user review give us pause when it comes to the veracity of this app. It does not help that this specific app's developer is different from that of PrimeXBT. Furthermore, the lack of a website and the provision of only a gmail account (garrybsebastian @ gmail.com) on its Google Play page, make one think more than twice about this app. It does not help that the real PrimeXBT app has a lower rating on Google Play. PrimeXBT support confirmed via [email](https://twitter.com/BitcoinWalletz/status/1455178698198425609) that they only have one official app. This makes our finding of **fake** more concrete.
