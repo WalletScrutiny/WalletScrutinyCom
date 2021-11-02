@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2021-01-01
 discontinued: # date
-updated: 2021-08-24
-version: 0.1.27
+updated: 2021-10-19
+version: 0.1.30
 dimensions: [24, 60, 17]
 weight: 
 website: https://blockstream.com/jade/
@@ -21,7 +21,7 @@ issue: https://github.com/Blockstream/Jade/issues/26
 icon: blockstreamjade.png
 bugbounty:
 verdict: nonverifiable 
-date: 2021-10-17
+date: 2021-11-02
 signer:
 reviewArchive:
 
@@ -32,6 +32,11 @@ providerFacebook: Blockstream
 providerReddit: 
 ---
 
+
+**Update 2021-11-02**: We are in touch with the provider and while the firmware
+was updated two weeks ago already, their
+[latest comment on the issue](https://github.com/Blockstream/Jade/issues/26#issuecomment-947420765)
+was a day after the last release, so we assume the problem persists.
 
 {{ page.title }} is one of the newer hardware wallets but provided by
 Blockstream which is a very well known player in this space.
