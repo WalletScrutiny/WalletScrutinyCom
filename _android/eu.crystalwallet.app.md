@@ -17,7 +17,7 @@ website: https://crystalwallet.eu/
 repository:
 issue:
 icon: eu.crystalwallet.app.png
-bugbounty: 
+bugbounty:
 verdict: nosource
 date: 2021-04-13
 signer:
@@ -44,8 +44,8 @@ redirect_from:
 
 ## The App
 
-The app is a multi-currency wallet with the ability to make 12-word seed backups. Initial loading screen allows users to "Create a Wallet" or "Restore Wallet".
+The app is a multi-currency wallet with the ability to provide a 12-word seed backup and restore from them. The initial loading screen allows users to "Create a Wallet" or "Restore Wallet". It is self-custodial.
 
 ## Verdict
 
-Searching the appID _'eu.crystalwallet.app'_ on Github [yielded 0 results in the repositories](https://github.com/search?q=eu.crystalwallet.app&type=repositories).
+Searching the appID _'eu.crystalwallet.app'_ on Github [yielded 0 results in the repositories](https://github.com/search?q=eu.crystalwallet.app&type=repositories). This means that even though the app may be **self-custodial**, having the **source code unavailable** for review makes the app **not verifiable**.

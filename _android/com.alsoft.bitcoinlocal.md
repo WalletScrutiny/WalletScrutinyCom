@@ -39,7 +39,7 @@ redirect_from:
 The app claims to have a platform for buying and selling bitcoins
 
 > we use our partner platform to buy or sell Bitcoins .
-
+>
 > - You can make a trade directly with another person.
 > - Secure platform for trading, two-factor authentication.
 > - Trade process duration is a few minutes.

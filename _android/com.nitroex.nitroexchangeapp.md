@@ -18,7 +18,7 @@ repository:
 issue:
 icon: com.nitroex.nitroexchangeapp.jpg
 bugbounty:
-verdict: wip
+verdict: custodial
 date: 2021-08-21
 signer:
 reviewArchive:

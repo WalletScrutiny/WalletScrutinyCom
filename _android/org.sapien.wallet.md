@@ -1,7 +1,7 @@
 ---
 wsId: SapienWallet
 title: "Sapien Wallet"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -51,4 +51,4 @@ Sapien Wallet benefits:
 
 ## Verdict
 
-This is evidently a self-custodial wallet since it provided the mnemonics and the ability to backup. We searched online for the source code, but [**was not able to find any relevant repository.**](https://github.com/search?q=sapien+wallet&type=repositories).  
+This is evidently a self-custodial wallet since it provided the mnemonics and the ability to backup. We searched online for the source code, but [**was not able to find any relevant repository.**](https://github.com/search?q=sapien+wallet&type=repositories)  

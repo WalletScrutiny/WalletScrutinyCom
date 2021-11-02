@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-The app is an XLM centric with BTC support self-custodial wallet.
+The app is an self-custodial, XLM-centric wallet with BTC support.
 
 ## The Site
 
@@ -56,4 +56,4 @@ The service includes:
 
 ## Verdict
 
-This is a self-custodial wallet that supports the sending and receiving of BTC. However, a search for the appID 'gwallet.tech' on github, [yields 0 results.](https://github.com/search?q=gwallet.tech&type=code)
+This is a self-custodial wallet that supports the sending and receiving of BTC. However, a search for the appID 'gwallet.tech' on github, [yields 0 results.](https://github.com/search?q=gwallet.tech&type=code) This means that the developers have **not made the source code available for verification**.

@@ -42,6 +42,8 @@ redirect_from:
 > - Withdraw fiat straight to your local bank in minutes
 > - No Strict KYC Policies
 
+### Google Play Critical Reviews
+
 > [Nduka Miracle](https://play.google.com/store/apps/details?id=com.burtar.wallet&reviewId=gp%3AAOqpTOFNeKbFBlmdknPTz5o7lIYwX-FAyFSFk62V-thIfYy3hhmWjCuDK50bNDe3Es83Hz5y-SNv8Sq9q0sI42U)<br>
   ★☆☆☆☆ October 22, 2021 <br>
        This app is a total scam oooo. I deposited#2500 and it didn't reflect on my account and I contacted their customer service and they told me it wasn't successful. I had to transfer another#5000. I tried logging in the next day but I was told that my email doesn't exist. And I had to restart the registration. I had to contact my first bank for resolution and I was made to know that the transaction was successful with transaction details proof sent to my email.
