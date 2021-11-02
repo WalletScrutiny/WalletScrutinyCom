@@ -10,9 +10,9 @@ appId: com.zengo.wallet
 released: 2020-01-19
 updated: 2021-10-30
 version: "3.1.2"
-stars: 4.3
-ratings: 3078
-reviews: 1170
+stars: 4.4
+ratings: 3084
+reviews: 1176
 size: 69M
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

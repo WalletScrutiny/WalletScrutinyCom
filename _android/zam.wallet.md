@@ -9,9 +9,9 @@ appId: zam.wallet
 released: 2018-09-17
 updated: 2021-10-31
 version: "2.2.6"
-stars: 4.1
-ratings: 116
-reviews: 93
+stars: 3.9
+ratings: 127
+reviews: 99
 size: 25M
 website: 
 repository: 

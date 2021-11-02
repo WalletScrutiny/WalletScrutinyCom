@@ -4,14 +4,14 @@ title: "Arz8x - صرافی ارز های دیجیتال"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.arz8x.app.arz8x
 released: 2020-05-08
 updated: 2021-10-12
 version: "2.0.3"
 stars: 4.5
-ratings: 1412
-reviews: 790
+ratings: 1421
+reviews: 796
 size: 32M
 website: https://arz8x.com/
 repository: 

@@ -10,8 +10,8 @@ released: 2018-03-22
 updated: 2021-10-17
 version: "4.32.1"
 stars: 3.7
-ratings: 73
-reviews: 39
+ratings: 75
+reviews: 41
 size: 33M
 website: http://www.bitbill.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.cointral.exchange
 released: 2020-10-29
 updated: 2021-08-18
 version: "1.3.6"
-stars: 3.6
-ratings: 103
-reviews: 52
+stars: 3.7
+ratings: 106
+reviews: 54
 size: 26M
 website: https://www.cointral.com/en
 repository: 
