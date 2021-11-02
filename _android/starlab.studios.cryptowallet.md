@@ -9,9 +9,9 @@ appId: starlab.studios.cryptowallet
 released: 2021-06-01
 updated: 2021-10-27
 version: "1.3.7"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 5
+reviews: 4
 size: 3.5M
 website: https://themeemnews.com/
 repository: 

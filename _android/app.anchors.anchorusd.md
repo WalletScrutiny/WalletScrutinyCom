@@ -11,7 +11,7 @@ updated: 2021-10-24
 version: "1.17.2"
 stars: 2.4
 ratings: 2411
-reviews: 762
+reviews: 763
 size: 32M
 website: https://www.anchorusd.com/
 repository: 

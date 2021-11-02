@@ -10,7 +10,7 @@ released: 2021-06-16
 updated: 2021-10-28
 version: "2.1.1"
 stars: 3.9
-ratings: 333
+ratings: 339
 reviews: 177
 size: 34M
 website: https://www.cakedefi.com/

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-11-01
 signer: 
 reviewArchive:
 

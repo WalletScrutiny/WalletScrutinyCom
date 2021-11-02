@@ -9,9 +9,9 @@ appId: com.bitholic.rdmchain.bitholic
 released: 2019-01-20
 updated: 2021-08-02
 version: "1.1.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 163
+reviews: 103
 size: 2.2M
 website: https://www.bithumbsg.com
 repository: 

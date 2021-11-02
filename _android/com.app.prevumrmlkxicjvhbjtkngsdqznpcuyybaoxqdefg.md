@@ -9,9 +9,9 @@ appId: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg
 released: 2018-02-27
 updated: 2021-05-22
 version: "2.0"
-stars: 3.9
-ratings: 376
-reviews: 237
+stars: 3.8
+ratings: 377
+reviews: 238
 size: 40M
 website: https://www.toolstrades.com/
 repository: 

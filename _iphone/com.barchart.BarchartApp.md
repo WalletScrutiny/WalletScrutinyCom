@@ -10,8 +10,8 @@ idd: 730277254
 released: 2013-11-18
 updated: 2021-07-22
 version: "3.3.6"
-stars: 4.75961
-reviews: 5749
+stars: 4.75965
+reviews: 5750
 size: 28528640
 website: http://www.barchart.com/app/
 repository: 

@@ -10,7 +10,7 @@ released: 2020-11-16
 updated: 2021-09-05
 version: "1.0.43"
 stars: 3.4
-ratings: 646
+ratings: 647
 reviews: 544
 size: 22M
 website: https://axiainvestments.com/

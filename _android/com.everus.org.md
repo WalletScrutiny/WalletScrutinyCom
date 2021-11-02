@@ -10,7 +10,7 @@ released: 2018-04-07
 updated: 2021-03-07
 version: "1.2.9"
 stars: 4.6
-ratings: 7583
+ratings: 7584
 reviews: 6948
 size: 14M
 website: https://everusworld.com/

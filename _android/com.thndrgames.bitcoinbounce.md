@@ -9,9 +9,9 @@ appId: com.thndrgames.bitcoinbounce
 released: 2020-03-20
 updated: 2021-09-20
 version: "1.1.29"
-stars: 3.6
-ratings: 1783
-reviews: 700
+stars: 3.5
+ratings: 1788
+reviews: 703
 size: 59M
 website: https://thndr.games/
 repository: 

@@ -10,8 +10,8 @@ released: 2020-12-09
 updated: 2021-10-27
 version: "2.3.013"
 stars: 4.1
-ratings: 124941
-reviews: 35844
+ratings: 126794
+reviews: 36215
 size: 67M
 website: https://coindcx.com/
 repository: 

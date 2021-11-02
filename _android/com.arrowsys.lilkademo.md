@@ -10,7 +10,7 @@ released: 2015-10-08
 updated: 2020-12-01
 version: "2.6.69"
 stars: 4.5
-ratings: 216
+ratings: 217
 reviews: 51
 size: 21M
 website: https://lilka.cz/

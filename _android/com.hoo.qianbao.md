@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.hoo.qianbao
 released: 2021-03-17
-updated: 2021-10-28
+updated: 2021-11-01
 version: "4.7.25"
-stars: 2.6
-ratings: 435
-reviews: 359
+stars: 2.4
+ratings: 438
+reviews: 362
 size: 52M
 website: https://hoo.com
 repository: 
