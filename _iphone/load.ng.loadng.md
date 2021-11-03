@@ -1,7 +1,7 @@
 ---
 wsId: loadNG
 title: "LoadNG"
-altTitle: 
+altTitle:
 authors:
 - danny
 appId: load.ng.loadng
@@ -14,20 +14,20 @@ stars: 4.11111
 reviews: 9
 size: 42493952
 website: https://app.load.ng/
-repository: 
-issue: 
+repository:
+issue:
 icon: load.ng.loadng.jpg
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-11-03
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: loadngautomated
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
