@@ -1,5 +1,5 @@
 ---
-wsId: NEOWallet
+wsId: 
 title: "NEO Wallet. Send & buy crypto"
 altTitle: 
 authors:

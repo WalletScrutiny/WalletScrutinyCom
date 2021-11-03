@@ -9,9 +9,9 @@ appId: id.co.bitcoin
 released: 2014-12-15
 updated: 2021-10-19
 version: "4.2.2"
-stars: 4.4
-ratings: 73429
-reviews: 37907
+stars: 4.2
+ratings: 74980
+reviews: 38756
 size: 30M
 website: https://indodax.com
 repository: 

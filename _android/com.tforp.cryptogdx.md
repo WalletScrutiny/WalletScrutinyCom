@@ -9,9 +9,9 @@ appId: com.tforp.cryptogdx
 released: 2018-02-04
 updated: 2021-05-28
 version: "2.3"
-stars: 4.5
-ratings: 3022
-reviews: 1338
+stars: 4.6
+ratings: 3058
+reviews: 1355
 size: 9.2M
 website: https://trading4pro.com/
 repository: 

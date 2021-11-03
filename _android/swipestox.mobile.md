@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: swipestox.mobile
 released: 2015-10-20
-updated: 2021-10-25
-version: "8.0.206"
+updated: 2021-10-29
+version: "8.0.207"
 stars: 3.8
-ratings: 5168
-reviews: 2270
+ratings: 5195
+reviews: 2282
 size: 70M
 website: https://naga.com/
 repository: 

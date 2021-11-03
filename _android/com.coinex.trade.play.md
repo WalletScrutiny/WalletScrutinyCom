@@ -1,18 +1,18 @@
 ---
 wsId: CoinEx
-title: "CoinEx - A Trustworthy Cryptocurrency Exchange"
+title: "CoinEx - Crypto Exchange"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.coinex.trade.play
 released: 2019-12-27
-updated: 2021-09-26
-version: "3.2.2"
+updated: 2021-10-26
+version: "3.3.0"
 stars: 4.6
-ratings: 38747
-reviews: 12094
-size: 16M
+ratings: 41734
+reviews: 13017
+size: 17M
 website: https://www.coinex.co
 repository: 
 issue: 

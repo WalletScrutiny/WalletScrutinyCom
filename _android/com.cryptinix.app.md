@@ -4,7 +4,7 @@ title: "Cryptinix: Crypto Trading"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.cryptinix.app
 released: 2020-11-24
 updated: 2021-02-09
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptinix.app.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:

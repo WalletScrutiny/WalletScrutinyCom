@@ -10,8 +10,8 @@ released: 2019-08-09
 updated: 2021-10-24
 version: "2.4.8"
 stars: 4.4
-ratings: 504
-reviews: 226
+ratings: 507
+reviews: 228
 size: 7.5M
 website: http://krakapi.oblade.net/
 repository: 

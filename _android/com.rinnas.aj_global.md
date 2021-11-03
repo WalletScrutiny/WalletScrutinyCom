@@ -9,9 +9,9 @@ appId: com.rinnas.aj_global
 released: 2020-05-29
 updated: 2021-10-19
 version: "2.0.8"
-stars: 3.5
-ratings: 92
-reviews: 69
+stars: 3.4
+ratings: 97
+reviews: 74
 size: 20M
 website: https://ajglobalv.com/
 repository: 

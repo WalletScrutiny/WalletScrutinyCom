@@ -10,8 +10,8 @@ released: 2013-10-04
 updated: 2021-09-23
 version: "3.11.0.9-TESTNET"
 stars: 3.7
-ratings: 138
-reviews: 72
+ratings: 139
+reviews: 73
 size: 25M
 website: 
 repository: 

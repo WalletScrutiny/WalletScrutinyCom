@@ -1,17 +1,17 @@
 ---
 wsId: easyMarkets
-title: "easyMarkets Trade Cryptos, Shares, Forex & More"
+title: "easyMarkets Online Trading"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: giniapps.easymarkets.com
 released: 2017-04-05
-updated: 2021-10-20
-version: "1.27.2"
+updated: 2021-10-29
+version: "1.28.0"
 stars: 4.1
-ratings: 1625
-reviews: 697
+ratings: 1640
+reviews: 701
 size: 37M
 website: https://www.easymarkets.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.btcc.mobiwallet
 released: 2019-03-28
 updated: 2021-05-20
 version: "2.32.2"
-stars: 3.5
-ratings: 26
-reviews: 18
+stars: 3.6
+ratings: 27
+reviews: 19
 size: 14M
 website: 
 repository: 

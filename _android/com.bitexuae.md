@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.bitexuae
 released: 2020-02-23
-updated: 2021-09-20
-version: "2.7"
+updated: 2021-10-31
+version: "2.9"
 stars: 3.0
-ratings: 119
+ratings: 120
 reviews: 103
-size: 170M
+size: 171M
 website: https://bitex.com
 repository: 
 issue: 

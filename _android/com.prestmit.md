@@ -9,17 +9,17 @@ appId: com.prestmit
 released: 2021-04-13
 updated: 2021-09-02
 version: "2.4"
-stars: 4.6
-ratings: 723
-reviews: 659
+stars: 4.7
+ratings: 755
+reviews: 689
 size: 9.1M
 website: https://prestmit.com/
 repository: 
 issue: 
 icon: com.prestmit.png
 bugbounty: 
-verdict: nowallet
-date: 2021-09-30
+verdict: nosendreceive
+date: 2021-11-02
 signer: 
 reviewArchive:
 
@@ -34,7 +34,11 @@ redirect_from:
 ---
 
 
-### Google Play
+## Updated Verdict 2021-10-29
+
+The updated verdict is noted at the bottom of the analysis page.
+
+## Google Play App Description
 
 As described on its Google Play page:
 
@@ -44,7 +48,7 @@ It is possible to convert Gift Cards to bitcoins, Naira, Cedis, Mobile Money or 
 
 It is also possible to sell Bitcoins. 
 
-### Downloading the App and Registering 
+## Downloading the App and Registering 
 
 Once we have downloaded the app, we registered and were able to use most functionalities with only an email address. 
 
@@ -54,7 +58,7 @@ The BTC wallet also has a text which says:
 
 > **"Any bitcoin received to this address will be automatically added to your Naira balance and available for withdrawal"**
 
-### The Site and FAQs
+## The Site and FAQs
 
 According to its [FAQ](https://prestmit.com/faq):
 
@@ -64,17 +68,17 @@ With a Prestmit account, you already have your own BTC Wallet where you can send
 > **How do I withdraw?**<br>
 You get paid in your Prestmit Wallet which is also referred to as your NAIRA WALLET. Once your card(s) is CONFIRMED and your transaction is successful, you can withdraw at any given day or time into your local Bank as to which the payment would be gotten within 5minutes.
 
-### Terms
+## Terms
 
 One passage caught our attention in Prestmit.com's [Terms](https://prestmit.com/terms):
 
 > Establishing and maintaining a risk-based approach to Customer Due Diligence (CDD), including customer identification, verification and KYC procedures. To ensure we meet these standards, our customers are required to provide certain personal details when opening a Prestmit account and also generate tokens, OTP and PIN for any withdrawal request. The nature, and extent, of what is required is guided by the customer’s deposit and withdrawal limits.
 
-### Verdict
+## Verdict
 
 This is another app that is a tad tricky to give a verdict on. As indicated by several factors including KYC, provisions in its Terms and Conditions, it may appear as a _custodial_ wallet. However, and we must emphasize this, we have some questions about why the bitcoin wallet can only receive BTC, and once you try to withdraw, it will be credited in Naira to your bank account. As of September 22. 2021, we still await the reply of prestmit.com regarding this matter. Given that it can receive, but it can't send, makes us think that this is more likely not a real bitcoin wallet which offers the user a certain level of control. Even custodial exchanges allow a withdrawal option for bitcoins with corresponding fees. Prestmit, offers withdrawals for no fee. 
 
-While we wait for further information, we give this app a **nowallet** verdict. 
+Since withdrawal is possible via a conversion to fiat currency, our revised verdict therefore is this wallet **can receive, but cannot send bitcoins**. 
 
 
  

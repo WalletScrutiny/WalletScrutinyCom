@@ -9,8 +9,8 @@ appId: com.cointopay.app
 released: 2018-05-29
 updated: 2021-03-31
 version: "2.1.6"
-stars: 3.4
-ratings: 18
+stars: 3.5
+ratings: 19
 reviews: 11
 size: 6.5M
 website: 

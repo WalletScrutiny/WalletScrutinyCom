@@ -9,7 +9,7 @@ appId: io.handcash.wallet
 released: 2019-09-10
 updated: 2021-09-16
 version: "2.6.7"
-stars: 4.0
+stars: 3.9
 ratings: 481
 reviews: 317
 size: 76M

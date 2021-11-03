@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 released: 2015-01-01
-updated: 2021-09-30
-version: "3.7.3"
-stars: 3.8
-ratings: 880
-reviews: 484
+updated: 2021-10-27
+version: "3.7.5"
+stars: 3.7
+ratings: 887
+reviews: 491
 size: 79M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
@@ -19,9 +19,14 @@ issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-04
+date: 2021-10-29
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-10-04
+  version: "3.7.3"
+  appHash: f43452d74790aa086fbd2c73718e81a0fc24cb238258fda67cd5602193236e2f
+  gitRevision: 2d2841809c0646bb07b9f3f00afff8e711f72e99
+  verdict: reproducible
 - date: 2021-09-17
   version: "3.7.0"
   appHash: 55c962cc12defa44ef90cd10f2a10dc574b368c364ac9ed7ea910515b0a05996
@@ -164,24 +169,24 @@ we get:
 Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.3
-apkVersionCode: 22000373
+apkVersionName: 3.7.5
+apkVersionCode: 22000375
 verdict:        reproducible
-appHash:        f43452d74790aa086fbd2c73718e81a0fc24cb238258fda67cd5602193236e2f
-commit:         a2ce021d7752fe489314728ef6a6e25225aecb5d
+appHash:        4bc2491a7c50c241e12ff3f5ec1d84e82d45d9fa86c41e4db1a8869ad2b77951
+commit:         7c4f6792ccb29c076ed64bb3d8933b9a2c133ff8
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000373/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object a2ce021d7752fe489314728ef6a6e25225aecb5d
+object 7c4f6792ccb29c076ed64bb3d8933b9a2c133ff8
 type commit
-tag release_3.7.3
-tagger Luca Vaccaro <me@lvaccaro.com> 1632963637 +0200
+tag release_3.7.5
+tagger Domenico Gabriele <domenico@blockstream.com> 1635277340 +0200
 
-Release 3.7.3
+Release 3.7.5
 ```
 
 which is what we want to see to give it the verdict **reproducible**.

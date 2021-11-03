@@ -10,16 +10,16 @@ idd: 1436815668
 released: 2018-11-02
 updated: 2021-10-20
 version: "1.4.28"
-stars: 4.15571
-reviews: 23959
+stars: 4.15653
+reviews: 24109
 size: 81640448
 website: http://www.paddle-inc.jp/
 repository: 
 issue: 
 icon: jp.paddleinc.bitstock.jpg
 bugbounty: 
-verdict: nowallet
-date: 2021-10-21
+verdict: nosendreceive
+date: 2021-11-01
 signer: 
 reviewArchive:
 

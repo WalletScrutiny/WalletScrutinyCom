@@ -8,11 +8,11 @@ appId: com.coinsuper.app
 appCountry: us
 idd: 1346980481
 released: 2018-02-20
-updated: 2021-09-30
-version: "2.4.11"
+updated: 2021-10-28
+version: "2.4.12"
 stars: 4
 reviews: 13
-size: 57726976
+size: 57735168
 website: https://www.coinsuper.com/
 repository: 
 issue: 

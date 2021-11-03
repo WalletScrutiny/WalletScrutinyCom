@@ -4,7 +4,7 @@ title: "BigWinner: Bitcoin, Crypto & Blockchain Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.hubI
 released: 2021-06-15
 updated: 2021-07-13

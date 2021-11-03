@@ -6,13 +6,13 @@ authors:
 
 users: 50
 appId: com.nebbix
-released: 
-updated: 2021-10-08
-version: "Varies with device"
-stars: 
+released: 2021-10-31
+updated: 2021-11-01
+version: "0.1.1"
+stars: 0.0
 ratings: 
 reviews: 
-size: Varies with device
+size: 26M
 website: 
 repository: 
 issue: 

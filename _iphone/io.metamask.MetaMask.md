@@ -8,11 +8,11 @@ appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2021-10-06
-version: "3.4.1"
-stars: 3.00549
-reviews: 1457
-size: 56829952
+updated: 2021-10-29
+version: "3.5.0"
+stars: 2.98335
+reviews: 1562
+size: 56828928
 website: https://metamask.io/
 repository: 
 issue: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.uun.clet.png
 bugbounty: 
-verdict: stale
-date: 2021-09-01
+verdict: obsolete
+date: 2021-11-01
 signer: 
 reviewArchive:
 

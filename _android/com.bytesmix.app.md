@@ -1,18 +1,18 @@
 ---
 wsId: Bytesmix
-title: "Bytesmix - Coin, Token Wallet, Airdrop, Community"
+title: "Bytesmix - Coin, Token Wallet"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.bytesmix.app
 released: 2019-08-11
-updated: 2021-07-09
-version: "2.3.9"
+updated: 2021-10-31
+version: "2.4.2"
 stars: 3.7
 ratings: 388
 reviews: 280
-size: 26M
+size: 27M
 website: https://www.bytesmix.com/
 repository: 
 issue: 

@@ -4,14 +4,14 @@ title: "Koinbazar: Bitcoin & Cryptocurrency Exchange App"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.application.koinbazar
 released: 2021-05-17
 updated: 2021-10-21
 version: "1.12"
-stars: 4.0
-ratings: 2424
-reviews: 1061
+stars: 3.5
+ratings: 2600
+reviews: 1167
 size: 12M
 website: https://www.koinbazar.com/
 repository: 

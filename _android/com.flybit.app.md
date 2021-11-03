@@ -10,8 +10,8 @@ released: 2021-02-04
 updated: 2021-10-13
 version: "1.8.7"
 stars: 4.0
-ratings: 359
-reviews: 227
+ratings: 360
+reviews: 228
 size: 8.0M
 website: https://flybit.com/
 repository: 

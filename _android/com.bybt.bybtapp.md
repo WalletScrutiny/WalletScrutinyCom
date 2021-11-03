@@ -7,19 +7,19 @@ authors:
 users: 10000
 appId: com.bybt.bybtapp
 released: 2021-02-10
-updated: 2021-09-29
-version: "1.0.1.6"
+updated: 2021-10-29
+version: "1.0.1.7"
 stars: 4.5
-ratings: 105
-reviews: 45
-size: 5.5M
+ratings: 110
+reviews: 49
+size: 5.6M
 website: https://www.bybt.com/
 repository: 
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
-verdict: nowallet
-date: 2021-10-19
+verdict: fake
+date: 2021-11-02
 signer: 
 reviewArchive:
 
@@ -34,7 +34,19 @@ redirect_from:
 ---
 
 
-**Note**: The app's logo and name bears a slight resemblance with another app:
+## Updated Review 2021-10-29
+
+The similarity with Bybit both in name and logo is highly suspicious given that this app does not have much functionality. That is the definition of **"Fake"**. An app, that mimics logo and name, and falls short of the features of the original app. 
+
+Bybt describes itself as a
+
+> Cryptocurrency Futures Trading & information platform
+
+We were not able to access any trading feature. 
+
+## Old Review 2021-10-19
+
+**⚠️ Warning**: The app's logo and name bears a resemblance with another app. 
 
 {% include walletLink.html wallet='android/com.bybit.app' verdict='true' %}
 
@@ -55,4 +67,4 @@ And this paragraph:
 
 > Bybt will strive to ensure accuracy of information listed on this website although it will not hold any responsibility for any missing or wrong information. Bybt provides all information as is. You understand that you are using any and all information available here at your own risk.
 
-This app and website only provide information on the market. **This is not actually an exchange or wallet.**
+This app and website only provides information on the market. **This is not actually an exchange or wallet.**

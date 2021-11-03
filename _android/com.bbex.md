@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bbex.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-10-26
 signer: 
 reviewArchive:
 

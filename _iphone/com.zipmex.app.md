@@ -8,11 +8,11 @@ appId: com.zipmex.app
 appCountry: sg
 idd: 1485647781
 released: 2019-11-06
-updated: 2021-10-21
-version: "21.10.3"
-stars: 4.28049
-reviews: 82
-size: 49763328
+updated: 2021-11-01
+version: "21.10.4"
+stars: 4.28571
+reviews: 84
+size: 49828864
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 
 issue: 

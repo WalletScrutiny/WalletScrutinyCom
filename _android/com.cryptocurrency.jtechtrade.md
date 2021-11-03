@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cryptocurrency.jtechtrade.png
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: defunct
+date: 2021-11-01
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-25**: This app is no more.
 

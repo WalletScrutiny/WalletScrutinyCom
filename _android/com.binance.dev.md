@@ -1,17 +1,17 @@
 ---
 wsId: binance
-title: "Binance: Bitcoin, Crypto & NFT"
+title: "Binance: BTC NFTs Memes & Meta"
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.binance.dev
 released: 2017-10-25
-updated: 2021-10-18
+updated: 2021-11-01
 version: "2.36.5"
-stars: 4.5
-ratings: 437571
-reviews: 150946
+stars: 4.4
+ratings: 444255
+reviews: 153832
 size: Varies with device
 website: https://www.binance.com
 repository: 

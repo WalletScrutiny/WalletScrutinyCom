@@ -1,19 +1,19 @@
 ---
-wsId: 
+wsId: Coini
 title: "Coini — Cryptocurrencies"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: partl.coini
 released: 2018-02-04
-updated: 2021-10-18
-version: "2.3.2"
+updated: 2021-10-28
+version: "2.3.4"
 stars: 4.6
-ratings: 250
+ratings: 251
 reviews: 125
 size: 46M
-website: 
+website: https://timopartl.com
 repository: 
 issue: 
 icon: partl.coini.png

@@ -1,5 +1,5 @@
 ---
-wsId: CryptoTab
+wsId: CryptoTabPro
 title: "CryptoTab Browser Pro Level"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2020-01-24
 updated: 2021-10-07
 version: "4.1.79"
 stars: 4.0
-ratings: 56058
-reviews: 30099
+ratings: 57296
+reviews: 30693
 size: Varies with device
 website: https://get.cryptobrowser.site/
 repository: 

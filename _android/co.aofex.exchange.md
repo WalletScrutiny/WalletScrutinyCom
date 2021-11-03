@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: co.aofex.exchange
 released: 2021-09-01
-updated: 2021-10-15
-version: "2.4.9"
-stars: 5.0
-ratings: 5598
-reviews: 234
-size: 65M
+updated: 2021-11-01
+version: "2.5.0"
+stars: 4.9
+ratings: 5605
+reviews: 238
+size: 63M
 website: https://www.aofex.com/#/
 repository: 
 issue: 

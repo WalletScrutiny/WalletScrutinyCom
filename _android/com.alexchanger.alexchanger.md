@@ -9,9 +9,9 @@ appId: com.alexchanger.alexchanger
 released: 2020-06-12
 updated: 2020-06-12
 version: "1.0"
-stars: 4.3
-ratings: 224
-reviews: 119
+stars: 4.2
+ratings: 229
+reviews: 122
 size: 1.4M
 website: 
 repository: 

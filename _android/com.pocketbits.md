@@ -9,9 +9,9 @@ appId: com.pocketbits
 released: 2021-08-03
 updated: 2021-10-24
 version: "1.3.0"
-stars: 4.2
-ratings: 107
-reviews: 56
+stars: 4.4
+ratings: 168
+reviews: 61
 size: 32M
 website: https://pocketbits.in/
 repository: 

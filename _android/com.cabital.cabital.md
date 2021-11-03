@@ -7,11 +7,11 @@ authors:
 users: 100
 appId: com.cabital.cabital
 released: 2021-06-07
-updated: 2021-09-29
-version: "1.1.2"
+updated: 2021-10-27
+version: "1.1.3"
 stars: 4.6
-ratings: 14
-reviews: 8
+ratings: 15
+reviews: 9
 size: 44M
 website: 
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: "Coinflow - Exchange Bitcoin and Altcoins instantly"
 altTitle: 
 authors:
-
+- leo
 users: 100
 appId: com.arindamdawn.coinflow
 released: 2017-07-26
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.arindamdawn.coinflow.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-10-21**: This app is no more.

@@ -10,8 +10,8 @@ released: 2020-02-27
 updated: 2021-10-20
 version: "1.3.2"
 stars: 2.7
-ratings: 43
-reviews: 33
+ratings: 44
+reviews: 34
 size: 29M
 website: https://www.delio.foundation/
 repository: 
