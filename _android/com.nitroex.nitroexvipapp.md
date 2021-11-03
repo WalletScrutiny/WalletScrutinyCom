@@ -60,5 +60,5 @@ We downloaded and installed the app. However the SMS OTP didn't arrive. Therefor
 
 ## Verdict
 
-Judging from its face value description and name, this is **not a bitcoin wallet** at all, but a cryptocurrency trading bot.
+Judging from its description and name, this is **not a bitcoin wallet** at all, but a cryptocurrency trading bot.
 
