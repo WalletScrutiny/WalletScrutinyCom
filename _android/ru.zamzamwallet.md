@@ -19,7 +19,7 @@ issue:
 icon: ru.zamzamwallet.png
 bugbounty: 
 verdict: wip
-date: 2021-11-03
+date: 2021-11-04
 signer: 
 reviewArchive:
 

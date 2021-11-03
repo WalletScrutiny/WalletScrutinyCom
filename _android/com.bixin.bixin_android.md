@@ -19,7 +19,7 @@ issue:
 icon: com.bixin.bixin_android.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-11-04
 signer: 
 reviewArchive:
 

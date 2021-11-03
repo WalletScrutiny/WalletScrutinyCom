@@ -19,7 +19,7 @@ issue:
 icon: org.bitex.exchange.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-26
+date: 2021-11-04
 signer: 
 reviewArchive:
 

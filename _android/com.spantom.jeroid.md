@@ -19,7 +19,7 @@ issue:
 icon: com.spantom.jeroid.png
 bugbounty:
 verdict: nowallet
-date: 2021-09-01
+date: 2021-11-04
 signer:
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty:
 verdict: nosource
-date: 2021-08-21
+date: 2021-11-04
 signer:
 reviewArchive:
 

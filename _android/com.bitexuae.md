@@ -19,7 +19,7 @@ issue:
 icon: com.bitexuae.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-11-04
 signer: 
 reviewArchive:
 
