@@ -19,7 +19,7 @@ issue:
 icon: com.jackocoins.app.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-08-01
+date: 2021-11-03
 signer: 
 reviewArchive:
 

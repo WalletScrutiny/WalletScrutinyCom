@@ -19,7 +19,7 @@ issue:
 icon: com.fiboda.app.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-05
+date: 2021-11-03
 signer: 
 reviewArchive:
 

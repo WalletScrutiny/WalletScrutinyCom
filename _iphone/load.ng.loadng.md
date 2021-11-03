@@ -19,7 +19,7 @@ issue:
 icon: load.ng.loadng.jpg
 bugbounty: 
 verdict: nosendreceive
-date: 2021-10-25
+date: 2021-11-03
 signer: 
 reviewArchive:
 

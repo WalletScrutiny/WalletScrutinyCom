@@ -19,7 +19,7 @@ issue:
 icon: com.instantcoins.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-04-13
+date: 2021-11-03
 signer: 
 reviewArchive:
 

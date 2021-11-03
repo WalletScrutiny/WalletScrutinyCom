@@ -19,7 +19,7 @@ issue:
 icon: multi.org.freewallet.app.png
 bugbounty: 
 verdict: obsolete
-date: 2021-08-17
+date: 2021-11-03
 signer: 
 reviewArchive:
 - date: 2021-04-30

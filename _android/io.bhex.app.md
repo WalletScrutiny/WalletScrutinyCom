@@ -19,7 +19,7 @@ issue:
 icon: io.bhex.app.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-04
+date: 2021-11-03
 signer: 
 reviewArchive:
 
