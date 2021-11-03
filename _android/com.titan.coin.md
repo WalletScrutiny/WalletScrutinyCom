@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-Titan Wallet is a multi-currency wallet that supports BTC, ETH, LTC and its own TTN (Titan Coin). 
+{{ page.title }} is a multi-currency wallet that supports BTC, ETH, LTC and its own TTN (Titan Coin). 
 
 There is an ICO related to this project.
 
