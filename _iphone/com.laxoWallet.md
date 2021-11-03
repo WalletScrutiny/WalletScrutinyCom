@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: VoltWallet
 title: "Volt: Defi & Crypto & Bitcoin"
-altTitle: 
+altTitle:
 authors:
-
+- danny
 appId: com.laxoWallet
 appCountry: us
 idd: 1504656252
@@ -13,23 +13,23 @@ version: "2.1.4"
 stars: 5
 reviews: 38
 size: 84502528
-website: 
-repository: 
-issue: 
+website: https://volt.id/
+repository:
+issue:
 icon: com.laxoWallet.jpg
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: custodial
 date: 2021-11-03
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: Voltfinance
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

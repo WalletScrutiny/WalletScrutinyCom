@@ -18,7 +18,7 @@ repository:
 issue:
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty:
-verdict: fake
+verdict: nowallet
 date: 2021-08-02
 signer:
 reviewArchive:
@@ -34,6 +34,8 @@ redirect_from:
 ---
 
 
+⚠️ **Warning:** This app has a generic sounding name: "Crypto Exchange". Since it is not mimicking any well known exchange in logo or name, it can't be the fake of something else. Its primary focus is that it's a referral.
+
 ## App Description
 
 As we can see in the description and title, this app is claiming to be an exchange.
@@ -46,6 +48,6 @@ Even the screenshots claim that the app has "safe coin storage." Everything in i
 
 The actual app and website is just a link to Binance.
 
-This app does not qualify as a wallet, and cannot hold your funds, as it only redirects to Binance. However, it has been dishonest about its features in Google Play. If this app had stated in the description that it was not a true exchange but a referral to one, then this app would have been classified as {% include verdictBadge.html verdict="nowallet" type='short' %}.  
+This app does not qualify as a wallet, and cannot hold your funds, as it only redirects to Binance. However, it has been dishonest about its features in Google Play.
 
-Due to this app advertising features although **it is actually a referral link,**  we classify it as a **fake** app.
+The app doesn't have the features of an exchange and merely links to one as a referral. Therefore, it does not have a **bitcoin wallet**.
