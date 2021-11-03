@@ -1,5 +1,5 @@
 ---
-wsId: multifw
+wsId: mwfreewallet
 title: "Multi Crypto Wallet－Freewallet"
 altTitle: 
 authors:

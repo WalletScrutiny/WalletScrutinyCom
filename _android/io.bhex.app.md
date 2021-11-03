@@ -1,5 +1,5 @@
 ---
-wsId: hbtc
+wsId: 
 title: "HBTC"
 altTitle: 
 authors:
