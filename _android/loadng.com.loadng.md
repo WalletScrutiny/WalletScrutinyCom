@@ -1,7 +1,7 @@
 ---
 wsId: loadNG
 title: "LoadNG: Sell Bitcoin in Nigeria Instantly"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -13,21 +13,21 @@ stars: 4.3
 ratings: 205
 reviews: 142
 size: 13M
-website: https://app.load.ng/ 
-repository: 
-issue: 
+website: https://app.load.ng/
+repository:
+issue:
 icon: loadng.com.loadng.jpg
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-04-13
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: loadngautomated
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
@@ -36,13 +36,13 @@ redirect_from:
 
 ## App Description
 
-> LoadNG provides an automated way to Sell Bitcoin In Nigeria Instantly, our state of the art integration makes it possible to sell bitcoin in Nigeria from Paxful wallet, Blockchain wallet or bitcoin from other wallets like binance, localbitcoins, luno, cashapp and other bitcoin wallets seamlessly. The system credits your Naira account INSTANTLY without any human input as it is fully AUTOMATED.
+> LoadNG provides an automated way to Sell Bitcoin In Nigeria Instantly, our state of the art integration makes it possible to sell bitcoin in Nigeria **from Paxful wallet, Blockchain wallet or bitcoin from other wallets like binance, localbitcoins, luno, cashapp and other bitcoin wallets seamlessly.** The system credits your Naira account INSTANTLY without any human input as it is fully AUTOMATED.
 
 ## The Site
 
 From the Homepage:
 
-> LoadNG Business allows you to generate a permanent Bitcoin wallet where you can always send bitcoin to. 
+> LoadNG Business allows you to generate a permanent Bitcoin wallet where you can always send bitcoin to.
 
 LoadNG claims you can sell Bitcoin on {% include walletLink.html wallet='android/com.paxful.wallet' verdict='true' %}
 
@@ -62,4 +62,4 @@ LoadNG also has another offering called [LoadNG Business](https://loadng.zendesk
 
 ## Verdict
 
-Although the wording on the app's homepage documentation makes it appear that there is a wallet on the app, the bitcoins that are sent to the generated QR codes or addresses are actually converted to Naira and sent to the users' bank accounts. Initially, we thought this app to be custodial, however upon closer scrutiny, we now believe it that it **can't send or receive bitcoins** just like normal bitcoin wallets.
+Although the wording on the app's homepage documentation makes it appear that there is a wallet on the app, the bitcoins that are sent to the generated QR codes or addresses are actually converted to Naira and sent to the users' bank accounts. Initially, we thought this app to be custodial, however upon closer scrutiny, we conclude that it **does not function as a wallet.**

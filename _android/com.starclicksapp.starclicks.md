@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId:
 title: "Star Clicks - PayPay, Bitcoin, Bank Transfer"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 10000
@@ -14,20 +14,20 @@ ratings: 132
 reviews: 68
 size: 4.3M
 website: https://www.star-clicks.com/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.starclicksapp.starclicks.png
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-08-08
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: Starclicks
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
@@ -49,11 +49,11 @@ The app is a "pay-to-click" ad platform that pays in Paypal or Bitcoin
 > [THOMSUN THOMAS](https://play.google.com/store/apps/details?id=com.starclicksapp.starclicks&reviewId=gp%3AAOqpTOEHBe5HpqoR_7H90KJAbF1ZlKYPCroVkXFn4mHaxuisrurCJkPinHb6xwIm_i99YqNQ4ERm7it5OXyh3k4)<br>
   ★☆☆☆☆ October 13, 2021 <br>
        They are cheating. Auto payout system is not working. I am a VIP Gold member. Still I didn't get any payments from the app.
-       
+
 ## The App
 
-We downloaded and registered. We uploaded an [image on twitter](https://twitter.com/BitcoinWalletz/status/1452539479873376260) of what the service looks like. 
+We downloaded and registered. We uploaded an [image on twitter](https://twitter.com/BitcoinWalletz/status/1452539479873376260) of what the service looks like.
 
 ## Verdict
 
-This app allows you to earn "bitcoins" by clicking on ads. You need to enter a third party wallet. Once you earn enough to reach their payout threshold, you can withdraw the bitcoin. This app **cannot send or receive bitcoins** in the sense of a bitcoin wallet.
+This app allows you to earn "bitcoins" by clicking on ads. You need to enter a third party wallet. Once you earn enough to reach their payout threshold, you can withdraw the bitcoin. This app is unable to store BTC and thus is **not made to function as a bitcoin wallet.**
