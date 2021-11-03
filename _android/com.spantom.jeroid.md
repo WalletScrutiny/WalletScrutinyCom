@@ -1,7 +1,7 @@
 ---
 wsId: Jeroid
 title: "Jeroid - Trade Bitcoins & Giftcards in Nigeria"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 92
 reviews: 75
 size: 20M
 website: https://jeroid.ng/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.spantom.jeroid.png
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-09-01
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: jeroidng
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-Buy and Sell Bitcoins, and trade for giftcards. 
+Buy and Sell Bitcoins, and trade for giftcards.
 
 ### Google Play Critical Reviews
 
@@ -78,4 +78,4 @@ When selling Bitcoin, we are presented with a dropdown menu with 4 options:
 
 ## Verdict
 
-The app seems to facilitate the trading of gift cards, represented in Naira. However, funds are withdrawable to the user's bank account in fiat. This app, **cannot send or receive bitcoins**.
+The app seems to facilitate the trading of gift cards, represented in Naira. However, funds will be withdrawn to the user's bank account in fiat. This app is **not meant to hold your bitcoins.**

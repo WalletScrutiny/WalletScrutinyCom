@@ -1,12 +1,12 @@
 ---
 wsId: sMiles
 title: "sMiles: Earn Free Bitcoin"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
 appId: com.smilesbitcoin.smiles
-released: 
+released:
 updated: 2021-10-26
 version: "2.0.4"
 stars: 2.6
@@ -14,20 +14,20 @@ ratings: 88
 reviews: 67
 size: 73M
 website: https://www.smilesbitcoin.com/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.smilesbitcoin.smiles.png
-bugbounty: 
-verdict: nosendreceive
+bugbounty:
+verdict: nowallet
 date: 2021-08-02
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: smilesbitcoin
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: smilesbitcoin
-providerReddit: 
+providerReddit:
 
 redirect_from:
 
@@ -64,8 +64,6 @@ redirect_from:
 
 ## Verdict
 
-This reward app seems to be traversing the line between a custodial app and one that cannot send or receive. Although the app does not refer to itself as a wallet, it can in theory represent the ownership of a certain amount of BTC in the form of Satoshis. However, the user does not directly control the sending and receiving of such Satoshis. Rather, the user has to **earn it** by performing tasks. When a threshold is met, the user can then **withdraw** or **send** the Satoshis to a third-party bitcoin lightning wallet. 
+This reward app seems to be traversing the line between a custodial app and one that cannot send or receive.  However, the user does not directly control the sending and receiving of such Satoshis. Rather, the user has to **earn it** by performing tasks. When a threshold is met, the user can then **withdraw** or **send** the Satoshis to a third-party bitcoin lightning wallet.
 
-Since the app can represent the holding of BTC (whether representative or real), and the user does **not directly control the sending or receiving** of bitcoins, we determine this app to be custodial.
-
-
+With no features that allow users to deposit BTC, however, we can conclude that this app is not meant to store your bitcoins. sMiles **does not function as a wallet.**

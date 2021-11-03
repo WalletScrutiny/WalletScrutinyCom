@@ -1,7 +1,7 @@
 ---
 wsId: DiviWallet
 title: "Divi Wallet: Crypto & Staking"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -15,17 +15,17 @@ reviews: 72
 size: 49M
 website: https://diviproject.org/
 repository: https://github.com/DiviProject
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
+issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: nosource
 date: 2021-08-21
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: diviproject
-providerLinkedIn: 
+providerLinkedIn:
 providerFacebook: diviproject
 providerReddit: DiviProject
 
@@ -42,14 +42,14 @@ Rewards, nodes, staking payments, lottery and others are the main features of th
 
 ## The App
 
-We downloaded the app and two options were initially available: Create a new Wallet and 'I already have a Wallet'. 
+We downloaded the app and two options were initially available: Create a new Wallet and 'I already have a Wallet'.
 
-We are then asked to assign a 4-digit pin code. Afterwards, we are asked to verify our phone number, this can be skipped. Email verification can also be skipped. We also skipped profile creation. 
+We are then asked to assign a 4-digit pin code. Afterwards, we are asked to verify our phone number, this can be skipped. Email verification can also be skipped. We also skipped profile creation.
 
-Afterwards, it would seem that profile creation was mandatory after all. Skipping brings us to profile details. We filled it up. After filling up some more details, we are then presented with the 12-word backup phrase. We then confirmed it. 
+Afterwards, it would seem that profile creation was mandatory after all. Skipping brings us to profile details. We filled it up. After filling up some more details, we are then presented with the 12-word backup phrase. We then confirmed it.
 
 ## Verdict
 
-This is evidently a **self-custodial** wallet. Searching for the Google Play appID 'io.divipay.divi' [does not return any relevant repositories](https://github.com/search?q=io.divipay.divi&type=repositories). However the app's website links to [DiviProject on Github](https://github.com/DiviProject). 
+This is evidently a **self-custodial** wallet.
 
-We are creating an issue on Gitlab for verification.
+While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public) for the Desktop App, we cannot find source for the Google Play app. We have created [an issue in Github.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214) At the moment, however, this app has **no source available.**

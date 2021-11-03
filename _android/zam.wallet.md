@@ -1,7 +1,7 @@
 ---
 wsId: ZamWallet
 title: "ZamWallet: Buy Bitcoin & Crypto with Card"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -14,29 +14,29 @@ ratings: 127
 reviews: 99
 size: 25M
 website: https://zam.io/
-repository: 
-issue: 
+repository:
+issue:
 icon: zam.wallet.jpg
-bugbounty: 
+bugbounty:
 verdict: nosource
 date: 2021-08-02
-signer: 
+signer:
 reviewArchive:
 
 
 providerTwitter: zam_io
 providerLinkedIn: 11770701
-providerFacebook: 
-providerReddit: 
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
 
 
-**Note:** There is another app called Zamzam, that has the same logo but with a different appID = _ru.zamzamwallet_. The developer is also different. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page. 
+**Note:** This app shares a logo with {% include walletLink.html wallet='android/ru.zamzamwallet' verdict='0' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.
 
-**Update on Note October 26, 2021:** We were able to verify the link between these two apps via a document found on [Zam.io's document page](https://docs.zam.io/ecosystem/zam.me-zamzam)
+**Update on Note October 26, 2021:** We were able to verify the link between these two apps via a document found on [Zam.io's document page](https://docs.zam.io/ecosystem/zam.me-zamzam): The other is for Russia, this here for the rest of the world.
 
 ## App Description
 
@@ -68,7 +68,7 @@ Zam files SARs (Suspicious Activity/Currency Transaction Reports).
 
 > Our team is building a universal wallet for CeFi and DeFi that brings the best features of both technologies into one powerful app **Users can choose whether to store their private keys** in our custody secured by Binance, or keep them at their possession with full control over security and seemlessly swap between wallets.
 
-### Documentation is available for the self-custodial Zam DeFi wallet 
+### Documentation is available for the self-custodial Zam DeFi wallet
 
 Details about Zam's self-custodial version 'DeFi Wallet' is available on this [page](https://docs.zam.io/ecosystem/zam.io-zamwallet/defi-wallet).
 
@@ -78,9 +78,9 @@ We downloaded and tried to register an account but was not able to. We did not r
 
 ## Verdict
 
-This wallet claims to have two versions or modes: CeFi (custodial) and DeFi (self-custodial). We searched github for the Zam appID of **zam.wallet** but did not find a relevant repository related to the Zam wallet. 
+This wallet claims to have two versions or modes: CeFi (custodial) and DeFi (self-custodial). We searched Github for the Zam appID of **zam.wallet** but did not find a relevant repository related to the Zam wallet.
 
-There is a [linked repository](https://github.com/Zamzam-Technology/zamio_api_prototype) which appears to be a self-custodial prototype for a wallet api. 
+There is a [linked repository](https://github.com/Zamzam-Technology/zamio_api_prototype) which appears to be a self-custodial prototype for a wallet api.
 
 The description reads as follows:
 
