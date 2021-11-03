@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
-verdict: nowallet
-date: 2021-10-19
+verdict: custodial
+date: 2021-11-02
 signer: 
 reviewArchive:
 

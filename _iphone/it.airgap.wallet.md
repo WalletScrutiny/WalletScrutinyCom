@@ -3,7 +3,7 @@ wsId: AirGapWallet
 title: "AirGap Wallet"
 altTitle: 
 authors:
-
+- danny
 appId: it.airgap.wallet
 appCountry: 
 idd: 1420996542
@@ -13,7 +13,7 @@ version: "3.11.1"
 stars: 3.9
 reviews: 10
 size: 103603200
-website: 
+website: https://airgap.it/
 repository: 
 issue: 
 icon: it.airgap.wallet.jpg
@@ -32,4 +32,4 @@ providerReddit: AirGap
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

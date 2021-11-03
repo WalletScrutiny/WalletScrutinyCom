@@ -4,7 +4,7 @@ title: "First Kudi"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.ferrum.kudi
 released: 2019-01-13
 updated: 2020-10-19

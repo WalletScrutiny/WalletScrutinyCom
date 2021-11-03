@@ -10,8 +10,8 @@ released: 2019-12-19
 updated: 2021-10-16
 version: "10.3.4"
 stars: 4.3
-ratings: 15230
-reviews: 8555
+ratings: 15387
+reviews: 8604
 size: 66M
 website: https://coin98.app/
 repository: 

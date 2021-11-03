@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: vantageFX
 title: "Vantage FX"
 altTitle: 
 authors:
@@ -10,16 +10,16 @@ released: 2019-07-06
 updated: 2021-10-19
 version: "1.4.4"
 stars: 4.6
-ratings: 4402
-reviews: 810
+ratings: 4560
+reviews: 817
 size: 34M
 website: https://www.vantagefx.com.au/
 repository: 
 issue: 
 icon: cn.com.vau.png
 bugbounty: 
-verdict: nowallet
-date: 2021-08-21
+verdict: nosendreceive
+date: 2021-11-01
 signer: 
 reviewArchive:
 
@@ -33,10 +33,14 @@ redirect_from:
 
 ---
 
+App description:
 
-Description from the 
->The Vantage FX app offers traders easy, yet powerful mobile access to hundreds of FX Pairs, Commodities, Indices, Share CFDs and more! Available for both iOS and Android devices, the Vantage FX trading app is equipped with a suite of trading and investing tools so you can trade global markets anywhere, anytime! Trade your way anywhere, anytime, with the Vantage FX app.
+> The Vantage FX app offers traders easy, yet powerful mobile access to hundreds of FX Pairs, Commodities, Indices, Share CFDs and more! Available for both iOS and Android devices, the Vantage FX trading app is equipped with a suite of trading and investing tools so you can trade global markets anywhere, anytime! Trade your way anywhere, anytime, with the Vantage FX app.
 
 There was no mention of BTC or any other cryptocurrency in their Playstore description. 
-On their website's help center, they stated that crypto assets were offered in CFD form. Based on this information, our verdict is 'nowallet'.
 
+On their website's [help center](https://helpcenter.vantagefx.com/hc/en-us/articles/360004063096-Why-can-not-I-trade-Crypto-assets-over-the-weekend-), Vantage mentions that crypto assets "are offered in the form of CFD."
+
+> Kindly note that Crypto assets are offered in the form of CFD. As CFD markets are closed over the weekend crypto trading is not available either. 
+
+CFD trading entails that users do not actually own the assets and as a result, **cannot send or receive bitcoin**.

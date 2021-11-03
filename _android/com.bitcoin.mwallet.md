@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.bitcoin.mwallet
 released: 2017-06-19
-updated: 2021-10-26
+updated: 2021-10-29
 version: "7.5.2"
 stars: 4.4
-ratings: 33499
-reviews: 10138
+ratings: 33842
+reviews: 10224
 size: 60M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

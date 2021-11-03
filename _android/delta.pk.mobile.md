@@ -10,7 +10,7 @@ released: 2013-03-29
 updated: 2021-05-17
 version: "5.8.7"
 stars: 4.0
-ratings: 406
+ratings: 407
 reviews: 103
 size: 1.2M
 website: https://www.deltastock.com/

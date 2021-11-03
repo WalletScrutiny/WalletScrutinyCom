@@ -10,8 +10,8 @@ released: 2021-06-16
 updated: 2021-10-19
 version: "6.0.19"
 stars: 4.2
-ratings: 12547
-reviews: 6348
+ratings: 13275
+reviews: 6718
 size: Varies with device
 website: 
 repository: 

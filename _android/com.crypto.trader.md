@@ -4,7 +4,7 @@ title: "INX - Crypto Trading"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.crypto.trader
 released: 2021-09-29
 updated: 2021-09-29

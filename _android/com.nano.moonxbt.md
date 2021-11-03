@@ -10,8 +10,8 @@ released: 2021-05-11
 updated: 2021-09-26
 version: "2.2.1"
 stars: 4.0
-ratings: 238
-reviews: 200
+ratings: 242
+reviews: 204
 size: 33M
 website: https://www.moonxbt.com/en-us/
 repository: 

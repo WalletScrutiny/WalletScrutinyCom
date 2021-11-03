@@ -10,8 +10,8 @@ idd: 1434511619
 released: 2018-10-18
 updated: 2021-10-22
 version: "4.2.4"
-stars: 3
-reviews: 13
+stars: 2.85714
+reviews: 14
 size: 128720896
 website: http://www.korbit.co.kr
 repository: 

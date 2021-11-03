@@ -9,8 +9,8 @@ appId: com.nobillio.coinbaazar
 released: 2020-08-31
 updated: 2021-10-14
 version: "1.3.10"
-stars: 4.2
-ratings: 17
+stars: 4.1
+ratings: 18
 reviews: 11
 size: 35M
 website: 

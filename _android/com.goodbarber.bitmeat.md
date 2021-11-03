@@ -3,7 +3,7 @@ wsId:
 title: "BitMeet Peer to Peer Crypto Trading"
 altTitle: 
 authors:
-
+- leo
 users: 100
 appId: com.goodbarber.bitmeat
 released: 2018-01-09
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.goodbarber.bitmeat.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-21**: This app is no more.
 

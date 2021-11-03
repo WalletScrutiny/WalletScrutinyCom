@@ -63,7 +63,7 @@ We downloaded the app and tried to find the wallet. It proved difficult as the a
 > - Alertes - same
 > - Recervoir - same
 
-We were not able to locate the wallet which makes sense since this is a portfolio management app that merely uses third-party APIs.
+We were not able to locate the wallet which makes sense since this is a portfolio management app that **merely uses third-party APIs**.
 
 ## Verdict
 

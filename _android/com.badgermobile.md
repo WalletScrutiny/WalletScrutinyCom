@@ -10,8 +10,8 @@ released: 2019-06-10
 updated: 2021-10-20
 version: "1.13.15"
 stars: 3.7
-ratings: 160
-reviews: 84
+ratings: 162
+reviews: 85
 size: 33M
 website: https://badger.bitcoin.com
 repository: 

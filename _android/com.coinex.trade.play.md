@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: "CoinEx - A Trustworthy Cryptocurrency Exchange"
+title: "CoinEx - Crypto Exchange"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2019-12-27
 updated: 2021-10-26
 version: "3.3.0"
 stars: 4.6
-ratings: 38798
-reviews: 12116
+ratings: 41734
+reviews: 13017
 size: 17M
 website: https://www.coinex.co
 repository: 

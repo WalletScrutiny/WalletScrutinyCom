@@ -4,14 +4,14 @@ title: "BTC Crypto Network"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.cryptominer.btc.miner.crypto.clouds.mining
 released: 2021-08-28
 updated: 2021-10-24
 version: "1.1"
-stars: 3.7
-ratings: 344
-reviews: 265
+stars: 3.9
+ratings: 381
+reviews: 291
 size: 12M
 website: 
 repository: 

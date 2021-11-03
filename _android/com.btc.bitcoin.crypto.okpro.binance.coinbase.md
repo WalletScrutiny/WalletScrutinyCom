@@ -3,7 +3,7 @@ wsId:
 title: "OKpro-Bitcoin & Crypto currency information"
 altTitle: 
 authors:
-
+- leo
 users: 1000
 appId: com.btc.bitcoin.crypto.okpro.binance.coinbase
 released: 2021-09-13
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.png
 bugbounty: 
-verdict: wip
-date: 2021-10-05
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-18**: This app is no more.
 

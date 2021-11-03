@@ -38,7 +38,7 @@ redirect_from:
 
 The app promises these features:
 
-> - Main features:
+> **Main features:**
 > - Collect coins for free.
 > - Coin classification.
 > - Wallets for your coins.

@@ -9,8 +9,8 @@ appId: com.techbank_dwallet
 released: 2020-10-09
 updated: 2021-10-14
 version: "1.1"
-stars: 4.4
-ratings: 54
+stars: 4.5
+ratings: 55
 reviews: 14
 size: 72M
 website: 

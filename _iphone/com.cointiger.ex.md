@@ -10,8 +10,8 @@ idd: 1366562802
 released: 2018-10-27
 updated: 2020-06-23
 version: "4.8.3"
-stars: 2.73404
-reviews: 94
+stars: 2.69792
+reviews: 96
 size: 152541184
 website: http://www.cointiger.com
 repository: 
