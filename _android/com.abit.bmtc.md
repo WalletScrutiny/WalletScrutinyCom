@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Abit
 title: "ABIT"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: com.abit.bmtc
 released: 2020-03-03
@@ -13,18 +13,18 @@ stars: 3.6
 ratings: 75
 reviews: 44
 size: 8.8M
-website: 
+website: https://www.abit.com
 repository: 
 issue: 
 icon: com.abit.bmtc.png
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-08-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: abitofficial
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -34,3 +34,6 @@ redirect_from:
 ---
 
 
+The service announced its shutdown on October 4, 2021 via [twitter](https://twitter.com/abitofficial/status/1445005276071952384). 
+
+This service is defunct. 
