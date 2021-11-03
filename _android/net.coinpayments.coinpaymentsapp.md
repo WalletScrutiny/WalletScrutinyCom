@@ -10,8 +10,8 @@ released: 2016-11-15
 updated: 2021-09-27
 version: "Varies with device"
 stars: 3.2
-ratings: 2164
-reviews: 1133
+ratings: 2167
+reviews: 1134
 size: Varies with device
 website: https://www.coinpayments.net
 repository: 

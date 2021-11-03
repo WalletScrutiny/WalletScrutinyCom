@@ -9,9 +9,9 @@ appId: com.lingxi.bexplus
 released: 2018-10-29
 updated: 2021-10-19
 version: "2.1.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.8
+ratings: 5756
+reviews: 2031
 size: 12M
 website: https://www.bexplus.com
 repository: 

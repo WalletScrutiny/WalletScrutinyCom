@@ -10,8 +10,8 @@ released: 2021-03-17
 updated: 2021-11-01
 version: "4.7.25"
 stars: 2.3
-ratings: 440
-reviews: 364
+ratings: 442
+reviews: 366
 size: 52M
 website: https://hoo.com
 repository: 

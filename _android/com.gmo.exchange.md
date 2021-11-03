@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.gmo.exchange
 released: 2020-08-07
-updated: 2021-10-15
-version: "1.1.8"
+updated: 2021-11-03
+version: "1.1.9"
 stars: 4.4
-ratings: 64
+ratings: 65
 reviews: 18
-size: 14M
+size: 15M
 website: 
 repository: 
 issue: 

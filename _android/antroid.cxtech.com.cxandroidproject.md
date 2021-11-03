@@ -9,8 +9,8 @@ appId: antroid.cxtech.com.cxandroidproject
 released: 2019-02-25
 updated: 2019-10-02
 version: "1.3.12"
-stars: 3.6
-ratings: 47
+stars: 3.5
+ratings: 48
 reviews: 25
 size: 10M
 website: 
