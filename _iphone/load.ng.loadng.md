@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: load.ng.loadng.jpg
 bugbounty: 
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
