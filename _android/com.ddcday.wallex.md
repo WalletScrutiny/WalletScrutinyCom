@@ -9,9 +9,9 @@ appId: com.ddcday.wallex
 released: 2021-09-09
 updated: 2021-09-09
 version: "1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.3
+ratings: 7
+reviews: 7
 size: 9.3M
 website: 
 repository: 

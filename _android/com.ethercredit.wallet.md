@@ -9,9 +9,9 @@ appId: com.ethercredit.wallet
 released: 2020-09-23
 updated: 2020-09-23
 version: "1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 5
+reviews: 3
 size: 47M
 website: 
 repository: 

@@ -9,11 +9,11 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 idd: 1002555958
 released: 2015-07-08
-updated: 2021-10-19
-version: "4.2.4"
+updated: 2021-11-02
+version: "4.2.5"
 stars: 4.21875
 reviews: 32
-size: 110016512
+size: 115034112
 website: http://www.satoshitango.com
 repository: 
 issue: 

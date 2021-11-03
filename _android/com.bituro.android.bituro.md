@@ -1,5 +1,5 @@
 ---
-wsId: bituro 
+wsId: bituro
 title: "bituro - Rewards & Bitcoins"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2015-08-18
 updated: 2021-04-20
 version: "1.15.0"
 stars: 4.5
-ratings: 8296
-reviews: 4874
+ratings: 8300
+reviews: 4876
 size: 12M
 website: https://bituro.com/
 repository: 

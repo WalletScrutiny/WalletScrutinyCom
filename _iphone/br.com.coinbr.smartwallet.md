@@ -8,8 +8,8 @@ appId: br.com.coinbr.smartwallet
 appCountry: us
 idd: 1302270848
 released: 2018-01-02
-updated: 2021-10-05
-version: "2.0.24"
+updated: 2021-11-02
+version: "2.0.28"
 stars: 5
 reviews: 1
 size: 12990464

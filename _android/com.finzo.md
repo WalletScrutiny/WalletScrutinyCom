@@ -9,9 +9,9 @@ appId: com.finzo
 released: 2020-11-08
 updated: 2021-01-25
 version: "1.3"
-stars: 4.4
-ratings: 72
-reviews: 63
+stars: 4.3
+ratings: 75
+reviews: 65
 size: 23M
 website: 
 repository: 

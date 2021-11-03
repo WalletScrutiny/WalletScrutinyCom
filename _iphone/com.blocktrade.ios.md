@@ -11,7 +11,7 @@ released: 2018-10-30
 updated: 2021-10-22
 version: "1.4.0"
 stars: 5
-reviews: 7
+reviews: 8
 size: 56386560
 website: http://blocktrade.com
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

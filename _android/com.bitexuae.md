@@ -9,8 +9,8 @@ appId: com.bitexuae
 released: 2020-02-23
 updated: 2021-10-31
 version: "2.9"
-stars: 3.0
-ratings: 120
+stars: 3.1
+ratings: 121
 reviews: 103
 size: 171M
 website: 

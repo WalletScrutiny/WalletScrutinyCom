@@ -8,11 +8,11 @@ appId: io.stormx.ios
 appCountry: us
 idd: 1420545397
 released: 2018-12-12
-updated: 2021-09-20
-version: "4.11.3"
-stars: 4.61538
-reviews: 1118
-size: 58427392
+updated: 2021-11-01
+version: "4.12.0"
+stars: 4.61101
+reviews: 1126
+size: 41042944
 website: https://stormx.io/
 repository: 
 issue: 
@@ -32,4 +32,5 @@ providerReddit: stormxio
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

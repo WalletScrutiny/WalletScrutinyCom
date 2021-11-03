@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.coinjar.riemann
 released: 
-updated: 2021-10-14
-version: "2.8.0"
+updated: 2021-10-28
+version: "2.10.0"
 stars: 4.4
 ratings: 1134
 reviews: 817

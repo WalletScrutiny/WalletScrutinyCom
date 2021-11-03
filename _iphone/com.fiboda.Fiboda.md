@@ -10,8 +10,8 @@ idd: 1540952335
 released: 2021-02-09
 updated: 2021-07-09
 version: "1.1.0"
-stars: 4
-reviews: 4
+stars: 4.2
+reviews: 5
 size: 89354240
 website: http://fiboda.com
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

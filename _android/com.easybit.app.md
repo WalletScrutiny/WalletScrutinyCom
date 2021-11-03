@@ -7,8 +7,8 @@ authors:
 users: 500
 appId: com.easybit.app
 released: 2020-01-16
-updated: 2021-04-17
-version: "1.1.0"
+updated: 2021-10-31
+version: "1.2.0"
 stars: 5.0
 ratings: 5
 reviews: 3

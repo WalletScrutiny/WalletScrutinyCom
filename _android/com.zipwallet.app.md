@@ -10,7 +10,7 @@ released: 2018-01-30
 updated: 2021-10-24
 version: "9.9.7.5"
 stars: 4.5
-ratings: 613
+ratings: 614
 reviews: 382
 size: 25M
 website: https://zipwalletpay.com/

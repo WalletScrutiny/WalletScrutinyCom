@@ -1,7 +1,7 @@
 ---
 wsId: stormX
 title: "StormX: Shop and earn Crypto Cashback"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000000
@@ -10,17 +10,17 @@ released: 2014-09-07
 updated: 2021-10-28
 version: "8.12.2"
 stars: 4.1
-ratings: 84198
-reviews: 51356
+ratings: 84197
+reviews: 51355
 size: 61M
 website: https://stormx.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.cakecodes.bitmaker.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-01
-signer:
+signer: 
 reviewArchive:
 
 

@@ -1,7 +1,7 @@
 ---
 wsId: loadNG
 title: "LoadNG: Sell Bitcoin in Nigeria Instantly"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 211
 reviews: 146
 size: 13M
 website: https://app.load.ng/
-repository:
-issue:
+repository: 
+issue: 
 icon: loadng.com.loadng.jpg
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-03
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: loadngautomated
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

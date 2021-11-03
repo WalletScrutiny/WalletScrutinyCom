@@ -8,11 +8,11 @@ appId: com.coin.titan
 appCountry: us
 idd: 1492432350
 released: 2021-04-22
-updated: 2021-10-23
-version: "1.24.0"
+updated: 2021-10-29
+version: "1.25.0"
 stars: 1.5
 reviews: 2
-size: 87175168
+size: 87212032
 website: https://titanprojects.co
 repository: 
 issue: 
@@ -32,5 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
 

@@ -27,9 +27,10 @@ reviewArchive:
 providerTwitter: paymium
 providerLinkedIn: paymium
 providerFacebook: Paymium
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

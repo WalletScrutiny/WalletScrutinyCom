@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Betconix: Cryptocurrency Exchange & Crypto Wallet"
+title: "Betconix: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 

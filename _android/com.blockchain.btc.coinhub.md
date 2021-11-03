@@ -10,8 +10,8 @@ released: 2021-05-13
 updated: 2021-08-30
 version: "1.0.2.0.3"
 stars: 4.4
-ratings: 1004
-reviews: 184
+ratings: 1013
+reviews: 186
 size: 46M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android

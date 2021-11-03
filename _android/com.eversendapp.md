@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.eversendapp
 released: 2019-02-01
-updated: 2021-10-31
-version: "0.2.11"
-stars: 4.1
-ratings: 3694
-reviews: 1621
+updated: 2021-11-02
+version: "0.2.12"
+stars: 4.2
+ratings: 3715
+reviews: 1628
 size: 52M
 website: https://eversend.co/
 repository: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 
 **Updated Review 2021-10-28**
 

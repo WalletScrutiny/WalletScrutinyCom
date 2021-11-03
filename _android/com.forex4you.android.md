@@ -1,7 +1,7 @@
 ---
 wsId: forex4you
 title: "Forex4you - Trading on Forex"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 100000
@@ -14,20 +14,20 @@ ratings: 2412
 reviews: 960
 size: Varies with device
 website: https://www.forex4you.com/en/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.forex4you.android.png
-bugbounty:
+bugbounty: 
 verdict: nosendreceive
 date: 2021-11-01
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: forex4you
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

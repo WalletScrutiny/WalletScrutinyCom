@@ -9,9 +9,9 @@ appId: com.bitpezapro.app
 released: 2020-02-09
 updated: 2021-09-11
 version: "1.0.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 105
+reviews: 80
 size: 3.0M
 website: https://bekonta.com/
 repository: 

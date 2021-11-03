@@ -11,7 +11,7 @@ updated: 2021-10-26
 version: "6.5.5"
 stars: 4.5
 ratings: 1028
-reviews: 589
+reviews: 588
 size: 36M
 website: https://bitkeep.com
 repository: https://github.com/bitkeepcom

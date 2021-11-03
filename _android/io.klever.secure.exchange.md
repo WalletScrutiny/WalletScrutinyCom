@@ -10,7 +10,7 @@ released: 2021-06-30
 updated: 2021-10-01
 version: "1.0.5"
 stars: 4.0
-ratings: 423
+ratings: 425
 reviews: 260
 size: 13M
 website: https://klever.io/en/

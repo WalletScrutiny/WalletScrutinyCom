@@ -9,9 +9,9 @@ appId: com.dok.wallet
 released: 2020-09-28
 updated: 2021-10-21
 version: "1.1.6"
-stars: 4.1
-ratings: 31
-reviews: 25
+stars: 4.2
+ratings: 30
+reviews: 24
 size: 64M
 website: 
 repository: 

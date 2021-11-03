@@ -9,9 +9,9 @@ appId: com.favorpay.favwallet
 released: 2020-12-14
 updated: 2021-03-26
 version: "20210326"
-stars: 4.2
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 26M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.getcoins.gcwallet2
 released: 2019-03-21
 updated: 2020-05-13
 version: "3.6.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.8
+ratings: 15
+reviews: 11
 size: 18M
 website: 
 repository: 

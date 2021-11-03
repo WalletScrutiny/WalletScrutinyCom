@@ -9,9 +9,9 @@ appId: com.yazedo.coinport
 released: 2018-03-04
 updated: 2021-03-12
 version: "2.2.0"
-stars: 4.1
-ratings: 9
-reviews: 7
+stars: 4.2
+ratings: 10
+reviews: 8
 size: 14M
 website: 
 repository: 

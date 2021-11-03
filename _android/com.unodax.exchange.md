@@ -10,8 +10,8 @@ released: 2018-04-04
 updated: 2021-06-16
 version: "2.5.7"
 stars: 3.9
-ratings: 947
-reviews: 570
+ratings: 948
+reviews: 571
 size: 12M
 website: https://www.unodax.com
 repository: 

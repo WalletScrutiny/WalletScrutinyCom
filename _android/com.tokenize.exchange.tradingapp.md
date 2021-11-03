@@ -9,9 +9,9 @@ appId: com.tokenize.exchange.tradingapp
 released: 2019-12-03
 updated: 2021-10-29
 version: "1.18.0"
-stars: 3.1
-ratings: 74
-reviews: 45
+stars: 3.0
+ratings: 76
+reviews: 47
 size: 52M
 website: 
 repository: 

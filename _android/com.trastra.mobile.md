@@ -10,8 +10,8 @@ released: 2019-01-19
 updated: 2021-10-25
 version: "2.5.0"
 stars: 4.1
-ratings: 449
-reviews: 276
+ratings: 450
+reviews: 277
 size: 127M
 website: https://trastra.com/
 repository: 

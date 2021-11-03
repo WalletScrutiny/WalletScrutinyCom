@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "BitValve - P2P Crypto Exchange"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -10,24 +10,24 @@ released: 2019-10-29
 updated: 2021-10-01
 version: "0.21.0"
 stars: 4.4
-ratings: 194
-reviews: 141
+ratings: 201
+reviews: 146
 size: 18M
 website: https://www.bitvalve.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitvalve.android.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-03
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: bitvalve
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -10,8 +10,8 @@ idd: 1257495078
 released: 2017-07-15
 updated: 2021-04-11
 version: "1.9.0"
-stars: 4.55729
-reviews: 384
+stars: 4.55039
+reviews: 387
 size: 41109504
 website: https://bituro.com/app/views/contact.php
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
