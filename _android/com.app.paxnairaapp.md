@@ -9,9 +9,9 @@ appId: com.app.paxnairaapp
 released: 2019-07-29
 updated: 2019-07-29
 version: "1.0"
-stars: 3.7
-ratings: 22
-reviews: 18
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.5M
 website: 
 repository: 

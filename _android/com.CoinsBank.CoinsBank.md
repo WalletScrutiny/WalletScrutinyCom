@@ -10,8 +10,8 @@ released: 2016-04-03
 updated: 2020-12-30
 version: "3.5.4"
 stars: 3.6
-ratings: 259
-reviews: 135
+ratings: 260
+reviews: 136
 size: 18M
 website: https://coinsbank.com/
 repository: 

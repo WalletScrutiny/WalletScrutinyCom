@@ -9,9 +9,9 @@ appId: com.app.toropal
 released: 2019-02-18
 updated: 2021-10-12
 version: "1.6.8"
-stars: 4.8
-ratings: 10
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
 website: 
 repository: 

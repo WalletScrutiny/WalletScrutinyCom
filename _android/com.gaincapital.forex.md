@@ -10,8 +10,8 @@ released: 2021-01-11
 updated: 2021-10-18
 version: "1.78"
 stars: 3.6
-ratings: 286
-reviews: 151
+ratings: 293
+reviews: 155
 size: 73M
 website: https://www.forex.com/
 repository: 

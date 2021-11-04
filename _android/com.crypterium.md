@@ -9,9 +9,9 @@ appId: com.crypterium
 released: 2018-01-21
 updated: 2021-10-26
 version: "2.6.59.12"
-stars: 4.5
-ratings: 8303
-reviews: 4254
+stars: 4.3
+ratings: 8339
+reviews: 4277
 size: 59M
 website: https://crypterium.com
 repository: 

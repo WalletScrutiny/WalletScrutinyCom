@@ -4,14 +4,14 @@ title: "HaggleX: Buy/Sell BTC and ETH"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.hagglex.hagglex
 released: 2021-03-17
-updated: 2021-10-26
-version: "1.0.9"
-stars: 3.8
-ratings: 2214
-reviews: 2050
+updated: 2021-11-01
+version: "1.1.1"
+stars: 3.3
+ratings: 2673
+reviews: 2345
 size: 47M
 website: https://www.hagglex.com/
 repository: 

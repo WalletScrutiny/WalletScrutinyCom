@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: io.safepal.wallet
 released: 2019-05-26
-updated: 2021-10-18
-version: "2.9.0"
-stars: 4.4
-ratings: 8500
-reviews: 4583
+updated: 2021-10-25
+version: "2.9.1"
+stars: 4.6
+ratings: 9049
+reviews: 4779
 size: 32M
 website: https://www.safepal.io
 repository: 

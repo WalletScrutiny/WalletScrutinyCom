@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitrah.pos.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-10-29
 signer: 
 reviewArchive:
 

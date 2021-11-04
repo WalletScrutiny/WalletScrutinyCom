@@ -8,11 +8,11 @@ appId: com.pundix.fx.connect
 appCountry: us
 idd: 1504798360
 released: 2021-03-25
-updated: 2021-10-15
-version: "1.8.1"
-stars: 2.7
-reviews: 40
-size: 106370048
+updated: 2021-11-02
+version: "1.9.0"
+stars: 2.7561
+reviews: 41
+size: 106419200
 website: https://pundix.com
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 

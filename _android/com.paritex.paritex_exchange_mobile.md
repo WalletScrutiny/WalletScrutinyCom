@@ -9,9 +9,9 @@ appId: com.paritex.paritex_exchange_mobile
 released: 2021-03-21
 updated: 2021-10-21
 version: "2.1.1"
-stars: 4.4
-ratings: 224
-reviews: 86
+stars: 4.3
+ratings: 226
+reviews: 87
 size: 17M
 website: https://www.paritex.com/
 repository: 

@@ -9,9 +9,9 @@ appId: zebpay.Application
 released: 2014-12-23
 updated: 2021-10-15
 version: "3.15.04"
-stars: 3.8
-ratings: 88980
-reviews: 42978
+stars: 3.9
+ratings: 90027
+reviews: 43431
 size: 12M
 website: https://www.zebpay.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: "VNDC Wallet Pro"
+title: "ONUS: Invest BTC, ETH, DOGE"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.vndc.app
 appCountry: us
 idd: 1498452975
 released: 2020-03-09
-updated: 2021-09-08
-version: "1.8.4"
-stars: 4.696
-reviews: 375
-size: 164063232
-website: https://vndc.io
+updated: 2021-10-29
+version: "2.0.0"
+stars: 4.70725
+reviews: 386
+size: 180858880
+website: https://goonus.io/en
 repository: 
 issue: 
 icon: com.vndc.app.jpg

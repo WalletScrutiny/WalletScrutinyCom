@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
 released: 2015-06-24
-updated: 2021-10-18
-version: "4.2.4"
+updated: 2021-11-02
+version: "4.2.5"
 stars: 3.7
-ratings: 5154
-reviews: 2932
-size: 65M
+ratings: 5189
+reviews: 2953
+size: 66M
 website: http://www.satoshitango.com
 repository: 
 issue: 

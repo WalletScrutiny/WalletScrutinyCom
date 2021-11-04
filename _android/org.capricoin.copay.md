@@ -9,9 +9,9 @@ appId: org.capricoin.copay
 released: 2020-05-14
 updated: 2020-07-06
 version: "5.5.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 5
+reviews: 4
 size: 16M
 website: 
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.btccloudminer.easy.png
 bugbounty: 
-verdict: nowallet
-date: 2021-10-24
+verdict: defunct
+date: 2021-11-02
 signer: 
 reviewArchive:
 
@@ -34,7 +34,15 @@ redirect_from:
 ---
 
 
-**Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
+## Updated Review 2021-10-29
+
+**⚠️ Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these. 
+
+TrendMicro has a [Mobile threats analysis brief](https://www.trendmicro.com/en_us/research/21/h/fake-cryptocurrency-mining-apps-trick-victims-into-watching-ads-.html) detailing apps like these.
+
+Like in our last review we downloaded the app and it got stuck in the loading screen. We tried it on 2 platforms.
+
+## Old Review 2021-10-24
 
 ## App Description
 
@@ -66,4 +74,6 @@ We downloaded the app and tried to run it. However we are stuck in a screen that
 
 ## Verdict
 
-There are many apps to claim to provide cloud mining services. Most of them are dubious in nature. If you search in Google for cloud mining scam apps, you're more likely to run into one of these. We could not open this app but judging from the reviews, it is definitely a shady one. With no proof that you can send or receive bitcoins, this app does not have a wallet.
+There are many apps to claim to provide cloud mining services. Most of them are dubious in nature. If you search in Google for cloud mining scam apps, you're more likely to run into one of these. We could not open this app but judging from the reviews, it is definitely a shady one. 
+
+This app **no longer works**.

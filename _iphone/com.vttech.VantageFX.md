@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: vantageFX
 title: "Vantage FX - Forex Trading"
 altTitle: 
 authors:
-
+- danny
 appId: com.vttech.VantageFX
 appCountry: ph
 idd: 1457929724
@@ -18,18 +18,19 @@ repository:
 issue: 
 icon: com.vttech.VantageFX.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-19
+verdict: nosendreceive
+date: 2021-11-01
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: VantageFX
+providerLinkedIn: vantage-fx
+providerFacebook: VantageFXBroker
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

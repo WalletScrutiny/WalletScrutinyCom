@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitcoinblink.wallet.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: stale
+date: 2021-10-28
 signer: 
 reviewArchive:
 

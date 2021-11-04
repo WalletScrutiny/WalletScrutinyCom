@@ -1,25 +1,25 @@
 ---
-wsId: cryptotab
-title: "CryptoTab Farm"
+wsId: Coini
+title: "Coini"
 altTitle: 
 authors:
 - danny
-appId: com.cryptofarm
+appId: partl.coini
 appCountry: us
-idd: 1532369824
-released: 2021-08-12
-updated: 2021-09-28
-version: "1.0.80"
-stars: 4.38462
-reviews: 26
-size: 13230080
-website: https://cryptotab.farm/
+idd: 1563051934
+released: 2021-04-21
+updated: 2021-10-18
+version: "2.3.3"
+stars: 4.59999
+reviews: 10
+size: 61870080
+website: https://timopartl.com
 repository: 
 issue: 
-icon: com.cryptofarm.jpg
+icon: partl.coini.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-09-03
+date: 2021-10-29
 signer: 
 reviewArchive:
 

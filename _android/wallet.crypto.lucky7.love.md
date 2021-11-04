@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: wallet.crypto.lucky7.love.png
 bugbounty: 
-verdict: stale
-date: 2021-09-01
+verdict: obsolete
+date: 2021-10-28
 signer: 
 reviewArchive:
 

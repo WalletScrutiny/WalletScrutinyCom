@@ -4,7 +4,7 @@ title: "FlashEx: Trade Bitcoin Securely"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: me.flashex.app.a
 released: 2020-08-25
 updated: 2020-08-26

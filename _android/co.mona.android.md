@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: "Crypto.com - Buy Bitcoin Now"
+title: "Crypto.com - Buy BTC,ETH,SHIB"
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appId: co.mona.android
 released: 2017-08-30
 updated: 2021-10-22
 version: "3.117.0"
-stars: 4.0
-ratings: 180467
-reviews: 63562
+stars: 3.8
+ratings: 186232
+reviews: 66483
 size: 118M
 website: https://www.crypto.com
 repository: 

@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.xrex.mobile
 released: 2020-02-20
-updated: 2021-10-14
-version: "1.6.68"
+updated: 2021-11-02
+version: "1.6.92"
 stars: 4.2
 ratings: 40
 reviews: 18

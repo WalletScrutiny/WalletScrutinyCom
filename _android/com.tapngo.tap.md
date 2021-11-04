@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.tapngo.tap
 released: 2019-12-19
-updated: 2021-10-19
-version: "2.2.3"
+updated: 2021-10-28
+version: "2.2.4"
 stars: 4.6
-ratings: 1306
-reviews: 551
+ratings: 1328
+reviews: 558
 size: 115M
 website: 
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Krypto - Bitcoin, Crypto Trading Exchange India"
+title: "Krypto: Bitcoin Investment App"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appId: com.krypto
 released: 2020-04-29
 updated: 2021-09-30
 version: "8.5"
-stars: 4.5
-ratings: 3389
-reviews: 1161
-size: 6.9M
+stars: 4.2
+ratings: 3446
+reviews: 1205
+size: 7.0M
 website: https://letskrypto.com
 repository: 
 issue: 

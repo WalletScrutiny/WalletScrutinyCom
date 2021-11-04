@@ -1,6 +1,6 @@
 ---
 wsId: LiteBit
-title: "LiteBit - Buy & sell Bitcoin"
+title: "LiteBit – Buy Bitcoin & crypto"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: com.flutter.litebit
 released: 2019-12-12
 updated: 2021-09-23
 version: "3.1.7"
-stars: 3.3
-ratings: 808
-reviews: 596
+stars: 3.5
+ratings: 831
+reviews: 611
 size: 197M
 website: https://www.litebit.eu
 repository: 
