@@ -1,7 +1,7 @@
 ---
-wsId: 
+wsId: bhexExchange
 title: "BHEX"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -14,27 +14,24 @@ ratings: 57
 reviews: 21
 size: 36M
 website: https://bhex.co
-repository: 
-issue: 
+repository:
+issue:
 icon: com.bh.android.png
-bugbounty: 
+bugbounty:
 verdict: defunct
 date: 2021-10-04
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
 
 
-The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417). 
-
-
-
+The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417).

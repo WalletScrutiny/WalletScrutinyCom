@@ -1,5 +1,5 @@
 ---
-wsId:
+wsId: bhWallet
 title: "Bluehelix Wallet"
 altTitle:
 authors:
@@ -24,7 +24,7 @@ signer:
 reviewArchive:
 
 
-providerTwitter:
+providerTwitter: BHEXOfficial
 providerLinkedIn:
 providerFacebook:
 providerReddit:
