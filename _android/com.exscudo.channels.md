@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: "Channels. Secure wallet + Exchange + Private chat"
+title: "Fintap. Wallet, Exchange, Chat"
 altTitle: 
 authors:
 - kiwilamb

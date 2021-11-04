@@ -27,9 +27,10 @@ reviewArchive:
 providerTwitter: diviproject
 providerLinkedIn: 
 providerFacebook: diviproject
-providerReddit: DiviProject 
+providerReddit: DiviProject
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

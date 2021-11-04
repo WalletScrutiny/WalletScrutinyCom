@@ -1,7 +1,7 @@
 ---
 wsId: ZamWallet
 title: "ZamWallet: Buy Bitcoin & Crypto with Card"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -9,25 +9,25 @@ appId: zam.wallet
 released: 2018-09-17
 updated: 2021-11-02
 version: "2.2.12"
-stars: 3.7
-ratings: 134
-reviews: 105
+stars: 3.4
+ratings: 143
+reviews: 112
 size: 25M
 website: https://zam.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: zam.wallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-04
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: zam_io
 providerLinkedIn: 11770701
-providerFacebook:
-providerReddit:
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

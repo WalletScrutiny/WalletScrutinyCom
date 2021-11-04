@@ -9,7 +9,7 @@ appId: com.paytomat
 released: 2018-06-20
 updated: 2021-02-01
 version: "1.37.2"
-stars: 3.7
+stars: 3.6
 ratings: 784
 reviews: 414
 size: 6.4M

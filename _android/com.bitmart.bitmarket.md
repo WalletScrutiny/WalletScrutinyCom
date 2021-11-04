@@ -4,14 +4,14 @@ title: "BitMart - Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.bitmart.bitmarket
 released: 2018-05-09
-updated: 2021-10-28
+updated: 2021-11-03
 version: "2.7.1"
 stars: 3.9
-ratings: 27475
-reviews: 11120
+ratings: 27526
+reviews: 11147
 size: 41M
 website: https://www.bitmart.com
 repository: 

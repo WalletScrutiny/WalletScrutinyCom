@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: am.ecos.android
 released: 2020-09-22
-updated: 2021-10-18
-version: "1.15.0"
+updated: 2021-11-03
+version: "1.17.1"
 stars: 3.5
-ratings: 230
+ratings: 231
 reviews: 178
 size: 41M
 website: https://ecos.am/en/

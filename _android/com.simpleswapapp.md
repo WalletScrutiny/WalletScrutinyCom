@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.simpleswapapp
 released: 2020-05-23
-updated: 2021-09-23
-version: "3.1.8"
+updated: 2021-11-03
+version: "3.1.9"
 stars: 4.7
-ratings: 349
-reviews: 267
+ratings: 352
+reviews: 270
 size: 38M
 website: https://simpleswap.io/
 repository: 

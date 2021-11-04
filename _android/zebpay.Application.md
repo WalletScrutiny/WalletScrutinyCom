@@ -4,14 +4,14 @@ title: "ZebPay Bitcoin and Cryptocurrency Exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: zebpay.Application
 released: 2014-12-23
 updated: 2021-10-15
 version: "3.15.04"
 stars: 3.9
-ratings: 90027
-reviews: 43431
+ratings: 90169
+reviews: 43479
 size: 12M
 website: https://www.zebpay.com
 repository: 
