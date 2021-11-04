@@ -10,8 +10,8 @@ released: 2018-06-02
 updated: 2021-10-11
 version: "2.41"
 stars: 3.6
-ratings: 150
-reviews: 83
+ratings: 153
+reviews: 85
 size: 22M
 website: https://www.fatbtc.com/?_en
 repository: 

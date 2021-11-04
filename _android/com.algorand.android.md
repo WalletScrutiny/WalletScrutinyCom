@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.algorand.android
 released: 2019-06-07
-updated: 2021-10-14
-version: "4.10.6"
+updated: 2021-10-29
+version: "4.10.7"
 stars: 4.8
-ratings: 7913
-reviews: 1923
+ratings: 8198
+reviews: 1996
 size: 27M
 website: 
 repository: 

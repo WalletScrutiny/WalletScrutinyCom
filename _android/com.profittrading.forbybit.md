@@ -9,8 +9,8 @@ appId: com.profittrading.forbybit
 released: 2020-03-22
 updated: 2020-07-24
 version: "2.0.0"
-stars: 3.4
-ratings: 30
+stars: 3.5
+ratings: 31
 reviews: 13
 size: 19M
 website: https://profittradingapp.com/

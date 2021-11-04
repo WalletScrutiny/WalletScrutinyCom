@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.cryptowallet.cryptowalletmobile.prod
 released: 2021-03-19
-updated: 2021-10-23
-version: "1.11.1"
+updated: 2021-11-01
+version: "1.11.4"
 stars: 3.0
 ratings: 7
 reviews: 6

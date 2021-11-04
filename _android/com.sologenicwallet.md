@@ -4,14 +4,14 @@ title: "SOLO Wallet"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.sologenicwallet
 released: 2020-02-04
 updated: 2021-10-12
 version: "2.0.11"
-stars: 4.6
-ratings: 206
-reviews: 69
+stars: 4.4
+ratings: 300
+reviews: 81
 size: 48M
 website: 
 repository: 

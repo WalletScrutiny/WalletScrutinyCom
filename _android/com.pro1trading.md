@@ -4,11 +4,11 @@ title: "Pro1.trading"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.pro1trading
 released: 2020-11-24
-updated: 2021-10-23
-version: "1.0.25"
+updated: 2021-10-29
+version: "1.0.27"
 stars: 4.4
 ratings: 47
 reviews: 40

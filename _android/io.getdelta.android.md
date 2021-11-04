@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: getDelta
 title: "Delta Investment Portfolio Tracker"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2017-09-23
 updated: 2021-10-07
 version: "4.5.1"
 stars: 4.3
-ratings: 24522
-reviews: 8318
+ratings: 24678
+reviews: 8367
 size: 83M
 website: 
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.getdelta.android.png
 bugbounty: 
 verdict: nowallet
-date: 2020-12-01
+date: 2021-11-01
 signer: 
 reviewArchive:
 

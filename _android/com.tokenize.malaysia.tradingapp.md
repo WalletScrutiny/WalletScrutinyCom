@@ -4,6 +4,7 @@ title: "Tokenize Crypto Trading App - Malaysia (Beta)"
 altTitle: 
 authors:
 - danny
+- leo
 users: 10000
 appId: com.tokenize.malaysia.tradingapp
 released: 2020-11-26
@@ -18,11 +19,16 @@ repository:
 issue: 
 icon: com.tokenize.malaysia.tradingapp.png
 bugbounty: 
-verdict: custodial
-date: 2021-10-18
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
-
+- date: 2021-10-18
+  version: "1.15.2"
+  appHash: 
+  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
+  verdict: custodial
+  
 
 providerTwitter: TokenizeM
 providerLinkedIn: 
@@ -33,6 +39,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-19**: This app is no more.
 
 **Note:** There are three 'Tokenize' apps bearing the same logo and name in the Google Play store: Tokenize Malaysia, Tokenize Xclusive and Tokenize International. However, there is only one International version of the app, in the Apple store. The three listed have the same developer: [Tokenize Exchange](https://play.google.com/store/apps/developer?id=Tokenize+Xchange)
 

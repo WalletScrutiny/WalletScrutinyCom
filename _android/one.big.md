@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: one.big
 released: 2019-10-30
-updated: 2021-10-23
-version: "2.1.805"
-stars: 4.1
-ratings: 604
-reviews: 330
+updated: 2021-10-28
+version: "2.1.910"
+stars: 3.9
+ratings: 618
+reviews: 340
 size: 57M
 website: https://www.b1.zone/
 repository: 

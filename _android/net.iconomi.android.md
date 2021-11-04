@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: net.iconomi.android
 released: 2017-10-17
-updated: 2021-10-27
-version: "2.0.7"
-stars: 0.0
-ratings: 
-reviews: 
+updated: 2021-10-30
+version: "2.0.8"
+stars: 3.7
+ratings: 256
+reviews: 123
 size: 121M
 website: https://www.iconomi.com/
 repository: 

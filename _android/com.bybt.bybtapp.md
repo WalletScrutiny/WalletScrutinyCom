@@ -7,19 +7,19 @@ authors:
 users: 10000
 appId: com.bybt.bybtapp
 released: 2021-02-10
-updated: 2021-09-29
-version: "1.0.1.6"
+updated: 2021-10-29
+version: "1.0.1.7"
 stars: 4.4
-ratings: 107
-reviews: 47
-size: 5.5M
+ratings: 111
+reviews: 49
+size: 5.6M
 website: https://www.bybt.com/
 repository: 
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
 verdict: fake
-date: 2021-10-19
+date: 2021-11-02
 signer: 
 reviewArchive:
 

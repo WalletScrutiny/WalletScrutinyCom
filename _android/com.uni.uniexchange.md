@@ -3,7 +3,7 @@ wsId:
 title: "유니익스체인지, UNIEXCHANGE"
 altTitle: 
 authors:
-
+- leo
 users: 1000
 appId: com.uni.uniexchange
 released: 2018-06-06
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.uni.uniexchange.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-10-21**: This app is no more.

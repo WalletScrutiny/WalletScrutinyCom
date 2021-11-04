@@ -8,8 +8,8 @@ appId: com.tsrpay.transcrypt
 appCountry: ru
 idd: 1446719209
 released: 2019-01-16
-updated: 2021-10-26
-version: "2.06.7"
+updated: 2021-10-31
+version: "2.06.8"
 stars: 4.45455
 reviews: 22
 size: 88271872

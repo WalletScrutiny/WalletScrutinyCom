@@ -9,9 +9,9 @@ appId: com.paycaff.safepaytm
 released: 2019-05-29
 updated: 2019-07-10
 version: "3.0"
-stars: 4.4
-ratings: 140
-reviews: 85
+stars: 4.3
+ratings: 141
+reviews: 86
 size: 1.5M
 website: 
 repository: 

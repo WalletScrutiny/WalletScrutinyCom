@@ -11,7 +11,7 @@ updated: 2019-08-29
 version: "1.0.12"
 stars: 3.3
 ratings: 228
-reviews: 160
+reviews: 159
 size: 3.0M
 website: https://magnumwallet.co
 repository: 

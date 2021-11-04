@@ -4,6 +4,7 @@ title: "BTC Mining Cloud"
 altTitle: 
 authors:
 - danny
+- leo
 users: 10000
 appId: com.multiminingapp.btcminingcloud
 released: 2021-03-25
@@ -18,10 +19,15 @@ repository:
 issue: 
 icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
-verdict: nowallet
-date: 2021-09-23
+verdict: defunct
+date: 2021-10-30
 signer: 
 reviewArchive:
+- date: 2021-09-23
+  version: "2.1"
+  appHash: 
+  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
+  verdict: nowallet
 
 
 providerTwitter: 
@@ -33,6 +39,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-19**: This app is no more.
 
 This app advertises itself as a "cloud mining service" so it is likely not a standard BTC wallet. 
 

@@ -1,33 +1,33 @@
 ---
-wsId:
+wsId: 
 title: "OXBTC-Mine Bitcoin, Ethereum & more"
-altTitle:
+altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.oxbtc_Miner.iamswr.myapplication
 released: 2021-08-24
 updated: 2021-09-14
 version: "2.1.0"
-stars: 3.0
-ratings: 40
+stars: 3.1
+ratings: 45
 reviews: 23
 size: 3.2M
-website: https://www.oxbtc.com/
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty:
 verdict: custodial
 date: 2021-10-05
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter: oxbitcoin
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

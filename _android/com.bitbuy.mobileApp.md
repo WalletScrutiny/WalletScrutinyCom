@@ -9,9 +9,9 @@ appId: com.bitbuy.mobileApp
 released: 
 updated: 2021-09-07
 version: "3.58.0"
-stars: 2.7
-ratings: 1293
-reviews: 715
+stars: 2.8
+ratings: 1296
+reviews: 717
 size: 55M
 website: https://bitbuy.ca
 repository: 

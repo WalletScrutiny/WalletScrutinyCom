@@ -10,8 +10,8 @@ released: 2020-11-17
 updated: 2021-10-25
 version: "2.0.9"
 stars: 4.8
-ratings: 466
-reviews: 420
+ratings: 475
+reviews: 422
 size: 38M
 website: https://velas.com/
 repository: https://github.com/velas/mobile-wallet

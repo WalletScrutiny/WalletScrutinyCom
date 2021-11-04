@@ -9,8 +9,8 @@ appId: com.valr.mobile
 appCountry: 
 idd: 1453499428
 released: 2019-09-27
-updated: 2021-10-23
-version: "1.0.31"
+updated: 2021-10-28
+version: "1.0.32"
 stars: 4.5
 reviews: 8
 size: 55999488

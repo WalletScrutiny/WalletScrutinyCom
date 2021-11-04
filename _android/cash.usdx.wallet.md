@@ -11,7 +11,7 @@ updated: 2020-11-25
 version: "1.34.2"
 stars: 4.1
 ratings: 5475
-reviews: 4681
+reviews: 4682
 size: 37M
 website: https://usdx.cash
 repository: 

@@ -9,9 +9,9 @@ appId: com.application.koinbazar
 released: 2021-05-17
 updated: 2021-10-21
 version: "1.12"
-stars: 3.9
-ratings: 2491
-reviews: 1102
+stars: 3.3
+ratings: 2634
+reviews: 1189
 size: 12M
 website: https://www.koinbazar.com/
 repository: 

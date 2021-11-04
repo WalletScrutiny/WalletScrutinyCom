@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "PayPlux - Buy & Sell Bitcoin in Ghana."
+title: "PayPlux - Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.payplux
 released: 
-updated: 2021-08-29
-version: "1.1.74"
+updated: 2021-10-22
+version: "1.1.76"
 stars: 3.7
-ratings: 259
-reviews: 184
+ratings: 266
+reviews: 188
 size: 14M
 website: https://payplux.com/
 repository: 

@@ -10,8 +10,8 @@ released: 2021-06-27
 updated: 2021-10-13
 version: "1.2.8"
 stars: 4.5
-ratings: 529
-reviews: 116
+ratings: 534
+reviews: 117
 size: 24M
 website: https://www.okminer.io/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: io.okminer.app.png
 bugbounty: 
 verdict: defunct
-date: 2021-10-16
+date: 2021-11-02
 signer: 
 reviewArchive:
 

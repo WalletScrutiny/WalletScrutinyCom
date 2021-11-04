@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: "UmiFi - Buy & Sell Bitcoin, Crypto Trading"
+title: "UmiFi-Bitcoin, Crypto Trading"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.umifi.app
 released: 2021-08-18
 updated: 2021-10-14
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.umifi.app.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:

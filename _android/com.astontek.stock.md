@@ -10,8 +10,8 @@ released: 2020-03-16
 updated: 2021-10-21
 version: "6.07"
 stars: 4.5
-ratings: 2129
-reviews: 795
+ratings: 2171
+reviews: 816
 size: 37M
 website: http://www.astontek.com/
 repository: 
