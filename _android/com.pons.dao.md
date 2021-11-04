@@ -47,18 +47,15 @@ Its isitdownrightnow.com status is '[Access to daoconsensus.ru is declined](http
 
 ## App Description
 
-> Store, buy, exchange and cash out the most popular cryptocurrencies. The App supports Bitcoin, Ether, Bitcoin Cash and Litecoin.
-
-> MULTI-CURRENCY CRYPTO WALLET
-
-> BUY CRYPTO AT BEST RATES
-
-> SMART IN-APP EXCHANGE
+> Store, buy, exchange and cash out the most popular cryptocurrencies. The App supports Bitcoin, Ether, Bitcoin Cash and Litecoin.<br>
+  MULTI-CURRENCY CRYPTO WALLET<br>
+  BUY CRYPTO AT BEST RATES<br>
+  SMART IN-APP EXCHANGE
 
 We noticed in its Google Play description that it refers to the app by another name: "**Crypterium**"
 
-> SEND MONEY WORLDWIDE FOR FREE
-> 🛫🌍💫
+> SEND MONEY WORLDWIDE FOR FREE<br>
+> 🛫🌍💫<br>
 > Leave Western Union behind! Send money to anyone, anywhere, anytime with the Crypterium App. All you need is the recipient's phone number. You can also send funds to a bank account or MasterCard at a fraction of regular costs.
 
 ## The Site
