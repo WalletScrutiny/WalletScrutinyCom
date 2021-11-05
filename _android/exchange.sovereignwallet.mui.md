@@ -18,7 +18,7 @@ repository:
 issue:
 icon: exchange.sovereignwallet.mui.png
 bugbounty:
-verdict: wip
+verdict: defunct
 date: 2021-10-18
 signer:
 reviewArchive:
@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+
+**UPDATE:** Support from Telegram responded to our inquiry, saying that they currently **are no longer supporting services related to the SovereignWallet App.** This app is **defunct.**
 
 ## App Description
 
