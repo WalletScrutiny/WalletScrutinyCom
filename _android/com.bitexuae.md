@@ -9,9 +9,9 @@ appId: com.bitexuae
 released: 2020-02-23
 updated: 2021-10-31
 version: "2.9"
-stars: 3.1
-ratings: 121
-reviews: 103
+stars: 3.0
+ratings: 123
+reviews: 105
 size: 171M
 website: https://bitex.com
 repository: 

@@ -10,8 +10,8 @@ released: 2017-11-03
 updated: 2021-10-29
 version: "2.0.28"
 stars: 2.7
-ratings: 290
-reviews: 223
+ratings: 291
+reviews: 224
 size: 6.0M
 website: https://stratum.hk/
 repository: 

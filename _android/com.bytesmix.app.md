@@ -10,7 +10,7 @@ released: 2019-08-11
 updated: 2021-10-31
 version: "2.4.2"
 stars: 3.7
-ratings: 389
+ratings: 390
 reviews: 280
 size: 27M
 website: https://www.bytesmix.com/

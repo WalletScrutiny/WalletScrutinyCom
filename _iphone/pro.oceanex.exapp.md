@@ -10,8 +10,8 @@ idd: 1481311936
 released: 2019-10-05
 updated: 2021-10-22
 version: "1.4.10"
-stars: 4.64286
-reviews: 28
+stars: 4.65517
+reviews: 29
 size: 48142336
 website: https://oceanex.pro/
 repository: 

@@ -8,11 +8,11 @@ appId: io.jp-ex.iosapp2
 appCountry: jp
 idd: 1559708728
 released: 2021-04-22
-updated: 2021-10-07
-version: "2.22.336"
+updated: 2021-11-05
+version: "2.23.368"
 stars: 
 reviews: 
-size: 47807488
+size: 48020480
 website: https://jp-ex.io/
 repository: 
 issue: 

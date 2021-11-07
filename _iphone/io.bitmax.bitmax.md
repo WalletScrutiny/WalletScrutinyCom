@@ -11,8 +11,8 @@ idd: 1463917147
 released: 2019-06-13
 updated: 2021-11-02
 version: "2.6.5"
-stars: 4.96931
-reviews: 2411
+stars: 4.96922
+reviews: 2404
 size: 145957888
 website: 
 repository: 

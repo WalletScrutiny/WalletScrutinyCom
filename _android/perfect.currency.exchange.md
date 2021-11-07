@@ -9,8 +9,8 @@ appId: perfect.currency.exchange
 released: 2019-07-22
 updated: 2019-09-07
 version: "v8.0"
-stars: 4.2
-ratings: 11
+stars: 4.0
+ratings: 12
 reviews: 4
 size: 6.7M
 website: 

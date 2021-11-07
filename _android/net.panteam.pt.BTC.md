@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: net.panteam.pt.BTC
 released: 
-updated: 2021-10-11
+updated: 2021-11-05
 version: "Varies with device"
 stars: 
 ratings: 

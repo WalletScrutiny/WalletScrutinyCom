@@ -10,8 +10,8 @@ released: 2019-12-03
 updated: 2021-10-29
 version: "1.18.0"
 stars: 3.0
-ratings: 76
-reviews: 47
+ratings: 79
+reviews: 48
 size: 52M
 website: https://tokenize.exchange/
 repository: 

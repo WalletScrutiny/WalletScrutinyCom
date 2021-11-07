@@ -9,9 +9,9 @@ appId: zibi.breakbitcoin
 released: 2021-03-17
 updated: 2021-03-17
 version: "2.00"
-stars: 3.8
-ratings: 16
-reviews: 14
+stars: 3.9
+ratings: 17
+reviews: 15
 size: 299M
 website: 
 repository: 
