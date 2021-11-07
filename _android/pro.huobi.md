@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: "Huobi Global-Bitcoin&SHIB Crypto"
+title: "Huobi Global: Buy BTC, NFTs& Meta"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: pro.huobi
 released: 2017-11-01
 updated: 2021-10-27
 version: "6.5.6"
-stars: 4.5
-ratings: 16324
-reviews: 5167
+stars: 4.4
+ratings: 16486
+reviews: 5256
 size: 98M
 website: https://www.huobi.com/en-us
 repository: 

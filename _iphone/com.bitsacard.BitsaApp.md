@@ -10,8 +10,8 @@ idd: 1458095544
 released: 2019-04-12
 updated: 2021-10-19
 version: "2.6.4"
-stars: 4
-reviews: 6
+stars: 3.57143
+reviews: 7
 size: 87753728
 website: https://www.bitsacard.com/en/
 repository: 

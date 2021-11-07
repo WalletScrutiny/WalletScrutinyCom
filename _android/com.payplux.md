@@ -10,8 +10,8 @@ released:
 updated: 2021-10-22
 version: "1.1.76"
 stars: 3.7
-ratings: 266
-reviews: 188
+ratings: 270
+reviews: 191
 size: 14M
 website: https://payplux.com/
 repository: 

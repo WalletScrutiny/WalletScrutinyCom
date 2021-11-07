@@ -10,7 +10,7 @@ released: 2020-07-03
 updated: 2021-04-13
 version: "1.0.13"
 stars: 4.2
-ratings: 129
+ratings: 130
 reviews: 64
 size: 11M
 website: https://pro.changelly.com/

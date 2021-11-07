@@ -11,7 +11,7 @@ released: 2017-08-28
 updated: 2021-10-01
 version: "2.2"
 stars: 5
-reviews: 21
+reviews: 20
 size: 44812288
 website: https://bolsa.app
 repository: 

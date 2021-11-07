@@ -9,9 +9,9 @@ appId: com.hqdevteam.bitcoinbxthailandpro
 released: 2017-06-30
 updated: 2017-10-22
 version: "5.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 1.6
+ratings: 23
+reviews: 13
 size: 21M
 website: 
 repository: 

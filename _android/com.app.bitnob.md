@@ -10,7 +10,7 @@ released: 2020-05-25
 updated: 2021-11-01
 version: "1.0.69"
 stars: 4.1
-ratings: 229
+ratings: 231
 reviews: 138
 size: 33M
 website: https://bitnob.com/
