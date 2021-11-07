@@ -19,7 +19,7 @@ issue:
 icon: com.freeda.freedaapp.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-11-08
 signer: 
 reviewArchive:
 

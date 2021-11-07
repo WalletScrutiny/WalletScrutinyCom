@@ -19,7 +19,7 @@ issue:
 icon: com.pons.dao.jpg
 bugbounty: 
 verdict: wip
-date: 2021-08-21
+date: 2021-11-08
 signer: 
 reviewArchive:
 

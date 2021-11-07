@@ -19,7 +19,7 @@ issue:
 icon: com.freeda.freedawallet.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-27
+date: 2021-11-08
 signer: 
 reviewArchive:
 

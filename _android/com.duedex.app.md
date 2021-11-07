@@ -19,7 +19,7 @@ issue:
 icon: com.duedex.app.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-08
+date: 2021-11-08
 signer: 
 reviewArchive:
 

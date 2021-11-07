@@ -19,7 +19,7 @@ issue:
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 verdict: fewusers
-date: 2021-11-04
+date: 2021-11-08
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.app.atechcoins.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-05
+date: 2021-11-08
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.bh.android.png
 bugbounty:
 verdict: defunct
-date: 2021-10-04
+date: 2021-11-08
 signer:
 reviewArchive:
 

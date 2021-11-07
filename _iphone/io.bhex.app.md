@@ -19,7 +19,7 @@ issue:
 icon: io.bhex.app.jpg
 bugbounty:
 verdict: defunct
-date: 2021-11-03
+date: 2021-11-08
 signer:
 reviewArchive:
 

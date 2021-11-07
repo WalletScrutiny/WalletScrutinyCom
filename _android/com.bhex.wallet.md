@@ -19,7 +19,7 @@ issue:
 icon: com.bhex.wallet.png
 bugbounty:
 verdict: fewusers
-date: 2021-08-02
+date: 2021-11-08
 signer:
 reviewArchive:
 

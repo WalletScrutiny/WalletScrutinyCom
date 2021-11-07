@@ -19,7 +19,7 @@ issue:
 icon: com.antareswallet.app.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-10-27
+date: 2021-11-08
 signer: 
 reviewArchive:
 
