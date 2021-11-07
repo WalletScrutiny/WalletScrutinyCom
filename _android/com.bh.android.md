@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: bhexExchange
 title: "BHEX"
-altTitle: 
+altTitle:
 authors:
-
+- danny
 users: 5000
 appId: com.bh.android
 released: 2021-04-24
@@ -13,24 +13,25 @@ stars: 3.9
 ratings: 58
 reviews: 21
 size: 36M
-website: 
-repository: 
-issue: 
+website: https://bhex.co
+repository:
+issue:
 icon: com.bh.android.png
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: defunct
 date: 2021-10-04
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
 
 
+The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417).
