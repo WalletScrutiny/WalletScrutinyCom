@@ -42,10 +42,12 @@ redirect_from:
 >
 > Safe and secure - Security is not an issue with us. We are proud of our zero breach record. We are protected by BitGo and we comply with KYC/AML regulations.
 
-## Third Party Media Mentions
+## Notes
+
+From an article on HaruBank's official Medium blog:
 
 > **[HaruBank collaborates with BitGo to ensure the security of crypto asset](https://medium.com/haruinvest/harubank-collaborates-with-bitgo-to-ensure-the-security-of-crypto-asset-d5c22374a78)**
-
+>
 > HaruBank team is delighted to announce our collaboration with BitGo. As one of the most trusted crypto custodian, BitGo will be providing HaruBank with business wallet service.
 Here are some of the highlights of the collaboration:
 >
