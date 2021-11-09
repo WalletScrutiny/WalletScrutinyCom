@@ -9,9 +9,9 @@ appId: com.trade360
 released: 2015-06-18
 updated: 2021-07-09
 version: "6.10"
-stars: 2.8
-ratings: 1368
-reviews: 780
+stars: 2.9
+ratings: 1371
+reviews: 783
 size: 10M
 website: https://www.trade360.com/
 repository: 

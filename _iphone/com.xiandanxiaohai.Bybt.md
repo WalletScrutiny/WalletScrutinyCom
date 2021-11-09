@@ -1,6 +1,6 @@
 ---
 wsId: Bybt
-title: "Coinglass App"
+title: "coinglass"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2021-11-03
-version: "1.2.7"
+updated: 2021-11-05
+version: "1.2.9"
 stars: 5
-reviews: 15
-size: 26408960
+reviews: 18
+size: 26445824
 website: https://www.coinglass.com
 repository: 
 issue: 

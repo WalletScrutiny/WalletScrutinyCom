@@ -11,7 +11,7 @@ updated: 2021-10-19
 version: "4.4.1"
 stars: 3.3
 ratings: 1290
-reviews: 814
+reviews: 813
 size: 27M
 website: https://www.dcoin.com/
 repository: 

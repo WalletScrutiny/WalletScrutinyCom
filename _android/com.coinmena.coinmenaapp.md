@@ -9,9 +9,9 @@ appId: com.coinmena.coinmenaapp
 released: 2021-08-07
 updated: 2021-11-02
 version: "1.1.9"
-stars: 4.9
-ratings: 130
-reviews: 113
+stars: 4.8
+ratings: 138
+reviews: 121
 size: 48M
 website: 
 repository: 

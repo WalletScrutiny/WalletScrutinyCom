@@ -10,8 +10,8 @@ idd: 1179978268
 released: 2017-06-26
 updated: 2021-10-27
 version: "2.10.1"
-stars: 4.44954
-reviews: 327
+stars: 4.45289
+reviews: 329
 size: 65557504
 website: https://www.muchbetter.com
 repository: 

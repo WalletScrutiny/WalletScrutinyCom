@@ -10,6 +10,7 @@ TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
 wsContainer="walletscrutiny/android:5"
 takeUserActionCommand='echo "CTRL-D to continue";
   bash'
+shouldCleanup=false
 
 # Read script arguments and flags
 # ===============================
@@ -21,6 +22,7 @@ while [[ "$#" -gt 0 ]]; do
     # override as second parameter.
     -r|--revision-override) revisionOverride="$2"; shift ;;
     -n|--not-interactive) takeUserActionCommand='' ;;
+    -c|--cleanup) shouldCleanup=true ;;
     *) echo "Unknown argument: $1"; exit 1 ;;
   esac
   shift
@@ -150,6 +152,17 @@ result() {
     verdict="reproducible"
   fi
 
+  diffGuide="
+Run a full
+diff --recursive $fromPlayUnzipped $fromBuildUnzipped
+meld $fromPlayUnzipped $fromBuildUnzipped
+or
+diffoscope \"$downloadedApk\" $builtApk
+for more details."
+  if [ "$shouldCleanup" = true ]; then
+    diffGuide=''
+  fi
+
   echo "Results:
 appId:          $appId
 signer:         $signer
@@ -164,13 +177,11 @@ $diffResult
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
+$diffGuide"
+}
 
-Run a full
-diff --recursive $fromPlayUnzipped $fromBuildUnzipped
-meld $fromPlayUnzipped $fromBuildUnzipped
-or
-diffoscope \"$downloadedApk\" $builtApk
-for more details."
+cleanup() {
+  rm -rf $fromPlayFolder $workDir $fromBuildUnzipped $fromPlayUnzipped
 }
 
 testScript="$TEST_ANDROID_DIR/$appId.sh"
@@ -181,3 +192,7 @@ if [ ! -f "$testScript" ]; then
 fi
 source $testScript
 test
+
+if [ "$shouldCleanup" = true ]; then
+  cleanup
+fi

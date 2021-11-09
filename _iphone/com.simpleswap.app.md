@@ -1,6 +1,6 @@
 ---
 wsId: simpleswap
-title: "SimpleSwap: Crypto Exchange"
+title: "Crypto Exchange - Buy & Sell"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.simpleswap.app
 appCountry: gb
 idd: 1506038278
 released: 2020-05-15
-updated: 2021-09-23
-version: "3.1.8"
+updated: 2021-11-03
+version: "3.1.9"
 stars: 4
 reviews: 7
-size: 48856064
+size: 45437952
 website: https://simpleswap.io/mobile-app
 repository: 
 issue: 

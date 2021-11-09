@@ -1,17 +1,17 @@
 ---
 wsId: BinanceTR
-title: "Binance TR | Bitcoin | SHIB | MANA Al & Sat"
+title: "Binance TR: BTC & SHIB & DOGE"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.cloud.tr
 released: 2021-07-16
-updated: 2021-10-18
+updated: 2021-11-03
 version: "1.5.2"
 stars: 4.4
-ratings: 35640
-reviews: 9145
+ratings: 35785
+reviews: 9239
 size: Varies with device
 website: https://www.trbinance.com/en/
 repository: 

@@ -10,7 +10,7 @@ released: 2021-03-25
 updated: 2021-10-29
 version: "1.9.0(001)"
 stars: 4.0
-ratings: 266
+ratings: 267
 reviews: 140
 size: 34M
 website: https://functionx.io/

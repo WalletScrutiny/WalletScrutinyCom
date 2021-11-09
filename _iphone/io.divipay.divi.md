@@ -10,8 +10,8 @@ idd: 1516551223
 released: 2021-10-08
 updated: 2021-10-23
 version: "1.12"
-stars: 4.57143
-reviews: 7
+stars: 4.75
+reviews: 8
 size: 34355200
 website: http://wallet.diviproject.org
 repository: https://github.com/DiviProject

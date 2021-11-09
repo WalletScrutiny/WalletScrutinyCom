@@ -4,7 +4,7 @@ title: "Ledn"
 altTitle:
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.ledn.app
 released: 2021-01-04
 updated: 2021-01-28
