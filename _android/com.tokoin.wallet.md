@@ -44,4 +44,4 @@ Downloaded the app and was asked for email, password, phone, sms verification. T
 
 ## Verdict
 
-Evidently, this is a **self-custodial** app. However, a search for its Google Play appID 'com.tokoin.wallet' on github, [did not lead to any repository containing code for the app](https://github.com/search?q=com.tokoin.wallet&type=repositories). Thus, this app **cannot be verified**.
+Evidently, this is a **self-custodial** app. However we could not find a link to the source code on their website and a search for its Google Play appID 'com.tokoin.wallet' on GitHub, [did not lead to any repository containing code for the app](https://github.com/search?q=com.tokoin.wallet&type=code). Thus, this app **cannot be verified**.

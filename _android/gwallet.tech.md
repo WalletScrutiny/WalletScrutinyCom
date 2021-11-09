@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-The app is an self-custodial, XLM-centric wallet with BTC support.
+The app is a self-custodial, XLM-centric wallet with BTC support.
 
 ## The Site
 

@@ -48,4 +48,4 @@ The app is a multi-currency wallet with the ability to provide a 12-word seed ba
 
 ## Verdict
 
-Searching the appID _'eu.crystalwallet.app'_ on Github [yielded 0 results in the repositories](https://github.com/search?q=eu.crystalwallet.app&type=repositories). This means that even though the app may be **self-custodial**, having the **source code unavailable** for review makes the app **not verifiable**.
+We couldn't find a link to their source code and neither did searching the appID _'eu.crystalwallet.app'_ on Github [yield any wallet repositories](https://github.com/search?q=eu.crystalwallet.app&type=code). This means that even though the app may be **self-custodial**, having the **source code unavailable** for review makes the app **not verifiable**.

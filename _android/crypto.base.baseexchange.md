@@ -43,4 +43,4 @@ This is a cryptocurrency exchange.
 
 ## Verdict
 
-Although the service doesn't seem to have a Terms and Conditions page, AML/KYC and other regulatory documentation, most cryptocurrency exchanges are **custodial** and their apps **cannot be verified**.
+Although the service doesn't seem to have a Terms and Conditions page, AML/KYC and other regulatory documentation, cryptocurrency exchanges that don't claim otherwise, usually are **custodial** and their apps **cannot be verified**.

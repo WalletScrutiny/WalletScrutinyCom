@@ -52,4 +52,4 @@ Deposit and withdrawal of BTC is possible. However, withdrawals need a ["withdra
 
 ## Verdict
 
-This service is **custodial** and the app is **cannot be verified.**
+This service is **custodial** and the app **cannot be verified.**
