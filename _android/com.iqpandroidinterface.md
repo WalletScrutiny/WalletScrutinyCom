@@ -4,6 +4,7 @@ title: "IQ Wallet - Crypto Wallet"
 altTitle:
 authors:
 - danny
+- leo
 users: 1000
 appId: com.iqpandroidinterface
 released: 2021-10-01
@@ -34,7 +35,7 @@ redirect_from:
 ---
 
 
-## UPDATE
+## ⚠️ Update and Warning: 2021-11-09
 
 
 In an attempt to look into the code, we found that it was pretty much **obfuscated**. As a ReactNative app it uses minification which results in extractable code like this from index.android.bundle:
@@ -49,7 +50,7 @@ __d(function(g,r,i,a,m,e,d){'use strict';m.exports={get AccessibilityInfo(){retu
 __d(function(g,r,i,a,m,e,d){'use strict';var n=r(d[0])(r(d[1])),t=r(d[0])(r(d[2])),s=r(d[0])(r(d[3])),o=new Map,c={isBoldTextEnabled:function(){return Promise.resolve(!1)},isGrayscaleEnabled:function(){return Promise.resolve(!1)},isInvertColorsEnabled:function(){return Promise.resolve(!1)},isReduceMotionEnabled:function(){return new Promise(function(n,t){s.default?s.default.isReduceMotionEnabled(n):t(!1)})},isReduceTransparencyEnabled:function(){return Promise.resolve(!1)},isScreenReaderEnabled:function(){return new Promise(function(n,t){s.default?s.default.isTouchExplorationEnabled(n):t(!1)})},get fetch(){return console.warn('AccessibilityInfo.fetch is deprecated, call AccessibilityInfo.isScreenReaderEnabled instead'),this.isScreenReaderEnabled},addEventListener:function(t,s){var c;'change'===t||'screenReaderChanged'===t?c=n.default.addListener("touchExplorationDidChange",s):'reduceMotionChanged'===t&&(c=n.default.addListener("reduceMotionDidChange",s)),o.set(s,c)},removeEventListener:function(n,t){var s=o.get(t);s&&(s.remove(),o.delete(t))},setAccessibilityFocus:function(n){t.default.sendAccessibilityEvent(n,t.default.getConstants().AccessibilityEventTypes.typeViewFocused)},announceForAccessibility:function(n){s.default&&s.default.announceForAccessibility(n)}};m.exports=c},2,[3,4,21,45]);
 ...
 ```
-**Additional Warning:** We recommend exercising caution around a new app with suspicious 5* reviews.
+**Additional Warning:** We recommend exercising caution around a new app with suspicious and possibly bought 5* reviews.
 
 ## App Description
 
