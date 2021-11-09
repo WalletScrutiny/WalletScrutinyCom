@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: it.airgap.vault
 released: 2018-08-06
-updated: 2021-10-08
-version: "3.11.0"
+updated: 2021-11-03
+version: "3.11.2"
 stars: 4.0
-ratings: 90
-reviews: 38
+ratings: 94
+reviews: 40
 size: 68M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault

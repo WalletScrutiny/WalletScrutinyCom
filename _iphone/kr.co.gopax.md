@@ -10,8 +10,8 @@ idd: 1369896843
 released: 2018-06-21
 updated: 2021-10-27
 version: "1.7.0"
-stars: 2.8747
-reviews: 423
+stars: 2.86588
+reviews: 425
 size: 49440768
 website: https://www.gopax.co.kr/notice
 repository: 

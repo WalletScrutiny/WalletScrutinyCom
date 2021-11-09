@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: "Betconix: Cryptocurrency Exchange & Crypto Wallet"
+title: "Betconix: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 
 users: 1000
 appId: com.betconix
 released: 2021-07-01
-updated: 2021-10-29
-version: "5.4"
-stars: 4.0
+updated: 2021-11-03
+version: "5.5"
+stars: 3.8
 ratings: 42
 reviews: 37
 size: 12M

@@ -10,7 +10,7 @@ released: 2018-07-03
 updated: 2021-04-16
 version: "1.9.50"
 stars: 4.0
-ratings: 510
+ratings: 511
 reviews: 348
 size: 38M
 website: https://www.counos.io

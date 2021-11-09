@@ -9,9 +9,9 @@ appId: com.bitforex.pro
 released: 2020-07-19
 updated: 2020-07-20
 version: "2.0.0"
-stars: 3.0
-ratings: 444
-reviews: 321
+stars: 2.8
+ratings: 454
+reviews: 331
 size: 29M
 website: 
 repository: 

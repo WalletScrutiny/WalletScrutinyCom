@@ -4,7 +4,7 @@ title: "Bitcoin PoS"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: gr.cryptocurrencies.bitcoinpos
 released: 2016-11-01
 updated: 2018-11-02

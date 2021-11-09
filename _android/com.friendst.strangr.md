@@ -1,5 +1,5 @@
 ---
-wsId:
+wsId: 
 title: "Bitcoin Wallet — Crypto Wallet"
 altTitle: "Bitcoin Wallet by CryptWallet - Finance Services"
 authors:
@@ -13,21 +13,21 @@ stars: 3.7
 ratings: 111
 reviews: 56
 size: 9.2M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.friendst.strangr.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-10-19
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

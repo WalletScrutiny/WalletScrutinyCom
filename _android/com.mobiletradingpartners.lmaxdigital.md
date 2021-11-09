@@ -10,7 +10,7 @@ released: 2018-05-18
 updated: 2021-09-14
 version: "4.2.13"
 stars: 4.3
-ratings: 24
+ratings: 25
 reviews: 3
 size: 13M
 website: https://www.lmax.com/

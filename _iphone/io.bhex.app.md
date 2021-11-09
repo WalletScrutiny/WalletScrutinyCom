@@ -1,7 +1,7 @@
 ---
-wsId: hbtc
+wsId: bhexExchange
 title: "BHEX"
-altTitle: 
+altTitle:
 authors:
 - danny
 appId: io.bhex.app
@@ -14,23 +14,22 @@ stars: 3.17143
 reviews: 35
 size: 93606912
 website: https://www.hbtc.com/
-repository: https://github.com/bhexopen
-issue: 
+repository:
+issue:
 icon: io.bhex.app.jpg
-bugbounty: 
-verdict: custodial
-date: 2021-10-26
-signer: 
+bugbounty:
+verdict: defunct
+date: 2021-11-08
+signer:
 reviewArchive:
 
 
-providerTwitter: BHEXOfficial
-providerLinkedIn: 
-providerFacebook: BHEXOfficial
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
-
 {% include copyFromAndroid.html %}

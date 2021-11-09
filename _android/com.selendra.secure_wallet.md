@@ -10,8 +10,8 @@ released: 2021-02-22
 updated: 2021-08-06
 version: "2.0.15"
 stars: 4.3
-ratings: 89
-reviews: 62
+ratings: 90
+reviews: 63
 size: 13M
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet

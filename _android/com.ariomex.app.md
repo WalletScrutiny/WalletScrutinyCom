@@ -9,9 +9,9 @@ appId: com.ariomex.app
 released: 2020-09-10
 updated: 2020-09-10
 version: "2.0.0"
-stars: 4.6
-ratings: 92
-reviews: 59
+stars: 4.5
+ratings: 97
+reviews: 62
 size: 1.0M
 website: 
 repository: 

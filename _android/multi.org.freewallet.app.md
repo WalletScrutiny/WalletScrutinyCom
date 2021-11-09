@@ -1,5 +1,5 @@
 ---
-wsId: multi.org.freewallet.app
+wsId: mwfreewallet
 title: "Freewallet MultiWallet Classic"
 altTitle: 
 authors:
@@ -10,8 +10,8 @@ released: 2017-08-10
 updated: 2018-10-29
 version: "1.0.69"
 stars: 3.8
-ratings: 2011
-reviews: 1028
+ratings: 2012
+reviews: 1029
 size: 10M
 website: https://freewallet.org/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: multi.org.freewallet.app.png
 bugbounty: 
 verdict: obsolete
-date: 2021-08-17
+date: 2021-11-03
 signer: 
 reviewArchive:
 - date: 2021-04-30

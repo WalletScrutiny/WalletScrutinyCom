@@ -9,8 +9,8 @@ appId: cryptopia.mobile
 released: 2019-09-05
 updated: 2019-09-08
 version: "1.0.2"
-stars: 1.7
-ratings: 26
+stars: 1.8
+ratings: 27
 reviews: 15
 size: 4.0M
 website: 

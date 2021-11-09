@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.exnovin
 released: 2018-07-06
-updated: 2021-10-20
+updated: 2021-11-05
 version: "1.0"
 stars: 4.3
-ratings: 2100
-reviews: 834
+ratings: 2117
+reviews: 839
 size: 40M
 website: https://exnovin.net/
 repository: 

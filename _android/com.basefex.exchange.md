@@ -9,9 +9,9 @@ appId: com.basefex.exchange
 released: 2019-07-16
 updated: 2020-08-13
 version: "2.5.67"
-stars: 3.9
-ratings: 8
-reviews: 4
+stars: 3.6
+ratings: 9
+reviews: 5
 size: 13M
 website: 
 repository: 

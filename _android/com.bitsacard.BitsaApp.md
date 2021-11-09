@@ -1,7 +1,7 @@
 ---
 wsId: bitsa
 title: "Bitsa"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -14,20 +14,20 @@ ratings: 749
 reviews: 511
 size: 79M
 website: https://www.bitsacard.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitsacard.BitsaApp.png
-bugbounty:
+bugbounty: 
 verdict: nosendreceive
 date: 2021-11-02
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: bitsa_oficial
 providerLinkedIn: bitsacard
 providerFacebook: BitsaCard
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

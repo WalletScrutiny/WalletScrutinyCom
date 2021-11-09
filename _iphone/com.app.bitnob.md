@@ -8,11 +8,11 @@ appId: com.app.bitnob
 appCountry: us
 idd: 1513951003
 released: 2020-05-29
-updated: 2021-10-27
-version: "1.96"
-stars: 4.08333
-reviews: 12
-size: 126753792
+updated: 2021-11-01
+version: "1.97"
+stars: 4.15385
+reviews: 13
+size: 126729216
 website: https://bitnob.com
 repository: 
 issue: 

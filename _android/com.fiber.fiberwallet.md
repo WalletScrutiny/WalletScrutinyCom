@@ -4,7 +4,7 @@ title: "Shiftr: Crypto & Bitcoin Wallet - Earn Interests"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.fiber.fiberwallet
 released: 2021-04-20
 updated: 2021-04-27

@@ -4,14 +4,14 @@ title: "PrimeXBT Trade"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.primexbt.exchange
 released: 2019-05-08
 updated: 2020-07-16
 version: "144.5.0-release"
 stars: 2.2
-ratings: 623
-reviews: 469
+ratings: 625
+reviews: 470
 size: 9.5M
 website: 
 repository: 

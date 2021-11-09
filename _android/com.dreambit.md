@@ -9,8 +9,8 @@ appId: com.dreambit
 released: 2021-02-16
 updated: 2021-09-10
 version: "1.0.0.50"
-stars: 3.6
-ratings: 16
+stars: 3.4
+ratings: 17
 reviews: 6
 size: 59M
 website: 

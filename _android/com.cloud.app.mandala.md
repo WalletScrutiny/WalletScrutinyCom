@@ -4,14 +4,14 @@ title: "Mandala Exchange"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.cloud.app.mandala
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.2
-ratings: 65
-reviews: 44
+stars: 4.1
+ratings: 67
+reviews: 45
 size: 23M
 website: 
 repository: 

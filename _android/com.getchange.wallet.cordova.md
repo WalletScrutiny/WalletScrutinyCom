@@ -1,6 +1,6 @@
 ---
 wsId: getchange
-title: "Change: Beginner-Friendly Trading & Investment App"
+title: "Change: Simple Investment App"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ released: 2018-06-07
 updated: 2021-10-08
 version: "10.31.0"
 stars: 4.3
-ratings: 2503
-reviews: 1112
+ratings: 2528
+reviews: 1121
 size: 32M
 website: https://getchange.com
 repository: 

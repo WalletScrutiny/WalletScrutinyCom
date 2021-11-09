@@ -4,7 +4,7 @@ title: "Jaxx Liberty Bitcoin & Ethereum"
 altTitle: "(Fake) Jaxx Liberty Bitcoin & Ethereum"
 authors:
 - leo
-users: 50
+users: 100
 appId: ja.xx.exch.ange
 released: 2021-09-01
 updated: 2021-09-01

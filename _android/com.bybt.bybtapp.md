@@ -9,8 +9,8 @@ appId: com.bybt.bybtapp
 released: 2021-02-10
 updated: 2021-10-29
 version: "1.0.1.7"
-stars: 4.5
-ratings: 110
+stars: 4.4
+ratings: 111
 reviews: 49
 size: 5.6M
 website: https://www.bybt.com/

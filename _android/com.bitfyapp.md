@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.bitfyapp
 released: 2019-10-14
-updated: 2021-10-29
-version: "3.10.19"
-stars: 4.3
-ratings: 1045
-reviews: 675
+updated: 2021-11-03
+version: "3.10.20"
+stars: 4.2
+ratings: 1062
+reviews: 683
 size: 32M
 website: https://bitfy.app
 repository: 

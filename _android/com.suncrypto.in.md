@@ -9,9 +9,9 @@ appId: com.suncrypto.in
 released: 2021-06-28
 updated: 2021-10-08
 version: "1.5"
-stars: 4.2
-ratings: 1951
-reviews: 1201
+stars: 3.9
+ratings: 2086
+reviews: 1300
 size: 12M
 website: https://suncrypto.in/
 repository: 

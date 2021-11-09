@@ -10,8 +10,8 @@ released:
 updated: 2021-11-01
 version: "3.3.1"
 stars: 4.0
-ratings: 272407
-reviews: 98037
+ratings: 282920
+reviews: 100383
 size: Varies with device
 website: https://coinswitch.co/
 repository: 

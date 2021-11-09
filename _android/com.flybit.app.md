@@ -1,14 +1,14 @@
 ---
 wsId: flybit
-title: "플라이빗 Flybit  - 신뢰할 수 있는 가상자산 거래소(비트코인, 이더리움, 디파이)"
+title: "플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.flybit.app
 released: 2021-02-04
-updated: 2021-10-13
-version: "1.8.7"
+updated: 2021-11-05
+version: "1.8.9"
 stars: 4.0
 ratings: 360
 reviews: 228

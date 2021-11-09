@@ -10,19 +10,23 @@ idd: 1458595661
 released: 2019-04-14
 updated: 2020-11-07
 version: "2.1.0"
-stars: 4
-reviews: 6
+stars: 4.14286
+reviews: 7
 size: 13966336
 website: 
 repository: 
 issue: 
 icon: com.app.Bitay.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-08-27
+verdict: stale
+date: 2021-11-03
 signer: 
 reviewArchive:
-
+- date: 2021-08-27
+  version: "2.1.0"
+  appHash: 
+  gitRevision: 11e04851956c9e541b63a85b959962c9de5fce94
+  verdict: custodial
 
 providerTwitter: BitayTurkiye
 providerLinkedIn: 

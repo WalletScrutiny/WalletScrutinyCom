@@ -4,7 +4,7 @@ title: "Pro1.trading"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.pro1trading
 released: 2020-11-24
 updated: 2021-10-29

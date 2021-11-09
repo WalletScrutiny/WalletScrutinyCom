@@ -10,7 +10,7 @@ released: 2020-12-02
 updated: 2021-07-27
 version: "1.13"
 stars: 4.9
-ratings: 609
+ratings: 610
 reviews: 449
 size: 5.7M
 website: https://www.coinibt.io/
