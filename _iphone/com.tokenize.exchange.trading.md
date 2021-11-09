@@ -8,11 +8,11 @@ appId: com.tokenize.exchange.trading
 appCountry: us
 idd: 1495765876
 released: 2020-02-02
-updated: 2021-10-25
-version: "1.2.15"
+updated: 2021-11-01
+version: "1.2.16"
 stars: 
 reviews: 
-size: 72766464
+size: 72688640
 website: https://tokenize.exchange
 repository: 
 issue: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

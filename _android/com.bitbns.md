@@ -4,14 +4,14 @@ title: "Bitbns: Bitcoin, Crypto Trading Exchange India"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bitbns
 released: 2019-09-21
 updated: 2021-10-20
 version: "4.5.0"
 stars: 3.4
-ratings: 12429
-reviews: 6305
+ratings: 12468
+reviews: 6323
 size: 38M
 website: https://bitbns.com
 repository: 

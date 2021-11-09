@@ -9,9 +9,9 @@ appId: com.pandats.axia
 released: 2020-11-16
 updated: 2021-09-05
 version: "1.0.43"
-stars: 3.3
-ratings: 653
-reviews: 549
+stars: 3.2
+ratings: 655
+reviews: 551
 size: 22M
 website: https://axiainvestments.com/
 repository: 

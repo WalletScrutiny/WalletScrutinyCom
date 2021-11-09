@@ -10,7 +10,7 @@ idd: 1436344249
 released: 2018-10-17
 updated: 2021-11-06
 version: "2.1.0"
-stars: 4.07143
+stars: 4
 reviews: 28
 size: 48569344
 website: https://zam.io

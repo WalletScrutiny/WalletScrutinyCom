@@ -1,6 +1,6 @@
 ---
 wsId: rekeningku
-title: "Rekeningku.com - Jual Beli Bitcoin dan Crypto"
+title: "Rekeningku.com: Jual Beli Bitcoin, SHIB dan Crypto"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2018-02-21
 updated: 2021-11-05
 version: "2.1.61"
 stars: 4.7
-ratings: 18791
-reviews: 6640
+ratings: 18898
+reviews: 6655
 size: 32M
 website: https://www.rekeningku.com
 repository: 

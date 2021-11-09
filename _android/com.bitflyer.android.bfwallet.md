@@ -9,9 +9,9 @@ appId: com.bitflyer.android.bfwallet
 released: 
 updated: 2021-11-01
 version: "6.4.0"
-stars: 4.0
-ratings: 3953
-reviews: 1329
+stars: 3.9
+ratings: 3968
+reviews: 1331
 size: 17M
 website: https://bitflyer.com/
 repository: 

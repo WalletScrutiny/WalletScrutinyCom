@@ -10,8 +10,8 @@ released: 2019-01-28
 updated: 2021-10-28
 version: "2.9.1"
 stars: 3.9
-ratings: 5518
-reviews: 3855
+ratings: 5532
+reviews: 3864
 size: 13M
 website: https://ajuda.foxbit.com.br/
 repository: 

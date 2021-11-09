@@ -4,14 +4,14 @@ title: "CardWallet - Cardano Crypto Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: fi.cardwallet.android
 released: 2021-08-31
 updated: 2021-10-12
 version: "1.4"
 stars: 4.6
-ratings: 120
-reviews: 68
+ratings: 122
+reviews: 69
 size: 12M
 website: 
 repository: 

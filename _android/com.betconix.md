@@ -9,7 +9,7 @@ appId: com.betconix
 released: 2021-07-01
 updated: 2021-11-03
 version: "5.5"
-stars: 3.8
+stars: 3.9
 ratings: 42
 reviews: 37
 size: 12M

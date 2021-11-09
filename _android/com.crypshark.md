@@ -4,7 +4,7 @@ title: "Crypshark Fincity Wallet - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.crypshark
 released: 2021-05-20
 updated: 2021-09-09

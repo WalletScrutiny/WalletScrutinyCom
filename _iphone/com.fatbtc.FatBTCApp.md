@@ -8,11 +8,11 @@ appId: com.fatbtc.FatBTCApp
 appCountry: us
 idd: 1490226195
 released: 2019-12-31
-updated: 2021-10-12
-version: "2.41"
+updated: 2021-11-08
+version: "2.45"
 stars: 3.33333
 reviews: 3
-size: 45216768
+size: 45196288
 website: https://www.fatbtc.com/
 repository: 
 issue: 

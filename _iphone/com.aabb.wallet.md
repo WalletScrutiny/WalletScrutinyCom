@@ -8,11 +8,11 @@ appId: com.aabb.wallet
 appCountry: ca
 idd: 1557298954
 released: 2021-03-14
-updated: 2021-10-06
-version: "1.0.197"
+updated: 2021-11-08
+version: "1.0.205"
 stars: 4.95556
 reviews: 90
-size: 35934208
+size: 36020224
 website: https://aabbgoldtoken.com/
 repository: 
 issue: 

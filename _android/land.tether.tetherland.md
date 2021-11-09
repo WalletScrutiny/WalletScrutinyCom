@@ -10,8 +10,8 @@ released: 2019-12-09
 updated: 2021-10-19
 version: "4.3"
 stars: 4.5
-ratings: 1094
-reviews: 391
+ratings: 1096
+reviews: 393
 size: 29M
 website: https://tetherland.net
 repository: 

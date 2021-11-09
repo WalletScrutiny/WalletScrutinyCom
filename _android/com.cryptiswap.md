@@ -9,8 +9,8 @@ appId: com.cryptiswap
 released: 2021-03-16
 updated: 2021-06-29
 version: "1.0.6"
-stars: 4.7
-ratings: 7
+stars: 4.8
+ratings: 8
 reviews: 5
 size: 23M
 website: 

@@ -1,18 +1,18 @@
 ---
 wsId: bitpaytrading
-title: "Bitcoin & Crypto Exchange - BitBay"
+title: "Zonda - crypto exchange"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: net.bitbay.bitcoin
 released: 2018-11-19
-updated: 2021-08-05
-version: "1.1.25"
-stars: 3.0
-ratings: 1006
-reviews: 543
-size: 16M
+updated: 2021-11-05
+version: "1.1.26"
+stars: 3.1
+ratings: 1015
+reviews: 548
+size: 13M
 website: https://bitbay.net
 repository: 
 issue: 

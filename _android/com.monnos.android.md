@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.monnos.android
 released: 2019-09-17
-updated: 2021-11-04
-version: "5.2.19"
-stars: 3.6
-ratings: 863
-reviews: 567
-size: 71M
+updated: 2021-11-08
+version: "5.2.20"
+stars: 3.5
+ratings: 864
+reviews: 568
+size: 72M
 website: https://monnos.com/
 repository: 
 issue: 
