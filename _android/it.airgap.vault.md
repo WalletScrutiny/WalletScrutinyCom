@@ -15,7 +15,7 @@ reviews: 40
 size: 68M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/91
+issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png
 bugbounty: 
 verdict: obfuscated
