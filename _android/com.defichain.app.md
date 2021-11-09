@@ -48,6 +48,6 @@ Securely store, send and receive DFI and native BTC, as well as wrapped tokens s
 
 We downloaded the app. The first two options were 'Create a Wallet' and 'Restore'. Before you can access a BTC wallet, dBTC must first be sent to the user's account before the BTC "wallet" can appear. Similar to WBTC (ERC20) which is on the Ethereum blockchain, dBTC is on the DeFiChain.
 
-## verdict
+## Verdict
 
 As such, this is **not a bitcoin wallet.**

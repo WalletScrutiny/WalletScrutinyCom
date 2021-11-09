@@ -55,4 +55,4 @@ It has BTC support which can send and receive. It can also backup and restore th
 
 ## Verdict
 
-A search on github for the appID of fi.cardwallet [yielded 0 results.](https://github.com/search?q=fi.cardwallet.android). A search for 'CardWallet' on github, however yielded [362 repositories](https://github.com/search?q=card+wallet&type=repositories). [We messaged](https://twitter.com/BitcoinWalletz/status/1455769560099946496) CardWallet_fi's twitter account for specifics, and until they reply, this app's **source cannot be verified**.
+A search on GitHub for the appID `fi.cardwallet` [yielded 0 results](https://github.com/search?q=fi.cardwallet.android). A search for 'CardWallet' on GitHub however yielded [29 repositories](https://github.com/search?q=cardwallet&type=repositories). [We messaged](https://twitter.com/BitcoinWalletz/status/1455769560099946496) [@CardWallet_fi](https://twitter.com/CardWallet_fi) for details and until they reply, this app's **source cannot be verified**.

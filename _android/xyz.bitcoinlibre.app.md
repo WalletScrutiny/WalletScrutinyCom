@@ -55,4 +55,4 @@ Bitcoin Libre caters specifically to WBTC or Wrapped Bitcoin. So it's an ERC-20 
 
 WBTC, an ERC-20 token claims to be backed up by real Bitcoin reserves. They also claim that it's possible to send to [other BTC addresses through a WBTC partner (Coinbase Article)](https://help.coinbase.com/en/coinbase/getting-started/crypto-education/wbtc)
 
-While this may be the case, WBTC is still on another blockchain. Thus, it is still an Ethereum token and **not a BTC wallet** in the sense that it utilizes the Ethereum blockchain.
+While this may be the case, WBTC is still on another blockchain. Thus, it is still an Ethereum token with additional third party risk, making this **not a BTC wallet**.

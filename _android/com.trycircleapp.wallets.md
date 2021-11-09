@@ -48,4 +48,4 @@ The 12-word backup seeds can be accessed via 'Settings'. If you signed up on the
 
 ## Verdict
 
-We searched for appID 'com.thecirclewalletapp' on Github and it [yielded 0 results](https://github.com/search?q=com.trycircleapp.wallets&ref=opensearch). An app's source **cannot be verified** unless the source code is publicly available.
+We couldn't find a link to their source code and also searched for appID `com.thecirclewalletapp` on Github and it [yielded 0 results](https://github.com/search?q=com.trycircleapp.wallets). A closed source app **cannot be verified**.

@@ -54,7 +54,7 @@ Here are some of the highlights of the collaboration:
 
 ## The App
 
-We downloaded the app and was able to reach up to email confirmation.
+We downloaded the app and were able to get to email confirmation.
 Identity Verification is required before you can withdraw or deposit Bitcoins.
 We were not able to locate backup and restore functions.
 

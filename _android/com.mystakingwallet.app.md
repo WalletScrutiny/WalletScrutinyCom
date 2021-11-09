@@ -48,7 +48,7 @@ We downloaded the app and registered. The app required email verification. Once 
 
 ## Contact
 
-We contacted Metrix via [twitter and await their reply](https://twitter.com/BitcoinWalletz/status/1455777890788732932).
+We contacted Metrix via [twitter and they confirmed this was not a BTC wallet](https://twitter.com/BitcoinWalletz/status/1455777890788732932).
 
 ## Verdict
 
