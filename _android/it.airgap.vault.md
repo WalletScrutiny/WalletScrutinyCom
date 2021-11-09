@@ -18,10 +18,15 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/91
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: reproducible
-date: 2021-10-19
+verdict: obfuscated
+date: 2021-11-09
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-10-19
+  version: "3.11.0"
+  appHash: ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092
+  gitRevision: d0004cade45b73e04d2217e51240017e03c34c05
+  verdict: reproducible
 - date: 2021-09-21
   version: "3.10.0"
   appHash: 19391ace82f01aa19fb31b3e72949fa8d77b1857c4781e73f2cf2cd828b1df60
@@ -122,24 +127,78 @@ which delivered these results:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.11.0
-apkVersionCode: 34777
-verdict:        reproducible
-appHash:        ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092
-commit:         c5c7a6f6908976fb766e81f98a6b3678e5d13fa7
+apkVersionName: 3.11.1
+apkVersionCode: 35477
+verdict:        
+appHash:        c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7
+commit:         de019530e8cf89172c0217f32f3ba81e7fb973de
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_34777/META-INF/MANIFEST.MF and /tmp/fromBuild_it.airgap.vault_34777/META-INF/MANIFEST.MF differ
-Only in /tmp/fromPlay_it.airgap.vault_34777/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_34777/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_35477/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_35477/assets/public/index.html differ
+Only in /tmp/fromPlay_it.airgap.vault_35477/assets/public: main.6c0c07ffb31b2f9117c8.js
+Only in /tmp/fromBuild_it.airgap.vault_35477/assets/public: main.6fac43b747228db945b3.js
+Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object c5c7a6f6908976fb766e81f98a6b3678e5d13fa7
+object de019530e8cf89172c0217f32f3ba81e7fb973de
 type commit
-tag v3.11.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1634028951 +0200
+tag v3.11.1
+tagger Mike Godenzi <m.godenzi@papers.ch> 1635836808 +0100
 
-version 3.11.0
+version 3.11.1
 ```
 
-which is what we want to see to consider it **reproducible**.
+As in earlier cases, the js files `main.6c0c07ffb31b2f9117c8.js` and
+`main.6fac43b747228db945b3.js` differ not only in name but also in their
+**obfuscated** content.
+
+For example after running both files (8.5MB of one line) through `js-beautify`
+we get 13.5MB files that differ in dozens of chunks. Line 655 and following are:
+
+```
+"+9Uq": function(Qt, Ft, Ht) {
+    "use strict";
+    var Jt, qt = Ht("nYpo").codes,
+        jt = qt.ERR_MISSING_ARGS,
+        Zt = qt.ERR_STREAM_DESTROYED;
+
+    function noop(Qt) {
+        if (Qt) throw Qt
+    }
+
+    function destroyer(Qt, Ft, qt, jt) {
+        jt = function once(Qt) {
+            var Ft = !1;
+            return function() {
+                Ft || (Ft = !0, Qt.apply(void 0, arguments))
+            }
+        }(jt);
+        var Vt = !1;
+```
+
+vs.
+
+```
+"+B6e": function(Qt, Ft, Ht) {
+    "use strict";
+    var Jt, qt = this && this.__extends || (Jt = function extendStatics(Qt, Ft) {
+            return Jt = Object.setPrototypeOf || {
+                __proto__: []
+            }
+            instanceof Array && function(Qt, Ft) {
+                Qt.__proto__ = Ft
+            } || function(Qt, Ft) {
+                for (var Ht in Ft) Object.prototype.hasOwnProperty.call(Ft, Ht) && (Qt[Ht] = Ft[Ht])
+            }, Jt(Qt, Ft)
+        }, function(Qt, Ft) {
+            function __() {
+                this.constructor = Qt
+            }
+            Jt(Qt, Ft), Qt.prototype = null === Ft ? Object.create(Ft) : (__.prototype = Ft.prototype, new __)
+        }),
+        jt = this && this.__awaiter || function(Qt, Ft, Ht, Jt) {
+```
+
+Like this, the app is **not verifiable**.
