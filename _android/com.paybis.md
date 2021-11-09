@@ -1,7 +1,7 @@
 ---
 wsId: Paybis
 title: "Paybis: Buy & Sell Bitcoin | Track Prices and more"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 10000
@@ -25,9 +25,9 @@ reviewArchive:
 
 
 providerTwitter: paybis
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
@@ -42,10 +42,6 @@ redirect_from:
 
 > Paybis is a full-fledged cryptocurrency exchange, allowing you to buy more than 30 popular crypto tokens. This includes Bitcoin (BTC), Ethereum (ETH), Binance Coin (BNB), Dogecoin (DOGE), Ripple (XRP), Uniswap (UNI) and others.
 
-Paybis has a FinCen MSB License
-
-> FinCEN Department of the Treasury, United States of America
-> Money Service Business Registration: 31000175037491
 
 ## The App
 
