@@ -4,7 +4,7 @@ test() {
   repo=https://github.com/spesmilo/electrum
   tag=$( echo "$versionName" | sed 's/\.0$//g' )
   builtApk="$workDir/app/dist/Electrum-$versionName-arm64-v8a-release-unsigned.apk"
-  
+
   prepare
 
   # build
@@ -18,7 +18,10 @@ test() {
         --workdir /home/user/wspace/electrum electrum-android-builder-img \
         /bin/bash -c "./contrib/android/make_apk release-unsigned;
         $takeUserActionCommand"
-      
+
+  podman rmi electrum-android-builder-img -f
+  podman image prune -f
+
   # collect results
   result
 }
