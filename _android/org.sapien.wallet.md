@@ -51,4 +51,4 @@ Sapien Wallet benefits:
 
 ## Verdict
 
-This is evidently a self-custodial wallet since it provided the mnemonics and the ability to backup. We searched online for the source code, but [**was not able to find any relevant repository.**](https://github.com/search?q=sapien+wallet&type=repositories)  
+This is evidently a self-custodial wallet since it provided the mnemonics and the ability to backup. We searched online if the app had any source code, but [**we were not able to find any relevant repository.**](https://github.com/search?q=sapien+wallet&type=repositories) As there is no mention on whether source code is provided, this app is likely a **closed-source** project.

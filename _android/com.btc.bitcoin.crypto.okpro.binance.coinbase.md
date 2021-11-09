@@ -1,9 +1,9 @@
 ---
-wsId:
+wsId: 
 title: "OKpro-Bitcoin & Crypto currency information"
-altTitle:
+altTitle: 
 authors:
-- danny
+- leo
 users: 1000
 appId: com.btc.bitcoin.crypto.okpro.binance.coinbase
 released: 2021-09-13
@@ -11,26 +11,29 @@ updated: 2021-09-13
 version: "1.0"
 stars: 5.0
 ratings: 200
-reviews:
+reviews: 
 size: 3.6M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.png
-bugbounty:
+bugbounty: 
 verdict: defunct
-date: 2021-10-05
+date: 2021-10-30
 signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
 
-The app no longer exists on [Google Play](https://play.google.com/store/apps/details?id=com.btc.bitcoin.crypto.okpro.binance.coinbase)
+
+**Update 2021-10-18**: This app is no more.
+
+

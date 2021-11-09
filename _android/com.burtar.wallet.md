@@ -34,6 +34,8 @@ redirect_from:
 ---
 
 
+**Warning:** The reviews of this app are filled with scam accusations, with some users explaining that the app requires them to give 5* ratings first. We recommend to exercise caution with this app.
+
 ## App Description
 
 > - Burtar is the most robust and yet easiest platform for trading crypto
