@@ -22,6 +22,11 @@ verdict: obfuscated
 date: 2021-11-09
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-11-09
+  version: "3.11.1"
+  appHash: c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7
+  gitRevision: bab28343f55571d204633ee0c78ce08b149ad66c
+  verdict: obfuscated
 - date: 2021-10-19
   version: "3.11.0"
   appHash: ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092
@@ -127,28 +132,30 @@ which delivered these results:
 Results:
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.11.1
-apkVersionCode: 35477
+apkVersionName: 3.11.2
+apkVersionCode: 35695
 verdict:        
-appHash:        c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7
-commit:         de019530e8cf89172c0217f32f3ba81e7fb973de
+appHash:        49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737
+commit:         abbed9486d42fc10279018ec789566b71cf9cce2
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_35477/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_35477/assets/public/index.html differ
-Only in /tmp/fromPlay_it.airgap.vault_35477/assets/public: main.6c0c07ffb31b2f9117c8.js
-Only in /tmp/fromBuild_it.airgap.vault_35477/assets/public: main.6fac43b747228db945b3.js
-Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_35477/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_35695/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_35695/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_35695/assets/public: main.620690f2be6c5224642a.js
+Only in /tmp/fromPlay_it.airgap.vault_35695/assets/public: main.6fac43b747228db945b3.js
+Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object de019530e8cf89172c0217f32f3ba81e7fb973de
+object abbed9486d42fc10279018ec789566b71cf9cce2
 type commit
-tag v3.11.1
-tagger Mike Godenzi <m.godenzi@papers.ch> 1635836808 +0100
+tag v3.11.2
+tagger Mike Godenzi <m.godenzi@papers.ch> 1635953581 +0100
 
-version 3.11.1
+version 3.11.2
 ```
+
+(below closer look is from `3.11.1`.)
 
 As in earlier cases, the js files `main.6c0c07ffb31b2f9117c8.js` and
 `main.6fac43b747228db945b3.js` differ not only in name but also in their
