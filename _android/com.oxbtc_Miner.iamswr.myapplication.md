@@ -64,7 +64,7 @@ The site has been in existence since [2016](https://web.archive.org/web/20161024
 
 We downloaded and registered with the oxbtc service. Google Auth 2FA, phone number and passwords were required. There was a Bitcoin wallet with the ability to **send and receive.** ETH, USDT, LTC and other coins.
 
-There was no ios app, only testflight.
+There was no App Store app, only testflight.
 
 ## Verdict
 

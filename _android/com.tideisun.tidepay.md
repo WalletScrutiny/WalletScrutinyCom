@@ -39,8 +39,8 @@ redirect_from:
 > iSunOne is the one platform to spend and send cryptos and tokens anywhere anytime. User can top up USDT, BTC, ETH, BCH, LTC, PAX, etc. from iSunOne wallet to card in real
 time as fiat currencies in the form of USD, HKD, or CNY.
 
-> - ✓ Send the tokens, with transactions seamless and secure on the blockchain;
-> - ✓ Swap the tokens, such as USDT <> BTC, to enjoy the crypto volatility;
+> ✓ Send the tokens, with transactions seamless and secure on the blockchain;<br>
+> ✓ Swap the tokens, such as USDT <> BTC, to enjoy the crypto volatility;
 
 ## The Site
 

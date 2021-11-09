@@ -54,4 +54,4 @@ Included in the service are:
 
 ## Verdict
 
-We were able to test the app, and true enough, the initial setup provided options for creating a bitcoin wallet or restoring a wallet. This wallet had the ability to send or receive. However, we were **not able to find links to the source code on its homepage or [to any github repository](https://github.com/search?q=com.bitcoin.wallet.cryptopuce&type=repositories)**. 
+We were able to test the app, and true enough, the initial setup provided options for creating a bitcoin wallet or restoring a wallet. This wallet had the ability to send or receive. However, we were **not able to find links to the source code on its homepage or [in any GitHub repository](https://github.com/search?q=com.bitcoin.wallet.cryptopuce&type=code)**. 

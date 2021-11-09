@@ -54,4 +54,4 @@ We were able to install the app however it took a long time to load. The desktop
 
 ## Verdict
 
-The app is still in its development stages and it **still has no bitcoin** support. We would be updating once the situation presents itself.
+The app is still in its development stages and it **still has no bitcoin** support. Please [open an issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/new) if this verdict is outdated!

@@ -50,4 +50,4 @@ We downloaded the app and found support for BTC with send and receive functions.
 
 ## Verdict
 
-As it describes itself, it is a self-custodial bitcoin wallet that supports BSV, BTC and ETH. We searched for the Google Play appID on github but have [yielded 0 results.](https://github.com/search?q=com.boquanhash.dotwallet&ref=opensearch). We were not able to locate the source code for this app.
+As it describes itself, it is a self-custodial bitcoin wallet that supports BSV, BTC and ETH. We searched for the Google Play appID on github but have [yielded 0 results.](https://github.com/search?q=com.boquanhash.dotwallet). We were not able to locate the source code for this app.

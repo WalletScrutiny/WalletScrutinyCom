@@ -1,7 +1,7 @@
 ---
 wsId:
 title: "Bitcoin Wallet. A Secure Crypto Wallet - HiWallet"
-altTitle: "Bitcoin Wallet. A Secure Crypto Wallet - HiWallet"
+altTitle: 
 authors:
 - danny
 users: 5000

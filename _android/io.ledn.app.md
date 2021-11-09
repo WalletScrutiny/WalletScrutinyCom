@@ -64,4 +64,4 @@ The [withdrawal process](https://ledn.io/en/btc-savings) entails requires approv
 
 ## Verdict
 
-The app allows users to deposit, withdraw, save and loan against bitcoin. It functions as a wallet with some features and some restrictions. The service is **custodial**, making the app, **not verifiable**.
+The app allows users to deposit, withdraw, save and borrow against bitcoin. It functions as a wallet with some features and some restrictions. The service is **custodial**, making the app **not verifiable**.
