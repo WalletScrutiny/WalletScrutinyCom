@@ -7,11 +7,11 @@ authors:
 users: 5000000
 appId: com.coindcx.btc
 released: 2020-12-09
-updated: 2021-10-27
+updated: 2021-11-04
 version: "2.3.013"
 stars: 4.2
-ratings: 129037
-reviews: 36604
+ratings: 138346
+reviews: 36411
 size: 67M
 website: https://coindcx.com/
 repository: 

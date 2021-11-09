@@ -10,8 +10,8 @@ released:
 updated: 2021-10-29
 version: "1.18.20"
 stars: 3.1
-ratings: 1071
-reviews: 618
+ratings: 1075
+reviews: 621
 size: 80M
 website: https://www.coinberry.com/
 repository: 

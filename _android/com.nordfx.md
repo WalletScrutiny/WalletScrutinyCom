@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.nordfx
 released: 2021-02-28
-updated: 2021-10-05
-version: "12"
+updated: 2021-11-05
+version: "13"
 stars: 4.1
 ratings: 130
 reviews: 35
-size: 37M
+size: 40M
 website: https://nordfx.com/
 repository: 
 issue: 

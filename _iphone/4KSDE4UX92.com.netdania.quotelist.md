@@ -10,8 +10,8 @@ idd: 446371774
 released: 2011-07-01
 updated: 2021-11-02
 version: "4.9.0"
-stars: 4.6665
-reviews: 10069
+stars: 4.6664
+reviews: 10078
 size: 143259648
 website: http://www.netdania.com
 repository: 

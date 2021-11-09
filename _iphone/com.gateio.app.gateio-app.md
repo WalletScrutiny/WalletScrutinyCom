@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: "gate.io"
+title: "Gate.io-Buy BTC,ETH,SHIB"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.gateio.app.gateio-app
 appCountry: id
 idd: 1294998195
 released: 2017-11-03
-updated: 2021-10-03
-version: "3.1.1"
-stars: 3.31429
-reviews: 35
-size: 378032128
+updated: 2021-11-07
+version: "3.1.3"
+stars: 3.17391
+reviews: 46
+size: 373575680
 website: https://gate.io
 repository: 
 issue: 

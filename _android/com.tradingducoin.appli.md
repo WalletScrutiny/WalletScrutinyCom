@@ -10,7 +10,7 @@ released: 2019-03-10
 updated: 2021-09-03
 version: "5.4.8"
 stars: 3.8
-ratings: 180
+ratings: 182
 reviews: 89
 size: 32M
 website: https://tradingducoin.com/

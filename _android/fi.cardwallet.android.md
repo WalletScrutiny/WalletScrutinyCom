@@ -1,17 +1,17 @@
 ---
 wsId: CardWalletCardano
 title: "CardWallet - Cardano Crypto Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: fi.cardwallet.android
 released: 2021-08-31
 updated: 2021-10-12
 version: "1.4"
 stars: 4.6
-ratings: 118
-reviews: 66
+ratings: 122
+reviews: 69
 size: 12M
 website: https://cardwallet.fi/
 repository:
@@ -20,7 +20,7 @@ icon: fi.cardwallet.android.png
 bugbounty:
 verdict: nosource
 date: 2021-10-05
-signer:
+signer: 
 reviewArchive:
 
 

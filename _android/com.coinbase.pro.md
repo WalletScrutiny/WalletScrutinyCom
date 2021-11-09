@@ -1,6 +1,6 @@
 ---
 wsId: coinbasepro
-title: "Coinbase Pro – Bitcoin & Crypto Trading"
+title: "Coinbase Pro: Trade Bitcoin, Ethereum, SHIB"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: com.coinbase.pro
 released: 2020-01-06
 updated: 2021-10-29
 version: "1.0.81"
-stars: 4.1
-ratings: 18969
-reviews: 5469
+stars: 4.0
+ratings: 19502
+reviews: 5599
 size: 56M
 website: https://pro.coinbase.com
 repository: 

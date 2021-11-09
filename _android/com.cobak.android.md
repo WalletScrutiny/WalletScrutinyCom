@@ -1,17 +1,17 @@
 ---
 wsId: cobak
-title: "코박 - No.1 코인 커뮤니티"
+title: "코박 - 국내 대표 코인 커뮤니티"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.cobak.android
 released: 2018-03-08
-updated: 2021-09-24
-version: "1.42.4"
+updated: 2021-11-04
+version: "1.42.12"
 stars: 4.3
-ratings: 2321
-reviews: 1641
+ratings: 2323
+reviews: 1642
 size: 29M
 website: https://cobak.co.kr/
 repository: 

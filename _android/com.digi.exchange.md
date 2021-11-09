@@ -10,7 +10,7 @@ released: 2019-03-11
 updated: 2021-07-17
 version: "1.1.6"
 stars: 4.2
-ratings: 255
+ratings: 256
 reviews: 84
 size: 3.7M
 website: https://digiexchange.net/

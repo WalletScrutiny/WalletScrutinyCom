@@ -4,15 +4,15 @@ title: "Zelcore - Multi Asset Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.zelcash.zelcore
 released: 2018-09-21
 updated: 2021-10-26
-version: "5.3.0"
-stars: 4.6
-ratings: 664
-reviews: 471
-size: 16M
+version: "5.4.0"
+stars: 4.5
+ratings: 676
+reviews: 479
+size: 17M
 website: https://zel.network/project/zelcore
 repository: 
 issue: 

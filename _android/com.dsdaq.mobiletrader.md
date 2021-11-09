@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.dsdaq.mobiletrader
 released: 2019-12-24
-updated: 2021-09-30
-version: "2.5.5"
-stars: 4.1
-ratings: 472
+updated: 2021-11-02
+version: "3.0.0"
+stars: 4.0
+ratings: 474
 reviews: 250
-size: 7.5M
+size: 12M
 website: https://www.dsdaq.com/
 repository: 
 issue: 

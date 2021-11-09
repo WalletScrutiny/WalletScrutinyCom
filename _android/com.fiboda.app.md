@@ -10,7 +10,7 @@ released: 2021-01-14
 updated: 2021-07-08
 version: "1.0.5"
 stars: 4.6
-ratings: 297
+ratings: 304
 reviews: 31
 size: 44M
 website: https://www.fiboda.com/

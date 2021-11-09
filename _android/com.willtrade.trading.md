@@ -4,14 +4,14 @@ title: "Will Trade - Crypto Forex Gold"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.willtrade.trading
 released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
-stars: 5.0
-ratings: 748
-reviews: 478
+stars: 4.9
+ratings: 1095
+reviews: 714
 size: 13M
 website: 
 repository: 

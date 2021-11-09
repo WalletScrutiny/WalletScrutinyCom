@@ -1,17 +1,17 @@
 ---
 wsId: Afriex
-title: "Afriex - Send & Receive Money"
+title: "Afriex - Money transfer"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.afriex.afriex
 released: 2020-03-05
-updated: 2021-10-19
-version: "11.28"
+updated: 2021-11-05
+version: "11.30"
 stars: 4.6
-ratings: 769
-reviews: 556
+ratings: 786
+reviews: 569
 size: 57M
 website: https://afriexapp.com/
 repository: 

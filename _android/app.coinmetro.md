@@ -9,9 +9,9 @@ appId: app.coinmetro
 released: 2017-12-10
 updated: 2021-10-12
 version: "4.1.2600"
-stars: 3.3
-ratings: 252
-reviews: 127
+stars: 3.2
+ratings: 257
+reviews: 131
 size: 34M
 website: https://coinmetro.com/
 repository: 

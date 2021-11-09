@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.tokoin.wallet
 released: 2019-12-11
-updated: 2021-10-28
-version: "3.2.2"
+updated: 2021-11-08
+version: "3.2.3"
 stars: 4.0
-ratings: 572
-reviews: 500
+ratings: 571
+reviews: 499
 size: Varies with device
 website: 
 repository: 

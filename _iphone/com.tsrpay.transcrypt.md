@@ -8,11 +8,11 @@ appId: com.tsrpay.transcrypt
 appCountry: ru
 idd: 1446719209
 released: 2019-01-16
-updated: 2021-10-31
-version: "2.06.8"
+updated: 2021-11-04
+version: "2.07.01"
 stars: 4.45455
 reviews: 22
-size: 88271872
+size: 88388608
 website: https://tizer.io
 repository: 
 issue: 
