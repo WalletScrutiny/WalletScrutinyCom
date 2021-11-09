@@ -10,8 +10,8 @@ released: 2017-05-18
 updated: 2021-10-29
 version: "2.8.7"
 stars: 3.0
-ratings: 355
-reviews: 236
+ratings: 357
+reviews: 237
 size: 34M
 website: http://www.bitnovo.com
 repository: 

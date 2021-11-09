@@ -10,7 +10,7 @@ released: 2020-10-09
 updated: 2021-10-10
 version: "1.0.0"
 stars: 4.1
-ratings: 488
+ratings: 490
 reviews: 248
 size: 11M
 website: https://arzif.com/

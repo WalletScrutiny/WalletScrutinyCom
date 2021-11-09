@@ -10,8 +10,8 @@ idd: 1554808338
 released: 2021-03-30
 updated: 2021-10-20
 version: "1.9.3"
-stars: 4.17241
-reviews: 29
+stars: 4.22581
+reviews: 31
 size: 70462464
 website: https://bitcoindepot.com/
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

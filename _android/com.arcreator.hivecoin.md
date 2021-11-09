@@ -9,9 +9,9 @@ appId: com.arcreator.hivecoin
 released: 2021-05-06
 updated: 2021-06-18
 version: "2.2.7"
-stars: 3.3
-ratings: 46
-reviews: 35
+stars: 3.4
+ratings: 47
+reviews: 36
 size: 24M
 website: 
 repository: 

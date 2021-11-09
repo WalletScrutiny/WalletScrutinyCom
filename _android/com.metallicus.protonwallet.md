@@ -10,8 +10,8 @@ released: 2021-02-22
 updated: 2021-10-21
 version: "1.5.20"
 stars: 4.7
-ratings: 522
-reviews: 318
+ratings: 524
+reviews: 317
 size: 46M
 website: https://www.protonchain.com/
 repository: https://github.com/ProtonProtocol/

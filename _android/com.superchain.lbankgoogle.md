@@ -9,9 +9,9 @@ appId: com.superchain.lbankgoogle
 released: 2020-05-08
 updated: 2021-11-02
 version: "3.41.14"
-stars: 4.3
-ratings: 19178
-reviews: 3593
+stars: 4.2
+ratings: 19215
+reviews: 3623
 size: 65M
 website: https://lbank.info
 repository: 

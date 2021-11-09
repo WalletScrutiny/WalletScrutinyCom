@@ -11,7 +11,7 @@ updated: 2021-10-19
 version: "1.40.930"
 stars: 4.4
 ratings: 2160
-reviews: 1457
+reviews: 1456
 size: 51M
 website: https://trustee.deals
 repository: https://github.com/trustee-wallet/trusteeWallet

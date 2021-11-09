@@ -9,8 +9,8 @@ appId: com.aabb
 released: 2021-03-08
 updated: 2021-10-04
 version: "1.0.1233"
-stars: 4.1
-ratings: 536
+stars: 4.2
+ratings: 537
 reviews: 293
 size: 27M
 website: https://aabbgoldtoken.com/

@@ -10,8 +10,8 @@ idd: 1446636681
 released: 2019-10-10
 updated: 2021-10-29
 version: "1.0.81"
-stars: 4.72614
-reviews: 135535
+stars: 4.7262
+reviews: 136083
 size: 46786560
 website: https://pro.coinbase.com
 repository: 

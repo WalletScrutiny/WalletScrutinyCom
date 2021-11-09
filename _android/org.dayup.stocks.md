@@ -8,12 +8,12 @@ authors:
 users: 10000000
 appId: org.dayup.stocks
 released: 
-updated: 2021-10-29
-version: "7.2.9.54"
+updated: 2021-11-08
+version: "7.3.0.62"
 stars: 4.4
-ratings: 151633
-reviews: 45505
-size: 53M
+ratings: 151781
+reviews: 45530
+size: 54M
 website: https://www.webull.com/
 repository: 
 issue: 

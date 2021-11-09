@@ -1,7 +1,7 @@
 ---
 wsId: bhWallet
 title: "Bluehelix Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 100
@@ -15,19 +15,19 @@ reviews: 3
 size: 22M
 website: https://www.bhexchain.com/
 repository: https://github.com/bluehelix-chain/wallet-android
-issue:
+issue: 
 icon: com.bhex.wallet.png
-bugbounty:
+bugbounty: 
 verdict: fewusers
 date: 2021-11-08
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: BHEXOfficial
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
