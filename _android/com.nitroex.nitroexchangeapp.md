@@ -1,7 +1,7 @@
 ---
 wsId: NitroEXexchangeapp
 title: "NitroEx Exchange"
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 5000
@@ -17,10 +17,10 @@ website: https://www.nitroex.io/
 repository:
 issue:
 icon: com.nitroex.nitroexchangeapp.jpg
-bugbounty: 
+bugbounty:
 verdict: custodial
 date: 2021-08-21
-signer: 
+signer:
 reviewArchive:
 
 
@@ -39,8 +39,6 @@ redirect_from:
 > This application is the official application of NitroEx Exchange (www.nitroex.io), which allows you to trade digital assets easily, reliably, and quickly. NitroEx Cryptocurrency Exchange has been serving secure crypto trading opportunities with advanced security measures over 30 different cryptocurrencies and 70 market pairs including Bitcoin, Ethereum, Tether, and Ripple.
 
 ## The Site
-
-The site links to the same app listed on Google Play.
 
 It is a centralized cryptocurrency exchange.
 
