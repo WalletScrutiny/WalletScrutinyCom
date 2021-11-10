@@ -48,6 +48,6 @@ The first options allowed users to create a new wallet or to restore. It then as
 
 ## Verdict
 
-BlackFort Wallet is a self-custodial app. However, searching for appID 'exchange.blackfort.wallet' yields [0 repositories](https://github.com/search?q=exchange.blackfort.wallet). Searching on Google for "Blackfort wallet source code" also did not yield any results. There was no reference to open source on their website nor a link to Github. We also asked them on [twitter](https://twitter.com/BitcoinWalletz/status/1456243946384859141).
+BlackFort Wallet is a self-custodial app. However, we could not find any information on whether it has accessible source-code. There was no reference to open source on their website nor a link to Github. For due diligence, we searched on Github for their appID 'exchange.blackfort.wallet' and yielded [0 results](https://github.com/search?q=exchange.blackfort.wallet). Searching on Google for "Blackfort wallet source code" also did not return anything relevant. We also asked them on [twitter](https://twitter.com/BitcoinWalletz/status/1456243946384859141).
 
-This app's source code is not publicly available, therefore it **cannot be verified**.
+We conclude that this app's source code is not publicly available, therefore it **cannot be verified**.

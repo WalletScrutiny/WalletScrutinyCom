@@ -46,4 +46,4 @@ It is possible to send and receive Bitcoin from the app.
 
 ## Verdict
 
-This is a self-custodial app. However, when we searched github for the appID 'com.silenca.cryptoneed', it [returned 0 results](https://github.com/search?q=com.silenca.cryptoneed&ref=opensearch). There were also no links on their homepage pointing to github.
+This is a self-custodial app. There were also no links on their homepage pointing to Github or mention of any source code. In case we had missed something, we searched github for the appID 'com.silenca.cryptoneed', it [returned 0 results](https://github.com/search?q=com.silenca.cryptoneed&type=code). With this information, we conclude that this has **no source** code.
