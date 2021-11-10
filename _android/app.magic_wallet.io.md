@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId:
 title: "Magic Wallet"
-altTitle: 
+altTitle:
 authors:
-
+- danny
 users: 1000
 appId: app.magic_wallet.io
 released: 2021-05-26
@@ -13,24 +13,24 @@ stars: 3.8
 ratings: 238
 reviews: 170
 size: 8.7M
-website: 
-repository: 
-issue: 
+website:
+repository:
+issue:
 icon: app.magic_wallet.io.png
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: defunct
 date: 2021-10-05
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
 
-
+The site has no listed website, social media and the app did not load on multiple platforms that we tried. This app is **defunct**
