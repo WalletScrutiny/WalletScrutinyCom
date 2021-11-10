@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.aibb.wallet1.jpg
 bugbounty: 
-verdict: wip
-date: 2021-10-01
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2021-11-03**: This app is no more.
+
+{% include copyFromAndroid.html %}

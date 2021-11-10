@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.infinitywallet.main.v8.png
 bugbounty: 
-verdict: fake
-date: 2021-10-30
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
+- date: 2021-10-30
+  version: "2.0"
+  appHash: 
+  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
+  verdict: fake
 
 
 providerTwitter: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-01**: This app is no more.
 
 This app [is fake](https://twitter.com/InfinityWallet/status/1453068315417583622).
 
