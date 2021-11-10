@@ -18,11 +18,15 @@ repository:
 issue:
 icon: com.starclicksapp.starclicks.png
 bugbounty:
-verdict: nowallet
-date: 2021-11-03
+verdict: defunct
+date: 2021-11-10
 signer:
 reviewArchive:
-
+- date: 2021-11-03
+  version: "1.0"
+  appHash: 
+  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
+  verdict: nowallet
 
 providerTwitter: Starclicks
 providerLinkedIn:
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-03**: This app is no more.
 
 ## App Description
 
