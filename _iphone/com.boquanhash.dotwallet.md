@@ -19,7 +19,7 @@ issue:
 icon: com.boquanhash.dotwallet.jpg
 bugbounty:
 verdict: nosource
-date: 2021-11-01
+date: 2021-11-10
 signer:
 reviewArchive:
 

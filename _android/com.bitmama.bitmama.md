@@ -20,7 +20,7 @@ issue:
 icon: com.bitmama.bitmama.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-11-10
 signer: 
 reviewArchive:
 

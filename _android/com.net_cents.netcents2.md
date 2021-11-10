@@ -19,7 +19,7 @@ issue:
 icon: com.net_cents.netcents2.png
 bugbounty:
 verdict: custodial
-date: 2021-09-01
+date: 2021-11-10
 signer:
 reviewArchive:
 

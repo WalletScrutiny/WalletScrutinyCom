@@ -19,7 +19,7 @@ issue:
 icon: com.aqn.wallet.jpg
 bugbounty:
 verdict: nobtc
-date: 2021-07-15
+date: 2021-11-10
 signer:
 reviewArchive:
 

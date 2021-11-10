@@ -19,7 +19,7 @@ issue:
 icon: com.beldex.png
 bugbounty:
 verdict: nobtc
-date: 2021-10-18
+date: 2021-11-10
 signer:
 reviewArchive:
 

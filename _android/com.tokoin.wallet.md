@@ -19,7 +19,7 @@ issue:
 icon: com.tokoin.wallet.png
 bugbounty:
 verdict: nosource
-date: 2021-10-30
+date: 2021-11-10
 signer:
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: mobiletradingpartners.lmax.exchange.iphone.jpg
 bugbounty:
 verdict: nosendreceive
-date: 2021-11-02
+date: 2021-11-10
 signer:
 reviewArchive:
 

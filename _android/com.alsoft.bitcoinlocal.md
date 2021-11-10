@@ -19,7 +19,7 @@ issue:
 icon: com.alsoft.bitcoinlocal.png
 bugbounty:
 verdict: nowallet
-date: 2021-08-01
+date: 2021-11-10
 signer:
 reviewArchive:
 

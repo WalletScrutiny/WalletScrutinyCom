@@ -19,7 +19,7 @@ issue:
 icon: org.sapien.wallet.png
 bugbounty:
 verdict: nosource
-date: 2021-10-18
+date: 2021-11-10
 signer: 
 reviewArchive:
 

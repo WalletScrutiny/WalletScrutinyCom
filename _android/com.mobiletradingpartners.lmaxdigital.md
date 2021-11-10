@@ -19,7 +19,7 @@ issue:
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty:
 verdict: nosendreceive
-date: 2021-08-08
+date: 2021-11-10
 signer:
 reviewArchive:
 

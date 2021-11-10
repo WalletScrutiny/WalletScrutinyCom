@@ -19,7 +19,7 @@ issue:
 icon: crypto.base.baseexchange.png
 bugbounty:
 verdict: custodial
-date: 2021-10-05
+date: 2021-11-10
 signer:
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.xtmcapital.iqwallet.jpg
 bugbounty:
 verdict: obfuscated
-date: 2021-11-02
+date: 2021-11-10
 signer:
 reviewArchive:
 

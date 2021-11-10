@@ -19,7 +19,7 @@ issue:
 icon: com.drcrypto.wallet.png
 bugbounty:
 verdict: defunct
-date: 2021-04-27
+date: 2021-11-10
 signer:
 reviewArchive:
 

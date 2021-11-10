@@ -19,7 +19,7 @@ issue:
 icon: app.magic_wallet.io.png
 bugbounty:
 verdict: defunct
-date: 2021-10-05
+date: 2021-11-10
 signer:
 reviewArchive:
 

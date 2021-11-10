@@ -19,7 +19,7 @@ issue:
 icon: com.cybertronchain.coinibt.png
 bugbounty:
 verdict: defunct
-date: 2021-08-01
+date: 2021-11-10
 signer:
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.net-cents.app.jpg
 bugbounty:
 verdict: custodial
-date: 2021-11-02
+date: 2021-11-10
 signer:
 reviewArchive:
 

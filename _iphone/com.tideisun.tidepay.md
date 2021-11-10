@@ -19,7 +19,7 @@ issue:
 icon: com.tideisun.tidepay.jpg
 bugbounty:
 verdict: custodial
-date: 2021-11-01
+date: 2021-11-10
 signer:
 reviewArchive:
 

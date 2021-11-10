@@ -20,7 +20,7 @@ issue:
 icon: com.iqpandroidinterface.png
 bugbounty:
 verdict: obfuscated
-date: 2021-10-18
+date: 2021-11-10
 signer:
 reviewArchive:
 

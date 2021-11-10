@@ -19,7 +19,7 @@ issue:
 icon: gwallet.tech.jpg
 bugbounty:
 verdict: nosource
-date: 2021-11-02
+date: 2021-11-10
 signer:
 reviewArchive:
 
