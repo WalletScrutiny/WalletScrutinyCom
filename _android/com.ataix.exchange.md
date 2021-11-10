@@ -50,12 +50,12 @@ Also in section 21.4, Chargebacks:
 
 > ATAIX reserves the right to freeze the User's account and lock the User's Funds during the chargeback investigation procedure.
 
-ATAIX has custody over your account and funds, because it is able to suspend your account.
+ATAIX has custody over your account and funds because it is able to suspend your account.
 
 ## The App
 
-We registered to the platform and tried the BTC 'wallet.' You can recieve with the provided deposit address and withdraw by typing an external address. We were not provided with any private keys.
+We registered to the platform and tried the BTC 'wallet.' You can receive with the provided deposit address and withdraw by typing an external address. We were not provided with any private keys.
 
 ## Verdict
 
-This app is **custodial** and thus, **not-verifiable.**
+This app is **custodial** and thus, **not verifiable.**

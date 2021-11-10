@@ -42,7 +42,7 @@ redirect_from:
 
 ## The Site
 
-On the homepage, the service has a short explanation on how it works.
+On the homepage, the service has a short explanation of how it works.
 
 > Create a request to **sell/buy a giftcard and any cryptocurrency** that is supported, a staff will attach to you and the transaction will go seemlesly
 
@@ -61,7 +61,7 @@ There is no instructions or guide on how to deposit BTC.
 
 ## The App
 
-We did not register to this app due to it requiring a Nigerian or Kenyan phone number.
+We did not register an account for this app due to it requiring a Nigerian or Kenyan phone number.
 
 ## Verdict
 
