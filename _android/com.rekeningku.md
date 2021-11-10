@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.rekeningku
 released: 2018-02-21
-updated: 2021-11-05
-version: "2.1.61"
+updated: 2021-11-09
+version: "2.1.62"
 stars: 4.7
-ratings: 18898
-reviews: 6655
+ratings: 18955
+reviews: 6667
 size: 32M
 website: https://www.rekeningku.com
 repository: 

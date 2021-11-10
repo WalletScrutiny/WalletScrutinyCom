@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.zipwallet.app
 released: 2018-01-30
-updated: 2021-11-08
-version: "9.9.7.7"
+updated: 2021-11-09
+version: "9.9.7.9"
 stars: 4.4
 ratings: 615
 reviews: 383

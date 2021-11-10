@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.atomex.android
 released: 2020-12-06
-updated: 2021-11-01
-version: "1.12.0"
+updated: 2021-11-09
+version: "1.12.1"
 stars: 4.3
 ratings: 56
 reviews: 43

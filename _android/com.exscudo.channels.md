@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.exscudo.channels
 released: 2018-05-17
-updated: 2021-08-31
-version: "2.19.897"
+updated: 2021-11-09
+version: "3.0.929"
 stars: 4.5
-ratings: 556
+ratings: 557
 reviews: 232
-size: 61M
+size: 62M
 website: https://exscudo.com
 repository: 
 issue: 

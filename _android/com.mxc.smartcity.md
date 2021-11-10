@@ -9,9 +9,9 @@ appId: com.mxc.smartcity
 released: 2020-05-18
 updated: 2021-09-13
 version: "1.13.4"
-stars: 3.9
-ratings: 1694
-reviews: 207
+stars: 3.8
+ratings: 1695
+reviews: 208
 size: 45M
 website: https://www.mxc.org/
 repository: 

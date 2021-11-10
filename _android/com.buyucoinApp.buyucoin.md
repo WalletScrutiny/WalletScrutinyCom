@@ -10,8 +10,8 @@ released: 2019-02-15
 updated: 2021-10-29
 version: "3.22"
 stars: 3.2
-ratings: 2640
-reviews: 1851
+ratings: 2644
+reviews: 1852
 size: 37M
 website: https://www.buyucoin.com
 repository: 

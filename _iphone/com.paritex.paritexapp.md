@@ -8,8 +8,8 @@ appId: com.paritex.paritexapp
 appCountry: tr
 idd: 1550831461
 released: 2021-02-11
-updated: 2021-10-21
-version: "2.1.1"
+updated: 2021-11-09
+version: "2.1.3"
 stars: 4.33929
 reviews: 56
 size: 93175808

@@ -10,8 +10,8 @@ released: 2020-05-08
 updated: 2021-11-02
 version: "3.41.14"
 stars: 4.2
-ratings: 19215
-reviews: 3623
+ratings: 19243
+reviews: 3633
 size: 65M
 website: https://lbank.info
 repository: 

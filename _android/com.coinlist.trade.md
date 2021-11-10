@@ -10,8 +10,8 @@ released: 2020-08-10
 updated: 2021-05-19
 version: "2.0.3"
 stars: 2.8
-ratings: 3072
-reviews: 2035
+ratings: 3080
+reviews: 2041
 size: 5.6M
 website: https://coinlist.co/
 repository: 

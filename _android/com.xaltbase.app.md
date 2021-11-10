@@ -10,8 +10,8 @@ released: 2021-05-31
 updated: 2021-08-18
 version: "3.0.2"
 stars: 3.2
-ratings: 3585
-reviews: 2597
+ratings: 3590
+reviews: 2600
 size: 17M
 website: https://www.100xcoin.io/
 repository: 

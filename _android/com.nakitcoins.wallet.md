@@ -4,7 +4,7 @@ title: "Nakitcoins"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.nakitcoins.wallet
 released: 2021-03-30
 updated: 2021-10-24
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nakitcoins.wallet.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

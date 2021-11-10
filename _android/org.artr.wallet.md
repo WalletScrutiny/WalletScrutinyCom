@@ -9,9 +9,9 @@ appId: org.artr.wallet
 released: 
 updated: 2021-09-20
 version: "1.7"
-stars: 4.4
-ratings: 1890
-reviews: 1019
+stars: 4.5
+ratings: 1893
+reviews: 1021
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr

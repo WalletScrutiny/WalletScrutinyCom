@@ -9,9 +9,9 @@ appId: com.ftxmobile.ftx
 released: 2020-05-08
 updated: 2021-10-29
 version: "1.1.6"
-stars: 4.3
-ratings: 6736
-reviews: 2945
+stars: 4.2
+ratings: 6759
+reviews: 2956
 size: 62M
 website: https://ftx.com
 repository: 

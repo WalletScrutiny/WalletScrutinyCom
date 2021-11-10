@@ -10,7 +10,7 @@ released: 2017-11-20
 updated: 2020-11-22
 version: "2.8.8"
 stars: 3.6
-ratings: 194
+ratings: 195
 reviews: 136
 size: 40M
 website: https://evercoin.com

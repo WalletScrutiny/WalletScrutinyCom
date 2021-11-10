@@ -9,9 +9,9 @@ appId: ph.pdax.mobile
 released: 2021-01-18
 updated: 2021-10-11
 version: "1.2.170"
-stars: 3.9
-ratings: 2639
-reviews: 1428
+stars: 4.0
+ratings: 2646
+reviews: 1433
 size: 38M
 website: https://pdax.ph
 repository: 

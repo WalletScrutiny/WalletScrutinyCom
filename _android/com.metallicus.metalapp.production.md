@@ -10,7 +10,7 @@ released:
 updated: 2021-11-08
 version: "2.4.11-prod"
 stars: 3.7
-ratings: 528
+ratings: 529
 reviews: 241
 size: 81M
 website: https://www.metalpay.com/

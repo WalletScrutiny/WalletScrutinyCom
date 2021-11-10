@@ -10,8 +10,8 @@ released: 2019-01-28
 updated: 2021-10-02
 version: "5.1.7_1930"
 stars: 4.6
-ratings: 829
-reviews: 435
+ratings: 830
+reviews: 436
 size: 27M
 website: https://ace.io
 repository: 
