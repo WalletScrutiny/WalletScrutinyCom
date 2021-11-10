@@ -9,9 +9,9 @@ appId: co.hold.mobile
 released: 2018-09-27
 updated: 2021-07-06
 version: "3.13.3"
-stars: 4.2
-ratings: 171
-reviews: 99
+stars: 4.1
+ratings: 174
+reviews: 102
 size: Varies with device
 website: https://hold.io
 repository: 

@@ -8,11 +8,11 @@ appId: com.dsdaq.ios.new
 appCountry: us
 idd: 1517034078
 released: 2020-12-17
-updated: 2021-09-15
-version: "2.5.5"
+updated: 2021-11-08
+version: "3.0.0"
 stars: 5
 reviews: 2
-size: 64155648
+size: 65904640
 website: http://dsdaq.com
 repository: 
 issue: 

@@ -1,33 +1,34 @@
 ---
 wsId: Bitmama
 title: "Bitmama - Buy, Sell & Send Bitcoin Instantly"
-altTitle:
+altTitle: 
 authors:
+
 - danny
 users: 5000
 appId: com.bitmama.bitmama
 released: 2020-07-11
-updated: 2021-10-27
-version: "1.0.34"
+updated: 2021-11-08
+version: "1.0.35"
 stars: 3.6
 ratings: 45
 reviews: 27
-size: 31M
+size: 32M
 website: https://www.bitmama.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitmama.bitmama.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-08-01
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: bitmama
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: bitmama
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

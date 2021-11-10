@@ -10,7 +10,7 @@ released: 2019-09-10
 updated: 2021-10-25
 version: "2.10.3"
 stars: 4.2
-ratings: 276
+ratings: 278
 reviews: 115
 size: 63M
 website: https://arya.xy

@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.frefcrypto.wallet6.png
 bugbounty: 
-verdict: fake
-date: 2021-10-24
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
+- date: 2021-10-24
+  version: "1"
+  appHash: 
+  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
+  verdict: fake
 
 
 providerTwitter: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-28**: This app is no more.
 
 This app pretends to be by name and logo
 {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}.

@@ -10,8 +10,8 @@ released: 2020-05-02
 updated: 2021-10-16
 version: "2.5.0"
 stars: 4.3
-ratings: 213
-reviews: 148
+ratings: 212
+reviews: 147
 size: 13M
 website: https://app.load.ng/
 repository: 

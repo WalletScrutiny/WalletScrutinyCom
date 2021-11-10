@@ -10,8 +10,8 @@ released: 2017-03-22
 updated: 2021-08-20
 version: "4.3.1"
 stars: 3.9
-ratings: 86
-reviews: 30
+ratings: 87
+reviews: 31
 size: 174M
 website: https://bixin.com/
 repository: 

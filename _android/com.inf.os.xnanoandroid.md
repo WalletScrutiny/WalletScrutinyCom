@@ -9,8 +9,8 @@ appId: com.inf.os.xnanoandroid
 released: 2020-12-04
 updated: 2020-10-08
 version: "4.0"
-stars: 4.4
-ratings: 50
+stars: 4.5
+ratings: 51
 reviews: 41
 size: 1.0M
 website: 

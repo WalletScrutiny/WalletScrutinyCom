@@ -10,8 +10,8 @@ released: 2018-12-17
 updated: 2021-10-29
 version: "1.8.4"
 stars: 4.2
-ratings: 955
-reviews: 463
+ratings: 963
+reviews: 466
 size: 45M
 website: https://kriptomat.io/
 repository: 

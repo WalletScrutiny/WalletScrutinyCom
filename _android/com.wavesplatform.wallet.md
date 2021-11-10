@@ -8,10 +8,10 @@ users: 500000
 appId: com.wavesplatform.wallet
 released: 2017-03-09
 updated: 2021-11-05
-version: "2.18.0"
+version: "2.18.1"
 stars: 3.8
-ratings: 6561
-reviews: 3346
+ratings: 6566
+reviews: 3350
 size: 49M
 website: https://waves.exchange/
 repository: 

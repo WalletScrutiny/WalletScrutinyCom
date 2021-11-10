@@ -9,9 +9,9 @@ appId: com.iqpandroidinterface
 released: 2021-10-01
 updated: 2021-10-13
 version: "1.2"
-stars: 4.8
-ratings: 282
-reviews: 257
+stars: 4.9
+ratings: 301
+reviews: 276
 size: 34M
 website: 
 repository: 

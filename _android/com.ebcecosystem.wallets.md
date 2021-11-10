@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 - date: 2019-12-28
@@ -38,6 +38,8 @@ redirect_from:
   - /posts/com.ebcecosystem.wallets/
 ---
 
+
+**Update 2021-10-26**: This app is no more.
 
 The description of this app talks about how many coins it supports and mentions
 of KYC and give the impression it is a custodial service. Their website is

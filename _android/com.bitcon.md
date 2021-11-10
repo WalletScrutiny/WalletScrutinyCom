@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: com.bitcon
 released: 
-updated: 2021-07-02
-version: "1.0.5"
+updated: 2021-11-09
+version: "1.0.7"
 stars: 4.6
 ratings: 5
 reviews: 2
-size: 26M
+size: 27M
 website: 
 repository: 
 issue: 

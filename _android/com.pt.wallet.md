@@ -9,9 +9,9 @@ appId: com.pt.wallet
 released: 2020-10-14
 updated: 2021-02-25
 version: "1.27"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.8
+ratings: 5
+reviews: 2
 size: 71M
 website: 
 repository: 

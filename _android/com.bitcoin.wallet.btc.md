@@ -10,8 +10,8 @@ released: 2019-05-01
 updated: 2021-10-14
 version: "2.3.5"
 stars: 4.3
-ratings: 5462
-reviews: 1032
+ratings: 5476
+reviews: 1037
 size: 31M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

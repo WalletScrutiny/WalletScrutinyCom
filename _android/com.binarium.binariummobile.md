@@ -11,7 +11,7 @@ updated: 2021-09-06
 version: "1.0.0.7"
 stars: 3.4
 ratings: 2438
-reviews: 1889
+reviews: 1888
 size: 7.0M
 website: http://binarium.com/
 repository: 

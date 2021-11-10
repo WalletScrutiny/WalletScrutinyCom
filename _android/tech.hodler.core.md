@@ -10,8 +10,8 @@ released: 2018-09-02
 updated: 2019-10-29
 version: "0.4.6"
 stars: 3.9
-ratings: 48
-reviews: 36
+ratings: 49
+reviews: 37
 size: 19M
 website: https://hodler.tech
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet

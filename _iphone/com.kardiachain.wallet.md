@@ -10,8 +10,8 @@ idd: 1551620695
 released: 2021-03-02
 updated: 2021-11-05
 version: "2.3.39"
-stars: 4.36066
-reviews: 61
+stars: 4.37097
+reviews: 62
 size: 70023168
 website: https://kardiachain.io/
 repository: 

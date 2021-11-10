@@ -27,10 +27,11 @@ reviewArchive:
 providerTwitter: tradewithpilot
 providerLinkedIn: 
 providerFacebook: tradewithpilot
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}
 
