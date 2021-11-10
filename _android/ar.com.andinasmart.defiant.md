@@ -49,6 +49,6 @@ When we installed the app, it first asked to create a pin. Then it asked whether
 
 ## Verdict
 
-We tried searching for Defiant app's appID 'ar.com.andinassmart.defiant' on Github, but it [yielded 0 repositories](https://github.com/search?q=ar.com.andinasmart.defiant). We also tried searching for 'Defiant App' [with 2 unrelated repositories](https://github.com/search?q=defiant+app&type=repositories). There was no mention that the project was open source.
+There was no mention that the project was open source. In the case that we may have missed something, we tried searching for Defiant app's appID 'ar.com.andinassmart.defiant' on Github, but it [yielded 0 repositories](https://github.com/search?q=ar.com.andinasmart.defiant). We also tried searching for 'Defiant App' [with 2 unrelated repositories](https://github.com/search?q=defiant+app&type=repositories). 
 
-If the source code is **not publicly available**, then the app **cannot be verified**.
+We have to conclude that this is not an open source project. If the source code is **not publicly available**, then the app **cannot be verified**.

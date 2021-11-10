@@ -71,4 +71,4 @@ Users are given the option to verify personal identification documents such as a
 
 ## Verdict
 
-While this app claims to be open-source, we can find no evidence of this being the case. It is a **non-custodial** app although it is still **not verifiable.**
+While this app claims to be open-source, we can find no evidence of this being the case. We searched on Github and Google to see if there was something we possible missed, however [there were no results](https://github.com/search?q=com.blocpal.wallet&type=code). It is a **non-custodial** app although it is still **not verifiable.**
