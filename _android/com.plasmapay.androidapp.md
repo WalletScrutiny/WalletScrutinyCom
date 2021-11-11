@@ -37,7 +37,7 @@ redirect_from:
 ## App Description
 
 > Looking for the perfect digital currency wallet? We worked hard for you to create the most secure and user-friendly app — PlasmaPay. It's not just a Wallet, it's the full Payment and Investment platform. Buy Bitcoin, Ethereum and other cryptocurrencies with credit or debit card directly from your wallet.
-
+>
 > - Biometrically authenticate with Touch ID or Face ID
 > - Only you have access to your private keys and your crypto
 > - Paper private key

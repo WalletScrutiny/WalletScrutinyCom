@@ -52,7 +52,7 @@ At the end of the description, there is a note saying that 'Gekkoin' is:
 
 ## The Site
 
-From Terms and Conditions, 10.1:
+From [Terms and Conditions, 10.1:](https://gekkoin.com/source/GeneralTermsandConditions.pdf)
 
 > If we suspect that fraudulent activity is being conducted on your User Account, you acknowledge that for the purpose of protecting you we have the right to temporarily suspend your User Account in order to prevent further or continuing the unauthorized activity.
 

@@ -40,11 +40,11 @@ redirect_from:
 
 ## Third Party Information
 
-Once we determined that this app is non-custodial, we then proceeded to see if they have made the source code publicly available. 
+Once we determined that this app is non-custodial, we then proceeded to checks if they have made the source code publicly available. 
 
 We were able to find a [bitcointalk.org thread](https://bitcointalk.org/index.php?topic=5269872.0) about this topic which was posted on August 19, 2020.
 
-A legendary member named [o_e_l_e_o](https://bitcointalk.org/index.php?action=profile;u=1188543) [posted](https://bitcointalk.org/index.php?topic=5269872.msg55025349#msg55025349):
+A member named [o_e_l_e_o](https://bitcointalk.org/index.php?action=profile;u=1188543) [posted](https://bitcointalk.org/index.php?topic=5269872.msg55025349#msg55025349):
 
 > Is your code open source? It says it is on your website (https://moneypipe.com/hd-wallet) under the FAQ section at the bottom, but I cannot find a link to a GitHub repository.
 
