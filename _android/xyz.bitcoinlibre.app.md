@@ -19,7 +19,7 @@ issue:
 icon: xyz.bitcoinlibre.app.png
 bugbounty:
 verdict: nobtc
-date: 2021-10-18
+date: 2021-11-11
 signer:
 reviewArchive:
 

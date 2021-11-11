@@ -19,7 +19,7 @@ issue:
 icon: com.zb.zhongbi.jpg
 bugbounty:
 verdict: defunct
-date: 2021-08-08
+date: 2021-11-11
 signer:
 reviewArchive:
 

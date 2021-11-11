@@ -19,7 +19,7 @@ issue:
 icon: fi.cardwallet.android.png
 bugbounty:
 verdict: nosource
-date: 2021-10-05
+date: 2021-11-11
 signer: 
 reviewArchive:
 

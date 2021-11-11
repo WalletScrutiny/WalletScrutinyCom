@@ -20,7 +20,7 @@ issue:
 icon: im.token.app99.png
 bugbounty:
 verdict: fake
-date: 2021-06-18
+date: 2021-11-11
 signer:
 reviewArchive:
 

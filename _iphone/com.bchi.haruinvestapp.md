@@ -19,7 +19,7 @@ issue:
 icon: com.bchi.haruinvestapp.jpg
 bugbounty:
 verdict: custodial
-date: 2021-11-03
+date: 2021-11-11
 signer:
 reviewArchive:
 

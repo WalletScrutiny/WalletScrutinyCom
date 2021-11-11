@@ -19,7 +19,7 @@ issue:
 icon: com.defichain.app.jpg
 bugbounty:
 verdict: nobtc
-date: 2021-11-03
+date: 2021-11-11
 signer:
 reviewArchive:
 

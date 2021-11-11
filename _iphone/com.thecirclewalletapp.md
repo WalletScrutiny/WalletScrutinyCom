@@ -19,7 +19,7 @@ issue:
 icon: com.thecirclewalletapp.jpg
 bugbounty:
 verdict: nosource
-date: 2021-11-03
+date: 2021-11-11
 signer:
 reviewArchive:
 

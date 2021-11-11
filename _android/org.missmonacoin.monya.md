@@ -19,7 +19,7 @@ issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
 bugbounty:
 verdict: nonverifiable
-date: 2021-08-02
+date: 2021-11-11
 signer:
 reviewArchive:
 
