@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "OXBTC-Mine Bitcoin, Ethereum & more"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -13,21 +13,21 @@ stars: 3.3
 ratings: 53
 reviews: 25
 size: 3.2M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

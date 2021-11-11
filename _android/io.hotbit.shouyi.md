@@ -10,8 +10,8 @@ released: 2019-09-19
 updated: 2021-11-08
 version: "1.3.40"
 stars: 4.2
-ratings: 54187
-reviews: 20508
+ratings: 54558
+reviews: 20621
 size: 11M
 website: https://www.hotbit.io
 repository: 

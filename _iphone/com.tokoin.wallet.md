@@ -1,35 +1,36 @@
 ---
 wsId: TokoinTWallet
 title: "Tokoin | My-T Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.tokoin.wallet
 appCountry: us
 idd: 1489276175
 released: 2019-12-12
-updated: 2021-10-28
-version: "3.2.2"
+updated: 2021-11-09
+version: "3.2.3"
 stars: 4.5
 reviews: 2
-size: 52192256
+size: 52196352
 website: https://www.tokoin.io/
 repository: https://github.com/tokoinofficial
-issue:
+issue: 
 icon: com.tokoin.wallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: tokoinindonesia
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: tokoinindonesia
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

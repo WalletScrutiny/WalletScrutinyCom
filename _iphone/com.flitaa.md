@@ -10,8 +10,8 @@ idd: 1566777501
 released: 2021-05-25
 updated: 2021-09-05
 version: "1.7.6"
-stars: 4.26316
-reviews: 19
+stars: 4.15
+reviews: 20
 size: 60886016
 website: https://flitbase.com
 repository: 

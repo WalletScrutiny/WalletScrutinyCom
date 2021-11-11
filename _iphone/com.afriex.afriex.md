@@ -10,8 +10,8 @@ idd: 1492022568
 released: 2020-03-06
 updated: 2021-11-05
 version: "11.38"
-stars: 4.66733
-reviews: 502
+stars: 4.66667
+reviews: 504
 size: 54890496
 website: https://afriexapp.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.a60sek.a60cekorg
 released: 2020-04-06
 updated: 2020-04-06
 version: "1.0"
-stars: 3.9
-ratings: 19
-reviews: 14
+stars: 3.8
+ratings: 20
+reviews: 15
 size: 1.5M
 website: 
 repository: 

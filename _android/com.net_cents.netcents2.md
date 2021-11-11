@@ -1,7 +1,7 @@
 ---
 wsId: NetCentsCryptoWallet
 title: "NetCents Cryptocurrency Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 150
 reviews: 67
 size: 61M
 website: https://net-cents.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.net_cents.netcents2.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: netcentshq
 providerLinkedIn: net-cents
 providerFacebook: NetCentsHQ
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: io.hexawallet.hexa
 released: 2020-03-26
-updated: 2021-11-03
-version: "1.7.0"
-stars: 3.9
-ratings: 22
-reviews: 13
+updated: 2021-11-10
+version: "1.7.1"
+stars: 3.7
+ratings: 23
+reviews: 14
 size: 85M
 website: https://hexawallet.io
 repository: https://github.com/bithyve/hexa

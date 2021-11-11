@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.krypto
 released: 2020-04-29
-updated: 2021-11-09
+updated: 2021-11-10
 version: "8.5"
 stars: 4.1
-ratings: 3425
-reviews: 1251
+ratings: 3461
+reviews: 1263
 size: 28M
 website: https://letskrypto.com
 repository: 

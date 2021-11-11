@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "CryptoTrader"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -13,21 +13,21 @@ stars: 4.1
 ratings: 39
 reviews: 17
 size: 61M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.cryptotrader.app.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

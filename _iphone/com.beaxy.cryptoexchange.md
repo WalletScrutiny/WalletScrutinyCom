@@ -10,8 +10,8 @@ idd: 1493015933
 released: 2020-02-12
 updated: 2021-06-08
 version: "2.9"
-stars: 4.54795
-reviews: 73
+stars: 4.5
+reviews: 74
 size: 187341824
 website: https://www.beaxy.com/
 repository: 

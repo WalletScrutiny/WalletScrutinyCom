@@ -13,21 +13,21 @@ stars: 4.7
 ratings: 13
 reviews: 8
 size: 163M
-website: https://sapienwallet.com/ 
+website: https://sapienwallet.com/
 repository: 
 issue: 
 icon: org.sapien.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: SapienWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

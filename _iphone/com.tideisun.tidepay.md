@@ -1,7 +1,7 @@
 ---
 wsId: iSunOne
 title: "iSunOne"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.tideisun.tidepay
@@ -14,22 +14,23 @@ stars: 5
 reviews: 6
 size: 109626368
 website: https://isun.one
-repository:
-issue:
+repository: 
+issue: 
 icon: com.tideisun.tidepay.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: isunone1
 providerLinkedIn: isunone
 providerFacebook: iSunOne
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

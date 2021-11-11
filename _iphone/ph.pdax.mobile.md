@@ -10,8 +10,8 @@ idd: 1531246346
 released: 2020-12-18
 updated: 2021-10-12
 version: "1.2.169"
-stars: 3.1422
-reviews: 218
+stars: 3.15068
+reviews: 219
 size: 97229824
 website: https://pdax.ph
 repository: 

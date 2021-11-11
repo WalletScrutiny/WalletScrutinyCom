@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: "Channels. Wallet & Exchange"
+title: "Fintap. Кошелек, Обменник, Чат"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,8 +9,8 @@ appId: com.exscudo.channels
 appCountry: ru
 idd: 1367425342
 released: 2018-05-16
-updated: 2021-11-08
-version: "3.0.0"
+updated: 2021-11-09
+version: "3.0.1"
 stars: 4.59375
 reviews: 32
 size: 162547712

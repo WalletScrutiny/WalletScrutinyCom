@@ -10,8 +10,8 @@ released: 2021-06-21
 updated: 2021-06-21
 version: "9.8"
 stars: 4.0
-ratings: 81
-reviews: 33
+ratings: 82
+reviews: 34
 size: 10M
 website: https://smartchainapp.blogspot.com/
 repository: 

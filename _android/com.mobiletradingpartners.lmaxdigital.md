@@ -1,7 +1,7 @@
 ---
 wsId: LMAX
 title: "LMAX Digital Trading"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 25
 reviews: 3
 size: 13M
 website: https://www.lmax.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png
-bugbounty:
+bugbounty: 
 verdict: nosendreceive
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: LMAX
 providerLinkedIn: lmax-group
-providerFacebook:
-providerReddit:
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -9,9 +9,9 @@ appId: com.skyewallet.skye_wallet
 released: 2021-05-01
 updated: 2021-11-03
 version: "2.9.4"
-stars: 4.1
-ratings: 49
-reviews: 41
+stars: 4.0
+ratings: 51
+reviews: 43
 size: 27M
 website: 
 repository: 

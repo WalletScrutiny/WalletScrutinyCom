@@ -1,7 +1,7 @@
 ---
 wsId: NetCentsCryptoWallet
 title: "NetCents Cryptocurrency Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.net-cents.app
@@ -14,22 +14,23 @@ stars: 3
 reviews: 8
 size: 63051776
 website: https://www.net-cents.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.net-cents.app.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: netcentshq
 providerLinkedIn: net-cents
 providerFacebook: NetCentsHQ
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {%include copyFromAndroid.html %}

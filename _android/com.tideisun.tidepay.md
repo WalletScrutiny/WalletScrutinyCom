@@ -1,7 +1,7 @@
 ---
 wsId: iSunOne
 title: "iSunOne – Spend Cryptos and Tokens in a Card"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 26
 reviews: 14
 size: 71M
 website: https://isun.one/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.tideisun.tidepay.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: isunone1
 providerLinkedIn: isunone
 providerFacebook: iSunOne
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

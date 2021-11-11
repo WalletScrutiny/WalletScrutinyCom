@@ -11,7 +11,7 @@ updated: 2021-11-07
 version: "1.2.18"
 stars: 4.9
 ratings: 1212
-reviews: 1098
+reviews: 1097
 size: 44M
 website: https://www.bitget.com/
 repository: 

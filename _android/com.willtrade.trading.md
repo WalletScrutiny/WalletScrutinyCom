@@ -10,14 +10,14 @@ released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
 stars: 4.9
-ratings: 1203
-reviews: 779
+ratings: 1280
+reviews: 822
 size: 13M
 website: 
 repository: 
 issue: 
 icon: com.willtrade.trading.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
 signer: 

@@ -1,7 +1,7 @@
 ---
 wsId: CrystalWallet
 title: "Crystal Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 603
 reviews: 553
 size: 63M
 website: https://crystalwallet.eu/
-repository:
-issue:
+repository: 
+issue: 
 icon: eu.crystalwallet.app.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: CrystalWalletEU
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

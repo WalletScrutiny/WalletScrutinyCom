@@ -11,7 +11,7 @@ updated: 2021-10-14
 version: "4"
 stars: 3.2
 ratings: 348
-reviews: 271
+reviews: 270
 size: 1.6M
 website: https://asbazar.com/
 repository: 

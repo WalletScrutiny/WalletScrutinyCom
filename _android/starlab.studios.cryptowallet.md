@@ -4,7 +4,7 @@ title: "Crypto Wallets: Coinmama, Crypto.com Wallets"
 altTitle: "(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets"
 authors:
 - danny
-users: 500
+users: 1000
 appId: starlab.studios.cryptowallet
 released: 2021-06-01
 updated: 2021-10-27

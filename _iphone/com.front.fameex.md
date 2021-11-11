@@ -8,8 +8,8 @@ appId: com.front.fameex
 appCountry: us
 idd: 1499620060
 released: 2021-05-16
-updated: 2021-11-03
-version: "2.6.5"
+updated: 2021-11-10
+version: "2.6.6"
 stars: 5
 reviews: 2
 size: 153587712

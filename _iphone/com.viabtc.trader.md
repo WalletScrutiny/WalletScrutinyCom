@@ -8,11 +8,11 @@ appId: com.viabtc.trader
 appCountry: 
 idd: 1264462812
 released: 2017-08-23
-updated: 2021-11-04
-version: "3.3.1"
-stars: 4.52851
-reviews: 1754
-size: 128132096
+updated: 2021-11-11
+version: "3.3.2"
+stars: 4.52641
+reviews: 1761
+size: 128082944
 website: https://www.coinex.com
 repository: 
 issue: 

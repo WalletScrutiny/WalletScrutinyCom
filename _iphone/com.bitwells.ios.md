@@ -10,8 +10,8 @@ idd: 1568669762
 released: 2021-06-18
 updated: 2021-06-18
 version: "1.0.5"
-stars: 4.66667
-reviews: 36
+stars: 4.65714
+reviews: 35
 size: 37642240
 website: https://www.bitwells.com/
 repository: 

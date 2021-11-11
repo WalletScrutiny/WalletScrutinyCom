@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Bitcoin Exchange P2P"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -13,21 +13,21 @@ stars: 4.0
 ratings: 23
 reviews: 7
 size: 2.7M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.alsoft.bitcoinlocal.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

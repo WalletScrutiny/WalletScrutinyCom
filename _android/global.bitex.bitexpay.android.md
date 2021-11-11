@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: global.bitex.bitexpay.android.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-21
+verdict: stale
+date: 2021-11-11
 signer: 
 reviewArchive:
 

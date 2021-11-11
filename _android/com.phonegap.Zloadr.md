@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - Free NFT & Crypto Marketplace Wallet App"
+title: "Zloadr - NFT Metaverse Marketplace and Wallet App"
 altTitle: 
 authors:
 

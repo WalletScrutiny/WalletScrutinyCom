@@ -1,7 +1,7 @@
 ---
 wsId: Bitmama
 title: "Bitmama"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.bitmama.bitmama.ios
@@ -9,27 +9,28 @@ appCountry: us
 idd: 1561857024
 released: 2021-06-30
 updated: 2021-06-30
-version: "1.0.13"
-stars:
-reviews:
-size: 62102528
+version: "1.0.14"
+stars: 
+reviews: 
+size: 62571520
 website: https://www.bitmama.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitmama.bitmama.ios.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: bitmama
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: bitmama
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

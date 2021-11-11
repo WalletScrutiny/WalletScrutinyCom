@@ -10,7 +10,7 @@ released: 2017-10-04
 updated: 2021-09-24
 version: "2.6.0"
 stars: 3.4
-ratings: 322
+ratings: 321
 reviews: 145
 size: 23M
 website: https://sc.capex.com/

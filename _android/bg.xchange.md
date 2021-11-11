@@ -1,7 +1,7 @@
 ---
 wsId: xChangeBG
 title: "xChange.bg - Buy Bitcoin I Sell Bitcoin"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2020-12-22
 updated: 2021-10-15
 version: "1.8.6"
 stars: 4.9
-ratings: 201
-reviews: 63
+ratings: 202
+reviews: 64
 size: 19M
 website: https://xchange.bg/
-repository:
-issue:
+repository: 
+issue: 
 icon: bg.xchange.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: xchangebg
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: xchangebg
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

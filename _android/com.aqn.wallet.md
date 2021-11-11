@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Aqua Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -13,21 +13,21 @@ stars: 2.6
 ratings: 9
 reviews: 6
 size: 2.0M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.aqn.wallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nobtc
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -1,7 +1,7 @@
 ---
 wsId: CoinMENA
 title: "CoinMENA: Buy Bitcoin Now"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 139
 reviews: 121
 size: 48M
 website: https://www.coinmena.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.coinmena.coinmenaapp.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Coinmena
 providerLinkedIn: coinmena
 providerFacebook: CoinMENA.Bahrain
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

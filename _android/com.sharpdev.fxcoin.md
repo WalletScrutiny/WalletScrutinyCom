@@ -10,8 +10,8 @@ released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
 stars: 2.9
-ratings: 2721
-reviews: 1647
+ratings: 2722
+reviews: 1648
 size: 30M
 website: https://fxcoin.pro
 repository: 

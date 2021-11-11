@@ -10,7 +10,7 @@ released: 2011-07-10
 updated: 2021-10-28
 version: "8.19"
 stars: 4.5
-ratings: 369
+ratings: 371
 reviews: 76
 size: 3.0M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet

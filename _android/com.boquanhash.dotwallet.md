@@ -1,7 +1,7 @@
 ---
 wsId: DotWallet
 title: "DotWallet - Manage Your Crypto and Dapp Assets"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 32
 reviews: 14
 size: 48M
 website: https://www.dotwallet.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.boquanhash.dotwallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: wallet_dot
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

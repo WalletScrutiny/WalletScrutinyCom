@@ -1,7 +1,7 @@
 ---
 wsId: BitLeague
 title: "BitLeague"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 246
 reviews: 238
 size: 19M
 website: https://www.bitleague.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitleague.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: BitLeague_Group
 providerLinkedIn: bitleaguegroup
 providerFacebook: bitleaguegroup
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

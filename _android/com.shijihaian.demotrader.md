@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Forex Simulator - trading with real market data"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -13,21 +13,21 @@ stars: 4.9
 ratings: 172
 reviews: 120
 size: 22M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.shijihaian.demotrader.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -10,8 +10,8 @@ released: 2020-11-09
 updated: 2021-05-16
 version: "1.0.18"
 stars: 4.3
-ratings: 626
-reviews: 369
+ratings: 628
+reviews: 370
 size: 29M
 website: https://perfectcrypto.net/
 repository: 

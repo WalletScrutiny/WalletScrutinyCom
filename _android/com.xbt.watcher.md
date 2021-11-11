@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Prime XBT Futures Pro"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -13,21 +13,21 @@ stars: 3.5
 ratings: 28
 reviews: 19
 size: 5.9M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.xbt.watcher.png
-bugbounty:
+bugbounty: 
 verdict: fake
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

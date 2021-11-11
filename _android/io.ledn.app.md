@@ -1,7 +1,7 @@
 ---
 wsId: Ledn
 title: "Ledn"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -14,20 +14,20 @@ ratings: 48
 reviews: 35
 size: 73M
 website: https://ledn.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: io.ledn.app.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: hodlwithLedn
 providerLinkedIn: ledn-inc
 providerFacebook: Ledn.io
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

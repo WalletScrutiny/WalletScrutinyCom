@@ -1,7 +1,7 @@
 ---
 wsId: GWalletApp
 title: "GWallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 314
 reviews: 258
 size: 64M
 website: https://gwallet.tech/
-repository:
-issue:
+repository: 
+issue: 
 icon: gwallet.tech.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

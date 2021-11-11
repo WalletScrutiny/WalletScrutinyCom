@@ -1,7 +1,7 @@
 ---
 wsId: TokoinTWallet
 title: "My-T Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -15,19 +15,19 @@ reviews: 499
 size: Varies with device
 website: https://www.tokoin.io/
 repository: https://github.com/tokoinofficial
-issue:
+issue: 
 icon: com.tokoin.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: tokoinindonesia
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: tokoinindonesia
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

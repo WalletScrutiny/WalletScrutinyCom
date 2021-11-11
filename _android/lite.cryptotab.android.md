@@ -9,9 +9,9 @@ appId: lite.cryptotab.android
 released: 2021-06-16
 updated: 2021-10-19
 version: "6.0.19"
-stars: 4.2
-ratings: 14213
-reviews: 7172
+stars: 4.1
+ratings: 14365
+reviews: 7247
 size: Varies with device
 website: 
 repository: 

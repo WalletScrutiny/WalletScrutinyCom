@@ -1,33 +1,33 @@
 ---
-wsId:
+wsId: 
 title: "Beldex"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.beldex
-released:
+released: 
 updated: 2021-04-14
 version: "Varies with device"
-stars:
-ratings:
-reviews:
+stars: 
+ratings: 
+reviews: 
 size: Varies with device
 website: https://www.beldex.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.beldex.png
-bugbounty:
+bugbounty: 
 verdict: nobtc
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: beldexcoin
 providerLinkedIn: beldex-coin
 providerFacebook: beldexofficial
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "TechPay Exchange - Cryptocurrency Trading App"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -13,21 +13,21 @@ stars: 4.2
 ratings: 134
 reviews: 66
 size: 24M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: crypto.base.baseexchange.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: techpay_io
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

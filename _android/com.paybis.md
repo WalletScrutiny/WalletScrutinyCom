@@ -1,7 +1,7 @@
 ---
 wsId: Paybis
 title: "Paybis: Buy & Sell Bitcoin | Track Prices and more"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -10,24 +10,24 @@ released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
 stars: 3.5
-ratings: 48
-reviews: 26
+ratings: 51
+reviews: 27
 size: 6.1M
 website: https://paybis.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.paybis.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: paybis
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

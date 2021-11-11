@@ -1,7 +1,7 @@
 ---
 wsId: Ibandirect
 title: "Ibandirect"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,20 +14,20 @@ ratings: 48
 reviews: 28
 size: 73M
 website: https://ibandirect.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.ibandirect.card.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

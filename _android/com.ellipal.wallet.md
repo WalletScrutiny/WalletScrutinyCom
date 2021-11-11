@@ -10,8 +10,8 @@ released: 2018-07-02
 updated: 2021-10-13
 version: "3.2.0"
 stars: 4.3
-ratings: 718
-reviews: 408
+ratings: 720
+reviews: 410
 size: 27M
 website: https://www.ellipal.com
 repository: 

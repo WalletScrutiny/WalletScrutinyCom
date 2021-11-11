@@ -1,7 +1,7 @@
 ---
 wsId: DotWallet
 title: "DotWallet - BTC/ETH/BSV Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.boquanhash.dotwallet
@@ -14,22 +14,23 @@ stars: 5
 reviews: 4
 size: 76503040
 website: https://www.dotwallet.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.boquanhash.dotwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: wallet_dot
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

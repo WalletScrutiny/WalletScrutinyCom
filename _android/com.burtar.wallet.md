@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Burtar wallet: Buy, sell & swap bitcoin & crypto"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2021-07-29
 updated: 2021-07-30
 version: "1.0"
 stars: 4.4
-ratings: 776
-reviews: 725
+ratings: 783
+reviews: 730
 size: 6.1M
 website: https://burtar.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.burtar.wallet.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

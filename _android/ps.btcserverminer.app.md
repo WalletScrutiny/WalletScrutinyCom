@@ -10,8 +10,8 @@ released: 2021-07-16
 updated: 2021-08-29
 version: "1.0"
 stars: 3.9
-ratings: 4717
-reviews: 2328
+ratings: 4721
+reviews: 2331
 size: 21M
 website: http://btcminer.tilda.ws/btcserverminer
 repository: 
