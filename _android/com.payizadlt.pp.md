@@ -66,7 +66,7 @@ However, Payiza claims to have a wallet. It is described as:
 
 ## The App
 
-We tried to register. However, although it asked to verify via SMS, we did not receive an OTP. We tried on multiple numbers.  
+We tried to register. Although it asked to verify via SMS, we did not receive an OTP. We tried on multiple numbers.  
 
 ## Verdict
 

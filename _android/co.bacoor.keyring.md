@@ -40,7 +40,7 @@ redirect_from:
 >
 > Restore Bitcoin Wallet, Ethereum Wallet, Binance Smart Chain Wallet, Houbi ECO Chain Wallet, or TomoChain Wallet easily and instantly
 
-Instead of mnemonics, it advertises a backup file OR 1 private key to restore your wallets.
+Instead of mnemonics, it advertises a backup file to restore your wallets.
 
 > You only need to download KEYRING PRO, choose ‘Backup Wallet’, locate the Backup File on your device, then start the process.
 >
@@ -59,4 +59,4 @@ We tried the app and were able to create a wallet. While we were not provided wi
 
 ## Verdict
 
-This wallet is **self-custodial.** However, with no link to a Github account or mention of any source code, we assume this project is **closed-source.** We also searched the appID 'co.bacoor.keyring' on Github in case there was something we had missed. [We found nothing of relevance.](https://github.com/search?q=co.bacoor.keyring&type=code)
+This wallet is **self-custodial.** With no link to a Github account or mention of any source code, we assume this project is **closed-source.** We also searched the appID 'co.bacoor.keyring' on Github in case there was something we had missed. [We found nothing of relevance.](https://github.com/search?q=co.bacoor.keyring&type=code)
