@@ -9,9 +9,9 @@ appId: coin24.mobile
 released: 2020-09-28
 updated: 2020-09-28
 version: "1.0.0"
-stars: 4.3
-ratings: 141
-reviews: 109
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.5M
 website: 
 repository: 

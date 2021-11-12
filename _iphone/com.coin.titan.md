@@ -8,8 +8,8 @@ appId: com.coin.titan
 appCountry: us
 idd: 1492432350
 released: 2021-04-22
-updated: 2021-10-29
-version: "1.25.0"
+updated: 2021-11-12
+version: "1.26.0"
 stars: 1.5
 reviews: 2
 size: 87212032

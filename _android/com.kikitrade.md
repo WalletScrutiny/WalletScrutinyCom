@@ -10,8 +10,8 @@ released: 2020-07-24
 updated: 2021-11-06
 version: "3.4.6"
 stars: 4.6
-ratings: 1509
-reviews: 261
+ratings: 1557
+reviews: 267
 size: 55M
 website: https://www.kikitrade.com/
 repository: 

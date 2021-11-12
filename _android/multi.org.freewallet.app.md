@@ -9,9 +9,9 @@ appId: multi.org.freewallet.app
 released: 2017-08-10
 updated: 2018-10-29
 version: "1.0.69"
-stars: 3.8
+stars: 4.8
 ratings: 2012
-reviews: 1029
+reviews: 1
 size: 10M
 website: https://freewallet.org/
 repository: 

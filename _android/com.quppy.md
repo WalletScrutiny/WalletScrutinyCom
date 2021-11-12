@@ -1,6 +1,6 @@
 ---
 wsId: Quppy
-title: "Quppy Wallet - bitcoin, crypto and euro payments"
+title: "Quppy: Bitcoin Сrypto wallet"
 altTitle: 
 authors:
 - leo

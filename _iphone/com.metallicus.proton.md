@@ -10,7 +10,7 @@ idd: 1516536231
 released: 2020-11-25
 updated: 2021-11-10
 version: "1.1.18"
-stars: 4.71225
+stars: 4.70755
 reviews: 212
 size: 32476160
 website: https://protonchain.com

@@ -10,8 +10,8 @@ released: 2020-07-23
 updated: 2021-10-22
 version: "5.0.40.0"
 stars: 4.7
-ratings: 11339
-reviews: 984
+ratings: 11345
+reviews: 988
 size: 39M
 website: https://www.cointiger.com/
 repository: 

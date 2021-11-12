@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "AllToken : Bitcoin,Ethereum,Blockchain Wallet"
-altTitle:
+altTitle: 
 authors:
 - leo
 - danny
@@ -14,21 +14,21 @@ stars: 4.9
 ratings: 97
 reviews: 4
 size: 45M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: im.token.app99.png
-bugbounty:
+bugbounty: 
 verdict: fake
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -8,11 +8,11 @@ appId: com.cakedefi.app
 appCountry: la
 idd: 1564415526
 released: 2021-06-15
-updated: 2021-11-06
-version: "2.2.1"
+updated: 2021-11-11
+version: "2.2.2"
 stars: 
 reviews: 
-size: 53413888
+size: 53774336
 website: https://cakedefi.com/
 repository: 
 issue: 

@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Magnetic Money - exchange search"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 114
 reviews: 102
 size: 11M
 website: https://magnetic-money.org/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.spectre.magneticmoney.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

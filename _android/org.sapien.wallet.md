@@ -11,7 +11,7 @@ updated: 2021-10-28
 version: "1.42.0"
 stars: 4.7
 ratings: 13
-reviews: 8
+reviews: 
 size: 163M
 website: https://sapienwallet.com/
 repository: 

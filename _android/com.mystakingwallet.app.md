@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "My Staking Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,19 +14,19 @@ ratings: 108
 reviews: 64
 size: 10M
 website: https://www.metrixcoin.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.mystakingwallet.app.png
-bugbounty:
+bugbounty: 
 verdict: nobtc
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: MetrixCoin
-providerLinkedIn:
-providerFacebook:
+providerLinkedIn: 
+providerFacebook: 
 providerReddit: Linda_Project_Inc
 
 redirect_from:

@@ -10,7 +10,7 @@ released: 2020-12-30
 updated: 2021-03-02
 version: "1.0.4.210302"
 stars: 4.4
-ratings: 108
+ratings: 109
 reviews: 66
 size: 27M
 website: https://www.terra-bit.io/

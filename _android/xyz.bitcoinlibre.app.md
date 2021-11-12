@@ -1,7 +1,7 @@
 ---
 wsId: BitcoinLibre
 title: "Bitcoin Libre"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -9,25 +9,25 @@ appId: xyz.bitcoinlibre.app
 released: 2021-09-20
 updated: 2021-11-09
 version: "2.0.0"
-stars: 4.3
-ratings: 95
-reviews: 63
+stars: 4.4
+ratings: 96
+reviews: 64
 size: 34M
 website: https://www.libre.sv/
-repository:
-issue:
+repository: 
+issue: 
 icon: xyz.bitcoinlibre.app.png
-bugbounty:
+bugbounty: 
 verdict: nobtc
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

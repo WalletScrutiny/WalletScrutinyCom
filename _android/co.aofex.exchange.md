@@ -10,7 +10,7 @@ released: 2021-09-01
 updated: 2021-11-04
 version: "3.0.0"
 stars: 4.9
-ratings: 5612
+ratings: 5613
 reviews: 240
 size: 71M
 website: https://www.aofex.com/#/

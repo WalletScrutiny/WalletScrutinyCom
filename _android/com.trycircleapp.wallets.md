@@ -1,7 +1,7 @@
 ---
 wsId: TheCircleWalletApp
 title: "The Circle App Wallets"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 90
 reviews: 58
 size: 8.1M
 website: https://trycircleapp.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.trycircleapp.wallets.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

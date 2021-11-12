@@ -9,9 +9,9 @@ appId: com.valar.pintu
 released: 2020-01-25
 updated: 2021-11-09
 version: "3.7.1"
-stars: 3.7
-ratings: 19033
-reviews: 12182
+stars: 3.8
+ratings: 19317
+reviews: 12354
 size: Varies with device
 website: https://pintu.co.id/
 repository: 

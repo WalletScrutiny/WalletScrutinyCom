@@ -9,9 +9,9 @@ appId: com.burency.app
 released: 2021-03-21
 updated: 2021-05-07
 version: "1.0.2"
-stars: 4.4
-ratings: 232
-reviews: 132
+stars: 4.3
+ratings: 233
+reviews: 133
 size: 22M
 website: https://www.burency.com/
 repository: 

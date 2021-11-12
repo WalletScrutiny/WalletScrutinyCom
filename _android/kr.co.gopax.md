@@ -10,7 +10,7 @@ released: 2018-11-05
 updated: 2021-11-09
 version: "1.4.19.b245"
 stars: 2.7
-ratings: 1108
+ratings: 1109
 reviews: 855
 size: 15M
 website: https://www.gopax.co.kr/

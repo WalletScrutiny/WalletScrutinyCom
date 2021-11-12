@@ -10,8 +10,8 @@ released:
 updated: 2021-11-09
 version: "Varies with device"
 stars: 3.8
-ratings: 435836
-reviews: 231252
+ratings: 435973
+reviews: 231324
 size: Varies with device
 website: 
 repository: 

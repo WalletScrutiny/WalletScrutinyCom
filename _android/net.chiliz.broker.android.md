@@ -10,8 +10,8 @@ released: 2020-01-22
 updated: 2021-06-01
 version: "4.0.1"
 stars: 2.6
-ratings: 627
-reviews: 370
+ratings: 629
+reviews: 371
 size: 21M
 website: https://www.chiliz.net/
 repository: 

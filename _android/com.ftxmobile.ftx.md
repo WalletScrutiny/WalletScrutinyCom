@@ -10,8 +10,8 @@ released: 2020-05-08
 updated: 2021-10-29
 version: "1.1.6"
 stars: 4.2
-ratings: 6782
-reviews: 2970
+ratings: 6795
+reviews: 2975
 size: 62M
 website: https://ftx.com
 repository: 

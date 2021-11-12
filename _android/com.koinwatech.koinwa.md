@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Buy & Sell Bitcoin - Koinwa"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 89
 reviews: 67
 size: 52M
 website: https://www.koinwa.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.koinwatech.koinwa.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

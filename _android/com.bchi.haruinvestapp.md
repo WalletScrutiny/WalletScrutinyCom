@@ -1,7 +1,7 @@
 ---
 wsId: HaruInvest
 title: "Haru Invest - Earn Bitcoin"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 97
 reviews: 46
 size: 72M
 website: https://haruinvest.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bchi.haruinvestapp.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: haruinvest
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: haruinvest
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

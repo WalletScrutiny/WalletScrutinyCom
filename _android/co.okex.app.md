@@ -10,8 +10,8 @@ released: 2019-09-11
 updated: 2021-10-10
 version: "6.0.2"
 stars: 4.1
-ratings: 5786
-reviews: 2839
+ratings: 5809
+reviews: 2854
 size: 9.2M
 website: https://ok-ex.co
 repository: 

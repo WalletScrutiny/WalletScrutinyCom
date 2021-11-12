@@ -10,8 +10,8 @@ released: 2018-09-27
 updated: 2021-11-09
 version: "8.1.1"
 stars: 4.2
-ratings: 7960
-reviews: 3360
+ratings: 7988
+reviews: 3372
 size: 16M
 website: https://www.excoino.net/
 repository: 

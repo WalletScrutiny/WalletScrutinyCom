@@ -8,11 +8,11 @@ appId: com.global.bitcoin
 appCountry: us
 idd: 1536910503
 released: 2020-10-26
-updated: 2021-11-04
-version: "2.10.0"
-stars: 4.92307
-reviews: 104
-size: 25984000
+updated: 2021-11-11
+version: "2.10.1"
+stars: 4.9238
+reviews: 105
+size: 25992192
 website: https://bitcoin.global/
 repository: 
 issue: 

@@ -10,8 +10,8 @@ released: 2019-05-14
 updated: 2021-10-21
 version: "3.4.2"
 stars: 3.6
-ratings: 2087
-reviews: 1586
+ratings: 2094
+reviews: 1589
 size: 1.4M
 website: https://yellowcard.io/
 repository: 

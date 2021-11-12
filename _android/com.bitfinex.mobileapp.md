@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bitfinex.mobileapp
 released: 2019-02-11
-updated: 2021-08-11
-version: "4.9.0"
+updated: 2021-11-11
+version: "4.13.0"
 stars: 3.6
-ratings: 1613
-reviews: 685
-size: 59M
+ratings: 1620
+reviews: 684
+size: 63M
 website: https://www.bitfinex.com
 repository: 
 issue: 

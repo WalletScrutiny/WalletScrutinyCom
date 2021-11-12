@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Monya - Monacoin & Altcoins Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -17,17 +17,17 @@ website: https://monya-wallet.github.io/
 repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
-bugbounty:
+bugbounty: 
 verdict: nonverifiable
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: monya_wallet
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

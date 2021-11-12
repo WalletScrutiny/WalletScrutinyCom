@@ -1,7 +1,7 @@
 ---
 wsId: TheCircleWalletApp
 title: "The Circle App Wallets"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.thecirclewalletapp
@@ -10,26 +10,27 @@ idd: 1545999230
 released: 2021-01-05
 updated: 2021-01-05
 version: "2.0"
-stars:
-reviews:
+stars: 
+reviews: 
 size: 24221696
 website: https://trycircleapp.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.thecirclewalletapp.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

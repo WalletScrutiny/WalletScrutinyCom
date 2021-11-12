@@ -9,9 +9,9 @@ appId: com.electroneum.mobile
 released: 2017-12-13
 updated: 2021-10-29
 version: "5.1.5"
-stars: 2.8
-ratings: 58539
-reviews: 37524
+stars: 3.5
+ratings: 58542
+reviews: 105
 size: 14M
 website: 
 repository: 

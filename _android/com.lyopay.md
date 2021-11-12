@@ -10,8 +10,8 @@ released: 2020-10-02
 updated: 2021-11-10
 version: "7.1.1"
 stars: 4.6
-ratings: 418
-reviews: 234
+ratings: 421
+reviews: 236
 size: 59M
 website: https://lyopay.com/
 repository: 

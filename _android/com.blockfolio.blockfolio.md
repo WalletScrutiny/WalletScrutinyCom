@@ -10,8 +10,8 @@ released: 2015-10-01
 updated: 2021-11-09
 version: "4.2.2"
 stars: 4.1
-ratings: 158021
-reviews: 48385
+ratings: 158134
+reviews: 48418
 size: 63M
 website: https://www.blockfolio.com
 repository: 

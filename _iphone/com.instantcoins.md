@@ -10,8 +10,8 @@ idd: 1519748966
 released: 2020-08-17
 updated: 2021-04-16
 version: "1.0.5"
-stars: 3.09524
-reviews: 21
+stars: 3
+reviews: 22
 size: 75852800
 website: https://instantcoins.ng/
 repository: 

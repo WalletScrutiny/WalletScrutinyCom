@@ -1,7 +1,7 @@
 ---
 wsId: CardWalletCardano
 title: "CardWallet - ADA Crypto Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: fi.cardwallet
@@ -14,22 +14,23 @@ stars: 5
 reviews: 2
 size: 95807488
 website: https://cardwallet.fi/
-repository:
-issue:
+repository: 
+issue: 
 icon: fi.cardwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: CardWallet_fi
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

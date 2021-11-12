@@ -10,8 +10,8 @@ released: 2019-05-31
 updated: 2021-11-05
 version: "Varies with device"
 stars: 4.8
-ratings: 880
-reviews: 277
+ratings: 891
+reviews: 279
 size: Varies with device
 website: https://www.amarkets.com/
 repository: 

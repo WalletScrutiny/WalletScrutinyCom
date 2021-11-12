@@ -17,7 +17,7 @@ website: https://app.load.ng/
 repository: 
 issue: 
 icon: load.ng.loadng.jpg
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-11
 signer: 

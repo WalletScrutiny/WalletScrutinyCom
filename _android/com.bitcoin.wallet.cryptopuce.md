@@ -10,8 +10,8 @@ released: 2021-03-07
 updated: 2021-05-20
 version: "1.2"
 stars: 3.7
-ratings: 45
-reviews: 21
+ratings: 46
+reviews: 22
 size: 4.0M
 website: https://cryptopuce.com/
 repository: 

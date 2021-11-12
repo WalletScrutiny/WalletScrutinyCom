@@ -1,7 +1,7 @@
 ---
 wsId: DeFiChainWallet
 title: "DeFiChain Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,17 +10,17 @@ released: 2021-08-22
 updated: 2021-11-08
 version: "0.14.0"
 stars: 4.9
-ratings: 87
+ratings: 89
 reviews: 43
 size: 38M
 website: https://defichain.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.defichain.app.png
-bugbounty:
+bugbounty: 
 verdict: nobtc
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 

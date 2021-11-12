@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Crypto Exchange - Trade Crypto Instantly"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2021-05-20
 updated: 2021-05-20
 version: "1.0"
 stars: 4.6
-ratings: 142
-reviews: 141
+ratings: 144
+reviews: 143
 size: 5.8M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.cryptocurrency.exchange.app.online.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

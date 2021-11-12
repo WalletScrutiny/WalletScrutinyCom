@@ -8,11 +8,11 @@ users: 100000
 appId: kuna.beta
 released: 2019-07-22
 updated: 2021-11-03
-version: "1.4.2"
+version: "1.4.7"
 stars: 4.0
-ratings: 814
+ratings: 815
 reviews: 484
-size: 88M
+size: 93M
 website: https://kuna.io
 repository: 
 issue: 

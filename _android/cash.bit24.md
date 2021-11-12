@@ -10,8 +10,8 @@ released: 2021-05-30
 updated: 2021-09-14
 version: "4.0.4"
 stars: 4.5
-ratings: 1333
-reviews: 414
+ratings: 1344
+reviews: 417
 size: 9.5M
 website: https://bit24.cash/
 repository: 
