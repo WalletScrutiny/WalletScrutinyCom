@@ -19,6 +19,7 @@
   --permanent-black: #333;
   --permanent-white: #fafafa;
   --red-notify-background: #fdb5b5;
+  --blue-notify-background: #d0d0ff;
   --gold: #ff9b00;
   --blue:#003395;
   --light-blue: #0064ff;
@@ -51,6 +52,7 @@
   --permanent-black: #000;
   --permanent-white: #e2e2e2;
   --red-notify-background: #b90000;
+  --blue-notify-background: #101040;
   --gold: #ffb300;
   --blue:#a0b6f9;
   --reproducible-badge: url(/images/reproducible-badge-light.svg);
@@ -1727,5 +1729,16 @@ html {
 }
 
 .alertBox > div {
+  margin:1em;
+}
+
+.infoBox {
+  border:solid 3px black;
+  border-radius:20px;
+  background:var(--blue-notify-background);
+  margin-bottom:1em;
+}
+
+.infoBox > div {
   margin:1em;
 }
