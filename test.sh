@@ -177,8 +177,8 @@ $diffResult
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
-$diffGuide
-===== End Results ====="
+===== End Results =====
+$diffGuide"
 }
 
 cleanup() {
