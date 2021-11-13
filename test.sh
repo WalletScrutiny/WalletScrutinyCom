@@ -163,7 +163,7 @@ for more details."
     diffGuide=''
   fi
 
-  echo "Results:
+  echo "===== Begin Results =====
 appId:          $appId
 signer:         $signer
 apkVersionName: $versionName
@@ -177,7 +177,8 @@ $diffResult
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
-$diffGuide"
+$diffGuide
+===== End Results ====="
 }
 
 cleanup() {
