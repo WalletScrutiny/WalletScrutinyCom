@@ -19,9 +19,14 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-21
+date: 2021-11-14
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-10-21
+  version: "3.11.0.11"
+  appHash: 30c5903e364fa9b7f2fafd8f0e1332867025338209469e8a9b32e2f841c7e512
+  gitRevision: 9a4ffd99428ebf9a8135f53771d4aa977bc9b837
+  verdict: reproducible
 - date: 2021-10-19
   version: "3.11.0.9"
   appHash: 72cfd43e8c48800b2b9201c5461d870f0948999ace492199528dd07c96738b1b
@@ -156,7 +161,7 @@ redirect_from:
 ---
 
 
-**Disclaimer**: The authors of this project have contributed to Mycelium.
+**Disclaimer**: Authors of this project have contributed to Mycelium.
 
 **Independent re-builds**:
 
@@ -168,25 +173,24 @@ procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
 
 ```
-Results:
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.11.0.11
-apkVersionCode: 3110011
+apkVersionName: 3.12.2.0
+apkVersionCode: 3120200
 verdict:        reproducible
-appHash:        30c5903e364fa9b7f2fafd8f0e1332867025338209469e8a9b32e2f841c7e512
-commit:         feadf9a597dce83c7d48b04e377f0d552b81be02
+appHash:        f4a163ba974e57d32345ef27261c159f6b396df4ea5a7cdf2c2ab9b0c49b5a4c
+commit:         0b9bb51a276c2e60d3970ed58e913b1f998a0497
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3110011/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3110011/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3120200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3120200/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object feadf9a597dce83c7d48b04e377f0d552b81be02
+object 0b9bb51a276c2e60d3970ed58e913b1f998a0497
 type commit
-tag v3.11.0.11
-tagger itserg <sergey.dolgopolov@mycelium.com> 1633968274 +0300
+tag v3.12.2.0
+tagger itserg <sergey.dolgopolov@mycelium.com> 1636556907 +0300
 
-Archivation-related fixes
+Updated target from 29 to 30 due to Google Play requirements
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**

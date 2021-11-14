@@ -19,9 +19,14 @@ issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-29
+date: 2021-11-14
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-10-29
+  version: "3.7.5"
+  appHash: 4bc2491a7c50c241e12ff3f5ec1d84e82d45d9fa86c41e4db1a8869ad2b77951
+  gitRevision: 9a4ffd99428ebf9a8135f53771d4aa977bc9b837
+  verdict: reproducible
 - date: 2021-10-04
   version: "3.7.3"
   appHash: f43452d74790aa086fbd2c73718e81a0fc24cb238258fda67cd5602193236e2f
@@ -166,27 +171,26 @@ With
 we get:
 
 ```
-Results:
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.5
-apkVersionCode: 22000375
+apkVersionName: 3.7.6
+apkVersionCode: 22000376
 verdict:        reproducible
-appHash:        4bc2491a7c50c241e12ff3f5ec1d84e82d45d9fa86c41e4db1a8869ad2b77951
-commit:         7c4f6792ccb29c076ed64bb3d8933b9a2c133ff8
+appHash:        5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
+commit:         e8ece72ff88f91adf9ef2c82af67a864de91708f
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000375/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 7c4f6792ccb29c076ed64bb3d8933b9a2c133ff8
+object e8ece72ff88f91adf9ef2c82af67a864de91708f
 type commit
-tag release_3.7.5
-tagger Domenico Gabriele <domenico@blockstream.com> 1635277340 +0200
+tag release_3.7.6
+tagger Domenico Gabriele <domenico@blockstream.com> 1636544543 +0100
 
-Release 3.7.5
+Release 3.7.6
 ```
 
 which is what we want to see to give it the verdict **reproducible**.

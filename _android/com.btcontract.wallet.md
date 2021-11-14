@@ -20,9 +20,14 @@ issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-29
+date: 2021-11-14
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2021-10-29
+  version: "2.2.17"
+  appHash: 18096c8996af7d0efd89d6481ee6a3a700691c8557e2f0986fc3fa7b770667b5
+  gitRevision: 9a4ffd99428ebf9a8135f53771d4aa977bc9b837
+  verdict: reproducible
 - date: 2021-10-26
   version: "2.2.16"
   appHash: dd3204688e6a23831f0daa51904112643acf859550b6a6f1d6210e91f5da14f5
@@ -58,25 +63,25 @@ and the provider reacted in record time, releasing version `2.2.17` with a fix.
 For that latest version, our test script returned this:
 
 ```
-Results:
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.2.17
-apkVersionCode: 82
+apkVersionName: 2.3.18
+apkVersionCode: 85
 verdict:        reproducible
-appHash:        18096c8996af7d0efd89d6481ee6a3a700691c8557e2f0986fc3fa7b770667b5
-commit:         d1f254e66eaee912c073498cf361458e002777fb
+appHash:        385f39ac27f728846ee908f997cbb10dfb87719e22b62d492f59c5321c6cc0b6
+commit:         7a8e9dda0a8d3d637a1ca6e7c411a18febb4df02
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_82/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_82/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_82/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_82/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_85/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_85/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_85/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_85/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
+
 ```
 
 The separately downloaded `graph.snapshot-mainnet.zlib` had this hash:
 
 ```
-4d3ffab44c6e4d8352b32eb2168f8f5aa829991391d9d06ebef4e5afc327c0f7 app/src/main/assets/graph.snapshot-mainnet.zlib
+24001490837dfcdb05facde562225383a86ffb22e5a94679ab2cb9fd64a9bfd5 app/src/main/assets/graph.snapshot-mainnet.zlib
 ```
