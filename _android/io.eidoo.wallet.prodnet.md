@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: io.eidoo.wallet.prodnet
 released: 2017-09-25
-updated: 2021-09-29
-version: "3.6.2"
+updated: 2021-11-08
+version: "3.6.3"
 stars: 3.1
-ratings: 1621
-reviews: 806
+ratings: 1622
+reviews: 807
 size: 13M
 website: https://eidoo.io
 repository: 

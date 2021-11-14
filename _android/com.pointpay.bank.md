@@ -1,22 +1,22 @@
 ---
 wsId: pointpay
-title: "PointPay Bank: Cryptocurrency Wallet & Exchange"
+title: "PointPay Ecosystem Platform"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: com.pointpay.bank
 released: 2020-07-21
-updated: 2021-10-29
-version: "v5.6.3"
-stars: 4.6
-ratings: 3983
-reviews: 2023
+updated: 2021-11-12
+version: "v5.6.6"
+stars: 3.7
+ratings: 3808
+reviews: 1944
 size: 77M
 website: https://wallet.pointpay.io
 repository: 
 issue: 
-icon: com.pointpay.bank.png
+icon: com.pointpay.bank.jpg
 bugbounty: 
 verdict: custodial
 date: 2021-04-26

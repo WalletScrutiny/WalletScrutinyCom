@@ -4,13 +4,13 @@ title: "Dove Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.dovewallet.app
 released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
-stars: 3.5
-ratings: 40
+stars: 3.4
+ratings: 42
 reviews: 27
 size: 29M
 website: 

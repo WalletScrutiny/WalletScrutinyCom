@@ -8,10 +8,10 @@ users: 5000000
 appId: de.schildbach.wallet
 released: 2011-03-01
 updated: 2021-11-01
-version: "8.18"
+version: "8.19"
 stars: 3.9
-ratings: 28474
-reviews: 9369
+ratings: 28547
+reviews: 9396
 size: 3.0M
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -19,9 +19,14 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-26
+date: 2021-11-09
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-10-26
+  version: "8.18"
+  appHash: f7178b9adaa88ab0a03486facb3857ac94ede677793ed0389878eb54e8023fb6
+  gitRevision: d0004cade45b73e04d2217e51240017e03c34c05
+  verdict: reproducible
 - date: 2021-09-18
   version: "8.17"
   appHash: 5357e8a57e61df80d655cc7e477ed3f07f75e8e873429e4809a0f821e6d14fa8
@@ -149,24 +154,24 @@ came to these results:
 Results:
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.18
-apkVersionCode: 818
+apkVersionName: 8.19
+apkVersionCode: 819
 verdict:        reproducible
-appHash:        f7178b9adaa88ab0a03486facb3857ac94ede677793ed0389878eb54e8023fb6
-commit:         33de888107de4c9cc8daf5f982161eac7527c5c4
+appHash:        1f80c04950bf05270bef67e553b99d3593c836688a3922d4c2cee714389be54c
+commit:         ce4644cf81d11be07f01e2d65a648e6e2911b256
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_818/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_818/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_818/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_818/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_819/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_819/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_819/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_819/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 33de888107de4c9cc8daf5f982161eac7527c5c4
+object ce4644cf81d11be07f01e2d65a648e6e2911b256
 type commit
-tag v8.18
-tagger Andreas Schildbach <andreas@schildbach.de> 1635102831 +0200
+tag v8.19
+tagger Andreas Schildbach <andreas@schildbach.de> 1635370861 +0200
 
-8.18 release
+8.19 release
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.

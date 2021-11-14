@@ -8,8 +8,8 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2021-10-29
-version: "2.1"
+updated: 2021-11-10
+version: "2.1.1"
 stars: 5
 reviews: 7
 size: 150866944

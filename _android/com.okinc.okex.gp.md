@@ -7,11 +7,11 @@ authors:
 users: 1000000
 appId: com.okinc.okex.gp
 released: 2019-10-29
-updated: 2021-10-19
-version: "5.3.8"
+updated: 2021-11-02
+version: "5.3.12"
 stars: 4.5
-ratings: 139340
-reviews: 40655
+ratings: 142788
+reviews: 41037
 size: 173M
 website: https://www.okex.com
 repository: 

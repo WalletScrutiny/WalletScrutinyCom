@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "7b — Trade Bitcoin & Exchange Crypto securely"
+title: "7b — Buy Bitcoin & Exchange Crypto"
 altTitle: 
 authors:
 
 users: 1000
 appId: io.sevenb.terminal
 released: 2021-05-04
-updated: 2021-10-24
-version: "0.1.255"
-stars: 4.2
-ratings: 26
-reviews: 12
-size: 12M
+updated: 2021-11-10
+version: "0.1.265"
+stars: 3.9
+ratings: 29
+reviews: 14
+size: 13M
 website: 
 repository: 
 issue: 

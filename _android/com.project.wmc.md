@@ -9,9 +9,9 @@ appId: com.project.wmc
 released: 2019-09-30
 updated: 2020-03-25
 version: "1.0.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.3
+ratings: 7
+reviews: 3
 size: 1.8M
 website: 
 repository: 

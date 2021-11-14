@@ -4,7 +4,7 @@ title: "Payiza"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.payizadlt.pp
 released: 2021-03-02
 updated: 2021-04-17
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.payizadlt.pp.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:

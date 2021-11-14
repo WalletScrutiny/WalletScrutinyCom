@@ -8,11 +8,11 @@ appId: com.bitfinex.bfxprod
 appCountry: 
 idd: 1436383182
 released: 2019-01-25
-updated: 2021-08-11
-version: "4.9.0"
-stars: 3.71591
-reviews: 88
-size: 70444032
+updated: 2021-11-11
+version: "4.13.0"
+stars: 3.73034
+reviews: 89
+size: 72239104
 website: https://www.bitfinex.com/app
 repository: 
 issue: 

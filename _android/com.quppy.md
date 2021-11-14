@@ -1,17 +1,17 @@
 ---
 wsId: Quppy
-title: "Quppy Wallet - bitcoin, crypto and euro payments"
+title: "Quppy: Bitcoin Сrypto wallet"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.quppy
 released: 2018-09-17
-updated: 2021-10-28
-version: "2.0.4"
+updated: 2021-11-04
+version: "2.0.5"
 stars: 4.8
-ratings: 3193
-reviews: 1020
+ratings: 3195
+reviews: 1022
 size: 12M
 website: https://quppy.com
 repository: 

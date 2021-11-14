@@ -1,18 +1,18 @@
 ---
 wsId: stormX
-title: "StormX: Shop and earn Crypto Cashback"
+title: "StormX: Shop and Earn Crypto"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.cakecodes.bitmaker
 released: 2014-09-07
-updated: 2021-10-28
-version: "8.12.2"
+updated: 2021-11-03
+version: "8.12.3"
 stars: 4.1
-ratings: 84197
-reviews: 51355
-size: 61M
+ratings: 84240
+reviews: 51379
+size: 66M
 website: https://stormx.io/
 repository: 
 issue: 

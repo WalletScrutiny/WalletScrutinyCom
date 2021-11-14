@@ -9,9 +9,9 @@ appId: com.pro1trading
 released: 2020-11-24
 updated: 2021-10-29
 version: "1.0.27"
-stars: 4.4
-ratings: 47
-reviews: 40
+stars: 4.3
+ratings: 48
+reviews: 41
 size: 29M
 website: 
 repository: 

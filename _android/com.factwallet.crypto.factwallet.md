@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
-verdict: fewusers
-date: 2020-12-01
+verdict: stale
+date: 2021-11-09
 signer: 
 reviewArchive:
 

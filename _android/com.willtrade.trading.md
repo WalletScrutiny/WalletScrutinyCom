@@ -3,23 +3,23 @@ wsId:
 title: "Will Trade - Crypto Forex Gold"
 altTitle: 
 authors:
-
-users: 5000
+- danny
+users: 10000
 appId: com.willtrade.trading
 released: 2021-08-19
 updated: 2021-09-29
 version: "1.0.1"
 stars: 5.0
-ratings: 748
-reviews: 478
+ratings: 1544
+reviews: 1009
 size: 13M
 website: 
 repository: 
 issue: 
 icon: com.willtrade.trading.jpg
 bugbounty: 
-verdict: wip
-date: 2021-09-01
+verdict: custodial
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -34,3 +34,22 @@ redirect_from:
 ---
 
 
+## App Description
+
+> Trade global popular varieties with one account: forex, gold, bitcoin, stock indices, energy and more, Be a trader now and start making money.
+> Popular forex currency pairs : EUR/USD, XAU/USD, GBP/USD;
+> Crypto: Bitcoin, Ethereum, Dogecoin, Ripple, Litecoin, and others;
+> The main stock indices: NDX, HSI;
+
+**Notes:**
+
+- The app does not have a website listed on its Google Play page.
+- We were not able to find social media accounts for the app
+
+## The App
+
+You can bind your bank account. Deposit and withdraw Bitcoin. Initially we thought this app was like those dime-a-dozen forex websites. We were surprised to find multiple crypto wallets including USDT, BTC, ETH and others.
+
+## Verdict
+
+The app has multiple cryptocurrency wallets which have the ability to send and receive. However, these do not have backup or restore options. This service is **custodial** and the app **cannot be verified**.

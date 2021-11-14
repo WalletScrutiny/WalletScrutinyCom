@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: one.mixin.messenger
 released: 2018-05-24
-updated: 2021-10-18
-version: "0.32.8"
-stars: 4.5
-ratings: 1224
-reviews: 952
+updated: 2021-11-09
+version: "0.33.2"
+stars: 0.0
+ratings: 
+reviews: 
 size: 27M
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork

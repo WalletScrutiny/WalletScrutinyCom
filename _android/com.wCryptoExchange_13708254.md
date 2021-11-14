@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.wCryptoExchange_13708254
 released: 2021-05-11
-updated: 2021-05-27
+updated: 2021-11-10
 version: "1.1.43"
 stars: 0.0
 ratings: 
 reviews: 
-size: 15M
+size: 11M
 website: 
 repository: 
 issue: 

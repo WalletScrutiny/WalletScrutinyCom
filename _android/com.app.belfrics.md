@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.app.belfrics
 released: 2017-10-17
-updated: 2021-10-23
+updated: 2021-11-03
 version: "2.1.4"
-stars: 3.5
-ratings: 72
-reviews: 47
+stars: 3.6
+ratings: 78
+reviews: 52
 size: 10M
 website: https://www.belfrics.io/
 repository:

@@ -9,9 +9,9 @@ appId: com.CoinsBank.CoinsBank
 released: 2016-04-03
 updated: 2020-12-30
 version: "3.5.4"
-stars: 3.6
-ratings: 260
-reviews: 136
+stars: 0.0
+ratings: 
+reviews: 
 size: 18M
 website: https://coinsbank.com/
 repository: 

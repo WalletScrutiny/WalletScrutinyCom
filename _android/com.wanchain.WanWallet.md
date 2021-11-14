@@ -9,9 +9,9 @@ appId: com.wanchain.WanWallet
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.8
-ratings: 112
-reviews: 71
+stars: 0.0
+ratings: 
+reviews: 
 size: 65M
 website: https://www.wanchain.org/
 repository: https://github.com/wanchain

@@ -9,9 +9,9 @@ appId: com.prostocash.android_prostocash
 released: 2021-06-27
 updated: 2021-06-27
 version: "2.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 5
+reviews: 4
 size: 1.4M
 website: 
 repository: 

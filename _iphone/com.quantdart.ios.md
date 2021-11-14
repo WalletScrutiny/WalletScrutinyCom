@@ -8,11 +8,11 @@ appId: com.quantdart.ios
 appCountry: us
 idd: 1522245431
 released: 2020-10-18
-updated: 2021-08-12
-version: "1.1.17"
+updated: 2021-11-12
+version: "1.1.20"
 stars: 
 reviews: 
-size: 168284160
+size: 182668288
 website: https://www.quantdart.com/
 repository: 
 issue: 

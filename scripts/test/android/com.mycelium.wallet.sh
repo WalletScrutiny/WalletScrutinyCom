@@ -12,7 +12,7 @@ test() {
 
   git submodule update --init --recursive
   podman build --tag mycelium_builder .
-  
+
   # build
   podman run \
       --rm \
@@ -29,6 +29,9 @@ test() {
         cd /sorted/
         ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
         $takeUserActionCommand"
+
+  podman rmi mycelium_builder -f
+  podman image prune -f
 
   result
 }

@@ -10,8 +10,8 @@ released:
 updated: 2021-10-13
 version: "3.1"
 stars: 3.3
-ratings: 193
-reviews: 125
+ratings: 195
+reviews: 126
 size: 79M
 website: https://www.paymium.com/
 repository: 

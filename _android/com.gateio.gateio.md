@@ -1,22 +1,22 @@
 ---
 wsId: gate.io
-title: "gate.io - Popular Bitcoin&cryptocurrency Exchange"
+title: "gate.io - Buy BTC,ETH,SHIB"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.gateio.gateio
 released: 2017-11-03
-updated: 2021-07-26
-version: "3.0.3"
-stars: 3.0
-ratings: 7817
-reviews: 5531
-size: 186M
+updated: 2021-11-08
+version: "3.0.4"
+stars: 3.1
+ratings: 8908
+reviews: 6278
+size: 166M
 website: https://gate.io/
 repository: 
 issue: 
-icon: com.gateio.gateio.jpg
+icon: com.gateio.gateio.png
 bugbounty: 
 verdict: custodial
 date: 2021-08-21

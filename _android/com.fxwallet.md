@@ -10,8 +10,8 @@ released: 2021-03-26
 updated: 2021-09-30
 version: "5.0"
 stars: 2.6
-ratings: 482
-reviews: 329
+ratings: 488
+reviews: 332
 size: 31M
 website: https://fxwallet.info
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.e.tswallet.png
 bugbounty: 
-verdict: fewusers
-date: 2021-10-05
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-30**: This app is no more.
 

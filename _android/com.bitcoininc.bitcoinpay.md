@@ -9,9 +9,9 @@ appId: com.bitcoininc.bitcoinpay
 released: 2016-05-13
 updated: 2017-07-06
 version: "1.0.1"
-stars: 3.5
+stars: 5.0
 ratings: 113
-reviews: 54
+reviews: 
 size: 14M
 website: 
 repository: 

@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.bitsacard.BitsaApp
 released: 2019-04-09
-updated: 2021-08-23
-version: "2.6.3.1"
+updated: 2021-11-09
+version: "2.7.0"
 stars: 2.2
-ratings: 749
-reviews: 511
-size: 79M
+ratings: 753
+reviews: 515
+size: 82M
 website: https://www.bitsacard.com/
 repository: 
 issue: 

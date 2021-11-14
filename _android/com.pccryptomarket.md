@@ -9,9 +9,9 @@ appId: com.pccryptomarket
 released: 2019-08-18
 updated: 2019-08-31
 version: "1.2"
-stars: 3.4
+stars: 5.0
 ratings: 27
-reviews: 20
+reviews: 
 size: 8.6M
 website: 
 repository: 

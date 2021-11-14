@@ -10,7 +10,7 @@ released: 2019-12-25
 updated: 2021-10-12
 version: "2.0.6"
 stars: 2.8
-ratings: 77
+ratings: 78
 reviews: 49
 size: 37M
 website: https://www.citex.co.kr/#/home

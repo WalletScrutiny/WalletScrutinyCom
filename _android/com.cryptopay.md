@@ -9,9 +9,9 @@ appId: com.cryptopay
 released: 2018-12-17
 updated: 2019-02-14
 version: "1.5"
-stars: 4.8
-ratings: 5
-reviews: 1
+stars: 4.3
+ratings: 6
+reviews: 2
 size: 9.1M
 website: https://shamlatech.com/
 repository: 

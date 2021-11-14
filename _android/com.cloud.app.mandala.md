@@ -1,17 +1,17 @@
 ---
 wsId: MandalaExchange
 title: "Mandala Exchange"
-altTitle:
+altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.cloud.app.mandala
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.2
-ratings: 66
-reviews: 44
+stars: 4.1
+ratings: 69
+reviews: 46
 size: 23M
 website: https://www.mandala.exchange/
 repository:
@@ -20,7 +20,7 @@ icon: com.cloud.app.mandala.png
 bugbounty:
 verdict: custodial
 date: 2021-10-18
-signer:
+signer: 
 reviewArchive:
 
 

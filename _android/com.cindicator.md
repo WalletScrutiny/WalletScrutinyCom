@@ -9,8 +9,8 @@ appId: com.cindicator
 released: 2016-12-28
 updated: 2019-09-30
 version: "3.0.10"
-stars: 3.2
-ratings: 1684
+stars: 3.1
+ratings: 1685
 reviews: 747
 size: 12M
 website: 

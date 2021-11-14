@@ -10,8 +10,8 @@ released: 2021-06-30
 updated: 2021-10-24
 version: "1.1.0"
 stars: 3.9
-ratings: 74
-reviews: 62
+ratings: 75
+reviews: 63
 size: 32M
 website: https://www.betadeal.net/
 repository:

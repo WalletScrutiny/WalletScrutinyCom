@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: co.digitalmoney.dmapp
 released: 2021-02-12
-updated: 2021-05-10
-version: "1.4.8"
+updated: 2021-11-10
+version: "1.4.9"
 stars: 4.8
 ratings: 6
 reviews: 2
-size: 34M
+size: 37M
 website: 
 repository: 
 issue: 

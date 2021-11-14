@@ -8,11 +8,11 @@ appId: org.bitex.exchange
 appCountry: ae
 idd: 1492803003
 released: 2020-02-25
-updated: 2021-09-21
-version: "2.5"
+updated: 2021-11-01
+version: "2.6"
 stars: 2.33333
 reviews: 15
-size: 88307712
+size: 103431168
 website: https://bitex.com
 repository: 
 issue: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.fulmo.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-21
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-10-26**: This app is no more.
 

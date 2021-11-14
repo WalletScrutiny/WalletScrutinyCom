@@ -9,9 +9,9 @@ appId: insight.zero.communitywallet
 released: 2018-07-09
 updated: 2019-01-01
 version: "1.0.1"
-stars: 4.8
-ratings: 54
-reviews: 34
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
 website: 
 repository: 

@@ -1,33 +1,33 @@
 ---
 wsId: sMiles
-title: "sMiles: Earn Free Bitcoin"
-altTitle:
+title: "sMiles: Earn Bitcoin"
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.smilesbitcoin.smiles
-released:
-updated: 2021-10-26
+released: 
+updated: 2021-11-11
 version: "2.0.4"
-stars: 2.6
-ratings: 89
-reviews: 68
-size: 73M
+stars: 2.7
+ratings: 98
+reviews: 73
+size: 75M
 website: https://www.smilesbitcoin.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.smilesbitcoin.smiles.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-04
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: smilesbitcoin
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: smilesbitcoin
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

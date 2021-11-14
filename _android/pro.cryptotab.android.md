@@ -9,9 +9,9 @@ appId: pro.cryptotab.android
 released: 2020-01-24
 updated: 2021-10-07
 version: "4.1.79"
-stars: 4.0
-ratings: 57425
-reviews: 30766
+stars: 3.9
+ratings: 58532
+reviews: 31380
 size: Varies with device
 website: https://get.cryptobrowser.site/
 repository: 

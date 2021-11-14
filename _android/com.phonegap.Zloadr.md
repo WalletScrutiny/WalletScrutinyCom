@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - Free NFT & Crypto Marketplace Wallet App"
+title: "Zloadr - NFT Metaverse Marketplace and Wallet App"
 altTitle: 
 authors:
 
@@ -10,7 +10,7 @@ released: 2019-06-17
 updated: 2019-07-15
 version: "1.1.0"
 stars: 4.6
-ratings: 1061
+ratings: 1062
 reviews: 953
 size: 12M
 website: 

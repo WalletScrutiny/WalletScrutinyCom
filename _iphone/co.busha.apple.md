@@ -1,6 +1,6 @@
 ---
 wsId: busha
-title: "Busha - Buy and Sell Bitcoins"
+title: "Busha: Trade BTC, ETH, SHIB"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.busha.apple
 appCountry: 
 idd: 1450373493
 released: 2019-02-03
-updated: 2021-06-03
-version: "2.6.13"
-stars: 4.01639
-reviews: 61
-size: 65311744
+updated: 2021-11-11
+version: "3.0.1"
+stars: 3.94118
+reviews: 68
+size: 99296256
 website: https://busha.co
 repository: 
 issue: 

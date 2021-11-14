@@ -9,8 +9,8 @@ appId: dashboard.elegro.io
 released: 2018-08-03
 updated: 2020-06-16
 version: "3.0.3"
-stars: 4.6
-ratings: 11
+stars: 4.7
+ratings: 12
 reviews: 4
 size: 605k
 website: 

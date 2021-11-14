@@ -4,14 +4,14 @@ title: "TitanCoin (TTN)"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.titan.coin
 released: 2019-11-02
-updated: 2021-10-26
-version: "2.48.0"
-stars: 4.0
-ratings: 135
-reviews: 80
+updated: 2021-11-13
+version: "2.50.0"
+stars: 4.1
+ratings: 152
+reviews: 89
 size: 28M
 website: https://titanprojects.co/
 repository: 

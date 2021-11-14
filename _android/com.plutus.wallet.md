@@ -1,17 +1,17 @@
 ---
 wsId: goabra
-title: "Abra: Buy Bitcoin, Earn Interest On Crypto"
+title: "Abra: Buy Bitcoin & Earn Yield"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.plutus.wallet
 released: 2015-03-04
-updated: 2021-10-25
+updated: 2021-11-10
 version: "Varies with device"
 stars: 4.5
-ratings: 26930
-reviews: 8299
+ratings: 27576
+reviews: 8407
 size: Varies with device
 website: https://www.abra.com
 repository: 

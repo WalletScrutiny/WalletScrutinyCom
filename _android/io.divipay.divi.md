@@ -1,7 +1,7 @@
 ---
 wsId: DiviWallet
 title: "Divi Wallet: Crypto & Staking"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -9,23 +9,23 @@ appId: io.divipay.divi
 released: 2021-04-28
 updated: 2021-10-22
 version: "1.12"
-stars: 4.6
-ratings: 110
-reviews: 73
+stars: 4.5
+ratings: 122
+reviews: 83
 size: 49M
 website: https://diviproject.org/
 repository: https://github.com/DiviProject
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-04
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: diviproject
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: diviproject
 providerReddit: DiviProject
 
