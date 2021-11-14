@@ -67,4 +67,4 @@ We were not able to receive the SMS verification.
 
 ## Verdict
 
-We were not able to find any references to the private key when we searched on their site. Moreover, they refer to the beginning of the relationship between the user and the service as "Account Opening". Since KYC is required prior to account opening, we assume that the service is **custodial**. This means that the service acts as a gatekeeper for users prior to being able to use the basic functions of a Bitcoin wallet. This also means that their source code is not publicly available and thus, **cannot be verified.**
+We were not able to find any references to the private key when we searched on their site. Moreover, they refer to the beginning of the relationship between the user and the service as "Account Opening". Since KYC is required prior to account opening, we assume that the service is **custodial**. This means that the service acts as a gatekeeper for users prior to being able to use the basic functions of a Bitcoin wallet. This means the app **cannot be verified.**

@@ -48,6 +48,6 @@ We downloaded the app and registered. We then verified the email address. We the
 
 ## Verdict
 
-Searching for the words "private keys" or "seeds" did not yield result any result on their website. Without providing our KYC information, we were not able to access most of the functionalities of the app except for the "Market Viewer" which displayed the coins and their prices.
+Searching for the words "private keys" or "seeds" did not yield any results on their website. Without providing our KYC information, we were not able to access most of the functionalities of the app except for the "Market Viewer" which displayed the coins and their prices.
 
 This is a **custodial** service which makes the app **not-verifiable**.
