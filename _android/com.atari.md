@@ -9,9 +9,9 @@ appId: com.atari
 released: 2021-07-11
 updated: 2021-09-09
 version: "2.07.02"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.4
+ratings: 83
+reviews: 62
 size: 53M
 website: 
 repository: 

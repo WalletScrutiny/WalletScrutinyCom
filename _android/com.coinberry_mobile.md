@@ -9,9 +9,9 @@ appId: com.coinberry_mobile
 released: 
 updated: 2021-10-29
 version: "1.18.20"
-stars: 3.1
-ratings: 1077
-reviews: 622
+stars: 3.0
+ratings: 1079
+reviews: 623
 size: 80M
 website: https://www.coinberry.com/
 repository: 

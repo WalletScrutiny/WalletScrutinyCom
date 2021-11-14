@@ -9,9 +9,9 @@ appId: com.twentyfourcfd
 released: 2019-09-25
 updated: 2019-09-25
 version: "1.0.14"
-stars: 3.0
-ratings: 24
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.8M
 website: 
 repository: 

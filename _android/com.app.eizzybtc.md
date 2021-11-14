@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.app.eizzybtc.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-01
+verdict: stale
+date: 2021-11-14
 signer: 
 reviewArchive:
 

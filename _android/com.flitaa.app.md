@@ -9,9 +9,9 @@ appId: com.flitaa.app
 released: 2021-05-15
 updated: 2021-09-04
 version: "1.7.6"
-stars: 4.2
-ratings: 255
-reviews: 208
+stars: 3.9
+ratings: 267
+reviews: 218
 size: 77M
 website: https://flitaa.com/
 repository: 

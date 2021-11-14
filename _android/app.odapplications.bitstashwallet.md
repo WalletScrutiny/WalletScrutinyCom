@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: app.odapplications.bitstashwallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-11-14
 signer: 
 reviewArchive:
 

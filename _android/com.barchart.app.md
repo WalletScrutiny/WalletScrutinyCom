@@ -10,8 +10,8 @@ released: 2013-11-18
 updated: 2021-10-12
 version: "3.0.5"
 stars: 4.7
-ratings: 9559
-reviews: 3485
+ratings: 9564
+reviews: 3487
 size: 12M
 website: https://www.barchart.com/
 repository: 

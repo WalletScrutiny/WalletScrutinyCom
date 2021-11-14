@@ -10,8 +10,8 @@ idd: 1574175142
 released: 2021-06-30
 updated: 2021-10-19
 version: "1.0.3"
-stars: 3.57143
-reviews: 7
+stars: 3.75
+reviews: 8
 size: 22011904
 website: https://gcbuying.com/
 repository: 

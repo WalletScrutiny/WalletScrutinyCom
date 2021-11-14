@@ -9,9 +9,9 @@ appId: com.mufin.iconfi
 released: 2021-01-27
 updated: 2021-07-14
 version: "1.0.4"
-stars: 4.5
+stars: 5.0
 ratings: 209
-reviews: 132
+reviews: 1
 size: 9.9M
 website: https://www.icon-fi.com/
 repository: 

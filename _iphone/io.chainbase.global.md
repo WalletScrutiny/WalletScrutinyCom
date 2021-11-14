@@ -8,11 +8,11 @@ appId: io.chainbase.global
 appCountry: 
 idd: 1568969341
 released: 2021-05-26
-updated: 2021-11-08
-version: "1.3.33"
-stars: 3.64413
-reviews: 281
-size: 53370880
+updated: 2021-11-12
+version: "1.3.34"
+stars: 3.67774
+reviews: 301
+size: 53391360
 website: https://www.hotbit.io
 repository: 
 issue: 

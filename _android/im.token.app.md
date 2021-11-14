@@ -10,8 +10,8 @@ released: 2018-05-31
 updated: 2021-10-08
 version: "2.9.7"
 stars: 3.7
-ratings: 3674
-reviews: 2032
+ratings: 3660
+reviews: 2013
 size: 81M
 website: https://token.im
 repository: 

@@ -4,14 +4,14 @@ title: "Bittrex Global"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bittrex.trade
 released: 2019-12-19
 updated: 2021-10-14
 version: "1.15.5"
 stars: 4.1
-ratings: 3679
-reviews: 1553
+ratings: 3724
+reviews: 1558
 size: 62M
 website: https://global.bittrex.com
 repository: 

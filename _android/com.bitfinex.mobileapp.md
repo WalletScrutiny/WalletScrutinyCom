@@ -1,6 +1,6 @@
 ---
 wsId: Bitfinex
-title: "Bitfinex: Trade Bitcoin & Digital Assets"
+title: "Bitfinex: Trade Digital Assets"
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: com.bitfinex.mobileapp
 released: 2019-02-11
 updated: 2021-11-11
 version: "4.13.0"
-stars: 3.6
-ratings: 1620
-reviews: 684
+stars: 4.0
+ratings: 1658
+reviews: 695
 size: 63M
 website: https://www.bitfinex.com
 repository: 

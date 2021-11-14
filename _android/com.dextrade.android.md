@@ -10,7 +10,7 @@ released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
 stars: 3.0
-ratings: 142
+ratings: 144
 reviews: 94
 size: 1.2M
 website: https://dex-trade.com/

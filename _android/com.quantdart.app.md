@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.quantdart.app
 released: 2020-09-16
-updated: 2021-11-05
-version: "1.1.19"
+updated: 2021-11-12
+version: "1.1.20"
 stars: 3.6
 ratings: 21
 reviews: 9

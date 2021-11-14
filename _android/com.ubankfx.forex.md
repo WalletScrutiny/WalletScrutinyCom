@@ -10,7 +10,7 @@ released: 2017-05-17
 updated: 2021-11-11
 version: "v7.16-5208-b513ed90c"
 stars: 4.8
-ratings: 1467
+ratings: 1468
 reviews: 869
 size: 33M
 website: https://www.ubfx.co.uk/

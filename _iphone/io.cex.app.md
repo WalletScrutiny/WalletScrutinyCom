@@ -11,8 +11,8 @@ idd: 1047225016
 released: 2015-12-22
 updated: 2021-11-09
 version: "7.3.9"
-stars: 4.60194
-reviews: 4527
+stars: 4.60097
+reviews: 4541
 size: 82841600
 website: https://cex.io
 repository: 

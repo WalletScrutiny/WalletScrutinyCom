@@ -10,8 +10,8 @@ released: 2021-03-21
 updated: 2021-11-11
 version: "2.1.4"
 stars: 4.3
-ratings: 228
-reviews: 90
+ratings: 235
+reviews: 93
 size: 17M
 website: https://www.paritex.com/
 repository: 

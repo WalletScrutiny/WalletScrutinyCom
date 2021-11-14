@@ -10,8 +10,8 @@ released: 2020-08-07
 updated: 2021-11-03
 version: "1.1.9"
 stars: 4.5
-ratings: 68
-reviews: 19
+ratings: 69
+reviews: 20
 size: 15M
 website: https://ex.z.com/
 repository: 

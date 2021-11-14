@@ -10,8 +10,8 @@ idd: 1541032748
 released: 2020-12-12
 updated: 2021-10-23
 version: "2.0.9"
-stars: 2.16667
-reviews: 6
+stars: 2.57143
+reviews: 7
 size: 33361920
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet

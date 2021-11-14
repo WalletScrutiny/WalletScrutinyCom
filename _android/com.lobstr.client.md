@@ -7,11 +7,11 @@ authors:
 users: 100000
 appId: com.lobstr.client
 released: 2015-04-27
-updated: 2021-11-01
+updated: 2021-11-13
 version: "7.6.1"
 stars: 4.7
-ratings: 7947
-reviews: 3680
+ratings: 8045
+reviews: 3719
 size: 30M
 website: https://lobstr.co
 repository: 

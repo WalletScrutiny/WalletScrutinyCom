@@ -9,9 +9,9 @@ appId: ru.zamzamwallet
 released: 2020-06-26
 updated: 2021-10-31
 version: "2.7.8"
-stars: 4.0
-ratings: 121
-reviews: 93
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
 website: 
 repository: 

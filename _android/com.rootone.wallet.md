@@ -9,9 +9,9 @@ appId: com.rootone.wallet
 released: 2018-10-08
 updated: 2021-06-17
 version: "1.4.4"
-stars: 2.8
-ratings: 597
-reviews: 464
+stars: 0.0
+ratings: 
+reviews: 
 size: 6.6M
 website: https://rootone.com/
 repository: 

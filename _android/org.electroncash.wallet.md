@@ -10,7 +10,7 @@ released: 2018-12-08
 updated: 2021-10-03
 version: "4.2.5-5"
 stars: 4.1
-ratings: 171
+ratings: 172
 reviews: 81
 size: 36M
 website: https://electroncash.org

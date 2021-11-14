@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Sigma Wallet - Crypto Wallet"
+title: "Sigma: Crypto Wallet - Bitcoin Wallet Blockchain"
 altTitle: 
 authors:
 - danny
@@ -9,9 +9,9 @@ appId: io.cryptosigma.finance
 released: 2021-07-26
 updated: 2021-10-02
 version: "1.0.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 6
+reviews: 2
 size: 46M
 website: 
 repository: 

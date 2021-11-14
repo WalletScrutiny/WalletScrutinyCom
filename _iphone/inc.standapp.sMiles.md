@@ -10,8 +10,8 @@ idd: 1492458803
 released: 2020-12-18
 updated: 2021-11-11
 version: "3.4"
-stars: 
-reviews: 
+stars: 3.88889
+reviews: 9
 size: 69932032
 website: https://www.smilesbitcoin.com/
 repository: 

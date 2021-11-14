@@ -7,11 +7,11 @@ authors:
 users: 100
 appId: io.hexawallet.hexa2
 released: 2021-09-30
-updated: 2021-09-30
-version: "2.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+updated: 2021-11-12
+version: "2.0.2"
+stars: 4.0
+ratings: 6
+reviews: 1
 size: 57M
 website: 
 repository: 

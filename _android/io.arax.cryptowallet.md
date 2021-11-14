@@ -9,9 +9,9 @@ appId: io.arax.cryptowallet
 released: 2019-01-15
 updated: 2019-11-25
 version: "Varies with device"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.5
+ratings: 223
+reviews: 156
 size: Varies with device
 website: 
 repository: 

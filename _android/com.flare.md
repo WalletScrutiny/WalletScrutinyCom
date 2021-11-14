@@ -10,8 +10,8 @@ released: 2020-02-22
 updated: 2021-03-13
 version: "1.4.0"
 stars: 3.6
-ratings: 230
-reviews: 193
+ratings: 231
+reviews: 194
 size: 9.8M
 website: https://flarewallet.io
 repository: 

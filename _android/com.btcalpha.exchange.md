@@ -9,9 +9,9 @@ appId: com.btcalpha.exchange
 released: 2021-07-23
 updated: 2021-10-31
 version: "1.8.0"
-stars: 3.8
-ratings: 41
-reviews: 22
+stars: 3.7
+ratings: 42
+reviews: 23
 size: 27M
 website: https://btc-alpha.com/
 repository: 

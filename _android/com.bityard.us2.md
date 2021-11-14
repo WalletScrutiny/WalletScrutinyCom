@@ -10,7 +10,7 @@ released: 2021-03-31
 updated: 2021-03-31
 version: "1.0.2"
 stars: 2.9
-ratings: 102
+ratings: 104
 reviews: 62
 size: 4.4M
 website: https://www.bityard.com/

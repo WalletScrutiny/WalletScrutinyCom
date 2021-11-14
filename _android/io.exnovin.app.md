@@ -4,14 +4,14 @@ title: "Exnovin - اکس نوین | بازار معاملاتی رمزارزها
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.exnovin.app
 released: 2020-12-12
 updated: 2021-11-10
 version: "2.4.0"
 stars: 4.2
-ratings: 727
-reviews: 278
+ratings: 750
+reviews: 286
 size: 34M
 website: https://exnovin.io/
 repository: 

@@ -9,9 +9,9 @@ appId: com.coindcx
 released: 2018-11-02
 updated: 2021-09-15
 version: "1.0.004"
-stars: 3.9
-ratings: 8995
-reviews: 5941
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
 website: https://coindcx.com
 repository: 

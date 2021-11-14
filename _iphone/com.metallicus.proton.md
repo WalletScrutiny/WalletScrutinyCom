@@ -8,11 +8,11 @@ appId: com.metallicus.proton
 appCountry: us
 idd: 1516536231
 released: 2020-11-25
-updated: 2021-11-10
-version: "1.1.18"
-stars: 4.70755
-reviews: 212
-size: 32476160
+updated: 2021-11-12
+version: "1.1.19"
+stars: 4.72807
+reviews: 228
+size: 32472064
 website: https://protonchain.com
 repository: https://github.com/ProtonProtocol/
 issue: 
