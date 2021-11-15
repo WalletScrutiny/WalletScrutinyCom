@@ -19,7 +19,7 @@ issue:
 icon: com.xerium.wallet.png
 bugbounty:
 verdict: nosendreceive
-date: 2021-10-05
+date: 2021-11-15
 signer:
 reviewArchive:
 

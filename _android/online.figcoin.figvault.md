@@ -19,7 +19,7 @@ issue:
 icon: online.figcoin.figvault.png
 bugbounty: 
 verdict: nobtc
-date: 2021-08-02
+date: 2021-11-15
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: io.icr4shed.wallet.png
 bugbounty:
 verdict: nobtc
-date: 2021-10-30
+date: 2021-11-15
 signer:
 reviewArchive:
 

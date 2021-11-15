@@ -19,7 +19,7 @@ issue:
 icon: com.xrex.mobile.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-01
+date: 2021-11-15
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.wwise.llc.wallet.app.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-11-10
+date: 2021-11-15
 signer: 
 reviewArchive:
 

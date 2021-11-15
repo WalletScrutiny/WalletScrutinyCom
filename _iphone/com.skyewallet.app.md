@@ -19,7 +19,7 @@ issue:
 icon: com.skyewallet.app.jpg
 bugbounty:
 verdict: custodial
-date: 2021-11-09
+date: 2021-11-15
 signer:
 reviewArchive:
 

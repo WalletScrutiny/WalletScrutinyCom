@@ -19,7 +19,7 @@ issue:
 icon: tech.exio.OracleWallet.OracleWallet.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-11-10
+date: 2021-11-15
 signer: 
 reviewArchive:
 
