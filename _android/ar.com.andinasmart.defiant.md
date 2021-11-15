@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: Defiant
 title: "Defiant"
-altTitle: 
+altTitle:
 authors:
-
+- danny
 users: 1000
 appId: ar.com.andinasmart.defiant
 released: 2019-11-19
@@ -13,24 +13,42 @@ stars: 4.5
 ratings: 58
 reviews: 35
 size: 27M
-website: 
-repository: 
-issue: 
+website: https://defiantapp.tech/
+repository:
+issue:
 icon: ar.com.andinasmart.defiant.png
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: nosource
 date: 2021-04-13
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: defiantApp
+providerLinkedIn:
+providerFacebook:
+providerReddit:
 
 redirect_from:
 
 ---
 
 
+## App Description
+
+> Defiant allows you to secure, manage, and exchange cryptocurrencies like Bitcoin, Ethereum, and much more from a easy-to-use wallet that puts you in control of your assets.
+>
+> Here's why Defiant is unique:
+>
+> YOUR KEYS, YOUR CONTROL
+> **Defiant is a self-custodial wallet. Only you can access your assets. Your keys and crypto always stay in your control.**
+
+## The App
+
+When we installed the app, it first asked to create a pin. Then it asked whether we wanted to "Import" or "Create a Wallet". We chose create a wallet, then we were given a 12-word backup.
+
+## Verdict
+
+There was no mention that the project was open source. In the case that we may have missed something, we tried searching for Defiant app's appID 'ar.com.andinassmart.defiant' on Github, but it [yielded 0 repositories](https://github.com/search?q=ar.com.andinasmart.defiant). We also tried searching for 'Defiant App' [with 2 unrelated repositories](https://github.com/search?q=defiant+app&type=repositories). 
+
+We have to conclude that this is not an open source project. If the source code is **not publicly available**, then the app **cannot be verified**.
