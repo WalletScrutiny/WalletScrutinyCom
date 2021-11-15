@@ -40,7 +40,7 @@ This Nigerian specific cryptocurrency buy and sell service claims to have a Bitc
 
 > With iDeyPay bitcoin wallet, it's easy to buy, sell and store your bitcoins safely whenever and everywhere you want. Make use of your Nigerian Naira efficiently today and secure your currency in Bitcoin.
 
-They also claim to be allow users to send Naira to friends and family via their Naira wallet.
+They also claim to allow users to send Naira to friends and family via their Naira wallet.
 
 ## Account Suspension and Termination Clauses in [Terms and Conditions](https://ideypay.com/terms.html)
 

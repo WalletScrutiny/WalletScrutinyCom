@@ -57,7 +57,7 @@ In Section 9.2, we read that BlocPal is capable of terminating users' accounts:
 
 > The first release of the open source code for the BlocPal blockchain is scheduled to be published on GitHub in Q3 2020. The blockchain has undergone significant testing since being launched in September 2018.
 
-It claims the open source code is for the BlocPal **blockchain** with no information on any for the wallet. Searching for the Google ID [on GitHub](https://github.com/search?q=com.blocpal.wallet) yields no results.
+It claims the open source code is for the BlocPal **blockchain** with no information on any for the wallet. Searching for their `applicationId` [on GitHub](https://github.com/search?q=com.blocpal.wallet) yields no results.
 
 ## The App
 

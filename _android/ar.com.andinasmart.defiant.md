@@ -45,7 +45,7 @@ redirect_from:
 
 ## The App
 
-When we installed the app, it first asked to create a pin. Then it asked whether we wanted to "Import" or "Create a Wallet". We chose create a wallet, then we were given a 12-word wallet.
+When we installed the app, it first asked to create a pin. Then it asked whether we wanted to "Import" or "Create a Wallet". We chose create a wallet, then we were given a 12-word backup.
 
 ## Verdict
 

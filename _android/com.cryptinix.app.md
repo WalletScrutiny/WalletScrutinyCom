@@ -42,7 +42,7 @@ redirect_from:
 
 > The Cryptinix Account can only be used by the account registrant. Cryptinix reserves the right to suspend, freeze or cancel the use of Cryptinix Accounts by persons other than account registrant.
 
-We could not find a link to the Terms and Conditions as it seems to put it, on a pop-up. We screenshotted this and posted it on twitter (see above).
+We could not find a link to the Terms and Conditions as it only appears in a pop-up. You can find it in the screenshot we [shared on Twitter](https://twitter.com/BitcoinWalletz/status/1456541940837588994).
 
 ## The App
 
@@ -54,4 +54,4 @@ There is a 'Deposit' and 'Withdraw' feature.
 
 ## Verdict
 
-Since this is an exchange, it did not provide backup mnemonics or seed words. Exchanges are usually **custodial** services since they have to 'hold' the users' funds. Thus the app **cannot be verified.**
+Since this is an exchange, it did not provide backup mnemonics or seed words. Exchanges are usually **custodial** services. Thus the app **cannot be verified.**

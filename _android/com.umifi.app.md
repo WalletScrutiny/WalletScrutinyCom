@@ -57,4 +57,4 @@ We could not find options of backing up.
 
 ## Verdict
 
-Cryptocurrency exchanges that have Anti Money Laundering policies are almost always **custodial** in nature. Apart from being able to suspend user accounts, they can also allow users to continue running their accounts while gathering evidence for authorities. Apps like these are almost always proprietary and closed source, making their apps **not-verifiable**.
+Cryptocurrency exchanges that have Anti Money Laundering policies are almost always **custodial** in nature. Apart from being able to suspend user accounts, they can also allow users to continue running their accounts while gathering evidence for authorities. This app is **not verifiable**.

@@ -50,4 +50,4 @@ The company behind Techbank Wallet indicates in their Terms and Conditions that 
 
 ## Verdict
 
-As they have admitted themselves, their service is **custodial** making the app, **not verifiable**.
+As they have stated themselves, their service is **custodial** making the app **not verifiable**.
