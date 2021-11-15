@@ -10,19 +10,23 @@ released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
 stars: 4.5
-ratings: 5711
-reviews: 3934
+ratings: 5719
+reviews: 3936
 size: 3.6M
 website: https://www.bitay.com
 repository: 
 issue: 
 icon: com.app.bitay.png
 bugbounty: 
-verdict: custodial
-date: 2021-08-27
+verdict: stale
+date: 2021-11-07
 signer: 
 reviewArchive:
-
+- date: 2021-08-27
+  version: "2.1.1"
+  appHash: 
+  gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
+  verdict: custodial
 
 providerTwitter: BitayTurkiye
 providerLinkedIn: 

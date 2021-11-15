@@ -9,9 +9,9 @@ appId: com.jex.trade
 released: 2019-04-25
 updated: 2021-10-25
 version: "2.8.4"
-stars: 4.0
-ratings: 1329
-reviews: 651
+stars: 3.8
+ratings: 1400
+reviews: 678
 size: 7.2M
 website: https://www.jex.com
 repository: 

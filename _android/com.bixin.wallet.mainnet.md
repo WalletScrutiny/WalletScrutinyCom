@@ -9,8 +9,8 @@ appId: com.bixin.wallet.mainnet
 released: 2020-09-16
 updated: 2021-10-19
 version: "2.12.0"
-stars: 4.9
-ratings: 309
+stars: 4.8
+ratings: 310
 reviews: 156
 size: 69M
 website: https://onekey.so/

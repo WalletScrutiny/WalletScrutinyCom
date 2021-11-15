@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.ubankfx.forex.jpg
 bugbounty: 
-verdict: stale
-date: 2021-10-16
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-10-26**: This app is no more.
 
 {% include copyFromAndroid.html %}

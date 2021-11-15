@@ -9,8 +9,8 @@ appId: com.coinigy
 released: 2018-06-11
 updated: 2021-06-07
 version: "0.5.30"
-stars: 3.3
-ratings: 206
+stars: 3.2
+ratings: 208
 reviews: 122
 size: 35M
 website: https://www.coinigy.com/

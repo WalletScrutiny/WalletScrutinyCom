@@ -4,15 +4,15 @@ title: "Coin98 Wallet - Crypto Wallet & DeFi Gateway"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: coin98.crypto.finance.media
 released: 2019-12-19
-updated: 2021-11-02
-version: "10.4.0"
+updated: 2021-11-12
+version: "10.4.3"
 stars: 4.3
-ratings: 15418
-reviews: 8612
-size: 66M
+ratings: 15713
+reviews: 8694
+size: 68M
 website: https://coin98.app/
 repository: 
 issue: 

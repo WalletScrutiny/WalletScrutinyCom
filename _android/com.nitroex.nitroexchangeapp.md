@@ -1,36 +1,53 @@
 ---
-wsId: 
+wsId: NitroEXexchangeapp
 title: "NitroEx Exchange"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: com.nitroex.nitroexchangeapp
 released: 2021-06-23
 updated: 2021-07-05
 version: "1.0.13"
 stars: 4.7
-ratings: 209
-reviews: 151
+ratings: 215
+reviews: 153
 size: 22M
-website: 
+website: https://www.nitroex.io/
 repository: 
 issue: 
 icon: com.nitroex.nitroexchangeapp.jpg
 bugbounty: 
-verdict: wip
-date: 2021-08-21
+verdict: custodial
+date: 2021-11-10
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: NitroExOfficial
+providerLinkedIn: nitroex
+providerFacebook: nitroex.io
+providerReddit: nitroexchange
 
 redirect_from:
 
 ---
 
 
+## App Description
+
+> This application is the official application of NitroEx Exchange (www.nitroex.io), which allows you to trade digital assets easily, reliably, and quickly. NitroEx Cryptocurrency Exchange has been serving secure crypto trading opportunities with advanced security measures over 30 different cryptocurrencies and 70 market pairs including Bitcoin, Ethereum, Tether, and Ripple.
+
+## The Site
+
+It is a centralized cryptocurrency exchange.
+
+> NitroEx ensures the safety of our traders & investors’ accounts, trades, and [**may decline certain transactions (deposits or withdrawals) if NitroEx observes any suspicious activity.**](https://nitroex.freshdesk.com/support/solutions/articles/65000167620-why-did-nitroex-cancel-my-order-)
+
+## The App
+
+Deposit and withdrawal of BTC is possible. However, withdrawals need a ["withdrawal request"](https://nitroex.freshdesk.com/support/solutions/articles/65000167617-how-to-deposit-or-withdraw-my-digital-currency-) indicating that someone has to approve the withdrawal.
+
+## Verdict
+
+This service is **custodial** and the app **cannot be verified.**

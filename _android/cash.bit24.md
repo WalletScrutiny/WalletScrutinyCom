@@ -4,14 +4,14 @@ title: "خرید و فروش بیت کوین تتر و ارز دیجیتال : �
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: cash.bit24
 released: 2021-05-30
 updated: 2021-09-14
 version: "4.0.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 1367
+reviews: 419
 size: 9.5M
 website: https://bit24.cash/
 repository: 

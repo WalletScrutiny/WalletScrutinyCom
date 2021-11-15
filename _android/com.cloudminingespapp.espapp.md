@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cloudminingespapp.espapp.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-10-05
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 ---
 
 
+**Update 2021-11-03**: This app is no more.

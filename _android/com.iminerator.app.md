@@ -9,9 +9,9 @@ appId: com.iminerator.app
 released: 2021-04-20
 updated: 2021-10-08
 version: "2.0.0"
-stars: 3.6
-ratings: 8
-reviews: 3
+stars: 3.8
+ratings: 9
+reviews: 4
 size: 30M
 website: 
 repository: 

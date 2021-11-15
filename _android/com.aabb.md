@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.aabb
 released: 2021-03-08
-updated: 2021-10-04
-version: "1.0.1233"
-stars: 4.1
-ratings: 533
-reviews: 289
+updated: 2021-11-09
+version: "1.0.1239"
+stars: 4.2
+ratings: 548
+reviews: 299
 size: 27M
 website: https://aabbgoldtoken.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinHub - Blockchain Wallet"
+title: "Bitcoin Wallet: Crypto Market"
 altTitle: "(Fake) CoinHub - Blockchain Wallet"
 authors:
 
@@ -10,8 +10,8 @@ released: 2021-05-13
 updated: 2021-08-30
 version: "1.0.2.0.3"
 stars: 4.5
-ratings: 1018
-reviews: 189
+ratings: 1062
+reviews: 199
 size: 46M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android

@@ -9,9 +9,9 @@ appId: eu.wunderbit.trading_web
 released: 2021-01-19
 updated: 2021-01-19
 version: "1.0.0"
-stars: 3.0
-ratings: 32
-reviews: 19
+stars: 2.9
+ratings: 34
+reviews: 20
 size: 15M
 website: 
 repository: 

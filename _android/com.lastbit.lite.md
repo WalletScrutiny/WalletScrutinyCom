@@ -4,7 +4,7 @@ title: "Lastbit Lite"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.lastbit.lite
 released: 
 updated: 2021-05-11
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lastbit.lite.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-06-08
 signer: 
 reviewArchive:

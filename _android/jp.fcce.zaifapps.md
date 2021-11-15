@@ -10,8 +10,8 @@ released: 2020-05-07
 updated: 2021-10-30
 version: "1.1.8"
 stars: 2.3
-ratings: 64
-reviews: 49
+ratings: 65
+reviews: 50
 size: 25M
 website: https://zaif.jp/
 repository: 

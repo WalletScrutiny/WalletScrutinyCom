@@ -4,15 +4,15 @@ title: "Flitpay - Bitcoin,Crypto Trading Exchange in India"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.core.app.flitpay
 released: 2017-05-17
-updated: 2021-09-22
-version: "1.0.28"
-stars: 3.9
-ratings: 773
-reviews: 588
-size: 35M
+updated: 2021-11-09
+version: "1.0.29"
+stars: 4.5
+ratings: 954
+reviews: 701
+size: 37M
 website: https://www.flitpay.com/
 repository: 
 issue: 

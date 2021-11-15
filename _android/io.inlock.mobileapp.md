@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: io.inlock.mobileapp
 released: 2020-08-04
-updated: 2021-10-13
-version: "1.5.1"
+updated: 2021-11-04
+version: "1.5.3"
 stars: 4.7
-ratings: 81
-reviews: 36
+ratings: 86
+reviews: 38
 size: 46M
 website: 
 repository: 

@@ -9,9 +9,9 @@ appId: com.dgbCafe.dgbCafe
 released: 2018-11-16
 updated: 2021-05-28
 version: "2.1"
-stars: 4.8
-ratings: 28
-reviews: 16
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: 
 repository: 

@@ -1,21 +1,21 @@
 ---
 wsId: BTSE
 title: "BTSE"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.btse.finance
 released: 2020-11-30
-updated: 2021-11-02
-version: "1.16.2"
+updated: 2021-11-05
+version: "1.18.0"
 stars: 4.6
-ratings: 54
+ratings: 55
 reviews: 28
-size: 133M
+size: 134M
 website: https://www.btse.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.btse.finance.png
 bugbounty:
 verdict: custodial

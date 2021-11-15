@@ -8,11 +8,11 @@ appId: com.okex.OKExAppstoreFull
 appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-11-03
-version: "5.3.13"
-stars: 4.9334
-reviews: 15856
-size: 350456832
+updated: 2021-11-08
+version: "5.3.14"
+stars: 4.93025
+reviews: 16361
+size: 352161792
 website: https://www.okex.com
 repository: 
 issue: 

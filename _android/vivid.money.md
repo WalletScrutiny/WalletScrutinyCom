@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: vivid.money
 released: 2020-10-09
-updated: 2021-11-02
-version: "1.65.0"
+updated: 2021-11-12
+version: "1.66.2"
 stars: 4.2
-ratings: 16401
-reviews: 4414
-size: 145M
+ratings: 16692
+reviews: 4502
+size: 146M
 website: https://vivid.money/
 repository: 
 issue: 

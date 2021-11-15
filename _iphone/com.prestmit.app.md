@@ -10,8 +10,8 @@ idd: 1581960714
 released: 2021-08-20
 updated: 2021-08-31
 version: "1.1"
-stars: 4.26829
-reviews: 123
+stars: 4.33333
+reviews: 135
 size: 26773504
 website: https://prestmit.com
 repository: 

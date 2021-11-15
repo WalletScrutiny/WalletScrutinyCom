@@ -11,7 +11,7 @@ updated: 2021-09-24
 version: "2.6.0"
 stars: 3.4
 ratings: 322
-reviews: 145
+reviews: 146
 size: 23M
 website: https://sc.capex.com/
 repository: 

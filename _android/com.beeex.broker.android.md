@@ -9,9 +9,9 @@ appId: com.beeex.broker.android
 released: 2020-07-08
 updated: 2020-10-09
 version: "3.6.5"
-stars: 4.0
-ratings: 66
-reviews: 41
+stars: 3.9
+ratings: 68
+reviews: 43
 size: 25M
 website: 
 repository: 

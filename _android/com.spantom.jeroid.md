@@ -9,9 +9,9 @@ appId: com.spantom.jeroid
 released: 2020-07-05
 updated: 2021-10-14
 version: "1.3.2"
-stars: 3.7
-ratings: 95
-reviews: 78
+stars: 4.7
+ratings: 161
+reviews: 144
 size: 20M
 website: https://jeroid.ng/
 repository: 

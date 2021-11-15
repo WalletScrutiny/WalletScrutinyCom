@@ -7,11 +7,11 @@ authors:
 users: 500000
 appId: com.latoken.wallet
 released: 2020-03-17
-updated: 2021-10-28
-version: "1.96.00"
+updated: 2021-11-12
+version: "1.96.04"
 stars: 4.4
-ratings: 28051
-reviews: 13592
+ratings: 28641
+reviews: 13868
 size: 24M
 website: 
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-11-10
 signer: 
 reviewArchive:
 - date: 2020-06-20
@@ -38,6 +38,8 @@ redirect_from:
   - /posts/com.bitcoinexchangehani.buybitcoin/
 ---
 
+
+**Update 2021-10-26**: This app is no more.
 
 This app has no website and in its description it says:
 

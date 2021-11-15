@@ -9,9 +9,9 @@ appId: com.bitcointest.h5
 released: 2021-09-03
 updated: 2021-09-03
 version: "5.5"
-stars: 5.0
-ratings: 997
-reviews: 388
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
 website: 
 repository: 

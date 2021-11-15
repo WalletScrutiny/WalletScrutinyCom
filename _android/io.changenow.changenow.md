@@ -9,9 +9,9 @@ appId: io.changenow.changenow
 released: 2018-09-07
 updated: 2021-10-30
 version: "1.147"
-stars: 4.8
-ratings: 1592
-reviews: 797
+stars: 4.7
+ratings: 1661
+reviews: 832
 size: 6.5M
 website: http://changenow.io
 repository: 

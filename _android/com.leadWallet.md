@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.leadWallet
 released: 2021-07-29
-updated: 2021-10-27
-version: "1.0.8"
+updated: 2021-11-11
+version: "1.0.9"
 stars: 4.7
 ratings: 1526
 reviews: 1306

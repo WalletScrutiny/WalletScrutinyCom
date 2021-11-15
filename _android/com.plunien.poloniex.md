@@ -4,15 +4,15 @@ title: "Poloniex Crypto Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.plunien.poloniex
 released: 2017-06-19
 updated: 2021-11-01
-version: "1.30.4"
+version: "1.30.5"
 stars: 4.4
-ratings: 6729
-reviews: 3414
-size: 27M
+ratings: 6867
+reviews: 3485
+size: 31M
 website: https://support.poloniex.com
 repository: 
 issue: 

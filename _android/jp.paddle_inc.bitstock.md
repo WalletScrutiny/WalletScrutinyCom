@@ -10,8 +10,8 @@ released: 2019-09-03
 updated: 2021-10-28
 version: "1.4.21"
 stars: 3.8
-ratings: 2516
-reviews: 967
+ratings: 2566
+reviews: 984
 size: 27M
 website: https://bitstart.jp/
 repository: 

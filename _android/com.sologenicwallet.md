@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "SOLO Wallet"
+title: "SOLO DEX"
 altTitle: 
 authors:
 
 users: 10000
 appId: com.sologenicwallet
 released: 2020-02-04
-updated: 2021-10-12
-version: "2.0.11"
-stars: 4.4
-ratings: 300
-reviews: 81
+updated: 2021-11-10
+version: "2.0.15"
+stars: 4.5
+ratings: 551
+reviews: 112
 size: 48M
 website: 
 repository: 

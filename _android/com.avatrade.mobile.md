@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: "AvaTrade GO Trading: Stocks, Bitcoin, CFDs & Forex"
+title: "Avatrade: Forex & CFD Trading"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.avatrade.mobile
 released: 2017-05-23
-updated: 2021-11-03
+updated: 2021-11-11
 version: "95.7.0"
 stars: 4.7
-ratings: 6879
-reviews: 4918
+ratings: 7101
+reviews: 5104
 size: 19M
 website: 
 repository: 

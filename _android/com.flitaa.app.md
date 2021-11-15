@@ -4,14 +4,14 @@ title: "flitaa: crypto wallet wey dey for you"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.flitaa.app
 released: 2021-05-15
 updated: 2021-09-04
 version: "1.7.6"
-stars: 4.2
-ratings: 249
-reviews: 203
+stars: 3.9
+ratings: 267
+reviews: 218
 size: 77M
 website: https://flitaa.com/
 repository: 

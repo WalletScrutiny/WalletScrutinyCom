@@ -1,6 +1,6 @@
 ---
 wsId: LiteBit
-title: "LiteBit - Buy & sell Bitcoin"
+title: "LiteBit – Buy Bitcoin & crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.litebit.app
 appCountry: 
 idd: 1448841440
 released: 2019-08-20
-updated: 2021-09-24
-version: "3.1.7"
+updated: 2021-11-08
+version: "3.1.8"
 stars: 4
 reviews: 8
-size: 70331392
+size: 72836096
 website: https://www.litebit.eu/en/
 repository: 
 issue: 

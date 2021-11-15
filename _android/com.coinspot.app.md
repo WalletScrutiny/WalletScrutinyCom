@@ -1,18 +1,18 @@
 ---
 wsId: coinspot
-title: "CoinSpot: Australia's Best Exchange. 250+ Coins"
+title: "CoinSpot - Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.coinspot.app
 released: 
-updated: 2021-06-01
-version: "1.0.21"
-stars: 3.0
-ratings: 973
-reviews: 743
-size: 7.2M
+updated: 2021-11-12
+version: "2.0.6"
+stars: 2.6
+ratings: 1116
+reviews: 861
+size: 9.8M
 website: https://www.coinspot.com.au/
 repository: 
 issue: 

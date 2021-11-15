@@ -8,11 +8,11 @@ appId: com.coincircle.app
 appCountry: us
 idd: 1470350344
 released: 2021-04-02
-updated: 2021-08-28
-version: "1.0.7"
-stars: 4.66286
-reviews: 175
-size: 98095104
+updated: 2021-11-13
+version: "1.0.8"
+stars: 4.55769
+reviews: 208
+size: 98973696
 website: https://coincircle.com
 repository: 
 issue: 

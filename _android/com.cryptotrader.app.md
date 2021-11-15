@@ -3,7 +3,7 @@ wsId:
 title: "CryptoTrader"
 altTitle: 
 authors:
-
+- danny
 users: 5000
 appId: com.cryptotrader.app
 released: 2020-08-04
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cryptotrader.app.png
 bugbounty: 
-verdict: wip
-date: 2021-08-02
+verdict: nowallet
+date: 2021-11-10
 signer: 
 reviewArchive:
 
@@ -34,3 +34,11 @@ redirect_from:
 ---
 
 
+The app does not have a listed website or social media accounts. It is similar to the following:
+
+> - {% include walletLink.html wallet='android/net.benoitbasset.ograpi' verdict='true' %}<br>
+> - {% include walletLink.html wallet='android/net.oblade.krakapi' verdict='true' %}<br>
+
+The app merely features cryptocurrency trading pair charts and provisions for entering the API keys for various exchanges: Huobi, Binance, Kucoin and HitBTC.
+
+This app does **not have a bitcoin wallet.**

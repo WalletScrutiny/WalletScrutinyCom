@@ -18,6 +18,9 @@ test() {
       --volume $PWD:/app/simplebitcoinwallet/wallet:z \
       sbw
 
+  podman rmi sbw -f
+  podman image prune -f
+
   result
   echo $additionalInfo
 }

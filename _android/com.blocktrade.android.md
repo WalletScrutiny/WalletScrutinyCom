@@ -4,14 +4,14 @@ title: "Blocktrade - Digital assets exchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.blocktrade.android
 released: 2018-10-28
-updated: 2021-10-22
-version: "1.3.4-77-g0476"
-stars: 4.4
-ratings: 138
-reviews: 62
+updated: 2021-11-10
+version: "1.5.0-104-g01f8"
+stars: 4.3
+ratings: 156
+reviews: 70
 size: 11M
 website: https://blocktrade.com/
 repository: 
