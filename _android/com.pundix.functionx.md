@@ -77,4 +77,4 @@ We found a repository for the code and [Emanuel](https://walletscrutiny.com/auth
 
 > This repo last commit is from "Feb 4, 2021" and contain only 5 commits and 1 tag for version 1.0.0, while [the android app with appid "com.pundix.functionx"](https://play.google.com/store/apps/details?id=com.pundix.functionx) was last updated in: "August 9, 2021" with version: 1.7.2 and [according to appbrain had several version before that.](https://www.appbrain.com/app/fxwallet-by-pundi-x-labs/com.pundix.functionx)
 
-The source code for this app is **not-verifiable.**
+The source code for this app is **not verifiable.**

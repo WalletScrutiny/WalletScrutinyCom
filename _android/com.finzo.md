@@ -58,4 +58,4 @@ We tried the app and registered. Going to the "Trader's Room" will give you the 
 
 While this app does support CFD trading, it is possible to deposit and withdraw Bitcoin in this app, meaning this exchange *can hold actual cryptocurrencies.*
 
-This platform processes withdrawals, meaning someone can approve or disapprove them. We were not able to locate any settings that allow the backup of a wallet or provide the private keys. Therefore, we conclude that this is a **custodial** app and thus **not-verifiable.**
+This platform processes withdrawals, meaning someone can approve or disapprove them. We were not able to locate any settings that allow the backup of a wallet or provide the private keys. Therefore, we conclude that this is a **custodial** app and thus **not verifiable.**

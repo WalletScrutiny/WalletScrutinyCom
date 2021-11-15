@@ -56,4 +56,4 @@ We found how Betadeal handles the private keys for the wallets on their [Terms a
 
 ## Verdict
 
-Apps that have cryptocurrency wallet functionalities that require kyc **before** you can send and receive cryptocurrency act like a closed gate. This means that you cannot use the app if you haven't met their conditions. This also means that somebody has to approve your account before you can fully utilize this. This is the reason why we give this app a verdict of **custodial**, effectively making the app **not-verifiable**.
+Apps that have cryptocurrency wallet functionalities that require kyc **before** you can send and receive cryptocurrency act like a closed gate. This means that you cannot use the app if you haven't met their conditions. This also means that somebody has to approve your account before you can fully utilize this. This is the reason why we give this app a verdict of **custodial**, effectively making the app **not verifiable**.

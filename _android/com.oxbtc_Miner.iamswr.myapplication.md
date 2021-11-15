@@ -70,4 +70,4 @@ There was no App Store app, only testflight.
 
 ## Verdict
 
-The account that we created was the same on the mobile phone and the web app. The account had deposit and withdrawal features. However, we were not able to find the private key, seed or mnemonics. This is a cloud mining app with a Bitcoin wallet included. The service is **custodial** which makes the app **not-verifiable.**
+The account that we created was the same on the mobile phone and the web app. The account had deposit and withdrawal features. However, we were not able to find the private key, seed or mnemonics. This is a cloud mining app with a Bitcoin wallet included. The service is **custodial** which makes the app **not verifiable.**

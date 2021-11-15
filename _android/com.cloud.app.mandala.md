@@ -40,9 +40,11 @@ Mandala is a cryptocurrency exchange with 250+ trading pairs.
 
 ## More Information
 
-Mandala is [hosted on Binance Cloud](https://www.mandala.exchange/post/mandala-where-security-is-paramount), Binance's hosting solution for cryptocurrency exchanges.
+Mandala claims to be [hosted on Binance Cloud](https://www.mandala.exchange/post/mandala-where-security-is-paramount), Binance's hosting solution for cryptocurrency exchanges. 
 
 > Having the privilege of being Binance Cloud backed, Mandala Exchange follows a mix of hot and cold exchange wallets as used by Binance to secure the customer funds. This allows no withdrawal fees between Binance and Mandala while allowing Mandala to be insured through the SAFU program by Binance. The SAFU program is an emergency insurance fund, and it is funded by allocating 10% of all trading fees received into the SAFU **cold wallet.**
+
+However, Binance itself does not name any specific exchanges [on its webpage concerning this service.](https://cloud.binance.com/)
 
 This is a tutorial on [how to withdraw cryptocurrencies](https://support.mandala.exchange/hc/en-us/articles/4409894331671-How-to-Withdraw-Cryptocurrency-from-Mandala) from Mandala.
 

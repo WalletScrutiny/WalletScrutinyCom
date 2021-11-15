@@ -58,5 +58,5 @@ Security
 
 ## Verdict
 
-This cryptocurrency exchange has provisions that could freeze the user's assets. It also uses cold-storage to separate funds. The service is **custodial**. The app is **not-verifiable**.
+This cryptocurrency exchange has provisions that could freeze the user's assets. It also uses cold-storage to separate funds. The service is **custodial**. The app is **not verifiable**.
 

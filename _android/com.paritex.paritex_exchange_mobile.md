@@ -50,5 +50,5 @@ We downloaded the app and registered on the service. It is possible to deposit a
 
 ## Verdict
 
-With ID verification, an Anti-Money laundering and Terrorism Financing Policy, plus with clauses the gives the platform the ability to block the assets of the user, this cryptocurrency exchange is **custodial** and the app is **not-verifiable.**
+With ID verification, an Anti-Money laundering and Terrorism Financing Policy, plus with clauses the gives the platform the ability to block the assets of the user, this cryptocurrency exchange is **custodial** and the app is **not verifiable.**
 

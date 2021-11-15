@@ -56,4 +56,4 @@ We contacted MoonXBT via [twitter](https://twitter.com/BitcoinWalletz/status/145
 
 ## Verdict
 
-The conversion of deposits and withdrawals from BTC to USDT, and USDT to BTC can involve some third-party interference. This, together with their ability to limit the account of the user makes the service **custodial** makes the app **not-verifiable**.
+The conversion of deposits and withdrawals from BTC to USDT, and USDT to BTC can involve some third-party interference. This, together with their ability to limit the account of the user makes the service **custodial** makes the app **not verifiable**.

@@ -38,6 +38,20 @@ redirect_from:
 
 > CITEX (www.citex.io) is a world leading **digital asset trading platform** and top POW coin trading platform. CITEX supports the trading of diverse digital crypto currencies such as BTC, LTC and ETH. With high-speed matching engines, all-round guarantee of capital safety and an extremely fast deposit and withdrawal experience, it provides safety and protection for your trading portfolio.
 
+## Critical Reviews
+
+Several negative reviews are users saying that this app does not work, or that it gets stuck while updating.
+
+> [Ojo Ifeoluwa](https://play.google.com/store/apps/details?id=kr.co.citex.citexclient&reviewId=gp%3AAOqpTOHdAg9t1tXS8axs22hIkqQR1HamAsGTvBJVJMKT7pJTI5yZTCvTNT-bpyGuP7dGxA086OdrL3B704NXrQ)<br>
+  ★☆☆☆☆ April 8, 2020 <br>
+       Why is the app no working again? I sign in few miniutes ago and a message popup thah i should upgrade, when o click to upgrage on getting to Googl Play, the app didn't shoe upgrade. But when I went back to the app on my phone, it still deplay i should uphrage and its denying me the use of the app. Please look in to it.
+
+There is one scam accusation.
+
+> [Alim S](https://play.google.com/store/apps/details?id=kr.co.citex.citexclient&reviewId=gp%3AAOqpTOE9KPwslpwDcKrKII8oWfbtYqLMpxDAEuQ1DUSZYKfP4AuMDsZsuk6km9niN9pmx78gl0NuNTdlowXjLg)<br>
+  ★☆☆☆☆ April 26, 2021 <br>
+      Scam exchange. They will never give you your coins. Pretending to work on the wallet for more than 9 months now.
+
 ## The Site
 
 From the [Terms of Use](https://citex.zendesk.com/hc/en-us/articles/360018961991-Terms-of-Use), we see that it's possible for CITEX to terminate your account.
