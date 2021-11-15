@@ -1,17 +1,6 @@
 var dontUpdateUrl = true
 window.addEventListener("load", () => {
-  // Show the most recent products as badges
-  const mostRecent = [].concat(window.wallets)
-  mostRecent.sort((a, b) => {
-    if (a.date != b.date)
-      return Date.parse(b.date) - Date.parse(a.date)
-    return a.wsId == b.wsId
-      ? 0
-      : a.wsId < b.wsId
-      ? -1
-      : 1
-  })
-  renderBadgesToDiv(mostRecent.slice(0,20), document.getElementById("recentPosts"))
+  loadMoreApps()
   // filter the products by verdict and platform as requested in the href
   const params = window.location.search.split("?")
   if (params.length > 1) {
@@ -58,4 +47,21 @@ function updateUrl() {
   const verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
   const platform = (document.getElementById("modularPlatform") || {}).value || "android"
   window.history.pushState('data', null, `/?verdict=${verdict}&platform=${platform}${hash}`)
+}
+
+var limit = 10
+function loadMoreApps() {
+  // Show the most recent products as badges
+  const mostRecent = [].concat(window.wallets)
+  mostRecent.sort((a, b) => {
+    if (a.date != b.date)
+      return Date.parse(b.date) - Date.parse(a.date)
+    return a.wsId == b.wsId
+      ? 0
+      : a.wsId < b.wsId
+      ? -1
+      : 1
+  })
+  renderBadgesToDiv(mostRecent.slice(0, limit), document.getElementById("recentPosts"))
+  limit *= 2
 }
