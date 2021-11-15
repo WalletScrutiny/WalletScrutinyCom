@@ -1,7 +1,7 @@
 ---
 wsId: Defiant
 title: "Defiant"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 58
 reviews: 35
 size: 27M
 website: https://defiantapp.tech/
-repository:
-issue:
+repository: 
+issue: 
 icon: ar.com.andinasmart.defiant.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: defiantApp
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

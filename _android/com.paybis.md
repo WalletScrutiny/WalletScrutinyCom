@@ -9,9 +9,9 @@ appId: com.paybis
 released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
-stars: 3.5
-ratings: 53
-reviews: 28
+stars: 3.4
+ratings: 55
+reviews: 30
 size: 6.1M
 website: https://paybis.com
 repository: 

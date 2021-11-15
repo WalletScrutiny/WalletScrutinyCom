@@ -9,9 +9,9 @@ appId: com.hena.henawallet
 released: 2019-03-12
 updated: 2020-06-04
 version: "29"
-stars: 3.3
-ratings: 732
-reviews: 504
+stars: 3.2
+ratings: 733
+reviews: 505
 size: 21M
 website: 
 repository: 

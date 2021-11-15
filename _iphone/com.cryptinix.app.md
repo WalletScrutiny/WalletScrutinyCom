@@ -1,7 +1,7 @@
 ---
 wsId: Cryptinix
 title: "Cryptinix: Crypto Trading"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.cryptinix.app
@@ -10,26 +10,27 @@ idd: 1539414769
 released: 2020-11-11
 updated: 2021-07-25
 version: "1.2.2"
-stars:
-reviews:
+stars: 
+reviews: 
 size: 91269120
 website: https://cryptinix.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.cryptinix.app.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

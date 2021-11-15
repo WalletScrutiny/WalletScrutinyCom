@@ -9,8 +9,8 @@ appId: com.kinesis.kinesisapp
 released: 2020-02-28
 updated: 2021-11-05
 version: "1.2.71"
-stars: 3.9
-ratings: 391
+stars: 4.0
+ratings: 392
 reviews: 183
 size: 35M
 website: https://kinesis.money/

@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "CITEX- Crypto trading & PoW"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 78
 reviews: 49
 size: 37M
 website: https://www.citex.co.kr/#/home
-repository:
-issue:
+repository: 
+issue: 
 icon: kr.co.citex.citexclient.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Citexofficial
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: citexglobal
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

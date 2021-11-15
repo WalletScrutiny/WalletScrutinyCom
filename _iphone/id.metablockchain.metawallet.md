@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "MetaMUI Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: id.metablockchain.metawallet
@@ -10,26 +10,27 @@ idd: 1546698261
 released: 2021-01-05
 updated: 2021-09-27
 version: "1.7.0"
-stars:
-reviews:
+stars: 
+reviews: 
 size: 43745280
 website: https://swnglobal.com
-repository:
-issue:
+repository: 
+issue: 
 icon: id.metablockchain.metawallet.jpg
-bugbounty:
+bugbounty: 
 verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: MUIcommunity
 providerLinkedIn: metamui
 providerFacebook: SovereignWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

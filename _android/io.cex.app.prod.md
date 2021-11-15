@@ -10,8 +10,8 @@ released: 2015-12-22
 updated: 2021-11-11
 version: "Varies with device"
 stars: 4.0
-ratings: 14949
-reviews: 9212
+ratings: 14958
+reviews: 9218
 size: Varies with device
 website: https://cex.io
 repository: 

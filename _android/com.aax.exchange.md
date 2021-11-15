@@ -10,8 +10,8 @@ released: 2019-03-04
 updated: 2021-11-13
 version: "3.1.14"
 stars: 4.0
-ratings: 2628
-reviews: 957
+ratings: 2636
+reviews: 961
 size: 58M
 website: https://www.aax.com
 repository: 

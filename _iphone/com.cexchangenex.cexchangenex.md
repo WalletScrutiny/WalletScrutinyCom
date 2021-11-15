@@ -1,7 +1,7 @@
 ---
 wsId: Cexchangenex
 title: "Minerta - Cexchangenex"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.cexchangenex.cexchangenex
@@ -14,22 +14,23 @@ stars: 4
 reviews: 5
 size: 62076928
 website: https://cexchangenex.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.cexchangenex.cexchangenex.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

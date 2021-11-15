@@ -10,8 +10,8 @@ released:
 updated: 2021-11-06
 version: "v98"
 stars: 4.4
-ratings: 4398
-reviews: 1613
+ratings: 4413
+reviews: 1620
 size: 13M
 website: 
 repository: 

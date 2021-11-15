@@ -9,9 +9,9 @@ appId: com.coinchat.coinchat
 released: 2018-05-20
 updated: 2020-03-11
 version: "2.0.2"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.9
+ratings: 1186
+reviews: 747
 size: 30M
 website: 
 repository: 

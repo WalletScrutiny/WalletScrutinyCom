@@ -9,9 +9,9 @@ appId: com.magnum.wallet
 released: 2019-04-23
 updated: 2019-08-29
 version: "1.0.12"
-stars: 3.3
+stars: 5.0
 ratings: 228
-reviews: 159
+reviews: 
 size: 3.0M
 website: https://magnumwallet.co
 repository: 

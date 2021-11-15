@@ -9,9 +9,9 @@ appId: com.app.bitcoinstorea
 released: 2021-08-01
 updated: 2021-08-01
 version: "1.0"
-stars: 4.0
-ratings: 7
-reviews: 3
+stars: 3.6
+ratings: 8
+reviews: 4
 size: 86M
 website: 
 repository: 

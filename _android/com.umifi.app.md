@@ -1,7 +1,7 @@
 ---
 wsId: UmiFi
 title: "UmiFi-Bitcoin, Crypto Trading"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2021-08-18
 updated: 2021-10-14
 version: "1.0.5"
 stars: 4.8
-ratings: 54
-reviews: 32
+ratings: 55
+reviews: 33
 size: 65M
 website: https://www.umifi.com/en-ww/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.umifi.app.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: officialumifi
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

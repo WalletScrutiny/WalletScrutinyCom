@@ -1,7 +1,7 @@
 ---
 wsId: BlackFort
 title: "BlackFort Wallet & Exchange"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 62
 reviews: 34
 size: 17M
 website: https://blackfort.exchange/
-repository:
-issue:
+repository: 
+issue: 
 icon: exchange.blackfort.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: BlackFort_Tech
 providerLinkedIn: blackfort-wallet-exchange
 providerFacebook: BlackfortWalletExchange
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

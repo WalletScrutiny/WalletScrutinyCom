@@ -1,7 +1,7 @@
 ---
 wsId: TeroxxWallet
 title: "TeroxxWallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 70
 reviews: 37
 size: 79M
 website: https://teroxxapp.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.teroxx.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

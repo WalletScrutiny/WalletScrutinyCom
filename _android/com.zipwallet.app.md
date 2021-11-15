@@ -9,9 +9,9 @@ appId: com.zipwallet.app
 released: 2018-01-30
 updated: 2021-11-10
 version: "9.9.8.0"
-stars: 4.4
-ratings: 615
-reviews: 383
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
 website: https://zipwalletpay.com/
 repository: 

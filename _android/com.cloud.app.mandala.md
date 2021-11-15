@@ -9,15 +9,15 @@ appId: com.cloud.app.mandala
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.1
-ratings: 69
+stars: 4.2
+ratings: 70
 reviews: 46
 size: 23M
 website: https://www.mandala.exchange/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.cloud.app.mandala.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
 signer: 
@@ -25,7 +25,7 @@ reviewArchive:
 
 
 providerTwitter: mandalaex
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: mandalaexchange
 providerReddit: MandalaExchange
 

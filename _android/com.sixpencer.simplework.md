@@ -9,9 +9,9 @@ appId: com.sixpencer.simplework
 released: 2020-10-09
 updated: 2021-06-23
 version: "1.4.3"
-stars: 5.0
+stars: 4.2
 ratings: 190
-reviews: 
+reviews: 94
 size: 21M
 website: https://dfox.cc
 repository: 

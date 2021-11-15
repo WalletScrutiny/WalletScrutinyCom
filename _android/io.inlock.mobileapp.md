@@ -1,7 +1,7 @@
 ---
 wsId: inLock
 title: "INLOCK: Crypto Savings Account"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2020-08-04
 updated: 2021-11-04
 version: "1.5.3"
 stars: 4.7
-ratings: 86
-reviews: 38
+ratings: 85
+reviews: 37
 size: 46M
 website: https://inlock.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: io.inlock.mobileapp.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: inlock_token
 providerLinkedIn: income-locker
 providerFacebook: incomelocker
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

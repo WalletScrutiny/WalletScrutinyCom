@@ -9,9 +9,9 @@ appId: com.trycircleapp.wallets
 released: 2020-12-29
 updated: 2021-01-26
 version: "6.0"
-stars: 4.8
-ratings: 90
-reviews: 58
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.1M
 website: https://trycircleapp.com/
 repository: 

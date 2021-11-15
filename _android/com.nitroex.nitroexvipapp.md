@@ -10,7 +10,7 @@ released: 2020-11-17
 updated: 2020-12-10
 version: "8.0.0"
 stars: 4.4
-ratings: 127
+ratings: 129
 reviews: 94
 size: 18M
 website: https://www.nitroex.io/commons/home

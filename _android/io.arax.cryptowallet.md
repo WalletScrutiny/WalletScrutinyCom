@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.arax.cryptowallet.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-11-15
 signer: 
 reviewArchive:
 

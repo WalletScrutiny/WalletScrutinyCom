@@ -1,7 +1,7 @@
 ---
 wsId: BlocPal
 title: "BlocPal Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 60
 reviews: 38
 size: 57M
 website: https://www.blocpal.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.blocpal.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

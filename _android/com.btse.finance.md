@@ -10,17 +10,17 @@ released: 2020-11-30
 updated: 2021-11-05
 version: "1.18.0"
 stars: 4.6
-ratings: 55
-reviews: 28
+ratings: 56
+reviews: 29
 size: 134M
 website: https://www.btse.com/
 repository: 
 issue: 
 icon: com.btse.finance.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 

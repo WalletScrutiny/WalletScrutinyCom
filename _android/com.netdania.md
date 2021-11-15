@@ -9,9 +9,9 @@ appId: com.netdania
 released: 2011-11-04
 updated: 2021-07-26
 version: "4.0.7"
-stars: 4.5
+stars: 4.4
 ratings: 24295
-reviews: 8939
+reviews: 3
 size: 19M
 website: https://www.netdania.com/
 repository: 

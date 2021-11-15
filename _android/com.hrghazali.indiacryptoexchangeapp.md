@@ -4,7 +4,7 @@ title: "India: Crypto Exchange App"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.hrghazali.indiacryptoexchangeapp
 released: 2021-09-12
 updated: 2021-09-13

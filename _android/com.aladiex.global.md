@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Aladiex"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 60
 reviews: 32
 size: 27M
 website: https://aladiex.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.aladiex.global.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Aladiexchange
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: AladiEx
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

@@ -1,7 +1,7 @@
 ---
 wsId: Baksman
 title: "Baksman – купить Биткоин"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -13,21 +13,21 @@ stars: 4.2
 ratings: 60
 reviews: 36
 size: 1.4M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.xchange.baksman.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: baksmancom
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

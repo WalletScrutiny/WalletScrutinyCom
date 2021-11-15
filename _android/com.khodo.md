@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Khodo: Buy Bitcoin and Cryptocurrency in Malawi"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 54
 reviews: 41
 size: 60M
 website: https://www.khodo.africa/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.khodo.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: buymalawi
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: buybitcoinmalawi
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

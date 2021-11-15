@@ -9,9 +9,9 @@ appId: net.oblade.krakapi
 released: 2019-08-09
 updated: 2021-10-24
 version: "2.4.8"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 511
+reviews: 229
 size: 7.5M
 website: http://krakapi.oblade.net/
 repository: 

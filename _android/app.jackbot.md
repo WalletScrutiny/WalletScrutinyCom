@@ -9,9 +9,9 @@ appId: app.jackbot
 released: 2021-01-05
 updated: 2021-11-08
 version: "4.0.0"
-stars: 4.1
-ratings: 18
-reviews: 16
+stars: 3.9
+ratings: 19
+reviews: 17
 size: 20M
 website: 
 repository: 

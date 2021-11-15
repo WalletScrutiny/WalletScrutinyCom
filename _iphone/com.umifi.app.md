@@ -1,7 +1,7 @@
 ---
 wsId: UmiFi
 title: "UmiFi"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.umifi.app
@@ -14,22 +14,23 @@ stars: 5
 reviews: 1
 size: 255756288
 website: https://www.umifi.com/en-ww/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.umifi.app.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: officialumifi
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

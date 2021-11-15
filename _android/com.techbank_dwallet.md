@@ -1,7 +1,7 @@
 ---
 wsId: Techbank
 title: "TechBank Dwallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -9,25 +9,25 @@ appId: com.techbank_dwallet
 released: 2020-10-09
 updated: 2021-11-05
 version: "1.2"
-stars: 4.5
-ratings: 55
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 72M
 website: https://techbank.finance/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.techbank_dwallet.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

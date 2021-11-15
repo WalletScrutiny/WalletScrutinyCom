@@ -9,9 +9,9 @@ appId: com.opolo.io
 released: 2020-09-01
 updated: 2021-06-08
 version: "1.3.1"
-stars: 4.9
-ratings: 7
-reviews: 3
+stars: 4.4
+ratings: 8
+reviews: 4
 size: 18M
 website: 
 repository: 

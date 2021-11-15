@@ -1,7 +1,7 @@
 ---
 wsId: Cexchangenex
 title: "Cexchangenex"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 72
 reviews: 39
 size: 75M
 website: https://cexchangenex.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.cexchangenex.cexchangenex.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -9,8 +9,8 @@ appId: app.zupago.app
 released: 2021-04-30
 updated: 2021-11-12
 version: "1.4.6"
-stars: 4.9
-ratings: 20
+stars: 5.0
+ratings: 21
 reviews: 17
 size: 21M
 website: 

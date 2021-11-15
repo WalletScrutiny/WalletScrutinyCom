@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Bitcanner"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 58
 reviews: 48
 size: 19M
 website: https://www.bitcanner.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitcanner.blogspot.bitcanner.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

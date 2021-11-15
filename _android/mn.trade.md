@@ -9,9 +9,9 @@ appId: mn.trade
 released: 2018-04-13
 updated: 2021-06-29
 version: "2.0.5"
-stars: 3.4
-ratings: 399
-reviews: 199
+stars: 3.5
+ratings: 400
+reviews: 200
 size: 38M
 website: https://trade.mn/
 repository: 

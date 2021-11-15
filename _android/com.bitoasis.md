@@ -10,7 +10,7 @@ released: 2020-08-20
 updated: 2021-11-05
 version: "1.4.0"
 stars: 4.4
-ratings: 1071
+ratings: 1074
 reviews: 245
 size: 62M
 website: https://bitoasis.net/en/home

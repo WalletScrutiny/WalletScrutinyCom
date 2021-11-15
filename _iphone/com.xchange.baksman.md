@@ -1,7 +1,7 @@
 ---
 wsId: Baksman
 title: "Baksman – купить Биткоин"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.xchange.baksman
@@ -13,23 +13,24 @@ version: "2.1.8"
 stars: 4.79661
 reviews: 59
 size: 95942656
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.xchange.baksman.jpg
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: baksmancom
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

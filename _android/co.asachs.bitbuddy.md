@@ -9,9 +9,9 @@ appId: co.asachs.bitbuddy
 released: 2019-09-19
 updated: 2020-09-28
 version: "2.0.1"
-stars: 3.9
-ratings: 56
-reviews: 38
+stars: 3.8
+ratings: 57
+reviews: 39
 size: 14M
 website: 
 repository: 

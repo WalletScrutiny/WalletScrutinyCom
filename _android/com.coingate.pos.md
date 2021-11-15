@@ -9,9 +9,9 @@ appId: com.coingate.pos
 released: 2015-02-19
 updated: 2016-08-18
 version: "2.0.0"
-stars: 3.7
-ratings: 24
-reviews: 9
+stars: 3.6
+ratings: 25
+reviews: 10
 size: 8.1M
 website: https://coingate.com/
 repository: 

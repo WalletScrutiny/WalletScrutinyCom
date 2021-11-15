@@ -1,7 +1,7 @@
 ---
 wsId: Cryptoneed
 title: "Cryptoneed: универсальный криптокошелек и обменник"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 70
 reviews: 42
 size: 50M
 website: https://www.cryptoneed.pro/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.silenca.cryptoneed.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: cryptoneedwallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

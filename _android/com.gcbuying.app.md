@@ -10,8 +10,8 @@ released: 2021-01-26
 updated: 2021-09-17
 version: "1.0.10"
 stars: 4.5
-ratings: 194
-reviews: 168
+ratings: 193
+reviews: 167
 size: 13M
 website: https://gcbuying.com/
 repository: 

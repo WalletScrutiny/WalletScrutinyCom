@@ -10,8 +10,8 @@ idd: 1503482896
 released: 2020-04-09
 updated: 2021-10-30
 version: "1.11.1"
-stars: 4.64295
-reviews: 22011
+stars: 4.64229
+reviews: 22057
 size: 164731904
 website: https://www.btcturk.com
 repository: 

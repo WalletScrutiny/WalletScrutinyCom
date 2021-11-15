@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Rapidpay- Buy, sell & borrow with your crypto"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 60
 reviews: 49
 size: 32M
 website: https://rapidpay.africa/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.zenafinance.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -10,7 +10,7 @@ released: 2020-03-15
 updated: 2021-10-21
 version: "1.77"
 stars: 4.6
-ratings: 604
+ratings: 605
 reviews: 554
 size: 63M
 website: https://crystalwallet.eu/

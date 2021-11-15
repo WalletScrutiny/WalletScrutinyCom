@@ -10,7 +10,7 @@ released: 2018-06-11
 updated: 2021-06-07
 version: "0.5.30"
 stars: 3.2
-ratings: 208
+ratings: 209
 reviews: 122
 size: 35M
 website: https://www.coinigy.com/

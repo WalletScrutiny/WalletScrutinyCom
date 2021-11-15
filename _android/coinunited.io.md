@@ -1,7 +1,7 @@
 ---
 wsId: CoinUnited
 title: "CoinUnited - Crypto and Bitcoin Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 68
 reviews: 62
 size: 35M
 website: https://www.coinunited.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: coinunited.io.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: realcoinunited
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

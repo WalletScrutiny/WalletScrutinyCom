@@ -1,7 +1,7 @@
 ---
 wsId: BlocPal
 title: "BlocPal Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.blocpal.wallet
@@ -13,23 +13,24 @@ version: "1.1.7"
 stars: 5
 reviews: 1
 size: 95551488
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.blocpal.wallet.jpg
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

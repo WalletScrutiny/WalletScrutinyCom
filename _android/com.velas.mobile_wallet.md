@@ -9,9 +9,9 @@ appId: com.velas.mobile_wallet
 released: 2020-11-17
 updated: 2021-10-25
 version: "2.0.9"
-stars: 4.7
+stars: 5.0
 ratings: 487
-reviews: 426
+reviews: 
 size: 38M
 website: https://velas.com/
 repository: https://github.com/velas/mobile-wallet

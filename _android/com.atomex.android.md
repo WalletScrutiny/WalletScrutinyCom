@@ -9,9 +9,9 @@ appId: com.atomex.android
 released: 2020-12-06
 updated: 2021-11-09
 version: "1.12.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 56
+reviews: 43
 size: 61M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
