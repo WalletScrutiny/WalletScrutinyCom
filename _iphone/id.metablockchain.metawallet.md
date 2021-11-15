@@ -19,7 +19,7 @@ issue:
 icon: id.metablockchain.metawallet.jpg
 bugbounty:
 verdict: wip
-date: 2021-11-04
+date: 2021-11-15
 signer:
 reviewArchive:
 

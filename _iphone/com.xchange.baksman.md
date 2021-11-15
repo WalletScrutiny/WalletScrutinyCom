@@ -19,7 +19,7 @@ issue:
 icon: com.xchange.baksman.jpg
 bugbounty:
 verdict: nowallet
-date: 2021-11-05
+date: 2021-11-15
 signer:
 reviewArchive:
 

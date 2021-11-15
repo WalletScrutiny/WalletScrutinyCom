@@ -19,7 +19,7 @@ issue:
 icon: com.cryptinix.app.png
 bugbounty:
 verdict: custodial
-date: 2021-09-01
+date: 2021-11-15
 signer:
 reviewArchive:
 

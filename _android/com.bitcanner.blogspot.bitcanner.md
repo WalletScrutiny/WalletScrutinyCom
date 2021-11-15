@@ -19,7 +19,7 @@ issue:
 icon: com.bitcanner.blogspot.bitcanner.png
 bugbounty:
 verdict: nowallet
-date: 2021-10-01
+date: 2021-11-15
 signer:
 reviewArchive:
 

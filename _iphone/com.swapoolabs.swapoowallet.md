@@ -19,7 +19,7 @@ issue:
 icon: com.swapoolabs.swapoowallet.jpg
 bugbounty:
 verdict: defunct
-date: 2021-11-05
+date: 2021-11-15
 signer:
 reviewArchive:
 

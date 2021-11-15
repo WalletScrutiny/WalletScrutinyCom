@@ -19,7 +19,7 @@ issue:
 icon: com.pundix.functionx.png
 bugbounty: 
 verdict: nosource
-date: 2021-10-04
+date: 2021-11-15
 signer: 
 reviewArchive:
 

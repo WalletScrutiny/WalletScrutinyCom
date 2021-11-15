@@ -19,7 +19,7 @@ issue:
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-24
+date: 2021-11-15
 signer: 
 reviewArchive:
 

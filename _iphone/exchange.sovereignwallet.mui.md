@@ -19,7 +19,7 @@ issue:
 icon: exchange.sovereignwallet.mui.jpg
 bugbounty:
 verdict: defunct
-date: 2021-11-04
+date: 2021-11-15
 signer:
 reviewArchive:
 

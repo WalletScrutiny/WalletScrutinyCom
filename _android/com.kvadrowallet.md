@@ -19,7 +19,7 @@ issue:
 icon: com.kvadrowallet.png
 bugbounty:
 verdict: defunct
-date: 2021-08-02
+date: 2021-11-15
 signer:
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.silenca.cryptoneed.png
 bugbounty:
 verdict: nosource
-date: 2021-08-02
+date: 2021-11-15
 signer:
 reviewArchive:
 

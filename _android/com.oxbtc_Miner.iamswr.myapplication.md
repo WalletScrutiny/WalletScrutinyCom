@@ -19,7 +19,7 @@ issue:
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-11-10
+date: 2021-11-15
 signer: 
 reviewArchive:
 

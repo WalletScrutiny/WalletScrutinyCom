@@ -19,7 +19,7 @@ issue:
 icon: com.ninjacoin.png
 bugbounty:
 verdict: nobtc
-date: 2021-04-27
+date: 2021-11-15
 signer:
 reviewArchive:
 

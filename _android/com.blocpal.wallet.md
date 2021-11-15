@@ -19,7 +19,7 @@ issue:
 icon: com.blocpal.wallet.png
 bugbounty:
 verdict: nosource
-date: 2021-08-08
+date: 2021-11-15
 signer:
 reviewArchive:
 
