@@ -54,4 +54,4 @@ We downloaded the app to test it out. We were asked to set a 5-digit PIN to acce
 
 ## Verdict
 
-This is a **self-custodial** app, meaning that you are in control of the keys. On the other hand, searching their appID 'com.wise.llc.wallet.app' [on Github](https://github.com/search?q=com.wise.llc.wallet.app&type=code) does not return relevant results. With nothing to be found about source code, we conclude that this is **not an open-source project.**
+This is a **self-custodial** app, meaning that you are in control of the keys. On the other hand, searching their appID 'com.wise.llc.wallet.app' [on Github](https://github.com/search?q=com.wise.llc.wallet.app&type=code) does not return relevant results. With nothing to be found about source code, we conclude that this app is **not verifiable**.

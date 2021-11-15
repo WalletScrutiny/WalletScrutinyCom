@@ -45,5 +45,5 @@ BitCheck is your safest way to send and receive cryptocurrency and funds. Acting
 
 ## Verdict
 
-Cryptocurrency exchanges that have banking partners that let users buy cryptocurrencies on their platform and have third-party escrow providers are notably **custodial**. This means their app is **not-verifiable**.
+Cryptocurrency exchanges that have banking partners that let users buy cryptocurrencies on their platform and have third-party escrow providers are notably **custodial**. This means their app is **not verifiable**.
 
