@@ -13,7 +13,7 @@ stars: 3.2
 ratings: 58
 reviews: 48
 size: 19M
-website:
+website: https://www.bitcanner.com/
 repository:
 issue:
 icon: com.bitcanner.blogspot.bitcanner.png
