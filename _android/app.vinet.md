@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId:
 title: "Vinet:Sell Bitcoin PayPal Skrill Netelle for Naira"
-altTitle: 
+altTitle:
 authors:
-
+- danny
 users: 1000
 appId: app.vinet
 released: 2020-05-18
@@ -13,24 +13,42 @@ stars: 4.7
 ratings: 49
 reviews: 47
 size: 9.2M
-website: 
-repository: 
-issue: 
+website: https://vinetexchange.com/
+repository:
+issue:
 icon: app.vinet.png
-bugbounty: 
-verdict: wip
+bugbounty:
+verdict: nowallet
 date: 2021-08-02
-signer: 
+signer:
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter:
+providerLinkedIn:
+providerFacebook: vinetexchange
+providerReddit:
 
 redirect_from:
 
 ---
 
 
+## App Description
+
+It's a Nigeria-based platform that allows users to sell Bitcoin for Naira via Paypal and Skrill.
+
+> **Can I withdraw the cryptocurrency I have deposited?** <br>
+We have built our platform to enable you to sell your cryptocurrency in a fast and secure manner. We do not aim to be a wallet service. That would create unnecessary exposure of your crypto for you and for us. In the case you wish to withdraw the cryptocurrency you have deposited on your wallet address, please contact our support team. We are able to return cryptocurrency to the sending address it originated from. In your request, please add the details of the wallet as a confirmation that this is your wallet.
+
+## [Terms and Conditions](https://vinetexchange.com/privacy)
+
+> Section 4.2. Vinetexchange **does not offer to hold any client funds**, whether these are in FIAT or in Cryptos.
+
+## The App
+
+We tried to register, but found the app only accepts Nigerian numbers.
+
+## Verdict
+
+Vinetexchange does not store your assets, as it is a service meant to convert cryptocurrencies to Naira. It **cannot be classified as a wallet.**
