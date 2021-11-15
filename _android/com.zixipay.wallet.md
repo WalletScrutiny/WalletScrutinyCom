@@ -36,7 +36,7 @@ redirect_from:
 
 ## App Description
 
-Zixipay is a multi-currency wallet that supports Bitcoin and many other cryptocurrencies. It claims to use a hierarchical deterministic address architecture. 
+Zixipay is a multi-currency wallet that supports Bitcoin and many other cryptocurrencies.
 
 ## Termination Clauses in the [User Agreement](https://zixipay.com/agreement)
 

@@ -53,6 +53,8 @@ Keyring Pro states that it has a 'One Key' feature.
 
 > KEYRING PRO enables users to generate wallets on all supported Chains at once with only one Private Key. All created wallets come with the same exact wallet address.
 
+... which sounds terrible for the user's privacy.
+
 ## The App
 
 We tried the app and were able to create a wallet. While we were not provided with a 12-word mnemonic, we were able to download a backup file and view the private key.
