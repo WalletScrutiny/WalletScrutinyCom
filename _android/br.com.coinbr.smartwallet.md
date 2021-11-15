@@ -58,4 +58,4 @@ After installing the app, users are asked to access the Smart Wallet website on 
 Due to this, we were unable to access the app.
 
 ### Verdict
-While we await the reply from the support email, it seems that private keys are not provided to the user. This app will be classified as a **custodial** product, thus **not-verifiable.**
+While we await the reply from the support email, it seems that private keys are not provided to the user. This app will be classified as a **custodial** product, thus **not verifiable.**

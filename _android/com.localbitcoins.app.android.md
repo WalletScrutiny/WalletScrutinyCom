@@ -132,5 +132,5 @@ As we wait for the reply on twitter and regardless of whether the app is the rea
 
 > We have the right to limit, suspend, or terminate your account or access to our Services 
 
-This makes the service **custodial** and the app **not-verifiable**
+This makes the service **custodial** and the app **not verifiable**
 

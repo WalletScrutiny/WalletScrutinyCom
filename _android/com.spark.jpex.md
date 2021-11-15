@@ -60,6 +60,6 @@ We downloaded and registered. There are multiple cryptocurrency wallets that all
 
 ## Verdict
 
-Like most exchanges, JPEX is a **custodial** service. This makes the app **not-verifiable.**
+Like most exchanges, JPEX is a **custodial** service. This makes the app **not verifiable.**
 
 

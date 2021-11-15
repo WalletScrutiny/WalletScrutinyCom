@@ -59,4 +59,4 @@ We tried the app. We were given the option to backup our account and were provid
 After confirming that the user has written the words down, we are allowed to either save it on the device, remove the mnemonic, or send the mnemonic to the server. Currently, the last option is unavailable.
 
 ## Verdict
-This app is **non-custodial,** but with no source to back it up, it is **not-verifiable.**
+This app is **non-custodial,** but with no source to back it up, it is **not verifiable.**

@@ -63,4 +63,4 @@ We downloaded and installed the app. We were able to access the 12-word seed phr
 
 ## Verdict
 
-While this is a **non-custodial** wallet, there is **a lack of any source code** available for review. Moon Wallet is **not-verifiable.**
+While this is a **non-custodial** wallet, there is **a lack of any source code** available for review. Moon Wallet is **not verifiable.**
