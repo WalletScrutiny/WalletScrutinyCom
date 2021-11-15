@@ -73,6 +73,6 @@ Once we got in the app, we tried looking for the private keys or the 12-word see
 
 ## Verdict
 
-When we registered on the phone, we realized that we could sign in with the same credentials on their website. We believe that account information is retained on their end. There is a BTC wallet however, the **only functions available** were to receive via a BTC address and to convert to Xerium. Withdrawals and transfers can also only be via Xerium. We could not locate the send function for BTC. We were also not able to find the private key and the 12-word seed phrase that they claimed existed. We asked them on twitter [@Xerium3](https://twitter.com/BitcoinWalletz/status/1457980962420101120) to verify.
+When we registered on the phone, we realized that we could sign in with the same credentials on their website. We believe that account information is retained on their end. There is a BTC wallet and it is possible to store BTC inside it. It can be converted to Xerium. Withdrawals and transfers can also only be via Xerium. We could not locate the send function for BTC. We were also not able to find the private key and the 12-word seed phrase that they claimed existed. We asked them on twitter [@Xerium3](https://twitter.com/BitcoinWalletz/status/1457980962420101120) to verify.
 
 Until proven otherwise, we had difficulty giving this app a verdict because it can receive and hold BTC. **But** it can only convert the BTC to Xerium. It functions as a limited **BTC wallet that can receive, but not send**.

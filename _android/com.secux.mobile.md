@@ -18,7 +18,7 @@ repository:
 issue:
 icon: com.secux.mobile.png
 bugbounty:
-verdict: wip
+verdict: nowallet
 date: 2021-08-08
 signer:
 reviewArchive:
@@ -56,6 +56,22 @@ Apparently, this is a companion app for the SecuX hardware wallets.
   ★☆☆☆☆ January 5, 2021 <br>
        The app nor the bluetooth device works. It requires you to sign in via bluetooth or usb. However if you plug the usb it says no compatible devices found and if you attempt to use the bluetooth the website will not react. It says you have to turn on bluetooth from the hardware wallet and the device (phone or laptop) but the wallet does not have an option for bluetooth in its settings. If I could give zero stars I would. Avoid at all cost.
 
+## The Site
+
+From the [Terms of Use](https://secuxtech.com/secuxess-and-secux-mobile-app-terms-of-use/) for this app: 
+
+> SecuXess and SecuX Mobile App in connection with SecuX Wallets, provides you with a convenient and secure way to use Private Keys generated from your Recovery Words for management of Crypto Assets.
+The SecuX Services allow users to:
+>  - Update Device Firmware of their SecuX Wallets
+>  - Add accounts of Crypto Assets to their portfolio
+>  - View their portfolio of supported Crypto Assets
+>  - Access the means to perform operations on various blockchain networks in accordance with their respective protocol rules, such as but not limited to:   
+    - Send and receive Crypto Assets to and from users of a dedicated blockchain network.
+    - Connect with Third Party Services, to access services such as the delegation of staking rights on supported proof-of-stake blockchains or buying crypto.
+>
+> SecuX operates non-custodial services, which means that we do not store, nor do we have access to your Crypto Assets or your Private Keys. We do not send or receive Crypto Assets. Any Crypto Asset transfer occurs on blockchain networks, any of which is not, and will not be owned, operated or controlled by SecuX.
+
+
 ## Verdict
 
-Since this is related to a hardware wallet, we will mark it for reclassification and a work in progress.
+If this mobile app does not actually store your funds as it is only a partner to the hardware wallet, then it **cannot be classified as a wallet.**
