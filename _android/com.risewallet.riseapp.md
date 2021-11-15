@@ -52,5 +52,5 @@ The wallet supports sending and receiving BTC.
 
 ## Verdict
 
-The [terms](https://www.risewallet.com/terms.html) specify that users may not "discover" the source code. This implies that Rise is **not open source**. 
+There's no information if the source code is available and no Github account either. We assume that the source code is simply not publicly available, thus making this app **not verifiable**.
 
