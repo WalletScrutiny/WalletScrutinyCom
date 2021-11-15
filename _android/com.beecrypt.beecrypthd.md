@@ -54,7 +54,7 @@ To which [MoneyPipe developer](https://bitcointalk.org/index.php?action=profile;
 
 ## The App
 
-We were able to test the app and have that the bitcoin wallet has send-and-receive functions. It also provided options to backup via the 12-word seed phrases.
+We tested the app and it has a bitcoin wallet with send and receive function. It also provided options to backup via a 12-word seed phrase.
 
 ## Verdict
 

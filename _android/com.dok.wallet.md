@@ -70,7 +70,11 @@ We downloaded the app and registered. We were then given the choices to "Create 
 
 We were _not_ able to import the 12-word mnemonic on Electrum.
 
-Note: We find it strange that when installed on an Android Emulator, its tab name is different. It's labeled 'PumaPay'
+Note: When installed on an Android Emulator, its tab name is 'PumaPay' which is the name of another wallet:
+
+{% include walletLink.html wallet='android/com.pumapay.pumawallet' %}
+
+This could hint at the app being a copy of a competitor's product, which would at best be a licensed copy and at worst a fake wallet by hackers too lazy to code their own product.
 
 ## Verdict
 
