@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.plasmapay.androidapp.png
 bugbounty: 
-verdict: custodial
+verdict: defunct
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -47,6 +47,28 @@ redirect_from:
 > - Advanced Two-Factor Authentication
 > - Backup key to your local mobile storage
 
+## Critical Reviews
+
+Multiple users say that they have errors with this app. This dates back to January 2020.
+
+
+> [Ashish Nath](https://play.google.com/store/apps/details?id=com.plasmapay.androidapp&reviewId=gp%3AAOqpTOEFQgvEnqKww0ugdUtIgAWpliu54tDzLnKOQphPuNUtPyc738QTNygFAktkRhaiNoSjQCYq8HLX6Nd-QIg)<br>
+  ★☆☆☆☆ January 17, 2020 <br>
+       No way to create usd wallet always showing error
+>       
+> [63 Grams](https://play.google.com/store/apps/details?id=com.plasmapay.androidapp&reviewId=gp%3AAOqpTOF65be3LbWhJ_HAYBQvhWkhqcnmdsvW4f74xw6lq4JzfS-jHccWfOiAiK6-sygxT64adcDCZS-W_KYyE1A)<br>
+  ★☆☆☆☆ January 22, 2021 <br>
+       Always an error
+>       
+> [Granit Lushaku](https://play.google.com/store/apps/details?id=com.plasmapay.androidapp&reviewId=gp%3AAOqpTOGiCKu40nTYO5tn1tD2nytxlZqbROmMvvuUPtSgsjWY3IVjEovf3VrsGZi_GkTegMeH9p4IjbLlmQh_FLA)<br>
+  ★☆☆☆☆ November 24, 2020 <br>
+       Can't sign up error on capcha  
+>      
+> [Andrew Herkenhoff](https://play.google.com/store/apps/details?id=com.plasmapay.androidapp&reviewId=gp%3AAOqpTOHfQlWtVxs-smnUUSgGn_Xpf3l9x6OEK3RORKG2BqvtDu_lymuxR0LydNDwTvJtaEa7WOWYukw2e73QJoE)<br>
+  ★☆☆☆☆ July 9, 2021 <br>
+       This app does not appear to be functional. I can not activate my account, that is assuming it actually loads. Seemed like it had promise but it just doesn't work.
+       
+  
 ## Private Keys are mentioned in the [Terms of Use](https://plasmapay.com/terms-of-use)
 
 > As a bitcoin wallet, the Service enables you to interface with the bitcoin network to view and transmit information about a public cryptographic key commonly referred to as a bitcoin address – sometimes referred to herein as a “bitcoin account”. To transmit information about a bitcoin account to the bitcoin network, the **private key(s)** corresponding with the bitcoin account is required. The Service requires three private cryptographic keys to be associated with each Bitcoin or Plasma wallet and PlasmaPay controls only one of these private keys. Two of the three private keys associated with a bitcoin wallet are needed to effect a “transfer” of bitcoin from a bitcoin account (i.e., disassociate bitcoin from one bitcoin wallet and re-associate bitcoin with another bitcoin wallet). Once the bitcoin network recognizes the information you send from the Service and validates it, the information is broadcasted to other individuals and companies in the bitcoin network and the Service cannot be used by you to cancel or reverse bitcoin-to-bitcoin transactions.
@@ -86,6 +108,8 @@ We included a [Section 6.7](https://plasmapay.com/legal-documents) here for refe
 
 > If PlasmaPay suspends or closes your account, or terminates your use of PlasmaPay Services for any reason, we will provide you with notice of our actions unless a court order or other legal process prohibits PlasmaPay from providing you with such notice. You acknowledge that PlasmaPay's decision to take certain actions, including limiting access to, suspending, or closing your account, may be based on confidential criteria that are essential to PlasmaPay's risk management and security protocols. You agree that PlasmaPay is under no obligation to disclose the details of its risk management and security procedures to you. You will be permitted to transfer Digital Currency or funds associated with your Digital Currency Wallet and/or your PlasmaPay Wallet for ninety (90) days after Account deactivation or cancellation **unless such transfer is otherwise prohibited**
 
-The key phrase "**unless such transfer is otherwise prohibited**" make us believe that Plasmapay can freeze the user's account on legal grounds even though they claim that only the user controls the funds. This makes it permissioned. This further strengthens the argument that it is a **custodial** service. This makes the app not verifiable.
+The key phrase "**unless such transfer is otherwise prohibited**" make us believe that Plasmapay can freeze the user's account on legal grounds even though they claim that only the user controls the funds. This makes it permissioned.
 
+It is hard to conclude this app as a custodial offering as it provides the keys, meaning that **the user has access to his funds.** Our findings in their fine-print could also be interpreted as their wallet not facilitating the control of private keys but them not having the private keys neither.
 
+But at the moment, the app itself is not functional. As there are reviews dating back from January reporting errors, we conclude that this "wallet" is **defunct.**

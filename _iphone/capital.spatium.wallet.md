@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: capital.spatium.wallet.jpg
 bugbounty: 
-verdict: custodial
+verdict: nosource
 date: 2021-11-11
 signer: 
 reviewArchive:

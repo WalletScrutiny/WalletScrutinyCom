@@ -53,7 +53,13 @@ Purportedly, users can use this as a cryptocurrency app.
          ★☆☆☆☆ August 8, 2021 <br>
               Complete scam!! Fraudster app!! Don't use it...
               
-There are many suspicious 5* reviews. It is possible some of them may be paid. Another review says that the OTP never arrived.
+There are many suspicious 5* reviews and it is possible that some of them were bought. 
+
+Another review says that the OTP never arrived.
+
+> [Asif Sayyed](https://play.google.com/store/apps/details?id=com.payizadlt.pp&reviewId=gp%3AAOqpTOG4Obl05KocQ6MhUqpf8P5Fa_FO_ZkSId86Jg4fMFAHCDWSUGFHsRNckZQs5aYxIuK4sbFCrdxIcaxhusU)<br>
+        ★☆☆☆☆ March 26, 2021 <br>
+              Im not geting otp
           
 
 ## The Site
@@ -70,4 +76,4 @@ We tried to register. Although it asked to verify via SMS, we did not receive an
 
 ## Verdict
 
-With the information we have collected, we have to conclude that this app is **custodial** and **not verifiable.**
+With little information on this app and an inability to register, we classify this app as **defunct.**

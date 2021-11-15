@@ -4,6 +4,7 @@ title: "Spatium Keyless Bitcoin Wallet"
 altTitle: 
 authors:
 - danny
+- leo
 users: 1000
 appId: capital.spatium.wallet
 released: 2018-08-31
@@ -18,7 +19,7 @@ repository:
 issue: 
 icon: capital.spatium.wallet.png
 bugbounty: 
-verdict: custodial
+verdict: nosource
 date: 2021-04-13
 signer: 
 reviewArchive:
@@ -39,10 +40,12 @@ redirect_from:
 > Spatium is a unique keyless crypto wallet that allows you to easily and safely buy, store, and send crypto.
 > 
 > Spatium wallet, based on SMPC technology and anonymous biometrics, allows you to manage digital assets **without a Private Key**. It’s replaced with an encrypted set of secrets distributed between your device and professional security provider.
->
-> This makes Spatium the safest and easiest crypto wallet. We eliminate the weakness and enhance functionality by replacing the Private Key with the set of secrets that are generated, stored, and processed independently and never occur in one place. No one can steal your Private Key if it does not exist.
 
-It further claims to use biometrics to allow users to recover their data. It details more information on its [Medium blog](https://medium.com/spatium-blog).
+In this case this does not mean that the wallet doesn't use a private key, with their server doing so. They claim there is no private key. Period. Which of course is bogus as Bitcoin transactions need a private key to sign.
+
+It further claims to use biometrics to allow users to recover their data. In a [Medium blogpost](https://medium.com/spatium-blog/spatium-protocol-smpc-on-your-guard-d78a243f519) they mention more details. 
+
+The worrying part is that they use threshold signatures with secrets generated and never leaving other devices, allowing to define a threshold "k of n" of devices required to sign a transaction. Unless k=n, their (partial) custodians can collude against the user but with k=n, the user is still not in control of his funds. The custodians could extort the users: Give us half your money or we burn it all.
 
 
 ## The App
@@ -63,8 +66,8 @@ There is a Bitcoin wallet with a send and receive function. Backup is possible t
 
 ## Verdict
 
-Without the private keys, we do not consider hashed biometric data as a suitable replacement. Add to that the ability to terminate access to the application plus their unwillingness to share their source code. We believe at this point that this is a **custodial** service. Especially because of the phrase: "It’s replaced with an encrypted set of secrets distributed between your device and professional security provider."
+Without the private keys, we do not consider hashed biometric data as a suitable replacement. Add to that the ability to terminate access to the application plus their unwillingness to share their source code. While this does not qualify as a self-custodial service it does not exactly look "custodial" either. 
 
-Precisely [who this security provider is, we're not so sure](https://twitter.com/BitcoinWalletz/status/1458713393607577600). It could be a third party, thus our verdict of **custodial**. The app **cannot be verified**. 
+As this app **does not have publicly available source code** it is **not verifiable.**
 
 

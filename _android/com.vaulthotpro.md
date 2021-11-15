@@ -34,6 +34,8 @@ redirect_from:
 ---
 
 
+**UPDATE 2021-11-15:** Since 11.11 the app is currently gone from the Play Store.
+
 ## App Description
 
 The Cobo Vault app is a companion app to {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %}

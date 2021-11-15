@@ -50,7 +50,7 @@ Section 6, paragraphs 16, 17, and 18 focuses on account suspension and terminati
 
 ## The App
 
-We were not able to find options in the app that allowed the backing up of the private keys, mnemonics, or seed phrases. 
+We were not able to find an option in the app that allows users to view or backup the mnemonics.
 
 ## Verdict
 

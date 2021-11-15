@@ -68,7 +68,7 @@ Section 8 of its Terms and Conditions state that:
 
 We downloaded the app and registered. We were then given the choices to "Create a Wallet" or "Import". Choosing "Create a Wallet" displays a 12-word seed phrase. 
 
-We were _not_ able to import the 12-word mnemonic on Electrum.
+We were able to import the wallet using the mnemonics.
 
 Note: When installed on an Android Emulator, its tab name is 'PumaPay' which is the name of another wallet:
 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-verdict: custodial
+verdict: defunct
 date: 2021-11-11
 signer: 
 reviewArchive:
