@@ -38,7 +38,11 @@ redirect_from:
 
 ## App Description
 
-Apparently, this is a companion app for the SecuX hardware wallet.
+Apparently, this is a companion app for the SecuX hardware wallets.
+
+* {% include walletLink.html wallet='hardware/secuxstonev20' verdict='true' %}
+* {% include walletLink.html wallet='hardware/secuxstonew20' verdict='true' %}
+* {% include walletLink.html wallet='hardware/secuxstonew10' verdict='true' %}
 
 > SecuX Mobile provides the most secure and convenient way for SecuX wallet users to store, send and receive supported cryptocurrencies like BTC, ETH, LTC, XRP, BCH, BNB, GRS, XLM, DOGE, DASH, DGB and ERC-20 token. And more cryptocurrencies and features will be supported in the future by updating.
 
