@@ -44,7 +44,7 @@ redirect_from:
 
 ## The Site
 
-The website is..confusing as to explaining what this app is supposed to be. There are quite a few spelling errors and it sounds very fishy.
+The website is … confusing as to explaining what this app is supposed to be. There are quite a few spelling errors and it sounds very fishy.
 
 > A bitcoin database for windows
 and Now Android..
@@ -63,8 +63,7 @@ Additionally:
 >
 > Now includes the Auto Search Function and a pop up window alert when it finds bitcoins, we also added bitcoin puzzle solver, Private key Hex Visualizer, etc.
 
-About Us tab:
-
+> **About us**<br>
 > Bitcanner explores the world of bitcoin wallets to find weak passwords and keys pairs and it is bitcoin high security proof of work.
 
 There are two videos on the website calling itself a "puzzle solver tool" and "bitcoin hack tool."
