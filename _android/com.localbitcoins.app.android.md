@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: LocalBitcoins
 title: "LocalBitcoins"
 altTitle: 
 authors:
