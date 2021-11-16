@@ -18,11 +18,16 @@ repository: https://github.com/arterynetwork/artr
 issue: 
 icon: network.artery.network.jpg
 bugbounty: 
-verdict: nosource
-date: 2021-09-15
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
-
+- date: 2021-09-15
+  version: "1.7"
+  appHash: 
+  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
+  verdict: nosource
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +37,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-11-07**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

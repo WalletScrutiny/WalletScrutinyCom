@@ -9,9 +9,9 @@ appId: com.bitsacard.BitsaApp
 released: 2019-04-09
 updated: 2021-11-15
 version: "2.7.1"
-stars: 2.2
-ratings: 754
-reviews: 515
+stars: 0.0
+ratings: 
+reviews: 
 size: 82M
 website: https://www.bitsacard.com/
 repository: 

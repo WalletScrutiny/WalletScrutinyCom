@@ -18,11 +18,16 @@ repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
-verdict: nobtc
-date: 2021-04-18
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
-
+- date: 2021-04-18
+  version: "1.6.7"
+  appHash: 
+  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
+  verdict: nobtc
+  
 
 providerTwitter: TokenPocket_TP
 providerLinkedIn: 
@@ -32,5 +37,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-11-03**: This app is not available anymore.
 
 In contrast to the Android version, this app does not appear to support BTC.

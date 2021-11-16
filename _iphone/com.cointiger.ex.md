@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-verdict: stale
-date: 2021-08-27
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
+
+**Update 2021-11-07**: This app is not available anymore.
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
 

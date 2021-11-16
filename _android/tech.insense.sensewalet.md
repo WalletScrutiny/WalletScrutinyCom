@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
 - date: 2019-12-30
@@ -38,6 +38,8 @@ redirect_from:
   - /posts/tech.insense.sensewalet/
 ---
 
+
+**Update 2021-11-07**: This app is not available anymore.
 
 In their description we read:
 

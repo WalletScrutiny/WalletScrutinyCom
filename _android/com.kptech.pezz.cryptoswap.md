@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.kptech.pezz.cryptoswap.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-07**: This app is not available anymore.
 
