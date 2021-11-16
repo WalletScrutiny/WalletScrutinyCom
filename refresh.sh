@@ -20,20 +20,30 @@ npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpa
 rm /tmp/unnatural.txt 2> /dev/null
 echo "Updating from Google and Apple ..." &
 node refreshApps.js
+
+function checkUnnaturals {
+  if [[ -f "/tmp/unnatural.txt" ]];then
+    echo "
+For $( wc -w <<< $( cat /tmp/unnatural.txt) ) apps Google returned invalid data. Requesting again ..."
+    apps=$( cat /tmp/unnatural.txt )
+    rm /tmp/unnatural.txt 2> /dev/null
+    files=_android/${apps// /.md _android\/}.md
+    git checkout HEAD -- $files
+    node refreshNewAndroidApps.js $apps
+  fi
+}
+
+for c in $( seq 1 30 ); do
+  checkUnnaturals
+done
+
 if [[ -f "/tmp/unnatural.txt" ]];then
   apps=$( cat /tmp/unnatural.txt )
   rm /tmp/unnatural.txt 2> /dev/null
-  node refreshNewAndroidApps.js $apps
-fi
-if [[ -f "/tmp/unnatural.txt" ]];then
-  apps=$( cat /tmp/unnatural.txt )
-  rm /tmp/unnatural.txt 2> /dev/null
-  node refreshNewAndroidApps.js $apps
-fi
-if [[ -f "/tmp/unnatural.txt" ]];then
-  apps=$( cat /tmp/unnatural.txt )
-  rm /tmp/unnatural.txt 2> /dev/null
-  echo "The following apps were updated in an unnatural way:
+  files=_android/${apps// /.md _android\/}.md
+  git checkout HEAD -- $files
+  echo "
+The following apps failed to update:
 $apps"
 fi
 
