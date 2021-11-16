@@ -10,8 +10,8 @@ released: 2019-11-02
 updated: 2021-11-13
 version: "2.50.0"
 stars: 4.1
-ratings: 153
-reviews: 89
+ratings: 151
+reviews: 87
 size: 28M
 website: https://titanprojects.co/
 repository: 

@@ -1,7 +1,7 @@
 ---
 wsId: InfiPay
 title: "InfiPay"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.antier.infipay
@@ -10,26 +10,27 @@ idd: 1532993675
 released: 2020-11-03
 updated: 2021-04-09
 version: "1.1.2"
-stars:
-reviews:
+stars: 
+reviews: 
 size: 48979968
 website: http://www.infipay.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.antier.infipay.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

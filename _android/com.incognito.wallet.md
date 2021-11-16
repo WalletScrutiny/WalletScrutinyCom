@@ -10,7 +10,7 @@ released: 2019-08-12
 updated: 2021-09-26
 version: "4.9.0"
 stars: 4.1
-ratings: 319
+ratings: 320
 reviews: 180
 size: 47M
 website: https://incognito.org

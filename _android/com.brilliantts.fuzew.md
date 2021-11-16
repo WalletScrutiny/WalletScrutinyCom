@@ -9,9 +9,9 @@ appId: com.brilliantts.fuzew
 released: 2018-07-25
 updated: 2021-08-10
 version: "1.0.23"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.4
+ratings: 22
+reviews: 10
 size: 32M
 website: 
 repository: 

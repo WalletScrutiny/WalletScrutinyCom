@@ -1,7 +1,7 @@
 ---
 wsId: GenesisBlock
 title: "Genesis Block - digital banking powered by crypto"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,17 +10,17 @@ released: 2020-05-06
 updated: 2021-11-13
 version: "0.1.65"
 stars: 3.7
-ratings: 49
-reviews: 29
+ratings: 50
+reviews: 30
 size: Varies with device
 website: https://genesisblock.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.genesisblock.production.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
@@ -32,6 +32,7 @@ providerReddit: genesisblockhq
 redirect_from:
 
 ---
+
 
 ## App Description
 

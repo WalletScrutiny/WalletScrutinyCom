@@ -10,7 +10,7 @@ released: 2020-11-17
 updated: 2021-10-25
 version: "2.0.9"
 stars: 5.0
-ratings: 487
+ratings: 489
 reviews: 
 size: 38M
 website: https://velas.com/

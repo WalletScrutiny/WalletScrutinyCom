@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Xerium"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,24 +14,25 @@ ratings: 54
 reviews: 49
 size: 6.0M
 website: https://xerium.info/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.xerium.wallet.png
-bugbounty:
+bugbounty: 
 verdict: nosendreceive
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: Xerium3
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: Xerium
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 
 ⚠️ **Caution:** This app claims to be self-custodial and claims to provide the 12-word seed phrase. We could not locate options pertaining to these. It held an ICO and required a sponsor ID when signing up. It also claims to support BTC, but the BTC address can only receive and convert to Xerium. It cannot send BTC.
 

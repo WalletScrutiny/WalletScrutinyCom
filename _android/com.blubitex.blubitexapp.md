@@ -9,9 +9,9 @@ appId: com.blubitex.blubitexapp
 released: 2020-10-03
 updated: 2021-09-10
 version: "2.1.337"
-stars: 3.4
-ratings: 2693
-reviews: 1501
+stars: 3.3
+ratings: 2694
+reviews: 1502
 size: 81M
 website: https://www.blubitex.com/
 repository: 

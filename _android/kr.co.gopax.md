@@ -9,9 +9,9 @@ appId: kr.co.gopax
 released: 2018-11-05
 updated: 2021-11-09
 version: "1.4.19.b245"
-stars: 2.8
-ratings: 1111
-reviews: 857
+stars: 2.7
+ratings: 1112
+reviews: 858
 size: 15M
 website: https://www.gopax.co.kr/
 repository: 

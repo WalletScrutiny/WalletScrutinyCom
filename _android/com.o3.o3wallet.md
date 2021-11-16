@@ -10,7 +10,7 @@ released: 2020-08-27
 updated: 2021-11-01
 version: "3.2.8"
 stars: 3.9
-ratings: 470
+ratings: 471
 reviews: 119
 size: 90M
 website: https://o3.network/

@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "SecuX Mobile"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 46
 reviews: 38
 size: 1.4M
 website: https://secuxtech.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.secux.mobile.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: SecuXwallet
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: secuxtech
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

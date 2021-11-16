@@ -1,7 +1,7 @@
 ---
 wsId: SkyeWallet
 title: "Skye Wallet: Buy & Sell Crypto"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.skyewallet.app
@@ -11,25 +11,26 @@ released: 2021-09-27
 updated: 2021-11-03
 version: "2.9.3"
 stars: 5
-reviews: 2
+reviews: 3
 size: 50906112
 website: https://skyewallet.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.skyewallet.app.jpg
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: skyewallet
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

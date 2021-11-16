@@ -9,9 +9,9 @@ appId: com.digifinex.app
 released: 2018-06-26
 updated: 2021-11-13
 version: "2021.11.13"
-stars: 3.9
-ratings: 2988
-reviews: 1722
+stars: 3.8
+ratings: 2994
+reviews: 1723
 size: 80M
 website: https://www.digifinex.com
 repository: 

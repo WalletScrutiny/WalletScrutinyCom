@@ -10,7 +10,7 @@ released: 2015-05-16
 updated: 2021-10-08
 version: "Varies with device"
 stars: 3.9
-ratings: 25951
+ratings: 25952
 reviews: 10269
 size: Varies with device
 website: https://www.dopamineapp.com/

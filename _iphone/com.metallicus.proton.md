@@ -10,8 +10,8 @@ idd: 1516536231
 released: 2020-11-25
 updated: 2021-11-12
 version: "1.1.19"
-stars: 4.72807
-reviews: 228
+stars: 4.70742
+reviews: 229
 size: 32472064
 website: https://protonchain.com
 repository: https://github.com/ProtonProtocol/

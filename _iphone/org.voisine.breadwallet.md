@@ -1,6 +1,6 @@
 ---
 wsId: BRDBitcoin
-title: "BRD Bitcoin Wallet. Buy Crypto"
+title: "BRD Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: org.voisine.breadwallet
 appCountry: 
 idd: 885251393
 released: 2014-06-22
-updated: 2021-09-27
-version: "4.13"
-stars: 4.58906
-reviews: 12245
-size: 78976000
+updated: 2021-11-15
+version: "4.14"
+stars: 4.5891
+reviews: 12261
+size: 71070720
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1

@@ -1,7 +1,7 @@
 ---
 wsId: InfiPay
 title: "InfiPay"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 50
 reviews: 30
 size: 49M
 website: https://www.infipay.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: io.infipay.android.png
-bugbounty:
+bugbounty: 
 verdict: custodial
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

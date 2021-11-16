@@ -9,9 +9,9 @@ appId: com.localbitcoins.app.android
 released: 2021-09-06
 updated: 2021-11-12
 version: "0.1.42"
-stars: 3.8
-ratings: 141
-reviews: 90
+stars: 3.7
+ratings: 151
+reviews: 96
 size: 6.6M
 website: https://localbitcoins.com
 repository: 

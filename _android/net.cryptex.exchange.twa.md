@@ -9,8 +9,8 @@ appId: net.cryptex.exchange.twa
 released: 2021-04-29
 updated: 2021-04-29
 version: "3.0.0.0"
-stars: 5.0
-ratings: 21
+stars: 4.8
+ratings: 22
 reviews: 18
 size: 2.6M
 website: 

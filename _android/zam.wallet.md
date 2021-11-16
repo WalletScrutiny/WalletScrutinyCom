@@ -10,7 +10,7 @@ released: 2018-09-17
 updated: 2021-11-14
 version: "2.2.19"
 stars: 3.2
-ratings: 170
+ratings: 171
 reviews: 133
 size: 25M
 website: https://zam.io/

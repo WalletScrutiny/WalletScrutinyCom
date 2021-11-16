@@ -10,7 +10,7 @@ released: 2020-02-28
 updated: 2021-11-05
 version: "1.2.71"
 stars: 4.0
-ratings: 392
+ratings: 393
 reviews: 183
 size: 35M
 website: https://kinesis.money/

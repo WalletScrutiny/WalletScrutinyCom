@@ -10,7 +10,7 @@ released: 2021-03-15
 updated: 2021-11-07
 version: "0.2.0"
 stars: 4.9
-ratings: 230
+ratings: 231
 reviews: 217
 size: 54M
 website: https://www.bit.com/

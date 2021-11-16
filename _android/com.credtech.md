@@ -4,7 +4,7 @@ title: "Credtech Wallet- Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.credtech
 released: 2021-02-07
 updated: 2021-02-11

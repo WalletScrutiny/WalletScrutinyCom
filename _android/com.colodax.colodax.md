@@ -10,7 +10,7 @@ released: 2020-01-31
 updated: 2021-09-17
 version: "1.7.2"
 stars: 4.5
-ratings: 153
+ratings: 154
 reviews: 134
 size: 26M
 website: https://colodax.com/

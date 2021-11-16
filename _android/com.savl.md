@@ -10,7 +10,7 @@ released: 2018-07-24
 updated: 2021-10-20
 version: "2.9.0"
 stars: 4.4
-ratings: 587
+ratings: 593
 reviews: 372
 size: 230M
 website: https://savl.com/

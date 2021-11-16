@@ -9,9 +9,9 @@ appId: network.worldshare.safewallet
 released: 2020-02-11
 updated: 2020-02-12
 version: "1.0.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.0
+ratings: 6
+reviews: 3
 size: 1.5M
 website: 
 repository: 

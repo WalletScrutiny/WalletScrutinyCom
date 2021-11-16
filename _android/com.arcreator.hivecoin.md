@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Bittex - crypto coin"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -13,21 +13,21 @@ stars: 3.4
 ratings: 47
 reviews: 36
 size: 24M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.arcreator.hivecoin.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
