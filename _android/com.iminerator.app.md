@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: iMinerator
 title: "iMinerator - Tools for mining bitcoin and others"
 altTitle: 
 authors:
-
+- danny
 users: 1000
 appId: com.iminerator.app
 released: 2021-04-20
@@ -13,12 +13,12 @@ stars: 3.8
 ratings: 9
 reviews: 4
 size: 30M
-website: 
+website: https://iminerator.com/
 repository: 
 issue: 
 icon: com.iminerator.app.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-08-08
 signer: 
 reviewArchive:
@@ -34,3 +34,12 @@ redirect_from:
 ---
 
 
+## App Description
+
+> Welcome to iMinerator App. It is a mobile application that help you mining cryptocurrencies (altcoins) like Bitcoin, Ethereum, USDT and others.
+
+## The App
+
+This app shows information about Coin values, News, Events, Exchanges, and has an "Energy calculator," but none of these features allow you to deposit BTC.
+
+**This app can't be used as a wallet.**

@@ -3,7 +3,7 @@ wsId:
 title: "Bitcoin Testnet Wallet for COINiD"
 altTitle: 
 authors:
-
+- danny
 users: 1000
 appId: org.coinid.wallet.tbtc
 released: 2019-02-06
@@ -13,12 +13,12 @@ stars: 3.0
 ratings: 6
 reviews: 3
 size: 34M
-website: 
+website: https://coinid.org/
 repository: 
 issue: 
 icon: org.coinid.wallet.tbtc.png
 bugbounty: 
-verdict: wip
+verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+As a testnet wallet, this means that no actual BTC can be stored, sent and received from here.
 

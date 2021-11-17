@@ -77,4 +77,4 @@ From [Terms and Conditions](https://cryptowallet.com/terms/terms-and-conditions/
 
 ## Verdict
 
-Although this app is **custodial**, we will temporarily classify it as **defunct.** Users on the Play Store appear have been barred from registration since November and there has been no response from the dev team.
+Although this app is **custodial**, we will temporarily classify it as **defunct.** Users on the Play Store appear to have been barred from registration since November and there has been no response from the dev team.
