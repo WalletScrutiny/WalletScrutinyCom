@@ -8,12 +8,12 @@ authors:
 users: 1000
 appId: com.exchangily.wallet
 released: 2020-02-05
-updated: 2021-08-16
-version: "2.0.27"
+updated: 2021-11-16
+version: "2.0.32"
 stars: 4.0
 ratings: 31
 reviews: 22
-size: 16M
+size: 17M
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1

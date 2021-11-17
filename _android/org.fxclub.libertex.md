@@ -10,7 +10,7 @@ released: 2015-05-22
 updated: 2021-09-14
 version: "2.28.0"
 stars: 4.2
-ratings: 71943
+ratings: 71947
 reviews: 28832
 size: 37M
 website: libertex

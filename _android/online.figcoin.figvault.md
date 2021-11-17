@@ -10,8 +10,8 @@ released: 2020-12-23
 updated: 2021-09-08
 version: "0.25.0"
 stars: 4.4
-ratings: 39
-reviews: 25
+ratings: 40
+reviews: 26
 size: 32M
 website: https://figcoin.online
 repository: 

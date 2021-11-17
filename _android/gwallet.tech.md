@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: gwallet.tech
 released: 2021-02-16
-updated: 2021-09-11
-version: "1.1.35"
+updated: 2021-11-11
+version: "1.1.38"
 stars: 5.0
 ratings: 314
 reviews: 258

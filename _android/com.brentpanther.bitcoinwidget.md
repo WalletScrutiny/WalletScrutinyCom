@@ -10,7 +10,7 @@ released: 2013-03-11
 updated: 2021-11-16
 version: "8.1.7"
 stars: 4.1
-ratings: 1997
+ratings: 1998
 reviews: 817
 size: 4.5M
 website: 

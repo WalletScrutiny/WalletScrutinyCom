@@ -10,7 +10,7 @@ released: 2019-10-28
 updated: 2019-11-27
 version: "1.0"
 stars: 2.2
-ratings: 1675
+ratings: 1676
 reviews: 1204
 size: 16M
 website: 
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.coinsbit.coinsbit.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-11-17
 signer: 
 reviewArchive:
 

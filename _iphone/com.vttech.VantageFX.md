@@ -1,6 +1,6 @@
 ---
 wsId: vantageFX
-title: "Vantage FX - Forex Trading"
+title: "Vantage - Trade Smarter"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.vttech.VantageFX
 appCountry: ph
 idd: 1457929724
 released: 2019-07-20
-updated: 2021-10-26
-version: "1.4.5"
+updated: 2021-11-17
+version: "2.0.1"
 stars: 4.97706
 reviews: 218
-size: 87999488
+size: 108065792
 website: https://www.vantagefx.com
 repository: 
 issue: 

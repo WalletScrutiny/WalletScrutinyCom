@@ -10,7 +10,7 @@ released: 2021-08-18
 updated: 2021-10-14
 version: "1.0.5"
 stars: 4.8
-ratings: 55
+ratings: 56
 reviews: 33
 size: 65M
 website: https://www.umifi.com/en-ww/

@@ -9,8 +9,8 @@ appId: com.hybridsolutions.btc
 released: 2020-08-24
 updated: 2021-05-24
 version: "1.2.1"
-stars: 3.1
-ratings: 20
+stars: 3.2
+ratings: 21
 reviews: 9
 size: 9.4M
 website: 

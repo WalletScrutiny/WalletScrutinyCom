@@ -9,9 +9,9 @@ appId: com.cryptominer.btc.miner.crypto.clouds.mining
 released: 2021-08-28
 updated: 2021-11-13
 version: "1.1"
-stars: 4.0
-ratings: 443
-reviews: 328
+stars: 3.9
+ratings: 445
+reviews: 329
 size: 12M
 website: 
 repository: 

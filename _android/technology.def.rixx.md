@@ -9,9 +9,9 @@ appId: technology.def.rixx
 released: 2021-04-27
 updated: 2021-06-21
 version: "1.0.42"
-stars: 4.8
-ratings: 16
-reviews: 10
+stars: 4.5
+ratings: 17
+reviews: 11
 size: 26M
 website: 
 repository: 

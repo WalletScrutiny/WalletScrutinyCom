@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: "CoinSwitch: Crypto Trading App"
+title: "CoinSwitch: Bitcoin Crypto App"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released:
 updated: 2021-11-01
 version: "3.4.0"
 stars: 4.1
-ratings: 298533
-reviews: 103521
+ratings: 299803
+reviews: 103788
 size: Varies with device
 website: https://coinswitch.co/
 repository: 

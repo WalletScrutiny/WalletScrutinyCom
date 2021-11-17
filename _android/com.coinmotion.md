@@ -1,6 +1,6 @@
 ---
 wsId: Coinmotion
-title: "Coinmotion"
+title: "Coinmotion: Crypto Investing"
 altTitle: 
 authors:
 - danny

@@ -10,7 +10,7 @@ idd: 1344400091
 released: 2018-02-09
 updated: 2021-11-13
 version: "2.5.1"
-stars: 4.47688
+stars: 4.48073
 reviews: 1038
 size: 73761792
 website: https://edge.app

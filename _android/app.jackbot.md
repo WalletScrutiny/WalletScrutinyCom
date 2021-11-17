@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: "Jackbot - AI Powered Crypto Trading"
+title: "Jackbot - AI Crypto Trading"
 altTitle: 
 authors:
 
 users: 1000
 appId: app.jackbot
 released: 2021-01-05
-updated: 2021-11-08
+updated: 2021-11-16
 version: "4.0.0"
 stars: 3.9
 ratings: 19

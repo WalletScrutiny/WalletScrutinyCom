@@ -9,9 +9,9 @@ appId: com.payeer
 released: 2018-01-03
 updated: 2020-12-24
 version: "Varies with device"
-stars: 4.4
-ratings: 34266
-reviews: 15
+stars: 4.3
+ratings: 34298
+reviews: 18862
 size: Varies with device
 website: https://payeer.com
 repository: 

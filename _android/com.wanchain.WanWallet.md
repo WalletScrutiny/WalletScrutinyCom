@@ -10,7 +10,7 @@ released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
 stars: 3.8
-ratings: 113
+ratings: 114
 reviews: 71
 size: 65M
 website: https://www.wanchain.org/

@@ -10,9 +10,9 @@ appId: com.app.cryptofully
 released: 2020-10-29
 updated: 2021-09-15
 version: "1.3.2"
-stars: 4.1
-ratings: 365
-reviews: 140
+stars: 4.2
+ratings: 364
+reviews: 139
 size: 31M
 website: https://www.cryptofully.com/
 repository: 

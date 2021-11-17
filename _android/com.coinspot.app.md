@@ -9,9 +9,9 @@ appId: com.coinspot.app
 released: 
 updated: 2021-11-12
 version: "2.0.6"
-stars: 2.6
-ratings: 1131
-reviews: 874
+stars: 2.2
+ratings: 1145
+reviews: 886
 size: 9.8M
 website: https://www.coinspot.com.au/
 repository: 

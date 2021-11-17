@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa - Learn to Trade Bitcoin, Stocks & Forex"
+title: "Bolsa - Learn how to Trade"
 altTitle: 
 authors:
 - danny

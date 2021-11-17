@@ -4,7 +4,7 @@ title: "Safe Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.wallet.crypto.safeapp
 released: 2020-05-23
 updated: 2020-05-24

@@ -1,6 +1,6 @@
 ---
 wsId: vantageFX
-title: "Vantage - Trade Smarter"
+title: "Vantage: Trade Smarter"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2019-07-06
 updated: 2021-11-15
 version: "2.0.0"
 stars: 4.8
-ratings: 4806
-reviews: 830
+ratings: 4964
+reviews: 852
 size: 37M
 website: https://www.vantagefx.com.au/
 repository: 
