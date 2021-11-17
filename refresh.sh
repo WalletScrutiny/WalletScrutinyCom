@@ -3,7 +3,7 @@
 # run this using Docker:
 # docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY
 
-while getopts k:a:i:s: option
+while getopts k: option
 do
   case "${option}"
   in

@@ -5,7 +5,7 @@ const helper = require('./scripts/helperPlayStore.js')
 
 const newAppIds = process.argv.slice(2)
 
-console.log(`Adding skeletons for ${newAppIds} ...`)
+console.log(`Adding skeletons for ${newAppIds.length} apps ...`)
 
 newAppIds.forEach(appId => {
     const path = `_android/${appId}.md`
@@ -21,11 +21,11 @@ verdict: wip
           if (err) {
             console.error(`Error with id ${idd}: ${err}`)
           }
-          console.log(`Success: ${path}`)
+          // console.log(`Success: ${path}`)
           helper.refreshFile(`${appId}.md`)
         })
       } else {
-        console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
+        // console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
         helper.refreshFile(`${appId}.md`)
       }
     })
