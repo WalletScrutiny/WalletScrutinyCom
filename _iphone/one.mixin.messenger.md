@@ -4,6 +4,8 @@ title: "Mixin Messenger"
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
@@ -18,8 +20,8 @@ repository: https://github.com/MixinNetwork
 issue: 
 icon: one.mixin.messenger.jpg
 bugbounty: 
-verdict: wip
-date: 2021-10-01
+verdict: ftbfs
+date: 2021-11-17
 signer: 
 reviewArchive:
 
