@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: Keystone
 title: "Keystone Hardware Wallet"
 altTitle: 
 authors:
