@@ -19,7 +19,7 @@ issue:
 icon: com.dgbCafe.dgbCafe.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-08
+date: 2021-11-17
 signer: 
 reviewArchive:
 

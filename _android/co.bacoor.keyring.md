@@ -19,7 +19,7 @@ issue:
 icon: co.bacoor.keyring.png
 bugbounty: 
 verdict: nosource
-date: 2021-03-03
+date: 2021-11-17
 signer: 
 reviewArchive:
 

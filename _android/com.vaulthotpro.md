@@ -19,7 +19,7 @@ issue:
 icon: com.vaulthotpro.png
 bugbounty: 
 verdict: wip
-date: 2021-05-06
+date: 2021-11-17
 signer: 
 reviewArchive:
 

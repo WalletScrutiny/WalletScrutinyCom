@@ -19,7 +19,7 @@ issue:
 icon: com.beecrypt.beecrypthd.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-11-11
+date: 2021-11-17
 signer: 
 reviewArchive:
 
