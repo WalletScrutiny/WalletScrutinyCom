@@ -8,8 +8,8 @@ appId: fi.cardwallet
 appCountry: pt
 idd: 1578905885
 released: 2021-09-28
-updated: 2021-11-12
-version: "1.6"
+updated: 2021-11-17
+version: "1.7"
 stars: 5
 reviews: 2
 size: 95373312

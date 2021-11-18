@@ -9,9 +9,9 @@ appId: com.asiainnovations.ace.taiwan
 released: 2019-01-28
 updated: 2021-10-02
 version: "5.1.7_1930"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.7
+ratings: 834
+reviews: 440
 size: 27M
 website: https://ace.io
 repository: 

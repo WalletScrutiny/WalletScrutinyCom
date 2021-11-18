@@ -10,8 +10,8 @@ released: 2021-05-04
 updated: 2021-11-10
 version: "0.1.265"
 stars: 3.9
-ratings: 30
-reviews: 14
+ratings: 32
+reviews: 16
 size: 13M
 website: https://sevenb.io/
 repository: 

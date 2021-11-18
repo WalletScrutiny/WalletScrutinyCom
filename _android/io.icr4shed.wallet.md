@@ -9,9 +9,9 @@ appId: io.icr4shed.wallet
 released: 2021-09-10
 updated: 2021-10-19
 version: "3.4"
-stars: 4.6
-ratings: 55
-reviews: 19
+stars: 4.5
+ratings: 56
+reviews: 20
 size: 34M
 website: 
 repository: 

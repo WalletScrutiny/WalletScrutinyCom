@@ -10,7 +10,7 @@ released: 2015-10-26
 updated: 2021-10-22
 version: "2.19.3"
 stars: 3.0
-ratings: 2881
+ratings: 2882
 reviews: 1797
 size: 53M
 website: https://shapeshift.com

@@ -8,8 +8,8 @@ appId: com.kinesis.kinesis-app
 appCountry: us
 idd: 1490483608
 released: 2020-02-28
-updated: 2021-11-11
-version: "1.3.10"
+updated: 2021-11-16
+version: "1.3.11"
 stars: 4.5
 reviews: 30
 size: 64452608

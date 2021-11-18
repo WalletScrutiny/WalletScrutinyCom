@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: io.wallet
 released: 2019-08-24
-updated: 2021-08-04
-version: "1.13.8"
+updated: 2021-11-17
+version: "1.14.0"
 stars: 3.7
-ratings: 94
+ratings: 95
 reviews: 41
 size: 25M
 website: https://wallet.io/

@@ -8,11 +8,11 @@ appId: com.fengsheng.new.o3Wallet
 appCountry: us
 idd: 1528451572
 released: 2020-08-31
-updated: 2021-11-02
-version: "3.1.4"
+updated: 2021-11-17
+version: "3.2.0"
 stars: 3.89474
 reviews: 19
-size: 70774784
+size: 71141376
 website: https://o3.network
 repository: https://github.com/O3Labs
 issue: 

@@ -10,8 +10,8 @@ released: 2021-03-17
 updated: 2021-11-01
 version: "1.1.1"
 stars: 3.3
-ratings: 2716
-reviews: 2374
+ratings: 2718
+reviews: 2376
 size: 47M
 website: https://www.hagglex.com/
 repository: 

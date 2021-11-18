@@ -9,9 +9,9 @@ appId: com.app.belfrics
 released: 2017-10-17
 updated: 2021-11-03
 version: "2.1.4"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.7
+ratings: 89
+reviews: 63
 size: 10M
 website: https://www.belfrics.io/
 repository: 

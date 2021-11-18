@@ -9,9 +9,9 @@ appId: com.bitnovo.Wallet
 released: 2021-10-27
 updated: 2021-11-02
 version: "1.0.2"
-stars: 3.5
-ratings: 27
-reviews: 18
+stars: 3.4
+ratings: 28
+reviews: 19
 size: 102M
 website: 
 repository: 

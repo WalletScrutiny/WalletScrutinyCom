@@ -10,8 +10,8 @@ released: 2018-01-04
 updated: 2020-06-02
 version: "1.9.10"
 stars: 2.5
-ratings: 561
-reviews: 381
+ratings: 563
+reviews: 382
 size: 12M
 website: https://www.buda.com
 repository: 

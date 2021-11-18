@@ -11,7 +11,7 @@ updated: 2021-08-25
 version: "0.22.1"
 stars: 4.1
 ratings: 504
-reviews: 389
+reviews: 388
 size: 46M
 website: https://unstoppable.money
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android

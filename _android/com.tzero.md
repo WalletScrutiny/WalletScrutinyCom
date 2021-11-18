@@ -11,7 +11,7 @@ updated: 2021-11-16
 version: "2.0.10625"
 stars: 3.4
 ratings: 272
-reviews: 115
+reviews: 116
 size: 65M
 website: https://www.tzero.com/crypto-app
 repository: 

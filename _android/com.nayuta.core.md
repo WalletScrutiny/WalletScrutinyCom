@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.nayuta.core
 released: 
-updated: 2021-10-22
+updated: 2021-11-17
 version: "Varies with device"
 stars: 
 ratings: 

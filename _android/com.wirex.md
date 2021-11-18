@@ -9,9 +9,9 @@ appId: com.wirex
 released: 2016-03-31
 updated: 2021-11-11
 version: "3.24.10"
-stars: 3.7
-ratings: 23064
-reviews: 12553
+stars: 3.6
+ratings: 23080
+reviews: 12562
 size: 182M
 website: https://wirexapp.com/en
 repository: 

@@ -10,8 +10,8 @@ released: 2015-10-20
 updated: 2021-11-12
 version: "8.0.210"
 stars: 3.8
-ratings: 5241
-reviews: 2311
+ratings: 5248
+reviews: 2317
 size: 70M
 website: https://naga.com/
 repository: 
