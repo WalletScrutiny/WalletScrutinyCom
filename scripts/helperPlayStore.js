@@ -7,6 +7,8 @@ const yaml = require('js-yaml')
 const helper = require('./helper.js')
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
+const { Mutex, Semaphore, withTimeout } = require('async-mutex')
+const sem = new Semaphore(5)
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -45,6 +47,7 @@ function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
+    console.log(`Updating ${files.length} files ...`)
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -57,35 +60,41 @@ function refreshAll() {
 }
 
 function refreshFile(fileName) {
-  const appPath = path.join(folder, fileName)
-  var parts = fs.readFileSync(appPath, 'utf8').split("---")
-  const headerStr = parts[1]
-  const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-  const header = yaml.load(headerStr)
-  const appId = header.appId
-  for(var i of Object.keys(header)) {
-    if(allowedHeaders.indexOf(i) < 0) {
-      console.error(`Losing property ${i} in ${appPath}.`)
-    }
-  }
-  if (!"defunct".includes(header.verdict)) {
-    gplay.app({
-        appId: appId,
-        lang: 'en',
-        country: 'cl',
-        throttle: 100}).then(app => {
-      const iconPath = `images/wallet_icons/android/${appId}`
-      helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-        writeResult(app, header, iconExtension, body)
-      })
-    }, (err) => {
-      if (`${err}`.search(/404/) > -1) {
-        helper.addDefunctIfNew(`_android/${appId}`)
-      } else {
-        console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+  sem.acquire().then(function([value, release]) {
+    const appPath = path.join(folder, fileName)
+    var parts = fs.readFileSync(appPath, 'utf8').split("---")
+    const headerStr = parts[1]
+    const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
+    const header = yaml.load(headerStr)
+    const appId = header.appId
+    for(var i of Object.keys(header)) {
+      if(allowedHeaders.indexOf(i) < 0) {
+        console.error(`Losing property ${i} in ${appPath}.`)
       }
-    })
-  }
+    }
+    if (!"defunct".includes(header.verdict)) {
+      gplay.app({
+          appId: appId,
+          lang: 'en',
+          country: 'cl',
+          throttle: 5}).then(app => {
+        const iconPath = `images/wallet_icons/android/${appId}`
+        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+          writeResult(app, header, iconExtension, body)
+          release()
+        })
+      }, (err) => {
+        if (`${err}`.search(/404/) > -1) {
+          helper.addDefunctIfNew(`_android/${appId}`)
+        } else {
+          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+        }
+        release()
+      })
+    } else {
+      release()
+    }
+  })
 }
 
 function noteForLater(app) {

@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "app-store-scraper": "^0.16.3",
+    "async-mutex": "^0.3.2",
     "btcpay": "^0.2.5",
     "core-js": "^3.6.5",
     "dateformat": "^3.0.3",
