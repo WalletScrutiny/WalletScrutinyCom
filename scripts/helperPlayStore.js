@@ -10,6 +10,12 @@ const errorLogFileName = "/tmp/unnatural.txt"
 const { Mutex, Semaphore, withTimeout } = require('async-mutex')
 const sem = new Semaphore(5)
 
+const stats = {
+  defunct: 0,
+  updated: 0,
+  badReply: 0
+}
+
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
   "title", // gets updated from platform
@@ -47,7 +53,7 @@ function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} files ...`)
+    console.log(`Updating ${files.length} 🤖 files ...`)
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -92,6 +98,7 @@ function refreshFile(fileName) {
         release()
       })
     } else {
+      stats.defunct++
       release()
     }
   })
@@ -135,9 +142,9 @@ function writeResult(app, header, iconExtension, body) {
       && header.reviews > 10
       && app.reviews < 0.9 * header.reviews) {
     noteForLater(header.appId)
-    process.stdout.write("(🤖)")
+    stats.badReply++
   } else {
-    process.stdout.write("🤖")
+    stats.updated++
   }
   var date = header.date
   // retire if needed
@@ -216,6 +223,7 @@ ${body}`)
 
 module.exports = {
   refreshAll,
-  refreshFile
+  refreshFile,
+  stats
 }
 

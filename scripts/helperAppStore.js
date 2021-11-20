@@ -7,6 +7,10 @@ const yaml = require('js-yaml')
 const helper = require('./helper.js')
 const { Mutex, Semaphore, withTimeout } = require('async-mutex')
 const sem = new Semaphore(5)
+const stats = {
+  defunct: 0,
+  updated: 0
+}
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -45,7 +49,7 @@ function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} files ...`)
+    console.log(`Updating ${files.length} 🍎 files ...`)
     files.forEach((file, index) => {
       refreshFile(file)
     })
@@ -87,6 +91,7 @@ function refreshFile(fileName) {
         release()
       })
     } else {
+      stats.defunct++
       release()
     }
   })
@@ -110,7 +115,7 @@ function writeResult(app, header, iconExtension, body) {
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  process.stdout.write("🍎")
+  stats.updated++
   var verdict = header.verdict
   var date = header.date
   // retire if needed
@@ -186,5 +191,6 @@ ${body}`)
 
 module.exports = {
   refreshAll,
-  refreshFile
+  refreshFile,
+  stats
 }
