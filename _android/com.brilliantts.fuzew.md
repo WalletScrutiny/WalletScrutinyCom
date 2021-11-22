@@ -45,4 +45,4 @@ redirect_from:
 
 ## The App and Verdict
 
-Without the hardware wallet, this app can't serve its intended function. As a result, **we do not classify this app as a wallet.**
+We tried to install the app, but without the hardware wallet, we could not use it. This app only works with a hardware wallet and probably does not handle private keys itself, making it **not a wallet**. (The hardware wallet controls the keys.)
