@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: coinflex.com.appc.jpg
 bugbounty: 
-verdict: custodial
+verdict: defunct
 date: 2021-11-15
 signer: 
 reviewArchive:

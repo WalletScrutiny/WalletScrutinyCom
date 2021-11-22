@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lxd.java_websocketclient.png
 bugbounty: 
-verdict: custodial
+verdict: defunct
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -70,5 +70,5 @@ We tried downloading and registering on the app but were not able to receive the
 
 ## Verdict
 
-As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage, CoinFlex is a **custodial** service. However, due to the registration seemingly not functioning since October last motnh, we will also classify this as **defunct.**
+As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage, CoinFlex is a **custodial** service. However, due to the registration seemingly not functioning since October last month, we will also classify this as **defunct.**
 
