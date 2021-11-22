@@ -10,7 +10,7 @@ released: 2020-12-22
 updated: 2021-10-15
 version: "1.8.6"
 stars: 4.9
-ratings: 203
+ratings: 205
 reviews: 64
 size: 19M
 website: https://xchange.bg/

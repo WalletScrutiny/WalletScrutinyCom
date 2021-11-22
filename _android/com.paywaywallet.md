@@ -5,14 +5,14 @@ altTitle:
 authors:
 - leo
 - danny
-users: 10000
+users: 50000
 appId: com.paywaywallet
 released: 2019-02-13
 updated: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 245
+reviews: 146
 size: 19M
 website: http://www.payway.ug
 repository: 

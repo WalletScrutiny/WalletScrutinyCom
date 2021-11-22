@@ -10,7 +10,7 @@ released: 2020-07-04
 updated: 2021-04-27
 version: "1.7.9"
 stars: 4.7
-ratings: 60
+ratings: 61
 reviews: 32
 size: 27M
 website: https://aladiex.com/

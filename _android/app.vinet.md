@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Vinet:Sell Bitcoin PayPal Skrill Netelle for Naira"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -10,24 +10,24 @@ released: 2020-05-18
 updated: 2021-04-25
 version: "10.1"
 stars: 4.7
-ratings: 49
-reviews: 47
+ratings: 50
+reviews: 48
 size: 9.2M
 website: https://vinetexchange.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: app.vinet.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
-providerTwitter:
-providerLinkedIn:
+providerTwitter: 
+providerLinkedIn: 
 providerFacebook: vinetexchange
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

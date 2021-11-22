@@ -9,7 +9,7 @@ appId: com.bitocto
 released: 2019-07-18
 updated: 2021-10-21
 version: "3.12"
-stars: 4.3
+stars: 4.2
 ratings: 1501
 reviews: 1213
 size: 5.3M

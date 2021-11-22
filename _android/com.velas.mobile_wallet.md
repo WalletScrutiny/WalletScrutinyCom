@@ -4,35 +4,42 @@ title: "Velas Wallet"
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 users: 10000
 appId: com.velas.mobile_wallet
 released: 2020-11-17
 updated: 2021-10-25
 version: "2.0.9"
-stars: 5.0
-ratings: 487
-reviews: 
+stars: 4.7
+ratings: 489
+reviews: 427
 size: 38M
 website: https://velas.com/
 repository: https://github.com/velas/mobile-wallet
-issue: 
+issue: https://github.com/velas/mobile-wallet/issues/62
 icon: com.velas.mobile_wallet.png
 bugbounty: 
-verdict: wip
-date: 2021-10-26
+verdict: ftbfs
+date: 2021-11-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: velasblockchain
+providerLinkedIn: velas-ag
+providerFacebook: velasblockchain
 providerReddit: 
 
 redirect_from:
 
 ---
 
+
+**Update 2021-11-17**: This app is missing build instructions. We have hope to
+see this be reproducible in the foreseeable future as the provider has ambitions
+to be listed in FDroid. Watch
+[this issue](https://github.com/velas/mobile-wallet/issues/62) for progress.
 
 ## App Description
 

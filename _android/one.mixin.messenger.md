@@ -4,22 +4,24 @@ title: "Mixin - Crypto Wallet & Private Messenger"
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 users: 10000
 appId: one.mixin.messenger
 released: 2018-05-24
-updated: 2021-11-15
-version: "0.33.2"
+updated: 2021-11-17
+version: "0.33.5"
 stars: 4.5
 ratings: 1227
 reviews: 954
 size: 27M
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork
-issue: https://github.com/MixinNetwork/android-app/issues/2490
+issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
-verdict: wip
-date: 2021-09-23
+verdict: ftbfs
+date: 2021-11-17
 signer: 
 reviewArchive:
 
@@ -33,6 +35,10 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-17**: Although the source code is public, Emanuel failed to
+compile it from the source with the instructions provided. See the
+[issue](https://github.com/MixinNetwork/android-app/issues/2559).
 
 From the Play Store description:
 
@@ -55,5 +61,3 @@ It appears that this wallet is **non-custodial** and that source-code is availab
 An issue has been made on Gitlab with the corresponding [results](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/344). 
 
 Issue has been raised in MixinNetwork's [Github Issues page](https://github.com/MixinNetwork/android-app/issues/2490). 
-
-This app is still a **work in progress**.

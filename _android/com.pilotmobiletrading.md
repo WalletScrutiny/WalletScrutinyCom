@@ -10,8 +10,8 @@ released: 2019-06-09
 updated: 2021-09-13
 version: "6.02.325"
 stars: 3.3
-ratings: 62
-reviews: 36
+ratings: 63
+reviews: 37
 size: 29M
 website: https://pilottrading.co/
 repository: 

@@ -9,9 +9,9 @@ appId: com.label305.forecastcapital
 released: 2020-12-24
 updated: 2021-07-22
 version: "1.0.10"
-stars: 2.0
-ratings: 6
-reviews: 5
+stars: 1.9
+ratings: 7
+reviews: 6
 size: 4.1M
 website: 
 repository: 

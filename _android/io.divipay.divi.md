@@ -10,8 +10,8 @@ released: 2021-04-28
 updated: 2021-10-22
 version: "1.12"
 stars: 4.5
-ratings: 123
-reviews: 83
+ratings: 127
+reviews: 84
 size: 49M
 website: https://diviproject.org/
 repository: https://github.com/DiviProject

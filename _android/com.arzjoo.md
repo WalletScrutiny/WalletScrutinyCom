@@ -1,22 +1,22 @@
 ---
 wsId: 
-title: "arzjoo"
+title: "Sarmayex"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.arzjoo
 released: 2019-04-25
-updated: 2021-07-13
-version: "1.4.1"
-stars: 3.9
-ratings: 2832
-reviews: 1112
+updated: 2021-11-17
+version: "2.0.1"
+stars: 3.8
+ratings: 3177
+reviews: 1264
 size: Varies with device
 website: https://arzjoo.com
 repository: 
 issue: 
-icon: com.arzjoo.png
+icon: com.arzjoo.jpg
 bugbounty: 
 verdict: custodial
 date: 2020-11-16

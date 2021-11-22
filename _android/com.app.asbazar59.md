@@ -10,8 +10,8 @@ released: 2021-06-15
 updated: 2021-10-14
 version: "4"
 stars: 3.2
-ratings: 354
-reviews: 275
+ratings: 358
+reviews: 278
 size: 1.6M
 website: https://asbazar.com/
 repository: 

@@ -4,6 +4,8 @@ title: "Bluehelix Wallet"
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 appId: com.bluehelix.wallet.ios
 appCountry: us
 idd: 1535791362
@@ -14,12 +16,12 @@ stars: 5
 reviews: 2
 size: 30423040
 website: https://www.bhexchain.com/
-repository: 
-issue: 
+repository: https://github.com/bluehelix-chain/wallet-android
+issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 verdict: fewusers
-date: 2021-11-08
+date: 2021-11-17
 signer: 
 reviewArchive:
 

@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.betconix
 released: 2021-07-01
-updated: 2021-11-03
-version: "5.5"
-stars: 3.8
-ratings: 44
-reviews: 39
-size: 12M
+updated: 2021-11-16
+version: "5.8"
+stars: 3.9
+ratings: 45
+reviews: 40
+size: 13M
 website: https://betconix.com
 repository: 
 issue: 

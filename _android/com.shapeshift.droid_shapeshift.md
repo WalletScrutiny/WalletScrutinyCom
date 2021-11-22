@@ -9,8 +9,8 @@ appId: com.shapeshift.droid_shapeshift
 released: 2015-10-26
 updated: 2021-10-22
 version: "2.19.3"
-stars: 2.9
-ratings: 2880
+stars: 3.0
+ratings: 2882
 reviews: 1797
 size: 53M
 website: https://shapeshift.com

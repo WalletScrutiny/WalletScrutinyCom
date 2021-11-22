@@ -9,9 +9,9 @@ appId: com.tideisun.tidepay
 released: 2018-05-23
 updated: 2021-07-20
 version: "2.1.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 26
+reviews: 14
 size: 71M
 website: https://isun.one/
 repository: 

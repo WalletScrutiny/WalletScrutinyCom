@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
-verdict: fake
-date: 2021-11-02
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
-
+- date: 2021-11-02
+  version: "1.0.1.7"
+  appHash: 
+  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
+  verdict: fake
+  
 
 providerTwitter: bybt_com
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-03**: This app is not available anymore.
 
 ## Updated Review 2021-10-29
 

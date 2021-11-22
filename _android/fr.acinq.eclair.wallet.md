@@ -9,9 +9,9 @@ appId: fr.acinq.eclair.wallet
 released: 2017-07-20
 updated: 2021-09-20
 version: "0.4.17"
-stars: 5.0
-ratings: 222
-reviews: 
+stars: 4.4
+ratings: 221
+reviews: 88
 size: 29M
 website: https://acinq.co/
 repository: 

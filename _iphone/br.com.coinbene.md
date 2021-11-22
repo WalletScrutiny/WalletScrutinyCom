@@ -10,8 +10,8 @@ idd: 1439224379
 released: 2018-11-12
 updated: 2021-09-13
 version: "4.8.6"
-stars: 3.5814
-reviews: 43
+stars: 3.52273
+reviews: 44
 size: 115953664
 website: https://www.coinbene.com/
 repository: 

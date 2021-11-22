@@ -1,27 +1,11 @@
-2021-11-03:
-- _iphone/com.tp.ios
-- _android/com.bybt.bybtapp
-- _android/com.cryptocloud.mining.coin.mine.bitcrypto
-- _android/com.cryptominer.btc.miner.cloud.mining
-2021-11-07:
-- _iphone/com.cointiger.ex
-- _iphone/network.artery.network
-- _android/com.crypto.trader
-- _android/tech.insense.sensewalet
-- _android/com.bitsacard.BitsaApp
-- _android/com.startfinish.crypto
-- _android/sg.bcoin.app
-- _android/com.kikitrade
-- _android/com.kptech.pezz.cryptoswap
 2021-11-11:
 - _android/com.ddcday.wallex
 - _android/com.ninjacoin
 - _android/com.app.investyKbill
-2021-11-11:
 - _android/com.app.bitstore
 - _android/com.currency.exchange.prod2
 - _android/com.finzo
-- _android/com.vaulthotpro
+- _android/com.vaulthotpro update https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/372
 - _android/com.swftcoin.client.android
 2021-11-12:
 - _iphone/com.aximetria.aximetria
@@ -31,3 +15,23 @@
 - _android/com.afriex.afriex
 2021-11-15:
 - _android/com.voicapps.app2cash
+2021-11-16:
+- _android/com.fluidcoins.fluidcoins
+- _android/com.beldex
+2021-11-17:
+- _android/app.hibana.hibana
+- _android/co.ocdigital.flashtrade
+- _android/gr.cryptocurrencies.bitcoinpos
+- _android/me.flashex.app.a
+- _android/com.probit.app.android2.release.global
+- _android/com.stash.wallet
+- _android/com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
+- _android/com.oduwamultiwallet
+- _android/com.digifinex.app
+2021-11-18:
+- _android/co.huobi.kr
+- _android/com.gaifang.ATM
+- _android/com.xaltbase.app
+- _android/com.vndc
+- _android/com.vaulthotpro
+- _android/net.benoitbasset.liqapi

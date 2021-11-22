@@ -10,8 +10,8 @@ released: 2021-03-15
 updated: 2021-10-25
 version: "2.3.1"
 stars: 4.3
-ratings: 118
-reviews: 63
+ratings: 119
+reviews: 64
 size: 33M
 website: https://get-verso.com
 repository: 

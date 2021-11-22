@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: vision.genesis.clientapp.investor
 released: 2018-02-15
-updated: 2021-10-26
-version: "2.7.2"
+updated: 2021-11-15
+version: "2.7.3"
 stars: 4.6
 ratings: 368
 reviews: 122

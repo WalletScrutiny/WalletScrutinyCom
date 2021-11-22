@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.fibermode.mode.android
 released: 2021-02-11
-updated: 2021-10-26
-version: "2.2.1"
+updated: 2021-11-17
+version: "2.2.2"
 stars: 4.2
-ratings: 235
-reviews: 116
-size: 143M
+ratings: 239
+reviews: 118
+size: 141M
 website: https://modeapp.com
 repository: 
 issue: 

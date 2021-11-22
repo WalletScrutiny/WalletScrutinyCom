@@ -10,8 +10,8 @@ idd: 1346980481
 released: 2018-02-20
 updated: 2021-11-04
 version: "2.4.13"
-stars: 4
-reviews: 13
+stars: 3.78571
+reviews: 14
 size: 57735168
 website: https://www.coinsuper.com/
 repository: 

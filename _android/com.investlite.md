@@ -10,7 +10,7 @@ released: 2020-12-18
 updated: 2021-08-25
 version: "1.5.69-investlite"
 stars: 3.1
-ratings: 183
+ratings: 182
 reviews: 100
 size: 19M
 website: https://www.investlite.com/

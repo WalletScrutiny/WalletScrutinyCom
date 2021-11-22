@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: io.smartholdem.client
 released: 2020-03-01
-updated: 2020-10-15
-version: "1.0.15"
+updated: 2021-11-14
+version: "1.0.16"
 stars: 4.7
 ratings: 15
 reviews: 12
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.smartholdem.client.png
 bugbounty: 
-verdict: stale
-date: 2021-10-11
+verdict: fewusers
+date: 2021-11-16
 signer: 
 reviewArchive:
 

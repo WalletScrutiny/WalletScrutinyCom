@@ -10,8 +10,8 @@ released:
 updated: 2021-08-25
 version: "1.5.69-brand101investing"
 stars: 3.7
-ratings: 254
-reviews: 205
+ratings: 256
+reviews: 207
 size: 19M
 website: https://www.101investing.com
 repository: 

@@ -9,9 +9,9 @@ appId: com.atari
 released: 2021-07-11
 updated: 2021-11-13
 version: "2.08.01"
-stars: 3.4
-ratings: 86
-reviews: 64
+stars: 3.3
+ratings: 90
+reviews: 68
 size: 59M
 website: https://wallet.atarichain.com/
 repository: 

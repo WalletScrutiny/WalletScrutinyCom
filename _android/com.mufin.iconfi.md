@@ -10,7 +10,7 @@ released: 2021-01-27
 updated: 2021-07-14
 version: "1.0.4"
 stars: 4.5
-ratings: 209
+ratings: 210
 reviews: 132
 size: 9.9M
 website: https://www.icon-fi.com/

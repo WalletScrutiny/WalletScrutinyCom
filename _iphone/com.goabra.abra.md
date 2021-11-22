@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra: Buy Bitcoin Instantly"
+title: "Abra: Buy Bitcoin & Earn Yield"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.goabra.abra
 appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2021-10-26
-version: "109.0.0"
-stars: 4.5715
-reviews: 16749
-size: 118383616
+updated: 2021-11-15
+version: "110.0.0"
+stars: 4.57242
+reviews: 16811
+size: 119099392
 website: 
 repository: 
 issue: 

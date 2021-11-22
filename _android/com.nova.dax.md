@@ -10,7 +10,7 @@ released: 2019-09-20
 updated: 2021-11-05
 version: "1.1.7"
 stars: 2.0
-ratings: 14056
+ratings: 14176
 reviews: 1
 size: 15M
 website: https://www.novadax.com

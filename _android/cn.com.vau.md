@@ -1,18 +1,18 @@
 ---
 wsId: vantageFX
-title: "Vantage FX"
+title: "Vantage: Trade Smarter"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: cn.com.vau
 released: 2019-07-06
-updated: 2021-10-19
-version: "1.4.4"
+updated: 2021-11-15
+version: "2.0.0"
 stars: 4.7
-ratings: 4806
-reviews: 832
-size: 34M
+ratings: 5006
+reviews: 857
+size: 37M
 website: https://www.vantagefx.com.au/
 repository: 
 issue: 

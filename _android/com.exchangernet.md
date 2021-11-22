@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "Exchangernet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,20 +14,20 @@ ratings: 49
 reviews: 32
 size: 2.0M
 website: https://www.exchangernet.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.exchangernet.png
-bugbounty:
+bugbounty: 
 verdict: nowallet
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: echangerbd
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: exchangernet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 

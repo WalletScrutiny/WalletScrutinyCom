@@ -10,8 +10,8 @@ released: 2018-10-28
 updated: 2021-11-10
 version: "1.5.0-104-g01f8"
 stars: 4.3
-ratings: 157
-reviews: 70
+ratings: 164
+reviews: 73
 size: 11M
 website: https://blocktrade.com/
 repository: 

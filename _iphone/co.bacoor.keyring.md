@@ -3,7 +3,7 @@ wsId: keyring
 title: "KEYRING PRO: Wallet Connect"
 altTitle: 
 authors:
-
+- danny
 appId: co.bacoor.keyring
 appCountry: 
 idd: 1546824976
@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: co.bacoor.keyring.jpg
 bugbounty: 
-verdict: wip
-date: 2021-04-27
+verdict: nosource
+date: 2021-11-17
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: KEYRING_PRO
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

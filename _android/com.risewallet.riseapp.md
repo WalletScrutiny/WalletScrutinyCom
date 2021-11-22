@@ -33,6 +33,7 @@ redirect_from:
 
 ---
 
+
 ## App Description
 
 > Rise Wallet is a simple bitcoin wallet app, optimized for new users. Redeem our Bitcoin Gift Card instantly. Control your funds via the private key. Manage any number of wallets with a single key. Enjoy real time bitcoin price quotes and price history analysis. Use the built-in Bitcoin Marketplace to learn about the ecosystem. Bitcoin ATM locator helps you get quick cash for your coins when needed.

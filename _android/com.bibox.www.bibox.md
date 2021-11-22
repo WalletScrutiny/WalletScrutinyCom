@@ -9,9 +9,9 @@ appId: com.bibox.www.bibox
 released: 2019-03-24
 updated: 2021-11-04
 version: "4.8.5"
-stars: 4.9
-ratings: 1368
-reviews: 577
+stars: 5.0
+ratings: 1559
+reviews: 579
 size: 47M
 website: https://www.bibox.com
 repository: 

@@ -8,8 +8,8 @@ appId: com.raido.wallet
 appCountry: us
 idd: 1536567791
 released: 2020-10-28
-updated: 2021-11-11
-version: "2.6"
+updated: 2021-11-18
+version: "2.7"
 stars: 
 reviews: 
 size: 24415232

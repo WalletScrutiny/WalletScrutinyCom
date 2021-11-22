@@ -9,9 +9,9 @@ appId: com.paribu.app
 released: 2019-06-14
 updated: 2021-05-17
 version: "3.3.7"
-stars: 4.4
-ratings: 58698
-reviews: 28059
+stars: 4.3
+ratings: 59545
+reviews: 28153
 size: 38M
 website: 
 repository: 

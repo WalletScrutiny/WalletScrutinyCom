@@ -4,6 +4,8 @@ title: "Bluehelix Wallet"
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 users: 100
 appId: com.bhex.wallet
 released: 2021-07-07
@@ -15,11 +17,11 @@ reviews: 3
 size: 22M
 website: https://www.bhexchain.com/
 repository: https://github.com/bluehelix-chain/wallet-android
-issue: 
+issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bhex.wallet.png
 bugbounty: 
 verdict: fewusers
-date: 2021-11-08
+date: 2021-11-17
 signer: 
 reviewArchive:
 
@@ -33,6 +35,10 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-17**: Despite this app having only few users, Emanuel looked
+into it and found the source code could not be compiled. The provider
+[has not replied in two weeks](https://github.com/bluehelix-chain/wallet-android/issues/4).
 
 **NOTE:** It is unclear what the connection is between this app and {% include walletLink.html wallet='android/com.bh.android' verdict='true' %}. They have strikingly similar logos and titles, however both apps have different developers. While HBTC's app is called BHEX **Exchange** and has been discontinued, this app claims to be a decentralized wallet.
 

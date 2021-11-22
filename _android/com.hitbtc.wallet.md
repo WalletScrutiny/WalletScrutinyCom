@@ -10,7 +10,7 @@ released: 2021-08-31
 updated: 2021-10-28
 version: "1.1.1"
 stars: 4.4
-ratings: 40
+ratings: 39
 reviews: 12
 size: 46M
 website: https://hitbtc.com/wallet

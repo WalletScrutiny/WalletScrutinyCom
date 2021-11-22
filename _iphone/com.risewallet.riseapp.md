@@ -10,8 +10,8 @@ idd: 1453389237
 released: 2019-03-12
 updated: 2021-11-09
 version: "1.5.0"
-stars: 4.95833
-reviews: 24
+stars: 4.96
+reviews: 25
 size: 11190272
 website: https://www.risewallet.com/
 repository: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

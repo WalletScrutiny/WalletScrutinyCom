@@ -9,9 +9,9 @@ appId: com.mobile.BetaDeal
 released: 2021-06-30
 updated: 2021-10-24
 version: "1.1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 85
+reviews: 73
 size: 32M
 website: https://www.betadeal.net/
 repository: 

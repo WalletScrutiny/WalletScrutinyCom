@@ -1,6 +1,6 @@
 ---
 wsId: BTSE
-title: "BTSE"
+title: "BTSE: Buy & Sell Crypto"
 altTitle: 
 authors:
 - danny
