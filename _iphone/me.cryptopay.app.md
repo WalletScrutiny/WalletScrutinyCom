@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "Cryptopay: Bitcoin-Brieftasche"
+title: "Cryptopay: Buy Bitcoin Safely"
 altTitle: 
 authors:
 

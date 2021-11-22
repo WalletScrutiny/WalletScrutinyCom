@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: "Fintap. Кошелек, Обменник, Чат"
+title: "Fintap. Wallet, Exchange, Chat"
 altTitle: 
 authors:
 - kiwilamb

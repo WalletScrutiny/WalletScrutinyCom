@@ -9,8 +9,8 @@ appId: com.mhc.bexplus
 appCountry: 
 idd: 1442189260
 released: 2018-11-29
-updated: 2021-10-20
-version: "2.1.5"
+updated: 2021-11-20
+version: "2.1.6"
 stars: 4.85088
 reviews: 1368
 size: 78017536

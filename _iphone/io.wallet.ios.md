@@ -8,11 +8,11 @@ appId: io.wallet.ios
 appCountry: us
 idd: 1459857368
 released: 2019-10-08
-updated: 2021-08-06
-version: "1.13.8"
+updated: 2021-11-19
+version: "1.14.1"
 stars: 3.42857
 reviews: 14
-size: 82041856
+size: 82045952
 website: https://wallet.io/
 repository: https://github.com/wallet-io
 issue: 

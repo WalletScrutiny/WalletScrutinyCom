@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "XTrade - Online Trading"
+title: "Xtrade - Online Trading"
 altTitle: 
 authors:
 
@@ -8,10 +8,10 @@ appId: com.triviologic.xtrader
 appCountry: cl
 idd: 864027750
 released: 2014-05-30
-updated: 2021-10-31
-version: "6.0.55"
-stars: 2.64
-reviews: 25
+updated: 2021-11-21
+version: "6.0.71"
+stars: 2.70833
+reviews: 24
 size: 29645824
 website: 
 repository: 

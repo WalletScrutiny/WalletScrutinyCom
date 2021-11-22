@@ -1,6 +1,6 @@
 ---
 wsId: ZenGo
-title: "ZenGo: Crypto & Bitcoin Wallet"
+title: "ZenGo Bitcoin & Shiba Inu Coin"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: kzencorp.mobile.ios
 appCountry: 
 idd: 1440147115
 released: 2019-06-07
-updated: 2021-11-15
-version: "3.2.0"
-stars: 4.63194
-reviews: 1728
-size: 79174656
+updated: 2021-11-21
+version: "3.2.1"
+stars: 4.63306
+reviews: 1736
+size: 79178752
 website: https://www.zengo.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Baksman
-title: "Baksman – купить Биткоин"
+title: "Baksman – buy Bitcoin"
 altTitle: 
 authors:
 - danny

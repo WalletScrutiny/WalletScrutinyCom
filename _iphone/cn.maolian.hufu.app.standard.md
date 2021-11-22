@@ -10,8 +10,8 @@ idd: 1387872759
 released: 2018-06-28
 updated: 2021-11-15
 version: "4.6.48"
-stars: 3.20833
-reviews: 72
+stars: 3.23288
+reviews: 73
 size: 262086656
 website: https://hoo.com
 repository: 

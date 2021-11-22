@@ -1,6 +1,6 @@
 ---
 wsId: DelioLending
-title: "델리오 - Delio"
+title: "Delio"
 altTitle: 
 authors:
 - danny
