@@ -73,4 +73,4 @@ OneKey [claims that their software code and firmware codes are open source](http
 
 > Our code is fully and publicly hosted at Github.
 
-Creating an issue for verification.
+[Creating an issue for verification.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/374)
