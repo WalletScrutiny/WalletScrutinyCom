@@ -70,5 +70,5 @@ We tried downloading and registering on the app but were not able to receive the
 
 ## Verdict
 
-As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage, CoinFlex is a custodial service. The app is not verifiable.
+As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage, CoinFlex is a **custodial** service. However, due to the registration seemingly not functioning since October last motnh, we will also classify this as **defunct.**
 
