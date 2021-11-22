@@ -31,3 +31,14 @@ providerFacebook: ellipalclub
 providerReddit: 
 ---
 
+
+Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly. The makers claim that the "chip will delete every data when it detects a breach".
+
+## Private keys can be created offline
+
+Since the device is air-gapped, the private keys are generated offline. The only way for the Ellipal Titan to 
+
+## Private keys are not shared 
+## Device displays receive address for confirmation
+## Interface
+## Reproducibility
