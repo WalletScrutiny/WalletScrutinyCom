@@ -34,10 +34,12 @@ redirect_from:
 ---
 
 
-** ⚠️ Warning:** This app is very similar to:
+<div class="alertBox"><div>
+<p>⚠️ Warning: This app is very similar to:</p>
 
-{% include walletLink.html wallet='android/com.pons.dao' verdict='true' %}<br>
-{% include walletLink.html wallet='android/com.crypterium' verdict='true' %}
+<p>{% include walletLink.html wallet='android/com.pons.dao' verdict='true' %}<br>
+{% include walletLink.html wallet='android/com.crypterium' verdict='true' %}</p>
+</div></div>
 
 ## App Description
 

@@ -46,7 +46,7 @@ redirect_from:
 
 We were not able to register because of an error that we posted on a [screenshot on Twitter](https://twitter.com/BitcoinWalletz/status/1459088647949410306) 
 
-We signed in via the web app. There was no mention of the private keys, seeds, or mnemonics. We could not find options pertaining to those.
+We signed in via the web app. There was no mention of the private keys, seeds, or mnemonic. We could not find options pertaining to those.
 
 ## Verdict
 

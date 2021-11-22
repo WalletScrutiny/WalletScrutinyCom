@@ -24,9 +24,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: w_fuze
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Fuzewcard
 providerReddit: 
 
 redirect_from:
@@ -41,7 +41,7 @@ redirect_from:
 > - Encrypted Private Keys will be stored securely in device’s local sandbox system 
 > - Provides multiple wallet backup options, to prevent loss or theft of assets  
 
-W MANAGER's partner is the hardware wallet {% include walletLink.html wallet='hardware/fuzew' verdict='true' %}
+{{ page.title }} is the companion app of the hardware wallet {% include walletLink.html wallet='hardware/fuzew' verdict='true' %}
 
 
 ## The App
