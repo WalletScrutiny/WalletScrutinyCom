@@ -54,6 +54,6 @@ After confirming that the recovery phrase has a backup, the app asks you to set 
 
 ## Verdict
 
-We were able to find a related website even though RWallet's Google Page did not have a website listed. The contact email address had a domain of [iovlabs.org](https://iovlabs.org). We could not find any mention of RWallet's open-source nature on that website. However, searching for the appID 'com.rsk.rwallet.v2' brought us to what could possibly be [RWallet's GitHub repository](https://github.com/rsksmart/rwallet/tree/dc448c87824f85b2705e36d09b743302e2b68fbf). Although this specific repository is not linked from the iovlabs.org, we feel that it could be relevant as it mentions a lot of related items. 
+We were able to find a related website even though RWallet's Google Page did not have a website listed. The contact email address had a domain of [iovlabs.org](https://iovlabs.org). We could not find any mention of RWallet's open-source nature on that website. However, searching for the appID 'com.rsk.rwallet.v2' brought us to what could possibly be [RWallet's GitHub repository](https://github.com/rsksmart/rwallet/). Although this specific repository is not linked from the iovlabs.org, we feel that it could be relevant as it mentions a lot of related items. 
 
 This app is for further verification.

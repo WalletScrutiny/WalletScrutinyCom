@@ -57,7 +57,7 @@ There's no information on cold storage, keys, or wallets on the website. It appe
 
 ## The App
 
-Attempting to register will take you to their partner's site, Tradestation. To sign up, you are required to fill up a form that asks for personal information such as full name, birthday, address, country of residence, and occupation.
+Attempting to register will take you to their partner's site, Tradestation. To sign up, you are required to fill out a form that asks for personal information such as full name, birthday, address, country of residence, and occupation.
 
 You will have to wait for them to process and approve your account before you are granted access.
 
