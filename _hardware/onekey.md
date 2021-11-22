@@ -53,7 +53,7 @@ OneKey claims that the private keys are only [controlled by the user](https://he
 
 OneKey has a 1.54 Inch OLED with 128 x 64 pixels. 
 
-From the screenshot provided on this [page](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial), the OneKey hardware wallet has a confirmation button.
+From the renderings provided on this [page](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial), the OneKey hardware wallet has a confirmation button.
 
 However, this is from the official documentation. We were not able to find third-party content such as pictures or videos on social media or blogs that depicts the actual device.
 
