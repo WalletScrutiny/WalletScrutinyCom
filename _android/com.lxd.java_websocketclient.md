@@ -19,7 +19,7 @@ issue:
 icon: com.lxd.java_websocketclient.png
 bugbounty: 
 verdict: defunct
-date: 2021-10-18
+date: 2021-11-22
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: io.cimcome.app.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-11-17
+date: 2021-11-22
 signer: 
 reviewArchive:
 

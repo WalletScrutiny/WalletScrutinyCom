@@ -19,7 +19,7 @@ issue:
 icon: com.user.cglobank.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-08-08
+date: 2021-11-22
 signer: 
 reviewArchive:
 

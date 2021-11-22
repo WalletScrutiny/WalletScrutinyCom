@@ -19,7 +19,7 @@ issue:
 icon: com.pandats.investxe.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-11-22
 signer: 
 reviewArchive:
 

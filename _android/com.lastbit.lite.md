@@ -19,7 +19,7 @@ issue:
 icon: com.lastbit.lite.png
 bugbounty: 
 verdict: custodial
-date: 2021-06-08
+date: 2021-11-22
 signer: 
 reviewArchive:
 

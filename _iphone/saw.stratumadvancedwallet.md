@@ -19,7 +19,7 @@ issue:
 icon: saw.stratumadvancedwallet.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-11-17
+date: 2021-11-22
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.centfinance.mobile.wallet.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-11-12
+date: 2021-11-22
 signer: 
 reviewArchive:
 

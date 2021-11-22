@@ -19,7 +19,7 @@ issue:
 icon: com.tradessignal.app.png
 bugbounty: 
 verdict: nowallet
-date: 2021-10-05
+date: 2021-11-22
 signer: 
 reviewArchive:
 

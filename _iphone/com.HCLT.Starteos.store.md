@@ -19,7 +19,7 @@ issue:
 icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-11-15
+date: 2021-11-22
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-11-12
+date: 2021-11-22
 signer: 
 reviewArchive:
 

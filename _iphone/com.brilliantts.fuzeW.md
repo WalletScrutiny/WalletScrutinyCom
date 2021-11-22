@@ -19,7 +19,7 @@ issue:
 icon: com.brilliantts.fuzeW.jpg
 bugbounty: 
 verdict: wip
-date: 2021-11-12
+date: 2021-11-22
 signer: 
 reviewArchive:
 

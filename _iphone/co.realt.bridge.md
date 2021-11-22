@@ -19,7 +19,7 @@ issue:
 icon: co.realt.bridge.jpg
 bugbounty: 
 verdict: nobtc
-date: 2021-11-16
+date: 2021-11-22
 signer: 
 reviewArchive:
 

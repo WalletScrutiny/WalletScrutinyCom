@@ -19,7 +19,7 @@ issue:
 icon: com.cryptowallet.cryptowalletmobile.prod.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-11-16
+date: 2021-11-22
 signer: 
 reviewArchive:
 

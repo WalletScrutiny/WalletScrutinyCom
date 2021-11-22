@@ -19,7 +19,7 @@ issue:
 icon: com.trading.aries.png
 bugbounty: 
 verdict: nosendreceive
-date: 2021-09-01
+date: 2021-11-22
 signer: 
 reviewArchive:
 

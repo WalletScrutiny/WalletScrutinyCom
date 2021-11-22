@@ -19,7 +19,7 @@ issue:
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
 verdict: nobtc
-date: 2021-06-18
+date: 2021-11-22
 signer: 
 reviewArchive:
 

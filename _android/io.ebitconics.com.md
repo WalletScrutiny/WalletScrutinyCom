@@ -19,7 +19,7 @@ issue:
 icon: io.ebitconics.com.png
 bugbounty: 
 verdict: nowallet
-date: 2021-08-02
+date: 2021-11-22
 signer: 
 reviewArchive:
 

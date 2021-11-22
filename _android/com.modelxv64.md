@@ -19,7 +19,7 @@ issue:
 icon: com.modelxv64.png
 bugbounty: 
 verdict: custodial
-date: 2021-04-27
+date: 2021-11-22
 signer: 
 reviewArchive:
 

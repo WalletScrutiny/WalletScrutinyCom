@@ -19,7 +19,7 @@ issue:
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
 verdict: wip
-date: 2021-06-19
+date: 2021-11-22
 signer: 
 reviewArchive:
 

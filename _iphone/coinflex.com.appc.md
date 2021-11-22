@@ -19,7 +19,7 @@ issue:
 icon: coinflex.com.appc.jpg
 bugbounty: 
 verdict: defunct
-date: 2021-11-15
+date: 2021-11-22
 signer: 
 reviewArchive:
 
