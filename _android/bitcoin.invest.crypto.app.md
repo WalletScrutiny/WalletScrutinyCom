@@ -52,7 +52,7 @@ There is an "Information" page where the app states that it is:
 
 > Developed based on the Free Cryptocurrency & Market Data API service.
 
-Once opening the app, you are greeted with a list of cryptocurrencies and information about them. It takes a very long time to load, but those are all features it There is no way to trade these assets OR deposit BTC.
+Once opening the app, you are greeted with a list of cryptocurrencies and information about them. It takes a very long time to load, although those are all its features. There is no way to trade these assets or deposit your own BTC.
 
 ## Verdict
 

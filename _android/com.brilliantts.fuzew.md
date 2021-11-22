@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.brilliantts.fuzew.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -41,13 +41,8 @@ redirect_from:
 > - Encrypted Private Keys will be stored securely in device’s local sandbox system 
 > - Provides multiple wallet backup options, to prevent loss or theft of assets  
 
-{{ page.title }} is the companion app of the hardware wallet {% include walletLink.html wallet='hardware/fuzew' verdict='true' %}
+{{ page.title }} is the companion app of {% include walletLink.html wallet='hardware/fuzew' verdict='true' %}
 
+## The App and Verdict
 
-## The App
-
-We tried the app, however, it is inaccessible without the hardware wallet.
-
-## Verdict
-
-We await further review for this app.
+Without the hardware wallet, this app can't serve its intended function. As a result, **we do not classify this app as a wallet.**

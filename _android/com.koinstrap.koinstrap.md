@@ -38,19 +38,29 @@ redirect_from:
 
 This app is only available in Nigeria. It claims to allow the buying and selling of cryptocurrency as well as the sending and receiving of it. 
 
+## Critical Reviews
+
+There are some reviews that lead us to question if Koinstrap is functioning properly.
+
+> [Omodua Avwerosuo](https://play.google.com/store/apps/details?id=com.koinstrap.koinstrap&reviewId=gp%3AAOqpTOEUnThGK3jrSAE-q0rqFPOBZ2JkWrDmmSfL_U0KzohJnzWE-6asY3vzXjhxT3rmr7w9G8al4iBj2rv0IA)<br>
+  ★☆☆☆☆ April 19, 2021 <br>
+       Are you guys still functioning ? 🤷
+>
+> [micheal iyanda](https://play.google.com/store/apps/details?id=com.koinstrap.koinstrap&reviewId=gp%3AAOqpTOHGja0eQxFYzDhNHx-CvMRP250pC_GEwOTSe25Qtj1I1_taPL-FCzCvATx-I4_7HSEo1_cD3Zjt5G0yOg)<br>
+  ★☆☆☆☆ April 19, 2021 <br>
+      Rubbish app have ever seen,trying verifying my bvn,but it will say unable to verify bvn
+>
+> [Olawale Awoniyi](https://play.google.com/store/apps/details?id=com.koinstrap.koinstrap&reviewId=gp%3AAOqpTOHpmEYl7Jw_hxZCMAkLHq4TCAkjgJF2x1RUp0OYtgy2aCbdwJXYG7L81NZE3VXjvFPUkA1tLfi8Q0tLjQ)<br>
+  ★☆☆☆☆ April 19, 2021 <br>
+     I can't verify my bvn with this application
+
 ## Termination Clause in [Terms](https://koinstrap.com/terms)
 
 > You shall not unlawfully access or attempt to gain access, reverse engineer or otherwise circumvent any security measures that we have applied to our Platform and/or computer system(s). If, at our sole discretion, we were to determine that you are in breach of this clause, we reserve the right to take all action as we see fit, including, without limitation, completely blocking your access to our Platform, blocking and/or revoking your Access Codes and/or terminating your Koinstrap Account.
 
 ## The App
 
-We were not able to register with the app due to a strange error that limits the characters of the email address to 30 [(we posted the screenshot on Twitter)](https://twitter.com/BitcoinWalletz/status/1459072934471888897). Our email address is only 29-characters. 
-
-We tried on multiple platforms both on an Android emulator and a phone. We received the same error. 
-
-Koinstrap has a [status page](https://status.koinstrap.com/) that does not seem to be operable.
-
-We contacted Koinstrap via [their twitter account](https://twitter.com/BitcoinWalletz/status/1459069782393643012) to ask about the error. 
+We were not able to register. Looks like the app is only availabe in Nigeria.
 
 ## Verdict
 

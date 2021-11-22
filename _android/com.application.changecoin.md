@@ -62,7 +62,4 @@ We tried the app but when we inputted our email address, it gave an error "An in
 
 ## Verdict
 
-Changecoins may claim that it is not a custodial service. However, it doesn't provide the private keys and does not mention this anywhere on the site. Their termination clauses also include the power to control the user's account by deleting it. Without the private keys to recover the wallet backup, the user account is the only way to access the coins. This makes the service **custodial** and the app **not verifiable**. 
-
-
-
+Changecoins may claim that it is not a custodial service. However, it doesn't provide the private keys and does not mention this anywhere on the site. Absent a way to backup your wallet, the service is more likely to be **custodial** and the app **not verifiable**. 

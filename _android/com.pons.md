@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pons.jpg
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-08-02
 signer: 
 reviewArchive:
@@ -41,6 +41,10 @@ redirect_from:
 {% include walletLink.html wallet='android/com.crypterium' verdict='true' %}</p>
 </div></div>
 
+
+**UPDATE 2021-11-22:** As there has been no reply to [our tweet](https://twitter.com/BitcoinWalletz/status/1453291043055710208) for almost one month, we will classify this app as **defunct.**
+
+
 ## App Description
 
 The Google Play description was also copied from [Crypterium's Google Play page](https://play.google.com/store/apps/details?id=com.crypterium) including the emojis. They even copied the name "Crypterium" in its description. An example:
@@ -55,11 +59,10 @@ The Google Play description was also copied from [Crypterium's Google Play page]
 
 We were not able to install the app due to an error: "Your connection is not secure. Connect to a secure connection."
 
+The only other review they have is someone saying that they "can't sign up with wifi"
+
 ## Verdict
 
 The Pons Group's [website](https://pons.group) can no longer be accessed. The app can be installed, but we cannot register due to an error. Without a website and a point of contact like a twitter account, we could not verify with Pons Group whether they are indeed related to Crypterium. We previously did a review on the DAO Wallet where we tried to verify with the developer if they are connected to the [daoconsensus.com](https://daoconsensus.com) domain, since their Google Play page links to [daoconsensus.ru](https://daoconsensus.ru), but [we did not receive a reply](https://twitter.com/BitcoinWalletz/status/1453291043055710208). 
 
 This time, we tried to verify with what we believe is the original app developer, Crypterium if they are related to {% include walletLink.html wallet='android/com.pons' %} and {% include walletLink.html wallet='android/com.pons.dao' %}. 
-
-We await their reply and will update once they do.
-
