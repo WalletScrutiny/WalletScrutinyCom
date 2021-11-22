@@ -1,6 +1,6 @@
 // run this via sh script via docker
 const fs = require('fs')
-const apple = require('app-store-scraper')
+const apple = require('./appStoreScraper/index')
 const newIdds = process.argv.slice(2)
 const helper = require('./scripts/helperAppStore.js')
 
@@ -41,7 +41,7 @@ verdict: wip
 `,
           err => {
             if (err)
-              console.error(`Error with id ${idd}: ${err}`)
+              console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
             // console.log(`Success: ${path}`)
             helper.refreshFile(`${app.appId}.md`)
           })
@@ -51,7 +51,7 @@ verdict: wip
         }
       })
     }, err => {
-      console.error(`Error with id ${idd}: ${err}`)
+      console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
     })
   }
 })

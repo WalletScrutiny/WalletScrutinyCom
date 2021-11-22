@@ -83,7 +83,7 @@ function refreshFile(fileName) {
           appId: appId,
           lang: 'en',
           country: 'cl',
-          throttle: 5}).then(app => {
+          throttle: 20}).then(app => {
         const iconPath = `images/wallet_icons/android/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
           writeResult(app, header, iconExtension, body)
@@ -93,7 +93,7 @@ function refreshFile(fileName) {
         if (`${err}`.search(/404/) > -1) {
           helper.addDefunctIfNew(`_android/${appId}`)
         } else {
-          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${err}`)
+          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
         }
         release()
       })

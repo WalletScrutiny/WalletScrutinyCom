@@ -1,5 +1,5 @@
 process.env.TZ = 'UTC' // fix timezone issues
-const apple = require('app-store-scraper')
+const apple = require('../appStoreScraper/index.js')
 const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
@@ -76,7 +76,7 @@ function refreshFile(fileName) {
           id: idd,
           lang: 'en',
           country: appCountry,
-          throttle: 5}).then( app => {
+          throttle: 20}).then( app => {
         const iconPath = `images/wallet_icons/iphone/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
           writeResult(app, header, iconExtension, body)
@@ -86,7 +86,7 @@ function refreshFile(fileName) {
         if (`${err}`.search(/404/) > -1) {
           helper.addDefunctIfNew(`_iphone/${appId}`)
         } else {
-          console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${err}`)
+          console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`)
         }
         release()
       })
