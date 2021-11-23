@@ -8,7 +8,7 @@ appStore.refreshAll()
 playStore.refreshAll()
 var msg = ""
 const i = setInterval(() => {
-  const newMsg = `🤖: requests ${playStore.stats.requests}, defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, badReply ${playStore.stats.badReply}, 🍎: requests ${appStore.stats.requests}, defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`
+  const newMsg = `🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, badReply ${playStore.stats.badReply}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`
   process.stdout.clearLine()
   process.stdout.cursorTo(0)
   process.stdout.write(newMsg)

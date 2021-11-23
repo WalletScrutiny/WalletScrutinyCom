@@ -1,5 +1,5 @@
 process.env.TZ = 'UTC' // fix timezone issues
-const apple = require('../appStoreScraper/index.js')
+const apple = require('../app-store-scraper/index.js')
 const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
