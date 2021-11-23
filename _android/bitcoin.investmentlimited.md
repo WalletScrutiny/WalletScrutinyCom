@@ -45,7 +45,7 @@ redirect_from:
 
 The screenshots on Play Store don't feature the app at all. All of them are just [the same picture of the app's logo.](https://play-lh.googleusercontent.com/iBnxJ8iEgh7JoAxUq_mLo2IM2iN5n4AZf0oJ-Tb8grc36V_VXIGAV3RUprqYjEJEUJA=w1920-h972-rw)
 
-The description is hard to understand, 
+The description is hard to understand,
 >Bitcoin Investment<br>
 is the Legal Company Deal With BTC Investment Manually ,<br>
 What we do is collect Investment deals from investors and trade it in our<br>
@@ -53,12 +53,12 @@ CryptoCurrency Market and provide return to all investors Manually ,
 
 It lists the "investment packages" it purportedly provides
 
-> 1.Basic Plan $50 $3.7 $18.75 $75 $5
-> 2.Bronze Plan $100 $7.5 $37.5 $150 $10
-> 3.Silver Plan $250 $18.75 $93.75 $375 $10
-> 4.Gold Plan $500 $37.5 $187.5 $750 $15
-> 5.Premium Plan $1000 $75 $375 $1500 $15
-> 6.Black Plan $2000 $150 $750 $3000 $20
+> 1.Basic Plan $50 $3.7 $18.75 $75 $5<br>
+2.Bronze Plan $100 $7.5 $37.5 $150 $10<br>
+3.Silver Plan $250 $18.75 $93.75 $375 $10<br>
+4.Gold Plan $500 $37.5 $187.5 $750 $15<br>
+5.Premium Plan $1000 $75 $375 $1500 $15<br>
+6.Black Plan $2000 $150 $750 $3000 $20
 
 
 and makes suspicious claims.
