@@ -18,7 +18,7 @@ repository: https://github.com/wanchain
 issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
-verdict: wip
+verdict: nosource
 date: 2021-10-19
 signer: 
 reviewArchive:
@@ -34,11 +34,13 @@ redirect_from:
 ---
 
 
+**UPDATE 2021-11-23** There's no source code for the android app on Github, making the app **not verifiable.**
+
 ## App Description
 WanWallet was developed by Wanchain Foundation. It says that it supports Wanchain Galaxy Consensus Staking, which they also call "PoS Staking."
 
 > You can manage your Wanchain assets and stake your Wancoins to receive staking rewards using Wanchain Wallet.
-
+>
 > Wanchain Wallet is a non-custodial wallet, which means you own the keys and you are in control. Wanchain Foundation will never ask you for your HD seed phrase under any circumstances.
 
 ## The App
