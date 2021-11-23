@@ -11,7 +11,7 @@ released: 2020-04-03
 updated: 2021-11-16
 version: "2.2.1"
 stars: 5
-reviews: 38
+reviews: 40
 size: 85334016
 website: https://volt.id/
 repository: 

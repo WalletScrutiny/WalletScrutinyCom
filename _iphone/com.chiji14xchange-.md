@@ -10,8 +10,8 @@ idd: 1459183957
 released: 2019-08-19
 updated: 2021-05-23
 version: "2.4.2"
-stars: 4.0137
-reviews: 219
+stars: 3.99556
+reviews: 225
 size: 54788096
 website: https://chiji14xchange.com
 repository: 

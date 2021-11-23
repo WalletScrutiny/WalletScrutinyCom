@@ -1,6 +1,6 @@
 ---
 wsId: monnos
-title: "Monnos | Comprar Bitcoin"
+title: "Monnos | Buy Bitcoin"
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: "5.3.0"
 stars: 4.57576
 reviews: 165
 size: 154555392
-website: https://monnos.com/
+website: https://monnos.com
 repository: 
 issue: 
 icon: com.monnos.jpg

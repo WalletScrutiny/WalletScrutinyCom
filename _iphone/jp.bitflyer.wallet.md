@@ -1,6 +1,6 @@
 ---
 wsId: bitFlyer
-title: "ビットコインならbitFlyer 仮想通貨 取引ウォレット"
+title: "bitFlyer Crypto Exchange"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ idd: 1164758997
 released: 2016-11-18
 updated: 2021-11-10
 version: "6.8.0"
-stars: 4.31791
-reviews: 99545
+stars: 4.31812
+reviews: 99754
 size: 38720512
 website: https://bitflyer.com/
 repository: 

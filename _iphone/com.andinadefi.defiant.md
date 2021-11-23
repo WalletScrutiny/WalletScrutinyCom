@@ -13,7 +13,7 @@ version: "2.0.2+172"
 stars: 4.8
 reviews: 10
 size: 105114624
-website: https://defiantapp.tech/
+website: https://defiantapp.tech/home/
 repository: 
 issue: 
 icon: com.andinadefi.defiant.jpg

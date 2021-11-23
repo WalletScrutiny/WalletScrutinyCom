@@ -1,6 +1,6 @@
 ---
 wsId: tabtrader
-title: "TabTrader"
+title: "TabTrader - crypto terminal"
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: com.tabtrader.apps.TabTrader
 appCountry: 
 idd: 1095716562
 released: 2016-09-02
-updated: 2021-11-02
-version: "3.1.1"
-stars: 4.73858
-reviews: 4028
-size: 25698304
+updated: 2021-11-20
+version: "3.1.2"
+stars: 4.73866
+reviews: 4033
+size: 26054656
 website: https://tab-trader.com
 repository: 
 issue: 

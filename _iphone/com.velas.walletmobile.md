@@ -10,11 +10,11 @@ appId: com.velas.walletmobile
 appCountry: us
 idd: 1541032748
 released: 2020-12-12
-updated: 2021-10-23
-version: "2.0.9"
+updated: 2021-11-19
+version: "2.1.0"
 stars: 2.57143
 reviews: 7
-size: 33361920
+size: 34671616
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet
 issue: https://github.com/velas/mobile-wallet/issues/62

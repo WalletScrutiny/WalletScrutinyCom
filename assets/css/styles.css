@@ -1701,6 +1701,8 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .wallet-link {
   white-space:nowrap;
+  font-weight:bold;
+  line-height:2em;
 }
 
 .verdictBadge {

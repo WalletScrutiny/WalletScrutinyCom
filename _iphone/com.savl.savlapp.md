@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: "Криптокошелек & Bitcoin Savl"
+title: "Bitcoin wallet & BTC Savl"
 altTitle: 
 authors:
 - danny

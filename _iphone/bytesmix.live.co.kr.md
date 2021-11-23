@@ -1,6 +1,6 @@
 ---
 wsId: Bytesmix
-title: "바이츠믹스"
+title: "Bytesmix"
 altTitle: 
 authors:
 - danny

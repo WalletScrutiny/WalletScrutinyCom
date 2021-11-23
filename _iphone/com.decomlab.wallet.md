@@ -10,8 +10,8 @@ idd: 1569428098
 released: 2021-07-23
 updated: 2021-08-23
 version: "1.2.1"
-stars: 4.5
-reviews: 6
+stars: 4
+reviews: 7
 size: 77462528
 website: https://moonwallet.net/
 repository: 

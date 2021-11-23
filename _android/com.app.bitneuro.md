@@ -3,7 +3,7 @@ wsId:
 title: "BitNeuro - Trading Bots"
 altTitle: 
 authors:
-
+- danny
 users: 1000
 appId: com.app.bitneuro
 released: 2021-07-01
@@ -13,13 +13,13 @@ stars: 3.7
 ratings: 16
 reviews: 10
 size: 14M
-website: 
+website: http://bitneuro.io/
 repository: 
 issue: 
 icon: com.app.bitneuro.png
 bugbounty: 
-verdict: wip
-date: 2021-10-05
+verdict: nowallet
+date: 2021-11-22
 signer: 
 reviewArchive:
 
@@ -34,3 +34,15 @@ redirect_from:
 ---
 
 
+## App Description
+
+The app has a graphical "Buy" or "Sell" meter which gives signals to traders. Other features include:
+
+> - Real-time quotes
+> - Signals and alerts
+> - Coin exchange selection advice
+> - Social Community Forum
+
+## Verdict
+
+This app only provides trade signals and a trading bot that can link to Binance via an API. It **does not have a bitcoin wallet**. 
