@@ -58,7 +58,7 @@ As described above, the mobile app acts like a "remote-control interface for a c
 
 While managing the c-lightning server is a different aspect separate from the app, it entails self-custody. 
 
-[Lightning has documentation](https://lightning.readthedocs.io/FAQ.html) on how to backup the wallet's seed as described here:
+[Lightning has documentation](https://lightning.readthedocs.io/FAQ.html) on how to backup the wallet as described here:
 
 ### How to “backup my wallet” ?
 >
