@@ -3,6 +3,7 @@ title: "Wookong Solo"
 appId: wookongsolo
 authors:
 - kiwilamb
+- danny
 released: 
 discontinued: # date
 updated:
@@ -19,7 +20,7 @@ repository: https://github.com/extropiescom
 issue:
 icon: wookongsolo.png
 bugbounty:
-verdict: wip
+verdict: defunct
 date: 2021-08-03
 signer:
 reviewArchive:
@@ -31,3 +32,5 @@ providerFacebook:
 providerReddit: 
 ---
 
+
+The site can no longer be reached (404)
