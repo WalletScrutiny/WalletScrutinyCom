@@ -36,7 +36,7 @@ redirect_from:
 
 **NOTE:** This app is not to be confused with {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
 
-This is not a fake; on Pionex.com's [website](https://www.pionex.com/en-US/), we found a link to [lite.pionex.com](https://lite.pionex.com/) which in turn, linked to this app.
+This is not a fake app; on Pionex.com's [website](https://www.pionex.com/en-US/), we found a link to [lite.pionex.com](https://lite.pionex.com/) which in turn, linked to this app.
 
 ## App Description
 
