@@ -36,6 +36,8 @@ redirect_from:
 
 ## App Description
 
+This app's appID 'com.rsk.rwallet.v2', used to be 'com.rsk.rwallet.reactnative'. This had the effect of having new Google Play reviews and new Google Play statistics such as downloads. This was brought up as an [issue on their GitHub page](https://github.com/rsksmart/rwallet/issues/662#issuecomment-827867539).
+
 RWallet is a multi-currency non-custodial wallet that supports Bitcoin. It supports BTC, Bitcoin on RSK (RBTC), RIF Token (RIF), Dollar On Chain (DOC)
 
 ## The App

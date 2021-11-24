@@ -3,7 +3,7 @@ wsId:
 title: "ASIA EXCHANGE- Buy Sell & Stake Crypto"
 altTitle: 
 authors:
-
+- danny
 users: 1000
 appId: com.asiax.broker.android
 released: 2021-05-04
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.asiax.broker.android.png
 bugbounty: 
-verdict: wip
+verdict: defunct
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -33,4 +33,8 @@ redirect_from:
 
 ---
 
+
+As of November 24, 2021 the Google Play page for this app with appID 'com.asiax.broker.android' is [returning a 404 error.](https://twitter.com/BitcoinWalletz/status/1463399507001950214) 
+
+This app is **no longer working**.
 
