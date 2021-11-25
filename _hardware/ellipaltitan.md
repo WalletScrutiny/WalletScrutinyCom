@@ -20,7 +20,7 @@ repository: https://github.com/ellipal
 issue:
 icon: ellipaltitan.png
 bugbounty:
-verdict: wip
+verdict: nosource
 date: 2021-07-10
 signer:
 reviewArchive:
@@ -52,6 +52,8 @@ When sending transactions, the companion app generates an "unsigned data QR code
 ## Interface
 
 The device has the basic appearance of a smart phone, with a camera and a touchscreen. 
+
+[This is a video demonstration](https://www.youtube.com/watch?v=Pnh1yeijIvg) of how the Ellipal Titan functions.
 
 ## Reproducibility
 

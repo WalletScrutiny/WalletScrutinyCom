@@ -56,7 +56,6 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 
 > It is not possible for the company to steal the digital assets of the users. You can use Cypherock X1 without internet access. The device would need to be connected to an internet connected device just for broadcasting the transaction. The private keys need not ever come in contact with an internet connected device.
 
-## Device displays receive address for confirmation
 ## Interface
 
 The device has a screen and one circular button that allows users to select the letters. It is quite tedious as the single button is very limited in the number of letters it can select with one push of this button. This is evident in the [video shown here](https://youtu.be/eD3CZMPumCk?t=204).
