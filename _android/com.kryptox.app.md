@@ -9,8 +9,8 @@ appId: com.kryptox.app
 released: 2021-04-21
 updated: 2021-05-07
 version: "1.8"
-stars: 4.2
-ratings: 5
+stars: 4.3
+ratings: 6
 reviews: 1
 size: 9.9M
 website: 

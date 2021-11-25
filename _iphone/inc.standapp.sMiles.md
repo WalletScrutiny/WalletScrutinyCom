@@ -8,11 +8,11 @@ appId: inc.standapp.sMiles
 appCountry: us
 idd: 1492458803
 released: 2020-12-18
-updated: 2021-11-11
-version: "3.4"
-stars: 4.27586
-reviews: 58
-size: 69932032
+updated: 2021-11-19
+version: "3.5"
+stars: 4.41176
+reviews: 102
+size: 73329664
 website: https://www.smilesbitcoin.com/
 repository: 
 issue: 

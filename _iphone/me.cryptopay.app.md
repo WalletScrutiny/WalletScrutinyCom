@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: "Cryptopay: Bitcoin-Brieftasche"
+title: "Cryptopay: Buy Bitcoin Safely"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ idd: 1223340174
 released: 2017-06-08
 updated: 2021-10-25
 version: "1.38"
-stars: 4.55396
-reviews: 278
+stars: 4.55556
+reviews: 279
 size: 67243008
 website: https://cryptopay.me/
 repository: 

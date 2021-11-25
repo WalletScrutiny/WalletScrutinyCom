@@ -1,10 +1,16 @@
 process.env.TZ = 'UTC' // fix timezone issues
-const apple = require('app-store-scraper')
+const apple = require('../app-store-scraper/index.js')
 const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const helper = require('./helper.js')
+const { Mutex, Semaphore, withTimeout } = require('async-mutex')
+const sem = new Semaphore(5)
+const stats = {
+  defunct: 0,
+  updated: 0
+}
 
 const allowedHeaders = [
   "wsId", // apps that belong together get same swId
@@ -43,6 +49,7 @@ function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
+    console.log(`Updating ${files.length} 🍎 files ...`)
     files.forEach((file, index) => {
       refreshFile(file)
     })
@@ -50,37 +57,44 @@ function refreshAll() {
 }
 
 function refreshFile(fileName) {
-  const appPath = path.join(folder, fileName)
-  var parts = fs.readFileSync(appPath, 'utf8').split("---")
-  const headerStr = parts[1]
-  const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-  const header = yaml.load(headerStr)
-  const appId = header.appId
-  const idd = header.idd
-  const appCountry = header.appCountry || "us"
-  for(var i of Object.keys(header)) {
-    if(allowedHeaders.indexOf(i) < 0) {
-      console.error(`Losing property ${i} in ${appPath}.`)
-    }
-  }
-  if (!"defunct".includes(header.verdict)) {
-    apple.app({
-        id: idd,
-        lang: 'en',
-        country: appCountry,
-        throttle: 10}).then( app => {
-      const iconPath = `images/wallet_icons/iphone/${appId}`
-      helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-        writeResult(app, header, iconExtension, body)
-      })
-    }, (err) => {
-      if (`${err}`.search(/404/) > -1) {
-        helper.addDefunctIfNew(`_iphone/${appId}`)
-      } else {
-        console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${err}`)
+  sem.acquire().then(function([value, release]) {
+    const appPath = path.join(folder, fileName)
+    var parts = fs.readFileSync(appPath, 'utf8').split("---")
+    const headerStr = parts[1]
+    const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
+    const header = yaml.load(headerStr)
+    const appId = header.appId
+    const idd = header.idd
+    const appCountry = header.appCountry || "us"
+    for(var i of Object.keys(header)) {
+      if(allowedHeaders.indexOf(i) < 0) {
+        console.error(`Losing property ${i} in ${appPath}.`)
       }
-    })
-  }
+    }
+    if (!"defunct".includes(header.verdict)) {
+      apple.app({
+          id: idd,
+          lang: 'en',
+          country: appCountry,
+          throttle: 20}).then( app => {
+        const iconPath = `images/wallet_icons/iphone/${appId}`
+        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+          writeResult(app, header, iconExtension, body)
+          release()
+        })
+      }, (err) => {
+        if (`${err}`.search(/404/) > -1) {
+          helper.addDefunctIfNew(`_iphone/${appId}`)
+        } else {
+          console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`)
+        }
+        release()
+      })
+    } else {
+      stats.defunct++
+      release()
+    }
+  })
 }
 
 function writeResult(app, header, iconExtension, body) {
@@ -101,7 +115,7 @@ function writeResult(app, header, iconExtension, body) {
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
-  process.stdout.write("🍎")
+  stats.updated++
   var verdict = header.verdict
   var date = header.date
   // retire if needed
@@ -177,5 +191,6 @@ ${body}`)
 
 module.exports = {
   refreshAll,
-  refreshFile
+  refreshFile,
+  stats
 }

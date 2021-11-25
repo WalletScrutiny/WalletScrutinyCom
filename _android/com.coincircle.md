@@ -10,8 +10,8 @@ released: 2021-04-26
 updated: 2021-11-15
 version: "1.2.5.10203"
 stars: 4.3
-ratings: 235
-reviews: 73
+ratings: 237
+reviews: 74
 size: 120M
 website: https://coincircle.com/
 repository: 

@@ -10,8 +10,8 @@ released: 2021-07-31
 updated: 2021-07-31
 version: "0.21.0"
 stars: 4.5
-ratings: 34
-reviews: 20
+ratings: 35
+reviews: 21
 size: 48M
 website: https://www.mysrvcoin.com/index.php
 repository: 

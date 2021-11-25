@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.pillarproject.wallet
 released: 2018-12-13
-updated: 2021-10-18
-version: "3.8.0"
+updated: 2021-11-16
+version: "3.8.2"
 stars: 3.7
 ratings: 489
 reviews: 250

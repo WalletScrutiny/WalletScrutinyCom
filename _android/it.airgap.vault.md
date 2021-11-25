@@ -18,10 +18,15 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: obfuscated
-date: 2021-11-09
+verdict: reproducible
+date: 2021-11-25
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-11-09
+  version: "3.11.2"
+  appHash: 49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737
+  gitRevision: e47ee39b5333b3b27c1849e379bd1f1d6c772bd1
+  verdict: obfuscated
 - date: 2021-11-09
   version: "3.11.1"
   appHash: c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7
@@ -129,83 +134,28 @@ We ran our
 which delivered these results:
 
 ```
-Results:
+===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.11.2
-apkVersionCode: 35695
-verdict:        
-appHash:        49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737
-commit:         abbed9486d42fc10279018ec789566b71cf9cce2
+apkVersionName: 3.12.0
+apkVersionCode: 36191
+verdict:        reproducible
+appHash:        2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2
+commit:         cb039b59d211077c9568701afef7339ac34ef1f5
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_35695/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_35695/assets/public/index.html differ
-Only in /tmp/fromBuild_it.airgap.vault_35695/assets/public: main.620690f2be6c5224642a.js
-Only in /tmp/fromPlay_it.airgap.vault_35695/assets/public: main.6fac43b747228db945b3.js
-Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_35695/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object abbed9486d42fc10279018ec789566b71cf9cce2
+object cb039b59d211077c9568701afef7339ac34ef1f5
 type commit
-tag v3.11.2
-tagger Mike Godenzi <m.godenzi@papers.ch> 1635953581 +0100
+tag v3.12.0
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1637446858 +0100
 
-version 3.11.2
+v3.12.0
+===== End Results =====
 ```
 
-(below closer look is from `3.11.1`.)
-
-As in earlier cases, the js files `main.6c0c07ffb31b2f9117c8.js` and
-`main.6fac43b747228db945b3.js` differ not only in name but also in their
-**obfuscated** content.
-
-For example after running both files (8.5MB of one line) through `js-beautify`
-we get 13.5MB files that differ in dozens of chunks. Line 655 and following are:
-
-```
-"+9Uq": function(Qt, Ft, Ht) {
-    "use strict";
-    var Jt, qt = Ht("nYpo").codes,
-        jt = qt.ERR_MISSING_ARGS,
-        Zt = qt.ERR_STREAM_DESTROYED;
-
-    function noop(Qt) {
-        if (Qt) throw Qt
-    }
-
-    function destroyer(Qt, Ft, qt, jt) {
-        jt = function once(Qt) {
-            var Ft = !1;
-            return function() {
-                Ft || (Ft = !0, Qt.apply(void 0, arguments))
-            }
-        }(jt);
-        var Vt = !1;
-```
-
-vs.
-
-```
-"+B6e": function(Qt, Ft, Ht) {
-    "use strict";
-    var Jt, qt = this && this.__extends || (Jt = function extendStatics(Qt, Ft) {
-            return Jt = Object.setPrototypeOf || {
-                __proto__: []
-            }
-            instanceof Array && function(Qt, Ft) {
-                Qt.__proto__ = Ft
-            } || function(Qt, Ft) {
-                for (var Ht in Ft) Object.prototype.hasOwnProperty.call(Ft, Ht) && (Qt[Ht] = Ft[Ht])
-            }, Jt(Qt, Ft)
-        }, function(Qt, Ft) {
-            function __() {
-                this.constructor = Qt
-            }
-            Jt(Qt, Ft), Qt.prototype = null === Ft ? Object.create(Ft) : (__.prototype = Ft.prototype, new __)
-        }),
-        jt = this && this.__awaiter || function(Qt, Ft, Ht, Jt) {
-```
-
-Like this, the app is **not verifiable**.
+This app is **reproducible**.

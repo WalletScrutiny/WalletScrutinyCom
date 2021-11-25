@@ -10,8 +10,8 @@ released: 2019-12-24
 updated: 2021-11-11
 version: "3.0.1"
 stars: 4.0
-ratings: 479
-reviews: 252
+ratings: 480
+reviews: 253
 size: 8.3M
 website: https://www.dsdaq.com/
 repository: 

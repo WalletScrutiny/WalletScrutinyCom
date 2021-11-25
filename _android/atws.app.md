@@ -10,8 +10,8 @@ released: 2010-12-15
 updated: 2021-10-20
 version: "8.4.475"
 stars: 3.2
-ratings: 7399
-reviews: 3560
+ratings: 7404
+reviews: 3563
 size: 25M
 website: https://www.interactivebrokers.com/
 repository: 

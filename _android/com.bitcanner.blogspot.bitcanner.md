@@ -10,8 +10,8 @@ released: 2019-11-03
 updated: 2021-09-29
 version: "3.20.0.51"
 stars: 3.2
-ratings: 58
-reviews: 48
+ratings: 59
+reviews: 49
 size: 19M
 website: https://www.bitcanner.com/
 repository: 

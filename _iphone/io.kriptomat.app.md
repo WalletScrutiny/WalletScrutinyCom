@@ -10,8 +10,8 @@ idd: 1440135740
 released: 2018-12-20
 updated: 2021-11-01
 version: "1.8.4"
-stars: 4.75
-reviews: 8
+stars: 4.77778
+reviews: 9
 size: 64495616
 website: https://kriptomat.io
 repository: 

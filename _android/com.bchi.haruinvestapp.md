@@ -10,7 +10,7 @@ released: 2021-08-11
 updated: 2021-10-06
 version: "1.2.0"
 stars: 4.4
-ratings: 102
+ratings: 104
 reviews: 46
 size: 72M
 website: https://haruinvest.com/

@@ -10,8 +10,8 @@ released: 2020-01-25
 updated: 2021-11-09
 version: "3.7.1"
 stars: 3.9
-ratings: 19746
-reviews: 12535
+ratings: 19895
+reviews: 12637
 size: Varies with device
 website: https://pintu.co.id/
 repository: 

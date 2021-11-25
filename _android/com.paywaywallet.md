@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 10000
+users: 50000
 appId: com.paywaywallet
 released: 2019-02-13
 updated: 2021-03-04

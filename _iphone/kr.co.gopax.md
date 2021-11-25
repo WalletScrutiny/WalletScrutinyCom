@@ -1,6 +1,6 @@
 ---
 wsId: gopax
-title: "고팍스 - GOPAX"
+title: "GOPAX"
 altTitle: 
 authors:
 - danny

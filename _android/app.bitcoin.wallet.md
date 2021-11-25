@@ -9,8 +9,8 @@ appId: app.bitcoin.wallet
 released: 2021-04-10
 updated: 2021-11-02
 version: "10.00"
-stars: 4.8
-ratings: 23
+stars: 4.7
+ratings: 24
 reviews: 5
 size: 2.8M
 website: 

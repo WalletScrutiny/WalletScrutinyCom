@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: de.schildbach.wallet_test
 released: 2011-07-10
-updated: 2021-11-12
+updated: 2021-11-17
 version: "Varies with device"
 stars: 4.5
 ratings: 371

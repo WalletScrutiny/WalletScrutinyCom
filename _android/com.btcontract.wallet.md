@@ -8,8 +8,8 @@ authors:
 users: 100000
 appId: com.btcontract.wallet
 released: 2015-07-15
-updated: 2021-11-12
-version: "2.3.18"
+updated: 2021-11-17
+version: "2.4.18"
 stars: 3.7
 ratings: 1037
 reviews: 559
@@ -20,9 +20,19 @@ issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-11-14
+date: 2021-11-25
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2021-11-18
+  version: "2.4.18"
+  appHash: 8d31451fde848faed483b4b4f2aa1f090e31c527985cfd7b673f00e82a28d574
+  gitRevision: e47ee39b5333b3b27c1849e379bd1f1d6c772bd1
+  verdict: reproducible
+- date: 2021-11-14
+  version: "2.3.18"
+  appHash: 385f39ac27f728846ee908f997cbb10dfb87719e22b62d492f59c5321c6cc0b6
+  gitRevision: 3ae8946f95e28c5bc9787dec573d3dd5076f237c
+  verdict: reproducible
 - date: 2021-10-29
   version: "2.2.17"
   appHash: 18096c8996af7d0efd89d6481ee6a3a700691c8557e2f0986fc3fa7b770667b5
@@ -49,39 +59,26 @@ redirect_from:
 ---
 
 
-With the newly reproducible verdict, this wallet got some
-extra scrutiny and it turned out their default lightning account is custodial
-without stating so, which would warrant a "custodial" verdict.
-It was named "HOSTED CHANNEL" which is
-[very specific](https://lightning-wallet.com/posts/scaling-ln-with-hosted-channels/)
-and well defined but not clear to novice users.
-
-We
-[petitioned to make this clearer](https://github.com/btcontract/wallet/issues/102)
-and the provider reacted in record time, releasing version `2.2.17` with a fix.
-
 For that latest version, our test script returned this:
 
 ```
+===== Begin Results =====
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.3.18
-apkVersionCode: 85
+apkVersionName: 2.4.19
+apkVersionCode: 87
 verdict:        reproducible
-appHash:        385f39ac27f728846ee908f997cbb10dfb87719e22b62d492f59c5321c6cc0b6
-commit:         7a8e9dda0a8d3d637a1ca6e7c411a18febb4df02
+appHash:        5584144f5661b58c39da10b81582ed2e7b6947e078e487f6b86393dc17aea1ee
+commit:         d86ba6c3ad6739f891da7f58cc6fc7ff1473d5fc
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_85/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_85/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_85/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_85/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_87/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_87/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_87/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_87/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 
+===== End Results =====
 ```
 
-The separately downloaded `graph.snapshot-mainnet.zlib` had this hash:
-
-```
-24001490837dfcdb05facde562225383a86ffb22e5a94679ab2cb9fd64a9bfd5 app/src/main/assets/graph.snapshot-mainnet.zlib
-```
+The app is **reproducible**.

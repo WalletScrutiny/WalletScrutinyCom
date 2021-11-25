@@ -11,8 +11,8 @@ released:
 updated: 2021-09-07
 version: "1.1.0"
 stars: 2.5
-ratings: 14643
-reviews: 9121
+ratings: 14680
+reviews: 9140
 size: 59M
 website: https://chivowallet.com/
 repository: 

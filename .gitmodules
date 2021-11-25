@@ -1,0 +1,3 @@
+[submodule "app-store-scraper"]
+	path = app-store-scraper
+	url = https://github.com/Giszmo/app-store-scraper

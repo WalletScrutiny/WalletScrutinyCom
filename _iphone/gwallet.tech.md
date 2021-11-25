@@ -8,11 +8,11 @@ appId: gwallet.tech
 appCountry: be
 idd: 1552665993
 released: 2021-02-17
-updated: 2021-11-04
-version: "1.1.38"
+updated: 2021-11-19
+version: "1.1.39"
 stars: 
 reviews: 
-size: 63438848
+size: 63473664
 website: https://gwallet.tech/
 repository: 
 issue: 

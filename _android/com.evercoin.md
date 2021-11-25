@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.evercoin.png
 bugbounty: 
-verdict: nosource
-date: 2020-06-20
+verdict: stale
+date: 2021-11-18
 signer: 
 reviewArchive:
-
+- date: 2020-06-20
+  version: "2.8.8"
+  appHash: 
+  gitRevision: 6f3f0e1d200197d540e28458754d1ebb19cefaee
+  verdict: nosource
 
 providerTwitter: everc0in
 providerLinkedIn: 

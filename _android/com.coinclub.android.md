@@ -10,7 +10,7 @@ released: 2018-09-21
 updated: 2019-02-20
 version: "1.6.7"
 stars: 3.6
-ratings: 5387
+ratings: 5388
 reviews: 3236
 size: 17M
 website: 

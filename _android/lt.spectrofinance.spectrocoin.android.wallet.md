@@ -10,8 +10,8 @@ released: 2014-12-05
 updated: 2021-11-12
 version: "1.19.0"
 stars: 3.0
-ratings: 3132
-reviews: 919
+ratings: 3133
+reviews: 920
 size: 12M
 website: https://spectrocoin.com
 repository: 
