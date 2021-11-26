@@ -54,6 +54,6 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
  
 ## Reproducibility
  
- We found a Github repository called "Hyperpay Wallet HardWallet"
+ We found a [Github repository](https://github.com/hyperpayorg/hardwallet) called "Hyperpay Wallet HardWallet"
  
  As a result, this product is now slated **for verification.**

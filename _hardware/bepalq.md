@@ -3,6 +3,7 @@ title: "BEPAL Q"
 appId: bepalq
 authors:
 - kiwilamb
+- danny
 released: 2018-07-01
 discontinued: # date
 updated:
@@ -19,7 +20,7 @@ repository:
 issue:
 icon: bepalq.png
 bugbounty:
-verdict: wip 
+verdict: defunct 
 date: 2021-07-25
 signer:
 reviewArchive:
@@ -31,3 +32,9 @@ providerFacebook:
 providerReddit: 
 ---
 
+
+Launched 3 years ago, the website now displays "Website is under maintenance" and "Actively cooperate with the latest industry regulatory policies". 
+
+Screenshot [taken and posted on twitter](https://twitter.com/BitcoinWalletz/status/1464189901348356099).
+
+With no shop links, increased regulatory scrutiny in China and a non-functioning website, it is safe to assume that this wallet is no longer in the market.
