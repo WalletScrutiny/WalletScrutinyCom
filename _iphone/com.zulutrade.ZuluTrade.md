@@ -8,11 +8,11 @@ appId: com.zulutrade.ZuluTrade
 appCountry: us
 idd: 336913058
 released: 2009-11-07
-updated: 2021-10-12
-version: "4.23.9"
+updated: 2021-11-22
+version: "4.24.0"
 stars: 4.2
 reviews: 10
-size: 65420288
+size: 65590272
 website: https://www.zulutrade.com/
 repository: 
 issue: 

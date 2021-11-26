@@ -8,11 +8,11 @@ appId: com.front.fameex
 appCountry: us
 idd: 1499620060
 released: 2021-05-16
-updated: 2021-11-10
-version: "2.6.6"
+updated: 2021-11-23
+version: "2.6.7"
 stars: 5
 reviews: 2
-size: 153587712
+size: 153554944
 website: https://www.fameex.com
 repository: 
 issue: 

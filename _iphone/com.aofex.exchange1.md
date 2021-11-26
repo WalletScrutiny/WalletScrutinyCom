@@ -8,11 +8,11 @@ appId: com.aofex.exchange1
 appCountry: us
 idd: 1477466894
 released: 2019-09-19
-updated: 2021-11-05
-version: "3.0.6"
-stars: 4.93696
-reviews: 714
-size: 238366720
+updated: 2021-11-22
+version: "3.0.7"
+stars: 4.93706
+reviews: 715
+size: 238615552
 website: https://www.aofex.com/#/
 repository: 
 issue: 

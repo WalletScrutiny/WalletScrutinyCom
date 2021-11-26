@@ -7,8 +7,8 @@ authors:
 users: 50
 appId: com.morix.wallet
 released: 2020-07-15
-updated: 2021-06-22
-version: "v1.0.31"
+updated: 2021-11-08
+version: "v1.0.34"
 stars: 0.0
 ratings: 
 reviews: 

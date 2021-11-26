@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2021-11-16
-version: "6.6.1"
-stars: 4.69092
-reviews: 3106
-size: 336187392
+updated: 2021-11-25
+version: "6.6.3"
+stars: 4.6881
+reviews: 3110
+size: 336652288
 website: http://www.hbg.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: "Phemex: Buy & Sell Bitcoin"
+title: "Phemex: Trade Bitcoin & Crypto"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2021-10-14
-version: "2.0.3"
-stars: 4.22348
-reviews: 528
-size: 167541760
+updated: 2021-11-22
+version: "2.0.5"
+stars: 4.20301
+reviews: 532
+size: 170476544
 website: https://phemex.com/
 repository: 
 issue: 

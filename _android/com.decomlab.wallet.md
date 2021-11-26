@@ -10,8 +10,8 @@ released: 2021-07-26
 updated: 2021-09-02
 version: "1.2.1"
 stars: 4.6
-ratings: 96
-reviews: 62
+ratings: 100
+reviews: 66
 size: 94M
 website: https://moonwallet.net/
 repository: 

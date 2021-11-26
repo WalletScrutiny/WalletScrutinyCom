@@ -14,7 +14,7 @@ ratings:
 reviews: 
 size: Varies with device
 website: https://lastbit.io/
-repository: https://github.com/lastbit-io 
+repository: https://github.com/lastbit-io
 issue: 
 icon: com.lastbit.lite.png
 bugbounty: 

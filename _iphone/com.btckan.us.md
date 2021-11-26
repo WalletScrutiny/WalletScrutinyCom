@@ -1,6 +1,6 @@
 ---
 wsId: BitKan
-title: "BitKan: Buy BTC,ETH,DOGE,SHIB"
+title: "BitKan: Buy BTC, ETH,DOGE,SHIB"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.btckan.us
 appCountry: us
 idd: 1004852205
 released: 2015-06-24
-updated: 2021-11-01
-version: "8.0.67"
+updated: 2021-11-24
+version: "8.0.75"
 stars: 4.97668
 reviews: 772
-size: 162350080
+size: 193013760
 website: https://bitkan.com/
 repository: 
 issue: 

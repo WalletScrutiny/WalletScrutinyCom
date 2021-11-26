@@ -10,8 +10,8 @@ idd: 1587180582
 released: 2021-09-27
 updated: 2021-11-03
 version: "2.9.3"
-stars: 4
-reviews: 4
+stars: 3.8
+reviews: 5
 size: 50906112
 website: https://skyewallet.com/
 repository: 

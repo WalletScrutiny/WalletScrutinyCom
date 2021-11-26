@@ -4,7 +4,7 @@ title: "DeFi Bitcoin Wallets"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.cryptowallet.defi
 released: 2021-08-08
 updated: 2021-08-08

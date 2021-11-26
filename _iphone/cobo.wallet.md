@@ -8,11 +8,11 @@ appId: cobo.wallet
 appCountry: 
 idd: 1406282615
 released: 2018-08-05
-updated: 2021-10-29
-version: "5.16.0"
-stars: 3
-reviews: 4
-size: 79941632
+updated: 2021-11-22
+version: "5.17.0"
+stars: 3.4
+reviews: 5
+size: 78684160
 website: https://cobo.com
 repository: 
 issue: 

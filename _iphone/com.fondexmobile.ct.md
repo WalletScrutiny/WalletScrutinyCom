@@ -8,11 +8,11 @@ appId: com.fondexmobile.ct
 appCountry: au
 idd: 1314894569
 released: 2017-11-18
-updated: 2021-11-08
-version: "4.3.54305"
+updated: 2021-11-24
+version: "4.3.54310"
 stars: 5
 reviews: 2
-size: 265948160
+size: 266017792
 website: https://fondex.com/en/
 repository: 
 issue: 

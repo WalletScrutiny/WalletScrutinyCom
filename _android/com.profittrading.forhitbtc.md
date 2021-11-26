@@ -9,9 +9,9 @@ appId: com.profittrading.forhitbtc
 released: 2018-07-23
 updated: 2021-08-07
 version: "Varies with device"
-stars: 4.0
-ratings: 39
-reviews: 17
+stars: 4.1
+ratings: 40
+reviews: 18
 size: Varies with device
 website: https://profittradingapp.com/
 repository: 

@@ -10,8 +10,8 @@ idd: 1506274532
 released: 2020-05-05
 updated: 2021-11-21
 version: "4.7.1"
-stars: 3.3767
-reviews: 515
+stars: 3.34906
+reviews: 530
 size: 38468608
 website: https://blockfi.com/
 repository: 

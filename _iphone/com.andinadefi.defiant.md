@@ -10,8 +10,8 @@ idd: 1559622756
 released: 2021-04-07
 updated: 2021-11-12
 version: "2.0.2+172"
-stars: 4.8
-reviews: 10
+stars: 4.81818
+reviews: 11
 size: 105114624
 website: https://defiantapp.tech/home/
 repository: 
