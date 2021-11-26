@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.beldex.png
 bugbounty: 
-verdict: nobtc
-date: 2021-11-10
+verdict: defunct
+date: 2021-11-26
 signer: 
 reviewArchive:
-
+- date: 2021-11-10
+  version: "Varies with device"
+  appHash: 
+  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
+  verdict: nobtc
+  
 
 providerTwitter: beldexcoin
 providerLinkedIn: beldex-coin
@@ -33,6 +38,7 @@ redirect_from:
 
 ---
 
+**Update 2021-11-16**: This app is not on Play Store anymore.
 
 **Note:** It would appear that this app is still in its development stages.
 

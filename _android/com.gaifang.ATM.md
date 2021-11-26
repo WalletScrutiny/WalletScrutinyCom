@@ -18,11 +18,16 @@ repository:
 issue: 
 icon: com.gaifang.ATM.png
 bugbounty: 
-verdict: nosendreceive
-date: 2021-11-15
+verdict: defunct
+date: 2021-11-26
 signer: 
 reviewArchive:
-
+- date: 2021-11-15
+  version: "1.1.20"
+  appHash: 
+  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
+  verdict: nosendreceive
+  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-18**: This app is not on Play Store anymore.
 
 ## App Description
 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.asiax.broker.android.png
 bugbounty: 
-verdict: wip
-date: 2021-10-18
+verdict: defunct
+date: 2021-11-26
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-14**: This app is not on Play Store anymore.
 
