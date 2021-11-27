@@ -10,8 +10,8 @@ idd: 1559014308
 released: 2021-11-02
 updated: 2021-11-02
 version: "1.0"
-stars: 3.8
-reviews: 20
+stars: 3.66667
+reviews: 21
 size: 52811776
 website: https://localbitcoins.com/
 repository: 
