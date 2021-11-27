@@ -19,7 +19,7 @@ npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpa
 # ask Google again:
 rm /tmp/unnatural.txt 2> /dev/null
 echo "Updating from Google and Apple ..." &
-node refreshApps.js
+node -e 'require("./refreshApps").refresh()'
 
 function checkUnnaturals {
   if [[ -f "/tmp/unnatural.txt" ]];then
