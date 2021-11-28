@@ -11,7 +11,7 @@ released: 2020-08-10
 updated: 2021-11-24
 version: "41.0"
 stars: 4.83535
-reviews: 4270
+reviews: 4306
 size: 31988736
 website: https://beta.strike.me/
 repository: 

@@ -9,9 +9,9 @@ appId: jp.paddle_inc.bitstock
 released: 2019-09-03
 updated: 2021-11-16
 version: "1.4.22"
-stars: 3.7
-ratings: 2588
-reviews: 990
+stars: 3.6
+ratings: 2647
+reviews: 1013
 size: 28M
 website: https://bitstart.jp/
 repository: 
