@@ -1,17 +1,17 @@
 ---
 wsId: cryptotab
-title: "CryptoTab Farm — Turn Computers into Digital Gold"
+title: "CryptoTab Farm: Digital Gold"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.cryptofarm
 released: 2021-06-10
-updated: 2021-11-10
-version: "1.0.130"
+updated: 2021-11-26
+version: "1.0.147"
 stars: 4.0
-ratings: 3768
-reviews: 1791
+ratings: 4026
+reviews: 1902
 size: 34M
 website: https://cryptotab.farm/
 repository: 

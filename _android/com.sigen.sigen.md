@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.sigen.sigen
 released: 2020-04-18
-updated: 2021-11-08
-version: "2.9.0"
+updated: 2021-11-27
+version: "2.9.1"
 stars: 4.6
-ratings: 22533
-reviews: 10604
-size: 40M
+ratings: 22540
+reviews: 10610
+size: 42M
 website: https://sigen.pro/
 repository: 
 issue: 

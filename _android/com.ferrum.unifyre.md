@@ -4,7 +4,7 @@ title: "Unifyre: One Wallet, Endless  Possibilities"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.ferrum.unifyre
 released: 2020-05-29
 updated: 2020-09-20
