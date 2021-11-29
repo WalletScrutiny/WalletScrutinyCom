@@ -10,8 +10,8 @@ released: 2020-03-13
 updated: 2021-02-10
 version: "0.82"
 stars: 3.6
-ratings: 226
-reviews: 149
+ratings: 228
+reviews: 150
 size: 22M
 website: https://blockchain.mn/
 repository: 
