@@ -43,9 +43,9 @@ redirect_from:
 
 ## App Description
 
-The screenshots on Play Store don't feature the app at all. All of them are just [the same picture of the app's logo.](https://play-lh.googleusercontent.com/iBnxJ8iEgh7JoAxUq_mLo2IM2iN5n4AZf0oJ-Tb8grc36V_VXIGAV3RUprqYjEJEUJA=w1920-h972-rw)
+For some reason, the screenshots on Play Store don't feature images of the app at all. They're all just the same image of this app's logo.
 
-The description is hard to understand,
+The description is hard to understand:
 >Bitcoin Investment<br>
 is the Legal Company Deal With BTC Investment Manually ,<br>
 What we do is collect Investment deals from investors and trade it in our<br>
