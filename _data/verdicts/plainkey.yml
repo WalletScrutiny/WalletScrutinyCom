@@ -1,9 +1,9 @@
 short: Leaks Keys
-title: Leaks keys to send
+title: Leaks Keys
 color: '#d33100'
 redflag: true
-message: This wallet depends on sharing the private key to create a transaction!
-question: Can the device sign transactions?
+message: This product requires sharing private key material!
+question: Does the device share private keys?
 details: >
   Some people claim their paper wallet is a hardware wallet. Others use RFID
   chips with the private keys on them. A very crucial drawback of those
@@ -18,3 +18,7 @@ details: >
   
   Simple RFID based devices can't sign transactions - they share the keys
   with whoever asked to use them for whatever they please.
+  
+  
+  There are even products that are perfectly capable of working in an
+  air-gapped fashion but they still expose the keys to connected devices.
