@@ -19,7 +19,7 @@ issue:
 icon: bitcoin.investmentlimited.png
 bugbounty: 
 verdict: defunct
-date: 2021-08-21
+date: 2021-11-30
 signer: 
 reviewArchive:
 

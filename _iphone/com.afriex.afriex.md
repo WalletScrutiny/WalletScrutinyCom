@@ -19,7 +19,7 @@ issue:
 icon: com.afriex.afriex.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-10-01
+date: 2021-11-30
 signer: 
 reviewArchive:
 

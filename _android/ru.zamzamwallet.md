@@ -19,7 +19,7 @@ issue:
 icon: ru.zamzamwallet.png
 bugbounty: 
 verdict: nowallet
-date: 2021-11-04
+date: 2021-11-30
 signer: 
 reviewArchive:
 

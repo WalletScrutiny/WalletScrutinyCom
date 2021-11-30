@@ -19,7 +19,7 @@ issue:
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
 verdict: custodial
-date: 2021-10-18
+date: 2021-11-30
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
 verdict: nosource
-date: 2021-11-23
+date: 2021-11-30
 signer: 
 reviewArchive:
 

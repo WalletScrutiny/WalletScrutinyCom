@@ -19,7 +19,7 @@ issue:
 icon: com.ex.exchange808.png
 bugbounty: 
 verdict: custodial
-date: 2021-10-05
+date: 2021-11-30
 signer: 
 reviewArchive:
 

@@ -19,7 +19,7 @@ issue:
 icon: com.hedged_bitcoin.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-08
+date: 2021-11-30
 signer: 
 reviewArchive:
 
