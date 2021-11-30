@@ -33,6 +33,5 @@ redirect_from:
 
 ---
 
-
 **Update 2021-11-14**: This app is not on Play Store anymore.
 
