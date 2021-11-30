@@ -238,9 +238,38 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 ${body}`)
 }
 
+function add(newAppIds) {
+  console.log(`Adding skeletons for ${newAppIds.length} apps ...`)
+
+  newAppIds.forEach(appId => {
+      const path = `_android/${appId}.md`
+      fs.exists(path, fileExists => {
+        if (!fileExists) {
+          const file = fs.createWriteStream(path)
+          file.write(`---
+  appId: ${appId}
+  verdict: wip
+  ---
+  `,
+          err => {
+            if (err) {
+              console.error(`Error with id ${idd}: ${err}`)
+            }
+            // console.log(`Success: ${path}`)
+            refreshFile(`${appId}.md`)
+          })
+        } else {
+          // console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
+          refreshFile(`${appId}.md`)
+        }
+      })
+  })
+}
+
 module.exports = {
   refreshAll,
   refreshFile,
-  stats
+  stats,
+  add
 }
 

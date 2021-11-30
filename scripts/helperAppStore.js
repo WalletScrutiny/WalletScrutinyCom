@@ -206,8 +206,63 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 ${body}`)
 }
 
+function add(newIdds) {
+  console.log(`Adding skeletons for ${newIdds.length} apps ...`)
+
+  newIdds.forEach( param => {
+    var idd = undefined
+    var appId = undefined
+    var country = undefined
+    if (param.includes("/")) {
+      const parts = param.split("/")
+      country = parts[0]
+      param = parts[1]
+    }
+    if (isNaN(param)) {
+      appId = param
+    } else {
+      idd = param
+    }
+    if (appId) {
+      refreshFile(`${appId}.md`)
+    } else {
+      apple.app({
+          id: idd,
+          lang: 'en',
+          country: country || "cl",
+          throttle: 20}).then( app => {
+        const path = `_iphone/${app.appId}.md`
+        fs.exists(path, fileExists => {
+          if (!fileExists) {
+            const file = fs.createWriteStream(path)
+            file.write(`---
+appId: ${app.appId}
+idd: ${idd}
+appCountry: ${country || "" }
+verdict: wip
+---
+`,
+            err => {
+              if (err)
+                console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
+              // console.log(`Success: ${path}`)
+              refreshFile(`${app.appId}.md`)
+            })
+          } else {
+            // console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists. Refreshing ...`)
+            refreshFile(`${app.appId}.md`)
+          }
+        })
+      }, err => {
+        console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
+      })
+    }
+  })
+}
+
 module.exports = {
   refreshAll,
   refreshFile,
-  stats
+  stats,
+  add
 }
