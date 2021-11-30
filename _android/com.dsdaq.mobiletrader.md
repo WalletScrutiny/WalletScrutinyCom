@@ -1,6 +1,6 @@
 ---
 wsId: Dsdaq
-title: "Dsdaq - Buy stock with Bitcoin"
+title: "Dsdaq - Trade stock, gold, oil, index using USDT"
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ updated: 2021-11-11
 version: "3.0.1"
 stars: 4.0
 ratings: 480
-reviews: 253
+reviews: 252
 size: 8.3M
 website: https://www.dsdaq.com/
 repository: 

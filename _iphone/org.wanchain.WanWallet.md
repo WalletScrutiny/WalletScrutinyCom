@@ -18,8 +18,8 @@ repository: https://github.com/wanchain
 issue: 
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
-verdict: wip
-date: 2021-10-19
+verdict: nosource
+date: 2021-11-30
 signer: 
 reviewArchive:
 

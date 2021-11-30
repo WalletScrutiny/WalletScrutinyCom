@@ -1,18 +1,18 @@
 ---
 wsId: bingbon
-title: "Bingbon Bitcoin & Cryptocurrency Platform"
+title: "BingX (Prev. Bingbon)"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: pro.bingbon.app
 released: 2019-05-18
-updated: 2021-11-16
-version: "2.42.1"
-stars: 4.3
-ratings: 1956
-reviews: 1084
-size: 31M
+updated: 2021-11-26
+version: "2.43.5"
+stars: 4.4
+ratings: 2080
+reviews: 1147
+size: 27M
 website: https://bingbon.com
 repository: 
 issue: 

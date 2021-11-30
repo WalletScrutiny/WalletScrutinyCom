@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: app.jackbot
 released: 2021-01-05
-updated: 2021-11-16
+updated: 2021-11-24
 version: "4.0.0"
-stars: 3.9
-ratings: 19
-reviews: 17
+stars: 3.8
+ratings: 20
+reviews: 18
 size: 20M
 website: https://jackbot.app/
 repository: 

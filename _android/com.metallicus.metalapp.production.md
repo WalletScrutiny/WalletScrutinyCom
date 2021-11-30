@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.metallicus.metalapp.production
 released: 
-updated: 2021-11-08
-version: "2.4.11-prod"
-stars: 3.6
-ratings: 530
-reviews: 242
-size: 81M
+updated: 2021-11-28
+version: "2.4.13-prod"
+stars: 3.7
+ratings: 536
+reviews: 247
+size: 82M
 website: https://www.metalpay.com/
 repository: 
 issue: 

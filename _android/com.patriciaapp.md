@@ -9,9 +9,9 @@ appId: com.patriciaapp
 released: 2020-02-14
 updated: 2021-10-25
 version: "1.3.2"
-stars: 2.4
-ratings: 3323
-reviews: 2461
+stars: 2.5
+ratings: 3357
+reviews: 2484
 size: 48M
 website: https://mypatricia.co/
 repository: 

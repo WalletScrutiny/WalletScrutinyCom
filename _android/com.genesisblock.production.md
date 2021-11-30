@@ -7,11 +7,11 @@ authors:
 users: 1000
 appId: com.genesisblock.production
 released: 2020-05-06
-updated: 2021-11-18
-version: "0.1.65"
-stars: 3.7
-ratings: 50
-reviews: 30
+updated: 2021-11-22
+version: "0.1.66"
+stars: 3.6
+ratings: 51
+reviews: 31
 size: Varies with device
 website: https://genesisblock.com/
 repository: 

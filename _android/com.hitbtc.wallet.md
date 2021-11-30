@@ -9,9 +9,9 @@ appId: com.hitbtc.wallet
 released: 2021-08-31
 updated: 2021-10-28
 version: "1.1.1"
-stars: 4.4
-ratings: 39
-reviews: 12
+stars: 4.3
+ratings: 41
+reviews: 13
 size: 46M
 website: https://hitbtc.com/wallet
 repository: 

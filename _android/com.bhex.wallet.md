@@ -11,9 +11,9 @@ appId: com.bhex.wallet
 released: 2021-07-07
 updated: 2021-09-19
 version: "1.3.5"
-stars: 4.2
-ratings: 5
-reviews: 3
+stars: 3.7
+ratings: 6
+reviews: 4
 size: 22M
 website: https://www.bhexchain.com/
 repository: https://github.com/bluehelix-chain/wallet-android

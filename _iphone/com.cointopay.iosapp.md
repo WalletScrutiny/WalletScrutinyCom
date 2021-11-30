@@ -32,4 +32,5 @@ providerReddit: Cointopay
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

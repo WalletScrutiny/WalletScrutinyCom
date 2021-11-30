@@ -9,9 +9,9 @@ appId: com.pro.changelly
 released: 2020-07-03
 updated: 2021-04-13
 version: "1.0.13"
-stars: 4.3
-ratings: 151
-reviews: 85
+stars: 4.6
+ratings: 162
+reviews: 94
 size: 11M
 website: https://pro.changelly.com/
 repository: 

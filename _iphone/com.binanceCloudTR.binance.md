@@ -8,11 +8,11 @@ appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
 released: 2021-02-18
-updated: 2021-11-03
-version: "1.3.0"
-stars: 4.43172
-reviews: 12170
-size: 61177856
+updated: 2021-11-25
+version: "1.4.0"
+stars: 4.43158
+reviews: 12197
+size: 62290944
 website: https://www.trbinance.com/
 repository: 
 issue: 

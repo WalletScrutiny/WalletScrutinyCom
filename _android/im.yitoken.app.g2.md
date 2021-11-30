@@ -4,7 +4,7 @@ title: "yiToken Wallet - BTC, ETH, DOT"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: im.yitoken.app.g2
 released: 2021-06-15
 updated: 2021-09-30

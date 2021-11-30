@@ -10,8 +10,8 @@ idd: 1449352913
 released: 2019-03-07
 updated: 2021-09-23
 version: "1.2.25"
-stars: 4.16667
-reviews: 60
+stars: 4.18032
+reviews: 61
 size: 258554880
 website: https://blackcatcard.com
 repository: 

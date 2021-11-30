@@ -19,7 +19,7 @@ issue:
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
 verdict: wip
-date: 2021-11-22
+date: 2021-11-30
 signer: 
 reviewArchive:
 
@@ -35,6 +35,8 @@ redirect_from:
 
 
 ## App Description
+
+As described in [this issue](https://github.com/rsksmart/rwallet/issues/662#issuecomment-827867539), this app replaces {% include walletLink.html wallet='android/com.rsk.rwallet.reactnative' verdict='true' %} and as such had to start from zero with reviews, ratings and downloads.
 
 RWallet is a multi-currency non-custodial wallet that supports Bitcoin. It supports BTC, Bitcoin on RSK (RBTC), RIF Token (RIF), Dollar On Chain (DOC)
 

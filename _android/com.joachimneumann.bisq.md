@@ -9,9 +9,9 @@ appId: com.joachimneumann.bisq
 released: 2018-09-06
 updated: 2018-12-04
 version: "1.1.0"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.9
+ratings: 65
+reviews: 30
 size: 3.6M
 website: 
 repository: 

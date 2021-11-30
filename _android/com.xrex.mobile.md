@@ -10,7 +10,7 @@ released: 2020-02-20
 updated: 2021-11-02
 version: "1.6.92"
 stars: 4.2
-ratings: 40
+ratings: 41
 reviews: 18
 size: 70M
 website: https://xrex.io/

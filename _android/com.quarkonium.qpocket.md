@@ -10,7 +10,7 @@ released: 2019-07-22
 updated: 2021-05-06
 version: "5.4.2"
 stars: 2.8
-ratings: 100
+ratings: 101
 reviews: 63
 size: 54M
 website: https://www.qpocket.io/

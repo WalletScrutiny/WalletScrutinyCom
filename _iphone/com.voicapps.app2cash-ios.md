@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.voicapps.app2cash-ios.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-11-08
+verdict: stale
+date: 2021-11-30
 signer: 
 reviewArchive:
-
+- date: 2021-11-08
+  version: "1.2.4"
+  appHash: 
+  gitRevision: a76a365d42213e8bb0226712f5cdff5742261f7d
+  verdict: custodial
 
 providerTwitter: 2cashnetwork
 providerLinkedIn: 2cash

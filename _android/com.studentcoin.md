@@ -9,9 +9,9 @@ appId: com.studentcoin
 released: 2021-04-01
 updated: 2021-10-26
 version: "1.12.2"
-stars: 4.3
-ratings: 643
-reviews: 366
+stars: 4.2
+ratings: 645
+reviews: 365
 size: 29M
 website: https://www.studentcoin.org/
 repository: 

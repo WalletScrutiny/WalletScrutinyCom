@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "OKEx: Trade Bitcoin, ETH, SHIB"
+title: "OKEx：Buy Bitcoin, NFTs & Meta"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.okinc.okex.gp
 released: 2019-10-29
-updated: 2021-11-02
-version: "5.3.12"
-stars: 4.6
-ratings: 146262
-reviews: 41224
-size: 173M
+updated: 2021-11-26
+version: "5.3.21"
+stars: 4.7
+ratings: 153033
+reviews: 41616
+size: 189M
 website: https://www.okex.com
 repository: 
 issue: 

@@ -10,8 +10,8 @@ released: 2021-08-31
 updated: 2021-11-12
 version: "1.5"
 stars: 4.6
-ratings: 126
-reviews: 71
+ratings: 135
+reviews: 76
 size: 11M
 website: https://cardwallet.fi/
 repository: 

@@ -10,8 +10,8 @@ released: 2021-06-23
 updated: 2021-07-05
 version: "1.0.13"
 stars: 4.7
-ratings: 218
-reviews: 156
+ratings: 209
+reviews: 155
 size: 22M
 website: https://www.nitroex.io/
 repository: 

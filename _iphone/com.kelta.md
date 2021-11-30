@@ -8,11 +8,11 @@ appId: com.kelta
 appCountry: sk
 idd: 1385038150
 released: 2018-06-07
-updated: 2021-11-19
-version: "3.1.0"
-stars: 4.1573
-reviews: 178
-size: 19833856
+updated: 2021-11-23
+version: "3.1.1"
+stars: 4.15819
+reviews: 177
+size: 19846144
 website: https://kelta.com
 repository: 
 issue: 

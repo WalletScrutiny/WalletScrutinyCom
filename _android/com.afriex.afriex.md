@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.afriex.afriex.png
 bugbounty: 
-verdict: wip
-date: 2021-09-30
+verdict: nowallet
+date: 2021-11-30
 signer: 
 reviewArchive:
 
@@ -32,6 +32,13 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**UPDATE 2021-11-23:** Afriex [replied to our tweet](https://twitter.com/afriexapp/status/1440701283866791937) saying:
+
+> Crypto will be launched very soon! Keep an on this page rest assured we will provide update.
+
+Until then, this app does not classify as a bitcoin wallet.
 
 
 ### Google Play
@@ -69,7 +76,7 @@ And provides an email address form, presumably to get sent a notification if the
 
 ### App
 
-Afriex is only available in the countries of Nigeria Ghana, Kenya, Canada, and the USA. We were unable to sign up.
+Afriex is only available in the countries of Nigeria, Ghana, Kenya, Canada, and the USA. We were unable to sign up.
 
 ### Reach out
 

@@ -10,8 +10,8 @@ released: 2014-02-27
 updated: 2021-10-18
 version: "2.0.2"
 stars: 3.7
-ratings: 329
-reviews: 170
+ratings: 331
+reviews: 171
 size: 4.5M
 website: https://bither.net
 repository: https://github.com/bither/bither-android
