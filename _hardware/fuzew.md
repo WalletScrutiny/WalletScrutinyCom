@@ -20,7 +20,7 @@ repository:
 issue:
 icon: fuzew.png
 bugbounty:
-verdict: stale
+verdict: obsolete
 date: 2021-07-07
 signer:
 reviewArchive:
@@ -46,4 +46,4 @@ FuzeW - Secure as Ledger, Easy and Convenient as a mobile "Hot" wallet
 
 We cannot find any public source code. It appears that this product is **not verifiable.**
 
-Notably, according to the firmware release notes, FuzeW has last received a new update on 27th Jan 2019. This makes it **stale** by our definition.
+Notably, according to the firmware release notes, FuzeW has last received a new update on 27th Jan 2019. This makes it **obsolete** by our definition.

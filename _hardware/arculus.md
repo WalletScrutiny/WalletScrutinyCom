@@ -19,7 +19,7 @@ repository:
 issue:
 icon: arculus.png
 bugbounty:
-verdict: nosource 
+verdict: wip
 date: 2021-07-26
 signer:
 reviewArchive:
