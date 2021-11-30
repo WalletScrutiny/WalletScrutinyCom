@@ -23,11 +23,6 @@ verdict: nosource
 date: 2020-05-30
 signer: 
 reviewArchive:
-- date: 2021-05-30
-  version: "4.1.0"
-  appHash: 
-  gitRevision: ab8b8c8290
-  verdict: wip
 
 providerTwitter: monederodotcom
 providerLinkedIn: 

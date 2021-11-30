@@ -36,7 +36,8 @@ redirect_from:
 ---
 
 
-<div class="alertBox"><div> ⚠️ Spark is beta-quality software under active development, please use with care.
+<div class="alertBox"><div>⚠️ The provider himself warns:
+<blockquote>Spark is beta-quality software under active development, please use with care.</blockquote>
 </div> </div>
 ## App Description
 

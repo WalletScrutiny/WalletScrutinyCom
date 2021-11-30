@@ -34,4 +34,4 @@ redirect_from:
 ---
 
 
-As of November 14, 2021 the Google Play page for this app with appID ‘com.asiax.broker.android’ is [returning a 404 error.](https://twitter.com/BitcoinWalletz/status/1463399507001950214)
+**Update 2021-11-14:** This app is not on the Play Store anymore.
