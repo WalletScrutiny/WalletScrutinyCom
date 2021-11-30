@@ -34,7 +34,7 @@ providerReddit:
 
 
 <div class="alertBox"><div>
-⚠️ Warning: This product is associated with a company with a CEO with lawsuits arising out of the companies' involvement with ICOs. This is noted below.
+⚠️ Warning: This product is associated with Co-CEO of Sirin Labs, Moshe Hogeg <a href="https://www.timesofisrael.com/3-of-israels-most-hyped-initial-coin-offerings-were-scams-ex-employees-allege/">who has been subject to a number of lawsuits</a> alleging fraud from the ICOs that he reportedly launched.
 </div> </div>
 
 Some [third-party blogs](https://www.gizmochina.com/2021/06/06/sirin-v3-rebadged-samsung-galaxy-s21-military-grade-security-features/) have pointed out that Sirin V3 is based off the Samsung S21 but with a heftier price tag, but no notable hardware differences save for some "enhanced military-grade security features" and "pre-installed apps". It is based off the [Samsung Knox mobile security platform](https://pr.reblonde.com/sirinlabs-v3/).

@@ -57,9 +57,7 @@ Translated from:
 
 ## Interface
 
-Interestingly, with a bit of searching, we were able to find a few [pictures of the device](https://twitter.com/BitcoinWalletz/status/1463806581590482947). 
-
-Interestingly, this picture displays an OLED screen which tells the user to visit Trezor.io/start. 
+Interestingly, with a bit of searching, we were able to find a few [pictures of the device](https://twitter.com/BitcoinWalletz/status/1463806581590482947), one of which displays an OLED screen which tells the user to visit trezor.io/start. 
 
 ## Reproducibility
 
