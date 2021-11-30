@@ -35,7 +35,9 @@ providerReddit:
 
 ## Updated Review 2021-11-25
 
-Think of it as a {% include walletLink.html wallet='hardware/trezorT' verdict='true' %} that has a titanium casing. 
+The provider promotes this product as a luxury version of the {% include walletLink.html wallet='hardware/trezorT' verdict='true' %}:
+
+> The CORAZON® is our cryptocurrency and bitcoin hardware wallet produced in collaboration with Trezor. It has an outer case machined from aerospace grade titanium and aluminum while built upon the technology of the Trezor Model T.
 
 ## Private keys can be created offline
 
