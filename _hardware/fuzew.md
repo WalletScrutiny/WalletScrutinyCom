@@ -35,6 +35,8 @@ providerReddit:
 
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 
+It has a companion app for Android: {% include walletLink.html wallet='android/com.brilliantts.fuzew' verdict='true' %}
+
 From the [blog:](https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
 
 > Security-Convenience compatible crypto wallet: <br>
