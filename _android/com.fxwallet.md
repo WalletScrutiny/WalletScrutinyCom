@@ -9,9 +9,9 @@ appId: com.fxwallet
 released: 2021-03-26
 updated: 2021-09-30
 version: "5.0"
-stars: 2.5
-ratings: 496
-reviews: 338
+stars: 2.6
+ratings: 497
+reviews: 337
 size: 31M
 website: https://fxwallet.info
 repository: 

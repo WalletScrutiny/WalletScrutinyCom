@@ -10,8 +10,8 @@ idd: 1538965141
 released: 2020-11-16
 updated: 2021-09-12
 version: "1.0.43"
-stars: 4.53846
-reviews: 13
+stars: 4.57143
+reviews: 14
 size: 71441408
 website: https://www.axiainvestments.com
 repository: 

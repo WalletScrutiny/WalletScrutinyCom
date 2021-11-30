@@ -8,11 +8,11 @@ appId: com.forextb.forextb
 appCountry: dk
 idd: 1532850884
 released: 2020-10-21
-updated: 2021-10-14
-version: "2.4.5"
+updated: 2021-11-28
+version: "2.4.6"
 stars: 
 reviews: 
-size: 131527680
+size: 131091456
 website: https://www.forextb.com/
 repository: 
 issue: 

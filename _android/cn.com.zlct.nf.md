@@ -9,9 +9,9 @@ appId: cn.com.zlct.nf
 released: 2021-06-10
 updated: 2021-08-30
 version: "2.1.3"
-stars: 3.4
-ratings: 44
-reviews: 33
+stars: 3.2
+ratings: 42
+reviews: 32
 size: 6.6M
 website: https://nf35.com/#/
 repository: 

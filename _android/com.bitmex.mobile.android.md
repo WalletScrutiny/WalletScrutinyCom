@@ -10,7 +10,7 @@ released: 2020-07-20
 updated: 2021-11-18
 version: "1.1.11"
 stars: 2.3
-ratings: 217
+ratings: 222
 reviews: 1
 size: 47M
 website: https://www.bitmex.com/
