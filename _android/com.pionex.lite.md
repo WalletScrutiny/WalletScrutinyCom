@@ -19,7 +19,7 @@ issue:
 icon: com.pionex.lite.png
 bugbounty: 
 verdict: custodial
-date: 2021-08-02
+date: 2021-11-30
 signer: 
 reviewArchive:
 

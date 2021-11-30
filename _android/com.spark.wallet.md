@@ -20,7 +20,7 @@ issue:
 icon: com.spark.wallet.png
 bugbounty: 
 verdict: wip
-date: 2021-11-11
+date: 2021-11-30
 signer: 
 reviewArchive:
 

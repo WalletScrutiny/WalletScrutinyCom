@@ -20,7 +20,7 @@ issue:
 icon: com.monederoapp.png
 bugbounty: 
 verdict: nosource
-date: 2020-05-30
+date: 2021-11-30
 signer: 
 reviewArchive:
 
