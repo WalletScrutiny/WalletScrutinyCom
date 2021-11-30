@@ -20,7 +20,7 @@ repository:
 issue:
 icon: cypherockx1.png
 bugbounty:
-verdict: nosource 
+verdict: unreleased 
 date: 2021-07-26
 signer:
 reviewArchive:
@@ -63,3 +63,5 @@ The device has a screen and one circular button that allows users to select the 
 ## Reproducibility
 
 In its [2020 Bitcointalk.org ANN post](https://bitcointalk.org/index.php?topic=5225800.0), Cypherock claims that the hardware wallet **will** be open source. It also makes this claim on [its website](https://twitter.com/BitcoinWalletz/status/1462700172719243266). The product is still in pre-order. We were able to locate Cypherock's Github page, but there was [no corresponding repository](https://twitter.com/BitcoinWalletz/status/1462694293085118466) specifically for its hardware wallet. 
+
+But with that said, this hardware wallet has not yet been released.
