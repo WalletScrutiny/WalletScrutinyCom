@@ -8,12 +8,12 @@ authors:
 users: 10000
 appId: com.blockchain.explorer
 released: 2019-12-30
-updated: 2021-11-01
-version: "1.2.0.3"
+updated: 2021-11-28
+version: "1.2.0.4"
 stars: 4.4
-ratings: 377
-reviews: 92
-size: 28M
+ratings: 381
+reviews: 93
+size: 24M
 website: 
 repository: 
 issue: 

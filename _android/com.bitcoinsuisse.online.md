@@ -10,7 +10,7 @@ released:
 updated: 2021-11-09
 version: "1.0.1"
 stars: 3.9
-ratings: 15
+ratings: 16
 reviews: 7
 size: 31M
 website: https://bitcoinsuisse.com/
@@ -24,9 +24,9 @@ signer:
 reviewArchive:
 
 
-providerTwitter: BitcoinSuisseAG 
+providerTwitter: BitcoinSuisseAG
 providerLinkedIn: bitcoin-suisse-ag
-providerFacebook: BitcoinSuisse 
+providerFacebook: BitcoinSuisse
 providerReddit: 
 
 redirect_from:
