@@ -45,7 +45,7 @@ These are the steps to follow during initialization, ([watch the video demonstra
 
 ## Device displays receive address for confirmation - ✔️
 
-As [shown in the video demonstration]([watch the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHwY)) the display is an epaper screen which also displays the QR code which stays on even when the device is turned off. 
+As [shown in the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHwY) the display is an epaper screen which also displays the QR code which stays on even when the device is turned off. 
 
 ## Interface - ✔️
 
