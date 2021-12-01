@@ -64,7 +64,7 @@ The device has a 128*64 OLED display and two buttons. The display is used to:
 1. Confirm transactions
 2. Display the seed words 
 
-## Reproducibility
+## Reproducibility - ❓
 
 BitHD has other hardware wallets:
 
@@ -72,6 +72,8 @@ BitHD has other hardware wallets:
 {% include walletLink.html wallet='hardware/bithdwatch2' verdict='true' %}
 
 It claims to have forked from {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %} and this is evident in their [GitHub repository page](https://github.com/bithd?tab=repositories).
+
+We communicated with BitPie about the [status of the Razor's code](https://twitter.com/BitcoinWalletz/status/1465989925170343940) and await their response.
 
 
 
