@@ -93,7 +93,7 @@ This reliance on the Safe Screen is evident on the warnings noted on Page 13.
 >
 > - Whenever you need to enter your password in the Safe Screen, you’ll have up to 10 attempts to enter the password successfully. After a 10th unsuccessful attempt, your wallet will be wiped and you will need to either recover or reconfigure the wallet.
 
-Imagine a scenario when the user forgets to close the Safe Screen. 
+Imagine a scenario when the user forgets to close the Safe Screen and puts the device down. There will be 4 minutes or so after the user puts the device down, when somebody physically present can access the device. 
 
 ## Device displays receive address for confirmation
 

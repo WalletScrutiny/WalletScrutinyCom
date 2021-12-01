@@ -20,7 +20,7 @@ repository: https://github.com/SecurityArts
 issue:
 icon: quantum.png
 bugbounty:
-verdict: wip 
+verdict: nosource 
 date: 2021-07-27
 signer:
 reviewArchive:
@@ -77,5 +77,11 @@ The manufacturer doesn't have a dedicated social media presence on twitter and c
 We were able to find their [GitHub page](https://github.com/SecurityArts) which has links to the repository of their open source desktop software the [Quantum Manager](https://github.com/SecurityArts/QuantumManager). 
 
 It is through the Quantum Manager where the firmware for the device is updated. 
+
+As noted in Leo's [comment on GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/284#note_746992469)
+
+> It appears the firmware itself is not open source.
+>
+> [Here](https://github.com/SecurityArts/QuantumManager/blob/1a3ad5d4aec89c4ae06752f21b8f9bc44da35fc4/app/js/updates.js#L11) the "Quantum Manager" requests the firmware, providing a random number and the hardware wallet's serial number. This would allow to send a different firmware to each different client. Notably not providing a serial number or just random guessed integers returns errors.
 
 

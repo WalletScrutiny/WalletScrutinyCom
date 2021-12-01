@@ -35,7 +35,7 @@ providerReddit:
 
 ## Private keys can be created offline - ✔️
 
-These are the steps to follow during initialization, ([watch the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHwY))
+These are the steps to follow during initialization, [watch the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHwY)
 
 ## Private keys are not shared - ✔️
 
@@ -51,7 +51,7 @@ As [shown in the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHw
 
 The Bitlox has a 2" full matrix e-paper display with a full alphanumeric keypad (12 buttons)
 
-## Reproducibility - ✔️
+## Reproducibility
 
 Bitlox made this announcement: 
 
