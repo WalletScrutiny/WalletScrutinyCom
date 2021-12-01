@@ -20,7 +20,7 @@ repository:
 issue:
 icon: atwallet.png
 bugbounty:
-verdict: nosource
+verdict: plainkey
 date: 2021-07-23
 signer:
 reviewArchive:
