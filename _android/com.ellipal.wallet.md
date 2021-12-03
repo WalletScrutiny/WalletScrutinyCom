@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: ELLIPAL
 title: "ELLIPAL: Crypto Bitcoin Wallet"
 altTitle: 
 authors:
-
+- leo
 users: 10000
 appId: com.ellipal.wallet
 released: 2018-07-02
@@ -19,7 +19,7 @@ issue:
 icon: com.ellipal.wallet.png
 bugbounty: 
 verdict: nosource
-date: 2021-03-05
+date: 2021-12-03
 signer: 
 reviewArchive:
 
@@ -33,6 +33,9 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-03**: This appears to be the companion app to
+{% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 
 This app comes with the claim:
 
