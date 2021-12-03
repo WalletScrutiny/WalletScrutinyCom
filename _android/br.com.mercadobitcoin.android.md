@@ -10,8 +10,8 @@ released: 2019-07-25
 updated: 2021-11-09
 version: "1.17.00"
 stars: 4.6
-ratings: 36332
-reviews: 10900
+ratings: 38633
+reviews: 11243
 size: 55M
 website: https://www.mercadobitcoin.com.br
 repository: 

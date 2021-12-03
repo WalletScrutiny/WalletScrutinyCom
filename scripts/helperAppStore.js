@@ -1,5 +1,5 @@
 process.env.TZ = 'UTC' // fix timezone issues
-const apple = require('../app-store-scraper/index.js')
+const apple = require('app-store-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
@@ -61,7 +61,7 @@ async function refreshAll() {
     }))
     // take 1/7:
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
-    const mod = t % 7
+    const mod = t % 3
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])

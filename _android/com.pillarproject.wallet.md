@@ -10,7 +10,7 @@ released: 2018-12-13
 updated: 2021-11-16
 version: "3.8.2"
 stars: 3.7
-ratings: 489
+ratings: 492
 reviews: 250
 size: 51M
 website: https://pillarproject.io

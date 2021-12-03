@@ -10,8 +10,8 @@ released: 2021-01-19
 updated: 2021-01-19
 version: "1.0.0"
 stars: 3.0
-ratings: 35
-reviews: 21
+ratings: 37
+reviews: 23
 size: 15M
 website: https://trading.wunderbit.co/en
 repository: 

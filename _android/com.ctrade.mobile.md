@@ -10,7 +10,7 @@ released: 2020-12-19
 updated: 2021-10-12
 version: "1.1.3"
 stars: 4.7
-ratings: 217
+ratings: 218
 reviews: 180
 size: 8.5M
 website: https://www.c-trade.com/

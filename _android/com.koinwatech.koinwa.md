@@ -9,9 +9,9 @@ appId: com.koinwatech.koinwa
 released: 2021-08-08
 updated: 2021-10-20
 version: "2.0.5"
-stars: 4.7
-ratings: 89
-reviews: 67
+stars: 4.6
+ratings: 91
+reviews: 68
 size: 52M
 website: https://www.koinwa.com/
 repository: 
