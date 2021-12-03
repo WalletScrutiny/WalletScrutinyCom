@@ -10,8 +10,8 @@ idd: 1446766940
 released: 2019-03-02
 updated: 2019-06-21
 version: "1.0.7.0"
-stars: 4.05861
-reviews: 563
+stars: 4.05309
+reviews: 565
 size: 107251712
 website: https://get.cryptobrowser.site/
 repository: 

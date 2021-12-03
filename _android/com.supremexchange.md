@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.supremexchange.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-12-03
 signer: 
 reviewArchive:
 
