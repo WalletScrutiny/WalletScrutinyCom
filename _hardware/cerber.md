@@ -21,7 +21,7 @@ issue:
 icon: cerber.png
 bugbounty:
 verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-08-15
+date: 2021-12-03
 signer:
 reviewArchive:
 

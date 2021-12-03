@@ -21,7 +21,7 @@ issue:
 icon: sirinv3.png
 bugbounty:
 verdict: nowallet
-date: 2021-07-10
+date: 2021-12-03
 signer:
 reviewArchive:
 

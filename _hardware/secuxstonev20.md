@@ -21,7 +21,7 @@ issue:
 icon: secuxstonev20.png
 bugbounty:
 verdict: wip
-date: 2021-07-07
+date: 2021-12-03
 signer:
 reviewArchive:
 

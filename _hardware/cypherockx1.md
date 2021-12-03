@@ -21,7 +21,7 @@ issue:
 icon: cypherockx1.png
 bugbounty:
 verdict: unreleased 
-date: 2021-07-26
+date: 2021-12-03
 signer:
 reviewArchive:
 

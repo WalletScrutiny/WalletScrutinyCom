@@ -21,7 +21,7 @@ issue:
 icon: ellipaltitan.png
 bugbounty:
 verdict: nosource
-date: 2021-07-10
+date: 2021-12-03
 signer:
 reviewArchive:
 

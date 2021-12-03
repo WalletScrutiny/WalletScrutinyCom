@@ -20,7 +20,7 @@ issue:
 icon: arculus.png
 bugbounty:
 verdict: wip
-date: 2021-07-26
+date: 2021-12-03
 signer:
 reviewArchive:
 

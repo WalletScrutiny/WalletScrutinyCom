@@ -21,7 +21,7 @@ issue:
 icon: atwallet.png
 bugbounty:
 verdict: plainkey
-date: 2021-07-23
+date: 2021-12-03
 signer:
 reviewArchive:
 

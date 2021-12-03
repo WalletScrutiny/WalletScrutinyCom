@@ -19,7 +19,7 @@ issue:
 icon: com.brilliantts.fuzeW.jpg
 bugbounty: 
 verdict: nowallet
-date: 2021-11-22
+date: 2021-12-03
 signer: 
 reviewArchive:
 
