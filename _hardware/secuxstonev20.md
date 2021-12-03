@@ -4,6 +4,7 @@ appId: secuxstonev20
 authors:
 - kiwilamb
 - danny
+- leo
 released: 
 discontinued: # date
 updated:
@@ -17,10 +18,10 @@ companywebsite: https://secuxtech.com
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue:
+issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/379
 icon: secuxstonev20.png
 bugbounty:
-verdict: wip
+verdict: nosource
 date: 2021-12-03
 signer:
 reviewArchive:
@@ -33,7 +34,7 @@ providerReddit:
 ---
 
 
-## Private keys can be created offline and are not shared
+## Private keys can be created offline and are not sharedser
 
 The [product page](https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/) states that SecuX can generate recovery words from 12 to 24 word sets:
 
@@ -56,8 +57,30 @@ It also claims to keep the key offline.
 > The large display that SecuX wallet offers also comes into play where you are able to verify all the details easily during a transaction.
 
 
-## Reproducibility
+## Source Code and Reproducibility
 
-The [Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf) links to a github account ["secuxtech."](https://github.com/secuxtech). One repository is labelled "SecuX device firmware."
+The
+[Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf)
+links to a GitHub account ["secuxtech."](https://github.com/secuxtech) and there
+is a
+[repository labeled "SecuX device firmware."](https://github.com/secuxtech/SecuXMCU)
+so there is some public source code but ...
 
-This product is for verification.
+This device features a "secure element" which runs its own, proprietary firmware
+that we could not find the source code for. In the
+[Device Functions - About](https://secuxtech.com/howitworks/device-functions#about)
+we can read:
+
+> Firmware Version – current firmware versions of the Secure Element (SE) and
+  the device MCU (micro controller unit) information which you may need for
+  firmware upgrades and technical support.
+
+Their GitHub only features a repository for the MCU part. If the SE firmware can
+put the stored funds at risk, we would have to consider the device as a whole as
+"closed source" but what is it that the SE is used for? Unfortunately we could
+not find any information on this aspect anywhere on their website and have to
+assume that by delegating the private key generation to the SE running
+compromised firmware, the product could generate backups/keys known to the
+provider.
+
+Without further information this product is **not verifiable**.
