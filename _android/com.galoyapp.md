@@ -3,6 +3,7 @@ wsId:
 title: "Bitcoin Beach Wallet"
 altTitle: 
 authors:
+- leo
 - danny
 users: 50000
 appId: com.galoyapp

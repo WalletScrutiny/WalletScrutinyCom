@@ -65,7 +65,7 @@ async function refreshAll() {
     }))
     // take 1/7:
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
-    const mod = t % 7
+    const mod = t % 4
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
@@ -158,6 +158,10 @@ function writeResult(app, header, iconExtension, body) {
       || header.reviews
       && header.reviews > 10
       && app.reviews < 0.9 * header.reviews) {
+    // the bogus replies only affect scoreText, reviews and ratings. Reset those.
+    app.scoreText = header.stars
+    app.reviews = header.reviews
+    app.ratings = header.ratings
     noteForLater(header.appId)
     stats.badReply++
   } else {

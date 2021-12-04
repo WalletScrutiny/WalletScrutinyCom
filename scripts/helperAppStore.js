@@ -61,7 +61,7 @@ async function refreshAll() {
     }))
     // take 1/7:
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
-    const mod = t % 7
+    const mod = t % 3
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
