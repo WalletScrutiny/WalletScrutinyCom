@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: im.yitoken.app.g2
 released: 2021-06-15
-updated: 2021-09-30
-version: "1.2.5"
+updated: 2021-11-29
+version: "1.2.6"
 stars: 0.0
 ratings: 
 reviews: 

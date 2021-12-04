@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "BLNS"
+title: "blns"
 altTitle: 
 authors:
 
 users: 1
 appId: io.blns
 released: 2021-05-29
-updated: 2021-11-02
-version: "1.7.9"
+updated: 2021-12-01
+version: "1.7.15"
 stars: 0.0
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: "Coinbase Wallet"
+title: "Coinbase Wallet - Store Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: org.toshi.distribution
 appCountry: 
 idd: 1278383455
 released: 2017-09-27
-updated: 2021-11-02
-version: "25.1"
-stars: 4.58957
-reviews: 75140
-size: 139952128
+updated: 2021-11-30
+version: "25.3"
+stars: 4.5751
+reviews: 79146
+size: 150328320
 website: https://wallet.coinbase.com
 repository: 
 issue: 

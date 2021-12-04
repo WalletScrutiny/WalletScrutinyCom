@@ -10,8 +10,8 @@ released: 2020-07-11
 updated: 2021-11-16
 version: "1.0.37"
 stars: 3.6
-ratings: 46
-reviews: 28
+ratings: 47
+reviews: 29
 size: 32M
 website: https://www.bitmama.io/
 repository: 

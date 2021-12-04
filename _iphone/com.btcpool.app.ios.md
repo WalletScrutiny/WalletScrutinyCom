@@ -8,11 +8,11 @@ appId: com.btcpool.app.ios
 appCountry: us
 idd: 1490997527
 released: 2020-01-21
-updated: 2021-10-24
-version: "1.1.1"
-stars: 4.78378
-reviews: 74
-size: 54467584
+updated: 2021-12-03
+version: "1.1.2"
+stars: 4.8407
+reviews: 113
+size: 52940800
 website: http://btc.com
 repository: 
 issue: 
