@@ -3,6 +3,7 @@ title: "Wookong Bio"
 appId: wookongbio
 authors:
 - kiwilamb
+- danny
 released: 
 discontinued: # date
 updated:
@@ -19,7 +20,7 @@ repository: https://github.com/extropiescom
 issue:
 icon: wookongbio.png
 bugbounty:
-verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-08-08
 signer:
 reviewArchive:
@@ -31,3 +32,5 @@ providerFacebook:
 providerReddit: 
 ---
 
+
+The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1466946290546143232).
