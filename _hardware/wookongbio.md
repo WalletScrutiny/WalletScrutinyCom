@@ -21,7 +21,7 @@ issue:
 icon: wookongbio.png
 bugbounty:
 verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-08-08
+date: 2021-12-04
 signer:
 reviewArchive:
 
