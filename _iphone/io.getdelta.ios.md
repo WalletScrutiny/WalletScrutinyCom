@@ -8,11 +8,11 @@ appId: io.getdelta.ios
 appCountry: us
 idd: 1288676542
 released: 2017-09-25
-updated: 2021-11-11
-version: "2021.6.1"
-stars: 4.75631
-reviews: 9570
-size: 78257152
+updated: 2021-12-01
+version: "2021.8.0"
+stars: 4.75462
+reviews: 9602
+size: 85917696
 website: https://delta.app
 repository: 
 issue: 

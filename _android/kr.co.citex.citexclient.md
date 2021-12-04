@@ -10,8 +10,8 @@ released: 2019-12-25
 updated: 2021-10-12
 version: "2.0.6"
 stars: 2.8
-ratings: 78
-reviews: 49
+ratings: 81
+reviews: 51
 size: 37M
 website: https://www.citex.co.kr/#/home
 repository: 

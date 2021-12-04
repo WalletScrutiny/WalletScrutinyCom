@@ -8,8 +8,8 @@ appId: id.co.bitcoin.Bitcoin-Trading-Platform
 appCountry: 
 idd: 1349104693
 released: 2018-03-29
-updated: 2021-11-17
-version: "3.1.7"
+updated: 2021-11-22
+version: "3.1.8"
 stars: 
 reviews: 
 size: 107025408

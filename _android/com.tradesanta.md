@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.tradesanta
 released: 2019-05-20
-updated: 2021-10-21
-version: "2.4.12"
-stars: 3.9
-ratings: 663
-reviews: 468
-size: 12M
+updated: 2021-11-29
+version: "2.5.0"
+stars: 3.8
+ratings: 669
+reviews: 471
+size: 11M
 website: https://tradesanta.com/en
 repository: 
 issue: 

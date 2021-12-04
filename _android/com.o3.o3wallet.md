@@ -7,11 +7,11 @@ authors:
 users: 10000
 appId: com.o3.o3wallet
 released: 2020-08-27
-updated: 2021-11-01
-version: "3.2.8"
-stars: 3.9
+updated: 2021-11-16
+version: "3.2.9"
+stars: 4.0
 ratings: 471
-reviews: 119
+reviews: 118
 size: 90M
 website: https://o3.network/
 repository: https://github.com/O3Labs

@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
-verdict: nosource
-date: 2021-04-26
+verdict: stale
+date: 2021-11-26
 signer: 
 reviewArchive:
-
+- date: 2021-04-26
+  version: "1.9.5"
+  appHash: 
+  gitRevision: db763c599021fcaec6fe55cc37932f76093bd7f6
+  verdict: nosource
 
 providerTwitter: everc0in
 providerLinkedIn: 

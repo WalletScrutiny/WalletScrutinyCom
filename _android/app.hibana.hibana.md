@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: app.hibana.hibana.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-11-26
 signer: 
 reviewArchive:
 
@@ -33,5 +33,7 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-17**: This app is not on Play Store anymore.
 
 This is a lightning wallet.

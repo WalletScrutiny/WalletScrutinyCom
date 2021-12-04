@@ -9,9 +9,9 @@ appId: com.bitoex.bitoexapp
 released: 2019-11-18
 updated: 2019-11-19
 version: "1.0.0"
-stars: 2.9
-ratings: 157
-reviews: 112
+stars: 2.8
+ratings: 159
+reviews: 114
 size: 8.2M
 website: 
 repository: 

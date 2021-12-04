@@ -9,9 +9,9 @@ appId: com.payizadlt.pp
 released: 2021-03-02
 updated: 2021-04-17
 version: "8.0"
-stars: 4.4
-ratings: 34
-reviews: 29
+stars: 4.5
+ratings: 36
+reviews: 30
 size: 42M
 website: https://payizadlt.com/
 repository: 

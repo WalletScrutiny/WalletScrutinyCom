@@ -4,15 +4,15 @@ title: "Eversend - Exchange and Send Money Across Borders"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.eversendapp
 released: 2019-02-01
-updated: 2021-11-13
-version: "0.2.16"
-stars: 4.0
-ratings: 3910
-reviews: 1702
-size: 53M
+updated: 2021-11-26
+version: "0.2.23"
+stars: 3.8
+ratings: 4022
+reviews: 1762
+size: 54M
 website: https://eversend.co/
 repository: 
 issue: 

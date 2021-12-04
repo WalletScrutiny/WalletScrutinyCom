@@ -22,7 +22,7 @@ issue:
 icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 verdict: defunct
-date: 2021-07-11
+date: 2021-11-26
 signer:
 reviewArchive:
 

@@ -9,8 +9,8 @@ appId: io.horizontalsystems.bankwallet
 released: 2018-12-18
 updated: 2021-08-25
 version: "0.22.1"
-stars: 4.1
-ratings: 504
+stars: 4.2
+ratings: 509
 reviews: 388
 size: 46M
 website: https://unstoppable.money

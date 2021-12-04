@@ -10,16 +10,16 @@ idd: 1492022568
 released: 2020-03-06
 updated: 2021-11-21
 version: "11.40"
-stars: 4.65
-reviews: 520
+stars: 4.64189
+reviews: 525
 size: 54288384
 website: https://afriexapp.com
 repository: 
 issue: 
 icon: com.afriex.afriex.jpg
 bugbounty: 
-verdict: wip
-date: 2021-10-01
+verdict: nowallet
+date: 2021-11-30
 signer: 
 reviewArchive:
 

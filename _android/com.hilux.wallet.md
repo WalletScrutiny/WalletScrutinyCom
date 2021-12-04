@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.hilux.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-21
+verdict: obsolete
+date: 2021-11-29
 signer: 
 reviewArchive:
 

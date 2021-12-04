@@ -4,7 +4,7 @@ title: "Nebbix"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.nebbix
 released: 2021-10-31
 updated: 2021-11-01

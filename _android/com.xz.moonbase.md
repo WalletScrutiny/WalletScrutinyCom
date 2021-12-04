@@ -4,7 +4,7 @@ title: "MoonBase"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.xz.moonbase
 released: 2021-07-07
 updated: 2021-10-27

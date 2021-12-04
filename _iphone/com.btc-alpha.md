@@ -8,11 +8,11 @@ appId: com.btc-alpha
 appCountry: us
 idd: 1437629304
 released: 2019-04-20
-updated: 2021-11-20
-version: "1.12.5"
+updated: 2021-11-30
+version: "1.12.6"
 stars: 4.27273
 reviews: 11
-size: 74048512
+size: 74255360
 website: https://btc-alpha.com
 repository: 
 issue: 

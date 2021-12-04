@@ -4,7 +4,7 @@ title: "Bitex - Crypto Exchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitexuae
 released: 2020-02-23
 updated: 2021-10-31

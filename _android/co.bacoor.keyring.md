@@ -10,7 +10,7 @@ released: 2021-01-21
 updated: 2021-09-13
 version: "1.6.0"
 stars: 4.5
-ratings: 34
+ratings: 35
 reviews: 20
 size: 52M
 website: https://keyring.app/

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.brilliantts.fuzeW.jpg
 bugbounty: 
-verdict: wip
-date: 2021-11-22
+verdict: nowallet
+date: 2021-12-03
 signer: 
 reviewArchive:
 

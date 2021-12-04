@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BigoMex"
+title: "BigoMex-Trading for BEGINNERS"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
 stars: 4.5
-ratings: 274
-reviews: 215
+ratings: 281
+reviews: 218
 size: 10M
 website: https://www.bigomex.com/
 repository: 

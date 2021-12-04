@@ -4,7 +4,7 @@ title: "Icynote"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: ch.smd.icynote
 released: 2021-07-11
 updated: 2021-07-11

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.sencoinex.android.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-11-26
 signer: 
 reviewArchive:
 

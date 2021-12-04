@@ -47,13 +47,30 @@ const allowedHeaders = [
 ]
 const folder = "_android/"
 
-function refreshAll() {
-  fs.readdir(folder, (err, files) => {
+async function refreshAll() {
+  fs.readdir(folder, async (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
     console.log(`Updating ${files.length} 🤖 files ...`)
+    // HACK: The script fails syncing all apps but maybe if it works for less,
+    //       eventually all get updated every now and then ...
+    // To have some determinism, the files get sorted by the sha256(file name)
+    // and depending on time, another chunk is used exclusively.
+    const hashes = {}
+    await Promise.all(files.map(async (f) => {
+      const digest = await crypto.webcrypto.subtle.digest('SHA-256', f)
+      hashes[f] = Buffer.from(digest).toString("hex")
+    }))
+    // take 1/7:
+    const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
+    const mod = t % 4
+    files = files
+        .sort((a, b) => {
+          return (hashes[a]).localeCompare(hashes[b])
+        })
+        .filter((v, i) => {return i % 7 == mod})
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -141,6 +158,10 @@ function writeResult(app, header, iconExtension, body) {
       || header.reviews
       && header.reviews > 10
       && app.reviews < 0.9 * header.reviews) {
+    // the bogus replies only affect scoreText, reviews and ratings. Reset those.
+    app.scoreText = header.stars
+    app.reviews = header.reviews
+    app.ratings = header.ratings
     noteForLater(header.appId)
     stats.badReply++
   } else {
@@ -221,9 +242,38 @@ ${[...redirects].map((item) => "  - " + item).join("\n")}
 ${body}`)
 }
 
+function add(newAppIds) {
+  console.log(`Adding skeletons for ${newAppIds.length} apps ...`)
+
+  newAppIds.forEach(appId => {
+      const path = `_android/${appId}.md`
+      fs.exists(path, fileExists => {
+        if (!fileExists) {
+          const file = fs.createWriteStream(path)
+          file.write(`---
+  appId: ${appId}
+  verdict: wip
+  ---
+  `,
+          err => {
+            if (err) {
+              console.error(`Error with id ${idd}: ${err}`)
+            }
+            // console.log(`Success: ${path}`)
+            refreshFile(`${appId}.md`)
+          })
+        } else {
+          // console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
+          refreshFile(`${appId}.md`)
+        }
+      })
+  })
+}
+
 module.exports = {
   refreshAll,
   refreshFile,
-  stats
+  stats,
+  add
 }
 

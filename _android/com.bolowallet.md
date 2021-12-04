@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.bolowallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-12-03
 signer: 
 reviewArchive:
 

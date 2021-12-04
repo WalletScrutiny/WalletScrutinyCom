@@ -4,7 +4,7 @@ title: "Coincast — Send Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: co.minty.coincast
 released: 2021-07-18
 updated: 2021-11-15

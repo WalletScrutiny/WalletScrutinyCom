@@ -10,8 +10,8 @@ idd: 1386397997
 released: 2018-06-12
 updated: 2021-11-16
 version: "1.6.9"
-stars: 4.76376
-reviews: 436
+stars: 4.76267
+reviews: 434
 size: 180041728
 website: https://monarchwallet.com
 repository: 

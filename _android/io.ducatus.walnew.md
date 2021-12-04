@@ -9,9 +9,9 @@ appId: io.ducatus.walnew
 released: 2019-12-05
 updated: 2021-10-22
 version: "2.7.6"
-stars: 4.8
-ratings: 325
-reviews: 220
+stars: 4.7
+ratings: 329
+reviews: 224
 size: 25M
 website: https://ducatus.net
 repository: 

@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: "RWallet"
-altTitle: 
+altTitle: "(old) RWallet"
 authors:
 
 users: 1000
@@ -22,11 +22,6 @@ verdict: defunct
 date: 2021-04-13
 signer: 
 reviewArchive:
-- date: 2021-04-13
-  version: 
-  appHash: 
-  gitRevision: 2adf93055d5b552806d8a041f41c1e8e4a7c5fd6
-  verdict: fewusers
 
 
 providerTwitter: 
@@ -39,4 +34,4 @@ redirect_from:
 ---
 
 
-Apparently this app was re-launched under a different applicationId.
+This app was replaced with {% include walletLink.html wallet='android/com.rsk.rwallet.v2' verdict='true' %}

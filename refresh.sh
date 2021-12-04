@@ -19,12 +19,20 @@ npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpa
 # ask Google again:
 rm /tmp/unnatural.txt 2> /dev/null
 echo "Updating from Google and Apple ..." &
-node refreshApps.js
+node -e 'require("./refreshApps").refresh()'
+
+oldBadCount=10000000
 
 function checkUnnaturals {
   if [[ -f "/tmp/unnatural.txt" ]];then
+    badCount=$( wc -w <<< $( cat /tmp/unnatural.txt) )
+    if (( $badCount > $oldBadCount * 90 / 100 ));then
+      echo "We are making less than 10% progress getting good data. Skipping rerun for $badCount apps ..."
+      return
+    fi
+    oldBadCount=$badCount
     echo "
-For $( wc -w <<< $( cat /tmp/unnatural.txt) ) apps Google returned invalid data. Requesting again ..."
+For $badCount apps Google returned invalid data. Requesting again ..."
     apps=$( cat /tmp/unnatural.txt )
     rm /tmp/unnatural.txt 2> /dev/null
     files=_android/${apps// /.md _android\/}.md

@@ -4,7 +4,7 @@ title: "Swiss Trust Exchange"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: app.co.swisstrustexchange
 released: 2021-04-17
 updated: 2021-04-17

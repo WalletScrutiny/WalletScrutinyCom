@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: io.hexawallet.hexa
 released: 2020-03-26
-updated: 2021-11-14
-version: "1.7.3"
+updated: 2021-11-23
+version: "1.7.4"
 stars: 3.7
 ratings: 23
 reviews: 14

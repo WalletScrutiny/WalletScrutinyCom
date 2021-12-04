@@ -9,8 +9,8 @@ appId: com.pilotmobiletrading
 released: 2019-06-09
 updated: 2021-09-13
 version: "6.02.325"
-stars: 3.3
-ratings: 63
+stars: 3.4
+ratings: 65
 reviews: 37
 size: 29M
 website: https://pilottrading.co/

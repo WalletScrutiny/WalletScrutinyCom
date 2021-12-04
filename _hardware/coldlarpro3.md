@@ -21,7 +21,7 @@ issue:
 icon: coldlarpro3.png
 bugbounty:
 verdict: nosource
-date: 2021-07-10
+date: 2021-11-26
 signer:
 reviewArchive:
 
