@@ -10,8 +10,8 @@ idd: 1315572736
 released: 2018-01-17
 updated: 2021-09-21
 version: "2.36.2"
-stars: 4.15761
-reviews: 184
+stars: 4.16216
+reviews: 185
 size: 100131840
 website: https://www.infinitowallet.io
 repository: 

@@ -10,8 +10,8 @@ idd: 1420545397
 released: 2018-12-12
 updated: 2021-11-19
 version: "4.12.4"
-stars: 4.6147
-reviews: 1142
+stars: 4.61913
+reviews: 1171
 size: 47694848
 website: https://stormx.io/
 repository: 

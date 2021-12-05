@@ -10,7 +10,7 @@ released: 2018-06-29
 updated: 2021-03-27
 version: "2.2"
 stars: 4.4
-ratings: 108
+ratings: 109
 reviews: 64
 size: 10M
 website: https://www.metrixcoin.com/

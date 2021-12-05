@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.spark.jpex
 released: 2020-07-30
-updated: 2021-11-10
-version: "2.26.384"
-stars: 4.7
-ratings: 1016
-reviews: 935
-size: 34M
+updated: 2021-12-04
+version: "2.27.416"
+stars: 4.6
+ratings: 1018
+reviews: 936
+size: 36M
 website: https://jp-ex.io/
 repository: 
 issue: 
