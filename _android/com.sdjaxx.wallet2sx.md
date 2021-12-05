@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.sdjaxx.wallet2sx.png
 bugbounty: 
-verdict: fake
-date: 2021-10-05
+verdict: defunct
+date: 2021-12-05
 signer: 
 reviewArchive:
+- date: 2021-10-05
+  version: "1"
+  appHash: c5f05e71f3b7864dc85a5ab1aa2ceeba58f9f18e
+  gitRevision: 
+  verdict: fake
 
 
 providerTwitter: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-26**: This app is not available anymore.
 
 This app tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.

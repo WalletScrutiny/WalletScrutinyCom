@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.roinvesting.jpg
 bugbounty: 
-verdict: nosendreceive
-date: 2021-10-16
+verdict: defunct
+date: 2021-12-05
 signer: 
 reviewArchive:
+- date: 2021-10-16
+  version: "1.68.10"
+  appHash: c5f05e71f3b7864dc85a5ab1aa2ceeba58f9f18e
+  gitRevision: 
+  verdict: nosendreceive
 
 
 providerTwitter: Roinvesting
@@ -32,5 +37,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-11-26**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

@@ -18,10 +18,15 @@ repository:
 issue: 
 icon: com.arcreator.hivecoin.png
 bugbounty: 
-verdict: nowallet
-date: 2021-11-15
+verdict: defunct
+date: 2021-12-05
 signer: 
 reviewArchive:
+- date: 2021-11-15
+  version: "2.2.7"
+  appHash: c5f05e71f3b7864dc85a5ab1aa2ceeba58f9f18e
+  gitRevision: 
+  verdict: nowallet
 
 
 providerTwitter: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-11-26**: This app is not available anymore.
 
 ⚠️ **Caution:** This app has a name that is very similar to Bittrex,
 {% include walletLink.html wallet='android/com.bittrex.trade' verdict='true' %}.
