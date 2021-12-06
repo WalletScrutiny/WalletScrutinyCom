@@ -110,8 +110,8 @@ Searching for answers we stumbled onto this paragraph from the
   cannot be compiled. However, we can share this part of code under an NDA if
   you want to fully verify the code and reproduce it.
 
-This means their sofware stack cannot be independently be verified without
+This means their software stack cannot be independently verified without
 signing an NDA. Signing an NDA means one may not disclose details found, which
-makes the effort pointless.
+makes the effort pointless for us.
 
 For the time being we have to consider this product **not verifiable**.
