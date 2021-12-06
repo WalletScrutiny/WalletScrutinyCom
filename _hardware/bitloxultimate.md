@@ -21,7 +21,7 @@ issue:
 icon: bitloxultimate.png
 bugbounty:
 verdict: wip
-date: 2021-07-15
+date: 2021-12-04
 signer:
 reviewArchive:
 

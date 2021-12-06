@@ -21,7 +21,7 @@ issue:
 icon: mirkey.png
 bugbounty:
 verdict: noita
-date: 2021-07-21
+date: 2021-12-04
 signer:
 reviewArchive:
 

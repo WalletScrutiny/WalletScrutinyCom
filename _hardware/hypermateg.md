@@ -21,7 +21,7 @@ issue:
 icon: hypermateg.png
 bugbounty:
 verdict: wip
-date: 2021-08-03
+date: 2021-12-04
 signer:
 reviewArchive:
 

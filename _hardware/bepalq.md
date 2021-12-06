@@ -21,7 +21,7 @@ issue:
 icon: bepalq.png
 bugbounty:
 verdict: defunct 
-date: 2021-07-25
+date: 2021-12-04
 signer:
 reviewArchive:
 

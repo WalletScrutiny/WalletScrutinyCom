@@ -21,7 +21,7 @@ issue:
 icon: quantum.png
 bugbounty:
 verdict: nosource 
-date: 2021-07-27
+date: 2021-12-04
 signer:
 reviewArchive:
 
