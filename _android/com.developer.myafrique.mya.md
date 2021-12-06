@@ -9,9 +9,9 @@ appId: com.developer.myafrique.mya
 released: 2020-06-27
 updated: 2021-01-27
 version: "1.2"
-stars: 5.0
-ratings: 7
-reviews: 5
+stars: 4.8
+ratings: 8
+reviews: 6
 size: 2.9M
 website: 
 repository: 

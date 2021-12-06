@@ -10,8 +10,8 @@ idd: 1545109501
 released: 2021-04-29
 updated: 2021-10-28
 version: "1.9.1"
-stars: 3.88889
-reviews: 18
+stars: 3.84211
+reviews: 19
 size: 58362880
 website: https://mobox.io
 repository: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.cryptobankwallet.jpg
 bugbounty: 
-verdict: fewusers
-date: 2021-09-01
+verdict: stale
+date: 2021-12-06
 signer: 
 reviewArchive:
 
