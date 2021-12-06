@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 2021-12-03 # date
+discontinued: 2021-12-03
 updated:
 version:
 dimensions: [32, 73, 12]
@@ -33,7 +33,7 @@ providerReddit:
 ---
 
 
-[The most recent review on Amazon](https://www.amazon.com/gp/customer-reviews/RLI3BEBASPDRJ/ref=cm_cr_srp_d_rvw_ttl?ie=UTF8&ASIN=B07JHMDV9X) claims that this wallet "seems to have been abandoned and no longer works properly."
+[The most recent (2019-01-24) review on Amazon](https://www.amazon.com/gp/customer-reviews/RLI3BEBASPDRJ/ref=cm_cr_srp_d_rvw_ttl?ie=UTF8&ASIN=B07JHMDV9X) claims that this wallet "seems to have been abandoned and no longer works properly."
 
 We checked the website, and [on the homepage](https://flxwallet.com/index-en.html) we found this notice:
 
