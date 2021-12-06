@@ -1707,6 +1707,7 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .verdictBadge {
   text-decoration:none !important;
+  margin-right: auto;
 }
 
 .verdictBadge > span {
