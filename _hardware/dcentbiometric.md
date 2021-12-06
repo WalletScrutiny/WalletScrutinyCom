@@ -4,10 +4,11 @@ appId: dcentbiometric
 authors:
 - kiwilamb
 - danny
-released: 
+- leo
+released: 2019-06-28
 discontinued: # date
-updated:
-version:
+updated: 2021-11-25
+version: v2.16.7.bdd9
 dimensions: [78.2, 43.2, 10.8]
 weight: 36
 website: https://dcentwallet.com/products/BiometricWallet
@@ -17,14 +18,13 @@ companywebsite: https://iotrust.kr/
 country: KP
 price: 119USD
 repository: https://github.com/DcentWallet
-issue:
+issue: 
 icon: dcentbiometric.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-07-07
-signer:
+signer: 
 reviewArchive:
-
 
 providerTwitter: DCENTwallets
 providerLinkedIn: 
@@ -74,6 +74,6 @@ Watch [third party unboxing and setup video](https://www.youtube.com/watch?v=3J9
 
 The device has a large enough display to show the public address of the wallet as well as the keys. There are also buttons to help the user navigate the options in the device. 
 
-## Reproducibility - ✔️
+## Code and Reproducibility
 
 As with the associated mobile app, there are no outward claims that the D'CENT wallet is open source. While they do have [several repositories on GitHub](https://github.com/orgs/DcentWallet/repositories) and one pertaining to their '[Biometric Firmware](https://github.com/DcentWallet/biometric-firmware)', these merely include images or bin files that have no build instructions or other information. 
