@@ -55,7 +55,7 @@ Yes, this is [demonstrated](https://hyperpayhelp.zendesk.com/hc/article_attachme
 
 ## Interface - ✔️
 
-It has a 1.3 ”Color Touchscreen
+It has a 1.3" Color Touchscreen
 
 ## Reproducibility
 
