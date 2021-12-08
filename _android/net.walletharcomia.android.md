@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: net.walletharcomia.android.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-12-08
 signer: 
 reviewArchive:
 

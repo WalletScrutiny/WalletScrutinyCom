@@ -9,9 +9,9 @@ appId: com.thunderbolt.wallet
 released: 2021-08-29
 updated: 2021-08-29
 version: "1.0.3"
-stars: 3.9
-ratings: 10
-reviews: 10
+stars: 3.8
+ratings: 9
+reviews: 9
 size: 21M
 website: 
 repository: 

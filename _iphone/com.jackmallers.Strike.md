@@ -8,11 +8,11 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2021-12-03
-version: "42.0"
-stars: 4.82541
-reviews: 4628
-size: 45961216
+updated: 2021-12-07
+version: "43.0"
+stars: 4.82767
+reviews: 4741
+size: 45989888
 website: https://beta.strike.me/
 repository: 
 issue: 

@@ -7,11 +7,11 @@ authors:
 users: 5000
 appId: com.gmo.exchange
 released: 2020-08-07
-updated: 2021-11-03
-version: "1.1.9"
+updated: 2021-11-22
+version: "1.2.0"
 stars: 4.5
-ratings: 71
-reviews: 20
+ratings: 75
+reviews: 21
 size: 15M
 website: https://ex.z.com/
 repository: 

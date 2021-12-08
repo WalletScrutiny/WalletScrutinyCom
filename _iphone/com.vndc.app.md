@@ -10,8 +10,8 @@ idd: 1498452975
 released: 2020-03-09
 updated: 2021-11-12
 version: "2.0.4"
-stars: 4.70066
-reviews: 451
+stars: 4.68966
+reviews: 464
 size: 196458496
 website: https://goonus.io/en
 repository: 
