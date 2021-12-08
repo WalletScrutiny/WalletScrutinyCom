@@ -9,9 +9,9 @@ appId: com.ezdefi
 released: 2019-11-29
 updated: 2021-09-08
 version: "0.3.9"
-stars: 4.5
+stars: 4.6
 ratings: 629
-reviews: 362
+reviews: 363
 size: 50M
 website: https://ezdefi.com/
 repository: 

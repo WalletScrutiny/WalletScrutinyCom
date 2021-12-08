@@ -4,14 +4,14 @@ title: "Bitget ：Crypto Trading & BitCoin Contract Platfom"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitget.exchange
 released: 2020-04-03
-updated: 2021-11-07
-version: "1.2.18"
-stars: 5.0
-ratings: 2123
-reviews: 1877
+updated: 2021-11-12
+version: "1.2.20"
+stars: 4.9
+ratings: 2293
+reviews: 1934
 size: 44M
 website: https://www.bitget.com/
 repository: 

@@ -7,11 +7,11 @@ authors:
 users: 50000
 appId: com.zipwallet.app
 released: 2018-01-30
-updated: 2021-12-02
-version: "10.0.2"
-stars: 0.0
-ratings: 
-reviews: 
+updated: 2021-12-08
+version: "10.0.4"
+stars: 4.4
+ratings: 618
+reviews: 386
 size: 11M
 website: https://zipwalletpay.com/
 repository: 
