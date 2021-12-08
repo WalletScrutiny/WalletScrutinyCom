@@ -3,6 +3,7 @@ title: "BEPAL PRO S"
 appId: bepalpros
 authors:
 - kiwilamb
+- danny
 released: 2018-04-01
 discontinued: # date
 updated:
@@ -19,7 +20,7 @@ repository:
 issue:
 icon: bepalpros.png
 bugbounty:
-verdict: wip 
+verdict: defunct 
 date: 2021-07-25
 signer:
 reviewArchive:
@@ -31,4 +32,6 @@ providerFacebook:
 providerReddit: 
 ---
 
+
+The Bepal PRO S' website is [no longer online](https://twitter.com/BitcoinWalletz/status/1466331090105233408).
 
