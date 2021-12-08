@@ -74,4 +74,8 @@ Using the physical button means there can be no ‘man-in-the-middle’ attacks 
 
 ## Verdict
 
-Although the wallet itself may be completely offline, it still depends on the companion app to view and recover the seed phrase and make transactions. In the case that the phone itself is compromised, the assets will be at risk.
+Although the wallet itself may be completely offline, it still depends on the companion app to view and recover the seed phrase and make transactions. 
+
+Moreover, the device's hardware is powered by the same company that manufactured the {% include walletLink.html wallet='hardware/coolwallets' verdict='true' %}. Similarly, the card is paired with a phone app, which [displays the seed phrases in sequence](https://youtu.be/FqzG7jPKH_0?t=221).  
+
+In the case that the phone itself is compromised, the assets will be at risk.

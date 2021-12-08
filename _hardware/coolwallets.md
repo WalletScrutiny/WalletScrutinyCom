@@ -20,7 +20,7 @@ repository:
 issue:
 icon: coolwallets.png
 bugbounty:
-verdict: nosource
+verdict: plainkey
 date: 2021-08-28
 signer:
 reviewArchive:
@@ -32,6 +32,16 @@ providerFacebook: coolwallet
 providerReddit: 
 ---
 
+
+## Update Verdict 2021-12-08
+
+As the same provider to ECOMI's {% include walletLink.html wallet='hardware/securewallet' verdict='true' %}, Cool Wallet S requires pairing with a mobile app via Bluetooth. It is through the [mobile app where the seed phrases](https://youtu.be/FqzG7jPKH_0?t=221) are displayed and not on the hardware device itself. 
+
+Thus, in [WalletScrutiny's methodology](https://walletscrutiny.com/methodology), it fits the description of having leaky private keys:
+
+> the private key has to be brought onto a different system that doesn’t necessarily share all the desired aspects of a hardware wallet.
+
+## Previous Analysis 2021-08-28
 
 This device, running weeks on a single charge connects to its companion app on
 
