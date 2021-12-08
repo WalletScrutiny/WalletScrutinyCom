@@ -21,7 +21,7 @@ issue:
 icon: memoryboxpro2.png
 bugbounty:
 verdict: noita 
-date: 2021-07-24
+date: 2021-12-08
 signer:
 reviewArchive:
 

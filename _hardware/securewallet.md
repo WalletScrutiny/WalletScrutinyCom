@@ -21,7 +21,7 @@ issue:
 icon: securewallet.png
 bugbounty:
 verdict: plainkey
-date: 2021-07-07
+date: 2021-12-08
 signer:
 reviewArchive:
 

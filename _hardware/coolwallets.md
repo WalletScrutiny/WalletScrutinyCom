@@ -21,7 +21,7 @@ issue:
 icon: coolwallets.png
 bugbounty:
 verdict: plainkey
-date: 2021-08-28
+date: 2021-12-08
 signer:
 reviewArchive:
 

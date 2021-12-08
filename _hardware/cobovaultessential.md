@@ -22,7 +22,7 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: cobovaultessential.png
 bugbounty:
 verdict: nosource
-date: 2021-12-04
+date: 2021-12-08
 signer:
 reviewArchive:
 

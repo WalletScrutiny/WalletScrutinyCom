@@ -21,7 +21,7 @@ issue:
 icon: bepalpros.png
 bugbounty:
 verdict: defunct 
-date: 2021-07-25
+date: 2021-12-08
 signer:
 reviewArchive:
 

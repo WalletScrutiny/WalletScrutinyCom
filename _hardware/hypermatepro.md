@@ -21,7 +21,7 @@ issue:
 icon: hypermatepro.png
 bugbounty:
 verdict: wip
-date: 2021-08-03
+date: 2021-12-08
 signer:
 reviewArchive:
 
