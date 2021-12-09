@@ -45,7 +45,9 @@ Yes. BC Vault uses **nondeterministric wallets**. This is a [short snippet](http
 
 ## Private keys are not shared 
 
-Private keys are stored encrypted in a state of the art storage medium called FRAM that has full data retention for over 200 years (at +35°C) and is not affected by magnetic fields.
+From the main page of BC Vault:
+
+> Private keys are stored encrypted in a state of the art storage medium called FRAM that has full data retention for over 200 years (at +35°C) and is not affected by magnetic fields.
 
 The raw private keys can be shared with the owner in its raw hexadecimal form but only upon downloading version 1.3.2 of the firmware. It's worth noting that this is [not an intended feature of the device and was only allowed due to user demand](https://support.bc-vault.com/support/solutions/articles/43000543089-can-i-reveal-raw-private-keys-of-a-wallet-on-bc-vault-). 
 
@@ -57,7 +59,7 @@ They [did mention potential downsides](https://bcvault.freshdesk.com/support/sol
 
 ## Device displays receive address for confirmation
 
-From what we've been able to gather, the BC Vault has to be connected to a PC in order to display the public address. Confirmations, however has to be done on the device. 
+The BC Vault can display the public address both on the PC and on the device. This can be seen in this [demonstration video.](https://youtu.be/eML_4ePDn5o?t=106) The confirmation of transaction details are possible via the large display the device provides. 
 
 ## Interface
 
