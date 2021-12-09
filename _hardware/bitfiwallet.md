@@ -36,7 +36,7 @@ providerReddit:
 <div class="alertBox"><div>
 In 2018, there have been incidents where hackers have found several exploits allowing them to obtain funds from the wallets.
 
-Link to third-party [TechCrunch](https://techcrunch.com/) and [SecureSense](https://securesense.ca/unhackable-wallet-hacked/) articles.
+Link to third-party <a href="https://techcrunch.com/">TechCrunch</a> and <a href="https://securesense.ca/unhackable-wallet-hacked/">SecureSense</a> articles.
 </div> </div>
 
 Bitfi claims to offer an alternative to private keys. From the homepage:
