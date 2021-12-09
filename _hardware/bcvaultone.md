@@ -35,7 +35,7 @@ providerReddit:
 
 ## Private keys can be created offline 
 
-Yes. BC Vault uses **nondeterministric wallets**. This is a [short snippet](https://bc-vault.com/2020/04/a-deep-dive-into-the-bc-vault-security-model/) of BC Vault's security overview. It does not user seed phrases.
+Yes. BC Vault uses "**nondeterministric wallets**". This is a [short snippet](https://bc-vault.com/2020/04/a-deep-dive-into-the-bc-vault-security-model/) of BC Vault's security overview. It does not use seed phrases.
 
 > To ensure the generation of truly random numbers BC Vault uses input from the built-in hardware gyro sensor and various timings. BC Vault solves the problem of random number generation using a truly random number source: the human shaking the device in a unique way. Each wallet generated on the BC Vault is totally unique and not linked to any other wallet on the same or any other device. This is called a nondeterministic wallet.
 >

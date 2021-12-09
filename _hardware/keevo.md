@@ -51,7 +51,6 @@ However, you can still generate a seed phrase.
 
 The device has a 2.8” color touchscreen and can be connected to a computer or laptop via USB-C. It also features a biometric sensor. 
 
-Keevo wallets are not bluetooth enabled. 
 
 ## Private keys can be created offline - ❌
 
