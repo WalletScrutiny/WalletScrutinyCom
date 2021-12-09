@@ -20,7 +20,7 @@ repository:
 issue:
 icon: keevo.png
 bugbounty:
-verdict: plainkey
+verdict: nosource
 date: 2021-07-07
 signer:
 reviewArchive:
@@ -37,7 +37,7 @@ One of Keevo's main advertised features is:
 
 > Secure recovery without seed phrase
 
-Instead, you are offered with the [Carbon Key.](https://www.keevowallet.com/pages/faqs)
+Instead, you are offered with the [Carbon Key - a separate device that can be plugged on the hardware wallet](https://www.keevowallet.com/pages/faqs)
 
 > It is a piece of hardware separate from your Keevo device that is a secondary encrypted memory device. No keys are stored on the Carbon Key, just encrypted hashes of 3 key shares which require the users password and fingerprint to decrypt.
 
@@ -84,8 +84,6 @@ It then asks the user to verify his fingerprint by placing a finger on the reade
 
 ## Reproducibility 
 
-In a tweet from September, 2019, a user asked if the firmware would be publicly available. Keevo replied it would be "open source after release."
-
-There is no link to any repository on the website and seemingly no mention of publicly available source code, either. We inquired Keevo on Twitter concerning this.
+In a tweet from [September 3, 2019](https://twitter.com/keevowallet/status/1168687398978375680), a user asked if the firmware would be publicly available. Keevo replied it would be "open source after release." To date, there is no link to any repository on the website and seemingly no mention of publicly available source code. We [asked Keevo on Twitter](https://twitter.com/BitcoinWalletz/status/1465874380802510850) concerning this which simply resulted in them offering the same promise to open source sometime in the future. 
 
 At the moment, this product is **not verifiable.**
