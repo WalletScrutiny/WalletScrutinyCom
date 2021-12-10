@@ -21,7 +21,7 @@ issue:
 icon: bitfiwallet.png
 bugbounty:
 verdict: wip
-date: 2021-07-07
+date: 2021-12-10
 signer:
 reviewArchive:
 

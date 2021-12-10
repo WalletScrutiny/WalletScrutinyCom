@@ -21,7 +21,7 @@ issue:
 icon: keevo.png
 bugbounty:
 verdict: nosource
-date: 2021-07-07
+date: 2021-12-10
 signer:
 reviewArchive:
 

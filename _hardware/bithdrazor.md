@@ -21,7 +21,7 @@ issue:
 icon: bithdrazor.png
 bugbounty:
 verdict: wip
-date: 2021-07-16
+date: 2021-12-10
 signer:
 reviewArchive:
 
