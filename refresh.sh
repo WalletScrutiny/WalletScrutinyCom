@@ -49,9 +49,8 @@ if [[ -f "/tmp/unnatural.txt" ]];then
   apps=$( cat /tmp/unnatural.txt )
   rm /tmp/unnatural.txt 2> /dev/null
   files=_android/${apps// /.md _android\/}.md
-  git checkout HEAD -- $files
   echo "
-The following apps failed to update:
+The following apps failed to update correctly:
 $apps"
 fi
 
