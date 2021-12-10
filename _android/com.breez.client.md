@@ -1,24 +1,25 @@
 ---
+wsId: 
 title: "Breez: Lightning Network Client & Point-of-Sale"
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 10000
 appId: com.breez.client
-launchDate: 
-latestUpdate: 2020-08-31
-apkVersionName: "Varies with device"
+released: 
+updated: 2021-11-11
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
 size: Varies with device
-website: https://breez.technology/
+website: https://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: ftbfs
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
 

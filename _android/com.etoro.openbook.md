@@ -1,43 +1,46 @@
 ---
-title: "eToro"
+wsId: etoro
+title: "eToro - Smart Crypto Trading Made Easy"
 altTitle: 
-
-users: 5000000
+authors:
+- leo
+users: 10000000
 appId: com.etoro.openbook
-launchDate: 2013-11-05
-latestUpdate: 2020-09-16
-apkVersionName: "271.0.0"
+released: 2013-11-05
+updated: 2021-10-26
+version: "353.0.0"
 stars: 4.2
-ratings: 41146
-reviews: 15286
-size: 41M
-website: 
+ratings: 102379
+reviews: 38636
+size: 57M
+website: https://www.etoro.com
 repository: 
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+verdict: custodial
+date: 2021-04-02
 signer: 
 reviewArchive:
 
 
 providerTwitter: etoro
-providerLinkedIn: company/etoro
+providerLinkedIn: etoro
 providerFacebook: eToro
 providerReddit: 
 
 redirect_from:
-  - /com.etoro.openbook/
-  - /posts/com.etoro.openbook/
+
 ---
 
 
-This page was created by a script from the **appId** "com.etoro.openbook" and public
-information found
-[here](https://play.google.com/store/apps/details?id=com.etoro.openbook).
+Etoro is used to speculate on assets more than to actually transfer them but in
+the case of Bitcoin, according to
+[the Help Center](https://www.etoro.com/customer-service/help/1422157482/can-i-withdraw-my-cryptocurrencies-from-the-platform/)
+you can actually send Bitcoins from this app ... if you are in the right
+jurisdiction ...
+[further restrictions apply](https://etoro.nanorep.co/widget/widget.html?kb=156763&account=etoro#onloadquestionid=1306615492) ...
 
-Probably an engineer will soon have a deeper look at this app.
+So all in all this could pass as a custodial app.
 
-So far we are not even sure it is a wallet ... Please check back later.
+As a custodial app it is **not verifiable**.

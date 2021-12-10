@@ -4,9 +4,9 @@ altTitle:
 
 users: 10000
 appId: com.freaks.app.handcash
-launchDate: 2018-06-01
-latestUpdate: 2019-09-16
-apkVersionName: "1.5.17"
+released: 2018-06-01
+updated: 2019-09-16
+version: "1.5.17"
 stars: 4.4
 ratings: 344
 reviews: 205
@@ -16,9 +16,8 @@ repository:
 issue: 
 icon: com.freaks.app.handcash.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2019-12-25
-reviewStale: false
 signer: 
 reviewArchive:
 

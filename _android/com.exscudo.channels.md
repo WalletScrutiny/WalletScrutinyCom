@@ -1,0 +1,45 @@
+---
+wsId: exscudo
+title: "Fintap. Wallet, Exchange, Chat"
+altTitle: 
+authors:
+- kiwilamb
+users: 100000
+appId: com.exscudo.channels
+released: 2018-05-17
+updated: 2021-11-09
+version: "3.0.929"
+stars: 4.5
+ratings: 558
+reviews: 233
+size: 62M
+website: https://exscudo.com
+repository: 
+issue: 
+icon: com.exscudo.channels.png
+bugbounty: 
+verdict: nosource
+date: 2021-04-22
+signer: 
+reviewArchive:
+
+
+providerTwitter: ex_scudo
+providerLinkedIn: 
+providerFacebook: exscudo
+providerReddit: EXSCUDO
+
+redirect_from:
+
+---
+
+
+The Play Store description states...
+
+> All funds are fully protected and no one except the owner can access them.
+
+the provider is claiming the wallet is non-custodial.
+However no source code can be found in a public repository for validation.
+
+Our verdict: This ‘wallet’ claims to be non-custodial, however with no source code this is **not verifiable**.
+

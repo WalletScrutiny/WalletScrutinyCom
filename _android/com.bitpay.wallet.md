@@ -1,30 +1,32 @@
 ---
+wsId: bitpaywallet
 title: "BitPay - Buy Crypto"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+- danny
+users: 1000000
 appId: com.bitpay.wallet
-launchDate: 2016-10-01
-latestUpdate: 2020-09-16
-apkVersionName: "11.0.3"
-stars: 4.0
-ratings: 7042
-reviews: 3364
-size: 28M
-website: https://bitpay.com/
-repository: https://github.com/bitpay/copay
-issue: https://github.com/bitpay/copay/issues/10425
+released: 2016-10-01
+updated: 2021-12-01
+version: "12.9.6"
+stars: 3.8
+ratings: 9435
+reviews: 4471
+size: 24M
+website: https://bitpay.com
+repository: https://github.com/bitpay/wallet
+issue: https://github.com/bitpay/wallet/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: ftbfs
 date: 2019-11-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: BitPay
-providerLinkedIn: company/bitpay-inc-
+providerLinkedIn: bitpay-inc-
 providerFacebook: BitPayOfficial
 providerReddit: 
 
@@ -36,6 +38,87 @@ redirect_from:
 ---
 
 
+## Updated Review
+
+[Emanuel](/authors/emanuel) tried to build the version: 12.6.4 and check the build's reproducibility or if not, see the diff. 
+
+Containerfile used:
+
+```
+FROM ubuntu:rolling
+
+RUN set -ex; \
+    mkdir -p /usr/share/man/man1/; \
+    apt-get update; \
+    DEBIAN_FRONTEND=noninteractive apt-get install --yes -o APT::Install-Suggests=false --no-install-recommends \
+        npm \
+        git \
+        wget \
+        unzip \
+        gradle \
+        python2 \
+        make \
+        g++ \        
+        openjdk-8-jdk ; \
+    rm -rf /var/lib/apt/lists/*; \
+    useradd -ms /bin/bash appuser;
+
+USER appuser
+
+ENV ANDROID_SDK_ROOT="/home/appuser/app/sdk" \
+    ANDROID_HOME="/home/appuser/app/sdk" \
+    NODE_ENV="development"
+
+RUN set -ex; \
+    mkdir -p "/home/appuser/app/sdk/licenses" "/home/appuser/app/bitpay/"; \
+    printf "\n24333f8a63b6825ea9c5514f83c2829b004d1fee" > "/home/appuser/app/sdk/licenses/android-sdk-license"; \
+    cd /home/appuser/app/bitpay/; \
+    wget https://github.com/bitpay/wallet/archive/refs/tags/v12.6.4.zip; \
+    unzip v12.6.4.zip; \
+    git clone https://github.com/bitpay/wallet/; \
+    cd /home/appuser/app/bitpay/wallet-12.6.4;
+```
+
+Compiled with:
+
+`podman build --pull --rm -t bitpay_build_apk_new -f Containerfile`
+
+Run with:
+
+`podman run --rm --name bitpay_build_apk -ti bitpay_build_apk`
+
+in container running npm install or npm ci or npm audit fix fails with the error:
+
+```
+npm ERR! ../src/create_string.cpp:17:37: error: no matching function for call to 'v8::String::Utf8Value::Utf8Value(v8::Local<v8::Value>&)'
+npm ERR!    17 |   v8::String::Utf8Value string(value);
+npm ERR!       |                                     ^
+npm ERR! In file included from /home/appuser/.node-gyp/12.21.0/include/node/node.h:67,
+npm ERR!                  from ../../nan/nan.h:56,
+npm ERR!                  from ../src/create_string.cpp:1:
+npm ERR! /home/appuser/.node-gyp/12.21.0/include/node/v8.h:3135:5: note: candidate: 'v8::String::Utf8Value::Utf8Value(v8::Isolate*, v8::Local<v8::Value>)'
+npm ERR!  3135 |     Utf8Value(Isolate* isolate, Local<v8::Value> obj);
+npm ERR!       |     ^~~~~~~~~
+npm ERR! /home/appuser/.node-gyp/12.21.0/include/node/v8.h:3135:5: note:   candidate expects 2 arguments, 1 provided
+npm ERR! make: *** [binding.target.mk:129: Release/obj.target/binding/src/create_string.o] Error 1
+npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
+npm ERR! gyp ERR! stack     at ChildProcess.onExit (/home/appuser/app/bitpay/wallet-12.6.4/node_modules/node-gyp/lib/build.js:262:23)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (events.js:314:20)
+npm ERR! gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:276:12)
+npm ERR! gyp ERR! System Linux 5.12.15-300.fc34.x86_64
+npm ERR! gyp ERR! command "/usr/bin/node" "/home/appuser/app/bitpay/wallet-12.6.4/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+npm ERR! gyp ERR! cwd /home/appuser/app/bitpay/wallet-12.6.4/node_modules/node-sass
+npm ERR! gyp ERR! node -v v12.21.0
+npm ERR! gyp ERR! node-gyp -v v3.8.0
+npm ERR! gyp ERR! not ok 
+npm ERR! Build failed with error code: 1
+```
+
+This app has **failed to build.** [Link to the Github thread.](https://github.com/bitpay/wallet/issues/11748)
+
+Old Review 2019-11-29
+---
 BitPay – Secure Bitcoin Wallet
 links to its source code on their Google Play app description.
 

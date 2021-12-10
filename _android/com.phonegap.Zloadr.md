@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Zloadr - NFT Metaverse Marketplace and Wallet App"
+altTitle: 
+authors:
+
+users: 10000
+appId: com.phonegap.Zloadr
+released: 2019-06-17
+updated: 2019-07-15
+version: "1.1.0"
+stars: 4.5
+ratings: 1066
+reviews: 955
+size: 12M
+website: 
+repository: 
+issue: 
+icon: com.phonegap.Zloadr.png
+bugbounty: 
+verdict: obsolete
+date: 2021-08-17
+signer: 
+reviewArchive:
+
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+

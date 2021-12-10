@@ -1,24 +1,25 @@
 ---
+wsId: 
 title: "Moonshine"
 altTitle: 
-
+authors:
+- leo
 users: 100
 appId: com.kisswallet
-launchDate: 
-latestUpdate: 2020-05-30
-apkVersionName: "0.3.6"
+released: 2020-02-16
+updated: 2020-05-30
+version: "0.3.6"
 stars: 0.0
 ratings: 
 reviews: 
 size: Varies with device
-website: moonshinewallet.com
+website: https://moonshinewallet.com
 repository: https://github.com/coreyphillips/moonshine
 issue: 
 icon: com.kisswallet.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-02-18
-reviewStale: true
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
 

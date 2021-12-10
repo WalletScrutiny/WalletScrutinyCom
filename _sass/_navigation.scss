@@ -174,7 +174,7 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 240px;
+  // min-width: 240px;
   // background: $background-color;
   background: var(--nav);
   font-size: 16px;
@@ -480,65 +480,10 @@
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
- visibility: visible;
- opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
-.verdict {
-  font-weight: bold;
-}
-
-.wip {
-    color: gray;
-}
-
-.fewusers {
-    color: gray;
-}
-
-.defunct {
-    color: red;
-}
-
-.nowallet {
-  color: gray;
-}
-
-.nobtc {
-  color: gray;
-}
-
-.custodial {
-  color: red;
-}
-
-.nosource {
-  color: red;
-}
-
-.nonverifiable {
-  color: red;
-}
-
-.reproducible {
-  color: green;
-}
-
-.bounty {
-  color: green;
-}
-
-.cert1 {
-  color: green;
-}
-
-.cert2 {
-  color: green;
-}
-
-.cert3 {
-  color: green;
-}
 
 .userCount {
     font-size: smalller;

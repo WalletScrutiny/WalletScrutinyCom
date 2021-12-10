@@ -1,30 +1,31 @@
 ---
-title: "Change: Crypto Wallet to Buy Sell & Trade Bitcoin"
+wsId: getchange
+title: "Change: Simple Investment App"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.getchange.wallet.cordova
-launchDate: 
-latestUpdate: 2020-09-11
-apkVersionName: "10.9.49"
+released: 2018-06-07
+updated: 2021-10-08
+version: "10.31.0"
 stars: 4.3
-ratings: 886
-reviews: 448
-size: 31M
+ratings: 2565
+reviews: 1136
+size: 32M
 website: https://getchange.com
 repository: 
 issue: 
 icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: changefinance
-providerLinkedIn: company/changeinvest
+providerLinkedIn: changeinvest
 providerFacebook: changeinvest
 providerReddit: 
 

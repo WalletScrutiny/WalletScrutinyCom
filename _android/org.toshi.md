@@ -1,24 +1,25 @@
 ---
+wsId: CoinbaseWallet
 title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: org.toshi
-launchDate: 2017-09-20
-latestUpdate: 2020-09-09
-apkVersionName: "22.4.315"
-stars: 3.9
-ratings: 7282
-reviews: 3206
+released: 2017-09-20
+updated: 2021-11-24
+version: "26.0.399"
+stars: 3.3
+ratings: 30635
+reviews: 13239
 size: Varies with device
-website: https://wallet.coinbase.com/
+website: https://wallet.coinbase.com
 repository: 
 issue: 
 icon: org.toshi.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-20
-reviewStale: true
+verdict: nosource
+date: 2021-05-31
 signer: 
 reviewArchive:
 

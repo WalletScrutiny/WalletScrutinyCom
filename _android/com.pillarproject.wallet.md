@@ -1,24 +1,25 @@
 ---
-title: "Pillar Wallet - Crypto Made Easy & Free"
+wsId: 
+title: "Pillar. 1 wallet for all chains, dapps, DeFi & NFT"
 altTitle: 
+authors:
 
-users: 10000
+users: 50000
 appId: com.pillarproject.wallet
-launchDate: 2018-12-13
-latestUpdate: 2020-06-10
-apkVersionName: "2.9.2"
-stars: 3.9
-ratings: 400
-reviews: 213
-size: 44M
+released: 2018-12-13
+updated: 2021-11-16
+version: "3.8.2"
+stars: 3.7
+ratings: 492
+reviews: 250
+size: 51M
 website: https://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 
 icon: com.pillarproject.wallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nobtc
 date: 2020-02-20
-reviewStale: true
 signer: 
 reviewArchive:
 

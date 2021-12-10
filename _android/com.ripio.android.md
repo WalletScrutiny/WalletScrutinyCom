@@ -1,30 +1,31 @@
 ---
-title: "Ripio Bitcoin Wallet: the new digital economy"
+wsId: 
+title: "Ripio Bitcoin Wallet"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.ripio.android
-launchDate: 2015-06-01
-latestUpdate: 2020-09-15
-apkVersionName: "3.7.5"
-stars: 3.6
-ratings: 6778
-reviews: 3659
-size: 29M
-website: https://www.ripio.com/ar/wallet/
+released: 2015-06-01
+updated: 2021-11-11
+version: "5.1.9"
+stars: 3.4
+ratings: 28568
+reviews: 12751
+size: 100M
+website: https://www.ripio.com/ar/wallet
 repository: 
 issue: 
 icon: com.ripio.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-03-28
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: ripioapp
-providerLinkedIn: company/ripio
+providerLinkedIn: ripio
 providerFacebook: RipioApp
 providerReddit: 
 

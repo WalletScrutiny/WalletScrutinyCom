@@ -1,24 +1,25 @@
 ---
+wsId: dowallet
 title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.dowallet
-launchDate: 2019-01-01
-latestUpdate: 2020-07-27
-apkVersionName: "1.1.30"
-stars: 4.3
-ratings: 743
-reviews: 394
-size: 31M
-website: https://www.dowallet.app/
+released: 2019-01-01
+updated: 2021-10-01
+version: "1.1.39"
+stars: 4
+ratings: 876
+reviews: 455
+size: 38M
+website: https://www.dowallet.app
 repository: 
 issue: 
 icon: com.dowallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2019-11-23
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -29,10 +30,7 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /dowallet/
-  - /com.dowallet/
-  - /posts/2019/11/dowallet/
-  - /posts/com.dowallet/
+
 ---
 
 

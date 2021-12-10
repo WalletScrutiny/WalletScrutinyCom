@@ -1,27 +1,32 @@
 ---
+wsId: 
 title: "Altcoin Bitcoin Trade"
 altTitle: 
-
-users: 5000
+authors:
+- leo
+users: 10000
 appId: com.mk.cryptofolio
-launchDate: 
-latestUpdate: 2020-08-19
-apkVersionName: "1.0.51"
-stars: 4.7
-ratings: 17
-reviews: 10
+released: 2018-05-02
+updated: 2020-08-19
+version: "1.0.51"
+stars: 4.3
+ratings: 25
+reviews: 13
 size: 8.0M
-website: http://www.thecryptofolioapp.com/
+website: http://www.thecryptofolioapp.com
 repository: 
 issue: 
 icon: com.mk.cryptofolio.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-20
-reviewStale: true
+verdict: stale
+date: 2021-08-17
 signer: 
 reviewArchive:
-
+- date: 2020-06-20
+  version: "1.0.51"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

@@ -4,21 +4,20 @@ altTitle:
 
 users: 10000
 appId: com.buysellhodl
-launchDate: 
-latestUpdate: 2019-10-11
-apkVersionName: "1.12.7"
+released: 
+updated: 2019-10-11
+version: "1.12.7"
 stars: 4.3
 ratings: 157
 reviews: 71
 size: 12M
-website: http://www.buysellhodlapp.com/
+website: http://www.buysellhodlapp.com
 repository: 
 issue: 
 icon: com.buysellhodl.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,30 +1,31 @@
 ---
+wsId: 
 title: "Conio Bitcoin Wallet"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.conio.wallet
-launchDate: 
-latestUpdate: 2020-08-26
-apkVersionName: "3.3.2"
+released: 
+updated: 2021-11-03
+version: "3.4.0"
 stars: 3.6
-ratings: 330
-reviews: 222
-size: 69M
-website: https://www.conio.com/en/
+ratings: 631
+reviews: 417
+size: 71M
+website: https://www.conio.com/en
 repository: 
 issue: 
 icon: com.conio.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-04-09
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: conio
-providerLinkedIn: company/conio
+providerLinkedIn: conio
 providerFacebook: ConioHQ
 providerReddit: 
 

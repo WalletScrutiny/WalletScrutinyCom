@@ -1,24 +1,25 @@
 ---
-title: "OKEx - Bitcoin/Crypto Trading Platform"
+wsId: 
+title: "OKEx：Buy Bitcoin, NFTs & Meta"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.okinc.okex.gp
-launchDate: 
-latestUpdate: 2020-09-03
-apkVersionName: "4.2.7"
-stars: 5.0
-ratings: 33174
-reviews: 25548
-size: 99M
-website: https://www.okex.com/
+released: 2019-10-29
+updated: 2021-11-26
+version: "5.3.21"
+stars: 4.7
+ratings: 153033
+reviews: 41616
+size: 189M
+website: https://www.okex.com
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

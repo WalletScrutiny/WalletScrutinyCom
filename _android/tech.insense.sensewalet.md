@@ -1,27 +1,32 @@
 ---
+wsId: iwallet
 title: "iWallet - blockchain wallet for Bitcoin, Ethereum"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: tech.insense.sensewalet
-launchDate: 2018-09-27
-latestUpdate: 2019-06-21
-apkVersionName: "0.0068beta"
-stars: 4.1
-ratings: 19
-reviews: 11
+released: 2018-09-27
+updated: 2019-06-21
+version: "0.0068beta"
+stars: 4.0
+ratings: 25
+reviews: 15
 size: 14M
 website: http://InSense.tech
 repository: 
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-30
-reviewStale: false
+verdict: defunct
+date: 2021-11-16
 signer: 
 reviewArchive:
-
+- date: 2019-12-30
+  version: "0.0068beta"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +38,8 @@ redirect_from:
   - /posts/tech.insense.sensewalet/
 ---
 
+
+**Update 2021-11-07**: This app is not available anymore.
 
 In their description we read:
 
@@ -47,5 +54,5 @@ The following is their website in its entirety:
 
 ![InSense this website is under construction](/images/insenseunderconstruction.png)
 
-So, trusting their claim from the play store, not finding any further data to
+So, trusting their claim from the Play Store, not finding any further data to
 verify it, we remain with the verdict: **not verifiable**.

@@ -4,26 +4,25 @@ altTitle:
 
 users: 100000
 appId: com.cmcm.blockchain.bitcoin.ethereum.safewallet
-launchDate: 2018-01-31
-latestUpdate: 2019-05-30
-apkVersionName: "3.2.5"
+released: 2018-01-31
+updated: 2019-05-30
+version: "3.2.5"
 stars: 4.5
 ratings: 3131
 reviews: 1214
 size: 13M
-website: https://safewallet.cmcmbc.com/
+website: https://safewallet.cmcmbc.com
 repository: 
 issue: 
 icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-03-20
-reviewStale: false
 signer: 
 reviewArchive:
 - date: 2019-12-20
   version: "3.2.5"
-  apkHash: 
+  appHash: 
   gitRevision: 9fc3b5cc1037dfc222c49f94cf7604ec1bf0fe1f
   verdict: custodial
 

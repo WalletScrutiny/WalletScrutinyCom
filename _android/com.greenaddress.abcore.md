@@ -1,27 +1,32 @@
 ---
+wsId: 
 title: "ABCore"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.greenaddress.abcore
-launchDate: 
-latestUpdate: 2019-10-16
-apkVersionName: "Varies with device"
+released: 
+updated: 2019-10-16
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
 size: Varies with device
-website: http://abco.re/
+website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-03-02
-reviewStale: false
+verdict: obsolete
+date: 2021-10-06
 signer: 
 reviewArchive:
-
+- date: 2020-03-02
+  version: "Varies with device"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: reproducible
 
 providerTwitter: 
 providerLinkedIn: 

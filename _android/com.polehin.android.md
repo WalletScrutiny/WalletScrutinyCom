@@ -1,29 +1,40 @@
 ---
+wsId: 
 title: "Bitcoin Wallet - Buy BTC"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.polehin.android
-launchDate: 2019-01-01
-latestUpdate: 2020-09-05
-apkVersionName: "3.3.1"
-stars: 4.2
-ratings: 7997
-reviews: 4920
-size: 6.8M
-website: https://polehin.com/
+released: 2019-01-01
+updated: 2021-07-13
+version: "3.5.9"
+stars: 4.3
+ratings: 20617
+reviews: 12283
+size: 11M
+website: https://polehin.com
 repository: 
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-03-30
-reviewStale: true
+verdict: defunct
+date: 2021-07-22
 signer: 
 reviewArchive:
-- date: 2020-11-22
+- date: 2020-11-30
+  version: "3.5.9" 
+  appHash: 
+  gitRevision: cbd2b77c8c918c118f20ee1fcabcb37e1dcedb96
+  verdict: obfuscated
+- date: 2020-03-30
   version: "3.1.4"
-  apkHash: 
+  appHash: 
+  gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
+  verdict: custodial
+- date: 2019-11-22
+  version: "3.1.4"
+  appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
 
@@ -40,10 +51,18 @@ redirect_from:
 ---
 
 
-Their [User Agreement](https://polehin.com/legal/user-agreement)'s line:
+**Update 2021-07-22**: It took Google 8 months to remove this app after we
+called it a blatant scam. Below is our review from 2020-11-30.
 
-> We may refuse to process or cancel any pending Digital Currency Transaction as
-  required by law or any court or other authority to which Bitcoin Wallet is
-  subject in any jurisdiction.
+The wallet re-branded at some point to Coinbox Bitcoin Wallet and is now a
+**blatant scam**.
 
-only makes sense in a custodial wallet. Our verdict: **not verifiable**.
+[As demonstrated by "BTC Sessions" Ben](https://www.youtube.com/watch?v=yP_C4wZyikk)
+the wallet features a mnemonic backup that is purely decorative and has nothing
+to do with your wallet. Ben mentions a few more red flags that convinced us to
+not give them the benefit of the doubt. This is the sort of wallet we try to
+warn you of. It is also obfuscating the app, so it gets a bit harder to figure
+out what's going on but the evidence as presented in the video leaves no other
+conclusion.
+
+**Do not use this app. You will lose your money.**

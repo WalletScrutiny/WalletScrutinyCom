@@ -4,21 +4,20 @@ altTitle:
 
 users: 1000
 appId: com.aegiswallet
-launchDate: 2014-06-01
-latestUpdate: 2017-12-20
-apkVersionName: "1.2"
+released: 2014-06-01
+updated: 2017-12-20
+version: "1.2"
 stars: 3.8
 ratings: 95
 reviews: 60
 size: 7.2M
-website: http://aegisbtc.com/
+website: http://aegisbtc.com
 repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

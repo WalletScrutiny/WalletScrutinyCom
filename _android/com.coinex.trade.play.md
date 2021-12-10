@@ -1,24 +1,25 @@
 ---
-title: "CoinEx"
+wsId: CoinEx
+title: "CoinEx - Crypto Exchange"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 1000000
 appId: com.coinex.trade.play
-launchDate: 
-latestUpdate: 2020-09-07
-apkVersionName: "1.9.0"
-stars: 4.4
-ratings: 875
-reviews: 440
-size: 9.8M
-website: https://www.coinex.co/
+released: 2019-12-27
+updated: 2021-10-26
+version: "3.3.0"
+stars: 4.6
+ratings: 42838
+reviews: 13458
+size: 17M
+website: https://www.coinex.co
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
 

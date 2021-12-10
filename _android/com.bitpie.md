@@ -1,24 +1,25 @@
 ---
+wsId: bitpie
 title: "Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.bitpie
-launchDate: 2016-10-23
-latestUpdate: 2020-09-13
-apkVersionName: "4.9.5"
-stars: 4.2
-ratings: 639
-reviews: 329
-size: 51M
+released: 2016-10-23
+updated: 2021-11-12
+version: "5.0.053"
+stars: 3.3
+ratings: 808
+reviews: 427
+size: 62M
 website: http://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2019-12-25
-reviewStale: true
 signer: 
 reviewArchive:
 

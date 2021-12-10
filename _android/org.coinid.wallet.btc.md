@@ -1,24 +1,25 @@
 ---
+wsId: COINiDwallet
 title: "Bitcoin Wallet for COINiD"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.coinid.wallet.btc
-launchDate: 2018-10-14
-latestUpdate: 2020-05-16
-apkVersionName: "1.7.9"
-stars: 4.1
-ratings: 9
-reviews: 2
+released: 2018-10-14
+updated: 2021-02-20
+version: "1.8.0"
+stars: 4.2
+ratings: 15
+reviews: 4
 size: 34M
-website: https://coinid.org/
+website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: ftbfs
 date: 2020-01-29
-reviewStale: true
 signer: 
 reviewArchive:
 

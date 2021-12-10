@@ -1,35 +1,36 @@
 ---
-title: "Coins.ph Wallet"
+wsId: coinsph
+title: "Coins.ph: Buy Crypto, Send Money, Buy Load & more"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: asia.coins.mobile
-launchDate: 2014-10-01
-latestUpdate: 2020-09-18
-apkVersionName: "3.4.4"
-stars: 3.9
-ratings: 77354
-reviews: 34746
-size: 48M
-website: https://coins.ph/
+released: 2014-10-01
+updated: 2021-11-17
+version: "3.7.10"
+stars: 4.0
+ratings: 106653
+reviews: 46093
+size: 38M
+website: https://coins.ph
 repository: 
 issue: 
 icon: asia.coins.mobile.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-03-28
-reviewStale: true
+verdict: custodial
+date: 2020-10-12
 signer: 
 reviewArchive:
 - date: 2019-11-17
   version: "3.3.92"
-  apkHash: 
+  appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: coinsph
+providerLinkedIn: coins-ph
+providerFacebook: coinsph
 providerReddit: 
 
 redirect_from:

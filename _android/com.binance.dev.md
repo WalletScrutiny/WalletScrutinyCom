@@ -1,24 +1,25 @@
 ---
-title: "Binance: Bitcoin Marketplace & Crypto Wallet"
+wsId: binance
+title: "Binance: BTC NFTs Memes & Meta"
 altTitle: 
-
-users: 5000000
+authors:
+- leo
+users: 10000000
 appId: com.binance.dev
-launchDate: 2017-10-25
-latestUpdate: 2020-09-15
-apkVersionName: "1.29.2"
-stars: 4.5
-ratings: 57495
-reviews: 22258
+released: 2017-10-25
+updated: 2021-11-26
+version: "2.37.4"
+stars: 4.4
+ratings: 508712
+reviews: 173931
 size: Varies with device
-website: https://www.binance.com/
+website: https://www.binance.com
 repository: 
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-03-15
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -26,7 +27,7 @@ reviewArchive:
 providerTwitter: binance
 providerLinkedIn: 
 providerFacebook: binance
-providerReddit: 
+providerReddit: binance
 
 redirect_from:
   - /binance/

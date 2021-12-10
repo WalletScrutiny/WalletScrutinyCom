@@ -1,30 +1,31 @@
 ---
-title: "Gemini: Buy Bitcoin Instantly"
+wsId: geminiwallet
+title: "Gemini: Buy Bitcoin & Crypto"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.gemini.android.app
-launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "2.20.1"
-stars: 3.2
-ratings: 1865
-reviews: 944
+released: 2018-12-10
+updated: 2021-11-16
+version: "21.1112.1"
+stars: 4.4
+ratings: 28004
+reviews: 5773
 size: Varies with device
-website: https://gemini.com/
+website: https://gemini.com
 repository: 
 issue: 
 icon: com.gemini.android.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: gemini
-providerLinkedIn: company/geminitrust
+providerLinkedIn: geminitrust
 providerFacebook: GeminiTrust
 providerReddit: 
 

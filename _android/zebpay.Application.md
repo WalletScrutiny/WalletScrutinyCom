@@ -1,30 +1,31 @@
 ---
-title: "Zebpay Bitcoin and Cryptocurrency Exchange"
+wsId: 
+title: "ZebPay Bitcoin and Cryptocurrency Exchange"
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 5000000
 appId: zebpay.Application
-launchDate: 2014-12-23
-latestUpdate: 2020-08-14
-apkVersionName: "3.08.02"
+released: 2014-12-23
+updated: 2021-11-02
+version: "3.16.00"
 stars: 3.9
-ratings: 63047
-reviews: 29135
-size: 9.7M
-website: https://www.zebpay.com/
+ratings: 91373
+reviews: 44123
+size: 12M
+website: https://www.zebpay.com
 repository: 
 issue: 
 icon: zebpay.Application.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: zebpay
-providerLinkedIn: company/zebpay
+providerLinkedIn: zebpay
 providerFacebook: zebpay
 providerReddit: 
 

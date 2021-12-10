@@ -1,30 +1,32 @@
 ---
-title: "Crypto.com - Buy Bitcoin Now"
+wsId: mona
+title: "Crypto.com - Buy BTC,ETH,SHIB"
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+- danny
+users: 10000000
 appId: co.mona.android
-launchDate: 2017-08-30
-latestUpdate: 2020-09-09
-apkVersionName: "3.67"
-stars: 4.1
-ratings: 33979
-reviews: 12639
-size: 80M
-website: https://www.crypto.com/
+released: 2017-08-30
+updated: 2021-11-26
+version: "3.121.0"
+stars: 4.0
+ratings: 214138
+reviews: 75691
+size: 108M
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: co.mona.android.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-28
-reviewStale: true
+verdict: custodial
+date: 2021-10-24
 signer: 
 reviewArchive:
 
 
 providerTwitter: cryptocom
-providerLinkedIn: company/cryptocom
+providerLinkedIn: cryptocom
 providerFacebook: CryptoComOfficial
 providerReddit: Crypto_com
 
@@ -34,6 +36,9 @@ redirect_from:
   - /posts/co.mona.android/
 ---
 
+
+**EDIT 2021-09-14**
+Crypto.com (co.mona.android) is featured on the official site. This is the official app.
 
 The description of this app is very much focused on the Visa Card they offer
 that you can top up with crypto currencies. This and the talk about earning
@@ -53,3 +58,10 @@ wallet.
 With high certainty this is not a wallet but a custodial service.
 
 Our verdict: **not verifiable**.
+
+The provider has a family of three apps that we triple-checked to be linked from
+their website:
+
+* {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}
+* {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}
+* {% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}

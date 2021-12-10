@@ -1,36 +1,36 @@
 ---
+wsId: SpectroCoin
 title: "Bitcoin Wallet by SpectroCoin"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
-launchDate: 2014-12-05
-latestUpdate: 2020-08-27
-apkVersionName: "1.14.2"
-stars: 3.4
-ratings: 2983
-reviews: 821
+released: 2014-12-05
+updated: 2021-11-23
+version: "1.18.1"
+stars: 3.0
+ratings: 3136
+reviews: 923
 size: 12M
 website: https://spectrocoin.com
 repository: 
 issue: 
 icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+verdict: custodial
+date: 2020-10-12
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: spectrocoin
+providerLinkedIn: spectrocoin
+providerFacebook: spectrocoin
 providerReddit: 
 
 redirect_from:
-  - /lt.spectrofinance.spectrocoin.android.wallet/
-  - /posts/lt.spectrofinance.spectrocoin.android.wallet/
+
 ---
 
 

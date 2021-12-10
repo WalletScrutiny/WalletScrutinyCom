@@ -1,24 +1,25 @@
 ---
-title: "Coinbase Pro – Bitcoin & Crypto Trading"
+wsId: coinbasepro
+title: "Coinbase Pro: Trade Bitcoin, Ethereum, SHIB"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.coinbase.pro
-launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "1.0.45"
-stars: 3.3
-ratings: 1663
-reviews: 1187
-size: 31M
-website: https://pro.coinbase.com/
+released: 2020-01-06
+updated: 2021-11-24
+version: "1.0.84"
+stars: 3.9
+ratings: 20505
+reviews: 5883
+size: 57M
+website: https://pro.coinbase.com
 repository: 
 issue: 
-icon: com.coinbase.pro.png
+icon: com.coinbase.pro.jpg
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

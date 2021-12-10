@@ -1,0 +1,48 @@
+---
+wsId: visionwallet
+title: "Vision: Bitcoin Crypto Wallet"
+altTitle: 
+authors:
+- kiwilamb
+- leo
+appId: com.visionsoftware.vision
+appCountry: 
+idd: 1500186931
+released: 2020-04-01
+updated: 2021-02-02
+version: "1.2.4"
+stars: 4.86207
+reviews: 29
+size: 100892672
+website: https://www.vision-crypto.com
+repository: 
+issue: 
+icon: com.visionsoftware.vision.jpg
+bugbounty: 
+verdict: nosource
+date: 2021-04-24
+signer: 
+reviewArchive:
+
+
+providerTwitter: VisionCryptoApp
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+We do not have to look far to find the wallet claims to be non-custodial.
+
+> When you create a wallet, it is very important that you store your received
+  recovery phrase safely, because nobody but you has and should have access to
+  your wallet.
+
+However such claims need to be verified and this wallets source code is nowhere
+to be found.
+
+Our verdict: This ‘wallet’ claims to be non-custodial, however with no source
+code this wallet is **not verifiable**.
+

@@ -1,27 +1,32 @@
 ---
+wsId: 
 title: "Magnum Wallet – Bitcoin, Ethereum, Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.magnum.wallet
-launchDate: 2019-04-23
-latestUpdate: 2019-08-29
-apkVersionName: "1.0.12"
-stars: 3.8
-ratings: 181
-reviews: 128
+released: 2019-04-23
+updated: 2019-08-29
+version: "1.0.12"
+stars: 3.3
+ratings: 227
+reviews: 159
 size: 3.0M
-website: https://magnumwallet.co/
+website: https://magnumwallet.co
 repository: 
 issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-04-07
-reviewStale: false
+verdict: obsolete
+date: 2021-08-19
 signer: 
 reviewArchive:
-
+- date: 2020-04-07
+  version: "1.0.12"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
 
 providerTwitter: magnum_wallet
 providerLinkedIn: 

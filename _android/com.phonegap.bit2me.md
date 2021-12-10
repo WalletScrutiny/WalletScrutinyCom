@@ -1,30 +1,31 @@
 ---
-title: "Bit2Me - Buy and Sell Cryptocurrencies"
+wsId: bit2me
+title: "Bit2Me - Buy and Sell Bitcoin"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.phonegap.bit2me
-launchDate: 
-latestUpdate: 2020-06-10
-apkVersionName: "1.36.1"
-stars: 2.9
-ratings: 158
-reviews: 110
-size: 5.0M
-website: https://bit2me.com/
+released: 2015-01-08
+updated: 2021-11-16
+version: "2.1.15"
+stars: 4.4
+ratings: 3676
+reviews: 1153
+size: 58M
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.phonegap.bit2me.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: bit2me
-providerLinkedIn: company/bit2me
+providerLinkedIn: bit2me
 providerFacebook: bit2me
 providerReddit: 
 

@@ -1,24 +1,25 @@
 ---
-title: "ZelCore - Multi Asset Crypto Wallet"
+wsId: ZelCore
+title: "Zelcore - Multi Asset Crypto Wallet"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.zelcash.zelcore
-launchDate: 2018-09-21
-latestUpdate: 2020-09-15
-apkVersionName: "3.6.0"
-stars: 3.9
-ratings: 303
-reviews: 205
-size: 16M
-website: https://zel.network/project/zelcore/
+released: 2018-09-21
+updated: 2021-11-15
+version: "5.6.2"
+stars: 3.6
+ratings: 712
+reviews: 506
+size: 18M
+website: https://zel.network/project/zelcore
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

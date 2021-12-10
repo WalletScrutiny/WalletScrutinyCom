@@ -1,36 +1,36 @@
 ---
+wsId: Bitstamp
 title: "Bitstamp – Buy & Sell Bitcoin at Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: net.bitstamp.app
-launchDate: 
-latestUpdate: 2020-09-03
-apkVersionName: "1.5.5"
-stars: 4.6
-ratings: 6061
-reviews: 1719
-size: 12M
-website: https://www.bitstamp.net/
+released: 2019-01-29
+updated: 2021-10-28
+version: "3.1"
+stars: 4.2
+ratings: 10579
+reviews: 2947
+size: 132M
+website: https://www.bitstamp.net
 repository: 
 issue: 
 icon: net.bitstamp.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: Bitstamp
-providerLinkedIn: company/bitstamp
+providerLinkedIn: bitstamp
 providerFacebook: Bitstamp
 providerReddit: 
 
 redirect_from:
-  - /net.bitstamp.app/
-  - /posts/net.bitstamp.app/
+
 ---
 
 

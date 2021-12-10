@@ -1,24 +1,25 @@
 ---
+wsId: Poloniex
 title: "Poloniex Crypto Exchange"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.plunien.poloniex
-launchDate: 
-latestUpdate: 2020-09-09
-apkVersionName: "1.21.7"
+released: 2017-06-19
+updated: 2021-11-18
+version: "1.31.1"
 stars: 4.4
-ratings: 2321
-reviews: 1272
-size: 39M
-website: https://support.poloniex.com/
+ratings: 7007
+reviews: 3554
+size: 31M
+website: https://support.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

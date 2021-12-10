@@ -1,12 +1,14 @@
 ---
+wsId: 
 title: "Melis Lite"
 altTitle: 
-
-users: 10
+authors:
+- leo
+users: 50
 appId: io.melis.walletlite
-launchDate: 2019-06-03
-latestUpdate: 2019-06-03
-apkVersionName: "0.4.0"
+released: 2019-06-03
+updated: 2019-06-03
+version: "0.4.0"
 stars: 0.0
 ratings: 
 reviews: 
@@ -16,9 +18,8 @@ repository:
 issue: 
 icon: io.melis.walletlite.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-04-07
-reviewStale: false
+verdict: obsolete
+date: 2021-08-17
 signer: 
 reviewArchive:
 

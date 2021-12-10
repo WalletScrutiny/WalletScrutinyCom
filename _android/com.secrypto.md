@@ -1,0 +1,48 @@
+---
+wsId: 
+title: "Secrypto-Bitcoin, ETH, EOS"
+altTitle: 
+authors:
+- kiwilamb
+users: 100000
+appId: com.secrypto
+released: 2018-06-18
+updated: 2019-02-26
+version: "1.28"
+stars: 2.8
+ratings: 957
+reviews: 652
+size: 50M
+website: https://www.secrypto.io
+repository: 
+issue: 
+icon: com.secrypto.png
+bugbounty: 
+verdict: obsolete
+date: 2021-08-17
+signer: 
+reviewArchive:
+- date: 2021-04-21
+  version: "1.28"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nosource
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+
+
+We do not have to look far to find the wallet claims to be non-custodial.
+
+> *Highest-Level of Security. Sensitive keys stored encrypted and only locally on your devices. 
+
+However such claims need to be verified and this wallets source code is nowhere to be found.
+In fact we were not able to access [the wallets website](https://www.secrypto.io/) given a 404 response at time of review.
+
+Our verdict: This 'wallet' claims to be non-custodial, however with no source code this wallet is **not verifiable**.

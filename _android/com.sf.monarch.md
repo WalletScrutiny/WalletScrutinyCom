@@ -1,30 +1,31 @@
 ---
+wsId: Monarch
 title: "Monarch Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.sf.monarch
-launchDate: 2018-10-19
-latestUpdate: 2020-09-14
-apkVersionName: "2.1.5"
+released: 2018-10-19
+updated: 2021-11-17
+version: "2.3.4"
 stars: 4.1
-ratings: 694
-reviews: 353
-size: 18M
+ratings: 809
+reviews: 421
+size: 19M
 website: https://monarchwallet.com
 repository: 
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2020-04-12
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: Monarchtoken
-providerLinkedIn: company/monarchtoken
+providerLinkedIn: monarchtoken
 providerFacebook: MonarchWallet
 providerReddit: MonarchToken
 

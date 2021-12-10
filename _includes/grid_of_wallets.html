@@ -1,39 +1,26 @@
-<div class="page-section">
-{% include base_path %}
+<div id="walletsPerCatContainer" class="page-section selected">
+{%- include base_path -%}
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign posts = site.android | sort: "users" | reverse %}
-<table id="gridOfWallets1">
+{%- assign verdicts = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,prefilled,plainkey,noita" | split: "," -%}
+
+<h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
+<a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>
+
+<table id="gridOfWallets1" class="lazy">
   <tr>
     <td>
-      <count>0</count><label>Audited?</label>
+      <count><span class="humanised-numbers -bold"><l>0</l></span></count><span><a href="/methodology/#noAudit">Audited?</a></span>
     </td>
     <td>
     </td>
   </tr>
-  {% for v in verdicts %}
-    <tr>
-      {% assign total = 0 %}
-      {% for post in site.android %}
-        {% if post.verdict == v %}
-          {% assign total = total | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      <td>
-        <count>{{ total }}</count>
-        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
-      </td>
-      <td>
-        {% for post in posts %}
-          {% if post.verdict == v %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:3em;width:auto;float:left;margin:0.3em">
-            </a> 
-          {% endif %}
-        {% endfor %}
-      </td>
-    </tr>
-  {% endfor %}
+  {%- for v in verdicts -%}
+    {%- assign iphonePosts  = site.iphone  | sort: "appId" | reverse | sort: "reviews" | reverse -%}
+    {%- assign androidPosts = site.android | sort: "appId" | reverse | sort: "users"   | reverse -%}
+    {%- include grid_of_wallets_platform.html platform = "iphone"   platformPosts = iphonePosts -%}
+    {%- include grid_of_wallets_platform.html platform = "android"  platformPosts = androidPosts -%}
+    {%- include grid_of_wallets_platform.html platform = "hardware" platformPosts = site.hardware -%}
+  {%- endfor -%}
 </table>
+
 </div>

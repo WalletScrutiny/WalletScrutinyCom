@@ -18,12 +18,13 @@ energy, defraud all its users at once, without this being possible to be
 detected before it is
 too late? (If he could in theory, then a sufficiently motivated criminal could
 also put him under duress to steal your funds or manipulate him into stealing
-your coins with social engineering or with a software backdoor.)
+your coins with social engineering or with a backdoor.)
 
-This horror scenario is possible whenever the provider can obtain a copy of your wallet
+This horror scenario is possible whenever the provider can obtain a copy of the wallet
 backup and thus access all the users' funds at once. He could collect the
 backups and once the amount of coins he could access stops growing, empty all
-the wallets in one big transaction.
+the wallets in one big transaction. This form of scam got known as ["retirement
+attack"](https://medium.com/@michaelflaxman/how-should-i-store-my-bitcoin-43874ac208e4).
 
 Seeing that some wallets have millions of users, it is plausible to assume that
 some wallets manage billions of dollars. This would be a huge incentive for criminally
@@ -34,162 +35,111 @@ start, which probably is the case for some wallets, too.
 What we do not do
 =================
 
-* **We do not** provide a security audit of the source code.
+* **<span id="noAudit">We do not</span>** provide a security audit of the wallet.
+  The empty row "Audited?" on [the landing page](/) is merely to emphasize
+  this fact. As any public source wallet gets potentially audited all the time
+  and paid audits certainly help the team to improve their product, those audits
+  do not help prevent exit scams or most other ways where all users lose all
+  their funds at once, which we are mainly focused on.
 * **We do not** endorse the security of any wallet.
 * **We do not** guarantee that your version of the wallet is verified to match
   the public code or the version that we investigated. A tool for that is under
   development. If version 3.4.5 of your wallet is reproducible according to us
   then you might still have received a different version 3.4.5 than the one we
-  reviewed. Google lets the developers slice the market by country, device brand
+  reviewed. For example Google lets the developers slice the market by country,
+  device brand
   and even individual users. You would have to compare the fingerprint of the
-  app on your device with the one reported here.
+  binary on your device with the one reported here. For hardware wallets it's even
+  harder to make general statements about the device you hold in hands.
 
-
-Our steps when reviewing a new app
-==================================
-
-Some of the information is collected automatically from Google Play. Apps tagged
-{% include verdictBadge.html verdict="wip" type='short' %}
-are work in progress and might have nothing to do with wallets. We have
-not had the time to look into it yet.
-
-If the app has less than 1000 downloads, we do not bother investigating it
-further and keep tracking its downloads until it does. Those get tagged 
-{% include verdictBadge.html verdict="fewusers" type='short' %}.
 
 Our manual review goes as follows:
+==================================
 
-We take the perspective of a curious potential user of the respective app.
+We take the perspective of a **curious potential user** of the respective product.
 We take all information from publicly available sources as we do not assume that
 potential users would sign NDAs prior to using a wallet. We also do not consider
 hard to find information. Our verdict therefore is based on what we can find
-within a *few clicks* from the Playstore description. We occasionally search
+within a *few clicks* from the product's description. We occasionally search
 GitHub for the identifiers but without endorsement from the official website,
 any repository we find this way is not very promising to provide reproducible
 builds but we are happy to leave an issue on a source code repository about our
 findings.
 
-Once we find the wallet's website, we try to answer the following questions:
+We answer the following questions usually in this order:
+
+{% include verdictMethodology.html verdict="wip" %}
+{% include verdictMethodology.html verdict="defunct" %}
+{% include verdictMethodology.html verdict="obsolete" %}
+{% include verdictMethodology.html verdict="stale" %}
+{% include verdictMethodology.html verdict="fake" %}
+{% include verdictMethodology.html verdict="unreleased" %}
+{% include verdictMethodology.html verdict="fewusers" %}
+{% include verdictMethodology.html verdict="nowallet" %}
+{% include verdictMethodology.html verdict="nobtc" %}
+{% include verdictMethodology.html verdict="nosendreceive" %}
+{% include verdictMethodology.html verdict="custodial" %}
+{% include verdictMethodology.html verdict="nosource" %}
+{% include verdictMethodology.html verdict="obfuscated" %}
+{% include verdictMethodology.html verdict="ftbfs" %}
+{% include verdictMethodology.html verdict="nonverifiable" %}
+{% include verdictMethodology.html verdict="reproducible" %}
 
 
-Is it a wallet?
----------------
+What is a hardware wallet?
+==========================
 
-If it's called "wallet" but is actually only a portfolio tracker, we don't look
-any deeper, assuming it is not meant to control funds. What has no funds, can't
-lose your coins. *It might still leak your financial history!*
+There is no globally accepted definition of a hardware wallet. Some consider a
+paper with 12 words a hardware wallet - after all paper is a sort of hardware or
+at least not software and the 12 words are arguably a wallet('s backup).
 
-If not, we tag it {% include verdictBadge.html verdict="nowallet" type='short' %}.
+For the purpose of this project we adhere to higher standards in the hardware
+wallet section. We only consider a hardware wallet if **dedicated hardware**
+protects the private keys in a way that leaves the user in **full and exclusive
+control** of what transactions he signs or not. That means:
 
+* The device allows to create private keys offline
+* The device never shares private key material apart from an offline backup
+  mechanism
+* The device displays receive addresses for confirmation
+* The device shares signed transactions after informed approval on the device
+  without reliance on insecure external hardware
 
-Is it for Bitcoins?
--------------------
+Our steps when reviewing a hardware wallet
+==================================
 
-At this point we only look into wallets that at least also support BTC. If this
-is not the case, the wallet is tagged
-{% include verdictBadge.html verdict="nobtc" type='short' %}.
+We try to follow the
+spirit of the software review process, looking at the firmware and its updates
+for public source and reproducibility.
 
+In addition we look at physical properties of the device.
 
-Is it custodial?
-------------------------
-
-A custodial service is a service where the funds are held by a third party like the
-provider. The custodial service can at any point steal all the funds of all the users at the
-custodian's discretion. Our investigations stop there.
-
-Some services might claim their setup is
-super secure, that they don't actually have access to the funds, or that the
-access is shared between multiple parties. For our evaluation of it being a wallet,
-these details are irrelevant. They might be a trustworthy Bitcoin bank and they might
-be a better fit for certain users than being your own bank but our investigation
-still stops there as we are only interested in wallets.
-
-Those apps get tagged {% include verdictBadge.html verdict="custodial" type='short' %}.
-
-Apps that claim to be non-custodial but feature custodial accounts without very
-clearly marking those as custodial are also considered "custodial" as a whole to
-avoid trusting users following our assessment to fall for this important
-limitation of said apps.
-
-
-Is it the source code public?
---------------------------
-
-A wallet that claims to not give the provider the means to steal the users'
-funds might actually be lying. In the spirit of *"Don't trust - verify!"*
-you don't want to take the provider at his word, but trust that people hunting
-for fame and bug bounties could actually find flaws and back-doors in the wallet
-so the provider
-doesn't dare to put these in.
-
-Back-doors and flaws are frequently found in closed source products but some
-remain hidden for years. And even in open source security software there
-might be
-[catastrophic flaws](https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&product_id=585&version_id=&page=1&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=0&year=0&month=0&cweid=0&order=3&trc=98&sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71)
-undiscovered for years.
-
-An evil wallet provider would certainly prefer not to publish the code, as
-hiding it makes audits orders of magnitude harder.
-
-For your security, you thus want the code to be available for review.
-
-If the wallet provider doesn't share up to date code, our analysis stops there.
-The wallet could steal your funds at any time, and there is no protection except
-the provider's word.
-
-We are not concerned about the license as long as it allows us to perform our
-analysis. For a security audit, it is not necessary that the provider allows
-others to use their code for a competing wallet.
-
-If no code is found or the code found is clearly outdated, the wallet is
-classified as {% include verdictBadge.html verdict="nosource" type='short' %}.
-
-
-Is the published app matching the published code?
-------------------------------------------------
-
-Published code doesn't help much if it is not what the published app was
-built from. At this point we review if the wallet provider claims that the
-wallet can be verified to match the published code. We then go on and try to
-reproduce the app. We
-
-1. obtain the app from Google Play
-1. compile the app from the published source code using the published build
-   instructions
-1. compare the two apps
-1. spend some time working around
-   [issues that are easy to work around](https://issuetracker.google.com/issues/110237303)
-
-If this fails, we might search if other revisions match or if we can
-deduct the source of the mismatch but generally consider it on the provider to
-provide the correct source code and build instructions to reproduce the build,
-so we usually open a ticket in their git repository (all on GitHub so far) and
-classify the wallet as
-{% include verdictBadge.html verdict="nonverifiable" type='short' %}.
-
-If we managed to reproduce the build, we classify it as 
-{% include verdictBadge.html verdict="reproducible" type='short' %}.
-
+{% include verdictMethodology.html verdict="prefilled" %}
+{% include verdictMethodology.html verdict="plainkey" %}
+{% include verdictMethodology.html verdict="noita" %}
 
 Priorities
-----------
+==========
 
-We cannot re-evaluate all the +160 apps every hour and as this is a side-project
+We cannot re-evaluate all the wallets every hour and as this is a side-project
 still, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
 
-1. Re-evaluate new releases of reproducible wallets as they become available. If
+1. Re-evaluate new releases of {%
+   include verdictBadge.html verdict="reproducible" type='short' %}
+   wallets as they become available. If
    users opt for a wallet because it is reproducible, they **should be waiting for
    this re-evaluation** before updating.
-1. Check if any of the "Not verifiable!" wallets updated their issues on their
-   repository.
-1. Fix general issues with the platform
-1. Evaluate "WIP" and "Few users" with +1000 downloads
+1. Check if any of the {% include verdictBadge.html verdict="nonverifiable" type='short' %} wallets updated their issues on their
+   repositories.
+1. Make general improvements of the platform
+1. Evaluate the most relevant
+   {% include verdictBadge.html verdict="wip" type='short' %} wallets
 
 
 Wrap it up
-----------
+==========
 
 In the end we report our findings. All wallets that fail at any of the above
 questions are considered high risk in our estimate. We might contact the wallet
@@ -202,8 +152,30 @@ with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.
 
 
+No reproducible apps on Apple App Store?
+========================================
+
+WalletScrutiny started out looking only into Android. Mobile wallets are the
+most used wallets and Android the most used among mobile wallets but looking
+into iPhone wallets was high on the list from the start.
+
+For Android, the process of reproducing builds was relatively clear and some
+apps did this before we started the project. For iPhone this was not the case.
+Reproducibility of iPhone apps was an open question.
+
+One year passed. We asked around. Nobody could reproduce any iPhone app.
+
+At this point we shift the burden of proof onto the providers (or Apple). If you
+want people to trust your app (or platform), explain how it can be audited. We
+will move on in
+the meantime and list iPhone apps with an empty reproducible section until
+then.
+
+Else, our methodology is the same as for Android wallets.
+
+
 Further considerations
----------------------
+======================
 
 We will list as we stumble into them things like
 
@@ -216,42 +188,43 @@ We will list as we stumble into them things like
 
 
 What could still go wrong?
---------------------------
+==========================
 
-The classification "reproducible" unfortunately means very little. It means that
+The verdict {% include verdictBadge.html verdict="reproducible" type='short' %}
+unfortunately means very little. It means that
 at the random point in time that we decided to verify the code to match the
-app, the code actually did match the app. It does not mean that the next update
+binary, the code actually did match the binary. It does not mean that the next update
 will or that the prior one did and it does not mean that the reproducible code is
 not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
-would bait-and-switch. It would see to how many users it could grow the app or
-even buy out a successful wallet in financial trouble to then introduce a
+would bait-and-switch. It would see to how many users it could grow the product or
+even buy out a successful wallet in financial trouble to then introduce
 code to leak the backups.
 
-The evil code would not be present until the app is losing users (or funds under
+The evil code would not be present until the product is losing users (or funds under
 management) for whatever other reason.
 
 Any stamp of approval, any past security audit or build verification would be
 obsolete. Therefore we don't see our mission as fulfilled when all wallets are
 reproducible. There is a long road ahead from there. For users running reproducible
-wallets, the wallets would need actual code audits – Before releasing the app to
+wallets, the wallets would need actual code audits – Before releasing the binary to
 its users.
 
 To put things into perspective, reviewing the code some 5 developers put out is
 a full time job. Testing the reproducibility of a wallet is an hour of work the
-first time and can be automated.
+first time and thanks to automation, 5 minutes for every update.
 
 To achieve a situation where most users are running verified apps, the release
 process would have to be massively decelerated and there would have to be strong
 incentives in place for security researchers to find issues.
 
-Often users are in a big hurry to get bug-fixes and wallet managers are in a
+Often users are in a big hurry to get bug-fixes and wallet managers are in a big
 hurry to roll out new features but this hurry is standing against the security
 of all wallet users. Wallet developers "screw up" all the time and almost always
 it's just some crash affecting some corner case they didn't anticipate when
-writing the code and these crashes while highly inconvenient for the users who
-expected to use their wallet today, usually do not put at risk any funds in the
+writing the code and these crashes, while highly inconvenient for the users who
+expected to use their wallet now, usually do not put at risk any funds in the
 wallet. This hurry does, however, put reviewers in the uncomfortable position of
 having to approve something that would need more review. Most reviewers are
 reviewing the work of their colleagues and trusting them is kind of expected at

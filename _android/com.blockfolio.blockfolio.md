@@ -1,31 +1,36 @@
 ---
-title: "Blockfolio - Bitcoin and Cryptocurrency Tracker"
+wsId: blockfolio
+title: "FTX (formerly Blockfolio) - Buy Bitcoin Now"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.blockfolio.blockfolio
-launchDate: 2015-10-01
-latestUpdate: 2020-06-11
-apkVersionName: "2.5.10"
-stars: 4.7
-ratings: 109461
-reviews: 33350
-size: 49M
-website: https://www.blockfolio.com/
+released: 2015-10-01
+updated: 2021-11-09
+version: "4.2.2"
+stars: 4.1
+ratings: 158520
+reviews: 48579
+size: 63M
+website: https://www.blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-10
-reviewStale: true
+verdict: custodial
+date: 2021-08-09
 signer: 
 reviewArchive:
+- date: 2019-11-10
+  version: "4.0.1"
+  appHash: 
+  gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
+  verdict: nowallet
 
-
-providerTwitter: 
+providerTwitter: Blockfolio
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: Blockfolio
 providerReddit: 
 
 redirect_from:
@@ -35,5 +40,18 @@ redirect_from:
   - /posts/com.blockfolio.blockfolio/
 ---
 
+
+**Update 2021-08-09**: By now this app clearly sounds like an exchange that lets
+you buy, hold, send and receive BTC but as an exchange it's certainly custodial
+and thus **not verifiable**. There are a total of 6 related apps that all appear to belong to the same "FTX":
+
+* {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='iphone/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftx' %}
+* {% include walletLink.html wallet='iphone/org.reactjs.native.example.FTXMobile.FTX' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftxus' %}
+* {% include walletLink.html wallet='iphone/com.ftx.FTXMobile.FTXUS' %}
+
+# Old Analysis
 
 This is not a wallet.

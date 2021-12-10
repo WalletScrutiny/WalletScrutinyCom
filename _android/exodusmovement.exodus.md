@@ -1,36 +1,36 @@
 ---
+wsId: ExodusCryptoBitcoinWallet
 title: "Exodus: Crypto Bitcoin Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: exodusmovement.exodus
-launchDate: 2019-06-06
-latestUpdate: 2020-09-10
-apkVersionName: "20.9.10"
+released: 2019-06-06
+updated: 2021-11-04
+version: "21.11.4"
 stars: 4.6
-ratings: 16594
-reviews: 5979
-size: 35M
+ratings: 74199
+reviews: 22796
+size: 45M
 website: https://www.exodus.io/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+verdict: nosource
+date: 2020-10-12
 signer: 
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: exodus_io
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: exodus.io
 providerReddit: 
 
 redirect_from:
-  - /exodusmovement.exodus/
-  - /posts/exodusmovement.exodus/
+
 ---
 
 

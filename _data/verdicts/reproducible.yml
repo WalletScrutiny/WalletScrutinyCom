@@ -1,0 +1,27 @@
+short: Reproducible
+title: Reproducible when tested
+color: '#4da84d'
+redflag: false
+message: The binary provided was reproducible from the code provided.
+question: Does the binary we built differ from what we downloaded?
+details: >
+  If we can reproduce the binary we downloaded from the public source code, with
+  all bytes accounted for, we call the product reproducible. This does not mean we audited
+  the code but it's the precondition to make sure the public code has relevance for the
+  provided binary.
+
+
+  If the provider puts your funds at
+  risk on purpose or by accident, security researchers can see this if they
+  care to look. It also means that inside the company, engineers can verify
+  that the release manager is releasing the product based on code known to all
+  engineers on the team. A scammer would have to work under the potential eyes
+  of security researchers. He would have to take more effort in hiding any
+  exploit.
+  
+  
+  "Reproducible" does not mean "verified". **There is good reason to believe
+  that security researchers as of today would not detect very blatant
+  backdoors in the public source code before it gets exploited**, much less if
+  the attacker takes moderate efforts to hide it. This is especially true for
+  less popular projects.

@@ -1,24 +1,25 @@
 ---
+wsId: melisclientwallet
 title: "Melis Bitcoin, Bitcoin Cash, Litecoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: io.melis.clientwallet
-launchDate: 2017-01-30
-latestUpdate: 2019-06-03
-apkVersionName: "1.5.40"
-stars: 4.1
-ratings: 18
-reviews: 10
-size: 6.9M
-website: https://www.melis.io/
+released: 2017-01-30
+updated: 2021-09-30
+version: "1.6.24"
+stars: 4.2
+ratings: 24
+reviews: 14
+size: 8.0M
+website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: ftbfs
 date: 2020-04-07
-reviewStale: false
 signer: 
 reviewArchive:
 

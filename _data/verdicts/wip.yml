@@ -1,0 +1,10 @@
+short: Development
+title: Under development
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: We still have to analyze this product.
+question: Did we get to a conclusion on the transparency of this product yet?
+details: >
+  This product still needs to be evaluated some more. We only gathered name,
+  logo and maybe some more details but we have not yet come to a conclusion what
+  to make of this product.

@@ -1,24 +1,25 @@
 ---
+wsId: mercurycash
 title: "Mercury Cash"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.adenter.mercurycash
-launchDate: 
-latestUpdate: 2020-09-02
-apkVersionName: "4.2.4"
-stars: 4.3
-ratings: 151
-reviews: 108
-size: 39M
-website: http://mercury.cash/
+released: 2017-07-28
+updated: 2021-09-22
+version: "4.3.3"
+stars: 3.7
+ratings: 223
+reviews: 150
+size: 80M
+website: http://mercury.cash
 repository: 
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
 

@@ -1,12 +1,14 @@
 ---
+wsId: 
 title: "Shango Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.shango
-launchDate: 
-latestUpdate: 2019-06-01
-apkVersionName: "Varies with device"
+released: 
+updated: 2019-06-01
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,11 +18,15 @@ repository: https://github.com/neogeno/shango-lightning-wallet/
 issue: 
 icon: com.shango.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-29
-reviewStale: false
+verdict: defunct
+date: 2021-07-16
 signer: 
 reviewArchive:
+- date: 2020-07-29
+  version: 
+  appHash: 
+  gitRevision: 51f8850dcc1f767e6af7c81149e59f4eec5ef62d
+  verdict: nosource
 
 
 providerTwitter: shangoapp
@@ -33,6 +39,9 @@ redirect_from:
   - /posts/com.shango/
 ---
 
+
+**Update 2021-07-16**: This app is not available on the Play Store. Given our
+findings below, we don't expect it to come back.
 
 This app features
 

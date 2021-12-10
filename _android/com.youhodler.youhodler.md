@@ -1,30 +1,31 @@
 ---
+wsId: YouHodler
 title: "YouHodler - Crypto and Bitcoin Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.youhodler.youhodler
-launchDate: 
-latestUpdate: 2020-08-27
-apkVersionName: "2.8.0"
-stars: 3.7
-ratings: 333
-reviews: 126
-size: 59M
-website: https://youhodler.com/
+released: 2019-07-11
+updated: 2021-11-30
+version: "2.21.0"
+stars: 4.3
+ratings: 2254
+reviews: 861
+size: 54M
+website: https://youhodler.com
 repository: 
 issue: 
 icon: com.youhodler.youhodler.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: youhodler
-providerLinkedIn: company/youhodler
+providerLinkedIn: youhodler
 providerFacebook: YouHodler
 providerReddit: 
 

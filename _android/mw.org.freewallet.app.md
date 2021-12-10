@@ -1,24 +1,25 @@
 ---
-title: "Bitcoin and Crypto Blockchain Wallet by Freewallet"
+wsId: multifw
+title: "BTC, ETH, SHIB, Altcoin Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: mw.org.freewallet.app
-launchDate: 2017-08-10
-latestUpdate: 2020-08-05
-apkVersionName: "1.12.1"
-stars: 4.1
-ratings: 6076
-reviews: 3856
-size: 12M
-website: https://freewallet.org/
+released: 2017-08-10
+updated: 2021-09-16
+version: "1.16.5"
+stars: 4.5
+ratings: 12694
+reviews: 8910
+size: 13M
+website: https://freewallet.org
 repository: 
 issue: 
 icon: mw.org.freewallet.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2019-12-22
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -29,15 +30,16 @@ providerFacebook: freewallet.org
 providerReddit: 
 
 redirect_from:
-  - /mw.org.freewallet.app/
-  - /posts/mw.org.freewallet.app/
+
 ---
 
 
 According to the description
 
-> In addition, the majority of cryptocurrency assets on the platform are stored in an offline vault. Your coins will be kept in cold storage with state of the art security protecting them.
+> In addition, the majority of cryptocurrency assets on the platform are stored
+  in an offline vault. Your coins will be kept in cold storage with state of the
+  art security protecting them.
 
-this is a custodial app.
+This is a custodial app.
 
 Our verdict: **not verifiable**.

@@ -1,0 +1,59 @@
+---
+wsId: StartEOSWallet
+title: "Start Wallet(EOS, BTC, ETH, TRON...)"
+altTitle: 
+authors:
+- danny
+users: 1000
+appId: com.hconline.iso
+released: 2020-07-19
+updated: 2021-09-26
+version: "R02.03.06.296"
+stars: 3.9
+ratings: 17
+reviews: 10
+size: 45M
+website: https://www.starteos.io/en
+repository: https://github.com/StarteosIO
+issue: 
+icon: com.hconline.iso.png
+bugbounty: 
+verdict: nosource
+date: 2021-11-22
+signer: 
+reviewArchive:
+
+
+providerTwitter: Starteos
+providerLinkedIn: 
+providerFacebook: starteos.io.7
+providerReddit: Starteos
+
+redirect_from:
+
+---
+
+
+## App Description
+
+> Start Wallet is a non-custodial decentralized wallet that will store your private key in a local sandbox file on the device. You can store, send and receive all tokens in this wallet.
+
+## The App
+
+The app was not compatible with our device, but we were able to download a Windows version of the application. It has BTC support, with the capability to export and import the private keys.
+
+## Verdict
+
+There is a [GitHub page linked in the StartEOS](https://github.com/StarteosIO) homepage, but it does not seem to point to the Android app. The repositories on its GitHub page are the following:
+
+- [jeos](https://github.com/StarteosIO/jeos) - StartEOS Java/Android EOS LIBs
+- [dappsdk](https://github.com/StarteosIO/dappsdk) - a dapp sdk
+- [dappsdk-android](https://github.com/StarteosIO/dappsdk-android) - a library for Android native dapp
+- [DappSDK-JS](https://github.com/StarteosIO/DappSDK-JS) - (no description)
+- [dappsdk-iOS](https://github.com/StarteosIO/dappsdk-iOS) - a library for iOS native dapp
+- [ScanProtocol](https://github.com/StarteosIO/ScanProtocol) - Forked from ScanProtocol/ScanProtocol
+
+We could not locate the source code for the project.
+
+
+

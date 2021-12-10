@@ -1,24 +1,25 @@
 ---
+wsId: 
 title: "Coinsquare"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: coinsquare.io.coinsquare
-launchDate: 
-latestUpdate: 2020-07-29
-apkVersionName: "2.13.8"
-stars: 2.8
-ratings: 334
-reviews: 248
-size: 8.2M
-website: https://coinsquare.com/
+released: 2017-08-30
+updated: 2021-11-16
+version: "2.13.13"
+stars: 2.3
+ratings: 773
+reviews: 523
+size: 7.3M
+website: https://coinsquare.com
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

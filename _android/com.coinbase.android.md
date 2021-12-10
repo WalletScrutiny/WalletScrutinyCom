@@ -1,30 +1,31 @@
 ---
-title: "Coinbase – Buy & Sell Bitcoin. Crypto Wallet"
+wsId: coinbaseBSB
+title: "Coinbase: Buy BTC, Ethereum, SHIB, Bitcoin Cash"
 altTitle: 
-
+authors:
+- leo
 users: 10000000
 appId: com.coinbase.android
-launchDate: 2013-03-01
-latestUpdate: 2020-09-14
-apkVersionName: "8.0.0"
-stars: 3.7
-ratings: 198137
-reviews: 89764
-size: 38M
-website: https://coinbase.com/
+released: 2013-03-01
+updated: 2021-11-30
+version: "9.52.6"
+stars: 4.4
+ratings: 596786
+reviews: 166311
+size: Varies with device
+website: https://coinbase.com
 repository: 
 issue: 
-icon: com.coinbase.android.png
+icon: com.coinbase.android.jpg
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-10-30
-reviewStale: true
+verdict: custodial
+date: 2021-10-12
 signer: 
 reviewArchive:
 
 
 providerTwitter: coinbase
-providerLinkedIn: company/coinbase
+providerLinkedIn: coinbase
 providerFacebook: Coinbase
 providerReddit: CoinBase
 
@@ -36,8 +37,9 @@ redirect_from:
 ---
 
 
-The Coinbase app, not to be confused with [Coinbas Wallet](/coinbasewallet)
-is one of the top two Bitcoin "wallets" on Google Play but beyond the
+{{ page.title }}, not to be confused with
+{% include walletLink.html wallet='android/org.toshi' verdict='true' %}
+is one of the top Bitcoin "wallets" on Google Play but beyond the
 name, nothing indicates this app to be an actual wallet.
 
 Historically Coinbase was an exchange and like almost all exchanges, they
@@ -54,3 +56,7 @@ private keys are under the sole control of Coinbase, making it
 a custodial wallet or non-wallet.
 
 Verdict: This app is **not verifiable**.
+
+**Note:** [Coinbase.com](https://www.coinbase.com/) does link to this app. It
+does also link to a [Wallet page](https://wallet.coinbase.com/) that links to
+{% include walletLink.html wallet='android/org.toshi' verdict='true' %}

@@ -1,12 +1,14 @@
 ---
+wsId: zapwallet
 title: "Zap: Bitcoin Lightning Wallet"
 altTitle: 
-
-users: 5000
+authors:
+- leo
+users: 10000
 appId: zapsolutions.zap
-launchDate: 
-latestUpdate: 2020-08-21
-apkVersionName: "Varies with device"
+released: 
+updated: 2021-10-03
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,12 +18,35 @@ repository: https://github.com/LN-Zap/zap-android
 issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-30
-reviewStale: true
+verdict: reproducible
+date: 2021-10-19
 signer: 
 reviewArchive:
-
+- date: 2021-09-17
+  version: "0.5.1-beta"
+  appHash: dbf21e0cfb7f0bc238e9f24e123777f12e497ad574ada282a82e5dd98fa98d47
+  gitRevision: 9c3e5354adbf260f11e947f9231e2b24df32cbd6
+  verdict: reproducible
+- date: 2021-04-27
+  version: "0.4.1-beta"
+  appHash: b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2
+  gitRevision: 56e73c40348acc80b6d550a4f32a52b84fc3f3cb
+  verdict: reproducible
+- date: 2020-12-22
+  version: "0.4.0-beta"
+  appHash: cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65
+  gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
+  verdict: reproducible
+- date: 2020-12-22
+  version: "0.3.8-beta"
+  appHash: 0902d86d218d385d627e943828fddc083689aa5998c4ae87e972e4b8625073d5
+  gitRevision: 9b5efb649d21a3462d8abad571d0835976531aa5
+  verdict: reproducible
+- date: 2019-12-30
+  version: "0.2.11"
+  appHash: 
+  gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
+  verdict: nonverifiable
 
 providerTwitter: ln_zap
 providerLinkedIn: 
@@ -29,84 +54,37 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /zapsolutions.zap/
   - /posts/zapsolutions.zap/
 ---
 
 
-Their description
-
-> Manage your private keys, multiple wallets, and open channels, to get
-  connected with peers on the Lightning Network and start transacting today.
-
-sounds non-custodial.
-
-On their website we find [their GitHub repository](https://github.com/LN-Zap/zap-android)
-and there a bit hidden, the [build instructions](https://github.com/LN-Zap/zap-android/blob/master/docs/INSTALL.md#build-apk-and-install-it-later-on-phone).
-
-So let's try this without Android Studio, as we don't want to automate clicking
-buttons in Android Studio ...
-
-For my phone Google Play offers to download version `0.2.11-alpha`.
+Here is the output using our
+[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
+on the binary from Google Play:
 
 ```
-$ cd zap-android/
-$ git tag | grep 0.2.11
-v0.2.11-alpha
-$ git checkout v0.2.11-alpha 
-$ docker run --rm -it --volume=$PWD:/mnt --workdir /mnt mreichelt/android:latest bash
-root@84c836f4577a:/mnt# ./gradlew bundleRelease
-root@84c836f4577a:/mnt# mv app/build/outputs/apk/release/zap-android-0.2.11-alph* .
-root@84c836f4577a:/mnt# exit
-$ ls *.apk
-'zap-android-0.2.11-alpha(17)-arm64-v8a-release-unsigned.apk'  'zap-android-0.2.11-alpha(17)-armeabi-v7a-release-unsigned.apk'
+Results:
+appId:          zapsolutions.zap
+signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
+apkVersionName: 0.5.2-beta
+apkVersionCode: 3032
+verdict:        reproducible
+appHash:        f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757
+commit:         ddc7215f67776be17a7c6567556d39f7d6a9c921
+
+Diff:
+Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: CERT.RSA
+Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: CERT.SF
+Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: MANIFEST.MF
 ```
 
-So ... this is a problem. The version "Varies with device" as we already noticed
-on the Playstore description. App providers can publish a different app for you
-than they publish for me, so me verifying a build gives you not much of
-information. This is why we are also working on a
-[tool to collect APKs](https://gitlab.com/walletscrutiny/walletscrutinyandroid)
-that hopefully soon will detect which version you downloaded, check if it was
-already verified to match the published code and upload it to us if not.
+That's how it should look like to give it the verdict: **reproducible**.
 
-Should we be able to verify the one APK but naturally not the other, this should
-be our top priority to work on.
+# About the app
 
-```
-$ apktool d -o fromBuild-arm64-v8a 'zap-android-0.2.11-alpha(17)-arm64-v8a-release-unsigned.apk'
-$ apktool d -o fromBuild-armeabi-v7a 'zap-android-0.2.11-alpha(17)-armeabi-v7a-release-unsigned.apk'
-$ apktool d -o fromPlay Zap\ 0.2.11-alpha\ \(zapsolutions.zap\).apk 
-$ diff --brief --recursive fromPlay/ fromBuild-armeabi-v7a/
-Files fromPlay/apktool.yml and fromBuild-armeabi-v7a/apktool.yml differ
-Only in fromPlay/lib: arm64-v8a
-Only in fromBuild-armeabi-v7a/lib: armeabi-v7a
-```
-
-... so my phone installed the `arm64` version but as
-
-```
-$ diff --brief --recursive fromPlay/ fromBuild-arm64-v8a/
-Files fromPlay/apktool.yml and fromBuild-arm64-v8a/apktool.yml differ
-Files fromPlay/lib/arm64-v8a/libiconv.so and fromBuild-arm64-v8a/lib/arm64-v8a/libiconv.so differ
-Files fromPlay/lib/arm64-v8a/libzbarjni.so and fromBuild-arm64-v8a/lib/arm64-v8a/libzbarjni.so differ
-Only in fromPlay/original/META-INF: CERT.RSA
-Only in fromPlay/original/META-INF: CERT.SF
-Files fromPlay/original/META-INF/MANIFEST.MF and fromBuild-arm64-v8a/original/META-INF/MANIFEST.MF differ
-Files fromPlay/res/drawable-hdpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-hdpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/drawable-ldpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-ldpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/drawable-mdpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-mdpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/drawable-xhdpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-xhdpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/drawable-xxhdpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-xxhdpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/drawable-xxxhdpi/ic_icon_modal_on_chain.png and fromBuild-arm64-v8a/res/drawable-xxxhdpi/ic_icon_modal_on_chain.png differ
-Files fromPlay/res/raw/country_list.json and fromBuild-arm64-v8a/res/raw/country_list.json differ
-Files fromPlay/res/raw/currency_list.json and fromBuild-arm64-v8a/res/raw/currency_list.json differ
-Files fromPlay/smali/com/squareup/okhttp/internal/DiskLruCache$2.smali and fromBuild-arm64-v8a/smali/com/squareup/okhttp/internal/DiskLruCache$2.smali differ
-Files fromPlay/smali/com/squareup/okhttp/internal/framed/FramedStream$FramedDataSource.smali and fromBuild-arm64-v8a/smali/com/squareup/okhttp/internal/framed/FramedStream$FramedDataSource.smali differ
-Files fromPlay/smali_classes2/io/grpc/internal/DelayedStream$DelayedStreamListener.smali and fromBuild-arm64-v8a/smali_classes2/io/grpc/internal/DelayedStream$DelayedStreamListener.smali differ
-```
-
-contains more than the expected two to three files about the signature, this is
-not a clean reproducible build.
-
-Our verdict: **not verifiable**.
+This app is a remote control for lnd, the lightning network daemon. As such it
+is not exactly a wallet in the sense of many other wallets here as the lnd
+connected to, also has control over the funds but in a setup where you connect
+to your own lnd, Zap gets into the position of being able to steal your funds.
+If you have strong objections with the classification as a wallet, please open
+an issue on our GitLab.

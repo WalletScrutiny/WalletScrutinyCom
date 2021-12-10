@@ -1,24 +1,25 @@
 ---
+wsId: PolisPay
 title: "PolisPay - Cryptocurrency wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.polispay.copay
-launchDate: 2018-02-21
-latestUpdate: 2020-09-09
-apkVersionName: "8.6.4"
-stars: 4.4
-ratings: 114
-reviews: 65
+released: 2018-02-21
+updated: 2021-10-22
+version: "8.9.3"
+stars: 4.1
+ratings: 131
+reviews: 78
 size: 10M
-website: https://www.polispay.com/
+website: https://www.polispay.com
 repository: 
 issue: 
 icon: com.polispay.copay.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2020-04-07
-reviewStale: true
 signer: 
 reviewArchive:
 

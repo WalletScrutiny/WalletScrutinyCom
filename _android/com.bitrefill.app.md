@@ -1,27 +1,32 @@
 ---
-title: "Bitrefill - Use Bitcoin to buy Gift Cards & Topups"
+wsId: bitrefill
+title: "Bitrefill - Use Bitcoin to buy Gift Cards"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.bitrefill.app
-launchDate: 2018-04-10
-latestUpdate: 2019-09-28
-apkVersionName: "1.28.9"
-stars: 4.3
-ratings: 275
-reviews: 162
-size: 5.2M
+released: 2018-04-10
+updated: 2021-09-13
+version: "1.30.4"
+stars: 3.3
+ratings: 895
+reviews: 550
+size: 26M
 website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-25
-reviewStale: false
+verdict: custodial
+date: 2021-09-14
 signer: 
 reviewArchive:
-
+- date: 2019-12-25
+  version: "1.28.9"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
 
 providerTwitter: bitrefill
 providerLinkedIn: 
@@ -33,6 +38,9 @@ redirect_from:
   - /posts/com.bitrefill.app/
 ---
 
+
+**Update 2021-09-14**: This app was updated after a long time which had it fall
+into our stale category but it remains being a custodial product.
 
 While the primary purpose of this app is to buy stuff with Bitcoin and it appears
 to be possible to use the app without putting money into it, the app also can

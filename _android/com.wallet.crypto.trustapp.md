@@ -1,24 +1,25 @@
 ---
-title: "Trust Crypto Wallet: Bitcoin Ethereum Tron XRP PAX"
+wsId: sixdays
+title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 10000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-10-01
-latestUpdate: 2020-09-18
-apkVersionName: "1.16.17"
+released: 2017-10-01
+updated: 2021-11-05
+version: "2.12"
 stars: 4.5
-ratings: 93359
-reviews: 40343
-size: 32M
-website: https://trustwallet.com/
+ratings: 657627
+reviews: 115798
+size: 30M
+website: https://trustwallet.com
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nosource
 date: 2019-11-20
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -26,7 +27,7 @@ reviewArchive:
 providerTwitter: trustwalletapp
 providerLinkedIn: 
 providerFacebook: trustwalletapp
-providerReddit: 
+providerReddit: trustapp
 
 redirect_from:
   - /trust/

@@ -1,24 +1,25 @@
 ---
+wsId: 
 title: "HitBTC – Cryptocurrency Exchange & Trading BTC App"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.hittechsexpertlimited.hitbtc
-launchDate: 
-latestUpdate: 2020-09-17
-apkVersionName: "2.8.10"
-stars: 4.2
-ratings: 320
-reviews: 174
-size: 10M
-website: https://hitbtc.com/
+released: 2020-03-04
+updated: 2021-04-12
+version: "3.0.10"
+stars: 3.8
+ratings: 3725
+reviews: 1607
+size: 11M
+website: https://hitbtc.com
 repository: 
 issue: 
 icon: com.hittechsexpertlimited.hitbtc.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

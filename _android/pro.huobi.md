@@ -1,24 +1,25 @@
 ---
-title: "Huobi Global"
+wsId: huobi
+title: "Huobi Global: Buy BTC, NFTs& Meta"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: pro.huobi
-launchDate: 
-latestUpdate: 2020-09-18
-apkVersionName: "5.9.1"
-stars: 3.9
-ratings: 5080
-reviews: 1744
-size: 51M
-website: https://www.huobi.com/en-us/
+released: 2017-11-01
+updated: 2021-11-22
+version: "6.6.3"
+stars: 3.5
+ratings: 18267
+reviews: 6167
+size: 103M
+website: https://www.huobi.com/en-us
 repository: 
 issue: 
 icon: pro.huobi.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

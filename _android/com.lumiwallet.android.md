@@ -1,24 +1,25 @@
 ---
-title: "Lumi Bitcoin and Crypto Wallet"
+wsId: LumiWallet
+title: "Lumi Crypto Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.lumiwallet.android
-launchDate: 2018-01-15
-latestUpdate: 2020-08-18
-apkVersionName: "3.1"
+released: 2018-01-15
+updated: 2021-08-10
+version: "4.1.3"
 stars: 4.4
-ratings: 1877
-reviews: 663
-size: 7.3M
+ratings: 6126
+reviews: 1334
+size: 87M
 website: https://lumiwallet.com
 repository: 
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-15
-reviewStale: true
+verdict: nosource
+date: 2021-06-16
 signer: 
 reviewArchive:
 
@@ -34,12 +35,19 @@ redirect_from:
 ---
 
 
-**Update:** *Following a
+**Update 2021-06-16**: Something weird is going on. Apparently there are three
+Lumi apps: {% include walletLink.html wallet='iphone/com.lumiwallet.HD' %} on
+the App Store, another on the Play Store:
+{% include walletLink.html wallet='android/com.btc.lumi.bestofwallet' %}
+and this one here. The first
+two are defunct. 
+
+**Update 2020-06-15:** *Following a
 [conversation on Twitter](https://twitter.com/Lumi_wallet/status/1272393956870049792)
-we checked again and also added statements of being Open Source and our take to
+we checked again and also added statements of being Open Source and our take on
 those.*
 
-The description on their Playstore listing gets straight to the point:
+The description on their Play Store listing gets straight to the point:
 
 > With Lumi Wallet, you are the only one in charge of your funds. Your private
   keys are stored on your device, and the funds are protected with a 12-word

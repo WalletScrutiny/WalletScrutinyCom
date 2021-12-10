@@ -1,24 +1,25 @@
 ---
+wsId: AirGapWallet
 title: "AirGap Wallet - Tezos, Cosmos, Ethereum, Bitcoin"
 altTitle: 
+authors:
 
-users: 1000
+users: 10000
 appId: it.airgap.wallet
-launchDate: 2018-08-06
-latestUpdate: 2020-06-05
-apkVersionName: "3.2.3"
-stars: 4.3
-ratings: 40
-reviews: 20
-size: 12M
+released: 2018-08-06
+updated: 2021-11-19
+version: "3.13.0"
+stars: 4.1
+ratings: 107
+reviews: 51
+size: 73M
 website: https://www.airgap.it
 repository: 
 issue: 
 icon: it.airgap.wallet.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: nowallet
 date: 2019-12-29
-reviewStale: true
 signer: 
 reviewArchive:
 
@@ -35,7 +36,7 @@ redirect_from:
 
 
 This appears to not be a wallet as to our understanding, it does not hold any
-private keys but delegates that part to [AirGap Vault](/it.airgap.vault/)
+private keys but delegates that part to {% include walletLink.html wallet='android/it.airgap.vault' %}
 without which it does not work.
 
 > **AirGap Vault**, the private key is generated and securely stored in the

@@ -1,35 +1,35 @@
 ---
+wsId: Remitano
 title: "Remitano - Buy & Sell Bitcoin Fast & Securely"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.remitano.remitano
-launchDate: 
-latestUpdate: 2020-09-17
-apkVersionName: "5.2.1"
-stars: 4.6
-ratings: 8426
-reviews: 3975
-size: 30M
+released: 2016-07-24
+updated: 2021-11-22
+version: "5.71.0"
+stars: 4.4
+ratings: 17513
+reviews: 7660
+size: 78M
 website: https://remitano.com
 repository: 
 issue: 
 icon: com.remitano.remitano.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 
 
 providerTwitter: remitano
-providerLinkedIn: company/Remitano
+providerLinkedIn: Remitano
 providerFacebook: remitano
 providerReddit: 
 
 redirect_from:
-  - /com.remitano.remitano/
   - /posts/com.remitano.remitano/
 ---
 

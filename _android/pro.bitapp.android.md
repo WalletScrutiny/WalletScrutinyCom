@@ -4,9 +4,9 @@ altTitle:
 
 users: 1000
 appId: pro.bitapp.android
-launchDate: 2018-11-20
-latestUpdate: 2019-10-11
-apkVersionName: "v2.6.0"
+released: 2018-11-20
+updated: 2019-10-11
+version: "v2.6.0"
 stars: 2.8
 ratings: 34
 reviews: 24
@@ -16,9 +16,8 @@ repository:
 issue: 
 icon: pro.bitapp.android.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: defunct
 date: 2020-05-07
-reviewStale: false
 signer: 
 reviewArchive:
 

@@ -1,24 +1,25 @@
 ---
-title: "Bithumb Singapore - Global Cryptocurrency Exchange"
+wsId: 
+title: "Bitholic - Global Digital Asset Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
-launchDate: 
-latestUpdate: 2020-08-05
-apkVersionName: "1.0.9"
-stars: 4.3
-ratings: 149
-reviews: 98
-size: 2.0M
-website: https://www.bithumbsg.com/
+released: 2019-01-20
+updated: 2021-08-02
+version: "1.1.1"
+stars: 4.1
+ratings: 163
+reviews: 103
+size: 2.2M
+website: https://www.bithumbsg.com
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
 

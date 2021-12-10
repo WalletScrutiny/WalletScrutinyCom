@@ -1,0 +1,52 @@
+---
+wsId:
+title: "NinjaCoin Wallet"
+altTitle:
+authors:
+- danny
+users: 1000
+appId: com.ninjacoin
+released: 2019-11-30
+updated: 2021-05-25
+version: "v1.3.0"
+stars: 4.2
+ratings: 65
+reviews: 41
+size: 25M
+website: https://ninjacoin.org/
+repository:
+issue:
+icon: com.ninjacoin.png
+bugbounty:
+verdict: defunct
+date: 2021-11-26
+signer:
+reviewArchive:
+- date: 2021-11-15
+  version: "v1.3.0"
+  appHash: 
+  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
+  verdict: nobtc
+  
+
+providerTwitter: Ninjacoin_org
+providerLinkedIn:
+providerFacebook: Ninjacoin
+providerReddit: Ninjacoin_org
+
+redirect_from:
+
+---
+
+
+**Update 2021-11-11**: This app is not on Play Store anymore.
+
+## App Description
+
+> NinjaCoin is a digital mineable cryptocurrency. Privacy and private transactions are the priority. Guaranteed by the proof of work of the ninja miners, with easy-to-use mobile wallet. Is based on cryptonote blockchain.
+
+NinjaCoin is a BEP20 Binance Token
+
+## Verdict
+
+We tested the app, and it only supports NINJACoin. It does **not have a Bitcoin wallet**.
