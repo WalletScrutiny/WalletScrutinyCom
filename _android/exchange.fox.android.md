@@ -4,7 +4,7 @@ title: "fox.exchange Cryptocurrency Express Exchange"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: exchange.fox.android
 released: 2019-06-11
 updated: 2020-04-20

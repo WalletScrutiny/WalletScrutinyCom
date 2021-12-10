@@ -4,7 +4,7 @@ title: "Skye Wallet: Buy & Sell Crypto"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.skyewallet.skye_wallet
 released: 2021-05-01
 updated: 2021-11-03

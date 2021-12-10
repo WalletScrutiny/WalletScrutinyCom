@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.tigerwit.forex
 released: 2018-01-24
-updated: 2021-10-20
-version: "5.5.5"
+updated: 2021-11-29
+version: "5.5.8"
 stars: 3.9
 ratings: 1712
 reviews: 715
-size: 26M
+size: 29M
 website: https://www.tigerwit.com
 repository: 
 issue: 

@@ -1,14 +1,14 @@
 ---
 wsId: voyager
-title: "Voyager: Crypto Made Simple"
+title: "Voyager: Buy BTC, SHIB, ETH"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.investvoyager
 released: 
-updated: 2021-11-12
-version: "3.1.0"
+updated: 2021-12-06
+version: "3.1.2"
 stars: 4.6
 ratings: 16185
 reviews: 5704

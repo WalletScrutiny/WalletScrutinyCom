@@ -9,7 +9,7 @@ appId: com.bityard.us2
 released: 2021-03-31
 updated: 2021-03-31
 version: "1.0.2"
-stars: 3.0
+stars: 3
 ratings: 105
 reviews: 62
 size: 4.4M

@@ -9,7 +9,7 @@ appId: com.bitfxservice.bitfxservice
 released: 2019-10-08
 updated: 2019-10-08
 version: "1.0"
-stars: 3.0
+stars: 3
 ratings: 5
 reviews: 4
 size: 54k

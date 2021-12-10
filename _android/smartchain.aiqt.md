@@ -4,7 +4,7 @@ title: "Smart chain"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: smartchain.aiqt
 released: 2021-06-21
 updated: 2021-06-21

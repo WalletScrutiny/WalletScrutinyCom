@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.nordfx
 released: 2021-02-28
-updated: 2021-11-05
-version: "13"
+updated: 2021-11-18
+version: "14"
 stars: 4.1
 ratings: 131
 reviews: 36

@@ -4,15 +4,15 @@ title: "Bitnovo - Buy Bitcoin and create your Wallet"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitnovo.Wallet
 released: 2021-10-27
-updated: 2021-11-02
-version: "1.0.2"
+updated: 2021-12-01
+version: "1.0.3"
 stars: 3.4
 ratings: 28
 reviews: 19
-size: 102M
+size: 95M
 website: https://www.bitnovo.com/
 repository: 
 issue: 

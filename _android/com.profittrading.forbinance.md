@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.profittrading.forbinance
 released: 2018-01-09
-updated: 2021-11-05
-version: "10.9.5"
+updated: 2021-12-08
+version: "10.9.13"
 stars: 4.5
 ratings: 1636
 reviews: 726

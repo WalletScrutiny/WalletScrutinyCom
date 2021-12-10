@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: "Phemex: Top Bitcoin Exchange App, Crypto & 0 Fees"
+title: "Phemex: Bitcoin APP & 0 Crypto Trading Fees"
 altTitle: 
 authors:
 - kiwilamb

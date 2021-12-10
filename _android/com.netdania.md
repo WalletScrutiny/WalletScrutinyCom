@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.netdania
 released: 2011-11-04
-updated: 2021-11-22
-version: "4.1.1"
+updated: 2021-12-02
+version: "4.1.2"
 stars: 4.5
 ratings: 24319
 reviews: 8955

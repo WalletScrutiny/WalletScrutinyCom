@@ -4,7 +4,7 @@ title: "FCoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: com.fcoin.exchange
 released: 2018-07-13
 updated: 2020-01-19

@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: org.toshi
 released: 2017-09-20
-updated: 2021-11-08
-version: "25.8.398"
+updated: 2021-11-24
+version: "26.0.399"
 stars: 3.3
 ratings: 30635
 reviews: 13239

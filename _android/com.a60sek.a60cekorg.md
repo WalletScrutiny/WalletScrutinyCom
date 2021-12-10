@@ -7,19 +7,19 @@ authors:
 users: 1000
 appId: com.a60sek.a60cekorg
 released: 2020-04-06
-updated: 2020-04-06
-version: "1.0"
+updated: 2021-11-26
+version: "1.1"
 stars: 3.8
 ratings: 20
 reviews: 15
-size: 1.5M
+size: 3.2M
 website: 
 repository: 
 issue: 
 icon: com.a60sek.a60cekorg.png
 bugbounty: 
-verdict: stale
-date: 2021-10-18
+verdict: wip
+date: 2021-12-10
 signer: 
 reviewArchive:
 

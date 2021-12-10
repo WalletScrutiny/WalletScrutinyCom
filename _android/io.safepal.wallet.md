@@ -4,11 +4,11 @@ title: "SafePal: Crypto wallet BTC ETH"
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: io.safepal.wallet
 released: 2019-05-26
-updated: 2021-11-04
-version: "2.9.2"
+updated: 2021-11-25
+version: "3.0.1"
 stars: 4.6
 ratings: 9846
 reviews: 5072

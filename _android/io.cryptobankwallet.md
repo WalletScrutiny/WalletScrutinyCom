@@ -4,7 +4,7 @@ title: "CryptoBank"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: io.cryptobankwallet
 released: 2020-12-10
 updated: 2020-12-10

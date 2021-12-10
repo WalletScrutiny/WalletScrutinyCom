@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Sigma: Crypto Wallet - Bitcoin Wallet Blockchain"
+title: "Sigma Wallet: Crypto Wallet"
 altTitle: 
 authors:
 - danny

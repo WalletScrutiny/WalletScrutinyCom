@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.fondexmobile.ct
 released: 2017-11-02
-updated: 2021-11-08
-version: "4.3.54305"
+updated: 2021-11-24
+version: "4.3.54310"
 stars: 4.5
 ratings: 386
 reviews: 135
-size: 56M
+size: 57M
 website: https://fondex.com/en/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: io.DelioHybrid
 appCountry: kr
 idd: 1498891184
 released: 2020-02-26
-updated: 2021-11-29
-version: "1.3.4"
+updated: 2021-12-06
+version: "1.3.5"
 stars: 4
 reviews: 13
-size: 72452096
+size: 72513536
 website: https://www.delio.foundation/
 repository: 
 issue: 

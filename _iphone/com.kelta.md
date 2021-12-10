@@ -10,7 +10,7 @@ idd: 1385038150
 released: 2018-06-07
 updated: 2021-11-23
 version: "3.1.1"
-stars: 4.13558
+stars: 4.11299
 reviews: 177
 size: 19846144
 website: https://kelta.com
