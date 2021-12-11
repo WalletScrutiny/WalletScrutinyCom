@@ -88,10 +88,11 @@ At the bottom of [their website](https://bithd.com) we can read:
   [Open source](https://github.com/bithd)
 
 and indeed their repository [bithd-mcu](https://github.com/bithd/bithd-mcu)
-contains build instructions for all three of their products. This one and
+contains build instructions for all three of their products:
 
 * {% include walletLink.html wallet='hardware/bithdwatch1' verdict='true' %}
 * {% include walletLink.html wallet='hardware/bithdwatch2' verdict='true' %}
+* {% include walletLink.html wallet='hardware/bithdrazor' verdict='true' %}
 
 In terms of being a Trezor fork, the repository is ...
 
