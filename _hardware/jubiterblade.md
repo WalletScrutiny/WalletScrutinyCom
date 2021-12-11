@@ -14,14 +14,14 @@ website: https://www.jubiterwallet.com/index.html
 shop: https://www.amazon.com/gp/product/B07K446Y57
 company: Feitian Technologies Co.,Ltd.
 companywebsite: https://www.ftsafe.com/
-country: CH
+country: CN
 price: 79USD
-repository: 
+repository: https://github.com/JubiterWallet
 issue:
 icon: jubiterblade.png
 bugbounty:
 verdict: nosource
-date: 2021-09-08
+date: 2021-12-12
 signer:
 reviewArchive:
 
@@ -58,5 +58,5 @@ this warning or the firmware update would date.
 Their [desktop companion app](https://www.jubiterwallet.com/download.html)
 (available only for Windows) was last updated more than a year ago, on 2020-07-01.
 
-Anyway, as there is no source code to be found for any part of the stack, this
+Anyway, as there is no hardware wallet source code to be found, this
 product is **not verifiable**.
