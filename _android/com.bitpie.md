@@ -19,7 +19,7 @@ issue:
 icon: com.bitpie.png
 bugbounty: 
 verdict: nosource
-date: 2019-12-25
+date: 2021-12-11
 signer: 
 reviewArchive:
 
@@ -35,6 +35,12 @@ redirect_from:
 ---
 
 
+**Update 2021-12-11**: This app recently got very bad reviews, with people who
+lost funds. On the other hand we did review their hardware wallets, that might
+be out of stock but had recent firmware updates and are indeed reproducible.
+
+## Old Analysis
+
 This app has bold claims:
 
 > Bitpie Wallet is the world's leading multi-chain wallet
@@ -47,9 +53,15 @@ assume it claims to be a wallet.
 What exactly does that mean? **access** to **cold wallet** sounds like an
 oxymoron assuming a cold wallet is
 defined as one that is offline. (**Update**: As we later found out, they also
-provide a hardware wallet. In how far a bluetooth connected hardware wallet can
+provide hardware wallets:
+
+* {% include walletLink.html wallet='hardware/bithdrazor' verdict='true' %}
+* {% include walletLink.html wallet='hardware/bithdwatch2' verdict='true' %}
+* {% include walletLink.html wallet='hardware/bithdwatch1' verdict='true' %}
+
+In how far a bluetooth connected hardware wallet can
 be considered a "cold" wallet is debatable though, too. But they share that
-hardware wallet's [source code](https://github.com/bithd).)
+hardware wallet's [source code](https://github.com/bithd), too.)
 
 Here there are the key words we want to read:
 
