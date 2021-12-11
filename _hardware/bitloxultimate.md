@@ -4,10 +4,11 @@ appId: bitloxultimate
 authors:
 - kiwilamb
 - danny
+- leo
 released: 2015-01-01
 discontinued: # date
-updated:
-version:
+updated: 2017-02-12
+version: v67_BIP44
 dimensions: [54, 85, 4]
 weight: 25
 website: https://www.bitlox.com/products/bitlox-ultimate
@@ -16,12 +17,12 @@ company: BitLox
 companywebsite: https://bitlox.com
 country: HK
 price: 148USD
-repository: https://github.com/bitlox
-issue:
+repository: https://github.com/BitLox/bitlox-firmware
+issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty:
-verdict: wip
-date: 2021-12-04
+verdict: obsolete
+date: 2021-12-12
 signer:
 reviewArchive:
 
@@ -51,12 +52,21 @@ As [shown in the video demonstration](https://www.youtube.com/watch?v=ggMnN6dIHw
 
 The Bitlox has a 2" full matrix e-paper display with a full alphanumeric keypad (12 buttons)
 
-## Reproducibility
+## Code and Reproducibility
 
 Bitlox made this announcement: 
 
-> Effective immediately, we have decided in the interests of our users to publish the source code for the apps that users use to communicate with the BitLox and the blockchain plus the device firmware.
+> Effective immediately, we have decided in the interests of our users to
+  publish the source code for the apps that users use to communicate with the
+  BitLox and the blockchain plus the device firmware.
 >
-> You may find the source code for our iOS, Android, Chrome and Web apps and the device firmware at [Github](https://github.com/bitlox)
+> You may find the source code for our iOS, Android, Chrome and Web apps and the
+  device firmware at [Github](https://github.com/bitlox)
 
-This app is for verification.
+So while we are not sure when this announcement was made, the latest
+contribution to the firmware repository dates back to 2017, making the project
+**obsolete** by our standard. Others
+[asked about the status](https://github.com/BitLox/bitlox-firmware/issues/3) of
+the product and the provider claimed it was still being actively maintained - in
+February 2021 but with no update following this, we stick to our verdict until
+further notice.
