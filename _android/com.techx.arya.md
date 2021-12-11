@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.techx.arya
 released: 2019-09-10
-updated: 2021-11-16
-version: "2.11.0"
+updated: 2021-11-29
+version: "2.12.0"
 stars: 4.1
 ratings: 281
 reviews: 116

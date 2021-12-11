@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 released: 2015-05-16
-updated: 2021-10-08
+updated: 2021-11-26
 version: "Varies with device"
 stars: 3.9
 ratings: 25955

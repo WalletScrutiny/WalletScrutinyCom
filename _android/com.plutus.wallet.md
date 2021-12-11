@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.plutus.wallet
 released: 2015-03-04
-updated: 2021-11-10
+updated: 2021-11-26
 version: "Varies with device"
 stars: 4.5
 ratings: 28043

@@ -10,8 +10,8 @@ idd: 1435569339
 released: 2018-09-28
 updated: 2021-12-02
 version: "5.13.33"
-stars: 4.46774
-reviews: 124
+stars: 4.44
+reviews: 125
 size: 120469504
 website: http://www.swft.pro
 repository: 

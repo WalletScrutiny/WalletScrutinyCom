@@ -9,7 +9,7 @@ appId: kr.co.keypair.nixtouch
 released: 2018-10-19
 updated: 2019-12-27
 version: "1.0.0.65"
-stars: 5.0
+stars: 5
 ratings: 5
 reviews: 2
 size: 11M

@@ -4,15 +4,15 @@ title: "sMiles: Earn Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.smilesbitcoin.smiles
 released: 
-updated: 2021-11-11
-version: "2.0.4"
+updated: 2021-12-08
+version: "2.0.5"
 stars: 2.7
 ratings: 99
 reviews: 74
-size: 75M
+size: 72M
 website: https://www.smilesbitcoin.com/
 repository: 
 issue: 

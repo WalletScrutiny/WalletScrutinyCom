@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - leo
-users: 1000
+users: 5000
 appId: com.iqpandroidinterface
 released: 2021-10-01
 updated: 2021-10-13

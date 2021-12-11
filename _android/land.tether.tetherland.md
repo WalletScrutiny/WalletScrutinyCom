@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: land.tether.tetherland
 released: 2019-12-09
-updated: 2021-10-19
-version: "4.3"
+updated: 2021-11-17
+version: "4.5"
 stars: 4.5
 ratings: 1109
 reviews: 394

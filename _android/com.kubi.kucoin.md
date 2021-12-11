@@ -1,18 +1,18 @@
 ---
 wsId: kucoin
-title: "KuCoin: Bitcoin, Crypto Trade"
+title: "KuCoin: BTC, Crypto exchange"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.kubi.kucoin
 released: 2018-05-03
-updated: 2021-11-11
-version: "3.44.0"
+updated: 2021-12-09
+version: "3.45.3"
 stars: 2.8
 ratings: 17984
 reviews: 8555
-size: 63M
+size: 53M
 website: 
 repository: 
 issue: 

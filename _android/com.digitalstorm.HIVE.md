@@ -4,7 +4,7 @@ title: "HIVE : Crypto Forecast AI - Trading Bot - Bitcoin"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.digitalstorm.HIVE
 released: 2021-06-12
 updated: 2021-10-08

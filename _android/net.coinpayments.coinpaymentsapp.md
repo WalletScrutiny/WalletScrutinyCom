@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
 released: 2016-11-15
-updated: 2021-09-27
+updated: 2021-12-06
 version: "Varies with device"
 stars: 3.3
 ratings: 2179

@@ -9,7 +9,7 @@ appId: io.ryi.pay
 released: 2021-06-12
 updated: 2021-11-03
 version: "0.21.1"
-stars: 5.0
+stars: 5
 ratings: 13
 reviews: 7
 size: 47M

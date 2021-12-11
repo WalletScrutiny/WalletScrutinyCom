@@ -9,7 +9,7 @@ appId: com.supremexchange
 released: 2018-12-21
 updated: 2020-11-23
 version: "2.1"
-stars: 4.0
+stars: 4
 ratings: 5
 reviews: 5
 size: 31M

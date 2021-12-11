@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.beeone.techbank
 released: 2019-07-14
-updated: 2021-11-16
-version: "4.9.9"
+updated: 2021-11-26
+version: "4.9.10"
 stars: 4.3
 ratings: 673
 reviews: 287

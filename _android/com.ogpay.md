@@ -4,7 +4,7 @@ title: "OGPay"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ogpay
 released: 2019-07-31
 updated: 2021-04-12

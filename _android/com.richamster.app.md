@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Richamster - Cryptocurrency trading mobile app"
+title: "Richamster: Crypto Exchange"
 altTitle: 
 authors:
 

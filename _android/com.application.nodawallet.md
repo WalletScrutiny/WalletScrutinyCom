@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.application.nodawallet
 released: 2020-09-14
-updated: 2021-11-11
-version: "1.0.18"
+updated: 2021-12-10
+version: "1.0.19"
 stars: 4.7
 ratings: 843
 reviews: 800

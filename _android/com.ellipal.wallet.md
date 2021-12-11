@@ -4,7 +4,7 @@ title: "ELLIPAL: Crypto Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.ellipal.wallet
 released: 2018-07-02
 updated: 2021-10-13

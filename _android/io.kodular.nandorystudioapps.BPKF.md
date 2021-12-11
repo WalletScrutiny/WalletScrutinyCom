@@ -9,7 +9,7 @@ appId: io.kodular.nandorystudioapps.BPKF
 released: 2021-04-16
 updated: 2021-05-09
 version: "1.2"
-stars: 2.0
+stars: 2
 ratings: 6
 reviews: 4
 size: 5.4M

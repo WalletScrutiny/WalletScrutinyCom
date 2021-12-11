@@ -9,7 +9,7 @@ appId: de.schildbach.wallet
 released: 2011-03-01
 updated: 2021-11-21
 version: "8.19"
-stars: 4.0
+stars: 4
 ratings: 28639
 reviews: 9426
 size: 3.0M

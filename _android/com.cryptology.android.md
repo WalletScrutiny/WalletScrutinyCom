@@ -1,18 +1,18 @@
 ---
 wsId: Cryptology
-title: "Cryptology: Cryptocurrency Digital Assets Trading"
+title: "Cryptology: Blockchain Wallet"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.cryptology.android
 released: 2018-03-23
-updated: 2021-10-27
-version: "3.2.0"
-stars: 4.0
+updated: 2021-12-02
+version: "3.3.2"
+stars: 4
 ratings: 197
 reviews: 114
-size: 16M
+size: 40M
 website: https://cryptology.com/
 repository: 
 issue: 

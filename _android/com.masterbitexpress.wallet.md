@@ -7,19 +7,19 @@ authors:
 users: 500
 appId: com.masterbitexpress.wallet
 released: 2018-04-21
-updated: 2019-10-16
-version: "1.1.1.10"
+updated: 2021-12-05
+version: "1.1.1.20"
 stars: 0.0
 ratings: 
 reviews: 
-size: 14M
+size: 15M
 website: 
 repository: 
 issue: 
 icon: com.masterbitexpress.wallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-10-06
+verdict: fewusers
+date: 2021-12-11
 signer: 
 reviewArchive:
 

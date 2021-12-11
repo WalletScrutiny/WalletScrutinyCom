@@ -1,6 +1,6 @@
 ---
 wsId: ZamZam
-title: "Zamzam - денежные переводы. Перевод денег с карты"
+title: "Zamzam - money transfers"
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: ru.zamzamwallet
 released: 2020-06-26
 updated: 2021-11-17
 version: "2.7.9"
-stars: 4.0
+stars: 4
 ratings: 123
 reviews: 95
 size: 20M

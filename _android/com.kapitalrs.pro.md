@@ -7,19 +7,19 @@ authors:
 users: 50000
 appId: com.kapitalrs.pro
 released: 2017-02-07
-updated: 2020-10-18
-version: "90.1.085"
+updated: 2021-08-05
+version: "90.1.095"
 stars: 4.1
 ratings: 747
 reviews: 280
-size: 5.6M
+size: 15M
 website: https://www.kapitalrs.com
 repository: 
 issue: 
 icon: com.kapitalrs.pro.png
 bugbounty: 
-verdict: stale
-date: 2021-10-14
+verdict: wip
+date: 2021-12-11
 signer: 
 reviewArchive:
 - date: 2021-09-15

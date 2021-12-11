@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.warp.app
 released: 2021-08-06
-updated: 2021-10-31
-version: "0.2.18"
+updated: 2021-12-07
+version: "0.2.26"
 stars: 3.4
 ratings: 8
 reviews: 3
-size: 81M
+size: 74M
 website: 
 repository: 
 issue: 

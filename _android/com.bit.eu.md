@@ -4,7 +4,7 @@ title: "Biteeu"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.bit.eu
 released: 2019-07-03
 updated: 2021-08-05
