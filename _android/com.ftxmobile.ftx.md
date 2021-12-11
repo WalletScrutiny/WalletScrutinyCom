@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.ftxmobile.ftx
 released: 2020-05-08
-updated: 2021-10-29
-version: "1.1.6"
+updated: 2021-12-03
+version: "1.1.7"
 stars: 4.1
 ratings: 6905
 reviews: 3043

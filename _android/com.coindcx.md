@@ -4,7 +4,7 @@ title: "Trade Cryptos with CoinDCX Pro"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.coindcx
 released: 2018-11-02
 updated: 2021-09-15

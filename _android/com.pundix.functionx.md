@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.pundix.functionx
 released: 2021-03-25
-updated: 2021-11-17
-version: "1.10.1"
-stars: 4.0
+updated: 2021-12-03
+version: "1.12.1"
+stars: 4
 ratings: 276
 reviews: 143
 size: 34M

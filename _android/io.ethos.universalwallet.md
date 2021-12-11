@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-12-11
 signer: 
 reviewArchive:
 - date: 2021-03-05

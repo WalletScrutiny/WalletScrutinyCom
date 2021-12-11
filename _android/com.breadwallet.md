@@ -7,8 +7,8 @@ authors:
 users: 5000000
 appId: com.breadwallet
 released: 2016-07-21
-updated: 2021-11-15
-version: "4.13.0"
+updated: 2021-11-24
+version: "4.14.0"
 stars: 4.2
 ratings: 33242
 reviews: 13028

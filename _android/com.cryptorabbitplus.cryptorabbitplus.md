@@ -4,7 +4,7 @@ title: "CryptoRabbt! New Free Cryptocurrency Arbitrage App"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.cryptorabbitplus.cryptorabbitplus
 released: 2019-06-09
 updated: 2020-06-26

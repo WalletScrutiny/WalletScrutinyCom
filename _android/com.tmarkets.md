@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.tmarkets
 released: 
-updated: 2021-08-25
-version: "1.5.69-tmarkets"
+updated: 2021-12-01
+version: "1.5.78-tmarkets"
 stars: 4.2
 ratings: 429
 reviews: 110
-size: 19M
+size: 20M
 website: https://t1markets.com
 repository: 
 issue: 

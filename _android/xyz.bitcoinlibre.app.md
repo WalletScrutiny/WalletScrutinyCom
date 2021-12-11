@@ -4,15 +4,15 @@ title: "Bitcoin Libre"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: xyz.bitcoinlibre.app
 released: 2021-09-20
-updated: 2021-11-15
-version: "2.0.1"
+updated: 2021-12-02
+version: "2.0.4"
 stars: 4.3
 ratings: 97
 reviews: 66
-size: 34M
+size: 35M
 website: https://www.libre.sv/
 repository: 
 issue: 

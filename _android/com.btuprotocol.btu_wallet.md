@@ -1,14 +1,14 @@
 ---
 wsId: Verso
-title: "Verso : Earn free crypto currency as cashback"
+title: "Verso : Earn crypto rewards"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.btuprotocol.btu_wallet
 released: 2021-03-15
-updated: 2021-10-25
-version: "2.3.1"
+updated: 2021-12-06
+version: "2.3.5"
 stars: 4.3
 ratings: 119
 reviews: 64

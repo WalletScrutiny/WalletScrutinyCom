@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ZebPay Bitcoin and Cryptocurrency Exchange"
+title: "ZebPay Crypto Exchange"
 altTitle: 
 authors:
 - leo

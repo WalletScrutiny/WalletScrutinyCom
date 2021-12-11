@@ -4,7 +4,7 @@ title: "ERC Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.ethercredit.wallet
 released: 2020-09-23
 updated: 2020-09-23

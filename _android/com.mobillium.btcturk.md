@@ -1,18 +1,18 @@
 ---
 wsId: BtcTurk
-title: "BtcTurk - Bitcoin Al/Sat"
+title: "BtcTurk | Bitcoin (BTC) Al Sat"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.mobillium.btcturk
 released: 2020-05-06
-updated: 2021-11-09
-version: "1.11.0"
+updated: 2021-12-02
+version: "1.12.1"
 stars: 4.5
 ratings: 13485
 reviews: 4068
-size: 92M
+size: 93M
 website: https://www.btcturk.com/
 repository: 
 issue: 

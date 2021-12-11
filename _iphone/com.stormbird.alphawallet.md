@@ -10,8 +10,8 @@ idd: 1358230430
 released: 2018-05-25
 updated: 2021-12-01
 version: "3.33"
-stars: 4.64238
-reviews: 151
+stars: 4.64935
+reviews: 154
 size: 65795072
 website: https://alphawallet.com/
 repository: https://github.com/alphawallet

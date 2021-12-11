@@ -3,7 +3,7 @@ wsId:
 title: "Evraon - trading for everyone. Crypto and stocks"
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.evraon.trading
 released: 2019-06-14

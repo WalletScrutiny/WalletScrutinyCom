@@ -1,18 +1,18 @@
 ---
 wsId: lykkex
-title: "Lykke: Trade, Buy & Store Bitcoin, Crypto and More"
+title: "Lykke: Buy. Sell. Invest."
 altTitle: 
 authors:
 - leo
 users: 50000
 appId: com.lykkex.LykkeWallet
 released: 2016-08-25
-updated: 2021-09-20
-version: "12.7.9"
+updated: 2021-12-06
+version: "12.8.0"
 stars: 3.3
 ratings: 577
 reviews: 352
-size: 16M
+size: 17M
 website: https://lykke.com/wallet
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appId: com.exchangily.wallet
 released: 2020-02-05
 updated: 2021-11-16
 version: "2.0.32"
-stars: 4.0
+stars: 4
 ratings: 31
 reviews: 22
 size: 17M

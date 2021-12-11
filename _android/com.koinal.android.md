@@ -1,6 +1,6 @@
 ---
 wsId: koinal
-title: "Koinal: Buy Bitcoin instantly"
+title: "Koinal: Buy Bitcoin with credit & debit card"
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ authors:
 users: 50000
 appId: com.koinal.android
 released: 2020-06-04
-updated: 2021-10-25
-version: "1.2.14"
+updated: 2021-11-22
+version: "1.2.15"
 stars: 4.7
 ratings: 481
 reviews: 243
-size: 37M
+size: 51M
 website: https://www.koinal.io
 repository: 
 issue: 

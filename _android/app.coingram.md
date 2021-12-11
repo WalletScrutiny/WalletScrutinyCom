@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Coingram | بیت کوین , ارز دیجیتال | کوینگرام"
+title: "Coingram: بیت کوین، ارزدیجیتال"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: app.coingram
 released: 2019-07-02
-updated: 2021-09-20
-version: "3.0.1"
+updated: 2021-12-11
+version: "3.1.1"
 stars: 4.7
 ratings: 43686
 reviews: 24528
-size: 24M
+size: 25M
 website: 
 repository: 
 issue: 

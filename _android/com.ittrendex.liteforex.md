@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "LiteForex: investing, trading"
+title: "LF: investing, forex trading"
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ittrendex.liteforex
 released: 2017-10-23
 updated: 2021-01-29
 version: "1.4.8"
-stars: 4.0
+stars: 4
 ratings: 903
 reviews: 417
 size: 4.2M

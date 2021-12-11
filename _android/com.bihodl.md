@@ -9,7 +9,7 @@ appId: com.bihodl
 released: 2019-09-08
 updated: 2019-10-31
 version: "1.8.0"
-stars: 1.0
+stars: 1
 ratings: 5
 reviews: 5
 size: 12M

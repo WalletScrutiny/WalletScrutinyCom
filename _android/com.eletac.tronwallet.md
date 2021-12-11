@@ -1,6 +1,6 @@
 ---
 wsId: visionwallet
-title: "Vision: Bitcoin and Crypto Wallet"
+title: "Vision: Bitcoin Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb

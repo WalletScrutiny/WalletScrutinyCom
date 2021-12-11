@@ -1,18 +1,18 @@
 ---
 wsId: pointpay
-title: "PointPay Ecosystem Platform"
+title: "PointPay: Blockchain Wallet"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: com.pointpay.bank
 released: 2020-07-21
-updated: 2021-11-12
-version: "v5.6.6"
+updated: 2021-12-09
+version: "v5.7.0"
 stars: 3.4
 ratings: 3741
 reviews: 1917
-size: 77M
+size: 159M
 website: https://wallet.pointpay.io
 repository: 
 issue: 

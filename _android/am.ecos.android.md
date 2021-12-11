@@ -1,18 +1,18 @@
 ---
 wsId: ECOS
-title: "ECOS: invest in crypto assets"
+title: "Crypto Miner & Wallet - Ecos"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: am.ecos.android
 released: 2020-09-22
-updated: 2021-11-17
-version: "1.18.1"
+updated: 2021-12-03
+version: "1.18.2"
 stars: 3.4
 ratings: 253
 reviews: 195
-size: 41M
+size: 42M
 website: https://ecos.am/en/
 repository: 
 issue: 

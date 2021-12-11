@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.investlite
 released: 2020-12-18
-updated: 2021-08-25
-version: "1.5.69-investlite"
+updated: 2021-11-29
+version: "1.5.78-investlite"
 stars: 3.1
 ratings: 182
 reviews: 100
-size: 19M
+size: 20M
 website: https://www.investlite.com/
 repository: 
 issue: 

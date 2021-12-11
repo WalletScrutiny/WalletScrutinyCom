@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Pluang - Crypto, S&P500, Gold, Mutual Funds"
+title: "Pluang - Safe Online Investing"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.EmasDigi
 released: 2018-01-21
-updated: 2021-10-26
-version: "4.6.8"
+updated: 2021-12-06
+version: "4.7.2"
 stars: 4.3
 ratings: 17983
 reviews: 11498
-size: 14M
+size: 12M
 website: https://pluang.com
 repository: 
 issue: 

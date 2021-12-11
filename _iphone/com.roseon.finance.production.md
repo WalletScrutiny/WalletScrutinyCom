@@ -8,11 +8,11 @@ appId: com.roseon.finance.production
 appCountry: vn
 idd: 1559440997
 released: 2021-05-24
-updated: 2021-12-01
-version: "2.3.15"
+updated: 2021-12-09
+version: "2.3.16"
 stars: 4.64516
 reviews: 31
-size: 105715712
+size: 105748480
 website: https://roseon.finance/
 repository: 
 issue: 
