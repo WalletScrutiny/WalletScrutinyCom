@@ -10,7 +10,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [98, 98, 15]
-weight: 
+weight: 120
 website: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
 shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
 company: SecuX Technology Inc.

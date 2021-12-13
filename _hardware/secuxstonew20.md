@@ -9,7 +9,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [59, 89, 13]
-weight: 
+weight: 62
 website: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
 shop: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
 company: SecuX Technology Inc.

@@ -8,7 +8,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [59, 89, 13]
-weight: 
+weight: 49
 website: https://shop.secuxtech.com/products/w10-hardware-wallet-for-computer/
 shop: https://shop.secuxtech.com/products/w10-hardware-wallet-for-computer/
 company: SecuX Technology Inc.
