@@ -10,8 +10,8 @@ released: 2020-07-03
 updated: 2021-01-15
 version: "1.0.1"
 stars: 2.7
-ratings: 49
-reviews: 40
+ratings: 51
+reviews: 42
 size: 1.4M
 website: https://secuxtech.com/
 repository: 

@@ -9,7 +9,7 @@ appId: com.coinfalcon.mobile
 released: 2019-07-10
 updated: 2021-02-08
 version: "2.1.13"
-stars: 3.0
+stars: 3
 ratings: 101
 reviews: 69
 size: 64M

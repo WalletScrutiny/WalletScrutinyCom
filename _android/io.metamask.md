@@ -7,8 +7,8 @@ authors:
 users: 5000000
 appId: io.metamask
 released: 2020-09-01
-updated: 2021-11-02
-version: "3.6.0"
+updated: 2021-11-22
+version: "3.7.0"
 stars: 3.4
 ratings: 18342
 reviews: 9327

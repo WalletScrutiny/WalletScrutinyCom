@@ -1,6 +1,6 @@
 ---
 wsId: Bibox
-title: "Bibox:Crypto Exchange,Bitcoin"
+title: "Bibox:Bitcoin, Crypto Exchange"
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bibox.www.bibox
 released: 2019-03-24
 updated: 2021-11-04
 version: "4.8.5"
-stars: 5.0
+stars: 5
 ratings: 1559
 reviews: 579
 size: 47M

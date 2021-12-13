@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.swissborg.android.community
 released: 2019-03-27
-updated: 2021-09-29
-version: "2.1.0"
+updated: 2021-12-02
+version: "2.2.1"
 stars: 3.8
 ratings: 6551
 reviews: 3468

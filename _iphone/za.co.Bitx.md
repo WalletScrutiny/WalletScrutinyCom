@@ -10,8 +10,8 @@ idd: 927362479
 released: 2014-11-03
 updated: 2021-11-30
 version: "7.28.0"
-stars: 4.41409
-reviews: 3463
+stars: 4.4146
+reviews: 3466
 size: 116471808
 website: https://www.luno.com
 repository: 

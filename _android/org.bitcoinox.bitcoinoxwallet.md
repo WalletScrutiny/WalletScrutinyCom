@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-verdict: nosource
-date: 2020-09-27
+verdict: stale
+date: 2021-12-12
 signer: 
 reviewArchive:
-
+- date: 2020-09-27
+  version: "2.3.5"
+  appHash: 
+  gitRevision: d458be07d9758370aa2602191c4d5d52dd67f424
+  verdict: nosource
 
 providerTwitter: bitcoin_ox
 providerLinkedIn: 

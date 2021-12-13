@@ -1,18 +1,18 @@
 ---
 wsId: TrustKeys
-title: "TrustKeys - CryptoNoCurrency  SuperApp"
+title: "TrustKeys Blockchain SuperApp"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.trustkeysnetwork
 released: 2019-03-02
-updated: 2021-11-14
-version: "1.1.41"
+updated: 2021-12-08
+version: "1.1.50"
 stars: 4.8
 ratings: 510
 reviews: 321
-size: 254M
+size: 255M
 website: https://trustkeys.network/
 repository: 
 issue: 

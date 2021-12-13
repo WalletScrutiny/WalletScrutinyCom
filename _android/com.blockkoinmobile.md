@@ -9,7 +9,7 @@ appId: com.blockkoinmobile
 released: 2020-08-17
 updated: 2021-10-03
 version: "1.5.4"
-stars: 5.0
+stars: 5
 ratings: 7
 reviews: 5
 size: 38M

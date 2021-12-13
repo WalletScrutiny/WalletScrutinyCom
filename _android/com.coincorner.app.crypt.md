@@ -1,18 +1,18 @@
 ---
 wsId: coincorner
-title: "CoinCorner – Buy & sell bitcoin. Crypto Wallet"
+title: "CoinCorner – Buy/Sell Bitcoin"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
 released: 2014-09-10
-updated: 2021-04-12
-version: "3.2.9"
-stars: 3.0
+updated: 2021-11-25
+version: "4.0.1"
+stars: 3
 ratings: 162
 reviews: 112
-size: 22M
+size: 39M
 website: 
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: "Amber App - Swap & Earn Crypto"
+title: "WhaleFin - Neobank & Neobroker"
 altTitle: 
 authors:
 - danny

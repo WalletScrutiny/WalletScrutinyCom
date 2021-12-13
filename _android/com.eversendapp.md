@@ -1,14 +1,14 @@
 ---
 wsId: eversend
-title: "Eversend - Exchange and Send Money Across Borders"
+title: "Eversend - The Money App"
 altTitle: 
 authors:
 - danny
 users: 500000
 appId: com.eversendapp
 released: 2019-02-01
-updated: 2021-11-26
-version: "0.2.23"
+updated: 2021-11-30
+version: "0.2.24"
 stars: 3.8
 ratings: 4022
 reviews: 1762

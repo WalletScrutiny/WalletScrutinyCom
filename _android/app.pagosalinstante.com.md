@@ -10,7 +10,7 @@ released: 2019-02-03
 updated: 2021-10-08
 version: "1.07.56"
 stars: 3.2
-ratings: 924
+ratings: 923
 reviews: 633
 size: 5.7M
 website: https://pagosalinstante.com/

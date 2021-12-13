@@ -9,7 +9,7 @@ appId: com.jurajkusnier.bitcoinwalletbalance
 released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
-stars: 4.0
+stars: 4
 ratings: 235
 reviews: 126
 size: 5.0M

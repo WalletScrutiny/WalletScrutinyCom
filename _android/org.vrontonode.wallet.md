@@ -4,7 +4,7 @@ title: "VTN Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: org.vrontonode.wallet
 released: 2019-11-29
 updated: 2019-11-29
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: org.vrontonode.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-12-12
 signer: 
 reviewArchive:
 

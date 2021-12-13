@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: coinunited.io
 released: 2021-04-30
-updated: 2021-10-29
-version: "2.0.3"
+updated: 2021-12-11
+version: "3.1.0"
 stars: 4.8
 ratings: 68
 reviews: 62
-size: 35M
+size: 30M
 website: https://www.coinunited.io/
 repository: 
 issue: 

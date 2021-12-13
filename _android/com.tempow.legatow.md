@@ -9,7 +9,7 @@ appId: com.tempow.legatow
 released: 2018-07-04
 updated: 2019-01-30
 version: "1.0.3"
-stars: 5.0
+stars: 5
 ratings: 346
 reviews: 210
 size: 9.5M

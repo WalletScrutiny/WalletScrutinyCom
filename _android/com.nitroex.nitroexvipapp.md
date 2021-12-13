@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.nitroex.nitroexvipapp.png
 bugbounty: 
-verdict: nowallet
-date: 2021-11-03
+verdict: stale
+date: 2021-12-12
 signer: 
 reviewArchive:
-
+- date: 2021-11-03
+  version: "8.0.0"
+  appHash: 
+  gitRevision: d458be07d9758370aa2602191c4d5d52dd67f424
+  verdict: nowallet
 
 providerTwitter: NitroExOfficial
 providerLinkedIn: nitroex

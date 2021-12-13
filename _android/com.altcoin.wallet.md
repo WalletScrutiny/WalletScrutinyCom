@@ -9,7 +9,7 @@ appId: com.altcoin.wallet
 released: 2018-03-19
 updated: 2020-01-21
 version: "v1.6"
-stars: 3.0
+stars: 3
 ratings: 101
 reviews: 83
 size: 3.7M

@@ -9,7 +9,7 @@ appId: com.citex.wallet
 released: 2019-11-09
 updated: 2020-02-08
 version: "1.3"
-stars: 3.0
+stars: 3
 ratings: 12
 reviews: 5
 size: 11M
