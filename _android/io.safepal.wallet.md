@@ -1,6 +1,6 @@
 ---
 wsId: safepal
-title: "SafePal: Crypto wallet BTC ETH"
+title: "SafePal-Crypto wallet BTC NFTs"
 altTitle: 
 authors:
 - leo

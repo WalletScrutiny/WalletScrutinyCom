@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
+title: "Coinbase Wallet - Store Crypto"
 altTitle: 
 authors:
 - leo

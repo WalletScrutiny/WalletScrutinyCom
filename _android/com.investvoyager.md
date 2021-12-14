@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.investvoyager
 released: 
-updated: 2021-12-06
+updated: 2021-12-13
 version: "3.1.2"
 stars: 4.6
 ratings: 16185

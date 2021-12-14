@@ -8,11 +8,11 @@ appId: com.SmartItApp
 appCountry: us
 idd: 1526092476
 released: 2020-10-28
-updated: 2021-09-07
-version: "1.0.4"
+updated: 2021-12-13
+version: "1.0.5"
 stars: 
 reviews: 
-size: 23975936
+size: 23963648
 website: https://smartit.shop/
 repository: 
 issue: 

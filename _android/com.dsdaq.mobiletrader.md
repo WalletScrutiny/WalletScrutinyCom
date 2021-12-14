@@ -9,7 +9,7 @@ appId: com.dsdaq.mobiletrader
 released: 2019-12-24
 updated: 2021-12-01
 version: "3.0.2"
-stars: 4.0
+stars: 4
 ratings: 481
 reviews: 253
 size: 8.3M

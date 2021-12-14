@@ -4,10 +4,10 @@ title: "Ember Fund Invest in Crypto"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.emberfund.ember
 released: 2019-01-24
-updated: 2021-12-01
+updated: 2021-12-13
 version: "10.1"
 stars: 4.1
 ratings: 482

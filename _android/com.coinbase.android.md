@@ -1,13 +1,13 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase: Buy BTC, Ethereum, SHIB, Bitcoin Cash"
+title: "Coinbase: Buy Bitcoin & Ether"
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
 released: 2013-03-01
-updated: 2021-11-30
+updated: 2021-12-13
 version: "9.52.6"
 stars: 4.4
 ratings: 596786

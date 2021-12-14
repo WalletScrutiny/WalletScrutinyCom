@@ -9,9 +9,9 @@ appId: com.tigerwit.forex
 released: 2018-01-24
 updated: 2021-11-29
 version: "5.5.8"
-stars: 3.9
-ratings: 1712
-reviews: 715
+stars: 3.8
+ratings: 1754
+reviews: 734
 size: 29M
 website: https://www.tigerwit.com
 repository: 

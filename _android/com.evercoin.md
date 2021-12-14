@@ -9,8 +9,8 @@ appId: com.evercoin
 released: 2017-11-20
 updated: 2020-11-22
 version: "2.8.8"
-stars: 3.6
-ratings: 196
+stars: 3.5
+ratings: 197
 reviews: 137
 size: 40M
 website: https://evercoin.com
