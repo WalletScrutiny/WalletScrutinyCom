@@ -19,9 +19,14 @@ issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible
-date: 2021-12-06
+date: 2021-12-15
 signer: 
 reviewArchive:
+- date: 2021-12-06
+  version: "0.5.3-beta"
+  appHash: ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4
+  gitRevision: 1b96115dbe0d002e06d34997d4950d6ed2744075
+  verdict: reproducible
 - date: 2021-10-19
   version: "0.5.2-beta"
   appHash: f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757
@@ -71,11 +76,11 @@ on the binary from Google Play:
 ===== Begin Results =====
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.3-beta
-apkVersionCode: 3033
+apkVersionName: 0.5.4-beta
+apkVersionCode: 3034
 verdict:        reproducible
-appHash:        ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4
-commit:         65aae493ee30a45e9b59e7642c1da6709b1c052e
+appHash:        32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc
+commit:         f8263917f934efa77c14ae1a057e5fdacf2d30bc
 
 Diff:
 
