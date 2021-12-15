@@ -19,9 +19,14 @@ issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
 verdict: reproducible
-date: 2021-10-19
+date: 2021-12-06
 signer: 
 reviewArchive:
+- date: 2021-10-19
+  version: "0.5.2-beta"
+  appHash: f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757
+  gitRevision: c1f138e96249368c682aba32e3ca16eaba881f88
+  verdict: reproducible
 - date: 2021-09-17
   version: "0.5.1-beta"
   appHash: dbf21e0cfb7f0bc238e9f24e123777f12e497ad574ada282a82e5dd98fa98d47
@@ -63,19 +68,36 @@ Here is the output using our
 on the binary from Google Play:
 
 ```
-Results:
+===== Begin Results =====
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.2-beta
-apkVersionCode: 3032
+apkVersionName: 0.5.3-beta
+apkVersionCode: 3033
 verdict:        reproducible
-appHash:        f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757
-commit:         ddc7215f67776be17a7c6567556d39f7d6a9c921
+appHash:        ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4
+commit:         65aae493ee30a45e9b59e7642c1da6709b1c052e
 
 Diff:
-Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: CERT.RSA
-Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: CERT.SF
-Only in /tmp/fromPlay_zapsolutions.zap_3032/META-INF: MANIFEST.MF
+
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+**Empty diff?** As prior versions did not have an empty diff, we double-checked
+if our script did something wrong but it's just that Zap dropped the use of
+"JAR signing", using only "APK Signature Scheme v2":
+
+```
+$ apksigner verify --print-certs -v zapsolutions.zap_3032_f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757.apk | grep using
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+$ apksigner verify --print-certs -v zapsolutions.zap_3033_ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4.apk | grep using
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
