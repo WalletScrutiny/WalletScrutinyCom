@@ -8,11 +8,11 @@ appId: cn.maolian.hufu.app.standard
 appCountry: us
 idd: 1387872759
 released: 2018-06-28
-updated: 2021-12-11
-version: "4.6.52"
+updated: 2021-12-13
+version: "4.6.53"
 stars: 3.16883
 reviews: 77
-size: 262018048
+size: 262063104
 website: https://hoo.com
 repository: 
 issue: 

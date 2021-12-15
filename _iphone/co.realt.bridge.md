@@ -8,11 +8,11 @@ appId: co.realt.bridge
 appCountry: be
 idd: 1545585469
 released: 2021-05-06
-updated: 2021-05-06
-version: "1.13"
+updated: 2021-12-14
+version: "1.20"
 stars: 
 reviews: 
-size: 176501760
+size: 123673600
 website: https://realt.co
 repository: 
 issue: 

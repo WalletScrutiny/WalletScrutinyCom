@@ -4,7 +4,7 @@ title: "Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: app.bitcoin.wallet
 released: 2021-04-10
 updated: 2021-11-02

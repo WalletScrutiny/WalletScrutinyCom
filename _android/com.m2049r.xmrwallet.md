@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.m2049r.xmrwallet
 released: 2017-09-29
-updated: 2021-10-27
-version: "2.1.2 'Vertant'"
+updated: 2021-12-11
+version: "2.2.1 'René'"
 stars: 3.7
 ratings: 774
 reviews: 467

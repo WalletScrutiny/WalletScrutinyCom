@@ -10,8 +10,8 @@ idd: 1525862502
 released: 2020-08-09
 updated: 2021-11-23
 version: "1.2.0"
-stars: 3.46154
-reviews: 13
+stars: 3.28571
+reviews: 14
 size: 107573248
 website: https://ex.z.com/
 repository: 
