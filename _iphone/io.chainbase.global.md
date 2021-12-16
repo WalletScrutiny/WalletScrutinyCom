@@ -8,9 +8,9 @@ appId: io.chainbase.global
 appCountry: 
 idd: 1568969341
 released: 2021-05-26
-updated: 2021-12-08
-version: "1.3.35"
-stars: 3.66758
+updated: 2021-12-14
+version: "1.3.36"
+stars: 3.66484
 reviews: 364
 size: 54107136
 website: https://www.hotbit.io

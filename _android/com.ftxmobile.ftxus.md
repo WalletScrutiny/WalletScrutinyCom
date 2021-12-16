@@ -4,7 +4,7 @@ title: "FTXUS Pro"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.ftxmobile.ftxus
 released: 2020-05-18
 updated: 2021-12-03

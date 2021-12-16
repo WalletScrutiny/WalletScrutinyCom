@@ -13,7 +13,7 @@ version: "1.0.56"
 stars: 4.2
 reviews: 10
 size: 67433472
-website: https://techbank.finance/
+website: https://techbank.finance
 repository: 
 issue: 
 icon: com.Techbank.Beeone.jpg
