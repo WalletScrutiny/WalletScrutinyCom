@@ -18,6 +18,7 @@
   --cb-red: #880000;
   --permanent-black: #333;
   --permanent-white: #fafafa;
+  --green-notify-background: #b5fdb5;
   --red-notify-background: #fdb5b5;
   --blue-notify-background: #d0d0ff;
   --gold: #ff9b00;
@@ -51,6 +52,7 @@
   --cb-red: #df7d00;
   --permanent-black: #000;
   --permanent-white: #e2e2e2;
+  --green-notify-background: #00b900;
   --red-notify-background: #b90000;
   --blue-notify-background: #101040;
   --gold: #ffb300;
@@ -1721,6 +1723,18 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 html {
   scroll-behavior: smooth;
+}
+
+.praiseBox {
+  border:solid 3px black;
+  border-radius:20px;
+  background:var(--green-notify-background);
+  margin-bottom:1em;
+  font-weight:bold
+}
+
+.praiseBox > div {
+  margin:1em;
 }
 
 .alertBox {
