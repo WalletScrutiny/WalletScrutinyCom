@@ -1,14 +1,14 @@
 ---
 wsId: BitnovoWallet
-title: "Bitnovo - Buy Bitcoin and create your Wallet"
+title: "Bitnovo - Buy Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.bitnovo.Wallet
 released: 2021-10-27
-updated: 2021-12-01
-version: "1.0.3"
+updated: 2021-12-16
+version: "1.0.4.2"
 stars: 3.4
 ratings: 28
 reviews: 19

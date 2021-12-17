@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: org.missmonacoin.monya
 released: 2018-01-02
-updated: 2021-04-26
-version: "3.10.4"
+updated: 2021-12-14
+version: "3.10.5"
 stars: 4.3
 ratings: 99
 reviews: 48

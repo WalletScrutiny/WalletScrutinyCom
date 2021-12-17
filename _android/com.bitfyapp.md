@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.bitfyapp
 released: 2019-10-14
-updated: 2021-11-25
+updated: 2021-12-16
 version: "3.10.21"
 stars: 3.9
 ratings: 1186

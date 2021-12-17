@@ -4,7 +4,7 @@ title: "Buy Bitcoin Instantly"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.libertyx.libertyx
 released: 
 updated: 2021-07-28

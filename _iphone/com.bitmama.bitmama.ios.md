@@ -9,10 +9,10 @@ appCountry: us
 idd: 1561857024
 released: 2021-06-30
 updated: 2021-06-30
-version: "1.0.17"
+version: "1.0.18"
 stars: 
 reviews: 
-size: 67805184
+size: 67829760
 website: https://www.bitmama.io/
 repository: 
 issue: 

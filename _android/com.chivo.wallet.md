@@ -8,12 +8,12 @@ authors:
 users: 1000000
 appId: com.chivo.wallet
 released: 
-updated: 2021-09-07
-version: "1.1.0"
+updated: 2021-12-12
+version: "2.0.1"
 stars: 2.5
 ratings: 14680
 reviews: 9140
-size: 59M
+size: 64M
 website: https://chivowallet.com/
 repository: 
 issue: 

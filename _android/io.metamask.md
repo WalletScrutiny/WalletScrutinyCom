@@ -4,15 +4,15 @@ title: "MetaMask - Buy, Send and Swap Crypto"
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: io.metamask
 released: 2020-09-01
-updated: 2021-11-22
-version: "3.7.0"
+updated: 2021-12-11
+version: "3.8.0"
 stars: 3.4
 ratings: 18342
 reviews: 9327
-size: 39M
+size: 167M
 website: https://metamask.io
 repository: 
 issue: 

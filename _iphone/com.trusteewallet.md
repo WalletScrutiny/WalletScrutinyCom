@@ -8,11 +8,11 @@ appId: com.trusteewallet
 appCountry: 
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-11-19
-version: "1.50.2"
+updated: 2021-12-17
+version: "1.50.3"
 stars: 3.36364
 reviews: 11
-size: 69095424
+size: 70039552
 website: https://trusteeglobal.com/
 repository: 
 issue: 

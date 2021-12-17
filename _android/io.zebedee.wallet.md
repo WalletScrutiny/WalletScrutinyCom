@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: "ZEBEDEE - Bitcoin Lightning Wallet for Gamers"
+title: "ZEBEDEE BTC Wallet for Gamers"
 altTitle: 
 authors:
 - leo

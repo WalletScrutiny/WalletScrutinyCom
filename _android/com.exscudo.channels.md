@@ -1,14 +1,14 @@
 ---
 wsId: exscudo
-title: "Fintap. Wallet, Exchange, Chat"
+title: "Crypto & Bitcoin Wallet App"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
 released: 2018-05-17
-updated: 2021-11-09
-version: "3.0.929"
+updated: 2021-12-16
+version: "3.1.998"
 stars: 4.5
 ratings: 558
 reviews: 233

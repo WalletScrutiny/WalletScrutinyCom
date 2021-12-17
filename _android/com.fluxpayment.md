@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.fluxpayment
 released: 2020-09-02
-updated: 2021-12-13
-version: "2.1.2"
+updated: 2021-12-17
+version: "2.1.6"
 stars: 4
 ratings: 178
 reviews: 111
-size: 50M
+size: 59M
 website: https://iflux.app/
 repository: 
 issue: 

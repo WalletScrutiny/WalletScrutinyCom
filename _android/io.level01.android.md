@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: io.level01.android
 released: 2020-10-09
-updated: 2021-09-20
-version: "0.2.3.2"
+updated: 2021-12-16
+version: "0.2.3.3"
 stars: 4.7
 ratings: 135
 reviews: 61
