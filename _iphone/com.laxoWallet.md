@@ -8,11 +8,11 @@ appId: com.laxoWallet
 appCountry: us
 idd: 1504656252
 released: 2020-04-03
-updated: 2021-12-08
-version: "2.2.3"
+updated: 2021-12-14
+version: "2.2.4"
 stars: 5
 reviews: 40
-size: 89242624
+size: 89353216
 website: https://volt.id/
 repository: 
 issue: 

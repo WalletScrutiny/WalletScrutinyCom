@@ -10,8 +10,8 @@ idd: 1345101178
 released: 2018-09-14
 updated: 2021-12-01
 version: "2.7.12"
-stars: 4.29538
-reviews: 4066
+stars: 4.29304
+reviews: 4078
 size: 119829504
 website: https://metalpay.com
 repository: 

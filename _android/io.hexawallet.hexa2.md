@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: "Bitcoin Wallet Hexa 2.0"
+title: "Hexa 2.0 Bitcoin App"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: io.hexawallet.hexa2
 released: 2021-09-30
 updated: 2021-12-07
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.hexawallet.hexa2.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:

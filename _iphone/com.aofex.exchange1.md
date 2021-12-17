@@ -10,8 +10,8 @@ idd: 1477466894
 released: 2019-09-19
 updated: 2021-12-03
 version: "3.0.9"
-stars: 4.9268
-reviews: 806
+stars: 4.89712
+reviews: 729
 size: 238702592
 website: https://www.aofex.com/#/
 repository: 

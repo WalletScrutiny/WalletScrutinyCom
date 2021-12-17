@@ -4,7 +4,7 @@ title: "ZedXe Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.zedXeWallet
 released: 2020-05-07
 updated: 2020-06-11

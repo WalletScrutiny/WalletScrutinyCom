@@ -4,7 +4,7 @@ title: "Bibox:Bitcoin, Crypto Exchange"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bibox.www.bibox
 released: 2019-03-24
 updated: 2021-11-04

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProBit Global: Buy & Sell Bitcoin. Crypto Exchange"
+title: "ProBit Global: Trade, HODL"
 altTitle: 
 authors:
 - leo

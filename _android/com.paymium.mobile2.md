@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.paymium.mobile2
 released: 
-updated: 2021-10-13
+updated: 2021-12-13
 version: "3.1"
 stars: 3.4
 ratings: 196

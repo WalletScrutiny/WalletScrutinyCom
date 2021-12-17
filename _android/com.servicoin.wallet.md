@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Servicoin - Crypto & Bitcoin Wallet"
+title: "Servicoin - Crypto Wallet"
 altTitle: 
 authors:
 - danny
