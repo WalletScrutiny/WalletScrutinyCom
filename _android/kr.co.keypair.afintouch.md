@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: kr.co.keypair.afintouch.png
 bugbounty: 
-verdict: stale
-date: 2021-10-01
+verdict: obsolete
+date: 2021-12-19
 signer: 
 reviewArchive:
 

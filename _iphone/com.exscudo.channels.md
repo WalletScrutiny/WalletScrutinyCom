@@ -11,8 +11,8 @@ idd: 1367425342
 released: 2018-05-16
 updated: 2021-11-16
 version: "3.0.2"
-stars: 4.61765
-reviews: 34
+stars: 4.57143
+reviews: 35
 size: 162547712
 website: https://fintap.app
 repository: 

@@ -10,8 +10,8 @@ idd: 1519859460
 released: 2020-09-08
 updated: 2021-10-19
 version: "2.0.5"
-stars: 3.18519
-reviews: 27
+stars: 3.25
+reviews: 28
 size: 50455552
 website: https://ajglobalv.com/
 repository: 

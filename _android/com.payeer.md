@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.payeer.png
 bugbounty: 
-verdict: custodial
-date: 2021-08-13
+verdict: stale
+date: 2021-12-19
 signer: 
 reviewArchive:
-
+- date: 2021-08-13
+  version: "Varies with device"
+  appHash: 
+  gitRevision: 56f739849a1cfad390e8765ae5a40b156bb0dca0
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
