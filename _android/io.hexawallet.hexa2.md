@@ -1,5 +1,5 @@
 ---
-wsId:
+wsId: Hexa2
 title: "Hexa 2.0 Bitcoin App"
 altTitle:
 authors:
