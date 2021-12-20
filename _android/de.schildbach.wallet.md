@@ -19,9 +19,14 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-11-09
+date: 2021-11-21
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-11-09
+  version: "8.19"
+  appHash: 1f80c04950bf05270bef67e553b99d3593c836688a3922d4c2cee714389be54c
+  gitRevision: ac57bf48198f871433ddb92b15ecf391ca2862e4
+  verdict: reproducible
 - date: 2021-10-26
   version: "8.18"
   appHash: f7178b9adaa88ab0a03486facb3857ac94ede677793ed0389878eb54e8023fb6
@@ -151,27 +156,28 @@ For the latest version the
 came to these results:
 
 ```
-Results:
+===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 8.19
-apkVersionCode: 819
+apkVersionName: 9.01
+apkVersionCode: 901
 verdict:        reproducible
-appHash:        1f80c04950bf05270bef67e553b99d3593c836688a3922d4c2cee714389be54c
-commit:         ce4644cf81d11be07f01e2d65a648e6e2911b256
+appHash:        422c9847403148de5d1e5e0f33b393d0b29513746bdfb15be7553913056ee727
+commit:         bcf13275b580a8bc6a8fb48234d51a72535fc90d
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_819/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_819/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_819/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_819/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_901/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_901/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_901/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_901/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object ce4644cf81d11be07f01e2d65a648e6e2911b256
+object bcf13275b580a8bc6a8fb48234d51a72535fc90d
 type commit
-tag v8.19
-tagger Andreas Schildbach <andreas@schildbach.de> 1635370861 +0200
+tag v9.01
+tagger Andreas Schildbach  1637168095 +0100
 
-8.19 release
+9.01 release
+===== End Results =====
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
