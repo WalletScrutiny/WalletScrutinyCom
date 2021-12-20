@@ -19,9 +19,14 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-08-26
+date: 2021-12-20
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2021-08-26
+  version: "0.22.1"
+  appHash: d03d4e2b5a2c2150ae696519126a51a67d153486194c568766d7b4c0ea4748e2
+  gitRevision: f09d2603ecab25ef898ef50e67aeaf78755c98da
+  verdict: reproducible
 - date: 2021-08-16
   version: "0.22.0"
   appHash: 5790ff832344900c37394fdde30a99a75b9bc3a0f71843175934c17787a5119b
@@ -169,21 +174,23 @@ procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
 
 ```
-Results:
+===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.22.1
-apkVersionCode: 52
+apkVersionName: 0.23.0
+apkVersionCode: 54
 verdict:        reproducible
-appHash:        d03d4e2b5a2c2150ae696519126a51a67d153486194c568766d7b4c0ea4748e2
-commit:         e6baef3c8530608ad7ed33a8b104382c7a54d55e
+appHash:        48c001371aefcf74a39202965b84b5cccdeea6897d03eece3989ac4017d46d95
+commit:         fe15c675ff8076eb6216e8653358f0bc8501a316
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_52/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_52/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_52/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
+
+===== End Results =====
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**

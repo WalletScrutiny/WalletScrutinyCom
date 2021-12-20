@@ -9,7 +9,7 @@ test() {
 
   # build
   podman run -it --volume $PWD:/mnt --workdir /mnt --rm $wsContainer bash -x -c \
-      './gradlew clean :app:assembleRelease'
+      'apt update && DEBIAN_FRONTEND=noninteractive apt install openjdk-11-jdk --yes && ./gradlew clean :app:assembleRelease'
       
   # collect results
   result
