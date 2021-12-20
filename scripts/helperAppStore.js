@@ -59,9 +59,10 @@ async function refreshAll() {
       const digest = await crypto.webcrypto.subtle.digest('SHA-256', f)
       hashes[f] = Buffer.from(digest).toString("hex")
     }))
-    // take 1/7:
+    // take 1/fraction per round
+    const fraction = 3
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
-    const mod = t % 3
+    const mod = t % fraction
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
