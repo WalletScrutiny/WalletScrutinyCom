@@ -19,9 +19,14 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-11-21
+date: 2021-12-20
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-11-21
+  version: "9.01"
+  appHash: 422c9847403148de5d1e5e0f33b393d0b29513746bdfb15be7553913056ee727
+  gitRevision: 333421857d25b54949e0a3b7f4318aaae90f3e14
+  verdict: reproducible
 - date: 2021-11-09
   version: "8.19"
   appHash: 1f80c04950bf05270bef67e553b99d3593c836688a3922d4c2cee714389be54c
@@ -159,24 +164,24 @@ came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 9.01
-apkVersionCode: 901
+apkVersionName: 9.02
+apkVersionCode: 902
 verdict:        reproducible
-appHash:        422c9847403148de5d1e5e0f33b393d0b29513746bdfb15be7553913056ee727
-commit:         bcf13275b580a8bc6a8fb48234d51a72535fc90d
+appHash:        f8abb386f28c6a8eaadfde8494d3ceb443e2685015f940345f76b47b2b0ff25e
+commit:         9a56058f07f3d0a4c32737d03476221e183a64f7
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_901/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_901/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_901/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_901/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_902/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_902/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_902/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_902/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object bcf13275b580a8bc6a8fb48234d51a72535fc90d
+object 9a56058f07f3d0a4c32737d03476221e183a64f7
 type commit
-tag v9.01
-tagger Andreas Schildbach  1637168095 +0100
+tag v9.02
+tagger Andreas Schildbach  1637526611 +0100
 
-9.01 release
+9.02 release
 ===== End Results =====
 ```
 
