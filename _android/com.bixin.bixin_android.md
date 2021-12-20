@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.bixin.bixin_android
 released: 2017-03-22
-updated: 2021-08-20
-version: "4.3.1"
+updated: 2021-12-03
+version: "4.3.3"
 stars: 3.9
 ratings: 87
 reviews: 31
-size: 174M
+size: 175M
 website: https://bixin.com/
 repository: 
 issue: 

@@ -10,8 +10,8 @@ idd: 1581515981
 released: 2021-09-07
 updated: 2021-12-15
 version: "2.0"
-stars: 2.60452
-reviews: 3669
+stars: 2.61165
+reviews: 3726
 size: 51647488
 website: https://chivowallet.com
 repository: 

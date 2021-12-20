@@ -9,7 +9,7 @@ appId: fr.acinq.phoenix.mainnet
 released: 2019-12-10
 updated: 2021-10-22
 version: "1.4.19"
-stars: 4.0
+stars: 4
 ratings: 294
 reviews: 145
 size: 35M

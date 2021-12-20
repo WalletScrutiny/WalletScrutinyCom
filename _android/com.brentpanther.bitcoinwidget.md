@@ -8,7 +8,7 @@ users: 100000
 appId: com.brentpanther.bitcoinwidget
 released: 2013-03-11
 updated: 2021-12-14
-version: "8.1.7"
+version: "8.1.9"
 stars: 4.1
 ratings: 2000
 reviews: 818

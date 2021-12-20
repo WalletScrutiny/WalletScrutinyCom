@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.ibandirect.card
 released: 2020-11-08
-updated: 2021-11-11
-version: "1.4.4"
+updated: 2021-12-16
+version: "1.5.0"
 stars: 3.4
 ratings: 46
 reviews: 26
-size: 73M
+size: 74M
 website: https://ibandirect.com/
 repository: 
 issue: 

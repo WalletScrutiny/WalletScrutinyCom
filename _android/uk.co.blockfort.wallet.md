@@ -4,7 +4,7 @@ title: "Blockfort Wallet"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: uk.co.blockfort.wallet
 released: 2021-05-24
 updated: 2021-05-24
