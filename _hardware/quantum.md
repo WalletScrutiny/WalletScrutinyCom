@@ -17,11 +17,11 @@ companywebsite: https://security-arts.com
 country: UA
 price: 49USD
 repository: https://github.com/SecurityArts
-issue:
+issue: https://github.com/SecurityArts/QuantumManager/issues/14
 icon: quantum.png
 bugbounty:
 verdict: nosource 
-date: 2021-12-04
+date: 2021-12-20
 signer:
 reviewArchive:
 
