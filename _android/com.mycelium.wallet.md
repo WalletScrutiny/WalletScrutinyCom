@@ -19,9 +19,19 @@ issue:
 icon: com.mycelium.wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-11-14
+date: 2021-12-20
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-11-14
+  version: "3.12.2.0"
+  appHash: 8ebca59a3b86d3364e83fa549b23b842c63bcf1bbade528849b21d40573f4f8a
+  gitRevision: 
+  verdict: reproducible
+- date: 2021-11-14
+  version: "3.12.2.0"
+  appHash: f4a163ba974e57d32345ef27261c159f6b396df4ea5a7cdf2c2ab9b0c49b5a4c
+  gitRevision: 
+  verdict: reproducible
 - date: 2021-10-21
   version: "3.11.0.11"
   appHash: 30c5903e364fa9b7f2fafd8f0e1332867025338209469e8a9b32e2f841c7e512
@@ -173,24 +183,26 @@ procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
 
 ```
+===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.12.2.0
-apkVersionCode: 3120200
+apkVersionName: 3.12.8.0
+apkVersionCode: 3120800
 verdict:        reproducible
-appHash:        f4a163ba974e57d32345ef27261c159f6b396df4ea5a7cdf2c2ab9b0c49b5a4c
-commit:         0b9bb51a276c2e60d3970ed58e913b1f998a0497
+appHash:        1f2f2bc999e8e6dd89a4ff84ffe1d8526f46be585d53d66a7729b4f1591f78eb
+commit:         aea49dc14314eec461ad307af7f8f99abe4ddf79
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3120200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3120200/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3120800/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3120800/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 0b9bb51a276c2e60d3970ed58e913b1f998a0497
+object aea49dc14314eec461ad307af7f8f99abe4ddf79
 type commit
-tag v3.12.2.0
-tagger itserg <sergey.dolgopolov@mycelium.com> 1636556907 +0300
+tag v3.12.8.0
+tagger itserg  1639663965 +0300
 
-Updated target from 29 to 30 due to Google Play requirements
+Bufgixes for SA accounts
+===== End Results =====
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
