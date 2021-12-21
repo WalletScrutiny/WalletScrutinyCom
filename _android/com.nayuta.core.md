@@ -40,7 +40,7 @@ This bitcoin and lightning network app allows on-chain as well as lightning paym
 
 However, according to its terms and conditions:
 
-> Intellectual Property
+> Intellectual Property<br>
 > The Service and its original content, features and functionality are and will remain the exclusive property of Nayuta Inc. and its licensors. The Service is protected by copyright, trademark, and other laws of both the Japan and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Nayuta Inc..
 
 ## Verdict
