@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.ledger.live
 released: 2019-01-27
-updated: 2021-12-02
-version: "2.35.1"
+updated: 2021-12-20
+version: "2.36.3"
 stars: 3.4
 ratings: 5270
 reviews: 3000
-size: 250M
+size: 307M
 website: 
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.mobox.wallet
 appCountry: us
 idd: 1545109501
 released: 2021-04-29
-updated: 2021-10-28
-version: "1.9.1"
-stars: 3.95238
-reviews: 21
-size: 58362880
+updated: 2021-12-20
+version: "1.9.2"
+stars: 3.9
+reviews: 20
+size: 60278784
 website: https://mobox.io
 repository: 
 issue: 
