@@ -18,7 +18,7 @@ repository: https://github.com/nayutaco/NayutaCore
 issue:
 icon: com.nayuta.core.png
 bugbounty:
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer:
 reviewArchive:
@@ -34,6 +34,12 @@ redirect_from:
 ---
 
 
+## Updated Review 2021-12-21
+
+New information was presented that has made this project closed source. Details can be [found here](https://github.com/nayutaco/NayutaCore/issues/3):
+
+> The current app is built from a new private repo, this is because the app has had a major refactor and is in testing on google play, once it is in a stable state it will be updated here or this repo will be closed an a new public one made
+
 ## App Description
 
 This bitcoin and lightning network app allows on-chain as well as lightning payments. It claims to be self-custodial and allows users to backup and restore from a 24 word seed.
@@ -47,4 +53,4 @@ However, according to its terms and conditions:
 
 This app is self-custodial and though it claims to have "exclusive ownership" of the "original content, features and functionality", the wallet's source code is available on Github.
 
-This app is for verification.
+
