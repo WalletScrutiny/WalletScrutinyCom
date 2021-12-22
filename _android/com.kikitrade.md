@@ -1,6 +1,6 @@
 ---
 wsId: kikitrade
-title: "Kikitrade- Crypto Social Investment ;Trade Bitcoin"
+title: "Kikitrade：Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny

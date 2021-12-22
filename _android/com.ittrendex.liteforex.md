@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "LF investing, forex trading"
+title: "LiteFinance investing, trading"
 altTitle: 
 authors:
 - danny
