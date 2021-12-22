@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.edss.pones.png
 bugbounty: 
-verdict: fake
-date: 2021-10-26
+verdict: defunct
+date: 2021-12-22
 signer: 
 reviewArchive:
-
+- date: 2021-10-26
+  version: "1.0"
+  appHash: 
+  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-03**: This app is gone from the Store.
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 
 

@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.prizmbit.png
 bugbounty: 
-verdict: custodial
-date: 2021-05-01
+verdict: defunct
+date: 2021-12-22
 signer: 
 reviewArchive:
-
+- date: 2021-05-01
+  version: "1.5"
+  appHash: 
+  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
+  verdict: custodial
 
 providerTwitter: prizmbit
 providerLinkedIn: 
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-04**: This app is gone from the Store.
 
 There is no statement regarding how private keys are managed in the play store description or on the [providers website](https://prizmbit.com/) or FAQ.
 

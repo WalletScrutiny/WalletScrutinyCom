@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.coinsecure.wallet.png
 bugbounty: 
-verdict: fewusers
-date: 2021-10-18
+verdict: defunct
+date: 2021-12-22
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-10**: This app is gone from the Store.
 

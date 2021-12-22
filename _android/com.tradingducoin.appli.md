@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.tradingducoin.appli.png
 bugbounty: 
-verdict: nowallet
-date: 2021-10-08
+verdict: defunct
+date: 2021-12-22
 signer: 
 reviewArchive:
-
+- date: 2021-10-08
+  version: "5.4.8"
+  appHash: 
+  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
+  verdict: nowallet
 
 providerTwitter: TradingduCoin
 providerLinkedIn: 
@@ -33,6 +37,8 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-03**: This app is gone from the Store.
 
 ## App Description
 

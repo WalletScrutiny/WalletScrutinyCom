@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: trade.iqforex.png
 bugbounty: 
-verdict: obsolete
-date: 2021-11-16
+verdict: defunct
+date: 2021-12-22
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+
+**Update 2021-12-14**: This app is gone from the Store.
 
