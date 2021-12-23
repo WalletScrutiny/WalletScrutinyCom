@@ -10,8 +10,8 @@ idd: 1543035976
 released: 2021-01-20
 updated: 2021-01-28
 version: "0.1.3"
-stars: 5
-reviews: 11
+stars: 4.83333
+reviews: 12
 size: 38786048
 website: https://ledn.io
 repository: 

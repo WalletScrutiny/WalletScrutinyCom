@@ -1,33 +1,33 @@
 ---
-wsId:
+wsId: 
 title: "Nayuta Core"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.nayuta.core
-released:
+released: 
 updated: 2021-11-24
 version: "Varies with device"
-stars:
-ratings:
-reviews:
+stars: 
+ratings: 
+reviews: 
 size: Varies with device
 website: https://nayuta.co/core/
 repository: https://github.com/nayutaco/NayutaCore
-issue:
+issue: 
 icon: com.nayuta.core.png
-bugbounty:
+bugbounty: 
 verdict: nosource
 date: 2021-08-02
-signer:
+signer: 
 reviewArchive:
 
 
 providerTwitter: nayuta_en
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
