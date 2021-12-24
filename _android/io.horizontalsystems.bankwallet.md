@@ -197,5 +197,6 @@ which is what we want to see to give this wallet the verdict: **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 
-* $200 on [2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)
+* $200 on [2021-12-23](https://twitter.com/WalletScrutiny/status/1382161902399262720)
 * $200 on [2021-04-13](https://twitter.com/WalletScrutiny/status/1382161902399262720)
+* $200 on [2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)
