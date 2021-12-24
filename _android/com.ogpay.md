@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.ogpay
 released: 2019-07-31
-updated: 2021-04-12
+updated: 2021-12-21
 version: "Varies with device"
 stars: 3.8
 ratings: 36

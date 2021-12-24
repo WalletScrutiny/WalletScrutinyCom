@@ -10,8 +10,8 @@ idd: 1437346368
 released: 2019-02-22
 updated: 2021-12-20
 version: "4.9.16"
-stars: 4.64236
-reviews: 1029
+stars: 4.63311
+reviews: 1033
 size: 212842496
 website: https://www.lbank.info/
 repository: 
