@@ -4,11 +4,11 @@ title: "Cryptopay:Bitcoin wallet&card"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: me.cryptopay.android
 released: 2017-11-09
-updated: 2021-10-20
-version: "1.31"
+updated: 2021-12-21
+version: "1.33"
 stars: 4.3
 ratings: 947
 reviews: 496

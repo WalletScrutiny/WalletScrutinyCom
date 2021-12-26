@@ -4,7 +4,7 @@ title: "Belfrics – CryptoCurrency Trading Exchange"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.app.belfrics
 released: 2017-10-17
 updated: 2021-11-03

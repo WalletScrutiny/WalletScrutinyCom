@@ -1,13 +1,13 @@
 ---
 wsId: Robinhood
-title: "Robinhood: Investing for All"
+title: "Robinhood: Stocks & Crypto"
 altTitle: 
 authors:
 - danny
 users: 10000000
 appId: com.robinhood.android
 released: 
-updated: 2021-11-29
+updated: 2021-12-19
 version: "Varies with device"
 stars: 3.8
 ratings: 437771

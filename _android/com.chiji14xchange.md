@@ -4,7 +4,7 @@ title: "Rocket by Chiji14xchange - buy and sell crypto"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.chiji14xchange
 released: 2019-04-22
 updated: 2021-05-22

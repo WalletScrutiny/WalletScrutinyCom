@@ -9,7 +9,7 @@ appId: com.xaltbase.app
 released: 2021-05-31
 updated: 2021-11-18
 version: "3.0.5"
-stars: 3.0
+stars: 3
 ratings: 3579
 reviews: 2580
 size: 17M

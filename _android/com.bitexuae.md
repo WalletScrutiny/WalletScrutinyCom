@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.bitexuae
 released: 2020-02-23
-updated: 2021-10-31
-version: "2.9"
-stars: 3.0
+updated: 2021-12-26
+version: "3.0"
+stars: 3
 ratings: 123
 reviews: 105
 size: 171M

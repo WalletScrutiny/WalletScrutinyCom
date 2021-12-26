@@ -1,15 +1,15 @@
 ---
 wsId: bitFlyer
-title: "bitFlyer: Crypto Exchange to Buy & Trade Bitcoin"
+title: "bitFlyer Crypto Exchange"
 altTitle: 
 authors:
 - danny
 users: 500000
 appId: com.bitflyer.android.bfwallet
 released: 
-updated: 2021-11-19
-version: "6.5.0"
-stars: 4.0
+updated: 2021-12-16
+version: "6.7.0"
+stars: 4
 ratings: 4064
 reviews: 1344
 size: 17M

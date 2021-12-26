@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Pillar. 1 wallet for all chains, dapps, DeFi & NFT"
+title: "Pillar. Multichain DeFi & NFTs"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.pillarproject.wallet
 released: 2018-12-13
-updated: 2021-11-16
-version: "3.8.2"
+updated: 2021-12-07
+version: "3.8.8"
 stars: 3.7
 ratings: 492
 reviews: 250
-size: 51M
+size: 53M
 website: https://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

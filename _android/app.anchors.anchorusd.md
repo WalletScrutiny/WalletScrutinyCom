@@ -4,15 +4,15 @@ title: "AnchorUSD – Invest in Stocks and Crypto"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: app.anchors.anchorusd
 released: 2020-06-18
-updated: 2021-10-24
-version: "1.17.2"
+updated: 2021-12-14
+version: "1.17.4"
 stars: 2.3
 ratings: 2426
 reviews: 776
-size: 32M
+size: 33M
 website: https://www.anchorusd.com/
 repository: 
 issue: 

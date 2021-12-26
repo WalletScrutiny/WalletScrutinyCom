@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: org.sapien.wallet
 released: 2021-06-24
-updated: 2021-10-28
-version: "1.42.0"
+updated: 2021-12-23
+version: "1.46.0"
 stars: 4.5
 ratings: 16
 reviews: 8
-size: 163M
+size: 168M
 website: https://sapienwallet.com/
 repository: 
 issue: 

@@ -9,7 +9,7 @@ appId: com.visionwallet.app
 released: 2020-09-07
 updated: 2020-11-05
 version: "1.3.2"
-stars: 4.0
+stars: 4
 ratings: 78
 reviews: 71
 size: 4.9M

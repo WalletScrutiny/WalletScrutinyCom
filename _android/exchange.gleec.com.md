@@ -4,7 +4,7 @@ title: "Gleec Exchange"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: exchange.gleec.com
 released: 2021-02-17
 updated: 2021-04-12

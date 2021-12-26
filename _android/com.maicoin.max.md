@@ -4,7 +4,7 @@ title: "MAX Exchange - Buy Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.maicoin.max
 released: 2018-07-01
 updated: 2021-08-09

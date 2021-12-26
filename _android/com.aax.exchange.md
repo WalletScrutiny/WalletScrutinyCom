@@ -4,15 +4,15 @@ title: "AAX-Trade Digital Assets, Bitcoin, ETH, Defi"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.aax.exchange
 released: 2019-03-04
-updated: 2021-11-16
-version: "3.1.16"
-stars: 4.0
+updated: 2021-12-13
+version: "3.2.0"
+stars: 4
 ratings: 2649
 reviews: 968
-size: 58M
+size: 60M
 website: https://www.aax.com
 repository: 
 issue: 

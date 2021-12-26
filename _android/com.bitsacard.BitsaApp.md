@@ -4,15 +4,15 @@ title: "Bitsa"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitsacard.BitsaApp
 released: 2019-04-09
-updated: 2021-11-24
-version: "2.7.2"
+updated: 2021-12-14
+version: "2.7.3"
 stars: 0.0
 ratings: 
 reviews: 
-size: 82M
+size: 73M
 website: https://www.bitsacard.com/
 repository: 
 issue: 

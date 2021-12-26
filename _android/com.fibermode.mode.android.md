@@ -1,14 +1,14 @@
 ---
 wsId: fibermode
-title: "Mode: Pay, earn & grow Bitcoin"
+title: "Mode: Buy, Earn & Grow Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.fibermode.mode.android
 released: 2021-02-11
-updated: 2021-11-17
-version: "2.2.2"
+updated: 2021-12-16
+version: "2.2.5"
 stars: 4.2
 ratings: 239
 reviews: 118

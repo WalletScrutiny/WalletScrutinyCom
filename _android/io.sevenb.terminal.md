@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "7b — Buy Bitcoin & Exchange Crypto"
+title: "7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN"
 altTitle: 
 authors:
 - danny

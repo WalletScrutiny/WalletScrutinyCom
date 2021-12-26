@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: com.ansslimited.xwallet
 released: 2021-06-28
-updated: 2021-10-28
-version: "1.0.30"
+updated: 2021-12-20
+version: "1.0.35"
 stars: 0.0
 ratings: 
 reviews: 
