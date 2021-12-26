@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: "Amber App - Swap & Earn Crypto"
+title: "WhaleFin - Neobank & Neobroker"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2021-10-22
-version: "1.7.6"
-stars: 3.06452
-reviews: 31
-size: 292851712
-website: http://www.ambergroup.io
+updated: 2021-12-20
+version: "2.0.2"
+stars: 4.53676
+reviews: 136
+size: 192347136
+website: https://www.whalefin.com
 repository: 
 issue: 
 icon: com.ambergroup.amberapp.jpg

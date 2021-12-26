@@ -1,6 +1,6 @@
 ---
 wsId: Hexa
-title: "Bitcoin Wallet Hexa"
+title: "Legacy Hexa (do not download)"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.hexawallet.hexa
 appCountry: 
 idd: 1490205837
 released: 2020-03-16
-updated: 2021-11-25
-version: "1.7.4"
+updated: 2021-12-25
+version: "1.7.7"
 stars: 4.8
 reviews: 5
-size: 52154368
+size: 52336640
 website: https://hexawallet.io/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: "Voyager: Crypto Made Simple"
+title: "Voyager: Buy BTC, SHIB, ETH"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.investvoyager.voyager-ios
 appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2021-11-18
-version: "3.1.1"
-stars: 4.7464
-reviews: 91203
-size: 75384832
+updated: 2021-12-10
+version: "3.1.3"
+stars: 4.74462
+reviews: 94598
+size: 75825152
 website: https://www.investvoyager.com/
 repository: 
 issue: 

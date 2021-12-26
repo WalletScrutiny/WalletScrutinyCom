@@ -10,8 +10,8 @@ idd: 1436698193
 released: 2018-09-24
 updated: 2021-11-12
 version: "2.0.8"
-stars: 4.86486
-reviews: 74
+stars: 4.86667
+reviews: 75
 size: 145725440
 website: https://midasprotocol.io/
 repository: 

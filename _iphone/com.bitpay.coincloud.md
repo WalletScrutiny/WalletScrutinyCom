@@ -10,8 +10,8 @@ idd: 1421460676
 released: 2018-09-09
 updated: 2021-11-09
 version: "1.9.4"
-stars: 4.08387
-reviews: 155
+stars: 4.05769
+reviews: 156
 size: 80730112
 website: https://www.coin.cloud/app
 repository: 

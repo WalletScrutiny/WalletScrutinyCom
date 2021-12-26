@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: land.tether.tetherland
 released: 2019-12-09
-updated: 2021-12-11
-version: "4.6"
+updated: 2021-12-25
+version: "5.0"
 stars: 4.5
 ratings: 1109
 reviews: 394
-size: 29M
+size: 28M
 website: https://tetherland.net
 repository: 
 issue: 
