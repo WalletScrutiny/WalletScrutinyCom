@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: 99Recharge
 title: "99pay Mobile, 00301 recharge"
 altTitle: 
 authors:
-
+- leo
 users: 100000
 appId: com.qqtrade.gugupay
 released: 2017-05-25
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.qqtrade.gugupay.png
 bugbounty: 
-verdict: wip
+verdict: nowallet
 date: 2021-12-26
 signer: 
 reviewArchive:
@@ -34,4 +34,6 @@ redirect_from:
 ---
 
 
-  
+You probably are looking for the other 99pay app:
+
+{% include walletLink.html wallet='android/com.pay99.wallet' verdict='true' %}  
