@@ -7,12 +7,12 @@ authors:
 users: 1000000
 appId: atws.app
 released: 2010-12-15
-updated: 2021-11-23
-version: "8.4.475"
+updated: 2021-12-22
+version: "8.4.493"
 stars: 3.2
 ratings: 7429
 reviews: 3575
-size: 25M
+size: 26M
 website: https://www.interactivebrokers.com/
 repository: 
 issue: 

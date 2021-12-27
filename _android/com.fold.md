@@ -1,18 +1,18 @@
 ---
 wsId: foldapp
-title: "Fold - Bitcoin Cashback Rewards"
+title: "Fold: Bitcoin Cashback Rewards"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.fold
 released: 
-updated: 2021-10-27
-version: "139.3.0"
+updated: 2021-12-07
+version: "139.8.0"
 stars: 4.2
 ratings: 679
 reviews: 471
-size: 84M
+size: 164M
 website: https://foldapp.com/
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "Bitcoin"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.bitcointest.h5
 released: 2021-09-03
 updated: 2021-09-03
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcointest.h5.png
 bugbounty: 
-verdict: fewusers
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:

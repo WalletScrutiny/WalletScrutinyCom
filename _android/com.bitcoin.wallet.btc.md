@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bitcoin.wallet.btc
 released: 2019-05-01
-updated: 2021-10-14
-version: "2.3.5"
+updated: 2021-12-11
+version: "2.3.7"
 stars: 4.3
 ratings: 5525
 reviews: 1050
-size: 31M
+size: 25M
 website: https://bitcoin-wallet.flycricket.io
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15

@@ -4,7 +4,7 @@ title: "Kriptomat - The easiest way to buy and own Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.kriptomat.app
 released: 2018-12-17
 updated: 2021-10-29

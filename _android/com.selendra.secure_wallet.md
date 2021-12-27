@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.selendra.secure_wallet
 released: 2021-02-22
-updated: 2021-08-06
-version: "2.0.15"
+updated: 2021-12-16
+version: "3.0.0"
 stars: 4.3
 ratings: 90
 reviews: 63
-size: 13M
+size: 67M
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
 issue: https://github.com/bitriel/bitriel-wallet/issues/26

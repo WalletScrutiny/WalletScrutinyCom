@@ -1,14 +1,14 @@
 ---
 wsId: Nuri
-title: "Nuri"
+title: "Nuri - Mobile Banking & Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.bitwala.app
 released: 2019-07-11
-updated: 2021-11-22
-version: "2.2.4"
+updated: 2021-12-14
+version: "2.2.10"
 stars: 3.5
 ratings: 3843
 reviews: 2410

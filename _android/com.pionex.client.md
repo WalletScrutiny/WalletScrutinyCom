@@ -1,18 +1,18 @@
 ---
 wsId: pionex
-title: "Pionex: Free Trading Bots for Bitcoin, Dogecoin"
+title: "Pionex - Crypto Trading Bot"
 altTitle: 
 authors:
 
 users: 100000
 appId: com.pionex.client
 released: 2019-11-18
-updated: 2021-11-15
-version: "2.3.12"
+updated: 2021-12-24
+version: "2.5.05"
 stars: 4.6
 ratings: 3904
 reviews: 2090
-size: 46M
+size: 72M
 website: https://www.pionex.com
 repository: 
 issue: 

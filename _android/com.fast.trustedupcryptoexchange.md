@@ -4,7 +4,7 @@ title: "TrustedUp Crypto Exchange"
 altTitle: 
 authors:
 
-users: 5
+users: 10
 appId: com.fast.trustedupcryptoexchange
 released: 2021-05-20
 updated: 2021-05-20

@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.rainmanagement.rain
 released: 2018-11-02
-updated: 2021-11-03
-version: "2.4.3"
+updated: 2021-12-15
+version: "2.4.6"
 stars: 3.1
 ratings: 3526
 reviews: 1856

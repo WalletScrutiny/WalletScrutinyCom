@@ -9,7 +9,7 @@ appId: delta.pk.mobile
 released: 2013-03-29
 updated: 2021-05-17
 version: "5.8.7"
-stars: 4.0
+stars: 4
 ratings: 408
 reviews: 104
 size: 1.2M

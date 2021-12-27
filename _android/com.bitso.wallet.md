@@ -1,14 +1,14 @@
 ---
 wsId: bitso
-title: "Bitso - Buy bitcoin and move your money easily"
+title: "Bitso - Buy bitcoin easily"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.bitso.wallet
 released: 2018-02-19
-updated: 2021-11-09
-version: "2.41.2"
+updated: 2021-12-22
+version: "3.0.4"
 stars: 4.4
 ratings: 27999
 reviews: 10564

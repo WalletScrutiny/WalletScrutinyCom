@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: be.flitz.flitz_mobile_production
 released: 
-updated: 2021-07-08
-version: "0.15.3"
+updated: 2021-12-21
+version: "0.15.4"
 stars: 0.0
 ratings: 
 reviews: 
-size: 9.7M
+size: 10M
 website: 
 repository: 
 issue: 

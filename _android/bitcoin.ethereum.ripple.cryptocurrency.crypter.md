@@ -9,7 +9,7 @@ appId: bitcoin.ethereum.ripple.cryptocurrency.crypter
 released: 2018-07-07
 updated: 2019-09-14
 version: "1.0.2"
-stars: 4.0
+stars: 4
 ratings: 456
 reviews: 215
 size: 6.0M

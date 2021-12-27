@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: co.za.altcointrader.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-12-27
 signer: 
 reviewArchive:
 

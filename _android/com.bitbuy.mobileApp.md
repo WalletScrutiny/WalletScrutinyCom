@@ -1,6 +1,6 @@
 ---
 wsId: bitbuy
-title: "Bitbuy: Buy Bitcoin Canada"
+title: "Bitbuy"
 altTitle: 
 authors:
 - danny

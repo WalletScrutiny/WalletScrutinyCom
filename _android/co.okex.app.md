@@ -9,7 +9,7 @@ appId: co.okex.app
 released: 2019-09-11
 updated: 2021-11-16
 version: "6.0.4"
-stars: 4.0
+stars: 4
 ratings: 6068
 reviews: 2990
 size: 9.8M

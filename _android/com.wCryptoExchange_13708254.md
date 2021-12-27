@@ -4,15 +4,15 @@ title: "Crypto Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.wCryptoExchange_13708254
 released: 2021-05-11
-updated: 2021-11-10
-version: "1.1.43"
+updated: 2021-12-18
+version: "1.1.45"
 stars: 0.0
 ratings: 
 reviews: 
-size: 11M
+size: 20M
 website: 
 repository: 
 issue: 

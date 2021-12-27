@@ -1,14 +1,14 @@
 ---
 wsId: coinbasepro
-title: "Coinbase Pro: Trade Bitcoin, Ethereum, SHIB"
+title: "Coinbase Pro: Trade BTC, ETH"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
 released: 2020-01-06
-updated: 2021-11-24
-version: "1.0.84"
+updated: 2021-12-24
+version: "1.0.88"
 stars: 3.9
 ratings: 20505
 reviews: 5883

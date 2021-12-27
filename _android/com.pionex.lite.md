@@ -1,5 +1,5 @@
 ---
-wsId: PionexLite 
+wsId: PionexLite
 title: "Pionex - Buy Bitcoin & Ethereum"
 altTitle: 
 authors:
@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.pionex.lite
 released: 2021-05-14
-updated: 2021-08-26
-version: "1.1.7"
+updated: 2021-12-17
+version: "1.1.9"
 stars: 3.9
 ratings: 16
 reviews: 9

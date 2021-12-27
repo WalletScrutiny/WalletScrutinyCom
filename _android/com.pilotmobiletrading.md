@@ -4,11 +4,11 @@ title: "Pilot Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.pilotmobiletrading
 released: 2019-06-09
-updated: 2021-09-13
-version: "6.02.325"
+updated: 2021-12-18
+version: "6.02.470"
 stars: 3.4
 ratings: 65
 reviews: 37

@@ -4,7 +4,7 @@ title: "TradeSanta: Crypto Trading Bot for Binance, Huobi"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.tradesanta
 released: 2019-05-20
 updated: 2021-11-29
