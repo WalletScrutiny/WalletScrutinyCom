@@ -19,9 +19,14 @@ issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 verdict: reproducible
-date: 2021-11-14
+date: 2021-12-27
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-11-14
+  version: "3.7.6"
+  appHash: 5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
+  gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
+  verdict: reproducible
 - date: 2021-10-29
   version: "3.7.5"
   appHash: 4bc2491a7c50c241e12ff3f5ec1d84e82d45d9fa86c41e4db1a8869ad2b77951
@@ -171,26 +176,23 @@ With
 we get:
 
 ```
+===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.6
-apkVersionCode: 22000376
+apkVersionName: 3.7.7
+apkVersionCode: 22000377
 verdict:        reproducible
-appHash:        5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
-commit:         e8ece72ff88f91adf9ef2c82af67a864de91708f
+appHash:        714f02f6cac34bddd8d71dd8c836501f30dce59080b7222f801a83e12b49d45d
+commit:         7d413583d5facb4e1950c612d72ff1a456072d94
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object e8ece72ff88f91adf9ef2c82af67a864de91708f
-type commit
-tag release_3.7.6
-tagger Domenico Gabriele <domenico@blockstream.com> 1636544543 +0100
 
-Release 3.7.6
+===== End Results =====
 ```
 
 which is what we want to see to give it the verdict **reproducible**.
