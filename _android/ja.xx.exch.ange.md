@@ -19,10 +19,14 @@ issue:
 icon: ja.xx.exch.ange.png
 bugbounty: 
 verdict: fake
-date: 2021-10-05
+date: 2021-12-27
 signer: 
 reviewArchive:
-
+- date: 2021-10-05
+  version: "1"
+  appHash: 
+  gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
+  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +37,7 @@ redirect_from:
 
 ---
 
+**Update 2021-12-27**: This app is no more.
 
 This app tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.
