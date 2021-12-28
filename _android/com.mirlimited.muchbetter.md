@@ -1,6 +1,6 @@
 ---
 wsId: MuchBetter
-title: "MuchBetter - Award Winning Payments App!"
+title: "MuchBetter"
 altTitle: 
 authors:
 - danny

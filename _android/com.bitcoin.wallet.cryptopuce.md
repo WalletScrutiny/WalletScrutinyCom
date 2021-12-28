@@ -4,7 +4,7 @@ title: "Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitcoin.wallet.cryptopuce
 released: 2021-03-07
 updated: 2021-05-20

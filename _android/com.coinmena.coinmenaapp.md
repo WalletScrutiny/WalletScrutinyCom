@@ -4,7 +4,7 @@ title: "CoinMENA: Buy Bitcoin Now"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinmena.coinmenaapp
 released: 2021-08-07
 updated: 2021-12-01

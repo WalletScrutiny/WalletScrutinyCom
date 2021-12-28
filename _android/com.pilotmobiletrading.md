@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.pilotmobiletrading
 released: 2019-06-09
-updated: 2021-12-18
-version: "6.02.470"
+updated: 2021-12-28
+version: "6.02.471"
 stars: 3.4
 ratings: 65
 reviews: 37

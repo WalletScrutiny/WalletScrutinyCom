@@ -9,7 +9,7 @@ appId: com.hashcash.billbitcoins
 released: 2021-03-17
 updated: 2021-04-28
 version: "1.0.3"
-stars: 5.0
+stars: 5
 ratings: 93
 reviews: 89
 size: 8.0M

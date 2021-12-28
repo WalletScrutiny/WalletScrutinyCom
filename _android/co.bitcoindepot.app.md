@@ -4,7 +4,7 @@ title: "Bitcoin Depot"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: co.bitcoindepot.app
 released: 2020-11-04
 updated: 2021-10-20

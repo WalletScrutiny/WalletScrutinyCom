@@ -1,6 +1,6 @@
 ---
 wsId: ZaifExchange
-title: "Zaif Exchange"
+title: "Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: jp.fcce.zaifapps
 appCountry: in
 idd: 1505715935
 released: 2020-05-15
-updated: 2021-08-25
-version: "1.1.7"
+updated: 2021-12-02
+version: "1.1.9"
 stars: 
 reviews: 
-size: 26476544
+size: 26492928
 website: https://zaif.jp/
 repository: 
 issue: 

@@ -10,8 +10,8 @@ idd: 1406311960
 released: 2019-04-27
 updated: 2020-08-03
 version: "0.5.2"
-stars: 4.59677
-reviews: 62
+stars: 4.53968
+reviews: 63
 size: 43196416
 website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS

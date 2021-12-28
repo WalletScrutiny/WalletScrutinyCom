@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MEXC Exchange - Buy & Sell Bitcoin, ETH and DeFi"
+title: "MEXC Global: BTC, NFT, Gamefi"
 altTitle: 
 authors:
 - danny

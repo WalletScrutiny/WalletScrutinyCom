@@ -4,7 +4,7 @@ title: "Magnetic Money - exchange search"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.spectre.magneticmoney
 released: 2018-09-10
 updated: 2021-02-07

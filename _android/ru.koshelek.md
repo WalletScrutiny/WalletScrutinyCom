@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: ru.koshelek
 released: 2020-07-28
-updated: 2021-09-28
-version: "1.6.0"
+updated: 2021-12-09
+version: "1.6.2"
 stars: 4.1
 ratings: 93
 reviews: 74

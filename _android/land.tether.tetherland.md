@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "تترلند | خرید تتر و فروش تتر | Tether Land"
+title: "تترلند | خرید تتر و فروش تتر"
 altTitle: 
 authors:
 - danny

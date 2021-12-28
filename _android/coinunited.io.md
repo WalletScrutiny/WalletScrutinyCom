@@ -1,14 +1,14 @@
 ---
 wsId: CoinUnited
-title: "CoinUnited - Crypto and Bitcoin Wallet"
+title: "CoinUnited - Crypto Wallet"
 altTitle: 
 authors:
 - danny
 users: 1000
 appId: coinunited.io
 released: 2021-04-30
-updated: 2021-12-11
-version: "3.1.0"
+updated: 2021-12-21
+version: "3.1.2"
 stars: 4.8
 ratings: 68
 reviews: 62

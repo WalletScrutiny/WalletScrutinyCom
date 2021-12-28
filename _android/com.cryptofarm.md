@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.cryptofarm
 released: 2021-06-10
-updated: 2021-12-09
-version: "1.0.160"
+updated: 2021-12-22
+version: "1.0.180"
 stars: 4
 ratings: 4026
 reviews: 1902

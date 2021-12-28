@@ -1,18 +1,18 @@
 ---
 wsId: huobi
-title: "Huobi Global: Buy BTC, NFTs& Meta"
+title: "Huobi Global: Buy BTC & Meta"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: pro.huobi
 released: 2017-11-01
-updated: 2021-11-22
-version: "6.6.3"
+updated: 2021-12-23
+version: "6.6.9"
 stars: 3.5
 ratings: 18267
 reviews: 6167
-size: 103M
+size: 112M
 website: https://www.huobi.com/en-us
 repository: 
 issue: 
