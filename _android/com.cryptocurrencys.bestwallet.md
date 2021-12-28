@@ -17,12 +17,14 @@ or the
 [US](https://play.google.com/store/apps/details?id=com.cryptocurrencys.bestwallet&hl=en&gl=US).
 
 In [this video](https://www.youtube.com/watch?v=eFfECTyRuos) you see in the
-beginning of the actual demo "Welcome to [Coinomi](/coinomi/) Wallet" which it
-was an unauthorized clone of.
+beginning of the actual demo "Welcome to Coinomi Wallet" which it
+was an unauthorized clone of. Here is the original:
+{% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %}
 
 Its provider [NICE APPER](https://apk.support/developer/NICE+APPER) also has/had
 a wallet called "Trast Wallets" which looks quite similar to
-[Trust Crypto Wallet](/trust/) and to little surprise also has a similar icon.
+{% include walletLink.html wallet='android/com.wallet.crypto.trustapp' verdict='true' %}
+and to little surprise also has a similar icon.
 
 We would have loved to have discovered this app earlier but it looks like a good
 idea to not install it, should it somehow return.

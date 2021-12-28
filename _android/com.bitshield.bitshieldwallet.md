@@ -48,7 +48,7 @@ On their website:
   deserves.
 
 which was taken almost word for word from
-[another wallet](/com.samourai.wallet/)'s website.
+{% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %}'s website.
 
 ... which leads us to wonder if the provider is also secretive about who they
 are and sure enough, no mention of the people behind this product.

@@ -43,7 +43,8 @@ redirect_from:
 
 Bitcoin Wallet - Airbitz
 claims to be *non-custodial* and *open source* but being the predecessor of
-[Edge](/edge/), it gets a bit confusing here as it points to the same website
+{% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %},
+it gets a bit confusing here as it points to the same website
 for its open source:
 
 > • Open-source code. Available at https://github.com/Airbitz

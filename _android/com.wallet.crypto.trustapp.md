@@ -61,7 +61,7 @@ Above quote
 
 > We would like to support Coinomi wallet on this critical issue
 
-made us to look into [Coinomi](/coinomi/) more closely.
+made us to look into {% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %} more closely.
 
 Also in the description we read:
 

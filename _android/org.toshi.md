@@ -37,9 +37,9 @@ redirect_from:
 ---
 
 
-Coinbase Wallet — Crypto Wallet & DApp Browser
-certainly sounds a lot like this other Coinbase wallet we reviewed
-[here](/coinbase/) but this is actually a second wallet
+Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like
+{% include walletLink.html wallet='android/com.coinbase.android' verdict='true' %}
+but this is actually a second wallet
 [endorsed by the same Coinbase](https://wallet.coinbase.com/).
 
 From their [FAQ](https://wallet.coinbase.com/faq/):

@@ -38,7 +38,7 @@ redirect_from:
 
 
 Edge - Bitcoin, Ethereum, Monero, Ripple Wallet
-is the successor of [Airbitz](/airbitz/) and claims to be *non-custodial* and
+is the successor of {% include walletLink.html wallet='android/com.airbitz' verdict='true' %} and claims to be *non-custodial* and
 *open source*.
 
 The Playstore description points to [this link](https://github.com/Airbitz) as

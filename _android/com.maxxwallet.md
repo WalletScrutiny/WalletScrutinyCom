@@ -58,7 +58,7 @@ This app is **not verifiable** and **probably a scam**.
 ### Some more digging
 
 So we decompiled the app using jadx and there we see it is a clone of
-[BRD](/android/com.breadwallet/). BRD is published under the MIT license and thus
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}. BRD is published under the MIT license and thus
 cloning is not a problem. A bit problematic might be that this wallet connects
 to BRD's servers (`HOST = "api.breadwallet.com"`).
 

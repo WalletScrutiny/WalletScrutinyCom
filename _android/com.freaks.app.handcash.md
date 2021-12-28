@@ -33,4 +33,4 @@ redirect_from:
 ---
 
 
-This was the beta version of [this BSV wallet](/io.handcash.wallet/).
+This was the beta version of {% include walletLink.html wallet='android/io.handcash.wallet' verdict='true' %}.

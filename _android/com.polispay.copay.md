@@ -35,8 +35,9 @@ redirect_from:
 ---
 
 
-This app appears to be a [CoPay](/copay/) clone given its app ID:
-`com.polispay.copay`.
+Given its app ID `com.polispay.copay` this app appears to be a clone of
+{% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}
+which used to be called "Copay".
 
 In the app's description we read:
 

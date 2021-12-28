@@ -35,9 +35,8 @@ redirect_from:
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.
 
-This app is the iPhone version of [Mycelium Android](/mycelium/).
-It has also [public source code](https://github.com/mycelium-com/wallet-ios)
-which is independent of the Android version.
+This app has [public source code](https://github.com/mycelium-com/wallet-ios)
+which is independent of their Android version.
 
 The provider claims:
 

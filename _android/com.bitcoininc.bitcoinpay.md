@@ -49,7 +49,9 @@ The provider answered to the highest rated such one-star comment:
   allows any waiter, point of sale or employee to accept BTC for the business
   without having access to those funds
 
-implying a common provider with [AIRBITZ](/airbitz/) in a way asking to enter
+implying a common provider with
+{% include walletLink.html wallet='android/com.airbitz' verdict='true' %}
+in a way asking to enter
 Airbitz credentials in this wallet???
 
 At the risk of being paranoid this smells too much like a scam with zero

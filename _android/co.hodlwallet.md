@@ -78,7 +78,8 @@ see how it goes:
 
 > Go to github.co/hodlwallet/breadwallet-android and clone or download the project
 
-[Breadwallet](/android/com.breadwallet/)? Ok, good to know where the code comes from but this alone
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}?
+Ok, good to know where the code comes from but this alone
 lets us doubt a bit how dedicated the team is working on the project. Also: more
 guessing on our part:
 
@@ -132,7 +133,7 @@ Play release. We'll try that one: `394f23041b`. We will raise the bar in the fut
 and refuse to search for commits like that though. Have a tag or we can't
 verify the build.
 
-Anyway ... we'll try the same we tried with [BRD](/android/com.breadwallet/):
+Anyway ... we'll try the same we tried with {% include walletLink.html wallet='android/com.breadwallet' %}:
 
 ```
 $ git checkout 394f23041b

@@ -40,7 +40,7 @@ redirect_from:
 for long:
 
 This app looks shady and might try to imitate
-[this popular wallet](/piuk.blockchain.android/).
+{% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}.
 
 As of writing this analysis, their names and logos resemble one another and even
 the app id looks better than the "original":
@@ -85,7 +85,8 @@ As the latest update was only days ago, yet the latest code change on GitHub was
 published months ago, there is no point in trying to reproduce the build.
 
 And here it gets a bit wild: This repository is nothing new. It is also
-referenced in the [Bitcoin Wallet Blockchain](/com.bitcoin.wallet.btc/)!
+referenced in the
+{% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict='true' %}!
 Both apps are by the same provider: InvoVN Solutions. Read up on that other
 wallet as it's not really reassuring.
 
