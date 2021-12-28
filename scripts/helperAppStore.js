@@ -67,7 +67,7 @@ async function refreshAll() {
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
         })
-        .filter((v, i) => {return i % 7 == mod})
+        .filter((v, i) => {return i % fraction == mod})
     files.forEach((file, index) => {
       refreshFile(file)
     })
