@@ -8,11 +8,11 @@ appId: com.dunamu.upbit.global
 appCountry: us
 idd: 1439527412
 released: 2018-11-06
-updated: 2021-11-08
-version: "1.6.46"
-stars: 3.42857
-reviews: 21
-size: 73479168
+updated: 2021-12-20
+version: "1.6.48"
+stars: 3.5
+reviews: 22
+size: 67418112
 website: https://www.dunamu.com/
 repository: 
 issue: 

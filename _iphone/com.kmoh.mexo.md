@@ -10,8 +10,8 @@ idd: 1555609032
 released: 2021-03-01
 updated: 2021-12-15
 version: "2.1.5"
-stars: 4.27273
-reviews: 11
+stars: 4.33333
+reviews: 12
 size: 153124864
 website: https://mexo.zendesk.com/hc/es-mx
 repository: 

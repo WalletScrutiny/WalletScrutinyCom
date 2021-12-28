@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.binance.us
 released: 2019-12-23
-updated: 2021-12-09
+updated: 2021-12-28
 version: "2.9.0"
 stars: 2.6
 ratings: 6331

@@ -8,11 +8,11 @@ appId: com.bitpreco.bitprecoApp
 appCountry: br
 idd: 1545825554
 released: 2021-03-18
-updated: 2021-08-29
-version: "1.8.16"
-stars: 4.64455
-reviews: 211
-size: 75334656
+updated: 2021-11-30
+version: "1.8.17"
+stars: 4.66016
+reviews: 256
+size: 75508736
 website: https://bitpreco.com/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: NitroEXexchangeapp
-title: "NitroEx Exchange"
+title: "NitroEx | Buy Bitcoin/Altcoin"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.nitroex.nitroexexchangeapp
 appCountry: tt
 idd: 1569267465
 released: 2021-07-05
-updated: 2021-07-06
-version: "1.0.13"
+updated: 2021-12-27
+version: "2.0.2"
 stars: 
 reviews: 
-size: 55815168
+size: 56309760
 website: https://www.nitroex.io/
 repository: 
 issue: 

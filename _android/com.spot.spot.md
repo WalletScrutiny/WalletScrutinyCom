@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.spot.spot
 released: 2018-08-02
-updated: 2021-12-24
-version: "4.48.1"
+updated: 2021-12-27
+version: "4.48.2"
 stars: 4.4
 ratings: 4356
 reviews: 2059

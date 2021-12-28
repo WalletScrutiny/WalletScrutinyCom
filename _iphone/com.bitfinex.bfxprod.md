@@ -10,8 +10,8 @@ idd: 1436383182
 released: 2019-01-25
 updated: 2021-11-11
 version: "4.13.0"
-stars: 3.79787
-reviews: 94
+stars: 3.82292
+reviews: 96
 size: 72239104
 website: https://www.bitfinex.com/app
 repository: 
