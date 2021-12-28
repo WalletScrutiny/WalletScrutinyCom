@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.bytesmix.app
 released: 2019-08-11
-updated: 2021-10-31
-version: "2.4.2"
+updated: 2021-12-11
+version: "2.4.3"
 stars: 3.7
 ratings: 394
 reviews: 280
-size: 27M
+size: 28M
 website: https://www.bytesmix.com/
 repository: 
 issue: 

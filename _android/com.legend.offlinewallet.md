@@ -4,7 +4,7 @@ title: "HyperKey"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.legend.offlinewallet
 released: 2020-05-09
 updated: 2020-07-25

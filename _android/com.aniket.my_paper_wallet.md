@@ -4,7 +4,7 @@ title: "My Paper Wallet: Bitcoin Paper Wallet Generator"
 altTitle: 
 authors:
 - danny
-users: 500
+users: 1000
 appId: com.aniket.my_paper_wallet
 released: 2020-12-24
 updated: 2020-12-24
@@ -18,11 +18,15 @@ repository:
 issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1
 icon: com.aniket.my_paper_wallet.png
 bugbounty: 
-verdict: ftbfs
-date: 2021-03-08
+verdict: stale
+date: 2021-12-28
 signer: 
 reviewArchive:
-
+- date: 2021-03-08
+  version: "1.0.0"
+  appHash: 
+  gitRevision: 6ebb740f957edd101e3adeeee5853307f7a2a16b
+  verdict: ftbfs
 
 providerTwitter: 
 providerLinkedIn: 

@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: ch.btcfx.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+verdict: obsolete
+date: 2021-12-28
 signer: 
 reviewArchive:
 

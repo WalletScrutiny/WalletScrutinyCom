@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.kardiawallet
 released: 2021-01-13
-updated: 2021-11-26
-version: "2.3.43"
+updated: 2021-12-27
+version: "2.3.46"
 stars: 4.5
 ratings: 852
 reviews: 425

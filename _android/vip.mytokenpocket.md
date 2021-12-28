@@ -1,6 +1,6 @@
 ---
 wsId: TokenPocket
-title: "TokenPocket Wallet. BTC, ETH, BSC, HECO, TRON, DOT"
+title: "TokenPocket Wallet Crypto DeFi"
 altTitle: 
 authors:
 - leo

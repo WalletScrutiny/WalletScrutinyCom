@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.cloud.tr
 released: 2021-07-16
-updated: 2021-11-25
-version: "1.6.0"
+updated: 2021-12-22
+version: "1.8.0"
 stars: 4.1
 ratings: 36478
 reviews: 9789

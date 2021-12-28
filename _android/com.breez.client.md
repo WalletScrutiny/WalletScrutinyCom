@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.breez.client
 released: 
-updated: 2021-11-11
+updated: 2021-12-28
 version: "Varies with device"
 stars: 
 ratings: 

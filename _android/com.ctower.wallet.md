@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "CrossTower Crypto Wallet. Buy & Sell Bitcoin"
+title: "CrossTower Wallet"
 altTitle: 
 authors:
 
 users: 100
 appId: com.ctower.wallet
-released: 
-updated: 2021-03-31
-version: "1.0.3"
+released: 2021-12-22
+updated: 2021-12-22
+version: "1.0.1"
 stars: 0.0
 ratings: 
 reviews: 
-size: 12M
+size: 32M
 website: 
 repository: 
 issue: 

@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: store.cashin.uk
 released: 2021-04-02
-updated: 2021-10-28
-version: "4.1.10"
+updated: 2021-12-27
+version: "4.4.0"
 stars: 4.8
 ratings: 30
 reviews: 28
-size: 23M
+size: 22M
 website: https://cashin.technology/
 repository: 
 issue: 

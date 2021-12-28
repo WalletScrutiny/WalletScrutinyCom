@@ -1,18 +1,18 @@
 ---
 wsId: coinspace
-title: "Coin Bitcoin Wallet"
+title: "Coin Wallet: Buy Bitcoin"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.coinspace.app
 released: 2015-05-01
-updated: 2021-11-09
-version: "5.1.2"
+updated: 2021-12-20
+version: "5.1.4"
 stars: 4.4
 ratings: 1148
 reviews: 481
-size: 7.0M
+size: 6.8M
 website: https://www.coin.space
 repository: https://github.com/CoinSpace/CoinSpace
 issue: https://github.com/CoinSpace/CoinSpace/issues/30

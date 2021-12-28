@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "BtcTurk | PRO - Buy-Sell Bitcoin"
+title: "BtcTurk | PRO Trade Bitcoin & Cryptocurrency"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.btcturk.pro
 released: 2020-09-10
-updated: 2021-11-11
-version: "1.38.2"
+updated: 2021-12-21
+version: "1.40.5"
 stars: 4.6
 ratings: 152175
 reviews: 45639

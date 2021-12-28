@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.xz.moonbase
 released: 2021-07-07
-updated: 2021-10-27
-version: "1.0.4"
+updated: 2021-12-26
+version: "1.0.6"
 stars: 0.0
 ratings: 
 reviews: 
-size: 19M
+size: 20M
 website: 
 repository: 
 issue: 

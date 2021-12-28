@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.anbbit.exchange.png
 bugbounty: 
-verdict: fewusers
-date: 2021-08-02
+verdict: stale
+date: 2021-12-28
 signer: 
 reviewArchive:
 

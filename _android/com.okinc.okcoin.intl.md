@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.okinc.okcoin.intl
 released: 2018-06-22
-updated: 2021-12-15
-version: "5.2.13"
+updated: 2021-12-22
+version: "5.2.14"
 stars: 4.2
 ratings: 3287
 reviews: 621
-size: 131M
+size: 125M
 website: https://www.okcoin.com/
 repository: 
 issue: 

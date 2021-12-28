@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Good Crypto: one trading app - 30 crypto exchanges"
+title: "Good Crypto: trading terminal"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: app.goodcrypto
 released: 2019-05-20
-updated: 2021-10-20
-version: "1.8.2"
+updated: 2021-12-16
+version: "1.8.3"
 stars: 4.4
 ratings: 908
 reviews: 352
-size: 20M
+size: 21M
 website: https://goodcrypto.app
 repository: 
 issue: 

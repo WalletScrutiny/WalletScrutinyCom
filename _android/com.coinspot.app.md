@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.coinspot.app
 released: 
-updated: 2021-11-12
-version: "2.0.6"
+updated: 2021-12-28
+version: "2.0.10"
 stars: 2.3
 ratings: 1223
 reviews: 948
-size: 9.8M
+size: 10M
 website: https://www.coinspot.com.au/
 repository: 
 issue: 

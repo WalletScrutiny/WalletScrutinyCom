@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
-verdict: nosource
-date: 2020-12-08
+verdict: stale
+date: 2021-12-28
 signer: 
 reviewArchive:
-
+- date: 2020-12-08
+  version: "0.0.4a"
+  appHash: 
+  gitRevision: 6ebb740f957edd101e3adeeee5853307f7a2a16b
+  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 

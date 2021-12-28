@@ -18,11 +18,15 @@ repository:
 issue: 
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
-verdict: custodial
-date: 2021-09-17
+verdict: stale
+date: 2021-12-28
 signer: 
 reviewArchive:
-
+- date: 2021-09-17
+  version: "3.5.4"
+  appHash: 
+  gitRevision: 6ebb740f957edd101e3adeeee5853307f7a2a16b
+  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

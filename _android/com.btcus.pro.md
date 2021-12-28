@@ -4,7 +4,7 @@ title: "Bitcoin America - Decentralized Exchange"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.btcus.pro
 released: 2021-03-30
 updated: 2021-03-30

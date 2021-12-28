@@ -4,11 +4,11 @@ title: "Cake DeFi – Cashflow from crypto"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cakedefi.app
 released: 2021-06-16
-updated: 2021-11-10
-version: "2.2.2"
+updated: 2021-12-11
+version: "3.1.0"
 stars: 3.9
 ratings: 461
 reviews: 234

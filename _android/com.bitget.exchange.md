@@ -1,14 +1,14 @@
 ---
 wsId: Bitget
-title: "Bitget ：Crypto Trading & BitCoin Contract Platfom"
+title: "Bitget - Buy & Sell Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.bitget.exchange
 released: 2020-04-03
-updated: 2021-12-03
-version: "1.2.21"
+updated: 2021-12-21
+version: "1.2.22"
 stars: 4.9
 ratings: 2293
 reviews: 1934

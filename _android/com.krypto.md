@@ -4,10 +4,10 @@ title: "Krypto: Bitcoin Investment App"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.krypto
 released: 2020-04-29
-updated: 2021-11-11
+updated: 2021-12-03
 version: "8.5"
 stars: 4.6
 ratings: 4342

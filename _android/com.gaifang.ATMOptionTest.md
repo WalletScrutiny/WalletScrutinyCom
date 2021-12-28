@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Investing :Atm Option"
+title: "Buy btc:Atm Options trading"
 altTitle: 
 authors:
 - danny

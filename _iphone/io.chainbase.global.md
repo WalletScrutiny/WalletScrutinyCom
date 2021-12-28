@@ -10,8 +10,8 @@ idd: 1568969341
 released: 2021-05-26
 updated: 2021-12-20
 version: "1.3.37"
-stars: 3.6615
-reviews: 387
+stars: 3.65239
+reviews: 397
 size: 54382592
 website: https://www.hotbit.io
 repository: 

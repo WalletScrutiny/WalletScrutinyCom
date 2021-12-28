@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.redot.app
 released: 2020-03-03
-updated: 2021-06-06
-version: "1.0.37"
+updated: 2021-12-06
+version: "1.0.50"
 stars: 4.7
 ratings: 20
 reviews: 3
-size: 7.2M
+size: 7.9M
 website: https://redot.com/
 repository: 
 issue: 

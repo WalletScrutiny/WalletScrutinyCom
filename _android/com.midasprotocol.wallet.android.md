@@ -1,6 +1,6 @@
 ---
 wsId: midas
-title: "Midas Crypto Wallet: Bitcoin, Ethereum, XRP, EOS"
+title: "Midas Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb

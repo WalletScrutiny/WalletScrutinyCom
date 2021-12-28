@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Sigma Waka"
+title: "Sigma Wallet - Crypto Wallet"
 altTitle: 
 authors:
 - danny

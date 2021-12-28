@@ -1,18 +1,18 @@
 ---
 wsId: zipwalletpay
-title: "Zipwallet- Buy Bitcoin with Paypal & Credit Card"
+title: "Zipwallet -money transfer app"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.zipwallet.app
 released: 2018-01-30
-updated: 2021-12-09
-version: "10.0.5"
+updated: 2021-12-27
+version: "10.0.6"
 stars: 4.4
 ratings: 618
 reviews: 386
-size: 11M
+size: 10M
 website: https://zipwalletpay.com/
 repository: 
 issue: 

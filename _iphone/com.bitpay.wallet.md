@@ -10,8 +10,8 @@ idd: 1149581638
 released: 2016-10-24
 updated: 2021-12-10
 version: "12.10.2"
-stars: 3.98316
-reviews: 1366
+stars: 3.97886
+reviews: 1372
 size: 88133632
 website: https://bitpay.com
 repository: 

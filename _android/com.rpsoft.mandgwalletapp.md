@@ -9,7 +9,7 @@ appId: com.rpsoft.mandgwalletapp
 released: 2021-03-29
 updated: 2021-03-29
 version: "1.0"
-stars: 5.0
+stars: 5
 ratings: 14
 reviews: 12
 size: 17M

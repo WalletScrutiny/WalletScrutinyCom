@@ -1,18 +1,18 @@
 ---
 wsId: Unocoin
-title: "Unocoin- India’s First Bitcoin & Crypto Exchange"
+title: "Unocoin Indian Crypto Exchange"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
 released: 2016-11-30
-updated: 2021-12-13
-version: "4.1.5"
+updated: 2021-12-24
+version: "4.1.7"
 stars: 3.2
 ratings: 17464
 reviews: 9857
-size: 14M
+size: 12M
 website: https://www.unocoin.com
 repository: 
 issue: 

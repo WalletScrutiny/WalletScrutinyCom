@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.czprime
 released: 2020-06-11
-updated: 2021-11-24
-version: "1.4.17"
+updated: 2021-12-08
+version: "1.4.19"
 stars: 4.1
 ratings: 2199
 reviews: 890

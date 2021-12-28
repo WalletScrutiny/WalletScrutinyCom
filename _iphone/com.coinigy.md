@@ -10,8 +10,8 @@ idd: 1317482120
 released: 2018-04-28
 updated: 2021-06-08
 version: "0.5.30"
-stars: 3.95556
-reviews: 45
+stars: 3.8913
+reviews: 46
 size: 44223488
 website: https://www.coinigy.com/
 repository: 

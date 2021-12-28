@@ -1,6 +1,6 @@
 ---
 wsId: blockchainWallet
-title: "Blockchain.com Wallet - Buy Bitcoin, ETH, & Crypto"
+title: "Blockchain.com Wallet: Buy BTC"
 altTitle: 
 authors:
 - leo

@@ -4,7 +4,7 @@ title: "BitMEX"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitmex.mobile.android
 released: 2020-07-20
 updated: 2021-11-18

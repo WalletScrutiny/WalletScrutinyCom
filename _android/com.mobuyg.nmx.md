@@ -4,7 +4,7 @@ title: "Nominex DeFi Crypto Exchange Stake Trade NMX"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.mobuyg.nmx
 released: 2021-08-16
 updated: 2021-08-16

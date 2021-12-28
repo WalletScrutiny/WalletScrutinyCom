@@ -1,13 +1,13 @@
 ---
 wsId: zebedee
-title: "ZEBEDEE BTC Wallet for Gamers"
+title: "ZEBEDEE Gaming Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
 users: 10000
 appId: io.zebedee.wallet
 released: 2020-10-20
-updated: 2021-10-09
+updated: 2021-12-24
 version: "11.0.0"
 stars: 3.3
 ratings: 140

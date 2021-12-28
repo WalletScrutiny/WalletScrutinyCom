@@ -1,13 +1,13 @@
 ---
 wsId: coinomi
-title: "Coinomi Wallet :: Bitcoin Ethereum Altcoins Tokens"
+title: "Coinomi: Crypto Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.coinomi.wallet
 released: 2014-01-31
-updated: 2021-11-16
+updated: 2021-11-19
 version: "Varies with device"
 stars: 4.5
 ratings: 38700

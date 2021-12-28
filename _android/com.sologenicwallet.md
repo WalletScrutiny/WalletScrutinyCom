@@ -4,7 +4,7 @@ title: "SOLO DEX"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.sologenicwallet
 released: 2020-02-04
 updated: 2021-12-03

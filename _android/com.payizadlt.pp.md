@@ -4,7 +4,7 @@ title: "Payiza"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 50000
 appId: com.payizadlt.pp
 released: 2021-03-02
 updated: 2021-04-17

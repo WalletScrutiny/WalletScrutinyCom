@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitorzo | Best ETH Wallet"
+title: "Bitorzo"
 altTitle: "(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 authors:
 

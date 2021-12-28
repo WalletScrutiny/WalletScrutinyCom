@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "PAI - Comercio P2P - Exchange: Bitcoin, Tron y más"
+title: "PAI - Bitcoin, Tron, Eth y más"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: app.pagosalinstante.com
 released: 2019-02-03
-updated: 2021-10-08
-version: "1.07.56"
+updated: 2021-12-25
+version: "1.07.64"
 stars: 3.2
 ratings: 923
 reviews: 633

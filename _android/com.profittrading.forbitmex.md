@@ -9,7 +9,7 @@ appId: com.profittrading.forbitmex
 released: 2019-06-11
 updated: 2021-11-04
 version: "5.2.2"
-stars: 4.0
+stars: 4
 ratings: 321
 reviews: 142
 size: 23M

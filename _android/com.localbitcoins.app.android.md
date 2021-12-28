@@ -4,7 +4,7 @@ title: "LocalBitcoins"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.localbitcoins.app.android
 released: 2021-09-06
 updated: 2021-12-02
