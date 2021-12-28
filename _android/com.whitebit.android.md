@@ -1,14 +1,14 @@
 ---
 wsId: whitebit
-title: "WhiteBIT – buy & sell bitcoin. Crypto wallet"
+title: "WhiteBIT – buy & sell bitcoin"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.whitebit.android
 released: 2019-06-07
-updated: 2021-12-23
-version: "2.2.18"
+updated: 2021-12-24
+version: "2.2.19"
 stars: 3.8
 ratings: 1782
 reviews: 973

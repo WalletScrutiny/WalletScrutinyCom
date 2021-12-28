@@ -4,7 +4,7 @@ title: "Xeliuqa Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: xeliuqa.com
 released: 2021-01-29
 updated: 2021-05-11
