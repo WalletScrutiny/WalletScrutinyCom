@@ -18,8 +18,8 @@ repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-12-29
 signer: 
 reviewArchive:
 - date: 2021-07-15

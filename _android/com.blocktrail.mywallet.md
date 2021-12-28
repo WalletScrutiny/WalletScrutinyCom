@@ -18,8 +18,8 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-12-29
 signer: 
 reviewArchive:
 - date: 2021-03-03

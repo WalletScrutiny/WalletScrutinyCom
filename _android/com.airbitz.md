@@ -18,8 +18,8 @@ repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+verdict: defunct
+date: 2021-12-29
 signer: 
 reviewArchive:
 - date: 2019-11-10
