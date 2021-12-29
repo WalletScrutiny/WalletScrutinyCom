@@ -18,12 +18,15 @@ repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
-verdict: ftbfs
-date: 2021-01-21
+verdict: defunct
+date: 2021-12-29
 signer: 
 reviewArchive:
-
-
+- date: 2021-01-21
+  version: "1.7.4"
+  appHash: 
+  gitRevision: 02d1ab365abc31ed8370b03f0b0fda451bd78230
+  verdict: ftbfs
 providerTwitter: HexaWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -33,6 +36,10 @@ redirect_from:
   - /io.hexawallet.hexa/
 ---
 
+
+**Update 2021-12-29**: As the name implies, this app was deprecated by its
+successor
+{% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %}.
 
 The page footer on their website answers most of our questions:
 
