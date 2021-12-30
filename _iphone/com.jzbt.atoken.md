@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.jzbt.atoken.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: ATokenOfficial
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cash.klever.blockchain.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: klever_io
 providerLinkedIn: 

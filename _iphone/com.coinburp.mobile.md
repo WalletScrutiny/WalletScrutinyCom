@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinburp.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-06-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinburp
 providerLinkedIn: coinburp

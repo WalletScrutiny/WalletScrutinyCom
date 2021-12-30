@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.getdelta.ios.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

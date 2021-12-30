@@ -19,7 +19,7 @@ issue:
 icon: org.cryptodebitcard.bitcoin.investment.guide.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-28
 signer: 
 reviewArchive:

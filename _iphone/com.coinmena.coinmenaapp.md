@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinmena.coinmenaapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinmena
 providerLinkedIn: coinmena

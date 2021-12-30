@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rinnas.ajGlobal.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: ajglobalv
 providerLinkedIn: 

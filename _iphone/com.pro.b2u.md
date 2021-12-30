@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcointoyou
 providerLinkedIn: bitcointoyou

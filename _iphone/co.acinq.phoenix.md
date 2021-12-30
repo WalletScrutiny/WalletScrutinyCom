@@ -19,11 +19,11 @@ repository: https://github.com/ACINQ/phoenix-kmm
 issue: 
 icon: co.acinq.phoenix.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: PhoenixWallet
 providerLinkedIn: 

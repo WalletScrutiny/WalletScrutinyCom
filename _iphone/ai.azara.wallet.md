@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ai.azara.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

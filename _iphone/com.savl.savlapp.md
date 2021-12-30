@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.savl.savlapp.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

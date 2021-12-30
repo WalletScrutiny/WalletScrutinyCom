@@ -19,7 +19,7 @@ issue:
 icon: net.cryptocurrencersltd.bitcoin.invest.app.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-24
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ issue:
 icon: com.mobileln.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-04-30
 signer: 
 reviewArchive:

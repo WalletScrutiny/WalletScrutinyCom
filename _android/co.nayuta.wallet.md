@@ -19,7 +19,7 @@ issue:
 icon: co.nayuta.wallet.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2019-12-29
 signer: 
 reviewArchive:

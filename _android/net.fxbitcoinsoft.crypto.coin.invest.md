@@ -19,7 +19,7 @@ issue:
 icon: net.fxbitcoinsoft.crypto.coin.invest.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:

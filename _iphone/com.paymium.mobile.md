@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paymium.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: paymium
 providerLinkedIn: paymium

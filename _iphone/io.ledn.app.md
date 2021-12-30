@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.ledn.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: hodlwithLedn
 providerLinkedIn: ledn-inc

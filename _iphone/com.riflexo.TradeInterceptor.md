@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.riflexo.TradeInterceptor.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: ThinkMarketscom
 providerLinkedIn: thinkmarkets

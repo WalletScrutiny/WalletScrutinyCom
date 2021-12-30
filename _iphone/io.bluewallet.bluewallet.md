@@ -18,11 +18,11 @@ repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/2364
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bluewalletio
 providerLinkedIn: 

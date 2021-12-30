@@ -19,7 +19,7 @@ issue:
 icon: com.cryptowallet.crypto.invest.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-08-13
 signer: 
 reviewArchive:

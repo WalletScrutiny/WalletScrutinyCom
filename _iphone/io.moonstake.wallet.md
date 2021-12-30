@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.moonstake.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: moonstake
 providerLinkedIn: moonstake

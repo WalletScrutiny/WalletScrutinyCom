@@ -19,7 +19,7 @@ issue:
 icon: com.dcash.wallet.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-03-04
 signer: 
 reviewArchive:

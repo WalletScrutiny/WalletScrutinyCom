@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.lumiwallet.HD.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-- date: 2021-05-14
-  version: "3.10.2"
-  appHash: 
-  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
-  verdict: nosource
 
 providerTwitter: Lumi_wallet
 providerLinkedIn: 

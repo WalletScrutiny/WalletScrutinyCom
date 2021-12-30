@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ubankfx.forex.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

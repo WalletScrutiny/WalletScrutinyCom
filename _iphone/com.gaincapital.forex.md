@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gaincapital.forex.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: forexcom
 providerLinkedIn: 

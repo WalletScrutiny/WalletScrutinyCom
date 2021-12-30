@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: exodus-movement.exodus.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: exodus_io
 providerLinkedIn: 

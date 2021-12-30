@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.foxbit.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: foxbit
 providerLinkedIn: foxbit

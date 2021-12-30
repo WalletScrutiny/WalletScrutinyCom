@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.coinmetro.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinMetro
 providerLinkedIn: coinmetro

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.kriptomat.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: kriptomat
 providerLinkedIn: kriptomat

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.zupago.zp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-12-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

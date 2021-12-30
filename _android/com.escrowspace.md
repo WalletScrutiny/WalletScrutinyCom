@@ -19,7 +19,7 @@ issue:
 icon: com.escrowspace.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-12-05
 signer: 
 reviewArchive:

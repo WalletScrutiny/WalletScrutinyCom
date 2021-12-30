@@ -20,11 +20,11 @@ repository: https://github.com/MixinNetwork
 issue: 
 icon: one.mixin.messenger.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: MixinMessenger
 providerLinkedIn: 

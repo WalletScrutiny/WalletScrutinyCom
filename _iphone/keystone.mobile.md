@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: keystone.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

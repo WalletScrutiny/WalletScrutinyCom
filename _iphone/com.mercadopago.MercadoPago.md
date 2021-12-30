@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mercadopago.MercadoPago.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: mercadopago
 providerLinkedIn: 

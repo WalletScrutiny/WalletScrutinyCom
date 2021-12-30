@@ -19,7 +19,7 @@ issue:
 icon: com.cryptoplanetgreencg.bitcoin.investment.app.india.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

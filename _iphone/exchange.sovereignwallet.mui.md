@@ -1,7 +1,7 @@
 ---
 wsId: SovereignWallet
 title: "소브린월렛"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: exchange.sovereignwallet.mui
@@ -14,22 +14,23 @@ stars: 4.28571
 reviews: 7
 size: 50586624
 website: https://www.sovereignwallet.network
-repository:
-issue:
+repository: 
+issue: 
 icon: exchange.sovereignwallet.mui.jpg
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
-
 
 providerTwitter: MUIcommunity
 providerLinkedIn: metamui
 providerFacebook: SovereignWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

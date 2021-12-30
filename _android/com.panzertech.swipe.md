@@ -19,7 +19,7 @@ issue:
 icon: com.panzertech.swipe.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:

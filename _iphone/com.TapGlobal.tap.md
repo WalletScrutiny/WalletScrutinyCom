@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.TapGlobal.tap.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

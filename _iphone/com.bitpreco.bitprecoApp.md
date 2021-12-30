@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitpreco.bitprecoApp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitPreco
 providerLinkedIn: bitpreco

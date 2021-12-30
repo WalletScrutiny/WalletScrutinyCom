@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitnovo
 providerLinkedIn: Bitnovo

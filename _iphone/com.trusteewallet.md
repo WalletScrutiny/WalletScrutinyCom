@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-07-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trustee_Wallet
 providerLinkedIn: 

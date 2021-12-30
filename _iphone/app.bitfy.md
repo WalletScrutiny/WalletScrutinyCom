@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.bitfy.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfyapp
 providerLinkedIn: 

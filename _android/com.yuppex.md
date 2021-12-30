@@ -19,7 +19,7 @@ issue:
 icon: com.yuppex.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-20
 signer: 
 reviewArchive:

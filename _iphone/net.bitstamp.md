@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.bitstamp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitstamp
 providerLinkedIn: bitstamp

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: binance
 providerLinkedIn: 

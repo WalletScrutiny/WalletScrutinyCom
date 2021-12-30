@@ -19,7 +19,7 @@ issue:
 icon: org.secuso.privacyfriendlyopiuycemanoper.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-05-11
 signer: 
 reviewArchive:

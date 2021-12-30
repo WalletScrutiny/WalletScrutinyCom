@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tradearies.ariestrading.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: TradeAries
 providerLinkedIn: tradearies

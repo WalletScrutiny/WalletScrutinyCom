@@ -18,11 +18,11 @@ repository: https://github.com/centfinance
 issue: 
 icon: com.centfinance.mobile.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cent_Finance
 providerLinkedIn: 

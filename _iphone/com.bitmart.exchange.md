@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitmart.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitMartExchange
 providerLinkedIn: bitmart

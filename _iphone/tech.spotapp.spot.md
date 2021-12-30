@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: spot_bitcoin
 providerLinkedIn: spot-bitcoin

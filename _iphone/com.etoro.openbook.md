@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.etoro.openbook.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro

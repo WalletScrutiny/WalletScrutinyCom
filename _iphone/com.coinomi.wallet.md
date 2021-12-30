@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinomi.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinomiWallet
 providerLinkedIn: coinomi

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gemini.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: gemini
 providerLinkedIn: geminitrust

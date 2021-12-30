@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-03
 signer: 
 reviewArchive:
-- date: 2021-05-04
-  version: "1.18.0"
-  appHash: 
-  gitRevision: e438eb905262a9e88382146da027048d1b346da6
-  verdict: custodial
-  
 
 providerTwitter: OfficialXcoex
 providerLinkedIn: 

@@ -19,7 +19,7 @@ issue:
 icon: kr.co.coin5.ai.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:

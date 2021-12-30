@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: obsolete
+verdict: nosource
+date: 2021-12-30
 signer: 
 reviewArchive:
-- date: 2021-06-04
-  version: "1.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: coinpalapp
 providerLinkedIn: coinpal

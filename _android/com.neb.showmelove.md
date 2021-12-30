@@ -19,7 +19,7 @@ issue:
 icon: com.neb.showmelove.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-12
 signer: 
 reviewArchive:

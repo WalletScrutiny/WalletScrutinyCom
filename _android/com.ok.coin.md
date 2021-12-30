@@ -19,7 +19,7 @@ issue:
 icon: com.ok.coin.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-22
 signer: 
 reviewArchive:

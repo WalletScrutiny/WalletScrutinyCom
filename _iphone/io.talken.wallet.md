@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.talken.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-06-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: Talken_
 providerLinkedIn: 

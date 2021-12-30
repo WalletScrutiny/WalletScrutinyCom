@@ -19,7 +19,7 @@ issue:
 icon: org.cryptobubbles.bitcoin.invest.mining.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-16
 signer: 
 reviewArchive:

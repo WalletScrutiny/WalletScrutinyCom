@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: io.cex.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: cex_io
 providerLinkedIn: cex-io

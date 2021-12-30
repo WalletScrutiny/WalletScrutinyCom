@@ -19,7 +19,7 @@ issue:
 icon: com.paymintlabs.paymint.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

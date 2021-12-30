@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-12-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

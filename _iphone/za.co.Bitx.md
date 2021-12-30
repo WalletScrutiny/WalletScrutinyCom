@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: za.co.Bitx.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: LunoGlobal
 providerLinkedIn: lunoglobal

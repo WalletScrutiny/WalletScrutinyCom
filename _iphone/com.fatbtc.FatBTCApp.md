@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fatbtc.FatBTCApp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: fatbtc
 providerLinkedIn: 

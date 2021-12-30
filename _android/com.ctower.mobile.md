@@ -19,7 +19,7 @@ issue:
 icon: com.ctower.mobile.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:

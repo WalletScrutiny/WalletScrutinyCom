@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: OKEx
 providerLinkedIn: 

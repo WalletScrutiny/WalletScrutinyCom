@@ -18,11 +18,11 @@ repository: https://github.com/QuarkChain/QPocket-Android
 issue: 
 icon: com.quarkchain.qpocket.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-11-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: qPocket_wallet
 providerLinkedIn: 

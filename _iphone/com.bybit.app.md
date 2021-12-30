@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bybit.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bybit_Official
 providerLinkedIn: bybitexchange

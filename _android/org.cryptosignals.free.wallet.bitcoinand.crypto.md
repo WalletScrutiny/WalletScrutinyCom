@@ -19,7 +19,7 @@ issue:
 icon: org.cryptosignals.free.wallet.bitcoinand.crypto.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-19
 signer: 
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cakedefi.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: cakedefi
 providerLinkedIn: cakedefi

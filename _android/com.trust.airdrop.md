@@ -19,7 +19,7 @@ issue:
 icon: com.trust.airdrop.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-16
 signer: 
 reviewArchive:

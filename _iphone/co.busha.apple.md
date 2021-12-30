@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: getbusha
 providerLinkedIn: 

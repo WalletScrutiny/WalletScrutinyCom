@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.foldapp.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: fold_app
 providerLinkedIn: 

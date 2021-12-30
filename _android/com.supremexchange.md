@@ -19,7 +19,7 @@ issue:
 icon: com.supremexchange.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-12-03
 signer: 
 reviewArchive:

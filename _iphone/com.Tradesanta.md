@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Tradesanta.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

@@ -19,7 +19,7 @@ issue:
 icon: com.wasabiwallet.dev.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-04-09
 signer: 
 reviewArchive:

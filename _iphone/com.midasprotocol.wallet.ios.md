@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: MidasProtocol
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository: https://github.com/StarteosIO
 issue: 
 icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Starteos
 providerLinkedIn: 

@@ -19,7 +19,7 @@ issue:
 icon: com.onyze.wallet.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ issue:
 icon: com.ldjdigital.ljdwallet.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-08-29
 signer: 
 reviewArchive:

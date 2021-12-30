@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: eidoo_io
 providerLinkedIn: eidoo

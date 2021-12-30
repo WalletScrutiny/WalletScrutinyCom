@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.visionsoftware.vision.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: VisionCryptoApp
 providerLinkedIn: 

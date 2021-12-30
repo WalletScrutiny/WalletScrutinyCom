@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: com.roqqu.ios.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-04-29
 signer: 
 reviewArchive:
-- date: 2021-04-19
-  version: "1.3.1"
-  appHash: 
-  gitRevision: 2adf93055d5b552806d8a041f41c1e8e4a7c5fd6
-  verdict: custodial
-
 
 providerTwitter: roqqupay
 providerLinkedIn: 

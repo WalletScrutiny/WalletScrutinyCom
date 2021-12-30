@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.asiainnovations.ace.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

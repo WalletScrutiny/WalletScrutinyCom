@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.astontek.stockmaster.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

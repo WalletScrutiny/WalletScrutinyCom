@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinPaymentsNET
 providerLinkedIn: coinpayments-inc

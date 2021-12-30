@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bytetrade.bytehub.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: ByteTradeIo
 providerLinkedIn: 

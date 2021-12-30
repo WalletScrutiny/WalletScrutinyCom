@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Ellipal.Ellipal.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: ellipalwallet
 providerLinkedIn: 

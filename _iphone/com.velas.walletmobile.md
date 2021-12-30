@@ -20,11 +20,11 @@ repository: https://github.com/velas/mobile-wallet
 issue: https://github.com/velas/mobile-wallet/issues/62
 icon: com.velas.walletmobile.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: velasblockchain
 providerLinkedIn: velas-ag

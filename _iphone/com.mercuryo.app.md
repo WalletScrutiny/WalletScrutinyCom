@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mercuryo.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Mercuryo_io
 providerLinkedIn: mercuryo-io

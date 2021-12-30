@@ -20,11 +20,11 @@ repository:
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: walletsafrica
 providerLinkedIn: 

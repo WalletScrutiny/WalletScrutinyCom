@@ -19,7 +19,7 @@ issue:
 icon: com.infinitepay.infireum.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-08-27
 signer: 
 reviewArchive:

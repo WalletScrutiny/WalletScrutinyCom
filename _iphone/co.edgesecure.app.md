@@ -18,11 +18,11 @@ repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
 icon: co.edgesecure.app.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2020-12-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: edgewallet
 providerLinkedIn: 3609678

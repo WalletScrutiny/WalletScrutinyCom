@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: it.airgap.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-03-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: AirGap_it
 providerLinkedIn: 

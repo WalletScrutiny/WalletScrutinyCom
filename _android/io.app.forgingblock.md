@@ -19,7 +19,7 @@ issue:
 icon: io.app.forgingblock.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-15
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-12-17
 signer: 
 reviewArchive:

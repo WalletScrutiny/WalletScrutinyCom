@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: payizamoney
 providerLinkedIn: 

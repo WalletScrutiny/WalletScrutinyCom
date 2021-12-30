@@ -19,7 +19,7 @@ issue:
 icon: com.trustdx.cryptogt.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-02
 signer: 
 reviewArchive:

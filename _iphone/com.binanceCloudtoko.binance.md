@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.binanceCloudtoko.binance.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: tokocrypto
 providerLinkedIn: toko

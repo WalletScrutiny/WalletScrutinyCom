@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paxful.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: paxful
 providerLinkedIn: 

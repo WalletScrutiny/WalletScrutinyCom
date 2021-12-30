@@ -19,7 +19,7 @@ issue:
 icon: com.limitless.b_lord.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-31
 signer: 
 reviewArchive:

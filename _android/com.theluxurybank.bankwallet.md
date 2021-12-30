@@ -19,7 +19,7 @@ issue:
 icon: com.theluxurybank.bankwallet.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-11-18
 signer: 
 reviewArchive:

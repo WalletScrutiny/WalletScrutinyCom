@@ -18,15 +18,11 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: ftbfs
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-03-03
-  version: "4.4.9"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: btccom_official
 providerLinkedIn: 

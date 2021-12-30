@@ -18,11 +18,11 @@ repository: https://github.com/CoinSpace/CoinSpace
 issue: 
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
+meta: ok
 verdict: nonverifiable
 date: 2020-12-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinappwallet
 providerLinkedIn: coin-space

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitget.exchange.global.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget

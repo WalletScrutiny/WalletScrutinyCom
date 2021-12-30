@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ftx.FTXMobile.FTXUS.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: ftx_us
 providerLinkedIn: 

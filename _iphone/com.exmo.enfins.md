@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.exmo.enfins.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: Exmo_com
 providerLinkedIn: 

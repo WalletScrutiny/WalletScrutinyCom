@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: AbraGlobal
 providerLinkedIn: abra

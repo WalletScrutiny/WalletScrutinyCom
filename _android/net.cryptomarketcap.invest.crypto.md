@@ -19,7 +19,7 @@ issue:
 icon: net.cryptomarketcap.invest.crypto.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-08-13
 signer: 
 reviewArchive:

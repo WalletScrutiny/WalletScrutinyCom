@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.infinito.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: Infinito_Ltd
 providerLinkedIn: infinitoservices

@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.forex4you.ios.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-12-24
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
   verdict: nosendreceive
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 

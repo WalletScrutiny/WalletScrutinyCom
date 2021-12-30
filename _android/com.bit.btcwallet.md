@@ -19,7 +19,7 @@ issue:
 icon: com.bit.btcwallet.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-11-14
 signer: 
 reviewArchive:

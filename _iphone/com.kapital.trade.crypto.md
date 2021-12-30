@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kapital.trade.crypto.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

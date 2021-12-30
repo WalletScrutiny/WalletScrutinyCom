@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: com.bitcoinblack.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nobtc
 date: 2021-08-08
 signer: 
 reviewArchive:
-- date: 2021-04-29
-  version: "1.0.5"
-  appHash: 
-  gitRevision: 8846f7c2efdc1cf24d876fec2622625a77fe31a5
-  verdict: nobtc
 
 providerTwitter: BCB_Official1
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: partl.coini.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

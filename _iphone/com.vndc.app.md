@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.vndc.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: vncd_official
 providerLinkedIn: 

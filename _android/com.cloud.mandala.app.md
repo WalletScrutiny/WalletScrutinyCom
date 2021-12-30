@@ -19,7 +19,7 @@ issue:
 icon: com.cloud.mandala.app.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-08-13
 signer: 
 reviewArchive:

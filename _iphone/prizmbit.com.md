@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: prizmbit.com.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: prizmbit
 providerLinkedIn: 

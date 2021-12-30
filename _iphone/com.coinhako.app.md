@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.coinhako.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinhako
 providerLinkedIn: coinhako

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.swissborg.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: swissborg
 providerLinkedIn: swissborg

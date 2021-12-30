@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.plasmaalliance.PlasmaPay.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 0xPlasma
 providerLinkedIn: 0xplasma
@@ -32,4 +32,5 @@ providerReddit: PlasmaPay
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

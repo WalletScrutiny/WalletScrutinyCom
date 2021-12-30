@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.blockstream.green.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blockstream
 providerLinkedIn: blockstream

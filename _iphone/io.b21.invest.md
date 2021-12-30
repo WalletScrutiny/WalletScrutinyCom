@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.b21.invest.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: B21Official
 providerLinkedIn: b21-limited

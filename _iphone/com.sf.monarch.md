@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sf.monarch.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Monarchtoken
 providerLinkedIn: monarchtoken

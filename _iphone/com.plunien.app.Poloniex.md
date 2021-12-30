@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-01
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-
 providerTwitter: Poloniex
 providerLinkedIn: 
 providerFacebook: poloniex

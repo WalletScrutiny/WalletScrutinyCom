@@ -19,7 +19,7 @@ issue:
 icon: org.cryptomarketsdaily.bitcoin.exchange.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

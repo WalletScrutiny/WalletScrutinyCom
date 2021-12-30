@@ -19,7 +19,7 @@ issue:
 icon: ok.crypto.wallet.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-16
 signer: 
 reviewArchive:

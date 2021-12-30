@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.chainbase.global.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hotbit_news
 providerLinkedIn: hotbitexchange

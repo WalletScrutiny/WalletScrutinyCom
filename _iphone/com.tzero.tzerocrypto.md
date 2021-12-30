@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tzero.tzerocrypto.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

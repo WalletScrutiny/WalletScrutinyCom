@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nobtc
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-04-30
-  version: "1.34.2"
-  appHash: 
-  gitRevision: db763c599021fcaec6fe55cc37932f76093bd7f6
-  verdict: nobtc
 
 providerTwitter: USDXwallet
 providerLinkedIn: 

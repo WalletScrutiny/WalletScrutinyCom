@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ToolsTradesApp.ToolsTradesApp.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

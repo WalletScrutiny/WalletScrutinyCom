@@ -19,11 +19,11 @@ repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-06-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 

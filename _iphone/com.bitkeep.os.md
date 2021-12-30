@@ -18,11 +18,11 @@ repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitKeepOS
 providerLinkedIn: 

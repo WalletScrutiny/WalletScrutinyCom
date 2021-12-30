@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.swissborg.ios.community.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: cchallengesborg
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gateio.app.gateio-app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: gate_io
 providerLinkedIn: 

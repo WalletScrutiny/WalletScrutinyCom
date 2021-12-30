@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ptpwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: PtpWallet
 providerLinkedIn: 

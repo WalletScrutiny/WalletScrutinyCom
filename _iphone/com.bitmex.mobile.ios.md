@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitmex.mobile.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitmex
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nano.moonxbt.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: MoonXBT_Global
 providerLinkedIn: 

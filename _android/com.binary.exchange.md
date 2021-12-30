@@ -19,7 +19,7 @@ issue:
 icon: com.binary.exchange.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:

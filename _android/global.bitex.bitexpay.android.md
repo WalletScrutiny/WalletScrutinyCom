@@ -19,7 +19,7 @@ issue:
 icon: global.bitex.bitexpay.android.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-11-11
 signer: 
 reviewArchive:

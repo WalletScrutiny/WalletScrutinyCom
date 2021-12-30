@@ -18,11 +18,11 @@ repository: https://github.com/FunctionX/fx-wallet-android
 issue: 
 icon: com.pundix.fx.connect.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: FUNCTIONX_IO
 providerLinkedIn: functionx

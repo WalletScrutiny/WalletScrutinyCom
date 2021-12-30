@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindcx
 providerLinkedIn: coindcx

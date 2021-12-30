@@ -19,7 +19,7 @@ issue:
 icon: com.app.eizzybtc.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-11-14
 signer: 
 reviewArchive:

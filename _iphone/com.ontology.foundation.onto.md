@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ontology.foundation.onto.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ONTOWallet
 providerLinkedIn: 

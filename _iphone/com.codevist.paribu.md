@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.codevist.paribu.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-08-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

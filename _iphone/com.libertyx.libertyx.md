@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: libertyx
 providerLinkedIn: libertyx

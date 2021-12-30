@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trastra.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trastra_ltd
 providerLinkedIn: trastra

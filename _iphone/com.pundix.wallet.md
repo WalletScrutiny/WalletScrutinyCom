@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.pundix.wallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-12-26
 signer: 
 reviewArchive:
-- date: 2021-04-29
-  version: "2.9.4"
-  appHash: 
-  gitRevision: 7d56ccbaf0c892716ac66ca89fc57d7b969dd80b
-  verdict: custodial
 
 providerTwitter: PundiXLabs
 providerLinkedIn: pundix

@@ -18,11 +18,11 @@ repository:
 issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: imTokenOfficial
 providerLinkedIn: 

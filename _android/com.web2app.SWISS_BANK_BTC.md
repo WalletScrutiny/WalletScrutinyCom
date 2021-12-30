@@ -19,7 +19,7 @@ issue:
 icon: com.web2app.SWISS_BANK_BTC.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-12-11
 signer: 
 reviewArchive:

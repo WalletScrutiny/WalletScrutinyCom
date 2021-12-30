@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.metamask.MetaMask.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

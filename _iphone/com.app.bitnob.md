@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.bitnob.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitnob_official
 providerLinkedIn: bitnob

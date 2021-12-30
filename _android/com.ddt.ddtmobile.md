@@ -19,7 +19,7 @@ issue:
 icon: com.ddt.ddtmobile.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:

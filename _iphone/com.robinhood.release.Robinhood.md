@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.robinhood.release.Robinhood.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: RobinhoodApp
 providerLinkedIn: robinhood

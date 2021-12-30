@@ -19,7 +19,7 @@ issue:
 icon: com.ethercredit.wallet.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-09-19
 signer: 
 reviewArchive:

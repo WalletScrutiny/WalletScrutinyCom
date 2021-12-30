@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mxc.smartcity.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: mxcfoundation
 providerLinkedIn: 

@@ -19,7 +19,7 @@ issue:
 icon: net.advancedbitcoin.crypto.invest.simulator.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

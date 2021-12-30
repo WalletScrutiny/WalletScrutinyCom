@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.DCS.SpendWallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
-- date: 2021-05-01
-  version: "3.2.6"
-  appHash: 
-  gitRevision: 5861e40a7efbcc5187e43a2c4ac63996da74ee11
-  verdict: custodial
 
 providerTwitter: Spendcom
 providerLinkedIn: 

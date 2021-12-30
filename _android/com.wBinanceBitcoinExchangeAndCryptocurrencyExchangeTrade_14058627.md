@@ -19,7 +19,7 @@ issue:
 icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-22
 signer: 
 reviewArchive:

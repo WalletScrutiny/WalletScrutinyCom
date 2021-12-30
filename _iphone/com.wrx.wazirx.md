@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wrx.wazirx.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: WazirxIndia
 providerLinkedIn: wazirx

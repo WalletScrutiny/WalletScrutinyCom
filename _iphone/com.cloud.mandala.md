@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cloud.mandala.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: mandalaex
 providerLinkedIn: 

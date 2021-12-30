@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nominex.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: NominexExchange
 providerLinkedIn: nominex

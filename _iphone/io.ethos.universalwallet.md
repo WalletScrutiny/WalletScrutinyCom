@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-11-12
 signer: 
 reviewArchive:
-- date: 2021-03-05
-  version: "2.0.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: ethos_io
 providerLinkedIn: 

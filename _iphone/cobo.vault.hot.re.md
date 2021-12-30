@@ -18,11 +18,11 @@ repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 
 icon: cobo.vault.hot.re.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cobo_Wallet
 providerLinkedIn: cobo-official

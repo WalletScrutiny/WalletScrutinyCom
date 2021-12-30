@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tangem.Tangem.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tangem
 providerLinkedIn: tangem

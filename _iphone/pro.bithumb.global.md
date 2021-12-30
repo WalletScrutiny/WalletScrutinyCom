@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: pro.bithumb.global.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: BithumbGlobal
 providerLinkedIn: bithumbglobal

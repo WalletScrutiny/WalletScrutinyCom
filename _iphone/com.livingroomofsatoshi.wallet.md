@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.livingroomofsatoshi.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: walletofsatoshi
 providerLinkedIn: 

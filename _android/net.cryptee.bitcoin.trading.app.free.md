@@ -19,7 +19,7 @@ issue:
 icon: net.cryptee.bitcoin.trading.app.free.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: jp.fcce.zaifapps.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: zaifdotjp
 providerLinkedIn: 

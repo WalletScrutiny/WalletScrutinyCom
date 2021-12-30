@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.bitoasis.ios.com.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitoasis
 providerLinkedIn: bitoasis-technologies-fze

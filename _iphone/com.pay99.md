@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pay99.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: voude99
 providerLinkedIn: 99app

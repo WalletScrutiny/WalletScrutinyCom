@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.stormx.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: stormxio
 providerLinkedIn: StormX

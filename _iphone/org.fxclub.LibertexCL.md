@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.fxclub.LibertexCL.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: obsolete
+verdict: wip
+date: 2021-12-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

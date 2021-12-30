@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.yourcompany.PPClient.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: PayPal
 providerLinkedIn: paypal

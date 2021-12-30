@@ -19,7 +19,7 @@ issue:
 icon: net.cryptonews.bitcoin.trading.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.99pay.app.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

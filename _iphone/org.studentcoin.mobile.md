@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.studentcoin.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: studentcoinorg
 providerLinkedIn: student-coin-worldwide

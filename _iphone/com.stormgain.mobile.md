@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.stormgain.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: StormGain_com
 providerLinkedIn: 

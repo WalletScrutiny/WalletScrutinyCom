@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: jeroid.io.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: jeroidng
 providerLinkedIn: 

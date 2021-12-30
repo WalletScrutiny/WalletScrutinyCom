@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.forextb.forextb.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

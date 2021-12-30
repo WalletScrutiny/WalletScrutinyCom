@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kzencorp.mobile.ios.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: zengo
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: investvoyager
 providerLinkedIn: investvoyager

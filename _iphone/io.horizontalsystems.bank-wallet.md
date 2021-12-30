@@ -18,11 +18,11 @@ repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: unstoppablebyhs
 providerLinkedIn: 

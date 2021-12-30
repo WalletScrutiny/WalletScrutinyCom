@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitpay.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitPay
 providerLinkedIn: bitpay-inc-

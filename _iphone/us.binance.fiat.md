@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: us.binance.fiat.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: binanceus
 providerLinkedIn: binance-us

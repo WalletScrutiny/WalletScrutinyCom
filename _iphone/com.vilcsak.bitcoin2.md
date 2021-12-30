@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinbase
 providerLinkedIn: 

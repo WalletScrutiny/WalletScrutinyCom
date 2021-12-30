@@ -19,7 +19,7 @@ issue:
 icon: com.lastbit.cards.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-18
 signer: 
 reviewArchive:

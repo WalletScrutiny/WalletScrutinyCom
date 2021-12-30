@@ -14,20 +14,20 @@ stars: 5
 reviews: 7
 size: 66610176
 website: https://hexawallet.io/
-repository: https://github.com/bithyve/hexa 
+repository: https://github.com/bithyve/hexa
 issue: 
 icon: io.hexawallet.hexa2.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-12-19
 signer: 
 reviewArchive:
 
-
 providerTwitter: HexaWallet
 providerLinkedIn: bithyve
-providerFacebook:
-providerReddit:
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.chainge.finance.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: FinanceChainge
 providerLinkedIn: chainge-finance

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xiandanxiaohai.Bybt.jpg
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: bybt_com
 providerLinkedIn: 

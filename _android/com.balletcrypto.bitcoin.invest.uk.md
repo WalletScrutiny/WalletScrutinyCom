@@ -19,7 +19,7 @@ issue:
 icon: com.balletcrypto.bitcoin.invest.uk.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:

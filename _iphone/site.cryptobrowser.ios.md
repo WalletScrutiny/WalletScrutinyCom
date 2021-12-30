@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: site.cryptobrowser.ios.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-10-05
+meta: obsolete
+verdict: wip
+date: 2021-12-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

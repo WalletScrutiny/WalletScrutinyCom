@@ -19,7 +19,7 @@ issue:
 icon: com.cryptocurrencys.bestwallet.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2020-12-04
 signer: 
 reviewArchive:

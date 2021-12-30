@@ -19,7 +19,7 @@ issue:
 icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:

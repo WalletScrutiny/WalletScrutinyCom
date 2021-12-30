@@ -18,11 +18,11 @@ repository: https://github.com/muun/falcon
 issue: 
 icon: com.muun.falcon.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-07-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: muunwallet
 providerLinkedIn: 

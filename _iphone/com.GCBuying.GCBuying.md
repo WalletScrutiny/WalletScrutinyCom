@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: gcbuying
 providerLinkedIn: 

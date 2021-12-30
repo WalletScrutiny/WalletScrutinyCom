@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: FlitsNode
 providerLinkedIn: 

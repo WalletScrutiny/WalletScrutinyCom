@@ -18,11 +18,11 @@ repository: https://github.com/leadwallet/leadwallet-core
 issue: 
 icon: com.leadWallet.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: leadwallet
 providerLinkedIn: leadwallet

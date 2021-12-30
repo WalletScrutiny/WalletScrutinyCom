@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: org.openstars.tkblockchain.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-- date: 2021-10-07
-  version: "1.0.0"
-  appHash: 
-  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
-  verdict: nosource
 
 providerTwitter: trustkeysglobal
 providerLinkedIn: 

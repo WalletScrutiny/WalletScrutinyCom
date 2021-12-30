@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.swipestox.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: nagainvesting
 providerLinkedIn: nagainvesting

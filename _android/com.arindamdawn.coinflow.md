@@ -19,7 +19,7 @@ issue:
 icon: com.arindamdawn.coinflow.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-30
 signer: 
 reviewArchive:

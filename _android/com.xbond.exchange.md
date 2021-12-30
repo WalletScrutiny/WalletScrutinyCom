@@ -19,7 +19,7 @@ issue:
 icon: com.xbond.exchange.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-08-26
 signer: 
 reviewArchive:

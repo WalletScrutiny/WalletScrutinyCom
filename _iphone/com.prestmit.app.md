@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.prestmit.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: prestmit
 providerLinkedIn: 

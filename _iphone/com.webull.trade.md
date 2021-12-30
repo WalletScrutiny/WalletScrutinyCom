@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.webull.trade.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: WebullGlobal
 providerLinkedIn: webullfinancialllc

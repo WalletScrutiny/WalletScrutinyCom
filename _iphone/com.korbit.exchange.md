@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.korbit.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

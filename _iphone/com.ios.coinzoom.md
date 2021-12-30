@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.ios.coinzoom.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: GetCoinZoom
 providerLinkedIn: coinzoomhq

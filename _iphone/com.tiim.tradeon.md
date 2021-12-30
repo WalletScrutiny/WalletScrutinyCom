@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tiim.tradeon.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

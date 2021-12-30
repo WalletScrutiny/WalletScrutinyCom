@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: me.cryptopay.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptopay
 providerLinkedIn: cryptopay

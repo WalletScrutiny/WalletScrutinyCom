@@ -19,7 +19,7 @@ issue:
 icon: com.bitcoin.heaven.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-12-22
 signer: 
 reviewArchive:

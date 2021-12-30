@@ -19,7 +19,7 @@ issue:
 icon: com.sencoinex.android.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-11-26
 signer: 
 reviewArchive:

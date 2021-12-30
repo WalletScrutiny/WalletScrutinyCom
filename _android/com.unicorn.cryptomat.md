@@ -19,7 +19,7 @@ issue:
 icon: com.unicorn.cryptomat.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:

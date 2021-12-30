@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.thecirclewalletapp.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

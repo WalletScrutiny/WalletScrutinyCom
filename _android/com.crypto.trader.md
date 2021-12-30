@@ -19,7 +19,7 @@ issue:
 icon: com.crypto.trader.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-11-16
 signer: 
 reviewArchive:

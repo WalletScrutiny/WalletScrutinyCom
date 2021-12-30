@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nova.dax.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

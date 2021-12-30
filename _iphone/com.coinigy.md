@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinigy.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinigy
 providerLinkedIn: coinigy

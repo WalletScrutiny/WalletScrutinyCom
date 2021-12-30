@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobox.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: MOBOX_Official
 providerLinkedIn: 

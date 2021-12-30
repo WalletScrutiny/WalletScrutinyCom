@@ -18,11 +18,11 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: 
 icon: it.airgap.vault.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-09-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: AirGap_it
 providerLinkedIn: 

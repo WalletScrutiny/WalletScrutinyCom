@@ -19,7 +19,7 @@ issue:
 icon: ms.shamirswallet.app.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-12-06
 signer: 
 reviewArchive:

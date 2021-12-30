@@ -19,7 +19,7 @@ issue:
 icon: com.cyberblock.cyberblockmobile.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-15
 signer: 
 reviewArchive:

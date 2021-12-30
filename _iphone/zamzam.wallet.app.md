@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: zamzam.wallet.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: zam_io
 providerLinkedIn: 11770701

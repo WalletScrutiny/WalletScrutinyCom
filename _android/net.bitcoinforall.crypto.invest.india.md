@@ -19,7 +19,7 @@ issue:
 icon: net.bitcoinforall.crypto.invest.india.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:

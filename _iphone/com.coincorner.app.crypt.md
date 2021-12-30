@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coincorner.app.crypt.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinCorner
 providerLinkedIn: 

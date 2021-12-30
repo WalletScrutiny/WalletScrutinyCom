@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.lvl.firstapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: BankWithLVL
 providerLinkedIn: bankwithlvl

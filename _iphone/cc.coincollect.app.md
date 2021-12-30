@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cc.coincollect.app.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: coincollectHQ
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.papaya.blackcatcard.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

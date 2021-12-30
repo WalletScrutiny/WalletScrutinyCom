@@ -19,7 +19,7 @@ issue:
 icon: com.hilux.wallet.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-11-29
 signer: 
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.defichain.app.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: defichain
 providerLinkedIn: defichain

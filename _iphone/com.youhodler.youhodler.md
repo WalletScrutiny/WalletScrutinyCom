@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: youhodler
 providerLinkedIn: youhodler

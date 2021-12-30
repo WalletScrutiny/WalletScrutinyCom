@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.bacoor.keyring.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: KEYRING_PRO
 providerLinkedIn: 

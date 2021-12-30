@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockfi.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

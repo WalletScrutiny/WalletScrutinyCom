@@ -19,7 +19,7 @@ issue:
 icon: com.anbbit.exchange.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-12-28
 signer: 
 reviewArchive:

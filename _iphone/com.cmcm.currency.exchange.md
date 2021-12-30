@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitrueOfficial
 providerLinkedIn: 

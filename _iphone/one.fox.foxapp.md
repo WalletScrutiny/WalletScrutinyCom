@@ -1,7 +1,7 @@
 ---
 wsId: FoxOne
 title: "Fox.ONE - Buy & sell Bitcoin"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: one.fox.foxapp
@@ -14,22 +14,23 @@ stars: 4.89899
 reviews: 198
 size: 113667072
 website: https://www.fox.one/#/
-repository:
-issue:
+repository: 
+issue: 
 icon: one.fox.foxapp.jpg
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-11
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

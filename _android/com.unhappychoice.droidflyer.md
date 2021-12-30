@@ -19,7 +19,7 @@ issue:
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-28
 signer: 
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bituro.ios.bituroSurvey.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bituroapp
 providerLinkedIn: 

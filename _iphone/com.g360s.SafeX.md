@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.g360s.SafeX.jpg
 bugbounty: 
+meta: stale
 verdict: nobtc
-date: 2021-10-05
+date: 2021-12-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: ecoinofficial
 providerLinkedIn: 

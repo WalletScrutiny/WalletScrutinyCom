@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.defi.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom

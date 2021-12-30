@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-12
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-
 providerTwitter: bitrefill
 providerLinkedIn: 
 providerFacebook: bitrefill

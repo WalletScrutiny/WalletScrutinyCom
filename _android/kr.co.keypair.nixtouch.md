@@ -19,7 +19,7 @@ issue:
 icon: kr.co.keypair.nixtouch.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-12-20
 signer: 
 reviewArchive:

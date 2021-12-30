@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-- date: 2021-05-30
-  version: "1.9.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: BudaPuntoCom
 providerLinkedIn: budapuntocom

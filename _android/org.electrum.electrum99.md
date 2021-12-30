@@ -19,7 +19,7 @@ issue:
 icon: org.electrum.electrum99.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-04-29
 signer: 
 reviewArchive:

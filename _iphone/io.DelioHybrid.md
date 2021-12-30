@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.DelioHybrid.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: happydelio
 providerLinkedIn: 

@@ -19,7 +19,7 @@ issue:
 icon: com.bitfxservice.bitfxservice.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: fewusers
 date: 2021-09-28
 signer: 
 reviewArchive:

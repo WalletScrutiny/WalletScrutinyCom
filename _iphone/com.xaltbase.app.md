@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xaltbase.app.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 100XCoin_
 providerLinkedIn: 100xCoin

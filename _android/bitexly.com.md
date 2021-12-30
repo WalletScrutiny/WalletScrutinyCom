@@ -19,7 +19,7 @@ issue:
 icon: bitexly.com.png
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:

@@ -19,7 +19,7 @@ issue:
 icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2021-08-26
 signer: 
 reviewArchive:

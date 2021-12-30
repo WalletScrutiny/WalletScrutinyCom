@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sigen.sigenapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: SIGENpro
 providerLinkedIn: 

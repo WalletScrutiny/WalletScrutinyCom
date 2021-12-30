@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.jackmallers.Strike.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: ln_strike
 providerLinkedIn: 
