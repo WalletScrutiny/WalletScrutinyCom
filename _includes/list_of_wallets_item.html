@@ -18,7 +18,7 @@
   {% when "hardware" %}{% assign faCollection = "fas fa-toolbox" %}
 {% endcase %}
 {% assign simpleAppId = post.appId | replace: '.', '' | prepend: post.collection %}
-<div class="AppDisplayCard">
+<div class="AppDisplayCard meta_{{ post.meta }}">
   <div>
     <div style="position:relative">
       <div class="flex-r">

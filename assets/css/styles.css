@@ -1761,15 +1761,15 @@ html {
 }
 
 .meta_stale {
-  filter: saturate(0)
+  filter: saturate(0) opacity(70%)
 }
 
 .meta_obsolete {
-  filter: saturate(0) opacity(30%)
+  filter: saturate(0) opacity(50%) blur(1px)
 }
 
 .meta_defunct {
-  filter: saturate(0) blur(2px) opacity(30%)
+  filter: saturate(0) opacity(30%) blur(2px)
 }
 
 .meta_stale:hover, .meta_obsolete:hover, .meta_defunct:hover {
