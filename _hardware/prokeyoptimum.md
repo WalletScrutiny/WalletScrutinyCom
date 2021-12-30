@@ -20,6 +20,7 @@ repository: https://github.com/prokey-io/prokey-optimum-firmware
 issue:
 icon: prokeyoptimum.png
 bugbounty:
+meta: ok
 verdict: wip 
 date: 2021-12-10
 signer:

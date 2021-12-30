@@ -19,6 +19,7 @@ repository: https://github.com/BlochsTech/BitcoinCardTerminal
 issue:
 icon: blochstech.png
 bugbounty:
+meta: ok
 verdict: prefilled
 date: 2021-08-08
 signer:

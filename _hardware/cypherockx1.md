@@ -20,6 +20,7 @@ repository:
 issue:
 icon: cypherockx1.png
 bugbounty:
+meta: ok
 verdict: unreleased 
 date: 2021-12-03
 signer:

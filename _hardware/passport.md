@@ -18,6 +18,7 @@ repository: https://github.com/Foundation-Devices/passport-firmware
 issue: https://github.com/Foundation-Devices/passport-firmware/issues/40
 icon: passport.png
 bugbounty: https://foundationdevices.com/security/
+meta: ok
 verdict: reproducible
 date: 2021-12-01
 signer: 

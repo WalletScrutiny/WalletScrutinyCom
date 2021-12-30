@@ -20,6 +20,7 @@ repository: https://github.com/SecurityArts
 issue: https://github.com/SecurityArts/QuantumManager/issues/14
 icon: quantum.png
 bugbounty:
+meta: ok
 verdict: nosource 
 date: 2021-12-20
 signer:

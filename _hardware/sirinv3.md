@@ -20,6 +20,7 @@ repository:
 issue:
 icon: sirinv3.png
 bugbounty:
+meta: ok
 verdict: nowallet
 date: 2021-12-03
 signer:

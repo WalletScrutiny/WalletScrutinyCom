@@ -18,6 +18,7 @@ repository: https://github.com/Coldcard/firmware
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340
 icon: ColdCardMk3.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-09-08
 signer: 

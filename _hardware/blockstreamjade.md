@@ -20,6 +20,7 @@ repository: https://github.com/Blockstream/jade
 issue: https://github.com/Blockstream/Jade/issues/26
 icon: blockstreamjade.png
 bugbounty:
+meta: ok
 verdict: nonverifiable 
 date: 2021-11-02
 signer:

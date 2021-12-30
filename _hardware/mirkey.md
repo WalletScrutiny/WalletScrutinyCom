@@ -20,6 +20,7 @@ repository: https://github.com/ellipticSecure
 issue:
 icon: mirkey.png
 bugbounty:
+meta: ok
 verdict: noita
 date: 2021-12-04
 signer:

@@ -20,6 +20,7 @@ repository: https://github.com/OneKeyHQ/OneKey-Wallet
 issue:
 icon: onekey.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-11-26
 signer:

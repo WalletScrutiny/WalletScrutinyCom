@@ -18,6 +18,7 @@ repository: https://github.com/trezor/trezor-firmware
 issue: https://github.com/trezor/trezor-firmware/issues/1713
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
+meta: ok
 verdict: reproducible
 date: 2021-10-05
 signer: 
