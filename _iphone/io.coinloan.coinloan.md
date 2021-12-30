@@ -8,11 +8,11 @@ appId: io.coinloan.coinloan
 appCountry: us
 idd: 1506572788
 released: 2020-04-24
-updated: 2021-11-02
-version: "1.3.1"
-stars: 4.84149
-reviews: 429
-size: 66183168
+updated: 2021-12-28
+version: "1.4.0"
+stars: 4.82069
+reviews: 435
+size: 66885632
 website: https://coinloan.io
 repository: 
 issue: 

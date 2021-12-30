@@ -13,7 +13,7 @@ version: "1.0.6"
 stars: 4.88889
 reviews: 9
 size: 58825728
-website: https://techbank.finance
+website: https://www.beeinternational.co.in
 repository: 
 issue: 
 icon: com.techbank.dwallettb.jpg

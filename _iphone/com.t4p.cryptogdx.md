@@ -10,8 +10,8 @@ idd: 1355493928
 released: 2018-04-27
 updated: 2018-04-27
 version: "2.3"
-stars: 4.69143
-reviews: 175
+stars: 4.67045
+reviews: 176
 size: 25708544
 website: https://trading4pro.com/
 repository: 

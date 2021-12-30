@@ -1,6 +1,6 @@
 ---
 wsId: TradeAries
-title: "Aries: Investment & Trading, Commission-free"
+title: "Aries: Investing & Trading"
 altTitle: 
 authors:
 - danny

@@ -8,11 +8,11 @@ appId: br.com.mercadobitcoin.ios
 appCountry: 
 idd: 1439360986
 released: 2019-08-03
-updated: 2021-12-07
-version: "2.25.0"
-stars: 4.62646
-reviews: 257
-size: 128121856
+updated: 2021-12-22
+version: "2.26.0"
+stars: 4.62308
+reviews: 260
+size: 128072704
 website: https://www.mercadobitcoin.com.br/aplicativo
 repository: 
 issue: 

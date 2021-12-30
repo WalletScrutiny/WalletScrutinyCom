@@ -4,7 +4,7 @@ title: "DeFiChain Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.defichain.app
 released: 2021-08-22
 updated: 2021-12-21

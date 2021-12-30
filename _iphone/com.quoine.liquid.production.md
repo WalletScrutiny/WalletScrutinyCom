@@ -10,8 +10,8 @@ idd: 1443975079
 released: 2019-05-03
 updated: 2021-12-13
 version: "1.17.5"
-stars: 4.21429
-reviews: 28
+stars: 4.10344
+reviews: 29
 size: 112507904
 website: https://www.liquid.com
 repository: 

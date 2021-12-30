@@ -1,6 +1,6 @@
 ---
 wsId: ascendex
-title: "AscendEX - Cryptocurrency App"
+title: "AscendEX: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
 released: 2019-06-13
-updated: 2021-11-20
-version: "2.6.7"
-stars: 4.96631
-reviews: 2375
-size: 147030016
+updated: 2021-12-22
+version: "2.6.9"
+stars: 4.96272
+reviews: 2254
+size: 99448832
 website: 
 repository: 
 issue: 

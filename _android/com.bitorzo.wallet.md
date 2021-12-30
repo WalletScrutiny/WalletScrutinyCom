@@ -19,11 +19,15 @@ repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2
 icon: com.bitorzo.wallet.jpg
 bugbounty: 
-verdict: ftbfs
-date: 2021-04-11
+verdict: stale
+date: 2021-12-30
 signer: 
 reviewArchive:
-
+- date: 2021-04-11
+  version: "3.1.3"
+  appHash: 
+  gitRevision: 10aaa026c2abdda54df3f65e7a09ed0ea18bf40c
+  verdict: ftbfs
 
 providerTwitter: 
 providerLinkedIn: 

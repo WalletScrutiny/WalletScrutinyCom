@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.riodefi.store
 released: 2021-04-29
-updated: 2021-12-11
-version: "2.1.1"
+updated: 2021-12-27
+version: "2.1.3"
 stars: 4.4
 ratings: 42
 reviews: 29
-size: 21M
+size: 51M
 website: https://riodefi.com/
 repository: https://github.com/riodefi
 issue: 

@@ -9,11 +9,11 @@ appId: com.koinal.ios
 appCountry: gb
 idd: 1442764361
 released: 2020-06-08
-updated: 2021-11-10
-version: "1.2.16"
-stars: 4.91315
-reviews: 2372
-size: 69502976
+updated: 2021-12-13
+version: "1.2.17"
+stars: 4.91336
+reviews: 2320
+size: 69873664
 website: https://www.koinal.io
 repository: 
 issue: 

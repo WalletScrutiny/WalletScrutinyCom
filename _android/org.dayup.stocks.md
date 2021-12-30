@@ -8,7 +8,7 @@ authors:
 users: 10000000
 appId: org.dayup.stocks
 released: 
-updated: 2021-12-23
+updated: 2021-12-29
 version: "7.3.9.23"
 stars: 4.5
 ratings: 156583

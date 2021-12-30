@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.coinspot.app
 released: 
-updated: 2021-12-28
-version: "2.0.10"
+updated: 2021-12-29
+version: "2.0.11"
 stars: 2.3
 ratings: 1223
 reviews: 948

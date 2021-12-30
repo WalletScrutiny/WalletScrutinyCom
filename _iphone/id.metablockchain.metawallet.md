@@ -8,8 +8,8 @@ appId: id.metablockchain.metawallet
 appCountry: us
 idd: 1546698261
 released: 2021-01-05
-updated: 2021-09-27
-version: "1.7.0"
+updated: 2021-12-28
+version: "1.7.1"
 stars: 
 reviews: 
 size: 43745280
