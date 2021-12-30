@@ -19,7 +19,8 @@ repository:
 issue:
 icon: keyfortk300.png
 bugbounty:
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-16
 signer:
 reviewArchive:

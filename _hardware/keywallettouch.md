@@ -19,7 +19,8 @@ repository:
 issue:
 icon: keywallettouch.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip
 date: 2021-08-01
 signer:
 reviewArchive:

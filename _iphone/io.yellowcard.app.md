@@ -24,11 +24,6 @@ verdict: custodial
 date: 2021-07-28
 signer: 
 reviewArchive:
-- date: 2021-07-26
-  version: "1.3.0"
-  appHash: 
-  gitRevision: fb599ce89ee61d68c2f2d6b1de7febcde346c5e6
-  verdict: defunct
 - date: 2021-04-25
   version: "1.3.0"
   appHash: 

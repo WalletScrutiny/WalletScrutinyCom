@@ -20,7 +20,8 @@ repository:
 issue:
 icon: flxone.png
 bugbounty:
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-08
 signer:
 reviewArchive:

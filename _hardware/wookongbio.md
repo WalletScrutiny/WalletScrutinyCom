@@ -20,7 +20,8 @@ repository: https://github.com/extropiescom
 issue:
 icon: wookongbio.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip
 date: 2021-12-04
 signer:
 reviewArchive:

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: keywalletpro.png
 bugbounty:
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-10
 signer:
 reviewArchive:
