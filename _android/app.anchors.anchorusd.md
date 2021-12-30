@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.anchors.anchorusd.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: anchorusd
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 AnchorUSD claims to be a stock and crypto investment app. 
 

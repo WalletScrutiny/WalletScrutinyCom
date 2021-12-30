@@ -18,11 +18,11 @@ repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 
 icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-07-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blockchain
 providerLinkedIn: blockchain

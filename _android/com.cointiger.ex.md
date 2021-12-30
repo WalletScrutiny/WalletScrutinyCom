@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cointiger.ex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinTigerEX
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
-
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
 

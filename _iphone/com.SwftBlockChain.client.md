@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: SwftCoin
 providerLinkedIn: swftcoin

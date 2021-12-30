@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.aos.wallet.token.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-05-01
-  version: "2.0.22"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 A clear statement can be found in the [play store description](https://play.google.com/store/apps/details?id=com.aos.wallet.token) regarding the management of private keys.
 

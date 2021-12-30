@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitshield.bitshieldwallet/
 ---
-
 
 In this app's description we read:
 

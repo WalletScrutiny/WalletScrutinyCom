@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: ShapeShift_io
 providerLinkedIn: 

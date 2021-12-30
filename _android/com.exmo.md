@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.exmo.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: Exmo_com
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"
 

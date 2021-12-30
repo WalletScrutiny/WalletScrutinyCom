@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bit_bucks
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/
 ---
-
 
 According to their website:
 

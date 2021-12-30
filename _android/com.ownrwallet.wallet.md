@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-31
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
-
 providerTwitter: ownrwallet
 providerLinkedIn: 
 providerFacebook: ownrwallet
@@ -36,7 +36,6 @@ providerReddit: ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---
-
 
 So this app claims to be a partner of Bitfinex, one of the biggest exchanges:
 

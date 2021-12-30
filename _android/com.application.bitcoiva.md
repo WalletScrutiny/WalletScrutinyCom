@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.application.bitcoiva.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoiva
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Buy, store and sell cryptocurrencies like Bitcoin, Ethereum,
 

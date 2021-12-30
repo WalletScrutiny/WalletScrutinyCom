@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: LMAX
 providerLinkedIn: lmax-group
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.interactivebrokers.mobiletws4iphone.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ibkr
 providerLinkedIn: interactive-brokers

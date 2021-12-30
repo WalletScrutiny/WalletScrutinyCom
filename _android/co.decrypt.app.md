@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: decryptmedia
 providerLinkedIn: 
@@ -33,6 +33,5 @@ providerReddit:
 redirect_from:
   - /co.decrypt.app/
 ---
-
 
 This app only provides news about Bitcoin but no wallet itself.

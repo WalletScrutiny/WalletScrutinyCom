@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinigy.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinigy
 providerLinkedIn: coinigy
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

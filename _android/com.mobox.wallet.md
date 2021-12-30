@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: MOBOX_Official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the Google Play description we learn that this app is a "DeFi infrastructure:"

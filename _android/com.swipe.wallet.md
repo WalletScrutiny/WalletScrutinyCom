@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.swipe.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-07-06
 signer: 
 reviewArchive:
-- date: 2021-04-26
-  version: "1.901"
-  appHash: 
-  gitRevision: cb228d8cdb269382f7751e003d94523f6e219bc5
-  verdict: custodial
 
 providerTwitter: SwipeWallet
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.swipe.wallet/
 ---
-
 
 **Update 2021-07-06**: The app looks abandoned. It was:
 

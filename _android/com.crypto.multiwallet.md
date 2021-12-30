@@ -18,11 +18,11 @@ repository:
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-12-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: GuardaWallet
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/guardawallet/
   - /posts/com.crypto.multiwallet/
 ---
-
 
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: BalletCrypto
 providerLinkedIn: balletcrypto

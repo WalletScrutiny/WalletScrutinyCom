@@ -18,15 +18,11 @@ repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: ftbfs
 date: 2021-12-29
 signer: 
 reviewArchive:
-- date: 2019-11-10
-  version: "2.4.12"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: 
 providerLinkedIn: 
@@ -39,7 +35,6 @@ redirect_from:
   - /posts/2019/11/airbitz/
   - /posts/com.airbitz/
 ---
-
 
 Bitcoin Wallet - Airbitz
 claims to be *non-custodial* and *open source* but being the predecessor of

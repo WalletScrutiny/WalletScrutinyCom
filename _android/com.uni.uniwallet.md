@@ -9,7 +9,7 @@ appId: com.uni.uniwallet
 released: 2018-06-05
 updated: 2019-02-19
 version: "7.0.4"
-stars: 4.0
+stars: 4
 ratings: 44
 reviews: 23
 size: 4.2M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.uni.uniwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

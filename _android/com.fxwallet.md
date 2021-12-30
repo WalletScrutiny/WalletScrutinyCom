@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fxwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: fxwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution:** Some users have complained about not being able to withdraw we also tried to register but the service did not send the OTP email verification. We tried numerous times. We also tried to contact them via their Telegram, however it says 
 

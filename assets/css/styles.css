@@ -1759,3 +1759,19 @@ html {
 .infoBox > div {
   margin:1em;
 }
+
+.meta_stale {
+  filter: saturate(0)
+}
+
+.meta_obsolete {
+  filter: saturate(0) opacity(30%)
+}
+
+.meta_defunct {
+  filter: saturate(0) blur(2px) opacity(30%)
+}
+
+.meta_stale:hover, .meta_obsolete:hover, .meta_defunct:hover {
+  filter: none
+}

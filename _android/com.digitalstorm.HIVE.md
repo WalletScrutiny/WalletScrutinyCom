@@ -9,7 +9,7 @@ appId: com.digitalstorm.HIVE
 released: 2021-06-12
 updated: 2021-10-08
 version: "1.7.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.digitalstorm.HIVE.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

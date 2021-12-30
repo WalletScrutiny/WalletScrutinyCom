@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coincircle.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: coincircle
 providerLinkedIn: coincircle

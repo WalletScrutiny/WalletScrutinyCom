@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

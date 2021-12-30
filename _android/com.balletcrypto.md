@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: BalletCrypto
 providerLinkedIn: balletcrypto
@@ -32,7 +32,6 @@ providerReddit: BalletCrypto
 redirect_from:
 
 ---
-
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,
   allowing you to manage your cryptocurrencies, check their market value and add

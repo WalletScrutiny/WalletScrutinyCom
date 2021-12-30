@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ellipal.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: ellipalwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: ELLIPAL_Official
 redirect_from:
 
 ---
-
 
 **Update 2021-12-03**: This appears to be the companion app to
 {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.

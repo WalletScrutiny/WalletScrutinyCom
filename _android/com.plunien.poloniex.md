@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: Poloniex
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.plunien.poloniex/
   - /posts/com.plunien.poloniex/
 ---
-
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto
 exchange but on the Google Play description we read:

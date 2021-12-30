@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: buyucoin
 providerLinkedIn: buyucoin
@@ -33,7 +33,6 @@ redirect_from:
   - /com.buyucoinApp.buyucoin/
   - /posts/com.buyucoinApp.buyucoin/
 ---
-
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average
 rating is 3.5 stars with many complaints in the reviews. Caution is

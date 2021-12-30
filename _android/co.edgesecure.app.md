@@ -18,11 +18,11 @@ repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2019-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: edgewallet
 providerLinkedIn: 3609678
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/edge/
   - /posts/co.edgesecure.app/
 ---
-
 
 Edge - Bitcoin, Ethereum, Monero, Ripple Wallet
 is the successor of {% include walletLink.html wallet='android/com.airbitz' verdict='true' %} and claims to be *non-custodial* and

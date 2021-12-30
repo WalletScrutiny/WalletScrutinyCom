@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binance.cloud.tokocrypto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: tokocrypto
 providerLinkedIn: toko
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Presented by Binance - corroborated on [Binance Launchpad's Tokocrypto Token Sale](https://www.binance.com/en/support/announcement/4620c8a2a87c42978519750964af7aa4)
 

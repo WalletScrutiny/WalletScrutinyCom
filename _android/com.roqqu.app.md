@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.roqqu.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: roqqupay
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider claims:
 

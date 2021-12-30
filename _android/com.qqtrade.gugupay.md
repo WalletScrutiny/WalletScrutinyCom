@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.qqtrade.gugupay.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 You probably are looking for the other 99pay app:
 

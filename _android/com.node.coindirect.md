@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.node.coindirect.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindirectcom
 providerLinkedIn: coindirect
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It is concerning to see a wallet with a rating of less than 2 in the Google Play
 Store with close to 500 total ratings.

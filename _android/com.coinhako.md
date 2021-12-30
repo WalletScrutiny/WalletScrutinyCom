@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinhako.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinhako
 providerLinkedIn: coinhako
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Having a scan over the providers website and faq articles does not reveal any
 claims regarding the management of private keys.

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.paypal.android.p2pmobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: PayPal
 providerLinkedIn: paypal
@@ -33,7 +33,6 @@ providerReddit: paypal
 redirect_from:
 
 ---
-
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive

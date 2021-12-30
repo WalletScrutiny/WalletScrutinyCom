@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: loadng.com.loadng.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: loadngautomated
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

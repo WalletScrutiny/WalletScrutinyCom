@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.suncrypto.in.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: suncryptoin
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We downloaded the app. 
 

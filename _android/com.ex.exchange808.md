@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ex.exchange808.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 808TA_
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

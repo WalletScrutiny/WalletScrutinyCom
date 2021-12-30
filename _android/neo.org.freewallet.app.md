@@ -19,6 +19,7 @@ repository:
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-04
 signer: 
@@ -28,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nobtc
-
 providerTwitter: freewalletorg
 providerLinkedIn: 
 providerFacebook: freewallet.org
@@ -37,7 +37,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 From the App Description:

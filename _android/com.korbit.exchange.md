@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.korbit.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This Korean cryptocurrency exchange requires real name verification (KYC). This includes the requirement to register using a Korean mobile phone number. 
 

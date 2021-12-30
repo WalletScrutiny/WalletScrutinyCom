@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.payplux.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: PayPlux
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

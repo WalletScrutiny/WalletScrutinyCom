@@ -18,11 +18,11 @@ repository: https://github.com/pillarwallet/pillarwallet
 issue: 
 icon: com.pillarproject.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-02-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: PillarWallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.pillarproject.wallet/
   - /posts/com.pillarproject.wallet/
 ---
-
 
 This app is not a Bitcoin wallet. Neither the description nor the website claim
 support of BTC and when installing it, you can find tokens with "Bitcoin" in

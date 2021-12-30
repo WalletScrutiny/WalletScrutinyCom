@@ -18,11 +18,11 @@ repository: https://github.com/ember-fund
 issue: 
 icon: com.emberfund.ember.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Ember_Fund
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

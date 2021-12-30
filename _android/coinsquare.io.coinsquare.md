@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinsquare
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /coinsquare.io.coinsquare/
   - /posts/coinsquare.io.coinsquare/
 ---
-
 
 This is the interface for an exchange. In the description we read:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.jp-ex.iosapp2.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

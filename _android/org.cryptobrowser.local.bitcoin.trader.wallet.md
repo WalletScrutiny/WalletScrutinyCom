@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-09**: This app is not on Google Play anymore.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.pagosalinstante.com.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: paiexchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 
 

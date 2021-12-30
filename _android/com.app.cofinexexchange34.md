@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.cofinexexchange34.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: CofinexExchange
 providerLinkedIn: cofinex-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

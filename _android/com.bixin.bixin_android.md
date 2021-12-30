@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bixin.bixin_android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: BixinWallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

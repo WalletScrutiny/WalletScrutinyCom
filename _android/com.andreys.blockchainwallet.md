@@ -2,6 +2,7 @@
 wsId: 
 title: "Blockchain Wallet"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.andreys.blockchainwallet
@@ -17,11 +18,11 @@ repository:
 issue: 
 icon: com.andreys.blockchainwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-02-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.andreys.blockchainwallet/
 ---
-
 
 **Update:** This app is not on Google Play anymore
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ocean.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: OceanexOfficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: OceanExOfficial
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.phonegap.bit2me.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: bit2me
 providerLinkedIn: bit2me
@@ -33,7 +33,6 @@ redirect_from:
   - /com.phonegap.bit2me/
   - /posts/com.phonegap.bit2me/
 ---
-
 
 This appears to be the interface for an exchange. We could not find any claims
 about you owning your keys. As a custodial service it is **not verifiable**.

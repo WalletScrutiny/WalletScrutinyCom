@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ittrendex.liteforex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: litefinanceeng
 providerLinkedIn: litefinance-official
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > LiteForex: Investments and Trading is a high-tech Forex app developed by LiteForex specialists that has the most user-friendly interface for online trading and investing on financial markets. 
 

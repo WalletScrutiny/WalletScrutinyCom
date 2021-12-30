@@ -9,7 +9,7 @@ appId: com.medishares.android
 released: 2018-04-17
 updated: 2021-06-10
 version: "4.1.8"
-stars: 4.0
+stars: 4
 ratings: 1060
 reviews: 541
 size: 50M
@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.medishares.android.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-06-18
 signer: 
 reviewArchive:
-- date: 2020-12-03
-  version: "3.9.0"
-  appHash: 
-  gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
-  verdict: nosource
 
 providerTwitter: Mathwallet
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.medishares.android/
 ---
-
 
 **Update:** This app is not available on Google Play anymore.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bibox.www.bibox.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bibox365
 providerLinkedIn: biboxexchange
@@ -32,7 +32,6 @@ providerReddit: Bibox
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

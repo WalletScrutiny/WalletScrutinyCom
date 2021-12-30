@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.token.lpnt.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: officialLPNT
 providerLinkedIn: official-lpnt
@@ -32,7 +32,6 @@ providerReddit: lpntokenofficial
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the description:

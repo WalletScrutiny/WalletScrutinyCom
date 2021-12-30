@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitbuy.mobileApp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitbuy
 providerLinkedIn: bitbuyca
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This Canada specific Money Service Business, FINTRAC regulated app or service, allows Canadian users to buy or sell Bitcoin. The app or service in its [Terms page](https://bitbuy.ca/en/terms) warns users that:
 

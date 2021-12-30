@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gcbuying.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: gcbuying
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

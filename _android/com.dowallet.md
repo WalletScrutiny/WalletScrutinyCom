@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dowallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-11-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet sounds like non-custodial. From their description:
 

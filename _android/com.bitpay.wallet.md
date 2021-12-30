@@ -19,11 +19,11 @@ repository: https://github.com/bitpay/wallet
 issue: https://github.com/bitpay/wallet/issues/10425
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
+meta: ok
 verdict: ftbfs
 date: 2019-11-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitPay
 providerLinkedIn: bitpay-inc-
@@ -36,7 +36,6 @@ redirect_from:
   - /posts/2019/11/bitpay/
   - /posts/com.bitpay.wallet/
 ---
-
 
 ## Updated Review
 

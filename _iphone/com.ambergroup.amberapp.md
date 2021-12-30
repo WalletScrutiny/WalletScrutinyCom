@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ambergroup.amberapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: ambergroup_io
 providerLinkedIn: amberbtc

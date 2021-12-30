@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hoo.qianbao.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hoo_exchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: HooExchange
 redirect_from:
 
 ---
-
 
 ## App Description
 From the full Google Play description:

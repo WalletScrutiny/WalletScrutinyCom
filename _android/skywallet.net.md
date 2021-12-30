@@ -9,7 +9,7 @@ appId: skywallet.net
 released: 2020-05-11
 updated: 2020-05-11
 version: "1.0.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.7M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: skywallet.net.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

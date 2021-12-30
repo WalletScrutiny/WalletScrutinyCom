@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: vision.genesis.ios.investor.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: genesis_vision
 providerLinkedIn: genesis-vision

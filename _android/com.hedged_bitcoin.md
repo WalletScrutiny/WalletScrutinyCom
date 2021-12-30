@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hedged_bitcoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: HedgedBitcoin
 providerLinkedIn: hedgedbitcoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

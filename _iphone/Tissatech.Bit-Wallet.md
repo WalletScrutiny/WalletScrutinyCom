@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitwalletinc
 providerLinkedIn: 

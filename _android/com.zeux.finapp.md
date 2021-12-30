@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Zeux is a UK-only payment app that combines fiat and cryptocurrencies. It also provides banking and investment onramps.
 
 > - See your cash, crypto and bank balances in one place

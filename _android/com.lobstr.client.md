@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.lobstr.client.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lobstrco
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As the description states, lobstr is a stellar lumens wallet. 
 

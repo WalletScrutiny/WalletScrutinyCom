@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dex.digitalexchangeid.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Digiexchangeid
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play app summary:
 

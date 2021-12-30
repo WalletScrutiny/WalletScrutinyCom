@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ittrendex.liteforex.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rekeningku.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: Rekeningkucom
 providerLinkedIn: rekeningku-com
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 

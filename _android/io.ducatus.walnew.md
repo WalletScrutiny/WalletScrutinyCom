@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.ducatus.walnew.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app supports Bitcoin:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.bitstamp.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitstamp
 providerLinkedIn: bitstamp
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 On the Google Play description we read:
 

@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-09-06
 signer: 
 reviewArchive:
-- date: 2021-04-20
-  version: "1.8.0"
-  appHash: 
-  gitRevision: d2e998640b3a1cd26cb0b6c2d0ac04137f0aa603
-  verdict: custodial
-  
 
 providerTwitter: QuidaxAfrica
 providerLinkedIn: quidax

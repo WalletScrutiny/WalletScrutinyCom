@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pro.bitcointoyou.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcointoyou
 providerLinkedIn: bitcointoyou
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.
 However being an exchange, it is highly likely that this is a custodial service with funds being in control of the provider.

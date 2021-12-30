@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: at.smartlab.tshop.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.
 

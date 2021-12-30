@@ -18,7 +18,8 @@ repository:
 issue: 
 icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -31,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-09**: This app is no more.

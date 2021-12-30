@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitpieWallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitpie/
   - /posts/com.bitpie/
 ---
-
 
 **Update 2021-12-11**: This app recently got very bad reviews, with people who
 lost funds. On the other hand we did review their hardware wallets, that might

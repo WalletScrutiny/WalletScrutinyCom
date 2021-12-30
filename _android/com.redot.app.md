@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.redot.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: redotcom
 providerLinkedIn: redotcom
@@ -32,7 +32,6 @@ providerReddit: redot_com
 redirect_from:
 
 ---
-
 
 ## App Description
 

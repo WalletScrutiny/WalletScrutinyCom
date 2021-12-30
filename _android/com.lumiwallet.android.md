@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lumi_wallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.lumiwallet.android/
   - /posts/com.lumiwallet.android/
 ---
-
 
 **Update 2021-06-16**: Something weird is going on. Apparently there are three
 Lumi apps: {% include walletLink.html wallet='iphone/com.lumiwallet.HD' %} on

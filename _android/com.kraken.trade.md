@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kraken.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: krakenfx
 providerLinkedIn: krakenfx
@@ -33,7 +33,6 @@ redirect_from:
   - /com.kraken.trade/
   - /posts/com.kraken.trade/
 ---
-
 
 On their website we read:
 

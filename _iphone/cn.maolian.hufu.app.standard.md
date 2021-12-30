@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hoo_exchange
 providerLinkedIn: 

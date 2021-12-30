@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ru.koshelek.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: koshelek_ru
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinTigerEX
 providerLinkedIn: 

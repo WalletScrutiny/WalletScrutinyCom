@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitwala.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: nuribanking
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review and Verdict 2021-12-22
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.myetherwallet.mewwallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-02-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

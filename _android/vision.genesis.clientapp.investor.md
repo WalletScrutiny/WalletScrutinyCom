@@ -18,11 +18,11 @@ repository: https://github.com/GenesisVision/android-client
 issue: 
 icon: vision.genesis.clientapp.investor.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: genesis_vision
 providerLinkedIn: genesis-vision
@@ -32,7 +32,6 @@ providerReddit: genesisvision
 redirect_from:
 
 ---
-
 
 ### Google Play Description
 

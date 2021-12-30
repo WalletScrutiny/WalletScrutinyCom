@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.XcelTrip.XcelPay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: XcelPayWallet
 providerLinkedIn: in/xcelpaywallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet has no claim of being non-custodial in the app's description.
 

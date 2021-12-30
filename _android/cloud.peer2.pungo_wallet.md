@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-06-02
 signer: 
 reviewArchive:
-- date: 2020-07-29
-  version: "1.33"
-  appHash: 
-  gitRevision: c08607be70f54ef29194d3b501f74ae09a9c9c6c
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.
 We assume this wallet is no more.

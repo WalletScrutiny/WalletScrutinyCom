@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fiboda.Fiboda.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

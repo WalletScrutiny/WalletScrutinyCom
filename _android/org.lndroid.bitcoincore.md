@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.lndroid.bitcoincore.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <!-- https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/189 -->

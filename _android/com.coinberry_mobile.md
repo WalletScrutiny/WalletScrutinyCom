@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinberry_mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinberryHQ
 providerLinkedIn: coinberry
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [In their official website](https://www.coinberry.com/learn/crypto-storage-guide), Coinberry directly states that their app is custodial.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pay99.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: voude99
 providerLinkedIn: 99app
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the payment app for the ride sharing app "99" which is popular in
 Brazil. 99 was bought by "Didi Chuxing", the Chinese Ride Sharing giant.

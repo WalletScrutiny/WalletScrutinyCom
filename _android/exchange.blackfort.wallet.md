@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: exchange.blackfort.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlackFort_Tech
 providerLinkedIn: blackfort-wallet-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2020-12-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: incognitochain
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.incognito.wallet/
 ---
-
 
 After many many reviews of custodial wallets, this one makes a promising claim:
 

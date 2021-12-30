@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinme.CoinMe.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinme
 providerLinkedIn: coinme

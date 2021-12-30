@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.fxclub.libertex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: libertex_latam
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Libertex is a powerful online trading app designed to boost your trading experience.
 

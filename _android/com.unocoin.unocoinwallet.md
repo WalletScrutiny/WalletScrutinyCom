@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: Unocoin
 providerLinkedIn: unocoin
@@ -33,7 +33,6 @@ redirect_from:
   - /com.unocoin.unocoinwallet/
   - /posts/com.unocoin.unocoinwallet/
 ---
-
 
 This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their

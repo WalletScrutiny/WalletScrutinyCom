@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: walletapp.safepal.io.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: iSafePal
 providerLinkedIn: 

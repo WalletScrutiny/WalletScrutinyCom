@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.lvl.firstapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: BankWithLVL
 providerLinkedIn: bankwithlvl
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 LVL describes itself as a "premium all-in-one finance app that lets you buy and sell crypto for free." It claims to be a community exchange:

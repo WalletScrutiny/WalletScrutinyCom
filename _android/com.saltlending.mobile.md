@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.saltlending.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: SALTlending
 providerLinkedIn: saltlending
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play:

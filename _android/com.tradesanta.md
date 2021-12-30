@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description and Verdict
 TradeSanta isn't a cryptocurrency exchange or wallet, but claims to provide trading bots that automate trading strategies on crypto exchanges, including:

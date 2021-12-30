@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitpezapro.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: bekonta
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

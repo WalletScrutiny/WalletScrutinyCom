@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinme.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinme
 providerLinkedIn: coinme
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

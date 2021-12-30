@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: deltastock
 providerLinkedIn: deltastock-ad

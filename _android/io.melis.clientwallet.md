@@ -18,11 +18,11 @@ repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2020-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /io.melis.clientwallet/
   - /posts/io.melis.clientwallet/
 ---
-
 
 **Update:** The provider
 [replied to our issue](https://github.com/melis-wallet/melis-cm-client/issues/1#issuecomment-619886541)

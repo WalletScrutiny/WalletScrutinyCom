@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.phemex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: phemex_official
 providerLinkedIn: phemex
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Phemex mobile app claims to hold funds in cold storage...
 

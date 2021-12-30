@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: FlitsNode
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app appears to support Bitcoin:
 

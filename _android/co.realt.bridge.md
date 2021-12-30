@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: RealTPlatform
 providerLinkedIn: realtplatform
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

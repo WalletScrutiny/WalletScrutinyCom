@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: gwallet.tech.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

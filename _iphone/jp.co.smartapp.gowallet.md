@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: jp.co.smartapp.gowallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: gowallet_app_
 providerLinkedIn: 

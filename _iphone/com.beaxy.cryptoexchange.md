@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.beaxy.cryptoexchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: BeaxyExchange
 providerLinkedIn: 

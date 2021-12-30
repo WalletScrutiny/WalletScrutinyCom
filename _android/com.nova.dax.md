@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nova.dax.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: Nova_DAXglobal
 providerLinkedIn: novadax-do-brasil
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):
 

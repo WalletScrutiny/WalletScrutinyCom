@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kraken.invest.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: krakenfx
 providerLinkedIn: krakenfx
@@ -32,7 +32,6 @@ providerReddit: Kraken
 redirect_from:
 
 ---
-
 
 Kraken is one of the leading exchanges in the world with over 2 billion traded over a 24h period. 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pilotmobiletrading.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: tradewithpilot
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

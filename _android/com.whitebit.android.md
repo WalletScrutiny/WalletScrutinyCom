@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.whitebit.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: whitebit
 providerLinkedIn: whitebit-cryptocurrency-exchange
@@ -32,7 +32,6 @@ providerReddit: WhiteBitExchange
 redirect_from:
 
 ---
-
 
 This centralized cryptocurrency exchange also has a decentralized exchange. 
 

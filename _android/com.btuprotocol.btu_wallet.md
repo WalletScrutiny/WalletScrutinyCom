@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btuprotocol.btu_wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: versoapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

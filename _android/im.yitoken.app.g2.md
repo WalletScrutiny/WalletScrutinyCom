@@ -9,7 +9,7 @@ appId: im.yitoken.app.g2
 released: 2021-06-15
 updated: 2021-11-29
 version: "1.2.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 55M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: im.yitoken.app.g2.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

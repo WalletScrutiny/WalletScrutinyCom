@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: obfuscated
 date: 2021-07-22
 signer: 
 reviewArchive:
-- date: 2020-11-30
-  version: "3.5.9" 
-  appHash: 
-  gitRevision: cbd2b77c8c918c118f20ee1fcabcb37e1dcedb96
-  verdict: obfuscated
 - date: 2020-03-30
   version: "3.1.4"
   appHash: 
@@ -37,7 +33,6 @@ reviewArchive:
   appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
-
 providerTwitter: polehincom
 providerLinkedIn: 
 providerFacebook: polehincom
@@ -49,7 +44,6 @@ redirect_from:
   - /posts/2019/11/bitcoinwallet/
   - /posts/com.polehin.android/
 ---
-
 
 **Update 2021-07-22**: It took Google 8 months to remove this app after we
 called it a blatant scam. Below is our review from 2020-11-30.

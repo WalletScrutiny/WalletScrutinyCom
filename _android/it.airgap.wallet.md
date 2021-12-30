@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: it.airgap.wallet.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2019-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: AirGap_it
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/
 ---
-
 
 This appears to not be a wallet as to our understanding, it does not hold any
 private keys but delegates that part to {% include walletLink.html wallet='android/it.airgap.vault' %}

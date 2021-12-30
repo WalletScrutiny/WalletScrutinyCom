@@ -39,7 +39,8 @@ const allowedHeaders = [
   "providerLinkedIn",
   "providerFacebook",
   "providerReddit",
-  "redirect_from"
+  "redirect_from",
+  "meta" // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
 ]
 const folder = "_iphone/"
 
@@ -89,7 +90,7 @@ function refreshFile(fileName) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    if (!"defunct".includes(header.verdict)) {
+    if (!"defunct".includes(header.meta)) {
       apple.app({
           id: idd,
           lang: 'en',
@@ -110,9 +111,24 @@ function refreshFile(fileName) {
       })
     } else {
       stats.defunct++
+      writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
       release()
     }
   })
+}
+
+function getAppFromHeader(header) {
+  return {
+    version: header.version,
+    released: header.released,
+    updated: header.updated,
+    title: header.title,
+    score: header.stars,
+    reviews: header.reviews,
+    ratings: header.ratings,
+    size: header.size,
+    developerWebsite: header.website
+  }
 }
 
 function writeResult(app, header, iconExtension, body) {
@@ -126,43 +142,35 @@ function writeResult(app, header, iconExtension, body) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   const reviewArchive = (header.reviewArchive || [])
-      .filter(it => {
-        // Remove pseudo verdicts.
-        return !"wip,fewusers,stale,obsolete".includes(it.verdict) && it.verdict != undefined
-      })
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
   stats.updated++
   var verdict = header.verdict
   var date = header.date
+  var meta = header.meta || "ok"
   // retire if needed
-  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-  if ( daysSinceUpdate > 720 ) {
-    if ( verdict != "obsolete" ) {
-      // mark obsolete if old and not obsoelte yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "obsolete"
-      date = new Date()
-    }
-  } else if ( daysSinceUpdate > 360 ) {
-    if ( verdict != "stale" ) {
-      // mark stale if old and not stale yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "stale"
-      date = new Date()
-    }
-  } else {
-    if ( verdict == "stale" || verdict == "obsolete" ) {
-      // stale/obsolete product was revived. We might have to look into it.
-      helper.addReviewArchive(reviewArchive, header)
-      if ( app.minInstalls < 1000 ) {
-        verdict = "fewusers"
-      } else {
-        verdict = "wip"
+  if (meta != "defunct") {
+    const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+    if ( daysSinceUpdate > 720 ) {
+      if ( meta != "obsolete" ) {
+        // mark obsolete if old and not obsoelte yet
+        meta = "obsolete"
+        date = new Date()
       }
-      console.log(`\nReviving iphone/${header.appId} (${verdict})`)
-      date = new Date()
+    } else if ( daysSinceUpdate > 360 ) {
+      if ( meta != "stale" ) {
+        // mark stale if old and not stale yet
+        meta = "stale"
+        date = new Date()
+      }
+    } else {
+      if ( "stale,obsolete".includes(meta)) {
+        // stale/obsolete product was revived. We might have to look into it.
+        meta = "ok"
+        console.log(`\nReviving iphone/${header.appId} (${verdict})`)
+        date = new Date()
+      }
     }
   }
   f.write(`---
@@ -185,6 +193,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
+meta: ${meta}
 verdict: ${verdict}
 date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
@@ -194,7 +203,6 @@ ${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
-
 providerTwitter: ${header.providerTwitter || ""}
 providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}

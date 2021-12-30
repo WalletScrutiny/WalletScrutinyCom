@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kurewallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is no more. Our update script didn't get any data from Play Store since
 some days now, so we assume we won't get a chance to review it as it was not

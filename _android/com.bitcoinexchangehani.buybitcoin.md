@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-- date: 2020-06-20
-  version: "2.2.2"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /com.bitcoinexchangehani.buybitcoin/
   - /posts/com.bitcoinexchangehani.buybitcoin/
 ---
-
 
 **Update 2021-10-26**: This app is no more.
 

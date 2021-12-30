@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobillium.btcturk.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: btcturk
 providerLinkedIn: btcturk
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

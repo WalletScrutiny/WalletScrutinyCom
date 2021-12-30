@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: dextrade_
 providerLinkedIn: dex-trade-exchange

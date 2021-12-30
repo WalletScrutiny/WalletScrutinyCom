@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: asia.coins.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
-
 providerTwitter: coinsph
 providerLinkedIn: coins-ph
 providerFacebook: coinsph
@@ -39,7 +39,6 @@ redirect_from:
   - /posts/2019/11/coinsph/
   - /posts/asia.coins.mobile/
 ---
-
 
 Coins.ph Wallet
 being a very broad product and not strongly focused on being a Bitcoin wallet

@@ -138,8 +138,9 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = 'reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,stale,obsolete,defunct,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
-  const paltformOrder = ['android', 'iphone', 'hardware']
+  const verdictOrder = 'reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
+  const paltformOrder = 'android,iphone,hardware'.split(',')
+  const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
         (verdict === "all" || String(obj.verdict) === verdict) &&
@@ -150,11 +151,14 @@ function updateModularPayload() {
     }
   })
   appIds.sort().reverse()
+  // presort = presort.filter(it => it.meta=="ok")
   presort.sort((a, b) => {
     if (a.verdict != b.verdict)
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
       return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
+    if (a.meta != b.meta)
+      return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
     if (a.users != b.users)
       return b.users - a.users
     if (a.ratings != b.ratings)
@@ -194,7 +198,7 @@ function getBadge(wallet) {
     case "hardware": faCollection = "fas fa-toolbox"; break
   }
 
-  return  `<div id="card_${walletId}" class="AppDisplayCard" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
+  return  `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
       <div style="width:7em;position: relative;" onclick="toggleApp('${walletId}')">
         <div id="show_${walletId}" class="card-expand-close">
           <i class="fas fa-plus-square"></i>

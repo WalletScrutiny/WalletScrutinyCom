@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.chainex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: ChainEXIO
 providerLinkedIn: chainexio
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

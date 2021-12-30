@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.squareup.cash.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: cashapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.squareup.cash/
 ---
-
 
 This app is primarily a banking app:
 

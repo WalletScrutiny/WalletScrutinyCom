@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cobo_Wallet
 providerLinkedIn: coboofficial

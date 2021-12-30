@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rainmanagement.rain.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: rainfinancial
 providerLinkedIn: rainfinancial
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

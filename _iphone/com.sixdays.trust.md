@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sixdays.trust.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustwalletapp
 providerLinkedIn: 

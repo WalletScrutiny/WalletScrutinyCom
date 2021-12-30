@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.hold.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: HoldHQ
 providerLinkedIn: holdhq

@@ -9,7 +9,7 @@ appId: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f
 released: 2020-09-10
 updated: 2021-01-26
 version: "0.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

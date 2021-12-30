@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.remitano.remitano.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: remitano
 providerLinkedIn: Remitano

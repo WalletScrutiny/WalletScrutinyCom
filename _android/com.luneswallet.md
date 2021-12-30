@@ -18,21 +18,16 @@ repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-12-29
 signer: 
 reviewArchive:
-- date: 2021-07-15
-  version: "2.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 - date: 2020-08-29
   version: "2.1"
   appHash: 
   gitRevision: 477c4edc4f632895993602574ba383a08df9041f
   verdict: nonverifiable
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -42,7 +37,6 @@ redirect_from:
   - /com.luneswallet/
   - /posts/com.luneswallet/
 ---
-
 
 **Update 2021-07-15:** As [Emanuel](/authors/emanuel) already
 [noticed in March '21](https://github.com/Lunes-platform/Wallet-mobile/issues/9),

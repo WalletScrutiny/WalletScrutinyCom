@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.electroneum.mobile.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-06-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.electroneum.mobile/
   - /posts/com.electroneum.mobile/
 ---
-
 
 This app does not support storing BTC.
 

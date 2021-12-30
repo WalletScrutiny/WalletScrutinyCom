@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.spantom.jeroid.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: jeroidng
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

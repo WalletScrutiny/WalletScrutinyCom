@@ -18,11 +18,11 @@ repository: https://github.com/ProtonProtocol/
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: protonxpr
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: ProtonChain
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: litebiteu
 providerLinkedIn: litebit
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.flutter.litebit/
 ---
-
 
 > All you need is a LiteBit account.
 

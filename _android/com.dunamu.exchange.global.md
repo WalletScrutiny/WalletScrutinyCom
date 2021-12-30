@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dunamu.exchange.global.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: upbit-official
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.dunamu.exchange/
 ---
-
 
 ## App Description
 

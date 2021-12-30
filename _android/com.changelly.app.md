@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.changelly.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +34,5 @@ redirect_from:
   - /com.changelly.app/
   - /posts/com.changelly.app/
 ---
-
 
 This app has no wallet feature in the sense that you hold Bitcoins in the app.

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.iqpandroidinterface.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## ⚠️ Update and Warning: 2021-11-09
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xtb.xmobile2.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: xtbuk
 providerLinkedIn: xtb-international
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app description:
 

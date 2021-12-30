@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: mw.org.freewallet.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2019-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: freewalletorg
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 According to the description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** This app has a generic sounding name: "Crypto Exchange". Since it is not mimicking any well known exchange in logo or name, it can't be the fake of something else. Its primary focus is that it's a referral.
 

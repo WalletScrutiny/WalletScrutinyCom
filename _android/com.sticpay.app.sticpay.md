@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sticpay.app.sticpay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: SticPay
 providerLinkedIn: sticpay
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the Google Play description, STICPAY does claim to be a digital wallet.
 

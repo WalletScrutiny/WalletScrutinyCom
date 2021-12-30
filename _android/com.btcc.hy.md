@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btcc.hy.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: YourBTCC
 providerLinkedIn: yourbtcc
@@ -32,7 +32,6 @@ providerReddit: YourBTCC
 redirect_from:
 
 ---
-
 
 In its Google Play description:
 

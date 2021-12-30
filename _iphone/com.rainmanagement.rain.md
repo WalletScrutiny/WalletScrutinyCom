@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rainmanagement.rain.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: rainfinancial
 providerLinkedIn: rainfinancial

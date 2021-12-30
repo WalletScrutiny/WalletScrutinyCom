@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.roseon.finance.production.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: RoseonFinance
 providerLinkedIn: 

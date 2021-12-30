@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: UpholdInc
 providerLinkedIn: upholdinc
@@ -33,7 +33,6 @@ redirect_from:
   - /com.uphold.wallet/
   - /posts/com.uphold.wallet/
 ---
-
 
 This app appears to be an interface to a custodial trading platform. In the
 Google Play description we read:

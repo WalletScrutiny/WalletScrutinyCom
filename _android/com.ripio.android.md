@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ripio.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-03-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: ripioapp
 providerLinkedIn: ripio
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/ripio/
   - /posts/com.ripio.android/
 ---
-
 
 Ripio Bitcoin Wallet: the new digital economy
 does not claim to be non-custodial and looks much like an interface for an

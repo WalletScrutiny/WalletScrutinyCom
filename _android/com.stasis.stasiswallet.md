@@ -18,11 +18,11 @@ repository: https://github.com/stasisnet
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: stasisnet
 providerLinkedIn: stasisnet
@@ -33,7 +33,6 @@ redirect_from:
   - /com.stasis.stasiswallet/
   - /posts/com.stasis.stasiswallet/
 ---
-
 
 On Google Play and their website there is no mention of being non-custodial and
 certainly there is no source code available. Until we hear opposing claims

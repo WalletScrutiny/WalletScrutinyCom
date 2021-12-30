@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mtpelerin.bridge.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: mtpelerin
 providerLinkedIn: mt-pelerin
@@ -32,7 +32,6 @@ providerReddit: MtPelerin
 redirect_from:
   - /com.mtpelerin.bridge/
 ---
-
 
 On Google Play they claim
 

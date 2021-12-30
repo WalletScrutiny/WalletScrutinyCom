@@ -18,11 +18,11 @@ repository: https://github.com/OneKeyHQ/wallet-deprecated-
 issue: 
 icon: com.onekey.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: OneKeyHQ
 providerLinkedIn: 

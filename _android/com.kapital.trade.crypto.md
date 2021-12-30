@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kapital.trade.crypto.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 
 

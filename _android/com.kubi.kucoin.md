@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kubi.kucoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: KuCoinCom
 providerLinkedIn: kucoin
@@ -32,7 +32,6 @@ providerReddit: kucoin
 redirect_from:
 
 ---
-
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin
   securely.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.moonstake.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: moonstake
 providerLinkedIn: moonstake
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Moonstake Wallet directly claims that it is a non-custodial wallet. From the Play Store description:
 

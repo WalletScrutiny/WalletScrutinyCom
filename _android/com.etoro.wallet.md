@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.etoro.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the eToro wallet FAQ:
 

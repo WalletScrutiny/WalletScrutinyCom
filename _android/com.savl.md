@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.savl.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.stormgain.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: StormGain_com
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app's description mainly focuses on trading and interest earning, features
 usually associated with custodial offerings. Also their little paragraph on

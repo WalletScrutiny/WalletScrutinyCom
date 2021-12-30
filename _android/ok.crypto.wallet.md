@@ -9,7 +9,7 @@ appId: ok.crypto.wallet
 released: 2020-09-21
 updated: 2020-09-21
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 25M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ok.crypto.wallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -9,7 +9,7 @@ appId: com.bitzapp
 released: 2020-03-15
 updated: 2020-08-11
 version: "1.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 23M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitzapp.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

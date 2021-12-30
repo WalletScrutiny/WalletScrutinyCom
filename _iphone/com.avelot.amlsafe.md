@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.avelot.amlsafe.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

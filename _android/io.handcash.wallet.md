@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.handcash.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2019-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: handcashapp
 providerLinkedIn: 
@@ -33,6 +33,5 @@ redirect_from:
   - /io.handcash.wallet/
   - /posts/io.handcash.wallet/
 ---
-
 
 A BSV wallet.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blocktrade.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blocktradecom
 providerLinkedIn: blocktradecom
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

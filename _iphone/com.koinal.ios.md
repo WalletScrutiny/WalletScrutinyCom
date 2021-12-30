@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.koinal.ios.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: koinal_io
 providerLinkedIn: koinal-io

@@ -18,11 +18,11 @@ repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2020-04-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /org.coinid.vault/
   - /posts/org.coinid.vault/
 ---
-
 
 This app is the companion app for the
 {% include walletLink.html wallet='android/org.coinid.wallet.btc' verdict='true' %}

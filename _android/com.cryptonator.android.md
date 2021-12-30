@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
-
 providerTwitter: cryptonatorcom
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Cryptonator cryptocurrency wallet
 makes no claim to be non-custodial but the

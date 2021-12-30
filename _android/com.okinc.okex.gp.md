@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: OKEx
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.okinc.okex.gp/
   - /posts/com.okinc.okex.gp/
 ---
-
 
 This app gives you access to a trading platform which sounds fully custodial and
 therefore **not verifiable**.

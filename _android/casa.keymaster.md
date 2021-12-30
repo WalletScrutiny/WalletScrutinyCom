@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: CasaHODL
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /casa.keymaster/
   - /posts/casa.keymaster/
 ---
-
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
 least version `2.27.10` and inspect the code or modify it to compile it back

@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nobtc
 date: 2021-12-01
 signer: 
 reviewArchive:
-- date: 2021-04-30
-  version: "1.34.2"
-  appHash: 
-  gitRevision: 2673a83273fe33235383f592cc43bc0cfbace73e
-  verdict: nobtc
 
 providerTwitter: USDXwallet
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit: USDXwallet
 redirect_from:
 
 ---
-
 
 There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token). <br>
 The wallet may allow you to send it bitcoins to receive one of these tokens but there does not seem to be any bitcoins stored for the user.

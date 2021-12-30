@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-23
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 46a69d1c5e10345207ffc36e81dfa9c0da3a04e3
   verdict: nowallet
-
 providerTwitter: ecoinofficial
 providerLinkedIn: 
 providerFacebook: ecoinofficial
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-05** After marking it as defunct, it seems to have been updated recently (2021-09-22) and is now on the Google Play Store again. It is now described as the SafeX wallet (formerly eCoin.)
 

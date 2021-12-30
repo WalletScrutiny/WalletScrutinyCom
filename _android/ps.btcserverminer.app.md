@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ps.btcserverminer.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Its website does not yield a lot of information.
 

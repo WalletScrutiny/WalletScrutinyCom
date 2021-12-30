@@ -19,11 +19,11 @@ repository: https://www.github.com/kzen-networks
 issue: 
 icon: com.zengo.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: zengo
 providerLinkedIn: 
@@ -34,7 +34,6 @@ redirect_from:
   - /com.zengo.wallet/
   - /posts/com.zengo.wallet/
 ---
-
 
 **Update 2021-03-08:** As
 [Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),

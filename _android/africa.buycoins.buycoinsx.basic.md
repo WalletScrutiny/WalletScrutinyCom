@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: africa.buycoins.buycoinsx.basic.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: buycoins
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Update 2021-10-08
 

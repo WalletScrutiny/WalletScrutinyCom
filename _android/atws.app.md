@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: atws.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ibkr
 providerLinkedIn: interactive-brokers
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

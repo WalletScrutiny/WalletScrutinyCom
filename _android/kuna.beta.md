@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kuna.beta.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: KunaExchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Kuna suite of services is not just the app that we're currently describing. This is the description on its Google Play page:
 

@@ -9,7 +9,7 @@ appId: kr.co.coin5.bd
 released: 2020-07-05
 updated: 2020-07-05
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.1M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.coin5.bd.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.metallicus.metalapp.production.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: metalpaysme
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: MetalPay
 redirect_from:
 
 ---
-
 
 ## App Description
 

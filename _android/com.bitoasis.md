@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitoasis.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitoasis
 providerLinkedIn: bitoasis-technologies-fze
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

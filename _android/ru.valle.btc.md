@@ -18,6 +18,7 @@ repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-11-30
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nonverifiable
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -37,7 +37,6 @@ redirect_from:
   - /ru.valle.btc/
   - /posts/ru.valle.btc/
 ---
-
 
 **Update:** After
 [feedback from the developer](https://github.com/ValleZ/Paper-Wallet/issues/42#issuecomment-668759686)

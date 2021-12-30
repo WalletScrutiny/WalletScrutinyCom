@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.matrixport.bit.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcom_exchange
 providerLinkedIn: bitcom-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bit.com comes from the [same providers](https://play.google.com/store/apps/developer?id=Matrixport) of {% include walletLink.html wallet='android/com.matrixport.mark' verdict='true' %}
 

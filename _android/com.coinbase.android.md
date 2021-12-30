@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinbase.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinbase
 providerLinkedIn: coinbase
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/10/coinbase/
   - /posts/com.coinbase.android/
 ---
-
 
 {{ page.title }}, not to be confused with
 {% include walletLink.html wallet='android/org.toshi' verdict='true' %}

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zipmex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ZipmexTH
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.
 

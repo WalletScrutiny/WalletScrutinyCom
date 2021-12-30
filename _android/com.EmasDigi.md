@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.EmasDigi.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 EmasDigi has since renamed itself "Pluang"
 

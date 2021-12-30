@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: PocketBitsIndia
 providerLinkedIn: pocketbits.in
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

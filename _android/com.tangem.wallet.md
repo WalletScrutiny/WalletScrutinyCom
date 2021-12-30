@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tangem.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tangem
 providerLinkedIn: tangem
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is the companion app to an NFC card that is promoted as something like
 a hardware wallet but without a screen or a button it can only do what the

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.freeda.freedawallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: FreedaWallet
 providerLinkedIn: 

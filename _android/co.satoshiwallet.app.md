@@ -18,11 +18,11 @@ repository: https://github.com/SatoshiWallet/ui
 issue: 
 icon: co.satoshiwallet.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 So this app was found by Emanuel, apparently for being open source. It is a fork
 of the {% include walletLink.html wallet='android/co.edgesecure.app' %}.

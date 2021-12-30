@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xapo.bank.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: xapo
 providerLinkedIn: xapo
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-06**: Xapo
 [confirmed on Twitter](https://twitter.com/xapo/status/1423632786112516097)

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: ThinkMarketscom
 providerLinkedIn: thinkmarkets
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

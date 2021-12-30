@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quidax.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuidaxAfrica
 providerLinkedIn: quidax
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the play store description it clearly states the private keys are in control of the provider....
 

@@ -18,11 +18,11 @@ repository: https://github.com/Samourai-Wallet/sentinel-android
 issue: 
 icon: com.samourai.sentinel.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2020-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: samouraiwallet
 providerLinkedIn: 
@@ -33,6 +33,5 @@ redirect_from:
   - /com.samourai.sentinel/
   - /posts/com.samourai.sentinel/
 ---
-
 
 As this app has no private keys to protect, we do not consider it a wallet.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pointpay.bank.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: PointPay1
 providerLinkedIn: pointpay
@@ -32,7 +32,6 @@ providerReddit: PointPay
 redirect_from:
 
 ---
-
 
 The PointPay website has very little information about how they manage private keys of the user.
 The only basic statement is...

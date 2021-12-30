@@ -9,7 +9,7 @@ appId: paybusiness.elegro.eu
 released: 2020-07-15
 updated: 2021-08-30
 version: "1.2.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.1M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

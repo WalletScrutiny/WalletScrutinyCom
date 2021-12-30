@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: atomicwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: atomicwallet
 providerLinkedIn: 

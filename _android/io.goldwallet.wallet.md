@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-12-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
   - /io.goldwallet.wallet/
 ---
-
 
 This app appears to not be a vault for Bitcoin but something for Bitcoin Vault.

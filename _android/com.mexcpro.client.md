@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mexcpro.client.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: MEXC_Global
 providerLinkedIn: mexcglobal
@@ -32,7 +32,6 @@ providerReddit: MXCexchange
 redirect_from:
 
 ---
-
 
 > As a world’s leading digital asset trading platform, MEXC Exchange is committed to providing users safer, smarter and more convenient digital-asset trading and management services.
 

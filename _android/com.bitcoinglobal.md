@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitcoinGlobalEx
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: BITCOIN_GLOBAL
 redirect_from:
 
 ---
-
 
 ## App Description
 

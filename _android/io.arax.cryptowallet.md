@@ -18,7 +18,8 @@ repository:
 issue: 
 icon: io.arax.cryptowallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-29
 signer: 
 reviewArchive:
@@ -31,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.stocksexchange.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It has a Crypto Exchange interface and refers to itself as such. One of its general features advertise wallet service. This sounds custodial.
 

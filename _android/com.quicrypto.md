@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-06-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: quicrypto
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-21**: This app is not a wallet.
 

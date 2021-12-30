@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.coinpay.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nosource
 date: 2021-08-19
 signer: 
 reviewArchive:
-- date: 2020-12-14
-  version: "1.0.7"
-  appHash: 
-  gitRevision: 79e92f0e1174136cdf05180253c87cacb589f002
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.coinpay/
 ---
-
 
 > We are a non-custodial wallet, so users can send Bitcoin and other
   cryptocurrencies globally with direct access to the blockchain.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: pro.huobi.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: HuobiGlobal
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/
 ---
-
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.nash.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: nashsocial
 providerLinkedIn: nashsocial

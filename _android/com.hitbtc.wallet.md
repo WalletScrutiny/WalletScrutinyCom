@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hitbtc.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: hitbtc
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: hitbtc
 redirect_from:
 
 ---
-
 
 ## App Description
 

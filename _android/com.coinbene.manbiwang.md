@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: com.coinbene.manbiwang.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-09-11
-  version: ""
-  appHash: 
-  gitRevision: cfaa2364ba00347a969aeadef14b8ee616166450
-  verdict: custodial
-  
 
 providerTwitter: coinbene
 providerLinkedIn: coinbene-official
@@ -38,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 **Update 2021-10-01**: This app now appears to have a successor on Play Store, [CB Global](https://play.google.com/store/apps/details?id=com.mingyue.liuli).
 
 **Update 2021-09-07**: This app is not on Play Store anymore.

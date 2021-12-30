@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zumopay.core.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: zumopay
 providerLinkedIn: zumomoney
@@ -33,7 +33,6 @@ redirect_from:
   - /com.zumopay.core/
   - /posts/com.zumopay.core/
 ---
-
 
 > 💰 Provides full ownership of funds - your crypto is only owned by you!
 

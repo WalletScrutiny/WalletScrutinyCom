@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wavesplatform.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-07-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: waves_exchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 On their website, the only pointer to this app is:
 

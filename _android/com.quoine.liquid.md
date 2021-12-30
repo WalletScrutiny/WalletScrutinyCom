@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quoine.liquid.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: Liquid_Global
 providerLinkedIn: quoine
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play:

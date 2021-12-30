@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app has a rather special description that looks more like a dictionary so
 I'm not 100% sure if they claim the app to have those features but lets assume

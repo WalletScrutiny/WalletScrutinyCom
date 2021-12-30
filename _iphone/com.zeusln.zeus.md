@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zeusln.zeus.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: ZeusLN
 providerLinkedIn: 

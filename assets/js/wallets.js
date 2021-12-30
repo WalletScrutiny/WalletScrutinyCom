@@ -1,6 +1,6 @@
-const verdictOrder = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,stale,obsolete,defunct,nowallet"
+const verdictOrder = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet"
 const platformOrder = "hardware,android,iphone"
-
+const metaOrder = "ok,stale,obsolete,defunct"
 
 window.wallets.sort((a, b) => {
   const diff = function(a, b) {
@@ -12,6 +12,8 @@ window.wallets.sort((a, b) => {
       verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
       // sort by platform
       || platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
+      // sort by meta verdict
+      || metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
       // if available, by users (Currently only Android)
       || diff(b.users, a.users)
       // if available, by ratings and reviews

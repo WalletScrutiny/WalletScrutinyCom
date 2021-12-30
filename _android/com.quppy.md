@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quppy.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuppyPay
 providerLinkedIn: quppy
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.quppy/
 ---
-
 
 This provider loses no word on security or where the keys are stored. We assume
 it is a custodial offering and therefore **not verifiable**.

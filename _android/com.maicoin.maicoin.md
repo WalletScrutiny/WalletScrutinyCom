@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.maicoin.maicoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Max_exch
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is from the Google Play description:
 

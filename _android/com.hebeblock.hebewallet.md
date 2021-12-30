@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlockHebe
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /posts/com.hebeblock.hebewallet/
 ---
-
 
 In the description the provider claims:
 

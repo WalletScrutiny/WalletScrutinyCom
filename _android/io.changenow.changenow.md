@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.changenow.changenow.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: ChangeNOW_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: ChangeNOW_io
 redirect_from:
   - /io.changenow.changenow/
 ---
-
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.
 

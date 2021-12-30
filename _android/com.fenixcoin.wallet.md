@@ -9,7 +9,7 @@ appId: com.fenixcoin.wallet
 released: 2018-04-09
 updated: 2018-04-09
 version: "v1.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.9M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fenixcoin.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app, released in 2018 is not on the Play Store anymore. As it had just one
 version ever, it's probably not coming back.

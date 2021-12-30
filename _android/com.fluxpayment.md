@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fluxpayment.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: ifluxdotapp
 providerLinkedIn: iflux-pay
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

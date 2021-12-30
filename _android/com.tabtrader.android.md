@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.tabtrader.android.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tabtraderpro
 providerLinkedIn: tabtrader
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app appears to not function as a wallet. At least we could not see any
 documentation about depositing or withdrawing through the app, which makes the

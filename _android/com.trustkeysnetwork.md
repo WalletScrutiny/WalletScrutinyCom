@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trustkeysnetwork.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustkeysglobal
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

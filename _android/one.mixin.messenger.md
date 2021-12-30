@@ -20,11 +20,11 @@ repository: https://github.com/MixinNetwork
 issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: MixinMessenger
 providerLinkedIn: 
@@ -34,7 +34,6 @@ providerReddit: mixin
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to
 compile it from the source with the instructions provided. See the

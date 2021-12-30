@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mxc.smartcity.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: mxcfoundation
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: MXC_Foundation
 redirect_from:
 
 ---
-
 
 This app claims to provide staking abilities to various tokens. It also claims that its MXC Supernodes prove LPWAN (Low Power Wide Area Network) services to the world. 
 

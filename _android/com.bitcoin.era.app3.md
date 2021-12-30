@@ -9,7 +9,7 @@ appId: com.bitcoin.era.app3
 released: 2021-07-15
 updated: 2021-07-15
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoin.era.app3.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-17**: This app is not the the Play Store anymore
 

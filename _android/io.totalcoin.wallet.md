@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.totalcoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/totalcoin/
   - /posts/io.totalcoin.wallet/
 ---
-
 
 On the wallet's website there is no claim about custodianship which makes us
 assume it is a custodial product.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: celsiusnetwork
 providerLinkedIn: celsiusnetwork
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /network.celsius.wallet/
 ---
-
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to
   transfer and withdraw your Ethereum, Bitcoin, and over 30 other

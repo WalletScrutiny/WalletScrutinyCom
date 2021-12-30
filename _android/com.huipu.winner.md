@@ -9,7 +9,7 @@ appId: com.huipu.winner
 released: 2021-04-13
 updated: 2021-06-15
 version: "1.3.1"
-stars: 3.0
+stars: 3
 ratings: 8
 reviews: 4
 size: 8.8M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.huipu.winner.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

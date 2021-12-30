@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: bitcoin.invest.crypto.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **NOTE:** This app claims to function as an exchange when in reality you cannot trade or hold BTC here. Although it does not function as a wallet and cannot hold your money, it still gives us pause how it claims to have features that it **does not truly have.**
 

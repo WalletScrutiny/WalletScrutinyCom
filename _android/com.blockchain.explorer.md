@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gaifang.ATMOptionTest.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As of September 13, 20201, there are two apps with exactly the same name "Bitcoin Trading Online Investing :ATM Option" and logo. They are also developed by the same developer, [ATM Warrant](https://play.google.com/store/apps/developer?id=ATM+Warrant).
 

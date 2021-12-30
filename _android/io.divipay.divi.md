@@ -18,11 +18,11 @@ repository: https://github.com/DiviProject
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: diviproject
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: DiviProject
 redirect_from:
 
 ---
-
 
 ## App Description
 

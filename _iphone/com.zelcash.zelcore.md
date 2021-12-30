@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: zelcash
 providerLinkedIn: 

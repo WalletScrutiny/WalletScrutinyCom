@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nosource
 date: 2021-12-28
 signer: 
 reviewArchive:
-- date: 2020-12-08
-  version: "0.0.4a"
-  appHash: 
-  gitRevision: 6ebb740f957edd101e3adeeee5853307f7a2a16b
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.gloath.portalsapp/
 ---
-
 
 This app is weird and it's not clear why 10k people downloaded it. So the app
 does generate wallets but you can't really use those as such ... unless you do

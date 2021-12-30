@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pons.dao.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: daoconsensus
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <div class="alertBox"><div>
 

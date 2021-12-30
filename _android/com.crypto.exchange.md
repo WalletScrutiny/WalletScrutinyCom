@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.crypto.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -33,7 +33,6 @@ providerReddit: Crypto_com
 redirect_from:
 
 ---
-
 
 **EDIT 2021-09-14**
 This exchange app (com.crypto.exchange) is featured on the official site.

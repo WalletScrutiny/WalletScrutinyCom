@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bybit.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bybit_Official
 providerLinkedIn: bybitexchange
@@ -32,7 +32,6 @@ providerReddit: Bybit
 redirect_from:
 
 ---
-
 
 > "Bybit is the World's fastest-growing and one of the largest crypto
   derivatives exchanges to trade Bitcoin and crypto.

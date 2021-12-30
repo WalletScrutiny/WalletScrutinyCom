@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.barchart.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Barchart
 providerLinkedIn: barchart.com-inc.
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

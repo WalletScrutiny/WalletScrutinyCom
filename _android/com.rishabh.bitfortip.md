@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rishabh.bitfortip.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfortip
 providerLinkedIn: bitfortip
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinswitch.kuber.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinSwitchKuber
 providerLinkedIn: coinswitch
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

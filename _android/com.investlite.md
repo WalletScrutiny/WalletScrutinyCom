@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.investlite.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: invest_lite
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 InvestLite is another Forex trading app.

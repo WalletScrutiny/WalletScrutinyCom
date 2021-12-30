@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cakecodes.bitmaker.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: stormxio
 providerLinkedIn: StormX
@@ -32,7 +32,6 @@ providerReddit: stormxio
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.valr.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: valrdotcom
 providerLinkedIn: valr

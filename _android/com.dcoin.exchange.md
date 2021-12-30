@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dcoin.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: dcoinexchange
 providerLinkedIn: dcoin-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

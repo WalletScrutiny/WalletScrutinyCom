@@ -9,7 +9,7 @@ appId: app.hibana.hibana
 released: 2018-12-11
 updated: 2018-12-11
 version: "0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.hibana.hibana.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: This app is not on Play Store anymore.
 

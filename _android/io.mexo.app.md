@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.mexo.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: mexo_io
 providerLinkedIn: mexoio
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 The app description appears to be entirely in Spanish. Quotes below are taken from Google Translate.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: dsdaqcom
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 Dsdaq's app description explains that it is a trading app:

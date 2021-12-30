@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.admiralmarkets.tradersroom.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: AdmiralsGlobal
 providerLinkedIn: -admiral-markets-group

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitget.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-12**: This app appears to be back on Play Store
 

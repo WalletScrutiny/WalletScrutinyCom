@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.rippex.cryptotrading.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nowallet
 date: 2021-11-28
 signer: 
 reviewArchive:
-- date: 2021-10-26
-  version: "1.0"
-  appHash: 
-  gitRevision: a91ea537a5a4a1e41f7a36e8e014d9a0f227dc0b
-  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** The app does not have a listed domain on its website but it has support email address has the domain rippex.com.
 

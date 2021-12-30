@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.nunchuk.android.jpg
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-12-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
   

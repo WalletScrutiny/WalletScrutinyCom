@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.pointpayio.PointPayBank.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: PointPay1
 providerLinkedIn: pointpay

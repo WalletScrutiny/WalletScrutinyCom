@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binance.us.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: binanceus
 providerLinkedIn: binance-us
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.binance.us/
 ---
-
 
 Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on

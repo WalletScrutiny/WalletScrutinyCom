@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: AnkerPay
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.ankerpay.wallet/
   - /posts/com.ankerpay.wallet/
 ---
-
 
 This app promises to be non-custodial:
 

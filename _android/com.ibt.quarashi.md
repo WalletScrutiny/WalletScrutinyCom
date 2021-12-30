@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ibt.quarashi.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuarashiN
 providerLinkedIn: quarashi-network
@@ -32,7 +32,6 @@ providerReddit: Quarashinetwork
 redirect_from:
 
 ---
-
 
 ## App Description
 

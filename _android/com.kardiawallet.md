@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kardiawallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: KardiaChain
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The KardiaChain wallet is specifically for use with the KAI token. 
 

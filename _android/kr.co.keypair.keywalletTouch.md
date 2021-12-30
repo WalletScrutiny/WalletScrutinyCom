@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-12-23
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
   verdict: nosource
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The description makes rather vague claims:
 

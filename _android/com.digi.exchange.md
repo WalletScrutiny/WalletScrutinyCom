@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.digi.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: digiexchange3
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

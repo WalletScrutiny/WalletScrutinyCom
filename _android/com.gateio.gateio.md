@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gateio.gateio.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: gate_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: GateioExchange
 redirect_from:
 
 ---
-
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gemini.android.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: gemini
 providerLinkedIn: geminitrust
@@ -33,7 +33,6 @@ redirect_from:
   - /com.gemini.android.app/
   - /posts/com.gemini.android.app/
 ---
-
 
 This provider being an exchange, together with the lack of clear words of who
 gets to hold the private keys leads us to believe this app is only an interface

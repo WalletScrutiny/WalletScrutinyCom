@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: load.ng.loadng.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: loadngautomated
 providerLinkedIn: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinpaprika.Coins.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinsOneApp
 providerLinkedIn: 

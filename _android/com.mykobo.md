@@ -9,7 +9,7 @@ appId: com.mykobo
 released: 2020-10-29
 updated: 2021-02-12
 version: "0.4.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.3M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mykobo.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

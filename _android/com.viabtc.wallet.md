@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.viabtc.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: viawallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.viabtc.wallet/
   - /posts/com.viabtc.wallet/
 ---
-
 
 This app's description contains
 

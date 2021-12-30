@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.mercadobitcoin.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: MercadoBitcoin
 providerLinkedIn: mercado-bitcoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bittrex.trade.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: BittrexGlobal
 providerLinkedIn: 

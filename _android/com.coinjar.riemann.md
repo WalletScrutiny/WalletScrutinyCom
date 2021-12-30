@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinjar.riemann.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: getcoinjar
 providerLinkedIn: coinjar
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Google Play description:
 

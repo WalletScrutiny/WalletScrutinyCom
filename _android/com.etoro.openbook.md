@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Etoro is used to speculate on assets more than to actually transfer them but in
 the case of Bitcoin, according to

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.remitano.remitano.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: remitano
 providerLinkedIn: Remitano
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /posts/com.remitano.remitano/
 ---
-
 
 This app is an interface to an exchange which holds your coins. On Google Play
 and their website there is no claim to a non-custodial part to the app. As a

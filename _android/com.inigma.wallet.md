@@ -9,7 +9,7 @@ appId: com.inigma.wallet
 released: 2020-03-29
 updated: 2020-12-22
 version: "0.0.18"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 24M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.inigma.wallet.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

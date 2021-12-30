@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.jex.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [Binance Launches JEX Token Airdrop Program For All BNB Holders](https://www.binance.com/en/support/announcement/360033416091)
 

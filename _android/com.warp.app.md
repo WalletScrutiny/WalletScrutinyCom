@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.warp.app.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

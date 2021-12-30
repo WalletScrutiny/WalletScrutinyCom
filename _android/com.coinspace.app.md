@@ -18,11 +18,11 @@ repository: https://github.com/CoinSpace/CoinSpace
 issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
+meta: ok
 verdict: ftbfs
 date: 2019-12-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinappwallet
 providerLinkedIn: coin-space
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/coin/
   - /posts/com.coinspace.app/
 ---
-
 
 **Update**: The provider closed
 [the issue about reproducibility](https://github.com/CoinSpace/CoinSpace/issues/30),

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.goodcrypto.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: GoodCryptoApp
 providerLinkedIn: goodcrypto
@@ -32,7 +32,6 @@ providerReddit: GoodCrypto
 redirect_from:
   - /app.goodcrypto/
 ---
-
 
 This app allows you to connect to accounts on trading platforms and does not
 work as a wallet as such. We assume that you cannot receive Bitcoins to and send

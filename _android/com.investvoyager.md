@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.investvoyager.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: investvoyager
 providerLinkedIn: investvoyager
@@ -32,7 +32,6 @@ providerReddit: Invest_Voyager
 redirect_from:
   - /com.investvoyager/
 ---
-
 
 On their website we read:
 

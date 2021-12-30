@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinomi.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinomiWallet
 providerLinkedIn: coinomi
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/coinomi/
   - /posts/com.coinomi.wallet/
 ---
-
 
 This wallet claims to be non-custodial but
 [went closed-source](https://github.com/bitcoin-dot-org/bitcoin.org/issues/1622)

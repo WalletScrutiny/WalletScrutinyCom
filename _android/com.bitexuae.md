@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitexuae.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitexexch
 providerLinkedIn: bitexworldwide
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 
 

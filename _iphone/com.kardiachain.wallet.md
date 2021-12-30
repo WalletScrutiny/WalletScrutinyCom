@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kardiachain.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: KardiaChain
 providerLinkedIn: 

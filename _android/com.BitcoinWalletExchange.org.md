@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.BitcoinWalletExchange.org.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-10-09
 signer: 
 reviewArchive:
-- date: 2021-04-30
-  version: "1.01"
-  appHash: 
-  gitRevision: 9dfdd677cd0ab7e3f2f9fafa26671e03f636a19b
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 There is no statement regarding how private keys are managed in the play store description.
 At this stage we will consider this wallet custodial.

@@ -18,15 +18,11 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2020-12-05
-  version: "0.1.9"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: freewallet
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /io.freewallet.mobile/
 ---
-
 
 The provider of this Freewallet reached out to us to stress that freewallet.io
 was not the same as freewallet.org which is spamming Google Play with many

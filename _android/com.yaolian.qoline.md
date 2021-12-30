@@ -9,7 +9,7 @@ appId: com.yaolian.qoline
 released: 2021-07-14
 updated: 2021-09-28
 version: "1.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 18M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

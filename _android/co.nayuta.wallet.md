@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Nayuta - Bitcoin Lightning Wallet"
 altTitle: 
+authors:
 
 users: 500
 appId: co.nayuta.wallet
@@ -16,11 +18,11 @@ repository:
 issue: 
 icon: co.nayuta.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2019-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -28,8 +30,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 This app disappeared from Google Play before we got to have a look at it. With
 500 downloads it was not due yet.

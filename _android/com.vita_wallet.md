@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.vita_wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: vitawallet
 providerLinkedIn: vita-wallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 The app, as well as its description appear to be entirely in Spanish. Quotes below are taken from Google Translate.

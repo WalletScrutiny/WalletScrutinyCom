@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-03-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: binance
 providerLinkedIn: 
@@ -34,7 +34,6 @@ redirect_from:
   - /com.binance.dev/
   - /posts/com.binance.dev/
 ---
-
 
 This app appears to be an app interface for the Binance exchange and at first we
 cannot find anything indicating that there is also a non-custodial feature to

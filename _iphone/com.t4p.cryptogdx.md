@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.t4p.cryptogdx.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

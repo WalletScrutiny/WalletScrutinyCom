@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.coinloan.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: coin_loan
 providerLinkedIn: coinloan
@@ -32,7 +32,6 @@ providerReddit: coinloan
 redirect_from:
 
 ---
-
 
 ### App Description
 

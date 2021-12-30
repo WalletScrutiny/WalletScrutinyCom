@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.leadWallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: leadwallet
 providerLinkedIn: leadwallet
@@ -32,7 +32,6 @@ providerReddit: LeadWallet
 redirect_from:
 
 ---
-
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 
 

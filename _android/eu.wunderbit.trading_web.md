@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: eu.wunderbit.trading_web.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Wunder_bit
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Platform is built on top of crypto exchanges and has following features:

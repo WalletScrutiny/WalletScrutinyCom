@@ -18,11 +18,11 @@ repository: https://github.com/bither/bither-ios
 issue: 
 icon: net.bither.jpg
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-03-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

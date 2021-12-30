@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.transcrypt.armadillo.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: TizerWallet
 providerLinkedIn: tizer-wallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 In the description, the app claims that users have "ultimate security and control" of their assets.

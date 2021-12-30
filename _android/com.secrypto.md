@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.secrypto.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-04-21
-  version: "1.28"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

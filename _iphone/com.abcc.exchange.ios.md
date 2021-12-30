@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.abcc.exchange.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ABCCExOfficial
 providerLinkedIn: 

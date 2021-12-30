@@ -18,11 +18,11 @@ repository: https://github.com/DcentWallet
 issue: 
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: DCENTwallets
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>
 As with using the wallet with a hardware device the private keys would be managed by that device and we are not reviewing that setup.

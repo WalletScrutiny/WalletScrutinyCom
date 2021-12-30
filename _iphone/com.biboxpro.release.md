@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.biboxpro.release.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bibox365
 providerLinkedIn: biboxexchange

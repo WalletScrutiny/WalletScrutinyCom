@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.maxxwallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-12-14
-  version: "3.7.3"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.maxxwallet/
 ---
-
 
 In Google Play we read the right claims:
 

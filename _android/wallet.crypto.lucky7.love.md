@@ -9,7 +9,7 @@ appId: wallet.crypto.lucky7.love
 released: 2019-10-30
 updated: 2019-11-07
 version: "1.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 1.9M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: wallet.crypto.lucky7.love.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

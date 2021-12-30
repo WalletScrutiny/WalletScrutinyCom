@@ -9,7 +9,7 @@ appId: org.cryptobubbles.bitcoin.invest.app
 released: 2021-07-17
 updated: 2021-07-18
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.cryptobubbles.bitcoin.invest.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

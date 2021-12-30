@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hotbit_news
 providerLinkedIn: hotbitexchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Hotbit describes itself as
 

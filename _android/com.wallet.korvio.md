@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wallet.korvio.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Described in its Google Play, it claims that it is a 'Multichain Blockchain Technology' and that it allows users to:
 

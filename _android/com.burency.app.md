@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.burency.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-12-05
 signer: 
 reviewArchive:
-- date: 2021-10-07
-  version: "1.0.2"
-  appHash: c5f05e71f3b7864dc85a5ab1aa2ceeba58f9f18e
-  gitRevision: 
-  verdict: custodial
 
 providerTwitter: BurencyOfficial
 providerLinkedIn: burencyofficial
@@ -36,7 +32,6 @@ providerReddit: Burency
 redirect_from:
 
 ---
-
 
 **Update 2021-11-22**: This app is not available anymore.
 

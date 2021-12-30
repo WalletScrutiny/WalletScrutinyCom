@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nominex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: NominexExchange
 providerLinkedIn: nominex
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

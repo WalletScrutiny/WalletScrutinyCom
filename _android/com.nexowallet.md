@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nexowallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: NexoFinance
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: Nexo
 redirect_from:
   - /com.nexowallet/
 ---
-
 
 In the description on Google Play we read:
 

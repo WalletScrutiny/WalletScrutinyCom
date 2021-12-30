@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.iconomi.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: iconomicom
 providerLinkedIn: iconominet
@@ -32,7 +32,6 @@ providerReddit: ICONOMI
 redirect_from:
 
 ---
-
 
 ### App Description
 

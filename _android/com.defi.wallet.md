@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -33,7 +33,6 @@ redirect_from:
   - /com.defi.wallet/
   - /posts/com.defi.wallet/
 ---
-
 
 This app's description is promising:
 

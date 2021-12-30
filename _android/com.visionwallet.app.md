@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.visionwallet.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-- date: 2020-12-01
-  version: "1.3.2"
-  appHash: 
-  gitRevision: 09529b3429431f06b68b1e2e04d5ec285067c626
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.visionwallet.app/
 ---
-
 
 > Passive funds accumulation (interest on the account balance)
 

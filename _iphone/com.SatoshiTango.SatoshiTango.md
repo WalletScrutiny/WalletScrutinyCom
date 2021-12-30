@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: satoshitango
 providerLinkedIn: 

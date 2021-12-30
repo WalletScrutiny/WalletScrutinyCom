@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: indodax
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /co.id.dompet.btc.indonesia/
 ---
-
 
 This app looks like a terminal for a website:
 

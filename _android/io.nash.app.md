@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.nash.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: nashsocial
 providerLinkedIn: nashsocial
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim only the user has access to the private keys.
 

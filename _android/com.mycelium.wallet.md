@@ -18,6 +18,7 @@ repository: https://github.com/mycelium-com/wallet-android
 issue: 
 icon: com.mycelium.wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-20
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
@@ -157,7 +158,6 @@ reviewArchive:
   appHash: 27e236a723598d058ee3e1c72d54c84983489c8e80f7edee3df52235a0231c8c
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-
 providerTwitter: MyceliumCom
 providerLinkedIn: mycelium
 providerFacebook: myceliumcom
@@ -169,7 +169,6 @@ redirect_from:
   - /posts/2019/11/mycelium/
   - /posts/com.mycelium.wallet/
 ---
-
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.
 

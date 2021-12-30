@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitfinex.mobileapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfinex
 providerLinkedIn: bitfinex
@@ -32,7 +32,6 @@ providerReddit: bitfinex
 redirect_from:
 
 ---
-
 
 From a security standpoint, this app appears to be doing something right: The
 user does not provide his Bifinex exchange credentials but an API key which he

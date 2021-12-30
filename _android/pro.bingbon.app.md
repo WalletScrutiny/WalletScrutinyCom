@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: pro.bingbon.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: BingbonOfficial
 providerLinkedIn: bingbon
@@ -32,7 +32,6 @@ providerReddit: Bingbon
 redirect_from:
 
 ---
-
 
 We cannot find any claims as to the custody of private keys found from Bingbon.
 We must assume the wallet app is custodial.

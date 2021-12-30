@@ -9,7 +9,7 @@ appId: com.unhappychoice.droidflyer
 released: 2017-11-12
 updated: 2020-11-01
 version: "2.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

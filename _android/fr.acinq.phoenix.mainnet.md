@@ -18,6 +18,7 @@ repository: https://github.com/ACINQ/phoenix-kmm
 issue: https://github.com/ACINQ/phoenix-kmm/issues/187
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-07-20
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
@@ -37,7 +38,6 @@ reviewArchive:
   appHash: 0c91c5f118f88b9715d20323799d5002b722115d01c95d11f20f088521f76ada
   gitRevision: 9abba57f047955e9991baa269f2082e8f3374f95
   verdict: nonverifiable
-
 providerTwitter: PhoenixWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -47,7 +47,6 @@ redirect_from:
   - /fr.acinq.phoenix.mainnet/
   - /posts/fr.acinq.phoenix.mainnet/
 ---
-
 
 **Update 2021-07-20**: The provider appears to be working on a re-write of the
 app, so the [former issue](https://github.com/ACINQ/phoenix/issues/112) is not

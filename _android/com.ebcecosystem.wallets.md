@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-- date: 2019-12-28
-  version: "0.0.7"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /com.ebcecosystem.wallets/
   - /posts/com.ebcecosystem.wallets/
 ---
-
 
 **Update 2021-10-26**: This app is no more.
 

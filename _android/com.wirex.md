@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wirex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: wirexapp
 providerLinkedIn: wirex-limited
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their app description:
 

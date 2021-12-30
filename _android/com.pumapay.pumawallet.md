@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: PumaPay
 providerLinkedIn: decentralized-vision
@@ -33,7 +33,6 @@ redirect_from:
   - /com.pumapay.pumawallet/
   - /posts/com.pumapay.pumawallet/
 ---
-
 
 This app has very little information on their website but in the Google Play
 description we read:

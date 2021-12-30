@@ -9,7 +9,7 @@ appId: com.walahala.paywala
 released: 2020-02-20
 updated: 2020-07-23
 version: "1.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 52M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.walahala.paywala.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ph.pdax.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: pdaxph
 providerLinkedIn: pdaxph
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.
 

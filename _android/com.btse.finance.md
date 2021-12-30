@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btse.finance.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: btsecom
 providerLinkedIn: btsecom
@@ -32,7 +32,6 @@ providerReddit: btsecom
 redirect_from:
 
 ---
-
 
 ## App Description
 

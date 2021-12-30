@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-11-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustwalletapp
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/trust/
   - /posts/com.wallet.crypto.trustapp/
 ---
-
 
 Trust - Crypto & Bitcoin Wallet
 claims to be a non-custodial wallet. In the description on Google Play we read:

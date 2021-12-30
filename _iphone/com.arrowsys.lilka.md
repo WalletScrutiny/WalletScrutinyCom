@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.arrowsys.lilka.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

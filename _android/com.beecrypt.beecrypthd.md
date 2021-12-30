@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: money_pipe
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

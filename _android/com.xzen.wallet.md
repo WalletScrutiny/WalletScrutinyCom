@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.xzen.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-05-15
 signer: 
 reviewArchive:
-- date: 2020-05-29
-  version: "1.2.6.0"
-  appHash: 
-  gitRevision: 13d8e0095e0944d8d255811487d819fafc74c5e1
-  verdict: custodial
 
 providerTwitter: XZENwallet
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /com.xzen.wallet/
   - /posts/com.xzen.wallet/
 ---
-
 
 While this app still appears to be on Google Play,
 [their website](https://xzen.io/) now reads:

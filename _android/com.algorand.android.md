@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.algorand.android.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-12-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
   - /com.algorand.android/
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitmex.mobile.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitmex
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: BitMEX
 redirect_from:
 
 ---
-
 
 ## App Description
 

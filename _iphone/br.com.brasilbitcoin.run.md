@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.brasilbitcoin.run.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: brbtcoficial
 providerLinkedIn: 

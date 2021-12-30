@@ -9,7 +9,7 @@ appId: com.cryptooptions.crypto.com.buy.bitcoin.now
 released: 2021-07-24
 updated: 2021-07-24
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.3M
@@ -18,15 +18,12 @@ repository:
 issue: 
 icon: com.cryptooptions.crypto.com.buy.bitcoin.now.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-09-15
-  version: "1.0"
-  appHash: 
-  gitRevision: 1affac09e44aac882f7dcb9601fc1371f75004fe
-  verdict: fake
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -35,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.
 

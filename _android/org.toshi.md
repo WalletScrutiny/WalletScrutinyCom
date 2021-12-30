@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.toshi.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinbaseWallet
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/coinbasewallet/
   - /posts/org.toshi/
 ---
-
 
 Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like
 {% include walletLink.html wallet='android/com.coinbase.android' verdict='true' %}

@@ -9,7 +9,7 @@ appId: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627
 released: 2021-07-06
 updated: 2021-07-06
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-14**: This app is no more available.
 

@@ -9,7 +9,7 @@ appId: jax.wallet.liberty
 released: 2021-08-30
 updated: 2021-08-31
 version: "12.003"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.3M
@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: jax.wallet.liberty.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-10-22
 signer: 
 reviewArchive:
-- date: 2021-10-05
-  version: "12.003"
-  appHash: 
-  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
-  verdict: fake
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-14**: This app is no more available.
 

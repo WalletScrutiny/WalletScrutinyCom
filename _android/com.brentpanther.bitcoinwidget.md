@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.brentpanther.bitcoinwidget.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-03-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Note: This is only a widget. You must add the widget to your launcher, it will
   not appear in your apps list.

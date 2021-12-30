@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: finance.deus.deus_mobile.png
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

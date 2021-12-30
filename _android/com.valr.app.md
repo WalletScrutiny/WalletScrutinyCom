@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.valr.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: valrdotcom
 providerLinkedIn: valr
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 I need not go further into researching this wallet as the statement on the Google Play description screams custodial.
 

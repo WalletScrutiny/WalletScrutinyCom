@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tigerwit.forex.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: TigerWitGlobal
 providerLinkedIn: tigerwit-group-
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).
 

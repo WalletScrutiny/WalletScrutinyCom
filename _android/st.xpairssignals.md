@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play's description:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ezdefi.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: ezDeFi
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Features like
 

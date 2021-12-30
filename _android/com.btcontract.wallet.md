@@ -19,6 +19,7 @@ repository: https://github.com/btcontract/wallet/
 issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-20
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
@@ -68,7 +69,6 @@ reviewArchive:
   appHash: 
   gitRevision: f43ec311500efbb0ea1c8ebadc52c545a434a341
   verdict: nonverifiable
-
 providerTwitter: SimpleBtcWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -77,7 +77,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 For that latest version, our test script returned this:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

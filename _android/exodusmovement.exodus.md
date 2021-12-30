@@ -18,11 +18,11 @@ repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: exodus_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app certainly sounds like it is non-custodial:
 

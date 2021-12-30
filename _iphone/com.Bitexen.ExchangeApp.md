@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Bitexen.ExchangeApp.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

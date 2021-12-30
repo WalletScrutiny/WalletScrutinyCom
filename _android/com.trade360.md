@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trade360.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trade360_LTD
 providerLinkedIn: trade360ltd
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

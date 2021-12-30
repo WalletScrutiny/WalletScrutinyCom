@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fibermode.mode.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: modeapp_
 providerLinkedIn: modeapp-com
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 From the description:

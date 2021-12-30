@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.lyopay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: lyopayofficial
 providerLinkedIn: lyopay
@@ -32,7 +32,6 @@ providerReddit: LYOPAY
 redirect_from:
 
 ---
-
 
 ### Google Play Description
 

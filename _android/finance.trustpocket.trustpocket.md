@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: finance.trustpocket.trustpocket.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

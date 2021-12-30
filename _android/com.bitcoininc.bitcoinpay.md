@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitcoininc.bitcoinpay/
   - /posts/com.bitcoininc.bitcoinpay/
 ---
-
 
 This app refers to [Bitcoin.org](http://bitcoin.org/) as it's website, which is
 highly suspicious for anybody knowing how the bitcoin.org team "ticks".

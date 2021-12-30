@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dextrade.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: dextrade_
 providerLinkedIn: dex-trade-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 Dextrade is an exchange, and supports bitcoin as well as other cryptocurrencies. It advertises itself as a 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quantfury.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: quantfury
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Description from the site: 
 

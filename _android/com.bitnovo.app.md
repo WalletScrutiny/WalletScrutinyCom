@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitnovo.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitnovo
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitnovo.app/
 ---
-
 
 On the App Store, of 4 ratings, 3 were 1 star. With an average of 2.5 stars the
 app is slightly higher rated on the Play Store. **Caution is advised!**

@@ -9,7 +9,7 @@ appId: com.imsofnet.apps.mycryptocoinwallet
 released: 2018-01-24
 updated: 2018-01-31
 version: "1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.3M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.imsofnet.apps.mycryptocoinwallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

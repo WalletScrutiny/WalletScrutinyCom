@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinCola_Global
 providerLinkedIn: coincola

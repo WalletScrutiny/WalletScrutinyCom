@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paritex.paritexapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: paritexexchange
 providerLinkedIn: 

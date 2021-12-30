@@ -18,6 +18,7 @@ repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7417
 icon: org.electrum.electrum.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-07-19
 signer: 
@@ -32,7 +33,6 @@ reviewArchive:
   appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
-
 providerTwitter: ElectrumWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -44,7 +44,6 @@ redirect_from:
   - /posts/2019/12/elecrtum/
   - /posts/org.electrum.electrum/
 ---
-
 
 Version `4.1.5` appeared on Play Store. let's see if that is also reproducible.
 As for us, that version is still not available, we again go with the direct

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.simpleswapapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: SimpleSwap_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: simpleswapexchange
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

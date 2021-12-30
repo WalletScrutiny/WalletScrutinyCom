@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tapngo.tap.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 

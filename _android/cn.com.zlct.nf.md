@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <div class="alertBox"><div>
 ⚠️ Warning: Several users have reported that this app will eventually prevent users from withdrawing their funds. The word "scam" was used several times both in its Google Play Page and in its <a href="https://www.youtube.com/watch?v=5GU-NCeCcgw">YouTube comments</a>.

@@ -18,6 +18,7 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-11-25
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
@@ -117,7 +118,6 @@ reviewArchive:
   appHash: d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987
   gitRevision: 1b2995ed2db18e2517812f7fbb3b2aca04a4653e
   verdict: nonverifiable
-
 providerTwitter: AirGap_it
 providerLinkedIn: 
 providerFacebook: 
@@ -127,7 +127,6 @@ redirect_from:
   - /it.airgap.vault/
   - /posts/it.airgap.vault/
 ---
-
 
 We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh)

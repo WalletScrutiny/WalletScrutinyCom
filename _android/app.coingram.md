@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.coingram.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that as of 2021-08-23 this app does not seem to have an English translation.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.profittrading.forbittrex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 2021-09-17 Update:
 

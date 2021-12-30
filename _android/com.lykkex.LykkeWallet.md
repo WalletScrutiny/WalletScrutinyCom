@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.lykkex.LykkeWallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lykke
 providerLinkedIn: lykke
@@ -32,7 +32,6 @@ providerReddit: lykke
 redirect_from:
 
 ---
-
 
 Lykke appears to be a Swiss exchange:
 

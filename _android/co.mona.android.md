@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: co.mona.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -35,7 +35,6 @@ redirect_from:
   - /crypto.com/
   - /posts/co.mona.android/
 ---
-
 
 **EDIT 2021-09-14**
 Crypto.com (co.mona.android) is featured on the official site. This is the official app.

@@ -18,11 +18,11 @@ repository: https://github.com/TP-Lab/tp-android
 issue: https://github.com/TP-Lab/tp-android/issues/15
 icon: vip.mytokenpocket.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: TokenPocket_TP
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the description:
 

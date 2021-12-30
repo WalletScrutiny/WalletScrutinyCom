@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: de.schildbach.wallet_test.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the testnet version for: 
 

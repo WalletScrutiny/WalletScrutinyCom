@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: SwftCoin
 providerLinkedIn: swftcoin
@@ -33,7 +33,6 @@ redirect_from:
   - /com.swftcoin.client.android/
   - /posts/com.swftcoin.client.android/
 ---
-
 
 The description on Google Play is full of buzzwords like big data, AI, machine
 learning but no clear words on weather this wallet is custodial or not. Given

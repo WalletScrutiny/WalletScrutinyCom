@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.heatwallet.heat_wallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.moonlet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-12-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.moonlet/
 ---
-
 
 This app appears to only support ETH tokens. Neither the description, nor the
 website claim otherwise.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.arz8x.app.arz8x.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app webpage lists its address as Maragheh City, East Azerbaijan, Iran. Iran is currently under economic sanctions from a lot of Western allied nations. It is best to proceed with caution when using this app. 
 

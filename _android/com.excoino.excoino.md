@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.excoino.excoino.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: excoino
 providerLinkedIn: excoino-com
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app appears to be an Iranian exchange and there's no English translation.
 

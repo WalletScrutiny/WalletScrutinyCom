@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: org.dayup.stocks.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: WebullGlobal
 providerLinkedIn: webullfinancialllc
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 

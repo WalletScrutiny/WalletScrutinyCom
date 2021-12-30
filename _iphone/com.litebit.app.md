@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.litebit.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: litebiteu
 providerLinkedIn: litebit

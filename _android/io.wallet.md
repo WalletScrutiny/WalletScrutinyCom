@@ -18,11 +18,11 @@ repository: https://github.com/wallet-io
 issue: 
 icon: io.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: io_wallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** There is a Pro version for wallet.io
 

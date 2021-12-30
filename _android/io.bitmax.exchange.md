@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: io.bitmax.exchange.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-05-11
 signer: 
 reviewArchive:
-- date: 2021-04-20
-  version: "2.4.7"
-  appHash: 
-  gitRevision: 6849790cf3f18653fbe1116b54693fec1419d0ca
-  verdict: custodial
-
 
 providerTwitter: AscendEX_Global
 providerLinkedIn: 
@@ -38,6 +33,5 @@ providerReddit: AscendEX_Official
 redirect_from:
 
 ---
-
 
 This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

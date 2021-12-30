@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: starlab.studios.cryptowallet.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Warning:** Proceed with caution when using this app.
 

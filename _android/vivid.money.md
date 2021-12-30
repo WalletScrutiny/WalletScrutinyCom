@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: vivid.money.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: vivid_en
 providerLinkedIn: vividmoney
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Vivid is a brand new mobile banking and investing app. Online banking and commission-free investing belong together and should be easy.
 

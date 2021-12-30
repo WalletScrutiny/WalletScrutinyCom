@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paxful.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: paxful
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/paxful/
   - /posts/com.paxful.wallet/
 ---
-
 
 According to their Playstore description:
 

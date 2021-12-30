@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btcalpha.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: btcalpha
 providerLinkedIn: btcalpha
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

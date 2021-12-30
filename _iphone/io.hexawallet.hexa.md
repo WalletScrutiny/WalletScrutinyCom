@@ -18,15 +18,12 @@ repository:
 issue: 
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: ftbfs
 date: 2021-12-29
 signer: 
 reviewArchive:
-- date: 2021-01-21
-  version: "1.7.4"
-  appHash: 
-  gitRevision: 02d1ab365abc31ed8370b03f0b0fda451bd78230
-  verdict: ftbfs
+
 providerTwitter: HexaWallet
 providerLinkedIn: 
 providerFacebook: 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.coinbene.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinbene
 providerLinkedIn: coinbene-official

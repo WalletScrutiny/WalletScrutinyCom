@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ftxmobile.ftx.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: FTX_Official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":
 

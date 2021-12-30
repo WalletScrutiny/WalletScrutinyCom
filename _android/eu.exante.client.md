@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: eu.exante.client.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: EXANTE_EU
 providerLinkedIn: exante-ltd
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-03-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is an open source Bitcoin wallet with most of its information to be
 found not on their website but in the App description and on GitHub.

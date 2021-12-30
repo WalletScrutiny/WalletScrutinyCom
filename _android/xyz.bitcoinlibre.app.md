@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: xyz.bitcoinlibre.app.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

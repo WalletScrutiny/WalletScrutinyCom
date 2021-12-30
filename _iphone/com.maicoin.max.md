@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.maicoin.max.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Max_exch
 providerLinkedIn: 

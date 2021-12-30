@@ -18,6 +18,7 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-07-26
 signer: 
@@ -32,7 +33,6 @@ reviewArchive:
   appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -41,7 +41,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-26**: The provider features several apps that either through
 their logo or the name try to resemble trusted wallets like

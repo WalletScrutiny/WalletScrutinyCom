@@ -9,7 +9,7 @@ appId: com.sencoinex.android
 released: 2019-07-05
 updated: 2019-12-03
 version: "1.0.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sencoinex.android.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

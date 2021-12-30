@@ -18,11 +18,11 @@ repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 
 icon: at.bitpocket.pos.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 A Bitcoin wallet.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: walletofsatoshi
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/12/walletofsatoshi/
   - /posts/com.livingroomofsatoshi.wallet/
 ---
-
 
 This is a custodial wallet according to their website's FAQ:
 

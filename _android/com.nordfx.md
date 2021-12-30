@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nordfx.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: NordFX
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

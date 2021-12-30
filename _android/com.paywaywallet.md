@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: pay_way
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /payway/
   - /posts/com.paywaywallet/
 ---
-
 
 **UPDATE:** Payway does not have crypto service on their end.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.user.cglobank.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **WARNING:** There are several factors that make this app appear highly suspicious. We urge users to exercise caution among apps like these.
 

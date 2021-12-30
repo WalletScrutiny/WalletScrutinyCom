@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.yuppex.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

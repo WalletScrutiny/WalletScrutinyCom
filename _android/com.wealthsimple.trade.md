@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wealthsimple.trade.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: Wealthsimple
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]
 

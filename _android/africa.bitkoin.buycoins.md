@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: africa.bitkoin.buycoins.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-- date: 2020-05-29
-  version: 
-  appHash: 
-  gitRevision: d687b36f3bdf616e71bf5545335ac9591bc4f23b
-  verdict: custodial
-
 
 providerTwitter: buycoins_africa
 providerLinkedIn: 
@@ -35,8 +30,8 @@ providerFacebook: buycoinsafrica
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 This app is not on the app stores anymore and given the many scam accusations it
 might have been a scam.

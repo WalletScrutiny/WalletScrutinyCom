@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **NOTE:** This app is not to be confused with {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
 

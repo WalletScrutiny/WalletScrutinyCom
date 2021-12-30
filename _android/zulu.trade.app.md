@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: zulu.trade.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: zulutrade
 providerLinkedIn: zulutrade
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

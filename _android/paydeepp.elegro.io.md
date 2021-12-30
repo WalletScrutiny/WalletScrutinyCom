@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: paydeepp.elegro.io.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: NikoTech
 providerLinkedIn: niko-technologies-ou
@@ -33,7 +33,6 @@ redirect_from:
   - /paydeepp.elegro.io/
   - /posts/paydeepp.elegro.io/
 ---
-
 
 We have no idea what they claim here:
 

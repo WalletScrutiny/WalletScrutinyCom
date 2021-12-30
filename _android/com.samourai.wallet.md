@@ -18,11 +18,11 @@ repository: https://code.samourai.io/wallet/samourai-wallet-android
 issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
 icon: com.samourai.wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-10-07
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
-
 
 providerTwitter: SamouraiWallet
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/samourai/
   - /posts/com.samourai.wallet/
 ---
-
 
 **Update 2021-10-07**: [Erik Nylund](https://twitter.com/Erik_Nylund) reached
 out to let us know of his failed attempt to reproduce this app. He wrote he

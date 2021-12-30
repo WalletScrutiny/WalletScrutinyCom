@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: app.pay98.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Iranian third party payment website
 

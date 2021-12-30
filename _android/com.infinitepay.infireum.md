@@ -9,7 +9,7 @@ appId: com.infinitepay.infireum
 released: 2020-03-23
 updated: 2020-09-01
 version: "1.0.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 20M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.infinitepay.infireum.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

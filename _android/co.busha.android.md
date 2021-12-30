@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.busha.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: getbusha
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /co.busha.android/
   - /posts/co.busha.android/
 ---
-
 
 The description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cobak.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: CobakOfficial
 providerLinkedIn: cobak
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This product is Korean, there's no English translation so it's less likely to have global support. It's also a little harder to find information on a foreign wallet.
 

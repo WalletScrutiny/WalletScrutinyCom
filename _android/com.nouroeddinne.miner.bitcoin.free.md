@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
 

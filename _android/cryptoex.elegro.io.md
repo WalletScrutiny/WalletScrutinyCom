@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /cryptoex.elegro.io/
   - /posts/cryptoex.elegro.io/
 ---
-
 
 This page was created by a script from the **appId** "cryptoex.elegro.io" and public
 information found

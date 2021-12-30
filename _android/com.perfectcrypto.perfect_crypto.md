@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: irPerfectCrypto
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This appears to be a centralized cryptocurrency exchange whose primary language is Persian. 
 

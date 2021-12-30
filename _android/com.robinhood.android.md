@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.robinhood.android.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: RobinhoodApp
 providerLinkedIn: robinhood
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 
 

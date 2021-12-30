@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: zapsolutions.strike.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: ln_strike
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /zapsolutions.strike/
 ---
-
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets
 in that you can send to and receive from Bitcoin wallets but your balance is

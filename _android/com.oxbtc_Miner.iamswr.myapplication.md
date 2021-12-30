@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Caution:** TrendMicro has an [article](https://www.trendmicro.com/en_us/research/21/h/fake-cryptocurrency-mining-apps-trick-victims-into-watching-ads-.html) about fake cloud mining apps on Google Play. Proceed with caution.
 

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.galoyapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet simply uses the tech that GaloyMoney has developed. This product is *not officially affiliated* with GaloyMoney or the Bitcoin Beach project based in El Salvador.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ascendex.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: AscendEX_Global
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: AscendEX_Official
 redirect_from:
 
 ---
-
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 

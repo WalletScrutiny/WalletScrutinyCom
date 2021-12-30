@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptofully
 providerLinkedIn: 

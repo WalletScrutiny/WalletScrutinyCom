@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitfyapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfyapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bitfy is a Brazilian app that claims to have a:
 

@@ -18,15 +18,11 @@ repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
 icon: tech.hodler.core.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: ftbfs
 date: 2021-10-19
 signer: 
 reviewArchive:
-- date: 2021-03-09
-  version: "0.4.6"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: HODLER_TECH
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 So their website ... is for sale:
 

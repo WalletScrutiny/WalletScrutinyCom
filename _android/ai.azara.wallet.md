@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the
   possibility to sell and buy crypto. With this app, you can do all of this with

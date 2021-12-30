@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coincollect.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: coincollectHQ
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

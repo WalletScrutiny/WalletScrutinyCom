@@ -18,11 +18,11 @@ repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitKeepOS
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitkeep.wallet/
 ---
-
 
 The description
 

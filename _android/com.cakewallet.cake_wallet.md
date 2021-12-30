@@ -18,11 +18,11 @@ repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/112
 icon: com.cakewallet.cake_wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: cakewallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: cakewallet
 redirect_from:
 
 ---
-
 
 **Update 2021-04-14**: They now do have a public issue tracker and
 [emanuel](/authors/emanuel) tried to build with

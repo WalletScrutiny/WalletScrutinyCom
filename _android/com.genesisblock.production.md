@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.genesisblock.production.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: genesisblockhq
 providerLinkedIn: genesisblockhq
@@ -32,7 +32,6 @@ providerReddit: genesisblockhq
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: jp.paddle_inc.bitstock.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## New Review 2021-10-28
 

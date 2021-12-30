@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.studio.clubok.cryptobot.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Notes:** This app does not list a website.
 

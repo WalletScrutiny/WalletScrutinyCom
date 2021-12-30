@@ -18,11 +18,11 @@ repository: https://github.com/O3Labs
 issue: 
 icon: com.o3.o3wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: O3_Labs
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the Play Store description:

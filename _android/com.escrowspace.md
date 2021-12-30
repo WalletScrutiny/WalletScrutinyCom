@@ -9,7 +9,7 @@ appId: com.escrowspace
 released: 2018-07-25
 updated: 2018-07-26
 version: "1.08"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.escrowspace.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-26**: This app is not available anymore.
 

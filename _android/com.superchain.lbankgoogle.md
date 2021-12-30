@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.superchain.lbankgoogle.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: LBank_Exchange
 providerLinkedIn: lbank
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

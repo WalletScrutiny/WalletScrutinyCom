@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitoex.bitoproapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitoEX_Official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Most centralized cryptocurrency exchanges do not provide the private keys to the wallets on the app or web platform. 
 

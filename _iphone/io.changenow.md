@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.changenow.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: ChangeNOW_io
 providerLinkedIn: 

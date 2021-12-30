@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bankofhodlers.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Vauld_
 providerLinkedIn: vauld
@@ -32,7 +32,6 @@ providerReddit: BankofHodlers
 redirect_from:
 
 ---
-
 
 The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>
 A statement of the management of the users "funds" makes it pretty clear the wallets private keys are in control of the provider.

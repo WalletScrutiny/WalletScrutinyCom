@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.didi.message.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: DiDimessage
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

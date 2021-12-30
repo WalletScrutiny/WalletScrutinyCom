@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pionex.lite.appstore.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

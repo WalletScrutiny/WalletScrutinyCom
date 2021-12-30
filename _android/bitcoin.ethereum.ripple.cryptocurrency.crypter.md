@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

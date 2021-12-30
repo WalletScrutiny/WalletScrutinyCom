@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.shaketh.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: shakepay
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.shaketh/
   - /posts/com.shaketh/
 ---
-
 
 This app claims to be a wallet:
 

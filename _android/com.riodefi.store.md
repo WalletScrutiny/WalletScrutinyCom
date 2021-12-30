@@ -18,11 +18,11 @@ repository: https://github.com/riodefi
 issue: 
 icon: com.riodefi.store.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: riodefiofficial
 providerLinkedIn: riodefiofficial
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

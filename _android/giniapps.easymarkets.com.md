@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: giniapps.easymarkets.com.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: easymarkets
 providerLinkedIn: easymarkets
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 

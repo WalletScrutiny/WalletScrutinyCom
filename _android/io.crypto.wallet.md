@@ -9,7 +9,7 @@ appId: io.crypto.wallet
 released: 2018-11-03
 updated: 2018-11-03
 version: "0.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.crypto.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

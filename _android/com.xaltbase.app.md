@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xaltbase.app.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 100XCoin_
 providerLinkedIn: 100xCoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This DeFi trading app is described in its Google Play:
 

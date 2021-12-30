@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.abbc.aladdin.pro.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: abbcfoundation
 providerLinkedIn: abbcfoundation
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)
 

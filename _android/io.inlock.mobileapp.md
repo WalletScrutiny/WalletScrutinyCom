@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.inlock.mobileapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: inlock_token
 providerLinkedIn: income-locker
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

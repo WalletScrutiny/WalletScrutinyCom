@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.hold.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: HoldHQ
 providerLinkedIn: holdhq
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > SAFETY FIRST<br>
   Regulated and licensed in the EU. Your money is securely held by banks within

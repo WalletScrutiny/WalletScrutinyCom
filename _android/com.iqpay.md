@@ -9,7 +9,7 @@ appId: com.iqpay
 released: 2021-03-22
 updated: 2021-03-22
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.0M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.iqpay.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

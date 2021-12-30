@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: jaxx_io
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/jaxx/
   - /posts/com.liberty.jaxx/
 ---
-
 
 Jaxx Liberty: Blockchain Wallet
 is non-custodial:

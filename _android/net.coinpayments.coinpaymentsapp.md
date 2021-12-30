@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinPaymentsNET
 providerLinkedIn: coinpayments-inc
@@ -33,7 +33,6 @@ redirect_from:
   - /net.coinpayments.coinpaymentsapp/
   - /posts/net.coinpayments.coinpaymentsapp/
 ---
-
 
 The description is not very clear but sounds a bit like this app is custodial.
 

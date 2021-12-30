@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.klever.secure.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: klever_io
 providerLinkedIn: klever-app

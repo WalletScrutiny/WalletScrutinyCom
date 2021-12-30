@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cn.com.vau.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: VantageFX
 providerLinkedIn: vantage-fx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 App description:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinexcom
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.coinex.trade.play/
   - /posts/com.coinex.trade.play/
 ---
-
 
 The description on Google Play starts not so promising:
 

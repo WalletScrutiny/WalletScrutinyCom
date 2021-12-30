@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: info.mysecurewallet.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: custodial
 date: 2021-10-23
 signer: 
 reviewArchive:
-- date: 2021-03-08
-  version: "1.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet lists no provider website but Emanuel found it on 
 [BitcoinTalk](https://bitcointalk.org/index.php?topic=5203894.0)

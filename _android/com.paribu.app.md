@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paribu.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: paribucom
 providerLinkedIn: paribu
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app's description is written in Turkish, so all the quotes below are from Google Translate.
 

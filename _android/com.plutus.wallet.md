@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: AbraGlobal
 providerLinkedIn: abra
@@ -33,7 +33,6 @@ redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/
 ---
-
 
 The Google Play description certainly sounds like a custodial wallet:
 

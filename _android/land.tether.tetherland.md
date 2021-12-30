@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: land.tether.tetherland.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: tetherland
 providerLinkedIn: tetherland
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We downloaded the app, but have difficulty with the registration because it's in Persian.
 

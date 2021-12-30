@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.huobi.kr.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: huobi_korea
 providerLinkedIn: 

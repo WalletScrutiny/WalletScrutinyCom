@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xtmcapital.iqwallet.jpg
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

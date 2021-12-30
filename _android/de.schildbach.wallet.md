@@ -18,6 +18,7 @@ repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-20
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
@@ -142,7 +143,6 @@ reviewArchive:
   appHash: 
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -154,7 +154,6 @@ redirect_from:
   - /posts/2019/10/schildbach/
   - /posts/de.schildbach.wallet/
 ---
-
 
 For the latest version the
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)

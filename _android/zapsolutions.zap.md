@@ -18,6 +18,7 @@ repository: https://github.com/LN-Zap/zap-android
 issue: https://github.com/LN-Zap/zap-android/issues/161
 icon: zapsolutions.zap.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-15
 signer: 
@@ -57,7 +58,6 @@ reviewArchive:
   appHash: 
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
-
 providerTwitter: ln_zap
 providerLinkedIn: 
 providerFacebook: 
@@ -66,7 +66,6 @@ providerReddit:
 redirect_from:
   - /posts/zapsolutions.zap/
 ---
-
 
 Here is the output using our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)

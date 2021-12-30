@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: satoshitango
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---
-
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-06-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

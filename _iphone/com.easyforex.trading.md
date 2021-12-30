@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.easyforex.trading.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: easymarkets
 providerLinkedIn: easymarkets

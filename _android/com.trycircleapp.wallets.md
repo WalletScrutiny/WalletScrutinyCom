@@ -9,7 +9,7 @@ appId: com.trycircleapp.wallets
 released: 2020-12-29
 updated: 2021-12-10
 version: "7.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.2M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trycircleapp.wallets.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

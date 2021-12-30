@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: btccom_official
 providerLinkedIn: btc.com
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.sparkpoint.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: sparkpointio
 providerLinkedIn: sparkpointio
@@ -33,7 +33,6 @@ providerReddit: SparkPoint
 redirect_from:
 
 ---
-
 
 This app sounds at first as if it was not for Bitcoin but self-custodial:
 

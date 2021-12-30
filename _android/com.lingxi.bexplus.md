@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.lingxi.bexplus.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: BexplusExchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: Bexplus
 redirect_from:
 
 ---
-
 
 The Bexplus website states under the mobile wallet section "Assets Security"
 

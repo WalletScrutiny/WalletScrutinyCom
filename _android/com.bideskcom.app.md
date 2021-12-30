@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bideskcom.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bideskcom
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: bidesk
 redirect_from:
 
 ---
-
 
 **Update 2021-10-22:** The service is shutting down. 
 

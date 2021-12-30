@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coolbitx.cwsapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: coolwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.coolbitx.cwsapp/
 ---
-
 
 **Update 2021-08-28**: We now also added the hardware wallets this app is the
 companion app for,

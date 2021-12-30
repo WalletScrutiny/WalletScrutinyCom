@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinFieldEx
 providerLinkedIn: coinfield
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Taken from CoinField's Play Store description:
 

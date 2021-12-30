@@ -9,7 +9,7 @@ appId: com.core.app.flitpay
 released: 2017-05-17
 updated: 2021-12-08
 version: "1.0.30"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 37M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.core.app.flitpay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: flitpayofficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.
 

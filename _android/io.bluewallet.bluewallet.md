@@ -18,6 +18,7 @@ repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/2364
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-07-14
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
-
 providerTwitter: bluewalletio
 providerLinkedIn: 
 providerFacebook: 
@@ -39,7 +39,6 @@ redirect_from:
   - /posts/2019/12/bluewallet/
   - /posts/io.bluewallet.bluewallet/
 ---
-
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is
 hosted by BlueWallet."* without any further explanation that this means that

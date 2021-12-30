@@ -18,11 +18,11 @@ repository: https://github.com/bitriel/bitriel-wallet
 issue: https://github.com/bitriel/bitriel-wallet/issues/26
 icon: com.selendra.secure_wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: SelendraChain
 providerLinkedIn: selendrachain
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

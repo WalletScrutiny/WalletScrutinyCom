@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.crypterium.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: crypterium
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.crypterium/
 ---
-
 
 Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
 

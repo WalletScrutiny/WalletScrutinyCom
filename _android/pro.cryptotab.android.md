@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: pro.cryptotab.android.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It appears that users have to buy this app on Play Store.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zbx.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: zbx_com
 providerLinkedIn: zbx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

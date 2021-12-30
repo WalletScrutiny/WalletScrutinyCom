@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pionex.client.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 
 

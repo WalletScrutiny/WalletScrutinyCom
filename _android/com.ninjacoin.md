@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "NinjaCoin Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,30 +14,24 @@ ratings: 65
 reviews: 41
 size: 25M
 website: https://ninjacoin.org/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.ninjacoin.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: nobtc
 date: 2021-11-26
-signer:
+signer: 
 reviewArchive:
-- date: 2021-11-15
-  version: "v1.3.0"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: nobtc
-  
 
 providerTwitter: Ninjacoin_org
-providerLinkedIn:
+providerLinkedIn: 
 providerFacebook: Ninjacoin
 providerReddit: Ninjacoin_org
 
 redirect_from:
 
 ---
-
 
 **Update 2021-11-11**: This app is not on Play Store anymore.
 

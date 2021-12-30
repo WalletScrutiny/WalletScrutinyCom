@@ -9,7 +9,7 @@ appId: kr.co.coin.be
 released: 2020-02-22
 updated: 2020-02-23
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.7M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.coin.be.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

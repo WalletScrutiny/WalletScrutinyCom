@@ -10,7 +10,7 @@ appId: samurai.wallet.crypto
 released: 2021-07-31
 updated: 2021-08-01
 version: "9.8"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 10M
@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: samurai.wallet.crypto.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-09-10
 signer: 
 reviewArchive:
-- date: 2021-09-01
-  version: "9.8"
-  appHash: 
-  gitRevision: 965b5cf78e9ef2a2b7089cd4e493c1f6326e1dbb
-  verdict: fake
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -38,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-09**: This app is no more.
 

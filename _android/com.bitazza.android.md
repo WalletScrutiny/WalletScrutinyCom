@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitazza.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitazzaofficial
 providerLinkedIn: bitazza
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bitazza is a cryptocurrency exchange and wallet provider. 
 

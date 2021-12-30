@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitMartExchange
 providerLinkedIn: bitmart
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitmart.bitmarket/
   - /posts/com.bitmart.bitmarket/
 ---
-
 
 On their website we read:
 

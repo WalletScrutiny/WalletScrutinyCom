@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.prestmit.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: prestmit
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Verdict 2021-10-29
 

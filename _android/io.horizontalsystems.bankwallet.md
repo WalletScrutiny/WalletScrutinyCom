@@ -18,6 +18,7 @@ repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-20
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
@@ -157,7 +158,6 @@ reviewArchive:
   appHash: f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0
   gitRevision: 92e4a67ecc626220965114cd6a4cd67497e3be9f
   verdict: nonverifiable
-
 providerTwitter: unstoppablebyhs
 providerLinkedIn: 
 providerFacebook: 
@@ -167,7 +167,6 @@ redirect_from:
   - /io.horizontalsystems.bankwallet/
   - /posts/io.horizontalsystems.bankwallet/
 ---
-
 
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our

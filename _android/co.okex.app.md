@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: co.okex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
   - /co.okex.app/
 ---
-
 
 **Update:** This app appears to have disappeared from Google Play or maybe only
 from English Google Play, as it apparently was in Arab, only? If we should

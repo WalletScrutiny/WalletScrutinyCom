@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coindcx.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindcx
 providerLinkedIn: coindcx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.brasilbitcoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: brbtcoficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.iconomi.iconomi.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: iconomicom
 providerLinkedIn: iconominet

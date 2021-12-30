@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProBit_Exchange
 providerLinkedIn: probit-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.probit.app.android2.release.global/
 ---
-
 
 Probit appears to also and mainly be an exchange and as we can't find claims to
 the contrary, we assume this app is a custodial offering and thus **not verifiable**.

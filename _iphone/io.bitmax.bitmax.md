@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: io.bitmax.bitmax.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: AscendEX_Global
 providerLinkedIn: 

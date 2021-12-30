@@ -20,11 +20,11 @@ repository: https://github.com/bluehelix-chain/wallet-android
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bhex.wallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BHEXOfficial
 providerLinkedIn: 
@@ -34,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: Despite this app having only few users, Emanuel looked
 into it and found the source code could not be compiled. The provider

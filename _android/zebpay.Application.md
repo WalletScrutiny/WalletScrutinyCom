@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: zebpay.Application.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: zebpay
 providerLinkedIn: zebpay
@@ -33,7 +33,6 @@ redirect_from:
   - /zebpay.Application/
   - /posts/zebpay.Application/
 ---
-
 
 In the description at Google Play we read:
 

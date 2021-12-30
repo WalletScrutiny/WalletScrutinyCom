@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "S3 Wallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,25 +14,24 @@ ratings: 61
 reviews: 36
 size: 7.3M
 website: https://www.s3wallet.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: io.s3.wallet.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 ## App Description
 

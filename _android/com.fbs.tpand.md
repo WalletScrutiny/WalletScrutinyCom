@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fbs.tpand.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: financefreedomsuccess
 providerLinkedIn: FBS Inc.
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the app description:
 >All-in-one multi-asset trading platform for facile online trading anywhere. Seize market opportunities in a few taps and trade smart.

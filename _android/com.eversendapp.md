@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.eversendapp.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: eversendapp
 providerLinkedIn: eversend
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Updated Review 2021-10-28**
 

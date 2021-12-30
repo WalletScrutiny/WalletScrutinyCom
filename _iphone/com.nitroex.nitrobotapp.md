@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nitroex.nitrobotapp.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: NitroExOfficial
 providerLinkedIn: nitroex

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.arzjoo.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: arzjoo
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.arzjoo/
 ---
-
 
 This provider is from Iran and its website is in Farsi, only. Google Translate
 [helps to read it in English](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Farzjoo.com%2F)

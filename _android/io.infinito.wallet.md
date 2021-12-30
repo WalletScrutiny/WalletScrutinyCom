@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-03-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Infinito_Ltd
 providerLinkedIn: infinitoservices
@@ -33,7 +33,6 @@ redirect_from:
   - /io.infinito.wallet/
   - /posts/io.infinito.wallet/
 ---
-
 
 Right on the Playstore description we find:
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.digifinex.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: DigiFinex
 providerLinkedIn: digifinex-global

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mirlimited.muchbetter.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: paymuchbetter
 providerLinkedIn: mir-muchbetter
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 
 

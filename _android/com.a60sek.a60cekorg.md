@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.a60sek.a60cekorg.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-12-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

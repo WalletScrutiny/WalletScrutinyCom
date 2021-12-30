@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.flare.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-08-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: flarewallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.flare/
   - /posts/com.flare/
 ---
-
 
 This app claims to be non-custodial:
 

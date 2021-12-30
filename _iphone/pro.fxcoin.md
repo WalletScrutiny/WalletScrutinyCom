@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: pro.fxcoin.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-10-20
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
   verdict: nowallet
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 

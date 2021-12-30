@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ios.coinmotion.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinmotion
 providerLinkedIn: coinmotion

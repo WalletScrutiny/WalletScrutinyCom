@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.top1.group.international.android.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

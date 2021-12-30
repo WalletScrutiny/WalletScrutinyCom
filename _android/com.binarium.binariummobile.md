@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binarium.binariummobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Binarium is a mobile trading app where the user tries to predict
 the movement of an asset and earn if the prediction is correct.

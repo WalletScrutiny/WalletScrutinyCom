@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.exscudo.channels.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: ex_scudo
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: EXSCUDO
 redirect_from:
 
 ---
-
 
 The Play Store description states...
 

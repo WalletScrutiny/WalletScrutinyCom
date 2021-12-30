@@ -18,10 +18,12 @@ repository:
 issue: 
 icon: co.tippin.android.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-15
 signer: 
 reviewArchive:
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -30,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

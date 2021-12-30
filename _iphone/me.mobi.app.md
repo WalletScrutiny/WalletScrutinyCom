@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: me.mobi.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: mobimeglobal
 providerLinkedIn: 

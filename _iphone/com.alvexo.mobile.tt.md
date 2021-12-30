@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.alvexo.mobile.tt.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Alvexo_Trade
 providerLinkedIn: alvexo

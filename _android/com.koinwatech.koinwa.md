@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.koinwatech.koinwa.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

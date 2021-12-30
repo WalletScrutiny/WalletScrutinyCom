@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.vog.bitvo.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitvoExchange
 providerLinkedIn: bitvoexchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

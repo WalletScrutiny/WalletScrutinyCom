@@ -18,6 +18,7 @@ repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-12-27
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
@@ -157,7 +158,6 @@ reviewArchive:
   appHash: 8b2e67fc333eeef5b10ce6f9f5fc3e4ca104c1eca9c539b73805276e09d838db
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-
 providerTwitter: Blockstream
 providerLinkedIn: blockstream
 providerFacebook: Blockstream
@@ -169,7 +169,6 @@ redirect_from:
   - /posts/2019/11/greenwallet/
   - /posts/com.greenaddress.greenbits_android_wallet/
 ---
-
 
 With
 [this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)

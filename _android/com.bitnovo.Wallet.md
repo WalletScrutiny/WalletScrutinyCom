@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitnovo
 providerLinkedIn: Bitnovo
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** There are two BitNovo apps on Google Play. Both are by the same developer: [Bitnovo](https://play.google.com/store/apps/developer?id=BITNOVO)
 

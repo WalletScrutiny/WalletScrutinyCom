@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryptotrader.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app does not have a listed website or social media accounts. It is similar to the following:
 

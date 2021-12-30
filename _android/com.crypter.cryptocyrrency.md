@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: TrustSwap
 providerLinkedIn: TrustSwap
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their official website: 
 

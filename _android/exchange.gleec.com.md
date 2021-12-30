@@ -9,7 +9,7 @@ appId: exchange.gleec.com
 released: 2021-02-17
 updated: 2021-04-12
 version: "1.0.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: exchange.gleec.com.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

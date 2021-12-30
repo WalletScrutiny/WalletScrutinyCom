@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.yellowcard.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: yellowcard_app
 providerLinkedIn: yellowcardapp
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-18**: Currently the app is not on the App Store.
 

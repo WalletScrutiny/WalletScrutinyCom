@@ -10,7 +10,7 @@ appId: com.pundix.xwallet
 released: 2018-10-22
 updated: 2020-11-23
 version: "2.8.2"
-stars: 3.0
+stars: 3
 ratings: 4965
 reviews: 2881
 size: 62M
@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: com.pundix.xwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-06-16
 signer: 
 reviewArchive:
-- date: 2021-04-29
-  version: "2.8.2"
-  appHash: 
-  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
-  verdict: custodial
 
 providerTwitter: PundiXLabs
 providerLinkedIn: pundix
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-16**: It's been a few days this app is not on the App store. If
 it should return, please open an issue on our issue tracker!

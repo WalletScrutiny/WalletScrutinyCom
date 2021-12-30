@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitocto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitoctoexchange
 providerLinkedIn: bitocto
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: Monarchtoken
 providerLinkedIn: monarchtoken
@@ -33,7 +33,6 @@ redirect_from:
   - /com.sf.monarch/
   - /posts/com.sf.monarch/
 ---
-
 
 This app appears to have been created for Monarch Tokens but it also features a
 Bitcoin wallet.

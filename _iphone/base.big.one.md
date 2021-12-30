@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: base.big.one.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BigONEexchange
 providerLinkedIn: 

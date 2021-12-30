@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cobo.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cobo_Wallet
 providerLinkedIn: coboofficial
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/cobo/
   - /posts/cobo.wallet/
 ---
-
 
 **Update:** This wallet was one of the first wallets that was analyzed and back
 then the custodial wallet was detrimental to call the full wallet custodial.

@@ -18,11 +18,11 @@ repository: https://github.com/nayutaco/NayutaCore
 issue: 
 icon: com.nayuta.core.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: nayuta_en
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-12-21
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.application.koinbazar.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: koinbazar
 providerLinkedIn: koinbazar
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 

@@ -9,7 +9,7 @@ appId: com.panzertech.swipe
 released: 2019-05-20
 updated: 2020-03-30
 version: "1.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 12M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.panzertech.swipe.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.papaya.blackcatcard.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Update 2021-10-28
 

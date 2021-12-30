@@ -18,11 +18,11 @@ repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: monya_wallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

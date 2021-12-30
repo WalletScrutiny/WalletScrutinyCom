@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mercuryo.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Mercuryo_io
 providerLinkedIn: mercuryo-io
@@ -32,7 +32,6 @@ providerReddit: mercuryo
 redirect_from:
   - /com.mercuryo.app/
 ---
-
 
 This app has a strong focus on cashing in and out with linked cards and low
 exchange fees but no word on who holds the keys. At least not on Google Play.

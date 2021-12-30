@@ -9,7 +9,7 @@ appId: com.legendwd.hyperpayW
 released: 
 updated: 2021-05-08
 version: "4.0.25"
-stars: 5.0
+stars: 5
 ratings: 1800
 reviews: 1456
 size: 104M
@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: obfuscated
 date: 2021-05-25
 signer: 
 reviewArchive:
-- date: 2020-12-02
-  version: "4.0.25"
-  appHash: 
-  gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
-  verdict: obfuscated
-
 
 providerTwitter: HyperPay_tech
 providerLinkedIn: 
@@ -37,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.legendwd.hyperpayW/
 ---
-
 
 **Update 2021-05-25**: This app is not available on Google Play anymore. As our
 last analysis below shows, the app was shady. On Facebook you can still find

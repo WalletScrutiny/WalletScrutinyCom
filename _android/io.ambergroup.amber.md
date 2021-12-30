@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.ambergroup.amber.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: ambergroup_io
 providerLinkedIn: amberbtc
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app is a crypto investment app that allows users to: 
 

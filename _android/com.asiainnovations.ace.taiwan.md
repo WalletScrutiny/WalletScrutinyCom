@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.asiainnovations.ace.taiwan.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 ACE Exchange is, as its name would suggest, a cryptocurrency exchange.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

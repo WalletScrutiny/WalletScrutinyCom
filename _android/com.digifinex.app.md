@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.digifinex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: DigiFinex
 providerLinkedIn: digifinex-global
@@ -32,7 +32,6 @@ providerReddit: DigiFinex
 redirect_from:
   - /com.digifinex.app/
 ---
-
 
 > DigiFinex is a world’s leading crypto finance exchange
 

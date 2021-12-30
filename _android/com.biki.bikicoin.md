@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.biki.bikicoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: BiKiEnglish
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: BiKi
 redirect_from:
 
 ---
-
 
 From its Google Play Description:
 

@@ -9,7 +9,7 @@ appId: com.Bitplicity.Bitplicityapp
 released: 2020-06-06
 updated: 2020-06-19
 version: "1.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 1.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Bitplicity.Bitplicityapp.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

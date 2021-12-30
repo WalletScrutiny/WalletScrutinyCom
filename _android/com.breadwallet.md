@@ -18,6 +18,7 @@ repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1
 icon: com.breadwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-06-29
 signer: 
@@ -32,7 +33,6 @@ reviewArchive:
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
-
 providerTwitter: BRDHQ
 providerLinkedIn: brdhq
 providerFacebook: brdhq
@@ -41,7 +41,6 @@ providerReddit: brdapp
 redirect_from:
 
 ---
-
 
 **Update 2021-06-29**: The provider
 [informed us](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869938323)

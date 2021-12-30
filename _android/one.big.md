@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: one.big.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BigONEexchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: BigONEExchange
 redirect_from:
 
 ---
-
 
 BigONE has the interface of a digital exchange, and advertises itself as such.
 

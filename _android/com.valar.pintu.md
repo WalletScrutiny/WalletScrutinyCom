@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.valar.pintu.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: pintuid
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
 > **Do I hold a Private Key?**<br>

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.btckorea.bithumb.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 

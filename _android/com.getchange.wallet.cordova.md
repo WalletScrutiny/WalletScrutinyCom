@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: changefinance
 providerLinkedIn: changeinvest
@@ -33,7 +33,6 @@ redirect_from:
   - /com.getchange.wallet.cordova/
   - /posts/com.getchange.wallet.cordova/
 ---
-
 
 On their Google Play description we find
 

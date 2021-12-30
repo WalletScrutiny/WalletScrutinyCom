@@ -18,11 +18,11 @@ repository: https://github.com/digitalbitbox/bitbox-wallet-app
 issue: 
 icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: ShiftCryptoHQ
 providerLinkedIn: shift-crypto
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The description of this app reads:
 

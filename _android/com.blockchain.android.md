@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Blockchain"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.blockchain.android
@@ -16,16 +18,11 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: obfuscated
 date: 2021-01-15
 signer: 
 reviewArchive:
-- date: 2020-11-28
-  version: "1.0.7.5"
-  appHash: 
-  gitRevision: deed03beb86d7c7aa7d4078d9c13d1501ce35bd6
-  verdict: obfuscated
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,8 +30,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 **Update:** This wallet is no more but never looked too likely to stay around
 for long:

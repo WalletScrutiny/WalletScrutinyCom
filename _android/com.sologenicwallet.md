@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-06-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +33,5 @@ redirect_from:
   - /com.sologenicwallet/
   - /posts/com.sologenicwallet/
 ---
-
 
 This wallet does not support BTC.

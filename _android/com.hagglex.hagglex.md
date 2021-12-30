@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hagglex.hagglex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: hagglexintl
 providerLinkedIn: hagglex
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app has a short Play Store description:
 

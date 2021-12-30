@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitsa_oficial
 providerLinkedIn: bitsacard

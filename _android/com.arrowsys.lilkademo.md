@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.arrowsys.lilkademo.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## New Review 2021-10-29
 

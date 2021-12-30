@@ -9,7 +9,7 @@ appId: ch.vrfy
 released: 2019-10-03
 updated: 2021-07-13
 version: "1.5.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 39M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ch.vrfy.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

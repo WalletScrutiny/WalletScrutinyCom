@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.crypto.exchange.app.cryptocurency.exchange.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning!** Despite its claims, this app is not a real cryptocurrency exchange app. It is a blatant ploy to receive affiliate commissions from binance. 
 

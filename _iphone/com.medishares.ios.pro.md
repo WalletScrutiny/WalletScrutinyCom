@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

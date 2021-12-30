@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.spot.spot.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: spot_bitcoin
 providerLinkedIn: spot-bitcoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.spot.spot/
 ---
-
 
 On their website we read:
 

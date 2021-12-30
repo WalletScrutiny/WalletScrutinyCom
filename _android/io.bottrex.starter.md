@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.bottrex.starter.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: bottrexoficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

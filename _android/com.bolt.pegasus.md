@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bolt.pegasus.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: bolt_global
 providerLinkedIn: bolt-global
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Seems like a secondary project called "Pegasus" of Bolt Global where you can earn BOLT tokens into the Bolt-X wallet from using the Bolt+ interactive media companion app.
 

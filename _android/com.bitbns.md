@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitbns.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitbns
 providerLinkedIn: bitbnsinc
@@ -32,7 +32,6 @@ providerReddit: Bitbns
 redirect_from:
 
 ---
-
 
 From their linkedin page:
 

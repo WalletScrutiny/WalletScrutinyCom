@@ -15,8 +15,8 @@
     </td>
   </tr>
   {%- for v in verdicts -%}
-    {%- assign iphonePosts  = site.iphone  | sort: "appId" | reverse | sort: "reviews" | reverse -%}
-    {%- assign androidPosts = site.android | sort: "appId" | reverse | sort: "users"   | reverse -%}
+    {%- assign iphonePosts  = site.iphone  | where: "meta", "ok" | sort: "appId" | reverse | sort: "reviews" | reverse -%}
+    {%- assign androidPosts = site.android | where: "meta", "ok" | sort: "appId" | reverse | sort: "users"   | reverse -%}
     {%- include grid_of_wallets_platform.html platform = "iphone"   platformPosts = iphonePosts -%}
     {%- include grid_of_wallets_platform.html platform = "android"  platformPosts = androidPosts -%}
     {%- include grid_of_wallets_platform.html platform = "hardware" platformPosts = site.hardware -%}

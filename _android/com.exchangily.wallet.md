@@ -19,11 +19,11 @@ repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.wallet.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: ExchangilyC
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is a self-custodial Bitcoin wallet:
 

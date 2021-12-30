@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.zamzam.bank.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

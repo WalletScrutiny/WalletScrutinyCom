@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.silenca.amlsafe.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy

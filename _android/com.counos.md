@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.counos.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: counoscoin
 providerLinkedIn: counosplatform
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Nothing in the description hints at this app being non-custodial.
 

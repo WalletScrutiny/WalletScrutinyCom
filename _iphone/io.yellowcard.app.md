@@ -19,6 +19,7 @@ repository:
 issue: 
 icon: io.yellowcard.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-07-28
 signer: 
@@ -33,7 +34,6 @@ reviewArchive:
   appHash: 
   gitRevision: d2e048f371ab14d6d8a699156755ca302bf2e74c
   verdict: custodial
-
 providerTwitter: yellowcard_app
 providerLinkedIn: yellowcardapp
 providerFacebook: yellowcardapp

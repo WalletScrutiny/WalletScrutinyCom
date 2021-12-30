@@ -18,11 +18,11 @@ repository: https://github.com/bithyve/hexa
 issue: 
 icon: io.hexawallet.hexa2.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: HexaWallet
 providerLinkedIn: bithyve
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Verdict 2021-12-21
 

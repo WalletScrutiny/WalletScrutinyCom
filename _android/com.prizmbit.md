@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.prizmbit.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-12-22
 signer: 
 reviewArchive:
-- date: 2021-05-01
-  version: "1.5"
-  appHash: 
-  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
-  verdict: custodial
 
 providerTwitter: prizmbit
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-04**: This app is gone from the Store.
 

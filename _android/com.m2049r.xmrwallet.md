@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.m2049r.xmrwallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-02-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app does not feature BTC wallet functionality.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.theblockchain.coinus.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinUs_Official
 providerLinkedIn: 

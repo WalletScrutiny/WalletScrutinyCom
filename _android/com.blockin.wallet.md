@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockin.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: PoolinWallet
 providerLinkedIn: poolinwallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

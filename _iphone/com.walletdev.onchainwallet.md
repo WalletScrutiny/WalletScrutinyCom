@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.walletdev.onchainwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: HuobiWallet
 providerLinkedIn: 

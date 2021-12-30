@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitso.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitso
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitso.wallet/
 ---
-
 
 Bitso appears to be an exchange and their statement on security on their website
 

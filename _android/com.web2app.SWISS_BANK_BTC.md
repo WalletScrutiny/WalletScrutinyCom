@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.web2app.SWISS_BANK_BTC.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-12-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

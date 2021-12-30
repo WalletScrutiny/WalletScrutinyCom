@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.currency.exchange.investsmart.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-06
 signer: 
 reviewArchive:
-- date: 2021-09-11
-  version: "1.14.0"
-  appHash: 
-  gitRevision: 390ad12adfd0448e851c0112bc5cc9c2a11698b4
-  verdict: custodial
 
 providerTwitter: currencycom
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit: currencycom
 redirect_from:
 
 ---
-
 
 **Update 2021-09-29**: This app is not on the Store anymore.
 

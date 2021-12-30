@@ -1,12 +1,36 @@
 ---
+wsId: 
 title: "Best Wallet :: Crypto Currency Wallet"
+altTitle: 
+authors:
 
 users: 0
 appId: com.cryptocurrencys.bestwallet
-ratings: 0
+released: 
+updated: 2021-12-30
+version: "various"
+stars: 
+ratings: 
+reviews: 
+size: undefined
+website: 
+repository: 
+issue: 
 icon: com.cryptocurrencys.bestwallet.png
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2020-12-04
+signer: 
+reviewArchive:
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
 ---
 
 This app still appears in search results but Google Play doesn't show the app.

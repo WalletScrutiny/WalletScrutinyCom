@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitpreco.bitprecoAppAndroid.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitPreco
 providerLinkedIn: bitpreco
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

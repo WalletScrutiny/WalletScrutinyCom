@@ -20,11 +20,11 @@ repository: https://github.com/bluehelix-chain/wallet-android
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BHEXOfficial
 providerLinkedIn: 

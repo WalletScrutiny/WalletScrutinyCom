@@ -18,11 +18,11 @@ repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 
 icon: com.vaulthotpro.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cobo_Wallet
 providerLinkedIn: cobo-official
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **UPDATE 2021-11-15:** Since 11.11 the app is currently gone from the Play Store.
 

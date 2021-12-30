@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.aximetria.aximetria.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-10-13
-  version: "1.5.51"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: custodial
-  
 
 providerTwitter: aximetriagmbh
 providerLinkedIn: aximetriagmbh
@@ -37,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-14**: This app is not on Play Store anymore.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: lite.cryptotab.android.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is a lite version of {% include walletLink.html wallet='android/pro.cryptotab.android' verdict='true' %}.
 It's safe to assume they have the same verdict.

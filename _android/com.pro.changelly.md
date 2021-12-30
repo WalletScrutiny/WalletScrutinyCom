@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pro.changelly.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: changelly_team
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: Changelly
 redirect_from:
 
 ---
-
 
 ## App Description
 Changelly PRO is an exchange:

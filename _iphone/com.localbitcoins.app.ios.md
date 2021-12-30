@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.localbitcoins.app.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: LocalBitcoins
 providerLinkedIn: localbitcoins

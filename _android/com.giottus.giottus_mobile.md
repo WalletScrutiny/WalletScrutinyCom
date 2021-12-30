@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.giottus.giottus_mobile.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: giottus
 providerLinkedIn: giottus
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Description from Home Page: 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wallet.vaultcryptowallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Notes:** Vault Crypto Wallet's Google Play page links to [bitcoinpay.com.co](https://bitcoinpay.com.co)
 

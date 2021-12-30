@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.roinvesting.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: Roinvesting
 providerLinkedIn: roinvesting
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

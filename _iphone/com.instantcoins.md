@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.instantcoins.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: instantcoins_ng
 providerLinkedIn: 

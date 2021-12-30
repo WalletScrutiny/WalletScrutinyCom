@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: tabtraderpro
 providerLinkedIn: tabtrader

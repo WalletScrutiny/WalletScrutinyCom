@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.cryptosigma.finance.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** There was no website listed on its Google Play page. We also were not able to find its officially linked social media accounts.
 

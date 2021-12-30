@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trading.aries.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: TradeAries
 providerLinkedIn: tradearies
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

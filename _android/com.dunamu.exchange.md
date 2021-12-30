@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dunamu.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: upbitglobal
 providerLinkedIn: upbit-official
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 There are two versions of this app: one for Korea and one that's global. 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.easybit.app.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository: https://github.com/hsjoberg/blixt-wallet
 issue: 
 icon: com.blixtwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlixtWallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 So we got a support request from somebody who put money into this lightning wallet
 and the channel instantly closed but days later he didn't have his money back.

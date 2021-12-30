@@ -18,16 +18,12 @@ repository:
 issue: 
 icon: com.voicapps.app2cash.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-11-08
-  version: "1.02.4"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: custodial
-  
+
 providerTwitter: 2cashnetwork
 providerLinkedIn: 2cash
 providerFacebook: 2cashnetwork

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockin.google.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: officialpoolin
 providerLinkedIn: poolin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Poolin Mining Pool app is created by Poolin, an enterprise that engages in cryptocurrency mining pool services.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app does not appear to be a crypto wallet, instead utilizing external services such as Skrill or CoinBase as its wallets.
 

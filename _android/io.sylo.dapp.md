@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: sylo
 providerLinkedIn: sylo.io
@@ -33,7 +33,6 @@ redirect_from:
   - /io.sylo.dapp/
   - /posts/io.sylo.dapp/
 ---
-
 
 This app recently came to our attention as it "can be used to buy coke with
 bitcoin". Their Google Play description indeed lists BTC as one of the supported

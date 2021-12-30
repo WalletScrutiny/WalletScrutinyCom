@@ -19,11 +19,11 @@ repository: https://github.com/shesek/spark-wallet
 issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-12-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,7 +34,6 @@ redirect_from:
   - /com.spark.wallet/
   - /posts/com.spark.wallet/
 ---
-
 
 <div class="alertBox"><div>⚠️ The provider himself warns:
 <blockquote>Spark is beta-quality software under active development, please use with care.</blockquote>

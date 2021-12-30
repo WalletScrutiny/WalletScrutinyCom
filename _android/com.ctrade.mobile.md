@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ctrade.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: CTrade_official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 C-Trade is a centralized trading platform:

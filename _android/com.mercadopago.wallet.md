@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mercadopago.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: mercadopago
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider announced the possibility to buy and sell Bitcoin from within the
 app a while ago already. It is not clear where exactly this feature is available

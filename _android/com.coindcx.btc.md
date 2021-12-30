@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coindcx.btc.png
 bugbounty: https://coindcx.com/bug-bounty
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindcx
 providerLinkedIn: coindcx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a
 

@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-12-28
 signer: 
 reviewArchive:
-- date: 2021-09-17
-  version: "3.5.4"
-  appHash: 
-  gitRevision: 6ebb740f957edd101e3adeeee5853307f7a2a16b
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **2021-09-13:** We downloaded the app, but attempting to register a new account resulted in a "service is unavailable" error.
 

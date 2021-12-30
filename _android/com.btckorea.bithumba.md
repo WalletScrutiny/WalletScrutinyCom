@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.btckorea.bithumba.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-08-04
 signer: 
 reviewArchive:
-- date: 2021-02-19
-  version: "1.1.1"
-  appHash: 
-  gitRevision: 8770b9bdf24645be6c837baa253b07d13a2b2ce8
-  verdict: custodial
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-04**: Since 2021-07-22 the app is not on Play Store anymore.
 We don't know any details but also noticed that

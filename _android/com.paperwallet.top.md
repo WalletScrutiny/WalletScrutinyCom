@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paperwallet.top.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

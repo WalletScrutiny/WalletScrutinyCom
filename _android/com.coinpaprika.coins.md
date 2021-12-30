@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinpaprika.coins.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinsOneApp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the Google Play app description: 
 
