@@ -8,11 +8,11 @@ appId: io.hotbit.shouyi.flavor.korea
 appCountry: kr
 idd: 1519926225
 released: 2020-08-05
-updated: 2021-12-06
-version: "1.1.43"
+updated: 2021-12-31
+version: "1.1.44"
 stars: 3.90909
 reviews: 33
-size: 30395392
+size: 31165440
 website: https://www.hotbit.co.kr/
 repository: 
 issue: 

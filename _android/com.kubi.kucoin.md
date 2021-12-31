@@ -16,7 +16,7 @@ size: 65M
 website: 
 repository: 
 issue: 
-icon: com.kubi.kucoin.png
+icon: com.kubi.kucoin.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

@@ -10,8 +10,8 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2021-12-20
 version: "6.6.6"
-stars: 4.42856
-reviews: 77
+stars: 4.4359
+reviews: 78
 size: 84770816
 website: https://bitkeep.com
 repository: https://github.com/bitkeepcom

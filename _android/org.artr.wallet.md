@@ -1,14 +1,14 @@
 ---
 wsId: ArteryNetwork
-title: "Artery Network - Кошелек, VPN, Storage"
+title: "Artery Wallet"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: org.artr.wallet
 released: 
-updated: 2021-09-20
-version: "1.7"
+updated: 2021-12-17
+version: "1.8"
 stars: 4.4
 ratings: 1910
 reviews: 1031

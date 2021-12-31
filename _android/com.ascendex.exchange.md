@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.ascendex.exchange
 released: 2021-04-28
-updated: 2021-12-21
+updated: 2021-12-31
 version: "2.7.1"
 stars: 4.8
 ratings: 3849

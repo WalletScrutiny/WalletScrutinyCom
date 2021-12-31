@@ -4,7 +4,7 @@ title: "ZEBEDEE Gaming Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: io.zebedee.wallet
 released: 2020-10-20
 updated: 2021-12-24
