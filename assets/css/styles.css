@@ -1761,17 +1761,23 @@ html {
 }
 
 .meta_stale {
-  filter: saturate(0) opacity(70%)
+  filter: opacity(70%);
+  border: solid 0.3rem gray;
+  padding: 0.45rem !important;
 }
 
 .meta_obsolete {
-  filter: saturate(0) opacity(50%) blur(1px)
+  filter: opacity(50%);
+  border: solid 0.3rem black;
+  padding: 0.45rem !important;
 }
 
 .meta_defunct {
-  filter: saturate(0) opacity(30%) blur(2px)
+  filter: opacity(30%);
+  border: solid 0.3rem red;
+  padding: 0.45rem !important;
 }
 
 .meta_stale:hover, .meta_obsolete:hover, .meta_defunct:hover {
-  filter: none
+  filter: none;
 }
