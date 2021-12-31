@@ -8,11 +8,11 @@ appId: tech.exio.OracleWallet.OracleWallet
 appCountry: us
 idd: 1546609959
 released: 2021-03-24
-updated: 2021-11-09
-version: "1.3.1"
+updated: 2021-12-27
+version: "1.3.2"
 stars: 5
 reviews: 1
-size: 38189056
+size: 38270976
 website: https://oracle8.org/
 repository: 
 issue: 

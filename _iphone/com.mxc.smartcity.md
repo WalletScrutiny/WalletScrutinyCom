@@ -8,11 +8,11 @@ appId: com.mxc.smartcity
 appCountry: us
 idd: 1509218470
 released: 2020-06-30
-updated: 2021-09-13
-version: "1.13.4"
-stars: 4.70701
-reviews: 157
-size: 111157248
+updated: 2021-12-23
+version: "2.0.4"
+stars: 4.66258
+reviews: 163
+size: 129721344
 website: https://www.mxc.org
 repository: 
 issue: 

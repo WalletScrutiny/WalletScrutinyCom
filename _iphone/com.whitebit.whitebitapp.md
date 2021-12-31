@@ -1,6 +1,6 @@
 ---
 wsId: whitebit
-title: "WhiteBIT:Buy bitcoin securel‪y"
+title: "WhiteBIT – buy & sell bitcoin"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
-updated: 2021-11-24
-version: "2.0.5"
-stars: 4.64286
-reviews: 112
-size: 119975936
+updated: 2021-12-28
+version: "2.5.0"
+stars: 4.69737
+reviews: 152
+size: 133985280
 website: https://whitebit.com
 repository: 
 issue: 

@@ -10,8 +10,8 @@ idd: 1439583926
 released: 2018-12-20
 updated: 2021-07-06
 version: "3.5.1"
-stars: 4.66667
-reviews: 6
+stars: 4.77778
+reviews: 9
 size: 90480640
 website: https://max.maicoin.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.nominex.app
 appCountry: ru
 idd: 1572965666
 released: 2021-07-17
-updated: 2021-10-12
-version: "1.3.4"
-stars: 4.6087
-reviews: 23
-size: 66307072
+updated: 2021-12-13
+version: "1.3.8"
+stars: 4.36
+reviews: 25
+size: 62630912
 website: https://nominex.io
 repository: 
 issue: 

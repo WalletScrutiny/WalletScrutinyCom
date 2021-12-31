@@ -8,11 +8,11 @@ appId: ph.pdax.mobile
 appCountry: ph
 idd: 1531246346
 released: 2020-12-18
-updated: 2021-11-22
-version: "1.3.27"
-stars: 3.15419
-reviews: 227
-size: 97229824
+updated: 2021-12-06
+version: "1.3.59"
+stars: 3.15152
+reviews: 231
+size: 97549312
 website: https://pdax.ph
 repository: 
 issue: 

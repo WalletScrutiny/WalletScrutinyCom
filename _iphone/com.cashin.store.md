@@ -8,8 +8,8 @@ appId: com.cashin.store
 appCountry: gb
 idd: 1363753409
 released: 2018-08-15
-updated: 2021-12-07
-version: "4.7"
+updated: 2021-12-27
+version: "4.8"
 stars: 4.65
 reviews: 60
 size: 78209024

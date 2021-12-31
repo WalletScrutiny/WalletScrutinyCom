@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.samourai.wallet
 released: 
-updated: 2021-12-28
+updated: 2021-12-30
 version: "Varies with device"
 stars: 
 ratings: 

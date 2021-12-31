@@ -1,18 +1,18 @@
 ---
 wsId: Savl
-title: "Savl Bitcoin wallet: BTC, ETH, crypto exchange"
+title: "Savl Wallet Bitcoin & Solana"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.savl
 released: 2018-07-24
-updated: 2021-10-20
-version: "2.9.0"
+updated: 2021-12-29
+version: "2.10.0"
 stars: 4.4
 ratings: 586
 reviews: 370
-size: 230M
+size: 252M
 website: https://savl.com/
 repository: 
 issue: 

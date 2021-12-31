@@ -4,7 +4,7 @@ title: "Bitcoin Wallet Dark"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: bit.consortium.wallet
 released: 2021-08-10
 updated: 2021-08-10

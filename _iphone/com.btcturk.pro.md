@@ -8,10 +8,10 @@ appId: com.btcturk.pro
 appCountry: 
 idd: 1471639720
 released: 2019-07-10
-updated: 2021-12-20
-version: "1.40.5"
-stars: 4.85635
-reviews: 1093
+updated: 2021-12-23
+version: "1.40.6"
+stars: 4.85714
+reviews: 1113
 size: 117966848
 website: https://pro.btcturk.com
 repository: 
