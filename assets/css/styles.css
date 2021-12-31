@@ -1763,18 +1763,24 @@ html {
 .meta_stale {
   filter: opacity(70%);
   border: solid 0.3rem gray;
+}
+.meta_stale.AppDisplayCard {
   padding: 0.45rem !important;
 }
 
 .meta_obsolete {
   filter: opacity(50%);
   border: solid 0.3rem black;
+}
+.meta_obsolete.AppDisplayCard {
   padding: 0.45rem !important;
 }
 
 .meta_defunct {
   filter: opacity(30%);
   border: solid 0.3rem red;
+}
+.meta_defunct.AppDisplayCard {
   padding: 0.45rem !important;
 }
 
