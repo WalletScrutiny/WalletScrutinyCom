@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: "Huobi Global: Buy BTC & Meta"
+title: "Huobi Global: Buy BTC & SHIB"
 altTitle: 
 authors:
 - leo

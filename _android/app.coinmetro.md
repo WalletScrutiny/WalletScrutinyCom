@@ -4,7 +4,7 @@ title: "CoinMetro"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: app.coinmetro
 released: 2017-12-10
 updated: 2021-12-13

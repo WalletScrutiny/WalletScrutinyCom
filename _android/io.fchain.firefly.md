@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: io.fchain.firefly
 released: 2019-05-08
-updated: 2021-01-07
-version: "3.3.6"
+updated: 2021-12-30
+version: "3.3.9"
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 23M
 website: 
 repository: 
 issue: 

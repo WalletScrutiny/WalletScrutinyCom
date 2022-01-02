@@ -10,8 +10,8 @@ idd: 1456038895
 released: 2021-04-22
 updated: 2021-07-13
 version: "0.5.2"
-stars: 4.16667
-reviews: 12
+stars: 3.92308
+reviews: 13
 size: 26561536
 website: https://ZeusLN.app
 repository: 

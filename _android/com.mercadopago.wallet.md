@@ -10,8 +10,8 @@ released: 2014-12-09
 updated: 2021-12-30
 version: "2.200.3"
 stars: 4.2
-ratings: 3170534
-reviews: 6346
+ratings: 3178820
+reviews: 6352
 size: 59M
 website: 
 repository: 

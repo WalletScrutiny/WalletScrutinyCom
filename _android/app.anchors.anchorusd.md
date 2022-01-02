@@ -1,14 +1,14 @@
 ---
 wsId: AnchorUSD
-title: "AnchorUSD – Invest in Stocks and Crypto"
+title: "Anchor – Buy and sell crypto"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: app.anchors.anchorusd
 released: 2020-06-18
-updated: 2021-12-14
-version: "1.17.4"
+updated: 2021-12-29
+version: "1.17.5"
 stars: 2.3
 ratings: 2426
 reviews: 776
