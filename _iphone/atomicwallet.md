@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: atomicwallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-01-23
+date: 2022-01-02
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-02**: This app is no more available.
 
 > Atomic Wallet is a universal, fully decentralized, multi-currency, and
   convenient app with a simple interface that supports over 300
