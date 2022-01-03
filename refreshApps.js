@@ -14,7 +14,7 @@ async function refresh() {
     readline.clearLine(process.stdout)
     readline.cursorTo(process.stdout, 0)
     process.stdout.write(newMsg)
-    process.stdout.cursorTo(0) // other console.out stuff should write over this.
+    readline.cursorTo(process.stdout, 0) // other console.out stuff should write over this.
     if (msg == newMsg) {
       console.log(`
         Finished.`)
