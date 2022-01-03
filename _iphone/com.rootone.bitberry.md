@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 date: 2021-09-12
 signer: 

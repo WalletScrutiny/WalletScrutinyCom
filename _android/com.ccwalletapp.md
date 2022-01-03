@@ -19,7 +19,7 @@ repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: ftbfs
 date: 2021-08-17
 signer: 

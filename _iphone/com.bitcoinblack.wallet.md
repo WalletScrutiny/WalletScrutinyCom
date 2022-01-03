@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.bitcoinblack.wallet
 appCountry: 
 idd: 1523044877

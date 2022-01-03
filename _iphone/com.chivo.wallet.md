@@ -19,7 +19,7 @@ issue:
 icon: com.chivo.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: obfuscated
 date: 2021-10-10
 signer: 
 reviewArchive:

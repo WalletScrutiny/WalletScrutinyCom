@@ -33,6 +33,10 @@ redirect_from:
 
 ---
 
+
+**Update 2022-01-03**: It appears that bybt has rebranded to Coinglass. Bybt.com redirects to coinglass.com. The android app for bybt now points to a 404. The iOS app is now named coinglass. This app may need a **new review** for the new Android app with appID 'com.coinglass.android'
+
+
 **Update 2021-11-03**: This app is not available anymore.
 
 ## Updated Review 2021-10-29
