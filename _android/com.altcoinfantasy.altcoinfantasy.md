@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-01
+date: 2022-01-03
 signer: 
 reviewArchive:
 

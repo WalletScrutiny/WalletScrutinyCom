@@ -10,7 +10,7 @@ released: 2021-02-02
 updated: 2021-12-15
 version: "1.3.3"
 stars: 4.5
-ratings: 2010
+ratings: 2018
 reviews: 4
 size: 28M
 website: https://mobox.io/

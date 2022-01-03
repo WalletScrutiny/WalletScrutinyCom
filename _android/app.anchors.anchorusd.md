@@ -1,6 +1,6 @@
 ---
 wsId: AnchorUSD
-title: "Anchor – Buy and sell crypto"
+title: "Anchor – Buy and Send Crypto"
 altTitle: 
 authors:
 - danny

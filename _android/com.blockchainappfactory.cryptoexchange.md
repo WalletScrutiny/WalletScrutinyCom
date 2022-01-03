@@ -4,7 +4,7 @@ title: "BAF: Multicurrency Wallet & Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.blockchainappfactory.cryptoexchange
 released: 
 updated: 2021-04-13

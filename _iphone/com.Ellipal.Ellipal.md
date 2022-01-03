@@ -10,8 +10,8 @@ idd: 1426179665
 released: 2018-08-25
 updated: 2021-12-21
 version: "3.3.0"
-stars: 4.76114
-reviews: 1302
+stars: 4.76292
+reviews: 1316
 size: 84116480
 website: http://www.ellipal.com/
 repository: 

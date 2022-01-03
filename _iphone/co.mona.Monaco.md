@@ -10,8 +10,8 @@ idd: 1262148500
 released: 2017-08-31
 updated: 2021-12-20
 version: "3.123"
-stars: 4.31238
-reviews: 68014
+stars: 4.31017
+reviews: 68115
 size: 388075520
 website: https://crypto.com/
 repository: 

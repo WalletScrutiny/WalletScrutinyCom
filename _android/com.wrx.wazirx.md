@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 5000000
+users: 10000000
 appId: com.wrx.wazirx
 released: 2018-07-16
 updated: 2021-12-07

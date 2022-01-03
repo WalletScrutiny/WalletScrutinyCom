@@ -10,8 +10,8 @@ idd: 1078997450
 released: 2016-02-10
 updated: 2019-05-25
 version: "2.21.0"
-stars: 4.51823
-reviews: 384
+stars: 4.51169
+reviews: 385
 size: 30611456
 website: https://libertex.org/
 repository: 
