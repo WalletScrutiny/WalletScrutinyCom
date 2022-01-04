@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa: Learn to Trade & Invest"
+title: "Stock Market Simulator - Bolsa"
 altTitle: 
 authors:
 - danny

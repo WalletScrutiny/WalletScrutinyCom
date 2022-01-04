@@ -10,8 +10,8 @@ idd: 591644846
 released: 2013-03-07
 updated: 2021-12-22
 version: "6.21"
-stars: 4.65482
-reviews: 62306
+stars: 4.65468
+reviews: 62333
 size: 105623552
 website: https://www.astontek.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: tzerocrypto
-title: "tZERO Crypto - Buy & Sell Bitcoin, Ethereum & more"
+title: "tZERO Crypto - Buy, Sell, Grow"
 altTitle: 
 authors:
 - danny

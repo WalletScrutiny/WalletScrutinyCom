@@ -8,7 +8,7 @@ users: 100000
 appId: io.yellowcard.app
 released: 2019-05-14
 updated: 2021-12-30
-version: "3.13.10"
+version: "3.13.11"
 stars: 3.4
 ratings: 2287
 reviews: 1704

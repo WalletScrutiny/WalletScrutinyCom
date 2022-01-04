@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coin98 Wallet - Crypto Wallet & DeFi Gateway"
+title: "Coin98 Finance"
 altTitle: 
 authors:
 - kiwilamb

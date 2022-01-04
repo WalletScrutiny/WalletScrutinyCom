@@ -1,6 +1,6 @@
 ---
 wsId: AnchorUSD
-title: "AnchorUSD: Buy Stocks & Crypto"
+title: "Anchor: Buy Stocks & Crypto"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: app.anchors.anchorusd
 appCountry: us
 idd: 1495986023
 released: 2020-01-30
-updated: 2021-12-10
-version: "1.17.3"
-stars: 4.37448
-reviews: 5087
-size: 36860928
-website: https://www.anchorusd.com/
+updated: 2022-01-01
+version: "1.17.5"
+stars: 4.36986
+reviews: 5091
+size: 36866048
+website: https://www.tryanchor.com/
 repository: 
 issue: 
 icon: app.anchors.anchorusd.jpg

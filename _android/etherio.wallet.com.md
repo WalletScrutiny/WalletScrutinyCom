@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitorzo"
+title: "Etherio"
 altTitle: "(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
 authors:
 

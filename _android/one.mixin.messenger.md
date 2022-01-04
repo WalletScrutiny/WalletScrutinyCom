@@ -6,7 +6,7 @@ authors:
 - danny
 - emanuel
 - leo
-users: 10000
+users: 50000
 appId: one.mixin.messenger
 released: 2018-05-24
 updated: 2021-12-21

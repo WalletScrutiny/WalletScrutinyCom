@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.coinme
 released: 
-updated: 2021-12-06
+updated: 2021-12-31
 version: "1.6.1"
 stars: 4.4
 ratings: 493
