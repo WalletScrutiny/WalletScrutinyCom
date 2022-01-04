@@ -18,9 +18,9 @@ repository: https://github.com/mycelium-com/wallet-ios
 issue: 
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
-date: 2020-12-19
+date: 2022-01-04
 signer: 
 reviewArchive:
 

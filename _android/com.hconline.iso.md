@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.hconline.iso
 released: 2020-07-19
-updated: 2021-12-10
-version: "R02.03.06.404"
+updated: 2022-01-04
+version: "R02.03.06.417"
 stars: 3.9
 ratings: 17
 reviews: 10
-size: 44M
+size: 43M
 website: https://www.starteos.io/en
 repository: https://github.com/StarteosIO
 issue: 

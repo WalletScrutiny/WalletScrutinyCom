@@ -4,7 +4,7 @@ title: "Bull App - Bitcoin & ETH Secure DeFi Crypto Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: crypto.wallet.chainapp
 released: 2021-03-24
 updated: 2021-09-22

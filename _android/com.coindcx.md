@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Trade Cryptos with CoinDCX Pro"
+title: "CoinDCX Pro: Trade BTC,ETH,SOL"
 altTitle: 
 authors:
 - danny

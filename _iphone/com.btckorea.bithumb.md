@@ -10,8 +10,8 @@ idd: 1299421592
 released: 2017-12-05
 updated: 2021-12-31
 version: "1.7.4"
-stars: 2.03447
-reviews: 29
+stars: 2
+reviews: 30
 size: 98621440
 website: https://en.bithumb.com
 repository: 

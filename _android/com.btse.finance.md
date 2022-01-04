@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.btse.finance
 released: 2020-11-30
-updated: 2021-12-16
-version: "1.22.0"
+updated: 2022-01-04
+version: "1.23.0"
 stars: 4.6
 ratings: 56
 reviews: 29

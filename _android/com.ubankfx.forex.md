@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.ubankfx.forex
 released: 2017-05-17
-updated: 2021-12-30
-version: "v8.1-5347-f4a042242"
+updated: 2022-01-04
+version: "v8.2-5352-51cac0b85"
 stars: 4.8
 ratings: 1468
 reviews: 869

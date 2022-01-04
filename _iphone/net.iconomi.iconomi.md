@@ -10,8 +10,8 @@ idd: 1238213050
 released: 2017-05-25
 updated: 2021-12-01
 version: "2.0.10"
-stars: 4.66667
-reviews: 75
+stars: 4.61842
+reviews: 76
 size: 84793344
 website: http://www.iconomi.com
 repository: 

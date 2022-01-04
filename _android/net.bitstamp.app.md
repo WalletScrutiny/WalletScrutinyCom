@@ -4,7 +4,7 @@ title: "Bitstamp – Crypto on the go"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: net.bitstamp.app
 released: 2019-01-29
 updated: 2021-12-22

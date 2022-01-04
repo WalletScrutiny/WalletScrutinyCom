@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: partl.coini
 released: 2018-02-04
-updated: 2021-11-28
-version: "2.3.6"
+updated: 2022-01-04
+version: "2.3.7"
 stars: 4.6
 ratings: 253
 reviews: 127
-size: 46M
+size: 47M
 website: https://timopartl.com
 repository: 
 issue: 

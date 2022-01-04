@@ -10,8 +10,8 @@ idd: 1589400699
 released: 2021-10-18
 updated: 2021-10-19
 version: "1.3"
-stars: 
-reviews: 
+stars: 5
+reviews: 1
 size: 19799040
 website: https://iqwallet.io/
 repository: 
