@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: pro.fxcoin.jpg
 bugbounty: 
-meta: ok
-verdict: wip
+meta: defunct
+verdict: nowallet
 date: 2021-10-20
 signer: 
 reviewArchive:
@@ -37,6 +37,12 @@ redirect_from:
 
 ---
 
+
+**Update 2022-01-04**
+
+As of today, fxcoin's iOS app is no longer available. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478308808808026112)
+
+**Previous Analysis**
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.
 
 The app allows the purchase of bitcoins using visa/mastercard, said app then transfers bitcoin to an address the buyer owns.

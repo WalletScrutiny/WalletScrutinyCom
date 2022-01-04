@@ -4,6 +4,7 @@ title: "iW Personal"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.iwallet.iwallet
 appCountry: 
 idd: 1479545928
@@ -13,7 +14,7 @@ version: "2.35"
 stars: 4.31914
 reviews: 47
 size: 52264960
-website: 
+website: http://InSense.tech
 repository: 
 issue: 
 icon: com.iwallet.iwallet.jpg

@@ -4,6 +4,7 @@ title: "KeyWallet Touch - Bitcoin"
 altTitle: 
 authors:
 - leo
+- danny
 appId: kr.co.keypair.keywalletTouchiOS
 appCountry: 
 idd: 1473941321
@@ -13,7 +14,7 @@ version: "1.1.30"
 stars: 4
 reviews: 1
 size: 20465664
-website: http://keywalletpro.io
+website: https://www.keypair.co.kr/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg

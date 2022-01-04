@@ -19,7 +19,7 @@ issue:
 icon: com.spantom.jeroid.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: nosendreceive
 date: 2021-11-04
 signer: 
 reviewArchive:
@@ -32,6 +32,13 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2022-01-04:**
+
+Changed Android analysis to reflect iOS review.
+
+**Previous Analysis**
 
 ## App Description
 

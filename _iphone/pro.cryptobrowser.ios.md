@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: pro.cryptobrowser.ios.jpg
 bugbounty: 
-meta: stale
-verdict: wip
+meta: obsolete
+verdict: nowallet
 date: 2021-10-26
 signer: 
 reviewArchive:

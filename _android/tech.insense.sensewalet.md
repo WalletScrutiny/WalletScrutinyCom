@@ -4,6 +4,7 @@ title: "iWallet - blockchain wallet for Bitcoin, Ethereum"
 altTitle: 
 authors:
 - leo
+- danny
 users: 5000
 appId: tech.insense.sensewalet
 released: 2018-09-27
@@ -33,6 +34,12 @@ redirect_from:
   - /tech.insense.sensewalet/
   - /posts/tech.insense.sensewalet/
 ---
+
+
+**Update 2022-01-04**: As of today, the homepage for this app is now up for sale. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478318114106318850)
+
+Note, however that their iOS app has been updated last 2021-09-09
+
 
 **Update 2021-11-07**: This app is not available anymore.
 

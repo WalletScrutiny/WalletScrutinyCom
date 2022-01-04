@@ -33,6 +33,9 @@ redirect_from:
 
 ---
 
+
+**Update 2022-01-04**: Both the Android and iOS versions are no longer available on GPlay and Apple store, respectively.
+
 **Update 2021-12-03**: This app is gone from the Store.
 
 ## App Description

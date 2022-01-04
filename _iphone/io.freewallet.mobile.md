@@ -4,6 +4,7 @@ title: "FreeWallet"
 altTitle: 
 authors:
 - leo
+- danny
 appId: io.freewallet.mobile
 appCountry: 
 idd: 1151168579
@@ -18,7 +19,7 @@ repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: ftbfs
 date: 2021-10-22
 signer: 
@@ -32,6 +33,9 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2022-01-04**: The iOS version of the app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478292560443367427). The last update however was 2019-03-18.
 
 **Update 2021-10-12**: This app is not available anymore.
 

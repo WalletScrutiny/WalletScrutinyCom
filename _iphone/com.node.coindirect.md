@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.node.coindirect
 appCountry: 
 idd: 1438224938
@@ -19,7 +20,7 @@ repository:
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
 date: 2021-10-22
 signer: 
@@ -33,6 +34,9 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2022-01-04**: This app is available once more in the iOS app store. The app was last updated 2021-07-21
 
 **Update 2021-10-14**: This app is no more available.
 

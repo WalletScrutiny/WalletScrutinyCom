@@ -19,7 +19,7 @@ issue:
 icon: cc.coincollect.app.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
