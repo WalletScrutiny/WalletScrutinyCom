@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
-meta: obsolete
+meta: stale
 verdict: nowallet
 date: 2021-10-25
 signer: 

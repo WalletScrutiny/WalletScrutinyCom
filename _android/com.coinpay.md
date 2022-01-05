@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.coinpay.png
 bugbounty: 
-meta: obsolete
+meta: stale
 verdict: nosource
 date: 2021-08-19
 signer: 
