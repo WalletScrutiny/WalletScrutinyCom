@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-meta: obsolete
+meta: stale
 verdict: custodial
 date: 2021-08-17
 signer: 
