@@ -1,5 +1,5 @@
 ---
-wsId: Bybt
+wsId: 
 title: "Bybt"
 altTitle: 
 authors:
@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+
+**Update 2022-01-04**: The new app coinglass does not have a bitcoin wallet and seems to have a general cryptocurrency information dashboard with cryptocurrency prices and charts.
 
 **Update 2022-01-03**: It appears that bybt has rebranded to Coinglass. Bybt.com redirects to coinglass.com. The android app for bybt now points to a 404. The iOS app is now named coinglass. This app may need a **new review** for the new Android app with appID 'com.coinglass.android'
 

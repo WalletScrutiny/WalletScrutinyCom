@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitcoinblack.wallet.png
 bugbounty: 
-meta: defunct
+meta: stale
 verdict: nobtc
 date: 2021-12-21
 signer: 
