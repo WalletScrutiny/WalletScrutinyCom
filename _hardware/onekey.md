@@ -16,7 +16,7 @@ shop: https://onekey.so/en-US/hardware
 company: Bixin
 companywebsite: https://onekey.so/
 country: CN
-price: 300CNY
+price: 42USD
 repository: https://github.com/OneKeyHQ/OneKey-Wallet
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekey.png
