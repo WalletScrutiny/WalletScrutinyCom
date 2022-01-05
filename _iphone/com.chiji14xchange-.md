@@ -19,7 +19,7 @@ issue:
 icon: com.chiji14xchange-.jpg
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:

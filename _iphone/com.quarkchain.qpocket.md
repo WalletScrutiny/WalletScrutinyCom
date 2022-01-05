@@ -19,7 +19,7 @@ issue:
 icon: com.quarkchain.qpocket.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: nonverifiable
 date: 2021-11-29
 signer: 
 reviewArchive:

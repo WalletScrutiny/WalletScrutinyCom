@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.quidax.app
 appCountry: 
 idd: 1473314875
@@ -19,7 +20,7 @@ repository:
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
 date: 2021-09-06
 signer: 
@@ -33,6 +34,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-05**: The iOS app is accessible again. [(See Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478681726423470083)
 
 **Update 2021-08-28**: This app is no more.
 

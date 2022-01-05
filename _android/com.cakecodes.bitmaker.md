@@ -19,7 +19,7 @@ issue:
 icon: com.cakecodes.bitmaker.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:

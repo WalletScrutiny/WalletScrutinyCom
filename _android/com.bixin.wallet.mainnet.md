@@ -35,6 +35,12 @@ redirect_from:
 
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
 
+**Updated Review 2022-01-05**: Hunting for the firmware source code and Android source has resulted in the [request](https://github.com/OneKeyHQ/firmware/issues/17) for the following in OneKey's GitHub page:
+
+> link to the correct firmware and bootloader repositories
+> link to the signed binaries for every release
+> document how the hardware wallet asks the user for approval, at least optionally showing the binary's hash, so the user can make sure he's installing what he wants to install
+
 ## App Description
 
 > - Works with OneKey hardware wallet. Never access the Internet, safer offline storage of assets.

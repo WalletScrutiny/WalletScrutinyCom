@@ -1,5 +1,5 @@
 ---
-wsId: maiar
+wsId: maiarwallet
 title: "Maiar: Crypto & eGold Wallet - Buy, Earn & Pay"
 altTitle: 
 authors:

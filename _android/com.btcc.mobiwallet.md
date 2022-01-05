@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 
-**Update 2021-12-06**: This app is gone from the Store.
+**Update 2021-12-06**: This app is gone from the Google Play Store. In the apple store, changing the 2-letter country code from au to us seems to work.
 
 ## App Description
 
