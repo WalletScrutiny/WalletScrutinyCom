@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+**Note 2022-01-06**: Script fix needed (update, meta changes)
+
 {% include copyFromAndroid.html %}

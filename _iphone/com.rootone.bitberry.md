@@ -13,12 +13,12 @@ version: "1.3.3"
 stars: 4.14286
 reviews: 7
 size: 118583296
-website: http://bitberry.app
+website: https://rootone.com/
 repository: 
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-meta: obsolete
+meta: stale
 verdict: custodial
 date: 2021-09-12
 signer: 
