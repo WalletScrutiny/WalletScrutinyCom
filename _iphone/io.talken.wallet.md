@@ -19,7 +19,7 @@ issue:
 icon: io.talken.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nobtc
 date: 2021-06-04
 signer: 
 reviewArchive:
@@ -33,10 +33,5 @@ redirect_from:
 
 ---
 
-With this statement below from the providers [App store description](https://apps.apple.com/app/apple-store/id1459475831), it is clear that the user is not in control of the wallets private keys.
-
-> Easy and secure wallet
-> Easy wallet service without managing private keys and mnemonics.
-
-Our Verdict: This "wallet" is custodial and therefor **not verifiable**
+https://talken.io/
 

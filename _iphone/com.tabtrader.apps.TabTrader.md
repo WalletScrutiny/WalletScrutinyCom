@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - kiwilamb
+- danny
 appId: com.tabtrader.apps.TabTrader
 appCountry: 
 idd: 1095716562
@@ -34,9 +35,4 @@ redirect_from:
 
 ---
 
-This app appears to not function as a wallet. At least we could not see any
-documentation about depositing or withdrawing through the app, which makes the
-verdict **not a wallet** but the app still has still massive potential for abuse
-if the provider front-runs the trades of the users from the insight they gain or
-even worse, they could trigger lucrative-to-front-run trades the user never
-intended to make.
+{% include copyFromAndroid.html %}

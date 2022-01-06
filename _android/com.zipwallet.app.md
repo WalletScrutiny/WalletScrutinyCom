@@ -33,6 +33,17 @@ redirect_from:
 
 ---
 
+
+**Updated Information**
+
+##Google Play Critical reviews
+
+> [Harrison Hlongwane](https://play.google.com/store/apps/details?id=com.zipwallet.app&reviewId=gp%3AAOqpTOEYePWMKE_SZbXcKU8flWe_Aa5iNFtGUrYxRrn5zUWoGS8UKgZ9tvO8AYbqRddjVaUR8AGdwTkJ_FGpjuU)<br>
+  ★☆☆☆☆ Februaru 26, 2021 <br>
+       This app is very poor. I can't send bitcoin because it keeps crashing when I press the send button. Also on different device it says insufficient funds not matter how much, or how little you send so you can't do anything. Very poor. And why you can't use same functionality on web, at least to mitigate the shortcomings of the app. Now my bitcoin is sitting there losing value cause I can't send it.
+
+**Previous Analysis**
+
 Its homepage description reads:
 
 > Simple exchange platform with over 300 payment providers around the world.<br>

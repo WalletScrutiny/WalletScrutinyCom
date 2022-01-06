@@ -19,7 +19,7 @@ issue:
 icon: com.ToolsTradesApp.ToolsTradesApp.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: nowallet
 date: 2021-10-13
 signer: 
 reviewArchive:

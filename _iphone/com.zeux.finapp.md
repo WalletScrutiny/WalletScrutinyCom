@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.zeux.finapp.jpg
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: ok
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ZeuxApp
+providerLinkedIn: zeux
+providerFacebook: Zeuxglobal
 providerReddit: 
 
 redirect_from:
