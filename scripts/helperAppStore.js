@@ -149,9 +149,13 @@ function writeResult(app, header, iconExtension, body) {
   var verdict = header.verdict
   var date = header.date
   var meta = header.meta || "ok"
+  // if api reports an older updated date than what we determined, keep our data
+  const updated = header.updated && new Date(header.updated) > new Date(app.updated)
+    ? header.updated
+    : app.updated
   // retire if needed
   if (meta != "defunct") {
-    const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+    const daysSinceUpdate = ((new Date()) - (new Date(updated))) / 1000 / 60 / 60 / 24
     if ( daysSinceUpdate > 720 ) {
       if ( meta != "obsolete" ) {
         // mark obsolete if old and not obsoelte yet
@@ -183,7 +187,7 @@ appId: ${header.appId}
 appCountry: ${header.appCountry || ""}
 idd: ${header.idd}
 released: ${releasedString}
-updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
+updated: ${dateFormat(updated, "yyyy-mm-dd")}
 version: "${version}"
 stars: ${app.score || ""}
 reviews: ${app.reviews || ""}
