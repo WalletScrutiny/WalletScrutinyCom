@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Update 2022-01-04:**
 
 Changed Android verdict to reflect iOS verdict.

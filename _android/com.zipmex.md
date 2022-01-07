@@ -1,13 +1,13 @@
 ---
 wsId: Zipmex
-title: "Zipmex: Sell buy Bitcoin, Ethereum, Cryptocurrency"
+title: "Zipmex: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
 users: 500000
 appId: com.zipmex
 released: 2020-03-30
-updated: 2021-11-28
+updated: 2022-01-06
 version: "21.11.3.1511925840"
 stars: 4.1
 ratings: 11034

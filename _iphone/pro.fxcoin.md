@@ -37,7 +37,6 @@ redirect_from:
 
 ---
 
-
 **Update 2022-01-04**
 
 As of today, fxcoin's iOS app is no longer available. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478308808808026112)

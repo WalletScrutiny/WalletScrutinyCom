@@ -8,8 +8,8 @@ authors:
 users: 10000
 appId: io.talken.wallet
 released: 2019-07-31
-updated: 2021-12-28
-version: "1.0.41"
+updated: 2022-01-07
+version: "1.0.42"
 stars: 4.7
 ratings: 5860
 reviews: 4647

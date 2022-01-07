@@ -4,15 +4,15 @@ title: "MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.medishares.android
 released: 2018-04-17
-updated: 2021-06-10
-version: "4.1.8"
+updated: 2022-01-04
+version: "4.3.3"
 stars: 4
 ratings: 1060
 reviews: 541
-size: 50M
+size: 54M
 website: https://mathwallet.org
 repository: 
 issue: 

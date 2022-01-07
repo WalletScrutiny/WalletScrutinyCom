@@ -35,7 +35,6 @@ redirect_from:
   - /posts/tech.insense.sensewalet/
 ---
 
-
 **Update 2022-01-04**: As of today, the homepage for this app is now up for sale. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478318114106318850)
 
 Note, however that their iOS app has been updated last 2021-09-09

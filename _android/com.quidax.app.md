@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quidax.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-20
+date: 2022-01-07
 signer: 
 reviewArchive:
 

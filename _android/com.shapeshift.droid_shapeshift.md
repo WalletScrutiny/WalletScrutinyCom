@@ -1,6 +1,6 @@
 ---
 wsId: ShapeShift
-title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
+title: "ShapeShift"
 altTitle: 
 authors:
 - leo

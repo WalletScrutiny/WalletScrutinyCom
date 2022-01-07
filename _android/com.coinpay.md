@@ -34,7 +34,6 @@ redirect_from:
   - /com.coinpay/
 ---
 
-
 **Update 2022-01-04** [We asked on twitter](https://twitter.com/BitcoinWalletz/status/1478234660219981826) why Coinpay hasn't updated their Android app for more than a year now when their iOS app has been updated recently.
 
 **Previous Analysis**

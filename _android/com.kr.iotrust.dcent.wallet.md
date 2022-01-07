@@ -4,7 +4,7 @@ title: "D'CENT Crypto Wallet - Bitcoin, Ethereum, XRP etc."
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.kr.iotrust.dcent.wallet
 released: 2018-10-16
 updated: 2021-12-27

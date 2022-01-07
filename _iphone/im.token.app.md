@@ -8,11 +8,11 @@ appId: im.token.app
 appCountry: 
 idd: 1384798940
 released: 2018-06-07
-updated: 2021-11-25
-version: "2.9.8"
+updated: 2022-01-07
+version: "2.9.9"
 stars: 4.41038
 reviews: 424
-size: 112542720
+size: 132769792
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

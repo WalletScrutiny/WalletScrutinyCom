@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Updated Analysis 2022-01-04**: 
 
 This is a [Cryptocurrency CFD](https://libertex.org/cfd-specification) (Contracts for Differences) trading platform. We are changing the verdict to reflect this.

@@ -1,13 +1,13 @@
 ---
 wsId: buda
-title: "Buda.com - Bitcoin wallet. Compra, vende, almacena"
+title: "Buda.com"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.buda.crypto
 released: 2018-01-04
-updated: 2020-06-02
+updated: 2022-01-06
 version: "1.9.10"
 stars: 2.5
 ratings: 563
@@ -16,11 +16,11 @@ size: 12M
 website: https://www.buda.com
 repository: 
 issue: 
-icon: com.buda.crypto.jpg
+icon: com.buda.crypto.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2021-08-17
+date: 2022-01-07
 signer: 
 reviewArchive:
 

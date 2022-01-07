@@ -35,7 +35,6 @@ redirect_from:
   - /posts/com.getchange.wallet.cordova/
 ---
 
-
 **Update 2022-01-04:**
 
 The app on Google Play now lists a different homepage than what was previously listed. From getchange.com, the new url is changeinvest.com.

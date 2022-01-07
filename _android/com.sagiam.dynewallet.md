@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sagiam.dynewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-01-07
 signer: 
 reviewArchive:
 

@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.aabb
 released: 2021-03-08
-updated: 2021-12-01
-version: "1.0.1243"
+updated: 2021-12-29
+version: "1.0.1244"
 stars: 4.4
 ratings: 577
 reviews: 310
