@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.getchange.dev
-appCountry: is
+appCountry: nl
 idd: 1442085358
 released: 2018-11-15
 updated: 2021-12-26
