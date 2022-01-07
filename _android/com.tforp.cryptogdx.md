@@ -24,7 +24,7 @@ date: 2021-10-10
 signer: 
 reviewArchive:
 
-providerTwitter: 
+providerTwitter: Trading4Pro
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

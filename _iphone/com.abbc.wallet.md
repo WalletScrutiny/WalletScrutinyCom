@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.abbc.wallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 date: 2021-10-09
 signer: 

@@ -19,8 +19,8 @@ issue:
 icon: com.altcoinfantasy.altcoinfantasy.jpg
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2021-11-01
+verdict: nowallet
+date: 2022-01-03
 signer: 
 reviewArchive:
 
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

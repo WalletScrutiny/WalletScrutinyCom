@@ -34,6 +34,8 @@ redirect_from:
 
 ---
 
+**Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'
+
 **Update 2021-10-01**: This app now appears to have a successor on Play Store, [CB Global](https://play.google.com/store/apps/details?id=com.mingyue.liuli).
 
 **Update 2021-09-07**: This app is not on Play Store anymore.

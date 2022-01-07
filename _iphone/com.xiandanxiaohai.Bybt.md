@@ -1,5 +1,5 @@
 ---
-wsId: Bybt
+wsId: 
 title: "Coinglass"
 altTitle: 
 authors:
@@ -24,7 +24,7 @@ date: 2021-11-02
 signer: 
 reviewArchive:
 
-providerTwitter: bybt_com
+providerTwitter: coinglass_com
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

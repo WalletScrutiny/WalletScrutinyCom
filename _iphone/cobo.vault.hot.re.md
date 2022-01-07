@@ -18,7 +18,7 @@ repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 
 icon: cobo.vault.hot.re.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
 date: 2021-11-17
 signer: 

@@ -19,7 +19,7 @@ issue:
 icon: com.btckan.us.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:

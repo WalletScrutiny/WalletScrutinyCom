@@ -19,12 +19,12 @@ issue:
 icon: com.t4p.cryptogdx.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2022-01-06
 signer: 
 reviewArchive:
 
-providerTwitter: 
+providerTwitter: Trading4Pro
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

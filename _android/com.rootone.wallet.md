@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 6.6M
-website: https://rootone.com/
+website: https://bitberry.app
 repository: 
 issue: 
 icon: com.rootone.wallet.png
