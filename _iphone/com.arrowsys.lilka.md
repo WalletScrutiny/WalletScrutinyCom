@@ -19,7 +19,7 @@ issue:
 icon: com.arrowsys.lilka.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: nowallet
 date: 2021-10-26
 signer: 
 reviewArchive:

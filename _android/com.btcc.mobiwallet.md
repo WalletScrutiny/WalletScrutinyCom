@@ -33,7 +33,7 @@ redirect_from:
 
 ---
 
-**Update 2021-12-06**: This app is gone from the Store.
+**Update 2021-12-06**: This app is gone from the Google Play Store. In the Apple App Store, while not available for Australia anymore, it is now available in the US.
 
 ## App Description
 

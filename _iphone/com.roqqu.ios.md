@@ -5,6 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.roqqu.ios
 appCountry: 
 idd: 1505370687
@@ -19,7 +20,7 @@ repository:
 issue: 
 icon: com.roqqu.ios.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
 date: 2021-04-29
 signer: 
@@ -33,5 +34,11 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-05**
+
+As of today, the Roqqu app is accessible in the iOS store. [(See Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478689829051420673)
+
+**Previous Update**
 
 The app can't be found on the App Store anymore.

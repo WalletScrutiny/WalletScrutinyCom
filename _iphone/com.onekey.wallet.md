@@ -19,7 +19,7 @@ issue:
 icon: com.onekey.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2021-10-26
 signer: 
 reviewArchive:

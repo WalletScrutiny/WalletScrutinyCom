@@ -19,7 +19,7 @@ issue:
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:

@@ -4,6 +4,7 @@ title: "Math Wallet-Blockchain Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.medishares.ios.pro
 appCountry: 
 idd: 1383637331
@@ -19,12 +20,12 @@ issue:
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
 
-providerTwitter: 
+providerTwitter: Mathwallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}
