@@ -33,8 +33,6 @@ redirect_from:
 
 ---
 
-**Update 2022-01-06**: Updating verdict for iOS app to reflect the Android version
-
 **Update 2021-10-26**: This app is no more.
 
 {% include copyFromAndroid.html %}
