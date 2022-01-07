@@ -1,5 +1,5 @@
 process.env.TZ = 'UTC' // fix timezone issues
-const gplay = require('google-play-scraper')
+const gplay = require('../google-play-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
