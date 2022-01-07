@@ -33,10 +33,10 @@ redirect_from:
   - /com.medishares.android/
 ---
 
-**Update 2022-01-05**: It is available again. [(See Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478662010778701824)
+**Update 2022-01-05**: It is available again.
 
-Last update: 2022-01-04
-Version: 4.3.3
+> *Last update*: 2022-01-04<br>
+> *Version*: 4.3.3
 
 **Update:** This app is not available on Google Play anymore.
 
