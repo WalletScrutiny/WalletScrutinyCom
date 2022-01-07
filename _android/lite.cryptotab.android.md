@@ -36,8 +36,6 @@ redirect_from:
 
 **Update 2022-01-04** 
 
-The CryptoTab Lite app does not have an iOS counterpart. The website offers several apps that have various versions, however it has come to our attention that CryptoTab lite does not have an iOS counterpart. 
-
 This app appears to be a browser (possibly a derivative of Google chrome) that defaults to the cryptobrowser.site url, albeit a lite version of its paid Pro version. 
 
 Browsing over to chrome://cryptotabdash brings the user to a page where you can 'Activate' miners (presumedly to mine bitcoins using the phone). 

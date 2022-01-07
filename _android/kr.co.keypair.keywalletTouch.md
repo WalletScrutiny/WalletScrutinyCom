@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 108
 reviews: 65
 size: Varies with device
-website: https://www.keypair.co.kr/
+website: http://keywalletpro.io/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouch.png

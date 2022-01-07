@@ -19,7 +19,7 @@ issue:
 icon: keystone.mobile.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:

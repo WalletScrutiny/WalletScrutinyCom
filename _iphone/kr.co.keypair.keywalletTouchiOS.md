@@ -14,7 +14,7 @@ version: "1.1.30"
 stars: 4
 reviews: 1
 size: 20465664
-website: https://www.keypair.co.kr/
+website: http://keywalletpro.io/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
