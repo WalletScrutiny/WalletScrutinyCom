@@ -19,7 +19,7 @@ issue:
 icon: io.stormx.ios.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
