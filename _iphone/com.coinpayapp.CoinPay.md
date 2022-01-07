@@ -4,6 +4,7 @@ title: "Coin Pay Wallet: Buy Bitcoin"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.coinpayapp.CoinPay
 appCountry: 
 idd: 1477731032
@@ -33,11 +34,4 @@ redirect_from:
 
 ---
 
-> We are a non-custodial wallet, so users can send Bitcoin and other
-  cryptocurrencies globally with direct access to the blockchain.
-
-... so this is (claiming to be) a non-custodial Bitcoin wallet. Can we verify
-this?
-
-The answer is "no". There is no source code linked on their website or the App
-Store description. This app is closed source and thus **not verifiable**.
+{% include copyFromAndroid.html %}

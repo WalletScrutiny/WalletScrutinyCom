@@ -19,7 +19,7 @@ issue:
 icon: com.forex4you.ios.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosendreceive
 date: 2021-12-24
 signer: 
 reviewArchive:

@@ -55,4 +55,4 @@ We downloaded the app. It offers two choices: create a wallet or import a wallet
 
 ## Verdict
 
-The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, we assume that this app is closed source.
+The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, the closest repository may be (https://github.com/leadwallet/leadwallet-core). But then again, the title for this repository is "LeadWallet Core API" and again, does not have build instructions.

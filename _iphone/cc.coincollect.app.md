@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cc.coincollect.app.jpg
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2022-01-04
+meta: stale
+verdict: nosource
+date: 2021-11-22
 signer: 
 reviewArchive:
 

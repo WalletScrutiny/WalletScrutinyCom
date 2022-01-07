@@ -3,7 +3,7 @@ wsId: libertex
 title: "Libertex - Forex Trading App"
 altTitle: 
 authors:
-
+- danny
 appId: org.fxclub.LibertexCL
 appCountry: cl
 idd: 1078997450
@@ -19,12 +19,12 @@ issue:
 icon: org.fxclub.LibertexCL.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: nosendreceive
 date: 2021-12-30
 signer: 
 reviewArchive:
 
-providerTwitter: 
+providerTwitter: libertex_latam
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,4 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
+{% include copyFromAndroid.html %}

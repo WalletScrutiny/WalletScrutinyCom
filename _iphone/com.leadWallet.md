@@ -19,7 +19,7 @@ issue:
 icon: com.leadWallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:

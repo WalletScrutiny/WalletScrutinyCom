@@ -9,7 +9,7 @@ appCountry: us
 idd: 1366562802
 released: 2018-10-27
 updated: 2020-06-23
-version: "4.8.3"
+version: "5.0.6"
 stars: 2.69792
 reviews: 96
 size: 152541184
@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: ok
+verdict: custodial
 date: 2021-11-16
 signer: 
 reviewArchive:
@@ -32,6 +32,8 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
+
+**Update 2022-11-07**: The app is [available again](https://apps.apple.com/nz/app/cointiger-crypto-exchange/id1366562802).
 
 **Update 2021-11-07**: This app is not available anymore.
 

@@ -19,7 +19,7 @@ issue:
 icon: com.koreadigit.flybit.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:

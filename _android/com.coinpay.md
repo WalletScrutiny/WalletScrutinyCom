@@ -4,6 +4,7 @@ title: "Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇"
 altTitle: 
 authors:
 - leo
+- danny
 users: 5000
 appId: com.coinpay
 released: 2020-05-26
@@ -32,6 +33,11 @@ providerReddit:
 redirect_from:
   - /com.coinpay/
 ---
+
+
+**Update 2022-01-04** [We asked on twitter](https://twitter.com/BitcoinWalletz/status/1478234660219981826) why Coinpay hasn't updated their Android app for more than a year now when their iOS app has been updated recently.
+
+**Previous Analysis**
 
 > We are a non-custodial wallet, so users can send Bitcoin and other
   cryptocurrencies globally with direct access to the blockchain.

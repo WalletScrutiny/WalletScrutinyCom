@@ -19,7 +19,7 @@ issue:
 icon: com.rootone.bitberry.jpg
 bugbounty: 
 meta: stale
-verdict: custodial
+verdict: nowallet
 date: 2021-09-12
 signer: 
 reviewArchive:

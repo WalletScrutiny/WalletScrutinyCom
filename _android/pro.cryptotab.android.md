@@ -35,6 +35,14 @@ redirect_from:
 
 It appears that users have to buy this app on Play Store.
 
+**Update 2022-01-04:**
+
+## App description
+
+> Enjoy super-fast Internet surfing and advanced browser features, watch movies, play online games or do whatever you're used to and at the same time monitor your hash rate. You can control your Cloud.Boosts, add unlimited amount of remote devices and observe BTC balance rising. The balance is updated every 10 minutes — withdraw funds immediately and an unlimited number of times per day, without any commissions. Double benefit: use a truly modern browser and get a stable profit. Sounds amazing? But it is true, so go and try it! Join the community of more than 20 million people who have already enjoyed the advanced features of the CryptoTab Browser on mobile devices!
+
+**Previous Analysis**
+
 > CryptoTab Pro is a special version of the CryptoTab Browser, for everyone who wants to use all CryptoTab services directly on Android device.
 
 CryptoTab Browser is an app that allows users to browse the web while mining cryptocurrencies. This sounds like a mobile version. But it's unclear whether this is a wallet.
