@@ -33,5 +33,5 @@ redirect_from:
 
 ---
 
-https://talken.io/
+{% include copyFromAndroid.html %}
 
