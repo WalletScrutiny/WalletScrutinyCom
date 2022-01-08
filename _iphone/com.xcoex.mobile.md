@@ -4,11 +4,12 @@ title: "XCOEX: Cryptocurrency Exchange"
 altTitle: 
 authors:
 - kiwilamb
+- danny
 appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
 released: 2019-01-22
-updated: 2021-07-13
+updated: 2021-12-27
 version: "1.18.0"
 stars: 
 reviews: 
@@ -18,7 +19,7 @@ repository:
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
 date: 2021-10-03
 signer: 
@@ -32,6 +33,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+
+**Update 2022-01-06**: The app is back online again. 
+[(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479000477383606272)
 
 **Update 2021-09-24**: This app is not on App Store anymore.
 
