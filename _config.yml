@@ -149,6 +149,7 @@ exclude:
   - resSources
   - scripts
   - "refresh*.js"
+  - google-play-scraper
 keep_files:
   - .git
 encoding: "utf-8"
