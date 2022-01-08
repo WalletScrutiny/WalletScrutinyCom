@@ -10,8 +10,8 @@ idd: 1512374471
 released: 2020-05-20
 updated: 2021-12-02
 version: "1.1.7"
-stars: 3.65672
-reviews: 134
+stars: 3.66667
+reviews: 135
 size: 45815808
 website: https://ftx.com
 repository: 

@@ -10,8 +10,8 @@ idd: 1565764339
 released: 2021-05-14
 updated: 2021-12-24
 version: "3.2.1"
-stars: 4.84483
-reviews: 58
+stars: 4.86567
+reviews: 67
 size: 109613056
 website: https://www.coinunited.io/
 repository: 

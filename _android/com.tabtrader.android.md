@@ -35,7 +35,6 @@ redirect_from:
 
 ---
 
-
 **Updated 2022-01-06**
 
 When buying bitcoin over at https://buy.tab-trader.com/, the user is asked to provide the following:

@@ -11,9 +11,9 @@ idd: 1349078375
 released: 2018-03-12
 updated: 2021-09-09
 version: "1.15.1"
-stars: 4.48342
-reviews: 573
-size: 43804672
+stars: 4.45648
+reviews: 747
+size: 43825152
 website: https://enjin.io/products/wallet
 repository: 
 issue: 
@@ -33,7 +33,6 @@ providerReddit: EnjinCoin
 redirect_from:
 
 ---
-
 
 **Update 2022-01-04**: The iOS app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478288988087603200)
 

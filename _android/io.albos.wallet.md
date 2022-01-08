@@ -4,7 +4,7 @@ title: "ALBOS Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: io.albos.wallet
 released: 2019-07-01
 updated: 2021-10-17

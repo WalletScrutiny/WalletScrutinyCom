@@ -10,8 +10,8 @@ idd: 1545825554
 released: 2021-03-18
 updated: 2021-11-30
 version: "1.8.17"
-stars: 4.66279
-reviews: 258
+stars: 4.66415
+reviews: 265
 size: 75508736
 website: https://bitpreco.com/
 repository: 

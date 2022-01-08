@@ -10,8 +10,8 @@ idd: 1267973706
 released: 2017-08-25
 updated: 2021-12-14
 version: "6.02.275"
-stars: 3.88889
-reviews: 18
+stars: 3.94737
+reviews: 19
 size: 32794624
 website: http://www.pilottrading.co
 repository: 

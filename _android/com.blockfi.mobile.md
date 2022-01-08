@@ -8,7 +8,7 @@ users: 500000
 appId: com.blockfi.mobile
 released: 2020-04-30
 updated: 2022-01-03
-version: "4.9.4"
+version: "4.10.0"
 stars: 3.5
 ratings: 3612
 reviews: 1753

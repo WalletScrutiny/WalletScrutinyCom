@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: xyz.bitcoinlibre.app
 released: 2021-09-20
-updated: 2022-01-06
+updated: 2022-01-08
 version: "2.0.8"
 stars: 4.3
 ratings: 97
 reviews: 66
-size: 36M
+size: 35M
 website: https://www.libre.sv/
 repository: 
 issue: 

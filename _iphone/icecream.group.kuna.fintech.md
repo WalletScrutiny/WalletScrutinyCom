@@ -10,8 +10,8 @@ idd: 1457062155
 released: 2019-03-27
 updated: 2021-12-31
 version: "4.0.2"
-stars: 3.28571
-reviews: 7
+stars: 3
+reviews: 8
 size: 104316928
 website: http://kuna.io
 repository: 

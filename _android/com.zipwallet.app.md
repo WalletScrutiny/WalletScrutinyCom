@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Updated Information**
 
 ##Google Play Critical reviews
