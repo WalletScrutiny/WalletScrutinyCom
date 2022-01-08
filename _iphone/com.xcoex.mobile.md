@@ -9,7 +9,7 @@ appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
 released: 2019-01-22
-updated: 2021-07-13
+updated: 2021-12-27
 version: "1.18.0"
 stars: 
 reviews: 

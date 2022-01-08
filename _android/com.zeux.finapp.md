@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.zeux.finapp
 released: 2019-05-22
-updated: 2021-04-06
+updated: 2021-10-07
 version: "2.18.0"
 stars: 3.8
 ratings: 1650

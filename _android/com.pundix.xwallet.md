@@ -9,7 +9,7 @@ authors:
 users: 100000
 appId: com.pundix.xwallet
 released: 2018-10-22
-updated: 2020-11-23
+updated: 2021-06-24
 version: "2.8.2"
 stars: 3
 ratings: 4965
