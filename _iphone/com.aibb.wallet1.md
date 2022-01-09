@@ -19,7 +19,7 @@ issue:
 icon: com.aibb.wallet1.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:

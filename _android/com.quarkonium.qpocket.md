@@ -54,6 +54,6 @@ We tried the app. We were provided with the 12-word mnemonic and then asked to s
 ### Verification
 
 The repositories last commit is from "Jun 18, 2020" and contains only 5 commits for version 5.3.1.
-On the other hand, the google play app was last updated in May 6, 2021, at version 5.4.2 and has had several versions before that.
+On the other hand, the Play Store app was last updated in May 6, 2021, at version 5.4.2 and has had several versions before that.
 
 Unfortunately, as this source code is outdated, we cannot verify this app. 

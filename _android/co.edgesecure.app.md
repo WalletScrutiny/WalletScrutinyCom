@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 
 providerTwitter: edgewallet
-providerLinkedIn: 3609678
+providerLinkedIn: edgeapp
 providerFacebook: 
-providerReddit: 
+providerReddit: EdgeWallet
 
 redirect_from:
   - /edge/

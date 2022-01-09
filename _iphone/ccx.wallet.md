@@ -20,7 +20,7 @@ issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
 bugbounty: 
 meta: defunct
-verdict: nonverifiable
+verdict: ftbfs
 date: 2021-09-19
 signer: 
 reviewArchive:
@@ -36,6 +36,4 @@ redirect_from:
 
 **Update 2021-09-11**: This app is not on the App Store anymore.
 
-Same as the {% include walletLink.html wallet='android/com.ccwalletapp' %} on Play Store, this is an open
-source, Bitcoin, self-custodial wallet but [as with all iPhone apps](/apple),
-it is **not verifiable**.
+{% include copyFromAndroid.html %}

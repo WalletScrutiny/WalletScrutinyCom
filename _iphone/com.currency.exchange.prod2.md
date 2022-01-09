@@ -1,5 +1,5 @@
 ---
-wsId: currencycominvesting
+wsId: 
 title: "Crypto Exchange Currency.com"
 altTitle: 
 authors:
@@ -19,8 +19,8 @@ issue:
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2021-09-11
+verdict: wip
+date: 2022-01-09
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
-{% include copyFromAndroid.html %}
+<!--
+  According to the Android review, this app was falsely marked as wsId currencycominvesting and needs another close look.
+-->

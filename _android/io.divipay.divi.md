@@ -51,4 +51,7 @@ Afterwards, it would seem that profile creation was mandatory after all. Skippin
 
 This is evidently a **self-custodial** wallet.
 
-While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public) for the Desktop App, we cannot find source for the Google Play app. We have created [an issue in Github.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214) At the moment, however, this app has **no source available.**
+While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public)
+for the Desktop App, we cannot find source for the Google Play app. We have
+created [an issue in GitHub.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214)
+and the provider confirmed the app is closed source and therefore **not verifiable**.

@@ -19,8 +19,8 @@ issue: https://github.com/TP-Lab/tp-android/issues/15
 icon: vip.mytokenpocket.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2021-04-13
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
 
@@ -60,6 +60,6 @@ A quick look at the code though reveals several issues:
 > Only supports SWTC Blockchain for now, we will support Ethereum Blockchain and
   so on in the future.
 
-So for now we have to file it as "no source" and recommend to be careful as some
+So for now we have to file it as "obfuscated" and recommend to be careful as some
 things don't add up. At least the "open source" claim is probably false. In any
 case the app is **not verifiable** as is.

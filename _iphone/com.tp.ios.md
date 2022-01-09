@@ -13,14 +13,14 @@ version: "1.6.7"
 stars: 3.58683
 reviews: 167
 size: 121114624
-website: 
+website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
-meta: defunct
-verdict: nobtc
-date: 2021-11-16
+meta: ok
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
 
@@ -33,6 +33,4 @@ redirect_from:
 
 ---
 
-**Update 2021-11-03**: This app is not available anymore.
-
-In contrast to the Android version, this app does not appear to support BTC.
+{% include copyFromAndroid.html %}

@@ -19,7 +19,7 @@ issue:
 icon: jp.co.smartapp.gowallet.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: nobtc
 date: 2021-10-04
 signer: 
 reviewArchive:

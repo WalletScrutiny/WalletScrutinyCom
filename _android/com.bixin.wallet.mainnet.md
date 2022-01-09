@@ -4,6 +4,7 @@ title: "OneKey - Safe Crypto Wallet"
 altTitle: 
 authors:
 - danny
+- leo
 users: 5000
 appId: com.bixin.wallet.mainnet
 released: 2020-09-16

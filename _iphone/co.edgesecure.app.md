@@ -19,32 +19,18 @@ issue:
 icon: co.edgesecure.app.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: ftbfs
 date: 2020-12-20
 signer: 
 reviewArchive:
 
 providerTwitter: edgewallet
-providerLinkedIn: 3609678
+providerLinkedIn: edgeapp
 providerFacebook: 
-providerReddit: 
+providerReddit: EdgeWallet
 
 redirect_from:
 
 ---
 
-On the App Store the provider claims:
-
-> Edge is a powerful and easy to use cryptocurrency wallet that allows users to
-  easily control their own private keys with the familiarity and ease of mobile banking. 
-
-and
-
-> The Edge app has open-source code to ensure the highest level of security and
-  privacy.
-
-and indeed on their website we find a link to GitHub and assume
-[this](https://github.com/EdgeApp/edge-react-gui) is the app's repository.
-
-Unfortunately apps on iPhone can't be reproduced so far, so the app is
-**not verifiable**.
+{% include copyFromAndroid.html %}

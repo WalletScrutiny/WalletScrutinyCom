@@ -19,7 +19,7 @@ issue:
 icon: jeroid.io.jpg
 bugbounty: 
 meta: ok
-verdict: nosendreceive
+verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:

@@ -4,6 +4,7 @@ title: "OneKey Wallet: Crypto & DeFi"
 altTitle: 
 authors:
 - danny
+- leo
 appId: com.onekey.wallet
 appCountry: us
 idd: 1568432215
@@ -19,7 +20,7 @@ issue:
 icon: com.onekey.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:

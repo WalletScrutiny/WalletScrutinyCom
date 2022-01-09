@@ -19,7 +19,7 @@ issue:
 icon: io.ob1.native-ios.jpg
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: nonverifiable
 date: 2021-01-15
 signer: 
 reviewArchive:

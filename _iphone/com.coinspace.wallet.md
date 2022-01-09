@@ -19,7 +19,7 @@ issue:
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 meta: ok
-verdict: nonverifiable
+verdict: ftbfs
 date: 2020-12-20
 signer: 
 reviewArchive:
@@ -33,9 +33,4 @@ redirect_from:
 
 ---
 
-On the website the provider claims:
-
-> keys are stored locally, on your device
-
-and there is a public source repository on GitHub but as iPhone apps are
-all currently not reproducible, the app remains **not verifiable**.
+{% include copyFromAndroid.html %}
