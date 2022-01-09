@@ -21,6 +21,7 @@ repository: https://github.com/bithd/bithd-mcu
 issue:
 icon: bithdwatch1.png
 bugbounty:
+meta: ok
 verdict: reproducible
 date: 2021-12-11
 signer:
