@@ -19,7 +19,7 @@ issue:
 icon: com.ddcday.wallex.png
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: fake
 date: 2021-11-26
 signer: 
 reviewArchive:
