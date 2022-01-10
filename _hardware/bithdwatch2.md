@@ -9,6 +9,7 @@ released: 2019-01-18
 discontinued: # date
 updated: 2021-08-09
 version: v4.1.7
+binaries: https://github.com/bithd/bithd-mcu/releases/
 dimensions: [42, 36, 12]
 weight: 
 website: https://bithd.com/BITHD-watch-2.html
