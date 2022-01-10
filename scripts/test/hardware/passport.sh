@@ -7,6 +7,7 @@ version=$1
 buildHash=$2
 
 rm -rf /tmp/passport/
+rm /tmp/passport-fw-${version}.bin
 
 cd /tmp
 wget https://github.com/Foundation-Devices/passport-firmware/releases/download/v${version}/passport-fw-${version}.bin
