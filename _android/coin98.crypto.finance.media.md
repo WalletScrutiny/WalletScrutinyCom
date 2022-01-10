@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coin98
 title: "Coin98 Finance"
 altTitle: 
 authors:
