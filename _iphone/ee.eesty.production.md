@@ -19,7 +19,7 @@ issue:
 icon: ee.eesty.production.jpg
 bugbounty: 
 meta: obsolete
-verdict: nonverifiable
+verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
@@ -47,4 +47,4 @@ In the Terms of Use:
 
 The project does not mention that it is an open source project. It also does not link to Github repository. 
 
-Without availability of the public source code, this app is nonverifiable.
+Without availability of the public source code, this app is **not verifiable**.

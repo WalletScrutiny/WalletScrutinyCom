@@ -19,7 +19,7 @@ issue:
 icon: com.legendwd.hyperpay.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: obfuscated
 date: 2022-01-10
 signer: 
 reviewArchive:

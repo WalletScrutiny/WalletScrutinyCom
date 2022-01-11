@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: obfuscated
 date: 2021-05-25
 signer: 

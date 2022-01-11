@@ -19,7 +19,7 @@ issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: ftbfs
 date: 2022-01-10
 signer: 
 reviewArchive:
