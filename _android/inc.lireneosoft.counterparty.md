@@ -47,4 +47,12 @@ Next, under the sub-folder "[app](https://github.com/IndieSquare/indiesquare-wal
 
 > Titanium Alloys are metals which contain a mixture of Titanium and other chemical elements. Such Alloys have very high tensile strength and toughness (even at extreme temperatures). They are light weight, have extraordinary corrosion resistance and the ability to withstand extreme temperatures [1].  
 
-Needless to say, this is unrelated to the app.
+From [lw](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/298#note_806394245)
+
+> Alloy is an MVC application framework by Appcelerator for Titanium.
+> 
+> That said, the repository has one single commit and no compile instructions and might not be complete to compile an Android app from. 
+
+The app was updated later than the source dates and the source provided may compile into some wallet app.
+
+We can still say that this app has **not adequately provided verifiable source code.**
