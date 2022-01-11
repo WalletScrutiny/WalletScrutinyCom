@@ -20,9 +20,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2021-12-20
+date: 2022-01-11
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2021-12-20
+  version: "9.02"
+  appHash: f8abb386f28c6a8eaadfde8494d3ceb443e2685015f940345f76b47b2b0ff25e
+  gitRevision: bd59e1e6700dad1f4f3af3d097558f0cc804f1f7
+  verdict: reproducible
 - date: 2021-11-21
   version: "9.01"
   appHash: 422c9847403148de5d1e5e0f33b393d0b29513746bdfb15be7553913056ee727
@@ -163,24 +168,24 @@ came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 9.02
-apkVersionCode: 902
+apkVersionName: 9.03
+apkVersionCode: 903
 verdict:        reproducible
-appHash:        f8abb386f28c6a8eaadfde8494d3ceb443e2685015f940345f76b47b2b0ff25e
-commit:         9a56058f07f3d0a4c32737d03476221e183a64f7
+appHash:        90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd
+commit:         c43c146a339d9387fb11859599d634ecf15232d0
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_902/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_902/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_902/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_902/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_903/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_903/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_903/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_903/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 9a56058f07f3d0a4c32737d03476221e183a64f7
+object c43c146a339d9387fb11859599d634ecf15232d0
 type commit
-tag v9.02
-tagger Andreas Schildbach  1637526611 +0100
+tag v9.03
+tagger Andreas Schildbach  1639855261 +0100
 
-9.02 release
+9.03 release
 ===== End Results =====
 ```
 
