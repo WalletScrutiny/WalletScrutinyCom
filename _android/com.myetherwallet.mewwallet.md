@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: mewEthereum
 title: "MEW wallet – Ethereum wallet"
 altTitle: 
 authors:
-
+- danny
 users: 500000
 appId: com.myetherwallet.mewwallet
 released: 2020-03-11
@@ -24,12 +24,15 @@ date: 2021-02-05
 signer: 
 reviewArchive:
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: myetherwallet
+providerLinkedIn: myetherwallet
+providerFacebook: MyEtherWallet
+providerReddit: MyEtherWallet
 
 redirect_from:
 
 ---
 
+Supports 3 chains: Ethereum, Binance and Polygon. 
+
+Does not support BTC.

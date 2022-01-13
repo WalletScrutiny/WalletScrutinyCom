@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 91
 reviews: 48
 size: 5.4M
-website: mfcoin.net
+website: https://mfcoin.net/
 repository: 
 issue: 
 icon: com.mfcoin.wallet.dev.png

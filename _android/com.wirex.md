@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: wirex
 title: "Wirex: Buy, Spend & Sell BTC"
 altTitle: 
 authors:

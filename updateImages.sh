@@ -14,7 +14,7 @@ then
     exit
 fi
 
-mkdir images/wallet_icons/{android,iphone,hardware}/{small,tiny}/ 2> /dev/null
+mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
@@ -29,7 +29,7 @@ logIfUnchanged() {
     # if file is not a jpg or png, it is deleted.
     echo "Deleting unexpected $changed"
     rm $changed
-  elif [ -f "$original" ] && $( compare -metric AE $original $changed NULL:  >/dev/null ); then
+  elif [ -f "$original" ] && $( compare -metric AE -fuzz 15% $original $changed NULL: >/dev/null ); then
     echo $changed >> /tmp/revert.txt
   else
     echo "$changed changed"
@@ -73,12 +73,11 @@ resizeMany() {
 
 export -f resizeDeterministically
 
-resizeMany images/wallet_icons/android images/wallet_icons/android/small 100
-resizeMany images/wallet_icons/android images/wallet_icons/android/tiny 25
-resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/small 100
-resizeMany images/wallet_icons/iphone images/wallet_icons/iphone/tiny 25
-resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/small 100
-resizeMany images/wallet_icons/hardware images/wallet_icons/hardware/tiny 25
+for platform in android iphone hardware desktop; do
+  resizeMany images/wallet_icons/$platform images/wallet_icons/$platform/small 100
+  resizeMany images/wallet_icons/$platform images/wallet_icons/$platform/tiny 25
+done
+wait
 
 if [ "$updateAllImages" ]; then
   revertImagesThatDidNotChange
