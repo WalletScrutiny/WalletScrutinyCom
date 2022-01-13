@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.krypto
 released: 2020-04-29
-updated: 2021-12-03
+updated: 2022-01-08
 version: "8.5"
 stars: 4.6
 ratings: 4342

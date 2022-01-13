@@ -8,8 +8,8 @@ appId: pro.oceanex.exapp
 appCountry: us
 idd: 1481311936
 released: 2019-10-05
-updated: 2021-12-03
-version: "1.5.0"
+updated: 2022-01-10
+version: "1.5.1"
 stars: 4.65625
 reviews: 32
 size: 48142336

@@ -10,10 +10,10 @@ appCountry:
 idd: 1447945810
 released: 2019-01-22
 updated: 2021-12-27
-version: "1.18.0"
+version: "1.22.0"
 stars: 
 reviews: 
-size: 54763520
+size: 57669632
 website: https://xcoex.com/
 repository: 
 issue: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2022-01-06**: The app is back online again. 
 [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479000477383606272)

@@ -12,8 +12,8 @@ idd: 1438224938
 released: 2018-10-25
 updated: 2021-07-21
 version: "1.2.7"
-stars: 2.8
-reviews: 10
+stars: 3
+reviews: 12
 size: 34306048
 website: https://www.coindirect.com/
 repository: 
@@ -34,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2022-01-04**: This app is available once more in the iOS app store. The app was last updated 2021-07-21
 
