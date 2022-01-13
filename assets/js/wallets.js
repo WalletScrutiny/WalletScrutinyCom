@@ -28,7 +28,6 @@ window.verdictOrder = verdictOrder.split(",")
 window.platformObs = []
 window.orderedObs = []
 var readerRec = []
-var _id = 0
 window.wallets.forEach(e => {
   if (e.folder && window.platformObs.indexOf(e.folder) < 0) { 
     window.platformObs.push(e.folder)
@@ -40,13 +39,15 @@ window.wallets.forEach(e => {
       window.orderedObs.push(e)
       readerRec.push(wsId)
     } else {
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions']) ? window.orderedObs[i]['versions'].push(e) : [e]
-      window.orderedObs[i]['ignore'] = true
+      // If we already added a product with this wsId, we add the new one as a
+      // "version" of the prior one.
+      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions'])
+        ? window.orderedObs[i]['versions'].push(e)
+        : [e]
     }
   } else if (e.appId && e.appId.length > 0) {
     const appId = e.appId
-    _id++
-    var i = readerRec.indexOf(_id)
+    var i = readerRec.indexOf(appId)
     if (appId.length > 0 && i < 0) {
       window.orderedObs.push(e)
       readerRec.push(appId)
@@ -54,6 +55,7 @@ window.wallets.forEach(e => {
   }
 })
 window.platformObs.reverse()
+
 window.platforms = {
   iphone: {
     css: 'fab fa-app-store',
