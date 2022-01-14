@@ -4,11 +4,13 @@ const FileType = require('file-type')
 
 function downloadImageFile(url, path, callback) {
   const iconFile = fs.createWriteStream(path)
+  console.log(`get ${url}`)
   const request = https.get(`${url}`, response => {
+    console.log(`got ${url}`)
     response.pipe(iconFile)
     response.on('end', () => {
       (async () => {
-        const mimetype = (await FileType.fromFile(path)).mime
+        const mimetype = ((await FileType.fromFile(path)) || {'mime': "undefined"}).mime
         if (mimetype == "image/png") {
           iconExtension = "png"
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
