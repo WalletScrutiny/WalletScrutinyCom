@@ -10,8 +10,8 @@ idd: 1519405832
 released: 2021-01-31
 updated: 2022-01-06
 version: "1.4.2"
-stars: 4.64614
-reviews: 260
+stars: 4.63359
+reviews: 262
 size: 132628480
 website: https://maiar.com/
 repository: 

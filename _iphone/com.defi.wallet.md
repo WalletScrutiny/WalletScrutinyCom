@@ -8,11 +8,11 @@ appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
 released: 2020-05-20
-updated: 2021-12-29
-version: "1.24.0"
-stars: 4.34246
-reviews: 1898
-size: 117822464
+updated: 2022-01-12
+version: "1.25.0"
+stars: 4.31749
+reviews: 1893
+size: 83549184
 website: https://crypto.com/defi-wallet
 repository: 
 issue: 
