@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.flashift.flashift.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-01-14
 signer: 
 reviewArchive:
 

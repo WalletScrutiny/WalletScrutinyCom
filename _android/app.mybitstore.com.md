@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: app.mybitstore.com
 released: 2021-08-12
-updated: 2021-12-23
-version: "4.8"
+updated: 2022-01-13
+version: "5.2"
 stars: 4.1
 ratings: 7
 reviews: 5

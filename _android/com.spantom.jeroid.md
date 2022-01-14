@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 ## App Description
 
 Buy and Sell Bitcoins, and trade for giftcards.

@@ -4,7 +4,7 @@ title: "Mandala Exchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cloud.app.mandala
 released: 2021-08-19
 updated: 2021-08-19

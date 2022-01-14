@@ -8,7 +8,7 @@ appId: io.klever.secure.exchange
 appCountry: us
 idd: 1553486059
 released: 2021-09-25
-updated: 2021-12-09
+updated: 2022-01-07
 version: "1.0.6"
 stars: 4.71795
 reviews: 39

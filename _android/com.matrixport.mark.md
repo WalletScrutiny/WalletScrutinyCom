@@ -4,15 +4,15 @@ title: "Matrixport: Get More From Your Crypto"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.matrixport.mark
 released: 2019-10-23
-updated: 2021-12-17
-version: "1.2.5"
+updated: 2022-01-07
+version: "1.2.6"
 stars: 4
 ratings: 736
 reviews: 475
-size: 109M
+size: 110M
 website: https://www.matrixport.com/
 repository: 
 issue: 

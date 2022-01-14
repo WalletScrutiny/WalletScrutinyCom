@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: "KEYRING PRO | Multichain Wallet Connect ETH, BSC"
+title: "KEYRING PRO Multichain Wallet"
 altTitle: 
 authors:
 - danny

@@ -4,7 +4,7 @@ title: "Haru Invest - Earn Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bchi.haruinvestapp
 released: 2021-08-11
 updated: 2021-12-16

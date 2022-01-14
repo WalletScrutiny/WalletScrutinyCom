@@ -97,25 +97,29 @@ function refreshFile(fileName) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    if (!"defunct".includes(header.meta)) {
-      gplay.app({
-          appId: appId,
-          lang: 'en',
-          country: 'cl',
-          throttle: 20}).then(app => {
-        const iconPath = `images/wallet_icons/android/${appId}`
-        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-          writeResult(app, header, iconExtension, body)
+    if (!helper.was404(`_android/${appId}`) && !"defunct".includes(header.meta)) {
+      try {
+        gplay.app({
+            appId: appId,
+            lang: 'en',
+            country: 'cl',
+            throttle: 20}).then(app => {
+          const iconPath = `images/wallet_icons/android/${appId}`
+          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+            writeResult(app, header, iconExtension, body)
+            release()
+          })
+        }, (err) => {
+          if (`${err}`.search(/404/) > -1) {
+            helper.addDefunctIfNew(`_android/${appId}`)
+          } else {
+            console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
+          }
           release()
         })
-      }, (err) => {
-        if (`${err}`.search(/404/) > -1) {
-          helper.addDefunctIfNew(`_android/${appId}`)
-        } else {
-          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
-        }
-        release()
-      })
+      } catch (err) {
+        console.error(err)
+      }
     } else {
       stats.defunct++
       writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)

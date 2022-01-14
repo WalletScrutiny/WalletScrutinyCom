@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.vita_wallet
 released: 2019-10-16
-updated: 2021-12-24
-version: "4.0.4"
+updated: 2022-01-10
+version: "4.0.5"
 stars: 4
 ratings: 338
 reviews: 231
-size: 43M
+size: 44M
 website: https://vitawallet.io/
 repository: 
 issue: 

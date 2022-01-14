@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.XcelTrip.XcelPay
 released: 2019-05-30
-updated: 2022-01-05
-version: "2.51.10"
+updated: 2022-01-09
+version: "2.51.26"
 stars: 4
 ratings: 3513
 reviews: 1770
