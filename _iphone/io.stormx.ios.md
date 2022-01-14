@@ -1,6 +1,6 @@
 ---
 wsId: stormX
-title: "StormX"
+title: "StormX - Shop & Earn Crypto"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.stormx.ios
 appCountry: us
 idd: 1420545397
 released: 2018-12-12
-updated: 2021-12-22
-version: "4.12.7"
-stars: 4.61991
-reviews: 1205
-size: 58478592
+updated: 2022-01-13
+version: "4.13.0"
+stars: 4.62261
+reviews: 1203
+size: 60322816
 website: https://stormx.io/
 repository: 
 issue: 

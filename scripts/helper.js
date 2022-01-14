@@ -8,7 +8,7 @@ function downloadImageFile(url, path, callback) {
     response.pipe(iconFile)
     response.on('end', () => {
       (async () => {
-        const mimetype = (await FileType.fromFile(path)).mime
+        const mimetype = ((await FileType.fromFile(path)) || {'mime': "undefined"}).mime
         if (mimetype == "image/png") {
           iconExtension = "png"
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
@@ -56,12 +56,18 @@ function getMasterHead() {
   return `${fs.readFileSync('.git/refs/heads/master')}`.trim()
 }
 
-function addDefunctIfNew(id) {
+const defunctFile = '_data/defunct.yaml'
+var defuncts = fs.readFileSync(defunctFile, 'utf8')
+function was404(id) {
   const line = `- ${id}\n`
-  const defunctFile = '_data/defunct.yaml'
-  const defuncts = fs.readFileSync(defunctFile, 'utf8')
-  if (!defuncts.match(line)) {
+  return defuncts.match(line)
+}
+
+function addDefunctIfNew(id) {
+  if (!was404(id)) {
     // newly defunct
+    const line = `- ${id}\n`
+    defuncts += line
     fs.appendFileSync(defunctFile, line)
     console.error(`\n${id}.md not available`)
   }
@@ -70,5 +76,6 @@ function addDefunctIfNew(id) {
 module.exports = {
   addReviewArchive,
   downloadImageFile,
+  was404,
   addDefunctIfNew
 }

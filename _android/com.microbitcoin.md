@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.microbitcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2021-08-17
+date: 2022-01-14
 signer: 
 reviewArchive:
 

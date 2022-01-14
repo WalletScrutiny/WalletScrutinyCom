@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: sparkPoint
 title: "SparkPoint Crypto Wallet"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: rWallet
 title: "RWallet"
 altTitle: 
 authors:
@@ -26,10 +26,10 @@ date: 2021-12-02
 signer: 
 reviewArchive:
 
-providerTwitter: 
+providerTwitter: rsksmart
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: RSKsmart
+providerReddit: rootstock
 
 redirect_from:
 

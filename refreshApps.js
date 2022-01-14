@@ -22,7 +22,7 @@ async function refresh() {
     } else {
       msg = newMsg
     }
-  }, 1000)
+  }, 5000)
 }
 
 module.exports = {

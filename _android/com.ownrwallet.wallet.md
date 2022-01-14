@@ -4,7 +4,7 @@ title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.ownrwallet.wallet
 released: 2019-05-20
 updated: 2021-12-26

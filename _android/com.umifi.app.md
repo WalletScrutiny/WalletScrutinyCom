@@ -4,7 +4,7 @@ title: "UmiFi-Bitcoin, Crypto Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.umifi.app
 released: 2021-08-18
 updated: 2021-12-23

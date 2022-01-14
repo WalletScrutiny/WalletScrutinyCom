@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: hebeWallet
 title: "Hebe Wallet"
 altTitle: 
 authors:

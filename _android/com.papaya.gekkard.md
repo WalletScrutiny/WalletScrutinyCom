@@ -4,7 +4,7 @@ title: "Gekkard: Banking Alternative"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.papaya.gekkard
 released: 2020-01-30
 updated: 2021-08-19

@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.bitmex.mobile.android
 released: 2020-07-20
-updated: 2021-11-18
-version: "1.1.11"
+updated: 2022-01-05
+version: "1.1.13"
 stars: 2.3
 ratings: 222
 reviews: 1

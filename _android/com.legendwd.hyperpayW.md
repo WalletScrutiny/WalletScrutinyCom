@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: hyperPay
 title: "HyperPay: Crypto & BTC Wallet"
 altTitle: 
 authors:
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: obfuscated
 date: 2021-05-25
 signer: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
   - /com.legendwd.hyperpayW/
 ---
+
+**Update 2022-01-10**: The app is back online.
 
 **Update 2021-05-25**: This app is not available on Google Play anymore. As our
 last analysis below shows, the app was shady. On Facebook you can still find

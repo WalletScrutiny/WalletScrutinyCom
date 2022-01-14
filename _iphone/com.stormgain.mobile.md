@@ -8,11 +8,11 @@ appId: com.stormgain.mobile
 appCountry: de
 idd: 1471506070
 released: 2019-07-21
-updated: 2021-11-25
-version: "1.21.0"
-stars: 4.47464
-reviews: 1519
-size: 58598400
+updated: 2022-01-13
+version: "1.22.0"
+stars: 4.42917
+reviews: 1426
+size: 58593280
 website: https://stormgain.com
 repository: 
 issue: 

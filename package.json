@@ -45,7 +45,7 @@
     "dateformat": "^3.0.3",
     "del": "^5.1.0",
     "file-type": "^16.3.0",
-    "google-play-scraper": "^8.0.4",
+    "google-play-scraper": "github:facundoolano/google-play-scraper#82599f02fef9dfbec7bacd5dc849253547057a98",
     "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-minify": "^3.1.0",

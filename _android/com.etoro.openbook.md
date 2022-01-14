@@ -1,14 +1,14 @@
 ---
 wsId: etoro
-title: "eToro - Smart Crypto Trading Made Easy"
+title: "eToro: Crypto. Stocks. Social."
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.etoro.openbook
 released: 2013-11-05
-updated: 2022-01-04
-version: "366.0.0"
+updated: 2022-01-14
+version: "370.0.0"
 stars: 4.2
 ratings: 102379
 reviews: 38636

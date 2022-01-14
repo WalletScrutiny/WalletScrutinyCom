@@ -1,5 +1,5 @@
 ---
-wsId: OKEx
+wsId: 
 title: "اوکی اکسچنج، خرید بیت کوین و ارز دیجیتال"
 altTitle: 
 authors:

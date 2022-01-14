@@ -4,7 +4,7 @@ title: "Comprar Bitcoin, Ethereum e criptomoedas: BitPreço"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
 released: 2021-02-21
 updated: 2021-11-29

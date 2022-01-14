@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secux.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-15
+date: 2022-01-14
 signer: 
 reviewArchive:
 

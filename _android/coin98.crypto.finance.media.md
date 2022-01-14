@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coin98
 title: "Coin98 Finance"
 altTitle: 
 authors:
@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: coin98.crypto.finance.media
 released: 2019-12-19
-updated: 2022-01-04
-version: "11.0.0"
+updated: 2022-01-12
+version: "11.1.1"
 stars: 4.4
 ratings: 16096
 reviews: 8795

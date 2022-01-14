@@ -4,7 +4,7 @@ title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: africa.bundle.mobile.app
 released: 2020-04-20
 updated: 2022-01-06

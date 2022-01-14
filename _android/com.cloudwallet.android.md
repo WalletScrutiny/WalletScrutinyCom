@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloudwallet.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-18
+date: 2022-01-14
 signer: 
 reviewArchive:
 

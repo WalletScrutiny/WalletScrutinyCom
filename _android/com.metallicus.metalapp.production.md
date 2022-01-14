@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.metallicus.metalapp.production
 released: 
-updated: 2021-11-28
-version: "2.4.13-prod"
+updated: 2022-01-14
+version: "2.4.14-prod"
 stars: 3.7
 ratings: 536
 reviews: 247

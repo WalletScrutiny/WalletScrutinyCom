@@ -4,7 +4,7 @@ title: "Yuppex: Buy Bitcoin Socially"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.yuppex
 released: 2020-08-17
 updated: 2020-09-25

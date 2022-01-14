@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 This product
 "by [BitPay Crypto Inc](https://play.google.com/store/apps/developer?id=BitPay+Crypto+Inc)"
 probably is a fake wallet.

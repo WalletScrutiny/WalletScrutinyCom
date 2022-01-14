@@ -4,7 +4,7 @@ title: "Bitcoin Wallet for COINiD"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: org.coinid.wallet.btc
 released: 2018-10-14
 updated: 2021-02-20

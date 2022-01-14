@@ -8,11 +8,11 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2021-11-20
-version: "1.12.1"
-stars: 4.55374
-reviews: 1470
-size: 139724800
+updated: 2022-01-10
+version: "1.13.0"
+stars: 4.55396
+reviews: 1473
+size: 140150784
 website: https://www.coinomi.com
 repository: 
 issue: 

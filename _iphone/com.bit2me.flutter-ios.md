@@ -8,11 +8,11 @@ appId: com.bit2me.flutter-ios
 appCountry: 
 idd: 1459809738
 released: 2019-06-04
-updated: 2021-12-30
-version: "2.2.1"
+updated: 2022-01-11
+version: "2.2.2"
 stars: 4.45455
 reviews: 44
-size: 87731200
+size: 87751680
 website: https://bit2me.com
 repository: 
 issue: 
