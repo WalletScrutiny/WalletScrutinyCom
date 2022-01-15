@@ -1,6 +1,6 @@
 ---
 wsId: zeux
-title: "Zeux - Banking & Investing"
+title: "Zeux - Payments & Investments"
 altTitle: 
 authors:
 - danny
@@ -9,9 +9,9 @@ appCountry: gb
 idd: 1384796487
 released: 2019-02-12
 updated: 2021-11-09
-version: "2.18.0"
-stars: 4.85612
-reviews: 1112
+version: "2.20.2"
+stars: 4.85013
+reviews: 1101
 size: 55801856
 website: https://www.zeux.com
 repository: 

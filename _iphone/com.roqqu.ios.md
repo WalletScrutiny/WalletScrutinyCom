@@ -12,8 +12,8 @@ idd: 1505370687
 released: 2020-04-06
 updated: 2022-01-07
 version: "1.4.65"
-stars: 2.5
-reviews: 12
+stars: 3
+reviews: 16
 size: 50667520
 website: https://roqqu.com
 repository: 

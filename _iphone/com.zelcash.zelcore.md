@@ -8,11 +8,11 @@ appId: com.zelcash.zelcore
 appCountry: 
 idd: 1436296839
 released: 2018-09-23
-updated: 2022-01-07
-version: "v5.10.0"
-stars: 4.10975
-reviews: 82
-size: 67090432
+updated: 2022-01-14
+version: "v5.10.1"
+stars: 4.09639
+reviews: 83
+size: 67176448
 website: https://zelcore.io
 repository: 
 issue: 
