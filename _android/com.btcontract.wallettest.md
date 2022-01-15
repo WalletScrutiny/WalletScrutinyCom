@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcontract.wallettest.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-08-09
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 This app is for testnet only.

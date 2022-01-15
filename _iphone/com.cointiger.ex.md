@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-16
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: CoinTigerExchange
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 **Update 2022-11-07**: The app is [available again](https://apps.apple.com/nz/app/cointiger-crypto-exchange/id1366562802).
 
@@ -51,3 +53,4 @@ CoinTiger [Disclaimer Page](https://cointiger.zendesk.com/hc/en-us/articles/3600
 Cointiger is developed by SINGAPORE TAI-E CYBER-TECH PTE. LTD.
 
 This app is a cryptocurrency exchanged developed by a company based in Singapore. It's cryptocurrency wallets are **custodial**.
+

@@ -18,9 +18,9 @@ repository: https://github.com/nayutaco/NayutaCore
 issue: 
 icon: com.nayuta.core.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-08-02
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 ## Updated Review 2021-12-21
 
@@ -51,5 +53,6 @@ However, according to its terms and conditions:
 ## Verdict
 
 This app is self-custodial and though it claims to have "exclusive ownership" of the "original content, features and functionality", the wallet's source code is available on Github.
+
 
 

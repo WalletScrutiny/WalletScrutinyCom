@@ -19,8 +19,8 @@ issue:
 icon: com.pro.b2u.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2021-04-27
+meta: defunct
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.
 However being an exchange, it is highly likely that this is a custodial service with funds being in control of the provider.

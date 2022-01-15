@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capital.trading.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-19
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.

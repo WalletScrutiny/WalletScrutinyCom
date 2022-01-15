@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ethercredit.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-09-19
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.

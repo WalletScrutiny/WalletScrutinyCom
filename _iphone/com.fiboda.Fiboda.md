@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fiboda.Fiboda.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-11-03
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,4 +33,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
+
 {% include copyFromAndroid.html %}
+

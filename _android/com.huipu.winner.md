@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.huipu.winner.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-22
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 ## App Description
 
@@ -47,3 +49,4 @@ The app does not function as an exchange or a wallet. It lists some recent news 
 There are even a short list of recommended platforms in the homepage. This includes Huobi, OKEX, Binance, and MXC.
 
 Despite the claim in the description, this app **does not function as a wallet.**
+

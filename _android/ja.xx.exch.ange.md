@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ja.xx.exch.ange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fake
-date: 2021-12-27
+date: 2022-01-15
 signer: 
 reviewArchive:
 - date: 2021-10-05
@@ -41,3 +41,4 @@ redirect_from:
 
 This app tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.
+

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mobox.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-10-01
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,4 +33,7 @@ redirect_from:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-01-15**: This app is not on the Store anymore.
+
+{% include copyFromAndroid.html %}
+

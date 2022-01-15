@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.jex.trade.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 [Binance Launches JEX Token Airdrop Program For All BNB Holders](https://www.binance.com/en/support/announcement/360033416091)
 
@@ -52,6 +54,7 @@ Section 4.1
 > 4.1 We shall set and adjust the amount limit of daily transaction and withdraw deposit from time to time according to requirement of safety and actual transactions.
 
 This confirms the verdict of **custodial**.
+
 
 
 

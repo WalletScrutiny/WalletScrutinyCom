@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bitnob.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-07
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,4 +33,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
+
 {% include copyFromAndroid.html %}
+

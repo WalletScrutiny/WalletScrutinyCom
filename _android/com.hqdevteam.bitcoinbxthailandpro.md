@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hqdevteam.bitcoinbxthailandpro.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-08-17
+date: 2022-01-15
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
