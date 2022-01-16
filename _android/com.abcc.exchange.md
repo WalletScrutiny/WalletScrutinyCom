@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.abcc.exchange
 released: 2018-08-23
-updated: 2021-12-20
-version: "1.9.9"
+updated: 2022-01-04
+version: "1.9.10"
 stars: 4.2
 ratings: 1537
 reviews: 1270
-size: 15M
+size: 16M
 website: https://abcc.com/
 repository: 
 issue: 

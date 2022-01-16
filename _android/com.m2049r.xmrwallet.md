@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.m2049r.xmrwallet
 released: 2017-09-29
-updated: 2021-12-11
-version: "2.2.1 'René'"
+updated: 2022-01-05
+version: "2.3.1 'Doménikos'"
 stars: 3.7
 ratings: 774
 reviews: 467

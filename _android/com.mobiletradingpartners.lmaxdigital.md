@@ -4,7 +4,7 @@ title: "LMAX Digital Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
 released: 2018-05-18
 updated: 2021-12-28

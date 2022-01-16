@@ -4,7 +4,7 @@ title: "Prostocash – обменять и продать Биткоин"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.prostocash.android_prostocash
 released: 2021-06-27
 updated: 2021-06-27
@@ -19,7 +19,7 @@ issue:
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:

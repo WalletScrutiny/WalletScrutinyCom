@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.currency.exchange.investsmart
 released: 2020-12-10
-updated: 2021-07-20
-version: "1.14.0"
+updated: 2022-01-15
+version: "1.21.1"
 stars: 4.3
 ratings: 204
 reviews: 74
@@ -32,7 +32,6 @@ providerReddit: currencycom
 redirect_from:
 
 ---
-
 
 **Update 2022-01-04**: The app is live again on Google Play. From the logo, it would seem that the right iOS partner to this app is located [here](https://apps.apple.com/tm/app/currency-com-investing/id1499070397). We've added the right corresponding file.
 

@@ -4,15 +4,15 @@ title: "Bybit: Crypto Trading Exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.bybit.app
 released: 2019-10-31
-updated: 2021-12-30
-version: "3.11.2"
+updated: 2022-01-14
+version: "3.12.3"
 stars: 4.8
 ratings: 94867
 reviews: 5138
-size: 57M
+size: 55M
 website: https://www.bybit.com
 repository: 
 issue: 

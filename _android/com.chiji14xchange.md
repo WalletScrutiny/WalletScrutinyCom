@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Update 2022-01-05**
 
 We found new information to validate our verdict via [Rocket's Terms page](https://test.chiji14xchange.com/terms/):

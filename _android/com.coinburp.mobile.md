@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.coinburp.mobile
 released: 2020-06-17
-updated: 2021-06-03
-version: "1.0.14"
+updated: 2022-01-05
+version: "1.0.15"
 stars: 3.8
 ratings: 107
 reviews: 40

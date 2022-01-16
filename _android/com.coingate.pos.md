@@ -4,7 +4,7 @@ title: "Bitcoin POS"
 altTitle: 
 authors:
 - kiwilamb
-users: 5000
+users: 10000
 appId: com.coingate.pos
 released: 2015-02-19
 updated: 2016-08-18
