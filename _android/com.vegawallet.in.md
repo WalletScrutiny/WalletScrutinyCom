@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 ## Private Keys
 
 From the [FAQ](https://www.vegawallet.com/pages/faq.html)

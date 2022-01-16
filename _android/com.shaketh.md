@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Shakepay: Buy Bitcoin in 🇨🇦"
+title: "Shakepay: Buy Bitcoin Canada"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.shaketh
 released: 2018-02-20
-updated: 2021-12-20
-version: "1.8.33"
+updated: 2022-01-13
+version: "1.8.43"
 stars: 4.7
 ratings: 9087
 reviews: 3683
-size: 99M
+size: 100M
 website: https://shakepay.com
 repository: 
 issue: 

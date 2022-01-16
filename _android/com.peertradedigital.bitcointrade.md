@@ -4,7 +4,7 @@ title: "BitcoinTrade: Criptomoedas"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.peertradedigital.bitcointrade
 released: 2017-12-01
 updated: 2021-12-06

@@ -4,7 +4,7 @@ title: "OPOLO Hardware Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.opolo.io
 released: 2020-09-01
 updated: 2021-06-08
@@ -19,7 +19,7 @@ issue:
 icon: com.opolo.io.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

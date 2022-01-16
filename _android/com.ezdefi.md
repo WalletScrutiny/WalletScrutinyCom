@@ -34,7 +34,6 @@ redirect_from:
 
 ---
 
-
 **Updated Analysis 2022-01-13**
 
 > Divide, encrypt and upload private data (mnemonic, private key) to CKB (Cloud Key Backup).

@@ -7,12 +7,12 @@ authors:
 users: 500
 appId: com.bit.eu
 released: 2019-07-03
-updated: 2021-08-05
-version: "1.9.8"
+updated: 2022-01-11
+version: "1.9.10"
 stars: 4.5
 ratings: 17
 reviews: 15
-size: 5.1M
+size: 7.8M
 website: 
 repository: 
 issue: 

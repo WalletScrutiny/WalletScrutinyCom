@@ -33,5 +33,4 @@ redirect_from:
 
 ---
 
-
 This app appears to not support BTC.

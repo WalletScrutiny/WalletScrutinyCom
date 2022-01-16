@@ -8,8 +8,8 @@ authors:
 users: 100
 appId: com.jubiter.app
 released: 2020-11-19
-updated: 2021-09-02
-version: "2.5.4"
+updated: 2021-09-10
+version: "2.5.5"
 stars: 2.8
 ratings: 5
 reviews: 3
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2022-01-04**: This app is now available on the Play Store again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478325587693359105)
 

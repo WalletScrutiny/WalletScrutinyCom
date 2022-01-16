@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "MEXC Global: BTC, NFT, Gamefi"
+title: "MEXC Global: BTC, ETH, Gamefi"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.mexcpro.client
 released: 2020-07-23
-updated: 2021-12-04
-version: "3.2.1"
+updated: 2022-01-11
+version: "3.2.3"
 stars: 4.4
 ratings: 8022
 reviews: 4271
-size: 84M
+size: 105M
 website: https://www.mexc.com/
 repository: 
 issue: 

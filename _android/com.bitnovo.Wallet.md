@@ -4,7 +4,7 @@ title: "Bitnovo - Buy Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitnovo.Wallet
 released: 2021-10-27
 updated: 2021-12-21

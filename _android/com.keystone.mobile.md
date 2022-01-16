@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Update 2022-01-07**
 
 It has been mentioned in [Issue 380](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380#note_799019002)

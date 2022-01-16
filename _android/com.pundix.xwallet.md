@@ -10,7 +10,7 @@ users: 100000
 appId: com.pundix.xwallet
 released: 2018-10-22
 updated: 2021-06-24
-version: "2.8.2"
+version: "2.8.3"
 stars: 3
 ratings: 4965
 reviews: 2881
@@ -34,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2022-01-06**: The app is online again.[( Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479004151375822850)
 

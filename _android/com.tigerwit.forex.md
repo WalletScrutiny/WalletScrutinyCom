@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.tigerwit.forex
 released: 2018-01-24
-updated: 2021-12-30
-version: "5.6.1"
+updated: 2022-01-12
+version: "5.6.2"
 stars: 3.8
 ratings: 1754
 reviews: 734

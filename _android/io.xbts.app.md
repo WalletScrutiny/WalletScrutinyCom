@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: "XBTS DeFi Wallet"
+title: "XBTS: Crypto wallet and DeFi"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: io.xbts.app
 released: 2021-04-26
 updated: 2021-12-27

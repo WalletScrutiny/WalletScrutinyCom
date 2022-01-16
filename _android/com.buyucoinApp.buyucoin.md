@@ -1,6 +1,6 @@
 ---
 wsId: buyucoin
-title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
+title: "BuyUcoin: Bitcoin & Crypto App"
 altTitle: 
 authors:
 - leo

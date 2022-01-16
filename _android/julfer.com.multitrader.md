@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: julfer.com.multitrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-01-16
 signer: 
 reviewArchive:
 

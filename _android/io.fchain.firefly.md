@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Firefly wallet Pro"
+title: "Firefly Wallet Pro"
 altTitle: 
 authors:
 
 users: 1000
 appId: io.fchain.firefly
 released: 2019-05-08
-updated: 2021-12-30
-version: "3.3.9"
+updated: 2022-01-07
+version: "3.3.9.3"
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 22M
 website: 
 repository: 
 issue: 

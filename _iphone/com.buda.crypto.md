@@ -8,19 +8,19 @@ appId: com.buda.crypto
 appCountry: 
 idd: 1321460860
 released: 2018-01-04
-updated: 2019-12-02
-version: "1.9.5"
-stars: 3
-reviews: 6
-size: 31807488
+updated: 2022-01-14
+version: "2.0.14"
+stars: 
+reviews: 
+size: 71676928
 website: 
 repository: 
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2021-11-22
+date: 2022-01-16
 signer: 
 reviewArchive:
 

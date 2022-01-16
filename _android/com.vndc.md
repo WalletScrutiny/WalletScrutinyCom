@@ -8,11 +8,11 @@ users: 500000
 appId: com.vndc
 released: 2020-03-07
 updated: 2022-01-14
-version: "2.0.8"
+version: "2.1.0"
 stars: 4.5
 ratings: 32000
 reviews: 9884
-size: 84M
+size: 139M
 website: https://vndc.io/en
 repository: 
 issue: 

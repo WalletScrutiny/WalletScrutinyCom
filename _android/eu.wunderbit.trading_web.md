@@ -4,7 +4,7 @@ title: "Wunderbit — Crypto Trading Bots & Copy-Trading"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: eu.wunderbit.trading_web
 released: 2021-01-19
 updated: 2021-01-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: eu.wunderbit.trading_web.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-17
+date: 2022-01-16
 signer: 
 reviewArchive:
 

@@ -4,7 +4,7 @@ title: "Bixin - Secure Bitcoin Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bixin.bixin_android
 released: 2017-03-22
 updated: 2021-12-03

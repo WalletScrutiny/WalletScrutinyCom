@@ -4,11 +4,11 @@ title: "Pionex - Crypto Trading Bot"
 altTitle: 
 authors:
 
-users: 100000
+users: 500000
 appId: com.pionex.client
 released: 2019-11-18
-updated: 2022-01-04
-version: "2.6.01"
+updated: 2022-01-14
+version: "2.6.05"
 stars: 4.6
 ratings: 3904
 reviews: 2090

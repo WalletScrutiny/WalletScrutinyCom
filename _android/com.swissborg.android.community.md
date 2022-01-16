@@ -1,18 +1,18 @@
 ---
 wsId: cryptochallenge
-title: "Crypto Challenge: Bitcoin Price Prediction Game"
+title: "Crypto Challenge"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.swissborg.android.community
 released: 2019-03-27
-updated: 2021-12-02
-version: "2.2.1"
+updated: 2022-01-10
+version: "2.3.0"
 stars: 3.8
 ratings: 6551
 reviews: 3468
-size: 19M
+size: 20M
 website: https://swissborg.com/
 repository: 
 issue: 

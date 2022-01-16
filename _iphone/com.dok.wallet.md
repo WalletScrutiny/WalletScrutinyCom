@@ -10,8 +10,8 @@ idd: 1533065700
 released: 2020-10-08
 updated: 2021-10-25
 version: "1.55"
-stars: 4.5
-reviews: 8
+stars: 4.55556
+reviews: 9
 size: 104244224
 website: https://dokwallet.com
 repository: 

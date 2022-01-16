@@ -4,10 +4,10 @@ title: "Liquid - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.quoine.liquid
 released: 2019-01-10
-updated: 2021-12-13
+updated: 2022-01-06
 version: "1.17.2.1"
 stars: 3
 ratings: 659

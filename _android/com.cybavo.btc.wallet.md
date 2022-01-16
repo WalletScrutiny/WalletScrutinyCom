@@ -7,8 +7,8 @@ authors:
 users: 500
 appId: com.cybavo.btc.wallet
 released: 2020-06-22
-updated: 2021-12-13
-version: "1.0.2543"
+updated: 2022-01-11
+version: "1.0.2633"
 stars: 
 ratings: 
 reviews: 

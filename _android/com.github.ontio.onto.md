@@ -4,7 +4,7 @@ title: "ONTO - Decentralized Cross-chain Crypto Wallet"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.github.ontio.onto
 released: 2018-06-27
 updated: 2022-01-05

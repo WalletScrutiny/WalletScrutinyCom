@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 ## App Description
 
 > Send & receive Stacks (STX), Bitcoin (BTC) and all tokens built on Stacks. Xverse wallet is a mobile wallet for the Stacks blockchain.

@@ -8,12 +8,12 @@ authors:
 users: 100000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-12-22
-version: "1.5.2"
+updated: 2022-01-05
+version: "1.5.3"
 stars: 3.9
 ratings: 1326
 reviews: 548
-size: 67M
+size: 66M
 website: https://crypto.com/
 repository: 
 issue: 

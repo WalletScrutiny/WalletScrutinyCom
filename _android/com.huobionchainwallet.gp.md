@@ -1,18 +1,18 @@
 ---
 wsId: HuobiWallet
-title: "HuobiWallet"
+title: "Huobi Wallet - Secure DeFi"
 altTitle: 
 authors:
 - kiwilamb
 users: 500000
 appId: com.huobionchainwallet.gp
 released: 2019-10-17
-updated: 2021-12-21
-version: "3.00.05.029"
+updated: 2022-01-10
+version: "3.00.06.028"
 stars: 4.9
 ratings: 32202
 reviews: 1464
-size: 92M
+size: 91M
 website: https://huobiwallet.com
 repository: 
 issue: 

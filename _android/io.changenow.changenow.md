@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: "Crypto Exchange & Buy Bitcoin Dogecoin: ChangeNOW"
+title: "Crypto Exchange & Buy Crypto"
 altTitle: 
 authors:
 - leo

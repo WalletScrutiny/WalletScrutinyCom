@@ -4,7 +4,7 @@ title: "Invest in Cryptocurrency"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.mke.investcrypto
 released: 2020-04-25
 updated: 2020-04-25

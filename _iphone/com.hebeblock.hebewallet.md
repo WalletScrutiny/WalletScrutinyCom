@@ -10,8 +10,8 @@ idd: 1453374447
 released: 2019-02-24
 updated: 2022-01-03
 version: "1.4.6"
-stars: 4.16667
-reviews: 12
+stars: 3.92308
+reviews: 13
 size: 101959680
 website: https://hebe.cc
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 providerTwitter: BlockHebe
 providerLinkedIn: 
 providerFacebook: 
-providerReddit:  
+providerReddit: 
 
 redirect_from:
 
