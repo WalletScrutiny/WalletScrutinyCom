@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryonik.webview.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-01-17
 signer: 
 reviewArchive:
 

@@ -4,7 +4,7 @@ title: "BitOasis - Buy, Sell and Trade Digital Assets"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitoasis
 released: 2020-08-20
 updated: 2021-12-30

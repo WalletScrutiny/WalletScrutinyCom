@@ -9,10 +9,10 @@ appCountry: us
 idd: 1553486059
 released: 2021-09-25
 updated: 2022-01-07
-version: "1.0.6"
-stars: 4.71795
-reviews: 39
-size: 105516032
+version: "1.0.7"
+stars: 4.72499
+reviews: 40
+size: 110082048
 website: https://klever.io
 repository: 
 issue: 

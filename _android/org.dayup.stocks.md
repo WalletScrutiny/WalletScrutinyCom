@@ -9,7 +9,7 @@ users: 10000000
 appId: org.dayup.stocks
 released: 
 updated: 2022-01-08
-version: "7.4.0.32"
+version: "7.4.1.22"
 stars: 4.5
 ratings: 156583
 reviews: 46516

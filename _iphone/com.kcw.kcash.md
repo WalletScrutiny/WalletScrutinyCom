@@ -33,7 +33,6 @@ redirect_from:
 
 ---
 
-
 **Note:** The Android version can only be downloaded via an apk file hosted on the homepage itself. It was not available in Google Play.
 
 ## App Description

@@ -11,7 +11,7 @@ released: 2016-05-28
 updated: 2021-10-26
 version: "5.69.0"
 stars: 4.77016
-reviews: 8976
+reviews: 8989
 size: 46073856
 website: https://remitano.com
 repository: 

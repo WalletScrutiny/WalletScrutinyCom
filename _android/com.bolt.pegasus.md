@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.bolt.pegasus
 released: 2019-08-26
-updated: 2021-12-31
-version: "1.21.6"
+updated: 2022-01-17
+version: "1.21.7"
 stars: 4.5
 ratings: 363
 reviews: 296
