@@ -10,8 +10,8 @@ idd: 1484394401
 released: 2020-11-28
 updated: 2022-01-05
 version: "2.18"
-stars: 4.28571
-reviews: 21
+stars: 4.31818
+reviews: 22
 size: 95252480
 website: https://zebedee.io
 repository: 

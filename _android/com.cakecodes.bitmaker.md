@@ -8,7 +8,7 @@ users: 1000000
 appId: com.cakecodes.bitmaker
 released: 2014-09-07
 updated: 2022-01-13
-version: "8.12.7"
+version: "8.13.0"
 stars: 4.1
 ratings: 84251
 reviews: 51371

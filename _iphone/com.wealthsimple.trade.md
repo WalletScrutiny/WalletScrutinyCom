@@ -1,6 +1,6 @@
 ---
 wsId: WealthsimpleTrade
-title: "Wealthsimple Trade: Buy Stocks"
+title: "Wealthsimple Trade & Crypto"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
 released: 2019-02-26
-updated: 2022-01-11
-version: "2.19.0"
-stars: 4.67673
-reviews: 122584
-size: 98742272
+updated: 2022-01-17
+version: "2.20.0"
+stars: 4.67649
+reviews: 122616
+size: 97864704
 website: https://www.wealthsimple.com/en-ca/product/trade/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: "CoinSwitch: Bitcoin Trading"
+title: "CoinSwitch: Bitcoin Crypto App"
 altTitle: 
 authors:
 - danny

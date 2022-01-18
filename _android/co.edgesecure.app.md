@@ -8,7 +8,7 @@ users: 100000
 appId: co.edgesecure.app
 released: 2018-03-01
 updated: 2022-01-16
-version: "2.8.1"
+version: "2.9.0"
 stars: 4
 ratings: 3655
 reviews: 2008

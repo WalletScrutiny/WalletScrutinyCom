@@ -8,8 +8,8 @@ authors:
 users: 500000
 appId: com.roqqu.app
 released: 2019-09-30
-updated: 2022-01-09
-version: "1.4.65"
+updated: 2022-01-17
+version: "1.4.66"
 stars: 3.5
 ratings: 19629
 reviews: 14194

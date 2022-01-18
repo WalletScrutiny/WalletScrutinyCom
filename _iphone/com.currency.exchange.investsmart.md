@@ -8,11 +8,11 @@ appId: com.currency.exchange.investsmart
 appCountry: tm
 idd: 1499070397
 released: 2020-04-14
-updated: 2022-01-14
-version: "1.21.0"
-stars: 5
-reviews: 42
-size: 69836800
+updated: 2022-01-17
+version: "1.21.2"
+stars: 4.90698
+reviews: 43
+size: 69840896
 website: https://currency.com/
 repository: 
 issue: 

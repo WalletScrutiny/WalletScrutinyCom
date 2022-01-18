@@ -10,8 +10,8 @@ idd: 1457929724
 released: 2019-07-20
 updated: 2021-12-31
 version: "2.0.3"
-stars: 4.97863
-reviews: 234
+stars: 4.98113
+reviews: 265
 size: 111130624
 website: https://www.vantagefx.com
 repository: 

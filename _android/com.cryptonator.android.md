@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-25
+date: 2022-01-18
 signer: 
 reviewArchive:
 - date: 2019-11-12

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Store - Buy Bitcoins With Free Money"
+title: "Bitcoin Store"
 altTitle: 
 authors:
 

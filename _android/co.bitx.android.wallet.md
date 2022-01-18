@@ -16,7 +16,7 @@ size: 84M
 website: https://www.luno.com
 repository: 
 issue: 
-icon: co.bitx.android.wallet.png
+icon: co.bitx.android.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

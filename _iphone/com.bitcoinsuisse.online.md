@@ -8,8 +8,8 @@ appId: com.bitcoinsuisse.online
 appCountry: pl
 idd: 1555493299
 released: 2021-09-21
-updated: 2021-12-16
-version: "1.1.0"
+updated: 2022-01-17
+version: "1.1.1"
 stars: 
 reviews: 
 size: 32559104

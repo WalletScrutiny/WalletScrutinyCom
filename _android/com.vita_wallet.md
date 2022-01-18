@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.vita_wallet
 released: 2019-10-16
-updated: 2022-01-10
-version: "4.0.5"
+updated: 2022-01-17
+version: "4.0.6"
 stars: 4
 ratings: 338
 reviews: 231

@@ -4,7 +4,7 @@ title: "DX.Exchange - Buy&Sell Bitcoin"
 altTitle: 
 authors:
 
-users: 5000
+users: 10000
 appId: antroid.cxtech.com.cxandroidproject
 released: 2019-02-25
 updated: 2019-10-02
