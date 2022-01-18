@@ -3,7 +3,7 @@ wsId:
 title: "Icynote"
 altTitle: 
 authors:
-
+- danny
 users: 100
 appId: ch.smd.icynote
 released: 2021-07-11
@@ -13,7 +13,7 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 61M
-website: 
+website: https://www.icynote.ch/
 repository: 
 issue: 
 icon: ch.smd.icynote.png
@@ -33,4 +33,5 @@ redirect_from:
 
 ---
 
+This is the companion app to the hardware wallet: {% include walletLink.html wallet='hardware/icynote' verdict='true' %}
 
