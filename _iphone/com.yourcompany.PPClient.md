@@ -10,8 +10,8 @@ idd: 283646709
 released: 2019-02-03
 updated: 2022-01-09
 version: "8.8.6"
-stars: 4.81518
-reviews: 6050916
+stars: 4.815
+reviews: 6052690
 size: 485522432
 website: https://www.paypal.com/mobile
 repository: 

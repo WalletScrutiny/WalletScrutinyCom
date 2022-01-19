@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.flitaa.app
 released: 2021-05-15
-updated: 2021-09-04
-version: "1.7.6"
+updated: 2022-01-18
+version: "1.12.2"
 stars: 3.7
 ratings: 292
 reviews: 241
-size: 77M
+size: 38M
 website: https://flitaa.com/
 repository: 
 issue: 

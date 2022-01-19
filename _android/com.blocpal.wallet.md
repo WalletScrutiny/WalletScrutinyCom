@@ -7,20 +7,20 @@ authors:
 users: 1000
 appId: com.blocpal.wallet
 released: 2018-10-30
-updated: 2021-01-20
-version: "1.1.7"
+updated: 2022-01-19
+version: "2.0.38"
 stars: 4
 ratings: 60
 reviews: 38
-size: 57M
+size: 65M
 website: https://www.blocpal.com/
 repository: 
 issue: 
 icon: com.blocpal.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2022-01-16
+date: 2022-01-19
 signer: 
 reviewArchive:
 

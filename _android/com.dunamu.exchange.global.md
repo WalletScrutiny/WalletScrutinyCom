@@ -1,6 +1,6 @@
 ---
 wsId: UpbitGlobal
-title: "Upbit (Global), the Digital-Asset Exchange"
+title: "Upbit (Global)"
 altTitle: 
 authors:
 - danny

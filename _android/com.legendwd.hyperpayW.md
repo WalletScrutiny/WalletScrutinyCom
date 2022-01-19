@@ -1,18 +1,18 @@
 ---
 wsId: hyperPay
-title: "HyperPay: Crypto & BTC Wallet"
+title: "HyperPay: buy & sell BTC,ETH"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 100000
 appId: com.legendwd.hyperpayW
-released: 
-updated: 2021-05-08
-version: "4.0.25"
+released: 2018-10-25
+updated: 2022-01-14
+version: "4.1.21"
 stars: 5
 ratings: 1800
 reviews: 1456
-size: 104M
+size: 119M
 website: https://hyperpay.tech
 repository: 
 issue: 

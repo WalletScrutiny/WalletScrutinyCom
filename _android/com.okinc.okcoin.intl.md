@@ -1,14 +1,14 @@
 ---
 wsId: Okcoin
-title: "Okcoin - Buy Bitcoin, Ethereum, Shiba Inu, Crypto"
+title: "Okcoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.okinc.okcoin.intl
 released: 2018-06-22
-updated: 2022-01-11
-version: "5.2.18"
+updated: 2022-01-18
+version: "5.3.0"
 stars: 4.2
 ratings: 3287
 reviews: 621

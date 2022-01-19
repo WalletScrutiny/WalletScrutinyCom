@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.bitoex.bitoproapp
 released: 2018-07-30
-updated: 2021-02-02
-version: "4.0.0"
+updated: 2022-01-18
+version: "4.1.1"
 stars: 2.4
 ratings: 600
 reviews: 313
-size: 32M
+size: 268M
 website: https://www.bitopro.com/
 repository: 
 issue: 

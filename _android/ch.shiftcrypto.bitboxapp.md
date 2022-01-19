@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: ch.shiftcrypto.bitboxapp
 released: 2020-07-13
-updated: 2021-11-17
-version: "android-4.30.0"
+updated: 2022-01-13
+version: "android-4.31.0"
 stars: 4.7
 ratings: 73
 reviews: 34
-size: 36M
+size: 31M
 website: https://shiftcrypto.ch/app
 repository: https://github.com/digitalbitbox/bitbox-wallet-app
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: tokocrypto
-title: "Tokocrypto - Bitcoin Regulated Trading Platform"
+title: "Tokocrypto - Trading Kripto"
 altTitle: 
 authors:
 - danny
