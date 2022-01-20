@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: "Nash: Buy & sell crypto"
+title: "Nash: Save money faster"
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ appId: io.nash.app
 appCountry: 
 idd: 1475759236
 released: 2019-09-06
-updated: 2021-12-08
-version: "8.0.1"
+updated: 2022-01-19
+version: "8.1.0"
 stars: 4.61111
 reviews: 108
-size: 85385216
+size: 91189248
 website: https://nash.io
 repository: 
 issue: 

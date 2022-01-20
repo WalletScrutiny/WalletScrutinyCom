@@ -4,7 +4,7 @@ title: "KardiaChain Wallet"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.kardiawallet
 released: 2021-01-13
 updated: 2021-12-30

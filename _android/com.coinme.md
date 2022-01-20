@@ -8,7 +8,7 @@ users: 10000
 appId: com.coinme
 released: 
 updated: 2022-01-14
-version: "1.7.0"
+version: "1.7.1"
 stars: 4.4
 ratings: 493
 reviews: 113

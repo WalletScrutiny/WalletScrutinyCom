@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: "Bitget - Trade BTC, ETH, SHIB"
+title: "Bitget - Trade BTC, EOS, XRP"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2021-12-28
-version: "1.2.23"
+updated: 2022-01-19
+version: "1.2.24"
 stars: 
 reviews: 
-size: 130403328
+size: 129036288
 website: https://www.bitget.com/en
 repository: 
 issue: 

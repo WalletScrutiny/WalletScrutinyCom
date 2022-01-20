@@ -10,8 +10,8 @@ idd: 1420996542
 released: 2018-08-24
 updated: 2022-01-14
 version: "3.15.0"
-stars: 3.8
-reviews: 15
+stars: 3.875
+reviews: 16
 size: 107603968
 website: https://airgap.it/
 repository: 

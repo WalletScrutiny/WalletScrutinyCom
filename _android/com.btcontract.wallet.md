@@ -8,8 +8,8 @@ authors:
 users: 100000
 appId: com.btcontract.wallet
 released: 2015-07-15
-updated: 2022-01-13
-version: "2.4.26"
+updated: 2022-01-19
+version: "2.4.27"
 stars: 3.7
 ratings: 1037
 reviews: 559

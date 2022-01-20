@@ -8,8 +8,8 @@ appId: com.sapien.sapienwallet
 appCountry: us
 idd: 1529912521
 released: 2021-06-21
-updated: 2022-01-13
-version: "1.15"
+updated: 2022-01-19
+version: "1.16"
 stars: 5
 reviews: 2
 size: 240621568

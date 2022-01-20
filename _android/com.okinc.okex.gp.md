@@ -1,18 +1,18 @@
 ---
 wsId: OKEx
-title: "OKEx: Buy Bitcoin, ETH, Crypto"
+title: "OKX: Buy Bitcoin, ETH, Crypto"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.okinc.okex.gp
 released: 2019-10-29
-updated: 2021-12-27
-version: "5.4.2"
+updated: 2022-01-13
+version: "6.0.1"
 stars: 4.7
 ratings: 153033
 reviews: 41616
-size: 172M
+size: 144M
 website: https://www.okex.com
 repository: 
 issue: 
