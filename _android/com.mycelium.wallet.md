@@ -16,7 +16,7 @@ size: 25M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
 issue: 
-icon: com.mycelium.wallet.png
+icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible

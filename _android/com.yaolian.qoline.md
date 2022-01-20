@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.yaolian.qoline
 released: 2021-07-14
-updated: 2021-09-28
-version: "1.5"
+updated: 2022-01-17
+version: "1.8.3"
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 22M
 website: 
 repository: 
 issue: 

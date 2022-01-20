@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - leo
-users: 100000
+users: 500000
 appId: com.crypto.exchange
 released: 2021-05-26
 updated: 2022-01-05

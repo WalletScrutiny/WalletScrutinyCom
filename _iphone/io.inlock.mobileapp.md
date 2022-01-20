@@ -8,11 +8,11 @@ appId: io.inlock.mobileapp
 appCountry: us
 idd: 1518236341
 released: 2020-08-05
-updated: 2021-12-05
-version: "1.6.1"
+updated: 2022-01-18
+version: "1.7.2"
 stars: 4.33333
 reviews: 3
-size: 131074048
+size: 86853632
 website: 
 repository: 
 issue: 

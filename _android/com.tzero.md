@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.tzero
 released: 
-updated: 2021-11-16
-version: "2.0.10625"
+updated: 2022-01-20
+version: "2.0.10634"
 stars: 3.4
 ratings: 272
 reviews: 116
-size: 65M
+size: 66M
 website: https://www.tzero.com/crypto-app
 repository: 
 issue: 

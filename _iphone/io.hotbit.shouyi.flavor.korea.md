@@ -10,8 +10,8 @@ idd: 1519926225
 released: 2020-08-05
 updated: 2022-01-14
 version: "1.1.46"
-stars: 3.90909
-reviews: 33
+stars: 3.85714
+reviews: 35
 size: 24524800
 website: https://www.hotbit.co.kr/
 repository: 
