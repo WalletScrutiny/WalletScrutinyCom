@@ -50,7 +50,6 @@ redirect_from:
   - /posts/org.electrum.electrum/
 ---
 
-
 With the updated test script:
 
 ```

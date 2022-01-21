@@ -1,14 +1,14 @@
 ---
 wsId: frontierDeFi
-title: "Frontier: DeFi Wallet"
+title: "Frontier: Crypto & DeFi Wallet"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.frontierwallet
 released: 2019-10-30
-updated: 2021-12-25
-version: "4.0.1"
+updated: 2022-01-20
+version: "4.1.0"
 stars: 
 ratings: 
 reviews: 

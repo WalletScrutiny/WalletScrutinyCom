@@ -10,7 +10,7 @@ released: 2018-10-30
 updated: 2022-01-20
 version: "4.0.6480"
 stars: 5.0
-ratings: 3020
+ratings: 3031
 reviews: 7
 size: 49M
 website: https://www.argent.xyz/

@@ -10,8 +10,8 @@ idd: 1234231551
 released: 2017-06-06
 updated: 2021-11-24
 version: "4.8.6"
-stars: 3.76233
-reviews: 223
+stars: 3.75
+reviews: 224
 size: 148905984
 website: https://www.coincola.com
 repository: 

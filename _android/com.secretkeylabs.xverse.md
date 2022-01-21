@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.secretkeylabs.xverse
 released: 2021-10-12
-updated: 2022-01-08
-version: "1.1.0"
+updated: 2022-01-20
+version: "1.2.0"
 stars: 
 ratings: 
 reviews: 

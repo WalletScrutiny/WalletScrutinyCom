@@ -4,7 +4,7 @@ title: "Admirals"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.admiralmarkets.android
 released: 2020-10-07
 updated: 2022-01-13

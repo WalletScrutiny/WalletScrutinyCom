@@ -8,8 +8,8 @@ appId: com.hitbtc.wallet
 appCountry: au
 idd: 1580572986
 released: 2021-09-01
-updated: 2022-01-13
-version: "1.2.1"
+updated: 2022-01-19
+version: "1.2.2"
 stars: 
 reviews: 
 size: 50770944

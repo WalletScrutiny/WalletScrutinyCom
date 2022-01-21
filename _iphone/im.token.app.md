@@ -10,8 +10,8 @@ idd: 1384798940
 released: 2018-06-07
 updated: 2022-01-07
 version: "2.9.9"
-stars: 4.39954
-reviews: 438
+stars: 4.41136
+reviews: 440
 size: 132769792
 website: https://token.im
 repository: 

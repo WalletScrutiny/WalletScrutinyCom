@@ -10,8 +10,8 @@ idd: 1299601017
 released: 2017-12-23
 updated: 2021-11-29
 version: "2.5.7"
-stars: 4.86364
-reviews: 22
+stars: 4.88462
+reviews: 26
 size: 46926848
 website: https://www.belfrics.io/
 repository: 

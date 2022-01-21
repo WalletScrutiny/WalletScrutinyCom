@@ -1,4 +1,12 @@
 process.env.TZ = 'UTC' // fix timezone issues
+process.on('unhandledRejection', (reason, promise) => {
+  if (`${reason}`.search(/404/) > -1) {
+    console.error(`\nIgnoring a 404 error that for some reason did not get caught: ${reason}`)
+  } else {
+    console.error(`\nIgnoring an error we did not intend to ignore: ${reason}`)
+  }
+})
+
 const gplay = require('google-play-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
@@ -116,6 +124,8 @@ function refreshFile(fileName) {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
           }
           release()
+        }).catch(err => {
+          console.error(err)
         })
       } catch (err) {
         console.error(err)

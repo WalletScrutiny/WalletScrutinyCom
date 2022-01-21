@@ -9,10 +9,10 @@ appCountry: us
 idd: 1566536854
 released: 2021-06-08
 updated: 2021-06-08
-version: "2.2.2"
+version: "2.2.6"
 stars: 3.5
 reviews: 6
-size: 50776064
+size: 50937856
 website: https://www.moonxbt.com
 repository: 
 issue: 
