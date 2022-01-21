@@ -15,7 +15,7 @@ reviews: 1420
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: https://github.com/spesmilo/electrum/issues/7417
+issue: https://github.com/spesmilo/electrum/issues/7640
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
