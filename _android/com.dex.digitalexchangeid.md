@@ -1,13 +1,13 @@
 ---
 wsId: digitalexchangeid
-title: "digitalexchange.id -  Buy & Sell Crypto Assets"
+title: "digitalexchange.id Crypto Aset"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.dex.digitalexchangeid
 released: 
-updated: 2021-12-28
+updated: 2022-01-21
 version: "Varies with device"
 stars: 
 ratings: 

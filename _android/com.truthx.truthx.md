@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.truthx.truthx
 released: 2020-07-04
-updated: 2022-01-15
+updated: 2022-01-22
 version: "1.0.4"
 stars: 3.2
 ratings: 335

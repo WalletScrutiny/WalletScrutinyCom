@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.vog.bitvo
 released: 2020-03-16
-updated: 2022-01-07
-version: "1.5.7"
+updated: 2022-01-19
+version: "1.5.8"
 stars: 3.3
 ratings: 21
 reviews: 15
-size: 6.9M
+size: 12M
 website: http://www.bitvo.com
 repository: 
 issue: 

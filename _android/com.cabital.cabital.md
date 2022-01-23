@@ -4,7 +4,7 @@ title: "Cabital Crypto: Invest in crypto currencies"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cabital.cabital
 released: 2021-06-07
 updated: 2022-01-19

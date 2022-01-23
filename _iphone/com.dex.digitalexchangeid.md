@@ -8,11 +8,11 @@ appId: com.dex.digitalexchangeid
 appCountry: us
 idd: 1498360108
 released: 2020-04-01
-updated: 2021-12-29
-version: "1.0.69"
+updated: 2022-01-21
+version: "1.0.70"
 stars: 5
 reviews: 1
-size: 77506560
+size: 77527040
 website: 
 repository: 
 issue: 

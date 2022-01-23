@@ -1,6 +1,6 @@
 ---
 wsId: flitaa
-title: "flitaa: crypto wallet wey dey for you"
+title: "flitaa: your crypto wallet"
 altTitle: 
 authors:
 - danny

@@ -4,7 +4,7 @@ title: "Pallapay Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.pallapayWallet
 released: 2021-10-06
 updated: 2021-10-06
@@ -19,7 +19,7 @@ issue:
 icon: com.pallapayWallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-10-30
 signer: 
 reviewArchive:

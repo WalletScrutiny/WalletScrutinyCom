@@ -4,7 +4,7 @@ title: "Blixt Wallet"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: com.blixtwallet
 released: 
 updated: 2022-01-13
@@ -19,7 +19,7 @@ issue:
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-10-17
 signer: 
 reviewArchive:

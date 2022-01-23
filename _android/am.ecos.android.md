@@ -4,7 +4,7 @@ title: "Crypto Miner & Wallet - Ecos"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: am.ecos.android
 released: 2020-09-22
 updated: 2021-12-28

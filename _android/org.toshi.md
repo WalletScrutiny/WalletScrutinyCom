@@ -4,7 +4,7 @@ title: "Coinbase Wallet - Store Crypto"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: org.toshi
 released: 2017-09-20
 updated: 2021-12-14

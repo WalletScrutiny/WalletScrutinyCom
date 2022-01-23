@@ -4,7 +4,7 @@ title: "AscendEX: Bitcoin Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.ascendex.exchange
 released: 2021-04-28
 updated: 2022-01-17

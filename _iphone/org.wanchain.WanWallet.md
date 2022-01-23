@@ -10,8 +10,8 @@ idd: 1477039507
 released: 2019-08-22
 updated: 2021-08-05
 version: "5.1"
-stars: 3.85
-reviews: 20
+stars: 3.90476
+reviews: 21
 size: 23052288
 website: https://www.wanchain.org
 repository: https://github.com/wanchain
