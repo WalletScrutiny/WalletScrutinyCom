@@ -1,0 +1,69 @@
+---
+title: "Nativault"
+appId: nativault
+authors:
+- danny
+released: 
+discontinued: # date
+updated: 
+version:
+dimensions: [18, 14.2]
+weight: 5g
+website: https://nativault.com/
+shop:
+company: 
+companywebsite: 
+country: US
+price: 50USD
+repository:
+issue:
+icon: nativault.png
+bugbounty:
+verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+date: 2022-01-22
+signer:
+reviewArchive:
+
+
+providerTwitter: nati_vault
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+---
+
+
+Nativault is holding an [ICO Token Pre-Sale](https://nativault.com/#about):
+
+> ICO Token Details
+> - (Dates are tentative and subject to change)
+> - Token Presale: 15th Feb 2022 - 15th Apr, 2022
+> - Presale Opening Price: $0.01
+> - Capital Target $1,000,000
+> - Token Distributed : Within 60 days after ICO Ends
+> - ICO Opening Price: $0.1
+
+The sim card sized device plugs conveniently to a computer's USB port. The main security hallmark for their product is what they described as ZVC or "Zero Vulnerability Computing":
+
+> ZVC technology is a product of intelligent futuristic design. It introduces 2 radical concepts: -Supra Operating System (SOS) software that completely obliterates the attack surface (US patent application 63/202,188, May 31, 2021), and an In-Computer Offline Storage (ICOS) hardware that isolates data in cold storage within the connected hardware wallet (US patent application 63/228,122, August 1, 2021). These design elements deliver a double blow to hackers, rendering the NV device cybersecure.
+
+According to their [ICO roadmap](https://nativault.com/#about), NV production begins on October 2022. 
+
+## Whitepaper
+
+A copy of the whitepaper could be viewed [here](https://www.nativault.com/NV-WP11.0.pdf):
+
+> The Offline/Online status of the NV device
+is controlled by the device's owner
+through an ON/OFF toggle switch (116),
+which the data owner may deploy to
+keep the data offline or quickly connect it
+to the host computer at the data owner's
+request. As a result, the NV hardware
+wallet provides a secure offline storage
+space directly in your connected
+computer to preserve the seed phrase
+and private keys while also making them
+instantly available for processing when
+needed.
+
+We'll reserve our verdict until production and market availability is commenced.
