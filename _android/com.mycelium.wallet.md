@@ -20,9 +20,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2021-12-20
+date: 2022-01-24
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2021-12-20
+  version: "3.12.8.0"
+  appHash: 1f2f2bc999e8e6dd89a4ff84ffe1d8526f46be585d53d66a7729b4f1591f78eb
+  gitRevision: fad2993685cb2e02ee46ba54d5eeb2f1fab25967
+  verdict: reproducible
 - date: 2021-11-14
   version: "3.12.2.0"
   appHash: 8ebca59a3b86d3364e83fa549b23b842c63bcf1bbade528849b21d40573f4f8a
@@ -185,22 +190,22 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.12.8.0
-apkVersionCode: 3120800
+apkVersionName: 3.13.2.0
+apkVersionCode: 3130200
 verdict:        reproducible
-appHash:        1f2f2bc999e8e6dd89a4ff84ffe1d8526f46be585d53d66a7729b4f1591f78eb
-commit:         aea49dc14314eec461ad307af7f8f99abe4ddf79
+appHash:        0ce3ebc68ab2bff0b0876b2488c8bd7781f0b8cdf370894321fefb36234ac71a
+commit:         6230182c420d688dacf7885ee3dff31af29defa1
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3120800/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3120800/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3130200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130200/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object aea49dc14314eec461ad307af7f8f99abe4ddf79
+object 6230182c420d688dacf7885ee3dff31af29defa1
 type commit
-tag v3.12.8.0
-tagger itserg  1639663965 +0300
+tag v3.13.2.0
+tagger itserg  1642599297 +0300
 
-Bufgixes for SA accounts
+Changelog update
 ===== End Results =====
 ```
 
