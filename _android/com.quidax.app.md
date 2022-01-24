@@ -1,6 +1,6 @@
 ---
 wsId: Quidax
-title: "Quidax - Buy and Sell Bitcoin"
+title: "Quidax Classic"
 altTitle: 
 authors:
 - kiwilamb

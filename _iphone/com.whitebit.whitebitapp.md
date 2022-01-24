@@ -10,8 +10,8 @@ idd: 1463405025
 released: 2019-05-21
 updated: 2022-01-19
 version: "2.8.1"
-stars: 4.72131
-reviews: 183
+stars: 4.72626
+reviews: 179
 size: 142935040
 website: https://whitebit.com
 repository: 

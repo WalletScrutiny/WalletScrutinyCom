@@ -4,7 +4,7 @@ title: "WARP - Earn Bitcoin and Crypto"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.warp.app
 released: 2021-08-06
 updated: 2021-12-30
@@ -19,7 +19,7 @@ issue:
 icon: com.warp.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:

@@ -10,8 +10,8 @@ idd: 1349104693
 released: 2018-03-29
 updated: 2022-01-17
 version: "3.2.3"
-stars: 3.5
-reviews: 2
+stars: 2.66667
+reviews: 3
 size: 111631360
 website: https://indodax.com
 repository: 

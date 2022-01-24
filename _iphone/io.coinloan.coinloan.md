@@ -10,8 +10,8 @@ idd: 1506572788
 released: 2020-04-24
 updated: 2022-01-19
 version: "1.4.1"
-stars: 4.83333
-reviews: 438
+stars: 4.82904
+reviews: 427
 size: 70264832
 website: https://coinloan.io
 repository: 

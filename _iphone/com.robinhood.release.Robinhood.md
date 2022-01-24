@@ -10,8 +10,8 @@ idd: 938003185
 released: 2014-12-11
 updated: 2022-01-18
 version: "2022.02.0"
-stars: 4.15981
-reviews: 3888394
+stars: 4.16026
+reviews: 3891944
 size: 381526016
 website: https://robinhood.com/
 repository: 

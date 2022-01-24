@@ -10,8 +10,8 @@ idd: 1288676542
 released: 2017-09-25
 updated: 2021-12-23
 version: "2021.8.3"
-stars: 4.75061
-reviews: 9704
+stars: 4.75033
+reviews: 9709
 size: 86196224
 website: https://delta.app
 repository: 

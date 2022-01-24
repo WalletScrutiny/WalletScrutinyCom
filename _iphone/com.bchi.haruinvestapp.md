@@ -10,8 +10,8 @@ idd: 1579344792
 released: 2021-08-19
 updated: 2021-12-20
 version: "2.0.0"
-stars: 4.84
-reviews: 50
+stars: 4.84314
+reviews: 51
 size: 97088512
 website: https://haruinvest.com/appdownload
 repository: 

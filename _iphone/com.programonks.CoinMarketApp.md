@@ -10,8 +10,8 @@ idd: 1350234503
 released: 2018-03-02
 updated: 2022-01-11
 version: "8.15.1"
-stars: 4.67276
-reviews: 602
+stars: 4.66667
+reviews: 603
 size: 104678400
 website: https://www.dopamineapp.com/
 repository: 
