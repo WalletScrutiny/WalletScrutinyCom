@@ -14,15 +14,20 @@ ratings: 294
 reviews: 145
 size: 35M
 website: https://phoenix.acinq.co
-repository: https://github.com/ACINQ/phoenix-kmm
+repository: https://github.com/ACINQ/phoenix
 issue: https://github.com/ACINQ/phoenix-kmm/issues/187
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2021-07-20
+verdict: ftbfs
+date: 2022-01-24
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2021-07-20
+  version: "1.4.2"
+  appHash: 
+  gitRevision: e678a81ce1e01c333d7e72cf57531dfd39741ef9
+  verdict: nonverifiable
 - date: 2020-10-24
   version: "1.4.0"
   appHash: 4689d6249e86442ab3657756d9971c9b0894051728dab214a43778665bbc9d43
@@ -47,6 +52,9 @@ redirect_from:
   - /fr.acinq.phoenix.mainnet/
   - /posts/fr.acinq.phoenix.mainnet/
 ---
+
+**Update 2022-01-24**: The provided build instructions don't work anymore as
+explained in [this issue](https://github.com/ACINQ/phoenix/issues/240).
 
 **Update 2021-07-20**: The provider appears to be working on a re-write of the
 app, so the [former issue](https://github.com/ACINQ/phoenix/issues/112) is not
