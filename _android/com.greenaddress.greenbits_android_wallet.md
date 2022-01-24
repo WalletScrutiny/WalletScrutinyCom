@@ -20,9 +20,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2021-12-27
+date: 2022-01-24
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-12-27
+  version: "3.7.7"
+  appHash: 714f02f6cac34bddd8d71dd8c836501f30dce59080b7222f801a83e12b49d45d
+  gitRevision: e2527b5b894b8e72c53b5db5662abd71db4e2903
+  verdict: reproducible
 - date: 2021-11-14
   version: "3.7.6"
   appHash: 5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
@@ -178,19 +183,22 @@ we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.7
-apkVersionCode: 22000377
+apkVersionName: 3.7.8
+apkVersionCode: 22000378
 verdict:        reproducible
-appHash:        714f02f6cac34bddd8d71dd8c836501f30dce59080b7222f801a83e12b49d45d
-commit:         7d413583d5facb4e1950c612d72ff1a456072d94
+appHash:        c1dc700b749152fefd871aa830caffc2a1fc85fed7194f0a114fd1c7f4bfeb74
+commit:         a4250edf21eef528a852d9748af2f8735969d78e
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000377/META-INF: MANIFEST.MF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.RSA
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.SF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-
+object a4250edf21eef528a852d9748af2f8735969d78e
+type commit
+tag release_3.7.8
+tagger Angelos Veglektsis <angelos@aveworks.com> 1642675658 +0200
 ===== End Results =====
 ```
 
