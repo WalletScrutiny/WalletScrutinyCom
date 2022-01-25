@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.asiainnovations.ace.taiwan
 released: 2019-01-28
-updated: 2021-10-02
-version: "5.1.7_1930"
+updated: 2022-01-07
+version: "5.2.0_3002"
 stars: 4.7
 ratings: 834
 reviews: 440
-size: 27M
+size: 28M
 website: https://ace.io
 repository: 
 issue: 

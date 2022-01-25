@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2022-01-14
-version: "3.12.3"
-stars: 3.81716
-reviews: 443
-size: 119521280
+updated: 2022-01-25
+version: "3.13.1"
+stars: 3.8255
+reviews: 447
+size: 120483840
 website: https://www.bybit.com
 repository: 
 issue: 

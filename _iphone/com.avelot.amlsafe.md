@@ -10,8 +10,8 @@ idd: 1519145333
 released: 2020-07-28
 updated: 2022-01-06
 version: "1.30.59.200"
-stars: 4.96774
-reviews: 124
+stars: 4.96396
+reviews: 111
 size: 86757376
 website: https://amlsafe.io/
 repository: 

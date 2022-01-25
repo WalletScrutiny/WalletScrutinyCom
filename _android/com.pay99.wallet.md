@@ -4,7 +4,7 @@ title: "99Pay"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.pay99.wallet
 released: 
 updated: 2022-01-20

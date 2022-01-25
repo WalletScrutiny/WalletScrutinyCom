@@ -8,8 +8,8 @@ appId: com.bitvoapp.bitvo
 appCountry: ca
 idd: 1400304552
 released: 2018-08-06
-updated: 2022-01-10
-version: "3.5.3"
+updated: 2022-01-23
+version: "3.5.4"
 stars: 3.04167
 reviews: 24
 size: 36758528

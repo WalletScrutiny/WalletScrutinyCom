@@ -10,8 +10,8 @@ idd: 1492803003
 released: 2020-02-25
 updated: 2021-12-29
 version: "2.7"
-stars: 2.58824
-reviews: 17
+stars: 2.33333
+reviews: 15
 size: 103106560
 website: https://bitex.com
 repository: 

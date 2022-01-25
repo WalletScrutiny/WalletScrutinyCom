@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.flutter.litebit
 released: 2019-12-12
-updated: 2022-01-03
+updated: 2022-01-24
 version: "3.2.24"
 stars: 3.6
 ratings: 867

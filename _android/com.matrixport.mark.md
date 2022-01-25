@@ -1,14 +1,14 @@
 ---
 wsId: matrixport
-title: "Matrixport: Get More From Your Crypto"
+title: "Matrixport: Buy & Earn Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.matrixport.mark
 released: 2019-10-23
-updated: 2022-01-07
-version: "1.2.6"
+updated: 2022-01-23
+version: "1.2.9"
 stars: 4
 ratings: 736
 reviews: 475

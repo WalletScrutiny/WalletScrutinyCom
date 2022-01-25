@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.ctrade.mobile
 released: 2020-12-19
-updated: 2021-12-08
-version: "1.1.5"
+updated: 2022-01-24
+version: "1.1.7"
 stars: 4.7
 ratings: 218
 reviews: 180
-size: 8.5M
+size: 8.6M
 website: https://www.c-trade.com/
 repository: 
 issue: 

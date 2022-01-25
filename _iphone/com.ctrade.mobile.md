@@ -8,8 +8,8 @@ appId: com.ctrade.mobile
 appCountry: us
 idd: 1542759541
 released: 2021-01-08
-updated: 2022-01-21
-version: "1.1.6"
+updated: 2022-01-25
+version: "1.1.7"
 stars: 4.72727
 reviews: 22
 size: 32552960

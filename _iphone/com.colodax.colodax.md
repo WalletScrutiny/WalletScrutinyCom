@@ -11,7 +11,7 @@ released: 2020-02-04
 updated: 2021-09-17
 version: "1.7.2"
 stars: 5
-reviews: 1
+reviews: 2
 size: 80020480
 website: https://colodax.com
 repository: 

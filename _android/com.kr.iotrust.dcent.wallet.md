@@ -1,14 +1,14 @@
 ---
 wsId: dCent
-title: "D'CENT Crypto Wallet - Bitcoin, Ethereum, XRP etc."
+title: "D'CENT Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: com.kr.iotrust.dcent.wallet
 released: 2018-10-16
-updated: 2022-01-13
-version: "5.12.0"
+updated: 2022-01-21
+version: "5.12.2"
 stars: 4.1
 ratings: 509
 reviews: 324
