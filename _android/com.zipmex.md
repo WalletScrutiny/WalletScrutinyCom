@@ -4,7 +4,7 @@ title: "Zipmex: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.zipmex
 released: 2020-03-30
 updated: 2022-01-21

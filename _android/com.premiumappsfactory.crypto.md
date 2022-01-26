@@ -7,12 +7,12 @@ authors:
 users: 10
 appId: com.premiumappsfactory.crypto
 released: 2021-09-05
-updated: 2021-09-05
-version: "1.0.0"
+updated: 2022-01-25
+version: "2.0.0"
 stars: 
 ratings: 
 reviews: 
-size: 6.1M
+size: 18M
 website: 
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.biboxpro.release
 appCountry: us
 idd: 1505962519
 released: 2020-04-08
-updated: 2022-01-12
-version: "4.9.4"
-stars: 4.69766
-reviews: 86
-size: 116669440
+updated: 2022-01-23
+version: "4.9.6"
+stars: 4.675
+reviews: 80
+size: 117574656
 website: https://www.bibox.pro
 repository: 
 issue: 

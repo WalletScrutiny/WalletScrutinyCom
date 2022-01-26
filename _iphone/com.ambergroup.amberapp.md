@@ -10,8 +10,8 @@ idd: 1515652068
 released: 2020-09-21
 updated: 2022-01-08
 version: "2.0.5"
-stars: 4.50725
-reviews: 138
+stars: 4.54667
+reviews: 150
 size: 192277504
 website: https://www.whalefin.com
 repository: 

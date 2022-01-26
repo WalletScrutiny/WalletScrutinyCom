@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.capital.trading
 released: 2017-10-18
-updated: 2022-01-19
-version: "1.38.0"
+updated: 2022-01-25
+version: "1.38.1"
 stars: 4.5
 ratings: 25340
 reviews: 8536

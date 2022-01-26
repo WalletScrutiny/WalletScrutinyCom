@@ -10,8 +10,8 @@ idd: 1182702365
 released: 2017-01-15
 updated: 2022-01-22
 version: "8.1.7"
-stars: 4.4276
-reviews: 1492
+stars: 4.42666
+reviews: 1493
 size: 138210304
 website: https://www.naga.com
 repository: 

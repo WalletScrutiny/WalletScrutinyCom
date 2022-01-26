@@ -7,8 +7,8 @@ authors:
 users: 100
 appId: io.nunchuk.android
 released: 2021-11-11
-updated: 2022-01-06
-version: "1.9.9"
+updated: 2022-01-25
+version: "1.9.11"
 stars: 
 ratings: 
 reviews: 

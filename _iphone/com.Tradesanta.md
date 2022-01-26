@@ -10,8 +10,8 @@ idd: 1457051269
 released: 2019-05-18
 updated: 2021-11-29
 version: "2.5.82"
-stars: 3.67647
-reviews: 34
+stars: 3.875
+reviews: 40
 size: 68458496
 website: https://tradesanta.com/en
 repository: 

@@ -11,7 +11,7 @@ released: 2021-04-21
 updated: 2022-01-13
 version: "2.1.2"
 stars: 5
-reviews: 1
+reviews: 2
 size: 9594880
 website: https://nakitcoins.com
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.hoo.qianbao
 released: 2021-03-17
-updated: 2022-01-18
+updated: 2022-01-25
 version: "4.7.45"
 stars: 2.4
 ratings: 491

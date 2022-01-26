@@ -10,8 +10,8 @@ idd: 1471960731
 released: 2019-08-03
 updated: 2022-01-18
 version: "6.6"
-stars: 4.66667
-reviews: 12
+stars: 4.42856
+reviews: 14
 size: 156972032
 website: https://ogpaywallet.com/
 repository: 

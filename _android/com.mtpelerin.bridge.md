@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.mtpelerin.bridge
 released: 2020-04-07
-updated: 2021-12-22
-version: "1.20"
+updated: 2022-01-22
+version: "1.21"
 stars: 4.3
 ratings: 124
 reviews: 68
-size: 167M
+size: 184M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
