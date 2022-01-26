@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa: Learn to Trade & Invest"
+title: "Stock Market Simulator - Bolsa"
 altTitle: 
 authors:
 - danny
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tiim.gooptions.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

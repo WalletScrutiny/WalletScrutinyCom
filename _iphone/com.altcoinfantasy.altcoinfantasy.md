@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.jpg
 bugbounty: 
-verdict: stale
-date: 2021-11-01
+meta: stale
+verdict: nowallet
+date: 2022-01-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

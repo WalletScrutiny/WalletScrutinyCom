@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.forex4you.android.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## New Review 2021-10-28
 

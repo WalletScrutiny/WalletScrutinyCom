@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app appears not to get access to spend your Bitcoins:
 

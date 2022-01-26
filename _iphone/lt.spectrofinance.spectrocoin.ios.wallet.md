@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: spectrocoin
 providerLinkedIn: spectrocoin

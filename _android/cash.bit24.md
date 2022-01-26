@@ -7,22 +7,22 @@ authors:
 users: 50000
 appId: cash.bit24
 released: 2021-05-30
-updated: 2021-09-14
-version: "4.0.4"
+updated: 2022-01-08
+version: "6.1.0"
 stars: 4.5
 ratings: 1418
 reviews: 429
-size: 9.5M
+size: 33M
 website: https://bit24.cash/
 repository: 
 issue: 
 icon: cash.bit24.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Google Play Description
 

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.dsdaq.mobiletrader
 released: 2019-12-24
-updated: 2021-12-01
-version: "3.0.2"
+updated: 2022-01-20
+version: "3.0.4"
 stars: 4
 ratings: 481
 reviews: 253
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: dsdaqcom
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 Dsdaq's app description explains that it is a trading app:

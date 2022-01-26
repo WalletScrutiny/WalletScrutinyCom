@@ -9,7 +9,7 @@ appId: com.Coinals.Wallet
 released: 2021-04-23
 updated: 2021-04-23
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Coinals.Wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

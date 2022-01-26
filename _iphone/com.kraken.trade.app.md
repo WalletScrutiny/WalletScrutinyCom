@@ -1,6 +1,6 @@
 ---
 wsId: krakent
-title: "KrakenPro"
+title: "Kraken Pro"
 altTitle: 
 authors:
 - leo
@@ -8,21 +8,21 @@ appId: com.kraken.trade.app
 appCountry: 
 idd: 1473024338
 released: 2019-11-12
-updated: 2021-11-17
-version: "2.2.2"
-stars: 4.4893
-reviews: 10560
-size: 55630848
+updated: 2022-01-14
+version: "2.7.0"
+stars: 4.51279
+reviews: 10903
+size: 68931584
 website: https://www.kraken.com
 repository: 
 issue: 
 icon: com.kraken.trade.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: krakenfx
 providerLinkedIn: krakenfx

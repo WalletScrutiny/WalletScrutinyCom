@@ -4,11 +4,11 @@ title: "Bybit: Crypto Trading Exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.bybit.app
 released: 2019-10-31
-updated: 2021-12-18
-version: "3.10.5"
+updated: 2022-01-25
+version: "3.13.5"
 stars: 4.8
 ratings: 94867
 reviews: 5138
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bybit.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bybit_Official
 providerLinkedIn: bybitexchange
@@ -32,7 +32,6 @@ providerReddit: Bybit
 redirect_from:
 
 ---
-
 
 > "Bybit is the World's fastest-growing and one of the largest crypto
   derivatives exchanges to trade Bitcoin and crypto.

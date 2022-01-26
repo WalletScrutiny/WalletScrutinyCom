@@ -18,11 +18,11 @@ repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2019-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: acinq_co
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/12/eclair/
   - /posts/fr.acinq.eclair.wallet.mainnet2/
 ---
-
 
 This wallet has a really short description. Here it is in full:
 

@@ -8,21 +8,21 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2021-11-11
-version: "3.27"
-stars: 4.57692
-reviews: 26
-size: 32234496
+updated: 2021-12-22
+version: "3.30"
+stars: 4.65714
+reviews: 35
+size: 32834560
 website: 
 repository: 
 issue: 
 icon: com.tangem.Tangem.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tangem
 providerLinkedIn: tangem

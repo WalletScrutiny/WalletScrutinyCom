@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.tigerwit.forex
 released: 2018-01-24
-updated: 2021-11-29
-version: "5.5.8"
+updated: 2022-01-14
+version: "5.6.3"
 stars: 3.8
 ratings: 1754
 reviews: 734
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tigerwit.forex.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: TigerWitGlobal
 providerLinkedIn: tigerwit-group-
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).
 

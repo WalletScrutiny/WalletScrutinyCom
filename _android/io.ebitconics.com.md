@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.ebitconics.com.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: eBitcoinics
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

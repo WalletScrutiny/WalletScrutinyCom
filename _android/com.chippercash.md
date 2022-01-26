@@ -9,7 +9,7 @@ users: 1000000
 appId: com.chippercash
 released: 2018-07-07
 updated: 2021-12-10
-version: "1.9.18"
+version: "1.9.19"
 stars: 4.2
 ratings: 51109
 reviews: 30945
@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.chippercash.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: chippercashapp
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 
 "Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"

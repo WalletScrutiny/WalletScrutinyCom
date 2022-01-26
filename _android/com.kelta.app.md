@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kelta.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Caution
 _We strongly advise users to exercise caution when using this app. See below._

@@ -4,25 +4,25 @@ title: "Crypto Miner & Wallet - Ecos"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: am.ecos.android
 released: 2020-09-22
-updated: 2021-12-14
-version: "1.19.0"
+updated: 2021-12-28
+version: "1.20.2"
 stars: 3.4
 ratings: 253
 reviews: 195
-size: 41M
+size: 42M
 website: https://ecos.am/en/
 repository: 
 issue: 
 icon: am.ecos.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: ecosmining
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play:

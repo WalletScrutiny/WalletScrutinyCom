@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.unodax.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: Unocoin
 providerLinkedIn: unocoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From Google Play:
 

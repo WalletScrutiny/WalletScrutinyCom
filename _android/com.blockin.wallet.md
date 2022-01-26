@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.blockin.wallet
 released: 2020-03-23
-updated: 2021-12-10
-version: "2.2.4"
+updated: 2022-01-13
+version: "2.2.8"
 stars: 4.1
 ratings: 208
 reviews: 97
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockin.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: PoolinWallet
 providerLinkedIn: poolinwallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

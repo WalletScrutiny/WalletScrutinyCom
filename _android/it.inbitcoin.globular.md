@@ -9,7 +9,7 @@ appId: it.inbitcoin.globular
 released: 2019-06-07
 updated: 2020-01-26
 version: "1.2.0"
-stars: 5.0
+stars: 5
 ratings: 5
 reviews: 
 size: 7.7M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: it.inbitcoin.globular.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: fewusers
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.developer.myafrique.mya.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.zbx.app
 released: 2019-10-18
-updated: 2021-09-22
-version: "2.1.1"
+updated: 2022-01-15
+version: "2.1.4"
 stars: 2.8
 ratings: 37
 reviews: 28
-size: 33M
+size: 34M
 website: https://www.zbx.one/
 repository: 
 issue: 
 icon: com.zbx.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: zbx_com
 providerLinkedIn: zbx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -9,7 +9,7 @@ appId: com.cointopay.pos
 released: 2018-10-10
 updated: 2020-09-08
 version: "1.2.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.7M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cointopay.pos.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

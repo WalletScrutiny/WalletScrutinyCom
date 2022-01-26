@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: cobo.wallet
 released: 2018-07-01
-updated: 2021-12-16
-version: "5.18.1"
+updated: 2022-01-07
+version: "5.18.2"
 stars: 3.2
 ratings: 3972
 reviews: 2422
-size: 71M
+size: 69M
 website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cobo_Wallet
 providerLinkedIn: coboofficial
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/cobo/
   - /posts/cobo.wallet/
 ---
-
 
 **Update:** This wallet was one of the first wallets that was analyzed and back
 then the custodial wallet was detrimental to call the full wallet custodial.

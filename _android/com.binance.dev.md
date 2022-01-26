@@ -7,8 +7,8 @@ authors:
 users: 10000000
 appId: com.binance.dev
 released: 2017-10-25
-updated: 2021-12-16
-version: "2.38.4"
+updated: 2022-01-24
+version: "2.40.2"
 stars: 4.4
 ratings: 508712
 reviews: 173931
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-03-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: binance
 providerLinkedIn: 
@@ -34,7 +34,6 @@ redirect_from:
   - /com.binance.dev/
   - /posts/com.binance.dev/
 ---
-
 
 This app appears to be an app interface for the Binance exchange and at first we
 cannot find anything indicating that there is also a non-custodial feature to

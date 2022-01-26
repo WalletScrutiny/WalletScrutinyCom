@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: kr.co.keypair.nextouch.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-03-07
-  version: "1.0.0.57"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As far as we can see, this is the same as
 {% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} and thus is **not verifiable**.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: atomicwallet.jpg
 bugbounty: 
-verdict: nosource
-date: 2021-01-23
+meta: defunct
+verdict: obfuscated
+date: 2022-01-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: atomicwallet
 providerLinkedIn: 
@@ -33,10 +33,6 @@ redirect_from:
 
 ---
 
-> Atomic Wallet is a universal, fully decentralized, multi-currency, and
-  convenient app with a simple interface that supports over 300
-  cryptocurrencies.
+**Update 2022-01-02**: This app is no more available.
 
-so they claim to be non-custodial but although they feature a link to
-[their GitHub account](https://github.com/Atomicwallet), none of the
-repositories there looks like an iPhone wallet so the app is **not verifiable**.
+{% include copyFromAndroid.html %}

@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.exscudo.channels
 released: 2018-05-17
-updated: 2021-12-16
-version: "3.1.998"
+updated: 2022-01-25
+version: "3.2.1048"
 stars: 4.5
 ratings: 558
 reviews: 233
-size: 62M
+size: 65M
 website: https://exscudo.com
 repository: 
 issue: 
 icon: com.exscudo.channels.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: ex_scudo
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: EXSCUDO
 redirect_from:
 
 ---
-
 
 The Play Store description states...
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Google Play App Description
 

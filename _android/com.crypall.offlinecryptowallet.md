@@ -9,7 +9,7 @@ appId: com.crypall.offlinecryptowallet
 released: 2019-06-12
 updated: 2019-07-12
 version: "2.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.crypall.offlinecryptowallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

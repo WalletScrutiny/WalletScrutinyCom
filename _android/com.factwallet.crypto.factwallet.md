@@ -9,7 +9,7 @@ appId: com.factwallet.crypto.factwallet
 released: 2020-10-23
 updated: 2020-11-13
 version: "1.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.8M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-11-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
   - /com.factwallet.crypto.factwallet/
 ---
-
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.newgo.coincola.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinCola_Global
 providerLinkedIn: coincola
@@ -32,7 +32,6 @@ providerReddit: coincolaofficial
 redirect_from:
   - /com.newgo.coincola/
 ---
-
 
 > SAFE AND SECURE<br>
 > Our team uses bank-level encryption, cold storage and SSL for the highest level of security.

@@ -9,7 +9,7 @@ appId: net.fxbitcoinsoft.crypto.coin.invest
 released: 2021-07-18
 updated: 2021-07-18
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.3M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.fxbitcoinsoft.crypto.coin.invest.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-15**: This app is not on the Play Store anymore.

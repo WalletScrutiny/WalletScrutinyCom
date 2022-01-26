@@ -1,14 +1,14 @@
 ---
 wsId: CakeDeFi
-title: "Cake DeFi – Cashflow from crypto"
+title: "Cake DeFi"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cakedefi.app
 released: 2021-06-16
-updated: 2021-11-10
-version: "2.2.2"
+updated: 2022-01-24
+version: "3.2.0"
 stars: 3.9
 ratings: 461
 reviews: 234
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cakedefi.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: cakedefi
 providerLinkedIn: cakedefi
@@ -32,7 +32,6 @@ providerReddit: cakedefi
 redirect_from:
 
 ---
-
 
 ### App Description
 

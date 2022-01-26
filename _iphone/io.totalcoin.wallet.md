@@ -10,19 +10,19 @@ idd: 1392398906
 released: 2018-07-05
 updated: 2021-09-12
 version: "4.0.1"
-stars: 4.49495
-reviews: 99
+stars: 4.5
+reviews: 100
 size: 41118720
 website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

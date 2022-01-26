@@ -21,7 +21,8 @@ repository: https://github.com/BitLox/bitlox-firmware
 issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty:
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-12-12
 signer:
 reviewArchive:

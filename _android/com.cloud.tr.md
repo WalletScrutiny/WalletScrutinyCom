@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.cloud.tr
 released: 2021-07-16
-updated: 2021-11-25
-version: "1.6.0"
+updated: 2022-01-12
+version: "1.8.0"
 stars: 4.1
 ratings: 36478
 reviews: 9789
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cloud.tr.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: BinanceTR
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

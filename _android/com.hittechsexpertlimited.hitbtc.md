@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hittechsexpertlimited.hitbtc.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: hitbtc
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.hittechsexpertlimited.hitbtc/
   - /posts/com.hittechsexpertlimited.hitbtc/
 ---
-
 
 On Google Play this app claims
 

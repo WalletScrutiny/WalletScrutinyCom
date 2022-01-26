@@ -8,21 +8,21 @@ appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
 released: 2020-12-01
-updated: 2021-10-18
-version: "3.1.1"
-stars: 4.38983
-reviews: 28246
-size: 61172736
+updated: 2022-01-18
+version: "3.6.5"
+stars: 4.43794
+reviews: 34263
+size: 62036992
 website: https://coinswitch.co/in
 repository: 
 issue: 
 icon: com.coinswitch.kuber.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinSwitchKuber
 providerLinkedIn: coinswitch

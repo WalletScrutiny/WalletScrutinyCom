@@ -9,7 +9,7 @@ appId: com.trade.btctradelink
 released: 2019-07-27
 updated: 2019-07-27
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 1.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trade.btctradelink.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

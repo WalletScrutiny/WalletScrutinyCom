@@ -8,8 +8,8 @@ authors:
 users: 100000
 appId: com.etoro.wallet
 released: 2018-11-27
-updated: 2021-11-21
-version: "37.0.0"
+updated: 2022-01-12
+version: "39.0.0"
 stars: 2.1
 ratings: 990
 reviews: 656
@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.etoro.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the eToro wallet FAQ:
 

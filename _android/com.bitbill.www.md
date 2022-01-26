@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitbill.www.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitbill.www/
   - /posts/com.bitbill.www/
 ---
-
 
 On the Google Play description we read:
 

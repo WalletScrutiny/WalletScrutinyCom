@@ -9,7 +9,7 @@ appId: com.tradersinc.buybitcoin
 released: 2017-06-26
 updated: 2017-06-26
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.3M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tradersinc.buybitcoin.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

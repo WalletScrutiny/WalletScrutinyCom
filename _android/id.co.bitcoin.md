@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: id.co.bitcoin
 released: 2014-12-15
-updated: 2021-11-16
-version: "4.2.2"
+updated: 2022-01-06
+version: "4.2.5"
 stars: 4.2
 ratings: 79379
 reviews: 40539
-size: 30M
+size: 32M
 website: https://indodax.com
 repository: 
 issue: 
 icon: id.co.bitcoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: indodax
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the interface to
 

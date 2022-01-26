@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.beecrypt.beecrypthd
 released: 2020-05-27
-updated: 2021-12-10
-version: "4.1"
+updated: 2021-12-23
+version: "4.2"
 stars: 4
 ratings: 27
 reviews: 18
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: money_pipe
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

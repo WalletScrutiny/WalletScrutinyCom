@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.profittrading.forhuobi
 released: 2018-11-21
-updated: 2021-04-27
-version: "2.0.4"
+updated: 2021-12-03
+version: "3.0.2"
 stars: 4.1
 ratings: 20
 reviews: 8
-size: 17M
+size: 23M
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forhuobi.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

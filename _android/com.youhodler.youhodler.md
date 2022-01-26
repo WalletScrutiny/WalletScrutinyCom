@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.youhodler.youhodler
 released: 2019-07-11
-updated: 2021-11-30
-version: "2.21.0"
+updated: 2022-01-13
+version: "3.0.1"
 stars: 4.3
 ratings: 2254
 reviews: 861
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-06-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: youhodler
 providerLinkedIn: youhodler
@@ -33,7 +33,6 @@ redirect_from:
   - /com.youhodler.youhodler/
   - /posts/com.youhodler.youhodler/
 ---
-
 
 This app is the interface to an exchange and might have a non-custodial part to
 it but if so, it is not well advertised on their website and we assume it is

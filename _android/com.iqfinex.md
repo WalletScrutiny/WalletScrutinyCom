@@ -18,7 +18,8 @@ repository:
 issue: 
 icon: com.iqfinex.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-22
 signer: 
 reviewArchive:
@@ -31,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-13**: This app is no more.
 

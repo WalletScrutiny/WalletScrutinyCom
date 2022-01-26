@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "BlockFi - Buy & Earn Crypto"
+title: "BlockFI: Buy and trade crypto"
 altTitle: 
 authors:
 - danny
 users: 500000
 appId: com.blockfi.mobile
 released: 2020-04-30
-updated: 2021-12-15
-version: "4.9.4"
+updated: 2022-01-20
+version: "5.0.2"
 stars: 3.5
 ratings: 3612
 reviews: 1753
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockfi.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlockFi
 providerLinkedIn: blockfi
@@ -32,7 +32,6 @@ providerReddit: blockfi
 redirect_from:
 
 ---
-
 
 > BlockFi is the easiest place to buy, sell and earn cryptocurrency
 

@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.app.fameex
 released: 2020-08-10
-updated: 2021-12-09
-version: "2.7.1"
+updated: 2022-01-21
+version: "2.9.0"
 stars: 4.9
 ratings: 634
 reviews: 574
-size: 43M
+size: 45M
 website: https://www.fameex.com
 repository: 
 issue: 
 icon: com.app.fameex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: FameexGlobal
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

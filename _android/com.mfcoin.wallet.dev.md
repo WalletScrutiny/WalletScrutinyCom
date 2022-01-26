@@ -13,20 +13,16 @@ stars: 4.2
 ratings: 91
 reviews: 48
 size: 5.4M
-website: mfcoin.net
+website: https://mfcoin.net/
 repository: 
 issue: 
 icon: com.mfcoin.wallet.dev.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: obfuscated
 date: 2021-09-29
 signer: 
 reviewArchive:
-- date: 2021-03-03
-  version: "v4.0.0"
-  appHash: 
-  gitRevision: b1d801e5a5de6511cd5dfc68a1d835dd86580a4c
-  verdict: obfuscated
 
 providerTwitter: MFC_tech
 providerLinkedIn: groups/13539593
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > * Native support for bitcoin and most major altcoins
 > * Your private keys never leave your device. Strong wallet encryption and

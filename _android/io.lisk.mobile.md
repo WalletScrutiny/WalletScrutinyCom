@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: io.lisk.mobile.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "1.4.1"
-  appHash: 
-  gitRevision: f83c5fd38458c97a2c795bd96b1369d3e9f37011
-  verdict: wip
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-20**: This app is no more on Play Store.

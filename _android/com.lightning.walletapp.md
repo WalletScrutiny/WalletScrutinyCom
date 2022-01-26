@@ -18,6 +18,7 @@ repository: https://github.com/btcontract/lnwallet
 issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-08-21
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -39,7 +39,6 @@ redirect_from:
   - /posts/2019/11/bictcoinlightningwallet/
   - /posts/com.lightning.walletapp/
 ---
-
 
 **Update 2021-08-21**: The provider
 [stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)

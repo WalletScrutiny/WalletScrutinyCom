@@ -4,7 +4,7 @@ title: "Nominex DeFi Crypto Exchange Stake Trade NMX"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.mobuyg.nmx
 released: 2021-08-16
 updated: 2021-08-16
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobuyg.nmx.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

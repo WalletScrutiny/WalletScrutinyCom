@@ -4,7 +4,7 @@ title: "TradeSanta: Crypto Trading Bot for Binance, Huobi"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.tradesanta
 released: 2019-05-20
 updated: 2021-11-29
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description and Verdict
 TradeSanta isn't a cryptocurrency exchange or wallet, but claims to provide trading bots that automate trading strategies on crypto exchanges, including:

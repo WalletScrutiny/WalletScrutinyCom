@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > This wallet helps people to create bitcoin or litecoin transactions
 

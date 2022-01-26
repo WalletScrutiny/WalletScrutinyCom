@@ -21,6 +21,7 @@ repository: https://github.com/secuxtech/SecuXMCU
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/379
 icon: secuxstonev20.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-12-03
 signer:

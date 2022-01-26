@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.secux.mobile.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-15
+date: 2022-01-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: SecuXwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **CAUTION:** Some users have reported losing cryptocurrencies with this app.
 

@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.hconline.iso
 released: 2020-07-19
-updated: 2021-09-26
-version: "R02.03.06.296"
+updated: 2022-01-04
+version: "R02.03.06.417"
 stars: 3.9
 ratings: 17
 reviews: 10
-size: 45M
+size: 43M
 website: https://www.starteos.io/en
 repository: https://github.com/StarteosIO
 issue: 
 icon: com.hconline.iso.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Starteos
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: Starteos
 redirect_from:
 
 ---
-
 
 ## App Description
 

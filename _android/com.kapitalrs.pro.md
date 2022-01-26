@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.kapitalrs.pro.png
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-12-11
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: b9fc136cf1e643675475004241479f776599d7c5
   verdict: nobtc
-
 providerTwitter: Kapital_RS
 providerLinkedIn: 
 providerFacebook: kapitalRS
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Google Play description does not have any reference to "bitcoin", "cryptocurrency", "btc" or "wallets". At the interim, this app seems to handle other traditional financial instruments such as forex, index, stocks, commodities, ETFs and CFDs.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: libertyx
 providerLinkedIn: libertyx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

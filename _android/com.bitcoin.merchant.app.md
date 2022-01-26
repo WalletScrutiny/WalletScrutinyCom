@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoin.merchant.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2019-12-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoincom
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitcoin.merchant.app/
   - /posts/com.bitcoin.merchant.app/
 ---
-
 
 This is a watch-only wallet according to their description:
 

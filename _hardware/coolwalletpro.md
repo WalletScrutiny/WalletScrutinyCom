@@ -20,6 +20,7 @@ repository:
 issue:
 icon: coolwalletpro.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-08-28
 signer:

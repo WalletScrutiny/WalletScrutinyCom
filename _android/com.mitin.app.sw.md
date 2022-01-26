@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mitin.app.sw.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

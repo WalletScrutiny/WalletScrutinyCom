@@ -10,19 +10,19 @@ idd: 1581515981
 released: 2021-09-07
 updated: 2021-12-15
 version: "2.0"
-stars: 2.61078
-reviews: 3746
+stars: 2.59025
+reviews: 3839
 size: 51647488
 website: https://chivowallet.com
 repository: 
 issue: 
 icon: com.chivo.wallet.jpg
 bugbounty: 
-verdict: custodial
+meta: ok
+verdict: obfuscated
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: chivowallet
 providerLinkedIn: 

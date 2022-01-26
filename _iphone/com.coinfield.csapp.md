@@ -10,19 +10,19 @@ idd: 1460170928
 released: 2019-05-21
 updated: 2021-07-27
 version: "2.6.0"
-stars: 4.43952
-reviews: 496
+stars: 4.43227
+reviews: 502
 size: 68434944
 website: https://www.coinfield.com
 repository: 
 issue: 
 icon: com.coinfield.csapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinFieldEx
 providerLinkedIn: coinfield

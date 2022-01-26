@@ -20,6 +20,7 @@ repository: https://github.com/ellipal
 issue:
 icon: ellipaltitan.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-12-03
 signer:

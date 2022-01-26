@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.coinjar.riemann
 released: 
-updated: 2021-12-16
-version: "2.16.0"
+updated: 2022-01-14
+version: "2.17.0"
 stars: 3.7
 ratings: 1156
 reviews: 837
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinjar.riemann.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: getcoinjar
 providerLinkedIn: coinjar
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Google Play description:
 

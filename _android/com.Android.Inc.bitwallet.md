@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.Android.Inc.bitwallet
 released: 2019-07-22
-updated: 2021-11-29
-version: "1.4.19"
+updated: 2022-01-06
+version: "1.4.21"
 stars: 4.5
 ratings: 970
 reviews: 806
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.Android.Inc.bitwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitwalletinc
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.Android.Inc.bitwallet/
   - /posts/com.Android.Inc.bitwallet/
 ---
-
 
 This appears to be primarily an exchange and as there are no claims of you being
 in sole control of your funds, we have to assume it is a custodial service and

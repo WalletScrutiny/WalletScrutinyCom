@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.skyewallet.skye_wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: skyewallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Skye Wallet is the simplest and most secure way to Buy, Sell, Swap, Send and Receive Bitcoin and Cryptocurrency in Nigeria.<br>

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: btc.profits.calculator.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-25**: This app is not on Play Store anymore.
 

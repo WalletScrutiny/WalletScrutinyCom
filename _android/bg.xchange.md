@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: bg.xchange
 released: 2020-12-22
-updated: 2021-10-15
-version: "1.8.6"
+updated: 2022-01-19
+version: "1.8.8"
 stars: 4.9
 ratings: 207
 reviews: 64
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: bg.xchange.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: xchangebg
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

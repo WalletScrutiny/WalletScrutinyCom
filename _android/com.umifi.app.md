@@ -4,11 +4,11 @@ title: "UmiFi-Bitcoin, Crypto Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.umifi.app
 released: 2021-08-18
-updated: 2021-10-14
-version: "1.0.5"
+updated: 2021-12-23
+version: "1.0.6"
 stars: 4.8
 ratings: 56
 reviews: 33
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.umifi.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: officialumifi
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

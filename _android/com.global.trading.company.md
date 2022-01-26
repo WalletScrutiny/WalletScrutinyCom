@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.global.trading.company.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **WARNING** ⚠️ 
 1. Many negative reviews have been made regarding this app. 

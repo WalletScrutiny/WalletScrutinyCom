@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.conio.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: conio
 providerLinkedIn: conio
@@ -33,7 +33,6 @@ redirect_from:
   - /com.conio.wallet/
   - /posts/com.conio.wallet/
 ---
-
 
 This app has wonderful security claims on Google Play:
 

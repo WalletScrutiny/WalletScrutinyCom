@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: crypto.base.baseexchange
 released: 2019-06-05
-updated: 2021-09-20
-version: "4.1"
+updated: 2022-01-24
+version: "4.4"
 stars: 4.2
 ratings: 134
 reviews: 66
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: crypto.base.baseexchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: techpay_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

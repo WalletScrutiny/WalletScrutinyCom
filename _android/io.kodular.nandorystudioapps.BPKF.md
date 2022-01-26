@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.kodular.nandorystudioapps.BPKF.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **WARNING:** This app may be unsafe or untrustworthy!
 

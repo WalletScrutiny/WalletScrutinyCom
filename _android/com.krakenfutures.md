@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.krakenfutures.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,7 +34,6 @@ redirect_from:
   - /com.krakenfutures/
   - /posts/com.krakenfutures/
 ---
-
 
 This is the interface for an exchange and nothing in the description hints at
 non-custodial parts to it.

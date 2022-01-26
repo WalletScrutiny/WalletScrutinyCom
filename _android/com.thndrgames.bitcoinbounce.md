@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.thndrgames.bitcoinbounce
 released: 2020-03-20
-updated: 2021-09-20
-version: "1.1.29"
+updated: 2022-01-13
+version: "1.2.1"
 stars: 3.4
 ratings: 1809
 reviews: 715
-size: 59M
+size: 58M
 website: https://thndr.games/
 repository: 
 issue: 
 icon: com.thndrgames.bitcoinbounce.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: thndrgames
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bitcoin Bounce is a lightning network powered game.
 

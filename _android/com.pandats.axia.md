@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.pandats.axia
 released: 2020-11-16
-updated: 2021-09-05
-version: "1.0.43"
+updated: 2021-12-07
+version: "1.0.44"
 stars: 2.8
 ratings: 662
 reviews: 560
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pandats.axia.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -8,21 +8,21 @@ appId: com.zbx.www
 appCountry: us
 idd: 1458088759
 released: 2019-05-26
-updated: 2021-09-29
-version: "2.1.9"
+updated: 2022-01-15
+version: "2.2.2"
 stars: 5
 reviews: 3
-size: 73057280
+size: 45587456
 website: https://www.zbx.one/
 repository: 
 issue: 
 icon: com.zbx.www.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: zbx_com
 providerLinkedIn: zbx

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-06-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

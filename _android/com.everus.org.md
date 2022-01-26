@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.everus.org.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: everusworld
 providerLinkedIn: everusworld
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

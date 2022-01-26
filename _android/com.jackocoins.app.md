@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.jackocoins.app.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: jackocoins
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -4,25 +4,25 @@ title: "Admirals"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.admiralmarkets.android
 released: 2020-10-07
-updated: 2021-10-28
-version: "1.4.5"
+updated: 2022-01-13
+version: "1.5.1"
 stars: 3.8
 ratings: 292
 reviews: 160
-size: 14M
+size: 15M
 website: https://admiralmarkets.com/
 repository: 
 issue: 
 icon: com.admiralmarkets.android.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: AdmiralsGlobal
 providerLinkedIn: -admiral-markets-group
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Description
 

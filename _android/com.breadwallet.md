@@ -1,23 +1,24 @@
 ---
 wsId: BRDBitcoin
-title: "BRD Bitcoin Wallet. Bitcoin Cash BCH, Bitcoin BTC"
+title: "BRD Bitcoin Wallet Bitcoin BTC"
 altTitle: 
 authors:
 - leo
 users: 5000000
 appId: com.breadwallet
 released: 2016-07-21
-updated: 2021-11-24
-version: "4.14.0"
+updated: 2022-01-14
+version: "4.15.0"
 stars: 4.2
 ratings: 33242
 reviews: 13028
-size: 31M
+size: 32M
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1
 icon: com.breadwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-06-29
 signer: 
@@ -32,7 +33,6 @@ reviewArchive:
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
-
 providerTwitter: BRDHQ
 providerLinkedIn: brdhq
 providerFacebook: brdhq
@@ -41,7 +41,6 @@ providerReddit: brdapp
 redirect_from:
 
 ---
-
 
 **Update 2021-06-29**: The provider
 [informed us](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869938323)

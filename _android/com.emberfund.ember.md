@@ -4,25 +4,25 @@ title: "Ember Fund Invest in Crypto"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.emberfund.ember
 released: 2019-01-24
-updated: 2021-12-13
-version: "10.2"
+updated: 2022-01-18
+version: "10.6"
 stars: 4.1
 ratings: 482
 reviews: 273
-size: 49M
+size: 52M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund
 issue: 
 icon: com.emberfund.ember.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Ember_Fund
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

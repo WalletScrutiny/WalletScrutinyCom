@@ -13,16 +13,16 @@ version: "1.0"
 stars: 
 reviews: 
 size: 56907776
-website: 
+website: https://payizadlt.com/
 repository: 
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: payizamoney
 providerLinkedIn: 

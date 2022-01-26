@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: io.ducatus.walnew
 released: 2019-12-05
-updated: 2021-12-10
-version: "2.7.7"
+updated: 2022-01-21
+version: "2.7.11"
 stars: 4.7
 ratings: 329
 reviews: 224
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.ducatus.walnew.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app supports Bitcoin:
 

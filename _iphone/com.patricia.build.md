@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.patricia.build.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-09-03
-  version: "1.3.1"
-  appHash: 
-  gitRevision: 4885e4bdcce2af277a6f0d609d2428430e0f61e6
-  verdict: custodial
-  
 
 providerTwitter: PatriciaSwitch
 providerLinkedIn: 
@@ -37,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 **Update 2021-09-29**: This app is not available anymore in the Apple store.
 
 

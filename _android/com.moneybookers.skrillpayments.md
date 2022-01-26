@@ -7,22 +7,22 @@ authors:
 users: 5000000
 appId: com.moneybookers.skrillpayments
 released: 2013-10-29
-updated: 2021-11-26
-version: "3.73.0-2021111114"
+updated: 2022-01-20
+version: "3.76.0-2022011213"
 stars: 3.8
 ratings: 129642
 reviews: 65977
-size: 54M
+size: 59M
 website: https://www.skrill.com/
 repository: 
 issue: 
 icon: com.moneybookers.skrillpayments.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: PlugIntoPaysafe
 providerLinkedIn: Paysafe Group
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 >The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.
 

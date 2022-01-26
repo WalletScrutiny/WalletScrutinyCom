@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.toyga.trade360.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trade360_LTD
 providerLinkedIn: trade360ltd

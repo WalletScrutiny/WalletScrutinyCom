@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 released: 2015-05-16
-updated: 2021-12-17
+updated: 2022-01-10
 version: "Varies with device"
 stars: 3.9
 ratings: 25955
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kyriakosalexandrou.coinmarketcap.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: mydopamineapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

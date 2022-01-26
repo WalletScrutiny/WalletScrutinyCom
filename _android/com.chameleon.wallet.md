@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Chameleon Pay"
 altTitle: 
+authors:
 
 users: 1000
 appId: com.chameleon.wallet
@@ -16,11 +18,11 @@ repository:
 issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2020-12-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: chainzillaio
 providerLinkedIn: 
@@ -31,7 +33,6 @@ redirect_from:
   - /com.chameleon.wallet/
   - /posts/com.chameleon.wallet/
 ---
-
 
 **Update:** The app is not available on Google Play anymore.
 

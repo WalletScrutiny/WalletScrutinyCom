@@ -8,21 +8,21 @@ appId: com.tokenize.exchange.trading
 appCountry: us
 idd: 1495765876
 released: 2020-02-02
-updated: 2021-11-22
-version: "1.2.17"
+updated: 2022-01-09
+version: "1.2.18"
 stars: 
 reviews: 
-size: 72774656
+size: 72811520
 website: https://tokenize.exchange
 repository: 
 issue: 
 icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: TokenizeXchange
 providerLinkedIn: 

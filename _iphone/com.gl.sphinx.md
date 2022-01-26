@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gl.sphinx.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

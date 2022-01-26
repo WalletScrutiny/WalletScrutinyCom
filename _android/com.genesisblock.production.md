@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.genesisblock.production
 released: 2020-05-06
-updated: 2021-12-17
-version: "0.1.70"
+updated: 2022-01-26
+version: "0.1.71"
 stars: 3.6
 ratings: 51
 reviews: 31
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.genesisblock.production.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: genesisblockhq
 providerLinkedIn: genesisblockhq
@@ -32,7 +32,6 @@ providerReddit: genesisblockhq
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.perfectcrypto.perfect_crypto
 released: 2020-11-09
-updated: 2021-05-16
-version: "1.0.18"
+updated: 2022-01-25
+version: "1.1.6"
 stars: 4.4
 ratings: 632
 reviews: 372
-size: 29M
+size: 30M
 website: https://perfectcrypto.net/
 repository: 
 issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: irPerfectCrypto
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This appears to be a centralized cryptocurrency exchange whose primary language is Persian. 
 

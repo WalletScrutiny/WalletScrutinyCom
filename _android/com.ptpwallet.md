@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.ptpwallet
 released: 2018-12-04
-updated: 2021-11-23
-version: "1.0.1242"
+updated: 2021-12-29
+version: "1.0.1244"
 stars: 3.9
 ratings: 342
 reviews: 248
@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.ptpwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
   verdict: custodial
-
 providerTwitter: PtpWallet
 providerLinkedIn: 
 providerFacebook: PTPWalletPage
@@ -36,7 +36,6 @@ providerReddit: perkscoin
 redirect_from:
   - /com.ptpwallet/
 ---
-
 
 **Update 2021-05-25**: We had this app listed as custodial previously but now
 think they try to imply to be non-custodial. Absent source code, none of that is

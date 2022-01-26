@@ -10,19 +10,19 @@ idd: 1566777501
 released: 2021-05-25
 updated: 2021-09-05
 version: "1.7.6"
-stars: 3.86364
-reviews: 22
+stars: 3.85185
+reviews: 27
 size: 60886016
 website: https://flitbase.com
 repository: 
 issue: 
 icon: com.flitaa.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: getflitaa
 providerLinkedIn: 

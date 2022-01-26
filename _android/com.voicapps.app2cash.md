@@ -18,16 +18,12 @@ repository:
 issue: 
 icon: com.voicapps.app2cash.png
 bugbounty: 
-verdict: defunct
-date: 2021-11-26
+meta: stale
+verdict: custodial
+date: 2022-01-09
 signer: 
 reviewArchive:
-- date: 2021-11-08
-  version: "1.02.4"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: custodial
-  
+
 providerTwitter: 2cashnetwork
 providerLinkedIn: 2cash
 providerFacebook: 2cashnetwork
@@ -36,6 +32,9 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-09**: This app is back on Play Store but with very negative
+reviews. Be careful if you consider this app!
 
 **Update 2021-11-15**: This app is not on Play Store anymore.
 

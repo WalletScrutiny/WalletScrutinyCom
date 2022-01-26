@@ -11,19 +11,19 @@ idd: 1443109132
 released: 2020-03-05
 updated: 2021-11-19
 version: "1.1.42"
-stars: 4.68736
-reviews: 435
+stars: 4.67197
+reviews: 439
 size: 91350016
 website: http://www.coinzoom.com
 repository: 
 issue: 
 icon: com.ios.coinzoom.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: GetCoinZoom
 providerLinkedIn: coinzoomhq

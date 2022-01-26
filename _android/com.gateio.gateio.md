@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.gateio.gateio
 released: 2017-11-03
-updated: 2021-12-09
+updated: 2022-01-04
 version: "3.0.5"
 stars: 3.1
 ratings: 9252
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gateio.gateio.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: gate_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: GateioExchange
 redirect_from:
 
 ---
-
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)
 

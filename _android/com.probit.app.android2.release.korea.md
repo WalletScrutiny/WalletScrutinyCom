@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.probit.app.android2.release.korea.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProBit_Exchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app appears to be a Korean crypto exchange:
 

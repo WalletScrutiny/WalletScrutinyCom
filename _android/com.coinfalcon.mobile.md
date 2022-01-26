@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinfalcon.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinfalcon
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: CoinFalcon
 redirect_from:
 
 ---
-
 
 In the description we read:
 

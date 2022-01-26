@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-07**: This app is not on Play Store anymore.

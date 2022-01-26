@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: sg.express.mobile
 released: 2020-07-10
-updated: 2021-11-11
-version: "1.21.0"
+updated: 2021-12-28
+version: "1.22.0"
 stars: 4.2
 ratings: 2947
 reviews: 1231
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: sg.express.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

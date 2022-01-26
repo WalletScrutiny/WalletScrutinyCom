@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: br.com.brasilbitcoin
 released: 2021-02-17
-updated: 2021-10-27
-version: "2.5.15"
+updated: 2022-01-23
+version: "2.5.28"
 stars: 3
 ratings: 2155
 reviews: 1482
-size: 43M
+size: 151M
 website: https://brasilbitcoin.com.br
 repository: 
 issue: 
 icon: br.com.brasilbitcoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: brbtcoficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 
 

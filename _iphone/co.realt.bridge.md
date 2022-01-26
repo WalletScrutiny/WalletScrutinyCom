@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
+meta: defunct
 verdict: nobtc
-date: 2021-11-22
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: RealTPlatform
 providerLinkedIn: realtplatform
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 {% include copyFromAndroid.html %}

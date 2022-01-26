@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.aqn.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** This app is similarly named with Blockstream's Aqua wallet. Their logos are different however.
 

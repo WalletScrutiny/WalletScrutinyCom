@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.decomlab.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: gomoonwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Notes** It should be noted that this wallet has a similarity in name to:<br> 
 {% include walletLink.html wallet='android/io.muun.apollo' verdict='true' %}

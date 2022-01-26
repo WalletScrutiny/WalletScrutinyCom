@@ -8,8 +8,8 @@ authors:
 users: 50000
 appId: com.koinal.android
 released: 2020-06-04
-updated: 2021-11-22
-version: "1.2.15"
+updated: 2022-01-19
+version: "1.2.16"
 stars: 4.7
 ratings: 481
 reviews: 243
@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: koinal_io
 providerLinkedIn: koinal-io
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.koinal.android/
 ---
-
 
 > We take our system’s security and user safety extremely seriously. All Koinal systems use 256BIT RAPID SSL and Google two factor authentication. We can proudly state that our systems are extremely secure and we have a laser focus on protecting your data and investments!
 

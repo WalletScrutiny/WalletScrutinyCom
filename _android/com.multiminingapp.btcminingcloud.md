@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nowallet
 date: 2021-10-30
 signer: 
 reviewArchive:
-- date: 2021-09-23
-  version: "2.1"
-  appHash: 
-  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
-  verdict: nowallet
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -38,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-19**: This app is no more.
 

@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: "تترلند | خرید تتر و فروش تتر | Tether Land"
+title: "تترلند | خرید تتر و فروش تتر"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: land.tether.tetherland
 released: 2019-12-09
-updated: 2021-12-11
-version: "4.6"
+updated: 2022-01-10
+version: "5.2"
 stars: 4.5
 ratings: 1109
 reviews: 394
-size: 29M
+size: 30M
 website: https://tetherland.net
 repository: 
 issue: 
 icon: land.tether.tetherland.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: tetherland
 providerLinkedIn: tetherland
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We downloaded the app, but have difficulty with the registration because it's in Persian.
 

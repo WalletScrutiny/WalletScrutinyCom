@@ -1,28 +1,28 @@
 ---
-wsId: 
-title: "Wirex Multicurrency Wallet"
+wsId: wirex
+title: "Wirex: Buy, Spend & Sell BTC"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.wirex
 released: 2016-03-31
-updated: 2021-11-11
-version: "3.24.10"
+updated: 2022-01-10
+version: "3.28.1"
 stars: 3.6
 ratings: 23080
 reviews: 12562
-size: 182M
+size: 183M
 website: https://wirexapp.com/en
 repository: 
 issue: 
 icon: com.wirex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: wirexapp
 providerLinkedIn: wirex-limited
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their app description:
 

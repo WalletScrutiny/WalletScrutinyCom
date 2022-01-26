@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: moonlet
 title: "Moonlet"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.moonlet
 released: 2020-04-21
@@ -13,18 +13,18 @@ stars: 3.4
 ratings: 608
 reviews: 359
 size: 38M
-website: 
-repository: 
+website: https://moonlet.io/
+repository: https://github.com/Moonlet
 issue: 
 icon: com.moonlet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-12-14
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: moonlet_wallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.moonlet/
 ---
-
 
 This app appears to only support ETH tokens. Neither the description, nor the
 website claim otherwise.

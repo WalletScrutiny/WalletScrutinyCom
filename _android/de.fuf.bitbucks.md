@@ -9,7 +9,7 @@ appId: de.fuf.bitbucks
 released: 2019-09-03
 updated: 2021-03-18
 version: "1.4.1"
-stars: 4.0
+stars: 4
 ratings: 46
 reviews: 18
 size: 16M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bit_bucks
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/
 ---
-
 
 According to their website:
 

@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.amarkets
 released: 2019-05-31
-updated: 2021-12-17
+updated: 2022-01-13
 version: "Varies with device"
 stars: 4.7
 ratings: 969
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.amarkets.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: amarkets
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

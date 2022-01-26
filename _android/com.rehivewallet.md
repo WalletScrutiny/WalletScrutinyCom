@@ -9,7 +9,7 @@ appId: com.rehivewallet
 released: 2018-10-01
 updated: 2021-07-29
 version: "2.4.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 52M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.rehivewallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.livingroomofsatoshi.wallet
 released: 2019-05-19
-updated: 2021-11-16
-version: "1.13.15"
+updated: 2022-01-10
+version: "1.14.1"
 stars: 3.7
 ratings: 646
 reviews: 350
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: walletofsatoshi
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/12/walletofsatoshi/
   - /posts/com.livingroomofsatoshi.wallet/
 ---
-
 
 This is a custodial wallet according to their website's FAQ:
 

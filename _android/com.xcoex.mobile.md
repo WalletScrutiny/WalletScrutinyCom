@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.xcoex.mobile
 released: 2019-01-17
-updated: 2021-11-10
-version: "1.21.0"
+updated: 2021-12-23
+version: "1.22.0"
 stars: 3.6
 ratings: 158
 reviews: 127
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xcoex.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: OfficialXcoex
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.
 The exchange provider typically stores users bitcoins, partly in cold storage, partly hot.

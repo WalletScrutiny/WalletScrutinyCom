@@ -8,21 +8,21 @@ appId: com.astontek.stockmaster
 appCountry: us
 idd: 591644846
 released: 2013-03-07
-updated: 2021-12-02
-version: "6.20"
-stars: 4.65467
-reviews: 62150
-size: 105451520
+updated: 2022-01-05
+version: "6.22"
+stars: 4.65507
+reviews: 62557
+size: 105623552
 website: https://www.astontek.com
 repository: 
 issue: 
 icon: com.astontek.stockmaster.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

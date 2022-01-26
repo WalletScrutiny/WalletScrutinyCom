@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: spectrocoin
 providerLinkedIn: spectrocoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This part of the wallet's descriptions certainly sounds like a custodial app:
 

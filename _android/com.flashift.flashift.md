@@ -9,7 +9,7 @@ appId: com.flashift.flashift
 released: 2021-01-17
 updated: 2021-01-17
 version: "1.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 23M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.flashift.flashift.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-01-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

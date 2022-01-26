@@ -8,21 +8,21 @@ appId: app.zupago.zp
 appCountry: us
 idd: 1565673730
 released: 2021-05-10
-updated: 2021-11-28
-version: "1.0.45"
-stars: 4.61904
-reviews: 42
-size: 93926400
+updated: 2022-01-20
+version: "1.0.47"
+stars: 4.62222
+reviews: 45
+size: 97721344
 website: https://zupago.app
 repository: 
 issue: 
 icon: app.zupago.zp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-12-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

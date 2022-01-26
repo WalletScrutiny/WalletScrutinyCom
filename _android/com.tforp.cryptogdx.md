@@ -18,13 +18,13 @@ repository:
 issue: 
 icon: com.tforp.cryptogdx.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: Trading4Pro
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

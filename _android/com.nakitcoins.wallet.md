@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.nakitcoins.wallet
 released: 2021-03-30
-updated: 2021-12-20
-version: "2.1.0"
+updated: 2022-01-10
+version: "2.1.2"
 stars: 4.7
 ratings: 15
 reviews: 7
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nakitcoins.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: nakitcoins
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

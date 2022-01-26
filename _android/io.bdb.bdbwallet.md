@@ -9,7 +9,7 @@ appId: io.bdb.bdbwallet
 released: 2020-11-05
 updated: 2021-02-17
 version: "1.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.1M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.bdb.bdbwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

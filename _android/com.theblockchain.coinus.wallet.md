@@ -1,28 +1,28 @@
 ---
 wsId: coinus
-title: "CoinUs - Crypto wallet. Bitcoin,Ethereum,Filecoin"
+title: "CoinUs 3.0 : BTC, ETH, ERC20"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.theblockchain.coinus.wallet
 released: 2018-04-23
-updated: 2021-08-31
-version: "2.8.5"
+updated: 2021-12-10
+version: "3.0.0"
 stars: 4.1
 ratings: 369
 reviews: 229
-size: 51M
+size: 39M
 website: https://www.coinus.io/
 repository: 
 issue: 
 icon: com.theblockchain.coinus.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinUs_Official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Coinus Support page:
 

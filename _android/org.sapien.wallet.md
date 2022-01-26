@@ -7,22 +7,22 @@ authors:
 users: 5000
 appId: org.sapien.wallet
 released: 2021-06-24
-updated: 2021-10-28
-version: "1.42.0"
+updated: 2022-01-04
+version: "1.49.0"
 stars: 4.5
 ratings: 16
 reviews: 8
-size: 163M
+size: 168M
 website: https://sapienwallet.com/
 repository: 
 issue: 
 icon: org.sapien.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

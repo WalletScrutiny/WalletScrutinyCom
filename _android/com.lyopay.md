@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.lyopay
 released: 2020-10-02
-updated: 2021-11-16
-version: "7.1.2"
+updated: 2021-12-03
+version: "7.1.3"
 stars: 4.6
 ratings: 429
 reviews: 239
-size: 59M
+size: 61M
 website: https://lyopay.com/
 repository: 
 issue: 
 icon: com.lyopay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: lyopayofficial
 providerLinkedIn: lyopay
@@ -32,7 +32,6 @@ providerReddit: LYOPAY
 redirect_from:
 
 ---
-
 
 ### Google Play Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.studentcoin.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: studentcoinorg
 providerLinkedIn: student-coin-worldwide
@@ -32,7 +32,6 @@ providerReddit: Studentcoin
 redirect_from:
 
 ---
-
 
 Its [homepage](https://studentcoin.org) description reads:
 

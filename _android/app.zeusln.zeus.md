@@ -18,11 +18,11 @@ repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
 icon: app.zeusln.zeus.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: ZeusLN
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /app.zeusln.zeus/
   - /posts/app.zeusln.zeus/
 ---
-
 
 This app is a bit special as it does not hold your private keys but neither is
 it custodial. It remote-controls your lightning node that you can run for

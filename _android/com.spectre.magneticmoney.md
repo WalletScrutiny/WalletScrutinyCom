@@ -4,7 +4,7 @@ title: "Magnetic Money - exchange search"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.spectre.magneticmoney
 released: 2018-09-10
 updated: 2021-02-07
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.spectre.magneticmoney.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

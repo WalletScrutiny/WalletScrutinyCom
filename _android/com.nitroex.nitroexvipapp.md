@@ -7,26 +7,22 @@ authors:
 users: 5000
 appId: com.nitroex.nitroexvipapp
 released: 2020-11-17
-updated: 2020-12-10
-version: "8.0.0"
+updated: 2022-01-13
+version: "8.0.1"
 stars: 4.4
 ratings: 129
 reviews: 94
-size: 18M
+size: 17M
 website: https://www.nitroex.io/commons/home
 repository: 
 issue: 
 icon: com.nitroex.nitroexvipapp.png
 bugbounty: 
-verdict: stale
-date: 2021-12-12
+meta: ok
+verdict: nowallet
+date: 2022-01-14
 signer: 
 reviewArchive:
-- date: 2021-11-03
-  version: "8.0.0"
-  appHash: 
-  gitRevision: d458be07d9758370aa2602191c4d5d52dd67f424
-  verdict: nowallet
 
 providerTwitter: NitroExOfficial
 providerLinkedIn: nitroex
@@ -36,7 +32,6 @@ providerReddit: nitroexchange
 redirect_from:
 
 ---
-
 
 ⚠️ **Caution:** Some users have described this app as a scam.
 

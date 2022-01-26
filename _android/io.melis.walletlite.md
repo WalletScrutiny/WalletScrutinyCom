@@ -9,7 +9,7 @@ appId: io.melis.walletlite
 released: 2019-06-03
 updated: 2019-06-03
 version: "0.4.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 16M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.melis.walletlite.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /io.melis.walletlite/
   - /posts/io.melis.walletlite/
 ---
-
 
 This page was created by a script from the **appId** "io.melis.walletlite" and public
 information found

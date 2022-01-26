@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-03-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

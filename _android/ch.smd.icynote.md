@@ -9,7 +9,7 @@ appId: ch.smd.icynote
 released: 2021-07-11
 updated: 2021-07-11
 version: "0.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 61M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ch.smd.icynote.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

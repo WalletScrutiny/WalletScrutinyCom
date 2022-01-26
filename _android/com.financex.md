@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.financex.png
 bugbounty: 
-verdict: stale
-date: 2021-10-18
+meta: obsolete
+verdict: wip
+date: 2022-01-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

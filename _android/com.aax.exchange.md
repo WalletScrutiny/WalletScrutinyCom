@@ -4,25 +4,25 @@ title: "AAX-Trade Digital Assets, Bitcoin, ETH, Defi"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.aax.exchange
 released: 2019-03-04
-updated: 2021-11-16
-version: "3.1.16"
-stars: 4.0
+updated: 2022-01-12
+version: "3.2.1"
+stars: 4
 ratings: 2649
 reviews: 968
-size: 58M
+size: 61M
 website: https://www.aax.com
 repository: 
 issue: 
 icon: com.aax.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: AAXExchange
 providerLinkedIn: aax-atom-asset-exchange
@@ -32,7 +32,6 @@ providerReddit: AAXExchange
 redirect_from:
 
 ---
-
 
 AAX Exchange has the following products:
 - Futures

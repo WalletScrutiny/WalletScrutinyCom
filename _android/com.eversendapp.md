@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.eversendapp
 released: 2019-02-01
-updated: 2021-11-30
-version: "0.2.24"
+updated: 2022-01-15
+version: "0.2.39"
 stars: 3.8
 ratings: 4022
 reviews: 1762
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.eversendapp.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: eversendapp
 providerLinkedIn: eversend
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Updated Review 2021-10-28**
 

@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.leadwallet.io.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-10-30
 signer: 
 reviewArchive:
-- date: 2021-01-23
-  version: "Varies with device"
-  appHash: 
-  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
-  verdict: nosource
-
 
 providerTwitter: Leadwallet
 providerLinkedIn: leadwallet
@@ -37,7 +32,6 @@ providerReddit: LeadWallet
 redirect_from:
   - /com.leadwallet.io/
 ---
-
 
 **Update 2021-10-23**: This app is no more.
 

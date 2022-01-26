@@ -9,7 +9,7 @@ appId: bitcoin.ethereum.ripple.cryptocurrency.crypter
 released: 2018-07-07
 updated: 2019-09-14
 version: "1.0.2"
-stars: 4.0
+stars: 4
 ratings: 456
 reviews: 215
 size: 6.0M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

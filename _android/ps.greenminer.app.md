@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ps.greenminer.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution** As with most apps that bear the words "Free Bitcoin", we strongly advise users to take precautionary measures. 
 

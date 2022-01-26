@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: rWallet
 title: "RWallet"
 altTitle: 
 authors:
@@ -20,21 +20,20 @@ repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-12-02
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: rsksmart
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: RSKsmart
+providerReddit: rootstock
 
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.level01.android.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: level01io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

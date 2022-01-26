@@ -8,22 +8,22 @@ authors:
 users: 10000
 appId: io.talken.wallet
 released: 2019-07-31
-updated: 2021-10-15
-version: "1.0.34"
+updated: 2022-01-20
+version: "1.0.46"
 stars: 4.7
 ratings: 5860
 reviews: 4647
-size: 11M
+size: 41M
 website: https://talken.io/
 repository: 
 issue: 
 icon: io.talken.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: Talken_
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **UPDATE 2021-09-01**: This "wallet" is meant for NFTs and not Bitcoin.
 

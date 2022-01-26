@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: hebeWallet
 title: "Hebe Wallet"
 altTitle: 
 authors:
@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.hebeblock.hebewallet
 released: 2019-03-04
-updated: 2021-11-21
-version: "1.4.2"
+updated: 2022-01-22
+version: "1.4.72"
 stars: 2.9
 ratings: 30
 reviews: 18
-size: 24M
+size: 26M
 website: https://hebe.cc/
 repository: 
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlockHebe
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /posts/com.hebeblock.hebewallet/
 ---
-
 
 In the description the provider claims:
 

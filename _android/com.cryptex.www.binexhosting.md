@@ -9,7 +9,7 @@ appId: com.cryptex.www.binexhosting
 released: 2018-11-21
 updated: 2018-11-21
 version: "1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryptex.www.binexhosting.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

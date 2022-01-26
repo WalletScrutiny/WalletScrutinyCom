@@ -1,13 +1,13 @@
 ---
 wsId: Robinhood
-title: "Robinhood: Investing for All"
+title: "Robinhood: Stocks & Crypto"
 altTitle: 
 authors:
 - danny
 users: 10000000
 appId: com.robinhood.android
 released: 
-updated: 2021-11-29
+updated: 2022-01-25
 version: "Varies with device"
 stars: 3.8
 ratings: 437771
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.robinhood.android.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: RobinhoodApp
 providerLinkedIn: robinhood
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 
 

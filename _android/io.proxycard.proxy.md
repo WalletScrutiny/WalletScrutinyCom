@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.proxycard.proxy.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-26**: This app is not available anymore.
 

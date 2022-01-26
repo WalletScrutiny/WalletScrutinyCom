@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitkub.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitkubofficial
 providerLinkedIn: bitkub
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform
 

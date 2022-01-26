@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.breez.client
 released: 
-updated: 2021-11-11
+updated: 2022-01-23
 version: "Varies with device"
 stars: 
 ratings: 
@@ -18,11 +18,11 @@ repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2019-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: breez_tech
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/12/breez/
   - /posts/com.breez.client/
 ---
-
 
 A description to our liking. Here it is in full:
 

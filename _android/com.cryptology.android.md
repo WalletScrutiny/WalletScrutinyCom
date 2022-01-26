@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.cryptology.android
 released: 2018-03-23
-updated: 2021-12-17
-version: "3.5.0"
+updated: 2022-01-14
+version: "3.7.0"
 stars: 4
 ratings: 197
 reviews: 114
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryptology.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cryptologyexch
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

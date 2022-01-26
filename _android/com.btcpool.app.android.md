@@ -1,28 +1,28 @@
 ---
 wsId: BTCcomPool
-title: "BTC.com Pool"
+title: "BTC.com - Leading Mining Pool"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.btcpool.app.android
 released: 2020-02-25
-updated: 2021-12-01
-version: "1.1.6"
+updated: 2021-12-27
+version: "2.0.1"
 stars: 4.1
 ratings: 175
 reviews: 65
-size: 28M
+size: 34M
 website: http://btc.com
 repository: 
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: btccom_official
 providerLinkedIn: btc.com
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

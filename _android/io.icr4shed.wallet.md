@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: "MultiWallet: MultiChain Crypto Wallet"
+title: "MultiWallet - Crypto Wallet"
 altTitle: 
 authors:
 - danny
 users: 1000
 appId: io.icr4shed.wallet
 released: 2021-09-10
-updated: 2021-10-19
-version: "3.4"
+updated: 2021-12-13
+version: "3.51"
 stars: 4.5
 ratings: 56
 reviews: 20
-size: 34M
+size: 35M
 website: 
 repository: 
 issue: 
 icon: io.icr4shed.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.currency.exchange.prod2
 released: 2019-04-15
-updated: 2021-11-16
-version: "1.18.2"
+updated: 2022-01-24
+version: "1.21.3"
 stars: 4.2
 ratings: 5522
 reviews: 2097
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.currency.exchange.prod2.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: currencycom
 providerLinkedIn: currencycom/
@@ -33,7 +33,6 @@ redirect_from:
   - /com.currency.exchange.prod2/
   - /posts/com.currency.exchange.prod2/
 ---
-
 
 This is an interface for a custodial trading platform and thus **not
 verifiable**.

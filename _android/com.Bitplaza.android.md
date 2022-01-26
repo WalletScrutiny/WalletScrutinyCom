@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.Bitplaza.android.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nowallet
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-03-10
-  version: "4.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is a market place with no integrated wallet.

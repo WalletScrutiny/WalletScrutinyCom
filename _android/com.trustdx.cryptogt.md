@@ -9,7 +9,7 @@ appId: com.trustdx.cryptogt
 released: 2021-07-02
 updated: 2021-08-13
 version: "3.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trustdx.cryptogt.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-17**: CryptoGT contacted us, asking to remove this app as there
 is no such app of theirs. We are very well aware that this app probably was not

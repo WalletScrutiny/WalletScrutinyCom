@@ -9,7 +9,7 @@ appId: com.gp.ubs
 released: 
 updated: 2021-06-20
 version: "1.1.2"
-stars: 2.0
+stars: 2
 ratings: 5
 reviews: 5
 size: 21M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gp.ubs.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-04
 signer: 
 reviewArchive:
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-26**: This app is no more.

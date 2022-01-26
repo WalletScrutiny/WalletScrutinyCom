@@ -18,6 +18,7 @@ repository:
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-14
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-
 providerTwitter: bitrefill
 providerLinkedIn: 
 providerFacebook: bitrefill
@@ -37,7 +37,6 @@ redirect_from:
   - /com.bitrefill.app/
   - /posts/com.bitrefill.app/
 ---
-
 
 **Update 2021-09-14**: This app was updated after a long time which had it fall
 into our stale category but it remains being a custodial product.

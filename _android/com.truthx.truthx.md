@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.truthx.truthx
 released: 2020-07-04
-updated: 2021-05-03
+updated: 2022-01-22
 version: "1.0.4"
 stars: 3.2
 ratings: 335
 reviews: 294
-size: 24M
+size: 26M
 website: https://gifttokenweb.herokuapp.com
 repository: 
 issue: 
 icon: com.truthx.truthx.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

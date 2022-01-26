@@ -19,7 +19,8 @@ repository: https://github.com/digitalbitbox
 issue:
 icon: bitbox01.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: noita
 date: 2021-08-17
 signer:
 reviewArchive:

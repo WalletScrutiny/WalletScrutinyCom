@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.mobox.wallet
 released: 2021-02-02
-updated: 2021-10-27
-version: "1.3.2"
-stars: 4.4
-ratings: 1791
+updated: 2022-01-11
+version: "1.3.6"
+stars: 4.5
+ratings: 2249
 reviews: 4
 size: 28M
 website: https://mobox.io/
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: MOBOX_Official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the Google Play description we learn that this app is a "DeFi infrastructure:"

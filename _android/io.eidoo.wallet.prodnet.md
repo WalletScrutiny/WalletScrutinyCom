@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: eidoo_io
 providerLinkedIn: eidoo
@@ -33,7 +33,6 @@ redirect_from:
   - /io.eidoo.wallet.prodnet/
   - /posts/io.eidoo.wallet.prodnet/
 ---
-
 
 The app's description:
 

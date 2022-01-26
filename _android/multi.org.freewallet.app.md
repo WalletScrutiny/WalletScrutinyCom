@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: multi.org.freewallet.app.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-- date: 2021-04-30
-  version: "1.0.69"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: freewalletorg
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit: Freewallet_org
 redirect_from:
 
 ---
-
 
 The [Free wallet website](https://freewallet.org/) clearly states to the user how the wallet private keys are managed.
 

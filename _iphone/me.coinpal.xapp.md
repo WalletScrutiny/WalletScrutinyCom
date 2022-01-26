@@ -10,23 +10,19 @@ idd: 1351428916
 released: 2018-06-26
 updated: 2018-06-26
 version: "1.0"
-stars: 4.125
-reviews: 8
+stars: 4
+reviews: 11
 size: 77613056
 website: https://coinpal.me
 repository: 
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: obsolete
+verdict: nosource
+date: 2021-12-30
 signer: 
 reviewArchive:
-- date: 2021-06-04
-  version: "1.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: coinpalapp
 providerLinkedIn: coinpal

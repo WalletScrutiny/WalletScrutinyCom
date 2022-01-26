@@ -18,11 +18,11 @@ repository: https://github.com/atomex-me/atomex.mobile
 issue: 
 icon: com.atomex.ios.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: atomex_official
 providerLinkedIn: 

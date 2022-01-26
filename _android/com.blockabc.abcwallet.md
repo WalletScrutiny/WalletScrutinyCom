@@ -9,7 +9,7 @@ appId: com.blockabc.abcwallet
 released: 
 updated: 2020-06-17
 version: "1.7.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.blockabc.abcwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: obfuscated
 date: 2021-04-13
 signer: 
 reviewArchive:
-- date: 2021-04-12
-  version: "1.7.2"
-  appHash: 08ecb2acb45c0176bbbb7efca25a31a9980dd025cadb390e5c59f599b372d9f7
-  gitRevision: dc6fa2c62d78d003f08965c9a60785ec980ed59c
-  verdict: obfuscated
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume
 it was a scam as can be seen in our original review below:

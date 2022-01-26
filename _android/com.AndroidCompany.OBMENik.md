@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.AndroidCompany.OBMENik.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note** 
 - This app does not have a homepage domain. 

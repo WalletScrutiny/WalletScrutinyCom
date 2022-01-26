@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.koinwatech.koinwa
 released: 2021-08-08
-updated: 2021-10-20
-version: "2.0.5"
+updated: 2021-12-04
+version: "2.0.7"
 stars: 4.6
 ratings: 91
 reviews: 68
-size: 52M
+size: 64M
 website: https://www.koinwa.com/
 repository: 
 issue: 
 icon: com.koinwatech.koinwa.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: unifyre
 title: "Unifyre: One Wallet, Endless  Possibilities"
 altTitle: 
 authors:
-
+- danny
 users: 10000
 appId: com.ferrum.unifyre
 released: 2020-05-29
@@ -13,18 +13,18 @@ stars: 4.4
 ratings: 103
 reviews: 65
 size: 51M
-website: 
+website: https://unifyre.io
 repository: 
 issue: 
 icon: com.ferrum.unifyre.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nobtc
 date: 2021-09-16
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: UnifyreWallet
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,4 +33,8 @@ redirect_from:
 
 ---
 
+Once the user's account has been setup, the user can then proceed with verification.
 
+There are 2 default currencies/tokens: FRM (Ferrum Network Token) and ETH. Bitcoin is also available as WBTC (Wrapped Bitcoin) which is an Ethereum Token. 
+
+This app **does not have a BTC wallet**.

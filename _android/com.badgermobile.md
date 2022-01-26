@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.badgermobile.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2019-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: badgerwallet
 providerLinkedIn: 
@@ -33,5 +33,4 @@ redirect_from:
   - /com.badgermobile/
   - /posts/com.badgermobile/
 ---
-
 

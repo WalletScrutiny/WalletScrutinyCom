@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.bitpie
 released: 2016-10-23
-updated: 2021-12-13
-version: "5.0.055"
+updated: 2021-12-27
+version: "5.0.056"
 stars: 3.3
 ratings: 808
 reviews: 427
-size: 62M
+size: 57M
 website: http://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitpieWallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitpie/
   - /posts/com.bitpie/
 ---
-
 
 **Update 2021-12-11**: This app recently got very bad reviews, with people who
 lost funds. On the other hand we did review their hardware wallets, that might

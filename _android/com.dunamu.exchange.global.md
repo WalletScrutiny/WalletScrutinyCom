@@ -1,14 +1,14 @@
 ---
 wsId: UpbitGlobal
-title: "Upbit (Global), the Digital-Asset Exchange"
+title: "Upbit (Global)"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.dunamu.exchange.global
 released: 2018-11-06
-updated: 2021-12-07
-version: "1.5.20"
+updated: 2022-01-16
+version: "1.5.23"
 stars: 4.1
 ratings: 3429
 reviews: 2852
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.dunamu.exchange.global.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: upbit-official
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.dunamu.exchange/
 ---
-
 
 ## App Description
 

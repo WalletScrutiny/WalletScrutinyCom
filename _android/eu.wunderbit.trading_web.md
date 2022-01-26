@@ -4,12 +4,12 @@ title: "Wunderbit — Crypto Trading Bots & Copy-Trading"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: eu.wunderbit.trading_web
 released: 2021-01-19
 updated: 2021-01-19
 version: "1.0.0"
-stars: 3.0
+stars: 3
 ratings: 37
 reviews: 23
 size: 15M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: eu.wunderbit.trading_web.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-17
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: Wunder_bit
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Platform is built on top of crypto exchanges and has following features:

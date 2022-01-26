@@ -4,10 +4,10 @@ title: "LocalBitcoins"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.localbitcoins.app.android
 released: 2021-09-06
-updated: 2021-12-02
+updated: 2022-01-18
 version: "0.1.47"
 stars: 3.8
 ratings: 335
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.localbitcoins.app.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: LocalBitcoins
 providerLinkedIn: localbitcoins
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-31**: Localbitcoins now officially
 [links to this app](https://blog.localbitcoins.com/localbitcoins-launches-new-mobile-app-216f9d81fea8).

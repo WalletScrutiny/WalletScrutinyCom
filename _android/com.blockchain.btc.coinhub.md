@@ -7,17 +7,18 @@ authors:
 users: 10000
 appId: com.blockchain.btc.coinhub
 released: 2021-05-13
-updated: 2021-12-15
-version: "1.2.0.0.0"
+updated: 2022-01-11
+version: "1.2.0.0.4"
 stars: 4.4
 ratings: 1111
 reviews: 207
-size: 54M
+size: 51M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 
 icon: com.blockchain.btc.coinhub.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-07-26
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-26**: The provider features several apps that either through
 their logo or the name try to resemble trusted wallets like

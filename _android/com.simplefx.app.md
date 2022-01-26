@@ -7,22 +7,22 @@ authors:
 users: 50000
 appId: com.simplefx.app
 released: 2017-12-18
-updated: 2021-11-08
-version: "2.1.179.0"
+updated: 2022-01-18
+version: "2.1.187.0"
 stars: 4.4
 ratings: 285
 reviews: 159
-size: 18M
+size: 19M
 website: https://simplefx.com/
 repository: 
 issue: 
 icon: com.simplefx.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: SimpleFXcom
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

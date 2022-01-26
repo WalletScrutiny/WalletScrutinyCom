@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.forextb.forextb.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the description:

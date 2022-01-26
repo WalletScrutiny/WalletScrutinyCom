@@ -1,7 +1,7 @@
 ---
 wsId: SovereignWallet
 title: "SovereignWallet, Sovereign Wallet, MUI, MUI Token"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
@@ -14,25 +14,24 @@ ratings: 74
 reviews: 33
 size: 43M
 website: https://sovereignwallet.network/
-repository:
-issue:
+repository: 
+issue: 
 icon: exchange.sovereignwallet.mui.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
-
 
 providerTwitter: MUIcommunity
 providerLinkedIn: metamui
 providerFacebook: SovereignWallet
-providerReddit:
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 **UPDATE:** Support from Telegram responded to our inquiry, saying that they currently **are no longer supporting services related to the SovereignWallet App.** This app is **defunct.**
 

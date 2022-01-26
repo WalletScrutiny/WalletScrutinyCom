@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.b4uwallet.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: b4uwallet_b4u
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is not well advertised on how the users private keys are managed.
 At best this is a custodial wallet, we also note there are alot of 1 star reviews on the [android play store page](https://play.google.com/store/apps/details?id=com.b4uwallet.android&showAllReviews=true).

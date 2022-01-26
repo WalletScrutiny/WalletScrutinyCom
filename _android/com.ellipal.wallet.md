@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.ellipal.wallet
 released: 2018-07-02
-updated: 2021-12-19
-version: "3.3.0"
+updated: 2022-01-15
+version: "3.3.1"
 stars: 4.1
 ratings: 731
 reviews: 415
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ellipal.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-12-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: ellipalwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: ELLIPAL_Official
 redirect_from:
 
 ---
-
 
 **Update 2021-12-03**: This appears to be the companion app to
 {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.

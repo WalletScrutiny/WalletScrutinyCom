@@ -6,8 +6,9 @@ authors:
 - leo
 released: 2020-07-01
 discontinued: # date
-updated: 2021-11-25
-version: v1.0.8-beta
+updated: 2021-12-31
+version: v1.0.8
+binaries: https://github.com/Foundation-Devices/passport-firmware/releases
 dimensions: [38, 102, 23]
 weight: 138
 website: https://foundationdevices.com/
@@ -18,10 +19,16 @@ repository: https://github.com/Foundation-Devices/passport-firmware
 issue: https://github.com/Foundation-Devices/passport-firmware/issues/40
 icon: passport.png
 bugbounty: https://foundationdevices.com/security/
+meta: ok
 verdict: reproducible
-date: 2021-12-01
+date: 2022-01-10
 signer: 
 reviewArchive:
+- date: 2021-12-01
+  version: "1.0.8-beta"
+  appHash: 703feb6c387db47ea862ab55acfa984afa456c75dff22b21977459f68e7e1795
+  gitRevision: 8d95977073353d5addee069f2003f3974cd50595
+  verdict: reproducible
 - date: 2021-10-04
   version: "v1.0.7"
   appHash: 265716676ca91bd724ad48b28a6877841b216003b7b03bbfd6e5eee85a5c057a
@@ -45,16 +52,13 @@ our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/passport.sh):
 
 ```
-$ ./scripts/test/hardware/passport.sh 1.0.8-beta 386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc
+$ ./scripts/test/hardware/passport.sh 1.0.8
 ...
-703feb6c387db47ea862ab55acfa984afa456c75dff22b21977459f68e7e1795  passport-fw-1.0.8-beta.bin
-...
-386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc  build-Passport/firmware.bin
-386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc
-root@7babe3ab1cf5:/passport-firmware/ports/stm32# exit
-386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc  -
-386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc  firmware-passport-v1.0.8-beta.bin
-386cd953fd4794cec1a7835d866f068d5c7a93e3ca315134b979c45af3ffe8bc
+ad6b4f5f4ae0b7e05ec35415713ea1ff7dde3edf10870876b1c8bd07391419d1  build-Passport/firmware.bin
+
+root@cae95eed5f75:/passport-firmware/ports/stm32# exit
+ad6b4f5f4ae0b7e05ec35415713ea1ff7dde3edf10870876b1c8bd07391419d1  -
+ad6b4f5f4ae0b7e05ec35415713ea1ff7dde3edf10870876b1c8bd07391419d1  firmware-passport-v1.0.8.bin
 ```
 
 As with other hardware wallets, we did not check if those clipped bytes are

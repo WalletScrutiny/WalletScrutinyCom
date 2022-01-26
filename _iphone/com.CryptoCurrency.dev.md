@@ -10,19 +10,19 @@ idd: 1339112917
 released: 2018-02-21
 updated: 2021-12-01
 version: "2.4.1"
-stars: 4.74444
-reviews: 1937
+stars: 4.74544
+reviews: 2027
 size: 51123200
 website: https://thecrypto.app
 repository: 
 issue: 
 icon: com.CryptoCurrency.dev.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: TrustSwap
 providerLinkedIn: TrustSwap

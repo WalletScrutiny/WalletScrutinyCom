@@ -19,11 +19,11 @@ repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2
 icon: com.bitorzo.wallet.jpg
 bugbounty: 
+meta: stale
 verdict: ftbfs
-date: 2021-04-11
+date: 2021-12-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is self-custodial:
 

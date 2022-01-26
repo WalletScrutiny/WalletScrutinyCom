@@ -9,7 +9,7 @@ appId: com.quickben22.bitcoinlotto
 released: 2018-03-29
 updated: 2018-04-24
 version: "version 0.92"
-stars: 3.0
+stars: 3
 ratings: 50
 reviews: 25
 size: 14M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quickben22.bitcoinlotto.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

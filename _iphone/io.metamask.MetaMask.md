@@ -8,21 +8,21 @@ appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2021-11-24
-version: "3.7.0"
-stars: 2.9014
-reviews: 1998
-size: 56914944
+updated: 2021-12-13
+version: "3.8.0"
+stars: 4.37521
+reviews: 10309
+size: 56955904
 website: https://metamask.io/
 repository: 
 issue: 
 icon: io.metamask.MetaMask.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

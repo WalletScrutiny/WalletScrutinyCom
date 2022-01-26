@@ -4,7 +4,7 @@ title: "SOLO DEX"
 altTitle: 
 authors:
 
-users: 10000
+users: 50000
 appId: com.sologenicwallet
 released: 2020-02-04
 updated: 2021-12-03
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2020-06-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +33,5 @@ redirect_from:
   - /com.sologenicwallet/
   - /posts/com.sologenicwallet/
 ---
-
 
 This wallet does not support BTC.

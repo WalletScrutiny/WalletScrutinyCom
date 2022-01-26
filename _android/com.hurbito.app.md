@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hurbito.app.jpg
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

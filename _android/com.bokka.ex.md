@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bokka.ex.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-20**: This app is no more.

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: btc.org.freewallet.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: freewalletorg
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /btc.org.freewallet.app/
   - /posts/btc.org.freewallet.app/
 ---
-
 
 According to their description on Google Play, this is a custodial app:
 

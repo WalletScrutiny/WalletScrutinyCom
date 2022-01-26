@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.bituro.android.bituro
 released: 2015-08-18
-updated: 2021-04-20
-version: "1.15.0"
+updated: 2022-01-04
+version: "1.17.0"
 stars: 4.5
 ratings: 8430
 reviews: 4940
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bituro.android.bituro.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bituroapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

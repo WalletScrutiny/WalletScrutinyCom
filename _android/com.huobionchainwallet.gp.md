@@ -1,28 +1,28 @@
 ---
 wsId: HuobiWallet
-title: "HuobiWallet"
+title: "Huobi Wallet - Secure DeFi"
 altTitle: 
 authors:
 - kiwilamb
 users: 500000
 appId: com.huobionchainwallet.gp
 released: 2019-10-17
-updated: 2021-12-08
-version: "3.00.04.017"
+updated: 2022-01-19
+version: "3.00.06.028"
 stars: 4.9
 ratings: 32202
 reviews: 1464
-size: 92M
+size: 91M
 website: https://huobiwallet.com
 repository: 
 issue: 
 icon: com.huobionchainwallet.gp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: HuobiWallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the description of the play store app the wallet provider clearly states the private keys are in control of the user....
 

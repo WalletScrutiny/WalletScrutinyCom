@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: it.airgap.wallet
 released: 2018-08-06
-updated: 2021-11-19
-version: "3.13.0"
+updated: 2022-01-12
+version: "3.15.0"
 stars: 4.1
 ratings: 107
 reviews: 51
-size: 73M
+size: 74M
 website: https://www.airgap.it
 repository: 
 issue: 
 icon: it.airgap.wallet.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2019-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: AirGap_it
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/
 ---
-
 
 This appears to not be a wallet as to our understanding, it does not hold any
 private keys but delegates that part to {% include walletLink.html wallet='android/it.airgap.vault' %}

@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptofully
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This mobile app is an exchange solution aimed at transferring money into Nigerian bank accounts.
 The user can use other Bitcoin wallets to send BTC to receive addresses in the

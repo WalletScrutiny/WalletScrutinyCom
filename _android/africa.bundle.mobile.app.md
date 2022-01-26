@@ -4,25 +4,25 @@ title: "Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: africa.bundle.mobile.app
 released: 2020-04-20
-updated: 2021-07-15
-version: "3.0.0"
+updated: 2022-01-06
+version: "3.0.2"
 stars: 4.5
 ratings: 11826
 reviews: 7250
-size: 49M
+size: 54M
 website: https://bundle.africa/
 repository: 
 issue: 
 icon: africa.bundle.mobile.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 

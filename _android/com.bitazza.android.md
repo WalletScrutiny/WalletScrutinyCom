@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.bitazza.android
 released: 2020-09-29
-updated: 2021-12-21
-version: "1.9.92"
+updated: 2022-01-20
+version: "1.9.96"
 stars: 4.3
 ratings: 3173
 reviews: 722
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitazza.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitazzaofficial
 providerLinkedIn: bitazza
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bitazza is a cryptocurrency exchange and wallet provider. 
 

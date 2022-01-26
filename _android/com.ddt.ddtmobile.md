@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ddt.ddtmobile.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,8 +7,8 @@ authors:
 users: 10000000
 appId: com.wallet.crypto.trustapp
 released: 2017-10-01
-updated: 2021-12-11
-version: "3.20"
+updated: 2022-01-23
+version: "5.7"
 stars: 4.5
 ratings: 657627
 reviews: 115798
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-11-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustwalletapp
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/trust/
   - /posts/com.wallet.crypto.trustapp/
 ---
-
 
 Trust - Crypto & Bitcoin Wallet
 claims to be a non-custodial wallet. In the description on Google Play we read:
@@ -61,7 +60,7 @@ Above quote
 
 > We would like to support Coinomi wallet on this critical issue
 
-made us to look into [Coinomi](/coinomi/) more closely.
+made us to look into {% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %} more closely.
 
 Also in the description we read:
 

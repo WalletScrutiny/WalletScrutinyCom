@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - kiwilamb
+- danny
 users: 1000000
 appId: com.tabtrader.android
 released: 2014-08-14
@@ -19,11 +20,11 @@ repository:
 issue: 
 icon: com.tabtrader.android.png
 bugbounty: 
-verdict: nosendreceive
+meta: ok
+verdict: nowallet
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tabtraderpro
 providerLinkedIn: tabtrader
@@ -34,6 +35,16 @@ redirect_from:
 
 ---
 
+**Updated 2022-01-06**
+
+When buying bitcoin over at https://buy.tab-trader.com/, the user is asked to provide the following:
+
+- The amount of Bitcoin to purchase
+- The user's **own** bitcoin addresses
+
+If the user has no wallet of his own, there's a small link at the bottom of the box which recommends bitpay wallet.
+
+**Previous Analysis**
 
 This app appears to not function as a wallet. At least we could not see any
 documentation about depositing or withdrawing through the app, which makes the

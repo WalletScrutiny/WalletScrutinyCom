@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tradessignal.app.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2021-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,11 +6,11 @@ authors:
 - danny
 - emanuel
 - leo
-users: 10000
+users: 50000
 appId: one.mixin.messenger
 released: 2018-05-24
-updated: 2021-11-28
-version: "0.33.6"
+updated: 2022-01-20
+version: "0.34.3"
 stars: 4.5
 ratings: 1229
 reviews: 955
@@ -20,11 +20,11 @@ repository: https://github.com/MixinNetwork
 issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: MixinMessenger
 providerLinkedIn: 
@@ -34,7 +34,6 @@ providerReddit: mixin
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to
 compile it from the source with the instructions provided. See the

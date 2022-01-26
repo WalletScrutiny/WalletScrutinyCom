@@ -4,25 +4,25 @@ title: "BitOasis - Buy, Sell and Trade Digital Assets"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitoasis
 released: 2020-08-20
-updated: 2021-11-16
-version: "1.4.2"
+updated: 2022-01-21
+version: "1.4.8"
 stars: 4.3
 ratings: 1092
 reviews: 250
-size: 62M
+size: 75M
 website: https://bitoasis.net/en/home
 repository: 
 issue: 
 icon: com.bitoasis.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitoasis
 providerLinkedIn: bitoasis-technologies-fze
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

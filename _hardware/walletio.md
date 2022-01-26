@@ -19,6 +19,7 @@ repository: https://github.com/wallet-io
 issue:
 icon: walletio.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-07
 signer:

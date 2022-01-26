@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.phemex.app
 released: 2020-02-19
-updated: 2021-11-20
-version: "2.0.5"
+updated: 2021-12-07
+version: "2.0.6"
 stars: 4.9
 ratings: 12444
 reviews: 2485
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.phemex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: phemex_official
 providerLinkedIn: phemex
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Phemex mobile app claims to hold funds in cold storage...
 

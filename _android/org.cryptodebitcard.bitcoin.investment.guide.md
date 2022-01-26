@@ -9,7 +9,7 @@ appId: org.cryptodebitcard.bitcoin.investment.guide
 released: 2021-06-29
 updated: 2021-06-29
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.cryptodebitcard.bitcoin.investment.guide.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-20**: This app is no more.

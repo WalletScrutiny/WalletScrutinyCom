@@ -19,6 +19,7 @@ repository:
 issue:
 icon: dcentcard.png
 bugbounty:
+meta: ok
 verdict: nobtc
 date: 2021-07-07
 signer:

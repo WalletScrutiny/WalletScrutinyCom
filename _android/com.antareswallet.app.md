@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.antareswallet.app.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** This wallet's domain is not listed on its Google Play app. Many users have also reported having negative experience with this wallet. Many of its social media presences have also been scrubbed. A domain which bears the same name as the app, antareswallet.com, now returns a 404. 
 

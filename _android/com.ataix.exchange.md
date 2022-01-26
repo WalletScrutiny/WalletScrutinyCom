@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ataix.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ATAIXcom
 providerLinkedIn: ataixcom
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

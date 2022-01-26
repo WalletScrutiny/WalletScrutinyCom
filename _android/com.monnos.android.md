@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.monnos.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: monnosGlobal
 providerLinkedIn: monnosglobal
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As this service is a private company maintained app with money laundering and other financial regulation compliances, our initial assessment is that it is a centralized custodial service. 
 

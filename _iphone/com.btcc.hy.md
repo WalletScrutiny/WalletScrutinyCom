@@ -8,21 +8,21 @@ appId: com.btcc.hy
 appCountry: us
 idd: 1462880009
 released: 2019-05-11
-updated: 2021-10-22
-version: "5.6.1"
-stars: 3.5
-reviews: 6
-size: 86861824
+updated: 2022-01-17
+version: "5.8.2"
+stars: 3.91667
+reviews: 12
+size: 114774016
 website: https://www.btcc.com/
 repository: 
 issue: 
 icon: com.btcc.hy.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: YourBTCC
 providerLinkedIn: yourbtcc

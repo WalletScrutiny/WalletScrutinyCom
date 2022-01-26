@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.buyucoin.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: buyucoin
 providerLinkedIn: buyucoin

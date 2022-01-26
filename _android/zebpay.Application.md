@@ -7,8 +7,8 @@ authors:
 users: 5000000
 appId: zebpay.Application
 released: 2014-12-23
-updated: 2021-11-02
-version: "3.16.00"
+updated: 2022-01-12
+version: "3.16.02"
 stars: 3.9
 ratings: 91373
 reviews: 44123
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: zebpay.Application.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: zebpay
 providerLinkedIn: zebpay
@@ -33,7 +33,6 @@ redirect_from:
   - /zebpay.Application/
   - /posts/zebpay.Application/
 ---
-
 
 In the description at Google Play we read:
 

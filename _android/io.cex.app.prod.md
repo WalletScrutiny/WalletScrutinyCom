@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: io.cex.app.prod
 released: 2015-12-22
-updated: 2021-12-10
+updated: 2021-12-23
 version: "Varies with device"
 stars: 4.2
 ratings: 15007
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.cex.app.prod.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: cex_io
 providerLinkedIn: cex-io
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The CEX.io mobile app claims on the website to manage bitcoins...
 

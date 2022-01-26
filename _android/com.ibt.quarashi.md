@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.ibt.quarashi
 released: 2021-07-09
-updated: 2021-11-15
-version: "1.0.18"
+updated: 2022-01-04
+version: "1.0.23"
 stars: 4.9
 ratings: 1852
 reviews: 845
-size: 23M
+size: 24M
 website: https://quarashi.network/
 repository: 
 issue: 
 icon: com.ibt.quarashi.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuarashiN
 providerLinkedIn: quarashi-network
@@ -32,7 +32,6 @@ providerReddit: Quarashinetwork
 redirect_from:
 
 ---
-
 
 ## App Description
 

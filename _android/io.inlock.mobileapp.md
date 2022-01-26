@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: io.inlock.mobileapp
 released: 2020-08-04
-updated: 2021-11-04
-version: "1.5.3"
+updated: 2022-01-18
+version: "1.7.2"
 stars: 4.6
 ratings: 90
 reviews: 40
-size: 46M
+size: 38M
 website: https://inlock.io/
 repository: 
 issue: 
 icon: io.inlock.mobileapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: inlock_token
 providerLinkedIn: income-locker
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

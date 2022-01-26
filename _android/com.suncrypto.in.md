@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.suncrypto.in
 released: 2021-06-28
-updated: 2021-10-08
-version: "1.5"
+updated: 2022-01-12
+version: "1.6"
 stars: 4.8
 ratings: 3352
 reviews: 2425
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.suncrypto.in.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: suncryptoin
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We downloaded the app. 
 

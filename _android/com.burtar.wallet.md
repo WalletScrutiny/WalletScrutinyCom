@@ -4,7 +4,7 @@ title: "Burtar wallet: Buy, sell & swap bitcoin & crypto"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.burtar.wallet
 released: 2021-07-29
 updated: 2021-07-30
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.burtar.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Warning:** The reviews of this app are filled with scam accusations, with some users explaining that the app requires them to give 5* ratings first. We recommend to exercise caution with this app.
 

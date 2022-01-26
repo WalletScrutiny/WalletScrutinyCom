@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.bitkeep.wallet
 released: 2020-02-11
-updated: 2021-11-17
-version: "6.5.9"
+updated: 2022-01-22
+version: "6.7.0"
 stars: 4.1
 ratings: 1124
 reviews: 640
-size: 36M
+size: 54M
 website: https://bitkeep.com
 repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitKeepOS
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitkeep.wallet/
 ---
-
 
 The description
 

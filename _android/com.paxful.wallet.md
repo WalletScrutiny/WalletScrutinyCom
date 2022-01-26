@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.paxful.wallet
 released: 2019-04-30
-updated: 2021-11-16
-version: "2.7.7.646"
+updated: 2022-01-20
+version: "2.8.0.649"
 stars: 3.4
 ratings: 20319
 reviews: 11811
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paxful.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: paxful
 providerLinkedIn: 
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/paxful/
   - /posts/com.paxful.wallet/
 ---
-
 
 According to their Playstore description:
 

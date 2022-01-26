@@ -8,21 +8,21 @@ appId: com.abcc.exchange.ios
 appCountry: us
 idd: 1428903145
 released: 2018-10-03
-updated: 2021-11-11
-version: "1.9.6"
-stars: 4.44444
-reviews: 9
-size: 55209984
+updated: 2022-01-20
+version: "1.9.11"
+stars: 4.3
+reviews: 10
+size: 56235008
 website: https://abcc.com/
 repository: 
 issue: 
 icon: com.abcc.exchange.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ABCCExOfficial
 providerLinkedIn: 

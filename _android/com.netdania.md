@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.netdania
 released: 2011-11-04
-updated: 2021-12-02
-version: "4.1.2"
+updated: 2021-12-29
+version: "4.1.3"
 stars: 4.5
 ratings: 24319
 reviews: 8955
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.netdania.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

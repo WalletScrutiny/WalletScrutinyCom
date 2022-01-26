@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hybridsolutions.btc.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: VertexFXTrader
 providerLinkedIn: hybrid-solutions-hs-
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

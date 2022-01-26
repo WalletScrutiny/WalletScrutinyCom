@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paytomat.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-12-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: paytomat
 providerLinkedIn: 11433285
@@ -33,7 +33,6 @@ redirect_from:
   - /com.paytomat/
   - /posts/com.paytomat/
 ---
-
 
 This app gets straight to the point:
 

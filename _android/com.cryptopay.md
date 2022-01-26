@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.cryptopay.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: nosource
+date: 2022-01-15
 signer: 
 reviewArchive:
-- date: 2021-04-15
-  version: "1.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: shamlatech
 providerLinkedIn: shamlatech
@@ -37,6 +33,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 This wallet claims to be non-custodial but we cannot find any source code on their [official Website page](https://shamlatech.com/).
 
@@ -46,3 +43,4 @@ Tried to make contact to discover source code repository...
 - Website chat - no response
 - Telegram - cannot find the posted user/group.
 - Whatsapp - wanted to make contact via a phone number which i declined. 
+

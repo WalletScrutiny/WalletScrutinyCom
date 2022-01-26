@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cointopay.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cointopay
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: Cointopay
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.net_cents.netcents2.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: netcentshq
 providerLinkedIn: net-cents
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

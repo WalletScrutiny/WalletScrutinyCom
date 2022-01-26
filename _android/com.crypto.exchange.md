@@ -5,25 +5,25 @@ altTitle:
 authors:
 - danny
 - leo
-users: 100000
+users: 500000
 appId: com.crypto.exchange
 released: 2021-05-26
-updated: 2021-12-07
-version: "1.5.1"
+updated: 2022-01-19
+version: "1.6.0"
 stars: 3.9
 ratings: 1326
 reviews: 548
-size: 66M
+size: 67M
 website: https://crypto.com/
 repository: 
 issue: 
 icon: com.crypto.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -33,7 +33,6 @@ providerReddit: Crypto_com
 redirect_from:
 
 ---
-
 
 **EDIT 2021-09-14**
 This exchange app (com.crypto.exchange) is featured on the official site.

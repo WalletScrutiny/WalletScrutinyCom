@@ -1,28 +1,28 @@
 ---
 wsId: TradeAries
-title: "Aries: Investment & Trading, Commission-free"
+title: "Aries: Investing & Trading"
 altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.trading.aries
 released: 2021-06-23
-updated: 2021-10-04
-version: "2.01.3"
+updated: 2022-01-21
+version: "2.01.4"
 stars: 4.2
 ratings: 13
 reviews: 9
-size: 9.4M
+size: 9.8M
 website: https://tradearies.com/
 repository: 
 issue: 
 icon: com.trading.aries.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: TradeAries
 providerLinkedIn: tradearies
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

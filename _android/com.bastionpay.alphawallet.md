@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bastionpay.alphawallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-03**: This app is gone from the Store.
 

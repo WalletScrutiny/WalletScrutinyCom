@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mchange.multichange.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: defunct
+verdict: fewusers
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +33,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

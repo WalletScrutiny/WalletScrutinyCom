@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.gaincapital.forex
 released: 2021-01-11
-updated: 2021-11-12
-version: "1.82"
+updated: 2022-01-13
+version: "1.87"
 stars: 3.6
 ratings: 305
 reviews: 161
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gaincapital.forex.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: forexcom
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

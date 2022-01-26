@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.za.binarymatter.bitcoinwalletfake.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

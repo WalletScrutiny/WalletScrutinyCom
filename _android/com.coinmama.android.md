@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinmama.android.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinmama
 providerLinkedIn: coinmama
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

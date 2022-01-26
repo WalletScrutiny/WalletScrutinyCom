@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.coinbr.smartwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: stratumhk
 providerLinkedIn: stratumbr
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the description:

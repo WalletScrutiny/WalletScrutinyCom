@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.brand101investing.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 101Investing_eu
 providerLinkedIn: 73520735
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

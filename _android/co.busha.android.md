@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: co.busha.android
 released: 2019-01-21
-updated: 2021-11-29
-version: "3.0.4"
+updated: 2022-01-10
+version: "3.0.14"
 stars: 4.4
 ratings: 2641
 reviews: 1998
-size: 30M
+size: 32M
 website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: getbusha
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /co.busha.android/
   - /posts/co.busha.android/
 ---
-
 
 The description
 

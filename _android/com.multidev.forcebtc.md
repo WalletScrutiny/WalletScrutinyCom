@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.multidev.forcebtc.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-01-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

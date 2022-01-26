@@ -4,10 +4,10 @@ title: "Krypto: Bitcoin Investment App"
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.krypto
 released: 2020-04-29
-updated: 2021-11-11
+updated: 2022-01-08
 version: "8.5"
 stars: 4.6
 ratings: 4342
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.krypto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: letskrypto
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.
 this leads us to conclude the wallet funds are likely under the control of the provider and hence custodial.

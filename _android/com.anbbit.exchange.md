@@ -9,7 +9,7 @@ appId: com.anbbit.exchange
 released: 2020-10-16
 updated: 2020-12-31
 version: "1.1.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 14M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.anbbit.exchange.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2021-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -8,21 +8,21 @@ appId: com.unocoin.mainapp.production
 appCountry: 
 idd: 1030422972
 released: 2016-05-12
-updated: 2021-12-15
-version: "6.2.0"
+updated: 2022-01-13
+version: "6.2.3"
 stars: 2.47826
 reviews: 23
-size: 200650752
+size: 200677376
 website: https://www.unocoin.com
 repository: 
 issue: 
 icon: com.unocoin.mainapp.production.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: Unocoin
 providerLinkedIn: unocoin

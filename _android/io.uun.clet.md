@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.uun.clet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-11-01
+meta: defunct
+verdict: wip
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +33,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

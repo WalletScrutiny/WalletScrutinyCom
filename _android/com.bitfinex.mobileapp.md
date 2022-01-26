@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.bitfinex.mobileapp
 released: 2019-02-11
-updated: 2021-11-11
-version: "4.13.0"
+updated: 2022-01-13
+version: "4.16.0"
 stars: 4
 ratings: 1681
 reviews: 699
-size: 63M
+size: 64M
 website: https://www.bitfinex.com
 repository: 
 issue: 
 icon: com.bitfinex.mobileapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfinex
 providerLinkedIn: bitfinex
@@ -32,7 +32,6 @@ providerReddit: bitfinex
 redirect_from:
 
 ---
-
 
 From a security standpoint, this app appears to be doing something right: The
 user does not provide his Bifinex exchange credentials but an API key which he

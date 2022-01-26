@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcan.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitkanofficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

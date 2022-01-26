@@ -19,15 +19,11 @@ repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
 issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7
 icon: org.bitcoin.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nonverifiable
 date: 2021-06-16
 signer: 
 reviewArchive:
-- date: 2021-05-02
-  version: "1.0"
-  appHash: 
-  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
-  verdict: nonverifiable
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-16**: It's been
 [six weeks](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/9)

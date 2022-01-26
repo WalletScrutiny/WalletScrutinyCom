@@ -9,7 +9,7 @@ appId: com.hrghazali.buyandsellcryptocurrencyapp
 released: 2021-07-24
 updated: 2021-08-19
 version: "1.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 19M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

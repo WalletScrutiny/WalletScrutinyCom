@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.polispay.copay.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,9 +34,9 @@ redirect_from:
   - /posts/com.polispay.copay/
 ---
 
-
-This app appears to be a [CoPay](/copay/) clone given its app ID:
-`com.polispay.copay`.
+Given its app ID `com.polispay.copay` this app appears to be a clone of
+{% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}
+which used to be called "Copay".
 
 In the app's description we read:
 

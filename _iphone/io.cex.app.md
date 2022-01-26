@@ -9,21 +9,21 @@ appId: io.cex.app
 appCountry: 
 idd: 1047225016
 released: 2015-12-22
-updated: 2021-11-17
-version: "7.5.0"
-stars: 4.60301
-reviews: 4582
-size: 82679808
+updated: 2022-01-05
+version: "7.5.3"
+stars: 4.59818
+reviews: 4823
+size: 76534784
 website: https://cex.io
 repository: 
 issue: 
 icon: io.cex.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: cex_io
 providerLinkedIn: cex-io

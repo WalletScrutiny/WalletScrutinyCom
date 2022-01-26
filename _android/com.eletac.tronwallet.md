@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.eletac.tronwallet
 released: 2018-05-13
-updated: 2021-12-12
-version: "2.0.4"
+updated: 2021-12-27
+version: "2.0.7"
 stars: 4.4
 ratings: 1182
 reviews: 606
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.eletac.tronwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: VisionCryptoApp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

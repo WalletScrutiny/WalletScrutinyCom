@@ -9,7 +9,7 @@ appId: com.binary.exchange
 released: 2020-08-19
 updated: 2020-09-27
 version: "4.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 14M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.binary.exchange.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.bitmart.bitmarket
 released: 2018-05-09
-updated: 2021-11-24
-version: "2.7.8"
+updated: 2022-01-21
+version: "2.8.3"
 stars: 3.9
 ratings: 32914
 reviews: 13219
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitMartExchange
 providerLinkedIn: bitmart
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitmart.bitmarket/
   - /posts/com.bitmart.bitmarket/
 ---
-
 
 On their website we read:
 

@@ -18,11 +18,11 @@ repository: https://github.com/atomex-me/atomex.mobile
 issue: https://github.com/atomex-me/atomex.mobile/issues/24
 icon: com.atomex.android.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: atomex_official
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Atomex — is a non-custodial crypto wallet
 

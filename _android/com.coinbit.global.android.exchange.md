@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is a Korea based centralized cryptocurrency exchange
 

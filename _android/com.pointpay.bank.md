@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.pointpay.bank
 released: 2020-07-21
-updated: 2021-12-16
-version: "v5.7.1"
+updated: 2022-01-14
+version: "5.7.5"
 stars: 3.4
 ratings: 3741
 reviews: 1917
-size: 160M
+size: 149M
 website: https://wallet.pointpay.io
 repository: 
 issue: 
 icon: com.pointpay.bank.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: PointPay1
 providerLinkedIn: pointpay
@@ -32,7 +32,6 @@ providerReddit: PointPay
 redirect_from:
 
 ---
-
 
 The PointPay website has very little information about how they manage private keys of the user.
 The only basic statement is...

@@ -9,7 +9,7 @@ appId: cme.ecoinexV1.app
 released: 2018-12-19
 updated: 2018-12-19
 version: "1.01"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.7M
@@ -18,7 +18,8 @@ repository:
 issue: 
 icon: cme.ecoinexV1.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-22
 signer: 
 reviewArchive:
@@ -31,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-13**: This app is no more.
 

@@ -9,7 +9,7 @@ appId: com.sonicx.payus
 released: 2021-02-06
 updated: 2021-02-10
 version: "1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 42M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sonicx.payus.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

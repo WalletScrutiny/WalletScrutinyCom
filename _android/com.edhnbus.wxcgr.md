@@ -10,7 +10,7 @@ appId: com.edhnbus.wxcgr
 released: 2021-07-21
 updated: 2021-07-21
 version: "0.92"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 10M
@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: com.edhnbus.wxcgr.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-08-08
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "0.92"
-  appHash: 
-  gitRevision: 52858b8264017c91d1a62d3ae4fcd1fc9946be18
-  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 By name and logo this tries to fool users into believing it's
 {% include walletLink.html wallet='android/exodusmovement.exodus' verdict='true' %}.

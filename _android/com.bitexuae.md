@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.bitexuae
 released: 2020-02-23
-updated: 2021-10-31
-version: "2.9"
-stars: 3.0
+updated: 2021-12-26
+version: "3.0"
+stars: 3
 ratings: 123
 reviews: 105
 size: 171M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitexuae.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitexexch
 providerLinkedIn: bitexworldwide
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 
 

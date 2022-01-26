@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bit.leagues.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitLeague_Group
 providerLinkedIn: bitleaguegroup

@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.avatrade.mobile
 released: 2017-05-23
-updated: 2021-12-15
-version: "97.4.0"
+updated: 2022-01-17
+version: "98.3.0"
 stars: 4.7
 ratings: 7157
 reviews: 5150
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.avatrade.mobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: AvaTrade
 providerLinkedIn: AvaTrade
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 >AvaTradeGO enables users to trade, monitor their accounts, engage in social trading and follow top traders from all over the globe.
 

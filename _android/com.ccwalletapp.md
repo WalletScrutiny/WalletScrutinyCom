@@ -19,15 +19,11 @@ repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: ftbfs
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-03-06
-  version: "1.3.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: CoinCasso
 providerLinkedIn: coincasso
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Also based on [Emauel](https://gitlab.com/e3amn2l)'s
 [Analysis](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/172#note_522567637):

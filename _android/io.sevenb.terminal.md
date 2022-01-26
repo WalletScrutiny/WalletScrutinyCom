@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "7b — Buy Bitcoin & Exchange Crypto"
+title: "7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN"
 altTitle: 
 authors:
 - danny
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.sevenb.terminal.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: sevenb_roker
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: SevenB_roker
 redirect_from:
 
 ---
-
 
 ## App Description
 

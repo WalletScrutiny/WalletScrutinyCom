@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.xbond.exchange.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-08-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-18**: This app is not the the Play Store anymore
 

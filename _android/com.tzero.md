@@ -1,28 +1,28 @@
 ---
 wsId: tzerocrypto
-title: "tZERO Crypto - Buy & Sell Bitcoin, Ethereum & more"
+title: "tZERO Crypto - Buy, Sell, Grow"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.tzero
 released: 
-updated: 2021-11-16
-version: "2.0.10625"
+updated: 2022-01-20
+version: "2.0.10634"
 stars: 3.4
 ratings: 272
 reviews: 116
-size: 65M
+size: 66M
 website: https://www.tzero.com/crypto-app
 repository: 
 issue: 
 icon: com.tzero.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The description on Google Play lists its features:
 

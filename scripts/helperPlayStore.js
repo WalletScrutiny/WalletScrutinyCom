@@ -1,4 +1,12 @@
 process.env.TZ = 'UTC' // fix timezone issues
+process.on('unhandledRejection', (reason, promise) => {
+  if (`${reason}`.search(/404/) > -1) {
+    console.error(`\nIgnoring a 404 error that for some reason did not get caught: ${reason}`)
+  } else {
+    console.error(`\nIgnoring an error we did not intend to ignore: ${reason}`)
+  }
+})
+
 const gplay = require('google-play-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
@@ -43,7 +51,8 @@ const allowedHeaders = [
   "providerLinkedIn",
   "providerFacebook",
   "providerReddit",
-  "redirect_from"
+  "redirect_from",
+  "meta" // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
 ]
 const folder = "_android/"
 
@@ -64,14 +73,14 @@ async function refreshAll() {
       hashes[f] = Buffer.from(digest).toString("hex")
     }))
     // take 1/fraction per round
-    const fraction = 2
+    const fraction = 1
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
     const mod = t % fraction
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
         })
-        .filter((v, i) => {return i % 7 == mod})
+        .filter((v, i) => {return i % fraction == mod})
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -96,30 +105,52 @@ function refreshFile(fileName) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    if (!"defunct".includes(header.verdict)) {
-      gplay.app({
-          appId: appId,
-          lang: 'en',
-          country: 'cl',
-          throttle: 20}).then(app => {
-        const iconPath = `images/wallet_icons/android/${appId}`
-        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-          writeResult(app, header, iconExtension, body)
+    if (!helper.was404(`_android/${appId}`) && !"defunct".includes(header.meta)) {
+      try {
+        gplay.app({
+            appId: appId,
+            lang: 'en',
+            country: 'cl',
+            throttle: 20}).then(app => {
+          const iconPath = `images/wallet_icons/android/${appId}`
+          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+            writeResult(app, header, iconExtension, body)
+            release()
+          })
+        }, (err) => {
+          if (`${err}`.search(/404/) > -1) {
+            helper.addDefunctIfNew(`_android/${appId}`)
+          } else {
+            console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
+          }
           release()
+        }).catch(err => {
+          console.error(err)
         })
-      }, (err) => {
-        if (`${err}`.search(/404/) > -1) {
-          helper.addDefunctIfNew(`_android/${appId}`)
-        } else {
-          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
-        }
-        release()
-      })
+      } catch (err) {
+        console.error(err)
+      }
     } else {
       stats.defunct++
+      writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
       release()
     }
   })
+}
+
+function getAppFromHeader(header) {
+  return {
+    version: header.version,
+    released: header.released,
+    updated: header.updated,
+    minInstalls: header.users,
+    scoreText: header.stars,
+    reviews: header.reviews,
+    ratings: header.ratings,
+    title: header.title,
+    size: header.size,
+    website: header.website
+  }
 }
 
 function noteForLater(app) {
@@ -145,14 +176,8 @@ function writeResult(app, header, iconExtension, body) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
-  } else {
-    verdict = header.verdict
   }
   const reviewArchive = (header.reviewArchive || [])
-      .filter(it => {
-        // Remove pseudo verdicts.
-        return !"wip,fewusers,stale,obsolete".includes(it.verdict) && it.verdict != undefined
-      })
   const redirects = new Set(header.redirect_from)
   if (header.stars != "0.0"
       && app.scoreText == "0.0"
@@ -169,33 +194,29 @@ function writeResult(app, header, iconExtension, body) {
     stats.updated++
   }
   var date = header.date
+  var meta = header.meta || "ok"
   // retire if needed
-  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-  if ( daysSinceUpdate > 720 ) {
-    if ( verdict != "obsolete" ) {
-      // mark obsolete if old and not obsoelte yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "obsolete"
-      date = new Date()
-    }
-  } else if ( daysSinceUpdate > 360 ) {
-    if ( verdict != "stale" ) {
-      // mark stale if old and not stale yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "stale"
-      date = new Date()
-    }
-  } else {
-    if ( verdict == "stale" || verdict == "obsolete" ) {
-      // stale/obsolete product was revived. We might have to look into it.
-      helper.addReviewArchive(reviewArchive, header)
-      if ( app.minInstalls < 1000 ) {
-        verdict = "fewusers"
-      } else {
-        verdict = "wip"
+  if (meta != "defunct") {
+    const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+    if ( daysSinceUpdate > 720 ) {
+      if ( meta != "obsolete" ) {
+        // mark obsolete if old and not obsoelte yet
+        meta = "obsolete"
+        date = new Date()
       }
-      console.log(`\nReviving android/${header.appId} (${verdict})`)
-      date = new Date()
+    } else if ( daysSinceUpdate > 360 ) {
+      if ( meta != "stale" ) {
+        // mark stale if old and not stale yet
+        meta = "stale"
+        date = new Date()
+      }
+    } else {
+      if ( "stale,obsolete".includes(meta)) {
+        // stale/obsolete product was revived. We might have to look into it.
+        meta = "ok"
+        console.log(`\nReviving android/${header.appId} (${verdict})`)
+        date = new Date()
+      }
     }
   }
   const p = `_android/${header.appId}.md`
@@ -220,6 +241,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
+meta: ${meta}
 verdict: ${verdict}
 date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
@@ -229,7 +251,6 @@ ${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
-
 providerTwitter: ${header.providerTwitter || ""}
 providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}
@@ -238,7 +259,6 @@ providerReddit: ${header.providerReddit || ""}
 redirect_from:
 ${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
-
 
 ${body}`)
 }

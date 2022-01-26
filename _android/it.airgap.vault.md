@@ -7,21 +7,27 @@ authors:
 users: 10000
 appId: it.airgap.vault
 released: 2018-08-06
-updated: 2021-11-19
-version: "3.12.0"
+updated: 2022-01-12
+version: "3.13.0"
 stars: 4
 ratings: 94
 reviews: 40
-size: 68M
+size: 69M
 website: https://airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png
 bugbounty: 
-verdict: reproducible
-date: 2021-11-25
+meta: ok
+verdict: obfuscated
+date: 2022-01-24
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2021-11-25
+  version: "3.12.0"
+  appHash: 2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2
+  gitRevision: 8ae6f994782ce03d747266d8696117cde81e35e9
+  verdict: reproducible
 - date: 2021-11-09
   version: "3.11.2"
   appHash: 49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737
@@ -117,7 +123,6 @@ reviewArchive:
   appHash: d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987
   gitRevision: 1b2995ed2db18e2517812f7fbb3b2aca04a4653e
   verdict: nonverifiable
-
 providerTwitter: AirGap_it
 providerLinkedIn: 
 providerFacebook: 
@@ -128,7 +133,6 @@ redirect_from:
   - /posts/it.airgap.vault/
 ---
 
-
 We ran our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh)
 which delivered these results:
@@ -137,25 +141,29 @@ which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.12.0
-apkVersionCode: 36191
-verdict:        reproducible
-appHash:        2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2
-commit:         cb039b59d211077c9568701afef7339ac34ef1f5
+apkVersionName: 3.13.0
+apkVersionCode: 37604
+verdict:        
+appHash:        c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4
+commit:         3b5f92bb58abb7dfb1ac755cf0f6d9bd18754844
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_36191/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_37604/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_37604/assets/public/index.html differ
+Only in /tmp/fromPlay_it.airgap.vault_37604/assets/public: main.4344acc47727fbb3dd6d.js
+Only in /tmp/fromBuild_it.airgap.vault_37604/assets/public: main.43f935f7202aab6bf927.js
+Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object cb039b59d211077c9568701afef7339ac34ef1f5
+object 3b5f92bb58abb7dfb1ac755cf0f6d9bd18754844
 type commit
-tag v3.12.0
-tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1637446858 +0100
+tag v3.13.0
+tagger Mike Godenzi  1642150744 +0100
 
-v3.12.0
+version 3.13.0
 ===== End Results =====
 ```
 
-This app is **reproducible**.
+Sadly this is again, as every other build, a minified code file which is as such
+**obfuscated**.

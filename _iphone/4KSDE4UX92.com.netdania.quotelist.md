@@ -10,19 +10,19 @@ idd: 446371774
 released: 2011-07-01
 updated: 2021-12-08
 version: "4.9.2"
-stars: 4.66676
-reviews: 10248
+stars: 4.66817
+reviews: 10409
 size: 143198208
 website: http://www.netdania.com
 repository: 
 issue: 
 icon: 4KSDE4UX92.com.netdania.quotelist.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

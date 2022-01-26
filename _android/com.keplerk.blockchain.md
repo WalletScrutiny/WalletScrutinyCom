@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.keplerk.blockchain.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: BykepFR
 providerLinkedIn: bykepfr
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 In the description, BYKEP advertises buying crypto by credit card or transfer.

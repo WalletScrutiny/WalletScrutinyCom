@@ -1,28 +1,29 @@
 ---
-wsId: getchange
+wsId: changeinvest
 title: "Change: Simple Investment App"
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.getchange.wallet.cordova
 released: 2018-06-07
-updated: 2021-12-21
-version: "20.0.1"
+updated: 2022-01-24
+version: "20.0.4"
 stars: 4.3
 ratings: 2565
 reviews: 1136
 size: 32M
-website: https://getchange.com
+website: https://www.changeinvest.com/
 repository: 
 issue: 
 icon: com.getchange.wallet.cordova.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: changefinance
 providerLinkedIn: changeinvest
@@ -34,7 +35,19 @@ redirect_from:
   - /posts/com.getchange.wallet.cordova/
 ---
 
+**Update 2022-01-04:**
 
+The app on Google Play now lists a different homepage than what was previously listed. From getchange.com, the new url is changeinvest.com.
+
+Note that the new url points to the same Android app, and iOS app, with appID of is/id1442085358
+
+We deleted the former review and then re-added the new iOS file which now correctly lists version and update details. 
+
+**Previous Analysis for iPhone version:**
+We did not get to review this app before it was removed from the App Store.
+
+
+**Previous Analysis**
 On their Google Play description we find
 
 > • Secure: Funds are protected in multi-signature, cold-storage cryptocurrency

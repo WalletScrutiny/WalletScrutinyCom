@@ -9,7 +9,7 @@ appId: kr.co.coin.bf
 released: 2020-02-25
 updated: 2020-02-26
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.7M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.coin.bf.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

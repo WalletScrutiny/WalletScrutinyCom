@@ -9,7 +9,7 @@ appId: com.fdao.dawallet
 released: 2021-07-28
 updated: 2021-07-29
 version: "2005311702"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 83M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fdao.dawallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

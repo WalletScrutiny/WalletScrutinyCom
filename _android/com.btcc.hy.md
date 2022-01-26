@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.btcc.hy
 released: 2020-08-04
-updated: 2021-12-16
-version: "5.7.2"
+updated: 2022-01-24
+version: "5.8.3"
 stars: 4.9
 ratings: 11022
 reviews: 162
-size: 59M
+size: 56M
 website: https://www.btcc.com/
 repository: 
 issue: 
 icon: com.btcc.hy.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: YourBTCC
 providerLinkedIn: yourbtcc
@@ -32,7 +32,6 @@ providerReddit: YourBTCC
 redirect_from:
 
 ---
-
 
 In its Google Play description:
 

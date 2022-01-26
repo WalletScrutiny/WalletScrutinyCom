@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.techx.arya.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: TheAryaApp
 providerLinkedIn: thearyaapp
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

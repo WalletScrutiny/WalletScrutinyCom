@@ -18,25 +18,11 @@ repository:
 issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-06-23
 signer: 
 reviewArchive:
-- date: 2021-06-17
-  version: "1.3.2"
-  appHash: 
-  gitRevision: 43f90b53d67bc38cec05b316d39730d071039d3a
-  verdict: wip
-- date: 2021-01-15
-  version: "1.3.2"
-  appHash: 
-  gitRevision: 43f90b53d67bc38cec05b316d39730d071039d3a
-  verdict: defunct
-- date: 2019-11-12
-  version: "1.3.2"
-  appHash: 
-  gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -48,7 +34,6 @@ redirect_from:
   - /com.bcoiner.webviewapp/
   - /posts/com.bcoiner.webviewapp/
 ---
-
 
 **Update 2021-06-24**: This app is back on Google Play but given the app is the
 one app we got most support requests about, from people that believe it's a

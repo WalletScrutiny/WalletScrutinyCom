@@ -9,7 +9,7 @@ appId: xchange_coins.com
 released: 2021-03-26
 updated: 2021-03-26
 version: "5.84.10"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: xchange_coins.com.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

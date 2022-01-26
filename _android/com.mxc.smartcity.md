@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.mxc.smartcity
 released: 2020-05-18
-updated: 2021-09-13
-version: "1.13.4"
+updated: 2022-01-17
+version: "2.0.5"
 stars: 3.9
 ratings: 1706
 reviews: 211
-size: 45M
+size: 54M
 website: https://www.mxc.org/
 repository: 
 issue: 
 icon: com.mxc.smartcity.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: mxcfoundation
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: MXC_Foundation
 redirect_from:
 
 ---
-
 
 This app claims to provide staking abilities to various tokens. It also claims that its MXC Supernodes prove LPWAN (Low Power Wide Area Network) services to the world. 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.asiax.broker.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

@@ -9,7 +9,7 @@ appId: julfer.com.multitrader
 released: 2017-09-15
 updated: 2021-01-15
 version: "1.10"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: julfer.com.multitrader.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

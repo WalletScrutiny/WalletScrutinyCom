@@ -1,13 +1,13 @@
 ---
 wsId: CoinLoan
-title: "CoinLoan: crypto wallet, trading, loans & deposits"
+title: "CoinLoan: Сrypto & Fiat Loans"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.app.coinloan
 released: 2019-11-28
-updated: 2021-09-23
+updated: 2022-01-19
 version: "Varies with device"
 stars: 4.4
 ratings: 253
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.coinloan.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: coin_loan
 providerLinkedIn: coinloan
@@ -32,7 +32,6 @@ providerReddit: coinloan
 redirect_from:
 
 ---
-
 
 ### App Description
 

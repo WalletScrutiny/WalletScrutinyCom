@@ -19,6 +19,7 @@ repository: https://github.com/LedgerHQ
 issue:
 icon: ledgerblue.png
 bugbounty:
+meta: ok
 verdict: wip # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-08-08
 signer:

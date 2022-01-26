@@ -4,22 +4,24 @@ title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: kr.co.keypair.keywalletTouch
 released: 2018-05-13
-updated: 2020-12-14
+updated: 2022-01-09
 version: "Varies with device"
 stars: 4.3
 ratings: 108
 reviews: 65
 size: Varies with device
-website: https://keywalletpro.io
+website: http://keywalletpro.io/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
-verdict: stale
-date: 2021-12-20
+meta: ok
+verdict: nosource
+date: 2021-12-23
 signer: 
 reviewArchive:
 - date: 2021-10-01
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
   verdict: nosource
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -37,6 +38,11 @@ redirect_from:
 
 ---
 
+**Updated Review 2022-01-04**:
+
+The new URL linked to from the Google Play app page is keypair.co.kr. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478331352944898048)
+
+**Previous Review**
 
 The description makes rather vague claims:
 

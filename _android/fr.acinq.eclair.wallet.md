@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: fr.acinq.eclair.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: acinq_co
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the testnet version of {% include walletLink.html wallet='android/fr.acinq.eclair.wallet.mainnet2' verdict='true' %}
 

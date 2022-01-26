@@ -1,15 +1,15 @@
 ---
 wsId: buyucoin
-title: "BuyUcoin : Crypto Wallet to Buy/Sell Bitcoin India"
+title: "BuyUcoin: Bitcoin & Crypto App"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.buyucoinApp.buyucoin
 released: 2019-02-15
-updated: 2021-11-20
-version: "3.23"
-stars: 3.0
+updated: 2021-12-01
+version: "3.24"
+stars: 3
 ratings: 2869
 reviews: 2012
 size: 37M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: buyucoin
 providerLinkedIn: buyucoin
@@ -33,7 +33,6 @@ redirect_from:
   - /com.buyucoinApp.buyucoin/
   - /posts/com.buyucoinApp.buyucoin/
 ---
-
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average
 rating is 3.5 stars with many complaints in the reviews. Caution is

@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.edss.pones.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-12-22
 signer: 
 reviewArchive:
-- date: 2021-10-26
-  version: "1.0"
-  appHash: 
-  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
-  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-03**: This app is gone from the Store.
 

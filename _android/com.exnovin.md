@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.exnovin
 released: 2018-07-06
-updated: 2021-11-05
-version: "1.0.1"
+updated: 2022-01-23
+version: "1.0.3"
 stars: 4.3
 ratings: 2185
 reviews: 872
-size: 33M
+size: 81M
 website: https://exnovin.net/
 repository: 
 issue: 
 icon: com.exnovin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Exnovin_io
 providerLinkedIn: exnovin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 There are two apps with the same name of {% include walletLink.html wallet='io.exnovin.app' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.net](https://exnovin.net).
 

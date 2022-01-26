@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.hashcash.paybito
 released: 2019-10-24
-updated: 2021-10-05
-version: "2.2.5"
+updated: 2022-01-21
+version: "2.2.10"
 stars: 4.5
 ratings: 255
 reviews: 213
-size: 8.9M
+size: 9.3M
 website: https://www.hashcashconsultants.com
 repository: 
 issue: 
 icon: com.hashcash.paybito.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: paybito
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 From the app description: 

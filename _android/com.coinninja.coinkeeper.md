@@ -17,26 +17,12 @@ website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
 issue: https://github.com/coinninjadev/dropbit-android/issues/2
 icon: com.coinninja.coinkeeper.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: nonverifiable
 date: 2021-07-21
 signer: 
 reviewArchive:
-- date: 2021-06-18
-  version: "3.2.7"
-  appHash: 
-  gitRevision: 
-  verdict: wip
-- date: 2021-02-28
-  version: "3.2.7"
-  appHash: 
-  gitRevision: 
-  verdict: defunct
-- date: 2019-11-24
-  version: "3.2.7"
-  appHash:  
-  gitRevision: a920a50eb4b0f8638e7cedb013a135f9c0a7b0fc
-  verdict: nonverifiable
 
 providerTwitter: dropbitapp
 providerLinkedIn: 
@@ -49,7 +35,6 @@ redirect_from:
   - /posts/2019/11/dropbit/
   - /posts/com.coinninja.coinkeeper/
 ---
-
 
 **Update 2021-07-21**: Our issues on the repository got no reply, the server's
 certificate expired last year and there is no update from the provider in years.

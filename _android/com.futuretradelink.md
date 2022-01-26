@@ -1,38 +1,37 @@
 ---
-wsId:
+wsId: 
 title: "Future Trade Link"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.futuretradelink
-released:
+released: 
 updated: 2021-08-03
 version: "1.3"
-stars: 4.0
+stars: 4
 ratings: 24
 reviews: 11
 size: 31M
 website: https://futuretradelink.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.futuretradelink.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** We've noticed several odd things about this app. First, there are users who claim that this is a "scam". Secondly, the app's registration process seems to be broken. Nothing happens. Clicking on "register" via the website takes you back to the home page in a loop. On the app, there is no register option, only sign in.
 

@@ -18,11 +18,11 @@ repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 

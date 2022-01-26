@@ -19,6 +19,7 @@ repository:
 issue:
 icon: coldlarsmart.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-10
 signer:

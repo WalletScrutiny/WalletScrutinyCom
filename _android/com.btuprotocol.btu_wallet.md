@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.btuprotocol.btu_wallet
 released: 2021-03-15
-updated: 2021-12-06
-version: "2.3.5"
+updated: 2022-01-04
+version: "2.4.1"
 stars: 4.3
 ratings: 119
 reviews: 64
-size: 33M
+size: 61M
 website: https://get-verso.com
 repository: 
 issue: 
 icon: com.btuprotocol.btu_wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: versoapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

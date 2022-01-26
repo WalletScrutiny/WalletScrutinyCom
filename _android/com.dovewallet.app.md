@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.dovewallet.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-12-20
 signer: 
 reviewArchive:
-- date: 2021-11-30
-  version: "1.0.6"
-  appHash: 
-  gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
-  verdict: custodial
 
 providerTwitter: dovewallet_en
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit: DoveWallet
 redirect_from:
 
 ---
-
 
 ## App Description
 

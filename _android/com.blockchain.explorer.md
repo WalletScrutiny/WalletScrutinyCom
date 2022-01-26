@@ -8,22 +8,22 @@ authors:
 users: 10000
 appId: com.blockchain.explorer
 released: 2019-12-30
-updated: 2021-11-28
-version: "1.2.0.4"
+updated: 2022-01-07
+version: "1.2.0.5"
 stars: 4.4
 ratings: 381
 reviews: 93
-size: 24M
+size: 25M
 website: 
 repository: 
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

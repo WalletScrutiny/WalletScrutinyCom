@@ -8,21 +8,21 @@ appId: com.rainydayapps.Blockchain
 appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2021-11-18
-version: "5.2.1"
-stars: 4.73851
-reviews: 113972
-size: 140831744
+updated: 2022-01-25
+version: "202201.1.1"
+stars: 4.74048
+reviews: 123199
+size: 177887232
 website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 
 icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 
-verdict: nonverifiable
-date: 2020-12-20
+meta: ok
+verdict: nosource
+date: 2021-07-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blockchain
 providerLinkedIn: blockchain
@@ -33,14 +33,4 @@ redirect_from:
 
 ---
 
-On the App Store we read:
-
-> Only you have access to your private keys and your crypto.
-
-and on the website there is a link to
-[this GitHub account](https://github.com/blockchain/) but no claim about which
-repository is supposed to be behind this wallet but we assume it's
-[this](https://github.com/blockchain/My-Wallet-V3-iOS).
-
-As with all iPhone app, reproducible builds do not exist so far, so the app
-is **not verifiable**.
+{% include copyFromAndroid.html %}

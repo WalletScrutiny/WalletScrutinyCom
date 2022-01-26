@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.bitfyapp
 released: 2019-10-14
-updated: 2021-12-16
-version: "3.10.21"
+updated: 2022-01-25
+version: "3.10.22"
 stars: 3.9
 ratings: 1186
 reviews: 736
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitfyapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfyapp
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bitfy is a Brazilian app that claims to have a:
 

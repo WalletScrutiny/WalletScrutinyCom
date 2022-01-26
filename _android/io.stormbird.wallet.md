@@ -18,11 +18,11 @@ repository: https://github.com/alphawallet
 issue: 
 icon: io.stormbird.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: Alpha_wallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: AlphaWallet
 redirect_from:
 
 ---
-
 
 ## App Description
 

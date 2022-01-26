@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoinira.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoin_ira
 providerLinkedIn: bitcoinira
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play:

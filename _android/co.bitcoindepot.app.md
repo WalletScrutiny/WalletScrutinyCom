@@ -4,7 +4,7 @@ title: "Bitcoin Depot"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: co.bitcoindepot.app
 released: 2020-11-04
 updated: 2021-10-20
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: co.bitcoindepot.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoin_depot
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

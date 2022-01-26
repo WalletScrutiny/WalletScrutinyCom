@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: com.onebit.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-- date: 2019-12-20
-  version: "3.25.1"
-  appHash: 
-  gitRevision: fcf3e7d86e2b4119369bf0d54f3da09663b189e9
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -38,6 +34,7 @@ redirect_from:
   - /com.onebit.app/
   - /posts/com.onebit.app/
 ---
+
 **UPDATE: 2021-09-01**
 
 > New sign-ups and deposits have been disabled, and even though your funds remain safe, we encourage you to withdraw your funds from your TenX Wallet at your earliest convenience.

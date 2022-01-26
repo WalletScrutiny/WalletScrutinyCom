@@ -18,11 +18,11 @@ repository: https://github.com/BullCoinFinance
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bullcoinfinance
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: bullcoinfinance
 redirect_from:
 
 ---
-
 
 ### Official Website
 In the [Privacy Policy](https://bullcoin.finance/privacy) Bull Finance claims to be decentralized:

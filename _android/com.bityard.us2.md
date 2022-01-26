@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitYard_Global
 providerLinkedIn: bityard
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -8,21 +8,21 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2021-11-25
-version: "6.6.3"
-stars: 4.6881
-reviews: 3110
-size: 336652288
+updated: 2022-01-21
+version: "6.7.5"
+stars: 4.63744
+reviews: 3205
+size: 294773760
 website: http://www.hbg.com
 repository: 
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: HuobiGlobal
 providerLinkedIn: 

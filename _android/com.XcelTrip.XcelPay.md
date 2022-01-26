@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.XcelTrip.XcelPay
 released: 2019-05-30
-updated: 2021-10-23
-version: "2.51.10"
+updated: 2022-01-22
+version: "2.61.3"
 stars: 4
 ratings: 3513
 reviews: 1770
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.XcelTrip.XcelPay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: XcelPayWallet
 providerLinkedIn: in/xcelpaywallet
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet has no claim of being non-custodial in the app's description.
 

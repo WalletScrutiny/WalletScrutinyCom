@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: com.tokenize.exchange.tradingapp
 released: 2019-12-03
-updated: 2021-12-08
-version: "1.19.3"
+updated: 2022-01-18
+version: "1.19.10"
 stars: 3.1
 ratings: 88
 reviews: 51
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tokenize.exchange.tradingapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: TokenizeXchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

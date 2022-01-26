@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.arzjoo
 released: 2019-04-25
-updated: 2021-11-17
-version: "2.0.1"
+updated: 2021-11-23
+version: "2.0.2"
 stars: 3.8
 ratings: 3177
 reviews: 1264
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.arzjoo.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: arzjoo
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.arzjoo/
 ---
-
 
 This provider is from Iran and its website is in Farsi, only. Google Translate
 [helps to read it in English](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Farzjoo.com%2F)

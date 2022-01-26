@@ -4,25 +4,25 @@ title: "CoinList"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.coinlist.trade
 released: 2020-08-10
-updated: 2021-05-19
-version: "2.0.3"
+updated: 2021-12-06
+version: "2.0.8"
 stars: 2.7
 ratings: 3178
 reviews: 2094
-size: 5.6M
+size: 5.8M
 website: https://coinlist.co/
 repository: 
 issue: 
 icon: com.coinlist.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinlist
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: br.com.coinbr.smartwallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: stratumhk
 providerLinkedIn: stratumbr

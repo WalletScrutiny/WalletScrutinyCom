@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: com.EmasDigi
 released: 2018-01-21
-updated: 2021-12-16
-version: "4.7.2"
+updated: 2022-01-19
+version: "4.7.9"
 stars: 4.3
 ratings: 17983
 reviews: 11498
-size: 12M
+size: 14M
 website: https://pluang.com
 repository: 
 issue: 
 icon: com.EmasDigi.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 EmasDigi has since renamed itself "Pluang"
 

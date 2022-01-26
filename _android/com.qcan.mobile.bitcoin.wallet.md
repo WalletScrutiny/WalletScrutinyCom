@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.qcan.mobile.bitcoin.wallet/
 ---
-
 
 > **Complete Control**<br>
   Your Bitcoin, 100% Under Your Control. You hold the key. No intermediary.

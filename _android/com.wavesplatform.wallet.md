@@ -7,22 +7,22 @@ authors:
 users: 500000
 appId: com.wavesplatform.wallet
 released: 2017-03-09
-updated: 2021-11-16
-version: "2.18.1"
+updated: 2022-01-18
+version: "2.21.1"
 stars: 3.8
 ratings: 6590
 reviews: 3361
-size: 49M
+size: 51M
 website: https://waves.exchange/
 repository: 
 issue: 
 icon: com.wavesplatform.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-07-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: waves_exchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 On their website, the only pointer to this app is:
 

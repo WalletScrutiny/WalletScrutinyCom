@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.bittrex.trade
 released: 2019-12-19
-updated: 2021-12-18
-version: "1.17.1"
+updated: 2022-01-11
+version: "1.17.2"
 stars: 4.1
 ratings: 3791
 reviews: 1574
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bittrex.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: BittrexGlobal
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is an interface to a trading platform:
 

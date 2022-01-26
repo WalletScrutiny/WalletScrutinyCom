@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "TronWallet"
 altTitle: 
+authors:
 
 users: 1000000
 appId: com.tronwallet2
@@ -16,16 +18,11 @@ repository:
 issue: 
 icon: com.tronwallet2.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-01-15
 signer: 
 reviewArchive:
-- date: 2020-11-17
-  version: "3.4.5"
-  appHash: 
-  gitRevision: 0b695b1e5f991a88b8b576bb43c69b8cac285fe8
-  verdict: nosource
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -35,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.tronwallet2/
 ---
-
 
 The wallet is not listed on Google Play anymore and as their website forwards
 the visitor to the

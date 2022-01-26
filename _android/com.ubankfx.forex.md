@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.ubankfx.forex
 released: 2017-05-17
-updated: 2021-11-11
-version: "v7.16-5208-b513ed90c"
+updated: 2022-01-13
+version: "v8.3-5366-84012dd70"
 stars: 4.8
 ratings: 1468
 reviews: 869
-size: 33M
+size: 36M
 website: https://www.ubfx.co.uk/
 repository: 
 issue: 
 icon: com.ubankfx.forex.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ledger.live.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Ledger
 providerLinkedIn: ledgerhq
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.ledger.live/
 ---
-
 
 This is the companion app for the Ledger hardware wallets. As we fail to start
 the app without connecting a hardware wallet, it is very likely this app is not

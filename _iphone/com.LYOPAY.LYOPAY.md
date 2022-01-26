@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.LYOPAY.LYOPAY.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: lyopayofficial
 providerLinkedIn: lyopay

@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "Aegis Bitcoin Wallet"
 altTitle: 
+authors:
 
 users: 1000
 appId: com.aegiswallet
@@ -16,11 +18,11 @@ repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2020-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,7 +33,6 @@ redirect_from:
   - /com.aegiswallet/
   - /posts/com.aegiswallet/
 ---
-
 
 This app stopped working a long time ago but it's still available on Google
 Play. Don't install it. Apparently it is possible to receive funds but it is not

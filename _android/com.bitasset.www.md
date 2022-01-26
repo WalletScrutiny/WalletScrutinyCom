@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: "BitAsset: Exchange Bitcoin & Cryptocurrency Now"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
@@ -14,25 +14,24 @@ ratings: 47
 reviews: 29
 size: 33M
 website: https://bitasset.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bitasset.www.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-10
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 ## App Description
 

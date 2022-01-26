@@ -20,11 +20,11 @@ repository: https://github.com/bluehelix-chain/wallet-android
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bhex.wallet.png
 bugbounty: 
+meta: defunct
 verdict: fewusers
-date: 2021-11-17
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: BHEXOfficial
 providerLinkedIn: 
@@ -35,6 +35,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 **Update 2021-11-17**: Despite this app having only few users, Emanuel looked
 into it and found the source code could not be compiled. The provider
@@ -76,3 +77,4 @@ Users now have access to a wallet that appears to hold multiple cryptocurrencies
 This is a **self-custodial** app. The website has linked to a [repository](https://github.com/bluehelix-chain/wallet-android) that is purportedly for the Bluehelix wallet. [Searching for the Play Store ID yields some results in Github](https://github.com/bluehelix-chain/wallet-android/search?q=com.bhex.wallet), however, with no build instructions, it is unsure if this is verifiable source code.
 
 We await further information before we can make a verdict.
+

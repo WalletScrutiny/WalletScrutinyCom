@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: com.binance.us
 released: 2019-12-23
-updated: 2021-11-17
-version: "2.8.7"
+updated: 2022-01-18
+version: "2.9.2"
 stars: 2.6
 ratings: 6331
 reviews: 4565
-size: 24M
+size: 25M
 website: https://www.binance.us
 repository: 
 issue: 
 icon: com.binance.us.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: binanceus
 providerLinkedIn: binance-us
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.binance.us/
 ---
-
 
 Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on

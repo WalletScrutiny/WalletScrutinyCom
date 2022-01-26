@@ -9,7 +9,7 @@ appId: org.lndroid.wallet.testnet
 released: 2020-03-23
 updated: 2020-04-14
 version: "0.1.6-testnet"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 15M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: org.lndroid.wallet.testnet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

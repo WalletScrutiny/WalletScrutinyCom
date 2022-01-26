@@ -18,11 +18,11 @@ repository: https://github.com/lastbit-io
 issue: 
 icon: com.lastbit.lite.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: lastbitpay
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

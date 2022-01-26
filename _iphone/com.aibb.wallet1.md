@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.aibb.wallet1.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: BLOCKBANKapp
 providerLinkedIn: 

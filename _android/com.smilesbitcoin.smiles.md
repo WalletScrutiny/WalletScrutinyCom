@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.smilesbitcoin.smiles
 released: 
-updated: 2021-12-17
-version: "2.0.5"
+updated: 2022-01-19
+version: "2.0.7"
 stars: 2.7
 ratings: 99
 reviews: 74
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.smilesbitcoin.smiles.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: smilesbitcoin
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

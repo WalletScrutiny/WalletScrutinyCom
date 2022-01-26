@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: bigomexofficial
 providerLinkedIn: bigomex-bigomex-6225b81b2
@@ -32,7 +32,6 @@ providerReddit: bigomex
 redirect_from:
 
 ---
-
 
 ## App Description
 

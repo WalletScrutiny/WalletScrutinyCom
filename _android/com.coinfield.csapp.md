@@ -9,7 +9,7 @@ appId: com.coinfield.csapp
 released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
-stars: 4.0
+stars: 4
 ratings: 1114
 reviews: 613
 size: 58M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinFieldEx
 providerLinkedIn: coinfield
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Taken from CoinField's Play Store description:
 

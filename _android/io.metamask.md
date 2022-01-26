@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.metamask.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is an ETH-only app and thus not a Bitcoin wallet.

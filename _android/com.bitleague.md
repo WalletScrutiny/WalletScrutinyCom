@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitleague.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitLeague_Group
 providerLinkedIn: bitleaguegroup
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

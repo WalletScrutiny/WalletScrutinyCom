@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.b21.invest.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: B21Official
 providerLinkedIn: b21-limited
@@ -32,7 +32,6 @@ providerReddit: B21Invest
 redirect_from:
 
 ---
-
 
 B21's self-description claims that it is an app for investing, earning, and spending crypto:
 

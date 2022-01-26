@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: africa.buycoins.buycoinsx.pro.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is related to:
 

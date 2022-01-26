@@ -2,6 +2,7 @@ const appStore = require('./scripts/helperAppStore.js')
 const playStore = require('./scripts/helperPlayStore.js')
 const fs = require('fs')
 const dateFormat = require('dateformat')
+const readline = require('readline')
 
 async function refresh() {
   fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), "yyyy-mm-dd")}:\n`)
@@ -10,10 +11,10 @@ async function refresh() {
   var msg = ""
   const i = setInterval(() => {
     const newMsg = `🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, badReply ${playStore.stats.badReply}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`
-    process.stdout.clearLine()
-    process.stdout.cursorTo(0)
+    readline.clearLine(process.stdout)
+    readline.cursorTo(process.stdout, 0)
     process.stdout.write(newMsg)
-    process.stdout.cursorTo(0) // other console.out stuff should write over this.
+    readline.cursorTo(process.stdout, 0) // other console.out stuff should write over this.
     if (msg == newMsg) {
       console.log(`
         Finished.`)
@@ -21,7 +22,7 @@ async function refresh() {
     } else {
       msg = newMsg
     }
-  }, 1000)
+  }, 5000)
 }
 
 module.exports = {

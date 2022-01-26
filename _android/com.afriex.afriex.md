@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.afriex.afriex
 released: 2020-03-05
-updated: 2021-12-08
-version: "11.33"
+updated: 2022-01-18
+version: "11.34"
 stars: 4.5
 ratings: 790
 reviews: 572
-size: 55M
+size: 49M
 website: https://afriexapp.com/
 repository: 
 issue: 
 icon: com.afriex.afriex.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: afriexapp
 providerLinkedIn: afriex
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **UPDATE 2021-11-23:** Afriex [replied to our tweet](https://twitter.com/afriexapp/status/1440701283866791937) saying:
 

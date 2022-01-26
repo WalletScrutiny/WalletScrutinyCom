@@ -7,8 +7,8 @@ authors:
 users: 5000000
 appId: com.fbs.tpand
 released: 2019-03-25
-updated: 2021-12-17
-version: "1.45.0"
+updated: 2021-12-21
+version: "1.45.1"
 stars: 4.6
 ratings: 110938
 reviews: 27695
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fbs.tpand.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: financefreedomsuccess
 providerLinkedIn: FBS Inc.
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the app description:
 >All-in-one multi-asset trading platform for facile online trading anywhere. Seize market opportunities in a few taps and trade smart.

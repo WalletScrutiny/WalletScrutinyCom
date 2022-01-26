@@ -9,7 +9,7 @@ appId: ms.shamirswallet.app
 released: 2020-07-28
 updated: 2020-12-04
 version: "1.3.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.2M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ms.shamirswallet.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-12-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -8,21 +8,21 @@ appId: com.bitmex.mobile.ios
 appCountry: il
 idd: 1377855125
 released: 2020-08-26
-updated: 2021-11-19
-version: "1.1.11"
+updated: 2022-01-10
+version: "1.1.13"
 stars: 
 reviews: 
-size: 19468288
+size: 19439616
 website: https://BitMEX.com/mobile
 repository: 
 issue: 
 icon: com.bitmex.mobile.ios.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitmex
 providerLinkedIn: 

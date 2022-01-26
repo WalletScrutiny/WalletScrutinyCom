@@ -10,19 +10,19 @@ idd: 1257495078
 released: 2017-07-15
 updated: 2021-04-11
 version: "1.9.0"
-stars: 4.54476
-reviews: 391
+stars: 4.52357
+reviews: 403
 size: 41109504
 website: https://bituro.com/app/views/contact.php
 repository: 
 issue: 
 icon: com.bituro.ios.bituroSurvey.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bituroapp
 providerLinkedIn: 

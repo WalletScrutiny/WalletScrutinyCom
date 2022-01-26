@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: cn.com.vau
 released: 2019-07-06
-updated: 2021-11-15
-version: "2.0.0"
+updated: 2021-12-29
+version: "2.0.3"
 stars: 4.8
 ratings: 5380
 reviews: 867
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: cn.com.vau.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: VantageFX
 providerLinkedIn: vantage-fx
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 App description:
 

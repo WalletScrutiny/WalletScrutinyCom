@@ -19,6 +19,7 @@ repository:
 issue:
 icon: safepals1.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-07
 signer:

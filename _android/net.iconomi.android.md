@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: net.iconomi.android
 released: 2017-10-17
-updated: 2021-10-30
-version: "2.0.8"
+updated: 2022-01-07
+version: "2.1.0"
 stars: 3.8
 ratings: 258
 reviews: 123
-size: 121M
+size: 125M
 website: https://www.iconomi.com/
 repository: 
 issue: 
 icon: net.iconomi.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: iconomicom
 providerLinkedIn: iconominet
@@ -32,7 +32,6 @@ providerReddit: ICONOMI
 redirect_from:
 
 ---
-
 
 ### App Description
 

@@ -9,7 +9,7 @@ appId: com.gene.wallet
 released: 2018-03-06
 updated: 2019-02-08
 version: "1.4.1"
-stars: 4.0
+stars: 4
 ratings: 96
 reviews: 60
 size: 24M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.gene.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

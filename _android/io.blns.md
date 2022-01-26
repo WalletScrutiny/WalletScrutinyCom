@@ -7,9 +7,9 @@ authors:
 users: 1
 appId: io.blns
 released: 2021-05-29
-updated: 2021-12-01
-version: "1.7.15"
-stars: 0.0
+updated: 2022-01-14
+version: "1.7.16"
+stars: 
 ratings: 
 reviews: 
 size: 91M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.blns.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

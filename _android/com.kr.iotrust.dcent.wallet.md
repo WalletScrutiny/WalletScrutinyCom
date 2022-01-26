@@ -1,14 +1,14 @@
 ---
-wsId: 
-title: "D'CENT Crypto Wallet - Bitcoin, Ethereum, XRP etc."
+wsId: dCent
+title: "D'CENT Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb
-users: 50000
+users: 100000
 appId: com.kr.iotrust.dcent.wallet
 released: 2018-10-16
-updated: 2021-11-23
-version: "5.10.1"
+updated: 2022-01-21
+version: "5.12.2"
 stars: 4.1
 ratings: 509
 reviews: 324
@@ -18,11 +18,11 @@ repository: https://github.com/DcentWallet
 issue: 
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: DCENTwallets
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>
 As with using the wallet with a hardware device the private keys would be managed by that device and we are not reviewing that setup.

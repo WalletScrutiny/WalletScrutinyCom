@@ -4,7 +4,7 @@ title: "Bitcoin Wallet for COINiD"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: org.coinid.wallet.btc
 released: 2018-10-14
 updated: 2021-02-20
@@ -18,11 +18,11 @@ repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2020-01-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /org.coinid.wallet.btc/
   - /posts/org.coinid.wallet.btc/
 ---
-
 
 This app does not reveal much information on Google Play but
 

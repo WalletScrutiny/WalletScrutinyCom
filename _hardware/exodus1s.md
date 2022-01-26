@@ -20,6 +20,7 @@ repository:
 issue:
 icon: exodus1s.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-11
 signer:

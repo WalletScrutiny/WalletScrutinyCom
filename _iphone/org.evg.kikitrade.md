@@ -8,21 +8,21 @@ appId: org.evg.kikitrade
 appCountry: us
 idd: 1507120441
 released: 2020-07-28
-updated: 2021-11-05
-version: "3.4.5"
+updated: 2022-01-24
+version: "4.1.0"
 stars: 5
 reviews: 6
-size: 88675328
+size: 81402880
 website: https://www.kikitrade.com/
 repository: 
 issue: 
 icon: org.evg.kikitrade.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: KikitradeHQ
 providerLinkedIn: kikitrade

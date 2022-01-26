@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: jb.tech.blockchainpro.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-04-30
 signer: 
 reviewArchive:
-- date: 2021-04-24
-  version: 
-  appHash: 
-  gitRevision: 7c41675d933938883582fc5a083d69e8b2644900
-  verdict: wip
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as
 the original analysis below suggests.

@@ -7,9 +7,9 @@ authors:
 users: 500000
 appId: com.nova.dax
 released: 2019-09-20
-updated: 2021-11-05
-version: "1.1.7"
-stars: 2.0
+updated: 2022-01-18
+version: "1.1.8"
+stars: 2
 ratings: 14365
 reviews: 1
 size: 15M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nova.dax.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: Nova_DAXglobal
 providerLinkedIn: novadax-do-brasil
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):
 

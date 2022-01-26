@@ -9,7 +9,7 @@ appId: kr.co.keypair.purplecardtouch
 released: 2018-09-11
 updated: 2019-07-17
 version: "1.0.0.45"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.6M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.keypair.purplecardtouch.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <!-- nosource -->
 As far as we can see, this is the same as

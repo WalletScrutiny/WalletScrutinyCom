@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.verafti.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: token_vera
 providerLinkedIn: vera-token-74a925218
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Vera Wallet is the official crypto wallet of VeraFTI. 

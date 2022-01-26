@@ -1,28 +1,28 @@
 ---
 wsId: ascendex
-title: "AscendEX: Bitcoin Exchange/Crypto Trading Platform"
+title: "AscendEX: Bitcoin Exchange"
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.ascendex.exchange
 released: 2021-04-28
-updated: 2021-11-15
-version: "2.6.9"
+updated: 2022-01-17
+version: "2.7.4"
 stars: 4.8
 ratings: 3849
 reviews: 1123
-size: 48M
+size: 47M
 website: https://ascendex.com
 repository: 
 issue: 
 icon: com.ascendex.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: AscendEX_Global
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: AscendEX_Official
 redirect_from:
 
 ---
-
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 

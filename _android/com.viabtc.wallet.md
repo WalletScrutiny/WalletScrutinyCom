@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.viabtc.wallet
 released: 2019-05-15
-updated: 2021-12-13
-version: "2.7.3"
+updated: 2022-01-12
+version: "2.8.1"
 stars: 4.2
 ratings: 449
 reviews: 182
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.viabtc.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: viawallet
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.viabtc.wallet/
   - /posts/com.viabtc.wallet/
 ---
-
 
 This app's description contains
 

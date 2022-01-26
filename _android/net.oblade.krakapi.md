@@ -7,8 +7,8 @@ authors:
 users: 5000
 appId: net.oblade.krakapi
 released: 2019-08-09
-updated: 2021-11-29
-version: "2.5.0"
+updated: 2021-12-22
+version: "2.5.1"
 stars: 4.4
 ratings: 512
 reviews: 230
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.oblade.krakapi.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app is similar to, and has the same functionality as:
 {% include walletLink.html wallet='android/net.benoitbasset.ograpi' verdict='true' %}

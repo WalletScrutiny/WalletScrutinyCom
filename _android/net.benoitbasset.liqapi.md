@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: net.benoitbasset.liqapi.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-18**: This app is not on Play Store anymore.
 

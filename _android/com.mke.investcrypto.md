@@ -4,12 +4,12 @@ title: "Invest in Cryptocurrency"
 altTitle: 
 authors:
 
-users: 1
+users: 5
 appId: com.mke.investcrypto
 released: 2020-04-25
 updated: 2020-04-25
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.mke.investcrypto.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

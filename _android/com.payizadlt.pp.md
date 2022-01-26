@@ -4,7 +4,7 @@ title: "Payiza"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 50000
 appId: com.payizadlt.pp
 released: 2021-03-02
 updated: 2021-04-17
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.payizadlt.pp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: payizamoney
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

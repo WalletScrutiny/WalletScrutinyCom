@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.farhadmarket.app
 released: 2019-07-08
-updated: 2021-05-13
-version: "1.9.99"
+updated: 2021-12-05
+version: "1.9.124"
 stars: 4.4
 ratings: 998
 reviews: 343
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.farhadmarket.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play store description:
 

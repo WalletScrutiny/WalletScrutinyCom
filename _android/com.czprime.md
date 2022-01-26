@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.czprime
 released: 2020-06-11
-updated: 2021-11-24
-version: "1.4.17"
+updated: 2022-01-19
+version: "1.4.22"
 stars: 4.1
 ratings: 2199
 reviews: 890
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.czprime.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: GetCoinZoom
 providerLinkedIn: coinzoomhq
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
 Found under "Where can I find the private keys for my wallet?"

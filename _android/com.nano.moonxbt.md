@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.nano.moonxbt
 released: 2021-05-11
-updated: 2021-09-26
-version: "2.2.1"
+updated: 2022-01-17
+version: "2.2.6"
 stars: 4.2
 ratings: 265
 reviews: 223
-size: 33M
+size: 34M
 website: https://www.moonxbt.com/en-us/
 repository: 
 issue: 
 icon: com.nano.moonxbt.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: MoonXBT_Global
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit: MoonXBT
 redirect_from:
 
 ---
-
 
 ## App Description
 

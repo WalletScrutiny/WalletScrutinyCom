@@ -10,19 +10,19 @@ idd: 1559902522
 released: 2021-04-28
 updated: 2021-11-19
 version: "1.1.50"
-stars: 4.05882
-reviews: 17
+stars: 4.11111
+reviews: 18
 size: 26250240
 website: http://buycoins.africa
 repository: 
 issue: 
 icon: africa.buycoins.BuycoinsX.pro.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

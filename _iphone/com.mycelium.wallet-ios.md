@@ -8,21 +8,21 @@ appId: com.mycelium.wallet-ios
 appCountry: 
 idd: 943912290
 released: 2014-12-17
-updated: 2021-01-09
-version: "1.16"
-stars: 2.2
-reviews: 335
-size: 7785472
+updated: 2022-01-14
+version: "1.17"
+stars: 2.19939
+reviews: 336
+size: 7613440
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
 issue: 
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
+meta: ok
 verdict: nonverifiable
-date: 2020-12-19
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: MyceliumCom
 providerLinkedIn: mycelium
@@ -35,9 +35,8 @@ redirect_from:
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.
 
-This app is the iPhone version of [Mycelium Android](/mycelium/).
-It has also [public source code](https://github.com/mycelium-com/wallet-ios)
-which is independent of the Android version.
+This app has [public source code](https://github.com/mycelium-com/wallet-ios)
+which is independent of their Android version.
 
 The provider claims:
 

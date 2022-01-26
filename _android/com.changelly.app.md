@@ -8,22 +8,22 @@ authors:
 users: 100000
 appId: com.changelly.app
 released: 2018-08-28
-updated: 2021-11-12
-version: "2.7.11"
+updated: 2022-01-21
+version: "2.7.12"
 stars: 4.8
 ratings: 3715
 reviews: 1930
-size: 44M
+size: 19M
 website: 
 repository: 
 issue: 
 icon: com.changelly.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +34,5 @@ redirect_from:
   - /com.changelly.app/
   - /posts/com.changelly.app/
 ---
-
 
 This app has no wallet feature in the sense that you hold Bitcoins in the app.

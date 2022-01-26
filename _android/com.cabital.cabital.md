@@ -4,25 +4,25 @@ title: "Cabital Crypto: Invest in crypto currencies"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cabital.cabital
 released: 2021-06-07
-updated: 2021-12-10
-version: "1.1.6"
+updated: 2022-01-19
+version: "1.1.9"
 stars: 4.4
 ratings: 16
 reviews: 10
-size: 44M
+size: 45M
 website: https://www.cabital.com/
 repository: 
 issue: 
 icon: com.cabital.cabital.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: cabitalglobal
 providerLinkedIn: cabital
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

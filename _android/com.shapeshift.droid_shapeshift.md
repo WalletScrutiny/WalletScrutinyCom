@@ -1,6 +1,6 @@
 ---
 wsId: ShapeShift
-title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
+title: "ShapeShift"
 altTitle: 
 authors:
 - leo
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: ShapeShift_io
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.shapeshift.droid_shapeshift/
 ---
-
 
 ShapeShift is best known for their non-custodial exchange but this app appears
 to be a wallet:

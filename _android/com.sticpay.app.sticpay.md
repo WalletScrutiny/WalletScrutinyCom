@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.sticpay.app.sticpay
 released: 2017-08-31
-updated: 2021-10-15
-version: "3.48"
+updated: 2022-01-17
+version: "3.51"
 stars: 3.5
 ratings: 333
 reviews: 222
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.sticpay.app.sticpay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: SticPay
 providerLinkedIn: sticpay
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the Google Play description, STICPAY does claim to be a digital wallet.
 

@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-05-29
-  version: "3.50.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /com.cobinhood.exchange/
   - /posts/com.cobinhood.exchange/
 ---
-
 
 This exchange and wallet claims:
 

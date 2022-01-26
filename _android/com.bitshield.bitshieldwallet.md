@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.bitshield.bitshieldwallet/
 ---
-
 
 In this app's description we read:
 
@@ -48,7 +47,7 @@ On their website:
   deserves.
 
 which was taken almost word for word from
-[another wallet](/com.samourai.wallet/)'s website.
+{% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %}'s website.
 
 ... which leads us to wonder if the provider is also secretive about who they
 are and sure enough, no mention of the people behind this product.

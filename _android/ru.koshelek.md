@@ -1,14 +1,14 @@
 ---
 wsId: Koshelek
-title: "Koshelek. Cryptocurrencies Bitcoin, Ethereum, TON"
+title: "Koshelek. Crypto wallet & p2p"
 altTitle: 
 authors:
 - danny
 users: 5000
 appId: ru.koshelek
 released: 2020-07-28
-updated: 2021-09-28
-version: "1.6.0"
+updated: 2022-01-12
+version: "1.7"
 stars: 4.1
 ratings: 93
 reviews: 74
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ru.koshelek.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: koshelek_ru
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -11,18 +11,18 @@ released: 2017-08-28
 updated: 2021-10-01
 version: "2.2"
 stars: 5
-reviews: 20
+reviews: 13
 size: 44812288
 website: https://bolsa.app
 repository: 
 issue: 
 icon: com.tiim.tradeon.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

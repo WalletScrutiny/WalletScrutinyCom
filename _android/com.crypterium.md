@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.crypterium
 released: 2018-01-21
-updated: 2021-11-16
-version: "2.6.61.16"
+updated: 2022-01-24
+version: "2.6.66.10"
 stars: 4.3
 ratings: 8411
 reviews: 4313
-size: 60M
+size: 61M
 website: https://crypterium.com
 repository: 
 issue: 
 icon: com.crypterium.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: crypterium
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.crypterium/
 ---
-
 
 Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
 

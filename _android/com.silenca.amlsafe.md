@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.silenca.amlsafe
 released: 2020-10-26
-updated: 2021-12-07
-version: "1.30.56"
+updated: 2022-01-05
+version: "1.30.59"
 stars: 4.5
 ratings: 233
 reviews: 167
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.silenca.amlsafe.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy

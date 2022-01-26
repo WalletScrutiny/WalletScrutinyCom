@@ -1,14 +1,14 @@
 ---
 wsId: DelioLending
-title: "Delio-Bithumb lending, savings, wallet, bitcoin"
+title: "Delio - Global Crypto Finance"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.delio.deliohybrid
 released: 2020-02-27
-updated: 2021-12-03
-version: "1.3.6"
+updated: 2022-01-17
+version: "1.3.9"
 stars: 2.7
 ratings: 43
 reviews: 33
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.delio.deliohybrid.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: happydelio
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -7,17 +7,18 @@ authors:
 users: 100000
 appId: fio.ecoin.wallet
 released: 2020-10-08
-updated: 2021-11-13
-version: "6.1.3"
+updated: 2022-01-25
+version: "6.2.9"
 stars: 3.5
 ratings: 3203
 reviews: 1489
-size: 92M
+size: 96M
 website: https://ecoinofficial.org
 repository: 
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-23
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 46a69d1c5e10345207ffc36e81dfa9c0da3a04e3
   verdict: nowallet
-
 providerTwitter: ecoinofficial
 providerLinkedIn: 
 providerFacebook: ecoinofficial
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-05** After marking it as defunct, it seems to have been updated recently (2021-09-22) and is now on the Google Play Store again. It is now described as the SafeX wallet (formerly eCoin.)
 

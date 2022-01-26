@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.paritex.paritex_exchange_mobile
 released: 2021-03-21
-updated: 2021-11-26
-version: "2.2.4"
+updated: 2021-12-30
+version: "2.2.5"
 stars: 4.3
 ratings: 252
 reviews: 99
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: paritexexchange
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

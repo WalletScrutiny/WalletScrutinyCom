@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: mercurycash
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.adenter.mercurycash/
 ---
-
 
 This app makes no claims about self-custody so we have to assume it is a
 custodial product and thus **not verifiable**.

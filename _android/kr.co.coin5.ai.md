@@ -9,7 +9,7 @@ appId: kr.co.coin5.ai
 released: 2020-06-13
 updated: 2020-06-14
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.2M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.coin5.ai.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

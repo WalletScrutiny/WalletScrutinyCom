@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /com.bitholic.rdmchain.bitholic/
   - /posts/com.bitholic.rdmchain.bitholic/
 ---
-
 
 This app is an interface for an exchange. Your coins are stored on their
 infrastructure. As a custodial service it is **not verifiable**.

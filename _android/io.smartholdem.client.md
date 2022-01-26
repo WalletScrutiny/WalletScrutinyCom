@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: io.smartholdem.client.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-11-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

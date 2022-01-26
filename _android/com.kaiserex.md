@@ -9,7 +9,7 @@ appId: com.kaiserex
 released: 2020-05-09
 updated: 2020-05-09
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.kaiserex.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

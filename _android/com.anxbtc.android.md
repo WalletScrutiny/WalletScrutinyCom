@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.anxbtc.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-05-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 On the main site there is a [announcement that the provider is closing](https://anxpro.com/) and all funds should be withdrawn from its services.<br>
 It would be prudent to believe the wallet is no longer supported.

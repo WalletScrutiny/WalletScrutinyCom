@@ -9,7 +9,7 @@ appId: com.coin4sales.coin4sales
 released: 2020-02-11
 updated: 2020-03-06
 version: "1.2.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.5M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coin4sales.coin4sales.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

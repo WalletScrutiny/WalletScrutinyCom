@@ -7,17 +7,18 @@ authors:
 users: 5000000
 appId: co.bitx.android.wallet
 released: 2014-11-01
-updated: 2021-12-10
-version: "7.29.0"
+updated: 2022-01-14
+version: "8.0.0"
 stars: 4
 ratings: 90024
 reviews: 47387
-size: 84M
+size: 85M
 website: https://www.luno.com
 repository: 
 issue: 
-icon: co.bitx.android.wallet.png
+icon: co.bitx.android.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
-
 providerTwitter: LunoGlobal
 providerLinkedIn: lunoglobal
 providerFacebook: luno
@@ -39,7 +39,6 @@ redirect_from:
   - /posts/2019/11/luno/
   - /posts/co.bitx.android.wallet/
 ---
-
 
 Luno: Buy Bitcoin, Ethereum and Cryptocurrency
 advertises on the Playstore:

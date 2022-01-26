@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-05-25
 signer: 
 reviewArchive:
-- date: 2019-11-29
-  version: ""
-  appHash: 
-  gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
-  verdict: fewusers
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -35,8 +30,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 **Update 2021-05-25**: This app is not on the Play Store anymore. The app's
 website links to {% include walletLink.html wallet='android/mw.org.freewallet.app' %} now.

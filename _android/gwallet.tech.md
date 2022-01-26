@@ -7,9 +7,9 @@ authors:
 users: 1000
 appId: gwallet.tech
 released: 2021-02-16
-updated: 2021-11-11
-version: "1.1.38"
-stars: 5.0
+updated: 2022-01-14
+version: "1.1.47"
+stars: 5
 ratings: 314
 reviews: 258
 size: 64M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: gwallet.tech.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

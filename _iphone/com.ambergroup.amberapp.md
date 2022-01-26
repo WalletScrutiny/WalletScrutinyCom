@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: "Amber App - Swap & Earn Crypto"
+title: "WhaleFin - Crypto Finance"
 altTitle: 
 authors:
 - danny
@@ -8,21 +8,21 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2021-10-22
-version: "1.7.6"
-stars: 3.06452
-reviews: 31
-size: 292851712
-website: http://www.ambergroup.io
+updated: 2022-01-08
+version: "2.0.5"
+stars: 4.54667
+reviews: 150
+size: 192277504
+website: https://www.whalefin.com
 repository: 
 issue: 
 icon: com.ambergroup.amberapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: ambergroup_io
 providerLinkedIn: amberbtc

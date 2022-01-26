@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pons.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <div class="alertBox"><div>
 <p>⚠️ Warning: This app is very similar to:</p>

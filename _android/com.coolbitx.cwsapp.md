@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: com.coolbitx.cwsapp
 released: 2017-12-01
-updated: 2021-12-09
-version: "2.30.1"
+updated: 2022-01-19
+version: "2.33.1"
 stars: 4.3
 ratings: 1028
 reviews: 402
-size: 65M
+size: 64M
 website: http://coolwallet.io
 repository: 
 issue: 
 icon: com.coolbitx.cwsapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: coolwallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.coolbitx.cwsapp/
 ---
-
 
 **Update 2021-08-28**: We now also added the hardware wallets this app is the
 companion app for,

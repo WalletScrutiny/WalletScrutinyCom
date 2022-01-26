@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: im.token.app99.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning**
 This app probably was related to

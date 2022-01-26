@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: me.coinpal.app.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-06-04
-  version: "4.1.4"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: coinpalapp
 providerLinkedIn: coinpal
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The providers [Play store description](https://play.google.com/store/apps/details?id=me.coinpal.app) states the customer is in control of the private keys.
 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: de.schildbach.wallet_test
 released: 2011-07-10
-updated: 2021-11-17
+updated: 2021-12-18
 version: "Varies with device"
 stars: 4.5
 ratings: 371
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: de.schildbach.wallet_test.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the testnet version for: 
 

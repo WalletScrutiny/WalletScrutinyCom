@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.microbitcoin.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: nobtc
+date: 2022-01-14
 signer: 
 reviewArchive:
-- date: 2019-12-28
-  version: "2.0.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nobtc
 
 providerTwitter: MicroBitcoinOrg
 providerLinkedIn: 
@@ -37,5 +33,4 @@ redirect_from:
   - /com.microbitcoin/
   - /posts/com.microbitcoin/
 ---
-
 

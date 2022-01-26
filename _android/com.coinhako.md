@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: com.coinhako
 released: 2018-05-06
-updated: 2021-11-19
-version: "2.9.5"
+updated: 2022-01-20
+version: "2.10.6"
 stars: 4.5
 ratings: 2452
 reviews: 1468
-size: 27M
+size: 37M
 website: https://www.coinhako.com
 repository: 
 issue: 
 icon: com.coinhako.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinhako
 providerLinkedIn: coinhako
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Having a scan over the providers website and faq articles does not reveal any
 claims regarding the management of private keys.

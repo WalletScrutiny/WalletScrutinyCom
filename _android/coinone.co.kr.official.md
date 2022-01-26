@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: coinone.co.kr.official
 released: 2018-01-28
-updated: 2021-11-22
-version: "2.9.6"
-stars: 3.0
+updated: 2022-01-14
+version: "2.9.9"
+stars: 3
 ratings: 8925
 reviews: 3522
-size: 28M
+size: 30M
 website: https://coinone.co.kr/
 repository: 
 issue: 
 icon: coinone.co.kr.official.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinoneOfficial
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.
 

@@ -4,7 +4,7 @@ title: "BAF: Multicurrency Wallet & Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.blockchainappfactory.cryptoexchange
 released: 
 updated: 2021-04-13
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.blockchainappfactory.cryptoexchange.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

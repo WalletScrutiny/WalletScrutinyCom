@@ -1,6 +1,6 @@
 ---
 wsId: BTSE
-title: "BTSE"
+title: "BTSE: Buy & Sell Crypto"
 altTitle: 
 authors:
 - danny
@@ -8,21 +8,21 @@ appId: com.btse.BTSE
 appCountry: ng
 idd: 1494556510
 released: 2020-04-13
-updated: 2021-11-17
-version: "1.28.0"
+updated: 2022-01-17
+version: "1.33.0"
 stars: 3
 reviews: 1
-size: 60239872
+size: 61591552
 website: https://btse.com
 repository: 
 issue: 
 icon: com.btse.BTSE.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: btsecom
 providerLinkedIn: btsecom

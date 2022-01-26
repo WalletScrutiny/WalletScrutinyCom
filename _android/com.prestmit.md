@@ -4,7 +4,7 @@ title: "Prestmit: Gift Cards For Naira, Cedis, BTC & USDT"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.prestmit
 released: 2021-04-13
 updated: 2021-09-02
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.prestmit.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: prestmit
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Verdict 2021-10-29
 

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.coincircle
 released: 2021-04-26
-updated: 2021-12-10
-version: "1.2.15.10213"
+updated: 2022-01-21
+version: "1.2.22.10220"
 stars: 4.3
 ratings: 237
 reviews: 74
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.coincircle.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: coincircle
 providerLinkedIn: coincircle
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 The Google Play description gives the impression that this app is non-custodial:

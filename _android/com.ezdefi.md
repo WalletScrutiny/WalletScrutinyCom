@@ -4,6 +4,7 @@ title: "ezDeFi - Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.ezdefi
 released: 2019-11-29
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.ezdefi.png
 bugbounty: 
-verdict: custodial
+meta: ok
+verdict: nosource
 date: 2020-12-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: ezDeFi
 providerLinkedIn: 
@@ -33,6 +34,19 @@ redirect_from:
 
 ---
 
+**Updated Analysis 2022-01-13**
+
+> Divide, encrypt and upload private data (mnemonic, private key) to CKB (Cloud Key Backup).
+
+It is possible to backup the private key via [QR code](https://twitter.com/BitcoinWalletz/status/1481453414328328193).
+
+### Secure Mode
+
+Secure mode allows the user to create wallets that can be backed up and restored via a [mnemonic phrase](https://twitter.com/BitcoinWalletz/status/1481456195110326272).
+
+We were **not able to find direct links from the website linking to a publicly available source code**.
+
+## Previous Analysis
 
 Features like
 

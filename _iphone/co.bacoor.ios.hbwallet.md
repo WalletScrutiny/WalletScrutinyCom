@@ -10,19 +10,19 @@ idd: 1273639572
 released: 2017-08-23
 updated: 2021-07-09
 version: "3.5.0"
-stars: 4.50908
-reviews: 165
+stars: 4.50276
+reviews: 181
 size: 81245184
 website: https://www.bacoor.io
 repository: 
 issue: 
 icon: co.bacoor.ios.hbwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: HBWallet_Ether
 providerLinkedIn: 

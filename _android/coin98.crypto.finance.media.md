@@ -1,28 +1,28 @@
 ---
-wsId: 
-title: "Coin98 Wallet - Crypto Wallet & DeFi Gateway"
+wsId: coin98
+title: "Coin98 Finance"
 altTitle: 
 authors:
 - kiwilamb
 users: 500000
 appId: coin98.crypto.finance.media
 released: 2019-12-19
-updated: 2021-11-18
-version: "10.4.4"
+updated: 2022-01-20
+version: "11.2.0"
 stars: 4.4
 ratings: 16096
 reviews: 8795
-size: 68M
+size: 118M
 website: https://coin98.app/
 repository: 
 issue: 
 icon: coin98.crypto.finance.media.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: coin98_wallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ionicframework.myapp474083.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

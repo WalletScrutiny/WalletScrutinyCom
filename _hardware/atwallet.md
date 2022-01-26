@@ -20,6 +20,7 @@ repository:
 issue:
 icon: atwallet.png
 bugbounty:
+meta: ok
 verdict: plainkey
 date: 2021-12-03
 signer:

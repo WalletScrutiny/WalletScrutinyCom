@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.enjin.mobile.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: enjin
 providerLinkedIn: enjin
@@ -32,7 +32,6 @@ providerReddit: EnjinCoin
 redirect_from:
 
 ---
-
 
 Enjin: Blockchain & Crypto Wallet
 description starts promising:

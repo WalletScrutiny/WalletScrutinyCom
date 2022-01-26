@@ -8,21 +8,21 @@ appId: org.reactjs.native.example.FTXMobile.FTX
 appCountry: 
 idd: 1512374471
 released: 2020-05-20
-updated: 2021-10-29
-version: "1.1.6"
-stars: 3.65079
-reviews: 126
-size: 44739584
+updated: 2021-12-02
+version: "1.1.7"
+stars: 3.66176
+reviews: 136
+size: 45815808
 website: https://ftx.com
 repository: 
 issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: FTX_Official
 providerLinkedIn: 

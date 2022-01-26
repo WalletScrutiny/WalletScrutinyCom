@@ -7,17 +7,18 @@ authors:
 users: 1000000
 appId: io.atomicwallet
 released: 2019-01-30
-updated: 2021-11-19
-version: "0.79.9"
+updated: 2021-12-16
+version: "0.80.1"
 stars: 4.2
 ratings: 57867
 reviews: 26882
-size: 15M
+size: 16M
 website: https://atomicwallet.io
 repository: 
 issue: 
 icon: io.atomicwallet.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-03-02
 signer: 
@@ -27,7 +28,6 @@ reviewArchive:
   appHash: 
   gitRevision: d83253e829502835962be71b96dd37287dc87f5c
   verdict: nosource
-
 providerTwitter: atomicwallet
 providerLinkedIn: 
 providerFacebook: atomicwallet
@@ -36,7 +36,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-03-02:** We were approached by a visitor mentioning that Atomic
 does have a GitHub and indeed [they do](https://github.com/Atomicwallet) but

@@ -9,7 +9,7 @@ appId: com.ctower.mobile
 released: 
 updated: 2020-08-20
 version: "1.0.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.4M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.ctower.mobile.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

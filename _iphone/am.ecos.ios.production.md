@@ -8,21 +8,21 @@ appId: am.ecos.ios.production
 appCountry: us
 idd: 1528964374
 released: 2020-11-25
-updated: 2021-11-18
-version: "1.18.1"
-stars: 4.12
-reviews: 25
-size: 66995200
+updated: 2021-12-28
+version: "1.20.2"
+stars: 3.23077
+reviews: 26
+size: 67946496
 website: https://ecos.am/
 repository: 
 issue: 
 icon: am.ecos.ios.production.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: ecosmining
 providerLinkedIn: 

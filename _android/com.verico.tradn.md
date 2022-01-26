@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.verico.tradn.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Once you open the app, the user is shown a letter by Wayne Huang who is the CEO of XREX.
 

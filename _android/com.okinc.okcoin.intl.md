@@ -1,28 +1,28 @@
 ---
 wsId: Okcoin
-title: "Okcoin - Buy Bitcoin, Ethereum, Shiba Inu, Crypto"
+title: "Okcoin - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.okinc.okcoin.intl
 released: 2018-06-22
-updated: 2021-12-15
-version: "5.2.13"
+updated: 2022-01-18
+version: "5.3.0"
 stars: 4.2
 ratings: 3287
 reviews: 621
-size: 131M
+size: 117M
 website: https://www.okcoin.com/
 repository: 
 issue: 
 icon: com.okinc.okcoin.intl.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: OKcoin
 providerLinkedIn: okcoin
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Okcoin is a secure crypto exchange that makes it easy to buy, sell, and hold your cryptocurrency with the lowest fees around.
 

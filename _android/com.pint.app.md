@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.pint.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitfialabs
 providerLinkedIn: bitfia-labs
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its app description:
 

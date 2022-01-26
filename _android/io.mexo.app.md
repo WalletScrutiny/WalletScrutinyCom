@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: io.mexo.app
 released: 2020-08-30
-updated: 2021-11-29
-version: "2.0.4"
+updated: 2022-01-17
+version: "2.0.7"
 stars: 3.8
 ratings: 355
 reviews: 288
-size: 45M
+size: 50M
 website: http://mexo.io/
 repository: 
 issue: 
 icon: io.mexo.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: mexo_io
 providerLinkedIn: mexoio
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 The app description appears to be entirely in Spanish. Quotes below are taken from Google Translate.

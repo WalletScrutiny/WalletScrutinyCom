@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.duedex.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

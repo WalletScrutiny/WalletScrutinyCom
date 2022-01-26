@@ -4,7 +4,7 @@ title: "Belfrics – CryptoCurrency Trading Exchange"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.app.belfrics
 released: 2017-10-17
 updated: 2021-11-03
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.belfrics.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Belfrics
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

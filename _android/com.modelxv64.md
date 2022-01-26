@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.modelxv64.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: stratumhk
 providerLinkedIn: stratumbr
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app comes from the same providers as {% include walletLink.html wallet='android/br.com.coinbr.smartwallet' verdict='true' %}
 

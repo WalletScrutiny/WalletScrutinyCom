@@ -1,6 +1,6 @@
 ---
 wsId: blockfolio
-title: "FTX (formerly Blockfolio)"
+title: "FTX – Trade BTC, ETH, SHIB"
 altTitle: 
 authors:
 - leo
@@ -8,21 +8,21 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2021-12-02
-version: "4.2.4"
-stars: 4.79229
-reviews: 50849
-size: 65491968
+updated: 2022-01-18
+version: "4.2.7"
+stars: 4.78335
+reviews: 51849
+size: 77905920
 website: https://blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blockfolio
 providerLinkedIn: 

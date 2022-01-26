@@ -9,7 +9,7 @@ appId: com.credtech
 released: 2021-02-07
 updated: 2021-02-11
 version: "1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.credtech.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

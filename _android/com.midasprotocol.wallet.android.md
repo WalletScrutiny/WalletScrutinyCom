@@ -1,6 +1,6 @@
 ---
 wsId: midas
-title: "Midas Crypto Wallet: Bitcoin, Ethereum, XRP, EOS"
+title: "Midas Crypto Wallet"
 altTitle: 
 authors:
 - kiwilamb
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.midasprotocol.wallet.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: MidasProtocol
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).
 It would be prudent to assume the private keys are under the control of the provider.

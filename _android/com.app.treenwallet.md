@@ -4,7 +4,7 @@ title: "Treen Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.app.treenwallet
 released: 2021-07-01
 updated: 2021-08-09
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.treenwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

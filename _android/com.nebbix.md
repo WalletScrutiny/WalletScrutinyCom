@@ -9,7 +9,7 @@ appId: com.nebbix
 released: 2021-10-31
 updated: 2021-12-08
 version: "0.1.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 26M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nebbix.jpg
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

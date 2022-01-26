@@ -10,19 +10,19 @@ idd: 1321754661
 released: 2019-01-26
 updated: 2020-12-29
 version: "2.9.4"
-stars: 3.9375
-reviews: 80
+stars: 3.95062
+reviews: 81
 size: 276264960
 website: https://pundix.com
 repository: 
 issue: 
 icon: com.pundix.wallet.jpg
 bugbounty: 
+meta: stale
 verdict: custodial
-date: 2021-04-29
+date: 2021-12-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: PundiXLabs
 providerLinkedIn: pundix

@@ -9,7 +9,7 @@ appId: com.oduwamultiwallet
 released: 2021-07-24
 updated: 2021-07-24
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.oduwamultiwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -9,7 +9,7 @@ appId: com.wire.wirewalletapp
 released: 2021-04-14
 updated: 2021-04-14
 version: "6.5502.321"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 43M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.wire.wirewalletapp.jpg
 bugbounty: 
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2021-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

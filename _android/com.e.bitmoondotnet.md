@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.e.bitmoondotnet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-21
+meta: obsolete
+verdict: wip
+date: 2022-01-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

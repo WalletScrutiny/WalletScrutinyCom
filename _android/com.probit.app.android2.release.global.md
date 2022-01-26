@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.probit.app.android2.release.global
 released: 2019-06-19
-updated: 2021-12-09
-version: "1.37.1"
+updated: 2021-12-20
+version: "1.37.2"
 stars: 3.3
 ratings: 5647
 reviews: 3421
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProBit_Exchange
 providerLinkedIn: probit-exchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.probit.app.android2.release.global/
 ---
-
 
 Probit appears to also and mainly be an exchange and as we can't find claims to
 the contrary, we assume this app is a custodial offering and thus **not verifiable**.

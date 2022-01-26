@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: com.crypter.cryptocyrrency
 released: 2017-09-09
-updated: 2021-11-04
-version: "2.6.8"
+updated: 2021-12-14
+version: "2.7.2"
 stars: 4.7
 ratings: 73723
 reviews: 20911
-size: 16M
+size: 17M
 website: https://thecrypto.app/
 repository: 
 issue: 
 icon: com.crypter.cryptocyrrency.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: TrustSwap
 providerLinkedIn: TrustSwap
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their official website: 
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: quickxprotocol
 providerLinkedIn: quickx
@@ -32,7 +32,6 @@ providerReddit: QuickX
 redirect_from:
 
 ---
-
 
 <!-- nosource -->
 As far as we can see, this is the same as

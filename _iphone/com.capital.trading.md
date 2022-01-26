@@ -8,21 +8,21 @@ appId: com.capital.trading
 appCountry: 
 idd: 1230088754
 released: 2019-12-10
-updated: 2021-11-22
-version: "1.35.4"
-stars: 4.72398
-reviews: 2181
-size: 88855552
+updated: 2021-12-21
+version: "1.36.3"
+stars: 4.72904
+reviews: 2314
+size: 98812928
 website: 
 repository: 
 issue: 
 icon: com.capital.trading.jpg
 bugbounty: 
+meta: defunct
 verdict: wip
-date: 2021-08-19
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.

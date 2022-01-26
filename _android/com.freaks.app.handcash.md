@@ -1,6 +1,8 @@
 ---
+wsId: 
 title: "HandCash - Bitcoin SV Wallet (BETA)"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.freaks.app.handcash
@@ -16,11 +18,11 @@ repository:
 issue: 
 icon: com.freaks.app.handcash.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2019-12-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: handcashapp
 providerLinkedIn: 
@@ -32,5 +34,4 @@ redirect_from:
   - /posts/com.freaks.app.handcash/
 ---
 
-
-This was the beta version of [this BSV wallet](/io.handcash.wallet/).
+This was the beta version of {% include walletLink.html wallet='android/io.handcash.wallet' verdict='true' %}.

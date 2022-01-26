@@ -1,28 +1,28 @@
 ---
 wsId: coinomi
-title: "Coinomi Wallet :: Bitcoin Ethereum Altcoins Tokens"
+title: "Coinomi: Crypto Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.coinomi.wallet
 released: 2014-01-31
-updated: 2021-11-16
-version: "Varies with device"
+updated: 2022-01-19
+version: "1.25.1"
 stars: 4.5
 ratings: 38700
 reviews: 21809
-size: Varies with device
+size: 43M
 website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinomiWallet
 providerLinkedIn: coinomi
@@ -35,7 +35,6 @@ redirect_from:
   - /posts/2019/11/coinomi/
   - /posts/com.coinomi.wallet/
 ---
-
 
 This wallet claims to be non-custodial but
 [went closed-source](https://github.com/bitcoin-dot-org/bitcoin.org/issues/1622)

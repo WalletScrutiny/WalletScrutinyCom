@@ -4,10 +4,10 @@ title: "Blixt Wallet"
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: com.blixtwallet
 released: 
-updated: 2021-11-06
+updated: 2022-01-13
 version: "Varies with device"
 stars: 
 ratings: 
@@ -18,11 +18,11 @@ repository: https://github.com/hsjoberg/blixt-wallet
 issue: 
 icon: com.blixtwallet.png
 bugbounty: 
-verdict: fewusers
+meta: ok
+verdict: wip
 date: 2021-10-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BlixtWallet
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 So we got a support request from somebody who put money into this lightning wallet
 and the channel instantly closed but days later he didn't have his money back.

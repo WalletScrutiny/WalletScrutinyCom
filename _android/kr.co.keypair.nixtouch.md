@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: kr.co.keypair.nixtouch.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-12-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <!-- nosource -->
 As far as we can see, this is the same as

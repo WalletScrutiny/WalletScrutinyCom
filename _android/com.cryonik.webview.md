@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryonik.webview.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-01-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

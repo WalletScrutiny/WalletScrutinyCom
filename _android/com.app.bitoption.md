@@ -4,7 +4,7 @@ title: "BitOption"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.app.bitoption
 released: 2020-08-19
 updated: 2020-09-09
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.bitoption.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

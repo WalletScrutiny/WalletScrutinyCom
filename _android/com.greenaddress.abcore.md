@@ -18,15 +18,11 @@ repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: reproducible
 date: 2021-10-06
 signer: 
 reviewArchive:
-- date: 2020-03-02
-  version: "Varies with device"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: reproducible
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /com.greenaddress.abcore/
   - /posts/com.greenaddress.abcore/
 ---
-
 
 This app is a full node for Android, so running it on your phone is probably
 not recommended unless you have unlimited data and don't mind your phone

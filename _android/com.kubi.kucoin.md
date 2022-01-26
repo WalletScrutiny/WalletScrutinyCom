@@ -7,22 +7,22 @@ authors:
 users: 1000000
 appId: com.kubi.kucoin
 released: 2018-05-03
-updated: 2021-12-15
-version: "3.46.1"
+updated: 2022-01-23
+version: "3.48.1"
 stars: 2.8
 ratings: 17984
 reviews: 8555
-size: 53M
+size: 64M
 website: 
 repository: 
 issue: 
-icon: com.kubi.kucoin.png
+icon: com.kubi.kucoin.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: KuCoinCom
 providerLinkedIn: kucoin
@@ -32,7 +32,6 @@ providerReddit: kucoin
 redirect_from:
 
 ---
-
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin
   securely.

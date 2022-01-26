@@ -19,11 +19,11 @@ repository: https://github.com/inbitcoin/altana-android
 issue: https://github.com/inbitcoin/altana-android/issues/1
 icon: it.inbitcoin.altana.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).
 

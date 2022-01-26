@@ -1,6 +1,9 @@
 ---
+wsId: 
 title: "WasabiWallet"
 altTitle: "(Fake) Wasabi Wallet"
+authors:
+
 users: 500
 appId: com.wasabiwallet.dev
 released: 
@@ -15,11 +18,11 @@ repository:
 issue: 
 icon: com.wasabiwallet.dev.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-04-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -29,7 +32,6 @@ providerReddit:
 redirect_from:
   - /com.wasabiwallet.dev/
 ---
-
 
 **Update 2020-12-08:** This wallet was removed from Google Play. You can find a
 [discussion on Twitter](https://twitter.com/wasabiwallet/status/1333316866249535488)

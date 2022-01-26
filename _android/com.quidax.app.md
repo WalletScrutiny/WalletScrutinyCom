@@ -1,6 +1,6 @@
 ---
 wsId: Quidax
-title: "Quidax - Buy and Sell Bitcoin"
+title: "Quidax Classic"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.quidax.app
 released: 2019-10-31
 updated: 2021-01-12
 version: "1.8.0"
-stars: 3.0
+stars: 3
 ratings: 2041
 reviews: 1584
 size: 53M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.quidax.app.png
 bugbounty: 
+meta: stale
 verdict: custodial
-date: 2021-04-20
+date: 2022-01-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuidaxAfrica
 providerLinkedIn: quidax
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the play store description it clearly states the private keys are in control of the provider....
 

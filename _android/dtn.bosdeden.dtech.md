@@ -9,7 +9,7 @@ appId: dtn.bosdeden.dtech
 released: 2021-03-05
 updated: 2021-03-05
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: dtn.bosdeden.dtech.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

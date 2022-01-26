@@ -7,22 +7,22 @@ authors:
 users: 1000
 appId: com.vog.bitvo
 released: 2020-03-16
-updated: 2021-10-04
-version: "1.5.6"
+updated: 2022-01-24
+version: "1.5.9"
 stars: 3.3
 ratings: 21
 reviews: 15
-size: 6.9M
+size: 12M
 website: http://www.bitvo.com
 repository: 
 issue: 
 icon: com.vog.bitvo.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitvoExchange
 providerLinkedIn: bitvoexchange
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

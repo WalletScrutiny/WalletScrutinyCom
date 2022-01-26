@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cashuwallet.android.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-04-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +32,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

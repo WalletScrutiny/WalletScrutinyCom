@@ -3,8 +3,7 @@ wsId:
 title: "CFC Wallet - Earn Free,Hold or Buy BTC/ETH/CRAD"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 1000000
 appId: com.callsfreecalls.android
 released: 2012-10-15
@@ -19,11 +18,11 @@ repository:
 issue: 
 icon: com.callsfreecalls.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: cfc_io
 providerLinkedIn: 
@@ -33,6 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Its Google Play description is: 
 
 > So, basically, CFC Wallet is a free app to get Bitcoin (BTC), Ethereum (ETH), Binance coin(BNB) and CryptoAds token (CRAD) or earn money in a CRAD fast!

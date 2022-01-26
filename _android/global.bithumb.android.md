@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: global.bithumb.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: BithumbGlobal
 providerLinkedIn: bithumbglobal
@@ -32,7 +32,6 @@ providerReddit: BithumbGlobal
 redirect_from:
 
 ---
-
 
 It's **highly recommended to avoid this app.**
 

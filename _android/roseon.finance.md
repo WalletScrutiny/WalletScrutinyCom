@@ -7,22 +7,22 @@ authors:
 users: 10000
 appId: roseon.finance
 released: 2021-03-16
-updated: 2021-12-16
-version: "2.3.17"
-stars: 0.0
+updated: 2022-01-19
+version: "2.3.21"
+stars: 
 ratings: 
 reviews: 
-size: 74M
+size: 83M
 website: https://roseon.finance/
 repository: 
 issue: 
 icon: roseon.finance.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: RoseonFinance
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

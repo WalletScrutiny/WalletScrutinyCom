@@ -18,15 +18,11 @@ repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nonverifiable
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2019-12-28
-  version: "3.3.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nonverifiable
 
 providerTwitter: hodlwallet
 providerLinkedIn: 
@@ -37,7 +33,6 @@ redirect_from:
   - /co.hodlwallet/
   - /posts/co.hodlwallet/
 ---
-
 
 **Update**: The developer closed
 [the issue where we asked for help](https://github.com/hodlwallet/hodl-wallet-android/issues/50)
@@ -78,7 +73,8 @@ see how it goes:
 
 > Go to github.co/hodlwallet/breadwallet-android and clone or download the project
 
-[Breadwallet](/android/com.breadwallet/)? Ok, good to know where the code comes from but this alone
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}?
+Ok, good to know where the code comes from but this alone
 lets us doubt a bit how dedicated the team is working on the project. Also: more
 guessing on our part:
 
@@ -132,7 +128,7 @@ Play release. We'll try that one: `394f23041b`. We will raise the bar in the fut
 and refuse to search for commits like that though. Have a tag or we can't
 verify the build.
 
-Anyway ... we'll try the same we tried with [BRD](/android/com.breadwallet/):
+Anyway ... we'll try the same we tried with {% include walletLink.html wallet='android/com.breadwallet' %}:
 
 ```
 $ git checkout 394f23041b

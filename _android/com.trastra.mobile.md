@@ -7,8 +7,8 @@ authors:
 users: 50000
 appId: com.trastra.mobile
 released: 2019-01-19
-updated: 2021-10-25
-version: "2.5.0"
+updated: 2022-01-12
+version: "2.6.1"
 stars: 4
 ratings: 454
 reviews: 280
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.trastra.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trastra_ltd
 providerLinkedIn: trastra
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is only available for EU residents, from its Google Play description:
 

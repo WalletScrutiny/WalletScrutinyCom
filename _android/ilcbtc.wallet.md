@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2019-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: ILC_B_Project
 providerLinkedIn: 
@@ -33,7 +33,6 @@ redirect_from:
   - /ilcbtc.wallet/
   - /posts/ilcbtc.wallet/
 ---
-
 
 The description talking about
 

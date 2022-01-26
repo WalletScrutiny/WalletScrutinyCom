@@ -7,22 +7,22 @@ authors:
 users: 100000
 appId: io.yellowcard.app
 released: 2019-05-14
-updated: 2021-12-16
-version: "3.9.1"
+updated: 2022-01-14
+version: "3.14.3"
 stars: 3.4
 ratings: 2287
 reviews: 1704
-size: 1.4M
+size: 34M
 website: https://yellowcard.io/
 repository: 
 issue: 
 icon: io.yellowcard.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: yellowcard_app
 providerLinkedIn: yellowcardapp
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-18**: Currently the app is not on the App Store.
 

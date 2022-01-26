@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.app.bitnob
 released: 2020-05-25
-updated: 2021-12-08
-version: "1.0.74"
+updated: 2022-01-24
+version: "1.0.81"
 stars: 4.1
 ratings: 238
 reviews: 144
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.bitnob.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitnob_official
 providerLinkedIn: bitnob
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

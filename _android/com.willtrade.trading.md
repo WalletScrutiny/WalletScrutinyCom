@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "Will Trade - Crypto Forex Gold"
+title: "Will Trade 7- Trading For All"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.willtrade.trading
 released: 2021-08-19
-updated: 2021-09-29
-version: "1.0.1"
+updated: 2022-01-05
+version: "1.0.3"
 stars: 4.9
 ratings: 1967
 reviews: 1292
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.willtrade.trading.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

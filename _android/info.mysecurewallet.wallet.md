@@ -19,15 +19,11 @@ repository:
 issue: 
 icon: info.mysecurewallet.wallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-10-23
+meta: defunct
+verdict: custodial
+date: 2022-01-15
 signer: 
 reviewArchive:
-- date: 2021-03-08
-  version: "1.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -38,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 This wallet lists no provider website but Emanuel found it on 
 [BitcoinTalk](https://bitcointalk.org/index.php?topic=5203894.0)
@@ -73,3 +70,4 @@ Anyway, the description only says this about security:
 
 but absent a claim of the app being self-custodial we probably can file it as
 custodial and thus **not verifiable**.
+

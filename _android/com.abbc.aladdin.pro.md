@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.abbc.aladdin.pro
 released: 2019-11-15
-updated: 2021-11-24
-version: "1.7.2"
+updated: 2021-12-12
+version: "1.8.6"
 stars: 4.6
 ratings: 5368
 reviews: 4683
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.abbc.aladdin.pro.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: abbcfoundation
 providerLinkedIn: abbcfoundation
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)
 

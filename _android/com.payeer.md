@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.payeer.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-12-19
 signer: 
 reviewArchive:
-- date: 2021-08-13
-  version: "Varies with device"
-  appHash: 
-  gitRevision: 56f739849a1cfad390e8765ae5a40b156bb0dca0
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Taken from the Play Store description:
 > Exchange Fiat and Cryptocurrencies on Trade Platform or Convert automatically, Fund up your account with VISA and MasterCard, Make payments worldwide between more than 20.000.000 PAYEER accounts from 127 countries of the world!

@@ -8,22 +8,22 @@ authors:
 users: 100000000
 appId: com.paypal.android.p2pmobile
 released: 2016-02-19
-updated: 2021-11-19
-version: "8.7.0"
+updated: 2022-01-25
+version: "8.8.3"
 stars: 4.3
 ratings: 2287785
 reviews: 892705
-size: 129M
+size: 125M
 website: https://www.paypal.com
 repository: 
 issue: 
 icon: com.paypal.android.p2pmobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: PayPal
 providerLinkedIn: paypal
@@ -33,7 +33,6 @@ providerReddit: paypal
 redirect_from:
 
 ---
-
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive

@@ -9,7 +9,7 @@ appId: delta.pk.mobile
 released: 2013-03-29
 updated: 2021-05-17
 version: "5.8.7"
-stars: 4.0
+stars: 4
 ratings: 408
 reviews: 104
 size: 1.2M
@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: deltastock
 providerLinkedIn: deltastock-ad
@@ -32,7 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 
