@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: io.mexo.app
 released: 2020-08-30
-updated: 2022-01-17
-version: "2.0.7"
+updated: 2022-01-26
+version: "2.0.8"
 stars: 3.8
 ratings: 355
 reviews: 288
-size: 50M
+size: 54M
 website: http://mexo.io/
 repository: 
 issue: 

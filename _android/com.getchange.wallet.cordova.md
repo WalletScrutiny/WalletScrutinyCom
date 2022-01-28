@@ -8,12 +8,12 @@ authors:
 users: 100000
 appId: com.getchange.wallet.cordova
 released: 2018-06-07
-updated: 2022-01-24
-version: "20.0.4"
+updated: 2022-01-26
+version: "20.1.1"
 stars: 4.3
 ratings: 2565
 reviews: 1136
-size: 32M
+size: 33M
 website: https://www.changeinvest.com/
 repository: 
 issue: 

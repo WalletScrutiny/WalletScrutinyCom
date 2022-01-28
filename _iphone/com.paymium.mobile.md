@@ -8,11 +8,11 @@ appId: com.paymium.mobile
 appCountry: us
 idd: 1055288395
 released: 2016-01-18
-updated: 2022-01-21
-version: "3.1.7"
+updated: 2022-01-26
+version: "3.1.8"
 stars: 4
 reviews: 1
-size: 114608128
+size: 113416192
 website: https://www.paymium.com/
 repository: 
 issue: 

@@ -7,8 +7,8 @@ authors:
 users: 1000
 appId: com.hitbtc.wallet
 released: 2021-08-31
-updated: 2022-01-10
-version: "1.2.1"
+updated: 2022-01-26
+version: "1.2.2"
 stars: 4.3
 ratings: 41
 reviews: 13

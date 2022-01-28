@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paytomat.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2019-12-25
+date: 2022-01-28
 signer: 
 reviewArchive:
 

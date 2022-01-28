@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: org.artr.wallet
 released: 
-updated: 2022-01-19
+updated: 2022-01-27
 version: "1.8"
 stars: 4.4
 ratings: 1910

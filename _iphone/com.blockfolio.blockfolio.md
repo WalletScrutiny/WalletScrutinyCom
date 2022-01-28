@@ -1,6 +1,6 @@
 ---
 wsId: blockfolio
-title: "FTX – Trade BTC, ETH, SHIB"
+title: "FTX Crypto Exchange"
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-01-18
-version: "4.2.7"
-stars: 4.78335
-reviews: 51849
+updated: 2022-01-27
+version: "4.2.9"
+stars: 4.78284
+reviews: 51944
 size: 77905920
 website: https://blockfolio.com
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.trade360
 released: 2015-06-18
-updated: 2021-07-09
+updated: 2022-01-21
 version: "6.10"
 stars: 2.8
 ratings: 1375

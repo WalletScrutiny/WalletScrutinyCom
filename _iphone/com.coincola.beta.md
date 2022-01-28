@@ -8,11 +8,11 @@ appId: com.coincola.beta
 appCountry: 
 idd: 1234231551
 released: 2017-06-06
-updated: 2022-01-23
-version: "4.8.8"
+updated: 2022-01-27
+version: "4.8.9"
 stars: 3.75
 reviews: 224
-size: 149184512
+size: 150128640
 website: https://www.coincola.com
 repository: 
 issue: 

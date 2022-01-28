@@ -1,18 +1,18 @@
 ---
 wsId: phemex
-title: "Phemex: Bitcoin APP & 0 Crypto Trading Fees"
+title: "Phemex: Buy Crypto & Bitcoin"
 altTitle: 
 authors:
 - kiwilamb
 users: 500000
 appId: com.phemex.app
 released: 2020-02-19
-updated: 2021-12-07
-version: "2.0.6"
+updated: 2022-01-18
+version: "2.0.7"
 stars: 4.9
 ratings: 12444
 reviews: 2485
-size: 49M
+size: 51M
 website: https://phemex.com
 repository: 
 issue: 

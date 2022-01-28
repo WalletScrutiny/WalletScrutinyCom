@@ -9,10 +9,10 @@ appCountry: qa
 idd: 1572472820
 released: 2021-08-18
 updated: 2022-01-23
-version: "1.0.0"
+version: "0.22.0"
 stars: 
 reviews: 
-size: 27153408
+size: 26539008
 website: https://defichain.com/
 repository: 
 issue: 

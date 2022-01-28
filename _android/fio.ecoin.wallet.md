@@ -1,6 +1,6 @@
 ---
 wsId: ecoinSafex
-title: "Safex Wallet (formerly Ecoin Wallet)"
+title: "Safex Wallet"
 altTitle: 
 authors:
 - danny

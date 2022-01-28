@@ -7,8 +7,8 @@ authors:
 users: 1000000
 appId: com.nexowallet
 released: 2019-06-28
-updated: 2022-01-19
-version: "2.2.12"
+updated: 2022-01-26
+version: "2.2.13"
 stars: 4.4
 ratings: 15998
 reviews: 7257

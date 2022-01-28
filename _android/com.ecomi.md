@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.ecomi
 released: 2018-08-15
-updated: 2022-01-20
-version: "3.0.4"
+updated: 2022-01-26
+version: "3.0.5"
 stars: 3.7
 ratings: 123
 reviews: 60
