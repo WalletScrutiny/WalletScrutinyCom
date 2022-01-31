@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-20
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit: Coinex
 redirect_from:
 
 ---
+
+**Update 2022-01-13**: This app is not available anymore.
 
 Unfortunately there is no easily accessible information on the App Store or
 their website about the app's security. For now we assume it is

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oracle.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-11-15
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-19**: This app is not available anymore.
 
 ## App Description
 

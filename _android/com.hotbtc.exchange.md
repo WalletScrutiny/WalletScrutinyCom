@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hotbtc.exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,4 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-20**: This app is not available anymore.
 

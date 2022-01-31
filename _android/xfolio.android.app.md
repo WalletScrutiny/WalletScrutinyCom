@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xfolio.android.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-09-01
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,4 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-20**: This app is not available anymore.
 

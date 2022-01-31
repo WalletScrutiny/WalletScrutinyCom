@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xaltbase.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-10-01
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
- {% include copyFromAndroid.html %}
+ **Update 2022-01-20**: This app is not available anymore.
+
+{% include copyFromAndroid.html %}

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kz.nomadcrypto.bankwallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-14**: This app is not available anymore.

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ch.btcfx.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-12-28
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,4 +32,6 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-13**: This app is not available anymore.
 

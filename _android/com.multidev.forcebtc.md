@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.multidev.forcebtc.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-01-04
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -33,3 +33,4 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not available anymore.
