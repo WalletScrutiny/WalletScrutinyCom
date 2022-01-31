@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.bitcoin.wallet.btc
 released: 2019-05-01
-updated: 2021-12-11
-version: "2.3.7"
+updated: 2022-01-30
+version: "2.3.8"
 stars: 4.3
 ratings: 5525
 reviews: 1050

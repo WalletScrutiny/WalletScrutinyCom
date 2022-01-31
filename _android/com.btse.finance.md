@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.btse.finance
 released: 2020-11-30
-updated: 2022-01-18
-version: "1.24.0"
+updated: 2022-01-28
+version: "1.25.0"
 stars: 4.6
 ratings: 56
 reviews: 29
-size: 135M
+size: 134M
 website: https://www.btse.com/
 repository: 
 issue: 

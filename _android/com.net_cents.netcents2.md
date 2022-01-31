@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.net_cents.netcents2
 released: 2017-10-12
-updated: 2021-06-10
-version: "2.11.4"
+updated: 2022-01-28
+version: "2.11.5"
 stars: 4.6
 ratings: 150
 reviews: 67
-size: 61M
+size: 74M
 website: https://net-cents.com/
 repository: 
 issue: 

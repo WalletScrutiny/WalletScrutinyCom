@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: at.smartlab.tshop
 released: 2012-12-22
-updated: 2022-01-07
-version: "201"
+updated: 2022-01-30
+version: "202"
 stars: 4.2
 ratings: 3732
 reviews: 1629

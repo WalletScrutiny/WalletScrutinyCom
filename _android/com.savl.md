@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.savl
 released: 2018-07-24
-updated: 2021-12-29
-version: "2.10.0"
+updated: 2022-01-27
+version: "2.10.1"
 stars: 4.4
 ratings: 586
 reviews: 370

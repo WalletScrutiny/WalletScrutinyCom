@@ -1,6 +1,6 @@
 ---
 wsId: wazirx
-title: "WazirX - Bitcoin, Crypto Trading Exchange India"
+title: "WazirX : Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - kiwilamb
@@ -8,7 +8,7 @@ authors:
 users: 10000000
 appId: com.wrx.wazirx
 released: 2018-07-16
-updated: 2021-12-07
+updated: 2022-01-25
 version: "2.18"
 stars: 4
 ratings: 426178

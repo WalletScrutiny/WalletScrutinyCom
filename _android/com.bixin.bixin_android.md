@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.bixin.bixin_android
 released: 2017-03-22
-updated: 2022-01-18
-version: "4.4.2"
+updated: 2022-01-30
+version: "4.4.3"
 stars: 3.9
 ratings: 87
 reviews: 31

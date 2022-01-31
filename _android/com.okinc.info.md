@@ -4,7 +4,7 @@ title: "OKEx Information"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.okinc.info
 released: 2020-05-25
 updated: 2020-07-05

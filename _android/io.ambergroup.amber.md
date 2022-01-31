@@ -1,18 +1,18 @@
 ---
 wsId: ambercrypto
-title: "WhaleFin - Neobank & Neobroker"
+title: "WhaleFin - Buy Crypto&Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: io.ambergroup.amber
 released: 2020-09-21
-updated: 2021-12-31
-version: "2.0.3"
+updated: 2022-01-29
+version: "2.1.1"
 stars: 3.5
 ratings: 498
 reviews: 243
-size: 68M
+size: 78M
 website: https://www.ambergroup.io
 repository: 
 issue: 

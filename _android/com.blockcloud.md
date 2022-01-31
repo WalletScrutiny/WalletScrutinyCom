@@ -4,7 +4,7 @@ title: "Block Cloud - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.blockcloud
 released: 2021-01-08
 updated: 2021-02-16

@@ -4,7 +4,7 @@ title: "BitalGo Multi Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.bitalgopayment.android
 released: 2020-09-10
 updated: 2020-09-10

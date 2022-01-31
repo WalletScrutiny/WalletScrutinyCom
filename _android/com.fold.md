@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.fold
 released: 
-updated: 2022-01-13
+updated: 2022-01-28
 version: "139.8.2"
 stars: 4.2
 ratings: 679

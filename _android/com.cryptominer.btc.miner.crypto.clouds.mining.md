@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: "BTC Crypto Network - BTC Miner"
+title: "BTC Network - Bitcoin miner"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.cryptominer.btc.miner.crypto.clouds.mining
 released: 2021-08-28
-updated: 2021-12-03
-version: "1.1"
+updated: 2022-01-27
+version: "1.2"
 stars: 4.4
 ratings: 635
 reviews: 438

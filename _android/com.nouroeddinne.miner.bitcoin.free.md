@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.nouroeddinne.miner.bitcoin.free
 released: 2021-03-18
-updated: 2022-01-21
-version: "12.13"
+updated: 2022-01-27
+version: "13.14"
 stars: 4.4
 ratings: 2214
 reviews: 1058

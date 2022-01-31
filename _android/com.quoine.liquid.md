@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.quoine.liquid
 released: 2019-01-10
-updated: 2022-01-26
-version: "1.17.3.2"
+updated: 2022-01-30
+version: "1.17.4"
 stars: 3
 ratings: 659
 reviews: 406

@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: io.klever.secure.exchange
 released: 2021-06-30
-updated: 2022-01-14
-version: "1.0.16"
+updated: 2022-01-27
+version: "1.0.17"
 stars: 4.1
 ratings: 437
 reviews: 265
