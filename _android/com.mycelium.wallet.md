@@ -20,9 +20,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-01-25
+date: 2022-01-31
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-01-25
+  version: "3.13.3.0"
+  appHash: 09505002bcbe9c8d82ec543e609017e7ab75ba0c377c0bb52c4c1ebda5678f63
+  gitRevision: 7fb8a183fee60571885418fcdf05478698687b0f
+  verdict: reproducible
 - date: 2022-01-24
   version: "3.13.2.0"
   appHash: 0ce3ebc68ab2bff0b0876b2488c8bd7781f0b8cdf370894321fefb36234ac71a
@@ -195,22 +200,22 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.13.3.0
-apkVersionCode: 3130300
+apkVersionName: 3.13.4.0
+apkVersionCode: 3130400
 verdict:        reproducible
-appHash:        09505002bcbe9c8d82ec543e609017e7ab75ba0c377c0bb52c4c1ebda5678f63
-commit:         a2bde7238fe2f14a5281b370531738233c2606f1
+appHash:        5f71ad4a3d25538b8a747b37f46d2a4bec6abd4e1df9f307adb147fb05ca7826
+commit:         ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3130300/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130300/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3130400/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130400/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object a2bde7238fe2f14a5281b370531738233c2606f1
+object ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
 type commit
-tag v3.13.3.0
-tagger itserg  1643037137 +0300
+tag v3.13.4.0
+tagger itserg  1643096624 +0300
 
-Bugfix for the accounts' group control behavior
+Accounts' initialization order improvements
 ===== End Results =====
 ```
 
