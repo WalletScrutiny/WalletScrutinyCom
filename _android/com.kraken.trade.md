@@ -1,6 +1,6 @@
 ---
 wsId: krakent
-title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
+title: "Kraken Pro: Crypto Trading"
 altTitle: 
 authors:
 - leo

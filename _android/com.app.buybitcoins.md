@@ -4,7 +4,7 @@ title: "BuyBitcoins.App - Peer2Peer Bitcoin Marketplace"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.app.buybitcoins
 released: 2021-03-20
 updated: 2021-04-08

@@ -16,7 +16,7 @@ size: 33M
 website: https://www.giottus.com
 repository: 
 issue: 
-icon: com.giottus.giottus_mobile.png
+icon: com.giottus.giottus_mobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosource

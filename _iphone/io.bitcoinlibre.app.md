@@ -10,8 +10,8 @@ idd: 1590680702
 released: 2021-10-27
 updated: 2022-01-05
 version: "2.0.8"
-stars: 4.86139
-reviews: 101
+stars: 4.86538
+reviews: 104
 size: 30462976
 website: https://www.libre.sv/
 repository: 

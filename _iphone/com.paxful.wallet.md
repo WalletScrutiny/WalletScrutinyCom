@@ -8,11 +8,11 @@ appId: com.paxful.wallet
 appCountry: 
 idd: 1443813253
 released: 2019-05-09
-updated: 2022-01-21
-version: "2.7.6"
-stars: 3.74162
-reviews: 2686
-size: 60800000
+updated: 2022-01-27
+version: "2.7.7"
+stars: 3.7396
+reviews: 2692
+size: 60804096
 website: https://paxful.com
 repository: 
 issue: 

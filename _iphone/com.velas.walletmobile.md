@@ -10,8 +10,8 @@ appId: com.velas.walletmobile
 appCountry: us
 idd: 1541032748
 released: 2020-12-12
-updated: 2022-01-22
-version: "2.2.5"
+updated: 2022-01-31
+version: "2.2.7"
 stars: 2.36364
 reviews: 11
 size: 32991232

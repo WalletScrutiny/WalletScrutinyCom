@@ -10,8 +10,8 @@ idd: 1441373609
 released: 2019-01-21
 updated: 2022-01-17
 version: "02.00.20"
-stars: 4
-reviews: 7
+stars: 3.625
+reviews: 8
 size: 107527168
 website: http://starteos.io
 repository: https://github.com/StarteosIO
