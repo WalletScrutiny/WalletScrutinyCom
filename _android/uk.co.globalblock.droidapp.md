@@ -7,12 +7,12 @@ authors:
 users: 100
 appId: uk.co.globalblock.droidapp
 released: 2021-02-08
-updated: 2021-12-28
-version: "1.5"
+updated: 2022-02-01
+version: "1.6"
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 40M
 website: 
 repository: 
 issue: 

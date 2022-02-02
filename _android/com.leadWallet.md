@@ -7,12 +7,12 @@ authors:
 users: 5000
 appId: com.leadWallet
 released: 2021-07-29
-updated: 2022-01-24
-version: "1.0.16"
+updated: 2022-02-01
+version: "1.0.17"
 stars: 4.7
 ratings: 1527
 reviews: 1306
-size: 39M
+size: 37M
 website: https://leadwallet.io/
 repository: 
 issue: 

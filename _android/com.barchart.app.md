@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: com.barchart.app
 released: 2013-11-18
-updated: 2021-10-12
-version: "3.0.5"
+updated: 2022-02-01
+version: "3.0.7"
 stars: 4.7
 ratings: 9574
 reviews: 3489

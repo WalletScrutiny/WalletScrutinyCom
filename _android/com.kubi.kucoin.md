@@ -4,7 +4,7 @@ title: "KuCoin: BTC, Crypto exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.kubi.kucoin
 released: 2018-05-03
 updated: 2022-01-23

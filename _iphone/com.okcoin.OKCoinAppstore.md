@@ -10,8 +10,8 @@ idd: 867444712
 released: 2014-07-18
 updated: 2022-01-24
 version: "5.3.1"
-stars: 4.8009
-reviews: 2888
+stars: 4.79696
+reviews: 2960
 size: 326164480
 website: https://www.okcoin.com/mobile
 repository: 

@@ -10,8 +10,8 @@ idd: 1504656252
 released: 2020-04-03
 updated: 2022-01-17
 version: "2.2.6"
-stars: 4.97619
-reviews: 42
+stars: 4.97825
+reviews: 46
 size: 92730368
 website: https://volt.id/
 repository: 
