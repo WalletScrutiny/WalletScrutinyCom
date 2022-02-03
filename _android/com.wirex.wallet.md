@@ -4,7 +4,7 @@ title: "Wirex Wallet: Crypto and DeFi"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.wirex.wallet
 released: 2021-12-03
 updated: 2021-12-30

@@ -4,7 +4,7 @@ title: "BTC Network - Bitcoin miner"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cryptominer.btc.miner.crypto.clouds.mining
 released: 2021-08-28
 updated: 2022-01-27

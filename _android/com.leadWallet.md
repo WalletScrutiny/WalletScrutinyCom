@@ -4,7 +4,7 @@ title: "Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.leadWallet
 released: 2021-07-29
 updated: 2022-02-01

@@ -7,7 +7,7 @@ authors:
 users: 1000000
 appId: com.mycelium.wallet
 released: 2013-07-01
-updated: 2022-01-25
+updated: 2022-02-02
 version: "3.13.4.0"
 stars: 4.2
 ratings: 11166

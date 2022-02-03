@@ -8,11 +8,11 @@ appId: africa.buycoins.BuycoinsX.pro
 appCountry: us
 idd: 1559902522
 released: 2021-04-28
-updated: 2021-11-19
-version: "1.1.50"
+updated: 2022-02-01
+version: "1.1.60"
 stars: 4.11111
 reviews: 18
-size: 26250240
+size: 27302912
 website: http://buycoins.africa
 repository: 
 issue: 

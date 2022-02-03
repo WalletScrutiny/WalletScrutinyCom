@@ -10,8 +10,8 @@ idd: 1358741926
 released: 2018-10-25
 updated: 2022-01-25
 version: "4.3.0"
-stars: 4.48847
-reviews: 1388
+stars: 4.48637
+reviews: 1394
 size: 127361024
 website: https://www.argent.xyz
 repository: https://github.com/argentlabs/

@@ -7,8 +7,8 @@ authors:
 users: 500000
 appId: com.eversendapp
 released: 2019-02-01
-updated: 2022-01-27
-version: "0.2.46"
+updated: 2022-02-02
+version: "0.2.47"
 stars: 3.8
 ratings: 4022
 reviews: 1762

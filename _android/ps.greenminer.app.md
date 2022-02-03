@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto - Free Bitcoins"
+title: "Crypto - Bitcoins"
 altTitle: 
 authors:
 - danny

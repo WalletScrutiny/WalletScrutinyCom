@@ -8,11 +8,11 @@ appId: io.b21.invest
 appCountry: in
 idd: 1499042083
 released: 2020-03-10
-updated: 2021-12-08
-version: "0.7.8"
+updated: 2022-02-01
+version: "0.8.0"
 stars: 4.22727
 reviews: 66
-size: 30229504
+size: 30352384
 website: https://www.b21.io
 repository: 
 issue: 
