@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blockchain.edcwallet
-appCountry: 
+appCountry: ua
 released: 2020-03-13
 updated: 2021-02-10
 version: "0.82"

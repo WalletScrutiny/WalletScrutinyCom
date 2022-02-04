@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.fold
-appCountry: 
+appCountry: us
 released: 2019-11-12
 updated: 2022-01-28
 version: "139.8.2"

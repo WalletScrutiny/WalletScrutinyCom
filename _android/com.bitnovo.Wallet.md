@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitnovo.Wallet
-appCountry: 
+appCountry: us
 released: 2021-10-27
 updated: 2021-12-21
 version: "1.1.0"

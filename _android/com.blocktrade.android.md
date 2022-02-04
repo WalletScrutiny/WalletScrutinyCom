@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blocktrade.android
-appCountry: 
+appCountry: us
 released: 2018-10-28
 updated: 2022-01-14
 version: "1.6.1"

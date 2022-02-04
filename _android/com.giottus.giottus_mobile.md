@@ -6,12 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.giottus.giottus_mobile
-appCountry: 
+appCountry: us
 released: 2021-02-01
 updated: 2021-12-22
 version: "2.1.41"
 stars: 4.8
-ratings: 14777
+ratings: 14783
 reviews: 17
 size: 33M
 website: https://www.giottus.com

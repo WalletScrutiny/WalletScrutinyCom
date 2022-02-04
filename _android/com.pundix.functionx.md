@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pundix.functionx
-appCountry: 
+appCountry: us
 released: 2021-03-25
 updated: 2021-12-10
 version: "1.13.0"

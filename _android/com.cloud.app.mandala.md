@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cloud.app.mandala
-appCountry: 
+appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"

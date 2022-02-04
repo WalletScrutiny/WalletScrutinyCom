@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.riodefi.store
-appCountry: 
+appCountry: us
 released: 2021-04-29
 updated: 2022-01-25
 version: "2.3.0"

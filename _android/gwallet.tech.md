@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: gwallet.tech
-appCountry: 
+appCountry: be
 released: 2021-02-16
 updated: 2022-01-14
 version: "1.1.47"

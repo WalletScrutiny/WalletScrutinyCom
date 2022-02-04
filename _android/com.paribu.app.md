@@ -11,7 +11,7 @@ released: 2019-06-14
 updated: 2021-12-24
 version: "3.4.1"
 stars: 4.9
-ratings: 68083
+ratings: 68088
 reviews: 85
 size: 38M
 website: https://www.paribu.com

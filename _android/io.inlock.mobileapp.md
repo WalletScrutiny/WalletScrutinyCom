@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.inlock.mobileapp
-appCountry: 
+appCountry: us
 released: 2020-08-04
 updated: 2022-01-18
 version: "1.7.2"

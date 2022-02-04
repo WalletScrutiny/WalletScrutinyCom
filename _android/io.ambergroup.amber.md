@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.ambergroup.amber
-appCountry: 
+appCountry: us
 released: 2020-09-21
 updated: 2022-01-29
 version: "2.1.1"

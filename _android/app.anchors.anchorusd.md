@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: app.anchors.anchorusd
-appCountry: 
+appCountry: us
 released: 2020-06-18
 updated: 2022-01-13
 version: "1.17.9"

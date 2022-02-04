@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitmama.bitmama
-appCountry: 
+appCountry: us
 released: 2020-07-11
 updated: 2022-01-31
 version: "1.0.49"

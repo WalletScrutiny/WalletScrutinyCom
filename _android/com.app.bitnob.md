@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.bitnob
-appCountry: 
+appCountry: us
 released: 2020-05-25
 updated: 2022-01-31
 version: "1.0.82"

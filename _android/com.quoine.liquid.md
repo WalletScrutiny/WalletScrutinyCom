@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.quoine.liquid
-appCountry: 
+appCountry: us
 released: 2019-01-10
 updated: 2022-01-30
 version: "1.17.4"
 stars: 3.3
-ratings: 788
-reviews: 32
+ratings: 789
+reviews: 33
 size: 63M
 website: https://www.liquid.com
 repository: 

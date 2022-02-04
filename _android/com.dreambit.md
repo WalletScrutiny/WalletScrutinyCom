@@ -6,13 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.dreambit
-appCountry: 
+appCountry: lv
 released: 2021-02-16
 updated: 2021-09-10
 version: "1.0.0.50"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 21
+reviews: 8
 size: 59M
 website: http://www.dreambit.com
 repository: 

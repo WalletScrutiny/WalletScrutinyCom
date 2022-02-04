@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.freeda.freedaapp
-appCountry: 
+appCountry: us
 released: 2021-04-13
 updated: 2021-11-19
 version: "1.7.1"

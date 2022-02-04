@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.beecrypt.beecrypthd
-appCountry: 
+appCountry: us
 released: 2020-05-27
 updated: 2022-01-24
 version: "4.3"

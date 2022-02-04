@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tiim.gooptions
-appCountry: 
+appCountry: us
 released: 2017-08-04
 updated: 2021-09-30
 version: "1.4.2"

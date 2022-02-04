@@ -6,13 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.risewallet.riseapp
-appCountry: 
+appCountry: ca
 released: 2019-03-08
 updated: 2022-02-01
 version: "1.6.0"
-stars: 3.8
+stars: 4.8
 ratings: 40
-reviews: 6
+reviews: 13
 size: 7.5M
 website: http://www.risewallet.com
 repository: 

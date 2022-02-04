@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cointopay.app
-appCountry: 
+appCountry: us
 released: 2018-05-29
 updated: 2021-03-31
 version: "2.1.6"

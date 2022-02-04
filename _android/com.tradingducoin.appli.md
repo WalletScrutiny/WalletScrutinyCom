@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tradingducoin.appli
-appCountry: 
+appCountry: ml
 released: 2019-03-10
 updated: 2021-09-03
 version: "5.4.8"

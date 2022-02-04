@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcan.app
-appCountry: 
+appCountry: us
 released: 2017-10-18
 updated: 2021-11-30
 version: "8.0.7.4"

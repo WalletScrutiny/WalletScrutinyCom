@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.bitsacard.BitsaApp
-appCountry: 
+appCountry: gb
 released: 2019-04-09
 updated: 2022-01-20
 version: "2.7.5"
-stars: 1.7
+stars: 2.6
 ratings: 870
-reviews: 5
+reviews: 6
 size: 74M
 website: https://www.bitsacard.com
 repository: 

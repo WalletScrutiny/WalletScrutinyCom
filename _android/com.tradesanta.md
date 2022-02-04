@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.tradesanta
-appCountry: 
+appCountry: us
 released: 2019-05-20
 updated: 2021-11-29
 version: "2.5.0"

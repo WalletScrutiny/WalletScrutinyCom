@@ -6,13 +6,13 @@ authors:
 - danny
 users: 500000
 appId: com.bitflyer.android.bfwallet
-appCountry: 
+appCountry: jp
 released: 2019-10-19
 updated: 2022-01-26
 version: "6.9.0"
-stars: 3.6
+stars: 4.0
 ratings: 4321
-reviews: 21
+reviews: 1311
 size: 17M
 website: https://bitflyer.com
 repository: 

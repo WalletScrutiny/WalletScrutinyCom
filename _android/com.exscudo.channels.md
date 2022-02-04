@@ -6,13 +6,13 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
-appCountry: 
+appCountry: ru
 released: 2018-05-17
 updated: 2022-02-01
 version: "3.2.1059"
-stars: 4.1
+stars: 4.8
 ratings: 626
-reviews: 11
+reviews: 20
 size: 58M
 website: https://fintap.app
 repository: 

@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.okinc.okcoin.intl
-appCountry: 
+appCountry: us
 released: 2018-06-22
 updated: 2022-01-18
 version: "5.3.0"
 stars: 4.0
-ratings: 4328
-reviews: 467
+ratings: 4334
+reviews: 469
 size: 117M
 website: http://www.okcoin.com
 repository: 

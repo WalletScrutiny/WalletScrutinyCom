@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.kinesis.kinesisapp
-appCountry: 
+appCountry: us
 released: 2020-02-28
 updated: 2021-12-15
 version: "1.2.78"

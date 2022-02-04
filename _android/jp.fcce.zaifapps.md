@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: jp.fcce.zaifapps
-appCountry: 
+appCountry: in
 released: 2020-05-07
 updated: 2021-10-30
 version: "1.1.8"

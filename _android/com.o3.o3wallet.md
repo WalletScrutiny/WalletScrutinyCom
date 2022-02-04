@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.o3.o3wallet
-appCountry: 
+appCountry: us
 released: 2020-08-27
 updated: 2021-12-10
 version: "3.3.1"

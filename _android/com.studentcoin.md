@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.studentcoin
-appCountry: 
+appCountry: pl
 released: 2021-04-01
 updated: 2021-10-26
 version: "1.12.2"
-stars: 4.0
-ratings: 664
-reviews: 23
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
 website: https://www.studentcoin.org
 repository: 

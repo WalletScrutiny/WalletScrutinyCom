@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.gcbuying.app
-appCountry: 
+appCountry: ng
 released: 2021-01-26
 updated: 2021-09-17
 version: "1.0.10"
-stars: 4.6
+stars: 4.1
 ratings: 397
-reviews: 177
+reviews: 44
 size: 13M
 website: http://www.gcbuying.com
 repository: 

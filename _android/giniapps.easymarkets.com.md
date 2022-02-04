@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: giniapps.easymarkets.com
-appCountry: 
+appCountry: us
 released: 2017-04-05
 updated: 2021-12-16
 version: "1.28.1"

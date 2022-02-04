@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.phoenix.mainnet
-appCountry: 
+appCountry: us
 released: 2019-12-10
 updated: 2022-01-14
 version: "1.4.20"

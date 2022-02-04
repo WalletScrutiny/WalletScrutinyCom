@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.bytesmix.app
-appCountry: 
+appCountry: cn
 released: 2019-08-11
 updated: 2022-01-11
 version: "2.4.4"
-stars: 4.1
+stars: 3.7
 ratings: 400
-reviews: 8
+reviews: 283
 size: 28M
 website: https://www.bytesmix.com
 repository: 

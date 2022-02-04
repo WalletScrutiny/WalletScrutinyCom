@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.spark.jpex
-appCountry: 
+appCountry: jp
 released: 2020-07-30
 updated: 2022-01-25
 version: "2.33.460"

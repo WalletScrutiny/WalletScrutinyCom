@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.nobillio.coinbaazar
-appCountry: 
+appCountry: us
 released: 2020-08-31
 updated: 2021-10-14
 version: "1.3.10"

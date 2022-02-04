@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.tzero
-appCountry: 
+appCountry: us
 released: 2019-07-24
 updated: 2022-01-20
 version: "2.0.10634"

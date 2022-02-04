@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.trustkeysnetwork
-appCountry: 
+appCountry: us
 released: 2019-03-02
 updated: 2022-01-15
 version: "1.1.57"

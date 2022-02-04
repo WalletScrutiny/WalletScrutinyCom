@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.legendwd.hyperpayW
-appCountry: 
+appCountry: us
 released: 2018-10-25
 updated: 2022-01-24
 version: "4.1.22"

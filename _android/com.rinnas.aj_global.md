@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.rinnas.aj_global
-appCountry: 
+appCountry: us
 released: 2020-05-29
 updated: 2021-10-19
 version: "2.0.8"

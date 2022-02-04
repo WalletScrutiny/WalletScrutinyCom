@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.abcc.exchange
-appCountry: 
+appCountry: us
 released: 2018-08-23
 updated: 2022-01-26
 version: "1.9.13"

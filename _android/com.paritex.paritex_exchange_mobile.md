@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.paritex.paritex_exchange_mobile
-appCountry: 
+appCountry: tr
 released: 2021-03-21
 updated: 2021-12-30
 version: "2.2.5"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 269
+reviews: 97
 size: 17M
 website: https://paritex.com/
 repository: 

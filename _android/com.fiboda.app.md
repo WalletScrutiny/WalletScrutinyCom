@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.fiboda.app
-appCountry: 
+appCountry: us
 released: 2021-01-14
 updated: 2021-07-08
 version: "1.0.5"

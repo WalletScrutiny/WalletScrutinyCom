@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.boquanhash.dotwallet
-appCountry: 
+appCountry: us
 released: 2020-08-26
 updated: 2022-01-24
 version: "2.11.3"

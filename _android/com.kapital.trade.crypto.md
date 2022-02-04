@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.kapital.trade.crypto
-appCountry: 
+appCountry: cz
 released: 2021-01-20
 updated: 2022-01-26
 version: "1.38.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3
+ratings: 1182
+reviews: 27
 size: 63M
 website: https://expcapital.com
 repository: 

@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.application.koinbazar
-appCountry: 
+appCountry: in
 released: 2021-05-17
 updated: 2022-01-18
 version: "1.20"
-stars: 4.2
+stars: 3.8
 ratings: 6441
-reviews: 18
+reviews: 1945
 size: 18M
 website: https://www.koinbazar.com/
 repository: 

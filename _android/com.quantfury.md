@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.quantfury
-appCountry: 
+appCountry: gb
 released: 2018-11-26
 updated: 2022-01-19
 version: "v1.7.1933"
 stars: 5.0
-ratings: 11613
-reviews: 68
+ratings: 11612
+reviews: 55
 size: 67M
 website: https://quantfury.com
 repository: 

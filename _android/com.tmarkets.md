@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.tmarkets
-appCountry: 
+appCountry: us
 released: 
 updated: 2021-12-01
 version: "1.5.78-tmarkets"

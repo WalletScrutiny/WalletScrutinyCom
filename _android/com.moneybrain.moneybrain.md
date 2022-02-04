@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.moneybrain.moneybrain
-appCountry: 
+appCountry: gb
 released: 2019-10-17
 updated: 2021-11-01
 version: "1.2.14"

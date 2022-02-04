@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.hebeblock.hebewallet
-appCountry: 
+appCountry: us
 released: 2019-03-04
 updated: 2022-01-22
 version: "1.4.72"

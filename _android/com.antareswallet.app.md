@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.antareswallet.app
-appCountry: 
+appCountry: us
 released: 2021-03-18
 updated: 2021-03-22
 version: "0.9.5+205"

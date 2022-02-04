@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hitbtc.wallet
-appCountry: 
+appCountry: au
 released: 2021-08-31
 updated: 2022-01-26
 version: "1.2.2"

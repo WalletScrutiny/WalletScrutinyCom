@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.mexo.app
-appCountry: 
+appCountry: us
 released: 2020-08-30
 updated: 2022-01-26
 version: "2.0.8"

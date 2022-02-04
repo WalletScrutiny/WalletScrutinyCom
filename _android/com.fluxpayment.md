@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fluxpayment
-appCountry: 
+appCountry: us
 released: 2020-09-02
 updated: 2022-01-01
 version: "2.1.8"

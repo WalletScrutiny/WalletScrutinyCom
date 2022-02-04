@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.frontierwallet
-appCountry: 
+appCountry: in
 released: 2019-10-30
 updated: 2022-01-20
 version: "4.1.0"
-stars: 3.9
+stars: 4.7
 ratings: 929
-reviews: 39
+reviews: 86
 size: 42M
 website: https://frontier.xyz/
 repository: 

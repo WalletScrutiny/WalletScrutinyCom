@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.trading.aries
-appCountry: 
+appCountry: ng
 released: 2021-06-23
 updated: 2022-01-21
 version: "2.01.4"

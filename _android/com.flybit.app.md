@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.flybit.app
-appCountry: 
+appCountry: us
 released: 2021-02-04
 updated: 2022-01-27
 version: "1.9.6"

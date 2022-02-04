@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.transcrypt.armadillo
-appCountry: 
+appCountry: ru
 released: 2018-05-23
 updated: 2022-01-22
 version: "2.08.2"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.8
+ratings: 168
+reviews: 19
 size: 59M
 website: https://tizer.io
 repository: 

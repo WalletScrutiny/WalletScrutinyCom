@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitwells.android
-appCountry: 
+appCountry: us
 released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"

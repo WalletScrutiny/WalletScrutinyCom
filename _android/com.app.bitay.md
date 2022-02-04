@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.app.bitay
-appCountry: 
+appCountry: us
 released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"

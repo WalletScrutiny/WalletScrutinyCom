@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: global.bithumb.android
-appCountry: 
+appCountry: us
 released: 2019-07-05
 updated: 2021-08-05
 version: "2.6.24"

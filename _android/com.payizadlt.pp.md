@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.payizadlt.pp
-appCountry: 
+appCountry: us
 released: 2021-03-02
 updated: 2021-04-17
 version: "8.0"

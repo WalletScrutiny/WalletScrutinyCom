@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.kelta.app
-appCountry: 
+appCountry: sk
 released: 2018-05-15
 updated: 2021-11-22
 version: "3.1.1"
-stars: 3.6
+stars: 2.9
 ratings: 1254
-reviews: 56
+reviews: 1109
 size: 4.3M
 website: https://kelta.com/
 repository: 

@@ -8,7 +8,7 @@ authors:
 - leo
 users: 50000
 appId: one.mixin.messenger
-appCountry: 
+appCountry: us
 released: 2018-05-24
 updated: 2022-01-27
 version: "0.34.3"

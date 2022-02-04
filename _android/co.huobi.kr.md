@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: co.huobi.kr
-appCountry: 
+appCountry: cn
 released: 2018-04-12
 updated: 2022-01-27
 version: "3.6.6"
-stars: 5.0
+stars: 3.3
 ratings: 3485
-reviews: 40
+reviews: 1380
 size: 51M
 website: https://www.huobi.co.kr
 repository: 

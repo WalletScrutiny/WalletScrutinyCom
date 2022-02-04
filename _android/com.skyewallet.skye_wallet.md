@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.skyewallet.skye_wallet
-appCountry: 
+appCountry: us
 released: 2021-05-01
 updated: 2021-11-03
 version: "2.9.4"

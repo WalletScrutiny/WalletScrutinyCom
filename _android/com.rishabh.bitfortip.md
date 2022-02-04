@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.rishabh.bitfortip
-appCountry: 
+appCountry: us
 released: 2016-12-21
 updated: 2021-06-20
 version: "2.6"

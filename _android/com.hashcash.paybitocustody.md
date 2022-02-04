@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.hashcash.paybitocustody
+appCountry: 
 released: 2021-05-10
 updated: 2021-05-10
 version: "1.0"

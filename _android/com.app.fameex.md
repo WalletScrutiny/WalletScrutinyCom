@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.fameex
-appCountry: 
+appCountry: us
 released: 2020-08-10
 updated: 2022-01-21
 version: "2.9.0"

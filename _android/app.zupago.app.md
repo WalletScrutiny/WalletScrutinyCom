@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.zupago.app
-appCountry: 
+appCountry: us
 released: 2021-04-30
 updated: 2022-01-30
 version: "1.5.6"

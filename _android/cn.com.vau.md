@@ -6,13 +6,13 @@ authors:
 - danny
 users: 1000000
 appId: cn.com.vau
-appCountry: 
+appCountry: cn
 released: 2019-07-06
 updated: 2022-01-26
 version: "2.0.4"
-stars: 4.2
-ratings: 8140
-reviews: 17
+stars: 4.8
+ratings: 8154
+reviews: 975
 size: 33M
 website: https://www.vantagemarkets.com/
 repository: 

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.beaxy.cryptoexchange
-appCountry: 
+appCountry: us
 released: 2020-02-07
 updated: 2021-12-29
 version: "2.10"

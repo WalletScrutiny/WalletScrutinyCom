@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.techx.arya
-appCountry: 
+appCountry: us
 released: 2019-09-10
 updated: 2021-12-13
 version: "2.13.0"

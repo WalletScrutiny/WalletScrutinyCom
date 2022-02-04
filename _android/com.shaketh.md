@@ -11,7 +11,7 @@ released: 2018-02-20
 updated: 2022-02-03
 version: "1.8.49"
 stars: 4.5
-ratings: 10290
+ratings: 10292
 reviews: 20
 size: 100M
 website: https://shakepay.com

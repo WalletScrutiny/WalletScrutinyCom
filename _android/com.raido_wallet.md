@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.raido_wallet
-appCountry: 
+appCountry: us
 released: 2020-07-27
 updated: 2022-01-24
 version: "2.8.0"

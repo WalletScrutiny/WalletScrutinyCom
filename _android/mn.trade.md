@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: mn.trade
-appCountry: 
+appCountry: us
 released: 2018-04-13
 updated: 2021-06-29
 version: "2.0.5"

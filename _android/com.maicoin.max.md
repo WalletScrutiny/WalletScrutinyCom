@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.maicoin.max
-appCountry: 
+appCountry: us
 released: 2018-07-01
 updated: 2021-08-09
 version: "3.0.0"

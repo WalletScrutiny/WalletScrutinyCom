@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitleague
-appCountry: 
+appCountry: us
 released: 2019-05-06
 updated: 2021-05-14
 version: "2.15.2"

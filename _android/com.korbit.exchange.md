@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.korbit.exchange
-appCountry: 
+appCountry: us
 released: 2018-07-22
 updated: 2022-01-27
 version: "4.4.3"

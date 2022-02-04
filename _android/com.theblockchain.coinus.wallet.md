@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.theblockchain.coinus.wallet
-appCountry: 
+appCountry: bj
 released: 2018-04-23
 updated: 2021-12-10
 version: "3.0.0"
-stars: 4.2
+stars: 3.9
 ratings: 379
-reviews: 4
+reviews: 233
 size: 39M
 website: https://coinus.io/
 repository: 

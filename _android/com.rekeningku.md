@@ -6,12 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.rekeningku
-appCountry: 
+appCountry: us
 released: 2018-02-21
 updated: 2022-01-31
 version: "2.1.65"
 stars: 4.1
-ratings: 22291
+ratings: 22294
 reviews: 34
 size: 34M
 website: https://www.rekeningku.com

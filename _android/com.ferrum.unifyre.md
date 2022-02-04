@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ferrum.unifyre
-appCountry: 
+appCountry: us
 released: 2020-05-29
 updated: 2020-09-20
 version: "0.0.19"

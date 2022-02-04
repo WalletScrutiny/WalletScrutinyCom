@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.saltlending.mobile
-appCountry: 
+appCountry: us
 released: 2019-01-07
 updated: 2022-01-11
 version: "2.1.11"

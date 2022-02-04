@@ -7,7 +7,7 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
-appCountry: 
+appCountry: us
 released: 2019-07-20
 updated: 2022-01-27
 version: "8.0.1"

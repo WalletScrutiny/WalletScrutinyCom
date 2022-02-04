@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000000
 appId: com.kubi.kucoin
+appCountry: 
 released: 2018-05-03
 updated: 2022-01-23
 version: "3.49.1"

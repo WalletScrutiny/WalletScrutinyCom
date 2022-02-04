@@ -7,13 +7,13 @@ authors:
 - leo
 users: 500000
 appId: com.crypto.exchange
-appCountry: 
+appCountry: nz
 released: 2021-05-26
-updated: 2022-01-19
-version: "1.6.0"
-stars: 4.6
-ratings: 3153
-reviews: 2
+updated: 2022-01-29
+version: "1.6.1"
+stars: 4.5
+ratings: 3154
+reviews: 6
 size: 67M
 website: https://www.crypto.com/
 repository: 

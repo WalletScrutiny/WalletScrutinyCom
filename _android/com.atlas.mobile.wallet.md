@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.atlas.mobile.wallet
-appCountry: 
+appCountry: us
 released: 2020-08-07
 updated: 2021-10-27
 version: "1.0.44"

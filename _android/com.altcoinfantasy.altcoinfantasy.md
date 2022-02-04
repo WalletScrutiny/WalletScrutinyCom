@@ -7,7 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.altcoinfantasy.altcoinfantasy
-appCountry: 
+appCountry: us
 released: 2018-01-05
 updated: 2021-01-07
 version: "3.3.6-google"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.cointiger.ex
-appCountry: 
+appCountry: us
 released: 2020-07-23
 updated: 2021-12-31
 version: "5.0.60.2"

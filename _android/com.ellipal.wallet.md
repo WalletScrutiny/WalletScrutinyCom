@@ -6,7 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.ellipal.wallet
-appCountry: 
+appCountry: us
 released: 2018-07-02
 updated: 2022-01-15
 version: "3.3.1"

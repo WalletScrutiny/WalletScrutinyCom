@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wirex.wallet
-appCountry: 
+appCountry: nz
 released: 2021-12-03
 updated: 2021-12-30
 version: "0.2.1"

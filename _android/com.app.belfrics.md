@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.app.belfrics
-appCountry: 
+appCountry: us
 released: 2017-10-17
 updated: 2022-01-31
 version: "2.1.5"

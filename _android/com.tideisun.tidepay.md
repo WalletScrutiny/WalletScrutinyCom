@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.tideisun.tidepay
-appCountry: 
+appCountry: us
 released: 2018-05-23
 updated: 2021-07-20
 version: "2.1.3"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tokoin.wallet
-appCountry: 
+appCountry: us
 released: 2019-12-11
 updated: 2021-11-22
 version: "3.2.5"

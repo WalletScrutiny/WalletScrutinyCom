@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.kriptomat.app
-appCountry: 
+appCountry: us
 released: 2018-12-17
 updated: 2022-01-28
 version: "2.0.2"

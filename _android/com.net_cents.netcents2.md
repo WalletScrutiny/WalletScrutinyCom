@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.net_cents.netcents2
-appCountry: 
+appCountry: us
 released: 2017-10-12
 updated: 2022-01-28
 version: "2.11.5"

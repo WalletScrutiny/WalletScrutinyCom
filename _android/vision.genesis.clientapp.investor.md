@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: vision.genesis.clientapp.investor
-appCountry: 
+appCountry: us
 released: 2018-02-15
 updated: 2022-01-20
 version: "2.7.6"

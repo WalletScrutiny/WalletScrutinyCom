@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: jp.co.smartapp.gowallet
-appCountry: 
+appCountry: us
 released: 2019-06-16
 updated: 2020-10-07
 version: "1.2.5"

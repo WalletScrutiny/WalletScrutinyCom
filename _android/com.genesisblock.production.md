@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.genesisblock.production
-appCountry: 
+appCountry: us
 released: 2020-05-06
 updated: 2022-02-03
 version: "0.1.71"

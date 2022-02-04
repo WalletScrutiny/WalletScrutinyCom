@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: io.b21.invest
-appCountry: 
+appCountry: in
 released: 2020-02-24
 updated: 2022-01-30
 version: "0.8.0"
-stars: 3.4
+stars: 2.9
 ratings: 584
-reviews: 8
+reviews: 284
 size: 40M
 website: https://b21.io
 repository: 

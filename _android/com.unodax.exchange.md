@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.unodax.exchange
-appCountry: 
+appCountry: us
 released: 2018-04-04
 updated: 2021-06-16
 version: "2.5.7"

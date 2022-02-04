@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitfyapp
-appCountry: 
+appCountry: us
 released: 2019-10-14
 updated: 2022-01-25
 version: "3.10.23"

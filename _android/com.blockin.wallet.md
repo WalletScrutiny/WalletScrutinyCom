@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blockin.wallet
-appCountry: 
+appCountry: us
 released: 2020-03-23
 updated: 2022-01-27
 version: "2.2.9"

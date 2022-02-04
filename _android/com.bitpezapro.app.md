@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitpezapro.app
-appCountry: 
+appCountry: us
 released: 2020-02-09
 updated: 2021-09-11
 version: "1.0.3"

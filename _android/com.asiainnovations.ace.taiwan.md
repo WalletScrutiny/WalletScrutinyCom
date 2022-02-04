@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.asiainnovations.ace.taiwan
-appCountry: 
+appCountry: us
 released: 2019-01-28
 updated: 2022-01-07
 version: "5.2.0_3002"

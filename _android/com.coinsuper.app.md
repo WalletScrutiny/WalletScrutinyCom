@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinsuper.app
-appCountry: 
+appCountry: us
 released: 2018-04-24
 updated: 2021-11-04
 version: "2.5.8"

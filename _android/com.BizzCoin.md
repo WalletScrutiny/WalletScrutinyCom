@@ -6,13 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.BizzCoin
-appCountry: 
+appCountry: in
 released: 2020-01-02
 updated: 2021-10-28
 version: "1.21"
-stars: 4.7
+stars: 4.8
 ratings: 490
-reviews: 18
+reviews: 13
 size: 42M
 website: https://www.bizzcoin.com/
 repository: 

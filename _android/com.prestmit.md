@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.prestmit
-appCountry: 
+appCountry: us
 released: 2021-04-13
 updated: 2021-09-02
 version: "2.4"

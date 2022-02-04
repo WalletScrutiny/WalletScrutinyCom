@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.application.changecoin
-appCountry: 
+appCountry: us
 released: 2020-05-12
 updated: 2021-02-09
 version: "1.2.5"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.koinstrap.koinstrap
-appCountry: 
+appCountry: us
 released: 2020-08-28
 updated: 2021-11-13
 version: "2.1.8"

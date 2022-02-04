@@ -6,6 +6,7 @@ authors:
 
 users: 100000
 appId: com.primexbt.exchange
+appCountry: 
 released: 2019-05-08
 updated: 2020-07-16
 version: "144.5.0-release"

@@ -1,12 +1,12 @@
 ---
 wsId: FondexcTrader
-title: "Fondex cTrader: CFD Trading"
+title: "Fondex cTrader - mobile investing platform"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.fondexmobile.ct
-appCountry: 
+appCountry: au
 released: 2017-11-02
 updated: 2021-11-24
 version: "4.3.54310"

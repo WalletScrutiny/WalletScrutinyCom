@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.github.ontio.onto
-appCountry: 
+appCountry: us
 released: 2018-06-27
 updated: 2022-01-29
 version: "4.1.9"

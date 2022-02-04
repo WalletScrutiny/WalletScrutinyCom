@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ctrade.mobile
-appCountry: 
+appCountry: us
 released: 2020-12-19
 updated: 2022-01-24
 version: "1.1.7"

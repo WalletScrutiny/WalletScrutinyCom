@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.vouchermoneywallet
-appCountry: 
+appCountry: in
 released: 2020-12-15
 updated: 2021-03-03
 version: "1.38.1"

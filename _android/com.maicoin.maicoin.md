@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.maicoin.maicoin
-appCountry: 
+appCountry: us
 released: 2018-12-19
 updated: 2021-07-05
 version: "3.5.1"

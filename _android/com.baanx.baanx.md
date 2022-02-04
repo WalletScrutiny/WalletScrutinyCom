@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.baanx.baanx
-appCountry: 
+appCountry: us
 released: 2019-10-10
 updated: 2021-09-07
 version: "3.1.0"

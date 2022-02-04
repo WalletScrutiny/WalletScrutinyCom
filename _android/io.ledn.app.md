@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.ledn.app
-appCountry: 
+appCountry: us
 released: 2021-01-04
 updated: 2021-01-28
 version: "0.1.3"

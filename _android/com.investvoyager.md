@@ -11,8 +11,8 @@ released: 2020-02-25
 updated: 2022-01-28
 version: "3.2.0"
 stars: 4.6
-ratings: 24925
-reviews: 7291
+ratings: 24942
+reviews: 7293
 size: 57M
 website: https://www.investvoyager.com/
 repository: 

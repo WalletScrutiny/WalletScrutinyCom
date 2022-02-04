@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ocean.exchange
-appCountry: 
+appCountry: us
 released: 2019-07-04
 updated: 2021-10-21
 version: "1.4.24"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: co.realt.bridge
-appCountry: 
+appCountry: be
 released: 2021-03-18
 updated: 2021-12-14
 version: "1.20"

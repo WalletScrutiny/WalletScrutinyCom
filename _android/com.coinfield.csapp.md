@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.coinfield.csapp
-appCountry: 
+appCountry: ca
 released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
-stars: 4.3
+stars: 3.7
 ratings: 1219
-reviews: 31
+reviews: 88
 size: 58M
 website: http://www.coinfield.com
 repository: 

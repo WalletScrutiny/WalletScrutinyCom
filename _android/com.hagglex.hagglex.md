@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.hagglex.hagglex
-appCountry: 
+appCountry: us
 released: 2021-03-17
 updated: 2021-11-26
 version: "1.1.2"

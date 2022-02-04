@@ -6,7 +6,7 @@ authors:
 - leo
 users: 1000
 appId: ai.azara.wallet
-appCountry: 
+appCountry: de
 released: 2020-11-10
 updated: 2021-04-14
 version: "0.01.18"

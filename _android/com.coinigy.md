@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinigy
-appCountry: 
+appCountry: us
 released: 2018-06-11
 updated: 2021-06-07
 version: "0.5.30"

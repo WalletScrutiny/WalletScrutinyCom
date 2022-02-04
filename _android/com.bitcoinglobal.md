@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoinglobal
-appCountry: 
+appCountry: us
 released: 2020-09-25
 updated: 2022-01-31
 version: "2.11.0"

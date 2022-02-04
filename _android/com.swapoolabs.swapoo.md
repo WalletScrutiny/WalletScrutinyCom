@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.swapoolabs.swapoo
-appCountry: 
+appCountry: ph
 released: 2020-01-09
 updated: 2021-11-02
 version: "1.28.125"

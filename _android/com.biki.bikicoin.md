@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.biki.bikicoin
-appCountry: 
+appCountry: us
 released: 2019-05-13
 updated: 2021-07-21
 version: "4.9.1"

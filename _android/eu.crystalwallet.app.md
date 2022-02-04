@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: eu.crystalwallet.app
-appCountry: 
+appCountry: us
 released: 2020-03-15
 updated: 2021-10-21
 version: "1.77"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.brilliantts.fuzew
-appCountry: 
+appCountry: us
 released: 2018-07-25
 updated: 2021-08-10
 version: "1.0.23"

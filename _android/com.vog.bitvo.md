@@ -6,13 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.vog.bitvo
-appCountry: 
+appCountry: ca
 released: 2020-03-16
 updated: 2022-01-24
 version: "1.5.9"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.0
+ratings: 24
+reviews: 16
 size: 12M
 website: https://bitvo.com
 repository: 

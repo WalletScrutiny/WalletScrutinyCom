@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinmotion
-appCountry: 
+appCountry: in
 released: 2020-08-20
 updated: 2022-01-10
 version: "1.6.2"

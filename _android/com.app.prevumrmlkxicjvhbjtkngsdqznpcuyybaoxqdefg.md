@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg
-appCountry: 
+appCountry: us
 released: 2018-02-27
 updated: 2021-05-22
 version: "2.0"

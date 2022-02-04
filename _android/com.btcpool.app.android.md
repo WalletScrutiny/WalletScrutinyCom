@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btcpool.app.android
-appCountry: 
+appCountry: us
 released: 2020-02-25
 updated: 2022-01-28
 version: "2.0.4"

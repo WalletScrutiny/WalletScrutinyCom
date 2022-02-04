@@ -6,7 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.mtpelerin.bridge
-appCountry: 
+appCountry: us
 released: 2020-04-07
 updated: 2022-01-22
 version: "1.21"

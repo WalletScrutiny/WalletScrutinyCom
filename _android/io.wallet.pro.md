@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.wallet.pro
-appCountry: 
+appCountry: nz
 released: 2019-07-14
 updated: 2021-08-04
 version: "1.2.9"

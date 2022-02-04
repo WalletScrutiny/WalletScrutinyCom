@@ -6,13 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.chiji14xchange
-appCountry: 
+appCountry: ng
 released: 2019-04-22
 updated: 2021-05-22
 version: "3.0.5"
-stars: 3.0
+stars: 3.8
 ratings: 1110
-reviews: 74
+reviews: 874
 size: 30M
 website: https://chiji14xchange.com
 repository: 

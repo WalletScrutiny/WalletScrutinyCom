@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hconline.iso
-appCountry: 
+appCountry: us
 released: 2020-07-19
 updated: 2022-01-04
 version: "R02.03.06.417"

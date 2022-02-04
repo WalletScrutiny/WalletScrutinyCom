@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.zipwallet.app
-appCountry: 
+appCountry: us
 released: 2018-01-30
 updated: 2022-01-25
 version: "10.1.4"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tokenize.exchange.tradingapp
-appCountry: 
+appCountry: us
 released: 2019-12-03
 updated: 2022-01-27
 version: "1.19.12"

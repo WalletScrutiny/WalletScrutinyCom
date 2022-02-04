@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xaltbase.app
-appCountry: 
+appCountry: us
 released: 2021-05-31
 updated: 2021-11-18
 version: "3.0.5"

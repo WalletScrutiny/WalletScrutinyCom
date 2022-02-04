@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zixipay.wallet
-appCountry: 
+appCountry: us
 released: 2019-12-18
 updated: 2021-12-15
 version: "1.76"

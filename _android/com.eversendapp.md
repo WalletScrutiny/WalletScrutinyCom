@@ -6,13 +6,13 @@ authors:
 - danny
 users: 500000
 appId: com.eversendapp
-appCountry: 
+appCountry: lv
 released: 2019-02-01
 updated: 2022-02-02
 version: "0.2.47"
-stars: 3.5
+stars: 3.8
 ratings: 4577
-reviews: 91
+reviews: 1972
 size: 54M
 website: http://eversend.co
 repository: 

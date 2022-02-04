@@ -6,13 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.nitroex.nitroexchangeapp
-appCountry: 
+appCountry: tt
 released: 2021-06-23
 updated: 2021-12-28
 version: "2.0.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.6
+ratings: 228
+reviews: 164
 size: 22M
 website: https://www.nitroex.io/
 repository: 

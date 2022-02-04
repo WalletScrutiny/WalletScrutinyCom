@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.nakitcoins.wallet
-appCountry: 
+appCountry: us
 released: 2021-03-30
 updated: 2022-01-10
 version: "2.1.2"

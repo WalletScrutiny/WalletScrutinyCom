@@ -6,8 +6,8 @@ authors:
 - danny
 users: 1000
 appId: com.bitcoinsuisse.online
-appCountry: 
-released: 
+appCountry: pl
+released: 2021-09-21
 updated: 2021-12-16
 version: "1.1.1"
 stars: 0.0

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: inc.lireneosoft.counterparty
-appCountry: 
+appCountry: us
 released: 2015-04-28
 updated: 2019-06-14
 version: "2.5.4"

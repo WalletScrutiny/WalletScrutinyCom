@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: co.digitalmoney.dmapp
-appCountry: 
+appCountry: us
 released: 2021-02-12
 updated: 2021-11-10
 version: "1.4.9"

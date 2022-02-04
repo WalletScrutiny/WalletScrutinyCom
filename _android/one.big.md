@@ -6,12 +6,12 @@ authors:
 - danny
 users: 50000
 appId: one.big
-appCountry: 
+appCountry: us
 released: 2019-10-30
 updated: 2022-02-02
 version: "2.2.202"
 stars: 4.0
-ratings: 822
+ratings: 823
 reviews: 52
 size: 55M
 website: https://www.b1.zone/

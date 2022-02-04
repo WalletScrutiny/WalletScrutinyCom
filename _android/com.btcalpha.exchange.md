@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btcalpha.exchange
-appCountry: 
+appCountry: us
 released: 2021-07-23
 updated: 2022-01-30
 version: "1.10.3"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: exchange.delta
-appCountry: 
+appCountry: nz
 released: 2021-05-07
 updated: 2021-11-24
 version: "1.4.6.1"

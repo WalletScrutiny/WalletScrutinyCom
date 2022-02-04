@@ -7,7 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.bixin.wallet.mainnet
-appCountry: 
+appCountry: us
 released: 2020-09-16
 updated: 2022-01-19
 version: "2.12.2"

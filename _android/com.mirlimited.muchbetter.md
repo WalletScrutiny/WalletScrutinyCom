@@ -6,13 +6,13 @@ authors:
 - danny
 users: 500000
 appId: com.mirlimited.muchbetter
-appCountry: 
+appCountry: gb
 released: 2017-05-30
 updated: 2022-02-01
 version: "3.0.0"
-stars: 3.7
-ratings: 9821
-reviews: 42
+stars: 3.5
+ratings: 9822
+reviews: 109
 size: 31M
 website: https://www.muchbetter.com
 repository: 

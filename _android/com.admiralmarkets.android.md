@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.admiralmarkets.android
-appCountry: 
+appCountry: us
 released: 2020-10-07
 updated: 2022-01-13
 version: "1.5.1"

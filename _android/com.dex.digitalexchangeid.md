@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.dex.digitalexchangeid
-appCountry: 
+appCountry: us
 released: 
 updated: 2022-01-21
 version: "Varies with device"

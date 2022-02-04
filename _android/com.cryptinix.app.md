@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptinix.app
-appCountry: 
+appCountry: us
 released: 2020-11-24
 updated: 2021-02-09
 version: "1.2.0"

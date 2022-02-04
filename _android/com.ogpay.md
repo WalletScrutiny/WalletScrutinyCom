@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ogpay
-appCountry: 
+appCountry: us
 released: 2019-07-31
 updated: 2022-01-03
 version: "Varies with device"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.bull
-appCountry: 
+appCountry: us
 released: 2021-06-28
 updated: 2021-10-13
 version: "1.4.1-947"

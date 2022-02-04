@@ -8,7 +8,7 @@ authors:
 - emanuel
 users: 1000
 appId: com.rsk.rwallet.v2
-appCountry: 
+appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
 version: "2.0.1"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.silenca.cryptoneed
-appCountry: 
+appCountry: us
 released: 2020-04-15
 updated: 2021-04-27
 version: "1.0.31"

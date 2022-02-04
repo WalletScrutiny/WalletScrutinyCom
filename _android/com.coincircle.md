@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coincircle
-appCountry: 
+appCountry: us
 released: 2021-04-26
 updated: 2022-01-21
 version: "1.2.22.10220"

@@ -11,7 +11,7 @@ released: 2017-12-13
 updated: 2021-12-16
 version: "5.2.1"
 stars: 3.0
-ratings: 58763
+ratings: 58762
 reviews: 2152
 size: 14M
 website: http://electroneum.com

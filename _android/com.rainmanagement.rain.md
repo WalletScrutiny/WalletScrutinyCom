@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.rainmanagement.rain
-appCountry: 
+appCountry: bh
 released: 2018-11-02
 updated: 2022-01-23
 version: "2.4.8"
-stars: 3.0
-ratings: 4298
-reviews: 110
+stars: 3.3
+ratings: 4300
+reviews: 2224
 size: 159M
 website: https://rain.bh
 repository: 

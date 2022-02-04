@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.hoo.qianbao
-appCountry: 
+appCountry: us
 released: 2021-03-17
 updated: 2022-01-25
 version: "4.7.45"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.trastra.mobile
-appCountry: 
+appCountry: us
 released: 2019-01-19
 updated: 2022-01-27
 version: "2.6.3"

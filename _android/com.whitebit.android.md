@@ -6,13 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.whitebit.android
-appCountry: 
+appCountry: ua
 released: 2019-06-07
 updated: 2022-02-02
 version: "2.3.4"
-stars: 2.7
-ratings: 1843
-reviews: 95
+stars: 4.5
+ratings: 1844
+reviews: 59
 size: 27M
 website: https://whitebit.com/
 repository: 

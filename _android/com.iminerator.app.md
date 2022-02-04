@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.iminerator.app
-appCountry: 
+appCountry: us
 released: 2021-04-20
 updated: 2021-10-08
 version: "2.0.0"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zbx.app
-appCountry: 
+appCountry: us
 released: 2019-10-18
 updated: 2022-01-15
 version: "2.1.4"

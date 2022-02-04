@@ -11,7 +11,7 @@ released: 2019-09-19
 updated: 2022-01-29
 version: "1.3.47"
 stars: 4.1
-ratings: 71421
+ratings: 71443
 reviews: 1288
 size: 17M
 website: https://www.hotbit.io/

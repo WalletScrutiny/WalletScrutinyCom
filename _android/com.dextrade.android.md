@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.dextrade.android
-appCountry: 
+appCountry: us
 released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"

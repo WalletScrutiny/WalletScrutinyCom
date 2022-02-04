@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: am.ecos.android
-appCountry: 
+appCountry: us
 released: 2020-09-22
 updated: 2021-12-28
 version: "1.20.2"

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.teroxx
-appCountry: 
+appCountry: us
 released: 2019-08-26
 updated: 2022-01-12
 version: "3.0.9"
