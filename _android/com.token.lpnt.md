@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.token.lpnt
+appCountry: 
 released: 2021-05-03
 updated: 2022-01-31
 version: "2.8"
-stars: 4.3
-ratings: 1317
-reviews: 586
+stars: 0.0
+ratings: 
+reviews: 
 size: 24M
-website: https://lpntoken.io/
+website: https://www.lpntoken.io
 repository: 
 issue: 
 icon: com.token.lpnt.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 500000
 appId: com.bitbns
+appCountry: 
 released: 2019-09-21
 updated: 2022-01-25
 version: "6.0.3"
-stars: 3.4
-ratings: 13453
-reviews: 6838
+stars: 3.6
+ratings: 15395
+reviews: 33
 size: 40M
-website: https://bitbns.com
+website: https://bitbns.com/
 repository: 
 issue: 
 icon: com.bitbns.png

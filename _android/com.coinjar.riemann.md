@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.coinjar.riemann
-released: 
+appCountry: 
+released: 2019-11-21
 updated: 2022-02-02
 version: "2.18.0"
-stars: 3.7
-ratings: 1156
-reviews: 837
+stars: 3.3
+ratings: 1240
+reviews: 6
 size: 98M
 website: https://www.coinjar.com
 repository: 

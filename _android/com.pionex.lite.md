@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.pionex.lite
+appCountry: 
 released: 2021-05-14
 updated: 2021-12-17
 version: "1.1.9"
-stars: 3.9
-ratings: 16
-reviews: 9
+stars: 3.1
+ratings: 31
+reviews: 8
 size: 51M
 website: https://www.pionex.sg/blog/
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.futuretradelink
+appCountry: 
 released: 
 updated: 2021-08-03
 version: "1.3"

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: io.lisk.mobile
+appCountry: 
 released: 2018-10-02
 updated: 2021-03-25
 version: "1.4.1"

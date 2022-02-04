@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.pro.changelly
+appCountry: 
 released: 2020-07-03
 updated: 2021-04-13
 version: "1.0.13"
-stars: 4.6
-ratings: 162
-reviews: 94
+stars: 
+ratings: 
+reviews: 
 size: 11M
 website: https://pro.changelly.com/
 repository: 

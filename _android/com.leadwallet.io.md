@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.leadwallet.io
+appCountry: 
 released: 
 updated: 2021-08-14
 version: "Varies with device"

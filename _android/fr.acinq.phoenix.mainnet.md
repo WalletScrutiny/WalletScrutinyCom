@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.phoenix.mainnet
+appCountry: 
 released: 2019-12-10
 updated: 2022-01-14
 version: "1.4.20"
-stars: 4
-ratings: 294
-reviews: 145
+stars: 4.4
+ratings: 306
+reviews: 27
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.cointiger.ex
+appCountry: 
 released: 2020-07-23
 updated: 2021-12-31
 version: "5.0.60.2"
-stars: 4.6
-ratings: 11379
-reviews: 1007
+stars: 4.5
+ratings: 12332
+reviews: 108
 size: 43M
-website: https://www.cointiger.com/
+website: https://www.cointiger.com
 repository: 
 issue: 
 icon: com.cointiger.ex.png

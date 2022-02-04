@@ -6,12 +6,13 @@ authors:
 
 users: 500
 appId: com.bitfxservice.bitfxservice
+appCountry: 
 released: 2019-10-08
 updated: 2019-10-08
 version: "1.0"
-stars: 3
-ratings: 5
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 54k
 website: 
 repository: 

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.everus.org
+appCountry: 
 released: 2018-04-07
 updated: 2021-03-07
 version: "1.2.9"
-stars: 4.6
-ratings: 7586
-reviews: 6951
+stars: 4.9
+ratings: 7595
+reviews: 229
 size: 14M
-website: https://everusworld.com/
+website: https://www.everus.org
 repository: 
 issue: 
 icon: com.everus.org.png

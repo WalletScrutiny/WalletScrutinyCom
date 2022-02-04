@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.gp.ubs
+appCountry: 
 released: 
 updated: 2021-06-20
 version: "1.1.2"

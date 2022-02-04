@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.hoo.qianbao
+appCountry: 
 released: 2021-03-17
 updated: 2022-01-25
 version: "4.7.45"
-stars: 2.4
-ratings: 491
-reviews: 405
+stars: 4.0
+ratings: 701
+reviews: 57
 size: 56M
 website: https://hoo.com
 repository: 

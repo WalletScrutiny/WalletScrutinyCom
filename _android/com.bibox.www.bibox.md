@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bibox.www.bibox
+appCountry: 
 released: 2019-03-24
 updated: 2021-11-04
 version: "4.8.5"

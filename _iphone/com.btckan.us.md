@@ -10,8 +10,8 @@ idd: 1004852205
 released: 2015-06-24
 updated: 2022-01-12
 version: "8.2.1"
-stars: 4.95761
-reviews: 519
+stars: 4.95744
+reviews: 517
 size: 180712448
 website: https://bitkan.com/
 repository: 

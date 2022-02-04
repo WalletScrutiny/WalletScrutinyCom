@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.freeda.freedaapp
+appCountry: 
 released: 2021-04-13
 updated: 2021-11-19
 version: "1.7.1"
 stars: 4.9
-ratings: 58
-reviews: 42
+ratings: 67
+reviews: 41
 size: 15M
-website: https://www.freeda.io/
+website: https://www.freeda.io
 repository: 
 issue: 
 icon: com.freeda.freedaapp.png

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100
 appId: wall.exodus.btcandcrypto
+appCountry: 
 released: 2021-07-16
 updated: 2021-07-16
 version: "6.045"

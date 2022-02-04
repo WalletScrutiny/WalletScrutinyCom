@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.cryptosignals.free.bitcoin.cash.wallet
+appCountry: 
 released: 2021-06-19
 updated: 2021-06-19
 version: "1.0"

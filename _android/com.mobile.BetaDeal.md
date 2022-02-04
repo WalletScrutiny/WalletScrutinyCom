@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.mobile.BetaDeal
+appCountry: 
 released: 2021-06-30
 updated: 2022-01-26
 version: "1.1.0"
-stars: 3.8
-ratings: 81
-reviews: 67
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: https://www.betadeal.net/
+website: https://betadeal.net
 repository: 
 issue: 
 icon: com.mobile.BetaDeal.png

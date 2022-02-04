@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.liquigate
+appCountry: 
 released: 2020-08-29
 updated: 2021-02-01
 version: "1.1.9"
-stars: 4.3
-ratings: 9
-reviews: 9
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.8M
-website: 
+website: https://www.liquigate.com
 repository: 
 issue: 
 icon: com.liquigate.png

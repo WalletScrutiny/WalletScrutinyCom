@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.cryptooptionstrading.bitcoin.wallet.account
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"

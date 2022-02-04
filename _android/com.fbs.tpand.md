@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000000
 appId: com.fbs.tpand
+appCountry: 
 released: 2019-03-25
 updated: 2021-12-21
 version: "1.45.1"
-stars: 4.6
-ratings: 110938
-reviews: 27695
+stars: 4.8
+ratings: 122611
+reviews: 129
 size: 22M
-website: 
+website: https://fbs.com/
 repository: 
 issue: 
 icon: com.fbs.tpand.png

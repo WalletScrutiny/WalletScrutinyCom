@@ -6,14 +6,15 @@ authors:
 - leo
 users: 500000
 appId: com.wavesplatform.wallet
+appCountry: 
 released: 2017-03-09
 updated: 2022-01-18
 version: "2.21.1"
-stars: 3.8
-ratings: 6590
-reviews: 3361
+stars: 3.9
+ratings: 6891
+reviews: 170
 size: 51M
-website: https://waves.exchange/
+website: https://support.waves.exchange/
 repository: 
 issue: 
 icon: com.wavesplatform.wallet.png

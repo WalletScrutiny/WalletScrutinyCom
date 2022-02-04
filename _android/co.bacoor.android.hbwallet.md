@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: co.bacoor.android.hbwallet
+appCountry: 
 released: 2017-07-17
 updated: 2021-07-08
 version: "3.5.0"
-stars: 3.9
-ratings: 2104
-reviews: 904
+stars: 4.5
+ratings: 2133
+reviews: 42
 size: 71M
-website: https://www.hb-wallet.com
+website: https://www.hb-wallet.com/
 repository: 
 issue: 
 icon: co.bacoor.android.hbwallet.png

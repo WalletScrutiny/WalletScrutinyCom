@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.cryptowallet.defi
+appCountry: 
 released: 2021-08-08
 updated: 2021-08-08
 version: "0.21.4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 46M

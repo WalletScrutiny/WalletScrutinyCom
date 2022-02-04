@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: ru.borik.cryptomarket.android
+appCountry: 
 released: 2017-12-18
 updated: 2021-04-01
 version: "1.62"
-stars: 4.1
-ratings: 127
-reviews: 57
+stars: 3.9
+ratings: 136
+reviews: 3
 size: 7.5M
 website: 
 repository: 

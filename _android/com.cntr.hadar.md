@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.cntr.hadar
+appCountry: 
 released: 2021-05-19
 updated: 2021-06-21
 version: "1.0.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 37M

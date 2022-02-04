@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: crypto.wallet.chainapp
+appCountry: 
 released: 2021-03-24
 updated: 2021-09-22
 version: "1.2.8"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 12M
-website: 
+website: https://getbull.app
 repository: 
 issue: 
 icon: crypto.wallet.chainapp.png

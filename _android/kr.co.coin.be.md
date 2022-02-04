@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: kr.co.coin.be
+appCountry: 
 released: 2020-02-22
 updated: 2020-02-23
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 4.7M

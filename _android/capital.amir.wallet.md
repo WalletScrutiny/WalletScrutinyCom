@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: capital.amir.wallet
+appCountry: 
 released: 2021-08-03
 updated: 2021-11-29
 version: "3.12.1"
-stars: 4.9
-ratings: 615
-reviews: 475
+stars: 0.0
+ratings: 
+reviews: 
 size: 58M
 website: https://amir.capital/
 repository: 

@@ -6,12 +6,13 @@ authors:
 
 users: 5000
 appId: com.quickben22.bitcoinlotto
+appCountry: 
 released: 2018-03-29
 updated: 2018-04-24
 version: "version 0.92"
-stars: 3
-ratings: 50
-reviews: 25
+stars: 3.9
+ratings: 52
+reviews: 5
 size: 14M
 website: 
 repository: 

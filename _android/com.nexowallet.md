@@ -1,17 +1,18 @@
 ---
 wsId: nexo
-title: "Nexo - Crypto Account"
+title: "Nexo: Buy BTC, ETH, SOL & AVAX"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.nexowallet
+appCountry: 
 released: 2019-06-28
 updated: 2022-01-31
 version: "2.2.15"
-stars: 4.4
-ratings: 15998
-reviews: 7257
+stars: 4.5
+ratings: 20213
+reviews: 1460
 size: 95M
 website: https://nexo.io
 repository: 

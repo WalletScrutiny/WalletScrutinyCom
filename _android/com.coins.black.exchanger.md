@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.coins.black.exchanger
+appCountry: 
 released: 2021-04-11
 updated: 2021-04-11
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 3.9M
-website: 
+website: https://coins.black
 repository: 
 issue: 
 icon: com.coins.black.exchanger.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: semaphore.coinclient
+appCountry: 
 released: 2018-05-14
 updated: 2021-09-10
 version: "1.50.50"

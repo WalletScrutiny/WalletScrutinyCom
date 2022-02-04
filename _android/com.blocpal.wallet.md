@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.blocpal.wallet
+appCountry: 
 released: 2018-10-30
 updated: 2022-01-19
 version: "2.0.38"
-stars: 4
-ratings: 60
-reviews: 38
+stars: 4.7
+ratings: 61
+reviews: 1
 size: 65M
-website: https://www.blocpal.com/
+website: http://www.blocpal.com
 repository: 
 issue: 
 icon: com.blocpal.wallet.png

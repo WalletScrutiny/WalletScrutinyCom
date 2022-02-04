@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.tradesanta
+appCountry: 
 released: 2019-05-20
 updated: 2021-11-29
 version: "2.5.0"
-stars: 3.8
-ratings: 669
-reviews: 471
+stars: 3.7
+ratings: 699
+reviews: 40
 size: 11M
-website: https://tradesanta.com/en
+website: https://tradesanta.com
 repository: 
 issue: 
 icon: com.tradesanta.png

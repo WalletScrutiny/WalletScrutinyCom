@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: uk.co.blockfort.wallet
+appCountry: 
 released: 2021-05-24
 updated: 2021-05-24
 version: "1.1.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 49M
-website: 
+website: https://blockfort.co.uk/
 repository: 
 issue: 
 icon: uk.co.blockfort.wallet.jpg

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.nominex.app
+appCountry: 
 released: 2021-06-01
 updated: 2021-12-13
 version: "1.4.0"
-stars: 4
-ratings: 137
-reviews: 91
+stars: 0.0
+ratings: 
+reviews: 
 size: 57M
-website: https://nominex.io/
+website: https://nominex.io/defi-nmx
 repository: 
 issue: 
 icon: com.nominex.app.png

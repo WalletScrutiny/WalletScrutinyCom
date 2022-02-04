@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.arcreator.hivecoin
+appCountry: 
 released: 2021-05-06
 updated: 2021-06-18
 version: "2.2.7"

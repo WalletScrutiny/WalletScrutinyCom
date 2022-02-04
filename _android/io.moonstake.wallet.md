@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: io.moonstake.wallet
+appCountry: 
 released: 2020-03-24
 updated: 2022-01-26
 version: "2.13.3"
-stars: 4.6
-ratings: 2223
-reviews: 1115
+stars: 3.3
+ratings: 2233
+reviews: 15
 size: 94M
-website: https://moonstake.io/
+website: https://moonstake.io
 repository: 
 issue: 
 icon: io.moonstake.wallet.png

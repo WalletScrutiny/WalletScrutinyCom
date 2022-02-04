@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: me.coinpal.app
+appCountry: 
 released: 2017-12-22
 updated: 2018-06-27
 version: "4.1.4"

@@ -6,12 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: io.atomicwallet
+appCountry: 
 released: 2019-01-30
-updated: 2021-12-16
-version: "0.80.1"
-stars: 4.2
-ratings: 57867
-reviews: 26882
+updated: 2022-02-03
+version: "0.81.4"
+stars: 4.1
+ratings: 61409
+reviews: 4894
 size: 16M
 website: https://atomicwallet.io
 repository: 

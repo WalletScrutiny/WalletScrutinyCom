@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.emberfund.ember
+appCountry: 
 released: 2019-01-24
-updated: 2022-01-26
+updated: 2022-02-03
 version: "10.7"
-stars: 4.1
-ratings: 482
-reviews: 273
+stars: 3.7
+ratings: 815
+reviews: 126
 size: 52M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund

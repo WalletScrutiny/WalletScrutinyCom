@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100
 appId: com.bitgate.flutter
+appCountry: 
 released: 
 updated: 2021-12-07
 version: "0.8.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 60M
-website: https://bitgate.io/
+website: http://www.bitgate.io
 repository: 
 issue: 
 icon: com.bitgate.flutter.png

@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coindeal
+appCountry: 
 released: 2019-11-04
 updated: 2020-08-18
 version: "1.0.8"
-stars: 3.6
-ratings: 146
-reviews: 88
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
 website: https://coindeal.com/
 repository: 

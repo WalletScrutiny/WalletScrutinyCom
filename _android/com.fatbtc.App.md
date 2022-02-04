@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.fatbtc.App
+appCountry: 
 released: 2018-06-02
 updated: 2021-11-08
 version: "2.45"
-stars: 3.6
-ratings: 154
-reviews: 86
+stars: 2.5
+ratings: 159
+reviews: 11
 size: 22M
-website: https://www.fatbtc.com/?_en
+website: https://www.fatbtc.com
 repository: 
 issue: 
 icon: com.fatbtc.App.png

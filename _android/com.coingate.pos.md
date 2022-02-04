@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coingate.pos
+appCountry: 
 released: 2015-02-19
 updated: 2016-08-18
 version: "2.0.0"
-stars: 3.6
-ratings: 25
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.1M
-website: https://coingate.com/
+website: https://coingate.com
 repository: 
 issue: 
 icon: com.coingate.pos.png

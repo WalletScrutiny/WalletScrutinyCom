@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.korvio
+appCountry: 
 released: 2019-06-21
 updated: 2021-03-18
 version: "1.0.25"
-stars: 3.7
-ratings: 491
-reviews: 177
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
-website: https://korvio.io/
+website: https://korvio.io
 repository: 
 issue: 
 icon: com.wallet.korvio.png

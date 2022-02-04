@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.coinhub.wallet
+appCountry: 
 released: 2021-07-13
 updated: 2022-01-25
 version: "2.2.3"
-stars: 
-ratings: 
-reviews: 
+stars: 4.2
+ratings: 701
+reviews: 26
 size: 44M
 website: https://www.coinhub.org
 repository: 

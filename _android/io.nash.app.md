@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: io.nash.app
+appCountry: 
 released: 2019-08-31
 updated: 2022-01-18
 version: "8.1.0"
-stars: 4.1
-ratings: 638
-reviews: 269
+stars: 4.6
+ratings: 646
+reviews: 24
 size: 124M
-website: https://nash.io/
+website: https://nash.io
 repository: 
 issue: 
 icon: io.nash.app.png

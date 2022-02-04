@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000
 appId: io.zebedee.wallet
+appCountry: 
 released: 2020-10-20
 updated: 2022-01-26
 version: "11.1.1"
-stars: 3.3
-ratings: 140
-reviews: 93
+stars: 4.2
+ratings: 320
+reviews: 13
 size: 46M
 website: https://zebedee.io
 repository: 

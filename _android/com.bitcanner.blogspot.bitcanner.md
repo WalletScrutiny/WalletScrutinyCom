@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.bitcanner.blogspot.bitcanner
+appCountry: 
 released: 2019-11-03
 updated: 2021-09-29
 version: "3.20.0.51"
-stars: 3.2
-ratings: 59
-reviews: 49
+stars: 4.4
+ratings: 63
+reviews: 21
 size: 19M
-website: https://www.bitcanner.com/
+website: https://www.bitcanner.com
 repository: 
 issue: 
 icon: com.bitcanner.blogspot.bitcanner.png

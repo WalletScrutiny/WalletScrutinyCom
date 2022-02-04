@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.mchange.multichange
+appCountry: 
 released: 2020-08-10
 updated: 2020-08-10
 version: "1.0"

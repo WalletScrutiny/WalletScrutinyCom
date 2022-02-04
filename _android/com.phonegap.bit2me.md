@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.phonegap.bit2me
+appCountry: 
 released: 2015-01-08
 updated: 2022-01-13
 version: "2.2.3"
 stars: 4.4
-ratings: 3676
-reviews: 1153
+ratings: 4824
+reviews: 317
 size: 59M
 website: https://bit2me.com
 repository: 

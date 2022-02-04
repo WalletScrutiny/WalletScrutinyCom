@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: app.pagosalinstante.com
+appCountry: 
 released: 2019-02-03
 updated: 2021-12-31
 version: "1.07.68"
-stars: 3.2
-ratings: 923
-reviews: 633
+stars: 4.8
+ratings: 933
+reviews: 38
 size: 5.7M
-website: https://pagosalinstante.com/
+website: https://pagosalinstante.com
 repository: 
 issue: 
 icon: app.pagosalinstante.com.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.bitbuy.mobileApp
+appCountry: 
 released: 
 updated: 2022-01-10
 version: "3.68.0"
-stars: 2.8
-ratings: 1299
-reviews: 721
+stars: 0.0
+ratings: 
+reviews: 
 size: 66M
-website: https://bitbuy.ca
+website: https://bitbuy.ca/
 repository: 
 issue: 
 icon: com.bitbuy.mobileApp.jpg

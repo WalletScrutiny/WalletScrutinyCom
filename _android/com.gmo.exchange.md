@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.gmo.exchange
+appCountry: 
 released: 2020-08-07
 updated: 2022-01-27
 version: "1.2.3"
-stars: 4.5
-ratings: 75
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 15M
 website: https://ex.z.com/
 repository: 

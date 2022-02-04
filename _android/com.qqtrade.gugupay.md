@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.qqtrade.gugupay
+appCountry: 
 released: 2017-05-25
 updated: 2021-10-19
 version: "2.1.9"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 12M
-website: 
+website: http://www.99pay.kr/
 repository: 
 issue: 
 icon: com.qqtrade.gugupay.png

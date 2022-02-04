@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: org.ergvein.wallet
+appCountry: 
 released: 
 updated: 2021-09-30
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://cypra.io/
 repository: 
 issue: 
 icon: org.ergvein.wallet.png

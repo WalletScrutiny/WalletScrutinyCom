@@ -7,14 +7,15 @@ authors:
 - leo
 users: 100000000
 appId: com.paypal.android.p2pmobile
+appCountry: 
 released: 2016-02-19
 updated: 2022-01-28
 version: "8.9.2"
-stars: 4.3
-ratings: 2287785
-reviews: 892705
+stars: 4.4
+ratings: 2413025
+reviews: 320981
 size: 149M
-website: https://www.paypal.com
+website: https://www.paypal.com/mobile
 repository: 
 issue: 
 icon: com.paypal.android.p2pmobile.png

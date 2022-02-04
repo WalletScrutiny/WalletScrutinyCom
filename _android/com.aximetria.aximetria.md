@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.aximetria.aximetria
+appCountry: 
 released: 2018-12-17
 updated: 2021-08-02
 version: "1.5.51"

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.kurewallet
+appCountry: 
 released: 2018-10-03
 updated: 2021-02-18
 version: "2.6.6"

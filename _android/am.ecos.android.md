@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: am.ecos.android
+appCountry: 
 released: 2020-09-22
 updated: 2021-12-28
 version: "1.20.2"
-stars: 3.4
-ratings: 253
-reviews: 195
+stars: 3.9
+ratings: 351
+reviews: 31
 size: 42M
-website: https://ecos.am/en/
+website: https://ecos.am
 repository: 
 issue: 
 icon: am.ecos.android.png

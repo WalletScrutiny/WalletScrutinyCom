@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: io.uun.clet
+appCountry: 
 released: 2018-07-20
 updated: 2019-11-11
 version: "1.17.1"

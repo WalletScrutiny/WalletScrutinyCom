@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: kr.co.coin5.bd
+appCountry: 
 released: 2020-07-05
 updated: 2020-07-05
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 5.1M

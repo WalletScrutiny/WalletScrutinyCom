@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50000
 appId: io.changenow.changenow
+appCountry: 
 released: 2018-09-07
-updated: 2022-01-31
+updated: 2022-02-03
 version: "1.150.7"
-stars: 4.7
-ratings: 1684
-reviews: 846
+stars: 4.9
+ratings: 2067
+reviews: 317
 size: 8.4M
-website: http://changenow.io
+website: https://changenow.io
 repository: 
 issue: 
 icon: io.changenow.changenow.png

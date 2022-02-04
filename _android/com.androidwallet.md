@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.androidwallet
+appCountry: 
 released: 2019-07-04
 updated: 2020-04-09
 version: "1.1.20"
-stars: 4.8
+stars: 4.6
 ratings: 433
-reviews: 419
+reviews: 12
 size: 26M
-website: 
+website: https://www.dcipher.io
 repository: 
 issue: 
 icon: com.androidwallet.png

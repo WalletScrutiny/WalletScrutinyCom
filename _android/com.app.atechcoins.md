@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.app.atechcoins
+appCountry: 
 released: 2020-11-10
 updated: 2021-04-02
 version: "1.1.0"
-stars: 3.4
-ratings: 54
-reviews: 38
+stars: 2.8
+ratings: 69
+reviews: 3
 size: 18M
-website: https://www.atechcoins.com/
+website: https://www.atechcoins.com
 repository: 
 issue: 
 icon: com.app.atechcoins.png

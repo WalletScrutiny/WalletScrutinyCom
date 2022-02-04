@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: buy.crypto.without.kyc1
+appCountry: 
 released: 2021-06-17
 updated: 2021-06-17
 version: "1.0"

@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.sonicx.payus
+appCountry: 
 released: 2021-02-06
 updated: 2021-02-10
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 42M
-website: 
+website: https://www.payus.io/
 repository: 
 issue: 
 icon: com.sonicx.payus.png

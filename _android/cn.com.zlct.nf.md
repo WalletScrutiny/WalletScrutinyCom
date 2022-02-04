@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: cn.com.zlct.nf
+appCountry: 
 released: 2021-06-10
 updated: 2021-08-30
 version: "2.1.3"
-stars: 3.2
-ratings: 42
-reviews: 32
+stars: 0.0
+ratings: 
+reviews: 
 size: 6.6M
 website: https://nf35.com/#/
 repository: 

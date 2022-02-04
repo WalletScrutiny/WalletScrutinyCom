@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.roinvesting
+appCountry: 
 released: 
 updated: 2021-08-25
 version: "1.5.69-roinvesting"
-stars: 4.3
-ratings: 472
-reviews: 185
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: https://www.roinvesting.com/
 repository: 

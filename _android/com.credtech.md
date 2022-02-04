@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.credtech
+appCountry: 
 released: 2021-02-07
 updated: 2021-02-11
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 11M

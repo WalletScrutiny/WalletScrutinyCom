@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.tradetoolsfx.cryptoexchange
+appCountry: 
 released: 2018-08-10
 updated: 2019-07-31
 version: "1.0.8"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 16M
-website: 
+website: http://www.tradetoolsfx.com
 repository: 
 issue: 
 icon: com.tradetoolsfx.cryptoexchange.png

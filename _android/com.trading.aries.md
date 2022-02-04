@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.trading.aries
+appCountry: 
 released: 2021-06-23
 updated: 2022-01-21
 version: "2.01.4"
-stars: 4.2
-ratings: 13
-reviews: 9
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.8M
-website: https://tradearies.com/
+website: https://tradearies.com
 repository: 
 issue: 
 icon: com.trading.aries.png

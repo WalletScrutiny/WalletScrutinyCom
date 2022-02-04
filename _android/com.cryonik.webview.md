@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.cryonik.webview
+appCountry: 
 released: 2021-01-21
 updated: 2021-01-21
 version: "1.0"
-stars: 1.9
-ratings: 15
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.4M
-website: 
+website: https://cryonik.io
 repository: 
 issue: 
 icon: com.cryonik.webview.png

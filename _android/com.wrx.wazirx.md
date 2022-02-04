@@ -7,13 +7,14 @@ authors:
 - leo
 users: 10000000
 appId: com.wrx.wazirx
+appCountry: 
 released: 2018-07-16
-updated: 2022-01-25
-version: "2.18"
-stars: 4
-ratings: 426178
-reviews: 94311
-size: 10M
+updated: 2022-02-03
+version: "2.19"
+stars: 4.2
+ratings: 515036
+reviews: 346
+size: 11M
 website: https://wazirx.com
 repository: 
 issue: 

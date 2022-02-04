@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000000
 appId: de.schildbach.wallet
+appCountry: 
 released: 2011-03-01
 updated: 2021-12-19
 version: "Varies with device"
-stars: 4
-ratings: 28639
-reviews: 9426
+stars: 3.9
+ratings: 29095
+reviews: 1700
 size: Varies with device
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet

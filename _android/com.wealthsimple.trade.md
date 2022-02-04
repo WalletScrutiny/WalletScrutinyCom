@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.wealthsimple.trade
-released: 
+appCountry: 
+released: 2019-03-12
 updated: 2022-02-01
 version: "2.22.0"
-stars: 4.6
-ratings: 46257
-reviews: 8886
+stars: 4.3
+ratings: 52577
+reviews: 136
 size: 250M
-website: https://www.wealthsimple.com/
+website: https://www.wealthsimple.com/trade
 repository: 
 issue: 
 icon: com.wealthsimple.trade.png

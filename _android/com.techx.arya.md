@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.techx.arya
+appCountry: 
 released: 2019-09-10
 updated: 2021-12-13
 version: "2.13.0"
-stars: 4.1
-ratings: 281
-reviews: 116
+stars: 3.7
+ratings: 366
+reviews: 7
 size: 63M
-website: https://arya.xy
+website: https://www.aryatrading.com
 repository: 
 issue: 
 icon: com.techx.arya.png

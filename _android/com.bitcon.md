@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitcon
+appCountry: 
 released: 
 updated: 2021-11-09
 version: "1.0.7"
-stars: 4.6
-ratings: 5
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 27M
-website: 
+website: https://spendthebits.com/
 repository: 
 issue: 
 icon: com.bitcon.png

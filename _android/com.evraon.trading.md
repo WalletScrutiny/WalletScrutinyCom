@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.evraon.trading
+appCountry: 
 released: 2019-06-14
 updated: 2022-01-05
 version: "1.7.0"
-stars: 4.5
-ratings: 18
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
-website: https://evraon.com/
+website: https://evraon.com
 repository: 
 issue: 
 icon: com.evraon.trading.png

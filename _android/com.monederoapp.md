@@ -7,12 +7,13 @@ authors:
 - danny
 users: 1000
 appId: com.monederoapp
+appCountry: 
 released: 2020-03-13
 updated: 2021-06-25
 version: "4.1.0"
-stars: 3.9
-ratings: 27
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
 website: https://www.monedero.com/
 repository: 

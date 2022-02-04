@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.coinhako
+appCountry: 
 released: 2018-05-06
 updated: 2022-01-27
 version: "4.0.0"
-stars: 4.5
-ratings: 2452
-reviews: 1468
+stars: 2.4
+ratings: 3030
+reviews: 16
 size: 37M
-website: https://www.coinhako.com
+website: https://coinhako.com
 repository: 
 issue: 
 icon: com.coinhako.png

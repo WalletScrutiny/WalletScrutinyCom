@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.trust.airdrop
+appCountry: 
 released: 2021-07-09
 updated: 2021-07-22
 version: "2.0"

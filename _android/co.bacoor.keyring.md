@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: co.bacoor.keyring
+appCountry: 
 released: 2021-01-21
 updated: 2022-01-14
 version: "1.7.0"
-stars: 4.5
-ratings: 35
-reviews: 20
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
-website: https://keyring.app/
+website: https://keyring.app
 repository: 
 issue: 
 icon: co.bacoor.keyring.png

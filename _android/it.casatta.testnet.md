@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: it.casatta.testnet
+appCountry: 
 released: 2020-05-17
 updated: 2021-08-06
 version: "1.20-testnet"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 11M

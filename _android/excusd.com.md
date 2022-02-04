@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: excusd.com
+appCountry: 
 released: 2021-04-06
 updated: 2021-04-06
 version: "1.0"

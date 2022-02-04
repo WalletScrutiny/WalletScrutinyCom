@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 5000
 appId: com.bolt.pegasus
+appCountry: 
 released: 2019-08-26
 updated: 2022-01-18
 version: "1.21.8"
-stars: 4.5
-ratings: 363
-reviews: 296
+stars: 4.0
+ratings: 366
+reviews: 20
 size: 48M
 website: https://bolt.global/
 repository: 

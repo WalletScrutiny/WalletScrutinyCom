@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: br.com.mercadobitcoin.android
+appCountry: 
 released: 2019-07-25
 updated: 2022-01-27
 version: "1.23.8"
-stars: 4.6
-ratings: 38633
-reviews: 11243
+stars: 4.3
+ratings: 48494
+reviews: 46
 size: 62M
-website: https://www.mercadobitcoin.com.br
+website: http://www.mercadobitcoin.com.br
 repository: 
 issue: 
 icon: br.com.mercadobitcoin.android.png

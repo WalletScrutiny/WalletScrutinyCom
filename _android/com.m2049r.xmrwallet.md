@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50000
 appId: com.m2049r.xmrwallet
+appCountry: 
 released: 2017-09-29
 updated: 2022-01-05
 version: "2.3.1 'Doménikos'"
-stars: 3.7
-ratings: 774
-reviews: 467
+stars: 3.0
+ratings: 810
+reviews: 149
 size: Varies with device
-website: https://monerujo.io
+website: https://monerujo.io/
 repository: 
 issue: 
 icon: com.m2049r.xmrwallet.png

@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.cobinhood.exchange
+appCountry: 
 released: 2017-12-25
 updated: 2019-04-29
 version: "3.50.1"
-stars: 1.9
+stars: 2.9
 ratings: 648
-reviews: 380
+reviews: 117
 size: 7.7M
 website: https://cobinhood.com
 repository: 

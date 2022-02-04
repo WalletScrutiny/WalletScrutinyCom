@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.pro.hot
+appCountry: 
 released: 2021-05-27
 updated: 2021-08-11
 version: "3.7.0"

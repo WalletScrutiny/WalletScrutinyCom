@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.stormgain.mobile
+appCountry: 
 released: 2019-07-08
 updated: 2021-12-28
 version: "1.22.0"
-stars: 4.3
-ratings: 79603
-reviews: 39874
+stars: 4.6
+ratings: 106350
+reviews: 196
 size: 37M
-website: https://stormgain.com
+website: https://stormgain.com/
 repository: 
 issue: 
 icon: com.stormgain.mobile.png

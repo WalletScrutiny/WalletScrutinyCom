@@ -6,10 +6,11 @@ authors:
 
 users: 500
 appId: com.onlybit.wallet
+appCountry: 
 released: 2020-11-13
 updated: 2021-02-08
 version: "1.4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 4.6M
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.onlybit.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-02-03
 signer: 
 reviewArchive:
 

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: it.airgap.vault
+appCountry: 
 released: 2018-08-06
-updated: 2022-01-26
-version: "3.13.1"
-stars: 4
-ratings: 94
-reviews: 40
+updated: 2022-02-02
+version: "3.14.0"
+stars: 4.2
+ratings: 105
+reviews: 11
 size: 69M
-website: https://airgap.it
+website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png

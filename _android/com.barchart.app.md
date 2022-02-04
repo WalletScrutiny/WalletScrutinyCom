@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.barchart.app
+appCountry: 
 released: 2013-11-18
 updated: 2022-02-01
 version: "3.0.7"
 stars: 4.7
-ratings: 9574
-reviews: 3489
+ratings: 9743
+reviews: 2018
 size: 12M
-website: https://www.barchart.com/
+website: http://www.barchart.com/app
 repository: 
 issue: 
 icon: com.barchart.app.png

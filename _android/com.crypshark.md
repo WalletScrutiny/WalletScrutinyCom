@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.crypshark
+appCountry: 
 released: 2021-05-20
 updated: 2021-09-09
 version: "1.0.0.37"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 59M
-website: 
+website: https://crypshark.com/
 repository: 
 issue: 
 icon: com.crypshark.png

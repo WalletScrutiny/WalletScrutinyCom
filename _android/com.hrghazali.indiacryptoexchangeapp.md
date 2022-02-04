@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.hrghazali.indiacryptoexchangeapp
+appCountry: 
 released: 2021-09-12
 updated: 2021-09-13
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 14M

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.renzler
+appCountry: 
 released: 
 updated: 2021-06-24
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://renzler.one
 repository: 
 issue: 
 icon: com.renzler.png

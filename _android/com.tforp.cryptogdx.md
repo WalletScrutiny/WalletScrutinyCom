@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.tforp.cryptogdx
+appCountry: 
 released: 2018-02-04
 updated: 2021-05-28
 version: "2.3"
 stars: 4.5
-ratings: 3180
-reviews: 1407
+ratings: 3394
+reviews: 152
 size: 9.2M
 website: https://trading4pro.com/
 repository: 

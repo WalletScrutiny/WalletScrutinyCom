@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.wasabiwallet.dev
+appCountry: 
 released: 
 updated: 2020-12-01
 version: "2.0"

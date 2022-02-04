@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: africa.buycoins.buycoinsx.pro
+appCountry: 
 released: 2021-04-16
 updated: 2022-02-01
 version: "1.1.60"
-stars: 4.2
-ratings: 81
-reviews: 55
+stars: 4.0
+ratings: 95
+reviews: 3
 size: 34M
-website: https://pro.buycoins.africa/
+website: https://pro.buycoins.africa
 repository: 
 issue: 
 icon: africa.buycoins.buycoinsx.pro.png

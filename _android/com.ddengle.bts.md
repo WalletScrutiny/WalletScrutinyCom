@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.ddengle.bts
+appCountry: 
 released: 2014-09-23
 updated: 2017-12-08
 version: "1.1.9"
-stars: 3.5
-ratings: 71
-reviews: 53
+stars: 0.0
+ratings: 
+reviews: 
 size: 973k
-website: 
+website: https://www.youbit.co.kr
 repository: 
 issue: 
 icon: com.ddengle.bts.png

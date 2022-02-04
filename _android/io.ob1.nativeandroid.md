@@ -6,6 +6,7 @@ authors:
 
 users: 100000
 appId: io.ob1.nativeandroid
+appCountry: 
 released: 
 updated: 2020-09-27
 version: "1.3.7"

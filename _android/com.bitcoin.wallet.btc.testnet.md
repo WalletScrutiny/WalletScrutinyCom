@@ -6,14 +6,15 @@ authors:
 
 users: 5000
 appId: com.bitcoin.wallet.btc.testnet
+appCountry: 
 released: 2019-07-04
 updated: 2019-07-05
 version: "1.0"
-stars: 4
-ratings: 32
-reviews: 8
+stars: 4.4
+ratings: 36
+reviews: 1
 size: 8.8M
-website: 
+website: https://bitcoin-wallet.flycricket.io/
 repository: 
 issue: 
 icon: com.bitcoin.wallet.btc.testnet.png

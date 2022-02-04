@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.isun.ag.bitnuk
+appCountry: 
 released: 2020-02-16
 updated: 2020-03-09
 version: "1.0.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 51M
-website: 
+website: https://bitnuk.com/
 repository: 
 issue: 
 icon: com.isun.ag.bitnuk.png

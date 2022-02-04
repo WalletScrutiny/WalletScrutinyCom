@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: zam.wallet
+appCountry: 
 released: 2018-09-17
 updated: 2022-01-07
 version: "2.3.6"
-stars: 3.2
-ratings: 188
-reviews: 144
+stars: 3.4
+ratings: 281
+reviews: 15
 size: 25M
-website: https://zam.io/
+website: http://zam.io
 repository: 
 issue: 
 icon: zam.wallet.jpg

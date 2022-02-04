@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.cryptojournal.bitpay.buy.crypto
+appCountry: 
 released: 2021-07-07
 updated: 2021-07-07
 version: "1.0"

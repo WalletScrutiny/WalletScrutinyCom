@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.swissy
+appCountry: 
 released: 2020-09-01
 updated: 2021-01-27
 version: "3.3"

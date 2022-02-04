@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.quarkonium.qpocket
+appCountry: 
 released: 2019-07-22
 updated: 2021-05-06
 version: "5.4.2"
-stars: 2.8
-ratings: 101
-reviews: 63
+stars: 0.0
+ratings: 
+reviews: 
 size: 54M
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.EkoWallet
+appCountry: 
 released: 
 updated: 2021-07-12
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://ekowallet.com
 repository: 
 issue: 
 icon: com.EkoWallet.png

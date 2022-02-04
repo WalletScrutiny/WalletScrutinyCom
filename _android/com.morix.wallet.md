@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.morix.wallet
+appCountry: 
 released: 2020-07-15
 updated: 2021-11-08
 version: "v1.0.34"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 41M
-website: 
+website: https://morixjp.com/contact
 repository: 
 issue: 
 icon: com.morix.wallet.png

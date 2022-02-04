@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.app.belfrics
+appCountry: 
 released: 2017-10-17
 updated: 2022-01-31
 version: "2.1.5"
-stars: 3.7
-ratings: 89
-reviews: 63
+stars: 4.8
+ratings: 109
+reviews: 9
 size: 11M
-website: https://www.belfrics.io/
+website: http://www.belfrics.io
 repository: 
 issue: 
 icon: com.app.belfrics.png

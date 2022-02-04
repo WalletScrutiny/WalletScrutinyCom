@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100
 appId: wallet.jax.bnc.com
+appCountry: 
 released: 2021-07-14
 updated: 2021-07-14
 version: "1.0"

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100
 appId: com.edhnbus.wxcgr
+appCountry: 
 released: 2021-07-21
 updated: 2021-07-21
 version: "0.92"

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: net.bitbay.bitcoin
+appCountry: 
 released: 2018-11-19
 updated: 2022-01-05
 version: "1.1.29"
-stars: 3.1
-ratings: 1047
-reviews: 569
+stars: 3.4
+ratings: 1107
+reviews: 9
 size: 13M
-website: https://bitbay.net
+website: https://zondaglobal.com
 repository: 
 issue: 
 icon: net.bitbay.bitcoin.png

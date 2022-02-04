@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: net.cryptonews.bitcoin.mining.without.investment
+appCountry: 
 released: 2021-07-19
 updated: 2021-07-19
 version: "1.0"

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: ilcbtc.wallet
+appCountry: 
 released: 2018-02-27
 updated: 2021-03-23
 version: "4.26"
-stars: 4.8
-ratings: 284
-reviews: 156
+stars: 0.0
+ratings: 
+reviews: 
 size: 13M
-website: https://www.ilcoincrypto.com
+website: https://www.ilcoincrypto.com/
 repository: 
 issue: 
 icon: ilcbtc.wallet.png

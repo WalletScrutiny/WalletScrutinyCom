@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exmo
+appCountry: 
 released: 2019-11-12
 updated: 2022-01-19
 version: "3.4.1"
-stars: 4.1
-ratings: 2417
-reviews: 1646
+stars: 3.3
+ratings: 2713
+reviews: 40
 size: 75M
-website: https://exmo.com
+website: https://exmo.com/
 repository: 
 issue: 
 icon: com.exmo.png

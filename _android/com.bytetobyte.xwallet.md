@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.bytetobyte.xwallet
+appCountry: 
 released: 2017-04-27
 updated: 2017-09-03
 version: "0.3.1-beta"
-stars: 4.2
-ratings: 13
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.1M
-website: 
+website: https://ehanoc.github.io/xwallet/
 repository: 
 issue: 
 icon: com.bytetobyte.xwallet.png

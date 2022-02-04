@@ -6,12 +6,13 @@ authors:
 
 users: 100000
 appId: com.bitforex.pro
+appCountry: 
 released: 2020-07-19
 updated: 2020-07-20
 version: "2.0.0"
-stars: 2.8
-ratings: 467
-reviews: 341
+stars: 1.9
+ratings: 518
+reviews: 68
 size: 29M
 website: 
 repository: 

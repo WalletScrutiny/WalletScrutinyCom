@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.ittrendex.liteforex
+appCountry: 
 released: 2017-10-23
 updated: 2022-01-27
 version: "1.5.0"
-stars: 4
-ratings: 903
-reviews: 417
+stars: 4.0
+ratings: 1038
+reviews: 15
 size: 4.7M
-website: https://www.liteforex.com/
+website: https://www.liteforex.com
 repository: 
 issue: 
 icon: com.ittrendex.liteforex.png

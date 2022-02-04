@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: g3shanappz.moonfaucet
+appCountry: 
 released: 2020-06-29
 updated: 2020-06-29
 version: "9.8"

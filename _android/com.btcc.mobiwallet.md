@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.btcc.mobiwallet
+appCountry: 
 released: 2019-03-28
 updated: 2021-05-20
 version: "2.32.2"

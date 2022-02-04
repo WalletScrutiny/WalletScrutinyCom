@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.gaifang.ATMOptionTest
+appCountry: 
 released: 2020-06-18
 updated: 2021-08-29
 version: "1.1.19"
-stars: 3.4
-ratings: 144
-reviews: 114
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.5M
 website: https://www.atmwarrant.com/
 repository: 

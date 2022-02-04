@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.infinitepay.infireum
+appCountry: 
 released: 2020-03-23
 updated: 2020-09-01
 version: "1.0.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 20M
-website: 
+website: https://infireum.com
 repository: 
 issue: 
 icon: com.infinitepay.infireum.png

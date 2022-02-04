@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000
 appId: com.aniket.my_paper_wallet
+appCountry: 
 released: 2020-12-24
 updated: 2020-12-24
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 8.1M

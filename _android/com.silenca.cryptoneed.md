@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.silenca.cryptoneed
+appCountry: 
 released: 2020-04-15
 updated: 2021-04-27
 version: "1.0.31"
-stars: 3.9
-ratings: 71
-reviews: 42
+stars: 0.0
+ratings: 
+reviews: 
 size: 50M
 website: https://www.cryptoneed.pro/
 repository: 

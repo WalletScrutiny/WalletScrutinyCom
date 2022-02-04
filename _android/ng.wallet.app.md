@@ -7,12 +7,13 @@ authors:
 - danny
 users: 100000
 appId: ng.wallet.app
+appCountry: 
 released: 2017-06-22
 updated: 2021-09-04
 version: "2.480"
 stars: 3.4
-ratings: 1845
-reviews: 1464
+ratings: 2015
+reviews: 75
 size: 17M
 website: https://wallets.africa
 repository: 

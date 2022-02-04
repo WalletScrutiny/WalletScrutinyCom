@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: org.cryptodebitcard.bitcoin.investment.game
+appCountry: 
 released: 2021-06-29
 updated: 2021-06-29
 version: "1.0"

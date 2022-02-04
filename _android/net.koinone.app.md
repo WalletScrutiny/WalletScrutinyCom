@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: net.koinone.app
+appCountry: 
 released: 2018-07-26
 updated: 2018-07-26
 version: "1.0"

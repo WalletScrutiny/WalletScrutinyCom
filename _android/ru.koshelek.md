@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: ru.koshelek
+appCountry: 
 released: 2020-07-28
 updated: 2022-01-12
 version: "1.7"
-stars: 4.1
-ratings: 93
-reviews: 74
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.2M
 website: https://koshelek.ru/
 repository: 

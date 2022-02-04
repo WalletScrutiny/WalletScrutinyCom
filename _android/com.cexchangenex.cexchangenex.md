@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.cexchangenex.cexchangenex
+appCountry: 
 released: 2020-10-02
 updated: 2021-06-29
 version: "1.1.1075"
-stars: 3.9
-ratings: 72
-reviews: 39
+stars: 0.0
+ratings: 
+reviews: 
 size: 75M
 website: https://cexchangenex.com/
 repository: 

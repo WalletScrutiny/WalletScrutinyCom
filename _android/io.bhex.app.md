@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.bhex.app
+appCountry: 
 released: 2018-12-12
 updated: 2021-04-30
 version: "4.0.1"

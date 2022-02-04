@@ -7,12 +7,13 @@ authors:
 - danny
 users: 100000
 appId: co.decrypt.app
+appCountry: 
 released: 2020-05-06
 updated: 2021-07-13
 version: "3.0"
-stars: 4.2
-ratings: 2161
-reviews: 1037
+stars: 4.3
+ratings: 2206
+reviews: 220
 size: 31M
 website: https://decrypt.co/
 repository: 

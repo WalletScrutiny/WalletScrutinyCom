@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.ariomex.app
+appCountry: 
 released: 2020-09-10
 updated: 2020-09-10
 version: "2.0.0"
-stars: 4.5
-ratings: 108
-reviews: 67
+stars: 4.0
+ratings: 120
+reviews: 5
 size: 1.0M
-website: 
+website: https://ariomex.com
 repository: 
 issue: 
 icon: com.ariomex.app.png

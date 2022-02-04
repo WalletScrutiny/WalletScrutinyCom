@@ -6,12 +6,13 @@ authors:
 - leo
 users: 1000
 appId: com.tangem.wallet
+appCountry: 
 released: 2018-10-24
 updated: 2021-12-22
 version: "3.26"
-stars: 4.6
-ratings: 74
-reviews: 23
+stars: 4.3
+ratings: 85
+reviews: 8
 size: 20M
 website: https://tangem.com
 repository: 

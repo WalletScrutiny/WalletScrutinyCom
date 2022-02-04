@@ -6,6 +6,7 @@ authors:
 
 users: 100000
 appId: com.bcoiner.webviewapp
+appCountry: 
 released: 2014-12-01
 updated: 2018-01-05
 version: "1.3.2"

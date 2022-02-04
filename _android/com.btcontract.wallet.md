@@ -7,14 +7,15 @@ authors:
 - emanuel
 users: 100000
 appId: com.btcontract.wallet
+appCountry: 
 released: 2015-07-15
 updated: 2022-01-19
 version: "2.4.27"
 stars: 3.7
-ratings: 1037
-reviews: 559
+ratings: 1062
+reviews: 23
 size: 27M
-website: https://lightning-wallet.com
+website: https://lightning-wallet.com/
 repository: https://github.com/btcontract/wallet/
 issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png

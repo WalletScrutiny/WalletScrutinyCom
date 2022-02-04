@@ -6,17 +6,18 @@ authors:
 - danny
 users: 10000
 appId: com.afriex.afriex
+appCountry: 
 released: 2020-03-05
 updated: 2022-01-18
 version: "11.34"
-stars: 4.5
-ratings: 790
-reviews: 572
+stars: 4.4
+ratings: 1028
+reviews: 271
 size: 49M
-website: https://afriexapp.com/
+website: https://afriexapp.com
 repository: 
 issue: 
-icon: com.afriex.afriex.png
+icon: com.afriex.afriex.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet

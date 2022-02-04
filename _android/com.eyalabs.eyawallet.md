@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.eyalabs.eyawallet
+appCountry: 
 released: 2015-12-03
 updated: 2019-02-20
 version: "5.3.2"

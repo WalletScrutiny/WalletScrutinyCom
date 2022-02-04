@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.pro.bitcointoyou
+appCountry: 
 released: 2019-10-31
 updated: 2022-01-30
 version: "0.0.197"
-stars: 2.9
-ratings: 1260
-reviews: 774
+stars: 3.7
+ratings: 1325
+reviews: 3
 size: 62M
 website: https://www.bitcointoyou.com
 repository: 

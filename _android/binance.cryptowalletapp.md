@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: binance.cryptowalletapp
+appCountry: 
 released: 
 updated: 2021-04-05
 version: "9.8"

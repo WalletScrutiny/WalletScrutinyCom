@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.okminer.app
+appCountry: 
 released: 2021-06-27
 updated: 2021-10-13
 version: "1.2.8"

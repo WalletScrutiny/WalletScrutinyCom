@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: co.lvl.firstapp
+appCountry: 
 released: 2020-06-30
 updated: 2021-09-09
 version: "1.0.5"
 stars: 3.9
-ratings: 147
-reviews: 68
+ratings: 155
+reviews: 57
 size: 66M
-website: https://www.lvl.co
+website: https://lvl.co
 repository: 
 issue: 
 icon: co.lvl.firstapp.png

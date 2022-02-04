@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.cryptojournal.crypto.com.buy.bitcoin.now
+appCountry: 
 released: 2021-07-07
 updated: 2021-07-07
 version: "1.0"

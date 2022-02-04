@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitamp.mobile
+appCountry: 
 released: 2021-04-10
 updated: 2021-04-27
 version: "2.0"
-stars: 5
+stars: 5.0
 ratings: 52
-reviews: 51
+reviews: 48
 size: 2.9M
-website: 
+website: https://www.bitamp.com
 repository: 
 issue: 
 icon: com.bitamp.mobile.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitmex.mobile.android
+appCountry: 
 released: 2020-07-20
 updated: 2022-01-05
 version: "1.1.13"

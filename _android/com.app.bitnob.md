@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.app.bitnob
+appCountry: 
 released: 2020-05-25
 updated: 2022-01-31
 version: "1.0.82"
-stars: 4.1
-ratings: 238
-reviews: 144
+stars: 4.0
+ratings: 267
+reviews: 14
 size: 34M
-website: https://bitnob.com/
+website: https://bitnob.com
 repository: 
 issue: 
 icon: com.app.bitnob.png

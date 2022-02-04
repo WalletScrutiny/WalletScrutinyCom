@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: folgory.folgory
+appCountry: 
 released: 2021-04-09
 updated: 2021-04-09
 version: "1.0.1"

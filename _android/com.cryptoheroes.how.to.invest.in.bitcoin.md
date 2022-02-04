@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.cryptoheroes.how.to.invest.in.bitcoin
+appCountry: 
 released: 2021-06-22
 updated: 2021-06-22
 version: "1.0"

@@ -1,19 +1,20 @@
 ---
 wsId: 
-title: "Skrill - Pay and spend money online"
+title: "Skrill - Fast, secure online payments"
 altTitle: 
 authors:
 - danny
 users: 10000000
 appId: com.moneybookers.skrillpayments
+appCountry: 
 released: 2013-10-29
 updated: 2022-01-26
 version: "3.77.1-2022012517"
-stars: 3.8
-ratings: 129642
-reviews: 65977
+stars: 4.4
+ratings: 138827
+reviews: 2542
 size: 59M
-website: https://www.skrill.com/
+website: https://www.skrill.com
 repository: 
 issue: 
 icon: com.moneybookers.skrillpayments.png

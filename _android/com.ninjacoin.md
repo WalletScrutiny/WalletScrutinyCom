@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ninjacoin
+appCountry: 
 released: 2019-11-30
 updated: 2021-05-25
 version: "v1.3.0"

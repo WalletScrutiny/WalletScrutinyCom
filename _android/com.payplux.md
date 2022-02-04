@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.payplux
-released: 
+appCountry: 
+released: 2020-01-22
 updated: 2021-10-22
 version: "1.1.76"
-stars: 3.7
-ratings: 279
-reviews: 195
+stars: 3.5
+ratings: 287
+reviews: 8
 size: 14M
-website: https://payplux.com/
+website: https://payplux.com
 repository: 
 issue: 
 icon: com.payplux.png

@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.rehivewallet
+appCountry: 
 released: 2018-10-01
 updated: 2021-07-29
 version: "2.4.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 52M
-website: 
+website: https://www.rehive.com
 repository: 
 issue: 
 icon: com.rehivewallet.png

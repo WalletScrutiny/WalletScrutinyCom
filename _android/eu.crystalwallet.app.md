@@ -4,14 +4,15 @@ title: "Crystal Wallet"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: eu.crystalwallet.app
+appCountry: 
 released: 2020-03-15
 updated: 2021-10-21
 version: "1.77"
-stars: 4.6
-ratings: 608
-reviews: 556
+stars: 4.4
+ratings: 627
+reviews: 9
 size: 63M
 website: https://crystalwallet.eu/
 repository: 

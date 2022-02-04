@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000000
 appId: org.fxclub.libertex
+appCountry: 
 released: 2015-05-22
 updated: 2021-11-26
 version: "2.29.0"
-stars: 4.2
-ratings: 72233
-reviews: 28902
+stars: 4.5
+ratings: 77057
+reviews: 1007
 size: 38M
-website: https://libertex.org/
+website: https://libertex.org
 repository: 
 issue: 
 icon: org.fxclub.libertex.png

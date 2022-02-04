@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: net.cryptowallets.invest.bitcoin.mining
+appCountry: 
 released: 2021-06-27
 updated: 2021-06-28
 version: "1.0"

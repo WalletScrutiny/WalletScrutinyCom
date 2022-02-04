@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bicheng.newtw.exchange
+appCountry: 
 released: 2020-06-04
 updated: 2021-03-02
 version: "1.2.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 12M
-website: 
+website: https://www.btcboxtw.com/
 repository: 
 issue: 
 icon: com.bicheng.newtw.exchange.png

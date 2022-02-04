@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.bitget.exchange
+appCountry: 
 released: 2020-04-03
 updated: 2022-01-25
 version: "1.2.24"
-stars: 4.9
-ratings: 2293
-reviews: 1934
+stars: 5.0
+ratings: 4056
+reviews: 435
 size: 45M
 website: https://www.bitget.com/
 repository: 

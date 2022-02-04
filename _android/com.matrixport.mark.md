@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.matrixport.mark
+appCountry: 
 released: 2019-10-23
 updated: 2022-01-27
 version: "1.3.0"
-stars: 4
-ratings: 736
-reviews: 475
+stars: 4.2
+ratings: 984
+reviews: 22
 size: 110M
-website: https://www.matrixport.com/
+website: https://invest.matrixport.com
 repository: 
 issue: 
 icon: com.matrixport.mark.png

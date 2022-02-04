@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.xchange.x4ange
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 1.3M
-website: 
+website: https://4ange.me/
 repository: 
 issue: 
 icon: com.xchange.x4ange.png

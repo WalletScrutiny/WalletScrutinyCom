@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: co.minty.coincast
+appCountry: 
 released: 2021-07-18
 updated: 2022-01-23
 version: "1.2.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 49M
-website: 
+website: https://coincast.app
 repository: 
 issue: 
 icon: co.minty.coincast.png

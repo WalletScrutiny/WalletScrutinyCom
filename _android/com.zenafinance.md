@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zenafinance
+appCountry: 
 released: 2020-12-17
 updated: 2021-10-16
 version: "2.1.3"

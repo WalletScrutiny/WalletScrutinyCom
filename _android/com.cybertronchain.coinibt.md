@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cybertronchain.coinibt
+appCountry: 
 released: 2020-12-02
 updated: 2021-07-27
 version: "1.13"

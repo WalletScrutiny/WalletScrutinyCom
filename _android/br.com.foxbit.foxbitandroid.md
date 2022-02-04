@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: br.com.foxbit.foxbitandroid
+appCountry: 
 released: 2019-01-28
 updated: 2022-01-31
 version: "2.15.1"
-stars: 3.7
-ratings: 5942
-reviews: 4091
+stars: 2.4
+ratings: 6442
+reviews: 19
 size: 14M
-website: https://ajuda.foxbit.com.br/
+website: http://www.foxbit.com.br
 repository: 
 issue: 
 icon: br.com.foxbit.foxbitandroid.png

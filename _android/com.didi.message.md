@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.didi.message
+appCountry: 
 released: 2020-04-30
 updated: 2022-01-14
 version: "1.14.0"
-stars: 3.7
-ratings: 1072
-reviews: 427
+stars: 4.3
+ratings: 1137
+reviews: 15
 size: 71M
-website: https://didimessage.com/
+website: https://didimessage.com
 repository: 
 issue: 
 icon: com.didi.message.png

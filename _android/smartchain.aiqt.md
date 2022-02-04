@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: smartchain.aiqt
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "9.8"

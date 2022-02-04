@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.mobuyg.nmx
+appCountry: 
 released: 2021-08-16
 updated: 2021-08-16
 version: "1.0"
-stars: 4.4
-ratings: 7
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.5M
-website: 
+website: https://nominex.io/?r=128222
 repository: 
 issue: 
 icon: com.mobuyg.nmx.png

@@ -6,14 +6,15 @@ authors:
 
 users: 50000
 appId: com.hena.henawallet
+appCountry: 
 released: 2019-03-12
 updated: 2020-06-04
 version: "29"
-stars: 3.2
-ratings: 733
-reviews: 505
+stars: 2.9
+ratings: 738
+reviews: 14
 size: 21M
-website: 
+website: http://www.hena.io
 repository: 
 issue: 
 icon: com.hena.henawallet.png

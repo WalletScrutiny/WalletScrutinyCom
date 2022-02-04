@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.cryptocloud.mining.coin.mine.bitcrypto
+appCountry: 
 released: 2021-07-31
 updated: 2021-11-02
 version: "1.2"

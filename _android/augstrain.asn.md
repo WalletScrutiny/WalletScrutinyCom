@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10
 appId: augstrain.asn
+appCountry: 
 released: 2020-09-10
 updated: 2020-09-10
 version: "8.0"

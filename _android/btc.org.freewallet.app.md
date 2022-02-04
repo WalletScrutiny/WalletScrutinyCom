@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: btc.org.freewallet.app
+appCountry: 
 released: 2016-06-13
 updated: 2021-09-20
 version: "2.6.8"
-stars: 4.7
-ratings: 6847
-reviews: 3604
+stars: 4.6
+ratings: 7837
+reviews: 405
 size: 8.3M
-website: https://freewallet.org
+website: https://freewallet.org/
 repository: 
 issue: 
 icon: btc.org.freewallet.app.png

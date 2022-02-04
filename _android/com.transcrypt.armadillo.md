@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.transcrypt.armadillo
+appCountry: 
 released: 2018-05-23
 updated: 2022-01-22
 version: "2.08.2"
-stars: 4.3
-ratings: 160
-reviews: 80
+stars: 0.0
+ratings: 
+reviews: 
 size: 59M
-website: https://wallet.tizer.io/
+website: https://tizer.io
 repository: 
 issue: 
 icon: com.transcrypt.armadillo.png

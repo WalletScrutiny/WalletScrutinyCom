@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.skyewallet.skye_wallet
+appCountry: 
 released: 2021-05-01
 updated: 2021-11-03
 version: "2.9.4"
-stars: 3.9
-ratings: 67
-reviews: 57
+stars: 5.0
+ratings: 186
+reviews: 5
 size: 27M
-website: https://skyewallet.com/
+website: https://skyewallet.com
 repository: 
 issue: 
 icon: com.skyewallet.skye_wallet.png

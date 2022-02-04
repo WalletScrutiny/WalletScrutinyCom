@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.ddcday.wallex
+appCountry: 
 released: 2021-09-09
 updated: 2021-09-09
 version: "1"

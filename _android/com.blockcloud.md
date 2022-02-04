@@ -6,12 +6,13 @@ authors:
 
 users: 500
 appId: com.blockcloud
+appCountry: 
 released: 2021-01-08
 updated: 2021-02-16
 version: "1.4"
-stars: 4.1
-ratings: 9
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
 website: 
 repository: 

@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.fiber.fiberwallet
+appCountry: 
 released: 2021-04-20
 updated: 2021-04-27
 version: "1.1.85"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 42M
-website: 
+website: https://app.wirewallet.org/
 repository: 
 issue: 
 icon: com.fiber.fiberwallet.png

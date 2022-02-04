@@ -6,12 +6,13 @@ authors:
 
 users: 500
 appId: com.yazedo.coinport
+appCountry: 
 released: 2018-03-04
 updated: 2021-03-12
 version: "2.2.0"
-stars: 4.2
-ratings: 10
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
 website: 
 repository: 

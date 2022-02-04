@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.trade360
+appCountry: 
 released: 2015-06-18
 updated: 2022-01-21
 version: "7.1.4"
-stars: 2.8
-ratings: 1375
-reviews: 786
+stars: 4.4
+ratings: 1420
+reviews: 12
 size: 13M
-website: https://www.trade360.com/
+website: http://www.trade360.com
 repository: 
 issue: 
 icon: com.trade360.png

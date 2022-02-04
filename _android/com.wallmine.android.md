@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.wallmine.android
+appCountry: 
 released: 2019-11-21
 updated: 2020-07-29
 version: "1.1.10"
-stars: 3.7
-ratings: 60
-reviews: 33
+stars: 3.8
+ratings: 66
+reviews: 9
 size: 789k
-website: 
+website: https://wallmine.com
 repository: 
 issue: 
 icon: com.wallmine.android.png

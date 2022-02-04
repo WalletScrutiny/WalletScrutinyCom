@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.panel.predictioncoins.predictioncoinsbotapp
+appCountry: 
 released: 2019-03-16
 updated: 2019-03-16
 version: "1"
-stars: 3.9
-ratings: 121
-reviews: 90
+stars: 3.2
+ratings: 126
+reviews: 3
 size: 1.1M
-website: 
+website: https://predictioncoins.com
 repository: 
 issue: 
 icon: com.panel.predictioncoins.predictioncoinsbotapp.png

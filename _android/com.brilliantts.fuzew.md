@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.brilliantts.fuzew
+appCountry: 
 released: 2018-07-25
 updated: 2021-08-10
 version: "1.0.23"
-stars: 4.4
-ratings: 22
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 32M
-website: https://fuzew.com/
+website: https://www.fuzew.com 
 repository: 
 issue: 
 icon: com.brilliantts.fuzew.png

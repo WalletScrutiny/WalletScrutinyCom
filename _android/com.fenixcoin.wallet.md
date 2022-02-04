@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.fenixcoin.wallet
+appCountry: 
 released: 2018-04-09
 updated: 2018-04-09
 version: "v1.0.1"

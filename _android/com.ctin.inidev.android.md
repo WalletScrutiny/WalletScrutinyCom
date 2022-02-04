@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.ctin.inidev.android
+appCountry: 
 released: 2021-05-22
 updated: 2021-06-04
 version: "1.0.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 7.7M
-website: 
+website: https://inindiatech.com
 repository: 
 issue: 
 icon: com.ctin.inidev.android.png

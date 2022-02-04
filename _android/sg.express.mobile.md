@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: sg.express.mobile
+appCountry: 
 released: 2020-07-10
 updated: 2021-12-28
 version: "1.22.0"
-stars: 4.2
-ratings: 2947
-reviews: 1231
+stars: 4.8
+ratings: 3707
+reviews: 11
 size: 37M
 website: https://stormgainexpress.com/
 repository: 

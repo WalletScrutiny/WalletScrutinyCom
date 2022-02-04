@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000000
 appId: co.bitx.android.wallet
+appCountry: 
 released: 2014-11-01
 updated: 2022-02-02
 version: "8.0.0"
-stars: 4
-ratings: 90024
-reviews: 47387
+stars: 3.8
+ratings: 95273
+reviews: 910
 size: 85M
 website: https://www.luno.com
 repository: 

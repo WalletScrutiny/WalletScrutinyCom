@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.okinc.okex.gp
+appCountry: 
 released: 2019-10-29
 updated: 2022-01-24
 version: "6.0.2"
-stars: 4.7
-ratings: 153033
-reviews: 41616
+stars: 4.5
+ratings: 180531
+reviews: 668
 size: 174M
-website: https://www.okex.com
+website: https://www.okx.com/
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png

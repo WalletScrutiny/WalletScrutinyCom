@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.xrex.mobile
+appCountry: 
 released: 2020-02-20
 updated: 2022-01-17
 version: "1.6.180"
-stars: 4.2
-ratings: 41
-reviews: 18
+stars: 3.8
+ratings: 72
+reviews: 2
 size: 71M
 website: https://xrex.io/
 repository: 

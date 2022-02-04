@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.forex4you.android
+appCountry: 
 released: 2015-10-06
 updated: 2021-10-29
 version: "Varies with device"
-stars: 3.8
-ratings: 2423
-reviews: 969
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: https://www.forex4you.com/en/
 repository: 

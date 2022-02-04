@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.nobillio.coinbaazar
+appCountry: 
 released: 2020-08-31
 updated: 2021-10-14
 version: "1.3.10"
-stars: 4.1
-ratings: 17
-reviews: 11
+stars: 0.0
+ratings: 
+reviews: 
 size: 35M
-website: https://coinbaazar.com/
+website: https://coinbaazar.com
 repository: 
 issue: 
 icon: com.nobillio.coinbaazar.jpg

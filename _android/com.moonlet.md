@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.moonlet
+appCountry: 
 released: 2020-04-21
 updated: 2021-11-29
 version: "1.5.23"
-stars: 3.4
-ratings: 608
-reviews: 359
+stars: 3.9
+ratings: 634
+reviews: 83
 size: 38M
-website: https://moonlet.io/
+website: https://moonlet.io
 repository: https://github.com/Moonlet
 issue: 
 icon: com.moonlet.png

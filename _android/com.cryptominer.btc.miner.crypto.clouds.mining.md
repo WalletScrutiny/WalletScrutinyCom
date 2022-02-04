@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.cryptominer.btc.miner.crypto.clouds.mining
+appCountry: 
 released: 2021-08-28
 updated: 2022-01-27
 version: "1.2"
-stars: 4.4
-ratings: 635
-reviews: 438
+stars: 4.7
+ratings: 1609
+reviews: 99
 size: 12M
-website: 
+website: http://btccryptonetwork.com/
 repository: 
 issue: 
 icon: com.cryptominer.btc.miner.crypto.clouds.mining.png

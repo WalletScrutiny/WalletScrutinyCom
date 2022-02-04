@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000000
 appId: com.etoro.openbook
+appCountry: 
 released: 2013-11-05
 updated: 2022-02-02
 version: "378.0.0"
-stars: 4.2
-ratings: 102379
-reviews: 38636
+stars: 4.0
+ratings: 109435
+reviews: 2681
 size: 46M
-website: https://www.etoro.com
+website: https://www.etoro.com/
 repository: 
 issue: 
 icon: com.etoro.openbook.png

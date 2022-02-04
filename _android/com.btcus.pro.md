@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.btcus.pro
+appCountry: 
 released: 2021-03-30
 updated: 2021-03-30
 version: "1.0.3.210330"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 27M

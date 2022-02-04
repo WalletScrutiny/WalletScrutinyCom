@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000
 appId: com.vidulumwallet.app
+appCountry: 
 released: 2019-04-04
 updated: 2019-04-05
 version: "1.2"
-stars: 4.2
-ratings: 100
-reviews: 72
+stars: 4.8
+ratings: 104
+reviews: 8
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app

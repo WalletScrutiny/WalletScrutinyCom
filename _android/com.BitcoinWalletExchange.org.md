@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.BitcoinWalletExchange.org
+appCountry: 
 released: 2020-10-12
 updated: 2020-10-13
 version: "1.01"
-stars: 4.3
-ratings: 108
-reviews: 42
+stars: 4.7
+ratings: 111
+reviews: 11
 size: 20M
 website: 
 repository: 

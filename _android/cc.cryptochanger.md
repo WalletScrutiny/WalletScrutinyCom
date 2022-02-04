@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: cc.cryptochanger
+appCountry: 
 released: 2017-11-30
 updated: 2018-02-19
 version: "0.4"

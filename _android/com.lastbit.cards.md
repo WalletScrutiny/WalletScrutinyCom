@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.lastbit.cards
+appCountry: 
 released: 
 updated: 2021-08-28
 version: "Varies with device"

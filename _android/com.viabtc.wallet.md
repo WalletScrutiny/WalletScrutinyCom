@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.viabtc.wallet
+appCountry: 
 released: 2019-05-15
 updated: 2022-01-28
 version: "2.9.0"
-stars: 4.2
-ratings: 449
-reviews: 182
+stars: 4.1
+ratings: 604
+reviews: 27
 size: 60M
 website: https://viawallet.com
 repository: 

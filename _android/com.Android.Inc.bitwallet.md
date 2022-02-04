@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.Android.Inc.bitwallet
+appCountry: 
 released: 2019-07-22
 updated: 2022-01-06
 version: "1.4.21"
 stars: 4.5
-ratings: 970
-reviews: 806
+ratings: 1192
+reviews: 264
 size: 26M
 website: https://www.bitwallet.org
 repository: 

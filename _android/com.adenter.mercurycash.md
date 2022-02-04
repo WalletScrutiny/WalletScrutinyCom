@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.adenter.mercurycash
+appCountry: 
 released: 2017-07-28
 updated: 2021-09-22
 version: "4.3.3"
-stars: 3.7
-ratings: 223
-reviews: 150
+stars: 4.2
+ratings: 228
+reviews: 16
 size: 80M
 website: http://mercury.cash
 repository: 

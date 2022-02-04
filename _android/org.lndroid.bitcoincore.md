@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: org.lndroid.bitcoincore
+appCountry: 
 released: 2020-07-02
 updated: 2020-07-08
 version: "0.6"
-stars: 4.1
-ratings: 13
-reviews: 4
+stars: 4.6
+ratings: 16
+reviews: 1
 size: 7.5M
 website: 
 repository: 

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.smilesbitcoin.smiles
-released: 
+appCountry: 
+released: 2020-12-15
 updated: 2022-01-19
 version: "2.0.7"
-stars: 2.7
-ratings: 99
-reviews: 74
+stars: 2.6
+ratings: 170
+reviews: 35
 size: 72M
 website: https://www.smilesbitcoin.com/
 repository: 

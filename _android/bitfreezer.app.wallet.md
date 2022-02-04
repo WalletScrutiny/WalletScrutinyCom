@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10000
 appId: bitfreezer.app.wallet
+appCountry: 
 released: 2019-09-18
 updated: 2021-02-18
 version: "1.0.16"

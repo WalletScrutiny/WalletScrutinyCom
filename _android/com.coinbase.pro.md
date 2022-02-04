@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
+appCountry: 
 released: 2020-01-06
 updated: 2022-01-31
 version: "1.0.90"
-stars: 3.9
-ratings: 20505
-reviews: 5883
+stars: 3.1
+ratings: 21551
+reviews: 3989
 size: 57M
-website: https://pro.coinbase.com
+website: http://pro.coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg

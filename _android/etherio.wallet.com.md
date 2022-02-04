@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: etherio.wallet.com
+appCountry: 
 released: 2021-04-28
 updated: 2021-04-28
 version: "3.30.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 34M
-website: 
+website: https://etherio.org
 repository: 
 issue: 
 icon: etherio.wallet.com.png

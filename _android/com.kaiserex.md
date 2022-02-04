@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.kaiserex
+appCountry: 
 released: 2020-05-09
 updated: 2020-05-09
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 3.4M
-website: 
+website: https://www.kaiserex.com
 repository: 
 issue: 
 icon: com.kaiserex.png

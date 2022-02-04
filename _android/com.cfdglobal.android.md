@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.cfdglobal.android
+appCountry: 
 released: 2017-10-04
 updated: 2021-11-26
 version: "2.7.0"
-stars: 3.4
-ratings: 323
-reviews: 147
+stars: 0.0
+ratings: 
+reviews: 
 size: 23M
-website: https://sc.capex.com/
+website: https://www.capex.com
 repository: 
 issue: 
 icon: com.cfdglobal.android.png

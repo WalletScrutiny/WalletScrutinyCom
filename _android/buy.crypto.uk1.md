@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: buy.crypto.uk1
+appCountry: 
 released: 2021-06-17
 updated: 2021-06-17
 version: "1.0"

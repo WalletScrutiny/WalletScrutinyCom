@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.dcoin.exchange
+appCountry: 
 released: 2018-11-25
 updated: 2022-01-13
 version: "5.1.5"
-stars: 3.3
-ratings: 1291
-reviews: 814
+stars: 4.2
+ratings: 1339
+reviews: 86
 size: 22M
-website: https://www.dcoin.com/
+website: https://www.dcoin.com
 repository: 
 issue: 
 icon: com.dcoin.exchange.png

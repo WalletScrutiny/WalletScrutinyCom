@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.bytetrade.bytehub
+appCountry: 
 released: 2019-02-02
 updated: 2021-09-09
 version: "1.4.3.210909"
-stars: 4.5
-ratings: 7163
-reviews: 4324
+stars: 4.8
+ratings: 7185
+reviews: 140
 size: 29M
 website: https://www.bytetrade.io/
 repository: 

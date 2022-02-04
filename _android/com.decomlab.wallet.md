@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.decomlab.wallet
+appCountry: 
 released: 2021-07-26
 updated: 2021-09-02
 version: "1.2.1"
-stars: 4.6
-ratings: 100
-reviews: 66
+stars: 3.2
+ratings: 121
+reviews: 7
 size: 94M
 website: https://moonwallet.net/
 repository: 

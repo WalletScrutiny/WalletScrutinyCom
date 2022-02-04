@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: io.proxycard.proxy
+appCountry: 
 released: 2018-01-31
 updated: 2018-05-03
 version: "1.0.89"

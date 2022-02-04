@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000000
 appId: com.dunamu.exchange
+appCountry: 
 released: 2017-10-23
 updated: 2022-01-20
 version: "1.15.9p3"
-stars: 4.2
-ratings: 28253
-reviews: 10437
+stars: 3.5
+ratings: 29274
+reviews: 13
 size: 65M
 website: https://upbit.com
 repository: 

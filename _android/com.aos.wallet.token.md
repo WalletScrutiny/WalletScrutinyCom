@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.aos.wallet.token
+appCountry: 
 released: 2019-11-07
 updated: 2020-08-07
 version: "2.0.22"

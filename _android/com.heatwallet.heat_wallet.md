@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.heatwallet.heat_wallet
+appCountry: 
 released: 2021-11-24
 updated: 2021-11-24
 version: "1.0.38"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 207M

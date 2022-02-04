@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.lingxi.bexplus
+appCountry: 
 released: 2018-10-29
 updated: 2021-10-19
 version: "2.1.5"
-stars: 5
-ratings: 6518
-reviews: 2025
+stars: 5.0
+ratings: 6806
+reviews: 1638
 size: 12M
-website: https://www.bexplus.com
+website: http://www.bexplus.com
 repository: 
 issue: 
 icon: com.lingxi.bexplus.png

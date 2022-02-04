@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.electrum.electrum99
+appCountry: 
 released: 
 updated: 2021-04-18
 version: "5.3.6"

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.bitrue.currency.exchange
+appCountry: 
 released: 2018-07-18
 updated: 2022-01-11
 version: "5.1.0"
-stars: 3.5
-ratings: 2281
-reviews: 1437
+stars: 3.3
+ratings: 2622
+reviews: 285
 size: 41M
-website: https://www.bitrue.com
+website: https://www.bitrue.com/
 repository: 
 issue: 
 icon: com.bitrue.currency.exchange.png

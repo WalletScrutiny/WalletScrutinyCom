@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: org.bitrtuubonline.crypto.coin.invest
+appCountry: 
 released: 2021-07-17
 updated: 2021-07-17
 version: "1.0"

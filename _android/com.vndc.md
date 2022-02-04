@@ -6,14 +6,15 @@ authors:
 - danny
 users: 500000
 appId: com.vndc
+appCountry: 
 released: 2020-03-07
 updated: 2022-01-14
 version: "2.1.0"
 stars: 4.5
-ratings: 32000
-reviews: 9884
+ratings: 44931
+reviews: 221
 size: 139M
-website: https://vndc.io/en
+website: https://vndc.io
 repository: 
 issue: 
 icon: com.vndc.png

@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: co.ocdigital.flashtrade
+appCountry: 
 released: 2018-01-02
 updated: 2018-01-21
 version: "1.2.2"

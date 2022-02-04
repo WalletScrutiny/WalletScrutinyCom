@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.zbx.app
+appCountry: 
 released: 2019-10-18
 updated: 2022-01-15
 version: "2.1.4"
-stars: 2.8
-ratings: 37
-reviews: 28
+stars: 0.0
+ratings: 
+reviews: 
 size: 34M
 website: https://www.zbx.one/
 repository: 

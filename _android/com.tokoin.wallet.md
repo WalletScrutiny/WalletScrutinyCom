@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.tokoin.wallet
+appCountry: 
 released: 2019-12-11
 updated: 2021-11-22
 version: "3.2.5"
-stars: 4
-ratings: 571
-reviews: 499
+stars: 4.1
+ratings: 574
+reviews: 6
 size: Varies with device
-website: https://www.tokoin.io/
+website: https://tokoin.io
 repository: https://github.com/tokoinofficial
 issue: 
 icon: com.tokoin.wallet.png

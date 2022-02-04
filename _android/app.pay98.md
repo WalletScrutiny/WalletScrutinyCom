@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: app.pay98
+appCountry: 
 released: 2018-05-31
 updated: 2021-07-16
 version: "2.0.2"
 stars: 4.7
-ratings: 14971
-reviews: 6991
+ratings: 15261
+reviews: 537
 size: 32M
-website: https://pay98.app
+website: https://pay98.cash/
 repository: 
 issue: 
 icon: app.pay98.png

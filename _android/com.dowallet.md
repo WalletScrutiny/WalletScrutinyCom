@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50000
 appId: com.dowallet
+appCountry: 
 released: 2019-01-01
 updated: 2021-10-01
 version: "1.1.39"
-stars: 4
-ratings: 876
-reviews: 455
+stars: 4.1
+ratings: 883
+reviews: 91
 size: 38M
-website: https://www.dowallet.app
+website: https://www.dowallet.app/
 repository: 
 issue: 
 icon: com.dowallet.png

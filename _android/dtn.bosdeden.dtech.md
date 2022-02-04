@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: dtn.bosdeden.dtech
+appCountry: 
 released: 2021-03-05
 updated: 2021-03-05
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 13M
-website: 
+website: http://bisnis188.tech/
 repository: 
 issue: 
 icon: dtn.bosdeden.dtech.png

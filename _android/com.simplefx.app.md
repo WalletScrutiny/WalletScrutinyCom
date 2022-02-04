@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.simplefx.app
+appCountry: 
 released: 2017-12-18
 updated: 2022-01-18
 version: "2.1.187.0"
-stars: 4.4
-ratings: 285
-reviews: 159
+stars: 4.1
+ratings: 289
+reviews: 5
 size: 19M
-website: https://simplefx.com/
+website: https://simplefx.com
 repository: 
 issue: 
 icon: com.simplefx.app.png

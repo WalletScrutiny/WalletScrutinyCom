@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.dsdaq.mobiletrader
+appCountry: 
 released: 2019-12-24
 updated: 2022-01-20
 version: "3.0.4"
-stars: 4
-ratings: 481
-reviews: 253
+stars: 5.0
+ratings: 509
+reviews: 55
 size: 8.3M
-website: https://www.dsdaq.com/
+website: https://dsdaq.com
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png

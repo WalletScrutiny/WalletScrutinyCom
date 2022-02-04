@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000
 appId: org.coinid.wallet.btc
+appCountry: 
 released: 2018-10-14
 updated: 2021-02-20
 version: "1.8.0"
-stars: 4.2
-ratings: 15
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 34M
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: coinsquare.io.coinsquare
+appCountry: 
 released: 2017-08-30
 updated: 2022-01-17
 version: "2.13.14"
-stars: 2.3
-ratings: 773
-reviews: 523
+stars: 2.9
+ratings: 787
+reviews: 13
 size: 7.3M
-website: https://coinsquare.com
+website: http://coinsquare.com
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png

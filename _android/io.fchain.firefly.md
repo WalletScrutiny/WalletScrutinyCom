@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: io.fchain.firefly
+appCountry: 
 released: 2019-05-08
 updated: 2022-01-07
 version: "3.3.9.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 22M
-website: 
+website: https://wallet.fchain.io
 repository: 
 issue: 
 icon: io.fchain.firefly.png

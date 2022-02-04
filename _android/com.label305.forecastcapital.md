@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.label305.forecastcapital
+appCountry: 
 released: 2020-12-24
 updated: 2022-01-07
 version: "1.1.3"
-stars: 1.9
-ratings: 7
-reviews: 6
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.0M
-website: 
+website: https://www.frcst.com
 repository: 
 issue: 
 icon: com.label305.forecastcapital.png

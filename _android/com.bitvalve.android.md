@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.bitvalve.android
+appCountry: 
 released: 2019-10-29
 updated: 2022-01-20
 version: "1.0.3"
-stars: 4.9
-ratings: 265
-reviews: 187
+stars: 4.2
+ratings: 294
+reviews: 12
 size: 14M
-website: https://www.bitvalve.com/
+website: https://www.bitvalve.com
 repository: 
 issue: 
 icon: com.bitvalve.android.png

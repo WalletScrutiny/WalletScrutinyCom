@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.newcurrency.coinstrunk.v1
+appCountry: 
 released: 2020-10-15
 updated: 2022-02-01
 version: "1.11"
-stars: 4
-ratings: 568
-reviews: 458
+stars: 4.1
+ratings: 617
+reviews: 43
 size: 6.4M
-website: https://buxtank.com/
+website: http://firstdaotrust.com
 repository: 
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png

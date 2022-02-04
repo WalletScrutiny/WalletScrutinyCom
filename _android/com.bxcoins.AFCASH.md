@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.bxcoins.AFCASH
+appCountry: 
 released: 2021-02-19
 updated: 2021-02-20
 version: "1.0.0"

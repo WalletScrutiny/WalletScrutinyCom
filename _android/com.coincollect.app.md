@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.coincollect.app
+appCountry: 
 released: 2019-09-08
 updated: 2021-04-21
 version: "1.11.0"
-stars: 4.2
-ratings: 6
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 57M
 website: https://coincollect.cc/
 repository: 

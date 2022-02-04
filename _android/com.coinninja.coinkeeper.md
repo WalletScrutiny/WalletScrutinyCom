@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.coinninja.coinkeeper
+appCountry: 
 released: 2018-08-01
 updated: 2020-01-28
 version: "3.2.7"

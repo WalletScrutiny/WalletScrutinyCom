@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.oracle.wallet
+appCountry: 
 released: 2021-01-19
 updated: 2021-12-28
 version: "1.4.9"

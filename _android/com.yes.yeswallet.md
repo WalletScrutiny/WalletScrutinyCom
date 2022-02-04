@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.yes.yeswallet
+appCountry: 
 released: 2019-04-24
 updated: 2019-04-24
 version: "1.0"

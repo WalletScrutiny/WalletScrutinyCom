@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: app.jackbot
+appCountry: 
 released: 2021-01-05
 updated: 2022-01-27
 version: "4.2.0"
-stars: 3.8
-ratings: 20
-reviews: 18
+stars: 0.0
+ratings: 
+reviews: 
 size: 43M
-website: https://jackbot.app/
+website: https://jackbot.app
 repository: 
 issue: 
 icon: app.jackbot.jpg

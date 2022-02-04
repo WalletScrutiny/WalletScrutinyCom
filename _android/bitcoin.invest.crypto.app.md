@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: bitcoin.invest.crypto.app
+appCountry: 
 released: 2021-03-18
 updated: 2021-03-18
 version: "1.0"
-stars: 4.7
-ratings: 25
-reviews: 22
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.5M
 website: 
 repository: 

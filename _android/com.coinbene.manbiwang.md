@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100000
 appId: com.coinbene.manbiwang
+appCountry: 
 released: 2018-11-09
 updated: 2021-05-18
 version: "4.1.6"

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.cointral.exchange
+appCountry: 
 released: 2020-10-29
 updated: 2021-08-18
 version: "1.3.6"
-stars: 3.6
-ratings: 106
-reviews: 55
+stars: 0.0
+ratings: 
+reviews: 
 size: 26M
-website: https://www.cointral.com/en
+website: https://cointral.com
 repository: 
 issue: 
 icon: com.cointral.exchange.png

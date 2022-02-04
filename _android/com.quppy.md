@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.quppy
+appCountry: 
 released: 2018-09-17
 updated: 2022-01-20
 version: "2.0.13"

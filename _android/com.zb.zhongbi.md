@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zb.zhongbi
+appCountry: 
 released: 2020-08-24
 updated: 2021-03-05
 version: "1.1.4"

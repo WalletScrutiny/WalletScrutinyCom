@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: co.okex.app
+appCountry: 
 released: 2019-09-11
 updated: 2022-01-28
 version: "6.1.0"
-stars: 4
-ratings: 6068
-reviews: 2990
+stars: 4.0
+ratings: 7133
+reviews: 152
 size: 8.7M
 website: https://ok-ex.co
 repository: 

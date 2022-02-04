@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: net.hodlercrypto.bitcoin.invest.india
+appCountry: 
 released: 2021-06-18
 updated: 2021-06-18
 version: "1.0"

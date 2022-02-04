@@ -6,14 +6,15 @@ authors:
 - leo
 users: 5000000
 appId: org.toshi
+appCountry: 
 released: 2017-09-20
 updated: 2022-01-29
 version: "26.1.401"
-stars: 3.3
-ratings: 30635
-reviews: 13239
+stars: 3.8
+ratings: 36690
+reviews: 7576
 size: Varies with device
-website: https://wallet.coinbase.com
+website: https://wallet.coinbase.com/
 repository: 
 issue: 
 icon: org.toshi.png

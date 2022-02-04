@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.cryptocurrencys.bestwallet
+appCountry: 
 released: 
 updated: 2021-12-30
 version: "various"

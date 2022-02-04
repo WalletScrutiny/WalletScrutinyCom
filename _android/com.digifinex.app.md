@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.digifinex.app
+appCountry: 
 released: 2018-06-26
 updated: 2022-01-21
 version: "2022.01.21"
 stars: 3.8
-ratings: 3011
-reviews: 1733
+ratings: 3202
+reviews: 313
 size: 63M
-website: https://www.digifinex.com
+website: https://www.digifinex.com/
 repository: 
 issue: 
 icon: com.digifinex.app.png

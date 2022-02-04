@@ -7,12 +7,13 @@ authors:
 - leo
 users: 10000
 appId: com.iqpandroidinterface
+appCountry: 
 released: 2021-10-01
 updated: 2021-10-13
 version: "1.2"
 stars: 4.9
-ratings: 312
-reviews: 285
+ratings: 629
+reviews: 55
 size: 34M
 website: https://iqwallet.io/
 repository: 

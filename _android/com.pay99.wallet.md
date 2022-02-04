@@ -6,10 +6,11 @@ authors:
 - leo
 users: 500000
 appId: com.pay99.wallet
+appCountry: 
 released: 
 updated: 2022-01-26
 version: "7.1.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 77M

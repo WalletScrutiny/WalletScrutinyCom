@@ -7,12 +7,13 @@ authors:
 - danny
 users: 5000
 appId: com.coinpay
+appCountry: 
 released: 2020-05-26
 updated: 2020-08-23
 version: "1.0.7"
-stars: 3.3
-ratings: 25
-reviews: 18
+stars: 3.1
+ratings: 27
+reviews: 12
 size: 5.4M
 website: https://www.coinpayapp.com
 repository: 

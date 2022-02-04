@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.mxc.smartcity
+appCountry: 
 released: 2020-05-18
 updated: 2022-01-31
 version: "2.0.6"
-stars: 3.9
-ratings: 1706
-reviews: 211
+stars: 3.8
+ratings: 1918
+reviews: 58
 size: 54M
-website: https://www.mxc.org/
+website: https://www.mxc.org
 repository: 
 issue: 
 icon: com.mxc.smartcity.jpg

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
+appCountry: 
 released: 2021-02-21
 updated: 2022-01-28
 version: "1.8.22"
-stars: 4.2
-ratings: 579
-reviews: 392
+stars: 0.0
+ratings: 
+reviews: 
 size: 60M
 website: https://bitpreco.com/
 repository: 

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.mobiletrade.fms.globaltradeatf
+appCountry: 
 released: 2020-06-10
 updated: 2021-11-22
 version: "1.5.78-mobiletrade.fms.globaltradeatf"
-stars: 2.8
-ratings: 383
-reviews: 312
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
 website: https://global.tradeatf.com/
 repository: 

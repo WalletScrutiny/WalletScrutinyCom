@@ -7,12 +7,13 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
+appCountry: 
 released: 2019-07-20
 updated: 2022-01-27
 version: "8.0.1"
-stars: 4.6
-ratings: 595
-reviews: 505
+stars: 3.8
+ratings: 605
+reviews: 67
 size: 77M
 website: https://sparkpoint.io/
 repository: 

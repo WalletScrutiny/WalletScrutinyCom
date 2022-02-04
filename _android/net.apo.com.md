@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: net.apo.com
+appCountry: 
 released: 2020-12-27
 updated: 2021-01-05
 version: "1.4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 5.2M

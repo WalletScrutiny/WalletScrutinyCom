@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: io.yellowcard.app
+appCountry: 
 released: 2019-05-14
-updated: 2022-01-27
-version: "3.16.0"
+updated: 2022-02-02
+version: "3.17.1"
 stars: 3.4
-ratings: 2287
-reviews: 1704
+ratings: 3738
+reviews: 57
 size: 34M
-website: https://yellowcard.io/
+website: https://www.yellowcard.io/
 repository: 
 issue: 
 icon: io.yellowcard.app.png

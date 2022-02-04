@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.bitvavo.android
+appCountry: 
 released: 2020-08-19
 updated: 2021-12-28
 version: "1.0.100"
-stars: 2.5
-ratings: 1740
-reviews: 1276
+stars: 0.0
+ratings: 
+reviews: 
 size: 178M
 website: https://bitvavo.com/
 repository: 

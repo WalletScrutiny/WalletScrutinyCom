@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.swissborg.android
+appCountry: 
 released: 2020-06-16
 updated: 2022-01-28
 version: "1.27.0"
-stars: 4.3
-ratings: 8248
-reviews: 4434
+stars: 0.0
+ratings: 
+reviews: 
 size: 154M
-website: https://swissborg.com/
+website: https://swissborg.com
 repository: 
 issue: 
 icon: com.swissborg.android.png

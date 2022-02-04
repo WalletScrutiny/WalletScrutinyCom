@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.app.coinloan
+appCountry: 
 released: 2019-11-28
 updated: 2022-01-19
 version: "Varies with device"
 stars: 4.4
-ratings: 253
-reviews: 123
+ratings: 292
+reviews: 45
 size: Varies with device
 website: https://coinloan.io/
 repository: 

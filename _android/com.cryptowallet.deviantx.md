@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.cryptowallet.deviantx
+appCountry: 
 released: 2018-11-12
 updated: 2019-08-01
 version: "2.6"
-stars: 3.5
-ratings: 30
-reviews: 16
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: 
+website: https://deviantcoin.io
 repository: 
 issue: 
 icon: com.cryptowallet.deviantx.jpg

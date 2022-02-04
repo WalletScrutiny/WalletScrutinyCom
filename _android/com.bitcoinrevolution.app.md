@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.bitcoinrevolution.app
+appCountry: 
 released: 2021-05-11
 updated: 2021-05-11
 version: "1.0.0"

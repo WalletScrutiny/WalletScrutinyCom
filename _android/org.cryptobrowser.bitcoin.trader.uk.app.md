@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: org.cryptobrowser.bitcoin.trader.uk.app
+appCountry: 
 released: 2021-06-28
 updated: 2021-06-29
 version: "1.0"

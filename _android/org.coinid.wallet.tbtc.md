@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: org.coinid.wallet.tbtc
+appCountry: 
 released: 2019-02-06
 updated: 2021-02-20
 version: "1.8.0"
-stars: 3
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 34M
-website: https://coinid.org/
+website: https://coinid.org
 repository: 
 issue: 
 icon: org.coinid.wallet.tbtc.png

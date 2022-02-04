@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.finovation.fxvc
+appCountry: 
 released: 2021-04-23
 updated: 2021-09-14
 version: "2.0.0"

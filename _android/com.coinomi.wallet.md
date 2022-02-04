@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.coinomi.wallet
+appCountry: 
 released: 2014-01-31
 updated: 2022-02-02
 version: "1.25.2"
 stars: 4.5
-ratings: 38700
-reviews: 21809
+ratings: 39675
+reviews: 2011
 size: 43M
-website: https://www.coinomi.com
+website: https://www.Coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.paribu.app
+appCountry: 
 released: 2019-06-14
 updated: 2021-12-24
 version: "3.4.1"
-stars: 4.3
-ratings: 62185
-reviews: 28670
+stars: 4.9
+ratings: 68083
+reviews: 85
 size: 38M
-website: 
+website: https://www.paribu.com
 repository: 
 issue: 
 icon: com.paribu.app.png

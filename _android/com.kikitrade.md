@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.kikitrade
+appCountry: 
 released: 2020-07-24
 updated: 2022-01-28
 version: "4.1.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 58M
-website: https://www.kikitrade.com/
+website: http://www.kikitrade.com
 repository: 
 issue: 
 icon: com.kikitrade.png

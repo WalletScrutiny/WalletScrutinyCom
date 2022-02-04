@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: eu.exante.client
+appCountry: 
 released: 2014-04-25
 updated: 2021-11-24
 version: "4.17.4"
-stars: 4
-ratings: 210
-reviews: 120
+stars: 5.0
+ratings: 213
+reviews: 
 size: 23M
-website: https://exante.eu/
+website: http://exante.eu
 repository: 
 issue: 
 icon: eu.exante.client.png

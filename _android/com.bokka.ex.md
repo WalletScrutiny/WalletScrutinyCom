@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.bokka.ex
+appCountry: 
 released: 2018-03-28
 updated: 2019-05-03
 version: "1.25.251"

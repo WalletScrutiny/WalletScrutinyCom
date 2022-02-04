@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.blockabc.abcwallet
+appCountry: 
 released: 
 updated: 2020-06-17
 version: "1.7.2"

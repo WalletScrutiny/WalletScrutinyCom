@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 500000
 appId: coin98.crypto.finance.media
+appCountry: 
 released: 2019-12-19
 updated: 2022-01-27
 version: "11.2.2"
-stars: 4.4
-ratings: 16096
-reviews: 8795
+stars: 4.3
+ratings: 17774
+reviews: 262
 size: 145M
-website: https://coin98.app/
+website: https://coin98.com/
 repository: 
 issue: 
 icon: coin98.crypto.finance.media.png

@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.bbctoken
+appCountry: 
 released: 2019-07-20
 updated: 2020-09-16
 version: "1.0.54"
 stars: 2.8
-ratings: 363
-reviews: 258
+ratings: 366
+reviews: 9
 size: 22M
-website: 
+website: http://bbctoken.app
 repository: 
 issue: 
 icon: com.bbctoken.png

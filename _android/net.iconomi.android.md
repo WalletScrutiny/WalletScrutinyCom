@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: net.iconomi.android
+appCountry: 
 released: 2017-10-17
 updated: 2022-01-07
 version: "2.1.0"
-stars: 3.8
-ratings: 258
-reviews: 123
+stars: 0.0
+ratings: 
+reviews: 
 size: 125M
-website: https://www.iconomi.com/
+website: https://www.iconomi.com
 repository: 
 issue: 
 icon: net.iconomi.android.png

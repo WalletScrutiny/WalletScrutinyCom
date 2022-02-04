@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.quicrypto
+appCountry: 
 released: 2019-11-12
 updated: 2021-12-02
 version: "3.21.0"
-stars: 3.4
-ratings: 4880
-reviews: 2964
+stars: 3.8
+ratings: 4920
+reviews: 428
 size: 26M
 website: http://www.quicrypto.com
 repository: 

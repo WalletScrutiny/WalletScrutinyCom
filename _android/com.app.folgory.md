@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.app.folgory
+appCountry: 
 released: 2019-08-14
 updated: 2019-08-14
 version: "1.5"
-stars: 2.6
-ratings: 14
-reviews: 11
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.4M
-website: 
+website: https://folgory.com/
 repository: 
 issue: 
 icon: com.app.folgory.png

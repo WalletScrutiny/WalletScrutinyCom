@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.btckorea.bithumba
+appCountry: 
 released: 2020-03-31
 updated: 2021-04-20
 version: "1.1.1"

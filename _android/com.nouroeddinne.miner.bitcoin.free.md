@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.nouroeddinne.miner.bitcoin.free
+appCountry: 
 released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
-stars: 4.4
-ratings: 2214
-reviews: 1058
+stars: 4.6
+ratings: 3602
+reviews: 313
 size: 7.0M
-website: 
+website: https://xb975cc16.app-ads-txt.com/
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png

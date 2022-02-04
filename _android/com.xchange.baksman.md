@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.xchange.baksman
+appCountry: 
 released: 2020-02-03
 updated: 2021-05-14
 version: "3.0.1"
-stars: 4.1
-ratings: 59
-reviews: 36
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.4M
-website: 
+website: https://baksman.org
 repository: 
 issue: 
 icon: com.xchange.baksman.png

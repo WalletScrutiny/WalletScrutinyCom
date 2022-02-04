@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.cwallet
+appCountry: 
 released: 2019-06-28
 updated: 2021-07-24
 version: "0.741.11"
-stars: 3.8
-ratings: 115
-reviews: 53
+stars: 3.4
+ratings: 120
+reviews: 6
 size: Varies with device
-website: https://xapawallet.com/
+website: https://xapawallet.com
 repository: 
 issue: 
 icon: com.cwallet.png

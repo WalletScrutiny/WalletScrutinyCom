@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.cmlatte.bitpre
+appCountry: 
 released: 2017-06-12
 updated: 2018-08-10
 version: "1.1.1"

@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: org.cryptomarketsdaily.bitcoin.exchange
+appCountry: 
 released: 2021-06-17
 updated: 2021-06-17
 version: "1.0"

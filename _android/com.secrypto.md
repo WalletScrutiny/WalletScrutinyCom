@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.secrypto
+appCountry: 
 released: 2018-06-18
 updated: 2019-02-26
 version: "1.28"
-stars: 2.8
-ratings: 957
-reviews: 652
+stars: 4.4
+ratings: 956
+reviews: 21
 size: 50M
-website: https://www.secrypto.io
+website: https://www.secrypto.io/
 repository: 
 issue: 
 icon: com.secrypto.png

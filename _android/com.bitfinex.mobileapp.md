@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.bitfinex.mobileapp
+appCountry: 
 released: 2019-02-11
 updated: 2022-01-13
 version: "4.16.0"
-stars: 4
-ratings: 1681
-reviews: 699
+stars: 3.4
+ratings: 1910
+reviews: 49
 size: 64M
 website: https://www.bitfinex.com
 repository: 

@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: wallet.snowgem.bitfrost
+appCountry: 
 released: 2020-05-26
 updated: 2021-07-30
 version: "0.1.9-3"

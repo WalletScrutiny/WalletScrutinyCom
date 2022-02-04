@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.terracredit.pro
+appCountry: 
 released: 2020-12-30
 updated: 2021-03-02
 version: "1.0.4.210302"
-stars: 4.4
-ratings: 109
-reviews: 66
+stars: 0.0
+ratings: 
+reviews: 
 size: 27M
-website: https://www.terra-bit.io/
+website: https://terra-bit.io
 repository: 
 issue: 
 icon: com.terracredit.pro.png

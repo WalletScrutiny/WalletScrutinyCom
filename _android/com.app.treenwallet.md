@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.app.treenwallet
+appCountry: 
 released: 2021-07-01
 updated: 2021-08-09
 version: "1.1.0"
-stars: 5
-ratings: 13
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
-website: 
+website: https://treenwallet.com
 repository: 
 issue: 
 icon: com.app.treenwallet.png

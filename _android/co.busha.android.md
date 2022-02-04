@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: co.busha.android
+appCountry: 
 released: 2019-01-21
 updated: 2022-01-26
 version: "3.0.16"
-stars: 4.4
-ratings: 2641
-reviews: 1998
+stars: 4.1
+ratings: 3385
+reviews: 102
 size: 32M
 website: https://busha.co
 repository: 

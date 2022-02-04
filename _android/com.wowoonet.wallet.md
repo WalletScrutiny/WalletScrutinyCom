@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.wowoonet.wallet
+appCountry: 
 released: 2017-12-01
 updated: 2019-03-26
 version: "1.4.3"

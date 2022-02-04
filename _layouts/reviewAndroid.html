@@ -68,11 +68,11 @@ layout: default
             <div class="svg {{ page.verdict }}"></div>
           {% endif %}
 
-          {% if page.stars %}
+          {% if page.stars > 0 %}
           <div title="Rated {{ page.stars }}/5 stars">
 
             <label>
-              <i class="fab fa-google-play"></i>&nbsp;Play Store
+              <i class="fab fa-google-play"></i>&nbsp;Play Store ({{ page.appCountry | default: "us" }})
             </label>
 
             <div>
@@ -96,17 +96,11 @@ layout: default
               <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
                 {% assign s = page.users %}
                 {% if s > 999999999 %}
-                  {% assign a = s | remove_first: '000000000' %}
-                  {{ a }}
-                  <n>billion</n>
+                  {{ s | remove_first: '000000000' }} <n>billion</n>
                 {% elsif s > 999999 %}
-                  {% assign a = s | remove_first: '000000' %}
-                  {{ a }}
-                  <n>million</n>
+                  {{ s | remove_first: '000000' }} <n>million</n>
                 {% elsif s > 999 %}
-                  {% assign a = s | remove_first: '000' %}
-                  {{ a }}
-                  <n>thousand</n>
+                  {{ s | remove_first: '000' }} <n>thousand</n>
                 {% else %}
                   {{ s }}
                 {% endif %}

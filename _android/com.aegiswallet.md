@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.aegiswallet
+appCountry: 
 released: 2014-06-01
 updated: 2017-12-20
 version: "1.2"

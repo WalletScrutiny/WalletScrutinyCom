@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.chameleon.wallet
+appCountry: 
 released: 2019-02-22
 updated: 2019-10-16
 version: "4.0.3"

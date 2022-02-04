@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.eletac.tronwallet
+appCountry: 
 released: 2018-05-13
 updated: 2022-01-29
 version: "2.2.8"
-stars: 4.4
-ratings: 1182
-reviews: 606
+stars: 4.3
+ratings: 1198
+reviews: 105
 size: 94M
-website: https://www.vision-crypto.com
+website: https://vision-crypto.com/
 repository: 
 issue: 
 icon: com.eletac.tronwallet.png

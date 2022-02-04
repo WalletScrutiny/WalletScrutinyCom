@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.hashcash.billbitcoins
+appCountry: 
 released: 2021-03-17
 updated: 2021-04-28
 version: "1.0.3"
-stars: 5
-ratings: 93
-reviews: 89
+stars: 4.9
+ratings: 98
+reviews: 11
 size: 8.0M
-website: 
+website: https://www.billbitcoins.com/index.html
 repository: 
 issue: 
 icon: com.hashcash.billbitcoins.png

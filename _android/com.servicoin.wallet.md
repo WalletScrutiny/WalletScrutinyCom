@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.servicoin.wallet
+appCountry: 
 released: 2021-07-31
 updated: 2021-07-31
 version: "0.21.0"
-stars: 4.5
-ratings: 35
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 48M
 website: https://www.mysrvcoin.com/index.php
 repository: 

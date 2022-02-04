@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.hagglex.hagglex
+appCountry: 
 released: 2021-03-17
 updated: 2021-11-26
 version: "1.1.2"
-stars: 3.3
-ratings: 2718
-reviews: 2376
+stars: 4.4
+ratings: 2771
+reviews: 90
 size: 47M
-website: https://www.hagglex.com/
+website: http://www.hagglex.com
 repository: 
 issue: 
 icon: com.hagglex.hagglex.png

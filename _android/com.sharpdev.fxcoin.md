@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.sharpdev.fxcoin
+appCountry: 
 released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
-stars: 2.8
-ratings: 2746
-reviews: 1654
+stars: 4.2
+ratings: 2789
+reviews: 4
 size: 30M
-website: https://fxcoin.pro
+website: http://fxcoin.pro
 repository: 
 issue: 
 icon: com.sharpdev.fxcoin.png

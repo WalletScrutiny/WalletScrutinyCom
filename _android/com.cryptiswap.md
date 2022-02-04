@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.cryptiswap
+appCountry: 
 released: 2021-03-16
 updated: 2021-06-29
 version: "1.0.6"
-stars: 4.3
-ratings: 9
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: 23M
-website: 
+website: https://cryptiswap.org/
 repository: 
 issue: 
 icon: com.cryptiswap.png

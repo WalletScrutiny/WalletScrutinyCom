@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.app.eizzybtc
+appCountry: 
 released: 2020-11-18
 updated: 2020-11-19
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 50M
-website: 
+website: https://eizzybtc.com
 repository: 
 issue: 
 icon: com.app.eizzybtc.png

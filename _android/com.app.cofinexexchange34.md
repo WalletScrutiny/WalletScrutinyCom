@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.cofinexexchange34
+appCountry: 
 released: 2021-02-12
 updated: 2021-02-12
 version: "1.0"

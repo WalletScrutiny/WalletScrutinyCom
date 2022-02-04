@@ -6,12 +6,13 @@ authors:
 
 users: 10000
 appId: free.crypto.coin
+appCountry: 
 released: 2020-02-24
 updated: 2020-09-22
 version: "1.0.8"
-stars: 3.8
-ratings: 92
-reviews: 38
+stars: 4.1
+ratings: 96
+reviews: 2
 size: 7.6M
 website: 
 repository: 

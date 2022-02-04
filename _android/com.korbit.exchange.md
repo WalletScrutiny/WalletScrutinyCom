@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.korbit.exchange
+appCountry: 
 released: 2018-07-22
 updated: 2022-01-27
 version: "4.4.3"
-stars: 3.9
-ratings: 2451
-reviews: 1481
+stars: 0.0
+ratings: 
+reviews: 
 size: 88M
-website: www.korbit.co.kr
+website: https://www.korbit.co.kr
 repository: 
 issue: 
 icon: com.korbit.exchange.png

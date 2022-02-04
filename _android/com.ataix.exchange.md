@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.ataix.exchange
+appCountry: 
 released: 2019-09-20
 updated: 2021-07-01
 version: "1.3.0"
-stars: 3.5
-ratings: 44
-reviews: 22
+stars: 3.8
+ratings: 48
+reviews: 2
 size: 11M
-website: https://ataix.com/
+website: https://ataix.com
 repository: 
 issue: 
 icon: com.ataix.exchange.png

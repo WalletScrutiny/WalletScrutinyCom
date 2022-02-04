@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.gamehub.playwallet2
+appCountry: 
 released: 2020-02-19
 updated: 2020-04-08
 version: "2.0.6"
-stars: 3.3
-ratings: 22
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: 
+website: http://www.playwallet.io/
 repository: 
 issue: 
 icon: com.gamehub.playwallet2.png

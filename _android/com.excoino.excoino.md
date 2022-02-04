@@ -6,14 +6,15 @@ authors:
 - danny
 users: 500000
 appId: com.excoino.excoino
+appCountry: 
 released: 2018-09-27
 updated: 2021-12-28
 version: "8.1.2"
-stars: 4.2
-ratings: 8094
-reviews: 3397
+stars: 3.8
+ratings: 8545
+reviews: 158
 size: 16M
-website: https://www.excoino.net/
+website: https://www.excoino.com/
 repository: 
 issue: 
 icon: com.excoino.excoino.png

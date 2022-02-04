@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.bull
+appCountry: 
 released: 2021-06-28
 updated: 2021-10-13
 version: "1.4.1-947"
-stars: 4.6
-ratings: 706
-reviews: 549
+stars: 4.5
+ratings: 710
+reviews: 22
 size: 20M
 website: https://bullcoin.finance/
 repository: https://github.com/BullCoinFinance

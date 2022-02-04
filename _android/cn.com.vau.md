@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: cn.com.vau
+appCountry: 
 released: 2019-07-06
 updated: 2022-01-26
 version: "2.0.4"
-stars: 4.8
-ratings: 5380
-reviews: 867
+stars: 4.2
+ratings: 8140
+reviews: 17
 size: 33M
-website: https://www.vantagefx.com.au/
+website: https://www.vantagemarkets.com/
 repository: 
 issue: 
 icon: cn.com.vau.png

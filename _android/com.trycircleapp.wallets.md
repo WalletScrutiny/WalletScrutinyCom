@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.trycircleapp.wallets
+appCountry: 
 released: 2020-12-29
 updated: 2021-12-10
 version: "7.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 8.2M
-website: https://trycircleapp.com/
+website: https://trycircleapp.com
 repository: 
 issue: 
 icon: com.trycircleapp.wallets.png

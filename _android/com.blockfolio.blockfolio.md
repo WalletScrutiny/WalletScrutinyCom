@@ -6,12 +6,13 @@ authors:
 - leo
 users: 1000000
 appId: com.blockfolio.blockfolio
+appCountry: 
 released: 2015-10-01
 updated: 2022-01-26
 version: "4.2.9"
-stars: 4.1
-ratings: 158520
-reviews: 48579
+stars: 3.8
+ratings: 163323
+reviews: 10587
 size: 64M
 website: https://www.blockfolio.com
 repository: 

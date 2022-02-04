@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 500000
 appId: com.bankofhodlers.mobile
+appCountry: 
 released: 2020-04-30
 updated: 2022-01-28
 version: "2.5.7"
-stars: 4.2
-ratings: 3903
-reviews: 1318
+stars: 4.5
+ratings: 7366
+reviews: 53
 size: 37M
-website: https://www.vauld.com/
+website: https://vauld.com
 repository: 
 issue: 
 icon: com.bankofhodlers.mobile.jpg

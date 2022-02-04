@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.fold
-released: 
+appCountry: 
+released: 2019-11-12
 updated: 2022-01-28
 version: "139.8.2"
-stars: 4.2
-ratings: 679
-reviews: 471
+stars: 3.8
+ratings: 772
+reviews: 465
 size: 164M
-website: https://foldapp.com/
+website: https://foldapp.com
 repository: 
 issue: 
 icon: com.fold.png

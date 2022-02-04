@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000
 appId: paydeepp.elegro.io
+appCountry: 
 released: 2018-11-09
 updated: 2021-08-30
 version: "5.1.3"
-stars: 4.2
-ratings: 27
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 18M
-website: https://elegro.eu
+website: https://elegro.eu/
 repository: 
 issue: 
 icon: paydeepp.elegro.io.jpg

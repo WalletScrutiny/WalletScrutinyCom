@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.walahala.paywalamerchant
+appCountry: 
 released: 2020-03-12
 updated: 2020-07-23
 version: "1.5"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 52M
-website: 
+website: https://walahala.com/
 repository: 
 issue: 
 icon: com.walahala.paywalamerchant.png

@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: xyz.must.wallet
+appCountry: 
 released: 2020-09-10
 updated: 2020-09-18
 version: "1.2"

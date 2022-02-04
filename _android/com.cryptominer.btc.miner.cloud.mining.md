@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.cryptominer.btc.miner.cloud.mining
+appCountry: 
 released: 2021-07-31
 updated: 2021-10-20
 version: "1.2"

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: online.figcoin.figvault
+appCountry: 
 released: 2020-12-23
 updated: 2021-09-08
 version: "0.25.0"
-stars: 4.4
-ratings: 40
-reviews: 26
+stars: 0.0
+ratings: 
+reviews: 
 size: 32M
 website: https://figcoin.online
 repository: 

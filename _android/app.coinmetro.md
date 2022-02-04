@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: app.coinmetro
+appCountry: 
 released: 2017-12-10
 updated: 2022-01-31
 version: "4.4.191"
-stars: 3.1
-ratings: 272
-reviews: 142
+stars: 3.0
+ratings: 368
+reviews: 61
 size: 35M
 website: https://coinmetro.com/
 repository: 

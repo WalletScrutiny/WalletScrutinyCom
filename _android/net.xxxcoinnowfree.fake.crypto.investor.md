@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: net.xxxcoinnowfree.fake.crypto.investor
+appCountry: 
 released: 2021-07-22
 updated: 2021-07-22
 version: "1.0"

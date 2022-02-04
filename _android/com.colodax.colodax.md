@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.colodax.colodax
+appCountry: 
 released: 2020-01-31
 updated: 2021-09-17
 version: "1.7.2"
-stars: 4.5
-ratings: 154
-reviews: 134
+stars: 0.0
+ratings: 
+reviews: 
 size: 26M
-website: https://colodax.com/
+website: https://colodax.com
 repository: 
 issue: 
 icon: com.colodax.colodax.jpg

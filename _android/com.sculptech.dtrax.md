@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.sculptech.dtrax
+appCountry: 
 released: 2019-01-24
 updated: 2020-05-24
 version: "1.2.2"
-stars: 3.2
-ratings: 366
-reviews: 279
+stars: 2.6
+ratings: 367
+reviews: 7
 size: 12M
-website: 
+website: https://dtrax.io
 repository: 
 issue: 
 icon: com.sculptech.dtrax.png

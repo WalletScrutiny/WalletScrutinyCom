@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.dex.digitalexchangeid
+appCountry: 
 released: 
 updated: 2022-01-21
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://digitalexchange.id/
+website: http://digitalexchange.id
 repository: 
 issue: 
 icon: com.dex.digitalexchangeid.png

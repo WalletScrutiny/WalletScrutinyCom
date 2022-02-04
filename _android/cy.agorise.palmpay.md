@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: cy.agorise.palmpay
+appCountry: 
 released: 
 updated: 2022-01-20
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://www.palmpay.io/
+website: http://www.PalmPay.io
 repository: 
 issue: 
 icon: cy.agorise.palmpay.png

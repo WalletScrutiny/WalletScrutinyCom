@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.maxxwallet
+appCountry: 
 released: 2019-03-25
 updated: 2019-06-12
 version: "3.7.3"
-stars: 3.1
-ratings: 21
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
 website: http://bitcoinwalletcoin.com
 repository: 

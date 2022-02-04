@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.trusteewallet
+appCountry: 
 released: 2019-05-01
 updated: 2022-01-12
 version: "1.50.4"
-stars: 4.3
-ratings: 2204
-reviews: 1488
+stars: 3.9
+ratings: 2396
+reviews: 39
 size: 54M
-website: https://trustee.deals
+website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png

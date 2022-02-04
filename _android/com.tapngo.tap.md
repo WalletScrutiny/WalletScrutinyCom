@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.tapngo.tap
+appCountry: 
 released: 2019-12-19
 updated: 2022-01-26
 version: "2.3.1"
-stars: 4.6
-ratings: 1350
-reviews: 567
+stars: 3.3
+ratings: 1544
+reviews: 7
 size: 90M
-website: 
+website: https://tap.global
 repository: 
 issue: 
 icon: com.tapngo.tap.png

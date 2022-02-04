@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.prestmit
+appCountry: 
 released: 2021-04-13
 updated: 2021-09-02
 version: "2.4"
-stars: 4.7
-ratings: 861
-reviews: 785
+stars: 4.5
+ratings: 1162
+reviews: 173
 size: 9.1M
 website: https://prestmit.com/
 repository: 

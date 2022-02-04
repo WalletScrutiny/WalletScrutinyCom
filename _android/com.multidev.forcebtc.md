@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.multidev.forcebtc
+appCountry: 
 released: 2021-01-08
 updated: 2021-01-08
 version: "1.0"

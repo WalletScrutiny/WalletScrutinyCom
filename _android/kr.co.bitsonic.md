@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: kr.co.bitsonic
+appCountry: 
 released: 2018-05-31
 updated: 2021-03-24
 version: "1.9.6"

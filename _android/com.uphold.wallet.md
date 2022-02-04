@@ -1,17 +1,18 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: "Uphold: Buy BTC, ETH, XRP"
+title: "Uphold - Trade, Invest, Send Money For Zero Fees"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.uphold.wallet
+appCountry: 
 released: 2015-12-29
 updated: 2022-01-28
 version: "4.31.2"
-stars: 3.4
-ratings: 18163
-reviews: 11415
+stars: 3.3
+ratings: 19966
+reviews: 3334
 size: 58M
 website: https://uphold.com
 repository: 

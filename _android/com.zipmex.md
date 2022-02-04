@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.zipmex
+appCountry: 
 released: 2020-03-30
 updated: 2022-02-02
 version: "22.1.3.1.1781530942"
-stars: 4.1
-ratings: 11034
-reviews: 5642
+stars: 3.9
+ratings: 17152
+reviews: 58
 size: 128M
-website: https://zipmex.com/th/en/
+website: https://zipmex.co.th/
 repository: 
 issue: 
 icon: com.zipmex.png

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.cryptology.android
+appCountry: 
 released: 2018-03-23
 updated: 2022-01-14
 version: "3.7.0"
-stars: 4
-ratings: 197
-reviews: 114
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
 website: https://cryptology.com/
 repository: 

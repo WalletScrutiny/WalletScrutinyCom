@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.huipu.winner
+appCountry: 
 released: 2021-04-13
 updated: 2021-06-15
 version: "1.3.1"

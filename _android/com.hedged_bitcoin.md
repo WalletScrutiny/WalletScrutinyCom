@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.hedged_bitcoin
+appCountry: 
 released: 2018-11-17
 updated: 2021-06-11
 version: "0.7.0"
-stars: 3.5
+stars: 3.6
 ratings: 28
-reviews: 13
+reviews: 2
 size: 8.7M
-website: https://hedgedbitcoin.com/
+website: https://hedgedbitcoin.com
 repository: 
 issue: 
 icon: com.hedged_bitcoin.png

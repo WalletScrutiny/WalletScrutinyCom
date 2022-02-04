@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000000
 appId: com.coindcx
+appCountry: 
 released: 2018-11-02
 updated: 2021-09-15
 version: "1.0.004"
-stars: 4.5
-ratings: 9625
-reviews: 6575
+stars: 5.0
+ratings: 12993
+reviews: 155
 size: 52M
 website: https://coindcx.com
 repository: 

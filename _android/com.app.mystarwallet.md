@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.mystarwallet
+appCountry: 
 released: 2020-05-12
 updated: 2021-06-10
 version: "1.47"

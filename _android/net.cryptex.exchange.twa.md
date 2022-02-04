@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: net.cryptex.exchange.twa
+appCountry: 
 released: 2021-04-29
 updated: 2021-04-29
 version: "3.0.0.0"
-stars: 4.8
-ratings: 24
-reviews: 21
+stars: 4.9
+ratings: 444
+reviews: 14
 size: 2.6M
-website: https://exchange.cryptex.net/
+website: http://exchange.cryptex.net/
 repository: 
 issue: 
 icon: net.cryptex.exchange.twa.png

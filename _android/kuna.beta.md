@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: kuna.beta
+appCountry: 
 released: 2019-07-22
 updated: 2022-01-24
 version: "1.4.12"
-stars: 3.6
-ratings: 838
-reviews: 503
+stars: 3.1
+ratings: 1043
+reviews: 6
 size: 94M
-website: https://kuna.io
+website: https://kuna.io/
 repository: 
 issue: 
 icon: kuna.beta.png

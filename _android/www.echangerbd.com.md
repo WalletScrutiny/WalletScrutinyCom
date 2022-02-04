@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: www.echangerbd.com
+appCountry: 
 released: 2020-03-21
 updated: 2020-04-23
 version: "2.0"
-stars: 4.2
-ratings: 114
-reviews: 80
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.2M
-website: 
+website: http://www.echangerbd.com/
 repository: 
 issue: 
 icon: www.echangerbd.com.png

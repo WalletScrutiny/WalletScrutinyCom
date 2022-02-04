@@ -6,12 +6,13 @@ authors:
 - leo
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
+appCountry: 
 released: 2019-02-04
 updated: 2020-12-10
 version: "2.3.5"
-stars: 4.4
-ratings: 29
-reviews: 18
+stars: 4.0
+ratings: 31
+reviews: 5
 size: Varies with device
 website: https://bitcoinox.com
 repository: 

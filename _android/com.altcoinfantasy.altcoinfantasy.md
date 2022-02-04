@@ -7,14 +7,15 @@ authors:
 - danny
 users: 100000
 appId: com.altcoinfantasy.altcoinfantasy
+appCountry: 
 released: 2018-01-05
 updated: 2021-01-07
 version: "3.3.6-google"
-stars: 3.7
-ratings: 2293
-reviews: 1787
+stars: 4.2
+ratings: 2308
+reviews: 242
 size: 22M
-website: https://altcoinfantasy.com/v3
+website: https://altcoinfantasy.com
 repository: 
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png

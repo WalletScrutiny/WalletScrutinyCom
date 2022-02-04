@@ -12,50 +12,13 @@ do
 done
 
 echo "installing missing stuff"
-npm install google-play-scraper app-store-scraper dateformat js-yaml sleep btcpay
+npm install
 
-# the refresh script is fuzzy and yields "unnatural" results, were apps have a 0
-# star rating or drop from 4000 to 43 ratings between runs. We detect those and
-# ask Google again:
-rm /tmp/unnatural.txt 2> /dev/null
-echo "Updating from Google and Apple ..." &
+echo "Updating from Google and Apple ..."
 node -e 'require("./refreshApps").refresh()'
 
-oldBadCount=10000000
-
-function checkUnnaturals {
-  if [[ -f "/tmp/unnatural.txt" ]];then
-    badCount=$( wc -w <<< $( cat /tmp/unnatural.txt) )
-    if (( $badCount > $oldBadCount * 90 / 100 ));then
-      echo "We are making less than 10% progress getting good data. Skipping rerun for $badCount apps ..."
-      return
-    fi
-    oldBadCount=$badCount
-    echo "
-For $badCount apps Google returned invalid data. Requesting again ..."
-    apps=$( cat /tmp/unnatural.txt )
-    rm /tmp/unnatural.txt 2> /dev/null
-    files=_android/${apps// /.md _android\/}.md
-    git checkout HEAD -- $files
-    node refreshNewAndroidApps.js $apps
-  fi
-}
-
-for c in $( seq 1 30 ); do
-  checkUnnaturals
-done
-
-if [[ -f "/tmp/unnatural.txt" ]];then
-  apps=$( cat /tmp/unnatural.txt )
-  rm /tmp/unnatural.txt 2> /dev/null
-  files=_android/${apps// /.md _android\/}.md
-  echo "
-The following apps failed to update correctly:
-$apps"
-fi
-
 echo "Refreshing donations page ..."
-node refreshDonations.js $btcPayKey &
+node refreshDonations.js $btcPayKey
 
 wait
 

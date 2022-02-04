@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000000
 appId: com.gateio.gateio
+appCountry: 
 released: 2017-11-03
 updated: 2022-01-26
 version: "3.0.8"
-stars: 3.1
-ratings: 9252
-reviews: 6520
+stars: 4.9
+ratings: 17022
+reviews: 796
 size: 180M
 website: https://gate.io/
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.oxbtcMiner.iamswr.myapplication
+appCountry: 
 released: 2021-06-11
 updated: 2021-06-11
 version: "8.0.0"

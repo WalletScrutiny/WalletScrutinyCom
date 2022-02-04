@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.umifi.app
+appCountry: 
 released: 2021-08-18
 updated: 2021-12-23
 version: "1.0.6"
-stars: 4.8
-ratings: 56
-reviews: 33
+stars: 4.6
+ratings: 76
+reviews: 4
 size: 65M
-website: https://www.umifi.com/en-ww/
+website: http://www.umifi.com
 repository: 
 issue: 
 icon: com.umifi.app.png

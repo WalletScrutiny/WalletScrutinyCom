@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.nano.moonxbt
+appCountry: 
 released: 2021-05-11
 updated: 2022-01-17
 version: "2.2.6"
-stars: 4.2
-ratings: 265
-reviews: 223
+stars: 5.0
+ratings: 377
+reviews: 6
 size: 34M
-website: https://www.moonxbt.com/en-us/
+website: https://www.moonxbt.com
 repository: 
 issue: 
 icon: com.nano.moonxbt.png

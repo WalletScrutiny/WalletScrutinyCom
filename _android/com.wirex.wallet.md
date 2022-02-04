@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.wirex.wallet
+appCountry: 
 released: 2021-12-03
 updated: 2021-12-30
 version: "0.2.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 34M

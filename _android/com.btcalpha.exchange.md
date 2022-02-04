@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.btcalpha.exchange
+appCountry: 
 released: 2021-07-23
 updated: 2022-01-30
 version: "1.10.3"
-stars: 3.7
-ratings: 50
-reviews: 29
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
 website: https://btc-alpha.com/
 repository: 

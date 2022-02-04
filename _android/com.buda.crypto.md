@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.buda.crypto
+appCountry: 
 released: 2018-01-04
 updated: 2022-01-27
 version: "2.0.17"
-stars: 2.5
-ratings: 563
-reviews: 382
+stars: 3.7
+ratings: 631
+reviews: 11
 size: 60M
-website: https://www.buda.com
+website: https://buda.com
 repository: 
 issue: 
 icon: com.buda.crypto.png

@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: io.wplus
+appCountry: 
 released: 2018-11-27
 updated: 2019-05-24
 version: "0.1.1"
-stars: 4.1
-ratings: 42
-reviews: 23
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.7M
-website: 
+website: https://wplus.io
 repository: 
 issue: 
 icon: io.wplus.png

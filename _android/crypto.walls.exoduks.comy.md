@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10
 appId: crypto.walls.exoduks.comy
+appCountry: 
 released: 2021-10-03
 updated: 2021-10-04
 version: "19.28"

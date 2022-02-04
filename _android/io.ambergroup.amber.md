@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: io.ambergroup.amber
+appCountry: 
 released: 2020-09-21
 updated: 2022-01-29
 version: "2.1.1"
-stars: 3.5
-ratings: 498
-reviews: 243
+stars: 4.8
+ratings: 1536
+reviews: 76
 size: 78M
-website: https://www.ambergroup.io
+website: https://www.whalefin.com
 repository: 
 issue: 
 icon: io.ambergroup.amber.png

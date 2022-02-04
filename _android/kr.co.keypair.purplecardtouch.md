@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: kr.co.keypair.purplecardtouch
+appCountry: 
 released: 2018-09-11
 updated: 2019-07-17
 version: "1.0.0.45"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 9.6M

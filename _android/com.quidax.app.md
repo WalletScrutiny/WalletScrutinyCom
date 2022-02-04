@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.quidax.app
+appCountry: 
 released: 2019-10-31
 updated: 2021-01-12
 version: "1.8.0"

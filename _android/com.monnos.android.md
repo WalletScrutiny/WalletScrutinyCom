@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.monnos.android
+appCountry: 
 released: 2019-09-17
 updated: 2022-02-02
 version: "5.3.5"
-stars: 3.4
-ratings: 871
-reviews: 571
+stars: 3.5
+ratings: 928
+reviews: 5
 size: 72M
-website: https://monnos.com/
+website: https://monnos.com
 repository: 
 issue: 
 icon: com.monnos.android.png

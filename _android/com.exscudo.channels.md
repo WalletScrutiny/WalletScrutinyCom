@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
+appCountry: 
 released: 2018-05-17
 updated: 2022-02-01
 version: "3.2.1059"
-stars: 4.5
-ratings: 558
-reviews: 233
+stars: 4.1
+ratings: 626
+reviews: 11
 size: 58M
-website: https://exscudo.com
+website: https://fintap.app
 repository: 
 issue: 
 icon: com.exscudo.channels.png

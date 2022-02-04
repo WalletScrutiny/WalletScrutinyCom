@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: io.divipay.divi
+appCountry: 
 released: 2021-04-28
 updated: 2021-12-30
 version: "1.13"
-stars: 4.7
-ratings: 144
-reviews: 92
+stars: 4.6
+ratings: 246
+reviews: 62
 size: 49M
-website: https://diviproject.org/
+website: http://diviproject.org
 repository: https://github.com/DiviProject
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png

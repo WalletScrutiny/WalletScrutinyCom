@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.iminerator.app
+appCountry: 
 released: 2021-04-20
 updated: 2021-10-08
 version: "2.0.0"
-stars: 3.8
-ratings: 9
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 30M
-website: https://iminerator.com/
+website: https://iminerator.com
 repository: 
 issue: 
 icon: com.iminerator.app.png

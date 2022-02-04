@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.coinmama.android
+appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
-stars: 3.6
-ratings: 52
-reviews: 27
+stars: 2.2
+ratings: 90
+reviews: 10
 size: 2.2M
-website: https://www.coinmama.com/
+website: https://www.coinmama.com
 repository: 
 issue: 
 icon: com.coinmama.android.png

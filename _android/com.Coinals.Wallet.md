@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.Coinals.Wallet
+appCountry: 
 released: 2021-04-23
 updated: 2021-04-23
 version: "1.0.0"

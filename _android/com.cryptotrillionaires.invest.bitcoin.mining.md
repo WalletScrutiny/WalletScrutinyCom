@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: com.cryptotrillionaires.invest.bitcoin.mining
+appCountry: 
 released: 2021-07-17
 updated: 2021-07-17
 version: "1.0"

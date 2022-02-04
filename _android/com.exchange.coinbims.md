@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.exchange.coinbims
+appCountry: 
 released: 2019-08-20
 updated: 2019-09-09
 version: "1.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 1.9M
-website: 
+website: https://coinbims.com/
 repository: 
 issue: 
 icon: com.exchange.coinbims.png

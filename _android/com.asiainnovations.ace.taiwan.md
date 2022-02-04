@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.asiainnovations.ace.taiwan
+appCountry: 
 released: 2019-01-28
 updated: 2022-01-07
 version: "5.2.0_3002"
-stars: 4.7
-ratings: 834
-reviews: 440
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: https://ace.io
+website: https://www.ace.io
 repository: 
 issue: 
 icon: com.asiainnovations.ace.taiwan.png

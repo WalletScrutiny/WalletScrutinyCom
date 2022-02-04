@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.bbex
+appCountry: 
 released: 2019-07-12
 updated: 2019-11-06
 version: "1.0.5"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 3.1M
-website: 
+website: https://www.bluebelt.asia/
 repository: 
 issue: 
 icon: com.bbex.png

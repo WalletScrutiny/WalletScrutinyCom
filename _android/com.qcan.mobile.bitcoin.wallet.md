@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
+appCountry: 
 released: 2017-08-06
 updated: 2021-06-03
 version: "0.8.851"
-stars: 4.3
-ratings: 164
-reviews: 92
+stars: 4.5
+ratings: 166
+reviews: 13
 size: 29M
 website: https://qcan.com
 repository: 

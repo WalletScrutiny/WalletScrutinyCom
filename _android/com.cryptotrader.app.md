@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.cryptotrader.app
+appCountry: 
 released: 2020-08-04
 updated: 2021-02-24
 version: "1.2.2"
-stars: 4.1
-ratings: 39
-reviews: 17
+stars: 0.0
+ratings: 
+reviews: 
 size: 61M
 website: 
 repository: 

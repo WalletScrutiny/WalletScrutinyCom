@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: com.QuickX
+appCountry: 
 released: 2019-10-22
 updated: 2020-07-31
 version: "1.16.0"
-stars: 4.6
-ratings: 61
-reviews: 38
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
 website: 
 repository: 

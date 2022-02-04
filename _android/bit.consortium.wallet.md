@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: bit.consortium.wallet
+appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
 version: "9.02"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 3.8M

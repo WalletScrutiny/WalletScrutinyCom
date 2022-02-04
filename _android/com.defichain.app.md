@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.defichain.app
+appCountry: 
 released: 2021-08-22
 updated: 2022-01-28
 version: "1.1.0"
-stars: 4.7
-ratings: 163
-reviews: 73
+stars: 4.2
+ratings: 253
+reviews: 10
 size: 39M
-website: https://defichain.com/
+website: https://defichain.com
 repository: 
 issue: 
 icon: com.defichain.app.png

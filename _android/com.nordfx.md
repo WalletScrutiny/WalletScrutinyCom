@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.nordfx
+appCountry: 
 released: 2021-02-28
 updated: 2021-11-18
 version: "14"
-stars: 4.1
-ratings: 131
-reviews: 36
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
-website: https://nordfx.com/
+website: http://nordfx.com
 repository: 
 issue: 
 icon: com.nordfx.png

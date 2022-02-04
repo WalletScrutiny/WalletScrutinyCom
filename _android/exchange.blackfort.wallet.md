@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: exchange.blackfort.wallet
+appCountry: 
 released: 2020-08-31
 updated: 2021-10-27
 version: "1.3.18"
-stars: 4.2
-ratings: 62
-reviews: 34
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
-website: https://blackfort.exchange/
+website: https://blackfort.exchange
 repository: 
 issue: 
 icon: exchange.blackfort.wallet.png

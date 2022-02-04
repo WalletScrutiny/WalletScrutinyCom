@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.o3.o3wallet
+appCountry: 
 released: 2020-08-27
 updated: 2021-12-10
 version: "3.3.1"
-stars: 4
-ratings: 471
-reviews: 118
+stars: 4.8
+ratings: 473
+reviews: 13
 size: 90M
-website: https://o3.network/
+website: https://o3.network
 repository: https://github.com/O3Labs
 issue: 
 icon: com.o3.o3wallet.png

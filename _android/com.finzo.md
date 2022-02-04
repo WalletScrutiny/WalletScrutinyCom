@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.finzo
+appCountry: 
 released: 2020-11-08
 updated: 2021-01-25
 version: "1.3"

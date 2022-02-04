@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.coincircle
+appCountry: 
 released: 2021-04-26
 updated: 2022-01-21
 version: "1.2.22.10220"
-stars: 4.3
-ratings: 237
-reviews: 74
+stars: 4.4
+ratings: 400
+reviews: 117
 size: 127M
-website: https://coincircle.com/
+website: https://coincircle.com
 repository: 
 issue: 
 icon: com.coincircle.png

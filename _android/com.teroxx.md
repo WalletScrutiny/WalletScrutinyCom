@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.teroxx
+appCountry: 
 released: 2019-08-26
 updated: 2022-01-12
 version: "3.0.9"
-stars: 4.2
-ratings: 70
-reviews: 37
+stars: 0.0
+ratings: 
+reviews: 
 size: 81M
 website: https://teroxxapp.com/
 repository: 

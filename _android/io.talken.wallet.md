@@ -5,16 +5,17 @@ altTitle:
 authors:
 - kiwilamb
 - danny
-users: 10000
+users: 50000
 appId: io.talken.wallet
+appCountry: 
 released: 2019-07-31
 updated: 2022-01-25
 version: "1.0.48"
-stars: 4.7
-ratings: 5860
-reviews: 4647
+stars: 4.8
+ratings: 5880
+reviews: 178
 size: 41M
-website: https://talken.io/
+website: https://talken.io
 repository: 
 issue: 
 icon: io.talken.wallet.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.delio.deliohybrid
+appCountry: 
 released: 2020-02-27
 updated: 2022-01-17
 version: "1.3.9"
-stars: 2.7
-ratings: 43
-reviews: 33
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
-website: https://www.delio.foundation/
+website: https://www.delio.foundation
 repository: 
 issue: 
 icon: com.delio.deliohybrid.png

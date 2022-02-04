@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.trustkeysnetwork
+appCountry: 
 released: 2019-03-02
 updated: 2022-01-15
 version: "1.1.57"
 stars: 4.8
-ratings: 510
-reviews: 321
+ratings: 571
+reviews: 18
 size: 258M
-website: https://trustkeys.network/
+website: https://trustkeys.network
 repository: 
 issue: 
 icon: com.trustkeysnetwork.png

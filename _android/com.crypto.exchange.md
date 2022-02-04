@@ -7,14 +7,15 @@ authors:
 - leo
 users: 500000
 appId: com.crypto.exchange
+appCountry: 
 released: 2021-05-26
 updated: 2022-01-19
 version: "1.6.0"
-stars: 3.9
-ratings: 1326
-reviews: 548
+stars: 4.6
+ratings: 3153
+reviews: 2
 size: 67M
-website: https://crypto.com/
+website: https://www.crypto.com/
 repository: 
 issue: 
 icon: com.crypto.exchange.png

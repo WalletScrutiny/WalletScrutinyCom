@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.coinme
-released: 
-updated: 2022-01-14
+appCountry: 
+released: 2021-05-06
+updated: 2022-02-03
 version: "1.7.1"
-stars: 4.4
-ratings: 493
-reviews: 113
+stars: 4.3
+ratings: 703
+reviews: 154
 size: 103M
-website: https://coinme.com/
+website: https://www.coinme.com
 repository: 
 issue: 
 icon: com.coinme.png

@@ -7,12 +7,13 @@ authors:
 - leo
 users: 500000
 appId: com.roqqu.app
+appCountry: 
 released: 2019-09-30
 updated: 2022-01-31
 version: "1.4.68"
-stars: 3.5
-ratings: 19629
-reviews: 14194
+stars: 3.4
+ratings: 24106
+reviews: 570
 size: 30M
 website: https://roqqu.com
 repository: 

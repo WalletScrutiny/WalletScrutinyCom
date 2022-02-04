@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.rootone.wallet
+appCountry: 
 released: 2018-10-08
 updated: 2021-06-17
 version: "1.4.4"
-stars: 
-ratings: 
-reviews: 
+stars: 3.6
+ratings: 614
+reviews: 10
 size: 6.6M
-website: https://bitberry.app
+website: https://rootone.com
 repository: 
 issue: 
 icon: com.rootone.wallet.png

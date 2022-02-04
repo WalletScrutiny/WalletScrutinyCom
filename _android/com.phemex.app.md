@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 500000
 appId: com.phemex.app
+appCountry: 
 released: 2020-02-19
 updated: 2022-01-18
 version: "2.0.7"
-stars: 4.9
-ratings: 12444
-reviews: 2485
+stars: 4.8
+ratings: 14051
+reviews: 534
 size: 51M
 website: https://phemex.com
 repository: 

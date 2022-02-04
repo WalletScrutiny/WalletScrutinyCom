@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vaulthotpro
+appCountry: 
 released: 2020-03-30
 updated: 2021-03-22
 version: "2.2.6"

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.admiralmarkets.android
+appCountry: 
 released: 2020-10-07
 updated: 2022-01-13
 version: "1.5.1"
-stars: 3.8
-ratings: 292
-reviews: 160
+stars: 0.0
+ratings: 
+reviews: 
 size: 15M
-website: https://admiralmarkets.com/
+website: https://www.admiralmarkets.com
 repository: 
 issue: 
 icon: com.admiralmarkets.android.png

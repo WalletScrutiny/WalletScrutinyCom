@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: bitcoin.twenty.twenty
+appCountry: 
 released: 2019-06-24
 updated: 2019-07-18
 version: "2.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 6.6M

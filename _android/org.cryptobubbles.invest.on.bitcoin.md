@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: org.cryptobubbles.invest.on.bitcoin
+appCountry: 
 released: 2021-07-17
 updated: 2021-07-18
 version: "1.0"

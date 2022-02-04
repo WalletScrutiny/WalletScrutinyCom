@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.czprime
+appCountry: 
 released: 2020-06-11
-updated: 2022-02-01
-version: "1.4.23"
-stars: 4.1
-ratings: 2199
-reviews: 890
+updated: 2022-02-03
+version: "1.4.24"
+stars: 4.0
+ratings: 2421
+reviews: 325
 size: 29M
 website: https://www.coinzoom.com
 repository: 

@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.unicornx.exchange
+appCountry: 
 released: 2020-05-13
 updated: 2020-07-28
 version: "1.4.2"
-stars: 4.8
-ratings: 70
-reviews: 54
+stars: 0.0
+ratings: 
+reviews: 
 size: 95M
-website: 
+website: https://www.unicornx.exchange/
 repository: 
 issue: 
 icon: com.unicornx.exchange.png

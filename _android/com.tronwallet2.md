@@ -6,6 +6,7 @@ authors:
 
 users: 1000000
 appId: com.tronwallet2
+appCountry: 
 released: 
 updated: 2020-07-23
 version: "3.4.5"

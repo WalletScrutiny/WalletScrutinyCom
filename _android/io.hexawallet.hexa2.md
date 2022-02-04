@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: io.hexawallet.hexa2
+appCountry: 
 released: 2021-09-30
 updated: 2022-02-02
 version: "2.0.69"
-stars: 4.1
-ratings: 7
-reviews: 1
+stars: 0.0
+ratings: 
+reviews: 
 size: 57M
 website: https://hexawallet.io/
 repository: https://github.com/bithyve/hexa

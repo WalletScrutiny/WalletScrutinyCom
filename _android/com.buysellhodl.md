@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.buysellhodl
+appCountry: 
 released: 
 updated: 2019-10-11
 version: "1.12.7"

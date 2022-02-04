@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.alpha.wallet
+appCountry: 
 released: 
 updated: 2018-05-31
 version: "Varies with device"

@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.blockchainappfactory.cryptoexchange
+appCountry: 
 released: 
 updated: 2021-04-13
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://www.blockchainappfactory.com/
 repository: 
 issue: 
 icon: com.blockchainappfactory.cryptoexchange.png

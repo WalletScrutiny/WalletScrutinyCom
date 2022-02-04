@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: io.fulmo
+appCountry: 
 released: 2019-01-09
 updated: 2019-06-11
 version: "1.0.0"

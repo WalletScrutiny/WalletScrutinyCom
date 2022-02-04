@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: app.co.swisstrustexchange
+appCountry: 
 released: 2021-04-17
 updated: 2021-04-17
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 2.8M

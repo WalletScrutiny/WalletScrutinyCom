@@ -6,12 +6,13 @@ authors:
 - leo
 users: 500000
 appId: com.youhodler.youhodler
+appCountry: 
 released: 2019-07-11
 updated: 2022-01-13
 version: "3.0.1"
-stars: 4.3
-ratings: 2254
-reviews: 861
+stars: 3.8
+ratings: 4955
+reviews: 52
 size: 54M
 website: https://youhodler.com
 repository: 

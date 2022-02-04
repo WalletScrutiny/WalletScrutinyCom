@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: vision.genesis.clientapp.investor
+appCountry: 
 released: 2018-02-15
 updated: 2022-01-20
 version: "2.7.6"
-stars: 4.6
-ratings: 368
-reviews: 122
+stars: 4.8
+ratings: 369
+reviews: 25
 size: 36M
-website: https://genesis.vision/
+website: https://genesis.vision
 repository: https://github.com/GenesisVision/android-client
 issue: 
 icon: vision.genesis.clientapp.investor.png

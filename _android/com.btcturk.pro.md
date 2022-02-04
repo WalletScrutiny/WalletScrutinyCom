@@ -1,19 +1,20 @@
 ---
 wsId: 
-title: "BtcTurk | PRO Trade Bitcoin & Cryptocurrency"
+title: "BtcTurk | PRO : BTC|ETH|SHIB"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.btcturk.pro
+appCountry: 
 released: 2020-09-10
 updated: 2022-01-21
 version: "1.41.0"
-stars: 4.6
-ratings: 152175
-reviews: 45639
+stars: 4.4
+ratings: 167147
+reviews: 192
 size: 31M
-website: https://pro.btcturk.com/
+website: https://pro.btcturk.com
 repository: 
 issue: 
 icon: com.btcturk.pro.png

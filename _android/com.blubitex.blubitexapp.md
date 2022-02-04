@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.blubitex.blubitexapp
+appCountry: 
 released: 2020-10-03
 updated: 2021-09-10
 version: "2.1.337"
 stars: 3.4
-ratings: 2696
-reviews: 1503
+ratings: 2698
+reviews: 37
 size: 81M
-website: https://www.blubitex.com/
+website: https://blubitex.com
 repository: 
 issue: 
 icon: com.blubitex.blubitexapp.png

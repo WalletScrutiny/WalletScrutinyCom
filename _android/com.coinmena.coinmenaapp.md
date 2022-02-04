@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.coinmena.coinmenaapp
+appCountry: 
 released: 2021-08-07
 updated: 2022-01-12
 version: "1.2.3"
-stars: 4.8
-ratings: 141
-reviews: 121
+stars: 3.7
+ratings: 805
+reviews: 23
 size: 53M
-website: https://www.coinmena.com/
+website: http://coinmena.com
 repository: 
 issue: 
 icon: com.coinmena.coinmenaapp.png

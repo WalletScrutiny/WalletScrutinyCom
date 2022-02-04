@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptowallet.cryptowalletmobile.prod
+appCountry: 
 released: 2021-03-19
 updated: 2021-11-17
 version: "1.11.10"

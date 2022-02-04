@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.counos
+appCountry: 
 released: 2018-07-03
 updated: 2021-04-16
 version: "1.9.50"
-stars: 4
-ratings: 511
-reviews: 348
+stars: 4.6
+ratings: 512
+reviews: 17
 size: 38M
 website: https://www.counos.io
 repository: 

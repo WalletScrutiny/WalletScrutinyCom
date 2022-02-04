@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.swapwalletltd.swap
+appCountry: 
 released: 
 updated: 2020-11-14
 version: "Varies with device"

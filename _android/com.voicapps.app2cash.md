@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.voicapps.app2cash
+appCountry: 
 released: 2019-09-17
 updated: 2020-11-23
 version: "1.02.4"
-stars: 4.2
-ratings: 59
-reviews: 26
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
-website: https://www.2cash.io/
+website: http://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash.png

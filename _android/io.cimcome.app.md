@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: io.cimcome.app
+appCountry: 
 released: 2020-12-09
 updated: 2021-10-22
 version: "1.0.15"
-stars: 4.4
-ratings: 9
-reviews: 6
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
-website: https://cimcome.io/#app
+website: https://cimcome.io/
 repository: 
 issue: 
 icon: io.cimcome.app.png

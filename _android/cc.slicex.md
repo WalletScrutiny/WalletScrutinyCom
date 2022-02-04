@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: cc.slicex
+appCountry: 
 released: 2020-03-08
 updated: 2020-08-14
 version: "v1.0.4"
-stars: 4.6
+stars: 5.0
 ratings: 33
-reviews: 29
+reviews: 8
 size: 10M
-website: 
+website: https://slicex.cc/
 repository: 
 issue: 
 icon: cc.slicex.png

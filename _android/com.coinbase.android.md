@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
+appCountry: 
 released: 2013-03-01
 updated: 2022-01-29
 version: "10.3.0"
-stars: 4.4
-ratings: 596786
-reviews: 166311
+stars: 4.3
+ratings: 652265
+reviews: 77196
 size: Varies with device
-website: https://coinbase.com
+website: https://coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.android.jpg

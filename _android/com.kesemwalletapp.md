@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.kesemwalletapp
+appCountry: 
 released: 2019-01-09
 updated: 2019-05-15
 version: "2.17"
-stars: 4.2
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 31M
-website: 
+website: https://www.kesem.io
 repository: 
 issue: 
 icon: com.kesemwalletapp.png

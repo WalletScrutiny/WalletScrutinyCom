@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: id.co.bitcoin
+appCountry: 
 released: 2014-12-15
 updated: 2022-01-06
 version: "4.2.5"
-stars: 4.2
-ratings: 79379
-reviews: 40539
+stars: 4.3
+ratings: 88900
+reviews: 307
 size: 32M
-website: https://indodax.com
+website: http://indodax.com
 repository: 
 issue: 
 icon: id.co.bitcoin.png

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.kryptonio
+appCountry: 
 released: 
 updated: 2021-07-03
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://kryptonio.com
 repository: 
 issue: 
 icon: com.kryptonio.png

@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000
 appId: com.newgo.coincola
+appCountry: 
 released: 2017-07-07
 updated: 2022-01-24
 version: "4.9.11"
-stars: 4.9
-ratings: 1330
-reviews: 468
+stars: 3.3
+ratings: 1373
+reviews: 76
 size: 42M
 website: https://www.coincola.com
 repository: 

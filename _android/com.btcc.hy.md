@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.btcc.hy
+appCountry: 
 released: 2020-08-04
 updated: 2022-01-26
 version: "5.8.4"
-stars: 4.9
-ratings: 11022
-reviews: 162
+stars: 4.2
+ratings: 11550
+reviews: 20
 size: 56M
 website: https://www.btcc.com/
 repository: 

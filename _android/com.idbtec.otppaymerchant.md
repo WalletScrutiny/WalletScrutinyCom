@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.idbtec.otppaymerchant
+appCountry: 
 released: 2018-12-05
 updated: 2019-06-18
 version: "1.4"
-stars: 4.4
-ratings: 13
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.9M
-website: 
+website: https://www.otppay.com
 repository: 
 issue: 
 icon: com.idbtec.otppaymerchant.png

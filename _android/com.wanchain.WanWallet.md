@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.wanchain.WanWallet
+appCountry: 
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.8
-ratings: 114
-reviews: 71
+stars: 3.2
+ratings: 118
+reviews: 11
 size: 65M
-website: https://www.wanchain.org/
+website: https://www.wanchain.org
 repository: https://github.com/wanchain
 issue: 
 icon: com.wanchain.WanWallet.png

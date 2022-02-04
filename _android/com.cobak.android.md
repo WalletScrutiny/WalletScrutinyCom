@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.cobak.android
+appCountry: 
 released: 2018-03-08
 updated: 2022-01-28
 version: "1.42.17"
-stars: 4.3
-ratings: 2325
-reviews: 1644
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
 website: https://cobak.co.kr/
 repository: 

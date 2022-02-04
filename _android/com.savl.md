@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.savl
+appCountry: 
 released: 2018-07-24
 updated: 2022-01-27
 version: "2.10.1"
-stars: 4.4
-ratings: 586
-reviews: 370
+stars: 4.8
+ratings: 559
+reviews: 7
 size: 252M
-website: https://savl.com/
+website: https://savl.com
 repository: 
 issue: 
 icon: com.savl.png

@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000
 appId: com.atomex.android
+appCountry: 
 released: 2020-12-06
 updated: 2021-11-09
 version: "1.12.1"
-stars: 4.3
-ratings: 57
-reviews: 43
+stars: 3.9
+ratings: 63
+reviews: 4
 size: 61M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile

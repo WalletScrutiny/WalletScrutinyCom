@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000
 appId: im.token.app99
+appCountry: 
 released: 2020-05-09
 updated: 2021-05-07
 version: "2.9.6"

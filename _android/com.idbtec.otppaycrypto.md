@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.idbtec.otppaycrypto
+appCountry: 
 released: 2018-08-13
 updated: 2020-04-01
 version: "1.21"
-stars: 4.6
+stars: 5.0
 ratings: 91
-reviews: 58
+reviews: 4
 size: 6.4M
-website: 
+website: https://www.otppay.com
 repository: 
 issue: 
 icon: com.idbtec.otppaycrypto.png

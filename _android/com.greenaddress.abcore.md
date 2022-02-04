@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.greenaddress.abcore
+appCountry: 
 released: 
 updated: 2019-10-16
 version: "Varies with device"

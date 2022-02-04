@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.coinigy
+appCountry: 
 released: 2018-06-11
 updated: 2021-06-07
 version: "0.5.30"
-stars: 3.2
-ratings: 211
-reviews: 124
+stars: 4.0
+ratings: 224
+reviews: 39
 size: 35M
-website: https://www.coinigy.com/
+website: https://www.coinigy.com
 repository: 
 issue: 
 icon: com.coinigy.png

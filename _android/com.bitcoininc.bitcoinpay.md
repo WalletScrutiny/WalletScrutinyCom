@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.bitcoininc.bitcoinpay
+appCountry: 
 released: 2016-05-13
 updated: 2017-07-06
 version: "1.0.1"
-stars: 3.4
-ratings: 114
-reviews: 55
+stars: 4.5
+ratings: 116
+reviews: 12
 size: 14M
-website: 
+website: http://Bitcoin.org
 repository: 
 issue: 
 icon: com.bitcoininc.bitcoinpay.png

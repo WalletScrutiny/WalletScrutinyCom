@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.application.galaxywallet
+appCountry: 
 released: 2019-12-09
 updated: 2020-05-19
 version: "1.2"
-stars: 3.2
-ratings: 22
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.9M
-website: 
+website: http://www.bluekeymarket.com
 repository: 
 issue: 
 icon: com.application.galaxywallet.png

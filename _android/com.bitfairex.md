@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitfairex
+appCountry: 
 released: 2020-12-27
 updated: 2021-03-25
 version: "1.2.3 Release"
-stars: 4.7
-ratings: 32
-reviews: 27
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.3M
-website: 
+website: https://bitfairex.com
 repository: 
 issue: 
 icon: com.bitfairex.png

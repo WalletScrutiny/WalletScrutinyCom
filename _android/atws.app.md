@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: atws.app
+appCountry: 
 released: 2010-12-15
-updated: 2022-01-26
-version: "8.4.507"
-stars: 3.2
-ratings: 7429
-reviews: 3575
+updated: 2022-02-03
+version: "8.4.513"
+stars: 3.3
+ratings: 7631
+reviews: 852
 size: 26M
-website: https://www.interactivebrokers.com/
+website: http://ibkr.com
 repository: 
 issue: 
 icon: atws.app.png

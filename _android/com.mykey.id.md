@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.mykey.id
+appCountry: 
 released: 
 updated: 2021-02-04
 version: "3.5.0"

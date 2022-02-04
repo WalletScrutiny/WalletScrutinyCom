@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
+appCountry: 
 released: 2014-09-10
 updated: 2022-01-10
 version: "4.0.3"
-stars: 3
-ratings: 162
-reviews: 112
+stars: 0.0
+ratings: 
+reviews: 
 size: 42M
-website: 
+website: https://www.coincorner.com
 repository: 
 issue: 
 icon: com.coincorner.app.crypt.png

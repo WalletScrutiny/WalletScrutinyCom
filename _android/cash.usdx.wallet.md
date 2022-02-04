@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 10000
 appId: cash.usdx.wallet
+appCountry: 
 released: 2018-03-22
 updated: 2020-11-25
 version: "1.34.2"
-stars: 4.1
-ratings: 5472
-reviews: 4681
+stars: 4.4
+ratings: 5480
+reviews: 236
 size: 37M
 website: https://usdx.cash
 repository: 

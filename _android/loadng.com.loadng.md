@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: loadng.com.loadng
+appCountry: 
 released: 2020-05-02
 updated: 2021-12-27
 version: "2.5.2"
-stars: 4.3
-ratings: 211
-reviews: 146
+stars: 4.0
+ratings: 252
+reviews: 17
 size: 13M
 website: https://app.load.ng/
 repository: 

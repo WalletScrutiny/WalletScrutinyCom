@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.bitcoinblockchain.suyd
+appCountry: 
 released: 2021-02-10
 updated: 2021-03-06
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 9.5M

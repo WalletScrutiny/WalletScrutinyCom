@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.gpc.gpcwallet
+appCountry: 
 released: 2020-07-14
 updated: 2020-08-05
 version: "1.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 11M
-website: 
+website: https://gpcio.org/index_m.html
 repository: 
 issue: 
 icon: com.gpc.gpcwallet.png

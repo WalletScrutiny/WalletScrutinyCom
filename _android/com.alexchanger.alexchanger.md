@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.alexchanger.alexchanger
+appCountry: 
 released: 2020-06-12
 updated: 2020-06-12
 version: "1.0"
-stars: 4
-ratings: 245
-reviews: 131
+stars: 4.4
+ratings: 265
+reviews: 21
 size: 1.4M
-website: 
+website: https://alexchanger.com/
 repository: 
 issue: 
 icon: com.alexchanger.alexchanger.png

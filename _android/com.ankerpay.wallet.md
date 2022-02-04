@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.ankerpay.wallet
+appCountry: 
 released: 2019-09-17
 updated: 2021-10-11
 version: "v1.0.12.4"
-stars: 4
-ratings: 107
-reviews: 89
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.9M
-website: https://ankerid.com/mobile-wallet
+website: https://ankerid.com/mobile-wallet/
 repository: 
 issue: 
 icon: com.ankerpay.wallet.png

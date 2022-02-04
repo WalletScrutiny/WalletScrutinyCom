@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: host.expo.rnpaperwalletchecker
+appCountry: 
 released: 2019-03-20
 updated: 2019-03-21
 version: "1.0.0"

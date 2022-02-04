@@ -7,12 +7,13 @@ authors:
 - danny
 users: 100
 appId: com.jubiter.app
+appCountry: 
 released: 2020-11-19
 updated: 2021-09-10
 version: "2.5.5"
-stars: 2.8
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
 website: http://www.jubiterwallet.com
 repository: 

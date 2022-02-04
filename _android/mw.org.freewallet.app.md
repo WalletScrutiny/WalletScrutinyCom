@@ -6,14 +6,15 @@ authors:
 - leo
 users: 500000
 appId: mw.org.freewallet.app
+appCountry: 
 released: 2017-08-10
 updated: 2021-09-16
 version: "1.16.5"
-stars: 4.5
-ratings: 12694
-reviews: 8910
+stars: 4.7
+ratings: 14086
+reviews: 1532
 size: 13M
-website: https://freewallet.org
+website: https://freewallet.org/
 repository: 
 issue: 
 icon: mw.org.freewallet.app.png

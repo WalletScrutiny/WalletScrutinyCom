@@ -1,17 +1,18 @@
 ---
 wsId: bittrex
-title: "Bittrex Global"
+title: "Bittrex"
 altTitle: 
 authors:
 - leo
 users: 500000
 appId: com.bittrex.trade
+appCountry: 
 released: 2019-12-19
 updated: 2022-01-11
 version: "1.17.2"
-stars: 4.1
-ratings: 3791
-reviews: 1574
+stars: 4.2
+ratings: 4940
+reviews: 503
 size: 60M
 website: https://global.bittrex.com
 repository: 

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.a60sek.a60cekorg
+appCountry: 
 released: 2020-04-06
 updated: 2021-11-26
 version: "1.1"
-stars: 3.8
-ratings: 20
-reviews: 15
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.2M
-website: https://60cek.org/
+website: https://60cek.org
 repository: 
 issue: 
 icon: com.a60sek.a60cekorg.png

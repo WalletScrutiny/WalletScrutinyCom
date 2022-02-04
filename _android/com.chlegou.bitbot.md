@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.chlegou.bitbot
+appCountry: 
 released: 2019-01-02
 updated: 2021-12-18
 version: "1.6.0"
-stars: 3.8
-ratings: 7633
-reviews: 4515
+stars: 4.2
+ratings: 7701
+reviews: 419
 size: 9.8M
 website: https://bitbot.plus
 repository: 

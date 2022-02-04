@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.pons.dao
+appCountry: 
 released: 2021-02-08
 updated: 2021-09-18
 version: "1.0.0.20"

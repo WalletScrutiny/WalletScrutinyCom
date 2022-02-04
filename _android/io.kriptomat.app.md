@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: io.kriptomat.app
+appCountry: 
 released: 2018-12-17
 updated: 2022-01-28
 version: "2.0.2"
-stars: 4.3
-ratings: 1016
-reviews: 484
+stars: 0.0
+ratings: 
+reviews: 
 size: 45M
-website: https://kriptomat.io/
+website: https://www.kriptomat.io
 repository: 
 issue: 
 icon: io.kriptomat.app.png

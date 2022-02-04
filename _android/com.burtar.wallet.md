@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.burtar.wallet
+appCountry: 
 released: 2021-07-29
 updated: 2021-07-30
 version: "1.0"
 stars: 4.2
-ratings: 798
-reviews: 744
+ratings: 1214
+reviews: 52
 size: 6.1M
-website: https://burtar.com/
+website: https://burtar.com
 repository: 
 issue: 
 icon: com.burtar.wallet.png

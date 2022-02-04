@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: app.vinet
+appCountry: 
 released: 2020-05-18
 updated: 2021-04-25
 version: "10.1"
-stars: 4.7
-ratings: 50
-reviews: 48
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.2M
-website: https://vinetexchange.com/
+website: http://Vinetexchange.com
 repository: 
 issue: 
 icon: app.vinet.png

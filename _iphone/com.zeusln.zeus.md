@@ -14,8 +14,8 @@ stars: 4
 reviews: 14
 size: 26561536
 website: https://ZeusLN.app
-repository: 
-issue: 
+repository: https://github.com/ZeusLN/zeus
+issue: https://github.com/ZeusLN/zeus/issues/416
 icon: com.zeusln.zeus.jpg
 bugbounty: 
 meta: ok

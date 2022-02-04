@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.blixtwallet
+appCountry: 
 released: 
 updated: 2022-01-13
 version: "Varies with device"

@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.app.bitstore
+appCountry: 
 released: 2019-03-19
 updated: 2019-07-24
 version: "1.0.11"

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: io.mexo.app
+appCountry: 
 released: 2020-08-30
 updated: 2022-01-26
 version: "2.0.8"
-stars: 3.8
-ratings: 355
-reviews: 288
+stars: 2.2
+ratings: 398
+reviews: 10
 size: 54M
-website: http://mexo.io/
+website: http://www.mexo.io
 repository: 
 issue: 
 icon: io.mexo.app.png

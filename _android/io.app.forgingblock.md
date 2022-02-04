@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: io.app.forgingblock
+appCountry: 
 released: 2020-10-20
 updated: 2020-10-20
 version: "8.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 6.9M
-website: 
+website: https://forgingblock.io
 repository: 
 issue: 
 icon: io.app.forgingblock.png
