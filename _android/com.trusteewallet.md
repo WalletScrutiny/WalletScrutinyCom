@@ -11,7 +11,7 @@ released: 2019-05-01
 updated: 2022-01-12
 version: "1.50.4"
 stars: 3.9
-ratings: 2396
+ratings: 2399
 reviews: 39
 size: 54M
 website: https://trusteeglobal.com

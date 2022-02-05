@@ -12,7 +12,7 @@ released: 2020-01-19
 updated: 2022-01-27
 version: "3.5.0"
 stars: 4.5
-ratings: 3726
+ratings: 3729
 reviews: 302
 size: 72M
 website: https://www.zengo.com

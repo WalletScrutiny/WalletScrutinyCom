@@ -11,7 +11,7 @@ released: 2019-10-30
 updated: 2022-01-20
 version: "4.1.0"
 stars: 4.7
-ratings: 929
+ratings: 933
 reviews: 86
 size: 42M
 website: https://frontier.xyz/

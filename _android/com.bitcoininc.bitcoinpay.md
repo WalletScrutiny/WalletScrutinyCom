@@ -11,7 +11,7 @@ released: 2016-05-13
 updated: 2017-07-06
 version: "1.0.1"
 stars: 4.5
-ratings: 116
+ratings: 117
 reviews: 12
 size: 14M
 website: http://Bitcoin.org

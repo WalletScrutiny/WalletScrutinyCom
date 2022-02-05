@@ -11,7 +11,7 @@ released: 2020-07-08
 updated: 2020-10-09
 version: "3.6.5"
 stars: 3.7
-ratings: 79
+ratings: 80
 reviews: 3
 size: 25M
 website: https://www.beeex.com

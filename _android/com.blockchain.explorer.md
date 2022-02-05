@@ -5,14 +5,14 @@ altTitle:
 authors:
 - leo
 - danny
-users: 10000
+users: 50000
 appId: com.blockchain.explorer
 appCountry: 
 released: 2019-12-30
 updated: 2022-01-07
 version: "1.2.0.5"
 stars: 4.5
-ratings: 400
+ratings: 401
 reviews: 21
 size: 25M
 website: https://adslab-2b1c2.web.app

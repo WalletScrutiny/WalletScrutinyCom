@@ -11,8 +11,8 @@ released: 2020-12-10
 updated: 2022-01-24
 version: "1.21.3"
 stars: 4.3
-ratings: 214
-reviews: 73
+ratings: 215
+reviews: 74
 size: Varies with device
 website: https://expcapital.com/
 repository: 

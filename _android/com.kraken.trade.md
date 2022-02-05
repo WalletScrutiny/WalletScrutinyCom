@@ -11,7 +11,7 @@ released: 2019-10-24
 updated: 2022-02-03
 version: "2.7.0-14813"
 stars: 3.7
-ratings: 25012
+ratings: 25022
 reviews: 2811
 size: 72M
 website: https://www.kraken.com

@@ -11,7 +11,7 @@ released: 2017-06-19
 updated: 2022-02-01
 version: "1.33.0"
 stars: 4.1
-ratings: 7337
+ratings: 7350
 reviews: 180
 size: 32M
 website: https://support.poloniex.com/

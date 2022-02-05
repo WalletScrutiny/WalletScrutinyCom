@@ -11,7 +11,7 @@ released: 2018-05-15
 updated: 2022-01-26
 version: "2.1.2"
 stars: 4.2
-ratings: 2056
+ratings: 2060
 reviews: 34
 size: 9.9M
 website: https://stex.com

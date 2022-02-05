@@ -11,8 +11,8 @@ released: 2019-09-20
 updated: 2021-07-01
 version: "1.3.0"
 stars: 3.5
-ratings: 48
-reviews: 24
+ratings: 49
+reviews: 25
 size: 11M
 website: https://ataix.com
 repository: 

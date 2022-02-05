@@ -11,7 +11,7 @@ released: 2021-03-17
 updated: 2022-01-25
 version: "4.7.45"
 stars: 4.0
-ratings: 701
+ratings: 705
 reviews: 57
 size: 56M
 website: https://hoo.com

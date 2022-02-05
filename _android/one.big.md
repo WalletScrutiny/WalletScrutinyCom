@@ -11,7 +11,7 @@ released: 2019-10-30
 updated: 2022-02-02
 version: "2.2.202"
 stars: 4.0
-ratings: 823
+ratings: 824
 reviews: 52
 size: 55M
 website: https://www.b1.zone/

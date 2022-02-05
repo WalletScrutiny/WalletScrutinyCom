@@ -10,8 +10,8 @@ idd: 1481859680
 released: 2020-04-08
 updated: 2022-01-22
 version: "1.21"
-stars: 4.55172
-reviews: 29
+stars: 4.54839
+reviews: 31
 size: 131909632
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

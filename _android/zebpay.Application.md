@@ -11,7 +11,7 @@ released: 2014-12-23
 updated: 2022-01-12
 version: "3.16.02"
 stars: 3.4
-ratings: 102075
+ratings: 102173
 reviews: 69
 size: 12M
 website: https://www.zebpay.com

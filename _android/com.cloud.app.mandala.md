@@ -11,8 +11,8 @@ released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
 stars: 3.0
-ratings: 141
-reviews: 17
+ratings: 143
+reviews: 18
 size: 23M
 website: https://mandala.exchange
 repository: 

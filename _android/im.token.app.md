@@ -11,7 +11,7 @@ released: 2018-05-31
 updated: 2022-01-24
 version: "2.9.10"
 stars: 4.0
-ratings: 4207
+ratings: 4212
 reviews: 183
 size: 82M
 website: https://token.im

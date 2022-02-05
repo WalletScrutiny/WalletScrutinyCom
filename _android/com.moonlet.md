@@ -11,7 +11,7 @@ released: 2020-04-21
 updated: 2021-11-29
 version: "1.5.23"
 stars: 4.0
-ratings: 634
+ratings: 636
 reviews: 4
 size: 38M
 website: https://moonlet.io

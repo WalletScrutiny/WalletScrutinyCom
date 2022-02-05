@@ -11,7 +11,7 @@ released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
 stars: 4.0
-ratings: 246
+ratings: 247
 reviews: 36
 size: 5.0M
 website: http://jurajkusnier.com/

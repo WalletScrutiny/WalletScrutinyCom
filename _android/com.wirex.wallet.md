@@ -10,9 +10,9 @@ appCountry: nz
 released: 2021-12-03
 updated: 2021-12-30
 version: "0.2.1"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 2.6
+ratings: 117
+reviews: 5
 size: 34M
 website: https://wirexapp.com/wirex-wallet
 repository: https://github.com/wirexapp

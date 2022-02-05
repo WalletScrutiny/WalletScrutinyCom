@@ -11,7 +11,7 @@ released: 2019-12-09
 updated: 2022-01-18
 version: "6"
 stars: 4.6
-ratings: 1657
+ratings: 1658
 reviews: 27
 size: 30M
 website: https://tetherland.net

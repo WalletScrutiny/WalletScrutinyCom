@@ -11,7 +11,7 @@ released: 2014-10-01
 updated: 2022-01-31
 version: "4.0.5"
 stars: 3.8
-ratings: 108925
+ratings: 108963
 reviews: 448
 size: 40M
 website: https://coins.ph

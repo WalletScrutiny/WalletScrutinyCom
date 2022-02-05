@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-05
 updated: 2021-02-09
 version: "4.4"
-stars: 4.5
+stars: 4.6
 ratings: 2076
 reviews: 70
 size: 14M
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-03-06
+date: 2022-02-05
 signer: 
 reviewArchive:
 

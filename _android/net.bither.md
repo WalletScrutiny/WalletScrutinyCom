@@ -11,7 +11,7 @@ released: 2014-02-27
 updated: 2021-12-31
 version: "2.0.4"
 stars: 4.2
-ratings: 335
+ratings: 334
 reviews: 26
 size: 4.5M
 website: http://Bither.net

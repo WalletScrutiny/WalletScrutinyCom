@@ -11,7 +11,7 @@ released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
 stars: 4.6
-ratings: 3602
+ratings: 3609
 reviews: 313
 size: 7.0M
 website: https://xb975cc16.app-ads-txt.com/

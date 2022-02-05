@@ -11,8 +11,8 @@ released: 2021-06-04
 updated: 2021-09-02
 version: "1.39b"
 stars: 4.5
-ratings: 5241
-reviews: 318
+ratings: 5249
+reviews: 319
 size: 25M
 website: http://crypto.promo-miner.com/
 repository: 
