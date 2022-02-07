@@ -11,7 +11,7 @@ released: 2020-09-14
 updated: 2021-12-10
 version: "1.0.19"
 stars: 4.9
-ratings: 851
+ratings: 850
 reviews: 54
 size: 49M
 website: https://nodawallet.com

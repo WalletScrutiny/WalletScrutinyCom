@@ -11,7 +11,7 @@ released: 2019-01-19
 updated: 2022-01-27
 version: "2.6.3"
 stars: 4.6
-ratings: 503
+ratings: 505
 reviews: 51
 size: 93M
 website: https://trastra.com/

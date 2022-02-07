@@ -11,7 +11,7 @@ released: 2020-07-10
 updated: 2021-12-28
 version: "1.22.0"
 stars: 4.8
-ratings: 3716
+ratings: 3731
 reviews: 11
 size: 37M
 website: https://stormgainexpress.com/

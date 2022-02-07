@@ -11,10 +11,10 @@ released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
 stars: 4.6
-ratings: 3609
-reviews: 313
+ratings: 3626
+reviews: 315
 size: 7.0M
-website: https://xb975cc16.app-ads-txt.com/
+website: http://z8a3acc9f.app-ads-txt.com/app-ads.txt
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png

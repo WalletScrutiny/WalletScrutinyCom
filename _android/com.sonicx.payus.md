@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sonicx.payus.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-02-07
 signer: 
 reviewArchive:
 

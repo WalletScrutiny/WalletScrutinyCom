@@ -10,9 +10,9 @@ appCountry:
 released: 2017-10-01
 updated: 2022-01-26
 version: "5.9"
-stars: 4.6
-ratings: 801987
-reviews: 9475
+stars: 4.5
+ratings: 805593
+reviews: 9504
 size: 34M
 website: https://trustwallet.com/
 repository: 

@@ -10,8 +10,8 @@ appCountry:
 released: 2019-01-17
 updated: 2021-12-23
 version: "1.22.0"
-stars: 2.9
-ratings: 160
+stars: 3.0
+ratings: 159
 reviews: 6
 size: 37M
 website: https://xcoex.com/

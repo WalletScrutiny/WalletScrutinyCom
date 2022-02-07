@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-01
 updated: 2022-01-29
 version: "4.0.1"
-stars: 4.4
-ratings: 48089
-reviews: 1818
+stars: 4.5
+ratings: 48966
+reviews: 1827
 size: 194M
 website: https://metamask.io
 repository: 

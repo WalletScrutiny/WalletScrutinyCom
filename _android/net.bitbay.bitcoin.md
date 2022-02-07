@@ -11,7 +11,7 @@ released: 2018-11-19
 updated: 2022-01-05
 version: "1.1.29"
 stars: 3.4
-ratings: 1108
+ratings: 1110
 reviews: 9
 size: 13M
 website: https://zondaglobal.com

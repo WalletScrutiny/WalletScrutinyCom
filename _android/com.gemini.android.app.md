@@ -11,8 +11,8 @@ released: 2018-12-10
 updated: 2022-02-03
 version: "22.201.0"
 stars: 4.5
-ratings: 36801
-reviews: 5839
+ratings: 37023
+reviews: 5885
 size: Varies with device
 website: https://gemini.com
 repository: 

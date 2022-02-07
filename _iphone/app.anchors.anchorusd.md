@@ -10,8 +10,8 @@ idd: 1495986023
 released: 2020-01-30
 updated: 2022-01-19
 version: "1.17.9"
-stars: 4.35313
-reviews: 5120
+stars: 4.35116
+reviews: 5123
 size: 36886528
 website: https://www.tryanchor.com/
 repository: 

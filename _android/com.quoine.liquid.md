@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-01-10
 updated: 2022-01-30
 version: "1.17.4"
-stars: 3.3
-ratings: 790
+stars: 3.2
+ratings: 791
 reviews: 33
 size: 63M
 website: https://www.liquid.com

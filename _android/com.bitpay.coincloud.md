@@ -11,7 +11,7 @@ released: 2018-09-06
 updated: 2021-12-27
 version: "12.02.17"
 stars: 3.7
-ratings: 229
+ratings: 231
 reviews: 101
 size: 17M
 website: https://www.coin.cloud

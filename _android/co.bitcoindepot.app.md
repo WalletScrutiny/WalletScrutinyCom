@@ -11,8 +11,8 @@ released: 2020-11-04
 updated: 2021-10-20
 version: "1.9.3"
 stars: 3.8
-ratings: 99
-reviews: 33
+ratings: 100
+reviews: 34
 size: 42M
 website: https://www.bitcoindepot.com/
 repository: 

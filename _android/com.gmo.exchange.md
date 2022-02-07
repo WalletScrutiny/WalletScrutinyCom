@@ -10,9 +10,9 @@ appCountry: th
 released: 2020-08-07
 updated: 2022-01-27
 version: "1.2.3"
-stars: 4.3
-ratings: 81
-reviews: 18
+stars: 4.2
+ratings: 82
+reviews: 19
 size: 15M
 website: https://ex.z.com/
 repository: 

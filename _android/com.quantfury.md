@@ -11,7 +11,7 @@ released: 2018-11-26
 updated: 2022-01-19
 version: "v1.7.1933"
 stars: 5.0
-ratings: 11613
+ratings: 11614
 reviews: 55
 size: 67M
 website: https://quantfury.com

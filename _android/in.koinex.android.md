@@ -11,7 +11,7 @@ released: 2018-02-11
 updated: 2019-02-13
 version: "0.1.5"
 stars: 2.1
-ratings: 3702
+ratings: 3700
 reviews: 9
 size: 15M
 website: https://koinex.in

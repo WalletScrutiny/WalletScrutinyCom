@@ -11,7 +11,7 @@ released: 2021-08-07
 updated: 2022-01-12
 version: "1.2.3"
 stars: 3.8
-ratings: 808
+ratings: 815
 reviews: 24
 size: 53M
 website: http://coinmena.com

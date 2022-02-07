@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-19
 updated: 2021-12-17
 version: "1.36.1"
-stars: 3.5
-ratings: 371
-reviews: 4
+stars: 3.1
+ratings: 372
+reviews: 5
 size: 14M
 website: https://www.probit.kr
 repository: 

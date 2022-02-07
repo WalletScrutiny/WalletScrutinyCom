@@ -11,8 +11,8 @@ released: 2019-01-28
 updated: 2022-01-31
 version: "2.15.1"
 stars: 3.4
-ratings: 6463
-reviews: 4364
+ratings: 6497
+reviews: 4394
 size: 14M
 website: http://www.foxbit.com.br
 repository: 

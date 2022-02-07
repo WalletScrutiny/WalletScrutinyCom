@@ -4,14 +4,14 @@ title: "Atomex - Crypto Wallet & Atomic swap DEX"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.atomex.android
 appCountry: 
 released: 2020-12-06
 updated: 2021-11-09
 version: "1.12.1"
 stars: 3.9
-ratings: 63
+ratings: 64
 reviews: 4
 size: 61M
 website: https://atomex.me

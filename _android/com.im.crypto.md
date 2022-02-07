@@ -4,7 +4,7 @@ title: "IM - Crypto Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: com.im.crypto
 appCountry: 
 released: 2021-09-05

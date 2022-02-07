@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr - NFT Metaverse Marketplace and Wallet App"
+title: "Zloadr -  eSport NFT Staking"
 altTitle: 
 authors:
 
@@ -11,7 +11,7 @@ released: 2019-06-17
 updated: 2019-07-15
 version: "1.1.0"
 stars: 4.1
-ratings: 1072
+ratings: 1074
 reviews: 78
 size: 12M
 website: https://www.zloadr.com

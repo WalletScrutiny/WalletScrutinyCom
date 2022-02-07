@@ -11,7 +11,7 @@ released: 2018-10-10
 updated: 2021-07-07
 version: "1.3.0"
 stars: 1.7
-ratings: 540
+ratings: 541
 reviews: 30
 size: 30M
 website: https://www.coindirect.com

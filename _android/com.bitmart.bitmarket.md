@@ -11,8 +11,8 @@ released: 2018-05-09
 updated: 2022-01-28
 version: "2.9.3"
 stars: 3.1
-ratings: 41000
-reviews: 6769
+ratings: 41067
+reviews: 6776
 size: 41M
 website: http://www.bitmart.com
 repository: 

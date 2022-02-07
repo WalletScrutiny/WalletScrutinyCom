@@ -11,7 +11,7 @@ released: 2019-01-01
 updated: 2021-10-01
 version: "1.1.39"
 stars: 4.1
-ratings: 883
+ratings: 882
 reviews: 91
 size: 38M
 website: https://www.dowallet.app/

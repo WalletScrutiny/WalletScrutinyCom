@@ -11,7 +11,7 @@ released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"
 stars: 4.6
-ratings: 1306
+ratings: 1307
 reviews: 1260
 size: 11M
 website: https://www.bitwells.com

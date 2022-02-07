@@ -11,7 +11,7 @@ released: 2021-04-30
 updated: 2022-01-30
 version: "1.5.6"
 stars: 4.6
-ratings: 220
+ratings: 221
 reviews: 21
 size: 23M
 website: https://zupago.app

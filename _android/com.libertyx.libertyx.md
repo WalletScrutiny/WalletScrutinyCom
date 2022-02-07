@@ -11,7 +11,7 @@ released: 2015-06-05
 updated: 2021-07-28
 version: "4.1.2"
 stars: 3.5
-ratings: 425
+ratings: 426
 reviews: 257
 size: 27M
 website: https://libertyx.com
