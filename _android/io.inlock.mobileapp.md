@@ -11,7 +11,7 @@ released: 2020-08-04
 updated: 2022-01-18
 version: "1.7.2"
 stars: 4.0
-ratings: 107
+ratings: 106
 reviews: 5
 size: 38M
 website: https://inlock.io/

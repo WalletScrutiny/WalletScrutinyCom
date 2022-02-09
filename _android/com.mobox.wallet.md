@@ -8,12 +8,12 @@ users: 100000
 appId: com.mobox.wallet
 appCountry: us
 released: 2021-02-02
-updated: 2022-01-11
-version: "1.3.6"
+updated: 2022-01-25
+version: "1.3.7"
 stars: 3.4
-ratings: 2285
-reviews: 32
-size: 28M
+ratings: 2333
+reviews: 33
+size: 29M
 website: https://mobox.io/
 repository: 
 issue: 

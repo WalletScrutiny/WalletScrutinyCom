@@ -10,8 +10,8 @@ appCountry: gb
 released: 2021-04-28
 updated: 2021-12-30
 version: "1.13"
-stars: 5.0
-ratings: 252
+stars: 4.9
+ratings: 255
 reviews: 7
 size: 49M
 website: http://diviproject.org

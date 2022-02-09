@@ -11,7 +11,7 @@ released: 2018-11-28
 updated: 2021-05-03
 version: "1.4.3"
 stars: 3.6
-ratings: 222
+ratings: 223
 reviews: 36
 size: 5.0M
 website: http://ograpi.oblade.net

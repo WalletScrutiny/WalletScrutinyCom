@@ -9,11 +9,11 @@ appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
 updated: 2022-01-19
-version: "3.00.06.028"
+version: "3.00.07.037"
 stars: 4.6
-ratings: 33068
+ratings: 33085
 reviews: 200
-size: 91M
+size: 92M
 website: https://www.huobiwallet.com/
 repository: 
 issue: 

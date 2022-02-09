@@ -11,7 +11,7 @@ released: 2020-11-30
 updated: 2022-01-28
 version: "1.25.0"
 stars: 4.9
-ratings: 61
+ratings: 62
 reviews: 9
 size: 134M
 website: https://btse.com

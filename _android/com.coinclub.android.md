@@ -11,7 +11,7 @@ released: 2018-09-21
 updated: 2019-02-20
 version: "1.6.7"
 stars: 3.9
-ratings: 5391
+ratings: 5390
 reviews: 57
 size: 17M
 website: https://coinclub.global/

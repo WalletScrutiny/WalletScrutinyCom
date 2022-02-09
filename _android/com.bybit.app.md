@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-31
 updated: 2022-01-27
 version: "3.13.6"
-stars: 4.2
-ratings: 106213
-reviews: 390
+stars: 4.1
+ratings: 106359
+reviews: 391
 size: 58M
 website: https://www.bybit.com
 repository: 

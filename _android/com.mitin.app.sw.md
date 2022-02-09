@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-14
 updated: 2021-05-13
 version: "3.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.8M

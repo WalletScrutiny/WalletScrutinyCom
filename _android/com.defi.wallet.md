@@ -11,8 +11,8 @@ released: 2020-05-11
 updated: 2022-01-27
 version: "1.26.0"
 stars: 3.9
-ratings: 12738
-reviews: 1537
+ratings: 12812
+reviews: 1544
 size: 56M
 website: https://www.crypto.com
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.coinfalcon.mobile
 appCountry: 
 released: 2019-07-10
-updated: 2021-02-08
-version: "2.1.13"
+updated: 2022-02-07
+version: "2.11.14"
 stars: 2.6
 ratings: 103
 reviews: 8
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinfalcon.mobile.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-02-03
+date: 2022-02-09
 signer: 
 reviewArchive:
 

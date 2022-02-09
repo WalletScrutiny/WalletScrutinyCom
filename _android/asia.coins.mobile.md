@@ -9,11 +9,11 @@ appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
 updated: 2022-01-31
-version: "4.0.5"
+version: "4.0.8"
 stars: 3.8
-ratings: 109002
+ratings: 109055
 reviews: 448
-size: 40M
+size: 39M
 website: https://coins.ph
 repository: 
 issue: 

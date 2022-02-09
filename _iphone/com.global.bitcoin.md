@@ -10,8 +10,8 @@ idd: 1536910503
 released: 2020-10-26
 updated: 2022-02-02
 version: "2.11.0"
-stars: 4.89011
-reviews: 91
+stars: 4.88636
+reviews: 88
 size: 28069888
 website: https://bitcoin.global/
 repository: 

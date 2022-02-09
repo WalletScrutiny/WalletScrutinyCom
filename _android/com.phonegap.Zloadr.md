@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zloadr -  eSport NFT Staking"
+title: "Zloadr -  NFT Staking Wallet"
 altTitle: 
 authors:
 

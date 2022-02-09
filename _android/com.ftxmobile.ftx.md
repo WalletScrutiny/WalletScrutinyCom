@@ -11,7 +11,7 @@ released: 2020-05-08
 updated: 2022-01-12
 version: "1.1.8"
 stars: 3.5
-ratings: 9536
+ratings: 9566
 reviews: 229
 size: 66M
 website: https://ftx.com/

@@ -11,7 +11,7 @@ released: 2019-04-09
 updated: 2022-01-20
 version: "2.7.5"
 stars: 2.6
-ratings: 871
+ratings: 872
 reviews: 6
 size: 74M
 website: https://www.bitsacard.com

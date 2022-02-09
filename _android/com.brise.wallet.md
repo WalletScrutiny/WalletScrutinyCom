@@ -4,7 +4,7 @@ title: "Brise - Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.brise.wallet
 appCountry: 
 released: 2021-12-08

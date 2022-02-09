@@ -11,7 +11,7 @@ released: 2019-06-10
 updated: 2021-11-22
 version: "1.13.17"
 stars: 3.7
-ratings: 167
+ratings: 168
 reviews: 10
 size: 33M
 website: http://www.badger.cash

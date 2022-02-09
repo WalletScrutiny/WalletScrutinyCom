@@ -10,8 +10,8 @@ appCountry:
 released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
-stars: 2.3
-ratings: 94
+stars: 2.5
+ratings: 97
 reviews: 10
 size: 2.2M
 website: https://www.coinmama.com

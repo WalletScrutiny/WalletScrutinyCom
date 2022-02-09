@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "LiteFinance investing, trading"
+title: "Investing&Trading"
 altTitle: 
 authors:
 - danny

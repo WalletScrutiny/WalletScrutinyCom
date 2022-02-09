@@ -8,10 +8,10 @@ users: 50000
 appId: com.trastra.mobile
 appCountry: us
 released: 2019-01-19
-updated: 2022-01-27
-version: "2.6.3"
+updated: 2022-02-01
+version: "2.6.4"
 stars: 4.6
-ratings: 505
+ratings: 507
 reviews: 51
 size: 93M
 website: https://trastra.com/

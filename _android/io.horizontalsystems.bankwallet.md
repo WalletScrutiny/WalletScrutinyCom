@@ -11,7 +11,7 @@ released: 2018-12-18
 updated: 2022-01-18
 version: "0.23.3"
 stars: 3.7
-ratings: 551
+ratings: 552
 reviews: 49
 size: 44M
 website: https://horizontalsystems.io/

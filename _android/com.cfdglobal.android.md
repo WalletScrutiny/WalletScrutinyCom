@@ -11,7 +11,7 @@ released: 2017-10-04
 updated: 2022-02-03
 version: "2.8.0"
 stars: 4.3
-ratings: 332
+ratings: 334
 reviews: 7
 size: 23M
 website: https://www.capex.com

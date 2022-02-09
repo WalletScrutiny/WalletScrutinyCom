@@ -11,10 +11,10 @@ released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
 stars: 4.6
-ratings: 3626
-reviews: 315
+ratings: 3642
+reviews: 314
 size: 7.0M
-website: http://z8a3acc9f.app-ads-txt.com/app-ads.txt
+website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png

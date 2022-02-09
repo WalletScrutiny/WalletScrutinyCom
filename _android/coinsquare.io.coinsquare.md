@@ -11,7 +11,7 @@ released: 2017-08-30
 updated: 2022-01-17
 version: "2.13.14"
 stars: 2.9
-ratings: 787
+ratings: 788
 reviews: 13
 size: 7.3M
 website: http://coinsquare.com

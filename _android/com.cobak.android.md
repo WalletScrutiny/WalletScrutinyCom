@@ -9,11 +9,11 @@ appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
 updated: 2022-01-28
-version: "1.42.17"
+version: "1.42.20"
 stars: 0.0
 ratings: 
 reviews: 
-size: 29M
+size: 27M
 website: https://cobak.co.kr/
 repository: 
 issue: 

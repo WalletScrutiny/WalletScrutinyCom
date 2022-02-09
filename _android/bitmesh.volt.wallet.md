@@ -11,7 +11,7 @@ released: 2020-05-15
 updated: 2022-01-13
 version: "2.2.6"
 stars: 4.6
-ratings: 152
+ratings: 153
 reviews: 26
 size: 110M
 website: http://www.volt.id

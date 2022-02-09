@@ -8,8 +8,8 @@ users: 100
 appId: io.sevenlabs.app
 appCountry: 
 released: 2021-07-05
-updated: 2021-09-21
-version: "1.1.0"
+updated: 2022-02-04
+version: "1.2.5"
 stars: 0.0
 ratings: 
 reviews: 

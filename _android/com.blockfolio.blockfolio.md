@@ -4,15 +4,15 @@ title: "FTX Crypto Exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.blockfolio.blockfolio
 appCountry: us
 released: 2015-10-01
 updated: 2022-01-26
 version: "4.2.9"
-stars: 3.8
-ratings: 163470
-reviews: 10610
+stars: 3.9
+ratings: 163553
+reviews: 10621
 size: 64M
 website: https://www.blockfolio.com
 repository: 

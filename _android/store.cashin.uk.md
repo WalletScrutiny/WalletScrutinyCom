@@ -11,7 +11,7 @@ released: 2021-04-02
 updated: 2022-02-03
 version: "4.4.3"
 stars: 4.5
-ratings: 34
+ratings: 35
 reviews: 27
 size: 22M
 website: https://www.bitcoinpoint.com/

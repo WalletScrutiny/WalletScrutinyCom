@@ -11,8 +11,8 @@ appCountry: nz
 released: 2021-05-26
 updated: 2022-01-29
 version: "1.6.1"
-stars: 4.3
-ratings: 3390
+stars: 4.6
+ratings: 3443
 reviews: 7
 size: 67M
 website: https://www.crypto.com/

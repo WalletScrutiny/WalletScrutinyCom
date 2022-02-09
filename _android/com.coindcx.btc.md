@@ -11,8 +11,8 @@ released: 2020-12-09
 updated: 2022-02-03
 version: "3.5.007"
 stars: 4.6
-ratings: 215098
-reviews: 365
+ratings: 216500
+reviews: 363
 size: 68M
 website: https://go.coindcx.com/
 repository: 

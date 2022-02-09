@@ -11,7 +11,7 @@ released: 2019-02-11
 updated: 2022-01-13
 version: "4.16.0"
 stars: 3.4
-ratings: 1928
+ratings: 1936
 reviews: 49
 size: 64M
 website: https://www.bitfinex.com

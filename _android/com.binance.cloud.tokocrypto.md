@@ -11,8 +11,8 @@ released: 2020-10-19
 updated: 2022-01-28
 version: "1.5.1"
 stars: 3.6
-ratings: 33876
-reviews: 27754
+ratings: 33966
+reviews: 27817
 size: Varies with device
 website: https://www.tokocrypto.com
 repository: 

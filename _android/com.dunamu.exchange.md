@@ -11,7 +11,7 @@ released: 2017-10-23
 updated: 2022-01-20
 version: "1.15.9p3"
 stars: 3.5
-ratings: 29296
+ratings: 29310
 reviews: 13
 size: 65M
 website: https://upbit.com

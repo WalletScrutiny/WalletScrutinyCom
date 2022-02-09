@@ -11,7 +11,7 @@ released: 2018-10-19
 updated: 2022-01-10
 version: "2.3.6"
 stars: 4.4
-ratings: 819
+ratings: 820
 reviews: 157
 size: 17M
 website: http://splashfactory.com

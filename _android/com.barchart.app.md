@@ -11,8 +11,8 @@ released: 2013-11-18
 updated: 2022-02-01
 version: "3.0.7"
 stars: 4.7
-ratings: 9748
-reviews: 2019
+ratings: 9754
+reviews: 2018
 size: 12M
 website: http://www.barchart.com/app
 repository: 

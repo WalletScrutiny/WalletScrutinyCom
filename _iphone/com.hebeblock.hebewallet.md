@@ -10,8 +10,8 @@ idd: 1453374447
 released: 2019-02-24
 updated: 2022-01-21
 version: "1.4.7"
-stars: 4
-reviews: 14
+stars: 3.83333
+reviews: 12
 size: 111489024
 website: https://hebe.cc
 repository: 

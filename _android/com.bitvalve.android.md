@@ -4,7 +4,7 @@ title: "BitValve - P2P Crypto Exchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitvalve.android
 appCountry: 
 released: 2019-10-29

@@ -10,8 +10,8 @@ idd: 1488557973
 released: 2019-11-25
 updated: 2022-01-29
 version: "3.1.30"
-stars: 4.65625
-reviews: 32
+stars: 4.60714
+reviews: 28
 size: 194967552
 website: https://invest.matrixport.dev/en
 repository: 

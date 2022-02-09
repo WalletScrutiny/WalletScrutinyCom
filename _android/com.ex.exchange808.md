@@ -11,8 +11,8 @@ released: 2021-02-03
 updated: 2021-12-17
 version: "2.0.20"
 stars: 5.0
-ratings: 264
-reviews: 9
+ratings: 265
+reviews: 10
 size: 7.1M
 website: https://808exchange.net
 repository: 

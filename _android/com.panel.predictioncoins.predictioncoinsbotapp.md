@@ -11,7 +11,7 @@ released: 2019-03-16
 updated: 2019-03-16
 version: "1"
 stars: 3.2
-ratings: 126
+ratings: 127
 reviews: 3
 size: 1.1M
 website: https://predictioncoins.com

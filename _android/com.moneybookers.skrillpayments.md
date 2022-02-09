@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2022-02-04
 version: "3.77.1-2022012517"
 stars: 4.4
-ratings: 139206
+ratings: 139453
 reviews: 2544
 size: 59M
 website: https://www.skrill.com

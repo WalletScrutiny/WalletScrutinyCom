@@ -1,6 +1,6 @@
 ---
 wsId: CoinZoom
-title: "CoinZoom Pro"
+title: "CoinZoom: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - kiwilamb
@@ -11,8 +11,8 @@ released: 2020-06-11
 updated: 2022-02-03
 version: "1.4.24"
 stars: 4.0
-ratings: 2430
-reviews: 325
+ratings: 2432
+reviews: 326
 size: 29M
 website: https://www.coinzoom.com
 repository: 
