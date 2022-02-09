@@ -10,8 +10,8 @@ idd: 1090004654
 released: 2016-03-22
 updated: 2022-02-06
 version: "3.29.3"
-stars: 4.29685
-reviews: 667
+stars: 3.96833
+reviews: 442
 size: 79837184
 website: https://wirexapp.com/en
 repository: 

@@ -10,8 +10,8 @@ appCountry:
 released: 2018-02-04
 updated: 2022-01-30
 version: "2.3.8"
-stars: 4.5
-ratings: 284
+stars: 4.6
+ratings: 285
 reviews: 32
 size: 47M
 website: https://timopartl.com/Coini

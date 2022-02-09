@@ -10,8 +10,8 @@ idd: 1459809738
 released: 2019-06-04
 updated: 2022-01-13
 version: "2.2.3"
-stars: 4.45652
-reviews: 46
+stars: 4.41859
+reviews: 43
 size: 87751680
 website: https://bit2me.com
 repository: 

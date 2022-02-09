@@ -11,7 +11,7 @@ released: 2018-07-09
 updated: 2019-01-01
 version: "1.0.1"
 stars: 4.5
-ratings: 65
+ratings: 66
 reviews: 6
 size: 11M
 website: https://zerocurrency.io/

@@ -11,7 +11,7 @@ released: 2020-09-10
 updated: 2020-09-10
 version: "2.0.0"
 stars: 4.0
-ratings: 122
+ratings: 123
 reviews: 5
 size: 1.0M
 website: https://ariomex.com

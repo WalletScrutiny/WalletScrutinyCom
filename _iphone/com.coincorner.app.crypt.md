@@ -10,8 +10,8 @@ idd: 917721788
 released: 2014-09-23
 updated: 2022-01-18
 version: "4.0.5"
-stars: 4.09091
-reviews: 11
+stars: 3.88889
+reviews: 9
 size: 35231744
 website: https://www.coincorner.com
 repository: 

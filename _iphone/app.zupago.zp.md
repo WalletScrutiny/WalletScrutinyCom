@@ -10,8 +10,8 @@ idd: 1565673730
 released: 2021-05-10
 updated: 2022-02-06
 version: "1.0.48"
-stars: 4.63042
-reviews: 46
+stars: 4.61364
+reviews: 44
 size: 98862080
 website: https://zupago.app
 repository: 

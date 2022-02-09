@@ -11,7 +11,7 @@ released: 2020-02-23
 updated: 2021-12-26
 version: "3.0"
 stars: 1.7
-ratings: 126
+ratings: 127
 reviews: 13
 size: 171M
 website: https://www.bitex.com

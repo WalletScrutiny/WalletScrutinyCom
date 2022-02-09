@@ -11,7 +11,7 @@ released: 2019-12-11
 updated: 2021-11-22
 version: "3.2.5"
 stars: 4.1
-ratings: 574
+ratings: 575
 reviews: 6
 size: Varies with device
 website: https://tokoin.io

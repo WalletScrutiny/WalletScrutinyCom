@@ -11,7 +11,7 @@ released: 2018-06-02
 updated: 2021-11-08
 version: "2.45"
 stars: 2.5
-ratings: 159
+ratings: 160
 reviews: 11
 size: 22M
 website: https://www.fatbtc.com

@@ -11,7 +11,7 @@ released: 2015-10-20
 updated: 2022-02-04
 version: "8.0.230"
 stars: 3.5
-ratings: 5551
+ratings: 5554
 reviews: 187
 size: 109M
 website: http://www.naga.com

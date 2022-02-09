@@ -11,7 +11,7 @@ released: 2021-12-03
 updated: 2022-02-04
 version: "0.2.3"
 stars: 2.6
-ratings: 921
+ratings: 1002
 reviews: 5
 size: 34M
 website: https://wirexapp.com/wirex-wallet

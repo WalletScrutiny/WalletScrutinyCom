@@ -10,8 +10,8 @@ idd: 1578704913
 released: 2021-08-03
 updated: 2022-01-10
 version: "v1.0.13"
-stars: 4.85714
-reviews: 7
+stars: 4.83333
+reviews: 6
 size: 35991552
 website: https://leadwallet.io/
 repository: https://github.com/leadwallet/leadwallet-core

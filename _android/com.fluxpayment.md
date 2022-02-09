@@ -11,7 +11,7 @@ released: 2020-09-02
 updated: 2022-01-01
 version: "2.1.8"
 stars: 4.1
-ratings: 356
+ratings: 357
 reviews: 8
 size: 63M
 website: https://iflux.app

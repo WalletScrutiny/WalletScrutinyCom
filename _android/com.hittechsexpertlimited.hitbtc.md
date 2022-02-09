@@ -8,9 +8,9 @@ users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
 released: 2020-03-04
-updated: 2021-04-12
-version: "3.0.10"
-stars: 
+updated: 2022-02-09
+version: "3.1.0"
+stars: 0.0
 ratings: 
 reviews: 
 size: 11M

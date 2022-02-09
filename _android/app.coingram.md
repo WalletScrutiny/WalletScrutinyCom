@@ -11,7 +11,7 @@ released: 2019-07-02
 updated: 2021-12-11
 version: "3.1.1"
 stars: 4.8
-ratings: 43968
+ratings: 43970
 reviews: 1155
 size: 25M
 website: http://www.coingraam.com/

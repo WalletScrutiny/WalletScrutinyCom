@@ -11,7 +11,7 @@ released: 2019-09-17
 updated: 2022-02-02
 version: "5.3.5"
 stars: 3.8
-ratings: 928
+ratings: 929
 reviews: 440
 size: 72M
 website: https://monnos.com

@@ -11,8 +11,8 @@ released: 2018-11-02
 updated: 2022-01-23
 version: "2.4.8"
 stars: 3.4
-ratings: 4333
-reviews: 2233
+ratings: 4342
+reviews: 2236
 size: 159M
 website: https://rain.bh
 repository: 

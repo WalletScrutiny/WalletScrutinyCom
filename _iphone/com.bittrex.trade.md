@@ -8,11 +8,11 @@ appId: com.bittrex.trade
 appCountry: 
 idd: 1465314783
 released: 2019-12-19
-updated: 2021-12-19
-version: "1.17.1"
-stars: 4.66167
-reviews: 2338
-size: 78622720
+updated: 2022-02-08
+version: "1.17.3"
+stars: 4.66127
+reviews: 2350
+size: 78645248
 website: https://global.bittrex.com
 repository: 
 issue: 

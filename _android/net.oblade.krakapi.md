@@ -10,8 +10,8 @@ appCountry:
 released: 2019-08-09
 updated: 2022-01-26
 version: "2.5.2"
-stars: 4.1
-ratings: 529
+stars: 4.2
+ratings: 530
 reviews: 14
 size: 7.5M
 website: http://www.oblade.net

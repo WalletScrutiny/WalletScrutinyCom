@@ -12,7 +12,7 @@ updated: 2021-12-12
 version: "1.8.6"
 stars: 4.9
 ratings: 5399
-reviews: 163
+reviews: 162
 size: 34M
 website: http://abbcpayment.com
 repository: 

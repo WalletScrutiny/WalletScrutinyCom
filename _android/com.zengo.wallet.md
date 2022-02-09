@@ -11,8 +11,8 @@ appCountry:
 released: 2020-01-19
 updated: 2022-02-07
 version: "3.5.1"
-stars: 4.5
-ratings: 3757
+stars: 4.6
+ratings: 3773
 reviews: 303
 size: 72M
 website: https://www.zengo.com

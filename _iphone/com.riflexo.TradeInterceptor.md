@@ -10,8 +10,8 @@ idd: 329476057
 released: 2009-09-23
 updated: 2021-11-17
 version: "6.6.5"
-stars: 4.79202
-reviews: 476
+stars: 4.79114
+reviews: 474
 size: 73523200
 website: https://www.thinkmarkets.com/uk/about-us/
 repository: 

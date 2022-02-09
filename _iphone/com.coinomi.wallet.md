@@ -10,8 +10,8 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2022-02-02
 version: "1.13.2"
-stars: 4.55764
-reviews: 1492
+stars: 4.55924
+reviews: 1477
 size: 139253760
 website: https://www.coinomi.com
 repository: 
