@@ -20,7 +20,8 @@ const sem = new Semaphore(5)
 
 const stats = {
   defunct: 0,
-  updated: 0
+  updated: 0,
+  remaining: 0
 }
 
 const allowedHeaders = [
@@ -62,7 +63,6 @@ async function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} 🤖 files ...`)
     // HACK: The script fails syncing all apps but maybe if it works for less,
     //       eventually all get updated every now and then ...
     // To have some determinism, the files get sorted by the sha256(file name)
@@ -81,6 +81,8 @@ async function refreshAll() {
           return (hashes[a]).localeCompare(hashes[b])
         })
         .filter((v, i) => {return i % fraction == mod})
+    console.log(`Updating ${files.length} 🤖 files ...`)
+    stats.remaining = files.length
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -116,6 +118,7 @@ function refreshFile(fileName) {
           const iconPath = `images/wallet_icons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             writeResult(app, header, iconExtension, body)
+            stats.remaining--
             release()
           })
         }, (err) => {
@@ -124,6 +127,7 @@ function refreshFile(fileName) {
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
           }
+          stats.remaining--
           release()
         }).catch(err => {
           console.error(err)
@@ -134,6 +138,7 @@ function refreshFile(fileName) {
     } else {
       stats.defunct++
       writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
+      stats.remaining--
       release()
     }
   })
