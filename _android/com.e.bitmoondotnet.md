@@ -6,14 +6,15 @@ authors:
 
 users: 5000
 appId: com.e.bitmoondotnet
+appCountry: 
 released: 2020-02-03
 updated: 2020-02-03
 version: "1.0"
-stars: 3.7
-ratings: 63
-reviews: 34
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.5M
-website: 
+website: https://bitmoon.net
 repository: 
 issue: 
 icon: com.e.bitmoondotnet.png

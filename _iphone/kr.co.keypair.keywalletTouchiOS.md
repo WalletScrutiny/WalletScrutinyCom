@@ -11,8 +11,8 @@ idd: 1473941321
 released: 2019-07-28
 updated: 2022-01-10
 version: "1.1.31"
-stars: 4
-reviews: 1
+stars: 
+reviews: 
 size: 21010432
 website: http://keywalletpro.io
 repository: 

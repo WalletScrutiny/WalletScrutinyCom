@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: io.crypto.wallet
+appCountry: 
 released: 2018-11-03
 updated: 2018-11-03
 version: "0.0.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 4.5M

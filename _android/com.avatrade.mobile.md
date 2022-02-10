@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.avatrade.mobile
+appCountry: 
 released: 2017-05-23
-updated: 2022-01-17
+updated: 2022-02-03
 version: "98.3.0"
-stars: 4.7
-ratings: 7157
-reviews: 5150
+stars: 4.3
+ratings: 9182
+reviews: 7
 size: 21M
-website: 
+website: http://www.avatrade.com
 repository: 
 issue: 
 icon: com.avatrade.mobile.png

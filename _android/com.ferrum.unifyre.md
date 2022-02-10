@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.ferrum.unifyre
+appCountry: us
 released: 2020-05-29
 updated: 2020-09-20
 version: "0.0.19"
-stars: 4.4
+stars: 4.6
 ratings: 103
-reviews: 65
+reviews: 10
 size: 51M
 website: https://unifyre.io
 repository: 

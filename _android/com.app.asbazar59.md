@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.app.asbazar59
+appCountry: 
 released: 2021-06-15
 updated: 2021-10-14
 version: "4"
-stars: 3.2
-ratings: 358
-reviews: 278
+stars: 3.4
+ratings: 430
+reviews: 7
 size: 1.6M
-website: https://asbazar.com/
+website: https://asbazar.com/en/home
 repository: 
 issue: 
 icon: com.app.asbazar59.png

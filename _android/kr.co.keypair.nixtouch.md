@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: kr.co.keypair.nixtouch
+appCountry: 
 released: 2018-10-19
 updated: 2019-12-27
 version: "1.0.0.65"
-stars: 5
-ratings: 5
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: https://www.nixblock.com
+website: https://www.nixblock.com/
 repository: 
 issue: 
 icon: kr.co.keypair.nixtouch.png

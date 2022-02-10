@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100
 appId: org.zupago.pe
+appCountry: 
 released: 
 updated: 2018-12-08
 version: "Varies with device"

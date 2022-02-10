@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.polispay.copay
+appCountry: 
 released: 2018-02-21
 updated: 2021-10-22
 version: "8.9.3"
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.polispay.copay.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2020-04-07
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -33,6 +34,8 @@ redirect_from:
   - /com.polispay.copay/
   - /posts/com.polispay.copay/
 ---
+
+**Update 2022-01-25**: This app is not in store anymore.
 
 Given its app ID `com.polispay.copay` this app appears to be a clone of
 {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}

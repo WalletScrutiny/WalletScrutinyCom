@@ -6,12 +6,13 @@ authors:
 - danny
 users: 500000
 appId: com.tigerwit.forex
+appCountry: 
 released: 2018-01-24
 updated: 2022-01-14
 version: "5.6.3"
-stars: 3.8
-ratings: 1754
-reviews: 734
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
 website: https://www.tigerwit.com
 repository: 

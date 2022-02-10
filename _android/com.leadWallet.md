@@ -4,16 +4,17 @@ title: "Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.leadWallet
+appCountry: ng
 released: 2021-07-29
-updated: 2022-01-24
-version: "1.0.16"
-stars: 4.7
-ratings: 1527
-reviews: 1306
-size: 39M
-website: https://leadwallet.io/
+updated: 2022-02-01
+version: "1.0.17"
+stars: 4.2
+ratings: 1568
+reviews: 11
+size: 37M
+website: https://leadwallet.io
 repository: 
 issue: 
 icon: com.leadWallet.png

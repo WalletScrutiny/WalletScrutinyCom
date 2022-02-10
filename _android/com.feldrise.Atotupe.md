@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.feldrise.Atotupe
+appCountry: 
 released: 
 updated: 2018-09-04
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://www.feldrise.com
 repository: 
 issue: 
 icon: com.feldrise.Atotupe.png

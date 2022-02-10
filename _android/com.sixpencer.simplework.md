@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.sixpencer.simplework
+appCountry: 
 released: 2020-10-09
 updated: 2021-06-23
 version: "1.4.3"
-stars: 4.2
-ratings: 192
-reviews: 95
+stars: 4.3
+ratings: 194
+reviews: 12
 size: 21M
-website: https://dfox.cc
+website: https://dfox.cc/
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg

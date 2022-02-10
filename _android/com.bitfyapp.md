@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.bitfyapp
+appCountry: us
 released: 2019-10-14
 updated: 2022-01-25
-version: "3.10.22"
-stars: 3.9
-ratings: 1186
-reviews: 736
+version: "3.10.23"
+stars: 0.0
+ratings: 
+reviews: 
 size: 33M
 website: https://bitfy.app
 repository: 

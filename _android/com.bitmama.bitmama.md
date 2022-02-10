@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.bitmama.bitmama
+appCountry: us
 released: 2020-07-11
-updated: 2022-01-25
-version: "1.0.47"
+updated: 2022-02-07
+version: "1.0.50"
 stars: 3.6
-ratings: 47
-reviews: 29
-size: 34M
-website: https://www.bitmama.io/
+ratings: 63
+reviews: 2
+size: 35M
+website: https://www.bitmama.io
 repository: 
 issue: 
 icon: com.bitmama.bitmama.png

@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: net.cryptocurrencersltd.bitcoin.coin.invest
+appCountry: 
 released: 2021-07-18
 updated: 2021-07-18
 version: "1.0"

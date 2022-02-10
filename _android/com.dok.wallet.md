@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.dok.wallet
+appCountry: il
 released: 2020-09-28
 updated: 2021-10-21
 version: "1.1.6"
-stars: 4.2
-ratings: 32
-reviews: 25
+stars: 5.0
+ratings: 35
+reviews: 10
 size: 64M
 website: https://dokwallet.com/
 repository: 

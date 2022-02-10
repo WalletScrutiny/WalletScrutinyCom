@@ -1,19 +1,20 @@
 ---
 wsId: 
-title: "Crypto - Free Bitcoins"
+title: "Crypto - Bitcoins"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: ps.greenminer.app
+appCountry: 
 released: 2021-06-04
 updated: 2021-09-02
 version: "1.39b"
-stars: 4.1
-ratings: 4185
-reviews: 2092
+stars: 4.4
+ratings: 5272
+reviews: 321
 size: 25M
-website: http://cryptomining.tilda.ws/crypto
+website: http://crypto.promo-miner.com/
 repository: 
 issue: 
 icon: ps.greenminer.app.png

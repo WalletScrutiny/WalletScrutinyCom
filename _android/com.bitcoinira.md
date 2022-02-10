@@ -1,17 +1,18 @@
 ---
 wsId: BitcoinIRA
-title: "Bitcoin IRA: Cryptocurrency Retirement Investing"
+title: "Bitcoin IRA: Crypto Retirement"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.bitcoinira
-released: 
-updated: 2021-11-11
-version: "1.4.0"
-stars: 4.5
-ratings: 253
-reviews: 66
+appCountry: us
+released: 2021-06-15
+updated: 2022-02-04
+version: "1.5.9"
+stars: 4.7
+ratings: 458
+reviews: 109
 size: 118M
 website: https://bitcoinira.com/
 repository: 

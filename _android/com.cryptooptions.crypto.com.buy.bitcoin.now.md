@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: com.cryptooptions.crypto.com.buy.bitcoin.now
+appCountry: 
 released: 2021-07-24
 updated: 2021-07-24
 version: "1.0"

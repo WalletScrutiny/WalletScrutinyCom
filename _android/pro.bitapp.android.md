@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: pro.bitapp.android
+appCountry: 
 released: 2018-11-20
 updated: 2019-10-11
 version: "v2.6.0"

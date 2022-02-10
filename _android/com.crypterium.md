@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.crypterium
+appCountry: 
 released: 2018-01-21
-updated: 2022-01-24
-version: "2.6.66.10"
-stars: 4.3
-ratings: 8411
-reviews: 4313
+updated: 2022-02-07
+version: "2.6.67.18"
+stars: 3.5
+ratings: 8673
+reviews: 398
 size: 61M
 website: https://crypterium.com
 repository: 

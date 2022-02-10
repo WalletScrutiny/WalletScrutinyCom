@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitrah.pos
+appCountry: 
 released: 2020-07-21
 updated: 2020-11-02
 version: "2.0.0"
-stars: 4.4
-ratings: 8
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
-website: 
+website: https://bitrah.com/
 repository: 
 issue: 
 icon: com.bitrah.pos.png

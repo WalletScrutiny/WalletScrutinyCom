@@ -6,14 +6,15 @@ authors:
 
 users: 5
 appId: bitexly.com
+appCountry: 
 released: 2020-05-09
 updated: 2020-05-09
 version: "5.129.20"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 5.2M
-website: 
+website: https://bitexly.com
 repository: 
 issue: 
 icon: bitexly.com.png

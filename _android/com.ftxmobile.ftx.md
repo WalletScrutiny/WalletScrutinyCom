@@ -1,19 +1,20 @@
 ---
 wsId: FTXPro
-title: "FTX Pro"
+title: "FTX Pro: Buy, Sell, Trade"
 altTitle: 
 authors:
 - leo
 users: 500000
 appId: com.ftxmobile.ftx
+appCountry: 
 released: 2020-05-08
 updated: 2022-01-12
 version: "1.1.8"
-stars: 4.1
-ratings: 6905
-reviews: 3043
+stars: 3.5
+ratings: 9585
+reviews: 230
 size: 66M
-website: https://ftx.com
+website: https://ftx.com/
 repository: 
 issue: 
 icon: com.ftxmobile.ftx.png

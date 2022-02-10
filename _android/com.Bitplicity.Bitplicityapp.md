@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.Bitplicity.Bitplicityapp
+appCountry: 
 released: 2020-06-06
 updated: 2020-06-19
 version: "1.4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 1.6M
-website: 
+website: https://Bitplicity.com
 repository: 
 issue: 
 icon: com.Bitplicity.Bitplicityapp.png

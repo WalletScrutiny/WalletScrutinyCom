@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: pro.smartym.wllt
+appCountry: 
 released: 2019-03-19
 updated: 2019-03-21
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 15M
-website: 
+website: https://smartym.pro
 repository: 
 issue: 
 icon: pro.smartym.wllt.png

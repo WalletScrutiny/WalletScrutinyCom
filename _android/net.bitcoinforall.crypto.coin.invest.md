@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: net.bitcoinforall.crypto.coin.invest
+appCountry: 
 released: 2021-06-17
 updated: 2021-06-17
 version: "1.0"

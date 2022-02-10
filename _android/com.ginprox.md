@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.ginprox
+appCountry: 
 released: 2021-04-16
 updated: 2021-07-14
 version: "1.1.6"

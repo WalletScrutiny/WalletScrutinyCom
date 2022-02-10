@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: exchange.sovereignwallet.mui
+appCountry: kr
 released: 2018-06-25
 updated: 2021-03-10
 version: "1.18.0"

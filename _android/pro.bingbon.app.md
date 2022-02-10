@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100000
 appId: pro.bingbon.app
+appCountry: us
 released: 2019-05-18
-updated: 2022-01-19
-version: "2.46.1"
-stars: 4.4
-ratings: 2080
-reviews: 1147
-size: 45M
-website: https://bingbon.com
+updated: 2022-02-02
+version: "2.47.1"
+stars: 4.5
+ratings: 2634
+reviews: 78
+size: 46M
+website: https://bingx.com
 repository: 
 issue: 
 icon: pro.bingbon.app.png

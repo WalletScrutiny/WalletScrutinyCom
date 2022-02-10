@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.supremexchange
+appCountry: 
 released: 2018-12-21
 updated: 2020-11-23
 version: "2.1"
-stars: 4
-ratings: 5
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: 31M
-website: 
+website: https://www.supremecrypx.com
 repository: 
 issue: 
 icon: com.supremexchange.png

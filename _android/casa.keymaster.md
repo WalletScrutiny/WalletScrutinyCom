@@ -6,12 +6,13 @@ authors:
 - leo
 users: 5000
 appId: casa.keymaster
+appCountry: 
 released: 2019-03-01
-updated: 2022-01-22
-version: "3.9.2"
+updated: 2022-02-02
+version: "3.10.1"
 stars: 4.6
-ratings: 177
-reviews: 32
+ratings: 198
+reviews: 19
 size: 37M
 website: https://keys.casa
 repository: 

@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.nbl.bitcoinchampionapp
+appCountry: 
 released: 
 updated: 2021-02-23
 version: "1.0.2"

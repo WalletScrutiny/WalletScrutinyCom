@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.aqn.wallet
+appCountry: 
 released: 2021-03-05
 updated: 2021-03-05
 version: "1.0"
-stars: 2.6
-ratings: 11
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.0M
 website: 
 repository: 

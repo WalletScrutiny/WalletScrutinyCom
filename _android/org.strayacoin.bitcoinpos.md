@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: org.strayacoin.bitcoinpos
+appCountry: 
 released: 2018-10-13
 updated: 2021-04-17
 version: "3.0.0"
-stars: 2.5
-ratings: 6
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: 
+website: https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 
 icon: org.strayacoin.bitcoinpos.png

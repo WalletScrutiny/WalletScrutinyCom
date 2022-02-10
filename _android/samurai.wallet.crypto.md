@@ -7,6 +7,7 @@ authors:
 - leo
 users: 50
 appId: samurai.wallet.crypto
+appCountry: 
 released: 2021-07-31
 updated: 2021-08-01
 version: "9.8"

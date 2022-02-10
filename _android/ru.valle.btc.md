@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: ru.valle.btc
+appCountry: 
 released: 2013-04-19
 updated: 2021-11-05
 version: "Varies with device"
-stars: 4.3
-ratings: 158
-reviews: 54
+stars: 4.6
+ratings: 162
+reviews: 12
 size: Varies with device
-website: https://www.linkedin.com/in/vkonovalov
+website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png

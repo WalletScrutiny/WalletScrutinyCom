@@ -10,8 +10,8 @@ idd: 1454645575
 released: 2019-03-28
 updated: 2021-10-22
 version: "2.1.1"
-stars: 4.8059
-reviews: 407
+stars: 4.80637
+reviews: 408
 size: 142444544
 website: https://cryptochallenge.app
 repository: 

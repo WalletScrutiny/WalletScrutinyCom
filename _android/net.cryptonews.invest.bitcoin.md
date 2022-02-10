@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: net.cryptonews.invest.bitcoin
+appCountry: 
 released: 2021-06-23
 updated: 2021-06-23
 version: "1.0"

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.xtb.xmobile2
+appCountry: 
 released: 2014-12-17
-updated: 2022-01-17
+updated: 2022-01-27
 version: "Varies with device"
-stars: 4.6
-ratings: 18281
-reviews: 5364
+stars: 4.3
+ratings: 21593
+reviews: 64
 size: Varies with device
-website: http://www.xtb.com/
+website: http://www.xtb.com
 repository: 
 issue: 
 icon: com.xtb.xmobile2.png

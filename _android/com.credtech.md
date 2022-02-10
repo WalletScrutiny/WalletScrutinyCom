@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.credtech
+appCountry: 
 released: 2021-02-07
 updated: 2021-02-11
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 11M
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.credtech.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-02-07
 signer: 
 reviewArchive:
 

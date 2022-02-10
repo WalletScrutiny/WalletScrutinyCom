@@ -6,21 +6,22 @@ authors:
 
 users: 500
 appId: network.worldshare.safewallet
+appCountry: 
 released: 2020-02-11
 updated: 2020-02-12
 version: "1.0.0"
-stars: 3
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.5M
-website: 
+website: https://worldshare.network
 repository: 
 issue: 
 icon: network.worldshare.safewallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-21
+date: 2022-02-02
 signer: 
 reviewArchive:
 

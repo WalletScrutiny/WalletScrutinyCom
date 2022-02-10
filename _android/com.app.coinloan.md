@@ -4,14 +4,15 @@ title: "CoinLoan: Сrypto & Fiat Loans"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.app.coinloan
+appCountry: us
 released: 2019-11-28
 updated: 2022-01-19
 version: "Varies with device"
 stars: 4.4
-ratings: 253
-reviews: 123
+ratings: 296
+reviews: 46
 size: Varies with device
 website: https://coinloan.io/
 repository: 

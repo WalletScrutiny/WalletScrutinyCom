@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.zedXeWallet
+appCountry: 
 released: 2020-05-07
 updated: 2020-06-11
 version: "1.8"
-stars: 4.5
-ratings: 32
-reviews: 27
+stars: 0.0
+ratings: 
+reviews: 
 size: 39M
-website: 
+website: https://www.zedxe.com
 repository: 
 issue: 
 icon: com.zedXeWallet.png

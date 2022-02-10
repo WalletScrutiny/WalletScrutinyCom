@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: com.bitcointest.h5
+appCountry: 
 released: 2021-09-03
 updated: 2021-09-03
 version: "5.5"
-stars: 
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 1008
+reviews: 387
 size: 17M
 website: 
 repository: 

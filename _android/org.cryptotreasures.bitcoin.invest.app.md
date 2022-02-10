@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: org.cryptotreasures.bitcoin.invest.app
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"

@@ -4,16 +4,17 @@ title: "Brise - Crypto Wallet"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.brise.wallet
+appCountry: 
 released: 2021-12-08
 updated: 2021-12-08
 version: "1.0.0"
-stars: 
-ratings: 
-reviews: 
+stars: 3.8
+ratings: 374
+reviews: 44
 size: 29M
-website: 
+website: https://bitgert.com/
 repository: 
 issue: 
 icon: com.brise.wallet.png

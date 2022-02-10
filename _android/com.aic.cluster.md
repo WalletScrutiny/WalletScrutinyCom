@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.aic.cluster
+appCountry: 
 released: 
 updated: 2021-05-24
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://clusterwallet.com
 repository: 
 issue: 
 icon: com.aic.cluster.png

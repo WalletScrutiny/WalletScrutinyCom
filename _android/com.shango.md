@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.shango
+appCountry: 
 released: 
 updated: 2019-06-01
 version: "Varies with device"

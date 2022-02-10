@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.rishabh.bitfortip
+appCountry: us
 released: 2016-12-21
 updated: 2021-06-20
 version: "2.6"
-stars: 4.3
-ratings: 74
-reviews: 41
+stars: 4.6
+ratings: 78
+reviews: 2
 size: 3.5M
 website: https://www.bitfortip.com/
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.beldex
+appCountry: 
 released: 
 updated: 2021-04-14
 version: "Varies with device"

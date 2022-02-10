@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.midasprotocol.wallet.android
+appCountry: 
 released: 2018-11-02
 updated: 2021-12-20
 version: "2.0.8.1"
-stars: 4.1
-ratings: 447
-reviews: 272
+stars: 4.3
+ratings: 450
+reviews: 24
 size: 43M
-website: https://midasprotocol.io/
+website: https://midasprotocol.io
 repository: 
 issue: 
 icon: com.midasprotocol.wallet.android.png

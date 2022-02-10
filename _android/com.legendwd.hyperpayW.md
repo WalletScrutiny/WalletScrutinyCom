@@ -6,13 +6,14 @@ authors:
 - leo
 users: 100000
 appId: com.legendwd.hyperpayW
+appCountry: us
 released: 2018-10-25
-updated: 2022-01-14
-version: "4.1.21"
-stars: 5
-ratings: 1800
-reviews: 1456
-size: 119M
+updated: 2022-01-24
+version: "4.1.22"
+stars: 4.4
+ratings: 2732
+reviews: 244
+size: 120M
 website: https://hyperpay.tech
 repository: 
 issue: 

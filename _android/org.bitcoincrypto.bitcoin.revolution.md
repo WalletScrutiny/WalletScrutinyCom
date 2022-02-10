@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: org.bitcoincrypto.bitcoin.revolution
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"

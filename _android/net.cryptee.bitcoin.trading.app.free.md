@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: net.cryptee.bitcoin.trading.app.free
+appCountry: 
 released: 2021-06-19
 updated: 2021-06-19
 version: "1.0"

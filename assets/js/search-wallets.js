@@ -96,7 +96,9 @@ function searchCatalogue(input) {
             activityIndicationClearTrigger.classList.remove("fa-times")
             activityIndicationClearTrigger.classList.add("fa-circle-notch")
             const walletRow = document.createElement("li")
-            walletRow.style['animation-delay'] = matchCounter * .1 + 's'
+            if (matchCounter < 10) {
+              walletRow.style['animation-delay'] = matchCounter * .2 + 's'
+            }
             walletRow.classList.add("actionable")
             var compactedResults = ''
             function cPlus(w) {

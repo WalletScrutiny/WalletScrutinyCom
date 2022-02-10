@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: me.flashex.app.a
+appCountry: 
 released: 2020-08-25
 updated: 2020-08-26
 version: "1.0.2"

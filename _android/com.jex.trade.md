@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.jex.trade
+appCountry: 
 released: 2019-04-25
 updated: 2021-10-25
 version: "2.8.4"

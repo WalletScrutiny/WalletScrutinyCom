@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.ctower.mobile
-released: 
+appCountry: 
+released: 2020-07-17
 updated: 2020-08-20
 version: "1.0.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 9.4M
-website: 
+website: https://crosstower.com/
 repository: 
 issue: 
 icon: com.ctower.mobile.png

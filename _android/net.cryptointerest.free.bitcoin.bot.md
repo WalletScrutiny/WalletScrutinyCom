@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: net.cryptointerest.free.bitcoin.bot
+appCountry: 
 released: 2021-07-06
 updated: 2021-07-06
 version: "1.0"

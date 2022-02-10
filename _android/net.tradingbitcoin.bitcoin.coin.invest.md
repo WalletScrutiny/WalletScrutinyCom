@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: net.tradingbitcoin.bitcoin.coin.invest
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "1.0"

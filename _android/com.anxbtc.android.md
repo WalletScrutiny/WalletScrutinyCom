@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.anxbtc.android
+appCountry: 
 released: 2014-04-29
 updated: 2016-08-17
 version: "1.8.0"

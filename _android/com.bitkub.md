@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.bitkub
+appCountry: 
 released: 2019-04-20
 updated: 2021-11-26
 version: "3.8"
-stars: 3.6
-ratings: 14326
-reviews: 7106
+stars: 4.2
+ratings: 18264
+reviews: 31
 size: 60M
-website: http://www.bitkub.com/
+website: http://www.bitkub.com
 repository: 
 issue: 
 icon: com.bitkub.png

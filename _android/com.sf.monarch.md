@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50000
 appId: com.sf.monarch
+appCountry: 
 released: 2018-10-19
 updated: 2022-01-10
 version: "2.3.6"
-stars: 4.1
-ratings: 809
-reviews: 421
+stars: 4.4
+ratings: 820
+reviews: 157
 size: 17M
-website: https://monarchwallet.com
+website: http://splashfactory.com
 repository: 
 issue: 
 icon: com.sf.monarch.png

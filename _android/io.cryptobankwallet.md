@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: io.cryptobankwallet
+appCountry: 
 released: 2020-12-10
 updated: 2020-12-10
 version: "0.12.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 30M
-website: 
+website: http://www.gexpay.com
 repository: 
 issue: 
 icon: io.cryptobankwallet.jpg

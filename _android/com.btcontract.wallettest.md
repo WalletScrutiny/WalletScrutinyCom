@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.btcontract.wallettest
+appCountry: 
 released: 2021-06-28
 updated: 2021-11-26
 version: "2.4.19"

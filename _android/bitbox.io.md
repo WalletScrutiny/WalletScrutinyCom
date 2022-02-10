@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: bitbox.io
+appCountry: 
 released: 2019-05-16
 updated: 2019-07-30
 version: "1.0.4"
-stars: 4.2
-ratings: 16
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.6M
 website: 
 repository: 

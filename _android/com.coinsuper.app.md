@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinsuper.app
+appCountry: us
 released: 2018-04-24
 updated: 2021-11-04
 version: "2.5.8"
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.coinsuper.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-14**: This app is not available anymore.
 
 ## App Description
 

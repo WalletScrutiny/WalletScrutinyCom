@@ -1,19 +1,20 @@
 ---
 wsId: kriptomat
-title: "Kriptomat - The easiest way to buy and own Bitcoin"
+title: "Kriptomat - Buy & Store Crypto"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: io.kriptomat.app
+appCountry: us
 released: 2018-12-17
-updated: 2021-10-29
-version: "1.8.4"
-stars: 4.3
-ratings: 1016
-reviews: 484
+updated: 2022-02-07
+version: "2.0.12"
+stars: 0.0
+ratings: 
+reviews: 
 size: 45M
-website: https://kriptomat.io/
+website: https://www.kriptomat.io
 repository: 
 issue: 
 icon: io.kriptomat.app.png

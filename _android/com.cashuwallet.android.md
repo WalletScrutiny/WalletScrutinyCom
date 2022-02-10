@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.cashuwallet.android
+appCountry: 
 released: 
 updated: 2021-03-07
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://cashu.cc/
 repository: 
 issue: 
 icon: com.cashuwallet.android.png

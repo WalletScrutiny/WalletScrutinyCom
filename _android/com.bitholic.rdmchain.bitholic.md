@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
+appCountry: 
 released: 2019-01-20
 updated: 2021-08-02
 version: "1.1.1"
-stars: 4.1
-ratings: 163
-reviews: 103
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.2M
-website: https://www.bithumbsg.com
+website: https://www.bitholic.com
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png

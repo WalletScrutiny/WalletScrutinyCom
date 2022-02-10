@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.shaketh
+appCountry: 
 released: 2018-02-20
-updated: 2022-01-25
-version: "1.8.47"
-stars: 4.7
-ratings: 9087
-reviews: 3683
+updated: 2022-02-09
+version: "1.8.53"
+stars: 4.5
+ratings: 10354
+reviews: 20
 size: 100M
 website: https://shakepay.com
 repository: 

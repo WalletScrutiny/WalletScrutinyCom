@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: blockchains.my
+appCountry: 
 released: 2017-05-08
 updated: 2019-01-07
 version: "1.0.0.18"

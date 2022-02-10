@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: pinurcoin.android
+appCountry: 
 released: 2018-03-08
 updated: 2018-03-09
 version: "1.1"

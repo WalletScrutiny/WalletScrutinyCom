@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.spacelink.exchange
+appCountry: 
 released: 2021-05-21
 updated: 2021-05-21
 version: "4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 1.9M
-website: 
+website: https://spacelink.exchange
 repository: 
 issue: 
 icon: com.spacelink.exchange.png

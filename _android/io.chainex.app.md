@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.chainex.app
+appCountry: 
 released: 
 updated: 2021-09-30
 version: "Varies with device"

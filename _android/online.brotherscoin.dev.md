@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: online.brotherscoin.dev
+appCountry: 
 released: 2020-09-23
 updated: 2020-09-24
 version: "1.0.0"

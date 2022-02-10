@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000
 appId: com.visionwallet.app
+appCountry: 
 released: 2020-09-07
 updated: 2020-11-05
 version: "1.3.2"
-stars: 4
-ratings: 78
-reviews: 71
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.9M
-website: https://visionwallet.com/en
+website: https://visionwallet.com/en/
 repository: 
 issue: 
 icon: com.visionwallet.app.png

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.silenca.amlsafe
+appCountry: 
 released: 2020-10-26
-updated: 2022-01-05
-version: "1.30.59"
-stars: 4.5
-ratings: 233
-reviews: 167
-size: 85M
-website: https://amlsafe.io
+updated: 2022-02-09
+version: "1.30.60"
+stars: 5.0
+ratings: 248
+reviews: 
+size: 65M
+website: https://amlsafe.io/
 repository: 
 issue: 
 icon: com.silenca.amlsafe.jpg

@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.cryptorabbit.cryptorabbit
+appCountry: 
 released: 2019-04-07
 updated: 2019-11-15
 version: "1.0.9"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 6.9M

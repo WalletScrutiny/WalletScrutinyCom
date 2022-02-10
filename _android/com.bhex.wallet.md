@@ -8,6 +8,7 @@ authors:
 - leo
 users: 100
 appId: com.bhex.wallet
+appCountry: us
 released: 2021-07-07
 updated: 2021-09-19
 version: "1.3.5"

@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.abbc.abbcmobile
+appCountry: 
 released: 2019-08-08
 updated: 2020-03-24
 version: "1.3.3"
-stars: 4
-ratings: 628
-reviews: 422
+stars: 4.0
+ratings: 629
+reviews: 7
 size: 4.5M
-website: 
+website: http://abbcpayment.com
 repository: 
 issue: 
 icon: com.abbc.abbcmobile.png

@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: buy.crypto.nz
+appCountry: 
 released: 2021-06-16
 updated: 2021-06-16
 version: "1.0"

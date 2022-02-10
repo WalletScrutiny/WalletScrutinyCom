@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.polehin.android
+appCountry: 
 released: 2019-01-01
 updated: 2022-01-09
 version: "3.7.4"
 stars: 4.3
-ratings: 20617
-reviews: 12283
+ratings: 22264
+reviews: 1071
 size: 48M
-website: https://polehin.com
+website: https://coinbox.org
 repository: 
 issue: 
 icon: com.polehin.android.png

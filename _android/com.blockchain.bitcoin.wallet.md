@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.bitcoin.wallet
+appCountry: 
 released: 2021-01-19
 updated: 2021-09-24
 version: "1.0.3.8"
-stars: 4.3
-ratings: 716
-reviews: 144
+stars: 4.2
+ratings: 727
+reviews: 56
 size: 28M
 website: https://adslab-2b1c2.web.app
 repository: 

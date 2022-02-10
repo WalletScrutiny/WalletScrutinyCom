@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.koinwatech.koinwa
+appCountry: 
 released: 2021-08-08
-updated: 2021-12-04
-version: "2.0.7"
-stars: 4.6
-ratings: 91
-reviews: 68
+updated: 2022-01-28
+version: "3.0"
+stars: 0.0
+ratings: 
+reviews: 
 size: 64M
-website: https://www.koinwa.com/
+website: https://koinwa.com/
 repository: 
 issue: 
 icon: com.koinwatech.koinwa.png

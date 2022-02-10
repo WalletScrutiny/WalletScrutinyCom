@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.aladiex.global
+appCountry: 
 released: 2020-07-04
 updated: 2021-04-27
 version: "1.7.9"
-stars: 4.7
-ratings: 61
-reviews: 32
+stars: 0.0
+ratings: 
+reviews: 
 size: 27M
-website: https://aladiex.com/
+website: https://aladiex.com
 repository: 
 issue: 
 icon: com.aladiex.global.png

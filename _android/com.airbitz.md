@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.airbitz
+appCountry: 
 released: 2014-04-01
 updated: 2018-09-21
 version: "2.4.12"

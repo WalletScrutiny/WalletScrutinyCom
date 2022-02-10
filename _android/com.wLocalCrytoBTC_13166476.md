@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.wLocalCrytoBTC_13166476
+appCountry: 
 released: 2021-02-05
 updated: 2021-08-05
 version: "1.0.26"

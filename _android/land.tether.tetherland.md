@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: land.tether.tetherland
+appCountry: 
 released: 2019-12-09
-updated: 2022-01-10
-version: "5.2"
-stars: 4.5
-ratings: 1109
-reviews: 394
+updated: 2022-01-18
+version: "6"
+stars: 4.6
+ratings: 1668
+reviews: 28
 size: 30M
 website: https://tetherland.net
 repository: 

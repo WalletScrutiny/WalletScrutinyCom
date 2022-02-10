@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: io.copayers.multi.wallet
+appCountry: 
 released: 2021-12-16
 updated: 2021-12-16
 version: "0.21838"
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: io.copayers.multi.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fake
-date: 2022-01-09
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-21**: This app is not available anymore.
 
 This product
 "by [BitPay Crypto Inc](https://play.google.com/store/apps/developer?id=BitPay+Crypto+Inc)"

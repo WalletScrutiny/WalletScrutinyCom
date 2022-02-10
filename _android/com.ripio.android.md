@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.ripio.android
+appCountry: 
 released: 2015-06-01
-updated: 2022-01-03
+updated: 2022-02-09
 version: "5.30.2"
-stars: 3.4
-ratings: 28568
-reviews: 12751
+stars: 3.5
+ratings: 33799
+reviews: 152
 size: 96M
-website: https://www.ripio.com/ar/wallet
+website: https://www.ripio.com
 repository: 
 issue: 
 icon: com.ripio.android.png

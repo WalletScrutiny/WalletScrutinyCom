@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: app.codecellar.embitwallet
+appCountry: 
 released: 2019-12-01
 updated: 2022-01-16
 version: "4.67"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 8.1M

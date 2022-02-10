@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.basefex.exchange
+appCountry: 
 released: 2019-07-16
 updated: 2020-08-13
 version: "2.5.67"

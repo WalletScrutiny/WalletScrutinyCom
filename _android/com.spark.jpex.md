@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.spark.jpex
+appCountry: jp
 released: 2020-07-30
-updated: 2022-01-13
-version: "2.32.448"
-stars: 4.6
-ratings: 1022
-reviews: 940
-size: 36M
-website: https://jp-ex.io/
+updated: 2022-01-25
+version: "2.33.460"
+stars: 0.0
+ratings: 
+reviews: 
+size: 37M
+website: http://jp-ex.io
 repository: 
 issue: 
 icon: com.spark.jpex.png

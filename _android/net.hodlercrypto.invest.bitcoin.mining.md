@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: net.hodlercrypto.invest.bitcoin.mining
+appCountry: 
 released: 2021-06-18
 updated: 2021-06-18
 version: "1.0"

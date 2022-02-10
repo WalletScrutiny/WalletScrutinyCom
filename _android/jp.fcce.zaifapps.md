@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: jp.fcce.zaifapps
+appCountry: in
 released: 2020-05-07
 updated: 2021-10-30
 version: "1.1.8"
-stars: 2.3
-ratings: 65
-reviews: 50
+stars: 0.0
+ratings: 
+reviews: 
 size: 25M
-website: https://zaif.jp/
+website: https://zaif.jp
 repository: 
 issue: 
 icon: jp.fcce.zaifapps.png

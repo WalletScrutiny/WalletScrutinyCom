@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bybt.bybtapp
+appCountry: 
 released: 2021-02-10
 updated: 2021-10-29
 version: "1.0.1.7"

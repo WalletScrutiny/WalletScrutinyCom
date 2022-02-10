@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.anxintl.mythology
+appCountry: 
 released: 2016-04-18
 updated: 2016-10-29
 version: "1.3.3"
-stars: 3.1
-ratings: 46
-reviews: 20
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.2M
-website: 
+website: https://www.mydicewallet.com
 repository: 
 issue: 
 icon: com.anxintl.mythology.png

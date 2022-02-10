@@ -10,7 +10,7 @@ idd: 1417802076
 released: 2018-08-09
 updated: 2022-01-24
 version: "2.0.13"
-stars: 3.66667
+stars: 3.54167
 reviews: 24
 size: 91072512
 website: https://quppy.com

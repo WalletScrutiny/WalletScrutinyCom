@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitcoinsuisse.pay
+appCountry: 
 released: 2021-06-06
 updated: 2021-11-26
 version: "1.1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 33M
-website: 
+website: https://www.bitcoinsuisse.com/
 repository: 
 issue: 
 icon: com.bitcoinsuisse.pay.png

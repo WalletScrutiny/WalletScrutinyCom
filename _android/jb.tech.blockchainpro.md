@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: jb.tech.blockchainpro
+appCountry: 
 released: 
 updated: 2021-04-25
 version: "2.5"

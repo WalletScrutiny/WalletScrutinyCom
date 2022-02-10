@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.bitpezapro.app
+appCountry: us
 released: 2020-02-09
 updated: 2021-09-11
 version: "1.0.3"
-stars: 4.2
-ratings: 105
-reviews: 80
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.0M
-website: https://bekonta.com/
+website: https://bekonta.com
 repository: 
 issue: 
 icon: com.bitpezapro.app.png

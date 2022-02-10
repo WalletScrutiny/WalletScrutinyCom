@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.pumapay.pumawallet
+appCountry: 
 released: 2018-05-07
 updated: 2021-10-25
 version: "3.9.9"
-stars: 3.9
-ratings: 358
-reviews: 227
+stars: 3.3
+ratings: 366
+reviews: 22
 size: 64M
-website: https://pumapay.io
+website: http://pumapay.io
 repository: 
 issue: 
 icon: com.pumapay.pumawallet.png

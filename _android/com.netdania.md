@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.netdania
+appCountry: us
 released: 2011-11-04
 updated: 2021-12-29
 version: "4.1.3"
 stars: 4.5
-ratings: 24319
-reviews: 8955
+ratings: 24449
+reviews: 1188
 size: 20M
-website: https://www.netdania.com/
+website: http://www.netdania.com
 repository: 
 issue: 
 icon: com.netdania.png

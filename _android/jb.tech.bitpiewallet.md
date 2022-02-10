@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: jb.tech.bitpiewallet
+appCountry: 
 released: 
 updated: 2021-02-01
 version: "1.3"

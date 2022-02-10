@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.crypterum.crypterum
+appCountry: 
 released: 2018-09-28
 updated: 2020-09-23
 version: "0.1.13"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 17M
-website: 
+website: https://crypterum.com
 repository: 
 issue: 
 icon: com.crypterum.crypterum.png

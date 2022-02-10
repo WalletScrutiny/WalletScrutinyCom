@@ -6,10 +6,11 @@ authors:
 
 users: 500
 appId: com.mineblockcraftapp
+appCountry: 
 released: 2020-04-14
 updated: 2020-04-14
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 14M

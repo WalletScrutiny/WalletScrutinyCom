@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.magnumwallet.crypto.invest
+appCountry: 
 released: 2021-07-18
 updated: 2021-07-18
 version: "1.0"

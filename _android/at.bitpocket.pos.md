@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 100
 appId: at.bitpocket.pos
+appCountry: 
 released: 2016-07-08
 updated: 2017-10-20
 version: "1.1.8"
-stars: 4.8
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.7M
-website: http://bitpocket.at/
+website: http://bitpocket.at
 repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 
 icon: at.bitpocket.pos.png

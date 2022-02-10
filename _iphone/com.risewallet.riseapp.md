@@ -8,11 +8,11 @@ appId: com.risewallet.riseapp
 appCountry: ca
 idd: 1453389237
 released: 2019-03-12
-updated: 2021-11-09
-version: "1.5.0"
+updated: 2022-02-03
+version: "1.6.0"
 stars: 4.96
 reviews: 25
-size: 11190272
+size: 12294144
 website: https://www.risewallet.com/
 repository: 
 issue: 

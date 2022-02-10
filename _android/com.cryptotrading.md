@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.cryptotrading
+appCountry: 
 released: 2021-03-13
 updated: 2021-07-08
 version: "1.0.4"

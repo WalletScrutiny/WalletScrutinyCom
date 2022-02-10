@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: ch.smd.icynote
+appCountry: 
 released: 2021-07-11
 updated: 2021-07-11
 version: "0.7"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 61M
-website: 
+website: https://icynote.ch
 repository: 
 issue: 
 icon: ch.smd.icynote.png

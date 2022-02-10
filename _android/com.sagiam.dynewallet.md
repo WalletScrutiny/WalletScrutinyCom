@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: com.sagiam.dynewallet
+appCountry: 
 released: 2021-01-12
 updated: 2021-01-12
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 32M

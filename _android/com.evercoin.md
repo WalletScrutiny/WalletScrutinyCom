@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.evercoin
+appCountry: 
 released: 2017-11-20
 updated: 2020-11-22
 version: "2.8.8"
-stars: 3.5
-ratings: 197
-reviews: 137
+stars: 3.7
+ratings: 203
+reviews: 59
 size: 40M
 website: https://evercoin.com
 repository: 

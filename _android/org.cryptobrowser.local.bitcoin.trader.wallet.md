@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: org.cryptobrowser.local.bitcoin.trader.wallet
+appCountry: 
 released: 2021-06-28
 updated: 2021-06-29
 version: "1.0"

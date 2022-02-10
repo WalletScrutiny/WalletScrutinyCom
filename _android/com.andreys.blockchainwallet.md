@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.andreys.blockchainwallet
+appCountry: 
 released: 
 updated: 2020-08-30
 version: "21"

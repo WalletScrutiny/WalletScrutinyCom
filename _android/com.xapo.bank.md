@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.xapo.bank
+appCountry: 
 released: 2021-05-27
-updated: 2022-01-24
-version: "7.13.1"
+updated: 2022-02-03
+version: "7.14.0"
 stars: 1.8
-ratings: 403
-reviews: 275
-size: 47M
-website: https://www.xapo.com
+ratings: 572
+reviews: 15
+size: 39M
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.xapo.bank.png

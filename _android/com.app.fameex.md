@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.app.fameex
+appCountry: us
 released: 2020-08-10
 updated: 2022-01-21
 version: "2.9.0"
-stars: 4.9
-ratings: 634
-reviews: 574
+stars: 0.0
+ratings: 
+reviews: 
 size: 45M
 website: https://www.fameex.com
 repository: 

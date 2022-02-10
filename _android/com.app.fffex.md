@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.app.fffex
+appCountry: 
 released: 2019-06-16
 updated: 2019-11-24
 version: "2.0.3"
-stars: 4.8
-ratings: 6
-reviews: 1
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
-website: 
+website: https://main.fffex.co
 repository: 
 issue: 
 icon: com.app.fffex.png

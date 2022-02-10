@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.jackocoins.app
+appCountry: 
 released: 2020-07-18
 updated: 2021-10-07
 version: "1.1.15"
-stars: 3.7
-ratings: 138
-reviews: 109
+stars: 4.1
+ratings: 146
+reviews: 14
 size: 6.5M
 website: https://www.jackocoins.com/
 repository: 

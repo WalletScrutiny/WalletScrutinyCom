@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.exnovin
+appCountry: 
 released: 2018-07-06
-updated: 2022-01-23
-version: "1.0.3"
-stars: 4.3
-ratings: 2185
-reviews: 872
+updated: 2022-01-27
+version: "1.0.4"
+stars: 4.1
+ratings: 2348
+reviews: 58
 size: 81M
-website: https://exnovin.net/
+website: https://exnovin.net
 repository: 
 issue: 
 icon: com.exnovin.png

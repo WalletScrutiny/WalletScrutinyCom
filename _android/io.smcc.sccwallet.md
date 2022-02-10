@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: io.smcc.sccwallet
+appCountry: 
 released: 2018-08-12
 updated: 2018-10-02
 version: "1.29"

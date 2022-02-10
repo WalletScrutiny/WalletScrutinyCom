@@ -7,12 +7,13 @@ authors:
 - danny
 users: 1000
 appId: com.spark.wallet
+appCountry: 
 released: 2018-12-10
 updated: 2021-11-08
 version: "0.3.1"
-stars: 4.2
-ratings: 9
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.6M
 website: https://github.com/shesek/spark-wallet
 repository: https://github.com/shesek/spark-wallet

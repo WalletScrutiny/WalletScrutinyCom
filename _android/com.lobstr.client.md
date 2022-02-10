@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.lobstr.client
+appCountry: us
 released: 2015-04-27
-updated: 2022-01-14
-version: "7.7.2"
-stars: 4.7
-ratings: 8213
-reviews: 3797
-size: 33M
-website: https://lobstr.co
+updated: 2022-01-29
+version: "7.8.0"
+stars: 4.8
+ratings: 11369
+reviews: 938
+size: 34M
+website: https://lobstr.co/
 repository: 
 issue: 
 icon: com.lobstr.client.jpg

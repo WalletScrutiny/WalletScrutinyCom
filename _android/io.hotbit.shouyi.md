@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: io.hotbit.shouyi
+appCountry: 
 released: 2019-09-19
-updated: 2022-01-25
-version: "1.3.46"
-stars: 4.2
-ratings: 57934
-reviews: 21823
-size: 12M
-website: https://www.hotbit.io
+updated: 2022-01-29
+version: "1.3.47"
+stars: 4.1
+ratings: 71968
+reviews: 1298
+size: 17M
+website: https://www.hotbit.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.png

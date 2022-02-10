@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: xyz.bitcoinlibre.app
+appCountry: us
 released: 2021-09-20
-updated: 2022-01-08
-version: "2.0.9"
-stars: 4.3
-ratings: 97
-reviews: 66
-size: 36M
-website: https://www.libre.sv/
+updated: 2022-02-01
+version: "2.1.0"
+stars: 3.9
+ratings: 1847
+reviews: 42
+size: 83M
+website: https://www.libre.sv
 repository: 
 issue: 
 icon: xyz.bitcoinlibre.app.png

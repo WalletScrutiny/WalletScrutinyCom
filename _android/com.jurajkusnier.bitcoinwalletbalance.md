@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.jurajkusnier.bitcoinwalletbalance
+appCountry: 
 released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
-stars: 4
-ratings: 235
-reviews: 126
+stars: 4.1
+ratings: 248
+reviews: 37
 size: 5.0M
-website: https://jurajkusnier.com/
+website: http://jurajkusnier.com/
 repository: https://github.com/jurajkusnier/bitcoin-balance-check/
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png

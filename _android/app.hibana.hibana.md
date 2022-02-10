@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50
 appId: app.hibana.hibana
+appCountry: 
 released: 2018-12-11
 updated: 2018-12-11
 version: "0.1"

@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.gamemobile.bitcoinprime
+appCountry: 
 released: 2021-06-25
 updated: 2021-06-25
 version: "1.0.0"

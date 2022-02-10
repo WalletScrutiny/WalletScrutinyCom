@@ -7,6 +7,7 @@ authors:
 - danny
 users: 5000
 appId: tech.insense.sensewalet
+appCountry: 
 released: 2018-09-27
 updated: 2019-06-21
 version: "0.0068beta"

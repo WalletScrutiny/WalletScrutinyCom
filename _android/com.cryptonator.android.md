@@ -6,21 +6,22 @@ authors:
 - leo
 users: 100000
 appId: com.cryptonator.android
+appCountry: 
 released: 2018-11-01
-updated: 2021-01-22
-version: "4.0"
-stars: 2.6
-ratings: 5194
-reviews: 3117
-size: 8.7M
+updated: 2022-01-30
+version: "4.2"
+stars: 3.3
+ratings: 5254
+reviews: 137
+size: 9.0M
 website: https://www.cryptonator.com
 repository: 
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-01-18
+date: 2022-01-31
 signer: 
 reviewArchive:
 - date: 2019-11-12

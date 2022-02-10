@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.astontek.stock
+appCountry: us
 released: 2020-03-16
-updated: 2022-01-23
-version: "6.20"
-stars: 4.3
-ratings: 2257
-reviews: 861
+updated: 2022-01-31
+version: "6.21"
+stars: 4.7
+ratings: 2626
+reviews: 392
 size: 37M
-website: http://www.astontek.com/
+website: http://www.astontek.com
 repository: 
 issue: 
 icon: com.astontek.stock.png

@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.forextech.forextools
+appCountry: 
 released: 2016-10-19
 updated: 2018-01-11
 version: "1.5"
-stars: 3.9
-ratings: 14
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.7M
-website: 
+website: http://app.forextoolsapp.com
 repository: 
 issue: 
 icon: com.forextech.forextools.png

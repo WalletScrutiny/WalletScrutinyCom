@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.coinsfera
+appCountry: 
 released: 
 updated: 2020-08-23
 version: "Varies with device"
@@ -13,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: 
+website: https://www.bitfera.com
 repository: 
 issue: 
 icon: com.coinsfera.png

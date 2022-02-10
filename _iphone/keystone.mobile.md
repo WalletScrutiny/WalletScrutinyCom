@@ -10,8 +10,8 @@ idd: 1567857965
 released: 2021-06-03
 updated: 2022-01-20
 version: "1.1.0"
-stars: 4.59999
-reviews: 5
+stars: 4
+reviews: 6
 size: 41456640
 website: https://keyst.one/
 repository: https://github.com/KeystoneHQ

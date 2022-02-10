@@ -6,12 +6,13 @@ authors:
 
 users: 500
 appId: com.unicorn.cryptomat
+appCountry: 
 released: 2020-01-28
 updated: 2020-04-24
 version: "0.11"
-stars: 4.7
-ratings: 94
-reviews: 90
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.6M
 website: 
 repository: 

@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: ch.vrfy
+appCountry: 
 released: 2019-10-03
 updated: 2021-07-13
 version: "1.5.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 39M
-website: 
+website: https://kong.cash
 repository: 
 issue: 
 icon: ch.vrfy.png

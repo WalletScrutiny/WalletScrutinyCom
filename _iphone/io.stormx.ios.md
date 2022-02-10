@@ -8,11 +8,11 @@ appId: io.stormx.ios
 appCountry: us
 idd: 1420545397
 released: 2018-12-12
-updated: 2022-01-20
-version: "4.13.1"
-stars: 4.62664
-reviews: 1216
-size: 60588032
+updated: 2022-02-04
+version: "4.14.0"
+stars: 4.62817
+reviews: 1221
+size: 56516608
 website: https://stormx.io/
 repository: 
 issue: 

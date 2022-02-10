@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: app.anchors.anchorusd
+appCountry: us
 released: 2020-06-18
 updated: 2022-01-13
 version: "1.17.9"
-stars: 2.3
-ratings: 2426
-reviews: 776
+stars: 2.2
+ratings: 2473
+reviews: 783
 size: 33M
-website: https://www.anchorusd.com/
+website: https://www.tryanchor.com
 repository: 
 issue: 
 icon: app.anchors.anchorusd.png

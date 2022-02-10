@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.ie.option
+appCountry: 
 released: 2019-12-17
 updated: 2020-08-14
 version: "1.1.4"
-stars: 4.7
-ratings: 2462
-reviews: 1463
+stars: 4.8
+ratings: 2623
+reviews: 1454
 size: 9.6M
-website: 
+website: https://www.ieoption.com/
 repository: 
 issue: 
 icon: com.ie.option.png

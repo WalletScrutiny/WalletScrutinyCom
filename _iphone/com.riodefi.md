@@ -8,11 +8,11 @@ appId: com.riodefi
 appCountry: us
 idd: 1560789648
 released: 2021-05-13
-updated: 2022-01-13
-version: "2.2.0"
+updated: 2022-01-27
+version: "2.3.0"
 stars: 5
 reviews: 3
-size: 53764096
+size: 56560640
 website: https://riodefi.com/
 repository: 
 issue: 

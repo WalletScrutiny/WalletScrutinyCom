@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2021-12-30
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-28**: This app is not in store anymore.
 
 The providers [App store description](https://apps.apple.com/us/app/coinpal-bitcoin-wallet/id1351428916) states the customer is in control of the private keys.
 

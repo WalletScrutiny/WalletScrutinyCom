@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: org.cryptobubbles.bitcoin.invest.canada
+appCountry: 
 released: 2021-07-17
 updated: 2021-07-18
 version: "1.0"

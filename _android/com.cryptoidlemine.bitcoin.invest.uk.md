@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.cryptoidlemine.bitcoin.invest.uk
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"

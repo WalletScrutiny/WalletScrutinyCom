@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.holytransaction
+appCountry: 
 released: 2021-03-25
 updated: 2021-03-25
 version: "1.0.0"
-stars: 3.9
-ratings: 7
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.8M
-website: 
+website: https://holytransaction.com
 repository: 
 issue: 
 icon: com.holytransaction.png

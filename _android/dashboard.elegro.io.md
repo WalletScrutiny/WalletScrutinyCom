@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: dashboard.elegro.io
+appCountry: 
 released: 2018-08-03
 updated: 2020-06-16
 version: "3.0.3"
-stars: 4.7
-ratings: 12
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 605k
-website: 
+website: https://business.elegro.eu/acceptance
 repository: 
 issue: 
 icon: dashboard.elegro.io.png

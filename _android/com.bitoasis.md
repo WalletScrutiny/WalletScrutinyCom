@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.bitoasis
+appCountry: ae
 released: 2020-08-20
-updated: 2022-01-21
-version: "1.4.8"
-stars: 4.3
-ratings: 1092
-reviews: 250
+updated: 2022-02-04
+version: "1.4.12"
+stars: 4.4
+ratings: 2550
+reviews: 284
 size: 75M
-website: https://bitoasis.net/en/home
+website: https://bitoasis.net/
 repository: 
 issue: 
 icon: com.bitoasis.png

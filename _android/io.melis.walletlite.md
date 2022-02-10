@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50
 appId: io.melis.walletlite
+appCountry: 
 released: 2019-06-03
 updated: 2019-06-03
 version: "0.4.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 16M
-website: 
+website: https://www.melis.io
 repository: 
 issue: 
 icon: io.melis.walletlite.png

@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.rter.zorc
+appCountry: 
 released: 2021-09-20
 updated: 2021-09-20
 version: "1.0"

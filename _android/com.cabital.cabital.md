@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.cabital.cabital
+appCountry: 
 released: 2021-06-07
 updated: 2022-01-19
 version: "1.1.9"
-stars: 4.4
-ratings: 16
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 45M
-website: https://www.cabital.com/
+website: https://www.cabital.com
 repository: 
 issue: 
 icon: com.cabital.cabital.png

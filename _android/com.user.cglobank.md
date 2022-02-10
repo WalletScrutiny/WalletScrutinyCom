@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.user.cglobank
+appCountry: 
 released: 2021-04-14
 updated: 2021-06-28
 version: "16"

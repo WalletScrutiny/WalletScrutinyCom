@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: org.lndroid.messenger.testnet
+appCountry: 
 released: 2020-03-23
 updated: 2020-03-23
 version: "0.1.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 2.3M
-website: 
+website: https://lndroid.org
 repository: 
 issue: 
 icon: org.lndroid.messenger.testnet.png

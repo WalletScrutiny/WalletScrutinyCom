@@ -7,14 +7,15 @@ authors:
 - danny
 users: 50000
 appId: com.galoyapp
+appCountry: 
 released: 2020-11-24
-updated: 2022-01-24
-version: "1.7.1"
-stars: 4.1
-ratings: 257
-reviews: 148
+updated: 2022-01-26
+version: "1.7.3"
+stars: 0.0
+ratings: 
+reviews: 
 size: 38M
-website: 
+website: https://galoy.io/
 repository: 
 issue: 
 icon: com.galoyapp.png

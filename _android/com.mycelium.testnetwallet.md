@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.mycelium.testnetwallet
+appCountry: 
 released: 2013-10-04
-updated: 2022-01-25
-version: "3.13.4.0-TESTNET"
-stars: 3.7
-ratings: 139
-reviews: 73
+updated: 2022-01-30
+version: "3.13.6.0-TESTNET"
+stars: 4.3
+ratings: 145
+reviews: 9
 size: 25M
-website: 
+website: http://mycelium.com
 repository: 
 issue: 
 icon: com.mycelium.testnetwallet.png

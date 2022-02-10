@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.cloud.app.mandala
+appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.2
-ratings: 71
-reviews: 46
+stars: 3.0
+ratings: 144
+reviews: 18
 size: 23M
-website: https://www.mandala.exchange/
+website: https://mandala.exchange
 repository: 
 issue: 
 icon: com.cloud.app.mandala.png

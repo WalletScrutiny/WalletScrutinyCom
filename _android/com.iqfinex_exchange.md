@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.iqfinex_exchange
+appCountry: 
 released: 2019-05-16
 updated: 2019-10-30
 version: "1.0.4"

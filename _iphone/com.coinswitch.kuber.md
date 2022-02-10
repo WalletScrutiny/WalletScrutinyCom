@@ -10,8 +10,8 @@ idd: 1540214951
 released: 2020-12-01
 updated: 2022-01-18
 version: "3.6.5"
-stars: 4.43794
-reviews: 34263
+stars: 4.44452
+reviews: 35479
 size: 62036992
 website: https://coinswitch.co/in
 repository: 

@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.btc.lumi.bestofwallet
+appCountry: 
 released: 2021-04-06
 updated: 2021-04-06
 version: "1.8.1"

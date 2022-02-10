@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.cryptodebitcard.bitcoin.trading.investment.app
+appCountry: 
 released: 2021-06-29
 updated: 2021-06-29
 version: "1.0"

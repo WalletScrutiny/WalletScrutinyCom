@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.bitcoinblink.wallet
+appCountry: 
 released: 2020-02-26
 updated: 2020-11-01
 version: "1.9"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 16M
-website: 
+website: https://bitcoinblink.com/
 repository: 
 issue: 
 icon: com.bitcoinblink.wallet.png

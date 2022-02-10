@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.libertyx.libertyx
-released: 
+appCountry: us
+released: 2015-06-05
 updated: 2021-07-28
 version: "4.1.2"
 stars: 3.5
-ratings: 412
-reviews: 252
+ratings: 426
+reviews: 257
 size: 27M
-website: https://libertyx.com/
+website: https://libertyx.com
 repository: 
 issue: 
 icon: com.libertyx.libertyx.png

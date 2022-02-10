@@ -10,8 +10,8 @@ idd: 1490226195
 released: 2019-12-31
 updated: 2021-11-20
 version: "2.47"
-stars: 3.33333
-reviews: 3
+stars: 2.5
+reviews: 2
 size: 45196288
 website: https://www.fatbtc.com/
 repository: 

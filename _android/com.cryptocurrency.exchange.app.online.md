@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.cryptocurrency.exchange.app.online
+appCountry: 
 released: 2021-05-20
 updated: 2021-05-20
 version: "1.0"
 stars: 4.7
-ratings: 150
-reviews: 149
+ratings: 151
+reviews: 145
 size: 5.8M
-website: 
+website: http://cryptocurrency-exchange.site
 repository: 
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png

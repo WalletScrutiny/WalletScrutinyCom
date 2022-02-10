@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: org.slimmybtc.invest.in.cryptocurrency
+appCountry: 
 released: 2021-07-18
 updated: 2021-07-18
 version: "1.0"

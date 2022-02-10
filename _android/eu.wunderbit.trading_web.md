@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: eu.wunderbit.trading_web
+appCountry: 
 released: 2021-01-19
 updated: 2021-01-19
 version: "1.0.0"
-stars: 3
-ratings: 37
-reviews: 23
+stars: 0.0
+ratings: 
+reviews: 
 size: 15M
 website: https://trading.wunderbit.co/en
 repository: 

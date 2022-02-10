@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinsuper.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-17**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

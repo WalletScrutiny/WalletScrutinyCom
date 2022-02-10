@@ -6,14 +6,15 @@ authors:
 - danny
 users: 500000
 appId: com.blockfi.mobile
+appCountry: 
 released: 2020-04-30
-updated: 2022-01-20
-version: "5.0.2"
-stars: 3.5
-ratings: 3612
-reviews: 1753
+updated: 2022-01-31
+version: "5.1.0"
+stars: 4.3
+ratings: 4725
+reviews: 1308
 size: 11M
-website: https://blockfi.com
+website: https://blockfi.com/
 repository: 
 issue: 
 icon: com.blockfi.mobile.png

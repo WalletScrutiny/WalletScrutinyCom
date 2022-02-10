@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitmex.mobile.android
+appCountry: il
 released: 2020-07-20
 updated: 2022-01-05
 version: "1.1.13"
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.bitmex.mobile.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -32,6 +33,8 @@ providerReddit: BitMEX
 redirect_from:
 
 ---
+
+**Update 2022-02-02**: This app is not in store anymore.
 
 ## App Description
 

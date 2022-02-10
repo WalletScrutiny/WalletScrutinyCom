@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: xfolio.android.app
+appCountry: 
 released: 2019-02-13
 updated: 2020-03-08
 version: "1.4.2"
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: xfolio.android.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-09-01
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -32,4 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-20**: This app is not available anymore.
 

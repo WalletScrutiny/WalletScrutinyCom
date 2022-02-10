@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: xeliuqa.com
+appCountry: 
 released: 2021-01-29
 updated: 2021-05-11
 version: "1.8"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 6.5M
-website: 
+website: https://xeliuqa.app
 repository: 
 issue: 
 icon: xeliuqa.com.png

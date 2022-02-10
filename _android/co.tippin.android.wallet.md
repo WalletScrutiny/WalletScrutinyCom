@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: co.tippin.android.wallet
+appCountry: 
 released: 
 updated: 2019-10-22
 version: "Varies with device"

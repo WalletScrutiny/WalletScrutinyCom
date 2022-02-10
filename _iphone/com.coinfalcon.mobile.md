@@ -8,11 +8,11 @@ appId: com.coinfalcon.mobile
 appCountry: 
 idd: 1396963260
 released: 2018-10-05
-updated: 2021-02-09
-version: "2.1.13"
+updated: 2022-02-02
+version: "2.1.14"
 stars: 3
 reviews: 15
-size: 52423680
+size: 52341760
 website: https://coinfalcon.com
 repository: 
 issue: 

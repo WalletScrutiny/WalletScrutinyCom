@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.profittrading.forhuobi
+appCountry: 
 released: 2018-11-21
 updated: 2021-12-03
 version: "3.0.2"
-stars: 4.1
-ratings: 20
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 23M
 website: https://profittradingapp.com/
 repository: 

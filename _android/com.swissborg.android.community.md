@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.swissborg.android.community
+appCountry: ch
 released: 2019-03-27
 updated: 2022-01-10
 version: "2.3.0"
-stars: 3.8
-ratings: 6551
-reviews: 3468
+stars: 4.3
+ratings: 6964
+reviews: 176
 size: 20M
-website: https://swissborg.com/
+website: https://cryptochallenge.app/
 repository: 
 issue: 
 icon: com.swissborg.android.community.png

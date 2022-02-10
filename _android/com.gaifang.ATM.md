@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.gaifang.ATM
+appCountry: 
 released: 2021-05-10
 updated: 2021-09-18
 version: "1.1.20"

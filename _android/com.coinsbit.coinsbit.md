@@ -6,14 +6,15 @@ authors:
 
 users: 100000
 appId: com.coinsbit.coinsbit
+appCountry: 
 released: 2019-10-28
 updated: 2019-11-27
 version: "1.0"
-stars: 2.2
-ratings: 1678
-reviews: 1206
+stars: 2.3
+ratings: 1826
+reviews: 32
 size: 16M
-website: 
+website: https://coinsbit.io/
 repository: 
 issue: 
 icon: com.coinsbit.coinsbit.png

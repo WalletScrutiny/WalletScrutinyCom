@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.paxful.wallet
+appCountry: 
 released: 2019-04-30
-updated: 2022-01-20
-version: "2.8.0.649"
-stars: 3.4
-ratings: 20319
-reviews: 11811
+updated: 2022-01-28
+version: "2.8.2.651"
+stars: 3.2
+ratings: 21345
+reviews: 1630
 size: 28M
-website: https://paxful.com/mobile-wallet-app
+website: https://Paxful.com
 repository: 
 issue: 
 icon: com.paxful.wallet.png

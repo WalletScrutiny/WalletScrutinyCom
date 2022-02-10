@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000000
 appId: com.coindcx.btc
+appCountry: 
 released: 2020-12-09
-updated: 2022-01-24
-version: "3.4.002"
-stars: 3.9
-ratings: 156076
-reviews: 41639
+updated: 2022-02-03
+version: "3.5.007"
+stars: 4.5
+ratings: 217006
+reviews: 364
 size: 68M
-website: https://coindcx.com/
+website: https://go.coindcx.com/
 repository: 
 issue: 
 icon: com.coindcx.btc.png

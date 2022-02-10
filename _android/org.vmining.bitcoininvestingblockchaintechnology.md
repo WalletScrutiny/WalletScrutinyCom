@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.vmining.bitcoininvestingblockchaintechnology
+appCountry: 
 released: 2020-11-12
 updated: 2020-11-12
 version: "1.0"

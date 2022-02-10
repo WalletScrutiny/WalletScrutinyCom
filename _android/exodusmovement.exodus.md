@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: exodusmovement.exodus
+appCountry: 
 released: 2019-06-06
-updated: 2022-01-14
-version: "22.1.13"
-stars: 4.6
-ratings: 74199
-reviews: 22796
-size: 51M
-website: https://www.exodus.io/mobile
+updated: 2022-01-28
+version: "22.1.27"
+stars: 4.5
+ratings: 80716
+reviews: 5625
+size: 52M
+website: https://exodus.com/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png

@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: com.cryptoidlemine.bitcoin.investor
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"

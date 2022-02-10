@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50
 appId: com.murextrivium.walletapp
+appCountry: 
 released: 2018-09-22
 updated: 2018-09-23
 version: "1.2"

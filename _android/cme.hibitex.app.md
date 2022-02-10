@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: cme.hibitex.app
+appCountry: 
 released: 2018-11-13
 updated: 2018-11-14
 version: "1.02"

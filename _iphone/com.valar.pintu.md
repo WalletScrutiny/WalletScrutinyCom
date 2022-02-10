@@ -8,11 +8,11 @@ appId: com.valar.pintu
 appCountry: us
 idd: 1494119678
 released: 2020-01-27
-updated: 2022-01-02
-version: "3.9.7"
-stars: 4.65385
-reviews: 52
-size: 55890944
+updated: 2022-01-30
+version: "3.10.1"
+stars: 4.59999
+reviews: 55
+size: 55550976
 website: https://pintu.co.id/
 repository: 
 issue: 

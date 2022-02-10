@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.starclicksapp.starclicks
+appCountry: 
 released: 2021-04-28
 updated: 2021-04-28
 version: "1.0"

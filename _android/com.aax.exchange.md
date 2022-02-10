@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.aax.exchange
+appCountry: 
 released: 2019-03-04
-updated: 2022-01-12
-version: "3.2.1"
-stars: 4
-ratings: 2649
-reviews: 968
-size: 61M
-website: https://www.aax.com
+updated: 2022-02-01
+version: "3.2.4"
+stars: 3.8
+ratings: 3176
+reviews: 50
+size: 62M
+website: https://www.aax.com/
 repository: 
 issue: 
 icon: com.aax.exchange.png

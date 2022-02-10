@@ -4,16 +4,17 @@ title: "BitalGo Multi Wallet"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: com.bitalgopayment.android
+appCountry: 
 released: 2020-09-10
 updated: 2020-09-10
 version: "1.0.0"
-stars: 3.7
-ratings: 79
-reviews: 50
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.1M
-website: 
+website: https://www.bitalgopayment.com
 repository: 
 issue: 
 icon: com.bitalgopayment.android.png

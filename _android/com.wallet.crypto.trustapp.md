@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000000
 appId: com.wallet.crypto.trustapp
+appCountry: 
 released: 2017-10-01
-updated: 2022-01-23
-version: "5.7"
+updated: 2022-01-26
+version: "5.9"
 stars: 4.5
-ratings: 657627
-reviews: 115798
+ratings: 810847
+reviews: 9534
 size: 34M
-website: https://trustwallet.com
+website: https://trustwallet.com/
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png

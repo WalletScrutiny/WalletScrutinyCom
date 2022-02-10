@@ -6,13 +6,14 @@ authors:
 - leo
 users: 5000000
 appId: asia.coins.mobile
+appCountry: 
 released: 2014-10-01
-updated: 2022-01-25
-version: "4.0.5"
-stars: 4
-ratings: 106653
-reviews: 46093
-size: 40M
+updated: 2022-01-31
+version: "4.0.8"
+stars: 3.8
+ratings: 109076
+reviews: 448
+size: 39M
 website: https://coins.ph
 repository: 
 issue: 

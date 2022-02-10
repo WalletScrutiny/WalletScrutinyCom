@@ -6,13 +6,14 @@ authors:
 - danny
 users: 10000
 appId: com.blockin.wallet
+appCountry: us
 released: 2020-03-23
-updated: 2022-01-13
-version: "2.2.8"
-stars: 4.1
-ratings: 208
-reviews: 97
-size: 54M
+updated: 2022-01-27
+version: "2.2.9"
+stars: 3.6
+ratings: 222
+reviews: 12
+size: 57M
 website: https://poolin.fi/
 repository: 
 issue: 

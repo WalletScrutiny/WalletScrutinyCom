@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.coinsecure.wallet
+appCountry: 
 released: 2021-09-22
 updated: 2021-09-22
 version: "1.0"

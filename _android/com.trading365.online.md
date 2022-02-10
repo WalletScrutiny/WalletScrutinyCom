@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.trading365.online
+appCountry: 
 released: 2019-08-29
 updated: 2019-08-29
 version: "1.5.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 29M

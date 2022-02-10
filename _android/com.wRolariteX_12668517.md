@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.wRolariteX_12668517
+appCountry: 
 released: 2021-09-08
 updated: 2021-09-09
 version: "1.0.58"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 12M
-website: 
+website: https://www.bitcoin.rolarite.com
 repository: 
 issue: 
 icon: com.wRolariteX_12668517.jpg

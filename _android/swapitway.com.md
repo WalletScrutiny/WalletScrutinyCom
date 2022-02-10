@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: swapitway.com
+appCountry: 
 released: 2021-08-28
 updated: 2021-08-28
 version: "4.5"

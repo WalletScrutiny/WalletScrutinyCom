@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.unodax.exchange
+appCountry: us
 released: 2018-04-04
 updated: 2021-06-16
 version: "2.5.7"
-stars: 3.9
-ratings: 948
-reviews: 571
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
 website: https://www.unodax.com
 repository: 

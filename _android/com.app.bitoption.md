@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.app.bitoption
+appCountry: 
 released: 2020-08-19
 updated: 2020-09-09
 version: "1.1.8"
-stars: 5
-ratings: 5
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.7M
-website: 
+website: https://www.bitoption.app/client/
 repository: 
 issue: 
 icon: com.app.bitoption.png

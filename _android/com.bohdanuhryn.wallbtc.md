@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.bohdanuhryn.wallbtc
+appCountry: 
 released: 2016-09-28
 updated: 2017-11-04
 version: "2.0.1"
-stars: 3.8
-ratings: 359
-reviews: 284
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.1M
-website: 
+website: http://wallbtc.com
 repository: 
 issue: 
 icon: com.bohdanuhryn.wallbtc.png

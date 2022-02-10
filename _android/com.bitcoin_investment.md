@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: com.bitcoin_investment
+appCountry: 
 released: 2019-08-10
 updated: 2019-08-10
 version: "1.0"
-stars: 4.2
-ratings: 5
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.1M
 website: 
 repository: 

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: app.coingram
+appCountry: 
 released: 2019-07-02
 updated: 2021-12-11
 version: "3.1.1"
-stars: 4.7
-ratings: 43686
-reviews: 24528
+stars: 4.8
+ratings: 43970
+reviews: 1155
 size: 25M
-website: 
+website: http://www.coingraam.com/
 repository: 
 issue: 
 icon: app.coingram.png

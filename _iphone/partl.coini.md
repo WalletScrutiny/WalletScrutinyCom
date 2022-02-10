@@ -10,8 +10,8 @@ idd: 1563051934
 released: 2021-04-21
 updated: 2021-11-30
 version: "2.3.6"
-stars: 4.59999
-reviews: 10
+stars: 4.63636
+reviews: 11
 size: 61514752
 website: https://timopartl.com
 repository: 

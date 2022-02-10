@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: org.missmonacoin.monya
+appCountry: 
 released: 2018-01-02
 updated: 2021-12-14
 version: "3.10.5"
-stars: 4.3
-ratings: 99
-reviews: 48
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.4M
-website: https://monya-wallet.github.io/
+website: https://monya-wallet.github.io
 repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png

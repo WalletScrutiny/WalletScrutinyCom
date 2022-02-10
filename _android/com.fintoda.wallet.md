@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.fintoda.wallet
+appCountry: 
 released: 
 updated: 2021-08-02
 version: "Varies with device"

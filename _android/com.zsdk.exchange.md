@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.zsdk.exchange
+appCountry: 
 released: 2019-01-18
 updated: 2021-09-29
 version: "3.1.1"
-stars: 3
-ratings: 179
-reviews: 109
+stars: 1.9
+ratings: 182
+reviews: 45
 size: 51M
-website: https://www.zbg.com/
+website: https://www.zbg.com
 repository: 
 issue: 
 icon: com.zsdk.exchange.png

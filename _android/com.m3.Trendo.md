@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.m3.Trendo
+appCountry: in
 released: 2020-08-20
 updated: 2021-09-25
 version: "2.5.42"

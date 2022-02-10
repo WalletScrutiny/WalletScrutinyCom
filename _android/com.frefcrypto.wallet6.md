@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.frefcrypto.wallet6
+appCountry: 
 released: 2021-09-10
 updated: 2021-09-10
 version: "1"

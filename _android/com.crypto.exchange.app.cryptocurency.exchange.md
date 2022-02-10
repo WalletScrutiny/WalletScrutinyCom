@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.crypto.exchange.app.cryptocurency.exchange
+appCountry: 
 released: 2021-04-23
 updated: 2021-04-23
 version: "1.0"
 stars: 4.6
-ratings: 218
-reviews: 196
+ratings: 220
+reviews: 188
 size: 5.7M
-website: 
+website: http://crypto-exchange.club
 repository: 
 issue: 
 icon: com.crypto.exchange.app.cryptocurency.exchange.png

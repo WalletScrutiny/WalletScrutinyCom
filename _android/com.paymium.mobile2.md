@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.paymium.mobile2
-released: 
+appCountry: us
+released: 2018-09-24
 updated: 2021-12-13
 version: "3.1"
-stars: 3.4
-ratings: 196
-reviews: 126
+stars: 0.0
+ratings: 
+reviews: 
 size: 79M
-website: https://www.paymium.com/
+website: http://paymium.com
 repository: 
 issue: 
 icon: com.paymium.mobile2.png

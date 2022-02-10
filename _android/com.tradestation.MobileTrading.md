@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.tradestation.MobileTrading
+appCountry: us
 released: 2013-09-09
 updated: 2022-01-20
-version: "4.19.16"
-stars: 4.2
-ratings: 4407
-reviews: 1891
+version: "5.0.1"
+stars: 3.8
+ratings: 4749
+reviews: 1452
 size: 15M
-website: https://www.tradestation.com/
+website: http://tradestation.com/contact-us/
 repository: 
 issue: 
 icon: com.tradestation.MobileTrading.png

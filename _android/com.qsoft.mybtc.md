@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.qsoft.mybtc
+appCountry: 
 released: 2021-06-05
 updated: 2021-06-05
 version: "1.0.0"
-stars: 4.2
-ratings: 46
-reviews: 36
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.5M
-website: https://mybtc.ng/
+website: https://mybtc.ng
 repository: 
 issue: 
 icon: com.qsoft.mybtc.png

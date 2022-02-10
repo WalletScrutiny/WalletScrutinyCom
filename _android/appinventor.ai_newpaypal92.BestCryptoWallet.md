@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: appinventor.ai_newpaypal92.BestCryptoWallet
+appCountry: 
 released: 2021-12-28
 updated: 2021-12-28
 version: "1.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 3.2M

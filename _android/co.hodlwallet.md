@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: co.hodlwallet
+appCountry: 
 released: 2018-09-24
 updated: 2020-05-18
 version: "3.3.5"
-stars: 3.7
+stars: 3.8
 ratings: 121
-reviews: 64
+reviews: 39
 size: 12M
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android

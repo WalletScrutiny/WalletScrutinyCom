@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.github.ontio.onto
+appCountry: us
 released: 2018-06-27
-updated: 2022-01-24
-version: "4.1.8"
-stars: 4.3
-ratings: 973
-reviews: 663
+updated: 2022-01-29
+version: "4.1.9"
+stars: 3.8
+ratings: 1133
+reviews: 66
 size: 149M
-website: https://www.onto.app
+website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO
 issue: 
 icon: com.github.ontio.onto.png

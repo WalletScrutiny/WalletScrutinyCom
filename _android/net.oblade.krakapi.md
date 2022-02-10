@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: net.oblade.krakapi
+appCountry: 
 released: 2019-08-09
-updated: 2021-12-22
-version: "2.5.1"
-stars: 4.4
-ratings: 512
-reviews: 230
+updated: 2022-01-26
+version: "2.5.2"
+stars: 4.2
+ratings: 530
+reviews: 14
 size: 7.5M
-website: http://krakapi.oblade.net/
+website: http://www.oblade.net
 repository: 
 issue: 
 icon: net.oblade.krakapi.png

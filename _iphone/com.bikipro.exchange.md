@@ -10,8 +10,8 @@ idd: 1470204749
 released: 2019-07-09
 updated: 2021-07-22
 version: "4.9.2"
-stars: 3.73913
-reviews: 23
+stars: 3.4375
+reviews: 16
 size: 109472768
 website: https://www.biki.cc/
 repository: 

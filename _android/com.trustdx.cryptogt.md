@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.trustdx.cryptogt
+appCountry: 
 released: 2021-07-02
 updated: 2021-08-13
 version: "3.0"

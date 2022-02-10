@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.xcoex.mobile
+appCountry: 
 released: 2019-01-17
 updated: 2021-12-23
 version: "1.22.0"
-stars: 3.6
-ratings: 158
-reviews: 127
+stars: 3.0
+ratings: 159
+reviews: 6
 size: 37M
 website: https://xcoex.com/
 repository: 

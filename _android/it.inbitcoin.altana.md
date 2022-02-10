@@ -7,12 +7,13 @@ authors:
 - leo
 users: 1000
 appId: it.inbitcoin.altana
+appCountry: 
 released: 2017-04-18
 updated: 2021-10-14
 version: "Varies with device"
-stars: 4.2
-ratings: 49
-reviews: 24
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android

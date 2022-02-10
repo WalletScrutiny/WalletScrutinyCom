@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.anbbit.exchange
+appCountry: 
 released: 2020-10-16
 updated: 2020-12-31
 version: "1.1.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 14M
-website: 
+website: https://anbbit.com
 repository: 
 issue: 
 icon: com.anbbit.exchange.png

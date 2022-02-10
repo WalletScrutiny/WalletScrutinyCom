@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.openwallet.wallet.dev
+appCountry: 
 released: 
 updated: 2017-09-18
 version: "v1.0.1"

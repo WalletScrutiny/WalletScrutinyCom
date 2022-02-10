@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.bitpay.checkout
+appCountry: 
 released: 2014-11-03
 updated: 2020-08-11
 version: "1.2.5"

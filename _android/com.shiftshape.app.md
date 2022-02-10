@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.shiftshape.app
+appCountry: 
 released: 2021-08-04
 updated: 2021-08-04
 version: "1.0.0"

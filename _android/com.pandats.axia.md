@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.pandats.axia
+appCountry: il
 released: 2020-11-16
 updated: 2021-12-07
 version: "1.0.44"
-stars: 2.8
-ratings: 662
-reviews: 560
+stars: 5.0
+ratings: 735
+reviews: 2
 size: 22M
-website: https://axiainvestments.com/
+website: https://www.axiainvestments.com/
 repository: 
 issue: 
 icon: com.pandats.axia.png

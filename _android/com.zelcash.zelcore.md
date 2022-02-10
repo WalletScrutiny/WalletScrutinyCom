@@ -6,14 +6,15 @@ authors:
 - leo
 users: 50000
 appId: com.zelcash.zelcore
+appCountry: 
 released: 2018-09-21
-updated: 2022-01-13
-version: "5.10.1"
-stars: 3.6
-ratings: 712
-reviews: 506
+updated: 2022-02-01
+version: "5.11.0"
+stars: 4.1
+ratings: 814
+reviews: 96
 size: 18M
-website: https://zel.network/project/zelcore
+website: https://zelcore.io
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png

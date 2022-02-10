@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.bitzapp
+appCountry: 
 released: 2020-03-15
 updated: 2020-08-11
 version: "1.5"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 23M

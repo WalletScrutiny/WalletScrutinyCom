@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.XcelTrip.XcelPay
+appCountry: 
 released: 2019-05-30
 updated: 2022-01-22
 version: "2.61.3"
-stars: 4
-ratings: 3513
-reviews: 1770
+stars: 4.6
+ratings: 3695
+reviews: 71
 size: 33M
 website: http://www.xcelpay.io
 repository: 

@@ -6,12 +6,13 @@ authors:
 
 users: 50000
 appId: com.coinbase.wallite
+appCountry: 
 released: 2019-04-16
 updated: 2020-07-17
 version: "0.5-alpha"
 stars: 3.8
-ratings: 343
-reviews: 221
+ratings: 372
+reviews: 13
 size: 6.7M
 website: https://wallet.coinbase.com
 repository: 

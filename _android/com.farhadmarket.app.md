@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.farhadmarket.app
+appCountry: 
 released: 2019-07-08
 updated: 2021-12-05
 version: "1.9.124"
-stars: 4.4
-ratings: 998
-reviews: 343
+stars: 4.0
+ratings: 1029
+reviews: 14
 size: 11M
 website: https://farhadmarket.com/
 repository: 

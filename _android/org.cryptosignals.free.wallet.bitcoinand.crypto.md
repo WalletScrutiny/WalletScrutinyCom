@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: org.cryptosignals.free.wallet.bitcoinand.crypto
+appCountry: 
 released: 2021-06-19
 updated: 2021-06-19
 version: "1.0"

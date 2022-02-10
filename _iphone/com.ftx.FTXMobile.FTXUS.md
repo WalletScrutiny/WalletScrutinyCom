@@ -8,11 +8,11 @@ appId: com.ftx.FTXMobile.FTXUS
 appCountry: us
 idd: 1512655474
 released: 2020-05-21
-updated: 2021-11-29
-version: "1.1.7"
-stars: 3.64545
-reviews: 220
-size: 45819904
+updated: 2022-01-28
+version: "1.1.8"
+stars: 3.57269
+reviews: 227
+size: 70455296
 website: 
 repository: 
 issue: 

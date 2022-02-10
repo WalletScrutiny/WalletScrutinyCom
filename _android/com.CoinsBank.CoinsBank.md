@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.CoinsBank.CoinsBank
+appCountry: 
 released: 2016-04-03
 updated: 2020-12-30
 version: "3.5.4"
-stars: 3.5
-ratings: 261
-reviews: 136
+stars: 3.7
+ratings: 266
+reviews: 10
 size: 18M
-website: https://coinsbank.com/
+website: https://www.coinsbank.com
 repository: 
 issue: 
 icon: com.CoinsBank.CoinsBank.png

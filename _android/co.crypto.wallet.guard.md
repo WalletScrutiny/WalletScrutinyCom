@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: co.crypto.wallet.guard
+appCountry: 
 released: 2021-05-07
 updated: 2021-05-07
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 2.6M

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.alsoft.bitcoinlocal
+appCountry: 
 released: 2018-02-15
 updated: 2021-02-28
 version: "4.1"
-stars: 4
-ratings: 23
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.7M
 website: 
 repository: 

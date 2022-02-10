@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.plutus.wallet
+appCountry: 
 released: 2015-03-04
-updated: 2022-01-20
+updated: 2022-02-01
 version: "Varies with device"
-stars: 4.5
-ratings: 28043
-reviews: 8481
+stars: 4.2
+ratings: 40705
+reviews: 2521
 size: Varies with device
-website: https://www.abra.com
+website: https://www.abra.com/
 repository: 
 issue: 
 icon: com.plutus.wallet.png

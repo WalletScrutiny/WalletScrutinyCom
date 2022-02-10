@@ -1,0 +1,29 @@
+short: No Binary
+title: No Binary provided
+color: '#4da84d'
+redflag: false
+message: This product comes without a binary.
+question: Does this product come with a binary?
+details: >
+  If the product is run from the source code using an interpreted language or
+  the user is required to compile the binary himself, transparency is given in
+  that the provided source code is what runs on the product.
+  
+  
+  This does not mean we audited the code but any reviews of the public code are
+  immediately relevant for the security of the product.
+
+
+  If the provider puts your funds at
+  risk on purpose or by accident, security researchers can see this if they
+  care to look.
+  A scammer would have to work under the potential eyes
+  of security researchers. He would have to take more effort in hiding any
+  exploit.
+  
+  
+  **There is good reason to believe
+  that security researchers as of today would not detect very blatant
+  backdoors in the public source code before it gets exploited**, much less if
+  the attacker takes moderate efforts to hide it. This is especially true for
+  less popular projects.

@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: zibi.breakbitcoin
+appCountry: 
 released: 2021-03-17
 updated: 2021-03-17
 version: "2.00"
-stars: 3.8
-ratings: 16
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 299M
 website: 
 repository: 

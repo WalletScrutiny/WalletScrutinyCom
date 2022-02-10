@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: io.cryptosigma.finance
+appCountry: 
 released: 2021-07-26
 updated: 2021-10-02
 version: "1.0.3"
-stars: 4.3
-ratings: 6
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 46M
 website: 
 repository: 

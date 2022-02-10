@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: global.bitex.bitexpay.android
+appCountry: 
 released: 2020-09-10
 updated: 2020-11-15
 version: "1.1.0"
-stars: 4.1
-ratings: 13
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.3M
-website: 
+website: https://www.ezbitex.io/en_US/
 repository: 
 issue: 
 icon: global.bitex.bitexpay.android.png

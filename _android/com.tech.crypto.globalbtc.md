@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.tech.crypto.globalbtc
+appCountry: 
 released: 2017-12-26
 updated: 2018-07-03
 version: "1.9"

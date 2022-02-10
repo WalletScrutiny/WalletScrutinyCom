@@ -6,13 +6,14 @@ authors:
 - danny
 users: 1000
 appId: com.riodefi.store
+appCountry: us
 released: 2021-04-29
-updated: 2022-01-11
-version: "2.2.0"
-stars: 4.4
-ratings: 42
-reviews: 29
-size: 51M
+updated: 2022-01-25
+version: "2.3.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 21M
 website: https://riodefi.com/
 repository: https://github.com/riodefi
 issue: 

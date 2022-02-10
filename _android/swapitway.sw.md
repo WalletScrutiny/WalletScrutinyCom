@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: swapitway.sw
+appCountry: 
 released: 2021-02-10
 updated: 2021-02-21
 version: "2.5"

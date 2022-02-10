@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: io.mahfazah
+appCountry: 
 released: 2018-09-19
 updated: 2018-11-22
 version: "1.2.6"
-stars: 4.4
-ratings: 32
-reviews: 15
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
-website: 
+website: http://www.cryptocurrencysolutions.io
 repository: 
 issue: 
 icon: io.mahfazah.png

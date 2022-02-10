@@ -6,14 +6,15 @@ authors:
 
 users: 100000
 appId: com.cindicator
+appCountry: 
 released: 2016-12-28
 updated: 2019-09-30
 version: "3.0.10"
-stars: 3.1
-ratings: 1685
-reviews: 747
+stars: 4.1
+ratings: 1690
+reviews: 134
 size: 12M
-website: 
+website: http://cindicator.com
 repository: 
 issue: 
 icon: com.cindicator.png

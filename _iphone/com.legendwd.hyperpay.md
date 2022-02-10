@@ -8,11 +8,11 @@ appId: com.legendwd.hyperpay
 appCountry: us
 idd: 1354755812
 released: 2018-09-29
-updated: 2022-01-14
-version: "4.1.21"
-stars: 4.73723
-reviews: 274
-size: 285894656
+updated: 2022-01-28
+version: "4.1.23"
+stars: 4.6791
+reviews: 268
+size: 285169664
 website: https://hyperpay.tech
 repository: 
 issue: 

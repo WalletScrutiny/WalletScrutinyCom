@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.matrixport.bit
+appCountry: 
 released: 2021-03-15
 updated: 2022-01-10
 version: "1.0.3"
-stars: 4.9
-ratings: 231
-reviews: 217
+stars: 0.0
+ratings: 
+reviews: 
 size: 56M
-website: https://www.bit.com/
+website: https://www.bit.com
 repository: 
 issue: 
 icon: com.matrixport.bit.png

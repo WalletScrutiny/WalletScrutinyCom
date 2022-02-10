@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.cryptoidlemine.fake.bitcoin.investor
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"

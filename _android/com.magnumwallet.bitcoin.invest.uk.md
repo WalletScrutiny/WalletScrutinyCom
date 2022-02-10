@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: com.magnumwallet.bitcoin.invest.uk
+appCountry: 
 released: 2021-07-18
 updated: 2021-07-18
 version: "1.0"

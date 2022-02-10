@@ -6,12 +6,13 @@ authors:
 - leo
 users: 500000
 appId: com.probit.app.android2.release.global
+appCountry: 
 released: 2019-06-19
-updated: 2021-12-20
-version: "1.37.2"
-stars: 3.3
-ratings: 5647
-reviews: 3421
+updated: 2022-02-09
+version: "1.37.4"
+stars: 2.7
+ratings: 6108
+reviews: 239
 size: 20M
 website: https://www.probit.com
 repository: 

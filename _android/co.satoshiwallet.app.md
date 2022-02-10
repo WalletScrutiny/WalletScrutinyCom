@@ -6,12 +6,13 @@ authors:
 
 users: 1000
 appId: co.satoshiwallet.app
+appCountry: 
 released: 2019-08-16
 updated: 2020-01-17
 version: "2.1.3"
-stars: 3.5
-ratings: 17
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: https://satoshipoint.io
 repository: https://github.com/SatoshiWallet/ui

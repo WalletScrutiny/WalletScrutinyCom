@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.stash.wallet
+appCountry: 
 released: 
 updated: 2018-12-03
 version: "Varies with device"

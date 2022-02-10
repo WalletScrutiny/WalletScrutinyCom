@@ -6,12 +6,13 @@ authors:
 - danny
 users: 50000
 appId: com.vouchermoneywallet
+appCountry: in
 released: 2020-12-15
 updated: 2021-03-03
 version: "1.38.1"
-stars: 4.5
-ratings: 839
-reviews: 232
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
 website: https://vouchermoney.com/
 repository: 

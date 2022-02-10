@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.alvexo
+appCountry: gb
 released: 2018-07-13
 updated: 2021-12-03
 version: "3.0.52"
-stars: 3.9
-ratings: 710
-reviews: 351
+stars: 4.0
+ratings: 805
+reviews: 17
 size: 48M
-website: https://www.alvexo.com/
+website: https://www.alvexo.com
 repository: 
 issue: 
 icon: com.alvexo.png

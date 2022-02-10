@@ -6,14 +6,15 @@ authors:
 
 users: 5000
 appId: com.foxtrading.fox
+appCountry: 
 released: 2018-05-14
 updated: 2019-05-08
 version: "0.7.11"
-stars: 3.9
-ratings: 36
-reviews: 22
+stars: 3.3
+ratings: 38
+reviews: 6
 size: 24M
-website: 
+website: https://foxtrading.io
 repository: 
 issue: 
 icon: com.foxtrading.fox.png

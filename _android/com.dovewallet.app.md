@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.dovewallet.app
+appCountry: 
 released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
-stars: 3.5
-ratings: 43
-reviews: 28
+stars: 3.3
+ratings: 52
+reviews: 4
 size: 29M
-website: https://dovewallet.com/en
+website: https://dovewallet.com
 repository: 
 issue: 
 icon: com.dovewallet.app.png

@@ -8,12 +8,13 @@ authors:
 - emanuel
 users: 1000
 appId: com.rsk.rwallet.v2
+appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
 version: "2.0.1"
-stars: 3.5
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 36M
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet

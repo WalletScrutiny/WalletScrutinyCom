@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.paybis
+appCountry: 
 released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
-stars: 3.4
-ratings: 56
-reviews: 31
+stars: 2.9
+ratings: 155
+reviews: 10
 size: 6.1M
-website: https://paybis.com
+website: https://paybis.com/contacts/
 repository: 
 issue: 
 icon: com.paybis.png

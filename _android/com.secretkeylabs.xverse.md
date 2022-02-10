@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.secretkeylabs.xverse
+appCountry: cn
 released: 2021-10-12
 updated: 2022-01-20
 version: "1.2.0"
-stars: 
-ratings: 
-reviews: 
+stars: 4.1
+ratings: 33
+reviews: 14
 size: 13M
-website: https://www.xverse.app
+website: http://www.secretkeylabs.com
 repository: 
 issue: 
 icon: com.secretkeylabs.xverse.png

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.e.tswallet
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"

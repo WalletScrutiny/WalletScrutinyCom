@@ -6,12 +6,13 @@ authors:
 
 users: 10000
 appId: org.electroncash.wallet
+appCountry: 
 released: 2018-12-08
 updated: 2021-10-03
 version: "4.2.5-5"
-stars: 4.1
-ratings: 174
-reviews: 82
+stars: 4.2
+ratings: 187
+reviews: 10
 size: 36M
 website: https://electroncash.org
 repository: 

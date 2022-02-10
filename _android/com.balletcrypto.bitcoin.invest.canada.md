@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.balletcrypto.bitcoin.invest.canada
+appCountry: 
 released: 2021-06-20
 updated: 2021-06-20
 version: "1.0"

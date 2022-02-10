@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.papaya.gekkard
+appCountry: mt
 released: 2020-01-30
 updated: 2021-08-19
 version: "1.0.5"
-stars: 2.8
-ratings: 32
-reviews: 17
+stars: 2.6
+ratings: 42
+reviews: 24
 size: 98M
 website: https://gekkoin.com/index.html
 repository: 

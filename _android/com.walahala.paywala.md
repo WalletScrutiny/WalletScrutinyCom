@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.walahala.paywala
+appCountry: 
 released: 2020-02-20
 updated: 2020-07-23
 version: "1.5"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 52M
-website: 
+website: https://walahala.com/payWala
 repository: 
 issue: 
 icon: com.walahala.paywala.png

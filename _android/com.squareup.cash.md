@@ -6,12 +6,13 @@ authors:
 - leo
 users: 50000000
 appId: com.squareup.cash
-released: 
-updated: 2022-01-25
+appCountry: 
+released: 2013-10-15
+updated: 2022-02-07
 version: "Varies with device"
 stars: 4.6
-ratings: 771286
-reviews: 182252
+ratings: 1016951
+reviews: 203990
 size: Varies with device
 website: https://cash.app
 repository: 

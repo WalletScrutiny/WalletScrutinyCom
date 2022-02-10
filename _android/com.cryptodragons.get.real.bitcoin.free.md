@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.cryptodragons.get.real.bitcoin.free
+appCountry: 
 released: 2021-06-19
 updated: 2021-06-19
 version: "1.0"

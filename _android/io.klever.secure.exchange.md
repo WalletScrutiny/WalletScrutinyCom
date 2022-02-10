@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: io.klever.secure.exchange
+appCountry: us
 released: 2021-06-30
-updated: 2022-01-14
-version: "1.0.16"
-stars: 4.1
-ratings: 437
-reviews: 265
+updated: 2022-01-27
+version: "1.0.17"
+stars: 4.0
+ratings: 497
+reviews: 35
 size: 60M
-website: https://klever.io/en/
+website: https://klever.io
 repository: 
 issue: 
 icon: io.klever.secure.exchange.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.arz8x.app.arz8x
+appCountry: 
 released: 2020-05-08
 updated: 2021-10-12
 version: "2.0.3"
-stars: 4.4
-ratings: 1509
-reviews: 855
+stars: 4.1
+ratings: 1689
+reviews: 47
 size: 32M
-website: https://arz8x.com/
+website: https://Arz8x.com
 repository: 
 issue: 
 icon: com.arz8x.app.arz8x.png

@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: wallet.crypto.lucky7.love
+appCountry: 
 released: 2019-10-30
 updated: 2019-11-07
 version: "1.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 1.9M
-website: 
+website: https://www.lucky7.love
 repository: 
 issue: 
 icon: wallet.crypto.lucky7.love.png

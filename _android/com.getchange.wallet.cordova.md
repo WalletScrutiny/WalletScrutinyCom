@@ -7,14 +7,15 @@ authors:
 - danny
 users: 100000
 appId: com.getchange.wallet.cordova
+appCountry: nl
 released: 2018-06-07
-updated: 2022-01-24
-version: "20.0.4"
-stars: 4.3
-ratings: 2565
-reviews: 1136
-size: 32M
-website: https://www.changeinvest.com/
+updated: 2022-01-31
+version: "20.2.1"
+stars: 4.0
+ratings: 2778
+reviews: 22
+size: 33M
+website: https://changeinvest.com
 repository: 
 issue: 
 icon: com.getchange.wallet.cordova.jpg

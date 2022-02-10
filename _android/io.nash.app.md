@@ -1,19 +1,20 @@
 ---
 wsId: nash
-title: "Nash"
+title: "Nash: Save money faster"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: io.nash.app
+appCountry: 
 released: 2019-08-31
-updated: 2022-01-18
-version: "8.1.0"
-stars: 4.1
-ratings: 638
-reviews: 269
-size: 124M
-website: https://nash.io/
+updated: 2022-02-07
+version: "9.0.0"
+stars: 4.6
+ratings: 647
+reviews: 24
+size: 114M
+website: https://nash.io
 repository: 
 issue: 
 icon: io.nash.app.png

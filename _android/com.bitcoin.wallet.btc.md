@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.bitcoin.wallet.btc
+appCountry: 
 released: 2019-05-01
-updated: 2021-12-11
-version: "2.3.7"
-stars: 4.3
-ratings: 5525
-reviews: 1050
-size: 25M
-website: https://bitcoin-wallet.flycricket.io
+updated: 2022-02-07
+version: "2.4.2"
+stars: 4.5
+ratings: 6293
+reviews: 254
+size: 26M
+website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png

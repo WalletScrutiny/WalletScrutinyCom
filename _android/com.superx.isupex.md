@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.superx.isupex
+appCountry: 
 released: 2020-05-02
 updated: 2020-05-02
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 14M
-website: 
+website: https://www.isupex.com
 repository: 
 issue: 
 icon: com.superx.isupex.png

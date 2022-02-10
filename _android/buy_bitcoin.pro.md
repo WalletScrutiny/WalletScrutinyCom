@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: buy_bitcoin.pro
+appCountry: 
 released: 2018-12-09
 updated: 2020-05-19
 version: "1.0.9"
-stars: 4.5
-ratings: 32
-reviews: 27
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.7M
-website: 
+website: https://buy-bitcoin.pro
 repository: 
 issue: 
 icon: buy_bitcoin.pro.png

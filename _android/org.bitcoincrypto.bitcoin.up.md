@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: org.bitcoincrypto.bitcoin.up
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"

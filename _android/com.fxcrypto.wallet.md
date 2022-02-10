@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.fxcrypto.wallet
+appCountry: 
 released: 2019-08-11
 updated: 2019-11-04
 version: "1.0.2"
-stars: 3.5
-ratings: 6
-reviews: 1
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
-website: 
+website: https://forexrobottraders.com/
 repository: 
 issue: 
 icon: com.fxcrypto.wallet.png

@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: org.strayacoin.bsvpos
+appCountry: 
 released: 2019-07-13
 updated: 2021-04-17
 version: "3.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 15M
-website: 
+website: https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 
 icon: org.strayacoin.bsvpos.png

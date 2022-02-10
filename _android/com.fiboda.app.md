@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.fiboda.app
+appCountry: us
 released: 2021-01-14
 updated: 2021-07-08
 version: "1.0.5"
-stars: 4.6
-ratings: 320
-reviews: 32
+stars: 4.5
+ratings: 414
+reviews: 2
 size: 44M
-website: https://www.fiboda.com/
+website: http://www.fiboda.com
 repository: 
 issue: 
 icon: com.fiboda.app.png

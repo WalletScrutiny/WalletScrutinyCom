@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: co.asachs.bitbuddy
+appCountry: 
 released: 2019-09-19
 updated: 2020-09-28
 version: "2.0.1"
-stars: 3.8
-ratings: 57
-reviews: 39
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: 
+website: https://bitbuddy.app
 repository: 
 issue: 
 icon: co.asachs.bitbuddy.png

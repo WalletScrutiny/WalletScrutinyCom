@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: buyor.sell.crypto
+appCountry: 
 released: 2021-06-16
 updated: 2021-06-17
 version: "1.0"

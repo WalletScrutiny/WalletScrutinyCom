@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: io.ebitconics.com
+appCountry: 
 released: 2021-01-18
 updated: 2021-01-18
 version: "0.0.2"
-stars: 4.4
-ratings: 18
-reviews: 15
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.1M
 website: https://www.ebitcoinics.com/
 repository: 

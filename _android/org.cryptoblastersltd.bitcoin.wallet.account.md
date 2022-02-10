@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: org.cryptoblastersltd.bitcoin.wallet.account
+appCountry: 
 released: 2021-06-18
 updated: 2021-06-18
 version: "1.0"

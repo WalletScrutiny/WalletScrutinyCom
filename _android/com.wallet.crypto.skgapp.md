@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.wallet.crypto.skgapp
+appCountry: 
 released: 2019-06-17
 updated: 2019-07-22
 version: "1.4.42"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 48M
-website: 
+website: http://skg-world.com
 repository: 
 issue: 
 icon: com.wallet.crypto.skgapp.png

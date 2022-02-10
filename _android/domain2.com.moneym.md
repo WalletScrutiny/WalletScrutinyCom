@@ -6,10 +6,11 @@ authors:
 
 users: 500
 appId: domain2.com.moneym
+appCountry: 
 released: 2019-06-29
 updated: 2021-05-29
 version: "19.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 4.6M

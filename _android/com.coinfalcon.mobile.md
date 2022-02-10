@@ -6,12 +6,13 @@ authors:
 - leo
 users: 10000
 appId: com.coinfalcon.mobile
+appCountry: 
 released: 2019-07-10
-updated: 2021-02-08
-version: "2.1.13"
-stars: 3
-ratings: 101
-reviews: 69
+updated: 2022-02-07
+version: "2.11.14"
+stars: 2.6
+ratings: 103
+reviews: 8
 size: 64M
 website: https://coinfalcon.com
 repository: 
@@ -20,7 +21,7 @@ icon: com.coinfalcon.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-05-25
+date: 2022-02-09
 signer: 
 reviewArchive:
 

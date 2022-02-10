@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: com.cryptoearningapps.smart.bitcoin.investment
+appCountry: 
 released: 2021-06-29
 updated: 2021-06-29
 version: "1.0"

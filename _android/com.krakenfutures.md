@@ -7,12 +7,13 @@ authors:
 - danny
 users: 10000
 appId: com.krakenfutures
+appCountry: 
 released: 2019-10-07
 updated: 2021-03-24
 version: "5.24.0"
-stars: 3.7
-ratings: 456
-reviews: 293
+stars: 3.5
+ratings: 451
+reviews: 5
 size: 12M
 website: https://futures.kraken.com
 repository: 

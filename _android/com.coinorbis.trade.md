@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.coinorbis.trade
+appCountry: 
 released: 2018-11-05
 updated: 2018-11-22
 version: "2.0.0"

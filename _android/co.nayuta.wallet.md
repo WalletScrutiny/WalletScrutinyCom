@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: co.nayuta.wallet
+appCountry: 
 released: 
 updated: 2019-10-15
 version: "Varies with device"

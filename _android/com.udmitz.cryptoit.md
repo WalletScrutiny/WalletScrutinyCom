@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.udmitz.cryptoit
+appCountry: 
 released: 2021-06-13
 updated: 2021-06-13
 version: "1.1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 61M

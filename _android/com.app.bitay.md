@@ -6,12 +6,13 @@ authors:
 - danny
 users: 100000
 appId: com.app.bitay
+appCountry: us
 released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
-stars: 4.4
-ratings: 5736
-reviews: 3947
+stars: 3.9
+ratings: 5755
+reviews: 12
 size: 3.6M
 website: https://www.bitay.com
 repository: 

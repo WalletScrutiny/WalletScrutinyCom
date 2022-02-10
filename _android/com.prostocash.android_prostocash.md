@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.prostocash.android_prostocash
+appCountry: 
 released: 2021-06-27
 updated: 2021-06-27
 version: "2.0"
-stars: 4.6
-ratings: 5
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.4M
-website: 
+website: https://prostocash.com
 repository: 
 issue: 
 icon: com.prostocash.android_prostocash.png

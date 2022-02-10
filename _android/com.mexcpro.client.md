@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.mexcpro.client
+appCountry: 
 released: 2020-07-23
-updated: 2022-01-18
-version: "3.2.8"
-stars: 4.4
-ratings: 8022
-reviews: 4271
+updated: 2022-02-09
+version: "3.3.1"
+stars: 4.0
+ratings: 12081
+reviews: 419
 size: 114M
-website: https://www.mexc.com/
+website: https://www.mexc.com
 repository: 
 issue: 
 icon: com.mexcpro.client.png

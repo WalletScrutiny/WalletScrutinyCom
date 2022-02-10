@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: com.tro.zor
+appCountry: 
 released: 2021-09-23
 updated: 2021-09-23
 version: "1.0.4"

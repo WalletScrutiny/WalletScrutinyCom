@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.bitmex.quote.lvrggd
+appCountry: 
 released: 2018-09-14
 updated: 2021-07-27
 version: "1.6"
-stars: 4.2
-ratings: 62
-reviews: 45
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.9M
 website: 
 repository: 

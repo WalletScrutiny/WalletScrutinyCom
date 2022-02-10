@@ -21,7 +21,7 @@ const sem = new Semaphore(5)
 const stats = {
   defunct: 0,
   updated: 0,
-  badReply: 0
+  remaining: 0
 }
 
 const allowedHeaders = [
@@ -31,6 +31,7 @@ const allowedHeaders = [
   "authors", // contributors to the analysis
   "users", // platform reported downloads in steps
   "appId", // provider chosen identifier. We use this for the file name, too
+  "appCountry", // if the app is not available in the default country US, we take stats from there
   "released", // gets provided by platform
   "updated", // platform reported latest update
   "version", // platform reported version
@@ -62,7 +63,6 @@ async function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} 🤖 files ...`)
     // HACK: The script fails syncing all apps but maybe if it works for less,
     //       eventually all get updated every now and then ...
     // To have some determinism, the files get sorted by the sha256(file name)
@@ -81,6 +81,8 @@ async function refreshAll() {
           return (hashes[a]).localeCompare(hashes[b])
         })
         .filter((v, i) => {return i % fraction == mod})
+    console.log(`Updating ${files.length} 🤖 files ...`)
+    stats.remaining = files.length
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -100,6 +102,7 @@ function refreshFile(fileName) {
     const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
     const header = yaml.load(headerStr)
     const appId = header.appId
+    const appCountry = header.appCountry || "us"
     for(var i of Object.keys(header)) {
       if(allowedHeaders.indexOf(i) < 0) {
         console.error(`Losing property ${i} in ${appPath}.`)
@@ -110,11 +113,12 @@ function refreshFile(fileName) {
         gplay.app({
             appId: appId,
             lang: 'en',
-            country: 'cl',
+            country: appCountry,
             throttle: 20}).then(app => {
           const iconPath = `images/wallet_icons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             writeResult(app, header, iconExtension, body)
+            stats.remaining--
             release()
           })
         }, (err) => {
@@ -123,6 +127,7 @@ function refreshFile(fileName) {
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
           }
+          stats.remaining--
           release()
         }).catch(err => {
           console.error(err)
@@ -133,6 +138,7 @@ function refreshFile(fileName) {
     } else {
       stats.defunct++
       writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
+      stats.remaining--
       release()
     }
   })
@@ -149,15 +155,8 @@ function getAppFromHeader(header) {
     ratings: header.ratings,
     title: header.title,
     size: header.size,
-    website: header.website
+    developerWebsite: header.website
   }
-}
-
-function noteForLater(app) {
-  weirdBug.push(app)
-  const errorLogFile = fs.createWriteStream(errorLogFileName)
-  errorLogFile.write(`${weirdBug.join(" ")}`)
-  errorLogFile.close()
 }
 
 function writeResult(app, header, iconExtension, body) {
@@ -179,20 +178,7 @@ function writeResult(app, header, iconExtension, body) {
   }
   const reviewArchive = (header.reviewArchive || [])
   const redirects = new Set(header.redirect_from)
-  if (header.stars != "0.0"
-      && app.scoreText == "0.0"
-      || header.reviews
-      && header.reviews > 10
-      && app.reviews < 0.9 * header.reviews) {
-    // the bogus replies only affect scoreText, reviews and ratings. Reset those.
-    app.scoreText = header.stars
-    app.reviews = header.reviews
-    app.ratings = header.ratings
-    noteForLater(header.appId)
-    stats.badReply++
-  } else {
-    stats.updated++
-  }
+  stats.updated++
   var date = header.date
   var meta = header.meta || "ok"
   // retire if needed
@@ -229,6 +215,7 @@ authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
+appCountry: ${header.appCountry || ""}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
 version: "${ version }"
@@ -236,7 +223,7 @@ stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}
 size: ${app.size}
-website: ${app.website || header.website || ""}
+website: ${app.developerWebsite || header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}

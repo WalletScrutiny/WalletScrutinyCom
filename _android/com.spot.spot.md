@@ -6,13 +6,14 @@ authors:
 - leo
 users: 100000
 appId: com.spot.spot
+appCountry: 
 released: 2018-08-02
-updated: 2022-01-24
-version: "4.50.2"
-stars: 4.4
-ratings: 4356
-reviews: 2059
-size: 91M
+updated: 2022-02-07
+version: "4.51.4"
+stars: 4.3
+ratings: 4692
+reviews: 484
+size: 92M
 website: https://www.spot-bitcoin.com
 repository: 
 issue: 

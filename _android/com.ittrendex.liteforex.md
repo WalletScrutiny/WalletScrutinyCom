@@ -1,26 +1,27 @@
 ---
 wsId: 
-title: "LiteFinance investing, trading"
+title: "Investing&Trading"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.ittrendex.liteforex
+appCountry: 
 released: 2017-10-23
-updated: 2021-01-29
-version: "1.4.8"
-stars: 4
-ratings: 903
-reviews: 417
-size: 4.2M
-website: https://www.liteforex.com/
+updated: 2022-01-27
+version: "1.5.0"
+stars: 4.0
+ratings: 1040
+reviews: 15
+size: 4.7M
+website: https://www.liteforex.com
 repository: 
 issue: 
 icon: com.ittrendex.liteforex.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-01-25
+date: 2022-01-31
 signer: 
 reviewArchive:
 

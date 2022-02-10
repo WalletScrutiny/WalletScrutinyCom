@@ -6,21 +6,22 @@ authors:
 - leo
 users: 10000
 appId: app.flitsnode.flits
+appCountry: 
 released: 2019-04-05
 updated: 2021-02-09
 version: "4.4"
-stars: 3.7
-ratings: 2064
-reviews: 1364
+stars: 4.6
+ratings: 2078
+reviews: 70
 size: 14M
 website: https://flitsnode.app
 repository: 
 issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-03-06
+date: 2022-02-05
 signer: 
 reviewArchive:
 

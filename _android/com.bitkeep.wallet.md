@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.bitkeep.wallet
+appCountry: 
 released: 2020-02-11
-updated: 2022-01-22
-version: "6.7.0"
-stars: 4.1
-ratings: 1124
-reviews: 640
+updated: 2022-01-27
+version: "6.7.1"
+stars: 4.4
+ratings: 3473
+reviews: 139
 size: 54M
 website: https://bitkeep.com
 repository: https://github.com/bitkeepcom

@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.digitalstorm.HIVE
+appCountry: 
 released: 2021-06-12
 updated: 2022-01-08
 version: "1.9.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 7.5M
-website: 
+website: https://mtx.digital/
 repository: 
 issue: 
 icon: com.digitalstorm.HIVE.png

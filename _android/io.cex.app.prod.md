@@ -6,12 +6,13 @@ authors:
 - kiwilamb
 users: 1000000
 appId: io.cex.app.prod
+appCountry: 
 released: 2015-12-22
-updated: 2021-12-23
+updated: 2022-02-03
 version: "Varies with device"
-stars: 4.2
-ratings: 15007
-reviews: 9234
+stars: 3.6
+ratings: 16445
+reviews: 1054
 size: Varies with device
 website: https://cex.io
 repository: 

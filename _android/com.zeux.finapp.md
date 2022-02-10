@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.zeux.finapp
+appCountry: gb
 released: 2019-05-22
 updated: 2021-10-07
 version: "2.20.0"
-stars: 3.8
-ratings: 1650
-reviews: 1460
+stars: 4.2
+ratings: 1654
+reviews: 1244
 size: 36M
-website: https://www.zeux.com/
+website: https://www.zeux.com
 repository: 
 issue: 
 icon: com.zeux.finapp.png

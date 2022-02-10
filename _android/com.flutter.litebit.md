@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.flutter.litebit
+appCountry: 
 released: 2019-12-12
 updated: 2022-01-24
-version: "3.2.24"
-stars: 3.6
-ratings: 867
-reviews: 632
-size: 71M
-website: https://www.litebit.eu
+version: "3.3.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 72M
+website: https://www.litebit.eu/
 repository: 
 issue: 
 icon: com.flutter.litebit.png

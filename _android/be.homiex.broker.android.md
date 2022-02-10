@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: be.homiex.broker.android
+appCountry: 
 released: 2021-08-03
 updated: 2021-08-04
 version: "4.1.2"

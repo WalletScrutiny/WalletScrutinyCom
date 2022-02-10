@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: io.xbond.droidapp
+appCountry: 
 released: 2021-08-14
 updated: 2021-10-14
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 15M
-website: 
+website: https://xbond.io
 repository: 
 issue: 
 icon: io.xbond.droidapp.png

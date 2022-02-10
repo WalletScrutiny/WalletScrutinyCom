@@ -4,16 +4,17 @@ title: "BuyBitcoins.App - Peer2Peer Bitcoin Marketplace"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.app.buybitcoins
+appCountry: 
 released: 2021-03-20
 updated: 2021-04-08
 version: "1.3"
-stars: 4.3
-ratings: 25
-reviews: 24
+stars: 0.0
+ratings: 
+reviews: 
 size: 95M
-website: 
+website: https://mobapibbc.buybitcoins.app/
 repository: 
 issue: 
 icon: com.app.buybitcoins.png

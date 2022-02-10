@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
+appCountry: 
 released: 2016-11-15
 updated: 2021-12-06
 version: "Varies with device"
-stars: 3.3
-ratings: 2179
-reviews: 1141
+stars: 3.5
+ratings: 2264
+reviews: 108
 size: Varies with device
-website: https://www.coinpayments.net
+website: https://www.coinpayments.net/
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.png

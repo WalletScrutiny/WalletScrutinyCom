@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: pe.bluemountain419.jungledex
+appCountry: 
 released: 2020-02-11
 updated: 2020-02-20
 version: "1.0.2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 9.0M
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: pe.bluemountain419.jungledex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-02-09
 signer: 
 reviewArchive:
 

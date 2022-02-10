@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: com.twentyfourcfd
+appCountry: 
 released: 2019-09-25
 updated: 2019-09-25
 version: "1.0.14"
-stars: 3
-ratings: 24
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.8M
-website: 
+website: https://www.24cfd.com
 repository: 
 issue: 
 icon: com.twentyfourcfd.png

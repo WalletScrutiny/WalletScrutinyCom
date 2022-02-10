@@ -6,6 +6,7 @@ authors:
 
 users: 0
 appId: crypto.buy.india
+appCountry: 
 released: 2021-06-16
 updated: 2021-06-16
 version: "1.0"

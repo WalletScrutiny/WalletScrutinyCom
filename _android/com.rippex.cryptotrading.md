@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.rippex.cryptotrading
+appCountry: 
 released: 2021-03-13
 updated: 2020-11-23
 version: "1.0"
-stars: 4.9
-ratings: 401
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: 
 repository: 

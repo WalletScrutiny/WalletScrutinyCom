@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.cryptovisacard.buy.crypto.without.kyc
+appCountry: 
 released: 2021-07-26
 updated: 2021-07-26
 version: "1.0"

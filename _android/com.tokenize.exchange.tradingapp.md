@@ -4,14 +4,15 @@ title: "Tokenize Crypto Trading App - International"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.tokenize.exchange.tradingapp
+appCountry: us
 released: 2019-12-03
-updated: 2022-01-18
-version: "1.19.10"
-stars: 3.1
-ratings: 88
-reviews: 51
+updated: 2022-01-27
+version: "1.19.12"
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
 website: https://tokenize.exchange/
 repository: 

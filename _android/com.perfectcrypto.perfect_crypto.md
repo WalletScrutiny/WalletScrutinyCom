@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.perfectcrypto.perfect_crypto
+appCountry: 
 released: 2020-11-09
 updated: 2022-01-25
 version: "1.1.6"
-stars: 4.4
-ratings: 632
-reviews: 372
+stars: 4.7
+ratings: 771
+reviews: 28
 size: 30M
 website: https://perfectcrypto.net/
 repository: 

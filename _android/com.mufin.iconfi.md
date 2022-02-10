@@ -6,12 +6,13 @@ authors:
 - danny
 users: 5000
 appId: com.mufin.iconfi
+appCountry: 
 released: 2021-01-27
 updated: 2022-01-11
 version: "1.0.5"
-stars: 4.5
-ratings: 210
-reviews: 132
+stars: 4.6
+ratings: 217
+reviews: 19
 size: 10.0M
 website: https://www.icon-fi.com/
 repository: 

@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.anwonder.wallet
+appCountry: 
 released: 2021-05-30
 updated: 2021-05-31
 version: "1.0.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 15M
-website: 
+website: https://www.anwonder.com
 repository: 
 issue: 
 icon: com.anwonder.wallet.png

@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000
 appId: com.breez.client
+appCountry: 
 released: 
-updated: 2022-01-23
+updated: 2022-02-09
 version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
 size: Varies with device
-website: https://breez.technology
+website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png

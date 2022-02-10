@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: trade.iqforex
+appCountry: 
 released: 2019-09-09
 updated: 2019-11-26
 version: "1.3.0"

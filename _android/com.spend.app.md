@@ -6,14 +6,15 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.spend.app
+appCountry: 
 released: 2018-08-07
 updated: 2020-07-15
 version: "3.09"
-stars: 3.1
-ratings: 446
-reviews: 250
+stars: 3.6
+ratings: 478
+reviews: 172
 size: 31M
-website: https://www.spend.com/
+website: https://www.spend.com
 repository: 
 issue: 
 icon: com.spend.app.png

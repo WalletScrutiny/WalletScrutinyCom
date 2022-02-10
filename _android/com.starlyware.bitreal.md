@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.starlyware.bitreal
+appCountry: 
 released: 2021-03-29
 updated: 2021-09-04
 version: "1.3.2"

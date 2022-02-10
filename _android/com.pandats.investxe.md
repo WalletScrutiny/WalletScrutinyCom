@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.pandats.investxe
+appCountry: 
 released: 2020-12-09
 updated: 2021-06-10
 version: "1.0.3"
-stars: 3.5
-ratings: 24
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
-website: https://investxe.com/
+website: https://investxe.com
 repository: 
 issue: 
 icon: com.pandats.investxe.png

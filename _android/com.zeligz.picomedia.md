@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.zeligz.picomedia
+appCountry: 
 released: 2019-09-03
 updated: 2020-01-27
 version: "1.6"
-stars: 4.7
-ratings: 14
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: 
+website: https://picomediacoin.com
 repository: 
 issue: 
 icon: com.zeligz.picomedia.png

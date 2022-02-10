@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.wirex
+appCountry: 
 released: 2016-03-31
-updated: 2022-01-10
-version: "3.28.1"
-stars: 3.6
-ratings: 23080
-reviews: 12562
+updated: 2022-02-03
+version: "3.29.2"
+stars: 3.2
+ratings: 26001
+reviews: 943
 size: 183M
-website: https://wirexapp.com/en
+website: https://wirexapp.com
 repository: 
 issue: 
 icon: com.wirex.png

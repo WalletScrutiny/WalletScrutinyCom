@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: app.goodcrypto
+appCountry: 
 released: 2019-05-20
 updated: 2022-01-10
 version: "1.8.4"
-stars: 4.4
-ratings: 908
-reviews: 352
+stars: 4.7
+ratings: 1035
+reviews: 92
 size: 21M
 website: https://goodcrypto.app
 repository: 

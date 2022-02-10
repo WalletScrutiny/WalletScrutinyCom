@@ -7,14 +7,15 @@ authors:
 - danny
 users: 1000000
 appId: com.chippercash
+appCountry: 
 released: 2018-07-07
-updated: 2021-12-10
+updated: 2022-02-08
 version: "1.9.19"
-stars: 4.2
-ratings: 51109
-reviews: 30945
+stars: 4.4
+ratings: 58091
+reviews: 1365
 size: 97M
-website: https://chippercash.com/
+website: https://chippercash.com
 repository: 
 issue: 
 icon: com.chippercash.png

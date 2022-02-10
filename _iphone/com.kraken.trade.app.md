@@ -1,6 +1,6 @@
 ---
 wsId: krakent
-title: "Kraken Pro"
+title: "Kraken Pro: Crypto Trading"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.kraken.trade.app
 appCountry: 
 idd: 1473024338
 released: 2019-11-12
-updated: 2022-01-14
-version: "2.7.0"
-stars: 4.51279
-reviews: 10903
-size: 68931584
+updated: 2022-02-09
+version: "2.8.1"
+stars: 4.51382
+reviews: 10953
+size: 72284160
 website: https://www.kraken.com
 repository: 
 issue: 

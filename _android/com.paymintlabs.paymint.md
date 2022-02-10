@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100
 appId: com.paymintlabs.paymint
+appCountry: 
 released: 2020-06-29
 updated: 2020-10-05
 version: "1.2.2"
-stars: 4.1
-ratings: 11
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 25M
 website: 
 repository: https://github.com/Paymint-Labs/Paymint

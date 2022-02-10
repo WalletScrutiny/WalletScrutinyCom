@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.probit.app.android2.release.korea
+appCountry: 
 released: 2019-06-19
 updated: 2021-12-17
 version: "1.36.1"
-stars: 4
-ratings: 362
-reviews: 174
+stars: 3.1
+ratings: 373
+reviews: 5
 size: 14M
-website: https://www.probit.kr/
+website: https://www.probit.kr
 repository: 
 issue: 
 icon: com.probit.app.android2.release.korea.png

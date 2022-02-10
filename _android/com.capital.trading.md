@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.capital.trading
+appCountry: 
 released: 2017-10-18
-updated: 2022-01-25
-version: "1.38.1"
-stars: 4.5
-ratings: 25340
-reviews: 8536
+updated: 2022-02-03
+version: "1.38.4"
+stars: 4.6
+ratings: 28682
+reviews: 11
 size: Varies with device
-website: 
+website: https://capital.com
 repository: https://capital.com/
 issue: 
 icon: com.capital.trading.png

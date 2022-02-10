@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000000
 appId: com.payeer
+appCountry: 
 released: 2018-01-03
 updated: 2020-12-24
 version: "Varies with device"
 stars: 4.3
-ratings: 34322
-reviews: 18877
+ratings: 36453
+reviews: 148
 size: Varies with device
 website: https://payeer.com
 repository: 

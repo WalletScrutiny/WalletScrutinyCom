@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: org.cryptomining.bitcoin.up
+appCountry: 
 released: 2021-07-21
 updated: 2021-07-21
 version: "1.0"

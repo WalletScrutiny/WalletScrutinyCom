@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.getcoins.gcwallet2
+appCountry: 
 released: 2019-03-21
 updated: 2020-05-13
 version: "3.6.0"
-stars: 2.7
-ratings: 17
-reviews: 11
+stars: 2.9
+ratings: 19
+reviews: 10
 size: 18M
-website: 
+website: https://www.getcoins.com
 repository: 
 issue: 
 icon: com.getcoins.gcwallet2.png

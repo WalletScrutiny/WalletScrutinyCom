@@ -6,14 +6,15 @@ authors:
 
 users: 5000
 appId: com.chimpion.bcdpay
+appCountry: 
 released: 2019-05-21
 updated: 2020-03-16
 version: "7.1.63"
-stars: 4.7
-ratings: 182
-reviews: 152
+stars: 4.3
+ratings: 186
+reviews: 12
 size: 28M
-website: 
+website: https://www.chimpion.io/
 repository: 
 issue: 
 icon: com.chimpion.bcdpay.png

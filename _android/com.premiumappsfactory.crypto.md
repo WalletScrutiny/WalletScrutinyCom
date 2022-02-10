@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: com.premiumappsfactory.crypto
+appCountry: 
 released: 2021-09-05
 updated: 2022-01-25
 version: "2.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 18M
-website: 
+website: http://cars.onlinestore.digital
 repository: 
 issue: 
 icon: com.premiumappsfactory.crypto.png

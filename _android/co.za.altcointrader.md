@@ -6,14 +6,15 @@ authors:
 
 users: 100000
 appId: co.za.altcointrader
+appCountry: 
 released: 2020-05-06
 updated: 2019-12-05
 version: "1.0.1"
-stars: 3.8
-ratings: 663
-reviews: 461
+stars: 3.3
+ratings: 817
+reviews: 5
 size: 1.2M
-website: 
+website: https://www.altcointrader.co.za/
 repository: 
 issue: 
 icon: co.za.altcointrader.png

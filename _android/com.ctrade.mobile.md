@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.ctrade.mobile
+appCountry: us
 released: 2020-12-19
 updated: 2022-01-24
 version: "1.1.7"
-stars: 4.7
-ratings: 218
-reviews: 180
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.6M
 website: https://www.c-trade.com/
 repository: 

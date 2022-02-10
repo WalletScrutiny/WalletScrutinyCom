@@ -6,14 +6,15 @@ authors:
 
 users: 50
 appId: com.fdao.dawallet
+appCountry: 
 released: 2021-07-28
 updated: 2021-07-29
 version: "2005311702"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 83M
-website: 
+website: https://fdao.vn/
 repository: 
 issue: 
 icon: com.fdao.dawallet.png

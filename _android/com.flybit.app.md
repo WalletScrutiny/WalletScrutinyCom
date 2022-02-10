@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.flybit.app
+appCountry: us
 released: 2021-02-04
-updated: 2021-12-23
-version: "1.9.4"
-stars: 4
-ratings: 359
-reviews: 226
-size: 8.6M
-website: https://flybit.com/
+updated: 2022-01-27
+version: "1.9.6"
+stars: 0.0
+ratings: 
+reviews: 
+size: 8.7M
+website: https://flybit.com
 repository: 
 issue: 
 icon: com.flybit.app.png

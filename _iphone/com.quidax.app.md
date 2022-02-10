@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-01-13
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -34,6 +34,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-02**: This app is not in store anymore.
 
 **Update 2022-01-05**: The iOS app is accessible again. [(See Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478681726423470083)
 

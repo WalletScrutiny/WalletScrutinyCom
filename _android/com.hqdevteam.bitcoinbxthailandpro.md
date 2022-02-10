@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.hqdevteam.bitcoinbxthailandpro
+appCountry: 
 released: 2017-06-30
 updated: 2017-10-22
 version: "5.0"

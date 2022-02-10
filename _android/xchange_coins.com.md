@@ -6,14 +6,15 @@ authors:
 
 users: 10
 appId: xchange_coins.com
+appCountry: 
 released: 2021-03-26
 updated: 2021-03-26
 version: "5.84.10"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 9.5M
-website: 
+website: https://www.xchange-coins.com
 repository: 
 issue: 
 icon: xchange_coins.com.png

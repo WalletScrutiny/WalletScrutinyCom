@@ -6,14 +6,15 @@ authors:
 - leo
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
+appCountry: 
 released: 2020-03-04
-updated: 2021-04-12
-version: "3.0.10"
-stars: 3.8
-ratings: 3725
-reviews: 1607
+updated: 2022-02-09
+version: "3.1.0"
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: https://hitbtc.com
+website: https://hitbtc.com/
 repository: 
 issue: 
 icon: com.hittechsexpertlimited.hitbtc.png

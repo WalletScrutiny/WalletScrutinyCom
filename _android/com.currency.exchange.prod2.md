@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.currency.exchange.prod2
+appCountry: 
 released: 2019-04-15
 updated: 2022-01-24
 version: "1.21.3"
-stars: 4.2
-ratings: 5522
-reviews: 2097
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
-website: https://currency.com
+website: http://currency.com
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.png

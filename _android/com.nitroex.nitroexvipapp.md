@@ -6,14 +6,15 @@ authors:
 - danny
 users: 5000
 appId: com.nitroex.nitroexvipapp
+appCountry: us
 released: 2020-11-17
 updated: 2022-01-13
 version: "8.0.1"
-stars: 4.4
-ratings: 129
-reviews: 94
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
-website: https://www.nitroex.io/commons/home
+website: https://www.nitroex.io/
 repository: 
 issue: 
 icon: com.nitroex.nitroexvipapp.png

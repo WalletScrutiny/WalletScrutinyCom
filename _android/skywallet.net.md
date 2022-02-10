@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: skywallet.net
+appCountry: 
 released: 2020-05-11
 updated: 2020-05-11
 version: "1.0.3"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 5.7M
-website: 
+website: https://skywallet.net
 repository: 
 issue: 
 icon: skywallet.net.jpg

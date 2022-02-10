@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: io.icr4shed.wallet
+appCountry: 
 released: 2021-09-10
-updated: 2021-12-13
-version: "3.51"
-stars: 4.5
-ratings: 56
-reviews: 20
+updated: 2022-01-28
+version: "3.61"
+stars: 4.6
+ratings: 84
+reviews: 16
 size: 35M
-website: 
+website: https://multiwallet.tech/
 repository: 
 issue: 
 icon: io.icr4shed.wallet.png

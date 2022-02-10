@@ -8,11 +8,11 @@ appId: com.kapital.trade.crypto
 appCountry: cz
 idd: 1487443266
 released: 2019-11-26
-updated: 2022-01-20
-version: "1.38.0"
-stars: 4.7637
-reviews: 766
-size: 90964992
+updated: 2022-02-03
+version: "1.38.4"
+stars: 4.76593
+reviews: 769
+size: 90833920
 website: https://expcapital.com
 repository: 
 issue: 

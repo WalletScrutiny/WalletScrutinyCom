@@ -4,16 +4,17 @@ title: "Coinmama - Buy & Sell cryptocurrency"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinmama.android
+appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
-stars: 3.6
-ratings: 52
-reviews: 27
+stars: 2.5
+ratings: 97
+reviews: 10
 size: 2.2M
-website: https://www.coinmama.com/
+website: https://www.coinmama.com
 repository: 
 issue: 
 icon: com.coinmama.android.png

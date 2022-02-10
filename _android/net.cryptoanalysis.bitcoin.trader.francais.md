@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: net.cryptoanalysis.bitcoin.trader.francais
+appCountry: 
 released: 2021-06-28
 updated: 2021-06-28
 version: "1.0"

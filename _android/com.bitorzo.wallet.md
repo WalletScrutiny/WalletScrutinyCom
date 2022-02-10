@@ -7,12 +7,13 @@ authors:
 - emanuel
 users: 1000
 appId: com.bitorzo.wallet
+appCountry: 
 released: 2020-07-22
 updated: 2021-01-03
 version: "3.1.3"
-stars: 3.9
+stars: 3.5
 ratings: 28
-reviews: 21
+reviews: 7
 size: 12M
 website: https://www.bitorzo.io
 repository: https://github.com/Bitorzo/Bitorzo

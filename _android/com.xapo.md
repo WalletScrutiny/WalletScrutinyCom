@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.xapo
+appCountry: 
 released: 2014-04-01
 updated: 2021-07-20
 version: "5.34"

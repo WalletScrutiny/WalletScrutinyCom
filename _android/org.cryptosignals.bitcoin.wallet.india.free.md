@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: org.cryptosignals.bitcoin.wallet.india.free
+appCountry: 
 released: 2021-06-19
 updated: 2021-06-19
 version: "1.0"

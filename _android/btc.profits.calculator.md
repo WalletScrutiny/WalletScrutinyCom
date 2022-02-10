@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: btc.profits.calculator
+appCountry: 
 released: 2019-11-07
 updated: 2019-11-07
 version: "1.0"

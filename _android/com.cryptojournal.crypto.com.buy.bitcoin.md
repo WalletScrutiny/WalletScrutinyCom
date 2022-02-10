@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10
 appId: com.cryptojournal.crypto.com.buy.bitcoin
+appCountry: 
 released: 2021-07-07
 updated: 2021-07-07
 version: "1.0"

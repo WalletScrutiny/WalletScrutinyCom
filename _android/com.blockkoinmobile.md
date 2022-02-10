@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.blockkoinmobile
+appCountry: 
 released: 2020-08-17
 updated: 2021-12-30
 version: "1.5.7"
-stars: 5
-ratings: 7
-reviews: 5
+stars: 0.0
+ratings: 
+reviews: 
 size: 37M
-website: 
+website: https://blockkoin.io
 repository: 
 issue: 
 icon: com.blockkoinmobile.png

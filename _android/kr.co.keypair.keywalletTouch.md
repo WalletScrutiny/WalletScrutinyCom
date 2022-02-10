@@ -7,14 +7,15 @@ authors:
 - danny
 users: 10000
 appId: kr.co.keypair.keywalletTouch
+appCountry: 
 released: 2018-05-13
 updated: 2022-01-09
 version: "Varies with device"
-stars: 4.3
-ratings: 108
-reviews: 65
+stars: 4.5
+ratings: 109
+reviews: 10
 size: Varies with device
-website: http://keywalletpro.io/
+website: http://keywalletpro.io
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouch.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aglobetrading
+appCountry: 
 released: 2021-01-19
 updated: 2021-03-18
 version: "1.6"

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: kr.co.citex.citexclient
+appCountry: 
 released: 2019-12-25
 updated: 2022-01-11
 version: "2.0.9"
-stars: 2.8
+stars: 1.0
 ratings: 81
-reviews: 51
+reviews: 6
 size: 38M
-website: https://www.citex.co.kr/#/home
+website: https://www.citex.io
 repository: 
 issue: 
 icon: kr.co.citex.citexclient.png

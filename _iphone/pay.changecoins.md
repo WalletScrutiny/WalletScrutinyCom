@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pay.changecoins.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2022-02-09
 signer: 
 reviewArchive:
 

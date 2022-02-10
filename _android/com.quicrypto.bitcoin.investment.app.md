@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: com.quicrypto.bitcoin.investment.app
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"

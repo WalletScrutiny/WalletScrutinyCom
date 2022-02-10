@@ -6,14 +6,15 @@ authors:
 
 users: 500
 appId: finance.trustpocket.trustpocket
+appCountry: 
 released: 2021-08-06
 updated: 2021-10-04
 version: "1.0.3"
-stars: 5
-ratings: 87
-reviews: 52
+stars: 0.0
+ratings: 
+reviews: 
 size: 46M
-website: 
+website: https://trustpocket.finance
 repository: 
 issue: 
 icon: finance.trustpocket.trustpocket.png

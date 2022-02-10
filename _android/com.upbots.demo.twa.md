@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.upbots.demo.twa
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "1"

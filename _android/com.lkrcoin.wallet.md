@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.lkrcoin.wallet
+appCountry: 
 released: 2019-01-19
 updated: 2019-01-19
 version: "v1.0.0"
-stars: 3.6
-ratings: 5
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.7M
-website: 
+website: http://lkrcoin.io/
 repository: 
 issue: 
 icon: com.lkrcoin.wallet.png

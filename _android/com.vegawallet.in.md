@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.vegawallet.in
+appCountry: us
 released: 2018-12-19
 updated: 2020-07-02
 version: "3.2.3"
-stars: 4.7
+stars: 4.4
 ratings: 23
-reviews: 19
+reviews: 4
 size: 41M
-website: https://vegawallet.com
+website: http://www.VegaWallet.com
 repository: 
 issue: 
 icon: com.vegawallet.in.png

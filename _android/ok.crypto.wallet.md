@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: ok.crypto.wallet
+appCountry: 
 released: 2020-09-21
 updated: 2020-09-21
 version: "1.0.0"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 25M

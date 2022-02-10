@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.profittrading.forokex
+appCountry: 
 released: 2020-06-11
 updated: 2020-07-23
 version: "1.2.0"
-stars: 4.4
-ratings: 17
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: https://profittradingapp.com/
 repository: 

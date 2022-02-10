@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: coinone.co.kr.official
+appCountry: 
 released: 2018-01-28
 updated: 2022-01-14
 version: "2.9.9"
-stars: 3
-ratings: 8925
-reviews: 3522
+stars: 3.5
+ratings: 9169
+reviews: 8
 size: 30M
-website: https://coinone.co.kr/
+website: https://coinone.co.kr
 repository: 
 issue: 
 icon: coinone.co.kr.official.png

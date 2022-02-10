@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bbx.bmtc
+appCountry: us
 released: 2018-04-25
 updated: 2021-05-26
 version: "1.3.1"

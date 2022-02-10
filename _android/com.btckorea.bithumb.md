@@ -6,14 +6,15 @@ authors:
 - leo
 users: 1000000
 appId: com.btckorea.bithumb
+appCountry: 
 released: 2017-09-26
 updated: 2022-01-13
 version: "2.4.0"
-stars: 3.4
-ratings: 22294
-reviews: 9389
+stars: 3.1
+ratings: 25774
+reviews: 58
 size: 40M
-website: https://www.bithumb.com
+website: http://www.bithumb.com/
 repository: 
 issue: 
 icon: com.btckorea.bithumb.png

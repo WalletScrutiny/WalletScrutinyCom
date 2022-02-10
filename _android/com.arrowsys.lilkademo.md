@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.arrowsys.lilkademo
+appCountry: mn
 released: 2015-10-08
 updated: 2022-01-15
 version: "3.1.4"
 stars: 4.5
-ratings: 218
+ratings: 217
 reviews: 51
 size: 21M
-website: https://lilka.cz/
+website: http://www.arrowsys.cz
 repository: 
 issue: 
 icon: com.arrowsys.lilkademo.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.AndroidCompany.OBMENik
+appCountry: 
 released: 2020-11-18
 updated: 2020-11-18
 version: "1.0"

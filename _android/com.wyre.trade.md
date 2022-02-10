@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.wyre.trade
+appCountry: 
 released: 2021-04-30
 updated: 2021-07-19
 version: "1.1.7"
-stars: 4.2
+stars: 3.4
 ratings: 104
-reviews: 79
+reviews: 4
 size: 13M
 website: https://wyretrade.com/
 repository: 

@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: com.tradingforpros.crypto.exchange.app
+appCountry: 
 released: 2021-06-16
 updated: 2021-06-16
 version: "1.0"

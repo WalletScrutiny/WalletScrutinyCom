@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: co.aofex.exchange
+appCountry: us
 released: 2021-09-01
 updated: 2021-12-03
 version: "3.0.3"
-stars: 4.9
-ratings: 5798
-reviews: 386
+stars: 4.8
+ratings: 5944
+reviews: 332
 size: 72M
-website: https://www.aofex.com/#/
+website: http://www.aofex.co
 repository: 
 issue: 
 icon: co.aofex.exchange.jpg

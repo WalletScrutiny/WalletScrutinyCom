@@ -6,14 +6,15 @@ authors:
 
 users: 1000
 appId: com.financex
+appCountry: 
 released: 2019-01-15
 updated: 2020-01-13
 version: "1.3.12"
-stars: 4.1
-ratings: 71
-reviews: 42
+stars: 0.0
+ratings: 
+reviews: 
 size: 10M
-website: 
+website: http://www.financex.io
 repository: 
 issue: 
 icon: com.financex.png

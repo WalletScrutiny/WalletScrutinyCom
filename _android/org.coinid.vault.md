@@ -6,12 +6,13 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.vault
+appCountry: 
 released: 2018-10-14
 updated: 2021-02-20
 version: "1.5.5"
-stars: 3.9
-ratings: 14
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 34M
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault

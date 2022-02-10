@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.breet.app
+appCountry: 
 released: 2021-05-26
 updated: 2021-05-26
 version: "1.0"

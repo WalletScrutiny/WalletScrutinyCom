@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.secux.mobile
+appCountry: 
 released: 2020-07-03
 updated: 2021-01-15
 version: "1.0.1"
-stars: 2.7
-ratings: 51
-reviews: 42
+stars: 2.4
+ratings: 55
+reviews: 22
 size: 1.4M
-website: https://secuxtech.com/
+website: https://www.secuxtech.com
 repository: 
 issue: 
 icon: com.secux.mobile.png

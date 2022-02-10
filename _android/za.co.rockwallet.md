@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: za.co.rockwallet
+appCountry: 
 released: 2020-09-30
 updated: 2021-10-17
 version: "1.6"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 2.0M
-website: 
+website: https://rockwallet.co.za
 repository: 
 issue: 
 icon: za.co.rockwallet.png

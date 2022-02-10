@@ -6,14 +6,15 @@ authors:
 - danny
 users: 50000
 appId: com.tmarkets
+appCountry: us
 released: 
 updated: 2021-12-01
 version: "1.5.78-tmarkets"
-stars: 4.2
-ratings: 429
-reviews: 110
+stars: 0.0
+ratings: 
+reviews: 
 size: 20M
-website: https://t1markets.com
+website: https://www.t1markets.com
 repository: 
 issue: 
 icon: com.tmarkets.png

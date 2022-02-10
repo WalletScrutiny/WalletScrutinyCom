@@ -6,14 +6,15 @@ authors:
 
 users: 100
 appId: com.agile.walletapp
+appCountry: 
 released: 2019-06-06
 updated: 2019-06-06
 version: "1.1"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 17M
-website: 
+website: https://www.agileinfoways.com
 repository: 
 issue: 
 icon: com.agile.walletapp.png

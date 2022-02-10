@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.dextrade.android
+appCountry: us
 released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
-stars: 2.8
-ratings: 158
-reviews: 106
+stars: 3.1
+ratings: 208
+reviews: 16
 size: 1.2M
-website: https://dex-trade.com/
+website: https://dex-trade.com
 repository: 
 issue: 
 icon: com.dextrade.android.png

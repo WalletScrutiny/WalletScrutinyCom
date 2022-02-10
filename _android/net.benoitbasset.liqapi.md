@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: net.benoitbasset.liqapi
+appCountry: 
 released: 2018-10-24
 updated: 2019-01-25
 version: "1.1.1"

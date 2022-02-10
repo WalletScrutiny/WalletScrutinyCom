@@ -1,19 +1,20 @@
 ---
 wsId: ecoinSafex
-title: "Safex Wallet (formerly Ecoin Wallet)"
+title: "Safex Wallet"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: fio.ecoin.wallet
+appCountry: us
 released: 2020-10-08
-updated: 2022-01-25
-version: "6.2.9"
-stars: 3.5
-ratings: 3203
-reviews: 1489
+updated: 2022-02-08
+version: "6.3.0"
+stars: 4.1
+ratings: 3483
+reviews: 67
 size: 96M
-website: https://ecoinofficial.org
+website: https://ecoinofficial.org/
 repository: 
 issue: 
 icon: fio.ecoin.wallet.png

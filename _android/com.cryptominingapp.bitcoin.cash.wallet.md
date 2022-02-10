@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.cryptominingapp.bitcoin.cash.wallet
+appCountry: 
 released: 2021-07-19
 updated: 2021-07-19
 version: "1.0"

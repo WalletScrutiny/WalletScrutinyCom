@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.bllang.bithumb
+appCountry: 
 released: 2017-07-23
 updated: 2017-12-16
 version: "1.3.13"

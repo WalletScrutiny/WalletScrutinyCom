@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.blixtwallet
+appCountry: 
 released: 
 updated: 2022-01-13
 version: "Varies with device"
@@ -15,12 +16,12 @@ reviews:
 size: Varies with device
 website: https://blixtwallet.github.io
 repository: https://github.com/hsjoberg/blixt-wallet
-issue: 
+issue: https://github.com/hsjoberg/blixt-wallet/issues/318
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-10-17
+verdict: nonverifiable
+date: 2022-02-07
 signer: 
 reviewArchive:
 
@@ -32,6 +33,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-07**: This wallet recently reached 1000 downloads on Play
+Store, so now it's time to see if it reproducible ...
+See "Code and Reproducibility" below ...
 
 So we got a support request from somebody who put money into this lightning wallet
 and the channel instantly closed but days later he didn't have his money back.
@@ -67,3 +72,41 @@ According to the website:
 
 So next we would have to see if this app is reproducible. We will look into that
 once the app gained some more traction.
+
+# Code and Reproducibility
+
+[This app's code](https://github.com/hsjoberg/blixt-wallet) is public and MIT
+licensed. Their
+[Build Steps for Android](https://github.com/hsjoberg/blixt-wallet#android) are:
+
+> - Install [Node](https://nodejs.org), [Yarn](https://classic.yarnpkg.com) and
+    [Android Studio + Android SDK (including NDK)](https://developer.android.com/studio/)
+> - If needed, install an emulated android device inside Android Studio
+> - Download lnd binary from
+    [from the latest Blixt Wallet release](https://github.com/hsjoberg/blixt-wallet/releases)
+    and put it in `android/lndmobile`. Alternatively build lnd for Android by
+    following the steps in [build-android-aar.md](build-android-aar.md)
+> - Get the tor sub-module: `git submodule update --init`
+> - Install Node packages: `yarn`
+> - Compile the Tor Android lib: `yarn build-tor-lib`
+> - Generate proto files: `yarn gen-proto`
+> 
+> To start the application:
+> - Run: `yarn start-metro`
+> - Run: `yarn android:mainnet-debug` or `yarn android:testnet-debug`
+
+There is two problems with this.
+
+1. There is no instructions to actually **build** the release file. Only
+   instructions to **start** the debug version.
+1. We need an lnd binary. So while that can be built from source, there is no
+   pinning of the right version to build. Also the compilation of lnd requires
+   editing "line 47 of `mobile/gen_bindings.sh`"?
+
+We could maybe guess our way around these issues but this should really be
+better documented for smooth build reproduction.
+
+Emanuel already tried to reproduce this app and
+[his issue](https://github.com/hsjoberg/blixt-wallet/issues/318) is still open.
+So while this app can be compiled from source, the compilation result differs
+from what he got from Google play. This app is currently **not verifiable**.

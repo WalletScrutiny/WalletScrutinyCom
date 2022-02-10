@@ -1,4 +1,4 @@
-const verdictOrder = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet"
+const verdictOrder = "nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet"
 const platformOrder = "hardware,android,iphone"
 const metaOrder = "ok,stale,obsolete,defunct"
 

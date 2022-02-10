@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.amarkets
+appCountry: us
 released: 2019-05-31
-updated: 2022-01-13
+updated: 2022-02-07
 version: "Varies with device"
-stars: 4.7
-ratings: 969
-reviews: 291
+stars: 4.5
+ratings: 2196
+reviews: 19
 size: Varies with device
-website: https://www.amarkets.com/
+website: https://www.amarkets.com
 repository: 
 issue: 
 icon: com.amarkets.png

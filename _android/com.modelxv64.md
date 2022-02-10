@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000
 appId: com.modelxv64
+appCountry: us
 released: 2020-05-29
 updated: 2021-03-18
 version: "1.6.9"
-stars: 3.2
-ratings: 8
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: https://stratum.bt/
+website: https://www.stratum.hk/
 repository: 
 issue: 
 icon: com.modelxv64.png

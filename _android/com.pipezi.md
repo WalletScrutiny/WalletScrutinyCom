@@ -6,12 +6,13 @@ authors:
 
 users: 100
 appId: com.pipezi
+appCountry: 
 released: 2021-03-05
 updated: 2021-09-17
 version: "2.5.3"
-stars: 5
-ratings: 7
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
 website: 
 repository: 

@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: com.cryptoearningapps.bitcoin.crypto.trading.investment
+appCountry: 
 released: 2021-06-29
 updated: 2021-06-29
 version: "1.0"

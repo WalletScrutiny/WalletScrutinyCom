@@ -6,14 +6,15 @@ authors:
 - leo
 users: 500000
 appId: com.ascendex.exchange
+appCountry: 
 released: 2021-04-28
-updated: 2022-01-17
-version: "2.7.4"
+updated: 2022-02-09
+version: "2.7.5"
 stars: 4.8
-ratings: 3849
-reviews: 1123
+ratings: 6491
+reviews: 94
 size: 47M
-website: https://ascendex.com
+website: https://asdx.io/
 repository: 
 issue: 
 icon: com.ascendex.exchange.png

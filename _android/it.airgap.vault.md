@@ -6,23 +6,29 @@ authors:
 - leo
 users: 10000
 appId: it.airgap.vault
+appCountry: 
 released: 2018-08-06
-updated: 2022-01-12
-version: "3.13.0"
-stars: 4
-ratings: 94
-reviews: 40
+updated: 2022-02-02
+version: "3.14.0"
+stars: 4.2
+ratings: 105
+reviews: 11
 size: 69M
-website: https://airgap.it
+website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/103
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
-date: 2022-01-24
+verdict: reproducible
+date: 2022-01-31
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-01-24
+  version: "3.13.0"
+  appHash: c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4
+  gitRevision: 7fb8a183fee60571885418fcdf05478698687b0f
+  verdict: obfuscated
 - date: 2021-11-25
   version: "3.12.0"
   appHash: 2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2
@@ -141,29 +147,25 @@ which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.13.0
-apkVersionCode: 37604
-verdict:        
-appHash:        c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4
-commit:         3b5f92bb58abb7dfb1ac755cf0f6d9bd18754844
+apkVersionName: 3.13.1
+apkVersionCode: 38100
+verdict:        reproducible
+appHash:        e380196238627787f20152eb6a4808f8f201a285465715cd98b96780cbcb2c52
+commit:         d6768326d35ec27474868243d132a076eeeb88ff
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_37604/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_37604/assets/public/index.html differ
-Only in /tmp/fromPlay_it.airgap.vault_37604/assets/public: main.4344acc47727fbb3dd6d.js
-Only in /tmp/fromBuild_it.airgap.vault_37604/assets/public: main.43f935f7202aab6bf927.js
-Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_37604/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 3b5f92bb58abb7dfb1ac755cf0f6d9bd18754844
+object d6768326d35ec27474868243d132a076eeeb88ff
 type commit
-tag v3.13.0
-tagger Mike Godenzi  1642150744 +0100
+tag v3.13.1
+tagger Mike Godenzi  1643265563 +0100
 
-version 3.13.0
+version 3.13.1
 ===== End Results =====
 ```
 
-Sadly this is again, as every other build, a minified code file which is as such
-**obfuscated**.
+Which is what we want to see to give it the verdict **reproducible**.

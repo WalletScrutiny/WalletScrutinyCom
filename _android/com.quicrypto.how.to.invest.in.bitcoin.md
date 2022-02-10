@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: com.quicrypto.how.to.invest.in.bitcoin
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"

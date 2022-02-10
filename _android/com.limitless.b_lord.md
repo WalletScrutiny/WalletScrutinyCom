@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.limitless.b_lord
+appCountry: 
 released: 2020-11-04
 updated: 2020-11-04
 version: "1.0.4"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 22M

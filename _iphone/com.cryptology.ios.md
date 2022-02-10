@@ -8,11 +8,11 @@ appId: com.cryptology.ios
 appCountry: gb
 idd: 1313186415
 released: 2018-03-23
-updated: 2022-01-18
-version: "3.7.0"
+updated: 2022-01-31
+version: "3.8.0"
 stars: 5
 reviews: 3
-size: 56892416
+size: 57901056
 website: http://cryptology.com
 repository: 
 issue: 

@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.bitcoin.dompets
+appCountry: 
 released: 2017-09-29
 updated: 2017-09-30
 version: "1.0.0"

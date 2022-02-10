@@ -9,11 +9,11 @@ appId: com.morix.wallet
 released: 2020-07-15
 updated: 2021-11-08
 version: "v1.0.34"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 41M
-website: https://morixjp.com/
+website: https://morixjp.com/contact
 repository: 
 issue: 
 icon: com.morix.wallet.png
@@ -23,7 +23,6 @@ verdict: fewusers
 date: 2021-01-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: MoriXjp
 providerLinkedIn: 

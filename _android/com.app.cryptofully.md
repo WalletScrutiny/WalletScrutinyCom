@@ -7,6 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.app.cryptofully
+appCountry: 
 released: 2020-10-29
 updated: 2021-09-15
 version: "1.3.2"
@@ -19,9 +20,9 @@ repository:
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-04-16
+date: 2022-01-31
 signer: 
 reviewArchive:
 
@@ -33,6 +34,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-21**: This app is not available anymore.
 
 This mobile app is an exchange solution aimed at transferring money into Nigerian bank accounts.
 The user can use other Bitcoin wallets to send BTC to receive addresses in the

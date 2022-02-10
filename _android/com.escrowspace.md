@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.escrowspace
+appCountry: 
 released: 2018-07-25
 updated: 2018-07-26
 version: "1.08"

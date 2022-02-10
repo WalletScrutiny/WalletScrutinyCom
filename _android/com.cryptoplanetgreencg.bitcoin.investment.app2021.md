@@ -6,6 +6,7 @@ authors:
 
 users: 1
 appId: com.cryptoplanetgreencg.bitcoin.investment.app2021
+appCountry: 
 released: 2021-07-28
 updated: 2021-07-28
 version: "1.0"

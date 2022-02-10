@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: inc.lireneosoft.counterparty
+appCountry: us
 released: 2015-04-28
 updated: 2019-06-14
 version: "2.5.4"
-stars: 3
-ratings: 241
-reviews: 138
+stars: 3.4
+ratings: 243
+reviews: 31
 size: 22M
-website: https://wallet.indiesquare.me/
+website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
 icon: inc.lireneosoft.counterparty.png

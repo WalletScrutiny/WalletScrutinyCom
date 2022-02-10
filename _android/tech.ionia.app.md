@@ -6,14 +6,15 @@ authors:
 
 users: 5000
 appId: tech.ionia.app
+appCountry: 
 released: 2018-05-11
 updated: 2019-02-27
 version: "1.1.3"
-stars: 4.5
-ratings: 40
-reviews: 24
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: 
+website: http://www.ionia.one
 repository: 
 issue: 
 icon: tech.ionia.app.png

@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: net.benoitbasset.hitapi
+appCountry: 
 released: 2018-02-07
 updated: 2019-05-07
 version: "1.3.0"
-stars: 4
-ratings: 143
-reviews: 60
+stars: 4.5
+ratings: 145
+reviews: 6
 size: 4.7M
-website: 
+website: http://hitapi.oblade.net
 repository: 
 issue: 
 icon: net.benoitbasset.hitapi.png

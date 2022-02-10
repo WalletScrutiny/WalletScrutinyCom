@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.goodbarber.bitmeat
+appCountry: 
 released: 2018-01-09
 updated: 2018-01-10
 version: "1.0"

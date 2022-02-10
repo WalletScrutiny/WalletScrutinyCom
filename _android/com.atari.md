@@ -6,12 +6,13 @@ authors:
 - danny
 users: 1000
 appId: com.atari
+appCountry: 
 released: 2021-07-11
 updated: 2021-11-13
 version: "2.08.01"
-stars: 3.3
-ratings: 90
-reviews: 68
+stars: 2.3
+ratings: 177
+reviews: 23
 size: 59M
 website: https://wallet.atarichain.com/
 repository: 

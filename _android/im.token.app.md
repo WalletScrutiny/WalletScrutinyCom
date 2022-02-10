@@ -6,12 +6,13 @@ authors:
 - leo
 users: 500000
 appId: im.token.app
+appCountry: 
 released: 2018-05-31
 updated: 2022-01-24
 version: "2.9.10"
-stars: 3.7
-ratings: 3756
-reviews: 2070
+stars: 4.0
+ratings: 4234
+reviews: 183
 size: 82M
 website: https://token.im
 repository: 

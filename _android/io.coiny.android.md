@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.coiny.android
+appCountry: 
 released: 2018-04-11
 updated: 2019-01-17
 version: "1.6.1"

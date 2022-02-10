@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.maxonrow.wallet
+appCountry: 
 released: 2019-08-31
 updated: 2020-10-20
 version: "2.1.16"

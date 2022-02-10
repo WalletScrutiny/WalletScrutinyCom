@@ -6,14 +6,15 @@ authors:
 - leo
 users: 10000000
 appId: com.binance.dev
+appCountry: 
 released: 2017-10-25
-updated: 2022-01-24
-version: "2.40.2"
-stars: 4.4
-ratings: 508712
-reviews: 173931
+updated: 2022-01-31
+version: "2.41.5"
+stars: 4.2
+ratings: 607650
+reviews: 7088
 size: Varies with device
-website: https://www.binance.com
+website: https://www.binance.com/
 repository: 
 issue: 
 icon: com.binance.dev.png

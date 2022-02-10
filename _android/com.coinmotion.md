@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.coinmotion
+appCountry: in
 released: 2020-08-20
-updated: 2022-01-10
+updated: 2022-02-03
 version: "1.6.2"
-stars: 3.5
-ratings: 130
-reviews: 68
+stars: 0.0
+ratings: 
+reviews: 
 size: 36M
 website: https://coinmotion.com/
 repository: 

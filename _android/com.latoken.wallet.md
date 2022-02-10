@@ -6,14 +6,15 @@ authors:
 - danny
 users: 1000000
 appId: com.latoken.wallet
+appCountry: 
 released: 2020-03-17
-updated: 2022-01-19
-version: "1.97.01"
-stars: 4
-ratings: 31178
-reviews: 15401
-size: 24M
-website: 
+updated: 2022-02-08
+version: "1.98.03"
+stars: 4.2
+ratings: 34166
+reviews: 92
+size: 26M
+website: http://latoken.com
 repository: 
 issue: 
 icon: com.latoken.wallet.png

@@ -6,14 +6,15 @@ authors:
 - danny
 users: 100000
 appId: com.abcc.exchange
+appCountry: us
 released: 2018-08-23
-updated: 2022-01-19
-version: "1.9.11"
-stars: 4.2
-ratings: 1537
-reviews: 1270
+updated: 2022-01-26
+version: "1.9.13"
+stars: 4.8
+ratings: 1539
+reviews: 45
 size: 16M
-website: https://abcc.com/
+website: https://abcc.com
 repository: 
 issue: 
 icon: com.abcc.exchange.png

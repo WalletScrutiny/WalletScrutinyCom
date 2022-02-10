@@ -6,14 +6,15 @@ authors:
 
 users: 10000
 appId: com.fcoin.exchange
+appCountry: 
 released: 2018-07-13
 updated: 2020-01-19
 version: "1.14.1"
-stars: 3.8
-ratings: 89
-reviews: 36
+stars: 4.3
+ratings: 90
+reviews: 8
 size: 27M
-website: 
+website: https://www.fcoin.com/
 repository: 
 issue: 
 icon: com.fcoin.exchange.png

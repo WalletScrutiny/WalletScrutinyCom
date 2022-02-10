@@ -6,12 +6,13 @@ authors:
 - leo
 users: 100000
 appId: com.ownrwallet.wallet
+appCountry: 
 released: 2019-05-20
-updated: 2022-01-21
-version: "1.45.0"
-stars: 4.9
-ratings: 1820
-reviews: 1657
+updated: 2022-01-26
+version: "1.46.0"
+stars: 4.7
+ratings: 1962
+reviews: 205
 size: 121M
 website: https://ownrwallet.com
 repository: 

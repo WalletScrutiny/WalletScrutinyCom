@@ -6,14 +6,15 @@ authors:
 - danny
 users: 10000
 appId: com.bitexuae
+appCountry: ae
 released: 2020-02-23
 updated: 2021-12-26
 version: "3.0"
-stars: 3
-ratings: 123
-reviews: 105
+stars: 1.7
+ratings: 127
+reviews: 13
 size: 171M
-website: https://bitex.com
+website: https://www.bitex.com
 repository: 
 issue: 
 icon: com.bitexuae.jpg
