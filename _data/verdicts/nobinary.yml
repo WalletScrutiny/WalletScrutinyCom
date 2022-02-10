@@ -27,3 +27,10 @@ details: >
   backdoors in the public source code before it gets exploited**, much less if
   the attacker takes moderate efforts to hide it. This is especially true for
   less popular projects.
+  
+  
+  We feature this verdict above the "reproducible" verdict as it completely
+  side-steps the issue of binary transparency. There can be no reproducibility
+  issues with the next release. On the other hand, using these products might be
+  more involved as compiling is required and interpreted languages like Java
+  Script might be inherently less secure than other languages.
