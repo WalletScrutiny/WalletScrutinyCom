@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quidax.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-01-07
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-02**: This app is not in store anymore.
 
 From the play store description it clearly states the private keys are in control of the provider....
 

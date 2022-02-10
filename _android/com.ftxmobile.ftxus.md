@@ -1,6 +1,6 @@
 ---
 wsId: ftxus
-title: "FTXUS Pro"
+title: "FTX.US Pro: Buy, Sell, Trade"
 altTitle: 
 authors:
 - leo
@@ -8,13 +8,13 @@ users: 100000
 appId: com.ftxmobile.ftxus
 appCountry: us
 released: 2020-05-18
-updated: 2022-01-12
+updated: 2022-01-26
 version: "1.1.8"
-stars: 3.2
-ratings: 335
-reviews: 277
-size: 66M
-website: 
+stars: 3.5
+ratings: 531
+reviews: 233
+size: 64M
+website: https://ftx.us/
 repository: 
 issue: 
 icon: com.ftxmobile.ftxus.png

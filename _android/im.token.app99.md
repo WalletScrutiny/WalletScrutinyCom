@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: im.token.app99.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fake
-date: 2021-11-11
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -34,6 +34,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-31**: This app is not in store anymore.
 
 ⚠️ **Warning**
 This app probably was related to

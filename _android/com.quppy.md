@@ -10,11 +10,11 @@ appCountry:
 released: 2018-09-17
 updated: 2022-01-20
 version: "2.0.13"
-stars: 5
-ratings: 3578
-reviews: 1024
+stars: 4.8
+ratings: 3875
+reviews: 22
 size: 13M
-website: https://quppy.com
+website: https://quppy.com/
 repository: 
 issue: 
 icon: com.quppy.png

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitmex.mobile.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -32,5 +32,7 @@ providerReddit: BitMEX
 redirect_from:
 
 ---
+
+**Update 2022-02-02**: This app is not in store anymore.
 
 {% include copyFromAndroid.html %}

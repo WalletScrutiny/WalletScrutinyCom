@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bibox.www.bibox.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-15
+date: 2022-02-10
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit: Bibox
 redirect_from:
 
 ---
+
+**Update 2022-01-28**: This app is not in store anymore.
 
 From its Google Play description:
 
