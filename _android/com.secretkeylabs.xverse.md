@@ -4,7 +4,7 @@ title: "Xverse"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12

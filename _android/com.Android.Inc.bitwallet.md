@@ -11,8 +11,8 @@ released: 2019-07-22
 updated: 2022-01-06
 version: "1.4.21"
 stars: 4.5
-ratings: 1200
-reviews: 273
+ratings: 1204
+reviews: 276
 size: 26M
 website: https://www.bitwallet.org
 repository: 

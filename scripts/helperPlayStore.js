@@ -1,9 +1,9 @@
 process.env.TZ = 'UTC' // fix timezone issues
 process.on('unhandledRejection', (reason, promise) => {
   if (`${reason}`.search(/404/) > -1) {
-    console.error(`\nIgnoring a 404 error that for some reason did not get caught: ${reason}`)
+    console.error(`Ignoring a 404 error that for some reason did not get caught: ${reason}`)
   } else {
-    console.error(`\nIgnoring an error we did not intend to ignore: ${reason}`)
+    console.error(`Ignoring an error we did not intend to ignore: ${reason}`)
   }
 })
 
@@ -15,7 +15,7 @@ const yaml = require('js-yaml')
 const helper = require('./helper.js')
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
-const { Mutex, Semaphore, withTimeout } = require('async-mutex')
+const { Semaphore } = require('async-mutex')
 const sem = new Semaphore(5)
 
 const stats = {
@@ -130,10 +130,10 @@ function refreshFile(fileName) {
           stats.remaining--
           release()
         }).catch(err => {
-          console.error(err)
+          console.error(`Does this ever get triggered 1? %{err}`)
         })
       } catch (err) {
-        console.error(err)
+        console.error(`Does this ever get triggered 2? %{err}`)
       }
     } else {
       stats.defunct++

@@ -4,7 +4,7 @@ title: "CardWallet - Cardano Crypto Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: fi.cardwallet.android
 appCountry: pt
 released: 2021-08-31

@@ -10,8 +10,8 @@ idd: 1321798216
 released: 2018-02-07
 updated: 2021-10-17
 version: "4.32.1"
-stars: 4.43635
-reviews: 55
+stars: 4.41176
+reviews: 51
 size: 118890496
 website: http://www.bitbill.com
 repository: 

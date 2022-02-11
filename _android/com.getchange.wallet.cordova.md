@@ -12,7 +12,7 @@ released: 2018-06-07
 updated: 2022-01-31
 version: "20.2.1"
 stars: 4.0
-ratings: 2778
+ratings: 2781
 reviews: 22
 size: 33M
 website: https://changeinvest.com

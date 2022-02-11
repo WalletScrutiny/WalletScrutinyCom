@@ -11,8 +11,8 @@ released: 2017-07-07
 updated: 2022-02-07
 version: "4.9.12"
 stars: 3.3
-ratings: 1403
-reviews: 76
+ratings: 1449
+reviews: 77
 size: 42M
 website: https://www.coincola.com
 repository: 

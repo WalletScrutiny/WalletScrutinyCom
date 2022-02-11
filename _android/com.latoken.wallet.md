@@ -11,7 +11,7 @@ released: 2020-03-17
 updated: 2022-02-08
 version: "1.98.03"
 stars: 4.2
-ratings: 34166
+ratings: 34238
 reviews: 92
 size: 26M
 website: http://latoken.com

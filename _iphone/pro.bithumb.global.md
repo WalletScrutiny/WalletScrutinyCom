@@ -10,8 +10,8 @@ idd: 1467713913
 released: 2019-06-25
 updated: 2021-12-04
 version: "2.6.3"
-stars: 2.57692
-reviews: 78
+stars: 2.48
+reviews: 75
 size: 75458560
 website: https://www.bithumb.pro/alliance
 repository: 

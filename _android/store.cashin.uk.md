@@ -8,12 +8,12 @@ users: 1000
 appId: store.cashin.uk
 appCountry: gb
 released: 2021-04-02
-updated: 2022-02-03
-version: "4.4.3"
+updated: 2022-02-10
+version: "4.5.0"
 stars: 4.5
 ratings: 35
 reviews: 27
-size: 22M
+size: 23M
 website: https://www.bitcoinpoint.com/
 repository: 
 issue: 

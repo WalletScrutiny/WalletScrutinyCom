@@ -10,8 +10,8 @@ appCountry:
 released: 2015-06-01
 updated: 2022-02-09
 version: "5.30.2"
-stars: 3.5
-ratings: 33799
+stars: 3.4
+ratings: 33847
 reviews: 152
 size: 96M
 website: https://www.ripio.com

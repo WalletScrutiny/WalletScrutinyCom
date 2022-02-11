@@ -11,8 +11,8 @@ released: 2018-05-17
 updated: 2022-02-01
 version: "3.2.1059"
 stars: 4.9
-ratings: 642
-reviews: 20
+ratings: 643
+reviews: 21
 size: 58M
 website: https://fintap.app
 repository: 

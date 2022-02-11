@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Stock Market Simulator - Bolsa"
+title: "Bolsa Stock Market Simulator"
 altTitle: 
 authors:
 - danny

@@ -10,8 +10,8 @@ idd: 1428903145
 released: 2018-10-03
 updated: 2022-01-25
 version: "1.9.12"
-stars: 4.3
-reviews: 10
+stars: 4.22222
+reviews: 9
 size: 42196992
 website: https://abcc.com/
 repository: 

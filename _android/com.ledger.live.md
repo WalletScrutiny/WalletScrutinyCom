@@ -11,8 +11,8 @@ released: 2019-01-27
 updated: 2022-01-27
 version: "2.37.2"
 stars: 3.4
-ratings: 5937
-reviews: 797
+ratings: 5952
+reviews: 800
 size: 307M
 website: https://www.ledger.com
 repository: 

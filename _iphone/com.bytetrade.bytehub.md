@@ -10,8 +10,8 @@ idd: 1453357819
 released: 2019-06-05
 updated: 2021-01-16
 version: "1.1.210116"
-stars: 4
-reviews: 5
+stars: 3.75
+reviews: 4
 size: 142685184
 website: https://www.bytetrade.io/
 repository: 

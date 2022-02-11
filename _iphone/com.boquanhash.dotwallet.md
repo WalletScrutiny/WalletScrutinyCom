@@ -11,7 +11,7 @@ released: 2021-01-05
 updated: 2022-01-24
 version: "2.11.2"
 stars: 5
-reviews: 5
+reviews: 4
 size: 75709440
 website: https://www.dotwallet.com
 repository: 

@@ -11,8 +11,8 @@ released: 2016-09-01
 updated: 2019-03-17
 version: "0.1.9"
 stars: 4.1
-ratings: 79
-reviews: 17
+ratings: 80
+reviews: 18
 size: 6.7M
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile

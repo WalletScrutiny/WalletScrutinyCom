@@ -1,6 +1,6 @@
 ---
 wsId: Tokenize
-title: "Tokenize Trading App"
+title: "Tokenize Xchange"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.tokenize.exchange.trading
 appCountry: us
 idd: 1495765876
 released: 2020-02-02
-updated: 2022-01-09
-version: "1.2.18"
+updated: 2022-02-09
+version: "2.0.0"
 stars: 
 reviews: 
-size: 72811520
+size: 65903616
 website: https://tokenize.exchange
 repository: 
 issue: 

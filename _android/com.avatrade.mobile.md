@@ -11,7 +11,7 @@ released: 2017-05-23
 updated: 2022-02-03
 version: "98.3.0"
 stars: 4.3
-ratings: 9182
+ratings: 9190
 reviews: 7
 size: 21M
 website: http://www.avatrade.com

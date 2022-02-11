@@ -11,7 +11,7 @@ released: 2019-11-12
 updated: 2022-01-19
 version: "3.4.1"
 stars: 3.3
-ratings: 2728
+ratings: 2732
 reviews: 40
 size: 75M
 website: https://exmo.com/

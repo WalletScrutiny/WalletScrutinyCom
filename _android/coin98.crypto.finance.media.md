@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-12-19
 updated: 2022-01-27
 version: "11.2.2"
-stars: 4.3
-ratings: 17926
+stars: 4.2
+ratings: 17938
 reviews: 269
 size: 145M
 website: https://coin98.com/

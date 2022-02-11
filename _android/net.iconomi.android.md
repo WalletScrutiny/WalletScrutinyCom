@@ -11,8 +11,8 @@ released: 2017-10-17
 updated: 2022-02-07
 version: "2.1.1"
 stars: 4.1
-ratings: 290
-reviews: 133
+ratings: 291
+reviews: 134
 size: 126M
 website: https://www.iconomi.com
 repository: 

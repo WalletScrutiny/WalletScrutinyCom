@@ -10,8 +10,8 @@ idd: 1164758997
 released: 2016-11-18
 updated: 2022-02-02
 version: "6.14.0"
-stars: 4.32217
-reviews: 102651
+stars: 4.32277
+reviews: 102887
 size: 37999616
 website: https://bitflyer.com/
 repository: 

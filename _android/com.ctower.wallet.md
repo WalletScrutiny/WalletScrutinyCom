@@ -8,12 +8,12 @@ users: 100
 appId: com.ctower.wallet
 appCountry: 
 released: 2021-12-22
-updated: 2021-12-22
-version: "1.0.1"
+updated: 2022-02-10
+version: "1.1.4"
 stars: 0.0
 ratings: 
 reviews: 
-size: 32M
+size: 37M
 website: https://crosstower.com
 repository: 
 issue: 

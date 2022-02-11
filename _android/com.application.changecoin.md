@@ -8,20 +8,20 @@ users: 1000
 appId: com.application.changecoin
 appCountry: us
 released: 2020-05-12
-updated: 2021-02-09
-version: "1.2.5"
+updated: 2022-02-10
+version: "1.2.6"
 stars: 0.0
 ratings: 
 reviews: 
-size: 51M
+size: 33M
 website: https://changecoins.io/
 repository: 
 issue: 
 icon: com.application.changecoin.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-02-05
+date: 2022-02-11
 signer: 
 reviewArchive:
 

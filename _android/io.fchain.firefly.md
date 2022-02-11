@@ -8,8 +8,8 @@ users: 1000
 appId: io.fchain.firefly
 appCountry: 
 released: 2019-05-08
-updated: 2022-01-07
-version: "3.3.9.3"
+updated: 2022-02-10
+version: "3.4.2"
 stars: 0.0
 ratings: 
 reviews: 

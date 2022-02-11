@@ -10,8 +10,8 @@ appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18
 version: "1.3.6"
-stars: 3.7
-ratings: 113
+stars: 3.8
+ratings: 114
 reviews: 60
 size: 26M
 website: https://cointral.com

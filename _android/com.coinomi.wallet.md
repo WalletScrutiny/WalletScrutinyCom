@@ -11,7 +11,7 @@ released: 2014-01-31
 updated: 2022-02-02
 version: "1.25.2"
 stars: 4.5
-ratings: 39740
+ratings: 39761
 reviews: 2015
 size: 43M
 website: https://www.Coinomi.com

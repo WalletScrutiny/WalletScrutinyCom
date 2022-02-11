@@ -10,8 +10,8 @@ idd: 1458706382
 released: 2019-04-27
 updated: 2022-01-05
 version: "2.1.64"
-stars: 4.59999
-reviews: 25
+stars: 4.66667
+reviews: 24
 size: 52013056
 website: https://www.rekeningku.com
 repository: 

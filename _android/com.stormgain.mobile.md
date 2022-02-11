@@ -11,7 +11,7 @@ released: 2019-07-08
 updated: 2021-12-28
 version: "1.22.0"
 stars: 4.7
-ratings: 108619
+ratings: 109103
 reviews: 2765
 size: 37M
 website: https://stormgain.com/

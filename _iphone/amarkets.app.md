@@ -8,11 +8,11 @@ appId: amarkets.app
 appCountry: us
 idd: 1495820700
 released: 2020-02-12
-updated: 2022-01-27
-version: "1.4.27"
+updated: 2022-02-08
+version: "1.4.28"
 stars: 4.28
 reviews: 25
-size: 65196032
+size: 65226752
 website: https://www.amarkets.com/
 repository: 
 issue: 
