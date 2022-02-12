@@ -8,12 +8,12 @@ users: 1000
 appId: com.warp.app
 appCountry: 
 released: 2021-08-06
-updated: 2022-02-09
-version: "1.2.29"
+updated: 2022-02-11
+version: "1.2.32"
 stars: 0.0
 ratings: 
 reviews: 
-size: 76M
+size: 77M
 website: https://warpdefi.io
 repository: 
 issue: 

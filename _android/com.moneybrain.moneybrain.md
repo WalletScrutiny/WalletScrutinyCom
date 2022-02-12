@@ -8,12 +8,12 @@ users: 1000
 appId: com.moneybrain.moneybrain
 appCountry: gb
 released: 2019-10-17
-updated: 2021-11-01
-version: "1.2.14"
+updated: 2022-02-09
+version: "2.0.4"
 stars: 0.0
 ratings: 
 reviews: 
-size: 9.4M
+size: 8.9M
 website: https://www.moneybrain.com
 repository: 
 issue: 

@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 360
 reviews: 31
 size: 40M
-website: https://ecos.am
+website: https://ecos.finance
 repository: 
 issue: 
 icon: am.ecos.android.png

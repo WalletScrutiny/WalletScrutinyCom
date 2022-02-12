@@ -9,11 +9,11 @@ appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
 updated: 2022-02-10
-version: "1.0.2"
+version: "1.0.3"
 stars: 4.0
-ratings: 616
+ratings: 619
 reviews: 10
-size: 13M
+size: 22M
 website: https://arzif.com/
 repository: 
 issue: 

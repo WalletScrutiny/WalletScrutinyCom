@@ -11,7 +11,7 @@ released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
 stars: 4.4
-ratings: 310
+ratings: 311
 reviews: 14
 size: 10M
 website: https://www.bigomex.com

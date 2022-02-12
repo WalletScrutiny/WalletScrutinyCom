@@ -11,8 +11,8 @@ released: 2019-05-01
 updated: 2022-02-07
 version: "2.4.2"
 stars: 4.4
-ratings: 6304
-reviews: 255
+ratings: 6318
+reviews: 256
 size: 26M
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

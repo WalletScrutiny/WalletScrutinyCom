@@ -8,12 +8,12 @@ users: 100000
 appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01
-updated: 2022-01-12
-version: "1.50.4"
+updated: 2022-02-11
+version: "1.50.5"
 stars: 3.9
-ratings: 2414
+ratings: 2417
 reviews: 39
-size: 54M
+size: 56M
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1

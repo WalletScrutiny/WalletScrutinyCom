@@ -11,8 +11,8 @@ released: 2021-04-29
 updated: 2021-10-16
 version: "1.3"
 stars: 4.2
-ratings: 264
-reviews: 18
+ratings: 266
+reviews: 19
 size: 5.3M
 website: https://rolltuk.blogspot.com/
 repository: 

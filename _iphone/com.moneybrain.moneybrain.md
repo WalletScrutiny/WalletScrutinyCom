@@ -8,11 +8,11 @@ appId: com.moneybrain.moneybrain
 appCountry: gb
 idd: 1476827262
 released: 2019-10-15
-updated: 2021-11-01
-version: "1.2.14"
+updated: 2022-02-11
+version: "2.0.4"
 stars: 4.85714
 reviews: 7
-size: 59702272
+size: 34324480
 website: https://bips.moneybrain.com
 repository: 
 issue: 

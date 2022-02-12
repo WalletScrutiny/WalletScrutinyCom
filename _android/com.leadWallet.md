@@ -10,9 +10,9 @@ appCountry: ng
 released: 2021-07-29
 updated: 2022-02-01
 version: "1.0.17"
-stars: 4.1
-ratings: 1643
-reviews: 23
+stars: 4.4
+ratings: 1662
+reviews: 40
 size: 37M
 website: https://leadwallet.io
 repository: 

@@ -11,7 +11,7 @@ released: 2018-12-27
 updated: 2022-01-19
 version: "3.3.3"
 stars: 2.6
-ratings: 3178
+ratings: 3182
 reviews: 8
 size: 75M
 website: https://jeton.com/

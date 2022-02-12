@@ -11,7 +11,7 @@ released: 2017-10-17
 updated: 2022-02-04
 version: "2.1.6"
 stars: 4.8
-ratings: 109
+ratings: 110
 reviews: 9
 size: 11M
 website: http://www.belfrics.io

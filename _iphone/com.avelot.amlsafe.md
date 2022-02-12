@@ -8,11 +8,11 @@ appId: com.avelot.amlsafe
 appCountry: 
 idd: 1519145333
 released: 2020-07-28
-updated: 2022-01-06
-version: "1.30.59.200"
-stars: 4.92
-reviews: 100
-size: 86757376
+updated: 2022-02-10
+version: "1.30.60.212"
+stars: 4.91837
+reviews: 98
+size: 89629696
 website: https://amlsafe.io/
 repository: 
 issue: 

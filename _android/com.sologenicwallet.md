@@ -11,7 +11,7 @@ released: 2020-02-04
 updated: 2022-01-25
 version: "2.3.0"
 stars: 4.3
-ratings: 3579
+ratings: 3592
 reviews: 89
 size: 60M
 website: https://www.sologenic.com/

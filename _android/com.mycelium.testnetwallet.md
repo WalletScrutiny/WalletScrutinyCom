@@ -11,7 +11,7 @@ released: 2013-10-04
 updated: 2022-01-30
 version: "3.13.6.0-TESTNET"
 stars: 4.3
-ratings: 145
+ratings: 146
 reviews: 9
 size: 25M
 website: http://mycelium.com

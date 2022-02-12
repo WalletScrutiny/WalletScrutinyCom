@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockcloud.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-12
 signer: 
 reviewArchive:
 

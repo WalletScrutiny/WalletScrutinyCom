@@ -11,7 +11,7 @@ released: 2017-03-09
 updated: 2022-01-18
 version: "2.21.1"
 stars: 3.9
-ratings: 6911
+ratings: 6912
 reviews: 170
 size: 51M
 website: https://support.waves.exchange/

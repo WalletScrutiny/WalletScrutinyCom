@@ -8,11 +8,11 @@ appId: com.youhodler.youhodler
 appCountry: 
 idd: 1469351696
 released: 2019-07-25
-updated: 2022-01-14
-version: "3.0.1"
+updated: 2022-02-11
+version: "3.1.0"
 stars: 4.78151
 reviews: 238
-size: 39791616
+size: 43222016
 website: https://www.youhodler.com/
 repository: 
 issue: 

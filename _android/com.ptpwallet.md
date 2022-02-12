@@ -11,7 +11,7 @@ released: 2018-12-04
 updated: 2021-12-29
 version: "1.0.1244"
 stars: 4.2
-ratings: 350
+ratings: 351
 reviews: 16
 size: 27M
 website: https://ptpwallet.com

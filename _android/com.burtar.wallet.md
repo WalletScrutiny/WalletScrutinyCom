@@ -11,8 +11,8 @@ released: 2021-07-29
 updated: 2021-07-30
 version: "1.0"
 stars: 4.2
-ratings: 1267
-reviews: 54
+ratings: 1333
+reviews: 58
 size: 6.1M
 website: https://burtar.com
 repository: 

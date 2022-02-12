@@ -11,8 +11,8 @@ released: 2019-01-28
 updated: 2022-02-09
 version: "2.17.0"
 stars: 3.4
-ratings: 6560
-reviews: 4438
+ratings: 6566
+reviews: 4440
 size: 14M
 website: http://www.foxbit.com.br
 repository: 

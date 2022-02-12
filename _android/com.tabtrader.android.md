@@ -13,8 +13,8 @@ released: 2014-08-14
 updated: 2022-02-03
 version: "4.9.7"
 stars: 4.5
-ratings: 56989
-reviews: 1077
+ratings: 57002
+reviews: 1078
 size: 14M
 website: http://www.tab-trader.com
 repository: 

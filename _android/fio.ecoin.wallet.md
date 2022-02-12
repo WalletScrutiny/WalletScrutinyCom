@@ -9,9 +9,9 @@ appId: fio.ecoin.wallet
 appCountry: us
 released: 2020-10-08
 updated: 2022-02-08
-version: "6.3.0"
+version: "6.3.5"
 stars: 4.1
-ratings: 3484
+ratings: 3492
 reviews: 67
 size: 96M
 website: https://ecoinofficial.org/
