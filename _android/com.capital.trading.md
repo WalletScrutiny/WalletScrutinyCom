@@ -11,7 +11,7 @@ released: 2017-10-18
 updated: 2022-02-11
 version: "1.39.0"
 stars: 4.6
-ratings: 28815
+ratings: 28865
 reviews: 11
 size: Varies with device
 website: https://capital.com

@@ -11,7 +11,7 @@ released: 2015-04-27
 updated: 2022-02-10
 version: "7.8.1"
 stars: 4.8
-ratings: 11389
+ratings: 11399
 reviews: 943
 size: 34M
 website: https://lobstr.co/

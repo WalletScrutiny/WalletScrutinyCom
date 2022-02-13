@@ -12,7 +12,7 @@ released: 2019-12-30
 updated: 2022-01-07
 version: "1.2.0.5"
 stars: 4.6
-ratings: 404
+ratings: 405
 reviews: 21
 size: 25M
 website: https://adslab-2b1c2.web.app

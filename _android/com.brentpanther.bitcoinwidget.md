@@ -11,7 +11,7 @@ released: 2013-03-11
 updated: 2022-02-03
 version: "8.2"
 stars: 3.8
-ratings: 2095
+ratings: 2096
 reviews: 175
 size: 4.6M
 website: http://www.brentpanther.com

@@ -8,12 +8,12 @@ users: 10000
 appId: com.bitexuae
 appCountry: ae
 released: 2020-02-23
-updated: 2021-12-26
-version: "3.0"
+updated: 2022-02-12
+version: "3.1"
 stars: 1.7
 ratings: 127
 reviews: 13
-size: 171M
+size: 170M
 website: https://www.bitex.com
 repository: 
 issue: 

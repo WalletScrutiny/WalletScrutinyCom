@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.bdb.bdbwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-02-13
 signer: 
 reviewArchive:
 

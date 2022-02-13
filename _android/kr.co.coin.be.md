@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: kr.co.coin.be.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-02-13
 signer: 
 reviewArchive:
 

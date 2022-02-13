@@ -11,8 +11,8 @@ released: 2018-11-05
 updated: 2022-02-10
 version: "1.5.15.be14"
 stars: 2.7
-ratings: 1378
-reviews: 1009
+ratings: 1377
+reviews: 1008
 size: 29M
 website: https://www.gopax.co.kr
 repository: 

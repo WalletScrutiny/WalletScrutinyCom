@@ -10,8 +10,8 @@ idd: 1561969966
 released: 2021-05-14
 updated: 2022-01-27
 version: "11.2.2"
-stars: 4.59191
-reviews: 544
+stars: 4.59266
+reviews: 545
 size: 123944960
 website: https://coin98.app/
 repository: 

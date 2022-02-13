@@ -10,9 +10,9 @@ appCountry: ca
 released: 2019-06-09
 updated: 2022-01-03
 version: "6.02.475"
-stars: 4.4
-ratings: 67
-reviews: 9
+stars: 4.7
+ratings: 66
+reviews: 8
 size: 29M
 website: https://pilottrading.co/
 repository: 

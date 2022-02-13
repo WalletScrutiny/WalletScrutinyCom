@@ -11,7 +11,7 @@ released: 2020-07-11
 updated: 2022-02-11
 version: "1.0.51"
 stars: 3.6
-ratings: 63
+ratings: 64
 reviews: 2
 size: 35M
 website: https://www.bitmama.io

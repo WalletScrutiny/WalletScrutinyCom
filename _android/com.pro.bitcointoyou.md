@@ -11,7 +11,7 @@ released: 2019-10-31
 updated: 2022-02-10
 version: "0.0.199"
 stars: 3.7
-ratings: 1336
+ratings: 1343
 reviews: 3
 size: 64M
 website: https://www.bitcointoyou.com

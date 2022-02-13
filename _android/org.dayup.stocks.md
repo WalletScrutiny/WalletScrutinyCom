@@ -12,8 +12,8 @@ released:
 updated: 2022-01-20
 version: "7.4.3.24"
 stars: 4.4
-ratings: 164359
-reviews: 34060
+ratings: 164513
+reviews: 34092
 size: 57M
 website: https://www.webull.com
 repository: 

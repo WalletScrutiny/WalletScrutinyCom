@@ -8,8 +8,8 @@ users: 10000
 appId: com.ibt.quarashi
 appCountry: 
 released: 2021-07-09
-updated: 2022-01-04
-version: "1.0.23"
+updated: 2022-02-12
+version: "1.0.25"
 stars: 0.0
 ratings: 
 reviews: 

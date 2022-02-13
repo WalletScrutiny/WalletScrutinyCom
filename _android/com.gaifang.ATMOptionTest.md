@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buy btc:Atm Options trading"
+title: "Atm Options:pintu tol trading"
 altTitle: 
 authors:
 - danny

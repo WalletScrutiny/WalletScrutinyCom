@@ -11,7 +11,7 @@ released: 2018-09-07
 updated: 2022-02-10
 version: "1.150.10"
 stars: 4.9
-ratings: 2101
+ratings: 2115
 reviews: 325
 size: 8.7M
 website: https://changenow.io

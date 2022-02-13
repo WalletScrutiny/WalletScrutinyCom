@@ -8,11 +8,11 @@ appId: com.beecrypt.beecrypthd
 appCountry: us
 idd: 1487413008
 released: 2020-06-15
-updated: 2021-12-16
-version: "3.9"
+updated: 2022-02-12
+version: "3.9.1"
 stars: 5
 reviews: 1
-size: 59106304
+size: 59139072
 website: https://moneypipe.com/hd-wallet/
 repository: 
 issue: 

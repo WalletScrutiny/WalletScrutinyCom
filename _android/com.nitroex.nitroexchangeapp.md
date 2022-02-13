@@ -11,7 +11,7 @@ released: 2021-06-23
 updated: 2021-12-28
 version: "2.0.3"
 stars: 4.6
-ratings: 228
+ratings: 229
 reviews: 164
 size: 22M
 website: https://www.nitroex.io/
