@@ -11,7 +11,7 @@ released: 2020-11-10
 updated: 2021-04-02
 version: "1.1.0"
 stars: 2.8
-ratings: 71
+ratings: 72
 reviews: 3
 size: 18M
 website: https://www.atechcoins.com

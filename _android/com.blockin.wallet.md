@@ -11,7 +11,7 @@ released: 2020-03-23
 updated: 2022-02-12
 version: "2.3.2"
 stars: 3.6
-ratings: 222
+ratings: 223
 reviews: 12
 size: 54M
 website: https://poolin.fi/

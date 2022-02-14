@@ -10,8 +10,8 @@ idd: 1346160076
 released: 2018-05-29
 updated: 2022-01-04
 version: "5.0"
-stars: 3.31167
-reviews: 677
+stars: 3.31268
+reviews: 678
 size: 47133696
 website: https://bitbns.com
 repository: 

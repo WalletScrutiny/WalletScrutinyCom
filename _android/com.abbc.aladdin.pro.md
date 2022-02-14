@@ -11,7 +11,7 @@ released: 2019-11-15
 updated: 2021-12-12
 version: "1.8.6"
 stars: 4.9
-ratings: 5400
+ratings: 5401
 reviews: 162
 size: 34M
 website: http://abbcpayment.com

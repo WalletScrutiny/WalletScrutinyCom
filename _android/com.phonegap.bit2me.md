@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: "Bit2Me - Buy and Sell Bitcoin"
+title: "Bit2Me: BTC and +100 coins"
 altTitle: 
 authors:
 - leo
@@ -11,8 +11,8 @@ released: 2015-01-08
 updated: 2022-02-09
 version: "2.2.4"
 stars: 4.4
-ratings: 4962
-reviews: 318
+ratings: 4977
+reviews: 317
 size: 59M
 website: https://bit2me.com
 repository: 

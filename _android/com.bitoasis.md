@@ -11,8 +11,8 @@ released: 2020-08-20
 updated: 2022-02-04
 version: "1.4.12"
 stars: 4.4
-ratings: 2606
-reviews: 290
+ratings: 2626
+reviews: 291
 size: 75M
 website: https://bitoasis.net/
 repository: 

@@ -10,8 +10,8 @@ appCountry: ph
 released: 2021-01-18
 updated: 2022-01-29
 version: "1.5.22"
-stars: 3.8
-ratings: 3103
+stars: 3.9
+ratings: 3102
 reviews: 1515
 size: 39M
 website: https://pdax.ph

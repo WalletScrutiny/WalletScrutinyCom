@@ -11,7 +11,7 @@ released: 2020-05-05
 updated: 2022-02-03
 version: "1.0.37"
 stars: 4.1
-ratings: 168
+ratings: 169
 reviews: 4
 size: 11M
 website: https://skilling.com/

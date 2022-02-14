@@ -11,7 +11,7 @@ released: 2018-05-20
 updated: 2020-03-11
 version: "2.0.2"
 stars: 3.6
-ratings: 1189
+ratings: 1190
 reviews: 30
 size: 30M
 website: http://www.coinchat.im

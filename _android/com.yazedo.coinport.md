@@ -4,7 +4,7 @@ title: "CoinPort: Buy and Sell Bitcoin & Ethereum (P2P)"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: com.yazedo.coinport
 appCountry: 
 released: 2018-03-04
@@ -20,7 +20,7 @@ issue:
 icon: com.yazedo.coinport.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:

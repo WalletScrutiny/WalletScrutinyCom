@@ -11,8 +11,8 @@ released: 2017-09-23
 updated: 2021-12-20
 version: "2021.8.2"
 stars: 4.2
-ratings: 26208
-reviews: 1694
+ratings: 26213
+reviews: 1695
 size: 99M
 website: https://delta.app
 repository: 

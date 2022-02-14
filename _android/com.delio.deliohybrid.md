@@ -11,8 +11,8 @@ released: 2020-02-27
 updated: 2022-01-17
 version: "1.3.9"
 stars: 2.6
-ratings: 47
-reviews: 36
+ratings: 48
+reviews: 37
 size: 29M
 website: https://www.delio.foundation
 repository: 

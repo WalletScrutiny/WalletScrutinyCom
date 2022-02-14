@@ -8,10 +8,10 @@ users: 5000000
 appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
-updated: 2022-01-31
+updated: 2022-02-14
 version: "4.0.8"
 stars: 3.8
-ratings: 109162
+ratings: 109197
 reviews: 449
 size: 39M
 website: https://coins.ph

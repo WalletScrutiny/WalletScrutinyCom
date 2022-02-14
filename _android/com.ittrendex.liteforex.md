@@ -11,7 +11,7 @@ released: 2017-10-23
 updated: 2022-01-27
 version: "1.5.0"
 stars: 4.0
-ratings: 1045
+ratings: 1046
 reviews: 15
 size: 4.7M
 website: https://www.liteforex.com

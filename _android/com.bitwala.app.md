@@ -11,8 +11,8 @@ released: 2019-07-11
 updated: 2022-01-24
 version: "2.3.6"
 stars: 3.7
-ratings: 4293
-reviews: 2669
+ratings: 4295
+reviews: 2670
 size: 92M
 website: https://www.nuri.com
 repository: 

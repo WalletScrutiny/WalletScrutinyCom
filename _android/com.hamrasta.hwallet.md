@@ -11,10 +11,10 @@ released: 2019-09-22
 updated: 2020-08-03
 version: "2.7"
 stars: 4.0
-ratings: 130
+ratings: 134
 reviews: 7
 size: 2.0M
-website: https://wallet.hamrsta.com
+website: https://hamrasta.com/hamrastamarket/
 repository: 
 issue: 
 icon: com.hamrasta.hwallet.png

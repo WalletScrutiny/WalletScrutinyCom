@@ -4,15 +4,15 @@ title: "Coinberry: Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinberry_mobile
 appCountry: ca
 released: 2018-12-19
 updated: 2022-02-07
 version: "1.23.02"
 stars: 3.1
-ratings: 1112
-reviews: 625
+ratings: 1113
+reviews: 626
 size: 84M
 website: https://www.coinberry.com
 repository: 

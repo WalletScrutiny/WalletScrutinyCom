@@ -10,8 +10,8 @@ appCountry:
 released: 2020-10-26
 updated: 2022-02-09
 version: "1.30.60"
-stars: 5.0
-ratings: 249
+stars: 0.0
+ratings: 
 reviews: 
 size: 65M
 website: https://amlsafe.io/

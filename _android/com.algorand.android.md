@@ -11,8 +11,8 @@ released: 2019-06-07
 updated: 2022-01-03
 version: "4.10.12"
 stars: 4.7
-ratings: 13567
-reviews: 956
+ratings: 13612
+reviews: 957
 size: 28M
 website: https://www.algorand.com
 repository: 

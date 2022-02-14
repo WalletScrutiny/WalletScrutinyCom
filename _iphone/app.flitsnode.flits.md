@@ -10,8 +10,8 @@ idd: 1460563713
 released: 2019-04-30
 updated: 2021-02-09
 version: "4.4"
-stars: 3.97059
-reviews: 68
+stars: 3.98551
+reviews: 69
 size: 82679808
 website: https://flitsnode.app
 repository: 

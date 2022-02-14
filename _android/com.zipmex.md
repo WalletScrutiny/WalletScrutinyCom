@@ -9,10 +9,10 @@ appId: com.zipmex
 appCountry: cn
 released: 2020-03-30
 updated: 2022-02-10
-version: "22.1.3.1.1781530942"
+version: "22.2.1.1825925728"
 stars: 4.5
-ratings: 17499
-reviews: 10510
+ratings: 17547
+reviews: 10533
 size: 128M
 website: https://zipmex.co.th/
 repository: 

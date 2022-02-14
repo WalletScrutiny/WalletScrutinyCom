@@ -11,7 +11,7 @@ released: 2019-07-10
 updated: 2022-02-07
 version: "2.11.14"
 stars: 2.6
-ratings: 103
+ratings: 104
 reviews: 8
 size: 64M
 website: https://coinfalcon.com

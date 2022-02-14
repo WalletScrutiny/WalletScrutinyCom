@@ -11,7 +11,7 @@ released: 2021-01-11
 updated: 2022-01-13
 version: "1.87"
 stars: 4.0
-ratings: 377
+ratings: 379
 reviews: 13
 size: 78M
 website: https://www.forex.com

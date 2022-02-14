@@ -11,8 +11,8 @@ released: 2018-04-10
 updated: 2022-02-10
 version: "1.30.12"
 stars: 3.5
-ratings: 1016
-reviews: 116
+ratings: 1020
+reviews: 117
 size: 32M
 website: https://www.bitrefill.com
 repository: 

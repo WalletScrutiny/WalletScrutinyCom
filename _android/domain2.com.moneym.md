@@ -4,7 +4,7 @@ title: "WebMoney Crypto"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: domain2.com.moneym
 appCountry: 
 released: 2019-06-29
@@ -20,7 +20,7 @@ issue:
 icon: domain2.com.moneym.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
