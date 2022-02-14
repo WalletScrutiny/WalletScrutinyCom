@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: net.benoitbasset.bittapi
+appCountry: 
 released: 2017-12-09
 updated: 2018-11-13
 version: "1.2.1"
-stars: 4.7
+stars: 4.5
 ratings: 99
-reviews: 42
+reviews: 6
 size: 5.0M
-website: 
+website: http://bittapi.oblade.net
 repository: 
 issue: 
 icon: net.benoitbasset.bittapi.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

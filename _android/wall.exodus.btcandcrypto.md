@@ -7,10 +7,11 @@ authors:
 - leo
 users: 100
 appId: wall.exodus.btcandcrypto
+appCountry: 
 released: 2021-07-16
 updated: 2021-07-16
 version: "6.045"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 10M
@@ -19,15 +20,11 @@ repository:
 issue: 
 icon: wall.exodus.btcandcrypto.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-08-06
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "6.045"
-  appHash: 
-  gitRevision: 954e8c3a9aa0a5fdc7a523f841189f1b997fab8e
-  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-04**: This app disappeared from the Play Store 2 days after our
 "fake" verdict.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: kuna.beta
+appCountry: us
 released: 2019-07-22
-updated: 2021-11-03
-version: "1.4.7"
-stars: 3.6
-ratings: 838
-reviews: 503
-size: 93M
-website: https://kuna.io
+updated: 2022-02-04
+version: "1.4.15"
+stars: 3.1
+ratings: 1088
+reviews: 6
+size: 94M
+website: https://kuna.io/
 repository: 
 issue: 
 icon: kuna.beta.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: KunaExchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Kuna suite of services is not just the app that we're currently describing. This is the description on its Google Play page:
 

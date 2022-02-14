@@ -6,9 +6,10 @@ authors:
 - danny
 users: 1000
 appId: com.oracle.wallet
+appCountry: us
 released: 2021-01-19
-updated: 2021-09-29
-version: "1.4.8"
+updated: 2021-12-28
+version: "1.4.9"
 stars: 4.6
 ratings: 38
 reviews: 24
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.oracle.wallet.png
 bugbounty: 
+meta: defunct
 verdict: nobtc
-date: 2021-11-15
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: Oracle_Wallet
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-19**: This app is not available anymore.
 
 ## App Description
 

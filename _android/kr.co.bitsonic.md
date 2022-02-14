@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: kr.co.bitsonic
+appCountry: 
 released: 2018-05-31
 updated: 2021-03-24
 version: "1.9.6"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: kr.co.bitsonic.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Verdict
 

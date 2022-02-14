@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: cme.hibitex.app
+appCountry: 
 released: 2018-11-13
 updated: 2018-11-14
 version: "1.02"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: cme.hibitex.app.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: wip
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

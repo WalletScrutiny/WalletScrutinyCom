@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.joachimneumann.bisq
+appCountry: 
 released: 2018-09-06
 updated: 2018-12-04
 version: "1.1.0"
-stars: 3.9
-ratings: 65
-reviews: 30
+stars: 2.6
+ratings: 68
+reviews: 11
 size: 3.6M
-website: 
+website: http://www.joachimneumann.com
 repository: 
 issue: 
 icon: com.joachimneumann.bisq.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.exchangernet
+appCountry: 
 released: 2021-02-21
 updated: 2021-02-22
 version: "1.0"
-stars: 4.4
-ratings: 49
-reviews: 32
+stars: 4.1
+ratings: 67
+reviews: 6
 size: 2.0M
 website: https://www.exchangernet.com/
 repository: 
 issue: 
 icon: com.exchangernet.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: echangerbd
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

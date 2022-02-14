@@ -4,25 +4,26 @@ title: "LPNT - Crypto Wallet Beta version"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.token.lpnt
+appCountry: 
 released: 2021-05-03
-updated: 2021-10-01
-version: "2.2"
-stars: 4.3
-ratings: 1317
-reviews: 586
-size: 6.2M
-website: https://lpntoken.io/
+updated: 2022-02-04
+version: "2.9"
+stars: 0.0
+ratings: 
+reviews: 
+size: 24M
+website: https://www.lpntoken.io
 repository: 
 issue: 
 icon: com.token.lpnt.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: officialLPNT
 providerLinkedIn: official-lpnt
@@ -32,7 +33,6 @@ providerReddit: lpntokenofficial
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the description:

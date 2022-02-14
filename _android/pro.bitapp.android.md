@@ -1,9 +1,12 @@
 ---
+wsId: 
 title: "PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST"
 altTitle: 
+authors:
 
 users: 1000
 appId: pro.bitapp.android
+appCountry: 
 released: 2018-11-20
 updated: 2019-10-11
 version: "v2.6.0"
@@ -16,11 +19,11 @@ repository:
 issue: 
 icon: pro.bitapp.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2020-05-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: PureWallet
 providerLinkedIn: 
@@ -31,7 +34,6 @@ redirect_from:
   - /pro.bitapp.android/
   - /posts/pro.bitapp.android/
 ---
-
 
 **Update**: As the app is not available on Google Play, we assume it is defunct
 now.

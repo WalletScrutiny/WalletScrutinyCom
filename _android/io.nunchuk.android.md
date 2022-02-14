@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: io.nunchuk.android
+appCountry: 
 released: 2021-11-11
-updated: 2021-12-15
-version: "1.9.8"
-stars: 
+updated: 2022-01-25
+version: "1.9.11"
+stars: 0.0
 ratings: 
 reviews: 
 size: 20M
-website: 
+website: https://nunchuk.io
 repository: 
 issue: 
 icon: io.nunchuk.android.jpg
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-12-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
   

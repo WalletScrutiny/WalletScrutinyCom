@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: me.flashex.app.a
+appCountry: 
 released: 2020-08-25
 updated: 2020-08-26
 version: "1.0.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 22M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: me.flashex.app.a.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: This app is not on Play Store anymore.
 

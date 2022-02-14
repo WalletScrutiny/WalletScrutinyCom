@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.stormgain.mobile
+appCountry: de
 released: 2019-07-08
-updated: 2021-11-11
-version: "1.21.0"
-stars: 4.3
-ratings: 79603
-reviews: 39874
+updated: 2021-12-28
+version: "1.22.0"
+stars: 4.7
+ratings: 109814
+reviews: 2768
 size: 37M
-website: https://stormgain.com
+website: https://stormgain.com/
 repository: 
 issue: 
 icon: com.stormgain.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: StormGain_com
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app's description mainly focuses on trading and interest earning, features
 usually associated with custodial offerings. Also their little paragraph on

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 500000
 appId: com.plunien.poloniex
+appCountry: 
 released: 2017-06-19
-updated: 2021-11-18
-version: "1.31.1"
-stars: 4.4
-ratings: 7007
-reviews: 3554
-size: 31M
-website: https://support.poloniex.com
+updated: 2022-02-08
+version: "1.33.1"
+stars: 4.1
+ratings: 7382
+reviews: 180
+size: 32M
+website: https://support.poloniex.com/
 repository: 
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: Poloniex
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.plunien.poloniex/
   - /posts/com.plunien.poloniex/
 ---
-
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto
 exchange but on the Google Play description we read:

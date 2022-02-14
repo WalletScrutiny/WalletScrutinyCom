@@ -1,28 +1,29 @@
 ---
 wsId: roseon
-title: "Roseon Finance: Crypto Investment"
+title: "Roseon WonderApp"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: roseon.finance
+appCountry: vn
 released: 2021-03-16
-updated: 2021-12-16
-version: "2.3.17"
-stars: 0.0
-ratings: 
-reviews: 
-size: 74M
-website: https://roseon.finance/
+updated: 2022-01-28
+version: "2.3.22"
+stars: 4.8
+ratings: 546
+reviews: 25
+size: 88M
+website: http://roseon.finance
 repository: 
 issue: 
 icon: roseon.finance.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: RoseonFinance
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

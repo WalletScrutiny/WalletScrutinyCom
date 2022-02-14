@@ -6,27 +6,24 @@ authors:
 - leo
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
+appCountry: 
 released: 2019-02-04
-updated: 2020-12-10
-version: "2.3.5"
-stars: 4.4
-ratings: 29
-reviews: 18
+updated: 2022-02-07
+version: "2.4.0"
+stars: 4.0
+ratings: 32
+reviews: 5
 size: Varies with device
 website: https://bitcoinox.com
 repository: 
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-verdict: stale
-date: 2021-12-12
+meta: ok
+verdict: nosource
+date: 2022-02-09
 signer: 
 reviewArchive:
-- date: 2020-09-27
-  version: "2.3.5"
-  appHash: 
-  gitRevision: d458be07d9758370aa2602191c4d5d52dd67f424
-  verdict: nosource
 
 providerTwitter: bitcoin_ox
 providerLinkedIn: 
@@ -37,7 +34,6 @@ redirect_from:
   - /org.bitcoinox.bitcoinoxwallet/
   - /posts/org.bitcoinox.bitcoinoxwallet/
 ---
-
 
 > Safety
 > 

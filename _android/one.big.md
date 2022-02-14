@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: one.big
+appCountry: us
 released: 2019-10-30
-updated: 2021-11-24
-version: "2.1.940"
-stars: 4.2
-ratings: 732
-reviews: 378
-size: 57M
+updated: 2022-02-05
+version: "2.2.203"
+stars: 4.0
+ratings: 829
+reviews: 52
+size: 55M
 website: https://www.b1.zone/
 repository: 
 issue: 
 icon: one.big.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BigONEexchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: BigONEExchange
 redirect_from:
 
 ---
-
 
 BigONE has the interface of a digital exchange, and advertises itself as such.
 

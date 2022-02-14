@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: com.BuySellSignals.app
+appCountry: 
 released: 2019-06-02
 updated: 2019-07-01
 version: "1.0.9"
-stars: 3.4
-ratings: 13
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.9M
-website: 
+website: https://buysellsignals.app/landing/
 repository: 
 issue: 
 icon: com.BuySellSignals.app.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

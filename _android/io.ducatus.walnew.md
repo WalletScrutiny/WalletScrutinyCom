@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: io.ducatus.walnew
+appCountry: 
 released: 2019-12-05
-updated: 2021-12-10
-version: "2.7.7"
-stars: 4.7
-ratings: 329
-reviews: 224
+updated: 2022-02-09
+version: "2.7.13"
+stars: 3.8
+ratings: 342
+reviews: 6
 size: 25M
-website: https://ducatus.net
+website: https://ducatus.net/
 repository: 
 issue: 
 icon: io.ducatus.walnew.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app supports Bitcoin:
 

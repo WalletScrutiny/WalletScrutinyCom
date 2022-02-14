@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
+appCountry: 
 released: 2021-07-28
 updated: 2021-07-28
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.3M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-08-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-17**: This app is not the the Play Store anymore and by name
 apparently tried to imitate

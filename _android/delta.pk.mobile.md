@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: delta.pk.mobile
+appCountry: bg
 released: 2013-03-29
 updated: 2021-05-17
 version: "5.8.7"
-stars: 4.0
-ratings: 408
-reviews: 104
+stars: 4.1
+ratings: 409
+reviews: 55
 size: 1.2M
-website: https://www.deltastock.com/
+website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
 issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: deltastock
 providerLinkedIn: deltastock-ad
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

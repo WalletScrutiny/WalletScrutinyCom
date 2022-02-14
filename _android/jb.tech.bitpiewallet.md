@@ -6,10 +6,11 @@ authors:
 - leo
 users: 1000
 appId: jb.tech.bitpiewallet
+appCountry: 
 released: 
 updated: 2021-02-01
 version: "1.3"
-stars: 4.0
+stars: 4
 ratings: 71
 reviews: 69
 size: 11M
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: jb.tech.bitpiewallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-04-30
 signer: 
 reviewArchive:
-- date: 2021-01-20
-  version: 
-  appHash: 
-  gitRevision: 7c41675d933938883582fc5a083d69e8b2644900
-  verdict: custodial
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as
 the original analysis below suggests.

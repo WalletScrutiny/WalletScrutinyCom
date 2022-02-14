@@ -4,25 +4,27 @@ title: "OneKey - Safe Crypto Wallet"
 altTitle: 
 authors:
 - danny
+- leo
 users: 5000
 appId: com.bixin.wallet.mainnet
+appCountry: us
 released: 2020-09-16
-updated: 2021-10-19
-version: "2.12.0"
-stars: 4.8
-ratings: 310
-reviews: 156
+updated: 2022-01-19
+version: "2.12.2"
+stars: 4.7
+ratings: 315
+reviews: 8
 size: 69M
-website: https://onekey.so/
+website: https://onekey.so
 repository: https://github.com/OneKeyHQ/wallet-deprecated-
 issue: https://github.com/OneKeyHQ/android_app/issues/1
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: OneKeyHQ
 providerLinkedIn: 
@@ -33,8 +35,13 @@ redirect_from:
 
 ---
 
-
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
+
+**Updated Review 2022-01-05**: Hunting for the firmware source code and Android source has resulted in the [request](https://github.com/OneKeyHQ/firmware/issues/17) for the following in OneKey's GitHub page:
+
+> link to the correct firmware and bootloader repositories
+> link to the signed binaries for every release
+> document how the hardware wallet asks the user for approval, at least optionally showing the binary's hash, so the user can make sure he's installing what he wants to install
 
 ## App Description
 

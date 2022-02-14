@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.matrixport.bit
+appCountry: 
 released: 2021-03-15
-updated: 2021-11-29
-version: "1.0.2"
-stars: 4.9
-ratings: 231
-reviews: 217
-size: 54M
-website: https://www.bit.com/
+updated: 2022-01-10
+version: "1.0.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 56M
+website: https://www.bit.com
 repository: 
 issue: 
 icon: com.matrixport.bit.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcom_exchange
 providerLinkedIn: bitcom-exchange
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Bit.com comes from the [same providers](https://play.google.com/store/apps/developer?id=Matrixport) of {% include walletLink.html wallet='android/com.matrixport.mark' verdict='true' %}
 

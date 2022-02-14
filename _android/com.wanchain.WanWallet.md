@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.wanchain.WanWallet
+appCountry: us
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.8
-ratings: 114
-reviews: 71
+stars: 3.2
+ratings: 118
+reviews: 11
 size: 65M
-website: https://www.wanchain.org/
+website: https://www.wanchain.org
 repository: https://github.com/wanchain
 issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: wanchain_org
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: wanchain
 redirect_from:
 
 ---
-
 
 **UPDATE 2021-11-23** There's no source code for the android app on Github, making the app **not verifiable.**
 

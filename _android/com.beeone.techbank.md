@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.beeone.techbank
+appCountry: 
 released: 2019-07-14
 updated: 2021-11-26
 version: "4.9.10"
-stars: 4.3
-ratings: 673
-reviews: 287
+stars: 4.1
+ratings: 697
+reviews: 42
 size: 83M
-website: https://techbank.finance
+website: https://techbank.finance/
 repository: 
 issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.beeone.techbank/
 ---
-
 
 They claim a million "members" and list big banks as their "acquirers" but there
 is little to back those claims. 10k downloads on Play Store and eight ratings on

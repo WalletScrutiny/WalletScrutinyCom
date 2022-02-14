@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.cryptorabbit.cryptorabbit
+appCountry: 
 released: 2019-04-07
 updated: 2019-11-15
 version: "1.0.9"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cryptorabbit.cryptorabbit.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-11-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

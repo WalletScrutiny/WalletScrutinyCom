@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.secux.mobile
+appCountry: 
 released: 2020-07-03
 updated: 2021-01-15
 version: "1.0.1"
-stars: 2.7
-ratings: 51
-reviews: 42
+stars: 2.4
+ratings: 56
+reviews: 22
 size: 1.4M
-website: https://secuxtech.com/
+website: https://www.secuxtech.com
 repository: 
 issue: 
 icon: com.secux.mobile.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-15
+date: 2022-01-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: SecuXwallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **CAUTION:** Some users have reported losing cryptocurrencies with this app.
 

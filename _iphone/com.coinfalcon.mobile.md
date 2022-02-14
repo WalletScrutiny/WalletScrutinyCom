@@ -8,21 +8,21 @@ appId: com.coinfalcon.mobile
 appCountry: 
 idd: 1396963260
 released: 2018-10-05
-updated: 2021-02-09
-version: "2.1.13"
-stars: 3.14286
-reviews: 14
-size: 52423680
+updated: 2022-02-02
+version: "2.1.14"
+stars: 3
+reviews: 15
+size: 52341760
 website: https://coinfalcon.com
 repository: 
 issue: 
 icon: com.coinfalcon.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinfalcon
 providerLinkedIn: 

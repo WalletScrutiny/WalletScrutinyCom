@@ -8,21 +8,21 @@ appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
 released: 2017-06-26
-updated: 2021-10-27
-version: "2.10.1"
+updated: 2022-02-01
+version: "3.0.0"
 stars: 4.46269
 reviews: 335
-size: 65557504
+size: 53052416
 website: https://www.muchbetter.com
 repository: 
 issue: 
 icon: com.muchbetter.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: paymuchbetter
 providerLinkedIn: mir-muchbetter

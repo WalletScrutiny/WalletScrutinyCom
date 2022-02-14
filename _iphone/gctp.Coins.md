@@ -8,21 +8,21 @@ appId: gctp.Coins
 appCountry: 
 idd: 972324049
 released: 2015-04-04
-updated: 2021-12-08
-version: "2.19.4"
-stars: 4.71919
-reviews: 3205
-size: 109208576
+updated: 2022-02-14
+version: "3.1.0"
+stars: 4.71769
+reviews: 3188
+size: 117107712
 website: https://coins.ph/
 repository: 
 issue: 
 icon: gctp.Coins.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinsph
 providerLinkedIn: coins-ph

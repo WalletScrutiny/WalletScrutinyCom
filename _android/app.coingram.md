@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: app.coingram
+appCountry: 
 released: 2019-07-02
 updated: 2021-12-11
 version: "3.1.1"
-stars: 4.7
-ratings: 43686
-reviews: 24528
+stars: 4.8
+ratings: 43978
+reviews: 1155
 size: 25M
-website: 
+website: http://www.coingraam.com/
 repository: 
 issue: 
 icon: app.coingram.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note that as of 2021-08-23 this app does not seem to have an English translation.
 

@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "Bitcoin & Crypto payments - BitBay Terminal (POS)"
+title: "Bitcoin Terminal - Zonda Pay"
 altTitle: 
 authors:
 
 users: 1000
 appId: com.bitbay.pay.bitcoin.pos.terminal
+appCountry: 
 released: 2019-03-18
-updated: 2020-03-06
-version: "1.6.6"
-stars: 5.0
-ratings: 5
-reviews: 3
-size: 5.9M
-website: 
+updated: 2021-12-21
+version: "1.6.9(55)"
+stars: 0.0
+ratings: 
+reviews: 
+size: 4.6M
+website: https://zondaglobal.com/pay
 repository: 
 issue: 
 icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: ok
+verdict: wip
+date: 2022-02-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

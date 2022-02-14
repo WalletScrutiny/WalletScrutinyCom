@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.stefanschneider.bitcointrading
+appCountry: 
 released: 2019-07-01
 updated: 2019-10-12
 version: "2.0.0"
-stars: 4.3
-ratings: 15
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
-website: 
+website: https://bitcoin-trading.global/
 repository: 
 issue: 
 icon: com.stefanschneider.bitcointrading.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.gcox.wallet
+appCountry: 
 released: 2018-11-05
 updated: 2020-10-29
 version: "1.0.6"
-stars: 4.5
-ratings: 16
-reviews: 9
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: 
+website: https://gcox.com
 repository: 
 issue: 
 icon: com.gcox.wallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,17 +7,17 @@ authors:
 users: 10
 appId: com.yaolian.qoline
 released: 2021-07-14
-updated: 2021-09-28
-version: "1.5"
+updated: 2022-01-17
+version: "1.8.3"
 stars: 0.0
 ratings: 
 reviews: 
-size: 18M
-website: https://salletone.com/
+size: 22M
+website: https://www.salletone.com
 repository: https://github.com/SalletOne/
 issue: 
 icon: com.yaolian.qoline.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: fewusers
 date: 2021-09-01

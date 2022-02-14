@@ -9,7 +9,8 @@ const { Mutex, Semaphore, withTimeout } = require('async-mutex')
 const sem = new Semaphore(5)
 const stats = {
   defunct: 0,
-  updated: 0
+  updated: 0,
+  remaining: 0
 }
 
 const allowedHeaders = [
@@ -39,7 +40,8 @@ const allowedHeaders = [
   "providerLinkedIn",
   "providerFacebook",
   "providerReddit",
-  "redirect_from"
+  "redirect_from",
+  "meta" // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
 ]
 const folder = "_iphone/"
 
@@ -49,7 +51,6 @@ async function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} 🍎 files ...`)
     // HACK: The script fails syncing all apps but maybe if it works for less,
     //       eventually all get updated every now and then ...
     // To have some determinism, the files get sorted by the sha256(file name)
@@ -60,14 +61,16 @@ async function refreshAll() {
       hashes[f] = Buffer.from(digest).toString("hex")
     }))
     // take 1/fraction per round
-    const fraction = 9
+    const fraction = 3
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
     const mod = t % fraction
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
         })
-        .filter((v, i) => {return i % 7 == mod})
+        .filter((v, i) => {return i % fraction == mod})
+    console.log(`Updating ${files.length} 🍎 files ...`)
+    stats.remaining = files.length
     files.forEach((file, index) => {
       refreshFile(file)
     })
@@ -89,7 +92,7 @@ function refreshFile(fileName) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    if (!"defunct".includes(header.verdict)) {
+    if (!"defunct".includes(header.meta)) {
       apple.app({
           id: idd,
           lang: 'en',
@@ -98,6 +101,7 @@ function refreshFile(fileName) {
         const iconPath = `images/wallet_icons/iphone/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
           writeResult(app, header, iconExtension, body)
+          stats.remaining--
           release()
         })
       }, (err) => {
@@ -106,13 +110,30 @@ function refreshFile(fileName) {
         } else {
           console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`)
         }
+        stats.remaining--
         release()
       })
     } else {
       stats.defunct++
+      writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
+      stats.remaining--
       release()
     }
   })
+}
+
+function getAppFromHeader(header) {
+  return {
+    version: header.version,
+    released: header.released,
+    updated: header.updated,
+    title: header.title,
+    score: header.stars,
+    reviews: header.reviews,
+    ratings: header.ratings,
+    size: header.size,
+    developerWebsite: header.website
+  }
 }
 
 function writeResult(app, header, iconExtension, body) {
@@ -126,43 +147,39 @@ function writeResult(app, header, iconExtension, body) {
     releasedString = dateFormat(released, "yyyy-mm-dd")
   }
   const reviewArchive = (header.reviewArchive || [])
-      .filter(it => {
-        // Remove pseudo verdicts.
-        return !"wip,fewusers,stale,obsolete".includes(it.verdict) && it.verdict != undefined
-      })
   const redirects = new Set(header.redirect_from)
   const p = `_iphone/${header.appId}.md`
   const f = fs.createWriteStream(p)
   stats.updated++
   var verdict = header.verdict
   var date = header.date
+  var meta = header.meta || "ok"
+  // if api reports an older updated date than what we determined, keep our data
+  const updated = header.updated && new Date(header.updated) > new Date(app.updated)
+    ? header.updated
+    : app.updated
   // retire if needed
-  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-  if ( daysSinceUpdate > 720 ) {
-    if ( verdict != "obsolete" ) {
-      // mark obsolete if old and not obsoelte yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "obsolete"
-      date = new Date()
-    }
-  } else if ( daysSinceUpdate > 360 ) {
-    if ( verdict != "stale" ) {
-      // mark stale if old and not stale yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "stale"
-      date = new Date()
-    }
-  } else {
-    if ( verdict == "stale" || verdict == "obsolete" ) {
-      // stale/obsolete product was revived. We might have to look into it.
-      helper.addReviewArchive(reviewArchive, header)
-      if ( app.minInstalls < 1000 ) {
-        verdict = "fewusers"
-      } else {
-        verdict = "wip"
+  if (meta != "defunct") {
+    const daysSinceUpdate = ((new Date()) - (new Date(updated))) / 1000 / 60 / 60 / 24
+    if ( daysSinceUpdate > 720 ) {
+      if ( meta != "obsolete" ) {
+        // mark obsolete if old and not obsoelte yet
+        meta = "obsolete"
+        date = new Date()
       }
-      console.log(`\nReviving iphone/${header.appId} (${verdict})`)
-      date = new Date()
+    } else if ( daysSinceUpdate > 360 ) {
+      if ( meta != "stale" ) {
+        // mark stale if old and not stale yet
+        meta = "stale"
+        date = new Date()
+      }
+    } else {
+      if ( "stale,obsolete".includes(meta)) {
+        // stale/obsolete product was revived. We might have to look into it.
+        meta = "ok"
+        console.log(`\nReviving iphone/${header.appId} (${verdict})`)
+        date = new Date()
+      }
     }
   }
   f.write(`---
@@ -175,7 +192,7 @@ appId: ${header.appId}
 appCountry: ${header.appCountry || ""}
 idd: ${header.idd}
 released: ${releasedString}
-updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
+updated: ${dateFormat(updated, "yyyy-mm-dd")}
 version: "${version}"
 stars: ${app.score || ""}
 reviews: ${app.reviews || ""}
@@ -185,6 +202,7 @@ repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
+meta: ${meta}
 verdict: ${verdict}
 date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
@@ -194,7 +212,6 @@ ${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
-
 providerTwitter: ${header.providerTwitter || ""}
 providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}

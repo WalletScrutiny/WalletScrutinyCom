@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: net.tradingbitcoin.fake.bitcoin.investor
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-07**: This app is not on Play Store anymore.

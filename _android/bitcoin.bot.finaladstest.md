@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: bitcoin.bot.finaladstest
+appCountry: 
 released: 2020-10-17
 updated: 2020-10-17
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: bitcoin.bot.finaladstest.png
 bugbounty: 
-verdict: stale
-date: 2021-10-13
+meta: defunct
+verdict: wip
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

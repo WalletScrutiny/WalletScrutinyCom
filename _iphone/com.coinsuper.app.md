@@ -8,21 +8,21 @@ appId: com.coinsuper.app
 appCountry: us
 idd: 1346980481
 released: 2018-02-20
-updated: 2021-11-04
-version: "2.4.13"
-stars: 3.78571
-reviews: 14
+updated: 2021-12-04
+version: "2.4.14"
+stars: 4
+reviews: 13
 size: 57735168
 website: https://www.coinsuper.com/
 repository: 
 issue: 
 icon: com.coinsuper.app.jpg
 bugbounty: 
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinsuper_OFCL
 providerLinkedIn: 
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-17**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

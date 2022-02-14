@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.blockchainproplus.bpw
+appCountry: 
 released: 2021-04-02
 updated: 2021-04-23
 version: "1.1.1"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: obfuscated
 date: 2021-07-02
 signer: 
 reviewArchive:
-- date: 2021-06-27
-  version: "1.1.1"
-  appHash: 
-  gitRevision: 492d7ebb012fb1f6ef959dbeac88ff3d72a07881
-  verdict: obfuscated
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app claims to be a server-less and self-custodial Bitcoin wallet. We were
 asked about funds disappearing on our Wallet Support chat and had a look:

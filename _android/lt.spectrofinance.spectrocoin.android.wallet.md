@@ -6,23 +6,24 @@ authors:
 - leo
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
+appCountry: 
 released: 2014-12-05
 updated: 2021-11-23
 version: "1.18.1"
-stars: 3
-ratings: 3136
-reviews: 923
+stars: 3.8
+ratings: 3148
+reviews: 42
 size: 12M
 website: https://spectrocoin.com
 repository: 
 issue: 
 icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: spectrocoin
 providerLinkedIn: spectrocoin
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This part of the wallet's descriptions certainly sounds like a custodial app:
 

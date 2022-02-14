@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.friendst.strangr
+appCountry: 
 released: 2020-05-02
 updated: 2021-05-26
 version: "1.1"
-stars: 3.8
-ratings: 113
-reviews: 56
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.2M
 website: 
 repository: 
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review and Verdict 2021-11-01
 

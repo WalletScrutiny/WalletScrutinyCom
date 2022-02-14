@@ -4,25 +4,26 @@ title: "KeyWallet Touch - Bitcoin"
 altTitle: 
 authors:
 - leo
+- danny
 appId: kr.co.keypair.keywalletTouchiOS
 appCountry: 
 idd: 1473941321
 released: 2019-07-28
-updated: 2020-12-14
-version: "1.1.27"
-stars: 4
-reviews: 1
-size: 20524032
+updated: 2022-01-10
+version: "1.1.31"
+stars: 
+reviews: 
+size: 21010432
 website: http://keywalletpro.io
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: quickxprotocol
 providerLinkedIn: quickx

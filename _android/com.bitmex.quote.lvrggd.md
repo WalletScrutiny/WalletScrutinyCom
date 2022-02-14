@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bitmex.quote.lvrggd
+appCountry: 
 released: 2018-09-14
 updated: 2021-07-27
 version: "1.6"
-stars: 4.2
-ratings: 62
-reviews: 45
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.9M
 website: 
 repository: 
 issue: 
 icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-11-23
 

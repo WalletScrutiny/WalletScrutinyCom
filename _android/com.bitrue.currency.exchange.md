@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.bitrue.currency.exchange
+appCountry: 
 released: 2018-07-18
-updated: 2021-11-24
-version: "5.0.7"
-stars: 3.5
-ratings: 2281
-reviews: 1437
-size: 39M
-website: https://www.bitrue.com
+updated: 2022-01-28
+version: "5.1.2"
+stars: 3.3
+ratings: 2654
+reviews: 286
+size: 41M
+website: https://www.bitrue.com/
 repository: 
 issue: 
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitrueOfficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.bitrue.currency.exchange/
 ---
-
 
 This app is heavily focused on the "exchange" part which is also in its name.
 Nowhere in Google Play can we find claims about self-custody but things like

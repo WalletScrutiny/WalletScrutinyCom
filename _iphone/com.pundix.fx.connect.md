@@ -10,19 +10,19 @@ idd: 1504798360
 released: 2021-03-25
 updated: 2021-12-13
 version: "1.13.0"
-stars: 3
-reviews: 47
+stars: 3.15094
+reviews: 53
 size: 117922816
 website: https://pundix.com
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 
 icon: com.pundix.fx.connect.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: FUNCTIONX_IO
 providerLinkedIn: functionx

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.defi.wallet
+appCountry: 
 released: 2020-05-11
-updated: 2021-11-11
-version: "1.20.1"
-stars: 4.1
-ratings: 9259
-reviews: 2969
-size: 54M
-website: https://crypto.com/en/defi/
+updated: 2022-01-27
+version: "1.26.0"
+stars: 4.0
+ratings: 12980
+reviews: 1565
+size: 56M
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -33,7 +34,6 @@ redirect_from:
   - /com.defi.wallet/
   - /posts/com.defi.wallet/
 ---
-
 
 This app's description is promising:
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000
 appId: ai.azara.wallet
+appCountry: de
 released: 2020-11-10
 updated: 2021-04-14
 version: "0.01.18"
-stars: 4.9
-ratings: 122
-reviews: 117
+stars: 0.0
+ratings: 
+reviews: 
 size: 44M
 website: https://www.azara.ai
 repository: 
 issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the
   possibility to sell and buy crypto. With this app, you can do all of this with

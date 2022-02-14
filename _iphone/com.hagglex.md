@@ -8,21 +8,21 @@ appId: com.hagglex
 appCountry: us
 idd: 1535046179
 released: 2021-03-18
-updated: 2021-11-01
-version: "1.1.1"
-stars: 4.08263
-reviews: 121
-size: 108738560
+updated: 2021-11-27
+version: "1.1.2"
+stars: 4.11017
+reviews: 118
+size: 109565952
 website: https://www.hagglex.com/
 repository: 
 issue: 
 icon: com.hagglex.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: hagglexintl
 providerLinkedIn: hagglex

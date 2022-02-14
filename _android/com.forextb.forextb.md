@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.forextb.forextb
+appCountry: dk
 released: 2020-09-24
 updated: 2021-11-24
 version: "2.1.6"
 stars: 2.9
-ratings: 329
-reviews: 275
+ratings: 339
+reviews: 283
 size: 79M
 website: https://www.forextb.com/eu/
 repository: 
 issue: 
 icon: com.forextb.forextb.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the description:

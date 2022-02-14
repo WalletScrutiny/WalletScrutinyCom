@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.cryptocurrency.jtechtrade
+appCountry: 
 released: 2021-05-18
 updated: 2021-06-14
 version: "2.0.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cryptocurrency.jtechtrade.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-25**: This app is no more.
 

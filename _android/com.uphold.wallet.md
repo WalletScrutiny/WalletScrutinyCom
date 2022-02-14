@@ -1,28 +1,29 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: "Uphold: Buy BTC, ETH, XRP"
+title: "Uphold - Trade, Invest, Send Money For Zero Fees"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.uphold.wallet
+appCountry: 
 released: 2015-12-29
-updated: 2021-12-13
-version: "4.23.1"
+updated: 2022-02-11
+version: "4.33.0"
 stars: 3.4
-ratings: 18163
-reviews: 11415
-size: 53M
+ratings: 20309
+reviews: 3377
+size: 56M
 website: https://uphold.com
 repository: 
 issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: UpholdInc
 providerLinkedIn: upholdinc
@@ -33,7 +34,6 @@ redirect_from:
   - /com.uphold.wallet/
   - /posts/com.uphold.wallet/
 ---
-
 
 This app appears to be an interface to a custodial trading platform. In the
 Google Play description we read:

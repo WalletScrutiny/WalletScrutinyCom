@@ -6,18 +6,20 @@ authors:
 - leo
 users: 50000
 appId: io.muun.apollo
+appCountry: 
 released: 2017-04-25
-updated: 2021-11-16
-version: "47.3"
-stars: 4.4
-ratings: 491
-reviews: 288
-size: 43M
+updated: 2022-01-18
+version: "48.4"
+stars: 4.5
+ratings: 628
+reviews: 60
+size: 44M
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-10-09
 signer: 
@@ -32,7 +34,6 @@ reviewArchive:
   appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
-
 providerTwitter: MuunWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -42,7 +43,6 @@ redirect_from:
   - /io.muun.apollo/
   - /posts/io.muun.apollo/
 ---
-
 
 **Update 2021-10-09**: We were approached about this verdict being wrong and
 while the provider hasn't claimed a fix, we noticed we haven't filed an issue

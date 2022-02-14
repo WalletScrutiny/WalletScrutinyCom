@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: technology.def.rixx
+appCountry: 
 released: 2021-04-27
 updated: 2021-06-21
 version: "1.0.42"
-stars: 4.5
-ratings: 17
-reviews: 11
+stars: 0.0
+ratings: 
+reviews: 
 size: 26M
-website: https://www.rixx.tech/
+website: http://www.rixx.tech
 repository: 
 issue: 
 icon: technology.def.rixx.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

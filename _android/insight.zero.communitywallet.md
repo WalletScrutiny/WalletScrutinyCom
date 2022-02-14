@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: insight.zero.communitywallet
+appCountry: 
 released: 2018-07-09
 updated: 2019-01-01
 version: "1.0.1"
-stars: 4.7
-ratings: 56
-reviews: 35
+stars: 4.5
+ratings: 66
+reviews: 6
 size: 11M
-website: 
+website: https://zerocurrency.io/
 repository: 
 issue: 
 icon: insight.zero.communitywallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

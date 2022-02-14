@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: atws.app
+appCountry: us
 released: 2010-12-15
-updated: 2021-11-23
-version: "8.4.475"
+updated: 2022-02-14
+version: "8.4.513"
 stars: 3.2
-ratings: 7429
-reviews: 3575
-size: 25M
-website: https://www.interactivebrokers.com/
+ratings: 7669
+reviews: 855
+size: 26M
+website: http://ibkr.com
 repository: 
 issue: 
 icon: atws.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ibkr
 providerLinkedIn: interactive-brokers
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

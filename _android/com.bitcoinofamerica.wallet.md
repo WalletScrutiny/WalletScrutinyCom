@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.bitcoinofamerica.wallet
+appCountry: 
 released: 2019-01-14
 updated: 2021-04-28
 version: "1.1.3"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the description we read:
 

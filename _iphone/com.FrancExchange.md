@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.FrancExchange.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

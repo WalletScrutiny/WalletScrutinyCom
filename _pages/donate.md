@@ -59,7 +59,7 @@ function update() {
   <div>
     <p>Please select aspect you want to support with your donation!:</p>
     <input onChange="updateAspect(this)" type="radio" id="aspect0" name="aspect" value="Any"><label for="aspect0">Anything</label><br>
-    <input onChange="updateAspect(this)" type="radio" id="aspect1" name="aspect" value="MoreWallets"><label for="aspect1">More Android/iPhone/Hardware Wallets</label><br>
+    <input onChange="updateAspect(this)" type="radio" id="aspect1" name="aspect" value="MoreWallets"><label for="aspect1">More Wallets</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect2" name="aspect" value="FrequentUpdates"><label for="aspect2">More frequent updates</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect4" name="aspect" value="MoreOS"><label for="aspect4">More operating systems (Windows, Mac)</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect5" name="aspect" value="CodeReviews"><label for="aspect5">Actual code reviews</label><br>

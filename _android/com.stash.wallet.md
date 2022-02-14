@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.stash.wallet
+appCountry: 
 released: 
 updated: 2018-12-03
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.stash.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-17**: This app is not on Play Store anymore.
 

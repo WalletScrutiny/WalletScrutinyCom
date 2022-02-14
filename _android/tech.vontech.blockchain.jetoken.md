@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: tech.vontech.blockchain.jetoken
+appCountry: 
 released: 2019-04-10
 updated: 2019-06-21
 version: "1.0.12"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: tech.vontech.blockchain.jetoken.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-09**: This app is no more.

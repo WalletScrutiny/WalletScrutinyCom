@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-04-22
 signer: 
 reviewArchive:
-- date: 2020-05-29
-  version: 
-  appHash: 
-  gitRevision: 05366b15413b636ae7f6f4ebeebaea670862cb65
-  verdict: custodial
-
 
 providerTwitter: buycoins_africa
 providerLinkedIn: 

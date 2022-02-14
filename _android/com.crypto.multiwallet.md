@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.crypto.multiwallet
+appCountry: 
 released: 2018-11-01
-updated: 2021-11-30
-version: "2.44.11"
+updated: 2022-01-28
+version: "2.48.3"
 stars: 4.3
-ratings: 3539
-reviews: 1890
-size: 33M
-website: http://guarda.co
+ratings: 3782
+reviews: 408
+size: 31M
+website: https://guarda.com
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-12-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: GuardaWallet
 providerLinkedIn: 
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/11/guardawallet/
   - /posts/com.crypto.multiwallet/
 ---
-
 
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google

@@ -1,28 +1,29 @@
 ---
 wsId: XRex
-title: "XREX Exchange - Trusted Crypto Trading Community"
+title: "XREX — Crypto swap to USD"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.xrex.mobile
+appCountry: au
 released: 2020-02-20
-updated: 2021-11-02
-version: "1.6.92"
-stars: 4.2
-ratings: 41
-reviews: 18
-size: 70M
+updated: 2022-01-17
+version: "1.6.180"
+stars: 0.0
+ratings: 
+reviews: 
+size: 71M
 website: https://xrex.io/
 repository: 
 issue: 
 icon: com.xrex.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: xrexinc
 providerLinkedIn: xrexinc
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

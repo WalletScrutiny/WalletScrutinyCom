@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: folgory.folgory
+appCountry: 
 released: 2021-04-09
 updated: 2021-04-09
 version: "1.0.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: folgory.folgory.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: folgory1
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app has multiple negative reviews from way back in April 2021. 
 

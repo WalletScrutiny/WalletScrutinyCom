@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.ethercredit.wallet
+appCountry: 
 released: 2020-09-23
 updated: 2020-09-23
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.ethercredit.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-09-19
+meta: defunct
+verdict: fewusers
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

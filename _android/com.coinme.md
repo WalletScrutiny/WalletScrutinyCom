@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.coinme
-released: 
-updated: 2021-12-06
-version: "1.6.1"
+appCountry: 
+released: 2021-05-06
+updated: 2022-02-03
+version: "1.8.0"
 stars: 4.4
-ratings: 493
-reviews: 113
-size: 103M
-website: https://coinme.com/
+ratings: 734
+reviews: 160
+size: 105M
+website: https://www.coinme.com
 repository: 
 issue: 
 icon: com.coinme.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinme
 providerLinkedIn: coinme
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

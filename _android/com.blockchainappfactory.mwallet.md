@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.blockchainappfactory.mwallet
+appCountry: 
 released: 2020-03-08
 updated: 2020-03-09
 version: "1.0"
-stars: 3.4
-ratings: 5
+stars: 0.0
+ratings: 
 reviews: 
 size: 5.2M
-website: 
+website: https://mwallet.step.holdings
 repository: 
 issue: 
 icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

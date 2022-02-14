@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.btcalpha.exchange
+appCountry: us
 released: 2021-07-23
-updated: 2021-12-03
-version: "1.9.2"
-stars: 3.7
-ratings: 50
-reviews: 29
-size: 27M
+updated: 2022-01-30
+version: "1.10.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 28M
 website: https://btc-alpha.com/
 repository: 
 issue: 
 icon: com.btcalpha.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: btcalpha
 providerLinkedIn: btcalpha
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

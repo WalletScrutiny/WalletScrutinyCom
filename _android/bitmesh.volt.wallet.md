@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: bitmesh.volt.wallet
+appCountry: us
 released: 2020-05-15
-updated: 2021-12-13
-version: "2.2.4"
-stars: 4.8
-ratings: 132
-reviews: 59
-size: 106M
-website: https://volt.id/
+updated: 2022-02-08
+version: "2.2.7"
+stars: 4.6
+ratings: 154
+reviews: 26
+size: 101M
+website: http://www.volt.id
 repository: 
 issue: 
 icon: bitmesh.volt.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: Voltfinance
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

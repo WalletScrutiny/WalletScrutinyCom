@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: com.latoken.wallet
+appCountry: 
 released: 2020-03-17
-updated: 2021-12-07
-version: "1.96.10"
-stars: 4
-ratings: 31178
-reviews: 15401
-size: 24M
-website: 
+updated: 2022-02-11
+version: "1.98.05"
+stars: 4.2
+ratings: 34430
+reviews: 92
+size: 26M
+website: http://latoken.com
 repository: 
 issue: 
 icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: latokens
 providerLinkedIn: latoken
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.
 

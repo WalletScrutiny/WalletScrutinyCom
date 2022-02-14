@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.net_cents.netcents2
+appCountry: us
 released: 2017-10-12
-updated: 2021-06-10
-version: "2.11.4"
-stars: 4.6
+updated: 2022-01-28
+version: "2.11.5"
+stars: 3.5
 ratings: 150
-reviews: 67
-size: 61M
-website: https://net-cents.com/
+reviews: 3
+size: 74M
+website: http://www.net-cents.com
 repository: 
 issue: 
 icon: com.net_cents.netcents2.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: netcentshq
 providerLinkedIn: net-cents
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

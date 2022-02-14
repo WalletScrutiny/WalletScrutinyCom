@@ -5,25 +5,26 @@ altTitle:
 authors:
 - danny
 - leo
-users: 5000
+users: 10000
 appId: com.iqpandroidinterface
+appCountry: ru
 released: 2021-10-01
 updated: 2021-10-13
 version: "1.2"
-stars: 4.9
-ratings: 312
-reviews: 285
+stars: 4.6
+ratings: 625
+reviews: 135
 size: 34M
 website: https://iqwallet.io/
 repository: 
 issue: 
 icon: com.iqpandroidinterface.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## ⚠️ Update and Warning: 2021-11-09
 

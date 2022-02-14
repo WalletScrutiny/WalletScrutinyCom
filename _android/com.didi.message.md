@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.didi.message
+appCountry: 
 released: 2020-04-30
-updated: 2021-11-09
-version: "1.11"
-stars: 3.7
-ratings: 1072
-reviews: 427
-size: 96M
-website: https://didimessage.com/
+updated: 2022-01-14
+version: "1.14.0"
+stars: 4.3
+ratings: 1140
+reviews: 15
+size: 71M
+website: https://didimessage.com
 repository: 
 issue: 
 icon: com.didi.message.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: DiDimessage
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

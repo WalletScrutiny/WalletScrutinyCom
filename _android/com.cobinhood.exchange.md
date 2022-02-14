@@ -6,27 +6,24 @@ authors:
 - leo
 users: 50000
 appId: com.cobinhood.exchange
+appCountry: 
 released: 2017-12-25
 updated: 2019-04-29
 version: "3.50.1"
-stars: 1.9
+stars: 2.9
 ratings: 648
-reviews: 380
+reviews: 117
 size: 7.7M
 website: https://cobinhood.com
 repository: 
 issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-05-29
-  version: "3.50.1"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ redirect_from:
   - /com.cobinhood.exchange/
   - /posts/com.cobinhood.exchange/
 ---
-
 
 This exchange and wallet claims:
 

@@ -4,25 +4,26 @@ title: "Divi Wallet: Crypto & Staking"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.divipay.divi
+appCountry: gb
 released: 2021-04-28
-updated: 2021-12-14
+updated: 2021-12-30
 version: "1.13"
-stars: 4.7
-ratings: 144
-reviews: 92
+stars: 4.9
+ratings: 263
+reviews: 7
 size: 49M
-website: https://diviproject.org/
+website: http://diviproject.org
 repository: https://github.com/DiviProject
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: diviproject
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: DiviProject
 redirect_from:
 
 ---
-
 
 ## App Description
 
@@ -52,4 +52,7 @@ Afterwards, it would seem that profile creation was mandatory after all. Skippin
 
 This is evidently a **self-custodial** wallet.
 
-While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public) for the Desktop App, we cannot find source for the Google Play app. We have created [an issue in Github.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214) At the moment, however, this app has **no source available.**
+While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public)
+for the Desktop App, we cannot find source for the Google Play app. We have
+created [an issue in GitHub.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214)
+and the provider confirmed the app is closed source and therefore **not verifiable**.

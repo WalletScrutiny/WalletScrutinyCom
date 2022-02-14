@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.FrancExchange
+appCountry: us
 released: 2020-12-02
 updated: 2020-12-02
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.FrancExchange.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **⚠️ Warning ⚠️** 
 

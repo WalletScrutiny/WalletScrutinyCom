@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.aspanta.emcsec
+appCountry: 
 released: 2017-11-28
 updated: 2018-12-25
 version: "1.2.1"
-stars: 4.3
-ratings: 28
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.9M
-website: 
+website: https://emercoin.com
 repository: 
 issue: 
 icon: com.aspanta.emcsec.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

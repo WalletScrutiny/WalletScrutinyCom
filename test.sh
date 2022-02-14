@@ -91,7 +91,7 @@ if [ ! -f "$downloadedApk" ]; then
 fi
 
 appHash=$(sha256sum "$downloadedApk" | awk '{print $1;}')
-fromPlayFolder=/tmp/fromPlay$appHash
+fromPlayFolder=~/tmp/fromPlay$appHash
 rm -rf $fromPlayFolder
 signer=$( getSigner "$downloadedApk" )
 echo "Extracting APK content ..."
@@ -99,7 +99,7 @@ containerApktool $fromPlayFolder "$downloadedApk" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
-workDir="/tmp/test_$appId"
+workDir=~/tmp/test_$appId
 
 if [ -z $appId ]; then
   echo "appId could not be tetermined"
@@ -140,8 +140,8 @@ prepare() {
 
 result() {
   # collect results
-  fromPlayUnzipped="/tmp/fromPlay_${appId}_$versionCode"
-  fromBuildUnzipped="/tmp/fromBuild_${appId}_$versionCode"
+  fromPlayUnzipped=~/tmp/fromPlay_${appId}_$versionCode
+  fromBuildUnzipped=~/tmp/fromBuild_${appId}_$versionCode
   rm -rf $fromBuildUnzipped $fromPlayUnzipped
   unzip -d $fromPlayUnzipped -qq "$downloadedApk" || exit 1
   unzip -d $fromBuildUnzipped -qq "$builtApk" || exit 1

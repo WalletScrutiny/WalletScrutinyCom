@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: io.arax.cryptowallet
+appCountry: 
 released: 2019-01-15
 updated: 2019-11-25
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: io.arax.cryptowallet.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-11-15
+meta: defunct
+verdict: wip
+date: 2021-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

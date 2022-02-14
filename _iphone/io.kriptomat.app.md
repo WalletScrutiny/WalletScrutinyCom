@@ -8,21 +8,21 @@ appId: io.kriptomat.app
 appCountry: us
 idd: 1440135740
 released: 2018-12-20
-updated: 2021-11-01
-version: "1.8.4"
+updated: 2022-02-09
+version: "2.0.12"
 stars: 4.77778
 reviews: 9
-size: 64495616
+size: 58602496
 website: https://kriptomat.io
 repository: 
 issue: 
 icon: io.kriptomat.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: kriptomat
 providerLinkedIn: kriptomat

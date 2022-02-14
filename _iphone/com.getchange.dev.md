@@ -1,34 +1,36 @@
 ---
-wsId: getchange
-title: "Change: Cryptocurrency to Cash"
+wsId: changeinvest
+title: "Change: Simple BTC Investing"
 altTitle: 
-
+authors:
+- danny
 appId: com.getchange.dev
+appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2021-01-16
-version: "10.9.132"
-stars: 4.41176
-reviews: 17
-size: 128389120
-website: 
+updated: 2022-02-03
+version: "20.2.1"
+stars: 4.06452
+reviews: 31
+size: 86771712
+website: https://www.changeinvest.com/
 repository: 
 issue: 
 icon: com.getchange.dev.jpg
 bugbounty: 
-verdict: defunct
-date: 2020-12-22
+meta: ok
+verdict: custodial
+date: 2022-01-04
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: changefinance
+providerLinkedIn: changeinvest
+providerFacebook: changeinvest
 providerReddit: 
 
 redirect_from:
 
 ---
-**Update:** We did not get to review this app before it was removed from the App
-Store.
+
+{% include copyFromAndroid.html %}

@@ -6,28 +6,29 @@ authors:
 - leo
 users: 100000
 appId: co.edgesecure.app
+appCountry: 
 released: 2018-03-01
-updated: 2021-11-13
-version: "2.5.1"
-stars: 4.0
-ratings: 3655
-reviews: 2008
-size: 44M
+updated: 2022-02-03
+version: "2.10.0"
+stars: 4.3
+ratings: 3841
+reviews: 536
+size: 53M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2019-11-10
 signer: 
 reviewArchive:
 
-
 providerTwitter: edgewallet
-providerLinkedIn: 3609678
+providerLinkedIn: edgeapp
 providerFacebook: 
-providerReddit: 
+providerReddit: EdgeWallet
 
 redirect_from:
   - /edge/
@@ -36,9 +37,8 @@ redirect_from:
   - /posts/co.edgesecure.app/
 ---
 
-
 Edge - Bitcoin, Ethereum, Monero, Ripple Wallet
-is the successor of [Airbitz](/airbitz/) and claims to be *non-custodial* and
+is the successor of {% include walletLink.html wallet='android/com.airbitz' verdict='true' %} and claims to be *non-custodial* and
 *open source*.
 
 The Playstore description points to [this link](https://github.com/Airbitz) as

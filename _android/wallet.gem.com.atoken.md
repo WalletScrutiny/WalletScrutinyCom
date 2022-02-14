@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: wallet.gem.com.atoken
+appCountry: 
 released: 2020-03-01
 updated: 2021-12-02
 version: "4.2.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: wallet.gem.com.atoken.png
 bugbounty: 
+meta: defunct
 verdict: nosource
-date: 2021-04-16
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ATokenOfficial
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 Found on their support website...
 
@@ -43,3 +45,4 @@ Found on their support website...
   share them with anyone.
 
 The claim on their website is that the wallet is non-custodial, but without source code, this is **not verifiable**.
+

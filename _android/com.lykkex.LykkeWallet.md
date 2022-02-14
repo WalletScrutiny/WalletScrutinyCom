@@ -6,23 +6,24 @@ authors:
 - leo
 users: 50000
 appId: com.lykkex.LykkeWallet
+appCountry: de
 released: 2016-08-25
 updated: 2021-12-06
 version: "12.8.0"
-stars: 3.3
-ratings: 577
-reviews: 352
+stars: 3.9
+ratings: 579
+reviews: 17
 size: 17M
-website: https://lykke.com/wallet
+website: https://lykke.com
 repository: 
 issue: 
 icon: com.lykkex.LykkeWallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lykke
 providerLinkedIn: lykke
@@ -32,7 +33,6 @@ providerReddit: lykke
 redirect_from:
 
 ---
-
 
 Lykke appears to be a Swiss exchange:
 

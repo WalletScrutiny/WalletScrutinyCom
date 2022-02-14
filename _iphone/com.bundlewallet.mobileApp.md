@@ -18,16 +18,11 @@ repository:
 issue: 
 icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-09-08
 signer: 
 reviewArchive:
-- date: 2021-04-19
-  version: "3.0.0"
-  appHash: 
-  gitRevision: 4885e4bdcce2af277a6f0d609d2428430e0f61e6
-  verdict: custodial
-  
 
 providerTwitter: 
 providerLinkedIn: 

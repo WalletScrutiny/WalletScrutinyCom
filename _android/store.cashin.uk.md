@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: store.cashin.uk
+appCountry: gb
 released: 2021-04-02
-updated: 2021-10-28
-version: "4.1.10"
-stars: 4.8
-ratings: 30
+updated: 2022-02-10
+version: "4.5.0"
+stars: 4.6
+ratings: 36
 reviews: 28
 size: 23M
-website: https://cashin.technology/
+website: https://www.bitcoinpoint.com/
 repository: 
 issue: 
 icon: store.cashin.uk.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

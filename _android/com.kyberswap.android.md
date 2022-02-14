@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.kyberswap.android
+appCountry: 
 released: 2019-08-14
 updated: 2021-07-21
 version: "1.1.37"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.kyberswap.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nobtc
 date: 2021-08-26
 signer: 
 reviewArchive:
-- date: 2020-11-16
-  version: "1.1.37"
-  appHash: 
-  gitRevision: 018fbfa515880e3b8b7d3c451c09988b1deec5cf
-  verdict: nobtc
-  
 
 providerTwitter: KyberSwap
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.kyberswap.android/
 ---
-
 
 **Update 2021-08-17**: This app is not the the Play Store anymore
 

@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.nexybit.nexybit
+appCountry: 
 released: 2018-12-31
 updated: 2019-02-18
 version: "1.0.4"
-stars: 3.9
-ratings: 41
-reviews: 25
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.8M
-website: 
+website: https://nexybit.com/
 repository: 
 issue: 
 icon: com.nexybit.nexybit.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

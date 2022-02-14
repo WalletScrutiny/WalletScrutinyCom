@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.lxd.java_websocketclient
+appCountry: us
 released: 2020-05-01
 updated: 2021-11-12
 version: "2.7.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.lxd.java_websocketclient.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinflexdotcom
 providerLinkedIn: coinflex
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

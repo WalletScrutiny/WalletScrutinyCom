@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.altcoin.wallet
+appCountry: 
 released: 2018-03-19
 updated: 2020-01-21
 version: "v1.6"
-stars: 3
-ratings: 101
-reviews: 83
+stars: 2.4
+ratings: 102
+reviews: 10
 size: 3.7M
-website: 
+website: https://altcoin-wallet.online/
 repository: 
 issue: 
 icon: com.altcoin.wallet.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: wip
+date: 2022-01-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

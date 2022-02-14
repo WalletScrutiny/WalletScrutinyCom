@@ -6,27 +6,24 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.spend.app
+appCountry: 
 released: 2018-08-07
 updated: 2020-07-15
 version: "3.09"
-stars: 3.1
-ratings: 446
-reviews: 250
+stars: 3.6
+ratings: 478
+reviews: 172
 size: 31M
-website: https://www.spend.com/
+website: https://www.spend.com
 repository: 
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-05-01
-  version: "3.09"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: Spendcom
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit: Spend
 redirect_from:
 
 ---
-
 
 No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).
 It would be prudent to assume the private keys are under the control of the provider.

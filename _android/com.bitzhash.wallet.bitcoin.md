@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.bitzhash.wallet.bitcoin
+appCountry: 
 released: 2020-03-11
 updated: 2020-04-28
 version: "1.0"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 8.8M
-website: 
+website: https://github.com/ilyapr/bitcoin-wallet-android
 repository: 
 issue: 
 icon: com.bitzhash.wallet.bitcoin.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

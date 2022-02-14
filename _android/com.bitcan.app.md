@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bitcan.app
+appCountry: us
 released: 2017-10-18
 updated: 2021-11-30
 version: "8.0.7.4"
-stars: 4.2
-ratings: 74
-reviews: 55
+stars: 3.9
+ratings: 90
+reviews: 11
 size: 45M
-website: https://bitkan.com/
+website: http://www.bitkan.com
 repository: 
 issue: 
 icon: com.bitcan.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitkanofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

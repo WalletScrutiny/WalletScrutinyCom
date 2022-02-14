@@ -20,6 +20,7 @@ repository:
 issue:
 icon: bcvaultone.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-12-10
 signer:

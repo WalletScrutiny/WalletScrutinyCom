@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.mobiletrade.fms.globaltradeatf
+appCountry: ag
 released: 2020-06-10
 updated: 2021-11-22
 version: "1.5.78-mobiletrade.fms.globaltradeatf"
 stars: 2.8
-ratings: 383
-reviews: 312
+ratings: 389
+reviews: 315
 size: 20M
 website: https://global.tradeatf.com/
 repository: 
 issue: 
 icon: com.mobiletrade.fms.globaltradeatf.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: TradeATF
 providerLinkedIn: globaltradeatf
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.zixipay.wallet
+appCountry: us
 released: 2019-12-18
 updated: 2021-12-15
 version: "1.76"
-stars: 4.3
-ratings: 28
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: https://zixipay.com/
+website: https://zixipay.com
 repository: 
 issue: 
 icon: com.zixipay.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: zixipay
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

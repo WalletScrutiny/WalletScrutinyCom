@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: bitcoin.investmentlimited
+appCountry: 
 released: 2019-01-02
 updated: 2021-08-04
 version: "9.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: bitcoin.investmentlimited.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->
 <div class="alertBox"><div>

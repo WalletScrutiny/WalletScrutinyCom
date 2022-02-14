@@ -10,23 +10,19 @@ idd: 1376959464
 released: 2018-08-06
 updated: 2019-11-22
 version: "2.0.5"
-stars: 4.29703
-reviews: 303
+stars: 4.31229
+reviews: 301
 size: 72262656
 website: http://ethos.io
 repository: 
 issue: 
 icon: io.ethos.universalwallet.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-11-12
 signer: 
 reviewArchive:
-- date: 2021-03-05
-  version: "2.0.5"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: ethos_io
 providerLinkedIn: 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: giniapps.easymarkets.com
+appCountry: us
 released: 2017-04-05
 updated: 2021-12-16
 version: "1.28.1"
-stars: 4.2
-ratings: 1664
-reviews: 710
+stars: 3.2
+ratings: 1748
+reviews: 29
 size: 37M
-website: https://www.easymarkets.com
+website: https://www.easymarkets.com/
 repository: 
 issue: 
 icon: giniapps.easymarkets.com.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: easymarkets
 providerLinkedIn: easymarkets
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 

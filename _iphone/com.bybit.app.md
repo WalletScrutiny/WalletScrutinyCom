@@ -8,21 +8,21 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2021-12-20
-version: "3.10.5"
-stars: 3.82963
-reviews: 405
-size: 94999552
+updated: 2022-02-14
+version: "3.14.0"
+stars: 3.85288
+reviews: 469
+size: 124495872
 website: https://www.bybit.com
 repository: 
 issue: 
 icon: com.bybit.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bybit_Official
 providerLinkedIn: bybitexchange

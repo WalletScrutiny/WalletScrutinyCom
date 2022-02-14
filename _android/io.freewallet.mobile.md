@@ -6,27 +6,24 @@ authors:
 - leo
 users: 10000
 appId: io.freewallet.mobile
+appCountry: 
 released: 2016-09-01
 updated: 2019-03-17
 version: "0.1.9"
-stars: 4
-ratings: 71
-reviews: 35
+stars: 4.1
+ratings: 80
+reviews: 18
 size: 6.7M
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2020-12-05
-  version: "0.1.9"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: freewallet
 providerLinkedIn: 
@@ -37,17 +34,13 @@ redirect_from:
   - /io.freewallet.mobile/
 ---
 
-
 The provider of this Freewallet reached out to us to stress that freewallet.io
 was not the same as freewallet.org which is spamming Google Play with many
 wallets and we have reviewed three of those here, too:
 
-* [Bitcoin Wallet. Buy & Exchange BTC coin－Freewallet](/btc.org.freewallet.app/)
-  is custodial with 500k downloads.
-* [Bitcoin & Crypto Blockchain Wallet: Freewallet](/mw.org.freewallet.app/) is
-  custodial, with 100k downloads.
-* [Lite HD Wallet – Your Coin Base](/org.freewallet.lite.android/) is probably
-  also custodial, with only 500 downloads so far.
+* {% include walletLink.html wallet='android/btc.org.freewallet.app' verdict='true' %}
+* {% include walletLink.html wallet='android/mw.org.freewallet.app' verdict='true' %}
+* {% include walletLink.html wallet='android/org.freewallet.lite.android' verdict='true' %}
 
 He says that his wallet is non-custodial and open source and indeed we see those
 same claims on Google Play.

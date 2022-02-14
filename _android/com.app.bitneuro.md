@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.app.bitneuro
+appCountry: 
 released: 2021-07-01
 updated: 2021-09-11
 version: "1.3.0"
-stars: 3.5
-ratings: 17
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: http://bitneuro.io/
+website: https://bitneuro.io
 repository: 
 issue: 
 icon: com.app.bitneuro.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

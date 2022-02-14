@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "Sigma Waka"
+title: "Sigma Wallet - Crypto Wallet"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: io.cryptosigma.finance
+appCountry: 
 released: 2021-07-26
 updated: 2021-10-02
 version: "1.0.3"
-stars: 4.3
-ratings: 6
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 46M
 website: 
 repository: 
 issue: 
 icon: io.cryptosigma.finance.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** There was no website listed on its Google Play page. We also were not able to find its officially linked social media accounts.
 

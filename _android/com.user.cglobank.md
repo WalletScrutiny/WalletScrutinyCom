@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.user.cglobank
+appCountry: 
 released: 2021-04-14
 updated: 2021-06-28
 version: "16"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.user.cglobank.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **WARNING:** There are several factors that make this app appear highly suspicious. We urge users to exercise caution among apps like these.
 

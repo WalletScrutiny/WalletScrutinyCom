@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.atari
+appCountry: 
 released: 2021-07-11
 updated: 2021-11-13
 version: "2.08.01"
-stars: 3.3
-ratings: 90
-reviews: 68
+stars: 2.3
+ratings: 178
+reviews: 23
 size: 59M
 website: https://wallet.atarichain.com/
 repository: 
 issue: 
 icon: com.atari.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

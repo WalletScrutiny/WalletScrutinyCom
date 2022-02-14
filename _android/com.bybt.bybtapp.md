@@ -1,11 +1,12 @@
 ---
-wsId: Bybt
+wsId: 
 title: "Bybt"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.bybt.bybtapp
+appCountry: 
 released: 2021-02-10
 updated: 2021-10-29
 version: "1.0.1.7"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-11-16
 signer: 
 reviewArchive:
-- date: 2021-11-02
-  version: "1.0.1.7"
-  appHash: 
-  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
-  verdict: fake
-  
 
 providerTwitter: bybt_com
 providerLinkedIn: 
@@ -37,6 +33,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-04**: The new app coinglass does not have a bitcoin wallet and seems to have a general cryptocurrency information dashboard with cryptocurrency prices and charts.
+
+**Update 2022-01-03**: It appears that bybt has rebranded to Coinglass. Bybt.com redirects to coinglass.com. The android app for bybt now points to a 404. The iOS app is now named coinglass. This app may need a **new review** for the new Android app with appID 'com.coinglass.android'
 
 
 **Update 2021-11-03**: This app is not available anymore.

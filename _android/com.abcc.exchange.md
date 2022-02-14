@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.abcc.exchange
+appCountry: us
 released: 2018-08-23
-updated: 2021-12-07
-version: "1.9.8"
-stars: 4.2
-ratings: 1537
-reviews: 1270
-size: 15M
-website: https://abcc.com/
+updated: 2022-02-11
+version: "1.9.14"
+stars: 4.8
+ratings: 1540
+reviews: 45
+size: 16M
+website: https://abcc.com
 repository: 
 issue: 
 icon: com.abcc.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: ABCCExOfficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Also known as "Alphabit Consulting Pte", it is self-described as an 'Unregulated Platform' in its [Terms](https://abcc.com/en/documents/terms). 
 

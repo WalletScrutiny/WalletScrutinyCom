@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.fusion.chainge.android
+appCountry: us
 released: 2021-05-17
-updated: 2021-12-09
-version: "0.4.0"
-stars: 4.6
-ratings: 4056
-reviews: 994
-size: 61M
-website: https://www.chainge.finance/
+updated: 2021-12-21
+version: "0.4.1"
+stars: 4.8
+ratings: 8135
+reviews: 82
+size: 83M
+website: https://chainge.finance
 repository: 
 issue: 
 icon: com.fusion.chainge.android.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: FinanceChainge
 providerLinkedIn: chainge-finance
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

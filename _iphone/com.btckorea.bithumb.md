@@ -8,21 +8,21 @@ appId: com.btckorea.bithumb
 appCountry: 
 idd: 1299421592
 released: 2017-12-05
-updated: 2021-11-25
-version: "1.7.1"
-stars: 2.12
-reviews: 25
-size: 97376256
+updated: 2022-01-21
+version: "1.7.6"
+stars: 2.03447
+reviews: 29
+size: 99073024
 website: https://en.bithumb.com
 repository: 
 issue: 
 icon: com.btckorea.bithumb.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: BithumbOfficial
 providerLinkedIn: 

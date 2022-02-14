@@ -6,23 +6,24 @@ authors:
 - leo
 users: 5000
 appId: casa.keymaster
+appCountry: 
 released: 2019-03-01
-updated: 2021-11-24
-version: "3.8.3"
+updated: 2022-02-10
+version: "3.10.2"
 stars: 4.6
-ratings: 177
-reviews: 32
-size: 36M
+ratings: 198
+reviews: 19
+size: 37M
 website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: CasaHODL
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /casa.keymaster/
   - /posts/casa.keymaster/
 ---
-
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
 least version `2.27.10` and inspect the code or modify it to compile it back

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.quantfury
+appCountry: gb
 released: 2018-11-26
-updated: 2021-12-18
-version: "v1.7.1900.2"
-stars: 4.8
-ratings: 8143
-reviews: 2351
-size: 45M
+updated: 2022-02-07
+version: "v1.7.1945"
+stars: 5.0
+ratings: 11628
+reviews: 55
+size: 67M
 website: https://quantfury.com
 repository: 
 issue: 
 icon: com.quantfury.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: quantfury
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Description from the site: 
 

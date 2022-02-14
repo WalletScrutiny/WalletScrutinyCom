@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.newcurrency.coinstrunk.v1
+appCountry: 
 released: 2020-10-15
-updated: 2021-07-16
-version: "1.10"
-stars: 4
-ratings: 568
-reviews: 458
-size: 6.1M
-website: https://buxtank.com/
+updated: 2022-02-01
+version: "1.11"
+stars: 4.1
+ratings: 622
+reviews: 43
+size: 6.4M
+website: http://firstdaotrust.com
 repository: 
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > This wallet helps people to create bitcoin or litecoin transactions
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 5000
 appId: de.fuf.bitbucks
+appCountry: 
 released: 2019-09-03
 updated: 2021-03-18
 version: "1.4.1"
-stars: 4.0
-ratings: 46
-reviews: 18
+stars: 0.0
+ratings: 
+reviews: 
 size: 16M
-website: https://www.bitbucks.io
+website: https://www.bitbucks.io/
 repository: 
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bit_bucks
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/
 ---
-
 
 According to their website:
 

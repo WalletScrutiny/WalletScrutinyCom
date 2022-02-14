@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forcoinbase
+appCountry: 
 released: 2018-05-15
 updated: 2021-05-16
 version: "Varies with device"
-stars: 4.2
-ratings: 137
-reviews: 69
+stars: 4.4
+ratings: 152
+reviews: 25
 size: Varies with device
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forcoinbase.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

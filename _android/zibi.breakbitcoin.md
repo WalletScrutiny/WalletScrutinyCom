@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: zibi.breakbitcoin
+appCountry: 
 released: 2021-03-17
 updated: 2021-03-17
 version: "2.00"
-stars: 3.8
-ratings: 16
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 299M
 website: 
 repository: 
 issue: 
 icon: zibi.breakbitcoin.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** This app's stated description is to find the private keys for 4.5 million bitcoin addresses. It then instructs the user to transfer bitcoins from another wallet to the user's wallet. Some reviews have accused the app developers of using the user's device to mine cryptocurrencies for the developers.
 

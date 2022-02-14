@@ -6,10 +6,11 @@ authors:
 - leo
 users: 100
 appId: ja.xx.exch.ange
+appCountry: 
 released: 2021-09-01
 updated: 2021-09-01
 version: "1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.3M
@@ -18,12 +19,16 @@ repository:
 issue: 
 icon: ja.xx.exch.ange.png
 bugbounty: 
+meta: defunct
 verdict: fake
-date: 2021-10-05
+date: 2022-01-15
 signer: 
 reviewArchive:
-
-
+- date: 2021-10-05
+  version: "1"
+  appHash: 
+  gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
+  verdict: fake
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -33,6 +38,8 @@ redirect_from:
 
 ---
 
+**Update 2021-12-27**: This app is no more.
 
 This app tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.
+

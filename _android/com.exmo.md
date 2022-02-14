@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exmo
+appCountry: 
 released: 2019-11-12
-updated: 2021-11-11
-version: "3.2.2"
-stars: 4.1
-ratings: 2417
-reviews: 1646
-size: 74M
-website: https://exmo.com
+updated: 2022-01-19
+version: "3.4.1"
+stars: 3.3
+ratings: 2732
+reviews: 40
+size: 75M
+website: https://exmo.com/
 repository: 
 issue: 
 icon: com.exmo.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: Exmo_com
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"
 

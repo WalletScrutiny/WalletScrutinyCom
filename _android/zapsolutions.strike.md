@@ -6,23 +6,24 @@ authors:
 
 users: 100000
 appId: zapsolutions.strike
-released: 
-updated: 2021-12-08
-version: "v103"
-stars: 4.5
-ratings: 4751
-reviews: 1698
-size: 45M
-website: 
+appCountry: 
+released: 2020-08-06
+updated: 2022-02-09
+version: "v108"
+stars: 4.0
+ratings: 6385
+reviews: 1148
+size: 51M
+website: https://strike.me/
 repository: 
 issue: 
 icon: zapsolutions.strike.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: ln_strike
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /zapsolutions.strike/
 ---
-
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets
 in that you can send to and receive from Bitcoin wallets but your balance is

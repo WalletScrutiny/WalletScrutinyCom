@@ -4,25 +4,26 @@ title: "CoinMENA: Buy Bitcoin Now"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 100000
 appId: com.coinmena.coinmenaapp
+appCountry: us
 released: 2021-08-07
-updated: 2021-12-01
-version: "1.2.0"
-stars: 4.8
-ratings: 141
-reviews: 121
+updated: 2022-01-31
+version: "1.2.5"
+stars: 3.8
+ratings: 869
+reviews: 25
 size: 52M
-website: https://www.coinmena.com/
+website: http://coinmena.com
 repository: 
 issue: 
 icon: com.coinmena.coinmenaapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinmena
 providerLinkedIn: coinmena
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.papaya.gekkard.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

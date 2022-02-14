@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.profittrading.forbybit
+appCountry: 
 released: 2020-03-22
 updated: 2020-07-24
 version: "2.0.0"
-stars: 3.5
-ratings: 33
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forbybit.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

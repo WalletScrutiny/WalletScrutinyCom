@@ -6,10 +6,11 @@ authors:
 
 users: 10
 appId: com.bxcoins.AFCASH
+appCountry: 
 released: 2021-02-19
 updated: 2021-02-20
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bxcoins.AFCASH.png
 bugbounty: 
+meta: defunct
 verdict: fewusers
-date: 2021-08-21
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,5 @@ redirect_from:
 
 ---
 
+**Update 2022-01-18**: This app is not available anymore.
 

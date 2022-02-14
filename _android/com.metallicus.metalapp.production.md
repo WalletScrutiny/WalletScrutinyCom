@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.metallicus.metalapp.production
-released: 
-updated: 2021-11-28
-version: "2.4.13-prod"
-stars: 3.7
-ratings: 536
-reviews: 247
+appCountry: us
+released: 2020-01-14
+updated: 2022-02-09
+version: "2.5.1-prod"
+stars: 3.9
+ratings: 561
+reviews: 253
 size: 82M
-website: https://www.metalpay.com/
+website: https://metalpay.com
 repository: 
 issue: 
 icon: com.metallicus.metalapp.production.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: metalpaysme
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: MetalPay
 redirect_from:
 
 ---
-
 
 ## App Description
 

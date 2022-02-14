@@ -20,6 +20,7 @@ repository: https://github.com/Bitfi
 issue:
 icon: bitfiwallet.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-12-10
 signer:

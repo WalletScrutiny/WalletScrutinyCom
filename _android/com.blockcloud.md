@@ -4,25 +4,26 @@ title: "Block Cloud - Buy Bitcoin, ETH, & Crypto"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.blockcloud
+appCountry: 
 released: 2021-01-08
 updated: 2021-02-16
 version: "1.4"
-stars: 4.1
-ratings: 9
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 12M
 website: 
 repository: 
 issue: 
 icon: com.blockcloud.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

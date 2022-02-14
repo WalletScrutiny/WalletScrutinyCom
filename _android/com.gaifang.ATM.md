@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.gaifang.ATM
+appCountry: 
 released: 2021-05-10
 updated: 2021-09-18
 version: "1.1.20"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.gaifang.ATM.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosendreceive
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-11-15
-  version: "1.1.20"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: nosendreceive
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-18**: This app is not on Play Store anymore.
 

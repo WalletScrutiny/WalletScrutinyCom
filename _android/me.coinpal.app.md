@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: me.coinpal.app
+appCountry: 
 released: 2017-12-22
 updated: 2018-06-27
 version: "4.1.4"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: me.coinpal.app.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: nosource
+date: 2022-02-10
 signer: 
 reviewArchive:
-- date: 2021-06-04
-  version: "4.1.4"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: coinpalapp
 providerLinkedIn: coinpal
@@ -37,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-28**: This app is not in store anymore.
 
 The providers [Play store description](https://play.google.com/store/apps/details?id=me.coinpal.app) states the customer is in control of the private keys.
 

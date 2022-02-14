@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: com.btcwallet
+appCountry: 
 released: 2019-08-29
 updated: 2019-10-23
 version: "8.0.8"
-stars: 3.8
-ratings: 33
-reviews: 21
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.7M
-website: 
+website: https://lunablockchain.com/
 repository: 
 issue: 
 icon: com.btcwallet.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

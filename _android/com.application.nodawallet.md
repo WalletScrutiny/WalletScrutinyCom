@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.application.nodawallet
+appCountry: 
 released: 2020-09-14
 updated: 2021-12-10
 version: "1.0.19"
-stars: 4.7
-ratings: 843
-reviews: 800
+stars: 4.9
+ratings: 850
+reviews: 54
 size: 49M
-website: https://nodawallet.com/
+website: https://nodawallet.com
 repository: https://github.com/nodawallet/NodaWallet-Android
 issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: DexNodaWallett
 providerLinkedIn: noda-project-8b4a251b3
@@ -32,7 +33,6 @@ providerReddit: NodaWallet
 redirect_from:
 
 ---
-
 
 ## App Description
 

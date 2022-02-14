@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "Trade Cryptos with CoinDCX Pro"
+title: "CoinDCX Pro: Trade BTC,ETH,SOL"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.coindcx
+appCountry: 
 released: 2018-11-02
 updated: 2021-09-15
 version: "1.0.004"
-stars: 4.5
-ratings: 9625
-reviews: 6575
+stars: 4.9
+ratings: 13298
+reviews: 159
 size: 52M
 website: https://coindcx.com
 repository: 
 issue: 
 icon: com.coindcx.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindcx
 providerLinkedIn: coindcx
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):
 

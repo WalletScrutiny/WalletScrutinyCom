@@ -6,10 +6,11 @@ authors:
 
 users: 100
 appId: com.coindoctor.your
+appCountry: 
 released: 2019-01-08
 updated: 2019-03-11
 version: "1.0.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.0M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.coindoctor.your.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-26**: This app is no more.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.cryptonator.ios.jpg
 bugbounty: 
+meta: stale
 verdict: custodial
-date: 2021-05-25
+date: 2022-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptonatorcom
 providerLinkedIn: 

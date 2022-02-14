@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bitocto
+appCountry: 
 released: 2019-07-18
-updated: 2021-11-19
-version: "3.13"
-stars: 4.2
-ratings: 1503
-reviews: 1214
+updated: 2022-02-08
+version: "3.16"
+stars: 5.0
+ratings: 1529
+reviews: 6
 size: 5.3M
-website: https://bitocto.com/
+website: https://bitocto.com
 repository: 
 issue: 
 icon: com.bitocto.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitoctoexchange
 providerLinkedIn: bitocto
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 
 

@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.panthelope.cryptorize.mobile.cryptorize
+appCountry: 
 released: 2020-11-14
 updated: 2021-05-30
 version: "2.0.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.panthelope.cryptorize.mobile.cryptorize.png
 bugbounty: 
+meta: defunct
 verdict: fewusers
-date: 2021-08-01
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

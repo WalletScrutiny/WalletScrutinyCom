@@ -7,22 +7,34 @@ authors:
 - emanuel
 users: 100000
 appId: com.btcontract.wallet
+appCountry: 
 released: 2015-07-15
-updated: 2021-12-10
-version: "2.4.23"
+updated: 2022-01-19
+version: "2.4.27"
 stars: 3.7
-ratings: 1037
-reviews: 559
-size: 28M
-website: https://lightning-wallet.com
+ratings: 1063
+reviews: 23
+size: 27M
+website: https://lightning-wallet.com/
 repository: https://github.com/btcontract/wallet/
 issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
-date: 2021-12-20
+date: 2022-01-31
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2022-01-16
+  version: "2.4.26"
+  appHash: 1995e343e5a6e89b47ae5925396dd5b0d59d8da43f0f687f7d691ef9af5f3d04
+  gitRevision: 7fb8a183fee60571885418fcdf05478698687b0f
+  verdict: reproducible
+- date: 2021-12-20
+  version: "2.4.24"
+  appHash: 1188199a37cb44fc25a36eb6280307289fbf462ad5bb4c31a4a902737240f4cb
+  gitRevision: d29296d247b115262f2043c58bd3c6f8310789f3
+  verdict: reproducible
 - date: 2021-12-14
   version: "2.4.23"
   appHash: 34a1f4b1e72e75d680f7c8c62ba85fc9bcc7187231ac48f1fe1347403a029341
@@ -68,7 +80,6 @@ reviewArchive:
   appHash: 
   gitRevision: f43ec311500efbb0ea1c8ebadc52c545a434a341
   verdict: nonverifiable
-
 providerTwitter: SimpleBtcWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -78,23 +89,22 @@ redirect_from:
 
 ---
 
-
 For that latest version, our test script returned this:
 
 ```
 ===== Begin Results =====
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.4.24
-apkVersionCode: 92
+apkVersionName: 2.4.27
+apkVersionCode: 95
 verdict:        reproducible
-appHash:        1188199a37cb44fc25a36eb6280307289fbf462ad5bb4c31a4a902737240f4cb
-commit:         bb9d7e073f86884a8a7624bb5030b5afa3cbedc4
+appHash:        d21229831b319fcb8ebbfcad5785850ff07d5d8715d02fce10c6fb1a1b2de388
+commit:         2bcad8faeda2ca67f8ceb4b0e686ac1cce0f0d1b
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_92/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_92/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_92/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_92/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_95/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_95/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_95/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_95/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 

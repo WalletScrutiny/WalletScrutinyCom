@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bizz_coin
 providerLinkedIn: 

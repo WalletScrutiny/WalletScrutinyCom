@@ -4,6 +4,7 @@ appId: onekey
 authors:
 - kiwilamb
 - danny
+- leo
 released: 
 discontinued: # date
 updated:
@@ -15,13 +16,14 @@ shop: https://onekey.so/en-US/hardware
 company: Bixin
 companywebsite: https://onekey.so/
 country: CN
-price: 499CNY
+price: 42USD
 repository: https://github.com/OneKeyHQ/OneKey-Wallet
-issue:
+issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekey.png
 bugbounty:
-verdict: wip
-date: 2021-11-26
+meta: ok
+verdict: nosource
+date: 2022-01-05
 signer:
 reviewArchive:
 
@@ -67,10 +69,31 @@ Incorrectly entering the pin code 10 times, resets the wallet.
 
 The wallet can then be connected to the OneKey [Desktop client](https://onekey.so/download?client=desktop) or through a [browser plug-in](https://onekey.so/plugin).
 
-## Reproducibility
+## Code and Reproducibility
 
-OneKey [claims that their software code and firmware codes are open source](https://help.onekey.so/hc/en-us/articles/360002184256-Why-Use-OneKey-Hardware-Wallets-to-Manage-Private-Keys-). 
+OneKey [claims that their software code and firmware codes are open source](https://onekey.so/hardware):
 
-> Our code is fully and publicly hosted at Github.
+> All codes are open source<br>
+  Transparent, WYSIWYG
 
-[Creating an issue for verification.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/374)
+Sadly their repository redirects to "OneKeyHQ/wallet-deprecated" which contains
+no source code and no mention of "firmware".
+
+There is another repo called
+[OneKeyHQ/firmware](https://github.com/OneKeyHQ/firmware) (11396 commits)
+which is a fork of
+[trezor-firmware](https://github.com/trezor/trezor-firmware) (10805 commits).
+
+Their
+[OneKey hardware wallet firmware upgrade tutorial](https://help.onekey.so/hc/en-us/articles/360004745796-OneKey-hardware-wallet-firmware-upgrade-tutorial)
+looks familiar to how
+{% include walletLink.html wallet='hardware/trezorOne' verdict='true' %}
+works but with a Bluetooth firmware option. The screenshots and lack of
+discussion of such a feature imply there is no way of seeing a hash of the about
+to be installed firmware. Neither could we find the signed binary releases.
+
+We opened [an issue](https://github.com/OneKeyHQ/firmware/issues/17) in the
+otherwise empty issue tracker of the most likely candidate for being the source
+code repository of this product but until confirmation of tis, we have to file
+this product as closed source as their website doesn't link to any actual
+firmware source code. As such the product is **not verifiable**.

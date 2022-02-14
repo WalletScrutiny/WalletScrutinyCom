@@ -4,25 +4,26 @@ title: "Atomex - Crypto Wallet & Atomic swap DEX"
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.atomex.android
+appCountry: 
 released: 2020-12-06
 updated: 2021-11-09
 version: "1.12.1"
-stars: 4.3
-ratings: 57
-reviews: 43
+stars: 3.9
+ratings: 64
+reviews: 4
 size: 61M
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: https://github.com/atomex-me/atomex.mobile/issues/24
 icon: com.atomex.android.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-04-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: atomex_official
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Atomex — is a non-custodial crypto wallet
 

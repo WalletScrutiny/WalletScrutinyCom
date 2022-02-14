@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000000
 appId: com.coinbase.android
+appCountry: 
 released: 2013-03-01
-updated: 2021-12-13
-version: "9.52.6"
-stars: 4.4
-ratings: 596786
-reviews: 166311
+updated: 2022-02-11
+version: "10.4.2"
+stars: 4.2
+ratings: 659799
+reviews: 78279
 size: Varies with device
-website: https://coinbase.com
+website: https://coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinbase
 providerLinkedIn: coinbase
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/10/coinbase/
   - /posts/com.coinbase.android/
 ---
-
 
 {{ page.title }}, not to be confused with
 {% include walletLink.html wallet='android/org.toshi' verdict='true' %}

@@ -8,21 +8,21 @@ appId: io.totalcoin.wallet
 appCountry: 
 idd: 1392398906
 released: 2018-07-05
-updated: 2021-09-12
-version: "4.0.1"
-stars: 4.49495
-reviews: 99
-size: 41118720
+updated: 2022-02-10
+version: "4.2.0"
+stars: 4.45744
+reviews: 94
+size: 46004224
 website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

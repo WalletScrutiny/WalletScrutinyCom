@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.smartitapp
+appCountry: us
 released: 2020-09-25
 updated: 2021-12-13
 version: "1.0.5"
-stars: 3.2
-ratings: 22
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: Varies with device
 website: https://smartit.shop/
 repository: 
 issue: 
 icon: com.smartitapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

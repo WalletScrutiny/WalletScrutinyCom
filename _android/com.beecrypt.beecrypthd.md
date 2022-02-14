@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.beecrypt.beecrypthd
+appCountry: us
 released: 2020-05-27
-updated: 2021-12-10
-version: "4.1"
-stars: 4
-ratings: 27
-reviews: 18
+updated: 2022-01-24
+version: "4.3"
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
 website: https://moneypipe.com/hd-wallet/
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: money_pipe
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.anxbtc.android
+appCountry: 
 released: 2014-04-29
 updated: 2016-08-17
 version: "1.8.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.anxbtc.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-05-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 On the main site there is a [announcement that the provider is closing](https://anxpro.com/) and all funds should be withdrawn from its services.<br>
 It would be prudent to believe the wallet is no longer supported.

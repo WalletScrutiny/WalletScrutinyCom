@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: co.swisskey.app
+appCountry: 
 released: 2020-02-04
 updated: 2020-02-04
 version: "0.0.1"
-stars: 4.6
-ratings: 5
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 18M
 website: 
 repository: 
 issue: 
 icon: co.swisskey.app.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: fewusers
+date: 2022-01-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

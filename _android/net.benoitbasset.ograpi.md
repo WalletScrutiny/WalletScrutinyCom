@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: net.benoitbasset.ograpi
+appCountry: 
 released: 2018-11-28
 updated: 2021-05-03
 version: "1.4.3"
-stars: 4.1
-ratings: 203
-reviews: 115
+stars: 3.6
+ratings: 224
+reviews: 36
 size: 5.0M
-website: http://ograpi.oblade.net/
+website: http://ograpi.oblade.net
 repository: 
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

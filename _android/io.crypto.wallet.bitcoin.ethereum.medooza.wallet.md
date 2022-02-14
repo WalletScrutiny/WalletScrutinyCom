@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
+appCountry: 
 released: 2019-01-04
 updated: 2019-01-04
 version: "1.1"
-stars: 3.8
-ratings: 8
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.5M
-website: 
+website: https://medooza.io
 repository: 
 issue: 
 icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

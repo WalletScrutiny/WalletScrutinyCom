@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: kr.co.coin5.ad
+appCountry: 
 released: 2020-06-10
 updated: 2020-06-11
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: kr.co.coin5.ad.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

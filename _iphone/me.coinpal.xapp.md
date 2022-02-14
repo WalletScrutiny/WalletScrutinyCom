@@ -10,23 +10,19 @@ idd: 1351428916
 released: 2018-06-26
 updated: 2018-06-26
 version: "1.0"
-stars: 4.125
-reviews: 8
+stars: 4
+reviews: 11
 size: 77613056
 website: https://coinpal.me
 repository: 
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: nosource
+date: 2022-02-10
 signer: 
 reviewArchive:
-- date: 2021-06-04
-  version: "1.0"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: coinpalapp
 providerLinkedIn: coinpal
@@ -36,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-28**: This app is not in store anymore.
 
 The providers [App store description](https://apps.apple.com/us/app/coinpal-bitcoin-wallet/id1351428916) states the customer is in control of the private keys.
 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zenafinance
+appCountry: 
 released: 2020-12-17
 updated: 2021-10-16
 version: "2.1.3"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.zenafinance.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nowallet
 date: 2021-12-22
 signer: 
 reviewArchive:
-- date: 2021-11-15
-  version: "2.1.3"
-  appHash: 
-  gitRevision: 17cf4ef5646c49bab9d9a53a0b4611c9f16606b3
-  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-03**: This app is gone from the Store.
 

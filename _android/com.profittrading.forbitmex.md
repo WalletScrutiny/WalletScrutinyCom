@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.profittrading.forbitmex
+appCountry: 
 released: 2019-06-11
 updated: 2021-11-04
 version: "5.2.2"
-stars: 4.0
-ratings: 321
-reviews: 142
+stars: 4.5
+ratings: 345
+reviews: 6
 size: 23M
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forbitmex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

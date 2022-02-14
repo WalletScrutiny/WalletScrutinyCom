@@ -8,21 +8,21 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2021-12-06
-version: "3.2.1"
-stars: 4.78218
-reviews: 4894
-size: 105010176
+updated: 2022-01-24
+version: "3.3.3"
+stars: 4.77341
+reviews: 4912
+size: 106108928
 website: https://www.bitstamp.net/
 repository: 
 issue: 
 icon: net.bitstamp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitstamp
 providerLinkedIn: bitstamp

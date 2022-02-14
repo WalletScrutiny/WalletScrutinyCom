@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.allcoinwallet.allcoinwallet
+appCountry: 
 released: 2019-01-28
 updated: 2019-11-22
 version: "1.2.22"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

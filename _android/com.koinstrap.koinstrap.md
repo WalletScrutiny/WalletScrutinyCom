@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.koinstrap.koinstrap
+appCountry: us
 released: 2020-08-28
 updated: 2021-11-13
 version: "2.1.8"
-stars: 3.8
-ratings: 20
-reviews: 11
+stars: 0.0
+ratings: 
+reviews: 
 size: 59M
-website: https://koinstrap.com/
+website: https://koinstrap.com
 repository: 
 issue: 
 icon: com.koinstrap.koinstrap.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: koinstrap
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

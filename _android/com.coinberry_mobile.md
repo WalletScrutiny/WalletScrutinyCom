@@ -4,25 +4,26 @@ title: "Coinberry: Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinberry_mobile
-released: 
-updated: 2021-10-29
-version: "1.18.20"
-stars: 3.0
-ratings: 1079
-reviews: 623
-size: 80M
-website: https://www.coinberry.com/
+appCountry: ca
+released: 2018-12-19
+updated: 2022-02-07
+version: "1.23.02"
+stars: 3.1
+ratings: 1113
+reviews: 626
+size: 84M
+website: https://www.coinberry.com
 repository: 
 issue: 
 icon: com.coinberry_mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinberryHQ
 providerLinkedIn: coinberry
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [In their official website](https://www.coinberry.com/learn/crypto-storage-guide), Coinberry directly states that their app is custodial.
 

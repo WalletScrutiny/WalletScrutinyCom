@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.AndroidCompany.OBMENik
+appCountry: 
 released: 2020-11-18
 updated: 2020-11-18
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.AndroidCompany.OBMENik.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note** 
 - This app does not have a homepage domain. 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.101investing.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 101Investing_eu
 providerLinkedIn: 73520735

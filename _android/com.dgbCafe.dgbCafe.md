@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.dgbCafe.dgbCafe
+appCountry: 
 released: 2018-11-16
 updated: 2021-05-28
 version: "2.1"
-stars: 4.8
+stars: 5.0
 ratings: 28
-reviews: 16
+reviews: 5
 size: 19M
-website: https://digitide.us/
+website: https://www.digibytecafe.com
 repository: 
 issue: 
 icon: com.dgbCafe.dgbCafe.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.iminerator.app.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

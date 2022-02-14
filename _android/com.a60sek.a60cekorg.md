@@ -1,33 +1,34 @@
 ---
-wsId:
+wsId: 
 title: "Купить Биткоин за рубли – 60cek"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.a60sek.a60cekorg
+appCountry: 
 released: 2020-04-06
 updated: 2021-11-26
 version: "1.1"
-stars: 3.8
-ratings: 20
-reviews: 15
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.2M
-website: https://60cek.org/
-repository:
-issue:
+website: https://60cek.org
+repository: 
+issue: 
 icon: com.a60sek.a60cekorg.png
-bugbounty:
+bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-12-18
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 

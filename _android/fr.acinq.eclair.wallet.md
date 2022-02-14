@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: fr.acinq.eclair.wallet
+appCountry: 
 released: 2017-07-20
 updated: 2021-09-20
 version: "0.4.17"
-stars: 4.4
-ratings: 221
-reviews: 88
+stars: 4.6
+ratings: 220
+reviews: 17
 size: 29M
-website: https://acinq.co/
+website: https://acinq.co
 repository: 
 issue: 
 icon: fr.acinq.eclair.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: acinq_co
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the testnet version of {% include walletLink.html wallet='android/fr.acinq.eclair.wallet.mainnet2' verdict='true' %}
 

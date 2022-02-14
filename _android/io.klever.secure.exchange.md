@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: io.klever.secure.exchange
+appCountry: us
 released: 2021-06-30
-updated: 2021-11-08
-version: "1.0.8"
-stars: 4.1
-ratings: 437
-reviews: 265
-size: 13M
-website: https://klever.io/en/
+updated: 2022-01-27
+version: "1.0.17"
+stars: 4.0
+ratings: 499
+reviews: 35
+size: 60M
+website: https://klever.io
 repository: 
 issue: 
 icon: io.klever.secure.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: klever_io
 providerLinkedIn: klever-app
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Klever Exchange is distinct from  {% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}.
 

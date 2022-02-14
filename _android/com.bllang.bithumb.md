@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.bllang.bithumb
+appCountry: 
 released: 2017-07-23
 updated: 2017-12-16
 version: "1.3.13"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bllang.bithumb.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-05**: This app is gone from the Store.
 

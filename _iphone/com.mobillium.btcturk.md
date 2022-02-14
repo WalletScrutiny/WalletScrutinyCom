@@ -8,21 +8,21 @@ appId: com.mobillium.btcturk
 appCountry: tr
 idd: 1503482896
 released: 2020-04-09
-updated: 2021-12-03
-version: "1.12.1"
-stars: 4.64002
-reviews: 22929
-size: 164822016
+updated: 2022-02-12
+version: "1.14.1"
+stars: 4.64045
+reviews: 23393
+size: 182218752
 website: https://www.btcturk.com
 repository: 
 issue: 
 icon: com.mobillium.btcturk.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: btcturk
 providerLinkedIn: btcturk

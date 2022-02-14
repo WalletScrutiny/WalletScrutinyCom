@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.bitfin.BitFin
+appCountry: 
 released: 2020-02-05
 updated: 2020-02-19
 version: "1.1"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 12M
-website: 
+website: https://bitfin.io
 repository: 
 issue: 
 icon: com.bitfin.BitFin.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: fewusers
+date: 2022-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

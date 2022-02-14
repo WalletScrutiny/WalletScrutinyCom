@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.inf.os.xnanoandroid
+appCountry: 
 released: 2020-12-04
 updated: 2020-10-08
 version: "4.0"
-stars: 4.5
-ratings: 51
-reviews: 41
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.0M
-website: 
+website: http://xnano.com.br
 repository: 
 issue: 
 icon: com.inf.os.xnanoandroid.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

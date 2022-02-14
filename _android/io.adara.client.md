@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: io.adara.client
+appCountry: 
 released: 2019-11-25
 updated: 2020-02-05
 version: "1.3"
-stars: 4.4
-ratings: 13
-reviews: 6
+stars: 0.0
+ratings: 
+reviews: 
 size: 27M
-website: 
+website: https://adara.io/
 repository: 
 issue: 
 icon: io.adara.client.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: wip
+date: 2022-01-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

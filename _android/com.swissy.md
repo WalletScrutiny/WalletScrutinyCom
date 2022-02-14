@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.swissy
+appCountry: 
 released: 2020-09-01
 updated: 2021-01-27
 version: "3.3"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.swissy.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

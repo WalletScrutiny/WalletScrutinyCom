@@ -4,25 +4,26 @@ title: "Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitcoin.wallet.cryptopuce
+appCountry: 
 released: 2021-03-07
 updated: 2021-05-20
 version: "1.2"
-stars: 3.8
-ratings: 48
-reviews: 22
+stars: 4.9
+ratings: 70
+reviews: 3
 size: 4.0M
-website: https://cryptopuce.com/
+website: https://cryptopuce.com
 repository: 
 issue: 
 icon: com.bitcoin.wallet.cryptopuce.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

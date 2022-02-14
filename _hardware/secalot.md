@@ -19,6 +19,7 @@ repository:
 issue:
 icon: secalot.png
 bugbounty:
+meta: ok
 verdict: noita
 date: 2021-07-21
 signer:

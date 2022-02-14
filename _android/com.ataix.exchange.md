@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.ataix.exchange
+appCountry: ee
 released: 2019-09-20
 updated: 2021-07-01
 version: "1.3.0"
 stars: 3.5
-ratings: 44
-reviews: 22
+ratings: 48
+reviews: 24
 size: 11M
-website: https://ataix.com/
+website: https://ataix.com
 repository: 
 issue: 
 icon: com.ataix.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ATAIXcom
 providerLinkedIn: ataixcom
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

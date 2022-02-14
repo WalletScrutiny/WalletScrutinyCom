@@ -1,33 +1,29 @@
 ---
-wsId: 
-title: "HyperPay: Crypto & BTC Wallet"
+wsId: hyperPay
+title: "HyperPay: buy & sell BTC,ETH"
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 100000
 appId: com.legendwd.hyperpayW
-released: 
-updated: 2021-05-08
-version: "4.0.25"
-stars: 5.0
-ratings: 1800
-reviews: 1456
-size: 104M
+appCountry: us
+released: 2018-10-25
+updated: 2022-02-10
+version: "4.1.24"
+stars: 4.3
+ratings: 2748
+reviews: 244
+size: 120M
 website: https://hyperpay.tech
 repository: 
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: obfuscated
 date: 2021-05-25
 signer: 
 reviewArchive:
-- date: 2020-12-02
-  version: "4.0.25"
-  appHash: 
-  gitRevision: 0d5d72cd32532e6c3974d872a76997f7044c5906
-  verdict: obfuscated
-
 
 providerTwitter: HyperPay_tech
 providerLinkedIn: 
@@ -38,6 +34,7 @@ redirect_from:
   - /com.legendwd.hyperpayW/
 ---
 
+**Update 2022-01-10**: The app is back online.
 
 **Update 2021-05-25**: This app is not available on Google Play anymore. As our
 last analysis below shows, the app was shady. On Facebook you can still find

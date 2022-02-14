@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.hybridsolutions.btc
+appCountry: 
 released: 2020-08-24
 updated: 2021-12-15
 version: "1.2.1.10"
-stars: 3.2
-ratings: 21
-reviews: 9
+stars: 0.0
+ratings: 
+reviews: 
 size: 37M
-website: https://hybridsolutions.com/en/
+website: https://hybridsolutions.com/
 repository: 
 issue: 
 icon: com.hybridsolutions.btc.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: VertexFXTrader
 providerLinkedIn: hybrid-solutions-hs-
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

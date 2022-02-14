@@ -6,23 +6,24 @@ authors:
 
 users: 100000
 appId: kajesabz.ir.bidarz
+appCountry: 
 released: 2019-01-16
 updated: 2020-09-18
 version: "3.2.5"
-stars: 4.3
-ratings: 3924
-reviews: 1742
+stars: 4.1
+ratings: 3995
+reviews: 80
 size: 17M
-website: 
+website: https://www.bidarz.com
 repository: 
 issue: 
 icon: kajesabz.ir.bidarz.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

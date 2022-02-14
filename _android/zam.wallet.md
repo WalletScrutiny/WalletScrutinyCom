@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: zam.wallet
+appCountry: ru
 released: 2018-09-17
-updated: 2021-11-24
-version: "2.3.2"
-stars: 3.2
-ratings: 188
-reviews: 144
+updated: 2022-01-07
+version: "2.3.6"
+stars: 4.1
+ratings: 286
+reviews: 47
 size: 25M
-website: https://zam.io/
+website: http://zam.io
 repository: 
 issue: 
 icon: zam.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: zam_io
 providerLinkedIn: 11770701
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** This app shares a logo with {% include walletLink.html wallet='android/ru.zamzamwallet' verdict='0' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.
 

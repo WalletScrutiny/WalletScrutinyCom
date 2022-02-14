@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100000
 appId: com.coinbene.manbiwang
+appCountry: us
 released: 2018-11-09
 updated: 2021-05-18
 version: "4.1.6"
@@ -19,16 +20,11 @@ repository:
 issue: 
 icon: com.coinbene.manbiwang.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-- date: 2021-09-11
-  version: ""
-  appHash: 
-  gitRevision: cfaa2364ba00347a969aeadef14b8ee616166450
-  verdict: custodial
-  
 
 providerTwitter: coinbene
 providerLinkedIn: coinbene-official
@@ -38,6 +34,9 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'
+
 **Update 2021-10-01**: This app now appears to have a successor on Play Store, [CB Global](https://play.google.com/store/apps/details?id=com.mingyue.liuli).
 
 **Update 2021-09-07**: This app is not on Play Store anymore.

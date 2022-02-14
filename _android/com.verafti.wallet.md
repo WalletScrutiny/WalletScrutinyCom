@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.verafti.wallet
+appCountry: 
 released: 2021-07-21
 updated: 2021-09-23
 version: "1.1.3"
 stars: 2.9
-ratings: 118
-reviews: 76
+ratings: 125
+reviews: 3
 size: 7.0M
-website: 
+website: https://verafti.uk
 repository: 
 issue: 
 icon: com.verafti.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: token_vera
 providerLinkedIn: vera-token-74a925218
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Vera Wallet is the official crypto wallet of VeraFTI. 

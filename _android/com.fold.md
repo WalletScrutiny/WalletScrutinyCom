@@ -1,28 +1,29 @@
 ---
 wsId: foldapp
-title: "Fold - Bitcoin Cashback Rewards"
+title: "Fold: Bitcoin Cashback Rewards"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.fold
-released: 
-updated: 2021-10-27
-version: "139.3.0"
-stars: 4.2
-ratings: 679
-reviews: 471
-size: 84M
-website: https://foldapp.com/
+appCountry: us
+released: 2019-11-12
+updated: 2022-02-11
+version: "139.9.1"
+stars: 3.7
+ratings: 778
+reviews: 468
+size: 164M
+website: https://foldapp.com
 repository: 
 issue: 
 icon: com.fold.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: fold_app
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Section 6 of its [Terms of Service](https://foldapp.com/legal/terms-of-rewards) Reads:
 

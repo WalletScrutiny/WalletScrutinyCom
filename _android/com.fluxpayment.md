@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.fluxpayment
+appCountry: us
 released: 2020-09-02
-updated: 2021-12-17
-version: "2.1.6"
-stars: 4
-ratings: 178
-reviews: 111
-size: 59M
-website: https://iflux.app/
+updated: 2022-02-13
+version: "2.4.4"
+stars: 4.1
+ratings: 359
+reviews: 8
+size: 80M
+website: https://iflux.app
 repository: 
 issue: 
 icon: com.fluxpayment.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: ifluxdotapp
 providerLinkedIn: iflux-pay
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: cc.cryptochanger
+appCountry: 
 released: 2017-11-30
 updated: 2018-02-19
 version: "0.4"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: cc.cryptochanger.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-13**: This app is no more.
 

@@ -3,13 +3,18 @@
  **/
 window.addEventListener("load", () => {
   function getWidgetHtml(wallet, includeDetails) {
+    function verdictBadge(v) {
+      return `<span style="background:${window.verdicts[v].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[v].short}</span>`
+    }
+    
     return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">
       <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
         src="/images/wallet_icons/${ wallet.folder }/small/${wallet.icon}" alt="Wallet Logo">
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
-        <span style="background:${window.verdicts[wallet.verdict].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[wallet.verdict].short}</span>
+        ${verdictBadge(wallet.verdict)}
+        ${ wallet.meta != "ok" ? verdictBadge(wallet.meta) : ""}
       </div>
     </a>
     ${includeDetails ? getWidgetDetails(wallet) : `` }

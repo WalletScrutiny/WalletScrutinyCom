@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.incognito.wallet
+appCountry: 
 released: 2019-08-12
-updated: 2021-09-26
-version: "4.9.0"
-stars: 4.1
-ratings: 324
-reviews: 183
-size: 47M
-website: https://incognito.org
+updated: 2021-12-26
+version: "5.0.0"
+stars: 3.9
+ratings: 341
+reviews: 61
+size: 49M
+website: https://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2020-12-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: incognitochain
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.incognito.wallet/
 ---
-
 
 After many many reviews of custodial wallets, this one makes a promising claim:
 

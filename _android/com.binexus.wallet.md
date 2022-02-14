@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.binexus.wallet
+appCountry: 
 released: 2018-03-28
 updated: 2018-03-29
 version: "v5.0.0"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 4.7M
-website: 
+website: http://www.binexus.co
 repository: 
 issue: 
 icon: com.binexus.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

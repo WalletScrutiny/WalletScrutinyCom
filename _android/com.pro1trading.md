@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.pro1trading
+appCountry: 
 released: 2020-11-24
-updated: 2021-10-29
-version: "1.0.27"
-stars: 4.3
-ratings: 49
-reviews: 42
+updated: 2022-01-31
+version: "1.0.30"
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
-website: https://pro1.trading/en/
+website: https://pro1.trading/
 repository: 
 issue: 
 icon: com.pro1trading.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: pro1trading
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

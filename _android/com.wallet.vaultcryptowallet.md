@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.wallet.vaultcryptowallet
+appCountry: 
 released: 2021-08-18
-updated: 2021-09-15
-version: "1.0.3"
-stars: 4.6
-ratings: 22
-reviews: 20
-size: 17M
-website: 
+updated: 2022-01-06
+version: "1.0.5"
+stars: 0.0
+ratings: 
+reviews: 
+size: 18M
+website: https://bitcoinpay.com.co/contact.php
 repository: 
 issue: 
 icon: com.wallet.vaultcryptowallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Notes:** Vault Crypto Wallet's Google Play page links to [bitcoinpay.com.co](https://bitcoinpay.com.co)
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.instantcoins
+appCountry: ng
 released: 2020-06-19
 updated: 2021-04-05
 version: "1.0.6"
-stars: 3.4
-ratings: 197
-reviews: 155
+stars: 2.8
+ratings: 212
+reviews: 104
 size: 26M
-website: https://instantcoins.ng/
+website: https://instantcoins.ng
 repository: 
 issue: 
 icon: com.instantcoins.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: instantcoins_ng
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

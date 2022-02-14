@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.profittrading.forbinance
+appCountry: 
 released: 2018-01-09
-updated: 2021-12-08
-version: "10.9.13"
-stars: 4.5
-ratings: 1636
-reviews: 726
+updated: 2022-01-27
+version: "10.10.1"
+stars: 4.3
+ratings: 1832
+reviews: 108
 size: 23M
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forbinance.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

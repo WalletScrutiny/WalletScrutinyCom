@@ -5,30 +5,26 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.node.coindirect
 appCountry: 
 idd: 1438224938
 released: 2018-10-25
 updated: 2021-07-21
 version: "1.2.7"
-stars: 2.8
-reviews: 10
+stars: 3
+reviews: 12
 size: 34306048
 website: https://www.coindirect.com/
 repository: 
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: custodial
 date: 2021-10-22
 signer: 
 reviewArchive:
-- date: 2021-04-27
-  version: "1.2.7"
-  appHash: 
-  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
-  verdict: custodial
-  
 
 providerTwitter: coindirectcom
 providerLinkedIn: coindirect
@@ -38,6 +34,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-04**: This app is available once more in the iOS app store. The app was last updated 2021-07-21
 
 **Update 2021-10-14**: This app is no more available.
 

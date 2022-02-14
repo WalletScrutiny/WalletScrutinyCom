@@ -4,25 +4,26 @@ title: "Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.leadWallet
+appCountry: ng
 released: 2021-07-29
-updated: 2021-11-23
-version: "1.0.11"
-stars: 4.7
-ratings: 1527
-reviews: 1306
-size: 38M
-website: https://leadwallet.io/
+updated: 2022-02-01
+version: "1.0.17"
+stars: 4.3
+ratings: 1669
+reviews: 42
+size: 37M
+website: https://leadwallet.io
 repository: 
 issue: 
 icon: com.leadWallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: leadwallet
 providerLinkedIn: leadwallet
@@ -32,7 +33,6 @@ providerReddit: LeadWallet
 redirect_from:
 
 ---
-
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 
 
@@ -56,4 +56,4 @@ We downloaded the app. It offers two choices: create a wallet or import a wallet
 
 ## Verdict
 
-The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, we assume that this app is closed source.
+The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, the closest repository may be (https://github.com/leadwallet/leadwallet-core). But then again, the title for this repository is "LeadWallet Core API" and again, does not have build instructions.

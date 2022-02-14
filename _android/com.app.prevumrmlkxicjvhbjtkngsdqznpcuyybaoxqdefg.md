@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg
+appCountry: us
 released: 2018-02-27
 updated: 2021-05-22
 version: "2.0"
-stars: 3.9
-ratings: 379
-reviews: 239
+stars: 4.9
+ratings: 396
+reviews: 4
 size: 40M
-website: https://www.toolstrades.com/
+website: https://www.toolstrades.com
 repository: 
 issue: 
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

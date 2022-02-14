@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.chivowalletapp.co
+appCountry: 
 released: 2021-08-12
 updated: 2021-08-13
 version: "1.0"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.chivowalletapp.co.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-08-21
 signer: 
 reviewArchive:
-- date: 2021-08-20
-  version: "1.0"
-  appHash: 
-  gitRevision: 009f04e77df6a800d039513746016ec961541d38
-  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-21**: This app is no more.
 

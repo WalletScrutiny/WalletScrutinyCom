@@ -1,5 +1,5 @@
 ---
-wsId: currencycominvesting
+wsId: 
 title: "Crypto Exchange Currency.com"
 altTitle: 
 authors:
@@ -8,21 +8,21 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2021-12-07
-version: "1.19.3"
-stars: 4.79563
-reviews: 2378
-size: 71873536
+updated: 2022-01-24
+version: "1.21.3"
+stars: 4.80077
+reviews: 2610
+size: 73199616
 website: https://currency.com/
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
-verdict: custodial
-date: 2021-09-11
+meta: ok
+verdict: wip
+date: 2022-01-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: currencycom
 providerLinkedIn: 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
-{% include copyFromAndroid.html %}
+<!--
+  According to the Android review, this app was falsely marked as wsId currencycominvesting and needs another close look.
+-->

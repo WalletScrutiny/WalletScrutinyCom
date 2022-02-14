@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.betconix
+appCountry: 
 released: 2021-07-01
 updated: 2021-12-14
 version: "6.7"
-stars: 3.9
-ratings: 45
-reviews: 40
+stars: 0.0
+ratings: 
+reviews: 
 size: 13M
-website: https://betconix.com
+website: https://betconix.com/
 repository: 
 issue: 
 icon: com.betconix.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: betconix
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

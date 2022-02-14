@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.bit.eu
+appCountry: 
 released: 2019-07-03
-updated: 2021-08-05
-version: "1.9.8"
-stars: 4.5
-ratings: 17
-reviews: 15
-size: 5.1M
-website: 
+updated: 2022-01-11
+version: "1.9.10"
+stars: 0.0
+ratings: 
+reviews: 
+size: 7.8M
+website: http://www.biteeu.com
 repository: 
 issue: 
 icon: com.bit.eu.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

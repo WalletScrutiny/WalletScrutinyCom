@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: io.moonstake.wallet
+appCountry: us
 released: 2020-03-24
-updated: 2021-11-24
-version: "2.10.1"
-stars: 4.6
-ratings: 2223
-reviews: 1115
-size: 57M
-website: https://moonstake.io/
+updated: 2022-02-09
+version: "2.13.4"
+stars: 3.4
+ratings: 2233
+reviews: 14
+size: 94M
+website: https://moonstake.io
 repository: 
 issue: 
 icon: io.moonstake.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: moonstake
 providerLinkedIn: moonstake
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Moonstake Wallet directly claims that it is a non-custodial wallet. From the Play Store description:
 

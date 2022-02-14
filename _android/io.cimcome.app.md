@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: io.cimcome.app
+appCountry: bm
 released: 2020-12-09
 updated: 2021-10-22
 version: "1.0.15"
-stars: 4.4
-ratings: 9
-reviews: 6
+stars: 4.5
+ratings: 10
+reviews: 7
 size: 17M
-website: https://cimcome.io/#app
+website: https://cimcome.io/
 repository: 
 issue: 
 icon: io.cimcome.app.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: cimcome
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

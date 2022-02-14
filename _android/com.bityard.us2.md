@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bityard.us2
+appCountry: 
 released: 2021-03-31
 updated: 2021-03-31
 version: "1.0.2"
-stars: 3
-ratings: 105
-reviews: 62
+stars: 2.9
+ratings: 160
+reviews: 3
 size: 4.4M
-website: https://www.bityard.com/
+website: http://www.bityard.com
 repository: 
 issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitYard_Global
 providerLinkedIn: bityard
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

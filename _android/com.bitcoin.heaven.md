@@ -6,10 +6,11 @@ authors:
 
 users: 1
 appId: com.bitcoin.heaven
+appCountry: 
 released: 2020-07-14
 updated: 2020-07-14
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bitcoin.heaven.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-12-05**: This app is gone from the Store.
 

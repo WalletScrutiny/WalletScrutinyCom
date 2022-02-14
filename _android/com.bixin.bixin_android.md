@@ -4,25 +4,26 @@ title: "Bixin - Secure Bitcoin Wallet"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bixin.bixin_android
+appCountry: 
 released: 2017-03-22
-updated: 2021-12-03
-version: "4.3.3"
-stars: 3.9
-ratings: 87
-reviews: 31
-size: 175M
-website: https://bixin.com/
+updated: 2022-01-30
+version: "4.4.3"
+stars: 3.8
+ratings: 91
+reviews: 10
+size: 177M
+website: https://bixin.com
 repository: 
 issue: 
 icon: com.bixin.bixin_android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: BixinWallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

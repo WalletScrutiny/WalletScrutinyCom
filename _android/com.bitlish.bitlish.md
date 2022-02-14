@@ -1,9 +1,12 @@
 ---
+wsId: 
 title: "Bitlish - crypto wallet"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.bitlish.bitlish
+appCountry: 
 released: 2017-07-11
 updated: 2020-01-20
 version: "2.0.10"
@@ -16,15 +19,11 @@ repository:
 issue: 
 icon: com.bitlish.bitlish.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2020-03-20
 signer: 
 reviewArchive:
-- date: 2019-12-25
-  version: "2.0.10"
-  appHash: 
-  gitRevision: 9fc3b5cc1037dfc222c49f94cf7604ec1bf0fe1f
-  verdict: custodial
 
 providerTwitter: bitlish_com
 providerLinkedIn: bitlish
@@ -35,7 +34,6 @@ redirect_from:
   - /com.bitlish.bitlish/
   - /posts/com.bitlish.bitlish/
 ---
-
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,
 Twitter, LinkedIn and Facebook and on their website we read:

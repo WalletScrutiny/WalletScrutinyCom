@@ -20,7 +20,8 @@ repository: https://github.com/extropiescom
 issue:
 icon: wookongsolo.png
 bugbounty:
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-26
 signer:
 reviewArchive:

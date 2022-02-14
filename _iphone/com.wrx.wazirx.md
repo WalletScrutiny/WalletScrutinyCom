@@ -8,21 +8,21 @@ appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2021-12-08
-version: "1.12"
-stars: 4.23083
-reviews: 39501
-size: 34127872
+updated: 2022-02-04
+version: "1.14"
+stars: 4.24815
+reviews: 42994
+size: 35226624
 website: https://support.wazirx.com
 repository: 
 issue: 
 icon: com.wrx.wazirx.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: WazirxIndia
 providerLinkedIn: wazirx

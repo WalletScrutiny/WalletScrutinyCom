@@ -4,6 +4,7 @@ title: "OneKey Wallet: Crypto & DeFi"
 altTitle: 
 authors:
 - danny
+- leo
 appId: com.onekey.wallet
 appCountry: us
 idd: 1568432215
@@ -18,11 +19,11 @@ repository: https://github.com/OneKeyHQ/wallet-deprecated-
 issue: 
 icon: com.onekey.wallet.jpg
 bugbounty: 
-verdict: wip
+meta: ok
+verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: OneKeyHQ
 providerLinkedIn: 

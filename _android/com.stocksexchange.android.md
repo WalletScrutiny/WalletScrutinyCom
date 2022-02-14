@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.stocksexchange.android
+appCountry: us
 released: 2018-05-15
-updated: 2021-10-28
-version: "2.1.0"
-stars: 4.2
-ratings: 1763
-reviews: 624
-size: 9.8M
+updated: 2022-01-26
+version: "2.1.2"
+stars: 4.3
+ratings: 2094
+reviews: 36
+size: 9.9M
 website: https://stex.com
 repository: 
 issue: 
 icon: com.stocksexchange.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It has a Crypto Exchange interface and refers to itself as such. One of its general features advertise wallet service. This sounds custodial.
 

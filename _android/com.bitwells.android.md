@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.bitwells.android
+appCountry: us
 released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"
 stars: 4.6
-ratings: 1303
-reviews: 1298
+ratings: 1307
+reviews: 1260
 size: 11M
-website: https://www.bitwells.com/
+website: https://www.bitwells.com
 repository: 
 issue: 
 icon: com.bitwells.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitwells
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

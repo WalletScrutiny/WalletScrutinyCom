@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.basefex.exchange
+appCountry: 
 released: 2019-07-16
 updated: 2020-08-13
 version: "2.5.67"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.basefex.exchange.png
 bugbounty: 
-verdict: stale
-date: 2021-10-05
+meta: defunct
+verdict: fewusers
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

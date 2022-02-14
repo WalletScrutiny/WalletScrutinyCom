@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: co.bacoor.android.hbwallet
+appCountry: us
 released: 2017-07-17
 updated: 2021-07-08
 version: "3.5.0"
-stars: 3.9
-ratings: 2104
-reviews: 904
+stars: 4.5
+ratings: 2132
+reviews: 42
 size: 71M
-website: https://www.hb-wallet.com
+website: https://www.hb-wallet.com/
 repository: 
 issue: 
 icon: co.bacoor.android.hbwallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: HBWallet_Ether
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We downloaded the app. This is an Ethereum wallet meant for Ethereum transactions. It is possible to buy Bitcoin, but through a third party provider. **No Bitcoins** are stored on this wallet.
 

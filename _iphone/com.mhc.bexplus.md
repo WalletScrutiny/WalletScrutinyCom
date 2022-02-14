@@ -9,21 +9,21 @@ appId: com.mhc.bexplus
 appCountry: 
 idd: 1442189260
 released: 2018-11-29
-updated: 2021-11-20
-version: "2.1.6"
-stars: 4.84576
-reviews: 1368
+updated: 2021-12-24
+version: "2.1.7"
+stars: 4.7758
+reviews: 562
 size: 78017536
 website: https://www.bexplus.com/activity/cash_back
 repository: 
 issue: 
 icon: com.mhc.bexplus.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: BexplusExchange
 providerLinkedIn: 

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 50000
 appId: com.citowise.wallet
+appCountry: 
 released: 
 updated: 2019-12-25
 version: "1.355"
@@ -19,15 +20,11 @@ repository:
 issue: 
 icon: com.citowise.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-06-02
 signer: 
 reviewArchive:
-- date: 2021-04-30
-  version: "1.355"
-  appHash: 
-  gitRevision: c08607be70f54ef29194d3b501f74ae09a9c9c6c
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-02**: As for our review a month ago, the provider website was
 already offline, we assume the store listing being gone now is a permanent

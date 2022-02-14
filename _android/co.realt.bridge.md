@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: co.realt.bridge
+appCountry: be
 released: 2021-03-18
-updated: 2021-05-06
-version: "1.13"
-stars: 3.3
-ratings: 10
-reviews: 4
-size: 76M
-website: https://realt.co/
+updated: 2021-12-14
+version: "1.20"
+stars: 0.0
+ratings: 
+reviews: 
+size: 167M
+website: https://realt.co
 repository: 
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: RealTPlatform
 providerLinkedIn: realtplatform
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

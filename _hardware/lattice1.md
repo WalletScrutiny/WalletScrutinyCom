@@ -19,6 +19,7 @@ repository: https://github.com/GridPlus/lattice-firmware-history
 issue:
 icon: lattice1.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-23
 signer:

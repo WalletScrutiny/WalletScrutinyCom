@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.tideisun.tidepay.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: isunone1
 providerLinkedIn: isunone

@@ -4,25 +4,26 @@ title: "CoinMetro"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: app.coinmetro
+appCountry: us
 released: 2017-12-10
-updated: 2021-10-12
-version: "4.1.2600"
-stars: 3.1
-ratings: 272
-reviews: 142
-size: 34M
+updated: 2022-01-31
+version: "4.4.191"
+stars: 3.0
+ratings: 412
+reviews: 69
+size: 35M
 website: https://coinmetro.com/
 repository: 
 issue: 
 icon: app.coinmetro.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinMetro
 providerLinkedIn: coinmetro
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: exchange.fox.android
+appCountry: 
 released: 2019-06-11
 updated: 2020-04-20
 version: "1.5.1"
-stars: 3.3
-ratings: 14
-reviews: 9
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.2M
-website: 
+website: https://fox.exchange
 repository: 
 issue: 
 icon: exchange.fox.android.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

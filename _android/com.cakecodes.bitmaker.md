@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: com.cakecodes.bitmaker
+appCountry: us
 released: 2014-09-07
-updated: 2021-11-18
-version: "8.12.4"
-stars: 4.1
-ratings: 84251
-reviews: 51371
+updated: 2022-02-02
+version: "8.14.0"
+stars: 4.3
+ratings: 84468
+reviews: 3444
 size: 66M
 website: https://stormx.io/
 repository: 
 issue: 
 icon: com.cakecodes.bitmaker.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: stormxio
 providerLinkedIn: StormX
@@ -32,7 +33,6 @@ providerReddit: stormxio
 redirect_from:
 
 ---
-
 
 ## App Description
 

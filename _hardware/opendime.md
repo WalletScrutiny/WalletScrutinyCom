@@ -19,6 +19,7 @@ repository: https://github.com/opendime
 issue: 
 icon: opendime.png
 bugbounty: 
+meta: ok
 verdict: plainkey
 date: 2021-07-17
 signer: 

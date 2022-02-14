@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.coinex.trade.play
+appCountry: 
 released: 2019-12-27
-updated: 2021-12-10
-version: "3.4.0"
+updated: 2022-01-22
+version: "3.6.2"
 stars: 4.6
-ratings: 42838
-reviews: 13458
-size: 17M
-website: https://www.coinex.co
+ratings: 58284
+reviews: 897
+size: 18M
+website: https://www.coinex.com/
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinexcom
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.coinex.trade.play/
   - /posts/com.coinex.trade.play/
 ---
-
 
 The description on Google Play starts not so promising:
 

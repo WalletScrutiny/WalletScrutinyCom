@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.app.paxnairaapp
+appCountry: 
 released: 2019-07-29
 updated: 2019-07-29
 version: "1.0"
-stars: 3.7
-ratings: 22
-reviews: 18
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.5M
-website: 
+website: https://www.paxnaira.com
 repository: 
 issue: 
 icon: com.app.paxnairaapp.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -8,21 +8,21 @@ appId: com.dunamu.upbit.global
 appCountry: us
 idd: 1439527412
 released: 2018-11-06
-updated: 2021-11-08
-version: "1.6.46"
-stars: 3.42857
-reviews: 21
-size: 73479168
+updated: 2022-02-07
+version: "1.7.1"
+stars: 3.5
+reviews: 22
+size: 70930432
 website: https://www.dunamu.com/
 repository: 
 issue: 
 icon: com.dunamu.upbit.global.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: upbit-official

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: io.eidoo.wallet.prodnet
+appCountry: 
 released: 2017-09-25
 updated: 2021-11-08
 version: "3.6.3"
-stars: 3.1
-ratings: 1623
-reviews: 807
+stars: 3.9
+ratings: 1648
+reviews: 96
 size: 13M
 website: https://eidoo.io
 repository: 
 issue: 
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: eidoo_io
 providerLinkedIn: eidoo
@@ -33,7 +34,6 @@ redirect_from:
   - /io.eidoo.wallet.prodnet/
   - /posts/io.eidoo.wallet.prodnet/
 ---
-
 
 The app's description:
 

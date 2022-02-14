@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.lumiwallet.android
+appCountry: 
 released: 2018-01-15
-updated: 2021-08-10
-version: "4.1.3"
-stars: 4.4
-ratings: 6126
-reviews: 1334
-size: 87M
+updated: 2022-01-04
+version: "4.1.4"
+stars: 4.6
+ratings: 6384
+reviews: 272
+size: 138M
 website: https://lumiwallet.com
 repository: 
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lumi_wallet
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.lumiwallet.android/
   - /posts/com.lumiwallet.android/
 ---
-
 
 **Update 2021-06-16**: Something weird is going on. Apparently there are three
 Lumi apps: {% include walletLink.html wallet='iphone/com.lumiwallet.HD' %} on

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.kinesis.kinesisapp
+appCountry: us
 released: 2020-02-28
 updated: 2021-12-15
 version: "1.2.78"
-stars: 4
-ratings: 393
-reviews: 183
+stars: 4.0
+ratings: 421
+reviews: 45
 size: 36M
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 
 icon: com.kinesis.kinesisapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: KinesisMonetary
 providerLinkedIn: kinesismoney
@@ -32,7 +33,6 @@ providerReddit: Kinesis_money
 redirect_from:
 
 ---
-
 
 ### Google Play
 Kinesis app tries to integrate different markets for trading, sending and receiving. With the app, you can trade Kinesis gold (KAU), Kinesis silver (KAG) and cryptocurrencies. It also has an option for a Visa debit card. The app also features a 'cryptocurrency exchange' service that allows users to trade KAU and KAG with cryptocurrencies such as Bitcoin and Ethereum.

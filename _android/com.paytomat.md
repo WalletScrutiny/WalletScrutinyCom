@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.paytomat
+appCountry: 
 released: 2018-06-20
 updated: 2021-02-01
 version: "1.37.2"
-stars: 3.6
-ratings: 785
-reviews: 416
+stars: 4.1
+ratings: 798
+reviews: 14
 size: 6.4M
 website: http://www.paytomat.com
 repository: 
 issue: 
 icon: com.paytomat.png
 bugbounty: 
+meta: stale
 verdict: nosource
-date: 2019-12-25
+date: 2022-01-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: paytomat
 providerLinkedIn: 11433285
@@ -33,7 +34,6 @@ redirect_from:
   - /com.paytomat/
   - /posts/com.paytomat/
 ---
-
 
 This app gets straight to the point:
 

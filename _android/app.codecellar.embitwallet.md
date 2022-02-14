@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: app.codecellar.embitwallet
+appCountry: 
 released: 2019-12-01
-updated: 2021-08-01
-version: "4.56"
+updated: 2022-01-16
+version: "4.67"
 stars: 0.0
 ratings: 
 reviews: 
-size: 7.8M
+size: 8.1M
 website: 
 repository: 
 issue: 
 icon: app.codecellar.embitwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

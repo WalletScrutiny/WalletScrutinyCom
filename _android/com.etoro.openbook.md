@@ -1,28 +1,29 @@
 ---
 wsId: etoro
-title: "eToro - Smart Crypto Trading Made Easy"
+title: "eToro: Crypto. Stocks. Social."
 altTitle: 
 authors:
 - leo
 users: 10000000
 appId: com.etoro.openbook
+appCountry: 
 released: 2013-11-05
-updated: 2021-12-16
-version: "364.0.0"
-stars: 4.2
-ratings: 102379
-reviews: 38636
-size: 58M
-website: https://www.etoro.com
+updated: 2022-02-10
+version: "386.0.0"
+stars: 4.0
+ratings: 110689
+reviews: 2709
+size: 52M
+website: https://www.etoro.com/
 repository: 
 issue: 
 icon: com.etoro.openbook.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Etoro is used to speculate on assets more than to actually transfer them but in
 the case of Bitcoin, according to

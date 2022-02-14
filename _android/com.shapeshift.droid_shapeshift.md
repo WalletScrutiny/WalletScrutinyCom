@@ -1,28 +1,29 @@
 ---
 wsId: ShapeShift
-title: "ShapeShift Buy & Trade Bitcoin & Top Crypto Assets"
+title: "ShapeShift"
 altTitle: 
 authors:
 - leo
 users: 100000
 appId: com.shapeshift.droid_shapeshift
+appCountry: 
 released: 2015-10-26
 updated: 2021-10-22
 version: "2.19.3"
-stars: 2.9
-ratings: 2889
-reviews: 1803
+stars: 3.1
+ratings: 2911
+reviews: 480
 size: 53M
-website: https://shapeshift.com
+website: https://ShapeShift.com
 repository: 
 issue: 
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: ShapeShift_io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.shapeshift.droid_shapeshift/
 ---
-
 
 ShapeShift is best known for their non-custodial exchange but this app appears
 to be a wallet:

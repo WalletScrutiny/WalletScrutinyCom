@@ -4,30 +4,27 @@ title: "JuBiter Wallet 2.0 - Secure Hardware Crypto Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 users: 100
 appId: com.jubiter.app
+appCountry: 
 released: 2020-11-19
-updated: 2021-09-02
-version: "2.5.4"
-stars: 2.8
-ratings: 5
-reviews: 3
+updated: 2021-09-10
+version: "2.5.5"
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
-website: 
+website: http://www.jubiterwallet.com
 repository: 
 issue: 
 icon: com.jubiter.app.png
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: nosource
 date: 2021-09-16
 signer: 
 reviewArchive:
-- date: 2021-09-08
-  version: "2.5.4"
-  appHash: 
-  gitRevision: cfaa2364ba00347a969aeadef14b8ee616166450
-  verdict: nosource
-  
 
 providerTwitter: JuBiterWallet
 providerLinkedIn: jubiter-wallet
@@ -38,6 +35,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-04**: This app is now available on the Play Store again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478325587693359105)
 
 **Update 2021-09-06**: This app is not on Play Store anymore.
 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.cryptocloud.mining.coin.mine.bitcrypto
+appCountry: 
 released: 2021-07-31
 updated: 2021-11-02
 version: "1.2"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.cryptocloud.mining.coin.mine.bitcrypto.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nowallet
 date: 2021-11-16
 signer: 
 reviewArchive:
-- date: 2021-10-16
-  version: "1.2"
-  appHash: 
-  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
-  verdict: nowallet
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-03**: This app is not available anymore.
 

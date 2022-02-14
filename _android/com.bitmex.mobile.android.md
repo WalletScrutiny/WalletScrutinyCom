@@ -4,11 +4,12 @@ title: "BitMEX"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitmex.mobile.android
+appCountry: il
 released: 2020-07-20
-updated: 2021-11-18
-version: "1.1.11"
+updated: 2022-01-05
+version: "1.1.13"
 stars: 2.3
 ratings: 222
 reviews: 1
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bitmex.mobile.android.png
 bugbounty: 
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2022-02-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitmex
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-02-02**: This app is not in store anymore.
 
 ## App Description
 

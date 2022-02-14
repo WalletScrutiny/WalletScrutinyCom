@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btccloudminer.easy
+appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.btccloudminer.easy.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

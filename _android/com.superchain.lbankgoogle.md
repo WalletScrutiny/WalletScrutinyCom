@@ -4,25 +4,26 @@ title: "LBank - Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.superchain.lbankgoogle
+appCountry: us
 released: 2020-05-08
-updated: 2021-11-15
-version: "3.41.31"
-stars: 4.2
-ratings: 20080
-reviews: 3975
-size: 66M
+updated: 2022-01-19
+version: "3.41.46"
+stars: 4.8
+ratings: 39623
+reviews: 1679
+size: 35M
 website: https://lbank.info
 repository: 
 issue: 
 icon: com.superchain.lbankgoogle.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: LBank_Exchange
 providerLinkedIn: lbank
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -1,28 +1,29 @@
 ---
 wsId: Tokenize
-title: "Tokenize Crypto Trading App - International"
+title: "Tokenize Xchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.tokenize.exchange.tradingapp
+appCountry: us
 released: 2019-12-03
-updated: 2021-12-08
-version: "1.19.3"
-stars: 3.1
-ratings: 88
-reviews: 51
-size: 52M
+updated: 2022-02-12
+version: "2.0.1"
+stars: 0.0
+ratings: 
+reviews: 
+size: 87M
 website: https://tokenize.exchange/
 repository: 
 issue: 
 icon: com.tokenize.exchange.tradingapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: TokenizeXchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

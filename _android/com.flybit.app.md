@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.flybit.app
+appCountry: us
 released: 2021-02-04
-updated: 2021-11-24
-version: "1.8.13"
-stars: 4.0
-ratings: 359
-reviews: 226
-size: 8.1M
-website: https://flybit.com/
+updated: 2022-01-27
+version: "1.9.6"
+stars: 0.0
+ratings: 
+reviews: 
+size: 8.7M
+website: https://flybit.com
 repository: 
 issue: 
 icon: com.flybit.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

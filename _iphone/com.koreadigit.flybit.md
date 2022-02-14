@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.koreadigit.flybit.jpg
 bugbounty: 
-verdict: wip
+meta: ok
+verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

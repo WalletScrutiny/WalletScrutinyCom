@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: "Bingbon"
+title: "BingX (Prev. Bingbon)"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,21 +9,21 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2021-11-22
-version: "2.43.2"
-stars: 5
-reviews: 2
-size: 98481152
+updated: 2022-02-09
+version: "2.47.2"
+stars: 4.66667
+reviews: 3
+size: 110238720
 website: https://bingbon.com
 repository: 
 issue: 
 icon: pro.bingbon.finance.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: BingbonOfficial
 providerLinkedIn: bingbon

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.studentcoin
+appCountry: pl
 released: 2021-04-01
 updated: 2021-10-26
 version: "1.12.2"
-stars: 4.2
-ratings: 645
-reviews: 365
+stars: 0.0
+ratings: 
+reviews: 
 size: 29M
-website: https://www.studentcoin.org/
+website: https://www.studentcoin.org
 repository: 
 issue: 
 icon: com.studentcoin.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: studentcoinorg
 providerLinkedIn: student-coin-worldwide
@@ -32,7 +33,6 @@ providerReddit: Studentcoin
 redirect_from:
 
 ---
-
 
 Its [homepage](https://studentcoin.org) description reads:
 

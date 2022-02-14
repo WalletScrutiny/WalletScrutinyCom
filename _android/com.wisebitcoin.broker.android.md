@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.wisebitcoin.broker.android
+appCountry: cn
 released: 2021-01-04
 updated: 2021-11-16
 version: "3.7.4"
-stars: 4.1
-ratings: 109
-reviews: 69
+stars: 4.0
+ratings: 116
+reviews: 72
 size: 32M
-website: https://www.wisebitcoin.com/
+website: https://www.wisebitcoin.com
 repository: 
 issue: 
 icon: com.wisebitcoin.broker.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: wisebitcoin
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

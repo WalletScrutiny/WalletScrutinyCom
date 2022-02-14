@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.biki.bikicoin
+appCountry: us
 released: 2019-05-13
 updated: 2021-07-21
 version: "4.9.1"
-stars: 1.9
-ratings: 763
-reviews: 405
+stars: 3.2
+ratings: 777
+reviews: 17
 size: 25M
-website: https://www.biki.cc/
+website: https://www.biki.com
 repository: 
 issue: 
 icon: com.biki.bikicoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: BiKiEnglish
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: BiKi
 redirect_from:
 
 ---
-
 
 From its Google Play Description:
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.brand101investing
-released: 
+appCountry: cy
+released: 2020-08-18
 updated: 2021-12-01
 version: "1.5.78-brand101investing"
 stars: 3.7
-ratings: 256
-reviews: 207
+ratings: 263
+reviews: 209
 size: 20M
-website: https://www.101investing.com
+website: https://www.101investing.com/
 repository: 
 issue: 
 icon: com.brand101investing.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 101Investing_eu
 providerLinkedIn: 73520735
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

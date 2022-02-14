@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.hconline.iso
+appCountry: us
 released: 2020-07-19
-updated: 2021-09-26
-version: "R02.03.06.296"
-stars: 3.9
-ratings: 17
-reviews: 10
-size: 45M
-website: https://www.starteos.io/en
+updated: 2022-02-08
+version: "R02.03.06.437"
+stars: 3.8
+ratings: 18
+reviews: 4
+size: 44M
+website: https://www.starteos.io
 repository: https://github.com/StarteosIO
 issue: 
 icon: com.hconline.iso.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Starteos
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: Starteos
 redirect_from:
 
 ---
-
 
 ## App Description
 

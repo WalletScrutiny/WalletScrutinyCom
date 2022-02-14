@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.kelta.app
+appCountry: sk
 released: 2018-05-15
 updated: 2021-11-22
 version: "3.1.1"
-stars: 3.3
-ratings: 1254
-reviews: 1110
+stars: 3.0
+ratings: 1253
+reviews: 1108
 size: 4.3M
 website: https://kelta.com/
 repository: 
 issue: 
 icon: com.kelta.app.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Caution
 _We strongly advise users to exercise caution when using this app. See below._

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.limitless.b_lord
+appCountry: 
 released: 2020-11-04
 updated: 2020-11-04
 version: "1.0.4"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.limitless.b_lord.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-10-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

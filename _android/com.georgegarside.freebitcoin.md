@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.georgegarside.freebitcoin
+appCountry: 
 released: 2020-10-30
 updated: 2021-05-25
 version: "3.1.1"
-stars: 2.4
-ratings: 111
-reviews: 68
+stars: 2.9
+ratings: 127
+reviews: 7
 size: 4.9M
-website: https://georgegarside.com/apps/free-bitcoin/
+website: https://georgegarside.com
 repository: 
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: grgarside
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Caution:** Sites that claim to give free bitcoins should be given extra scrutiny. As of today, October 14, 2021, the price of Bitcoin is $57,672. Sending bitcoins for free to over 10,000 users can be quite expensive. 
 

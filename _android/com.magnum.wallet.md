@@ -6,27 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.magnum.wallet
+appCountry: 
 released: 2019-04-23
 updated: 2019-08-29
 version: "1.0.12"
-stars: 3.3
-ratings: 227
-reviews: 159
+stars: 4.5
+ratings: 232
+reviews: 12
 size: 3.0M
 website: https://magnumwallet.co
 repository: 
 issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-19
 signer: 
 reviewArchive:
-- date: 2020-04-07
-  version: "1.0.12"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: magnum_wallet
 providerLinkedIn: 
@@ -37,7 +34,6 @@ redirect_from:
   - /com.magnum.wallet/
   - /posts/com.magnum.wallet/
 ---
-
 
 In the app's description we read:
 

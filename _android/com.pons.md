@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pons
+appCountry: 
 released: 2020-09-22
 updated: 2020-12-26
 version: "1.0.0.11"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.pons.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <div class="alertBox"><div>
 <p>⚠️ Warning: This app is very similar to:</p>

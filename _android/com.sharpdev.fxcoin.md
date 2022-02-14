@@ -6,27 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.sharpdev.fxcoin
+appCountry: ru
 released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
-stars: 2.8
-ratings: 2746
-reviews: 1654
+stars: 2.9
+ratings: 2792
+reviews: 1598
 size: 30M
-website: https://fxcoin.pro
+website: http://fxcoin.pro
 repository: 
 issue: 
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nowallet
 date: 2021-10-25
 signer: 
 reviewArchive:
-- date: 2021-09-03
-  version: "1.11.1"
-  appHash: 
-  gitRevision: 7c0963816b8ac39ce0f3fd52c3338e8fed5050e3
-  verdict: nowallet
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.
 

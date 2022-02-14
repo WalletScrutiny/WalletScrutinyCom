@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.fxwallet
+appCountry: 
 released: 2021-03-26
 updated: 2021-09-30
 version: "5.0"
 stars: 2.6
-ratings: 497
-reviews: 337
+ratings: 523
+reviews: 17
 size: 31M
-website: https://fxwallet.info
+website: https://fxwallet.info/
 repository: 
 issue: 
 icon: com.fxwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: fxwallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution:** Some users have complained about not being able to withdraw we also tried to register but the service did not send the OTP email verification. We tried numerous times. We also tried to contact them via their Telegram, however it says 
 

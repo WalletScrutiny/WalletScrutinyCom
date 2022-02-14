@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.atlas.mobile.wallet
+appCountry: us
 released: 2020-08-07
-updated: 2021-10-27
-version: "1.0.44"
-stars: 4.8
-ratings: 22
-reviews: 12
+updated: 2022-02-09
+version: "1.0.45"
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: https://cent.finance/
+website: http://www.cent.finance
 repository: https://github.com/centfinance
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cent_Finance
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.atlas.mobile.wallet/
 ---
-
 
 ## App Description
 

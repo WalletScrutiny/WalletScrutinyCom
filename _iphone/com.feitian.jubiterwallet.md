@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.feitian.jubiterwallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: JuBiterWallet
 providerLinkedIn: jubiter-wallet

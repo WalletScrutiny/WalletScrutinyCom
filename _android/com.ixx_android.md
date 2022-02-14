@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.ixx_android
+appCountry: 
 released: 2019-08-15
 updated: 2021-09-09
 version: "2.2.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.ixx_android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-20**: This app is no more.

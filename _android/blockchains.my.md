@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: blockchains.my
+appCountry: 
 released: 2017-05-08
 updated: 2019-01-07
 version: "1.0.0.18"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: blockchains.my.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: wip
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

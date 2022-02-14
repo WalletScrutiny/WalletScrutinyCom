@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.vipsmartbot.vsb
+appCountry: 
 released: 2020-11-17
 updated: 2020-11-18
 version: "0.0.1"
-stars: 3.5
-ratings: 20
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.6M
-website: 
+website: https://www.vipsmartbot.com
 repository: 
 issue: 
 icon: com.vipsmartbot.vsb.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-11-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

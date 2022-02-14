@@ -5,25 +5,26 @@ altTitle:
 authors:
 - leo
 - kiwilamb
+- danny
 appId: com.tabtrader.apps.TabTrader
 appCountry: 
 idd: 1095716562
 released: 2016-09-02
 updated: 2021-11-20
 version: "3.1.2"
-stars: 4.73892
-reviews: 4037
+stars: 4.73859
+reviews: 3986
 size: 26054656
 website: https://tab-trader.com
 repository: 
 issue: 
 icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: tabtraderpro
 providerLinkedIn: tabtrader
@@ -34,9 +35,4 @@ redirect_from:
 
 ---
 
-This app appears to not function as a wallet. At least we could not see any
-documentation about depositing or withdrawing through the app, which makes the
-verdict **not a wallet** but the app still has still massive potential for abuse
-if the provider front-runs the trades of the users from the insight they gain or
-even worse, they could trigger lucrative-to-front-run trades the user never
-intended to make.
+{% include copyFromAndroid.html %}

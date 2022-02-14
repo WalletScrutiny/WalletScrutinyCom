@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.nhgames.pwc.barcodereader
+appCountry: 
 released: 
 updated: 2019-02-20
 version: "2.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-06-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

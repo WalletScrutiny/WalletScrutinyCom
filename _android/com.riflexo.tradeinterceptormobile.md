@@ -6,23 +6,24 @@ authors:
 - danny
 users: 500000
 appId: com.riflexo.tradeinterceptormobile
+appCountry: us
 released: 2010-08-02
-updated: 2021-11-13
-version: "6.6.2.4"
-stars: 3.7
-ratings: 5140
-reviews: 2312
+updated: 2021-11-18
+version: "6.6.5.0"
+stars: 3.9
+ratings: 5172
+reviews: 343
 size: 52M
-website: http://www.thinkmarkets.com/
+website: http://www.thinkmarkets.com
 repository: 
 issue: 
 icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: ThinkMarketscom
 providerLinkedIn: thinkmarkets
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

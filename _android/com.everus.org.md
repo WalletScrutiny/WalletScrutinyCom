@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.everus.org
+appCountry: 
 released: 2018-04-07
 updated: 2021-03-07
 version: "1.2.9"
-stars: 4.6
-ratings: 7586
-reviews: 6951
+stars: 4.9
+ratings: 7595
+reviews: 229
 size: 14M
-website: https://everusworld.com/
+website: https://www.everus.org
 repository: 
 issue: 
 icon: com.everus.org.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: everusworld
 providerLinkedIn: everusworld
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

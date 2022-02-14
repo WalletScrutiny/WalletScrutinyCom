@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bigomex.blockchain
+appCountry: 
 released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
-stars: 4.5
-ratings: 281
-reviews: 218
+stars: 4.4
+ratings: 311
+reviews: 14
 size: 10M
-website: https://www.bigomex.com/
+website: https://www.bigomex.com
 repository: 
 issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: bigomexofficial
 providerLinkedIn: bigomex-bigomex-6225b81b2
@@ -32,7 +33,6 @@ providerReddit: bigomex
 redirect_from:
 
 ---
-
 
 ## App Description
 

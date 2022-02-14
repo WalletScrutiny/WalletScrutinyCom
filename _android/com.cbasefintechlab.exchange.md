@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: com.cbasefintechlab.exchange
+appCountry: 
 released: 2018-11-23
 updated: 2020-02-25
 version: "1.2.3"
-stars: 3.8
-ratings: 53
-reviews: 29
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
-website: 
+website: https://www.crossexchange.io/cross/home
 repository: 
 issue: 
 icon: com.cbasefintechlab.exchange.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: wip
+date: 2022-02-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

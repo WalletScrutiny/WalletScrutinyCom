@@ -2,8 +2,10 @@
 wsId: Haven
 title: "Haven - Private Shopping"
 altTitle: 
+authors:
 
 appId: io.ob1.native-ios
+appCountry: 
 idd: 1318395690
 released: 2019-08-19
 updated: 2020-09-28
@@ -16,11 +18,11 @@ repository: https://github.com/OpenBazaar/haven
 issue: 
 icon: io.ob1.native-ios.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nonverifiable
 date: 2021-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: HavenPrivacy
 providerLinkedIn: 

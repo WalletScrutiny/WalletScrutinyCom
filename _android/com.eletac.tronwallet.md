@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.eletac.tronwallet
+appCountry: 
 released: 2018-05-13
-updated: 2021-12-12
-version: "2.0.4"
-stars: 4.4
-ratings: 1182
-reviews: 606
-size: 88M
-website: https://www.vision-crypto.com
+updated: 2022-01-29
+version: "2.2.8"
+stars: 4.3
+ratings: 1199
+reviews: 105
+size: 94M
+website: https://vision-crypto.com/
 repository: 
 issue: 
 icon: com.eletac.tronwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: VisionCryptoApp
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

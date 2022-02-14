@@ -6,18 +6,20 @@ authors:
 - leo
 users: 5000000
 appId: com.bitcoin.mwallet
+appCountry: 
 released: 2017-06-19
-updated: 2021-11-10
-version: "7.7.2"
-stars: 4.4
-ratings: 34731
-reviews: 10421
-size: 61M
+updated: 2022-01-25
+version: "7.11.3"
+stars: 4.5
+ratings: 38769
+reviews: 2160
+size: 87M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
   verdict: nonverifiable
-
 providerTwitter: bitcoincom
 providerLinkedIn: 
 providerFacebook: buy.bitcoin.news
@@ -37,7 +38,6 @@ redirect_from:
   - /com.bitcoin.mwallet/
   - /posts/com.bitcoin.mwallet/
 ---
-
 
 According to
 [the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)

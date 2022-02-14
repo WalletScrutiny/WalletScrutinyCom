@@ -6,18 +6,20 @@ authors:
 - danny
 users: 50000
 appId: com.kapitalrs.pro
+appCountry: 
 released: 2017-02-07
-updated: 2021-08-05
-version: "90.1.095"
-stars: 4.1
-ratings: 747
-reviews: 280
+updated: 2022-01-30
+version: "90.1.100"
+stars: 0.0
+ratings: 
+reviews: 
 size: 15M
-website: https://www.kapitalrs.com
+website: https://www.kapitalrs.com/
 repository: 
 issue: 
 icon: com.kapitalrs.pro.png
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-12-11
 signer: 
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: b9fc136cf1e643675475004241479f776599d7c5
   verdict: nobtc
-
 providerTwitter: Kapital_RS
 providerLinkedIn: 
 providerFacebook: kapitalRS
@@ -36,7 +37,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Google Play description does not have any reference to "bitcoin", "cryptocurrency", "btc" or "wallets". At the interim, this app seems to handle other traditional financial instruments such as forex, index, stocks, commodities, ETFs and CFDs.
 

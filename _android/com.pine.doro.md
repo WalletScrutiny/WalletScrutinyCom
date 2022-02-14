@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.pine.doro
+appCountry: 
 released: 2021-04-10
 updated: 2021-05-05
 version: "1.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.pine.doro.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-08**: This app is not available anymore.

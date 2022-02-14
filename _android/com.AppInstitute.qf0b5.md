@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.AppInstitute.qf0b5
+appCountry: 
 released: 2018-10-04
 updated: 2018-10-12
 version: "1.0.0"
-stars: 4.6
-ratings: 11
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 32M
-website: 
+website: https://blockscart.eu
 repository: 
 issue: 
 icon: com.AppInstitute.qf0b5.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: swissbankinyourpocket.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip
 date: 2021-08-15
 signer:
 reviewArchive:
@@ -32,4 +33,4 @@ providerReddit:
 ---
 
 It is difficult to determine if this wallet ever existed, launched in 2017, it is highly likely this device is not available anymore.
-We will consider this device defunct as there is no clear links to buy this product and the [main site] (https://swissbankinyourpocket.com/) is unavailable.
+We will consider this device defunct as there is no clear links to buy this product and the [main site](https://swissbankinyourpocket.com/) is unavailable.

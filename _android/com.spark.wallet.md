@@ -7,23 +7,24 @@ authors:
 - danny
 users: 1000
 appId: com.spark.wallet
+appCountry: 
 released: 2018-12-10
 updated: 2021-11-08
 version: "0.3.1"
-stars: 4.2
-ratings: 9
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.6M
 website: https://github.com/shesek/spark-wallet
 repository: https://github.com/shesek/spark-wallet
 issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
+meta: ok
 verdict: nonverifiable
 date: 2021-12-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,7 +35,6 @@ redirect_from:
   - /com.spark.wallet/
   - /posts/com.spark.wallet/
 ---
-
 
 <div class="alertBox"><div>⚠️ The provider himself warns:
 <blockquote>Spark is beta-quality software under active development, please use with care.</blockquote>

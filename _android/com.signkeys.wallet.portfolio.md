@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.signkeys.wallet.portfolio
+appCountry: 
 released: 2019-07-17
 updated: 2020-10-26
 version: "2.0.0"
-stars: 4.5
-ratings: 30
-reviews: 20
+stars: 0.0
+ratings: 
+reviews: 
 size: 55M
-website: 
+website: http://www.signkeys.com
 repository: 
 issue: 
 icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,6 +6,7 @@ authors:
 
 users: 50000
 appId: com.ginprox
+appCountry: 
 released: 2021-04-16
 updated: 2021-07-14
 version: "1.1.6"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.ginprox.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: GinBlockchain
 providerLinkedIn: gin-blockchain
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app is not on Play Store anymore. As this app has only 1.9 stars, we would
 be surprised if it came back.

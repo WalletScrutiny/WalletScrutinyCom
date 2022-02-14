@@ -4,25 +4,26 @@ title: "Mandala Exchange"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cloud.app.mandala
+appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 4.2
-ratings: 71
-reviews: 46
+stars: 3.0
+ratings: 145
+reviews: 18
 size: 23M
-website: https://www.mandala.exchange/
+website: https://mandala.exchange
 repository: 
 issue: 
 icon: com.cloud.app.mandala.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: mandalaex
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: MandalaExchange
 redirect_from:
 
 ---
-
 
 ## App Description
 

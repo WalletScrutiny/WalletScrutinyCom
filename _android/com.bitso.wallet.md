@@ -1,28 +1,29 @@
 ---
 wsId: bitso
-title: "Bitso - Buy bitcoin and move your money easily"
+title: "Bitso - Buy bitcoin easily"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.bitso.wallet
+appCountry: 
 released: 2018-02-19
-updated: 2021-11-09
-version: "2.41.2"
-stars: 4.4
-ratings: 27999
-reviews: 10564
-size: 32M
+updated: 2022-02-01
+version: "3.3.2"
+stars: 4.2
+ratings: 39142
+reviews: 207
+size: 73M
 website: https://bitso.com/app
 repository: 
 issue: 
 icon: com.bitso.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitso
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.bitso.wallet/
 ---
-
 
 Bitso appears to be an exchange and their statement on security on their website
 

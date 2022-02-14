@@ -4,25 +4,26 @@ title: "Cryptopay:Bitcoin wallet&card"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: me.cryptopay.android
+appCountry: de
 released: 2017-11-09
-updated: 2021-10-20
-version: "1.31"
-stars: 4.3
-ratings: 947
-reviews: 496
-size: 20M
+updated: 2022-02-07
+version: "1.35.1"
+stars: 4.5
+ratings: 1120
+reviews: 30
+size: 21M
 website: https://cryptopay.me
 repository: 
 issue: 
 icon: me.cryptopay.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptopay
 providerLinkedIn: cryptopay
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the description the only sentence hinting at custodianship is:
 

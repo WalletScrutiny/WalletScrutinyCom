@@ -1,28 +1,29 @@
 ---
 wsId: CoinZoom
-title: "CoinZoom Pro"
+title: "CoinZoom: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - kiwilamb
 users: 100000
 appId: com.czprime
+appCountry: 
 released: 2020-06-11
-updated: 2021-11-24
-version: "1.4.17"
-stars: 4.1
-ratings: 2199
-reviews: 890
+updated: 2022-02-09
+version: "1.4.25"
+stars: 3.9
+ratings: 2437
+reviews: 328
 size: 29M
 website: https://www.coinzoom.com
 repository: 
 issue: 
 icon: com.czprime.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: GetCoinZoom
 providerLinkedIn: coinzoomhq
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
 Found under "Where can I find the private keys for my wallet?"

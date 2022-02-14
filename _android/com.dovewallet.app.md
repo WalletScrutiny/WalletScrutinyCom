@@ -6,27 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.dovewallet.app
+appCountry: 
 released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
-stars: 3.5
-ratings: 43
-reviews: 28
+stars: 3.3
+ratings: 52
+reviews: 4
 size: 29M
-website: https://dovewallet.com/en
+website: https://dovewallet.com
 repository: 
 issue: 
 icon: com.dovewallet.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-12-20
 signer: 
 reviewArchive:
-- date: 2021-11-30
-  version: "1.0.6"
-  appHash: 
-  gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
-  verdict: custodial
 
 providerTwitter: dovewallet_en
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit: DoveWallet
 redirect_from:
 
 ---
-
 
 ## App Description
 

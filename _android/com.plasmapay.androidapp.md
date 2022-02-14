@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000
 appId: com.plasmapay.androidapp
+appCountry: us
 released: 2019-07-31
 updated: 2021-10-07
 version: "2.0.4"
-stars: 3.0
+stars: 3
 ratings: 31
 reviews: 17
 size: 151M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.plasmapay.androidapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 0xPlasma
 providerLinkedIn: 0xplasma
@@ -32,7 +33,6 @@ providerReddit: PlasmaPay
 redirect_from:
 
 ---
-
 
 ## App Description
 

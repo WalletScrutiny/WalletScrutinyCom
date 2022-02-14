@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.bitoex.bitoexapp
+appCountry: 
 released: 2019-11-18
 updated: 2019-11-19
 version: "1.0.0"
-stars: 2.8
-ratings: 159
-reviews: 114
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.2M
 website: 
 repository: 
 issue: 
 icon: com.bitoex.bitoexapp.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-11-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

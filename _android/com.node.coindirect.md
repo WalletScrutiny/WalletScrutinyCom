@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.node.coindirect
+appCountry: 
 released: 2018-10-10
 updated: 2021-07-07
 version: "1.3.0"
-stars: 2.6
-ratings: 524
-reviews: 425
+stars: 1.7
+ratings: 541
+reviews: 30
 size: 30M
 website: https://www.coindirect.com
 repository: 
 issue: 
 icon: com.node.coindirect.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindirectcom
 providerLinkedIn: coindirect
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It is concerning to see a wallet with a rating of less than 2 in the Google Play
 Store with close to 500 total ratings.

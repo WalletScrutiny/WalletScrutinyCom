@@ -8,21 +8,21 @@ appId: com.CryptoCurrency.dev
 appCountry: us
 idd: 1339112917
 released: 2018-02-21
-updated: 2021-12-01
-version: "2.4.1"
-stars: 4.74444
-reviews: 1937
-size: 51123200
+updated: 2022-01-27
+version: "2.4.2"
+stars: 4.74461
+reviews: 2040
+size: 59452416
 website: https://thecrypto.app
 repository: 
 issue: 
 icon: com.CryptoCurrency.dev.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: TrustSwap
 providerLinkedIn: TrustSwap

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.coinjar.riemann
-released: 
-updated: 2021-12-16
-version: "2.16.0"
-stars: 3.7
-ratings: 1156
-reviews: 837
+appCountry: au
+released: 2019-11-21
+updated: 2022-02-02
+version: "2.19.0"
+stars: 3.0
+ratings: 1241
+reviews: 741
 size: 98M
 website: https://www.coinjar.com
 repository: 
 issue: 
 icon: com.coinjar.riemann.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: getcoinjar
 providerLinkedIn: coinjar
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Google Play description:
 

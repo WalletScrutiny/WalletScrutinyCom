@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.cloudmining.mineresp
+appCountry: 
 released: 2021-06-18
 updated: 2021-06-18
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cloudmining.mineresp.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-08-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-13**: This app is not available anymore

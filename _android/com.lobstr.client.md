@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.lobstr.client
+appCountry: us
 released: 2015-04-27
-updated: 2021-12-13
-version: "7.6.6"
-stars: 4.7
-ratings: 8213
-reviews: 3797
-size: 30M
-website: https://lobstr.co
+updated: 2022-02-10
+version: "7.8.1"
+stars: 4.8
+ratings: 11408
+reviews: 945
+size: 34M
+website: https://lobstr.co/
 repository: 
 issue: 
 icon: com.lobstr.client.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: Lobstrco
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As the description states, lobstr is a stellar lumens wallet. 
 

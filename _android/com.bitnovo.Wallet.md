@@ -4,25 +4,26 @@ title: "Bitnovo - Buy Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitnovo.Wallet
+appCountry: us
 released: 2021-10-27
-updated: 2021-12-16
-version: "1.0.4.2"
-stars: 3.4
-ratings: 28
-reviews: 19
+updated: 2022-02-03
+version: "1.2.0"
+stars: 0.0
+ratings: 
+reviews: 
 size: 95M
-website: https://www.bitnovo.com/
+website: https://www.bitnovo.com
 repository: 
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitnovo
 providerLinkedIn: Bitnovo
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** There are two BitNovo apps on Google Play. Both are by the same developer: [Bitnovo](https://play.google.com/store/apps/developer?id=BITNOVO)
 

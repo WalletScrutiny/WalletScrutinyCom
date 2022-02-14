@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.liberty.jaxx
+appCountry: 
 released: 2018-09-01
 updated: 2021-09-09
 version: "2.6.5"
 stars: 3.8
-ratings: 5340
-reviews: 2946
+ratings: 5455
+reviews: 399
 size: 18M
 website: https://jaxx.io
 repository: 
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2019-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: jaxx_io
 providerLinkedIn: 
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/11/jaxx/
   - /posts/com.liberty.jaxx/
 ---
-
 
 Jaxx Liberty: Blockchain Wallet
 is non-custodial:

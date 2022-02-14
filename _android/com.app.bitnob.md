@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.app.bitnob
+appCountry: us
 released: 2020-05-25
-updated: 2021-12-08
-version: "1.0.74"
-stars: 4.1
-ratings: 238
-reviews: 144
+updated: 2022-02-07
+version: "1.0.83"
+stars: 4.0
+ratings: 271
+reviews: 14
 size: 34M
-website: https://bitnob.com/
+website: https://bitnob.com
 repository: 
 issue: 
 icon: com.app.bitnob.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: Bitnob_official
 providerLinkedIn: bitnob
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

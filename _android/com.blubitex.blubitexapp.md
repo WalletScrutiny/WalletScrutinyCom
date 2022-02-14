@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.blubitex.blubitexapp
+appCountry: us
 released: 2020-10-03
 updated: 2021-09-10
 version: "2.1.337"
 stars: 3.4
-ratings: 2696
-reviews: 1503
+ratings: 2700
+reviews: 37
 size: 81M
-website: https://www.blubitex.com/
+website: https://blubitex.com
 repository: 
 issue: 
 icon: com.blubitex.blubitexapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: blubitex
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 2021-09-06: The app is currently under maintenance. Users can sign in through the web application only.
 

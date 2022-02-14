@@ -20,6 +20,7 @@ repository:
 issue:
 icon: coldlartouch.png
 bugbounty:
+meta: ok
 verdict: noita
 date: 2021-07-11
 signer:

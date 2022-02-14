@@ -4,8 +4,9 @@ title: "ALBOS Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: io.albos.wallet
+appCountry: 
 released: 2019-07-01
 updated: 2021-10-17
 version: "2.4.18"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 23M
-website: 
+website: http://www.albos.io/
 repository: 
 issue: 
 icon: io.albos.wallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

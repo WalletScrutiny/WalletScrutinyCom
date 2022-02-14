@@ -1,28 +1,29 @@
 ---
 wsId: btcc
-title: "BTCC - Trade Bitcoin & Crypto Futures"
+title: "BTCC - Trade Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.btcc.hy
+appCountry: us
 released: 2020-08-04
-updated: 2021-12-16
-version: "5.7.2"
-stars: 4.9
-ratings: 11022
-reviews: 162
-size: 59M
+updated: 2022-01-26
+version: "5.8.4"
+stars: 4.1
+ratings: 11600
+reviews: 25
+size: 56M
 website: https://www.btcc.com/
 repository: 
 issue: 
 icon: com.btcc.hy.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: YourBTCC
 providerLinkedIn: yourbtcc
@@ -32,7 +33,6 @@ providerReddit: YourBTCC
 redirect_from:
 
 ---
-
 
 In its Google Play description:
 

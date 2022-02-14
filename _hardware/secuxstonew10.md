@@ -19,6 +19,7 @@ repository:
 issue:
 icon: secuxstonew10.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-07-07
 signer:

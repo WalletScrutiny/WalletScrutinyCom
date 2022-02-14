@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: io.safepal.wallet
+appCountry: 
 released: 2019-05-26
-updated: 2021-12-15
-version: "3.0.2"
-stars: 4.6
-ratings: 9846
-reviews: 5072
-size: 33M
+updated: 2022-01-15
+version: "3.1.0"
+stars: 4.3
+ratings: 13082
+reviews: 436
+size: 34M
 website: https://www.safepal.io
 repository: 
 issue: 
 icon: io.safepal.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: iSafePal
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-04-26**: Now some months after the original review, Google finds
 some things that confirms the claims of Binance "investing" in SafePal. The best

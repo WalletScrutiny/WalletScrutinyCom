@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: mw.mwc.wallet
+appCountry: 
 released: 2021-05-29
 updated: 2021-05-30
 version: "1.0.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: mw.mwc.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-25**: This app is no more.

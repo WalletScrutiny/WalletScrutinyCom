@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.bull
+appCountry: us
 released: 2021-06-28
 updated: 2021-10-13
 version: "1.4.1-947"
-stars: 4.6
-ratings: 706
-reviews: 549
+stars: 4.5
+ratings: 712
+reviews: 22
 size: 20M
 website: https://bullcoin.finance/
 repository: https://github.com/BullCoinFinance
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bullcoinfinance
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: bullcoinfinance
 redirect_from:
 
 ---
-
 
 ### Official Website
 In the [Privacy Policy](https://bullcoin.finance/privacy) Bull Finance claims to be decentralized:

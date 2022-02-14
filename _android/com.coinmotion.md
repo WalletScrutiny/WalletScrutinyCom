@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.coinmotion
+appCountry: in
 released: 2020-08-20
-updated: 2021-11-16
-version: "1.6.0"
-stars: 3.5
-ratings: 130
-reviews: 68
-size: 36M
+updated: 2022-02-03
+version: "1.6.4"
+stars: 0.0
+ratings: 
+reviews: 
+size: 80M
 website: https://coinmotion.com/
 repository: 
 issue: 
 icon: com.coinmotion.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: Coinmotion
 providerLinkedIn: coinmotion
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

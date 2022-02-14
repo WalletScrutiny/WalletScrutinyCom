@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.hoo.qianbao
+appCountry: us
 released: 2021-03-17
-updated: 2021-12-06
-version: "4.7.35"
-stars: 2.4
-ratings: 491
-reviews: 405
-size: 54M
+updated: 2022-02-11
+version: "4.7.47"
+stars: 3.9
+ratings: 720
+reviews: 58
+size: 53M
 website: https://hoo.com
 repository: 
 issue: 
 icon: com.hoo.qianbao.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hoo_exchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: HooExchange
 redirect_from:
 
 ---
-
 
 ## App Description
 From the full Google Play description:

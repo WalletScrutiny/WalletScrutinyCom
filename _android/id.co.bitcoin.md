@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: id.co.bitcoin
+appCountry: 
 released: 2014-12-15
-updated: 2021-11-16
-version: "4.2.2"
-stars: 4.2
-ratings: 79379
-reviews: 40539
-size: 30M
-website: https://indodax.com
+updated: 2022-02-09
+version: "4.3.0"
+stars: 4.3
+ratings: 90002
+reviews: 308
+size: 41M
+website: http://indodax.com
 repository: 
 issue: 
 icon: id.co.bitcoin.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: indodax
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is the interface to
 

@@ -4,25 +4,26 @@ title: "ONTO - Decentralized Cross-chain Crypto Wallet"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.github.ontio.onto
+appCountry: us
 released: 2018-06-27
-updated: 2021-12-10
-version: "4.1.3"
-stars: 4.3
-ratings: 973
-reviews: 663
-size: 129M
-website: https://www.onto.app
+updated: 2022-01-29
+version: "4.1.9"
+stars: 3.8
+ratings: 1136
+reviews: 66
+size: 149M
+website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO
 issue: 
 icon: com.github.ontio.onto.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ONTOWallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The Google Play description: 
 

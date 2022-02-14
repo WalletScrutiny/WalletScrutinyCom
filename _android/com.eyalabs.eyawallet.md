@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.eyalabs.eyawallet
+appCountry: 
 released: 2015-12-03
 updated: 2019-02-20
 version: "5.3.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.eyalabs.eyawallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: wip
+date: 2021-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

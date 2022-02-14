@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000
 appId: im.token.app99
+appCountry: 
 released: 2020-05-09
 updated: 2021-05-07
 version: "2.9.6"
@@ -19,11 +20,11 @@ repository:
 issue: 
 icon: im.token.app99.png
 bugbounty: 
+meta: defunct
 verdict: fake
-date: 2021-11-11
+date: 2022-02-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,6 +35,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-31**: This app is not in store anymore.
 
 ⚠️ **Warning**
 This app probably was related to

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: cn.com.vau
+appCountry: cn
 released: 2019-07-06
-updated: 2021-11-15
-version: "2.0.0"
+updated: 2022-02-07
+version: "2.0.4.1"
 stars: 4.8
-ratings: 5380
-reviews: 867
-size: 37M
-website: https://www.vantagefx.com.au/
+ratings: 8510
+reviews: 991
+size: 33M
+website: https://www.vantagemarkets.com/
 repository: 
 issue: 
 icon: cn.com.vau.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: VantageFX
 providerLinkedIn: vantage-fx
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 App description:
 

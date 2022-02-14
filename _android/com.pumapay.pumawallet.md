@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.pumapay.pumawallet
+appCountry: 
 released: 2018-05-07
 updated: 2021-10-25
 version: "3.9.9"
-stars: 3.9
-ratings: 358
-reviews: 227
+stars: 3.3
+ratings: 366
+reviews: 22
 size: 64M
-website: https://pumapay.io
+website: http://pumapay.io
 repository: 
 issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: PumaPay
 providerLinkedIn: decentralized-vision
@@ -33,7 +34,6 @@ redirect_from:
   - /com.pumapay.pumawallet/
   - /posts/com.pumapay.pumawallet/
 ---
-
 
 This app has very little information on their website but in the Google Play
 description we read:

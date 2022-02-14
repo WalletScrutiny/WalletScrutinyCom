@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: kr.co.citex.citexclient
+appCountry: 
 released: 2019-12-25
-updated: 2021-10-12
-version: "2.0.6"
-stars: 2.8
+updated: 2022-01-11
+version: "2.0.9"
+stars: 1.0
 ratings: 81
-reviews: 51
-size: 37M
-website: https://www.citex.co.kr/#/home
+reviews: 6
+size: 38M
+website: https://www.citex.io
 repository: 
 issue: 
 icon: kr.co.citex.citexclient.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: Citexofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.khodo
+appCountry: 
 released: 2020-10-02
 updated: 2021-08-12
 version: "2.0.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.khodo.png
 bugbounty: 
+meta: defunct
 verdict: nowallet
-date: 2021-11-15
+date: 2022-02-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: buymalawi
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-28**: This app is not in store anymore.
 
 ## App Description
 

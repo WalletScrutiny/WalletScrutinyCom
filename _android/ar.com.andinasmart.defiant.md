@@ -4,25 +4,26 @@ title: "Defiant"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: ar.com.andinasmart.defiant
+appCountry: ar
 released: 2019-11-19
 updated: 2021-12-17
 version: "2.1.0"
 stars: 4.5
-ratings: 58
-reviews: 35
+ratings: 64
+reviews: 28
 size: 38M
-website: https://defiantapp.tech/
+website: https://defiantapp.tech
 repository: 
 issue: 
 icon: ar.com.andinasmart.defiant.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: defiantApp
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

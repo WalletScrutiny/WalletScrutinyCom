@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: io.fulmo
+appCountry: 
 released: 2019-01-09
 updated: 2019-06-11
 version: "1.0.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: io.fulmo.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-26**: This app is no more.
 

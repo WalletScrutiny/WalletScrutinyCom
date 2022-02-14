@@ -4,25 +4,26 @@ title: "BitcoinTrade: Criptomoedas"
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.peertradedigital.bitcointrade
+appCountry: br
 released: 2017-12-01
-updated: 2021-12-06
-version: "3.4.1"
-stars: 4
-ratings: 6753
-reviews: 3326
-size: 20M
-website: http://www.bitcointrade.com.br/
+updated: 2022-02-04
+version: "3.5.2"
+stars: 4.0
+ratings: 8081
+reviews: 3836
+size: 21M
+website: http://www.bitcointrade.com.br
 repository: 
 issue: 
 icon: com.peertradedigital.bitcointrade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: bitcointrade
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **This product and the accompanying official website is in Portuguese. The app may not have an English translation.**
 

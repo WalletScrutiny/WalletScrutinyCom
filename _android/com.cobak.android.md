@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.cobak.android
+appCountry: us
 released: 2018-03-08
-updated: 2021-11-04
-version: "1.42.12"
-stars: 4.3
-ratings: 2325
-reviews: 1644
-size: 29M
+updated: 2022-01-28
+version: "1.42.20"
+stars: 0.0
+ratings: 
+reviews: 
+size: 27M
 website: https://cobak.co.kr/
 repository: 
 issue: 
 icon: com.cobak.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: CobakOfficial
 providerLinkedIn: cobak
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This product is Korean, there's no English translation so it's less likely to have global support. It's also a little harder to find information on a foreign wallet.
 

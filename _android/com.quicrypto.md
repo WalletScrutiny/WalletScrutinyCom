@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.quicrypto
+appCountry: 
 released: 2019-11-12
-updated: 2021-12-01
-version: "3.20.0"
-stars: 3.4
-ratings: 4880
-reviews: 2964
+updated: 2021-12-02
+version: "3.21.0"
+stars: 3.8
+ratings: 4926
+reviews: 431
 size: 26M
 website: http://www.quicrypto.com
 repository: 
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-06-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: quicrypto
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-06-21**: This app is not a wallet.
 

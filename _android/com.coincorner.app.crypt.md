@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
+appCountry: 
 released: 2014-09-10
-updated: 2021-12-13
-version: "4.0.2"
-stars: 3
-ratings: 162
-reviews: 112
-size: 39M
-website: 
+updated: 2022-01-10
+version: "4.0.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 42M
+website: https://www.coincorner.com
 repository: 
 issue: 
 icon: com.coincorner.app.crypt.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinCorner
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 A search of the play store and the providers website, reveals no statements about how private keys are managed.
 

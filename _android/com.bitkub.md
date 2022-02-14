@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: com.bitkub
+appCountry: 
 released: 2019-04-20
 updated: 2021-11-26
 version: "3.8"
-stars: 3.6
-ratings: 14326
-reviews: 7106
+stars: 4.2
+ratings: 18404
+reviews: 31
 size: 60M
-website: http://www.bitkub.com/
+website: http://www.bitkub.com
 repository: 
 issue: 
 icon: com.bitkub.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitkubofficial
 providerLinkedIn: bitkub
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform
 

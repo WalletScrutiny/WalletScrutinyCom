@@ -6,23 +6,24 @@ authors:
 - leo
 users: 500000
 appId: io.totalcoin.wallet
+appCountry: 
 released: 2018-04-01
-updated: 2021-09-20
-version: "4.8.0"
-stars: 4.5
-ratings: 7764
-reviews: 3647
+updated: 2022-02-07
+version: "4.8.1"
+stars: 3.9
+ratings: 7920
+reviews: 58
 size: 11M
 website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/11/totalcoin/
   - /posts/io.totalcoin.wallet/
 ---
-
 
 On the wallet's website there is no claim about custodianship which makes us
 assume it is a custodial product.

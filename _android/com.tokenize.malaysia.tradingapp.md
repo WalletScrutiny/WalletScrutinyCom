@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10000
 appId: com.tokenize.malaysia.tradingapp
+appCountry: 
 released: 2020-11-26
 updated: 2021-06-23
 version: "1.15.2"
@@ -19,16 +20,11 @@ repository:
 issue: 
 icon: com.tokenize.malaysia.tradingapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-30
 signer: 
 reviewArchive:
-- date: 2021-10-18
-  version: "1.15.2"
-  appHash: 
-  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
-  verdict: custodial
-  
 
 providerTwitter: TokenizeM
 providerLinkedIn: 
@@ -38,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-19**: This app is no more.
 

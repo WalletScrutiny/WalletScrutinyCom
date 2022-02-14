@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.roinvesting
+appCountry: us
 released: 
 updated: 2021-08-25
 version: "1.5.69-roinvesting"
-stars: 4.3
-ratings: 472
-reviews: 185
+stars: 0.0
+ratings: 
+reviews: 
 size: 19M
 website: https://www.roinvesting.com/
 repository: 
 issue: 
 icon: com.roinvesting.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: Roinvesting
 providerLinkedIn: roinvesting
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

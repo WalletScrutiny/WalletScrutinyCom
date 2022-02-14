@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.usdtoption.www
+appCountry: 
 released: 2020-05-10
 updated: 2020-05-10
 version: "1.1.1"
-stars: 3.3
-ratings: 70
-reviews: 38
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: 
+website: https://www.usdtoption.com
 repository: 
 issue: 
 icon: com.usdtoption.www.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

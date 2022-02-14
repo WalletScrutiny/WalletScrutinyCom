@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.unhappychoice.droidflyer
+appCountry: 
 released: 2017-11-12
-updated: 2020-11-01
-version: "2.0.0"
+updated: 2022-01-23
+version: "2.0.1"
 stars: 0.0
 ratings: 
 reviews: 
-size: 5.4M
-website: 
+size: 6.5M
+website: https://github.com/unhappychoice/DroidFlyer
 repository: 
 issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
-verdict: stale
-date: 2021-10-28
+meta: ok
+verdict: fewusers
+date: 2022-01-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

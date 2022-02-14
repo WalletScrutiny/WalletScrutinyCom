@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.duedex.app
+appCountry: 
 released: 2020-05-13
 updated: 2021-05-17
 version: "1.2.18"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.duedex.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

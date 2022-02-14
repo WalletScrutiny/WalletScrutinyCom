@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: co.crypto.wallet.guard
+appCountry: 
 released: 2021-05-07
 updated: 2021-05-07
 version: "1.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: co.crypto.wallet.guard.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

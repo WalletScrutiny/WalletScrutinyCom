@@ -7,23 +7,24 @@ authors:
 - danny
 users: 50000
 appId: com.galoyapp
+appCountry: 
 released: 2020-11-24
-updated: 2021-10-17
-version: "1.5.1"
-stars: 4.1
-ratings: 257
-reviews: 148
-size: 32M
-website: 
+updated: 2022-01-26
+version: "1.7.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 38M
+website: https://galoy.io/
 repository: 
 issue: 
 icon: com.galoyapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet simply uses the tech that GaloyMoney has developed. This product is *not officially affiliated* with GaloyMoney or the Bitcoin Beach project based in El Salvador.
 

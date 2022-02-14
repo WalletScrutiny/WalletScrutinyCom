@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: tech.pertiller.cryptocoincheck
+appCountry: 
 released: 2018-04-05
 updated: 2018-10-26
 version: "1.6.0"
-stars: 4.3
-ratings: 63
-reviews: 23
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.7M
-website: 
+website: https://bitcoinmonitor.app
 repository: 
 issue: 
 icon: tech.pertiller.cryptocoincheck.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

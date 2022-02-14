@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.pro.bitcointoyou
+appCountry: 
 released: 2019-10-31
-updated: 2021-12-17
-version: "0.0.193"
-stars: 2.9
-ratings: 1260
-reviews: 774
-size: 62M
+updated: 2022-02-13
+version: "0.0.200"
+stars: 3.7
+ratings: 1346
+reviews: 3
+size: 64M
 website: https://www.bitcointoyou.com
 repository: 
 issue: 
 icon: com.pro.bitcointoyou.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcointoyou
 providerLinkedIn: bitcointoyou
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.
 However being an exchange, it is highly likely that this is a custodial service with funds being in control of the provider.

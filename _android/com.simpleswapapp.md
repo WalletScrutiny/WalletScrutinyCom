@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.simpleswapapp
+appCountry: gb
 released: 2020-05-23
 updated: 2021-11-03
 version: "3.1.9"
-stars: 4.5
-ratings: 388
-reviews: 302
+stars: 4.3
+ratings: 563
+reviews: 41
 size: 38M
-website: https://simpleswap.io/
+website: https://simpleswap.io
 repository: 
 issue: 
 icon: com.simpleswapapp.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: SimpleSwap_io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: simpleswapexchange
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.nordfx
+appCountry: lv
 released: 2021-02-28
 updated: 2021-11-18
 version: "14"
-stars: 4.1
-ratings: 131
-reviews: 36
+stars: 4.2
+ratings: 151
+reviews: 40
 size: 40M
-website: https://nordfx.com/
+website: http://nordfx.com
 repository: 
 issue: 
 icon: com.nordfx.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: NordFX
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

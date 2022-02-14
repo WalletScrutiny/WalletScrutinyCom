@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.digifinex.app
+appCountry: 
 released: 2018-06-26
-updated: 2021-12-15
-version: "2021.12.15"
+updated: 2022-02-09
+version: "2022.02.09"
 stars: 3.8
-ratings: 3011
-reviews: 1733
-size: 77M
-website: https://www.digifinex.com
+ratings: 3220
+reviews: 314
+size: 62M
+website: https://www.digifinex.com/
 repository: 
 issue: 
 icon: com.digifinex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: DigiFinex
 providerLinkedIn: digifinex-global
@@ -32,7 +33,6 @@ providerReddit: DigiFinex
 redirect_from:
   - /com.digifinex.app/
 ---
-
 
 > DigiFinex is a world’s leading crypto finance exchange
 

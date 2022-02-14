@@ -6,31 +6,48 @@ authors:
 - leo
 users: 1000000
 appId: com.mycelium.wallet
+appCountry: 
 released: 2013-07-01
-updated: 2021-11-14
-version: "3.12.2.0"
+updated: 2022-02-02
+version: "3.13.6.0"
 stars: 4.2
-ratings: 11166
-reviews: 5077
+ratings: 11570
+reviews: 1194
 size: 25M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
 issue: 
-icon: com.mycelium.wallet.png
+icon: com.mycelium.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: reproducible
-date: 2021-12-20
+date: 2022-01-31
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-01-25
+  version: "3.13.3.0"
+  appHash: 09505002bcbe9c8d82ec543e609017e7ab75ba0c377c0bb52c4c1ebda5678f63
+  gitRevision: 7fb8a183fee60571885418fcdf05478698687b0f
+  verdict: reproducible
+- date: 2022-01-24
+  version: "3.13.2.0"
+  appHash: 0ce3ebc68ab2bff0b0876b2488c8bd7781f0b8cdf370894321fefb36234ac71a
+  gitRevision: 0c3b4e73edb87aa9f8f1d9b4bfd006d43588ad39
+  verdict: reproducible
+- date: 2021-12-20
+  version: "3.12.8.0"
+  appHash: 1f2f2bc999e8e6dd89a4ff84ffe1d8526f46be585d53d66a7729b4f1591f78eb
+  gitRevision: fad2993685cb2e02ee46ba54d5eeb2f1fab25967
+  verdict: reproducible
 - date: 2021-11-14
   version: "3.12.2.0"
   appHash: 8ebca59a3b86d3364e83fa549b23b842c63bcf1bbade528849b21d40573f4f8a
-  gitRevision: 
+  gitRevision: null
   verdict: reproducible
 - date: 2021-11-14
   version: "3.12.2.0"
   appHash: f4a163ba974e57d32345ef27261c159f6b396df4ea5a7cdf2c2ab9b0c49b5a4c
-  gitRevision: 
+  gitRevision: null
   verdict: reproducible
 - date: 2021-10-21
   version: "3.11.0.11"
@@ -157,7 +174,6 @@ reviewArchive:
   appHash: 27e236a723598d058ee3e1c72d54c84983489c8e80f7edee3df52235a0231c8c
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-
 providerTwitter: MyceliumCom
 providerLinkedIn: mycelium
 providerFacebook: myceliumcom
@@ -169,7 +185,6 @@ redirect_from:
   - /posts/2019/11/mycelium/
   - /posts/com.mycelium.wallet/
 ---
-
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.
 
@@ -186,22 +201,22 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.12.8.0
-apkVersionCode: 3120800
+apkVersionName: 3.13.4.0
+apkVersionCode: 3130400
 verdict:        reproducible
-appHash:        1f2f2bc999e8e6dd89a4ff84ffe1d8526f46be585d53d66a7729b4f1591f78eb
-commit:         aea49dc14314eec461ad307af7f8f99abe4ddf79
+appHash:        5f71ad4a3d25538b8a747b37f46d2a4bec6abd4e1df9f307adb147fb05ca7826
+commit:         ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3120800/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3120800/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3130400/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130400/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object aea49dc14314eec461ad307af7f8f99abe4ddf79
+object ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
 type commit
-tag v3.12.8.0
-tagger itserg  1639663965 +0300
+tag v3.13.4.0
+tagger itserg  1643096624 +0300
 
-Bufgixes for SA accounts
+Accounts' initialization order improvements
 ===== End Results =====
 ```
 

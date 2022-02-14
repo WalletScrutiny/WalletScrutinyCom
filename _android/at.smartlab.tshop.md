@@ -6,23 +6,24 @@ authors:
 - danny
 users: 500000
 appId: at.smartlab.tshop
+appCountry: 
 released: 2012-12-22
-updated: 2021-11-23
-version: "200"
-stars: 4.2
-ratings: 3732
-reviews: 1629
-size: 6.5M
-website: 
+updated: 2022-01-30
+version: "202"
+stars: 3.9
+ratings: 3746
+reviews: 258
+size: 6.6M
+website: https://tabshop.smartlab.at/
 repository: 
 issue: 
 icon: at.smartlab.tshop.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.
 

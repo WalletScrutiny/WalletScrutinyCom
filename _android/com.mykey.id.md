@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.mykey.id
+appCountry: 
 released: 
 updated: 2021-02-04
 version: "3.5.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.mykey.id.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

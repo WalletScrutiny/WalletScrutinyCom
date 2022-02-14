@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.ogpay
+appCountry: us
 released: 2019-07-31
-updated: 2021-04-12
+updated: 2022-01-03
 version: "Varies with device"
-stars: 3.8
-ratings: 36
-reviews: 24
+stars: 4.4
+ratings: 39
+reviews: 6
 size: Varies with device
-website: https://ogpaywallet.com/
+website: https://www.ogpaywallet.com
 repository: 
 issue: 
 icon: com.ogpay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

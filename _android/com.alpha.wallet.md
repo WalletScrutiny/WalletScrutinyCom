@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.alpha.wallet
+appCountry: 
 released: 
 updated: 2018-05-31
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.alpha.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

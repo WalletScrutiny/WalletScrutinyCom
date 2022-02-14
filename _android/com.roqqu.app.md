@@ -7,23 +7,24 @@ authors:
 - leo
 users: 500000
 appId: com.roqqu.app
+appCountry: 
 released: 2019-09-30
-updated: 2021-11-14
-version: "1.4.62"
+updated: 2022-01-31
+version: "1.4.68"
 stars: 3.5
-ratings: 19629
-reviews: 14194
-size: 29M
+ratings: 24369
+reviews: 575
+size: 30M
 website: https://roqqu.com
 repository: 
 issue: 
 icon: com.roqqu.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: roqqupay
 providerLinkedIn: 
@@ -33,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider claims:
 

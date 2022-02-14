@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: io.trade.tradeio.eu
+appCountry: 
 released: 2019-07-22
 updated: 2019-09-20
 version: "1.0.0"
-stars: 2.3
-ratings: 27
-reviews: 17
+stars: 0.0
+ratings: 
+reviews: 
 size: 3.6M
-website: 
+website: http://trade.io
 repository: 
 issue: 
 icon: io.trade.tradeio.eu.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

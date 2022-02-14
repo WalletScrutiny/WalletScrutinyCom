@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.xbt.watcher
+appCountry: 
 released: 2020-10-08
 updated: 2021-06-25
 version: "1.1"
-stars: 3.6
-ratings: 33
-reviews: 20
+stars: 4.2
+ratings: 41
+reviews: 4
 size: 5.9M
 website: 
 repository: 
 issue: 
 icon: com.xbt.watcher.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **Warning:** We have reason to believe that this is a fake app. The developer for this app is [XBT Crypto Media](https://play.google.com/store/apps/developer?id=XBT+Crypto+Media). The developer for {% include walletLink.html wallet='android/com.primexbt.exchange' verdict='true' %} is [Prime Technology LTD](https://play.google.com/store/apps/developer?id=Prime+Technology+LTD). The logo and name makes it appear that there is a version called "Prime XBT Futures Pro".
 

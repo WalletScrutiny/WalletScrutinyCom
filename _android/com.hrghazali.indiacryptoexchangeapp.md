@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.hrghazali.indiacryptoexchangeapp
+appCountry: 
 released: 2021-09-12
 updated: 2021-09-13
 version: "1.0.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.hrghazali.indiacryptoexchangeapp.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

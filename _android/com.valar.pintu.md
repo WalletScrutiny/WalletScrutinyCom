@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: com.valar.pintu
+appCountry: us
 released: 2020-01-25
-updated: 2021-12-17
-version: "3.9.4"
-stars: 3.9
-ratings: 19895
-reviews: 12637
+updated: 2022-02-10
+version: "3.11.0"
+stars: 4.1
+ratings: 27115
+reviews: 80
 size: Varies with device
 website: https://pintu.co.id/
 repository: 
 issue: 
 icon: com.valar.pintu.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: pintuid
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
 > **Do I hold a Private Key?**<br>

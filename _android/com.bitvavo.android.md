@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.bitvavo.android
+appCountry: nl
 released: 2020-08-19
-updated: 2021-11-23
+updated: 2021-12-28
 version: "1.0.100"
-stars: 2.5
-ratings: 1740
-reviews: 1276
+stars: 2.3
+ratings: 2176
+reviews: 1237
 size: 178M
 website: https://bitvavo.com/
 repository: 
 issue: 
 icon: com.bitvavo.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.
 

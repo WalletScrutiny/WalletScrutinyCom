@@ -1,9 +1,12 @@
 ---
+wsId: 
 title: "Utrust Wallet"
 altTitle: 
+authors:
 
 users: 5000
 appId: com.uwalletapp
+appCountry: 
 released: 
 updated: 2020-06-08
 version: "1.4.2"
@@ -16,16 +19,11 @@ repository:
 issue: 
 icon: com.uwalletapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-- date: 2020-12-14
-  version: "1.4.2"
-  appHash: 
-  gitRevision: 34e509758f5e7109567f08f40f1b461ab9614276
-  verdict: custodial
-
 
 providerTwitter: utrust
 providerLinkedIn: utrust-payments
@@ -35,7 +33,6 @@ providerReddit: UTRUST_Official
 redirect_from:
   - /com.uwalletapp/
 ---
-
 
 **Update:** This app is not available on Google Play anymore
 

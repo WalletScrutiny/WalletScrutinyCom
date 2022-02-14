@@ -7,18 +7,20 @@ authors:
 - leo
 users: 1000000
 appId: com.chivo.wallet
-released: 
+appCountry: sv
+released: 2021-09-06
 updated: 2021-12-12
 version: "2.0.1"
-stars: 2.5
-ratings: 14680
-reviews: 9140
+stars: 3.5
+ratings: 26844
+reviews: 12140
 size: 64M
-website: https://chivowallet.com/
+website: https://chivowallet.com
 repository: 
 issue: 
 icon: com.chivo.wallet.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-10-29
 signer: 
@@ -28,7 +30,6 @@ reviewArchive:
   appHash: 
   gitRevision: fa227d42296cae666acec49c980629e0b2a71636
   verdict: custodial
-
 providerTwitter: chivowallet
 providerLinkedIn: 
 providerFacebook: ChivoWalletSLV
@@ -37,7 +38,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-29**: [This Tweet](https://twitter.com/structerer/status/1453793507777331204):
 

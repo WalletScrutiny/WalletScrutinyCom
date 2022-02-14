@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: bitcoin.invest.crypto.app
+appCountry: 
 released: 2021-03-18
 updated: 2021-03-18
 version: "1.0"
-stars: 4.7
-ratings: 25
-reviews: 22
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.5M
 website: 
 repository: 
 issue: 
 icon: bitcoin.invest.crypto.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **NOTE:** This app claims to function as an exchange when in reality you cannot trade or hold BTC here. Although it does not function as a wallet and cannot hold your money, it still gives us pause how it claims to have features that it **does not truly have.**
 

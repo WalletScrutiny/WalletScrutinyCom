@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.bitcanner.blogspot.bitcanner
+appCountry: 
 released: 2019-11-03
 updated: 2021-09-29
 version: "3.20.0.51"
-stars: 3.2
-ratings: 59
-reviews: 49
+stars: 4.4
+ratings: 65
+reviews: 21
 size: 19M
-website: https://www.bitcanner.com/
+website: https://www.bitcanner.com
 repository: 
 issue: 
 icon: com.bitcanner.blogspot.bitcanner.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** This app is very suspicious and may not be safe to use!
 

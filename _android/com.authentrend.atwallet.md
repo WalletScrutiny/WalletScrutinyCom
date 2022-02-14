@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.authentrend.atwallet
+appCountry: 
 released: 2020-07-13
 updated: 2021-11-08
 version: "v1.0.34"
-stars: 3.0
-ratings: 5
-reviews: 2
+stars: 0.0
+ratings: 
+reviews: 
 size: 41M
-website: 
+website: https://www.authentrend.com/contact
 repository: 
 issue: 
 icon: com.authentrend.atwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

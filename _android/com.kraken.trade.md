@@ -1,28 +1,29 @@
 ---
 wsId: krakent
-title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
+title: "Kraken Pro: Crypto Trading"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.kraken.trade
+appCountry: 
 released: 2019-10-24
-updated: 2021-12-15
-version: "2.6.0-14459"
-stars: 2.8
-ratings: 24000
-reviews: 8539
-size: 70M
+updated: 2022-02-11
+version: "2.8.2-15060"
+stars: 3.7
+ratings: 25121
+reviews: 2822
+size: 73M
 website: https://www.kraken.com
 repository: 
 issue: 
 icon: com.kraken.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: krakenfx
 providerLinkedIn: krakenfx
@@ -33,7 +34,6 @@ redirect_from:
   - /com.kraken.trade/
   - /posts/com.kraken.trade/
 ---
-
 
 On their website we read:
 

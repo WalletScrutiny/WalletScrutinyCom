@@ -1,38 +1,40 @@
 ---
-wsId:
+wsId: 
 title: "Nayuta Core"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.nayuta.core
-released:
-updated: 2021-11-24
+appCountry: 
+released: 
+updated: 2021-12-16
 version: "Varies with device"
-stars:
-ratings:
-reviews:
+stars: 
+ratings: 
+reviews: 
 size: Varies with device
 website: https://nayuta.co/core/
 repository: https://github.com/nayutaco/NayutaCore
-issue:
+issue: 
 icon: com.nayuta.core.png
-bugbounty:
+bugbounty: 
+meta: defunct
 verdict: nosource
-date: 2021-08-02
-signer:
+date: 2022-01-15
+signer: 
 reviewArchive:
 
-
 providerTwitter: nayuta_en
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 ## Updated Review 2021-12-21
 
@@ -52,5 +54,6 @@ However, according to its terms and conditions:
 ## Verdict
 
 This app is self-custodial and though it claims to have "exclusive ownership" of the "original content, features and functionality", the wallet's source code is available on Github.
+
 
 

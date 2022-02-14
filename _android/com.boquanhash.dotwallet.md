@@ -4,25 +4,26 @@ title: "DotWallet - Manage Your Crypto and Dapp Assets"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.boquanhash.dotwallet
+appCountry: us
 released: 2020-08-26
-updated: 2021-12-10
-version: "2.9.2"
-stars: 4.2
-ratings: 32
-reviews: 14
-size: 48M
+updated: 2022-01-24
+version: "2.11.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 49M
 website: https://www.dotwallet.com/
 repository: 
 issue: 
 icon: com.boquanhash.dotwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: wallet_dot
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

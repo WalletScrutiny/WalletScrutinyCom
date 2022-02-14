@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.abbc.wallet.jpg
 bugbounty: 
-verdict: stale
-date: 2021-10-09
+meta: obsolete
+verdict: custodial
+date: 2022-02-03
 signer: 
 reviewArchive:
-- date: 2021-09-15
-  version: "1.3.3"
-  appHash: 
-  gitRevision: 9dfdd677cd0ab7e3f2f9fafa26671e03f636a19b
-  verdict: custodial
 
 providerTwitter: abbcfoundation
 providerLinkedIn: abbcfoundation

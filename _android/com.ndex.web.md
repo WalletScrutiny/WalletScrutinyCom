@@ -6,23 +6,24 @@ authors:
 
 users: 5000
 appId: com.ndex.web
+appCountry: 
 released: 2018-10-10
 updated: 2020-04-02
 version: "1.1"
-stars: 4.7
-ratings: 10
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 1.6M
-website: 
+website: https://nd-exk.com
 repository: 
 issue: 
 icon: com.ndex.web.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

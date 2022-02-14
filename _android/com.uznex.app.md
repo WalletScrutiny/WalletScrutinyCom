@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.uznex.app
+appCountry: 
 released: 2020-04-28
 updated: 2020-04-28
 version: "1.0.0"
-stars: 2.2
-ratings: 52
-reviews: 33
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: 
+website: https://uznex.com
 repository: 
 issue: 
 icon: com.uznex.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

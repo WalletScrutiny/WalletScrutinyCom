@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.app.atechcoins
+appCountry: 
 released: 2020-11-10
 updated: 2021-04-02
 version: "1.1.0"
-stars: 3.4
-ratings: 54
-reviews: 38
+stars: 2.8
+ratings: 72
+reviews: 3
 size: 18M
-website: https://www.atechcoins.com/
+website: https://www.atechcoins.com
 repository: 
 issue: 
 icon: com.app.atechcoins.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **⚠️ Warning: Several users have reported having a bad experience such as losing funds on this app**
 

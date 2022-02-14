@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: rWallet
 title: "RWallet"
 altTitle: 
 authors:
@@ -8,33 +8,33 @@ authors:
 - emanuel
 users: 1000
 appId: com.rsk.rwallet.v2
+appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
 version: "2.0.1"
-stars: 3.5
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 36M
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2021-12-02
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: rsksmart
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: RSKsmart
+providerReddit: rootstock
 
 redirect_from:
 
 ---
-
 
 ## App Description
 

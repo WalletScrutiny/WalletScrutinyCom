@@ -8,21 +8,21 @@ appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 idd: 1162855939
 released: 2019-02-07
-updated: 2021-09-27
-version: "2.3.2"
+updated: 2021-12-06
+version: "2.3.3"
 stars: 3.93478
 reviews: 46
-size: 142380032
+size: 146823168
 website: https://www.coinpayments.net/
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinPaymentsNET
 providerLinkedIn: coinpayments-inc

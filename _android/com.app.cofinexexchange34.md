@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.cofinexexchange34
+appCountry: sg
 released: 2021-02-12
 updated: 2021-02-12
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.app.cofinexexchange34.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: CofinexExchange
 providerLinkedIn: cofinex-exchange
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

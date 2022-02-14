@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: quanterall.com.cryptoexchange
+appCountry: 
 released: 
 updated: 2019-06-18
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: quanterall.com.cryptoexchange.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

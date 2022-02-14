@@ -20,7 +20,8 @@ repository:
 issue:
 icon: fuzew.png
 bugbounty:
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-12-03
 signer:
 reviewArchive:

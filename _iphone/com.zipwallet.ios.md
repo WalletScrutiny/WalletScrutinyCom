@@ -18,15 +18,11 @@ repository:
 issue: 
 icon: com.zipwallet.ios.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-10-06
 signer: 
 reviewArchive:
-- date: 2021-09-15
-  version: "69"
-  appHash: 
-  gitRevision: 390ad12adfd0448e851c0112bc5cc9c2a11698b4
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 

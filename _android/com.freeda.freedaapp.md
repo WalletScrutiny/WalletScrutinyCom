@@ -4,25 +4,26 @@ title: "Freeda Wallet - Buy, Sell, Hold Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.freeda.freedaapp
+appCountry: us
 released: 2021-04-13
-updated: 2021-11-16
-version: "1.7.0"
+updated: 2021-11-19
+version: "1.7.1"
 stars: 4.9
-ratings: 58
+ratings: 71
 reviews: 42
 size: 15M
-website: https://www.freeda.io/
+website: https://www.freeda.io
 repository: 
 issue: 
 icon: com.freeda.freedaapp.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: FreedaWallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 
