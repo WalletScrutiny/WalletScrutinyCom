@@ -8,12 +8,12 @@ users: 100000
 appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
-updated: 2022-02-07
-version: "1.21"
+updated: 2022-02-14
+version: "1.22"
 stars: 3.9
-ratings: 6774
-reviews: 2049
-size: 19M
+ratings: 6847
+reviews: 2075
+size: 21M
 website: https://www.koinbazar.com/
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "Hoo Pro"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.hoo.qianbao
 appCountry: us
 released: 2021-03-17

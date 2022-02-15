@@ -11,8 +11,8 @@ released: 2013-09-09
 updated: 2022-01-20
 version: "5.0.1"
 stars: 3.8
-ratings: 4764
-reviews: 1455
+ratings: 4771
+reviews: 1459
 size: 15M
 website: http://tradestation.com/contact-us/
 repository: 

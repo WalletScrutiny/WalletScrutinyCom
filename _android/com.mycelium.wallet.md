@@ -11,7 +11,7 @@ released: 2013-07-01
 updated: 2022-02-02
 version: "3.13.6.0"
 stars: 4.2
-ratings: 11570
+ratings: 11573
 reviews: 1194
 size: 25M
 website: https://wallet.mycelium.com

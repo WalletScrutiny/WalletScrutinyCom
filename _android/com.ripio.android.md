@@ -11,7 +11,7 @@ released: 2015-06-01
 updated: 2022-02-09
 version: "5.30.2"
 stars: 3.4
-ratings: 33923
+ratings: 33944
 reviews: 152
 size: 96M
 website: https://www.ripio.com

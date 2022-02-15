@@ -11,7 +11,7 @@ released: 2021-05-13
 updated: 2022-02-12
 version: "1.2.0.1.0"
 stars: 4.5
-ratings: 1479
+ratings: 1480
 reviews: 57
 size: 42M
 website: https://coinhub8899.web.app

@@ -11,7 +11,7 @@ released: 2013-02-01
 updated: 2022-02-08
 version: "202201.2.1"
 stars: 3.7
-ratings: 115431
+ratings: 115447
 reviews: 5276
 size: 23M
 website: https://www.blockchain.com

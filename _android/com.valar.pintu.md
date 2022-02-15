@@ -11,7 +11,7 @@ released: 2020-01-25
 updated: 2022-02-10
 version: "3.11.0"
 stars: 4.1
-ratings: 27115
+ratings: 27124
 reviews: 80
 size: Varies with device
 website: https://pintu.co.id/

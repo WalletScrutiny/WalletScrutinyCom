@@ -10,8 +10,8 @@ appCountry: us
 released: 2021-08-07
 updated: 2022-01-31
 version: "1.2.5"
-stars: 3.8
-ratings: 869
+stars: 3.9
+ratings: 870
 reviews: 25
 size: 52M
 website: http://coinmena.com

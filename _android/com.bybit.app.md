@@ -11,7 +11,7 @@ released: 2019-10-31
 updated: 2022-02-10
 version: "3.14.0"
 stars: 4.0
-ratings: 106656
+ratings: 106686
 reviews: 394
 size: 58M
 website: https://www.bybit.com

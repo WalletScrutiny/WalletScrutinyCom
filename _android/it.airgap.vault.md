@@ -11,7 +11,7 @@ released: 2018-08-06
 updated: 2022-02-02
 version: "3.14.0"
 stars: 4.2
-ratings: 105
+ratings: 106
 reviews: 11
 size: 69M
 website: https://www.airgap.it

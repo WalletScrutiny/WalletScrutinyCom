@@ -11,7 +11,7 @@ released: 2017-04-05
 updated: 2021-12-16
 version: "1.28.1"
 stars: 3.2
-ratings: 1748
+ratings: 1750
 reviews: 29
 size: 37M
 website: https://www.easymarkets.com/

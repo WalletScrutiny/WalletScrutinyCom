@@ -11,8 +11,8 @@ released: 2017-09-29
 updated: 2022-01-05
 version: "2.3.1 'Doménikos'"
 stars: 3.0
-ratings: 813
-reviews: 149
+ratings: 815
+reviews: 150
 size: Varies with device
 website: https://monerujo.io/
 repository: 

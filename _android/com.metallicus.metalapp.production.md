@@ -11,8 +11,8 @@ released: 2020-01-14
 updated: 2022-02-09
 version: "2.5.1-prod"
 stars: 3.9
-ratings: 561
-reviews: 253
+ratings: 562
+reviews: 254
 size: 82M
 website: https://metalpay.com
 repository: 
