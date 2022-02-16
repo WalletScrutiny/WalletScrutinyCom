@@ -19,7 +19,8 @@ repository: https://github.com/KeystoneHQ/Keystone-cold-app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: keystoneultimate.png
 bugbounty:
-verdict: unreleased
+meta: ok
+verdict: nosource
 date: 2022-01-01
 signer:
 reviewArchive:
@@ -31,8 +32,10 @@ providerFacebook:
 providerReddit: 
 ---
 
-**Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
+Link to {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %}
 
 The Keystone Ultimate distinguishes itself with a more durable casing made out of aluminum. However, this is the notice on its [product page](https://shop.keyst.one/products/keystone-ultimate):
-
+  
 > Further manufacturing of it is currently pending and **might become available sometime in 2023/2024**.
+
+This product is currently out of stock.

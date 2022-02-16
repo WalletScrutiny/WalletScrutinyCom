@@ -19,7 +19,8 @@ repository:
 issue:
 icon: icynote.png
 bugbounty:
-verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: prefilled
 date: 2022-01-01
 signer:
 reviewArchive:
@@ -31,8 +32,12 @@ providerFacebook: Icynote-100908298821873
 providerReddit: 
 ---
 
+## UPDATE 2022-02-16
 
-The bitcoin notes and the app used to verify them will both be analyzed here.
+The company claims that it is impossible for the providers to take a copy of the keys without damaging the product. However, as the keys already come **prefilled** by the company, the verdict must still be updated to reflect that.
+
+
+# Old Review 2022-01-01
 
 ## Private keys can be created offline 
 

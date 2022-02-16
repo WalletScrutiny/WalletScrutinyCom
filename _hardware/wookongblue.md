@@ -19,7 +19,8 @@ repository: https://github.com/extropiescom
 issue:
 icon: wookong-blue.png
 bugbounty:
-verdict: defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip
 date: 2022-01-02
 signer:
 reviewArchive:
