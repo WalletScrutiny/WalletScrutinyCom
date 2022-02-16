@@ -32,9 +32,9 @@ providerFacebook:
 providerReddit: 
 ---
 
-Link to {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %}
+This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 
 
-The Keystone Ultimate distinguishes itself with a more durable casing made out of aluminum. However, this is the notice on its [product page](https://shop.keyst.one/products/keystone-ultimate):
+Here is the notice on its [product page](https://shop.keyst.one/products/keystone-ultimate):
   
 > Further manufacturing of it is currently pending and **might become available sometime in 2023/2024**.
 
