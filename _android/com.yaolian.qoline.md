@@ -1,12 +1,11 @@
 ---
-wsId: 
+wsId: salletone
 title: "SalletOne Live"
 altTitle: 
 authors:
-
+- danny
 users: 10
 appId: com.yaolian.qoline
-appCountry: 
 released: 2021-07-14
 updated: 2022-01-17
 version: "1.8.3"
@@ -15,7 +14,7 @@ ratings:
 reviews: 
 size: 22M
 website: https://www.salletone.com
-repository: 
+repository: https://github.com/SalletOne/
 issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
@@ -25,12 +24,17 @@ date: 2021-09-01
 signer: 
 reviewArchive:
 
-providerTwitter: 
+
+providerTwitter: salletone
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: salletone
+providerReddit: Sallet_Atelas
 
 redirect_from:
 
 ---
+
+
+This is the Android companion app to the hardware wallet: 
+{% include walletLink.html wallet='hardware/salletone' verdict='true' %}
 
