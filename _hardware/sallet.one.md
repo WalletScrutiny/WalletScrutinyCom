@@ -13,7 +13,7 @@ website: https://salletone.com/
 shop: https://salletone.com/cn/?r=front/product&S_ID=20210520114827&ID=994
 company: 
 companywebsite: 
-country: CY
+country: CN
 price: 100USD
 repository: https://github.com/SalletOne/SalletOne
 issue: 

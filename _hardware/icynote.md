@@ -58,7 +58,7 @@ Physically transferring one Icynote to another is the whole gist of paper notes.
 >
 > It is your decision whether you accept the Icynote or not. If you accept it, you must check that the banknote is neither broken, scratched-off nor damaged and that you receive it from a secure source. This wallet is protected by two layers, one metallic and the other is a polymer, both of which reflect light, even from lasers, thus making it impossible to see what is printed inside. It is also impossible to scan it with a magnetic, X-ray or static scanner. Anyway, if your transaction is of a substantial nature, it is better to scratch-off the Icynote and transfer the assets from one Icynote to another Icynote, ensuring that your counterpart will transfer you the expected amount.
 
-## Reproducibility  
+## Code and Reproducibility  
 
 Is it a physical note, a hardware wallet or a cold wallet? Lumping this unique product in any classification would do it a great disservice. It is all of the above.
 
