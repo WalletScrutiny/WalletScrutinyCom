@@ -19,7 +19,8 @@ repository: https://github.com/jreesun/krux
 issue:
 icon: krux.png
 bugbounty:
-verdict: wip
+meta: ok
+verdict: nobinary
 date: 2022-01-20
 signer:
 reviewArchive:

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: balletcryptopro.png
 bugbounty:
-verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: plainkey # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2022-01-20
 signer:
 reviewArchive:

@@ -19,6 +19,7 @@ repository: https://github.com/SeedSigner/seedsigner
 issue:
 icon: seedsigner.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2022-01-20
 signer:

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: nativault.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: ok
+verdict: noita
 date: 2022-01-22
 signer:
 reviewArchive:
