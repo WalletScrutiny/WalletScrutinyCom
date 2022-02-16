@@ -58,4 +58,4 @@ Similar to all Ballet series of crypto cards, the PRO also requires a companion 
 
 ## Interface
 
-The encryption and customization of the private keys grants a better level of security compared with REAL and PURE. However, like the other cards in this series, PRO **lacks a display interface** and a mechanism to input. It is reliant on the companion app in order to transact. 
+The encryption and customization of the private keys grants a better level of security compared with REAL and PURE. However, like the other cards in this series, PRO **lacks a display interface** and a mechanism to input. It is reliant on the companion app not only for display and transaction confirmation but also for handling of the private keys. This defeats the purpose of a hardware wallet as now the companion app or its underlying operating system can again steal all your funds trivially. 

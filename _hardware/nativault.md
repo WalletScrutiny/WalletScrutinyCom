@@ -42,11 +42,11 @@ Nativault is holding an [ICO Token Pre-Sale](https://nativault.com/#about):
 > - Token Distributed : Within 60 days after ICO Ends
 > - ICO Opening Price: $0.1
 
-The sim card sized device plugs conveniently to a computer's USB port. The main security hallmark for their product is what they described as ZVC or "Zero Vulnerability Computing":
+The provider markets this small USB device as containing "ZVC" or "Zero Vulnerability Computing":
 
 > ZVC technology is a product of intelligent futuristic design. It introduces 2 radical concepts: -Supra Operating System (SOS) software that completely obliterates the attack surface (US patent application 63/202,188, May 31, 2021), and an In-Computer Offline Storage (ICOS) hardware that isolates data in cold storage within the connected hardware wallet (US patent application 63/228,122, August 1, 2021). These design elements deliver a double blow to hackers, rendering the NV device cybersecure.
 
-According to their [ICO roadmap](https://nativault.com/#about), NV production begins on October 2022. 
+According to their [website](https://nativault.com/#about), NV production is planned to begin in October 2022. 
 
 ## Whitepaper
 
@@ -66,4 +66,4 @@ and private keys while also making them
 instantly available for processing when
 needed.
 
-We'll reserve our verdict until production and market availability is commenced.
+We'll reserve our final verdict for after an actual release but the current promotional material suggests this device lacks a screen so it would necessarily sign whatever the host computer requests to sign independently of what the host computer showed to the user.

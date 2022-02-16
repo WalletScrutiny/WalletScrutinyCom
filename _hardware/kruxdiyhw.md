@@ -49,7 +49,7 @@ providerReddit:
 
 ## Are the private keys shared? 
 
-No. Since this is a DIY project, the private keys cannot be shared with anyone.
+No, the private keys are used for signing within the device and never get shared.
 
 ## Does the device display the receive address for confirmation?
 
@@ -59,6 +59,6 @@ No. Since this is a DIY project, the private keys cannot be shared with anyone.
 
 Yes.
 
-## Is it reproducible?
+## Code and Reproducibility
 
-This project is for further verification.
+This project requires the user to compile the code himself, so necessarily what ends up being installed on this device is **verifiable**.

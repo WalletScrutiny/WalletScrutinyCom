@@ -36,7 +36,7 @@ Goochain's website is no longer available. It would appear that this service has
 
 By August 2, 2019, Goochain's twitter account announced that it would henceforth be known as @blkhub, which pinned a post about an "[open-source bitcoin mining calculator](https://twitter.com/a_ferron/status/1360181210580979718)". 
 
-We could not find a lot of information about the Goochain Citadelle wallet apart from it has a companion [Google Chrome extension](https://chrome.google.com/webstore/detail/goochain-citadelle-wallet/belpokalcjbcjcfggbgmgaiblldgkadn) that allowed the creation of Bitcoin wallets. The description of the Chrome extension says that it can interface with a Trezor hardware wallet through a USB. 
+We could not find a lot of information about the Goochain Citadelle wallet apart from it has a companion [Google Chrome extension](https://chrome.google.com/webstore/detail/goochain-citadelle-wallet/belpokalcjbcjcfggbgmgaiblldgkadn) that allowed the creation of Bitcoin wallets. The description of the Chrome extension says that it can interface with a Trezor hardware wallet through USB. 
 
 An article from finder.com.au, mentioned that Goochain's operations "wound up" because of [supplier problems](https://www.finder.com.au/a-brief-history-of-cryptocurrency-hardware-wallets).
 

@@ -36,9 +36,9 @@ The Seed Signer is a truly Open Source project that lowers the barrier for entry
 
 It claims to [solve the following problems](https://seedsigner.com/faqs/):
 
-> – Creates a secure, air-gapped environment for private key generation
-> – Enforces strict separation between private key storage and protocol software / internet
-> – Lowers the barrier cost of multi-sig security (from several hundred to < $50)
+> - Creates a secure, air-gapped environment for private key generation
+> - Enforces strict separation between private key storage and protocol software / internet
+> - Lowers the barrier cost of multi-sig security (from several hundred to < $50)
 
 ## Can the private keys be created offline? 
 
@@ -46,7 +46,7 @@ Yes. The seed signer is airgapped.
 
 ## Are the private keys shared? 
 
-No. Since this is a DIY project, there are no manufacturers who will print or create the private keys.
+No. The companion apps only get signed transactions and no keys.
 
 ## Does the device display the receive address for confirmation?
 

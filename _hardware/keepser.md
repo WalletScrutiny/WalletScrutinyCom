@@ -50,12 +50,8 @@ It works with a companion app {% include walletLink.html wallet='android/com.Kee
 
 ## Card Variations
 
-The Keepser has 4 card models:
+The Keepser has 3 card models advertised for "cold wallet"s:
 
-> - Keepser Pass - 219€
->
-> Keepser Pass is an offline password manager. Keepser technology encrypts all of your data (usernames, passwords, bank cards or loyalty cards) before storing them in the card.
->
 > - Keepser Pro - 285€
 >
 > Keepser Pro is an offline password manager + a cold wallet. It has the same functions as the Keepser PASS and also stores your cryptocurrencies and seed phrases.

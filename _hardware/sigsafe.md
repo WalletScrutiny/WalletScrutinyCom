@@ -33,11 +33,11 @@ providerReddit:
 
 This device uses NFC (Near Field Communication) technology to sign bitcoin transactions. It was announced in 2014 via [bitcointalk.org](https://bitcointalk.org/index.php?topic=610453.0), although its domain is now no longer online.
 
-Note that apart from the BitcoinTalk thread, CoinDesk, there is not much information available about the device as it presumedly never made it to market.
+Note that apart from the BitcoinTalk thread, CoinDesk, there is not much information available about the device as it presumably never made it to market.
 
 Its [whitepaper](https://www.scribd.com/document/224366354/Sigsafe-An-electronic-key-tag-for-signing-bitcoin-transactions) details how the device works:
 
-> A small electronic key tag for signing bitcoin transactions over a non-exploitable air gap is described. The tag communicates via a simple protocol witha NFC-enabled host, harvesting power directly from the NFC electromagnetic fieldand eliminating the need for a battery. After receiving a signature request from ahost device, the tag checks the request against a set of rules and signs thetransaction, provided none are violated. User-defined signing rules permit variouslevels of security from none (sign all requests), to locking the spend addresses,limiting the value of transactions, and requiring a password from the tag’s owner orcryptographic authentication from the host.
+> A small electronic key tag for signing bitcoin transactions over a non-exploitable air gap is described. The tag communicates via a simple protocol with an NFC-enabled host, harvesting power directly from the NFC electromagnetic field and eliminating the need for a battery. After receiving a signature request from a host device, the tag checks the request against a set of rules and signs the transaction, provided none are violated. User-defined signing rules permit various levels of security from none (sign all requests), to locking the spend addresses, limiting the value of transactions, and requiring a password from the tag’s owner or cryptographic authentication from the host.
 
 ## Can the private keys be created offline?
 
