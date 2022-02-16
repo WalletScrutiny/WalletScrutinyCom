@@ -21,7 +21,7 @@ icon: bowser.png
 bugbounty:
 meta: ok
 verdict: noita
-date: 2022-01-20
+date: 2022-02-17
 signer:
 reviewArchive:
 

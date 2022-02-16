@@ -21,7 +21,7 @@ icon: wookong-enterprise.png
 bugbounty:
 meta: defunct
 verdict: wip
-date: 2022-01-02
+date: 2022-02-17
 signer:
 reviewArchive:
 

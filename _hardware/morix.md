@@ -21,7 +21,7 @@ icon: morixwalletcard.png
 bugbounty:
 meta: 
 verdict: plainkey  
-date: 2022-01-24
+date: 2022-02-17
 signer:
 reviewArchive:
 

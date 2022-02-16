@@ -21,7 +21,7 @@ icon: ecomisecurewallet.png
 bugbounty:
 meta: ok
 verdict: plainkey 
-date: 2022-01-22
+date: 2022-02-17
 signer:
 reviewArchive:
 

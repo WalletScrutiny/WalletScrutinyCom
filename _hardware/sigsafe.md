@@ -21,7 +21,7 @@ icon: sigsafe.png
 bugbounty:
 meta: defunct
 verdict: unreleased
-date: 2022-01-18
+date: 2022-02-17
 signer:
 reviewArchive:
 

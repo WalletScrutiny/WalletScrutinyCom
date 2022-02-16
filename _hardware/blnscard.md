@@ -21,7 +21,7 @@ icon: blnscard.png
 bugbounty:
 meta: defunct
 verdict: unreleased  
-date: 2022-01-22
+date: 2022-02-17
 signer:
 reviewArchive:
 

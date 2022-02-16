@@ -21,7 +21,7 @@ icon: com.KeepserGroup.Keepser.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-01-24
+date: 2022-02-17
 signer: 
 reviewArchive:
 

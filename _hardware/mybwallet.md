@@ -21,7 +21,7 @@ icon: mybwallet.png
 bugbounty:
 meta: defunct
 verdict: wip 
-date: 2022-01-18
+date: 2022-02-17
 signer:
 reviewArchive:
 

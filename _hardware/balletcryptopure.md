@@ -21,7 +21,7 @@ icon: balletcryptopure.png
 bugbounty:
 meta: ok
 verdict: plainkey 
-date: 2022-01-20
+date: 2022-02-17
 signer:
 reviewArchive:
 

@@ -23,7 +23,7 @@ icon: cobovaultessential.png
 bugbounty:
 meta: ok
 verdict: nosource
-date: 2021-12-08
+date: 2022-02-17
 signer:
 reviewArchive:
 

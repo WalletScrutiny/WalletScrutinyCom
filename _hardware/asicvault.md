@@ -21,7 +21,7 @@ icon: asicvault.png
 bugbounty:
 meta: stale
 verdict: unreleased  
-date: 2022-01-22
+date: 2022-02-17
 signer:
 reviewArchive:
 

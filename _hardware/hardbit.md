@@ -21,7 +21,7 @@ icon: hardbit.png
 bugbounty:
 meta: defunct
 verdict: wip
-date: 2022-01-21
+date: 2022-02-17
 signer:
 reviewArchive:
 

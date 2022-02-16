@@ -20,7 +20,7 @@ issue:
 icon: myceliumcard.png
 bugbounty:
 verdict: unreleased # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2022-01-02
+date: 2022-02-17
 signer:
 reviewArchive:
 

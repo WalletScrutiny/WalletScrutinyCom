@@ -21,7 +21,7 @@ icon: ch.smd.icynote.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-09-01
+date: 2022-02-17
 signer: 
 reviewArchive:
 

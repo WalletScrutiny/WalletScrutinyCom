@@ -20,7 +20,7 @@ issue:
 icon: imkey.png
 bugbounty:
 verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2022-01-02
+date: 2022-02-17
 signer:
 reviewArchive:
 

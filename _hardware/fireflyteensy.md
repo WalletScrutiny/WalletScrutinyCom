@@ -21,7 +21,7 @@ icon: fireflyteensy.png
 bugbounty:
 meta: obsolete
 verdict: nobtc  
-date: 2022-01-22
+date: 2022-02-17
 signer:
 reviewArchive:
 
