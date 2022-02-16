@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.atomars.android
+appCountry: 
 released: 2019-07-01
 updated: 2019-07-01
 version: "1.1.1"
-stars: 2.2
-ratings: 42
-reviews: 29
+stars: 0.0
+ratings: 
+reviews: 
 size: 960k
-website: 
+website: https://atomars.com
 repository: 
 issue: 
 icon: com.atomars.android.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.mercuryo.app
+appCountry: 
 released: 2019-09-03
-updated: 2021-12-06
-version: "2.0.13"
-stars: 4.3
-ratings: 2482
-reviews: 1435
-size: 70M
+updated: 2022-01-17
+version: "2.0.24"
+stars: 4.0
+ratings: 2684
+reviews: 45
+size: 46M
 website: https://mercuryo.io
 repository: 
 issue: 
 icon: com.mercuryo.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: Mercuryo_io
 providerLinkedIn: mercuryo-io
@@ -32,7 +33,6 @@ providerReddit: mercuryo
 redirect_from:
   - /com.mercuryo.app/
 ---
-
 
 This app has a strong focus on cashing in and out with linked cards and low
 exchange fees but no word on who holds the keys. At least not on Google Play.

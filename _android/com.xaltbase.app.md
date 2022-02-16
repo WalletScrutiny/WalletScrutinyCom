@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.xaltbase.app
+appCountry: us
 released: 2021-05-31
 updated: 2021-11-18
 version: "3.0.5"
-stars: 3.0
+stars: 3
 ratings: 3579
 reviews: 2580
 size: 17M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.xaltbase.app.png
 bugbounty: 
+meta: defunct
 verdict: nobtc
-date: 2021-09-30
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 100XCoin_
 providerLinkedIn: 100xCoin
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-20**: This app is not available anymore.
 
 This DeFi trading app is described in its Google Play:
 

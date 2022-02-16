@@ -84,6 +84,7 @@ We answer the following questions usually in this order:
 {% include verdictMethodology.html verdict="ftbfs" %}
 {% include verdictMethodology.html verdict="nonverifiable" %}
 {% include verdictMethodology.html verdict="reproducible" %}
+{% include verdictMethodology.html verdict="nobinary" %}
 
 
 What is a hardware wallet?

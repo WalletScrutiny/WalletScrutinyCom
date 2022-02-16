@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges
+appCountry: 
 released: 2019-11-12
 updated: 2019-11-12
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.counos
+appCountry: 
 released: 2018-07-03
 updated: 2021-04-16
 version: "1.9.50"
-stars: 4
-ratings: 511
-reviews: 348
+stars: 4.6
+ratings: 513
+reviews: 17
 size: 38M
 website: https://www.counos.io
 repository: 
 issue: 
 icon: com.counos.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: counoscoin
 providerLinkedIn: counosplatform
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Nothing in the description hints at this app being non-custodial.
 

@@ -10,19 +10,19 @@ idd: 1460001613
 released: 2019-04-30
 updated: 2021-05-14
 version: "2.15"
-stars: 4.75
-reviews: 108
+stars: 4.28946
+reviews: 38
 size: 49214464
 website: https://www.bitleague.com
 repository: 
 issue: 
 icon: com.bit.leagues.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitLeague_Group
 providerLinkedIn: bitleaguegroup

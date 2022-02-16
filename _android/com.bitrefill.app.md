@@ -6,18 +6,20 @@ authors:
 - leo
 users: 100000
 appId: com.bitrefill.app
+appCountry: 
 released: 2018-04-10
-updated: 2021-09-13
-version: "1.30.4"
-stars: 3.3
-ratings: 895
-reviews: 550
-size: 26M
+updated: 2022-02-10
+version: "1.30.12"
+stars: 3.5
+ratings: 1022
+reviews: 117
+size: 32M
 website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-14
 signer: 
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-
 providerTwitter: bitrefill
 providerLinkedIn: 
 providerFacebook: bitrefill
@@ -37,7 +38,6 @@ redirect_from:
   - /com.bitrefill.app/
   - /posts/com.bitrefill.app/
 ---
-
 
 **Update 2021-09-14**: This app was updated after a long time which had it fall
 into our stale category but it remains being a custodial product.

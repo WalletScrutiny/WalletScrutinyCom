@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.bitcoin.dompets
+appCountry: 
 released: 2017-09-29
 updated: 2017-09-30
 version: "1.0.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bitcoin.dompets.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-12-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-26**: This app is not available anymore.
 

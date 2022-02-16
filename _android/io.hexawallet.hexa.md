@@ -1,13 +1,14 @@
 ---
 wsId: Hexa
-title: "Bitcoin Wallet Hexa"
+title: "Legacy Hexa (do not download)"
 altTitle: 
 authors:
 - leo
 users: 1000
 appId: io.hexawallet.hexa
+appCountry: 
 released: 2020-03-26
-updated: 2021-11-23
+updated: 2021-12-03
 version: "1.7.4"
 stars: 3.7
 ratings: 23
@@ -18,11 +19,11 @@ repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
+meta: defunct
 verdict: ftbfs
-date: 2021-01-21
+date: 2021-12-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: HexaWallet
 providerLinkedIn: 
@@ -33,6 +34,9 @@ redirect_from:
   - /io.hexawallet.hexa/
 ---
 
+**Update 2021-12-29**: As the name implies, this app was deprecated by its
+successor
+{% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %}.
 
 The page footer on their website answers most of our questions:
 

@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: kr.co.coin.be
+appCountry: 
 released: 2020-02-22
 updated: 2020-02-23
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: kr.co.coin.be.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: obsolete
+verdict: fewusers
+date: 2022-02-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

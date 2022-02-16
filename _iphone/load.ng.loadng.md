@@ -8,21 +8,21 @@ appId: load.ng.loadng
 appCountry: ng
 idd: 1537865343
 released: 2020-11-02
-updated: 2021-10-16
-version: "2.1"
-stars: 4.11111
-reviews: 9
-size: 42493952
+updated: 2021-12-28
+version: "2.3"
+stars: 4.35714
+reviews: 14
+size: 42514432
 website: https://app.load.ng/
 repository: 
 issue: 
 icon: load.ng.loadng.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: loadngautomated
 providerLinkedIn: 

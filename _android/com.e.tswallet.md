@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.e.tswallet
+appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.e.tswallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-30**: This app is no more.
 

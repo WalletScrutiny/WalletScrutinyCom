@@ -18,20 +18,19 @@ repository:
 issue: 
 icon: com.bideskexchange.app.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-21
 signer: 
 reviewArchive:
 
-
 providerTwitter: bideskcom
 providerLinkedIn: 
 providerFacebook: bideskcom
-providerReddit: bidesk 
+providerReddit: bidesk
 
 redirect_from:
 
 ---
-
 
 {% include copyFromAndroid.html %}

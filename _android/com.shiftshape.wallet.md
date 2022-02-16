@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.shiftshape.wallet
+appCountry: 
 released: 2021-07-16
 updated: 2021-07-16
 version: "1.0.0"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.shiftshape.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-31
 signer: 
 reviewArchive:
-- date: 2021-08-02
-  version: "1.0.0"
-  appHash: 
-  gitRevision: 3d4e0de7554c723d80c48c1d30caa7bad0af40aa
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-31**: Today we mark as
 {% include verdictBadge.html verdict="defunct" type='short' %} a very similar

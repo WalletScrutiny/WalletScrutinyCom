@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: st.xpairssignals
+appCountry: 
 released: 2017-10-07
 updated: 2021-10-03
 version: "4.6"
 stars: 4.2
-ratings: 873
-reviews: 505
+ratings: 922
+reviews: 32
 size: 4.6M
 website: 
 repository: 
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 From Google Play's description:

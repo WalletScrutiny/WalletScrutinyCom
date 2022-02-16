@@ -6,10 +6,11 @@ authors:
 
 users: 1
 appId: com.cryptoplanetgreencg.bitcoin.investment.app2021
+appCountry: 
 released: 2021-07-28
 updated: 2021-07-28
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.3M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-17**: This app is no more.

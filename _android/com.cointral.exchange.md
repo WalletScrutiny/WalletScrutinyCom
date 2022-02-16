@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.cointral.exchange
+appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18
 version: "1.3.6"
-stars: 3.6
-ratings: 106
-reviews: 55
+stars: 3.8
+ratings: 115
+reviews: 61
 size: 26M
-website: https://www.cointral.com/en
+website: https://cointral.com
 repository: 
 issue: 
 icon: com.cointral.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cointral
 providerLinkedIn: cointral
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 Cointral is an exchange based in Turkey.

@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.app.bitstore
+appCountry: 
 released: 2019-03-19
 updated: 2019-07-24
 version: "1.0.11"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.app.bitstore.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-11-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-11**: This app is not on Play Store anymore.
 

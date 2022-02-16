@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: swapitway.sw
+appCountry: 
 released: 2021-02-10
 updated: 2021-02-21
 version: "2.5"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: swapitway.sw.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-28**: This app is no more.

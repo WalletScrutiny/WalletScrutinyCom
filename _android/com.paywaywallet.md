@@ -7,23 +7,24 @@ authors:
 - danny
 users: 50000
 appId: com.paywaywallet
+appCountry: 
 released: 2019-02-13
 updated: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
-stars: 4.1
-ratings: 245
-reviews: 146
+stars: 4.2
+ratings: 253
+reviews: 2
 size: 19M
 website: http://www.payway.ug
 repository: 
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: pay_way
 providerLinkedIn: 
@@ -35,7 +36,6 @@ redirect_from:
   - /payway/
   - /posts/com.paywaywallet/
 ---
-
 
 **UPDATE:** Payway does not have crypto service on their end.
 

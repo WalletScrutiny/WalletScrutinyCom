@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.redot.app
+appCountry: 
 released: 2020-03-03
-updated: 2021-06-06
-version: "1.0.37"
-stars: 4.7
-ratings: 20
+updated: 2021-12-06
+version: "1.0.50"
+stars: 4.3
+ratings: 37
 reviews: 3
-size: 7.2M
+size: 7.9M
 website: https://redot.com/
 repository: 
 issue: 
 icon: com.redot.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: redotcom
 providerLinkedIn: redotcom
@@ -32,7 +33,6 @@ providerReddit: redot_com
 redirect_from:
 
 ---
-
 
 ## App Description
 

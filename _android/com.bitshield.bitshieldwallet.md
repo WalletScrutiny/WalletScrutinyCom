@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.bitshield.bitshieldwallet
+appCountry: 
 released: 2020-06-09
 updated: 2021-04-12
 version: "1.28"
 stars: 4.9
-ratings: 1718
-reviews: 1235
+ratings: 1777
+reviews: 1189
 size: 65M
 website: https://bitshieldwallet.com
 repository: 
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-12-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.bitshield.bitshieldwallet/
 ---
-
 
 In this app's description we read:
 
@@ -48,7 +48,7 @@ On their website:
   deserves.
 
 which was taken almost word for word from
-[another wallet](/com.samourai.wallet/)'s website.
+{% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %}'s website.
 
 ... which leads us to wonder if the provider is also secretive about who they
 are and sure enough, no mention of the people behind this product.

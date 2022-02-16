@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.plutus.wallet
+appCountry: 
 released: 2015-03-04
-updated: 2021-11-26
+updated: 2022-02-01
 version: "Varies with device"
-stars: 4.5
-ratings: 28043
-reviews: 8481
+stars: 4.2
+ratings: 41160
+reviews: 2533
 size: Varies with device
-website: https://www.abra.com
+website: https://www.abra.com/
 repository: 
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: AbraGlobal
 providerLinkedIn: abra
@@ -33,7 +34,6 @@ redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/
 ---
-
 
 The Google Play description certainly sounds like a custodial wallet:
 

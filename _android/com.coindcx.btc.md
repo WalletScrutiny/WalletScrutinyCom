@@ -4,25 +4,26 @@ title: "CoinDCX:Bitcoin Investment App"
 altTitle: 
 authors:
 - danny
-users: 5000000
+users: 10000000
 appId: com.coindcx.btc
+appCountry: 
 released: 2020-12-09
-updated: 2021-12-14
-version: "2.6.006"
-stars: 3.9
-ratings: 156076
-reviews: 41639
-size: 68M
-website: https://coindcx.com/
+updated: 2022-02-03
+version: "3.6.002"
+stars: 4.5
+ratings: 222581
+reviews: 369
+size: 69M
+website: https://go.coindcx.com/
 repository: 
 issue: 
 icon: com.coindcx.btc.png
 bugbounty: https://coindcx.com/bug-bounty
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: coindcx
 providerLinkedIn: coindcx
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a
 

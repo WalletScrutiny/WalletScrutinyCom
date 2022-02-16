@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.itez
+appCountry: 
 released: 2020-03-26
 updated: 2021-03-19
 version: "0.8.2"
-stars: 3.3
-ratings: 19
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.1M
 website: https://itez.com/
 repository: 
 issue: 
 icon: com.itez.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Itezofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: artifyapp.com.coconut
+appCountry: 
 released: 2018-07-05
 updated: 2018-10-22
 version: "1.1.1"
-stars: 3.9
-ratings: 12
-reviews: 6
+stars: 0.0
+ratings: 
+reviews: 
 size: 2.8M
-website: 
+website: http://www.melona.app
 repository: 
 issue: 
 icon: artifyapp.com.coconut.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

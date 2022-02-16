@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.ocean.exchange
+appCountry: us
 released: 2019-07-04
 updated: 2021-10-21
 version: "1.4.24"
-stars: 4
-ratings: 131
-reviews: 65
+stars: 4.2
+ratings: 135
+reviews: 15
 size: 23M
-website: https://oceanex.pro/
+website: https://oceanex.pro
 repository: 
 issue: 
 icon: com.ocean.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: OceanexOfficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: OceanExOfficial
 redirect_from:
 
 ---
-
 
 ## App Description
 

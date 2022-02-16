@@ -19,6 +19,7 @@ repository:
 issue:
 icon: opolocosmos.png
 bugbounty:
+meta: ok
 verdict: unreleased 
 date: 2021-07-29
 signer:

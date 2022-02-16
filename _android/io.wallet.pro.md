@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: io.wallet.pro
+appCountry: nz
 released: 2019-07-14
 updated: 2021-08-04
 version: "1.2.9"
-stars: 4.4
-ratings: 9
-reviews: 4
+stars: 
+ratings: 
+reviews: 
 size: 18M
-website: https://pro.wallet.io/
+website: https://wallet.io/
 repository: https://github.com/wallet-io
 issue: 
 icon: io.wallet.pro.png
 bugbounty: 
+meta: defunct
 verdict: nosource
-date: 2021-10-19
+date: 2022-02-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: io_wallet
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-02-09**: This app is no more.
 
 **Note**: This is the PRO version for:
 

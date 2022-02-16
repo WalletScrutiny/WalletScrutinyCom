@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.flutter.litebit
+appCountry: 
 released: 2019-12-12
-updated: 2021-11-22
-version: "3.1.10"
-stars: 3.6
-ratings: 867
-reviews: 632
+updated: 2022-01-24
+version: "3.3.0"
+stars: 0.0
+ratings: 
+reviews: 
 size: 72M
-website: https://www.litebit.eu
+website: https://www.litebit.eu/
 repository: 
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: litebiteu
 providerLinkedIn: litebit
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.flutter.litebit/
 ---
-
 
 > All you need is a LiteBit account.
 

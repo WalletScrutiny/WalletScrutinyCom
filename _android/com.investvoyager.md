@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.investvoyager
-released: 
-updated: 2021-12-13
-version: "3.1.3"
-stars: 4.6
-ratings: 16185
-reviews: 5704
-size: 56M
+appCountry: 
+released: 2020-02-25
+updated: 2022-01-28
+version: "3.2.0"
+stars: 4.5
+ratings: 25693
+reviews: 7428
+size: 57M
 website: https://www.investvoyager.com/
 repository: 
 issue: 
 icon: com.investvoyager.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: investvoyager
 providerLinkedIn: investvoyager
@@ -32,7 +33,6 @@ providerReddit: Invest_Voyager
 redirect_from:
   - /com.investvoyager/
 ---
-
 
 On their website we read:
 

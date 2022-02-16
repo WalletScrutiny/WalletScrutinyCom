@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.baanx.baanx
+appCountry: us
 released: 2019-10-10
 updated: 2021-09-07
 version: "3.1.0"
-stars: 3.6
-ratings: 35
-reviews: 23
+stars: 0.0
+ratings: 
+reviews: 
 size: 52M
-website: https://www.baanxapp.com/
+website: https://www.baanxapp.com
 repository: 
 issue: 
 icon: com.baanx.baanx.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: baanx_bxx
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.bokucoin.app
+appCountry: 
 released: 2020-10-09
 updated: 2020-10-10
 version: "1.5"
-stars: 4.3
-ratings: 11
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 7.6M
-website: 
+website: https://bokucoin.com
 repository: 
 issue: 
 icon: com.bokucoin.app.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

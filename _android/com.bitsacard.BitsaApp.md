@@ -4,25 +4,26 @@ title: "Bitsa"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitsacard.BitsaApp
+appCountry: gb
 released: 2019-04-09
-updated: 2021-11-24
-version: "2.7.2"
-stars: 0.0
-ratings: 
-reviews: 
-size: 82M
-website: https://www.bitsacard.com/
+updated: 2022-02-08
+version: "2.7.6"
+stars: 2.6
+ratings: 880
+reviews: 6
+size: 74M
+website: https://www.bitsacard.com
 repository: 
 issue: 
 icon: com.bitsacard.BitsaApp.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitsa_oficial
 providerLinkedIn: bitsacard
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

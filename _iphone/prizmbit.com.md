@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: prizmbit.com.jpg
 bugbounty: 
+meta: defunct
 verdict: custodial
-date: 2021-05-01
+date: 2022-01-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: prizmbit
 providerLinkedIn: 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-02**: This app is no more available.
 
 There is no statement regarding how private keys are managed in the app store description or on the [providers website](https://prizmbit.com/) or FAQ.
 

@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.easybit.app
+appCountry: 
 released: 2020-01-16
-updated: 2021-11-24
-version: "1.3.0"
-stars: 5
-ratings: 6
-reviews: 4
-size: 2.1M
-website: 
+updated: 2021-12-14
+version: "1.4.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 5.0M
+website: https://easybit.com
 repository: 
 issue: 
 icon: com.easybit.app.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

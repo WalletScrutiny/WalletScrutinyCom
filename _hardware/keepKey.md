@@ -18,6 +18,7 @@ repository: https://github.com/keepkey/keepkey-firmware
 issue: https://github.com/keepkey/keepkey-firmware/issues/283
 icon: keepKey.png
 bugbounty: 
+meta: ok
 verdict: reproducible
 date: 2021-10-17
 signer: 

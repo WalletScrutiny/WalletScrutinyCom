@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.keplerk.blockchain
+appCountry: 
 released: 2020-02-14
 updated: 2021-11-25
 version: "3.4.0"
-stars: 3.9
-ratings: 311
-reviews: 161
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: https://bykep.com/en/
+website: https://bykep.com/
 repository: 
 issue: 
 icon: com.keplerk.blockchain.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: BykepFR
 providerLinkedIn: bykepfr
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 In the description, BYKEP advertises buying crypto by credit card or transfer.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: com.paribu.app
+appCountry: 
 released: 2019-06-14
-updated: 2021-05-17
-version: "3.3.7"
-stars: 4.3
-ratings: 62185
-reviews: 28670
+updated: 2022-02-09
+version: "3.4.2"
+stars: 4.9
+ratings: 68946
+reviews: 85
 size: 38M
-website: 
+website: https://www.paribu.com
 repository: 
 issue: 
 icon: com.paribu.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: paribucom
 providerLinkedIn: paribu
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app's description is written in Turkish, so all the quotes below are from Google Translate.
 

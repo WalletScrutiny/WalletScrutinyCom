@@ -13,16 +13,16 @@ version: "1.0.56"
 stars: 4.18182
 reviews: 11
 size: 67433472
-website: https://techbank.finance
+website: https://www.beeinternational.co.in
 repository: 
 issue: 
 icon: com.Techbank.Beeone.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

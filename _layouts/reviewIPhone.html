@@ -45,6 +45,9 @@ layout: default
           </span>
 
           {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% if page.meta != "ok" %}
+            {% include verdictBadge.html verdict=page.meta type='medium' %}
+          {% endif %}
 
           <div class="social-row">
             <ul>
@@ -69,7 +72,7 @@ layout: default
           <div title="Rated {{ page.stars }}/5 stars">
 
             <label>
-              <i class="fab fa-app-store"></i>&nbsp;App Store
+              <i class="fab fa-app-store"></i>&nbsp;App Store ({{ page.appCountry | default: "us" }})
             </label>
 
             <div>
@@ -77,18 +80,11 @@ layout: default
               <span class="star-rating"
                 style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
             </div>
+
+            <span>{{ page.reviews }} ratings</span>
+
           </div>
           {% endif %}
-          <div title="{{ page.reviews }} Reviews">
-            <label>
-              <i class="fas fa-pen"></i>&nbsp;Reviews
-            </label>
-            <div>
-              <span>
-                {{ page.reviews }}
-              </span>
-            </div>
-          </div>
 
           {% if page.released %}
           <div title='{{ page.released | date_to_long_string: "ordinal" }}'>

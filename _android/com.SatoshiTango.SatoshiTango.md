@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
+appCountry: 
 released: 2015-06-24
-updated: 2021-11-17
-version: "4.2.6"
-stars: 3.5
-ratings: 5300
-reviews: 3014
+updated: 2022-01-30
+version: "4.2.14"
+stars: 3.7
+ratings: 5454
+reviews: 37
 size: 66M
 website: http://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: satoshitango
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---
-
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>

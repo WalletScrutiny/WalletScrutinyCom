@@ -4,25 +4,26 @@ title: "Bitcoin Trading - Capital.com"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.kapital.trade.crypto
+appCountry: cz
 released: 2021-01-20
-updated: 2021-11-25
-version: "1.35.6"
-stars: 4.4
-ratings: 991
-reviews: 332
-size: 62M
+updated: 2022-02-14
+version: "1.39.3"
+stars: 4.3
+ratings: 1205
+reviews: 27
+size: 40M
 website: https://expcapital.com
 repository: 
 issue: 
 icon: com.kapital.trade.crypto.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-09-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 
 

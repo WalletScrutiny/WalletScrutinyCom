@@ -4,25 +4,26 @@ title: "Pilot Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.pilotmobiletrading
+appCountry: ca
 released: 2019-06-09
-updated: 2021-09-13
-version: "6.02.325"
-stars: 3.4
-ratings: 65
-reviews: 37
-size: 29M
+updated: 2022-02-15
+version: "6.02.486"
+stars: 4.7
+ratings: 67
+reviews: 8
+size: 28M
 website: https://pilottrading.co/
 repository: 
 issue: 
 icon: com.pilotmobiletrading.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: tradewithpilot
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

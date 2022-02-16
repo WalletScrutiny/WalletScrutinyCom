@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "XTB - Forex, Indices, Commodities, CFDs"
+title: "XTB - Online Trading"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.xtb.xmobile2
+appCountry: 
 released: 2014-12-17
-updated: 2021-11-05
+updated: 2022-01-27
 version: "Varies with device"
-stars: 4.6
-ratings: 18281
-reviews: 5364
+stars: 4.4
+ratings: 21977
+reviews: 65
 size: Varies with device
-website: http://www.xtb.com/
+website: http://www.xtb.com
 repository: 
 issue: 
 icon: com.xtb.xmobile2.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: xtbuk
 providerLinkedIn: xtb-international
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app description:
 

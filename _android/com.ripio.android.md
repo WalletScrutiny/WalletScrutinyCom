@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.ripio.android
+appCountry: 
 released: 2015-06-01
-updated: 2021-12-14
-version: "5.1.9"
+updated: 2022-02-09
+version: "5.30.2"
 stars: 3.4
-ratings: 28568
-reviews: 12751
-size: 100M
-website: https://www.ripio.com/ar/wallet
+ratings: 33975
+reviews: 153
+size: 96M
+website: https://www.ripio.com
 repository: 
 issue: 
 icon: com.ripio.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-03-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: ripioapp
 providerLinkedIn: ripio
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/11/ripio/
   - /posts/com.ripio.android/
 ---
-
 
 Ripio Bitcoin Wallet: the new digital economy
 does not claim to be non-custodial and looks much like an interface for an

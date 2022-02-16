@@ -6,6 +6,7 @@ authors:
 
 users: 10000
 appId: com.starlyware.bitreal
+appCountry: 
 released: 2021-03-29
 updated: 2021-09-04
 version: "1.3.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.starlyware.bitreal.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-03**: This app is not on Play Store anymore.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: exchange.delta
+appCountry: nz
 released: 2021-05-07
 updated: 2021-11-24
 version: "1.4.6.1"
-stars: 3
-ratings: 279
-reviews: 187
+stars: 0.0
+ratings: 
+reviews: 
 size: 21M
-website: https://www.delta.exchange/
+website: https://delta.exchange
 repository: 
 issue: 
 icon: exchange.delta.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Delta_Exchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: Delta_Exchange
 redirect_from:
 
 ---
-
 
 ## App Description
 

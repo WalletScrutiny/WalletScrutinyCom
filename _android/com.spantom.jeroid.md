@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.spantom.jeroid
+appCountry: us
 released: 2020-07-05
 updated: 2021-10-14
 version: "1.3.2"
-stars: 4.7
-ratings: 179
-reviews: 162
+stars: 2.6
+ratings: 247
+reviews: 12
 size: 20M
-website: https://jeroid.ng/
+website: https://jeroid.com.ng/
 repository: 
 issue: 
 icon: com.spantom.jeroid.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: jeroidng
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

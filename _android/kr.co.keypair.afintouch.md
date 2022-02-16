@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: kr.co.keypair.afintouch
+appCountry: 
 released: 2018-10-04
 updated: 2019-12-27
 version: "1.0.0.60"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 11M
-website: https://www.afincoin.io
+website: https://www.afincoin.io/
 repository: 
 issue: 
 icon: kr.co.keypair.afintouch.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-12-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: AfinCoin
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <!-- nosource -->
 As far as we can see, this is the same as

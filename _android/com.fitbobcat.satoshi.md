@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: com.fitbobcat.satoshi
+appCountry: 
 released: 2018-01-16
 updated: 2018-01-16
 version: "1.0"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nobtc
 date: 2021-06-08
 signer: 
 reviewArchive:
-- date: 2019-12-28
-  version: "1.0"
-  appHash: 
-  gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
-  verdict: nobtc
 
 providerTwitter: 
 providerLinkedIn: 
@@ -34,8 +31,8 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 This project appears to be a parody on Bitcoin forks?
 

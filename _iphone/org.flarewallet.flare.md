@@ -10,19 +10,19 @@ idd: 1496651406
 released: 2020-02-11
 updated: 2021-03-13
 version: "1.4.0"
-stars: 3.97143
-reviews: 35
+stars: 3.94444
+reviews: 36
 size: 24013824
 website: https://flarewallet.io
 repository: 
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

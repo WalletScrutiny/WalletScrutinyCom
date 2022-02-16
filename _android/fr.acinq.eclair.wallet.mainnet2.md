@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
+appCountry: 
 released: 2018-04-12
 updated: 2021-09-28
 version: "0.4.17"
-stars: 3.8
-ratings: 370
-reviews: 175
+stars: 4.1
+ratings: 376
+reviews: 41
 size: 29M
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
+meta: ok
 verdict: ftbfs
 date: 2019-12-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: acinq_co
 providerLinkedIn: 
@@ -35,7 +36,6 @@ redirect_from:
   - /posts/2019/12/eclair/
   - /posts/fr.acinq.eclair.wallet.mainnet2/
 ---
-
 
 This wallet has a really short description. Here it is in full:
 

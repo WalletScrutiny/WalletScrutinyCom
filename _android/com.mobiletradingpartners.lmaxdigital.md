@@ -4,25 +4,26 @@ title: "LMAX Digital Trading"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
+appCountry: gb
 released: 2018-05-18
-updated: 2021-12-16
-version: "4.4.76"
-stars: 4.3
-ratings: 25
-reviews: 3
-size: 50M
-website: https://www.lmax.com/
+updated: 2022-02-10
+version: "4.4.93"
+stars: 4.6
+ratings: 26
+reviews: 2
+size: 24M
+website: http://www.lmax.com/mobile
 repository: 
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: LMAX
 providerLinkedIn: lmax-group
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

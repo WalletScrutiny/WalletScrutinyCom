@@ -6,27 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.app.bitay
+appCountry: us
 released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
-stars: 4.4
-ratings: 5736
-reviews: 3947
+stars: 3.9
+ratings: 5757
+reviews: 12
 size: 3.6M
 website: https://www.bitay.com
 repository: 
 issue: 
 icon: com.app.bitay.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-11-07
 signer: 
 reviewArchive:
-- date: 2021-08-27
-  version: "2.1.1"
-  appHash: 
-  gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
-  verdict: custodial
 
 providerTwitter: BitayTurkiye
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Site Description:
 

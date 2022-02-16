@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: io.bottrex.starter
+appCountry: 
 released: 2019-05-20
 updated: 2021-10-08
 version: "0.4.5"
-stars: 3.7
-ratings: 88
-reviews: 49
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.8M
-website: https://bottrex.net/en
+website: https://bottrex.net
 repository: 
 issue: 
 icon: io.bottrex.starter.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: bottrexoficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

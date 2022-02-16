@@ -4,25 +4,26 @@ title: "Flitpay - Bitcoin,Crypto Trading Exchange in India"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.core.app.flitpay
+appCountry: dk
 released: 2017-05-17
-updated: 2021-11-09
-version: "1.0.29"
-stars: 0.0
-ratings: 
-reviews: 
-size: 37M
+updated: 2022-01-31
+version: "1.0.32"
+stars: 3.8
+ratings: 2120
+reviews: 1460
+size: 86M
 website: https://www.flitpay.com/
 repository: 
 issue: 
 icon: com.core.app.flitpay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: flitpayofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.
 

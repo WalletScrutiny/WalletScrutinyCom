@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "Changelly PRO crypto exchange: trade Bitcoin (BTC)"
+title: "Changelly PRO: trade Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.pro.changelly
+appCountry: 
 released: 2020-07-03
-updated: 2021-04-13
-version: "1.0.13"
-stars: 4.6
-ratings: 162
-reviews: 94
+updated: 2022-02-09
+version: "1.1.0"
+stars: 
+ratings: 
+reviews: 
 size: 11M
 website: https://pro.changelly.com/
 repository: 
 issue: 
 icon: com.pro.changelly.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: changelly_team
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: Changelly
 redirect_from:
 
 ---
-
 
 ## App Description
 Changelly PRO is an exchange:

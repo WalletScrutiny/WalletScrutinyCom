@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.zumopay.core
+appCountry: 
 released: 2019-10-28
-updated: 2021-10-07
-version: "3.5.3"
-stars: 4.4
-ratings: 478
-reviews: 154
-size: 189M
+updated: 2022-01-06
+version: "3.6.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 474M
 website: https://zumo.money
 repository: 
 issue: 
 icon: com.zumopay.core.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: zumopay
 providerLinkedIn: zumomoney
@@ -33,7 +34,6 @@ redirect_from:
   - /com.zumopay.core/
   - /posts/com.zumopay.core/
 ---
-
 
 > 💰 Provides full ownership of funds - your crypto is only owned by you!
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.gmo.exchange
+appCountry: th
 released: 2020-08-07
-updated: 2021-11-22
-version: "1.2.0"
-stars: 4.5
-ratings: 75
-reviews: 21
+updated: 2022-01-27
+version: "1.2.3"
+stars: 4.2
+ratings: 82
+reviews: 19
 size: 15M
 website: https://ex.z.com/
 repository: 
 issue: 
 icon: com.gmo.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: ZcomExchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

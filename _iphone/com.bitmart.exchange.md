@@ -8,21 +8,21 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2021-11-25
-version: "2.8.4"
-stars: 4.53261
-reviews: 10364
-size: 112975872
+updated: 2022-02-10
+version: "2.9.3"
+stars: 3.54253
+reviews: 4009
+size: 113594368
 website: https://www.bitmart.com/
 repository: 
 issue: 
 icon: com.bitmart.exchange.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitMartExchange
 providerLinkedIn: bitmart

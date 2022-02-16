@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.transcrypt.armadillo
+appCountry: ru
 released: 2018-05-23
-updated: 2021-12-08
-version: "2.07.9"
-stars: 4.3
-ratings: 160
-reviews: 80
+updated: 2022-02-02
+version: "2.08.4"
+stars: 4.8
+ratings: 171
+reviews: 19
 size: 59M
-website: https://wallet.tizer.io/
+website: https://tizer.io
 repository: 
 issue: 
 icon: com.transcrypt.armadillo.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: TizerWallet
 providerLinkedIn: tizer-wallet
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 In the description, the app claims that users have "ultimate security and control" of their assets.

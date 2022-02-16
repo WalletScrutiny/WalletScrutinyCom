@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wise.llc.wallet.app
+appCountry: fi
 released: 2020-09-03
 updated: 2021-07-02
 version: "2.6.4"
@@ -13,16 +14,16 @@ stars: 4.3
 ratings: 43
 reviews: 28
 size: 39M
-website: https://wise.win/
+website: https://wise.win
 repository: 
 issue: 
 icon: com.wise.llc.wallet.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: mn.trade
+appCountry: us
 released: 2018-04-13
 updated: 2021-06-29
 version: "2.0.5"
-stars: 3.5
-ratings: 400
-reviews: 200
+stars: 2.1
+ratings: 426
+reviews: 11
 size: 38M
-website: https://trade.mn/
+website: https://trade.mn
 repository: 
 issue: 
 icon: mn.trade.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: TradeMnOfficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -1,29 +1,30 @@
 ---
 wsId: mona
-title: "Crypto.com - Buy BTC,ETH,SHIB"
+title: "Crypto.com - Buy BTC, ETH"
 altTitle: 
 authors:
 - leo
 - danny
 users: 10000000
 appId: co.mona.android
+appCountry: 
 released: 2017-08-30
-updated: 2021-11-26
-version: "3.121.0"
-stars: 4.0
-ratings: 214138
-reviews: 75691
-size: 108M
-website: https://www.crypto.com
+updated: 2022-01-28
+version: "3.126.1"
+stars: 3.7
+ratings: 272755
+reviews: 35766
+size: 119M
+website: https://www.crypto.com/
 repository: 
 issue: 
 icon: co.mona.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptocom
 providerLinkedIn: cryptocom
@@ -35,7 +36,6 @@ redirect_from:
   - /crypto.com/
   - /posts/co.mona.android/
 ---
-
 
 **EDIT 2021-09-14**
 Crypto.com (co.mona.android) is featured on the official site. This is the official app.

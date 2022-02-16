@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.swftcoin.client.android
+appCountry: 
 released: 2018-01-15
-updated: 2021-11-11
-version: "5.13.29"
+updated: 2022-01-26
+version: "5.15.17"
 stars: 4.4
-ratings: 1736
-reviews: 954
+ratings: 1962
+reviews: 128
 size: 34M
-website: http://www.swft.pro
+website: http://www.swft.pro/
 repository: 
 issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: SwftCoin
 providerLinkedIn: swftcoin
@@ -33,7 +34,6 @@ redirect_from:
   - /com.swftcoin.client.android/
   - /posts/com.swftcoin.client.android/
 ---
-
 
 The description on Google Play is full of buzzwords like big data, AI, machine
 learning but no clear words on weather this wallet is custodial or not. Given

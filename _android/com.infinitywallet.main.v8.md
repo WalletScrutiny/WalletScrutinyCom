@@ -6,10 +6,11 @@ authors:
 - leo
 users: 100
 appId: com.infinitywallet.main.v8
+appCountry: 
 released: 2021-10-16
 updated: 2021-10-17
 version: "2.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 20M
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.infinitywallet.main.v8.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-11-10
 signer: 
 reviewArchive:
-- date: 2021-10-30
-  version: "2.0"
-  appHash: 
-  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
-  verdict: fake
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-11-01**: This app is no more.
 

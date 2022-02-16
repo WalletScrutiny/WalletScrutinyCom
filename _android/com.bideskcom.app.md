@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bideskcom.app
+appCountry: us
 released: 2020-06-13
 updated: 2021-03-27
 version: "3.4.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bideskcom.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: bideskcom
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: bidesk
 redirect_from:
 
 ---
-
 
 **Update 2021-10-22:** The service is shutting down. 
 

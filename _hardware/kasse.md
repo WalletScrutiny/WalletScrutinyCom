@@ -20,7 +20,8 @@ repository:
 issue:
 icon: kasse.png
 bugbounty:
-verdict: stale
+meta: stale
+verdict: nosource
 date: 2021-09-01
 signer:
 reviewArchive:

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.remitano.remitano
+appCountry: 
 released: 2016-07-24
-updated: 2021-12-10
-version: "5.72.0"
-stars: 4.4
-ratings: 17513
-reviews: 7660
-size: 78M
+updated: 2022-02-12
+version: "6.35.0"
+stars: 4.5
+ratings: 18906
+reviews: 295
+size: 41M
 website: https://remitano.com
 repository: 
 issue: 
 icon: com.remitano.remitano.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: remitano
 providerLinkedIn: Remitano
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /posts/com.remitano.remitano/
 ---
-
 
 This app is an interface to an exchange which holds your coins. On Google Play
 and their website there is no claim to a non-custodial part to the app. As a

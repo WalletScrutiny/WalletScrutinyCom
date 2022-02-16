@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.iqfinex
+appCountry: 
 released: 2018-09-10
 updated: 2019-01-24
 version: "1.0.4"
@@ -18,7 +19,8 @@ repository:
 issue: 
 icon: com.iqfinex.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-22
 signer: 
 reviewArchive:
@@ -31,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-13**: This app is no more.
 

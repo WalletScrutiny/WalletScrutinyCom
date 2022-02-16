@@ -6,10 +6,11 @@ authors:
 - leo
 users: 500
 appId: com.dcash.wallet
+appCountry: 
 released: 
 updated: 2020-07-27
 version: "1.7.6"
-stars: 5.0
+stars: 5
 ratings: 5
 reviews: 2
 size: 33M
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.dcash.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-03-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app looks like a custodial offering:
 

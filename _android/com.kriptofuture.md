@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.kriptofuture
+appCountry: 
 released: 2021-07-27
 updated: 2021-07-30
 version: "Version 16"
-stars: 4.3
-ratings: 131
-reviews: 102
+stars: 3.5
+ratings: 180
+reviews: 6
 size: 29M
-website: https://kriptofuture.com/
+website: https://kriptofuture.com
 repository: 
 issue: 
 icon: com.kriptofuture.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **⚠️ Warning ⚠️** 
 

@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.balletcrypto
+appCountry: 
 released: 2019-08-08
-updated: 2021-11-18
-version: "1.22.0"
+updated: 2022-01-27
+version: "1.25.0"
 stars: 4.7
-ratings: 584
-reviews: 203
+ratings: 655
+reviews: 85
 size: 49M
-website: https://www.balletcrypto.com
+website: https://www.balletcrypto.com/
 repository: 
 issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-03-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: BalletCrypto
 providerLinkedIn: balletcrypto
@@ -32,7 +33,6 @@ providerReddit: BalletCrypto
 redirect_from:
 
 ---
-
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,
   allowing you to manage your cryptocurrencies, check their market value and add

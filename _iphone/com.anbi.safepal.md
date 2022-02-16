@@ -1,9 +1,11 @@
 ---
 wsId: 
 title: "SafePal - Crypto Wallet BTC"
-altTitle: 
-- leo
+altTitle: "leo"
+authors:
+
 appId: com.anbi.safepal
+appCountry: 
 idd: 1449232593
 released: 2019-03-01
 updated: 2020-12-30
@@ -16,11 +18,11 @@ repository:
 issue: 
 icon: com.anbi.safepal.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: iSafePal
 providerLinkedIn: 

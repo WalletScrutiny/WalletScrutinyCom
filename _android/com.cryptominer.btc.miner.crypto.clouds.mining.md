@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "BTC Crypto Network - BTC Miner"
+title: "BTC Network"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cryptominer.btc.miner.crypto.clouds.mining
+appCountry: 
 released: 2021-08-28
-updated: 2021-12-03
-version: "1.1"
-stars: 4.4
-ratings: 635
-reviews: 438
-size: 12M
-website: 
+updated: 2022-02-15
+version: "1.3"
+stars: 4.6
+ratings: 2167
+reviews: 119
+size: 18M
+website: http://btccryptonetwork.com/
 repository: 
 issue: 
 icon: com.cryptominer.btc.miner.crypto.clouds.mining.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these. 
 

@@ -6,27 +6,24 @@ authors:
 - leo
 users: 5000
 appId: com.vidulumwallet.app
+appCountry: 
 released: 2019-04-04
 updated: 2019-04-05
 version: "1.2"
-stars: 4.2
-ratings: 100
-reviews: 72
+stars: 4.8
+ratings: 104
+reviews: 8
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-07-29
-  version: "1.2"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: VidulumApp
 providerLinkedIn: 
@@ -37,7 +34,6 @@ redirect_from:
   - /com.vidulumwallet.app/
   - /posts/com.vidulumwallet.app/
 ---
-
 
 On Google Play we read
 

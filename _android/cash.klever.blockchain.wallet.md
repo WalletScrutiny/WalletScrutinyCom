@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: cash.klever.blockchain.wallet
+appCountry: 
 released: 2020-08-27
-updated: 2021-12-09
-version: "4.9.0"
-stars: 3.7
-ratings: 10089
-reviews: 5694
+updated: 2022-01-31
+version: "4.11.0"
+stars: 3.8
+ratings: 10623
+reviews: 531
 size: Varies with device
-website: https://www.klever.io
+website: https://www.klever.io/
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: klever_io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /cash.klever.blockchain.wallet/
 ---
-
 
 On their website we read:
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.beaxy.cryptoexchange
+appCountry: us
 released: 2020-02-07
-updated: 2021-06-15
-version: "2.9"
-stars: 3.9
-ratings: 158
-reviews: 72
+updated: 2021-12-29
+version: "2.10"
+stars: 4.5
+ratings: 161
+reviews: 26
 size: 44M
 website: https://www.beaxy.com/
 repository: 
 issue: 
 icon: com.beaxy.cryptoexchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: BeaxyExchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: BeaxyExchange
 redirect_from:
 
 ---
-
 
 ## App Description
 

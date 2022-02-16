@@ -1,28 +1,29 @@
 ---
 wsId: zipwalletpay
-title: "Zipwallet- Buy Bitcoin with Paypal & Credit Card"
+title: "Zipwallet - money transfer app"
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.zipwallet.app
+appCountry: us
 released: 2018-01-30
-updated: 2021-12-09
-version: "10.0.5"
-stars: 4.4
-ratings: 618
-reviews: 386
+updated: 2022-02-04
+version: "10.1.6"
+stars: 4.0
+ratings: 621
+reviews: 13
 size: 11M
-website: https://zipwalletpay.com/
+website: https://zipwalletpay.com
 repository: 
 issue: 
 icon: com.zipwallet.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +34,15 @@ redirect_from:
 
 ---
 
+**Updated Information**
+
+##Google Play Critical reviews
+
+> [Harrison Hlongwane](https://play.google.com/store/apps/details?id=com.zipwallet.app&reviewId=gp%3AAOqpTOEYePWMKE_SZbXcKU8flWe_Aa5iNFtGUrYxRrn5zUWoGS8UKgZ9tvO8AYbqRddjVaUR8AGdwTkJ_FGpjuU)<br>
+  ★☆☆☆☆ Februaru 26, 2021 <br>
+       This app is very poor. I can't send bitcoin because it keeps crashing when I press the send button. Also on different device it says insufficient funds not matter how much, or how little you send so you can't do anything. Very poor. And why you can't use same functionality on web, at least to mitigate the shortcomings of the app. Now my bitcoin is sitting there losing value cause I can't send it.
+
+**Previous Analysis**
 
 Its homepage description reads:
 

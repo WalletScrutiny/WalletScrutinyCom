@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.ideypay
+appCountry: 
 released: 2020-09-03
 updated: 2021-03-02
 version: "1.0.65"
-stars: 4.2
-ratings: 52
-reviews: 40
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
-website: https://ideypay.com/
+website: https://ideypay.com
 repository: 
 issue: 
 icon: com.ideypay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: ideypay
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

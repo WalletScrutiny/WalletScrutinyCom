@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: io.ebitconics.com
+appCountry: 
 released: 2021-01-18
 updated: 2021-01-18
 version: "0.0.2"
-stars: 4.4
-ratings: 18
-reviews: 15
+stars: 0.0
+ratings: 
+reviews: 
 size: 4.1M
 website: https://www.ebitcoinics.com/
 repository: 
 issue: 
 icon: io.ebitconics.com.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-01-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: eBitcoinics
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

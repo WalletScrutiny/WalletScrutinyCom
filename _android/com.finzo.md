@@ -1,11 +1,12 @@
 ---
-wsId:
+wsId: 
 title: "Finzo Markets"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.finzo
+appCountry: 
 released: 2020-11-08
 updated: 2021-01-25
 version: "1.3"
@@ -14,30 +15,24 @@ ratings: 76
 reviews: 66
 size: 23M
 website: https://finzomarkets.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.finzo.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: custodial
 date: 2021-11-26
-signer:
+signer: 
 reviewArchive:
-- date: 2021-11-15
-  version: "1.3"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: custodial
-  
 
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 **Update 2021-11-11**: This app is not on Play Store anymore.
 

@@ -6,22 +6,34 @@ authors:
 - leo
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
+appCountry: 
 released: 2015-01-01
-updated: 2021-11-12
-version: "3.7.6"
-stars: 3.6
-ratings: 896
-reviews: 500
-size: 79M
+updated: 2022-01-20
+version: "3.7.8"
+stars: 3.8
+ratings: 938
+reviews: 95
+size: 80M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android/
 issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
-date: 2021-11-14
+date: 2022-01-24
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2021-12-27
+  version: "3.7.7"
+  appHash: 714f02f6cac34bddd8d71dd8c836501f30dce59080b7222f801a83e12b49d45d
+  gitRevision: e2527b5b894b8e72c53b5db5662abd71db4e2903
+  verdict: reproducible
+- date: 2021-11-14
+  version: "3.7.6"
+  appHash: 5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
+  gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
+  verdict: reproducible
 - date: 2021-10-29
   version: "3.7.5"
   appHash: 4bc2491a7c50c241e12ff3f5ec1d84e82d45d9fa86c41e4db1a8869ad2b77951
@@ -152,7 +164,6 @@ reviewArchive:
   appHash: 8b2e67fc333eeef5b10ce6f9f5fc3e4ca104c1eca9c539b73805276e09d838db
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-
 providerTwitter: Blockstream
 providerLinkedIn: blockstream
 providerFacebook: Blockstream
@@ -165,32 +176,31 @@ redirect_from:
   - /posts/com.greenaddress.greenbits_android_wallet/
 ---
 
-
 With
 [this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
 we get:
 
 ```
+===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.6
-apkVersionCode: 22000376
+apkVersionName: 3.7.8
+apkVersionCode: 22000378
 verdict:        reproducible
-appHash:        5e9bc665f0dcb2bc3c040e50f63c6eaf4962f6f3c00148f7143b9e25fa3fc7ca
-commit:         e8ece72ff88f91adf9ef2c82af67a864de91708f
+appHash:        c1dc700b749152fefd871aa830caffc2a1fc85fed7194f0a114fd1c7f4bfeb74
+commit:         a4250edf21eef528a852d9748af2f8735969d78e
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000376/META-INF: MANIFEST.MF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.RSA
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.SF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object e8ece72ff88f91adf9ef2c82af67a864de91708f
+object a4250edf21eef528a852d9748af2f8735969d78e
 type commit
-tag release_3.7.6
-tagger Domenico Gabriele <domenico@blockstream.com> 1636544543 +0100
-
-Release 3.7.6
+tag release_3.7.8
+tagger Angelos Veglektsis <angelos@aveworks.com> 1642675658 +0200
+===== End Results =====
 ```
 
 which is what we want to see to give it the verdict **reproducible**.

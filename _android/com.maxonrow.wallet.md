@@ -4,9 +4,9 @@ title: "MAX-Wallet"
 altTitle: 
 authors:
 - leo
-
 users: 5000
 appId: com.maxonrow.wallet
+appCountry: 
 released: 2019-08-31
 updated: 2020-10-20
 version: "2.1.16"
@@ -19,16 +19,11 @@ repository:
 issue: 
 icon: com.maxonrow.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nobtc
 date: 2021-03-17
 signer: 
 reviewArchive:
-- date: 2019-12-30
-  version: 
-  appHash: 
-  gitRevision: b75c3bd9d94b20365881eb5ec32b299d3c317f87
-  verdict: nobtc
-
 
 providerTwitter: maxonrow
 providerLinkedIn: maxonrow
@@ -36,7 +31,7 @@ providerFacebook: maxonrowblockchain
 providerReddit: 
 
 redirect_from:
----
 
+---
 
 We find no mention of Bitcoin on the description or the website.

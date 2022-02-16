@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.yes.yeswallet
+appCountry: 
 released: 2019-04-24
 updated: 2019-04-24
 version: "1.0"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.yes.yeswallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-06-18
 signer: 
 reviewArchive:
-- date: 2020-12-14
-  version: "1.0"
-  appHash: 
-  gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.yes.yeswallet/
 ---
-
 
 This app ~~is~~was **very likely a scam** judging by the reviews and the website being
 down and the last update being almost two years old.

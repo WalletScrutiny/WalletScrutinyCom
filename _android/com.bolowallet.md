@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.bolowallet
+appCountry: 
 released: 
 updated: 2019-12-12
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bolowallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-12-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

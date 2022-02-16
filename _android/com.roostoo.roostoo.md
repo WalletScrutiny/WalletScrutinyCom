@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.roostoo.roostoo
+appCountry: 
 released: 2019-07-15
 updated: 2020-07-09
 version: "2.0.0"
-stars: 4.2
-ratings: 155
-reviews: 75
+stars: 3.8
+ratings: 180
+reviews: 8
 size: 9.8M
-website: 
+website: https://www.roostoo.com
 repository: 
 issue: 
 icon: com.roostoo.roostoo.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

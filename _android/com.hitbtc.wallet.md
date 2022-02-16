@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.hitbtc.wallet
+appCountry: au
 released: 2021-08-31
-updated: 2021-10-28
-version: "1.1.1"
-stars: 4.3
-ratings: 41
-reviews: 13
-size: 46M
+updated: 2022-01-26
+version: "1.2.2"
+stars: 0.0
+ratings: 
+reviews: 
+size: 14M
 website: https://hitbtc.com/wallet
 repository: 
 issue: 
 icon: com.hitbtc.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: hitbtc
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: hitbtc
 redirect_from:
 
 ---
-
 
 ## App Description
 

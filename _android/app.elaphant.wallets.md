@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: app.elaphant.wallets
+appCountry: 
 released: 2020-10-08
 updated: 2021-05-03
 version: "1.99.15"
-stars: 3.7
-ratings: 9
-reviews: 5
+stars: 4.8
+ratings: 10
+reviews: 1
 size: 95M
-website: 
+website: https://elaphant.app
 repository: 
 issue: 
 icon: app.elaphant.wallets.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

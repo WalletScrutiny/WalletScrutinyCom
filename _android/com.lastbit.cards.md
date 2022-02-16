@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.lastbit.cards
+appCountry: 
 released: 
 updated: 2021-08-28
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.lastbit.cards.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-09-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-09**: This app is not on Google Play anymore.

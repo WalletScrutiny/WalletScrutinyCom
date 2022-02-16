@@ -19,7 +19,8 @@ repository:
 issue:
 icon: case.png
 bugbounty:
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-18
 signer:
 reviewArchive:

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nordfx.mobiletrading.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
-
 
 providerTwitter: NordFX
 providerLinkedIn: 

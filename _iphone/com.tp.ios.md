@@ -8,26 +8,21 @@ appId: com.tp.ios
 appCountry: 
 idd: 1436028697
 released: 2018-09-23
-updated: 2021-10-15
-version: "1.6.7"
-stars: 3.58683
-reviews: 167
-size: 121114624
-website: 
+updated: 2022-02-11
+version: "1.7.5"
+stars: 3.25728
+reviews: 206
+size: 125945856
+website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
-verdict: defunct
-date: 2021-11-16
+meta: ok
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
-- date: 2021-04-18
-  version: "1.6.7"
-  appHash: 
-  gitRevision: 71f82883d8a2617f50614080bb489381fcdbcc53
-  verdict: nobtc
-  
 
 providerTwitter: TokenPocket_TP
 providerLinkedIn: 
@@ -38,6 +33,4 @@ redirect_from:
 
 ---
 
-**Update 2021-11-03**: This app is not available anymore.
-
-In contrast to the Android version, this app does not appear to support BTC.
+{% include copyFromAndroid.html %}

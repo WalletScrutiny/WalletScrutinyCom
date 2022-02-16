@@ -10,19 +10,19 @@ idd: 649221938
 released: 2013-05-22
 updated: 2021-08-02
 version: "5.9"
-stars: 4.59999
-reviews: 25
+stars: 4.33333
+reviews: 15
 size: 3863552
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
 issue: 
 icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: deltastock
 providerLinkedIn: deltastock-ad

@@ -1,32 +1,29 @@
 ---
 wsId: 
-title: "Bitcoin Wallet - Buy BTC"
+title: "Bitcoin Wallet: BTC, ETH & BNB"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.polehin.android
+appCountry: 
 released: 2019-01-01
-updated: 2021-07-13
-version: "3.5.9"
+updated: 2022-01-09
+version: "3.7.4"
 stars: 4.3
-ratings: 20617
-reviews: 12283
-size: 11M
-website: https://polehin.com
+ratings: 22269
+reviews: 1071
+size: 48M
+website: https://coinbox.org
 repository: 
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-verdict: defunct
-date: 2021-07-22
+meta: ok
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
-- date: 2020-11-30
-  version: "3.5.9" 
-  appHash: 
-  gitRevision: cbd2b77c8c918c118f20ee1fcabcb37e1dcedb96
-  verdict: obfuscated
 - date: 2020-03-30
   version: "3.1.4"
   appHash: 
@@ -37,7 +34,6 @@ reviewArchive:
   appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
-
 providerTwitter: polehincom
 providerLinkedIn: 
 providerFacebook: polehincom
@@ -50,6 +46,8 @@ redirect_from:
   - /posts/com.polehin.android/
 ---
 
+**Update 2022-01-09**: The app was restored for no apparent reason given the
+scam it is.
 
 **Update 2021-07-22**: It took Google 8 months to remove this app after we
 called it a blatant scam. Below is our review from 2020-11-30.

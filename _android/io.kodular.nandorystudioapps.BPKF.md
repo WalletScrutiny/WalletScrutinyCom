@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: io.kodular.nandorystudioapps.BPKF
+appCountry: 
 released: 2021-04-16
 updated: 2021-05-09
 version: "1.2"
-stars: 2
-ratings: 6
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.4M
 website: 
 repository: 
 issue: 
 icon: io.kodular.nandorystudioapps.BPKF.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ⚠️ **WARNING:** This app may be unsafe or untrustworthy!
 

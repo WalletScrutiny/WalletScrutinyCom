@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: app.odapplications.bitstashwallet
+appCountry: 
 released: 2019-11-10
 updated: 2019-11-24
 version: "0.0.3"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 15M
-website: 
+website: https://payments.bitstash.co/
 repository: 
 issue: 
 icon: app.odapplications.bitstashwallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-11-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -7,10 +7,11 @@ authors:
 - leo
 users: 10
 appId: com.apptrack.coinom
+appCountry: 
 released: 2021-05-25
 updated: 2021-05-25
 version: "1.0.12"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 41M
@@ -19,15 +20,11 @@ repository:
 issue: 
 icon: com.apptrack.coinom.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-07-30
 signer: 
 reviewArchive:
-- date: 2021-07-24
-  version: "1.0.12" 
-  appHash: 
-  gitRevision: 39dc0c413233485694e168a9ebb31778ad09074c
-  verdict: fake
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-30**: This app is not on Play Store anymore.
 

@@ -1,28 +1,29 @@
 ---
 wsId: nash
-title: "Nash"
+title: "Nash: Save money faster"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: io.nash.app
+appCountry: 
 released: 2019-08-31
-updated: 2021-12-08
-version: "8.0.1"
-stars: 4.1
-ratings: 638
-reviews: 269
-size: 124M
-website: https://nash.io/
+updated: 2022-02-07
+version: "9.0.0"
+stars: 4.6
+ratings: 647
+reviews: 24
+size: 114M
+website: https://nash.io
 repository: 
 issue: 
 icon: io.nash.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: nashsocial
 providerLinkedIn: nashsocial
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim only the user has access to the private keys.
 

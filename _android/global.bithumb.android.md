@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: global.bithumb.android
+appCountry: us
 released: 2019-07-05
 updated: 2021-08-05
 version: "2.6.24"
-stars: 2.7
-ratings: 3018
-reviews: 2152
+stars: 3.5
+ratings: 3082
+reviews: 73
 size: 22M
-website: https://www.bithumb.pro/
+website: https://www.bithumb.pro
 repository: 
 issue: 
 icon: global.bithumb.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: BithumbGlobal
 providerLinkedIn: bithumbglobal
@@ -32,7 +33,6 @@ providerReddit: BithumbGlobal
 redirect_from:
 
 ---
-
 
 It's **highly recommended to avoid this app.**
 

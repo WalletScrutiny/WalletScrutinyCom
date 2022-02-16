@@ -4,25 +4,26 @@ title: "KuCoin: BTC, Crypto exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.kubi.kucoin
+appCountry: 
 released: 2018-05-03
-updated: 2021-12-15
-version: "3.46.1"
-stars: 2.8
-ratings: 17984
-reviews: 8555
-size: 53M
-website: 
+updated: 2022-02-14
+version: "3.49.4"
+stars: 4.4
+ratings: 70373
+reviews: 2355
+size: 67M
+website: https://www.kucoin.com
 repository: 
 issue: 
-icon: com.kubi.kucoin.png
+icon: com.kubi.kucoin.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: KuCoinCom
 providerLinkedIn: kucoin
@@ -32,7 +33,6 @@ providerReddit: kucoin
 redirect_from:
 
 ---
-
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin
   securely.

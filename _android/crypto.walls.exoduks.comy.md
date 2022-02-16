@@ -6,10 +6,11 @@ authors:
 - leo
 users: 10
 appId: crypto.walls.exoduks.comy
+appCountry: 
 released: 2021-10-03
 updated: 2021-10-04
 version: "19.28"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: crypto.walls.exoduks.comy.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-10-30
 signer: 
 reviewArchive:
-- date: 2021-10-18
-  version: "19.28"
-  appHash: 
-  gitRevision: 70bdd6a4573c03410f6563e850ff522f756f5fdc
-  verdict: fake
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-23**: This app is no more.
 

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.crypto.blockchain
+appCountry: 
 released: 2021-06-22
 updated: 2021-08-17
 version: "1.1.0"
@@ -19,16 +20,12 @@ repository:
 issue: 
 icon: com.crypto.blockchain.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2021-10-15
 signer: 
 reviewArchive:
-- date: 2021-08-08
-  version: "1.1.0"
-  appHash: 
-  gitRevision: 8601f531a9b3352939739447796fad666f17ccd4
-  verdict: fake
-  
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.btse.finance
+appCountry: ng
 released: 2020-11-30
-updated: 2021-12-16
-version: "1.22.0"
-stars: 4.6
-ratings: 56
-reviews: 29
-size: 135M
-website: https://www.btse.com/
+updated: 2022-01-28
+version: "1.25.0"
+stars: 4.9
+ratings: 62
+reviews: 9
+size: 134M
+website: https://btse.com
 repository: 
 issue: 
 icon: com.btse.finance.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: btsecom
 providerLinkedIn: btsecom
@@ -32,7 +33,6 @@ providerReddit: btsecom
 redirect_from:
 
 ---
-
 
 ## App Description
 

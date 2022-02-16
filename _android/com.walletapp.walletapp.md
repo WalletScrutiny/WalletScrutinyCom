@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.walletapp.walletapp
+appCountry: 
 released: 2020-08-04
 updated: 2021-01-28
 version: "1.0.14"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.walletapp.walletapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-06-18
 signer: 
 reviewArchive:
-- date: 2021-04-27
-  version: "1.0.14"
-  appHash: 
-  gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

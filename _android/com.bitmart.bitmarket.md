@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: com.bitmart.bitmarket
+appCountry: 
 released: 2018-05-09
-updated: 2021-11-24
-version: "2.7.8"
-stars: 3.9
-ratings: 32914
-reviews: 13219
+updated: 2022-02-09
+version: "2.9.4"
+stars: 3.1
+ratings: 41265
+reviews: 6788
 size: 41M
-website: https://www.bitmart.com
+website: http://www.bitmart.com
 repository: 
 issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitMartExchange
 providerLinkedIn: bitmart
@@ -33,7 +34,6 @@ redirect_from:
   - /com.bitmart.bitmarket/
   - /posts/com.bitmart.bitmarket/
 ---
-
 
 On their website we read:
 

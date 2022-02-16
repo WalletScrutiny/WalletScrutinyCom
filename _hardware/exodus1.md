@@ -21,7 +21,8 @@ repository: https://github.com/htczion
 issue:
 icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-11-26
 signer:
 reviewArchive:

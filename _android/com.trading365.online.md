@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.trading365.online
+appCountry: 
 released: 2019-08-29
 updated: 2019-08-29
 version: "1.5.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.trading365.online.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

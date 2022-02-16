@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: co.huobi.kr
+appCountry: cn
 released: 2018-04-12
-updated: 2021-11-17
-version: "3.5.13"
+updated: 2022-02-07
+version: "3.6.7"
 stars: 3.3
-ratings: 3362
-reviews: 1335
-size: 38M
+ratings: 3494
+reviews: 1383
+size: 51M
 website: https://www.huobi.co.kr
 repository: 
 issue: 
 icon: co.huobi.kr.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: huobi_korea
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)
 

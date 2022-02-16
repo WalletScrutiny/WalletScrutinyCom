@@ -6,22 +6,34 @@ authors:
 - leo
 users: 10000
 appId: io.horizontalsystems.bankwallet
+appCountry: 
 released: 2018-12-18
-updated: 2021-08-25
-version: "0.22.1"
-stars: 4.2
-ratings: 509
-reviews: 388
-size: 46M
-website: https://unstoppable.money
+updated: 2022-01-18
+version: "0.23.3"
+stars: 3.8
+ratings: 553
+reviews: 48
+size: 44M
+website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
+meta: ok
 verdict: reproducible
-date: 2021-12-20
+date: 2022-01-24
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2022-01-16
+  version: "0.23.2"
+  appHash: a3d287458ab7ecdd1c6128aa50b68ef30e7f93f24cacfab65934b4e1fbe75003
+  gitRevision: f3d0ae911e0cc7b55e50393b2ee14e3e9ad08ced
+  verdict: reproducible
+- date: 2021-12-20
+  version: "0.23.0"
+  appHash: 48c001371aefcf74a39202965b84b5cccdeea6897d03eece3989ac4017d46d95
+  gitRevision: e678a81ce1e01c333d7e72cf57531dfd39741ef9
+  verdict: reproducible
 - date: 2021-08-26
   version: "0.22.1"
   appHash: d03d4e2b5a2c2150ae696519126a51a67d153486194c568766d7b4c0ea4748e2
@@ -157,7 +169,6 @@ reviewArchive:
   appHash: f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0
   gitRevision: 92e4a67ecc626220965114cd6a4cd67497e3be9f
   verdict: nonverifiable
-
 providerTwitter: unstoppablebyhs
 providerLinkedIn: 
 providerFacebook: 
@@ -168,7 +179,6 @@ redirect_from:
   - /posts/io.horizontalsystems.bankwallet/
 ---
 
-
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
@@ -177,16 +187,16 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.23.0
-apkVersionCode: 54
+apkVersionName: 0.23.3
+apkVersionCode: 58
 verdict:        reproducible
-appHash:        48c001371aefcf74a39202965b84b5cccdeea6897d03eece3989ac4017d46d95
-commit:         fe15c675ff8076eb6216e8653358f0bc8501a316
+appHash:        bee79c856fa7463760341d5975fc87451ca8d989b16c85e734fad0bcd4a277ca
+commit:         a520b87e9553e69c76d9d48a0adb0268a53e65b2
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_54/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_58/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_58/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_58/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
@@ -197,5 +207,6 @@ which is what we want to see to give this wallet the verdict: **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 
-* $200 on [2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)
+* $200 on [2021-12-23](https://twitter.com/WalletScrutiny/status/1474197063760072704)
 * $200 on [2021-04-13](https://twitter.com/WalletScrutiny/status/1382161902399262720)
+* $200 on [2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)

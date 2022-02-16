@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.decomlab.wallet
+appCountry: us
 released: 2021-07-26
 updated: 2021-09-02
 version: "1.2.1"
-stars: 4.6
-ratings: 100
-reviews: 66
+stars: 3.2
+ratings: 121
+reviews: 7
 size: 94M
 website: https://moonwallet.net/
 repository: 
 issue: 
 icon: com.decomlab.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: gomoonwallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Notes** It should be noted that this wallet has a similarity in name to:<br> 
 {% include walletLink.html wallet='android/io.muun.apollo' verdict='true' %}

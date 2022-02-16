@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.application.koinbazar
+appCountry: in
 released: 2021-05-17
-updated: 2021-12-06
-version: "1.15"
-stars: 4
-ratings: 4920
-reviews: 1948
-size: 13M
+updated: 2022-02-14
+version: "1.22"
+stars: 3.9
+ratings: 6961
+reviews: 2098
+size: 21M
 website: https://www.koinbazar.com/
 repository: 
 issue: 
 icon: com.application.koinbazar.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: koinbazar
 providerLinkedIn: koinbazar
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 

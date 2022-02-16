@@ -1,4 +1,12 @@
 process.env.TZ = 'UTC' // fix timezone issues
+process.on('unhandledRejection', (reason, promise) => {
+  if (`${reason}`.search(/404/) > -1) {
+    console.error(`Ignoring a 404 error that for some reason did not get caught: ${reason}`)
+  } else {
+    console.error(`Ignoring an error we did not intend to ignore: ${reason}`)
+  }
+})
+
 const gplay = require('google-play-scraper')
 const dateFormat = require('dateformat')
 const fs = require('fs')
@@ -7,13 +15,13 @@ const yaml = require('js-yaml')
 const helper = require('./helper.js')
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
-const { Mutex, Semaphore, withTimeout } = require('async-mutex')
+const { Semaphore } = require('async-mutex')
 const sem = new Semaphore(5)
 
 const stats = {
   defunct: 0,
   updated: 0,
-  badReply: 0
+  remaining: 0
 }
 
 const allowedHeaders = [
@@ -23,6 +31,7 @@ const allowedHeaders = [
   "authors", // contributors to the analysis
   "users", // platform reported downloads in steps
   "appId", // provider chosen identifier. We use this for the file name, too
+  "appCountry", // if the app is not available in the default country US, we take stats from there
   "released", // gets provided by platform
   "updated", // platform reported latest update
   "version", // platform reported version
@@ -43,7 +52,8 @@ const allowedHeaders = [
   "providerLinkedIn",
   "providerFacebook",
   "providerReddit",
-  "redirect_from"
+  "redirect_from",
+  "meta" // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
 ]
 const folder = "_android/"
 
@@ -53,7 +63,6 @@ async function refreshAll() {
       console.error(`Could not list the directory ${folder}.`, err)
       process.exit(1);
     }
-    console.log(`Updating ${files.length} 🤖 files ...`)
     // HACK: The script fails syncing all apps but maybe if it works for less,
     //       eventually all get updated every now and then ...
     // To have some determinism, the files get sorted by the sha256(file name)
@@ -64,14 +73,16 @@ async function refreshAll() {
       hashes[f] = Buffer.from(digest).toString("hex")
     }))
     // take 1/fraction per round
-    const fraction = 2
+    const fraction = 1
     const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
     const mod = t % fraction
     files = files
         .sort((a, b) => {
           return (hashes[a]).localeCompare(hashes[b])
         })
-        .filter((v, i) => {return i % 7 == mod})
+        .filter((v, i) => {return i % fraction == mod})
+    console.log(`Updating ${files.length} 🤖 files ...`)
+    stats.remaining = files.length
     files.forEach((file, index) => {
       try {
         refreshFile(file)
@@ -91,42 +102,61 @@ function refreshFile(fileName) {
     const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
     const header = yaml.load(headerStr)
     const appId = header.appId
+    const appCountry = header.appCountry || "us"
     for(var i of Object.keys(header)) {
       if(allowedHeaders.indexOf(i) < 0) {
         console.error(`Losing property ${i} in ${appPath}.`)
       }
     }
-    if (!"defunct".includes(header.verdict)) {
-      gplay.app({
-          appId: appId,
-          lang: 'en',
-          country: 'cl',
-          throttle: 20}).then(app => {
-        const iconPath = `images/wallet_icons/android/${appId}`
-        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-          writeResult(app, header, iconExtension, body)
+    if (!helper.was404(`_android/${appId}`) && !"defunct".includes(header.meta)) {
+      try {
+        gplay.app({
+            appId: appId,
+            lang: 'en',
+            country: appCountry,
+            throttle: 20}).then(app => {
+          const iconPath = `images/wallet_icons/android/${appId}`
+          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+            writeResult(app, header, iconExtension, body)
+            stats.remaining--
+            release()
+          })
+        }, (err) => {
+          if (`${err}`.search(/404/) > -1) {
+            helper.addDefunctIfNew(`_android/${appId}`)
+          } else {
+            console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
+          }
+          stats.remaining--
           release()
+        }).catch(err => {
+          console.error(`Does this ever get triggered 1? %{err}`)
         })
-      }, (err) => {
-        if (`${err}`.search(/404/) > -1) {
-          helper.addDefunctIfNew(`_android/${appId}`)
-        } else {
-          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
-        }
-        release()
-      })
+      } catch (err) {
+        console.error(`Does this ever get triggered 2? %{err}`)
+      }
     } else {
       stats.defunct++
+      writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
+      stats.remaining--
       release()
     }
   })
 }
 
-function noteForLater(app) {
-  weirdBug.push(app)
-  const errorLogFile = fs.createWriteStream(errorLogFileName)
-  errorLogFile.write(`${weirdBug.join(" ")}`)
-  errorLogFile.close()
+function getAppFromHeader(header) {
+  return {
+    version: header.version,
+    released: header.released,
+    updated: header.updated,
+    minInstalls: header.users,
+    scoreText: header.stars,
+    reviews: header.reviews,
+    ratings: header.ratings,
+    title: header.title,
+    size: header.size,
+    developerWebsite: header.website
+  }
 }
 
 function writeResult(app, header, iconExtension, body) {
@@ -145,57 +175,34 @@ function writeResult(app, header, iconExtension, body) {
     verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
     verdict = "wip"
-  } else {
-    verdict = header.verdict
   }
   const reviewArchive = (header.reviewArchive || [])
-      .filter(it => {
-        // Remove pseudo verdicts.
-        return !"wip,fewusers,stale,obsolete".includes(it.verdict) && it.verdict != undefined
-      })
   const redirects = new Set(header.redirect_from)
-  if (header.stars != "0.0"
-      && app.scoreText == "0.0"
-      || header.reviews
-      && header.reviews > 10
-      && app.reviews < 0.9 * header.reviews) {
-    // the bogus replies only affect scoreText, reviews and ratings. Reset those.
-    app.scoreText = header.stars
-    app.reviews = header.reviews
-    app.ratings = header.ratings
-    noteForLater(header.appId)
-    stats.badReply++
-  } else {
-    stats.updated++
-  }
+  stats.updated++
   var date = header.date
+  var meta = header.meta || "ok"
   // retire if needed
-  const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-  if ( daysSinceUpdate > 720 ) {
-    if ( verdict != "obsolete" ) {
-      // mark obsolete if old and not obsoelte yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "obsolete"
-      date = new Date()
-    }
-  } else if ( daysSinceUpdate > 360 ) {
-    if ( verdict != "stale" ) {
-      // mark stale if old and not stale yet
-      helper.addReviewArchive(reviewArchive, header)
-      verdict = "stale"
-      date = new Date()
-    }
-  } else {
-    if ( verdict == "stale" || verdict == "obsolete" ) {
-      // stale/obsolete product was revived. We might have to look into it.
-      helper.addReviewArchive(reviewArchive, header)
-      if ( app.minInstalls < 1000 ) {
-        verdict = "fewusers"
-      } else {
-        verdict = "wip"
+  if (meta != "defunct") {
+    const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
+    if ( daysSinceUpdate > 720 ) {
+      if ( meta != "obsolete" ) {
+        // mark obsolete if old and not obsoelte yet
+        meta = "obsolete"
+        date = new Date()
       }
-      console.log(`\nReviving android/${header.appId} (${verdict})`)
-      date = new Date()
+    } else if ( daysSinceUpdate > 360 ) {
+      if ( meta != "stale" ) {
+        // mark stale if old and not stale yet
+        meta = "stale"
+        date = new Date()
+      }
+    } else {
+      if ( "stale,obsolete".includes(meta)) {
+        // stale/obsolete product was revived. We might have to look into it.
+        meta = "ok"
+        console.log(`\nReviving android/${header.appId} (${verdict})`)
+        date = new Date()
+      }
     }
   }
   const p = `_android/${header.appId}.md`
@@ -208,6 +215,7 @@ authors:
 ${[...authors].map((item) => `- ${item}`).join("\n")}
 users: ${app.minInstalls}
 appId: ${header.appId}
+appCountry: ${header.appCountry || ""}
 released: ${releasedString}
 updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
 version: "${ version }"
@@ -215,11 +223,12 @@ stars: ${app.scoreText || ""}
 ratings: ${app.ratings || ""}
 reviews: ${app.reviews || ""}
 size: ${app.size}
-website: ${app.website || header.website || ""}
+website: ${app.developerWebsite || header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
 icon: ${header.appId}.${iconExtension}
 bugbounty: ${header.bugbounty || ""}
+meta: ${meta}
 verdict: ${verdict}
 date: ${dateFormat(date, "yyyy-mm-dd")}
 signer: ${header.signer || ""}
@@ -229,7 +238,6 @@ ${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
   verdict: ${item.verdict}`).join("\n")}
-
 providerTwitter: ${header.providerTwitter || ""}
 providerLinkedIn: ${header.providerLinkedIn || ""}
 providerFacebook: ${header.providerFacebook || ""}
@@ -238,7 +246,6 @@ providerReddit: ${header.providerReddit || ""}
 redirect_from:
 ${[...redirects].map((item) => "  - " + item).join("\n")}
 ---
-
 
 ${body}`)
 }

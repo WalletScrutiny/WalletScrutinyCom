@@ -1,28 +1,29 @@
 ---
 wsId: Bitget
-title: "Bitget ：Crypto Trading & BitCoin Contract Platfom"
+title: "Bitget - Buy & Sell Crypto"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.bitget.exchange
+appCountry: us
 released: 2020-04-03
-updated: 2021-12-03
-version: "1.2.21"
-stars: 4.9
-ratings: 2293
-reviews: 1934
+updated: 2022-01-29
+version: "1.2.25"
+stars: 5.0
+ratings: 4083
+reviews: 436
 size: 45M
 website: https://www.bitget.com/
 repository: 
 issue: 
 icon: com.bitget.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitgetglobal
 providerLinkedIn: bitget
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-12**: This app appears to be back on Play Store
 

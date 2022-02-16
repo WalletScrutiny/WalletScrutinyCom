@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.profittrading.forbittrex
+appCountry: 
 released: 2018-06-20
 updated: 2021-04-27
 version: "12.0.13"
-stars: 4.2
-ratings: 350
-reviews: 164
+stars: 4.1
+ratings: 361
+reviews: 22
 size: 21M
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forbittrex.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 2021-09-17 Update:
 

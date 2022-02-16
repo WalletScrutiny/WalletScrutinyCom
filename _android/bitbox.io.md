@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: bitbox.io
+appCountry: 
 released: 2019-05-16
 updated: 2019-07-30
 version: "1.0.4"
-stars: 4.2
-ratings: 16
-reviews: 8
+stars: 0.0
+ratings: 
+reviews: 
 size: 5.6M
 website: 
 repository: 
 issue: 
 icon: bitbox.io.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

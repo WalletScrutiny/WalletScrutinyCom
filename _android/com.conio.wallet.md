@@ -6,23 +6,24 @@ authors:
 - leo
 users: 50000
 appId: com.conio.wallet
+appCountry: 
 released: 
 updated: 2021-11-03
 version: "3.4.0"
-stars: 3.6
-ratings: 631
-reviews: 417
+stars: 0.0
+ratings: 
+reviews: 
 size: 71M
-website: https://www.conio.com/en
+website: https://www.conio.com
 repository: 
 issue: 
 icon: com.conio.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-04-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: conio
 providerLinkedIn: conio
@@ -33,7 +34,6 @@ redirect_from:
   - /com.conio.wallet/
   - /posts/com.conio.wallet/
 ---
-
 
 This app has wonderful security claims on Google Play:
 

@@ -6,10 +6,11 @@ authors:
 
 users: 500
 appId: com.btc.lumi.bestofwallet
+appCountry: 
 released: 2021-04-06
 updated: 2021-04-06
 version: "1.8.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.8M
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.btc.lumi.bestofwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-06-16
 signer: 
 reviewArchive:
-- date: 2021-04-27
-  version: "1.8.1"
-  appHash: 
-  gitRevision: 0fcd9076800af0e458a5c75034c15ef0c6ddda58
-  verdict: fewusers
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

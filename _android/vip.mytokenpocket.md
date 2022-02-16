@@ -1,28 +1,29 @@
 ---
 wsId: TokenPocket
-title: "TokenPocket Wallet. BTC, ETH, BSC, HECO, TRON, DOT"
+title: "TokenPocket Wallet Crypto DeFi"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: vip.mytokenpocket
+appCountry: 
 released: 2018-06-29
-updated: 2021-11-08
-version: "1.3.6"
-stars: 4.1
-ratings: 10505
-reviews: 4789
-size: 36M
-website: https://www.tokenpocket.pro
+updated: 2022-01-27
+version: "1.4.0"
+stars: 4.9
+ratings: 16603
+reviews: 436
+size: 42M
+website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android
 issue: https://github.com/TP-Lab/tp-android/issues/15
 icon: vip.mytokenpocket.png
 bugbounty: 
-verdict: nosource
-date: 2021-04-13
+meta: ok
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: TokenPocket_TP
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From the description:
 
@@ -61,6 +61,6 @@ A quick look at the code though reveals several issues:
 > Only supports SWTC Blockchain for now, we will support Ethereum Blockchain and
   so on in the future.
 
-So for now we have to file it as "no source" and recommend to be careful as some
+So for now we have to file it as "obfuscated" and recommend to be careful as some
 things don't add up. At least the "open source" claim is probably false. In any
 case the app is **not verifiable** as is.

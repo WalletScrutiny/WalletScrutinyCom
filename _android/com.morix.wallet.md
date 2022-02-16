@@ -3,7 +3,7 @@ wsId:
 title: "MoriX Wallet"
 altTitle: 
 authors:
-
+- danny
 users: 50
 appId: com.morix.wallet
 released: 2020-07-15
@@ -13,18 +13,18 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 41M
-website: 
+website: https://morixjp.com/contact
 repository: 
 issue: 
 icon: com.morix.wallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-17
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: MoriXjp
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -33,4 +33,6 @@ redirect_from:
 
 ---
 
+This is the companion app to the Morix Wallet Card hardware wallet. 
 
+{% include walletLink.html wallet='hardware/morix' verdict='true' %}

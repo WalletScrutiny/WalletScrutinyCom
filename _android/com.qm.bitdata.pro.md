@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.qm.bitdata.pro
+appCountry: 
 released: 2019-05-21
-updated: 2021-11-01
-version: "3.1.7"
-stars: 4.1
-ratings: 10
-reviews: 8
+updated: 2022-01-06
+version: "3.2.1"
+stars: 0.0
+ratings: 
+reviews: 
 size: 47M
-website: 
+website: https://www.bitdata.pro
 repository: 
 issue: 
 icon: com.qm.bitdata.pro.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

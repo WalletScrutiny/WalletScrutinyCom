@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.ex.exchange808
+appCountry: 
 released: 2021-02-03
-updated: 2021-12-15
-version: "2.0.18"
-stars: 4.3
-ratings: 226
-reviews: 128
+updated: 2021-12-17
+version: "2.0.20"
+stars: 5.0
+ratings: 269
+reviews: 10
 size: 7.1M
-website: https://808exchange.net/
+website: https://808exchange.net
 repository: 
 issue: 
 icon: com.ex.exchange808.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 808TA_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

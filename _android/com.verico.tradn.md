@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.verico.tradn
+appCountry: 
 released: 2020-04-24
 updated: 2021-07-19
 version: "1.5.106"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.verico.tradn.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Once you open the app, the user is shown a letter by Wayne Huang who is the CEO of XREX.
 

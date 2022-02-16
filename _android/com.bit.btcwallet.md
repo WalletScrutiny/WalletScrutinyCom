@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.bit.btcwallet
+appCountry: 
 released: 2019-11-17
 updated: 2019-11-25
 version: "0.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bit.btcwallet.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-11-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

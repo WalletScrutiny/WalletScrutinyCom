@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: smartchain.aiqt
+appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
 version: "9.8"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: smartchain.aiqt.png
 bugbounty: 
+meta: defunct
 verdict: nowallet
-date: 2021-11-08
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not available anymore.
 
 ## App Description
 

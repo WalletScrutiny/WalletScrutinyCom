@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.multidev.forcebtc
+appCountry: 
 released: 2021-01-08
 updated: 2021-01-08
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.multidev.forcebtc.png
 bugbounty: 
+meta: defunct
 verdict: fewusers
-date: 2021-08-21
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not available anymore.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.cryptinix.app
+appCountry: us
 released: 2020-11-24
 updated: 2021-02-09
 version: "1.2.0"
-stars: 4.7
-ratings: 54
-reviews: 53
+stars: 4.6
+ratings: 62
+reviews: 9
 size: 52M
 website: https://cryptinix.com
 repository: 
 issue: 
 icon: com.cryptinix.app.png
 bugbounty: 
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2022-02-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

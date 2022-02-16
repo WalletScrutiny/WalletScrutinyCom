@@ -1,28 +1,29 @@
 ---
 wsId: imToken
-title: "imToken - Bitcoin & Ethereum Wallet"
+title: "imToken: Crypto & DeFi Wallet"
 altTitle: 
 authors:
 - leo
 users: 500000
 appId: im.token.app
+appCountry: 
 released: 2018-05-31
-updated: 2021-10-08
-version: "2.9.7"
-stars: 3.7
-ratings: 3756
-reviews: 2070
-size: 81M
+updated: 2022-01-24
+version: "2.9.10"
+stars: 4.0
+ratings: 4262
+reviews: 185
+size: 82M
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: imTokenOfficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 In the description we read:
 

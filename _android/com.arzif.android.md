@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.arzif.android
+appCountry: 
 released: 2020-10-09
-updated: 2021-10-10
-version: "1.0.0"
-stars: 4.1
-ratings: 499
-reviews: 254
-size: 11M
+updated: 2022-02-12
+version: "1.0.4"
+stars: 4.0
+ratings: 625
+reviews: 10
+size: 22M
 website: https://arzif.com/
 repository: 
 issue: 
 icon: com.arzif.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Arzifofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 

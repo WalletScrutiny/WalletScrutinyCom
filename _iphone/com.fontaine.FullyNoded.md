@@ -10,19 +10,19 @@ idd: 1436425586
 released: 2018-10-03
 updated: 2021-11-30
 version: "0.2.31"
-stars: 4.91892
-reviews: 37
+stars: 4.91667
+reviews: 36
 size: 16192512
 website: https://fullynoded.app
 repository: 
 issue: 
 icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-06-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

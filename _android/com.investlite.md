@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.investlite
+appCountry: 
 released: 2020-12-18
 updated: 2021-11-29
 version: "1.5.78-investlite"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.investlite.png
 bugbounty: 
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-18
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: invest_lite
 providerLinkedIn: 
@@ -33,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-16**: This app is not available anymore.
 
 ## App Description
 InvestLite is another Forex trading app.

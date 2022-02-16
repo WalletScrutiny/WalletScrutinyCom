@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: org.guapcoin.multiwallet
+appCountry: 
 released: 2020-02-27
 updated: 2020-02-27
 version: "1.0.0"
-stars: 4.2
-ratings: 41
-reviews: 25
+stars: 4.0
+ratings: 43
+reviews: 22
 size: 26M
-website: 
+website: https://www.guapcoin.org
 repository: 
 issue: 
 icon: org.guapcoin.multiwallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

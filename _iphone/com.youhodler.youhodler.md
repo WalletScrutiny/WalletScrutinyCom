@@ -8,21 +8,21 @@ appId: com.youhodler.youhodler
 appCountry: 
 idd: 1469351696
 released: 2019-07-25
-updated: 2021-09-01
-version: "2.20.0"
-stars: 4.81818
-reviews: 242
-size: 38839296
+updated: 2022-02-11
+version: "3.1.0"
+stars: 4.76786
+reviews: 224
+size: 43222016
 website: https://www.youhodler.com/
 repository: 
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: youhodler
 providerLinkedIn: youhodler

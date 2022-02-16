@@ -6,6 +6,7 @@ authors:
 
 users: 1000000
 appId: com.blocktrail.mywallet
+appCountry: 
 released: 2015-09-09
 updated: 2019-04-03
 version: "4.4.7"
@@ -18,15 +19,11 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: ftbfs
+date: 2021-12-29
 signer: 
 reviewArchive:
-- date: 2021-03-03
-  version: "4.4.7"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: ftbfs
 
 providerTwitter: btccom_official
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app claims:
 

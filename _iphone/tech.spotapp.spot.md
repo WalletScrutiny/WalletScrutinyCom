@@ -1,6 +1,6 @@
 ---
 wsId: SpotWalletapp
-title: "Spot wallet: Bitcoin & crypto"
+title: "Spot wallet: NFT & Bitcoin"
 altTitle: 
 authors:
 - leo
@@ -8,21 +8,21 @@ appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2021-12-20
-version: "4.5.1"
-stars: 4.63528
-reviews: 5374
-size: 145753088
+updated: 2022-01-26
+version: "4.7"
+stars: 4.63863
+reviews: 5648
+size: 141685760
 website: https://spot-bitcoin.com
 repository: 
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: spot_bitcoin
 providerLinkedIn: spot-bitcoin

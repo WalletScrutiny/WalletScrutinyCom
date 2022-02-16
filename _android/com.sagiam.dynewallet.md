@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.sagiam.dynewallet
+appCountry: 
 released: 2021-01-12
 updated: 2021-01-12
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.sagiam.dynewallet.png
 bugbounty: 
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-01-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

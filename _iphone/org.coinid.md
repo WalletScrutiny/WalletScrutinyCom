@@ -10,19 +10,19 @@ idd: 1362831898
 released: 2018-10-02
 updated: 2021-02-20
 version: "1.5.5"
-stars: 4.59999
-reviews: 10
+stars: 4.5
+reviews: 8
 size: 12750848
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
+meta: stale
 verdict: ftbfs
-date: 2021-10-01
+date: 2022-02-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.nakitcoins.wallet
+appCountry: us
 released: 2021-03-30
-updated: 2021-12-20
-version: "2.1.0"
-stars: 4.7
-ratings: 15
-reviews: 7
+updated: 2022-02-14
+version: "2.1.3"
+stars: 0.0
+ratings: 
+reviews: 
 size: 36M
-website: https://nakitcoins.com/
+website: https://www.nakitcoins.com
 repository: 
 issue: 
 icon: com.nakitcoins.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: nakitcoins
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.hqdevteam.bitcoinbxthailandpro
+appCountry: 
 released: 2017-06-30
 updated: 2017-10-22
 version: "5.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.hqdevteam.bitcoinbxthailandpro.png
 bugbounty: 
-verdict: obsolete
-date: 2021-08-17
+meta: defunct
+verdict: fewusers
+date: 2022-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,4 @@ redirect_from:
 
 ---
 
-
+**Update 2022-01-15**: This app is not on the Store anymore.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.tapngo.tap
+appCountry: gb
 released: 2019-12-19
-updated: 2021-12-06
-version: "2.2.9"
-stars: 4.6
-ratings: 1350
-reviews: 567
-size: 115M
-website: 
+updated: 2022-02-08
+version: "2.3.3"
+stars: 4.4
+ratings: 1649
+reviews: 98
+size: 90M
+website: https://tap.global
 repository: 
 issue: 
 icon: com.tapngo.tap.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 

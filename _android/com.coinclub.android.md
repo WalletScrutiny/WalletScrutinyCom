@@ -6,23 +6,24 @@ authors:
 
 users: 100000
 appId: com.coinclub.android
+appCountry: 
 released: 2018-09-21
 updated: 2019-02-20
 version: "1.6.7"
-stars: 3.6
-ratings: 5388
-reviews: 3236
+stars: 3.9
+ratings: 5389
+reviews: 57
 size: 17M
-website: 
+website: https://coinclub.global/
 repository: 
 issue: 
 icon: com.coinclub.android.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

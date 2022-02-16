@@ -1,28 +1,29 @@
 ---
 wsId: Savl
-title: "Savl Bitcoin wallet: BTC, ETH, crypto exchange"
+title: "Savl Wallet Bitcoin & Solana"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.savl
+appCountry: ru
 released: 2018-07-24
-updated: 2021-10-20
-version: "2.9.0"
-stars: 4.4
-ratings: 586
-reviews: 370
-size: 230M
-website: https://savl.com/
+updated: 2022-01-27
+version: "2.10.1"
+stars: 4.6
+ratings: 562
+reviews: 182
+size: 252M
+website: https://savl.com
 repository: 
 issue: 
 icon: com.savl.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.
 

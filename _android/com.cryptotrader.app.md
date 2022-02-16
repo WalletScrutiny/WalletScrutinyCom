@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.cryptotrader.app
+appCountry: 
 released: 2020-08-04
 updated: 2021-02-24
 version: "1.2.2"
-stars: 4.1
-ratings: 39
-reviews: 17
+stars: 0.0
+ratings: 
+reviews: 
 size: 61M
 website: 
 repository: 
 issue: 
 icon: com.cryptotrader.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app does not have a listed website or social media accounts. It is similar to the following:
 

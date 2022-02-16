@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: co.tippin.android.wallet
+appCountry: 
 released: 
 updated: 2019-10-22
 version: "Varies with device"
@@ -18,10 +19,12 @@ repository:
 issue: 
 icon: co.tippin.android.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-15
 signer: 
 reviewArchive:
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -30,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.application.bitcoiva
+appCountry: 
 released: 2020-11-02
 updated: 2021-09-15
 version: "1.20"
-stars: 3.2
-ratings: 377
-reviews: 187
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.0M
 website: https://bitcoiva.com
 repository: 
 issue: 
 icon: com.application.bitcoiva.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoiva
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Buy, store and sell cryptocurrencies like Bitcoin, Ethereum,
 

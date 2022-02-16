@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.app.tradecrypto
+appCountry: 
 released: 2021-06-26
 updated: 2021-08-03
 version: "1.0.6"
-stars: 3.6
-ratings: 11
-reviews: 10
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.5M
-website: 
+website: http://www.tradecrypto.asia
 repository: 
 issue: 
 icon: com.app.tradecrypto.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

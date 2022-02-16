@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.amarkets
+appCountry: us
 released: 2019-05-31
-updated: 2021-12-17
+updated: 2022-02-10
 version: "Varies with device"
-stars: 4.7
-ratings: 969
-reviews: 291
+stars: 4.5
+ratings: 2286
+reviews: 21
 size: Varies with device
-website: https://www.amarkets.com/
+website: https://www.amarkets.com
 repository: 
 issue: 
 icon: com.amarkets.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: amarkets
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

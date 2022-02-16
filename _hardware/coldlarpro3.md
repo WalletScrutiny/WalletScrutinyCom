@@ -20,6 +20,7 @@ repository:
 issue:
 icon: coldlarpro3.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-11-26
 signer:

@@ -8,21 +8,21 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2021-12-11
-version: "45.0"
-stars: 4.81888
-reviews: 5113
-size: 46096384
+updated: 2022-02-10
+version: "57.0"
+stars: 4.81464
+reviews: 6544
+size: 45561856
 website: https://beta.strike.me/
 repository: 
 issue: 
 icon: com.jackmallers.Strike.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: ln_strike
 providerLinkedIn: 

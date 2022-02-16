@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.techbank_dwallet
+appCountry: in
 released: 2020-10-09
-updated: 2021-11-05
-version: "1.2"
-stars: 4.5
-ratings: 56
-reviews: 14
-size: 72M
+updated: 2022-01-28
+version: "1.3.1"
+stars: 4.8
+ratings: 58
+reviews: 9
+size: 73M
 website: https://techbank.finance/
 repository: 
 issue: 
 icon: com.techbank_dwallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

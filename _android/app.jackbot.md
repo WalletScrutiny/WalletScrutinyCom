@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: app.jackbot
+appCountry: 
 released: 2021-01-05
-updated: 2021-11-24
-version: "4.0.0"
-stars: 3.8
-ratings: 20
-reviews: 18
-size: 20M
-website: https://jackbot.app/
+updated: 2022-02-08
+version: "4.2.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 43M
+website: https://jackbot.app
 repository: 
 issue: 
 icon: app.jackbot.jpg
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

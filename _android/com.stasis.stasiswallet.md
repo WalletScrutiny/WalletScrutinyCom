@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.stasis.stasiswallet
+appCountry: 
 released: 2018-06-13
-updated: 2021-09-20
-version: "1.9.24"
-stars: 4.4
-ratings: 163
-reviews: 97
-size: 18M
-website: https://stasis.net/wallet
+updated: 2022-01-18
+version: "1.9.39"
+stars: 3.7
+ratings: 168
+reviews: 5
+size: 42M
+website: https://stasis.net
 repository: https://github.com/stasisnet
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: stasisnet
 providerLinkedIn: stasisnet
@@ -33,7 +34,6 @@ redirect_from:
   - /com.stasis.stasiswallet/
   - /posts/com.stasis.stasiswallet/
 ---
-
 
 On Google Play and their website there is no mention of being non-custodial and
 certainly there is no source code available. Until we hear opposing claims

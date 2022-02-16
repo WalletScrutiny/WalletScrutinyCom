@@ -6,18 +6,20 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.bitcoin.wallet
+appCountry: 
 released: 2021-01-19
 updated: 2021-09-24
 version: "1.0.3.8"
-stars: 4.3
-ratings: 716
-reviews: 144
+stars: 4.2
+ratings: 727
+reviews: 56
 size: 28M
 website: https://adslab-2b1c2.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
+meta: ok
 verdict: fake
 date: 2021-07-26
 signer: 
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
-
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +37,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-07-26**: The provider features several apps that either through
 their logo or the name try to resemble trusted wallets like

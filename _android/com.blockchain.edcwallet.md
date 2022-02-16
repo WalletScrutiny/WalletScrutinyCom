@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.blockchain.edcwallet
+appCountry: ua
 released: 2020-03-13
 updated: 2021-02-10
 version: "0.82"
-stars: 3.6
-ratings: 228
-reviews: 150
+stars: 0.0
+ratings: 
+reviews: 
 size: 22M
-website: https://blockchain.mn/
+website: https://blockchain.mn
 repository: 
 issue: 
 icon: com.blockchain.edcwallet.png
 bugbounty: 
+meta: stale
 verdict: nobtc
-date: 2021-10-04
+date: 2022-02-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: EDCBlockchain
 providerLinkedIn: edcblockchain
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### App Description
 

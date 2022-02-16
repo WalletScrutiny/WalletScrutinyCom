@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
+appCountry: ru
 released: 2018-05-17
-updated: 2021-12-16
-version: "3.1.998"
-stars: 4.5
-ratings: 558
-reviews: 233
-size: 62M
-website: https://exscudo.com
+updated: 2022-02-01
+version: "3.2.1059"
+stars: 4.8
+ratings: 646
+reviews: 22
+size: 58M
+website: https://fintap.app
 repository: 
 issue: 
 icon: com.exscudo.channels.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: ex_scudo
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: EXSCUDO
 redirect_from:
 
 ---
-
 
 The Play Store description states...
 

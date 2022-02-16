@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000000
 appId: exodusmovement.exodus
+appCountry: 
 released: 2019-06-06
-updated: 2021-12-16
-version: "21.12.16"
-stars: 4.6
-ratings: 74199
-reviews: 22796
-size: 50M
-website: https://www.exodus.io/mobile
+updated: 2022-02-11
+version: "22.2.10"
+stars: 4.5
+ratings: 81082
+reviews: 5640
+size: 52M
+website: https://exodus.com/mobile
 repository: https://github.com/exodusmovement
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: exodus_io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app certainly sounds like it is non-custodial:
 

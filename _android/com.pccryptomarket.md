@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.pccryptomarket
+appCountry: 
 released: 2019-08-18
 updated: 2019-08-31
 version: "1.2"
-stars: 3.4
-ratings: 27
-reviews: 20
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.6M
-website: 
+website: https://www.pccryptomarket.com
 repository: 
 issue: 
 icon: com.pccryptomarket.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

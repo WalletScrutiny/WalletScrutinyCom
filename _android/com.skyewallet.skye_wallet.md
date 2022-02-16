@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.skyewallet.skye_wallet
+appCountry: us
 released: 2021-05-01
 updated: 2021-11-03
 version: "2.9.4"
-stars: 3.9
-ratings: 67
-reviews: 57
+stars: 5.0
+ratings: 210
+reviews: 7
 size: 27M
-website: https://skyewallet.com/
+website: https://skyewallet.com
 repository: 
 issue: 
 icon: com.skyewallet.skye_wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: skyewallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 > Skye Wallet is the simplest and most secure way to Buy, Sell, Swap, Send and Receive Bitcoin and Cryptocurrency in Nigeria.<br>

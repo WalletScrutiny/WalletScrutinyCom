@@ -3,10 +3,10 @@ wsId:
 title: "Bitexen - Trade Bitcoin and Altcoin"
 altTitle: 
 authors:
- - danny
-
+- danny
 users: 500000
 appId: com.bitexen.exchange
+appCountry: 
 released: 2018-05-27
 updated: 2021-07-29
 version: "0.42"
@@ -19,11 +19,11 @@ repository:
 issue: 
 icon: com.bitexen.exchange.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitexencom
 providerLinkedIn: bitexen
@@ -33,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:
 
 > Error 1020 Ray ID: 6811f4a55cdcf156 • 2021-08-19 08:19:12 UTC<br>

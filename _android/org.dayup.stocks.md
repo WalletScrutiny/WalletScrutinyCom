@@ -7,23 +7,24 @@ authors:
 - leo
 users: 10000000
 appId: org.dayup.stocks
+appCountry: 
 released: 
-updated: 2021-12-17
-version: "7.3.6.45"
-stars: 4.5
-ratings: 156583
-reviews: 46516
+updated: 2022-01-20
+version: "7.4.3.24"
+stars: 4.4
+ratings: 164756
+reviews: 34140
 size: 57M
-website: https://www.webull.com/
+website: https://www.webull.com
 repository: 
 issue: 
 icon: org.dayup.stocks.png
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: WebullGlobal
 providerLinkedIn: webullfinancialllc
@@ -33,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 

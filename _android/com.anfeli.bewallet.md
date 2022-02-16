@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.anfeli.bewallet
+appCountry: 
 released: 2018-11-05
 updated: 2019-05-28
 version: "1.2.24"
-stars: 3.6
-ratings: 86
-reviews: 52
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.0M
-website: 
+website: http://www.anfeli.com
 repository: 
 issue: 
 icon: com.anfeli.bewallet.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

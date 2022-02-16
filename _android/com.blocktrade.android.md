@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.blocktrade.android
+appCountry: us
 released: 2018-10-28
-updated: 2021-11-25
-version: "1.5.2"
-stars: 4.2
-ratings: 169
-reviews: 74
-size: 11M
-website: https://blocktrade.com/
+updated: 2022-02-14
+version: "1.6.1"
+stars: 2.9
+ratings: 182
+reviews: 8
+size: 13M
+website: http://blocktrade.com
 repository: 
 issue: 
 icon: com.blocktrade.android.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: Blocktradecom
 providerLinkedIn: blocktradecom
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

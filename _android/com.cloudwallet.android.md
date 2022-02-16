@@ -6,23 +6,24 @@ authors:
 
 users: 100000
 appId: com.cloudwallet.android
+appCountry: 
 released: 2019-05-11
 updated: 2020-01-22
 version: "2.0.16"
-stars: 1.5
-ratings: 3990
-reviews: 2322
+stars: 2.2
+ratings: 4005
+reviews: 175
 size: 31M
-website: 
+website: https://cloudtokenwallet.com/
 repository: 
 issue: 
 icon: com.cloudwallet.android.png
 bugbounty: 
-verdict: stale
-date: 2021-10-18
+meta: obsolete
+verdict: wip
+date: 2022-01-14
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

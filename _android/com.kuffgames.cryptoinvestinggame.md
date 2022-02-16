@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.kuffgames.cryptoinvestinggame
+appCountry: 
 released: 2021-07-08
 updated: 2021-07-31
 version: "1.1"
-stars: 4.8
-ratings: 17
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: 28M
-website: 
+website: https://www.kuffstudios.com
 repository: 
 issue: 
 icon: com.kuffgames.cryptoinvestinggame.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

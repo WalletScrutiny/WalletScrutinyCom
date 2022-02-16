@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: eu.exante.client
+appCountry: am
 released: 2014-04-25
-updated: 2021-11-24
-version: "4.16.5"
+updated: 2022-02-15
+version: "4.20.0"
 stars: 4.0
-ratings: 210
-reviews: 120
-size: 22M
-website: https://exante.eu/
+ratings: 215
+reviews: 124
+size: 24M
+website: http://exante.eu
 repository: 
 issue: 
 icon: eu.exante.client.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: EXANTE_EU
 providerLinkedIn: exante-ltd
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

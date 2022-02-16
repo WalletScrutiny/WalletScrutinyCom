@@ -6,23 +6,24 @@ authors:
 - leo
 users: 10000
 appId: co.hold.mobile
+appCountry: de
 released: 2018-09-27
-updated: 2021-07-06
-version: "3.13.3"
+updated: 2022-01-13
+version: "3.15.0"
 stars: 4.1
-ratings: 176
-reviews: 103
+ratings: 200
+reviews: 8
 size: Varies with device
 website: https://hold.io
 repository: 
 issue: 
 icon: co.hold.mobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: HoldHQ
 providerLinkedIn: holdhq
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > SAFETY FIRST<br>
   Regulated and licensed in the EU. Your money is securely held by banks within

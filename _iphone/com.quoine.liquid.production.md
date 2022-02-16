@@ -8,21 +8,21 @@ appId: com.quoine.liquid.production
 appCountry: us
 idd: 1443975079
 released: 2019-05-03
-updated: 2021-12-13
-version: "1.17.5"
-stars: 4.21429
-reviews: 28
-size: 112507904
+updated: 2022-01-30
+version: "1.17.8"
+stars: 3.90323
+reviews: 31
+size: 113310720
 website: https://www.liquid.com
 repository: 
 issue: 
 icon: com.quoine.liquid.production.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: Liquid_Global
 providerLinkedIn: quoine

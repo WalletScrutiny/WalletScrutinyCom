@@ -6,20 +6,22 @@ authors:
 - leo
 users: 100000
 appId: com.cryptonator.android
+appCountry: 
 released: 2018-11-01
-updated: 2021-01-22
-version: "4.0"
-stars: 2.6
-ratings: 5194
-reviews: 3117
-size: 8.7M
+updated: 2022-01-30
+version: "4.2"
+stars: 3.3
+ratings: 5262
+reviews: 138
+size: 9.0M
 website: https://www.cryptonator.com
 repository: 
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
-date: 2021-05-25
+date: 2022-01-31
 signer: 
 reviewArchive:
 - date: 2019-11-12
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
-
 providerTwitter: cryptonatorcom
 providerLinkedIn: 
 providerFacebook: 
@@ -36,7 +37,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Cryptonator cryptocurrency wallet
 makes no claim to be non-custodial but the

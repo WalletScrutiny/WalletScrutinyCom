@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000
 appId: org.coinid.vault
+appCountry: 
 released: 2018-10-14
 updated: 2021-02-20
 version: "1.5.5"
-stars: 3.9
-ratings: 14
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 34M
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
+meta: stale
 verdict: ftbfs
-date: 2020-04-06
+date: 2022-02-16
 signer: 
 reviewArchive:
-
 
 providerTwitter: COINiDGroup
 providerLinkedIn: 
@@ -34,9 +35,8 @@ redirect_from:
   - /posts/org.coinid.vault/
 ---
 
-
 This app is the companion app for the
-[Bitcoin Wallet for COINiD](/org.coinid.wallet.btc/)
+{% include walletLink.html wallet='android/org.coinid.wallet.btc' verdict='true' %}
 and allows a setup with this being the actual wallet that holds the private keys
 without ever being online and the other app being the wallet interface that
 knows balance and receiving addresses but that can't send coins without this
@@ -64,7 +64,7 @@ In fact, this is their complete
   export const p2pCommonSecret = '';
   export const encryptPrivateSalt = '';
   export const pinSecret = '';
-```
+  ```
 
 So the app is not only lacking build instructions but also parts of the source
 code (secrets.js). As such a `secrets.js` can't be kept very secret when

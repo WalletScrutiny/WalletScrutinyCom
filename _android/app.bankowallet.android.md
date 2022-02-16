@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: app.bankowallet.android
+appCountry: 
 released: 2019-07-22
 updated: 2020-06-29
 version: "1.3.17851"
-stars: 1.9
-ratings: 18
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 22M
-website: 
+website: http://www.bankowallet.com
 repository: 
 issue: 
 icon: app.bankowallet.android.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -4,25 +4,26 @@ title: "Cryptology: Blockchain Wallet"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cryptology.android
+appCountry: gb
 released: 2018-03-23
-updated: 2021-12-17
-version: "3.5.0"
-stars: 4
-ratings: 197
-reviews: 114
+updated: 2022-02-11
+version: "3.8.0"
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
 website: https://cryptology.com/
 repository: 
 issue: 
 icon: com.cryptology.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cryptologyexch
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

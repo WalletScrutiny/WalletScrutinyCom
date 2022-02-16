@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: jp.paddle_inc.bitstock
+appCountry: jp
 released: 2019-09-03
 updated: 2021-12-13
 version: "1.4.23"
-stars: 3.6
-ratings: 2647
-reviews: 1013
+stars: 3.4
+ratings: 2976
+reviews: 1101
 size: 28M
-website: https://bitstart.jp/
+website: https://www.paddle-inc.jp/
 repository: 
 issue: 
 icon: jp.paddle_inc.bitstock.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## New Review 2021-10-28
 

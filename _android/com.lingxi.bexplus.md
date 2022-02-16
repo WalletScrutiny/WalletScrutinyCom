@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.lingxi.bexplus
+appCountry: 
 released: 2018-10-29
 updated: 2021-10-19
 version: "2.1.5"
 stars: 5.0
-ratings: 6518
-reviews: 2025
+ratings: 6808
+reviews: 1638
 size: 12M
-website: https://www.bexplus.com
+website: http://www.bexplus.com
 repository: 
 issue: 
 icon: com.lingxi.bexplus.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: BexplusExchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: Bexplus
 redirect_from:
 
 ---
-
 
 The Bexplus website states under the mobile wallet section "Assets Security"
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.jeton.wallet
+appCountry: us
 released: 2018-12-27
-updated: 2021-11-23
-version: "3.3.2"
-stars: 3.4
-ratings: 2768
-reviews: 1621
+updated: 2022-01-19
+version: "3.3.3"
+stars: 2.6
+ratings: 3201
+reviews: 8
 size: 75M
 website: https://jeton.com/
 repository: 
 issue: 
 icon: com.jeton.wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: jetonwallet
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.
 

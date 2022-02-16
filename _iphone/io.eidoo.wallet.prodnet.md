@@ -10,19 +10,19 @@ idd: 1279896253
 released: 2017-09-23
 updated: 2021-11-08
 version: "3.6.3"
-stars: 3.70667
-reviews: 75
+stars: 3.64103
+reviews: 78
 size: 42298368
 website: https://eidoo.io
 repository: 
 issue: 
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: eidoo_io
 providerLinkedIn: eidoo

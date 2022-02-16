@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.tempow.legatow
+appCountry: 
 released: 2018-07-04
 updated: 2019-01-30
 version: "1.0.3"
-stars: 5
-ratings: 346
-reviews: 210
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.5M
-website: 
+website: https://www.legatow.com
 repository: 
 issue: 
 icon: com.tempow.legatow.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

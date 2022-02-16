@@ -9,21 +9,21 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2021-11-22
-version: "2.0.5"
-stars: 4.42432
-reviews: 773
-size: 170476544
+updated: 2022-02-10
+version: "2.0.8"
+stars: 4.21596
+reviews: 639
+size: 172252160
 website: https://phemex.com/
 repository: 
 issue: 
 icon: com.phemex.submit.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: phemex_official
 providerLinkedIn: phemex

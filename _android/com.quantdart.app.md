@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.quantdart.app
+appCountry: us
 released: 2020-09-16
-updated: 2021-12-07
-version: "1.1.24"
-stars: 3.6
-ratings: 21
-reviews: 9
+updated: 2022-01-27
+version: "1.1.25"
+stars: 0.0
+ratings: 
+reviews: 
 size: 94M
 website: https://www.quantdart.com/
 repository: 
 issue: 
 icon: com.quantdart.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: QuantDART
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

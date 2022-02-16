@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.bitcoinindia.Btciapp
+appCountry: 
 released: 2018-06-11
 updated: 2021-07-29
 version: "3.1.45"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.bitcoinindia.Btciapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-09-25
 signer: 
 reviewArchive:
-- date: 2021-05-31
-  version: "3.1.45"
-  appHash: 
-  gitRevision: c2b7e6ea1285fe1fd56f20b3500a82dec0c7a06d
-  verdict: custodial
-  
 
 providerTwitter: BTC_india
 providerLinkedIn: bitcoin-india
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.bitcoinindia.Btciapp/
 ---
-
 
 **Update 2021-09-17**: This app is no more.
 

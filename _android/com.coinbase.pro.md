@@ -1,28 +1,29 @@
 ---
 wsId: coinbasepro
-title: "Coinbase Pro: Trade Bitcoin, Ethereum, SHIB"
+title: "Coinbase Pro: Trade BTC, ETH"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
+appCountry: 
 released: 2020-01-06
-updated: 2021-11-24
-version: "1.0.84"
-stars: 3.9
-ratings: 20505
-reviews: 5883
+updated: 2022-02-14
+version: "1.0.91"
+stars: 3.0
+ratings: 21688
+reviews: 4021
 size: 57M
-website: https://pro.coinbase.com
+website: http://pro.coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinbasePro
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.coinbase.pro/
   - /posts/com.coinbase.pro/
 ---
-
 
 This is the interface for a trading platform aka exchange. The funds are stored
 with the provider. As a custodial service it is **not verifiable**.

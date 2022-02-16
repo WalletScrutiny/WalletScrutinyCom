@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "PAI - Comercio P2P - Exchange: Bitcoin, Tron y más"
+title: "PAI - Bitcoin, Tron, Eth y más"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: app.pagosalinstante.com
+appCountry: 
 released: 2019-02-03
-updated: 2021-10-08
-version: "1.07.56"
-stars: 3.2
-ratings: 923
-reviews: 633
+updated: 2021-12-31
+version: "1.07.68"
+stars: 4.8
+ratings: 933
+reviews: 38
 size: 5.7M
-website: https://pagosalinstante.com/
+website: https://pagosalinstante.com
 repository: 
 issue: 
 icon: app.pagosalinstante.com.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: paiexchange
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 
 

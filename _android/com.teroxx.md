@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.teroxx
+appCountry: us
 released: 2019-08-26
-updated: 2021-12-16
-version: "3.0.8"
-stars: 4.2
-ratings: 70
-reviews: 37
-size: 83M
+updated: 2022-01-12
+version: "3.0.9"
+stars: 0.0
+ratings: 
+reviews: 
+size: 81M
 website: https://teroxxapp.com/
 repository: 
 issue: 
 icon: com.teroxx.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

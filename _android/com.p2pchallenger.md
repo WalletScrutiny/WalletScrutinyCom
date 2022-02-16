@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.p2pchallenger
+appCountry: 
 released: 2021-04-16
 updated: 2021-05-24
 version: "1.0.8"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.p2pchallenger.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: cryptocurrency.bitcoin.altcoin.tracker
+appCountry: 
 released: 2018-10-30
 updated: 2019-10-20
 version: "1.6"
-stars: 4.4
-ratings: 8
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 6.1M
-website: 
+website: https://cryptocurrencydevs.wordpress.com/
 repository: 
 issue: 
 icon: cryptocurrency.bitcoin.altcoin.tracker.jpg
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: wip
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

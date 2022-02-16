@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.dino.wallet
+appCountry: 
 released: 2021-05-30
 updated: 2021-08-28
 version: "1.26"
 stars: 4.9
-ratings: 1584
-reviews: 1134
+ratings: 1592
+reviews: 47
 size: 34M
-website: https://www.dinowallet.com/
+website: https://dinowallet.com
 repository: 
 issue: 
 icon: com.dino.wallet.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

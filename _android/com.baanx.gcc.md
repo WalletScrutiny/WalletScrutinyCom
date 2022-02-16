@@ -6,23 +6,24 @@ authors:
 
 users: 1000
 appId: com.baanx.gcc
+appCountry: 
 released: 2020-06-14
 updated: 2020-09-17
 version: "1.2.0"
-stars: 3.3
-ratings: 6
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 6.5M
-website: 
+website: https://www.gccglobalplatform.com
 repository: 
 issue: 
 icon: com.baanx.gcc.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

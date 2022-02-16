@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: io.level01.android
+appCountry: 
 released: 2020-10-09
 updated: 2021-12-16
 version: "0.2.3.3"
-stars: 4.7
-ratings: 135
-reviews: 61
+stars: 3.5
+ratings: 136
+reviews: 7
 size: 18M
-website: https://level01.io/
+website: https://level01.io
 repository: 
 issue: 
 icon: io.level01.android.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: level01io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

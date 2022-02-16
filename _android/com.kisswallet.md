@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.kisswallet
+appCountry: 
 released: 2020-02-16
 updated: 2020-05-30
 version: "0.3.6"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: Varies with device
-website: https://moonshinewallet.com
+website: https://www.moonshinewallet.com
 repository: https://github.com/coreyphillips/moonshine
 issue: 
 icon: com.kisswallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: coreylphillips
 providerLinkedIn: 
@@ -34,7 +35,6 @@ redirect_from:
   - /moonshine/
   - /posts/com.kisswallet/
 ---
-
 
 This page was created by a script from the **appId** "com.kisswallet" and public
 information found

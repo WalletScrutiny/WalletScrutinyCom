@@ -6,23 +6,24 @@ authors:
 
 users: 500
 appId: com.sonicex
+appCountry: 
 released: 2019-08-05
 updated: 2020-04-15
 version: "1.6"
-stars: 3.7
-ratings: 6
-reviews: 3
+stars: 0.0
+ratings: 
+reviews: 
 size: 11M
-website: 
+website: https://www.sonicex.com/welcome
 repository: 
 issue: 
 icon: com.sonicex.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

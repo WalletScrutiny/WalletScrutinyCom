@@ -5,25 +5,26 @@ altTitle:
 authors:
 - leo
 - danny
-users: 10000
+users: 50000
 appId: com.blockchain.explorer
+appCountry: 
 released: 2019-12-30
-updated: 2021-11-28
-version: "1.2.0.4"
-stars: 4.4
-ratings: 381
-reviews: 93
-size: 24M
-website: 
+updated: 2022-01-07
+version: "1.2.0.5"
+stars: 4.6
+ratings: 407
+reviews: 22
+size: 25M
+website: https://adslab-2b1c2.web.app
 repository: 
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-11-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Updated Review 2021-10-29
 

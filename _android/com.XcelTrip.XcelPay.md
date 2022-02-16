@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: com.XcelTrip.XcelPay
+appCountry: 
 released: 2019-05-30
-updated: 2021-10-23
-version: "2.51.10"
-stars: 4
-ratings: 3513
-reviews: 1770
-size: 33M
+updated: 2022-02-15
+version: "2.62.0"
+stars: 4.6
+ratings: 3706
+reviews: 70
+size: 34M
 website: http://www.xcelpay.io
 repository: 
 issue: 
 icon: com.XcelTrip.XcelPay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: XcelPayWallet
 providerLinkedIn: in/xcelpaywallet
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This wallet has no claim of being non-custodial in the app's description.
 

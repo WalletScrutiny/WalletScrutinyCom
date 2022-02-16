@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.binarium.binariummobile
+appCountry: 
 released: 2019-09-16
 updated: 2021-09-06
 version: "1.0.0.7"
-stars: 3.2
-ratings: 2461
-reviews: 1906
+stars: 2.4
+ratings: 2700
+reviews: 6
 size: 7.0M
-website: http://binarium.com/
+website: http://binarium.com
 repository: 
 issue: 
 icon: com.binarium.binariummobile.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Binarium is a mobile trading app where the user tries to predict
 the movement of an asset and earn if the prediction is correct.

@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.top1.group.international.android
+appCountry: 
 released: 2019-07-10
 updated: 2020-08-03
 version: "3.9.0"
-stars: 4.7
-ratings: 663
-reviews: 219
+stars: 0.0
+ratings: 
+reviews: 
 size: 36M
-website: 
+website: https://www.top1groups.com/
 repository: 
 issue: 
 icon: com.top1.group.international.android.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-10-05
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

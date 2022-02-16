@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
+appCountry: 
 released: 2021-04-29
 updated: 2021-10-16
 version: "1.3"
-stars: 4.6
-ratings: 160
-reviews: 109
+stars: 4.3
+ratings: 274
+reviews: 19
 size: 5.3M
-website: 
+website: https://rolltuk.blogspot.com/
 repository: 
 issue: 
 icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## Google Play App Description
 

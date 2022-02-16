@@ -6,27 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.secrypto
+appCountry: 
 released: 2018-06-18
 updated: 2019-02-26
 version: "1.28"
-stars: 2.8
-ratings: 957
-reviews: 652
+stars: 4.4
+ratings: 956
+reviews: 21
 size: 50M
-website: https://www.secrypto.io
+website: https://www.secrypto.io/
 repository: 
 issue: 
 icon: com.secrypto.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2021-04-21
-  version: "1.28"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 We do not have to look far to find the wallet claims to be non-custodial.
 

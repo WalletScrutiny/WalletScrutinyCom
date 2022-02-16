@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: io.infipay.android
+appCountry: in
 released: 2020-10-28
 updated: 2021-04-08
 version: "1.1.2"
-stars: 4.1
+stars: 4.2
 ratings: 50
-reviews: 30
+reviews: 1
 size: 49M
-website: https://www.infipay.io/
+website: http://www.infipay.io/
 repository: 
 issue: 
 icon: io.infipay.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

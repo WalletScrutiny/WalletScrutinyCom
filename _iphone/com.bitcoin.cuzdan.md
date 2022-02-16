@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.bitcoin.cuzdan.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-07-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

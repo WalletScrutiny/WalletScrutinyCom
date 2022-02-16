@@ -1,5 +1,5 @@
 ---
-title: "Keystone"
+title: "Keystone Essential"
 appId: cobovaultessential
 authors:
 - kiwilamb
@@ -21,8 +21,9 @@ repository: https://github.com/KeystoneHQ/Keystone-cold-app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: cobovaultessential.png
 bugbounty:
+meta: ok
 verdict: nosource
-date: 2021-12-08
+date: 2022-02-17
 signer:
 reviewArchive:
 
@@ -33,7 +34,7 @@ providerFacebook:
 providerReddit: 
 ---
 
-**Note:** Cobovault has been renamed to Keystone, previously product were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
+**Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
 
 This hardware wallet has a companion app: {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}
 

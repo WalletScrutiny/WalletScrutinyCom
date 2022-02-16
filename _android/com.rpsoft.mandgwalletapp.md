@@ -6,23 +6,24 @@ authors:
 
 users: 10
 appId: com.rpsoft.mandgwalletapp
+appCountry: 
 released: 2021-03-29
 updated: 2021-03-29
 version: "1.0"
-stars: 5.0
-ratings: 14
-reviews: 12
+stars: 0.0
+ratings: 
+reviews: 
 size: 17M
 website: 
 repository: 
 issue: 
 icon: com.rpsoft.mandgwalletapp.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

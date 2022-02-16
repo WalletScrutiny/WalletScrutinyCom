@@ -10,19 +10,19 @@ idd: 1524974223
 released: 2020-09-21
 updated: 2020-09-24
 version: "5.4.4"
-stars: 2.66667
-reviews: 105
+stars: 2.71053
+reviews: 114
 size: 121089024
 website: https://cryptobrowser.site/
 repository: 
 issue: 
 icon: pro.cryptobrowser.ios.jpg
 bugbounty: 
-verdict: stale
-date: 2021-10-26
+meta: stale
+verdict: nowallet
+date: 2022-01-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

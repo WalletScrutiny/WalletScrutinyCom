@@ -20,6 +20,7 @@ repository: https://github.com/skycoinproject
 issue:
 icon: skywallet.png
 bugbounty:
+meta: ok
 verdict: nobtc
 date: 2021-12-10
 signer:

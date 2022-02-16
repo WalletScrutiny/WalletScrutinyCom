@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.aos.wallet.token
+appCountry: 
 released: 2019-11-07
 updated: 2020-08-07
 version: "2.0.22"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.aos.wallet.token.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: defunct
+verdict: nosource
+date: 2022-01-15
 signer: 
 reviewArchive:
-- date: 2021-05-01
-  version: "2.0.22"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,6 +34,7 @@ redirect_from:
 
 ---
 
+**Update 2022-01-15**: This app is not on the Store anymore.
 
 A clear statement can be found in the [play store description](https://play.google.com/store/apps/details?id=com.aos.wallet.token) regarding the management of private keys.
 
@@ -51,3 +49,4 @@ I would be cautious of this wallet, there seem to be anumber of warning signs
 3. The play store reviews are suspisious, 300+ reviews all 5 star and on the same date!
 
 Our verdict: This 'wallet' claims to be non-custodial, however with no source code found this wallet is **not verifiable**.
+

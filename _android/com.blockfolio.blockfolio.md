@@ -1,23 +1,25 @@
 ---
 wsId: blockfolio
-title: "FTX – Trade BTC, ETH, SHIB"
+title: "FTX Crypto Exchange"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.blockfolio.blockfolio
+appCountry: us
 released: 2015-10-01
-updated: 2021-12-14
-version: "4.2.5"
-stars: 4.1
-ratings: 158520
-reviews: 48579
+updated: 2022-02-10
+version: "4.2.10"
+stars: 3.9
+ratings: 164019
+reviews: 10692
 size: 64M
 website: https://www.blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
@@ -27,7 +29,6 @@ reviewArchive:
   appHash: 
   gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
   verdict: nowallet
-
 providerTwitter: Blockfolio
 providerLinkedIn: 
 providerFacebook: Blockfolio
@@ -39,7 +40,6 @@ redirect_from:
   - /posts/2019/11/blockfolio/
   - /posts/com.blockfolio.blockfolio/
 ---
-
 
 **Update 2021-08-09**: By now this app clearly sounds like an exchange that lets
 you buy, hold, send and receive BTC but as an exchange it's certainly custodial

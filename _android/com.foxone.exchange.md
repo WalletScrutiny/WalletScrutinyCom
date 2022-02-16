@@ -6,10 +6,11 @@ authors:
 
 users: 50
 appId: com.foxone.exchange
+appCountry: 
 released: 2019-03-18
 updated: 2019-05-20
 version: "1.6.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.4M
@@ -18,10 +19,12 @@ repository:
 issue: 
 icon: com.foxone.exchange.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-15
 signer: 
 reviewArchive:
+
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -30,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-07**: This app is not on Play Store anymore.
 

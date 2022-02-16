@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.liquiditynetwork.wallet
+appCountry: 
 released: 2018-06-07
 updated: 2020-07-16
 version: "1.27.2"
-stars: 4.1
-ratings: 56
-reviews: 27
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.1M
-website: 
+website: https://liquidity.network
 repository: 
 issue: 
 icon: com.liquiditynetwork.wallet.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

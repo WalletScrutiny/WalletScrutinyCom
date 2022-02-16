@@ -6,27 +6,24 @@ authors:
 - leo
 users: 10000
 appId: com.mk.cryptofolio
+appCountry: 
 released: 2018-05-02
 updated: 2020-08-19
 version: "1.0.51"
-stars: 4.3
-ratings: 25
-reviews: 13
+stars: 0.0
+ratings: 
+reviews: 
 size: 8.0M
 website: http://www.thecryptofolioapp.com
 repository: 
 issue: 
 icon: com.mk.cryptofolio.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-06-20
-  version: "1.0.51"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ redirect_from:
   - /com.mk.cryptofolio/
   - /posts/com.mk.cryptofolio/
 ---
-
 
 This app is an interface for multiple exchanges:
 

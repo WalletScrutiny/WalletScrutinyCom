@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: io.hotbit.shouyi.flavor.kr
+appCountry: cn
 released: 2020-07-07
-updated: 2021-12-02
-version: "1.0.65"
-stars: 3.2
-ratings: 535
-reviews: 220
-size: 7.2M
+updated: 2022-01-26
+version: "1.0.69"
+stars: 3.4
+ratings: 583
+reviews: 232
+size: 7.3M
 website: https://www.bitclover.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: hotbit_korea
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Updated September 17, 2021**
 Hotbit has successfully transitioned from hotbit into bitclover. [Details here](https://bitclover.zendesk.com/hc/en-us/articles/4406561078553-Rebranding-from-Hotbit-Korea-to-BITCLOVER).

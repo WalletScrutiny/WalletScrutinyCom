@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.coinbit.global.android.exchange
+appCountry: 
 released: 2019-08-12
 updated: 2021-05-11
 version: "2.4.03"
-stars: 3.1
-ratings: 303
-reviews: 216
+stars: 0.0
+ratings: 
+reviews: 
 size: 49M
 website: https://www.coinbit.co.kr/
 repository: 
 issue: 
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This is a Korea based centralized cryptocurrency exchange
 

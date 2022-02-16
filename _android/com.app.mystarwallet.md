@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.mystarwallet
+appCountry: 
 released: 2020-05-12
 updated: 2021-06-10
 version: "1.47"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.app.mystarwallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,7 @@ providerReddit:
 redirect_from:
 
 ---
+
 The app has no listed website. It describes itself as an app that has a Bitcoin, Ethereum as well as ERC-20 wallets. 
 
 From its Google Play description:

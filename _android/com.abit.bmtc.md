@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.abit.bmtc
+appCountry: ae
 released: 2020-03-03
 updated: 2021-04-25
 version: "2.3.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.abit.bmtc.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: abitofficial
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The service announced its shutdown on October 4, 2021 via [twitter](https://twitter.com/abitofficial/status/1445005276071952384). 
 

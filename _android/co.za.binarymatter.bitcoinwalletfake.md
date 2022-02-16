@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: co.za.binarymatter.bitcoinwalletfake
+appCountry: 
 released: 2021-03-21
 updated: 2021-04-16
 version: "1.3"
-stars: 3.4
-ratings: 54
-reviews: 33
+stars: 3.3
+ratings: 64
+reviews: 4
 size: 5.6M
 website: 
 repository: 
 issue: 
 icon: co.za.binarymatter.bitcoinwalletfake.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

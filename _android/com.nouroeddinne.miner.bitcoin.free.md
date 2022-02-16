@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.nouroeddinne.miner.bitcoin.free
+appCountry: 
 released: 2021-03-18
-updated: 2021-10-12
-version: "6.11"
-stars: 4.4
-ratings: 2214
-reviews: 1058
-size: 8.7M
-website: 
+updated: 2022-01-27
+version: "13.14"
+stars: 4.6
+ratings: 3723
+reviews: 321
+size: 7.0M
+website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.
 

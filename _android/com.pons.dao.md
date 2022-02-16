@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.pons.dao
+appCountry: 
 released: 2021-02-08
 updated: 2021-09-18
 version: "1.0.0.20"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.pons.dao.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: daoconsensus
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 <div class="alertBox"><div>
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: coinflex.com.appc.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinflexdotcom
 providerLinkedIn: coinflex
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

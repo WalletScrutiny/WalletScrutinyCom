@@ -5,30 +5,26 @@ altTitle:
 authors:
 - kiwilamb
 - leo
+- danny
 appId: com.quidax.app
 appCountry: 
 idd: 1473314875
 released: 2019-10-25
 updated: 2021-01-15
 version: "1.8.0"
-stars: 3.19565
-reviews: 92
+stars: 3.12621
+reviews: 103
 size: 93016064
 website: https://www.quidax.com
 repository: 
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-verdict: defunct
-date: 2021-09-06
+meta: defunct
+verdict: custodial
+date: 2022-02-10
 signer: 
 reviewArchive:
-- date: 2021-04-20
-  version: "1.8.0"
-  appHash: 
-  gitRevision: d2e998640b3a1cd26cb0b6c2d0ac04137f0aa603
-  verdict: custodial
-  
 
 providerTwitter: QuidaxAfrica
 providerLinkedIn: quidax
@@ -38,6 +34,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-02**: This app is not in store anymore.
+
+**Update 2022-01-05**: The iOS app is accessible again. [(See Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478681726423470083)
 
 **Update 2021-08-28**: This app is no more.
 

@@ -1,28 +1,29 @@
 ---
 wsId: ftxus
-title: "FTXUS Pro"
+title: "FTX.US Pro: Buy, Sell, Trade"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.ftxmobile.ftxus
+appCountry: us
 released: 2020-05-18
-updated: 2021-12-03
-version: "1.1.7"
-stars: 3.2
-ratings: 335
-reviews: 277
-size: 62M
-website: 
+updated: 2022-01-26
+version: "1.1.8"
+stars: 3.6
+ratings: 539
+reviews: 237
+size: 64M
+website: https://ftx.us/
 repository: 
 issue: 
 icon: com.ftxmobile.ftxus.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: ftx_us
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":
 

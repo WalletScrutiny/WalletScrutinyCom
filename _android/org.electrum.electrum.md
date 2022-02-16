@@ -6,22 +6,29 @@ authors:
 - leo
 users: 500000
 appId: org.electrum.electrum
+appCountry: 
 released: 2016-03-02
 updated: 2021-07-19
 version: "4.1.5.0"
-stars: 3.4
-ratings: 2401
-reviews: 1420
+stars: 3.3
+ratings: 2494
+reviews: 275
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: https://github.com/spesmilo/electrum/issues/7417
+issue: https://github.com/spesmilo/electrum/issues/7640
 icon: org.electrum.electrum.png
 bugbounty: 
-verdict: reproducible
-date: 2021-07-19
+meta: ok
+verdict: nonverifiable
+date: 2022-01-21
 signer: 
 reviewArchive:
+- date: 2021-07-19
+  version: "4.1.5.0"
+  appHash: de25614cc8f8fa20262f20df816634a349cf796b3e4cf026087e4dec12c15231
+  gitRevision: 3af3091090e37747e1b3f2690dd37c5097645fa2
+  verdict: reproducible
 - date: 2021-06-18
   version: "4.1.4"
   appHash: fffa9a1c27ee6d6bd1d90e8008fe53ba960d19137964b93968d68ec7a4f04433
@@ -32,7 +39,6 @@ reviewArchive:
   appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
-
 providerTwitter: ElectrumWallet
 providerLinkedIn: 
 providerFacebook: 
@@ -45,83 +51,23 @@ redirect_from:
   - /posts/org.electrum.electrum/
 ---
 
-
-Version `4.1.5` appeared on Play Store. let's see if that is also reproducible.
-As for us, that version is still not available, we again go with the direct
-download from their website and check if that's the same as what Google
-distributes later.
+With the updated test script:
 
 ```
-$ git clone https://github.com/spesmilo/electrum
-$ cd electrum/
-$ git checkout 4.1.5
-$ wget https://download.electrum.org/4.1.5/Electrum-4.1.5.0-arm64-v8a-release.apk
-$ wget https://download.electrum.org/4.1.5/Electrum-4.1.5.0-armeabi-v7a-release.apk
-```
-
-... and now we are supposed to run `contrib/android/build.sh` which has 68 lines
-of code and calls `contrib/build_tools_util.sh` with its 154 lines of code.
-
-That's a bit too much as we want to automate reproducibility testing and don't
-want to run "random" code on our infrastructure - with root privilege even. We
-filed an
-[issue to adjust the build instructions accordingly](https://github.com/spesmilo/electrum/issues/7417)
-but it appears to be easy enough to build without running above scripts at all:
-
-```
-$ cp contrib/deterministic-build/requirements-build-android.txt contrib/android/
-$ docker build -t electrum-android-builder-img contrib/android/
-$ docker run -it --rm \
-      --name electrum-android-builder-cont \
-      --volume $PWD:/home/user/wspace/electrum \
-      --volume $PWD/.buildozer/.gradle:/home/user/.gradle \
-      --workdir /home/user/wspace/electrum electrum-android-builder-img \
-      /bin/bash -c `./contrib/android/make_apk release-unsigned`
-...
-💬 INFO:  done.
-total 66024
-drwxr-xr-x  2 user user     4096 Jul 20 01:04 .
-drwxrwxr-x 10 user user     4096 Jul 20 01:04 ..
--rw-r--r--  1 user user 22344714 Jul 20 01:04 Electrum-4.1.5.0-arm64-v8a-release-unsigned.apk
--rw-r--r--  1 user user 22228447 Jul 20 01:04 Electrum-4.1.5.0-armeabi-v7a-release-unsigned.apk
-f1877d80655bf0302609d5a00cade13150d3cead5f7ab8d5a5522f707566cd93  /home/user/wspace/electrum/contrib/android/../../dist/Electrum-4.1.5.0-arm64-v8a-release-unsigned.apk
-227cb4fb61157e045313ce42087369782991bfd646d78052e9dd6a8091ad1143  /home/user/wspace/electrum/contrib/android/../../dist/Electrum-4.1.5.0-armeabi-v7a-release-unsigned.apk
-```
-
-That looks good. After unzipping the two APKs from the download and the two
-just built, the diffs look as follows:
-
-```
-$ unzip -d fromBuild32 dist/Electrum-4.1.5.0-armeabi-v7a-release-unsigned.apk 
-$ unzip -d fromBuild64 dist/Electrum-4.1.5.0-arm64-v8a-release-unsigned.apk 
-$ unzip -d fromDownload32 Electrum-4.1.5.0-armeabi-v7a-release.apk 
-$ unzip -d fromDownload64 Electrum-4.1.5.0-arm64-v8a-release.apk 
-$ diff --recursive --brief from*32
-Only in fromDownload32/META-INF: CERT.RSA
-Only in fromDownload32/META-INF: CERT.SF
-Files fromBuild32/META-INF/MANIFEST.MF and fromDownload32/META-INF/MANIFEST.MF differ
-$ diff --recursive --brief from*64
-Only in fromDownload64/META-INF: CERT.RSA
-Only in fromDownload64/META-INF: CERT.SF
-Files fromBuild64/META-INF/MANIFEST.MF and fromDownload64/META-INF/MANIFEST.MF differ
-```
-
-And with the updated test script:
-
-```
-Results:
+===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
 apkVersionName: 4.1.5.0
 apkVersionCode: 34010500
-verdict:        reproducible
-appHash:        de25614cc8f8fa20262f20df816634a349cf796b3e4cf026087e4dec12c15231
+verdict:        
+appHash:        3b5011c575ba0646855f8686e7952fe3a4da70ca009082dd6a683bc12de529ca
 commit:         d8d2c180aafaec1ae9bc68c27a7d780df8de4348
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34010500/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34010500/META-INF/MANIFEST.MF differ
+Files /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3 and /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3 differ
+Only in /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.RSA
+Only in /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.SF
+Files /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF/MANIFEST.MF and /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 object d8d2c180aafaec1ae9bc68c27a7d780df8de4348
@@ -130,7 +76,153 @@ tag 4.1.5
 tagger ThomasV <thomasv@electrum.org> 1626708974 +0200
 
 4.1.5
+===== End Results =====
 ```
 
-which is a full match except for the signature which is expected. Electrum
-`4.1.5` is **reproducible**!
+which looks good except for the file `assets/private.mp3` which differs.
+
+To inspect this further, `diffoscope` is a great tool that "understands" many
+formats:
+
+```
+$ diffoscope /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3 /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3
+--- /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3
++++ /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3
+├── private.mp3-content
+│ ├── packages/attrs-20.3.0.dist-info/RECORD
+│ │ @@ -20,9 +20,9 @@
+│ │  attr/validators.pyi,sha256=vZgsJqUwrJevh4v_Hd7_RSXqDrBctE6-3AEZ7uYKodo,1868
+│ │  attrs-20.3.0.dist-info/AUTHORS.rst,sha256=wsqCNbGz_mklcJrt54APIZHZpoTIJLkXqEhhn4Nd8hc,752
+│ │  attrs-20.3.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  attrs-20.3.0.dist-info/LICENSE,sha256=v2WaKLSSQGAvVrvfSQy-LsUJsVuY-Z17GaUsdA4yeGM,1082
+│ │  attrs-20.3.0.dist-info/METADATA,sha256=dZRpEuqnuh9GVy6KKp7r2FNftkmQRnY-WpAfkfao4pU,10268
+│ │  attrs-20.3.0.dist-info/RECORD,,
+│ │  attrs-20.3.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -attrs-20.3.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+│ │ +attrs-20.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+│ │  attrs-20.3.0.dist-info/top_level.txt,sha256=tlRYMddkRlKPqJ96wP2_j9uEsmcNHgD2SbuWd4CzGVU,5
+│ ├── packages/attrs-20.3.0.dist-info/WHEEL
+│ │ @@ -1,6 +1,6 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py2-none-any
+│ │  Tag: py3-none-any
+│ ├── packages/importlib_metadata-3.7.2.dist-info/RECORD
+│ │ @@ -1,11 +1,11 @@
+│ │  importlib_metadata-3.7.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  importlib_metadata-3.7.2.dist-info/LICENSE,sha256=wNe6dAchmJ1VvVB8D9oTc-gHHadCuaSBAev36sYEM6U,571
+│ │  importlib_metadata-3.7.2.dist-info/METADATA,sha256=QAixFtFPRI3wDMFsnEB08wkmIVxN1HH2XSS5sr-4ZqA,3465
+│ │  importlib_metadata-3.7.2.dist-info/RECORD,,
+│ │  importlib_metadata-3.7.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -importlib_metadata-3.7.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +importlib_metadata-3.7.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  importlib_metadata-3.7.2.dist-info/top_level.txt,sha256=CO3fD9yylANiXkrMo4qHLV_mqXL2sC5JFKgt1yWAT-A,19
+│ │  importlib_metadata/__init__.py,sha256=H9o96z7BGqGGdqgEDOZO0wgiNrxAOsWiaWCQfaDlCG0,24736
+│ │  importlib_metadata/_compat.py,sha256=JA7DmId9NZtsj6nj8UjQZuPyktaLCTT3wHo7jWfPZc4,2384
+│ │  importlib_metadata/_itertools.py,sha256=5TUj_APJHq3pvjn04hnP2oYBebP2No7HmNH_hkOGwLQ,607
+│ │  importlib_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ ├── packages/importlib_metadata-3.7.2.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/multidict-5.1.0.dist-info/RECORD
+│ │ @@ -1,13 +1,13 @@
+│ │  multidict-5.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  multidict-5.1.0.dist-info/LICENSE,sha256=ocWCVRMnnTCFoLpGiA4UjqNxDBSbuu3PLRFgWl7TxK0,11349
+│ │  multidict-5.1.0.dist-info/METADATA,sha256=Y6GrdYtqGUB3_4DpKNQ9CYqxkO8zFwvMxpmZll43nzw,4116
+│ │  multidict-5.1.0.dist-info/RECORD,,
+│ │  multidict-5.1.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -multidict-5.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +multidict-5.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  multidict-5.1.0.dist-info/top_level.txt,sha256=-euDElkk5_qkmfIJ7WiqCab02ZlSFZWynejKg59qZQQ,10
+│ │  multidict/__init__.py,sha256=N4CEqAIdPpG1R12M4dPhLpljd4y7U6O8EWTb0bX-EIg,942
+│ │  multidict/__init__.pyi,sha256=__MuUVn9A-C7Y1wqBzgc12G2T_b5TnXgG9uN4qrpk6M,4931
+│ │  multidict/_abc.py,sha256=Zvnrn4SBkrv4QTD7-ZzqNcoxw0f8KStLMPzGvBuGT2w,1190
+│ │  multidict/_compat.py,sha256=1pqf7gkjjapGmNpTPR38OfQZlbRDLHiaox853LPs-oA,363
+│ │  multidict/_multidict.c,sha256=0kPnAtdE6rRwBDfhwLi6mrGp0DVsc6rq2Wbhi3_ZQOE,40881
+│ │  multidict/_multidict_base.py,sha256=XugkE78fXBmtzDdg2Yi9TrEhDexmL-6qJbFIG0viLMg,3791
+│ ├── packages/multidict-5.1.0.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/pip-21.0.1.dist-info/RECORD
+│ │ @@ -2,15 +2,15 @@
+│ │  ../../bin/pip3,sha256=I2UWrbOISqm6o_QRtkkf9H7UV1whUH_sKKjmElHFLnc,221
+│ │  ../../bin/pip3.8,sha256=I2UWrbOISqm6o_QRtkkf9H7UV1whUH_sKKjmElHFLnc,221
+│ │  pip-21.0.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  pip-21.0.1.dist-info/LICENSE.txt,sha256=ejlw8iXn2TntLdOpADqlISSc1qhJJgiYAKMZmq713Gk,1110
+│ │  pip-21.0.1.dist-info/METADATA,sha256=YYT8F31NPOzdAi0WEvjg-STKbxj8jpPmgpTKJiVrdEA,4194
+│ │  pip-21.0.1.dist-info/RECORD,,
+│ │  pip-21.0.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -pip-21.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +pip-21.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  pip-21.0.1.dist-info/entry_points.txt,sha256=HtfDOwpUlr9s73jqLQ6wF9V0_0qvUXJwCBz7Vwx0Ue0,125
+│ │  pip-21.0.1.dist-info/top_level.txt,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  pip/__init__.py,sha256=N22Wk52M-ZwIU8jx64XlNaLmHk_MyL1ErZ_71RG1Pzo,473
+│ │  pip/__main__.py,sha256=WGRSG7tdJrjefIHsZOk977H_rgkSt9z2liew-Cwm09U,874
+│ │  pip/_internal/__init__.py,sha256=fnY9L5BJfq79L8CXhLnj2nJMH8-JEpJkGQAMhM231AU,512
+│ │  pip/_internal/build_env.py,sha256=mEgguVg9YnwbVVLtwUlDF5irYsweDksk67obP0KAjE8,8323
+│ │  pip/_internal/cache.py,sha256=j4UrFmwo2xC0e1QQUVAwPVuySmQttDUGJb-myD4t-Q8,10385
+│ ├── packages/pip-21.0.1.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/yarl-1.6.3.dist-info/RECORD
+│ │ @@ -1,13 +1,13 @@
+│ │  yarl-1.6.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  yarl-1.6.3.dist-info/LICENSE,sha256=FMCCBQPO7xXoFKibA32e_AZocAhwGClLauDycWOHLMU,11368
+│ │  yarl-1.6.3.dist-info/METADATA,sha256=4LdDdgnvmWHl5xPmIZAHnThRl4V8cXznId2oj-DHtmg,18982
+│ │  yarl-1.6.3.dist-info/RECORD,,
+│ │  yarl-1.6.3.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -yarl-1.6.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +yarl-1.6.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  yarl-1.6.3.dist-info/top_level.txt,sha256=vf3SJuQh-k7YtvsUrV_OPOrT9Kqn0COlk7IPYyhtGkQ,5
+│ │  yarl/__init__.py,sha256=q1AsILx9yBkriaOSJghxeC5ynHn_7rMmldWf-VlnFnA,154
+│ │  yarl/__init__.pyi,sha256=81znZr-kyslhoSkwDDXZsfhrLOjUAoJ4ApfwDfcfbPM,3702
+│ │  yarl/_quoting.py,sha256=A35UGLJW4EOOHZNNocSiK7tRNGKe1NgqH3jxMoYN2x0,519
+│ │  yarl/_quoting_c.c,sha256=RSUoRWxACSWS4KUeP2_3GJX8CwTYOATxFD3U488diWI,453267
+│ │  yarl/_quoting_c.pyi,sha256=plPeUkIbXp4Hzi0AbYII4JA0H9tCjtjw-UUPU5Na1s0,447
+│ │  yarl/_quoting_c.pyx,sha256=_xiVS3dNEvYcKdGx973DYBRRUVz4CURuG5iTdF4zXYk,11498
+│ ├── packages/yarl-1.6.3.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/zipp-3.4.1.dist-info/RECORD
+│ │ @@ -1,8 +1,8 @@
+│ │  zipp-3.4.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  zipp-3.4.1.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+│ │  zipp-3.4.1.dist-info/METADATA,sha256=EIdnTkPQX8qbq3tfp4HSbcR6E27KCFWOXjv9xbdR67s,2109
+│ │  zipp-3.4.1.dist-info/RECORD,,
+│ │  zipp-3.4.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -zipp-3.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +zipp-3.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  zipp-3.4.1.dist-info/top_level.txt,sha256=iAbdoSHfaGqBfVb2XuR9JqSQHCoOsOtG6y9C_LSpqFw,5
+│ │  zipp.py,sha256=wMSoYxAIPgYnqJAW0JcAl5sWaIcFc5xk3dNjf6ElGgU,8089
+│ ├── packages/zipp-3.4.1.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+```
+
+So this looks benign. To our understanding, the release manager used a different
+version of [wheel](https://github.com/pypa/wheel) than we now did but the output
+matched except for the record of the version used.
+
+Although probably harmless, this binary is **not verifiable**.

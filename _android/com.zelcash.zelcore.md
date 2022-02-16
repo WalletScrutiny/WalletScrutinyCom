@@ -6,23 +6,24 @@ authors:
 - leo
 users: 50000
 appId: com.zelcash.zelcore
+appCountry: 
 released: 2018-09-21
-updated: 2021-12-13
-version: "5.8.0"
-stars: 3.6
-ratings: 712
-reviews: 506
-size: 17M
-website: https://zel.network/project/zelcore
+updated: 2022-02-01
+version: "5.11.0"
+stars: 4.0
+ratings: 818
+reviews: 98
+size: 18M
+website: https://zelcore.io
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-07
 signer: 
 reviewArchive:
-
 
 providerTwitter: zelcash
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.zelcash.zelcore/
   - /posts/com.zelcash.zelcore/
 ---
-
 
 This application claims on their Google Play description:
 

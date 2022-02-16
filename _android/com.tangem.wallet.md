@@ -6,23 +6,24 @@ authors:
 - leo
 users: 1000
 appId: com.tangem.wallet
+appCountry: 
 released: 2018-10-24
-updated: 2021-12-09
-version: "3.25"
-stars: 4.6
-ratings: 74
-reviews: 23
+updated: 2022-02-14
+version: "3.27"
+stars: 4.4
+ratings: 90
+reviews: 8
 size: 20M
 website: https://tangem.com
 repository: 
 issue: 
 icon: com.tangem.wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: tangem
 providerLinkedIn: tangem
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is the companion app to an NFC card that is promoted as something like
 a hardware wallet but without a screen or a button it can only do what the

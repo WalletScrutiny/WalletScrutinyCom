@@ -6,23 +6,24 @@ authors:
 
 users: 50000
 appId: com.eofinance
+appCountry: 
 released: 2018-08-14
 updated: 2020-04-30
 version: "2.0.1"
-stars: 4.0
-ratings: 1506
-reviews: 593
+stars: 4.5
+ratings: 1521
+reviews: 10
 size: 35M
-website: 
+website: https://eo.finance
 repository: 
 issue: 
 icon: com.eofinance.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

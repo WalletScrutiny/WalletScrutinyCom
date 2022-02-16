@@ -6,23 +6,24 @@ authors:
 - danny
 users: 500000
 appId: com.eversendapp
+appCountry: lv
 released: 2019-02-01
-updated: 2021-11-30
-version: "0.2.24"
+updated: 2022-02-09
+version: "0.2.54"
 stars: 3.8
-ratings: 4022
-reviews: 1762
+ratings: 4747
+reviews: 2033
 size: 54M
-website: https://eversend.co/
+website: http://eversend.co
 repository: 
 issue: 
 icon: com.eversendapp.png
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-11-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: eversendapp
 providerLinkedIn: eversend
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Updated Review 2021-10-28**
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 5000
 appId: com.bitbill.www
+appCountry: 
 released: 2018-03-22
-updated: 2021-10-17
-version: "4.32.1"
+updated: 2022-02-13
+version: "4.32.2"
 stars: 3.7
-ratings: 76
-reviews: 41
+ratings: 78
+reviews: 10
 size: 33M
-website: http://www.bitbill.com
+website: https://ownbit.io
 repository: 
 issue: 
 icon: com.bitbill.www.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-04-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.bitbill.www/
   - /posts/com.bitbill.www/
 ---
-
 
 On the Google Play description we read:
 

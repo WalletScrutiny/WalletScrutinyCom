@@ -4,25 +4,26 @@ title: "Deus Finance - Crypto & Stock Trading"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: finance.deus.deus_mobile
+appCountry: 
 released: 2021-05-13
 updated: 2021-07-23
 version: "1.1.7"
-stars: 5.0
-ratings: 26
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 13M
-website: 
+website: https://deus.finance
 repository: 
 issue: 
 icon: finance.deus.deus_mobile.png
 bugbounty: 
-verdict: fewusers
+meta: ok
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

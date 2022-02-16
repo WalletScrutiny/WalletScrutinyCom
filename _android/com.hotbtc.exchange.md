@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: com.hotbtc.exchange
+appCountry: 
 released: 2020-01-17
 updated: 2020-08-19
 version: "1.1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.hotbtc.exchange.png
 bugbounty: 
-verdict: stale
-date: 2021-08-17
+meta: defunct
+verdict: wip
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -33,4 +34,5 @@ redirect_from:
 
 ---
 
+**Update 2022-01-20**: This app is not available anymore.
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.nthkey.app.jpg
 bugbounty: 
+meta: ok
 verdict: wip
 date: 2021-07-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

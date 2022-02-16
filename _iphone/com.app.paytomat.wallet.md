@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
+meta: stale
 verdict: nosource
-date: 2021-10-01
+date: 2022-01-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: paytomat
 providerLinkedIn: 11433285

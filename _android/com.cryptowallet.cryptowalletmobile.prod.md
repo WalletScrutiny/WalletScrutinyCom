@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptowallet.cryptowalletmobile.prod
+appCountry: ee
 released: 2021-03-19
 updated: 2021-11-17
 version: "1.11.10"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cryptowallet.cryptowalletmobile.prod.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: cryptowalletcom
 providerLinkedIn: cryptowallet-com
@@ -32,7 +33,6 @@ providerReddit: CryptoWallet_com
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: zulu.trade.app
+appCountry: us
 released: 2011-03-04
-updated: 2021-08-09
-version: "4.23.5"
-stars: 4.4
-ratings: 1879
-reviews: 600
+updated: 2021-12-03
+version: "4.24.2"
+stars: 3.8
+ratings: 2000
+reviews: 66
 size: 34M
-website: https://www.zulutrade.com/
+website: https://www.zulutrade.com
 repository: 
 issue: 
 icon: zulu.trade.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: zulutrade
 providerLinkedIn: zulutrade
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

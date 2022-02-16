@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.fondexmobile.ct.jpg
 bugbounty: 
+meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: fondex-trading

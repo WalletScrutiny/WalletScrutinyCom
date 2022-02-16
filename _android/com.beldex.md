@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.beldex
+appCountry: 
 released: 
 updated: 2021-04-14
 version: "Varies with device"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: com.beldex.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nobtc
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-11-10
-  version: "Varies with device"
-  appHash: 
-  gitRevision: bde9e65a531b1764b1db11164a6f3b1e25e42329
-  verdict: nobtc
-  
 
 providerTwitter: beldexcoin
 providerLinkedIn: beldex-coin

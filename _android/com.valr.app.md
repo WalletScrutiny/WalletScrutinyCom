@@ -6,23 +6,24 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.valr.app
+appCountry: 
 released: 2019-09-13
-updated: 2021-12-13
-version: "1.0.39"
-stars: 4.4
-ratings: 1159
-reviews: 609
-size: 108M
+updated: 2022-02-11
+version: "1.0.44"
+stars: 4.1
+ratings: 1699
+reviews: 9
+size: 106M
 website: https://www.valr.com
 repository: 
 issue: 
 icon: com.valr.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
 
 providerTwitter: valrdotcom
 providerLinkedIn: valr
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 I need not go further into researching this wallet as the statement on the Google Play description screams custodial.
 

@@ -8,21 +8,21 @@ appId: com.bitsacard.BitsaApp
 appCountry: gb
 idd: 1458095544
 released: 2019-04-12
-updated: 2021-12-15
-version: "2.7.3"
-stars: 3.25
-reviews: 8
-size: 89602048
+updated: 2022-02-09
+version: "2.7.6"
+stars: 3
+reviews: 7
+size: 94211072
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
-verdict: nowallet
+meta: ok
+verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitsa_oficial
 providerLinkedIn: bitsacard

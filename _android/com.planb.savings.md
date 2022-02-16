@@ -6,6 +6,7 @@ authors:
 
 users: 10
 appId: com.planb.savings
+appCountry: 
 released: 2020-07-08
 updated: 2020-07-13
 version: "0.0.2"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.planb.savings.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

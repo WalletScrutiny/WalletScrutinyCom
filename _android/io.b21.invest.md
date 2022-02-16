@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: io.b21.invest
+appCountry: in
 released: 2020-02-24
-updated: 2021-12-16
-version: "0.7.9"
-stars: 2.7
-ratings: 552
-reviews: 387
+updated: 2022-01-30
+version: "0.8.0"
+stars: 2.9
+ratings: 589
+reviews: 286
 size: 40M
-website: https://www.b21.io/
+website: https://b21.io
 repository: 
 issue: 
 icon: io.b21.invest.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: B21Official
 providerLinkedIn: b21-limited
@@ -32,7 +33,6 @@ providerReddit: B21Invest
 redirect_from:
 
 ---
-
 
 B21's self-description claims that it is an app for investing, earning, and spending crypto:
 

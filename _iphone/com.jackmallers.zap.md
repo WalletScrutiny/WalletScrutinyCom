@@ -10,23 +10,19 @@ idd: 1406311960
 released: 2019-04-27
 updated: 2020-08-03
 version: "0.5.2"
-stars: 4.59677
-reviews: 62
+stars: 4.53968
+reviews: 63
 size: 43196416
 website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS
 issue: 
 icon: com.jackmallers.zap.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nonverifiable
 date: 2021-08-17
 signer: 
 reviewArchive:
-- date: 2020-12-21
-  version: "0.5.2"
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nonverifiable
 
 providerTwitter: ln_zap
 providerLinkedIn: 

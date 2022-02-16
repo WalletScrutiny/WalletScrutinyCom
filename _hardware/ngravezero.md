@@ -19,6 +19,7 @@ repository: https://github.com/ngraveio
 issue:
 icon: ngravezero.png
 bugbounty:
+meta: ok
 verdict: unreleased
 date: 2021-07-29
 signer:

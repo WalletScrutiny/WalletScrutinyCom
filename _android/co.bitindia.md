@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: co.bitindia
+appCountry: 
 released: 
 updated: 2018-02-06
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: co.bitindia.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-09**: This app is no more.

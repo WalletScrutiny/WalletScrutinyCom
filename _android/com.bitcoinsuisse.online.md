@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.bitcoinsuisse.online
-released: 
+appCountry: pl
+released: 2021-09-21
 updated: 2021-12-16
 version: "1.1.1"
-stars: 3.9
-ratings: 16
-reviews: 7
+stars: 0.0
+ratings: 
+reviews: 
 size: 38M
-website: https://bitcoinsuisse.com/
+website: https://www.bitcoinsuisse.com
 repository: 
 issue: 
 icon: com.bitcoinsuisse.online.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitcoinSuisseAG
 providerLinkedIn: bitcoin-suisse-ag
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -6,23 +6,24 @@ authors:
 - leo
 users: 500000
 appId: co.id.dompet.btc.indonesia
+appCountry: 
 released: 2017-01-15
 updated: 2021-10-26
 version: "2.4.9"
-stars: 3.2
-ratings: 4752
-reviews: 2741
+stars: 3.8
+ratings: 4800
+reviews: 31
 size: 8.8M
-website: https://www.indodax.com
+website: https://www.indodax.com/
 repository: 
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: indodax
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
   - /co.id.dompet.btc.indonesia/
 ---
-
 
 This app looks like a terminal for a website:
 

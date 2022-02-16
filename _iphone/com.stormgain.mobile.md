@@ -8,21 +8,21 @@ appId: com.stormgain.mobile
 appCountry: de
 idd: 1471506070
 released: 2019-07-21
-updated: 2021-11-25
-version: "1.21.0"
-stars: 4.45224
-reviews: 1382
-size: 58598400
+updated: 2022-01-13
+version: "1.22.0"
+stars: 4.31433
+reviews: 1228
+size: 58593280
 website: https://stormgain.com
 repository: 
 issue: 
 icon: com.stormgain.mobile.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: StormGain_com
 providerLinkedIn: 

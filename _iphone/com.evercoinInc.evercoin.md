@@ -10,23 +10,19 @@ idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30
 version: "1.9.5"
-stars: 4.65055
-reviews: 2773
+stars: 4.64712
+reviews: 2746
 size: 63333376
 website: https://evercoin.com
 repository: 
 issue: 
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: nosource
 date: 2021-11-26
 signer: 
 reviewArchive:
-- date: 2021-04-26
-  version: "1.9.5"
-  appHash: 
-  gitRevision: db763c599021fcaec6fe55cc37932f76093bd7f6
-  verdict: nosource
 
 providerTwitter: everc0in
 providerLinkedIn: 

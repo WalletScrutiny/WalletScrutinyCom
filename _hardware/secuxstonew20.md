@@ -20,6 +20,7 @@ repository:
 issue:
 icon: secuxstonew20.png
 bugbounty:
+meta: ok
 verdict: wip
 date: 2021-12-08
 signer:

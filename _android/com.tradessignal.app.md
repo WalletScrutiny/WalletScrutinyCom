@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.tradessignal.app
+appCountry: 
 released: 2021-01-02
 updated: 2021-01-02
 version: "2"
-stars: 
+stars: 0.0
 ratings: 
 reviews: 
 size: 6.6M
-website: https://tradessignal.com/
+website: https://tradessignal.com
 repository: 
 issue: 
 icon: com.tradessignal.app.png
 bugbounty: 
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2021-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

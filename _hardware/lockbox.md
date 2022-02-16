@@ -20,6 +20,7 @@ repository: https://github.com/blockchain/
 issue:
 icon: lockbox.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-09-01
 signer:

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.kysenpool.mirror.android
+appCountry: 
 released: 2020-12-13
 updated: 2021-08-13
 version: "1.2.1"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: io.kysenpool.mirror.android.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosendreceive
 date: 2021-10-22
 signer: 
 reviewArchive:
-- date: 2021-10-16
-  version: "1.2.1"
-  appHash: 
-  gitRevision: f9f046037c44e67715b35a4a2fbf64ab6b2244ac
-  verdict: nosendreceive
-  
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-14**: This app is no more available.
 

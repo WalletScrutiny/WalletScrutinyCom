@@ -6,6 +6,11 @@
 
 {% include verdictMethodology.html verdict=page.verdict %}
 
+{% if page.meta != "ok" %}
+  <p>But we also ask:</p>
+  {% include verdictMethodology.html verdict=page.meta %}
+{% endif %}
+
 {% if v.redflag %}
   <strong>The product cannot be independently verified. If the provider puts your funds at
   risk on purpose or by accident, you will probably not know about the issue

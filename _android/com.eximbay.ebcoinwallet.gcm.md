@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: com.eximbay.ebcoinwallet.gcm
+appCountry: 
 released: 2017-10-30
 updated: 2017-12-06
 version: "1.6"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.eximbay.ebcoinwallet.gcm.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-09**: This app is no more.

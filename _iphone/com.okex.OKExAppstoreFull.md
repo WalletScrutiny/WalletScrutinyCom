@@ -1,6 +1,6 @@
 ---
 wsId: OKEx
-title: "OKEx: Trade Bitcoin, ETH, SHIB"
+title: "OKX: Buy Bitcoin, ETH, Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,21 +8,21 @@ appId: com.okex.OKExAppstoreFull
 appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2021-11-22
-version: "5.3.18"
-stars: 4.92746
-reviews: 17042
-size: 359922688
-website: https://www.okex.com
+updated: 2022-02-14
+version: "6.0.6"
+stars: 4.87016
+reviews: 12315
+size: 451536896
+website: https://www.okx.com/download
 repository: 
 issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-12-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: OKEx
 providerLinkedIn: 

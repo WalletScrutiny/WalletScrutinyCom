@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: b4uwallet_b4u
 providerLinkedIn: 

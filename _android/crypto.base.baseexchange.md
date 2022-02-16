@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: crypto.base.baseexchange
+appCountry: 
 released: 2019-06-05
-updated: 2021-09-20
-version: "4.1"
-stars: 4.2
-ratings: 134
-reviews: 66
+updated: 2022-02-14
+version: "4.7"
+stars: 0.0
+ratings: 
+reviews: 
 size: 24M
-website: 
+website: https://techpay.io/
 repository: 
 issue: 
 icon: crypto.base.baseexchange.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: techpay_io
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

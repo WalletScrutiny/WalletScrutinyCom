@@ -6,6 +6,7 @@ authors:
 
 users: 500
 appId: pt.ipleiria.estg.dei.yabw
+appCountry: 
 released: 2018-05-02
 updated: 2018-06-25
 version: "1.2.4"
@@ -18,7 +19,8 @@ repository:
 issue: 
 icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -31,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-09**: This app is no more.

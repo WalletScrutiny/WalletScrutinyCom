@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.cointopay.app
+appCountry: us
 released: 2018-05-29
 updated: 2021-03-31
 version: "2.1.6"
-stars: 3.5
-ratings: 19
-reviews: 11
+stars: 2.3
+ratings: 20
+reviews: 5
 size: 6.5M
-website: https://cointopay.com/
+website: https://cointopay.com
 repository: 
 issue: 
 icon: com.cointopay.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: Cointopay
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit: Cointopay
 redirect_from:
 
 ---
-
 
 ## App Description
 

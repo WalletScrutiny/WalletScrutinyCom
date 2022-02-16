@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: chby.ru
+appCountry: 
 released: 2018-12-19
 updated: 2020-01-13
 version: "1.0.5"
@@ -18,7 +19,8 @@ repository:
 issue: 
 icon: chby.ru.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-18
 signer: 
 reviewArchive:
@@ -31,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-11**: This app is no more.

@@ -4,30 +4,26 @@ title: "Enjin: NFT Crypto Wallet"
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.enjin.mobile.wallet
 appCountry: 
 idd: 1349078375
 released: 2018-03-12
-updated: 2021-06-21
-version: "1.15.0"
-stars: 4.48342
-reviews: 573
-size: 43804672
+updated: 2021-09-09
+version: "1.15.1"
+stars: 4.44094
+reviews: 762
+size: 43825152
 website: https://enjin.io/products/wallet
 repository: 
 issue: 
 icon: com.enjin.mobile.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: nosource
 date: 2021-09-04
 signer: 
 reviewArchive:
-- date: 2021-04-26
-  version: "1.15.0"
-  appHash: 
-  gitRevision: 529e1bc9fb59e49ab005631a6c268608de629b62
-  verdict: nosource
-  
 
 providerTwitter: enjin
 providerLinkedIn: enjin
@@ -37,6 +33,8 @@ providerReddit: EnjinCoin
 redirect_from:
 
 ---
+
+**Update 2022-01-04**: The iOS app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478288988087603200)
 
 **Update 2021-08-26**: This app is no more.
 

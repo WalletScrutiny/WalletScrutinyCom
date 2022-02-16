@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000000
 appId: io.hotbit.shouyi
+appCountry: 
 released: 2019-09-19
-updated: 2021-12-17
-version: "1.3.44"
-stars: 4.2
-ratings: 57934
-reviews: 21823
-size: 11M
-website: https://www.hotbit.io
+updated: 2022-01-29
+version: "1.3.47"
+stars: 4.1
+ratings: 72274
+reviews: 1303
+size: 17M
+website: https://www.hotbit.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
 
 providerTwitter: Hotbit_news
 providerLinkedIn: hotbitexchange
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Hotbit describes itself as
 

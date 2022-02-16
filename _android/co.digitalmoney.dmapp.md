@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: co.digitalmoney.dmapp
+appCountry: us
 released: 2021-02-12
-updated: 2021-11-10
+updated: 2022-02-15
 version: "1.4.9"
-stars: 4.8
-ratings: 6
-reviews: 2
-size: 37M
+stars: 0.0
+ratings: 
+reviews: 
+size: 43M
 website: https://digital-money.co/
 repository: 
 issue: 
 icon: co.digitalmoney.dmapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

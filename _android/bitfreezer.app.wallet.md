@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10000
 appId: bitfreezer.app.wallet
+appCountry: 
 released: 2019-09-18
 updated: 2021-02-18
 version: "1.0.16"
@@ -19,15 +20,11 @@ repository:
 issue: 
 icon: bitfreezer.app.wallet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: nosource
 date: 2021-08-11
 signer: 
 reviewArchive:
-- date: 2021-05-30
-  version: "1.0.16"
-  appHash: 
-  gitRevision: 3d4e0de7554c723d80c48c1d30caa7bad0af40aa
-  verdict: nosource
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +34,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-03**: This app is not on Play Store anymore.
 

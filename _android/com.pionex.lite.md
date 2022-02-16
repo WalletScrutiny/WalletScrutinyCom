@@ -1,28 +1,29 @@
 ---
-wsId: PionexLite 
+wsId: PionexLite
 title: "Pionex - Buy Bitcoin & Ethereum"
 altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.pionex.lite
+appCountry: cn
 released: 2021-05-14
-updated: 2021-08-26
-version: "1.1.7"
-stars: 3.9
-ratings: 16
-reviews: 9
+updated: 2021-12-17
+version: "1.1.9"
+stars: 3.6
+ratings: 33
+reviews: 16
 size: 51M
 website: https://www.pionex.sg/blog/
 repository: 
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **NOTE:** This app is not to be confused with {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
 

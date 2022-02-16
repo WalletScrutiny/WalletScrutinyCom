@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.monnos.android
+appCountry: br
 released: 2019-09-17
-updated: 2021-12-15
-version: "5.3.4"
-stars: 3.4
-ratings: 871
-reviews: 571
+updated: 2022-02-02
+version: "5.3.5"
+stars: 3.8
+ratings: 929
+reviews: 441
 size: 72M
-website: https://monnos.com/
+website: https://monnos.com
 repository: 
 issue: 
 icon: com.monnos.android.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: monnosGlobal
 providerLinkedIn: monnosglobal
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 As this service is a private company maintained app with money laundering and other financial regulation compliances, our initial assessment is that it is a centralized custodial service. 
 

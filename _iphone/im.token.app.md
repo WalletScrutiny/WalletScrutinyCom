@@ -8,21 +8,21 @@ appId: im.token.app
 appCountry: 
 idd: 1384798940
 released: 2018-06-07
-updated: 2021-11-25
-version: "2.9.8"
-stars: 4.44142
-reviews: 367
-size: 112542720
+updated: 2022-01-24
+version: "2.9.10"
+stars: 4.34422
+reviews: 398
+size: 144669696
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: imTokenOfficial
 providerLinkedIn: 

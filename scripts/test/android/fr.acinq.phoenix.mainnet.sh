@@ -2,7 +2,7 @@
 
 test() {
   repo=https://github.com/ACINQ/phoenix
-  tag="v$versionName"
+  tag="android-legacy-v$versionName"
   builtApk="$workDir/app/apk/release/phoenix-$versionCode-$versionName-mainnet-universal-release.apk"
 
   prepare

@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: net.walletharcomia.android
+appCountry: 
 released: 2020-11-01
 updated: 2020-11-23
 version: "1.0.4"
-stars: 3.5
-ratings: 6
-reviews: 4
+stars: 0.0
+ratings: 
+reviews: 
 size: 40M
-website: 
+website: https://wallet.harcomia.com
 repository: 
 issue: 
 icon: net.walletharcomia.android.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-12-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

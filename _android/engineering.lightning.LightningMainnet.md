@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
+appCountry: 
 released: 
 updated: 2020-10-02
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository: https://github.com/lightninglabs/lightning-app
 issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-02-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: lightning
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /engineering.lightning.LightningMainnet/
   - /posts/engineering.lightning.LightningMainnet/
 ---
-
 
 **Update:** This app is not supported by its provider anymore. As the name reads
 "Lightning (Remove Funds by Dec 31st)" and the description talks about "3

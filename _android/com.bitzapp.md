@@ -6,6 +6,7 @@ authors:
 
 users: 50
 appId: com.bitzapp
+appCountry: 
 released: 2020-03-15
 updated: 2020-08-11
 version: "1.5"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.bitzapp.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

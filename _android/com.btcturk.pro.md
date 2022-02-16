@@ -1,28 +1,29 @@
 ---
 wsId: 
-title: "BtcTurk | PRO - Buy-Sell Bitcoin"
+title: "BtcTurk | PRO : BTC|ETH|SHIB"
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.btcturk.pro
+appCountry: 
 released: 2020-09-10
-updated: 2021-11-11
-version: "1.38.2"
-stars: 4.6
-ratings: 152175
-reviews: 45639
-size: 29M
-website: https://pro.btcturk.com/
+updated: 2022-02-14
+version: "1.41.1"
+stars: 4.4
+ratings: 168411
+reviews: 192
+size: 38M
+website: https://pro.btcturk.com
 repository: 
 issue: 
 icon: com.btcturk.pro.png
 bugbounty: https://pro.btcturk.com/en/bug-bounty
+meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: btcturkpro
 providerLinkedIn: btcturk
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.
 

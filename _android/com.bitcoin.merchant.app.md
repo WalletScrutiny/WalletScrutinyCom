@@ -6,23 +6,24 @@ authors:
 
 users: 100000
 appId: com.bitcoin.merchant.app
+appCountry: 
 released: 2019-04-13
-updated: 2021-11-30
-version: "5.3.9"
+updated: 2022-01-26
+version: "5.3.11"
 stars: 4.2
-ratings: 468
-reviews: 179
+ratings: 498
+reviews: 19
 size: 6.0M
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
 issue: 
 icon: com.bitcoin.merchant.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2019-12-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: bitcoincom
 providerLinkedIn: 
@@ -33,7 +34,6 @@ redirect_from:
   - /com.bitcoin.merchant.app/
   - /posts/com.bitcoin.merchant.app/
 ---
-
 
 This is a watch-only wallet according to their description:
 

@@ -1,28 +1,29 @@
 ---
 wsId: coincloud
-title: "Coin Cloud Wallet"
+title: "Coin Cloud: Wallet 1.5"
 altTitle: 
 authors:
 - kiwilamb
 users: 10000
 appId: com.bitpay.coincloud
+appCountry: 
 released: 2018-09-06
-updated: 2021-11-04
-version: "12.02.12"
-stars: 3.8
-ratings: 205
-reviews: 107
-size: 16M
-website: https://www.coincloudatm.com/
+updated: 2021-12-27
+version: "12.02.17"
+stars: 3.7
+ratings: 232
+reviews: 101
+size: 17M
+website: https://www.coin.cloud
 repository: 
 issue: 
 icon: com.bitpay.coincloud.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-12
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinCloudATM
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 It is very clear that the provider is claiming that this wallet is non-custodial with this early statement found in the [play store description](https://play.google.com/store/apps/details?id=com.bitpay.coincloud).
 

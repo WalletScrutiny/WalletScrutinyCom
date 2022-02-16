@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.kevinpetters.bitcointrading
+appCountry: 
 released: 2019-06-30
 updated: 2019-06-30
 version: "1.0.0"
@@ -13,16 +14,16 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 18M
-website: 
+website: https://bitcoin-trading.global/
 repository: 
 issue: 
 icon: com.kevinpetters.bitcointrading.png
 bugbounty: 
-verdict: obsolete
+meta: obsolete
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

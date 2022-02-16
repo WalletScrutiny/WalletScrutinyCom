@@ -6,6 +6,7 @@ authors:
 
 users: 1000
 appId: org.cryptobrowser.local.bitcoin.trader.wallet
+appCountry: 
 released: 2021-06-28
 updated: 2021-06-29
 version: "1.0"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-09-18
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-09-09**: This app is not on Google Play anymore.

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.o3.o3wallet
+appCountry: us
 released: 2020-08-27
-updated: 2021-11-16
-version: "3.2.9"
-stars: 4.0
-ratings: 471
-reviews: 118
+updated: 2021-12-10
+version: "3.3.1"
+stars: 4.8
+ratings: 474
+reviews: 13
 size: 90M
-website: https://o3.network/
+website: https://o3.network
 repository: https://github.com/O3Labs
 issue: 
 icon: com.o3.o3wallet.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: O3_Labs
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Google Play
 From the Play Store description:

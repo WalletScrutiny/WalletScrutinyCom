@@ -6,6 +6,7 @@ authors:
 
 users: 5000
 appId: binance.cryptowalletapp
+appCountry: 
 released: 
 updated: 2021-04-05
 version: "9.8"
@@ -18,16 +19,11 @@ repository:
 issue: 
 icon: binance.cryptowalletapp.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-05-05
 signer: 
 reviewArchive:
-- date: 2021-04-13
-  version: 
-  appHash: 
-  gitRevision: 7ef50d1754a724355ce59937abb663d96fd262d2
-  verdict: wip
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -37,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Unfortunately we did not get to review this one before it was removed from
 Google Play.

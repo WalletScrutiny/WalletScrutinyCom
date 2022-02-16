@@ -21,6 +21,7 @@ repository: https://github.com/hyperpayorg/hardwallet
 issue: https://github.com/hyperpayorg/hardwallet/issues/4
 icon: hypermatepro.png
 bugbounty:
+meta: ok
 verdict: nosource
 date: 2021-12-12
 signer:

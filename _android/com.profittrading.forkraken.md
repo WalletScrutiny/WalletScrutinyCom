@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forkraken
+appCountry: 
 released: 2018-07-15
 updated: 2021-08-07
 version: "Varies with device"
-stars: 3.7
-ratings: 58
-reviews: 30
+stars: 4.2
+ratings: 60
+reviews: 12
 size: Varies with device
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forkraken.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: ProfitTrading_
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

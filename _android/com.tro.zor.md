@@ -6,10 +6,11 @@ authors:
 
 users: 0
 appId: com.tro.zor
+appCountry: 
 released: 2021-09-23
 updated: 2021-09-23
 version: "1.0.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 859k
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.tro.zor.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: fewusers
 date: 2021-10-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +33,5 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

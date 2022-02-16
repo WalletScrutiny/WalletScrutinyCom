@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.aabb
+appCountry: ca
 released: 2021-03-08
-updated: 2021-11-23
-version: "1.0.1242"
-stars: 4.4
-ratings: 577
-reviews: 310
+updated: 2021-12-29
+version: "1.0.1244"
+stars: 4.8
+ratings: 615
+reviews: 28
 size: 27M
 website: https://aabbgoldtoken.com/
 repository: 
 issue: 
 icon: com.aabb.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: AsiaBroadband
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

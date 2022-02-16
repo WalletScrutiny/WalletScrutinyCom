@@ -4,25 +4,26 @@ title: "BTC Server Miner"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: ps.btcserverminer.app
+appCountry: 
 released: 2021-07-16
 updated: 2021-08-29
 version: "1.0"
-stars: 3.9
-ratings: 5080
-reviews: 2506
+stars: 4.4
+ratings: 7067
+reviews: 405
 size: 21M
-website: http://btcminer.tilda.ws/btcserverminer
+website: https://btcserverminer.promo-miner.com/
 repository: 
 issue: 
 icon: ps.btcserverminer.app.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 Its website does not yield a lot of information.
 

@@ -6,23 +6,24 @@ authors:
 
 users: 50000
 appId: net.bither
+appCountry: 
 released: 2014-02-27
-updated: 2021-10-18
-version: "2.0.2"
-stars: 3.7
-ratings: 331
-reviews: 171
+updated: 2021-12-31
+version: "2.0.4"
+stars: 4.2
+ratings: 335
+reviews: 26
 size: 4.5M
-website: https://bither.net
+website: http://Bither.net
 repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
+meta: ok
 verdict: obfuscated
 date: 2021-03-03
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app is an open source Bitcoin wallet with most of its information to be
 found not on their website but in the App description and on GitHub.

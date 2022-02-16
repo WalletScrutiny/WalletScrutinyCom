@@ -6,23 +6,24 @@ authors:
 - leo
 users: 100000
 appId: io.sylo.dapp
+appCountry: 
 released: 2019-09-10
-updated: 2021-10-19
-version: "3.1.29"
-stars: 4.7
-ratings: 740
-reviews: 383
-size: 333M
-website: https://www.sylo.io/wallet
+updated: 2022-02-11
+version: "3.1.40"
+stars: 4.0
+ratings: 756
+reviews: 44
+size: 335M
+website: http://www.sylo.io
 repository: 
 issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2020-06-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: sylo
 providerLinkedIn: sylo.io
@@ -33,7 +34,6 @@ redirect_from:
   - /io.sylo.dapp/
   - /posts/io.sylo.dapp/
 ---
-
 
 This app recently came to our attention as it "can be used to buy coke with
 bitcoin". Their Google Play description indeed lists BTC as one of the supported

@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: "eToro Cryptocurrency Trading"
+title: "eToro: Crypto. Stocks. Social."
 altTitle: 
 authors:
 - leo
@@ -8,21 +8,21 @@ appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
 released: 2017-06-26
-updated: 2021-10-27
-version: "353.0.0"
-stars: 4.21676
-reviews: 4678
-size: 145012736
+updated: 2022-02-08
+version: "381.0.0"
+stars: 4.21537
+reviews: 4940
+size: 136559616
 website: http://www.etoro.com
 repository: 
 issue: 
 icon: com.etoro.openbook.jpg
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: etoro
 providerLinkedIn: etoro

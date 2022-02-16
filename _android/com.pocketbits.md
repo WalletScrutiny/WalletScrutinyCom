@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.pocketbits
+appCountry: 
 released: 2021-08-03
 updated: 2021-10-24
 version: "1.3.0"
-stars: 4.5
-ratings: 180
-reviews: 65
+stars: 0.0
+ratings: 
+reviews: 
 size: 32M
 website: https://pocketbits.in/
 repository: 
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
-
 
 providerTwitter: PocketBitsIndia
 providerLinkedIn: pocketbits.in
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

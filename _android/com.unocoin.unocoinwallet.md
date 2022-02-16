@@ -1,28 +1,29 @@
 ---
 wsId: Unocoin
-title: "Unocoin- India’s First Bitcoin & Crypto Exchange"
+title: "Unocoin Indian Crypto Exchange"
 altTitle: 
 authors:
 - leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
+appCountry: 
 released: 2016-11-30
-updated: 2021-12-13
-version: "4.1.5"
-stars: 3.2
-ratings: 17464
-reviews: 9857
-size: 14M
+updated: 2022-02-05
+version: "4.1.10"
+stars: 4.9
+ratings: 20053
+reviews: 209
+size: 12M
 website: https://www.unocoin.com
 repository: 
 issue: 
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: Unocoin
 providerLinkedIn: unocoin
@@ -33,7 +34,6 @@ redirect_from:
   - /com.unocoin.unocoinwallet/
   - /posts/com.unocoin.unocoinwallet/
 ---
-
 
 This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their

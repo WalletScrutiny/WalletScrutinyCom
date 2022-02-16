@@ -6,6 +6,7 @@ authors:
 
 users: 5
 appId: com.main.lbwallet
+appCountry: 
 released: 2021-04-22
 updated: 2021-06-08
 version: "1.0.4"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.main.lbwallet.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

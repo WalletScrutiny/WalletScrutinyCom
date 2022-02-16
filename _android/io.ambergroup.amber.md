@@ -1,28 +1,29 @@
 ---
 wsId: ambercrypto
-title: "WhaleFin - Neobank & Neobroker"
+title: "WhaleFin - Buy Crypto&Bitcoin"
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: io.ambergroup.amber
+appCountry: us
 released: 2020-09-21
-updated: 2021-12-13
-version: "2.0.1"
-stars: 3.5
-ratings: 498
-reviews: 243
-size: 68M
-website: https://www.ambergroup.io
+updated: 2022-01-29
+version: "2.1.1"
+stars: 4.6
+ratings: 2062
+reviews: 84
+size: 78M
+website: https://www.whalefin.com
 repository: 
 issue: 
 icon: io.ambergroup.amber.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: ambergroup_io
 providerLinkedIn: amberbtc
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 The app is a crypto investment app that allows users to: 
 

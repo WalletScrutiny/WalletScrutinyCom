@@ -1,37 +1,56 @@
 ---
 wsId: zeux
-title: "Zeux - Payments, Banking & Investments"
+title: "Zeux - Payments & Investing"
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.zeux.finapp
+appCountry: gb
 released: 2019-05-22
-updated: 2021-04-06
-version: "2.18.0"
-stars: 3.8
-ratings: 1650
-reviews: 1460
+updated: 2021-10-07
+version: "2.20.0"
+stars: 4.2
+ratings: 1654
+reviews: 1244
 size: 36M
-website: https://www.zeux.com/
+website: https://www.zeux.com
 repository: 
 issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
-verdict: defunct
+meta: ok
+verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ZeuxApp
+providerLinkedIn: zeux
+providerFacebook: Zeuxglobal
 providerReddit: 
 
 redirect_from:
 
 ---
+
+**Updated Analysis 2022-01-06**
+
+The Google Play app is accessible and was last updated on 2021-10-07. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479009369316491266)
+
+The iOS version of the app is also accessible and was last updated on 2021-11-09. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479011670475173890)
+
+**Additional Information About Zeux's Crypto Wallet**
+
+Under its [Terms and Conditions](https://www.zeux.com/terms):
+
+> Section 16.3 In order to convert cryptocurrency into fiat currency, cryptocurrency will need to be sent to the unique wallet address created for you in your Zeux account; or fiat currency will need to be sent to your Zeux account.
+>
+> Section 16.5 Once the conversion rate has been confirmed by you to your account manager, your cryptocurrency will be converted to the corresponding fiat currency to the account selected by you. It can either be your Zeux account, or any other bank account in your name. Or your fiat currency in your Zeux account will be converted to the corresponding cryptocurrency to your Zeux crypto wallet.
+
+
+**Previous Analysis**
+
 Zeux is a UK-only payment app that combines fiat and cryptocurrencies. It also provides banking and investment onramps.
 
 > - See your cash, crypto and bank balances in one place

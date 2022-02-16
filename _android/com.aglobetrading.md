@@ -1,11 +1,12 @@
 ---
-wsId:
+wsId: 
 title: "GtWallet"
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.aglobetrading
+appCountry: 
 released: 2021-01-19
 updated: 2021-03-18
 version: "1.6"
@@ -13,26 +14,25 @@ stars: 4.1
 ratings: 46
 reviews: 27
 size: 17M
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.aglobetrading.png
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
-
 
 ⚠️ **Caution:** Some users on Google Play have specified negative experiences with this app.
 

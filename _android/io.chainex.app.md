@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.chainex.app
+appCountry: 
 released: 
 updated: 2021-09-30
 version: "Varies with device"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: io.chainex.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: ChainEXIO
 providerLinkedIn: chainexio
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

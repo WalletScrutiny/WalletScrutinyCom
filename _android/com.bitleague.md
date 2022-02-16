@@ -6,23 +6,24 @@ authors:
 - danny
 users: 1000
 appId: com.bitleague
+appCountry: us
 released: 2019-05-06
 updated: 2021-05-14
 version: "2.15.2"
 stars: 4.6
 ratings: 246
-reviews: 238
+reviews: 139
 size: 19M
-website: https://www.bitleague.com/
+website: https://www.bitleague.com
 repository: 
 issue: 
 icon: com.bitleague.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitLeague_Group
 providerLinkedIn: bitleaguegroup
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

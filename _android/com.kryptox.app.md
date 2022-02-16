@@ -6,23 +6,24 @@ authors:
 
 users: 100
 appId: com.kryptox.app
+appCountry: 
 released: 2021-04-21
 updated: 2021-05-07
 version: "1.8"
-stars: 4.3
-ratings: 6
-reviews: 1
+stars: 0.0
+ratings: 
+reviews: 
 size: 9.9M
-website: 
+website: https://www.kryptox.com
 repository: 
 issue: 
 icon: com.kryptox.app.png
 bugbounty: 
+meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

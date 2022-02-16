@@ -1,7 +1,7 @@
 ---
 wsId: Swapoo
 title: "Swapoo"
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.swapoolabs.swapoowallet
@@ -13,23 +13,24 @@ version: "1.45.30"
 stars: 5
 reviews: 1
 size: 58244096
-website:
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.swapoolabs.swapoowallet.jpg
-bugbounty:
-verdict: defunct
+bugbounty: 
+meta: defunct
+verdict: wip
 date: 2021-11-15
-signer:
+signer: 
 reviewArchive:
 
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
 
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

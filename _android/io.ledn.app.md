@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: io.ledn.app
+appCountry: us
 released: 2021-01-04
 updated: 2021-01-28
 version: "0.1.3"
-stars: 3.5
-ratings: 48
-reviews: 35
+stars: 2.6
+ratings: 70
+reviews: 8
 size: 73M
-website: https://ledn.io/
+website: https://ledn.io
 repository: 
 issue: 
 icon: io.ledn.app.png
 bugbounty: 
+meta: stale
 verdict: custodial
-date: 2021-11-10
+date: 2022-01-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: hodlwithLedn
 providerLinkedIn: ledn-inc
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

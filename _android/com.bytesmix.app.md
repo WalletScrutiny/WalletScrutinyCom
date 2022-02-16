@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.bytesmix.app
+appCountry: cn
 released: 2019-08-11
-updated: 2021-10-31
-version: "2.4.2"
+updated: 2022-01-11
+version: "2.4.4"
 stars: 3.7
-ratings: 394
-reviews: 280
-size: 27M
-website: https://www.bytesmix.com/
+ratings: 400
+reviews: 283
+size: 28M
+website: https://www.bytesmix.com
 repository: 
 issue: 
 icon: com.bytesmix.app.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: bytesmix
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ### Additional Observations
 

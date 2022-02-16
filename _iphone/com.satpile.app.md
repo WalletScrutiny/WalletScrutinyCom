@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.satpile.app.jpg
 bugbounty: 
+meta: stale
 verdict: wip
-date: 2021-06-25
+date: 2022-01-23
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 

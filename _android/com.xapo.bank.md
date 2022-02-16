@@ -6,23 +6,24 @@ authors:
 
 users: 10000
 appId: com.xapo.bank
+appCountry: 
 released: 2021-05-27
-updated: 2021-12-09
-version: "7.13.0"
+updated: 2022-02-03
+version: "7.14.0"
 stars: 1.8
-ratings: 403
-reviews: 275
-size: 47M
-website: https://www.xapo.com
+ratings: 582
+reviews: 15
+size: 39M
+website: https://xapo.com
 repository: 
 issue: 
 icon: com.xapo.bank.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: xapo
 providerLinkedIn: xapo
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-06**: Xapo
 [confirmed on Twitter](https://twitter.com/xapo/status/1423632786112516097)

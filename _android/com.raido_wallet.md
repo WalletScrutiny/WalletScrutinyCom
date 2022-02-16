@@ -6,23 +6,24 @@ authors:
 - danny
 users: 10000
 appId: com.raido_wallet
+appCountry: us
 released: 2020-07-27
-updated: 2021-12-14
-version: "2.7.0"
-stars: 4.1
-ratings: 45
-reviews: 34
-size: 93M
-website: https://raidofinance.eu
+updated: 2022-01-24
+version: "2.8.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 66M
+website: https://raidofinance.eu/
 repository: 
 issue: 
 icon: com.raido_wallet.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
 
 providerTwitter: financialraido
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: com.abit.abit.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: abitofficial
 providerLinkedIn: 
@@ -32,4 +32,5 @@ providerReddit:
 redirect_from:
 
 ---
+
 {% include copyFromAndroid.html %}

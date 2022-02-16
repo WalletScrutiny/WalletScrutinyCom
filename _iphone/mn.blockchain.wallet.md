@@ -18,11 +18,11 @@ repository:
 issue: 
 icon: mn.blockchain.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nobtc
 date: 2021-10-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: EDCBlockchain
 providerLinkedIn: edcblockchain

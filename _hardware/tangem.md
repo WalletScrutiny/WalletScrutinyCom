@@ -19,6 +19,7 @@ repository: https://github.com/tangem
 issue:
 icon: tangem.png
 bugbounty:
+meta: ok
 verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2021-08-08
 signer:

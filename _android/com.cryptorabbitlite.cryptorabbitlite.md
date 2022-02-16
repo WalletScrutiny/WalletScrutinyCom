@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.cryptorabbitlite.cryptorabbitlite
+appCountry: 
 released: 2019-06-26
 updated: 2020-06-26
 version: "1.0.6"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.cryptorabbitlite.cryptorabbitlite.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

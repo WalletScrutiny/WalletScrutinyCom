@@ -6,10 +6,11 @@ authors:
 - leo
 users: 1000
 appId: com.shiftshape.app
+appCountry: 
 released: 2021-08-04
 updated: 2021-08-04
 version: "1.0.0"
-stars: 4.0
+stars: 4
 ratings: 7
 reviews: 3
 size: 5.6M
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.shiftshape.app.png
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2021-08-31
 signer: 
 reviewArchive:
-- date: 2021-08-21
-  version: "1.0.0"
-  appHash: 
-  gitRevision: bc6b1b52f31f708150d15a4d62c2a054df9c78f7
-  verdict: wip
 
 providerTwitter: 
 providerLinkedIn: 
@@ -36,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 **Update 2021-08-23**: This app is no more on Play Store. Some time ago
 we marked as {% include verdictBadge.html verdict="defunct" type='short' %} a

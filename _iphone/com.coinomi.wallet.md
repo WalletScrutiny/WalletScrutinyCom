@@ -8,21 +8,21 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2021-11-20
-version: "1.12.1"
-stars: 4.55548
-reviews: 1451
-size: 139724800
+updated: 2022-02-02
+version: "1.13.2"
+stars: 4.55968
+reviews: 1483
+size: 139253760
 website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.jpg
 bugbounty: 
+meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinomiWallet
 providerLinkedIn: coinomi

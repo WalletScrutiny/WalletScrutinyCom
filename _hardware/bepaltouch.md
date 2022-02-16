@@ -19,6 +19,7 @@ repository:
 issue:
 icon: bepaltouch.png
 bugbounty:
+meta: ok
 verdict: noita 
 date: 2021-07-25
 signer:

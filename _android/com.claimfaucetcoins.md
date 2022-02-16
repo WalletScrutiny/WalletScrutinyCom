@@ -6,23 +6,24 @@ authors:
 - danny
 users: 50000
 appId: com.claimfaucetcoins
+appCountry: 
 released: 2020-04-21
 updated: 2021-06-15
 version: "2.1"
-stars: 3.8
-ratings: 241
-reviews: 138
+stars: 4.3
+ratings: 260
+reviews: 9
 size: 4.9M
 website: 
 repository: 
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 This app does not appear to be a crypto wallet, instead utilizing external services such as Skrill or CoinBase as its wallets.
 

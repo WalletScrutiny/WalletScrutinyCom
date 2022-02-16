@@ -6,23 +6,24 @@ authors:
 - danny
 users: 5000
 appId: com.tideisun.tidepay
+appCountry: us
 released: 2018-05-23
 updated: 2021-07-20
 version: "2.1.3"
-stars: 3.8
-ratings: 26
-reviews: 14
+stars: 0.0
+ratings: 
+reviews: 
 size: 71M
-website: https://isun.one/
+website: https://isun.one
 repository: 
 issue: 
 icon: com.tideisun.tidepay.png
 bugbounty: 
+meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
 
 providerTwitter: isunone1
 providerLinkedIn: isunone
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 ## App Description
 

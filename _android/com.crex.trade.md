@@ -6,6 +6,7 @@ authors:
 
 users: 100
 appId: com.crex.trade
+appCountry: 
 released: 2020-05-20
 updated: 2020-05-26
 version: "1.0.1"
@@ -18,11 +19,11 @@ repository:
 issue: 
 icon: com.crex.trade.png
 bugbounty: 
-verdict: stale
+meta: stale
+verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,5 +33,4 @@ providerReddit:
 redirect_from:
 
 ---
-
 

@@ -6,23 +6,24 @@ authors:
 - danny
 users: 100000
 appId: com.techx.arya
+appCountry: us
 released: 2019-09-10
 updated: 2021-12-13
 version: "2.13.0"
-stars: 4.1
-ratings: 281
-reviews: 116
+stars: 3.7
+ratings: 371
+reviews: 7
 size: 63M
-website: https://arya.xy
+website: https://www.aryatrading.com
 repository: 
 issue: 
 icon: com.techx.arya.png
 bugbounty: 
+meta: ok
 verdict: nowallet
 date: 2021-09-11
 signer: 
 reviewArchive:
-
 
 providerTwitter: TheAryaApp
 providerLinkedIn: thearyaapp
@@ -32,7 +33,6 @@ providerReddit:
 redirect_from:
 
 ---
-
 
 From its Google Play description:
 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.aibb.wallet
+appCountry: us
 released: 2019-04-04
 updated: 2021-10-04
 version: "2.3.15"
@@ -18,15 +19,11 @@ repository:
 issue: 
 icon: com.aibb.wallet.jpg
 bugbounty: 
-verdict: defunct
+meta: defunct
+verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-- date: 2021-10-01
-  version: "2.3.15"
-  appHash: 
-  gitRevision: 1af5b9bcf87d45fe695ccccbca30a4a9d303a0f1
-  verdict: custodial
 
 providerTwitter: BLOCKBANKapp
 providerLinkedIn: 
