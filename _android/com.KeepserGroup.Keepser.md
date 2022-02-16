@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: "Keepser"
+title: "KEEPSER"
 altTitle: 
 authors:
 - danny
-users: 
+users: 10
 appId: com.KeepserGroup.Keepser
-released: 
+appCountry: 
+released: 2021-07-22
 updated: 2021-12-11
-version: 1.4.3
-stars: 
+version: "1.4.3"
+stars: 0.0
 ratings: 
 reviews: 
-size: 
-website: https://www.keepser.com/
+size: 12M
+website: https://www.keepser.io
 repository: 
 issue: 
-icon: keepser.png
+icon: com.KeepserGroup.Keepser.png
 bugbounty: 
-meta:
+meta: ok
 verdict: fewusers
 date: 2022-01-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: keepser
 providerLinkedIn: 
