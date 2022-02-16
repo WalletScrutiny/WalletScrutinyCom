@@ -19,7 +19,8 @@ repository: https://github.com/AngainorDev/WALT_WALLET_BASIC
 issue:
 icon: walt.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: unreleased 
 date: 2022-01-20
 signer:
 reviewArchive:

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: evault.png
 bugbounty:
-verdict: noita   # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: obsolete
+verdict: unreleased   
 date: 2022-01-22
 signer:
 reviewArchive:

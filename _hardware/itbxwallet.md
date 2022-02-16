@@ -19,7 +19,8 @@ repository:
 issue:
 icon: itbxwallet.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: unreleased  
 date: 2022-01-18
 signer:
 reviewArchive:

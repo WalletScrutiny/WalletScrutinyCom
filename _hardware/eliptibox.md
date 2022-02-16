@@ -19,7 +19,8 @@ repository:
 issue:
 icon: eliptibox.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: obsolete
+verdict: unreleased  
 date: 2022-01-19
 signer:
 reviewArchive:

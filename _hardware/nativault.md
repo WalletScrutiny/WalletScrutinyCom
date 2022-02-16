@@ -20,7 +20,7 @@ issue:
 icon: nativault.png
 bugbounty:
 meta: ok
-verdict: noita
+verdict: unreleased
 date: 2022-01-22
 signer:
 reviewArchive:
@@ -32,16 +32,9 @@ providerFacebook:
 providerReddit: 
 ---
 
+**⚠️ Warning: Nativault is holding an ICO Token Pre-Sale in 2022.**
 
-Nativault is holding an [ICO Token Pre-Sale](https://nativault.com/#about):
-
-> ICO Token Details
-> - (Dates are tentative and subject to change)
-> - Token Presale: 15th Feb 2022 - 15th Apr, 2022
-> - Presale Opening Price: $0.01
-> - Capital Target $1,000,000
-> - Token Distributed : Within 60 days after ICO Ends
-> - ICO Opening Price: $0.1
+ICOs to launch a product should be treated with caution.
 
 The provider markets this small USB device as containing "ZVC" or "Zero Vulnerability Computing":
 

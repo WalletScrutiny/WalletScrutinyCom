@@ -19,7 +19,8 @@ repository: https://github.com/BWallet/bwallet-mcu
 issue:
 icon: mybwallet.png
 bugbounty:
-verdict:  defunct # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip 
 date: 2022-01-18
 signer:
 reviewArchive:

@@ -19,7 +19,8 @@ repository:
 issue:
 icon: morixwalletcard.png
 bugbounty:
-verdict: plainkey  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: 
+verdict: plainkey  
 date: 2022-01-24
 signer:
 reviewArchive:

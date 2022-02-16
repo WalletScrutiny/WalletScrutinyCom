@@ -19,6 +19,7 @@ repository:
 issue:
 icon: sigsafe.png
 bugbounty:
+meta: defunct
 verdict: unreleased
 date: 2022-01-18
 signer:

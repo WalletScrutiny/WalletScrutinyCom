@@ -19,7 +19,8 @@ repository: https://github.com/kong-org
 issue:
 icon: kongcash.png
 bugbounty:
-verdict: nobtc  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nobtc  
 date: 2022-01-21
 signer:
 reviewArchive:

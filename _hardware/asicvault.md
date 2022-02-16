@@ -19,7 +19,8 @@ repository: https://github.com/AsicVault/asicvault-hardware
 issue:
 icon: asicvault.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: stale
+verdict: unreleased  
 date: 2022-01-22
 signer:
 reviewArchive:

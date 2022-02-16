@@ -19,7 +19,8 @@ repository:
 issue:
 icon: keepser.png
 bugbounty:
-verdict: plainkey   # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: ok
+verdict: unreleased 
 date: 2022-01-24
 signer:
 reviewArchive:
@@ -71,7 +72,7 @@ The Pro and the Pro+, are the models that are related to cryptocurrency. They re
 
 > To use this application you need a Keepser NFC cold wallet that embeds Freemindtronic's EviToken technology and an Android NFC phone from Android KitKat 4.4, API 19
 
-Apart from that, the Keepser **does not have its own screen display making it reliant on the companion app**. 
+Apart from that, the Keepser **does not have its own screen display interface making it reliant on the companion app**. 
 
 It also does not mention whether it is open source.
 

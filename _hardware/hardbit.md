@@ -19,7 +19,8 @@ repository: https://github.com/hardbitcn
 issue:
 icon: hardbit.png
 bugbounty:
-verdict: nosource
+meta: defunct
+verdict: wip
 date: 2022-01-21
 signer:
 reviewArchive:
@@ -42,22 +43,40 @@ Hardbit's [Technical Whitepaper](http://hardbit.cn/index.php/techonology/3-white
 
 > This system completely shield the private key from the online software, and improve the safety of the Bitcoin account. And more important, this mechanism needs 0 trust between the offline and online software thanks to the manual intervention in the signature process, the open communication protocol between the offline and online software, and multiple confirmations from the offline and online softwares. In other words, the Bitcoin will not be lost even if either or both of the offline and online software is malicious software.
 
-## Can the private keys be created offline?
-
-Yes. The private key is shown via a QR code.
-
-## Are the private keys shared? 
-
 The HB01M interacts with the companion app via the QR code. ([Page 11 of the Hardbit User Manual](https://pan.baidu.com/s/1ntjw0BJ))
 
-## Does the device display the receive address for confirmation?
+The process detailed in its [whitepaper](http://hardbit.cn/index.php/techonology/3-whitepaper) is as follows:
 
-Yes.
+> 5.1 Create a user account in a hardware wallet (fill in password, generate a public and private key pair, use the password to encrypt private key. Only save the encrypted private key)
+>
+> 5.2 Apply for receiving Bitcoin from hardware wallet (display the address, amount, and QR code)
+>
+> 5.3 Payer retrieves the address (copy the text or scan the QR code)
+>
+> 5.4 Payer pays 
+>
+> 5.5 Hardware wallet requests to refresh the balance (QR code displays the address)
+>
+> 5.6 Online software receiveds the request to refresh balance (scan the QR code)
+>
+> 5.7 Online software gets the transaction record of this address from the Bitcoin network
+>
+> 5.8 Online software displays the transaction record (QR code)
+>
+> 5.9 Hardware wallet receives the transaction record (scan the QR code)
+> 
+> 5.10 Hardware wallet gets the payment address and amount (scan the QR code or manually input)
+> 
+> 5.11 Hardware wallet generates unsigned payment transaction
+>
+> 5.12 User inputs the password and hardware wallet signs the transaction
+>
+> 5.13 Hardware wallet displays payment transaction (QR code)
+>
+> 5.14 Online software screens the payment transaction
+>
+> 5.15 Online software verifies the payment transaction (user can confirm manually)
+>
+> 5.16 Online software broadcast this transaction to the Bitcoin network
 
-## Does the interface have a display screen and buttons which allows the user to confirm transaction details?
-
-Yes.
-
-## Is it reproducible?
-
-Only the [companion app's source code](https://github.com/hardbitcn/HardbitSafetyCheck) is shared via the Hardbit repository. We have **not been able to find the firmware and other associated libraries** for the actual device. 
+Only the [companion app's source code](https://github.com/hardbitcn/HardbitSafetyCheck) is shared via the Hardbit repository. We have **not been able to find the firmware and other associated libraries** for the actual device. It is hard to find other information pertaining to this product. Most of its marketing seems to have ended in 2015.   

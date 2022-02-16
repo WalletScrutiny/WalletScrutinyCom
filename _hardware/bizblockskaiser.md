@@ -19,7 +19,8 @@ repository:
 issue:
 icon: bizblockskaiser.png
 bugbounty:
-verdict: noita  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: stale
+verdict: unreleased  
 date: 2022-01-22
 signer:
 reviewArchive:
@@ -58,7 +59,9 @@ The telegram channel also got us a little confused since the channel linked to f
 
 By using Google translate, we were able to understand that Telegram is the venue for technical concerns. 
 
-One thing we know for sure is that we did not see an LED display or buttons on the device to allow the manual inputting of the mnemonic phrase. NFC enabled cards would also require companion apps that may not possess the same security standards of most common hardware wallets. As such, **the interface for this device** may pose security questions. 
+One thing we know for sure is that we did not see an LED display or buttons on the device to allow the manual inputting of the mnemonic phrase. NFC enabled cards would also require companion apps that may not possess the same security standards of most common hardware wallets. As such, **the interface for this device** may pose security questions. Not to mention, the lengthy duration by which there was **no update** for a significant period of time on social media, make us question whether this project is still alive at all. 
+
+To ensure that we got the right information, we reached out to them again on February 16, 2022 via [twitter](https://twitter.com/BitcoinWalletz/status/1493865710380290055) to verify where to buy their product and to ask for more technical information.
 
 
 

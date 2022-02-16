@@ -19,7 +19,8 @@ repository:
 issue:
 icon: bitfreezer.png
 bugbounty:
-verdict: defunct  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: wip  
 date: 2022-01-19
 signer:
 reviewArchive:
@@ -47,4 +48,6 @@ Its website is [no longer online](https://bitfreezer.app/). The accompanying And
 
 ## Verdict
 
-All indications point to a discontinued product.
+All indications point to a discontinued product. 
+
+Moreover, the promotional material shows no screen or buttons, so this product at best was blindly signing whatever an app asked it to sign.

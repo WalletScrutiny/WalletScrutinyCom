@@ -19,7 +19,8 @@ repository: https://github.com/cryptoadvance/specter-diy
 issue:
 icon: specterdiy.png
 bugbounty:
-verdict: wip  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: wip 
 date: 2022-01-19
 signer:
 reviewArchive:

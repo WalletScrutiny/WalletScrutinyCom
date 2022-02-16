@@ -20,7 +20,8 @@ repository:
 issue:
 icon: balletcrypto.png
 bugbounty:
-verdict: noita
+meta: ok
+verdict: plainkey
 date: 2022-01-20
 signer:
 reviewArchive:

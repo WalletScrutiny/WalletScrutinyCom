@@ -19,7 +19,8 @@ repository:
 issue:
 icon: ecomisecurewallet.png
 bugbounty:
-verdict: plainkey # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: plainkey 
 date: 2022-01-22
 signer:
 reviewArchive:

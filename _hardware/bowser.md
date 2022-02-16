@@ -16,16 +16,17 @@ companywebsite:
 country: 
 price: 
 repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/blob/master/README.md
-issue:
+issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
 bugbounty:
-verdict: wip
+meta: ok
+verdict: noita
 date: 2022-01-20
 signer:
 reviewArchive:
 
 
-providerTwitter: 
+providerTwitter: arcbtc
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 

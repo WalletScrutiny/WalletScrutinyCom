@@ -19,7 +19,8 @@ repository:
 issue:
 icon: octowallet.png
 bugbounty:
-verdict: defunct  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: defunct
+verdict: nosource
 date: 2022-01-24
 signer:
 reviewArchive:

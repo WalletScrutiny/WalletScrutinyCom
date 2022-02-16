@@ -19,7 +19,8 @@ repository: https://github.com/firefly/wallet/
 issue:
 icon: fireflyteensy.png
 bugbounty:
-verdict: nobtc  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: obsolete
+verdict: nobtc  
 date: 2022-01-22
 signer:
 reviewArchive:
