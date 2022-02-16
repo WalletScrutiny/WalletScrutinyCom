@@ -19,6 +19,7 @@ repository:
 issue:
 icon: myceliumcard.png
 bugbounty:
+meta: defunct
 verdict: unreleased # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
 date: 2022-02-17
 signer:
@@ -42,3 +43,5 @@ The card made use of colored coins as tokens pegged to fiat currency. It also ma
 
 The card is linked to {% include walletLink.html wallet='android/com.mycelium.wallet' verdict='true' %}
 
+As there were no updates on the product in many years, we consider it to be
+defunct.
