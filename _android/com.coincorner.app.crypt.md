@@ -8,12 +8,12 @@ users: 10000
 appId: com.coincorner.app.crypt
 appCountry: 
 released: 2014-09-10
-updated: 2022-01-10
-version: "4.0.3"
+updated: 2022-02-15
+version: "4.0.5"
 stars: 0.0
 ratings: 
 reviews: 
-size: 42M
+size: 43M
 website: https://www.coincorner.com
 repository: 
 issue: 

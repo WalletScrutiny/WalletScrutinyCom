@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mitin.app.sw.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-02
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-09**: This app is no more.
 
 ## App Description
 

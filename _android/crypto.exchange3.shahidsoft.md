@@ -4,7 +4,7 @@ title: "Crypto Exchange"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: crypto.exchange3.shahidsoft
 appCountry: 
 released: 2021-07-12

@@ -11,7 +11,7 @@ released: 2021-04-30
 updated: 2021-07-19
 version: "1.1.7"
 stars: 3.4
-ratings: 104
+ratings: 105
 reviews: 4
 size: 13M
 website: https://wyretrade.com/

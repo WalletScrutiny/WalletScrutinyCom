@@ -8,8 +8,8 @@ users: 10000
 appId: com.moonlet
 appCountry: ro
 released: 2020-04-21
-updated: 2021-11-29
-version: "1.5.23"
+updated: 2022-02-15
+version: "1.5.24"
 stars: 4.0
 ratings: 639
 reviews: 4

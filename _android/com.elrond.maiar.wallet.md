@@ -8,11 +8,11 @@ users: 500000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2022-02-11
-version: "1.4.5"
+updated: 2022-02-15
+version: "1.4.6"
 stars: 4.2
-ratings: 6011
-reviews: 128
+ratings: 6026
+reviews: 129
 size: 86M
 website: https://maiar.com/
 repository: 

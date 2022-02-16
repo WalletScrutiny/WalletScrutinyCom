@@ -4,14 +4,14 @@ title: "Bitcoin Trading - Capital.com"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
 updated: 2022-02-14
 version: "1.39.3"
 stars: 4.3
-ratings: 1204
+ratings: 1205
 reviews: 27
 size: 40M
 website: https://expcapital.com

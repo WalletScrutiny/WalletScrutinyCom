@@ -10,8 +10,8 @@ appCountry:
 released: 2017-09-18
 updated: 2020-05-30
 version: "5.5.1"
-stars: 4.2
-ratings: 133
+stars: 4.3
+ratings: 134
 reviews: 16
 size: 16M
 website: https://particl.io

@@ -10,9 +10,9 @@ appCountry:
 released: 2017-07-07
 updated: 2022-02-07
 version: "4.9.12"
-stars: 3.3
-ratings: 1575
-reviews: 77
+stars: 3.2
+ratings: 1578
+reviews: 78
 size: 42M
 website: https://www.coincola.com
 repository: 

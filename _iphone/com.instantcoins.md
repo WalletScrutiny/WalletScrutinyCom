@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.instantcoins.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-11-03
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -33,5 +33,6 @@ redirect_from:
 
 ---
 
-{% include copyFromAndroid.html %}
+**Update 2022-02-09**: This app is no more.
 
+{% include copyFromAndroid.html %}

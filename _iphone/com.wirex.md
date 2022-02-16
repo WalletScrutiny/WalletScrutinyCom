@@ -8,8 +8,8 @@ appId: com.wirex
 appCountry: us
 idd: 1090004654
 released: 2016-03-22
-updated: 2022-02-11
-version: "3.30"
+updated: 2022-02-15
+version: "3.30.1"
 stars: 3.87805
 reviews: 410
 size: 99724288

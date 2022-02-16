@@ -10,8 +10,8 @@ appCountry:
 released: 2019-03-21
 updated: 2020-05-13
 version: "3.6.0"
-stars: 2.9
-ratings: 20
+stars: 3.0
+ratings: 21
 reviews: 10
 size: 18M
 website: https://www.getcoins.com

@@ -11,7 +11,7 @@ released: 2019-06-12
 updated: 2020-10-18
 version: "1.0.22"
 stars: 4.5
-ratings: 53
+ratings: 54
 reviews: 4
 size: 3.2M
 website: https://github.com/technologiespro/paper-wallet-generator

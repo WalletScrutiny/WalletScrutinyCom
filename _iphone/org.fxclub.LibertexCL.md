@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.fxclub.LibertexCL.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosendreceive
-date: 2021-12-30
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -32,5 +32,7 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-09**: This app is no more.
 
 {% include copyFromAndroid.html %}

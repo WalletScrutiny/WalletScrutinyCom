@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.primexbt.exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,5 @@ redirect_from:
 
 ---
 
+
+**Update 2022-02-03**: This app is no more.

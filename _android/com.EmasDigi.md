@@ -8,10 +8,10 @@ users: 1000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2022-02-08
-version: "4.8.1"
-stars: 3.9
-ratings: 25762
+updated: 2022-02-15
+version: "4.8.3"
+stars: 3.8
+ratings: 25856
 reviews: 82
 size: 14M
 website: https://pluang.com

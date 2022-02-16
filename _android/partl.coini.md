@@ -8,10 +8,10 @@ users: 10000
 appId: partl.coini
 appCountry: 
 released: 2018-02-04
-updated: 2022-01-30
-version: "2.3.8"
+updated: 2022-02-15
+version: "2.3.9"
 stars: 4.6
-ratings: 288
+ratings: 289
 reviews: 32
 size: 47M
 website: https://timopartl.com/Coini

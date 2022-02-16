@@ -8,12 +8,12 @@ users: 10000
 appId: com.pilotmobiletrading
 appCountry: ca
 released: 2019-06-09
-updated: 2022-01-03
-version: "6.02.475"
+updated: 2022-02-15
+version: "6.02.486"
 stars: 4.7
 ratings: 67
 reviews: 8
-size: 29M
+size: 28M
 website: https://pilottrading.co/
 repository: 
 issue: 

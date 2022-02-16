@@ -11,7 +11,7 @@ released: 2020-12-10
 updated: 2022-02-14
 version: "1.22.1"
 stars: 4.3
-ratings: 216
+ratings: 217
 reviews: 74
 size: 17M
 website: https://expcapital.com/

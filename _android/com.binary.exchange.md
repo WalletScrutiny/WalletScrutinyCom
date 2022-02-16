@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.binary.exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-09-23
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -34,3 +34,4 @@ redirect_from:
 
 ---
 
+**Update 2022-02-09**: This app is no more.

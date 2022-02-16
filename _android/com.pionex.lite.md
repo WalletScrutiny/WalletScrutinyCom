@@ -10,8 +10,8 @@ appCountry: cn
 released: 2021-05-14
 updated: 2021-12-17
 version: "1.1.9"
-stars: 3.5
-ratings: 32
+stars: 3.6
+ratings: 33
 reviews: 16
 size: 51M
 website: https://www.pionex.sg/blog/

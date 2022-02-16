@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobile.BetaDeal.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-07**: This app is no more.
 
 ## App Description
 

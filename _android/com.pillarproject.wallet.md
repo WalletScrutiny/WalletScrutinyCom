@@ -11,8 +11,8 @@ released: 2018-12-13
 updated: 2022-02-01
 version: "3.9.2"
 stars: 4.2
-ratings: 1000
-reviews: 84
+ratings: 1002
+reviews: 85
 size: 53M
 website: http://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet

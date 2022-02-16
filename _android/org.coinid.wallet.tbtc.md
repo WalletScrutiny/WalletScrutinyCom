@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.coinid.wallet.tbtc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-22
+date: 2022-02-16
 signer: 
 reviewArchive:
 

@@ -19,9 +19,9 @@ repository: https://github.com/wallet-io
 issue: 
 icon: io.wallet.pro.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-19
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-09**: This app is no more.
 
 **Note**: This is the PRO version for:
 

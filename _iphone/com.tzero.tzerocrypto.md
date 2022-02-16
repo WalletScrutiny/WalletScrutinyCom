@@ -10,8 +10,8 @@ idd: 1468985150
 released: 2019-06-28
 updated: 2022-01-20
 version: "2.0.9"
-stars: 4.65223
-reviews: 716
+stars: 4.65733
+reviews: 715
 size: 76243968
 website: https://www.tzero.com/crypto-app
 repository: 

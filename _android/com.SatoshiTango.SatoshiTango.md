@@ -11,7 +11,7 @@ released: 2015-06-24
 updated: 2022-01-30
 version: "4.2.14"
 stars: 3.7
-ratings: 5453
+ratings: 5454
 reviews: 37
 size: 66M
 website: http://www.satoshitango.com

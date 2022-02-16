@@ -4,7 +4,7 @@ title: "Coinbase Wallet Lite"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.coinbase.wallite
 appCountry: 
 released: 2019-04-16

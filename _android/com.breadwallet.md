@@ -8,10 +8,10 @@ users: 5000000
 appId: com.breadwallet
 appCountry: 
 released: 2016-07-21
-updated: 2022-01-14
+updated: 2022-02-14
 version: "4.15.0"
 stars: 3.7
-ratings: 33612
+ratings: 33617
 reviews: 1456
 size: 32M
 website: https://brd.com

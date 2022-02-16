@@ -8,11 +8,11 @@ appId: com.blocktrade.ios
 appCountry: us
 idd: 1360294403
 released: 2018-10-30
-updated: 2022-01-04
-version: "1.6.0"
+updated: 2022-02-14
+version: "1.6.1"
 stars: 5
 reviews: 8
-size: 46650368
+size: 46765056
 website: http://blocktrade.com
 repository: 
 issue: 

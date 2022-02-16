@@ -10,8 +10,8 @@ idd: 1223340174
 released: 2017-06-08
 updated: 2022-02-10
 version: "1.43.0"
-stars: 4.55088
-reviews: 285
+stars: 4.54196
+reviews: 286
 size: 77647872
 website: https://cryptopay.me/
 repository: 

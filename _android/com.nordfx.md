@@ -11,7 +11,7 @@ released: 2021-02-28
 updated: 2021-11-18
 version: "14"
 stars: 4.2
-ratings: 151
+ratings: 152
 reviews: 40
 size: 40M
 website: http://nordfx.com

@@ -11,7 +11,7 @@ released: 2020-09-28
 updated: 2021-10-21
 version: "1.1.6"
 stars: 5.0
-ratings: 35
+ratings: 36
 reviews: 10
 size: 64M
 website: https://dokwallet.com/

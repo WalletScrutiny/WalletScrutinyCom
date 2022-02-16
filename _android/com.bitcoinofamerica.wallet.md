@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-03-08
+date: 2022-02-16
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-03**: This app is no more.
 
 In the description we read:
 

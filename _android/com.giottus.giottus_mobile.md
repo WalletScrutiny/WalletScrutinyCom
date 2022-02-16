@@ -11,7 +11,7 @@ released: 2021-02-01
 updated: 2022-02-08
 version: "2.1.42"
 stars: 4.8
-ratings: 15226
+ratings: 15267
 reviews: 18
 size: 34M
 website: https://www.giottus.com
