@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Lightning (Remove Funds by Dec 31st)"
 altTitle: 
+authors:
 
 users: 1000
 appId: engineering.lightning.LightningMainnet
-launchDate: 
-latestUpdate: 2020-10-02
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2020-10-02
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,12 +19,11 @@ repository: https://github.com/lightninglabs/lightning-app
 issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-30
-reviewStale: true
+meta: defunct
+verdict: wip
+date: 2021-02-04
 signer: 
 reviewArchive:
-
 
 providerTwitter: lightning
 providerLinkedIn: 
@@ -33,6 +35,9 @@ redirect_from:
   - /posts/engineering.lightning.LightningMainnet/
 ---
 
+**Update:** This app is not supported by its provider anymore. As the name reads
+"Lightning (Remove Funds by Dec 31st)" and the description talks about "3
+months" we assume this app still being on Google Play is an accident.
 
 From the description:
 

@@ -1,26 +1,28 @@
 ---
+wsId: Trustee
 title: "Trustee Wallet bitcoin wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.trusteewallet
+appCountry: 
 idd: 1462924276
 released: 2019-06-14
-updated: 2021-01-07
-version: "1.40.728"
-score: 5
-reviews: 3
-size: 66892800
-developerWebsite: https://trustee.deals/
+updated: 2022-02-11
+version: "1.50.5"
+stars: 3.18182
+reviews: 11
+size: 73391104
+website: https://trusteeglobal.com/
 repository: 
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
-reviewStale: true
+meta: ok
+verdict: nonverifiable
+date: 2021-07-30
 signer: 
 reviewArchive:
-
 
 providerTwitter: Trustee_Wallet
 providerLinkedIn: 
@@ -30,6 +32,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2021-02-07**: This wallet
+[has its issues](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/3514) you
+might want to take into consideration, too.
 
 On the App Store the provider claims:
 
@@ -53,6 +59,6 @@ On public source their website claims:
 
 and we found [their GitHub](https://github.com/trustee-wallet/trusteeWallet).
 
-There they comment in length on the issue of reproducibility for
-[their Android wallet](/android/com.trusteewallet) but make no such claims for
-their iPhone product wich leads us to the verdict: **not verifiable**.
+There they comment in length on the issue of reproducibility for their Android app
+{% include walletLink.html wallet='android/com.trusteewallet' %} but make no such claims for
+their iPhone product which leads us to the verdict: **not verifiable**.

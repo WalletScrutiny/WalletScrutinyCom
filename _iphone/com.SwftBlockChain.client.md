@@ -1,33 +1,41 @@
 ---
+wsId: swft
 title: "SWFT Blockchain"
 altTitle: 
-
+authors:
+- leo
 appId: com.SwftBlockChain.client
+appCountry: 
 idd: 1435569339
 released: 2018-09-28
-updated: 2021-01-09
-version: "5.5.14"
-score: 4.57463
-reviews: 134
-size: 152794112
-developerWebsite: 
+updated: 2022-02-12
+version: "5.15.21"
+stars: 4.41026
+reviews: 117
+size: 120958976
+website: http://www.swft.pro
 repository: 
 issue: 
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-24
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: SwftCoin
+providerLinkedIn: swftcoin
+providerFacebook: SWFTBlockchain
 providerReddit: 
 
 redirect_from:
 
 ---
 
+The description on App Store is full of buzzwords like big data, machine
+learning but no clear words on weather this wallet is custodial or not. Given
+its strong emphasis on speed and many coins and no words on the usual seed words,
+we have to assume it is indeed custodial. Their [FAQ](https://www.swft.pro/#/FAQ)
+also sounds more like a custodial exchange than a wallet. This app is certainly
+**not verifiable**.

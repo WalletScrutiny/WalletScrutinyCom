@@ -1,26 +1,29 @@
 ---
+wsId: coinpayapp
 title: "Coin Pay Wallet: Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
+- danny
 appId: com.coinpayapp.CoinPay
+appCountry: 
 idd: 1477731032
 released: 2019-12-04
-updated: 2020-08-29
-version: "2020.08.28"
-score: 4.14492
-reviews: 69
-size: 21357568
-developerWebsite: https://www.coinpayapp.com
+updated: 2021-10-21
+version: "2021.10.19"
+stars: 4.03636
+reviews: 110
+size: 22103040
+website: https://www.coinpayapp.com
 repository: 
 issue: 
 icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-24
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,3 +34,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

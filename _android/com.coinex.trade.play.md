@@ -1,27 +1,29 @@
 ---
-title: "CoinEx"
+wsId: CoinEx
+title: "CoinEx - Crypto Exchange"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 1000000
 appId: com.coinex.trade.play
-launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "1.9.3"
+appCountry: 
+released: 2019-12-27
+updated: 2022-01-22
+version: "3.6.2"
 stars: 4.5
-ratings: 1585
-reviews: 670
-size: 13M
-website: https://www.coinex.co
+ratings: 58316
+reviews: 899
+size: 18M
+website: https://www.coinex.com/
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-04-15
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: coinexcom
 providerLinkedIn: 
@@ -32,7 +34,6 @@ redirect_from:
   - /com.coinex.trade.play/
   - /posts/com.coinex.trade.play/
 ---
-
 
 The description on Google Play starts not so promising:
 

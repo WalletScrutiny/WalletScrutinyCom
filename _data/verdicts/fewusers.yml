@@ -1,0 +1,9 @@
+short: Few Users
+title: Few users
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This product has too few users for now to be reviewed in detail.
+question: Do many people use this product?
+details: >
+  We focus on products that have the biggest impact if things go wrong and this
+  one probably doesn't have many users according to data publicly available.

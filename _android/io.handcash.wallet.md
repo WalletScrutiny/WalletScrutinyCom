@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "HandCash"
 altTitle: 
+authors:
 
-users: 5000
+users: 50000
 appId: io.handcash.wallet
-launchDate: 2019-09-10
-latestUpdate: 2020-06-11
-apkVersionName: "2.1.4"
-stars: 4.2
-ratings: 226
-reviews: 167
-size: 31M
+appCountry: 
+released: 2019-09-10
+updated: 2022-01-10
+version: "2.7.2"
+stars: 4.3
+ratings: 553
+reviews: 70
+size: 78M
 website: https://handcash.io
 repository: 
 issue: 
 icon: io.handcash.wallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nobtc
 date: 2019-12-28
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: handcashapp
 providerLinkedIn: 
@@ -32,6 +34,5 @@ redirect_from:
   - /io.handcash.wallet/
   - /posts/io.handcash.wallet/
 ---
-
 
 A BSV wallet.

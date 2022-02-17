@@ -1,37 +1,38 @@
 ---
+wsId: Mercuryo
 title: "Mercuryo Bitcoin Cryptowallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.mercuryo.app
-launchDate: 
-latestUpdate: 2021-01-11
-apkVersionName: "1.10.8"
-stars: 4.2
-ratings: 1737
-reviews: 1067
-size: 41M
+appCountry: 
+released: 2019-09-03
+updated: 2022-01-17
+version: "2.0.24"
+stars: 4.0
+ratings: 2684
+reviews: 45
+size: 46M
 website: https://mercuryo.io
 repository: 
 issue: 
 icon: com.mercuryo.app.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: Mercuryo_io
-providerLinkedIn: company/mercuryo-io
+providerLinkedIn: mercuryo-io
 providerFacebook: mercuryo.io
 providerReddit: mercuryo
 
 redirect_from:
   - /com.mercuryo.app/
 ---
-
 
 This app has a strong focus on cashing in and out with linked cards and low
 exchange fees but no word on who holds the keys. At least not on Google Play.

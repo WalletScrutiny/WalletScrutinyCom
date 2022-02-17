@@ -1,33 +1,39 @@
 ---
+wsId: Totalcoin
 title: "Bitcoin Wallet App - Totalcoin"
 altTitle: 
-
+authors:
+- leo
 appId: io.totalcoin.wallet
+appCountry: 
 idd: 1392398906
 released: 2018-07-05
-updated: 2021-01-14
-version: "2.9.5"
-score: 4.59016
-reviews: 61
-size: 55375872
-developerWebsite: 
+updated: 2022-02-10
+version: "4.2.0"
+stars: 4.45744
+reviews: 94
+size: 46004224
+website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-24
 signer: 
 reviewArchive:
 
-
 providerTwitter: 
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: totalcoin.io
 providerReddit: 
 
 redirect_from:
 
 ---
 
+On the wallet's website there is no claim about custodianship which makes us
+assume it is a custodial product.
+
+As such it is **not verifiable**.

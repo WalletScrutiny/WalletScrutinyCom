@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "KyberSwap: Buy, Trade, Transfer Cryptocurrencies"
 altTitle: 
+authors:
 
-users: 10000
+users: 50000
 appId: com.kyberswap.android
-launchDate: 
-latestUpdate: 2020-10-16
-apkVersionName: "1.1.33"
+appCountry: 
+released: 2019-08-14
+updated: 2021-07-21
+version: "1.1.37"
 stars: 4.2
-ratings: 1714
-reviews: 824
+ratings: 1810
+reviews: 871
 size: 19M
 website: https://kyberswap.com
 repository: 
 issue: 
 icon: com.kyberswap.android.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: true
+meta: defunct
+verdict: nobtc
+date: 2021-08-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: KyberSwap
 providerLinkedIn: 
@@ -32,6 +34,7 @@ redirect_from:
   - /com.kyberswap.android/
 ---
 
+**Update 2021-08-17**: This app is not the the Play Store anymore
 
 > KyberSwap as an Ethereum DEX (decentralised exchange), does not hold custody of your assets or digital currencies, so you are always in full control.
 

@@ -1,26 +1,29 @@
 ---
+wsId: FreeWalletIO
 title: "FreeWallet"
 altTitle: 
-
+authors:
+- leo
+- danny
 appId: io.freewallet.mobile
+appCountry: 
 idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: "1.0.9"
-score: 4
-reviews: 2
+stars: 3.22222
+reviews: 9
 size: 13651968
-developerWebsite: https://freewallet.io
+website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
-reviewStale: false
+meta: obsolete
+verdict: ftbfs
+date: 2021-10-22
 signer: 
 reviewArchive:
-
 
 providerTwitter: freewallet
 providerLinkedIn: 
@@ -30,6 +33,10 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-01-04**: The iOS version of the app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478292560443367427). The last update however was 2019-03-18.
+
+**Update 2021-10-12**: This app is not available anymore.
 
 In the description we can read:
 
@@ -45,4 +52,4 @@ claims?
 
 On their website we find a link to their GitHub and from their to the mobile
 wallet's repository. There we find no claims of reproducibility and not even
-build isntructions, so this app is **not verifiable**.
+build instructions, so this app is **not verifiable**.

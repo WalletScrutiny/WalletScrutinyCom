@@ -1,26 +1,28 @@
 ---
-title: "Ownbit - Blockchain Wallet"
+wsId: ownbit
+title: "Ownbit: Cold & MultiSig Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitbill.wallet
+appCountry: 
 idd: 1321798216
 released: 2018-02-07
-updated: 2021-01-13
-version: "4.25.2"
-score: 4.53191
-reviews: 47
-size: 106485760
-developerWebsite: 
+updated: 2021-10-17
+version: "4.32.1"
+stars: 4.41176
+reviews: 51
+size: 118890496
+website: http://www.bitbill.com
 repository: 
 issue: 
 icon: com.bitbill.wallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,3 +33,4 @@ redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

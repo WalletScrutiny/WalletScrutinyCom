@@ -1,0 +1,49 @@
+short: Custodial!
+title: 'Custodial: The provider holds the keys'
+color: '#d33100'
+redflag: true
+message: >
+  As the provider of this product holds the keys, verifiability of the
+  product is not relevant to the security of the funds!
+question: Is the product self-custodial?
+details: >
+  A custodial service is a service where the funds are held by a third party
+  like the provider. The custodial service can at any point steal all the
+  funds of all the users at their discretion. Our investigations
+  stop there.
+
+
+  Some services might claim their setup is super secure, that they don't
+  actually have access to the funds, or that the access is shared between
+  multiple parties. For our evaluation of it being a wallet, these details are
+  irrelevant. They might be a trustworthy Bitcoin bank and they might be a
+  better fit for certain users than being your own bank but our investigation
+  still stops there as we are only interested in wallets.
+
+
+  **Products that claim to be non-custodial but feature custodial accounts without
+  very clearly marking those as custodial are also considered "custodial" as a
+  whole to avoid misguiding users that follow our assessment.**
+
+
+  This verdict means that the provider might or might not publish source code and maybe
+  it is even possible to reproduce the build from the source code but as it is
+  custodial, the provider already has control over the funds, so it
+  is not a wallet where you would be in exclusive control of your funds.
+  
+  
+  We have to acknowledge that a huge majority of Bitcoiners are currently using
+  custodial Bitcoin banks. If you do, please:
+
+
+  * Do your own research if the provider is trust-worthy!
+  
+  * Check if you know at least enough about them so you can sue them when you have to!
+  
+  * Check if the provider is under a jurisdiction that will allow them to
+    release your funds when you need them?  
+  * Check if the provider is taking security measures proportional to the amount of
+    funds secured? If they have a million users and don't use cold storage,
+    that hot wallet is a million times more valuable for hackers to attack.
+    A million times more effort will be taken by hackers to infiltrate their
+    security systems.

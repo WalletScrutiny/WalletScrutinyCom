@@ -1,33 +1,41 @@
 ---
-title: "LiteBit - Buy & sell Bitcoin"
+wsId: LiteBit
+title: "LiteBit – Buy Bitcoin & crypto"
 altTitle: 
-
+authors:
+- leo
 appId: com.litebit.app
+appCountry: 
 idd: 1448841440
 released: 2019-08-20
-updated: 2020-12-29
-version: "2.13.0"
-score: 4
-reviews: 4
-size: 125878272
-developerWebsite: https://www.litebit.eu/en/
+updated: 2022-01-24
+version: "3.3.0"
+stars: 4
+reviews: 8
+size: 70895616
+website: https://www.litebit.eu/en/
 repository: 
 issue: 
 icon: com.litebit.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-30
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: litebiteu
+providerLinkedIn: litebit
+providerFacebook: litebiteu
 providerReddit: 
 
 redirect_from:
 
 ---
 
+> All you need is a LiteBit account.
+
+If you need an account, it's probably custodial.
+
+On their website there is no contrary claims so we assume this app is
+**not verifiable**.

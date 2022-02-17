@@ -1,29 +1,31 @@
 ---
+wsId: GreenBitcoinWallet
 title: "Green: Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.blockstream.green
+appCountry: 
 idd: 1402243590
 released: 2019-03-22
-updated: 2021-01-14
-version: "3.4.7"
-score: 4.06329
-reviews: 79
-size: 31587328
-developerWebsite: https://blockstream.green
+updated: 2022-01-21
+version: "3.7.8"
+stars: 3.73214
+reviews: 112
+size: 48401408
+website: https://blockstream.green
 repository: 
 issue: 
 icon: io.blockstream.green.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nonverifiable
 date: 2020-12-19
-reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: Blockstream
-providerLinkedIn: company/blockstream
+providerLinkedIn: blockstream
 providerFacebook: Blockstream
 providerReddit: 
 

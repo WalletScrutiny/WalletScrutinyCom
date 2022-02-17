@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Blockchain"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.blockchain.android
-launchDate: 2020-06-15
-latestUpdate: 2021-01-04
-apkVersionName: "1.0.7.5"
+appCountry: 
+released: 2020-06-15
+updated: 2021-01-04
+version: "1.0.7.5"
 stars: 4.4
 ratings: 2737
 reviews: 532
@@ -16,12 +19,11 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.android.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
-reviewStale: true
+meta: defunct
+verdict: obfuscated
+date: 2021-01-15
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -29,12 +31,14 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /com.blockchain.android/
+
 ---
 
+**Update:** This wallet is no more but never looked too likely to stay around
+for long:
 
 This app looks shady and might try to imitate
-[this popular wallet](/piuk.blockchain.android/).
+{% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}.
 
 As of writing this analysis, their names and logos resemble one another and even
 the app id looks better than the "original":
@@ -79,7 +83,8 @@ As the latest update was only days ago, yet the latest code change on GitHub was
 published months ago, there is no point in trying to reproduce the build.
 
 And here it gets a bit wild: This repository is nothing new. It is also
-referenced in the [Bitcoin Wallet Blockchain](/com.bitcoin.wallet.btc/)!
+referenced in the
+{% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict='true' %}!
 Both apps are by the same provider: InvoVN Solutions. Read up on that other
 wallet as it's not really reassuring.
 

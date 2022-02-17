@@ -1,5 +1,5 @@
 ---
-platform: "Bitcoin Takeover Podcast"
+platform: "Cripto Noticias"
 date: 2020-05-13
 publicationName: "Leo Wandersleb: La seguridad de las carteras solo mejorará si los usuarios se preocupan"
 author: "Elena Cazes"

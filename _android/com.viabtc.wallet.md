@@ -1,27 +1,29 @@
 ---
-title: "ViaWallet - Multi-chain Wallet"
+wsId: ViaWallet
+title: "ViaWallet - Multi chain Wallet"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.viabtc.wallet
-launchDate: 2019-05-15
-latestUpdate: 2020-12-18
-apkVersionName: "2.2.2"
-stars: 4.5
-ratings: 169
-reviews: 74
-size: 49M
+appCountry: 
+released: 2019-05-15
+updated: 2022-01-28
+version: "2.9.0"
+stars: 4.1
+ratings: 612
+reviews: 28
+size: 60M
 website: https://viawallet.com
 repository: 
 issue: 
 icon: com.viabtc.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-04-27
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: viawallet
 providerLinkedIn: 
@@ -32,7 +34,6 @@ redirect_from:
   - /com.viabtc.wallet/
   - /posts/com.viabtc.wallet/
 ---
-
 
 This app's description contains
 

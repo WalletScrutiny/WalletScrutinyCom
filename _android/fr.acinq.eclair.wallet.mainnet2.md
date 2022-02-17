@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "Eclair Mobile"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
-launchDate: 2018-04-12
-latestUpdate: 2021-01-05
-apkVersionName: "0.4.13"
-stars: 4.0
-ratings: 348
-reviews: 162
-size: 28M
+appCountry: 
+released: 2018-04-12
+updated: 2021-09-28
+version: "0.4.17"
+stars: 4.1
+ratings: 376
+reviews: 41
+size: 29M
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: ftbfs
 date: 2019-12-22
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: acinq_co
 providerLinkedIn: 
@@ -34,7 +36,6 @@ redirect_from:
   - /posts/2019/12/eclair/
   - /posts/fr.acinq.eclair.wallet.mainnet2/
 ---
-
 
 This wallet has a really short description. Here it is in full:
 

@@ -1,0 +1,17 @@
+short: Fake!
+title: Fake
+color: '#d33100'
+redflag: true
+message: The product mimics a popular competitor!
+question: Is this product the original?
+details: >
+  The bigger wallets often get imitated by scammers that abuse the reputation
+  of the product by immitating its name, logo or both.
+  
+  <div class="alertBox">
+  <div>
+  <p>Immitating a competitor is a huge red flag and we urge you to not put any
+  money into this product!</p>
+  </div>
+  </div>
+  

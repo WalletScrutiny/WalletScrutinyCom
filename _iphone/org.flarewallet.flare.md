@@ -1,26 +1,28 @@
 ---
+wsId: FlareWallet
 title: "Flare Wallet"
 altTitle: 
+authors:
 
 appId: org.flarewallet.flare
+appCountry: 
 idd: 1496651406
 released: 2020-02-11
-updated: 2021-01-02
-version: "1.3.9"
-score: 4.16129
-reviews: 31
-size: 24001536
-developerWebsite: https://flarewallet.io
+updated: 2021-03-13
+version: "1.4.0"
+stars: 3.94444
+reviews: 36
+size: 24013824
+website: https://flarewallet.io
 repository: 
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,3 +33,10 @@ redirect_from:
 
 ---
 
+ {% include copyFromAndroid.html %}
+
+Old Review
+---
+
+**Update:** We did not get to review this app before it was removed from the App
+Store.

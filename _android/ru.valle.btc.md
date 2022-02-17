@@ -1,28 +1,34 @@
 ---
+wsId: 
 title: "Bitcoin Paper Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: ru.valle.btc
-launchDate: 2013-04-19
-latestUpdate: 2020-03-22
-apkVersionName: "Varies with device"
-stars: 4.3
-ratings: 146
-reviews: 48
+appCountry: 
+released: 2013-04-19
+updated: 2021-11-05
+version: "Varies with device"
+stars: 4.6
+ratings: 163
+reviews: 12
 size: Varies with device
-website: https://www.linkedin.com/in/vkonovalov
+website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-04
-reviewStale: false
+meta: ok
+verdict: ftbfs
+date: 2021-11-30
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
-
-
+- date: 2020-08-04
+  version: "Varies with device"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 providerTwitter: 
 providerLinkedIn: 
 providerFacebook: 
@@ -32,7 +38,6 @@ redirect_from:
   - /ru.valle.btc/
   - /posts/ru.valle.btc/
 ---
-
 
 **Update:** After
 [feedback from the developer](https://github.com/ValleZ/Paper-Wallet/issues/42#issuecomment-668759686)

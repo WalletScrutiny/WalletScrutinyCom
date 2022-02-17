@@ -1,0 +1,36 @@
+---
+wsId: 
+title: "Smart Secure Wallet - SmartHoldem STH Coin"
+altTitle: 
+authors:
+
+users: 100
+appId: io.smartholdem.client
+appCountry: 
+released: 2020-03-01
+updated: 2021-11-14
+version: "1.0.16"
+stars: 0.0
+ratings: 
+reviews: 
+size: 7.3M
+website: https://smartholdem.io
+repository: 
+issue: 
+icon: io.smartholdem.client.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2021-11-16
+signer: 
+reviewArchive:
+
+providerTwitter: 
+providerLinkedIn: 
+providerFacebook: 
+providerReddit: 
+
+redirect_from:
+
+---
+

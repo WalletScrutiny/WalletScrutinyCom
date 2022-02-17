@@ -1,26 +1,28 @@
 ---
+wsId: sixdays
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.sixdays.trust
+appCountry: 
 idd: 1288339409
 released: 2017-09-27
-updated: 2021-01-04
-version: "5.10"
-score: 4.78918
-reviews: 16635
-size: 40035328
-developerWebsite: https://trustwallet.com
+updated: 2022-01-24
+version: "6.18"
+stars: 4.68351
+reviews: 160902
+size: 37187584
+website: https://trustwallet.com
 repository: 
 issue: 
 icon: com.sixdays.trust.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-12-23
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustwalletapp
 providerLinkedIn: 
@@ -43,7 +45,7 @@ On their website they are more specific:
 > **Private & Secure**<br>
   Only you can access your wallet. We don’t collect any personal data.
 
-but as with [their Android app](/android/com.wallet.crypto.trustapp/) there is
+but as with their Android app {% include walletLink.html wallet='android/com.wallet.crypto.trustapp' %} there is
 no public source of the iPhone app neither.
 
 Without public code the verdict is: **not verifiable**.

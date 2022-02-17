@@ -1,27 +1,29 @@
 ---
-title: "Guarda Crypto Wallet: Bitcoin, Ethereum, Ripple"
+wsId: guarda
+title: "Guarda Crypto Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.crypto.multiwallet
-launchDate: 2018-11-01
-latestUpdate: 2020-12-31
-apkVersionName: "2.15.4"
-stars: 4.4
-ratings: 1792
-reviews: 1001
-size: 34M
-website: http://guarda.co
+appCountry: 
+released: 2018-11-01
+updated: 2022-01-28
+version: "2.48.3"
+stars: 4.3
+ratings: 3784
+reviews: 408
+size: 31M
+website: https://guarda.com
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2019-12-17
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: GuardaWallet
 providerLinkedIn: 
@@ -34,7 +36,6 @@ redirect_from:
   - /posts/2019/11/guardawallet/
   - /posts/com.crypto.multiwallet/
 ---
-
 
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google

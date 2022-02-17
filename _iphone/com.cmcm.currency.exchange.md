@@ -1,33 +1,42 @@
 ---
+wsId: bitrue
 title: "Bitrue"
 altTitle: 
-
+authors:
+- leo
 appId: com.cmcm.currency.exchange
+appCountry: 
 idd: 1435877386
 released: 2018-09-16
-updated: 2021-01-13
-version: "4.3.6"
-score: 3.58333
-reviews: 60
-size: 91925504
-developerWebsite: 
+updated: 2022-02-04
+version: "5.1.2"
+stars: 3.30164
+reviews: 305
+size: 107161600
+website: https://www.bitrue.com
 repository: 
 issue: 
 icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-24
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: BitrueOfficial
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: BitrueOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+This app is heavily focused on the "exchange" part which is also in its name.
+Nowhere on the App Store can we find claims about self-custody but things like
+
+> - Applies the advanced multi-layer clustered system and the hot/cold wallet
+  isolation technology to ensure system security.
+
+only make sense for custodial apps. As a custodial app it is **not verifiable**.

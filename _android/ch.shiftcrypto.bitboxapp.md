@@ -1,35 +1,42 @@
 ---
+wsId: 
 title: "BitBoxApp"
 altTitle: 
+authors:
 
-users: 1000
+users: 5000
 appId: ch.shiftcrypto.bitboxapp
-launchDate: 
-latestUpdate: 2020-12-12
-apkVersionName: "android-4.24.1"
-stars: 4.6
-ratings: 14
-reviews: 8
-size: 63M
-website: 
-repository: 
+appCountry: 
+released: 2020-07-13
+updated: 2022-02-08
+version: "android-4.31.1"
+stars: 4.4
+ratings: 81
+reviews: 3
+size: 31M
+website: https://shiftcrypto.ch/app/
+repository: https://github.com/digitalbitbox/bitbox-wallet-app
 issue: 
 icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-28
-reviewStale: true
+meta: ok
+verdict: nowallet
+date: 2021-01-23
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: ShiftCryptoHQ
+providerLinkedIn: shift-crypto
+providerFacebook: Shiftcrypto
 providerReddit: 
 
 redirect_from:
-  - /ch.shiftcrypto.bitboxapp/
+
 ---
 
+The description of this app reads:
 
+> A BitBox02 hardware wallet is required.
+
+so we assume that this app does not manage private keys or send transactions if
+not approved via the hardware wallet. It itself is **not a wallet**.

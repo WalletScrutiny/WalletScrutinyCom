@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "GoldWallet - Bitcoin Vault Wallet"
 altTitle: 
+authors:
 
-users: 10000
+users: 50000
 appId: io.goldwallet.wallet
-launchDate: 
-latestUpdate: 2020-11-26
-apkVersionName: "6.0.1"
-stars: 4.5
-ratings: 400
-reviews: 222
-size: 35M
+appCountry: 
+released: 2020-02-18
+updated: 2021-08-24
+version: "Varies with device"
+stars: 4.3
+ratings: 503
+reviews: 12
+size: Varies with device
 website: https://bitcoinvault.global
 repository: 
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nobtc
 date: 2020-12-14
-reviewStale: false
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,6 +33,5 @@ providerReddit:
 redirect_from:
   - /io.goldwallet.wallet/
 ---
-
 
 This app appears to not be a vault for Bitcoin but something for Bitcoin Vault.

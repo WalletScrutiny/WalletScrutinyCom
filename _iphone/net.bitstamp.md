@@ -1,33 +1,42 @@
 ---
-title: "Bitstamp – crypto exchange app"
+wsId: Bitstamp
+title: "Bitstamp – Crypto on the go"
 altTitle: 
-
+authors:
+- leo
 appId: net.bitstamp
+appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2021-01-13
-version: "1.6.4"
-score: 4.81947
-reviews: 3606
-size: 82498560
-developerWebsite: https://www.bitstamp.net/
+updated: 2022-01-24
+version: "3.3.3"
+stars: 4.77341
+reviews: 4912
+size: 106108928
+website: https://www.bitstamp.net/
 repository: 
 issue: 
 icon: net.bitstamp.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-01-23
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: Bitstamp
+providerLinkedIn: bitstamp
+providerFacebook: Bitstamp
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:
+
+> Convenient, but secure<br>
+  ● We store 98% of all crypto assets in cold storage
+
+which means you don't get the keys for your coins. This is a custodial service
+and therefore **not verifiable**.

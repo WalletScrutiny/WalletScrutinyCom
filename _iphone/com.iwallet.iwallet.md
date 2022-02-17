@@ -1,26 +1,29 @@
 ---
-title: "iWallet"
+wsId: iwallet
+title: "iW Personal"
 altTitle: 
-
+authors:
+- leo
+- danny
 appId: com.iwallet.iwallet
+appCountry: 
 idd: 1479545928
 released: 2019-09-14
-updated: 2020-07-29
-version: "2.12"
-score: 4.44444
-reviews: 36
-size: 50141184
-developerWebsite: 
+updated: 2021-09-09
+version: "2.35"
+stars: 4.31914
+reviews: 47
+size: 52264960
+website: http://InSense.tech
 repository: 
 issue: 
 icon: com.iwallet.iwallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,3 +34,4 @@ redirect_from:
 
 ---
 
+ {% include copyFromAndroid.html %}

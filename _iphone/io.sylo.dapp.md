@@ -1,33 +1,36 @@
 ---
+wsId: Sylo
 title: "Sylo"
 altTitle: 
-
+authors:
+- leo
 appId: io.sylo.dapp
+appCountry: 
 idd: 1452964749
 released: 2019-09-10
-updated: 2020-12-21
-version: "3.0.0"
-score: 4.66667
-reviews: 9
-size: 189185024
-developerWebsite: https://www.sylo.io/wallet/
+updated: 2021-12-01
+version: "3.1.35"
+stars: 4.87671
+reviews: 73
+size: 200208384
+website: https://www.sylo.io/wallet/
 repository: 
 issue: 
 icon: io.sylo.dapp.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: sylo
+providerLinkedIn: sylo.io
+providerFacebook: sylo.io
+providerReddit: sylo_io
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

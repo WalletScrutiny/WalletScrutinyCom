@@ -1,27 +1,29 @@
 ---
+wsId: bitkeep
 title: "BitKeep Wallet Pro"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.bitkeep.wallet
-launchDate: 
-latestUpdate: 2021-01-10
-apkVersionName: "5.0.1"
-stars: 4.2
-ratings: 178
-reviews: 75
-size: 27M
+appCountry: 
+released: 2020-02-11
+updated: 2022-01-27
+version: "6.7.1"
+stars: 4.4
+ratings: 3567
+reviews: 140
+size: 54M
 website: https://bitkeep.com
-repository: 
+repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-09-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: BitKeepOS
 providerLinkedIn: 
@@ -31,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.bitkeep.wallet/
 ---
-
 
 The description
 

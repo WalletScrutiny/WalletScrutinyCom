@@ -1,27 +1,29 @@
 ---
-title: "HyperPay Mobile wallet"
+wsId: hyperPay
+title: "HyperPay: buy & sell BTC,ETH"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.legendwd.hyperpayW
-launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "4.0.12"
+appCountry: us
+released: 2018-10-25
+updated: 2022-02-10
+version: "4.1.24"
 stars: 4.3
-ratings: 738
-reviews: 577
-size: 108M
+ratings: 2749
+reviews: 244
+size: 120M
 website: https://hyperpay.tech
 repository: 
 issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-02
-reviewStale: true
+meta: ok
+verdict: obfuscated
+date: 2021-05-25
 signer: 
 reviewArchive:
-
 
 providerTwitter: HyperPay_tech
 providerLinkedIn: 
@@ -32,13 +34,18 @@ redirect_from:
   - /com.legendwd.hyperpayW/
 ---
 
+**Update 2022-01-10**: The app is back online.
+
+**Update 2021-05-25**: This app is not available on Google Play anymore. As our
+last analysis below shows, the app was shady. On Facebook you can still find
+some scam allegations.
 
 > **Is HyperPay Wallet Safe?**<br>
-> Yes, of course. HyperPay wallet supports both on-chain & off-chain and both are absolutely safe.
+  Yes, of course. HyperPay wallet supports both on-chain & off-chain and both are absolutely safe.
 
 Ok?
 
->Our security system for off-chain wallet is robust with 24/7 abnormal data monitoring, orchestrated code quality and vulnerability scanning in CI/CD cycle system. Our security team is safeguarding your assets 24/7.
+> Our security system for off-chain wallet is robust with 24/7 abnormal data monitoring, orchestrated code quality and vulnerability scanning in CI/CD cycle system. Our security team is safeguarding your assets 24/7.
 
 That sounds like a custodial offering if a security team is safeguarding your
 assets.

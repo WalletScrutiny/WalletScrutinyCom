@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "ABCore"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.greenaddress.abcore
-launchDate: 
-latestUpdate: 2019-10-16
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2019-10-16
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,12 +19,11 @@ repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-verdict: reproducible # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-02
-reviewStale: false
+meta: obsolete
+verdict: reproducible
+date: 2021-10-06
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +34,6 @@ redirect_from:
   - /com.greenaddress.abcore/
   - /posts/com.greenaddress.abcore/
 ---
-
 
 This app is a full node for Android, so running it on your phone is probably
 not recommended unless you have unlimited data and don't mind your phone

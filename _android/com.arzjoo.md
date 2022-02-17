@@ -1,27 +1,29 @@
 ---
-title: "arzjoo"
+wsId: 
+title: "Sarmayex"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.arzjoo
-launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "1.3.4"
-stars: 3.7
-ratings: 1116
-reviews: 446
+appCountry: 
+released: 2019-04-25
+updated: 2021-11-23
+version: "2.0.2"
+stars: 3.5
+ratings: 3290
+reviews: 66
 size: Varies with device
 website: https://arzjoo.com
 repository: 
 issue: 
-icon: com.arzjoo.png
+icon: com.arzjoo.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: arzjoo
 providerLinkedIn: 
@@ -31,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.arzjoo/
 ---
-
 
 This provider is from Iran and its website is in Farsi, only. Google Translate
 [helps to read it in English](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Farzjoo.com%2F)

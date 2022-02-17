@@ -1,27 +1,29 @@
 ---
-title: "Bithumb Singapore - Global Cryptocurrency Exchange"
+wsId: 
+title: "Bitholic - Global Digital Asset Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
-launchDate: 
-latestUpdate: 2020-08-05
-apkVersionName: "1.0.9"
-stars: 4.3
-ratings: 153
-reviews: 100
-size: 2.0M
-website: https://www.bithumbsg.com
+appCountry: 
+released: 2019-01-20
+updated: 2021-08-02
+version: "1.1.1"
+stars: 0.0
+ratings: 
+reviews: 
+size: 2.2M
+website: https://www.bitholic.com
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,7 +34,6 @@ redirect_from:
   - /com.bitholic.rdmchain.bitholic/
   - /posts/com.bitholic.rdmchain.bitholic/
 ---
-
 
 This app is an interface for an exchange. Your coins are stored on their
 infrastructure. As a custodial service it is **not verifiable**.

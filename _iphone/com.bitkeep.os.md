@@ -1,33 +1,36 @@
 ---
+wsId: bitkeep
 title: "BitKeep"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitkeep.os
+appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2021-01-12
-version: "5.0.2"
-score: 3.66667
-reviews: 6
-size: 59671552
-developerWebsite: https://bitkeep.com
-repository: 
+updated: 2022-01-27
+version: "6.7.1"
+stars: 4.19149
+reviews: 47
+size: 83082240
+website: https://bitkeep.com
+repository: https://github.com/bitkeepcom
 issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: BitKeepOS
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: bitkeep
 providerReddit: 
 
 redirect_from:
 
 ---
 
+ {% include copyFromAndroid.html %}

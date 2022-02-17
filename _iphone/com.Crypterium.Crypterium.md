@@ -1,33 +1,44 @@
 ---
+wsId: crypterium
 title: "Crypterium | Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.Crypterium.Crypterium
+appCountry: 
 idd: 1360632912
 released: 2018-03-26
-updated: 2020-12-30
-version: "1.14.4"
-score: 4.53318
-reviews: 889
-size: 247984128
-developerWebsite: https://cards.crypterium.com/visa
+updated: 2022-02-13
+version: "1.18.9"
+stars: 4.32265
+reviews: 905
+size: 230074368
+website: https://cards.crypterium.com/visa
 repository: 
 issue: 
 icon: com.Crypterium.Crypterium.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-20
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: crypterium
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: crypterium.org
 providerReddit: 
 
 redirect_from:
 
 ---
 
+Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
+
+> **Store**<br>
+  keep your currencies<br>
+  safe & fully insured
+
+this is a custodial app as a self-custody wallet cannot ever have funds insured.
+
+As a custodial app it is **not verifiable**.

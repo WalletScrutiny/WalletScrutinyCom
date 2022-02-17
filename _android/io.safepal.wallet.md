@@ -1,27 +1,29 @@
 ---
-title: "SafePal - Crypto wallet BTC ETH LTC BNB Tron EOS"
+wsId: safepal
+title: "SafePal-Crypto wallet BTC NFTs"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 1000000
 appId: io.safepal.wallet
-launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "2.5.2"
-stars: 4.4
-ratings: 1150
-reviews: 700
-size: 29M
+appCountry: 
+released: 2019-05-26
+updated: 2022-01-15
+version: "3.1.0"
+stars: 4.3
+ratings: 13101
+reviews: 437
+size: 34M
 website: https://www.safepal.io
 repository: 
 issue: 
 icon: io.safepal.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-04-26
 signer: 
 reviewArchive:
-
 
 providerTwitter: iSafePal
 providerLinkedIn: 
@@ -29,26 +31,15 @@ providerFacebook:
 providerReddit: 
 
 redirect_from:
-  - /io.safepal.wallet/
+
 ---
 
+**Update 2021-04-26**: Now some months after the original review, Google finds
+some things that confirms the claims of Binance "investing" in SafePal. The best
+link is probably
+[this article on SafePal by Binance](https://research.binance.com/en/projects/safepal).
 
-On Google Play they claim
-
-> SafePal is one of the earliest crypto wallet brands invested and backed by
-  Binance
-
-While Binance did review some SafePal hardware wallet, we can't find Binance
-supporting the claim of investment. In particular, SafePal links to
-[this Binance site](https://labs.binance.com/) where we find a list of
-investments but no mention of SafePal.
-
-On their website there is a whole list of "global leaders" that backed them but
-here, the "Binance labs" link is a different one and
-[dead](https://www.binancelabs.co/),
-[this sponsor's website](https://bittemple.io/) uses a totally wrong ssl
-certificate and none of the other supposed backers mentions SafePal on the
-linked pages.
+The app being closed source remains an issue:
 
 > SafePal cryptocurrency wallet application is a decentralized application.
   The mnemonic phrase is stored by users. SafePal does not read or store

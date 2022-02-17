@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "Portals : Crypto Wallet Generator - Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.gloath.portalsapp
-launchDate: 
-latestUpdate: 2020-12-20
-apkVersionName: "0.0.4a"
+appCountry: 
+released: 2018-03-20
+updated: 2020-12-20
+version: "0.0.4a"
 stars: 4.1
-ratings: 73
-reviews: 38
+ratings: 138
+reviews: 19
 size: 11M
-website: 
+website: https://portals.nz
 repository: 
 issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
-reviewStale: true
+meta: stale
+verdict: nosource
+date: 2021-12-28
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.gloath.portalsapp/
 ---
-
 
 This app is weird and it's not clear why 10k people downloaded it. So the app
 does generate wallets but you can't really use those as such ... unless you do

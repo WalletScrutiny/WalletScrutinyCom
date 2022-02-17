@@ -1,29 +1,31 @@
 ---
-title: "Crypto.com - Buy Bitcoin Now"
+wsId: mona
+title: "Crypto.com - Buy Bitcoin,Ether"
 altTitle: 
-
+authors:
+- leo
 appId: co.mona.Monaco
+appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2021-01-10
-version: "3.80"
-score: 4.39017
-reviews: 6387
-size: 276660224
-developerWebsite: https://crypto.com/
+updated: 2022-02-01
+version: "3.126.1"
+stars: 4.26987
+reviews: 69315
+size: 204976128
+website: https://crypto.com/
 repository: 
 issue: 
 icon: co.mona.Monaco.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-11
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-10-24
 signer: 
 reviewArchive:
 
-
 providerTwitter: cryptocom
-providerLinkedIn: company/cryptocom
+providerLinkedIn: cryptocom
 providerFacebook: CryptoComOfficial
 providerReddit: Crypto_com
 
@@ -31,5 +33,4 @@ redirect_from:
 
 ---
 
-As their [version for Android](/android/co.mona.android) this app is custodial
-and thus **not verifiable**.
+{% include copyFromAndroid.html %}

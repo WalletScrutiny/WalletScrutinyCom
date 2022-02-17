@@ -1,37 +1,38 @@
 ---
-title: "Voyager"
+wsId: voyager
+title: "Voyager: Buy BTC, SHIB, ETH"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.investvoyager
-launchDate: 
-latestUpdate: 2021-01-15
-apkVersionName: "2.5.10"
-stars: 3.8
-ratings: 453
-reviews: 251
-size: 48M
+appCountry: 
+released: 2020-02-25
+updated: 2022-01-28
+version: "3.2.0"
+stars: 4.5
+ratings: 25693
+reviews: 7428
+size: 57M
 website: https://www.investvoyager.com/
 repository: 
 issue: 
 icon: com.investvoyager.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2021-01-02
-reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: investvoyager
-providerLinkedIn: company/investvoyager
+providerLinkedIn: investvoyager
 providerFacebook: InvestVoyager
 providerReddit: Invest_Voyager
 
 redirect_from:
   - /com.investvoyager/
 ---
-
 
 On their website we read:
 

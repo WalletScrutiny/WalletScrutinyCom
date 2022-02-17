@@ -1,27 +1,29 @@
 ---
-title: "SOLO Wallet"
+wsId: 
+title: "SOLO DEX"
 altTitle: 
+authors:
 
-users: 1000
+users: 50000
 appId: com.sologenicwallet
-launchDate: 
-latestUpdate: 2020-03-07
-apkVersionName: "1.4.1"
-stars: 3.6
-ratings: 45
-reviews: 29
-size: 27M
-website: 
+appCountry: 
+released: 2020-02-04
+updated: 2022-01-25
+version: "2.3.0"
+stars: 4.2
+ratings: 3623
+reviews: 91
+size: 60M
+website: https://www.sologenic.com/
 repository: 
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nobtc
 date: 2020-06-20
-reviewStale: false
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -32,6 +34,5 @@ redirect_from:
   - /com.sologenicwallet/
   - /posts/com.sologenicwallet/
 ---
-
 
 This wallet does not support BTC.

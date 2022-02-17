@@ -1,49 +1,47 @@
 ---
+wsId: cryptonator
 title: "Cryptonator cryptocurrency wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.cryptonator.android
-launchDate: 2018-11-01
-latestUpdate: 2020-01-17
-apkVersionName: "3.0.1"
-stars: 3.5
-ratings: 4528
-reviews: 2643
-size: 8.6M
+appCountry: 
+released: 2018-11-01
+updated: 2022-01-30
+version: "4.2"
+stars: 3.3
+ratings: 5262
+reviews: 138
+size: 9.0M
 website: https://www.cryptonator.com
 repository: 
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-03-17
-reviewStale: false
+meta: ok
+verdict: custodial
+date: 2022-01-31
 signer: 
 reviewArchive:
 - date: 2019-11-12
   version: "3.0.1"
-  apkHash: 
+  appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
-
 providerTwitter: cryptonatorcom
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
 
 redirect_from:
-  - /cryptonator/
-  - /com.cryptonator.android/
-  - /posts/2019/11/cryptonator/
-  - /posts/com.cryptonator.android/
----
 
+---
 
 Cryptonator cryptocurrency wallet
 makes no claim to be non-custodial but the
 [Customer Support](https://www.cryptonator.com/contact/other/)
-is pretty unambigously pointing towards it being custodial:
+is pretty unambiguously pointing towards it being custodial:
 
 > **Do you provide private keys?**: No
 

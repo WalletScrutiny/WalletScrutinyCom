@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Vega - Lightning Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 50
 appId: app.getvega
-launchDate: 
-latestUpdate: 2019-05-22
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2019-05-22
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,12 +19,11 @@ repository:
 issue: 
 icon: app.getvega.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-29
-reviewStale: false
+meta: defunct
+verdict: fewusers
+date: 2021-08-09
 signer: 
 reviewArchive:
-
 
 providerTwitter: GetVegaApp
 providerLinkedIn: 
@@ -33,4 +35,9 @@ redirect_from:
   - /posts/app.getvega/
 ---
 
+With the website down and the last tweet more than a year ago stating
 
+> Thinking about mainnet.
+
+we have to assume this app is no more or might even have been for testnet, only
+in the first place.

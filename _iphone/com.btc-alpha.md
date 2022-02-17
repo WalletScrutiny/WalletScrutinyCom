@@ -1,0 +1,38 @@
+---
+wsId: BTCAlpha
+title: "BTC-Alpha: Buy Sell Bitcoin"
+altTitle: 
+authors:
+- danny
+appId: com.btc-alpha
+appCountry: us
+idd: 1437629304
+released: 2019-04-20
+updated: 2022-02-01
+version: "1.12.12"
+stars: 4.27273
+reviews: 11
+size: 78653440
+website: https://btc-alpha.com
+repository: 
+issue: 
+icon: com.btc-alpha.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2021-10-26
+signer: 
+reviewArchive:
+
+providerTwitter: btcalpha
+providerLinkedIn: btcalpha
+providerFacebook: btcalpha
+providerReddit: 
+
+redirect_from:
+
+---
+
+{% include copyFromAndroid.html %}
+
+

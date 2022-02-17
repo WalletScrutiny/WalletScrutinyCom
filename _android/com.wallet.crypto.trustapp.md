@@ -1,27 +1,29 @@
 ---
+wsId: sixdays
 title: "Trust: Crypto & Bitcoin Wallet"
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 10000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-10-01
-latestUpdate: 2021-01-11
-apkVersionName: "1.24.11"
+appCountry: 
+released: 2017-10-01
+updated: 2022-01-26
+version: "5.9"
 stars: 4.5
-ratings: 150055
-reviews: 49522
-size: 33M
-website: https://trustwallet.com
+ratings: 820924
+reviews: 9637
+size: 34M
+website: https://trustwallet.com/
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2019-11-20
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: trustwalletapp
 providerLinkedIn: 
@@ -34,7 +36,6 @@ redirect_from:
   - /posts/2019/11/trust/
   - /posts/com.wallet.crypto.trustapp/
 ---
-
 
 Trust - Crypto & Bitcoin Wallet
 claims to be a non-custodial wallet. In the description on Google Play we read:
@@ -60,7 +61,7 @@ Above quote
 
 > We would like to support Coinomi wallet on this critical issue
 
-made us to look into [Coinomi](/coinomi/) more closely.
+made us to look into {% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %} more closely.
 
 Also in the description we read:
 

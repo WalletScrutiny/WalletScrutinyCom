@@ -1,30 +1,32 @@
 ---
-title: "Uphold: buy and sell Bitcoin"
+wsId: UpholdbuyandsellBitcoin
+title: "Uphold - Trade, Invest, Send Money For Zero Fees"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.uphold.wallet
-launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "4.14.0"
-stars: 3.3
-ratings: 9245
-reviews: 5060
-size: 44M
+appCountry: 
+released: 2015-12-29
+updated: 2022-02-11
+version: "4.34.0"
+stars: 3.4
+ratings: 20351
+reviews: 3382
+size: 56M
 website: https://uphold.com
 repository: 
 issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: UpholdInc
-providerLinkedIn: company/upholdinc
+providerLinkedIn: upholdinc
 providerFacebook: UpholdInc
 providerReddit: 
 
@@ -33,12 +35,11 @@ redirect_from:
   - /posts/com.uphold.wallet/
 ---
 
-
 This app appears to be an interface to a custodial trading platform. In the
 Google Play description we read:
 
-> Trust Through Transparency
-> Uphold is fully reserved. Unlike banks, we don’t loan out your money. To prove
+> **Trust Through Transparency**<br>
+  Uphold is fully reserved. Unlike banks, we don’t loan out your money. To prove
   it, we publish our holdings in real time.
 
 If they hold your money, you don't. As a custodial service this app is **not

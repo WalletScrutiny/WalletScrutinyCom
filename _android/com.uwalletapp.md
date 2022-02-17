@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Utrust Wallet"
 altTitle: 
+authors:
 
 users: 5000
 appId: com.uwalletapp
-launchDate: 
-latestUpdate: 2020-06-08
-apkVersionName: "1.4.2"
+appCountry: 
+released: 
+updated: 2020-06-08
+version: "1.4.2"
 stars: 4.3
 ratings: 106
 reviews: 58
@@ -16,15 +19,14 @@ repository:
 issue: 
 icon: com.uwalletapp.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: false
+meta: defunct
+verdict: custodial
+date: 2021-01-23
 signer: 
 reviewArchive:
 
-
 providerTwitter: utrust
-providerLinkedIn: company/utrust-payments
+providerLinkedIn: utrust-payments
 providerFacebook: utrust.io
 providerReddit: UTRUST_Official
 
@@ -32,6 +34,7 @@ redirect_from:
   - /com.uwalletapp/
 ---
 
+**Update:** This app is not available on Google Play anymore
 
 > The Utrust Wallet processes transactions instantly within our platform, which
   allows us to cut on blockchain validation waiting times.

@@ -1,37 +1,38 @@
 ---
-title: "LiteBit - Buy & sell Bitcoin"
+wsId: LiteBit
+title: "LiteBit – Buy Bitcoin & crypto"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.flutter.litebit
-launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "2.13.0"
-stars: 2.7
-ratings: 220
-reviews: 146
-size: 78M
-website: https://www.litebit.eu
+appCountry: 
+released: 2019-12-12
+updated: 2022-01-24
+version: "3.3.0"
+stars: 0.0
+ratings: 
+reviews: 
+size: 72M
+website: https://www.litebit.eu/
 repository: 
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-06
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-30
 signer: 
 reviewArchive:
 
-
 providerTwitter: litebiteu
-providerLinkedIn: company/litebit
+providerLinkedIn: litebit
 providerFacebook: litebiteu
 providerReddit: 
 
 redirect_from:
   - /com.flutter.litebit/
 ---
-
 
 > All you need is a LiteBit account.
 

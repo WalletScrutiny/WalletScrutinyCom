@@ -1,27 +1,29 @@
 ---
+wsId: BitcoinWalletBitBucks
 title: "Bitcoin Wallet BitBucks"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: de.fuf.bitbucks
-launchDate: 2019-09-03
-latestUpdate: 2020-05-20
-apkVersionName: "1.1.7"
-stars: 4.2
-ratings: 31
-reviews: 12
-size: 8.9M
-website: https://www.bitbucks.io
+appCountry: 
+released: 2019-09-03
+updated: 2021-03-18
+version: "1.4.1"
+stars: 0.0
+ratings: 
+reviews: 
+size: 16M
+website: https://www.bitbucks.io/
 repository: 
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-30
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-31
 signer: 
 reviewArchive:
-
 
 providerTwitter: bit_bucks
 providerLinkedIn: 
@@ -33,24 +35,11 @@ redirect_from:
   - /posts/de.fuf.bitbucks/
 ---
 
+According to their website:
 
-This app appears to be a custodial service as per their description:
+> **Pay safely and securely**<br>
+  Your Bitcoin is multi-signature protected and will be securely stored in the
+  safest wallets. Even if you lose your mobile phone, you will not lose your
+  credit.
 
-> The BitBucks Wallet enables instant payments with bitcoin. Users register at
-  BitBucks just by entering their phone numbers followed by a validation code
-  sended to them via sms.
-> 
-> Afterwards users can top-up their BitBucks account with bitcoin by using any
-  other Bitcoin wallet. Every transaction within the BitBucks app, as well as
-  the top-up of the account, are free of charge.
-
-And from their website:
-
-> **Pay safely and securely**
-> 
-> Your Bitcoin is multi-signature protected and will be stored in the safest
-  wallets. Even if you lose your mobile phone, you will not lose your credit.
-
-This is a custodial app.
-
-Our verdict: **not verifiable**.
+This is a custodial app and thus **not verifiable**

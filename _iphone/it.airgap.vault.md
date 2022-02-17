@@ -1,26 +1,28 @@
 ---
+wsId: AirGapVault
 title: "AirGap Vault - Secure Secrets"
 altTitle: 
-
+authors:
+- leo
 appId: it.airgap.vault
+appCountry: 
 idd: 1417126841
 released: 2018-08-24
-updated: 2020-11-10
-version: "3.5.1"
-score: 5
-reviews: 1
-size: 29415424
-developerWebsite: 
-repository: 
+updated: 2022-02-03
+version: "3.14.0"
+stars: 4.5
+reviews: 10
+size: 90341376
+website: 
+repository: https://github.com/airgap-it/airgap-vault
 issue: 
 icon: it.airgap.vault.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-19
-reviewStale: false
+meta: ok
+verdict: nonverifiable
+date: 2021-09-29
 signer: 
 reviewArchive:
-
 
 providerTwitter: AirGap_it
 providerLinkedIn: 
@@ -31,3 +33,5 @@ redirect_from:
 
 ---
 
+This app for Android is reproducible but unfortunately due to limitations of the
+iPhone platform, we so far were not able to reproduce any App Store app.

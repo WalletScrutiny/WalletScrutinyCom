@@ -1,0 +1,14 @@
+short: Stale!
+title: Not updated in a while
+color: '#d33100'
+redflag: true
+message: This product did not get updated in over a year.
+question: Was the product updated during the last year?
+details: >
+  Bitcoin wallets are complex products and Bitcoin is a new, advancing
+  technolgy. Projects that don't get updated in a year are probably not well
+  maintained.
+  
+  
+  This verdict may not get applied if the provider is active and expresses good
+  reasons for not updating the product.

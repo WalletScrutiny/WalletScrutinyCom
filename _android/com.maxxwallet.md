@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "Bitcoin Wallet - MaxWallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.maxxwallet
-launchDate: 
-latestUpdate: 2019-06-12
-apkVersionName: "3.7.3"
-stars: 3.2
-ratings: 13
-reviews: 10
+appCountry: 
+released: 2019-03-25
+updated: 2019-06-12
+version: "3.7.3"
+stars: 0.0
+ratings: 
+reviews: 
 size: 14M
 website: http://bitcoinwalletcoin.com
 repository: 
 issue: 
 icon: com.maxxwallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: false
+meta: obsolete
+verdict: nosource
+date: 2021-08-17
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,7 +33,6 @@ providerReddit:
 redirect_from:
   - /com.maxxwallet/
 ---
-
 
 In Google Play we read the right claims:
 
@@ -53,7 +54,7 @@ This app is **not verifiable** and **probably a scam**.
 ### Some more digging
 
 So we decompiled the app using jadx and there we see it is a clone of
-[BRD](/com.breadwallet/). BRD is published under the MIT license and thus
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}. BRD is published under the MIT license and thus
 cloning is not a problem. A bit problematic might be that this wallet connects
 to BRD's servers (`HOST = "api.breadwallet.com"`).
 

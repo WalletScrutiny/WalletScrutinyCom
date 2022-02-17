@@ -1,27 +1,29 @@
 ---
+wsId: 
 title: "Algorand Wallet"
 altTitle: 
+authors:
 
-users: 10000
+users: 100000
 appId: com.algorand.android
-launchDate: 
-latestUpdate: 2020-12-01
-apkVersionName: "4.5.3"
-stars: 4.5
-ratings: 170
-reviews: 99
-size: 34M
-website: 
+appCountry: 
+released: 2019-06-07
+updated: 2022-01-03
+version: "4.10.12"
+stars: 4.7
+ratings: 13655
+reviews: 959
+size: 28M
+website: https://www.algorand.com
 repository: 
 issue: 
 icon: com.algorand.android.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nobtc
 date: 2020-12-06
-reviewStale: false
 signer: 
 reviewArchive:
-
 
 providerTwitter: 
 providerLinkedIn: 
@@ -31,3 +33,4 @@ providerReddit:
 redirect_from:
   - /com.algorand.android/
 ---
+

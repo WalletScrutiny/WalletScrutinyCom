@@ -1,29 +1,31 @@
 ---
-title: "Gemini: Buy Bitcoin Instantly"
+wsId: geminiwallet
+title: "Gemini: Buy Bitcoin & Crypto"
 altTitle: 
-
+authors:
+- leo
 appId: com.gemini.ios
+appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2021-01-14
-version: "3.0.0"
-score: 4.68137
-reviews: 10341
-size: 178086912
-developerWebsite: http://gemini.com
+updated: 2022-02-09
+version: "22.208.0"
+stars: 4.79052
+reviews: 81926
+size: 108994560
+website: http://gemini.com
 repository: 
 issue: 
 icon: com.gemini.ios.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
 
-
 providerTwitter: gemini
-providerLinkedIn: company/geminitrust
+providerLinkedIn: geminitrust
 providerFacebook: GeminiTrust
 providerReddit: 
 

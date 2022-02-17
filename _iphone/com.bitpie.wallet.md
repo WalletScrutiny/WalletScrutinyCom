@@ -1,33 +1,36 @@
 ---
+wsId: bitpie
 title: "Bitpie-Universal Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitpie.wallet
+appCountry: 
 idd: 1481314229
 released: 2019-10-01
-updated: 2020-12-31
-version: "5.0.008"
-score: 3.5625
-reviews: 16
-size: 286953472
-developerWebsite: 
+updated: 2022-01-05
+version: "5.0.057"
+stars: 3.61818
+reviews: 55
+size: 327852032
+website: https://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.wallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: BitpieWallet
 providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerFacebook: BitpieOfficial
+providerReddit: BitpieWallet
 
 redirect_from:
 
 ---
 
+ {% include copyFromAndroid.html %}

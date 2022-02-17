@@ -1,36 +1,38 @@
 ---
+wsId: Decrypt
 title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+- danny
+users: 100000
 appId: co.decrypt.app
-launchDate: 
-latestUpdate: 2020-10-07
-apkVersionName: "1.1.5"
-stars: 4.6
-ratings: 165
-reviews: 66
-size: 28M
-website: 
+appCountry: 
+released: 2020-05-06
+updated: 2022-02-01
+version: "3.0.1"
+stars: 4.3
+ratings: 2215
+reviews: 220
+size: 32M
+website: https://decrypt.co/
 repository: 
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
-reviewStale: false
+meta: ok
+verdict: nowallet
+date: 2021-11-01
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: decryptmedia
 providerLinkedIn: 
-providerFacebook: 
+providerFacebook: decryptmedia
 providerReddit: 
 
 redirect_from:
   - /co.decrypt.app/
 ---
-
 
 This app only provides news about Bitcoin but no wallet itself.

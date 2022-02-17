@@ -1,26 +1,28 @@
 ---
+wsId: coinbasepro
 title: "Coinbase Pro"
 altTitle: 
-
+authors:
+- leo
 appId: com.coinbase.pro
+appCountry: 
 idd: 1446636681
 released: 2019-10-10
-updated: 2021-01-14
-version: "1.0.57"
-score: 4.70439
-reviews: 27966
-size: 44617728
-developerWebsite: https://pro.coinbase.com
+updated: 2022-02-14
+version: "1.0.91"
+stars: 4.7223
+reviews: 160469
+size: 47597568
+website: https://pro.coinbase.com
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: CoinbasePro
 providerLinkedIn: 

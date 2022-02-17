@@ -1,30 +1,32 @@
 ---
+wsId: cryptoComDefi
 title: "Crypto.com l DeFi Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.defi.wallet
-launchDate: 2020-05-11
-latestUpdate: 2020-12-21
-apkVersionName: "1.5.1"
+appCountry: 
+released: 2020-05-11
+updated: 2022-01-27
+version: "1.26.0"
 stars: 4.0
-ratings: 926
-reviews: 357
-size: 23M
-website: https://crypto.com/en/defi/
+ratings: 13027
+reviews: 1570
+size: 56M
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2021-01-10
-reviewStale: false
+meta: ok
+verdict: nosource
+date: 2021-10-24
 signer: 
 reviewArchive:
 
-
 providerTwitter: cryptocom
-providerLinkedIn: company/cryptocom
+providerLinkedIn: cryptocom
 providerFacebook: CryptoComOfficial
 providerReddit: Crypto_com
 
@@ -32,7 +34,6 @@ redirect_from:
   - /com.defi.wallet/
   - /posts/com.defi.wallet/
 ---
-
 
 This app's description is promising:
 
@@ -45,3 +46,10 @@ Searching their `appId` on GitHub,
 [yields nothing](https://github.com/search?q=%22com.defi.wallet%22) neither.
 
 This brings us to the verdict: **not verifiable**.
+
+The provider has a family of three apps that we triple-checked to be linked from
+their website:
+
+* {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}
+* {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}
+* {% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}

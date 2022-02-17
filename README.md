@@ -27,6 +27,12 @@ Each build takes around 7s.
 npx gulp serve
 ```
 
+or
+
+```
+bundle exec jekyll serve --profile --trace
+```
+
 ### For production deployment
 
 This will also minify the html, css and js which takes all in all about 50s. The

@@ -1,33 +1,43 @@
 ---
+wsId: eidoo
 title: "Eidoo Ethereum Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.eidoo.wallet.prodnet
+appCountry: 
 idd: 1279896253
 released: 2017-09-23
-updated: 2020-12-21
-version: "2.15.0"
-score: 3.91304
-reviews: 69
-size: 36187136
-developerWebsite: https://eidoo.io
+updated: 2021-11-08
+version: "3.6.3"
+stars: 3.64103
+reviews: 78
+size: 42298368
+website: https://eidoo.io
 repository: 
 issue: 
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-25
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+providerTwitter: eidoo_io
+providerLinkedIn: eidoo
+providerFacebook: eidoocrypto
+providerReddit: eidooapp
 
 redirect_from:
 
 ---
 
+The app's description:
+
+> As a non-custodial wallet, funds will always remain in your full control, with
+  effortless wallet backup and recovery options.
+
+Unfortunately we can't find any source code. No such link on their website and
+neither can we find anything relevant on GitHub which leads to the verdict:
+**not verifiable**.

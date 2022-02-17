@@ -1,33 +1,36 @@
 ---
-title: "PumaPay: Crypto Wallet"
+wsId: PumaPay
+title: "PumaPay: Secure bitcoin wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.pumapay.pumawallet
+appCountry: 
 idd: 1376601366
 released: 2018-06-05
-updated: 2021-01-11
-version: "2.88"
-score: 4.07692
-reviews: 13
-size: 109692928
-developerWebsite: https://pumapay.io
+updated: 2021-10-25
+version: "2.102"
+stars: 3.66667
+reviews: 18
+size: 103752704
+website: https://pumapay.io
 repository: 
 issue: 
 icon: com.pumapay.pumawallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: PumaPay
+providerLinkedIn: decentralized-vision
+providerFacebook: PumaPayOfficial
 providerReddit: 
 
 redirect_from:
 
 ---
 
+{% include copyFromAndroid.html %}

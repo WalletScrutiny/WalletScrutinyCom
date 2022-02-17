@@ -1,30 +1,32 @@
 ---
-title: "elegro Wallet: instant crypto-fiat payments"
+wsId: 
+title: "Elegro Wallet: multi-currency crypto wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: paydeepp.elegro.io
-launchDate: 
-latestUpdate: 2020-12-03
-apkVersionName: "5.0.4"
-stars: 4.2
-ratings: 20
-reviews: 8
-size: 8.3M
-website: https://elegro.eu
+appCountry: 
+released: 2018-11-09
+updated: 2021-08-30
+version: "5.1.3"
+stars: 0.0
+ratings: 
+reviews: 
+size: 18M
+website: https://elegro.eu/
 repository: 
 issue: 
 icon: paydeepp.elegro.io.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-12-14
-reviewStale: false
 signer: 
 reviewArchive:
 
-
 providerTwitter: NikoTech
-providerLinkedIn: company/niko-technologies-ou
+providerLinkedIn: niko-technologies-ou
 providerFacebook: 
 providerReddit: 
 
@@ -32,7 +34,6 @@ redirect_from:
   - /paydeepp.elegro.io/
   - /posts/paydeepp.elegro.io/
 ---
-
 
 We have no idea what they claim here:
 

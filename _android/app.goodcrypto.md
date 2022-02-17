@@ -1,37 +1,38 @@
 ---
-title: "Good Crypto: one trading app for all exchanges"
+wsId: 
+title: "Good Crypto: trading terminal"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: app.goodcrypto
-launchDate: 
-latestUpdate: 2020-11-05
-apkVersionName: "1.5"
-stars: 4.4
-ratings: 123
-reviews: 67
-size: 17M
+appCountry: 
+released: 2019-05-20
+updated: 2022-01-10
+version: "1.8.4"
+stars: 4.7
+ratings: 1044
+reviews: 94
+size: 21M
 website: https://goodcrypto.app
 repository: 
 issue: 
 icon: app.goodcrypto.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-08
-reviewStale: false
+meta: ok
+verdict: nosendreceive
+date: 2021-08-10
 signer: 
 reviewArchive:
 
-
 providerTwitter: GoodCryptoApp
-providerLinkedIn: company/goodcrypto
+providerLinkedIn: goodcrypto
 providerFacebook: GoodCryptoApp
 providerReddit: GoodCrypto
 
 redirect_from:
   - /app.goodcrypto/
 ---
-
 
 This app allows you to connect to accounts on trading platforms and does not
 work as a wallet as such. We assume that you cannot receive Bitcoins to and send

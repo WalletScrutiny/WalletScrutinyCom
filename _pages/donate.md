@@ -6,18 +6,19 @@ permalink: /donate/
 
 
 WalletScrutiny was launched by Leo Wandersleb with some contributions by
-Kristina Tezieva and Matthew Lamb. All the work done can be followed in our
+Kristina Tezieva, Matthew Lamb and others. All the work done can be followed in our
 [public repository on GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom).
 
 We all have other jobs and do this in our free time but we hope to be able to
 work on this project full time, so we can expand it to more apps, app classes,
 platforms and markets.
 
-While we now started with the test for reproducibility of Android Bitcoin wallets, we
+While we so far only cover the test for reproducibility of Play Store, App Store
+and hardware Bitcoin wallets, we
 hope to also look into
 
 * incentives for actual code reviews
-* iPhone/Mac/Windows/Linux
+* Mac/Windows/Linux
 * alt-coins/chat apps/privacy apps
 * real time alerts
 
@@ -58,10 +59,9 @@ function update() {
   <div>
     <p>Please select aspect you want to support with your donation!:</p>
     <input onChange="updateAspect(this)" type="radio" id="aspect0" name="aspect" value="Any"><label for="aspect0">Anything</label><br>
-    <input onChange="updateAspect(this)" type="radio" id="aspect1" name="aspect" value="MoreWallets"><label for="aspect1">More Android Wallets</label><br>
+    <input onChange="updateAspect(this)" type="radio" id="aspect1" name="aspect" value="MoreWallets"><label for="aspect1">More Wallets</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect2" name="aspect" value="FrequentUpdates"><label for="aspect2">More frequent updates</label><br>
-    <input onChange="updateAspect(this)" type="radio" id="aspect3" name="aspect" value="AdCampaign"><label for="aspect3">Run Ad campaigns</label><br>
-    <input onChange="updateAspect(this)" type="radio" id="aspect4" name="aspect" value="MoreOS"><label for="aspect4">More operating systems (iPhone, Windows, Mac)</label><br>
+    <input onChange="updateAspect(this)" type="radio" id="aspect4" name="aspect" value="MoreOS"><label for="aspect4">More operating systems (Windows, Mac)</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect5" name="aspect" value="CodeReviews"><label for="aspect5">Actual code reviews</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect6" name="aspect" value="NonBitcoinWallets"><label for="aspect6">Non-Bitcoin wallets</label><br>
     <input onChange="updateAspect(this)" type="radio" id="aspect7" name="aspect" value="Alerts"><label for="aspect7">Alerts when issues are found</label><br>
@@ -90,5 +90,5 @@ contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>,
 {% include donationSummary.html %}
 
 (Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in
-BtcPay-Server, at least 5mBTC of more recent donations are missing from the list
+BtcPay-Server, at least 5mBTC are missing from the list
 above. Sorry for that.)

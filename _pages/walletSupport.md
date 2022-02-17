@@ -145,8 +145,8 @@ your payment confirmed, you get your $40 back.
   <input type="hidden" name="storeId" value="2KNSmcv9UpkYPmCnn4iR5McDR4kkNnhiFyC3grxPSZwx" />
   <input type="hidden" name="orderId" value="" />
   <input type="hidden" name="checkoutDesc" value="Wallet Support by WalletScrutiny.com" />
-  <input type="hidden" name="serverIpn" value="{{ base_path }}/invoiceCB/">
-  <input type="hidden" name="browserRedirect" value="{{ base_path }}/walletSupport/">
+  <input type="hidden" name="serverIpn" value="https://walletscrutiny.com/invoiceCB/">
+  <input type="hidden" name="browserRedirect" value="https://walletscrutiny.com/walletSupport/">
   <div style="text-align:center">
     <table>
       <tr><td>Upfront payment</td><td>Success payment</td><td>Value of support</td></tr>

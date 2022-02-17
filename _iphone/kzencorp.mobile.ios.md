@@ -1,28 +1,30 @@
 ---
+wsId: ZenGo
 title: "ZenGo: Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: kzencorp.mobile.ios
+appCountry: 
 idd: 1440147115
 released: 2019-06-07
-updated: 2020-12-24
-version: "2.19.0"
-score: 4.64726
-reviews: 876
-size: 79810560
-developerWebsite: https://www.zengo.com
+updated: 2022-02-08
+version: "3.5.1"
+stars: 4.64218
+reviews: 1892
+size: 79404032
+website: https://www.zengo.com
 repository: 
 issue: 
 icon: kzencorp.mobile.ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2020-04-27
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
+providerTwitter: zengo
 providerLinkedIn: 
 providerFacebook: 
 providerReddit: 
@@ -31,3 +33,27 @@ redirect_from:
 
 ---
 
+On their website we find:
+
+> **Backing up your wallet is just as simple.** An encrypted copy of your device
+  share is stored on the ZenGo server, and the decryption code is stored
+  separately in your personal iCloud (iOS) or Google (Android) account. Only
+  with your 3D biometric face map can you access the encrypted share. 
+
+Does that mean that with a photo of you (and probably without) a google engineer
+can access your backup? That's a bit scary.
+
+So they claim it is non-custodial but do they share the source code? On that,
+they link to
+[this blog post](https://medium.com/zengo/zengo-and-open-source-5d0df5c07abf)
+where they conclude:
+
+> As open-sourcing our code is a step we cannot take back, we prefer to take a
+  cautious approach to it. We already released some portions of our code and
+  intend to gradually release more and more of our software as open source as we
+  gain more confidence in out process and more momentum within the community.
+
+... but for audits, it doesn't need to be "Open Source" in the sense of this
+quote. It can just be public code. For audits only.
+
+Their decision to not be transparent earns them the verdict **not verifiable**.

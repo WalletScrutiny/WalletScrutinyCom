@@ -1,27 +1,29 @@
 ---
-title: "ChangeNOW – Limitless Crypto Exchange"
+wsId: ChangeNOW
+title: "Crypto Exchange & Buy Crypto"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: io.changenow.changenow
-launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "1.102"
-stars: 4.5
-ratings: 478
-reviews: 264
-size: 5.7M
-website: http://changenow.io
+appCountry: 
+released: 2018-09-07
+updated: 2022-02-10
+version: "1.150.10"
+stars: 4.9
+ratings: 2138
+reviews: 330
+size: 8.7M
+website: https://changenow.io
 repository: 
 issue: 
 icon: io.changenow.changenow.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
-
 
 providerTwitter: ChangeNOW_io
 providerLinkedIn: 
@@ -31,7 +33,6 @@ providerReddit: ChangeNOW_io
 redirect_from:
   - /io.changenow.changenow/
 ---
-
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.
 

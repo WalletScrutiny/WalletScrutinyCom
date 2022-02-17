@@ -1,33 +1,49 @@
 ---
+wsId: CoinPayments
 title: "CoinPayments - Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: net.coinpayments.coinpaymentsapp
+appCountry: 
 idd: 1162855939
 released: 2019-02-07
-updated: 2020-07-27
-version: "2.2.0"
-score: 4.42856
-reviews: 28
-size: 134762496
-developerWebsite: https://www.coinpayments.net/
+updated: 2021-12-06
+version: "2.3.3"
+stars: 3.93478
+reviews: 46
+size: 146823168
+website: https://www.coinpayments.net/
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
+providerTwitter: CoinPaymentsNET
+providerLinkedIn: coinpayments-inc
+providerFacebook: CoinPayments
 providerReddit: 
 
 redirect_from:
 
 ---
 
+The description is not very clear but sounds a bit like this app is custodial.
+
+Their website is mainly about payment integrations for merchants but also has a
+[page dedicated to the mobile apps](https://www.coinpayments.net/apps) which is
+not very detailed but our guess for now is that
+
+> Now you can easily access your CoinPayments account to send and receive coins,
+  accept POS payments in person, and exchange many of our coins anywhere you
+  have internet access.
+
+means you can access your coins which are stored on their servers thus this is a
+custodial app.
+
+Our verdict: **not verifiable**.
