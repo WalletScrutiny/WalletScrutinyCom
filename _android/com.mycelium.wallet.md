@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-01-31
+date: 2022-02-01
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-01-31
+  version: "3.13.4.0"
+  appHash: 5f71ad4a3d25538b8a747b37f46d2a4bec6abd4e1df9f307adb147fb05ca7826
+  gitRevision: c03fe880418fda2c8c53cfb86c4b7dfce970f562
+  verdict: reproducible
 - date: 2022-01-25
   version: "3.13.3.0"
   appHash: 09505002bcbe9c8d82ec543e609017e7ab75ba0c377c0bb52c4c1ebda5678f63
@@ -201,22 +206,23 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.13.4.0
-apkVersionCode: 3130400
+apkVersionName: 3.13.6.0
+apkVersionCode: 3130600
 verdict:        reproducible
-appHash:        5f71ad4a3d25538b8a747b37f46d2a4bec6abd4e1df9f307adb147fb05ca7826
-commit:         ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
+appHash:        6c98fdf455ad08639581f856446f157905e96c9f87aa934dd9ddd3366919eb21
+commit:         43958a3c0bad2c5a214fbea8841539697118dda2
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3130400/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130400/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3130600/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130600/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object ec16359f443b1cf11c877eef7d7cd6dc9d2564c1
+object 43958a3c0bad2c5a214fbea8841539697118dda2
 type commit
-tag v3.13.4.0
-tagger itserg  1643096624 +0300
+tag v3.13.6.0
+tagger itserg  1643531326 +0300
 
-Accounts' initialization order improvements
+Fixed synchronization issues when restoring existing master seed from a phrase
+Fixed issues with ERC-20 transactions having multiple receivers
 ===== End Results =====
 ```
 
