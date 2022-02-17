@@ -21,9 +21,14 @@ icon: zapsolutions.zap.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2021-12-15
+date: 2022-02-17
 signer: 
 reviewArchive:
+- date: 2021-12-15
+  version: "0.5.4-beta"
+  appHash: 32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc
+  gitRevision: 697497f5a850b1773b8626ab100442c4bf223ff0
+  verdict: reproducible
 - date: 2021-12-06
   version: "0.5.3-beta"
   appHash: ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4
@@ -76,11 +81,11 @@ on the binary from Google Play:
 ===== Begin Results =====
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.4-beta
-apkVersionCode: 3034
+apkVersionName: 0.5.5-beta
+apkVersionCode: 3035
 verdict:        reproducible
-appHash:        32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc
-commit:         f8263917f934efa77c14ae1a057e5fdacf2d30bc
+appHash:        af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982
+commit:         1ae775ecbe297083ddad6b03ba47ec375a872eb8
 
 Diff:
 
@@ -88,21 +93,6 @@ Diff:
 Revision, tag (and its signature):
 
 ===== End Results =====
-```
-
-**Empty diff?** As prior versions did not have an empty diff, we double-checked
-if our script did something wrong but it's just that Zap dropped the use of
-"JAR signing", using only "APK Signature Scheme v2":
-
-```
-$ apksigner verify --print-certs -v zapsolutions.zap_3032_f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757.apk | grep using
-Verified using v1 scheme (JAR signing): true
-Verified using v2 scheme (APK Signature Scheme v2): true
-Verified using v3 scheme (APK Signature Scheme v3): false
-$ apksigner verify --print-certs -v zapsolutions.zap_3033_ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4.apk | grep using
-Verified using v1 scheme (JAR signing): false
-Verified using v2 scheme (APK Signature Scheme v2): true
-Verified using v3 scheme (APK Signature Scheme v3): false
 ```
 
 That's how it should look like to give it the verdict: **reproducible**.
