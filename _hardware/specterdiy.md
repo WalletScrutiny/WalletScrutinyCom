@@ -7,7 +7,7 @@ released: 2020-02-27
 discontinued: # date
 updated: 2021-12-23
 version: 1.6.2
-dimensions: 167 x 65 x 20 mm
+dimensions: [167, 65, 20]
 weight: 
 website: https://specter.solutions/#diy
 shop: 

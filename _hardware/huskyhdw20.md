@@ -7,8 +7,8 @@ released: 2021-02-23
 discontinued: # date
 updated: 
 version: 1.0.4
-dimensions: 10 × 7 × 2.5 cm
-weight: 0.2 kg
+dimensions: [100, 70, 25]
+weight: 200
 website: https://www.huskywallet.com/
 shop: https://www.huskywallet.com/shop/
 company: Embedded Agency LLC

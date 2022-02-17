@@ -8,7 +8,7 @@ discontinued: # date
 updated: 
 version:
 dimensions: [85.0, 54.0, 2.2]
-weight: 140g
+weight: 140
 website: https://morixjp.com/eng/products/walletcard
 shop: https://www.amazon.co.jp/dp/B08DNN7LGK
 company: MoriX Co., Ltd.‬
