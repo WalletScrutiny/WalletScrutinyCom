@@ -42,7 +42,7 @@ Announced on twitter on December 9, 2021, the CL Card is a part of the suite of 
 
 It will be available in the 1st quarter of 2022 in UK, France and Germany. The US will get access to it in the 2nd quarter. 
 
-More information is available via a TechCrunch article:
+More information is available via a [TechCrunch article](https://techcrunch.com/2021/12/09/ledger-to-launch-crypto-debit-card/):
 
 > After receiving your card, you’ll be able to top it up from the Ledger Live app with BTC, ETH, USDT, EURT, USDC, XRP, BXX, BCH or LTC. When you use your card for a transaction, cryptocurrencies are instantly converted to the fiat amount at the time of purchase.
 >
