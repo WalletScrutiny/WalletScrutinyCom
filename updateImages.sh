@@ -14,12 +14,12 @@ then
     exit
 fi
 
-mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 2> /dev/null
+mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
-rm -rf $tmpDir 2> /dev/null
-mkdir $tmpDir 2> /dev/null
+rm -rf $tmpDir 
+mkdir $tmpDir 
 git --work-tree=$tmpDir checkout HEAD -- images/wallet_icons/
 
 logIfUnchanged() {
@@ -56,7 +56,7 @@ resizeDeterministically() {
   source=$2/$filename
   target=$3/$filename
   size=$4
-  convert -background none $source -resize ${size}x $target 2> /dev/null
+  convert -background none $source -resize ${size}x $target 
 }
 
 resizeMany() {
