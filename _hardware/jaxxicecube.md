@@ -19,7 +19,7 @@ repository:
 issue:
 icon: jaxxicecube.png
 bugbounty:
-meta: obsolete
+meta: defunct
 verdict: unreleased
 date: 2022-01-25
 signer:
@@ -49,4 +49,8 @@ These [features were announced](https://web.archive.org/web/20170608113634/https
 
 ## verdict
 
-The promised date of **"late 2016/early 2017"** is now almost 5 years. We [reached out to Jaxx](https://twitter.com/BitcoinWalletz/status/1485819187222450178) via twitter to ask them whether the project is still ongoing. Until further notice, this project will retain its last known status.
+The promised date of **"late 2016/early 2017"** is now almost 5 years. We [reached out to Jaxx](https://twitter.com/BitcoinWalletz/status/1485819187222450178) via twitter to ask them whether the project is still ongoing. They [replied](https://twitter.com/jaxx_io/status/1489269784898420740): 
+
+> Hi there. We spent the last few years focused on infrastructure. Stay tuned for some exciting announcements in 2022.
+
+Without a concrete release date and information about this project, this project will retain its last known status.
