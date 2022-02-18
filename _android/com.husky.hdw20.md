@@ -21,7 +21,7 @@ icon: com.husky.hdw20.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-18
 signer: 
 reviewArchive:
 

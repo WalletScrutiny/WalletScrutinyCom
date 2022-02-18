@@ -21,7 +21,7 @@ icon: andgo.png
 bugbounty:
 meta: defunct
 verdict: unreleased
-date: 2022-01-25
+date: 2022-02-18
 signer:
 reviewArchive:
 

@@ -21,7 +21,7 @@ icon: octowallet.png
 bugbounty:
 meta: defunct
 verdict: nosource
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

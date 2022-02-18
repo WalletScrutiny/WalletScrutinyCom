@@ -21,7 +21,7 @@ icon: nativault.png
 bugbounty:
 meta: ok
 verdict: unreleased
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

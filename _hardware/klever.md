@@ -21,7 +21,7 @@ icon: klever.png
 bugbounty:
 meta: ok
 verdict: noita
-date: 2022-01-25
+date: 2022-02-18
 signer:
 reviewArchive:
 

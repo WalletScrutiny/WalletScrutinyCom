@@ -21,7 +21,7 @@ icon: hodlertech.png
 bugbounty:
 meta: defunct
 verdict: unreleased
-date: 2022-01-26
+date: 2022-02-18
 signer:
 reviewArchive:
 

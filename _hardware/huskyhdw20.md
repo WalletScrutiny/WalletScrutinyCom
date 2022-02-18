@@ -21,7 +21,7 @@ icon: huskyhdw20.png
 bugbounty:
 meta: ok
 verdict: nosource
-date: 2022-01-26
+date: 2022-02-18
 signer:
 reviewArchive:
 

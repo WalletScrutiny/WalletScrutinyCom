@@ -21,7 +21,7 @@ icon: specterdiy.png
 bugbounty:
 meta: ok
 verdict: wip 
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

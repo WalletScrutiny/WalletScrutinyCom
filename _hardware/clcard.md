@@ -21,7 +21,7 @@ icon: clcard.png
 bugbounty:
 meta: ok
 verdict: unreleased
-date: 2022-01-26
+date: 2022-02-18
 signer:
 reviewArchive:
 
