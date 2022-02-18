@@ -7,8 +7,8 @@ released: 2018-02-18
 discontinued: # date
 updated: 
 version: 
-dimensions: 7.76 x 5.35 x 0.35 in
-weight: 2.29 oz
+dimensions: [197, 136, 9]
+weight: 65
 website: https://bitfreezer.app/
 shop: 
 company: BitFreezer

@@ -10,7 +10,7 @@ discontinued: # date
 updated: 2021-11-11
 version: B-2.5
 dimensions: 
-weight: 115 g
+weight: 115
 website: https://keyst.one/
 shop: 
 company: Keystone

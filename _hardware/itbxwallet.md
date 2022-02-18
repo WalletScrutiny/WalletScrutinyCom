@@ -7,8 +7,8 @@ released: 2018-10-11
 discontinued: # date
 updated: 
 version: 
-dimensions: 0.9 x 0.3 X 3.9 inches
-weight: 8.2 oz.
+dimensions: [23, 8, 99]
+weight: 232
 website: https://itbiometrics.com/itbx-cold-wallet/
 shop: 
 company: ITBiometrics™

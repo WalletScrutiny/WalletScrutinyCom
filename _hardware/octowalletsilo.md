@@ -7,7 +7,7 @@ released: 2018-08-03
 discontinued: # date
 updated: 
 version:
-dimensions: [44, 44.3]
+dimensions: [44, 44.3, 7]
 weight: 
 website: https://www.octowallet.com/
 shop: https://shop.octowallet.com/

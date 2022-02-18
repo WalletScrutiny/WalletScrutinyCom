@@ -8,7 +8,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [67, 46, 11]
-weight: 47g
+weight: 47
 website: https://xeeda.io/
 shop: 
 company: 

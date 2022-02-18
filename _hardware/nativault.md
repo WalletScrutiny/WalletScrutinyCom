@@ -7,8 +7,8 @@ released:
 discontinued: # date
 updated: 
 version:
-dimensions: [18, 14.2]
-weight: 5g
+dimensions: [18, 14.2, 5]
+weight: 5
 website: https://nativault.com/
 shop:
 company: 

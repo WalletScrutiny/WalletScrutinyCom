@@ -8,7 +8,7 @@ discontinued: # date
 updated: 
 version: 
 dimensions: [64, 38, 2.3]
-weight: 8.1g
+weight: 8.1
 website: https://imkey.im/
 shop: 
 company: IMKEY PTE. LTD
