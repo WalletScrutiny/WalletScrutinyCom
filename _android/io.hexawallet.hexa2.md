@@ -11,7 +11,7 @@ released: 2021-09-30
 updated: 2022-02-02
 version: "2.0.69"
 stars: 5.0
-ratings: 28
+ratings: 29
 reviews: 4
 size: 57M
 website: https://hexawallet.io/

@@ -11,8 +11,8 @@ released: 2019-12-23
 updated: 2022-02-15
 version: "2.9.2"
 stars: 2.5
-ratings: 7116
-reviews: 4855
+ratings: 7125
+reviews: 4859
 size: 25M
 website: https://www.binance.us
 repository: 

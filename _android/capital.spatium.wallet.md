@@ -9,8 +9,8 @@ users: 1000
 appId: capital.spatium.wallet
 appCountry: us
 released: 2018-08-31
-updated: 2022-02-05
-version: "3.0.60"
+updated: 2022-02-15
+version: "3.0.62"
 stars: 0.0
 ratings: 
 reviews: 

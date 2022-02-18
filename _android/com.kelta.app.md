@@ -10,7 +10,7 @@ appCountry: sk
 released: 2018-05-15
 updated: 2021-11-22
 version: "3.1.1"
-stars: 3.0
+stars: 2.9
 ratings: 1253
 reviews: 1108
 size: 4.3M

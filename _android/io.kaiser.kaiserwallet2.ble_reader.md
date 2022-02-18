@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.kaiser.kaiserwallet2.ble_reader.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-02-18
 signer: 
 reviewArchive:
 

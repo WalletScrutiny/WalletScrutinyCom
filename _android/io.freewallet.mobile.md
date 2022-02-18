@@ -10,8 +10,8 @@ appCountry:
 released: 2016-09-01
 updated: 2019-03-17
 version: "0.1.9"
-stars: 4.1
-ratings: 80
+stars: 4.0
+ratings: 94
 reviews: 18
 size: 6.7M
 website: https://freewallet.io

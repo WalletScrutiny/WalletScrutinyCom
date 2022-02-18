@@ -13,7 +13,7 @@ version: "1.2.0"
 stars: 
 reviews: 
 size: 27380736
-website: https://defichain.com/
+website: http://defichain.com
 repository: 
 issue: 
 icon: com.defichain.app.jpg

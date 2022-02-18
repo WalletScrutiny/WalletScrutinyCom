@@ -9,11 +9,11 @@ appId: com.fibermode.mode.android
 appCountry: gb
 released: 2021-02-11
 updated: 2022-02-15
-version: "2.3.2"
-stars: 3.9
-ratings: 359
-reviews: 150
-size: 148M
+version: "2.3.3"
+stars: 3.8
+ratings: 364
+reviews: 152
+size: 149M
 website: https://www.modeapp.com
 repository: 
 issue: 

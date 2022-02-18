@@ -8,10 +8,10 @@ users: 5000000
 appId: com.fbs.tpand
 appCountry: 
 released: 2019-03-25
-updated: 2022-02-11
+updated: 2022-02-16
 version: "1.46.0"
 stars: 4.8
-ratings: 125619
+ratings: 126306
 reviews: 132
 size: 23M
 website: https://fbs.com/

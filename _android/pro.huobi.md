@@ -8,12 +8,12 @@ users: 5000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2022-02-10
-version: "6.7.9"
+updated: 2022-02-17
+version: "6.8.1"
 stars: 4.6
-ratings: 29552
+ratings: 29908
 reviews: 422
-size: 119M
+size: 128M
 website: http://www.hbg.com
 repository: 
 issue: 

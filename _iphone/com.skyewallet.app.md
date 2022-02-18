@@ -8,11 +8,11 @@ appId: com.skyewallet.app
 appCountry: us
 idd: 1587180582
 released: 2021-09-27
-updated: 2021-11-03
-version: "2.9.3"
-stars: 3.71429
-reviews: 14
-size: 50906112
+updated: 2022-02-17
+version: "2.11.0"
+stars: 3.625
+reviews: 16
+size: 51240960
 website: https://skyewallet.com/
 repository: 
 issue: 

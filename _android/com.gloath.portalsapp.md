@@ -11,7 +11,7 @@ released: 2018-03-20
 updated: 2020-12-20
 version: "0.0.4a"
 stars: 4.1
-ratings: 138
+ratings: 137
 reviews: 19
 size: 11M
 website: https://portals.nz

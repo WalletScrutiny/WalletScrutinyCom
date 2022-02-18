@@ -1,6 +1,6 @@
 ---
 wsId: flits
-title: "Flits: Masternode and staking wallet"
+title: "Flits: Passive income wallet"
 altTitle: 
 authors:
 - leo
@@ -11,7 +11,7 @@ released: 2019-04-05
 updated: 2021-02-09
 version: "4.4"
 stars: 4.6
-ratings: 2080
+ratings: 2083
 reviews: 70
 size: 14M
 website: https://flitsnode.app

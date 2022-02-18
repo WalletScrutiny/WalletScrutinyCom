@@ -8,8 +8,8 @@ users: 10000
 appId: com.selendra.secure_wallet
 appCountry: 
 released: 2021-02-22
-updated: 2022-02-13
-version: "3.3.0"
+updated: 2022-02-15
+version: "3.4.0"
 stars: 4.2
 ratings: 94
 reviews: 4

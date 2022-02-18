@@ -13,8 +13,8 @@ released: 2018-05-24
 updated: 2022-02-15
 version: "0.34.6"
 stars: 4.8
-ratings: 1245
-reviews: 145
+ratings: 1248
+reviews: 146
 size: 30M
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork

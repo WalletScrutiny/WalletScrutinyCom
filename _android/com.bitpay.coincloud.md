@@ -8,10 +8,10 @@ users: 10000
 appId: com.bitpay.coincloud
 appCountry: 
 released: 2018-09-06
-updated: 2021-12-27
-version: "12.02.17"
+updated: 2022-02-16
+version: "12.02.18"
 stars: 3.7
-ratings: 232
+ratings: 233
 reviews: 101
 size: 17M
 website: https://www.coin.cloud

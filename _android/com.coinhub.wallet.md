@@ -11,8 +11,8 @@ released: 2021-07-13
 updated: 2022-01-25
 version: "2.2.3"
 stars: 4.2
-ratings: 806
-reviews: 28
+ratings: 834
+reviews: 29
 size: 44M
 website: https://www.coinhub.org
 repository: 
