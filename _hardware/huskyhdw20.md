@@ -19,7 +19,8 @@ repository:
 issue:
 icon: huskyhdw20.png
 bugbounty:
-verdict: prefilled  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: ok
+verdict: nosource
 date: 2022-01-26
 signer:
 reviewArchive:
@@ -32,32 +33,32 @@ providerReddit:
 ---
 
 
-The device can connect to the Internet and is assigned its own IP address. It also comes with a companion app:
+The device can connect to the Internet via Wi-Fi. It also comes with a companion app:
 
 - {% include walletLink.html wallet='android/com.husky.hdw20' verdict='true' %}
 
 ## Advertised features
 
-- 2 Core, 240 MHz Microcontrollers
-- 2.8 LED Display
-- Capacitative Touch Screen
-- Long Range Wi-Fi connection
-- Connects with Phone or PC
-- Over-the-air firmware updates
-- Updates sent straight to device
-- A long-range Wi-Fi connection allows sending Bitcoins from any device at your home network.
+> - 2 Core, 240 MHz Microcontrollers
+> - 2.8 LED Display
+> - Capacitative Touch Screen
+> - Long Range Wi-Fi connection
+> - Connects with Phone or PC
+> - Over-the-air firmware updates
+> - Updates sent straight to device
+> - A long-range Wi-Fi connection allows sending Bitcoins from any device at your home network.
 
 ## Verdict 
 
-The device [can connect to the Internet](https://www.huskywallet.com/articles/how-to-install-software/) via Wi-Fi. The firmware is also updated via the Wi-Fi connection and "straight to the device". Up to what extent these updates can pose as security risks is beyond us. Needless to say, this opens up the device to online threats.
+The device [can connect to the Internet](https://www.huskywallet.com/articles/how-to-install-software/) via Wi-Fi. The firmware is also updated via the Wi-Fi connection "straight to the device". Needless to say, while internet connection adds convenience, it also increases the attack surface.
 
-We could not find documentation on how this specific device generates the private keys. There is a [mention about private key generation](https://www.huskywallet.com/articles/set-single-address/) on their website but it is more of a general article rather than a user's guide. But one thing is for sure, if the wallet is connected via Wi-Fi and is assigned its own IP address, it is most definitely online. 
+We could not find documentation on how this specific device generates the private keys. There is a [mention about private key generation](https://www.huskywallet.com/articles/set-single-address/) on their website but it is more of a general article rather than a user's guide.
 
 In the front page of the Husky Wallet's website, it states:
 
 > A private key stored at the dedicated chip makes bitcoin transaction signing not accessible for software and hardware hackers.
 
-There is no direct specification whether this private key was generated offline or pre-generated right after manufacture and before it is shipped to the user. We're inclined to reach out to Husky but they do not have a twitter account. However, we will send them an email.
+There is no direct specification whether this private key was generated offline or pre-generated right after manufacture and before it is shipped to the user. Giving them the benefit of the doubt, after all "New Wallets" [can be created](https://www.huskywallet.com/articles/how-to-test-your-wallet/), which leads us the question if the firmware's source code is available. Sadly there is no mention of source code anywhere.
 
-Until further information is made available we would have to assume that the keys are stored on the device.
+Without the source code being available, this product is **not verifiable**.
 

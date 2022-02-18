@@ -19,7 +19,8 @@ repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue:
 icon: hodlertech.png
 bugbounty:
-verdict: defunct   # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: defunct
+verdict: unreleased
 date: 2022-01-26
 signer:
 reviewArchive:

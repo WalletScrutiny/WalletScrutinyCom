@@ -19,7 +19,8 @@ repository:
 issue:
 icon: jaxxicecube.png
 bugbounty:
-verdict: unreleased  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: obsolete
+verdict: unreleased
 date: 2022-01-25
 signer:
 reviewArchive:

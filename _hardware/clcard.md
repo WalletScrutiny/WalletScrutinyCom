@@ -19,7 +19,8 @@ repository:
 issue:
 icon: clcard.png
 bugbounty:
-verdict: unreleased   # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: ok
+verdict: unreleased
 date: 2022-01-26
 signer:
 reviewArchive:

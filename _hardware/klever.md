@@ -19,7 +19,8 @@ repository: https://github.com/orgs/klever-io
 issue:
 icon: klever.png
 bugbounty:
-verdict: noita  # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct plainkey
+meta: ok
+verdict: noita
 date: 2022-01-25
 signer:
 reviewArchive:
@@ -40,7 +41,9 @@ We were not able to find a video review of the actual device, so we'll go by the
 
 We derived information from [this article](https://news.klever.io/p/focus-on-klever-hard-wallet) written by Marcelo Soussa, Klever's Head Engineer for their Hard Wallet Squad. 
 
-- There are two types of connections for the device: Bluetooth and a USB with type-C connector
+- There are two types of connections for the device:
+  - Bluetooth
+  - USB with type-C connector
 - They claim that the private keys are stored offline
 - Certified security CC-EAL5+
 
@@ -64,7 +67,7 @@ Without a video review of the physical device, we can only base our analysis on 
 
 > With this gadget, everyone can authenticate and confirm transactions without having to resort to their private key or any other sensitive code, as the process is solely managed by the device. The keys, passwords, pin numbers and mnemonics, typical security strategies of the digital world, may be only required during the device initial setup.
 
-The device has no screen display wherein the user can visually confirm transactions on the device itself. This also means that it is entirely reliant on the mobile phone app which is connected via USB or Bluetooth. 
+The device has no screen wherein the user can visually confirm transactions on the device itself. This also means that it is entirely reliant on the connected mobile phone app.
 
 They also mentioned that they were going to release the source code publicly, but we checked their GitHub repository and we could not find the repository for the hardware wallet.
 
