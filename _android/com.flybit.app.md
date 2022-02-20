@@ -8,12 +8,12 @@ users: 10000
 appId: com.flybit.app
 appCountry: us
 released: 2021-02-04
-updated: 2022-01-27
-version: "1.9.6"
+updated: 2022-02-19
+version: "1.9.8"
 stars: 0.0
 ratings: 
 reviews: 
-size: 8.7M
+size: 8.6M
 website: https://flybit.com
 repository: 
 issue: 

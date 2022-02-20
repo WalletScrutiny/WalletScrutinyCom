@@ -10,8 +10,8 @@ idd: 1179360399
 released: 2017-08-07
 updated: 2021-06-04
 version: "0.8.851"
-stars: 3.375
-reviews: 16
+stars: 3.47059
+reviews: 17
 size: 90617856
 website: https://qcan.com
 repository: 

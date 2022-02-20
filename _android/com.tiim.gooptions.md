@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa Stock Market Simulator"
+title: "Paper Trading - Bolsa"
 altTitle: 
 authors:
 - danny

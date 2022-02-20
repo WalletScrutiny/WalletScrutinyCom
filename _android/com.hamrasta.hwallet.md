@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Hamrasta Cryptocurrency wallet"
+title: "Hamrasta Cryptocurrency Market"
 altTitle: 
 authors:
 

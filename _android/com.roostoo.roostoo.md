@@ -11,7 +11,7 @@ released: 2019-07-15
 updated: 2020-07-09
 version: "2.0.0"
 stars: 3.8
-ratings: 180
+ratings: 182
 reviews: 8
 size: 9.8M
 website: https://www.roostoo.com

@@ -11,9 +11,9 @@ appCountry: nl
 released: 2018-06-07
 updated: 2022-02-11
 version: "20.3.1"
-stars: 4.0
-ratings: 2800
-reviews: 22
+stars: 3.9
+ratings: 2806
+reviews: 23
 size: 34M
 website: https://changeinvest.com
 repository: 

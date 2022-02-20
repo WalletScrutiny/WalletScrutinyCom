@@ -4,7 +4,7 @@ title: "Coin Cloud: Wallet 1.5"
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.bitpay.coincloud
 appCountry: 
 released: 2018-09-06

@@ -8,11 +8,11 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2022-01-27
-version: "2.10.1"
-stars: 4.6
-ratings: 562
-reviews: 182
+updated: 2022-02-18
+version: "2.11.0"
+stars: 4.5
+ratings: 563
+reviews: 183
 size: 252M
 website: https://savl.com
 repository: 

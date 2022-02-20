@@ -11,8 +11,8 @@ released: 2014-04-25
 updated: 2022-02-17
 version: "4.20.2"
 stars: 4.0
-ratings: 214
-reviews: 123
+ratings: 215
+reviews: 124
 size: 24M
 website: http://exante.eu
 repository: 

@@ -10,8 +10,8 @@ appCountry:
 released: 2018-11-01
 updated: 2022-01-31
 version: "6.2.17"
-stars: 3.9
-ratings: 1761
+stars: 4.0
+ratings: 1771
 reviews: 150
 size: Varies with device
 website: https://bluewallet.io

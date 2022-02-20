@@ -11,7 +11,7 @@ released: 2019-01-01
 updated: 2022-01-09
 version: "3.7.4"
 stars: 4.3
-ratings: 22270
+ratings: 22276
 reviews: 1071
 size: 48M
 website: https://coinbox.org

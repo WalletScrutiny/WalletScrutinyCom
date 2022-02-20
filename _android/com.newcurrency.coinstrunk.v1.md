@@ -11,7 +11,7 @@ released: 2020-10-15
 updated: 2022-02-01
 version: "1.11"
 stars: 4.1
-ratings: 627
+ratings: 630
 reviews: 44
 size: 6.4M
 website: http://firstdaotrust.com

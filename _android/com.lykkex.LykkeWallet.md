@@ -11,8 +11,8 @@ released: 2016-08-25
 updated: 2021-12-06
 version: "12.8.0"
 stars: 3.9
-ratings: 579
-reviews: 17
+ratings: 580
+reviews: 18
 size: 17M
 website: https://lykke.com
 repository: 

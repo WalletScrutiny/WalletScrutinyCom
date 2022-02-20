@@ -10,8 +10,8 @@ idd: 1553430666
 released: 2021-10-27
 updated: 2022-02-07
 version: "1.2.0"
-stars: 2
-reviews: 2
+stars: 1.66667
+reviews: 3
 size: 67745792
 website: https://www.bitnovo.com
 repository: 

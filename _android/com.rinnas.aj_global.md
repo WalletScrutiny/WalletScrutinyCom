@@ -11,7 +11,7 @@ released: 2020-05-29
 updated: 2021-10-19
 version: "2.0.8"
 stars: 2.7
-ratings: 140
+ratings: 141
 reviews: 10
 size: 20M
 website: https://ajglobalv.com/

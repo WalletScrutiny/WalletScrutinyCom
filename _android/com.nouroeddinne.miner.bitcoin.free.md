@@ -11,8 +11,8 @@ released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
 stars: 4.6
-ratings: 3743
-reviews: 324
+ratings: 3763
+reviews: 326
 size: 7.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 

@@ -11,7 +11,7 @@ released: 2018-10-28
 updated: 2022-02-14
 version: "1.7.0"
 stars: 2.9
-ratings: 183
+ratings: 185
 reviews: 8
 size: 13M
 website: http://blocktrade.com

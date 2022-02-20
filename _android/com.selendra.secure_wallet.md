@@ -11,7 +11,7 @@ released: 2021-02-22
 updated: 2022-02-15
 version: "3.4.0"
 stars: 4.2
-ratings: 94
+ratings: 96
 reviews: 4
 size: 74M
 website: https://bitriel.com/

@@ -11,8 +11,8 @@ released: 2010-12-15
 updated: 2022-02-17
 version: "8.4.517"
 stars: 3.2
-ratings: 7676
-reviews: 854
+ratings: 7687
+reviews: 855
 size: 29M
 website: http://ibkr.com
 repository: 

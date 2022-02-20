@@ -11,7 +11,7 @@ released: 2021-07-29
 updated: 2022-02-16
 version: "1.0.18"
 stars: 4.4
-ratings: 1678
+ratings: 1679
 reviews: 49
 size: 39M
 website: https://leadwallet.io

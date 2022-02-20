@@ -11,8 +11,8 @@ released: 2020-08-06
 updated: 2022-02-15
 version: "v108"
 stars: 4.2
-ratings: 6477
-reviews: 1166
+ratings: 6510
+reviews: 1175
 size: 51M
 website: https://strike.me/
 repository: 

@@ -8,11 +8,11 @@ appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
 released: 2017-06-26
-updated: 2022-02-08
-version: "381.0.0"
-stars: 4.21537
-reviews: 4940
-size: 136559616
+updated: 2022-02-11
+version: "385.0.0"
+stars: 4.21467
+reviews: 4961
+size: 154455040
 website: http://www.etoro.com
 repository: 
 issue: 

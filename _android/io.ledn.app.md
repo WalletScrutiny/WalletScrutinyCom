@@ -11,7 +11,7 @@ released: 2021-01-04
 updated: 2021-01-28
 version: "0.1.3"
 stars: 2.6
-ratings: 70
+ratings: 71
 reviews: 8
 size: 73M
 website: https://ledn.io

@@ -17,7 +17,7 @@ wget "https://github.com/bithd/bithd-mcu/releases/download/v${version}/razor-v${
 cp "bithd-v${version}-signed.bin" "razor-v${version}-signed.bin" $ARCHIVE
 sha256sum "bithd-v${version}-signed.bin" "razor-v${version}-signed.bin"
 
-git checkout core/v${version}
+git checkout v${version}
 bash -c "./build-docker.sh core/v${version}"
 echo
 echo "Hash of non-signature parts downloaded/compiled:"

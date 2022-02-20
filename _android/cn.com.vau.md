@@ -11,8 +11,8 @@ released: 2019-07-06
 updated: 2022-02-07
 version: "2.0.4.1"
 stars: 4.8
-ratings: 8518
-reviews: 992
+ratings: 8577
+reviews: 994
 size: 33M
 website: https://www.vantagemarkets.com/
 repository: 

@@ -11,8 +11,8 @@ released: 2012-12-22
 updated: 2022-01-30
 version: "202"
 stars: 3.9
-ratings: 3746
-reviews: 258
+ratings: 3748
+reviews: 259
 size: 6.6M
 website: https://tabshop.smartlab.at/
 repository: 
