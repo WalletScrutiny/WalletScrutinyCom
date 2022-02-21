@@ -9,11 +9,11 @@ appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
 updated: 2022-02-15
-version: "4.10.12"
+version: "5.0.1"
 stars: 4.7
-ratings: 13813
-reviews: 966
-size: 28M
+ratings: 16634
+reviews: 971
+size: 63M
 website: https://www.algorand.com
 repository: 
 issue: 

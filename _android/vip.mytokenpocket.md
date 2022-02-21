@@ -11,7 +11,7 @@ released: 2018-06-29
 updated: 2022-01-27
 version: "1.4.0"
 stars: 4.9
-ratings: 16729
+ratings: 16742
 reviews: 439
 size: 42M
 website: https://www.tokenpocket.pro/

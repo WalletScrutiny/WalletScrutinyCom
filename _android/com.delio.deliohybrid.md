@@ -10,8 +10,8 @@ appCountry: cn
 released: 2020-02-27
 updated: 2022-02-11
 version: "1.3.10"
-stars: 2.7
-ratings: 49
+stars: 2.6
+ratings: 48
 reviews: 37
 size: 29M
 website: https://www.delio.foundation

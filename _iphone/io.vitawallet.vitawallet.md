@@ -10,8 +10,8 @@ idd: 1486999955
 released: 2019-11-15
 updated: 2022-02-14
 version: "4.0.8"
-stars: 4.2
-reviews: 25
+stars: 4.26667
+reviews: 30
 size: 34737152
 website: https://www.vitawallet.io
 repository: 

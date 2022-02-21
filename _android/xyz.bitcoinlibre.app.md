@@ -11,8 +11,8 @@ released: 2021-09-20
 updated: 2022-02-15
 version: "2.1.2"
 stars: 3.8
-ratings: 2353
-reviews: 49
+ratings: 2391
+reviews: 51
 size: 83M
 website: https://www.libre.sv
 repository: 

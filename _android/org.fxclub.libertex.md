@@ -11,7 +11,7 @@ released: 2015-05-22
 updated: 2022-02-16
 version: "2.30.0"
 stars: 4.8
-ratings: 77362
+ratings: 77385
 reviews: 993
 size: 38M
 website: https://libertex.org

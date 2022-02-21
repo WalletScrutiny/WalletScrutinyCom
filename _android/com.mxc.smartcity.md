@@ -4,7 +4,7 @@ title: "DataDash"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.mxc.smartcity
 appCountry: us
 released: 2020-05-18

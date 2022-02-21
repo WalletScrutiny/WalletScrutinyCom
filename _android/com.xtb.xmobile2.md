@@ -11,7 +11,7 @@ released: 2014-12-17
 updated: 2022-01-27
 version: "Varies with device"
 stars: 4.4
-ratings: 22180
+ratings: 22213
 reviews: 65
 size: Varies with device
 website: http://www.xtb.com

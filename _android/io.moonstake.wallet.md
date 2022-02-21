@@ -11,7 +11,7 @@ released: 2020-03-24
 updated: 2022-02-09
 version: "2.13.4"
 stars: 3.3
-ratings: 2234
+ratings: 2235
 reviews: 15
 size: 94M
 website: https://moonstake.io

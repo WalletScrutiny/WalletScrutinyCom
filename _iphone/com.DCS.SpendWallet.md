@@ -10,8 +10,8 @@ idd: 1357740381
 released: 2018-03-30
 updated: 2020-09-05
 version: "3.2.6"
-stars: 4.0708
-reviews: 339
+stars: 4.06452
+reviews: 341
 size: 124011520
 website: https://spend.com
 repository: 

@@ -11,8 +11,8 @@ released: 2015-08-12
 updated: 2022-02-18
 version: "Varies with device"
 stars: 3.8
-ratings: 444540
-reviews: 234164
+ratings: 444657
+reviews: 234222
 size: Varies with device
 website: https://robinhood.com/
 repository: 

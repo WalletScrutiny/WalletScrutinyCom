@@ -4,7 +4,7 @@ title: "Nunchuk Bitcoin Wallet"
 altTitle: 
 authors:
 
-users: 500
+users: 1000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
@@ -20,7 +20,7 @@ issue:
 icon: io.nunchuk.android.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-12-15
 signer: 
 reviewArchive:

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-31
 updated: 2021-03-31
 version: "1.0.2"
-stars: 2.9
-ratings: 163
-reviews: 3
+stars: 3.1
+ratings: 164
+reviews: 4
 size: 4.4M
 website: http://www.bityard.com
 repository: 

@@ -11,8 +11,8 @@ released: 2019-01-24
 updated: 2022-02-14
 version: "10.8"
 stars: 3.7
-ratings: 962
-reviews: 143
+ratings: 966
+reviews: 142
 size: 53M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund

@@ -8,11 +8,11 @@ appId: com.moonlet
 appCountry: ro
 idd: 1483013547
 released: 2020-04-27
-updated: 2021-11-30
-version: "1.5.23"
+updated: 2022-02-15
+version: "1.5.24"
 stars: 5
 reviews: 6
-size: 47614976
+size: 47250432
 website: https://moonlet.io/
 repository: https://github.com/Moonlet
 issue: 

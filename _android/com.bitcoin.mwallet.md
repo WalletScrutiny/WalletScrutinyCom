@@ -11,7 +11,7 @@ released: 2017-06-19
 updated: 2022-02-15
 version: "7.12.3"
 stars: 4.5
-ratings: 38993
+ratings: 39015
 reviews: 2168
 size: 88M
 website: https://www.bitcoin.com

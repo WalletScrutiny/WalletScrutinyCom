@@ -8,12 +8,12 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2021-11-23
-version: "2.0.2"
+updated: 2022-02-20
+version: "2.1.0"
 stars: 3.5
-ratings: 3292
-reviews: 66
-size: Varies with device
+ratings: 3421
+reviews: 67
+size: 20M
 website: https://arzjoo.com
 repository: 
 issue: 

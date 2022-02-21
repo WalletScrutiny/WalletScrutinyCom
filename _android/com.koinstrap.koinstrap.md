@@ -1,6 +1,6 @@
 ---
 wsId: Koinstrap
-title: "Koinstrap: Buy & Sell Bitcoin Ethereum, Litecoin"
+title: "Koinstrap: Buy & Sell BTC, ETH"
 altTitle: 
 authors:
 - danny
