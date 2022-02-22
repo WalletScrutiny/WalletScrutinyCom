@@ -12,7 +12,7 @@ released: 2018-01-05
 updated: 2021-01-07
 version: "3.3.6-google"
 stars: 4.2
-ratings: 2309
+ratings: 2310
 reviews: 243
 size: 22M
 website: https://altcoinfantasy.com

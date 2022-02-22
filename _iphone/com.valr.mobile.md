@@ -11,8 +11,8 @@ idd: 1453499428
 released: 2019-09-27
 updated: 2022-02-12
 version: "1.0.44"
-stars: 4.375
-reviews: 8
+stars: 4.42856
+reviews: 7
 size: 55380992
 website: https://www.valr.com
 repository: 

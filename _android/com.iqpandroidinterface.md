@@ -12,7 +12,7 @@ released: 2021-10-01
 updated: 2021-10-13
 version: "1.2"
 stars: 4.6
-ratings: 614
+ratings: 613
 reviews: 134
 size: 34M
 website: https://iqwallet.io/

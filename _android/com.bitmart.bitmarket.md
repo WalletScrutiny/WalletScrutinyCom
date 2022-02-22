@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-09
 updated: 2022-02-09
 version: "2.9.4"
-stars: 3.1
-ratings: 41503
-reviews: 6796
+stars: 3.2
+ratings: 41983
+reviews: 6900
 size: 41M
 website: http://www.bitmart.com
 repository: 

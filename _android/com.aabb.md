@@ -11,7 +11,7 @@ released: 2021-03-08
 updated: 2022-02-15
 version: "1.0.1250"
 stars: 4.8
-ratings: 614
+ratings: 613
 reviews: 28
 size: 34M
 website: https://aabbgoldtoken.com/

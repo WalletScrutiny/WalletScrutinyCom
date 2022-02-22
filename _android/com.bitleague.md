@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-05-06
 updated: 2021-05-14
 version: "2.15.2"
-stars: 4.2
-ratings: 289
+stars: 4.6
+ratings: 246
 reviews: 139
 size: 19M
 website: https://www.bitleague.com

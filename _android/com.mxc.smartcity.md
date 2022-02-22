@@ -11,7 +11,7 @@ released: 2020-05-18
 updated: 2022-01-31
 version: "2.0.6"
 stars: 3.8
-ratings: 1935
+ratings: 1936
 reviews: 59
 size: 54M
 website: https://www.mxc.org

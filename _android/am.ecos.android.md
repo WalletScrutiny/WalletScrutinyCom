@@ -11,8 +11,8 @@ released: 2020-09-22
 updated: 2022-02-08
 version: "1.21.0"
 stars: 4.0
-ratings: 370
-reviews: 32
+ratings: 373
+reviews: 33
 size: 40M
 website: https://ecos.finance
 repository: 

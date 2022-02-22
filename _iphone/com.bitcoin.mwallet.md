@@ -10,8 +10,8 @@ idd: 1252903728
 released: 2017-07-11
 updated: 2022-02-15
 version: "7.12.0"
-stars: 4.48893
-reviews: 11296
+stars: 4.49188
+reviews: 11391
 size: 142694400
 website: https://wallet.bitcoin.com/
 repository: 

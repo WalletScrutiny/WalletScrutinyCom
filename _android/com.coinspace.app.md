@@ -11,7 +11,7 @@ released: 2015-05-01
 updated: 2022-01-29
 version: "5.1.5"
 stars: 4.3
-ratings: 1224
+ratings: 1225
 reviews: 47
 size: 6.8M
 website: https://coin.space

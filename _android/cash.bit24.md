@@ -11,8 +11,8 @@ released: 2021-05-30
 updated: 2022-02-02
 version: "6.1.2"
 stars: 4.6
-ratings: 2246
-reviews: 25
+ratings: 2260
+reviews: 26
 size: 33M
 website: https://bit24.cash
 repository: 

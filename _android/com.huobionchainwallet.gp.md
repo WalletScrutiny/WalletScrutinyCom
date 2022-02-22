@@ -11,7 +11,7 @@ released: 2019-10-17
 updated: 2022-02-17
 version: "3.00.08.040"
 stars: 4.6
-ratings: 33213
+ratings: 33216
 reviews: 204
 size: 92M
 website: https://www.huobiwallet.com/

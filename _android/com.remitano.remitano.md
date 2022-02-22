@@ -11,7 +11,7 @@ released: 2016-07-24
 updated: 2022-02-19
 version: "6.36.0"
 stars: 4.4
-ratings: 19035
+ratings: 19052
 reviews: 296
 size: 41M
 website: https://remitano.com

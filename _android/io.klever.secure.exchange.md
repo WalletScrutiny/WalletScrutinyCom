@@ -8,12 +8,12 @@ users: 10000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30
-updated: 2022-01-27
-version: "1.0.17"
+updated: 2022-02-21
+version: "1.0.19"
 stars: 4.0
 ratings: 500
 reviews: 35
-size: 60M
+size: 65M
 website: https://klever.io
 repository: 
 issue: 

@@ -9,7 +9,7 @@ appId: com.bitfyapp
 appCountry: us
 released: 2019-10-14
 updated: 2022-02-16
-version: "3.10.23"
+version: "3.10.25"
 stars: 0.0
 ratings: 
 reviews: 

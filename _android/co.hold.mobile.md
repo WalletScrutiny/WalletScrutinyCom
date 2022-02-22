@@ -11,7 +11,7 @@ released: 2018-09-27
 updated: 2022-01-13
 version: "3.15.0"
 stars: 4.1
-ratings: 201
+ratings: 202
 reviews: 8
 size: Varies with device
 website: https://hold.io

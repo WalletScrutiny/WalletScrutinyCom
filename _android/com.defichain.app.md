@@ -11,8 +11,8 @@ released: 2021-08-22
 updated: 2022-02-18
 version: "1.3.0"
 stars: 4.9
-ratings: 295
-reviews: 118
+ratings: 306
+reviews: 124
 size: 39M
 website: https://defichain.com
 repository: 

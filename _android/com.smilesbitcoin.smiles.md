@@ -11,7 +11,7 @@ released: 2020-12-15
 updated: 2022-02-02
 version: "2.0.7"
 stars: 2.8
-ratings: 202
+ratings: 203
 reviews: 40
 size: 72M
 website: https://www.smilesbitcoin.com/

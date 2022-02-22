@@ -10,8 +10,8 @@ idd: 1436815668
 released: 2018-11-02
 updated: 2022-02-16
 version: "1.4.35"
-stars: 4.15278
-reviews: 27164
+stars: 4.15226
+reviews: 27398
 size: 84354048
 website: http://www.paddle-inc.jp/
 repository: 

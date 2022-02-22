@@ -10,9 +10,9 @@ appCountry: bh
 released: 2018-11-02
 updated: 2022-02-17
 version: "2.5"
-stars: 3.4
-ratings: 4446
-reviews: 2277
+stars: 3.5
+ratings: 4462
+reviews: 2282
 size: 181M
 website: https://rain.bh
 repository: 

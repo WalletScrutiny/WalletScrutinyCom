@@ -11,7 +11,7 @@ released: 2019-01-18
 updated: 2022-02-17
 version: "3.1.3"
 stars: 1.9
-ratings: 183
+ratings: 185
 reviews: 45
 size: 51M
 website: https://www.zbg.com
