@@ -8,11 +8,11 @@ appId: com.toyga.trade360
 appCountry: jo
 idd: 979206998
 released: 2015-09-16
-updated: 2022-01-25
-version: "7.1.4"
+updated: 2022-02-23
+version: "7.1.5"
 stars: 
 reviews: 
-size: 81328128
+size: 81825792
 website: https://www.trade360.com
 repository: 
 issue: 

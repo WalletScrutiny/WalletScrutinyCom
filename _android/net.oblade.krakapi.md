@@ -11,7 +11,7 @@ released: 2019-08-09
 updated: 2022-02-12
 version: "2.5.3"
 stars: 4.2
-ratings: 530
+ratings: 531
 reviews: 14
 size: 7.5M
 website: http://www.oblade.net

@@ -10,8 +10,8 @@ idd: 1397585225
 released: 2018-07-25
 updated: 2022-02-01
 version: "44181"
-stars: 2.89394
-reviews: 66
+stars: 2.86567
+reviews: 67
 size: 26108928
 website: https://coinmetro.com/
 repository: 

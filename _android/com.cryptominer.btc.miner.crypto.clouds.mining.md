@@ -11,8 +11,8 @@ released: 2021-08-28
 updated: 2022-02-15
 version: "1.3"
 stars: 4.4
-ratings: 2321
-reviews: 127
+ratings: 2339
+reviews: 128
 size: 18M
 website: http://btccryptonetwork.com/
 repository: 

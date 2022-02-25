@@ -10,8 +10,8 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2022-02-11
 version: "22.2.10"
-stars: 4.57522
-reviews: 15907
+stars: 4.57514
+reviews: 15937
 size: 46166016
 website: https://exodus.com/mobile
 repository: 

@@ -11,7 +11,7 @@ released: 2020-06-26
 updated: 2022-02-15
 version: "2.7.10"
 stars: 4.0
-ratings: 138
+ratings: 139
 reviews: 83
 size: 20M
 website: https://zam.me/

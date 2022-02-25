@@ -10,8 +10,8 @@ appCountry: us
 released: 2020-04-07
 updated: 2022-02-16
 version: "1.22"
-stars: 3.7
-ratings: 171
+stars: 3.6
+ratings: 209
 reviews: 8
 size: 168M
 website: https://www.mtpelerin.com/bridge-wallet

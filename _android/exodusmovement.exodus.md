@@ -11,8 +11,8 @@ released: 2019-06-06
 updated: 2022-02-11
 version: "22.2.10"
 stars: 4.5
-ratings: 81402
-reviews: 5657
+ratings: 81590
+reviews: 5667
 size: 52M
 website: https://exodus.com/mobile
 repository: https://github.com/exodusmovement

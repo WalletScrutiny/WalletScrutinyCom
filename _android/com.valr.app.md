@@ -11,7 +11,7 @@ released: 2019-09-13
 updated: 2022-02-11
 version: "1.0.44"
 stars: 4.1
-ratings: 1711
+ratings: 1717
 reviews: 9
 size: 106M
 website: https://www.valr.com

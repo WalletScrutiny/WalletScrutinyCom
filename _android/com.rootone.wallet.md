@@ -8,10 +8,10 @@ users: 100000
 appId: com.rootone.wallet
 appCountry: us
 released: 2018-10-08
-updated: 2022-02-18
-version: "1.4.5"
+updated: 2022-02-22
+version: "1.4.8"
 stars: 3.6
-ratings: 615
+ratings: 616
 reviews: 10
 size: 8.0M
 website: https://rootone.com

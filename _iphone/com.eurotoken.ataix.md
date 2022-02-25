@@ -8,11 +8,11 @@ appId: com.eurotoken.ataix
 appCountry: gb
 idd: 1467867553
 released: 2019-09-06
-updated: 2021-11-16
-version: "2.0.1"
+updated: 2022-02-23
+version: "2.0.2"
 stars: 
 reviews: 
-size: 49028096
+size: 49904640
 website: https://ataix.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
 stars: 3.3
-ratings: 53
+ratings: 54
 reviews: 4
 size: 29M
 website: https://dovewallet.com

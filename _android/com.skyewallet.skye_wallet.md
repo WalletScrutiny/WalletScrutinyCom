@@ -11,7 +11,7 @@ released: 2021-05-01
 updated: 2022-02-17
 version: "2.11.0"
 stars: 5.0
-ratings: 262
+ratings: 276
 reviews: 7
 size: 27M
 website: https://skyewallet.com

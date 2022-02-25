@@ -11,7 +11,7 @@ released: 2020-02-05
 updated: 2022-02-15
 version: "1.18.2"
 stars: 4.4
-ratings: 2028
+ratings: 2042
 reviews: 38
 size: 81M
 website: https://status.im

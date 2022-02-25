@@ -10,9 +10,9 @@ appCountry:
 released: 2018-04-17
 updated: 2022-01-17
 version: "4.3.4"
-stars: 3.8
-ratings: 2166
-reviews: 163
+stars: 3.7
+ratings: 2168
+reviews: 164
 size: 54M
 website: https://www.mathwallet.org/
 repository: 

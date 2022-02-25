@@ -8,8 +8,8 @@ users: 1000
 appId: crypto.base.baseexchange
 appCountry: 
 released: 2019-06-05
-updated: 2022-02-14
-version: "4.7"
+updated: 2022-02-22
+version: "4.8"
 stars: 0.0
 ratings: 
 reviews: 

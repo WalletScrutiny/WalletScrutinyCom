@@ -8,8 +8,8 @@ users: 10000
 appId: io.cordova.myappf57082
 appCountry: 
 released: 2017-08-19
-updated: 2020-04-09
-version: "11.2.6"
+updated: 2022-02-23
+version: "11.3.0"
 stars: 4.5
 ratings: 152
 reviews: 24
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.cordova.myappf57082.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2021-08-17
+date: 2022-02-25
 signer: 
 reviewArchive:
 

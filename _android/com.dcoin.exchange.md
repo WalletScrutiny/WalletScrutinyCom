@@ -11,7 +11,7 @@ released: 2018-11-25
 updated: 2022-02-17
 version: "5.1.9"
 stars: 4.2
-ratings: 1345
+ratings: 1346
 reviews: 86
 size: 22M
 website: https://www.dcoin.com

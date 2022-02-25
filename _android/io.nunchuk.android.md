@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-11
 updated: 2022-01-25
 version: "1.9.11"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 5.0
+ratings: 25
+reviews: 8
 size: 20M
 website: https://nunchuk.io
 repository: 

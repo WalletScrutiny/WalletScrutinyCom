@@ -11,7 +11,7 @@ released: 2019-10-29
 updated: 2022-02-20
 version: "1.1.1"
 stars: 4.2
-ratings: 298
+ratings: 301
 reviews: 12
 size: 15M
 website: https://www.bitvalve.com

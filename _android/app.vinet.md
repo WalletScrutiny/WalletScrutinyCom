@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Vinet:Sell Bitcoin PayPal Skrill Netelle for Naira"
+title: "Vinet:Sell Bitcoin PayPal etc."
 altTitle: 
 authors:
 - danny

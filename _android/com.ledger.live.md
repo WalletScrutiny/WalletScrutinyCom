@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Ledger Live - Crypto Wallet"
+title: "Ledger Live - Web3 Wallet"
 altTitle: 
 authors:
 
@@ -8,12 +8,12 @@ users: 500000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2022-02-14
-version: "2.37.4"
+updated: 2022-02-22
+version: "2.38.3"
 stars: 3.1
-ratings: 6050
-reviews: 817
-size: 307M
+ratings: 6067
+reviews: 816
+size: 308M
 website: https://www.ledger.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.pallapayWallet
 appCountry: 
 released: 2021-10-06
-updated: 2021-10-06
-version: "1.0"
+updated: 2022-02-24
+version: "1.2"
 stars: 0.0
 ratings: 
 reviews: 

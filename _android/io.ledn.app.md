@@ -8,20 +8,20 @@ users: 10000
 appId: io.ledn.app
 appCountry: us
 released: 2021-01-04
-updated: 2021-01-28
-version: "0.1.3"
+updated: 2022-02-24
+version: "0.3.0"
 stars: 2.6
 ratings: 71
 reviews: 8
-size: 73M
+size: 74M
 website: https://ledn.io
 repository: 
 issue: 
 icon: io.ledn.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-01-24
+date: 2022-02-25
 signer: 
 reviewArchive:
 

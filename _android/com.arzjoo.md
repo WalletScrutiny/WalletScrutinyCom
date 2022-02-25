@@ -10,8 +10,8 @@ appCountry:
 released: 2019-04-25
 updated: 2022-02-20
 version: "2.1.0"
-stars: 3.5
-ratings: 3475
+stars: 3.6
+ratings: 3643
 reviews: 67
 size: 20M
 website: https://arzjoo.com

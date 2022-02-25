@@ -11,7 +11,7 @@ released: 2019-12-24
 updated: 2022-01-20
 version: "3.0.4"
 stars: 5.0
-ratings: 509
+ratings: 510
 reviews: 55
 size: 8.3M
 website: https://dsdaq.com

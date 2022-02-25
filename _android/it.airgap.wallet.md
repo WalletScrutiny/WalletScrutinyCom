@@ -8,8 +8,8 @@ users: 10000
 appId: it.airgap.wallet
 appCountry: 
 released: 2018-08-06
-updated: 2022-02-11
-version: "3.15.1"
+updated: 2022-02-23
+version: "3.16.0"
 stars: 4.0
 ratings: 127
 reviews: 13

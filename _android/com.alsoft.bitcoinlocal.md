@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-10
+date: 2022-02-25
 signer: 
 reviewArchive:
 
