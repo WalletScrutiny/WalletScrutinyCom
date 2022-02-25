@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptonator.ios.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-01-23
+date: 2022-02-25
 signer: 
 reviewArchive:
 
@@ -32,6 +32,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-09**: This app is not on the Store anymore.
 
 Cryptonator cryptocurrency wallet makes no claim to be non-custodial but the
 [Customer Support](https://www.cryptonator.com/contact/other/)

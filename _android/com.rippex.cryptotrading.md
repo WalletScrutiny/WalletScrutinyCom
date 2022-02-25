@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rippex.cryptotrading.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2021-11-28
+date: 2022-02-25
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 **Note:** The app does not have a listed domain on its website but it has support email address has the domain rippex.com.
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.umifi.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2022-02-25
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-11**: This app is not on the Store anymore.
 
 ## App Description
 
