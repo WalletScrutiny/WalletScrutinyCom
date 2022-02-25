@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-01-24
+date: 2022-02-25
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2022-01-24
+  version: "3.7.8"
+  appHash: c1dc700b749152fefd871aa830caffc2a1fc85fed7194f0a114fd1c7f4bfeb74
+  gitRevision: 6c1ab1bec6c85a048a8e62c6f33fa74a84510d42
+  verdict: reproducible
 - date: 2021-12-27
   version: "3.7.7"
   appHash: 714f02f6cac34bddd8d71dd8c836501f30dce59080b7222f801a83e12b49d45d
@@ -184,22 +189,24 @@ we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.8
-apkVersionCode: 22000378
+apkVersionName: 3.7.9
+apkVersionCode: 22000379
 verdict:        reproducible
-appHash:        c1dc700b749152fefd871aa830caffc2a1fc85fed7194f0a114fd1c7f4bfeb74
-commit:         a4250edf21eef528a852d9748af2f8735969d78e
+appHash:        3d377177d77c6af84720fff05fe62aad6661b81f21ee5b4a6db490ac6b27a6c5
+commit:         df3d4d4265b3221c584a73465e68ee290b30515d
 
 Diff:
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.RSA
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: GREENADD.SF
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000378/META-INF: MANIFEST.MF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: GREENADD.RSA
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: GREENADD.SF
+Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object a4250edf21eef528a852d9748af2f8735969d78e
+object df3d4d4265b3221c584a73465e68ee290b30515d
 type commit
-tag release_3.7.8
-tagger Angelos Veglektsis <angelos@aveworks.com> 1642675658 +0200
+tag release_3.7.9
+tagger Luca Vaccaro <me@lvaccaro.com> 1645526254 +0100
+
+Release 3.7.9
 ===== End Results =====
 ```
 
