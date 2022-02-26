@@ -11,7 +11,7 @@ released: 2019-11-21
 updated: 2022-02-18
 version: "2.20.0"
 stars: 2.9
-ratings: 1247
+ratings: 1248
 reviews: 744
 size: 98M
 website: https://www.coinjar.com

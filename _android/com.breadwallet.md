@@ -11,8 +11,8 @@ released: 2016-07-21
 updated: 2022-02-14
 version: "4.16.0"
 stars: 3.7
-ratings: 33629
-reviews: 1457
+ratings: 33628
+reviews: 1458
 size: 32M
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile

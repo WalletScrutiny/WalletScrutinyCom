@@ -11,7 +11,7 @@ released: 2019-09-10
 updated: 2022-02-11
 version: "3.1.40"
 stars: 4.0
-ratings: 757
+ratings: 758
 reviews: 44
 size: 335M
 website: http://www.sylo.io

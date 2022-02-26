@@ -11,7 +11,7 @@ released: 2019-03-25
 updated: 2022-02-16
 version: "1.46.2"
 stars: 4.8
-ratings: 128004
+ratings: 128228
 reviews: 134
 size: 23M
 website: https://fbs.com/

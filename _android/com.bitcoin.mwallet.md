@@ -11,8 +11,8 @@ released: 2017-06-19
 updated: 2022-02-15
 version: "7.12.3"
 stars: 4.5
-ratings: 39179
-reviews: 2169
+ratings: 39224
+reviews: 2171
 size: 88M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

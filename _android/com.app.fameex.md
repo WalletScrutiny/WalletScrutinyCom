@@ -11,8 +11,8 @@ released: 2020-08-10
 updated: 2022-02-16
 version: "2.10.1"
 stars: 4.9
-ratings: 1416
-reviews: 7
+ratings: 1460
+reviews: 8
 size: 45M
 website: https://www.fameex.com
 repository: 

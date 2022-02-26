@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.2
-ratings: 119
+stars: 3.3
+ratings: 120
 reviews: 11
 size: 65M
 website: https://www.wanchain.org

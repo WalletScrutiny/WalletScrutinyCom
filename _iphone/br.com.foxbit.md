@@ -8,11 +8,11 @@ appId: br.com.foxbit
 appCountry: ph
 idd: 1435319194
 released: 2019-03-24
-updated: 2022-02-14
-version: "2.17.0"
+updated: 2022-02-22
+version: "2.18.0"
 stars: 
 reviews: 
-size: 151310336
+size: 157188096
 website: https://foxbit.com.br/aplicativo/
 repository: 
 issue: 

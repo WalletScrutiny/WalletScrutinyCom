@@ -12,8 +12,8 @@ released: 2020-06-04
 updated: 2022-02-16
 version: "1.2.20"
 stars: 4.8
-ratings: 1864
-reviews: 36
+ratings: 1842
+reviews: 37
 size: 51M
 website: https://www.koinal.io
 repository: 

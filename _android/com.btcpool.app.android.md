@@ -11,7 +11,7 @@ released: 2020-02-25
 updated: 2022-02-21
 version: "2.1.0"
 stars: 3.8
-ratings: 258
+ratings: 259
 reviews: 12
 size: 35M
 website: https://btc.com

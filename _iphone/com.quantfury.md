@@ -10,8 +10,8 @@ idd: 1445564443
 released: 2018-12-15
 updated: 2022-02-09
 version: "1.45.2"
-stars: 4.71084
-reviews: 83
+stars: 4.22581
+reviews: 31
 size: 70026240
 website: https://quantfury.com/
 repository: 

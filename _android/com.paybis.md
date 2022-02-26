@@ -11,7 +11,7 @@ released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
 stars: 2.9
-ratings: 171
+ratings: 172
 reviews: 10
 size: 6.1M
 website: https://paybis.com/contacts/

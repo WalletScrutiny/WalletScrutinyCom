@@ -8,8 +8,8 @@ users: 1000000
 appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
-updated: 2022-02-14
-version: "1.22.1"
+updated: 2022-02-25
+version: "1.22.2"
 stars: 0.0
 ratings: 
 reviews: 

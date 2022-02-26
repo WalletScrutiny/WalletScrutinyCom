@@ -10,8 +10,8 @@ idd: 1354755812
 released: 2018-09-29
 updated: 2022-02-10
 version: "4.1.24"
-stars: 3.98864
-reviews: 88
+stars: 3.94444
+reviews: 90
 size: 285169664
 website: https://hyperpay.tech
 repository: 
