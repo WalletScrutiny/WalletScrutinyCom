@@ -11,7 +11,7 @@ released: 2021-04-29
 updated: 2021-04-29
 version: "3.0.0.0"
 stars: 4.9
-ratings: 467
+ratings: 471
 reviews: 15
 size: 2.6M
 website: http://exchange.cryptex.net/

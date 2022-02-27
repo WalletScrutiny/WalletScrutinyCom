@@ -11,7 +11,7 @@ released: 2019-09-11
 updated: 2022-01-28
 version: "6.1.0"
 stars: 3.9
-ratings: 7326
+ratings: 7332
 reviews: 157
 size: 8.7M
 website: https://ok-ex.co

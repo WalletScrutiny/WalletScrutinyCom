@@ -11,7 +11,7 @@ released: 2020-03-07
 updated: 2022-02-24
 version: "2.1.2"
 stars: 4.4
-ratings: 46547
+ratings: 46681
 reviews: 237
 size: 139M
 website: https://vndc.io

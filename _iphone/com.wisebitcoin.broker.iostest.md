@@ -8,11 +8,11 @@ appId: com.wisebitcoin.broker.iostest
 appCountry: iq
 idd: 1549126437
 released: 2021-01-18
-updated: 2022-01-10
-version: "3.7.9"
+updated: 2022-02-22
+version: "3.8.0"
 stars: 
 reviews: 
-size: 84304896
+size: 84288512
 website: https://www.wisebitcoin.com/
 repository: 
 issue: 

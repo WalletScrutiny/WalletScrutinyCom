@@ -10,9 +10,9 @@ appCountry: gb
 released: 2017-05-30
 updated: 2022-02-23
 version: "3.0.0"
-stars: 3.4
-ratings: 10086
-reviews: 112
+stars: 3.5
+ratings: 10093
+reviews: 113
 size: 31M
 website: https://www.muchbetter.com
 repository: 

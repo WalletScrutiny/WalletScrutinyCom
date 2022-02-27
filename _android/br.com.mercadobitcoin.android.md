@@ -11,7 +11,7 @@ released: 2019-07-25
 updated: 2022-02-24
 version: "1.25.0"
 stars: 4.4
-ratings: 50990
+ratings: 51012
 reviews: 47
 size: 92M
 website: http://www.mercadobitcoin.com.br

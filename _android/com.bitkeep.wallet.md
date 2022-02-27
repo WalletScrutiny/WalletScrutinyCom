@@ -11,8 +11,8 @@ released: 2020-02-11
 updated: 2022-02-16
 version: "6.7.2"
 stars: 4.3
-ratings: 3860
-reviews: 149
+ratings: 3868
+reviews: 148
 size: 54M
 website: https://bitkeep.com
 repository: https://github.com/bitkeepcom

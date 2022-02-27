@@ -11,7 +11,7 @@ released: 2018-05-31
 updated: 2021-07-16
 version: "2.0.2"
 stars: 4.6
-ratings: 15319
+ratings: 15325
 reviews: 541
 size: 32M
 website: https://pay98.cash/

@@ -11,7 +11,7 @@ released: 2019-06-07
 updated: 2022-02-23
 version: "2.5.2"
 stars: 4.5
-ratings: 1981
+ratings: 1965
 reviews: 65
 size: 28M
 website: https://whitebit.com/

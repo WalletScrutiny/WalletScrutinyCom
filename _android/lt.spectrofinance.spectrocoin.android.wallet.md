@@ -10,9 +10,9 @@ appCountry:
 released: 2014-12-05
 updated: 2022-02-21
 version: "1.18.2"
-stars: 3.8
+stars: 3.7
 ratings: 3150
-reviews: 42
+reviews: 43
 size: 12M
 website: https://spectrocoin.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vouchermoney.mobilewallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-13
+date: 2022-02-27
 signer: 
 reviewArchive:
 

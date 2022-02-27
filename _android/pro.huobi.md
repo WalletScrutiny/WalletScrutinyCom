@@ -11,7 +11,7 @@ released: 2017-11-01
 updated: 2022-02-25
 version: "6.8.2"
 stars: 4.6
-ratings: 31462
+ratings: 31603
 reviews: 429
 size: 128M
 website: http://www.hbg.com

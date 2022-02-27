@@ -10,8 +10,8 @@ idd: 1483284435
 released: 2019-11-26
 updated: 2022-02-04
 version: "5.3.7"
-stars: 4.33021
-reviews: 960
+stars: 4.32951
+reviews: 962
 size: 44493824
 website: https://www.modeapp.com
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-06-22
 updated: 2022-02-22
 version: "5.3.4"
-stars: 4.1
-ratings: 4620
-reviews: 499
+stars: 4.2
+ratings: 4629
+reviews: 500
 size: 99M
 website: http://www.okcoin.com
 repository: 

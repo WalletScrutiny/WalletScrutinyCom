@@ -9,12 +9,21 @@ async function refresh() {
   appStore.refreshAll()
   playStore.refreshAll()
   const updateMillis = 500
+  var msg = ""
+  var msgAgeMs = 0
   const i = setInterval(() => {
+    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`
     readline.clearLine(process.stdout)
     readline.cursorTo(process.stdout, 0)
-    process.stdout.write(`remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`)
+    process.stdout.write(newMsg)
     readline.cursorTo(process.stdout, 0) // other console.out stuff should write over this.
-    if (playStore.stats.remaining + appStore.stats.remaining == 0) {
+    if (msg == newMsg) {
+      msgAgeMs += updateMillis
+    } else {
+      msg = newMsg
+      msgAgeMs = 0
+    }
+    if (playStore.stats.remaining + appStore.stats.remaining == 0 || msgAgeMs > 10000) {
       console.log(`
         Finished.`)
       clearInterval(i)
