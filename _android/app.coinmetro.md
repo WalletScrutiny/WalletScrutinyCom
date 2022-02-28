@@ -11,7 +11,7 @@ released: 2017-12-10
 updated: 2022-01-31
 version: "4.4.191"
 stars: 3.1
-ratings: 419
+ratings: 420
 reviews: 71
 size: 35M
 website: https://coinmetro.com/

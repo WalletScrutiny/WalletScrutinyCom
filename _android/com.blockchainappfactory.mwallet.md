@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-05
+date: 2022-02-28
 signer: 
 reviewArchive:
 

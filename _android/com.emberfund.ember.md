@@ -11,7 +11,7 @@ released: 2019-01-24
 updated: 2022-02-24
 version: "10.9"
 stars: 3.7
-ratings: 1009
+ratings: 1019
 reviews: 145
 size: 60M
 website: https://www.emberfund.io/

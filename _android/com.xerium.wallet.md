@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xerium.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-11-15
+date: 2022-02-28
 signer: 
 reviewArchive:
 

@@ -10,8 +10,8 @@ idd: 1567360326
 released: 2021-06-02
 updated: 2022-02-09
 version: "1.15"
-stars: 2.58974
-reviews: 39
+stars: 2.625
+reviews: 40
 size: 56557568
 website: https://www.koinbazar.com/
 repository: 

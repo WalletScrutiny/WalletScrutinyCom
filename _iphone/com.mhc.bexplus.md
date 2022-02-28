@@ -11,8 +11,8 @@ idd: 1442189260
 released: 2018-11-29
 updated: 2021-12-24
 version: "2.1.7"
-stars: 4.77338
-reviews: 556
+stars: 4.77215
+reviews: 553
 size: 78017536
 website: https://www.bexplus.com/activity/cash_back
 repository: 

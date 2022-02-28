@@ -10,8 +10,8 @@ idd: 1509251174
 released: 2020-05-12
 updated: 2022-02-24
 version: "2.5.9"
-stars: 4.24138
-reviews: 116
+stars: 4.2521
+reviews: 119
 size: 73891840
 website: https://www.vauld.com/
 repository: 

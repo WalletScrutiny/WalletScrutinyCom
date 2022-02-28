@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2022-02-28
 signer: 
 reviewArchive:
 

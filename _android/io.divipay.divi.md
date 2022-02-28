@@ -11,7 +11,7 @@ released: 2021-04-28
 updated: 2021-12-30
 version: "1.13"
 stars: 4.9
-ratings: 272
+ratings: 273
 reviews: 8
 size: 49M
 website: http://diviproject.org

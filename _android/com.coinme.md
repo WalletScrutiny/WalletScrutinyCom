@@ -10,8 +10,8 @@ appCountry:
 released: 2021-05-06
 updated: 2022-02-17
 version: "1.8.1"
-stars: 4.5
-ratings: 775
+stars: 4.4
+ratings: 778
 reviews: 167
 size: 105M
 website: https://www.coinme.com

@@ -11,7 +11,7 @@ released: 2021-05-15
 updated: 2022-02-23
 version: "1.16.2"
 stars: 3.9
-ratings: 426
+ratings: 427
 reviews: 325
 size: 39M
 website: https://flitaa.com

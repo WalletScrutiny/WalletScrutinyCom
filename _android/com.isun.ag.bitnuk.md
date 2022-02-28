@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.isun.ag.bitnuk.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-18
+date: 2022-02-28
 signer: 
 reviewArchive:
 

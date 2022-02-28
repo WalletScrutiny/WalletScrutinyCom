@@ -11,7 +11,7 @@ released: 2019-01-16
 updated: 2020-09-18
 version: "3.2.5"
 stars: 4.1
-ratings: 4008
+ratings: 4009
 reviews: 81
 size: 17M
 website: https://www.bidarz.com

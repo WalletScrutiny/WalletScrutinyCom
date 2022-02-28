@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: "BingX (Prev. Bingbon)"
+title: "BingX : Buy BTC & Crypto"
 altTitle: 
 authors:
 - kiwilamb
@@ -9,8 +9,8 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2022-02-24
-version: "2.48.0"
+updated: 2022-02-27
+version: "2.48.1"
 stars: 4.66667
 reviews: 3
 size: 111063040

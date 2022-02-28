@@ -10,8 +10,8 @@ idd: 1495275337
 released: 2020-01-23
 updated: 2022-02-24
 version: "2.3.2"
-stars: 4.04348
-reviews: 23
+stars: 4.08333
+reviews: 24
 size: 70451200
 website: https://poolin.fi/
 repository: 

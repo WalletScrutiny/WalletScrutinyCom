@@ -11,7 +11,7 @@ released: 2019-12-19
 updated: 2022-02-21
 version: "11.3.1"
 stars: 4.1
-ratings: 18090
+ratings: 18096
 reviews: 274
 size: 256M
 website: https://coin98.com/

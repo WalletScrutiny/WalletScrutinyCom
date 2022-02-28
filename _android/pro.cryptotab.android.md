@@ -11,7 +11,7 @@ released: 2020-01-24
 updated: 2022-02-25
 version: "4.1.82"
 stars: 3.7
-ratings: 63833
+ratings: 63843
 reviews: 2171
 size: Varies with device
 website: https://cryptocompany.site/

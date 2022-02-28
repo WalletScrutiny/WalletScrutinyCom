@@ -10,8 +10,8 @@ idd: 1590680702
 released: 2021-10-27
 updated: 2022-02-15
 version: "2.1.2"
-stars: 4.70634
-reviews: 126
+stars: 4.71094
+reviews: 128
 size: 32750592
 website: https://libre.org
 repository: 

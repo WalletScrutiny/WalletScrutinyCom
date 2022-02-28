@@ -11,7 +11,7 @@ released: 2021-08-12
 updated: 2022-02-19
 version: "5.6"
 stars: 4.2
-ratings: 19
+ratings: 20
 reviews: 1
 size: 62M
 website: https://mybitstore.com

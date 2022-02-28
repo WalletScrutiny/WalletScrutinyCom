@@ -11,7 +11,7 @@ released: 2020-10-07
 updated: 2022-02-23
 version: "2.0.15"
 stars: 4.7
-ratings: 3012
+ratings: 3031
 reviews: 1215
 size: 10M
 website: https://www.coinspot.com.au

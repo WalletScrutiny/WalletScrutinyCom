@@ -1,6 +1,6 @@
 ---
 wsId: zeusln
-title: "Zeus: Bitcoin/Lightning Wallet"
+title: "Zeus: Bitcoin and Lightning"
 altTitle: 
 authors:
 - leo
