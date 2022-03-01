@@ -12,8 +12,8 @@ released: 2018-08-28
 updated: 2022-01-21
 version: "2.7.12"
 stars: 4.8
-ratings: 5005
-reviews: 938
+ratings: 5008
+reviews: 939
 size: 19M
 website: https://changelly.com/
 repository: 

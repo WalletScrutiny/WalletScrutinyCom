@@ -11,7 +11,7 @@ released: 2019-02-15
 updated: 2022-01-27
 version: "3.25"
 stars: 4.1
-ratings: 3528
+ratings: 3529
 reviews: 12
 size: 36M
 website: https://www.buyucoin.com

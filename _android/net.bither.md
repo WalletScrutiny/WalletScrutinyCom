@@ -10,8 +10,8 @@ appCountry:
 released: 2014-02-27
 updated: 2022-02-18
 version: "2.0.5"
-stars: 3.9
-ratings: 401
+stars: 4.2
+ratings: 335
 reviews: 26
 size: 4.5M
 website: http://Bither.net

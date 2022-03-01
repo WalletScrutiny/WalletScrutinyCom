@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: dtn.bosdeden.dtech.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-03-01
 signer: 
 reviewArchive:
 

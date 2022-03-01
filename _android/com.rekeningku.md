@@ -11,7 +11,7 @@ released: 2018-02-21
 updated: 2022-02-26
 version: "2.1.66"
 stars: 4.1
-ratings: 22943
+ratings: 22977
 reviews: 34
 size: 34M
 website: https://www.rekeningku.com

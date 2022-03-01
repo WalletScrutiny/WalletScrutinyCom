@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hashcash.bitrump.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-03-01
 signer: 
 reviewArchive:
 

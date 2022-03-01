@@ -4,14 +4,14 @@ title: "FOREX.com: CFD & Forex Trading"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11
 updated: 2022-02-23
 version: "1.90"
 stars: 4.0
-ratings: 391
+ratings: 392
 reviews: 13
 size: 79M
 website: https://www.forex.com

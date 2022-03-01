@@ -11,7 +11,7 @@ released: 2019-05-26
 updated: 2022-02-14
 version: "3.1.1"
 stars: 4.4
-ratings: 13479
+ratings: 13497
 reviews: 444
 size: 34M
 website: https://www.safepal.io

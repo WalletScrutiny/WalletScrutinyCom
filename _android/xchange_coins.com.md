@@ -4,7 +4,7 @@ title: "XCHANGE-COINS Cryptocurrency Exchange"
 altTitle: 
 authors:
 
-users: 10
+users: 50
 appId: xchange_coins.com
 appCountry: 
 released: 2021-03-26

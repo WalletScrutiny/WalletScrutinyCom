@@ -11,7 +11,7 @@ released: 2017-12-18
 updated: 2022-02-23
 version: "2.1.189.0"
 stars: 4.2
-ratings: 290
+ratings: 291
 reviews: 6
 size: 19M
 website: https://simplefx.com

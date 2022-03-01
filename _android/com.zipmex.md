@@ -11,8 +11,8 @@ released: 2020-03-30
 updated: 2022-02-10
 version: "22.2.1.1825925728"
 stars: 4.4
-ratings: 17896
-reviews: 10683
+ratings: 17923
+reviews: 10699
 size: 128M
 website: https://zipmex.co.th/
 repository: 

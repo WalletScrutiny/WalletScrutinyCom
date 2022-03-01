@@ -11,8 +11,8 @@ released: 2020-05-31
 updated: 2022-02-18
 version: "3.8.1"
 stars: 4.2
-ratings: 412988
-reviews: 123051
+ratings: 413931
+reviews: 123194
 size: Varies with device
 website: https://coinswitch.co/in
 repository: 

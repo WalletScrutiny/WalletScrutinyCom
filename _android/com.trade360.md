@@ -11,7 +11,7 @@ released: 2015-06-18
 updated: 2022-02-22
 version: "7.1.5"
 stars: 2.7
-ratings: 1434
+ratings: 1438
 reviews: 59
 size: 13M
 website: http://www.trade360.com

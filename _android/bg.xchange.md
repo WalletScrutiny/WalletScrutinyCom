@@ -1,6 +1,6 @@
 ---
 wsId: xChangeBG
-title: "xChange.bg - Buy Bitcoin I Sell Bitcoin"
+title: "xChange.bg - Buy Bitcoin"
 altTitle: 
 authors:
 - danny

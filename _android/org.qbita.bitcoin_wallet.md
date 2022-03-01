@@ -11,7 +11,7 @@ released: 2019-08-28
 updated: 2019-08-28
 version: "1.0"
 stars: 4.4
-ratings: 92
+ratings: 93
 reviews: 9
 size: 1.6M
 website: https://qbita.org

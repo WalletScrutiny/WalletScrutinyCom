@@ -11,8 +11,8 @@ released: 2017-05-17
 updated: 2022-01-31
 version: "1.0.32"
 stars: 3.8
-ratings: 2206
-reviews: 1513
+ratings: 2217
+reviews: 1514
 size: 86M
 website: https://www.flitpay.com/
 repository: 

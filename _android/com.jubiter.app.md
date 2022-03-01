@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 100
+users: 500
 appId: com.jubiter.app
 appCountry: 
 released: 2020-11-19

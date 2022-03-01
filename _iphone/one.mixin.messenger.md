@@ -12,8 +12,8 @@ idd: 1322324266
 released: 2018-01-20
 updated: 2022-02-24
 version: "0.35.1"
-stars: 4.80934
-reviews: 257
+stars: 4.81008
+reviews: 258
 size: 66290688
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork

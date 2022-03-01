@@ -11,8 +11,8 @@ released: 2021-12-08
 updated: 2021-12-08
 version: "1.0.0"
 stars: 3.5
-ratings: 531
-reviews: 55
+ratings: 536
+reviews: 56
 size: 29M
 website: https://bitgert.com/
 repository: 
