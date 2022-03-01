@@ -14,7 +14,7 @@ stars: 0.0
 ratings: 
 reviews: 
 size: 3.5M
-website: https://themeemnews.com/
+website: https://starlabstudio.xyz/
 repository: 
 issue: 
 icon: starlab.studios.cryptowallet.png

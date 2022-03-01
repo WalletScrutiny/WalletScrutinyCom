@@ -8,7 +8,7 @@ discontinued: # date
 updated: 
 version: 
 dimensions: [64, 38, 2.3]
-weight: 8.1g
+weight: 8.1
 website: https://imkey.im/
 shop: 
 company: IMKEY PTE. LTD
@@ -21,7 +21,7 @@ icon: imkey.png
 bugbounty:
 meta: ok
 verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

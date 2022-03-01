@@ -7,7 +7,7 @@ released: 2015-01-01
 discontinued: # date
 updated: 2015-05-08
 version: 1.3.4
-dimensions: Diameter:45mm, Thickness:9mm
+dimensions: [45, 45, 9]
 weight: 
 website: http://mybwallet.com/
 shop: 
@@ -21,7 +21,7 @@ icon: mybwallet.png
 bugbounty:
 meta: defunct
 verdict: wip 
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

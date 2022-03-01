@@ -10,9 +10,9 @@ appCountry:
 released: 2017-10-23
 updated: 2022-01-27
 version: "1.5.0"
-stars: 4.0
-ratings: 1046
-reviews: 15
+stars: 3.9
+ratings: 1060
+reviews: 16
 size: 4.7M
 website: https://www.liteforex.com
 repository: 

@@ -11,7 +11,7 @@ released: 2019-07-31
 updated: 2022-02-11
 version: "Varies with device"
 stars: 4.4
-ratings: 39
+ratings: 42
 reviews: 6
 size: Varies with device
 website: https://www.ogpaywallet.com

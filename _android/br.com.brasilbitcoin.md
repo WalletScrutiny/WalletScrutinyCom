@@ -11,8 +11,8 @@ released: 2021-02-17
 updated: 2022-02-14
 version: "2.5.33"
 stars: 3.2
-ratings: 2783
-reviews: 1814
+ratings: 2855
+reviews: 1851
 size: 67M
 website: https://brasilbitcoin.com.br
 repository: 

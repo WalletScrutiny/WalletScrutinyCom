@@ -11,7 +11,7 @@ released: 2021-04-16
 updated: 2022-02-11
 version: "1.1.80"
 stars: 4.1
-ratings: 100
+ratings: 102
 reviews: 4
 size: 34M
 website: https://pro.buycoins.africa

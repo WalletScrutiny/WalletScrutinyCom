@@ -8,7 +8,7 @@ discontinued: # date
 updated: 
 version: 
 dimensions: [118, 66, 9.7]
-weight: 138 g
+weight: 138
 website: https://salletone.com/
 shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 company: Sallet One
@@ -21,7 +21,7 @@ icon: salletone.png
 bugbounty:
 meta: ok
 verdict: wip
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

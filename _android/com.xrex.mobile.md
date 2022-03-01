@@ -4,16 +4,16 @@ title: "XREX — Crypto swap to USD"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.xrex.mobile
 appCountry: au
 released: 2020-02-20
-updated: 2022-01-17
-version: "1.6.180"
+updated: 2022-02-24
+version: "2.0.0"
 stars: 0.0
 ratings: 
 reviews: 
-size: 71M
+size: 81M
 website: https://xrex.io/
 repository: 
 issue: 

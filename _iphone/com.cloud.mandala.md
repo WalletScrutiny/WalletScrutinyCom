@@ -10,8 +10,8 @@ idd: 1547739845
 released: 2021-02-24
 updated: 2021-07-15
 version: "1.0.1"
-stars: 4.20755
-reviews: 53
+stars: 4.18966
+reviews: 58
 size: 48863232
 website: https://mandala.exchange
 repository: 

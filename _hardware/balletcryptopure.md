@@ -8,7 +8,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [86, 54, 1.2]
-weight: 35 to 50 g
+weight: 35
 website: https://www.balletcrypto.com/en/pure/
 shop: https://store.balletcrypto.com/collections/ballet/products/2021-pure-bitcoin-signature-set
 company: Ballet
@@ -21,7 +21,7 @@ icon: balletcryptopure.png
 bugbounty:
 meta: ok
 verdict: plainkey 
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

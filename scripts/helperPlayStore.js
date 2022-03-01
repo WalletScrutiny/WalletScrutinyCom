@@ -69,8 +69,7 @@ async function refreshAll() {
     // and depending on time, another chunk is used exclusively.
     const hashes = {}
     await Promise.all(files.map(async (f) => {
-      const digest = await crypto.webcrypto.subtle.digest('SHA-256', f)
-      hashes[f] = Buffer.from(digest).toString("hex")
+      hashes[f] = crypto.createHash('sha256').update(f).digest('hex')
     }))
     // take 1/fraction per round
     const fraction = 1
@@ -137,7 +136,7 @@ function refreshFile(fileName) {
       }
     } else {
       stats.defunct++
-      writeResult(getAppFromHeader(header), header, header.icon.split('.').at(-1), body)
+      writeResult(getAppFromHeader(header), header, header.icon.split('.').pop(), body)
       stats.remaining--
       release()
     }

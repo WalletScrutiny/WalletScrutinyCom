@@ -11,7 +11,7 @@ released: 2021-07-21
 updated: 2021-09-23
 version: "1.1.3"
 stars: 2.9
-ratings: 125
+ratings: 127
 reviews: 3
 size: 7.0M
 website: https://verafti.uk

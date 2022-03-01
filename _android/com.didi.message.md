@@ -11,7 +11,7 @@ released: 2020-04-30
 updated: 2022-01-14
 version: "1.14.0"
 stars: 4.3
-ratings: 1140
+ratings: 1141
 reviews: 15
 size: 71M
 website: https://didimessage.com

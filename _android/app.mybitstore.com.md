@@ -8,11 +8,11 @@ users: 1000
 appId: app.mybitstore.com
 appCountry: 
 released: 2021-08-12
-updated: 2022-02-13
-version: "5.4"
-stars: 0.0
-ratings: 
-reviews: 
+updated: 2022-02-19
+version: "5.6"
+stars: 4.2
+ratings: 20
+reviews: 1
 size: 62M
 website: https://mybitstore.com
 repository: 

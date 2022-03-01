@@ -1,6 +1,6 @@
 ---
 wsId: wirex
-title: "Wirex: Buy, Spend & Sell BTC"
+title: "Wirex: Crypto Exchange & Card"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.wirex
 appCountry: 
 released: 2016-03-31
-updated: 2022-02-10
-version: "3.30"
-stars: 3.1
-ratings: 26070
-reviews: 950
+updated: 2022-02-20
+version: "3.30.2"
+stars: 3.0
+ratings: 26258
+reviews: 973
 size: 183M
 website: https://wirexapp.com
 repository: 

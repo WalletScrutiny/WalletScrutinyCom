@@ -4,7 +4,7 @@ title: "ZBX"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18

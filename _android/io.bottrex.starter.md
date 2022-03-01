@@ -8,8 +8,8 @@ users: 10000
 appId: io.bottrex.starter
 appCountry: 
 released: 2019-05-20
-updated: 2021-10-08
-version: "0.4.5"
+updated: 2022-02-16
+version: "0.4.6"
 stars: 0.0
 ratings: 
 reviews: 

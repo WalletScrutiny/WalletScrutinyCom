@@ -7,7 +7,7 @@ released: 2011-12-17
 discontinued: 2013-11-27 # date
 updated: 
 version: 
-dimensions: 30 mm
+dimensions: [30, 30, 3]
 weight: 
 website: https://www.casascius.com/
 shop: 
@@ -21,7 +21,7 @@ icon: casascius.png
 bugbounty:
 meta: defunct
 verdict:  plainkey 
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: "Verso: The crypto cashback app"
+title: "Verso Wallet : Get into crypto"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.btuprotocol.btuWallet
 appCountry: ba
 idd: 1539304605
 released: 2021-03-15
-updated: 2022-02-08
-version: "2.4.3"
+updated: 2022-02-17
+version: "2.4.6"
 stars: 
 reviews: 
-size: 90330112
+size: 90199040
 website: https://get-verso.com
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-07-24
 updated: 2022-01-20
 version: "2.0.10634"
-stars: 3.5
-ratings: 320
-reviews: 132
+stars: 3.6
+ratings: 322
+reviews: 131
 size: 66M
 website: http://www.tzero.com/crypto-app
 repository: 

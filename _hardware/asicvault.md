@@ -7,8 +7,8 @@ released: 2017-10-24
 discontinued: # date
 updated: 2021-01-30
 version:
-dimensions: 56mm x 56mm
-weight: 65g
+dimensions: [56, 56, 10]
+weight: 65
 website: https://asicvault.io/
 shop: https://asicvault.io/preorder/reserve-mark-ii.html
 company: Asic Vault
@@ -21,7 +21,7 @@ icon: asicvault.png
 bugbounty:
 meta: stale
 verdict: unreleased  
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

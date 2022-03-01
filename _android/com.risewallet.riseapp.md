@@ -11,7 +11,7 @@ released: 2019-03-08
 updated: 2022-02-01
 version: "1.6.0"
 stars: 4.8
-ratings: 41
+ratings: 42
 reviews: 13
 size: 7.5M
 website: http://www.risewallet.com

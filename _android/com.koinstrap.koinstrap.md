@@ -1,6 +1,6 @@
 ---
 wsId: Koinstrap
-title: "Koinstrap: Buy & Sell Bitcoin Ethereum, Litecoin"
+title: "Koinstrap: Buy & Sell BTC, ETH"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: com.koinstrap.koinstrap
 appCountry: us
 released: 2020-08-28
-updated: 2021-11-13
-version: "2.1.8"
+updated: 2022-02-17
+version: "3.0.1"
 stars: 0.0
 ratings: 
 reviews: 
-size: 59M
+size: 65M
 website: https://koinstrap.com
 repository: 
 issue: 

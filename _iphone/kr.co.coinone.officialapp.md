@@ -8,11 +8,11 @@ appId: kr.co.coinone.officialapp
 appCountry: kr
 idd: 1326526995
 released: 2018-03-27
-updated: 2022-01-18
-version: "2.9.9"
-stars: 2.85118
-reviews: 719
-size: 81132544
+updated: 2022-02-18
+version: "2.9.10"
+stars: 2.84966
+reviews: 725
+size: 79096832
 website: 
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2019-07-18
 updated: 2022-02-08
 version: "3.16"
 stars: 5.0
-ratings: 1529
+ratings: 1532
 reviews: 6
 size: 5.3M
 website: https://bitocto.com

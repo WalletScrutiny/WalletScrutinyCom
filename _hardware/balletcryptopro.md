@@ -8,7 +8,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [86, 54, 1.2]
-weight: 35g
+weight: 35
 website: https://www.balletcrypto.com/en/pro
 shop: https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
 company: Ballet
@@ -21,7 +21,7 @@ icon: balletcryptopro.png
 bugbounty:
 meta: ok
 verdict: prefilled 
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

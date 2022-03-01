@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-28
 updated: 2022-02-15
 version: "1.3"
-stars: 4.6
-ratings: 2167
-reviews: 119
+stars: 4.4
+ratings: 2353
+reviews: 129
 size: 18M
 website: http://btccryptonetwork.com/
 repository: 

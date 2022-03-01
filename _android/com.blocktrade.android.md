@@ -9,9 +9,9 @@ appId: com.blocktrade.android
 appCountry: us
 released: 2018-10-28
 updated: 2022-02-14
-version: "1.6.1"
+version: "1.7.0"
 stars: 2.9
-ratings: 182
+ratings: 187
 reviews: 8
 size: 13M
 website: http://blocktrade.com

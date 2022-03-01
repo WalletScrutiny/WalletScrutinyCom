@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.burtar.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-10
+date: 2022-02-25
 signer: 
 reviewArchive:
 
@@ -33,6 +33,8 @@ providerReddit:
 redirect_from:
 
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 **Warning:** The reviews of this app are filled with scam accusations, with some users explaining that the app requires them to give 5* ratings first. We recommend to exercise caution with this app.
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-01
 updated: 2022-02-08
 version: "4.3.8"
-stars: 3.6
-ratings: 722
-reviews: 166
+stars: 3.5
+ratings: 730
+reviews: 167
 size: 68M
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

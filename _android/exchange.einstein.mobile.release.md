@@ -11,7 +11,7 @@ released: 2019-02-01
 updated: 2019-10-17
 version: "1.2.2"
 stars: 2.0
-ratings: 956
+ratings: 955
 reviews: 23
 size: 32M
 website: http://einstein.exchange

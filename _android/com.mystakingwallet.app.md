@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-29
 updated: 2021-03-27
 version: "2.2"
-stars: 4.2
-ratings: 110
-reviews: 26
+stars: 4.1
+ratings: 109
+reviews: 25
 size: 10M
 website: https://metrixcoin.com/
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-11-10
 updated: 2021-04-02
 version: "1.1.0"
-stars: 2.8
-ratings: 73
-reviews: 3
+stars: 3.8
+ratings: 85
+reviews: 5
 size: 18M
 website: https://www.atechcoins.com
 repository: 

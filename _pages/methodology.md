@@ -41,6 +41,13 @@ What we do not do
   and paid audits certainly help the team to improve their product, those audits
   do not help prevent exit scams or most other ways where all users lose all
   their funds at once, which we are mainly focused on.
+* **<span id="foss">We do not</span>** care about licenses as long as all the
+  source is public.
+  Advocates of [Free and Open Source Software (FOSS)](https://opensource.org/osd)
+  argue that a permissive license has security benefits as it allows other
+  projects to use the code, which then results in more developers caring about
+  the auditability and security of that code. As we strongly agree with this
+  view, we hope to expand to cover licenses in the future, too.
 * **We do not** endorse the security of any wallet.
 * **We do not** guarantee that your version of the wallet is verified to match
   the public code or the version that we investigated. A tool for that is under

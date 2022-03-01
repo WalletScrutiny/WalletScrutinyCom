@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Hamrasta Cryptocurrency wallet"
+title: "Hamrasta Cryptocurrency Market"
 altTitle: 
 authors:
 
@@ -10,8 +10,8 @@ appCountry:
 released: 2019-09-22
 updated: 2020-08-03
 version: "2.7"
-stars: 4.0
-ratings: 134
+stars: 4.1
+ratings: 135
 reviews: 7
 size: 2.0M
 website: https://hamrasta.com/hamrastamarket/

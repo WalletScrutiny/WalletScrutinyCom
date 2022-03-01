@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.terracredit.pro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-04
+date: 2022-02-26
 signer: 
 reviewArchive:
 

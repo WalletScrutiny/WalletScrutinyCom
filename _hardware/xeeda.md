@@ -8,7 +8,7 @@ discontinued: # date
 updated:
 version:
 dimensions: [67, 46, 11]
-weight: 47g
+weight: 47
 website: https://xeeda.io/
 shop: 
 company: 
@@ -21,7 +21,7 @@ icon: xeeda.png
 bugbounty:
 meta: defunct
 verdict: unreleased  
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

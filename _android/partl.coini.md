@@ -11,7 +11,7 @@ released: 2018-02-04
 updated: 2022-02-15
 version: "2.3.9"
 stars: 4.6
-ratings: 289
+ratings: 291
 reviews: 32
 size: 47M
 website: https://timopartl.com/Coini

@@ -11,7 +11,7 @@ released: 2019-08-26
 updated: 2022-02-15
 version: "1.21.9"
 stars: 4.0
-ratings: 366
+ratings: 365
 reviews: 20
 size: 48M
 website: https://bolt.global/

@@ -7,8 +7,8 @@ released:
 discontinued: # date
 updated: 
 version:
-dimensions: [18, 14.2]
-weight: 5g
+dimensions: [18, 14.2, 5]
+weight: 5
 website: https://nativault.com/
 shop:
 company: 
@@ -21,7 +21,7 @@ icon: nativault.png
 bugbounty:
 meta: ok
 verdict: unreleased
-date: 2022-02-17
+date: 2022-02-18
 signer:
 reviewArchive:
 

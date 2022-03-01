@@ -11,7 +11,7 @@ released: 2018-03-22
 updated: 2022-02-13
 version: "4.32.2"
 stars: 3.7
-ratings: 78
+ratings: 79
 reviews: 10
 size: 33M
 website: https://ownbit.io

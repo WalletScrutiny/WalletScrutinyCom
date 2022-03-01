@@ -12,7 +12,7 @@ released: 2020-05-06
 updated: 2022-02-01
 version: "3.0.1"
 stars: 4.3
-ratings: 2215
+ratings: 2220
 reviews: 220
 size: 32M
 website: https://decrypt.co/

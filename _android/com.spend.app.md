@@ -11,7 +11,7 @@ released: 2018-08-07
 updated: 2020-07-15
 version: "3.09"
 stars: 3.6
-ratings: 478
+ratings: 479
 reviews: 172
 size: 31M
 website: https://www.spend.com

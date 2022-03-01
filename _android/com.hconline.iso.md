@@ -11,7 +11,7 @@ released: 2020-07-19
 updated: 2022-02-08
 version: "R02.03.06.437"
 stars: 3.8
-ratings: 18
+ratings: 19
 reviews: 4
 size: 44M
 website: https://www.starteos.io

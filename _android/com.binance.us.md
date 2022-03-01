@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: "Binance.US"
+title: "‎Binance.US: BTC, ETH & Crypto"
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: com.binance.us
 appCountry: 
 released: 2019-12-23
 updated: 2022-02-15
-version: "2.9.2"
+version: "2.9.3"
 stars: 2.5
-ratings: 7116
-reviews: 4855
-size: 25M
+ratings: 7187
+reviews: 4886
+size: Varies with device
 website: https://www.binance.us
 repository: 
 issue: 
