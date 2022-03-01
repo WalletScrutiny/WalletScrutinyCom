@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: HBWallet_Ether
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: HBWallet_Ether
+social:
 redirect_from:
-
 ---
 
 We downloaded the app. This is an Ethereum wallet meant for Ethereum transactions. It is possible to buy Bitcoin, but through a third party provider. **No Bitcoins** are stored on this wallet.

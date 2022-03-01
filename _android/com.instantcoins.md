@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: instantcoins_ng
-providerLinkedIn: 
-providerFacebook: instantcoins
-providerReddit: 
-
+twitter: instantcoins_ng
+social:
+  - https://www.facebook.com/instantcoins
 redirect_from:
-
 ---
 
 ## App Description

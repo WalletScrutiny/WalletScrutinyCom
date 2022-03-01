@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: celsiusnetwork
-providerLinkedIn: celsiusnetwork
-providerFacebook: CelsiusNetwork
-providerReddit: 
-
-redirect_from:
-
+twitter: celsiusnetwork
+social:
+  - https://www.linkedin.com/company/celsiusnetwork
+  - https://www.facebook.com/CelsiusNetwork
 ---
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to

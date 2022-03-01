@@ -10,7 +10,7 @@ appCountry: pt
 released: 2021-08-31
 updated: 2022-01-18
 version: "1.9"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 30M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: CardWallet_fi
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: CardWallet_fi
+social:
 redirect_from:
-
 ---
 
 ## App Description

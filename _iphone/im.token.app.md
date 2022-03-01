@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-05-02
 signer: 
 reviewArchive:
-
-providerTwitter: imTokenOfficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: imTokenOfficial
+social:
 ---
 
 In the description we read:

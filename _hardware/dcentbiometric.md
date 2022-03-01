@@ -6,15 +6,16 @@ authors:
 - danny
 - leo
 released: 2019-06-28
-discontinued: # date
+discontinued: 
 updated: 2021-11-25
-version: v2.16.7.bdd9
+version: "v2.16.7.bdd9"
+binaries: 
 dimensions: [78.2, 43.2, 10.8]
 weight: 36
+provider: "IOTrust"
+providerWebsite: https://iotrust.kr/
 website: https://dcentwallet.com/products/BiometricWallet
 shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
-company: IOTrust
-companywebsite: https://iotrust.kr/
 country: KP
 price: 119USD
 repository: https://github.com/DcentWallet
@@ -25,14 +26,11 @@ meta: ok
 verdict: nosource
 date: 2021-12-04
 signer: 
-reviewArchive:
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
+reviewArchive: 
+twitter: DCENTwallets
+social: 
+  - https://www.facebook.com/DcentWalletGlobal
 ---
-
 
 ## Private keys can be created offline - ✔️
 

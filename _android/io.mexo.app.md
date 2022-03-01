@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: mexo_io
-providerLinkedIn: mexoio
-providerFacebook: mexo.io
-providerReddit: 
-
+twitter: mexo_io
+social:
+  - https://www.linkedin.com/company/mexoio
+  - https://www.facebook.com/mexo.io
 redirect_from:
-
 ---
 
 ### App Description

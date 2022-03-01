@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: zebpay
-providerLinkedIn: zebpay
-providerFacebook: zebpay
-providerReddit: 
-
+twitter: zebpay
+social:
+  - https://www.linkedin.com/company/zebpay
+  - https://www.facebook.com/zebpay
 redirect_from:
   - /zebpay.Application/
   - /posts/zebpay.Application/

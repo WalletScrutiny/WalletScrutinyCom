@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: Spendcom
-providerLinkedIn: 
-providerFacebook: spend
-providerReddit: Spend
-
+twitter: Spendcom
+social:
+  - https://www.facebook.com/spend
+  - https://www.reddit.com/r/Spend
 redirect_from:
-
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).

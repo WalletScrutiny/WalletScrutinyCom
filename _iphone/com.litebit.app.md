@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: litebiteu
-providerLinkedIn: litebit
-providerFacebook: litebiteu
-providerReddit: 
-
-redirect_from:
-
+twitter: litebiteu
+social:
+  - https://www.linkedin.com/company/litebit
+  - https://www.facebook.com/litebiteu
 ---
 
 > All you need is a LiteBit account.

@@ -26,14 +26,11 @@ verdict: custodial
 date: 2021-06-16
 signer: 
 reviewArchive:
-
-providerTwitter: PundiXLabs
-providerLinkedIn: pundix
-providerFacebook: pundixlabs
-providerReddit: 
-
+twitter: PundiXLabs
+social:
+  - https://www.linkedin.com/company/pundix
+  - https://www.facebook.com/pundixlabs
 redirect_from:
-
 ---
 
 **Update 2022-01-06**: The app is online again.[( Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479004151375822850)

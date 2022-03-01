@@ -24,14 +24,11 @@ verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: bitexencom
-providerLinkedIn: bitexen
-providerFacebook: bitexen
-providerReddit: 
-
+twitter: bitexencom
+social:
+  - https://www.linkedin.com/company/bitexen
+  - https://www.facebook.com/bitexen
 redirect_from:
-
 ---
 
 Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:

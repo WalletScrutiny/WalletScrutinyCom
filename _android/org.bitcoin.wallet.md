@@ -25,14 +25,9 @@ verdict: nonverifiable
 date: 2021-06-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-06-16**: It's been

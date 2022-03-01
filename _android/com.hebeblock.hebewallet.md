@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: BlockHebe
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BlockHebe
+social:
 redirect_from:
   - /posts/com.hebeblock.hebewallet/
 ---

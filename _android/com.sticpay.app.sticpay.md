@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: SticPay
-providerLinkedIn: sticpay
-providerFacebook: sticpay.global
-providerReddit: 
-
+twitter: SticPay
+social:
+  - https://www.linkedin.com/company/sticpay
+  - https://www.facebook.com/sticpay.global
 redirect_from:
-
 ---
 
 In the Google Play description, STICPAY does claim to be a digital wallet.

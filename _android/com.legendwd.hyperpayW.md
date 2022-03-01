@@ -24,12 +24,9 @@ verdict: obfuscated
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: HyperPay_tech
-providerLinkedIn: 
-providerFacebook: hyperpayofficial
-providerReddit: 
-
+twitter: HyperPay_tech
+social:
+  - https://www.facebook.com/hyperpayofficial
 redirect_from:
   - /com.legendwd.hyperpayW/
 ---

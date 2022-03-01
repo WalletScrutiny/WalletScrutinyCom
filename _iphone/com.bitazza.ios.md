@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: bitazzaofficial
-providerLinkedIn: bitazza
-providerFacebook: bitazza
-providerReddit: 
-
-redirect_from:
-
+twitter: bitazzaofficial
+social:
+  - https://www.linkedin.com/company/bitazza
+  - https://www.facebook.com/bitazza
 ---
 
 {% include copyFromAndroid.html %}

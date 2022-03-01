@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-21
 updated: 2021-03-18
 version: "1.0.25"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 20M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Described in its Google Play, it claims that it is a 'Multichain Blockchain Technology' and that it allows users to:

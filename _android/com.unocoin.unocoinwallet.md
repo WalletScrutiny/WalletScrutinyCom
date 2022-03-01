@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Unocoin
-providerLinkedIn: unocoin
-providerFacebook: unocoin
-providerReddit: 
-
+twitter: Unocoin
+social:
+  - https://www.linkedin.com/company/unocoin
+  - https://www.facebook.com/unocoin
 redirect_from:
   - /com.unocoin.unocoinwallet/
   - /posts/com.unocoin.unocoinwallet/

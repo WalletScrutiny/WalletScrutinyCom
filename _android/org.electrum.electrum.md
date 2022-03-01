@@ -39,11 +39,8 @@ reviewArchive:
   appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
-providerTwitter: ElectrumWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ElectrumWallet
+social:
 redirect_from:
   - /electrum/
   - /org.electrum.electrum/

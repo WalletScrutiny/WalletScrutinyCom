@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2021-11-03
 version: "3.4.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 71M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-04-09
 signer: 
 reviewArchive:
-
-providerTwitter: conio
-providerLinkedIn: conio
-providerFacebook: ConioHQ
-providerReddit: 
-
+twitter: conio
+social:
+  - https://www.linkedin.com/company/conio
+  - https://www.facebook.com/ConioHQ
 redirect_from:
   - /com.conio.wallet/
   - /posts/com.conio.wallet/

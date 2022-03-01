@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: bitexexch
-providerLinkedIn: bitexworldwide
-providerFacebook: Bitexofficial
-providerReddit: 
-
+twitter: bitexexch
+social:
+  - https://www.linkedin.com/company/bitexworldwide
+  - https://www.facebook.com/Bitexofficial
 redirect_from:
-
 ---
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 

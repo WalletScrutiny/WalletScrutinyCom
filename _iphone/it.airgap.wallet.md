@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-03-07
 signer: 
 reviewArchive:
-
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
-redirect_from:
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 ---
 
 {% include copyFromAndroid.html %}

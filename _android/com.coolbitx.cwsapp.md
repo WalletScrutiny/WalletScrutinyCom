@@ -24,12 +24,9 @@ verdict: nowallet
 date: 2021-08-28
 signer: 
 reviewArchive:
-
-providerTwitter: coolwallet
-providerLinkedIn: 
-providerFacebook: coolwallet
-providerReddit: 
-
+twitter: coolwallet
+social:
+  - https://www.facebook.com/coolwallet
 redirect_from:
   - /com.coolbitx.cwsapp/
 ---

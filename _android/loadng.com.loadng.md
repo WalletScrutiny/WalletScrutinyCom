@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: loadngautomated
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: loadngautomated
+social:
 redirect_from:
-
 ---
 
 ## App Description

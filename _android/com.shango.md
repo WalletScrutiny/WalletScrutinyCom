@@ -24,12 +24,9 @@ verdict: nosource
 date: 2021-07-16
 signer: 
 reviewArchive:
-
-providerTwitter: shangoapp
-providerLinkedIn: 
-providerFacebook: shangoapp
-providerReddit: 
-
+twitter: shangoapp
+social:
+  - https://www.facebook.com/shangoapp
 redirect_from:
   - /com.shango/
   - /posts/com.shango/

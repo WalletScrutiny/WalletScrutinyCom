@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-03-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app looks like a custodial offering:

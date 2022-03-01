@@ -10,7 +10,7 @@ appCountry:
 released: 2020-02-16
 updated: 2020-05-30
 version: "0.3.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: coreylphillips
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: coreylphillips
+social:
 redirect_from:
   - /com.kisswallet/
   - /moonshine/

@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-12-01
 signer: 
 reviewArchive:
-
-providerTwitter: USDXwallet
-providerLinkedIn: 
-providerFacebook: USDXwallet
-providerReddit: USDXwallet
-
+twitter: USDXwallet
+social:
+  - https://www.facebook.com/USDXwallet
+  - https://www.reddit.com/r/USDXwallet
 redirect_from:
-
 ---
 
 There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token). <br>

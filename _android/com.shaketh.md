@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: shakepay
-providerLinkedIn: 
-providerFacebook: shakepay
-providerReddit: shakepay
-
+twitter: shakepay
+social:
+  - https://www.facebook.com/shakepay
+  - https://www.reddit.com/r/shakepay
 redirect_from:
   - /com.shaketh/
   - /posts/com.shaketh/

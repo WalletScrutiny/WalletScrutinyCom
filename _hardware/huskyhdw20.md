@@ -4,33 +4,31 @@ appId: huskyhdw20
 authors:
 - danny
 released: 2021-02-23
-discontinued: # date
+discontinued: 
 updated: 
-version: 1.0.4
+version: "1.0.4"
+binaries: 
 dimensions: [100, 70, 25]
 weight: 200
+provider: "Embedded Agency LLC"
+providerWebsite: https://embedded.agency/
 website: https://www.huskywallet.com/
 shop: https://www.huskywallet.com/shop/
-company: Embedded Agency LLC
-companywebsite: https://embedded.agency/
 country: CA
 price: 129USD
-repository:
-issue:
+repository: 
+issue: 
 icon: huskyhdw20.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2022-02-18
-signer:
-reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: Husky-HDW20-112466137545897
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+  - https://www.facebook.com/Husky-HDW20-112466137545897
 ---
-
 
 The device can connect to the Internet via Wi-Fi. It also comes with a companion app:
 

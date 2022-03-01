@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: bitwalletinc
-providerLinkedIn: 
-providerFacebook: BitWalletInc
-providerReddit: 
-
-redirect_from:
-
+twitter: bitwalletinc
+social:
+  - https://www.facebook.com/BitWalletInc
 ---
 
 This appears to be primarily an exchange and as there are no claims of you being

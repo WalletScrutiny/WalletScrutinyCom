@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: thndrgames
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: thndrgames
+social:
 redirect_from:
-
 ---
 
 Bitcoin Bounce is a lightning network powered game.

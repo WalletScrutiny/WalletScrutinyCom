@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: hagglexintl
-providerLinkedIn: hagglex
-providerFacebook: hagglex
-providerReddit: 
-
+twitter: hagglexintl
+social:
+  - https://www.linkedin.com/company/hagglex
+  - https://www.facebook.com/hagglex
 redirect_from:
-
 ---
 
 The app has a short Play Store description:

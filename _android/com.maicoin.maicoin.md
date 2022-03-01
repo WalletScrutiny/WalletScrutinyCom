@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Max_exch
-providerLinkedIn: 
-providerFacebook: MaiCoinAssetExchange
-providerReddit: 
-
+twitter: Max_exch
+social:
+  - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from:
-
 ---
 
 This is from the Google Play description:

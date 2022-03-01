@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: voude99
-providerLinkedIn: 99app
-providerFacebook: voude99
-providerReddit: 
-
-redirect_from:
-
+twitter: voude99
+social:
+  - https://www.linkedin.com/company/99app
+  - https://www.facebook.com/voude99
 ---
 
 {% include copyFromAndroid.html %}

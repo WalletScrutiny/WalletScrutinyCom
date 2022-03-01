@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: happydelio
-providerLinkedIn: 
-providerFacebook: delio.io
-providerReddit: 
-
+twitter: happydelio
+social:
+  - https://www.facebook.com/delio.io
 redirect_from:
-
 ---
 
 ## App Description

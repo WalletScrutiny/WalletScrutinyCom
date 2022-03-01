@@ -23,14 +23,8 @@ verdict: fake
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: coinglass_com
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: coinglass_com
+social:
 ---
 
 {% include copyFromAndroid.html %}

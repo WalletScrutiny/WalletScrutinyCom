@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-04
 updated: 2021-04-27
 version: "1.7.9"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 27M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Aladiexchange
-providerLinkedIn: 
-providerFacebook: AladiEx
-providerReddit: 
-
+twitter: Aladiexchange
+social:
+  - https://www.facebook.com/AladiEx
 redirect_from:
-
 ---
 
 ## App Description

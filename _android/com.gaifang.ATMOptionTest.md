@@ -10,7 +10,7 @@ appCountry:
 released: 2020-06-18
 updated: 2021-08-29
 version: "1.1.19"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.5M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 As of September 13, 20201, there are two apps with exactly the same name "Bitcoin Trading Online Investing :ATM Option" and logo. They are also developed by the same developer, [ATM Warrant](https://play.google.com/store/apps/developer?id=ATM+Warrant).

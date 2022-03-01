@@ -10,7 +10,7 @@ appCountry: ro
 released: 2020-04-21
 updated: 2022-02-15
 version: "1.5.24"
-stars: 4.0
+stars: 4
 ratings: 640
 reviews: 4
 size: 38M
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-12-14
 signer: 
 reviewArchive:
-
-providerTwitter: moonlet_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: moonlet_wallet
+social:
 redirect_from:
   - /com.moonlet/
 ---

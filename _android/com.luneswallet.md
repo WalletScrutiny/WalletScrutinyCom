@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: 477c4edc4f632895993602574ba383a08df9041f
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.luneswallet/
   - /posts/com.luneswallet/

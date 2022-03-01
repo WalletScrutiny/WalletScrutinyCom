@@ -25,14 +25,9 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: Talken_
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Talken_
+social:
 redirect_from:
-
 ---
 
 **UPDATE 2021-09-01**: This "wallet" is meant for NFTs and not Bitcoin.

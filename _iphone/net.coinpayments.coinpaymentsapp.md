@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: CoinPaymentsNET
-providerLinkedIn: coinpayments-inc
-providerFacebook: CoinPayments
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinPaymentsNET
+social:
+  - https://www.linkedin.com/company/coinpayments-inc
+  - https://www.facebook.com/CoinPayments
 ---
 
 The description is not very clear but sounds a bit like this app is custodial.

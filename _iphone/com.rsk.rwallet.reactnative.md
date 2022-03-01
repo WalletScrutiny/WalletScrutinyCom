@@ -23,14 +23,10 @@ verdict: ftbfs
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: rsksmart
-providerLinkedIn: 
-providerFacebook: RSKsmart
-providerReddit: rootstock
-
-redirect_from:
-
+twitter: rsksmart
+social:
+  - https://www.facebook.com/RSKsmart
+  - https://www.reddit.com/r/rootstock
 ---
 
 {% include copyFromAndroid.html %}

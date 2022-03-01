@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: CoinbasePro
-providerLinkedIn: 
-providerFacebook: coinbase
-providerReddit: 
-
+twitter: CoinbasePro
+social:
+  - https://www.facebook.com/coinbase
 redirect_from:
   - /com.coinbase.pro/
   - /posts/com.coinbase.pro/

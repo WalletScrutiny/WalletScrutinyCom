@@ -23,14 +23,11 @@ verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: NitroExOfficial
-providerLinkedIn: nitroex
-providerFacebook: nitroex.io
-providerReddit: nitroexchange
-
-redirect_from:
-
+twitter: NitroExOfficial
+social:
+  - https://www.linkedin.com/company/nitroex
+  - https://www.facebook.com/nitroex.io
+  - https://www.reddit.com/r/nitroexchange
 ---
 
 {% include copyFromAndroid.html %}

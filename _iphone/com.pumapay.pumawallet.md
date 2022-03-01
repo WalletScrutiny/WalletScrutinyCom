@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: PumaPay
-providerLinkedIn: decentralized-vision
-providerFacebook: PumaPayOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: PumaPay
+social:
+  - https://www.linkedin.com/company/decentralized-vision
+  - https://www.facebook.com/PumaPayOfficial
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: coinmama
-providerLinkedIn: coinmama
-providerFacebook: 
-providerReddit: 
-
+twitter: coinmama
+social:
+  - https://www.linkedin.com/company/coinmama
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: diviproject
-providerLinkedIn: 
-providerFacebook: diviproject
-providerReddit: DiviProject
-
-redirect_from:
-
+twitter: diviproject
+social:
+  - https://www.facebook.com/diviproject
+  - https://www.reddit.com/r/DiviProject
 ---
 
 {% include copyFromAndroid.html %}

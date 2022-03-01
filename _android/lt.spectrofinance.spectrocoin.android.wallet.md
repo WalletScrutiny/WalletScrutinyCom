@@ -24,14 +24,11 @@ verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: spectrocoin
-providerLinkedIn: spectrocoin
-providerFacebook: spectrocoin
-providerReddit: 
-
+twitter: spectrocoin
+social:
+  - https://www.linkedin.com/company/spectrocoin
+  - https://www.facebook.com/spectrocoin
 redirect_from:
-
 ---
 
 This part of the wallet's descriptions certainly sounds like a custodial app:

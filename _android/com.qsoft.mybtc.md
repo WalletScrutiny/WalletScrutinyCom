@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-05
 updated: 2021-06-05
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.5M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: btc_nigeria
-providerLinkedIn: 
-providerFacebook: mybtcnigeria
-providerReddit: 
-
+twitter: btc_nigeria
+social:
+  - https://www.facebook.com/mybtcnigeria
 redirect_from:
-
 ---
 
 ## App Description

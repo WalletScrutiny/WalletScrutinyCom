@@ -5,35 +5,34 @@ authors:
 - kiwilamb
 - leo
 released: 2018-04-01
-discontinued: # date
+discontinued: 
 updated: 2021-09-02
-version: v4.1.3
+version: "v4.1.3"
+binaries: 
 dimensions: [88, 51, 9]
 weight: 30
+provider: 
+providerWebsite: 
 website: https://coinkite.com/
 shop: https://store.coinkite.com/store/coldcard
 country: CA
 price: 119USD
 repository: https://github.com/Coldcard/firmware
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340
-icon: ColdCardMk3.png
+icon: coldcardMk3.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2021-09-08
 signer: 
-reviewArchive:
+reviewArchive: 
 - date: 2021-08-14
   version: "v4.1.2"
   appHash: d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2
   gitRevision: 13171e8e87bb975be68995fcba6df43318736de4
   verdict: nonverifiable
-  
-
-providerTwitter: COLDCARDwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+twitter: COLDCARDwallet
+social: 
 ---
 
 **Update 2021-09-07**: The provider answered our mails. Here is the full

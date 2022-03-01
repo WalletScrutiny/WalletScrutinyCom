@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: TradeMnOfficial
-providerLinkedIn: 
-providerFacebook: digitalexchangemongolia
-providerReddit: 
-
+twitter: TradeMnOfficial
+social:
+  - https://www.facebook.com/digitalexchangemongolia
 redirect_from:
-
 ---
 
 ## App Description

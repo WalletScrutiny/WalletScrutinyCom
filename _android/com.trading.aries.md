@@ -10,7 +10,7 @@ appCountry: ng
 released: 2021-06-23
 updated: 2022-02-20
 version: "2.01.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.0M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: TradeAries
-providerLinkedIn: tradearies
-providerFacebook: TradeAries
-providerReddit: 
-
+twitter: TradeAries
+social:
+  - https://www.linkedin.com/company/tradearies
+  - https://www.facebook.com/TradeAries
 redirect_from:
-
 ---
 
 ## App Description

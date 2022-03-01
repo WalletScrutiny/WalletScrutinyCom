@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: gate_io
-providerLinkedIn: 
-providerFacebook: gateioglobal
-providerReddit: GateioExchange
-
+twitter: gate_io
+social:
+  - https://www.facebook.com/gateioglobal
+  - https://www.reddit.com/r/GateioExchange
 redirect_from:
-
 ---
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)

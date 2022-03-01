@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-12-03
 signer: 
 reviewArchive:
-
-providerTwitter: ellipalwallet
-providerLinkedIn: 
-providerFacebook: ellipalclub
-providerReddit: ELLIPAL_Official
-
-redirect_from:
-
+twitter: ellipalwallet
+social:
+  - https://www.facebook.com/ellipalclub
+  - https://www.reddit.com/r/ELLIPAL_Official
 ---
 
 {% include copyFromAndroid.html %}

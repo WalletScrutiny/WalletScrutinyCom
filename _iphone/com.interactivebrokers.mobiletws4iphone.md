@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: ibkr
-providerLinkedIn: interactive-brokers
-providerFacebook: InteractiveBrokers
-providerReddit: 
-
-redirect_from:
-
+twitter: ibkr
+social:
+  - https://www.linkedin.com/company/interactive-brokers
+  - https://www.facebook.com/InteractiveBrokers
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: obfuscated
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: TokenPocket_TP
-providerLinkedIn: 
-providerFacebook: TokenPocket
-providerReddit: 
-
+twitter: TokenPocket_TP
+social:
+  - https://www.facebook.com/TokenPocket
 redirect_from:
-
 ---
 
 From the description:

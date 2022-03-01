@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: bitsa_oficial
-providerLinkedIn: bitsacard
-providerFacebook: BitsaCard
-providerReddit: 
-
+twitter: bitsa_oficial
+social:
+  - https://www.linkedin.com/company/bitsacard
+  - https://www.facebook.com/BitsaCard
 redirect_from:
-
 ---
 
 ## App Description

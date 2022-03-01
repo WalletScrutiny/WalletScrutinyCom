@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-01-14
 signer: 
 reviewArchive:
-
-providerTwitter: SecuXwallet
-providerLinkedIn: 
-providerFacebook: secuxtech
-providerReddit: 
-
+twitter: SecuXwallet
+social:
+  - https://www.facebook.com/secuxtech
 redirect_from:
-
 ---
 
 ⚠️ **CAUTION:** Some users have reported losing cryptocurrencies with this app.

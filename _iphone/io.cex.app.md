@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: cex_io
-providerLinkedIn: cex-io
-providerFacebook: CEX.IO
-providerReddit: 
-
-redirect_from:
-
+twitter: cex_io
+social:
+  - https://www.linkedin.com/company/cex-io
+  - https://www.facebook.com/CEX.IO
 ---
 
 The CEX.io mobile app claims on the website to manage bitcoins...

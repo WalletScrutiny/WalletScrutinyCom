@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2019-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: acinq_co
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: acinq_co
+social:
 redirect_from:
   - /eclair/
   - /fr.acinq.eclair.wallet.mainnet2/

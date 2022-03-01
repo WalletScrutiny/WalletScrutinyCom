@@ -25,14 +25,10 @@ verdict: nosource
 date: 2021-08-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: TheBitFreezer
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/TheBitFreezer
 redirect_from:
-
 ---
 
 **Update 2021-08-03**: This app is not on Play Store anymore.

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-02-04
 updated: 2022-02-07
 version: "2.4.0"
-stars: 4.0
+stars: 4
 ratings: 32
 reviews: 5
 size: Varies with device
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2022-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoin_ox
-providerLinkedIn: 
-providerFacebook: bitcoinoxwallet
-providerReddit: 
-
+twitter: bitcoin_ox
+social:
+  - https://www.facebook.com/bitcoinoxwallet
 redirect_from:
   - /org.bitcoinox.bitcoinoxwallet/
   - /posts/org.bitcoinox.bitcoinoxwallet/

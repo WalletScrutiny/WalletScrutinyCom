@@ -10,7 +10,7 @@ appCountry: in
 released: 2021-09-30
 updated: 2022-02-02
 version: "2.0.69"
-stars: 5.0
+stars: 5
 ratings: 30
 reviews: 4
 size: 57M
@@ -24,14 +24,10 @@ verdict: ftbfs
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: HexaWallet
-providerLinkedIn: bithyve
-providerFacebook: 
-providerReddit: 
-
+twitter: HexaWallet
+social:
+  - https://www.linkedin.com/company/bithyve
 redirect_from:
-
 ---
 
 ## Updated Verdict 2021-12-21

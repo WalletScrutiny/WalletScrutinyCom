@@ -24,12 +24,9 @@ verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: freewallet
-providerLinkedIn: 
-providerFacebook: freewallet.io
-providerReddit: 
-
+twitter: freewallet
+social:
+  - https://www.facebook.com/freewallet.io
 redirect_from:
   - /io.freewallet.mobile/
 ---

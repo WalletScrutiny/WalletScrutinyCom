@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: MetrixCoin
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: Linda_Project_Inc
-
+twitter: MetrixCoin
+social:
+  - https://www.reddit.com/r/Linda_Project_Inc
 redirect_from:
-
 ---
 
 ## App Description

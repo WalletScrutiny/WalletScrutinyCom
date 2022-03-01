@@ -10,7 +10,7 @@ appCountry: us
 released: 
 updated: 2021-12-01
 version: "1.5.78-tmarkets"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 20M
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: T1_Markets
-providerLinkedIn: 
-providerFacebook: t1markets
-providerReddit: 
-
+twitter: T1_Markets
+social:
+  - https://www.facebook.com/t1markets
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: NetDania-146001445410373
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/NetDania-146001445410373
 ---
 
 {% include copyFromAndroid.html %}

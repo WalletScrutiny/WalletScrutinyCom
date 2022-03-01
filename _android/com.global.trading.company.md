@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **WARNING** ⚠️ 

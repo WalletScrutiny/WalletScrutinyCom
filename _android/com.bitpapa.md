@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
-providerTwitter: bitpapa_com
-providerLinkedIn: 
-providerFacebook: bitpapacom
-providerReddit: 
-
+twitter: bitpapa_com
+social:
+  - https://www.facebook.com/bitpapacom
 redirect_from:
-
 ---
 
 This app supports Bitcoin:

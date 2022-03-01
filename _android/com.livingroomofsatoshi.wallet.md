@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: walletofsatoshi
-providerLinkedIn: 
-providerFacebook: walletofsatoshi
-providerReddit: 
-
+twitter: walletofsatoshi
+social:
+  - https://www.facebook.com/walletofsatoshi
 redirect_from:
   - /walletofsatoshi/
   - /com.livingroomofsatoshi.wallet/

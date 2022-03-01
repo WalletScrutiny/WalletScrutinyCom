@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: xrexinc
-providerLinkedIn: xrexinc
-providerFacebook: xrexinfo
-providerReddit: 
-
-redirect_from:
-
+twitter: xrexinc
+social:
+  - https://www.linkedin.com/company/xrexinc
+  - https://www.facebook.com/xrexinfo
 ---
 
 {% include copyFromAndroid.html %}

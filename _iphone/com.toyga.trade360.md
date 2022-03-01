@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Trade360_LTD
-providerLinkedIn: trade360ltd
-providerFacebook: Trade360LTD
-providerReddit: 
-
-redirect_from:
-
+twitter: Trade360_LTD
+social:
+  - https://www.linkedin.com/company/trade360ltd
+  - https://www.facebook.com/Trade360LTD
 ---
 
 {% include copyFromAndroid.html %}

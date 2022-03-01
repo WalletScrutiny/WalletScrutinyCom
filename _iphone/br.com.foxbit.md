@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: foxbit
-providerLinkedIn: foxbit
-providerFacebook: foxbitcoin
-providerReddit: 
-
-redirect_from:
-
+twitter: foxbit
+social:
+  - https://www.linkedin.com/company/foxbit
+  - https://www.facebook.com/foxbitcoin
 ---
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**

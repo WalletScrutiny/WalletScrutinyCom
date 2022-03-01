@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-14
 updated: 2021-02-20
 version: "1.5.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 34M
@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: COINiDGroup
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: COINiDGroup
+social:
 redirect_from:
   - /org.coinid.vault/
   - /posts/org.coinid.vault/

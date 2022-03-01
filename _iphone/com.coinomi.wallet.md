@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: CoinomiWallet
-providerLinkedIn: coinomi
-providerFacebook: coinomi
-providerReddit: COINOMI
-
-redirect_from:
-
+twitter: CoinomiWallet
+social:
+  - https://www.linkedin.com/company/coinomi
+  - https://www.facebook.com/coinomi
+  - https://www.reddit.com/r/COINOMI
 ---
 
 This wallet claims to be non-custodial but

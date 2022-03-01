@@ -24,14 +24,10 @@ verdict: custodial
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: mybetadealapp
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/mybetadealapp
 redirect_from:
-
 ---
 
 **Update 2022-02-07**: This app is no more.

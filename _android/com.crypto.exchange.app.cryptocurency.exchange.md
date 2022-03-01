@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning!** Despite its claims, this app is not a real cryptocurrency exchange app. It is a blatant ploy to receive affiliate commissions from binance. 

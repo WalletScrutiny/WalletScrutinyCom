@@ -24,12 +24,10 @@ verdict: nosource
 date: 2019-11-20
 signer: 
 reviewArchive:
-
-providerTwitter: trustwalletapp
-providerLinkedIn: 
-providerFacebook: trustwalletapp
-providerReddit: trustapp
-
+twitter: trustwalletapp
+social:
+  - https://www.facebook.com/trustwalletapp
+  - https://www.reddit.com/r/trustapp
 redirect_from:
   - /trust/
   - /com.wallet.crypto.trustapp/

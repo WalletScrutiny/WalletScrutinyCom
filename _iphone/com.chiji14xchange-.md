@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: myrocketapp
-providerLinkedIn: 
-providerFacebook: myrocketapp
-providerReddit: 
-
-redirect_from:
-
+twitter: myrocketapp
+social:
+  - https://www.facebook.com/myrocketapp
 ---
 
 {% include copyFromAndroid.html %}

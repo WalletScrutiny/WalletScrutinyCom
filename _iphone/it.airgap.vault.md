@@ -23,14 +23,9 @@ verdict: nonverifiable
 date: 2021-09-29
 signer: 
 reviewArchive:
-
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
-redirect_from:
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 ---
 
 This app for Android is reproducible but unfortunately due to limitations of the

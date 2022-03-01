@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: lastbitpay
-providerLinkedIn: 
-providerFacebook: lastbitpay
-providerReddit: 
-
+twitter: lastbitpay
+social:
+  - https://www.facebook.com/lastbitpay
 redirect_from:
-
 ---
 
 ## App Description

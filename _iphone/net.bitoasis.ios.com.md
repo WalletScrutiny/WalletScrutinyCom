@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: bitoasis
-providerLinkedIn: bitoasis-technologies-fze
-providerFacebook: bitoasis
-providerReddit: 
-
-redirect_from:
-
+twitter: bitoasis
+social:
+  - https://www.linkedin.com/company/bitoasis-technologies-fze
+  - https://www.facebook.com/bitoasis
 ---
 
 {% include copyFromAndroid.html %}

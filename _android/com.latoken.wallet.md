@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: latokens
-providerLinkedIn: latoken
-providerFacebook: LiquidAssetToken
-providerReddit: 
-
+twitter: latokens
+social:
+  - https://www.linkedin.com/company/latoken
+  - https://www.facebook.com/LiquidAssetToken
 redirect_from:
-
 ---
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.

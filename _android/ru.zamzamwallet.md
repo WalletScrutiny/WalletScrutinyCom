@@ -10,7 +10,7 @@ appCountry: ru
 released: 2020-06-26
 updated: 2022-02-15
 version: "2.7.10"
-stars: 4.0
+stars: 4
 ratings: 139
 reviews: 83
 size: 20M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

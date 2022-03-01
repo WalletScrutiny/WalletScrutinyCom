@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: YourBTCC
-providerLinkedIn: yourbtcc
-providerFacebook: yourbtcc
-providerReddit: YourBTCC
-
+twitter: YourBTCC
+social:
+  - https://www.linkedin.com/company/yourbtcc
+  - https://www.facebook.com/yourbtcc
+  - https://www.reddit.com/r/YourBTCC
 redirect_from:
-
 ---
 
 In its Google Play description:

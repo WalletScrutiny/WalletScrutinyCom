@@ -23,14 +23,9 @@ verdict: custodial
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: bitmex
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: BitMEX
-
-redirect_from:
-
+twitter: bitmex
+social:
+  - https://www.reddit.com/r/BitMEX
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

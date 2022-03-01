@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Caution:** Some users on Google Play have specified negative experiences with this app.

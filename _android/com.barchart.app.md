@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: Barchart
-providerLinkedIn: barchart.com-inc.
-providerFacebook: Barchart
-providerReddit: 
-
+twitter: Barchart
+social:
+  - https://www.linkedin.com/company/barchart.com-inc.
+  - https://www.facebook.com/Barchart
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: paybis
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: paybis
+social:
 redirect_from:
-
 ---
 
 ## App Description

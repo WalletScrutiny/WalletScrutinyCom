@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Hoo_exchange
-providerLinkedIn: 
-providerFacebook: hooexchange
-providerReddit: HooExchange
-
-redirect_from:
-
+twitter: Hoo_exchange
+social:
+  - https://www.facebook.com/hooexchange
+  - https://www.reddit.com/r/HooExchange
 ---
 
 {% include copyFromAndroid.html %}

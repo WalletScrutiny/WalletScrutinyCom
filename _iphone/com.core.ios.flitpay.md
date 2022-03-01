@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: flitpayofficial
-providerLinkedIn: 
-providerFacebook: flitpay
-providerReddit: 
-
-redirect_from:
-
+twitter: flitpayofficial
+social:
+  - https://www.facebook.com/flitpay
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: CofinexExchange
-providerLinkedIn: cofinex-exchange
-providerFacebook: 
-providerReddit: 
-
+twitter: CofinexExchange
+social:
+  - https://www.linkedin.com/company/cofinex-exchange
 redirect_from:
-
 ---
 
 ## App Description

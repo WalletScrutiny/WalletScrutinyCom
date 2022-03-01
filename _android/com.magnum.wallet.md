@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-08-19
 signer: 
 reviewArchive:
-
-providerTwitter: magnum_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: magnum_wallet
+social:
 redirect_from:
   - /com.magnum.wallet/
   - /posts/com.magnum.wallet/

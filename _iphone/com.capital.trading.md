@@ -23,14 +23,8 @@ verdict: wip
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

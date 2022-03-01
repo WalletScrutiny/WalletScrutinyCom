@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: Indie_Square
-providerLinkedIn: 
-providerFacebook: indiesquare.me
-providerReddit: 
-
+twitter: Indie_Square
+social:
+  - https://www.facebook.com/indiesquare.me
 redirect_from:
-
 ---
 
 Upon app installation users are made to write down the mnemonic phrase and pin.

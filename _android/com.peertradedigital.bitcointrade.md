@@ -10,7 +10,7 @@ appCountry: br
 released: 2017-12-01
 updated: 2022-02-04
 version: "3.5.2"
-stars: 4.0
+stars: 4
 ratings: 8304
 reviews: 3940
 size: 21M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: bitcointrade
-providerFacebook: BitcointradeBR
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/bitcointrade
+  - https://www.facebook.com/BitcointradeBR
 redirect_from:
-
 ---
 
 **This product and the accompanying official website is in Portuguese. The app may not have an English translation.**

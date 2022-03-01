@@ -1,11 +1,4 @@
 process.env.TZ = 'UTC' // fix timezone issues
-process.on('unhandledRejection', (reason, promise) => {
-  if (`${reason}`.search(/404/) > -1) {
-    console.error(`Ignoring a 404 error that for some reason did not get caught: ${reason}`)
-  } else {
-    console.error(`Ignoring an error we did not intend to ignore: ${reason}`)
-  }
-})
 
 const gplay = require('google-play-scraper')
 const dateFormat = require('dateformat')
@@ -16,8 +9,8 @@ const helper = require('./helper.js')
 const weirdBug = []
 const errorLogFileName = "/tmp/unnatural.txt"
 const { Semaphore } = require('async-mutex')
-const sem = new Semaphore(5)
 
+const sem = new Semaphore(5)
 const stats = {
   defunct: 0,
   updated: 0,
@@ -44,16 +37,14 @@ const allowedHeaders = [
   "issue", // issue we opened in their repository
   "icon", // icon name. appId.{jpg,png}
   "bugbounty", // link to bug bounty program if known
-  "verdict", // 
+  "meta", // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
+  "verdict",
   "date", // date the review was done/updated
   "signer", // the identifier of the release signing key
   "reviewArchive", // history of our reviews
-  "providerTwitter",
-  "providerLinkedIn",
-  "providerFacebook",
-  "providerReddit",
-  "redirect_from",
-  "meta" // meta verdict. defunct, obsolete and stale were verdicts before but that hid the actual verdict in the reviewArchive
+  "twitter",
+  "social",
+  "redirect_from"
 ]
 const folder = "_android/"
 
@@ -116,7 +107,9 @@ function refreshFile(fileName) {
             throttle: 20}).then(app => {
           const iconPath = `images/wallet_icons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-            writeResult(app, header, iconExtension, body)
+            header.icon = `${appId}.${iconExtension}`
+            updateFromApp(header, app)
+            writeResult(header, body)
             stats.remaining--
             release()
           })
@@ -136,7 +129,7 @@ function refreshFile(fileName) {
       }
     } else {
       stats.defunct++
-      writeResult(getAppFromHeader(header), header, header.icon.split('.').pop(), body)
+      writeResult(header, body)
       stats.remaining--
       release()
     }
@@ -148,105 +141,87 @@ function getAppFromHeader(header) {
     version: header.version,
     released: header.released,
     updated: header.updated,
+    title: header.title,
     minInstalls: header.users,
     scoreText: header.stars,
     reviews: header.reviews,
     ratings: header.ratings,
-    title: header.title,
     size: header.size,
     developerWebsite: header.website
   }
 }
 
-function writeResult(app, header, iconExtension, body) {
-  var altTitle = header.altTitle || ""
-  if (altTitle.length > 0)
-    altTitle = `"${altTitle}"`
-  const authors = new Set(header.authors)
-  var version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
-  const released = header.released || app.released
-  var releasedString = ""
-  if (released != undefined) {
-    releasedString = dateFormat(released, "yyyy-mm-dd")
-  }
-  var verdict = header.verdict
+/**
+ * Update the header from app
+ **/
+function updateFromApp(header, app) {
+  if (app == undefined)
+    return
+  header.version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
+  header.released = header.released || app.released
   if ( (header.verdict == "" || header.verdict == "wip" ) && app.minInstalls < 1000 ) {
-    verdict = "fewusers"
+    header.verdict = "fewusers"
   } else if ( header.verdict == "fewusers" && app.minInstalls >= 1000 ) {
-    verdict = "wip"
+    header.verdict = "wip"
   }
-  const reviewArchive = (header.reviewArchive || [])
-  const redirects = new Set(header.redirect_from)
-  stats.updated++
-  var date = header.date
-  var meta = header.meta || "ok"
-  // retire if needed
-  if (meta != "defunct") {
-    const daysSinceUpdate = ((new Date()) - (new Date(app.updated))) / 1000 / 60 / 60 / 24
-    if ( daysSinceUpdate > 720 ) {
-      if ( meta != "obsolete" ) {
-        // mark obsolete if old and not obsoelte yet
-        meta = "obsolete"
-        date = new Date()
-      }
-    } else if ( daysSinceUpdate > 360 ) {
-      if ( meta != "stale" ) {
-        // mark stale if old and not stale yet
-        meta = "stale"
-        date = new Date()
-      }
-    } else {
-      if ( "stale,obsolete".includes(meta)) {
-        // stale/obsolete product was revived. We might have to look into it.
-        meta = "ok"
-        console.log(`\nReviving android/${header.appId} (${verdict})`)
-        date = new Date()
-      }
-    }
-  }
-  const p = `_android/${header.appId}.md`
-  const f = fs.createWriteStream(p)
-  f.write(`---
+  header.meta = header.meta || "ok"
+  // if api reports an older updated date than what we determined, keep our data
+  header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
+    ? header.updated
+    : app.updated
+  header.users = app.minInstalls
+  header.stars = app.score
+  header.reviews = app.reviews
+  header.size = app.size
+  header.website = app.developerWebsite || header.website || ""
+  helper.updateMeta(header)
+}
+
+function writeResult(header, body) {
+  fs.createWriteStream(`${folder}${header.appId}.md`).write(`---
 wsId: ${header.wsId || ""}
-title: "${app.title}"
-altTitle: ${altTitle}
+title: "${header.title}"
+altTitle: ${helper.stringOrEmpty(header.altTitle)}
 authors:
-${[...authors].map((item) => `- ${item}`).join("\n")}
-users: ${app.minInstalls}
+${(header.authors || []).map((item) => `- ${item}`).join("\n")}
+users: ${header.users}
 appId: ${header.appId}
 appCountry: ${header.appCountry || ""}
-released: ${releasedString}
-updated: ${dateFormat(app.updated, "yyyy-mm-dd")}
-version: "${ version }"
-stars: ${app.scoreText || ""}
-ratings: ${app.ratings || ""}
-reviews: ${app.reviews || ""}
-size: ${app.size}
-website: ${app.developerWebsite || header.website || ""}
+released: ${helper.dateOrEmpty(header.released)}
+updated: ${helper.dateOrEmpty(header.updated)}
+version: ${helper.stringOrEmpty(header.version)}
+stars: ${header.stars || ""}
+ratings: ${header.ratings || ""}
+reviews: ${header.reviews || ""}
+size: ${header.size || ""}
+website: ${header.website || ""}
 repository: ${header.repository || ""}
 issue: ${header.issue || ""}
-icon: ${header.appId}.${iconExtension}
+icon: ${header.icon}
 bugbounty: ${header.bugbounty || ""}
-meta: ${meta}
-verdict: ${verdict}
-date: ${dateFormat(date, "yyyy-mm-dd")}
+meta: ${header.meta}
+verdict: ${header.verdict}
+date: ${helper.dateOrEmpty(header.date)}
 signer: ${header.signer || ""}
-reviewArchive:
-${reviewArchive.map((item) => `- date: ${dateFormat(item.date, "yyyy-mm-dd")}
+reviewArchive:${(header.reviewArchive || []).length > 0
+    ? "\n" + header.reviewArchive.map((item) =>
+        `- date: ${helper.dateOrEmpty(item.date)}
   version: "${item.version || ""}"
   appHash: ${item.appHash || ""}
   gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")}
-providerTwitter: ${header.providerTwitter || ""}
-providerLinkedIn: ${header.providerLinkedIn || ""}
-providerFacebook: ${header.providerFacebook || ""}
-providerReddit: ${header.providerReddit || ""}
-
-redirect_from:
-${[...redirects].map((item) => "  - " + item).join("\n")}
+  verdict: ${item.verdict}`).join("\n")
+    : "" }
+twitter: ${header.twitter || ""}
+social:${(header.social || []).length > 0
+    ? "\n" + header.social.map((item) => "  - " + item).join("\n")
+    : ""}
+redirect_from:${(header.redirect_from || []).length > 0
+    ? "\n" + header.redirect_from.map((item) => "  - " + item).join("\n")
+    : ""}
 ---
 
 ${body}`)
+  stats.updated++
 }
 
 function add(newAppIds) {
@@ -277,10 +252,15 @@ function add(newAppIds) {
   })
 }
 
+function migrateAll(migration) {
+  helper.migrateAll(folder, migration, writeResult)
+}
+
 module.exports = {
   refreshAll,
   refreshFile,
   stats,
-  add
+  add,
+  migrateAll
 }
 

@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: blubitex
-providerLinkedIn: 
-providerFacebook: blubitexofficial
-providerReddit: 
-
+twitter: blubitex
+social:
+  - https://www.facebook.com/blubitexofficial
 redirect_from:
-
 ---
 
 2021-09-06: The app is currently under maintenance. Users can sign in through the web application only.

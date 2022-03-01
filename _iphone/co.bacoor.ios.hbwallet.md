@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: HBWallet_Ether
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: HBWallet_Ether
+social:
 ---
 
 {% include copyFromAndroid.html %}

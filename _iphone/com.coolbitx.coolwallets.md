@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-08-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2021-08-28**: We now also added the hardware wallets this app is the

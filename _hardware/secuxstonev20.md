@@ -6,34 +6,32 @@ authors:
 - danny
 - leo
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [98, 98, 15]
 weight: 120
+provider: "SecuX Technology Inc."
+providerWebsite: https://secuxtech.com
 website: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
 shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
-company: SecuX Technology Inc.
-companywebsite: https://secuxtech.com
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/379
 icon: secuxstonev20.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: SecuXwallet
-providerLinkedIn: secuxtech
-providerFacebook: secuxtech
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SecuXwallet
+social: 
+  - https://www.linkedin.com/company/secuxtech
+  - https://www.facebook.com/secuxtech
 ---
-
 
 ## Private keys can be created offline and are not sharedser
 

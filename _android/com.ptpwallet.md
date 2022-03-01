@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
   verdict: custodial
-providerTwitter: PtpWallet
-providerLinkedIn: 
-providerFacebook: PTPWalletPage
-providerReddit: perkscoin
-
+twitter: PtpWallet
+social:
+  - https://www.facebook.com/PTPWalletPage
+  - https://www.reddit.com/r/perkscoin
 redirect_from:
   - /com.ptpwallet/
 ---

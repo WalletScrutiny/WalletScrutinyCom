@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: mobimeglobal
-providerLinkedIn: 
-providerFacebook: mobimeglobal
-providerReddit: 
-
+twitter: mobimeglobal
+social:
+  - https://www.facebook.com/mobimeglobal
 redirect_from:
-
 ---
 
 **Update 2021-12-06**: This app is gone from the Google Play Store. In the Apple App Store, while not available for Australia anymore, it is now available in the US.

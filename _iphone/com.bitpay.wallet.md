@@ -23,14 +23,10 @@ verdict: ftbfs
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: BitPay
-providerLinkedIn: bitpay-inc-
-providerFacebook: BitPayOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: BitPay
+social:
+  - https://www.linkedin.com/company/bitpay-inc-
+  - https://www.facebook.com/BitPayOfficial
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: BixinWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BixinWallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

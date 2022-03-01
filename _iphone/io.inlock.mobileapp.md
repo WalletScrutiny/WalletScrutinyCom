@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: inlock_token
-providerLinkedIn: income-locker
-providerFacebook: incomelocker
-providerReddit: 
-
-redirect_from:
-
+twitter: inlock_token
+social:
+  - https://www.linkedin.com/company/income-locker
+  - https://www.facebook.com/incomelocker
 ---
 
 {% include copyFromAndroid.html %}

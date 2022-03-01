@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-02-27
 signer: 
 reviewArchive:
-
-providerTwitter: hodlwithLedn
-providerLinkedIn: ledn-inc
-providerFacebook: Ledn.io
-providerReddit: 
-
-redirect_from:
-
+twitter: hodlwithLedn
+social:
+  - https://www.linkedin.com/company/ledn-inc
+  - https://www.facebook.com/Ledn.io
 ---
 
 {% include copyFromAndroid.html %}

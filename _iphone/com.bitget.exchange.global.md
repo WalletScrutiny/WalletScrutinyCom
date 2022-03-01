@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: bitgetglobal
-providerLinkedIn: bitget
-providerFacebook: BitgetGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: bitgetglobal
+social:
+  - https://www.linkedin.com/company/bitget
+  - https://www.facebook.com/BitgetGlobal
 ---
 
  {% include copyFromAndroid.html %}

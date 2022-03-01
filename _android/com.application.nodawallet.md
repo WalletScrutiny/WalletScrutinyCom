@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: DexNodaWallett
-providerLinkedIn: noda-project-8b4a251b3
-providerFacebook: 
-providerReddit: NodaWallet
-
+twitter: DexNodaWallett
+social:
+  - https://www.linkedin.com/company/noda-project-8b4a251b3
+  - https://www.reddit.com/r/NodaWallet
 redirect_from:
-
 ---
 
 ## App Description

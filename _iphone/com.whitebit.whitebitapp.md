@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: whitebit
-providerLinkedIn: whitebit-cryptocurrency-exchange
-providerFacebook: whitebit
-providerReddit: WhiteBitExchange
-
-redirect_from:
-
+twitter: whitebit
+social:
+  - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
+  - https://www.facebook.com/whitebit
+  - https://www.reddit.com/r/WhiteBitExchange
 ---
 
 {% include copyFromAndroid.html %}

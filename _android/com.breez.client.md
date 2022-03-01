@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2019-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: breez_tech
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: breez_tech
+social:
 redirect_from:
   - /breez/
   - /com.breez.client/

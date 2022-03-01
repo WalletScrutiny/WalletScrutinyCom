@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: paritexexchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: paritexexchange
+social:
 ---
 
 {% include copyFromAndroid.html %}

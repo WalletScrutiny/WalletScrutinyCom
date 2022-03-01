@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-05-11
 updated: 2022-01-17
 version: "2.2.6"
-stars: 5.0
+stars: 5
 ratings: 481
 reviews: 7
 size: 34M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: MoonXBT_Global
-providerLinkedIn: 
-providerFacebook: MoonXBT
-providerReddit: MoonXBT
-
+twitter: MoonXBT_Global
+social:
+  - https://www.facebook.com/MoonXBT
+  - https://www.reddit.com/r/MoonXBT
 redirect_from:
-
 ---
 
 ## App Description

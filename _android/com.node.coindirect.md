@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: coindirectcom
-providerLinkedIn: coindirect
-providerFacebook: coindirectcom
-providerReddit: 
-
+twitter: coindirectcom
+social:
+  - https://www.linkedin.com/company/coindirect
+  - https://www.facebook.com/coindirectcom
 redirect_from:
-
 ---
 
 It is concerning to see a wallet with a rating of less than 2 in the Google Play

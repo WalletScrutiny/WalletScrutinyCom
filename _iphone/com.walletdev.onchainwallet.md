@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiWallet
-providerLinkedIn: 
-providerFacebook: HuobiWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: HuobiWallet
+social:
+  - https://www.facebook.com/HuobiWallet
 ---
 
 From the description on the App Store the wallet provider clearly states the

@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: redotcom
-providerLinkedIn: redotcom
-providerFacebook: redotexchange
-providerReddit: redot_com
-
+twitter: redotcom
+social:
+  - https://www.linkedin.com/company/redotcom
+  - https://www.facebook.com/redotexchange
+  - https://www.reddit.com/r/redot_com
 redirect_from:
-
 ---
 
 ## App Description

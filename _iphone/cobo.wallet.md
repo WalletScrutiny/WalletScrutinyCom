@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: coboofficial
-providerFacebook: coboOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: Cobo_Wallet
+social:
+  - https://www.linkedin.com/company/coboofficial
+  - https://www.facebook.com/coboOfficial
 ---
 
  {% include copyFromAndroid.html %}

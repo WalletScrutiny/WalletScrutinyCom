@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:
-
-providerTwitter: mercurycash
-providerLinkedIn: 
-providerFacebook: mercurycash
-providerReddit: 
-
+twitter: mercurycash
+social:
+  - https://www.facebook.com/mercurycash
 redirect_from:
   - /com.adenter.mercurycash/
 ---

@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: spot_bitcoin
-providerLinkedIn: spot-bitcoin
-providerFacebook: spot.bitcoin
-providerReddit: 
-
+twitter: spot_bitcoin
+social:
+  - https://www.linkedin.com/company/spot-bitcoin
+  - https://www.facebook.com/spot.bitcoin
 redirect_from:
   - /com.spot.spot/
 ---

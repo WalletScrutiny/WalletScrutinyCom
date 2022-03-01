@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: phemex_official
-providerLinkedIn: phemex
-providerFacebook: Phemex.official
-providerReddit: 
-
+twitter: phemex_official
+social:
+  - https://www.linkedin.com/company/phemex
+  - https://www.facebook.com/Phemex.official
 redirect_from:
-
 ---
 
 The Phemex mobile app claims to hold funds in cold storage...

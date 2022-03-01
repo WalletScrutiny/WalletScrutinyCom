@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: KinesisMonetary
-providerLinkedIn: kinesismoney
-providerFacebook: kinesismoney
-providerReddit: Kinesis_money
-
-redirect_from:
-
+twitter: KinesisMonetary
+social:
+  - https://www.linkedin.com/company/kinesismoney
+  - https://www.facebook.com/kinesismoney
+  - https://www.reddit.com/r/Kinesis_money
 ---
 
 {% include copyFromAndroid.html %}

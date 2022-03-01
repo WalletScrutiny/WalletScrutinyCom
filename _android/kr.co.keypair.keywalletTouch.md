@@ -30,13 +30,9 @@ reviewArchive:
   appHash: 
   gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
   verdict: nosource
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Updated Review 2022-01-04**:

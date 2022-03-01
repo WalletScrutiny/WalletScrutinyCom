@@ -23,14 +23,10 @@ verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: mxcfoundation
-providerLinkedIn: 
-providerFacebook: MXCfoundation
-providerReddit: MXC_Foundation
-
-redirect_from:
-
+twitter: mxcfoundation
+social:
+  - https://www.facebook.com/MXCfoundation
+  - https://www.reddit.com/r/MXC_Foundation
 ---
 
 {% include copyFromAndroid.html %}

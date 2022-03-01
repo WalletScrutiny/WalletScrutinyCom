@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-04-22
 signer: 
 reviewArchive:
-
-providerTwitter: ex_scudo
-providerLinkedIn: 
-providerFacebook: exscudo
-providerReddit: EXSCUDO
-
+twitter: ex_scudo
+social:
+  - https://www.facebook.com/exscudo
+  - https://www.reddit.com/r/EXSCUDO
 redirect_from:
-
 ---
 
 The Play Store description states...

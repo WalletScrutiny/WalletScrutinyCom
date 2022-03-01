@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: bitoasis
-providerLinkedIn: bitoasis-technologies-fze
-providerFacebook: bitoasis
-providerReddit: 
-
+twitter: bitoasis
+social:
+  - https://www.linkedin.com/company/bitoasis-technologies-fze
+  - https://www.facebook.com/bitoasis
 redirect_from:
-
 ---
 
 From its Google Play description:

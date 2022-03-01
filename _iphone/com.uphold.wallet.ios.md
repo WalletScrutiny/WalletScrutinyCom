@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: UpholdInc
-providerLinkedIn: upholdinc
-providerFacebook: UpholdInc
-providerReddit: 
-
-redirect_from:
-
+twitter: UpholdInc
+social:
+  - https://www.linkedin.com/company/upholdinc
+  - https://www.facebook.com/UpholdInc
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

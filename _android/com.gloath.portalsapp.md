@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.gloath.portalsapp/
 ---

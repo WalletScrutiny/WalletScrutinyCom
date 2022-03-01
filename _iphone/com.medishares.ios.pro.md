@@ -24,14 +24,8 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: Mathwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Mathwallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: tradewithpilot
-providerLinkedIn: 
-providerFacebook: tradewithpilot
-providerReddit: 
-
+twitter: tradewithpilot
+social:
+  - https://www.facebook.com/tradewithpilot
 redirect_from:
-
 ---
 
 ## App Description

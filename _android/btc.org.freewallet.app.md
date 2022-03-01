@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: Freewallet_org
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
+  - https://www.reddit.com/r/Freewallet_org
 redirect_from:
   - /btc.org.freewallet.app/
   - /posts/btc.org.freewallet.app/

@@ -25,14 +25,9 @@ verdict: fake
 date: 2021-08-06
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-08-04**: This app disappeared from the Play Store 2 days after our

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-04
 updated: 2019-12-27
 version: "1.0.0.60"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -24,14 +24,10 @@ verdict: fewusers
 date: 2021-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: AfinCoin
-providerLinkedIn: 
-providerFacebook: asianfintech
-providerReddit: 
-
+twitter: AfinCoin
+social:
+  - https://www.facebook.com/asianfintech
 redirect_from:
-
 ---
 
 <!-- nosource -->

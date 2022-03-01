@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
-providerTwitter: letskrypto
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: letskrypto
+social:
 redirect_from:
-
 ---
 
 The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.

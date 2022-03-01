@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: NominexExchange
-providerLinkedIn: nominex
-providerFacebook: Nominex
-providerReddit: 
-
+twitter: NominexExchange
+social:
+  - https://www.linkedin.com/company/nominex
+  - https://www.facebook.com/Nominex
 redirect_from:
-
 ---
 
 ## App Description

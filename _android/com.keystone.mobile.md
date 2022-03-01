@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-01
 updated: 2022-02-05
 version: "1.1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 45M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: KeystoneWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: KeystoneWallet
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-07**

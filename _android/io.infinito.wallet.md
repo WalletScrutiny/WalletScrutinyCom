@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-03-30
 signer: 
 reviewArchive:
-
-providerTwitter: Infinito_Ltd
-providerLinkedIn: infinitoservices
-providerFacebook: InfinitoWallet
-providerReddit: 
-
+twitter: Infinito_Ltd
+social:
+  - https://www.linkedin.com/company/infinitoservices
+  - https://www.facebook.com/InfinitoWallet
 redirect_from:
   - /io.infinito.wallet/
   - /posts/io.infinito.wallet/

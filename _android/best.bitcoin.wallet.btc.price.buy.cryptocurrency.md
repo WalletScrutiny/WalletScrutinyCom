@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-05-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app was removed from the Play Store before we got a chance to look into it.

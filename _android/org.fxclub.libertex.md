@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: libertex_latam
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: libertex_latam
+social:
 redirect_from:
-
 ---
 
 **Updated Analysis 2022-01-04**: 

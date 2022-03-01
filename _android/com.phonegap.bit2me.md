@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: bit2me
-providerLinkedIn: bit2me
-providerFacebook: bit2me
-providerReddit: 
-
+twitter: bit2me
+social:
+  - https://www.linkedin.com/company/bit2me
+  - https://www.facebook.com/bit2me
 redirect_from:
   - /com.phonegap.bit2me/
   - /posts/com.phonegap.bit2me/

@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: Oracle_Wallet
-providerLinkedIn: 
-providerFacebook: oracle8.org
-providerReddit: 
-
+twitter: Oracle_Wallet
+social:
+  - https://www.facebook.com/oracle8.org
 redirect_from:
-
 ---
 
 **Update 2022-01-19**: This app is not available anymore.

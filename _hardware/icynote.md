@@ -4,34 +4,31 @@ appId: icynote
 authors:
 - danny
 released: 2021-04-27
-discontinued: # date
+discontinued: 
 updated: 2021-07-11
-version: 0.7
+version: "0.7"
+binaries: 
 dimensions: 
 weight: 
+provider: "SMD Security Printing Sàrl"
+providerWebsite: https://www.smd-safe.com/
 website: https://www.icynote.ch/
 shop: 
-company: SMD Security Printing Sàrl
-companywebsite: https://www.smd-safe.com/
 country: CH
 price: 
 repository: 
-issue:
+issue: 
 icon: icynote.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: prefilled
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: icynoteofficial
-providerLinkedIn: 
-providerFacebook: Icynote-100908298821873
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: icynoteofficial
+social: 
+  - https://www.facebook.com/Icynote-100908298821873
 ---
-
 
 ## Private keys can be created offline 
 

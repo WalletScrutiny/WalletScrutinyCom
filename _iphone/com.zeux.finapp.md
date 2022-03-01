@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: ZeuxApp
-providerLinkedIn: zeux
-providerFacebook: Zeuxglobal
-providerReddit: 
-
-redirect_from:
-
+twitter: ZeuxApp
+social:
+  - https://www.linkedin.com/company/zeux
+  - https://www.facebook.com/Zeuxglobal
 ---
 
 {% include copyFromAndroid.html %}

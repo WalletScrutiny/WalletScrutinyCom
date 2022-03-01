@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: metalpaysme
-providerLinkedIn: 
-providerFacebook: metalpaysme
-providerReddit: MetalPay
-
-redirect_from:
-
+twitter: metalpaysme
+social:
+  - https://www.facebook.com/metalpaysme
+  - https://www.reddit.com/r/MetalPay
 ---
 
 {% include copyFromAndroid.html %}

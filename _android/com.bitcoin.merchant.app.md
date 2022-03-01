@@ -24,12 +24,10 @@ verdict: nowallet
 date: 2019-12-25
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoincom
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: btc
-
+twitter: bitcoincom
+social:
+  - https://www.facebook.com/buy.bitcoin.news
+  - https://www.reddit.com/r/btc
 redirect_from:
   - /com.bitcoin.merchant.app/
   - /posts/com.bitcoin.merchant.app/

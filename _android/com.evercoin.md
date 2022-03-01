@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-18
 signer: 
 reviewArchive:
-
-providerTwitter: everc0in
-providerLinkedIn: 
-providerFacebook: evercoin
-providerReddit: 
-
+twitter: everc0in
+social:
+  - https://www.facebook.com/evercoin
 redirect_from:
-
 ---
 
 This app's description says:

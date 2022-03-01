@@ -10,7 +10,7 @@ appCountry:
 released: 2018-05-02
 updated: 2020-08-19
 version: "1.0.51"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.0M
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.mk.cryptofolio/
   - /posts/com.mk.cryptofolio/

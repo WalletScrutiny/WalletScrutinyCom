@@ -23,14 +23,9 @@ verdict: ftbfs
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: btccom_official
-providerLinkedIn: 
-providerFacebook: btccom
-providerReddit: 
-
-redirect_from:
-
+twitter: btccom_official
+social:
+  - https://www.facebook.com/btccom
 ---
 
 {% include copyFromAndroid.html %}

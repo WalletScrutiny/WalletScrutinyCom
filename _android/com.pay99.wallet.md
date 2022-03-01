@@ -10,7 +10,7 @@ appCountry: br
 released: 2021-09-23
 updated: 2022-02-21
 version: "7.1.8"
-stars: 2.0
+stars: 2
 ratings: 4563
 reviews: 3877
 size: 78M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: voude99
-providerLinkedIn: 99app
-providerFacebook: voude99
-providerReddit: 
-
+twitter: voude99
+social:
+  - https://www.linkedin.com/company/99app
+  - https://www.facebook.com/voude99
 redirect_from:
-
 ---
 
 This is the payment app for the ride sharing app "99" which is popular in

@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: beldexcoin
-providerLinkedIn: beldex-coin
-providerFacebook: beldexofficial
-providerReddit: 
-
+twitter: beldexcoin
+social:
+  - https://www.linkedin.com/company/beldex-coin
+  - https://www.facebook.com/beldexofficial
 redirect_from:
-
 ---
 
 **Update 2021-11-16**: This app is not on Play Store anymore.

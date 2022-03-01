@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: capitalcom
-providerLinkedIn: capital.com
-providerFacebook: capitalcom
-providerReddit: 
-
+twitter: capitalcom
+social:
+  - https://www.linkedin.com/company/capital.com
+  - https://www.facebook.com/capitalcom
 redirect_from:
-
 ---
 
 > Capital.com is here to change your entire trading experience. We provide an award-winning* free online trading app** and easy-to-use platform, designed to make trading smarter, simpler and more intuitive.

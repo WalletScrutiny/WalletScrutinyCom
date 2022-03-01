@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-23
 signer: 
 reviewArchive:
-
-providerTwitter: VisionCryptoApp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: VisionCryptoApp
+social:
 redirect_from:
-
 ---
 
 We do not have to look far to find the wallet claims to be non-custodial.

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: swissborg
-providerLinkedIn: swissborg
-providerFacebook: swissborg
-providerReddit: 
-
+twitter: swissborg
+social:
+  - https://www.linkedin.com/company/swissborg
+  - https://www.facebook.com/swissborg
 redirect_from:
-
 ---
 
 [Swissborg has provided a Youtube tutorial for withdrawing cryptocurrencies from their product.](https://www.youtube.com/watch?v=e7CwCbX0AbE)

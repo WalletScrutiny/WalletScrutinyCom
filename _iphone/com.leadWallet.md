@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: leadwallet
-providerLinkedIn: leadwallet
-providerFacebook: 
-providerReddit: LeadWallet
-
-redirect_from:
-
+twitter: leadwallet
+social:
+  - https://www.linkedin.com/company/leadwallet
+  - https://www.reddit.com/r/LeadWallet
 ---
 
 {% include copyFromAndroid.html %}

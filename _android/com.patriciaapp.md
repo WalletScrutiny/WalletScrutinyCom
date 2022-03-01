@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: PatriciaSwitch
-providerLinkedIn: 
-providerFacebook: patricia.com.ng
-providerReddit: 
-
+twitter: PatriciaSwitch
+social:
+  - https://www.facebook.com/patricia.com.ng
 redirect_from:
-
 ---
 
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!

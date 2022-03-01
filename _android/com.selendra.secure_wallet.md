@@ -24,14 +24,10 @@ verdict: nonverifiable
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: SelendraChain
-providerLinkedIn: selendrachain
-providerFacebook: 
-providerReddit: 
-
+twitter: SelendraChain
+social:
+  - https://www.linkedin.com/company/selendrachain
 redirect_from:
-
 ---
 
 ## App Description

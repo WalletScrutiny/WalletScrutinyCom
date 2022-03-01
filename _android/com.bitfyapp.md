@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-10-14
 updated: 2022-02-25
 version: "3.10.26"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 33M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: bitfyapp
-providerLinkedIn: 
-providerFacebook: bitfyapp
-providerReddit: 
-
+twitter: bitfyapp
+social:
+  - https://www.facebook.com/bitfyapp
 redirect_from:
-
 ---
 
 Bitfy is a Brazilian app that claims to have a:

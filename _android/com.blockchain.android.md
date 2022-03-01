@@ -24,14 +24,9 @@ verdict: obfuscated
 date: 2021-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update:** This wallet is no more but never looked too likely to stay around

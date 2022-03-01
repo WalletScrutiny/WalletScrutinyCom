@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: BittrexGlobal
-providerLinkedIn: 
-providerFacebook: BittrexGlobal
-providerReddit: 
-
+twitter: BittrexGlobal
+social:
+  - https://www.facebook.com/BittrexGlobal
 redirect_from:
-
 ---
 
 This app is an interface to a trading platform:

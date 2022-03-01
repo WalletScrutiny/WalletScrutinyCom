@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: moonstake
-providerLinkedIn: moonstake
-providerFacebook: moonstakekorea
-providerReddit: 
-
-redirect_from:
-
+twitter: moonstake
+social:
+  - https://www.linkedin.com/company/moonstake
+  - https://www.facebook.com/moonstakekorea
 ---
 
 {% include copyFromAndroid.html %}

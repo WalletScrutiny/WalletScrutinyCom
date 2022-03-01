@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: Indie_Square
-providerLinkedIn: 
-providerFacebook: indiesquare.me
-providerReddit: 
-
-redirect_from:
-
+twitter: Indie_Square
+social:
+  - https://www.facebook.com/indiesquare.me
 ---
 
 {% include copyFromAndroid.html %}

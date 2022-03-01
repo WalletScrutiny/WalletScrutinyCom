@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: Wealthsimple
-providerLinkedIn: 
-providerFacebook: wealthsimple
-providerReddit: 
-
-redirect_from:
-
+twitter: Wealthsimple
+social:
+  - https://www.facebook.com/wealthsimple
 ---
 
 {% include copyFromAndroid.html %}

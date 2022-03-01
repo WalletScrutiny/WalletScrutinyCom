@@ -10,7 +10,7 @@ appCountry:
 released: 2011-03-01
 updated: 2021-12-19
 version: "Varies with device"
-stars: 4.0
+stars: 4
 ratings: 29247
 reviews: 1704
 size: Varies with device
@@ -149,11 +149,8 @@ reviewArchive:
   appHash: 
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /schildbach/
   - /de.schildbach.wallet/

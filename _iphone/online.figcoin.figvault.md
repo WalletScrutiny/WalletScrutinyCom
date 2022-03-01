@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2022-01-19**: This app is not available anymore.

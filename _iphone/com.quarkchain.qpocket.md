@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-11-29
 signer: 
 reviewArchive:
-
-providerTwitter: qPocket_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: qPocket_wallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

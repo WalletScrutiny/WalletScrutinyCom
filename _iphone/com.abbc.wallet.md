@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-02-03
 signer: 
 reviewArchive:
-
-providerTwitter: abbcfoundation
-providerLinkedIn: abbcfoundation
-providerFacebook: abbcfoundation
-providerReddit: 
-
-redirect_from:
-
+twitter: abbcfoundation
+social:
+  - https://www.linkedin.com/company/abbcfoundation
+  - https://www.facebook.com/abbcfoundation
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: BitrueOfficial
-providerLinkedIn: 
-providerFacebook: BitrueOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: BitrueOfficial
+social:
+  - https://www.facebook.com/BitrueOfficial
 ---
 
 This app is heavily focused on the "exchange" part which is also in its name.

@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiGlobal
-providerLinkedIn: 
-providerFacebook: huobiglobalofficial
-providerReddit: 
-
+twitter: HuobiGlobal
+social:
+  - https://www.facebook.com/huobiglobalofficial
 redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/

@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-08
 signer: 
 reviewArchive:
-
-providerTwitter: Vauld_
-providerLinkedIn: vauld
-providerFacebook: VauldOfficial
-providerReddit: BankofHodlers
-
-redirect_from:
-
+twitter: Vauld_
+social:
+  - https://www.linkedin.com/company/vauld
+  - https://www.facebook.com/VauldOfficial
+  - https://www.reddit.com/r/BankofHodlers
 ---
 
 The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>

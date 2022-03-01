@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: easymarkets
-providerLinkedIn: easymarkets
-providerFacebook: easyMarkets
-providerReddit: 
-
+twitter: easymarkets
+social:
+  - https://www.linkedin.com/company/easymarkets
+  - https://www.facebook.com/easyMarkets
 redirect_from:
-
 ---
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.

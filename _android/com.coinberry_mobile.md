@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: CoinberryHQ
-providerLinkedIn: coinberry
-providerFacebook: CoinberryOfficial
-providerReddit: 
-
+twitter: CoinberryHQ
+social:
+  - https://www.linkedin.com/company/coinberry
+  - https://www.facebook.com/CoinberryOfficial
 redirect_from:
-
 ---
 
 [In their official website](https://www.coinberry.com/learn/crypto-storage-guide), Coinberry directly states that their app is custodial.

@@ -30,13 +30,10 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nobtc
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 redirect_from:
-
 ---
 
 ### App Description

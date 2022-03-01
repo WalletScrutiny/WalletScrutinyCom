@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: jackocoins
-providerLinkedIn: 
-providerFacebook: jackocoins
-providerReddit: 
-
+twitter: jackocoins
+social:
+  - https://www.facebook.com/jackocoins
 redirect_from:
-
 ---
 
 ## App Description

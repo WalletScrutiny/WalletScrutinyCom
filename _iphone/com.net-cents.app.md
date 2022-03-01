@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: netcentshq
-providerLinkedIn: net-cents
-providerFacebook: NetCentsHQ
-providerReddit: 
-
-redirect_from:
-
+twitter: netcentshq
+social:
+  - https://www.linkedin.com/company/net-cents
+  - https://www.facebook.com/NetCentsHQ
 ---
 
 {%include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: trustkeysglobal
-providerLinkedIn: 
-providerFacebook: trustkeys.network
-providerReddit: 
-
+twitter: trustkeysglobal
+social:
+  - https://www.facebook.com/trustkeys.network
 redirect_from:
-
 ---
 
 ## App Description

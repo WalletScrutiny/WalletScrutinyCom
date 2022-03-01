@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: gemini
-providerLinkedIn: geminitrust
-providerFacebook: GeminiTrust
-providerReddit: 
-
-redirect_from:
-
+twitter: gemini
+social:
+  - https://www.linkedin.com/company/geminitrust
+  - https://www.facebook.com/GeminiTrust
 ---
 
 This provider being an exchange, together with the lack of clear words of who

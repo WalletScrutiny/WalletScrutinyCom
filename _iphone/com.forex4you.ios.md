@@ -28,13 +28,8 @@ reviewArchive:
   appHash: 
   gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
   verdict: nosendreceive
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: iSafePal
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: iSafePal
+social:
 redirect_from:
-
 ---
 
 **Update 2021-04-26**: Now some months after the original review, Google finds

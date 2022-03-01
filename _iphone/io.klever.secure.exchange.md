@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: klever_io
-providerLinkedIn: klever-app
-providerFacebook: klever.io
-providerReddit: 
-
-redirect_from:
-
+twitter: klever_io
+social:
+  - https://www.linkedin.com/company/klever-app
+  - https://www.facebook.com/klever.io
 ---
 
 {% include copyFromAndroid.html %}

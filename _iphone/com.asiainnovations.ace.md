@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: ace.exchange.tw
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/ace.exchange.tw
 ---
 
 {% include copyFromAndroid.html %}

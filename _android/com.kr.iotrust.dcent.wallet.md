@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-05-03
 signer: 
 reviewArchive:
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
-
+twitter: DCENTwallets
+social:
+  - https://www.facebook.com/DcentWalletGlobal
 redirect_from:
-
 ---
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>

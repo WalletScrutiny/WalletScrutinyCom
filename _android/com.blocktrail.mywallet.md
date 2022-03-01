@@ -24,14 +24,10 @@ verdict: ftbfs
 date: 2021-12-29
 signer: 
 reviewArchive:
-
-providerTwitter: btccom_official
-providerLinkedIn: 
-providerFacebook: btccom
-providerReddit: 
-
+twitter: btccom_official
+social:
+  - https://www.facebook.com/btccom
 redirect_from:
-
 ---
 
 This app claims:

@@ -24,12 +24,10 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: VidulumApp
-providerLinkedIn: 
-providerFacebook: VidulumTeam
-providerReddit: VidulumOfficial
-
+twitter: VidulumApp
+social:
+  - https://www.facebook.com/VidulumTeam
+  - https://www.reddit.com/r/VidulumOfficial
 redirect_from:
   - /com.vidulumwallet.app/
   - /posts/com.vidulumwallet.app/

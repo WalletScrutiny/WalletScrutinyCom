@@ -11,7 +11,7 @@ appCountry:
 released: 2017-04-18
 updated: 2021-10-14
 version: "Varies with device"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -25,14 +25,9 @@ verdict: nonverifiable
 date: 2021-04-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).

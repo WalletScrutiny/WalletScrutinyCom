@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-01
 signer: 
 reviewArchive:
-
-providerTwitter: easymarkets
-providerLinkedIn: easymarkets
-providerFacebook: easyMarkets
-providerReddit: 
-
-redirect_from:
-
+twitter: easymarkets
+social:
+  - https://www.linkedin.com/company/easymarkets
+  - https://www.facebook.com/easyMarkets
 ---
 
 {% include copyFromAndroid.html %}

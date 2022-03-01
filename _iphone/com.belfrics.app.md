@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Belfrics
-providerLinkedIn: 
-providerFacebook: Belfrics
-providerReddit: 
-
-redirect_from:
-
+twitter: Belfrics
+social:
+  - https://www.facebook.com/Belfrics
 ---
 
 {% include copyFromAndroid.html %}

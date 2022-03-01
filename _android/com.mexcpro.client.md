@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: MEXC_Global
-providerLinkedIn: mexcglobal
-providerFacebook: mexcglobal
-providerReddit: MXCexchange
-
+twitter: MEXC_Global
+social:
+  - https://www.linkedin.com/company/mexcglobal
+  - https://www.facebook.com/mexcglobal
+  - https://www.reddit.com/r/MXCexchange
 redirect_from:
-
 ---
 
 > As a world’s leading digital asset trading platform, MEXC Exchange is committed to providing users safer, smarter and more convenient digital-asset trading and management services.

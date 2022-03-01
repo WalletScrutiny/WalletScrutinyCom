@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: wanchain_org
-providerLinkedIn: 
-providerFacebook: wanchainfoundation
-providerReddit: wanchain
-
+twitter: wanchain_org
+social:
+  - https://www.facebook.com/wanchainfoundation
+  - https://www.reddit.com/r/wanchain
 redirect_from:
-
 ---
 
 **UPDATE 2021-11-23** There's no source code for the android app on Github, making the app **not verifiable.**

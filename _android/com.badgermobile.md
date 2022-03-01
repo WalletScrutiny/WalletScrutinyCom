@@ -24,12 +24,9 @@ verdict: nobtc
 date: 2019-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: badgerwallet
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: 
-
+twitter: badgerwallet
+social:
+  - https://www.facebook.com/buy.bitcoin.news
 redirect_from:
   - /com.badgermobile/
   - /posts/com.badgermobile/

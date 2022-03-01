@@ -10,7 +10,7 @@ appCountry: us
 released: 2017-11-03
 updated: 2021-10-29
 version: "2.0.28"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.0M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: stratumhk
-providerLinkedIn: stratumbr
-providerFacebook: stratum.hk
-providerReddit: 
-
+twitter: stratumhk
+social:
+  - https://www.linkedin.com/company/stratumbr
+  - https://www.facebook.com/stratum.hk
 redirect_from:
-
 ---
 
 ### Google Play

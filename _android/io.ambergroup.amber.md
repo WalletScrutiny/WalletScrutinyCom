@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: ambergroup_io
-providerLinkedIn: amberbtc
-providerFacebook: ambergroup.io
-providerReddit: 
-
+twitter: ambergroup_io
+social:
+  - https://www.linkedin.com/company/amberbtc
+  - https://www.facebook.com/ambergroup.io
 redirect_from:
-
 ---
 
 The app is a crypto investment app that allows users to: 

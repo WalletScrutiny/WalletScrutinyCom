@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: AsiaBroadband
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: AsiaBroadband
+social:
 redirect_from:
-
 ---
 
 ## App Description

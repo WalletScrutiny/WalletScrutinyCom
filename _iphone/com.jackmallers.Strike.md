@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
-providerTwitter: ln_strike
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ln_strike
+social:
 ---
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets

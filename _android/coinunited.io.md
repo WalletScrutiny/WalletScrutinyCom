@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: realcoinunited
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: realcoinunited
+social:
 redirect_from:
-
 ---
 
 ## App Description

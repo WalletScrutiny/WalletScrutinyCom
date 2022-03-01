@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-12-05
 signer: 
 reviewArchive:
-
-providerTwitter: Roinvesting
-providerLinkedIn: roinvesting
-providerFacebook: ROInvesting
-providerReddit: 
-
-redirect_from:
-
+twitter: Roinvesting
+social:
+  - https://www.linkedin.com/company/roinvesting
+  - https://www.facebook.com/ROInvesting
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

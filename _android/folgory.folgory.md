@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: folgory1
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: folgory1
+social:
 redirect_from:
-
 ---
 
 The app has multiple negative reviews from way back in April 2021. 

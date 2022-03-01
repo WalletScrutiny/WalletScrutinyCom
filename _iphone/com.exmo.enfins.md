@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
-providerTwitter: Exmo_com
-providerLinkedIn: 
-providerFacebook: exmo.market
-providerReddit: 
-
-redirect_from:
-
+twitter: Exmo_com
+social:
+  - https://www.facebook.com/exmo.market
 ---
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my

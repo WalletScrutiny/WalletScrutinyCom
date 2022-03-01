@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
-providerTwitter: ownrwallet
-providerLinkedIn: 
-providerFacebook: ownrwallet
-providerReddit: ownrwallet
-
+twitter: ownrwallet
+social:
+  - https://www.facebook.com/ownrwallet
+  - https://www.reddit.com/r/ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---

@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
-providerTwitter: coinsph
-providerLinkedIn: coins-ph
-providerFacebook: coinsph
-providerReddit: 
-
+twitter: coinsph
+social:
+  - https://www.linkedin.com/company/coins-ph
+  - https://www.facebook.com/coinsph
 redirect_from:
   - /coinsph/
   - /asia.coins.mobile/

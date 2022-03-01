@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: kriptomat
-providerLinkedIn: kriptomat
-providerFacebook: kriptomat.io
-providerReddit: 
-
-redirect_from:
-
+twitter: kriptomat
+social:
+  - https://www.linkedin.com/company/kriptomat
+  - https://www.facebook.com/kriptomat.io
 ---
 
 {% include copyFromAndroid.html %}

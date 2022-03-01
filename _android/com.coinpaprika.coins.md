@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: CoinsOneApp
-providerLinkedIn: 
-providerFacebook: CoinsOneApp
-providerReddit: 
-
+twitter: CoinsOneApp
+social:
+  - https://www.facebook.com/CoinsOneApp
 redirect_from:
-
 ---
 
 From the Google Play app description: 

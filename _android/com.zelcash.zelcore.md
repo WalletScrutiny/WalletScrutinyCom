@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-21
 updated: 2022-02-18
 version: "5.12.0"
-stars: 4.0
+stars: 4
 ratings: 834
 reviews: 100
 size: 17M
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2020-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: zelcash
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: ZelCash
-
+twitter: zelcash
+social:
+  - https://www.reddit.com/r/ZelCash
 redirect_from:
   - /com.zelcash.zelcore/
   - /posts/com.zelcash.zelcore/

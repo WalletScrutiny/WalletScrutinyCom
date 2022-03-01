@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: ProBit_Exchange
-providerLinkedIn: 
-providerFacebook: probitexchange
-providerReddit: 
-
+twitter: ProBit_Exchange
+social:
+  - https://www.facebook.com/probitexchange
 redirect_from:
-
 ---
 
 This app appears to be a Korean crypto exchange:

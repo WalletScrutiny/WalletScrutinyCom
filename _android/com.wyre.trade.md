@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: wyretrade
-providerLinkedIn: 
-providerFacebook: Wyretrade-105994018302814
-providerReddit: 
-
+twitter: wyretrade
+social:
+  - https://www.facebook.com/Wyretrade-105994018302814
 redirect_from:
-
 ---
 
 ## App Description

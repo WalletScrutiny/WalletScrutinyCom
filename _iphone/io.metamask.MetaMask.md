@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 This is an ETH-only app and thus not a Bitcoin wallet.

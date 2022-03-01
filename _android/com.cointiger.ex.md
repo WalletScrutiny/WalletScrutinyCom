@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: CoinTigerEX
-providerLinkedIn: 
-providerFacebook: CoinTigerEX
-providerReddit: CoinTigerExchange
-
+twitter: CoinTigerEX
+social:
+  - https://www.facebook.com/CoinTigerEX
+  - https://www.reddit.com/r/CoinTigerExchange
 redirect_from:
-
 ---
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)

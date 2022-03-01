@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: AAXExchange
-providerLinkedIn: aax-atom-asset-exchange
-providerFacebook: AAXExchange
-providerReddit: AAXExchange
-
+twitter: AAXExchange
+social:
+  - https://www.linkedin.com/company/aax-atom-asset-exchange
+  - https://www.facebook.com/AAXExchange
+  - https://www.reddit.com/r/AAXExchange
 redirect_from:
-
 ---
 
 AAX Exchange has the following products:

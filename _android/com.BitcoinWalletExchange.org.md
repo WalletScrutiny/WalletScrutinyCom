@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 There is no statement regarding how private keys are managed in the play store description.

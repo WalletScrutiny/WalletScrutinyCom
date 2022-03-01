@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCola_Global
-providerLinkedIn: coincola
-providerFacebook: CoinCola
-providerReddit: coincolaofficial
-
-redirect_from:
-
+twitter: CoinCola_Global
+social:
+  - https://www.linkedin.com/company/coincola
+  - https://www.facebook.com/CoinCola
+  - https://www.reddit.com/r/coincolaofficial
 ---
 
 > SAFE AND SECURE<br>

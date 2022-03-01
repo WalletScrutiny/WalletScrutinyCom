@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiWallet
-providerLinkedIn: 
-providerFacebook: HuobiWallet
-providerReddit: 
-
+twitter: HuobiWallet
+social:
+  - https://www.facebook.com/HuobiWallet
 redirect_from:
-
 ---
 
 From the description of the play store app the wallet provider clearly states the private keys are in control of the user....

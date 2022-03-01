@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **NOTE: DueDEX has retired.**

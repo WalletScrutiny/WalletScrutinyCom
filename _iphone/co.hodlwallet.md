@@ -23,14 +23,9 @@ verdict: nonverifiable
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: hodlwallet
-providerLinkedIn: 
-providerFacebook: hodlwallet
-providerReddit: 
-
-redirect_from:
-
+twitter: hodlwallet
+social:
+  - https://www.facebook.com/hodlwallet
 ---
 
 On the App Store the provider claims:

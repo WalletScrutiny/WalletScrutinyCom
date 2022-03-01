@@ -24,12 +24,9 @@ verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-
-providerTwitter: Lumi_wallet
-providerLinkedIn: 
-providerFacebook: lumiwallet
-providerReddit: 
-
+twitter: Lumi_wallet
+social:
+  - https://www.facebook.com/lumiwallet
 redirect_from:
   - /com.lumiwallet.android/
   - /posts/com.lumiwallet.android/

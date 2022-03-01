@@ -23,14 +23,8 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: BlockHebe
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: BlockHebe
+social:
 ---
 
 {% include copyFromAndroid.html %}

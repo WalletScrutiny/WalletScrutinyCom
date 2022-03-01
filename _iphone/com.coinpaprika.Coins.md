@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: CoinsOneApp
-providerLinkedIn: 
-providerFacebook: CoinsOneApp
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinsOneApp
+social:
+  - https://www.facebook.com/CoinsOneApp
 ---
 
 {% include copyFromAndroid.html %}

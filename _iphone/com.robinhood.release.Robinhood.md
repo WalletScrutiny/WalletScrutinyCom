@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: RobinhoodApp
-providerLinkedIn: robinhood
-providerFacebook: robinhoodapp
-providerReddit: 
-
-redirect_from:
-
+twitter: RobinhoodApp
+social:
+  - https://www.linkedin.com/company/robinhood
+  - https://www.facebook.com/robinhoodapp
 ---
 
 {% include copyFromAndroid.html %}

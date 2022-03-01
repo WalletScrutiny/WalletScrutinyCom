@@ -23,14 +23,8 @@ verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: abitofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: abitofficial
+social:
 ---
 
 {% include copyFromAndroid.html %}

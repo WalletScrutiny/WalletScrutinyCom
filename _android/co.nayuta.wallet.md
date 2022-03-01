@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2019-12-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app disappeared from Google Play before we got to have a look at it. With

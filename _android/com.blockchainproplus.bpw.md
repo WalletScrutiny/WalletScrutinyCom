@@ -24,14 +24,9 @@ verdict: obfuscated
 date: 2021-07-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app claims to be a server-less and self-custodial Bitcoin wallet. We were

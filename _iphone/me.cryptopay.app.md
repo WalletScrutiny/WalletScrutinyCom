@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
-providerTwitter: cryptopay
-providerLinkedIn: cryptopay
-providerFacebook: cryptopayme
-providerReddit: 
-
-redirect_from:
-
+twitter: cryptopay
+social:
+  - https://www.linkedin.com/company/cryptopay
+  - https://www.facebook.com/cryptopayme
 ---
 
 In the description the only sentence hinting at custodianship is:

@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
-providerTwitter: SwftCoin
-providerLinkedIn: swftcoin
-providerFacebook: SWFTBlockchain
-providerReddit: 
-
+twitter: SwftCoin
+social:
+  - https://www.linkedin.com/company/swftcoin
+  - https://www.facebook.com/SWFTBlockchain
 redirect_from:
   - /com.swftcoin.client.android/
   - /posts/com.swftcoin.client.android/

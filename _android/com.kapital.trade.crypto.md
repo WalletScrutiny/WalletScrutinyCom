@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: crypterium
-providerLinkedIn: 
-providerFacebook: crypterium.org
-providerReddit: 
-
-redirect_from:
-
+twitter: crypterium
+social:
+  - https://www.facebook.com/crypterium.org
 ---
 
 Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):

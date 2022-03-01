@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: savl.official
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/savl.official
 ---
 
 {% include copyFromAndroid.html %}

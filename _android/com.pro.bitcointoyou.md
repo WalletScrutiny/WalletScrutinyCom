@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: bitcointoyou
-providerLinkedIn: bitcointoyou
-providerFacebook: Bitcointoyou
-providerReddit: 
-
+twitter: bitcointoyou
+social:
+  - https://www.linkedin.com/company/bitcointoyou
+  - https://www.facebook.com/Bitcointoyou
 redirect_from:
-
 ---
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.

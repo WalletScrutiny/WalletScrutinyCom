@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: YourBTCC
-providerLinkedIn: yourbtcc
-providerFacebook: yourbtcc
-providerReddit: YourBTCC
-
-redirect_from:
-
+twitter: YourBTCC
+social:
+  - https://www.linkedin.com/company/yourbtcc
+  - https://www.facebook.com/yourbtcc
+  - https://www.reddit.com/r/YourBTCC
 ---
 
  {% include copyFromAndroid.html %}

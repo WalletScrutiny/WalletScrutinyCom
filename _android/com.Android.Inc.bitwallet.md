@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: bitwalletinc
-providerLinkedIn: 
-providerFacebook: BitWalletInc
-providerReddit: 
-
+twitter: bitwalletinc
+social:
+  - https://www.facebook.com/BitWalletInc
 redirect_from:
   - /com.Android.Inc.bitwallet/
   - /posts/com.Android.Inc.bitwallet/

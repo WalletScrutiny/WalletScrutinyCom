@@ -30,13 +30,11 @@ reviewArchive:
   appHash: 
   gitRevision: ef345dd316ca2a0ef9a19f23680a94e1a42fd171
   verdict: nowallet
-providerTwitter: WazirxIndia
-providerLinkedIn: wazirx
-providerFacebook: wazirx
-providerReddit: 
-
+twitter: WazirxIndia
+social:
+  - https://www.linkedin.com/company/wazirx
+  - https://www.facebook.com/wazirx
 redirect_from:
-
 ---
 
 **Update 2021-08-09**: As this exchange allows holding your BTC in the app such

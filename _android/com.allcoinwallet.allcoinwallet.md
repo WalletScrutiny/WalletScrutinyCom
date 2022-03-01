@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Unfortunately, it's hard to get any additional info on this wallet. While the app links to a [website](http://www.allcoinwallet.com) on its Google Play page, it appears to be inaccessible and returns an nxdomain error. There's no information on the developers either.

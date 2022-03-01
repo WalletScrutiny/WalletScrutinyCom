@@ -23,14 +23,9 @@ verdict: ftbfs
 date: 2021-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: HexaWallet
-providerLinkedIn: bithyve
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: HexaWallet
+social:
+  - https://www.linkedin.com/company/bithyve
 ---
 
 {% include copyFromAndroid.html %}

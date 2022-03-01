@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: DiDimessage
-providerLinkedIn: 
-providerFacebook: DiDi-Message-105506995020030
-providerReddit: 
-
+twitter: DiDimessage
+social:
+  - https://www.facebook.com/DiDi-Message-105506995020030
 redirect_from:
-
 ---
 
 ## App Description

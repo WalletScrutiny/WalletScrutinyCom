@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: AvaTrade
-providerLinkedIn: AvaTrade
-providerFacebook: AvaTrade
-providerReddit: 
-
+twitter: AvaTrade
+social:
+  - https://www.linkedin.com/company/AvaTrade
+  - https://www.facebook.com/AvaTrade
 redirect_from:
-
 ---
 
 >AvaTradeGO enables users to trade, monitor their accounts, engage in social trading and follow top traders from all over the globe.

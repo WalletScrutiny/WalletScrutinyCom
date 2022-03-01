@@ -4,34 +4,30 @@ appId: jaxxicecube
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Decentral"
+providerWebsite: https://decentral.ca/
 website: https://jaxx.io/
-shop:
-company: Decentral
-companywebsite: https://decentral.ca/
+shop: 
 country: CA
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: jaxxicecube.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: jaxx_io
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: jaxx_io
+social: 
 ---
-
 
 ## Advertised Features
 

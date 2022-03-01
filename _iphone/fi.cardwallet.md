@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: CardWallet_fi
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: CardWallet_fi
+social:
 ---
 
 {% include copyFromAndroid.html %}

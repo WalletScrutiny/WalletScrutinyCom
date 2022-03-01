@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: remitano
-providerLinkedIn: Remitano
-providerFacebook: remitano
-providerReddit: 
-
+twitter: remitano
+social:
+  - https://www.linkedin.com/company/Remitano
+  - https://www.facebook.com/remitano
 redirect_from:
   - /posts/com.remitano.remitano/
 ---

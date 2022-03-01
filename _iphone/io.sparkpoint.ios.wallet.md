@@ -23,14 +23,11 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: sparkpointio
-providerLinkedIn: sparkpointio
-providerFacebook: sparkpointio
-providerReddit: SparkPoint
-
-redirect_from:
-
+twitter: sparkpointio
+social:
+  - https://www.linkedin.com/company/sparkpointio
+  - https://www.facebook.com/sparkpointio
+  - https://www.reddit.com/r/SparkPoint
 ---
 
 {% include copyFromAndroid.html %}

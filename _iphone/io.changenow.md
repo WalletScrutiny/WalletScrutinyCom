@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: ChangeNOW_io
-providerLinkedIn: 
-providerFacebook: ChangeNOW.io
-providerReddit: ChangeNOW_io
-
-redirect_from:
-
+twitter: ChangeNOW_io
+social:
+  - https://www.facebook.com/ChangeNOW.io
+  - https://www.reddit.com/r/ChangeNOW_io
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

@@ -24,14 +24,10 @@ verdict: custodial
 date: 2019-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 redirect_from:
-
 ---
 
 According to the description

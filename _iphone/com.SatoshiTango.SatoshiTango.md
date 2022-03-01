@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: satoshitango
-providerLinkedIn: 
-providerFacebook: satoshitangoargentina
-providerReddit: 
-
-redirect_from:
-
+twitter: satoshitango
+social:
+  - https://www.facebook.com/satoshitangoargentina
 ---
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and

@@ -24,12 +24,10 @@ verdict: nowallet
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: Ledger
-providerLinkedIn: ledgerhq
-providerFacebook: Ledger
-providerReddit: 
-
+twitter: Ledger
+social:
+  - https://www.linkedin.com/company/ledgerhq
+  - https://www.facebook.com/Ledger
 redirect_from:
   - /com.ledger.live/
 ---

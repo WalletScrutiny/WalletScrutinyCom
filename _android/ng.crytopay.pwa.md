@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-20
 updated: 2020-10-22
 version: "3.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.1M
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

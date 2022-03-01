@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: xtbuk
-providerLinkedIn: xtb-international
-providerFacebook: xtb
-providerReddit: 
-
+twitter: xtbuk
+social:
+  - https://www.linkedin.com/company/xtb-international
+  - https://www.facebook.com/xtb
 redirect_from:
-
 ---
 
 The app description:

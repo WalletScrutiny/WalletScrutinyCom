@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: TizerWallet
-providerLinkedIn: tizer-wallet
-providerFacebook: tizerwallet
-providerReddit: 
-
-redirect_from:
-
+twitter: TizerWallet
+social:
+  - https://www.linkedin.com/company/tizer-wallet
+  - https://www.facebook.com/tizerwallet
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,8 @@ verdict: ftbfs
 date: 2021-12-29
 signer: 
 reviewArchive:
-
-providerTwitter: HexaWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: HexaWallet
+social:
 ---
 
 **Update 2021-12-29**: As the name implies, this app was deprecated by its

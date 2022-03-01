@@ -23,14 +23,8 @@ verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: zengo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: zengo
+social:
 ---
 
 On their website we find:

@@ -25,12 +25,8 @@ verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: zengo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: zengo
+social:
 redirect_from:
   - /com.zengo.wallet/
   - /posts/com.zengo.wallet/

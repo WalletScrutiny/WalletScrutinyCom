@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: TizerWallet
-providerLinkedIn: tizer-wallet
-providerFacebook: tizerwallet
-providerReddit: 
-
+twitter: TizerWallet
+social:
+  - https://www.linkedin.com/company/tizer-wallet
+  - https://www.facebook.com/tizerwallet
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2022-01-06
 signer: 
 reviewArchive:
-
-providerTwitter: Trading4Pro
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Trading4Pro
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: CoinberryHQ
-providerLinkedIn: coinberry
-providerFacebook: CoinberryOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinberryHQ
+social:
+  - https://www.linkedin.com/company/coinberry
+  - https://www.facebook.com/CoinberryOfficial
 ---
 
 {% include copyFromAndroid.html %}

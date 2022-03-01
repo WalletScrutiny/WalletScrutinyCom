@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: btcturkpro
-providerLinkedIn: btcturk
-providerFacebook: btcturk
-providerReddit: 
-
+twitter: btcturkpro
+social:
+  - https://www.linkedin.com/company/btcturk
+  - https://www.facebook.com/btcturk
 redirect_from:
-
 ---
 
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.

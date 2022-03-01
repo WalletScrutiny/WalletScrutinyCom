@@ -24,12 +24,9 @@ verdict: nosource
 date: 2020-08-04
 signer: 
 reviewArchive:
-
-providerTwitter: flarewallet
-providerLinkedIn: 
-providerFacebook: FlareWallet
-providerReddit: 
-
+twitter: flarewallet
+social:
+  - https://www.facebook.com/FlareWallet
 redirect_from:
   - /com.flare/
   - /posts/com.flare/

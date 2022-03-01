@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Poloniex
-providerLinkedIn: 
-providerFacebook: poloniex
-providerReddit: 
-
+twitter: Poloniex
+social:
+  - https://www.facebook.com/poloniex
 redirect_from:
   - /com.plunien.poloniex/
   - /posts/com.plunien.poloniex/

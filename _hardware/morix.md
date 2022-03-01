@@ -1,37 +1,33 @@
 ---
 title: "Morix Wallet Card"
-appId: morixwalletcard
+appId: morix
 authors:
 - danny
 released: 2020-07-15
-discontinued: # date
+discontinued: 
 updated: 
-version:
-dimensions: [85.0, 54.0, 2.2]
+version: 
+binaries: 
+dimensions: [85, 54, 2.2]
 weight: 140
+provider: "MoriX Co., Ltd.‬"
+providerWebsite: https://morixjp.com/
 website: https://morixjp.com/eng/products/walletcard
 shop: https://www.amazon.co.jp/dp/B08DNN7LGK
-company: MoriX Co., Ltd.‬
-companywebsite: https://morixjp.com/
 country: JP
 price: 27000JPY
-repository:
-issue:
-icon: morixwalletcard.png
-bugbounty:
-meta: 
-verdict: plainkey  
+repository: 
+issue: 
+icon: morix.png
+bugbounty: 
+meta: ok
+verdict: plainkey
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: MoriXjp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: MoriXjp
+social: 
 ---
-
 
 ## Advertised Features
 

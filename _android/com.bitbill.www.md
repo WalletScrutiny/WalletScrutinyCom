@@ -24,12 +24,8 @@ verdict: nosource
 date: 2020-04-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.bitbill.www/
   - /posts/com.bitbill.www/

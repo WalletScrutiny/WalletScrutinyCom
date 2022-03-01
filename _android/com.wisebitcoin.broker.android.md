@@ -10,7 +10,7 @@ appCountry: cn
 released: 2021-01-04
 updated: 2021-11-16
 version: "3.7.4"
-stars: 4.0
+stars: 4
 ratings: 116
 reviews: 72
 size: 32M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: wisebitcoin
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: wisebitcoin
+social:
 redirect_from:
-
 ---
 
 ## App Description

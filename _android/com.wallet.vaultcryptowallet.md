@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-18
 updated: 2022-02-18
 version: "1.0.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 17M
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: Bitcoin-Pay-110590501255347
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/Bitcoin-Pay-110590501255347
 redirect_from:
-
 ---
 
 **Notes:** Vault Crypto Wallet's Google Play page links to [bitcoinpay.com.co](https://bitcoinpay.com.co)

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: PundiXLabs
-providerLinkedIn: pundix
-providerFacebook: pundixlabs
-providerReddit: 
-
-redirect_from:
-
+twitter: PundiXLabs
+social:
+  - https://www.linkedin.com/company/pundix
+  - https://www.facebook.com/pundixlabs
 ---
 
 Searching the Pundix [support FAQ](https://support.pundix.com/) we find an FAQ that answers the private key managment question.

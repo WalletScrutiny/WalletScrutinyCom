@@ -24,12 +24,11 @@ verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
-providerTwitter: GoodCryptoApp
-providerLinkedIn: goodcrypto
-providerFacebook: GoodCryptoApp
-providerReddit: GoodCrypto
-
+twitter: GoodCryptoApp
+social:
+  - https://www.linkedin.com/company/goodcrypto
+  - https://www.facebook.com/GoodCryptoApp
+  - https://www.reddit.com/r/GoodCrypto
 redirect_from:
   - /app.goodcrypto/
 ---

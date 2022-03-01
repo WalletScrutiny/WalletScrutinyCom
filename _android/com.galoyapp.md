@@ -11,7 +11,7 @@ appCountry:
 released: 2020-11-24
 updated: 2022-01-26
 version: "1.7.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 38M
@@ -25,14 +25,9 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This wallet simply uses the tech that GaloyMoney has developed. This product is *not officially affiliated* with GaloyMoney or the Bitcoin Beach project based in El Salvador.

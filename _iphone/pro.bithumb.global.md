@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbGlobal
-providerLinkedIn: bithumbglobal
-providerFacebook: bithumb.global
-providerReddit: BithumbGlobal
-
-redirect_from:
-
+twitter: BithumbGlobal
+social:
+  - https://www.linkedin.com/company/bithumbglobal
+  - https://www.facebook.com/bithumb.global
+  - https://www.reddit.com/r/BithumbGlobal
 ---
 
 {% include copyFromAndroid.html %}

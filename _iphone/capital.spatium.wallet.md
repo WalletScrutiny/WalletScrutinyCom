@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: spatium_news
-providerLinkedIn: spatium-capital
-providerFacebook: spatiumnews
-providerReddit: 
-
-redirect_from:
-
+twitter: spatium_news
+social:
+  - https://www.linkedin.com/company/spatium-capital
+  - https://www.facebook.com/spatiumnews
 ---
 
 {% include copyFromAndroid.html %}

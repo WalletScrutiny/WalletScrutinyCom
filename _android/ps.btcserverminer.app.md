@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Its website does not yield a lot of information.

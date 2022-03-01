@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: zaifdotjp
-providerLinkedIn: 
-providerFacebook: zaifdotjp
-providerReddit: 
-
-redirect_from:
-
+twitter: zaifdotjp
+social:
+  - https://www.facebook.com/zaifdotjp
 ---
 
 {% include copyFromAndroid.html %}

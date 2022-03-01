@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-20
 updated: 2022-02-16
 version: "0.4.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.8M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: bottrexoficial
-providerLinkedIn: 
-providerFacebook: bottrex
-providerReddit: 
-
+twitter: bottrexoficial
+social:
+  - https://www.facebook.com/bottrex
 redirect_from:
-
 ---
 
 ## App Description

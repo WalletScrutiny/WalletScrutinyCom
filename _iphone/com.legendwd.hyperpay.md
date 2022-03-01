@@ -23,14 +23,9 @@ verdict: obfuscated
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: HyperPay_tech
-providerLinkedIn: 
-providerFacebook: hyperpayofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: HyperPay_tech
+social:
+  - https://www.facebook.com/hyperpayofficial
 ---
 
 {% include copyFromAndroid.html %}

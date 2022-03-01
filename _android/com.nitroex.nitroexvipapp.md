@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-11-17
 updated: 2022-01-13
 version: "8.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 17M
@@ -24,14 +24,12 @@ verdict: nowallet
 date: 2022-01-14
 signer: 
 reviewArchive:
-
-providerTwitter: NitroExOfficial
-providerLinkedIn: nitroex
-providerFacebook: nitroex.io
-providerReddit: nitroexchange
-
+twitter: NitroExOfficial
+social:
+  - https://www.linkedin.com/company/nitroex
+  - https://www.facebook.com/nitroex.io
+  - https://www.reddit.com/r/nitroexchange
 redirect_from:
-
 ---
 
 ⚠️ **Caution:** Some users have described this app as a scam.

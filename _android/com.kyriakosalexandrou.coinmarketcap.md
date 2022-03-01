@@ -10,7 +10,7 @@ appCountry: us
 released: 2015-05-16
 updated: 2022-01-25
 version: "Varies with device"
-stars: 4.0
+stars: 4
 ratings: 26669
 reviews: 1346
 size: Varies with device
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: mydopamineapp
-providerLinkedIn: 
-providerFacebook: myDopamineApp
-providerReddit: 
-
+twitter: mydopamineapp
+social:
+  - https://www.facebook.com/myDopamineApp
 redirect_from:
-
 ---
 
 ## App Description

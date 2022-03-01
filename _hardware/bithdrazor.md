@@ -6,35 +6,30 @@ authors:
 - danny
 - leo
 released: 2019-03-08
-discontinued: # date
+discontinued: 
 updated: 2021-08-09
-version: v4.1.7
+version: "v4.1.7"
 binaries: https://github.com/bithd/bithd-mcu/releases/
 dimensions: [83, 51, 2.2]
 weight: 18
+provider: "BitHD"
+providerWebsite: https://bithd.com
 website: https://bithd.com/BITHD-Razor.html
 shop: https://bithd.com/BITHD-Razor.html
-company: BitHD
-companywebsite: https://bithd.com
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-issue:
+issue: 
 icon: bithdrazor.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: reproducible
 date: 2021-12-11
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 <div class="alertBox"><div>
 <p>There is currently several red flags about this product.

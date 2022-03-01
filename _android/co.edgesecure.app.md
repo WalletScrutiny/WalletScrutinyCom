@@ -24,12 +24,10 @@ verdict: ftbfs
 date: 2019-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: edgewallet
-providerLinkedIn: edgeapp
-providerFacebook: 
-providerReddit: EdgeWallet
-
+twitter: edgewallet
+social:
+  - https://www.linkedin.com/company/edgeapp
+  - https://www.reddit.com/r/EdgeWallet
 redirect_from:
   - /edge/
   - /co.edgesecure.app/

@@ -26,14 +26,11 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: MixinMessenger
-providerLinkedIn: 
-providerFacebook: MixinNetwork
-providerReddit: mixin
-
+twitter: MixinMessenger
+social:
+  - https://www.facebook.com/MixinNetwork
+  - https://www.reddit.com/r/mixin
 redirect_from:
-
 ---
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to

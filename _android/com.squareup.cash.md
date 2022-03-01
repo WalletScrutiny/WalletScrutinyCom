@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:
-
-providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cashapp
+social:
 redirect_from:
   - /com.squareup.cash/
 ---

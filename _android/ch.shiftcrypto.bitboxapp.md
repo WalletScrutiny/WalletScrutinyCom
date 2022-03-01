@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: ShiftCryptoHQ
-providerLinkedIn: shift-crypto
-providerFacebook: Shiftcrypto
-providerReddit: 
-
+twitter: ShiftCryptoHQ
+social:
+  - https://www.linkedin.com/company/shift-crypto
+  - https://www.facebook.com/Shiftcrypto
 redirect_from:
-
 ---
 
 The description of this app reads:

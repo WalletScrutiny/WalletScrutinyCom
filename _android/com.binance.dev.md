@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-03-15
 signer: 
 reviewArchive:
-
-providerTwitter: binance
-providerLinkedIn: 
-providerFacebook: binance
-providerReddit: binance
-
+twitter: binance
+social:
+  - https://www.facebook.com/binance
+  - https://www.reddit.com/r/binance
 redirect_from:
   - /binance/
   - /com.binance.dev/

@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: cakedefi
-providerLinkedIn: cakedefi
-providerFacebook: cakedefi
-providerReddit: cakedefi
-
+twitter: cakedefi
+social:
+  - https://www.linkedin.com/company/cakedefi
+  - https://www.facebook.com/cakedefi
+  - https://www.reddit.com/r/cakedefi
 redirect_from:
-
 ---
 
 ### App Description

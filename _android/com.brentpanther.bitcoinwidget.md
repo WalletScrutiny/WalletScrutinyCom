@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-03-05
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Note: This is only a widget. You must add the widget to your launcher, it will

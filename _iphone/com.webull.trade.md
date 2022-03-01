@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
-providerTwitter: WebullGlobal
-providerLinkedIn: webullfinancialllc
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: WebullGlobal
+social:
+  - https://www.linkedin.com/company/webullfinancialllc
 ---
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.

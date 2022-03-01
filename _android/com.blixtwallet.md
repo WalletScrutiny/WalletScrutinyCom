@@ -24,14 +24,9 @@ verdict: nonverifiable
 date: 2022-02-07
 signer: 
 reviewArchive:
-
-providerTwitter: BlixtWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BlixtWallet
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-07**: This wallet recently reached 1000 downloads on Play

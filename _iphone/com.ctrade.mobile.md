@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: CTrade_official
-providerLinkedIn: 
-providerFacebook: CTradeProOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: CTrade_official
+social:
+  - https://www.facebook.com/CTradeProOfficial
 ---
 
 {% include copyFromAndroid.html %}

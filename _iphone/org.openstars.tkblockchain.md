@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: trustkeysglobal
-providerLinkedIn: 
-providerFacebook: trustkeys.network
-providerReddit: 
-
-redirect_from:
-
+twitter: trustkeysglobal
+social:
+  - https://www.facebook.com/trustkeys.network
 ---
 
 **Update 2021-10-30**: This app is no more.

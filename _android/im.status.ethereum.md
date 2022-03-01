@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app appears to not support BTC.

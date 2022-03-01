@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: baksmancom
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/baksmancom
 redirect_from:
-
 ---
 
 ## App Description

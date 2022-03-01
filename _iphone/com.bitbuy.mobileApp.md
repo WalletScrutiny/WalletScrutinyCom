@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: bitbuy
-providerLinkedIn: bitbuyca
-providerFacebook: bitbuyCA
-providerReddit: 
-
-redirect_from:
-
+twitter: bitbuy
+social:
+  - https://www.linkedin.com/company/bitbuyca
+  - https://www.facebook.com/bitbuyCA
 ---
 
  {% include copyFromAndroid.html %}

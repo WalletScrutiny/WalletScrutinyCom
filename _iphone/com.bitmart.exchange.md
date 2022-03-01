@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: BitMartExchange
-providerLinkedIn: bitmart
-providerFacebook: bitmartexchange
-providerReddit: BitMartExchange
-
-redirect_from:
-
+twitter: BitMartExchange
+social:
+  - https://www.linkedin.com/company/bitmart
+  - https://www.facebook.com/bitmartexchange
+  - https://www.reddit.com/r/BitMartExchange
 ---
 
 On their website we read:

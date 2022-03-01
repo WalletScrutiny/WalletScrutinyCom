@@ -24,14 +24,9 @@ verdict: fake
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

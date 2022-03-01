@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: atomex_official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: atomex_official
+social:
 ---
 
 > Atomex — is a non-custodial crypto wallet

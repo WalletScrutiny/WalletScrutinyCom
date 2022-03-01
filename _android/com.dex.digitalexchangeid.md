@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: Digiexchangeid
-providerLinkedIn: 
-providerFacebook: digitalexchangeid
-providerReddit: 
-
+twitter: Digiexchangeid
+social:
+  - https://www.facebook.com/digitalexchangeid
 redirect_from:
-
 ---
 
 From its Google Play app summary:

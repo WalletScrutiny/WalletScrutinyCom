@@ -10,7 +10,7 @@ appCountry:
 released: 2019-12-25
 updated: 2022-02-18
 version: "2.1.0"
-stars: 1.0
+stars: 1
 ratings: 81
 reviews: 6
 size: 37M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Citexofficial
-providerLinkedIn: 
-providerFacebook: citexglobal
-providerReddit: 
-
+twitter: Citexofficial
+social:
+  - https://www.facebook.com/citexglobal
 redirect_from:
-
 ---
 
 ## App Description

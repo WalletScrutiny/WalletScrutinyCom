@@ -23,14 +23,9 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: CoinbasePro
-providerLinkedIn: 
-providerFacebook: coinbase
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinbasePro
+social:
+  - https://www.facebook.com/coinbase
 ---
 
 On the website we read:

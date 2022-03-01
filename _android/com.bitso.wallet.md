@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: Bitso
-providerLinkedIn: 
-providerFacebook: bitsoex
-providerReddit: 
-
+twitter: Bitso
+social:
+  - https://www.facebook.com/bitsoex
 redirect_from:
   - /com.bitso.wallet/
 ---

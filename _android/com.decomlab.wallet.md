@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: gomoonwallet
-providerLinkedIn: 
-providerFacebook: moonwallet.net
-providerReddit: 
-
+twitter: gomoonwallet
+social:
+  - https://www.facebook.com/moonwallet.net
 redirect_from:
-
 ---
 
 **Notes** It should be noted that this wallet has a similarity in name to:<br> 

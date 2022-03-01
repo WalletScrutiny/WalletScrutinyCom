@@ -4,32 +4,30 @@ appId: octowalletsilo
 authors:
 - danny
 released: 2018-08-03
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: [44, 44.3, 7]
 weight: 
+provider: "Digital Silo Pty Ltd"
+providerWebsite: 
 website: https://www.octowallet.com/
 shop: https://shop.octowallet.com/
-company: Digital Silo Pty Ltd
-companywebsite: 
 country: AU
 price: 
-repository:
-issue:
-icon: octowallet.png
-bugbounty:
+repository: 
+issue: 
+icon: octowalletsilo.png
+bugbounty: 
 meta: defunct
 verdict: nosource
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: octowallet
-providerLinkedIn: 
-providerFacebook: OctoWallet-276588143113128
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: octowallet
+social: 
+  - https://www.facebook.com/OctoWallet-276588143113128
 ---
 
 The last twitter post of the Octowallet was made on [March 1, 2019.](https://twitter.com/OctoWallet/status/1079365807707086848). The first working prototype was shown on twitter on [August 3, 2018.](https://twitter.com/OctoWallet/status/1025206431505502208). The Youtube video linked-to on the tweet is now removed. 

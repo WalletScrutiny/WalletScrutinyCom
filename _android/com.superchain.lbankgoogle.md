@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: LBank_Exchange
-providerLinkedIn: lbank
-providerFacebook: LBank.info
-providerReddit: 
-
+twitter: LBank_Exchange
+social:
+  - https://www.linkedin.com/company/lbank
+  - https://www.facebook.com/LBank.info
 redirect_from:
-
 ---
 
 ## App Description

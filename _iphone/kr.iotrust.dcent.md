@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: DCENTwallets
+social:
+  - https://www.facebook.com/DcentWalletGlobal
 ---
 
 {% include copyFromAndroid.html %}

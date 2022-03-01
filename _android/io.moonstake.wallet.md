@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: moonstake
-providerLinkedIn: moonstake
-providerFacebook: moonstakekorea
-providerReddit: 
-
+twitter: moonstake
+social:
+  - https://www.linkedin.com/company/moonstake
+  - https://www.facebook.com/moonstakekorea
 redirect_from:
-
 ---
 
 Moonstake Wallet directly claims that it is a non-custodial wallet. From the Play Store description:

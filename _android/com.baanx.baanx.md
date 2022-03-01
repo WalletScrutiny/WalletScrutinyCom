@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-10-10
 updated: 2021-09-07
 version: "3.1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 52M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: baanx_bxx
-providerLinkedIn: 
-providerFacebook: baanxapp
-providerReddit: 
-
+twitter: baanx_bxx
+social:
+  - https://www.facebook.com/baanxapp
 redirect_from:
-
 ---
 
 ## App Description

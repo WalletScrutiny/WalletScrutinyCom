@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2019-12-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /org.electroncash.wallet/
   - /posts/org.electroncash.wallet/

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: monnosGlobal
-providerLinkedIn: monnosglobal
-providerFacebook: MonnosGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: monnosGlobal
+social:
+  - https://www.linkedin.com/company/monnosglobal
+  - https://www.facebook.com/MonnosGlobal
 ---
 
 {% include copyFromAndroid.html %}

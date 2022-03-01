@@ -23,14 +23,10 @@ verdict: wip
 date: 2022-02-17
 signer: 
 reviewArchive:
-
-providerTwitter: salletone
-providerLinkedIn: 
-providerFacebook: salletone
-providerReddit: Sallet_Atelas
-
-redirect_from:
-
+twitter: salletone
+social:
+  - https://www.facebook.com/salletone
+  - https://www.reddit.com/r/Sallet_Atelas
 ---
 
 {% include copyFromAndroid.html %}

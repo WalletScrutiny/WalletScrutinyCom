@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: bitfialabs
-providerLinkedIn: bitfia-labs
-providerFacebook: 
-providerReddit: 
-
+twitter: bitfialabs
+social:
+  - https://www.linkedin.com/company/bitfia-labs
 redirect_from:
-
 ---
 
 From its app description:

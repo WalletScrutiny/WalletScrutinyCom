@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2021-04-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.wasabiwallet.dev/
 ---

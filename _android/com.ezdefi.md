@@ -25,14 +25,10 @@ verdict: nosource
 date: 2020-12-14
 signer: 
 reviewArchive:
-
-providerTwitter: ezDeFi
-providerLinkedIn: 
-providerFacebook: ezdefi
-providerReddit: 
-
+twitter: ezDeFi
+social:
+  - https://www.facebook.com/ezdefi
 redirect_from:
-
 ---
 
 **Updated Analysis 2022-01-13**

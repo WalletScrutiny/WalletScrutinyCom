@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: BitYard_Global
-providerLinkedIn: bityard
-providerFacebook: BitYardofficial
-providerReddit: 
-
+twitter: BitYard_Global
+social:
+  - https://www.linkedin.com/company/bityard
+  - https://www.facebook.com/BitYardofficial
 redirect_from:
-
 ---
 
 ## App Description

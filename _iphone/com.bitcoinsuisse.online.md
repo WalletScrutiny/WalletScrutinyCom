@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: BitcoinSuisseAG
-providerLinkedIn: bitcoin-suisse-ag
-providerFacebook: BitcoinSuisse
-providerReddit: 
-
-redirect_from:
-
+twitter: BitcoinSuisseAG
+social:
+  - https://www.linkedin.com/company/bitcoin-suisse-ag
+  - https://www.facebook.com/BitcoinSuisse
 ---
 
 {% include copyFromAndroid.html %}

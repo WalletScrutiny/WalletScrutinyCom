@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: FameexGlobal
-providerLinkedIn: 
-providerFacebook: FAMEEXGLOBAL
-providerReddit: 
-
-redirect_from:
-
+twitter: FameexGlobal
+social:
+  - https://www.facebook.com/FAMEEXGLOBAL
 ---
 
 {% include copyFromAndroid.html %}

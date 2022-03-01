@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: anchorusd
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: anchorusd
+social:
 redirect_from:
-
 ---
 
 AnchorUSD claims to be a stock and crypto investment app. 

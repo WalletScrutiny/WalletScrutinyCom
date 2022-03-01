@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2020-12-07
 signer: 
 reviewArchive:
-
-providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: incognitochain
+social:
 redirect_from:
   - /com.incognito.wallet/
 ---

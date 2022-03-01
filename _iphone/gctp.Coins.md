@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: coinsph
-providerLinkedIn: coins-ph
-providerFacebook: coinsph
-providerReddit: 
-
-redirect_from:
-
+twitter: coinsph
+social:
+  - https://www.linkedin.com/company/coins-ph
+  - https://www.facebook.com/coinsph
 ---
 
 The app appears to have tons of features but nowhere can we find a word about

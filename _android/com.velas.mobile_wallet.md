@@ -26,14 +26,11 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: velasblockchain
-providerLinkedIn: velas-ag
-providerFacebook: velasblockchain
-providerReddit: 
-
+twitter: velasblockchain
+social:
+  - https://www.linkedin.com/company/velas-ag
+  - https://www.facebook.com/velasblockchain
 redirect_from:
-
 ---
 
 **Update 2021-11-17**: This app is missing build instructions. We have hope to

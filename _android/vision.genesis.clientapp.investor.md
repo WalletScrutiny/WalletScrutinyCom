@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: genesis_vision
-providerLinkedIn: genesis-vision
-providerFacebook: GenesisVisionProject
-providerReddit: genesisvision
-
+twitter: genesis_vision
+social:
+  - https://www.linkedin.com/company/genesis-vision
+  - https://www.facebook.com/GenesisVisionProject
+  - https://www.reddit.com/r/genesisvision
 redirect_from:
-
 ---
 
 ### Google Play Description

@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-03-11
 signer: 
 reviewArchive:
-
-providerTwitter: BalletCrypto
-providerLinkedIn: balletcrypto
-providerFacebook: balletcrypto.global
-providerReddit: BalletCrypto
-
-redirect_from:
-
+twitter: BalletCrypto
+social:
+  - https://www.linkedin.com/company/balletcrypto
+  - https://www.facebook.com/balletcrypto.global
+  - https://www.reddit.com/r/BalletCrypto
 ---
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,

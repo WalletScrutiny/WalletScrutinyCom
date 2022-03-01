@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: vncd_official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: vncd_official
+social:
 ---
 
 {% include copyFromAndroid.html %}

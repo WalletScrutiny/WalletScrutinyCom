@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: coboofficial
-providerFacebook: coboOfficial
-providerReddit: 
-
+twitter: Cobo_Wallet
+social:
+  - https://www.linkedin.com/company/coboofficial
+  - https://www.facebook.com/coboOfficial
 redirect_from:
   - /cobo/
   - /cobo.wallet/

@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: paiexchange
-providerLinkedIn: 
-providerFacebook: paiexchange
-providerReddit: 
-
+twitter: paiexchange
+social:
+  - https://www.facebook.com/paiexchange
 redirect_from:
-
 ---
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 

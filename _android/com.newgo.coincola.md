@@ -24,12 +24,11 @@ verdict: custodial
 date: 2020-12-03
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCola_Global
-providerLinkedIn: coincola
-providerFacebook: CoinCola
-providerReddit: coincolaofficial
-
+twitter: CoinCola_Global
+social:
+  - https://www.linkedin.com/company/coincola
+  - https://www.facebook.com/CoinCola
+  - https://www.reddit.com/r/coincolaofficial
 redirect_from:
   - /com.newgo.coincola/
 ---

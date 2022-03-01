@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: digiexchange3
-providerLinkedIn: 
-providerFacebook: digiexchangenews
-providerReddit: 
-
+twitter: digiexchange3
+social:
+  - https://www.facebook.com/digiexchangenews
 redirect_from:
-
 ---
 
 ## App Description

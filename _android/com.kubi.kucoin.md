@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: KuCoinCom
-providerLinkedIn: kucoin
-providerFacebook: KuCoinOfficial
-providerReddit: kucoin
-
+twitter: KuCoinCom
+social:
+  - https://www.linkedin.com/company/kucoin
+  - https://www.facebook.com/KuCoinOfficial
+  - https://www.reddit.com/r/kucoin
 redirect_from:
-
 ---
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin

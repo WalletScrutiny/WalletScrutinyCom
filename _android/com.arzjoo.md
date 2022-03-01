@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: arzjoo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: arzjoo
+social:
 redirect_from:
   - /com.arzjoo/
 ---

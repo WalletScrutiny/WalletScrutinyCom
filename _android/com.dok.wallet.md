@@ -10,7 +10,7 @@ appCountry: il
 released: 2020-09-28
 updated: 2021-10-21
 version: "1.1.6"
-stars: 5.0
+stars: 5
 ratings: 35
 reviews: 10
 size: 64M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: coincircle
-providerLinkedIn: coincircle
-providerFacebook: CoinCircle
-providerReddit: 
-
-redirect_from:
-
+twitter: coincircle
+social:
+  - https://www.linkedin.com/company/coincircle
+  - https://www.facebook.com/CoinCircle
 ---
 
 {% include copyFromAndroid.html %}

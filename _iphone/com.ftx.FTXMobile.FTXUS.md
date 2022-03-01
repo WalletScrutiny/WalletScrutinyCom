@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: ftx_us
-providerLinkedIn: 
-providerFacebook: FTXUS
-providerReddit: 
-
-redirect_from:
-
+twitter: ftx_us
+social:
+  - https://www.facebook.com/FTXUS
 ---
 
 There are a total of 6 related apps that all appear to belong to the same "FTX":

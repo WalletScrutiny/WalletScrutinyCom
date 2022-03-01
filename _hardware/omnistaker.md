@@ -4,32 +4,29 @@ appId: omnistaker
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "OmniSolutions"
+providerWebsite: https://omnistaker.com
 website: https://omnistaker.com
 shop: https://omnistaker.com/shop/
-company: OmniSolutions
-companywebsite: https://omnistaker.com
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: omnistaker.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
 date: 2021-07-07
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 This hardware device is for staking coins and does not support bitcoins.

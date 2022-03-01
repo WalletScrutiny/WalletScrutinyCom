@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Digiexchangeid
-providerLinkedIn: 
-providerFacebook: digitalexchangeid
-providerReddit: 
-
-redirect_from:
-
+twitter: Digiexchangeid
+social:
+  - https://www.facebook.com/digitalexchangeid
 ---
 
  {% include copyFromAndroid.html %}

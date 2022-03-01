@@ -24,14 +24,12 @@ verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: quickxprotocol
-providerLinkedIn: quickx
-providerFacebook: quickxprotocol
-providerReddit: QuickX
-
+twitter: quickxprotocol
+social:
+  - https://www.linkedin.com/company/quickx
+  - https://www.facebook.com/quickxprotocol
+  - https://www.reddit.com/r/QuickX
 redirect_from:
-
 ---
 
 <!-- nosource -->

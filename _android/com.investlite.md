@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: invest_lite
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: invest_lite
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-16**: This app is not available anymore.

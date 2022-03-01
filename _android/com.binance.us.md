@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: binanceus
-providerLinkedIn: binance-us
-providerFacebook: BinanceUS
-providerReddit: 
-
+twitter: binanceus
+social:
+  - https://www.linkedin.com/company/binance-us
+  - https://www.facebook.com/BinanceUS
 redirect_from:
   - /com.binance.us/
 ---

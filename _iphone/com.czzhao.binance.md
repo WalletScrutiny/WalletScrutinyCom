@@ -23,14 +23,10 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: binance
-providerLinkedIn: 
-providerFacebook: binance
-providerReddit: binance
-
-redirect_from:
-
+twitter: binance
+social:
+  - https://www.facebook.com/binance
+  - https://www.reddit.com/r/binance
 ---
 
 In the description the provider claims:

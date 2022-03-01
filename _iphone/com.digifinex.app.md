@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: DigiFinex
-providerLinkedIn: digifinex-global
-providerFacebook: digifinex.global
-providerReddit: DigiFinex
-
-redirect_from:
-
+twitter: DigiFinex
+social:
+  - https://www.linkedin.com/company/digifinex-global
+  - https://www.facebook.com/digifinex.global
+  - https://www.reddit.com/r/DigiFinex
 ---
 
 > DigiFinex is a world’s leading crypto finance exchange

@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /bictcoinlightningwallet/
   - /com.lightning.walletapp/

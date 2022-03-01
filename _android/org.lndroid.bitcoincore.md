@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-02
 updated: 2020-07-08
 version: "0.6"
-stars: 4.0
+stars: 4
 ratings: 17
 reviews: 2
 size: 7.5M
@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 <!-- https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/189 -->

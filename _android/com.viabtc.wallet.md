@@ -24,12 +24,9 @@ verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: viawallet
-providerLinkedIn: 
-providerFacebook: ViaWallet
-providerReddit: 
-
+twitter: viawallet
+social:
+  - https://www.facebook.com/ViaWallet
 redirect_from:
   - /com.viabtc.wallet/
   - /posts/com.viabtc.wallet/

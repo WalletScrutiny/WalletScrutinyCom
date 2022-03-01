@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: ifluxdotapp
-providerLinkedIn: iflux-pay
-providerFacebook: 
-providerReddit: 
-
+twitter: ifluxdotapp
+social:
+  - https://www.linkedin.com/company/iflux-pay
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 A Bitcoin Lightning wallet.

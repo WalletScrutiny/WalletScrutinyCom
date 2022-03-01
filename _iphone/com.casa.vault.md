@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: CasaHODL
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: CasaHODL
+social:
 ---
 
 The following is the review of their Play Store app which equally applies to the

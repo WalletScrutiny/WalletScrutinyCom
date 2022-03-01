@@ -24,14 +24,9 @@ verdict: wip
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 So this app was found by Emanuel, apparently for being open source. It is a fork

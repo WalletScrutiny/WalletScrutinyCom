@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-02-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app has a rather special description that looks more like a dictionary so

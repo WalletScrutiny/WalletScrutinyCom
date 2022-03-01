@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: mercadopago
-providerLinkedIn: 
-providerFacebook: mercadopago
-providerReddit: 
-
-redirect_from:
-
+twitter: mercadopago
+social:
+  - https://www.facebook.com/mercadopago
 ---
 
 {% include copyFromAndroid.html %}

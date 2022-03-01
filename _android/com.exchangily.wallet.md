@@ -25,14 +25,10 @@ verdict: ftbfs
 date: 2021-04-11
 signer: 
 reviewArchive:
-
-providerTwitter: ExchangilyC
-providerLinkedIn: 
-providerFacebook: Exchangily-439040053240813
-providerReddit: 
-
+twitter: ExchangilyC
+social:
+  - https://www.facebook.com/Exchangily-439040053240813
 redirect_from:
-
 ---
 
 This app is a self-custodial Bitcoin wallet:

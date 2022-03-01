@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2020-12-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app still appears in search results but Google Play doesn't show the app.

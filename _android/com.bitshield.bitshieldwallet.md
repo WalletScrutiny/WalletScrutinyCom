@@ -24,12 +24,8 @@ verdict: nosource
 date: 2020-12-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.bitshield.bitshieldwallet/
 ---

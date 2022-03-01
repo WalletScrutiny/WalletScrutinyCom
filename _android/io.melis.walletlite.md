@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-03
 updated: 2019-06-03
 version: "0.4.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 16M
@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /io.melis.walletlite/
   - /posts/io.melis.walletlite/

@@ -23,14 +23,9 @@ verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: unstoppablebyhs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: UNSTOPPABLEWallet
-
-redirect_from:
-
+twitter: unstoppablebyhs
+social:
+  - https://www.reddit.com/r/UNSTOPPABLEWallet
 ---
 
 The provider claims:

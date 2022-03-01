@@ -5,31 +5,29 @@ authors:
 - kiwilamb
 released: 
 discontinued: 2017-11-01
-updated:
-version:
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "CryptoLabs"
+providerWebsite: https://choosecase.com
 website: https://choosecase.com
 shop: https://choosecase.com
-company: CryptoLabs
-companywebsite: https://choosecase.com
 country: US
 price: 
 repository: 
-issue:
+issue: 
 icon: case.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-07-18
-signer:
-reviewArchive:
-
-
-providerTwitter: CaseWallet
-providerLinkedIn: 
-providerFacebook: casewallet
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: CaseWallet
+social: 
+  - https://www.facebook.com/casewallet
 ---
 
 There are a numnber of reasons why this verdict is defunct.

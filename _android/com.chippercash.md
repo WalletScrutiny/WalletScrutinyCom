@@ -25,14 +25,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: chippercashapp
-providerLinkedIn: 
-providerFacebook: Chippercashapp
-providerReddit: 
-
+twitter: chippercashapp
+social:
+  - https://www.facebook.com/Chippercashapp
 redirect_from:
-
 ---
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 

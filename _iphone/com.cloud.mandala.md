@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: mandalaex
-providerLinkedIn: 
-providerFacebook: mandalaexchange
-providerReddit: MandalaExchange
-
-redirect_from:
-
+twitter: mandalaex
+social:
+  - https://www.facebook.com/mandalaexchange
+  - https://www.reddit.com/r/MandalaExchange
 ---
 
 {% include copyFromAndroid.html %}

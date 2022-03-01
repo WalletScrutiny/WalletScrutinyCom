@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: 100XCoin_
-providerLinkedIn: 100xCoin
-providerFacebook: 100xcoinFB
-providerReddit: 
-
+twitter: 100XCoin_
+social:
+  - https://www.linkedin.com/company/100xCoin
+  - https://www.facebook.com/100xcoinFB
 redirect_from:
-
 ---
 
 **Update 2022-01-20**: This app is not available anymore.

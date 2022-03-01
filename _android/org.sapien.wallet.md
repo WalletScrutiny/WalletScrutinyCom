@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-06-24
 updated: 2022-02-18
 version: "1.51.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 169M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: SapienWallet
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/SapienWallet
 redirect_from:
-
 ---
 
 ## App Description

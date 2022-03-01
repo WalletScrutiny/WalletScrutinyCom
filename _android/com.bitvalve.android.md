@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: bitvalve
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: bitvalve
+social:
 redirect_from:
-
 ---
 
 ## App Description

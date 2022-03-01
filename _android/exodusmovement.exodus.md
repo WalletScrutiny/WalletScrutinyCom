@@ -24,14 +24,10 @@ verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: exodus_io
-providerLinkedIn: 
-providerFacebook: exodus.io
-providerReddit: 
-
+twitter: exodus_io
+social:
+  - https://www.facebook.com/exodus.io
 redirect_from:
-
 ---
 
 This app certainly sounds like it is non-custodial:

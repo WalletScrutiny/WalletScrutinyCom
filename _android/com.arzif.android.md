@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: Arzifofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Arzifofficial
+social:
 redirect_from:
-
 ---
 
 ### Google Play

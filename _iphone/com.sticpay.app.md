@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: SticPay
-providerLinkedIn: sticpay
-providerFacebook: sticpay.global
-providerReddit: 
-
-redirect_from:
-
+twitter: SticPay
+social:
+  - https://www.linkedin.com/company/sticpay
+  - https://www.facebook.com/sticpay.global
 ---
 
 {% include copyFromAndroid.html %}

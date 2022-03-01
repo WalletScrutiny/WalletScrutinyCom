@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2021-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: ZeusLN
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ZeusLN
+social:
 redirect_from:
   - /app.zeusln.zeus/
   - /posts/app.zeusln.zeus/

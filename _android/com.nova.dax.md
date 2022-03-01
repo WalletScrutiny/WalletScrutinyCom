@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: Nova_DAXglobal
-providerLinkedIn: novadax-do-brasil
-providerFacebook: novadaxglobal
-providerReddit: 
-
+twitter: Nova_DAXglobal
+social:
+  - https://www.linkedin.com/company/novadax-do-brasil
+  - https://www.facebook.com/novadaxglobal
 redirect_from:
-
 ---
 
 The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):

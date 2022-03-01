@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: dcoinexchange
-providerLinkedIn: dcoin-exchange
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: dcoinexchange
+social:
+  - https://www.linkedin.com/company/dcoin-exchange
 ---
 
  {% include copyFromAndroid.html %}

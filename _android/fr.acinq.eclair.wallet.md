@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: acinq_co
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: acinq_co
+social:
 redirect_from:
-
 ---
 
 This is the testnet version of {% include walletLink.html wallet='android/fr.acinq.eclair.wallet.mainnet2' verdict='true' %}

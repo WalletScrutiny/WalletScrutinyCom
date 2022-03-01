@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-02-19
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbOfficial
-providerLinkedIn: 
-providerFacebook: bithumb
-providerReddit: 
-
+twitter: BithumbOfficial
+social:
+  - https://www.facebook.com/bithumb
 redirect_from:
-
 ---
 
 This app is an interface to an exchange and to our knowledge only features

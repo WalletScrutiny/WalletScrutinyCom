@@ -4,32 +4,30 @@ appId: dcentcard
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 86, 0.86]
 weight: 6
+provider: "IOTrust"
+providerWebsite: https://iotrust.kr/
 website: https://dcentwallet.com/products/CardWallet
 shop: https://dcentwallet.com/Shop
-company: IOTrust
-companywebsite: https://iotrust.kr/
 country: KP
 price: 23USD
 repository: 
-issue:
+issue: 
 icon: dcentcard.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
 date: 2021-07-07
-signer:
-reviewArchive:
-
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: DCENTwallets
+social: 
+  - https://www.facebook.com/DcentWalletGlobal
 ---
 
 This device does not support Bitcoin.

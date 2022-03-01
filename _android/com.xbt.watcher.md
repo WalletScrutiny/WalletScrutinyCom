@@ -24,14 +24,9 @@ verdict: fake
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** We have reason to believe that this is a fake app. The developer for this app is [XBT Crypto Media](https://play.google.com/store/apps/developer?id=XBT+Crypto+Media). The developer for {% include walletLink.html wallet='android/com.primexbt.exchange' verdict='true' %} is [Prime Technology LTD](https://play.google.com/store/apps/developer?id=Prime+Technology+LTD). The logo and name makes it appear that there is a version called "Prime XBT Futures Pro".

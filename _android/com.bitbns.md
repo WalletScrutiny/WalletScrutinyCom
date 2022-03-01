@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: bitbns
-providerLinkedIn: bitbnsinc
-providerFacebook: bitbns
-providerReddit: Bitbns
-
+twitter: bitbns
+social:
+  - https://www.linkedin.com/company/bitbnsinc
+  - https://www.facebook.com/bitbns
+  - https://www.reddit.com/r/Bitbns
 redirect_from:
-
 ---
 
 From their linkedin page:

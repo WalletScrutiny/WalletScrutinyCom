@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-03
 signer: 
 reviewArchive:
-
-providerTwitter: bluewalletio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: bluewallet
-
-redirect_from:
-
+twitter: bluewalletio
+social:
+  - https://www.reddit.com/r/bluewallet
 ---
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is
