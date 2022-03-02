@@ -56,7 +56,7 @@ resizeDeterministically() {
   source=$2/$filename
   target=$3/$filename
   size=$4
-  convert -background none $source -resize ${size}x $target 
+  convert -background none $source -resize ${size}x $target 2> /dev/null
 }
 
 resizeMany() {
