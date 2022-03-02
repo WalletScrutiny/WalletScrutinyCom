@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: daoconsensus
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: daoconsensus
+social:
 redirect_from:
-
 ---
 
 <div class="alertBox"><div>

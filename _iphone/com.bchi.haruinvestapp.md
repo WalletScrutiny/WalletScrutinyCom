@@ -10,8 +10,8 @@ idd: 1579344792
 released: 2021-08-19
 updated: 2021-12-20
 version: "2.0.0"
-stars: 4.86441
-reviews: 59
+stars: 4.83582
+reviews: 67
 size: 97088512
 website: https://haruinvest.com/appdownload
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: haruinvest
-providerLinkedIn: 
-providerFacebook: haruinvest
-providerReddit: 
-
-redirect_from:
-
+twitter: haruinvest
+social:
+  - https://www.facebook.com/haruinvest
 ---
 
 {% include copyFromAndroid.html %}

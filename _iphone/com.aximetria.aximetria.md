@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: aximetriagmbh
-providerLinkedIn: aximetriagmbh
-providerFacebook: aximetriagmbh
-providerReddit: 
-
-redirect_from:
-
+twitter: aximetriagmbh
+social:
+  - https://www.linkedin.com/company/aximetriagmbh
+  - https://www.facebook.com/aximetriagmbh
 ---
 
 **Update 2021-11-12**: This app is not on App Store anymore.

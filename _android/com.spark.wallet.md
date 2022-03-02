@@ -11,7 +11,7 @@ appCountry:
 released: 2018-12-10
 updated: 2021-11-08
 version: "0.3.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.6M
@@ -25,12 +25,8 @@ verdict: nonverifiable
 date: 2021-12-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.spark.wallet/
   - /posts/com.spark.wallet/

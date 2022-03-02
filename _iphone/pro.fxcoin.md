@@ -28,13 +28,8 @@ reviewArchive:
   appHash: 
   gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
   verdict: nowallet
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2022-01-04**

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-11
 updated: 2021-07-11
 version: "0.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 61M
@@ -24,15 +24,9 @@ verdict: fewusers
 date: 2022-02-17
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is the companion app to the hardware wallet: {% include walletLink.html wallet='hardware/icynote' verdict='true' %}

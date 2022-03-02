@@ -8,12 +8,12 @@ users: 100000
 appId: com.whitebit.android
 appCountry: ua
 released: 2019-06-07
-updated: 2022-02-02
-version: "2.3.4"
-stars: 4.5
-ratings: 1981
-reviews: 64
-size: 27M
+updated: 2022-02-28
+version: "2.5.4"
+stars: 4.48
+ratings: 1962
+reviews: 67
+size: 28M
 website: https://whitebit.com/
 repository: 
 issue: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: whitebit
-providerLinkedIn: whitebit-cryptocurrency-exchange
-providerFacebook: whitebit
-providerReddit: WhiteBitExchange
-
+twitter: whitebit
+social:
+  - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
+  - https://www.facebook.com/whitebit
+  - https://www.reddit.com/r/WhiteBitExchange
 redirect_from:
-
 ---
 
 This centralized cryptocurrency exchange also has a decentralized exchange. 

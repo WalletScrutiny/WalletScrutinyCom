@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-09-24
 updated: 2021-12-13
 version: "3.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 79M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: paymium
-providerLinkedIn: paymium
-providerFacebook: Paymium
-providerReddit: 
-
+twitter: paymium
+social:
+  - https://www.linkedin.com/company/paymium
+  - https://www.facebook.com/Paymium
 redirect_from:
-
 ---
 
 ## App Description

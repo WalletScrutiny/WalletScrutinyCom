@@ -10,9 +10,9 @@ appCountry:
 released: 2018-03-22
 updated: 2022-02-13
 version: "4.32.2"
-stars: 3.7
-ratings: 78
-reviews: 10
+stars: 3.5789473
+ratings: 79
+reviews: 11
 size: 33M
 website: https://ownbit.io
 repository: 
@@ -24,12 +24,8 @@ verdict: nosource
 date: 2020-04-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.bitbill.www/
   - /posts/com.bitbill.www/

@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: FlitsNode
-providerLinkedIn: 
-providerFacebook: flitsnode
-providerReddit: 
-
-redirect_from:
-
+twitter: FlitsNode
+social:
+  - https://www.facebook.com/flitsnode
 ---
 
 This app appears to support Bitcoin:

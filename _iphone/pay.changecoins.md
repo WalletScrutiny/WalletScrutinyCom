@@ -8,29 +8,23 @@ appId: pay.changecoins
 appCountry: us
 idd: 1515720987
 released: 2020-06-01
-updated: 2021-02-09
-version: "1.2.5"
+updated: 2022-02-18
+version: "1.2.6"
 stars: 5
 reviews: 1
-size: 49612800
+size: 40775680
 website: https://changecoins.io/
 repository: 
 issue: 
 icon: pay.changecoins.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-02-09
+date: 2022-02-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

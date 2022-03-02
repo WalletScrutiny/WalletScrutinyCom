@@ -8,11 +8,11 @@ users: 100000
 appId: com.exmo
 appCountry: 
 released: 2019-11-12
-updated: 2022-01-19
-version: "3.4.1"
-stars: 3.3
-ratings: 2732
-reviews: 40
+updated: 2022-02-17
+version: "3.5"
+stars: 3.375
+ratings: 2774
+reviews: 41
 size: 75M
 website: https://exmo.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
-providerTwitter: Exmo_com
-providerLinkedIn: 
-providerFacebook: exmo.market
-providerReddit: 
-
+twitter: Exmo_com
+social:
+  - https://www.facebook.com/exmo.market
 redirect_from:
-
 ---
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"

@@ -10,9 +10,9 @@ appCountry: id
 released: 2017-11-03
 updated: 2022-01-26
 version: "3.0.8"
-stars: 3.6
-ratings: 17290
-reviews: 710
+stars: 3.5833333
+ratings: 17546
+reviews: 729
 size: 180M
 website: https://gate.io/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: gate_io
-providerLinkedIn: 
-providerFacebook: gateioglobal
-providerReddit: GateioExchange
-
+twitter: gate_io
+social:
+  - https://www.facebook.com/gateioglobal
+  - https://www.reddit.com/r/GateioExchange
 redirect_from:
-
 ---
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)

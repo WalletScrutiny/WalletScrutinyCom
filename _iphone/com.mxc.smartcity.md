@@ -10,8 +10,8 @@ idd: 1509218470
 released: 2020-06-30
 updated: 2022-02-02
 version: "2.0.6"
-stars: 4.15584
-reviews: 77
+stars: 4.16249
+reviews: 80
 size: 130145280
 website: https://www.mxc.org
 repository: 
@@ -23,14 +23,10 @@ verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: mxcfoundation
-providerLinkedIn: 
-providerFacebook: MXCfoundation
-providerReddit: MXC_Foundation
-
-redirect_from:
-
+twitter: mxcfoundation
+social:
+  - https://www.facebook.com/MXCfoundation
+  - https://www.reddit.com/r/MXC_Foundation
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,9 +10,9 @@ appCountry: cn
 released: 2017-12-01
 updated: 2022-02-14
 version: "2.35.0"
-stars: 4.5
-ratings: 1137
-reviews: 438
+stars: 4.616667
+ratings: 1147
+reviews: 442
 size: 65M
 website: http://coolwallet.io
 repository: 
@@ -24,12 +24,9 @@ verdict: nowallet
 date: 2021-08-28
 signer: 
 reviewArchive:
-
-providerTwitter: coolwallet
-providerLinkedIn: 
-providerFacebook: coolwallet
-providerReddit: 
-
+twitter: coolwallet
+social:
+  - https://www.facebook.com/coolwallet
 redirect_from:
   - /com.coolbitx.cwsapp/
 ---

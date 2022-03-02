@@ -4,34 +4,30 @@ appId: fireflyteensy
 authors:
 - danny
 released: 2017-10-21
-discontinued: # date
+discontinued: 
 updated: 2018-04-25
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Firefly"
+providerWebsite: 
 website: https://firefly.city/
-shop:
-company: Firefly
-companywebsite: 
+shop: 
 country: CA
 price: 5USD
 repository: https://github.com/firefly/wallet/
-issue:
+issue: 
 icon: fireflyteensy.png
-bugbounty:
+bugbounty: 
 meta: obsolete
-verdict: nobtc  
+verdict: nobtc
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: hi_firefly
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: hi_firefly
+social: 
 ---
-
 
 The firefly was announced on [twitter on August 2, 2017](https://twitter.com/hi_firefly/status/892753742797443074).
 

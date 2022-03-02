@@ -8,12 +8,12 @@ users: 10000
 appId: com.cabital.cabital
 appCountry: 
 released: 2021-06-07
-updated: 2022-01-19
-version: "1.1.9"
-stars: 0.0
+updated: 2022-02-19
+version: "1.2.1"
+stars: 
 ratings: 
 reviews: 
-size: 45M
+size: 32M
 website: https://www.cabital.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: cabitalglobal
-providerLinkedIn: cabital
-providerFacebook: CabitalGlobal
-providerReddit: 
-
+twitter: cabitalglobal
+social:
+  - https://www.linkedin.com/company/cabital
+  - https://www.facebook.com/CabitalGlobal
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-04-25
 updated: 2021-03-06
 version: "2.0.32"
-stars: 3.7
+stars: 3.6923077
 ratings: 221
 reviews: 10
 size: 23M
@@ -19,19 +19,15 @@ repository:
 issue: 
 icon: com.pint.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-17
+date: 2022-03-02
 signer: 
 reviewArchive:
-
-providerTwitter: bitfialabs
-providerLinkedIn: bitfia-labs
-providerFacebook: 
-providerReddit: 
-
+twitter: bitfialabs
+social:
+  - https://www.linkedin.com/company/bitfia-labs
 redirect_from:
-
 ---
 
 From its app description:

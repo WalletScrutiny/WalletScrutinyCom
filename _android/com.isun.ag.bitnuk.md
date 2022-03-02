@@ -10,7 +10,7 @@ appCountry:
 released: 2020-02-16
 updated: 2020-03-09
 version: "1.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 51M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.isun.ag.bitnuk.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-18
+date: 2022-02-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -8,12 +8,12 @@ users: 50000
 appId: com.eletac.tronwallet
 appCountry: 
 released: 2018-05-13
-updated: 2022-01-29
-version: "2.2.8"
+updated: 2022-03-02
+version: "2.3.6"
 stars: 4.3
 ratings: 1199
 reviews: 105
-size: 94M
+size: 97M
 website: https://vision-crypto.com/
 repository: 
 issue: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-23
 signer: 
 reviewArchive:
-
-providerTwitter: VisionCryptoApp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: VisionCryptoApp
+social:
 redirect_from:
-
 ---
 
 We do not have to look far to find the wallet claims to be non-custodial.

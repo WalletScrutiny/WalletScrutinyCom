@@ -8,11 +8,11 @@ users: 500000
 appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24
-updated: 2021-11-23
+updated: 2022-02-25
 version: "4.1.82"
-stars: 3.7
-ratings: 63596
-reviews: 2169
+stars: 3.7014563
+ratings: 63867
+reviews: 2174
 size: Varies with device
 website: https://cryptocompany.site/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 It appears that users have to buy this app on Play Store.

@@ -8,11 +8,11 @@ appId: za.co.Bitx
 appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2022-02-14
-version: "8.2.0"
-stars: 4.40735
-reviews: 3292
-size: 107720704
+updated: 2022-02-18
+version: "8.2.2"
+stars: 4.40133
+reviews: 3304
+size: 106129408
 website: https://www.luno.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: LunoGlobal
-providerLinkedIn: lunoglobal
-providerFacebook: luno
-providerReddit: 
-
-redirect_from:
-
+twitter: LunoGlobal
+social:
+  - https://www.linkedin.com/company/lunoglobal
+  - https://www.facebook.com/luno
 ---
 
 This app's Android version had a clear statement about being custodial in the

@@ -10,8 +10,8 @@ appCountry:
 released: 2019-06-19
 updated: 2021-12-17
 version: "1.36.1"
-stars: 3.1
-ratings: 374
+stars: 3.142857
+ratings: 375
 reviews: 5
 size: 14M
 website: https://www.probit.kr
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: ProBit_Exchange
-providerLinkedIn: 
-providerFacebook: probitexchange
-providerReddit: 
-
+twitter: ProBit_Exchange
+social:
+  - https://www.facebook.com/probitexchange
 redirect_from:
-
 ---
 
 This app appears to be a Korean crypto exchange:

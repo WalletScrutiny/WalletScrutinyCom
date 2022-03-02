@@ -10,8 +10,8 @@ idd: 1436698193
 released: 2018-09-24
 updated: 2021-11-12
 version: "2.0.8"
-stars: 4.86842
-reviews: 76
+stars: 4.87012
+reviews: 77
 size: 145725440
 website: https://midasprotocol.io/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: MidasProtocol
-providerLinkedIn: 
-providerFacebook: midasprotocol.io
-providerReddit: 
-
-redirect_from:
-
+twitter: MidasProtocol
+social:
+  - https://www.facebook.com/midasprotocol.io
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).

@@ -8,11 +8,11 @@ appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
 released: 2018-02-09
-updated: 2022-02-04
-version: "2.10.0"
-stars: 4.47778
-reviews: 1080
-size: 57013248
+updated: 2022-02-18
+version: "2.11.1"
+stars: 4.47649
+reviews: 1085
+size: 57517056
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
@@ -23,14 +23,10 @@ verdict: ftbfs
 date: 2020-12-20
 signer: 
 reviewArchive:
-
-providerTwitter: edgewallet
-providerLinkedIn: edgeapp
-providerFacebook: 
-providerReddit: EdgeWallet
-
-redirect_from:
-
+twitter: edgewallet
+social:
+  - https://www.linkedin.com/company/edgeapp
+  - https://www.reddit.com/r/EdgeWallet
 ---
 
 {% include copyFromAndroid.html %}

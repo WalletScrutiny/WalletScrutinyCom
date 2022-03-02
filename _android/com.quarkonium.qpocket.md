@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-07-22
 updated: 2021-05-06
 version: "5.4.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 54M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: qPocket_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: qPocket_wallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

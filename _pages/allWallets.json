@@ -1,6 +1,0 @@
----
-layout: compress
-permalink: /allWallets.json
----
-
-{% include allAppList.html %}

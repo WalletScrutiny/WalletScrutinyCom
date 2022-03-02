@@ -10,8 +10,8 @@ idd: 1396178579
 released: 2019-02-13
 updated: 2022-01-24
 version: "3.2.0"
-stars: 4.74454
-reviews: 96996
+stars: 4.74364
+reviews: 97635
 size: 75648000
 website: https://www.investvoyager.com/
 repository: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: investvoyager
-providerLinkedIn: investvoyager
-providerFacebook: InvestVoyager
-providerReddit: Invest_Voyager
-
-redirect_from:
-
+twitter: investvoyager
+social:
+  - https://www.linkedin.com/company/investvoyager
+  - https://www.facebook.com/InvestVoyager
+  - https://www.reddit.com/r/Invest_Voyager
 ---
 
 On their website we read:

@@ -4,34 +4,30 @@ appId: kongcash
 authors:
 - danny
 released: 2019-10-10
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://kong.cash/
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/kong-org
-issue:
+issue: 
 icon: kongcash.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: nobtc  
+verdict: nobtc
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: kongiscash
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: kongiscash
+social: 
 ---
-
 
 Description from its specification **[paper](https://ipfs.io/ipfs/QmbHnwBuM7Y41Q1DqnMDRx8yQ1aCMtqVka9biPY6cjWogq)**
 

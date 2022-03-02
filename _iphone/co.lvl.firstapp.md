@@ -10,8 +10,8 @@ idd: 1494647317
 released: 2020-07-08
 updated: 2021-09-13
 version: "1.0.5"
-stars: 4.25145
-reviews: 346
+stars: 4.25788
+reviews: 349
 size: 116187136
 website: https://www.lvl.co
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: BankWithLVL
-providerLinkedIn: bankwithlvl
-providerFacebook: BankWithLVL
-providerReddit: 
-
-redirect_from:
-
+twitter: BankWithLVL
+social:
+  - https://www.linkedin.com/company/bankwithlvl
+  - https://www.facebook.com/BankWithLVL
 ---
 
 {% include copyFromAndroid.html %}

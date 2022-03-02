@@ -10,8 +10,8 @@ appCountry: us
 released: 2020-06-15
 updated: 2022-02-10
 version: "1.15.2"
-stars: 4.2
-ratings: 1390
+stars: 4.15
+ratings: 1401
 reviews: 84
 size: 51M
 website: https://coins.coinpaprika.com/
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: CoinsOneApp
-providerLinkedIn: 
-providerFacebook: CoinsOneApp
-providerReddit: 
-
+twitter: CoinsOneApp
+social:
+  - https://www.facebook.com/CoinsOneApp
 redirect_from:
-
 ---
 
 From the Google Play app description: 

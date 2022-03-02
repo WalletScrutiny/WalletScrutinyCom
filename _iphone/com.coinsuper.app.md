@@ -23,14 +23,9 @@ verdict: custodial
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: Coinsuper_OFCL
-providerLinkedIn: 
-providerFacebook: CoinsuperOFCL
-providerReddit: 
-
-redirect_from:
-
+twitter: Coinsuper_OFCL
+social:
+  - https://www.facebook.com/CoinsuperOFCL
 ---
 
 **Update 2022-01-17**: This app is not available anymore.

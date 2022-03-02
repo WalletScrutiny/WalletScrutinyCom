@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-24
 updated: 2022-01-31
 version: "1.0.30"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 29M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: pro1trading
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: pro1trading
+social:
 redirect_from:
-
 ---
 
 ## App Description

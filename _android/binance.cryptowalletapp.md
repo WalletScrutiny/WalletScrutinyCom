@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-05-05
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Unfortunately we did not get to review this one before it was removed from

@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The site has no listed website, social media and the app did not load on multiple platforms that we tried. This app is **defunct**

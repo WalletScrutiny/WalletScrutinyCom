@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-20
 updated: 2022-01-06
 version: "3.0.2"
-stars: 4.2
-ratings: 13454
-reviews: 263
+stars: 4.28
+ratings: 13846
+reviews: 281
 size: 54M
 website: https://bundle.africa
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...

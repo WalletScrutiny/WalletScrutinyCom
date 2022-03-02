@@ -10,7 +10,7 @@ appCountry: us
 released: 
 updated: 2021-08-25
 version: "1.5.69-roinvesting"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 19M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: Roinvesting
-providerLinkedIn: roinvesting
-providerFacebook: ROInvesting
-providerReddit: 
-
+twitter: Roinvesting
+social:
+  - https://www.linkedin.com/company/roinvesting
+  - https://www.facebook.com/ROInvesting
 redirect_from:
-
 ---
 
 ## App Description

@@ -8,12 +8,12 @@ users: 100000
 appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
-updated: 2022-02-11
-version: "4.52.0"
-stars: 4.3
-ratings: 4716
+updated: 2022-03-01
+version: "4.55.0"
+stars: 4.352
+ratings: 4767
 reviews: 485
-size: 92M
+size: 94M
 website: https://www.spot-bitcoin.com
 repository: 
 issue: 
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: spot_bitcoin
-providerLinkedIn: spot-bitcoin
-providerFacebook: spot.bitcoin
-providerReddit: 
-
+twitter: spot_bitcoin
+social:
+  - https://www.linkedin.com/company/spot-bitcoin
+  - https://www.facebook.com/spot.bitcoin
 redirect_from:
   - /com.spot.spot/
 ---

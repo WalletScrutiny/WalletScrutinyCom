@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-13
 updated: 2021-07-23
 version: "1.1.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

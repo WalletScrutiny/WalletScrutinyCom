@@ -8,11 +8,11 @@ appId: com.bankofhodlers.app
 appCountry: 
 idd: 1509251174
 released: 2020-05-12
-updated: 2022-01-28
-version: "2.5.7"
-stars: 4.20721
-reviews: 111
-size: 73758720
+updated: 2022-02-28
+version: "2.6.1.1"
+stars: 4.2521
+reviews: 119
+size: 74786816
 website: https://www.vauld.com/
 repository: 
 issue: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-08
 signer: 
 reviewArchive:
-
-providerTwitter: Vauld_
-providerLinkedIn: vauld
-providerFacebook: VauldOfficial
-providerReddit: BankofHodlers
-
-redirect_from:
-
+twitter: Vauld_
+social:
+  - https://www.linkedin.com/company/vauld
+  - https://www.facebook.com/VauldOfficial
+  - https://www.reddit.com/r/BankofHodlers
 ---
 
 The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>

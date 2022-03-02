@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-24
 updated: 2021-12-15
 version: "1.2.1.10"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 37M
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: VertexFXTrader
-providerLinkedIn: hybrid-solutions-hs-
-providerFacebook: VertexFXTrader
-providerReddit: 
-
+twitter: VertexFXTrader
+social:
+  - https://www.linkedin.com/company/hybrid-solutions-hs-
+  - https://www.facebook.com/VertexFXTrader
 redirect_from:
-
 ---
 
 ## App Description

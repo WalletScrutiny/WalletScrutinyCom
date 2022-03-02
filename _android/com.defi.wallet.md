@@ -8,12 +8,12 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2022-01-27
-version: "1.26.0"
-stars: 4.0
-ratings: 13027
-reviews: 1570
-size: 56M
+updated: 2022-02-23
+version: "1.27.0"
+stars: 4.2787457
+ratings: 13620
+reviews: 1648
+size: 60M
 website: https://www.crypto.com
 repository: 
 issue: 
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: cryptocom
-providerLinkedIn: cryptocom
-providerFacebook: CryptoComOfficial
-providerReddit: Crypto_com
-
+twitter: cryptocom
+social:
+  - https://www.linkedin.com/company/cryptocom
+  - https://www.facebook.com/CryptoComOfficial
+  - https://www.reddit.com/r/Crypto_com
 redirect_from:
   - /com.defi.wallet/
   - /posts/com.defi.wallet/

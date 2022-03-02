@@ -41,14 +41,14 @@ window.wallets.forEach(e => {
     } else {
       // If we already added a product with this wsId, we add the new one as a
       // "version" of the prior one.
-      window.orderedObs[i]['versions'] = window.orderedObs[i]['versions'] && Array.isArray(window.orderedObs[i]['versions'])
-        ? window.orderedObs[i]['versions'].push(e)
-        : [e]
+      const versionsI = window.orderedObs[i]['versions'] || []
+      versionsI.push(e)
+      window.orderedObs[i]['versions'] = versionsI
     }
   } else if (e.appId && e.appId.length > 0) {
-    const appId = e.appId
-    var i = readerRec.indexOf(appId)
-    if (appId.length > 0 && i < 0) {
+    // making sure the appId doesn't match any wsId:
+    const appId = `__${e.appId}__`
+    if (!readerRec.includes(appId)) {
       window.orderedObs.push(e)
       readerRec.push(appId)
     }

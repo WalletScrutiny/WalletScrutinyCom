@@ -1,35 +1,32 @@
 ---
 title: "Keystone Ultimate"
-appId: keystoneUltimate
+appId: keystone.ultimate
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Yanssie HK Limited"
+providerWebsite: https://keyst.one/
 website: https://keyst.one/
 shop: https://shop.keyst.one/products/keystone-ultimate
-company: Yanssie HK Limited
-companywebsite: https://keyst.one/
 country: HK
 price: 479USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
-icon: keystoneultimate.png
-bugbounty:
+icon: keystone.ultimate.png
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: KeystoneWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: KeystoneWallet
+social: 
 ---
 
 This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 

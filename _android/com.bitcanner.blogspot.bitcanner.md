@@ -11,8 +11,8 @@ released: 2019-11-03
 updated: 2021-09-29
 version: "3.20.0.51"
 stars: 4.4
-ratings: 65
-reviews: 21
+ratings: 69
+reviews: 23
 size: 19M
 website: https://www.bitcanner.com
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Note:** This app is very suspicious and may not be safe to use!

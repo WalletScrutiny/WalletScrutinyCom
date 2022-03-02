@@ -4,35 +4,32 @@ appId: keevo
 authors:
 - danny
 - kiwilamb
-released: 2020-09-31 # Q3 2020 according to provider
-discontinued: # date
-updated:
-version:
+released: 2020-10-01
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "BitKey Technogies"
+providerWebsite: https://www.keevowallet.com
 website: https://www.keevowallet.com/products/keevo-model-1
 shop: https://www.keevowallet.com/products/keevo-model-1
-company: BitKey Technogies
-companywebsite: https://www.keevowallet.com
 country: US
 price: 299USD
 repository: 
-issue:
+issue: 
 icon: keevo.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-10
-signer:
-reviewArchive:
-
-
-providerTwitter: keevowallet
-providerLinkedIn: 
-providerFacebook: keevowallet
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: keevowallet
+social: 
+  - https://www.facebook.com/keevowallet
 ---
-
 
 One of Keevo's main advertised features is:
 

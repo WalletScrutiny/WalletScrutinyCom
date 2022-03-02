@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinspot.app
 appCountry: au
 released: 2020-10-07
-updated: 2022-02-10
-version: "2.0.14"
-stars: 4.7
-ratings: 1727
-reviews: 1135
+updated: 2022-02-23
+version: "2.0.15"
+stars: 4.715847
+ratings: 3068
+reviews: 1218
 size: 10M
 website: https://www.coinspot.com.au
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: coinspotau
-providerLinkedIn: 
-providerFacebook: coinspotau
-providerReddit: 
-
+twitter: coinspotau
+social:
+  - https://www.facebook.com/coinspotau
 redirect_from:
-
 ---
 
 > The CoinSpot app enables you to easily and safely manage all of your digital currencies in one place. Simply follow the markets, send & receive cryptocurrency, buy & sell all assets available on CoinSpot and easily access account facilities.

@@ -10,8 +10,8 @@ idd: 1349104693
 released: 2018-03-29
 updated: 2022-02-10
 version: "3.2.4"
-stars: 2.66667
-reviews: 3
+stars: 3.83333
+reviews: 6
 size: 117904384
 website: https://indodax.com
 repository: 
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: indodax
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: indodax
+social:
 ---
 
 This is the interface to

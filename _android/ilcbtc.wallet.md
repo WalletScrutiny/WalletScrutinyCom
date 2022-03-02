@@ -10,7 +10,7 @@ appCountry:
 released: 2018-02-27
 updated: 2021-03-23
 version: "4.26"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2019-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: ILC_B_Project
-providerLinkedIn: 
-providerFacebook: ILCoinBlockchainProject
-providerReddit: ILCoin
-
+twitter: ILC_B_Project
+social:
+  - https://www.facebook.com/ILCoinBlockchainProject
+  - https://www.reddit.com/r/ILCoin
 redirect_from:
   - /ilcbtc.wallet/
   - /posts/ilcbtc.wallet/

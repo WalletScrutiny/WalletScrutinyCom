@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: CoinUs_Official
-providerLinkedIn: 
-providerFacebook: CoinUsOfficial
-providerReddit: 
-
+twitter: CoinUs_Official
+social:
+  - https://www.facebook.com/CoinUsOfficial
 redirect_from:
-
 ---
 
 Coinus Support page:

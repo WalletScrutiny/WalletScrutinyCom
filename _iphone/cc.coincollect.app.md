@@ -23,14 +23,8 @@ verdict: nosource
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: coincollectHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: coincollectHQ
+social:
 ---
 
 {% include copyFromAndroid.html %}

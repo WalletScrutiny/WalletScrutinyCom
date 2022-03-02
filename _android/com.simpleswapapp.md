@@ -10,8 +10,8 @@ appCountry: gb
 released: 2020-05-23
 updated: 2021-11-03
 version: "3.1.9"
-stars: 4.3
-ratings: 565
+stars: 4.3095236
+ratings: 575
 reviews: 41
 size: 38M
 website: https://simpleswap.io
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: SimpleSwap_io
-providerLinkedIn: 
-providerFacebook: SimpleSwap.io
-providerReddit: simpleswapexchange
-
+twitter: SimpleSwap_io
+social:
+  - https://www.facebook.com/SimpleSwap.io
+  - https://www.reddit.com/r/simpleswapexchange
 redirect_from:
-
 ---
 
 ## Updated Review 2021-10-29

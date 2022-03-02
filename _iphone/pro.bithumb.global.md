@@ -8,11 +8,11 @@ appId: pro.bithumb.global
 appCountry: us
 idd: 1467713913
 released: 2019-06-25
-updated: 2021-12-04
-version: "2.6.3"
+updated: 2022-02-18
+version: "2.6.4"
 stars: 2.48
 reviews: 75
-size: 75458560
+size: 90268672
 website: https://www.bithumb.pro/alliance
 repository: 
 issue: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbGlobal
-providerLinkedIn: bithumbglobal
-providerFacebook: bithumb.global
-providerReddit: BithumbGlobal
-
-redirect_from:
-
+twitter: BithumbGlobal
+social:
+  - https://www.linkedin.com/company/bithumbglobal
+  - https://www.facebook.com/bithumb.global
+  - https://www.reddit.com/r/BithumbGlobal
 ---
 
 {% include copyFromAndroid.html %}

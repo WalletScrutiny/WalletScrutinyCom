@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: genesis_vision
-providerLinkedIn: genesis-vision
-providerFacebook: GenesisVisionProject
-providerReddit: genesisvision
-
-redirect_from:
-
+twitter: genesis_vision
+social:
+  - https://www.linkedin.com/company/genesis-vision
+  - https://www.facebook.com/GenesisVisionProject
+  - https://www.reddit.com/r/genesisvision
 ---
 
 {% include copyFromAndroid.html %}

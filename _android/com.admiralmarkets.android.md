@@ -8,9 +8,9 @@ users: 100000
 appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
-updated: 2022-01-13
-version: "1.5.1"
-stars: 0.0
+updated: 2022-02-16
+version: "1.5.2"
+stars: 
 ratings: 
 reviews: 
 size: 15M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: AdmiralsGlobal
-providerLinkedIn: -admiral-markets-group
-providerFacebook: AdmiralsGlobal
-providerReddit: 
-
+twitter: AdmiralsGlobal
+social:
+  - https://www.linkedin.com/company/-admiral-markets-group
+  - https://www.facebook.com/AdmiralsGlobal
 redirect_from:
-
 ---
 
 ## Description

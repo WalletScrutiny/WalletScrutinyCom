@@ -10,8 +10,8 @@ idd: 1519145333
 released: 2020-07-28
 updated: 2022-02-10
 version: "1.30.60.212"
-stars: 4.91753
-reviews: 97
+stars: 4.89333
+reviews: 75
 size: 89629696
 website: https://amlsafe.io/
 repository: 
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant

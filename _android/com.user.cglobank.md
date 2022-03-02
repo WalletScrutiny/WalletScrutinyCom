@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **WARNING:** There are several factors that make this app appear highly suspicious. We urge users to exercise caution among apps like these.

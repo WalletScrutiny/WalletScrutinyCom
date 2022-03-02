@@ -10,8 +10,8 @@ appCountry:
 released: 2020-07-08
 updated: 2020-10-09
 version: "3.6.5"
-stars: 3.7
-ratings: 80
+stars: 3.857143
+ratings: 81
 reviews: 3
 size: 25M
 website: https://www.beeex.com
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

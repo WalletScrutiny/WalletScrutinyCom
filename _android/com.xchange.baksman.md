@@ -10,7 +10,7 @@ appCountry: ru
 released: 2020-02-03
 updated: 2021-05-14
 version: "3.0.1"
-stars: 4.3
+stars: 4.3095236
 ratings: 60
 reviews: 25
 size: 1.4M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: baksmancom
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/baksmancom
 redirect_from:
-
 ---
 
 ## App Description

@@ -8,12 +8,12 @@ users: 100000
 appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
-updated: 2022-02-14
-version: "10.8"
-stars: 3.7
-ratings: 938
-reviews: 139
-size: 53M
+updated: 2022-02-24
+version: "10.10"
+stars: 3.62
+ratings: 1026
+reviews: 149
+size: 60M
 website: https://www.emberfund.io/
 repository: https://github.com/ember-fund
 issue: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: Ember_Fund
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Ember_Fund
+social:
 redirect_from:
-
 ---
 
 From its Google Play description:

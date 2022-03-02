@@ -10,7 +10,7 @@ appCountry:
 released: 2018-11-09
 updated: 2021-08-30
 version: "5.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 18M
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-12-14
 signer: 
 reviewArchive:
-
-providerTwitter: NikoTech
-providerLinkedIn: niko-technologies-ou
-providerFacebook: 
-providerReddit: 
-
+twitter: NikoTech
+social:
+  - https://www.linkedin.com/company/niko-technologies-ou
 redirect_from:
   - /paydeepp.elegro.io/
   - /posts/paydeepp.elegro.io/

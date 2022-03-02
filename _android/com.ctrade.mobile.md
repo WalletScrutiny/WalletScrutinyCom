@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-12-19
 updated: 2022-01-24
 version: "1.1.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.6M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: CTrade_official
-providerLinkedIn: 
-providerFacebook: CTradeProOfficial
-providerReddit: 
-
+twitter: CTrade_official
+social:
+  - https://www.facebook.com/CTradeProOfficial
 redirect_from:
-
 ---
 
 ### App Description

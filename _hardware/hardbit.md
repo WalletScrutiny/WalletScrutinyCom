@@ -4,34 +4,30 @@ appId: hardbit
 authors:
 - danny
 released: 2020-06-07
-discontinued: # date
+discontinued: 
 updated: 2021-05-11
-version: 1.0
+version: "1"
+binaries: 
 dimensions: [48, 88, 12.8]
 weight: 
+provider: 
+providerWebsite: 
 website: http://www.hardbit.cn/
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/hardbitcn
-issue:
+issue: 
 icon: hardbit.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 Announced in [CoinTelegraph](https://cointelegraph.com/news/china_releases_hardbit_hardware_wallet) on May 10, 2014 the Hardbit wallet seems to have fallen prey to China's stringent cryptocurrency regulations. Its website is still accessible but displays a warning. There are also indications that the product is no longer available for sale - such as its 'Buy' page no longer working.
 

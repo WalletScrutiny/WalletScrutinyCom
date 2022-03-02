@@ -8,11 +8,11 @@ users: 10000000
 appId: com.binance.dev
 appCountry: 
 released: 2017-10-25
-updated: 2022-02-11
-version: "2.41.6"
-stars: 4.2
-ratings: 612204
-reviews: 7131
+updated: 2022-03-01
+version: "2.42.5"
+stars: 4.113981
+ratings: 619117
+reviews: 7214
 size: Varies with device
 website: https://www.binance.com/
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-03-15
 signer: 
 reviewArchive:
-
-providerTwitter: binance
-providerLinkedIn: 
-providerFacebook: binance
-providerReddit: binance
-
+twitter: binance
+social:
+  - https://www.facebook.com/binance
+  - https://www.reddit.com/r/binance
 redirect_from:
   - /binance/
   - /com.binance.dev/

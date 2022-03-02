@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: BitcoinGlobalEx
-providerLinkedIn: 
-providerFacebook: BitcoinGlobalEx
-providerReddit: BITCOIN_GLOBAL
-
-redirect_from:
-
+twitter: BitcoinGlobalEx
+social:
+  - https://www.facebook.com/BitcoinGlobalEx
+  - https://www.reddit.com/r/BITCOIN_GLOBAL
 ---
 
 {% include copyFromAndroid.html %}

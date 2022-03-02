@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-18
 updated: 2022-01-26
 version: "1.1.8"
-stars: 3.6
-ratings: 539
-reviews: 237
+stars: 3.5436893
+ratings: 542
+reviews: 239
 size: 64M
 website: https://ftx.us/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: ftx_us
-providerLinkedIn: 
-providerFacebook: FTXUS
-providerReddit: 
-
+twitter: ftx_us
+social:
+  - https://www.facebook.com/FTXUS
 redirect_from:
-
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

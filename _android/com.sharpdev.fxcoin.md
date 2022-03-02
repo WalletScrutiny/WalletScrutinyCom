@@ -10,9 +10,9 @@ appCountry: ru
 released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
-stars: 2.9
-ratings: 2793
-reviews: 1598
+stars: 2.9592593
+ratings: 2801
+reviews: 1605
 size: 30M
 website: http://fxcoin.pro
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.

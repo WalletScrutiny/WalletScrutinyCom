@@ -10,7 +10,7 @@ appCountry:
 released: 2016-07-08
 updated: 2017-10-20
 version: "1.1.8"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.7M
@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 A Bitcoin wallet.

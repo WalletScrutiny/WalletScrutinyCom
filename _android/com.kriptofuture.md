@@ -11,7 +11,7 @@ released: 2021-07-27
 updated: 2021-07-30
 version: "Version 16"
 stars: 3.5
-ratings: 180
+ratings: 183
 reviews: 6
 size: 29M
 website: https://kriptofuture.com
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: Kriptofuture
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/Kriptofuture
 redirect_from:
-
 ---
 
 **⚠️ Warning ⚠️** 

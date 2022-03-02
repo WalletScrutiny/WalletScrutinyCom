@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: libertyx
-providerLinkedIn: libertyx
-providerFacebook: getlibertyx
-providerReddit: 
-
-redirect_from:
-
+twitter: libertyx
+social:
+  - https://www.linkedin.com/company/libertyx
+  - https://www.facebook.com/getlibertyx
 ---
 
  {% include copyFromAndroid.html %}

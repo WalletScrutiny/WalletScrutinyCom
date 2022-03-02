@@ -6,34 +6,31 @@ authors:
 - danny
 - leo
 released: 2021-04-14
-discontinued: # date
+discontinued: 
 updated: 2021-09-22
-version: 4.1.7
+version: "4.1.7"
+binaries: 
 dimensions: [44, 70, 4.5]
 weight: 
+provider: "HyperPay"
+providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.tech/hypermatepro/pro
 shop: https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
-company: HyperPay
-companywebsite: https://hyperpay.tech/
 country: HK
 price: 229USD
 repository: https://github.com/hyperpayorg/hardwallet
 issue: https://github.com/hyperpayorg/hardwallet/issues/4
 icon: hypermatepro.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-12
-signer:
-reviewArchive:
-
-
-providerTwitter: HyperPay_tech
-providerLinkedIn: 
-providerFacebook: hyperpayofficial
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: HyperPay_tech
+social: 
+  - https://www.facebook.com/hyperpayofficial
 ---
-
 
 This hardware wallet is paired with {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %}
 

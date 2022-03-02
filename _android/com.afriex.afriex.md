@@ -11,8 +11,8 @@ released: 2020-03-05
 updated: 2022-01-18
 version: "11.34"
 stars: 4.3
-ratings: 1109
-reviews: 274
+ratings: 1165
+reviews: 276
 size: 49M
 website: https://afriexapp.com
 repository: 
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: afriexapp
-providerLinkedIn: afriex
-providerFacebook: AfriexApp
-providerReddit: 
-
+twitter: afriexapp
+social:
+  - https://www.linkedin.com/company/afriex
+  - https://www.facebook.com/AfriexApp
 redirect_from:
-
 ---
 
 **UPDATE 2021-11-23:** Afriex [replied to our tweet](https://twitter.com/afriexapp/status/1440701283866791937) saying:

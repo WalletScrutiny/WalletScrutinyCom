@@ -10,8 +10,8 @@ appCountry:
 released: 2019-10-31
 updated: 2022-02-13
 version: "0.0.200"
-stars: 3.7
-ratings: 1353
+stars: 3.6666667
+ratings: 1359
 reviews: 3
 size: 64M
 website: https://www.bitcointoyou.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: bitcointoyou
-providerLinkedIn: bitcointoyou
-providerFacebook: Bitcointoyou
-providerReddit: 
-
+twitter: bitcointoyou
+social:
+  - https://www.linkedin.com/company/bitcointoyou
+  - https://www.facebook.com/Bitcointoyou
 redirect_from:
-
 ---
 
 The [Bitcointoyou website](https://www.bitcointoyou.com) has no statement regarding the management of private keys.

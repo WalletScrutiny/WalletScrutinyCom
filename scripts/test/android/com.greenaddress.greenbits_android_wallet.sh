@@ -8,7 +8,8 @@ test() {
   prepare
 
   # build
-  podman run -it --volume $PWD:/mnt --rm $wsContainer bash -x -c "cd /mnt;
+  podman run -it --volume $PWD:/mnt --rm $wsContainer bash -x -c "chmod 777 /tmp/;
+      cd /mnt;
       apt update;
       DEBIAN_FRONTEND=noninteractive apt install -y curl jq openjdk-11-jdk;
       yes | /opt/android-sdk/tools/bin/sdkmanager \"build-tools;29.0.2\";

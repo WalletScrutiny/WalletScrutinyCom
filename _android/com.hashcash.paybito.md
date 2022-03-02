@@ -24,14 +24,10 @@ verdict: custodial
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: paybito
-providerLinkedIn: 
-providerFacebook: paybito
-providerReddit: 
-
+twitter: paybito
+social:
+  - https://www.facebook.com/paybito
 redirect_from:
-
 ---
 
 **Update 2022-02-03**: This app is no more.

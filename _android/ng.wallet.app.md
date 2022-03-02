@@ -11,9 +11,9 @@ appCountry:
 released: 2017-06-22
 updated: 2021-09-04
 version: "2.480"
-stars: 3.4
-ratings: 2036
-reviews: 77
+stars: 3.3541667
+ratings: 2049
+reviews: 79
 size: 17M
 website: https://wallets.africa
 repository: 
@@ -25,14 +25,10 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: walletsafrica
-providerLinkedIn: 
-providerFacebook: walletsafrica
-providerReddit: 
-
+twitter: walletsafrica
+social:
+  - https://www.facebook.com/walletsafrica
 redirect_from:
-
 ---
 
 **UPDATED 2021-09-01** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

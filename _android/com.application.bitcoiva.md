@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-02
 updated: 2021-09-15
 version: "1.20"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.0M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoiva
-providerLinkedIn: 
-providerFacebook: Bitcoiva-105126591217169
-providerReddit: 
-
+twitter: bitcoiva
+social:
+  - https://www.facebook.com/Bitcoiva-105126591217169
 redirect_from:
-
 ---
 
 > Buy, store and sell cryptocurrencies like Bitcoin, Ethereum,

@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-12-19
 updated: 2022-02-08
 version: "2.3.3"
-stars: 4.4
-ratings: 1649
-reviews: 98
+stars: 4.4356437
+ratings: 1735
+reviews: 99
 size: 90M
 website: https://tap.global
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 

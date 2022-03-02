@@ -24,12 +24,9 @@ verdict: wip
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: BuySellHodlApp
-providerLinkedIn: 
-providerFacebook: groups/buysellhodl
-providerReddit: 
-
+twitter: BuySellHodlApp
+social:
+  - https://www.facebook.com/groups/buysellhodl
 redirect_from:
   - /com.buysellhodl/
   - /posts/com.buysellhodl/

@@ -24,12 +24,9 @@ verdict: wip
 date: 2020-12-08
 signer: 
 reviewArchive:
-
-providerTwitter: chainzillaio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: ChainZilla
-
+twitter: chainzillaio
+social:
+  - https://www.reddit.com/r/ChainZilla
 redirect_from:
   - /com.chameleon.wallet/
   - /posts/com.chameleon.wallet/

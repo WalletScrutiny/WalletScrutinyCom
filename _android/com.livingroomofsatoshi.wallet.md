@@ -10,8 +10,8 @@ appCountry:
 released: 2019-05-19
 updated: 2022-02-06
 version: "1.15.0"
-stars: 3.8
-ratings: 743
+stars: 3.76
+ratings: 758
 reviews: 79
 size: 7.5M
 website: http://www.walletofsatoshi.com
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: walletofsatoshi
-providerLinkedIn: 
-providerFacebook: walletofsatoshi
-providerReddit: 
-
+twitter: walletofsatoshi
+social:
+  - https://www.facebook.com/walletofsatoshi
 redirect_from:
   - /walletofsatoshi/
   - /com.livingroomofsatoshi.wallet/

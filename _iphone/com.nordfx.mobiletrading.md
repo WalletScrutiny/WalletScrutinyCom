@@ -23,14 +23,8 @@ verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: NordFX
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: NordFX
+social:
 ---
 
 {% include copyFromAndroid.html %}

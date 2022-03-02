@@ -10,7 +10,7 @@ appCountry: us
 released: 2015-04-28
 updated: 2019-06-14
 version: "2.5.4"
-stars: 3.4
+stars: 3.4047618
 ratings: 242
 reviews: 31
 size: 22M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: Indie_Square
-providerLinkedIn: 
-providerFacebook: indiesquare.me
-providerReddit: 
-
+twitter: Indie_Square
+social:
+  - https://www.facebook.com/indiesquare.me
 redirect_from:
-
 ---
 
 Upon app installation users are made to write down the mnemonic phrase and pin.

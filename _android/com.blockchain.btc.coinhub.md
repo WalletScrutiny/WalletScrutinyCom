@@ -8,12 +8,12 @@ users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2022-02-12
-version: "1.2.0.1.0"
-stars: 4.5
-ratings: 1486
-reviews: 58
-size: 42M
+updated: 2022-03-01
+version: "1.2.0.1.5"
+stars: 4.54902
+ratings: 1577
+reviews: 61
+size: 44M
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 
@@ -29,13 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

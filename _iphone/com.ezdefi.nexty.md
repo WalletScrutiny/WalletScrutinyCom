@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: ezDeFi
-providerLinkedIn: 
-providerFacebook: ezdefi
-providerReddit: 
-
-redirect_from:
-
+twitter: ezDeFi
+social:
+  - https://www.facebook.com/ezdefi
 ---
 
 {% include copyFromAndroid.html %}

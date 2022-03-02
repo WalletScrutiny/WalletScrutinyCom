@@ -8,12 +8,12 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2021-12-08
-version: "1.0.56"
+updated: 2022-02-24
+version: "1.0.57"
 stars: 4.18182
 reviews: 11
-size: 67433472
-website: https://www.beeinternational.co.in
+size: 65643520
+website: https://techbank.finance/
 repository: 
 issue: 
 icon: com.Techbank.Beeone.jpg
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 They claim a million "members" and list big banks as their "acquirers" but there

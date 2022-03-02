@@ -10,8 +10,8 @@ idd: 1442083982
 released: 2018-12-01
 updated: 2022-01-28
 version: "2.48.3"
-stars: 4.19693
-reviews: 716
+stars: 4.19224
+reviews: 723
 size: 120587264
 website: https://guarda.com/mobile-wallet
 repository: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: GuardaWallet
-providerLinkedIn: 
-providerFacebook: guarda.co
-providerReddit: GuardaWallet
-
-redirect_from:
-
+twitter: GuardaWallet
+social:
+  - https://www.facebook.com/guarda.co
+  - https://www.reddit.com/r/GuardaWallet
 ---
 
 This app claims to be non-custodial on the App Store

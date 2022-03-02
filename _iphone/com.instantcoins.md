@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: instantcoins_ng
-providerLinkedIn: 
-providerFacebook: instantcoins
-providerReddit: 
-
-redirect_from:
-
+twitter: instantcoins_ng
+social:
+  - https://www.facebook.com/instantcoins
 ---
 
 **Update 2022-02-09**: This app is no more.

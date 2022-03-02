@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: Voltfinance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Voltfinance
+social:
 ---
 
 {% include copyFromAndroid.html %}

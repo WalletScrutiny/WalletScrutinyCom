@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-09-17
 updated: 2020-11-23
 version: "1.02.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 40M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: 2cashnetwork
-providerLinkedIn: 2cash
-providerFacebook: 2cashnetwork
-providerReddit: 
-
+twitter: 2cashnetwork
+social:
+  - https://www.linkedin.com/company/2cash
+  - https://www.facebook.com/2cashnetwork
 redirect_from:
-
 ---
 
 **Update 2022-01-09**: This app is back on Play Store but with very negative

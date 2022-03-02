@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: isunone1
-providerLinkedIn: isunone
-providerFacebook: iSunOne
-providerReddit: 
-
-redirect_from:
-
+twitter: isunone1
+social:
+  - https://www.linkedin.com/company/isunone
+  - https://www.facebook.com/iSunOne
 ---
 
 {% include copyFromAndroid.html %}

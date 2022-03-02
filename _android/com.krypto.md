@@ -10,8 +10,8 @@ appCountry:
 released: 2020-04-29
 updated: 2022-01-08
 version: "8.5"
-stars: 4.4
-ratings: 5425
+stars: 4.450704
+ratings: 5472
 reviews: 18
 size: 28M
 website: https://letskrypto.com
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
-providerTwitter: letskrypto
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: letskrypto
+social:
 redirect_from:
-
 ---
 
 The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.

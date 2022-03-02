@@ -4,32 +4,29 @@ appId: piwallet
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://www.pi-wallet.com
 website: 
 shop: 
-company: 
-companywebsite: https://www.pi-wallet.com
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: piwallet.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-08-01
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 The [provider's website](https://www.pi-wallet.com) is inaccessible and we considered it defunct.

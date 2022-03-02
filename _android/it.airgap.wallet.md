@@ -8,11 +8,11 @@ users: 10000
 appId: it.airgap.wallet
 appCountry: 
 released: 2018-08-06
-updated: 2022-02-11
-version: "3.15.1"
-stars: 4.0
-ratings: 126
-reviews: 13
+updated: 2022-02-23
+version: "3.16.0"
+stars: 4.0444446
+ratings: 128
+reviews: 14
 size: 74M
 website: https://www.airgap.it
 repository: 
@@ -24,12 +24,9 @@ verdict: nowallet
 date: 2019-12-29
 signer: 
 reviewArchive:
-
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/

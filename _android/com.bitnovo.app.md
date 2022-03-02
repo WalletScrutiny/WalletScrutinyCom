@@ -24,12 +24,9 @@ verdict: custodial
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: bitnovo
-providerLinkedIn: 
-providerFacebook: BitcoinBitnovo
-providerReddit: 
-
+twitter: bitnovo
+social:
+  - https://www.facebook.com/BitcoinBitnovo
 redirect_from:
   - /com.bitnovo.app/
 ---

@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-
-providerTwitter: Lumi_wallet
-providerLinkedIn: 
-providerFacebook: lumiwallet
-providerReddit: 
-
-redirect_from:
-
+twitter: Lumi_wallet
+social:
+  - https://www.facebook.com/lumiwallet
 ---
 
 **Update 2021-06-16**: It's been a few days this app is not on the App store

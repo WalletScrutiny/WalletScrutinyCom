@@ -8,11 +8,11 @@ appId: com.gemini.ios
 appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2022-02-09
-version: "22.208.0"
-stars: 4.79052
-reviews: 81926
-size: 108994560
+updated: 2022-02-25
+version: "22.222.0"
+stars: 4.79113
+reviews: 83254
+size: 83992576
 website: http://gemini.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: gemini
-providerLinkedIn: geminitrust
-providerFacebook: GeminiTrust
-providerReddit: 
-
-redirect_from:
-
+twitter: gemini
+social:
+  - https://www.linkedin.com/company/geminitrust
+  - https://www.facebook.com/GeminiTrust
 ---
 
 This provider being an exchange, together with the lack of clear words of who

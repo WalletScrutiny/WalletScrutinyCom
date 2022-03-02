@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: Agorise_world
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Agorise_world
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -8,9 +8,9 @@ users: 50000
 appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
-updated: 2022-02-07
+updated: 2022-03-01
 version: "2.0.12"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 45M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: kriptomat
-providerLinkedIn: kriptomat
-providerFacebook: kriptomat.io
-providerReddit: 
-
+twitter: kriptomat
+social:
+  - https://www.linkedin.com/company/kriptomat
+  - https://www.facebook.com/kriptomat.io
 redirect_from:
-
 ---
 
 A cursory look at the app's website indicates a centralized custodial buy, sell and store service that is managed by a private company based in Estonia. We would be looking deeper by perusing its legal documents and compliances.

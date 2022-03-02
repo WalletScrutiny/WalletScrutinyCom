@@ -24,12 +24,8 @@ verdict: wip
 date: 2020-07-31
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.satsapp/
   - /posts/com.satsapp/

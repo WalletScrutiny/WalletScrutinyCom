@@ -10,8 +10,8 @@ appCountry: mt
 released: 2020-01-30
 updated: 2021-08-19
 version: "1.0.5"
-stars: 2.6
-ratings: 42
+stars: 2.627907
+ratings: 43
 reviews: 24
 size: 98M
 website: https://gekkoin.com/index.html
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: gekkoin.official
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/gekkoin.official
 redirect_from:
-
 ---
 
 ## App Description

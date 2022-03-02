@@ -11,8 +11,8 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: "1.0.9"
-stars: 3.22222
-reviews: 9
+stars: 3.54545
+reviews: 11
 size: 13651968
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
@@ -24,14 +24,9 @@ verdict: ftbfs
 date: 2021-10-22
 signer: 
 reviewArchive:
-
-providerTwitter: freewallet
-providerLinkedIn: 
-providerFacebook: freewallet.io
-providerReddit: 
-
-redirect_from:
-
+twitter: freewallet
+social:
+  - https://www.facebook.com/freewallet.io
 ---
 
 **Update 2022-01-04**: The iOS version of the app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478292560443367427). The last update however was 2019-03-18.

@@ -10,8 +10,8 @@ appCountry: ru
 released: 2021-06-01
 updated: 2021-12-13
 version: "1.4.0"
-stars: 4.1
-ratings: 169
+stars: 4.0731707
+ratings: 173
 reviews: 29
 size: 57M
 website: https://nominex.io/defi-nmx
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: NominexExchange
-providerLinkedIn: nominex
-providerFacebook: Nominex
-providerReddit: 
-
+twitter: NominexExchange
+social:
+  - https://www.linkedin.com/company/nominex
+  - https://www.facebook.com/Nominex
 redirect_from:
-
 ---
 
 ## App Description

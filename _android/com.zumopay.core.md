@@ -10,7 +10,7 @@ appCountry:
 released: 2019-10-28
 updated: 2022-01-06
 version: "3.6.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 474M
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: zumopay
-providerLinkedIn: zumomoney
-providerFacebook: zumo.money
-providerReddit: 
-
+twitter: zumopay
+social:
+  - https://www.linkedin.com/company/zumomoney
+  - https://www.facebook.com/zumo.money
 redirect_from:
   - /com.zumopay.core/
   - /posts/com.zumopay.core/

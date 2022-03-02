@@ -10,7 +10,7 @@ appCountry: nz
 released: 2021-05-07
 updated: 2021-11-24
 version: "1.4.6.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 21M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Delta_Exchange
-providerLinkedIn: 
-providerFacebook: deltaexchg
-providerReddit: Delta_Exchange
-
+twitter: Delta_Exchange
+social:
+  - https://www.facebook.com/deltaexchg
+  - https://www.reddit.com/r/Delta_Exchange
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,8 @@ verdict: nosource
 date: 2022-01-13
 signer: 
 reviewArchive:
-
-providerTwitter: secretkeylabs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: secretkeylabs
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -8,11 +8,11 @@ appId: gctp.Coins
 appCountry: 
 idd: 972324049
 released: 2015-04-04
-updated: 2022-02-14
-version: "3.1.0"
-stars: 4.71692
-reviews: 3190
-size: 117107712
+updated: 2022-02-28
+version: "3.1.2"
+stars: 4.71335
+reviews: 3213
+size: 117721088
 website: https://coins.ph/
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: coinsph
-providerLinkedIn: coins-ph
-providerFacebook: coinsph
-providerReddit: 
-
-redirect_from:
-
+twitter: coinsph
+social:
+  - https://www.linkedin.com/company/coins-ph
+  - https://www.facebook.com/coinsph
 ---
 
 The app appears to have tons of features but nowhere can we find a word about

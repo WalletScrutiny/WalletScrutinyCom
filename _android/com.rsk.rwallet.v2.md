@@ -12,7 +12,7 @@ appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
 version: "2.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 36M
@@ -26,14 +26,11 @@ verdict: ftbfs
 date: 2021-12-02
 signer: 
 reviewArchive:
-
-providerTwitter: rsksmart
-providerLinkedIn: 
-providerFacebook: RSKsmart
-providerReddit: rootstock
-
+twitter: rsksmart
+social:
+  - https://www.facebook.com/RSKsmart
+  - https://www.reddit.com/r/rootstock
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-24
 updated: 2020-03-06
 version: "2.2.3.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 37M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.salvadorjesus.PagameConBitcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

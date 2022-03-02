@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
-stars: 4.6
-ratings: 3723
-reviews: 321
+stars: 4.5643563
+ratings: 3855
+reviews: 343
 size: 7.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.

@@ -10,8 +10,8 @@ appCountry: us
 released: 2011-03-04
 updated: 2021-12-03
 version: "4.24.2"
-stars: 3.8
-ratings: 2000
+stars: 3.85
+ratings: 2010
 reviews: 66
 size: 34M
 website: https://www.zulutrade.com
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: zulutrade
-providerLinkedIn: zulutrade
-providerFacebook: zulutrade
-providerReddit: 
-
+twitter: zulutrade
+social:
+  - https://www.linkedin.com/company/zulutrade
+  - https://www.facebook.com/zulutrade
 redirect_from:
-
 ---
 
 ## App Description

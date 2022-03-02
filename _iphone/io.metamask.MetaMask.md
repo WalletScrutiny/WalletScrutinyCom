@@ -8,11 +8,11 @@ appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2022-01-31
-version: "4.0.1"
-stars: 4.46997
-reviews: 13290
-size: 52622336
+updated: 2022-02-24
+version: "4.1.1"
+stars: 4.50674
+reviews: 15051
+size: 53009408
 website: https://metamask.io/
 repository: 
 issue: 
@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 This is an ETH-only app and thus not a Bitcoin wallet.

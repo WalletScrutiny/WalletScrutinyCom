@@ -10,9 +10,9 @@ appCountry: sk
 released: 2018-05-15
 updated: 2021-11-22
 version: "3.1.1"
-stars: 3.0
-ratings: 1253
-reviews: 1108
+stars: 2.952
+ratings: 1251
+reviews: 1106
 size: 4.3M
 website: https://kelta.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ### Caution

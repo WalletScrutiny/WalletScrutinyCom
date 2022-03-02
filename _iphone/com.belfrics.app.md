@@ -8,11 +8,11 @@ appId: com.belfrics.app
 appCountry: us
 idd: 1299601017
 released: 2017-12-23
-updated: 2022-01-28
-version: "2.5.9"
+updated: 2022-02-18
+version: "2.5.10"
 stars: 4.88889
 reviews: 27
-size: 55952384
+size: 25296896
 website: https://www.belfrics.io/
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Belfrics
-providerLinkedIn: 
-providerFacebook: Belfrics
-providerReddit: 
-
-redirect_from:
-
+twitter: Belfrics
+social:
+  - https://www.facebook.com/Belfrics
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: warrant.atm.1
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/warrant.atm.1
 redirect_from:
-
 ---
 
 **Update 2021-11-18**: This app is not on Play Store anymore.

@@ -25,14 +25,10 @@ verdict: nobtc
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: BCB_Official1
-providerLinkedIn: 
-providerFacebook: bitcoinblackofficial
-providerReddit: AllAboardBitcoinBlack
-
-redirect_from:
-
+twitter: BCB_Official1
+social:
+  - https://www.facebook.com/bitcoinblackofficial
+  - https://www.reddit.com/r/AllAboardBitcoinBlack
 ---
 
 **Update 2021-08-13**: This app is not anymore.

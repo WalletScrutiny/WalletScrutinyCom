@@ -8,12 +8,12 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2022-01-27
-version: "4.0.0"
-stars: 2.4
-ratings: 3044
+updated: 2022-02-23
+version: "4.0.1"
+stars: 2.3846154
+ratings: 3064
 reviews: 16
-size: 37M
+size: 40M
 website: https://coinhako.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-23
 signer: 
 reviewArchive:
-
-providerTwitter: coinhako
-providerLinkedIn: coinhako
-providerFacebook: coinhako
-providerReddit: 
-
+twitter: coinhako
+social:
+  - https://www.linkedin.com/company/coinhako
+  - https://www.facebook.com/coinhako
 redirect_from:
-
 ---
 
 Having a scan over the providers website and faq articles does not reveal any

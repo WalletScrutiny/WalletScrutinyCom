@@ -23,14 +23,9 @@ verdict: nobtc
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: RealTPlatform
-providerLinkedIn: realtplatform
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: RealTPlatform
+social:
+  - https://www.linkedin.com/company/realtplatform
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

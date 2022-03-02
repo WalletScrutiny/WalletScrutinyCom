@@ -24,12 +24,8 @@ verdict: wip
 date: 2020-05-07
 signer: 
 reviewArchive:
-
-providerTwitter: PureWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: PureWallet
+social:
 redirect_from:
   - /pro.bitapp.android/
   - /posts/pro.bitapp.android/

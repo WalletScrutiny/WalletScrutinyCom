@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-28
 updated: 2021-07-24
 version: "0.741.11"
-stars: 3.4
+stars: 3.375
 ratings: 120
 reviews: 6
 size: Varies with device
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-06-04
 signer: 
 reviewArchive:
-
-providerTwitter: WalletXapa
-providerLinkedIn: 
-providerFacebook: walletxapa
-providerReddit: 
-
+twitter: WalletXapa
+social:
+  - https://www.facebook.com/walletxapa
 redirect_from:
-
 ---
 
 This app is an exchange based wallet and as such typically private keys are custodial, we can verify this from the [providers own site](https://xapawallet.com/#1603507874611-a20bac97-a1d1) , as they make a clear statement of how the private keys are managed.

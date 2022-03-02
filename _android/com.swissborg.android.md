@@ -8,11 +8,11 @@ users: 100000
 appId: com.swissborg.android
 appCountry: gb
 released: 2020-06-16
-updated: 2022-02-07
-version: "1.28.0"
-stars: 3.7
-ratings: 9124
-reviews: 737
+updated: 2022-02-22
+version: "1.29.0"
+stars: 3.6238532
+ratings: 9203
+reviews: 745
 size: 155M
 website: https://swissborg.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: swissborg
-providerLinkedIn: swissborg
-providerFacebook: swissborg
-providerReddit: 
-
+twitter: swissborg
+social:
+  - https://www.linkedin.com/company/swissborg
+  - https://www.facebook.com/swissborg
 redirect_from:
-
 ---
 
 [Swissborg has provided a Youtube tutorial for withdrawing cryptocurrencies from their product.](https://www.youtube.com/watch?v=e7CwCbX0AbE)

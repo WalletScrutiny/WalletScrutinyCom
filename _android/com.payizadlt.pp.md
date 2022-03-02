@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-03-02
 updated: 2021-04-17
 version: "8.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 42M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: payizamoney
-providerLinkedIn: 
-providerFacebook: payizamoney
-providerReddit: 
-
+twitter: payizamoney
+social:
+  - https://www.facebook.com/payizamoney
 redirect_from:
-
 ---
 
 ## App Description

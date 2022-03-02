@@ -8,11 +8,11 @@ appId: com.net-cents.app
 appCountry: us
 idd: 1105188361
 released: 2016-04-23
-updated: 2022-01-27
-version: "2.11.5"
+updated: 2022-02-26
+version: "2.11.7"
 stars: 3
 reviews: 8
-size: 65103872
+size: 65107968
 website: https://www.net-cents.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: netcentshq
-providerLinkedIn: net-cents
-providerFacebook: NetCentsHQ
-providerReddit: 
-
-redirect_from:
-
+twitter: netcentshq
+social:
+  - https://www.linkedin.com/company/net-cents
+  - https://www.facebook.com/NetCentsHQ
 ---
 
 {%include copyFromAndroid.html %}

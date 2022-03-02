@@ -24,12 +24,10 @@ verdict: custodial
 date: 2021-09-25
 signer: 
 reviewArchive:
-
-providerTwitter: BTC_india
-providerLinkedIn: bitcoin-india
-providerFacebook: Bitcoin.India.Org
-providerReddit: 
-
+twitter: BTC_india
+social:
+  - https://www.linkedin.com/company/bitcoin-india
+  - https://www.facebook.com/Bitcoin.India.Org
 redirect_from:
   - /com.bitcoinindia.Btciapp/
 ---

@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2022-01-13
 signer: 
 reviewArchive:
-
-providerTwitter: UnifyreWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: UnifyreWallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

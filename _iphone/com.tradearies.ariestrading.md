@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: TradeAries
-providerLinkedIn: tradearies
-providerFacebook: TradeAries
-providerReddit: 
-
-redirect_from:
-
+twitter: TradeAries
+social:
+  - https://www.linkedin.com/company/tradearies
+  - https://www.facebook.com/TradeAries
 ---
 
 {% include copyFromAndroid.html %}

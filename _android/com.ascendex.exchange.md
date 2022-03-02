@@ -8,10 +8,10 @@ users: 500000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2022-02-09
-version: "2.7.6"
-stars: 4.8
-ratings: 6549
+updated: 2022-02-22
+version: "2.7.7"
+stars: 4.8076925
+ratings: 6660
 reviews: 95
 size: 47M
 website: https://asdx.io/
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: AscendEX_Global
-providerLinkedIn: 
-providerFacebook: AscendEXOfficial
-providerReddit: AscendEX_Official
-
+twitter: AscendEX_Global
+social:
+  - https://www.facebook.com/AscendEXOfficial
+  - https://www.reddit.com/r/AscendEX_Official
 redirect_from:
-
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

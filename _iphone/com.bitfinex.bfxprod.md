@@ -11,7 +11,7 @@ released: 2019-01-25
 updated: 2022-01-13
 version: "4.16.0"
 stars: 4
-reviews: 101
+reviews: 105
 size: 73252864
 website: https://www.bitfinex.com/app
 repository: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: bitfinex
-providerLinkedIn: bitfinex
-providerFacebook: bitfinex
-providerReddit: bitfinex
-
-redirect_from:
-
+twitter: bitfinex
+social:
+  - https://www.linkedin.com/company/bitfinex
+  - https://www.facebook.com/bitfinex
+  - https://www.reddit.com/r/bitfinex
 ---
 
 From a security standpoint, this app appears to be doing something right: The

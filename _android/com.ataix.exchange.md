@@ -8,12 +8,12 @@ users: 1000
 appId: com.ataix.exchange
 appCountry: ee
 released: 2019-09-20
-updated: 2021-07-01
-version: "1.3.0"
-stars: 3.5
+updated: 2022-02-23
+version: "2.0.10"
+stars: 3.4583333
 ratings: 48
 reviews: 24
-size: 11M
+size: 30M
 website: https://ataix.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: ATAIXcom
-providerLinkedIn: ataixcom
-providerFacebook: ATAIXcom
-providerReddit: 
-
+twitter: ATAIXcom
+social:
+  - https://www.linkedin.com/company/ataixcom
+  - https://www.facebook.com/ATAIXcom
 redirect_from:
-
 ---
 
 ## App Description

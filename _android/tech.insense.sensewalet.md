@@ -25,12 +25,8 @@ verdict: nosource
 date: 2021-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /tech.insense.sensewalet/
   - /posts/tech.insense.sensewalet/

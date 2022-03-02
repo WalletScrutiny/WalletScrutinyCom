@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-28
 updated: 2021-04-28
 version: "3.30.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 34M
@@ -24,14 +24,9 @@ verdict: fake
 date: 2021-07-24
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app "{{ page.title }}" looks related to

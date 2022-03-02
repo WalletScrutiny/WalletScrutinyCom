@@ -10,9 +10,9 @@ appCountry:
 released: 2018-04-17
 updated: 2022-01-17
 version: "4.3.4"
-stars: 3.7
-ratings: 2158
-reviews: 163
+stars: 3.73
+ratings: 2172
+reviews: 164
 size: 54M
 website: https://www.mathwallet.org/
 repository: 
@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: Mathwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Mathwallet
+social:
 redirect_from:
   - /com.medishares.android/
 ---

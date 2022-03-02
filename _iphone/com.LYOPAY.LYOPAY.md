@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: lyopayofficial
-providerLinkedIn: lyopay
-providerFacebook: lyopayofficial
-providerReddit: LYOPAY
-
-redirect_from:
-
+twitter: lyopayofficial
+social:
+  - https://www.linkedin.com/company/lyopay
+  - https://www.facebook.com/lyopayofficial
+  - https://www.reddit.com/r/LYOPAY
 ---
 
 {% include copyFromAndroid.html %}

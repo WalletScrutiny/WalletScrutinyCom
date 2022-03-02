@@ -10,7 +10,7 @@ appCountry: mn
 released: 2015-10-08
 updated: 2022-01-15
 version: "3.1.4"
-stars: 4.5
+stars: 4.4851484
 ratings: 217
 reviews: 51
 size: 21M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## New Review 2021-10-29

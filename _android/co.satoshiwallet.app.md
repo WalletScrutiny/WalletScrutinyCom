@@ -10,7 +10,7 @@ appCountry:
 released: 2019-08-16
 updated: 2020-01-17
 version: "2.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -24,14 +24,9 @@ verdict: wip
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 So this app was found by Emanuel, apparently for being open source. It is a fork

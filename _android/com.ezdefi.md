@@ -11,8 +11,8 @@ appCountry:
 released: 2019-11-29
 updated: 2021-09-08
 version: "0.3.9"
-stars: 4.2
-ratings: 632
+stars: 4.2222223
+ratings: 633
 reviews: 12
 size: 50M
 website: https://ezdefi.com/
@@ -25,14 +25,10 @@ verdict: nosource
 date: 2020-12-14
 signer: 
 reviewArchive:
-
-providerTwitter: ezDeFi
-providerLinkedIn: 
-providerFacebook: ezdefi
-providerReddit: 
-
+twitter: ezDeFi
+social:
+  - https://www.facebook.com/ezdefi
 redirect_from:
-
 ---
 
 **Updated Analysis 2022-01-13**

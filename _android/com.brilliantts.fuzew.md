@@ -10,11 +10,11 @@ appCountry: us
 released: 2018-07-25
 updated: 2021-08-10
 version: "1.0.23"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 32M
-website: https://www.fuzew.com 
+website: https://www.fuzew.com
 repository: 
 issue: 
 icon: com.brilliantts.fuzew.png
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: w_fuze
-providerLinkedIn: 
-providerFacebook: Fuzewcard
-providerReddit: 
-
+twitter: w_fuze
+social:
+  - https://www.facebook.com/Fuzewcard
 redirect_from:
-
 ---
 
 ## App Description

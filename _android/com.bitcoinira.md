@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-15
 updated: 2022-02-04
 version: "1.5.9"
-stars: 4.7
-ratings: 473
-reviews: 115
+stars: 4.5392156
+ratings: 508
+reviews: 124
 size: 118M
 website: https://bitcoinira.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoin_ira
-providerLinkedIn: bitcoinira
-providerFacebook: BitcoinIRA
-providerReddit: 
-
+twitter: bitcoin_ira
+social:
+  - https://www.linkedin.com/company/bitcoinira
+  - https://www.facebook.com/BitcoinIRA
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,8 +10,8 @@ appCountry: us
 released: 2018-05-15
 updated: 2022-01-26
 version: "2.1.2"
-stars: 4.3
-ratings: 2095
+stars: 4.28
+ratings: 2148
 reviews: 36
 size: 9.9M
 website: https://stex.com
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 It has a Crypto Exchange interface and refers to itself as such. One of its general features advertise wallet service. This sounds custodial.

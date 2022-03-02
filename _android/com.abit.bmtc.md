@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: abitofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: abitofficial
+social:
 redirect_from:
-
 ---
 
 The service announced its shutdown on October 4, 2021 via [twitter](https://twitter.com/abitofficial/status/1445005276071952384). 

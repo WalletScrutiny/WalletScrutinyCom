@@ -23,14 +23,9 @@ verdict: custodial
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: bitnovo
-providerLinkedIn: 
-providerFacebook: BitcoinBitnovo
-providerReddit: 
-
-redirect_from:
-
+twitter: bitnovo
+social:
+  - https://www.facebook.com/BitcoinBitnovo
 ---
 
 **Update 2022-01-31**: This app is not in store anymore.

@@ -8,10 +8,10 @@ users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 appCountry: 
 released: 2018-04-12
-updated: 2021-09-28
-version: "0.4.17"
-stars: 4.1
-ratings: 376
+updated: 2022-03-01
+version: "0.4.18"
+stars: 4.0958905
+ratings: 377
 reviews: 41
 size: 29M
 website: https://acinq.co
@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2019-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: acinq_co
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: acinq_co
+social:
 redirect_from:
   - /eclair/
   - /fr.acinq.eclair.wallet.mainnet2/

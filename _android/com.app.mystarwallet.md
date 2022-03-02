@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app has no listed website. It describes itself as an app that has a Bitcoin, Ethereum as well as ERC-20 wallets. 

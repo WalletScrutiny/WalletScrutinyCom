@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-05-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app disappeared from the Play Store before reaching 1000 downloads.

@@ -8,9 +8,9 @@ users: 1000000
 appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
-updated: 2022-02-14
-version: "1.22.1"
-stars: 0.0
+updated: 2022-02-25
+version: "1.22.2"
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: currencycom
-providerLinkedIn: currencycom/
-providerFacebook: currencycom/
-providerReddit: 
-
+twitter: currencycom
+social:
+  - https://www.linkedin.com/company/currencycom/
+  - https://www.facebook.com/currencycom/
 redirect_from:
   - /com.currency.exchange.prod2/
   - /posts/com.currency.exchange.prod2/

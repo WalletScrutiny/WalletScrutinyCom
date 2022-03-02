@@ -8,11 +8,11 @@ appId: ph.pdax.mobile
 appCountry: ph
 idd: 1531246346
 released: 2020-12-18
-updated: 2022-01-31
-version: "1.5.22"
-stars: 3.15984
-reviews: 244
-size: 101443584
+updated: 2022-02-18
+version: "1.5.35"
+stars: 3.19048
+reviews: 252
+size: 103651328
 website: https://pdax.ph
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: pdaxph
-providerLinkedIn: pdaxph
-providerFacebook: pdaxph
-providerReddit: 
-
-redirect_from:
-
+twitter: pdaxph
+social:
+  - https://www.linkedin.com/company/pdaxph
+  - https://www.facebook.com/pdaxph
 ---
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.

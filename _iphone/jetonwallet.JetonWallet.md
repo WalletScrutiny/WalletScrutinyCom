@@ -8,11 +8,11 @@ appId: jetonwallet.JetonWallet
 appCountry: us
 idd: 1190240579
 released: 2017-01-04
-updated: 2022-01-04
-version: "3.4.5"
+updated: 2022-02-17
+version: "3.5.1"
 stars: 4.22222
 reviews: 18
-size: 142693376
+size: 143598592
 website: https://jeton.com
 repository: 
 issue: 
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: jetonwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: jetonwallet
+social:
 ---
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.

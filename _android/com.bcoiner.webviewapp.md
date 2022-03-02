@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-06-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /bcoiner/
   - /com.bcoiner.webviewapp/

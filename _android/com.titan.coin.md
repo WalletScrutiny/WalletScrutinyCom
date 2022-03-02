@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-11-02
 updated: 2021-12-22
 version: "2.51.0"
-stars: 4.1
+stars: 4.111111
 ratings: 180
 reviews: 4
 size: 28M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: ProjectsTitan
-providerLinkedIn: titanprojects
-providerFacebook: titanprojectsco
-providerReddit: 
-
+twitter: ProjectsTitan
+social:
+  - https://www.linkedin.com/company/titanprojects
+  - https://www.facebook.com/titanprojectsco
 redirect_from:
-
 ---
 
 ## App Description

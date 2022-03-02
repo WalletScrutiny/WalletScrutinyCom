@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-01
 updated: 2021-08-04
 version: "1.15.1-r"
-stars: 4.5
-ratings: 12489
-reviews: 943
+stars: 4.49375
+ratings: 12608
+reviews: 950
 size: 32M
 website: https://enjin.io/wallet
 repository: 
@@ -24,14 +24,12 @@ verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: enjin
-providerLinkedIn: enjin
-providerFacebook: enjinsocial
-providerReddit: EnjinCoin
-
+twitter: enjin
+social:
+  - https://www.linkedin.com/company/enjin
+  - https://www.facebook.com/enjinsocial
+  - https://www.reddit.com/r/EnjinCoin
 redirect_from:
-
 ---
 
 Enjin: Blockchain & Crypto Wallet

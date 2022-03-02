@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: "ZEBEDEE Gaming Bitcoin Wallet"
+title: "ZEBEDEE: Play and earn Bitcoin"
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 50000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2022-02-04
-version: "11.2.0"
-stars: 4.2
-ratings: 340
+updated: 2022-03-01
+version: "2.29.21"
+stars: 4.1904764
+ratings: 358
 reviews: 15
-size: 46M
+size: 52M
 website: https://zebedee.io
 repository: 
 issue: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: zebedeeio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: zebedeeio
+social:
 redirect_from:
-
 ---
 
 This app is very gamer focused and does no mention at all security aspects or

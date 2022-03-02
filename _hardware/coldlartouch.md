@@ -5,32 +5,29 @@ authors:
 - kiwilamb
 - felipe
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 86, 0.86]
 weight: 6
+provider: "ColdLar Information Technology Co."
+providerWebsite: https://www.coldlar.com/
 website: https://www.coldlar.com/productDetails/10065
 shop: https://www.coldlar.com/productDetails/10065
-company: ColdLar Information Technology Co.
-companywebsite: https://www.coldlar.com/
 country: CH
 price: 28.8USD
 repository: 
-issue:
+issue: 
 icon: coldlartouch.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2021-07-11
-signer:
-reviewArchive:
-
-
-providerTwitter: Coldlar
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Coldlar
+social: 
 ---
 
 Without a screen and whitout a button, this device cannot provide basic security of hardware wallets.

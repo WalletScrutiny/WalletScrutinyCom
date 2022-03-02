@@ -8,22 +8,32 @@ users: 10000
 appId: it.airgap.vault
 appCountry: 
 released: 2018-08-06
-updated: 2022-02-02
-version: "3.14.0"
-stars: 4.2
-ratings: 106
+updated: 2022-02-23
+version: "3.15.0"
+stars: 4.225
+ratings: 110
 reviews: 11
 size: 69M
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/103
+issue: https://github.com/airgap-it/airgap-vault/issues/127
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2022-01-31
+verdict: obfuscated
+date: 2022-03-01
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-02-17
+  version: "3.14.0"
+  appHash: 43050fca861ef7dcf835a0bfb269e01177ba01aa292f134b38da26bb569c1f2b
+  gitRevision: 7fd1eea72f9d36614c1777eed7de2de5f4044c76
+  verdict: reproducible
+- date: 2022-01-31
+  version: "3.13.1"
+  appHash: e380196238627787f20152eb6a4808f8f201a285465715cd98b96780cbcb2c52
+  gitRevision: 697497f5a850b1773b8626ab100442c4bf223ff0
+  verdict: reproducible
 - date: 2022-01-24
   version: "3.13.0"
   appHash: c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4
@@ -129,11 +139,9 @@ reviewArchive:
   appHash: d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987
   gitRevision: 1b2995ed2db18e2517812f7fbb3b2aca04a4653e
   verdict: nonverifiable
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.vault/
   - /posts/it.airgap.vault/
@@ -147,25 +155,29 @@ which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.13.1
-apkVersionCode: 38100
-verdict:        reproducible
-appHash:        e380196238627787f20152eb6a4808f8f201a285465715cd98b96780cbcb2c52
-commit:         d6768326d35ec27474868243d132a076eeeb88ff
+apkVersionName: 3.15.0
+apkVersionCode: 38901
+verdict:        
+appHash:        44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453
+commit:         95acb6433b7f9e74c45266ec64119b9da55520b0
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_38100/META-INF: PAPERS.SF
+Files /home/leo/tmp/fromPlay_it.airgap.vault_38901/assets/public/index.html and /home/leo/tmp/fromBuild_it.airgap.vault_38901/assets/public/index.html differ
+Only in /home/leo/tmp/fromBuild_it.airgap.vault_38901/assets/public: main.75ce8505f84293f82c3f.js
+Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/assets/public: main.c8dc3831a497537675b1.js
+Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: MANIFEST.MF
+Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: PAPERS.RSA
+Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object d6768326d35ec27474868243d132a076eeeb88ff
-type commit
-tag v3.13.1
-tagger Mike Godenzi  1643265563 +0100
 
-version 3.13.1
 ===== End Results =====
 ```
 
-Which is what we want to see to give it the verdict **reproducible**.
+The app is not reproducible and as with prior versions, the differing code is
+**obfuscated**.
+
+As the provider doesn't address this issue since at least one year now, we
+probably won't update this app to "reproducible" prior to
+[this issue](https://github.com/airgap-it/airgap-vault/issues/103) being
+resolved in a meaningful way.

@@ -11,7 +11,7 @@ released: 2021-04-30
 updated: 2021-07-19
 version: "1.1.7"
 stars: 3.4
-ratings: 105
+ratings: 106
 reviews: 4
 size: 13M
 website: https://wyretrade.com/
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: wyretrade
-providerLinkedIn: 
-providerFacebook: Wyretrade-105994018302814
-providerReddit: 
-
+twitter: wyretrade
+social:
+  - https://www.facebook.com/Wyretrade-105994018302814
 redirect_from:
-
 ---
 
 ## App Description

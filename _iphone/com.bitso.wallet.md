@@ -8,11 +8,11 @@ appId: com.bitso.wallet
 appCountry: 
 idd: 1292836438
 released: 2018-02-19
-updated: 2022-02-08
-version: "3.3.1"
-stars: 4.65385
-reviews: 494
-size: 110664704
+updated: 2022-02-22
+version: "3.4.1"
+stars: 4.66987
+reviews: 521
+size: 111312896
 website: https://bitso.com/app
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: Bitso
-providerLinkedIn: 
-providerFacebook: bitsoex
-providerReddit: 
-
-redirect_from:
-
+twitter: Bitso
+social:
+  - https://www.facebook.com/bitsoex
 ---
 
 Bitso appears to be an exchange and their statement on security on their website

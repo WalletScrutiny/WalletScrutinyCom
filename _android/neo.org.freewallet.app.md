@@ -11,8 +11,8 @@ appCountry:
 released: 2017-11-29
 updated: 2021-09-20
 version: "2.6.8"
-stars: 3.1
-ratings: 279
+stars: 3.08
+ratings: 281
 reviews: 17
 size: 8.5M
 website: https://freewallet.org/
@@ -30,13 +30,10 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nobtc
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 redirect_from:
-
 ---
 
 ### App Description

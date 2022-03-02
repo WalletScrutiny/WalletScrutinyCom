@@ -9,11 +9,11 @@ users: 10000000
 appId: com.wrx.wazirx
 appCountry: in
 released: 2018-07-16
-updated: 2022-02-14
-version: "2.19"
-stars: 4.2
-ratings: 529695
-reviews: 105468
+updated: 2022-03-02
+version: "2.20.2"
+stars: 4.190681
+ratings: 543310
+reviews: 107020
 size: 11M
 website: https://wazirx.com
 repository: 
@@ -30,13 +30,11 @@ reviewArchive:
   appHash: 
   gitRevision: ef345dd316ca2a0ef9a19f23680a94e1a42fd171
   verdict: nowallet
-providerTwitter: WazirxIndia
-providerLinkedIn: wazirx
-providerFacebook: wazirx
-providerReddit: 
-
+twitter: WazirxIndia
+social:
+  - https://www.linkedin.com/company/wazirx
+  - https://www.facebook.com/wazirx
 redirect_from:
-
 ---
 
 **Update 2021-08-09**: As this exchange allows holding your BTC in the app such

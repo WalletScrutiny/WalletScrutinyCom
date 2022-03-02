@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-04
 updated: 2022-02-05
 version: "5.0.0"
-stars: 3.8
-ratings: 7559
-reviews: 1374
+stars: 3.922747
+ratings: 7732
+reviews: 1416
 size: 102M
 website: https://celsius.network
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: celsiusnetwork
-providerLinkedIn: celsiusnetwork
-providerFacebook: CelsiusNetwork
-providerReddit: 
-
+twitter: celsiusnetwork
+social:
+  - https://www.linkedin.com/company/celsiusnetwork
+  - https://www.facebook.com/CelsiusNetwork
 redirect_from:
   - /network.celsius.wallet/
 ---

@@ -19,20 +19,17 @@ repository:
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-30
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 **NOTE:** This app is not to be confused with {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
 

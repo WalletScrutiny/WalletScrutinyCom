@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-05-20
 updated: 2021-11-29
 version: "2.5.0"
-stars: 3.7
-ratings: 703
+stars: 3.648148
+ratings: 707
 reviews: 40
 size: 11M
 website: https://tradesanta.com
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description and Verdict

@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-07-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /btcmine.btcwallet/
 ---

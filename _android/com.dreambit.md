@@ -10,7 +10,7 @@ appCountry: lv
 released: 2021-02-16
 updated: 2021-09-10
 version: "1.0.0.50"
-stars: 3.8
+stars: 3.8095238
 ratings: 21
 reviews: 8
 size: 59M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is from the same developer of:

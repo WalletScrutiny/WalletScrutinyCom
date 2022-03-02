@@ -8,11 +8,11 @@ appId: capital.spatium.wallet
 appCountry: us
 idd: 1404844195
 released: 2018-08-06
-updated: 2022-02-09
-version: "3.0.60"
-stars: 4.75758
-reviews: 33
-size: 49123328
+updated: 2022-02-28
+version: "3.0.63"
+stars: 4.75
+reviews: 32
+size: 52731904
 website: https://spatium.net/
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: spatium_news
-providerLinkedIn: spatium-capital
-providerFacebook: spatiumnews
-providerReddit: 
-
-redirect_from:
-
+twitter: spatium_news
+social:
+  - https://www.linkedin.com/company/spatium-capital
+  - https://www.facebook.com/spatiumnews
 ---
 
 {% include copyFromAndroid.html %}

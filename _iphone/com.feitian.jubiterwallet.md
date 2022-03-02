@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-09-08
 signer: 
 reviewArchive:
-
-providerTwitter: JuBiterWallet
-providerLinkedIn: jubiter-wallet
-providerFacebook: JuBiterWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: JuBiterWallet
+social:
+  - https://www.linkedin.com/company/jubiter-wallet
+  - https://www.facebook.com/JuBiterWallet
 ---
 
 {% include copyFromAndroid.html %}

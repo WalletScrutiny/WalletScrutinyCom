@@ -4,15 +4,15 @@ title: "Bitvavo | Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bitvavo.android
 appCountry: nl
 released: 2020-08-19
-updated: 2021-12-28
+updated: 2022-02-25
 version: "1.0.100"
-stars: 2.3
-ratings: 2183
-reviews: 1243
+stars: 1.9244186
+ratings: 2272
+reviews: 1318
 size: 178M
 website: https://bitvavo.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.

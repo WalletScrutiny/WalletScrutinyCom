@@ -10,9 +10,9 @@ appCountry: lv
 released: 2021-02-28
 updated: 2021-11-18
 version: "14"
-stars: 4.2
-ratings: 152
-reviews: 40
+stars: 4.15
+ratings: 154
+reviews: 41
 size: 40M
 website: http://nordfx.com
 repository: 
@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: NordFX
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: NordFX
+social:
 redirect_from:
-
 ---
 
 ## App Description

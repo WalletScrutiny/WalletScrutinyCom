@@ -25,14 +25,9 @@ verdict: ftbfs
 date: 2021-12-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is self-custodial:

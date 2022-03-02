@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-29
 updated: 2020-09-20
 version: "0.0.19"
-stars: 4.6
+stars: 4.647059
 ratings: 103
 reviews: 10
 size: 51M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-09-16
 signer: 
 reviewArchive:
-
-providerTwitter: UnifyreWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: UnifyreWallet
+social:
 redirect_from:
-
 ---
 
 Once the user's account has been setup, the user can then proceed with verification.

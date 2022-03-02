@@ -8,9 +8,9 @@ users: 1000
 appId: com.riodefi.store
 appCountry: us
 released: 2021-04-29
-updated: 2022-01-25
-version: "2.3.0"
-stars: 0.0
+updated: 2022-02-15
+version: "2.4.0"
+stars: 
 ratings: 
 reviews: 
 size: 21M
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: riodefiofficial
-providerLinkedIn: riodefiofficial
-providerFacebook: riodefiofficial
-providerReddit: 
-
+twitter: riodefiofficial
+social:
+  - https://www.linkedin.com/company/riodefiofficial
+  - https://www.facebook.com/riodefiofficial
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,11 @@ verdict: nosource
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: coinpalapp
-providerLinkedIn: coinpal
-providerFacebook: coinpal.me
-providerReddit: 
-
+twitter: coinpalapp
+social:
+  - https://www.linkedin.com/company/coinpal
+  - https://www.facebook.com/coinpal.me
 redirect_from:
-
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2022-02-01
-version: "3.10"
-stars: 4.875
-reviews: 544
-size: 56423424
+updated: 2022-02-11
+version: "3.10.1"
+stars: 4.87302
+reviews: 567
+size: 56427520
 website: https://keys.casa
 repository: 
 issue: 
@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: CasaHODL
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: CasaHODL
+social:
 ---
 
 The following is the review of their Play Store app which equally applies to the

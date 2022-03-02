@@ -10,7 +10,7 @@ appCountry: sg
 released: 2020-11-08
 updated: 2021-12-21
 version: "1.5.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 74M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

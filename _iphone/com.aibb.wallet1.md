@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: BLOCKBANKapp
-providerLinkedIn: 
-providerFacebook: blockbank
-providerReddit: 
-
-redirect_from:
-
+twitter: BLOCKBANKapp
+social:
+  - https://www.facebook.com/blockbank
 ---
 
 **Update 2021-11-03**: This app is no more.

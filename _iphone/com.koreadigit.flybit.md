@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: flybit.exchange
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/flybit.exchange
 ---
 
 {% include copyFromAndroid.html %}

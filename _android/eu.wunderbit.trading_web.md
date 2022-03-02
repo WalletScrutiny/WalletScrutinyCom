@@ -10,7 +10,7 @@ appCountry:
 released: 2021-01-19
 updated: 2021-01-19
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 15M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: Wunder_bit
-providerLinkedIn: 
-providerFacebook: wunderbit.co
-providerReddit: 
-
+twitter: Wunder_bit
+social:
+  - https://www.facebook.com/wunderbit.co
 redirect_from:
-
 ---
 
 ## App Description

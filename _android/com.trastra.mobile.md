@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-19
 updated: 2022-02-01
 version: "2.6.4"
-stars: 4.6
-ratings: 508
-reviews: 51
+stars: 4.5070424
+ratings: 513
+reviews: 53
 size: 93M
 website: https://trastra.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: Trastra_ltd
-providerLinkedIn: trastra
-providerFacebook: trastra.ltd
-providerReddit: 
-
+twitter: Trastra_ltd
+social:
+  - https://www.linkedin.com/company/trastra
+  - https://www.facebook.com/trastra.ltd
 redirect_from:
-
 ---
 
 This app is only available for EU residents, from its Google Play description:

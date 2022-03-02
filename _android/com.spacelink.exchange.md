@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-21
 updated: 2021-05-21
 version: "4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 1.9M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -4,32 +4,29 @@ appId: xzen
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://xzen.io/
 website: 
 shop: 
-company: 
-companywebsite: https://xzen.io/
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: xzen.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-07-10
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 The provider's [website states](https://xzen.io/) that this hardware wallet is no longer supported.

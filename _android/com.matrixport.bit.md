@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-15
 updated: 2022-01-10
 version: "1.0.3"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 4.3333335
+ratings: 245
+reviews: 4
 size: 56M
 website: https://www.bit.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: bitcom_exchange
-providerLinkedIn: bitcom-exchange
-providerFacebook: bitcom.exchange
-providerReddit: 
-
+twitter: bitcom_exchange
+social:
+  - https://www.linkedin.com/company/bitcom-exchange
+  - https://www.facebook.com/bitcom.exchange
 redirect_from:
-
 ---
 
 Bit.com comes from the [same providers](https://play.google.com/store/apps/developer?id=Matrixport) of {% include walletLink.html wallet='android/com.matrixport.mark' verdict='true' %}

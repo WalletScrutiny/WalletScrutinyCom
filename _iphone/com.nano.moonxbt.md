@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: MoonXBT_Global
-providerLinkedIn: 
-providerFacebook: MoonXBT
-providerReddit: MoonXBT
-
-redirect_from:
-
+twitter: MoonXBT_Global
+social:
+  - https://www.facebook.com/MoonXBT
+  - https://www.reddit.com/r/MoonXBT
 ---
 
 {% include copyFromAndroid.html %}

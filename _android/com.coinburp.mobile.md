@@ -10,7 +10,7 @@ appCountry:
 released: 2020-06-17
 updated: 2022-01-05
 version: "1.0.15"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 43M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-06-04
 signer: 
 reviewArchive:
-
-providerTwitter: coinburp
-providerLinkedIn: coinburp
-providerFacebook: thecoinburp
-providerReddit: 
-
+twitter: coinburp
+social:
+  - https://www.linkedin.com/company/coinburp
+  - https://www.facebook.com/thecoinburp
 redirect_from:
-
 ---
 
 On the provider's website we find how private keys are managed, under [help section "Account Security"](https://help.coinburp.com/hc/en-gb/articles/360017544100-Are-Balances-Stored-on-CoinBurp-Insured-) we find their custodial provider is Bitpay.

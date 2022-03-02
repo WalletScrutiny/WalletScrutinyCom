@@ -10,8 +10,8 @@ appCountry:
 released: 2018-07-01
 updated: 2022-02-15
 version: "5.19.0"
-stars: 3.2
-ratings: 4017
+stars: 3.178218
+ratings: 4018
 reviews: 61
 size: 70M
 website: https://cobo.com
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: coboofficial
-providerFacebook: coboOfficial
-providerReddit: 
-
+twitter: Cobo_Wallet
+social:
+  - https://www.linkedin.com/company/coboofficial
+  - https://www.facebook.com/coboOfficial
 redirect_from:
   - /cobo/
   - /cobo.wallet/

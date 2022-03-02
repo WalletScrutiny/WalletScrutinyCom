@@ -8,11 +8,11 @@ users: 100000
 appId: com.quoine.liquid
 appCountry: us
 released: 2019-01-10
-updated: 2022-01-30
-version: "1.17.4"
-stars: 3.2
-ratings: 794
-reviews: 33
+updated: 2022-02-28
+version: "1.17.6.1"
+stars: 3.2040815
+ratings: 799
+reviews: 34
 size: 63M
 website: https://www.liquid.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: Liquid_Global
-providerLinkedIn: quoine
-providerFacebook: LiquidGlobal
-providerReddit: 
-
+twitter: Liquid_Global
+social:
+  - https://www.linkedin.com/company/quoine
+  - https://www.facebook.com/LiquidGlobal
 redirect_from:
-
 ---
 
 ## App Description

@@ -8,12 +8,12 @@ users: 100000
 appId: com.cointiger.ex
 appCountry: us
 released: 2020-07-23
-updated: 2021-12-31
-version: "5.0.60.2"
-stars: 4.5
-ratings: 12367
-reviews: 108
-size: 43M
+updated: 2022-02-15
+version: "5.1.0.0"
+stars: 4.4166665
+ratings: 13093
+reviews: 130
+size: 50M
 website: https://www.cointiger.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: CoinTigerEX
-providerLinkedIn: 
-providerFacebook: CoinTigerEX
-providerReddit: CoinTigerExchange
-
+twitter: CoinTigerEX
+social:
+  - https://www.facebook.com/CoinTigerEX
+  - https://www.reddit.com/r/CoinTigerExchange
 redirect_from:
-
 ---
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)

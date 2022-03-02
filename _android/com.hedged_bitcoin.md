@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: HedgedBitcoin
-providerLinkedIn: hedgedbitcoin
-providerFacebook: HedgedBitcoin
-providerReddit: 
-
+twitter: HedgedBitcoin
+social:
+  - https://www.linkedin.com/company/hedgedbitcoin
+  - https://www.facebook.com/HedgedBitcoin
 redirect_from:
-
 ---
 
 ## App Description

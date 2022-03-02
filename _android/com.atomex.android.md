@@ -19,20 +19,17 @@ repository: https://github.com/atomex-me/atomex.mobile
 issue: https://github.com/atomex-me/atomex.mobile/issues/24
 icon: com.atomex.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nonverifiable
-date: 2021-04-11
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: atomex_official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: atomex_official
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-12**: This app is not on the Store anymore.
 
 > Atomex — is a non-custodial crypto wallet
 

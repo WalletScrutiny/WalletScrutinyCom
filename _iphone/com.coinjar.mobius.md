@@ -10,8 +10,8 @@ idd: 958797429
 released: 2015-02-04
 updated: 2022-02-03
 version: "2.19.0"
-stars: 4.67588
-reviews: 11246
+stars: 4.67466
+reviews: 11348
 size: 62920704
 website: https://www.coinjar.com/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: getcoinjar
-providerLinkedIn: coinjar
-providerFacebook: CoinJar
-providerReddit: 
-
-redirect_from:
-
+twitter: getcoinjar
+social:
+  - https://www.linkedin.com/company/coinjar
+  - https://www.facebook.com/CoinJar
 ---
 
 {% include copyFromAndroid.html %}

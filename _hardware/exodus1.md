@@ -6,34 +6,32 @@ authors:
 - leo
 - danny
 released: 2018-10-23
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "HTC"
+providerWebsite: https://www.htcexodus.com
 website: https://www.htcexodus.com/us/cryptophone/exodus1/
 shop: 
-company: HTC
-companywebsite: https://www.htcexodus.com
 country: US
 price: 
 repository: https://github.com/htczion
-issue:
+issue: 
 icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 meta: defunct
 verdict: nosource
 date: 2021-11-26
-signer:
-reviewArchive:
-
-
-providerTwitter: htcexodus
-providerLinkedIn: 
-providerFacebook: htcexodus
-providerReddit: HTCExodus
+signer: 
+reviewArchive: 
+twitter: htcexodus
+social: 
+  - https://www.facebook.com/htcexodus
+  - https://www.reddit.com/r/HTCExodus
 ---
-
 
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.
 

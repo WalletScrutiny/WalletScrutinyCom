@@ -8,10 +8,10 @@ users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2022-02-14
-version: "1.39.3"
-stars: 4.3
-ratings: 1205
+updated: 2022-02-16
+version: "1.39.4"
+stars: 4.327586
+ratings: 1225
 reviews: 27
 size: 40M
 website: https://expcapital.com
@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 

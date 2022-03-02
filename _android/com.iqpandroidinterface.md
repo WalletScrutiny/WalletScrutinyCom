@@ -11,9 +11,9 @@ appCountry: ru
 released: 2021-10-01
 updated: 2021-10-13
 version: "1.2"
-stars: 4.6
-ratings: 612
-reviews: 133
+stars: 4.53
+ratings: 613
+reviews: 134
 size: 34M
 website: https://iqwallet.io/
 repository: 
@@ -25,14 +25,9 @@ verdict: obfuscated
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## ⚠️ Update and Warning: 2021-11-09

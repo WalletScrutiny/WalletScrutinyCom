@@ -23,14 +23,8 @@ verdict: wip
 date: 2021-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: iSafePal
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: iSafePal
+social:
 ---
 
 This app appears to have disappeared from the App Store but

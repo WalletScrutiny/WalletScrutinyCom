@@ -10,7 +10,7 @@ appCountry: gb
 released: 2021-04-02
 updated: 2022-02-10
 version: "4.5.0"
-stars: 4.6
+stars: 4.5625
 ratings: 36
 reviews: 28
 size: 23M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

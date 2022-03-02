@@ -9,12 +9,12 @@ users: 10000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2022-01-28
-version: "3.126.1"
-stars: 3.7
-ratings: 272755
-reviews: 35766
-size: 119M
+updated: 2022-02-25
+version: "3.129.0"
+stars: 3.6807127
+ratings: 281384
+reviews: 36738
+size: 118M
 website: https://www.crypto.com/
 repository: 
 issue: 
@@ -25,12 +25,11 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: cryptocom
-providerLinkedIn: cryptocom
-providerFacebook: CryptoComOfficial
-providerReddit: Crypto_com
-
+twitter: cryptocom
+social:
+  - https://www.linkedin.com/company/cryptocom
+  - https://www.facebook.com/CryptoComOfficial
+  - https://www.reddit.com/r/Crypto_com
 redirect_from:
   - /co.mona.android/
   - /crypto.com/

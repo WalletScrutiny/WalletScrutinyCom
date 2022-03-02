@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: nayuta_en
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: nayuta_en
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

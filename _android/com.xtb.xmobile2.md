@@ -10,9 +10,9 @@ appCountry:
 released: 2014-12-17
 updated: 2022-01-27
 version: "Varies with device"
-stars: 4.4
-ratings: 21977
-reviews: 65
+stars: 4.49
+ratings: 22753
+reviews: 67
 size: Varies with device
 website: http://www.xtb.com
 repository: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: xtbuk
-providerLinkedIn: xtb-international
-providerFacebook: xtb
-providerReddit: 
-
+twitter: xtbuk
+social:
+  - https://www.linkedin.com/company/xtb-international
+  - https://www.facebook.com/xtb
 redirect_from:
-
 ---
 
 The app description:

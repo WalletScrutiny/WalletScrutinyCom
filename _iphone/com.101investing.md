@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 101Investing_eu
-providerLinkedIn: 73520735
-providerFacebook: 101Investing
-providerReddit: 
-
-redirect_from:
-
+twitter: 101Investing_eu
+social:
+  - https://www.linkedin.com/company/73520735
+  - https://www.facebook.com/101Investing
 ---
 
 {% include copyFromAndroid.html %}

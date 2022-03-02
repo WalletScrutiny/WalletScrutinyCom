@@ -23,14 +23,9 @@ verdict: nobtc
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Oracle_Wallet
-providerLinkedIn: 
-providerFacebook: oracle8.org
-providerReddit: 
-
-redirect_from:
-
+twitter: Oracle_Wallet
+social:
+  - https://www.facebook.com/oracle8.org
 ---
 
 {% include copyFromAndroid.html %}

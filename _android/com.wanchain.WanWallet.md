@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.2
-ratings: 118
+stars: 3.3333333
+ratings: 120
 reviews: 11
 size: 65M
 website: https://www.wanchain.org
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: wanchain_org
-providerLinkedIn: 
-providerFacebook: wanchainfoundation
-providerReddit: wanchain
-
+twitter: wanchain_org
+social:
+  - https://www.facebook.com/wanchainfoundation
+  - https://www.reddit.com/r/wanchain
 redirect_from:
-
 ---
 
 **UPDATE 2021-11-23** There's no source code for the android app on Github, making the app **not verifiable.**

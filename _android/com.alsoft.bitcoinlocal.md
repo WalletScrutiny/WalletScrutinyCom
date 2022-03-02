@@ -10,7 +10,7 @@ appCountry:
 released: 2018-02-15
 updated: 2021-02-28
 version: "4.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.7M
@@ -19,19 +19,14 @@ repository:
 issue: 
 icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-10
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

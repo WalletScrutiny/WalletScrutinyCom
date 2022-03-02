@@ -10,7 +10,7 @@ appCountry:
 released: 2017-02-07
 updated: 2022-01-30
 version: "90.1.100"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 15M
@@ -29,13 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: b9fc136cf1e643675475004241479f776599d7c5
   verdict: nobtc
-providerTwitter: Kapital_RS
-providerLinkedIn: 
-providerFacebook: kapitalRS
-providerReddit: 
-
+twitter: Kapital_RS
+social:
+  - https://www.facebook.com/kapitalRS
 redirect_from:
-
 ---
 
 The Google Play description does not have any reference to "bitcoin", "cryptocurrency", "btc" or "wallets". At the interim, this app seems to handle other traditional financial instruments such as forex, index, stocks, commodities, ETFs and CFDs.

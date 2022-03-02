@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: Starteos
-providerLinkedIn: 
-providerFacebook: starteos.io.7
-providerReddit: Starteos
-
-redirect_from:
-
+twitter: Starteos
+social:
+  - https://www.facebook.com/starteos.io.7
+  - https://www.reddit.com/r/Starteos
 ---
 
 {% include copyFromAndroid.html %}

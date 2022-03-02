@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-05-19
 updated: 2022-02-03
 version: "3.51.0"
-stars: 4.2
-ratings: 238
-reviews: 18
+stars: 4.207547
+ratings: 247
+reviews: 19
 size: 36M
 website: https://alphawallet.com/
 repository: https://github.com/alphawallet
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Alpha_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AlphaWallet
-
+twitter: Alpha_wallet
+social:
+  - https://www.reddit.com/r/AlphaWallet
 redirect_from:
-
 ---
 
 ## App Description

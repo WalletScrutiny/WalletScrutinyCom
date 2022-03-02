@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: Rekeningkucom
-providerLinkedIn: rekeningku-com
-providerFacebook: Rekeningkucom
-providerReddit: 
-
-redirect_from:
-
+twitter: Rekeningkucom
+social:
+  - https://www.linkedin.com/company/rekeningku-com
+  - https://www.facebook.com/Rekeningkucom
 ---
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.

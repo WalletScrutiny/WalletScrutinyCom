@@ -10,11 +10,11 @@ appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
 released: 2018-01-20
-updated: 2022-01-30
-version: "0.34.2"
-stars: 4.8189
-reviews: 254
-size: 80860160
+updated: 2022-02-24
+version: "0.35.1"
+stars: 4.81008
+reviews: 258
+size: 66290688
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork
 issue: 
@@ -25,14 +25,10 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: MixinMessenger
-providerLinkedIn: 
-providerFacebook: MixinNetwork
-providerReddit: mixin
-
-redirect_from:
-
+twitter: MixinMessenger
+social:
+  - https://www.facebook.com/MixinNetwork
+  - https://www.reddit.com/r/mixin
 ---
 
 {% include copyFromAndroid.html %}

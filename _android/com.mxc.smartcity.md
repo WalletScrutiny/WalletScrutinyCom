@@ -4,16 +4,16 @@ title: "DataDash"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.mxc.smartcity
 appCountry: us
 released: 2020-05-18
-updated: 2022-01-31
-version: "2.0.6"
-stars: 3.8
-ratings: 1935
-reviews: 59
-size: 54M
+updated: 2022-02-25
+version: "2.0.7"
+stars: 3.7407408
+ratings: 1945
+reviews: 61
+size: 47M
 website: https://www.mxc.org
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: mxcfoundation
-providerLinkedIn: 
-providerFacebook: MXCfoundation
-providerReddit: MXC_Foundation
-
+twitter: mxcfoundation
+social:
+  - https://www.facebook.com/MXCfoundation
+  - https://www.reddit.com/r/MXC_Foundation
 redirect_from:
-
 ---
 
 This app claims to provide staking abilities to various tokens. It also claims that its MXC Supernodes prove LPWAN (Low Power Wide Area Network) services to the world. 

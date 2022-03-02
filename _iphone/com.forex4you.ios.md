@@ -10,8 +10,8 @@ idd: 1008039704
 released: 2015-10-11
 updated: 2021-12-10
 version: "5.0"
-stars: 4.74815
-reviews: 270
+stars: 4.74908
+reviews: 271
 size: 112004096
 website: https://www.forex4you.com/en/contacts/
 repository: 
@@ -28,13 +28,8 @@ reviewArchive:
   appHash: 
   gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
   verdict: nosendreceive
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

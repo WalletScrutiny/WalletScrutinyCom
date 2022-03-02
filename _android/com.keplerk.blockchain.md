@@ -10,7 +10,7 @@ appCountry:
 released: 2020-02-14
 updated: 2021-11-25
 version: "3.4.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: BykepFR
-providerLinkedIn: bykepfr
-providerFacebook: BykepFR
-providerReddit: 
-
+twitter: BykepFR
+social:
+  - https://www.linkedin.com/company/bykepfr
+  - https://www.facebook.com/BykepFR
 redirect_from:
-
 ---
 
 ### Google Play

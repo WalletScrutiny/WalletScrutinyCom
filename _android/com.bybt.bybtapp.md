@@ -24,14 +24,9 @@ verdict: fake
 date: 2021-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: bybt_com
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: bybt_com
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-04**: The new app coinglass does not have a bitcoin wallet and seems to have a general cryptocurrency information dashboard with cryptocurrency prices and charts.

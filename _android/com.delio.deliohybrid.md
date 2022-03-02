@@ -10,7 +10,7 @@ appCountry: cn
 released: 2020-02-27
 updated: 2022-02-11
 version: "1.3.10"
-stars: 2.6
+stars: 2.6458333
 ratings: 48
 reviews: 37
 size: 29M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: happydelio
-providerLinkedIn: 
-providerFacebook: delio.io
-providerReddit: 
-
+twitter: happydelio
+social:
+  - https://www.facebook.com/delio.io
 redirect_from:
-
 ---
 
 ## App Description

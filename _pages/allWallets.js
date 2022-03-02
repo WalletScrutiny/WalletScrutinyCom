@@ -15,8 +15,6 @@ permalink: /allWallets.js
     apps.forEach(w => {
       w.category = category
       w.folder = folder
-      w.message = window.verdicts[w.verdict].message
-      w.verdictText = window.verdicts[w.verdict].title
       window.wallets.push(w)
     })
   })

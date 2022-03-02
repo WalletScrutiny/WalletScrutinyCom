@@ -10,7 +10,7 @@ appCountry:
 released: 2017-01-30
 updated: 2021-09-30
 version: "1.6.24"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.0M
@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2020-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /io.melis.clientwallet/
   - /posts/io.melis.clientwallet/

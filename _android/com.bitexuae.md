@@ -10,8 +10,8 @@ appCountry: ae
 released: 2020-02-23
 updated: 2022-02-12
 version: "3.1"
-stars: 1.7
-ratings: 127
+stars: 1.7142857
+ratings: 128
 reviews: 13
 size: 170M
 website: https://www.bitex.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: bitexexch
-providerLinkedIn: bitexworldwide
-providerFacebook: Bitexofficial
-providerReddit: 
-
+twitter: bitexexch
+social:
+  - https://www.linkedin.com/company/bitexworldwide
+  - https://www.facebook.com/Bitexofficial
 redirect_from:
-
 ---
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 

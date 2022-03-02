@@ -8,10 +8,10 @@ users: 10000
 appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
-updated: 2022-02-15
-version: "2.1.0"
-stars: 2.2
-ratings: 398
+updated: 2022-02-17
+version: "2.1.1"
+stars: 2.1666667
+ratings: 401
 reviews: 10
 size: 49M
 website: http://www.mexo.io
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: mexo_io
-providerLinkedIn: mexoio
-providerFacebook: mexo.io
-providerReddit: 
-
+twitter: mexo_io
+social:
+  - https://www.linkedin.com/company/mexoio
+  - https://www.facebook.com/mexo.io
 redirect_from:
-
 ---
 
 ### App Description

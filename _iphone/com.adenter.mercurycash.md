@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: mercurycash
-providerLinkedIn: 
-providerFacebook: mercurycash
-providerReddit: 
-
-redirect_from:
-
+twitter: mercurycash
+social:
+  - https://www.facebook.com/mercurycash
 ---
 
 This app makes no claims about self-custody so we have to assume it is a

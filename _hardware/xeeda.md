@@ -4,34 +4,32 @@ appId: xeeda
 authors:
 - danny
 released: 2018-06-06
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [67, 46, 11]
-weight: 47g
+weight: 47
+provider: 
+providerWebsite: 
 website: https://xeeda.io/
 shop: 
-company: 
-companywebsite: 
 country: US
 price: 
 repository: 
-issue:
+issue: 
 icon: xeeda.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: unreleased  
-date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: xeedaofficial
-providerLinkedIn: xeedainc
-providerFacebook: xeedaofficial
-providerReddit: 
+verdict: unreleased
+date: 2022-02-18
+signer: 
+reviewArchive: 
+twitter: xeedaofficial
+social: 
+  - https://www.linkedin.com/company/xeedainc
+  - https://www.facebook.com/xeedaofficial
 ---
-
 
 This hardware wallet was featured in [Forbes.com on May 18, 2018](https://www.forbes.com/sites/andrewrossow/2018/05/18/plugging-in-with-the-first-cold-wallet-device-for-your-smartphone/?sh=1bbfb5c97a28)
 

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: zbx_com
-providerLinkedIn: zbx
-providerFacebook: ZBXExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: zbx_com
+social:
+  - https://www.linkedin.com/company/zbx
+  - https://www.facebook.com/ZBXExchange
 ---
 
 {% include copyFromAndroid.html %}

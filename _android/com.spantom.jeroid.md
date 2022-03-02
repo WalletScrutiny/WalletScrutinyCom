@@ -10,8 +10,8 @@ appCountry: us
 released: 2020-07-05
 updated: 2021-10-14
 version: "1.3.2"
-stars: 2.6
-ratings: 247
+stars: 2.5714285
+ratings: 248
 reviews: 12
 size: 20M
 website: https://jeroid.com.ng/
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: jeroidng
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: jeroidng
+social:
 redirect_from:
-
 ---
 
 ## App Description

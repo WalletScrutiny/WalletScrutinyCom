@@ -10,7 +10,7 @@ appCountry:
 released: 2019-08-12
 updated: 2021-05-11
 version: "2.4.03"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 49M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is a Korea based centralized cryptocurrency exchange

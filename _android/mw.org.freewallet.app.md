@@ -10,9 +10,9 @@ appCountry:
 released: 2017-08-10
 updated: 2021-09-16
 version: "1.16.5"
-stars: 4.9
-ratings: 14247
-reviews: 1639
+stars: 4.8644066
+ratings: 14323
+reviews: 1646
 size: 13M
 website: https://freewallet.org/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2019-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 redirect_from:
-
 ---
 
 According to the description

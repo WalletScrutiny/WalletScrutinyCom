@@ -1,37 +1,36 @@
 ---
 title: "Sallet One"
-appId: salletOne
+appId: sallet.one
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: [118, 66, 9.7]
-weight: 138 g
+weight: 138
+provider: "Sallet One"
+providerWebsite: 
 website: https://salletone.com/
 shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
-company: Sallet One
-companywebsite: 
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/SalletOne
 issue: 
-icon: salletone.png
-bugbounty:
+icon: sallet.one.png
+bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: SalletOne
-providerLinkedIn: sallet-one-7b2b75209
-providerFacebook: salletone
-providerReddit: Sallet_Atelas
+date: 2022-02-18
+signer: 
+reviewArchive: 
+twitter: SalletOne
+social: 
+  - https://www.linkedin.com/company/sallet-one-7b2b75209
+  - https://www.facebook.com/salletone
+  - https://www.reddit.com/r/Sallet_Atelas
 ---
-
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.
 

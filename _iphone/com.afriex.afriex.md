@@ -10,8 +10,8 @@ idd: 1492022568
 released: 2020-03-06
 updated: 2022-01-18
 version: "11.42"
-stars: 4.63345
-reviews: 592
+stars: 4.63894
+reviews: 601
 size: 54270976
 website: https://afriexapp.com
 repository: 
@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: afriexapp
-providerLinkedIn: afriex
-providerFacebook: AfriexApp
-providerReddit: 
-
-redirect_from:
-
+twitter: afriexapp
+social:
+  - https://www.linkedin.com/company/afriex
+  - https://www.facebook.com/AfriexApp
 ---
 
 {% include copyFromAndroid.html %}

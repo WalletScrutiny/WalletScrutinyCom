@@ -10,8 +10,8 @@ appCountry: us
 released: 2018-07-01
 updated: 2021-08-09
 version: "3.0.0"
-stars: 3.8
-ratings: 1038
+stars: 3.8181818
+ratings: 1049
 reviews: 8
 size: 58M
 website: https://max.maicoin.com
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Max_exch
-providerLinkedIn: 
-providerFacebook: MaiCoinAssetExchange
-providerReddit: 
-
+twitter: Max_exch
+social:
+  - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from:
-
 ---
 
 Most exchanges are custodial, but to verify, we tried downloading the app and accessing the website. We downloaded the app, but it labelled our location as prohibited. The same error happened with its website. 

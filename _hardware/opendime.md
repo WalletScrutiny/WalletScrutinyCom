@@ -6,11 +6,14 @@ authors:
 - felipe
 - leo
 released: 2016-04-01
-discontinued: # date
+discontinued: 
 updated: 
 version: 
-dimensions:
+binaries: 
+dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://opendime.com/
 shop: https://store.coinkite.com/store/opendime
 country: CA
@@ -23,17 +26,14 @@ meta: ok
 verdict: plainkey
 date: 2021-07-17
 signer: 
-reviewArchive:
-- date: 2021-07-11  
-  version: "" 
+reviewArchive: 
+- date: 2021-07-11
+  version: ""
   appHash: 
-  gitRevision: 
+  gitRevision: null
   verdict: noita
-
-providerTwitter: COLDCARDwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+twitter: COLDCARDwallet
+social: 
 ---
 
 To spend the funds, the private keys need to get exposed to potentially insecure

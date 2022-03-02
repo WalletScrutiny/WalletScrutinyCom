@@ -10,8 +10,8 @@ appCountry:
 released: 2019-04-16
 updated: 2020-07-17
 version: "0.5-alpha"
-stars: 3.8
-ratings: 375
+stars: 3.85
+ratings: 378
 reviews: 13
 size: 6.7M
 website: https://wallet.coinbase.com
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is provided by the same developer as

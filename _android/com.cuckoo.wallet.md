@@ -8,9 +8,9 @@ users: 100
 appId: com.cuckoo.wallet
 appCountry: 
 released: 2021-06-29
-updated: 2022-02-15
-version: "3.2.0"
-stars: 0.0
+updated: 2022-02-17
+version: "3.2.1"
+stars: 
 ratings: 
 reviews: 
 size: 44M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: io_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: io_wallet
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-09**: This app is no more.

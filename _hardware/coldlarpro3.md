@@ -5,34 +5,30 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [123, 62.5, 8.6]
 weight: 163
+provider: "ColdLar Information Technology Co."
+providerWebsite: https://www.coldlar.com/
 website: https://www.coldlar.com/productDetails/10062
 shop: https://www.coldlar.com/productDetails/10062
-company: ColdLar Information Technology Co.
-companywebsite: https://www.coldlar.com/
 country: CH
 price: 620USD
 repository: 
-issue:
+issue: 
 icon: coldlarpro3.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-11-26
-signer:
-reviewArchive:
-
-
-providerTwitter: Coldlar
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Coldlar
+social: 
 ---
-
 
 ## Private keys can be created offline - ✔️
 

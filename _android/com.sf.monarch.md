@@ -10,8 +10,8 @@ appCountry:
 released: 2018-10-19
 updated: 2022-01-10
 version: "2.3.6"
-stars: 4.4
-ratings: 820
+stars: 4.38
+ratings: 821
 reviews: 157
 size: 17M
 website: http://splashfactory.com
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2020-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: Monarchtoken
-providerLinkedIn: monarchtoken
-providerFacebook: MonarchWallet
-providerReddit: MonarchToken
-
+twitter: Monarchtoken
+social:
+  - https://www.linkedin.com/company/monarchtoken
+  - https://www.facebook.com/MonarchWallet
+  - https://www.reddit.com/r/MonarchToken
 redirect_from:
   - /com.sf.monarch/
   - /posts/com.sf.monarch/

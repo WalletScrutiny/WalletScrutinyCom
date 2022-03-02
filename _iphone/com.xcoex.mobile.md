@@ -9,11 +9,11 @@ appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
 released: 2019-01-22
-updated: 2021-12-27
-version: "1.22.0"
+updated: 2022-02-24
+version: "1.23.0"
 stars: 
 reviews: 
-size: 57669632
+size: 58931200
 website: https://xcoex.com/
 repository: 
 issue: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-03
 signer: 
 reviewArchive:
-
-providerTwitter: OfficialXcoex
-providerLinkedIn: 
-providerFacebook: xcoex
-providerReddit: 
-
-redirect_from:
-
+twitter: OfficialXcoex
+social:
+  - https://www.facebook.com/xcoex
 ---
 
 **Update 2022-01-06**: The app is back online again. 

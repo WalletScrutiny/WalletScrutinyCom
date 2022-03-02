@@ -12,7 +12,7 @@ released: 2019-02-13
 updated: 2021-03-04
 version: "3.2.1 (build: #1196/20210304164602)"
 stars: 4.2
-ratings: 253
+ratings: 254
 reviews: 2
 size: 19M
 website: http://www.payway.ug
@@ -20,17 +20,14 @@ repository:
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2022-02-28
 signer: 
 reviewArchive:
-
-providerTwitter: pay_way
-providerLinkedIn: 
-providerFacebook: paywayuganda
-providerReddit: 
-
+twitter: pay_way
+social:
+  - https://www.facebook.com/paywayuganda
 redirect_from:
   - /com.paywaywallet/
   - /payway/

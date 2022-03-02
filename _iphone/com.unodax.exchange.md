@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Unocoin
-providerLinkedIn: unocoin
-providerFacebook: unocoin
-providerReddit: 
-
-redirect_from:
-
+twitter: Unocoin
+social:
+  - https://www.linkedin.com/company/unocoin
+  - https://www.facebook.com/unocoin
 ---
 
 {% include copyFromAndroid.html %}

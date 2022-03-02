@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-11
 updated: 2021-02-26
 version: "1.0.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 31M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.coinpoket.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-02-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

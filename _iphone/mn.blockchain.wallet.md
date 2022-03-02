@@ -18,19 +18,15 @@ repository:
 issue: 
 icon: mn.blockchain.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-10-26
+date: 2022-02-21
 signer: 
 reviewArchive:
-
-providerTwitter: EDCBlockchain
-providerLinkedIn: edcblockchain
-providerFacebook: EDCBlockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: EDCBlockchain
+social:
+  - https://www.linkedin.com/company/edcblockchain
+  - https://www.facebook.com/EDCBlockchain
 ---
 
 {% include copyFromAndroid.html %}

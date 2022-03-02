@@ -10,7 +10,7 @@ appCountry:
 released: 2018-06-20
 updated: 2021-02-01
 version: "1.37.2"
-stars: 4.1
+stars: 4.0869565
 ratings: 798
 reviews: 14
 size: 6.4M
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2022-01-28
 signer: 
 reviewArchive:
-
-providerTwitter: paytomat
-providerLinkedIn: 11433285
-providerFacebook: paytomat
-providerReddit: 
-
+twitter: paytomat
+social:
+  - https://www.linkedin.com/company/11433285
+  - https://www.facebook.com/paytomat
 redirect_from:
   - /com.paytomat/
   - /posts/com.paytomat/

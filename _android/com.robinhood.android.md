@@ -8,11 +8,11 @@ users: 10000000
 appId: com.robinhood.android
 appCountry: us
 released: 2015-08-12
-updated: 2022-02-14
+updated: 2022-02-28
 version: "Varies with device"
-stars: 3.8
-ratings: 444092
-reviews: 234020
+stars: 3.7815688
+ratings: 445358
+reviews: 234569
 size: Varies with device
 website: https://robinhood.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: RobinhoodApp
-providerLinkedIn: robinhood
-providerFacebook: robinhoodapp
-providerReddit: 
-
+twitter: RobinhoodApp
+social:
+  - https://www.linkedin.com/company/robinhood
+  - https://www.facebook.com/robinhoodapp
 redirect_from:
-
 ---
 
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 

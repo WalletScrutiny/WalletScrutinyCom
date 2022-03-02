@@ -10,8 +10,8 @@ idd: 1355493928
 released: 2018-04-27
 updated: 2021-06-08
 version: "2.3"
-stars: 4.65169
-reviews: 178
+stars: 4.65363
+reviews: 179
 size: 25708544
 website: https://trading4pro.com/
 repository: 
@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2022-01-06
 signer: 
 reviewArchive:
-
-providerTwitter: Trading4Pro
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Trading4Pro
+social:
 ---
 
 {% include copyFromAndroid.html %}

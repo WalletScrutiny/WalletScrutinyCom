@@ -10,8 +10,8 @@ idd: 1470350344
 released: 2021-04-02
 updated: 2022-01-21
 version: "1.1.1"
-stars: 4.58575
-reviews: 379
+stars: 4.59446
+reviews: 397
 size: 119739392
 website: https://coincircle.com
 repository: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: coincircle
-providerLinkedIn: coincircle
-providerFacebook: CoinCircle
-providerReddit: 
-
-redirect_from:
-
+twitter: coincircle
+social:
+  - https://www.linkedin.com/company/coincircle
+  - https://www.facebook.com/CoinCircle
 ---
 
 {% include copyFromAndroid.html %}

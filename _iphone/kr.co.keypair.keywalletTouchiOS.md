@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: quickxprotocol
-providerLinkedIn: quickx
-providerFacebook: quickxprotocol
-providerReddit: QuickX
-
-redirect_from:
-
+twitter: quickxprotocol
+social:
+  - https://www.linkedin.com/company/quickx
+  - https://www.facebook.com/quickxprotocol
+  - https://www.reddit.com/r/QuickX
 ---
 
  {% include copyFromAndroid.html %}

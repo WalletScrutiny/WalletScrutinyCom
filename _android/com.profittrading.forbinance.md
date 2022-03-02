@@ -8,12 +8,12 @@ users: 100000
 appId: com.profittrading.forbinance
 appCountry: 
 released: 2018-01-09
-updated: 2022-01-27
-version: "10.10.1"
-stars: 4.3
-ratings: 1833
+updated: 2022-02-20
+version: "10.11.2"
+stars: 4.32
+ratings: 1851
 reviews: 108
-size: 23M
+size: 25M
 website: https://profittradingapp.com/
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
-providerTwitter: ProfitTrading_
-providerLinkedIn: 
-providerFacebook: profittradingapp
-providerReddit: 
-
+twitter: ProfitTrading_
+social:
+  - https://www.facebook.com/profittradingapp
 redirect_from:
-
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

@@ -4,34 +4,30 @@ appId: evault
 authors:
 - danny
 released: 2018-04-24
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://evaultcompany.com
-shop:
-company: 
-companywebsite: 
+shop: 
 country: 
 price: 62.40GBP
-repository:
-issue:
+repository: 
+issue: 
 icon: evault.png
-bugbounty:
+bugbounty: 
 meta: obsolete
-verdict: unreleased   
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: TheEVaultCo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: TheEVaultCo
+social: 
 ---
-
 
 We found a YouTube channel with a tutorial with the name of "[Evault YouTube](https://www.youtube.com/channel/UCF8PitFzRAa7pUPFBwwhECw)". The channel lists evaultcompany.com as the home page for the Evault hardware wallet. There is currently no website on the domain although it has been registered on March 27, 2018. It will expire on 2024. 
 

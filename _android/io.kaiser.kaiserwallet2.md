@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-03
 updated: 2020-02-28
 version: "2.9.10"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.8M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: io.kaiser.kaiserwallet2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-02-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

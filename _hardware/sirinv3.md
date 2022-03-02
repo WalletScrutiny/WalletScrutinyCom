@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Sirin Labs"
+providerWebsite: https://sirinlabs.com/
 website: https://sirinlabs.com/
 shop: https://shop.sirinlabs.com/products/sirin-v3%E2%84%A2
-company: Sirin Labs
-companywebsite: https://sirinlabs.com/
 country: UK
 price: 2650USD
 repository: 
-issue:
+issue: 
 icon: sirinv3.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: SIRINLABS
-providerLinkedIn: sirin-labs
-providerFacebook: SirinLabs
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SIRINLABS
+social: 
+  - https://www.linkedin.com/company/sirin-labs
+  - https://www.facebook.com/SirinLabs
 ---
-
 
 <div class="alertBox"><div>
 ⚠️ Warning: This product is associated with Co-CEO of Sirin Labs, Moshe Hogeg <a href="https://www.timesofisrael.com/3-of-israels-most-hyped-initial-coin-offerings-were-scams-ex-employees-allege/">who has been subject to a number of lawsuits</a> alleging fraud from the ICOs that he reportedly launched.

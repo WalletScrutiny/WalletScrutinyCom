@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-03
 updated: 2022-02-04
 version: "2.9"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 24M
@@ -24,14 +24,12 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: officialLPNT
-providerLinkedIn: official-lpnt
-providerFacebook: officialLPNT
-providerReddit: lpntokenofficial
-
+twitter: officialLPNT
+social:
+  - https://www.linkedin.com/company/official-lpnt
+  - https://www.facebook.com/officialLPNT
+  - https://www.reddit.com/r/lpntokenofficial
 redirect_from:
-
 ---
 
 ### Google Play

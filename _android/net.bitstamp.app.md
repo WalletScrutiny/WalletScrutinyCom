@@ -8,12 +8,12 @@ users: 500000
 appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
-updated: 2022-01-21
-version: "3.3.1"
-stars: 4.1
-ratings: 11051
-reviews: 522
-size: 132M
+updated: 2022-03-02
+version: "3.4"
+stars: 4.1496596
+ratings: 11088
+reviews: 521
+size: 137M
 website: https://www.bitstamp.net
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Bitstamp
-providerLinkedIn: bitstamp
-providerFacebook: Bitstamp
-providerReddit: 
-
+twitter: Bitstamp
+social:
+  - https://www.linkedin.com/company/bitstamp
+  - https://www.facebook.com/Bitstamp
 redirect_from:
-
 ---
 
 On the Google Play description we read:

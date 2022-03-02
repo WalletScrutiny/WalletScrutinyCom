@@ -10,8 +10,8 @@ appCountry:
 released: 2018-10-10
 updated: 2021-07-07
 version: "1.3.0"
-stars: 1.7
-ratings: 541
+stars: 1.6666666
+ratings: 543
 reviews: 30
 size: 30M
 website: https://www.coindirect.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: coindirectcom
-providerLinkedIn: coindirect
-providerFacebook: coindirectcom
-providerReddit: 
-
+twitter: coindirectcom
+social:
+  - https://www.linkedin.com/company/coindirect
+  - https://www.facebook.com/coindirectcom
 redirect_from:
-
 ---
 
 It is concerning to see a wallet with a rating of less than 2 in the Google Play

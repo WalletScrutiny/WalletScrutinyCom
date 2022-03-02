@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-03
 updated: 2021-03-02
 version: "1.0.65"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 14M
@@ -19,19 +19,15 @@ repository:
 issue: 
 icon: com.ideypay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2022-02-26
 signer: 
 reviewArchive:
-
-providerTwitter: ideypay
-providerLinkedIn: 
-providerFacebook: ideypay
-providerReddit: 
-
+twitter: ideypay
+social:
+  - https://www.facebook.com/ideypay
 redirect_from:
-
 ---
 
 ## App Description

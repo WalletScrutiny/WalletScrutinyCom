@@ -8,12 +8,12 @@ users: 1000000
 appId: com.okinc.okex.gp
 appCountry: 
 released: 2019-10-29
-updated: 2022-01-24
-version: "6.0.2"
-stars: 4.5
-ratings: 184373
-reviews: 683
-size: 174M
+updated: 2022-03-01
+version: "6.0.11"
+stars: 4.507653
+ratings: 188391
+reviews: 703
+size: 172M
 website: https://www.okx.com/
 repository: 
 issue: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: OKEx
-providerLinkedIn: 
-providerFacebook: okexofficial
-providerReddit: OKEx
-
+twitter: OKEx
+social:
+  - https://www.facebook.com/okexofficial
+  - https://www.reddit.com/r/OKEx
 redirect_from:
   - /com.okinc.okex.gp/
   - /posts/com.okinc.okex.gp/

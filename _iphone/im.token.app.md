@@ -10,8 +10,8 @@ idd: 1384798940
 released: 2018-06-07
 updated: 2022-01-24
 version: "2.9.10"
-stars: 4.34422
-reviews: 398
+stars: 4.3408
+reviews: 402
 size: 144669696
 website: https://token.im
 repository: 
@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-05-02
 signer: 
 reviewArchive:
-
-providerTwitter: imTokenOfficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: imTokenOfficial
+social:
 ---
 
 In the description we read:

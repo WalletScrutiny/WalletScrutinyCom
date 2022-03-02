@@ -24,14 +24,11 @@ verdict: nosource
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: shamlatech
-providerLinkedIn: shamlatech
-providerFacebook: shamlatechsolutions
-providerReddit: 
-
+twitter: shamlatech
+social:
+  - https://www.linkedin.com/company/shamlatech
+  - https://www.facebook.com/shamlatechsolutions
 redirect_from:
-
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

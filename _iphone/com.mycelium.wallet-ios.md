@@ -10,8 +10,8 @@ idd: 943912290
 released: 2014-12-17
 updated: 2022-01-14
 version: "1.17"
-stars: 2.21277
-reviews: 329
+stars: 2.20543
+reviews: 331
 size: 7613440
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
@@ -23,14 +23,11 @@ verdict: nonverifiable
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: MyceliumCom
-providerLinkedIn: mycelium
-providerFacebook: myceliumcom
-providerReddit: mycelium
-
-redirect_from:
-
+twitter: MyceliumCom
+social:
+  - https://www.linkedin.com/company/mycelium
+  - https://www.facebook.com/myceliumcom
+  - https://www.reddit.com/r/mycelium
 ---
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.

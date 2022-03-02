@@ -9,11 +9,11 @@ appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
 updated: 2022-02-09
-version: "5.30.2"
-stars: 3.4
-ratings: 33975
+version: "5.32.1"
+stars: 3.36
+ratings: 34376
 reviews: 153
-size: 96M
+size: 102M
 website: https://www.ripio.com
 repository: 
 issue: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-03-28
 signer: 
 reviewArchive:
-
-providerTwitter: ripioapp
-providerLinkedIn: ripio
-providerFacebook: RipioApp
-providerReddit: 
-
+twitter: ripioapp
+social:
+  - https://www.linkedin.com/company/ripio
+  - https://www.facebook.com/RipioApp
 redirect_from:
   - /ripio/
   - /com.ripio.android/

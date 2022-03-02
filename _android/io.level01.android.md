@@ -11,7 +11,7 @@ released: 2020-10-09
 updated: 2021-12-16
 version: "0.2.3.3"
 stars: 3.5
-ratings: 136
+ratings: 137
 reviews: 7
 size: 18M
 website: https://level01.io
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: level01io
-providerLinkedIn: 
-providerFacebook: level01platform
-providerReddit: 
-
+twitter: level01io
+social:
+  - https://www.facebook.com/level01platform
 redirect_from:
-
 ---
 
 From its Google Play description:

@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-11-15
 updated: 2021-12-12
 version: "1.8.6"
-stars: 4.9
+stars: 4.891892
 ratings: 5401
 reviews: 162
 size: 34M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: abbcfoundation
-providerLinkedIn: abbcfoundation
-providerFacebook: abbcfoundation
-providerReddit: 
-
+twitter: abbcfoundation
+social:
+  - https://www.linkedin.com/company/abbcfoundation
+  - https://www.facebook.com/abbcfoundation
 redirect_from:
-
 ---
 
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)

@@ -19,6 +19,9 @@ function moreSince {
   echo $( git diff @{$1} | grep '^-users: ' | wc -l )
 }
 
+# Run migrate script just in case. It also makes some basic checks
+node scripts/migrate.js 
+
 echo "Apps that now have more users ..."
 echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
