@@ -24,14 +24,11 @@ verdict: custodial
 date: 2022-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: coinfalcon
-providerLinkedIn: 
-providerFacebook: CoinFalcon
-providerReddit: CoinFalcon
-
+twitter: coinfalcon
+social:
+  - https://www.facebook.com/CoinFalcon
+  - https://www.reddit.com/r/CoinFalcon
 redirect_from:
-
 ---
 
 In the description we read:

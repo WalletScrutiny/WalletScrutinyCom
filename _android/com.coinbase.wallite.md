@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is provided by the same developer as

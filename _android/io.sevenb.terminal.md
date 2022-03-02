@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: sevenb_roker
-providerLinkedIn: 
-providerFacebook: SevenBbroker
-providerReddit: SevenB_roker
-
+twitter: sevenb_roker
+social:
+  - https://www.facebook.com/SevenBbroker
+  - https://www.reddit.com/r/SevenB_roker
 redirect_from:
-
 ---
 
 ## App Description

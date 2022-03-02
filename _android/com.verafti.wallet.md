@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: token_vera
-providerLinkedIn: vera-token-74a925218
-providerFacebook: 
-providerReddit: 
-
+twitter: token_vera
+social:
+  - https://www.linkedin.com/company/vera-token-74a925218
 redirect_from:
-
 ---
 
 ## App Description

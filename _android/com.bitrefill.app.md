@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-providerTwitter: bitrefill
-providerLinkedIn: 
-providerFacebook: bitrefill
-providerReddit: Bitrefill
-
+twitter: bitrefill
+social:
+  - https://www.facebook.com/bitrefill
+  - https://www.reddit.com/r/Bitrefill
 redirect_from:
   - /com.bitrefill.app/
   - /posts/com.bitrefill.app/

@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: argentHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: argentHQ
+social:
 redirect_from:
-
 ---
 
 Clicking on Receive gives you 3 options:

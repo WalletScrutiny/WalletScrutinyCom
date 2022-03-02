@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-07-15
 signer: 
 reviewArchive:
-
-providerTwitter: Blockchain
-providerLinkedIn: blockchain
-providerFacebook: Blockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: Blockchain
+social:
+  - https://www.linkedin.com/company/blockchain
+  - https://www.facebook.com/Blockchain
 ---
 
 {% include copyFromAndroid.html %}

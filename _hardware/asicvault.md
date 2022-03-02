@@ -4,34 +4,32 @@ appId: asicvault
 authors:
 - danny
 released: 2017-10-24
-discontinued: # date
+discontinued: 
 updated: 2021-01-30
-version:
+version: 
+binaries: 
 dimensions: [56, 56, 10]
 weight: 65
+provider: "Asic Vault"
+providerWebsite: 
 website: https://asicvault.io/
 shop: https://asicvault.io/preorder/reserve-mark-ii.html
-company: Asic Vault
-companywebsite: 
 country: EE
 price: 
 repository: https://github.com/AsicVault/asicvault-hardware
-issue:
+issue: 
 icon: asicvault.png
-bugbounty:
+bugbounty: 
 meta: stale
-verdict: unreleased  
+verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: AsicVault
-providerLinkedIn: 
-providerFacebook: AsicVault
-providerReddit: AsicVaultOfficial
+signer: 
+reviewArchive: 
+twitter: AsicVault
+social: 
+  - https://www.facebook.com/AsicVault
+  - https://www.reddit.com/r/AsicVaultOfficial
 ---
-
 
 **Caution** There are [some posts](https://bitcointalk.org/index.php?topic=5186716.0) on bitcointalk.org that make one question this product. 
 

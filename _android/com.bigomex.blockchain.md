@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: bigomexofficial
-providerLinkedIn: bigomex-bigomex-6225b81b2
-providerFacebook: bigomexofficial
-providerReddit: bigomex
-
+twitter: bigomexofficial
+social:
+  - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
+  - https://www.facebook.com/bigomexofficial
+  - https://www.reddit.com/r/bigomex
 redirect_from:
-
 ---
 
 ## App Description

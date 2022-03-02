@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: TradeATF
-providerLinkedIn: globaltradeatf
-providerFacebook: TradeATF
-providerReddit: 
-
+twitter: TradeATF
+social:
+  - https://www.linkedin.com/company/globaltradeatf
+  - https://www.facebook.com/TradeATF
 redirect_from:
-
 ---
 
 ## App Description

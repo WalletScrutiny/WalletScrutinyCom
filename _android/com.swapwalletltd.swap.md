@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.swapwalletltd.swap/
 ---

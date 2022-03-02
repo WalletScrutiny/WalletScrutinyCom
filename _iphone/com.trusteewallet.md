@@ -23,14 +23,9 @@ verdict: nonverifiable
 date: 2021-07-30
 signer: 
 reviewArchive:
-
-providerTwitter: Trustee_Wallet
-providerLinkedIn: 
-providerFacebook: Trustee.Wallet
-providerReddit: 
-
-redirect_from:
-
+twitter: Trustee_Wallet
+social:
+  - https://www.facebook.com/Trustee.Wallet
 ---
 
 **Update 2021-02-07**: This wallet

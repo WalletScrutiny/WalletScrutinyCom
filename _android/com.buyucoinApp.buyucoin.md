@@ -24,12 +24,11 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: buyucoin
-providerLinkedIn: buyucoin
-providerFacebook: BuyUcoin
-providerReddit: BuyUcoin
-
+twitter: buyucoin
+social:
+  - https://www.linkedin.com/company/buyucoin
+  - https://www.facebook.com/BuyUcoin
+  - https://www.reddit.com/r/BuyUcoin
 redirect_from:
   - /com.buyucoinApp.buyucoin/
   - /posts/com.buyucoinApp.buyucoin/

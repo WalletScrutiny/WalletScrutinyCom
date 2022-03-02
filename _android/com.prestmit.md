@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: prestmit
-providerLinkedIn: 
-providerFacebook: prestmit
-providerReddit: 
-
+twitter: prestmit
+social:
+  - https://www.facebook.com/prestmit
 redirect_from:
-
 ---
 
 ## Updated Verdict 2021-10-29

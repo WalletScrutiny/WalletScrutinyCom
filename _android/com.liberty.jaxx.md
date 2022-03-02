@@ -24,12 +24,9 @@ verdict: nosource
 date: 2019-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: jaxx_io
-providerLinkedIn: 
-providerFacebook: JaxxWallet
-providerReddit: 
-
+twitter: jaxx_io
+social:
+  - https://www.facebook.com/JaxxWallet
 redirect_from:
   - /jaxx/
   - /com.liberty.jaxx/

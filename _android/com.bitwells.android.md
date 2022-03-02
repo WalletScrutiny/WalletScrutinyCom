@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: bitwells
-providerLinkedIn: 
-providerFacebook: Bitwells
-providerReddit: 
-
+twitter: bitwells
+social:
+  - https://www.facebook.com/Bitwells
 redirect_from:
-
 ---
 
 ## App Description

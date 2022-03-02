@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /co.okex.app/
 ---

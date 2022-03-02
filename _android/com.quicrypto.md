@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: quicrypto
-providerLinkedIn: 
-providerFacebook: Quicrypto
-providerReddit: 
-
+twitter: quicrypto
+social:
+  - https://www.facebook.com/Quicrypto
 redirect_from:
-
 ---
 
 **Update 2021-06-21**: This app is not a wallet.

@@ -24,12 +24,9 @@ verdict: nosource
 date: 2021-09-29
 signer: 
 reviewArchive:
-
-providerTwitter: BitKeepOS
-providerLinkedIn: 
-providerFacebook: bitkeep
-providerReddit: 
-
+twitter: BitKeepOS
+social:
+  - https://www.facebook.com/bitkeep
 redirect_from:
   - /com.bitkeep.wallet/
 ---

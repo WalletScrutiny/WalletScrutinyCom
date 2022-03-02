@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: ZBG_Exchange
-providerLinkedIn: 
-providerFacebook: ZBGofficial
-providerReddit: 
-
+twitter: ZBG_Exchange
+social:
+  - https://www.facebook.com/ZBGofficial
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-06-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: CoinMetro
-providerLinkedIn: coinmetro
-providerFacebook: CoinMetro
-providerReddit: 
-
+twitter: CoinMetro
+social:
+  - https://www.linkedin.com/company/coinmetro
+  - https://www.facebook.com/CoinMetro
 redirect_from:
-
 ---
 
 ## App Description

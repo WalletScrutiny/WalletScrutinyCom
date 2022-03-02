@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: zebedeeio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: zebedeeio
+social:
 ---
 
 This app is very gamer focused and does no mention at all security aspects or

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: SwftCoin
-providerLinkedIn: swftcoin
-providerFacebook: SWFTBlockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: SwftCoin
+social:
+  - https://www.linkedin.com/company/swftcoin
+  - https://www.facebook.com/SWFTBlockchain
 ---
 
 The description on App Store is full of buzzwords like big data, machine

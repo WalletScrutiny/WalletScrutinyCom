@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: tokocrypto
-providerLinkedIn: toko
-providerFacebook: TCDXOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: tokocrypto
+social:
+  - https://www.linkedin.com/company/toko
+  - https://www.facebook.com/TCDXOfficial
 ---
 
 {% include copyFromAndroid.html %}

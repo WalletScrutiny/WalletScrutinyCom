@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
-providerTwitter: BingbonOfficial
-providerLinkedIn: bingbon
-providerFacebook: BingbonOfficial
-providerReddit: Bingbon
-
+twitter: BingbonOfficial
+social:
+  - https://www.linkedin.com/company/bingbon
+  - https://www.facebook.com/BingbonOfficial
+  - https://www.reddit.com/r/Bingbon
 redirect_from:
-
 ---
 
 We cannot find any claims as to the custody of private keys found from Bingbon.

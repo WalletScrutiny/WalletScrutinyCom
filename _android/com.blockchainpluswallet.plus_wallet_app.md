@@ -24,12 +24,8 @@ verdict: nowallet
 date: 2021-06-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.blockchainpluswallet.plus_wallet_app/
 ---

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
-providerTwitter: StormGain_com
-providerLinkedIn: 
-providerFacebook: StormGain.official
-providerReddit: 
-
-redirect_from:
-
+twitter: StormGain_com
+social:
+  - https://www.facebook.com/StormGain.official
 ---
 
 This app's description mainly focuses on trading and interest earning, features

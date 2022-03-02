@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: NexoFinance
-providerLinkedIn: 
-providerFacebook: nexofinance
-providerReddit: Nexo
-
-redirect_from:
-
+twitter: NexoFinance
+social:
+  - https://www.facebook.com/nexofinance
+  - https://www.reddit.com/r/Nexo
 ---
 
 In the description on the App Store we read:

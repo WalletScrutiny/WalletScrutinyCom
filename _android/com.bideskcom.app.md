@@ -24,14 +24,11 @@ verdict: wip
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: bideskcom
-providerLinkedIn: 
-providerFacebook: bideskcom
-providerReddit: bidesk
-
+twitter: bideskcom
+social:
+  - https://www.facebook.com/bideskcom
+  - https://www.reddit.com/r/bidesk
 redirect_from:
-
 ---
 
 **Update 2021-10-22:** The service is shutting down. 

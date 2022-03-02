@@ -4,32 +4,29 @@ appId: sigsafe
 authors:
 - danny
 released: 2014-05-14
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://bitcointalk.org/index.php?topic=610453.0
-shop:
-company: 
-companywebsite: 
+shop: 
 country: 
 price: 8USD
 repository: 
-issue:
+issue: 
 icon: sigsafe.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: PeterRizun
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: PeterRizun
+social: 
 ---
 
 This device uses NFC (Near Field Communication) technology to sign bitcoin transactions. It was announced in 2014 via [bitcointalk.org](https://bitcointalk.org/index.php?topic=610453.0), although its domain is now no longer online.

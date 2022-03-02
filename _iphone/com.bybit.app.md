@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: Bybit_Official
-providerLinkedIn: bybitexchange
-providerFacebook: Bybit
-providerReddit: Bybit
-
-redirect_from:
-
+twitter: Bybit_Official
+social:
+  - https://www.linkedin.com/company/bybitexchange
+  - https://www.facebook.com/Bybit
+  - https://www.reddit.com/r/Bybit
 ---
 
 > "Bybit is the World's fastest-growing and one of the largest crypto

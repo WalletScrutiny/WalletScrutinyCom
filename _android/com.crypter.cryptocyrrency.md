@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: TrustSwap
-providerLinkedIn: TrustSwap
-providerFacebook: TrustSwap
-providerReddit: 
-
+twitter: TrustSwap
+social:
+  - https://www.linkedin.com/company/TrustSwap
+  - https://www.facebook.com/TrustSwap
 redirect_from:
-
 ---
 
 From their official website: 

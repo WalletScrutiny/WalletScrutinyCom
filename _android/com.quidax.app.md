@@ -24,14 +24,11 @@ verdict: custodial
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: QuidaxAfrica
-providerLinkedIn: quidax
-providerFacebook: quidaxafrica
-providerReddit: 
-
+twitter: QuidaxAfrica
+social:
+  - https://www.linkedin.com/company/quidax
+  - https://www.facebook.com/quidaxafrica
 redirect_from:
-
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

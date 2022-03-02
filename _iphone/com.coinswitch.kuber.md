@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: CoinSwitchKuber
-providerLinkedIn: coinswitch
-providerFacebook: coinswitch
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinSwitchKuber
+social:
+  - https://www.linkedin.com/company/coinswitch
+  - https://www.facebook.com/coinswitch
 ---
 
 {% include copyFromAndroid.html %}

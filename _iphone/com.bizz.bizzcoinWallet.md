@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: bizz_coin
-providerLinkedIn: 
-providerFacebook: BizzCoinOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: bizz_coin
+social:
+  - https://www.facebook.com/BizzCoinOfficial
 ---
 
 {% include copyFromAndroid.html %}

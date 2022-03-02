@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-15
 updated: 2021-11-08
 version: "v1.0.34"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 41M
@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2022-02-17
 signer: 
 reviewArchive:
-
-providerTwitter: MoriXjp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MoriXjp
+social:
 redirect_from:
-
 ---
 
 This is the companion app to the Morix Wallet Card hardware wallet. 

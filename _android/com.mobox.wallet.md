@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: MOBOX_Official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MOBOX_Official
+social:
 redirect_from:
-
 ---
 
 ### Google Play

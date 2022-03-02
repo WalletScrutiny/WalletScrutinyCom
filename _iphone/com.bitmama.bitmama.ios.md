@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: bitmama
-providerLinkedIn: 
-providerFacebook: bitmama
-providerReddit: 
-
-redirect_from:
-
+twitter: bitmama
+social:
+  - https://www.facebook.com/bitmama
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: Mathwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Mathwallet
+social:
 redirect_from:
   - /com.medishares.android/
 ---

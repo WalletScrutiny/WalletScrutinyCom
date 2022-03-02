@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: TradingduCoin
-providerLinkedIn: 
-providerFacebook: TradingduCoin
-providerReddit: 
-
+twitter: TradingduCoin
+social:
+  - https://www.facebook.com/TradingduCoin
 redirect_from:
-
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

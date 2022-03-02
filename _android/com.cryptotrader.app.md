@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-04
 updated: 2021-02-24
 version: "1.2.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 61M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2022-02-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app does not have a listed website or social media accounts. It is similar to the following:

@@ -24,12 +24,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: upbit-official
-providerFacebook: upbit.exchange
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/upbit-official
+  - https://www.facebook.com/upbit.exchange
 redirect_from:
   - /com.dunamu.exchange/
 ---

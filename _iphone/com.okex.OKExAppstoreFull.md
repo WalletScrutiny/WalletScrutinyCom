@@ -23,14 +23,10 @@ verdict: custodial
 date: 2020-12-23
 signer: 
 reviewArchive:
-
-providerTwitter: OKEx
-providerLinkedIn: 
-providerFacebook: okexofficial
-providerReddit: OKEx
-
-redirect_from:
-
+twitter: OKEx
+social:
+  - https://www.facebook.com/okexofficial
+  - https://www.reddit.com/r/OKEx
 ---
 
 On their website we find:

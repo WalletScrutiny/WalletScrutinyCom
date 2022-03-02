@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: mobimeglobal
-providerLinkedIn: 
-providerFacebook: mobimeglobal
-providerReddit: 
-
-redirect_from:
-
+twitter: mobimeglobal
+social:
+  - https://www.facebook.com/mobimeglobal
 ---
 
 {% include copyFromAndroid.html %}

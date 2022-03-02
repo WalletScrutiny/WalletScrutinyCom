@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: ChangeNOW_io
-providerLinkedIn: 
-providerFacebook: ChangeNOW.io
-providerReddit: ChangeNOW_io
-
+twitter: ChangeNOW_io
+social:
+  - https://www.facebook.com/ChangeNOW.io
+  - https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
   - /io.changenow.changenow/
 ---

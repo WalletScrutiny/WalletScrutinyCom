@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: skyewallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: skyewallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

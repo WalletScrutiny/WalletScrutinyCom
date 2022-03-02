@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: haruinvest
-providerLinkedIn: 
-providerFacebook: haruinvest
-providerReddit: 
-
-redirect_from:
-
+twitter: haruinvest
+social:
+  - https://www.facebook.com/haruinvest
 ---
 
 {% include copyFromAndroid.html %}

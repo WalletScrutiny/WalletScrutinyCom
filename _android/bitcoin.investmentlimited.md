@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

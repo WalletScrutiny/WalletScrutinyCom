@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...

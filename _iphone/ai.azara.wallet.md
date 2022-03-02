@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-03-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the

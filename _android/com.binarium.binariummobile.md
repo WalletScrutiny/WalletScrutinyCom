@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: binariumcom
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/binariumcom
 redirect_from:
-
 ---
 
 Binarium is a mobile trading app where the user tries to predict

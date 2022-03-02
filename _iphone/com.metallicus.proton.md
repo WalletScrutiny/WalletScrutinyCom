@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: protonxpr
-providerLinkedIn: 
-providerFacebook: protonxpr
-providerReddit: ProtonChain
-
-redirect_from:
-
+twitter: protonxpr
+social:
+  - https://www.facebook.com/protonxpr
+  - https://www.reddit.com/r/ProtonChain
 ---
 
 {% include copyFromAndroid.html %}

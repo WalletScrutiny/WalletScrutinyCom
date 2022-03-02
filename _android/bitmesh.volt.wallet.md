@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: Voltfinance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Voltfinance
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,12 +24,11 @@ verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: utrust
-providerLinkedIn: utrust-payments
-providerFacebook: utrust.io
-providerReddit: UTRUST_Official
-
+twitter: utrust
+social:
+  - https://www.linkedin.com/company/utrust-payments
+  - https://www.facebook.com/utrust.io
+  - https://www.reddit.com/r/UTRUST_Official
 redirect_from:
   - /com.uwalletapp/
 ---

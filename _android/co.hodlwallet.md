@@ -24,12 +24,9 @@ verdict: nonverifiable
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: hodlwallet
-providerLinkedIn: 
-providerFacebook: hodlwallet
-providerReddit: 
-
+twitter: hodlwallet
+social:
+  - https://www.facebook.com/hodlwallet
 redirect_from:
   - /co.hodlwallet/
   - /posts/co.hodlwallet/

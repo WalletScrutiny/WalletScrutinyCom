@@ -5,32 +5,31 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [17.4, 57, 9.1]
 weight: 16.2
+provider: "Blockchain"
+providerWebsite: https://www.blockchain.com/
 website: https://www.blockchain.com/
 shop: https://www.blockchain.com/
-company: Blockchain
-companywebsite: https://www.blockchain.com/
 country: UK
 price: 
 repository: https://github.com/blockchain/
-issue:
+issue: 
 icon: lockbox.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-09-01
-signer:
-reviewArchive:
-
-
-providerTwitter: blockchain
-providerLinkedIn: blockchain
-providerFacebook: blockchain
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: blockchain
+social: 
+  - https://www.linkedin.com/company/blockchain
+  - https://www.facebook.com/blockchain
 ---
 
 This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.

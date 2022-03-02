@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCloudATM
-providerLinkedIn: 
-providerFacebook: coincloudATM
-providerReddit: 
-
+twitter: CoinCloudATM
+social:
+  - https://www.facebook.com/coincloudATM
 redirect_from:
-
 ---
 
 It is very clear that the provider is claiming that this wallet is non-custodial with this early statement found in the [play store description](https://play.google.com/store/apps/details?id=com.bitpay.coincloud).

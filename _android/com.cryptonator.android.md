@@ -29,13 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
-providerTwitter: cryptonatorcom
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cryptonatorcom
+social:
 redirect_from:
-
 ---
 
 Cryptonator cryptocurrency wallet

@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-07-23
 updated: 2022-01-30
 version: "1.10.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: btcalpha
-providerLinkedIn: btcalpha
-providerFacebook: btcalpha
-providerReddit: 
-
+twitter: btcalpha
+social:
+  - https://www.linkedin.com/company/btcalpha
+  - https://www.facebook.com/btcalpha
 redirect_from:
-
 ---
 
 ## App Description

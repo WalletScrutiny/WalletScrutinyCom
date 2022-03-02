@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: hitbtc
-providerLinkedIn: 
-providerFacebook: hitbtc
-providerReddit: hitbtc
-
-redirect_from:
-
+twitter: hitbtc
+social:
+  - https://www.facebook.com/hitbtc
+  - https://www.reddit.com/r/hitbtc
 ---
 
 {% include copyFromAndroid.html %}

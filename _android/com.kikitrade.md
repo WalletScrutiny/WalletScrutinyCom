@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-07-24
 updated: 2022-02-26
 version: "4.1.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 49M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: KikitradeHQ
-providerLinkedIn: kikitrade
-providerFacebook: kikitrade
-providerReddit: 
-
+twitter: KikitradeHQ
+social:
+  - https://www.linkedin.com/company/kikitrade
+  - https://www.facebook.com/kikitrade
 redirect_from:
-
 ---
 
 ### Google Play

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-26
 updated: 2021-10-02
 version: "1.0.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 46M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Note:** There was no website listed on its Google Play page. We also were not able to find its officially linked social media accounts.

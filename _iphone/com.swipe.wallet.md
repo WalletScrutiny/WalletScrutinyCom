@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-07-06
 signer: 
 reviewArchive:
-
-providerTwitter: SwipeWallet
-providerLinkedIn: 
-providerFacebook: Swipe
-providerReddit: 
-
-redirect_from:
-
+twitter: SwipeWallet
+social:
+  - https://www.facebook.com/Swipe
 ---
 
 **Update 2021-07-06**: The app looks abandoned. It was:

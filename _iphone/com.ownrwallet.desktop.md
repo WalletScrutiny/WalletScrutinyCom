@@ -23,13 +23,9 @@ verdict: nosource
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: ownrwallet
-providerLinkedIn: 
-providerFacebook: ownrwallet
-providerReddit: ownrwallet
-
-redirect_from:
-
+twitter: ownrwallet
+social:
+  - https://www.facebook.com/ownrwallet
+  - https://www.reddit.com/r/ownrwallet
 ---
 

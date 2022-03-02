@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: KardiaChain
-providerLinkedIn: 
-providerFacebook: KardiaChainFoundation
-providerReddit: 
-
+twitter: KardiaChain
+social:
+  - https://www.facebook.com/KardiaChainFoundation
 redirect_from:
-
 ---
 
 The KardiaChain wallet is specifically for use with the KAI token. 

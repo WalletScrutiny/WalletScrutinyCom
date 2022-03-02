@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: MidasProtocol
-providerLinkedIn: 
-providerFacebook: midasprotocol.io
-providerReddit: 
-
+twitter: MidasProtocol
+social:
+  - https://www.facebook.com/midasprotocol.io
 redirect_from:
-
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).

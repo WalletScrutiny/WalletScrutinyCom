@@ -139,11 +139,9 @@ reviewArchive:
   appHash: d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987
   gitRevision: 1b2995ed2db18e2517812f7fbb3b2aca04a4653e
   verdict: nonverifiable
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.vault/
   - /posts/it.airgap.vault/

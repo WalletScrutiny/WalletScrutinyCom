@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: wirexapp
-providerLinkedIn: wirex-limited
-providerFacebook: wirexapp
-providerReddit: 
-
-redirect_from:
-
+twitter: wirexapp
+social:
+  - https://www.linkedin.com/company/wirex-limited
+  - https://www.facebook.com/wirexapp
 ---
 
 {% include copyFromAndroid.html %}

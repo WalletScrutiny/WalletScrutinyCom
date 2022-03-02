@@ -23,13 +23,7 @@ verdict: wip
 date: 2021-06-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 

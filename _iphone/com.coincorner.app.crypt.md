@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-02
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCorner
-providerLinkedIn: 
-providerFacebook: CoinCorner
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinCorner
+social:
+  - https://www.facebook.com/CoinCorner
 ---
 
 A search of the app store and the providers website, reveals no statements about how private keys are managed.

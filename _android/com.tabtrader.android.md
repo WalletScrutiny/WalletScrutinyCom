@@ -26,14 +26,11 @@ verdict: nowallet
 date: 2021-08-10
 signer: 
 reviewArchive:
-
-providerTwitter: tabtraderpro
-providerLinkedIn: tabtrader
-providerFacebook: tabtrader
-providerReddit: 
-
+twitter: tabtraderpro
+social:
+  - https://www.linkedin.com/company/tabtrader
+  - https://www.facebook.com/tabtrader
 redirect_from:
-
 ---
 
 **Updated 2022-01-06**

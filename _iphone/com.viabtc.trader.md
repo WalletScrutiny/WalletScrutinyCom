@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: coinexcom
-providerLinkedIn: 
-providerFacebook: TheCoinEx
-providerReddit: Coinex
-
-redirect_from:
-
+twitter: coinexcom
+social:
+  - https://www.facebook.com/TheCoinEx
+  - https://www.reddit.com/r/Coinex
 ---
 
 **Update 2022-01-13**: This app is not available anymore.

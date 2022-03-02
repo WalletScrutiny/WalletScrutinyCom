@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-07
 updated: 2020-01-26
 version: "1.2.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.7M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

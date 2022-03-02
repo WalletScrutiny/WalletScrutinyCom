@@ -25,12 +25,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: changefinance
-providerLinkedIn: changeinvest
-providerFacebook: changeinvest
-providerReddit: 
-
+twitter: changefinance
+social:
+  - https://www.linkedin.com/company/changeinvest
+  - https://www.facebook.com/changeinvest
 redirect_from:
   - /com.getchange.wallet.cordova/
   - /posts/com.getchange.wallet.cordova/

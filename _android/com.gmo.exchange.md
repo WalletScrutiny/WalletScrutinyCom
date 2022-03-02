@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: ZcomExchange
-providerLinkedIn: 
-providerFacebook: ZcomCrypto
-providerReddit: 
-
+twitter: ZcomExchange
+social:
+  - https://www.facebook.com/ZcomCrypto
 redirect_from:
-
 ---
 
 ## App Description

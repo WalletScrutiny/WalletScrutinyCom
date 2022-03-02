@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-17
 updated: 2021-03-17
 version: "2.00"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 299M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** This app's stated description is to find the private keys for 4.5 million bitcoin addresses. It then instructs the user to transfer bitcoins from another wallet to the user's wallet. Some reviews have accused the app developers of using the user's device to mine cryptocurrencies for the developers.

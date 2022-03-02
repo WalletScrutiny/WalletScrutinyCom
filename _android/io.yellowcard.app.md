@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: yellowcard_app
-providerLinkedIn: yellowcardapp
-providerFacebook: yellowcardapp
-providerReddit: 
-
+twitter: yellowcard_app
+social:
+  - https://www.linkedin.com/company/yellowcardapp
+  - https://www.facebook.com/yellowcardapp
 redirect_from:
-
 ---
 
 **Update 2021-07-18**: Currently the app is not on the App Store.

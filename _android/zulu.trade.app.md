@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: zulutrade
-providerLinkedIn: zulutrade
-providerFacebook: zulutrade
-providerReddit: 
-
+twitter: zulutrade
+social:
+  - https://www.linkedin.com/company/zulutrade
+  - https://www.facebook.com/zulutrade
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: ATAIXcom
-providerLinkedIn: ataixcom
-providerFacebook: ATAIXcom
-providerReddit: 
-
+twitter: ATAIXcom
+social:
+  - https://www.linkedin.com/company/ataixcom
+  - https://www.facebook.com/ATAIXcom
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: baanx_bxx
-providerLinkedIn: 
-providerFacebook: baanxapp
-providerReddit: 
-
-redirect_from:
-
+twitter: baanx_bxx
+social:
+  - https://www.facebook.com/baanxapp
 ---
 
 {% include copyFromAndroid.html %}

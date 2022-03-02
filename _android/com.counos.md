@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: counoscoin
-providerLinkedIn: counosplatform
-providerFacebook: CounosPlatform
-providerReddit: 
-
+twitter: counoscoin
+social:
+  - https://www.linkedin.com/company/counosplatform
+  - https://www.facebook.com/CounosPlatform
 redirect_from:
-
 ---
 
 Nothing in the description hints at this app being non-custodial.

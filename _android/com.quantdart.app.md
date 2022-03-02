@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-09-16
 updated: 2022-01-27
 version: "1.1.25"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 94M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: QuantDART
-providerLinkedIn: 
-providerFacebook: quantdart
-providerReddit: 
-
+twitter: QuantDART
+social:
+  - https://www.facebook.com/quantdart
 redirect_from:
-
 ---
 
 ## App Description

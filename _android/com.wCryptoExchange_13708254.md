@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-12**: This app is not on the Store anymore.

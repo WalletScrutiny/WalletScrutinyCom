@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: bizz_coin
-providerLinkedIn: 
-providerFacebook: BizzCoinOfficial
-providerReddit: 
-
+twitter: bizz_coin
+social:
+  - https://www.facebook.com/BizzCoinOfficial
 redirect_from:
-
 ---
 
 ### Google Play

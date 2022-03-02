@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: quantfury
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: quantfury
+social:
 ---
 
 {% include copyFromAndroid.html %}

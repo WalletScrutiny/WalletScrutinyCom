@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: flitpayofficial
-providerLinkedIn: 
-providerFacebook: flitpay
-providerReddit: 
-
+twitter: flitpayofficial
+social:
+  - https://www.facebook.com/flitpay
 redirect_from:
-
 ---
 
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.

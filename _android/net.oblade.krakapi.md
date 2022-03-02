@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app is similar to, and has the same functionality as:

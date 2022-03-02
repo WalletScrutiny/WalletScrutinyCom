@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: AbraGlobal
-providerLinkedIn: abra
-providerFacebook: GoAbraGlobal
-providerReddit: 
-
+twitter: AbraGlobal
+social:
+  - https://www.linkedin.com/company/abra
+  - https://www.facebook.com/GoAbraGlobal
 redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/

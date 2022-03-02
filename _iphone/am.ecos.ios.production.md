@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: ecosmining
-providerLinkedIn: 
-providerFacebook: ecosdefi
-providerReddit: 
-
-redirect_from:
-
+twitter: ecosmining
+social:
+  - https://www.facebook.com/ecosdefi
 ---
 
 {% include copyFromAndroid.html %}

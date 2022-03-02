@@ -10,7 +10,7 @@ appCountry: us
 released: 2015-10-01
 updated: 2022-02-15
 version: "4.3.0"
-stars: 4.0
+stars: 4
 ratings: 164833
 reviews: 10818
 size: 64M
@@ -29,11 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
   verdict: nowallet
-providerTwitter: Blockfolio
-providerLinkedIn: 
-providerFacebook: Blockfolio
-providerReddit: 
-
+twitter: Blockfolio
+social:
+  - https://www.facebook.com/Blockfolio
 redirect_from:
   - /blockfolio/
   - /com.blockfolio.blockfolio/

@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: nagainvesting
-providerLinkedIn: nagainvesting
-providerFacebook: nagainvesting
-providerReddit: 
-
-redirect_from:
-
+twitter: nagainvesting
+social:
+  - https://www.linkedin.com/company/nagainvesting
+  - https://www.facebook.com/nagainvesting
 ---
 
 {% include copyFromAndroid.html %}

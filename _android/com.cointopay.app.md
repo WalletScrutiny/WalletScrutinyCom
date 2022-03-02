@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: Cointopay
-providerLinkedIn: 
-providerFacebook: CointopayInternational
-providerReddit: Cointopay
-
+twitter: Cointopay
+social:
+  - https://www.facebook.com/CointopayInternational
+  - https://www.reddit.com/r/Cointopay
 redirect_from:
-
 ---
 
 ## App Description

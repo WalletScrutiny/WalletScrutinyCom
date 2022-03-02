@@ -24,14 +24,12 @@ verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: cryptowalletcom
-providerLinkedIn: cryptowallet-com
-providerFacebook: cryptowalletcom
-providerReddit: CryptoWallet_com
-
+twitter: cryptowalletcom
+social:
+  - https://www.linkedin.com/company/cryptowallet-com
+  - https://www.facebook.com/cryptowalletcom
+  - https://www.reddit.com/r/CryptoWallet_com
 redirect_from:
-
 ---
 
 ## App Description

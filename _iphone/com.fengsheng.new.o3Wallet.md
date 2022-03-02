@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: O3_Labs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: O3_Labs
+social:
 ---
 
 {% include copyFromAndroid.html %}

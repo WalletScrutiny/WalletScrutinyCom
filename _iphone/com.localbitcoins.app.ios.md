@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: LocalBitcoins
-providerLinkedIn: localbitcoins
-providerFacebook: LocalBitcoinsCom
-providerReddit: 
-
-redirect_from:
-
+twitter: LocalBitcoins
+social:
+  - https://www.linkedin.com/company/localbitcoins
+  - https://www.facebook.com/LocalBitcoinsCom
 ---
 
 {% include copyFromAndroid.html %}

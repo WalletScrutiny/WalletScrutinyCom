@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: PlugIntoPaysafe
-providerLinkedIn: Paysafe Group
-providerFacebook: PlugIntoPaysafe
-providerReddit: 
-
+twitter: PlugIntoPaysafe
+social:
+  - https://www.linkedin.com/company/Paysafe Group
+  - https://www.facebook.com/PlugIntoPaysafe
 redirect_from:
-
 ---
 
 >The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.

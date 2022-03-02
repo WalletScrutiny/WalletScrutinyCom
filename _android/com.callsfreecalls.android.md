@@ -24,14 +24,10 @@ verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: cfc_io
-providerLinkedIn: 
-providerFacebook: CFCEarnMoney
-providerReddit: 
-
+twitter: cfc_io
+social:
+  - https://www.facebook.com/CFCEarnMoney
 redirect_from:
-
 ---
 
 Its Google Play description is: 

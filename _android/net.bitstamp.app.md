@@ -24,14 +24,11 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Bitstamp
-providerLinkedIn: bitstamp
-providerFacebook: Bitstamp
-providerReddit: 
-
+twitter: Bitstamp
+social:
+  - https://www.linkedin.com/company/bitstamp
+  - https://www.facebook.com/Bitstamp
 redirect_from:
-
 ---
 
 On the Google Play description we read:

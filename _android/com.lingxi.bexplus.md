@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-29
 updated: 2022-02-28
 version: "2.1.8"
-stars: 5.0
+stars: 5
 ratings: 6810
 reviews: 1639
 size: 12M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-22
 signer: 
 reviewArchive:
-
-providerTwitter: BexplusExchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: Bexplus
-
+twitter: BexplusExchange
+social:
+  - https://www.reddit.com/r/Bexplus
 redirect_from:
-
 ---
 
 The Bexplus website states under the mobile wallet section "Assets Security"

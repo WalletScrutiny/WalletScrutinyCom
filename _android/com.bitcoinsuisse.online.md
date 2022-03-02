@@ -10,7 +10,7 @@ appCountry: pl
 released: 2021-09-21
 updated: 2021-12-16
 version: "1.1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 38M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: BitcoinSuisseAG
-providerLinkedIn: bitcoin-suisse-ag
-providerFacebook: BitcoinSuisse
-providerReddit: 
-
+twitter: BitcoinSuisseAG
+social:
+  - https://www.linkedin.com/company/bitcoin-suisse-ag
+  - https://www.facebook.com/BitcoinSuisse
 redirect_from:
-
 ---
 
 ## App Description

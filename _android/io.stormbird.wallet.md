@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Alpha_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AlphaWallet
-
+twitter: Alpha_wallet
+social:
+  - https://www.reddit.com/r/AlphaWallet
 redirect_from:
-
 ---
 
 ## App Description

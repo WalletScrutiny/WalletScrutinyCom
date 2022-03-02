@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 2cashnetwork
-providerLinkedIn: 2cash
-providerFacebook: 2cashnetwork
-providerReddit: 
-
-redirect_from:
-
+twitter: 2cashnetwork
+social:
+  - https://www.linkedin.com/company/2cash
+  - https://www.facebook.com/2cashnetwork
 ---
 
 {% include copyFromAndroid.html %}

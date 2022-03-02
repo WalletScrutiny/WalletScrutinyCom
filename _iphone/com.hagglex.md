@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: hagglexintl
-providerLinkedIn: hagglex
-providerFacebook: hagglex
-providerReddit: 
-
-redirect_from:
-
+twitter: hagglexintl
+social:
+  - https://www.linkedin.com/company/hagglex
+  - https://www.facebook.com/hagglex
 ---
 
 {% include copyFromAndroid.html %}

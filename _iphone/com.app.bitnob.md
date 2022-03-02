@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: Bitnob_official
-providerLinkedIn: bitnob
-providerFacebook: bitnob
-providerReddit: 
-
-redirect_from:
-
+twitter: Bitnob_official
+social:
+  - https://www.linkedin.com/company/bitnob
+  - https://www.facebook.com/bitnob
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

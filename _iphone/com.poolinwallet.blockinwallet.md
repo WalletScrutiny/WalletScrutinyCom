@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: PoolinWallet
-providerLinkedIn: poolinwallet
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: PoolinWallet
+social:
+  - https://www.linkedin.com/company/poolinwallet
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: forex4you
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/forex4you
 redirect_from:
-
 ---
 
 ## New Review 2021-10-28

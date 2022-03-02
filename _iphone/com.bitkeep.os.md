@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: BitKeepOS
-providerLinkedIn: 
-providerFacebook: bitkeep
-providerReddit: 
-
-redirect_from:
-
+twitter: BitKeepOS
+social:
+  - https://www.facebook.com/bitkeep
 ---
 
  {% include copyFromAndroid.html %}

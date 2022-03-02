@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: bitfyapp
-providerLinkedIn: 
-providerFacebook: bitfyapp
-providerReddit: 
-
-redirect_from:
-
+twitter: bitfyapp
+social:
+  - https://www.facebook.com/bitfyapp
 ---
 
 {% include copyFromAndroid.html %}

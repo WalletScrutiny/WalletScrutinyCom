@@ -10,7 +10,7 @@ appCountry: gb
 released: 2021-01-11
 updated: 2022-02-23
 version: "1.90"
-stars: 4.0
+stars: 4
 ratings: 392
 reviews: 13
 size: 79M
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: forexcom
-providerLinkedIn: 
-providerFacebook: FOREXcom
-providerReddit: 
-
+twitter: forexcom
+social:
+  - https://www.facebook.com/FOREXcom
 redirect_from:
-
 ---
 
 ## App Description

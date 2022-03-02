@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: NexoFinance
-providerLinkedIn: 
-providerFacebook: nexofinance
-providerReddit: Nexo
-
+twitter: NexoFinance
+social:
+  - https://www.facebook.com/nexofinance
+  - https://www.reddit.com/r/Nexo
 redirect_from:
   - /com.nexowallet/
 ---

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: valrdotcom
-providerLinkedIn: valr
-providerFacebook: VALRdotcom
-providerReddit: 
-
+twitter: valrdotcom
+social:
+  - https://www.linkedin.com/company/valr
+  - https://www.facebook.com/VALRdotcom
 redirect_from:
-
 ---
 
 I need not go further into researching this wallet as the statement on the Google Play description screams custodial.

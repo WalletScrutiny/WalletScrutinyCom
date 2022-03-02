@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-13
 signer: 
 reviewArchive:
-
-providerTwitter: financefreedomsuccess
-providerLinkedIn: FBS Inc.
-providerFacebook: financefreedomsuccess
-providerReddit: 
-
+twitter: financefreedomsuccess
+social:
+  - https://www.linkedin.com/company/FBS Inc.
+  - https://www.facebook.com/financefreedomsuccess
 redirect_from:
-
 ---
 
 From the app description:

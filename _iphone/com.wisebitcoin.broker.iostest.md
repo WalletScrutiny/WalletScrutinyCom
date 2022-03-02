@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: wisebitcoin
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: wisebitcoin
+social:
 ---
 
 {% include copyFromAndroid.html %}

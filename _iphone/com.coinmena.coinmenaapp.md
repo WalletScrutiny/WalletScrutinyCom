@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: Coinmena
-providerLinkedIn: coinmena
-providerFacebook: CoinMENA.Bahrain
-providerReddit: 
-
-redirect_from:
-
+twitter: Coinmena
+social:
+  - https://www.linkedin.com/company/coinmena
+  - https://www.facebook.com/CoinMENA.Bahrain
 ---
 
 {% include copyFromAndroid.html %}

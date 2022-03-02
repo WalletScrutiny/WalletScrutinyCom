@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: Hotbit_news
-providerLinkedIn: hotbitexchange
-providerFacebook: hotbitexchange
-providerReddit: 
-
+twitter: Hotbit_news
+social:
+  - https://www.linkedin.com/company/hotbitexchange
+  - https://www.facebook.com/hotbitexchange
 redirect_from:
-
 ---
 
 Hotbit describes itself as

@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 2019-03-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [115, 67, 8]
 weight: 
+provider: "Bitfi, Inc"
+providerWebsite: https://bitfi.com
 website: https://bitfi.com/
 shop: https://bitfi.com/order
-company: Bitfi, Inc
-companywebsite: https://bitfi.com
 country: 
 price: 199USD
 repository: https://github.com/Bitfi
-issue:
+issue: 
 icon: bitfiwallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2021-12-10
-signer:
-reviewArchive:
-
-
-providerTwitter: thebitfi
-providerLinkedIn: bitfi
-providerFacebook: TheBitfi
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: thebitfi
+social: 
+  - https://www.linkedin.com/company/bitfi
+  - https://www.facebook.com/TheBitfi
 ---
-
 
 <div class="alertBox"><div>
 In 2018, there have been incidents where hackers have found several exploits allowing them to obtain funds from the wallets.

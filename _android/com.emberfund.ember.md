@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: Ember_Fund
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Ember_Fund
+social:
 redirect_from:
-
 ---
 
 From its Google Play description:

@@ -44,11 +44,8 @@ reviewArchive:
   appHash: 0c91c5f118f88b9715d20323799d5002b722115d01c95d11f20f088521f76ada
   gitRevision: 9abba57f047955e9991baa269f2082e8f3374f95
   verdict: nonverifiable
-providerTwitter: PhoenixWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: PhoenixWallet
+social:
 redirect_from:
   - /fr.acinq.phoenix.mainnet/
   - /posts/fr.acinq.phoenix.mainnet/

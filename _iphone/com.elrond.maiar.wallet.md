@@ -23,14 +23,10 @@ verdict: nosource
 date: 2022-01-05
 signer: 
 reviewArchive:
-
-providerTwitter: getMaiar
-providerLinkedIn: getmaiar
-providerFacebook: getMaiar
-providerReddit: 
-
-redirect_from:
-
+twitter: getMaiar
+social:
+  - https://www.linkedin.com/company/getmaiar
+  - https://www.facebook.com/getMaiar
 ---
 
 {% include copyFromAndroid.html %}

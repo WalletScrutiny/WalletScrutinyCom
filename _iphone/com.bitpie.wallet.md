@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: BitpieWallet
-providerLinkedIn: 
-providerFacebook: BitpieOfficial
-providerReddit: BitpieWallet
-
-redirect_from:
-
+twitter: BitpieWallet
+social:
+  - https://www.facebook.com/BitpieOfficial
+  - https://www.reddit.com/r/BitpieWallet
 ---
 
  {% include copyFromAndroid.html %}

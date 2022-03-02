@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 You probably are looking for the other 99pay app:

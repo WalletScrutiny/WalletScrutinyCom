@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: EXANTE_EU
-providerLinkedIn: exante-ltd
-providerFacebook: exante.global
-providerReddit: 
-
-redirect_from:
-
+twitter: EXANTE_EU
+social:
+  - https://www.linkedin.com/company/exante-ltd
+  - https://www.facebook.com/exante.global
 ---
 
 {% include copyFromAndroid.html %}

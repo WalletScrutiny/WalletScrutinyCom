@@ -24,14 +24,12 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: stormxio
-providerLinkedIn: StormX
-providerFacebook: stormxio
-providerReddit: stormxio
-
+twitter: stormxio
+social:
+  - https://www.linkedin.com/company/StormX
+  - https://www.facebook.com/stormxio
+  - https://www.reddit.com/r/stormxio
 redirect_from:
-
 ---
 
 ## App Description

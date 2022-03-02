@@ -23,14 +23,8 @@ verdict: obfuscated
 date: 2021-03-05
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 At the risk of putting it into the wrong **not verifiable** category, we assume

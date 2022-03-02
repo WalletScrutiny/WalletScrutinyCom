@@ -24,14 +24,12 @@ verdict: nobtc
 date: 2021-02-05
 signer: 
 reviewArchive:
-
-providerTwitter: myetherwallet
-providerLinkedIn: myetherwallet
-providerFacebook: MyEtherWallet
-providerReddit: MyEtherWallet
-
+twitter: myetherwallet
+social:
+  - https://www.linkedin.com/company/myetherwallet
+  - https://www.facebook.com/MyEtherWallet
+  - https://www.reddit.com/r/MyEtherWallet
 redirect_from:
-
 ---
 
 Supports 3 chains: Ethereum, Binance and Polygon. 

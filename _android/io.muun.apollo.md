@@ -34,11 +34,8 @@ reviewArchive:
   appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
-providerTwitter: MuunWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MuunWallet
+social:
 redirect_from:
   - /io.muun.apollo/
   - /posts/io.muun.apollo/

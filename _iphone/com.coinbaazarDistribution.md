@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: coin_baazar
-providerLinkedIn: 
-providerFacebook: officialcoinbaazar
-providerReddit: 
-
-redirect_from:
-
+twitter: coin_baazar
+social:
+  - https://www.facebook.com/officialcoinbaazar
 ---
 
 {% include copyFromAndroid.html %}

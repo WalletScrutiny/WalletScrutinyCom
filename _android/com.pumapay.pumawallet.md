@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: PumaPay
-providerLinkedIn: decentralized-vision
-providerFacebook: PumaPayOfficial
-providerReddit: 
-
+twitter: PumaPay
+social:
+  - https://www.linkedin.com/company/decentralized-vision
+  - https://www.facebook.com/PumaPayOfficial
 redirect_from:
   - /com.pumapay.pumawallet/
   - /posts/com.pumapay.pumawallet/

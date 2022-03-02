@@ -34,13 +34,12 @@ reviewArchive:
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
-providerTwitter: BRDHQ
-providerLinkedIn: brdhq
-providerFacebook: brdhq
-providerReddit: brdapp
-
+twitter: BRDHQ
+social:
+  - https://www.linkedin.com/company/brdhq
+  - https://www.facebook.com/brdhq
+  - https://www.reddit.com/r/brdapp
 redirect_from:
-
 ---
 
 **Update 2021-06-29**: The provider

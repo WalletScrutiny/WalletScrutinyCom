@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-06-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This project appears to be a parody on Bitcoin forks?

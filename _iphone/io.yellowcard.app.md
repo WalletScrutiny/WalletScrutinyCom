@@ -29,13 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: d2e048f371ab14d6d8a699156755ca302bf2e74c
   verdict: custodial
-providerTwitter: yellowcard_app
-providerLinkedIn: yellowcardapp
-providerFacebook: yellowcardapp
-providerReddit: 
-
-redirect_from:
-
+twitter: yellowcard_app
+social:
+  - https://www.linkedin.com/company/yellowcardapp
+  - https://www.facebook.com/yellowcardapp
 ---
 
 **Update 2021-07-26**: As it turns out, the provider has limited the

@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: PayPlux
-providerLinkedIn: 
-providerFacebook: PayPlux
-providerReddit: 
-
+twitter: PayPlux
+social:
+  - https://www.facebook.com/PayPlux
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: totalcoin.io
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/totalcoin.io
 redirect_from:
   - /totalcoin/
   - /io.totalcoin.wallet/

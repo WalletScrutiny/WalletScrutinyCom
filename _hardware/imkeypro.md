@@ -1,37 +1,33 @@
 ---
 title: "imKey Pro"
-appId: imkeyPro
+appId: imkeypro
 authors:
 - danny
 released: 2020-02-28
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: [64, 38, 2.3]
 weight: 8.1
+provider: "IMKEY PTE. LTD"
+providerWebsite: https://imkey.im/
 website: https://imkey.im/
 shop: 
-company: IMKEY PTE. LTD
-companywebsite: https://imkey.im/
 country: SG
 price: 109USD
 repository: 
-issue:
-icon: imkey.png
-bugbounty:
+issue: 
+icon: imkeypro.png
+bugbounty: 
 meta: ok
-verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: imkeyofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: imkeyofficial
+social: 
 ---
-
 
 imKey is only partially Open Source. According to its [User Agreement:](https://imkey.im/tos?locale=en-us)
 

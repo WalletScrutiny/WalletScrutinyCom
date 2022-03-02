@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: Lobstrco
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Lobstrco
+social:
 ---
 
 As the description states, lobstr is a stellar lumens wallet. 

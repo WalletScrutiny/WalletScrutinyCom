@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: paxful
-providerLinkedIn: 
-providerFacebook: paxful
-providerReddit: paxful
-
+twitter: paxful
+social:
+  - https://www.facebook.com/paxful
+  - https://www.reddit.com/r/paxful
 redirect_from:
   - /paxful/
   - /com.paxful.wallet/

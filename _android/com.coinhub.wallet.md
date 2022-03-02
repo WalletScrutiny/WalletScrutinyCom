@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-02-03
 signer: 
 reviewArchive:
-
-providerTwitter: Coinhub_Wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Coinhub_Wallet
+social:
 redirect_from:
-
 ---
 
 On the Store they say:

@@ -23,14 +23,8 @@ verdict: ftbfs
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: COINiDGroup
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: COINiDGroup
+social:
 ---
 
 This provider states in the App Store description:

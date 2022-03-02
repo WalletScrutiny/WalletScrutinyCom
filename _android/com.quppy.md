@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-12-01
 signer: 
 reviewArchive:
-
-providerTwitter: QuppyPay
-providerLinkedIn: quppy
-providerFacebook: quppyPay
-providerReddit: 
-
+twitter: QuppyPay
+social:
+  - https://www.linkedin.com/company/quppy
+  - https://www.facebook.com/quppyPay
 redirect_from:
   - /com.quppy/
 ---

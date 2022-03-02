@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: Monarchtoken
-providerLinkedIn: monarchtoken
-providerFacebook: MonarchWallet
-providerReddit: MonarchToken
-
-redirect_from:
-
+twitter: Monarchtoken
+social:
+  - https://www.linkedin.com/company/monarchtoken
+  - https://www.facebook.com/MonarchWallet
+  - https://www.reddit.com/r/MonarchToken
 ---
 
 This app appears to have been created for Monarch Tokens but it also features a

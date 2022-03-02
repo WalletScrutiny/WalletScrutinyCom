@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-09-08
 updated: 2021-04-21
 version: "1.11.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 57M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: coincollectHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: coincollectHQ
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-08-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-08-12**: This app is not on the Play Store anymore

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: Exnovin_io
-providerLinkedIn: exnovin
-providerFacebook: exnovin.io
-providerReddit: 
-
+twitter: Exnovin_io
+social:
+  - https://www.linkedin.com/company/exnovin
+  - https://www.facebook.com/exnovin.io
 redirect_from:
-
 ---
 
 There are two apps with the same name of {% include walletLink.html wallet='com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).

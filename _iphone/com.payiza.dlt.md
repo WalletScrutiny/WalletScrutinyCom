@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: payizamoney
-providerLinkedIn: 
-providerFacebook: payizamoney
-providerReddit: 
-
-redirect_from:
-
+twitter: payizamoney
+social:
+  - https://www.facebook.com/payizamoney
 ---
 
 {% include copyFromAndroid.html %}

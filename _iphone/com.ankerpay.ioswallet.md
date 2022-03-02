@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: AnkerPay
-providerLinkedIn: 
-providerFacebook: AnkerPlatform
-providerReddit: 
-
-redirect_from:
-
+twitter: AnkerPay
+social:
+  - https://www.facebook.com/AnkerPlatform
 ---
 
 {% include copyFromAndroid.html %}

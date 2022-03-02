@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Note that as of 2021-08-23 this app does not seem to have an English translation.

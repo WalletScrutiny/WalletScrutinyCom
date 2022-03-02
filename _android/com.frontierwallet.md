@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-12
 signer: 
 reviewArchive:
-
-providerTwitter: FrontierDotXYZ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: FrontierDotXYZ
+social:
 redirect_from:
-
 ---
 
 ## App Description

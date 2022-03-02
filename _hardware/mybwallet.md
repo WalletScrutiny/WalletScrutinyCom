@@ -4,32 +4,29 @@ appId: mybwallet
 authors:
 - danny
 released: 2015-01-01
-discontinued: # date
+discontinued: 
 updated: 2015-05-08
-version: 1.3.4
+version: "1.3.4"
+binaries: 
 dimensions: [45, 45, 9]
 weight: 
+provider: "Foshan Bidingxing Tech. Co.,Ltd."
+providerWebsite: https://bidingxing.com/bwallet
 website: http://mybwallet.com/
 shop: 
-company: Foshan Bidingxing Tech. Co.,Ltd.
-companywebsite: https://bidingxing.com/bwallet
 country: CN
 price: 168CNY
 repository: https://github.com/BWallet/bwallet-mcu
-issue:
+issue: 
 icon: mybwallet.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: wip 
+verdict: wip
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 MyBWallet is a Trezor clone. Its website is no longer available, although information about the product can still be tracked via [webarchive.org](https://web.archive.org/web/20161219224459/https://bidingxing.com/bwallet).

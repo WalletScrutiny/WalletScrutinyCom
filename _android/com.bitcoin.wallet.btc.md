@@ -34,13 +34,9 @@ reviewArchive:
   appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-07-27
 updated: 2022-01-24
 version: "2.8.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 66M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: financialraido
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: financialraido
+social:
 redirect_from:
-
 ---
 
 ## App Description

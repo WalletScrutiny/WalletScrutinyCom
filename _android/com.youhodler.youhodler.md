@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-06-20
 signer: 
 reviewArchive:
-
-providerTwitter: youhodler
-providerLinkedIn: youhodler
-providerFacebook: YouHodler
-providerReddit: 
-
+twitter: youhodler
+social:
+  - https://www.linkedin.com/company/youhodler
+  - https://www.facebook.com/YouHodler
 redirect_from:
   - /com.youhodler.youhodler/
   - /posts/com.youhodler.youhodler/

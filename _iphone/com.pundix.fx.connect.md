@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: FUNCTIONX_IO
-providerLinkedIn: functionx
-providerFacebook: FunctionX.io
-providerReddit: 
-
-redirect_from:
-
+twitter: FUNCTIONX_IO
+social:
+  - https://www.linkedin.com/company/functionx
+  - https://www.facebook.com/FunctionX.io
 ---
 
 {% include copyFromAndroid.html %}

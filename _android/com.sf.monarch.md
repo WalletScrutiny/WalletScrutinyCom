@@ -24,12 +24,11 @@ verdict: nosource
 date: 2020-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: Monarchtoken
-providerLinkedIn: monarchtoken
-providerFacebook: MonarchWallet
-providerReddit: MonarchToken
-
+twitter: Monarchtoken
+social:
+  - https://www.linkedin.com/company/monarchtoken
+  - https://www.facebook.com/MonarchWallet
+  - https://www.reddit.com/r/MonarchToken
 redirect_from:
   - /com.sf.monarch/
   - /posts/com.sf.monarch/

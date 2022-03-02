@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: PointPay1
-providerLinkedIn: pointpay
-providerFacebook: PointPayLtd
-providerReddit: PointPay
-
-redirect_from:
-
+twitter: PointPay1
+social:
+  - https://www.linkedin.com/company/pointpay
+  - https://www.facebook.com/PointPayLtd
+  - https://www.reddit.com/r/PointPay
 ---
 
 The PointPay Bank website has very little information about how they manage

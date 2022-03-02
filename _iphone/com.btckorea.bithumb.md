@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbOfficial
-providerLinkedIn: 
-providerFacebook: bithumb
-providerReddit: 
-
-redirect_from:
-
+twitter: BithumbOfficial
+social:
+  - https://www.facebook.com/bithumb
 ---
 
 This app is an interface to an exchange and to our knowledge only features

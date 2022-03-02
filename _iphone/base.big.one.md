@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: BigONEexchange
-providerLinkedIn: 
-providerFacebook: exBigONE
-providerReddit: BigONEExchange
-
-redirect_from:
-
+twitter: BigONEexchange
+social:
+  - https://www.facebook.com/exBigONE
+  - https://www.reddit.com/r/BigONEExchange
 ---
 
  {% include copyFromAndroid.html %}

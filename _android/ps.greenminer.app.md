@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Caution** As with most apps that bear the words "Free Bitcoin", we strongly advise users to take precautionary measures. 

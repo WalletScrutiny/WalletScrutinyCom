@@ -23,14 +23,10 @@ verdict: wip
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: bideskcom
-providerLinkedIn: 
-providerFacebook: bideskcom
-providerReddit: bidesk
-
-redirect_from:
-
+twitter: bideskcom
+social:
+  - https://www.facebook.com/bideskcom
+  - https://www.reddit.com/r/bidesk
 ---
 
 {% include copyFromAndroid.html %}

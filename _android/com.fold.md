@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: fold_app
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: fold_app
+social:
 redirect_from:
-
 ---
 
 Section 6 of its [Terms of Service](https://foldapp.com/legal/terms-of-rewards) Reads:

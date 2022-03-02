@@ -25,14 +25,11 @@ verdict: ftbfs
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCasso
-providerLinkedIn: coincasso
-providerFacebook: ccwallet.mobileapp
-providerReddit: 
-
+twitter: CoinCasso
+social:
+  - https://www.linkedin.com/company/coincasso
+  - https://www.facebook.com/ccwallet.mobileapp
 redirect_from:
-
 ---
 
 Also based on [Emauel](https://gitlab.com/e3amn2l)'s

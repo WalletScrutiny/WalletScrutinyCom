@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: tradestation
-providerLinkedIn: 
-providerFacebook: TradeStation
-providerReddit: 
-
-redirect_from:
-
+twitter: tradestation
+social:
+  - https://www.facebook.com/TradeStation
 ---
 
 {% include copyFromAndroid.html %}

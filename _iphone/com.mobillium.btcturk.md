@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: btcturk
-providerLinkedIn: btcturk
-providerFacebook: btcturk
-providerReddit: 
-
-redirect_from:
-
+twitter: btcturk
+social:
+  - https://www.linkedin.com/company/btcturk
+  - https://www.facebook.com/btcturk
 ---
 
 {% include copyFromAndroid.html %}

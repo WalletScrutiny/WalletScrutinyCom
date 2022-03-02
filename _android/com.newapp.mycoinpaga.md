@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-08-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-08-05**: This app is not anymore.

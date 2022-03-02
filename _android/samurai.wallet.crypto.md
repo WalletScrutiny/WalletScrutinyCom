@@ -25,14 +25,9 @@ verdict: fake
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-09-09**: This app is no more.

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: bit_bucks
-providerLinkedIn: 
-providerFacebook: bitbucks.io
-providerReddit: 
-
-redirect_from:
-
+twitter: bit_bucks
+social:
+  - https://www.facebook.com/bitbucks.io
 ---
 
 According to their website:

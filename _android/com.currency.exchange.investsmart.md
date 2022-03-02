@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-06
 signer: 
 reviewArchive:
-
-providerTwitter: currencycom
-providerLinkedIn: 
-providerFacebook: currencycom
-providerReddit: currencycom
-
+twitter: currencycom
+social:
+  - https://www.facebook.com/currencycom
+  - https://www.reddit.com/r/currencycom
 redirect_from:
-
 ---
 
 **Update 2022-01-04**: The app is live again on Google Play. From the logo, it would seem that the right iOS partner to this app is located [here](https://apps.apple.com/tm/app/currency-com-investing/id1499070397). We've added the right corresponding file.

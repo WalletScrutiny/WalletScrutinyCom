@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: ABCCExOfficial
-providerLinkedIn: 
-providerFacebook: ABCC-Exchange-558472047871367
-providerReddit: 
-
+twitter: ABCCExOfficial
+social:
+  - https://www.facebook.com/ABCC-Exchange-558472047871367
 redirect_from:
-
 ---
 
 Also known as "Alphabit Consulting Pte", it is self-described as an 'Unregulated Platform' in its [Terms](https://abcc.com/en/documents/terms). 

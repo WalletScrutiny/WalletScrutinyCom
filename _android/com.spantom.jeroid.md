@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: jeroidng
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: jeroidng
+social:
 redirect_from:
-
 ---
 
 ## App Description

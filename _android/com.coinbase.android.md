@@ -24,12 +24,11 @@ verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: coinbase
-providerLinkedIn: coinbase
-providerFacebook: Coinbase
-providerReddit: CoinBase
-
+twitter: coinbase
+social:
+  - https://www.linkedin.com/company/coinbase
+  - https://www.facebook.com/Coinbase
+  - https://www.reddit.com/r/CoinBase
 redirect_from:
   - /coinbase/
   - /com.coinbase.android/

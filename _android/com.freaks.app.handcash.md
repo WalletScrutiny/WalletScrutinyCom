@@ -24,12 +24,8 @@ verdict: wip
 date: 2019-12-25
 signer: 
 reviewArchive:
-
-providerTwitter: handcashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: handcashapp
+social:
 redirect_from:
   - /com.freaks.app.handcash/
   - /posts/com.freaks.app.handcash/

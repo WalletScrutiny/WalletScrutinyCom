@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: celsiusnetwork
-providerLinkedIn: celsiusnetwork
-providerFacebook: CelsiusNetwork
-providerReddit: 
-
+twitter: celsiusnetwork
+social:
+  - https://www.linkedin.com/company/celsiusnetwork
+  - https://www.facebook.com/CelsiusNetwork
 redirect_from:
   - /network.celsius.wallet/
 ---

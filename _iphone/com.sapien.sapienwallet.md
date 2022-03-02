@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: SapienWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/SapienWallet
 ---
 
 {% include copyFromAndroid.html %}

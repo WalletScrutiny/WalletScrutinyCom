@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: coinspotau
-providerLinkedIn: 
-providerFacebook: coinspotau
-providerReddit: 
-
+twitter: coinspotau
+social:
+  - https://www.facebook.com/coinspotau
 redirect_from:
-
 ---
 
 > The CoinSpot app enables you to easily and safely manage all of your digital currencies in one place. Simply follow the markets, send & receive cryptocurrency, buy & sell all assets available on CoinSpot and easily access account facilities.

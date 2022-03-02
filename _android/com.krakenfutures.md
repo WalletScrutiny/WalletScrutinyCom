@@ -25,12 +25,8 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.krakenfutures/
   - /posts/com.krakenfutures/

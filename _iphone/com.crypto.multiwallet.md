@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: GuardaWallet
-providerLinkedIn: 
-providerFacebook: guarda.co
-providerReddit: GuardaWallet
-
-redirect_from:
-
+twitter: GuardaWallet
+social:
+  - https://www.facebook.com/guarda.co
+  - https://www.reddit.com/r/GuardaWallet
 ---
 
 This app claims to be non-custodial on the App Store

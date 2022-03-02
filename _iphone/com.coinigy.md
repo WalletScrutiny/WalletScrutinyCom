@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: coinigy
-providerLinkedIn: coinigy
-providerFacebook: coinigy
-providerReddit: 
-
-redirect_from:
-
+twitter: coinigy
+social:
+  - https://www.linkedin.com/company/coinigy
+  - https://www.facebook.com/coinigy
 ---
 
 {% include copyFromAndroid.html %}

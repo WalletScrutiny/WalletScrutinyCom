@@ -25,14 +25,10 @@ verdict: nowallet
 date: 2022-01-03
 signer: 
 reviewArchive:
-
-providerTwitter: altcoinfantasy
-providerLinkedIn: 
-providerFacebook: altcoinfantasy
-providerReddit: 
-
+twitter: altcoinfantasy
+social:
+  - https://www.facebook.com/altcoinfantasy
 redirect_from:
-
 ---
 
 This is not a wallet, it is a crypto currency fantasy trading paltformm.

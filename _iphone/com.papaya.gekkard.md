@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: gekkoin.official
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/gekkoin.official
 ---
 
 {% include copyFromAndroid.html %}

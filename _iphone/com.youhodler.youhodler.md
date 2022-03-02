@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: youhodler
-providerLinkedIn: youhodler
-providerFacebook: YouHodler
-providerReddit: 
-
-redirect_from:
-
+twitter: youhodler
+social:
+  - https://www.linkedin.com/company/youhodler
+  - https://www.facebook.com/YouHodler
 ---
 
 This app is the interface to an exchange and might have a non-custodial part to

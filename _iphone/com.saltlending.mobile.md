@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: SALTlending
-providerLinkedIn: saltlending
-providerFacebook: SALTLENDING
-providerReddit: 
-
-redirect_from:
-
+twitter: SALTlending
+social:
+  - https://www.linkedin.com/company/saltlending
+  - https://www.facebook.com/SALTLENDING
 ---
 
 {% include copyFromAndroid.html %}

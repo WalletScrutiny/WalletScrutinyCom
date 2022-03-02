@@ -5,34 +5,31 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 0.8]
 weight: 6
+provider: "CoolBitX"
+providerWebsite: https://coolbitx.com/
 website: https://www.coolwallet.io/product/coolwallet-pro/
 shop: https://www.coolwallet.io/product/coolwallet-pro/
-company: CoolBitX
-companywebsite: https://coolbitx.com/
 country: TW
 price: 149USD
 repository: 
-issue:
+issue: 
 icon: coolwalletpro.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-08-28
-signer:
-reviewArchive:
-
-
-providerTwitter: coolwallet
-providerLinkedIn: 
-providerFacebook: coolwallet
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: coolwallet
+social: 
+  - https://www.facebook.com/coolwallet
 ---
-
 
 This device, running weeks on a single charge connects to its companion app on
 

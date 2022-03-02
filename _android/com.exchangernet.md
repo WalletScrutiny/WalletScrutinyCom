@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-02-18
 signer: 
 reviewArchive:
-
-providerTwitter: echangerbd
-providerLinkedIn: 
-providerFacebook: exchangernet
-providerReddit: 
-
+twitter: echangerbd
+social:
+  - https://www.facebook.com/exchangernet
 redirect_from:
-
 ---
 
 ## App Description

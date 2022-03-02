@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## New Review 2021-10-29

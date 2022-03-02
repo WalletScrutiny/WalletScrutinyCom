@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: CasaHODL
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: CasaHODL
+social:
 redirect_from:
   - /casa.keymaster/
   - /posts/casa.keymaster/

@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-07
 signer: 
 reviewArchive:
-
-providerTwitter: BitayTurkiye
-providerLinkedIn: 
-providerFacebook: bitayturkiye
-providerReddit: 
-
+twitter: BitayTurkiye
+social:
+  - https://www.facebook.com/bitayturkiye
 redirect_from:
-
 ---
 
 Site Description:

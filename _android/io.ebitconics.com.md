@@ -10,7 +10,7 @@ appCountry:
 released: 2021-01-18
 updated: 2021-01-18
 version: "0.0.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.1M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: eBitcoinics
-providerLinkedIn: 
-providerFacebook: eBitcoinics
-providerReddit: 
-
+twitter: eBitcoinics
+social:
+  - https://www.facebook.com/eBitcoinics
 redirect_from:
-
 ---
 
 ## App Description

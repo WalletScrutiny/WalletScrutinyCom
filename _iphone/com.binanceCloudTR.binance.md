@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: BinanceTR
-providerLinkedIn: 
-providerFacebook: TRBinanceTR
-providerReddit: 
-
-redirect_from:
-
+twitter: BinanceTR
+social:
+  - https://www.facebook.com/TRBinanceTR
 ---
 
 {% include copyFromAndroid.html %}

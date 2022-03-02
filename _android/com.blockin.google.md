@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: officialpoolin
-providerLinkedIn: poolin
-providerFacebook: poolinpool
-providerReddit: 
-
+twitter: officialpoolin
+social:
+  - https://www.linkedin.com/company/poolin
+  - https://www.facebook.com/poolinpool
 redirect_from:
-
 ---
 
 The Poolin Mining Pool app is created by Poolin, an enterprise that engages in cryptocurrency mining pool services.

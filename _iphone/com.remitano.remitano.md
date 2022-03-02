@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: remitano
-providerLinkedIn: Remitano
-providerFacebook: remitano
-providerReddit: 
-
-redirect_from:
-
+twitter: remitano
+social:
+  - https://www.linkedin.com/company/Remitano
+  - https://www.facebook.com/remitano
 ---
 
 This app is an interface to an exchange which holds your coins. On the App Store

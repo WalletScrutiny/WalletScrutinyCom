@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: Kriptofuture
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/Kriptofuture
 redirect_from:
-
 ---
 
 **⚠️ Warning ⚠️** 

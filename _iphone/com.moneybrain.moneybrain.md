@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: MoneybrainBiPS
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: MoneybrainBiPS
+social:
 ---
 
 {% include copyFromAndroid.html %}

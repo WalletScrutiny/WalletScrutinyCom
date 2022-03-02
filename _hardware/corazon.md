@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "GRAY®"
+providerWebsite: https://gray.inc/
 website: https://gray.inc/collections/corazon-wallet
 shop: https://gray.inc/products/corazon-titanium
-company: GRAY®
-companywebsite: https://gray.inc/
 country: SG
 price: 599USD
 repository: 
-issue:
+issue: 
 icon: corazon.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: graysingapore
-providerLinkedIn: gray-tech-international-private-limited
-providerFacebook: graysingapore
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: graysingapore
+social: 
+  - https://www.linkedin.com/company/gray-tech-international-private-limited
+  - https://www.facebook.com/graysingapore
 ---
-
 
 ## Updated Review 2021-11-25
 

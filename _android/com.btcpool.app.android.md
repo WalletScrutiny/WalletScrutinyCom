@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: btccom_official
-providerLinkedIn: btc.com
-providerFacebook: btccom
-providerReddit: 
-
+twitter: btccom_official
+social:
+  - https://www.linkedin.com/company/btc.com
+  - https://www.facebook.com/btccom
 redirect_from:
-
 ---
 
 ## App Description

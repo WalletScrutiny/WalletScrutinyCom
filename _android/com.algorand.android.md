@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-12-06
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.algorand.android/
 ---

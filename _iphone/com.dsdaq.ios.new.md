@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: dsdaqcom
-providerLinkedIn: 
-providerFacebook: dsdaqcom
-providerReddit: 
-
-redirect_from:
-
+twitter: dsdaqcom
+social:
+  - https://www.facebook.com/dsdaqcom
 ---
 
 {% include copyFromAndroid.html %}

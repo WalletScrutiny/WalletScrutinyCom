@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: fatbtc
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: fatbtc
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: RiseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: RiseWallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

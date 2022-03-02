@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Ember_Fund
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Ember_Fund
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: paybito
-providerLinkedIn: 
-providerFacebook: paybito
-providerReddit: 
-
-redirect_from:
-
+twitter: paybito
+social:
+  - https://www.facebook.com/paybito
 ---
 
 {% include copyFromAndroid.html %}

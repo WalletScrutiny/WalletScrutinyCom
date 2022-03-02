@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: payeercoins
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/payeercoins
 redirect_from:
-
 ---
 
 Taken from the Play Store description:

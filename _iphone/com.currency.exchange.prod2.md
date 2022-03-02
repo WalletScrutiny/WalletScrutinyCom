@@ -23,14 +23,10 @@ verdict: wip
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: currencycom
-providerLinkedIn: 
-providerFacebook: currencycom
-providerReddit: currencycom
-
-redirect_from:
-
+twitter: currencycom
+social:
+  - https://www.facebook.com/currencycom
+  - https://www.reddit.com/r/currencycom
 ---
 
 <!--

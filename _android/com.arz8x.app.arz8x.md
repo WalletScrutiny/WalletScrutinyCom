@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app webpage lists its address as Maragheh City, East Azerbaijan, Iran. Iran is currently under economic sanctions from a lot of Western allied nations. It is best to proceed with caution when using this app. 

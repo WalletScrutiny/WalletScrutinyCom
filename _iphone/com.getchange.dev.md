@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: changefinance
-providerLinkedIn: changeinvest
-providerFacebook: changeinvest
-providerReddit: 
-
-redirect_from:
-
+twitter: changefinance
+social:
+  - https://www.linkedin.com/company/changeinvest
+  - https://www.facebook.com/changeinvest
 ---
 
 {% include copyFromAndroid.html %}

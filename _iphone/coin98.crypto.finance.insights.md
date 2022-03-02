@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: coin98_wallet
-providerLinkedIn: 
-providerFacebook: Coin98Wallet
-providerReddit: 
-
-redirect_from:
-
+twitter: coin98_wallet
+social:
+  - https://www.facebook.com/Coin98Wallet
 ---
 
 {% include copyFromAndroid.html %}

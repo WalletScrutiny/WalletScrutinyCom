@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: SimpleFXcom
-providerLinkedIn: 
-providerFacebook: simplefxltd
-providerReddit: 
-
+twitter: SimpleFXcom
+social:
+  - https://www.facebook.com/simplefxltd
 redirect_from:
-
 ---
 
 ## App Description

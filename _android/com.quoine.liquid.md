@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: Liquid_Global
-providerLinkedIn: quoine
-providerFacebook: LiquidGlobal
-providerReddit: 
-
+twitter: Liquid_Global
+social:
+  - https://www.linkedin.com/company/quoine
+  - https://www.facebook.com/LiquidGlobal
 redirect_from:
-
 ---
 
 ## App Description

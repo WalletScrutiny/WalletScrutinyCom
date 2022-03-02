@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: CoinFieldEx
-providerLinkedIn: coinfield
-providerFacebook: coinfieldexchange
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinFieldEx
+social:
+  - https://www.linkedin.com/company/coinfield
+  - https://www.facebook.com/coinfieldexchange
 ---
 
 {% include copyFromAndroid.html %}

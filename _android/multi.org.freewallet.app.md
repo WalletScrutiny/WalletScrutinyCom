@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: Freewallet_org
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
+  - https://www.reddit.com/r/Freewallet_org
 redirect_from:
-
 ---
 
 The [Free wallet website](https://freewallet.org/) clearly states to the user how the wallet private keys are managed.

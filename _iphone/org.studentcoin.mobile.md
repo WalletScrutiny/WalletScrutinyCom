@@ -23,14 +23,11 @@ verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: studentcoinorg
-providerLinkedIn: student-coin-worldwide
-providerFacebook: studentcoin.org
-providerReddit: Studentcoin
-
-redirect_from:
-
+twitter: studentcoinorg
+social:
+  - https://www.linkedin.com/company/student-coin-worldwide
+  - https://www.facebook.com/studentcoin.org
+  - https://www.reddit.com/r/Studentcoin
 ---
 
 {% include copyFromAndroid.html %}

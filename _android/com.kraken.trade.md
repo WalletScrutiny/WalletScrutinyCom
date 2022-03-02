@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: krakenfx
-providerLinkedIn: krakenfx
-providerFacebook: KrakenFX
-providerReddit: 
-
+twitter: krakenfx
+social:
+  - https://www.linkedin.com/company/krakenfx
+  - https://www.facebook.com/KrakenFX
 redirect_from:
   - /com.kraken.trade/
   - /posts/com.kraken.trade/

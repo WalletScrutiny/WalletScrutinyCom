@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: Alvexo_Trade
-providerLinkedIn: alvexo
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Alvexo_Trade
+social:
+  - https://www.linkedin.com/company/alvexo
 ---
 
 {% include copyFromAndroid.html %}

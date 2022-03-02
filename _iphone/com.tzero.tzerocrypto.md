@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: mercadopago
-providerLinkedIn: 
-providerFacebook: mercadopago
-providerReddit: 
-
+twitter: mercadopago
+social:
+  - https://www.facebook.com/mercadopago
 redirect_from:
-
 ---
 
 The provider announced the possibility to buy and sell Bitcoin from within the

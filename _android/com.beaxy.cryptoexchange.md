@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: BeaxyExchange
-providerLinkedIn: 
-providerFacebook: beaxyexchange
-providerReddit: BeaxyExchange
-
+twitter: BeaxyExchange
+social:
+  - https://www.facebook.com/beaxyexchange
+  - https://www.reddit.com/r/BeaxyExchange
 redirect_from:
-
 ---
 
 ## App Description

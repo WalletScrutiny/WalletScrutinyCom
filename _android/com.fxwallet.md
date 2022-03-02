@@ -24,14 +24,10 @@ verdict: custodial
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: fxwallet
-providerLinkedIn: 
-providerFacebook: Fxwallet.info
-providerReddit: 
-
+twitter: fxwallet
+social:
+  - https://www.facebook.com/Fxwallet.info
 redirect_from:
-
 ---
 
 **Update 2022-02-09**: This app is no more.

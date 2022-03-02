@@ -10,7 +10,7 @@ appCountry: de
 released: 2020-11-10
 updated: 2021-04-14
 version: "0.01.18"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 44M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-03-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the

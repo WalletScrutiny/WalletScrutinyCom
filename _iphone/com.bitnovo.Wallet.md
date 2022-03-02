@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: bitnovo
-providerLinkedIn: Bitnovo
-providerFacebook: BitcoinBitnovo
-providerReddit: 
-
-redirect_from:
-
+twitter: bitnovo
+social:
+  - https://www.linkedin.com/company/Bitnovo
+  - https://www.facebook.com/BitcoinBitnovo
 ---
 
 {% include copyFromAndroid.html %}

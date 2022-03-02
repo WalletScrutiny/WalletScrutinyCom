@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: modeapp_
-providerLinkedIn: modeapp-com
-providerFacebook: themodeapp
-providerReddit: 
-
+twitter: modeapp_
+social:
+  - https://www.linkedin.com/company/modeapp-com
+  - https://www.facebook.com/themodeapp
 redirect_from:
-
 ---
 
 ### App Description

@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-01-13
 signer: 
 reviewArchive:
-
-providerTwitter: secretkeylabs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: secretkeylabs
+social:
 redirect_from:
-
 ---
 
 ## App Description

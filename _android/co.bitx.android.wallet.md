@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
-providerTwitter: LunoGlobal
-providerLinkedIn: lunoglobal
-providerFacebook: luno
-providerReddit: 
-
+twitter: LunoGlobal
+social:
+  - https://www.linkedin.com/company/lunoglobal
+  - https://www.facebook.com/luno
 redirect_from:
   - /luno/
   - /co.bitx.android.wallet/

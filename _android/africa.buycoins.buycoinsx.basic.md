@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: buycoins
-providerLinkedIn: 
-providerFacebook: buycoinsafrica
-providerReddit: 
-
+twitter: buycoins
+social:
+  - https://www.facebook.com/buycoinsafrica
 redirect_from:
-
 ---
 
 ## Update 2021-10-08

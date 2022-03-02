@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: gcbuying
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: gcbuying
+social:
 ---
 
 {% include copyFromAndroid.html %}

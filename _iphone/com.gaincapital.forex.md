@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: forexcom
-providerLinkedIn: 
-providerFacebook: FOREXcom
-providerReddit: 
-
-redirect_from:
-
+twitter: forexcom
+social:
+  - https://www.facebook.com/FOREXcom
 ---
 
 {% include copyFromAndroid.html %}

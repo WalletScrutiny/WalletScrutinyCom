@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: CoinoneOfficial
-providerLinkedIn: 
-providerFacebook: coinone
-providerReddit: 
-
+twitter: CoinoneOfficial
+social:
+  - https://www.facebook.com/coinone
 redirect_from:
-
 ---
 
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.

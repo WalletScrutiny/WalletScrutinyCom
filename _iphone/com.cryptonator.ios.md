@@ -23,14 +23,8 @@ verdict: custodial
 date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: cryptonatorcom
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cryptonatorcom
+social:
 ---
 
 **Update 2022-02-09**: This app is not on the Store anymore.

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-19
 updated: 2021-04-22
 version: "4.3.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 30M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: b4uwallet_b4u
-providerLinkedIn: 
-providerFacebook: B4uwalletofficial
-providerReddit: 
-
+twitter: b4uwallet_b4u
+social:
+  - https://www.facebook.com/B4uwalletofficial
 redirect_from:
-
 ---
 
 This app is not well advertised on how the users private keys are managed.

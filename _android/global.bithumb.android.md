@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbGlobal
-providerLinkedIn: bithumbglobal
-providerFacebook: bithumb.global
-providerReddit: BithumbGlobal
-
+twitter: BithumbGlobal
+social:
+  - https://www.linkedin.com/company/bithumbglobal
+  - https://www.facebook.com/bithumb.global
+  - https://www.reddit.com/r/BithumbGlobal
 redirect_from:
-
 ---
 
 It's **highly recommended to avoid this app.**

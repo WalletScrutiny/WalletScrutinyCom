@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-03-28
 signer: 
 reviewArchive:
-
-providerTwitter: ripioapp
-providerLinkedIn: ripio
-providerFacebook: RipioApp
-providerReddit: 
-
+twitter: ripioapp
+social:
+  - https://www.linkedin.com/company/ripio
+  - https://www.facebook.com/RipioApp
 redirect_from:
   - /ripio/
   - /com.ripio.android/

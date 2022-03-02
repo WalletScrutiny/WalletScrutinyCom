@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: CryptoTabnet
-providerLinkedIn: 
-providerFacebook: CryptoTabFarm
-providerReddit: 
-
+twitter: CryptoTabnet
+social:
+  - https://www.facebook.com/CryptoTabFarm
 redirect_from:
-
 ---
 
 ## Google Play Critical Reviews

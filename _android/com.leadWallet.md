@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: leadwallet
-providerLinkedIn: leadwallet
-providerFacebook: 
-providerReddit: LeadWallet
-
+twitter: leadwallet
+social:
+  - https://www.linkedin.com/company/leadwallet
+  - https://www.reddit.com/r/LeadWallet
 redirect_from:
-
 ---
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 

@@ -24,14 +24,9 @@ verdict: obfuscated
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume

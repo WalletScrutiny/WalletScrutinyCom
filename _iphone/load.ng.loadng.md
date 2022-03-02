@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: loadngautomated
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: loadngautomated
+social:
 ---
 
 {% include copyFromAndroid.html %}

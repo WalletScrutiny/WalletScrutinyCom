@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: ZeusLN
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ZeusLN
+social:
 ---
 
 This app is a bit special as it does not hold your private keys but neither is

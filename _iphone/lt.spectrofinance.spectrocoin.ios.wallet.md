@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: spectrocoin
-providerLinkedIn: spectrocoin
-providerFacebook: spectrocoin
-providerReddit: 
-
-redirect_from:
-
+twitter: spectrocoin
+social:
+  - https://www.linkedin.com/company/spectrocoin
+  - https://www.facebook.com/spectrocoin
 ---
 
 Neither on the description nor on the website can we find any claims about coins

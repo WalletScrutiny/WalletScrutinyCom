@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-26
 updated: 2021-03-19
 version: "0.8.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.1M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: Itezofficial
-providerLinkedIn: 
-providerFacebook: itezofficial
-providerReddit: 
-
+twitter: Itezofficial
+social:
+  - https://www.facebook.com/itezofficial
 redirect_from:
-
 ---
 
 ## App Description

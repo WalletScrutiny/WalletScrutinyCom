@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: gemini
-providerLinkedIn: geminitrust
-providerFacebook: GeminiTrust
-providerReddit: 
-
+twitter: gemini
+social:
+  - https://www.linkedin.com/company/geminitrust
+  - https://www.facebook.com/GeminiTrust
 redirect_from:
   - /com.gemini.android.app/
   - /posts/com.gemini.android.app/

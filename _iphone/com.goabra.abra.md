@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: AbraGlobal
-providerLinkedIn: abra
-providerFacebook: GoAbraGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: AbraGlobal
+social:
+  - https://www.linkedin.com/company/abra
+  - https://www.facebook.com/GoAbraGlobal
 ---
 
 This is the iPhone version of the Android

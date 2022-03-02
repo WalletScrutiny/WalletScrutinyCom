@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-03
 signer: 
 reviewArchive:
-
-providerTwitter: stasisnet
-providerLinkedIn: stasisnet
-providerFacebook: stasisnet
-providerReddit: 
-
+twitter: stasisnet
+social:
+  - https://www.linkedin.com/company/stasisnet
+  - https://www.facebook.com/stasisnet
 redirect_from:
   - /com.stasis.stasiswallet/
   - /posts/com.stasis.stasiswallet/

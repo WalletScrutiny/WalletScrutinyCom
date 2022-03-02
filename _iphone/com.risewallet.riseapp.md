@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: RiseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: RiseWallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,12 +24,11 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: CoinomiWallet
-providerLinkedIn: coinomi
-providerFacebook: coinomi
-providerReddit: COINOMI
-
+twitter: CoinomiWallet
+social:
+  - https://www.linkedin.com/company/coinomi
+  - https://www.facebook.com/coinomi
+  - https://www.reddit.com/r/COINOMI
 redirect_from:
   - /coinomi/
   - /com.coinomi.wallet/

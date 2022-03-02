@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: wirexapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: wirexapp
+social:
 redirect_from:
-
 ---
 
 After app install, users are given two choices:

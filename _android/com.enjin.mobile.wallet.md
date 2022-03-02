@@ -24,14 +24,12 @@ verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: enjin
-providerLinkedIn: enjin
-providerFacebook: enjinsocial
-providerReddit: EnjinCoin
-
+twitter: enjin
+social:
+  - https://www.linkedin.com/company/enjin
+  - https://www.facebook.com/enjinsocial
+  - https://www.reddit.com/r/EnjinCoin
 redirect_from:
-
 ---
 
 Enjin: Blockchain & Crypto Wallet

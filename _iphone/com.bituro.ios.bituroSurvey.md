@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: bituroapp
-providerLinkedIn: 
-providerFacebook: BituroApp
-providerReddit: 
-
-redirect_from:
-
+twitter: bituroapp
+social:
+  - https://www.facebook.com/BituroApp
 ---
 
 {% include copyFromAndroid.html %}

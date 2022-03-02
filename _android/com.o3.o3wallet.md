@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: O3_Labs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: O3_Labs
+social:
 redirect_from:
-
 ---
 
 ### Google Play

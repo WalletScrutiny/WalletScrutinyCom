@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: BlockFi
-providerLinkedIn: blockfi
-providerFacebook: BlockFi
-providerReddit: blockfi
-
+twitter: BlockFi
+social:
+  - https://www.linkedin.com/company/blockfi
+  - https://www.facebook.com/BlockFi
+  - https://www.reddit.com/r/blockfi
 redirect_from:
-
 ---
 
 > BlockFi is the easiest place to buy, sell and earn cryptocurrency

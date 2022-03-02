@@ -10,7 +10,7 @@ appCountry: ng
 released: 2021-01-26
 updated: 2021-09-17
 version: "1.0.10"
-stars: 4.0
+stars: 4
 ratings: 405
 reviews: 46
 size: 13M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: gcbuying
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: gcbuying
+social:
 redirect_from:
-
 ---
 
 ## Updated Review 2021-10-29

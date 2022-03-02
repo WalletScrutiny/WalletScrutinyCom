@@ -24,12 +24,8 @@ verdict: nowallet
 date: 2020-12-14
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /partl.coini/
 ---

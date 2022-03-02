@@ -4,34 +4,30 @@ appId: keepser
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Keepser Group"
+providerWebsite: 
 website: https://www.keepser.com/
-shop:
-company: Keepser Group
-companywebsite: 
+shop: 
 country: AD
 price: 349EUR
-repository:
-issue:
+repository: 
+issue: 
 icon: keepser.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: unreleased 
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: keepser
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: keepser
+social: 
 ---
-
 
 Keepser was [first made known via its twitter](https://twitter.com/keepser/status/1340752885420875779) account on December 21, 2020.
 

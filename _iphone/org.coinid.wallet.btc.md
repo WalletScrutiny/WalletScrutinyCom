@@ -24,14 +24,8 @@ verdict: ftbfs
 date: 2021-06-25
 signer: 
 reviewArchive:
-
-providerTwitter: COINiDGroup
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: COINiDGroup
+social:
 ---
 
 {% include copyFromAndroid.html %}

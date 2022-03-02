@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-04-12
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant

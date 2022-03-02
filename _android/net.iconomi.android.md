@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: iconomicom
-providerLinkedIn: iconominet
-providerFacebook: iconomicom
-providerReddit: ICONOMI
-
+twitter: iconomicom
+social:
+  - https://www.linkedin.com/company/iconominet
+  - https://www.facebook.com/iconomicom
+  - https://www.reddit.com/r/ICONOMI
 redirect_from:
-
 ---
 
 ### App Description

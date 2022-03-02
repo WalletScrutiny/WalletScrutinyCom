@@ -10,7 +10,7 @@ appCountry: tr
 released: 2021-07-16
 updated: 2022-02-18
 version: "1.10.1"
-stars: 4.0
+stars: 4
 ratings: 42784
 reviews: 12339
 size: Varies with device
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: BinanceTR
-providerLinkedIn: 
-providerFacebook: TRBinanceTR
-providerReddit: 
-
+twitter: BinanceTR
+social:
+  - https://www.facebook.com/TRBinanceTR
 redirect_from:
-
 ---
 
 ## App Description

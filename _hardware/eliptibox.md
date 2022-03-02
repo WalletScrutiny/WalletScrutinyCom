@@ -4,34 +4,30 @@ appId: eliptibox
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: http://www.eliptibox.com/
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: eliptibox.png
-bugbounty:
+bugbounty: 
 meta: obsolete
-verdict: unreleased  
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 The eliptobox was first announced on [bitcointalk.org](https://bitcointalk.org/index.php?topic=970998.msg10601510#msg10601510) on February 27, 2015. Its features were  self-described as:
 

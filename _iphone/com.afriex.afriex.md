@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: afriexapp
-providerLinkedIn: afriex
-providerFacebook: AfriexApp
-providerReddit: 
-
-redirect_from:
-
+twitter: afriexapp
+social:
+  - https://www.linkedin.com/company/afriex
+  - https://www.facebook.com/AfriexApp
 ---
 
 {% include copyFromAndroid.html %}

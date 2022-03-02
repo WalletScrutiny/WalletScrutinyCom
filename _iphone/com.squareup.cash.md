@@ -23,14 +23,8 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cashapp
+social:
 ---
 
 On their website the provider claims:

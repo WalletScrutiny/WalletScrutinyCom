@@ -23,14 +23,9 @@ verdict: custodial
 date: 2022-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: prizmbit
-providerLinkedIn: 
-providerFacebook: prizmbit
-providerReddit: 
-
-redirect_from:
-
+twitter: prizmbit
+social:
+  - https://www.facebook.com/prizmbit
 ---
 
 **Update 2022-01-02**: This app is no more available.

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: everusworld
-providerLinkedIn: everusworld
-providerFacebook: EverusWorld
-providerReddit: 
-
+twitter: everusworld
+social:
+  - https://www.linkedin.com/company/everusworld
+  - https://www.facebook.com/EverusWorld
 redirect_from:
-
 ---
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.

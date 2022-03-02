@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-03-17
 signer: 
 reviewArchive:
-
-providerTwitter: maxonrow
-providerLinkedIn: maxonrow
-providerFacebook: maxonrowblockchain
-providerReddit: 
-
+twitter: maxonrow
+social:
+  - https://www.linkedin.com/company/maxonrow
+  - https://www.facebook.com/maxonrowblockchain
 redirect_from:
-
 ---
 
 We find no mention of Bitcoin on the description or the website.

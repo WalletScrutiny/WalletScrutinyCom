@@ -24,12 +24,11 @@ verdict: nosource
 date: 2020-12-27
 signer: 
 reviewArchive:
-
-providerTwitter: mtpelerin
-providerLinkedIn: mt-pelerin
-providerFacebook: mtpelerin
-providerReddit: MtPelerin
-
+twitter: mtpelerin
+social:
+  - https://www.linkedin.com/company/mt-pelerin
+  - https://www.facebook.com/mtpelerin
+  - https://www.reddit.com/r/MtPelerin
 redirect_from:
   - /com.mtpelerin.bridge/
 ---

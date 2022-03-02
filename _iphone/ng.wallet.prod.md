@@ -25,14 +25,9 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: walletsafrica
-providerLinkedIn: 
-providerFacebook: walletsafrica
-providerReddit: 
-
-redirect_from:
-
+twitter: walletsafrica
+social:
+  - https://www.facebook.com/walletsafrica
 ---
 
 **UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

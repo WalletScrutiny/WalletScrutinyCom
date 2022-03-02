@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: swissborg
-providerLinkedIn: swissborg
-providerFacebook: swissborg
-providerReddit: 
-
-redirect_from:
-
+twitter: swissborg
+social:
+  - https://www.linkedin.com/company/swissborg
+  - https://www.facebook.com/swissborg
 ---
 
  {% include copyFromAndroid.html %}

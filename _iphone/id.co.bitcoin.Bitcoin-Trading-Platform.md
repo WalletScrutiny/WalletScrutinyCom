@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: indodax
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: indodax
+social:
 ---
 
 This is the interface to

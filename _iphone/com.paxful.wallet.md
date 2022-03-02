@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: paxful
-providerLinkedIn: 
-providerFacebook: paxful
-providerReddit: paxful
-
-redirect_from:
-
+twitter: paxful
+social:
+  - https://www.facebook.com/paxful
+  - https://www.reddit.com/r/paxful
 ---
 
 In the App Store description we can read:

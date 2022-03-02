@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: getcoinjar
-providerLinkedIn: coinjar
-providerFacebook: CoinJar
-providerReddit: 
-
-redirect_from:
-
+twitter: getcoinjar
+social:
+  - https://www.linkedin.com/company/coinjar
+  - https://www.facebook.com/CoinJar
 ---
 
 {% include copyFromAndroid.html %}

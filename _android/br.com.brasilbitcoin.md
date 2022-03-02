@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: brbtcoficial
-providerLinkedIn: 
-providerFacebook: brbtcoficial
-providerReddit: 
-
+twitter: brbtcoficial
+social:
+  - https://www.facebook.com/brbtcoficial
 redirect_from:
-
 ---
 
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 

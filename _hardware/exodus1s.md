@@ -5,31 +5,30 @@ authors:
 - kiwilamb
 - leo
 released: 2019-10-19
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "HTC"
+providerWebsite: https://www.htcexodus.com
 website: https://www.htcexodus.com/us/cryptophone/exodus1s/
 shop: 
-company: HTC
-companywebsite: https://www.htcexodus.com
 country: US
 price: 
 repository: 
-issue:
+issue: 
 icon: exodus1s.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2021-07-11
-signer:
-reviewArchive:
-
-
-providerTwitter: htcexodus
-providerLinkedIn: 
-providerFacebook: htcexodus
-providerReddit: HTCExodus
+signer: 
+reviewArchive: 
+twitter: htcexodus
+social: 
+  - https://www.facebook.com/htcexodus
+  - https://www.reddit.com/r/HTCExodus
 ---
 

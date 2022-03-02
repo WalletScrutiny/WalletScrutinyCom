@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: bitkubofficial
-providerLinkedIn: bitkub
-providerFacebook: bitkubofficial
-providerReddit: 
-
+twitter: bitkubofficial
+social:
+  - https://www.linkedin.com/company/bitkub
+  - https://www.facebook.com/bitkubofficial
 redirect_from:
-
 ---
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform

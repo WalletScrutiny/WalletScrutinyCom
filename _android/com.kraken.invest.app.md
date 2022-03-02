@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: krakenfx
-providerLinkedIn: krakenfx
-providerFacebook: KrakenFX
-providerReddit: Kraken
-
+twitter: krakenfx
+social:
+  - https://www.linkedin.com/company/krakenfx
+  - https://www.facebook.com/KrakenFX
+  - https://www.reddit.com/r/Kraken
 redirect_from:
-
 ---
 
 Kraken is one of the leading exchanges in the world with over 2 billion traded over a 24h period. 

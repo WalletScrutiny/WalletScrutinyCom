@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: WazirxIndia
-providerLinkedIn: wazirx
-providerFacebook: wazirx
-providerReddit: 
-
-redirect_from:
-
+twitter: WazirxIndia
+social:
+  - https://www.linkedin.com/company/wazirx
+  - https://www.facebook.com/wazirx
 ---
 
 As this exchange allows holding your BTC in the app such

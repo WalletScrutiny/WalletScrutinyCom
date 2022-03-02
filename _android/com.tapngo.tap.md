@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 

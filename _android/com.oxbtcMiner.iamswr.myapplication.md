@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Note:**  This app is a discontinued predecessor to  {% include walletLink.html wallet='android/com.oxbtc_Miner.iamswr.myapplication' verdict='true' %}

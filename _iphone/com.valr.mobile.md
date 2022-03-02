@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
-providerTwitter: valrdotcom
-providerLinkedIn: valr
-providerFacebook: VALRdotcom
-providerReddit: 
-
-redirect_from:
-
+twitter: valrdotcom
+social:
+  - https://www.linkedin.com/company/valr
+  - https://www.facebook.com/VALRdotcom
 ---
 
 I need not go further into researching this wallet as the statement on the

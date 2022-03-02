@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: VantageFX
-providerLinkedIn: vantage-fx
-providerFacebook: VantageFXBroker
-providerReddit: 
-
+twitter: VantageFX
+social:
+  - https://www.linkedin.com/company/vantage-fx
+  - https://www.facebook.com/VantageFXBroker
 redirect_from:
-
 ---
 
 App description:

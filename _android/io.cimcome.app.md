@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: cimcome
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cimcome
+social:
 redirect_from:
-
 ---
 
 ## App Description

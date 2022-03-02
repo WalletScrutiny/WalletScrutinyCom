@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: XTrade
-providerLinkedIn: xtrade
-providerFacebook: XTrade
-providerReddit: 
-
+twitter: XTrade
+social:
+  - https://www.linkedin.com/company/xtrade
+  - https://www.facebook.com/XTrade
 redirect_from:
-
 ---
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone

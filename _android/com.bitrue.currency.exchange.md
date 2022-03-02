@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: BitrueOfficial
-providerLinkedIn: 
-providerFacebook: BitrueOfficial
-providerReddit: 
-
+twitter: BitrueOfficial
+social:
+  - https://www.facebook.com/BitrueOfficial
 redirect_from:
   - /com.bitrue.currency.exchange/
 ---

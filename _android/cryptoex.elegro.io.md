@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-26
 updated: 2021-04-29
 version: "1.0.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /cryptoex.elegro.io/
   - /posts/cryptoex.elegro.io/

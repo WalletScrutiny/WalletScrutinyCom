@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: bytesmix
-providerLinkedIn: 
-providerFacebook: bytesmix
-providerReddit: 
-
-redirect_from:
-
+twitter: bytesmix
+social:
+  - https://www.facebook.com/bytesmix
 ---
 
 {% include copyFromAndroid.html %}

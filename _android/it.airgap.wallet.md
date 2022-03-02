@@ -10,7 +10,7 @@ appCountry:
 released: 2018-08-06
 updated: 2022-02-23
 version: "3.16.0"
-stars: 4.0
+stars: 4
 ratings: 128
 reviews: 13
 size: 74M
@@ -24,12 +24,9 @@ verdict: nowallet
 date: 2019-12-29
 signer: 
 reviewArchive:
-
-providerTwitter: AirGap_it
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: AirGap
-
+twitter: AirGap_it
+social:
+  - https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/

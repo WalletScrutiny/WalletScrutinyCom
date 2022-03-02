@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: GetCoinZoom
-providerLinkedIn: coinzoomhq
-providerFacebook: CoinZoom
-providerReddit: 
-
+twitter: GetCoinZoom
+social:
+  - https://www.linkedin.com/company/coinzoomhq
+  - https://www.facebook.com/CoinZoom
 redirect_from:
-
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 

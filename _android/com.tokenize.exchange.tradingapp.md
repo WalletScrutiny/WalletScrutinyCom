@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-12-03
 updated: 2022-02-18
 version: "2.0.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 87M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: TokenizeXchange
-providerLinkedIn: 
-providerFacebook: tokenize.exchange
-providerReddit: 
-
+twitter: TokenizeXchange
+social:
+  - https://www.facebook.com/tokenize.exchange
 redirect_from:
-
 ---
 
 ## App Description

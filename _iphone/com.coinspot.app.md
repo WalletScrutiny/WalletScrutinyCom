@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: coinspotau
-providerLinkedIn: 
-providerFacebook: coinspotau
-providerReddit: 
-
-redirect_from:
-
+twitter: coinspotau
+social:
+  - https://www.facebook.com/coinspotau
 ---
 
 {% include copyFromAndroid.html %}

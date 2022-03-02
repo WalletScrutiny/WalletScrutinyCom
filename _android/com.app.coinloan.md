@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: coin_loan
-providerLinkedIn: coinloan
-providerFacebook: coinloan.project
-providerReddit: coinloan
-
+twitter: coin_loan
+social:
+  - https://www.linkedin.com/company/coinloan
+  - https://www.facebook.com/coinloan.project
+  - https://www.reddit.com/r/coinloan
 redirect_from:
-
 ---
 
 ### App Description

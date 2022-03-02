@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-10
 signer: 
 reviewArchive:
-
-providerTwitter: tangem
-providerLinkedIn: tangem
-providerFacebook: 
-providerReddit: 
-
+twitter: tangem
+social:
+  - https://www.linkedin.com/company/tangem
 redirect_from:
-
 ---
 
 This app is the companion app to an NFC card that is promoted as something like

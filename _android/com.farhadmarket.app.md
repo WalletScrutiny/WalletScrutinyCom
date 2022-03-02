@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-08
 updated: 2021-12-05
 version: "1.9.124"
-stars: 4.0
+stars: 4
 ratings: 1035
 reviews: 14
 size: 11M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 From its Google Play store description:

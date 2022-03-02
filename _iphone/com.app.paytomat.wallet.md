@@ -23,14 +23,10 @@ verdict: nosource
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: paytomat
-providerLinkedIn: 11433285
-providerFacebook: paytomat
-providerReddit: 
-
-redirect_from:
-
+twitter: paytomat
+social:
+  - https://www.linkedin.com/company/11433285
+  - https://www.facebook.com/paytomat
 ---
 
 {% include copyFromAndroid.html %}

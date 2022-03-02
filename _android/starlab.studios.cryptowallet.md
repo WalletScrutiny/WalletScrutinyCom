@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-01
 updated: 2021-10-27
 version: "1.3.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.5M
@@ -24,14 +24,9 @@ verdict: fake
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Warning:** Proceed with caution when using this app.

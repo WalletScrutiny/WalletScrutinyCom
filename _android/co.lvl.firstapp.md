@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: BankWithLVL
-providerLinkedIn: bankwithlvl
-providerFacebook: BankWithLVL
-providerReddit: 
-
+twitter: BankWithLVL
+social:
+  - https://www.linkedin.com/company/bankwithlvl
+  - https://www.facebook.com/BankWithLVL
 redirect_from:
-
 ---
 
 ## App Description

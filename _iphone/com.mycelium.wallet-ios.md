@@ -23,14 +23,11 @@ verdict: nonverifiable
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: MyceliumCom
-providerLinkedIn: mycelium
-providerFacebook: myceliumcom
-providerReddit: mycelium
-
-redirect_from:
-
+twitter: MyceliumCom
+social:
+  - https://www.linkedin.com/company/mycelium
+  - https://www.facebook.com/myceliumcom
+  - https://www.reddit.com/r/mycelium
 ---
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.

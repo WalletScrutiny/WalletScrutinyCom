@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: gate_io
-providerLinkedIn: 
-providerFacebook: gateioglobal
-providerReddit: GateioExchange
-
-redirect_from:
-
+twitter: gate_io
+social:
+  - https://www.facebook.com/gateioglobal
+  - https://www.reddit.com/r/GateioExchange
 ---
 
 {% include copyFromAndroid.html %}

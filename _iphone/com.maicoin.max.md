@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Max_exch
-providerLinkedIn: 
-providerFacebook: MaiCoinAssetExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: Max_exch
+social:
+  - https://www.facebook.com/MaiCoinAssetExchange
 ---
 
 {% include copyFromAndroid.html %}

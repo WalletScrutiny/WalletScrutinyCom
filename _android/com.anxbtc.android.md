@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-05-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 On the main site there is a [announcement that the provider is closing](https://anxpro.com/) and all funds should be withdrawn from its services.<br>

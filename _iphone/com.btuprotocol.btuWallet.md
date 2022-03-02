@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: versoapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: versoapp
+social:
 ---
 
 {% include copyFromAndroid.html %}

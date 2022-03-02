@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: indodax
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: indodax
+social:
 redirect_from:
   - /co.id.dompet.btc.indonesia/
 ---

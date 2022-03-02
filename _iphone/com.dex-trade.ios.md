@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: dextrade_
-providerLinkedIn: dex-trade-exchange
-providerFacebook: DexTradeExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: dextrade_
+social:
+  - https://www.linkedin.com/company/dex-trade-exchange
+  - https://www.facebook.com/DexTradeExchange
 ---
 
 {% include copyFromAndroid.html %}

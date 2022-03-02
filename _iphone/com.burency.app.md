@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-12-05
 signer: 
 reviewArchive:
-
-providerTwitter: BurencyOfficial
-providerLinkedIn: burencyofficial
-providerFacebook: BurencyOfficial
-providerReddit: Burency
-
-redirect_from:
-
+twitter: BurencyOfficial
+social:
+  - https://www.linkedin.com/company/burencyofficial
+  - https://www.facebook.com/BurencyOfficial
+  - https://www.reddit.com/r/Burency
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

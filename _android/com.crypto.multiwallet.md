@@ -24,12 +24,10 @@ verdict: nosource
 date: 2019-12-17
 signer: 
 reviewArchive:
-
-providerTwitter: GuardaWallet
-providerLinkedIn: 
-providerFacebook: guarda.co
-providerReddit: GuardaWallet
-
+twitter: GuardaWallet
+social:
+  - https://www.facebook.com/guarda.co
+  - https://www.reddit.com/r/GuardaWallet
 redirect_from:
   - /guardawallet/
   - /com.crypto.multiwallet/

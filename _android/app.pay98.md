@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Iranian third party payment website

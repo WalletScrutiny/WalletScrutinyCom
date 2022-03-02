@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: MercadoBitcoin
-providerLinkedIn: mercado-bitcoin
-providerFacebook: MercadoBitcoin
-providerReddit: 
-
+twitter: MercadoBitcoin
+social:
+  - https://www.linkedin.com/company/mercado-bitcoin
+  - https://www.facebook.com/MercadoBitcoin
 redirect_from:
-
 ---
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.

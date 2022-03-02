@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: getbusha
-providerLinkedIn: 
-providerFacebook: getbusha
-providerReddit: 
-
-redirect_from:
-
+twitter: getbusha
+social:
+  - https://www.facebook.com/getbusha
 ---
 
 The description

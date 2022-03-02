@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: OKcoin
-providerLinkedIn: okcoin
-providerFacebook: OkcoinOfficial
-providerReddit: 
-
+twitter: OKcoin
+social:
+  - https://www.linkedin.com/company/okcoin
+  - https://www.facebook.com/OkcoinOfficial
 redirect_from:
-
 ---
 
 > Okcoin is a secure crypto exchange that makes it easy to buy, sell, and hold your cryptocurrency with the lowest fees around.

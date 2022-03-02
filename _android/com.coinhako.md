@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-23
 signer: 
 reviewArchive:
-
-providerTwitter: coinhako
-providerLinkedIn: coinhako
-providerFacebook: coinhako
-providerReddit: 
-
+twitter: coinhako
+social:
+  - https://www.linkedin.com/company/coinhako
+  - https://www.facebook.com/coinhako
 redirect_from:
-
 ---
 
 Having a scan over the providers website and faq articles does not reveal any

@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** Several users have left detailed negative reviews concerning this app regarding funds that they were not able to retrieve.

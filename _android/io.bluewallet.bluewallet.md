@@ -10,7 +10,7 @@ appCountry:
 released: 2018-11-01
 updated: 2022-01-31
 version: "6.2.17"
-stars: 4.0
+stars: 4
 ratings: 1810
 reviews: 153
 size: Varies with device
@@ -29,11 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
-providerTwitter: bluewalletio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: bluewallet
-
+twitter: bluewalletio
+social:
+  - https://www.reddit.com/r/bluewallet
 redirect_from:
   - /bluewallet/
   - /io.bluewallet.bluewallet/

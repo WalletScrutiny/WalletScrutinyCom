@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: bitkanofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: bitkanofficial
+social:
 ---
 
 {% include copyFromAndroid.html %}

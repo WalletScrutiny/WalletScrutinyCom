@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: BitvoExchange
-providerLinkedIn: bitvoexchange
-providerFacebook: BitvoExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: BitvoExchange
+social:
+  - https://www.linkedin.com/company/bitvoexchange
+  - https://www.facebook.com/BitvoExchange
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: RobinhoodApp
-providerLinkedIn: robinhood
-providerFacebook: robinhoodapp
-providerReddit: 
-
+twitter: RobinhoodApp
+social:
+  - https://www.linkedin.com/company/robinhood
+  - https://www.facebook.com/robinhoodapp
 redirect_from:
-
 ---
 
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 

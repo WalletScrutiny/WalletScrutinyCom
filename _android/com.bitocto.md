@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-18
 updated: 2022-02-08
 version: "3.16"
-stars: 5.0
+stars: 5
 ratings: 1532
 reviews: 6
 size: 5.3M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: bitoctoexchange
-providerLinkedIn: bitocto
-providerFacebook: Bitocto
-providerReddit: 
-
+twitter: bitoctoexchange
+social:
+  - https://www.linkedin.com/company/bitocto
+  - https://www.facebook.com/Bitocto
 redirect_from:
-
 ---
 
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 

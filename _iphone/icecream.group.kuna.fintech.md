@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: KunaExchange
-providerLinkedIn: 
-providerFacebook: kunaexchange
-providerReddit: 
-
-redirect_from:
-
+twitter: KunaExchange
+social:
+  - https://www.facebook.com/kunaexchange
 ---
 
 {% include copyFromAndroid.html %}

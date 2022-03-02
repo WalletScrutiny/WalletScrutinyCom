@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: CoinbaseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: CoinbaseWallet
+social:
 redirect_from:
   - /coinbasewallet/
   - /org.toshi/

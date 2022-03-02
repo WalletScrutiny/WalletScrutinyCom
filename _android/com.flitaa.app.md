@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: getflitaa
-providerLinkedIn: 
-providerFacebook: getflitaa
-providerReddit: 
-
+twitter: getflitaa
+social:
+  - https://www.facebook.com/getflitaa
 redirect_from:
-
 ---
 
 ## App Description

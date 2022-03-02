@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-07-30
 signer: 
 reviewArchive:
-
-providerTwitter: muunwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: muunwallet
+social:
 ---
 
 **Update 2021-07-30**: While the Android version made some attempts at

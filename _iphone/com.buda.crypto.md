@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: BudaPuntoCom
-providerLinkedIn: budapuntocom
-providerFacebook: BudaPuntoCom
-providerReddit: 
-
-redirect_from:
-
+twitter: BudaPuntoCom
+social:
+  - https://www.linkedin.com/company/budapuntocom
+  - https://www.facebook.com/BudaPuntoCom
 ---
 
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),

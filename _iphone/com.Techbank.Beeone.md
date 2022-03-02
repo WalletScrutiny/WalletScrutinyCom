@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 They claim a million "members" and list big banks as their "acquirers" but there

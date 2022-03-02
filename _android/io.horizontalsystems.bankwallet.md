@@ -169,11 +169,9 @@ reviewArchive:
   appHash: f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0
   gitRevision: 92e4a67ecc626220965114cd6a4cd67497e3be9f
   verdict: nonverifiable
-providerTwitter: unstoppablebyhs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: UNSTOPPABLEWallet
-
+twitter: unstoppablebyhs
+social:
+  - https://www.reddit.com/r/UNSTOPPABLEWallet
 redirect_from:
   - /io.horizontalsystems.bankwallet/
   - /posts/io.horizontalsystems.bankwallet/

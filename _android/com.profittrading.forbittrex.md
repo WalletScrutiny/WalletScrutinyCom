@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
-providerTwitter: ProfitTrading_
-providerLinkedIn: 
-providerFacebook: profittradingapp
-providerReddit: 
-
+twitter: ProfitTrading_
+social:
+  - https://www.facebook.com/profittradingapp
 redirect_from:
-
 ---
 
 2021-09-17 Update:

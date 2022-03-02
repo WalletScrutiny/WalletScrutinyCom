@@ -25,12 +25,10 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: koinal_io
-providerLinkedIn: koinal-io
-providerFacebook: Koinal.io
-providerReddit: 
-
+twitter: koinal_io
+social:
+  - https://www.linkedin.com/company/koinal-io
+  - https://www.facebook.com/Koinal.io
 redirect_from:
   - /com.koinal.android/
 ---

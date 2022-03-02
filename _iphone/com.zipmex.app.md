@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: ZipmexTH
-providerLinkedIn: 
-providerFacebook: ZipmexThailand
-providerReddit: 
-
-redirect_from:
-
+twitter: ZipmexTH
+social:
+  - https://www.facebook.com/ZipmexThailand
 ---
 
 {% include copyFromAndroid.html %}

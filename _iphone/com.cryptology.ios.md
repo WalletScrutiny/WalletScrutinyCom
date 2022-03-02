@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Cryptologyexch
-providerLinkedIn: 
-providerFacebook: Cryptologyexch
-providerReddit: 
-
-redirect_from:
-
+twitter: Cryptologyexch
+social:
+  - https://www.facebook.com/Cryptologyexch
 ---
 
 {% include copyFromAndroid.html %}

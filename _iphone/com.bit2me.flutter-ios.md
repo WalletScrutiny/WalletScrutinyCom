@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: bit2me
-providerLinkedIn: bit2me
-providerFacebook: bit2me
-providerReddit: 
-
-redirect_from:
-
+twitter: bit2me
+social:
+  - https://www.linkedin.com/company/bit2me
+  - https://www.facebook.com/bit2me
 ---
 
 This appears to be the interface for an exchange. We could not find any claims

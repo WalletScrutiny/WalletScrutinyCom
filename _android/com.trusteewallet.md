@@ -29,11 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable
-providerTwitter: Trustee_Wallet
-providerLinkedIn: 
-providerFacebook: Trustee.Wallet
-providerReddit: 
-
+twitter: Trustee_Wallet
+social:
+  - https://www.facebook.com/Trustee.Wallet
 redirect_from:
   - /com.trusteewallet/
   - /posts/com.trusteewallet/

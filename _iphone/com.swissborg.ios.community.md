@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: cchallengesborg
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cchallengesborg
+social:
 ---
 
 {% include copyFromAndroid.html %}

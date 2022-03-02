@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
-providerTwitter: BexplusExchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: Bexplus
-
-redirect_from:
-
+twitter: BexplusExchange
+social:
+  - https://www.reddit.com/r/Bexplus
 ---
 
 The Bexplus website states under the mobile wallet section "Assets Security"

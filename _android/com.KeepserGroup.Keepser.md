@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-22
 updated: 2021-12-11
 version: "1.4.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 12M
@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2022-02-17
 signer: 
 reviewArchive:
-
-providerTwitter: keepser
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: keepser
+social:
 redirect_from:
-
 ---
 
 This is the companion app to the cold wallet Keepser.

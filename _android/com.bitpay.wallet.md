@@ -25,12 +25,10 @@ verdict: ftbfs
 date: 2019-11-29
 signer: 
 reviewArchive:
-
-providerTwitter: BitPay
-providerLinkedIn: bitpay-inc-
-providerFacebook: BitPayOfficial
-providerReddit: 
-
+twitter: BitPay
+social:
+  - https://www.linkedin.com/company/bitpay-inc-
+  - https://www.facebook.com/BitPayOfficial
 redirect_from:
   - /bitpay/
   - /com.bitpay.wallet/

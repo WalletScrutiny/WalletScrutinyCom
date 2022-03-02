@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: Bitso
-providerLinkedIn: 
-providerFacebook: bitsoex
-providerReddit: 
-
-redirect_from:
-
+twitter: Bitso
+social:
+  - https://www.facebook.com/bitsoex
 ---
 
 Bitso appears to be an exchange and their statement on security on their website

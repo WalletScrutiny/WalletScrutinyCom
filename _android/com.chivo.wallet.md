@@ -30,13 +30,10 @@ reviewArchive:
   appHash: 
   gitRevision: fa227d42296cae666acec49c980629e0b2a71636
   verdict: custodial
-providerTwitter: chivowallet
-providerLinkedIn: 
-providerFacebook: ChivoWalletSLV
-providerReddit: 
-
+twitter: chivowallet
+social:
+  - https://www.facebook.com/ChivoWalletSLV
 redirect_from:
-
 ---
 
 **Update 2021-10-29**: [This Tweet](https://twitter.com/structerer/status/1453793507777331204):

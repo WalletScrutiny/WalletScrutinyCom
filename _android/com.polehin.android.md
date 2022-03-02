@@ -34,11 +34,9 @@ reviewArchive:
   appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
-providerTwitter: polehincom
-providerLinkedIn: 
-providerFacebook: polehincom
-providerReddit: 
-
+twitter: polehincom
+social:
+  - https://www.facebook.com/polehincom
 redirect_from:
   - /bitcoinwallet/
   - /com.polehin.android/

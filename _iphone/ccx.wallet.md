@@ -24,14 +24,10 @@ verdict: ftbfs
 date: 2021-09-19
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCasso
-providerLinkedIn: coincasso
-providerFacebook: ccwallet.mobileapp
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinCasso
+social:
+  - https://www.linkedin.com/company/coincasso
+  - https://www.facebook.com/ccwallet.mobileapp
 ---
 
 **Update 2021-09-11**: This app is not on the App Store anymore.

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: coindcx
-providerLinkedIn: coindcx
-providerFacebook: CoinDCX
-providerReddit: 
-
+twitter: coindcx
+social:
+  - https://www.linkedin.com/company/coindcx
+  - https://www.facebook.com/CoinDCX
 redirect_from:
-
 ---
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a

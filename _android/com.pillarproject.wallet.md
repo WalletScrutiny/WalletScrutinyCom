@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-02-20
 signer: 
 reviewArchive:
-
-providerTwitter: PillarWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: PillarWallet
+social:
 redirect_from:
   - /com.pillarproject.wallet/
   - /posts/com.pillarproject.wallet/

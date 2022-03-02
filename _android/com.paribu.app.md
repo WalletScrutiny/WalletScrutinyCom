@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: paribucom
-providerLinkedIn: paribu
-providerFacebook: paribucom
-providerReddit: 
-
+twitter: paribucom
+social:
+  - https://www.linkedin.com/company/paribu
+  - https://www.facebook.com/paribucom
 redirect_from:
-
 ---
 
 The app's description is written in Turkish, so all the quotes below are from Google Translate.

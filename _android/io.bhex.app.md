@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-12-05
 signer: 
 reviewArchive:
-
-providerTwitter: BHEXOfficial
-providerLinkedIn: 
-providerFacebook: BHEXOfficial
-providerReddit: 
-
+twitter: BHEXOfficial
+social:
+  - https://www.facebook.com/BHEXOfficial
 redirect_from:
-
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

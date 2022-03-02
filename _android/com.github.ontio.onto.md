@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: ONTOWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ONTOWallet
+social:
 redirect_from:
-
 ---
 
 The Google Play description: 

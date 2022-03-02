@@ -11,7 +11,7 @@ appCountry:
 released: 2020-03-13
 updated: 2021-06-25
 version: "4.1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -25,12 +25,8 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: monederodotcom
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: monederodotcom
+social:
 redirect_from:
   - /com.monederoapp/
   - /posts/com.monederoapp/

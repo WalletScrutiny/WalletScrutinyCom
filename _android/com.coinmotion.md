@@ -10,7 +10,7 @@ appCountry: in
 released: 2020-08-20
 updated: 2022-02-23
 version: "1.6.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 80M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: Coinmotion
-providerLinkedIn: coinmotion
-providerFacebook: coinmotion
-providerReddit: 
-
+twitter: Coinmotion
+social:
+  - https://www.linkedin.com/company/coinmotion
+  - https://www.facebook.com/coinmotion
 redirect_from:
-
 ---
 
 ## App Description

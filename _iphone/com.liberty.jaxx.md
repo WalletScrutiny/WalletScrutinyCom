@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: jaxx_io
-providerLinkedIn: 
-providerFacebook: JaxxWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: jaxx_io
+social:
+  - https://www.facebook.com/JaxxWallet
 ---
 
 This app is non-custodial:

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-20
 updated: 2021-08-02
 version: "1.1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.2M
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.bitholic.rdmchain.bitholic/
   - /posts/com.bitholic.rdmchain.bitholic/

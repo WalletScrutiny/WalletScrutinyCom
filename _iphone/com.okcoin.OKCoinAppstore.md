@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: OKcoin
-providerLinkedIn: okcoin
-providerFacebook: OkcoinOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: OKcoin
+social:
+  - https://www.linkedin.com/company/okcoin
+  - https://www.facebook.com/OkcoinOfficial
 ---
 
  {% include copyFromAndroid.html %}

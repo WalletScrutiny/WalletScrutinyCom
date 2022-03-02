@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: CoinFieldEx
-providerLinkedIn: coinfield
-providerFacebook: coinfieldexchange
-providerReddit: 
-
+twitter: CoinFieldEx
+social:
+  - https://www.linkedin.com/company/coinfield
+  - https://www.facebook.com/coinfieldexchange
 redirect_from:
-
 ---
 
 Taken from CoinField's Play Store description:

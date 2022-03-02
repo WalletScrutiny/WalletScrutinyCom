@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: vitawallet
-providerLinkedIn: vita-wallet
-providerFacebook: vitawallet
-providerReddit: 
-
+twitter: vitawallet
+social:
+  - https://www.linkedin.com/company/vita-wallet
+  - https://www.facebook.com/vitawallet
 redirect_from:
-
 ---
 
 ### App Description

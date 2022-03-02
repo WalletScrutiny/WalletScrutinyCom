@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: eversendapp
-providerLinkedIn: eversend
-providerFacebook: eversendapp
-providerReddit: 
-
+twitter: eversendapp
+social:
+  - https://www.linkedin.com/company/eversend
+  - https://www.facebook.com/eversendapp
 redirect_from:
-
 ---
 
 **Updated Review 2021-10-28**

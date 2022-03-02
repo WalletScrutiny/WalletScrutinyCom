@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-07-20
 signer: 
 reviewArchive:
-
-providerTwitter: waves_exchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: waves_exchange
+social:
 redirect_from:
-
 ---
 
 On their website, the only pointer to this app is:

@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: satoshitango
-providerLinkedIn: 
-providerFacebook: satoshitangoargentina
-providerReddit: 
-
+twitter: satoshitango
+social:
+  - https://www.facebook.com/satoshitangoargentina
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---

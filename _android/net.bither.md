@@ -24,14 +24,9 @@ verdict: obfuscated
 date: 2021-03-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is an open source Bitcoin wallet with most of its information to be

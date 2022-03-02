@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: money_pipe
-providerLinkedIn: 
-providerFacebook: moneypipewallet
-providerReddit: 
-
-redirect_from:
-
+twitter: money_pipe
+social:
+  - https://www.facebook.com/moneypipewallet
 ---
 
 {% include copyFromAndroid.html %}

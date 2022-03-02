@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as

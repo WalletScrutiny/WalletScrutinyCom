@@ -23,14 +23,11 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: mtpelerin
-providerLinkedIn: mt-pelerin
-providerFacebook: mtpelerin
-providerReddit: MtPelerin
-
-redirect_from:
-
+twitter: mtpelerin
+social:
+  - https://www.linkedin.com/company/mt-pelerin
+  - https://www.facebook.com/mtpelerin
+  - https://www.reddit.com/r/MtPelerin
 ---
 
 {% include copyFromAndroid.html %}

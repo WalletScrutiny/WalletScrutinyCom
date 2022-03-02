@@ -4,32 +4,30 @@ appId: esecubit
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://www.esecubit.com
 website: 
 shop: 
-company: 
-companywebsite: https://www.esecubit.com
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: esecubit.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-07-16
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: EsecuBit
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+  - https://www.facebook.com/EsecuBit
 ---
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.esecubit.com).

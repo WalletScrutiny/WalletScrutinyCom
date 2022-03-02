@@ -4,34 +4,30 @@ appId: nymiband
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Nymi Inc."
+providerWebsite: https://nymi.com
 website: https://web.archive.org/web/20200512054026/https://getnymi.com/our_story
-shop:
-company: Nymi Inc.
-companywebsite: https://nymi.com
+shop: 
 country: CA
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: nymiband.png
-bugbounty:
+bugbounty: 
 meta: obsolete
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 Bionym [rebranded into Nymi in 2014](https://archive.canadianbusiness.com/technology-news/whats-in-a-name-bionym-rebrands-itself-as-nymi/). The company's focus was on wearable biometric devices that authenticated users for various purposes. 
 

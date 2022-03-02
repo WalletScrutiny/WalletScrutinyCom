@@ -10,7 +10,7 @@ appCountry:
 released: 2013-11-05
 updated: 2022-02-23
 version: "391.0.0"
-stars: 4.0
+stars: 4
 ratings: 111823
 reviews: 2730
 size: 52M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-02
 signer: 
 reviewArchive:
-
-providerTwitter: etoro
-providerLinkedIn: etoro
-providerFacebook: eToro
-providerReddit: 
-
+twitter: etoro
+social:
+  - https://www.linkedin.com/company/etoro
+  - https://www.facebook.com/eToro
 redirect_from:
-
 ---
 
 Etoro is used to speculate on assets more than to actually transfer them but in

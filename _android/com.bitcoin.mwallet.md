@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
   verdict: nonverifiable
-providerTwitter: bitcoincom
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: btc
-
+twitter: bitcoincom
+social:
+  - https://www.facebook.com/buy.bitcoin.news
+  - https://www.reddit.com/r/btc
 redirect_from:
   - /com.bitcoin.mwallet/
   - /posts/com.bitcoin.mwallet/

@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2022-01-14
 signer: 
 reviewArchive:
-
-providerTwitter: MicroBitcoinOrg
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MicroBitcoinOrg
+social:
 redirect_from:
   - /com.microbitcoin/
   - /posts/com.microbitcoin/

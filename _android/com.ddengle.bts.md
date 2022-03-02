@@ -10,7 +10,7 @@ appCountry:
 released: 2014-09-23
 updated: 2017-12-08
 version: "1.1.9"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 973k
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

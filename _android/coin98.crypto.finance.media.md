@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: coin98_wallet
-providerLinkedIn: 
-providerFacebook: Coin98Wallet
-providerReddit: 
-
+twitter: coin98_wallet
+social:
+  - https://www.facebook.com/Coin98Wallet
 redirect_from:
-
 ---
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...

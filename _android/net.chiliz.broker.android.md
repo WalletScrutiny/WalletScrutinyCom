@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: chiliz
-providerLinkedIn: 
-providerFacebook: Chilizdotcom
-providerReddit: 
-
+twitter: chiliz
+social:
+  - https://www.facebook.com/Chilizdotcom
 redirect_from:
-
 ---
 
 > Chiliz Exchange is the official exchange app of the cryptocurrency company Chiliz in Europe. You can easily send your Bitcoin, Ethereum and many other cryptocurrencies in your secured wallet and then trade them.

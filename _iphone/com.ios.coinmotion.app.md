@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: Coinmotion
-providerLinkedIn: coinmotion
-providerFacebook: coinmotion
-providerReddit: 
-
-redirect_from:
-
+twitter: Coinmotion
+social:
+  - https://www.linkedin.com/company/coinmotion
+  - https://www.facebook.com/coinmotion
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: abbcfoundation
-providerLinkedIn: abbcfoundation
-providerFacebook: abbcfoundation
-providerReddit: 
-
+twitter: abbcfoundation
+social:
+  - https://www.linkedin.com/company/abbcfoundation
+  - https://www.facebook.com/abbcfoundation
 redirect_from:
-
 ---
 
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)

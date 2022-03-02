@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: Aofex2
-providerLinkedIn: 
-providerFacebook: AofexDigitalCurrencyExchange
-providerReddit: 
-
+twitter: Aofex2
+social:
+  - https://www.facebook.com/AofexDigitalCurrencyExchange
 redirect_from:
-
 ---
 
 ## App Description

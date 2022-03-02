@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: QuppyPay
-providerLinkedIn: quppy
-providerFacebook: quppyPay
-providerReddit: 
-
-redirect_from:
-
+twitter: QuppyPay
+social:
+  - https://www.linkedin.com/company/quppy
+  - https://www.facebook.com/quppyPay
 ---
 
 This provider loses no word on security or where the keys are stored. We assume

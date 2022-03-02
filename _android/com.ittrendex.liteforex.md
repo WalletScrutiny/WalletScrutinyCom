@@ -24,14 +24,11 @@ verdict: custodial
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: litefinanceeng
-providerLinkedIn: litefinance-official
-providerFacebook: LiteFinancebroker
-providerReddit: 
-
+twitter: litefinanceeng
+social:
+  - https://www.linkedin.com/company/litefinance-official
+  - https://www.facebook.com/LiteFinancebroker
 redirect_from:
-
 ---
 
 > LiteForex: Investments and Trading is a high-tech Forex app developed by LiteForex specialists that has the most user-friendly interface for online trading and investing on financial markets. 

@@ -24,12 +24,10 @@ verdict: ftbfs
 date: 2019-12-16
 signer: 
 reviewArchive:
-
-providerTwitter: coinappwallet
-providerLinkedIn: coin-space
-providerFacebook: coinappwallet
-providerReddit: 
-
+twitter: coinappwallet
+social:
+  - https://www.linkedin.com/company/coin-space
+  - https://www.facebook.com/coinappwallet
 redirect_from:
   - /coin/
   - /com.coinspace.app/

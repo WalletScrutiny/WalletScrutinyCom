@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: SkillingTrading
-providerLinkedIn: skilling
-providerFacebook: SkillingTrading
-providerReddit: 
-
-redirect_from:
-
+twitter: SkillingTrading
+social:
+  - https://www.linkedin.com/company/skilling
+  - https://www.facebook.com/SkillingTrading
 ---
 
 {% include copyFromAndroid.html %}

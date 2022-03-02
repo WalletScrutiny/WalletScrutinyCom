@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: tokoinindonesia
-providerLinkedIn: 
-providerFacebook: tokoinindonesia
-providerReddit: 
-
-redirect_from:
-
+twitter: tokoinindonesia
+social:
+  - https://www.facebook.com/tokoinindonesia
 ---
 
 {% include copyFromAndroid.html %}

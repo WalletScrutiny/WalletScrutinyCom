@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: totalcoin.io
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/totalcoin.io
 ---
 
 On the wallet's website there is no claim about custodianship which makes us

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-02
 updated: 2019-10-29
 version: "0.4.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 19M
@@ -24,14 +24,9 @@ verdict: ftbfs
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: HODLER_TECH
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: HODLER_TECH
+social:
 redirect_from:
-
 ---
 
 So their website ... is for sale:

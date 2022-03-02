@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-06-11
 updated: 2021-06-07
 version: "0.5.30"
-stars: 4.0
+stars: 4
 ratings: 225
 reviews: 40
 size: 35M
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: coinigy
-providerLinkedIn: coinigy
-providerFacebook: coinigy
-providerReddit: 
-
+twitter: coinigy
+social:
+  - https://www.linkedin.com/company/coinigy
+  - https://www.facebook.com/coinigy
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-02
 updated: 2021-12-14
 version: "3.10.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.4M
@@ -24,14 +24,9 @@ verdict: nonverifiable
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: monya_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: monya_wallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

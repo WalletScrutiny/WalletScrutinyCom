@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: Trastra_ltd
-providerLinkedIn: trastra
-providerFacebook: trastra.ltd
-providerReddit: 
-
-redirect_from:
-
+twitter: Trastra_ltd
+social:
+  - https://www.linkedin.com/company/trastra
+  - https://www.facebook.com/trastra.ltd
 ---
 
  {% include copyFromAndroid.html %}

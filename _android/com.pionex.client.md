@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-11-18
 updated: 2022-02-25
 version: "2.7.09"
-stars: 4.0
+stars: 4
 ratings: 5659
 reviews: 408
 size: 73M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 

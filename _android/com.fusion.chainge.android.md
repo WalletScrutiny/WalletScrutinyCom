@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: FinanceChainge
-providerLinkedIn: chainge-finance
-providerFacebook: chainge.finance
-providerReddit: 
-
+twitter: FinanceChainge
+social:
+  - https://www.linkedin.com/company/chainge-finance
+  - https://www.facebook.com/chainge.finance
 redirect_from:
-
 ---
 
 ## App Description

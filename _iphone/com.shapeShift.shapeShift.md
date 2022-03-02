@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-05-23
 signer: 
 reviewArchive:
-
-providerTwitter: ShapeShift_io
-providerLinkedIn: 
-providerFacebook: ShapeShiftPlatform
-providerReddit: 
-
-redirect_from:
-
+twitter: ShapeShift_io
+social:
+  - https://www.facebook.com/ShapeShiftPlatform
 ---
 
 ShapeShift is best known for their non-custodial exchange but this app appears

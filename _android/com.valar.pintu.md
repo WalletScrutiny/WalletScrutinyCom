@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: pintuid
-providerLinkedIn: 
-providerFacebook: pintucrypto
-providerReddit: 
-
+twitter: pintuid
+social:
+  - https://www.facebook.com/pintucrypto
 redirect_from:
-
 ---
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)

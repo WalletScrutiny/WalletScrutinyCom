@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-30
 signer: 
 reviewArchive:
-
-providerTwitter: nashsocial
-providerLinkedIn: nashsocial
-providerFacebook: 
-providerReddit: 
-
+twitter: nashsocial
+social:
+  - https://www.linkedin.com/company/nashsocial
 redirect_from:
-
 ---
 
 This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim only the user has access to the private keys.

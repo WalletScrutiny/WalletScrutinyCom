@@ -1,37 +1,34 @@
 ---
-title: "Hodlr Tech"
-appId: hodlrtech
+title: "Hodler Tech"
+appId: hodler.tech
 authors:
 - danny
 released: 2018-09-29
-discontinued: # date
+discontinued: 
 updated: 2019-10-29
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://hodler.tech/
-shop:
-company: 
-companywebsite: 
+shop: 
 country: 
 price: 
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-issue:
-icon: hodlertech.png
-bugbounty:
+issue: 
+icon: hodler.tech.png
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: HODLER_TECH
-providerLinkedIn: 
-providerFacebook: hodler.tech
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: HODLER_TECH
+social: 
+  - https://www.facebook.com/hodler.tech
 ---
-
 
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:
 

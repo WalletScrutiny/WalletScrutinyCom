@@ -80,13 +80,9 @@ reviewArchive:
   appHash: 
   gitRevision: f43ec311500efbb0ea1c8ebadc52c545a434a341
   verdict: nonverifiable
-providerTwitter: SimpleBtcWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: SimpleBtcWallet
+social:
 redirect_from:
-
 ---
 
 For that latest version, our test script returned this:

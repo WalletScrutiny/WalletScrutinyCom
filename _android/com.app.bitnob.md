@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-25
 updated: 2022-02-07
 version: "1.0.83"
-stars: 4.0
+stars: 4
 ratings: 275
 reviews: 14
 size: 34M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: Bitnob_official
-providerLinkedIn: bitnob
-providerFacebook: bitnob
-providerReddit: 
-
+twitter: Bitnob_official
+social:
+  - https://www.linkedin.com/company/bitnob
+  - https://www.facebook.com/bitnob
 redirect_from:
-
 ---
 
 ## App Description

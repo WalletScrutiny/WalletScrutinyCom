@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
-providerTwitter: ln_strike
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ln_strike
+social:
 redirect_from:
   - /zapsolutions.strike/
 ---

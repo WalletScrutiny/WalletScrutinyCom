@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-09-16
 signer: 
 reviewArchive:
-
-providerTwitter: UnifyreWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: UnifyreWallet
+social:
 redirect_from:
-
 ---
 
 Once the user's account has been setup, the user can then proceed with verification.

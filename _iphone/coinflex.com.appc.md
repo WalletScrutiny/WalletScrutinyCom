@@ -23,14 +23,10 @@ verdict: wip
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: coinflexdotcom
-providerLinkedIn: coinflex
-providerFacebook: coinflexdotcom
-providerReddit: 
-
-redirect_from:
-
+twitter: coinflexdotcom
+social:
+  - https://www.linkedin.com/company/coinflex
+  - https://www.facebook.com/coinflexdotcom
 ---
 
 {% include copyFromAndroid.html %}

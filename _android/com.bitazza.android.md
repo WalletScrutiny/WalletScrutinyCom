@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: bitazzaofficial
-providerLinkedIn: bitazza
-providerFacebook: bitazza
-providerReddit: 
-
+twitter: bitazzaofficial
+social:
+  - https://www.linkedin.com/company/bitazza
+  - https://www.facebook.com/bitazza
 redirect_from:
-
 ---
 
 Bitazza is a cryptocurrency exchange and wallet provider. 

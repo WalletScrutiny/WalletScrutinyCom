@@ -184,11 +184,11 @@ reviewArchive:
   appHash: 27e236a723598d058ee3e1c72d54c84983489c8e80f7edee3df52235a0231c8c
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-providerTwitter: MyceliumCom
-providerLinkedIn: mycelium
-providerFacebook: myceliumcom
-providerReddit: mycelium
-
+twitter: MyceliumCom
+social:
+  - https://www.linkedin.com/company/mycelium
+  - https://www.facebook.com/myceliumcom
+  - https://www.reddit.com/r/mycelium
 redirect_from:
   - /mycelium/
   - /com.mycelium.wallet/

@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: SimpleSwap_io
-providerLinkedIn: 
-providerFacebook: SimpleSwap.io
-providerReddit: simpleswapexchange
-
+twitter: SimpleSwap_io
+social:
+  - https://www.facebook.com/SimpleSwap.io
+  - https://www.reddit.com/r/simpleswapexchange
 redirect_from:
-
 ---
 
 ## Updated Review 2021-10-29

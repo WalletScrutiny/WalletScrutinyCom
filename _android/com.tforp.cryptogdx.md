@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Trading4Pro
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Trading4Pro
+social:
 redirect_from:
-
 ---
 
 ## App Description

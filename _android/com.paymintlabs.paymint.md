@@ -10,7 +10,7 @@ appCountry:
 released: 2020-06-29
 updated: 2020-10-05
 version: "1.2.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 25M
@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: paymint_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: paymint_wallet
+social:
 redirect_from:
   - /com.paymintlabs.paymint/
 ---

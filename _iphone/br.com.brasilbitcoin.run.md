@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: brbtcoficial
-providerLinkedIn: 
-providerFacebook: brbtcoficial
-providerReddit: 
-
-redirect_from:
-
+twitter: brbtcoficial
+social:
+  - https://www.facebook.com/brbtcoficial
 ---
 
 {% include copyFromAndroid.html %}

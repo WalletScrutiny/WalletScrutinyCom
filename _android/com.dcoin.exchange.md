@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: dcoinexchange
-providerLinkedIn: dcoin-exchange
-providerFacebook: 
-providerReddit: 
-
+twitter: dcoinexchange
+social:
+  - https://www.linkedin.com/company/dcoin-exchange
 redirect_from:
-
 ---
 
 From its Google Play description:

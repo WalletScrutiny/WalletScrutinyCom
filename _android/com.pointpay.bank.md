@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: PointPay1
-providerLinkedIn: pointpay
-providerFacebook: PointPayLtd
-providerReddit: PointPay
-
+twitter: PointPay1
+social:
+  - https://www.linkedin.com/company/pointpay
+  - https://www.facebook.com/PointPayLtd
+  - https://www.reddit.com/r/PointPay
 redirect_from:
-
 ---
 
 The PointPay website has very little information about how they manage private keys of the user.

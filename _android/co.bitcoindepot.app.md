@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoin_depot
-providerLinkedIn: 
-providerFacebook: BitcoinDepot
-providerReddit: 
-
+twitter: bitcoin_depot
+social:
+  - https://www.facebook.com/BitcoinDepot
 redirect_from:
-
 ---
 
 ## App Description

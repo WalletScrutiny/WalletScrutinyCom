@@ -4,34 +4,30 @@ appId: andgo
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "AndGo Company Ltd."
+providerWebsite: 
 website: https://andgo.co.jp/
-shop:
-company: AndGo Company Ltd.
-companywebsite: 
+shop: 
 country: 
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: andgo.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: andgo_inc
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: andgo_inc
+social: 
 ---
-
 
 ## 2022-02-18
 

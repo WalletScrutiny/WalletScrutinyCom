@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-06
 signer: 
 reviewArchive:
-
-providerTwitter: xapo
-providerLinkedIn: xapo
-providerFacebook: xapoapp
-providerReddit: 
-
+twitter: xapo
+social:
+  - https://www.linkedin.com/company/xapo
+  - https://www.facebook.com/xapoapp
 redirect_from:
-
 ---
 
 **Update 2021-08-06**: Xapo

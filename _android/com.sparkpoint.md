@@ -25,14 +25,12 @@ verdict: nosource
 date: 2021-03-06
 signer: 
 reviewArchive:
-
-providerTwitter: sparkpointio
-providerLinkedIn: sparkpointio
-providerFacebook: sparkpointio
-providerReddit: SparkPoint
-
+twitter: sparkpointio
+social:
+  - https://www.linkedin.com/company/sparkpointio
+  - https://www.facebook.com/sparkpointio
+  - https://www.reddit.com/r/SparkPoint
 redirect_from:
-
 ---
 
 This app sounds at first as if it was not for Bitcoin but self-custodial:

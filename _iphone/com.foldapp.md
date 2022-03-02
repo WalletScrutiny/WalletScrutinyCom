@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: fold_app
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: fold_app
+social:
 ---
 
 {% include copyFromAndroid.html %}

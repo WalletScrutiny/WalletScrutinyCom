@@ -24,12 +24,8 @@ verdict: nowallet
 date: 2020-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: samouraiwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: samouraiwallet
+social:
 redirect_from:
   - /com.samourai.sentinel/
   - /posts/com.samourai.sentinel/

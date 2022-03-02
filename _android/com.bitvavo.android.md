@@ -10,7 +10,7 @@ appCountry: nl
 released: 2020-08-19
 updated: 2022-02-25
 version: "1.0.100"
-stars: 2.0
+stars: 2
 ratings: 2272
 reviews: 1306
 size: 178M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-04
 updated: 2021-03-04
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.0M
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2022-02-28
 signer: 
 reviewArchive:
-
-providerTwitter: Xerium3
-providerLinkedIn: 
-providerFacebook: Xerium
-providerReddit: 
-
+twitter: Xerium3
+social:
+  - https://www.facebook.com/Xerium
 redirect_from:
-
 ---
 
 ⚠️ **Caution:** This app claims to be self-custodial and claims to provide the 12-word seed phrase. We could not locate options pertaining to these. It held an ICO and required a sponsor ID when signing up. It also claims to support BTC, but the BTC address can only receive and convert to Xerium. It cannot send BTC.

@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 This wallet sounds like non-custodial. From their description:

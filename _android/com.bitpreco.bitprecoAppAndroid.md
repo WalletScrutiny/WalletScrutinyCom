@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: BitPreco
-providerLinkedIn: bitpreco
-providerFacebook: BitPreco
-providerReddit: 
-
+twitter: BitPreco
+social:
+  - https://www.linkedin.com/company/bitpreco
+  - https://www.facebook.com/BitPreco
 redirect_from:
-
 ---
 
 ## App Description

@@ -169,11 +169,10 @@ reviewArchive:
   appHash: 8b2e67fc333eeef5b10ce6f9f5fc3e4ca104c1eca9c539b73805276e09d838db
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-providerTwitter: Blockstream
-providerLinkedIn: blockstream
-providerFacebook: Blockstream
-providerReddit: 
-
+twitter: Blockstream
+social:
+  - https://www.linkedin.com/company/blockstream
+  - https://www.facebook.com/Blockstream
 redirect_from:
   - /greenwallet/
   - /com.greenaddress.greenbits_android_wallet/

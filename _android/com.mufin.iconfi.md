@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: ICONFiWorld
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ICONFiWorld
+social:
 redirect_from:
-
 ---
 
 ## App Description

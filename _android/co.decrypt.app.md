@@ -25,12 +25,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: decryptmedia
-providerLinkedIn: 
-providerFacebook: decryptmedia
-providerReddit: 
-
+twitter: decryptmedia
+social:
+  - https://www.facebook.com/decryptmedia
 redirect_from:
   - /co.decrypt.app/
 ---

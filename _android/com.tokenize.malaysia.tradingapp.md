@@ -25,14 +25,10 @@ verdict: custodial
 date: 2021-10-30
 signer: 
 reviewArchive:
-
-providerTwitter: TokenizeM
-providerLinkedIn: 
-providerFacebook: tokenizemalaysia
-providerReddit: 
-
+twitter: TokenizeM
+social:
+  - https://www.facebook.com/tokenizemalaysia
 redirect_from:
-
 ---
 
 **Update 2021-10-19**: This app is no more.

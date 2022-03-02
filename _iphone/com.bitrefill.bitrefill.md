@@ -28,13 +28,10 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-providerTwitter: bitrefill
-providerLinkedIn: 
-providerFacebook: bitrefill
-providerReddit: Bitrefill
-
-redirect_from:
-
+twitter: bitrefill
+social:
+  - https://www.facebook.com/bitrefill
+  - https://www.reddit.com/r/Bitrefill
 ---
 
 **Update 2021-09-12**: This app wasn't updated for a year but appears to be

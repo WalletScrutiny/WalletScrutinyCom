@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoincom
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: btc
-
-redirect_from:
-
+twitter: bitcoincom
+social:
+  - https://www.facebook.com/buy.bitcoin.news
+  - https://www.reddit.com/r/btc
 ---
 
 According to

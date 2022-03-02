@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: nuribanking
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: nuribanking
+social:
 ---
 
 {% include copyFromAndroid.html %}

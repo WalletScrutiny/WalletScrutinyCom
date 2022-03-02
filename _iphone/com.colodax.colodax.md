@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: colodax
-providerLinkedIn: colodax
-providerFacebook: colodax
-providerReddit: 
-
-redirect_from:
-
+twitter: colodax
+social:
+  - https://www.linkedin.com/company/colodax
+  - https://www.facebook.com/colodax
 ---
 
 {% include copyFromAndroid.html %}

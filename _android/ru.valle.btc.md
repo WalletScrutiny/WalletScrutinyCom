@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /ru.valle.btc/
   - /posts/ru.valle.btc/

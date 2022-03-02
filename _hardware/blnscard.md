@@ -4,34 +4,30 @@ appId: blnscard
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "blns"
+providerWebsite: 
 website: https://blns.io/
 shop: http://18.158.244.64/waiting-list/
-company: blns
-companywebsite: 
 country: CH
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: blnscard.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: unreleased  
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: blnswallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: blnswallet
+social: 
 ---
-
 
 This wallet has a companion app: {% include walletLink.html wallet='android/io.blns' verdict='true' %} 
 
