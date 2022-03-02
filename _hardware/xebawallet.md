@@ -3,35 +3,31 @@ title: "XebaWallet"
 appId: xebawallet
 authors:
 - danny
-released:
-discontinued: # date
-updated:
-version:
-dimensions:
-weight:
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
+provider: "Xeba Technologies"
+providerWebsite: https://www.xeba.tech/product
 website: https://xebawallet.com/
-shop:
-company: Xeba Technologies
-companywebsite: https://www.xeba.tech/product
-country:
-price:
-repository:
-issue:
+shop: 
+country: 
+price: 
+repository: 
+issue: 
 icon: xebawallet.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-25
-signer:
-reviewArchive:
-
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 {{ page.title }} only has a single webpage with information and details about the product. Unfortunately, this information is limited and there aren't any clear images of the product. Searching online does not return many results, either.
 

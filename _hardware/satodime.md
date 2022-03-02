@@ -4,34 +4,32 @@ appId: satodime
 authors:
 - danny
 released: 2021-12-06
-discontinued: # date
+discontinued: 
 updated: 2022-02-17
-version: 0.2.0
+version: "0.2.0"
+binaries: 
 dimensions: [85.6, 1, 53.98]
 weight: 5g
+provider: "Satochip SRL"
+providerWebsite: https://satochip.io
 website: https://satodime.io/
 shop: https://satochip.io/product/satodime-original/
-company: Satochip SRL
-companywebsite: https://satochip.io
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool/releases
-issue:
+issue: 
 icon: satodime.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2022-02-22
-signer:
-reviewArchive:
-
-
-providerTwitter: satochipwallet
-providerLinkedIn: satochip
-providerFacebook:
-providerReddit: satochip
+signer: 
+reviewArchive: 
+twitter: satochipwallet
+social: 
+  - https://www.linkedin.com/company/satochip
+  - https://www.reddit.com/r/satochip
 ---
-
 
 ## Product Description
 

@@ -4,34 +4,31 @@ appId: zerotrace
 authors:
 - danny
 released: 2020-07-10
-discontinued: # date
-updated:
-version:
-dimensions:
-weight:
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
+provider: "Zero Trace"
+providerWebsite: 
 website: https://zerotrace.org
 shop: https://zerotrace.org/product/zerotracepen/
-company: Zero Trace
-companywebsite:
 country: US
 price: 97USD
-repository:
-issue:
+repository: 
+issue: 
 icon: zerotrace.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2022-02-23
-signer:
-reviewArchive:
-
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook: zerotrace.org
-providerReddit:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+  - https://www.facebook.com/zerotrace.org
 ---
-
 
 ## Product Description
 
