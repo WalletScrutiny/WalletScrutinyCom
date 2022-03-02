@@ -24,15 +24,6 @@ date: 2021-05-12
 signer: 
 reviewArchive:
 
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
----
-
 providerTwitter: CoinCloudATM
 providerLinkedIn: 
 providerFacebook: coincloudATM
