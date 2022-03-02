@@ -14,12 +14,12 @@ then
     exit
 fi
 
-mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 
+mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
-rm -rf $tmpDir 
-mkdir $tmpDir 
+rm -rf $tmpDir 2> /dev/null
+mkdir $tmpDir 2> /dev/null
 git --work-tree=$tmpDir checkout HEAD -- images/wallet_icons/
 
 logIfUnchanged() {
