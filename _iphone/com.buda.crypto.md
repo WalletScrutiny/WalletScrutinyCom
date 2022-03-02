@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2022-01-27
 version: "2.0.17"
 stars: 5
-reviews: 1
+reviews: 3
 size: 71681024
 website: 
 repository: 

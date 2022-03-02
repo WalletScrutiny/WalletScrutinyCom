@@ -10,9 +10,9 @@ appCountry: gb
 released: 2021-02-11
 updated: 2022-02-15
 version: "2.3.3"
-stars: 3.7
+stars: 3.7128713
 ratings: 372
-reviews: 156
+reviews: 157
 size: 149M
 website: https://www.modeapp.com
 repository: 

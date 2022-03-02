@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-15
 updated: 2022-01-04
 version: "4.1.4"
-stars: 4.5
+stars: 4.540761
 ratings: 6388
-reviews: 273
+reviews: 272
 size: 138M
 website: https://lumiwallet.com
 repository: 

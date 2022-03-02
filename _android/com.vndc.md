@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-07
 updated: 2022-02-24
 version: "2.1.2"
-stars: 4.5
+stars: 4.455446
 ratings: 46866
-reviews: 239
+reviews: 240
 size: 139M
 website: https://vndc.io
 repository: 

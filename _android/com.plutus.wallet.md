@@ -10,9 +10,9 @@ appCountry:
 released: 2015-03-04
 updated: 2022-02-15
 version: "Varies with device"
-stars: 4.2
+stars: 4.184127
 ratings: 44411
-reviews: 2547
+reviews: 2552
 size: Varies with device
 website: https://www.abra.com/
 repository: 

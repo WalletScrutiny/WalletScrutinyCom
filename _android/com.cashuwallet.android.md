@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cashuwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-04-24
+date: 2022-03-02
 signer: 
 reviewArchive:
 twitter: 

@@ -10,7 +10,7 @@ appCountry: bg
 released: 2013-03-29
 updated: 2021-05-17
 version: "5.8.7"
-stars: 4.1
+stars: 4.09
 ratings: 410
 reviews: 55
 size: 1.2M

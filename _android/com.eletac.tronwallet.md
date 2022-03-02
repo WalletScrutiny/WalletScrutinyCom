@@ -8,8 +8,8 @@ users: 50000
 appId: com.eletac.tronwallet
 appCountry: 
 released: 2018-05-13
-updated: 2022-02-23
-version: "2.3.1"
+updated: 2022-03-02
+version: "2.3.6"
 stars: 4.3
 ratings: 1199
 reviews: 105

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-03-01
 updated: 2022-02-10
 version: "3.10.2"
-stars: 4.6
+stars: 4.53
 ratings: 204
-reviews: 20
+reviews: 21
 size: 37M
 website: https://keys.casa
 repository: 

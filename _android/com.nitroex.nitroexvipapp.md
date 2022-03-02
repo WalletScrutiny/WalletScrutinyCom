@@ -8,8 +8,8 @@ users: 5000
 appId: com.nitroex.nitroexvipapp
 appCountry: us
 released: 2020-11-17
-updated: 2022-01-13
-version: "8.0.1"
+updated: 2022-03-02
+version: "8.0.3"
 stars: 
 ratings: 
 reviews: 

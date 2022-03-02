@@ -9,11 +9,11 @@ appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
 updated: 2022-02-26
-version: "2.1.66"
-stars: 4.1
+version: "2.1.68"
+stars: 4.101124
 ratings: 22977
 reviews: 34
-size: 34M
+size: 35M
 website: https://www.rekeningku.com
 repository: 
 issue: 

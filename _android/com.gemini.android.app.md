@@ -10,9 +10,9 @@ appCountry:
 released: 2018-12-10
 updated: 2022-02-27
 version: "22.222.0"
-stars: 4.5
+stars: 4.458872
 ratings: 38767
-reviews: 6177
+reviews: 6199
 size: 124M
 website: https://gemini.com
 repository: 

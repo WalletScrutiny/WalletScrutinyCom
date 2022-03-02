@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-11-28
 updated: 2022-02-15
 version: "Varies with device"
-stars: 4.4
+stars: 4.3861384
 ratings: 309
-reviews: 47
+reviews: 48
 size: Varies with device
 website: https://coinloan.io/
 repository: 

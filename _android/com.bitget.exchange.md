@@ -12,7 +12,7 @@ updated: 2022-02-24
 version: "1.2.28"
 stars: 5
 ratings: 5691
-reviews: 569
+reviews: 570
 size: 45M
 website: https://www.bitget.com/
 repository: 

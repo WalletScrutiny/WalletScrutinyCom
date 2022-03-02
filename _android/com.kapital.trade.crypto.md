@@ -10,7 +10,7 @@ appCountry: cz
 released: 2021-01-20
 updated: 2022-02-16
 version: "1.39.4"
-stars: 4.3
+stars: 4.327586
 ratings: 1225
 reviews: 27
 size: 40M

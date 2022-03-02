@@ -10,8 +10,8 @@ idd: 1376878040
 released: 2018-05-27
 updated: 2022-01-31
 version: "6.2.17"
-stars: 4.15029
-reviews: 346
+stars: 4.15273
+reviews: 347
 size: 48130048
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

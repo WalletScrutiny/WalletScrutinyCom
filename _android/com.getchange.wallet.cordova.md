@@ -11,7 +11,7 @@ appCountry: nl
 released: 2018-06-07
 updated: 2022-02-25
 version: "20.5.1"
-stars: 3.9
+stars: 3.9444444
 ratings: 2833
 reviews: 23
 size: 34M

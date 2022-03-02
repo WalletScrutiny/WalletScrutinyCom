@@ -10,7 +10,7 @@ appCountry: cy
 released: 2020-08-18
 updated: 2021-12-01
 version: "1.5.78-brand101investing"
-stars: 3.7
+stars: 3.67
 ratings: 263
 reviews: 209
 size: 20M

@@ -9,8 +9,8 @@ appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
 updated: 2022-02-23
-version: "3.0.0"
-stars: 3.5
+version: "3.1.0"
+stars: 3.48
 ratings: 10117
 reviews: 113
 size: 31M

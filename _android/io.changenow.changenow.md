@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-07
 updated: 2022-02-21
 version: "1.150.12"
-stars: 4.9
+stars: 4.88
 ratings: 2199
-reviews: 338
+reviews: 339
 size: 8.8M
 website: https://changenow.io
 repository: 

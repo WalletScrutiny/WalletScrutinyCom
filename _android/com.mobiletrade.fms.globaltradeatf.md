@@ -10,7 +10,7 @@ appCountry: ag
 released: 2020-06-10
 updated: 2021-11-22
 version: "1.5.78-mobiletrade.fms.globaltradeatf"
-stars: 2.8
+stars: 2.83
 ratings: 389
 reviews: 315
 size: 20M

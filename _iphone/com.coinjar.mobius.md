@@ -10,8 +10,8 @@ idd: 958797429
 released: 2015-02-04
 updated: 2022-02-03
 version: "2.19.0"
-stars: 4.67452
-reviews: 11328
+stars: 4.67466
+reviews: 11348
 size: 62920704
 website: https://www.coinjar.com/
 repository: 

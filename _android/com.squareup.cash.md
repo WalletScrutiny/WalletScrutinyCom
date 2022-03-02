@@ -10,9 +10,9 @@ appCountry:
 released: 2013-10-15
 updated: 2022-02-24
 version: "Varies with device"
-stars: 4.6
+stars: 4.569512
 ratings: 1066810
-reviews: 209044
+reviews: 209527
 size: Varies with device
 website: https://cash.app
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-02-01
 updated: 2022-02-23
 version: "2.1.43"
-stars: 4.8
+stars: 4.7941175
 ratings: 15803
-reviews: 18
+reviews: 20
 size: 34M
 website: https://www.giottus.com
 repository: 

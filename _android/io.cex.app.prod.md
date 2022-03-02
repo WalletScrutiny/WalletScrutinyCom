@@ -10,9 +10,9 @@ appCountry:
 released: 2015-12-22
 updated: 2022-02-03
 version: "Varies with device"
-stars: 3.5
+stars: 3.4948454
 ratings: 16669
-reviews: 1072
+reviews: 1074
 size: Varies with device
 website: https://cex.io
 repository: 

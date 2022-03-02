@@ -10,7 +10,7 @@ appCountry: ee
 released: 2019-09-20
 updated: 2022-02-23
 version: "2.0.10"
-stars: 3.5
+stars: 3.4583333
 ratings: 48
 reviews: 24
 size: 30M

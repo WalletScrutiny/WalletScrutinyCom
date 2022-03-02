@@ -10,7 +10,7 @@ appCountry: de
 released: 2016-08-25
 updated: 2021-12-06
 version: "12.8.0"
-stars: 3.9
+stars: 3.8529413
 ratings: 581
 reviews: 18
 size: 17M

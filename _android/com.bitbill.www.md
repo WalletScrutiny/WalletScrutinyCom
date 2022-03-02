@@ -10,9 +10,9 @@ appCountry:
 released: 2018-03-22
 updated: 2022-02-13
 version: "4.32.2"
-stars: 3.7
+stars: 3.5789473
 ratings: 79
-reviews: 10
+reviews: 11
 size: 33M
 website: https://ownbit.io
 repository: 

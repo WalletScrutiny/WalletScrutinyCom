@@ -8,8 +8,8 @@ users: 100000
 appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
-updated: 2022-01-28
-version: "1.42.20"
+updated: 2022-02-21
+version: "1.42.21"
 stars: 
 ratings: 
 reviews: 

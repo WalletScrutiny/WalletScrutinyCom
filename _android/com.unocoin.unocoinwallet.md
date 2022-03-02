@@ -10,9 +10,9 @@ appCountry:
 released: 2016-11-30
 updated: 2022-02-22
 version: "4.1.11"
-stars: 4.9
+stars: 4.9313726
 ratings: 20365
-reviews: 209
+reviews: 213
 size: 16M
 website: https://www.unocoin.com
 repository: 

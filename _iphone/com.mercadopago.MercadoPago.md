@@ -10,8 +10,8 @@ idd: 925436649
 released: 2014-12-17
 updated: 2022-02-25
 version: "2.210.4"
-stars: 4.77737
-reviews: 738194
+stars: 4.77752
+reviews: 740003
 size: 242622464
 website: http://www.mercadopago.com
 repository: 
