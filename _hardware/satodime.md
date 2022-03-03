@@ -9,7 +9,7 @@ updated: 2022-02-17
 version: "0.2.0"
 binaries: 
 dimensions: [85.6, 1, 53.98]
-weight: 5g
+weight: 5
 provider: "Satochip SRL"
 providerWebsite: https://satochip.io
 website: https://satodime.io/
@@ -61,11 +61,11 @@ A [Satodime Android app](https://github.com/Toporin/Satodime-Android/releases) i
 >
 > Once the private key is unsealed, it is no longer protected by the secure chip and any asset associated with the corresponding address should be transferred immediately to a new address. This is generally done by ‘sweeping’ the private key and many wallet provides this option (e.g. Electrum and Metamask).
 
-*Note that this is all done via the [Satodime Tool](https://github.com/Toporin/Satodime-Tool/releases), a python based Windows/Linux program.
+*Note that this is all done via the [Satodime Tool](https://github.com/Toporin/Satodime-Tool/releases), a python based Windows/Linux program.*
 
 ## Process
 
-The Satodime needs a chip reader or an NFC enabled device. It would then need a Windows or Linux downloadable Python program called the [Satodime Tool(https://github.com/Toporin/Satodime-Tool/releases). The card itself does not have any form of display or interface such as a button.
+The card is read with "Satodime Tool" on a device with a card reader or NFC. The card itself does not have any form of display or interface such as a button.
 
 The chip has three states:
 
@@ -75,7 +75,7 @@ The chip has three states:
 
 ## Analysis
 
-As a disposable hardware wallet that is designed to be passed hand-to-hand, its lack of a display and interface requires both parties in a transaction to have to install the Satodime Tool on either a Windows or a Linux machine. The Medium article linked here above, and on the satodime website, also details a sample transaction wherein a user buys a Tesla car:
+As a disposable hardware wallet that is designed to be passed hand-to-hand, its lack of a display and interface requires both parties in a transaction to install the "Satodime Tool" on either a Windows or a Linux machine. The Medium article linked above and on the Satodime website also details a sample transaction wherein a user buys a Tesla car:
 
 > You want to buy the new Tesla using Bitcoin. You grab your Satodime, seal a new Bitcoin vault, write down the BTC address and load 1 BTC to it. Then, you go to the car dealer and begin negotiations. The dealer is asking for 1.25 BTC for this beautiful Ludicrous P100D. You accept the deal and send 0.25 more BTC to your Satodime vault using your favorite Bitcoin client. You grab your mobile phone, scan the Satodime using NFC and show the sealed vault to the car dealer. He can verify that the Bitcoin vault is sealed and full of 1.25 BTC. You shake hands and give him the card. You grab the car and leave the showroom peacefully and silently. SEAL — LOAD — VERIFY
 

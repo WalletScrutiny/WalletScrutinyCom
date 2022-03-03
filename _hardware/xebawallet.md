@@ -43,4 +43,4 @@ In the site's "About" section, the latest update was made on February 2019.
 
 > XebaWallet Is Born. XebaWallet card proto-type and mobile app is ready to proof our innovations. In addition, we filed three patents.
 
-Due to the lack of any additional information about this product or any way to confirm if it is actually in production, we have to assume it is either **defunct** or **unreleased.**
+Due to the lack of any additional information about this product or any way to confirm if it is actually in production, we have to assume this product never reached production.
