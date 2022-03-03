@@ -14,9 +14,11 @@ function getWidgetDetails(wallet) {
   }
   
   function getSocialLinks(social) {
-    return social.map( s => linkIf(s,
+    return social
+      ? social.map( s => linkIf(s,
         (new URL(s)).hostname.replace('www.', ''),
         '<i class="fas fa-globe"></i>')).join(' ')
+      : ''
   }
 
   return `<table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
