@@ -27,9 +27,7 @@ signer:
 reviewArchive: 
 twitter: SalletOne
 social: 
-  - https://www.linkedin.com/company/sallet-one-7b2b75209
   - https://www.facebook.com/salletone
-  - https://www.reddit.com/r/Sallet_Atelas
 ---
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.

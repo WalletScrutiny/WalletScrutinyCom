@@ -27,7 +27,6 @@ reviewArchive:
 twitter: Starteos
 social:
   - https://www.facebook.com/starteos.io.7
-  - https://www.reddit.com/r/Starteos
 redirect_from:
 ---
 

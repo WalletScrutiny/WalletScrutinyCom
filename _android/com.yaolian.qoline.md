@@ -27,7 +27,6 @@ reviewArchive:
 twitter: salletone
 social:
   - https://www.facebook.com/salletone
-  - https://www.reddit.com/r/Sallet_Atelas
 redirect_from:
 ---
 

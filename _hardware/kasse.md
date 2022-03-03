@@ -28,7 +28,6 @@ signer:
 reviewArchive: 
 twitter: KasseUSA
 social: 
-  - https://www.facebook.com/KasseUSA
 ---
 
 {{ page.title }} has screen and buttons and a secure element with a true

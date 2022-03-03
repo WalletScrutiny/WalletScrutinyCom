@@ -27,7 +27,6 @@ signer:
 reviewArchive: 
 twitter: hoofoowallet
 social: 
-  - https://www.facebook.com/hoofoohardwarewallet
 ---
 
 On the [provider's website](https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526) it states that this hardware wallet is coming soon, so a work in progress.

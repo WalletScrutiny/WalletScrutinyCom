@@ -9,11 +9,11 @@ appId: com.cryptocurrencys.bestwallet
 appCountry: 
 released: 
 updated: 2021-12-30
-version: "various"
+version: 
 stars: 
 ratings: 
 reviews: 
-size: undefined
+size: 
 website: 
 repository: 
 issue: 
