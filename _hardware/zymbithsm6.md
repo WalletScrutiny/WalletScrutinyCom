@@ -20,7 +20,7 @@ repository: https://github.com/Zymbit-Docs
 issue: 
 icon: zymbithsm6.png
 bugbounty: 
-meta: ok
+meta: wip
 verdict: noita
 date: 2022-02-17
 signer: 

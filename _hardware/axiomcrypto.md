@@ -9,7 +9,7 @@ updated:
 version: 
 binaries: 
 dimensions: [85.6, 54, 0.02]
-weight: 1 oz
+weight: 28.35
 provider: "Axiom Crypto"
 providerWebsite: 
 website: https://axiomcrypto.com/
@@ -75,5 +75,3 @@ The back side of the card also contains these instructions:
 An unreasonable amount of trust has to be placed on the vendor. Even if they say that the key pairs are generated on "fly mode on a PC without a hard drive", they have not offered any guarantee that they won't simply take pictures of it themselves. If they have, we were not able to find it.
 
 Secondly, only a sticker covers the private key QR code at the back of the card. An attacker in physical possession of the card would find it convenient to scan. There are also no indications that the private key text are sealed.
-
-There are other metal wallets that have more feasible measures.

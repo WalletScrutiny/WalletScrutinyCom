@@ -39,7 +39,7 @@ The guide recommends a Raspberry Pi zero as network drivers are not loaded by th
 
 ## Private keys are not shared 
 
-From the [site:](https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html)
+From the [site](https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html)
 
 > Is this secure?
 The main difference of this device versus the real trezor device is that the pi zero stores everything on the SD card. The equivalent of the flash memory for the trezor is stored in a file on the first partition. That means that anybody that has your SD card can access your seed words and private key.
