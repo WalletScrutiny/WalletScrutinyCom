@@ -79,4 +79,10 @@ As a disposable hardware wallet that is designed to be passed hand-to-hand, its 
 
 > You want to buy the new Tesla using Bitcoin. You grab your Satodime, seal a new Bitcoin vault, write down the BTC address and load 1 BTC to it. Then, you go to the car dealer and begin negotiations. The dealer is asking for 1.25 BTC for this beautiful Ludicrous P100D. You accept the deal and send 0.25 more BTC to your Satodime vault using your favorite Bitcoin client. You grab your mobile phone, scan the Satodime using NFC and show the sealed vault to the car dealer. He can verify that the Bitcoin vault is sealed and full of 1.25 BTC. You shake hands and give him the card. You grab the car and leave the showroom peacefully and silently. SEAL — LOAD — VERIFY
 
+Note from Leo:
+
+> The name and feature set suggests a relation to OpenDime. It's basically an electronic version of the CoinKite OpenDime with mostly the same features, including the assurance to have externally provided(?) entropy being used in the key generation and the issue with not having a backup. If the Tesla dealer fails to unseal the key slot, the 1.25BTC are lost.
+
+{% include walletLink.html wallet='hardware/opendime' verdict='true' %}
+
 Note that the Android app is still in beta here. Also, the buyer has to show **his** Android phone to verify with the seller that the BTC amount is in the satodime. Otherwise, the seller would also have to install the same Android app on his own phone, or on a desktop PC in order to verify. 

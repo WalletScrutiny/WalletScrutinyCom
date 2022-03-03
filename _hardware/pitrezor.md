@@ -39,7 +39,7 @@ The guide recommends a Raspberry Pi zero as network drivers are not loaded by th
 
 ## Private keys are not shared 
 
-From the [site](https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html)
+From the [site](https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html):
 
 > Is this secure?
   

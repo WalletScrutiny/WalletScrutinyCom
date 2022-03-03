@@ -52,5 +52,4 @@ The company's business address listed on the website is a US Postal Service offi
 
 We would have to stretch our definition of a **hardware wallet** to fit Zero Trace into this category.
 
-
 To be fair, the Zero Trace pen isn't really marketed as a hardware wallet, but as an all around anonymizer with the bonus of a cryptocurrency wallet. Most hardware wallets have a Secure Element or a chip designed for ensuring that the private keys are retained on the device. There is no information if the Zero Trace device has this element given that it's merely a USB drive. At the very least, this device **does not have a display nor an interface** by which a user can confirm cryptocurrency transactions.   
