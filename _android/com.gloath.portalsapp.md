@@ -30,6 +30,15 @@ redirect_from:
   - /com.gloath.portalsapp/
 ---
 
+<div class="alertBox"><div>
+<p>This app is very suspicious as it makes claims such as "Presently you can
+mine BTC, ETH, ripple and other crypto wallets". BTC and ETH cannot be
+mined with a cell phone and Ripple tokens (XRP) cannot be mined at all.
+With false advertisement like this and lack of verifiability, this product
+might generate valid Bitcoin addresses but we strongly encourage you to not use
+those for actual funds!</p>
+</div></div>
+
 This app is weird and it's not clear why 10k people downloaded it. So the app
 does generate wallets but you can't really use those as such ... unless you do
 with another software.
