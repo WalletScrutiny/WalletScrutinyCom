@@ -42,11 +42,12 @@ The guide recommends a Raspberry Pi zero as network drivers are not loaded by th
 From the [site:](https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html)
 
 > Is this secure?
-The main difference of this device versus the real trezor device is that the pi zero stores everything on the SD card. The equivalent of the flash memory for the trezor is stored in a file on the first partition. That means that anybody that has your SD card can access your seed words and private key.
->
-> However, the wallet supports the usage of a passphrase. The passphrase is a kind of an extra seed word that is not stored on SD card. By using a passphrase, you would prevent a thief that could have your SD card to empty your wallet.
->
-> Thus, the recommendation is to always use a passphrase!
+  
+  The main difference of this device versus the real trezor device is that the pi zero stores everything on the SD card. The equivalent of the flash memory for the trezor is stored in a file on the first partition. That means that anybody that has your SD card can access your seed words and private key.
+  
+  However, the wallet supports the usage of a passphrase. The passphrase is a kind of an extra seed word that is not stored on SD card. By using a passphrase, you would prevent a thief that could have your SD card to empty your wallet.
+  
+  Thus, the recommendation is to always use a passphrase!
 
 ## Code and Reproducibilty
 
@@ -57,4 +58,4 @@ From the step-by-step instructions:
 > - If you don't have the software called "etcher" already installed in your computer, download it here : https://etcher.io/ . This software is used to write the program image to the SD card.
 > - Download the latest pitrezor SD card image by clicking here and select "save" to save the zip file
 
-Pitrezor's firmware is precompiled.
+Pitrezor's firmware is precompiled. We have to check if the precompiled firmware can be reproduced from the provided source code.
