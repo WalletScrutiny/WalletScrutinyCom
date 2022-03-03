@@ -4,34 +4,32 @@ appId: chainlock
 authors:
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "YOUNIQX"
+providerWebsite: https://www.youniqx.com/en/
 website: https://youniqx.com/en/chainlock-cold-offline-wallet/
 shop: https://www.cardwallet.com/en/product/card-wallet-bitcoin/
-company: YOUNIQX
-companywebsite: https://www.youniqx.com/en/
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: chainlock.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: prefilled
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: youniqx
-providerLinkedIn: youniqx-identity-ag
-providerFacebook: YOUNIQXbyOeSD
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: youniqx
+social: 
+  - https://www.linkedin.com/company/youniqx-identity-ag
+  - https://www.facebook.com/YOUNIQXbyOeSD
 ---
-
 
 Chainlock is a card wallet. It also advertises that it is "100% offline"
 

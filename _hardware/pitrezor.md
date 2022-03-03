@@ -4,34 +4,30 @@ appId: pitrezor
 authors:
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://www.pitrezor.com/2018/02/pitrezor-homemade-trezor-bitcoin-wallet.html
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/heneault/trezor-firmware
-issue:
+issue: 
 icon: pitrezor.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 Rather than selling a product, this site appears to be a guide on how to make a hardware wallet using a raspberry pi and a fork from the {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %} firmware.
 

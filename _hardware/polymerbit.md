@@ -3,35 +3,31 @@ title: "Polymerbit"
 appId: polymerbit
 authors:
 - danny
-released:
-discontinued: # date
-updated:
-version:
-dimensions:
-weight:
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
+provider: "Polymerbit Ltd."
+providerWebsite: 
 website: https://polymerbit.ch/
 shop: https://www.polymerbit.com/shop
-company: Polymerbit Ltd.
-companywebsite: 
 country: UK
-price: 20USD 
-repository:
-issue:
+price: 20USD
+repository: 
+issue: 
 icon: polymerbit.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: prefilled
 date: 2022-02-25
-signer:
-reviewArchive:
-
-
-providerTwitter: polymerbit
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+signer: 
+reviewArchive: 
+twitter: polymerbit
+social: 
 ---
-
 
 ## Product Description
 

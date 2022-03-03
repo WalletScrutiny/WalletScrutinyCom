@@ -1,35 +1,34 @@
 ---
 title: "Zymbit HSM6"
-appId: zymbitHSM6
+appId: zymbithsm6
 authors:
 - danny
 released: 2021-09-17
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Zymbit"
+providerWebsite: 
 website: https://www.zymbit.com/hsm6/
 shop: https://store.zymbit.com/products/hsm6
-company: Zymbit
-companywebsite: 
 country: US
 price: 125USD
 repository: https://github.com/Zymbit-Docs
-issue:
-icon: zymbitHSM6.png
-bugbounty:
+issue: 
+icon: zymbithsm6.png
+bugbounty: 
 meta: ok
-verdict: noita 
+verdict: noita
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: zymbit
-providerLinkedIn: zymbit
-providerFacebook: zymbit
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: zymbit
+social: 
+  - https://www.linkedin.com/company/zymbit
+  - https://www.facebook.com/zymbit
 ---
 
 HSM stands for Hardware Security Module for Embedded Applications.

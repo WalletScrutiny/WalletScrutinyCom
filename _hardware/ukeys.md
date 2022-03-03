@@ -4,34 +4,32 @@ appId: ukeys
 authors:
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: http://www.unikeys.io/
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: ukeys.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: UnikeysTeam
-providerLinkedIn: unikeys-team
-providerFacebook: UnikeysTeam
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: UnikeysTeam
+social: 
+  - https://www.linkedin.com/company/unikeys-team
+  - https://www.facebook.com/UnikeysTeam
 ---
-
 
 In a Medium article from 2018, {{ page.title }} [describes itself as a biometric hardware wallet company.](https://medium.com/@UnikeysTeam/we-are-unikeys-the-world-firsts-biometric-hardware-wallet-company-in-cryptocurrency-6563e7dcc73a)
 

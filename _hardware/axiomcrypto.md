@@ -1,37 +1,33 @@
 ---
 title: "Axiom Crypto"
-appId: axiomCrypto
+appId: axiomcrypto
 authors:
 - danny
-released:
-discontinued: # date
-updated:
-version:
-dimensions: [85.6, 54, 0.02]  
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: [85.6, 54, 0.02]
 weight: 1 oz
+provider: "Axiom Crypto"
+providerWebsite: 
 website: https://axiomcrypto.com/
 shop: https://axiomcrypto.com/index.php/shop/
-company: Axiom Crypto
-companywebsite: 
 country: US
 price: 5.99USD
-repository:
-issue:
+repository: 
+issue: 
 icon: axiomcrypto.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: prefilled 
+verdict: prefilled
 date: 2022-02-25
-signer:
-reviewArchive:
-
-
-providerTwitter:
-providerLinkedIn:
-providerFacebook:
-providerReddit:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 ## Product Information 
 
