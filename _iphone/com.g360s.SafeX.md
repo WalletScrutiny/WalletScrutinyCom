@@ -23,14 +23,9 @@ verdict: nobtc
 date: 2021-12-30
 signer: 
 reviewArchive:
-
-providerTwitter: ecoinofficial
-providerLinkedIn: 
-providerFacebook: ecoinofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: ecoinofficial
+social:
+  - https://www.facebook.com/ecoinofficial
 ---
 
 {% include copyFromAndroid.html %}

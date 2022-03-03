@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-28
 updated: 2022-01-27
 version: "1.7"
-stars: 5.0
-ratings: 9988
-reviews: 739
+stars: 4.9805827
+ratings: 10629
+reviews: 750
 size: 14M
 website: https://suncrypto.in
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: suncryptoin
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: suncryptoin
+social:
 redirect_from:
-
 ---
 
 We downloaded the app. 

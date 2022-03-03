@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-09
 updated: 2019-07-17
 version: "1.0.0.57"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 10M
@@ -24,14 +24,12 @@ verdict: fewusers
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: quickxprotocol
-providerLinkedIn: quickx
-providerFacebook: quickxprotocol
-providerReddit: QuickX
-
+twitter: quickxprotocol
+social:
+  - https://www.linkedin.com/company/quickx
+  - https://www.facebook.com/quickxprotocol
+  - https://www.reddit.com/r/QuickX
 redirect_from:
-
 ---
 
 <!-- nosource -->

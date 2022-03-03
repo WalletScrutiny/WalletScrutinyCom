@@ -11,8 +11,8 @@ released: 2019-03-27
 updated: 2022-01-10
 version: "2.3.0"
 stars: 4.3
-ratings: 6982
-reviews: 176
+ratings: 7001
+reviews: 177
 size: 20M
 website: https://cryptochallenge.app/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: cchallengesborg
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cchallengesborg
+social:
 redirect_from:
-
 ---
 
 Formerly known as the Swissborg Community App, this app does not have a wallet. It is a Bitcoin price prediction game with a leaderboard for points. Correct guesses for Bitcoin's price movement merits points for the user. You have to download {% include walletLink.html wallet='android/com.swissborg.android' verdict='true' %} in order to receive the rewards. 

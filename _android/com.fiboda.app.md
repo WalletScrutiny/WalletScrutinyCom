@@ -10,8 +10,8 @@ appCountry: us
 released: 2021-01-14
 updated: 2021-07-08
 version: "1.0.5"
-stars: 4.5
-ratings: 423
+stars: 4.3636365
+ratings: 437
 reviews: 2
 size: 44M
 website: http://www.fiboda.com
@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

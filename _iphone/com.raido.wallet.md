@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: financialraido
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: financialraido
+social:
 ---
 
 {% include copyFromAndroid.html %}

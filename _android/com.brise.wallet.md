@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-08
 updated: 2021-12-08
 version: "1.0.0"
-stars: 3.8
-ratings: 407
-reviews: 47
+stars: 3.5652175
+ratings: 536
+reviews: 57
 size: 29M
 website: https://bitgert.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app appears to not support BTC.

@@ -8,11 +8,11 @@ appId: com.stormgain.mobile
 appCountry: de
 idd: 1471506070
 released: 2019-07-21
-updated: 2022-01-13
-version: "1.22.0"
-stars: 4.31433
-reviews: 1228
-size: 58593280
+updated: 2022-02-26
+version: "1.23.0"
+stars: 4.21976
+reviews: 1083
+size: 59867136
 website: https://stormgain.com
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
-providerTwitter: StormGain_com
-providerLinkedIn: 
-providerFacebook: StormGain.official
-providerReddit: 
-
-redirect_from:
-
+twitter: StormGain_com
+social:
+  - https://www.facebook.com/StormGain.official
 ---
 
 This app's description mainly focuses on trading and interest earning, features

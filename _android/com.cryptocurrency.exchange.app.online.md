@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-20
 updated: 2021-05-20
 version: "1.0"
-stars: 4.7
+stars: 4.6534653
 ratings: 151
 reviews: 145
 size: 5.8M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** This app has a generic sounding name: "Crypto Exchange". Since it is not mimicking any well known exchange in logo or name, it can't be the fake of something else. Its primary focus is that it's a referral.

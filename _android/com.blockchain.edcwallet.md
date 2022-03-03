@@ -10,7 +10,7 @@ appCountry: ua
 released: 2020-03-13
 updated: 2021-02-10
 version: "0.82"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 22M
@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2022-02-07
 signer: 
 reviewArchive:
-
-providerTwitter: EDCBlockchain
-providerLinkedIn: edcblockchain
-providerFacebook: EDCBlockchain
-providerReddit: 
-
+twitter: EDCBlockchain
+social:
+  - https://www.linkedin.com/company/edcblockchain
+  - https://www.facebook.com/EDCBlockchain
 redirect_from:
-
 ---
 
 ### App Description

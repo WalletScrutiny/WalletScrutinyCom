@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85.6, 1.2]
 weight: 35
+provider: "Ballet"
+providerWebsite: https://www.balletcrypto.com
 website: https://www.balletcrypto.com/en/real/
 shop: https://www.balletcrypto.com/en/buy/
-company: Ballet
-companywebsite: https://www.balletcrypto.com
 country: US
 price: 35USD
 repository: 
-issue:
-icon: balletcrypto.png
-bugbounty:
+issue: 
+icon: balletcryptoreal.png
+bugbounty: 
 meta: ok
 verdict: plainkey
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: BalletCrypto
-providerLinkedIn: balletcrypto
-providerFacebook: balletcrypto.global
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: BalletCrypto
+social: 
+  - https://www.linkedin.com/company/balletcrypto
+  - https://www.facebook.com/balletcrypto.global
 ---
-
 
 **Updated Analysis 2022-01-20**
 

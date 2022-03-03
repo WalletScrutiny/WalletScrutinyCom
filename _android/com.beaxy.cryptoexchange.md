@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-02-07
 updated: 2021-12-29
 version: "2.10"
-stars: 4.5
+stars: 4.490196
 ratings: 161
 reviews: 26
 size: 44M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: BeaxyExchange
-providerLinkedIn: 
-providerFacebook: beaxyexchange
-providerReddit: BeaxyExchange
-
+twitter: BeaxyExchange
+social:
+  - https://www.facebook.com/beaxyexchange
+  - https://www.reddit.com/r/BeaxyExchange
 redirect_from:
-
 ---
 
 ## App Description

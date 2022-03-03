@@ -8,10 +8,10 @@ users: 50000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2022-02-05
-version: "2.2.203"
-stars: 4.0
-ratings: 829
+updated: 2022-02-17
+version: "2.2.210"
+stars: 4
+ratings: 836
 reviews: 52
 size: 55M
 website: https://www.b1.zone/
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: BigONEexchange
-providerLinkedIn: 
-providerFacebook: exBigONE
-providerReddit: BigONEExchange
-
+twitter: BigONEexchange
+social:
+  - https://www.facebook.com/exBigONE
+  - https://www.reddit.com/r/BigONEExchange
 redirect_from:
-
 ---
 
 BigONE has the interface of a digital exchange, and advertises itself as such.

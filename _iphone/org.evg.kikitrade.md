@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: KikitradeHQ
-providerLinkedIn: kikitrade
-providerFacebook: kikitrade
-providerReddit: 
-
-redirect_from:
-
+twitter: KikitradeHQ
+social:
+  - https://www.linkedin.com/company/kikitrade
+  - https://www.facebook.com/kikitrade
 ---
 
  {% include copyFromAndroid.html %}

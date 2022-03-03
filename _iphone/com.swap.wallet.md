@@ -23,14 +23,8 @@ verdict: custodial
 date: 2020-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 We can't find the app on the App Store anymore and assume it stopped

@@ -11,10 +11,10 @@ appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
 updated: 2022-02-15
-version: "4.9.7"
-stars: 4.5
-ratings: 57047
-reviews: 1078
+version: "5.0.9"
+stars: 4.5159817
+ratings: 57218
+reviews: 1081
 size: 14M
 website: http://www.tab-trader.com
 repository: 
@@ -26,14 +26,11 @@ verdict: nowallet
 date: 2021-08-10
 signer: 
 reviewArchive:
-
-providerTwitter: tabtraderpro
-providerLinkedIn: tabtrader
-providerFacebook: tabtrader
-providerReddit: 
-
+twitter: tabtraderpro
+social:
+  - https://www.linkedin.com/company/tabtrader
+  - https://www.facebook.com/tabtrader
 redirect_from:
-
 ---
 
 **Updated 2022-01-06**

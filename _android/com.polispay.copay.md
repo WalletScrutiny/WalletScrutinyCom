@@ -24,12 +24,8 @@ verdict: nosource
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.polispay.copay/
   - /posts/com.polispay.copay/

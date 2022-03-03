@@ -10,7 +10,7 @@ appCountry: tt
 released: 2020-12-23
 updated: 2021-09-08
 version: "0.25.0"
-stars: 4.5
+stars: 4.452381
 ratings: 42
 reviews: 27
 size: 32M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

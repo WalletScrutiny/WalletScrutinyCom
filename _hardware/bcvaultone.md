@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [57, 100, 10]
 weight: 41
+provider: "REAL SECURITY D.O.O.."
+providerWebsite: https://www.real-sec.com/
 website: https://bc-vault.com/
 shop: https://bc-vault.com/shop/
-company: REAL SECURITY D.O.O..
-companywebsite: https://www.real-sec.com/
 country: SI
 price: 132EUR
 repository: 
-issue:
+issue: 
 icon: bcvaultone.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-10
-signer:
-reviewArchive:
-
-
-providerTwitter: bc_vault
-providerLinkedIn: bcvault
-providerFacebook: bcvault
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: bc_vault
+social: 
+  - https://www.linkedin.com/company/bcvault
+  - https://www.facebook.com/bcvault
 ---
-
 
 ## Private keys can be created offline 
 

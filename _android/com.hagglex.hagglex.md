@@ -10,8 +10,8 @@ appCountry: us
 released: 2021-03-17
 updated: 2021-11-26
 version: "1.1.2"
-stars: 4.4
-ratings: 2772
+stars: 4.409524
+ratings: 2775
 reviews: 90
 size: 47M
 website: http://www.hagglex.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: hagglexintl
-providerLinkedIn: hagglex
-providerFacebook: hagglex
-providerReddit: 
-
+twitter: hagglexintl
+social:
+  - https://www.linkedin.com/company/hagglex
+  - https://www.facebook.com/hagglex
 redirect_from:
-
 ---
 
 The app has a short Play Store description:

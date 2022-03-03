@@ -8,11 +8,11 @@ appId: io.blockstream.green
 appCountry: 
 idd: 1402243590
 released: 2019-03-22
-updated: 2022-01-21
-version: "3.7.8"
+updated: 2022-02-23
+version: "3.7.9"
 stars: 3.73214
 reviews: 112
-size: 48401408
+size: 49001472
 website: https://blockstream.green
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: Blockstream
-providerLinkedIn: blockstream
-providerFacebook: Blockstream
-providerReddit: 
-
-redirect_from:
-
+twitter: Blockstream
+social:
+  - https://www.linkedin.com/company/blockstream
+  - https://www.facebook.com/Blockstream
 ---
 
 The description in the App Store is not explicit about the app being

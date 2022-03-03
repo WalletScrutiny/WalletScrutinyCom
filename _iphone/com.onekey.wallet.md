@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: OneKeyHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: OneKeyHQ
-
-redirect_from:
-
+twitter: OneKeyHQ
+social:
+  - https://www.reddit.com/r/OneKeyHQ
 ---
 
 {% include copyFromAndroid.html %}

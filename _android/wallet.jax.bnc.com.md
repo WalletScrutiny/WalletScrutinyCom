@@ -25,14 +25,9 @@ verdict: fake
 date: 2021-08-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app "{{ page.title }}" clearly tries to imitate

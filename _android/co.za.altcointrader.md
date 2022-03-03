@@ -10,8 +10,8 @@ appCountry:
 released: 2020-05-06
 updated: 2019-12-05
 version: "1.0.1"
-stars: 3.3
-ratings: 822
+stars: 3.2857144
+ratings: 835
 reviews: 5
 size: 1.2M
 website: https://www.altcointrader.co.za/
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-12-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

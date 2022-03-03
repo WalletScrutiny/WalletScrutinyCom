@@ -10,7 +10,7 @@ appCountry: ca
 released: 2020-03-16
 updated: 2022-01-24
 version: "1.5.9"
-stars: 3.0
+stars: 3
 ratings: 24
 reviews: 16
 size: 12M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: BitvoExchange
-providerLinkedIn: bitvoexchange
-providerFacebook: BitvoExchange
-providerReddit: 
-
+twitter: BitvoExchange
+social:
+  - https://www.linkedin.com/company/bitvoexchange
+  - https://www.facebook.com/BitvoExchange
 redirect_from:
-
 ---
 
 ## App Description

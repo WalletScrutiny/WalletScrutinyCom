@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-08
 updated: 2020-03-09
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.2M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-05
+date: 2022-02-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

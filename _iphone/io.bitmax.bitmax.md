@@ -9,11 +9,11 @@ appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
 released: 2019-06-13
-updated: 2022-02-10
-version: "2.7.3"
-stars: 4.86235
-reviews: 603
-size: 94710784
+updated: 2022-02-23
+version: "2.7.4"
+stars: 4.84991
+reviews: 553
+size: 94743552
 website: 
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: AscendEX_Global
-providerLinkedIn: 
-providerFacebook: AscendEXOfficial
-providerReddit: AscendEX_Official
-
-redirect_from:
-
+twitter: AscendEX_Global
+social:
+  - https://www.facebook.com/AscendEXOfficial
+  - https://www.reddit.com/r/AscendEX_Official
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

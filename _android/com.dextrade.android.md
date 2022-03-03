@@ -11,8 +11,8 @@ released: 2019-07-03
 updated: 2021-07-14
 version: "1.2.3"
 stars: 3.1
-ratings: 209
-reviews: 16
+ratings: 218
+reviews: 15
 size: 1.2M
 website: https://dex-trade.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: dextrade_
-providerLinkedIn: dex-trade-exchange
-providerFacebook: DexTradeExchange
-providerReddit: 
-
+twitter: dextrade_
+social:
+  - https://www.linkedin.com/company/dex-trade-exchange
+  - https://www.facebook.com/DexTradeExchange
 redirect_from:
-
 ---
 
 ## App Description

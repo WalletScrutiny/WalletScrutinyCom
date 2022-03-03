@@ -10,8 +10,8 @@ idd: 1528964374
 released: 2020-11-25
 updated: 2022-02-08
 version: "1.21.0"
-stars: 3.14815
-reviews: 27
+stars: 3.11538
+reviews: 26
 size: 68330496
 website: https://ecos.am/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: ecosmining
-providerLinkedIn: 
-providerFacebook: ecosdefi
-providerReddit: 
-
-redirect_from:
-
+twitter: ecosmining
+social:
+  - https://www.facebook.com/ecosdefi
 ---
 
 {% include copyFromAndroid.html %}

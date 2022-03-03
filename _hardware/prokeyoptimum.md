@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 2020-01-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [41, 50, 9.4]
 weight: 16.7
+provider: "Prokey"
+providerWebsite: https://prokey.io/
 website: https://prokey.io/prokey-optimum
 shop: https://prokey.io/prokey-optimum
-company: Prokey
-companywebsite: https://prokey.io/
 country: MY
 price: 59USD
 repository: https://github.com/prokey-io/prokey-optimum-firmware
-issue:
+issue: 
 icon: prokeyoptimum.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2021-12-10
-signer:
-reviewArchive:
-
-
-providerTwitter: tryProkey
-providerLinkedIn: prokey-technologies
-providerFacebook: prokey.io
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: tryProkey
+social: 
+  - https://www.linkedin.com/company/prokey-technologies
+  - https://www.facebook.com/prokey.io
 ---
-
 
 The product page's description reads as below:
 

@@ -4,32 +4,29 @@ appId: nativault
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
-dimensions: [18, 14.2]
-weight: 5g
+version: 
+binaries: 
+dimensions: [18, 14.2, 5]
+weight: 5
+provider: 
+providerWebsite: 
 website: https://nativault.com/
-shop:
-company: 
-companywebsite: 
+shop: 
 country: US
 price: 50USD
-repository:
-issue:
+repository: 
+issue: 
 icon: nativault.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: nati_vault
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+date: 2022-02-18
+signer: 
+reviewArchive: 
+twitter: nati_vault
+social: 
 ---
 
 **⚠️ Warning: Nativault is holding an ICO Token Pre-Sale in 2022.**

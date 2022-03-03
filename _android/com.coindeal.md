@@ -10,7 +10,7 @@ appCountry:
 released: 2019-11-04
 updated: 2020-08-18
 version: "1.0.8"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: coindealcom
-providerLinkedIn: coindealcom
-providerFacebook: coindealcom
-providerReddit: 
-
+twitter: coindealcom
+social:
+  - https://www.linkedin.com/company/coindealcom
+  - https://www.facebook.com/coindealcom
 redirect_from:
-
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

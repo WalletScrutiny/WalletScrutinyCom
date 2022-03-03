@@ -4,32 +4,29 @@ appId: keywallettouch
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: http://www.keywallet.co.kr
 website: 
 shop: 
-company: 
-companywebsite: http://www.keywallet.co.kr
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: keywallettouch.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-08-01
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 The [provider's website](http://www.keywallet.co.kr) is inaccessible and we considered it defunct.

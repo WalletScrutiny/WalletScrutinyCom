@@ -8,10 +8,10 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2022-02-11
+updated: 2022-02-22
 version: "1.98.05"
-stars: 4.2
-ratings: 34490
+stars: 4.2156863
+ratings: 35079
 reviews: 92
 size: 26M
 website: http://latoken.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: latokens
-providerLinkedIn: latoken
-providerFacebook: LiquidAssetToken
-providerReddit: 
-
+twitter: latokens
+social:
+  - https://www.linkedin.com/company/latoken
+  - https://www.facebook.com/LiquidAssetToken
 redirect_from:
-
 ---
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.

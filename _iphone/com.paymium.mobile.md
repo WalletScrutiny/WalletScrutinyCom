@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: paymium
-providerLinkedIn: paymium
-providerFacebook: Paymium
-providerReddit: 
-
-redirect_from:
-
+twitter: paymium
+social:
+  - https://www.linkedin.com/company/paymium
+  - https://www.facebook.com/Paymium
 ---
 
 {% include copyFromAndroid.html %}

@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2022-02-06
-version: "6.7.8"
-stars: 4.48203
-reviews: 2031
-size: 311544832
+updated: 2022-02-25
+version: "6.8.2"
+stars: 4.53129
+reviews: 2221
+size: 338319360
 website: http://www.hbg.com
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiGlobal
-providerLinkedIn: 
-providerFacebook: huobiglobalofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: HuobiGlobal
+social:
+  - https://www.facebook.com/huobiglobalofficial
 ---
 
 Neither on Google Play nor on their website can we find a claim of a

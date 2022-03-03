@@ -10,9 +10,9 @@ appCountry: cn
 released: 2020-03-30
 updated: 2022-02-10
 version: "22.2.1.1825925728"
-stars: 4.5
-ratings: 17595
-reviews: 10551
+stars: 4.416872
+ratings: 17923
+reviews: 10716
 size: 128M
 website: https://zipmex.co.th/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: ZipmexTH
-providerLinkedIn: 
-providerFacebook: ZipmexThailand
-providerReddit: 
-
+twitter: ZipmexTH
+social:
+  - https://www.facebook.com/ZipmexThailand
 redirect_from:
-
 ---
 
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.

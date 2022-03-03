@@ -11,7 +11,7 @@ released: 2019-12-17
 updated: 2021-04-22
 version: "1.0.5"
 stars: 1
-reviews: 1
+reviews: 2
 size: 71199744
 website: https://b4uwallet.com/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: b4uwallet_b4u
-providerLinkedIn: 
-providerFacebook: B4uwalletofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: b4uwallet_b4u
+social:
+  - https://www.facebook.com/B4uwalletofficial
 ---
 
 This app is not well advertised on how the users private keys are managed.

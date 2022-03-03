@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-03-20
 signer: 
 reviewArchive:
-
-providerTwitter: bitlish_com
-providerLinkedIn: bitlish
-providerFacebook: bitlish.english
-providerReddit: 
-
+twitter: bitlish_com
+social:
+  - https://www.linkedin.com/company/bitlish
+  - https://www.facebook.com/bitlish.english
 redirect_from:
   - /com.bitlish.bitlish/
   - /posts/com.bitlish.bitlish/

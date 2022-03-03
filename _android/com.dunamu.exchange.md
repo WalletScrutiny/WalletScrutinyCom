@@ -10,8 +10,8 @@ appCountry:
 released: 2017-10-23
 updated: 2022-01-20
 version: "1.15.9p3"
-stars: 3.5
-ratings: 29344
+stars: 3.5277777
+ratings: 29440
 reviews: 13
 size: 65M
 website: https://upbit.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: upbitglobal
-providerLinkedIn: upbit-official
-providerFacebook: upbit.exchange
-providerReddit: 
-
+twitter: upbitglobal
+social:
+  - https://www.linkedin.com/company/upbit-official
+  - https://www.facebook.com/upbit.exchange
 redirect_from:
-
 ---
 
 There are two versions of this app: one for Korea and one that's global. 

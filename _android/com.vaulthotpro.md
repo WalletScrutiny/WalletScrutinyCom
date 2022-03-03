@@ -24,14 +24,11 @@ verdict: wip
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: cobo-official
-providerFacebook: coboOfficial
-providerReddit: 
-
+twitter: Cobo_Wallet
+social:
+  - https://www.linkedin.com/company/cobo-official
+  - https://www.facebook.com/coboOfficial
 redirect_from:
-
 ---
 
 **Update 2022-01-03:** Cobo Vault has been deprecated in favor of {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}

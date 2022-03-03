@@ -10,7 +10,7 @@ appCountry: tr
 released: 2021-03-21
 updated: 2021-12-30
 version: "2.2.5"
-stars: 4.2
+stars: 4.2403846
 ratings: 272
 reviews: 98
 size: 17M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: paritexexchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: paritexexchange
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -11,8 +11,8 @@ appCountry:
 released: 2015-07-15
 updated: 2022-01-19
 version: "2.4.27"
-stars: 3.7
-ratings: 1062
+stars: 3.7346938
+ratings: 1061
 reviews: 22
 size: 27M
 website: https://lightning-wallet.com/
@@ -80,13 +80,9 @@ reviewArchive:
   appHash: 
   gitRevision: f43ec311500efbb0ea1c8ebadc52c545a434a341
   verdict: nonverifiable
-providerTwitter: SimpleBtcWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: SimpleBtcWallet
+social:
 redirect_from:
-
 ---
 
 For that latest version, our test script returned this:

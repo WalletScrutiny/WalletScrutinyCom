@@ -11,8 +11,8 @@ idd: 1443109132
 released: 2020-03-05
 updated: 2022-01-28
 version: "1.1.44"
-stars: 3.91406
-reviews: 128
+stars: 3.9
+reviews: 130
 size: 94381056
 website: http://www.coinzoom.com
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: GetCoinZoom
-providerLinkedIn: coinzoomhq
-providerFacebook: CoinZoom
-providerReddit: 
-
-redirect_from:
-
+twitter: GetCoinZoom
+social:
+  - https://www.linkedin.com/company/coinzoomhq
+  - https://www.facebook.com/CoinZoom
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet

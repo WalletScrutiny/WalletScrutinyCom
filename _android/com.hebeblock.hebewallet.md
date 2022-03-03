@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-03-04
 updated: 2022-01-22
 version: "1.4.72"
-stars: 0.0
-ratings: 
-reviews: 
+stars: 3.4
+ratings: 35
+reviews: 3
 size: 26M
 website: https://hebe.cc
 repository: 
@@ -24,12 +24,8 @@ verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: BlockHebe
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BlockHebe
+social:
 redirect_from:
   - /posts/com.hebeblock.hebewallet/
 ---

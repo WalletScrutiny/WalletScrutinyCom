@@ -8,11 +8,11 @@ users: 100000
 appId: br.com.foxbit.foxbitandroid
 appCountry: br
 released: 2019-01-28
-updated: 2022-02-14
-version: "2.17.1"
-stars: 3.3
-ratings: 6613
-reviews: 4466
+updated: 2022-02-21
+version: "2.18.0"
+stars: 3.3757396
+ratings: 6740
+reviews: 4563
 size: 14M
 website: http://www.foxbit.com.br
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: foxbit
-providerLinkedIn: foxbit
-providerFacebook: foxbitcoin
-providerReddit: 
-
+twitter: foxbit
+social:
+  - https://www.linkedin.com/company/foxbit
+  - https://www.facebook.com/foxbitcoin
 redirect_from:
-
 ---
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**

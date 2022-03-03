@@ -8,12 +8,12 @@ users: 10000
 appId: com.btcpool.app.android
 appCountry: us
 released: 2020-02-25
-updated: 2022-01-28
-version: "2.0.4"
-stars: 3.8
-ratings: 251
+updated: 2022-02-21
+version: "2.1.0"
+stars: 3.7954545
+ratings: 261
 reviews: 12
-size: 34M
+size: 35M
 website: https://btc.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: btccom_official
-providerLinkedIn: btc.com
-providerFacebook: btccom
-providerReddit: 
-
+twitter: btccom_official
+social:
+  - https://www.linkedin.com/company/btc.com
+  - https://www.facebook.com/btccom
 redirect_from:
-
 ---
 
 ## App Description

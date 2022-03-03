@@ -10,7 +10,7 @@ appCountry:
 released: 2015-02-19
 updated: 2016-08-18
 version: "2.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.1M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is a POS solution aimed at Merchants receiving crypo currencies, the POS mobile app is listed on [their website](https://coingate.com/pos), however no mention of any source repository for it.

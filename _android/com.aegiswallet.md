@@ -24,12 +24,8 @@ verdict: wip
 date: 2020-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.aegiswallet/
   - /posts/com.aegiswallet/

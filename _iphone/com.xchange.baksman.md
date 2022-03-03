@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: baksmancom
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/baksmancom
 ---
 
 {% include copyFromAndroid.html %}

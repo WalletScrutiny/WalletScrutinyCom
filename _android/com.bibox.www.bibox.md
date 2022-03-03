@@ -24,14 +24,12 @@ verdict: custodial
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: Bibox365
-providerLinkedIn: biboxexchange
-providerFacebook: Bibox2017
-providerReddit: Bibox
-
+twitter: Bibox365
+social:
+  - https://www.linkedin.com/company/biboxexchange
+  - https://www.facebook.com/Bibox2017
+  - https://www.reddit.com/r/Bibox
 redirect_from:
-
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

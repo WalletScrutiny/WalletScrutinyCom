@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: BitLeague_Group
-providerLinkedIn: bitleaguegroup
-providerFacebook: bitleaguegroup
-providerReddit: 
-
-redirect_from:
-
+twitter: BitLeague_Group
+social:
+  - https://www.linkedin.com/company/bitleaguegroup
+  - https://www.facebook.com/bitleaguegroup
 ---
 
 {% include copyFromAndroid.html %}

@@ -4,13 +4,13 @@ title: "ZBX"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
 updated: 2022-01-15
 version: "2.1.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 34M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: zbx_com
-providerLinkedIn: zbx
-providerFacebook: ZBXExchange
-providerReddit: 
-
+twitter: zbx_com
+social:
+  - https://www.linkedin.com/company/zbx
+  - https://www.facebook.com/ZBXExchange
 redirect_from:
-
 ---
 
 ## App Description

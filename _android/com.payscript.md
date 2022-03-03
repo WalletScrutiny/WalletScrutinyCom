@@ -8,9 +8,9 @@ users: 500
 appId: com.payscript
 appCountry: 
 released: 2020-10-13
-updated: 2022-01-06
-version: "0.2.0"
-stars: 0.0
+updated: 2022-02-17
+version: "0.2.1"
+stars: 
 ratings: 
 reviews: 
 size: 64M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

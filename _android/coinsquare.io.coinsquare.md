@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: coinsquare
-providerLinkedIn: 
-providerFacebook: coinsquare.io
-providerReddit: 
-
+twitter: coinsquare
+social:
+  - https://www.facebook.com/coinsquare.io
 redirect_from:
   - /coinsquare.io.coinsquare/
   - /posts/coinsquare.io.coinsquare/

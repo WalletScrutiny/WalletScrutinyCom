@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-13
 updated: 2020-11-23
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -19,20 +19,17 @@ repository:
 issue: 
 icon: com.rippex.cryptotrading.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2021-11-28
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 **Note:** The app does not have a listed domain on its website but it has support email address has the domain rippex.com.
 

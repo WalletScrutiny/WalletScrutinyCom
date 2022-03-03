@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-03
 updated: 2021-10-24
 version: "1.3.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 32M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: PocketBitsIndia
-providerLinkedIn: pocketbits.in
-providerFacebook: Pocketbits.in
-providerReddit: 
-
+twitter: PocketBitsIndia
+social:
+  - https://www.linkedin.com/company/pocketbits.in
+  - https://www.facebook.com/Pocketbits.in
 redirect_from:
-
 ---
 
 ## App Description

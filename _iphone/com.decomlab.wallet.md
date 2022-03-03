@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: gomoonwallet
-providerLinkedIn: 
-providerFacebook: moonwallet.net
-providerReddit: 
-
-redirect_from:
-
+twitter: gomoonwallet
+social:
+  - https://www.facebook.com/moonwallet.net
 ---
 
 {% include copyFromAndroid.html %}

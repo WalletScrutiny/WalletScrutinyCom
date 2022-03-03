@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417).

@@ -8,11 +8,11 @@ appId: com.uphold.wallet.ios
 appCountry: 
 idd: 1101145849
 released: 2016-04-19
-updated: 2022-02-10
-version: "4.33.0"
-stars: 3.4406
-reviews: 5379
-size: 80535552
+updated: 2022-02-26
+version: "4.35.2"
+stars: 3.43341
+reviews: 5459
+size: 81396736
 website: https://uphold.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: UpholdInc
-providerLinkedIn: upholdinc
-providerFacebook: UpholdInc
-providerReddit: 
-
-redirect_from:
-
+twitter: UpholdInc
+social:
+  - https://www.linkedin.com/company/upholdinc
+  - https://www.facebook.com/UpholdInc
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

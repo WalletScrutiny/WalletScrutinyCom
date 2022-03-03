@@ -10,7 +10,7 @@ appCountry: gb
 released: 2019-10-17
 updated: 2022-02-12
 version: "2.0.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.9M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: MoneybrainBiPS
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MoneybrainBiPS
+social:
 redirect_from:
-
 ---
 
 ## App Description

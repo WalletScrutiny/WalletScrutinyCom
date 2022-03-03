@@ -4,32 +4,30 @@ appId: secalot
 authors:
 - kiwilamb
 released: 2018-01-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://www.secalot.com
 website: https://www.secalot.com/
 shop: https://www.secalot.com/product/secalot-dongle/
-company: 
-companywebsite: https://www.secalot.com
 country: 
 price: 50EUR
 repository: 
-issue:
+issue: 
 icon: secalot.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2021-07-21
-signer:
-reviewArchive:
-
-
-providerTwitter: SecalotDongle
-providerLinkedIn: 
-providerFacebook: secalotDongle
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SecalotDongle
+social: 
+  - https://www.facebook.com/secalotDongle
 ---
 
 This USB device lacks a screen and does not allow a user to verify what is actually being signed.

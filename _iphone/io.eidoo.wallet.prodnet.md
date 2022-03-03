@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: eidoo_io
-providerLinkedIn: eidoo
-providerFacebook: eidoocrypto
-providerReddit: eidooapp
-
-redirect_from:
-
+twitter: eidoo_io
+social:
+  - https://www.linkedin.com/company/eidoo
+  - https://www.facebook.com/eidoocrypto
+  - https://www.reddit.com/r/eidooapp
 ---
 
 The app's description:

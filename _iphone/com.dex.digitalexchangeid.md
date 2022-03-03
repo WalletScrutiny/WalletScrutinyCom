@@ -8,11 +8,11 @@ appId: com.dex.digitalexchangeid
 appCountry: us
 idd: 1498360108
 released: 2020-04-01
-updated: 2022-02-15
-version: "1.0.72"
+updated: 2022-02-23
+version: "1.0.74"
 stars: 5
 reviews: 1
-size: 77570048
+size: 77565952
 website: 
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Digiexchangeid
-providerLinkedIn: 
-providerFacebook: digitalexchangeid
-providerReddit: 
-
-redirect_from:
-
+twitter: Digiexchangeid
+social:
+  - https://www.facebook.com/digitalexchangeid
 ---
 
  {% include copyFromAndroid.html %}

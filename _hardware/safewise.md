@@ -1,37 +1,33 @@
 ---
 title: "SafeWise"
-appId: safeWise
+appId: safewise
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "CoinWiseBR"
+providerWebsite: 
 website: https://safewise.io/
-shop:
-company: CoinWiseBR
-companywebsite: 
+shop: 
 country: 
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: safewise.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: coinwisebr
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: coinwisebr
+social: 
 ---
-
 
 we could not find much information anywhere about this device, except that [Safewise is from Coinwise](https://twitter.com/coinwisebr/status/1137068094319484929)(Brazil). They seem to have [given away some prototypes](https://twitter.com/coinwisebr/status/1070031333928378369) but that was in 2018.
 

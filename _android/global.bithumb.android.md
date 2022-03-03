@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-07-05
 updated: 2021-08-05
 version: "2.6.24"
-stars: 3.5
-ratings: 3082
+stars: 3.45
+ratings: 3090
 reviews: 73
 size: 22M
 website: https://www.bithumb.pro
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbGlobal
-providerLinkedIn: bithumbglobal
-providerFacebook: bithumb.global
-providerReddit: BithumbGlobal
-
+twitter: BithumbGlobal
+social:
+  - https://www.linkedin.com/company/bithumbglobal
+  - https://www.facebook.com/bithumb.global
+  - https://www.reddit.com/r/BithumbGlobal
 redirect_from:
-
 ---
 
 It's **highly recommended to avoid this app.**

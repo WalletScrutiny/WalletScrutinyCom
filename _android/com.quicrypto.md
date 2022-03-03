@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-12
 updated: 2021-12-02
 version: "3.21.0"
-stars: 3.8
-ratings: 4927
-reviews: 432
+stars: 3.7572815
+ratings: 4934
+reviews: 431
 size: 26M
 website: http://www.quicrypto.com
 repository: 
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: quicrypto
-providerLinkedIn: 
-providerFacebook: Quicrypto
-providerReddit: 
-
+twitter: quicrypto
+social:
+  - https://www.facebook.com/Quicrypto
 redirect_from:
-
 ---
 
 **Update 2021-06-21**: This app is not a wallet.

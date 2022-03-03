@@ -8,11 +8,11 @@ users: 100000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
-updated: 2022-02-14
-version: "2.2.5"
-stars: 4.4
-ratings: 5000
-reviews: 317
+updated: 2022-02-28
+version: "2.2.6"
+stars: 4.4018693
+ratings: 5162
+reviews: 318
 size: 59M
 website: https://bit2me.com
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: bit2me
-providerLinkedIn: bit2me
-providerFacebook: bit2me
-providerReddit: 
-
+twitter: bit2me
+social:
+  - https://www.linkedin.com/company/bit2me
+  - https://www.facebook.com/bit2me
 redirect_from:
   - /com.phonegap.bit2me/
   - /posts/com.phonegap.bit2me/

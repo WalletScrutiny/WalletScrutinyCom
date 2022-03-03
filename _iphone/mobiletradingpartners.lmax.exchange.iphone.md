@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: LMAX
-providerLinkedIn: lmax-group
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: LMAX
+social:
+  - https://www.linkedin.com/company/lmax-group
 ---
 
 {% include copyFromAndroid.html %}

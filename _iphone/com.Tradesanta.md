@@ -10,8 +10,8 @@ idd: 1457051269
 released: 2019-05-18
 updated: 2021-11-29
 version: "2.5.82"
-stars: 3.75
-reviews: 36
+stars: 3.67647
+reviews: 34
 size: 68458496
 website: https://tradesanta.com/en
 repository: 
@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

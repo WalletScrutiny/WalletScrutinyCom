@@ -1,35 +1,34 @@
 ---
 title: "BitFreezer"
-appId: bitFreezer
+appId: bitfreezer
 authors:
 - danny
 released: 2018-02-18
-discontinued: # date
+discontinued: 
 updated: 
 version: 
-dimensions: 7.76 x 5.35 x 0.35 in
-weight: 2.29 oz
+binaries: 
+dimensions: [197, 136, 9]
+weight: 65
+provider: "BitFreezer"
+providerWebsite: 
 website: https://bitfreezer.app/
 shop: 
-company: BitFreezer
-companywebsite: 
 country: US
 price: 10 USD to 20 USD / month (subscription)
-repository:
-issue:
+repository: 
+issue: 
 icon: bitfreezer.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: wip  
-date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: thebitfreezer
-providerLinkedIn: bitfreezer
-providerFacebook: TheBitFreezer
-providerReddit: 
+verdict: wip
+date: 2022-02-18
+signer: 
+reviewArchive: 
+twitter: thebitfreezer
+social: 
+  - https://www.linkedin.com/company/bitfreezer
+  - https://www.facebook.com/TheBitFreezer
 ---
 
 Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app on Google Play is also [no longer available](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet). We were also not able to locate links to its public source code.

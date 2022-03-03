@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-10
 updated: 2021-12-06
 version: "2.0.8"
-stars: 2.5
-ratings: 4258
-reviews: 175
+stars: 2.61
+ratings: 4377
+reviews: 179
 size: 5.8M
 website: https://coinlist.co/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: coinlist
-providerLinkedIn: 
-providerFacebook: CoinListOfficial
-providerReddit: 
-
+twitter: coinlist
+social:
+  - https://www.facebook.com/CoinListOfficial
 redirect_from:
-
 ---
 
 ## App Description

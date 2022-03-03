@@ -10,8 +10,8 @@ appCountry:
 released: 2020-07-18
 updated: 2021-10-07
 version: "1.1.15"
-stars: 4.1
-ratings: 146
+stars: 4.0555553
+ratings: 148
 reviews: 14
 size: 6.5M
 website: https://www.jackocoins.com/
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: jackocoins
-providerLinkedIn: 
-providerFacebook: jackocoins
-providerReddit: 
-
+twitter: jackocoins
+social:
+  - https://www.facebook.com/jackocoins
 redirect_from:
-
 ---
 
 ## App Description

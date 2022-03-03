@@ -10,8 +10,8 @@ appCountry: us
 released: 2020-05-15
 updated: 2022-02-08
 version: "2.2.7"
-stars: 4.6
-ratings: 154
+stars: 4.6222224
+ratings: 161
 reviews: 26
 size: 101M
 website: http://www.volt.id
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: Voltfinance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Voltfinance
+social:
 redirect_from:
-
 ---
 
 ## App Description

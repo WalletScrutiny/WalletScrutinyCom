@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: Starclicks
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Starclicks
+social:
 redirect_from:
-
 ---
 
 **Update 2021-11-03**: This app is no more.

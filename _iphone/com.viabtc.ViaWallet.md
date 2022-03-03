@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: viawallet
-providerLinkedIn: 
-providerFacebook: ViaWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: viawallet
+social:
+  - https://www.facebook.com/ViaWallet
 ---
 
 {% include copyFromAndroid.html %}

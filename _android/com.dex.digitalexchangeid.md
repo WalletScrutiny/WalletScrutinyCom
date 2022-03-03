@@ -8,7 +8,7 @@ users: 50000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2022-02-08
+updated: 2022-02-22
 version: "Varies with device"
 stars: 
 ratings: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: Digiexchangeid
-providerLinkedIn: 
-providerFacebook: digitalexchangeid
-providerReddit: 
-
+twitter: Digiexchangeid
+social:
+  - https://www.facebook.com/digitalexchangeid
 redirect_from:
-
 ---
 
 From its Google Play app summary:

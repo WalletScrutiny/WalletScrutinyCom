@@ -10,8 +10,8 @@ appCountry:
 released: 2020-04-21
 updated: 2021-06-15
 version: "2.1"
-stars: 4.3
-ratings: 260
+stars: 4.3333335
+ratings: 266
 reviews: 9
 size: 4.9M
 website: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app does not appear to be a crypto wallet, instead utilizing external services such as Skrill or CoinBase as its wallets.

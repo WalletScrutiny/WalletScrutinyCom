@@ -25,14 +25,10 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: velasblockchain
-providerLinkedIn: velas-ag
-providerFacebook: velasblockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: velasblockchain
+social:
+  - https://www.linkedin.com/company/velas-ag
+  - https://www.facebook.com/velasblockchain
 ---
 
 {% include copyFromAndroid.html %}

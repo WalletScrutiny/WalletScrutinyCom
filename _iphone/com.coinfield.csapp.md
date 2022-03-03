@@ -10,8 +10,8 @@ idd: 1460170928
 released: 2019-05-21
 updated: 2021-07-27
 version: "2.6.0"
-stars: 4.4334
-reviews: 503
+stars: 4.42178
+reviews: 505
 size: 68434944
 website: https://www.coinfield.com
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: CoinFieldEx
-providerLinkedIn: coinfield
-providerFacebook: coinfieldexchange
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinFieldEx
+social:
+  - https://www.linkedin.com/company/coinfield
+  - https://www.facebook.com/coinfieldexchange
 ---
 
 {% include copyFromAndroid.html %}

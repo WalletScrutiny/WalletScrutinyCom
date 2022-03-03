@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-05
 updated: 2021-03-05
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 2.0M
@@ -19,19 +19,14 @@ repository:
 issue: 
 icon: com.aqn.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-10
+date: 2022-03-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** This app is similarly named with Blockstream's Aqua wallet. Their logos are different however.

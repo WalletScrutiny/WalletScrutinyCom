@@ -8,12 +8,12 @@ users: 100000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2022-01-31
-version: "2.1.65"
-stars: 4.1
-ratings: 22624
+updated: 2022-02-26
+version: "2.1.68"
+stars: 4.101124
+ratings: 22977
 reviews: 34
-size: 34M
+size: 35M
 website: https://www.rekeningku.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: Rekeningkucom
-providerLinkedIn: rekeningku-com
-providerFacebook: Rekeningkucom
-providerReddit: 
-
+twitter: Rekeningkucom
+social:
+  - https://www.linkedin.com/company/rekeningku-com
+  - https://www.facebook.com/Rekeningkucom
 redirect_from:
-
 ---
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.

@@ -24,14 +24,9 @@ verdict: custodial
 date: 2022-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-02**: This app is no more available.

@@ -10,8 +10,8 @@ appCountry: gb
 released: 2020-05-05
 updated: 2022-02-03
 version: "1.0.37"
-stars: 4.1
-ratings: 168
+stars: 4.0666666
+ratings: 172
 reviews: 4
 size: 11M
 website: https://skilling.com/
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: SkillingTrading
-providerLinkedIn: skilling
-providerFacebook: SkillingTrading
-providerReddit: 
-
+twitter: SkillingTrading
+social:
+  - https://www.linkedin.com/company/skilling
+  - https://www.facebook.com/SkillingTrading
 redirect_from:
-
 ---
 
 ## App Description

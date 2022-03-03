@@ -10,9 +10,9 @@ appCountry:
 released: 2016-03-02
 updated: 2021-07-19
 version: "4.1.5.0"
-stars: 3.3
-ratings: 2494
-reviews: 275
+stars: 3.39
+ratings: 2500
+reviews: 274
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -39,11 +39,8 @@ reviewArchive:
   appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
-providerTwitter: ElectrumWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ElectrumWallet
+social:
 redirect_from:
   - /electrum/
   - /org.electrum.electrum/

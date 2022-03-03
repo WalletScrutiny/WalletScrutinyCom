@@ -10,9 +10,9 @@ appCountry: dk
 released: 2017-05-17
 updated: 2022-01-31
 version: "1.0.32"
-stars: 3.8
-ratings: 2120
-reviews: 1460
+stars: 3.7723215
+ratings: 2217
+reviews: 1535
 size: 86M
 website: https://www.flitpay.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: flitpayofficial
-providerLinkedIn: 
-providerFacebook: flitpay
-providerReddit: 
-
+twitter: flitpayofficial
+social:
+  - https://www.facebook.com/flitpay
 redirect_from:
-
 ---
 
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.

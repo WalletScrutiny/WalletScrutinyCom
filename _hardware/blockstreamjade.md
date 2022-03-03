@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - leo
 released: 2021-01-01
-discontinued: # date
+discontinued: 
 updated: 2021-10-19
-version: 0.1.30
+version: "0.1.30"
+binaries: 
 dimensions: [24, 60, 17]
 weight: 
+provider: "Blockstream Corporation Inc."
+providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
 shop: https://store.blockstream.com/product/blockstream-jade-token/
-company: Blockstream Corporation Inc.
-companywebsite: https://blockstream.com/
 country: CA
 price: 39.99USD
 repository: https://github.com/Blockstream/jade
 issue: https://github.com/Blockstream/Jade/issues/26
 icon: blockstreamjade.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: nonverifiable 
+verdict: nonverifiable
 date: 2021-11-02
-signer:
-reviewArchive:
-
-
-providerTwitter: Blockstream
-providerLinkedIn: blockstream
-providerFacebook: Blockstream
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Blockstream
+social: 
+  - https://www.linkedin.com/company/blockstream
+  - https://www.facebook.com/Blockstream
 ---
-
 
 **Update 2021-11-02**: We are in touch with the provider and while the firmware
 was updated two weeks ago already, their

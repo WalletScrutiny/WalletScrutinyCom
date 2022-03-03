@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-14
 updated: 2022-02-15
 version: "4.9.11"
-stars: 4.1
-ratings: 697
-reviews: 42
+stars: 4.122449
+ratings: 700
+reviews: 43
 size: 86M
 website: https://techbank.finance/
 repository: 
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.beeone.techbank/
 ---

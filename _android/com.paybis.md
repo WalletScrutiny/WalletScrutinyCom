@@ -10,8 +10,8 @@ appCountry:
 released: 2021-09-06
 updated: 2021-10-07
 version: "1.0.3"
-stars: 2.9
-ratings: 157
+stars: 2.9285715
+ratings: 173
 reviews: 10
 size: 6.1M
 website: https://paybis.com/contacts/
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: paybis
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: paybis
+social:
 redirect_from:
-
 ---
 
 ## App Description

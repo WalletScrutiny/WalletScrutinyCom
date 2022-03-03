@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.koinal.android
 appCountry: gb
 released: 2020-06-04
-updated: 2022-02-09
-version: "1.2.19"
-stars: 4.8
-ratings: 1425
-reviews: 36
+updated: 2022-03-02
+version: "1.2.21"
+stars: 4.7933884
+ratings: 1938
+reviews: 38
 size: 51M
 website: https://www.koinal.io
 repository: 
@@ -25,12 +25,10 @@ verdict: nobtc
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: koinal_io
-providerLinkedIn: koinal-io
-providerFacebook: Koinal.io
-providerReddit: 
-
+twitter: koinal_io
+social:
+  - https://www.linkedin.com/company/koinal-io
+  - https://www.facebook.com/Koinal.io
 redirect_from:
   - /com.koinal.android/
 ---

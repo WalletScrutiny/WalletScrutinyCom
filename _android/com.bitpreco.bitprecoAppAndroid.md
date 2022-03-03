@@ -10,9 +10,9 @@ appCountry: br
 released: 2021-02-21
 updated: 2022-01-28
 version: "1.8.22"
-stars: 4.4
-ratings: 790
-reviews: 489
+stars: 4.53
+ratings: 808
+reviews: 500
 size: 60M
 website: https://bitpreco.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: BitPreco
-providerLinkedIn: bitpreco
-providerFacebook: BitPreco
-providerReddit: 
-
+twitter: BitPreco
+social:
+  - https://www.linkedin.com/company/bitpreco
+  - https://www.facebook.com/BitPreco
 redirect_from:
-
 ---
 
 ## App Description

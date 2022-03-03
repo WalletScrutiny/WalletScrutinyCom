@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: zulutrade
-providerLinkedIn: zulutrade
-providerFacebook: zulutrade
-providerReddit: 
-
-redirect_from:
-
+twitter: zulutrade
+social:
+  - https://www.linkedin.com/company/zulutrade
+  - https://www.facebook.com/zulutrade
 ---
 
 **Update 2021-12-04**: This app is gone from the Store.

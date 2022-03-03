@@ -10,8 +10,8 @@ idd: 1390560448
 released: 2018-08-07
 updated: 2022-01-26
 version: "4.7"
-stars: 4.63863
-reviews: 5648
+stars: 4.64004
+reviews: 5723
 size: 141685760
 website: https://spot-bitcoin.com
 repository: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: spot_bitcoin
-providerLinkedIn: spot-bitcoin
-providerFacebook: spot.bitcoin
-providerReddit: 
-
-redirect_from:
-
+twitter: spot_bitcoin
+social:
+  - https://www.linkedin.com/company/spot-bitcoin
+  - https://www.facebook.com/spot.bitcoin
 ---
 
 On their website we read:

@@ -10,8 +10,8 @@ appCountry:
 released: 2018-01-04
 updated: 2022-01-27
 version: "2.0.17"
-stars: 3.7
-ratings: 642
+stars: 3.6666667
+ratings: 648
 reviews: 11
 size: 60M
 website: https://buda.com
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2022-01-07
 signer: 
 reviewArchive:
-
-providerTwitter: BudaPuntoCom
-providerLinkedIn: budapuntocom
-providerFacebook: BudaPuntoCom
-providerReddit: 
-
+twitter: BudaPuntoCom
+social:
+  - https://www.linkedin.com/company/budapuntocom
+  - https://www.facebook.com/BudaPuntoCom
 redirect_from:
   - /com.buda.crypto/
   - /posts/com.buda.crypto/

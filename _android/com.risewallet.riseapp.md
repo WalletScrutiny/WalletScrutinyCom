@@ -10,8 +10,8 @@ appCountry: ca
 released: 2019-03-08
 updated: 2022-02-01
 version: "1.6.0"
-stars: 4.8
-ratings: 41
+stars: 4.7777777
+ratings: 42
 reviews: 13
 size: 7.5M
 website: http://www.risewallet.com
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: RiseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: RiseWallet
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-07
 updated: 2022-02-09
 version: "1.0.45"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 14M
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: Cent_Finance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Cent_Finance
+social:
 redirect_from:
   - /com.atlas.mobile.wallet/
 ---

@@ -10,8 +10,8 @@ appCountry:
 released: 2019-05-11
 updated: 2020-01-22
 version: "2.0.16"
-stars: 2.2
-ratings: 4005
+stars: 2.1568627
+ratings: 4008
 reviews: 175
 size: 31M
 website: https://cloudtokenwallet.com/
@@ -24,13 +24,8 @@ verdict: wip
 date: 2022-01-14
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

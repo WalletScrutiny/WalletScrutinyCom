@@ -10,8 +10,8 @@ idd: 1274003898
 released: 2017-09-01
 updated: 2022-01-15
 version: "1.16.9"
-stars: 3.72949
-reviews: 1109
+stars: 3.68953
+reviews: 1079
 size: 35689472
 website: https://freewallet.org
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
-redirect_from:
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 ---
 
 {% include copyFromAndroid.html %}

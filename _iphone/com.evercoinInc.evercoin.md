@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: everc0in
-providerLinkedIn: 
-providerFacebook: evercoin
-providerReddit: 
-
-redirect_from:
-
+twitter: everc0in
+social:
+  - https://www.facebook.com/evercoin
 ---
 
 This app's description says:

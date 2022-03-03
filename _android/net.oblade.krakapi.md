@@ -10,8 +10,8 @@ appCountry:
 released: 2019-08-09
 updated: 2022-02-12
 version: "2.5.3"
-stars: 4.2
-ratings: 530
+stars: 4.172414
+ratings: 533
 reviews: 14
 size: 7.5M
 website: http://www.oblade.net
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 The app is similar to, and has the same functionality as:

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.kraken.trade
 appCountry: 
 released: 2019-10-24
-updated: 2022-02-11
+updated: 2022-02-28
 version: "2.8.2-15060"
-stars: 3.7
-ratings: 25151
-reviews: 2823
+stars: 3.6716418
+ratings: 25287
+reviews: 2828
 size: 73M
 website: https://www.kraken.com
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: krakenfx
-providerLinkedIn: krakenfx
-providerFacebook: KrakenFX
-providerReddit: 
-
+twitter: krakenfx
+social:
+  - https://www.linkedin.com/company/krakenfx
+  - https://www.facebook.com/KrakenFX
 redirect_from:
   - /com.kraken.trade/
   - /posts/com.kraken.trade/

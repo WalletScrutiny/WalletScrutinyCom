@@ -10,7 +10,7 @@ appCountry:
 released: 2018-03-22
 updated: 2020-10-04
 version: "v4.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 5.4M
@@ -24,14 +24,11 @@ verdict: obfuscated
 date: 2021-09-29
 signer: 
 reviewArchive:
-
-providerTwitter: MFC_tech
-providerLinkedIn: groups/13539593
-providerFacebook: groups/mfcoin
-providerReddit: 
-
+twitter: MFC_tech
+social:
+  - https://www.linkedin.com/company/groups/13539593
+  - https://www.facebook.com/groups/mfcoin
 redirect_from:
-
 ---
 
 > * Native support for bitcoin and most major altcoins

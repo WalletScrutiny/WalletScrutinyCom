@@ -11,9 +11,9 @@ appCountry:
 released: 2019-12-30
 updated: 2022-01-07
 version: "1.2.0.5"
-stars: 4.6
-ratings: 407
-reviews: 22
+stars: 4.52
+ratings: 409
+reviews: 23
 size: 25M
 website: https://adslab-2b1c2.web.app
 repository: 
@@ -25,14 +25,9 @@ verdict: nowallet
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## Updated Review 2021-10-29

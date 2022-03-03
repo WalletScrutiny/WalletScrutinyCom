@@ -8,10 +8,10 @@ users: 10000
 appId: com.zsdk.exchange
 appCountry: 
 released: 2019-01-18
-updated: 2021-09-29
-version: "3.1.1"
-stars: 1.9
-ratings: 182
+updated: 2022-02-17
+version: "3.1.3"
+stars: 1.9245284
+ratings: 187
 reviews: 45
 size: 51M
 website: https://www.zbg.com
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: ZBG_Exchange
-providerLinkedIn: 
-providerFacebook: ZBGofficial
-providerReddit: 
-
+twitter: ZBG_Exchange
+social:
+  - https://www.facebook.com/ZBGofficial
 redirect_from:
-
 ---
 
 ## App Description

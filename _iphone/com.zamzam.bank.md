@@ -10,8 +10,8 @@ idd: 1521900439
 released: 2020-07-04
 updated: 2021-12-29
 version: "1.4.4"
-stars: 4
-reviews: 25
+stars: 4.03846
+reviews: 26
 size: 79312896
 website: https://zam.me
 repository: 
@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is the testnet version of {% include walletLink.html wallet='android/com.mycelium.wallet' verdict='true' %}

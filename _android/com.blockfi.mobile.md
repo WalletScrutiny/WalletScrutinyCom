@@ -8,11 +8,11 @@ users: 500000
 appId: com.blockfi.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2022-02-11
+updated: 2022-02-23
 version: "5.1.2"
-stars: 4.2
-ratings: 4756
-reviews: 1318
+stars: 4.149626
+ratings: 4802
+reviews: 1329
 size: 11M
 website: https://blockfi.com/
 repository: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: BlockFi
-providerLinkedIn: blockfi
-providerFacebook: BlockFi
-providerReddit: blockfi
-
+twitter: BlockFi
+social:
+  - https://www.linkedin.com/company/blockfi
+  - https://www.facebook.com/BlockFi
+  - https://www.reddit.com/r/blockfi
 redirect_from:
-
 ---
 
 > BlockFi is the easiest place to buy, sell and earn cryptocurrency

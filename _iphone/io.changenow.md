@@ -8,11 +8,11 @@ appId: io.changenow
 appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2022-02-09
-version: "2.3.1"
-stars: 4.51555
-reviews: 611
-size: 44680192
+updated: 2022-02-19
+version: "2.3.3"
+stars: 4.52372
+reviews: 632
+size: 41862144
 website: https://changenow.io
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: ChangeNOW_io
-providerLinkedIn: 
-providerFacebook: ChangeNOW.io
-providerReddit: ChangeNOW_io
-
-redirect_from:
-
+twitter: ChangeNOW_io
+social:
+  - https://www.facebook.com/ChangeNOW.io
+  - https://www.reddit.com/r/ChangeNOW_io
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

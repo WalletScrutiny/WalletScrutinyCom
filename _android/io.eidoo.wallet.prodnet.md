@@ -10,8 +10,8 @@ appCountry:
 released: 2017-09-25
 updated: 2021-11-08
 version: "3.6.3"
-stars: 3.9
-ratings: 1648
+stars: 3.93
+ratings: 1649
 reviews: 96
 size: 13M
 website: https://eidoo.io
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: eidoo_io
-providerLinkedIn: eidoo
-providerFacebook: eidoocrypto
-providerReddit: eidooapp
-
+twitter: eidoo_io
+social:
+  - https://www.linkedin.com/company/eidoo
+  - https://www.facebook.com/eidoocrypto
+  - https://www.reddit.com/r/eidooapp
 redirect_from:
   - /io.eidoo.wallet.prodnet/
   - /posts/io.eidoo.wallet.prodnet/

@@ -10,8 +10,8 @@ idd: 1477466894
 released: 2019-09-19
 updated: 2021-12-03
 version: "3.0.9"
-stars: 4.58647
-reviews: 133
+stars: 4.58015
+reviews: 131
 size: 238702592
 website: https://www.aofex.com/#/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: Aofex2
-providerLinkedIn: 
-providerFacebook: AofexDigitalCurrencyExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: Aofex2
+social:
+  - https://www.facebook.com/AofexDigitalCurrencyExchange
 ---
 
 {% include copyFromAndroid.html %}

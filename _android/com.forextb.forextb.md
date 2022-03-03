@@ -10,7 +10,7 @@ appCountry: dk
 released: 2020-09-24
 updated: 2021-11-24
 version: "2.1.6"
-stars: 2.9
+stars: 2.9166667
 ratings: 339
 reviews: 283
 size: 79M
@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ### Google Play

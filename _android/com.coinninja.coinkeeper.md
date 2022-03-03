@@ -24,12 +24,10 @@ verdict: nonverifiable
 date: 2021-07-21
 signer: 
 reviewArchive:
-
-providerTwitter: dropbitapp
-providerLinkedIn: 
-providerFacebook: DropBit-2094204254174419
-providerReddit: DropBit
-
+twitter: dropbitapp
+social:
+  - https://www.facebook.com/DropBit-2094204254174419
+  - https://www.reddit.com/r/DropBit
 redirect_from:
   - /dropbit/
   - /com.coinninja.coinkeeper/

@@ -8,11 +8,11 @@ users: 100000
 appId: im.argent.contractwalletclient
 appCountry: us
 released: 2018-10-30
-updated: 2022-02-07
-version: "4.2.6684"
-stars: 4.7
-ratings: 3197
-reviews: 298
+updated: 2022-02-16
+version: "4.2.6790"
+stars: 4.6930695
+ratings: 3252
+reviews: 301
 size: 49M
 website: https://www.argent.xyz
 repository: https://github.com/argentlabs/
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: argentHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: argentHQ
+social:
 redirect_from:
-
 ---
 
 Clicking on Receive gives you 3 options:

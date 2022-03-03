@@ -10,8 +10,8 @@ idd: 1483284435
 released: 2019-11-26
 updated: 2022-02-04
 version: "5.3.7"
-stars: 4.3501
-reviews: 954
+stars: 4.32951
+reviews: 962
 size: 44493824
 website: https://www.modeapp.com
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: modeapp_
-providerLinkedIn: modeapp-com
-providerFacebook: themodeapp
-providerReddit: 
-
-redirect_from:
-
+twitter: modeapp_
+social:
+  - https://www.linkedin.com/company/modeapp-com
+  - https://www.facebook.com/themodeapp
 ---
 
 {% include copyFromAndroid.html %}

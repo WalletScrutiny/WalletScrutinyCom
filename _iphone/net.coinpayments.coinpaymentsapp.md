@@ -10,8 +10,8 @@ idd: 1162855939
 released: 2019-02-07
 updated: 2021-12-06
 version: "2.3.3"
-stars: 3.93478
-reviews: 46
+stars: 3.89583
+reviews: 48
 size: 146823168
 website: https://www.coinpayments.net/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: CoinPaymentsNET
-providerLinkedIn: coinpayments-inc
-providerFacebook: CoinPayments
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinPaymentsNET
+social:
+  - https://www.linkedin.com/company/coinpayments-inc
+  - https://www.facebook.com/CoinPayments
 ---
 
 The description is not very clear but sounds a bit like this app is custodial.

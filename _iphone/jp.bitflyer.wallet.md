@@ -8,10 +8,10 @@ appId: jp.bitflyer.wallet
 appCountry: jp
 idd: 1164758997
 released: 2016-11-18
-updated: 2022-02-02
-version: "6.14.0"
-stars: 4.32277
-reviews: 102887
+updated: 2022-02-16
+version: "6.15.0"
+stars: 4.32412
+reviews: 103648
 size: 37999616
 website: https://bitflyer.com/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: bitFlyer
-providerLinkedIn: 
-providerFacebook: bitflyer
-providerReddit: 
-
-redirect_from:
-
+twitter: bitFlyer
+social:
+  - https://www.facebook.com/bitflyer
 ---
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.

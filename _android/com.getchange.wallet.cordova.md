@@ -9,12 +9,12 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2022-02-11
-version: "20.2.1"
-stars: 4.0
-ratings: 2793
-reviews: 22
-size: 33M
+updated: 2022-02-25
+version: "20.5.1"
+stars: 3.9444444
+ratings: 2833
+reviews: 23
+size: 34M
 website: https://changeinvest.com
 repository: 
 issue: 
@@ -25,12 +25,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: changefinance
-providerLinkedIn: changeinvest
-providerFacebook: changeinvest
-providerReddit: 
-
+twitter: changefinance
+social:
+  - https://www.linkedin.com/company/changeinvest
+  - https://www.facebook.com/changeinvest
 redirect_from:
   - /com.getchange.wallet.cordova/
   - /posts/com.getchange.wallet.cordova/

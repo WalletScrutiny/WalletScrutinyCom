@@ -10,7 +10,7 @@ appCountry:
 released: 2018-05-20
 updated: 2020-03-11
 version: "2.0.2"
-stars: 3.6
+stars: 3.6491227
 ratings: 1190
 reviews: 30
 size: 30M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.coinchat.coinchat.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-05
+date: 2022-03-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

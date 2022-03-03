@@ -10,8 +10,8 @@ appCountry:
 released: 2020-01-22
 updated: 2021-10-22
 version: "1.1.76"
-stars: 3.5
-ratings: 289
+stars: 3.5384614
+ratings: 291
 reviews: 8
 size: 14M
 website: https://payplux.com
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: PayPlux
-providerLinkedIn: 
-providerFacebook: PayPlux
-providerReddit: 
-
+twitter: PayPlux
+social:
+  - https://www.facebook.com/PayPlux
 redirect_from:
-
 ---
 
 ## App Description

@@ -19,18 +19,15 @@ repository:
 issue: 
 icon: com.wCryptoExchange_13708254.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-12**: This app is not on the Store anymore.
 

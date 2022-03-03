@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: huskyhdw20
 title: "Husky HDW20 Hardware Walle‪t"
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-06
 updated: 2021-04-06
 version: "1.0.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 15M
@@ -21,16 +21,11 @@ icon: com.husky.hdw20.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-08-02
+date: 2022-02-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

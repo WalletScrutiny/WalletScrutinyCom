@@ -8,12 +8,12 @@ users: 10000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2022-02-04
-version: "0.2.3"
-stars: 2.6
-ratings: 1039
-reviews: 5
-size: 34M
+updated: 2022-02-17
+version: "0.2.6"
+stars: 2.3333333
+ratings: 1053
+reviews: 6
+size: 35M
 website: https://wirexapp.com/wirex-wallet
 repository: https://github.com/wirexapp
 issue: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: wirexapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: wirexapp
+social:
 redirect_from:
-
 ---
 
 After app install, users are given two choices:

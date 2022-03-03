@@ -11,8 +11,8 @@ idd: 1367425342
 released: 2018-05-16
 updated: 2021-11-16
 version: "3.0.2"
-stars: 4.60526
-reviews: 38
+stars: 4.51281
+reviews: 39
 size: 162547712
 website: https://fintap.app
 repository: 
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-24
 signer: 
 reviewArchive:
-
-providerTwitter: ex_scudo
-providerLinkedIn: 
-providerFacebook: exscudo
-providerReddit: EXSCUDO
-
-redirect_from:
-
+twitter: ex_scudo
+social:
+  - https://www.facebook.com/exscudo
+  - https://www.reddit.com/r/EXSCUDO
 ---
 
 The App Store description states...

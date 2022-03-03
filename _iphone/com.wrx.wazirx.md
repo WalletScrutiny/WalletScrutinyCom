@@ -1,6 +1,6 @@
 ---
 wsId: wazirx
-title: "WazirX -  Bitcoin Exchange"
+title: "WazirX: Buy Bitcoin & Crypto"
 altTitle: 
 authors:
 
@@ -8,12 +8,12 @@ appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2022-02-04
-version: "1.14"
-stars: 4.24815
-reviews: 42994
-size: 35226624
-website: https://support.wazirx.com
+updated: 2022-02-26
+version: "1.15"
+stars: 4.25185
+reviews: 43514
+size: 35561472
+website: https://wazirx.com
 repository: 
 issue: 
 icon: com.wrx.wazirx.jpg
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: WazirxIndia
-providerLinkedIn: wazirx
-providerFacebook: wazirx
-providerReddit: 
-
-redirect_from:
-
+twitter: WazirxIndia
+social:
+  - https://www.linkedin.com/company/wazirx
+  - https://www.facebook.com/wazirx
 ---
 
 As this exchange allows holding your BTC in the app such

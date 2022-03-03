@@ -4,11 +4,14 @@ appId: ledgerNanoX
 authors:
 - leo
 released: 
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: [72, 18.6, 11.75]
 weight: 34
+provider: 
+providerWebsite: 
 website: https://www.ledger.com/
 shop: https://shop.ledger.com/products/ledger-nano-x
 country: FR
@@ -21,15 +24,13 @@ meta: ok
 verdict: nosource
 date: 2021-08-01
 signer: 
-reviewArchive:
-
-
-providerTwitter: Ledger
-providerLinkedIn: ledgerhq
-providerFacebook: Ledger
-providerReddit: ledgerwallet
+reviewArchive: 
+twitter: Ledger
+social: 
+  - https://www.linkedin.com/company/ledgerhq
+  - https://www.facebook.com/Ledger
+  - https://www.reddit.com/r/ledgerwallet
 ---
-
 
 Ledger has this to say about their technology:
 

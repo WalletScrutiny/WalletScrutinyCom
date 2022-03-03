@@ -10,7 +10,7 @@ appCountry: cy
 released: 2020-08-18
 updated: 2021-12-01
 version: "1.5.78-brand101investing"
-stars: 3.7
+stars: 3.67
 ratings: 263
 reviews: 209
 size: 20M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 101Investing_eu
-providerLinkedIn: 73520735
-providerFacebook: 101Investing
-providerReddit: 
-
+twitter: 101Investing_eu
+social:
+  - https://www.linkedin.com/company/73520735
+  - https://www.facebook.com/101Investing
 redirect_from:
-
 ---
 
 ## App Description

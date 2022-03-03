@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-12-10
 updated: 2022-01-31
 version: "4.4.191"
-stars: 3.0
-ratings: 414
-reviews: 69
+stars: 3.09
+ratings: 419
+reviews: 71
 size: 35M
 website: https://coinmetro.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: CoinMetro
-providerLinkedIn: coinmetro
-providerFacebook: CoinMetro
-providerReddit: 
-
+twitter: CoinMetro
+social:
+  - https://www.linkedin.com/company/coinmetro
+  - https://www.facebook.com/CoinMetro
 redirect_from:
-
 ---
 
 ## App Description

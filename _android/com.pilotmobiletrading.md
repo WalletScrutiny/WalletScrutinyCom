@@ -10,9 +10,9 @@ appCountry: ca
 released: 2019-06-09
 updated: 2022-02-15
 version: "6.02.486"
-stars: 4.7
-ratings: 67
-reviews: 8
+stars: 4.714286
+ratings: 68
+reviews: 9
 size: 28M
 website: https://pilottrading.co/
 repository: 
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: tradewithpilot
-providerLinkedIn: 
-providerFacebook: tradewithpilot
-providerReddit: 
-
+twitter: tradewithpilot
+social:
+  - https://www.facebook.com/tradewithpilot
 redirect_from:
-
 ---
 
 ## App Description

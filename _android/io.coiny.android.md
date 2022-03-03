@@ -24,14 +24,10 @@ verdict: wip
 date: 2022-01-13
 signer: 
 reviewArchive:
-
-providerTwitter: Coiny_io
-providerLinkedIn: 
-providerFacebook: coiny.io
-providerReddit: 
-
+twitter: Coiny_io
+social:
+  - https://www.facebook.com/coiny.io
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,8 +10,8 @@ idd: 1257495078
 released: 2017-07-15
 updated: 2021-04-11
 version: "1.9.0"
-stars: 4.51999
-reviews: 400
+stars: 4.52346
+reviews: 405
 size: 41109504
 website: https://bituro.com/app/views/contact.php
 repository: 
@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: bituroapp
-providerLinkedIn: 
-providerFacebook: BituroApp
-providerReddit: 
-
-redirect_from:
-
+twitter: bituroapp
+social:
+  - https://www.facebook.com/BituroApp
 ---
 
 {% include copyFromAndroid.html %}

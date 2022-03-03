@@ -24,12 +24,8 @@ verdict: fewusers
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: GetVegaApp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: GetVegaApp
+social:
 redirect_from:
   - /app.getvega/
   - /posts/app.getvega/

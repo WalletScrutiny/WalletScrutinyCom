@@ -8,12 +8,12 @@ users: 10000
 appId: com.profittrading.forkucoin
 appCountry: 
 released: 2020-12-27
-updated: 2022-02-13
-version: "2.0.4"
-stars: 3.9
-ratings: 93
+updated: 2022-02-20
+version: "2.2.1"
+stars: 3.9583333
+ratings: 102
 reviews: 13
-size: 23M
+size: 25M
 website: https://profittradingapp.com/
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
-providerTwitter: ProfitTrading_
-providerLinkedIn: 
-providerFacebook: profittradingapp
-providerReddit: 
-
+twitter: ProfitTrading_
+social:
+  - https://www.facebook.com/profittradingapp
 redirect_from:
-
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

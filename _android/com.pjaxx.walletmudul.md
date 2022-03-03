@@ -25,14 +25,9 @@ verdict: fake
 date: 2021-08-04
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-08-04**: This fake app was gone 2 days after our fake verdict on

@@ -4,32 +4,29 @@ appId: walletio
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [20, 60, 6]
 weight: 
+provider: "Wallet.io"
+providerWebsite: https://wallet.io/
 website: https://wallet.io/hardware
 shop: 
-company: Wallet.io
-companywebsite: https://wallet.io/
 country: 
 price: 
 repository: https://github.com/wallet-io
-issue:
+issue: 
 icon: walletio.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2021-07-07
-signer:
-reviewArchive:
-
-
-providerTwitter: io_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: io_wallet
+social: 
 ---
 
 The provider's site has clear information on this hardware wallet, however we cannot find anyway of buying this product. 

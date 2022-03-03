@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-30
 updated: 2022-02-12
 version: "0.82.0"
-stars: 4.2
-ratings: 62099
-reviews: 4937
+stars: 4.1921134
+ratings: 62655
+reviews: 4987
 size: 16M
 website: https://atomicwallet.io
 repository: 
@@ -29,13 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: d83253e829502835962be71b96dd37287dc87f5c
   verdict: nosource
-providerTwitter: atomicwallet
-providerLinkedIn: 
-providerFacebook: atomicwallet
-providerReddit: 
-
+twitter: atomicwallet
+social:
+  - https://www.facebook.com/atomicwallet
 redirect_from:
-
 ---
 
 **Update 2021-03-02:** We were approached by a visitor mentioning that Atomic

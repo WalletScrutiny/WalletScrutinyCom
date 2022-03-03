@@ -10,8 +10,8 @@ idd: 1437346368
 released: 2019-02-22
 updated: 2022-01-04
 version: "4.9.17"
-stars: 4.15728
-reviews: 426
+stars: 4.1295
+reviews: 417
 size: 219442176
 website: https://www.lbank.info/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: LBank_Exchange
-providerLinkedIn: lbank
-providerFacebook: LBank.info
-providerReddit: 
-
-redirect_from:
-
+twitter: LBank_Exchange
+social:
+  - https://www.linkedin.com/company/lbank
+  - https://www.facebook.com/LBank.info
 ---
 
 {% include copyFromAndroid.html %}

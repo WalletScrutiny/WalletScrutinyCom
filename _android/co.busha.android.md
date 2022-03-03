@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-21
 updated: 2022-01-26
 version: "3.0.16"
-stars: 4.1
-ratings: 3483
-reviews: 104
+stars: 4.13
+ratings: 3575
+reviews: 106
 size: 32M
 website: https://busha.co
 repository: 
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: getbusha
-providerLinkedIn: 
-providerFacebook: getbusha
-providerReddit: 
-
+twitter: getbusha
+social:
+  - https://www.facebook.com/getbusha
 redirect_from:
   - /co.busha.android/
   - /posts/co.busha.android/

@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-15
 signer: 
 reviewArchive:
-
-providerTwitter: XZENwallet
-providerLinkedIn: 
-providerFacebook: xzenwallet
-providerReddit: 
-
+twitter: XZENwallet
+social:
+  - https://www.facebook.com/xzenwallet
 redirect_from:
   - /com.xzen.wallet/
   - /posts/com.xzen.wallet/

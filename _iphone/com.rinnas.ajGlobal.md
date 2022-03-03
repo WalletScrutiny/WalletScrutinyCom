@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: ajglobalv
-providerLinkedIn: 
-providerFacebook: AJGLOBALVENTURES
-providerReddit: 
-
-redirect_from:
-
+twitter: ajglobalv
+social:
+  - https://www.facebook.com/AJGLOBALVENTURES
 ---
 
 {% include copyFromAndroid.html %}

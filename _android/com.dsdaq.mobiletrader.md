@@ -10,8 +10,8 @@ appCountry: us
 released: 2019-12-24
 updated: 2022-01-20
 version: "3.0.4"
-stars: 5.0
-ratings: 509
+stars: 5
+ratings: 510
 reviews: 55
 size: 8.3M
 website: https://dsdaq.com
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: dsdaqcom
-providerLinkedIn: 
-providerFacebook: dsdaqcom
-providerReddit: 
-
+twitter: dsdaqcom
+social:
+  - https://www.facebook.com/dsdaqcom
 redirect_from:
-
 ---
 
 ### Google Play

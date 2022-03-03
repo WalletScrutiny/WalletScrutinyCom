@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 5
+provider: "Cypherock"
+providerWebsite: https://cypherock.com/
 website: https://www.cypherock.com/
 shop: https://shop.cypherock.com/
-company: Cypherock
-companywebsite: https://cypherock.com/
 country: IN
 price: 99USD
 repository: 
-issue:
+issue: 
 icon: cypherockx1.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: unreleased 
+verdict: unreleased
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: CypherockWallet
-providerLinkedIn: cypherockwallet
-providerFacebook: cypherock
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: CypherockWallet
+social: 
+  - https://www.linkedin.com/company/cypherockwallet
+  - https://www.facebook.com/cypherock
 ---
-
 
 Cypherock was announced in a Bitcointalk ANN thread on February 14, 2020.
 

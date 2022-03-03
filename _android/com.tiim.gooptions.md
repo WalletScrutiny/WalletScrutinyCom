@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa Stock Market Simulator"
+title: "Paper Trading - Bolsa"
 altTitle: 
 authors:
 - danny
@@ -10,8 +10,8 @@ appCountry: us
 released: 2017-08-04
 updated: 2021-09-30
 version: "1.4.2"
-stars: 4.3
-ratings: 217
+stars: 4.32
+ratings: 261
 reviews: 15
 size: 15M
 website: https://bolsa.app
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

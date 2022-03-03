@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-02
 updated: 2021-12-11
 version: "3.1.1"
-stars: 4.8
-ratings: 43978
-reviews: 1154
+stars: 4.7654867
+ratings: 43980
+reviews: 1156
 size: 25M
 website: http://www.coingraam.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Note that as of 2021-08-23 this app does not seem to have an English translation.

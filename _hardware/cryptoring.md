@@ -4,32 +4,29 @@ appId: cryptoring
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://cryptoring.io
 website: 
 shop: 
-company: 
-companywebsite: https://cryptoring.io
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: cryptoring.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-08-01
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 The [provider's website](https://cryptoring.io) is inaccessible.

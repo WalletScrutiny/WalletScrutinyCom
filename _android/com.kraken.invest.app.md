@@ -8,12 +8,12 @@ users: 1000000
 appId: com.kraken.invest.app
 appCountry: 
 released: 2020-12-30
-updated: 2022-02-02
-version: "1.13.0"
-stars: 4.2
-ratings: 15569
-reviews: 1892
-size: 87M
+updated: 2022-02-15
+version: "1.14.0"
+stars: 4.280749
+ratings: 15716
+reviews: 1908
+size: 89M
 website: https://www.kraken.com
 repository: 
 issue: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: krakenfx
-providerLinkedIn: krakenfx
-providerFacebook: KrakenFX
-providerReddit: Kraken
-
+twitter: krakenfx
+social:
+  - https://www.linkedin.com/company/krakenfx
+  - https://www.facebook.com/KrakenFX
+  - https://www.reddit.com/r/Kraken
 redirect_from:
-
 ---
 
 Kraken is one of the leading exchanges in the world with over 2 billion traded over a 24h period. 

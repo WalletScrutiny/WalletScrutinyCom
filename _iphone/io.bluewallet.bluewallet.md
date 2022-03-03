@@ -10,8 +10,8 @@ idd: 1376878040
 released: 2018-05-27
 updated: 2022-01-31
 version: "6.2.17"
-stars: 4.18619
-reviews: 333
+stars: 4.15273
+reviews: 347
 size: 48130048
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-03
 signer: 
 reviewArchive:
-
-providerTwitter: bluewalletio
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: bluewallet
-
-redirect_from:
-
+twitter: bluewalletio
+social:
+  - https://www.reddit.com/r/bluewallet
 ---
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is

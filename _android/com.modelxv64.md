@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-29
 updated: 2021-03-18
 version: "1.6.9"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 14M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: stratumhk
-providerLinkedIn: stratumbr
-providerFacebook: stratum.hk
-providerReddit: 
-
+twitter: stratumhk
+social:
+  - https://www.linkedin.com/company/stratumbr
+  - https://www.facebook.com/stratum.hk
 redirect_from:
-
 ---
 
 This app comes from the same providers as {% include walletLink.html wallet='android/br.com.coinbr.smartwallet' verdict='true' %}

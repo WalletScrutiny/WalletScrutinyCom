@@ -8,11 +8,11 @@ users: 100000
 appId: com.kr.iotrust.dcent.wallet
 appCountry: cn
 released: 2018-10-16
-updated: 2022-02-08
-version: "5.12.7"
-stars: 2.8
-ratings: 708
-reviews: 438
+updated: 2022-02-24
+version: "5.13.2"
+stars: 3.7428572
+ratings: 756
+reviews: 466
 size: 41M
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-05-03
 signer: 
 reviewArchive:
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
-
+twitter: DCENTwallets
+social:
+  - https://www.facebook.com/DcentWalletGlobal
 redirect_from:
-
 ---
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>

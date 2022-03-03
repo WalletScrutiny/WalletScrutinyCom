@@ -11,8 +11,8 @@ idd: 1442189260
 released: 2018-11-29
 updated: 2021-12-24
 version: "2.1.7"
-stars: 4.7758
-reviews: 562
+stars: 4.77215
+reviews: 553
 size: 78017536
 website: https://www.bexplus.com/activity/cash_back
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
-providerTwitter: BexplusExchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: Bexplus
-
-redirect_from:
-
+twitter: BexplusExchange
+social:
+  - https://www.reddit.com/r/Bexplus
 ---
 
 The Bexplus website states under the mobile wallet section "Assets Security"

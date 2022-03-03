@@ -8,11 +8,11 @@ users: 100000
 appId: me.cryptopay.android
 appCountry: de
 released: 2017-11-09
-updated: 2022-02-07
-version: "1.35.1"
+updated: 2022-02-16
+version: "1.36"
 stars: 4.5
-ratings: 1121
-reviews: 30
+ratings: 1142
+reviews: 31
 size: 21M
 website: https://cryptopay.me
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
-providerTwitter: cryptopay
-providerLinkedIn: cryptopay
-providerFacebook: cryptopayme
-providerReddit: 
-
+twitter: cryptopay
+social:
+  - https://www.linkedin.com/company/cryptopay
+  - https://www.facebook.com/cryptopayme
 redirect_from:
-
 ---
 
 In the description the only sentence hinting at custodianship is:

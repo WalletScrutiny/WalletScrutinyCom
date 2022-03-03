@@ -10,8 +10,8 @@ appCountry: th
 released: 2015-10-06
 updated: 2021-10-29
 version: "Varies with device"
-stars: 4.6
-ratings: 2452
+stars: 4.61
+ratings: 2457
 reviews: 189
 size: Varies with device
 website: https://www.forex4you.com/en/
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: forex4you
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/forex4you
 redirect_from:
-
 ---
 
 ## New Review 2021-10-28

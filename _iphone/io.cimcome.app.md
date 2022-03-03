@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: cimcome
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cimcome
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -4,33 +4,30 @@ appId: satochip
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 1]
 weight: 10
+provider: "SatoChip"
+providerWebsite: https://satochip.io
 website: https://satochip.io
 shop: https://satochip.io/shop/
-company: SatoChip
-companywebsite: https://satochip.io
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin
-issue:
+issue: 
 icon: satochip.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: noita
 date: 2021-08-08
-signer:
-reviewArchive:
-
-
-providerTwitter: satochipwallet
-providerLinkedIn: satochip
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: satochipwallet
+social: 
+  - https://www.linkedin.com/company/satochip
 ---
-
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

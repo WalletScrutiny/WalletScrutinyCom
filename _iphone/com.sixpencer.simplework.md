@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-03-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 This app appears not to get access to spend your Bitcoins:

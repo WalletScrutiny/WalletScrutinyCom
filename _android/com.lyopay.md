@@ -10,7 +10,7 @@ appCountry: eg
 released: 2020-10-02
 updated: 2021-12-03
 version: "7.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 61M
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: lyopayofficial
-providerLinkedIn: lyopay
-providerFacebook: lyopayofficial
-providerReddit: LYOPAY
-
+twitter: lyopayofficial
+social:
+  - https://www.linkedin.com/company/lyopay
+  - https://www.facebook.com/lyopayofficial
+  - https://www.reddit.com/r/LYOPAY
 redirect_from:
-
 ---
 
 ### Google Play Description

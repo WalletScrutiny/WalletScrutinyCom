@@ -10,7 +10,7 @@ appCountry:
 released: 2011-07-10
 updated: 2021-12-18
 version: "Varies with device"
-stars: 4.4
+stars: 4.4179106
 ratings: 390
 reviews: 20
 size: Varies with device
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is the testnet version for: 

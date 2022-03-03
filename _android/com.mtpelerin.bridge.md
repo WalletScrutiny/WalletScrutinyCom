@@ -8,12 +8,12 @@ users: 10000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2022-01-22
-version: "1.21"
-stars: 3.7
-ratings: 169
-reviews: 8
-size: 184M
+updated: 2022-02-16
+version: "1.22"
+stars: 3.4545455
+ratings: 178
+reviews: 9
+size: 168M
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2020-12-27
 signer: 
 reviewArchive:
-
-providerTwitter: mtpelerin
-providerLinkedIn: mt-pelerin
-providerFacebook: mtpelerin
-providerReddit: MtPelerin
-
+twitter: mtpelerin
+social:
+  - https://www.linkedin.com/company/mt-pelerin
+  - https://www.facebook.com/mtpelerin
+  - https://www.reddit.com/r/MtPelerin
 redirect_from:
   - /com.mtpelerin.bridge/
 ---

@@ -1,4 +1,0 @@
-# global context
-[build]
-  publish = "_site/"
-  command = "gulp"

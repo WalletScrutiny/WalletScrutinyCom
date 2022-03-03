@@ -18,18 +18,12 @@ repository:
 issue: 
 icon: se.blockfirm.Pine.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-06-25
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 

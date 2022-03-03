@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-14
 updated: 2021-02-25
 version: "1.27"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 71M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.pt.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-02-21
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -24,14 +24,11 @@ verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: MUIcommunity
-providerLinkedIn: metamui
-providerFacebook: SovereignWallet
-providerReddit: 
-
+twitter: MUIcommunity
+social:
+  - https://www.linkedin.com/company/metamui
+  - https://www.facebook.com/SovereignWallet
 redirect_from:
-
 ---
 
 **UPDATE:** Support from Telegram responded to our inquiry, saying that they currently **are no longer supporting services related to the SovereignWallet App.** This app is **defunct.**

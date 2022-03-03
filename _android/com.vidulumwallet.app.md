@@ -10,8 +10,8 @@ appCountry:
 released: 2019-04-04
 updated: 2019-04-05
 version: "1.2"
-stars: 4.8
-ratings: 104
+stars: 4.75
+ratings: 106
 reviews: 8
 size: 174k
 website: https://vidulum.app
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: VidulumApp
-providerLinkedIn: 
-providerFacebook: VidulumTeam
-providerReddit: VidulumOfficial
-
+twitter: VidulumApp
+social:
+  - https://www.facebook.com/VidulumTeam
+  - https://www.reddit.com/r/VidulumOfficial
 redirect_from:
   - /com.vidulumwallet.app/
   - /posts/com.vidulumwallet.app/

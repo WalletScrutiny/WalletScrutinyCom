@@ -25,14 +25,10 @@ verdict: custodial
 date: 2021-10-22
 signer: 
 reviewArchive:
-
-providerTwitter: coindirectcom
-providerLinkedIn: coindirect
-providerFacebook: coindirectcom
-providerReddit: 
-
-redirect_from:
-
+twitter: coindirectcom
+social:
+  - https://www.linkedin.com/company/coindirect
+  - https://www.facebook.com/coindirectcom
 ---
 
 **Update 2022-01-04**: This app is available once more in the iOS app store. The app was last updated 2021-07-21

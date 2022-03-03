@@ -10,8 +10,8 @@ appCountry:
 released: 2014-12-23
 updated: 2022-02-04
 version: "3.16.03"
-stars: 3.4
-ratings: 103014
+stars: 3.37
+ratings: 103840
 reviews: 69
 size: 12M
 website: https://www.zebpay.com
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: zebpay
-providerLinkedIn: zebpay
-providerFacebook: zebpay
-providerReddit: 
-
+twitter: zebpay
+social:
+  - https://www.linkedin.com/company/zebpay
+  - https://www.facebook.com/zebpay
 redirect_from:
   - /zebpay.Application/
   - /posts/zebpay.Application/

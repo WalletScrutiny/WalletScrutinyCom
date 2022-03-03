@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-09-25
 updated: 2022-01-31
 version: "2.11.0"
-stars: 2.8
+stars: 2.8333333
 ratings: 91
 reviews: 3
 size: 35M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: BitcoinGlobalEx
-providerLinkedIn: 
-providerFacebook: BitcoinGlobalEx
-providerReddit: BITCOIN_GLOBAL
-
+twitter: BitcoinGlobalEx
+social:
+  - https://www.facebook.com/BitcoinGlobalEx
+  - https://www.reddit.com/r/BITCOIN_GLOBAL
 redirect_from:
-
 ---
 
 ## App Description

@@ -8,11 +8,11 @@ appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
 released: 2019-02-03
-updated: 2022-02-07
-version: "8.10.0"
-stars: 4.81432
-reviews: 6039216
-size: 481859584
+updated: 2022-02-21
+version: "8.11.0"
+stars: 4.81355
+reviews: 6044572
+size: 335000576
 website: https://www.paypal.com/mobile
 repository: 
 issue: 
@@ -23,14 +23,11 @@ verdict: nosendreceive
 date: 2021-08-22
 signer: 
 reviewArchive:
-
-providerTwitter: PayPal
-providerLinkedIn: paypal
-providerFacebook: PayPal
-providerReddit: paypal
-
-redirect_from:
-
+twitter: PayPal
+social:
+  - https://www.linkedin.com/company/paypal
+  - https://www.facebook.com/PayPal
+  - https://www.reddit.com/r/paypal
 ---
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some

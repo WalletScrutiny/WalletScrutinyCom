@@ -4,32 +4,29 @@ appId: keycard
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 1]
 weight: 10
+provider: "KeyCard"
+providerWebsite: https://keycard.tech
 website: https://keycard.tech
 shop: https://get.keycard.tech/
-company: KeyCard
-companywebsite: https://keycard.tech
 country: 
 price: 24.9EUR
 repository: https://github.com/status-im/status-keycard
-issue:
+issue: 
 icon: keycard.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: noita
 date: 2021-08-08
-signer:
-reviewArchive:
-
-
-providerTwitter: Keycard_
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Keycard_
+social: 
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

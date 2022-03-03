@@ -8,11 +8,11 @@ appId: com.cakedefi.app
 appCountry: la
 idd: 1564415526
 released: 2021-06-15
-updated: 2022-01-24
-version: "3.2.0"
+updated: 2022-02-22
+version: "3.3.1"
 stars: 
 reviews: 
-size: 55686144
+size: 57093120
 website: https://cakedefi.com/
 repository: 
 issue: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-10-25
 signer: 
 reviewArchive:
-
-providerTwitter: cakedefi
-providerLinkedIn: cakedefi
-providerFacebook: cakedefi
-providerReddit: cakedefi
-
-redirect_from:
-
+twitter: cakedefi
+social:
+  - https://www.linkedin.com/company/cakedefi
+  - https://www.facebook.com/cakedefi
+  - https://www.reddit.com/r/cakedefi
 ---
 
 {% include copyFromAndroid.html %}

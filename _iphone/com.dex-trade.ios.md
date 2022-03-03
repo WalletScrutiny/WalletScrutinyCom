@@ -10,8 +10,8 @@ idd: 1496672790
 released: 2020-01-28
 updated: 2021-09-20
 version: "2.1.5"
-stars: 3.5
-reviews: 4
+stars: 3.8
+reviews: 5
 size: 7494656
 website: https://dex-trade.com/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: dextrade_
-providerLinkedIn: dex-trade-exchange
-providerFacebook: DexTradeExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: dextrade_
+social:
+  - https://www.linkedin.com/company/dex-trade-exchange
+  - https://www.facebook.com/DexTradeExchange
 ---
 
 {% include copyFromAndroid.html %}

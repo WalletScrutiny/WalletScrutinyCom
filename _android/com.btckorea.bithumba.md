@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-08-04
 signer: 
 reviewArchive:
-
-providerTwitter: BithumbOfficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BithumbOfficial
+social:
 redirect_from:
-
 ---
 
 **Update 2021-08-04**: Since 2021-07-22 the app is not on Play Store anymore.

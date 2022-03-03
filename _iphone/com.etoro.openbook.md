@@ -8,11 +8,11 @@ appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
 released: 2017-06-26
-updated: 2022-02-08
-version: "381.0.0"
-stars: 4.21537
-reviews: 4940
-size: 136559616
+updated: 2022-02-27
+version: "391.0.0"
+stars: 4.21261
+reviews: 4981
+size: 154835968
 website: http://www.etoro.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
-providerTwitter: etoro
-providerLinkedIn: etoro
-providerFacebook: eToro
-providerReddit: 
-
-redirect_from:
-
+twitter: etoro
+social:
+  - https://www.linkedin.com/company/etoro
+  - https://www.facebook.com/eToro
 ---
 
 Etoro is used to speculate on assets more than to actually transfer them but in

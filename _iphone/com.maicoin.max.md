@@ -10,8 +10,8 @@ idd: 1370837255
 released: 2018-07-04
 updated: 2021-08-12
 version: "3.0.0"
-stars: 4.80952
-reviews: 21
+stars: 4.81818
+reviews: 22
 size: 96899072
 website: https://max.maicoin.com
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Max_exch
-providerLinkedIn: 
-providerFacebook: MaiCoinAssetExchange
-providerReddit: 
-
-redirect_from:
-
+twitter: Max_exch
+social:
+  - https://www.facebook.com/MaiCoinAssetExchange
 ---
 
 {% include copyFromAndroid.html %}

@@ -8,11 +8,11 @@ appId: com.kucoin.KuCoin.iOS
 appCountry: 
 idd: 1378956601
 released: 2018-05-14
-updated: 2022-02-12
-version: "3.50.0"
-stars: 4.60648
-reviews: 12246
-size: 162057216
+updated: 2022-02-28
+version: "3.51.0"
+stars: 4.60536
+reviews: 12533
+size: 161815552
 website: 
 repository: 
 issue: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: KuCoinCom
-providerLinkedIn: kucoin
-providerFacebook: KuCoinOfficial
-providerReddit: kucoin
-
-redirect_from:
-
+twitter: KuCoinCom
+social:
+  - https://www.linkedin.com/company/kucoin
+  - https://www.facebook.com/KuCoinOfficial
+  - https://www.reddit.com/r/kucoin
 ---
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin

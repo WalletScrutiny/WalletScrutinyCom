@@ -10,8 +10,8 @@ appCountry:
 released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
-stars: 4.1
-ratings: 249
+stars: 4.060606
+ratings: 251
 reviews: 37
 size: 5.0M
 website: http://jurajkusnier.com/
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is only for retrival of bitcoin address balance and transaction information.

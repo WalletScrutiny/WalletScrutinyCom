@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: BiKiEnglish
-providerLinkedIn: 
-providerFacebook: bikiexchange
-providerReddit: BiKi
-
+twitter: BiKiEnglish
+social:
+  - https://www.facebook.com/bikiexchange
+  - https://www.reddit.com/r/BiKi
 redirect_from:
-
 ---
 
 From its Google Play Description:

@@ -8,7 +8,7 @@ users: 1000
 appId: com.blixtwallet
 appCountry: 
 released: 
-updated: 2022-01-13
+updated: 2022-02-18
 version: "Varies with device"
 stars: 
 ratings: 
@@ -24,14 +24,9 @@ verdict: nonverifiable
 date: 2022-02-07
 signer: 
 reviewArchive:
-
-providerTwitter: BlixtWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BlixtWallet
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-07**: This wallet recently reached 1000 downloads on Play

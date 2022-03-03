@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 - danny
-users: 100
+users: 500
 appId: com.jubiter.app
 appCountry: 
 released: 2020-11-19
 updated: 2021-09-10
 version: "2.5.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 40M
@@ -25,14 +25,11 @@ verdict: nosource
 date: 2021-09-16
 signer: 
 reviewArchive:
-
-providerTwitter: JuBiterWallet
-providerLinkedIn: jubiter-wallet
-providerFacebook: JuBiterWallet
-providerReddit: 
-
+twitter: JuBiterWallet
+social:
+  - https://www.linkedin.com/company/jubiter-wallet
+  - https://www.facebook.com/JuBiterWallet
 redirect_from:
-
 ---
 
 **Update 2022-01-04**: This app is now available on the Play Store again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478325587693359105)

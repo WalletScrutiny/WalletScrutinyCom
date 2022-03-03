@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: TheAryaApp
-providerLinkedIn: thearyaapp
-providerFacebook: WeloveArya
-providerReddit: 
-
-redirect_from:
-
+twitter: TheAryaApp
+social:
+  - https://www.linkedin.com/company/thearyaapp
+  - https://www.facebook.com/WeloveArya
 ---
 
 {% include copyFromAndroid.html %}

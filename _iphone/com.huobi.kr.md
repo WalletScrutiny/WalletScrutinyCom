@@ -10,7 +10,7 @@ idd: 1375898166
 released: 2018-05-26
 updated: 2022-01-27
 version: "3.6.6"
-stars: 2.95053
+stars: 2.9364
 reviews: 283
 size: 154582016
 website: http://www.hb.co.kr
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: huobi_korea
-providerLinkedIn: 
-providerFacebook: huobikorea
-providerReddit: 
-
-redirect_from:
-
+twitter: huobi_korea
+social:
+  - https://www.facebook.com/huobikorea
 ---
 
 **Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)

@@ -8,11 +8,11 @@ appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
 released: 2017-06-26
-updated: 2022-02-01
-version: "3.0.0"
-stars: 4.46429
-reviews: 336
-size: 53052416
+updated: 2022-02-25
+version: "3.1.0"
+stars: 4.46154
+reviews: 338
+size: 41683968
 website: https://www.muchbetter.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: paymuchbetter
-providerLinkedIn: mir-muchbetter
-providerFacebook: paymuchbetter
-providerReddit: 
-
-redirect_from:
-
+twitter: paymuchbetter
+social:
+  - https://www.linkedin.com/company/mir-muchbetter
+  - https://www.facebook.com/paymuchbetter
 ---
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 

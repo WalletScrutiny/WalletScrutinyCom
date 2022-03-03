@@ -8,11 +8,11 @@ appId: walletapp.safepal.io
 appCountry: 
 idd: 1548297139
 released: 2021-01-11
-updated: 2022-01-19
-version: "3.1.0"
-stars: 4.13246
-reviews: 536
-size: 131197952
+updated: 2022-02-16
+version: "3.1.1"
+stars: 4.13368
+reviews: 561
+size: 131365888
 website: https://www.safepal.io/
 repository: 
 issue: 
@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: iSafePal
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: iSafePal
+social:
 ---
 
 **Update 2021-04-26**: Now some months after the original review, Google finds

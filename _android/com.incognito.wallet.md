@@ -1,6 +1,6 @@
 ---
 wsId: incognito
-title: "Incognito - Anonymous Bitcoin Wallet"
+title: "Incognito Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ users: 10000
 appId: com.incognito.wallet
 appCountry: 
 released: 2019-08-12
-updated: 2021-12-26
-version: "5.0.0"
-stars: 3.9
-ratings: 341
+updated: 2022-01-28
+version: "5.2.0"
+stars: 3.92
+ratings: 344
 reviews: 61
 size: 49M
 website: https://incognito.org/
@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2020-12-07
 signer: 
 reviewArchive:
-
-providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: incognitochain
+social:
 redirect_from:
   - /com.incognito.wallet/
 ---

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-02-03
 updated: 2021-12-17
 version: "2.0.20"
-stars: 5.0
+stars: 5
 ratings: 269
 reviews: 10
 size: 7.1M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 808TA_
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 808TA_
+social:
 redirect_from:
-
 ---
 
 ## App Description

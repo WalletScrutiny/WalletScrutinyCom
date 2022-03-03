@@ -8,12 +8,12 @@ users: 5000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2022-02-10
-version: "6.7.9"
-stars: 4.6
-ratings: 29552
-reviews: 422
-size: 119M
+updated: 2022-02-25
+version: "6.8.2"
+stars: 4.55
+ratings: 31840
+reviews: 431
+size: 128M
 website: http://www.hbg.com
 repository: 
 issue: 
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiGlobal
-providerLinkedIn: 
-providerFacebook: huobiglobalofficial
-providerReddit: 
-
+twitter: HuobiGlobal
+social:
+  - https://www.facebook.com/huobiglobalofficial
 redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/

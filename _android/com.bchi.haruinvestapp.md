@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-08-11
 updated: 2021-12-16
 version: "2.0.0"
-stars: 4.8
-ratings: 253
-reviews: 18
+stars: 4.8333335
+ratings: 277
+reviews: 19
 size: 96M
 website: https://haruinvest.com
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: haruinvest
-providerLinkedIn: 
-providerFacebook: haruinvest
-providerReddit: 
-
+twitter: haruinvest
+social:
+  - https://www.facebook.com/haruinvest
 redirect_from:
-
 ---
 
 ## App Description

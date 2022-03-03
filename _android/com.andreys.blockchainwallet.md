@@ -24,12 +24,8 @@ verdict: wip
 date: 2021-02-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.andreys.blockchainwallet/
 ---

@@ -10,8 +10,8 @@ appCountry:
 released: 2020-07-13
 updated: 2022-02-08
 version: "android-4.31.1"
-stars: 4.4
-ratings: 81
+stars: 4.428571
+ratings: 83
 reviews: 3
 size: 31M
 website: https://shiftcrypto.ch/app/
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: ShiftCryptoHQ
-providerLinkedIn: shift-crypto
-providerFacebook: Shiftcrypto
-providerReddit: 
-
+twitter: ShiftCryptoHQ
+social:
+  - https://www.linkedin.com/company/shift-crypto
+  - https://www.facebook.com/Shiftcrypto
 redirect_from:
-
 ---
 
 The description of this app reads:

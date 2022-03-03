@@ -11,7 +11,7 @@ released: 2020-09-09
 updated: 2020-12-23
 version: "1.0.6"
 stars: 3.3
-ratings: 52
+ratings: 54
 reviews: 4
 size: 29M
 website: https://dovewallet.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-12-20
 signer: 
 reviewArchive:
-
-providerTwitter: dovewallet_en
-providerLinkedIn: 
-providerFacebook: dovewalleten
-providerReddit: DoveWallet
-
+twitter: dovewallet_en
+social:
+  - https://www.facebook.com/dovewalleten
+  - https://www.reddit.com/r/DoveWallet
 redirect_from:
-
 ---
 
 ## App Description

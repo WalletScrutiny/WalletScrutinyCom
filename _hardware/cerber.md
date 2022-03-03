@@ -5,34 +5,30 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85.6, 4]
 weight: 12
+provider: "Cerber Money Security"
+providerWebsite: https://cerberwallet.ru
 website: https://cerberwallet.ru
 shop: https://cerberwallet.ru
-company: Cerber Money Security
-companywebsite: https://cerberwallet.ru
 country: RU
 price: 3500RUB
 repository: 
-issue:
+issue: 
 icon: cerber.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: nosource # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: nosource
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 ## New Review 2021-11-25
 

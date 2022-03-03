@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-10-01
 updated: 2022-01-27
 version: "1.8"
-stars: 4.3
-ratings: 2164
-reviews: 954
+stars: 4.241573
+ratings: 2174
+reviews: 958
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > The Artery Network is based on devices (phones, computers) that allocate free memory and internet connection in the Artery Node product, providing decentralization to the Artery Storage and Artery VPN products.

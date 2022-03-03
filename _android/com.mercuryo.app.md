@@ -8,11 +8,11 @@ users: 100000
 appId: com.mercuryo.app
 appCountry: 
 released: 2019-09-03
-updated: 2022-01-17
-version: "2.0.24"
-stars: 4.0
-ratings: 2684
-reviews: 45
+updated: 2022-02-23
+version: "2.0.29"
+stars: 3.935065
+ratings: 2732
+reviews: 46
 size: 46M
 website: https://mercuryo.io
 repository: 
@@ -24,12 +24,11 @@ verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: Mercuryo_io
-providerLinkedIn: mercuryo-io
-providerFacebook: mercuryo.io
-providerReddit: mercuryo
-
+twitter: Mercuryo_io
+social:
+  - https://www.linkedin.com/company/mercuryo-io
+  - https://www.facebook.com/mercuryo.io
+  - https://www.reddit.com/r/mercuryo
 redirect_from:
   - /com.mercuryo.app/
 ---

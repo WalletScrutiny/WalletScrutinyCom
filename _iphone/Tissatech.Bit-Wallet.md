@@ -10,8 +10,8 @@ idd: 1331439005
 released: 2019-02-09
 updated: 2022-01-06
 version: "1.9"
-stars: 4.82045
-reviews: 763
+stars: 4.82803
+reviews: 692
 size: 19279872
 website: 
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: bitwalletinc
-providerLinkedIn: 
-providerFacebook: BitWalletInc
-providerReddit: 
-
-redirect_from:
-
+twitter: bitwalletinc
+social:
+  - https://www.facebook.com/BitWalletInc
 ---
 
 This appears to be primarily an exchange and as there are no claims of you being

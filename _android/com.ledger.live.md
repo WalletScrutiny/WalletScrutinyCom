@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Ledger Live - Crypto Wallet"
+title: "Ledger Live - Web3 Wallet"
 altTitle: 
 authors:
 
@@ -8,12 +8,12 @@ users: 500000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2022-02-14
-version: "2.37.4"
-stars: 3.3
-ratings: 6007
-reviews: 808
-size: 307M
+updated: 2022-02-22
+version: "2.38.3"
+stars: 3.143885
+ratings: 6090
+reviews: 822
+size: 308M
 website: https://www.ledger.com
 repository: 
 issue: 
@@ -24,12 +24,10 @@ verdict: nowallet
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: Ledger
-providerLinkedIn: ledgerhq
-providerFacebook: Ledger
-providerReddit: 
-
+twitter: Ledger
+social:
+  - https://www.linkedin.com/company/ledgerhq
+  - https://www.facebook.com/Ledger
 redirect_from:
   - /com.ledger.live/
 ---

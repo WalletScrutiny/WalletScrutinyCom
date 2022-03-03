@@ -10,9 +10,9 @@ appCountry:
 released: 2020-08-27
 updated: 2022-01-31
 version: "4.11.0"
-stars: 3.8
-ratings: 10623
-reviews: 531
+stars: 3.85
+ratings: 10676
+reviews: 534
 size: Varies with device
 website: https://www.klever.io/
 repository: 
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: klever_io
-providerLinkedIn: 
-providerFacebook: klever.io
-providerReddit: 
-
+twitter: klever_io
+social:
+  - https://www.facebook.com/klever.io
 redirect_from:
   - /cash.klever.blockchain.wallet/
 ---

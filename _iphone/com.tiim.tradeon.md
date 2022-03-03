@@ -11,7 +11,7 @@ released: 2017-08-28
 updated: 2021-10-01
 version: "2.2"
 stars: 5
-reviews: 10
+reviews: 7
 size: 44812288
 website: https://bolsa.app
 repository: 
@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-01
 updated: 2021-12-14
 version: "6.7"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 13M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: betconix
-providerLinkedIn: 
-providerFacebook: GNBetconixSTOU
-providerReddit: 
-
+twitter: betconix
+social:
+  - https://www.facebook.com/GNBetconixSTOU
 redirect_from:
-
 ---
 
 ## App Description

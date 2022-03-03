@@ -10,7 +10,7 @@ appCountry:
 released: 2020-06-11
 updated: 2020-07-23
 version: "1.2.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 19M
@@ -24,14 +24,10 @@ verdict: wip
 date: 2021-09-20
 signer: 
 reviewArchive:
-
-providerTwitter: ProfitTrading_
-providerLinkedIn: 
-providerFacebook: profittradingapp
-providerReddit: 
-
+twitter: ProfitTrading_
+social:
+  - https://www.facebook.com/profittradingapp
 redirect_from:
-
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
 version: "1.0.0"
-stars: 3.0
-ratings: 147
-reviews: 18
+stars: 3
+ratings: 155
+reviews: 19
 size: 23M
 website: https://mandala.exchange
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: mandalaex
-providerLinkedIn: 
-providerFacebook: mandalaexchange
-providerReddit: MandalaExchange
-
+twitter: mandalaex
+social:
+  - https://www.facebook.com/mandalaexchange
+  - https://www.reddit.com/r/MandalaExchange
 redirect_from:
-
 ---
 
 ## App Description

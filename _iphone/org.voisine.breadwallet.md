@@ -8,11 +8,11 @@ appId: org.voisine.breadwallet
 appCountry: 
 idd: 885251393
 released: 2014-06-22
-updated: 2022-01-14
-version: "4.15"
-stars: 4.58969
-reviews: 12547
-size: 83862528
+updated: 2022-02-17
+version: "4.16"
+stars: 4.58973
+reviews: 12555
+size: 83899392
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1
@@ -33,13 +33,11 @@ reviewArchive:
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
-providerTwitter: BRDHQ
-providerLinkedIn: brdhq
-providerFacebook: brdhq
-providerReddit: brdapp
-
-redirect_from:
-
+twitter: BRDHQ
+social:
+  - https://www.linkedin.com/company/brdhq
+  - https://www.facebook.com/brdhq
+  - https://www.reddit.com/r/brdapp
 ---
 
 **Update 2021-06-29**: The provider

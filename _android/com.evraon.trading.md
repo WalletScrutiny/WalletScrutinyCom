@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-14
 updated: 2022-01-05
 version: "1.7.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 12M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## Verdict

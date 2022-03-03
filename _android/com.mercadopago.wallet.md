@@ -8,12 +8,12 @@ users: 50000000
 appId: com.mercadopago.wallet
 appCountry: br
 released: 2014-12-09
-updated: 2022-02-15
-version: "2.207.1"
-stars: 4.6
-ratings: 3383211
-reviews: 694014
-size: 68M
+updated: 2022-02-28
+version: "2.209.4"
+stars: 4.6094246
+ratings: 3484084
+reviews: 704482
+size: 69M
 website: http://www.mercadopago.com
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: mercadopago
-providerLinkedIn: 
-providerFacebook: mercadopago
-providerReddit: 
-
+twitter: mercadopago
+social:
+  - https://www.facebook.com/mercadopago
 redirect_from:
-
 ---
 
 The provider announced the possibility to buy and sell Bitcoin from within the

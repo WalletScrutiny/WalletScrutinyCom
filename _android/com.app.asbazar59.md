@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: asbazarofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: asbazarofficial
+social:
 redirect_from:
-
 ---
 
 ## App Description

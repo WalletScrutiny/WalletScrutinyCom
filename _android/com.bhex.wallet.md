@@ -26,14 +26,9 @@ verdict: fewusers
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: BHEXOfficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: BHEXOfficial
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

@@ -23,14 +23,10 @@ verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: MUIcommunity
-providerLinkedIn: metamui
-providerFacebook: SovereignWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: MUIcommunity
+social:
+  - https://www.linkedin.com/company/metamui
+  - https://www.facebook.com/SovereignWallet
 ---
 
 {% include copyFromAndroid.html %}

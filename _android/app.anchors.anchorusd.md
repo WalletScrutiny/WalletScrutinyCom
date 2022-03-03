@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-06-18
 updated: 2022-01-13
 version: "1.17.9"
-stars: 2.2
-ratings: 2480
-reviews: 788
+stars: 2.2291667
+ratings: 2482
+reviews: 789
 size: 33M
 website: https://www.tryanchor.com
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: anchorusd
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: anchorusd
+social:
 redirect_from:
-
 ---
 
 AnchorUSD claims to be a stock and crypto investment app. 

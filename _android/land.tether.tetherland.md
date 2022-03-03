@@ -19,20 +19,19 @@ repository:
 issue: 
 icon: land.tether.tetherland.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-09-15
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: tetherland
-providerLinkedIn: tetherland
-providerFacebook: tetherland
-providerReddit: 
-
+twitter: tetherland
+social:
+  - https://www.linkedin.com/company/tetherland
+  - https://www.facebook.com/tetherland
 redirect_from:
-
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 We downloaded the app, but have difficulty with the registration because it's in Persian.
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-01-27
 updated: 2022-01-11
 version: "1.0.5"
-stars: 4.6
-ratings: 219
-reviews: 19
+stars: 4.59375
+ratings: 220
+reviews: 20
 size: 10.0M
 website: https://www.icon-fi.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: ICONFiWorld
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ICONFiWorld
+social:
 redirect_from:
-
 ---
 
 ## App Description

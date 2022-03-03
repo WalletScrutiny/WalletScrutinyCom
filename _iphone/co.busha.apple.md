@@ -10,8 +10,8 @@ idd: 1450373493
 released: 2019-02-03
 updated: 2022-02-09
 version: "3.0.16"
-stars: 4.01667
-reviews: 120
+stars: 4.04724
+reviews: 127
 size: 103557120
 website: https://busha.co
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: getbusha
-providerLinkedIn: 
-providerFacebook: getbusha
-providerReddit: 
-
-redirect_from:
-
+twitter: getbusha
+social:
+  - https://www.facebook.com/getbusha
 ---
 
 The description

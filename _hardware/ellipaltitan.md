@@ -5,34 +5,31 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "ELLIPAL Limited"
+providerWebsite: https://www.ellipal.com
 website: https://www.ellipal.com/pages/coldwallet
 shop: https://www.ellipal.com/products/ellipal-titan
-company: ELLIPAL Limited
-companywebsite: https://www.ellipal.com
 country: HK
 price: 139USD
 repository: https://github.com/ellipal
-issue:
+issue: 
 icon: ellipaltitan.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: ellipalwallet
-providerLinkedIn: 
-providerFacebook: ellipalclub
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: ellipalwallet
+social: 
+  - https://www.facebook.com/ellipalclub
 ---
-
 
 Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly features. The makers claim that the "chip will delete every data when it detects a breach". 
 

@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: vegawallet
-providerLinkedIn: 
-providerFacebook: VegaWallet
-providerReddit: 
-
+twitter: vegawallet
+social:
+  - https://www.facebook.com/VegaWallet
 redirect_from:
-
 ---
 
 ## Private Keys

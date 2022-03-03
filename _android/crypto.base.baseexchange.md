@@ -8,9 +8,9 @@ users: 1000
 appId: crypto.base.baseexchange
 appCountry: 
 released: 2019-06-05
-updated: 2022-02-14
-version: "4.7"
-stars: 0.0
+updated: 2022-02-26
+version: "4.9"
+stars: 
 ratings: 
 reviews: 
 size: 24M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: techpay_io
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: techpay_io
+social:
 redirect_from:
-
 ---
 
 ## App Description

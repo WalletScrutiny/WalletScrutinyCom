@@ -8,11 +8,11 @@ appId: com.SwftBlockChain.client
 appCountry: 
 idd: 1435569339
 released: 2018-09-28
-updated: 2022-02-12
-version: "5.15.21"
-stars: 4.41026
-reviews: 117
-size: 120958976
+updated: 2022-02-24
+version: "5.16.1"
+stars: 4.43902
+reviews: 123
+size: 116530176
 website: http://www.swft.pro
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: SwftCoin
-providerLinkedIn: swftcoin
-providerFacebook: SWFTBlockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: SwftCoin
+social:
+  - https://www.linkedin.com/company/swftcoin
+  - https://www.facebook.com/SWFTBlockchain
 ---
 
 The description on App Store is full of buzzwords like big data, machine

@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: TradingduCoin
-providerLinkedIn: 
-providerFacebook: TradingduCoin
-providerReddit: 
-
-redirect_from:
-
+twitter: TradingduCoin
+social:
+  - https://www.facebook.com/TradingduCoin
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: coindealcom
-providerLinkedIn: coindealcom
-providerFacebook: coindealcom
-providerReddit: 
-
-redirect_from:
-
+twitter: coindealcom
+social:
+  - https://www.linkedin.com/company/coindealcom
+  - https://www.facebook.com/coindealcom
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-03
 updated: 2021-01-15
 version: "1.0.1"
-stars: 2.4
+stars: 2.36
 ratings: 56
 reviews: 22
 size: 1.4M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-01-14
 signer: 
 reviewArchive:
-
-providerTwitter: SecuXwallet
-providerLinkedIn: 
-providerFacebook: secuxtech
-providerReddit: 
-
+twitter: SecuXwallet
+social:
+  - https://www.facebook.com/secuxtech
 redirect_from:
-
 ---
 
 ⚠️ **CAUTION:** Some users have reported losing cryptocurrencies with this app.

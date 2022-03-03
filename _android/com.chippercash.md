@@ -9,12 +9,12 @@ users: 1000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2022-02-15
-version: "1.9.19"
-stars: 4.3
-ratings: 58571
-reviews: 1378
-size: 97M
+updated: 2022-03-01
+version: "1.10.0"
+stars: 4.334694
+ratings: 59630
+reviews: 1410
+size: 110M
 website: https://chippercash.com
 repository: 
 issue: 
@@ -25,14 +25,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: chippercashapp
-providerLinkedIn: 
-providerFacebook: Chippercashapp
-providerReddit: 
-
+twitter: chippercashapp
+social:
+  - https://www.facebook.com/Chippercashapp
 redirect_from:
-
 ---
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 

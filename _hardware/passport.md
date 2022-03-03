@@ -5,12 +5,14 @@ authors:
 - kiwilamb
 - leo
 released: 2020-07-01
-discontinued: # date
+discontinued: 
 updated: 2021-12-31
-version: v1.0.8
+version: "v1.0.8"
 binaries: https://github.com/Foundation-Devices/passport-firmware/releases
 dimensions: [38, 102, 23]
 weight: 138
+provider: 
+providerWebsite: 
 website: https://foundationdevices.com/
 shop: https://foundationdevices.com/product/passport/
 country: US
@@ -23,7 +25,7 @@ meta: ok
 verdict: reproducible
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 - date: 2021-12-01
   version: "1.0.8-beta"
   appHash: 703feb6c387db47ea862ab55acfa984afa456c75dff22b21977459f68e7e1795
@@ -39,12 +41,9 @@ reviewArchive:
   appHash: 606ca7ce1ba136988a36b445b2dae97508fbed062a8fdfa02f13ada69b6e92cd
   gitRevision: 1cf92f351ed58ce13738940ad6e9fad35366dbd5
   verdict: reproducible
-  
-
-providerTwitter: FOUNDATIONdvcs
-providerLinkedIn: foundationdevices
-providerFacebook: 
-providerReddit: 
+twitter: FOUNDATIONdvcs
+social: 
+  - https://www.linkedin.com/company/foundationdevices
 ---
 
 The provider released a new version. Here we try to reproduce it again, using

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-05-17
 updated: 2021-08-06
 version: "1.20-testnet"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-12-27
 updated: 2022-01-19
 version: "3.3.3"
-stars: 2.6
-ratings: 3201
-reviews: 8
+stars: 2.5
+ratings: 3260
+reviews: 9
 size: 75M
 website: https://jeton.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: jetonwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: jetonwallet
+social:
 redirect_from:
-
 ---
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.

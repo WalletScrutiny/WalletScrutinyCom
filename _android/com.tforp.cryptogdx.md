@@ -11,7 +11,7 @@ released: 2018-02-04
 updated: 2021-05-28
 version: "2.3"
 stars: 4.5
-ratings: 3424
+ratings: 3455
 reviews: 152
 size: 9.2M
 website: https://trading4pro.com/
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Trading4Pro
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Trading4Pro
+social:
 redirect_from:
-
 ---
 
 ## App Description

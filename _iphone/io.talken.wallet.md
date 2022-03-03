@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-06-04
 signer: 
 reviewArchive:
-
-providerTwitter: Talken_
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Talken_
+social:
 ---
 
 {% include copyFromAndroid.html %}

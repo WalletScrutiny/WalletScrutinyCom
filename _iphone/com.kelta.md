@@ -10,8 +10,8 @@ idd: 1385038150
 released: 2018-06-07
 updated: 2021-11-23
 version: "3.1.1"
-stars: 4.00549
-reviews: 182
+stars: 3.9779
+reviews: 181
 size: 19846144
 website: https://kelta.com
 repository: 
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

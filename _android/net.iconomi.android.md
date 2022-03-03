@@ -10,7 +10,7 @@ appCountry: si
 released: 2017-10-17
 updated: 2022-02-07
 version: "2.1.1"
-stars: 4.1
+stars: 4.1287127
 ratings: 291
 reviews: 134
 size: 126M
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: iconomicom
-providerLinkedIn: iconominet
-providerFacebook: iconomicom
-providerReddit: ICONOMI
-
+twitter: iconomicom
+social:
+  - https://www.linkedin.com/company/iconominet
+  - https://www.facebook.com/iconomicom
+  - https://www.reddit.com/r/ICONOMI
 redirect_from:
-
 ---
 
 ### App Description

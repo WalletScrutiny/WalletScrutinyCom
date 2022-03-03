@@ -6,32 +6,29 @@ authors:
 - danny
 - leo
 released: 2018-03-01
-discontinued: # date
+discontinued: 
 updated: 2021-11-11
-version: B-2.5
+version: "B-2.5"
+binaries: 
 dimensions: 
-weight: 115 g
+weight: 115
+provider: "Keystone"
+providerWebsite: https://shop.keyst.one/products/keystone-essential
 website: https://keyst.one/
 shop: 
-company: Keystone
-companywebsite: https://shop.keyst.one/products/keystone-essential
 country: CH
 price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: cobovaultessential.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: KeystoneWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+date: 2022-02-18
+signer: 
+reviewArchive: 
+twitter: KeystoneWallet
+social: 
 ---
 
 **Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.

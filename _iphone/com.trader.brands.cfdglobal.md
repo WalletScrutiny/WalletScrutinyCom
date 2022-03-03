@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: capex_en
-providerLinkedIn: capexglobal
-providerFacebook: CAPEXSeychelles
-providerReddit: 
-
-redirect_from:
-
+twitter: capex_en
+social:
+  - https://www.linkedin.com/company/capexglobal
+  - https://www.facebook.com/CAPEXSeychelles
 ---
 
  {% include copyFromAndroid.html %}

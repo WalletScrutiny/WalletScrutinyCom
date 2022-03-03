@@ -19,20 +19,17 @@ repository: https://github.com/wallet-io
 issue: 
 icon: io.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-19
+date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: io_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: io_wallet
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-18**: This app is not on the Store anymore.
 
 **Note:** There is a Pro version for wallet.io
 

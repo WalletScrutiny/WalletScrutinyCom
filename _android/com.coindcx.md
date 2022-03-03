@@ -8,10 +8,10 @@ users: 1000000
 appId: com.coindcx
 appCountry: 
 released: 2018-11-02
-updated: 2021-09-15
+updated: 2022-02-17
 version: "1.0.004"
-stars: 4.9
-ratings: 13319
+stars: 4.8878503
+ratings: 13567
 reviews: 159
 size: 52M
 website: https://coindcx.com
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: coindcx
-providerLinkedIn: coindcx
-providerFacebook: CoinDCX
-providerReddit: 
-
+twitter: coindcx
+social:
+  - https://www.linkedin.com/company/coindcx
+  - https://www.facebook.com/CoinDCX
 redirect_from:
-
 ---
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):

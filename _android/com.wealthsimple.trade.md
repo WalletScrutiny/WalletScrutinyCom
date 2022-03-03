@@ -8,12 +8,12 @@ users: 1000000
 appId: com.wealthsimple.trade
 appCountry: ca
 released: 2019-03-12
-updated: 2022-02-11
-version: "2.24.0"
-stars: 4.5
-ratings: 53528
-reviews: 9453
-size: 249M
+updated: 2022-03-01
+version: "2.27.1"
+stars: 4.549314
+ratings: 54327
+reviews: 9538
+size: 263M
 website: https://www.wealthsimple.com/trade
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: Wealthsimple
-providerLinkedIn: 
-providerFacebook: wealthsimple
-providerReddit: 
-
+twitter: Wealthsimple
+social:
+  - https://www.facebook.com/wealthsimple
 redirect_from:
-
 ---
 
 > Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]

@@ -8,9 +8,9 @@ users: 100
 appId: com.app.toropal
 appCountry: 
 released: 2019-02-18
-updated: 2022-02-04
-version: "1.7.1"
-stars: 0.0
+updated: 2022-02-19
+version: "1.7.2"
+stars: 
 ratings: 
 reviews: 
 size: 36M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

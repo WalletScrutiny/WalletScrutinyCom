@@ -8,11 +8,11 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-02-14
-version: "4.2.10"
-stars: 4.78057
-reviews: 52277
-size: 77922304
+updated: 2022-02-18
+version: "4.3.0"
+stars: 4.7792
+reviews: 52572
+size: 77930496
 website: https://blockfolio.com
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: Blockfolio
-providerLinkedIn: 
-providerFacebook: Blockfolio
-providerReddit: 
-
-redirect_from:
-
+twitter: Blockfolio
+social:
+  - https://www.facebook.com/Blockfolio
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: bullcoinfinance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: bullcoinfinance
-
-redirect_from:
-
+twitter: bullcoinfinance
+social:
+  - https://www.reddit.com/r/bullcoinfinance
 ---
 
 {% include copyFromAndroid.html %}

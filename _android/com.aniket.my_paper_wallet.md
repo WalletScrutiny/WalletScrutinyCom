@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-24
 updated: 2020-12-24
 version: "1.0.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 8.1M
@@ -24,14 +24,9 @@ verdict: ftbfs
 date: 2021-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Building the apk with  `flutter build apk` results in errors.

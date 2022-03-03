@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-03-11
 signer: 
 reviewArchive:
-
-providerTwitter: HoldHQ
-providerLinkedIn: holdhq
-providerFacebook: HoldHQ
-providerReddit: 
-
-redirect_from:
-
+twitter: HoldHQ
+social:
+  - https://www.linkedin.com/company/holdhq
+  - https://www.facebook.com/HoldHQ
 ---
 
 > SAFETY FIRST<br>

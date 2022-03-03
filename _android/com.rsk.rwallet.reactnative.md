@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app was replaced with {% include walletLink.html wallet='android/com.rsk.rwallet.v2' verdict='true' %}

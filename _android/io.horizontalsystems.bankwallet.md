@@ -10,9 +10,9 @@ appCountry:
 released: 2018-12-18
 updated: 2022-01-18
 version: "0.23.3"
-stars: 3.8
-ratings: 553
-reviews: 48
+stars: 3.7594936
+ratings: 556
+reviews: 49
 size: 44M
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
@@ -169,11 +169,9 @@ reviewArchive:
   appHash: f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0
   gitRevision: 92e4a67ecc626220965114cd6a4cd67497e3be9f
   verdict: nonverifiable
-providerTwitter: unstoppablebyhs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: UNSTOPPABLEWallet
-
+twitter: unstoppablebyhs
+social:
+  - https://www.reddit.com/r/UNSTOPPABLEWallet
 redirect_from:
   - /io.horizontalsystems.bankwallet/
   - /posts/io.horizontalsystems.bankwallet/

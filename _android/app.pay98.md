@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-31
 updated: 2021-07-16
 version: "2.0.2"
-stars: 4.7
-ratings: 15300
-reviews: 538
+stars: 4.589147
+ratings: 15329
+reviews: 541
 size: 32M
 website: https://pay98.cash/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Iranian third party payment website

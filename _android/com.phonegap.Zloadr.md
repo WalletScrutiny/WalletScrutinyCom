@@ -10,8 +10,8 @@ appCountry:
 released: 2019-06-17
 updated: 2019-07-15
 version: "1.1.0"
-stars: 4.1
-ratings: 1074
+stars: 4.0602407
+ratings: 1075
 reviews: 78
 size: 12M
 website: https://www.zloadr.com
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-20
 updated: 2022-01-10
 version: "1.8.4"
-stars: 4.7
-ratings: 1044
-reviews: 94
+stars: 4.72
+ratings: 1058
+reviews: 96
 size: 21M
 website: https://goodcrypto.app
 repository: 
@@ -24,12 +24,11 @@ verdict: nosendreceive
 date: 2021-08-10
 signer: 
 reviewArchive:
-
-providerTwitter: GoodCryptoApp
-providerLinkedIn: goodcrypto
-providerFacebook: GoodCryptoApp
-providerReddit: GoodCrypto
-
+twitter: GoodCryptoApp
+social:
+  - https://www.linkedin.com/company/goodcrypto
+  - https://www.facebook.com/GoodCryptoApp
+  - https://www.reddit.com/r/GoodCrypto
 redirect_from:
   - /app.goodcrypto/
 ---

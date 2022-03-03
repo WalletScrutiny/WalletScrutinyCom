@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-09-01
 updated: 2021-12-03
 version: "3.0.3"
-stars: 4.8
-ratings: 5945
-reviews: 332
+stars: 4.7711864
+ratings: 5947
+reviews: 333
 size: 72M
 website: http://www.aofex.co
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: Aofex2
-providerLinkedIn: 
-providerFacebook: AofexDigitalCurrencyExchange
-providerReddit: 
-
+twitter: Aofex2
+social:
+  - https://www.facebook.com/AofexDigitalCurrencyExchange
 redirect_from:
-
 ---
 
 ## App Description

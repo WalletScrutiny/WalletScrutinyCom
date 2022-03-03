@@ -8,11 +8,11 @@ appId: com.sixdays.trust
 appCountry: 
 idd: 1288339409
 released: 2017-09-27
-updated: 2022-01-24
-version: "6.18"
-stars: 4.68351
-reviews: 160902
-size: 37187584
+updated: 2022-02-23
+version: "6.19"
+stars: 4.68516
+reviews: 163037
+size: 37604352
 website: https://trustwallet.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2020-12-23
 signer: 
 reviewArchive:
-
-providerTwitter: trustwalletapp
-providerLinkedIn: 
-providerFacebook: trustwalletapp
-providerReddit: trustapp
-
-redirect_from:
-
+twitter: trustwalletapp
+social:
+  - https://www.facebook.com/trustwalletapp
+  - https://www.reddit.com/r/trustapp
 ---
 
 On the App Store they claim:

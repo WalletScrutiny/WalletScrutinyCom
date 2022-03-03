@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: coinfalcon
-providerLinkedIn: 
-providerFacebook: CoinFalcon
-providerReddit: CoinFalcon
-
-redirect_from:
-
+twitter: coinfalcon
+social:
+  - https://www.facebook.com/CoinFalcon
+  - https://www.reddit.com/r/CoinFalcon
 ---
 
 In the description we read:

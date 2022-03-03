@@ -8,11 +8,11 @@ appId: com.vttech.VantageFX
 appCountry: ph
 idd: 1457929724
 released: 2019-07-20
-updated: 2022-01-27
-version: "2.0.4"
-stars: 4.92424
-reviews: 66
-size: 115910656
+updated: 2022-02-26
+version: "2.0.5"
+stars: 4.93506
+reviews: 77
+size: 116500480
 website: https://www.vantagemarkets.com/
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: VantageFX
-providerLinkedIn: vantage-fx
-providerFacebook: VantageFXBroker
-providerReddit: 
-
-redirect_from:
-
+twitter: VantageFX
+social:
+  - https://www.linkedin.com/company/vantage-fx
+  - https://www.facebook.com/VantageFXBroker
 ---
 
 {% include copyFromAndroid.html %}

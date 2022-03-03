@@ -8,10 +8,10 @@ users: 10000
 appId: com.selendra.secure_wallet
 appCountry: 
 released: 2021-02-22
-updated: 2022-02-13
-version: "3.3.0"
+updated: 2022-02-15
+version: "3.4.0"
 stars: 4.2
-ratings: 94
+ratings: 96
 reviews: 4
 size: 74M
 website: https://bitriel.com/
@@ -24,14 +24,10 @@ verdict: nonverifiable
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: SelendraChain
-providerLinkedIn: selendrachain
-providerFacebook: 
-providerReddit: 
-
+twitter: SelendraChain
+social:
+  - https://www.linkedin.com/company/selendrachain
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-31
 updated: 2021-10-14
 version: "1.3.10"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 35M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: coin_baazar
-providerLinkedIn: 
-providerFacebook: officialcoinbaazar
-providerReddit: 
-
+twitter: coin_baazar
+social:
+  - https://www.facebook.com/officialcoinbaazar
 redirect_from:
-
 ---
 
 ## App Description

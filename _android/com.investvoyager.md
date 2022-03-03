@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-25
 updated: 2022-01-28
 version: "3.2.0"
-stars: 4.5
-ratings: 25693
-reviews: 7428
+stars: 4.541039
+ratings: 26380
+reviews: 7566
 size: 57M
 website: https://www.investvoyager.com/
 repository: 
@@ -24,12 +24,11 @@ verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: investvoyager
-providerLinkedIn: investvoyager
-providerFacebook: InvestVoyager
-providerReddit: Invest_Voyager
-
+twitter: investvoyager
+social:
+  - https://www.linkedin.com/company/investvoyager
+  - https://www.facebook.com/InvestVoyager
+  - https://www.reddit.com/r/Invest_Voyager
 redirect_from:
   - /com.investvoyager/
 ---

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: nakitcoins
-providerLinkedIn: 
-providerFacebook: NakitCoins
-providerReddit: 
-
-redirect_from:
-
+twitter: nakitcoins
+social:
+  - https://www.facebook.com/NakitCoins
 ---
 
 {% include copyFromAndroid.html %}

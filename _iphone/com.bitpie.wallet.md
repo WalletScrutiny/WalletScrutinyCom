@@ -10,7 +10,7 @@ idd: 1481314229
 released: 2019-10-01
 updated: 2022-01-05
 version: "5.0.057"
-stars: 3.61818
+stars: 3.69091
 reviews: 55
 size: 327852032
 website: https://bitpie.com
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: BitpieWallet
-providerLinkedIn: 
-providerFacebook: BitpieOfficial
-providerReddit: BitpieWallet
-
-redirect_from:
-
+twitter: BitpieWallet
+social:
+  - https://www.facebook.com/BitpieOfficial
+  - https://www.reddit.com/r/BitpieWallet
 ---
 
  {% include copyFromAndroid.html %}

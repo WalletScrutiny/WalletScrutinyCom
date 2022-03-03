@@ -10,8 +10,8 @@ appCountry:
 released: 2020-09-14
 updated: 2021-12-10
 version: "1.0.19"
-stars: 4.9
-ratings: 850
+stars: 4.928571
+ratings: 849
 reviews: 54
 size: 49M
 website: https://nodawallet.com
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: DexNodaWallett
-providerLinkedIn: noda-project-8b4a251b3
-providerFacebook: 
-providerReddit: NodaWallet
-
+twitter: DexNodaWallett
+social:
+  - https://www.linkedin.com/company/noda-project-8b4a251b3
+  - https://www.reddit.com/r/NodaWallet
 redirect_from:
-
 ---
 
 ## App Description

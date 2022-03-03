@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: zam_io
-providerLinkedIn: 11770701
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: zam_io
+social:
+  - https://www.linkedin.com/company/11770701
 ---
 
 {% include copyFromAndroid.html %}

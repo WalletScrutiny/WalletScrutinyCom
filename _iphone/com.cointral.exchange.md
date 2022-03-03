@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: Cointral
-providerLinkedIn: cointral
-providerFacebook: Cointral
-providerReddit: 
-
-redirect_from:
-
+twitter: Cointral
+social:
+  - https://www.linkedin.com/company/cointral
+  - https://www.facebook.com/Cointral
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ appCountry: us
 released: 2020-06-30
 updated: 2021-09-09
 version: "1.0.5"
-stars: 3.9
-ratings: 158
+stars: 3.9306931
+ratings: 159
 reviews: 58
 size: 66M
 website: https://lvl.co
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: BankWithLVL
-providerLinkedIn: bankwithlvl
-providerFacebook: BankWithLVL
-providerReddit: 
-
+twitter: BankWithLVL
+social:
+  - https://www.linkedin.com/company/bankwithlvl
+  - https://www.facebook.com/BankWithLVL
 redirect_from:
-
 ---
 
 ## App Description

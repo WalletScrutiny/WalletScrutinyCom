@@ -8,12 +8,12 @@ users: 100000
 appId: com.rootone.wallet
 appCountry: us
 released: 2018-10-08
-updated: 2021-06-17
-version: "1.4.4"
+updated: 2022-02-22
+version: "1.4.8"
 stars: 3.6
-ratings: 615
+ratings: 617
 reviews: 10
-size: 6.6M
+size: 8.0M
 website: https://rootone.com
 repository: 
 issue: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 From its Google Play description, we have hints of its custodial nature:

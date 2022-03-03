@@ -10,8 +10,8 @@ appCountry:
 released: 2020-10-15
 updated: 2022-02-01
 version: "1.11"
-stars: 4.1
-ratings: 626
+stars: 4.0833335
+ratings: 635
 reviews: 44
 size: 6.4M
 website: http://firstdaotrust.com
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-07-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > This wallet helps people to create bitcoin or litecoin transactions

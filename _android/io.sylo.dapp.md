@@ -10,8 +10,8 @@ appCountry:
 released: 2019-09-10
 updated: 2022-02-11
 version: "3.1.40"
-stars: 4.0
-ratings: 756
+stars: 4.038961
+ratings: 758
 reviews: 44
 size: 335M
 website: http://www.sylo.io
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2020-06-10
 signer: 
 reviewArchive:
-
-providerTwitter: sylo
-providerLinkedIn: sylo.io
-providerFacebook: sylo.io
-providerReddit: sylo_io
-
+twitter: sylo
+social:
+  - https://www.linkedin.com/company/sylo.io
+  - https://www.facebook.com/sylo.io
+  - https://www.reddit.com/r/sylo_io
 redirect_from:
   - /io.sylo.dapp/
   - /posts/io.sylo.dapp/

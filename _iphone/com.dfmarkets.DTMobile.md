@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: deltastock
-providerLinkedIn: deltastock-ad
-providerFacebook: Deltastock
-providerReddit: 
-
-redirect_from:
-
+twitter: deltastock
+social:
+  - https://www.linkedin.com/company/deltastock-ad
+  - https://www.facebook.com/Deltastock
 ---
 
 {% include copyFromAndroid.html %}
