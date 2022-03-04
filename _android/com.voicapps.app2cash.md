@@ -8,20 +8,20 @@ users: 5000
 appId: com.voicapps.app2cash
 appCountry: us
 released: 2019-09-17
-updated: 2020-11-23
-version: "1.02.4"
+updated: 2022-03-03
+version: "2.0.2"
 stars: 
 ratings: 
 reviews: 
-size: 40M
+size: 45M
 website: http://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-01-09
+date: 2022-03-04
 signer: 
 reviewArchive:
 twitter: 2cashnetwork

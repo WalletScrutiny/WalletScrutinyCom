@@ -8,11 +8,11 @@ users: 100000
 appId: com.tzero
 appCountry: us
 released: 2019-07-24
-updated: 2022-01-20
+updated: 2022-03-03
 version: "2.0.10634"
-stars: 3.59
+stars: 3.55
 ratings: 322
-reviews: 131
+reviews: 132
 size: 66M
 website: http://www.tzero.com/crypto-app
 repository: 

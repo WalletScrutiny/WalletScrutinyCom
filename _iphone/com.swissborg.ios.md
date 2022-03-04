@@ -10,8 +10,8 @@ idd: 1442483481
 released: 2020-03-31
 updated: 2022-02-25
 version: "1.29.1"
-stars: 4.21868
-reviews: 878
+stars: 4.21932
+reviews: 880
 size: 71649280
 website: https://swissborg.com
 repository: 

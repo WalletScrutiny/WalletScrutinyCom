@@ -8,11 +8,11 @@ users: 500000
 appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
-updated: 2022-02-17
-version: "3.00.08.040"
-stars: 4.5544043
+updated: 2022-03-03
+version: "3.00.09.075"
+stars: 4.556701
 ratings: 33247
-reviews: 206
+reviews: 207
 size: 92M
 website: https://www.huobiwallet.com/
 repository: 

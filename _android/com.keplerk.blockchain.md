@@ -8,12 +8,12 @@ users: 10000
 appId: com.keplerk.blockchain
 appCountry: 
 released: 2020-02-14
-updated: 2021-11-25
-version: "3.4.0"
+updated: 2022-03-03
+version: "3.4.1"
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 31M
 website: https://bykep.com/
 repository: 
 issue: 

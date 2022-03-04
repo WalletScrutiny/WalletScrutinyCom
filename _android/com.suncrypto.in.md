@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-28
 updated: 2022-01-27
 version: "1.7"
-stars: 4.9805827
+stars: 4.980769
 ratings: 10629
-reviews: 750
+reviews: 745
 size: 14M
 website: https://suncrypto.in
 repository: 

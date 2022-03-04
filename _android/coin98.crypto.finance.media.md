@@ -8,9 +8,9 @@ users: 500000
 appId: coin98.crypto.finance.media
 appCountry: us
 released: 2019-12-19
-updated: 2022-02-21
-version: "11.3.1"
-stars: 4.1287127
+updated: 2022-03-02
+version: "11.3.2"
+stars: 4.079208
 ratings: 18096
 reviews: 275
 size: 256M

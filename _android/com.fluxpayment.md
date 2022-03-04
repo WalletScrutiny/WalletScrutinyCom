@@ -8,8 +8,8 @@ users: 10000
 appId: com.fluxpayment
 appCountry: us
 released: 2020-09-02
-updated: 2022-02-19
-version: "2.4.6"
+updated: 2022-03-03
+version: "2.5.91"
 stars: 4.0833335
 ratings: 372
 reviews: 8

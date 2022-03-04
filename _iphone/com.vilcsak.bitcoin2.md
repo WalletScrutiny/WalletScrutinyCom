@@ -10,8 +10,8 @@ idd: 886427730
 released: 2014-06-22
 updated: 2022-02-28
 version: "10.7.1"
-stars: 4.69606
-reviews: 1604765
+stars: 4.69607
+reviews: 1606415
 size: 108519424
 website: http://www.coinbase.com
 repository: 

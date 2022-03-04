@@ -8,11 +8,11 @@ appId: com.adenter.mercurycash
 appCountry: 
 idd: 1291394963
 released: 2017-10-07
-updated: 2021-09-16
-version: "4.3.3"
+updated: 2022-03-02
+version: "4.4.0"
 stars: 4.54412
 reviews: 68
-size: 88678400
+size: 66513920
 website: https://www.mercury.cash/
 repository: 
 issue: 
