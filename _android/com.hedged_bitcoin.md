@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hedged_bitcoin.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-30
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: HedgedBitcoin
@@ -30,6 +30,8 @@ social:
   - https://www.facebook.com/HedgedBitcoin
 redirect_from:
 ---
+
+**Update 2022-02-26**: This app is not available anymore.
 
 ## App Description
 

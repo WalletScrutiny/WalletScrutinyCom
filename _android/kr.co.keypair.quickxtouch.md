@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-10-01
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: quickxprotocol
@@ -31,6 +31,8 @@ social:
   - https://www.reddit.com/r/QuickX
 redirect_from:
 ---
+
+**Update 2022-02-20**: This app is not available anymore.
 
 <!-- nosource -->
 As far as we can see, this is the same as

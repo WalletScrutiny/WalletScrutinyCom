@@ -18,14 +18,16 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: ftbfs
-date: 2021-08-17
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: btccom_official
 social:
   - https://www.facebook.com/btccom
 ---
+
+**Update 2022-02-22**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

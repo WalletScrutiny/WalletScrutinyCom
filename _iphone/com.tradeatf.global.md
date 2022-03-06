@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tradeatf.global.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-13
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: TradeATF
@@ -28,5 +28,7 @@ social:
   - https://www.linkedin.com/company/globaltradeatf
   - https://www.facebook.com/TradeATF
 ---
+
+**Update 2022-02-20**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

@@ -19,13 +19,15 @@ repository:
 issue: 
 icon: com.btcus.pro.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: 
 social:
 redirect_from:
 ---
+
+**Update 2022-02-22**: This app is not available anymore.
 

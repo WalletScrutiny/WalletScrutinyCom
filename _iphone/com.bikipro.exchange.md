@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bikipro.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-15
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: BiKiEnglish
@@ -28,5 +28,7 @@ social:
   - https://www.facebook.com/bikiexchange
   - https://www.reddit.com/r/BiKi
 ---
+
+**Update 2022-02-25**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

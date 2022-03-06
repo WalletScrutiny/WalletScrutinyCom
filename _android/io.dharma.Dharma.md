@@ -19,13 +19,15 @@ repository:
 issue: 
 icon: io.dharma.Dharma.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-02-05
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: 
 social:
 redirect_from:
 ---
+
+**Update 2022-02-20**: This app is not available anymore.
 

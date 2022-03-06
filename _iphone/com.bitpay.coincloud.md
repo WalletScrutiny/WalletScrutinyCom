@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.bitpay.coincloud.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-05-12
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: CoinCloudATM
 social:
   - https://www.facebook.com/coincloudATM
 ---
+
+**Update 2022-02-27**: This app is not available anymore.
 
 It is very clear that the provider is claiming that this wallet is non-custodial with this early statement found in the [app store description](https://apps.apple.com/app/id1421460676).
 

@@ -19,9 +19,9 @@ repository: https://github.com/bitriel/bitriel-wallet
 issue: https://github.com/bitriel/bitriel-wallet/issues/26
 icon: com.selendra.secure_wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nonverifiable
-date: 2021-10-19
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: SelendraChain
@@ -29,6 +29,8 @@ social:
   - https://www.linkedin.com/company/selendrachain
 redirect_from:
 ---
+
+**Update 2022-02-26**: This app is not available anymore.
 
 ## App Description
 

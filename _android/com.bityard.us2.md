@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-19
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: BitYard_Global
@@ -30,6 +30,8 @@ social:
   - https://www.facebook.com/BitYardofficial
 redirect_from:
 ---
+
+**Update 2022-02-25**: This app is not available anymore.
 
 ## App Description
 

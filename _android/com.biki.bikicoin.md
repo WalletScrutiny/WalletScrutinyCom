@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.biki.bikicoin.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-15
+date: 2022-03-07
 signer: 
 reviewArchive:
 twitter: BiKiEnglish
@@ -30,6 +30,8 @@ social:
   - https://www.reddit.com/r/BiKi
 redirect_from:
 ---
+
+**Update 2022-02-27**: This app is not available anymore.
 
 From its Google Play Description:
 
