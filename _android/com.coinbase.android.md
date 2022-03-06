@@ -10,9 +10,9 @@ appCountry:
 released: 2013-03-01
 updated: 2022-02-28
 version: "10.7.0"
-stars: 4.15962
+stars: 4.1558557
 ratings: 666901
-reviews: 79463
+reviews: 79486
 size: Varies with device
 website: https://coinbase.com/
 repository: 

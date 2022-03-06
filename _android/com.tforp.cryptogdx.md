@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-02-04
 updated: 2021-05-28
 version: "2.3"
-stars: 4.5
+stars: 4.47
 ratings: 3455
-reviews: 152
+reviews: 153
 size: 9.2M
 website: https://trading4pro.com/
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-03-02
 version: "1.0.72"
 stars: 3.68
 ratings: 600
-reviews: 236
+reviews: 237
 size: 6.5M
 website: https://www.bitclover.io/
 repository: 

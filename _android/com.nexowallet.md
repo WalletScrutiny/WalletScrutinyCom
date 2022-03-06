@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-28
 updated: 2022-03-02
 version: "2.2.20"
-stars: 4.3366585
+stars: 4.329208
 ratings: 21149
-reviews: 1524
+reviews: 1525
 size: 96M
 website: https://nexo.io
 repository: 

@@ -10,9 +10,9 @@ appCountry: br
 released: 2019-09-17
 updated: 2022-03-04
 version: "5.3.8"
-stars: 3.8415842
+stars: 3.91
 ratings: 931
-reviews: 445
+reviews: 446
 size: 72M
 website: https://monnos.com
 repository: 

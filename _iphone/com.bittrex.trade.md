@@ -10,8 +10,8 @@ idd: 1465314783
 released: 2019-12-19
 updated: 2022-03-03
 version: "1.18.1"
-stars: 4.6574
-reviews: 2446
+stars: 4.65718
+reviews: 2459
 size: 77549568
 website: https://bittrex.com/mobile
 repository: 

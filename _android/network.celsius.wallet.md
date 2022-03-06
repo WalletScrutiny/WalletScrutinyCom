@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-04
 updated: 2022-02-05
 version: "5.0.0"
-stars: 3.9319148
+stars: 3.9531915
 ratings: 7732
-reviews: 1426
+reviews: 1427
 size: 102M
 website: https://celsius.network
 repository: 
