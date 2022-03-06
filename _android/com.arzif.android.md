@@ -8,8 +8,8 @@ users: 10000
 appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
-updated: 2022-02-12
-version: "1.0.4"
+updated: 2022-03-03
+version: "1.0.5"
 stars: 4.142857
 ratings: 687
 reviews: 12

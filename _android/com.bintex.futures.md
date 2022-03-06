@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bintex.futures.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-03-06
 signer: 
 reviewArchive:
 twitter: 

@@ -8,12 +8,12 @@ users: 50000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13
-updated: 2021-12-03
-version: "3.0.52"
+updated: 2022-03-03
+version: "3.0.57"
 stars: 4.0142856
 ratings: 826
 reviews: 17
-size: 48M
+size: 18M
 website: https://www.alvexo.com
 repository: 
 issue: 

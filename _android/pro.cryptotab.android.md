@@ -8,9 +8,9 @@ users: 500000
 appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24
-updated: 2022-02-25
+updated: 2022-03-04
 version: "4.1.82"
-stars: 3.7014563
+stars: 3.713253
 ratings: 63867
 reviews: 2174
 size: Varies with device

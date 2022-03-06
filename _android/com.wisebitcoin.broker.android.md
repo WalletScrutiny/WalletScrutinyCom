@@ -10,9 +10,9 @@ appCountry: cn
 released: 2021-01-04
 updated: 2021-11-16
 version: "3.7.4"
-stars: 4
+stars: 3.9714286
 ratings: 116
-reviews: 72
+reviews: 73
 size: 32M
 website: https://www.wisebitcoin.com
 repository: 

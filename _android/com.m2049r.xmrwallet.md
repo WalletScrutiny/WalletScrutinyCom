@@ -10,9 +10,9 @@ appCountry:
 released: 2017-09-29
 updated: 2022-01-05
 version: "2.3.1 'Doménikos'"
-stars: 3.05
+stars: 3.08
 ratings: 821
-reviews: 150
+reviews: 151
 size: Varies with device
 website: https://monerujo.io/
 repository: 

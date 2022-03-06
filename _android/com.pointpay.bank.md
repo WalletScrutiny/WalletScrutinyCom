@@ -10,9 +10,9 @@ appCountry:
 released: 2020-07-21
 updated: 2022-02-14
 version: "5.7.6"
-stars: 4.68
+stars: 4.57
 ratings: 3831
-reviews: 96
+reviews: 95
 size: 149M
 website: https://pointpay.io/
 repository: 

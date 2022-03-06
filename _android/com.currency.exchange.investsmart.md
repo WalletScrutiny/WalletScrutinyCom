@@ -8,9 +8,9 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2022-02-25
-version: "1.22.2"
-stars: 4.3235292
+updated: 2022-03-03
+version: "1.22.4"
+stars: 4.330097
 ratings: 216
 reviews: 74
 size: 17M

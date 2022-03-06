@@ -4,11 +4,11 @@ title: "Genesis Block - digital banking powered by crypto"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.genesisblock.production
 appCountry: us
 released: 2020-05-06
-updated: 2022-03-01
+updated: 2022-03-04
 version: "0.1.71"
 stars: 3.903226
 ratings: 57

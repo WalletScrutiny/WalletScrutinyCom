@@ -23,7 +23,7 @@ async function refresh() {
       msg = newMsg
       msgAgeMs = 0
     }
-    if (playStore.stats.remaining + appStore.stats.remaining == 0 || msgAgeMs > 10000) {
+    if (playStore.stats.remaining + appStore.stats.remaining == 0 || msgAgeMs > 30000) {
       console.log(`
         Finished.`)
       clearInterval(i)

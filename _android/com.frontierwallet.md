@@ -12,7 +12,7 @@ updated: 2022-02-07
 version: "4.2.0"
 stars: 4.76
 ratings: 1003
-reviews: 90
+reviews: 89
 size: 42M
 website: https://frontier.xyz/
 repository: 

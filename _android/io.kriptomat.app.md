@@ -9,11 +9,11 @@ appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
 updated: 2022-03-01
-version: "2.0.12"
+version: "2.0.26"
 stars: 
 ratings: 
 reviews: 
-size: 45M
+size: 38M
 website: https://www.kriptomat.io
 repository: 
 issue: 

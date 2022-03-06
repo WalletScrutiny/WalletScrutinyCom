@@ -8,12 +8,12 @@ users: 10000
 appId: com.freeda.freedaapp
 appCountry: us
 released: 2021-04-13
-updated: 2022-02-15
-version: "2.1.0"
-stars: 4.885246
+updated: 2022-03-03
+version: "2.1.1"
+stars: 4.890625
 ratings: 80
-reviews: 47
-size: 34M
+reviews: 50
+size: 35M
 website: https://www.freeda.io
 repository: 
 issue: 

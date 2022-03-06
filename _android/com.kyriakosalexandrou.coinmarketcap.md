@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-05-16
 updated: 2022-03-01
 version: "Varies with device"
-stars: 4.0246916
+stars: 4.015432
 ratings: 26669
-reviews: 1346
+reviews: 1347
 size: Varies with device
 website: https://www.dopamineapp.com
 repository: 

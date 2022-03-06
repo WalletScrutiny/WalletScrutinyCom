@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2022-02-18
-version: "2.3.11"
-stars: 3.6766028
+updated: 2022-03-02
+version: "2.3.12"
+stars: 3.8087912
 ratings: 4416
-reviews: 2751
+reviews: 2757
 size: 92M
 website: https://www.nuri.com
 repository: 

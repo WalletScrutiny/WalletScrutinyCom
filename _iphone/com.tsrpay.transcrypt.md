@@ -10,8 +10,8 @@ idd: 1446719209
 released: 2019-01-16
 updated: 2022-02-17
 version: "2.08.4"
-stars: 4.45455
-reviews: 22
+stars: 4.43478
+reviews: 23
 size: 89550848
 website: https://tizer.io
 repository: 

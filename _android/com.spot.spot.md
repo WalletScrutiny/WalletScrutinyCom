@@ -10,9 +10,9 @@ appCountry:
 released: 2018-08-02
 updated: 2022-03-01
 version: "4.55.0"
-stars: 4.352
+stars: 4.354839
 ratings: 4767
-reviews: 485
+reviews: 486
 size: 94M
 website: https://www.spot-bitcoin.com
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-11
 updated: 2021-11-13
 version: "2.08.01"
-stars: 2.2333333
+stars: 2.1935484
 ratings: 183
-reviews: 25
+reviews: 26
 size: 59M
 website: https://wallet.atarichain.com/
 repository: 

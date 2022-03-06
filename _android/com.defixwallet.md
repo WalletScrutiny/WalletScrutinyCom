@@ -4,7 +4,7 @@ title: "Defix Wallet"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: com.defixwallet
 appCountry: 
 released: 2021-09-22

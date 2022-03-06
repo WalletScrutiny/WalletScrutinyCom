@@ -4,7 +4,7 @@ title: "Arion Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.arion.wallet
 appCountry: 
 released: 2019-10-10

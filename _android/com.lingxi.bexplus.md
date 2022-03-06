@@ -10,9 +10,9 @@ appCountry:
 released: 2018-10-29
 updated: 2022-02-28
 version: "2.1.8"
-stars: 4.9669724
+stars: 4.967033
 ratings: 6810
-reviews: 1639
+reviews: 1640
 size: 12M
 website: http://www.bexplus.com
 repository: 

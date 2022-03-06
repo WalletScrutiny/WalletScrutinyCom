@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-10
 updated: 2019-12-05
 version: "2.0.5"
-stars: 3.13
+stars: 3.1089108
 ratings: 1529
-reviews: 194
+reviews: 195
 size: 38M
 website: https://www.ethos.io/
 repository: 

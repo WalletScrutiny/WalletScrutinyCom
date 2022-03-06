@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-19
 updated: 2022-02-09
 version: "2.0.8"
-stars: 4.705056
+stars: 4.678279
 ratings: 15997
-reviews: 643
+reviews: 653
 size: 51M
 website: https://phemex.com
 repository: 

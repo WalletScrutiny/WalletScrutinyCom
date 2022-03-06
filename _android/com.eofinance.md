@@ -4,7 +4,7 @@ title: "EO.Finance: Buy and Sell Bitcoin. Crypto Wallet"
 altTitle: 
 authors:
 
-users: 50000
+users: 100000
 appId: com.eofinance
 appCountry: 
 released: 2018-08-14

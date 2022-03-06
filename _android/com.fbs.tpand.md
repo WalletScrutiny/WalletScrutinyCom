@@ -10,9 +10,9 @@ appCountry:
 released: 2019-03-25
 updated: 2022-02-16
 version: "1.46.2"
-stars: 4.7788463
+stars: 4.7596154
 ratings: 128577
-reviews: 135
+reviews: 134
 size: 23M
 website: https://fbs.com/
 repository: 

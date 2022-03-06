@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-17
 updated: 2022-03-03
 version: "3.00.09.075"
-stars: 4.556701
+stars: 4.5589743
 ratings: 33247
-reviews: 207
+reviews: 208
 size: 92M
 website: https://www.huobiwallet.com/
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-09-09
 updated: 2021-12-14
 version: "2.7.2"
-stars: 4.571625
+stars: 4.5739727
 ratings: 78687
-reviews: 2525
+reviews: 2526
 size: 17M
 website: https://thecrypto.app
 repository: 
