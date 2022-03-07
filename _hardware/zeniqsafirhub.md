@@ -7,12 +7,13 @@ released:
 discontinued: 
 updated:
 version:
+binaries:
 dimensions:   
-weight: 
-website: https://zeniq.com/
+weight:
+provider: ZENIQ Technologies Ltd. 
+providerWebsite: https://zeniq.com/
+website:
 shop: 
-company: ZENIQ Technologies Ltd.
-companywebsite: https://zeniq-ltd.com/
 country: AE
 price: 1998EUR
 repository:
@@ -24,12 +25,9 @@ verdict: nosource
 date: 2022-03-02
 signer:
 reviewArchive:
-
-
-providerTwitter:
-providerLinkedIn: zeniq-tech
-providerFacebook:
-providerReddit:
+twitter: zeniq-tech
+social: 
+  -
 ---
 
 

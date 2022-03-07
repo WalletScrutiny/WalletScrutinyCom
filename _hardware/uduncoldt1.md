@@ -4,15 +4,16 @@ appId: uduncoldt1
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
 version:
+binaries:
 dimensions: [118, 66, 9.7] 
-weight: 
-website: https://www.uduncloud.com/en/
+weight:
+provider: 
+providerWebsite:: https://www.uduncloud.com/en/
+website: 
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/uduncloud
@@ -35,7 +36,7 @@ social:
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 Like Ellipal, it resembles a mobile phone with a screen display and button.
 
-From the website's english alternative [in the hardware wallet's page:](https://www.uduncloud.com/en/products/hardware)
+From the website's English alternative [in the hardware wallet's page:](https://www.uduncloud.com/en/products/hardware)
 
 > Integrated and sealed all-metal body, a cold wallet that safely isolates the network.
 
