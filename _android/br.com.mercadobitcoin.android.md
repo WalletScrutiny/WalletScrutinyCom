@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-25
 updated: 2022-02-24
 version: "1.25.0"
-stars: 4.4
+stars: 4.39
 ratings: 51097
 reviews: 47
 size: 92M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: MercadoBitcoin
-providerLinkedIn: mercado-bitcoin
-providerFacebook: MercadoBitcoin
-providerReddit: 
-
+twitter: MercadoBitcoin
+social:
+  - https://www.linkedin.com/company/mercado-bitcoin
+  - https://www.facebook.com/MercadoBitcoin
 redirect_from:
-
 ---
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.

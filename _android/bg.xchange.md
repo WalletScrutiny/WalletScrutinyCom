@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-22
 updated: 2022-02-19
 version: "2.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 29M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: xchangebg
-providerLinkedIn: 
-providerFacebook: xchangebg
-providerReddit: 
-
+twitter: xchangebg
+social:
+  - https://www.facebook.com/xchangebg
 redirect_from:
-
 ---
 
 ## App Description

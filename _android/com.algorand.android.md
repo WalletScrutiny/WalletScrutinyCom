@@ -9,10 +9,10 @@ appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
 updated: 2022-02-24
-version: "5.0.1"
-stars: 4.5
+version: "5.0.3"
+stars: 4.483945
 ratings: 14091
-reviews: 987
+reviews: 993
 size: 63M
 website: https://www.algorand.com
 repository: 
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-12-06
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.algorand.android/
 ---

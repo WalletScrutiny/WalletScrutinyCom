@@ -10,8 +10,8 @@ idd: 1447206611
 released: 2019-01-26
 updated: 2022-02-22
 version: "5.13.1"
-stars: 3.97826
-reviews: 46
+stars: 4.02083
+reviews: 48
 size: 44702720
 website: https://dcentwallet.com/
 repository: https://github.com/DcentWallet
@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: DCENTwallets
-providerLinkedIn: 
-providerFacebook: DcentWalletGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: DCENTwallets
+social:
+  - https://www.facebook.com/DcentWalletGlobal
 ---
 
 {% include copyFromAndroid.html %}

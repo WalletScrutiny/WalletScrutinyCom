@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-31
 updated: 2022-02-24
 version: "3.15.1"
-stars: 4.3
+stars: 4.2884617
 ratings: 107859
-reviews: 413
+reviews: 415
 size: 61M
 website: https://www.bybit.com
 repository: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: Bybit_Official
-providerLinkedIn: bybitexchange
-providerFacebook: Bybit
-providerReddit: Bybit
-
+twitter: Bybit_Official
+social:
+  - https://www.linkedin.com/company/bybitexchange
+  - https://www.facebook.com/Bybit
+  - https://www.reddit.com/r/Bybit
 redirect_from:
-
 ---
 
 > "Bybit is the World's fastest-growing and one of the largest crypto

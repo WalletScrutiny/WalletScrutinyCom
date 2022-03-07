@@ -4,13 +4,13 @@ title: "Coincast — Send Crypto"
 altTitle: 
 authors:
 
-users: 1000
+users: 5000
 appId: co.minty.coincast
 appCountry: 
 released: 2021-07-18
-updated: 2022-02-28
-version: "1.2.7"
-stars: 4.2
+updated: 2022-03-05
+version: "1.2.8"
+stars: 4.3333335
 ratings: 8
 reviews: 2
 size: 49M
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

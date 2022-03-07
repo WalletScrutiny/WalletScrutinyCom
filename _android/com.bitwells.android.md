@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-05-17
 updated: 2021-06-02
 version: "1.0.5"
-stars: 4.6
+stars: 4.620155
 ratings: 1307
 reviews: 1260
 size: 11M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: bitwells
-providerLinkedIn: 
-providerFacebook: Bitwells
-providerReddit: 
-
+twitter: bitwells
+social:
+  - https://www.facebook.com/Bitwells
 redirect_from:
-
 ---
 
 ## App Description

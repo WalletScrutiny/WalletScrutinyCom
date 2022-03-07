@@ -24,12 +24,8 @@ verdict: nowallet
 date: 2021-10-06
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.thinkdevs.cryptomarket/
 ---

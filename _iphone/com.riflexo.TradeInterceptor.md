@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: ThinkMarketscom
-providerLinkedIn: thinkmarkets
-providerFacebook: ThinkMarkets
-providerReddit: 
-
-redirect_from:
-
+twitter: ThinkMarketscom
+social:
+  - https://www.linkedin.com/company/thinkmarkets
+  - https://www.facebook.com/ThinkMarkets
 ---
 
 {% include copyFromAndroid.html %}

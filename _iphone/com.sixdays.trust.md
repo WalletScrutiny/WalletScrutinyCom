@@ -23,14 +23,10 @@ verdict: nosource
 date: 2020-12-23
 signer: 
 reviewArchive:
-
-providerTwitter: trustwalletapp
-providerLinkedIn: 
-providerFacebook: trustwalletapp
-providerReddit: trustapp
-
-redirect_from:
-
+twitter: trustwalletapp
+social:
+  - https://www.facebook.com/trustwalletapp
+  - https://www.reddit.com/r/trustapp
 ---
 
 On the App Store they claim:

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-28
 updated: 2022-02-11
 version: "2.9.10"
-stars: 3.5
+stars: 3.4736843
 ratings: 9232
 reviews: 8
 size: 30M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: CoinoneOfficial
-providerLinkedIn: 
-providerFacebook: coinone
-providerReddit: 
-
+twitter: CoinoneOfficial
+social:
+  - https://www.facebook.com/coinone
 redirect_from:
-
 ---
 
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.

@@ -24,12 +24,8 @@ verdict: wip
 date: 2021-02-04
 signer: 
 reviewArchive:
-
-providerTwitter: lightning
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: lightning
+social:
 redirect_from:
   - /engineering.lightning.LightningMainnet/
   - /posts/engineering.lightning.LightningMainnet/

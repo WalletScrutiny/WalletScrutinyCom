@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: upbit-official
-providerFacebook: upbit.exchange
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/upbit-official
+  - https://www.facebook.com/upbit.exchange
 ---
 
 {% include copyFromAndroid.html %}

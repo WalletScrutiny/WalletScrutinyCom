@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: rainfinancial
-providerLinkedIn: rainfinancial
-providerFacebook: rainfinancial
-providerReddit: 
-
-redirect_from:
-
+twitter: rainfinancial
+social:
+  - https://www.linkedin.com/company/rainfinancial
+  - https://www.facebook.com/rainfinancial
 ---
 
  {% include copyFromAndroid.html %}

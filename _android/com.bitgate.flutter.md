@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2022-02-03
 version: "0.8.4"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 58M
@@ -24,14 +24,11 @@ verdict: fewusers
 date: 2022-01-13
 signer: 
 reviewArchive:
-
-providerTwitter: bitgatex
-providerLinkedIn: bitgate
-providerFacebook: bitgatex
-providerReddit: 
-
+twitter: bitgatex
+social:
+  - https://www.linkedin.com/company/bitgate
+  - https://www.facebook.com/bitgatex
 redirect_from:
-
 ---
 
 The app only has 100+ downloads. 

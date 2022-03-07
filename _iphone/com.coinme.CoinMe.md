@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Coinme
-providerLinkedIn: coinme
-providerFacebook: Coinme
-providerReddit: 
-
-redirect_from:
-
+twitter: Coinme
+social:
+  - https://www.linkedin.com/company/coinme
+  - https://www.facebook.com/Coinme
 ---
 
  {% include copyFromAndroid.html %}

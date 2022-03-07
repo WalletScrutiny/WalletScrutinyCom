@@ -25,14 +25,9 @@ verdict: custodial
 date: 2021-04-29
 signer: 
 reviewArchive:
-
-providerTwitter: roqqupay
-providerLinkedIn: 
-providerFacebook: roqqupay
-providerReddit: 
-
-redirect_from:
-
+twitter: roqqupay
+social:
+  - https://www.facebook.com/roqqupay
 ---
 
 **Update 2022-01-05**

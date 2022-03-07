@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: CoinbaseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinbaseWallet
+social:
 ---
 
 This is the iPhone version of the Android

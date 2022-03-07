@@ -10,8 +10,8 @@ idd: 1346160076
 released: 2018-05-29
 updated: 2022-02-15
 version: "6.0.0"
-stars: 3.3114
-reviews: 684
+stars: 3.30803
+reviews: 685
 size: 47068160
 website: https://bitbns.com
 repository: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: bitbns
-providerLinkedIn: bitbnsinc
-providerFacebook: bitbns
-providerReddit: Bitbns
-
-redirect_from:
-
+twitter: bitbns
+social:
+  - https://www.linkedin.com/company/bitbnsinc
+  - https://www.facebook.com/bitbns
+  - https://www.reddit.com/r/Bitbns
 ---
 
 From their linkedin page:

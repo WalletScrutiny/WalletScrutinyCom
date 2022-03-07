@@ -11,8 +11,8 @@ idd: 1569309855
 released: 2021-06-15
 updated: 2022-02-25
 version: "1.7"
-stars: 4.875
-reviews: 8
+stars: 4.92856
+reviews: 14
 size: 70932480
 website: https://crypto.com/exchange
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: cryptocom
-providerLinkedIn: cryptocom
-providerFacebook: CryptoComOfficial
-providerReddit: Crypto_com
-
-redirect_from:
-
+twitter: cryptocom
+social:
+  - https://www.linkedin.com/company/cryptocom
+  - https://www.facebook.com/CryptoComOfficial
+  - https://www.reddit.com/r/Crypto_com
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-03-17
 updated: 2022-02-11
 version: "4.7.47"
-stars: 3.8
+stars: 3.8428571
 ratings: 749
 reviews: 60
 size: 53M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Hoo_exchange
-providerLinkedIn: 
-providerFacebook: hooexchange
-providerReddit: HooExchange
-
+twitter: Hoo_exchange
+social:
+  - https://www.facebook.com/hooexchange
+  - https://www.reddit.com/r/HooExchange
 redirect_from:
-
 ---
 
 ## App Description

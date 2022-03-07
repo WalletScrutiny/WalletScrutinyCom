@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: koinstrap
-providerLinkedIn: 
-providerFacebook: koinstrap
-providerReddit: 
-
-redirect_from:
-
+twitter: koinstrap
+social:
+  - https://www.facebook.com/koinstrap
 ---
 
 {% include copyFromAndroid.html %}

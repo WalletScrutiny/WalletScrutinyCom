@@ -23,14 +23,11 @@ verdict: nobtc
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: myetherwallet
-providerLinkedIn: myetherwallet
-providerFacebook: MyEtherWallet
-providerReddit: MyEtherWallet
-
-redirect_from:
-
+twitter: myetherwallet
+social:
+  - https://www.linkedin.com/company/myetherwallet
+  - https://www.facebook.com/MyEtherWallet
+  - https://www.reddit.com/r/MyEtherWallet
 ---
 
 {% include copyFromAndroid.html %}

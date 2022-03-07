@@ -23,14 +23,9 @@ verdict: obfuscated
 date: 2022-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: atomicwallet
-providerLinkedIn: 
-providerFacebook: atomicwallet
-providerReddit: 
-
-redirect_from:
-
+twitter: atomicwallet
+social:
+  - https://www.facebook.com/atomicwallet
 ---
 
 **Update 2022-01-02**: This app is no more available.

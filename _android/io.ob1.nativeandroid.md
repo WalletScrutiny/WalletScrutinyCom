@@ -29,11 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
-providerTwitter: HavenPrivacy
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: havenapp
-
+twitter: HavenPrivacy
+social:
+  - https://www.reddit.com/r/havenapp
 redirect_from:
   - /io.ob1.nativeandroid/
 ---

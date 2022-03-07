@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-30
 updated: 2021-03-02
 version: "1.0.4.210302"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 27M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-02-26
 signer: 
 reviewArchive:
-
-providerTwitter: terrabitcrypto
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: terrabitcrypto
+social:
 redirect_from:
-
 ---
 
 ## App Description

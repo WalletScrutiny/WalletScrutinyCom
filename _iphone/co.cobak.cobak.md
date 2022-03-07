@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: CobakOfficial
-providerLinkedIn: cobak
-providerFacebook: coindaebak
-providerReddit: 
-
-redirect_from:
-
+twitter: CobakOfficial
+social:
+  - https://www.linkedin.com/company/cobak
+  - https://www.facebook.com/coindaebak
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ idd: 1288676542
 released: 2017-09-25
 updated: 2022-02-22
 version: "2022.1.0"
-stars: 4.7488
-reviews: 9829
+stars: 4.74883
+reviews: 9842
 size: 86573056
 website: https://delta.app
 repository: 
@@ -23,14 +23,8 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

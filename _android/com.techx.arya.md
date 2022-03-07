@@ -8,12 +8,12 @@ users: 100000
 appId: com.techx.arya
 appCountry: us
 released: 2019-09-10
-updated: 2021-12-13
-version: "2.13.0"
-stars: 3.7
+updated: 2022-03-01
+version: "2.15.0"
+stars: 3.7142856
 ratings: 379
 reviews: 7
-size: 63M
+size: 59M
 website: https://www.aryatrading.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: TheAryaApp
-providerLinkedIn: thearyaapp
-providerFacebook: WeloveArya
-providerReddit: 
-
+twitter: TheAryaApp
+social:
+  - https://www.linkedin.com/company/thearyaapp
+  - https://www.facebook.com/WeloveArya
 redirect_from:
-
 ---
 
 From its Google Play description:

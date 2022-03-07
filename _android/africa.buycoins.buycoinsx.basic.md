@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-16
 updated: 2022-02-11
 version: "1.1.80"
-stars: 4.3
+stars: 4.3157897
 ratings: 281
 reviews: 14
 size: 34M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: buycoins
-providerLinkedIn: 
-providerFacebook: buycoinsafrica
-providerReddit: 
-
+twitter: buycoins
+social:
+  - https://www.facebook.com/buycoinsafrica
 redirect_from:
-
 ---
 
 ## Update 2021-10-08

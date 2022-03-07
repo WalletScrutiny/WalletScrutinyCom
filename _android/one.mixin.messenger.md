@@ -10,9 +10,9 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2022-02-25
-version: "0.34.6"
-stars: 4.8
+updated: 2022-03-01
+version: "0.35.2"
+stars: 4.754902
 ratings: 1252
 reviews: 147
 size: 30M
@@ -26,14 +26,11 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: MixinMessenger
-providerLinkedIn: 
-providerFacebook: MixinNetwork
-providerReddit: mixin
-
+twitter: MixinMessenger
+social:
+  - https://www.facebook.com/MixinNetwork
+  - https://www.reddit.com/r/mixin
 redirect_from:
-
 ---
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to

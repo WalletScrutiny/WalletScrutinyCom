@@ -4,33 +4,32 @@ appId: ledgerhw1
 authors:
 - kiwilamb
 - leo
-released:
-discontinued: # date
-updated:
-version:
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Ledger"
+providerWebsite: https://www.ledger.com
 website: 
 shop: 
-company: Ledger
-companywebsite: https://www.ledger.com
 country: FR
 price: 
 repository: https://github.com/LedgerHQ
-issue:
+issue: 
 icon: ledgerhw1.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: noita
 date: 2022-01-22
-signer:
-reviewArchive:
-
-
-providerTwitter: Ledger
-providerLinkedIn: ledgerhq
-providerFacebook: Ledger
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Ledger
+social: 
+  - https://www.linkedin.com/company/ledgerhq
+  - https://www.facebook.com/Ledger
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-01
 updated: 2021-10-01
 version: "1.1.39"
-stars: 4.1
+stars: 4.09
 ratings: 883
 reviews: 91
 size: 38M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2019-11-23
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This wallet sounds like non-custodial. From their description:

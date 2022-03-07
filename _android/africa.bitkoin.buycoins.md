@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: buycoins_africa
-providerLinkedIn: 
-providerFacebook: buycoinsafrica
-providerReddit: 
-
+twitter: buycoins_africa
+social:
+  - https://www.facebook.com/buycoinsafrica
 redirect_from:
-
 ---
 
 This app is not on the app stores anymore and given the many scam accusations it

@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
-dimensions:
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
 weight: 
+provider: "Skycoin"
+providerWebsite: https://www.skycoin.com/
 website: https://www.skycoin.com/skywallet/
 shop: https://store.skycoin.com/products/skywallet
-company: Skycoin
-companywebsite: https://www.skycoin.com/
 country: 
 price: 39USD
 repository: https://github.com/skycoinproject
-issue:
+issue: 
 icon: skywallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
 date: 2021-12-10
-signer:
-reviewArchive:
-
-
-providerTwitter: skycoinproject
-providerLinkedIn: skycoin
-providerFacebook: SkycoinOfficial
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: skycoinproject
+social: 
+  - https://www.linkedin.com/company/skycoin
+  - https://www.facebook.com/SkycoinOfficial
 ---
-
 
 As of November 29, 2021, the Skywallet is [out of stock](https://twitter.com/BitcoinWalletz/status/1465229709285859328). 
 

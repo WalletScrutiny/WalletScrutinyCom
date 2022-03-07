@@ -25,14 +25,11 @@ verdict: custodial
 date: 2021-05-11
 signer: 
 reviewArchive:
-
-providerTwitter: AscendEX_Global
-providerLinkedIn: 
-providerFacebook: AscendEXOfficial
-providerReddit: AscendEX_Official
-
+twitter: AscendEX_Global
+social:
+  - https://www.facebook.com/AscendEXOfficial
+  - https://www.reddit.com/r/AscendEX_Official
 redirect_from:
-
 ---
 
 This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

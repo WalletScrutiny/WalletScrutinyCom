@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: BitBay
-providerLinkedIn: bitbay
-providerFacebook: BitBay
-providerReddit: BitBayExchange
-
-redirect_from:
-
+twitter: BitBay
+social:
+  - https://www.linkedin.com/company/bitbay
+  - https://www.facebook.com/BitBay
+  - https://www.reddit.com/r/BitBayExchange
 ---
 
 This app's description loses no word on who holds the keys to your coins. Their

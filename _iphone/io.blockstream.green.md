@@ -23,14 +23,10 @@ verdict: nonverifiable
 date: 2020-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: Blockstream
-providerLinkedIn: blockstream
-providerFacebook: Blockstream
-providerReddit: 
-
-redirect_from:
-
+twitter: Blockstream
+social:
+  - https://www.linkedin.com/company/blockstream
+  - https://www.facebook.com/Blockstream
 ---
 
 The description in the App Store is not explicit about the app being

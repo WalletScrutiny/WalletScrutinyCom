@@ -8,11 +8,11 @@ appId: com.adenter.mercurycash
 appCountry: 
 idd: 1291394963
 released: 2017-10-07
-updated: 2021-09-16
-version: "4.3.3"
+updated: 2022-03-02
+version: "4.4.0"
 stars: 4.54412
 reviews: 68
-size: 88678400
+size: 66513920
 website: https://www.mercury.cash/
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: mercurycash
-providerLinkedIn: 
-providerFacebook: mercurycash
-providerReddit: 
-
-redirect_from:
-
+twitter: mercurycash
+social:
+  - https://www.facebook.com/mercurycash
 ---
 
 This app makes no claims about self-custody so we have to assume it is a

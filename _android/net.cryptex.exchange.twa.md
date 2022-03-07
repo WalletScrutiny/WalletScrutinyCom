@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-29
 updated: 2021-04-29
 version: "3.0.0.0"
-stars: 4.9
+stars: 4.866667
 ratings: 474
 reviews: 15
 size: 2.6M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

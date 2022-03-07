@@ -10,7 +10,7 @@ appCountry: gb
 released: 2021-04-28
 updated: 2021-12-30
 version: "1.13"
-stars: 4.9
+stars: 4.9333334
 ratings: 273
 reviews: 8
 size: 49M
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: diviproject
-providerLinkedIn: 
-providerFacebook: diviproject
-providerReddit: DiviProject
-
+twitter: diviproject
+social:
+  - https://www.facebook.com/diviproject
+  - https://www.reddit.com/r/DiviProject
 redirect_from:
-
 ---
 
 ## App Description

@@ -23,14 +23,11 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: sylo
-providerLinkedIn: sylo.io
-providerFacebook: sylo.io
-providerReddit: sylo_io
-
-redirect_from:
-
+twitter: sylo
+social:
+  - https://www.linkedin.com/company/sylo.io
+  - https://www.facebook.com/sylo.io
+  - https://www.reddit.com/r/sylo_io
 ---
 
 {% include copyFromAndroid.html %}

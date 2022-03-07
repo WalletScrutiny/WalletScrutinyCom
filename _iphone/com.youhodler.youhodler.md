@@ -10,8 +10,8 @@ idd: 1469351696
 released: 2019-07-25
 updated: 2022-02-22
 version: "4.0.0"
-stars: 4.76577
-reviews: 222
+stars: 4.75455
+reviews: 220
 size: 47223808
 website: https://www.youhodler.com/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: youhodler
-providerLinkedIn: youhodler
-providerFacebook: YouHodler
-providerReddit: 
-
-redirect_from:
-
+twitter: youhodler
+social:
+  - https://www.linkedin.com/company/youhodler
+  - https://www.facebook.com/YouHodler
 ---
 
 This app is the interface to an exchange and might have a non-custodial part to

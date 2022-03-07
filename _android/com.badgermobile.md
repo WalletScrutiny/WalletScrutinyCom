@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-10
 updated: 2021-11-22
 version: "1.13.17"
-stars: 3.7
+stars: 3.6818182
 ratings: 168
 reviews: 10
 size: 33M
@@ -24,12 +24,9 @@ verdict: nobtc
 date: 2019-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: badgerwallet
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: 
-
+twitter: badgerwallet
+social:
+  - https://www.facebook.com/buy.bitcoin.news
 redirect_from:
   - /com.badgermobile/
   - /posts/com.badgermobile/

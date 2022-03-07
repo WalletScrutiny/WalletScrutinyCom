@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-09
 updated: 2022-02-12
 version: "1.0.25"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 24M
@@ -24,14 +24,12 @@ verdict: nobtc
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: QuarashiN
-providerLinkedIn: quarashi-network
-providerFacebook: QuarashiNetwork
-providerReddit: Quarashinetwork
-
+twitter: QuarashiN
+social:
+  - https://www.linkedin.com/company/quarashi-network
+  - https://www.facebook.com/QuarashiNetwork
+  - https://www.reddit.com/r/Quarashinetwork
 redirect_from:
-
 ---
 
 ## App Description

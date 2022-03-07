@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: changelly_team
-providerLinkedIn: 
-providerFacebook: changellyteam
-providerReddit: Changelly
-
+twitter: changelly_team
+social:
+  - https://www.facebook.com/changellyteam
+  - https://www.reddit.com/r/Changelly
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-09-17
 updated: 2022-02-16
 version: "v1.0.12.6"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.9M
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2020-06-20
 signer: 
 reviewArchive:
-
-providerTwitter: AnkerPay
-providerLinkedIn: 
-providerFacebook: AnkerPlatform
-providerReddit: 
-
+twitter: AnkerPay
+social:
+  - https://www.facebook.com/AnkerPlatform
 redirect_from:
   - /com.ankerpay.wallet/
   - /posts/com.ankerpay.wallet/

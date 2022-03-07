@@ -10,9 +10,9 @@ appCountry:
 released: 2016-11-30
 updated: 2022-02-22
 version: "4.1.11"
-stars: 4.9
+stars: 4.89
 ratings: 20365
-reviews: 209
+reviews: 216
 size: 16M
 website: https://www.unocoin.com
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Unocoin
-providerLinkedIn: unocoin
-providerFacebook: unocoin
-providerReddit: 
-
+twitter: Unocoin
+social:
+  - https://www.linkedin.com/company/unocoin
+  - https://www.facebook.com/unocoin
 redirect_from:
   - /com.unocoin.unocoinwallet/
   - /posts/com.unocoin.unocoinwallet/

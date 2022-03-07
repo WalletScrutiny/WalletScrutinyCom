@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-10
 updated: 2021-03-10
 version: "0.19.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 45M
@@ -19,18 +19,13 @@ repository:
 issue: 
 icon: com.bintex.futures.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-03-06
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

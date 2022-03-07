@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: 
-
-redirect_from:
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
 ---
 
 {% include copyFromAndroid.html %}

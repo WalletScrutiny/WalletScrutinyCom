@@ -10,8 +10,8 @@ idd: 1512374471
 released: 2020-05-20
 updated: 2022-01-28
 version: "1.1.8"
-stars: 3.71111
-reviews: 135
+stars: 3.70896
+reviews: 134
 size: 70457344
 website: https://ftx.com
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-09
 signer: 
 reviewArchive:
-
-providerTwitter: FTX_Official
-providerLinkedIn: 
-providerFacebook: ftx.official
-providerReddit: 
-
-redirect_from:
-
+twitter: FTX_Official
+social:
+  - https://www.facebook.com/ftx.official
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

@@ -10,7 +10,7 @@ appCountry:
 released: 2017-06-19
 updated: 2022-02-22
 version: "1.34.0"
-stars: 4.1
+stars: 4.2520432
 ratings: 7425
 reviews: 180
 size: 32M
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: Poloniex
-providerLinkedIn: 
-providerFacebook: poloniex
-providerReddit: 
-
+twitter: Poloniex
+social:
+  - https://www.facebook.com/poloniex
 redirect_from:
   - /com.plunien.poloniex/
   - /posts/com.plunien.poloniex/

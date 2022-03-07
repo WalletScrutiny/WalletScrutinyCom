@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-07-30
 updated: 2022-01-18
 version: "4.1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 268M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: BitoEX_Official
-providerLinkedIn: 
-providerFacebook: bitopro.bito
-providerReddit: 
-
+twitter: BitoEX_Official
+social:
+  - https://www.facebook.com/bitopro.bito
 redirect_from:
-
 ---
 
 Most centralized cryptocurrency exchanges do not provide the private keys to the wallets on the app or web platform. 

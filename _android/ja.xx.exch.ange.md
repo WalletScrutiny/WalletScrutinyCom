@@ -29,13 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
   verdict: fake
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-12-27**: This app is no more.

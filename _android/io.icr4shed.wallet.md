@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-10
 updated: 2022-01-28
 version: "3.61"
-stars: 4.6
+stars: 4.571429
 ratings: 87
 reviews: 16
 size: 35M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

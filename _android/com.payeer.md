@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-03
 updated: 2020-12-24
 version: "Varies with device"
-stars: 4.3
+stars: 4.33
 ratings: 36999
 reviews: 150
 size: Varies with device
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-12-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: payeercoins
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/payeercoins
 redirect_from:
-
 ---
 
 Taken from the Play Store description:

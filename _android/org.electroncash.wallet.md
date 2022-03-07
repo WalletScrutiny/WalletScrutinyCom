@@ -10,7 +10,7 @@ appCountry:
 released: 2018-12-08
 updated: 2021-10-03
 version: "4.2.5-5"
-stars: 4.2
+stars: 4.2352943
 ratings: 191
 reviews: 10
 size: 36M
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2019-12-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /org.electroncash.wallet/
   - /posts/org.electroncash.wallet/

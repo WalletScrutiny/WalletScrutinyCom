@@ -5,34 +5,30 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [25, 65, 8]
 weight: 12
+provider: "SecurityArts"
+providerWebsite: https://security-arts.com
 website: https://security-arts.com/home
 shop: https://security-arts.com/order
-company: SecurityArts
-companywebsite: https://security-arts.com
 country: UA
 price: 49USD
 repository: https://github.com/SecurityArts
 issue: https://github.com/SecurityArts/QuantumManager/issues/14
 icon: quantum.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: nosource 
+verdict: nosource
 date: 2021-12-20
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 Security Arts' is a Ukrainian company. As of November 26, 2021, the [device is out of stock](https://security-arts.com/order).
 

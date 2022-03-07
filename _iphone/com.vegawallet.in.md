@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: vegawallet
-providerLinkedIn: 
-providerFacebook: VegaWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: vegawallet
+social:
+  - https://www.facebook.com/VegaWallet
 ---
 
 {% include copyFromAndroid.html %}

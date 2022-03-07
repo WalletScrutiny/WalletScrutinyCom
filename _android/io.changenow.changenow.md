@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-07
 updated: 2022-02-21
 version: "1.150.12"
-stars: 4.9
+stars: 4.91
 ratings: 2199
-reviews: 338
+reviews: 340
 size: 8.8M
 website: https://changenow.io
 repository: 
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: ChangeNOW_io
-providerLinkedIn: 
-providerFacebook: ChangeNOW.io
-providerReddit: ChangeNOW_io
-
+twitter: ChangeNOW_io
+social:
+  - https://www.facebook.com/ChangeNOW.io
+  - https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
   - /io.changenow.changenow/
 ---

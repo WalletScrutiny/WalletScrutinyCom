@@ -24,14 +24,8 @@ verdict: nowallet
 date: 2022-01-31
 signer: 
 reviewArchive:
-
-providerTwitter: cryptofully
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cryptofully
+social:
 ---
 
 **Update 2022-01-21**: This app is not available anymore.

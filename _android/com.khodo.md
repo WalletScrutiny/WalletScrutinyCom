@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2022-02-10
 signer: 
 reviewArchive:
-
-providerTwitter: buymalawi
-providerLinkedIn: 
-providerFacebook: buybitcoinmalawi
-providerReddit: 
-
+twitter: buymalawi
+social:
+  - https://www.facebook.com/buybitcoinmalawi
 redirect_from:
-
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

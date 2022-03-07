@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: AdmiralsGlobal
-providerLinkedIn: -admiral-markets-group
-providerFacebook: AdmiralsGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: AdmiralsGlobal
+social:
+  - https://www.linkedin.com/company/-admiral-markets-group
+  - https://www.facebook.com/AdmiralsGlobal
 ---
 
 {% include copyFromAndroid.html %}

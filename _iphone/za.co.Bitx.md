@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: LunoGlobal
-providerLinkedIn: lunoglobal
-providerFacebook: luno
-providerReddit: 
-
-redirect_from:
-
+twitter: LunoGlobal
+social:
+  - https://www.linkedin.com/company/lunoglobal
+  - https://www.facebook.com/luno
 ---
 
 This app's Android version had a clear statement about being custodial in the

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-12-14
 updated: 2018-12-26
 version: "0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.2M
@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is a lightning wallet.

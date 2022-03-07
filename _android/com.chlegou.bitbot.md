@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-02
 updated: 2021-12-18
 version: "1.6.0"
-stars: 4.2
+stars: 4.18
 ratings: 7718
-reviews: 419
+reviews: 420
 size: 9.8M
 website: https://bitbot.plus
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-10-28**

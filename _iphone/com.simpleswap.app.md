@@ -10,8 +10,8 @@ idd: 1506038278
 released: 2020-05-15
 updated: 2021-12-14
 version: "3.1.10"
-stars: 4.125
-reviews: 8
+stars: 4.22222
+reviews: 9
 size: 48839680
 website: https://simpleswap.io/mobile-app
 repository: 
@@ -23,14 +23,10 @@ verdict: nowallet
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: SimpleSwap_io
-providerLinkedIn: 
-providerFacebook: SimpleSwap.io
-providerReddit: simpleswapexchange
-
-redirect_from:
-
+twitter: SimpleSwap_io
+social:
+  - https://www.facebook.com/SimpleSwap.io
+  - https://www.reddit.com/r/simpleswapexchange
 ---
 
  {% include copyFromAndroid.html %}

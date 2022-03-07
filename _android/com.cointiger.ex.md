@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-07-23
 updated: 2022-02-15
 version: "5.1.0.0"
-stars: 4.4
+stars: 4.419355
 ratings: 13093
 reviews: 130
 size: 50M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: CoinTigerEX
-providerLinkedIn: 
-providerFacebook: CoinTigerEX
-providerReddit: CoinTigerExchange
-
+twitter: CoinTigerEX
+social:
+  - https://www.facebook.com/CoinTigerEX
+  - https://www.reddit.com/r/CoinTigerExchange
 redirect_from:
-
 ---
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)

@@ -8,11 +8,11 @@ appId: com.tradearies.ariestrading
 appCountry: ng
 idd: 1554894180
 released: 2021-06-29
-updated: 2022-01-22
-version: "2.01.4"
+updated: 2022-03-03
+version: "2.01.5"
 stars: 
 reviews: 
-size: 61769728
+size: 57993216
 website: https://tradearies.com/
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: TradeAries
-providerLinkedIn: tradearies
-providerFacebook: TradeAries
-providerReddit: 
-
-redirect_from:
-
+twitter: TradeAries
+social:
+  - https://www.linkedin.com/company/tradearies
+  - https://www.facebook.com/TradeAries
 ---
 
 {% include copyFromAndroid.html %}

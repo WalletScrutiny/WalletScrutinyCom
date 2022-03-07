@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-09-04
 signer: 
 reviewArchive:
-
-providerTwitter: enjin
-providerLinkedIn: enjin
-providerFacebook: enjinsocial
-providerReddit: EnjinCoin
-
-redirect_from:
-
+twitter: enjin
+social:
+  - https://www.linkedin.com/company/enjin
+  - https://www.facebook.com/enjinsocial
+  - https://www.reddit.com/r/EnjinCoin
 ---
 
 **Update 2022-01-04**: The iOS app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478288988087603200)

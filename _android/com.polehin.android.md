@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-01
 updated: 2022-01-09
 version: "3.7.4"
-stars: 4.3
+stars: 4.3403363
 ratings: 22277
 reviews: 1071
 size: 48M
@@ -34,11 +34,9 @@ reviewArchive:
   appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
-providerTwitter: polehincom
-providerLinkedIn: 
-providerFacebook: polehincom
-providerReddit: 
-
+twitter: polehincom
+social:
+  - https://www.facebook.com/polehincom
 redirect_from:
   - /bitcoinwallet/
   - /com.polehin.android/

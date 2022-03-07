@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-28
 updated: 2022-02-17
 version: "3.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 65M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: koinstrap
-providerLinkedIn: 
-providerFacebook: koinstrap
-providerReddit: 
-
+twitter: koinstrap
+social:
+  - https://www.facebook.com/koinstrap
 redirect_from:
-
 ---
 
 ## App Description

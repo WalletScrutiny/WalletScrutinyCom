@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: bitfortip
-providerLinkedIn: bitfortip
-providerFacebook: bitfortip
-providerReddit: 
-
-redirect_from:
-
+twitter: bitfortip
+social:
+  - https://www.linkedin.com/company/bitfortip
+  - https://www.facebook.com/bitfortip
 ---
 
 {% include copyFromAndroid.html %}

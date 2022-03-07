@@ -10,7 +10,7 @@ appCountry:
 released: 2016-09-01
 updated: 2019-03-17
 version: "0.1.9"
-stars: 4.2
+stars: 4.1538463
 ratings: 82
 reviews: 19
 size: 6.7M
@@ -24,12 +24,9 @@ verdict: ftbfs
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: freewallet
-providerLinkedIn: 
-providerFacebook: freewallet.io
-providerReddit: 
-
+twitter: freewallet
+social:
+  - https://www.facebook.com/freewallet.io
 redirect_from:
   - /io.freewallet.mobile/
 ---

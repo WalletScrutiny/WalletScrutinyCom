@@ -10,8 +10,8 @@ idd: 1446636681
 released: 2019-10-10
 updated: 2022-02-28
 version: "1.0.92"
-stars: 4.72191
-reviews: 161704
+stars: 4.72183
+reviews: 162223
 size: 47597568
 website: https://pro.coinbase.com
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: CoinbasePro
-providerLinkedIn: 
-providerFacebook: coinbase
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinbasePro
+social:
+  - https://www.facebook.com/coinbase
 ---
 
 On the website we read:

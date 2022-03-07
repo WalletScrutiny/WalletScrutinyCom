@@ -8,11 +8,11 @@ users: 10000000
 appId: com.coindcx.btc
 appCountry: 
 released: 2020-12-09
-updated: 2022-02-26
-version: "3.7.005"
-stars: 4.5
+updated: 2022-03-03
+version: "3.8.006"
+stars: 4.4752474
 ratings: 231093
-reviews: 373
+reviews: 376
 size: 70M
 website: https://go.coindcx.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: coindcx
-providerLinkedIn: coindcx
-providerFacebook: CoinDCX
-providerReddit: 
-
+twitter: coindcx
+social:
+  - https://www.linkedin.com/company/coindcx
+  - https://www.facebook.com/CoinDCX
 redirect_from:
-
 ---
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a

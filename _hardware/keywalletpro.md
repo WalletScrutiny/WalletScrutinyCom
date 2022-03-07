@@ -4,32 +4,29 @@ appId: keywalletpro
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: http://www.keywallet.co.kr/
 website: http://www.keywallet.co.kr/
 shop: 
-company: 
-companywebsite: http://www.keywallet.co.kr/
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: keywalletpro.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-07-10
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 This hardware wallet looks to be defunct, the provider's [main site is not accessible](http://www.keywallet.co.kr) 

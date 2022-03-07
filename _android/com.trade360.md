@@ -10,7 +10,7 @@ appCountry: gb
 released: 2015-06-18
 updated: 2022-02-22
 version: "7.1.5"
-stars: 2.7
+stars: 2.7468355
 ratings: 1438
 reviews: 59
 size: 13M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: Trade360_LTD
-providerLinkedIn: trade360ltd
-providerFacebook: Trade360LTD
-providerReddit: 
-
+twitter: Trade360_LTD
+social:
+  - https://www.linkedin.com/company/trade360ltd
+  - https://www.facebook.com/Trade360LTD
 redirect_from:
-
 ---
 
 ## App Description

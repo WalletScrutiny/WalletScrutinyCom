@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: incognitochain
+social:
 ---
 
  {% include copyFromAndroid.html %}

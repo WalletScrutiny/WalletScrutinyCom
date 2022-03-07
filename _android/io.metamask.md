@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-01
 updated: 2022-02-24
 version: "4.1.1"
-stars: 4.5
+stars: 4.5146103
 ratings: 57131
-reviews: 1951
+reviews: 1977
 size: 194M
 website: https://metamask.io
 repository: 
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This is an ETH-only app and thus not a Bitcoin wallet.

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-17
 updated: 2022-02-20
 version: "2.0.14"
-stars: 4.8
+stars: 4.80531
 ratings: 3900
-reviews: 36
+reviews: 35
 size: 13M
 website: https://quppy.com/
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-12-01
 signer: 
 reviewArchive:
-
-providerTwitter: QuppyPay
-providerLinkedIn: quppy
-providerFacebook: quppyPay
-providerReddit: 
-
+twitter: QuppyPay
+social:
+  - https://www.linkedin.com/company/quppy
+  - https://www.facebook.com/quppyPay
 redirect_from:
   - /com.quppy/
 ---

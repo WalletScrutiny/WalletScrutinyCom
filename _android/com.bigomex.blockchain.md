@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-14
 updated: 2021-06-22
 version: "1.2.7"
-stars: 4.4
+stars: 4.388889
 ratings: 319
 reviews: 14
 size: 10M
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: bigomexofficial
-providerLinkedIn: bigomex-bigomex-6225b81b2
-providerFacebook: bigomexofficial
-providerReddit: bigomex
-
+twitter: bigomexofficial
+social:
+  - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
+  - https://www.facebook.com/bigomexofficial
+  - https://www.reddit.com/r/bigomex
 redirect_from:
-
 ---
 
 ## App Description

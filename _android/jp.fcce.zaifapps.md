@@ -10,7 +10,7 @@ appCountry: in
 released: 2020-05-07
 updated: 2021-10-30
 version: "1.1.8"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 25M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: zaifdotjp
-providerLinkedIn: 
-providerFacebook: zaifdotjp
-providerReddit: 
-
+twitter: zaifdotjp
+social:
+  - https://www.facebook.com/zaifdotjp
 redirect_from:
-
 ---
 
 ## App Description

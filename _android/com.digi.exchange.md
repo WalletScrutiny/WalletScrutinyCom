@@ -10,7 +10,7 @@ appCountry:
 released: 2019-03-11
 updated: 2021-07-17
 version: "1.1.6"
-stars: 4.4
+stars: 4.357143
 ratings: 265
 reviews: 9
 size: 3.7M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: digiexchange3
-providerLinkedIn: 
-providerFacebook: digiexchangenews
-providerReddit: 
-
+twitter: digiexchange3
+social:
+  - https://www.facebook.com/digiexchangenews
 redirect_from:
-
 ---
 
 ## App Description

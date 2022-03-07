@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Delta_Exchange
-providerLinkedIn: 
-providerFacebook: deltaexchg
-providerReddit: Delta_Exchange
-
-redirect_from:
-
+twitter: Delta_Exchange
+social:
+  - https://www.facebook.com/deltaexchg
+  - https://www.reddit.com/r/Delta_Exchange
 ---
 
 {% include copyFromAndroid.html %}

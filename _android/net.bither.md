@@ -10,7 +10,7 @@ appCountry:
 released: 2014-02-27
 updated: 2022-02-18
 version: "2.0.5"
-stars: 4.2
+stars: 4.2586207
 ratings: 335
 reviews: 26
 size: 4.5M
@@ -24,14 +24,9 @@ verdict: obfuscated
 date: 2021-03-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app is an open source Bitcoin wallet with most of its information to be

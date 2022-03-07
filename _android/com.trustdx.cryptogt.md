@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-09-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2021-09-17**: CryptoGT contacted us, asking to remove this app as there

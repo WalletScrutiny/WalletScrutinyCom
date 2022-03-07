@@ -1,6 +1,9 @@
 const fs = require('fs')
 const https = require('https')
 const FileType = require('file-type')
+const path = require('path')
+const yaml = require('js-yaml')
+const dateFormat = require('dateformat')
 
 function downloadImageFile(url, path, callback) {
   const iconFile = fs.createWriteStream(path)
@@ -73,9 +76,78 @@ function addDefunctIfNew(id) {
   }
 }
 
+function migrateAll(folder, migration, writeResult) {
+  fs.readdir(folder, (err, files) => {
+    files.forEach((file, index) => {
+      migrateFile(folder, file, migration, writeResult)
+    })
+  })
+}
+
+function migrateFile(folder, file, migration, writeResult) {
+  const appPath = path.join(folder, file)
+  var parts = fs.readFileSync(appPath, 'utf8').split("---")
+  const headerStr = parts[1]
+  const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
+  const header = yaml.load(headerStr)
+  migration(header, body, file)
+  writeResult(header, body)
+}
+
+function dateOrEmpty(d) {
+  return d
+    ? dateFormat(d, "yyyy-mm-dd")
+    : ""
+}
+
+function stringOrEmpty(s) {
+  return s
+    ? `"${s}"`
+    : ""
+}
+
+/**
+ * Switch meta between stale, obsolete or ok depending on updated date.
+ **/
+function updateMeta(header) {
+  // ignore defunct. Those might recently have been active.
+  if (header.meta != "defunct") {
+    const daysSinceUpdate = ((new Date()) - (new Date(header.updated))) / 1000 / 60 / 60 / 24
+    if ( daysSinceUpdate > 720 ) {
+      if ( header.meta != "obsolete" ) {
+        // mark obsolete if old and not obsolete yet
+        header.meta = "obsolete"
+        header.date = new Date()
+      }
+    } else if ( daysSinceUpdate > 360 ) {
+      if ( header.meta != "stale" ) {
+        // mark stale if old and not stale yet
+        header.meta = "stale"
+        header.date = new Date()
+      }
+    } else {
+      if ( "stale,obsolete".includes(header.meta)) {
+        // stale/obsolete product was revived. We might have to look into it.
+        header.meta = "ok"
+        header.date = new Date()
+      }
+    }
+  }
+}
+
+function checkHeaderKeys(header, allowedHeaders) {
+  const losts = Object.keys(header).filter(it => !allowedHeaders.includes(it))
+  if (losts.length > 0) console.error(`Losing properties: ${losts}.`)
+}
+
 module.exports = {
   addReviewArchive,
   downloadImageFile,
   was404,
-  addDefunctIfNew
+  addDefunctIfNew,
+  migrateAll,
+  dateOrEmpty,
+  stringOrEmpty,
+  updateMeta,
+  checkHeaderKeys
 }

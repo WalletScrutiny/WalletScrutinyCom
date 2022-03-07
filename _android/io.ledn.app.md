@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-01-04
 updated: 2022-02-24
 version: "0.3.0"
-stars: 2.6
+stars: 2.6363637
 ratings: 71
 reviews: 8
 size: 74M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: hodlwithLedn
-providerLinkedIn: ledn-inc
-providerFacebook: Ledn.io
-providerReddit: 
-
+twitter: hodlwithLedn
+social:
+  - https://www.linkedin.com/company/ledn-inc
+  - https://www.facebook.com/Ledn.io
 redirect_from:
-
 ---
 
 ## App Description

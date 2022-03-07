@@ -10,9 +10,9 @@ appCountry: id
 released: 2020-10-19
 updated: 2022-02-18
 version: "1.5.1"
-stars: 3.5
+stars: 3.4248204
 ratings: 34617
-reviews: 28273
+reviews: 28382
 size: Varies with device
 website: https://www.tokocrypto.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: tokocrypto
-providerLinkedIn: toko
-providerFacebook: TCDXOfficial
-providerReddit: 
-
+twitter: tokocrypto
+social:
+  - https://www.linkedin.com/company/toko
+  - https://www.facebook.com/TCDXOfficial
 redirect_from:
-
 ---
 
 Presented by Binance - corroborated on [Binance Launchpad's Tokocrypto Token Sale](https://www.binance.com/en/support/announcement/4620c8a2a87c42978519750964af7aa4)

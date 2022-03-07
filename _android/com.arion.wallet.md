@@ -4,13 +4,13 @@ title: "Arion Wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.arion.wallet
 appCountry: 
 released: 2019-10-10
 updated: 2019-10-10
 version: "v1.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 4.2M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-09-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

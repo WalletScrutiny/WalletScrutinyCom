@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-02-09
 updated: 2021-09-11
 version: "1.0.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 3.0M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: bekonta
-providerFacebook: bekontahq
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/bekonta
+  - https://www.facebook.com/bekontahq
 redirect_from:
-
 ---
 
 ## App Description

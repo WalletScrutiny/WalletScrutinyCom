@@ -8,12 +8,12 @@ users: 50000
 appId: com.coinberry_mobile
 appCountry: ca
 released: 2018-12-19
-updated: 2022-02-21
-version: "1.23.03"
-stars: 3.2
+updated: 2022-03-02
+version: "1.24.02"
+stars: 3.1743119
 ratings: 1118
 reviews: 629
-size: 84M
+size: 85M
 website: https://www.coinberry.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: CoinberryHQ
-providerLinkedIn: coinberry
-providerFacebook: CoinberryOfficial
-providerReddit: 
-
+twitter: CoinberryHQ
+social:
+  - https://www.linkedin.com/company/coinberry
+  - https://www.facebook.com/CoinberryOfficial
 redirect_from:
-
 ---
 
 [In their official website](https://www.coinberry.com/learn/crypto-storage-guide), Coinberry directly states that their app is custodial.

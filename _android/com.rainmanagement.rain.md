@@ -4,16 +4,16 @@ title: "Rain: Buy & Sell Bitcoin"
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.rainmanagement.rain
 appCountry: bh
 released: 2018-11-02
 updated: 2022-02-22
-version: "2.5"
-stars: 3.5
+version: "3.0.0"
+stars: 3.576674
 ratings: 4531
-reviews: 2302
-size: 181M
+reviews: 2320
+size: 169M
 website: https://rain.bh
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: rainfinancial
-providerLinkedIn: rainfinancial
-providerFacebook: rainfinancial
-providerReddit: 
-
+twitter: rainfinancial
+social:
+  - https://www.linkedin.com/company/rainfinancial
+  - https://www.facebook.com/rainfinancial
 redirect_from:
-
 ---
 
 **Update: 2022-01-05**

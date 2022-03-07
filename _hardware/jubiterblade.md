@@ -5,32 +5,31 @@ authors:
 - kiwilamb
 - leo
 released: 2018-11-01
-discontinued: # date
+discontinued: 
 updated: 
 version: 
+binaries: 
 dimensions: [38, 64, 2.5]
 weight: 
+provider: "Feitian Technologies Co.,Ltd."
+providerWebsite: https://www.ftsafe.com/
 website: https://www.jubiterwallet.com/index.html
 shop: https://www.amazon.com/gp/product/B07K446Y57
-company: Feitian Technologies Co.,Ltd.
-companywebsite: https://www.ftsafe.com/
 country: CN
 price: 79USD
 repository: https://github.com/JubiterWallet
-issue:
+issue: 
 icon: jubiterblade.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-12
-signer:
-reviewArchive:
-
-
-providerTwitter: JuBiterWallet
-providerLinkedIn: jubiter-wallet
-providerFacebook: JuBiterWallet
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: JuBiterWallet
+social: 
+  - https://www.linkedin.com/company/jubiter-wallet
+  - https://www.facebook.com/JuBiterWallet
 ---
 
 {{ page.title }} is a credit card sized device with buttons and screen that

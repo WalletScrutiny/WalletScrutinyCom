@@ -10,8 +10,8 @@ idd: 674984916
 released: 2017-06-26
 updated: 2022-02-27
 version: "391.0.0"
-stars: 4.21261
-reviews: 4981
+stars: 4.21176
+reviews: 4996
 size: 154835968
 website: http://www.etoro.com
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-04-25
 signer: 
 reviewArchive:
-
-providerTwitter: etoro
-providerLinkedIn: etoro
-providerFacebook: eToro
-providerReddit: 
-
-redirect_from:
-
+twitter: etoro
+social:
+  - https://www.linkedin.com/company/etoro
+  - https://www.facebook.com/eToro
 ---
 
 Etoro is used to speculate on assets more than to actually transfer them but in

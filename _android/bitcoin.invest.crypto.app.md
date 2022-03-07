@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-18
 updated: 2021-03-18
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 7.5M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **NOTE:** This app claims to function as an exchange when in reality you cannot trade or hold BTC here. Although it does not function as a wallet and cannot hold your money, it still gives us pause how it claims to have features that it **does not truly have.**

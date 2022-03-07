@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-17
 updated: 2022-02-22
 version: "1.23.0"
-stars: 3.0
+stars: 3
 ratings: 159
 reviews: 6
 size: 37M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-05-04
 signer: 
 reviewArchive:
-
-providerTwitter: OfficialXcoex
-providerLinkedIn: 
-providerFacebook: xcoex
-providerReddit: 
-
+twitter: OfficialXcoex
+social:
+  - https://www.facebook.com/xcoex
 redirect_from:
-
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

@@ -10,7 +10,7 @@ appCountry:
 released: 2015-05-23
 updated: 2021-04-13
 version: "4.0.2"
-stars: 4.2
+stars: 4.1875
 ratings: 313
 reviews: 46
 size: 40M
@@ -24,12 +24,8 @@ verdict: nowallet
 date: 2020-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: samouraiwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: samouraiwallet
+social:
 redirect_from:
   - /com.samourai.sentinel/
   - /posts/com.samourai.sentinel/

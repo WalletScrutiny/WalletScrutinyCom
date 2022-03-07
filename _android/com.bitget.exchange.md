@@ -8,9 +8,9 @@ users: 100000
 appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03
-updated: 2022-02-24
-version: "1.2.28"
-stars: 5.0
+updated: 2022-02-28
+version: "1.2.29"
+stars: 5
 ratings: 5691
 reviews: 569
 size: 45M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: bitgetglobal
-providerLinkedIn: bitget
-providerFacebook: BitgetGlobal
-providerReddit: 
-
+twitter: bitgetglobal
+social:
+  - https://www.linkedin.com/company/bitget
+  - https://www.facebook.com/BitgetGlobal
 redirect_from:
-
 ---
 
 **Update 2021-09-12**: This app appears to be back on Play Store

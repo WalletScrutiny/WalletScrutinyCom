@@ -23,14 +23,9 @@ verdict: nosource
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: ATokenOfficial
-providerLinkedIn: 
-providerFacebook: ATokenOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: ATokenOfficial
+social:
+  - https://www.facebook.com/ATokenOfficial
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

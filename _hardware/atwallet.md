@@ -5,32 +5,31 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 2.2]
 weight: 
+provider: "AuthenTrend"
+providerWebsite: https://authentrend.com/
 website: https://authentrend.com/at-wallet/
 shop: https://www.amazon.com/dp/B084Q4FRPT
-company: AuthenTrend
-companywebsite: https://authentrend.com/
 country: TW
 price: 120USD
 repository: 
-issue:
+issue: 
 icon: atwallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: plainkey
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: authentrend
-providerLinkedIn: authentrend
-providerFacebook: authentrend
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: authentrend
+social: 
+  - https://www.linkedin.com/company/authentrend
+  - https://www.facebook.com/authentrend
 ---
 
 {{ page.title }} describes itself as

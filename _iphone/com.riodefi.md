@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: riodefiofficial
-providerLinkedIn: riodefiofficial
-providerFacebook: riodefiofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: riodefiofficial
+social:
+  - https://www.linkedin.com/company/riodefiofficial
+  - https://www.facebook.com/riodefiofficial
 ---
 
 {% include copyFromAndroid.html %}

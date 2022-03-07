@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: TokenizeXchange
-providerLinkedIn: 
-providerFacebook: tokenize.exchange
-providerReddit: 
-
-redirect_from:
-
+twitter: TokenizeXchange
+social:
+  - https://www.facebook.com/tokenize.exchange
 ---
 
 {% include copyFromAndroid.html %}

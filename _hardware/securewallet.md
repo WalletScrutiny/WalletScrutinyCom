@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 2018-04-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 0.84]
 weight: 
+provider: "ECOMI Technologies PTE"
+providerWebsite: https://www.ecomi.com/
 website: https://securewallet.shop/
 shop: https://securewallet.shop/products/secure-wallet
-company: ECOMI Technologies PTE
-companywebsite: https://www.ecomi.com/
 country: SG
 price: 199USD
 repository: 
-issue:
+issue: 
 icon: securewallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: plainkey
 date: 2021-12-08
-signer:
-reviewArchive:
-
-
-providerTwitter: ecomi_
-providerLinkedIn: ecomi-technology
-providerFacebook: ecomi.ecosystem
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: ecomi_
+social: 
+  - https://www.linkedin.com/company/ecomi-technology
+  - https://www.facebook.com/ecomi.ecosystem
 ---
-
 
 **NOTE:** Secure Wallet is temporarily sold out.
 

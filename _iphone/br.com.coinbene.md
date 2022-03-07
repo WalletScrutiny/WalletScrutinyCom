@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: coinbene
-providerLinkedIn: coinbene-official
-providerFacebook: CoinBeneOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: coinbene
+social:
+  - https://www.linkedin.com/company/coinbene-official
+  - https://www.facebook.com/CoinBeneOfficial
 ---
 
 {% include copyFromAndroid.html %}

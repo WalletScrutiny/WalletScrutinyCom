@@ -6,33 +6,29 @@ authors:
 - danny
 released: 
 discontinued: 2021-12-03
-updated:
-version:
+updated: 
+version: 
+binaries: 
 dimensions: [32, 73, 12]
 weight: 15
+provider: "FLX Partnership Limited"
+providerWebsite: https://flxwallet.com/
 website: https://flxwallet.com/specifications.html
 shop: https://www.amazon.com/FLX-One-Simple-use-Cryptocurrency/dp/B07JHMDV9X/ref=sr_1_2?ie=UTF8&qid=1540514793&sr=8-2&keywords=flx+wallet
-company: FLX Partnership Limited
-companywebsite: https://flxwallet.com/
 country: US
 price: 69.99USD
 repository: 
-issue:
+issue: 
 icon: flxone.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-12-08
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 [The most recent (2019-01-24) review on Amazon](https://www.amazon.com/gp/customer-reviews/RLI3BEBASPDRJ/ref=cm_cr_srp_d_rvw_ttl?ie=UTF8&ASIN=B07JHMDV9X) claims that this wallet "seems to have been abandoned and no longer works properly."
 

@@ -10,9 +10,9 @@ appCountry: de
 released: 2019-07-08
 updated: 2022-02-26
 version: "1.23.0"
-stars: 4.7
+stars: 4.681818
 ratings: 114954
-reviews: 2781
+reviews: 2787
 size: 37M
 website: https://stormgain.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-03-10
 signer: 
 reviewArchive:
-
-providerTwitter: StormGain_com
-providerLinkedIn: 
-providerFacebook: StormGain.official
-providerReddit: 
-
+twitter: StormGain_com
+social:
+  - https://www.facebook.com/StormGain.official
 redirect_from:
-
 ---
 
 This app's description mainly focuses on trading and interest earning, features

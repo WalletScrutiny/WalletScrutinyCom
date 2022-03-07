@@ -8,9 +8,9 @@ users: 100000
 appId: com.kardiawallet
 appCountry: vn
 released: 2021-01-13
-updated: 2021-12-30
-version: "2.4.0"
-stars: 4.6
+updated: 2022-03-04
+version: "2.4.3"
+stars: 4.627451
 ratings: 1064
 reviews: 116
 size: 63M
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: KardiaChain
-providerLinkedIn: 
-providerFacebook: KardiaChainFoundation
-providerReddit: 
-
+twitter: KardiaChain
+social:
+  - https://www.facebook.com/KardiaChainFoundation
 redirect_from:
-
 ---
 
 The KardiaChain wallet is specifically for use with the KAI token. 

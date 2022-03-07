@@ -11,7 +11,7 @@ released: 2020-07-08
 updated: 2022-02-22
 version: "1.3.8"
 stars: 5
-reviews: 26
+reviews: 27
 size: 16302080
 website: https://www.coinglass.com
 repository: 
@@ -23,14 +23,8 @@ verdict: fake
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: coinglass_com
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: coinglass_com
+social:
 ---
 
 {% include copyFromAndroid.html %}

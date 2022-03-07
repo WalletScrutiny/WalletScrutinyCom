@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-07-31
 updated: 2022-02-11
 version: "Varies with device"
-stars: 4.4
+stars: 4.4444447
 ratings: 42
 reviews: 6
 size: Varies with device
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

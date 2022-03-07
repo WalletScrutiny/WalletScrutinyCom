@@ -10,9 +10,9 @@ appCountry: in
 released: 2020-05-31
 updated: 2022-02-18
 version: "3.8.1"
-stars: 4.2
+stars: 4.250495
 ratings: 413931
-reviews: 123194
+reviews: 124081
 size: Varies with device
 website: https://coinswitch.co/in
 repository: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: CoinSwitchKuber
-providerLinkedIn: coinswitch
-providerFacebook: coinswitch
-providerReddit: 
-
+twitter: CoinSwitchKuber
+social:
+  - https://www.linkedin.com/company/coinswitch
+  - https://www.facebook.com/coinswitch
 redirect_from:
-
 ---
 
 ## App Description

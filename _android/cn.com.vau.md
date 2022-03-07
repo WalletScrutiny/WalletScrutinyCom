@@ -10,9 +10,9 @@ appCountry: cn
 released: 2019-07-06
 updated: 2022-02-25
 version: "2.0.5"
-stars: 4.9
+stars: 4.8515463
 ratings: 8949
-reviews: 1004
+reviews: 1021
 size: 33M
 website: https://www.vantagemarkets.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: VantageFX
-providerLinkedIn: vantage-fx
-providerFacebook: VantageFXBroker
-providerReddit: 
-
+twitter: VantageFX
+social:
+  - https://www.linkedin.com/company/vantage-fx
+  - https://www.facebook.com/VantageFXBroker
 redirect_from:
-
 ---
 
 App description:

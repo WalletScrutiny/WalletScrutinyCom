@@ -8,9 +8,9 @@ users: 100000
 appId: com.shaketh
 appCountry: 
 released: 2018-02-20
-updated: 2022-02-16
-version: "1.8.55"
-stars: 4.5
+updated: 2022-03-02
+version: "1.8.57"
+stars: 4.4814816
 ratings: 10533
 reviews: 20
 size: 100M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: shakepay
-providerLinkedIn: 
-providerFacebook: shakepay
-providerReddit: shakepay
-
+twitter: shakepay
+social:
+  - https://www.facebook.com/shakepay
+  - https://www.reddit.com/r/shakepay
 redirect_from:
   - /com.shaketh/
   - /posts/com.shaketh/

@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: buyucoin
-providerLinkedIn: buyucoin
-providerFacebook: BuyUcoin
-providerReddit: BuyUcoin
-
-redirect_from:
-
+twitter: buyucoin
+social:
+  - https://www.linkedin.com/company/buyucoin
+  - https://www.facebook.com/BuyUcoin
+  - https://www.reddit.com/r/BuyUcoin
 ---
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average

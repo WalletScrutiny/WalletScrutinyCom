@@ -23,14 +23,9 @@ verdict: nobtc
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: gowallet_app_
-providerLinkedIn: 
-providerFacebook: gowalletappli
-providerReddit: 
-
-redirect_from:
-
+twitter: gowallet_app_
+social:
+  - https://www.facebook.com/gowalletappli
 ---
 
 {% include copyFromAndroid.html %}

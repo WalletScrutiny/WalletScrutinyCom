@@ -10,8 +10,8 @@ idd: 966301394
 released: 2015-03-12
 updated: 2022-02-18
 version: "116.1.0"
-stars: 4.5708
-reviews: 17486
+stars: 4.57149
+reviews: 17533
 size: 120059904
 website: 
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-04
 signer: 
 reviewArchive:
-
-providerTwitter: AbraGlobal
-providerLinkedIn: abra
-providerFacebook: GoAbraGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: AbraGlobal
+social:
+  - https://www.linkedin.com/company/abra
+  - https://www.facebook.com/GoAbraGlobal
 ---
 
 This is the iPhone version of the Android

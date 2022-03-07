@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-24
 signer: 
 reviewArchive:
-
-providerTwitter: etoro
-providerLinkedIn: etoro
-providerFacebook: eToro
-providerReddit: 
-
-redirect_from:
-
+twitter: etoro
+social:
+  - https://www.linkedin.com/company/etoro
+  - https://www.facebook.com/eToro
 ---
 
 From the eToro wallet FAQ:

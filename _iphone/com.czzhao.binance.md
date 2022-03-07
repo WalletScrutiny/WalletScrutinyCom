@@ -8,11 +8,11 @@ appId: com.czzhao.binance
 appCountry: 
 idd: 1436799971
 released: 2018-10-06
-updated: 2022-02-23
-version: "2.42.1"
-stars: 4.71296
-reviews: 101962
-size: 581218304
+updated: 2022-03-01
+version: "2.42.2"
+stars: 4.71234
+reviews: 102725
+size: 581214208
 website: https://www.binance.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: binance
-providerLinkedIn: 
-providerFacebook: binance
-providerReddit: binance
-
-redirect_from:
-
+twitter: binance
+social:
+  - https://www.facebook.com/binance
+  - https://www.reddit.com/r/binance
 ---
 
 In the description the provider claims:

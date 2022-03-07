@@ -4,34 +4,30 @@ appId: kruxdiyhw
 authors:
 - danny
 released: 2021-07-18
-discontinued: # date
+discontinued: 
 updated: 2021-12-09
 version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://jreesun.github.io/krux/
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 50USD
 repository: https://github.com/jreesun/krux
-issue:
-icon: krux.png
-bugbounty:
+issue: 
+icon: kruxdiyhw.png
+bugbounty: 
 meta: ok
 verdict: nobinary
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 > Krux is an airgapped hardware signer built on top of the M5StickV, an open-source hardware device from M5Stack.
 >

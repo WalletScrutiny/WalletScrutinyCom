@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Hotbit_news
-providerLinkedIn: hotbitexchange
-providerFacebook: hotbitexchange
-providerReddit: 
-
-redirect_from:
-
+twitter: Hotbit_news
+social:
+  - https://www.linkedin.com/company/hotbitexchange
+  - https://www.facebook.com/hotbitexchange
 ---
 
 {% include copyFromAndroid.html %}

@@ -4,13 +4,13 @@ title: "Ychanger – доступный каждому обмен криптов
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: com.xchange.ychanger
 appCountry: 
 released: 2021-06-08
 updated: 2021-06-08
 version: "1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 1.4M
@@ -24,13 +24,8 @@ verdict: fewusers
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

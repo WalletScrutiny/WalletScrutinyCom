@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [45, 45, 7.5]
 weight: 12
+provider: "Archos"
+providerWebsite: https://www.archos.com/
 website: https://www.archos.com/products/crypto/archos_safetmini/index.html
 shop: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
-company: Archos
-companywebsite: https://www.archos.com/
 country: FR
 price: 49.99EUR
 repository: 
-issue:
+issue: 
 icon: archossafetmini.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-08-22
-signer:
-reviewArchive:
-
-
-providerTwitter: ARCHOS
-providerLinkedIn: archos
-providerFacebook: ArchosOfficial
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: ARCHOS
+social: 
+  - https://www.linkedin.com/company/archos
+  - https://www.facebook.com/ArchosOfficial
 ---
-
 
 **Update 2021-08-22**: As there is no claims of open source and nobody replied
 to [our tweet](https://twitter.com/WalletScrutiny/status/1427064999663570944),

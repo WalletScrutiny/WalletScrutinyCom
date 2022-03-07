@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitpapa
 appCountry: 
 released: 2020-08-18
-updated: 2022-01-25
-version: "1.7.5"
-stars: 4.4
+updated: 2022-03-04
+version: "1.8.4"
+stars: 4.3690476
 ratings: 5332
-reviews: 81
+reviews: 83
 size: 111M
 website: https://bitpapa.com
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
-providerTwitter: bitpapa_com
-providerLinkedIn: 
-providerFacebook: bitpapacom
-providerReddit: 
-
+twitter: bitpapa_com
+social:
+  - https://www.facebook.com/bitpapacom
 redirect_from:
-
 ---
 
 This app supports Bitcoin:

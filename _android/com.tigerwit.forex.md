@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-24
 updated: 2022-01-14
 version: "5.6.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 29M
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: TigerWitGlobal
-providerLinkedIn: tigerwit-group-
-providerFacebook: 
-providerReddit: 
-
+twitter: TigerWitGlobal
+social:
+  - https://www.linkedin.com/company/tigerwit-group-
 redirect_from:
-
 ---
 
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).

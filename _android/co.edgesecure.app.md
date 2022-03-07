@@ -8,11 +8,11 @@ users: 100000
 appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
-updated: 2022-02-17
-version: "2.11.1"
-stars: 4.3
+updated: 2022-03-03
+version: "2.12.0"
+stars: 4.394231
 ratings: 3880
-reviews: 543
+reviews: 547
 size: 53M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
@@ -24,12 +24,10 @@ verdict: ftbfs
 date: 2019-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: edgewallet
-providerLinkedIn: edgeapp
-providerFacebook: 
-providerReddit: EdgeWallet
-
+twitter: edgewallet
+social:
+  - https://www.linkedin.com/company/edgeapp
+  - https://www.reddit.com/r/EdgeWallet
 redirect_from:
   - /edge/
   - /co.edgesecure.app/

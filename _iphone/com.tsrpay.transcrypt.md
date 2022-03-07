@@ -10,8 +10,8 @@ idd: 1446719209
 released: 2019-01-16
 updated: 2022-02-17
 version: "2.08.4"
-stars: 4.45455
-reviews: 22
+stars: 4.43478
+reviews: 23
 size: 89550848
 website: https://tizer.io
 repository: 
@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: TizerWallet
-providerLinkedIn: tizer-wallet
-providerFacebook: tizerwallet
-providerReddit: 
-
-redirect_from:
-
+twitter: TizerWallet
+social:
+  - https://www.linkedin.com/company/tizer-wallet
+  - https://www.facebook.com/tizerwallet
 ---
 
 {% include copyFromAndroid.html %}

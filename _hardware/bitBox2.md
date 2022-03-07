@@ -4,12 +4,14 @@ appId: bitBox2
 authors:
 - leo
 released: 
-discontinued: # date
+discontinued: 
 updated: 2022-01-12
-version: 9.9.0
+version: "9.9.0"
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions: [54.5, 25.4, 9.6]
 weight: 12
+provider: 
+providerWebsite: 
 website: https://shiftcrypto.ch/
 shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
@@ -22,7 +24,7 @@ meta: ok
 verdict: reproducible
 date: 2022-02-17
 signer: 
-reviewArchive:
+reviewArchive: 
 - date: 2021-12-01
   version: "9.8.0"
   appHash: 51e584b61eaff83fe9e538c0fd47c617c686cd6da1a501acc33f12dab37f627a
@@ -38,12 +40,12 @@ reviewArchive:
   appHash: e41917450ef6fb80af9fbe8f85478973763fe593c23cdeaec481e5d5395dd3b9
   gitRevision: deced5af364fdbbf7e613ed48f74171bb4093979
   verdict: reproducible
-providerTwitter: ShiftCryptoHQ
-providerLinkedIn: shift-crypto
-providerFacebook: Shiftcrypto
-providerReddit: BitBoxWallet
+twitter: ShiftCryptoHQ
+social: 
+  - https://www.linkedin.com/company/shift-crypto
+  - https://www.facebook.com/Shiftcrypto
+  - https://www.reddit.com/r/BitBoxWallet
 ---
-
 
 We wrapped the findings from prior reviews in a
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/bitBox2.sh)

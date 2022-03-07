@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-06
 updated: 2019-06-06
 version: "1.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 17M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app appears to not support BTC.

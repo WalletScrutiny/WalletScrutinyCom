@@ -10,7 +10,7 @@ appCountry:
 released: 2021-01-21
 updated: 2022-02-18
 version: "1.8.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 52M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: KEYRING_PRO
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: KEYRING_PRO
+social:
 redirect_from:
-
 ---
 
 ## App Description

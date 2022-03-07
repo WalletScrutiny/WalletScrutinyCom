@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: btcalpha
-providerLinkedIn: btcalpha
-providerFacebook: btcalpha
-providerReddit: 
-
-redirect_from:
-
+twitter: btcalpha
+social:
+  - https://www.linkedin.com/company/btcalpha
+  - https://www.facebook.com/btcalpha
 ---
 
 {% include copyFromAndroid.html %}

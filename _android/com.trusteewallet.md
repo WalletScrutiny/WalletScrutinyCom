@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-01
 updated: 2022-02-11
 version: "1.50.5"
-stars: 3.9
+stars: 3.9466667
 ratings: 2467
 reviews: 39
 size: 56M
@@ -29,11 +29,9 @@ reviewArchive:
   appHash: 
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable
-providerTwitter: Trustee_Wallet
-providerLinkedIn: 
-providerFacebook: Trustee.Wallet
-providerReddit: 
-
+twitter: Trustee_Wallet
+social:
+  - https://www.facebook.com/Trustee.Wallet
 redirect_from:
   - /com.trusteewallet/
   - /posts/com.trusteewallet/

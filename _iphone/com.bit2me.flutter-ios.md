@@ -8,11 +8,11 @@ appId: com.bit2me.flutter-ios
 appCountry: 
 idd: 1459809738
 released: 2019-06-04
-updated: 2022-02-28
-version: "2.2.6"
-stars: 4.43182
-reviews: 44
-size: 88566784
+updated: 2022-03-05
+version: "2.2.7"
+stars: 4.44444
+reviews: 45
+size: 88546304
 website: https://bit2me.com
 repository: 
 issue: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: bit2me
-providerLinkedIn: bit2me
-providerFacebook: bit2me
-providerReddit: 
-
-redirect_from:
-
+twitter: bit2me
+social:
+  - https://www.linkedin.com/company/bit2me
+  - https://www.facebook.com/bit2me
 ---
 
 This appears to be the interface for an exchange. We could not find any claims

@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: huobi_korea
-providerLinkedIn: 
-providerFacebook: huobikorea
-providerReddit: 
-
-redirect_from:
-
+twitter: huobi_korea
+social:
+  - https://www.facebook.com/huobikorea
 ---
 
 **Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)

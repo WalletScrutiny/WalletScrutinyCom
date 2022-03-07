@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-11-06
 updated: 2022-02-14
 version: "1.5.24p1"
-stars: 3.3
+stars: 3.2666667
 ratings: 3998
 reviews: 29
 size: 28M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: upbit-official
-providerFacebook: upbit.exchange
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/upbit-official
+  - https://www.facebook.com/upbit.exchange
 redirect_from:
   - /com.dunamu.exchange/
 ---

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-10
 updated: 2021-08-30
 version: "2.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 6.6M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 <div class="alertBox"><div>

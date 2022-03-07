@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-09-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2021-08-31**: This app is no more available.

@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: Cent_Finance
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Cent_Finance
+social:
 ---
 
 {% include copyFromAndroid.html %}

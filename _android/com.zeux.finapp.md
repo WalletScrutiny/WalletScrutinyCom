@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-05-22
 updated: 2021-10-07
 version: "2.20.0"
-stars: 4.2
+stars: 4.2043796
 ratings: 1655
-reviews: 1244
+reviews: 1245
 size: 36M
 website: https://www.zeux.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: ZeuxApp
-providerLinkedIn: zeux
-providerFacebook: Zeuxglobal
-providerReddit: 
-
+twitter: ZeuxApp
+social:
+  - https://www.linkedin.com/company/zeux
+  - https://www.facebook.com/Zeuxglobal
 redirect_from:
-
 ---
 
 **Updated Analysis 2022-01-06**

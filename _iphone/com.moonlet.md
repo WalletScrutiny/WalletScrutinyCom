@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: moonlet_wallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: moonlet_wallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

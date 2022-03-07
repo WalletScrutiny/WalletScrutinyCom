@@ -11,9 +11,9 @@ appCountry: nz
 released: 2021-05-26
 updated: 2022-02-22
 version: "1.7.0"
-stars: 4.5
+stars: 4.4347825
 ratings: 4430
-reviews: 9
+reviews: 10
 size: 72M
 website: https://www.crypto.com/
 repository: 
@@ -25,14 +25,12 @@ verdict: custodial
 date: 2021-10-24
 signer: 
 reviewArchive:
-
-providerTwitter: cryptocom
-providerLinkedIn: cryptocom
-providerFacebook: CryptoComOfficial
-providerReddit: Crypto_com
-
+twitter: cryptocom
+social:
+  - https://www.linkedin.com/company/cryptocom
+  - https://www.facebook.com/CryptoComOfficial
+  - https://www.reddit.com/r/Crypto_com
 redirect_from:
-
 ---
 
 **EDIT 2021-09-14**

@@ -23,14 +23,8 @@ verdict: nosendreceive
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: libertex_latam
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: libertex_latam
+social:
 ---
 
 **Update 2022-02-09**: This app is no more.

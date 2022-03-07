@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: realMatrixport
-providerLinkedIn: matrixport
-providerFacebook: matrixport
-providerReddit: Matrixport
-
-redirect_from:
-
+twitter: realMatrixport
+social:
+  - https://www.linkedin.com/company/matrixport
+  - https://www.facebook.com/matrixport
+  - https://www.reddit.com/r/Matrixport
 ---
 
 {% include copyFromAndroid.html %}

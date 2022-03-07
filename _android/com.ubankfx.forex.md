@@ -10,7 +10,7 @@ appCountry: th
 released: 2017-05-17
 updated: 2022-01-26
 version: "v8.4-5409-9e6ff01c1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 37M
@@ -24,14 +24,9 @@ verdict: nosendreceive
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

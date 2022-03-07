@@ -5,34 +5,30 @@ authors:
 - kiwilamb
 - danny
 released: 2018-04-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [60, 100, 8]
 weight: 
+provider: "BEPAL"
+providerWebsite: https://bepal.pro/
 website: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
 shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
-company: BEPAL
-companywebsite: https://bepal.pro/
 country: CH
 price: 3280CNY
 repository: 
-issue:
+issue: 
 icon: bepalpros.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-12-08
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 The Bepal PRO S' website is [no longer online](https://twitter.com/BitcoinWalletz/status/1466331090105233408).
 

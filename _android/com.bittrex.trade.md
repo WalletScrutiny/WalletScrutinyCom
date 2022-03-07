@@ -8,11 +8,11 @@ users: 500000
 appId: com.bittrex.trade
 appCountry: 
 released: 2019-12-19
-updated: 2022-02-16
-version: "1.18.0"
-stars: 4.2
+updated: 2022-03-03
+version: "1.18.1"
+stars: 4.1923075
 ratings: 5144
-reviews: 512
+reviews: 515
 size: 84M
 website: https://global.bittrex.com
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-02-09
 signer: 
 reviewArchive:
-
-providerTwitter: BittrexGlobal
-providerLinkedIn: 
-providerFacebook: BittrexGlobal
-providerReddit: 
-
+twitter: BittrexGlobal
+social:
+  - https://www.facebook.com/BittrexGlobal
 redirect_from:
-
 ---
 
 This app is an interface to a trading platform:

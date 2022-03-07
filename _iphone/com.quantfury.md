@@ -10,8 +10,8 @@ idd: 1445564443
 released: 2018-12-15
 updated: 2022-03-01
 version: "1.46.1"
-stars: 4.22581
-reviews: 31
+stars: 4.14286
+reviews: 28
 size: 51646464
 website: https://quantfury.com/
 repository: 
@@ -23,14 +23,8 @@ verdict: custodial
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: quantfury
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: quantfury
+social:
 ---
 
 {% include copyFromAndroid.html %}

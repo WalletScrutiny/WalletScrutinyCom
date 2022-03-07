@@ -8,8 +8,8 @@ appId: net.stasis.mobile
 appCountry: 
 idd: 1371949230
 released: 2018-07-06
-updated: 2021-10-27
-version: "7.14"
+updated: 2022-03-01
+version: "7.15"
 stars: 3.66667
 reviews: 3
 size: 23080960
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2020-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: stasisnet
-providerLinkedIn: stasisnet
-providerFacebook: stasisnet
-providerReddit: 
-
-redirect_from:
-
+twitter: stasisnet
+social:
+  - https://www.linkedin.com/company/stasisnet
+  - https://www.facebook.com/stasisnet
 ---
 
 **Update 2021-05-09**: The review is based on the Play Store app. The App Store

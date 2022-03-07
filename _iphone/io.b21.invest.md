@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: B21Official
-providerLinkedIn: b21-limited
-providerFacebook: B21Official
-providerReddit: B21Invest
-
-redirect_from:
-
+twitter: B21Official
+social:
+  - https://www.linkedin.com/company/b21-limited
+  - https://www.facebook.com/B21Official
+  - https://www.reddit.com/r/B21Invest
 ---
 
  {% include copyFromAndroid.html %}

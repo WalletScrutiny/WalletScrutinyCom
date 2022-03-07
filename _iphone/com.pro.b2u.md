@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: bitcointoyou
-providerLinkedIn: bitcointoyou
-providerFacebook: Bitcointoyou
-providerReddit: 
-
-redirect_from:
-
+twitter: bitcointoyou
+social:
+  - https://www.linkedin.com/company/bitcointoyou
+  - https://www.facebook.com/Bitcointoyou
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

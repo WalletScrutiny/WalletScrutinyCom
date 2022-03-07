@@ -10,8 +10,8 @@ idd: 1435383184
 released: 2018-10-03
 updated: 2021-09-27
 version: "2.6.5"
-stars: 4.52016
-reviews: 1488
+stars: 4.51643
+reviews: 1491
 size: 48546816
 website: https://jaxx.io
 repository: 
@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: jaxx_io
-providerLinkedIn: 
-providerFacebook: JaxxWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: jaxx_io
+social:
+  - https://www.facebook.com/JaxxWallet
 ---
 
 This app is non-custodial:

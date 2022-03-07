@@ -10,7 +10,7 @@ idd: 1406825640
 released: 2019-01-30
 updated: 2022-02-16
 version: "3.4"
-stars: 4.77278
+stars: 4.77257
 reviews: 4916
 size: 109652992
 website: https://www.bitstamp.net/
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: Bitstamp
-providerLinkedIn: bitstamp
-providerFacebook: Bitstamp
-providerReddit: 
-
-redirect_from:
-
+twitter: Bitstamp
+social:
+  - https://www.linkedin.com/company/bitstamp
+  - https://www.facebook.com/Bitstamp
 ---
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:

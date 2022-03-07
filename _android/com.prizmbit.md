@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: prizmbit
-providerLinkedIn: 
-providerFacebook: prizmbit
-providerReddit: 
-
+twitter: prizmbit
+social:
+  - https://www.facebook.com/prizmbit
 redirect_from:
-
 ---
 
 **Update 2021-12-04**: This app is gone from the Store.

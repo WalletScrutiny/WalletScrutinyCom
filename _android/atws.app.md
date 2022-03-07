@@ -10,9 +10,9 @@ appCountry: us
 released: 2010-12-15
 updated: 2022-02-23
 version: "8.4.525"
-stars: 3.2
+stars: 3.2532468
 ratings: 7723
-reviews: 859
+reviews: 860
 size: 29M
 website: http://ibkr.com
 repository: 
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: ibkr
-providerLinkedIn: interactive-brokers
-providerFacebook: InteractiveBrokers
-providerReddit: 
-
+twitter: ibkr
+social:
+  - https://www.linkedin.com/company/interactive-brokers
+  - https://www.facebook.com/InteractiveBrokers
 redirect_from:
-
 ---
 
 ## App Description

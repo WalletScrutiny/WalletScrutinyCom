@@ -10,8 +10,8 @@ idd: 1548636153
 released: 2021-02-18
 updated: 2022-02-16
 version: "1.7.2"
-stars: 4.3682
-reviews: 12754
+stars: 4.36611
+reviews: 12802
 size: 91351040
 website: https://www.trbinance.com/
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: BinanceTR
-providerLinkedIn: 
-providerFacebook: TRBinanceTR
-providerReddit: 
-
-redirect_from:
-
+twitter: BinanceTR
+social:
+  - https://www.facebook.com/TRBinanceTR
 ---
 
 {% include copyFromAndroid.html %}

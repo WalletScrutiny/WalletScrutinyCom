@@ -8,11 +8,11 @@ appId: com.chiji14xchange-
 appCountry: ng
 idd: 1459183957
 released: 2019-08-19
-updated: 2021-05-23
-version: "2.4.2"
-stars: 3.8843
-reviews: 242
-size: 54788096
+updated: 2022-03-01
+version: "3.0.0"
+stars: 3.87705
+reviews: 244
+size: 58226688
 website: https://chiji14xchange.com
 repository: 
 issue: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: myrocketapp
-providerLinkedIn: 
-providerFacebook: myrocketapp
-providerReddit: 
-
-redirect_from:
-
+twitter: myrocketapp
+social:
+  - https://www.facebook.com/myrocketapp
 ---
 
 {% include copyFromAndroid.html %}

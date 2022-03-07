@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-02-28
 updated: 2021-12-15
 version: "1.2.78"
-stars: 4.0
+stars: 4.02
 ratings: 424
 reviews: 45
 size: 36M
@@ -24,14 +24,12 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: KinesisMonetary
-providerLinkedIn: kinesismoney
-providerFacebook: kinesismoney
-providerReddit: Kinesis_money
-
+twitter: KinesisMonetary
+social:
+  - https://www.linkedin.com/company/kinesismoney
+  - https://www.facebook.com/kinesismoney
+  - https://www.reddit.com/r/Kinesis_money
 redirect_from:
-
 ---
 
 ### Google Play

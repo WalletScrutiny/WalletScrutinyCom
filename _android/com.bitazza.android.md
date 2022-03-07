@@ -10,9 +10,9 @@ appCountry: th
 released: 2020-09-29
 updated: 2022-02-23
 version: "2.0.0"
-stars: 4.3
+stars: 4.3392506
 ratings: 5028
-reviews: 1173
+reviews: 1202
 size: 42M
 website: http://bitazza.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: bitazzaofficial
-providerLinkedIn: bitazza
-providerFacebook: bitazza
-providerReddit: 
-
+twitter: bitazzaofficial
+social:
+  - https://www.linkedin.com/company/bitazza
+  - https://www.facebook.com/bitazza
 redirect_from:
-
 ---
 
 Bitazza is a cryptocurrency exchange and wallet provider. 

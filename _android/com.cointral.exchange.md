@@ -10,7 +10,7 @@ appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18
 version: "1.3.6"
-stars: 3.8
+stars: 3.8316832
 ratings: 118
 reviews: 64
 size: 26M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: Cointral
-providerLinkedIn: cointral
-providerFacebook: Cointral
-providerReddit: 
-
+twitter: Cointral
+social:
+  - https://www.linkedin.com/company/cointral
+  - https://www.facebook.com/Cointral
 redirect_from:
-
 ---
 
 ## App Description

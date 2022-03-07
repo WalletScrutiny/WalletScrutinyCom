@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-15
 updated: 2022-01-28
 version: "2.9.0"
-stars: 4.1
+stars: 4.1309524
 ratings: 621
 reviews: 28
 size: 60M
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2020-04-27
 signer: 
 reviewArchive:
-
-providerTwitter: viawallet
-providerLinkedIn: 
-providerFacebook: ViaWallet
-providerReddit: 
-
+twitter: viawallet
+social:
+  - https://www.facebook.com/ViaWallet
 redirect_from:
   - /com.viabtc.wallet/
   - /posts/com.viabtc.wallet/

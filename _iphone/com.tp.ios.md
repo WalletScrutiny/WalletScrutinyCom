@@ -10,8 +10,8 @@ idd: 1436028697
 released: 2018-09-23
 updated: 2022-02-26
 version: "1.7.7"
-stars: 3.24645
-reviews: 211
+stars: 3.26977
+reviews: 215
 size: 126529536
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
@@ -23,14 +23,9 @@ verdict: obfuscated
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: TokenPocket_TP
-providerLinkedIn: 
-providerFacebook: TokenPocket
-providerReddit: 
-
-redirect_from:
-
+twitter: TokenPocket_TP
+social:
+  - https://www.facebook.com/TokenPocket
 ---
 
 {% include copyFromAndroid.html %}

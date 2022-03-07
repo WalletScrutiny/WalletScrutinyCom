@@ -6,34 +6,31 @@ authors:
 - danny
 - leo
 released: 2020-04-13
-discontinued: # date
+discontinued: 
 updated: 2021-09-22
-version: 4.1.7
+version: "4.1.7"
+binaries: 
 dimensions: [38, 64, 2.3]
 weight: 
+provider: "HyperPay"
+providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.me/hypermatepro/g
 shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g
-company: HyperPay
-companywebsite: https://hyperpay.tech/
 country: HK
 price: 129USD
 repository: https://github.com/hyperpayorg/hardwallet
 issue: https://github.com/hyperpayorg/hardwallet/issues/4
 icon: hypermateg.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-12
-signer:
-reviewArchive:
-
-
-providerTwitter: HyperPay_tech
-providerLinkedIn: 
-providerFacebook: hyperpayofficial
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: HyperPay_tech
+social: 
+  - https://www.facebook.com/hyperpayofficial
 ---
-
 
 HyperMate G is about the size of a credit card and has buttons and a screen. These help the user to verify and confirm transactions. The wallet can connect via Bluetooth.
 

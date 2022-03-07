@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-07-04
 updated: 2021-10-21
 version: "1.4.24"
-stars: 4.4
+stars: 4.206897
 ratings: 159
 reviews: 15
 size: 23M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: OceanexOfficial
-providerLinkedIn: 
-providerFacebook: OceanExPROOfficial
-providerReddit: OceanExOfficial
-
+twitter: OceanexOfficial
+social:
+  - https://www.facebook.com/OceanExPROOfficial
+  - https://www.reddit.com/r/OceanExOfficial
 redirect_from:
-
 ---
 
 ## App Description

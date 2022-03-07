@@ -9,10 +9,10 @@ appId: io.cex.app
 appCountry: 
 idd: 1047225016
 released: 2015-12-22
-updated: 2022-02-15
-version: "7.5.5"
-stars: 4.59876
-reviews: 4820
+updated: 2022-03-03
+version: "7.5.6"
+stars: 4.59686
+reviews: 4842
 size: 76866560
 website: https://cex.io
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: cex_io
-providerLinkedIn: cex-io
-providerFacebook: CEX.IO
-providerReddit: 
-
-redirect_from:
-
+twitter: cex_io
+social:
+  - https://www.linkedin.com/company/cex-io
+  - https://www.facebook.com/CEX.IO
 ---
 
 The CEX.io mobile app claims on the website to manage bitcoins...

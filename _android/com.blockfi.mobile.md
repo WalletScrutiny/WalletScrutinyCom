@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-30
 updated: 2022-02-23
 version: "5.1.2"
-stars: 4.2
+stars: 4.154412
 ratings: 4802
-reviews: 1333
+reviews: 1332
 size: 11M
 website: https://blockfi.com/
 repository: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: BlockFi
-providerLinkedIn: blockfi
-providerFacebook: BlockFi
-providerReddit: blockfi
-
+twitter: BlockFi
+social:
+  - https://www.linkedin.com/company/blockfi
+  - https://www.facebook.com/BlockFi
+  - https://www.reddit.com/r/blockfi
 redirect_from:
-
 ---
 
 > BlockFi is the easiest place to buy, sell and earn cryptocurrency

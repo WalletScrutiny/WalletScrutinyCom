@@ -10,7 +10,7 @@ appCountry:
 released: 2020-05-18
 updated: 2021-04-25
 version: "10.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 9.2M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: vinetexchange
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/vinetexchange
 redirect_from:
-
 ---
 
 ## App Description

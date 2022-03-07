@@ -10,9 +10,9 @@ appCountry: th
 released: 2020-10-02
 updated: 2021-06-29
 version: "1.1.1075"
-stars: 3.8
+stars: 3.8142858
 ratings: 73
-reviews: 38
+reviews: 37
 size: 75M
 website: https://cexchangenex.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

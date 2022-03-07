@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-03-09
 signer: 
 reviewArchive:
-
-providerTwitter: Lykke
-providerLinkedIn: lykke
-providerFacebook: LykkeCity
-providerReddit: lykke
-
-redirect_from:
-
+twitter: Lykke
+social:
+  - https://www.linkedin.com/company/lykke
+  - https://www.facebook.com/LykkeCity
+  - https://www.reddit.com/r/lykke
 ---
 
 Lykke appears to be a Swiss exchange:

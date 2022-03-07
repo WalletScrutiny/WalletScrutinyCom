@@ -4,33 +4,31 @@ appId: sugi
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 1]
 weight: 
+provider: "Sugi"
+providerWebsite: https://sugi.io
 website: https://sugi.io
 shop: https://sugi.io/#pricing
-company: Sugi
-companywebsite: https://sugi.io
 country: BE
 price: 59.9EUR
 repository: 
-issue:
+issue: 
 icon: sugi.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: noita # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: noita
 date: 2021-08-08
-signer:
-reviewArchive:
-
-
-providerTwitter: SugiCard
-providerLinkedIn: sugi-card
-providerFacebook: SugiCard
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SugiCard
+social: 
+  - https://www.linkedin.com/company/sugi-card
+  - https://www.facebook.com/SugiCard
 ---
-
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

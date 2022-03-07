@@ -8,12 +8,12 @@ users: 50000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13
-updated: 2021-12-03
-version: "3.0.52"
-stars: 4.0
+updated: 2022-03-03
+version: "3.0.57"
+stars: 4.0142856
 ratings: 826
 reviews: 17
-size: 48M
+size: 18M
 website: https://www.alvexo.com
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: Alvexo_Trade
-providerLinkedIn: alvexo
-providerFacebook: 
-providerReddit: 
-
+twitter: Alvexo_Trade
+social:
+  - https://www.linkedin.com/company/alvexo
 redirect_from:
-
 ---
 
 As this is a CFD, stocks, indices, commodities and forex trading app, we can assume that this app does not allow "real" bitcoin to be sent or received. 

@@ -10,8 +10,8 @@ idd: 1545825554
 released: 2021-03-18
 updated: 2022-02-01
 version: "1.8.22"
-stars: 4.69158
-reviews: 321
+stars: 4.69207
+reviews: 328
 size: 72078336
 website: https://bitpreco.com/
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: BitPreco
-providerLinkedIn: bitpreco
-providerFacebook: BitPreco
-providerReddit: 
-
-redirect_from:
-
+twitter: BitPreco
+social:
+  - https://www.linkedin.com/company/bitpreco
+  - https://www.facebook.com/BitPreco
 ---
 
 {% include copyFromAndroid.html %}

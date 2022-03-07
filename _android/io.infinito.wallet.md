@@ -10,7 +10,7 @@ appCountry:
 released: 2017-11-15
 updated: 2022-02-22
 version: "2.36.6"
-stars: 3.8
+stars: 3.77
 ratings: 2198
 reviews: 110
 size: 65M
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2020-03-30
 signer: 
 reviewArchive:
-
-providerTwitter: Infinito_Ltd
-providerLinkedIn: infinitoservices
-providerFacebook: InfinitoWallet
-providerReddit: 
-
+twitter: Infinito_Ltd
+social:
+  - https://www.linkedin.com/company/infinitoservices
+  - https://www.facebook.com/InfinitoWallet
 redirect_from:
   - /io.infinito.wallet/
   - /posts/io.infinito.wallet/

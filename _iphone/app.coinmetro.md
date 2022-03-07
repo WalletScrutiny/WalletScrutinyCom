@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: CoinMetro
-providerLinkedIn: coinmetro
-providerFacebook: CoinMetro
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinMetro
+social:
+  - https://www.linkedin.com/company/coinmetro
+  - https://www.facebook.com/CoinMetro
 ---
 
 {% include copyFromAndroid.html %}

@@ -4,32 +4,29 @@ appId: keyfortk300
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "KeyFort"
+providerWebsite: https://www.keyfort.io/
 website: 
 shop: 
-company: KeyFort
-companywebsite: https://www.keyfort.io/
 country: CH
 price: 
 repository: 
-issue:
+issue: 
 icon: keyfortk300.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-07-16
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.keyfort.io).

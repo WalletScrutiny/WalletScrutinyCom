@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: bekonta
-providerFacebook: bekontahq
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/bekonta
+  - https://www.facebook.com/bekontahq
 ---
 
 {% include copyFromAndroid.html %}

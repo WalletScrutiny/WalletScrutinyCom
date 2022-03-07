@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: blubitex
-providerLinkedIn: 
-providerFacebook: blubitexofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: blubitex
+social:
+  - https://www.facebook.com/blubitexofficial
 ---
 
  {% include copyFromAndroid.html %}

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-06
 updated: 2022-02-16
 version: "12.02.18"
-stars: 3.7
+stars: 3.79
 ratings: 235
-reviews: 101
+reviews: 102
 size: 17M
 website: https://www.coin.cloud
 repository: 
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCloudATM
-providerLinkedIn: 
-providerFacebook: coincloudATM
-providerReddit: 
-
+twitter: CoinCloudATM
+social:
+  - https://www.facebook.com/coincloudATM
 redirect_from:
-
 ---
 
 It is very clear that the provider is claiming that this wallet is non-custodial with this early statement found in the [play store description](https://play.google.com/store/apps/details?id=com.bitpay.coincloud).

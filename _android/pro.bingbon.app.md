@@ -12,7 +12,7 @@ updated: 2022-02-23
 version: "2.48.0"
 stars: 4.5
 ratings: 2828
-reviews: 82
+reviews: 83
 size: 46M
 website: https://bingx.com
 repository: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-04-21
 signer: 
 reviewArchive:
-
-providerTwitter: BingbonOfficial
-providerLinkedIn: bingbon
-providerFacebook: BingbonOfficial
-providerReddit: Bingbon
-
+twitter: BingbonOfficial
+social:
+  - https://www.linkedin.com/company/bingbon
+  - https://www.facebook.com/BingbonOfficial
+  - https://www.reddit.com/r/Bingbon
 redirect_from:
-
 ---
 
 We cannot find any claims as to the custody of private keys found from Bingbon.

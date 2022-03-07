@@ -10,7 +10,7 @@ appCountry:
 released: 2020-01-22
 updated: 2021-11-28
 version: "4.1.7"
-stars: 3.6
+stars: 3.625
 ratings: 771
 reviews: 5
 size: 24M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: chiliz
-providerLinkedIn: 
-providerFacebook: Chilizdotcom
-providerReddit: 
-
+twitter: chiliz
+social:
+  - https://www.facebook.com/Chilizdotcom
 redirect_from:
-
 ---
 
 > Chiliz Exchange is the official exchange app of the cryptocurrency company Chiliz in Europe. You can easily send your Bitcoin, Ethereum and many other cryptocurrencies in your secured wallet and then trade them.

@@ -10,10 +10,10 @@ idd: 1492670702
 released: 2020-01-05
 updated: 2022-02-24
 version: "2.9.4"
-stars: 4.2081
-reviews: 94764
+stars: 4.20851
+reviews: 95236
 size: 221968384
-website: https://www.binance.us
+website: https://www.binance.us/en/home
 repository: 
 issue: 
 icon: us.binance.fiat.jpg
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: binanceus
-providerLinkedIn: binance-us
-providerFacebook: BinanceUS
-providerReddit: 
-
-redirect_from:
-
+twitter: binanceus
+social:
+  - https://www.linkedin.com/company/binance-us
+  - https://www.facebook.com/BinanceUS
 ---
 
 This is the iPhone version of {% include walletLink.html wallet='android/com.binance.us' %} and we

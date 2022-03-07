@@ -8,12 +8,12 @@ users: 50000
 appId: com.bitsacard.BitsaApp
 appCountry: gb
 released: 2019-04-09
-updated: 2022-02-08
-version: "2.7.6"
-stars: 2.6
+updated: 2022-02-25
+version: "2.7.7"
+stars: 2.625
 ratings: 884
 reviews: 6
-size: 74M
+size: 73M
 website: https://www.bitsacard.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-11-02
 signer: 
 reviewArchive:
-
-providerTwitter: bitsa_oficial
-providerLinkedIn: bitsacard
-providerFacebook: BitsaCard
-providerReddit: 
-
+twitter: bitsa_oficial
+social:
+  - https://www.linkedin.com/company/bitsacard
+  - https://www.facebook.com/BitsaCard
 redirect_from:
-
 ---
 
 ## App Description

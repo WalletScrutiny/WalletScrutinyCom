@@ -8,12 +8,12 @@ users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
-updated: 2022-02-18
-version: "1.48.1"
-stars: 4.8
+updated: 2022-03-03
+version: "1.51.0"
+stars: 4.80198
 ratings: 2072
 reviews: 218
-size: 122M
+size: 124M
 website: https://ownrwallet.com
 repository: 
 issue: 
@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
-providerTwitter: ownrwallet
-providerLinkedIn: 
-providerFacebook: ownrwallet
-providerReddit: ownrwallet
-
+twitter: ownrwallet
+social:
+  - https://www.facebook.com/ownrwallet
+  - https://www.reddit.com/r/ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---

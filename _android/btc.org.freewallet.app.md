@@ -10,7 +10,7 @@ appCountry:
 released: 2016-06-13
 updated: 2021-09-20
 version: "2.6.8"
-stars: 4.4
+stars: 4.4038463
 ratings: 8152
 reviews: 411
 size: 8.3M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: freewalletorg
-providerLinkedIn: 
-providerFacebook: freewallet.org
-providerReddit: Freewallet_org
-
+twitter: freewalletorg
+social:
+  - https://www.facebook.com/freewallet.org
+  - https://www.reddit.com/r/Freewallet_org
 redirect_from:
   - /btc.org.freewallet.app/
   - /posts/btc.org.freewallet.app/

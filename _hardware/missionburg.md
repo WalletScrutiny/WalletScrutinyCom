@@ -1,37 +1,34 @@
 ---
 title: "MissionBurg"
-appId: missionBurg
+appId: missionburg
 authors:
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "MiShen Technology (Shanghai) Partnership (Limited Partnership)"
+providerWebsite: 
 website: https://missiontech.io/
 shop: 
-company: MiShen Technology (Shanghai) Partnership (Limited Partnership)
-companywebsite: 
 country: CN
 price: 
 repository: 
-issue:
+issue: 
 icon: missionburg.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: unreleased  
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: missionburg
-providerLinkedIn: 
-providerFacebook: missiontech.io
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: missionburg
+social: 
+  - https://www.facebook.com/missiontech.io
 ---
-
 
 The missiontech.io domain is offline. There are also no copies of it from the web archive. Its [twitter account](https://twitter.com/missionburg) has also not posted any material. Its facebook page has only posted cover pictures. Without product specification, information or announcements we cannot adequately analyze this product.
 

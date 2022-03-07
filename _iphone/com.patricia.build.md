@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: PatriciaSwitch
-providerLinkedIn: 
-providerFacebook: patricia.com.ng
-providerReddit: 
-
-redirect_from:
-
+twitter: PatriciaSwitch
+social:
+  - https://www.facebook.com/patricia.com.ng
 ---
 
 **Update 2021-09-29**: This app is not available anymore in the Apple store.

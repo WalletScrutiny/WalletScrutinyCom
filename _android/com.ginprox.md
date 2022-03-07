@@ -24,14 +24,11 @@ verdict: wip
 date: 2021-08-04
 signer: 
 reviewArchive:
-
-providerTwitter: GinBlockchain
-providerLinkedIn: gin-blockchain
-providerFacebook: ginnetworks
-providerReddit: 
-
+twitter: GinBlockchain
+social:
+  - https://www.linkedin.com/company/gin-blockchain
+  - https://www.facebook.com/ginnetworks
 redirect_from:
-
 ---
 
 The app is not on Play Store anymore. As this app has only 1.9 stars, we would

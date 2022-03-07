@@ -25,14 +25,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: coinbene
-providerLinkedIn: coinbene-official
-providerFacebook: CoinBeneOfficial
-providerReddit: 
-
+twitter: coinbene
+social:
+  - https://www.linkedin.com/company/coinbene-official
+  - https://www.facebook.com/CoinBeneOfficial
 redirect_from:
-
 ---
 
 **Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'

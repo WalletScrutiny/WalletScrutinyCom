@@ -8,12 +8,12 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2022-02-19
-version: "1.3.2"
-stars: 4.3
+updated: 2022-03-03
+version: "1.3.6"
+stars: 4.3109245
 ratings: 1103
-reviews: 635
-size: 109M
+reviews: 643
+size: 112M
 website: https://invest.matrixport.com
 repository: 
 issue: 
@@ -24,14 +24,12 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: realMatrixport
-providerLinkedIn: matrixport
-providerFacebook: matrixport
-providerReddit: Matrixport
-
+twitter: realMatrixport
+social:
+  - https://www.linkedin.com/company/matrixport
+  - https://www.facebook.com/matrixport
+  - https://www.reddit.com/r/Matrixport
 redirect_from:
-
 ---
 
 From its site description:

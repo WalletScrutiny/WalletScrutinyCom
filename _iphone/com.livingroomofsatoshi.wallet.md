@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: walletofsatoshi
-providerLinkedIn: 
-providerFacebook: walletofsatoshi
-providerReddit: 
-
-redirect_from:
-
+twitter: walletofsatoshi
+social:
+  - https://www.facebook.com/walletofsatoshi
 ---
 
 This is a custodial wallet according to their website's FAQ:

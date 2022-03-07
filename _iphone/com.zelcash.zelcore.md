@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: zelcash
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: ZelCash
-
-redirect_from:
-
+twitter: zelcash
+social:
+  - https://www.reddit.com/r/ZelCash
 ---
 
 {% include copyFromAndroid.html %}

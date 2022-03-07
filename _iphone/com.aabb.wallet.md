@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: AsiaBroadband
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: AsiaBroadband
+social:
 ---
 
 {% include copyFromAndroid.html %}

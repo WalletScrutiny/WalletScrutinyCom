@@ -10,7 +10,7 @@ appCountry: us
 released: 2017-10-17
 updated: 2022-02-16
 version: "2.1.6"
-stars: 4.8
+stars: 4.769231
 ratings: 110
 reviews: 9
 size: 11M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: Belfrics
-providerLinkedIn: 
-providerFacebook: Belfrics
-providerReddit: 
-
+twitter: Belfrics
+social:
+  - https://www.facebook.com/Belfrics
 redirect_from:
-
 ---
 
 ## App Description

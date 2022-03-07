@@ -8,9 +8,9 @@ users: 500000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2022-02-24
-version: "1.4.12"
-stars: 4.2
+updated: 2022-03-03
+version: "1.4.15"
+stars: 4.178218
 ratings: 6106
 reviews: 131
 size: 86M
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: getMaiar
-providerLinkedIn: getmaiar
-providerFacebook: getMaiar
-providerReddit: 
-
+twitter: getMaiar
+social:
+  - https://www.linkedin.com/company/getmaiar
+  - https://www.facebook.com/getMaiar
 redirect_from:
-
 ---
 
 > Maiar is a digital wallet and global payments app that is reimagining the way we interact with money, allowing you to exchange and securely store crypto on your mobile phone.

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-26
 updated: 2022-02-09
 version: "1.30.60"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 65M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-04-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant

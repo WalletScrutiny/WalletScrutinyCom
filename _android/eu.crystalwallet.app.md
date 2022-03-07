@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: CrystalWalletEU
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: CrystalWalletEU
+social:
 redirect_from:
-
 ---
 
 ## App Description

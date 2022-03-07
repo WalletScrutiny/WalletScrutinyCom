@@ -8,12 +8,12 @@ users: 500000
 appId: com.okinc.okcoin.intl
 appCountry: us
 released: 2018-06-22
-updated: 2022-02-22
-version: "5.3.4"
-stars: 4.2
+updated: 2022-03-01
+version: "5.3.6"
+stars: 4.138577
 ratings: 4636
-reviews: 500
-size: 99M
+reviews: 504
+size: 100M
 website: http://www.okcoin.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: OKcoin
-providerLinkedIn: okcoin
-providerFacebook: OkcoinOfficial
-providerReddit: 
-
+twitter: OKcoin
+social:
+  - https://www.linkedin.com/company/okcoin
+  - https://www.facebook.com/OkcoinOfficial
 redirect_from:
-
 ---
 
 > Okcoin is a secure crypto exchange that makes it easy to buy, sell, and hold your cryptocurrency with the lowest fees around.

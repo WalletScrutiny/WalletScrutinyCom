@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-31
 updated: 2022-01-24
 version: "2.9.10"
-stars: 4.0
+stars: 3.9509804
 ratings: 4350
-reviews: 186
+reviews: 187
 size: 82M
 website: https://token.im
 repository: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: imTokenOfficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: imTokenOfficial
+social:
 redirect_from:
-
 ---
 
 In the description we read:

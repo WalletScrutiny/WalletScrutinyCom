@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-10-28
 updated: 2022-02-14
 version: "1.7.0"
-stars: 2.9
+stars: 2.8888888
 ratings: 187
 reviews: 8
 size: 13M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: Blocktradecom
-providerLinkedIn: blocktradecom
-providerFacebook: Blocktradecom
-providerReddit: 
-
+twitter: Blocktradecom
+social:
+  - https://www.linkedin.com/company/blocktradecom
+  - https://www.facebook.com/Blocktradecom
 redirect_from:
-
 ---
 
 ## App Description

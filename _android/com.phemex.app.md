@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-19
 updated: 2022-02-09
 version: "2.0.8"
-stars: 4.7
+stars: 4.6738024
 ratings: 15997
-reviews: 627
+reviews: 656
 size: 51M
 website: https://phemex.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-13
 signer: 
 reviewArchive:
-
-providerTwitter: phemex_official
-providerLinkedIn: phemex
-providerFacebook: Phemex.official
-providerReddit: 
-
+twitter: phemex_official
+social:
+  - https://www.linkedin.com/company/phemex
+  - https://www.facebook.com/Phemex.official
 redirect_from:
-
 ---
 
 The Phemex mobile app claims to hold funds in cold storage...

@@ -10,9 +10,9 @@ appCountry: jp
 released: 2019-09-03
 updated: 2022-02-21
 version: "1.4.27"
-stars: 3.4
+stars: 3.4033334
 ratings: 3029
-reviews: 1121
+reviews: 1124
 size: 31M
 website: https://www.paddle-inc.jp/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## New Review 2021-10-28

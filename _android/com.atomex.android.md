@@ -24,14 +24,9 @@ verdict: nonverifiable
 date: 2022-02-25
 signer: 
 reviewArchive:
-
-providerTwitter: atomex_official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: atomex_official
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-12**: This app is not on the Store anymore.

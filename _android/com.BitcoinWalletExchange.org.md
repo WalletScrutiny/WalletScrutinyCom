@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-12
 updated: 2020-10-13
 version: "1.01"
-stars: 4.7
+stars: 4.6904764
 ratings: 110
 reviews: 11
 size: 20M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 There is no statement regarding how private keys are managed in the play store description.

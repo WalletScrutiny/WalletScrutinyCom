@@ -8,12 +8,12 @@ users: 5000000
 appId: com.bitcoin.mwallet
 appCountry: 
 released: 2017-06-19
-updated: 2022-02-15
-version: "7.12.3"
-stars: 4.5
+updated: 2022-03-01
+version: "7.13.3"
+stars: 4.4713116
 ratings: 39345
-reviews: 2181
-size: 88M
+reviews: 2188
+size: 89M
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39
@@ -29,11 +29,10 @@ reviewArchive:
   appHash: 
   gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
   verdict: nonverifiable
-providerTwitter: bitcoincom
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: btc
-
+twitter: bitcoincom
+social:
+  - https://www.facebook.com/buy.bitcoin.news
+  - https://www.reddit.com/r/btc
 redirect_from:
   - /com.bitcoin.mwallet/
   - /posts/com.bitcoin.mwallet/

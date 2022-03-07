@@ -5,34 +5,31 @@ authors:
 - kiwilamb
 - danny
 released: 2019-01-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Starteos"
+providerWebsite: https://www.starteos.io
 website: https://www.starteos.io/en/product
 shop: 
-company: Starteos
-companywebsite: https://www.starteos.io
 country: CH
 price: 
 repository: 
-issue:
+issue: 
 icon: memoryboxpro2.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: noita 
+verdict: noita
 date: 2021-12-08
-signer:
-reviewArchive:
-
-
-providerTwitter: Starteos
-providerLinkedIn: 
-providerFacebook: starteos.io.7
-providerReddit: Starteos
+signer: 
+reviewArchive: 
+twitter: Starteos
+social: 
+  - https://www.facebook.com/starteos.io.7
 ---
-
 
 Announced on [twitter on May 17, 2020](https://twitter.com/Starteosio/status/1129233526597902336), it was difficult to find technical information, documentation, reviews and video reviews of the product. It does however have some Chinese language videos from its official YouTube channel: 
 

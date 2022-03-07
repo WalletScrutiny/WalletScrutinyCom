@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: koinbazar
-providerLinkedIn: koinbazar
-providerFacebook: koinbazar
-providerReddit: 
-
-redirect_from:
-
+twitter: koinbazar
+social:
+  - https://www.linkedin.com/company/koinbazar
+  - https://www.facebook.com/koinbazar
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: CoinUs_Official
-providerLinkedIn: 
-providerFacebook: CoinUsOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinUs_Official
+social:
+  - https://www.facebook.com/CoinUsOfficial
 ---
 
  {% include copyFromAndroid.html %}

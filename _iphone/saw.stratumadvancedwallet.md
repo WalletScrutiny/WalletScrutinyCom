@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: stratumhk
-providerLinkedIn: stratumbr
-providerFacebook: stratum.hk
-providerReddit: 
-
-redirect_from:
-
+twitter: stratumhk
+social:
+  - https://www.linkedin.com/company/stratumbr
+  - https://www.facebook.com/stratum.hk
 ---
 
 {% include copyFromAndroid.html %}

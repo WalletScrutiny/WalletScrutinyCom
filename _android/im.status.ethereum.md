@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-05
 updated: 2022-02-15
 version: "1.18.2"
-stars: 4.4
+stars: 4.379747
 ratings: 2069
-reviews: 38
+reviews: 40
 size: 81M
 website: https://status.im
 repository: 
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-09
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app appears to not support BTC.

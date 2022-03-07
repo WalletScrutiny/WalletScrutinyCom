@@ -4,32 +4,29 @@ appId: bitkee
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://bitkee.com
 website: 
 shop: 
-company: 
-companywebsite: https://bitkee.com
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: bitkee.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-08-01
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 On the [bitkee site](https://bitkee.com) they state the production of this wallet has been discontinued.

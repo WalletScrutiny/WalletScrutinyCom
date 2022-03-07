@@ -10,9 +10,9 @@ appCountry:
 released: 2017-11-01
 updated: 2022-02-25
 version: "6.8.2"
-stars: 4.6
+stars: 4.52459
 ratings: 31840
-reviews: 430
+reviews: 433
 size: 128M
 website: http://www.hbg.com
 repository: 
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiGlobal
-providerLinkedIn: 
-providerFacebook: huobiglobalofficial
-providerReddit: 
-
+twitter: HuobiGlobal
+social:
+  - https://www.facebook.com/huobiglobalofficial
 redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/

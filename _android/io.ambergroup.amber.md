@@ -8,12 +8,12 @@ users: 100000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2022-01-29
-version: "2.1.1"
-stars: 4.4
+updated: 2022-03-03
+version: "2.1.5"
+stars: 4.355932
 ratings: 2656
-reviews: 90
-size: 78M
+reviews: 93
+size: 149M
 website: https://www.whalefin.com
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: ambergroup_io
-providerLinkedIn: amberbtc
-providerFacebook: ambergroup.io
-providerReddit: 
-
+twitter: ambergroup_io
+social:
+  - https://www.linkedin.com/company/amberbtc
+  - https://www.facebook.com/ambergroup.io
 redirect_from:
-
 ---
 
 The app is a crypto investment app that allows users to: 

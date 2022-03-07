@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Note:** This app is very suspicious and may not be safe to use!

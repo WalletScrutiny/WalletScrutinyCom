@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-04-15
 updated: 2021-04-27
 version: "1.0.31"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 50M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: cryptoneedwallet
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/cryptoneedwallet
 redirect_from:
-
 ---
 
 ## App Description

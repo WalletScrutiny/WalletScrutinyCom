@@ -10,7 +10,7 @@ appCountry:
 released: 2019-02-15
 updated: 2022-01-27
 version: "3.25"
-stars: 4.1
+stars: 4
 ratings: 3529
 reviews: 12
 size: 36M
@@ -24,12 +24,11 @@ verdict: custodial
 date: 2021-05-30
 signer: 
 reviewArchive:
-
-providerTwitter: buyucoin
-providerLinkedIn: buyucoin
-providerFacebook: BuyUcoin
-providerReddit: BuyUcoin
-
+twitter: buyucoin
+social:
+  - https://www.linkedin.com/company/buyucoin
+  - https://www.facebook.com/BuyUcoin
+  - https://www.reddit.com/r/BuyUcoin
 redirect_from:
   - /com.buyucoinApp.buyucoin/
   - /posts/com.buyucoinApp.buyucoin/

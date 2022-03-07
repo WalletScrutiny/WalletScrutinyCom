@@ -10,8 +10,8 @@ idd: 1404357892
 released: 2018-08-06
 updated: 2022-02-23
 version: "7.9.0"
-stars: 4.56723
-reviews: 5176
+stars: 4.56795
+reviews: 5217
 size: 76837888
 website: https://lobstr.co/
 repository: 
@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: Lobstrco
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Lobstrco
+social:
 ---
 
 As the description states, lobstr is a stellar lumens wallet. 

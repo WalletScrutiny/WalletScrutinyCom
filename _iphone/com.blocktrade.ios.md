@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: Blocktradecom
-providerLinkedIn: blocktradecom
-providerFacebook: Blocktradecom
-providerReddit: 
-
-redirect_from:
-
+twitter: Blocktradecom
+social:
+  - https://www.linkedin.com/company/blocktradecom
+  - https://www.facebook.com/Blocktradecom
 ---
 
 {% include copyFromAndroid.html %}

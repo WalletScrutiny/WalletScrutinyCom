@@ -4,32 +4,29 @@ appId: lattice1
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Grid Plus"
+providerWebsite: https://gridplus.io
 website: https://gridplus.io/products/grid-lattice1
 shop: https://gridplus.io/products/grid-lattice1
-company: Grid Plus
-companywebsite: https://gridplus.io
 country: US
 price: 349USD
 repository: https://github.com/GridPlus/lattice-firmware-history
-issue:
+issue: 
 icon: lattice1.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2021-07-23
-signer:
-reviewArchive:
-
-
-providerTwitter: gridplus
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: gridplus
+social: 
 ---
 
 Lattice devices can work in conjunction with the providers safecards, safecards store private keys offline from the lattice device.

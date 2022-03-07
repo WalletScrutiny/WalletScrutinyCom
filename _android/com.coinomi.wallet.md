@@ -10,9 +10,9 @@ appCountry:
 released: 2014-01-31
 updated: 2022-02-02
 version: "1.25.2"
-stars: 4.5
+stars: 4.4609165
 ratings: 39950
-reviews: 2022
+reviews: 2025
 size: 43M
 website: https://www.Coinomi.com
 repository: 
@@ -24,12 +24,11 @@ verdict: nosource
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: CoinomiWallet
-providerLinkedIn: coinomi
-providerFacebook: coinomi
-providerReddit: COINOMI
-
+twitter: CoinomiWallet
+social:
+  - https://www.linkedin.com/company/coinomi
+  - https://www.facebook.com/coinomi
+  - https://www.reddit.com/r/COINOMI
 redirect_from:
   - /coinomi/
   - /com.coinomi.wallet/

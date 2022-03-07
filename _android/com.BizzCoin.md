@@ -10,7 +10,7 @@ appCountry: in
 released: 2020-01-02
 updated: 2021-10-28
 version: "1.21"
-stars: 4.8
+stars: 4.75
 ratings: 491
 reviews: 13
 size: 42M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: bizz_coin
-providerLinkedIn: 
-providerFacebook: BizzCoinOfficial
-providerReddit: 
-
+twitter: bizz_coin
+social:
+  - https://www.facebook.com/BizzCoinOfficial
 redirect_from:
-
 ---
 
 ### Google Play

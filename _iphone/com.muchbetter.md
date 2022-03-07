@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: paymuchbetter
-providerLinkedIn: mir-muchbetter
-providerFacebook: paymuchbetter
-providerReddit: 
-
-redirect_from:
-
+twitter: paymuchbetter
+social:
+  - https://www.linkedin.com/company/mir-muchbetter
+  - https://www.facebook.com/paymuchbetter
 ---
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 

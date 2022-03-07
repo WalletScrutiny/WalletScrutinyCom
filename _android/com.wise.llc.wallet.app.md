@@ -10,7 +10,7 @@ appCountry: fi
 released: 2020-09-03
 updated: 2021-07-02
 version: "2.6.4"
-stars: 4.3
+stars: 4.2727275
 ratings: 43
 reviews: 28
 size: 39M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

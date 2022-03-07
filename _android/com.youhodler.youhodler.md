@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-11
 updated: 2022-02-22
 version: "4.0.0"
-stars: 3.8
+stars: 3.847826
 ratings: 5083
 reviews: 52
 size: 60M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-06-20
 signer: 
 reviewArchive:
-
-providerTwitter: youhodler
-providerLinkedIn: youhodler
-providerFacebook: YouHodler
-providerReddit: 
-
+twitter: youhodler
+social:
+  - https://www.linkedin.com/company/youhodler
+  - https://www.facebook.com/YouHodler
 redirect_from:
   - /com.youhodler.youhodler/
   - /posts/com.youhodler.youhodler/

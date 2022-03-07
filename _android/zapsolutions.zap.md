@@ -64,11 +64,8 @@ reviewArchive:
   appHash: 
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
-providerTwitter: ln_zap
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ln_zap
+social:
 redirect_from:
   - /posts/zapsolutions.zap/
 ---

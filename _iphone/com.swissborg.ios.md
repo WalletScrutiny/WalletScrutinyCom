@@ -10,8 +10,8 @@ idd: 1442483481
 released: 2020-03-31
 updated: 2022-02-25
 version: "1.29.1"
-stars: 4.21868
-reviews: 878
+stars: 4.2202
+reviews: 881
 size: 71649280
 website: https://swissborg.com
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-15
 signer: 
 reviewArchive:
-
-providerTwitter: swissborg
-providerLinkedIn: swissborg
-providerFacebook: swissborg
-providerReddit: 
-
-redirect_from:
-
+twitter: swissborg
+social:
+  - https://www.linkedin.com/company/swissborg
+  - https://www.facebook.com/swissborg
 ---
 
  {% include copyFromAndroid.html %}

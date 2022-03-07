@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2022-01-27
 version: "2.0.17"
 stars: 5
-reviews: 1
+reviews: 3
 size: 71681024
 website: 
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-16
 signer: 
 reviewArchive:
-
-providerTwitter: BudaPuntoCom
-providerLinkedIn: budapuntocom
-providerFacebook: BudaPuntoCom
-providerReddit: 
-
-redirect_from:
-
+twitter: BudaPuntoCom
+social:
+  - https://www.linkedin.com/company/budapuntocom
+  - https://www.facebook.com/BudaPuntoCom
 ---
 
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),

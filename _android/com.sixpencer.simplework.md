@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-09
 updated: 2021-06-23
 version: "1.4.3"
-stars: 4.3
+stars: 4.322581
 ratings: 194
 reviews: 12
 size: 21M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-07-29
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app appears not to get access to spend your Bitcoins:

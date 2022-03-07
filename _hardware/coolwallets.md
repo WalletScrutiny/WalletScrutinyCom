@@ -5,34 +5,31 @@ authors:
 - kiwilamb
 - leo
 released: 2018-01-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [54, 85, 0.8]
 weight: 6
+provider: "CoolBitX"
+providerWebsite: https://coolbitx.com/
 website: https://www.coolwallet.io/coolwallet_s
 shop: https://www.coolwallet.io/product/coolwallet/
-company: CoolBitX
-companywebsite: https://coolbitx.com/
 country: TW
 price: 99USD
 repository: 
-issue:
+issue: 
 icon: coolwallets.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: plainkey
 date: 2021-12-08
-signer:
-reviewArchive:
-
-
-providerTwitter: coolwallet
-providerLinkedIn: 
-providerFacebook: coolwallet
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: coolwallet
+social: 
+  - https://www.facebook.com/coolwallet
 ---
-
 
 ## Update Verdict 2021-12-08
 

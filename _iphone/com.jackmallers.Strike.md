@@ -8,11 +8,11 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2022-02-23
-version: "60.0"
-stars: 4.81067
-reviews: 6914
-size: 46481408
+updated: 2022-03-04
+version: "61.0"
+stars: 4.81004
+reviews: 7075
+size: 46518272
 website: https://beta.strike.me/
 repository: 
 issue: 
@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-01-18
 signer: 
 reviewArchive:
-
-providerTwitter: ln_strike
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ln_strike
+social:
 ---
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-02
 updated: 2022-02-17
 version: "1.0.004"
-stars: 4.9
+stars: 4.888889
 ratings: 13567
-reviews: 159
+reviews: 160
 size: 52M
 website: https://coindcx.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: coindcx
-providerLinkedIn: coindcx
-providerFacebook: CoinDCX
-providerReddit: 
-
+twitter: coindcx
+social:
+  - https://www.linkedin.com/company/coindcx
+  - https://www.facebook.com/CoinDCX
 redirect_from:
-
 ---
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-16
 updated: 2021-08-29
 version: "1.0"
-stars: 4.4
+stars: 4.4521737
 ratings: 7227
-reviews: 412
+reviews: 418
 size: 21M
 website: https://btcserverminer.promo-miner.com/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Its website does not yield a lot of information.

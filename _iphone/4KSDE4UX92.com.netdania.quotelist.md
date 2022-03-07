@@ -10,8 +10,8 @@ idd: 446371774
 released: 2011-07-01
 updated: 2021-12-08
 version: "4.9.2"
-stars: 4.66924
-reviews: 10512
+stars: 4.66897
+reviews: 10570
 size: 143198208
 website: http://www.netdania.com
 repository: 
@@ -23,14 +23,9 @@ verdict: nowallet
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: NetDania-146001445410373
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.facebook.com/NetDania-146001445410373
 ---
 
 {% include copyFromAndroid.html %}

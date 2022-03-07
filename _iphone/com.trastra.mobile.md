@@ -18,19 +18,17 @@ repository:
 issue: 
 icon: com.trastra.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-17
+date: 2022-03-07
 signer: 
 reviewArchive:
-
-providerTwitter: Trastra_ltd
-providerLinkedIn: trastra
-providerFacebook: trastra.ltd
-providerReddit: 
-
-redirect_from:
-
+twitter: Trastra_ltd
+social:
+  - https://www.linkedin.com/company/trastra
+  - https://www.facebook.com/trastra.ltd
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-02-26**: This app is not available anymore.
+
+{% include copyFromAndroid.html %}

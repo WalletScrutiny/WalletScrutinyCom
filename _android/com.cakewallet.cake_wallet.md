@@ -10,7 +10,7 @@ appCountry:
 released: 2020-01-01
 updated: 2022-02-08
 version: "4.3.8"
-stars: 3.5
+stars: 3.53
 ratings: 730
 reviews: 167
 size: 68M
@@ -24,14 +24,11 @@ verdict: nonverifiable
 date: 2021-04-14
 signer: 
 reviewArchive:
-
-providerTwitter: cakewallet
-providerLinkedIn: 
-providerFacebook: cakewallet
-providerReddit: cakewallet
-
+twitter: cakewallet
+social:
+  - https://www.facebook.com/cakewallet
+  - https://www.reddit.com/r/cakewallet
 redirect_from:
-
 ---
 
 **Update 2021-04-14**: They now do have a public issue tracker and

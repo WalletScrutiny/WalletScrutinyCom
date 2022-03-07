@@ -10,7 +10,7 @@ appCountry:
 released: 2017-01-15
 updated: 2021-10-26
 version: "2.4.9"
-stars: 3.8
+stars: 3.8333333
 ratings: 4803
 reviews: 31
 size: 8.8M
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: indodax
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: indodax
+social:
 redirect_from:
   - /co.id.dompet.btc.indonesia/
 ---

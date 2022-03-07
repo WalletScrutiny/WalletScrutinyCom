@@ -10,8 +10,8 @@ idd: 1588184260
 released: 2021-10-02
 updated: 2022-02-23
 version: "7.1.8"
-stars: 1.66667
-reviews: 6
+stars: 3.86957
+reviews: 92
 size: 201011200
 website: 
 repository: 
@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: voude99
-providerLinkedIn: 99app
-providerFacebook: voude99
-providerReddit: 
-
-redirect_from:
-
+twitter: voude99
+social:
+  - https://www.linkedin.com/company/99app
+  - https://www.facebook.com/voude99
 ---
 
 {% include copyFromAndroid.html %}

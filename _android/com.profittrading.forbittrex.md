@@ -10,7 +10,7 @@ appCountry:
 released: 2018-06-20
 updated: 2021-04-27
 version: "12.0.13"
-stars: 4.1
+stars: 4.098039
 ratings: 362
 reviews: 22
 size: 21M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-20
 signer: 
 reviewArchive:
-
-providerTwitter: ProfitTrading_
-providerLinkedIn: 
-providerFacebook: profittradingapp
-providerReddit: 
-
+twitter: ProfitTrading_
+social:
+  - https://www.facebook.com/profittradingapp
 redirect_from:
-
 ---
 
 2021-09-17 Update:

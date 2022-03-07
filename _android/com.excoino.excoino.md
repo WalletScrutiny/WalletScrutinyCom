@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-27
 updated: 2021-12-28
 version: "8.1.2"
-stars: 3.6
+stars: 3.63
 ratings: 8653
 reviews: 161
 size: 16M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: excoino
-providerLinkedIn: excoino-com
-providerFacebook: 
-providerReddit: 
-
+twitter: excoino
+social:
+  - https://www.linkedin.com/company/excoino-com
 redirect_from:
-
 ---
 
 The app appears to be an Iranian exchange and there's no English translation.

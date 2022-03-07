@@ -24,14 +24,9 @@ verdict: nosource
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2022-02-09**: This app is no more.

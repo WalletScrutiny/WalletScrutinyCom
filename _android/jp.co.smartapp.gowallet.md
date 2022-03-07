@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-06-16
 updated: 2020-10-07
 version: "1.2.5"
-stars: 4.0
+stars: 4.017857
 ratings: 813
 reviews: 22
 size: 162M
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-10-03
 signer: 
 reviewArchive:
-
-providerTwitter: gowallet_app_
-providerLinkedIn: 
-providerFacebook: gowalletappli
-providerReddit: 
-
+twitter: gowallet_app_
+social:
+  - https://www.facebook.com/gowalletappli
 redirect_from:
-
 ---
 
 This is currently an Ethereum and DApp focused app. 

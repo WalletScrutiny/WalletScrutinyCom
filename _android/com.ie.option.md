@@ -10,7 +10,7 @@ appCountry:
 released: 2019-12-17
 updated: 2020-08-14
 version: "1.1.4"
-stars: 4.8
+stars: 4.7865615
 ratings: 2623
 reviews: 1454
 size: 9.6M
@@ -24,13 +24,8 @@ verdict: wip
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 

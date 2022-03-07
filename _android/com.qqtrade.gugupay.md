@@ -10,7 +10,7 @@ appCountry: cn
 released: 2017-05-25
 updated: 2022-02-23
 version: "2.1.9"
-stars: 4.5
+stars: 4.52
 ratings: 658
 reviews: 244
 size: 12M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 You probably are looking for the other 99pay app:

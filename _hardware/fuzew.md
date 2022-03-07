@@ -5,34 +5,31 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 2019-01-27
-version: 1.2
+version: "1.2"
+binaries: 
 dimensions: [54, 85.5, 0.84]
 weight: 8.5
+provider: "BrilliantTS"
+providerWebsite: https://brilliantts.com/
 website: https://fuzeway.com/collections/fuzew-products
 shop: https://fuzeway.com/products/fuzew-hardware-wallet
-company: BrilliantTS
-companywebsite: https://brilliantts.com/
 country: KP
 price: 99USD
 repository: 
-issue:
+issue: 
 icon: fuzew.png
-bugbounty:
+bugbounty: 
 meta: obsolete
 verdict: nosource
 date: 2021-12-03
-signer:
-reviewArchive:
-
-
-providerTwitter: w_fuze
-providerLinkedIn: 
-providerFacebook: Fuzewcard
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: w_fuze
+social: 
+  - https://www.facebook.com/Fuzewcard
 ---
-
 
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 

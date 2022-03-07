@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: happydelio
-providerLinkedIn: 
-providerFacebook: delio.io
-providerReddit: 
-
-redirect_from:
-
+twitter: happydelio
+social:
+  - https://www.facebook.com/delio.io
 ---
 
 {% include copyFromAndroid.html %}

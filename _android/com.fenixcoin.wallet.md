@@ -24,14 +24,9 @@ verdict: fewusers
 date: 2021-07-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This app, released in 2018 is not on the Play Store anymore. As it had just one

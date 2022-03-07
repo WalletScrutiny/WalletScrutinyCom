@@ -10,9 +10,9 @@ appCountry: in
 released: 2021-05-17
 updated: 2022-02-14
 version: "1.22"
-stars: 4.0
+stars: 3.9555554
 ratings: 7090
-reviews: 2133
+reviews: 2145
 size: 21M
 website: https://www.koinbazar.com/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-04
 signer: 
 reviewArchive:
-
-providerTwitter: koinbazar
-providerLinkedIn: koinbazar
-providerFacebook: koinbazar
-providerReddit: 
-
+twitter: koinbazar
+social:
+  - https://www.linkedin.com/company/koinbazar
+  - https://www.facebook.com/koinbazar
 redirect_from:
-
 ---
 
 ### App Description

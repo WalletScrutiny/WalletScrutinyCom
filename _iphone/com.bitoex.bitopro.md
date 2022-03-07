@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: BitoEX_Official
-providerLinkedIn: 
-providerFacebook: bitopro.bito
-providerReddit: 
-
-redirect_from:
-
+twitter: BitoEX_Official
+social:
+  - https://www.facebook.com/bitopro.bito
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-19
 signer: 
 reviewArchive:
-
-providerTwitter: BTC_india
-providerLinkedIn: bitcoin-india
-providerFacebook: Bitcoin.India.Org
-providerReddit: 
-
-redirect_from:
-
+twitter: BTC_india
+social:
+  - https://www.linkedin.com/company/bitcoin-india
+  - https://www.facebook.com/Bitcoin.India.Org
 ---
 
 **Update 2021-09-11**: This app is not on the App Store anymore.

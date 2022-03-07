@@ -10,7 +10,7 @@ appCountry:
 released: 2013-04-19
 updated: 2021-11-05
 version: "Varies with device"
-stars: 4.6
+stars: 4.6190476
 ratings: 163
 reviews: 12
 size: Varies with device
@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /ru.valle.btc/
   - /posts/ru.valle.btc/

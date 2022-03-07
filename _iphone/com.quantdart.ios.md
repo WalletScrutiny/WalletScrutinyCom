@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: QuantDART
-providerLinkedIn: 
-providerFacebook: quantdart
-providerReddit: 
-
-redirect_from:
-
+twitter: QuantDART
+social:
+  - https://www.facebook.com/quantdart
 ---
 
 {% include copyFromAndroid.html %}

@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: mydopamineapp
-providerLinkedIn: 
-providerFacebook: myDopamineApp
-providerReddit: 
-
-redirect_from:
-
+twitter: mydopamineapp
+social:
+  - https://www.facebook.com/myDopamineApp
 ---
 
 {% include copyFromAndroid.html %}

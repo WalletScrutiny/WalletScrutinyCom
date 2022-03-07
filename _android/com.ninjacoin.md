@@ -24,14 +24,11 @@ verdict: nobtc
 date: 2021-11-26
 signer: 
 reviewArchive:
-
-providerTwitter: Ninjacoin_org
-providerLinkedIn: 
-providerFacebook: Ninjacoin
-providerReddit: Ninjacoin_org
-
+twitter: Ninjacoin_org
+social:
+  - https://www.facebook.com/Ninjacoin
+  - https://www.reddit.com/r/Ninjacoin_org
 redirect_from:
-
 ---
 
 **Update 2021-11-11**: This app is not on Play Store anymore.

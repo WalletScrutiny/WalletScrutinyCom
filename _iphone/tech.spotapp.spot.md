@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: spot_bitcoin
-providerLinkedIn: spot-bitcoin
-providerFacebook: spot.bitcoin
-providerReddit: 
-
-redirect_from:
-
+twitter: spot_bitcoin
+social:
+  - https://www.linkedin.com/company/spot-bitcoin
+  - https://www.facebook.com/spot.bitcoin
 ---
 
 On their website we read:

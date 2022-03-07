@@ -10,7 +10,7 @@ appCountry:
 released: 2014-10-02
 updated: 2022-01-11
 version: "6.0.74"
-stars: 4.2
+stars: 4.213592
 ratings: 37358
 reviews: 69
 size: 28M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: XTrade
-providerLinkedIn: xtrade
-providerFacebook: XTrade
-providerReddit: 
-
+twitter: XTrade
+social:
+  - https://www.linkedin.com/company/xtrade
+  - https://www.facebook.com/XTrade
 redirect_from:
-
 ---
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone

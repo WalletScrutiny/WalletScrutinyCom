@@ -11,8 +11,8 @@ idd: 1499601684
 released: 2020-02-20
 updated: 2022-02-10
 version: "2.0.8"
-stars: 4.29751
-reviews: 726
+stars: 4.33033
+reviews: 778
 size: 172252160
 website: https://phemex.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: phemex_official
-providerLinkedIn: phemex
-providerFacebook: Phemex.official
-providerReddit: 
-
-redirect_from:
-
+twitter: phemex_official
+social:
+  - https://www.linkedin.com/company/phemex
+  - https://www.facebook.com/Phemex.official
 ---
 
 The Phemex mobile app claims to hold funds in cold storage...

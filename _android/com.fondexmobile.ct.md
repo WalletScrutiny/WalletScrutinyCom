@@ -10,7 +10,7 @@ appCountry: au
 released: 2017-11-02
 updated: 2022-02-22
 version: "4.4.54320"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 57M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: fondex-trading
-providerFacebook: fondexglobal
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/fondex-trading
+  - https://www.facebook.com/fondexglobal
 redirect_from:
-
 ---
 
 ## App Description

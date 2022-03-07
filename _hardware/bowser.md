@@ -4,34 +4,30 @@ appId: bowser
 authors:
 - danny
 released: 2020-06-07
-discontinued: # date
+discontinued: 
 updated: 2021-05-11
-version: 1.0
+version: "1"
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/blob/master/README.md
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/blob/master/README.md
 issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: arcbtc
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: arcbtc
+social: 
 ---
-
 
 The Bowser DIY Hardware Wallet comes with a Tetris game to playfully mask its character as a wallet. It uses the following libraries on a M5Stack ESP32:
 

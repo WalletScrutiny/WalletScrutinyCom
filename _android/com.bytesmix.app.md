@@ -10,7 +10,7 @@ appCountry: cn
 released: 2019-08-11
 updated: 2022-01-11
 version: "2.4.4"
-stars: 3.7
+stars: 3.7327585
 ratings: 400
 reviews: 283
 size: 28M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: bytesmix
-providerLinkedIn: 
-providerFacebook: bytesmix
-providerReddit: 
-
+twitter: bytesmix
+social:
+  - https://www.facebook.com/bytesmix
 redirect_from:
-
 ---
 
 ### Additional Observations

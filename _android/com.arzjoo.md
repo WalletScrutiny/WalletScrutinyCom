@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-25
 updated: 2022-02-20
 version: "2.1.0"
-stars: 3.6
+stars: 3.63
 ratings: 3741
 reviews: 67
 size: 20M
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: arzjoo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: arzjoo
+social:
 redirect_from:
   - /com.arzjoo/
 ---

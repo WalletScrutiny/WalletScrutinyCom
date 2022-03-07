@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
 version: "1.5.20"
-stars: 4.5
+stars: 4.53
 ratings: 613
 reviews: 75
 size: 46M
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: protonxpr
-providerLinkedIn: 
-providerFacebook: protonxpr
-providerReddit: ProtonChain
-
+twitter: protonxpr
+social:
+  - https://www.facebook.com/protonxpr
+  - https://www.reddit.com/r/ProtonChain
 redirect_from:
-
 ---
 
 ## App Description

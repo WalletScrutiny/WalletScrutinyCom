@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-07-02
 updated: 2022-02-22
 version: "3.3.4"
-stars: 4.0
+stars: 4
 ratings: 933
-reviews: 235
+reviews: 238
 size: 28M
 website: http://www.ellipal.com
 repository: 
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-12-03
 signer: 
 reviewArchive:
-
-providerTwitter: ellipalwallet
-providerLinkedIn: 
-providerFacebook: ellipalclub
-providerReddit: ELLIPAL_Official
-
+twitter: ellipalwallet
+social:
+  - https://www.facebook.com/ellipalclub
+  - https://www.reddit.com/r/ELLIPAL_Official
 redirect_from:
-
 ---
 
 **Update 2021-12-03**: This appears to be the companion app to

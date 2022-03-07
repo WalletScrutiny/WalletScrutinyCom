@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-04-15
 updated: 2020-11-09
 version: "2.1.1"
-stars: 3.9
+stars: 3.875
 ratings: 5765
 reviews: 12
 size: 3.6M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-07
 signer: 
 reviewArchive:
-
-providerTwitter: BitayTurkiye
-providerLinkedIn: 
-providerFacebook: bitayturkiye
-providerReddit: 
-
+twitter: BitayTurkiye
+social:
+  - https://www.facebook.com/bitayturkiye
 redirect_from:
-
 ---
 
 Site Description:

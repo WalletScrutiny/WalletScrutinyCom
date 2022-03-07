@@ -8,11 +8,11 @@ users: 10000
 appId: com.leadWallet
 appCountry: ng
 released: 2021-07-29
-updated: 2022-02-24
-version: "1.0.22"
-stars: 4.4
+updated: 2022-03-03
+version: "1.0.23"
+stars: 4.4035087
 ratings: 1683
-reviews: 49
+reviews: 51
 size: 39M
 website: https://leadwallet.io
 repository: 
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: leadwallet
-providerLinkedIn: leadwallet
-providerFacebook: 
-providerReddit: LeadWallet
-
+twitter: leadwallet
+social:
+  - https://www.linkedin.com/company/leadwallet
+  - https://www.reddit.com/r/LeadWallet
 redirect_from:
-
 ---
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 

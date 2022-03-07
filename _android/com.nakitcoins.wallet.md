@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-03-30
 updated: 2022-02-14
 version: "2.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 36M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive:
-
-providerTwitter: nakitcoins
-providerLinkedIn: 
-providerFacebook: NakitCoins
-providerReddit: 
-
+twitter: nakitcoins
+social:
+  - https://www.facebook.com/NakitCoins
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry: jp
 released: 2020-07-30
 updated: 2022-02-21
 version: "2.35.474"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 37M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: ExchangeJpex
-providerLinkedIn: 
-providerFacebook: JPEX-Japan-Exchange-100535999063470
-providerReddit: 
-
+twitter: ExchangeJpex
+social:
+  - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from:
-
 ---
 
 ## App Description

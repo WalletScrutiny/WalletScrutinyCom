@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: fondex-trading
-providerFacebook: fondexglobal
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/fondex-trading
+  - https://www.facebook.com/fondexglobal
 ---
 
 {% include copyFromAndroid.html %}

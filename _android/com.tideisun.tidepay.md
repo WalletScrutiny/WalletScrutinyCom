@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-05-23
 updated: 2021-07-20
 version: "2.1.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 71M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: isunone1
-providerLinkedIn: isunone
-providerFacebook: iSunOne
-providerReddit: 
-
+twitter: isunone1
+social:
+  - https://www.linkedin.com/company/isunone
+  - https://www.facebook.com/iSunOne
 redirect_from:
-
 ---
 
 ## App Description

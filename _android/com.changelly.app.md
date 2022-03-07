@@ -11,9 +11,9 @@ appCountry:
 released: 2018-08-28
 updated: 2022-01-21
 version: "2.7.12"
-stars: 4.8
+stars: 4.792929
 ratings: 5008
-reviews: 939
+reviews: 946
 size: 19M
 website: https://changelly.com/
 repository: 
@@ -25,12 +25,8 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.changelly.app/
   - /posts/com.changelly.app/

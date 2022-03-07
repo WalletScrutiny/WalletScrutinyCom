@@ -12,9 +12,9 @@ appCountry: us
 released: 2020-11-17
 updated: 2022-01-25
 version: "2.2.7"
-stars: 4.3
+stars: 4.1904764
 ratings: 545
-reviews: 16
+reviews: 17
 size: 38M
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet
@@ -26,14 +26,11 @@ verdict: ftbfs
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: velasblockchain
-providerLinkedIn: velas-ag
-providerFacebook: velasblockchain
-providerReddit: 
-
+twitter: velasblockchain
+social:
+  - https://www.linkedin.com/company/velas-ag
+  - https://www.facebook.com/velasblockchain
 redirect_from:
-
 ---
 
 **Update 2021-11-17**: This app is missing build instructions. We have hope to

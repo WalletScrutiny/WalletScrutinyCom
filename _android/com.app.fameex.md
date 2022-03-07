@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-10
 updated: 2022-02-16
 version: "2.10.1"
-stars: 4.9
+stars: 4.923077
 ratings: 1588
-reviews: 7
+reviews: 9
 size: 45M
 website: https://www.fameex.com
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: FameexGlobal
-providerLinkedIn: 
-providerFacebook: FAMEEXGLOBAL
-providerReddit: 
-
+twitter: FameexGlobal
+social:
+  - https://www.facebook.com/FAMEEXGLOBAL
 redirect_from:
-
 ---
 
 ## App Description

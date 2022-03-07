@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-10
 updated: 2019-12-05
 version: "2.0.5"
-stars: 3.1
+stars: 3.1089108
 ratings: 1529
-reviews: 194
+reviews: 195
 size: 38M
 website: https://www.ethos.io/
 repository: 
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-12-11
 signer: 
 reviewArchive:
-
-providerTwitter: ethos_io
-providerLinkedIn: 
-providerFacebook: ethosplatform
-providerReddit: ethos_io
-
+twitter: ethos_io
+social:
+  - https://www.facebook.com/ethosplatform
+  - https://www.reddit.com/r/ethos_io
 redirect_from:
-
 ---
 
 They claim:

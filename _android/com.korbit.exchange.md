@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-07-22
 updated: 2022-02-28
 version: "4.6.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 90M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 This Korean cryptocurrency exchange requires real name verification (KYC). This includes the requirement to register using a Korean mobile phone number. 

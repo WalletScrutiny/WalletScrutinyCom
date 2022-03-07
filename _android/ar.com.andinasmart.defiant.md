@@ -10,7 +10,7 @@ appCountry: ar
 released: 2019-11-19
 updated: 2021-12-17
 version: "2.1.0"
-stars: 4.6
+stars: 4.5576925
 ratings: 65
 reviews: 28
 size: 38M
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: defiantApp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: defiantApp
+social:
 redirect_from:
-
 ---
 
 ## App Description

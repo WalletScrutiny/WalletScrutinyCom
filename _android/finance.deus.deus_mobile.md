@@ -19,18 +19,15 @@ repository:
 issue: 
 icon: finance.deus.deus_mobile.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-10-18
+date: 2022-03-07
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-25**: This app is not available anymore.
 

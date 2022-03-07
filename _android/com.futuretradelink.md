@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Warning:** We've noticed several odd things about this app. First, there are users who claim that this is a "scam". Secondly, the app's registration process seems to be broken. Nothing happens. Clicking on "register" via the website takes you back to the home page in a loop. On the app, there is no register option, only sign in.

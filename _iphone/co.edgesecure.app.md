@@ -23,14 +23,10 @@ verdict: ftbfs
 date: 2020-12-20
 signer: 
 reviewArchive:
-
-providerTwitter: edgewallet
-providerLinkedIn: edgeapp
-providerFacebook: 
-providerReddit: EdgeWallet
-
-redirect_from:
-
+twitter: edgewallet
+social:
+  - https://www.linkedin.com/company/edgeapp
+  - https://www.reddit.com/r/EdgeWallet
 ---
 
 {% include copyFromAndroid.html %}

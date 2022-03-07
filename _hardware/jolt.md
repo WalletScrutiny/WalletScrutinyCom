@@ -4,34 +4,30 @@ appId: jolt
 authors:
 - danny
 released: 2018-05-13
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: http://joltwallet.com/
-shop:
-company: 
-companywebsite: 
+shop: 
 country: US
 price: 
 repository: https://github.com/joltwallet/jolt_wallet
-issue:
-icon: joltwallet.png
-bugbounty:
+issue: 
+icon: jolt.png
+bugbounty: 
 meta: defunct
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: JoltWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: JoltWallet
+social: 
 ---
-
 
 - The homepage for this device joltwallet.com, is no longer online. A cached copy dated June 2018 could be found via Web [Archive](https://web.archive.org/web/20180601221232/https://www.joltwallet.com/). 
 - The subreddit r/joltwallet no longer exists.

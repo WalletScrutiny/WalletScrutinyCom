@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-15
 updated: 2022-02-28
 version: "5.16.3"
-stars: 4.4
+stars: 4.39
 ratings: 2004
 reviews: 129
 size: 33M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-04-15
 signer: 
 reviewArchive:
-
-providerTwitter: SwftCoin
-providerLinkedIn: swftcoin
-providerFacebook: SWFTBlockchain
-providerReddit: 
-
+twitter: SwftCoin
+social:
+  - https://www.linkedin.com/company/swftcoin
+  - https://www.facebook.com/SWFTBlockchain
 redirect_from:
   - /com.swftcoin.client.android/
   - /posts/com.swftcoin.client.android/

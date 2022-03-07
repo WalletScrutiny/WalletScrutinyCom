@@ -10,8 +10,8 @@ idd: 1360632912
 released: 2018-03-26
 updated: 2022-02-26
 version: "1.19.1"
-stars: 4.32209
-reviews: 919
+stars: 4.31412
+reviews: 920
 size: 235139072
 website: https://cards.crypterium.com/visa
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-05-20
 signer: 
 reviewArchive:
-
-providerTwitter: crypterium
-providerLinkedIn: 
-providerFacebook: crypterium.org
-providerReddit: 
-
-redirect_from:
-
+twitter: crypterium
+social:
+  - https://www.facebook.com/crypterium.org
 ---
 
 Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):

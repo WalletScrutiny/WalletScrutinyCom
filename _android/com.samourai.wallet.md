@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2021-10-07
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
-
-providerTwitter: SamouraiWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: SamouraiWallet
+social:
 redirect_from:
   - /samourai/
   - /com.samourai.wallet/

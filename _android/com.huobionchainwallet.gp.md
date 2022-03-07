@@ -8,11 +8,11 @@ users: 500000
 appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
-updated: 2022-02-17
-version: "3.00.08.040"
-stars: 4.6
+updated: 2022-03-03
+version: "3.00.09.075"
+stars: 4.556701
 ratings: 33247
-reviews: 206
+reviews: 207
 size: 92M
 website: https://www.huobiwallet.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiWallet
-providerLinkedIn: 
-providerFacebook: HuobiWallet
-providerReddit: 
-
+twitter: HuobiWallet
+social:
+  - https://www.facebook.com/HuobiWallet
 redirect_from:
-
 ---
 
 From the description of the play store app the wallet provider clearly states the private keys are in control of the user....

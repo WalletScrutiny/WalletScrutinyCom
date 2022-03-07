@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-26
 updated: 2022-02-14
 version: "3.1.1"
-stars: 4.4
+stars: 4.3861384
 ratings: 13497
-reviews: 444
+reviews: 445
 size: 34M
 website: https://www.safepal.io
 repository: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: iSafePal
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: iSafePal
+social:
 redirect_from:
-
 ---
 
 **Update 2021-04-26**: Now some months after the original review, Google finds

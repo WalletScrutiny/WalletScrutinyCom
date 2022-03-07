@@ -1,37 +1,35 @@
 ---
 title: "Klever"
-appId: klever.md
+appId: klever
 authors:
 - danny
 released: 2021-12-17
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Klever Exchange"
+providerWebsite: https://klever.io/
 website: https://klever.finance/hardware-wallet/
-shop:
-company: Klever Exchange
-companywebsite: https://klever.io/
+shop: 
 country: BR
 price: 199USD
 repository: https://github.com/orgs/klever-io
-issue:
+issue: 
 icon: klever.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: noita
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: klever_io
-providerLinkedIn: klever-app
-providerFacebook: klever.io
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: klever_io
+social: 
+  - https://www.linkedin.com/company/klever-app
+  - https://www.facebook.com/klever.io
 ---
-
 
 Klever is a company with many [development goals](https://klever.finance/roadmap/) in mind. It's projects include smart phone wallets, crypto debit cards, its own blockchain, a cryptocurrency exchange and the Klever Hardware wallet which concluded its Pre-Sale in the 4th quarter of 2021. They claim that the Pre-Sale sold out. 
 

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-10
 updated: 2021-08-10
 version: "0.17.0"
-stars: 2.7
+stars: 2.7037036
 ratings: 105
 reviews: 11
 size: 2.2M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-10-05
 signer: 
 reviewArchive:
-
-providerTwitter: coinmama
-providerLinkedIn: coinmama
-providerFacebook: 
-providerReddit: 
-
+twitter: coinmama
+social:
+  - https://www.linkedin.com/company/coinmama
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-11-04
 updated: 2021-10-20
 version: "1.9.3"
-stars: 3.8
+stars: 3.7777777
 ratings: 105
-reviews: 36
+reviews: 37
 size: 42M
 website: https://www.bitcoindepot.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoin_depot
-providerLinkedIn: 
-providerFacebook: BitcoinDepot
-providerReddit: 
-
+twitter: bitcoin_depot
+social:
+  - https://www.facebook.com/BitcoinDepot
 redirect_from:
-
 ---
 
 ## App Description

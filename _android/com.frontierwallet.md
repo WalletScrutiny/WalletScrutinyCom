@@ -10,7 +10,7 @@ appCountry: in
 released: 2019-10-30
 updated: 2022-02-07
 version: "4.2.0"
-stars: 4.8
+stars: 4.76
 ratings: 1003
 reviews: 89
 size: 42M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2022-01-12
 signer: 
 reviewArchive:
-
-providerTwitter: FrontierDotXYZ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: FrontierDotXYZ
+social:
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,9 +10,9 @@ appCountry:
 released: 2013-10-15
 updated: 2022-02-24
 version: "Varies with device"
-stars: 4.6
+stars: 4.572479
 ratings: 1066810
-reviews: 209044
+reviews: 210618
 size: Varies with device
 website: https://cash.app
 repository: 
@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-08-06
 signer: 
 reviewArchive:
-
-providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cashapp
+social:
 redirect_from:
   - /com.squareup.cash/
 ---

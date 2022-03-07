@@ -10,8 +10,8 @@ idd: 1234141021
 released: 2017-05-14
 updated: 2022-02-25
 version: "1.26.0"
-stars: 4.58284
-reviews: 2028
+stars: 4.58296
+reviews: 2031
 size: 72905728
 website: https://www.poloniex.com
 repository: 
@@ -28,13 +28,9 @@ reviewArchive:
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
-providerTwitter: Poloniex
-providerLinkedIn: 
-providerFacebook: poloniex
-providerReddit: 
-
-redirect_from:
-
+twitter: Poloniex
+social:
+  - https://www.facebook.com/poloniex
 ---
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto

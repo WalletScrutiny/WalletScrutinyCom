@@ -10,7 +10,7 @@ appCountry:
 released: 2018-07-03
 updated: 2021-04-16
 version: "1.9.50"
-stars: 4.6
+stars: 4.576923
 ratings: 513
 reviews: 17
 size: 38M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: counoscoin
-providerLinkedIn: counosplatform
-providerFacebook: CounosPlatform
-providerReddit: 
-
+twitter: counoscoin
+social:
+  - https://www.linkedin.com/company/counosplatform
+  - https://www.facebook.com/CounosPlatform
 redirect_from:
-
 ---
 
 Nothing in the description hints at this app being non-custodial.

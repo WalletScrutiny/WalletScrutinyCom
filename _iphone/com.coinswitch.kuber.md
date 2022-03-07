@@ -10,8 +10,8 @@ idd: 1540214951
 released: 2020-12-01
 updated: 2022-02-19
 version: "3.8.2"
-stars: 4.45378
-reviews: 37621
+stars: 4.45747
+reviews: 38405
 size: 62757888
 website: https://coinswitch.co/in
 repository: 
@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: CoinSwitchKuber
-providerLinkedIn: coinswitch
-providerFacebook: coinswitch
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinSwitchKuber
+social:
+  - https://www.linkedin.com/company/coinswitch
+  - https://www.facebook.com/coinswitch
 ---
 
 {% include copyFromAndroid.html %}

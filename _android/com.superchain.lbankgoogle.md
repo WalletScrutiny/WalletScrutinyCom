@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-08
 updated: 2022-01-19
 version: "3.41.46"
-stars: 4.8
+stars: 4.828076
 ratings: 46317
 reviews: 1679
 size: 35M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: LBank_Exchange
-providerLinkedIn: lbank
-providerFacebook: LBank.info
-providerReddit: 
-
+twitter: LBank_Exchange
+social:
+  - https://www.linkedin.com/company/lbank
+  - https://www.facebook.com/LBank.info
 redirect_from:
-
 ---
 
 ## App Description

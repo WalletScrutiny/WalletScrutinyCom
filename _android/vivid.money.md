@@ -8,12 +8,12 @@ users: 500000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2022-02-25
-version: "1.79.1"
-stars: 0.0
+updated: 2022-03-03
+version: "2.0.1"
+stars: 
 ratings: 
 reviews: 
-size: 233M
+size: 231M
 website: https://vivid.money/
 repository: 
 issue: 
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: vivid_en
-providerLinkedIn: vividmoney
-providerFacebook: vivid.money.en
-providerReddit: 
-
+twitter: vivid_en
+social:
+  - https://www.linkedin.com/company/vividmoney
+  - https://www.facebook.com/vivid.money.en
 redirect_from:
-
 ---
 
 > Vivid is a brand new mobile banking and investing app. Online banking and commission-free investing belong together and should be easy.

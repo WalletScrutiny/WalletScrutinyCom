@@ -5,34 +5,32 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Sirin Labs"
+providerWebsite: https://sirinlabs.com/
 website: https://sirinlabs.com/
 shop: https://shop.sirinlabs.com/products/finney
-company: Sirin Labs
-companywebsite: https://sirinlabs.com/
 country: UK
 price: 999USD
 repository: 
-issue:
+issue: 
 icon: finney.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2021-12-04
-signer:
-reviewArchive:
-
-
-providerTwitter: SIRINLABS
-providerLinkedIn: sirin-labs
-providerFacebook: SirinLabs
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SIRINLABS
+social: 
+  - https://www.linkedin.com/company/sirin-labs
+  - https://www.facebook.com/SirinLabs
 ---
-
 
 <div class="alertBox"><div>
 ⚠️ Warning: This product is associated with a company with a CEO with lawsuits arising out of the companies' <a href="https://www.coindesk.com/policy/2021/11/18/crypto-heavyweight-moshe-hogeg-reportedly-arrested-in-israel/">involvement with ICOs.</a>

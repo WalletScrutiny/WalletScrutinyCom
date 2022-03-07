@@ -10,7 +10,7 @@ appCountry:
 released: 2017-11-20
 updated: 2020-11-22
 version: "2.8.8"
-stars: 3.7
+stars: 3.7051282
 ratings: 203
 reviews: 59
 size: 40M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-18
 signer: 
 reviewArchive:
-
-providerTwitter: everc0in
-providerLinkedIn: 
-providerFacebook: evercoin
-providerReddit: 
-
+twitter: everc0in
+social:
+  - https://www.facebook.com/evercoin
 redirect_from:
-
 ---
 
 This app's description says:

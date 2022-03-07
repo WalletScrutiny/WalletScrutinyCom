@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-06
 updated: 2022-02-25
 version: "22.2.24"
-stars: 4.5
+stars: 4.479239
 ratings: 81868
-reviews: 5677
+reviews: 5694
 size: 53M
 website: https://exodus.com/mobile
 repository: https://github.com/exodusmovement
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2020-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: exodus_io
-providerLinkedIn: 
-providerFacebook: exodus.io
-providerReddit: 
-
+twitter: exodus_io
+social:
+  - https://www.facebook.com/exodus.io
 redirect_from:
-
 ---
 
 This app certainly sounds like it is non-custodial:

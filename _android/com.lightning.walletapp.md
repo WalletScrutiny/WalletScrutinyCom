@@ -10,7 +10,7 @@ appCountry:
 released: 2018-05-01
 updated: 2021-03-13
 version: "0.4.8"
-stars: 4.2
+stars: 4.2210526
 ratings: 368
 reviews: 60
 size: 4.9M
@@ -29,11 +29,8 @@ reviewArchive:
   appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /bictcoinlightningwallet/
   - /com.lightning.walletapp/

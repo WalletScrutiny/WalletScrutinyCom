@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-08-27
 signer: 
 reviewArchive:
-
-providerTwitter: giottus
-providerLinkedIn: giottus
-providerFacebook: Giottus
-providerReddit: 
-
-redirect_from:
-
+twitter: giottus
+social:
+  - https://www.linkedin.com/company/giottus
+  - https://www.facebook.com/Giottus
 ---
 
 Description from Home Page: 

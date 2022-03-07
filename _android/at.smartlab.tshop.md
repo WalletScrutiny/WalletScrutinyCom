@@ -10,7 +10,7 @@ appCountry:
 released: 2012-12-22
 updated: 2022-02-26
 version: "203"
-stars: 3.9
+stars: 3.87
 ratings: 3750
 reviews: 259
 size: 6.6M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.

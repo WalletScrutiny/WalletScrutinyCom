@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: zixipay
-providerLinkedIn: 
-providerFacebook: ZixiPay
-providerReddit: 
-
-redirect_from:
-
+twitter: zixipay
+social:
+  - https://www.facebook.com/ZixiPay
 ---
 
 {% include copyFromAndroid.html %}

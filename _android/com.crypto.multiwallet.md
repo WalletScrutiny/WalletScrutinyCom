@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-01
 updated: 2022-01-28
 version: "2.48.3"
-stars: 4.4
+stars: 4.4257426
 ratings: 3831
-reviews: 412
+reviews: 417
 size: 31M
 website: https://guarda.com
 repository: 
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2019-12-17
 signer: 
 reviewArchive:
-
-providerTwitter: GuardaWallet
-providerLinkedIn: 
-providerFacebook: guarda.co
-providerReddit: GuardaWallet
-
+twitter: GuardaWallet
+social:
+  - https://www.facebook.com/guarda.co
+  - https://www.reddit.com/r/GuardaWallet
 redirect_from:
   - /guardawallet/
   - /com.crypto.multiwallet/

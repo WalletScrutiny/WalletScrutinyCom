@@ -5,34 +5,30 @@ authors:
 - kiwilamb
 - danny
 released: 2018-07-01
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: [26, 40, 6.4]
 weight: 
+provider: "BEPAL"
+providerWebsite: https://bepal.pro/
 website: https://bepal.pro/bepal-q?type=Bepal%20Q
 shop: https://bepal.pro/bepal-q?type=Bepal%20Q
-company: BEPAL
-companywebsite: https://bepal.pro/
 country: CH
 price: 598CNY
 repository: 
-issue:
+issue: 
 icon: bepalq.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-12-04
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
-
 
 Launched 3 years ago, the website now displays "Website is under maintenance" and "Actively cooperate with the latest industry regulatory policies". 
 

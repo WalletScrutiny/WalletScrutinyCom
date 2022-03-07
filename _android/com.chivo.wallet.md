@@ -11,9 +11,9 @@ appCountry: sv
 released: 2021-09-06
 updated: 2021-12-12
 version: "2.0.1"
-stars: 3.5
+stars: 3.4349613
 ratings: 27085
-reviews: 12222
+reviews: 12270
 size: 64M
 website: https://chivowallet.com
 repository: 
@@ -30,13 +30,10 @@ reviewArchive:
   appHash: 
   gitRevision: fa227d42296cae666acec49c980629e0b2a71636
   verdict: custodial
-providerTwitter: chivowallet
-providerLinkedIn: 
-providerFacebook: ChivoWalletSLV
-providerReddit: 
-
+twitter: chivowallet
+social:
+  - https://www.facebook.com/ChivoWalletSLV
 redirect_from:
-
 ---
 
 **Update 2021-10-29**: [This Tweet](https://twitter.com/structerer/status/1453793507777331204):

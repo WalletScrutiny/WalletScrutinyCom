@@ -8,11 +8,11 @@ users: 500000
 appId: com.pionex.client
 appCountry: us
 released: 2019-11-18
-updated: 2022-02-25
-version: "2.7.09"
-stars: 4.0
+updated: 2022-03-04
+version: "2.8.04"
+stars: 3.8921568
 ratings: 5659
-reviews: 408
+reviews: 428
 size: 73M
 website: https://www.pionex.com
 repository: 
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 

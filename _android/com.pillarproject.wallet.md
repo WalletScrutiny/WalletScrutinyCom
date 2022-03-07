@@ -10,7 +10,7 @@ appCountry:
 released: 2018-12-13
 updated: 2022-02-01
 version: "3.9.2"
-stars: 4.2
+stars: 4.19
 ratings: 1007
 reviews: 85
 size: 53M
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-02-20
 signer: 
 reviewArchive:
-
-providerTwitter: PillarWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: PillarWallet
+social:
 redirect_from:
   - /com.pillarproject.wallet/
   - /posts/com.pillarproject.wallet/

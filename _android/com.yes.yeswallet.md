@@ -24,12 +24,8 @@ verdict: custodial
 date: 2021-06-18
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.yes.yeswallet/
 ---

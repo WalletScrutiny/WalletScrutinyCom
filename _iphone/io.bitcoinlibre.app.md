@@ -10,8 +10,8 @@ idd: 1590680702
 released: 2021-10-27
 updated: 2022-02-15
 version: "2.1.2"
-stars: 4.71094
-reviews: 128
+stars: 4.68085
+reviews: 141
 size: 32750592
 website: https://libre.org
 repository: 
@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2021-11-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 {% include copyFromAndroid.html %}

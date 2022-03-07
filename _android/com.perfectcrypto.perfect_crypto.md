@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-09
 updated: 2022-01-25
 version: "1.1.6"
-stars: 4.7
+stars: 4.6949153
 ratings: 809
 reviews: 28
 size: 30M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: irPerfectCrypto
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: irPerfectCrypto
+social:
 redirect_from:
-
 ---
 
 This appears to be a centralized cryptocurrency exchange whose primary language is Persian. 

@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-01-02
 signer: 
 reviewArchive:
-
-providerTwitter: investvoyager
-providerLinkedIn: investvoyager
-providerFacebook: InvestVoyager
-providerReddit: Invest_Voyager
-
-redirect_from:
-
+twitter: investvoyager
+social:
+  - https://www.linkedin.com/company/investvoyager
+  - https://www.facebook.com/InvestVoyager
+  - https://www.reddit.com/r/Invest_Voyager
 ---
 
 On their website we read:

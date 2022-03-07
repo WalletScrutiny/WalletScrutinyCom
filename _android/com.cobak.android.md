@@ -8,9 +8,9 @@ users: 100000
 appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
-updated: 2022-01-28
-version: "1.42.20"
-stars: 0.0
+updated: 2022-02-21
+version: "1.42.21"
+stars: 
 ratings: 
 reviews: 
 size: 27M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: CobakOfficial
-providerLinkedIn: cobak
-providerFacebook: coindaebak
-providerReddit: 
-
+twitter: CobakOfficial
+social:
+  - https://www.linkedin.com/company/cobak
+  - https://www.facebook.com/coindaebak
 redirect_from:
-
 ---
 
 This product is Korean, there's no English translation so it's less likely to have global support. It's also a little harder to find information on a foreign wallet.

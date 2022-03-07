@@ -10,8 +10,8 @@ idd: 1397735851
 released: 2018-08-25
 updated: 2022-02-28
 version: "2022.02.24"
-stars: 4.82821
-reviews: 390
+stars: 4.90247
+reviews: 687
 size: 461162496
 website: https://www.digifinex.com
 repository: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-04-26
 signer: 
 reviewArchive:
-
-providerTwitter: DigiFinex
-providerLinkedIn: digifinex-global
-providerFacebook: digifinex.global
-providerReddit: DigiFinex
-
-redirect_from:
-
+twitter: DigiFinex
+social:
+  - https://www.linkedin.com/company/digifinex-global
+  - https://www.facebook.com/digifinex.global
+  - https://www.reddit.com/r/DigiFinex
 ---
 
 > DigiFinex is a world’s leading crypto finance exchange

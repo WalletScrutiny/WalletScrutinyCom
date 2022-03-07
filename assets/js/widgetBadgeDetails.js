@@ -12,6 +12,14 @@ function getWidgetDetails(wallet) {
         || typeof x === "object"
         || typeof x === "string" && x != ""
   }
+  
+  function getSocialLinks(social) {
+    return social
+      ? social.map( s => linkIf(s,
+        (new URL(s)).hostname.replace('www.', ''),
+        '<i class="fas fa-globe"></i>')).join(' ')
+      : ''
+  }
 
   return `<table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
     ${ hasValue(wallet.users) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ""}
@@ -44,10 +52,8 @@ function getWidgetDetails(wallet) {
     ${ linkIf(wallet.binaries,         "Binaries",          '<i class="fas fa-file-archive"></i>') }
     ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fa fa-file-code"></i>') }
     ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
-    ${ linkIf(wallet.providerTwitter && `https://twitter.com/${wallet.providerTwitter}`,                "Provider Twitter",  '<i class="fab fa-twitter"></i>') }
-    ${ linkIf(wallet.providerFacebook && `https://www.facebook.com/${wallet.providerFacebook}`,         "Provider Facebook", '<i class="fab fa-facebook-f"></i>') }
-    ${ linkIf(wallet.providerReddit && `https://www.reddit.com/r/${wallet.providerReddit}`,             "Provider Reddit",   '<i class="fab fa-reddit"></i>') }
-    ${ linkIf(wallet.providerLinkedIn && `https://www.linkedin.com/company/${wallet.providerLinkedIn}`, "Provider LinkedIn", '<i class="fab fa-linkedin-in"></i>') }
+    ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Provider Twitter", '<i class="fab fa-twitter"></i>') }
+    ${ getSocialLinks(wallet.social) }
     </td></tr>
     </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`
 }

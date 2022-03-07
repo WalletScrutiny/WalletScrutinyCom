@@ -23,14 +23,9 @@ verdict: nonverifiable
 date: 2021-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: HavenPrivacy
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: havenapp
-
-redirect_from:
-
+twitter: HavenPrivacy
+social:
+  - https://www.reddit.com/r/havenapp
 ---
 
 **Update:** As of now, this app is not to be found on the App Store.

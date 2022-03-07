@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-27
 updated: 2022-01-24
 version: "4.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 28M
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: money_pipe
-providerLinkedIn: 
-providerFacebook: moneypipewallet
-providerReddit: 
-
+twitter: money_pipe
+social:
+  - https://www.facebook.com/moneypipewallet
 redirect_from:
-
 ---
 
 ## App Description

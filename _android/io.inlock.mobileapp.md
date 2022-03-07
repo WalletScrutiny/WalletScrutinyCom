@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-04
 updated: 2022-01-18
 version: "1.7.2"
-stars: 4.0
+stars: 4
 ratings: 108
 reviews: 5
 size: 38M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: inlock_token
-providerLinkedIn: income-locker
-providerFacebook: incomelocker
-providerReddit: 
-
+twitter: inlock_token
+social:
+  - https://www.linkedin.com/company/income-locker
+  - https://www.facebook.com/incomelocker
 redirect_from:
-
 ---
 
 ## App Description

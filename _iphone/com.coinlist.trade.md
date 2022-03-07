@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: coinlist
-providerLinkedIn: 
-providerFacebook: CoinListOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: coinlist
+social:
+  - https://www.facebook.com/CoinListOfficial
 ---
 
 {% include copyFromAndroid.html %}

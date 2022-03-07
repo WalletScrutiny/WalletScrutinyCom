@@ -4,34 +4,32 @@ appId: clcard
 authors:
 - danny
 released: 
-discontinued: # date
+discontinued: 
 updated: 
-version:
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: "Baanx Group Ltd."
+providerWebsite: https://www.baanx.com/
 website: https://cl-cards.com/
 shop: https://cl-cards.com/waiting-list/register
-company: Baanx Group Ltd.
-companywebsite: https://www.baanx.com/
 country: GB
 price: 
-repository:
-issue:
+repository: 
+issue: 
 icon: clcard.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: unreleased
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: BaanxGroup
-providerLinkedIn: baanxgroup
-providerFacebook: baanxgroup
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: BaanxGroup
+social: 
+  - https://www.linkedin.com/company/baanxgroup
+  - https://www.facebook.com/baanxgroup
 ---
-
 
 Announced on twitter on December 9, 2021, the CL Card is a part of the suite of services provided by Ledger called [Ledger Live](https://www.ledger.com/ledger-live). In essence, a fiat debit card that links with Visa. Among its advertised features include:
 

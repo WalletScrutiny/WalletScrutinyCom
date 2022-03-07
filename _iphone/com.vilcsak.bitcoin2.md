@@ -10,8 +10,8 @@ idd: 886427730
 released: 2014-06-22
 updated: 2022-02-28
 version: "10.7.1"
-stars: 4.69606
-reviews: 1604765
+stars: 4.69604
+reviews: 1607628
 size: 108519424
 website: http://www.coinbase.com
 repository: 
@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-12
 signer: 
 reviewArchive:
-
-providerTwitter: coinbase
-providerLinkedIn: 
-providerFacebook: coinbase
-providerReddit: 
-
-redirect_from:
-
+twitter: coinbase
+social:
+  - https://www.facebook.com/coinbase
 ---
 
 {% include copyFromAndroid.html %}

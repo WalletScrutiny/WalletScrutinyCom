@@ -10,7 +10,7 @@ appCountry: gb
 released: 2018-05-18
 updated: 2022-02-10
 version: "4.4.93"
-stars: 4.6
+stars: 4.625
 ratings: 27
 reviews: 2
 size: 24M
@@ -24,14 +24,10 @@ verdict: nosendreceive
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: LMAX
-providerLinkedIn: lmax-group
-providerFacebook: 
-providerReddit: 
-
+twitter: LMAX
+social:
+  - https://www.linkedin.com/company/lmax-group
 redirect_from:
-
 ---
 
 ## App Description

@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-29
 updated: 2021-10-19
 version: "2.0.8"
-stars: 2.5
+stars: 2.5454545
 ratings: 146
 reviews: 11
 size: 20M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: ajglobalv
-providerLinkedIn: 
-providerFacebook: AJGLOBALVENTURES
-providerReddit: 
-
+twitter: ajglobalv
+social:
+  - https://www.facebook.com/AJGLOBALVENTURES
 redirect_from:
-
 ---
 
 ## App Description

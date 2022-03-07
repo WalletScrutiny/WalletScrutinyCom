@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-03
 signer: 
 reviewArchive:
-
-providerTwitter: pdaxph
-providerLinkedIn: pdaxph
-providerFacebook: pdaxph
-providerReddit: 
-
-redirect_from:
-
+twitter: pdaxph
+social:
+  - https://www.linkedin.com/company/pdaxph
+  - https://www.facebook.com/pdaxph
 ---
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.

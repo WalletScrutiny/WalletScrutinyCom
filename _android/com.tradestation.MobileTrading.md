@@ -8,11 +8,11 @@ users: 100000
 appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
-updated: 2022-01-20
+updated: 2022-03-04
 version: "5.0.1"
-stars: 3.7
+stars: 3.722561
 ratings: 4823
-reviews: 1478
+reviews: 1484
 size: 15M
 website: http://tradestation.com/contact-us/
 repository: 
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-10
 signer: 
 reviewArchive:
-
-providerTwitter: tradestation
-providerLinkedIn: 
-providerFacebook: TradeStation
-providerReddit: 
-
+twitter: tradestation
+social:
+  - https://www.facebook.com/TradeStation
 redirect_from:
-
 ---
 
 ## App Description

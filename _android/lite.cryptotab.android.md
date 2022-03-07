@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-16
 updated: 2022-02-25
 version: "6.0.43"
-stars: 4.1
+stars: 4.2123895
 ratings: 22930
-reviews: 533
+reviews: 539
 size: Varies with device
 website: https://cryptocompany.site/
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-08-21
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 **Update 2022-01-04** 

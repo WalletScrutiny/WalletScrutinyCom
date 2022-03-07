@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-11-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2021-11-07**: This app is not available anymore.

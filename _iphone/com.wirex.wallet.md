@@ -23,14 +23,8 @@ verdict: nosource
 date: 2022-01-10
 signer: 
 reviewArchive:
-
-providerTwitter: wirexapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: wirexapp
+social:
 ---
 
 {% include copyFromAndroid.html %}

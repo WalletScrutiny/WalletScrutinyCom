@@ -8,12 +8,12 @@ users: 10000
 appId: com.trustkeysnetwork
 appCountry: us
 released: 2019-03-02
-updated: 2022-01-27
-version: "1.1.58"
-stars: 4.9
+updated: 2022-03-04
+version: "1.1.73"
+stars: 4.866667
 ratings: 583
 reviews: 19
-size: 258M
+size: 257M
 website: https://trustkeys.network
 repository: 
 issue: 
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: trustkeysglobal
-providerLinkedIn: 
-providerFacebook: trustkeys.network
-providerReddit: 
-
+twitter: trustkeysglobal
+social:
+  - https://www.facebook.com/trustkeys.network
 redirect_from:
-
 ---
 
 ## App Description

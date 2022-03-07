@@ -10,8 +10,8 @@ idd: 1482037683
 released: 2019-10-11
 updated: 2022-02-08
 version: "2.5.5"
-stars: 4.40426
-reviews: 94
+stars: 4.42268
+reviews: 97
 size: 82333696
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-07-30
 signer: 
 reviewArchive:
-
-providerTwitter: muunwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: muunwallet
+social:
 ---
 
 **Update 2021-07-30**: While the Android version made some attempts at

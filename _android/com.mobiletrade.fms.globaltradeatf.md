@@ -10,7 +10,7 @@ appCountry: ag
 released: 2020-06-10
 updated: 2021-11-22
 version: "1.5.78-mobiletrade.fms.globaltradeatf"
-stars: 2.8
+stars: 2.83
 ratings: 389
 reviews: 315
 size: 20M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: TradeATF
-providerLinkedIn: globaltradeatf
-providerFacebook: TradeATF
-providerReddit: 
-
+twitter: TradeATF
+social:
+  - https://www.linkedin.com/company/globaltradeatf
+  - https://www.facebook.com/TradeATF
 redirect_from:
-
 ---
 
 ## App Description

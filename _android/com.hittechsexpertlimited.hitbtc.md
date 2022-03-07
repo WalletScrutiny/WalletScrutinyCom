@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-04
 updated: 2022-02-09
 version: "3.1.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 11M
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-05-29
 signer: 
 reviewArchive:
-
-providerTwitter: hitbtc
-providerLinkedIn: 
-providerFacebook: hitbtc
-providerReddit: hitbtc
-
+twitter: hitbtc
+social:
+  - https://www.facebook.com/hitbtc
+  - https://www.reddit.com/r/hitbtc
 redirect_from:
   - /com.hittechsexpertlimited.hitbtc/
   - /posts/com.hittechsexpertlimited.hitbtc/

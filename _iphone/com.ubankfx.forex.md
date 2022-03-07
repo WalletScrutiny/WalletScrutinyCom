@@ -23,14 +23,8 @@ verdict: nosendreceive
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 
 **Update 2021-10-26**: This app is no more.

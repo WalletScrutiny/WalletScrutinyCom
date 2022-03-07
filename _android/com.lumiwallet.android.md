@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-15
 updated: 2022-01-04
 version: "4.1.4"
-stars: 4.5
+stars: 4.540761
 ratings: 6388
-reviews: 273
+reviews: 272
 size: 138M
 website: https://lumiwallet.com
 repository: 
@@ -24,12 +24,9 @@ verdict: nosource
 date: 2021-06-16
 signer: 
 reviewArchive:
-
-providerTwitter: Lumi_wallet
-providerLinkedIn: 
-providerFacebook: lumiwallet
-providerReddit: 
-
+twitter: Lumi_wallet
+social:
+  - https://www.facebook.com/lumiwallet
 redirect_from:
   - /com.lumiwallet.android/
   - /posts/com.lumiwallet.android/

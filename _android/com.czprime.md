@@ -8,11 +8,11 @@ users: 100000
 appId: com.czprime
 appCountry: 
 released: 2020-06-11
-updated: 2022-02-24
-version: "1.4.28"
-stars: 3.7
+updated: 2022-03-01
+version: "1.4.29"
+stars: 3.7547169
 ratings: 2461
-reviews: 338
+reviews: 339
 size: 30M
 website: https://www.coinzoom.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: GetCoinZoom
-providerLinkedIn: coinzoomhq
-providerFacebook: CoinZoom
-providerReddit: 
-
+twitter: GetCoinZoom
+social:
+  - https://www.linkedin.com/company/coinzoomhq
+  - https://www.facebook.com/CoinZoom
 redirect_from:
-
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 

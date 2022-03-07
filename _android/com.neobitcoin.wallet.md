@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-03
 updated: 2020-07-03
 version: "1.0.0"
-stars: 1.1
+stars: 1.125
 ratings: 131
 reviews: 8
 size: 48M
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.neobitcoin.wallet/
 ---

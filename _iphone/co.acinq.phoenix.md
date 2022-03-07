@@ -24,14 +24,8 @@ verdict: nonverifiable
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: PhoenixWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: PhoenixWallet
+social:
 ---
 
 {% include copyFromAndroid.html %}

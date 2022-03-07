@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-21
 updated: 2021-09-23
 version: "1.1.3"
-stars: 2.9
+stars: 2.857143
 ratings: 127
 reviews: 3
 size: 7.0M
@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: token_vera
-providerLinkedIn: vera-token-74a925218
-providerFacebook: 
-providerReddit: 
-
+twitter: token_vera
+social:
+  - https://www.linkedin.com/company/vera-token-74a925218
 redirect_from:
-
 ---
 
 ## App Description

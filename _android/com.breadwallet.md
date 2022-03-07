@@ -10,9 +10,9 @@ appCountry:
 released: 2016-07-21
 updated: 2022-02-14
 version: "4.16.0"
-stars: 3.7
+stars: 3.7138157
 ratings: 33632
-reviews: 1458
+reviews: 1459
 size: 32M
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
@@ -34,13 +34,12 @@ reviewArchive:
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
-providerTwitter: BRDHQ
-providerLinkedIn: brdhq
-providerFacebook: brdhq
-providerReddit: brdapp
-
+twitter: BRDHQ
+social:
+  - https://www.linkedin.com/company/brdhq
+  - https://www.facebook.com/brdhq
+  - https://www.reddit.com/r/brdapp
 redirect_from:
-
 ---
 
 **Update 2021-06-29**: The provider

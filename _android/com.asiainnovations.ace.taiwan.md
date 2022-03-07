@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-01-28
 updated: 2022-02-24
 version: "5.2.0_3061"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 32M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-16
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: ace.exchange.tw
-providerReddit: 
-
+twitter: 
+social:
+  - https://www.facebook.com/ace.exchange.tw
 redirect_from:
-
 ---
 
 ## App Description

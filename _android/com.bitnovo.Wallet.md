@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-10-27
 updated: 2022-02-17
 version: "1.2.0.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 95M
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: bitnovo
-providerLinkedIn: Bitnovo
-providerFacebook: BitcoinBitnovo
-providerReddit: 
-
+twitter: bitnovo
+social:
+  - https://www.linkedin.com/company/Bitnovo
+  - https://www.facebook.com/BitcoinBitnovo
 redirect_from:
-
 ---
 
 **Note:** There are two BitNovo apps on Google Play. Both are by the same developer: [Bitnovo](https://play.google.com/store/apps/developer?id=BITNOVO)

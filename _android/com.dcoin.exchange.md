@@ -8,9 +8,9 @@ users: 50000
 appId: com.dcoin.exchange
 appCountry: us
 released: 2018-11-25
-updated: 2022-02-25
-version: "5.1.9"
-stars: 4.2
+updated: 2022-03-02
+version: "5.2.0"
+stars: 4.2313433
 ratings: 1346
 reviews: 86
 size: 22M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: dcoinexchange
-providerLinkedIn: dcoin-exchange
-providerFacebook: 
-providerReddit: 
-
+twitter: dcoinexchange
+social:
+  - https://www.linkedin.com/company/dcoin-exchange
 redirect_from:
-
 ---
 
 From its Google Play description:

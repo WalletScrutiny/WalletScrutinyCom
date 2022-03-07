@@ -10,9 +10,9 @@ appCountry:
 released: 2019-08-12
 updated: 2022-01-28
 version: "5.2.0"
-stars: 3.9
+stars: 3.92
 ratings: 344
-reviews: 61
+reviews: 62
 size: 49M
 website: https://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2020-12-07
 signer: 
 reviewArchive:
-
-providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: incognitochain
+social:
 redirect_from:
   - /com.incognito.wallet/
 ---

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-13
 updated: 2022-01-26
 version: "5.3.11"
-stars: 4.2
+stars: 4.1666665
 ratings: 504
 reviews: 19
 size: 6.0M
@@ -24,12 +24,10 @@ verdict: nowallet
 date: 2019-12-25
 signer: 
 reviewArchive:
-
-providerTwitter: bitcoincom
-providerLinkedIn: 
-providerFacebook: buy.bitcoin.news
-providerReddit: btc
-
+twitter: bitcoincom
+social:
+  - https://www.facebook.com/buy.bitcoin.news
+  - https://www.reddit.com/r/btc
 redirect_from:
   - /com.bitcoin.merchant.app/
   - /posts/com.bitcoin.merchant.app/

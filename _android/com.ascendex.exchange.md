@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-28
 updated: 2022-02-22
 version: "2.7.7"
-stars: 4.8
+stars: 4.813084
 ratings: 6660
-reviews: 95
+reviews: 97
 size: 47M
 website: https://asdx.io/
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-05-12
 signer: 
 reviewArchive:
-
-providerTwitter: AscendEX_Global
-providerLinkedIn: 
-providerFacebook: AscendEXOfficial
-providerReddit: AscendEX_Official
-
+twitter: AscendEX_Global
+social:
+  - https://www.facebook.com/AscendEXOfficial
+  - https://www.reddit.com/r/AscendEX_Official
 redirect_from:
-
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

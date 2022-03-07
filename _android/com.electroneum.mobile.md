@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-13
 updated: 2022-02-11
 version: "5.2.3"
-stars: 3.0
+stars: 2.9761274
 ratings: 58803
-reviews: 2152
+reviews: 2154
 size: 14M
 website: http://electroneum.com
 repository: 
@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2020-06-08
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.electroneum.mobile/
   - /posts/com.electroneum.mobile/

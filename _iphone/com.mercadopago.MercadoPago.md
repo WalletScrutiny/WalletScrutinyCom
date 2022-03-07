@@ -10,8 +10,8 @@ idd: 925436649
 released: 2014-12-17
 updated: 2022-02-25
 version: "2.210.4"
-stars: 4.77737
-reviews: 738194
+stars: 4.77792
+reviews: 743062
 size: 242622464
 website: http://www.mercadopago.com
 repository: 
@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-12-26
 signer: 
 reviewArchive:
-
-providerTwitter: mercadopago
-providerLinkedIn: 
-providerFacebook: mercadopago
-providerReddit: 
-
-redirect_from:
-
+twitter: mercadopago
+social:
+  - https://www.facebook.com/mercadopago
 ---
 
 {% include copyFromAndroid.html %}

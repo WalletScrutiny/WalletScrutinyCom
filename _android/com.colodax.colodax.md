@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-01-31
 updated: 2021-09-17
 version: "1.7.2"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 26M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-03
 signer: 
 reviewArchive:
-
-providerTwitter: colodax
-providerLinkedIn: colodax
-providerFacebook: colodax
-providerReddit: 
-
+twitter: colodax
+social:
+  - https://www.linkedin.com/company/colodax
+  - https://www.facebook.com/colodax
 redirect_from:
-
 ---
 
 ## App Description

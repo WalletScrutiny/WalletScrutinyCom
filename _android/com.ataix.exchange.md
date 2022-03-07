@@ -10,7 +10,7 @@ appCountry: ee
 released: 2019-09-20
 updated: 2022-02-23
 version: "2.0.10"
-stars: 3.5
+stars: 3.489796
 ratings: 48
 reviews: 24
 size: 30M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: ATAIXcom
-providerLinkedIn: ataixcom
-providerFacebook: ATAIXcom
-providerReddit: 
-
+twitter: ATAIXcom
+social:
+  - https://www.linkedin.com/company/ataixcom
+  - https://www.facebook.com/ATAIXcom
 redirect_from:
-
 ---
 
 ## App Description

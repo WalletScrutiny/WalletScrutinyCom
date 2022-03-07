@@ -19,19 +19,16 @@ repository: https://github.com/OneKeyHQ/wallet-deprecated-
 issue: 
 icon: com.onekey.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-26
+date: 2022-03-07
 signer: 
 reviewArchive:
-
-providerTwitter: OneKeyHQ
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: OneKeyHQ
-
-redirect_from:
-
+twitter: OneKeyHQ
+social:
+  - https://www.reddit.com/r/OneKeyHQ
 ---
+
+**Update 2022-02-26**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

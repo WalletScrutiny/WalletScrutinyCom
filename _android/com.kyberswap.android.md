@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2021-08-26
 signer: 
 reviewArchive:
-
-providerTwitter: KyberSwap
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: KyberSwap
+social:
 redirect_from:
   - /com.kyberswap.android/
 ---

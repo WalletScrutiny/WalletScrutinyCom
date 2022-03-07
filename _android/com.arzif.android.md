@@ -8,9 +8,9 @@ users: 10000
 appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
-updated: 2022-02-12
-version: "1.0.4"
-stars: 4.1
+updated: 2022-03-03
+version: "1.0.5"
+stars: 4.142857
 ratings: 687
 reviews: 12
 size: 22M
@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-09-30
 signer: 
 reviewArchive:
-
-providerTwitter: Arzifofficial
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Arzifofficial
+social:
 redirect_from:
-
 ---
 
 ### Google Play

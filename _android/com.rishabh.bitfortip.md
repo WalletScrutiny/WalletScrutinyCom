@@ -10,7 +10,7 @@ appCountry: us
 released: 2016-12-21
 updated: 2021-06-20
 version: "2.6"
-stars: 4.6
+stars: 4.571429
 ratings: 77
 reviews: 2
 size: 3.5M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-08-02
 signer: 
 reviewArchive:
-
-providerTwitter: bitfortip
-providerLinkedIn: bitfortip
-providerFacebook: bitfortip
-providerReddit: 
-
+twitter: bitfortip
+social:
+  - https://www.linkedin.com/company/bitfortip
+  - https://www.facebook.com/bitfortip
 redirect_from:
-
 ---
 
 ## App Description

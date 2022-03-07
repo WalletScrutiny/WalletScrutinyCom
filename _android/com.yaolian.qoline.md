@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-14
 updated: 2022-01-17
 version: "1.8.3"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 22M
@@ -24,14 +24,10 @@ verdict: fewusers
 date: 2022-02-17
 signer: 
 reviewArchive:
-
-providerTwitter: salletone
-providerLinkedIn: 
-providerFacebook: salletone
-providerReddit: Sallet_Atelas
-
+twitter: salletone
+social:
+  - https://www.facebook.com/salletone
 redirect_from:
-
 ---
 
 This is the Android companion app to the hardware wallet: 

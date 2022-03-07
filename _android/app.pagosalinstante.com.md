@@ -10,7 +10,7 @@ appCountry:
 released: 2019-02-03
 updated: 2021-12-31
 version: "1.07.68"
-stars: 4.8
+stars: 4.753623
 ratings: 934
 reviews: 38
 size: 5.7M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-09-23
 signer: 
 reviewArchive:
-
-providerTwitter: paiexchange
-providerLinkedIn: 
-providerFacebook: paiexchange
-providerReddit: 
-
+twitter: paiexchange
+social:
+  - https://www.facebook.com/paiexchange
 redirect_from:
-
 ---
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 

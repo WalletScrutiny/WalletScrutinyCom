@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-03-23
 updated: 2022-02-24
 version: "2.3.3"
-stars: 3.6
+stars: 3.6190476
 ratings: 225
 reviews: 12
 size: 55M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-07
 signer: 
 reviewArchive:
-
-providerTwitter: PoolinWallet
-providerLinkedIn: poolinwallet
-providerFacebook: 
-providerReddit: 
-
+twitter: PoolinWallet
+social:
+  - https://www.linkedin.com/company/poolinwallet
 redirect_from:
-
 ---
 
 ## App Description

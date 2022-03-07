@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-12-15
 updated: 2022-02-02
 version: "2.0.7"
-stars: 2.9
+stars: 2.779661
 ratings: 208
 reviews: 40
 size: 72M
@@ -24,14 +24,10 @@ verdict: nowallet
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: smilesbitcoin
-providerLinkedIn: 
-providerFacebook: smilesbitcoin
-providerReddit: 
-
+twitter: smilesbitcoin
+social:
+  - https://www.facebook.com/smilesbitcoin
 redirect_from:
-
 ---
 
 ## App Description

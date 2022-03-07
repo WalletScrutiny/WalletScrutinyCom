@@ -4,32 +4,29 @@ appId: nfcwalletcard
 authors:
 - kiwilamb
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://nfcwalletcard.com
 website: 
 shop: 
-company: 
-companywebsite: https://nfcwalletcard.com
 country: 
 price: 
 repository: 
-issue:
+issue: 
 icon: nfcwalletcard.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2021-08-01
-signer:
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: 
+social: 
 ---
 
 The [provider's website](https://nfcwalletcard.com) is inaccessible and we considered it defunct.

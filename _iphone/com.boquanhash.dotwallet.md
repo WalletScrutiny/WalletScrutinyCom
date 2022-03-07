@@ -23,14 +23,8 @@ verdict: nosource
 date: 2021-11-10
 signer: 
 reviewArchive:
-
-providerTwitter: wallet_dot
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: wallet_dot
+social:
 ---
 
 {% include copyFromAndroid.html %}

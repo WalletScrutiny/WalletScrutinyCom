@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: btsecom
-providerLinkedIn: btsecom
-providerFacebook: btsecom
-providerReddit: btsecom
-
-redirect_from:
-
+twitter: btsecom
+social:
+  - https://www.linkedin.com/company/btsecom
+  - https://www.facebook.com/btsecom
+  - https://www.reddit.com/r/btsecom
 ---
 
 {% include copyFromAndroid.html %}

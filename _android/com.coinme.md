@@ -4,15 +4,15 @@ title: "Coinme: Buy Bitcoin With Cash"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinme
 appCountry: 
 released: 2021-05-06
-updated: 2022-02-17
-version: "1.8.1"
-stars: 4.4
+updated: 2022-03-02
+version: "1.8.2"
+stars: 4.22
 ratings: 782
-reviews: 168
+reviews: 175
 size: 105M
 website: https://www.coinme.com
 repository: 
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: Coinme
-providerLinkedIn: coinme
-providerFacebook: Coinme
-providerReddit: 
-
+twitter: Coinme
+social:
+  - https://www.linkedin.com/company/coinme
+  - https://www.facebook.com/Coinme
 redirect_from:
-
 ---
 
 ### Google Play

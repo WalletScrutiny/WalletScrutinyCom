@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-10-26
 signer: 
 reviewArchive:
-
-providerTwitter: ChainEXIO
-providerLinkedIn: chainexio
-providerFacebook: ChainEXIO
-providerReddit: 
-
+twitter: ChainEXIO
+social:
+  - https://www.linkedin.com/company/chainexio
+  - https://www.facebook.com/ChainEXIO
 redirect_from:
-
 ---
 
 ## App Description

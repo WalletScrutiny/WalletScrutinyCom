@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-20
 updated: 2022-01-13
 version: "1.2.1"
-stars: 4.1
+stars: 4.05
 ratings: 1913
 reviews: 203
 size: 58M
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-01
 signer: 
 reviewArchive:
-
-providerTwitter: thndrgames
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: thndrgames
+social:
 redirect_from:
-
 ---
 
 Bitcoin Bounce is a lightning network powered game.

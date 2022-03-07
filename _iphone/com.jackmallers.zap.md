@@ -23,14 +23,8 @@ verdict: nonverifiable
 date: 2021-08-17
 signer: 
 reviewArchive:
-
-providerTwitter: ln_zap
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ln_zap
+social:
 ---
 
 This app does not feature a provider website but a GitHub account which links to

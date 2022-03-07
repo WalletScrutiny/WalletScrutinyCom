@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-02-02
 updated: 2022-02-15
 version: "1.3.8"
-stars: 3.7
+stars: 3.6538463
 ratings: 2457
 reviews: 39
 size: 28M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: MOBOX_Official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: MOBOX_Official
+social:
 redirect_from:
-
 ---
 
 ### Google Play

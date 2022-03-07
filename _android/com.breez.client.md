@@ -8,7 +8,7 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2022-02-18
+updated: 2022-03-05
 version: "Varies with device"
 stars: 
 ratings: 
@@ -24,12 +24,8 @@ verdict: ftbfs
 date: 2019-12-28
 signer: 
 reviewArchive:
-
-providerTwitter: breez_tech
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: breez_tech
+social:
 redirect_from:
   - /breez/
   - /com.breez.client/

@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: krakenfx
-providerLinkedIn: krakenfx
-providerFacebook: KrakenFX
-providerReddit: 
-
-redirect_from:
-
+twitter: krakenfx
+social:
+  - https://www.linkedin.com/company/krakenfx
+  - https://www.facebook.com/KrakenFX
 ---
 
 On their website we read:

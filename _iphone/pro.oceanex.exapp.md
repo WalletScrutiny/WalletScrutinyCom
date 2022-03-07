@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-10-18
 signer: 
 reviewArchive:
-
-providerTwitter: OceanexOfficial
-providerLinkedIn: 
-providerFacebook: OceanExPROOfficial
-providerReddit: OceanExOfficial
-
-redirect_from:
-
+twitter: OceanexOfficial
+social:
+  - https://www.facebook.com/OceanExPROOfficial
+  - https://www.reddit.com/r/OceanExOfficial
 ---
 
 {% include copyFromAndroid.html %}

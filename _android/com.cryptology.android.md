@@ -10,7 +10,7 @@ appCountry: gb
 released: 2018-03-23
 updated: 2022-02-15
 version: "3.9.0"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 40M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-10-08
 signer: 
 reviewArchive:
-
-providerTwitter: Cryptologyexch
-providerLinkedIn: 
-providerFacebook: Cryptologyexch
-providerReddit: 
-
+twitter: Cryptologyexch
+social:
+  - https://www.facebook.com/Cryptologyexch
 redirect_from:
-
 ---
 
 ## App Description

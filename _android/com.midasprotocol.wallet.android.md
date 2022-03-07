@@ -10,7 +10,7 @@ appCountry:
 released: 2018-11-02
 updated: 2021-12-20
 version: "2.0.8.1"
-stars: 4.3
+stars: 4.3095236
 ratings: 450
 reviews: 24
 size: 43M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-05-01
 signer: 
 reviewArchive:
-
-providerTwitter: MidasProtocol
-providerLinkedIn: 
-providerFacebook: midasprotocol.io
-providerReddit: 
-
+twitter: MidasProtocol
+social:
+  - https://www.facebook.com/midasprotocol.io
 redirect_from:
-
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).

@@ -24,14 +24,9 @@ verdict: custodial
 date: 2021-10-03
 signer: 
 reviewArchive:
-
-providerTwitter: OfficialXcoex
-providerLinkedIn: 
-providerFacebook: xcoex
-providerReddit: 
-
-redirect_from:
-
+twitter: OfficialXcoex
+social:
+  - https://www.facebook.com/xcoex
 ---
 
 **Update 2022-01-06**: The app is back online again. 

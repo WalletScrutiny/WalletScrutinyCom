@@ -10,8 +10,8 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2022-02-26
 version: "4.35.2"
-stars: 3.43341
-reviews: 5459
+stars: 3.42787
+reviews: 5476
 size: 81396736
 website: https://uphold.com
 repository: 
@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-05-14
 signer: 
 reviewArchive:
-
-providerTwitter: UpholdInc
-providerLinkedIn: upholdinc
-providerFacebook: UpholdInc
-providerReddit: 
-
-redirect_from:
-
+twitter: UpholdInc
+social:
+  - https://www.linkedin.com/company/upholdinc
+  - https://www.facebook.com/UpholdInc
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

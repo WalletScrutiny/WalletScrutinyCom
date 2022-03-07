@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-09-11
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: bitcointrade
-providerFacebook: BitcointradeBR
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/bitcointrade
+  - https://www.facebook.com/BitcointradeBR
 ---
 
 {% include copyFromAndroid.html %}

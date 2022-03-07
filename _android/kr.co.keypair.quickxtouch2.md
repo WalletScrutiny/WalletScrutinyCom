@@ -19,18 +19,15 @@ repository:
 issue: 
 icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-12-17
+date: 2022-03-07
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
+
+**Update 2022-02-20**: This app is not available anymore.
 

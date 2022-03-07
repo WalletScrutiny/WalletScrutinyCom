@@ -10,7 +10,7 @@ appCountry:
 released: 2019-03-25
 updated: 2022-02-16
 version: "1.46.2"
-stars: 4.8
+stars: 4.7596154
 ratings: 128577
 reviews: 134
 size: 23M
@@ -24,14 +24,11 @@ verdict: nosendreceive
 date: 2021-08-13
 signer: 
 reviewArchive:
-
-providerTwitter: financefreedomsuccess
-providerLinkedIn: FBS Inc.
-providerFacebook: financefreedomsuccess
-providerReddit: 
-
+twitter: financefreedomsuccess
+social:
+  - https://www.linkedin.com/company/FBS Inc.
+  - https://www.facebook.com/financefreedomsuccess
 redirect_from:
-
 ---
 
 From the app description:

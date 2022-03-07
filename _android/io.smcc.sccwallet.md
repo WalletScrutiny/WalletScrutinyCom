@@ -24,12 +24,8 @@ verdict: nobtc
 date: 2021-10-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /io.smcc.sccwallet/
   - /posts/io.smcc.sccwallet/

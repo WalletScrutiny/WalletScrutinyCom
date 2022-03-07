@@ -11,7 +11,7 @@ appCountry: us
 released: 2018-01-05
 updated: 2021-01-07
 version: "3.3.6-google"
-stars: 4.2
+stars: 4.15
 ratings: 2310
 reviews: 242
 size: 22M
@@ -25,14 +25,10 @@ verdict: nowallet
 date: 2022-01-03
 signer: 
 reviewArchive:
-
-providerTwitter: altcoinfantasy
-providerLinkedIn: 
-providerFacebook: altcoinfantasy
-providerReddit: 
-
+twitter: altcoinfantasy
+social:
+  - https://www.facebook.com/altcoinfantasy
 redirect_from:
-
 ---
 
 This is not a wallet, it is a crypto currency fantasy trading paltformm.

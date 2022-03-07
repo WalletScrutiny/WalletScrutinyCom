@@ -10,7 +10,7 @@ appCountry:
 released: 2019-08-26
 updated: 2022-02-15
 version: "1.21.9"
-stars: 4.0
+stars: 4
 ratings: 365
 reviews: 20
 size: 48M
@@ -24,14 +24,11 @@ verdict: custodial
 date: 2021-04-15
 signer: 
 reviewArchive:
-
-providerTwitter: bolt_global
-providerLinkedIn: bolt-global
-providerFacebook: Global.Bolt
-providerReddit: 
-
+twitter: bolt_global
+social:
+  - https://www.linkedin.com/company/bolt-global
+  - https://www.facebook.com/Global.Bolt
 redirect_from:
-
 ---
 
 Seems like a secondary project called "Pegasus" of Bolt Global where you can earn BOLT tokens into the Bolt-X wallet from using the Bolt+ interactive media companion app.

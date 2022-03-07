@@ -4,34 +4,30 @@ appId: myceliumcard
 authors:
 - danny
 released: 
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: https://mycelium.com
 website: https://card.mycelium.com/
 shop: https://card.mycelium.com/
-company: 
-companywebsite: https://mycelium.com
 country: US
 price: 
 repository: 
-issue:
+issue: 
 icon: myceliumcard.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: unreleased # wip noita nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: MyceliumCom
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: MyceliumCom
+social: 
 ---
-
 
 Since the product is **unreleased**, specifications were hard to come by. [Video presentation](https://vimeo.com/145770131) of the card was last made on November 15, 2015.
 

@@ -10,7 +10,7 @@ appCountry:
 released: 2017-03-09
 updated: 2022-02-21
 version: "2.22.2"
-stars: 3.9
+stars: 3.91
 ratings: 6992
 reviews: 170
 size: 51M
@@ -24,14 +24,9 @@ verdict: nobtc
 date: 2021-07-20
 signer: 
 reviewArchive:
-
-providerTwitter: waves_exchange
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: waves_exchange
+social:
 redirect_from:
-
 ---
 
 On their website, the only pointer to this app is:

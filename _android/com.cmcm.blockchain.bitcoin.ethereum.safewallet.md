@@ -24,12 +24,8 @@ verdict: custodial
 date: 2020-03-20
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.cmcm.blockchain.bitcoin.ethereum.safewallet/
   - /posts/com.cmcm.blockchain.bitcoin.ethereum.safewallet/

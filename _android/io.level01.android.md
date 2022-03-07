@@ -24,14 +24,10 @@ verdict: nobtc
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: level01io
-providerLinkedIn: 
-providerFacebook: level01platform
-providerReddit: 
-
+twitter: level01io
+social:
+  - https://www.facebook.com/level01platform
 redirect_from:
-
 ---
 
 From its Google Play description:

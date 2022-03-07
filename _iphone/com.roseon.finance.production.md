@@ -23,14 +23,9 @@ verdict: custodial
 date: 2021-10-01
 signer: 
 reviewArchive:
-
-providerTwitter: RoseonFinance
-providerLinkedIn: 
-providerFacebook: Roseon.Finance
-providerReddit: 
-
-redirect_from:
-
+twitter: RoseonFinance
+social:
+  - https://www.facebook.com/Roseon.Finance
 ---
 
 {% include copyFromAndroid.html %}

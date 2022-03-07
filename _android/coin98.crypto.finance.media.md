@@ -8,11 +8,11 @@ users: 500000
 appId: coin98.crypto.finance.media
 appCountry: us
 released: 2019-12-19
-updated: 2022-02-21
-version: "11.3.1"
-stars: 4.1
+updated: 2022-03-02
+version: "11.3.2"
+stars: 4.03
 ratings: 18096
-reviews: 274
+reviews: 275
 size: 256M
 website: https://coin98.com/
 repository: 
@@ -24,14 +24,10 @@ verdict: nosource
 date: 2021-04-19
 signer: 
 reviewArchive:
-
-providerTwitter: coin98_wallet
-providerLinkedIn: 
-providerFacebook: Coin98Wallet
-providerReddit: 
-
+twitter: coin98_wallet
+social:
+  - https://www.facebook.com/Coin98Wallet
 redirect_from:
-
 ---
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...

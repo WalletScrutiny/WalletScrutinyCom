@@ -4,34 +4,30 @@ appId: walt
 authors:
 - danny
 released: 2020-12-27
-discontinued: # date
-updated:
-version:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions: 
 weight: 
+provider: 
+providerWebsite: 
 website: https://discord.gg/mcrgYUnR4q
 shop: 
-company: 
-companywebsite: 
 country: 
 price: 
 repository: https://github.com/AngainorDev/WALT_WALLET_BASIC
-issue:
+issue: 
 icon: walt.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: unreleased 
+verdict: unreleased
 date: 2022-02-17
-signer:
-reviewArchive:
-
-
-providerTwitter: Angainor15
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: Angainor15
+social: 
 ---
-
 
 The primary 'website' of this project is a discord channel. There hasn't been much activity in it later than June 2021. The last official announcement was on June 4, 2021:
 

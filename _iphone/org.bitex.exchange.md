@@ -23,14 +23,10 @@ verdict: custodial
 date: 2021-11-04
 signer: 
 reviewArchive:
-
-providerTwitter: bitexexch
-providerLinkedIn: bitexworldwide
-providerFacebook: Bitexofficial
-providerReddit: 
-
-redirect_from:
-
+twitter: bitexexch
+social:
+  - https://www.linkedin.com/company/bitexworldwide
+  - https://www.facebook.com/Bitexofficial
 ---
 
 {% include copyFromAndroid.html %}

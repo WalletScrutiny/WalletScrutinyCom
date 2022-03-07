@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: genesisblockhq
-providerLinkedIn: genesisblockhq
-providerFacebook: genesisblockhq
-providerReddit: genesisblockhq
-
-redirect_from:
-
+twitter: genesisblockhq
+social:
+  - https://www.linkedin.com/company/genesisblockhq
+  - https://www.facebook.com/genesisblockhq
+  - https://www.reddit.com/r/genesisblockhq
 ---
 
 {% include copyFromAndroid.html %}

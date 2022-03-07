@@ -10,8 +10,8 @@ idd: 1362831898
 released: 2018-10-02
 updated: 2021-02-20
 version: "1.5.5"
-stars: 4.2
-reviews: 10
+stars: 4.09091
+reviews: 11
 size: 12750848
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
@@ -23,14 +23,8 @@ verdict: ftbfs
 date: 2022-02-16
 signer: 
 reviewArchive:
-
-providerTwitter: COINiDGroup
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: COINiDGroup
+social:
 ---
 
 This provider states in the App Store description:

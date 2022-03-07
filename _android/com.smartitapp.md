@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-09-25
 updated: 2021-12-13
 version: "1.0.5"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: Varies with device
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 ## App Description

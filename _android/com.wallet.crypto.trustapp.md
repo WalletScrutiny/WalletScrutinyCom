@@ -9,11 +9,11 @@ appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
 updated: 2022-02-23
-version: "5.9"
-stars: 4.5
+version: "5.19"
+stars: 4.5520496
 ratings: 841930
-reviews: 9823
-size: 34M
+reviews: 9907
+size: 38M
 website: https://trustwallet.com/
 repository: 
 issue: 
@@ -24,12 +24,10 @@ verdict: nosource
 date: 2019-11-20
 signer: 
 reviewArchive:
-
-providerTwitter: trustwalletapp
-providerLinkedIn: 
-providerFacebook: trustwalletapp
-providerReddit: trustapp
-
+twitter: trustwalletapp
+social:
+  - https://www.facebook.com/trustwalletapp
+  - https://www.reddit.com/r/trustapp
 redirect_from:
   - /trust/
   - /com.wallet.crypto.trustapp/

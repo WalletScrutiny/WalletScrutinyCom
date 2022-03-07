@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-05-22
 signer: 
 reviewArchive:
-
-providerTwitter: klever_io
-providerLinkedIn: 
-providerFacebook: klever.io
-providerReddit: 
-
-redirect_from:
-
+twitter: klever_io
+social:
+  - https://www.facebook.com/klever.io
 ---
 
 On their website we read:

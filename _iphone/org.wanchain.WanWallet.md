@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-11-30
 signer: 
 reviewArchive:
-
-providerTwitter: wanchain_org
-providerLinkedIn: 
-providerFacebook: wanchainfoundation
-providerReddit: wanchain
-
-redirect_from:
-
+twitter: wanchain_org
+social:
+  - https://www.facebook.com/wanchainfoundation
+  - https://www.reddit.com/r/wanchain
 ---
 
 {% include copyFromAndroid.html %}

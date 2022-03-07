@@ -23,14 +23,10 @@ verdict: custodial
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: CoinTigerEX
-providerLinkedIn: 
-providerFacebook: CoinTigerEX
-providerReddit: CoinTigerExchange
-
-redirect_from:
-
+twitter: CoinTigerEX
+social:
+  - https://www.facebook.com/CoinTigerEX
+  - https://www.reddit.com/r/CoinTigerExchange
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

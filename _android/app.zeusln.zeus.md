@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-07
 updated: 2022-02-28
 version: "0.6.0"
-stars: 4.2
+stars: 4.1538463
 ratings: 45
 reviews: 8
 size: 48M
@@ -24,12 +24,8 @@ verdict: nonverifiable
 date: 2021-04-07
 signer: 
 reviewArchive:
-
-providerTwitter: ZeusLN
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: ZeusLN
+social:
 redirect_from:
   - /app.zeusln.zeus/
   - /posts/app.zeusln.zeus/

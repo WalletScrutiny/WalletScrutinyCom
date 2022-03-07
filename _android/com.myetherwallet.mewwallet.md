@@ -8,12 +8,12 @@ users: 500000
 appId: com.myetherwallet.mewwallet
 appCountry: us
 released: 2020-03-11
-updated: 2022-02-26
-version: "2.3.8"
-stars: 3.9
+updated: 2022-03-05
+version: "2.3.10"
+stars: 3.990566
 ratings: 7093
-reviews: 480
-size: 102M
+reviews: 483
+size: 106M
 website: http://mewwallet.com
 repository: 
 issue: 
@@ -24,14 +24,12 @@ verdict: nobtc
 date: 2021-02-05
 signer: 
 reviewArchive:
-
-providerTwitter: myetherwallet
-providerLinkedIn: myetherwallet
-providerFacebook: MyEtherWallet
-providerReddit: MyEtherWallet
-
+twitter: myetherwallet
+social:
+  - https://www.linkedin.com/company/myetherwallet
+  - https://www.facebook.com/MyEtherWallet
+  - https://www.reddit.com/r/MyEtherWallet
 redirect_from:
-
 ---
 
 Supports 3 chains: Ethereum, Binance and Polygon. 

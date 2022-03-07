@@ -1,37 +1,33 @@
 ---
 title: "Specter DIY Hardware Wallet"
-appId: specterDIY
+appId: specterdiy
 authors:
 - danny
 released: 2020-02-27
-discontinued: # date
+discontinued: 
 updated: 2021-12-23
-version: 1.6.2
+version: "1.6.2"
+binaries: 
 dimensions: [167, 65, 20]
 weight: 
+provider: "Specter Solutions / Crypto Advance GmbH"
+providerWebsite: 
 website: https://specter.solutions/#diy
 shop: 
-company: Specter Solutions / Crypto Advance GmbH
-companywebsite: 
 country: DE
 price: 
 repository: https://github.com/cryptoadvance/specter-diy
-issue:
+issue: 
 icon: specterdiy.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2022-02-18
-signer:
-reviewArchive:
-
-
-providerTwitter: SpecterWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
+signer: 
+reviewArchive: 
+twitter: SpecterWallet
+social: 
 ---
-
 
 As the name implies, Specter solutions is allowing Bitcoin enthusiasts to build their own hardware wallets by releasing the source code publicly and by sharing do-it-yourself video tutorials on how to assemble their hardware wallet.
 

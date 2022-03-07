@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2022-02-18
-version: "3.0.8"
-stars: 3.87742
-reviews: 155
-size: 129015808
+updated: 2022-03-05
+version: "3.0.9"
+stars: 3.94611
+reviews: 167
+size: 129448960
 website: https://www.huobiwallet.com/en/
 repository: 
 issue: 
@@ -24,14 +24,9 @@ verdict: nosource
 date: 2021-04-20
 signer: 
 reviewArchive:
-
-providerTwitter: HuobiWallet
-providerLinkedIn: 
-providerFacebook: HuobiWallet
-providerReddit: 
-
-redirect_from:
-
+twitter: HuobiWallet
+social:
+  - https://www.facebook.com/HuobiWallet
 ---
 
 From the description on the App Store the wallet provider clearly states the

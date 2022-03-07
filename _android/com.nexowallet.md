@@ -8,11 +8,11 @@ users: 1000000
 appId: com.nexowallet
 appCountry: 
 released: 2019-06-28
-updated: 2022-02-21
-version: "2.2.18"
-stars: 4.4
+updated: 2022-03-02
+version: "2.2.20"
+stars: 4.329208
 ratings: 21149
-reviews: 1514
+reviews: 1525
 size: 96M
 website: https://nexo.io
 repository: 
@@ -24,12 +24,10 @@ verdict: custodial
 date: 2020-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: NexoFinance
-providerLinkedIn: 
-providerFacebook: nexofinance
-providerReddit: Nexo
-
+twitter: NexoFinance
+social:
+  - https://www.facebook.com/nexofinance
+  - https://www.reddit.com/r/Nexo
 redirect_from:
   - /com.nexowallet/
 ---

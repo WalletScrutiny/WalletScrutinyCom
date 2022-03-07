@@ -24,14 +24,9 @@ verdict: wip
 date: 2021-11-15
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-
 ---
 
 Once you open the app, the user is shown a letter by Wayne Huang who is the CEO of XREX.

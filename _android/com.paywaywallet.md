@@ -25,12 +25,9 @@ verdict: nobtc
 date: 2022-02-28
 signer: 
 reviewArchive:
-
-providerTwitter: pay_way
-providerLinkedIn: 
-providerFacebook: paywayuganda
-providerReddit: 
-
+twitter: pay_way
+social:
+  - https://www.facebook.com/paywayuganda
 redirect_from:
   - /com.paywaywallet/
   - /payway/

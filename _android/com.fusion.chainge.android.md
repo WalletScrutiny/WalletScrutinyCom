@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-05-17
 updated: 2021-12-21
 version: "0.4.1"
-stars: 4.8
+stars: 4.7697263
 ratings: 8141
-reviews: 82
+reviews: 83
 size: 83M
 website: https://chainge.finance
 repository: 
@@ -24,14 +24,11 @@ verdict: nosource
 date: 2021-10-21
 signer: 
 reviewArchive:
-
-providerTwitter: FinanceChainge
-providerLinkedIn: chainge-finance
-providerFacebook: chainge.finance
-providerReddit: 
-
+twitter: FinanceChainge
+social:
+  - https://www.linkedin.com/company/chainge-finance
+  - https://www.facebook.com/chainge.finance
 redirect_from:
-
 ---
 
 ## App Description

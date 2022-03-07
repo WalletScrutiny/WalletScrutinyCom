@@ -23,14 +23,10 @@ verdict: nosource
 date: 2021-05-25
 signer: 
 reviewArchive:
-
-providerTwitter: PtpWallet
-providerLinkedIn: 
-providerFacebook: PTPWalletPage
-providerReddit: perkscoin
-
-redirect_from:
-
+twitter: PtpWallet
+social:
+  - https://www.facebook.com/PTPWalletPage
+  - https://www.reddit.com/r/perkscoin
 ---
 
 In [their FAQ](https://ptpwallet.com/faq/) we can read:

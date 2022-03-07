@@ -10,8 +10,8 @@ idd: 1414384820
 released: 2019-03-23
 updated: 2022-02-25
 version: "22.2.24"
-stars: 4.57538
-reviews: 15960
+stars: 4.5753
+reviews: 16016
 size: 48357376
 website: https://exodus.com/mobile
 repository: 
@@ -23,14 +23,9 @@ verdict: nosource
 date: 2021-01-23
 signer: 
 reviewArchive:
-
-providerTwitter: exodus_io
-providerLinkedIn: 
-providerFacebook: exodus.io
-providerReddit: 
-
-redirect_from:
-
+twitter: exodus_io
+social:
+  - https://www.facebook.com/exodus.io
 ---
 
 Just like {% include walletLink.html wallet='android/exodusmovement.exodus' %} on Android, this app is

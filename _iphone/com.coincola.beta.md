@@ -10,8 +10,8 @@ idd: 1234231551
 released: 2017-06-06
 updated: 2022-01-27
 version: "4.8.9"
-stars: 3.71946
-reviews: 221
+stars: 3.71622
+reviews: 222
 size: 150128640
 website: https://www.coincola.com
 repository: 
@@ -23,14 +23,11 @@ verdict: custodial
 date: 2021-05-24
 signer: 
 reviewArchive:
-
-providerTwitter: CoinCola_Global
-providerLinkedIn: coincola
-providerFacebook: CoinCola
-providerReddit: coincolaofficial
-
-redirect_from:
-
+twitter: CoinCola_Global
+social:
+  - https://www.linkedin.com/company/coincola
+  - https://www.facebook.com/CoinCola
+  - https://www.reddit.com/r/coincolaofficial
 ---
 
 > SAFE AND SECURE<br>

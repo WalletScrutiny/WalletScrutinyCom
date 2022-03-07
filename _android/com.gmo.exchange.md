@@ -8,9 +8,9 @@ users: 5000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
-updated: 2022-01-27
-version: "1.2.3"
-stars: 4.2
+updated: 2022-03-05
+version: "1.2.4"
+stars: 4.2173915
 ratings: 82
 reviews: 19
 size: 15M
@@ -24,14 +24,10 @@ verdict: custodial
 date: 2021-11-08
 signer: 
 reviewArchive:
-
-providerTwitter: ZcomExchange
-providerLinkedIn: 
-providerFacebook: ZcomCrypto
-providerReddit: 
-
+twitter: ZcomExchange
+social:
+  - https://www.facebook.com/ZcomCrypto
 redirect_from:
-
 ---
 
 ## App Description

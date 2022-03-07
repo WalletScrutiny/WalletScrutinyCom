@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-06-05
 updated: 2021-07-28
 version: "4.1.2"
-stars: 3.4
+stars: 3.4455445
 ratings: 427
-reviews: 258
+reviews: 259
 size: 27M
 website: https://libertyx.com
 repository: 
@@ -24,14 +24,11 @@ verdict: nowallet
 date: 2021-09-17
 signer: 
 reviewArchive:
-
-providerTwitter: libertyx
-providerLinkedIn: libertyx
-providerFacebook: getlibertyx
-providerReddit: 
-
+twitter: libertyx
+social:
+  - https://www.linkedin.com/company/libertyx
+  - https://www.facebook.com/getlibertyx
 redirect_from:
-
 ---
 
 From its Google Play description:

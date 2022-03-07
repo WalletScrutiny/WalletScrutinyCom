@@ -23,14 +23,9 @@ verdict: nosendreceive
 date: 2021-12-22
 signer: 
 reviewArchive:
-
-providerTwitter: T1_Markets
-providerLinkedIn: 
-providerFacebook: t1markets
-providerReddit: 
-
-redirect_from:
-
+twitter: T1_Markets
+social:
+  - https://www.facebook.com/t1markets
 ---
 
 **Update 2021-12-06**: This app is gone from the Store.

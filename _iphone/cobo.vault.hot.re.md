@@ -23,14 +23,10 @@ verdict: wip
 date: 2021-11-17
 signer: 
 reviewArchive:
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: cobo-official
-providerFacebook: coboOfficial
-providerReddit: 
-
-redirect_from:
-
+twitter: Cobo_Wallet
+social:
+  - https://www.linkedin.com/company/cobo-official
+  - https://www.facebook.com/coboOfficial
 ---
 
 {% include copyFromAndroid.html %}

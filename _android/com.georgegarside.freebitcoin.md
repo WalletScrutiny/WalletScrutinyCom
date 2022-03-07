@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-30
 updated: 2021-05-25
 version: "3.1.1"
-stars: 2.9
+stars: 2.7857144
 ratings: 129
-reviews: 7
+reviews: 8
 size: 4.9M
 website: https://georgegarside.com
 repository: 
@@ -24,14 +24,9 @@ verdict: nowallet
 date: 2021-10-19
 signer: 
 reviewArchive:
-
-providerTwitter: grgarside
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: grgarside
+social:
 redirect_from:
-
 ---
 
 ⚠️ **Caution:** Sites that claim to give free bitcoins should be given extra scrutiny. As of today, October 14, 2021, the price of Bitcoin is $57,672. Sending bitcoins for free to over 10,000 users can be quite expensive. 

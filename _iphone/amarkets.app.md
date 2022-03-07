@@ -23,14 +23,10 @@ verdict: nosendreceive
 date: 2021-10-13
 signer: 
 reviewArchive:
-
-providerTwitter: 
-providerLinkedIn: amarkets
-providerFacebook: AMarketsFirm
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
+  - https://www.linkedin.com/company/amarkets
+  - https://www.facebook.com/AMarketsFirm
 ---
 
 {% include copyFromAndroid.html %}

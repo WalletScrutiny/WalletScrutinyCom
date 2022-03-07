@@ -23,14 +23,8 @@ verdict: nobtc
 date: 2022-01-15
 signer: 
 reviewArchive:
-
-providerTwitter: MOBOX_Official
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: MOBOX_Official
+social:
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

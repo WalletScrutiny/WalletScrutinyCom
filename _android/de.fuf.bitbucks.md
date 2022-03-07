@@ -10,7 +10,7 @@ appCountry:
 released: 2019-09-03
 updated: 2021-03-18
 version: "1.4.1"
-stars: 0.0
+stars: 
 ratings: 
 reviews: 
 size: 16M
@@ -24,12 +24,9 @@ verdict: custodial
 date: 2021-05-31
 signer: 
 reviewArchive:
-
-providerTwitter: bit_bucks
-providerLinkedIn: 
-providerFacebook: bitbucks.io
-providerReddit: 
-
+twitter: bit_bucks
+social:
+  - https://www.facebook.com/bitbucks.io
 redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/
