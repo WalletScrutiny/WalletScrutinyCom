@@ -135,6 +135,11 @@ function updateMeta(header) {
   }
 }
 
+function checkHeaderKeys(header, allowedHeaders) {
+  const losts = Object.keys(header).filter(it => !allowedHeaders.includes(it))
+  if (losts.length > 0) console.error(`Losing properties: ${losts}.`)
+}
+
 module.exports = {
   addReviewArchive,
   downloadImageFile,
@@ -143,5 +148,6 @@ module.exports = {
   migrateAll,
   dateOrEmpty,
   stringOrEmpty,
-  updateMeta
+  updateMeta,
+  checkHeaderKeys
 }
