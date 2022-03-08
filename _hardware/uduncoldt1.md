@@ -6,32 +6,31 @@ authors:
 released: 
 discontinued: 
 updated: 
-version:
-binaries:
-dimensions: [118, 66, 9.7] 
-weight:
+version: 
+binaries: 
+dimensions: [118, 66, 9.7]
+weight: 
 provider: 
-providerWebsite:: https://www.uduncloud.com/en/
+providerWebsite: https://www.uduncloud.com/en/
 website: 
 shop: 
 country: 
 price: 
 repository: https://github.com/uduncloud
-issue:
+issue: 
 icon: uduncoldt1.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2022-03-07
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: UdunWallet
 social: 
   - https://youtube.com/channel/UC7L0QolnaIDfM41nrbt6Uhw
   - https://medium.com/@UdunGlobal
   - https://t.me/UdunWalletTips
 ---
-
 
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 Like Ellipal, it resembles a mobile phone with a screen display and button.

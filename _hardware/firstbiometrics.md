@@ -18,7 +18,7 @@ country:
 price: 
 repository: 
 issue: 
-icon: 
+icon: firstbiometrics.png
 bugbounty: 
 meta: stale
 verdict: unreleased
@@ -30,7 +30,6 @@ social:
   - https://www.linkedin.com/company/firstbiometrics.com/
   - https://www.facebook.com/FirstBiometric/
 ---
-
 
 ## Product Description 
 

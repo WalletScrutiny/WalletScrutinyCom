@@ -4,7 +4,7 @@ appId: cryobit
 authors:
 - danny
 released: 2014-01-09
-discontinued: 2018-09-28 
+discontinued: 2018-09-28
 updated: 
 version: 
 binaries: 
@@ -18,10 +18,10 @@ country:
 price: 
 repository: 
 issue: 
-icon: coldstoragecoins.png
+icon: cryobit.png
 bugbounty: 
 meta: defunct
-verdict: noita
+verdict: prefilled
 date: 2022-03-04
 signer: 
 reviewArchive: 
@@ -30,7 +30,6 @@ social:
   - https://www.reddit.com/user/CryoBit_co/
   - https://www.facebook.com/cryobit/
 ---
-
 
  **Note:** There are [external](https://bisprofiles.com/fl/cryobit-l14000004402) [sources](https://www.corporationwiki.com/p/2eins3/cryobit-llc) that state that Cryobit LLC is inactive. The website is also outdated as the copyright reads "2017" and all the products are listed as "out of stock".
 
@@ -52,4 +51,4 @@ From the [FAQ:](https://www.cryobit.co/faq/)
 >
 > We store this information for up to 10 days after shipping your order. You may request to have it removed sooner by contacting us with your order number.
 
-Even so, as this wallet is a screen-less smart card users still can't verify or approve transactions as **this product lacks the interface**.
+Even so, as this wallet is a screen-less smart card users still can't verify or approve transactions as this product lacks the interface. However, we find its more critical flaw to be the fact that **the provider keeps any copies** at all of the private key. Even if it's encrypted and deleted after 10 days, as they claim, this puts an inordinate amount of trust on the provider. 

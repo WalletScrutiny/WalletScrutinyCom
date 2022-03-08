@@ -67,11 +67,12 @@ How to transfer cryptocurrencies to another wallet
 
 ## Analysis 
 
-Similar to Casascius coins, Cold Storage Coins **etches the private keys on the coins and thus allows them to make copies of it**. The users would have to trust that they won't.
+Similar to {% include walletLink.html wallet='hardware/casascius' %}, Cold Storage Coins **etches the private keys on the coins and thus allows them to make copies of it**. The users would have to trust that they won't.
 
 They did offer a [Security Statement](https://coldstoragecoins.com/security-statement/), but again, users would just have to take their word for it that the Managing Director won't make copies of the private keys on each coin they sell.
 
 > What happens to the private key once the coin is engraved?
+> 
 > Creating secure Cold Storage Coins is a very complex process that involves laser etching of a private key & private key QR code on every coin’s surface. The integrity of this process is paramount to our product’s success, and this production process is strictly overseen by our Managing Director. The keypair is generated on an offline computer, the lasers are run by computers that have never been online. Each computer is wiped clean using USA Department of Defense quality destruction methods. You can learn more about the steps we take to secure the sensitive information in our Security Statment.
 
 

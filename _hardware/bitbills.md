@@ -10,26 +10,24 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: Bitbills Inc.
+provider: "Bitbills Inc."
 providerWebsite: http://bitbills.com/
-website:
+website: 
 shop: 
 country: US
 price: 
 repository: 
-issue:
+issue: 
 icon: bitbills.png
-bugbounty:
+bugbounty: 
 meta: defunct
-verdict: plainkey
+verdict: prefilled
 date: 2022-03-07
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: 
-social: 
-  - 
+social:
 ---
-
 
 ## Product Description 
 

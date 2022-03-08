@@ -27,9 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-
 ---
-
 
 ## General Overview
 
@@ -41,12 +39,12 @@ The site lists 4 products, of which only one can be "ordered". The others are ou
 
 The one available is the Store Cold Nova X9. Before you can order, you must first contact the provider via its contact form. We find this to be irregular because providers who usually keep stock of their items, have an automated ordering process.
 
-All of the items have the same picture. Here's a brief summary of the products:  
+All of the items have the same picture and they distinguish them by some "BTC size"? Here's a brief summary of the products:  
 
-- Storecold Tera X10 - the order button redirects to the homepage. They claim the "size" is 32 BTC - $450
-- Storecold Tera X213 - Out of Stock - the "size" is 8 BTC - $199 
-- Storecold Nova X9 - can be ordered [here](https://www.storecold.io/checkout.html) after filling out a web form - size is 22 BTC - $350 USD
-- Storecold Nano X3 - Out of Stock - size is 4 BTC - $270
+- Storecold Tera X10 - the order button redirects to the homepage. They call this "Size 32 BTC" - for $450
+- Storecold Tera X213 - Out of Stock - "Size 8BTC" - $199 
+- Storecold Nova X9 - can be ordered [here](https://www.storecold.io/checkout.html) after filling out a web form - "Size 22BTC" - $350 USD
+- Storecold Nano X3 - Out of Stock - "Size 4BTC" - $270
 
 ## The Storecold Nova X9
 
@@ -71,9 +69,9 @@ StoreCold's [Features](https://www.storecold.io/index.html#features) Page, seems
 
 ## Verdict 
 
-The overall presentation of the website plus the social media presence (or lack of) seem to indicate that this is an **unreleased** product. We emailed them to be sure and await their feedback. 
+The overall presentation of the website plus the social media presence (or lack thereof) seem to indicate that this is an **unreleased** product. We emailed them to be sure and await their feedback. 
 
-We also checked the [domain registration information](https://www.eurodns.com/whois-search/io-domain-name) for StoreCold.io, and found that it was registered 2020-10-19. It will expire on 2022-10-19. 
+Given the page [is around since October 2020](https://www.whois.com/whois/storecold.io) there is remarkably little to be found about this product. 
 
 
 

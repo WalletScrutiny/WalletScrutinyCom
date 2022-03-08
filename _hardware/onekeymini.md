@@ -32,7 +32,6 @@ social:
   - https://www.reddit.com/r/OneKeyHQ/
 ---
 
-
 ## Product Description 
 
 Not to be confused with the {% include walletLink.html wallet='hardware/onekey' verdict='true' %}, the One Key Mini supports many cryptocurrencies including: BTC, LTC, BCH, ETH, BTG, DASH, USDT, DOGE and more. It supports many DeFi protocols and can connect to Metamask.

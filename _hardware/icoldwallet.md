@@ -27,9 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-
 ---
-
 
 ## General Overview 
 
@@ -40,11 +38,12 @@ iColdWallet is the [mobile iOS app](https://apps.apple.com/nz/app/icoldwallet/id
 ## Product Description 
 
 > - Compatible with iOS devices, including iPhone and iPad: 
-> iPhone 13/Pro/Pro Max, 12/Pro/Pro Max, 11/Pro/Pro Max, XS Max/XS, X/XR, 8 Plus/8, 7 Plus/7/6/SE, iPad 2/3/4/Air series/Pro series etc(NOTE: Don't support latest version of 11&12.9 inch iPad pro with USB-C port).
+>
+>   iPhone 13/Pro/Pro Max, 12/Pro/Pro Max, 11/Pro/Pro Max, XS Max/XS, X/XR, 8 Plus/8, 7 Plus/7/6/SE, iPad 2/3/4/Air series/Pro series etc(NOTE: Don't support latest version of 11&12.9 inch iPad pro with USB-C port).
 
 - Once removed from the key enclosure, the device can be plugged in the phone or tablet's lightning port. 
 - The user then has to install the iColdWallet app referenced above.
-- The device supports the 12 or 24 bit BIP39 Protocol Standard
+- The device supports the 12 or 24 word BIP39 Standard
 - Supports Cross-chain & Multi-currency, including but not limited to: BTC, ETH, BCH, DASH, LTC, etc.
 
 ## iColdWallet App 
@@ -59,11 +58,12 @@ The app has the following features:
 >
 >4. Backup and recovery: Backup Mnemonic words(seed words) on the recovery sheet, so your account can be easily restored to any accounting device or compatible wallet (iColdWallet). The recovery sheet is compatible with any 12 or 24 word seed in multi-language, which is ideal for storing your private crypto currency information or anything that may require a private cold storage system.
 >
->5.Easy to use: Designed through an intuitive user experience.
+>5. Easy to use: Designed through an intuitive user experience.
 >
->6.Regular updates: Update new features regularly without additional cost.
+>6. Regular updates: Update new features regularly without additional cost.
 >
->7.Fully flexible: Supports Bitcoin, Bitcoin Cash, Ethereum, Zero Cash, BNB etc, and more than 1500 ERC20 tokens.
+>7. Fully flexible: Supports Bitcoin, Bitcoin Cash, Ethereum, Zero Cash, BNB etc, and more than 1500 ERC20 tokens.
+>
 >
 >iColdWallet is a App for hardware wallet Key. Using them together, supporting the following functions:
 >

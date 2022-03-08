@@ -27,9 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-
 ---
-
 
 ## Product Description 
 

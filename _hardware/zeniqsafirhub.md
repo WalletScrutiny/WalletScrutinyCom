@@ -3,35 +3,33 @@ title: "Zeniq & Safir Hub"
 appId: zeniqsafirhub
 authors:
 - danny
-released:
+released: 
 discontinued: 
-updated:
-version:
-binaries:
-dimensions:   
-weight:
-provider: ZENIQ Technologies Ltd. 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
+provider: "ZENIQ Technologies Ltd."
 providerWebsite: https://zeniq.com/
-website:
+website: 
 shop: 
 country: AE
 price: 1998EUR
-repository:
-issue:
+repository: 
+issue: 
 icon: zeniqsafirhub.png
-bugbounty:
+bugbounty: 
 meta: ok
-verdict: nosource 
+verdict: nosource
 date: 2022-03-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: zeniq-tech
 social: 
-  -
 ---
 
-
-** ⚠️ Warning:** There are some third-party websites that have raised red flags concerning this product/project. We would not be linking to them as they have received adverse reactions from the project creators by filing copyright claims against their hosting provider. We leave that for you to Google.
+**⚠️ Warning:** There are some third-party websites that have raised red flags concerning this product/project. We would not be linking to them as they have received adverse reactions from the project creators by filing copyright claims against their hosting provider. We leave that for you to Google.
 
 ## Product Information 
 
