@@ -22,7 +22,7 @@ icon: zymbithsm6.png
 bugbounty: 
 meta: wip
 verdict: noita
-date: 2022-02-17
+date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: zymbit

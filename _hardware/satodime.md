@@ -23,7 +23,7 @@ icon: satodime.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2022-02-22
+date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: satochipwallet

@@ -23,7 +23,7 @@ icon: zerotrace.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-02-23
+date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: 
