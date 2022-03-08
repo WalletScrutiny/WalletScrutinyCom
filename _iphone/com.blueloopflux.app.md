@@ -8,11 +8,11 @@ appId: com.blueloopflux.app
 appCountry: us
 idd: 1534426282
 released: 2020-10-15
-updated: 2022-02-20
-version: "2.4.6"
-stars: 3.42857
-reviews: 14
-size: 66686976
+updated: 2022-03-04
+version: "2.5.9"
+stars: 3.57895
+reviews: 19
+size: 66725888
 website: https://iflux.app/
 repository: 
 issue: 

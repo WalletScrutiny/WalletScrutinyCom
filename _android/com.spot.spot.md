@@ -9,8 +9,8 @@ appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
 updated: 2022-03-01
-version: "4.55.0"
-stars: 4.354839
+version: "4.56.0"
+stars: 4.344
 ratings: 4767
 reviews: 486
 size: 94M

@@ -8,11 +8,11 @@ appId: net.iconomi.iconomi
 appCountry: si
 idd: 1238213050
 released: 2017-05-25
-updated: 2022-02-07
-version: "2.1.1"
+updated: 2022-03-03
+version: "2.1.2"
 stars: 4.61842
 reviews: 76
-size: 89377792
+size: 89783296
 website: http://www.iconomi.com
 repository: 
 issue: 

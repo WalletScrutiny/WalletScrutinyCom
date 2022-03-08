@@ -8,11 +8,11 @@ appId: net.bitoasis.ios.com
 appCountry: ae
 idd: 1521661794
 released: 2020-07-06
-updated: 2022-02-14
-version: "1.3.17"
-stars: 4.64172
-reviews: 3380
-size: 42132480
+updated: 2022-03-04
+version: "1.4.1"
+stars: 4.64306
+reviews: 3488
+size: 44747776
 website: https://bitoasis.net/en/home
 repository: 
 issue: 

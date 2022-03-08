@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-10
 updated: 2021-12-06
 version: "2.0.8"
-stars: 2.61
+stars: 2.57
 ratings: 4377
-reviews: 179
+reviews: 180
 size: 5.8M
 website: https://coinlist.co/
 repository: 

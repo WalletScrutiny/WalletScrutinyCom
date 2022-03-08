@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.flare.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-08-04
+date: 2022-03-08
 signer: 
 reviewArchive:
 twitter: flarewallet

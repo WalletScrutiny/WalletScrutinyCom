@@ -10,9 +10,9 @@ appCountry: id
 released: 2017-11-03
 updated: 2022-01-26
 version: "3.0.8"
-stars: 3.5185184
+stars: 3.4954128
 ratings: 17546
-reviews: 736
+reviews: 738
 size: 180M
 website: https://gate.io/
 repository: 

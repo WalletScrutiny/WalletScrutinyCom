@@ -8,11 +8,11 @@ appId: Tissatech.Bit-Wallet
 appCountry: 
 idd: 1331439005
 released: 2019-02-09
-updated: 2022-01-06
-version: "1.9"
-stars: 4.82803
-reviews: 692
-size: 19279872
+updated: 2022-02-28
+version: "4.1"
+stars: 4.82969
+reviews: 687
+size: 19165184
 website: 
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.probit.app.android2.release.korea
 appCountry: 
 released: 2019-06-19
-updated: 2021-12-17
-version: "1.36.1"
+updated: 2022-03-07
+version: "1.36.3"
 stars: 3.142857
 ratings: 375
 reviews: 5
