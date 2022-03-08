@@ -2,7 +2,7 @@ const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
 
-const migration = function(header, body, fileName) {
+const migration = function(header, body, fileName, folder) {
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3)
   // migrate social links to more flexible format
@@ -18,15 +18,14 @@ const migration = function(header, body, fileName) {
   header.providerWebsite = header.providerWebsite || header.companywebsite || ""
   if (header.icon.slice(0, -4) != header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`
-    console.error(`${header.appId}: unexpected icon ${header.icon}
-mv images/wallet_icons/hardware/tiny/{${header.icon},${newIcon}}
-mv images/wallet_icons/hardware/small/{${header.icon},${newIcon}}
-mv images/wallet_icons/hardware/{${header.icon},${newIcon}}
-`)
+    console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!
+mv images/wallet_icons/${folder}/tiny/{${header.icon},${newIcon}}
+mv images/wallet_icons/${folder}/small/{${header.icon},${newIcon}}
+mv images/wallet_icons/${folder}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
 }
 
-helperPlayStore.migrateAll(migration)
-helperAppStore.migrateAll(migration)
-helperHardware.migrateAll(migration)
+helperPlayStore.migrateAll(migration, 'android')
+helperAppStore.migrateAll(migration, 'iphone')
+helperHardware.migrateAll(migration, 'hardware')
