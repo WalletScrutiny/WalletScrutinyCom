@@ -9,7 +9,7 @@ updated:
 version: 
 binaries: 
 dimensions: [85.6, 54, 0.02]
-weight: 28.35
+weight: 28
 provider: "Axiom Crypto"
 providerWebsite: 
 website: https://axiomcrypto.com/
