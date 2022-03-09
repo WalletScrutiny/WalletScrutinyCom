@@ -8,11 +8,11 @@ appId: co.busha.apple
 appCountry: 
 idd: 1450373493
 released: 2019-02-03
-updated: 2022-03-04
-version: "3.0.18"
-stars: 4.07463
-reviews: 134
-size: 108865536
+updated: 2022-03-08
+version: "3.1.0"
+stars: 4.08148
+reviews: 135
+size: 107599872
 website: https://busha.co
 repository: 
 issue: 

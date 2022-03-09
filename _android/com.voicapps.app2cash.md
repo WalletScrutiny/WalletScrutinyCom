@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-09-17
 updated: 2022-03-03
 version: "2.0.2"
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 2
 size: 45M
 website: http://www.2cash.io
 repository: 

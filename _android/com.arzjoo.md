@@ -12,7 +12,7 @@ updated: 2022-02-20
 version: "2.1.0"
 stars: 3.59
 ratings: 3741
-reviews: 68
+reviews: 67
 size: 20M
 website: https://arzjoo.com
 repository: 

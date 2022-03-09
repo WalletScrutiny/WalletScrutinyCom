@@ -4,7 +4,7 @@ title: "Tangem"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24

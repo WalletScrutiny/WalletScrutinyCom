@@ -12,7 +12,7 @@ updated: 2022-02-02
 version: "1.25.2"
 stars: 4.439353
 ratings: 39950
-reviews: 2027
+reviews: 2029
 size: 43M
 website: https://www.Coinomi.com
 repository: 

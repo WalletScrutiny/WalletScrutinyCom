@@ -10,7 +10,7 @@ appCountry: tt
 released: 2021-06-23
 updated: 2022-03-07
 version: "2.0.5"
-stars: 4.5940595
+stars: 4.598039
 ratings: 231
 reviews: 166
 size: 22M

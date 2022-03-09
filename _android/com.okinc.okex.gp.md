@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-29
 updated: 2022-03-01
 version: "6.0.11"
-stars: 4.498753
+stars: 4.5263157
 ratings: 188391
-reviews: 708
+reviews: 711
 size: 172M
 website: https://www.okx.com/
 repository: 

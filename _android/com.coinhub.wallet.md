@@ -4,7 +4,7 @@ title: "Coinhub: Multi-Chain Wallet"
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.coinhub.wallet
 appCountry: 
 released: 2021-07-13
