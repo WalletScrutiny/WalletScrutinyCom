@@ -19,13 +19,15 @@ repository:
 issue: 
 icon: com.liquiditynetwork.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-09-01
+date: 2022-03-09
 signer: 
 reviewArchive:
 twitter: 
 social:
 redirect_from:
 ---
+
+**Update 2022-02-28**: This app is not available anymore.
 

@@ -19,13 +19,15 @@ repository:
 issue: 
 icon: pkg.coinwallet.id.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2022-03-09
 signer: 
 reviewArchive:
 twitter: 
 social:
 redirect_from:
 ---
+
+**Update 2022-03-01**: This app is not available anymore.
 
