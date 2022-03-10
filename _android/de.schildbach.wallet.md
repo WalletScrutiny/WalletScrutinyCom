@@ -21,9 +21,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-01-11
+date: 2022-03-10
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2022-01-11
+  version: "9.03"
+  appHash: 90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd
+  gitRevision: 6b1f48568245f6ffad3bcfdc9e63d99628c1a942
+  verdict: reproducible
 - date: 2021-12-20
   version: "9.02"
   appHash: f8abb386f28c6a8eaadfde8494d3ceb443e2685015f940345f76b47b2b0ff25e
@@ -169,7 +174,7 @@ signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 apkVersionName: 9.03
 apkVersionCode: 903
 verdict:        reproducible
-appHash:        90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd
+appHash:        3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58
 commit:         c43c146a339d9387fb11859599d634ecf15232d0
 
 Diff:
@@ -181,7 +186,7 @@ Revision, tag (and its signature):
 object c43c146a339d9387fb11859599d634ecf15232d0
 type commit
 tag v9.03
-tagger Andreas Schildbach  1639855261 +0100
+tagger Andreas Schildbach <andreas@schildbach.de> 1639855261 +0100
 
 9.03 release
 ===== End Results =====
