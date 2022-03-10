@@ -33,7 +33,7 @@ social:
 
 ## Product Information 
 
-The Zeniq Hub is basically a tablet with pre-installed software which includes masternode functionality. 
+The Zeniq Hub is basically a tablet with pre-installed software, which includes masternode functionality. We assume that it's the {% include walletLink.html wallet='android/com.zeniq.wallet' verdict='true' %}.
 
 The project mentions "tokenized fundraising" on its homepage:
 
@@ -71,7 +71,7 @@ Note that several domain names have been registered which possesses the project'
 
 We assume that the Zeniq app is installed on the tablet. IF this is true, then we would have to assess the Android app. 
 
-We installed the Android app located on [Google Play](https://play.google.com/store/apps/details?id=com.zeniq.wallet).
+We installed the {% include walletLink.html wallet='android/com.zeniq.wallet' %}
 
 It is a multi-currency app, with Bitcoin send and receive support. 
 
