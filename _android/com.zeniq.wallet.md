@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zeniq Wallet"
+title: "ZENIQ App"
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
-size: "Varies with device"
+size: Varies with device
 website: https://zeniq.com/
 repository: 
 issue: 
