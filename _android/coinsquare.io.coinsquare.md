@@ -8,8 +8,8 @@ users: 100000
 appId: coinsquare.io.coinsquare
 appCountry: 
 released: 2017-08-30
-updated: 2022-01-17
-version: "2.13.14"
+updated: 2022-03-10
+version: "2.13.15"
 stars: 2.8
 ratings: 790
 reviews: 14

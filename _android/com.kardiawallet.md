@@ -10,7 +10,7 @@ appCountry: vn
 released: 2021-01-13
 updated: 2022-03-04
 version: "2.4.3"
-stars: 4.627451
+stars: 4.6116505
 ratings: 1064
 reviews: 116
 size: 63M

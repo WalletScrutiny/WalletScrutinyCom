@@ -10,9 +10,9 @@ appCountry:
 released: 2014-01-31
 updated: 2022-02-02
 version: "1.25.2"
-stars: 4.439353
+stars: 4.4301076
 ratings: 39950
-reviews: 2029
+reviews: 2030
 size: 43M
 website: https://www.Coinomi.com
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-05-11
 updated: 2022-03-04
 version: "3.0.1"
-stars: 4.5
+stars: 4.111111
 ratings: 481
-reviews: 8
+reviews: 9
 size: 36M
 website: https://www.moonxbt.com
 repository: 

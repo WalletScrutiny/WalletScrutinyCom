@@ -10,8 +10,8 @@ idd: 1363753409
 released: 2018-08-15
 updated: 2022-02-04
 version: "4.9"
-stars: 3.6875
-reviews: 16
+stars: 3.89474
+reviews: 19
 size: 78316544
 website: https://bitcoinpoint.com
 repository: 

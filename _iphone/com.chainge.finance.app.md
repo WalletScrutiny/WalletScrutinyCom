@@ -8,10 +8,10 @@ appId: com.chainge.finance.app
 appCountry: us
 idd: 1578987516
 released: 2021-08-04
-updated: 2022-03-06
-version: "0.4.6"
-stars: 4.53571
-reviews: 28
+updated: 2022-03-07
+version: "0.4.7"
+stars: 4.58065
+reviews: 31
 size: 67929088
 website: https://www.chainge.finance/
 repository: 

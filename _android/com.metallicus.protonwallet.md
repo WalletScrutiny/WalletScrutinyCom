@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
 version: "1.5.20"
-stars: 4.53
+stars: 4.49
 ratings: 613
-reviews: 75
+reviews: 76
 size: 46M
 website: https://www.protonchain.com/
 repository: https://github.com/ProtonProtocol/

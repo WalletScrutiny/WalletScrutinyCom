@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-30
 updated: 2022-03-01
 version: "2.1.2"
-stars: 2.1666667
+stars: 3.2105262
 ratings: 401
-reviews: 10
+reviews: 15
 size: 49M
 website: http://www.mexo.io
 repository: 

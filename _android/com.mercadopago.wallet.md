@@ -10,9 +10,9 @@ appCountry: br
 released: 2014-12-09
 updated: 2022-03-07
 version: "2.209.4"
-stars: 4.597496
+stars: 4.593786
 ratings: 3484084
-reviews: 707806
+reviews: 708975
 size: 69M
 website: http://www.mercadopago.com
 repository: 
