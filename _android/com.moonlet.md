@@ -8,12 +8,12 @@ users: 10000
 appId: com.moonlet
 appCountry: ro
 released: 2020-04-21
-updated: 2022-02-15
-version: "1.5.24"
+updated: 2022-03-09
+version: "1.5.25"
 stars: 4
 ratings: 640
 reviews: 4
-size: 38M
+size: 37M
 website: https://moonlet.io
 repository: https://github.com/Moonlet
 issue: 

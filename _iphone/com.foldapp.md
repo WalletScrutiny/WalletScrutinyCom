@@ -10,8 +10,8 @@ idd: 1480424785
 released: 2019-11-18
 updated: 2022-03-04
 version: "139.9.3"
-stars: 4.47154
-reviews: 1037
+stars: 4.47206
+reviews: 1038
 size: 226967552
 website: http://foldapp.com
 repository: 

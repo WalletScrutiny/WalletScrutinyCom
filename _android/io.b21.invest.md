@@ -10,9 +10,9 @@ appCountry: in
 released: 2020-02-24
 updated: 2022-01-30
 version: "0.8.0"
-stars: 2.89
+stars: 2.8921568
 ratings: 592
-reviews: 288
+reviews: 289
 size: 40M
 website: https://b21.io
 repository: 

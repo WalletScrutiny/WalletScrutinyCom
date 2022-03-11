@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.yazedo.coinport.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-02
+date: 2022-03-08
 signer: 
 reviewArchive:
 twitter: 

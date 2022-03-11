@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-06
 updated: 2018-12-04
 version: "1.1.0"
-stars: 2.6470587
+stars: 2.7777777
 ratings: 69
-reviews: 11
+reviews: 12
 size: 3.6M
 website: http://www.joachimneumann.com
 repository: 

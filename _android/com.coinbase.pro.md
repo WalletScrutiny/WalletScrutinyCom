@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinbase.pro
 appCountry: 
 released: 2020-01-06
-updated: 2022-02-28
-version: "1.0.92"
-stars: 2.761745
+updated: 2022-03-08
+version: "1.0.93"
+stars: 2.8434048
 ratings: 22040
-reviews: 4219
+reviews: 4232
 size: 57M
 website: http://pro.coinbase.com/
 repository: 

@@ -8,11 +8,11 @@ appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
 released: 2019-02-03
-updated: 2022-02-21
-version: "8.11.0"
-stars: 4.81334
-reviews: 6046152
-size: 335000576
+updated: 2022-03-07
+version: "8.12.0"
+stars: 4.81314
+reviews: 6048186
+size: 334838784
 website: https://www.paypal.com/mobile
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: "Prime XBT Futures Pro"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.xbt.watcher
 appCountry: 
 released: 2020-10-08

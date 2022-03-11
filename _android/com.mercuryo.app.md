@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-03
 updated: 2022-03-04
 version: "2.0.30"
-stars: 3.975
+stars: 3.9876542
 ratings: 2732
-reviews: 48
+reviews: 49
 size: 46M
 website: https://mercuryo.io
 repository: 

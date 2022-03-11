@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 15M
-website: https://trading.wunderbit.co/en
+website: https://wundertrading.com/en
 repository: 
 issue: 
 icon: eu.wunderbit.trading_web.png

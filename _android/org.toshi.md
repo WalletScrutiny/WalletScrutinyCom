@@ -10,9 +10,9 @@ appCountry:
 released: 2017-09-20
 updated: 2022-02-28
 version: "26.5.415"
-stars: 3.7908108
+stars: 3.775499
 ratings: 38828
-reviews: 8068
+reviews: 8119
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

@@ -4,15 +4,15 @@ title: "Tangem"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
 updated: 2022-03-05
 version: "3.28"
-stars: 4.3703704
+stars: 4.392857
 ratings: 89
-reviews: 8
+reviews: 9
 size: 39M
 website: https://tangem.com
 repository: 

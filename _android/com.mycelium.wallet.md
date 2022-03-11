@@ -10,9 +10,9 @@ appCountry:
 released: 2013-07-01
 updated: 2022-03-02
 version: "3.13.6.0"
-stars: 4.1444445
+stars: 4.1476016
 ratings: 11650
-reviews: 1194
+reviews: 1195
 size: 25M
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-02-17
+date: 2022-03-10
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-02-17
+  version: "3.13.6.0"
+  appHash: cda50955219b1f09362870a25115722b947cadf90a0fb8ac74ec23d3270763fa
+  gitRevision: a59c7684f6cb3813419147f40d8180fd461a27a9
+  verdict: reproducible
 - date: 2022-02-01
   version: "3.13.6.0"
   appHash: 6c98fdf455ad08639581f856446f157905e96c9f87aa934dd9ddd3366919eb21
@@ -211,24 +216,24 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.13.6.0
-apkVersionCode: 3130600
+apkVersionName: 3.13.9.0
+apkVersionCode: 3130900
 verdict:        reproducible
-appHash:        cda50955219b1f09362870a25115722b947cadf90a0fb8ac74ec23d3270763fa
-commit:         43958a3c0bad2c5a214fbea8841539697118dda2
+appHash:        52a78db950f41fb53908b35fba38f3504e423559b3905108ef0b5bae600b92a1
+commit:         44b68b1604d29dbc7d58fb21a4dc625e3a7cdfa6
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3130600/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3130600/META-INF/CERT.RSA differ
+Files /home/leo/tmp/fromPlay_com.mycelium.wallet_3130900/META-INF/CERT.RSA and /home/leo/tmp/fromBuild_com.mycelium.wallet_3130900/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 43958a3c0bad2c5a214fbea8841539697118dda2
+object 44b68b1604d29dbc7d58fb21a4dc625e3a7cdfa6
 type commit
-tag v3.13.6.0
-tagger itserg  1643531326 +0300
+tag v3.13.9.0
+tagger itserg <sergey.dolgopolov@mycelium.com> 1644928543 +0300
 
-Fixed synchronization issues when restoring existing master seed from a phrase
-Fixed issues with ERC-20 transactions having multiple receivers
+Fixed issues when creating a Single Address account from an address
 ===== End Results =====
+
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**
