@@ -21,7 +21,7 @@ icon: com.zeniq.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-10
+date: 2022-03-11
 signer: 
 reviewArchive:
 twitter: Zeniq_tech

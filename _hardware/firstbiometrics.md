@@ -22,7 +22,7 @@ icon: firstbiometrics.png
 bugbounty: 
 meta: stale
 verdict: unreleased
-date: 2022-03-04
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: FIRSTBiometrics

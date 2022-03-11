@@ -22,7 +22,7 @@ icon: uduncoldt1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-07
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: UdunWallet

@@ -22,7 +22,7 @@ icon: bitbills.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-03-07
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: 

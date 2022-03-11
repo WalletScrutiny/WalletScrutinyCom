@@ -22,7 +22,7 @@ icon: icoldwallet.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-04
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: 

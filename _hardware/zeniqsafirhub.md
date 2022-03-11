@@ -22,7 +22,7 @@ icon: zeniqsafirhub.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-02
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: zeniq-tech

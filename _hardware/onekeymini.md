@@ -22,7 +22,7 @@ icon: onekeymini.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-05
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: onekeyhq
