@@ -14,7 +14,7 @@ then
     exit
 fi
 
-mkdir images/wallet_icons/{android,iphone,hardware,desktop}/{small,tiny}/ 2> /dev/null
+mkdir images/wallet_icons/{android,iphone,hardware,bearer,desktop}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
@@ -73,7 +73,7 @@ resizeMany() {
 
 export -f resizeDeterministically
 
-for platform in android iphone hardware desktop; do
+for platform in android iphone hardware bearer desktop; do
   resizeMany images/wallet_icons/$platform images/wallet_icons/$platform/small 100
   resizeMany images/wallet_icons/$platform images/wallet_icons/$platform/tiny 25
 done

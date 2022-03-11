@@ -128,6 +128,7 @@ function updateModularPayload() {
       break
     case 'iphone':
     case 'hardware':
+    case 'bearer':
       var x
       x = document.getElementById("SwitchToDownloadsView"); if (x) x.style.display = "none"
       x = document.getElementById("walletsPerCatContainer"); if (x) x.classList.add("selected")
@@ -139,7 +140,7 @@ function updateModularPayload() {
   var appIds = []
   var presort = []
   const verdictOrder = 'nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
-  const paltformOrder = 'android,iphone,hardware'.split(',')
+  const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
   const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
@@ -196,6 +197,7 @@ function getBadge(wallet) {
     case "android": faCollection = "fab fa-google-play"; break
     case "iphone": faCollection = "fab fa-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break
+    case "bearer": faCollection = "fab fa-bitcoin"; break
   }
 
   return  `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">

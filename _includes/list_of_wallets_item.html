@@ -16,6 +16,7 @@
   {% when "android" %}{% assign faCollection = "fab fa-google-play" %}
   {% when "iphone" %}{% assign faCollection = "fab fa-app-store" %}
   {% when "hardware" %}{% assign faCollection = "fas fa-toolbox" %}
+  {% when "bearer" %}{% assign faCollection = "fab fa-bitcoin" %}
 {% endcase %}
 {% assign simpleAppId = post.appId | replace: '.', '' | prepend: post.collection %}
 <div class="AppDisplayCard meta_{{ post.meta }}">
