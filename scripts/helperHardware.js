@@ -30,6 +30,7 @@ async function refreshAll() {
   })
 }
 
+// TODO: this is Play Store stuff ...
 function refreshFile(fileName) {
   const appPath = path.join(folder, fileName)
   const parts = fs.readFileSync(appPath, 'utf8').split("---")

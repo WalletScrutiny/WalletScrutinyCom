@@ -23,7 +23,7 @@
     <div style="position:relative">
       <div class="flex-r">
         <div class="app_logo">
-          <a href="{{ post.url }}"><img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon }}" class="app_logo" alt="Wallet Logo"></a>
+          <a href="{{ post.url }}"><img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon | default: 'noicon.png' }}" class="app_logo" alt="Wallet Logo"></a>
           <i class="platform-logo {{ faCollection }}"></i>
         </div>
         <span class="stamp stamp-{{ post.verdict }}"></span>

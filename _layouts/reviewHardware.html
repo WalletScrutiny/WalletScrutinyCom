@@ -21,7 +21,7 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        <img src="/images/wallet_icons/{{ page.collection }}/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+        <img src="/images/wallet_icons/{{ page.collection }}/{{ page.icon | default: 'noicon.png' }}" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">
 
           <h1 class="page__title -va-c" itemprop="headline">
