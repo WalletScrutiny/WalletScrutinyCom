@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 18M
-website: http://cars.onlinestore.digital
+website: http://drone.onlinestore.digital
 repository: 
 issue: 
 icon: com.premiumappsfactory.crypto.png

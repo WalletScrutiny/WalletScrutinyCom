@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-30
 updated: 2022-02-28
 version: "1.0.21"
-stars: 4.0208335
+stars: 4.0408163
 ratings: 500
-reviews: 35
+reviews: 36
 size: 65M
 website: https://klever.io
 repository: 

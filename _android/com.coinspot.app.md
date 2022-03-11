@@ -10,9 +10,9 @@ appCountry: au
 released: 2020-10-07
 updated: 2022-02-23
 version: "2.0.15"
-stars: 4.695418
+stars: 4.7343283
 ratings: 3068
-reviews: 1236
+reviews: 1239
 size: 10M
 website: https://www.coinspot.com.au
 repository: 

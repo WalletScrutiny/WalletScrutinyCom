@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-01
+date: 2022-03-11
 signer: 
 reviewArchive:
 twitter: 

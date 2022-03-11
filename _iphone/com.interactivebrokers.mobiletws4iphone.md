@@ -10,8 +10,8 @@ idd: 454558592
 released: 2011-08-12
 updated: 2022-03-03
 version: "8.88.1"
-stars: 2.92039
-reviews: 1319
+stars: 2.91906
+reviews: 1322
 size: 37871616
 website: http://www.interactivebrokers.com
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-06-27
 updated: 2022-01-29
 version: "4.1.9"
-stars: 3.7821782
+stars: 4.36
 ratings: 1170
-reviews: 67
+reviews: 114
 size: 149M
 website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO

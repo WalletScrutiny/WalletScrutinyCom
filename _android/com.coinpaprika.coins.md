@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-06-15
 updated: 2022-03-02
 version: "1.15.3"
-stars: 4.15
+stars: 4.12
 ratings: 1401
-reviews: 84
+reviews: 85
 size: 51M
 website: https://coins.coinpaprika.com/
 repository: 

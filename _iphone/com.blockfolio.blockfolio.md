@@ -8,11 +8,11 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-03-02
-version: "4.3.1"
-stars: 4.77813
-reviews: 52801
-size: 77963264
+updated: 2022-03-10
+version: "4.3.2"
+stars: 4.77773
+reviews: 52852
+size: 78024704
 website: https://blockfolio.com
 repository: 
 issue: 

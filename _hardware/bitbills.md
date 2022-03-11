@@ -26,7 +26,7 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 ---
 
 ## Product Description 

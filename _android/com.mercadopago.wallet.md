@@ -8,11 +8,11 @@ users: 50000000
 appId: com.mercadopago.wallet
 appCountry: br
 released: 2014-12-09
-updated: 2022-03-07
+updated: 2022-03-09
 version: "2.209.4"
-stars: 4.593786
+stars: 4.5977073
 ratings: 3484084
-reviews: 708975
+reviews: 709968
 size: 69M
 website: http://www.mercadopago.com
 repository: 
