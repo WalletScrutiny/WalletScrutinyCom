@@ -1,5 +1,5 @@
 ---
-wsId: Paybis
+wsId: 
 title: "Paybis: Buy & Sell Bitcoin | Track Prices and more"
 altTitle: 
 authors:

@@ -1,5 +1,5 @@
 ---
-wsId: multifw
+wsId: 
 title: "BTC, ETH, SHIB, Altcoin Wallet"
 altTitle: 
 authors:

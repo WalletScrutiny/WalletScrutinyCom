@@ -1,5 +1,5 @@
 ---
-wsId: bitmatrixport
+wsId: 
 title: "bit.com"
 altTitle: 
 authors:

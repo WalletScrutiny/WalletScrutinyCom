@@ -1,5 +1,5 @@
 ---
-wsId: xChangeBG
+wsId: 
 title: "xChange.bg - Buy Bitcoin"
 altTitle: 
 authors:

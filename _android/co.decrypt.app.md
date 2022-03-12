@@ -1,5 +1,5 @@
 ---
-wsId: Decrypt
+wsId: 
 title: "Decrypt - Bitcoin & crypto news"
 altTitle: 
 authors:

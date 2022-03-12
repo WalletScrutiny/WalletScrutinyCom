@@ -1,5 +1,5 @@
 ---
-wsId: cryptotab
+wsId: 
 title: "CryptoTab Farm: Digital Gold"
 altTitle: 
 authors:

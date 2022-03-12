@@ -1,5 +1,5 @@
 ---
-wsId: BitcoinBounce
+wsId: 
 title: "Bitcoin Bounce - Earn Bitcoin"
 altTitle: 
 authors:

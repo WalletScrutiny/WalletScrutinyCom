@@ -1,5 +1,5 @@
 ---
-wsId: ATMOption
+wsId: 
 title: "Atm option Bitcoin trading"
 altTitle: 
 authors:

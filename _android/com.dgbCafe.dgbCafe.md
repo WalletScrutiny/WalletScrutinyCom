@@ -1,5 +1,5 @@
 ---
-wsId: DigiCafe
+wsId: 
 title: "DigiCafe - Mobile DigiByte Point of Sale"
 altTitle: 
 authors:
