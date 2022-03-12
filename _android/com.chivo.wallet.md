@@ -11,9 +11,9 @@ appCountry: sv
 released: 2021-09-06
 updated: 2021-12-12
 version: "2.0.1"
-stars: 3.4290338
+stars: 3.4187841
 ratings: 27085
-reviews: 12294
+reviews: 12320
 size: 64M
 website: https://chivowallet.com
 repository: 

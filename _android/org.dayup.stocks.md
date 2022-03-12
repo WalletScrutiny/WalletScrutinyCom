@@ -11,9 +11,9 @@ appCountry:
 released: 
 updated: 2022-03-03
 version: "7.4.7.31"
-stars: 4.4267974
+stars: 4.427588
 ratings: 165702
-reviews: 34432
+reviews: 34450
 size: 57M
 website: https://www.webull.com
 repository: 

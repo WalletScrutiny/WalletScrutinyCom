@@ -12,7 +12,7 @@ updated: 2021-12-29
 version: "4.1.3"
 stars: 4.5164833
 ratings: 24480
-reviews: 1190
+reviews: 1189
 size: 20M
 website: http://www.netdania.com
 repository: 

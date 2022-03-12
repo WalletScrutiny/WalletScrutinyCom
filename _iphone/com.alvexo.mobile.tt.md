@@ -8,11 +8,11 @@ appId: com.alvexo.mobile.tt
 appCountry: cz
 idd: 1403847666
 released: 2018-08-06
-updated: 2022-03-04
-version: "3.3.5"
+updated: 2022-03-09
+version: "3.3.6"
 stars: 
 reviews: 
-size: 156766208
+size: 156762112
 website: https://www.alvexo.com/
 repository: 
 issue: 

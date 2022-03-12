@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-11
 updated: 2022-03-05
 version: "2.3.10"
-stars: 4.0094337
+stars: 4.0283017
 ratings: 7093
-reviews: 484
+reviews: 485
 size: 106M
 website: http://mewwallet.com
 repository: 

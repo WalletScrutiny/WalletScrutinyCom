@@ -4,15 +4,15 @@ title: "Bitcoin IRA: Crypto Retirement"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitcoinira
 appCountry: us
 released: 2021-06-15
 updated: 2022-02-04
 version: "1.5.9"
-stars: 4.4607844
+stars: 4.455446
 ratings: 508
-reviews: 131
+reviews: 132
 size: 118M
 website: https://bitcoinira.com/
 repository: 

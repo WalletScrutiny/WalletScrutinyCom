@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-27
 updated: 2022-03-07
 version: "2.38.3"
-stars: 3.0428572
+stars: 3.0642858
 ratings: 6090
-reviews: 831
+reviews: 829
 size: 308M
 website: https://www.ledger.com
 repository: 

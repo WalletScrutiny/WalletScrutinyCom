@@ -10,9 +10,9 @@ appCountry:
 released: 2017-08-30
 updated: 2022-03-10
 version: "2.13.15"
-stars: 2.8
+stars: 2.7142856
 ratings: 790
-reviews: 14
+reviews: 15
 size: 7.3M
 website: http://coinsquare.com
 repository: 

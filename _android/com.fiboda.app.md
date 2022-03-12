@@ -4,7 +4,7 @@ title: "Fiboda - Copy trading Platform"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.fiboda.app
 appCountry: us
 released: 2021-01-14

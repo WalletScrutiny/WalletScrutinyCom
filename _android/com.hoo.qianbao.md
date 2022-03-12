@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-03-17
 updated: 2022-03-10
 version: "4.7.51"
-stars: 3.7972972
+stars: 3.7236843
 ratings: 749
-reviews: 63
+reviews: 65
 size: 57M
 website: https://hoo.com
 repository: 
