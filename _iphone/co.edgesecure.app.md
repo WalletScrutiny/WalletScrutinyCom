@@ -4,6 +4,7 @@ title: "Edge - Crypto & Bitcoin Wallet"
 altTitle: 
 authors:
 - leo
+- emanuel
 appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
@@ -19,10 +20,15 @@ issue:
 icon: co.edgesecure.app.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2020-12-20
+verdict: nonverifiable
+date: 2022-03-13
 signer: 
 reviewArchive:
+- date: 2019-11-10
+  version: "1.10.1"
+  appHash: 
+  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
+  verdict: ftbfs
 twitter: edgewallet
 social:
   - https://www.linkedin.com/company/edgeapp
