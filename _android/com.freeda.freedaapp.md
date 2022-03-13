@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-04-13
 updated: 2022-03-08
 version: "2.1.2"
-stars: 4.8923078
+stars: 4.8939395
 ratings: 80
-reviews: 51
+reviews: 52
 size: 35M
 website: https://www.freeda.io
 repository: 

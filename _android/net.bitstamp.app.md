@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-29
 updated: 2022-03-10
 version: "3.4.1"
-stars: 4.1712327
+stars: 4.2040815
 ratings: 11088
-reviews: 522
+reviews: 524
 size: 137M
 website: https://www.bitstamp.net
 repository: 

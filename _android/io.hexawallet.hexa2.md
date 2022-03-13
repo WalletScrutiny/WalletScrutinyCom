@@ -12,7 +12,7 @@ updated: 2022-03-09
 version: "2.0.72"
 stars: 5
 ratings: 30
-reviews: 4
+reviews: 5
 size: 58M
 website: https://hexawallet.io/
 repository: https://github.com/bithyve/hexa

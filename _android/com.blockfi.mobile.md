@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-30
 updated: 2022-03-08
 version: "5.2.0"
-stars: 4.128878
+stars: 4.106529
 ratings: 4802
-reviews: 1337
+reviews: 1339
 size: 11M
 website: https://blockfi.com/
 repository: 

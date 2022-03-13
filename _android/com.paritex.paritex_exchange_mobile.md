@@ -8,11 +8,11 @@ users: 10000
 appId: com.paritex.paritex_exchange_mobile
 appCountry: tr
 released: 2021-03-21
-updated: 2021-12-30
-version: "2.2.5"
-stars: 4.2403846
+updated: 2022-03-12
+version: "2.3.1"
+stars: 4.247619
 ratings: 272
-reviews: 98
+reviews: 99
 size: 17M
 website: https://paritex.com/
 repository: 

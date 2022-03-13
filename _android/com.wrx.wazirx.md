@@ -11,9 +11,9 @@ appCountry: in
 released: 2018-07-16
 updated: 2022-03-02
 version: "2.20.2"
-stars: 4.195163
+stars: 4.198568
 ratings: 543310
-reviews: 107941
+reviews: 108045
 size: 11M
 website: https://wazirx.com
 repository: 

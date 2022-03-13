@@ -10,9 +10,9 @@ appCountry: ar
 released: 2019-11-19
 updated: 2022-03-08
 version: "2.1.0"
-stars: 4.5660377
+stars: 4.5740743
 ratings: 65
-reviews: 28
+reviews: 29
 size: 38M
 website: https://defiantapp.tech
 repository: 

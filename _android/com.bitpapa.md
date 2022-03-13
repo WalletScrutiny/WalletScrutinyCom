@@ -10,9 +10,9 @@ appCountry:
 released: 2020-08-18
 updated: 2022-03-07
 version: "1.8.5"
-stars: 4.3690476
+stars: 4.361446
 ratings: 5332
-reviews: 83
+reviews: 82
 size: 75M
 website: https://bitpapa.com
 repository: 

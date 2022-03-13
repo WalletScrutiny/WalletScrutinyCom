@@ -8,11 +8,11 @@ users: 5000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2022-02-28
+updated: 2022-03-12
 version: "26.5.415"
-stars: 3.7902284
+stars: 3.7948854
 ratings: 38828
-reviews: 8141
+reviews: 8151
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

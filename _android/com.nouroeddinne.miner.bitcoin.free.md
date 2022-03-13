@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
-stars: 4.3431373
+stars: 4.39
 ratings: 3855
-reviews: 370
+reviews: 372
 size: 7.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 

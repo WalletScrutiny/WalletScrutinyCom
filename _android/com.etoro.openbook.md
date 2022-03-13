@@ -10,9 +10,9 @@ appCountry:
 released: 2013-11-05
 updated: 2022-02-23
 version: "391.0.0"
-stars: 3.9900708
+stars: 3.9929776
 ratings: 111823
-reviews: 2747
+reviews: 2750
 size: 52M
 website: https://www.etoro.com/
 repository: 

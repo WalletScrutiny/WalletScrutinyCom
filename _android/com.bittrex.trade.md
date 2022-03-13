@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-19
 updated: 2022-03-03
 version: "1.18.1"
-stars: 4.2356687
+stars: 4.2236023
 ratings: 5144
-reviews: 518
+reviews: 520
 size: 84M
 website: https://global.bittrex.com
 repository: 

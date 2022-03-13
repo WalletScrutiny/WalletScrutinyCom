@@ -8,8 +8,8 @@ appId: io.DelioHybrid
 appCountry: kr
 idd: 1498891184
 released: 2020-02-26
-updated: 2022-02-15
-version: "1.3.8"
+updated: 2022-03-10
+version: "1.3.9"
 stars: 3.4375
 reviews: 16
 size: 72374272
