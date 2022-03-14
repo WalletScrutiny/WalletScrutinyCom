@@ -10,9 +10,9 @@ appCountry: br
 released: 2017-12-01
 updated: 2022-02-04
 version: "3.5.2"
-stars: 3.9360948
+stars: 3.9537914
 ratings: 8304
-reviews: 4014
+reviews: 4020
 size: 21M
 website: http://www.bitcointrade.com.br
 repository: 

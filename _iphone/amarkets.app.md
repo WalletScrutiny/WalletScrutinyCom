@@ -10,8 +10,8 @@ idd: 1495820700
 released: 2020-02-12
 updated: 2022-03-09
 version: "1.4.33"
-stars: 4.35714
-reviews: 28
+stars: 4.41934
+reviews: 31
 size: 75952128
 website: https://www.amarkets.com/
 repository: 

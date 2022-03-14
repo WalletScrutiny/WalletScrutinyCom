@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-22
 updated: 2021-03-13
 version: "1.4.0"
-stars: 3.7358491
+stars: 3.7407408
 ratings: 233
-reviews: 42
+reviews: 43
 size: 9.8M
 website: https://flarewallet.io
 repository: 

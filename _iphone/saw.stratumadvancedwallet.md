@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: saw.stratumadvancedwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2022-03-14
 signer: 
 reviewArchive:
 twitter: stratumhk

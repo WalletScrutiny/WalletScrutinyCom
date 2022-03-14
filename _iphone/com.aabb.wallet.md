@@ -10,8 +10,8 @@ idd: 1557298954
 released: 2021-03-14
 updated: 2022-02-18
 version: "1.0.218"
-stars: 4.95789
-reviews: 95
+stars: 4.95833
+reviews: 96
 size: 45451264
 website: https://aabbgoldtoken.com/
 repository: 

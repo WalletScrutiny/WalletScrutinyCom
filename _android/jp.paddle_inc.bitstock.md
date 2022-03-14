@@ -10,7 +10,7 @@ appCountry: jp
 released: 2019-09-03
 updated: 2022-03-10
 version: "1.4.29"
-stars: 3.237013
+stars: 3.2564936
 ratings: 3029
 reviews: 1144
 size: 31M

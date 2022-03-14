@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-27
 updated: 2021-07-30
 version: "Version 16"
-stars: 3.5
+stars: 3.2222223
 ratings: 183
-reviews: 6
+reviews: 7
 size: 29M
 website: https://kriptofuture.com
 repository: 

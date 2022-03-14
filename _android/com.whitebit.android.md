@@ -10,7 +10,7 @@ appCountry: ua
 released: 2019-06-07
 updated: 2022-03-07
 version: "2.5.4"
-stars: 4.45
+stars: 4.490196
 ratings: 1962
 reviews: 68
 size: 28M
