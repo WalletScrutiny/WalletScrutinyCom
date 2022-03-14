@@ -102,7 +102,7 @@ versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: 
 workDir=/tmp/test_$appId
 
 if [ -z $appId ]; then
-  echo "appId could not be tetermined"
+  echo "appId could not be determined"
   exit 1
 fi
 
