@@ -8,8 +8,8 @@ users: 10000
 appId: com.btcalpha.exchange
 appCountry: us
 released: 2021-07-23
-updated: 2022-01-30
-version: "1.10.3"
+updated: 2022-03-13
+version: "1.10.4"
 stars: 
 ratings: 
 reviews: 

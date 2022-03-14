@@ -10,8 +10,8 @@ idd: 1406211993
 released: 2018-08-04
 updated: 2022-03-05
 version: "31.13"
-stars: 4.44524
-reviews: 557
+stars: 4.44643
+reviews: 560
 size: 96655360
 website: https://emberfund.io/
 repository: https://github.com/ember-fund

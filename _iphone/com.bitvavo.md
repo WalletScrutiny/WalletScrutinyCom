@@ -10,8 +10,8 @@ idd: 1483903423
 released: 2020-05-28
 updated: 2022-03-11
 version: "2.0.234"
-stars: 3.46012
-reviews: 163
+stars: 3.46951
+reviews: 164
 size: 33280000
 website: https://bitvavo.com
 repository: 

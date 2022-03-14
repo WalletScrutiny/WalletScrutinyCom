@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-26
 updated: 2022-02-14
 version: "3.1.1"
-stars: 4.36
+stars: 4.366337
 ratings: 13497
-reviews: 446
+reviews: 447
 size: 34M
 website: https://www.safepal.io
 repository: 

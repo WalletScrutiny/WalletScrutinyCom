@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-03
 updated: 2022-03-10
 version: "3.51.0"
-stars: 4.351536
+stars: 4.35
 ratings: 72555
-reviews: 2512
+reviews: 2517
 size: 68M
 website: https://www.kucoin.com
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-19
 updated: 2022-03-03
 version: "1.4.2"
-stars: 4.078652
+stars: 4.075209
 ratings: 75096
-reviews: 1361
+reviews: 1362
 size: 20M
 website: https://www.hotbit.io/
 repository: 

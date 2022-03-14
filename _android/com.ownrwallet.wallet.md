@@ -8,8 +8,8 @@ users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
-updated: 2022-03-03
-version: "1.51.0"
+updated: 2022-03-14
+version: "1.51.1"
 stars: 4.86
 ratings: 2072
 reviews: 222
