@@ -4,6 +4,7 @@ appId: prokeyoptimum
 authors:
 - kiwilamb
 - danny
+- leo
 released: 2020-01-01
 discontinued: 
 updated: 
@@ -18,18 +19,20 @@ shop: https://prokey.io/prokey-optimum
 country: MY
 price: 59USD
 repository: https://github.com/prokey-io/prokey-optimum-firmware
-issue: 
+issue: https://github.com/prokey-io/prokey-optimum-firmware/issues/28
 icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-12-10
+verdict: nonverifiable
+date: 2022-03-15
 signer: 
 reviewArchive: 
 twitter: tryProkey
 social: 
   - https://www.linkedin.com/company/prokey-technologies
   - https://www.facebook.com/prokey.io
+  - https://www.instagram.com/prokey.io
+  - https://www.youtube.com/channel/UCz24yLqt0DCXYYD2qLmTEkQ
 ---
 
 The product page's description reads as below:
@@ -68,8 +71,11 @@ The Help Center's guide on sending and receiving states that the user can confir
 > The total amount of the transaction, including the fee will be displayed on your Prokey after you confirm the address and amount of coin to be sent. Check them again one last time before holding down the OK key to sign and send the transaction.
 
 
-## Reproducibility
+## Code and Reproducibility
 
-In the official Github account, we find a repository named "[prokey-optimum-firmware.](https://github.com/prokey-io/prokey-optimum-firmware)" The repository has had a recent release on October 4.
+In the official GitHub account, we find a repository named "[prokey-optimum-firmware.](https://github.com/prokey-io/prokey-optimum-firmware)" The repository has had a recent release on October 4.
 
-This product is slated for verification.
+Sadly the device has a fundamental flaw when it comes to verifiability: It does
+not show which binary the user is about to update, at least judging by
+[this video](https://www.youtube.com/watch?v=pHWKXho0nLM). Without that, the
+firmware is **not verifiable**.

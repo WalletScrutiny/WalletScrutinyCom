@@ -17,10 +17,10 @@ shop: http://www.blochstech.com/
 country: DK
 price: 19.95EUR
 repository: https://github.com/BlochsTech/BitcoinCardTerminal
-issue: 
+issue: https://github.com/BlochsTech/BitcoinCardTerminal/issues/14
 icon: blochstech.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: prefilled
 date: 2021-08-08
 signer: 
@@ -29,4 +29,14 @@ twitter:
 social: 
 ---
 
-This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.
+This hardware device lacks a screen or a button, this device cannot provide
+basic security of hardware wallets but even worse, it comes with predefined keys.
+According to their [info](http://blochstech.com/info):
+
+> **How do I charge my card?**<br>
+  [ ... ] transfer Bitcoin to your card's address. The address is in the letter
+  you received with the card.
+
+Their GitHub code was not touched since 2016 and 2019 the provider shared via an
+[issue](https://github.com/BlochsTech/BitcoinCardTerminal/issues/14) that the
+project was **dead**.

@@ -16,7 +16,7 @@ website: https://firefly.city/
 shop: 
 country: CA
 price: 5USD
-repository: https://github.com/firefly/wallet/
+repository: https://github.com/firefly/wallet
 issue: 
 icon: fireflyteensy.png
 bugbounty: 

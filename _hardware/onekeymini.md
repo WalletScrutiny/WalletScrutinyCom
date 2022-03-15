@@ -16,7 +16,7 @@ website: https://onekey.so/
 shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
 country: SG
 price: 48USD
-repository: https://github.com/OneKeyHQ/wallet-deprecated
+repository: 
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekeymini.png
 bugbounty: 

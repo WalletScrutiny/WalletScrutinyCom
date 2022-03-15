@@ -16,7 +16,7 @@ website: https://klever.finance/hardware-wallet/
 shop: 
 country: BR
 price: 199USD
-repository: https://github.com/orgs/klever-io
+repository: 
 issue: 
 icon: klever.png
 bugbounty: 

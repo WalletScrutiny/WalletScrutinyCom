@@ -17,7 +17,7 @@ website: https://www.blockchain.com/
 shop: https://www.blockchain.com/
 country: UK
 price: 
-repository: https://github.com/blockchain/
+repository: 
 issue: 
 icon: lockbox.png
 bugbounty: 

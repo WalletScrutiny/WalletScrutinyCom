@@ -18,7 +18,7 @@ website: https://onekey.so/en-US/hardware
 shop: https://onekey.so/en-US/hardware
 country: CN
 price: 42USD
-repository: https://github.com/OneKeyHQ/OneKey-Wallet
+repository: 
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekey.png
 bugbounty: 
