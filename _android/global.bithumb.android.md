@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BithumbGlobal
 social:
-  - https://www.linkedin.com/company/bithumbglobal
-  - https://www.facebook.com/bithumb.global
-  - https://www.reddit.com/r/BithumbGlobal
+- https://www.linkedin.com/company/bithumbglobal
+- https://www.facebook.com/bithumb.global
+- https://www.reddit.com/r/BithumbGlobal
 redirect_from:
 ---
 

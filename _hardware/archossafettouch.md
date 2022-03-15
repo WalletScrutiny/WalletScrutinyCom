@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: ARCHOS
 social: 
-  - https://www.linkedin.com/company/archos
-  - https://www.facebook.com/ArchosOfficial
+- https://www.linkedin.com/company/archos
+- https://www.facebook.com/ArchosOfficial
 ---
 
 After not so much success reviewing its predecessor

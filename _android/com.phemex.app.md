@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: phemex_official
 social:
-  - https://www.linkedin.com/company/phemex
-  - https://www.facebook.com/Phemex.official
+- https://www.linkedin.com/company/phemex
+- https://www.facebook.com/Phemex.official
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: btcalpha
 social:
-  - https://www.linkedin.com/company/btcalpha
-  - https://www.facebook.com/btcalpha
+- https://www.linkedin.com/company/btcalpha
+- https://www.facebook.com/btcalpha
 ---
 
 {% include copyFromAndroid.html %}

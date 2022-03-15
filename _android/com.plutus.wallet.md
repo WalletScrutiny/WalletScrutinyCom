@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AbraGlobal
 social:
-  - https://www.linkedin.com/company/abra
-  - https://www.facebook.com/GoAbraGlobal
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinSwitchKuber
 social:
-  - https://www.linkedin.com/company/coinswitch
-  - https://www.facebook.com/coinswitch
+- https://www.linkedin.com/company/coinswitch
+- https://www.facebook.com/coinswitch
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: SimpleSwap_io
 social:
-  - https://www.facebook.com/SimpleSwap.io
-  - https://www.reddit.com/r/simpleswapexchange
+- https://www.facebook.com/SimpleSwap.io
+- https://www.reddit.com/r/simpleswapexchange
 ---
 
  {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: yellowcard_app
 social:
-  - https://www.linkedin.com/company/yellowcardapp
-  - https://www.facebook.com/yellowcardapp
+- https://www.linkedin.com/company/yellowcardapp
+- https://www.facebook.com/yellowcardapp
 redirect_from:
 ---
 

@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: genesisblockhq
 social:
-  - https://www.linkedin.com/company/genesisblockhq
-  - https://www.facebook.com/genesisblockhq
-  - https://www.reddit.com/r/genesisblockhq
+- https://www.linkedin.com/company/genesisblockhq
+- https://www.facebook.com/genesisblockhq
+- https://www.reddit.com/r/genesisblockhq
 ---
 
 {% include copyFromAndroid.html %}

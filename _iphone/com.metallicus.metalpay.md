@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: metalpaysme
 social:
-  - https://www.facebook.com/metalpaysme
-  - https://www.reddit.com/r/MetalPay
+- https://www.facebook.com/metalpaysme
+- https://www.reddit.com/r/MetalPay
 ---
 
 {% include copyFromAndroid.html %}

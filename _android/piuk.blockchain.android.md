@@ -31,8 +31,8 @@ reviewArchive:
   verdict: nonverifiable
 twitter: blockchain
 social:
-  - https://www.linkedin.com/company/blockchain
-  - https://www.facebook.com/blockchain
+- https://www.linkedin.com/company/blockchain
+- https://www.facebook.com/blockchain
 redirect_from:
   - /blockchainwallet/
   - /piuk.blockchain.android/

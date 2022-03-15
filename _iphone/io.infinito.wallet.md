@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Infinito_Ltd
 social:
-  - https://www.linkedin.com/company/infinitoservices
-  - https://www.facebook.com/InfinitoWallet
+- https://www.linkedin.com/company/infinitoservices
+- https://www.facebook.com/InfinitoWallet
 ---
 
 Right on the App Store description we find:

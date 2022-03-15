@@ -42,9 +42,9 @@ reviewArchive:
   verdict: reproducible
 twitter: ShiftCryptoHQ
 social: 
-  - https://www.linkedin.com/company/shift-crypto
-  - https://www.facebook.com/Shiftcrypto
-  - https://www.reddit.com/r/BitBoxWallet
+- https://www.linkedin.com/company/shift-crypto
+- https://www.facebook.com/Shiftcrypto
+- https://www.reddit.com/r/BitBoxWallet
 ---
 
 We wrapped the findings from prior reviews in a

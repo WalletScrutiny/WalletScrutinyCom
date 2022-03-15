@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coinflexdotcom
 social:
-  - https://www.linkedin.com/company/coinflex
-  - https://www.facebook.com/coinflexdotcom
+- https://www.linkedin.com/company/coinflex
+- https://www.facebook.com/coinflexdotcom
 redirect_from:
 ---
 

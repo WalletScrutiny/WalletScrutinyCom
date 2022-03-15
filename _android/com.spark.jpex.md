@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ExchangeJpex
 social:
-  - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
+- https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from:
 ---
 

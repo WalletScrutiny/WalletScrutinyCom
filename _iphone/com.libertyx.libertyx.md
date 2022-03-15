@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: libertyx
 social:
-  - https://www.linkedin.com/company/libertyx
-  - https://www.facebook.com/getlibertyx
+- https://www.linkedin.com/company/libertyx
+- https://www.facebook.com/getlibertyx
 ---
 
  {% include copyFromAndroid.html %}

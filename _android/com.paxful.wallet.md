@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: paxful
 social:
-  - https://www.facebook.com/paxful
-  - https://www.reddit.com/r/paxful
+- https://www.facebook.com/paxful
+- https://www.reddit.com/r/paxful
 redirect_from:
   - /paxful/
   - /com.paxful.wallet/

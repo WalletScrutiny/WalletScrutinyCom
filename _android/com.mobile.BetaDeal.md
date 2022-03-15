@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/mybetadealapp
+- https://www.facebook.com/mybetadealapp
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: trustwalletapp
 social:
-  - https://www.facebook.com/trustwalletapp
-  - https://www.reddit.com/r/trustapp
+- https://www.facebook.com/trustwalletapp
+- https://www.reddit.com/r/trustapp
 ---
 
 On the App Store they claim:

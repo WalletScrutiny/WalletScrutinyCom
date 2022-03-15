@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: VantageFX
 social:
-  - https://www.linkedin.com/company/vantage-fx
-  - https://www.facebook.com/VantageFXBroker
+- https://www.linkedin.com/company/vantage-fx
+- https://www.facebook.com/VantageFXBroker
 ---
 
 {% include copyFromAndroid.html %}

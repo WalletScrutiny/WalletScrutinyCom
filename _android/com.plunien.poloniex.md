@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Poloniex
 social:
-  - https://www.facebook.com/poloniex
+- https://www.facebook.com/poloniex
 redirect_from:
   - /com.plunien.poloniex/
   - /posts/com.plunien.poloniex/

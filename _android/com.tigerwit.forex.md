@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: TigerWitGlobal
 social:
-  - https://www.linkedin.com/company/tigerwit-group-
+- https://www.linkedin.com/company/tigerwit-group-
 redirect_from:
 ---
 

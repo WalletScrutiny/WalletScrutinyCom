@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: EXANTE_EU
 social:
-  - https://www.linkedin.com/company/exante-ltd
-  - https://www.facebook.com/exante.global
+- https://www.linkedin.com/company/exante-ltd
+- https://www.facebook.com/exante.global
 redirect_from:
 ---
 

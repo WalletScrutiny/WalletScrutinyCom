@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: QuppyPay
 social:
-  - https://www.linkedin.com/company/quppy
-  - https://www.facebook.com/quppyPay
+- https://www.linkedin.com/company/quppy
+- https://www.facebook.com/quppyPay
 ---
 
 This provider loses no word on security or where the keys are stored. We assume

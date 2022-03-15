@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: HuobiGlobal
 social:
-  - https://www.facebook.com/huobiglobalofficial
+- https://www.facebook.com/huobiglobalofficial
 ---
 
 Neither on Google Play nor on their website can we find a claim of a

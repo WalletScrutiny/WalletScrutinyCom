@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coincircle
 social:
-  - https://www.linkedin.com/company/coincircle
-  - https://www.facebook.com/CoinCircle
+- https://www.linkedin.com/company/coincircle
+- https://www.facebook.com/CoinCircle
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: moonstake
 social:
-  - https://www.linkedin.com/company/moonstake
-  - https://www.facebook.com/moonstakekorea
+- https://www.linkedin.com/company/moonstake
+- https://www.facebook.com/moonstakekorea
 ---
 
 {% include copyFromAndroid.html %}

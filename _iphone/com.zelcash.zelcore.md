@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: zelcash
 social:
-  - https://www.reddit.com/r/ZelCash
+- https://www.reddit.com/r/ZelCash
 ---
 
 {% include copyFromAndroid.html %}

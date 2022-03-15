@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bluewalletio
 social:
-  - https://www.reddit.com/r/bluewallet
+- https://www.reddit.com/r/bluewallet
 ---
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is

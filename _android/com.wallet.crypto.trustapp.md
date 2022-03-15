@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: trustwalletapp
 social:
-  - https://www.facebook.com/trustwalletapp
-  - https://www.reddit.com/r/trustapp
+- https://www.facebook.com/trustwalletapp
+- https://www.reddit.com/r/trustapp
 redirect_from:
   - /trust/
   - /com.wallet.crypto.trustapp/

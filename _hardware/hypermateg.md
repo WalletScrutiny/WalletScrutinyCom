@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: HyperPay_tech
 social: 
-  - https://www.facebook.com/hyperpayofficial
+- https://www.facebook.com/hyperpayofficial
 ---
 
 HyperMate G is about the size of a credit card and has buttons and a screen. These help the user to verify and confirm transactions. The wallet can connect via Bluetooth.

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: beldexcoin
 social:
-  - https://www.linkedin.com/company/beldex-coin
-  - https://www.facebook.com/beldexofficial
+- https://www.linkedin.com/company/beldex-coin
+- https://www.facebook.com/beldexofficial
 redirect_from:
 ---
 

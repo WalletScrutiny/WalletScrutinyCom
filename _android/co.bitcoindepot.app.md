@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitcoin_depot
 social:
-  - https://www.facebook.com/BitcoinDepot
+- https://www.facebook.com/BitcoinDepot
 redirect_from:
 ---
 

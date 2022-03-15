@@ -32,7 +32,7 @@ reviewArchive:
   verdict: nobtc
 twitter: freewalletorg
 social:
-  - https://www.facebook.com/freewallet.org
+- https://www.facebook.com/freewallet.org
 redirect_from:
 ---
 

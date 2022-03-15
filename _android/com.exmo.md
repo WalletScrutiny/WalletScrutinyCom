@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Exmo_com
 social:
-  - https://www.facebook.com/exmo.market
+- https://www.facebook.com/exmo.market
 redirect_from:
 ---
 

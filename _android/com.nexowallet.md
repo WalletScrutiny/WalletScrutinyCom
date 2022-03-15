@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: NexoFinance
 social:
-  - https://www.facebook.com/nexofinance
-  - https://www.reddit.com/r/Nexo
+- https://www.facebook.com/nexofinance
+- https://www.reddit.com/r/Nexo
 redirect_from:
   - /com.nexowallet/
 ---

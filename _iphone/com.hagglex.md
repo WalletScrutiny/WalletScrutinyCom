@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: hagglexintl
 social:
-  - https://www.linkedin.com/company/hagglex
-  - https://www.facebook.com/hagglex
+- https://www.linkedin.com/company/hagglex
+- https://www.facebook.com/hagglex
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: betconix
 social:
-  - https://www.facebook.com/GNBetconixSTOU
+- https://www.facebook.com/GNBetconixSTOU
 redirect_from:
 ---
 

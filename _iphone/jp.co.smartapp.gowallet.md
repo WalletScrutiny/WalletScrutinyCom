@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: gowallet_app_
 social:
-  - https://www.facebook.com/gowalletappli
+- https://www.facebook.com/gowalletappli
 ---
 
 {% include copyFromAndroid.html %}

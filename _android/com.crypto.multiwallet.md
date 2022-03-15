@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: GuardaWallet
 social:
-  - https://www.facebook.com/guarda.co
-  - https://www.reddit.com/r/GuardaWallet
+- https://www.facebook.com/guarda.co
+- https://www.reddit.com/r/GuardaWallet
 redirect_from:
   - /guardawallet/
   - /com.crypto.multiwallet/

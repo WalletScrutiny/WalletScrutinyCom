@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Coinme
 social:
-  - https://www.linkedin.com/company/coinme
-  - https://www.facebook.com/Coinme
+- https://www.linkedin.com/company/coinme
+- https://www.facebook.com/Coinme
 redirect_from:
 ---
 

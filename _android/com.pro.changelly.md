@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: changelly_team
 social:
-  - https://www.facebook.com/changellyteam
-  - https://www.reddit.com/r/Changelly
+- https://www.facebook.com/changellyteam
+- https://www.reddit.com/r/Changelly
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: youhodler
 social:
-  - https://www.linkedin.com/company/youhodler
-  - https://www.facebook.com/YouHodler
+- https://www.linkedin.com/company/youhodler
+- https://www.facebook.com/YouHodler
 ---
 
 This app is the interface to an exchange and might have a non-custodial part to

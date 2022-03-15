@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitfyapp
 social:
-  - https://www.facebook.com/bitfyapp
+- https://www.facebook.com/bitfyapp
 redirect_from:
 ---
 

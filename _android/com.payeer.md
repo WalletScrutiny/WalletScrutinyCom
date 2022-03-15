@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/payeercoins
+- https://www.facebook.com/payeercoins
 redirect_from:
 ---
 

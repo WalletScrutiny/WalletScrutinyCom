@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: SecalotDongle
 social: 
-  - https://www.facebook.com/secalotDongle
+- https://www.facebook.com/secalotDongle
 ---
 
 This USB device lacks a screen and does not allow a user to verify what is actually being signed.

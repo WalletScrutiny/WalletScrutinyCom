@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coinmama
 social:
-  - https://www.linkedin.com/company/coinmama
+- https://www.linkedin.com/company/coinmama
 redirect_from:
 ---
 

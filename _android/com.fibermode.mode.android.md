@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: modeapp_
 social:
-  - https://www.linkedin.com/company/modeapp-com
-  - https://www.facebook.com/themodeapp
+- https://www.linkedin.com/company/modeapp-com
+- https://www.facebook.com/themodeapp
 redirect_from:
 ---
 

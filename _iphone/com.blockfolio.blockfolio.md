@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Blockfolio
 social:
-  - https://www.facebook.com/Blockfolio
+- https://www.facebook.com/Blockfolio
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

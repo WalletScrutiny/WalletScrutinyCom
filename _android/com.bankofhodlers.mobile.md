@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: Vauld_
 social:
-  - https://www.linkedin.com/company/vauld
-  - https://www.facebook.com/VauldOfficial
-  - https://www.reddit.com/r/BankofHodlers
+- https://www.linkedin.com/company/vauld
+- https://www.facebook.com/VauldOfficial
+- https://www.reddit.com/r/BankofHodlers
 redirect_from:
 ---
 

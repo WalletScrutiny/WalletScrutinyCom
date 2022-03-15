@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: klever_io
 social: 
-  - https://www.linkedin.com/company/klever-app
-  - https://www.facebook.com/klever.io
+- https://www.linkedin.com/company/klever-app
+- https://www.facebook.com/klever.io
 ---
 
 Klever is a company with many [development goals](https://klever.finance/roadmap/) in mind. It's projects include smart phone wallets, crypto debit cards, its own blockchain, a cryptocurrency exchange and the Klever Hardware wallet which concluded its Pre-Sale in the 4th quarter of 2021. They claim that the Pre-Sale sold out. 

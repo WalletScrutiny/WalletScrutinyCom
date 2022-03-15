@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Rekeningkucom
 social:
-  - https://www.linkedin.com/company/rekeningku-com
-  - https://www.facebook.com/Rekeningkucom
+- https://www.linkedin.com/company/rekeningku-com
+- https://www.facebook.com/Rekeningkucom
 ---
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.

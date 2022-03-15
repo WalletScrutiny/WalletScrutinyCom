@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Digiexchangeid
 social:
-  - https://www.facebook.com/digitalexchangeid
+- https://www.facebook.com/digitalexchangeid
 ---
 
  {% include copyFromAndroid.html %}

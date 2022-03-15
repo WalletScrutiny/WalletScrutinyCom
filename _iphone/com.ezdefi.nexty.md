@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ezDeFi
 social:
-  - https://www.facebook.com/ezdefi
+- https://www.facebook.com/ezdefi
 ---
 
 {% include copyFromAndroid.html %}

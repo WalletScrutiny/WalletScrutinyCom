@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: AnkerPay
 social:
-  - https://www.facebook.com/AnkerPlatform
+- https://www.facebook.com/AnkerPlatform
 redirect_from:
   - /com.ankerpay.wallet/
   - /posts/com.ankerpay.wallet/

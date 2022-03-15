@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bituroapp
 social:
-  - https://www.facebook.com/BituroApp
+- https://www.facebook.com/BituroApp
 redirect_from:
 ---
 

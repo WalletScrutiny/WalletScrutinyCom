@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coin_baazar
 social:
-  - https://www.facebook.com/officialcoinbaazar
+- https://www.facebook.com/officialcoinbaazar
 redirect_from:
 ---
 

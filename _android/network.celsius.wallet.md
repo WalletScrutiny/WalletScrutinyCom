@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: celsiusnetwork
 social:
-  - https://www.linkedin.com/company/celsiusnetwork
-  - https://www.facebook.com/CelsiusNetwork
+- https://www.linkedin.com/company/celsiusnetwork
+- https://www.facebook.com/CelsiusNetwork
 redirect_from:
   - /network.celsius.wallet/
 ---

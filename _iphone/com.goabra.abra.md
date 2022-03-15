@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: AbraGlobal
 social:
-  - https://www.linkedin.com/company/abra
-  - https://www.facebook.com/GoAbraGlobal
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 ---
 
 This is the iPhone version of the Android

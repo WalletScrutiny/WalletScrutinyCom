@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: tangem
 social:
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
 ---
 
 This app is the companion app to an NFC card that is promoted as something like

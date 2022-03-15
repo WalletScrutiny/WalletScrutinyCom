@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: celsiusnetwork
 social:
-  - https://www.linkedin.com/company/celsiusnetwork
-  - https://www.facebook.com/CelsiusNetwork
+- https://www.linkedin.com/company/celsiusnetwork
+- https://www.facebook.com/CelsiusNetwork
 ---
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to

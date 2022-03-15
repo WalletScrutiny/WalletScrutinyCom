@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: jaxx_io
 social:
-  - https://www.facebook.com/JaxxWallet
+- https://www.facebook.com/JaxxWallet
 redirect_from:
   - /jaxx/
   - /com.liberty.jaxx/

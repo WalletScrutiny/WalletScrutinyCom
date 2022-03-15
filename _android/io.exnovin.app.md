@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Exnovin_io
 social:
-  - https://www.linkedin.com/company/exnovin
-  - https://www.facebook.com/exnovin.io
+- https://www.linkedin.com/company/exnovin
+- https://www.facebook.com/exnovin.io
 redirect_from:
 ---
 

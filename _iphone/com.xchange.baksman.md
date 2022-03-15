@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/baksmancom
+- https://www.facebook.com/baksmancom
 ---
 
 {% include copyFromAndroid.html %}

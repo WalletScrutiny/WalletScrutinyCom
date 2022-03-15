@@ -27,9 +27,9 @@ signer:
 reviewArchive:
 twitter: PayPal
 social:
-  - https://www.linkedin.com/company/paypal
-  - https://www.facebook.com/PayPal
-  - https://www.reddit.com/r/paypal
+- https://www.linkedin.com/company/paypal
+- https://www.facebook.com/PayPal
+- https://www.reddit.com/r/paypal
 redirect_from:
 ---
 

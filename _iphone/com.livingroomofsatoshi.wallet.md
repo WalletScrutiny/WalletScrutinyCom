@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: walletofsatoshi
 social:
-  - https://www.facebook.com/walletofsatoshi
+- https://www.facebook.com/walletofsatoshi
 ---
 
 This is a custodial wallet according to their website's FAQ:

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: binanceus
 social:
-  - https://www.linkedin.com/company/binance-us
-  - https://www.facebook.com/BinanceUS
+- https://www.linkedin.com/company/binance-us
+- https://www.facebook.com/BinanceUS
 ---
 
 This is the iPhone version of {% include walletLink.html wallet='android/com.binance.us' %} and we

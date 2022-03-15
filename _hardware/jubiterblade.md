@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: JuBiterWallet
 social: 
-  - https://www.linkedin.com/company/jubiter-wallet
-  - https://www.facebook.com/JuBiterWallet
+- https://www.linkedin.com/company/jubiter-wallet
+- https://www.facebook.com/JuBiterWallet
 ---
 
 {{ page.title }} is a credit card sized device with buttons and screen that

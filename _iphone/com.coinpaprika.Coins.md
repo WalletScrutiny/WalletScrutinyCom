@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinsOneApp
 social:
-  - https://www.facebook.com/CoinsOneApp
+- https://www.facebook.com/CoinsOneApp
 ---
 
 {% include copyFromAndroid.html %}

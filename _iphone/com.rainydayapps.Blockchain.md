@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Blockchain
 social:
-  - https://www.linkedin.com/company/blockchain
-  - https://www.facebook.com/Blockchain
+- https://www.linkedin.com/company/blockchain
+- https://www.facebook.com/Blockchain
 ---
 
 {% include copyFromAndroid.html %}

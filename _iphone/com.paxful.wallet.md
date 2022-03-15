@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: paxful
 social:
-  - https://www.facebook.com/paxful
-  - https://www.reddit.com/r/paxful
+- https://www.facebook.com/paxful
+- https://www.reddit.com/r/paxful
 ---
 
 In the App Store description we can read:

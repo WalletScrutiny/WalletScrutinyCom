@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: etoro
 social:
-  - https://www.linkedin.com/company/etoro
-  - https://www.facebook.com/eToro
+- https://www.linkedin.com/company/etoro
+- https://www.facebook.com/eToro
 redirect_from:
 ---
 

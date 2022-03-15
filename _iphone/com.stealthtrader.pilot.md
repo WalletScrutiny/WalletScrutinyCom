@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: tradewithpilot
 social:
-  - https://www.facebook.com/tradewithpilot
+- https://www.facebook.com/tradewithpilot
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: xtbuk
 social:
-  - https://www.linkedin.com/company/xtb-international
-  - https://www.facebook.com/xtb
+- https://www.linkedin.com/company/xtb-international
+- https://www.facebook.com/xtb
 redirect_from:
 ---
 

@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: walletsafrica
 social:
-  - https://www.facebook.com/walletsafrica
+- https://www.facebook.com/walletsafrica
 ---
 
 **UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

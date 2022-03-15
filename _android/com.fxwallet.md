@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: fxwallet
 social:
-  - https://www.facebook.com/Fxwallet.info
+- https://www.facebook.com/Fxwallet.info
 redirect_from:
 ---
 

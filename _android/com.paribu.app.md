@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: paribucom
 social:
-  - https://www.linkedin.com/company/paribu
-  - https://www.facebook.com/paribucom
+- https://www.linkedin.com/company/paribu
+- https://www.facebook.com/paribucom
 redirect_from:
 ---
 

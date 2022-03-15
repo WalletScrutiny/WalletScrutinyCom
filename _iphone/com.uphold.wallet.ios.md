@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: UpholdInc
 social:
-  - https://www.linkedin.com/company/upholdinc
-  - https://www.facebook.com/UpholdInc
+- https://www.linkedin.com/company/upholdinc
+- https://www.facebook.com/UpholdInc
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: GuardaWallet
 social:
-  - https://www.facebook.com/guarda.co
-  - https://www.reddit.com/r/GuardaWallet
+- https://www.facebook.com/guarda.co
+- https://www.reddit.com/r/GuardaWallet
 ---
 
 This app claims to be non-custodial on the App Store

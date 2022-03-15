@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: KunaExchange
 social:
-  - https://www.facebook.com/kunaexchange
+- https://www.facebook.com/kunaexchange
 redirect_from:
 ---
 

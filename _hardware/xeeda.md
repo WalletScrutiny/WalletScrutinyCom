@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: xeedaofficial
 social: 
-  - https://www.linkedin.com/company/xeedainc
-  - https://www.facebook.com/xeedaofficial
+- https://www.linkedin.com/company/xeedainc
+- https://www.facebook.com/xeedaofficial
 ---
 
 This hardware wallet was featured in [Forbes.com on May 18, 2018](https://www.forbes.com/sites/andrewrossow/2018/05/18/plugging-in-with-the-first-cold-wallet-device-for-your-smartphone/?sh=1bbfb5c97a28)

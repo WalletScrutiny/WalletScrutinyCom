@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: getbusha
 social:
-  - https://www.facebook.com/getbusha
+- https://www.facebook.com/getbusha
 ---
 
 The description

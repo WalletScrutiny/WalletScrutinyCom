@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: shakepay
 social:
-  - https://www.facebook.com/shakepay
-  - https://www.reddit.com/r/shakepay
+- https://www.facebook.com/shakepay
+- https://www.reddit.com/r/shakepay
 redirect_from:
   - /com.shaketh/
   - /posts/com.shaketh/

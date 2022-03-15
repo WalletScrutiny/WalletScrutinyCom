@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinbasePro
 social:
-  - https://www.facebook.com/coinbase
+- https://www.facebook.com/coinbase
 redirect_from:
   - /com.coinbase.pro/
   - /posts/com.coinbase.pro/

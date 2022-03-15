@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: zymbit
 social: 
-  - https://www.linkedin.com/company/zymbit
-  - https://www.facebook.com/zymbit
+- https://www.linkedin.com/company/zymbit
+- https://www.facebook.com/zymbit
 ---
 
 HSM stands for Hardware Security Module for Embedded Applications.

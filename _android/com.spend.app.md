@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Spendcom
 social:
-  - https://www.facebook.com/spend
-  - https://www.reddit.com/r/Spend
+- https://www.facebook.com/spend
+- https://www.reddit.com/r/Spend
 redirect_from:
 ---
 

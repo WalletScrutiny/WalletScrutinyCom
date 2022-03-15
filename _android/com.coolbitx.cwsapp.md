@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coolwallet
 social:
-  - https://www.facebook.com/coolwallet
+- https://www.facebook.com/coolwallet
 redirect_from:
   - /com.coolbitx.cwsapp/
 ---

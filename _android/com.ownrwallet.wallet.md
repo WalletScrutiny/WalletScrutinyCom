@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: ownrwallet
 social:
-  - https://www.facebook.com/ownrwallet
-  - https://www.reddit.com/r/ownrwallet
+- https://www.facebook.com/ownrwallet
+- https://www.reddit.com/r/ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---

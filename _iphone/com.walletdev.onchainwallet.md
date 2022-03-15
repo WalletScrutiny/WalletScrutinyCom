@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HuobiWallet
 social:
-  - https://www.facebook.com/HuobiWallet
+- https://www.facebook.com/HuobiWallet
 ---
 
 From the description on the App Store the wallet provider clearly states the

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: pdaxph
 social:
-  - https://www.linkedin.com/company/pdaxph
-  - https://www.facebook.com/pdaxph
+- https://www.linkedin.com/company/pdaxph
+- https://www.facebook.com/pdaxph
 redirect_from:
 ---
 

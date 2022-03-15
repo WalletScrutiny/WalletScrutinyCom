@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: tokocrypto
 social:
-  - https://www.linkedin.com/company/toko
-  - https://www.facebook.com/TCDXOfficial
+- https://www.linkedin.com/company/toko
+- https://www.facebook.com/TCDXOfficial
 redirect_from:
 ---
 

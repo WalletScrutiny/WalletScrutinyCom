@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ecoinofficial
 social:
-  - https://www.facebook.com/ecoinofficial
+- https://www.facebook.com/ecoinofficial
 ---
 
 {% include copyFromAndroid.html %}

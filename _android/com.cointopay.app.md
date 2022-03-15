@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Cointopay
 social:
-  - https://www.facebook.com/CointopayInternational
-  - https://www.reddit.com/r/Cointopay
+- https://www.facebook.com/CointopayInternational
+- https://www.reddit.com/r/Cointopay
 redirect_from:
 ---
 

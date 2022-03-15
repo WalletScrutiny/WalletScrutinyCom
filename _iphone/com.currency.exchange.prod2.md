@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: currencycom
 social:
-  - https://www.facebook.com/currencycom
-  - https://www.reddit.com/r/currencycom
+- https://www.facebook.com/currencycom
+- https://www.reddit.com/r/currencycom
 ---
 
 <!--

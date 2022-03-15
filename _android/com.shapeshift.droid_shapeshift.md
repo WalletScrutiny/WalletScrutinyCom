@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ShapeShift_io
 social:
-  - https://www.facebook.com/ShapeShiftPlatform
+- https://www.facebook.com/ShapeShiftPlatform
 redirect_from:
   - /com.shapeshift.droid_shapeshift/
 ---

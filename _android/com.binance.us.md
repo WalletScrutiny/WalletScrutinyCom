@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: binanceus
 social:
-  - https://www.linkedin.com/company/binance-us
-  - https://www.facebook.com/BinanceUS
+- https://www.linkedin.com/company/binance-us
+- https://www.facebook.com/BinanceUS
 redirect_from:
   - /com.binance.us/
 ---

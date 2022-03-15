@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: MyceliumCom
 social:
-  - https://www.linkedin.com/company/mycelium
-  - https://www.facebook.com/myceliumcom
-  - https://www.reddit.com/r/mycelium
+- https://www.linkedin.com/company/mycelium
+- https://www.facebook.com/myceliumcom
+- https://www.reddit.com/r/mycelium
 ---
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.

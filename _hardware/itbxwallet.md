@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: ITBiometrics
 social: 
-  - https://www.facebook.com/itbiometrics
+- https://www.facebook.com/itbiometrics
 ---
 
 The company ITBiometrics™ was founded on March 3, 2018 in Los Angeles, California. Announcements of their ITBX Fingerprint bitcoin wallet was first made on October 11, 2018 via [Businesswire](https://www.businesswire.com/news/home/20181011005838/en/ITBiometrics%E2%84%A2-Brings-the-Latest-Innovation-in-Crypto-Wallet-Security-to-Money2020), a Berkshire Hathaway company. 

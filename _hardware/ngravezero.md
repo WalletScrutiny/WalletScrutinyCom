@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: ngrave_official
 social: 
-  - https://www.linkedin.com/company/ngrave-io
-  - https://www.facebook.com/ngrave.io
+- https://www.linkedin.com/company/ngrave-io
+- https://www.facebook.com/ngrave.io
 ---
 
 This wallet is on pre-order and hence has not been released yet.

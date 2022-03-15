@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: KuCoinCom
 social:
-  - https://www.linkedin.com/company/kucoin
-  - https://www.facebook.com/KuCoinOfficial
-  - https://www.reddit.com/r/kucoin
+- https://www.linkedin.com/company/kucoin
+- https://www.facebook.com/KuCoinOfficial
+- https://www.reddit.com/r/kucoin
 ---
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin

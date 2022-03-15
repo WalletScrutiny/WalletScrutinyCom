@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinCorner
 social:
-  - https://www.facebook.com/CoinCorner
+- https://www.facebook.com/CoinCorner
 ---
 
 A search of the app store and the providers website, reveals no statements about how private keys are managed.

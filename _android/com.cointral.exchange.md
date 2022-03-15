@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Cointral
 social:
-  - https://www.linkedin.com/company/cointral
-  - https://www.facebook.com/Cointral
+- https://www.linkedin.com/company/cointral
+- https://www.facebook.com/Cointral
 redirect_from:
 ---
 

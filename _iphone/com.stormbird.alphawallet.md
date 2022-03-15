@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Alpha_wallet
 social:
-  - https://www.reddit.com/r/AlphaWallet
+- https://www.reddit.com/r/AlphaWallet
 ---
 
 {% include copyFromAndroid.html %}

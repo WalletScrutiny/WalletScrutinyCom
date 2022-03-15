@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: investvoyager
 social:
-  - https://www.linkedin.com/company/investvoyager
-  - https://www.facebook.com/InvestVoyager
-  - https://www.reddit.com/r/Invest_Voyager
+- https://www.linkedin.com/company/investvoyager
+- https://www.facebook.com/InvestVoyager
+- https://www.reddit.com/r/Invest_Voyager
 ---
 
 On their website we read:

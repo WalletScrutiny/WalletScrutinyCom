@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/Husky-HDW20-112466137545897
+- https://www.facebook.com/Husky-HDW20-112466137545897
 ---
 
 The device can connect to the Internet via Wi-Fi. It also comes with a companion app:

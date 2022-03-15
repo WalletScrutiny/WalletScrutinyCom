@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: CoinTigerEX
 social:
-  - https://www.facebook.com/CoinTigerEX
-  - https://www.reddit.com/r/CoinTigerExchange
+- https://www.facebook.com/CoinTigerEX
+- https://www.reddit.com/r/CoinTigerExchange
 redirect_from:
 ---
 

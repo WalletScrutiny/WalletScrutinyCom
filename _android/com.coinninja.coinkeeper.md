@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: dropbitapp
 social:
-  - https://www.facebook.com/DropBit-2094204254174419
-  - https://www.reddit.com/r/DropBit
+- https://www.facebook.com/DropBit-2094204254174419
+- https://www.reddit.com/r/DropBit
 redirect_from:
   - /dropbit/
   - /com.coinninja.coinkeeper/

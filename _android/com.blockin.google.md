@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: officialpoolin
 social:
-  - https://www.linkedin.com/company/poolin
-  - https://www.facebook.com/poolinpool
+- https://www.linkedin.com/company/poolin
+- https://www.facebook.com/poolinpool
 redirect_from:
 ---
 

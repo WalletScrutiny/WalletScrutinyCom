@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: QuantDART
 social:
-  - https://www.facebook.com/quantdart
+- https://www.facebook.com/quantdart
 ---
 
 {% include copyFromAndroid.html %}

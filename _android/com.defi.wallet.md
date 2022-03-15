@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: cryptocom
 social:
-  - https://www.linkedin.com/company/cryptocom
-  - https://www.facebook.com/CryptoComOfficial
-  - https://www.reddit.com/r/Crypto_com
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 redirect_from:
   - /com.defi.wallet/
   - /posts/com.defi.wallet/

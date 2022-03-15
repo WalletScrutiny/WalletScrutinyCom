@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: QuppyPay
 social:
-  - https://www.linkedin.com/company/quppy
-  - https://www.facebook.com/quppyPay
+- https://www.linkedin.com/company/quppy
+- https://www.facebook.com/quppyPay
 redirect_from:
   - /com.quppy/
 ---

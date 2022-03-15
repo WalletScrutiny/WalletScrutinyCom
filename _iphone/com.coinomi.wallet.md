@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: CoinomiWallet
 social:
-  - https://www.linkedin.com/company/coinomi
-  - https://www.facebook.com/coinomi
-  - https://www.reddit.com/r/COINOMI
+- https://www.linkedin.com/company/coinomi
+- https://www.facebook.com/coinomi
+- https://www.reddit.com/r/COINOMI
 ---
 
 This wallet claims to be non-custodial but

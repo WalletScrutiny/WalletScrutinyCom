@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: bitrefill
 social:
-  - https://www.facebook.com/bitrefill
-  - https://www.reddit.com/r/Bitrefill
+- https://www.facebook.com/bitrefill
+- https://www.reddit.com/r/Bitrefill
 redirect_from:
   - /com.bitrefill.app/
   - /posts/com.bitrefill.app/

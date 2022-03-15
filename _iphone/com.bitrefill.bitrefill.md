@@ -30,8 +30,8 @@ reviewArchive:
   verdict: custodial
 twitter: bitrefill
 social:
-  - https://www.facebook.com/bitrefill
-  - https://www.reddit.com/r/Bitrefill
+- https://www.facebook.com/bitrefill
+- https://www.reddit.com/r/Bitrefill
 ---
 
 **Update 2021-09-12**: This app wasn't updated for a year but appears to be

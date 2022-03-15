@@ -141,7 +141,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: AirGap_it
 social:
-  - https://www.reddit.com/r/AirGap
+- https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.vault/
   - /posts/it.airgap.vault/

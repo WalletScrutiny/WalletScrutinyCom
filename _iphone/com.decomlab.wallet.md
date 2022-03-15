@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: gomoonwallet
 social:
-  - https://www.facebook.com/moonwallet.net
+- https://www.facebook.com/moonwallet.net
 ---
 
 {% include copyFromAndroid.html %}

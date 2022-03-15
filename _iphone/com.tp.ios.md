@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: TokenPocket_TP
 social:
-  - https://www.facebook.com/TokenPocket
+- https://www.facebook.com/TokenPocket
 ---
 
 {% include copyFromAndroid.html %}

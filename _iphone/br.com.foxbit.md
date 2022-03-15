@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: foxbit
 social:
-  - https://www.linkedin.com/company/foxbit
-  - https://www.facebook.com/foxbitcoin
+- https://www.linkedin.com/company/foxbit
+- https://www.facebook.com/foxbitcoin
 ---
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**

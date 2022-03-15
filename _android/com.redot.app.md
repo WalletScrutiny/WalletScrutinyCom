@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: redotcom
 social:
-  - https://www.linkedin.com/company/redotcom
-  - https://www.facebook.com/redotexchange
-  - https://www.reddit.com/r/redot_com
+- https://www.linkedin.com/company/redotcom
+- https://www.facebook.com/redotexchange
+- https://www.reddit.com/r/redot_com
 redirect_from:
 ---
 

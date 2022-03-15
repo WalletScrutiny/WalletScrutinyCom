@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: afriexapp
 social:
-  - https://www.linkedin.com/company/afriex
-  - https://www.facebook.com/AfriexApp
+- https://www.linkedin.com/company/afriex
+- https://www.facebook.com/AfriexApp
 ---
 
 {% include copyFromAndroid.html %}

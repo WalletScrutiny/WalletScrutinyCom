@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HexaWallet
 social:
-  - https://www.linkedin.com/company/bithyve
+- https://www.linkedin.com/company/bithyve
 redirect_from:
 ---
 

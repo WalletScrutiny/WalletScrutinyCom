@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: tabtraderpro
 social:
-  - https://www.linkedin.com/company/tabtrader
-  - https://www.facebook.com/tabtrader
+- https://www.linkedin.com/company/tabtrader
+- https://www.facebook.com/tabtrader
 ---
 
 {% include copyFromAndroid.html %}

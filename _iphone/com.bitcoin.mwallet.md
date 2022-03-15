@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitcoincom
 social:
-  - https://www.facebook.com/buy.bitcoin.news
-  - https://www.reddit.com/r/btc
+- https://www.facebook.com/buy.bitcoin.news
+- https://www.reddit.com/r/btc
 ---
 
 According to

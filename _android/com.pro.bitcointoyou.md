@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitcointoyou
 social:
-  - https://www.linkedin.com/company/bitcointoyou
-  - https://www.facebook.com/Bitcointoyou
+- https://www.linkedin.com/company/bitcointoyou
+- https://www.facebook.com/Bitcointoyou
 redirect_from:
 ---
 

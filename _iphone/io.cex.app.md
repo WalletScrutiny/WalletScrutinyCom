@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: cex_io
 social:
-  - https://www.linkedin.com/company/cex-io
-  - https://www.facebook.com/CEX.IO
+- https://www.linkedin.com/company/cex-io
+- https://www.facebook.com/CEX.IO
 ---
 
 The CEX.io mobile app claims on the website to manage bitcoins...

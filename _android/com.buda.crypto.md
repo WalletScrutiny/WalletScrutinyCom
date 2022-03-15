@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BudaPuntoCom
 social:
-  - https://www.linkedin.com/company/budapuntocom
-  - https://www.facebook.com/BudaPuntoCom
+- https://www.linkedin.com/company/budapuntocom
+- https://www.facebook.com/BudaPuntoCom
 redirect_from:
   - /com.buda.crypto/
   - /posts/com.buda.crypto/

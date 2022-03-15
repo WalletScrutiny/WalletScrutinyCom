@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: gemini
 social:
-  - https://www.linkedin.com/company/geminitrust
-  - https://www.facebook.com/GeminiTrust
+- https://www.linkedin.com/company/geminitrust
+- https://www.facebook.com/GeminiTrust
 ---
 
 This provider being an exchange, together with the lack of clear words of who

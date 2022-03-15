@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: stormxio
 social:
-  - https://www.linkedin.com/company/StormX
-  - https://www.facebook.com/stormxio
-  - https://www.reddit.com/r/stormxio
+- https://www.linkedin.com/company/StormX
+- https://www.facebook.com/stormxio
+- https://www.reddit.com/r/stormxio
 redirect_from:
 ---
 

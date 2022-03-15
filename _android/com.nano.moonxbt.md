@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: MoonXBT_Global
 social:
-  - https://www.facebook.com/MoonXBT
-  - https://www.reddit.com/r/MoonXBT
+- https://www.facebook.com/MoonXBT
+- https://www.reddit.com/r/MoonXBT
 redirect_from:
 ---
 

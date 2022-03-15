@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bit_bucks
 social:
-  - https://www.facebook.com/bitbucks.io
+- https://www.facebook.com/bitbucks.io
 redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/

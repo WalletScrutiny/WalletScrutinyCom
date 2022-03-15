@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: DCENTwallets
 social: 
-  - https://www.facebook.com/DcentWalletGlobal
+- https://www.facebook.com/DcentWalletGlobal
 ---
 
 This device does not support Bitcoin.

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: wanchain_org
 social:
-  - https://www.facebook.com/wanchainfoundation
-  - https://www.reddit.com/r/wanchain
+- https://www.facebook.com/wanchainfoundation
+- https://www.reddit.com/r/wanchain
 ---
 
 {% include copyFromAndroid.html %}

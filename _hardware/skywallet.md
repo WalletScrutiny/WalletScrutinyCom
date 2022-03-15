@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: skycoinproject
 social: 
-  - https://www.linkedin.com/company/skycoin
-  - https://www.facebook.com/SkycoinOfficial
+- https://www.linkedin.com/company/skycoin
+- https://www.facebook.com/SkycoinOfficial
 ---
 
 As of November 29, 2021, the Skywallet is [out of stock](https://twitter.com/BitcoinWalletz/status/1465229709285859328). 

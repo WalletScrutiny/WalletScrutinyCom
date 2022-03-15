@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: graysingapore
 social: 
-  - https://www.linkedin.com/company/gray-tech-international-private-limited
-  - https://www.facebook.com/graysingapore
+- https://www.linkedin.com/company/gray-tech-international-private-limited
+- https://www.facebook.com/graysingapore
 ---
 
 ## Updated Review 2021-11-25

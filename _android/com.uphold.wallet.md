@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: UpholdInc
 social:
-  - https://www.linkedin.com/company/upholdinc
-  - https://www.facebook.com/UpholdInc
+- https://www.linkedin.com/company/upholdinc
+- https://www.facebook.com/UpholdInc
 redirect_from:
   - /com.uphold.wallet/
   - /posts/com.uphold.wallet/

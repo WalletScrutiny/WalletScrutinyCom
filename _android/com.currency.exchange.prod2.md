@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: currencycom
 social:
-  - https://www.linkedin.com/company/currencycom/
-  - https://www.facebook.com/currencycom/
+- https://www.linkedin.com/company/currencycom/
+- https://www.facebook.com/currencycom/
 redirect_from:
   - /com.currency.exchange.prod2/
   - /posts/com.currency.exchange.prod2/

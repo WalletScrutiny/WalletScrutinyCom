@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ellipalwallet
 social:
-  - https://www.facebook.com/ellipalclub
-  - https://www.reddit.com/r/ELLIPAL_Official
+- https://www.facebook.com/ellipalclub
+- https://www.reddit.com/r/ELLIPAL_Official
 ---
 
 {% include copyFromAndroid.html %}

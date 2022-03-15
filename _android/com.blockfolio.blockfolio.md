@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nowallet
 twitter: Blockfolio
 social:
-  - https://www.facebook.com/Blockfolio
+- https://www.facebook.com/Blockfolio
 redirect_from:
   - /blockfolio/
   - /com.blockfolio.blockfolio/

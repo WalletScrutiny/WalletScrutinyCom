@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Infinito_Ltd
 social:
-  - https://www.linkedin.com/company/infinitoservices
-  - https://www.facebook.com/InfinitoWallet
+- https://www.linkedin.com/company/infinitoservices
+- https://www.facebook.com/InfinitoWallet
 redirect_from:
   - /io.infinito.wallet/
   - /posts/io.infinito.wallet/

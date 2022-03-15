@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: SIGENpro
 social:
-  - https://www.facebook.com/sigen.pro
+- https://www.facebook.com/sigen.pro
 ---
 
 > SIGEN.pro is not only a multifunctional trading platform, but also your convenient crypto wallet, as well as a service for mining cryptocurrency.

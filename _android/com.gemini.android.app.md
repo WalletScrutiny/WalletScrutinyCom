@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: gemini
 social:
-  - https://www.linkedin.com/company/geminitrust
-  - https://www.facebook.com/GeminiTrust
+- https://www.linkedin.com/company/geminitrust
+- https://www.facebook.com/GeminiTrust
 redirect_from:
   - /com.gemini.android.app/
   - /posts/com.gemini.android.app/

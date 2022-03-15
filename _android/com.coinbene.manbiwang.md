@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: coinbene
 social:
-  - https://www.linkedin.com/company/coinbene-official
-  - https://www.facebook.com/CoinBeneOfficial
+- https://www.linkedin.com/company/coinbene-official
+- https://www.facebook.com/CoinBeneOfficial
 redirect_from:
 ---
 

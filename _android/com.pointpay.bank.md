@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: PointPay1
 social:
-  - https://www.linkedin.com/company/pointpay
-  - https://www.facebook.com/PointPayLtd
-  - https://www.reddit.com/r/PointPay
+- https://www.linkedin.com/company/pointpay
+- https://www.facebook.com/PointPayLtd
+- https://www.reddit.com/r/PointPay
 redirect_from:
 ---
 

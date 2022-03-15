@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: cryptopay
 social:
-  - https://www.linkedin.com/company/cryptopay
-  - https://www.facebook.com/cryptopayme
+- https://www.linkedin.com/company/cryptopay
+- https://www.facebook.com/cryptopayme
 ---
 
 In the description the only sentence hinting at custodianship is:

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BiKiEnglish
 social:
-  - https://www.facebook.com/bikiexchange
-  - https://www.reddit.com/r/BiKi
+- https://www.facebook.com/bikiexchange
+- https://www.reddit.com/r/BiKi
 redirect_from:
 ---
 

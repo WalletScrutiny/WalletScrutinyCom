@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: digiexchange3
 social:
-  - https://www.facebook.com/digiexchangenews
+- https://www.facebook.com/digiexchangenews
 redirect_from:
 ---
 

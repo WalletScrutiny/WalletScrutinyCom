@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitcoin_ira
 social:
-  - https://www.linkedin.com/company/bitcoinira
-  - https://www.facebook.com/BitcoinIRA
+- https://www.linkedin.com/company/bitcoinira
+- https://www.facebook.com/BitcoinIRA
 ---
 
 {% include copyFromAndroid.html %}

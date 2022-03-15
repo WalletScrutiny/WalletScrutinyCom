@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: latokens
 social:
-  - https://www.linkedin.com/company/latoken
-  - https://www.facebook.com/LiquidAssetToken
+- https://www.linkedin.com/company/latoken
+- https://www.facebook.com/LiquidAssetToken
 redirect_from:
 ---
 

@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: OneKeyHQ
 social: 
-  - https://www.reddit.com/r/OneKeyHQ
+- https://www.reddit.com/r/OneKeyHQ
 ---
 
 OneKey is an open source hardware wallet by Bixin. The primary language for the website is Chinese. OneKey, the company claims to be based in Singapore

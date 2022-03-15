@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: mercurycash
 social:
-  - https://www.facebook.com/mercurycash
+- https://www.facebook.com/mercurycash
 ---
 
 This app makes no claims about self-custody so we have to assume it is a

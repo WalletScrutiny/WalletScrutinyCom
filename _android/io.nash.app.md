@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: nashsocial
 social:
-  - https://www.linkedin.com/company/nashsocial
+- https://www.linkedin.com/company/nashsocial
 redirect_from:
 ---
 

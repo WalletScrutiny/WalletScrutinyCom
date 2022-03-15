@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: financefreedomsuccess
 social:
-  - https://www.linkedin.com/company/FBS Inc.
-  - https://www.facebook.com/financefreedomsuccess
+- https://www.linkedin.com/company/FBS Inc.
+- https://www.facebook.com/financefreedomsuccess
 redirect_from:
 ---
 

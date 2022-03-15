@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitoctoexchange
 social:
-  - https://www.linkedin.com/company/bitocto
-  - https://www.facebook.com/Bitocto
+- https://www.linkedin.com/company/bitocto
+- https://www.facebook.com/Bitocto
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: pintuid
 social:
-  - https://www.facebook.com/pintucrypto
+- https://www.facebook.com/pintucrypto
 redirect_from:
 ---
 

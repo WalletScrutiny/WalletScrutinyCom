@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: AirGap_it
 social:
-  - https://www.reddit.com/r/AirGap
+- https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/

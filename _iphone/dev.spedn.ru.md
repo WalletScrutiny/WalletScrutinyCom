@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: koshelek_ru
 social:
-  - https://www.facebook.com/koshelekru
+- https://www.facebook.com/koshelekru
 ---
 
 {% include copyFromAndroid.html %}

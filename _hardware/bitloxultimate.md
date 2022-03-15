@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: bitlox
 social: 
-  - https://www.facebook.com/BitLoxWallet
+- https://www.facebook.com/BitLoxWallet
 ---
 
 ## Private keys can be created offline - ✔️

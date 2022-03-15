@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: KuCoinCom
 social:
-  - https://www.linkedin.com/company/kucoin
-  - https://www.facebook.com/KuCoinOfficial
-  - https://www.reddit.com/r/kucoin
+- https://www.linkedin.com/company/kucoin
+- https://www.facebook.com/KuCoinOfficial
+- https://www.reddit.com/r/kucoin
 redirect_from:
 ---
 

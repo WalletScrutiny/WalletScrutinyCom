@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BankWithLVL
 social:
-  - https://www.linkedin.com/company/bankwithlvl
-  - https://www.facebook.com/BankWithLVL
+- https://www.linkedin.com/company/bankwithlvl
+- https://www.facebook.com/BankWithLVL
 redirect_from:
 ---
 

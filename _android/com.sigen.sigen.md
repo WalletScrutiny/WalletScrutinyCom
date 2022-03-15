@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: SIGENpro
 social:
-  - https://www.facebook.com/sigen.pro
+- https://www.facebook.com/sigen.pro
 redirect_from:
 ---
 

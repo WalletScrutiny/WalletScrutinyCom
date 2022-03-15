@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: excoino
 social:
-  - https://www.linkedin.com/company/excoino-com
+- https://www.linkedin.com/company/excoino-com
 redirect_from:
 ---
 

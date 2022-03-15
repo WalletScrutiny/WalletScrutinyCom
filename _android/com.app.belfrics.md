@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Belfrics
 social:
-  - https://www.facebook.com/Belfrics
+- https://www.facebook.com/Belfrics
 redirect_from:
 ---
 

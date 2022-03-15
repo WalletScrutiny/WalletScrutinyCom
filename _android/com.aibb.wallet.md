@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BLOCKBANKapp
 social:
-  - https://www.facebook.com/blockbank
+- https://www.facebook.com/blockbank
 redirect_from:
 ---
 

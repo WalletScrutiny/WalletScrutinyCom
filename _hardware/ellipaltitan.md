@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: ellipalwallet
 social: 
-  - https://www.facebook.com/ellipalclub
+- https://www.facebook.com/ellipalclub
 ---
 
 Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly features. The makers claim that the "chip will delete every data when it detects a breach". 

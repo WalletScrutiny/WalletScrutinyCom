@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: PayPlux
 social:
-  - https://www.facebook.com/PayPlux
+- https://www.facebook.com/PayPlux
 redirect_from:
 ---
 

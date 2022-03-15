@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: foxbit
 social:
-  - https://www.linkedin.com/company/foxbit
-  - https://www.facebook.com/foxbitcoin
+- https://www.linkedin.com/company/foxbit
+- https://www.facebook.com/foxbitcoin
 redirect_from:
 ---
 

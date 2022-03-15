@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: gate_io
 social:
-  - https://www.facebook.com/gateioglobal
-  - https://www.reddit.com/r/GateioExchange
+- https://www.facebook.com/gateioglobal
+- https://www.reddit.com/r/GateioExchange
 redirect_from:
 ---
 

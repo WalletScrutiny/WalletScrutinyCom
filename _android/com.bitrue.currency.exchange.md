@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BitrueOfficial
 social:
-  - https://www.facebook.com/BitrueOfficial
+- https://www.facebook.com/BitrueOfficial
 redirect_from:
   - /com.bitrue.currency.exchange/
 ---

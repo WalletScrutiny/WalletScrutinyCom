@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitPreco
 social:
-  - https://www.linkedin.com/company/bitpreco
-  - https://www.facebook.com/BitPreco
+- https://www.linkedin.com/company/bitpreco
+- https://www.facebook.com/BitPreco
 ---
 
 {% include copyFromAndroid.html %}

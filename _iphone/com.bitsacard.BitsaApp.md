@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitsa_oficial
 social:
-  - https://www.linkedin.com/company/bitsacard
-  - https://www.facebook.com/BitsaCard
+- https://www.linkedin.com/company/bitsacard
+- https://www.facebook.com/BitsaCard
 ---
 
 {% include copyFromAndroid.html %}

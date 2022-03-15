@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: HyperPay_tech
 social: 
-  - https://www.facebook.com/hyperpayofficial
+- https://www.facebook.com/hyperpayofficial
 ---
 
 This hardware wallet is paired with {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %}

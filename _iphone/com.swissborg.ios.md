@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: swissborg
 social:
-  - https://www.linkedin.com/company/swissborg
-  - https://www.facebook.com/swissborg
+- https://www.linkedin.com/company/swissborg
+- https://www.facebook.com/swissborg
 ---
 
  {% include copyFromAndroid.html %}

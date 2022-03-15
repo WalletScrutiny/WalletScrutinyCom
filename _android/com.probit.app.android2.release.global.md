@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ProBit_Exchange
 social:
-  - https://www.linkedin.com/company/probit-exchange
-  - https://www.facebook.com/probitexchange
+- https://www.linkedin.com/company/probit-exchange
+- https://www.facebook.com/probitexchange
 redirect_from:
   - /com.probit.app.android2.release.global/
 ---

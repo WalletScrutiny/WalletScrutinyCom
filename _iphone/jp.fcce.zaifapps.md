@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: zaifdotjp
 social:
-  - https://www.facebook.com/zaifdotjp
+- https://www.facebook.com/zaifdotjp
 ---
 
 {% include copyFromAndroid.html %}

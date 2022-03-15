@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: Blockstream
 social: 
-  - https://www.linkedin.com/company/blockstream
-  - https://www.facebook.com/Blockstream
+- https://www.linkedin.com/company/blockstream
+- https://www.facebook.com/Blockstream
 ---
 
 **Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are

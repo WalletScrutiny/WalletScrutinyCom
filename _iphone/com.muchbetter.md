@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: paymuchbetter
 social:
-  - https://www.linkedin.com/company/mir-muchbetter
-  - https://www.facebook.com/paymuchbetter
+- https://www.linkedin.com/company/mir-muchbetter
+- https://www.facebook.com/paymuchbetter
 ---
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 

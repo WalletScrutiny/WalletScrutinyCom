@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.linkedin.com/company/ellipticsecure
+- https://www.linkedin.com/company/ellipticsecure
 ---
 
 > The MIRkey is a [FIDO2 Security Key](https://ellipticsecure.com/mirkey/faq/2019/05/28/what-is-a-hardware-security-key.html), multi-purpose [HSM](https://ellipticsecure.com/ehsm/faq/2019/02/09/what-is-a-hardware-security-module.html) and hardware Bitcoin wallet.

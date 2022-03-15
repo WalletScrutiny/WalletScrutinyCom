@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitmama
 social:
-  - https://www.facebook.com/bitmama
+- https://www.facebook.com/bitmama
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: chivowallet
 social:
-  - https://www.facebook.com/ChivoWalletSLV
+- https://www.facebook.com/ChivoWalletSLV
 ---
 
 {% include copyFromAndroid.html %}

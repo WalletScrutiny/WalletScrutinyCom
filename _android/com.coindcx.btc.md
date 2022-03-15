@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coindcx
 social:
-  - https://www.linkedin.com/company/coindcx
-  - https://www.facebook.com/CoinDCX
+- https://www.linkedin.com/company/coindcx
+- https://www.facebook.com/CoinDCX
 redirect_from:
 ---
 

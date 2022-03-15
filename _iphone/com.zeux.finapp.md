@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ZeuxApp
 social:
-  - https://www.linkedin.com/company/zeux
-  - https://www.facebook.com/Zeuxglobal
+- https://www.linkedin.com/company/zeux
+- https://www.facebook.com/Zeuxglobal
 ---
 
 {% include copyFromAndroid.html %}

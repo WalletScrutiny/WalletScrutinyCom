@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Max_exch
 social:
-  - https://www.facebook.com/MaiCoinAssetExchange
+- https://www.facebook.com/MaiCoinAssetExchange
 redirect_from:
 ---
 

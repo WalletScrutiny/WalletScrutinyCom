@@ -27,9 +27,9 @@ signer:
 reviewArchive: 
 twitter: Ledger
 social: 
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
-  - https://www.reddit.com/r/ledgerwallet
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
+- https://www.reddit.com/r/ledgerwallet
 ---
 
 Ledger has this to say about their technology:

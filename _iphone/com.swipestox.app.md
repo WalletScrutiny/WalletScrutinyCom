@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: nagainvesting
 social:
-  - https://www.linkedin.com/company/nagainvesting
-  - https://www.facebook.com/nagainvesting
+- https://www.linkedin.com/company/nagainvesting
+- https://www.facebook.com/nagainvesting
 ---
 
 {% include copyFromAndroid.html %}

@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: blockchain
 social: 
-  - https://www.linkedin.com/company/blockchain
-  - https://www.facebook.com/blockchain
+- https://www.linkedin.com/company/blockchain
+- https://www.facebook.com/blockchain
 ---
 
 This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.

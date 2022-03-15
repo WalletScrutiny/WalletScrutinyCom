@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: EDCBlockchain
 social:
-  - https://www.linkedin.com/company/edcblockchain
-  - https://www.facebook.com/EDCBlockchain
+- https://www.linkedin.com/company/edcblockchain
+- https://www.facebook.com/EDCBlockchain
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: MetrixCoin
 social:
-  - https://www.reddit.com/r/Linda_Project_Inc
+- https://www.reddit.com/r/Linda_Project_Inc
 redirect_from:
 ---
 

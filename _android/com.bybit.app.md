@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: Bybit_Official
 social:
-  - https://www.linkedin.com/company/bybitexchange
-  - https://www.facebook.com/Bybit
-  - https://www.reddit.com/r/Bybit
+- https://www.linkedin.com/company/bybitexchange
+- https://www.facebook.com/Bybit
+- https://www.reddit.com/r/Bybit
 redirect_from:
 ---
 

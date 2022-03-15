@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BigONEexchange
 social:
-  - https://www.facebook.com/exBigONE
-  - https://www.reddit.com/r/BigONEExchange
+- https://www.facebook.com/exBigONE
+- https://www.reddit.com/r/BigONEExchange
 ---
 
  {% include copyFromAndroid.html %}

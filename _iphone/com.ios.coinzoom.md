@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: GetCoinZoom
 social:
-  - https://www.linkedin.com/company/coinzoomhq
-  - https://www.facebook.com/CoinZoom
+- https://www.linkedin.com/company/coinzoomhq
+- https://www.facebook.com/CoinZoom
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet

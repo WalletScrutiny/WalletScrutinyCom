@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: TokenizeXchange
 social:
-  - https://www.facebook.com/tokenize.exchange
+- https://www.facebook.com/tokenize.exchange
 ---
 
 {% include copyFromAndroid.html %}

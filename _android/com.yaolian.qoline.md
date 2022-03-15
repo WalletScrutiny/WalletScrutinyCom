@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: salletone
 social:
-  - https://www.facebook.com/salletone
+- https://www.facebook.com/salletone
 redirect_from:
 ---
 

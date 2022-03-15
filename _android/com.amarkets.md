@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/amarkets
-  - https://www.facebook.com/AMarketsFirm
+- https://www.linkedin.com/company/amarkets
+- https://www.facebook.com/AMarketsFirm
 redirect_from:
 ---
 

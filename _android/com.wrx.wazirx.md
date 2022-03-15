@@ -32,8 +32,8 @@ reviewArchive:
   verdict: nowallet
 twitter: WazirxIndia
 social:
-  - https://www.linkedin.com/company/wazirx
-  - https://www.facebook.com/wazirx
+- https://www.linkedin.com/company/wazirx
+- https://www.facebook.com/wazirx
 redirect_from:
 ---
 

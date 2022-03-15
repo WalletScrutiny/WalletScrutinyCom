@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: exodus_io
 social:
-  - https://www.facebook.com/exodus.io
+- https://www.facebook.com/exodus.io
 ---
 
 Just like {% include walletLink.html wallet='android/exodusmovement.exodus' %} on Android, this app is

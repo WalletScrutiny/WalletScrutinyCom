@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: mydopamineapp
 social:
-  - https://www.facebook.com/myDopamineApp
+- https://www.facebook.com/myDopamineApp
 redirect_from:
 ---
 

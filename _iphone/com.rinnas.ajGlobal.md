@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ajglobalv
 social:
-  - https://www.facebook.com/AJGLOBALVENTURES
+- https://www.facebook.com/AJGLOBALVENTURES
 ---
 
 {% include copyFromAndroid.html %}

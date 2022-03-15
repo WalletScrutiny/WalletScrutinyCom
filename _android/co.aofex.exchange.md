@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Aofex2
 social:
-  - https://www.facebook.com/AofexDigitalCurrencyExchange
+- https://www.facebook.com/AofexDigitalCurrencyExchange
 redirect_from:
 ---
 

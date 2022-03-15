@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitfortip
 social:
-  - https://www.linkedin.com/company/bitfortip
-  - https://www.facebook.com/bitfortip
+- https://www.linkedin.com/company/bitfortip
+- https://www.facebook.com/bitfortip
 redirect_from:
 ---
 

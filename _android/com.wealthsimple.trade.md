@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Wealthsimple
 social:
-  - https://www.facebook.com/wealthsimple
+- https://www.facebook.com/wealthsimple
 redirect_from:
 ---
 

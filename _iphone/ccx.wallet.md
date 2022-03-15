@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: CoinCasso
 social:
-  - https://www.linkedin.com/company/coincasso
-  - https://www.facebook.com/ccwallet.mobileapp
+- https://www.linkedin.com/company/coincasso
+- https://www.facebook.com/ccwallet.mobileapp
 ---
 
 **Update 2021-09-11**: This app is not on the App Store anymore.

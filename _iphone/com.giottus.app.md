@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: giottus
 social:
-  - https://www.linkedin.com/company/giottus
-  - https://www.facebook.com/Giottus
+- https://www.linkedin.com/company/giottus
+- https://www.facebook.com/Giottus
 ---
 
 Description from Home Page: 

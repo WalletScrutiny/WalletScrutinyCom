@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: flarewallet
 social:
-  - https://www.facebook.com/FlareWallet
+- https://www.facebook.com/FlareWallet
 redirect_from:
   - /com.flare/
   - /posts/com.flare/

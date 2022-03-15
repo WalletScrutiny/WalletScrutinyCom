@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: coinlist
 social:
-  - https://www.facebook.com/CoinListOfficial
+- https://www.facebook.com/CoinListOfficial
 ---
 
 {% include copyFromAndroid.html %}

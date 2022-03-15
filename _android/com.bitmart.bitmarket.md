@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BitMartExchange
 social:
-  - https://www.linkedin.com/company/bitmart
-  - https://www.facebook.com/bitmartexchange
-  - https://www.reddit.com/r/BitMartExchange
+- https://www.linkedin.com/company/bitmart
+- https://www.facebook.com/bitmartexchange
+- https://www.reddit.com/r/BitMartExchange
 redirect_from:
   - /com.bitmart.bitmarket/
   - /posts/com.bitmart.bitmarket/

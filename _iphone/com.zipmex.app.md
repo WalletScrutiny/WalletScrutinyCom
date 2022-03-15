@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ZipmexTH
 social:
-  - https://www.facebook.com/ZipmexThailand
+- https://www.facebook.com/ZipmexThailand
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coindirectcom
 social:
-  - https://www.linkedin.com/company/coindirect
-  - https://www.facebook.com/coindirectcom
+- https://www.linkedin.com/company/coindirect
+- https://www.facebook.com/coindirectcom
 redirect_from:
 ---
 

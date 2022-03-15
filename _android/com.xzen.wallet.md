@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: XZENwallet
 social:
-  - https://www.facebook.com/xzenwallet
+- https://www.facebook.com/xzenwallet
 redirect_from:
   - /com.xzen.wallet/
   - /posts/com.xzen.wallet/

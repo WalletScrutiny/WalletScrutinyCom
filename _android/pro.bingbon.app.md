@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BingbonOfficial
 social:
-  - https://www.linkedin.com/company/bingbon
-  - https://www.facebook.com/BingbonOfficial
-  - https://www.reddit.com/r/Bingbon
+- https://www.linkedin.com/company/bingbon
+- https://www.facebook.com/BingbonOfficial
+- https://www.reddit.com/r/Bingbon
 redirect_from:
 ---
 

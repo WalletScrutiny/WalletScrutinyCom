@@ -36,9 +36,9 @@ reviewArchive:
   verdict: nonverifiable
 twitter: BRDHQ
 social:
-  - https://www.linkedin.com/company/brdhq
-  - https://www.facebook.com/brdhq
-  - https://www.reddit.com/r/brdapp
+- https://www.linkedin.com/company/brdhq
+- https://www.facebook.com/brdhq
+- https://www.reddit.com/r/brdapp
 redirect_from:
 ---
 

@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: MixinMessenger
 social:
-  - https://www.facebook.com/MixinNetwork
-  - https://www.reddit.com/r/mixin
+- https://www.facebook.com/MixinNetwork
+- https://www.reddit.com/r/mixin
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinFieldEx
 social:
-  - https://www.linkedin.com/company/coinfield
-  - https://www.facebook.com/coinfieldexchange
+- https://www.linkedin.com/company/coinfield
+- https://www.facebook.com/coinfieldexchange
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinCloudATM
 social:
-  - https://www.facebook.com/coincloudATM
+- https://www.facebook.com/coincloudATM
 ---
 
 **Update 2022-02-27**: This app is not available anymore.

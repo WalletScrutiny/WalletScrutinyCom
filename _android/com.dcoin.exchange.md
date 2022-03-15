@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: dcoinexchange
 social:
-  - https://www.linkedin.com/company/dcoin-exchange
+- https://www.linkedin.com/company/dcoin-exchange
 redirect_from:
 ---
 

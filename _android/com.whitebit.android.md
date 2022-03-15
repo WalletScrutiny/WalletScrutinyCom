@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: whitebit
 social:
-  - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
-  - https://www.facebook.com/whitebit
-  - https://www.reddit.com/r/WhiteBitExchange
+- https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
+- https://www.facebook.com/whitebit
+- https://www.reddit.com/r/WhiteBitExchange
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: DexNodaWallett
 social:
-  - https://www.linkedin.com/company/noda-project-8b4a251b3
-  - https://www.reddit.com/r/NodaWallet
+- https://www.linkedin.com/company/noda-project-8b4a251b3
+- https://www.reddit.com/r/NodaWallet
 redirect_from:
 ---
 

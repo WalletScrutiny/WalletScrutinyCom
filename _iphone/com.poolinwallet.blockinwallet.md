@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: PoolinWallet
 social:
-  - https://www.linkedin.com/company/poolinwallet
+- https://www.linkedin.com/company/poolinwallet
 ---
 
 {% include copyFromAndroid.html %}

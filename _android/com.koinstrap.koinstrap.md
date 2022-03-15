@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: koinstrap
 social:
-  - https://www.facebook.com/koinstrap
+- https://www.facebook.com/koinstrap
 redirect_from:
 ---
 

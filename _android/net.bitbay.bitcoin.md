@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BitBay
 social:
-  - https://www.linkedin.com/company/bitbay
-  - https://www.facebook.com/BitBay
-  - https://www.reddit.com/r/BitBayExchange
+- https://www.linkedin.com/company/bitbay
+- https://www.facebook.com/BitBay
+- https://www.reddit.com/r/BitBayExchange
 redirect_from:
 ---
 

@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nosource
 twitter: HavenPrivacy
 social:
-  - https://www.reddit.com/r/havenapp
+- https://www.reddit.com/r/havenapp
 redirect_from:
   - /io.ob1.nativeandroid/
 ---

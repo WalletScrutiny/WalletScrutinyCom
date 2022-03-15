@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Delta_Exchange
 social:
-  - https://www.facebook.com/deltaexchg
-  - https://www.reddit.com/r/Delta_Exchange
+- https://www.facebook.com/deltaexchg
+- https://www.reddit.com/r/Delta_Exchange
 redirect_from:
 ---
 

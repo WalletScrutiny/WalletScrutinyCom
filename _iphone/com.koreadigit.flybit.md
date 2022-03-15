@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/flybit.exchange
+- https://www.facebook.com/flybit.exchange
 ---
 
 {% include copyFromAndroid.html %}

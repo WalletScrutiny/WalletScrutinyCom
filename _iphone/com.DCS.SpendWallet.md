@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Spendcom
 social:
-  - https://www.facebook.com/spend
-  - https://www.reddit.com/r/Spend
+- https://www.facebook.com/spend
+- https://www.reddit.com/r/Spend
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).

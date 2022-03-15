@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HuobiGlobal
 social:
-  - https://www.facebook.com/huobiglobalofficial
+- https://www.facebook.com/huobiglobalofficial
 redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/

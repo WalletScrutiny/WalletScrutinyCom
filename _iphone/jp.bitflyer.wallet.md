@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitFlyer
 social:
-  - https://www.facebook.com/bitflyer
+- https://www.facebook.com/bitflyer
 ---
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.

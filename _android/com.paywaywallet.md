@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: pay_way
 social:
-  - https://www.facebook.com/paywayuganda
+- https://www.facebook.com/paywayuganda
 redirect_from:
   - /com.paywaywallet/
   - /payway/

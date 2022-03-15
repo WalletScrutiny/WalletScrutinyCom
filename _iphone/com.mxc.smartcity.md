@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: mxcfoundation
 social:
-  - https://www.facebook.com/MXCfoundation
-  - https://www.reddit.com/r/MXC_Foundation
+- https://www.facebook.com/MXCfoundation
+- https://www.reddit.com/r/MXC_Foundation
 ---
 
 {% include copyFromAndroid.html %}

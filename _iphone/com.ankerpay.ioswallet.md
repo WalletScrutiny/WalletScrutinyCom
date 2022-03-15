@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: AnkerPay
 social:
-  - https://www.facebook.com/AnkerPlatform
+- https://www.facebook.com/AnkerPlatform
 ---
 
 {% include copyFromAndroid.html %}

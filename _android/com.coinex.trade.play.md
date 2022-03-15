@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coinexcom
 social:
-  - https://www.facebook.com/TheCoinEx
-  - https://www.reddit.com/r/Coinex
+- https://www.facebook.com/TheCoinEx
+- https://www.reddit.com/r/Coinex
 redirect_from:
   - /com.coinex.trade.play/
   - /posts/com.coinex.trade.play/

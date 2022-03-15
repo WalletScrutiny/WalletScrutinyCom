@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Monarchtoken
 social:
-  - https://www.linkedin.com/company/monarchtoken
-  - https://www.facebook.com/MonarchWallet
-  - https://www.reddit.com/r/MonarchToken
+- https://www.linkedin.com/company/monarchtoken
+- https://www.facebook.com/MonarchWallet
+- https://www.reddit.com/r/MonarchToken
 ---
 
 This app appears to have been created for Monarch Tokens but it also features a

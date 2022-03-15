@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: buyucoin
 social:
-  - https://www.linkedin.com/company/buyucoin
-  - https://www.facebook.com/BuyUcoin
-  - https://www.reddit.com/r/BuyUcoin
+- https://www.linkedin.com/company/buyucoin
+- https://www.facebook.com/BuyUcoin
+- https://www.reddit.com/r/BuyUcoin
 ---
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average

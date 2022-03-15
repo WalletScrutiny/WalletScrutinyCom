@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: FIRSTBiometrics
 social: 
-  - https://www.linkedin.com/company/firstbiometrics.com/
-  - https://www.facebook.com/FirstBiometric/
+- https://www.linkedin.com/company/firstbiometrics.com/
+- https://www.facebook.com/FirstBiometric/
 ---
 
 ## Product Description 

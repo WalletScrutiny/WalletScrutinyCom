@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: zixipay
 social:
-  - https://www.facebook.com/ZixiPay
+- https://www.facebook.com/ZixiPay
 redirect_from:
 ---
 

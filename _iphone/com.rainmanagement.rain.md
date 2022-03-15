@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: rainfinancial
 social:
-  - https://www.linkedin.com/company/rainfinancial
-  - https://www.facebook.com/rainfinancial
+- https://www.linkedin.com/company/rainfinancial
+- https://www.facebook.com/rainfinancial
 ---
 
  {% include copyFromAndroid.html %}

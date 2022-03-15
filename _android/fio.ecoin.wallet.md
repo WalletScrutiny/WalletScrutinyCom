@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nowallet
 twitter: ecoinofficial
 social:
-  - https://www.facebook.com/ecoinofficial
+- https://www.facebook.com/ecoinofficial
 redirect_from:
 ---
 

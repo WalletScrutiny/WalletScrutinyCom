@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinMetro
 social:
-  - https://www.linkedin.com/company/coinmetro
-  - https://www.facebook.com/CoinMetro
+- https://www.linkedin.com/company/coinmetro
+- https://www.facebook.com/CoinMetro
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ftx_us
 social:
-  - https://www.facebook.com/FTXUS
+- https://www.facebook.com/FTXUS
 ---
 
 There are a total of 6 related apps that all appear to belong to the same "FTX":

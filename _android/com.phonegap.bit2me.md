@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bit2me
 social:
-  - https://www.linkedin.com/company/bit2me
-  - https://www.facebook.com/bit2me
+- https://www.linkedin.com/company/bit2me
+- https://www.facebook.com/bit2me
 redirect_from:
   - /com.phonegap.bit2me/
   - /posts/com.phonegap.bit2me/

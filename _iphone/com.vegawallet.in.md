@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: vegawallet
 social:
-  - https://www.facebook.com/VegaWallet
+- https://www.facebook.com/VegaWallet
 ---
 
 {% include copyFromAndroid.html %}

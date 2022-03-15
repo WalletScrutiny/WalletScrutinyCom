@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitPay
 social:
-  - https://www.linkedin.com/company/bitpay-inc-
-  - https://www.facebook.com/BitPayOfficial
+- https://www.linkedin.com/company/bitpay-inc-
+- https://www.facebook.com/BitPayOfficial
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: hodlwallet
 social:
-  - https://www.facebook.com/hodlwallet
+- https://www.facebook.com/hodlwallet
 ---
 
 On the App Store the provider claims:

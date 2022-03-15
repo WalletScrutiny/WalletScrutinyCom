@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: RobinhoodApp
 social:
-  - https://www.linkedin.com/company/robinhood
-  - https://www.facebook.com/robinhoodapp
+- https://www.linkedin.com/company/robinhood
+- https://www.facebook.com/robinhoodapp
 redirect_from:
 ---
 

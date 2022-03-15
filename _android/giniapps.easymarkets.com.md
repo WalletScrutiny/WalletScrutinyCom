@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: easymarkets
 social:
-  - https://www.linkedin.com/company/easymarkets
-  - https://www.facebook.com/easyMarkets
+- https://www.linkedin.com/company/easymarkets
+- https://www.facebook.com/easyMarkets
 redirect_from:
 ---
 

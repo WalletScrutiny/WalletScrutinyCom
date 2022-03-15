@@ -29,10 +29,10 @@ signer:
 reviewArchive: 
 twitter: tryProkey
 social: 
-  - https://www.linkedin.com/company/prokey-technologies
-  - https://www.facebook.com/prokey.io
-  - https://www.instagram.com/prokey.io
-  - https://www.youtube.com/channel/UCz24yLqt0DCXYYD2qLmTEkQ
+- https://www.linkedin.com/company/prokey-technologies
+- https://www.facebook.com/prokey.io
+- https://www.instagram.com/prokey.io
+- https://www.youtube.com/channel/UCz24yLqt0DCXYYD2qLmTEkQ
 ---
 
 The product page's description reads as below:

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: KardiaChain
 social:
-  - https://www.facebook.com/KardiaChainFoundation
+- https://www.facebook.com/KardiaChainFoundation
 redirect_from:
 ---
 

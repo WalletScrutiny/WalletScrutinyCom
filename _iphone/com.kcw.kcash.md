@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: kcashofficial
 social:
-  - https://www.facebook.com/KcashOfficial
+- https://www.facebook.com/KcashOfficial
 ---
 
 **Note:** The Android version can only be downloaded via an apk file hosted on the homepage itself. It was not available in Google Play.

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: PatriciaSwitch
 social:
-  - https://www.facebook.com/patricia.com.ng
+- https://www.facebook.com/patricia.com.ng
 redirect_from:
 ---
 

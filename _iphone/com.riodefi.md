@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: riodefiofficial
 social:
-  - https://www.linkedin.com/company/riodefiofficial
-  - https://www.facebook.com/riodefiofficial
+- https://www.linkedin.com/company/riodefiofficial
+- https://www.facebook.com/riodefiofficial
 ---
 
 {% include copyFromAndroid.html %}

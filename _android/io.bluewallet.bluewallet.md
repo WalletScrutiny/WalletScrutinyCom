@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: bluewalletio
 social:
-  - https://www.reddit.com/r/bluewallet
+- https://www.reddit.com/r/bluewallet
 redirect_from:
   - /bluewallet/
   - /io.bluewallet.bluewallet/

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Barchart
 social:
-  - https://www.linkedin.com/company/barchart.com-inc.
-  - https://www.facebook.com/Barchart
+- https://www.linkedin.com/company/barchart.com-inc.
+- https://www.facebook.com/Barchart
 redirect_from:
 ---
 

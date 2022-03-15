@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinbasePro
 social:
-  - https://www.facebook.com/coinbase
+- https://www.facebook.com/coinbase
 ---
 
 On the website we read:

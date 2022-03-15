@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: TrustSwap
 social:
-  - https://www.linkedin.com/company/TrustSwap
-  - https://www.facebook.com/TrustSwap
+- https://www.linkedin.com/company/TrustSwap
+- https://www.facebook.com/TrustSwap
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: TradeMnOfficial
 social:
-  - https://www.facebook.com/digitalexchangemongolia
+- https://www.facebook.com/digitalexchangemongolia
 ---
 
 {% include copyFromAndroid.html %}

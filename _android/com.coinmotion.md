@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Coinmotion
 social:
-  - https://www.linkedin.com/company/coinmotion
-  - https://www.facebook.com/coinmotion
+- https://www.linkedin.com/company/coinmotion
+- https://www.facebook.com/coinmotion
 redirect_from:
 ---
 

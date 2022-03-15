@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: BitrueOfficial
 social:
-  - https://www.facebook.com/BitrueOfficial
+- https://www.facebook.com/BitrueOfficial
 ---
 
 This app is heavily focused on the "exchange" part which is also in its name.

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: koinbazar
 social:
-  - https://www.linkedin.com/company/koinbazar
-  - https://www.facebook.com/koinbazar
+- https://www.linkedin.com/company/koinbazar
+- https://www.facebook.com/koinbazar
 ---
 
 {% include copyFromAndroid.html %}

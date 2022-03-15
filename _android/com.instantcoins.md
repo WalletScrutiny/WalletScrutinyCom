@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: instantcoins_ng
 social:
-  - https://www.facebook.com/instantcoins
+- https://www.facebook.com/instantcoins
 redirect_from:
 ---
 

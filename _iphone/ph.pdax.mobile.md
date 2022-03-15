@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: pdaxph
 social:
-  - https://www.linkedin.com/company/pdaxph
-  - https://www.facebook.com/pdaxph
+- https://www.linkedin.com/company/pdaxph
+- https://www.facebook.com/pdaxph
 ---
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.

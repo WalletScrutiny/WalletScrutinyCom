@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: etoro
 social:
-  - https://www.linkedin.com/company/etoro
-  - https://www.facebook.com/eToro
+- https://www.linkedin.com/company/etoro
+- https://www.facebook.com/eToro
 ---
 
 Etoro is used to speculate on assets more than to actually transfer them but in

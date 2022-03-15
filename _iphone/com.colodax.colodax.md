@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: colodax
 social:
-  - https://www.linkedin.com/company/colodax
-  - https://www.facebook.com/colodax
+- https://www.linkedin.com/company/colodax
+- https://www.facebook.com/colodax
 ---
 
 {% include copyFromAndroid.html %}

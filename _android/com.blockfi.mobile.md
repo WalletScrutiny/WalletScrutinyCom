@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BlockFi
 social:
-  - https://www.linkedin.com/company/blockfi
-  - https://www.facebook.com/BlockFi
-  - https://www.reddit.com/r/blockfi
+- https://www.linkedin.com/company/blockfi
+- https://www.facebook.com/BlockFi
+- https://www.reddit.com/r/blockfi
 redirect_from:
 ---
 

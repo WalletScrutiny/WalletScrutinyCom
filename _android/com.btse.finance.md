@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: btsecom
 social:
-  - https://www.linkedin.com/company/btsecom
-  - https://www.facebook.com/btsecom
-  - https://www.reddit.com/r/btsecom
+- https://www.linkedin.com/company/btsecom
+- https://www.facebook.com/btsecom
+- https://www.reddit.com/r/btsecom
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: T1_Markets
 social:
-  - https://www.facebook.com/t1markets
+- https://www.facebook.com/t1markets
 ---
 
 **Update 2021-12-06**: This app is gone from the Store.

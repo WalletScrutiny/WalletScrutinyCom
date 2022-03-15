@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: binance
 social:
-  - https://www.facebook.com/binance
-  - https://www.reddit.com/r/binance
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
 redirect_from:
   - /binance/
   - /com.binance.dev/

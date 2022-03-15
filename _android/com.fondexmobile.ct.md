@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/fondex-trading
-  - https://www.facebook.com/fondexglobal
+- https://www.linkedin.com/company/fondex-trading
+- https://www.facebook.com/fondexglobal
 redirect_from:
 ---
 

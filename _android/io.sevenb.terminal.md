@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: sevenb_roker
 social:
-  - https://www.facebook.com/SevenBbroker
-  - https://www.reddit.com/r/SevenB_roker
+- https://www.facebook.com/SevenBbroker
+- https://www.reddit.com/r/SevenB_roker
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Lumi_wallet
 social:
-  - https://www.facebook.com/lumiwallet
+- https://www.facebook.com/lumiwallet
 ---
 
 **Update 2021-06-16**: It's been a few days this app is not on the App store

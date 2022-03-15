@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ex_scudo
 social:
-  - https://www.facebook.com/exscudo
-  - https://www.reddit.com/r/EXSCUDO
+- https://www.facebook.com/exscudo
+- https://www.reddit.com/r/EXSCUDO
 ---
 
 The App Store description states...

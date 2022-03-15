@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: eversendapp
 social:
-  - https://www.linkedin.com/company/eversend
-  - https://www.facebook.com/eversendapp
+- https://www.linkedin.com/company/eversend
+- https://www.facebook.com/eversendapp
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: chainzillaio
 social:
-  - https://www.reddit.com/r/ChainZilla
+- https://www.reddit.com/r/ChainZilla
 redirect_from:
   - /com.chameleon.wallet/
   - /posts/com.chameleon.wallet/

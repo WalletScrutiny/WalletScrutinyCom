@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Trustee_Wallet
 social:
-  - https://www.facebook.com/Trustee.Wallet
+- https://www.facebook.com/Trustee.Wallet
 ---
 
 **Update 2021-02-07**: This wallet

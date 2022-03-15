@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Blocktradecom
 social:
-  - https://www.linkedin.com/company/blocktradecom
-  - https://www.facebook.com/Blocktradecom
+- https://www.linkedin.com/company/blocktradecom
+- https://www.facebook.com/Blocktradecom
 redirect_from:
 ---
 

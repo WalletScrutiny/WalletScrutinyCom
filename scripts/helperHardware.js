@@ -122,7 +122,7 @@ reviewArchive: ${(header.reviewArchive || []).length > 0
     : "" }
 twitter: ${header.twitter || ""}
 social: ${(header.social || []).length > 0
-  ? "\n" + header.social.map((item) => "  - " + item).join("\n")
+  ? "\n" + header.social.map((item) => "- " + item).join("\n")
   : ""}
 ---
 

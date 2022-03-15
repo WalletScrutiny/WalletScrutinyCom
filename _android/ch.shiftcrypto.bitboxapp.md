@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ShiftCryptoHQ
 social:
-  - https://www.linkedin.com/company/shift-crypto
-  - https://www.facebook.com/Shiftcrypto
+- https://www.linkedin.com/company/shift-crypto
+- https://www.facebook.com/Shiftcrypto
 redirect_from:
 ---
 

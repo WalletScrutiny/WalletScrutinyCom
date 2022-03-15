@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinCorner
 social:
-  - https://www.facebook.com/CoinCorner
+- https://www.facebook.com/CoinCorner
 redirect_from:
 ---
 

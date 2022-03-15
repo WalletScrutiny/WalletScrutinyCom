@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Mercuryo_io
 social:
-  - https://www.linkedin.com/company/mercuryo-io
-  - https://www.facebook.com/mercuryo.io
-  - https://www.reddit.com/r/mercuryo
+- https://www.linkedin.com/company/mercuryo-io
+- https://www.facebook.com/mercuryo.io
+- https://www.reddit.com/r/mercuryo
 ---
 
 This app has a strong focus on cashing in and out with linked cards and low

@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: TokenizeM
 social:
-  - https://www.facebook.com/tokenizemalaysia
+- https://www.facebook.com/tokenizemalaysia
 redirect_from:
 ---
 

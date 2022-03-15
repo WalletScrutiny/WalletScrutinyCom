@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: QuarashiN
 social:
-  - https://www.linkedin.com/company/quarashi-network
-  - https://www.facebook.com/QuarashiNetwork
-  - https://www.reddit.com/r/Quarashinetwork
+- https://www.linkedin.com/company/quarashi-network
+- https://www.facebook.com/QuarashiNetwork
+- https://www.reddit.com/r/Quarashinetwork
 redirect_from:
 ---
 

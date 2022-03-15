@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: FameexGlobal
 social:
-  - https://www.facebook.com/FAMEEXGLOBAL
+- https://www.facebook.com/FAMEEXGLOBAL
 ---
 
 {% include copyFromAndroid.html %}

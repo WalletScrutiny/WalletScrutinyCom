@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: krakenfx
 social:
-  - https://www.linkedin.com/company/krakenfx
-  - https://www.facebook.com/KrakenFX
-  - https://www.reddit.com/r/Kraken
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
+- https://www.reddit.com/r/Kraken
 redirect_from:
 ---
 

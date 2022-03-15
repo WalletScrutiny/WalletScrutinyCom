@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: SwipeWallet
 social:
-  - https://www.facebook.com/Swipe
+- https://www.facebook.com/Swipe
 ---
 
 **Update 2021-07-06**: The app looks abandoned. It was:

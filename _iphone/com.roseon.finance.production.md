@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: RoseonFinance
 social:
-  - https://www.facebook.com/Roseon.Finance
+- https://www.facebook.com/Roseon.Finance
 ---
 
 {% include copyFromAndroid.html %}

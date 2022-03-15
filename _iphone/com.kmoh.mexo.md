@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: mexo_io
 social:
-  - https://www.linkedin.com/company/mexoio
-  - https://www.facebook.com/mexo.io
+- https://www.linkedin.com/company/mexoio
+- https://www.facebook.com/mexo.io
 ---
 
 {% include copyFromAndroid.html %}

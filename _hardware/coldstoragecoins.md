@@ -27,9 +27,9 @@ signer:
 reviewArchive: 
 twitter: coldstoragecoin
 social: 
-  - https://www.linkedin.com/company/rearden-metals/
-  - https://www.instagram.com/coldstoragecoins/?hl=en
-  - https://www.facebook.com/coldstoragecoins
+- https://www.linkedin.com/company/rearden-metals/
+- https://www.instagram.com/coldstoragecoins/?hl=en
+- https://www.facebook.com/coldstoragecoins
 ---
 
 Singapore based Rearden Metals Pte Ltd touts what it calls its Blockchain Mint service along with its Cold Storage Coins. It is uncanny in its resemblance to the original:

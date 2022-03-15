@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: capitalcom
 social:
-  - https://www.linkedin.com/company/capital.com
-  - https://www.facebook.com/capitalcom
+- https://www.linkedin.com/company/capital.com
+- https://www.facebook.com/capitalcom
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: StormGain_com
 social:
-  - https://www.facebook.com/StormGain.official
+- https://www.facebook.com/StormGain.official
 redirect_from:
 ---
 

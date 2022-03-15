@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: prizmbit
 social:
-  - https://www.facebook.com/prizmbit
+- https://www.facebook.com/prizmbit
 redirect_from:
 ---
 

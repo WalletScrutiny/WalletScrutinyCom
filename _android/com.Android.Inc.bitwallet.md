@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitwalletinc
 social:
-  - https://www.facebook.com/BitWalletInc
+- https://www.facebook.com/BitWalletInc
 redirect_from:
   - /com.Android.Inc.bitwallet/
   - /posts/com.Android.Inc.bitwallet/

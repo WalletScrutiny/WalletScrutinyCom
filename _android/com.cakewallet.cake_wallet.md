@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: cakewallet
 social:
-  - https://www.facebook.com/cakewallet
-  - https://www.reddit.com/r/cakewallet
+- https://www.facebook.com/cakewallet
+- https://www.reddit.com/r/cakewallet
 redirect_from:
 ---
 

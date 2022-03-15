@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: mercadopago
 social:
-  - https://www.facebook.com/mercadopago
+- https://www.facebook.com/mercadopago
 redirect_from:
 ---
 

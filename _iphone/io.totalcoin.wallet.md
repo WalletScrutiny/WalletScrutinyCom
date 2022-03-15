@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/totalcoin.io
+- https://www.facebook.com/totalcoin.io
 ---
 
 On the wallet's website there is no claim about custodianship which makes us

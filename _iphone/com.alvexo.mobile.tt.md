@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Alvexo_Trade
 social:
-  - https://www.linkedin.com/company/alvexo
+- https://www.linkedin.com/company/alvexo
 ---
 
 {% include copyFromAndroid.html %}

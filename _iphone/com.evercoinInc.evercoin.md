@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: everc0in
 social:
-  - https://www.facebook.com/evercoin
+- https://www.facebook.com/evercoin
 ---
 
 This app's description says:

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: badgerwallet
 social:
-  - https://www.facebook.com/buy.bitcoin.news
+- https://www.facebook.com/buy.bitcoin.news
 redirect_from:
   - /com.badgermobile/
   - /posts/com.badgermobile/

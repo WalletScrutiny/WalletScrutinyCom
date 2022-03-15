@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: FTX_Official
 social:
-  - https://www.facebook.com/ftx.official
+- https://www.facebook.com/ftx.official
 redirect_from:
 ---
 

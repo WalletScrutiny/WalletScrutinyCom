@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Rekeningkucom
 social:
-  - https://www.linkedin.com/company/rekeningku-com
-  - https://www.facebook.com/Rekeningkucom
+- https://www.linkedin.com/company/rekeningku-com
+- https://www.facebook.com/Rekeningkucom
 redirect_from:
 ---
 

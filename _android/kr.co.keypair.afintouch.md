@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: AfinCoin
 social:
-  - https://www.facebook.com/asianfintech
+- https://www.facebook.com/asianfintech
 redirect_from:
 ---
 

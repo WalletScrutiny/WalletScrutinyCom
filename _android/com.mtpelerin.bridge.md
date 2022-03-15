@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: mtpelerin
 social:
-  - https://www.linkedin.com/company/mt-pelerin
-  - https://www.facebook.com/mtpelerin
-  - https://www.reddit.com/r/MtPelerin
+- https://www.linkedin.com/company/mt-pelerin
+- https://www.facebook.com/mtpelerin
+- https://www.reddit.com/r/MtPelerin
 redirect_from:
   - /com.mtpelerin.bridge/
 ---

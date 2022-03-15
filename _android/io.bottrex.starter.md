@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bottrexoficial
 social:
-  - https://www.facebook.com/bottrex
+- https://www.facebook.com/bottrex
 redirect_from:
 ---
 

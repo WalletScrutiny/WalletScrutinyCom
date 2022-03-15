@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Starteos
 social:
-  - https://www.facebook.com/starteos.io.7
+- https://www.facebook.com/starteos.io.7
 redirect_from:
 ---
 

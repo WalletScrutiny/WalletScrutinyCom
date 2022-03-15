@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/NetDania-146001445410373
+- https://www.facebook.com/NetDania-146001445410373
 ---
 
 {% include copyFromAndroid.html %}

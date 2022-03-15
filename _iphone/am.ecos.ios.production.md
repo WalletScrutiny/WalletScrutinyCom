@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ecosmining
 social:
-  - https://www.facebook.com/ecosdefi
+- https://www.facebook.com/ecosdefi
 ---
 
 {% include copyFromAndroid.html %}

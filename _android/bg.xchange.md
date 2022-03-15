@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: xchangebg
 social:
-  - https://www.facebook.com/xchangebg
+- https://www.facebook.com/xchangebg
 redirect_from:
 ---
 

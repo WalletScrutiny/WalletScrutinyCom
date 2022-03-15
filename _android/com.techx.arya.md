@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: TheAryaApp
 social:
-  - https://www.linkedin.com/company/thearyaapp
-  - https://www.facebook.com/WeloveArya
+- https://www.linkedin.com/company/thearyaapp
+- https://www.facebook.com/WeloveArya
 redirect_from:
 ---
 

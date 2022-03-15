@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: dsdaqcom
 social:
-  - https://www.facebook.com/dsdaqcom
+- https://www.facebook.com/dsdaqcom
 ---
 
 {% include copyFromAndroid.html %}

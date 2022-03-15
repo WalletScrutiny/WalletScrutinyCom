@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ILC_B_Project
 social:
-  - https://www.facebook.com/ILCoinBlockchainProject
-  - https://www.reddit.com/r/ILCoin
+- https://www.facebook.com/ILCoinBlockchainProject
+- https://www.reddit.com/r/ILCoin
 redirect_from:
   - /ilcbtc.wallet/
   - /posts/ilcbtc.wallet/

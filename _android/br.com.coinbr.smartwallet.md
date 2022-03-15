@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: stratumhk
 social:
-  - https://www.linkedin.com/company/stratumbr
-  - https://www.facebook.com/stratum.hk
+- https://www.linkedin.com/company/stratumbr
+- https://www.facebook.com/stratum.hk
 redirect_from:
 ---
 

@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: w_fuze
 social: 
-  - https://www.facebook.com/Fuzewcard
+- https://www.facebook.com/Fuzewcard
 ---
 
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.

@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: realMatrixport
 social:
-  - https://www.linkedin.com/company/matrixport
-  - https://www.facebook.com/matrixport
-  - https://www.reddit.com/r/Matrixport
+- https://www.linkedin.com/company/matrixport
+- https://www.facebook.com/matrixport
+- https://www.reddit.com/r/Matrixport
 ---
 
 {% include copyFromAndroid.html %}

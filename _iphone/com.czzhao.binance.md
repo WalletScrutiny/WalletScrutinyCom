@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: binance
 social:
-  - https://www.facebook.com/binance
-  - https://www.reddit.com/r/binance
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
 ---
 
 In the description the provider claims:

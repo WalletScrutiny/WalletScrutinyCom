@@ -114,16 +114,19 @@ function getAppFromHeader(header) {
 function updateFromApp(header, app) {
   if (app == undefined)
     return
+  header.title = app.title || header.title
   header.version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
   header.meta = header.meta || "ok"
   // if api reports an older updated date than what we determined, keep our data
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
     : app.updated
+  header.released = app.released || header.released
   header.stars = app.score
   header.reviews = app.reviews
   header.size = app.size
   header.website = app.developerWebsite || header.website || ""
+  header.date = header.date || new Date()
   helper.updateMeta(header)
 }
 
@@ -169,7 +172,7 @@ reviewArchive:${(header.reviewArchive || []).length > 0
     : "" }
 twitter: ${header.twitter || ""}
 social:${(header.social || []).length > 0
-    ? "\n" + header.social.map((item) => "  - " + item).join("\n")
+    ? "\n" + header.social.map((item) => "- " + item).join("\n")
     : ""}
 ---
 

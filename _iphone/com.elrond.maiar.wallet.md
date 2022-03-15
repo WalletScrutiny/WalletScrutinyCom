@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: getMaiar
 social:
-  - https://www.linkedin.com/company/getmaiar
-  - https://www.facebook.com/getMaiar
+- https://www.linkedin.com/company/getmaiar
+- https://www.facebook.com/getMaiar
 ---
 
 {% include copyFromAndroid.html %}

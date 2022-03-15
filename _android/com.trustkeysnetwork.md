@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: trustkeysglobal
 social:
-  - https://www.facebook.com/trustkeys.network
+- https://www.facebook.com/trustkeys.network
 redirect_from:
 ---
 

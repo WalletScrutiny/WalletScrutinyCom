@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: huobi_korea
 social:
-  - https://www.facebook.com/huobikorea
+- https://www.facebook.com/huobikorea
 redirect_from:
 ---
 

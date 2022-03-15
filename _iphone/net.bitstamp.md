@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Bitstamp
 social:
-  - https://www.linkedin.com/company/bitstamp
-  - https://www.facebook.com/Bitstamp
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
 ---
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/cryptoneedwallet
+- https://www.facebook.com/cryptoneedwallet
 ---
 
 {% include copyFromAndroid.html %}

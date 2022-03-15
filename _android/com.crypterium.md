@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: crypterium
 social:
-  - https://www.facebook.com/crypterium.org
+- https://www.facebook.com/crypterium.org
 redirect_from:
   - /com.crypterium/
 ---

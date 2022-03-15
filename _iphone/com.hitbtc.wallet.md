@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: hitbtc
 social:
-  - https://www.facebook.com/hitbtc
-  - https://www.reddit.com/r/hitbtc
+- https://www.facebook.com/hitbtc
+- https://www.reddit.com/r/hitbtc
 ---
 
 {% include copyFromAndroid.html %}

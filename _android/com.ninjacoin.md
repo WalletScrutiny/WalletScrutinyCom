@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Ninjacoin_org
 social:
-  - https://www.facebook.com/Ninjacoin
-  - https://www.reddit.com/r/Ninjacoin_org
+- https://www.facebook.com/Ninjacoin
+- https://www.reddit.com/r/Ninjacoin_org
 redirect_from:
 ---
 

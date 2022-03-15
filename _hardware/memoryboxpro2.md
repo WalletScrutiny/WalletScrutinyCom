@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: Starteos
 social: 
-  - https://www.facebook.com/starteos.io.7
+- https://www.facebook.com/starteos.io.7
 ---
 
 Announced on [twitter on May 17, 2020](https://twitter.com/Starteosio/status/1129233526597902336), it was difficult to find technical information, documentation, reviews and video reviews of the product. It does however have some Chinese language videos from its official YouTube channel: 

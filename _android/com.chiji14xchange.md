@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: myrocketapp
 social:
-  - https://www.facebook.com/myrocketapp
+- https://www.facebook.com/myrocketapp
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Liquid_Global
 social:
-  - https://www.linkedin.com/company/quoine
-  - https://www.facebook.com/LiquidGlobal
+- https://www.linkedin.com/company/quoine
+- https://www.facebook.com/LiquidGlobal
 redirect_from:
 ---
 

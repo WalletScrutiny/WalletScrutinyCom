@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: stasisnet
 social:
-  - https://www.linkedin.com/company/stasisnet
-  - https://www.facebook.com/stasisnet
+- https://www.linkedin.com/company/stasisnet
+- https://www.facebook.com/stasisnet
 redirect_from:
   - /com.stasis.stasiswallet/
   - /posts/com.stasis.stasiswallet/

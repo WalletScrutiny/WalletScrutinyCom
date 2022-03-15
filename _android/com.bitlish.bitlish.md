@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitlish_com
 social:
-  - https://www.linkedin.com/company/bitlish
-  - https://www.facebook.com/bitlish.english
+- https://www.linkedin.com/company/bitlish
+- https://www.facebook.com/bitlish.english
 redirect_from:
   - /com.bitlish.bitlish/
   - /posts/com.bitlish.bitlish/

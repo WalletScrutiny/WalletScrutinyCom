@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Roinvesting
 social:
-  - https://www.linkedin.com/company/roinvesting
-  - https://www.facebook.com/ROInvesting
+- https://www.linkedin.com/company/roinvesting
+- https://www.facebook.com/ROInvesting
 redirect_from:
 ---
 

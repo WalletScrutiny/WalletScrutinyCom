@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BeaxyExchange
 social:
-  - https://www.facebook.com/beaxyexchange
-  - https://www.reddit.com/r/BeaxyExchange
+- https://www.facebook.com/beaxyexchange
+- https://www.reddit.com/r/BeaxyExchange
 ---
 
 {% include copyFromAndroid.html %}

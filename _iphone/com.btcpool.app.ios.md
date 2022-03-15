@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: btccom_official
 social:
-  - https://www.linkedin.com/company/btc.com
-  - https://www.facebook.com/btccom
+- https://www.linkedin.com/company/btc.com
+- https://www.facebook.com/btccom
 ---
 
 {% include copyFromAndroid.html %}

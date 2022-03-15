@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coinhako
 social:
-  - https://www.linkedin.com/company/coinhako
-  - https://www.facebook.com/coinhako
+- https://www.linkedin.com/company/coinhako
+- https://www.facebook.com/coinhako
 ---
 
 Having a scan over the providers website and faq articles does not reveal any

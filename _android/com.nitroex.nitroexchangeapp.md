@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: NitroExOfficial
 social:
-  - https://www.linkedin.com/company/nitroex
-  - https://www.facebook.com/nitroex.io
-  - https://www.reddit.com/r/nitroexchange
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
 redirect_from:
 ---
 

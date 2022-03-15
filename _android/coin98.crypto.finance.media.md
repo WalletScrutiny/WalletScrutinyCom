@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coin98_wallet
 social:
-  - https://www.facebook.com/Coin98Wallet
+- https://www.facebook.com/Coin98Wallet
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Aladiexchange
 social:
-  - https://www.facebook.com/AladiEx
+- https://www.facebook.com/AladiEx
 redirect_from:
 ---
 

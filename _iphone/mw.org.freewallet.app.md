@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: freewalletorg
 social:
-  - https://www.facebook.com/freewallet.org
+- https://www.facebook.com/freewallet.org
 ---
 
 {% include copyFromAndroid.html %}

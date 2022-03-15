@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: velasblockchain
 social:
-  - https://www.linkedin.com/company/velas-ag
-  - https://www.facebook.com/velasblockchain
+- https://www.linkedin.com/company/velas-ag
+- https://www.facebook.com/velasblockchain
 ---
 
 {% include copyFromAndroid.html %}

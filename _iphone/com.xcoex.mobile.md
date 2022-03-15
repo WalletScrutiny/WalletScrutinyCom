@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: OfficialXcoex
 social:
-  - https://www.facebook.com/xcoex
+- https://www.facebook.com/xcoex
 ---
 
 **Update 2022-01-06**: The app is back online again. 

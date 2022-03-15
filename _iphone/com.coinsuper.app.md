@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Coinsuper_OFCL
 social:
-  - https://www.facebook.com/CoinsuperOFCL
+- https://www.facebook.com/CoinsuperOFCL
 ---
 
 **Update 2022-01-17**: This app is not available anymore.

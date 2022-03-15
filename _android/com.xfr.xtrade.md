@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: XTrade
 social:
-  - https://www.linkedin.com/company/xtrade
-  - https://www.facebook.com/XTrade
+- https://www.linkedin.com/company/xtrade
+- https://www.facebook.com/XTrade
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: WalletXapa
 social:
-  - https://www.facebook.com/walletxapa
+- https://www.facebook.com/walletxapa
 redirect_from:
 ---
 

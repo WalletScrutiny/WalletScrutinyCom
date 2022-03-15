@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: youniqx
 social: 
-  - https://www.linkedin.com/company/youniqx-identity-ag
-  - https://www.facebook.com/YOUNIQXbyOeSD
+- https://www.linkedin.com/company/youniqx-identity-ag
+- https://www.facebook.com/YOUNIQXbyOeSD
 ---
 
 Chainlock is a card wallet. It also advertises that it is "100% offline"

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coincheckjp
 social:
-  - https://www.facebook.com/coincheck
+- https://www.facebook.com/coincheck
 redirect_from:
 ---
 

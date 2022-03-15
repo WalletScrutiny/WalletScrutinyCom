@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: BitKeepOS
 social:
-  - https://www.facebook.com/bitkeep
+- https://www.facebook.com/bitkeep
 ---
 
  {% include copyFromAndroid.html %}

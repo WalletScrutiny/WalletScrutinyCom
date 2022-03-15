@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: Ledger
 social: 
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
 ---
 
 This hardware device still seems to be supported via the Ledger website, however it is not currently being promoted from the websites product range. This hardware device may soon be discontinued.

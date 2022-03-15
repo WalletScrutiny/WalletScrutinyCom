@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: smilesbitcoin
 social:
-  - https://www.facebook.com/smilesbitcoin
+- https://www.facebook.com/smilesbitcoin
 ---
 
 {% include copyFromAndroid.html %}

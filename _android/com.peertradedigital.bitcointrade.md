@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/bitcointrade
-  - https://www.facebook.com/BitcointradeBR
+- https://www.linkedin.com/company/bitcointrade
+- https://www.facebook.com/BitcointradeBR
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ifluxdotapp
 social:
-  - https://www.linkedin.com/company/iflux-pay
+- https://www.linkedin.com/company/iflux-pay
 ---
 
 {% include copyFromAndroid.html %}

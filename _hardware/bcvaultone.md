@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: bc_vault
 social: 
-  - https://www.linkedin.com/company/bcvault
-  - https://www.facebook.com/bcvault
+- https://www.linkedin.com/company/bcvault
+- https://www.facebook.com/bcvault
 ---
 
 ## Private keys can be created offline 

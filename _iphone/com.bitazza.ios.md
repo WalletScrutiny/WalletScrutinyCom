@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitazzaofficial
 social:
-  - https://www.linkedin.com/company/bitazza
-  - https://www.facebook.com/bitazza
+- https://www.linkedin.com/company/bitazza
+- https://www.facebook.com/bitazza
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: PumaPay
 social:
-  - https://www.linkedin.com/company/decentralized-vision
-  - https://www.facebook.com/PumaPayOfficial
+- https://www.linkedin.com/company/decentralized-vision
+- https://www.facebook.com/PumaPayOfficial
 redirect_from:
   - /com.pumapay.pumawallet/
   - /posts/com.pumapay.pumawallet/

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HyperPay_tech
 social:
-  - https://www.facebook.com/hyperpayofficial
+- https://www.facebook.com/hyperpayofficial
 redirect_from:
   - /com.legendwd.hyperpayW/
 ---

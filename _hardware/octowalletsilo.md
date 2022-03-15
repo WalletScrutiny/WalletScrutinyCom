@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: octowallet
 social: 
-  - https://www.facebook.com/OctoWallet-276588143113128
+- https://www.facebook.com/OctoWallet-276588143113128
 ---
 
 The last twitter post of the Octowallet was made on [March 1, 2019.](https://twitter.com/OctoWallet/status/1079365807707086848). The first working prototype was shown on twitter on [August 3, 2018.](https://twitter.com/OctoWallet/status/1025206431505502208). The Youtube video linked-to on the tweet is now removed. 

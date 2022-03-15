@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: wirexapp
 social:
-  - https://www.linkedin.com/company/wirex-limited
-  - https://www.facebook.com/wirexapp
+- https://www.linkedin.com/company/wirex-limited
+- https://www.facebook.com/wirexapp
 redirect_from:
 ---
 

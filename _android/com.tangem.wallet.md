@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: tangem
 social:
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
 redirect_from:
 ---
 

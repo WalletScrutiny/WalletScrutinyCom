@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: PayPal
 social:
-  - https://www.linkedin.com/company/paypal
-  - https://www.facebook.com/PayPal
-  - https://www.reddit.com/r/paypal
+- https://www.linkedin.com/company/paypal
+- https://www.facebook.com/PayPal
+- https://www.reddit.com/r/paypal
 ---
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some

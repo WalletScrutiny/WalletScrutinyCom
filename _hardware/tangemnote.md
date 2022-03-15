@@ -27,9 +27,9 @@ signer:
 reviewArchive: 
 twitter: Tangem
 social: 
-  - https://www.linkedin.com/company/tangem/
-  - https://www.youtube.com/channel/UCFGwLS7yggzVkP6ozte0m1w/featured
-  - https://t.me/tangemcash
+- https://www.linkedin.com/company/tangem/
+- https://www.youtube.com/channel/UCFGwLS7yggzVkP6ozte0m1w/featured
+- https://t.me/tangemcash
 ---
 
 ## Product Description 

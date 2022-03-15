@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: spectrocoin
 social:
-  - https://www.linkedin.com/company/spectrocoin
-  - https://www.facebook.com/spectrocoin
+- https://www.linkedin.com/company/spectrocoin
+- https://www.facebook.com/spectrocoin
 ---
 
 Neither on the description nor on the website can we find any claims about coins

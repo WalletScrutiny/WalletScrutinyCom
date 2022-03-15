@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: thebitfreezer
 social: 
-  - https://www.linkedin.com/company/bitfreezer
-  - https://www.facebook.com/TheBitFreezer
+- https://www.linkedin.com/company/bitfreezer
+- https://www.facebook.com/TheBitFreezer
 ---
 
 Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app on Google Play is also [no longer available](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet). We were also not able to locate links to its public source code.

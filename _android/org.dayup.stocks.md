@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: WebullGlobal
 social:
-  - https://www.linkedin.com/company/webullfinancialllc
+- https://www.linkedin.com/company/webullfinancialllc
 redirect_from:
 ---
 

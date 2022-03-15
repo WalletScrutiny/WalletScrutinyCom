@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BalletCrypto
 social:
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
-  - https://www.reddit.com/r/BalletCrypto
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
+- https://www.reddit.com/r/BalletCrypto
 redirect_from:
 ---
 

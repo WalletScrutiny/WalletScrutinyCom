@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Trade360_LTD
 social:
-  - https://www.linkedin.com/company/trade360ltd
-  - https://www.facebook.com/Trade360LTD
+- https://www.linkedin.com/company/trade360ltd
+- https://www.facebook.com/Trade360LTD
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: jaxx_io
 social:
-  - https://www.facebook.com/JaxxWallet
+- https://www.facebook.com/JaxxWallet
 ---
 
 This app is non-custodial:

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CofinexExchange
 social:
-  - https://www.linkedin.com/company/cofinex-exchange
+- https://www.linkedin.com/company/cofinex-exchange
 ---
 
 {% include copyFromAndroid.html %}

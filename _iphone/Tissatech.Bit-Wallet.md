@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitwalletinc
 social:
-  - https://www.facebook.com/BitWalletInc
+- https://www.facebook.com/BitWalletInc
 ---
 
 This appears to be primarily an exchange and as there are no claims of you being

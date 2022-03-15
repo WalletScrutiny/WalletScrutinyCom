@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: getflitaa
 social:
-  - https://www.facebook.com/getflitaa
+- https://www.facebook.com/getflitaa
 ---
 
 {% include copyFromAndroid.html %}

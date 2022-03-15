@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: shangoapp
 social:
-  - https://www.facebook.com/shangoapp
+- https://www.facebook.com/shangoapp
 redirect_from:
   - /com.shango/
   - /posts/com.shango/

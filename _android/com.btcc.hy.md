@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: YourBTCC
 social:
-  - https://www.linkedin.com/company/yourbtcc
-  - https://www.facebook.com/yourbtcc
-  - https://www.reddit.com/r/YourBTCC
+- https://www.linkedin.com/company/yourbtcc
+- https://www.facebook.com/yourbtcc
+- https://www.reddit.com/r/YourBTCC
 redirect_from:
 ---
 

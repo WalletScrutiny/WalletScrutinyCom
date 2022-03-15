@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Exmo_com
 social:
-  - https://www.facebook.com/exmo.market
+- https://www.facebook.com/exmo.market
 ---
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my

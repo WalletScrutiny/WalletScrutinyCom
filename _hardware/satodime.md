@@ -28,10 +28,10 @@ signer:
 reviewArchive: 
 twitter: satochipwallet
 social: 
-  - https://www.linkedin.com/company/satochip
-  - https://www.reddit.com/r/satochip
-  - https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
-  - https://t.me/Satochip
+- https://www.linkedin.com/company/satochip
+- https://www.reddit.com/r/satochip
+- https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
+- https://t.me/Satochip
 ---
 
 ## Product Description

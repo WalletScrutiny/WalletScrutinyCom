@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/Shiftcrypto
+- https://www.facebook.com/Shiftcrypto
 ---
 
 This product has been superseded by the {% include walletLink.html wallet='hardware/bitBox2' verdict='true' %} device as [stated by the provider](https://shiftcrypto.support/help/en-us/16-bitbox01/143-bitbox01-end-of-sale-life-faqs) it is end of life. Bitbox1 owners can get a discount on the later bitbox2. Bitbox1 is considered discontinued.

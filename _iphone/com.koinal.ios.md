@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: koinal_io
 social:
-  - https://www.linkedin.com/company/koinal-io
-  - https://www.facebook.com/Koinal.io
+- https://www.linkedin.com/company/koinal-io
+- https://www.facebook.com/Koinal.io
 ---
 
 > Secure!<br>

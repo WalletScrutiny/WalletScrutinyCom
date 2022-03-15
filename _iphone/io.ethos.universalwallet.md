@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ethos_io
 social:
-  - https://www.facebook.com/ethosplatform
-  - https://www.reddit.com/r/ethos_io
+- https://www.facebook.com/ethosplatform
+- https://www.reddit.com/r/ethos_io
 ---
 
 They claim:

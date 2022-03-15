@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: tradestation
 social:
-  - https://www.facebook.com/TradeStation
+- https://www.facebook.com/TradeStation
 redirect_from:
 ---
 

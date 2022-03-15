@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: buycoins_africa
 social:
-  - https://www.facebook.com/buycoinsafrica
+- https://www.facebook.com/buycoinsafrica
 redirect_from:
 ---
 

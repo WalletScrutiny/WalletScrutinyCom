@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: isunone1
 social:
-  - https://www.linkedin.com/company/isunone
-  - https://www.facebook.com/iSunOne
+- https://www.linkedin.com/company/isunone
+- https://www.facebook.com/iSunOne
 ---
 
 {% include copyFromAndroid.html %}

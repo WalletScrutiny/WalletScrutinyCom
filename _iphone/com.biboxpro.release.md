@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Bibox365
 social:
-  - https://www.linkedin.com/company/biboxexchange
-  - https://www.facebook.com/Bibox2017
-  - https://www.reddit.com/r/Bibox
+- https://www.linkedin.com/company/biboxexchange
+- https://www.facebook.com/Bibox2017
+- https://www.reddit.com/r/Bibox
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: GetCoinZoom
 social:
-  - https://www.linkedin.com/company/coinzoomhq
-  - https://www.facebook.com/CoinZoom
+- https://www.linkedin.com/company/coinzoomhq
+- https://www.facebook.com/CoinZoom
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Itezofficial
 social:
-  - https://www.facebook.com/itezofficial
+- https://www.facebook.com/itezofficial
 redirect_from:
 ---
 

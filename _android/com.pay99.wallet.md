@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: voude99
 social:
-  - https://www.linkedin.com/company/99app
-  - https://www.facebook.com/voude99
+- https://www.linkedin.com/company/99app
+- https://www.facebook.com/voude99
 redirect_from:
 ---
 

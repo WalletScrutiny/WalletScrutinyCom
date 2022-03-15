@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: DigiFinex
 social:
-  - https://www.linkedin.com/company/digifinex-global
-  - https://www.facebook.com/digifinex.global
-  - https://www.reddit.com/r/DigiFinex
+- https://www.linkedin.com/company/digifinex-global
+- https://www.facebook.com/digifinex.global
+- https://www.reddit.com/r/DigiFinex
 redirect_from:
   - /com.digifinex.app/
 ---

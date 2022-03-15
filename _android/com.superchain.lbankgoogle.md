@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: LBank_Exchange
 social:
-  - https://www.linkedin.com/company/lbank
-  - https://www.facebook.com/LBank.info
+- https://www.linkedin.com/company/lbank
+- https://www.facebook.com/LBank.info
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: klever_io
 social:
-  - https://www.linkedin.com/company/klever-app
-  - https://www.facebook.com/klever.io
+- https://www.linkedin.com/company/klever-app
+- https://www.facebook.com/klever.io
 ---
 
 {% include copyFromAndroid.html %}

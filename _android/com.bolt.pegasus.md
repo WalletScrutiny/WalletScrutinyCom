@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bolt_global
 social:
-  - https://www.linkedin.com/company/bolt-global
-  - https://www.facebook.com/Global.Bolt
+- https://www.linkedin.com/company/bolt-global
+- https://www.facebook.com/Global.Bolt
 redirect_from:
 ---
 

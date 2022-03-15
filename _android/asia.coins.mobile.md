@@ -31,8 +31,8 @@ reviewArchive:
   verdict: nosource
 twitter: coinsph
 social:
-  - https://www.linkedin.com/company/coins-ph
-  - https://www.facebook.com/coinsph
+- https://www.linkedin.com/company/coins-ph
+- https://www.facebook.com/coinsph
 redirect_from:
   - /coinsph/
   - /asia.coins.mobile/

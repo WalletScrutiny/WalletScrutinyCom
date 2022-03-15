@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BHEXOfficial
 social:
-  - https://www.facebook.com/BHEXOfficial
+- https://www.facebook.com/BHEXOfficial
 redirect_from:
 ---
 

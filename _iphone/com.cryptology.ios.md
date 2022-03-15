@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Cryptologyexch
 social:
-  - https://www.facebook.com/Cryptologyexch
+- https://www.facebook.com/Cryptologyexch
 ---
 
 {% include copyFromAndroid.html %}

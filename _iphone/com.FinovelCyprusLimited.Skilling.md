@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: SkillingTrading
 social:
-  - https://www.linkedin.com/company/skilling
-  - https://www.facebook.com/SkillingTrading
+- https://www.linkedin.com/company/skilling
+- https://www.facebook.com/SkillingTrading
 ---
 
 {% include copyFromAndroid.html %}

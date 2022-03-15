@@ -11,7 +11,7 @@ version: "v4.1.3"
 binaries: 
 dimensions: [88, 51, 9]
 weight: 30
-provider: Coinkite
+provider: "Coinkite"
 providerWebsite: https://coinkite.com/
 website: https://coldcard.com/
 shop: https://store.coinkite.com/store/coldcard
@@ -33,7 +33,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: COLDCARDwallet
 social: 
-  - https://t.me/coldcard
+- https://t.me/coldcard
 ---
 
 **Update 2021-09-07**: The provider answered our mails. Here is the full

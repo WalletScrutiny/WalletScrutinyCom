@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coinburp
 social:
-  - https://www.linkedin.com/company/coinburp
-  - https://www.facebook.com/thecoinburp
+- https://www.linkedin.com/company/coinburp
+- https://www.facebook.com/thecoinburp
 redirect_from:
 ---
 

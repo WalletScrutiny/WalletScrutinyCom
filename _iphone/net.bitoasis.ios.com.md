@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitoasis
 social:
-  - https://www.linkedin.com/company/bitoasis-technologies-fze
-  - https://www.facebook.com/bitoasis
+- https://www.linkedin.com/company/bitoasis-technologies-fze
+- https://www.facebook.com/bitoasis
 ---
 
 {% include copyFromAndroid.html %}

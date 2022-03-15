@@ -171,8 +171,8 @@ reviewArchive:
   verdict: reproducible
 twitter: Blockstream
 social:
-  - https://www.linkedin.com/company/blockstream
-  - https://www.facebook.com/Blockstream
+- https://www.linkedin.com/company/blockstream
+- https://www.facebook.com/Blockstream
 redirect_from:
   - /greenwallet/
   - /com.greenaddress.greenbits_android_wallet/

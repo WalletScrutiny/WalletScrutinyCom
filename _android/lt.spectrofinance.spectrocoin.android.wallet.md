@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: spectrocoin
 social:
-  - https://www.linkedin.com/company/spectrocoin
-  - https://www.facebook.com/spectrocoin
+- https://www.linkedin.com/company/spectrocoin
+- https://www.facebook.com/spectrocoin
 redirect_from:
 ---
 

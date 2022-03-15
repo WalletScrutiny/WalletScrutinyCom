@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: trustkeysglobal
 social:
-  - https://www.facebook.com/trustkeys.network
+- https://www.facebook.com/trustkeys.network
 ---
 
 **Update 2021-10-30**: This app is no more.

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: WazirxIndia
 social:
-  - https://www.linkedin.com/company/wazirx
-  - https://www.facebook.com/wazirx
+- https://www.linkedin.com/company/wazirx
+- https://www.facebook.com/wazirx
 ---
 
 As this exchange allows holding your BTC in the app such

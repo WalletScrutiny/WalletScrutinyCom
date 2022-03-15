@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: walletofsatoshi
 social:
-  - https://www.facebook.com/walletofsatoshi
+- https://www.facebook.com/walletofsatoshi
 redirect_from:
   - /walletofsatoshi/
   - /com.livingroomofsatoshi.wallet/

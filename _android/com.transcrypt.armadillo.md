@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: TizerWallet
 social:
-  - https://www.linkedin.com/company/tizer-wallet
-  - https://www.facebook.com/tizerwallet
+- https://www.linkedin.com/company/tizer-wallet
+- https://www.facebook.com/tizerwallet
 redirect_from:
 ---
 

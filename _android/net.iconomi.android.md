@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: iconomicom
 social:
-  - https://www.linkedin.com/company/iconominet
-  - https://www.facebook.com/iconomicom
-  - https://www.reddit.com/r/ICONOMI
+- https://www.linkedin.com/company/iconominet
+- https://www.facebook.com/iconomicom
+- https://www.reddit.com/r/ICONOMI
 redirect_from:
 ---
 

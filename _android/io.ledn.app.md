@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: hodlwithLedn
 social:
-  - https://www.linkedin.com/company/ledn-inc
-  - https://www.facebook.com/Ledn.io
+- https://www.linkedin.com/company/ledn-inc
+- https://www.facebook.com/Ledn.io
 redirect_from:
 ---
 

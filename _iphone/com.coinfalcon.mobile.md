@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: coinfalcon
 social:
-  - https://www.facebook.com/CoinFalcon
-  - https://www.reddit.com/r/CoinFalcon
+- https://www.facebook.com/CoinFalcon
+- https://www.reddit.com/r/CoinFalcon
 ---
 
 In the description we read:

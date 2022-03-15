@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: quickxprotocol
 social:
-  - https://www.linkedin.com/company/quickx
-  - https://www.facebook.com/quickxprotocol
-  - https://www.reddit.com/r/QuickX
+- https://www.linkedin.com/company/quickx
+- https://www.facebook.com/quickxprotocol
+- https://www.reddit.com/r/QuickX
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: XcelPayWallet
 social:
-  - https://www.linkedin.com/company/in/xcelpaywallet
-  - https://www.facebook.com/xcelpay
+- https://www.linkedin.com/company/in/xcelpaywallet
+- https://www.facebook.com/xcelpay
 ---
 
 This wallet has no claim of being non-custodial in the app's description.

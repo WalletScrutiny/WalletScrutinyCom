@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/upbit-official
-  - https://www.facebook.com/upbit.exchange
+- https://www.linkedin.com/company/upbit-official
+- https://www.facebook.com/upbit.exchange
 ---
 
 {% include copyFromAndroid.html %}

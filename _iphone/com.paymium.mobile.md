@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: paymium
 social:
-  - https://www.linkedin.com/company/paymium
-  - https://www.facebook.com/Paymium
+- https://www.linkedin.com/company/paymium
+- https://www.facebook.com/Paymium
 ---
 
 {% include copyFromAndroid.html %}

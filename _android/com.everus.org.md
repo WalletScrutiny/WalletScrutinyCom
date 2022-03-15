@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: everusworld
 social:
-  - https://www.linkedin.com/company/everusworld
-  - https://www.facebook.com/EverusWorld
+- https://www.linkedin.com/company/everusworld
+- https://www.facebook.com/EverusWorld
 redirect_from:
 ---
 

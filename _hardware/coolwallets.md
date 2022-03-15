@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: coolwallet
 social: 
-  - https://www.facebook.com/coolwallet
+- https://www.facebook.com/coolwallet
 ---
 
 ## Update Verdict 2021-12-08

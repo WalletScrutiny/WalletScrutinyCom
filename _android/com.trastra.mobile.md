@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Trastra_ltd
 social:
-  - https://www.linkedin.com/company/trastra
-  - https://www.facebook.com/trastra.ltd
+- https://www.linkedin.com/company/trastra
+- https://www.facebook.com/trastra.ltd
 redirect_from:
 ---
 

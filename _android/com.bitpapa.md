@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitpapa_com
 social:
-  - https://www.facebook.com/bitpapacom
+- https://www.facebook.com/bitpapacom
 redirect_from:
 ---
 

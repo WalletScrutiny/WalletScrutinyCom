@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: getcoinjar
 social:
-  - https://www.linkedin.com/company/coinjar
-  - https://www.facebook.com/CoinJar
+- https://www.linkedin.com/company/coinjar
+- https://www.facebook.com/CoinJar
 redirect_from:
 ---
 

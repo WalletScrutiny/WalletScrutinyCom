@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Wunder_bit
 social:
-  - https://www.facebook.com/wunderbit.co
+- https://www.facebook.com/wunderbit.co
 redirect_from:
 ---
 

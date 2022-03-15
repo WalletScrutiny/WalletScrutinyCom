@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitvoExchange
 social:
-  - https://www.linkedin.com/company/bitvoexchange
-  - https://www.facebook.com/BitvoExchange
+- https://www.linkedin.com/company/bitvoexchange
+- https://www.facebook.com/BitvoExchange
 ---
 
 {% include copyFromAndroid.html %}

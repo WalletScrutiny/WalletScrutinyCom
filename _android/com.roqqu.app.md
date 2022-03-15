@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: roqqupay
 social:
-  - https://www.facebook.com/roqqupay
+- https://www.facebook.com/roqqupay
 redirect_from:
 ---
 

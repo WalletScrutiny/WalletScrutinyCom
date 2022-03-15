@@ -32,7 +32,7 @@ reviewArchive:
   verdict: custodial
 twitter: chivowallet
 social:
-  - https://www.facebook.com/ChivoWalletSLV
+- https://www.facebook.com/ChivoWalletSLV
 redirect_from:
 ---
 

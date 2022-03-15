@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: paybito
 social:
-  - https://www.facebook.com/paybito
+- https://www.facebook.com/paybito
 ---
 
 {% include copyFromAndroid.html %}

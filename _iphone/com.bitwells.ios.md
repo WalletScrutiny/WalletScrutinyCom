@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitwells
 social:
-  - https://www.facebook.com/Bitwells
+- https://www.facebook.com/Bitwells
 ---
 
 {% include copyFromAndroid.html %}

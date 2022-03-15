@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ChainEXIO
 social:
-  - https://www.linkedin.com/company/chainexio
-  - https://www.facebook.com/ChainEXIO
+- https://www.linkedin.com/company/chainexio
+- https://www.facebook.com/ChainEXIO
 redirect_from:
 ---
 

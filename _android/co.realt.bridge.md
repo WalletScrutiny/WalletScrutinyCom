@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: RealTPlatform
 social:
-  - https://www.linkedin.com/company/realtplatform
+- https://www.linkedin.com/company/realtplatform
 redirect_from:
 ---
 

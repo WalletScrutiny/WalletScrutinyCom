@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: coinbase
 social:
-  - https://www.facebook.com/coinbase
+- https://www.facebook.com/coinbase
 ---
 
 {% include copyFromAndroid.html %}

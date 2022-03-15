@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BithumbOfficial
 social:
-  - https://www.facebook.com/bithumb
+- https://www.facebook.com/bithumb
 redirect_from:
 ---
 

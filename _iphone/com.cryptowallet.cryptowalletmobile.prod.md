@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: cryptowalletcom
 social:
-  - https://www.linkedin.com/company/cryptowallet-com
-  - https://www.facebook.com/cryptowalletcom
-  - https://www.reddit.com/r/CryptoWallet_com
+- https://www.linkedin.com/company/cryptowallet-com
+- https://www.facebook.com/cryptowalletcom
+- https://www.reddit.com/r/CryptoWallet_com
 ---
 
 {% include copyFromAndroid.html %}

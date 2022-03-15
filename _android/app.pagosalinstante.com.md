@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: paiexchange
 social:
-  - https://www.facebook.com/paiexchange
+- https://www.facebook.com/paiexchange
 redirect_from:
 ---
 

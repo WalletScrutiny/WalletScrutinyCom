@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: flitpayofficial
 social:
-  - https://www.facebook.com/flitpay
+- https://www.facebook.com/flitpay
 redirect_from:
 ---
 

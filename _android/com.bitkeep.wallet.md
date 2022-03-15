@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BitKeepOS
 social:
-  - https://www.facebook.com/bitkeep
+- https://www.facebook.com/bitkeep
 redirect_from:
   - /com.bitkeep.wallet/
 ---

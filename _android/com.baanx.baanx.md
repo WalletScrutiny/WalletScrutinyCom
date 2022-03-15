@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: baanx_bxx
 social:
-  - https://www.facebook.com/baanxapp
+- https://www.facebook.com/baanxapp
 redirect_from:
 ---
 

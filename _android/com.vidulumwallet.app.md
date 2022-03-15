@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: VidulumApp
 social:
-  - https://www.facebook.com/VidulumTeam
-  - https://www.reddit.com/r/VidulumOfficial
+- https://www.facebook.com/VidulumTeam
+- https://www.reddit.com/r/VidulumOfficial
 redirect_from:
   - /com.vidulumwallet.app/
   - /posts/com.vidulumwallet.app/

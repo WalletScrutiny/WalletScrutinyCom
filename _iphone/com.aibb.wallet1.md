@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: BLOCKBANKapp
 social:
-  - https://www.facebook.com/blockbank
+- https://www.facebook.com/blockbank
 ---
 
 **Update 2021-11-03**: This app is no more.

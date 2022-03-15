@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitpieWallet
 social:
-  - https://www.facebook.com/BitpieOfficial
-  - https://www.reddit.com/r/BitpieWallet
+- https://www.facebook.com/BitpieOfficial
+- https://www.reddit.com/r/BitpieWallet
 ---
 
  {% include copyFromAndroid.html %}

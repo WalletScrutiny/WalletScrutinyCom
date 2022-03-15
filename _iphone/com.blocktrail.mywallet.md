@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: btccom_official
 social:
-  - https://www.facebook.com/btccom
+- https://www.facebook.com/btccom
 ---
 
 **Update 2022-02-22**: This app is not available anymore.

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ChangeNOW_io
 social:
-  - https://www.facebook.com/ChangeNOW.io
-  - https://www.reddit.com/r/ChangeNOW_io
+- https://www.facebook.com/ChangeNOW.io
+- https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
   - /io.changenow.changenow/
 ---

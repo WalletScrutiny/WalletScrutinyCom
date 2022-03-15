@@ -27,9 +27,9 @@ signer:
 reviewArchive: 
 twitter: onekeyhq
 social: 
-  - https://discord.gg/onekey
-  - https://weibo.com/yourKeysyourBitcoin
-  - https://www.reddit.com/r/OneKeyHQ/
+- https://discord.gg/onekey
+- https://weibo.com/yourKeysyourBitcoin
+- https://www.reddit.com/r/OneKeyHQ/
 ---
 
 ## Product Description 

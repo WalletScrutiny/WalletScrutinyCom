@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: paymuchbetter
 social:
-  - https://www.linkedin.com/company/mir-muchbetter
-  - https://www.facebook.com/paymuchbetter
+- https://www.linkedin.com/company/mir-muchbetter
+- https://www.facebook.com/paymuchbetter
 redirect_from:
 ---
 

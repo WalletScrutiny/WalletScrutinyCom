@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitcoinSuisseAG
 social:
-  - https://www.linkedin.com/company/bitcoin-suisse-ag
-  - https://www.facebook.com/BitcoinSuisse
+- https://www.linkedin.com/company/bitcoin-suisse-ag
+- https://www.facebook.com/BitcoinSuisse
 ---
 
 {% include copyFromAndroid.html %}

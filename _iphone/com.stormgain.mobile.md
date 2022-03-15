@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: StormGain_com
 social:
-  - https://www.facebook.com/StormGain.official
+- https://www.facebook.com/StormGain.official
 ---
 
 This app's description mainly focuses on trading and interest earning, features

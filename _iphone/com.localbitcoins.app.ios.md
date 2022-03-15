@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: LocalBitcoins
 social:
-  - https://www.linkedin.com/company/localbitcoins
-  - https://www.facebook.com/LocalBitcoinsCom
+- https://www.linkedin.com/company/localbitcoins
+- https://www.facebook.com/LocalBitcoinsCom
 ---
 
 {% include copyFromAndroid.html %}

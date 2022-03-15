@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: diviproject
 social:
-  - https://www.facebook.com/diviproject
-  - https://www.reddit.com/r/DiviProject
+- https://www.facebook.com/diviproject
+- https://www.reddit.com/r/DiviProject
 redirect_from:
 ---
 

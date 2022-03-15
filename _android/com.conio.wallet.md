@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: conio
 social:
-  - https://www.linkedin.com/company/conio
-  - https://www.facebook.com/ConioHQ
+- https://www.linkedin.com/company/conio
+- https://www.facebook.com/ConioHQ
 redirect_from:
   - /com.conio.wallet/
   - /posts/com.conio.wallet/

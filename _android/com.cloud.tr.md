@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BinanceTR
 social:
-  - https://www.facebook.com/TRBinanceTR
+- https://www.facebook.com/TRBinanceTR
 redirect_from:
 ---
 

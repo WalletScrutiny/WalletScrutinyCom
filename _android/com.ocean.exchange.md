@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: OceanexOfficial
 social:
-  - https://www.facebook.com/OceanExPROOfficial
-  - https://www.reddit.com/r/OceanExOfficial
+- https://www.facebook.com/OceanExPROOfficial
+- https://www.reddit.com/r/OceanExOfficial
 redirect_from:
 ---
 

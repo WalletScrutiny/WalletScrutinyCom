@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: spot_bitcoin
 social:
-  - https://www.linkedin.com/company/spot-bitcoin
-  - https://www.facebook.com/spot.bitcoin
+- https://www.linkedin.com/company/spot-bitcoin
+- https://www.facebook.com/spot.bitcoin
 ---
 
 On their website we read:

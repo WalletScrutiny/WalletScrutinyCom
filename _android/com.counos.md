@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: counoscoin
 social:
-  - https://www.linkedin.com/company/counosplatform
-  - https://www.facebook.com/CounosPlatform
+- https://www.linkedin.com/company/counosplatform
+- https://www.facebook.com/CounosPlatform
 redirect_from:
 ---
 

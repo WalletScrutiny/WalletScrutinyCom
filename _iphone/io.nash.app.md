@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: nashsocial
 social:
-  - https://www.linkedin.com/company/nashsocial
+- https://www.linkedin.com/company/nashsocial
 ---
 
 This statement in the description from the [App store](https://apps.apple.com/us/app/nash-app/id1475759236?mt=8) below is a claim only the user has access to the private keys.

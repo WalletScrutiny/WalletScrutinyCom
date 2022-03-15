@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Blockstream
 social:
-  - https://www.linkedin.com/company/blockstream
-  - https://www.facebook.com/Blockstream
+- https://www.linkedin.com/company/blockstream
+- https://www.facebook.com/Blockstream
 ---
 
 The description in the App Store is not explicit about the app being

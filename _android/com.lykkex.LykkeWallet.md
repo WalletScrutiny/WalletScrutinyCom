@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: Lykke
 social:
-  - https://www.linkedin.com/company/lykke
-  - https://www.facebook.com/LykkeCity
-  - https://www.reddit.com/r/lykke
+- https://www.linkedin.com/company/lykke
+- https://www.facebook.com/LykkeCity
+- https://www.reddit.com/r/lykke
 redirect_from:
 ---
 

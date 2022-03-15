@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinUs_Official
 social:
-  - https://www.facebook.com/CoinUsOfficial
+- https://www.facebook.com/CoinUsOfficial
 redirect_from:
 ---
 

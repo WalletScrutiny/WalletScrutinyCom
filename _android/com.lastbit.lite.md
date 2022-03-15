@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: lastbitpay
 social:
-  - https://www.facebook.com/lastbitpay
+- https://www.facebook.com/lastbitpay
 redirect_from:
 ---
 

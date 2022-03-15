@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: remitano
 social:
-  - https://www.linkedin.com/company/Remitano
-  - https://www.facebook.com/remitano
+- https://www.linkedin.com/company/Remitano
+- https://www.facebook.com/remitano
 ---
 
 This app is an interface to an exchange which holds your coins. On the App Store

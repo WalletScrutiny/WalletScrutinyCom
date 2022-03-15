@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ripioapp
 social:
-  - https://www.linkedin.com/company/ripio
-  - https://www.facebook.com/RipioApp
+- https://www.linkedin.com/company/ripio
+- https://www.facebook.com/RipioApp
 redirect_from:
   - /ripio/
   - /com.ripio.android/

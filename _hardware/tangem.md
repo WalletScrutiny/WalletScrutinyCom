@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: tangem
 social: 
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

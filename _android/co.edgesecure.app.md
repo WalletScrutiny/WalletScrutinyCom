@@ -32,8 +32,8 @@ reviewArchive:
   verdict: ftbfs
 twitter: edgewallet
 social:
-  - https://www.linkedin.com/company/edgeapp
-  - https://www.reddit.com/r/EdgeWallet
+- https://www.linkedin.com/company/edgeapp
+- https://www.reddit.com/r/EdgeWallet
 redirect_from:
   - /edge/
   - /co.edgesecure.app/

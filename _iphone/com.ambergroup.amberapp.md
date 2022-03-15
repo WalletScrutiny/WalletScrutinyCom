@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ambergroup_io
 social:
-  - https://www.linkedin.com/company/amberbtc
-  - https://www.facebook.com/ambergroup.io
+- https://www.linkedin.com/company/amberbtc
+- https://www.facebook.com/ambergroup.io
 ---
 
 {% include copyFromAndroid.html %}

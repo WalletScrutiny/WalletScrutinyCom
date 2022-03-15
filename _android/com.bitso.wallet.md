@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Bitso
 social:
-  - https://www.facebook.com/bitsoex
+- https://www.facebook.com/bitsoex
 redirect_from:
   - /com.bitso.wallet/
 ---

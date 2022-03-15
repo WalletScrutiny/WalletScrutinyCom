@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: myetherwallet
 social:
-  - https://www.linkedin.com/company/myetherwallet
-  - https://www.facebook.com/MyEtherWallet
-  - https://www.reddit.com/r/MyEtherWallet
+- https://www.linkedin.com/company/myetherwallet
+- https://www.facebook.com/MyEtherWallet
+- https://www.reddit.com/r/MyEtherWallet
 ---
 
 {% include copyFromAndroid.html %}

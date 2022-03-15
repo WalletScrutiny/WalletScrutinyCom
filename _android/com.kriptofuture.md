@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/Kriptofuture
+- https://www.facebook.com/Kriptofuture
 redirect_from:
 ---
 

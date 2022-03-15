@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: coindealcom
 social:
-  - https://www.linkedin.com/company/coindealcom
-  - https://www.facebook.com/coindealcom
+- https://www.linkedin.com/company/coindealcom
+- https://www.facebook.com/coindealcom
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

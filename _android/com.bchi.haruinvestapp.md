@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: haruinvest
 social:
-  - https://www.facebook.com/haruinvest
+- https://www.facebook.com/haruinvest
 redirect_from:
 ---
 

@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nosource
 twitter: atomicwallet
 social:
-  - https://www.facebook.com/atomicwallet
+- https://www.facebook.com/atomicwallet
 redirect_from:
 ---
 

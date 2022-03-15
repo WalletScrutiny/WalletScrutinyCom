@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: coin_loan
 social:
-  - https://www.linkedin.com/company/coinloan
-  - https://www.facebook.com/coinloan.project
-  - https://www.reddit.com/r/coinloan
+- https://www.linkedin.com/company/coinloan
+- https://www.facebook.com/coinloan.project
+- https://www.reddit.com/r/coinloan
 redirect_from:
 ---
 

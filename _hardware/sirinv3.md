@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: SIRINLABS
 social: 
-  - https://www.linkedin.com/company/sirin-labs
-  - https://www.facebook.com/SirinLabs
+- https://www.linkedin.com/company/sirin-labs
+- https://www.facebook.com/SirinLabs
 ---
 
 <div class="alertBox"><div>

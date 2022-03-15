@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: bitbns
 social:
-  - https://www.linkedin.com/company/bitbnsinc
-  - https://www.facebook.com/bitbns
-  - https://www.reddit.com/r/Bitbns
+- https://www.linkedin.com/company/bitbnsinc
+- https://www.facebook.com/bitbns
+- https://www.reddit.com/r/Bitbns
 ---
 
 From their linkedin page:

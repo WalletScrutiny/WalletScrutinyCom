@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: vivid_en
 social:
-  - https://www.linkedin.com/company/vividmoney
-  - https://www.facebook.com/vivid.money.en
+- https://www.linkedin.com/company/vividmoney
+- https://www.facebook.com/vivid.money.en
 redirect_from:
 ---
 

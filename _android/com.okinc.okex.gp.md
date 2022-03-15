@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: OKEx
 social:
-  - https://www.facebook.com/okexofficial
-  - https://www.reddit.com/r/OKEx
+- https://www.facebook.com/okexofficial
+- https://www.reddit.com/r/OKEx
 redirect_from:
   - /com.okinc.okex.gp/
   - /posts/com.okinc.okex.gp/

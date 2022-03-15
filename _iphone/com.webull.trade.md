@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: WebullGlobal
 social:
-  - https://www.linkedin.com/company/webullfinancialllc
+- https://www.linkedin.com/company/webullfinancialllc
 ---
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.

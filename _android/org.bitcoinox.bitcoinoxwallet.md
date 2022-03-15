@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitcoin_ox
 social:
-  - https://www.facebook.com/bitcoinoxwallet
+- https://www.facebook.com/bitcoinoxwallet
 redirect_from:
   - /org.bitcoinox.bitcoinoxwallet/
   - /posts/org.bitcoinox.bitcoinoxwallet/

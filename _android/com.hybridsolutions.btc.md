@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: VertexFXTrader
 social:
-  - https://www.linkedin.com/company/hybrid-solutions-hs-
-  - https://www.facebook.com/VertexFXTrader
+- https://www.linkedin.com/company/hybrid-solutions-hs-
+- https://www.facebook.com/VertexFXTrader
 redirect_from:
 ---
 

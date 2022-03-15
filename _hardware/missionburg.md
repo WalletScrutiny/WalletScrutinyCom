@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: missionburg
 social: 
-  - https://www.facebook.com/missiontech.io
+- https://www.facebook.com/missiontech.io
 ---
 
 The missiontech.io domain is offline. There are also no copies of it from the web archive. Its [twitter account](https://twitter.com/missionburg) has also not posted any material. Its facebook page has only posted cover pictures. Without product specification, information or announcements we cannot adequately analyze this product.

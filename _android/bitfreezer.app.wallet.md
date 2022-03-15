@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/TheBitFreezer
+- https://www.facebook.com/TheBitFreezer
 redirect_from:
 ---
 

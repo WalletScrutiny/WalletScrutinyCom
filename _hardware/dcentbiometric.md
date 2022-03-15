@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: DCENTwallets
 social: 
-  - https://www.facebook.com/DcentWalletGlobal
+- https://www.facebook.com/DcentWalletGlobal
 ---
 
 ## Private keys can be created offline - ✔️

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: DiDimessage
 social:
-  - https://www.facebook.com/DiDi-Message-105506995020030
+- https://www.facebook.com/DiDi-Message-105506995020030
 redirect_from:
 ---
 

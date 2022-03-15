@@ -30,7 +30,7 @@ reviewArchive:
   verdict: custodial
 twitter: Poloniex
 social:
-  - https://www.facebook.com/poloniex
+- https://www.facebook.com/poloniex
 ---
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto

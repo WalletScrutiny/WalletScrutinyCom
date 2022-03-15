@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ChangeNOW_io
 social:
-  - https://www.facebook.com/ChangeNOW.io
-  - https://www.reddit.com/r/ChangeNOW_io
+- https://www.facebook.com/ChangeNOW.io
+- https://www.reddit.com/r/ChangeNOW_io
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

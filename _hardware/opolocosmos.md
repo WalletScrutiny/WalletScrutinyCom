@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: OpoloWallet
 social: 
-  - https://www.linkedin.com/company/opolo-ltd
-  - https://www.facebook.com/opolo.wallet.3
+- https://www.linkedin.com/company/opolo-ltd
+- https://www.facebook.com/opolo.wallet.3
 ---
 
 This wallet is on pre-order and hence has not been released yet.

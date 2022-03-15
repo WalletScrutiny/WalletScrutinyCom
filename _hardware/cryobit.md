@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: cryobit
 social: 
-  - https://www.reddit.com/user/CryoBit_co/
-  - https://www.facebook.com/cryobit/
+- https://www.reddit.com/user/CryoBit_co/
+- https://www.facebook.com/cryobit/
 ---
 
  **Note:** There are [external](https://bisprofiles.com/fl/cryobit-l14000004402) [sources](https://www.corporationwiki.com/p/2eins3/cryobit-llc) that state that Cryobit LLC is inactive. The website is also outdated as the copyright reads "2017" and all the products are listed as "out of stock".

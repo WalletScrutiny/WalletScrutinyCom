@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/EsecuBit
+- https://www.facebook.com/EsecuBit
 ---
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.esecubit.com).

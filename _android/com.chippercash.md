@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: chippercashapp
 social:
-  - https://www.facebook.com/Chippercashapp
+- https://www.facebook.com/Chippercashapp
 redirect_from:
 ---
 

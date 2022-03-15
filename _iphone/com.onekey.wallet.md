@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: OneKeyHQ
 social:
-  - https://www.reddit.com/r/OneKeyHQ
+- https://www.reddit.com/r/OneKeyHQ
 ---
 
 **Update 2022-02-26**: This app is not available anymore.

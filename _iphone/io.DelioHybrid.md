@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: happydelio
 social:
-  - https://www.facebook.com/delio.io
+- https://www.facebook.com/delio.io
 ---
 
 {% include copyFromAndroid.html %}

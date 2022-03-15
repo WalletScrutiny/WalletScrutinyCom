@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Bitso
 social:
-  - https://www.facebook.com/bitsoex
+- https://www.facebook.com/bitsoex
 ---
 
 Bitso appears to be an exchange and their statement on security on their website

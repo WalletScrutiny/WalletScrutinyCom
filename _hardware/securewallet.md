@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: ecomi_
 social: 
-  - https://www.linkedin.com/company/ecomi-technology
-  - https://www.facebook.com/ecomi.ecosystem
+- https://www.linkedin.com/company/ecomi-technology
+- https://www.facebook.com/ecomi.ecosystem
 ---
 
 **NOTE:** Secure Wallet is temporarily sold out.

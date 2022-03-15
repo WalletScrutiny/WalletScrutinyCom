@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: bitfinex
 social:
-  - https://www.linkedin.com/company/bitfinex
-  - https://www.facebook.com/bitfinex
-  - https://www.reddit.com/r/bitfinex
+- https://www.linkedin.com/company/bitfinex
+- https://www.facebook.com/bitfinex
+- https://www.reddit.com/r/bitfinex
 redirect_from:
 ---
 

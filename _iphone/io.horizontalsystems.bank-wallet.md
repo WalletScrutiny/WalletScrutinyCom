@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: unstoppablebyhs
 social:
-  - https://www.reddit.com/r/UNSTOPPABLEWallet
+- https://www.reddit.com/r/UNSTOPPABLEWallet
 ---
 
 The provider claims:

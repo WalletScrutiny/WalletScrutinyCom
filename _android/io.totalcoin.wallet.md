@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/totalcoin.io
+- https://www.facebook.com/totalcoin.io
 redirect_from:
   - /totalcoin/
   - /io.totalcoin.wallet/

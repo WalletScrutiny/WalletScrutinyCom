@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: LunoGlobal
 social:
-  - https://www.linkedin.com/company/lunoglobal
-  - https://www.facebook.com/luno
+- https://www.linkedin.com/company/lunoglobal
+- https://www.facebook.com/luno
 ---
 
 This app's Android version had a clear statement about being custodial in the

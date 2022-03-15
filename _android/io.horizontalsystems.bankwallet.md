@@ -171,7 +171,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: unstoppablebyhs
 social:
-  - https://www.reddit.com/r/UNSTOPPABLEWallet
+- https://www.reddit.com/r/UNSTOPPABLEWallet
 redirect_from:
   - /io.horizontalsystems.bankwallet/
   - /posts/io.horizontalsystems.bankwallet/

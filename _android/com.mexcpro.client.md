@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: MEXC_Global
 social:
-  - https://www.linkedin.com/company/mexcglobal
-  - https://www.facebook.com/mexcglobal
-  - https://www.reddit.com/r/MXCexchange
+- https://www.linkedin.com/company/mexcglobal
+- https://www.facebook.com/mexcglobal
+- https://www.reddit.com/r/MXCexchange
 redirect_from:
 ---
 

@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: BalletCrypto
 social: 
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
 ---
 
 The Ballet Crypto Pro is the third product from the Ballet Crypto series. 

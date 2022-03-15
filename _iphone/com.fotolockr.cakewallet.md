@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: cakewallet
 social:
-  - https://www.facebook.com/cakewallet
-  - https://www.reddit.com/r/cakewallet
+- https://www.facebook.com/cakewallet
+- https://www.reddit.com/r/cakewallet
 ---
 
 **Update 2021-04-14**: They now do have a public issue tracker and

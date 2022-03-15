@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: tokoinindonesia
 social:
-  - https://www.facebook.com/tokoinindonesia
+- https://www.facebook.com/tokoinindonesia
 redirect_from:
 ---
 

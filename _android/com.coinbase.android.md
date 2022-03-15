@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: coinbase
 social:
-  - https://www.linkedin.com/company/coinbase
-  - https://www.facebook.com/Coinbase
-  - https://www.reddit.com/r/CoinBase
+- https://www.linkedin.com/company/coinbase
+- https://www.facebook.com/Coinbase
+- https://www.reddit.com/r/CoinBase
 redirect_from:
   - /coinbase/
   - /com.coinbase.android/

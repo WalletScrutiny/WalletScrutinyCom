@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/ace.exchange.tw
+- https://www.facebook.com/ace.exchange.tw
 ---
 
 {% include copyFromAndroid.html %}

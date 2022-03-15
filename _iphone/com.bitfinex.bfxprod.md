@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: bitfinex
 social:
-  - https://www.linkedin.com/company/bitfinex
-  - https://www.facebook.com/bitfinex
-  - https://www.reddit.com/r/bitfinex
+- https://www.linkedin.com/company/bitfinex
+- https://www.facebook.com/bitfinex
+- https://www.reddit.com/r/bitfinex
 ---
 
 From a security standpoint, this app appears to be doing something right: The

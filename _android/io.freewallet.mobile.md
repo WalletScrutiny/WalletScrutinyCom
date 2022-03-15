@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: freewallet
 social:
-  - https://www.facebook.com/freewallet.io
+- https://www.facebook.com/freewallet.io
 redirect_from:
   - /io.freewallet.mobile/
 ---

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coinspotau
 social:
-  - https://www.facebook.com/coinspotau
+- https://www.facebook.com/coinspotau
 redirect_from:
 ---
 

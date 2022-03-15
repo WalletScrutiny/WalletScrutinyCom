@@ -119,6 +119,7 @@ function getAppFromHeader(header) {
 function updateFromApp(header, app) {
   if (app == undefined)
     return
+  header.title = app.title || header.title
   header.version = (app.version || "various").replace(/["\\]*/g, "") // strip " and \ that won't be missed in the version string
   header.released = header.released || app.released
   if ( (header.verdict == "" || header.verdict == "wip" ) && app.minInstalls < 1000 ) {
@@ -132,10 +133,12 @@ function updateFromApp(header, app) {
     ? header.updated
     : app.updated
   header.users = app.minInstalls
+  header.released = app.released || header.released
   header.stars = app.score
   header.reviews = app.reviews
   header.size = app.size
   header.website = app.developerWebsite || header.website || ""
+  header.date = header.date || new Date()
   helper.updateMeta(header)
 }
 
@@ -182,7 +185,7 @@ reviewArchive:${(header.reviewArchive || []).length > 0
     : "" }
 twitter: ${header.twitter || ""}
 social:${(header.social || []).length > 0
-    ? "\n" + header.social.map((item) => "  - " + item).join("\n")
+    ? "\n" + header.social.map((item) => "- " + item).join("\n")
     : ""}
 redirect_from:${(header.redirect_from || []).length > 0
     ? "\n" + header.redirect_from.map((item) => "  - " + item).join("\n")

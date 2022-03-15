@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: FinanceChainge
 social:
-  - https://www.linkedin.com/company/chainge-finance
-  - https://www.facebook.com/chainge.finance
+- https://www.linkedin.com/company/chainge-finance
+- https://www.facebook.com/chainge.finance
 redirect_from:
 ---
 

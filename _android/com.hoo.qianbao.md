@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Hoo_exchange
 social:
-  - https://www.facebook.com/hooexchange
-  - https://www.reddit.com/r/HooExchange
+- https://www.facebook.com/hooexchange
+- https://www.reddit.com/r/HooExchange
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ibkr
 social:
-  - https://www.linkedin.com/company/interactive-brokers
-  - https://www.facebook.com/InteractiveBrokers
+- https://www.linkedin.com/company/interactive-brokers
+- https://www.facebook.com/InteractiveBrokers
 redirect_from:
 ---
 

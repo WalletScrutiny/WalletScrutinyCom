@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinCloudATM
 social:
-  - https://www.facebook.com/coincloudATM
+- https://www.facebook.com/coincloudATM
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitFlyer
 social:
-  - https://www.facebook.com/bitflyer
+- https://www.facebook.com/bitflyer
 redirect_from:
 ---
 

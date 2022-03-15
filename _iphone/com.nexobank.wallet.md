@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: NexoFinance
 social:
-  - https://www.facebook.com/nexofinance
-  - https://www.reddit.com/r/Nexo
+- https://www.facebook.com/nexofinance
+- https://www.reddit.com/r/Nexo
 ---
 
 In the description on the App Store we read:

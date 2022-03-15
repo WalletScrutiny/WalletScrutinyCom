@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: coolwallet
 social: 
-  - https://www.facebook.com/coolwallet
+- https://www.facebook.com/coolwallet
 ---
 
 This device, running weeks on a single charge connects to its companion app on

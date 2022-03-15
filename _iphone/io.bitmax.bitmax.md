@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AscendEX_Global
 social:
-  - https://www.facebook.com/AscendEXOfficial
-  - https://www.reddit.com/r/AscendEX_Official
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/binariumcom
+- https://www.facebook.com/binariumcom
 redirect_from:
 ---
 

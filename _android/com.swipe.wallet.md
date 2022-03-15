@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: SwipeWallet
 social:
-  - https://www.facebook.com/Swipe
+- https://www.facebook.com/Swipe
 redirect_from:
   - /com.swipe.wallet/
 ---

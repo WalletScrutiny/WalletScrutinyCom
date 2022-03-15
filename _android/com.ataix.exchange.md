@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ATAIXcom
 social:
-  - https://www.linkedin.com/company/ataixcom
-  - https://www.facebook.com/ATAIXcom
+- https://www.linkedin.com/company/ataixcom
+- https://www.facebook.com/ATAIXcom
 redirect_from:
 ---
 

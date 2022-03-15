@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: quicrypto
 social:
-  - https://www.facebook.com/Quicrypto
+- https://www.facebook.com/Quicrypto
 redirect_from:
 ---
 

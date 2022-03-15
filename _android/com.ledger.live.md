@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Ledger
 social:
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
 redirect_from:
   - /com.ledger.live/
 ---

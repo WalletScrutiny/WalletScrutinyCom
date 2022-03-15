@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: blubitex
 social:
-  - https://www.facebook.com/blubitexofficial
+- https://www.facebook.com/blubitexofficial
 redirect_from:
 ---
 

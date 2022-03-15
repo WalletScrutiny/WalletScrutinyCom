@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: satochipwallet
 social: 
-  - https://www.linkedin.com/company/satochip
+- https://www.linkedin.com/company/satochip
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

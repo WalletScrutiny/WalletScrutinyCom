@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: BittrexGlobal
 social:
-  - https://www.facebook.com/BittrexGlobal
+- https://www.facebook.com/BittrexGlobal
 ---
 
 This app is an interface to a trading platform:

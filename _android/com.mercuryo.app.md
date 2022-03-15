@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: Mercuryo_io
 social:
-  - https://www.linkedin.com/company/mercuryo-io
-  - https://www.facebook.com/mercuryo.io
-  - https://www.reddit.com/r/mercuryo
+- https://www.linkedin.com/company/mercuryo-io
+- https://www.facebook.com/mercuryo.io
+- https://www.reddit.com/r/mercuryo
 redirect_from:
   - /com.mercuryo.app/
 ---

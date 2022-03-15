@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coinsquare
 social:
-  - https://www.facebook.com/coinsquare.io
+- https://www.facebook.com/coinsquare.io
 redirect_from:
   - /coinsquare.io.coinsquare/
   - /posts/coinsquare.io.coinsquare/

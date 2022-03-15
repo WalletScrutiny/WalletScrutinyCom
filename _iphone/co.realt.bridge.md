@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: RealTPlatform
 social:
-  - https://www.linkedin.com/company/realtplatform
+- https://www.linkedin.com/company/realtplatform
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

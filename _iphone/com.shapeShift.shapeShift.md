@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ShapeShift_io
 social:
-  - https://www.facebook.com/ShapeShiftPlatform
+- https://www.facebook.com/ShapeShiftPlatform
 ---
 
 ShapeShift is best known for their non-custodial exchange but this app appears

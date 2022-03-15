@@ -31,8 +31,8 @@ reviewArchive:
   verdict: nonverifiable
 twitter: bitcoincom
 social:
-  - https://www.facebook.com/buy.bitcoin.news
-  - https://www.reddit.com/r/btc
+- https://www.facebook.com/buy.bitcoin.news
+- https://www.reddit.com/r/btc
 redirect_from:
   - /com.bitcoin.mwallet/
   - /posts/com.bitcoin.mwallet/

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: coinsph
 social:
-  - https://www.linkedin.com/company/coins-ph
-  - https://www.facebook.com/coinsph
+- https://www.linkedin.com/company/coins-ph
+- https://www.facebook.com/coinsph
 ---
 
 The app appears to have tons of features but nowhere can we find a word about

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: chiliz
 social:
-  - https://www.facebook.com/Chilizdotcom
+- https://www.facebook.com/Chilizdotcom
 redirect_from:
 ---
 

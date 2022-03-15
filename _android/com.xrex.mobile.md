@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: xrexinc
 social:
-  - https://www.linkedin.com/company/xrexinc
-  - https://www.facebook.com/xrexinfo
+- https://www.linkedin.com/company/xrexinc
+- https://www.facebook.com/xrexinfo
 redirect_from:
 ---
 

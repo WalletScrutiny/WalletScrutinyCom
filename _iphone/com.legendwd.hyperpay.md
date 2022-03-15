@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: HyperPay_tech
 social:
-  - https://www.facebook.com/hyperpayofficial
+- https://www.facebook.com/hyperpayofficial
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: cakedefi
 social:
-  - https://www.linkedin.com/company/cakedefi
-  - https://www.facebook.com/cakedefi
-  - https://www.reddit.com/r/cakedefi
+- https://www.linkedin.com/company/cakedefi
+- https://www.facebook.com/cakedefi
+- https://www.reddit.com/r/cakedefi
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: tetherland
 social:
-  - https://www.linkedin.com/company/tetherland
-  - https://www.facebook.com/tetherland
+- https://www.linkedin.com/company/tetherland
+- https://www.facebook.com/tetherland
 redirect_from:
 ---
 

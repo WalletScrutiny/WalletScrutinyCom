@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CryptoTabnet
 social:
-  - https://www.facebook.com/CryptoTabFarm
+- https://www.facebook.com/CryptoTabFarm
 redirect_from:
 ---
 

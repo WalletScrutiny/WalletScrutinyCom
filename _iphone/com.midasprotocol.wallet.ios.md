@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: MidasProtocol
 social:
-  - https://www.facebook.com/midasprotocol.io
+- https://www.facebook.com/midasprotocol.io
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Bitstamp
 social:
-  - https://www.linkedin.com/company/bitstamp
-  - https://www.facebook.com/Bitstamp
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
 redirect_from:
 ---
 

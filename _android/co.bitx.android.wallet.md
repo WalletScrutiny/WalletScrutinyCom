@@ -31,8 +31,8 @@ reviewArchive:
   verdict: nosource
 twitter: LunoGlobal
 social:
-  - https://www.linkedin.com/company/lunoglobal
-  - https://www.facebook.com/luno
+- https://www.linkedin.com/company/lunoglobal
+- https://www.facebook.com/luno
 redirect_from:
   - /luno/
   - /co.bitx.android.wallet/

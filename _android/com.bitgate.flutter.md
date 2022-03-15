@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitgatex
 social:
-  - https://www.linkedin.com/company/bitgate
-  - https://www.facebook.com/bitgatex
+- https://www.linkedin.com/company/bitgate
+- https://www.facebook.com/bitgatex
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: valrdotcom
 social:
-  - https://www.linkedin.com/company/valr
-  - https://www.facebook.com/VALRdotcom
+- https://www.linkedin.com/company/valr
+- https://www.facebook.com/VALRdotcom
 redirect_from:
 ---
 
