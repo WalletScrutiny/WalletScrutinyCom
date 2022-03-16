@@ -15,7 +15,7 @@ ratings: 3252
 reviews: 306
 size: 49M
 website: https://www.argent.xyz
-repository: https://github.com/argentlabs/
+repository: 
 issue: 
 icon: im.argent.contractwalletclient.png
 bugbounty: 

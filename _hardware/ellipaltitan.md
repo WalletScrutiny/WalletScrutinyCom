@@ -17,7 +17,7 @@ website: https://www.ellipal.com/pages/coldwallet
 shop: https://www.ellipal.com/products/ellipal-titan
 country: HK
 price: 139USD
-repository: https://github.com/ellipal
+repository: 
 issue: 
 icon: ellipaltitan.png
 bugbounty: 
@@ -29,6 +29,7 @@ reviewArchive:
 twitter: ellipalwallet
 social: 
 - https://www.facebook.com/ellipalclub
+- https://github.com/ellipal
 ---
 
 Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly features. The makers claim that the "chip will delete every data when it detects a breach". 
@@ -61,4 +62,4 @@ Ellipal believes that [open source does not necessarily mean better security](ht
 >
 > Occasionally, open-source can be cracked easily by hackers because the resources, codes, and utilities are readily available. There are many vulnerabilities on open source products such as the Trezor, the most famous open-source hardware wallet. *Ref 1. Unfixable Seed Extraction on Trezor - A practical and reliable attack. **Ref 2. Crack Trezor in 15minutes.
 
-It however, has its "air gapped QR code data format" [available on its Github page](https://github.com/ellipal). 
+They are open about being closed source and thus **not verifiable**.

@@ -17,7 +17,7 @@ ratings: 1252
 reviews: 147
 size: 30M
 website: https://mixin.one/messenger
-repository: https://github.com/MixinNetwork
+repository: https://github.com/MixinNetwork/android-app
 issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 

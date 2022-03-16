@@ -15,7 +15,7 @@ ratings: 756
 reviews: 487
 size: 41M
 website: https://dcentwallet.com/
-repository: https://github.com/DcentWallet
+repository: 
 issue: 
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
+- https://github.com/DcentWallet
 redirect_from:
 ---
 

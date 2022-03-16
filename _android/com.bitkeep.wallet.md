@@ -15,7 +15,7 @@ ratings: 3949
 reviews: 155
 size: 54M
 website: https://bitkeep.com
-repository: https://github.com/bitkeepcom
+repository: 
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
+- https://github.com/bitkeepcom
 redirect_from:
   - /com.bitkeep.wallet/
 ---

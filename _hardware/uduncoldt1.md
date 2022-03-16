@@ -16,7 +16,7 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/uduncloud
+repository: 
 issue: 
 icon: uduncoldt1.png
 bugbounty: 
@@ -30,6 +30,7 @@ social:
 - https://youtube.com/channel/UC7L0QolnaIDfM41nrbt6Uhw
 - https://medium.com/@UdunGlobal
 - https://t.me/UdunWalletTips
+- https://github.com/uduncloud
 ---
 
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.

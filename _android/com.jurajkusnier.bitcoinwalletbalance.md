@@ -15,7 +15,7 @@ ratings: 251
 reviews: 37
 size: 5.0M
 website: http://jurajkusnier.com/
-repository: https://github.com/jurajkusnier/bitcoin-balance-check/
+repository: 
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 

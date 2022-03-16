@@ -14,7 +14,7 @@ stars: 4.63842
 reviews: 177
 size: 55087104
 website: https://alphawallet.com/
-repository: https://github.com/alphawallet
+repository: 
 issue: 
 icon: com.stormbird.alphawallet.jpg
 bugbounty: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Alpha_wallet
 social:
 - https://www.reddit.com/r/AlphaWallet
+- https://github.com/alphawallet
 ---
 
 {% include copyFromAndroid.html %}

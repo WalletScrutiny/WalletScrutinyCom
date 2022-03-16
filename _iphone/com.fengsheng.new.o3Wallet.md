@@ -14,7 +14,7 @@ stars: 3.95455
 reviews: 22
 size: 71157760
 website: https://o3.network
-repository: https://github.com/O3Labs
+repository: 
 issue: 
 icon: com.fengsheng.new.o3Wallet.jpg
 bugbounty: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive:
 twitter: O3_Labs
 social:
+- https://github.com/O3Labs
 ---
 
 {% include copyFromAndroid.html %}

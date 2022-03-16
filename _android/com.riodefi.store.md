@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 25M
 website: https://riodefi.com/
-repository: https://github.com/riodefi
+repository: 
 issue: 
 icon: com.riodefi.store.png
 bugbounty: 
@@ -28,6 +28,7 @@ twitter: riodefiofficial
 social:
 - https://www.linkedin.com/company/riodefiofficial
 - https://www.facebook.com/riodefiofficial
+- https://github.com/riodefi
 redirect_from:
 ---
 

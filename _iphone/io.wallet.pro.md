@@ -14,7 +14,7 @@ stars:
 reviews: 
 size: 63653888
 website: https://pro.wallet.io/
-repository: https://github.com/wallet-io
+repository: 
 issue: 
 icon: io.wallet.pro.jpg
 bugbounty: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive:
 twitter: io_wallet
 social:
+- https://medium.com/@walletio
+- https://github.com/wallet-io
 ---
 
 {% include copyFromAndroid.html %}

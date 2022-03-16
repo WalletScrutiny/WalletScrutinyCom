@@ -14,7 +14,7 @@ stars: 3.61111
 reviews: 18
 size: 82045952
 website: https://wallet.io/
-repository: https://github.com/wallet-io
+repository: 
 issue: 
 icon: io.wallet.ios.jpg
 bugbounty: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive:
 twitter: io_wallet
 social:
+- https://medium.com/@walletio
+- https://github.com/wallet-io
 ---
 
 {% include copyFromAndroid.html %}

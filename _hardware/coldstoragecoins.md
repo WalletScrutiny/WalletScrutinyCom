@@ -16,7 +16,7 @@ website: https://coldstoragecoins.com/
 shop: https://checkout.square.site/buy/LNFSKRHZPZLG3ESNBYQ6HHA6
 country: SG
 price: 24.95USD
-repository: https://github.com/ReardenMetals
+repository: 
 issue: 
 icon: coldstoragecoins.png
 bugbounty: 
@@ -28,8 +28,9 @@ reviewArchive:
 twitter: coldstoragecoin
 social: 
 - https://www.linkedin.com/company/rearden-metals/
-- https://www.instagram.com/coldstoragecoins/?hl=en
+- https://www.instagram.com/coldstoragecoins
 - https://www.facebook.com/coldstoragecoins
+- https://github.com/ReardenMetals
 ---
 
 Singapore based Rearden Metals Pte Ltd touts what it calls its Blockchain Mint service along with its Cold Storage Coins. It is uncanny in its resemblance to the original:

@@ -16,7 +16,7 @@ website:
 shop: https://shop.tangem.com/products/tangem-note
 country: CH
 price: 19.90USD
-repository: https://github.com/Tangem
+repository: 
 issue: 
 icon: tangemnote.png
 bugbounty: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/tangem/
 - https://www.youtube.com/channel/UCFGwLS7yggzVkP6ozte0m1w/featured
 - https://t.me/tangemcash
+- https://github.com/tangem
 ---
 
 ## Product Description 

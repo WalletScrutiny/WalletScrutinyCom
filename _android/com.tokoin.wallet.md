@@ -15,7 +15,7 @@ ratings: 576
 reviews: 6
 size: Varies with device
 website: https://tokoin.io
-repository: https://github.com/tokoinofficial
+repository: 
 issue: 
 icon: com.tokoin.wallet.png
 bugbounty: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: tokoinindonesia
 social:
 - https://www.facebook.com/tokoinindonesia
+- https://github.com/tokoinofficial
 redirect_from:
 ---
 

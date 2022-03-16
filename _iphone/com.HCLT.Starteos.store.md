@@ -14,7 +14,7 @@ stars: 4
 reviews: 7
 size: 107711488
 website: http://starteos.io
-repository: https://github.com/StarteosIO
+repository: 
 issue: 
 icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Starteos
 social:
 - https://www.facebook.com/starteos.io.7
+- https://github.com/StarteosIO
 ---
 
 {% include copyFromAndroid.html %}

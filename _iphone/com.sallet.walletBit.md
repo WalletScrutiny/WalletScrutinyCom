@@ -14,7 +14,7 @@ stars: 5
 reviews: 2
 size: 15938560
 website: https://www.salletone.com
-repository: https://github.com/SalletOne/
+repository: 
 issue: 
 icon: com.sallet.walletBit.jpg
 bugbounty: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: salletone
 social:
 - https://www.facebook.com/salletone
+- https://github.com/SalletOne
 ---
 
 {% include copyFromAndroid.html %}

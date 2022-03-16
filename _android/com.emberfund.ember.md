@@ -15,7 +15,7 @@ ratings: 1026
 reviews: 167
 size: 60M
 website: https://www.emberfund.io/
-repository: https://github.com/ember-fund
+repository: 
 issue: 
 icon: com.emberfund.ember.jpg
 bugbounty: 
@@ -26,6 +26,7 @@ signer:
 reviewArchive:
 twitter: Ember_Fund
 social:
+- https://github.com/ember-fund
 redirect_from:
 ---
 

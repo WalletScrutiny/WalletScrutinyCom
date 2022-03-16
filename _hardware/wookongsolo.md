@@ -17,7 +17,7 @@ website: https://wooko.ng/en/solo
 shop: https://wooko.ng/en/solo
 country: CH
 price: 
-repository: https://github.com/extropiescom
+repository: 
 issue: 
 icon: wookongsolo.png
 bugbounty: 

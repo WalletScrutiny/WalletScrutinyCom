@@ -17,7 +17,7 @@ website: https://www.jubiterwallet.com/index.html
 shop: https://www.amazon.com/gp/product/B07K446Y57
 country: CN
 price: 79USD
-repository: https://github.com/JubiterWallet
+repository: 
 issue: 
 icon: jubiterblade.png
 bugbounty: 
@@ -30,6 +30,7 @@ twitter: JuBiterWallet
 social: 
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
+- https://github.com/JubiterWallet
 ---
 
 {{ page.title }} is a credit card sized device with buttons and screen that

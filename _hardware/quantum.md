@@ -17,7 +17,7 @@ website: https://security-arts.com/home
 shop: https://security-arts.com/order
 country: UA
 price: 49USD
-repository: https://github.com/SecurityArts
+repository: 
 issue: https://github.com/SecurityArts/QuantumManager/issues/14
 icon: quantum.png
 bugbounty: 
@@ -28,6 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+- https://github.com/SecurityArts
 ---
 
 Security Arts' is a Ukrainian company. As of November 26, 2021, the [device is out of stock](https://security-arts.com/order).

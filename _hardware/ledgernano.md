@@ -17,7 +17,7 @@ website:
 shop: 
 country: FR
 price: 
-repository: https://github.com/LedgerHQ
+repository: 
 issue: 
 icon: ledgernano.png
 bugbounty: 
@@ -30,6 +30,9 @@ twitter: Ledger
 social: 
 - https://www.linkedin.com/company/ledgerhq
 - https://www.facebook.com/Ledger
+- https://www.instagram.com/ledger
+- https://www.youtube.com/Ledger
+- https://www.tiktok.com/@ledger
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)

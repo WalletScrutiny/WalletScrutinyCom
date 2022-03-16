@@ -14,7 +14,7 @@ stars: 4.49597
 reviews: 1488
 size: 126953472
 website: https://www.argent.xyz
-repository: https://github.com/argentlabs/
+repository: 
 issue: 
 icon: im.argent.wallet.jpg
 bugbounty: 

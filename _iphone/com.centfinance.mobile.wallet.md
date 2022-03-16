@@ -14,7 +14,7 @@ stars: 3
 reviews: 2
 size: 52142080
 website: https://cent.finance
-repository: https://github.com/centfinance
+repository: 
 issue: 
 icon: com.centfinance.mobile.wallet.jpg
 bugbounty: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive:
 twitter: Cent_Finance
 social:
+- https://github.com/centfinance
 ---
 
 {% include copyFromAndroid.html %}

@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 22M
 website: https://www.salletone.com
-repository: https://github.com/SalletOne/
+repository: 
 issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: salletone
 social:
 - https://www.facebook.com/salletone
+- https://github.com/SalletOne
 redirect_from:
 ---
 

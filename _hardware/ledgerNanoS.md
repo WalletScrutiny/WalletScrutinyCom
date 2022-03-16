@@ -16,7 +16,7 @@ website: https://www.ledger.com/
 shop: https://shop.ledger.com/products/ledger-nano-s
 country: FR
 price: 45999CLP
-repository: https://github.com/LedgerHQ
+repository: https://github.com/LedgerHQ/app-bitcoin
 issue: 
 icon: ledgerNanoS.png
 bugbounty: 
@@ -30,6 +30,9 @@ social:
 - https://www.linkedin.com/company/ledgerhq
 - https://www.facebook.com/Ledger
 - https://www.reddit.com/r/ledgerwallet
+- https://www.instagram.com/ledger
+- https://www.youtube.com/Ledger
+- https://www.tiktok.com/@ledger
 ---
 
 Ledger has this to say about their technology:

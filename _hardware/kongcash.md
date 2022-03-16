@@ -16,7 +16,7 @@ website: https://kong.cash/
 shop: 
 country: 
 price: 
-repository: https://github.com/kong-org
+repository: 
 issue: 
 icon: kongcash.png
 bugbounty: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: kongiscash
 social: 
+- https://github.com/kong-org
 ---
 
 Description from its specification **[paper](https://ipfs.io/ipfs/QmbHnwBuM7Y41Q1DqnMDRx8yQ1aCMtqVka9biPY6cjWogq)**

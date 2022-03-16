@@ -15,7 +15,7 @@ ratings: 81868
 reviews: 5718
 size: 54M
 website: https://exodus.com/mobile
-repository: https://github.com/exodusmovement
+repository: 
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
+- https://github.com/exodusmovement
 redirect_from:
 ---
 

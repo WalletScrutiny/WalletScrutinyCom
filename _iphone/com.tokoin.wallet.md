@@ -14,7 +14,7 @@ stars: 4.5
 reviews: 2
 size: 52303872
 website: https://www.tokoin.io/
-repository: https://github.com/tokoinofficial
+repository: 
 issue: 
 icon: com.tokoin.wallet.jpg
 bugbounty: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: tokoinindonesia
 social:
 - https://www.facebook.com/tokoinindonesia
+- https://github.com/tokoinofficial
 ---
 
 {% include copyFromAndroid.html %}

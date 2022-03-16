@@ -16,7 +16,7 @@ website: https://wooko.ng/en/enterprise
 shop: https://wooko.ng/en/enterprise
 country: CH
 price: 
-repository: https://github.com/extropiescom
+repository: 
 issue: 
 icon: wookongenterprise.png
 bugbounty: 

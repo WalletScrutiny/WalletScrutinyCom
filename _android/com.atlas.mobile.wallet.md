@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 14M
 website: http://www.cent.finance
-repository: https://github.com/centfinance
+repository: 
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
@@ -26,6 +26,7 @@ signer:
 reviewArchive:
 twitter: Cent_Finance
 social:
+- https://github.com/centfinance
 redirect_from:
   - /com.atlas.mobile.wallet/
 ---

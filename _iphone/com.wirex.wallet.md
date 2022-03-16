@@ -14,7 +14,7 @@ stars: 5
 reviews: 1
 size: 49846272
 website: https://wirexapp.com/wirex-wallet
-repository: https://github.com/wirexapp
+repository: 
 issue: 
 icon: com.wirex.wallet.jpg
 bugbounty: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive:
 twitter: wirexapp
 social:
+- https://github.com/wirexapp
 ---
 
 {% include copyFromAndroid.html %}

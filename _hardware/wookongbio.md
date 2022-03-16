@@ -17,7 +17,7 @@ website: https://wooko.ng/en/bio
 shop: https://wooko.ng/en/bio
 country: CH
 price: 1099CNY
-repository: https://github.com/extropiescom
+repository: 
 issue: 
 icon: wookongbio.png
 bugbounty: 

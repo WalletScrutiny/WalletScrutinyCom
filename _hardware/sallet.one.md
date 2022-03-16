@@ -17,8 +17,8 @@ website: https://salletone.com/
 shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 country: CN
 price: 100USD
-repository: https://github.com/SalletOne/SalletOne
-issue: https://github.com/SalletOne/SalletOne/issues/1
+repository: https://github.com/SalletOne/sallet-one-cold
+issue: https://github.com/SalletOne/sallet-one-cold/issues/1
 icon: sallet.one.png
 bugbounty: 
 meta: ok
@@ -29,7 +29,6 @@ reviewArchive:
 twitter: SalletOne
 social: 
 - https://www.facebook.com/salletone
-- https://www.linkedin.com/in/sallet-atelas-7b2b75209/
 - https://www.youtube.com/channel/UCBAbHtt_Uk47csOqMC94dEQ
 - https://medium.com/@Sallet_Atelas
 ---

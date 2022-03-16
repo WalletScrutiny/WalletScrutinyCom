@@ -14,7 +14,7 @@ stars: 3.90476
 reviews: 21
 size: 23052288
 website: https://www.wanchain.org
-repository: https://github.com/wanchain
+repository: 
 issue: 
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
@@ -27,6 +27,7 @@ twitter: wanchain_org
 social:
 - https://www.facebook.com/wanchainfoundation
 - https://www.reddit.com/r/wanchain
+- https://github.com/wanchain
 ---
 
 {% include copyFromAndroid.html %}

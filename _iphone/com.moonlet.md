@@ -14,7 +14,7 @@ stars: 5
 reviews: 6
 size: 47066112
 website: https://moonlet.io/
-repository: https://github.com/Moonlet
+repository: 
 issue: 
 icon: com.moonlet.jpg
 bugbounty: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive:
 twitter: moonlet_wallet
 social:
+- https://github.com/Moonlet
 ---
 
 {% include copyFromAndroid.html %}

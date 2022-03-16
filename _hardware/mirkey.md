@@ -17,7 +17,7 @@ website: https://ellipticsecure.com/products/mirkey_overview.html
 shop: https://ellipticsecure.com/order.html
 country: US
 price: 49USD
-repository: https://github.com/ellipticSecure
+repository: 
 issue: 
 icon: mirkey.png
 bugbounty: 
@@ -29,6 +29,7 @@ reviewArchive:
 twitter: 
 social: 
 - https://www.linkedin.com/company/ellipticsecure
+- https://github.com/ellipticSecure
 ---
 
 > The MIRkey is a [FIDO2 Security Key](https://ellipticsecure.com/mirkey/faq/2019/05/28/what-is-a-hardware-security-key.html), multi-purpose [HSM](https://ellipticsecure.com/ehsm/faq/2019/02/09/what-is-a-hardware-security-module.html) and hardware Bitcoin wallet.

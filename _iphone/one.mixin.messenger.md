@@ -16,8 +16,8 @@ stars: 4.79623
 reviews: 265
 size: 66436096
 website: https://mixinmessenger.zendesk.com/
-repository: https://github.com/MixinNetwork
-issue: 
+repository: https://github.com/MixinNetwork/android-app
+issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.jpg
 bugbounty: 
 meta: ok
