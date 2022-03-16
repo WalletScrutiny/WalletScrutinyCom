@@ -1,6 +1,6 @@
 ---
 wsId: Vidulum
-title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
+title: "Vidulum - Crypto Web Wallet"
 altTitle: 
 authors:
 - leo

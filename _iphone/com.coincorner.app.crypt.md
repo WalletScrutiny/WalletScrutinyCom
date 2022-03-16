@@ -7,7 +7,7 @@ authors:
 appId: com.coincorner.app.crypt
 appCountry: 
 idd: 917721788
-released: 2014-09-23
+released: 2014-09-22
 updated: 2022-02-14
 version: "4.0.6"
 stars: 3.88889

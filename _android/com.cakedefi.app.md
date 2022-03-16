@@ -4,7 +4,7 @@ title: "Cake DeFi"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16

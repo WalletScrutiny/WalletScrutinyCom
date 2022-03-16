@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-20
 updated: 2022-01-06
 version: "3.0.2"
-stars: 4.19
+stars: 4.18
 ratings: 13846
-reviews: 290
+reviews: 291
 size: 54M
 website: https://bundle.africa
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: ECOS
-title: "Crypto Miner & Wallet - Ecos"
+title: "Ecos BTC mining, crypto wallet"
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-22
 updated: 2022-03-07
 version: "1.22.5"
-stars: 3.8985507
+stars: 3.9295774
 ratings: 377
-reviews: 47
+reviews: 49
 size: 39M
 website: https://ecos.finance
 repository: 

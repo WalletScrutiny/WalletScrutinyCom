@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: "ZEBEDEE Bitcoin Gaming Wallet"
+title: "ZEBEDEE: Play and earn Bitcoin"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ idd: 1484394401
 released: 2020-11-28
 updated: 2022-03-03
 version: "2.30.2"
-stars: 4.23076
-reviews: 26
+stars: 4.25926
+reviews: 27
 size: 96363520
 website: https://zebedee.io
 repository: 

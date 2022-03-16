@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Kraken - Buy Bitcoin & Crypto"
+title: "Kraken - Buy Crypto & Bitcoin"
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-30
 updated: 2022-03-01
 version: "1.15.0"
-stars: 4.163158
+stars: 4.157623
 ratings: 15716
-reviews: 1934
+reviews: 1935
 size: 89M
 website: https://www.kraken.com
 repository: 

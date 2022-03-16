@@ -1,6 +1,6 @@
 ---
 wsId: MoonXBT
-title: "MoonXBT - Trade BTC Up to 150X"
+title: "MoonXBT - Social Trading"
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.nano.moonxbt
 appCountry: us
 released: 2021-05-11
-updated: 2022-03-04
-version: "3.0.1"
+updated: 2022-03-14
+version: "3.0.6"
 stars: 4.111111
 ratings: 481
 reviews: 9

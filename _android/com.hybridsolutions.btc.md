@@ -4,7 +4,7 @@ title: "BTC VertexFX Trader"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.hybridsolutions.btc
 appCountry: 
 released: 2020-08-24

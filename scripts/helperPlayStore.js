@@ -133,7 +133,6 @@ function updateFromApp(header, app) {
     ? header.updated
     : app.updated
   header.users = app.minInstalls
-  header.released = app.released || header.released
   header.stars = app.score
   header.reviews = app.reviews
   header.size = app.size

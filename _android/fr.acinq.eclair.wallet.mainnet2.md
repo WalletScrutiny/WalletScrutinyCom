@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Eclair Mobile"
+title: "Eclair Mobile (EOL)"
 altTitle: 
 authors:
 - leo

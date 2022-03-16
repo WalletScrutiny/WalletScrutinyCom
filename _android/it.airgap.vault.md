@@ -10,9 +10,9 @@ appCountry:
 released: 2018-08-06
 updated: 2022-02-23
 version: "3.15.0"
-stars: 4.225
+stars: 4.1463413
 ratings: 110
-reviews: 11
+reviews: 12
 size: 69M
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault

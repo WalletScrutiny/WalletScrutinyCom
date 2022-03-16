@@ -10,8 +10,8 @@ idd: 1476837869
 released: 2019-10-21
 updated: 2022-03-04
 version: "3.75.1"
-stars: 4.58381
-reviews: 6473
+stars: 4.58261
+reviews: 6476
 size: 74835968
 website: https://bitbuy.ca/
 repository: 

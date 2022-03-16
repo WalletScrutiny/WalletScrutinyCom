@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: "Nexo - Crypto Account"
+title: "Nexo: Buy BTC, ETH, SOL, AVAX"
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ idd: 1455341917
 released: 2019-06-30
 updated: 2022-03-05
 version: "2.2.21"
-stars: 3.56981
-reviews: 795
+stars: 3.56658
+reviews: 796
 size: 56515584
 website: https://nexo.io
 repository: 

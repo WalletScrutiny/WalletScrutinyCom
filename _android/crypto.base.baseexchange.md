@@ -4,7 +4,7 @@ title: "TechPay Exchange - Cryptocurrency Trading App"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: crypto.base.baseexchange
 appCountry: 
 released: 2019-06-05

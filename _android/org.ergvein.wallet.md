@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: "Ergvein"
+title: "Cypra Bitcoin wallet"
 altTitle: 
 authors:
 
-users: 100
+users: 500
 appId: org.ergvein.wallet
 appCountry: 
 released: 2022-03-14

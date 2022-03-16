@@ -10,8 +10,8 @@ idd: 1471639720
 released: 2019-07-10
 updated: 2022-03-08
 version: "1.43.3"
-stars: 4.85832
-reviews: 1214
+stars: 4.8582
+reviews: 1213
 size: 135430144
 website: https://pro.btcturk.com
 repository: 

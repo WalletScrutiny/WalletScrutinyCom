@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Wunderbit — Crypto Trading Bots & Copy-Trading"
+title: "WunderTrading"
 altTitle: 
 authors:
 - danny

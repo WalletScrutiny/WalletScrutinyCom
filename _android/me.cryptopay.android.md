@@ -10,9 +10,9 @@ appCountry: de
 released: 2017-11-09
 updated: 2022-02-16
 version: "1.36"
-stars: 4.5074625
+stars: 4.521739
 ratings: 1142
-reviews: 31
+reviews: 32
 size: 21M
 website: https://cryptopay.me
 repository: 

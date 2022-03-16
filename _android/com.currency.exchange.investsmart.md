@@ -10,9 +10,9 @@ appCountry: tm
 released: 2020-12-10
 updated: 2022-03-12
 version: "1.22.6"
-stars: 4.3267326
+stars: 4.366337
 ratings: 216
-reviews: 75
+reviews: 71
 size: 17M
 website: https://expcapital.com/
 repository: 

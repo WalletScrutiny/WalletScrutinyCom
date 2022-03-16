@@ -1,6 +1,6 @@
 ---
 wsId: OWNR
-title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
+title: "OWNR Crypto wallet & Visa Card"
 altTitle: 
 authors:
 - leo

@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: "WhaleFin - Buy Crypto&Bitcoin"
+title: "WhaleFin: Buy Crypto & Bitcoin"
 altTitle: 
 authors:
 - danny

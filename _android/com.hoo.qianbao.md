@@ -9,7 +9,7 @@ appId: com.hoo.qianbao
 appCountry: us
 released: 2021-03-17
 updated: 2022-03-14
-version: "4.7.51"
+version: "4.7.53"
 stars: 3.7236843
 ratings: 749
 reviews: 65

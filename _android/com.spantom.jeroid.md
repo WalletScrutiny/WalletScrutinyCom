@@ -4,7 +4,7 @@ title: "Jeroid - Trade Bitcoins & Giftcards in Nigeria"
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.spantom.jeroid
 appCountry: us
 released: 2020-07-05

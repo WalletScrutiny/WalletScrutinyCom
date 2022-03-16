@@ -1,6 +1,6 @@
 ---
 wsId: bittrex
-title: "Bittrex"
+title: "Buy Bitcoin & Crypto | Bittrex"
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: com.bittrex.trade
 appCountry: 
 idd: 1465314783
 released: 2019-12-19
-updated: 2022-03-03
-version: "1.18.1"
-stars: 4.65683
-reviews: 2474
+updated: 2022-03-13
+version: "1.18.2"
+stars: 4.65582
+reviews: 2490
 size: 77549568
 website: https://bittrex.com/mobile
 repository: 

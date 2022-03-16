@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-18
 updated: 2022-02-25
 version: "2.0.7"
-stars: 3.7181818
+stars: 3.7410715
 ratings: 1945
-reviews: 62
+reviews: 64
 size: 47M
 website: https://www.mxc.org
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: ftxus
-title: "FTX.US Pro: Buy, Sell, Trade"
+title: "FTX.US Pro: Trade Crypto"
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-18
 updated: 2022-01-26
 version: "1.1.8"
-stars: 3.49
+stars: 3.4803922
 ratings: 542
-reviews: 244
+reviews: 245
 size: 64M
 website: https://ftx.us/
 repository: 

@@ -121,7 +121,7 @@ function updateFromApp(header, app) {
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
     : app.updated
-  header.released = app.released || header.released
+  header.released = header.released || app.released
   header.stars = app.score
   header.reviews = app.reviews
   header.size = app.size

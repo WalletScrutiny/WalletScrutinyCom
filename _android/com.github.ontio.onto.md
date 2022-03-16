@@ -1,6 +1,6 @@
 ---
 wsId: ONTO
-title: "ONTO - Decentralized Cross-chain Crypto Wallet"
+title: "ONTO Cross-chain Crypto Wallet"
 altTitle: 
 authors:
 - danny

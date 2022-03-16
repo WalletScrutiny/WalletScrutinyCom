@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-06-18
 updated: 2022-01-13
 version: "1.17.9"
-stars: 2.1692412
+stars: 2.19917
 ratings: 2482
-reviews: 791
+reviews: 792
 size: 33M
 website: https://www.tryanchor.com
 repository: 
