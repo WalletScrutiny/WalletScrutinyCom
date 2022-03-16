@@ -37,9 +37,9 @@ The TAPWallet can interface with smart cards using NFC. The private keys are sto
 
 It can interface with a desktop computer through a USB connection. It can also connect with smartphones using Bluetooth. Users have the option to utilize Tapcard smart cards together with the Tapwallet to secure the private key. The Tapwallet [does not allow for the recovery of seed phrases:](http://tapwallet.com/faqs.html)
 
-It has multi-currency support.
-
 > The TAPWallet does not require storage of a 'recovery seed phrase' - which is a weak link of other hardware wallets. 
+
+It has multi-currency support.
 
 ## Analysis 
 

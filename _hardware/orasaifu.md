@@ -36,7 +36,7 @@ The IndieGogo page for this product is now inaccessible, stating:
 
 [Here](https://web.archive.org/web/20190117180758/https://www.indiegogo.com/projects/orasaifu-first-all-in-one-smart-wallet#/) is a link to an archived version of its page.
 
-The website, [orasaifu.io](https://www.orasaifu.io/), is also down.
+[Orasaifu.io](https://www.orasaifu.io/) is also down.
 
 A [Reddit post from 2019](https://www.reddit.com/r/Bitcoin/comments/bh6u0k/indiegogo_project_refunded_their_backers_in/) stated that OraSaifu was planning on refunding their backers with BTC as the project had failed. This was in April 2019.
 
@@ -46,6 +46,6 @@ The author of the post claimed that:
 >
 > And they said at one point that they will refund everybody.
 
-There are still many scam accusations on the comments of OraSaifu's social media pages, with many users saying that they still had not received a refund. [A poster on BitcoinTalk.org](https://bitcointalk.org/index.php?topic=5170463.0) reported this same problem and attached a few images of the refund statement. The original thread was created on July 2019, although the original poster made an update on the thread during November 2019, saying that the money had never returned.
+There are many scam accusations on the comments of OraSaifu's social media pages, with many backers saying that they still had not received a refund. [A poster on BitcoinTalk.org](https://bitcointalk.org/index.php?topic=5170463.0) reported this same problem and attached a few images of the refund statement. The original thread was created in July 2019, although the original poster updated the thread during November 2019, and said that the money had never returned.
 
 This product is **defunct.**

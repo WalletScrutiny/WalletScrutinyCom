@@ -31,7 +31,7 @@ social:
 
 ## Product Description 
 
-From [the online stores:](https://www.stakebox.org/collections/real-crypto/products/bitcoin-holographic-coin)
+From [the online store:](https://www.stakebox.org/collections/real-crypto/products/bitcoin-holographic-coin)
 
 > We bring to you our very first limited edition Bitcoin collector coin. This is a holographic cold storage wallet, allowing you to secure your digital Bitcoin and hold it in physical form.
 
@@ -45,12 +45,13 @@ From the [website's disclaimer:](https://realcrypto.org/hologram-how-tos/bitcoin
 
 > If someone gets a hold of your coin and takes off the hologram, they own your private keys to this wallet. Real Crypto has no liability for your lost, stolen or hacked private keys. These instructions are here to help you stay safe but we make no guarantee that this will prevent hackers from obtaining your private keys. By making a cold storage wallet on a computer and printer that has or will ever be connected to the internet, you must accept a level of risk that your private keys could be compromised. 
 
-The keys may not be prefilled as you're meant to print them yourself but once somebody steals the coin and removes the sticker, there's not much in the way of them stealing your funds altogether.
 
-On another paragraph:
+The webpage has instructions on how to generate QR codes for public and private keys. This involves downloading walletgenerator.net's Github Repository and generating keys offline. 
 
-> You don’t have to put your private keys on the coin. You can take your QR Code deposit address from your ledger nano s, Trezor, Coinbase account or even an exchange and put it on your coin. There is a recessed area on the coin and the hologram will have an air pocket behind it if you don’t have at least one piece of paper behind the hologram. Cut that paper to .37’x.37″ or 9x9mm so it fits correctly in the hologram window. This allows you to still accept crypto from your friends to your other wallet
+The site suggests that users encrypt the private keys:
 
-The design may look nice, but when it comes to security, a coin with a sticker is **not practical to use as a bitcoin wallet.**
+> You have the option of encrypting your private key with BIP38 encryption protocol but you will need to keep that encryption key somewhere off the coin. This is an option if you want further protection from theft or loss of your private keys.
 
-As the online stores selling this product say that it is now out of stock, it appears that {{ page.title }} is **discontinued or defunct.**
+It's unclear how this coin is more secure than a regular paper wallet. The keys may not be prefilled as you're meant to print them yourself but somebody could still steal the coin and easily remove the sticker, thus gaining access to your keys.
+
+{{ page.title }} is also listed as out-of-stock on the online stores selling this product. We're assuming that it is now **discontinued or defunct.**

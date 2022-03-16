@@ -68,7 +68,7 @@ The [general purpose](https://www.smartcard-hsm.com/docs/sc-hsm-4k-datasheet.pdf
 
 ## Analysis 
 
-The Smartcard HSM is not marketed specifically as a Bitcoin hardware wallet. The bitcoin wallet is described as one of the possible [applications](https://www.smartcard-hsm.com/applications.html#bitcoin) for the card: 
+The Smartcard HSM is not marketed specifically as a Bitcoin hardware wallet. The Bitcoin wallet is described as one of the possible [applications](https://www.smartcard-hsm.com/applications.html#bitcoin) for the card: 
 
 > The SmartCard-HSM has build-in support for the secp256k1 Elliptic Curve, the cryptographic algorithm used by Bitcoin.
 >
@@ -95,4 +95,4 @@ Because there was no so-called PKCS#11-aware wallet for smartcards I had to writ
 > 
 > The result is this simple wallet. It shows the transansactions that have unspents, build a tansaction, signs it and sends it to the bitcoin network. It is open source under the GNU General Public License version 3, so you can see what its doing and you can adapt it to your needs.
 
-Both SmartBTC and CardContact's software and firmware are Open Source. It would be a challenging project for a beginner to be able to put the two together. As it is, there is a drawback for the project, the SmartCard-HSM **does not have any input or output interfaces**. This would make it reliant on another device to be able to sign a bitcoin transaction.
+Both SmartBTC and CardContact's software and firmware are open-source. It would be a challenging project for a beginner to be able to put the two together. As it is, there is a drawback for the project, the SmartCard-HSM **does not have any input or output interfaces**. This would make it reliant on another device to be able to sign a bitcoin transaction.

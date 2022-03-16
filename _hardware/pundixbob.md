@@ -37,7 +37,7 @@ From the description:
 
 > Reclaim your data privacy. Call, text & browse securely. With BOB, regain control & own your data.
 
-It looks to be advertised more as a smartphone and less as a hardware wallet.
+It's unclear if this product is meant to be a hardware wallet as there is more information about its features as a smartphone powered by "blockchain tech."
 
 From the Indiegogo page's FAQ, we get more information on the product:
 
@@ -45,9 +45,9 @@ From the Indiegogo page's FAQ, we get more information on the product:
 >
 > BOB is the first smartphone that is powered by blockchain tech allowing users to make calls, send messages, share files and browse the web without a centralized service provider.
 
-Other claims include that it uses the Function X OS, "a dual-mode open source OS running both Android 9.0 and Blockchain mode in parallel." Purportedly, the users will be able to switch between the traditional Android mode to Blockchain mode.
+Other claims include that it uses the Function X OS, "a dual-mode open-source OS running both Android 9.0 and Blockchain mode in parallel." Users would have been able to switch between the traditional Android mode to Blockchain mode.
 
-However the phone also requires a wifi connection or cellular network data to access "the decentralized ecosystem."
+The phone also requires a wifi connection or cellular network data to access "the decentralized ecosystem."
 
 > Once a wifi connection (or a cellular network data) is made, the Function X OS will be able to bypass all centralized service provider within its 'Blockchain" mode, offering users the ability to control their data.
 
@@ -62,6 +62,6 @@ PundiX [has a Medium article](https://morningtick.com/news/pundi-x-unveils-bob-w
 
 ## Verdict
 
-Currently, while there have been working demos featured in videos, there is currently no way to buy this product. PundiX has made a few updates on the IndieGogo page where they mention the delay and uncertainty regarding the phone's production and delivery. They have also offered refunds to backers.
+While there have been working demos featured in videos, there is currently no way to buy this product. PundiX has made a few updates on the IndieGogo page where they mention the delay and uncertainty regarding the phone's production and delivery. They have also offered refunds to backers.
 
-Until further update, this product is listed as **unreleased.**
+Until further update, this product is marked as **unreleased.**

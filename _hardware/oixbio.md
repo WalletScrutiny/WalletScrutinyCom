@@ -45,14 +45,14 @@ social:
 >
 > OiX Bio and its mobile application supports Transport Layer Security (TLS v1.0, TLS v1.1, and TLS v1.2, which supports both AES 128 and SHA-2) and DTLS.
 
-Curiously, OiX Global seems to reference another wallet called "[Yelo One](https://web.archive.org/web/20180902044241/https://yelo.one/)" in its description page:
+Curiously, OiX Global seems to reference another wallet called "[Yelo One](https://web.archive.org/web/20180902044241/https://yelo.one/)" on its description page:
 
 > The private key leaves the wallet in an encrypted form so, there is no real loss of security here. In order to recover that private key you have to pair the new Yelo one device with the installed app and use the same passcode to open the wallet as you did earlier. This will ensure that you get your wallet back in your Yelo one wallet.
 
-Yelo.One also held an ICO.
+Yelo One also held an ICO.
 
 It is also claimed that the hardware wallet is "paired" via BlueTooth to a mobile app. We tried looking for an "OiX Global" or "OiX Bio" mobile app, but could not find any.
 
 ## Analysis 
 
-Apart from the descriptions on the site and in a [YouTube video](https://www.youtube.com/watch?v=7ZdTV78WZtI), we could not locate a specific product information sheet, review or a publicly linked repository to ascertain that the product exists. The referencing of another product in OiX Global's website copy, also gives us pause. Without nominally verifiable information about the product, we determine the Oix.Global Biometric Hardware Wallet to be **unreleased**
+Apart from the descriptions on the site and in a [YouTube video](https://www.youtube.com/watch?v=7ZdTV78WZtI), we could not locate a specific product information sheet, review, or a publicly linked repository to ascertain that the product exists. The referencing of another product in OiX Global's website copy also gives us pause. Without nominally verifiable information about the product, we determine the OiX Global Biometric Hardware Wallet to be **unreleased.**

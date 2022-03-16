@@ -53,6 +53,6 @@ Integrated Digital Security Solutions
 - Ransomware protection
 - Secure social messaging
 
-UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source.
+UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [Twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source.
 
 As of today March 15, 2022, the UKISS hugware is still in the middle of its soft launch. The site still asks for an email address for **Pre-Order discounts and promos**. Documentation, tutorials and other technical information such as private key generation are still not readily available online.  

@@ -81,5 +81,5 @@ External settings chip removed. Setting now internal to MCU (faster, more space 
 
 ## Analysis 
 
-Aesthetically, the ColdCard hardware wallets look physically similar. Note however, that Mark 4 is still in Pre-Order so there may be variations with the Mark 3 that will only become apparent once it is officially released. According to the review of the {% include walletLink.html wallet='hardware/coldcardMk3' %}, there are still some issues that need to be resolved. We asked on twitter if the Mark 4 would be using [firmware version 4.1.3](https://twitter.com/BitcoinWalletz/status/1503293167478931463) or something else. **We would just have to wait until the Mark 4 is officially released.**
+Aesthetically, the ColdCard hardware wallets look physically similar. Note however, that Mark 4 is still in pre-order so there may be variations with the Mark 3 that will only become apparent once it is officially released. According to the review of the {% include walletLink.html wallet='hardware/coldcardMk3' %}, there are still some issues that need to be resolved. We asked on Twitter if the Mark 4 would be using [firmware version 4.1.3](https://twitter.com/BitcoinWalletz/status/1503293167478931463) or something else. **We would just have to wait until the Mark 4 is officially released.**
 
